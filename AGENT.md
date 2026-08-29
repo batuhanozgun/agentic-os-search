@@ -63,8 +63,9 @@ Use this format, with **one route per line**:
 `R01 Varsayımlar: LOAD`  
 `R02 Kullanıcı etkisi: SKIP`  
 `R03 Amaç–yöntem: LOAD`  
-`R04 Doğrulama bağımsızlığı: LOAD`  
-`R05 Kaynak–temsil ayrımı: SKIP`
+`R04 Doğrulama geçerliliği: LOAD`  
+`R05 Kaynak–temsil ayrımı: SKIP`  
+`R06 Nedensel derinlik: LOAD`
 
 The status block exposes **routing outcomes only**, not hidden reasoning or chain-of-thought. Do not provide a rationale for every route by default. Explain a routing decision only when the user asks or when the decision boundary itself is useful to the task.
 
@@ -102,9 +103,9 @@ Protocol:
 
 `agent/protocols/goal-method-end-to-end-validation.md`
 
-### R04 — Verification Independence
+### R04 — Verification Validity
 
-**Could the answer rely on a second-pass review, critique, re-check, or verifier judgment to materially increase confidence in correctness?**
+**Could a review, critique, re-check, test, metric, benchmark, oracle, or verifier judgment materially increase confidence that a claim, artifact, mechanism, or result is correct or effective?**
 
 Protocol:
 
@@ -117,6 +118,14 @@ Protocol:
 Protocol:
 
 `agent/protocols/source-view-fidelity.md`
+
+### R06 — Causal Depth and Root-Cause Validation
+
+**Could the answer depend on diagnosing why a failure occurred or on whether a proposed fix addresses an underlying cause rather than a proximate symptom?**
+
+Protocol:
+
+`agent/protocols/causal-depth-root-cause-validation.md`
 
 ## Protocol Loading Rules
 
