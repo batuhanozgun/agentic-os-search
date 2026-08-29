@@ -1,7 +1,7 @@
 # SOUL Context — STATE
 
 **Durum:** AÇIK  
-**Faz:** 1 — giriş kapıları ve okuma haritası  
+**Faz:** 2 — çalışma düzeninin kök nedenleri  
 **Son güncelleme:** 2026-08-29
 
 ## Ana hedef
@@ -30,17 +30,27 @@
 
 ### `os-architect`
 
-- kök ağaç haritası görüldü.
-- `NEREDE_NE_VAR.md` tam okundu — SHA `049d892677edef0480d7ccf6f37b02b1a363b6de`.
-- `PANO.md` tam okundu — SHA `28a9be2ab5b2cecfa4fb86691bf46d7a0f3ba2c9`.
-- `CLAUDE.md` tam okundu — SHA `2eb682f06d75295facfc58681eb6b9d0123d1342`.
-- `bilgi/INDEKS.md` tam okundu — SHA `19b78442ce12f378dd5ab55dc9829e3505c5760b`.
-- `bilgi/keel/INDEKS.md` tam okundu — SHA `881c2be41c5924c7648fa56d111a26facec8e01b`.
-- `bilgi/calisma-duzeni/INDEKS.md` tam okundu — SHA `1f5cef294d760bac2c86776f876c757568b8bc5a`.
-- Explicit çapa: bu çalışma alanının işi KEEL'i geliştirmek ve bitirmek.
-- İlk sinyal: bilgi mimarisi özellikle uzun ömür, tek-ev, indeks, çıkış/ömür kuralı, mekanik bekçi, kanıt dili ve chat hafızasına güvenmeme problemleri etrafında evrilmiş.
-- `bilgi/keel/INDEKS.md`, kuruluş, otonomi, doğrulama, dış-göz, araştırma seansları ve sahip karar alanı gibi SOUL Research için yüksek bilgi değerli kümeler gösteriyor.
-- `bilgi/calisma-duzeni/INDEKS.md`, araştırma yöntemi, hasım turu, deney, dış-göz, sürdürülebilirlik ve eski alanın çöküşü gibi meta-yöntem kaynaklarını gösteriyor.
+Giriş ve indeksler:
+
+- `NEREDE_NE_VAR.md` — `049d8926` — full.
+- `PANO.md` — `28a9be2a` — full.
+- `CLAUDE.md` — `2eb682f0` — full.
+- `bilgi/INDEKS.md` — `19b78442` — full.
+- `bilgi/keel/INDEKS.md` — `881c2be4` — full.
+- `bilgi/calisma-duzeni/INDEKS.md` — `1f5cef29` — full.
+
+Kök-neden geçişi:
+
+- `bilgi/calisma-duzeni/eski-alanin-cokusu.md` — `5fd38faa` — full.
+- `bilgi/calisma-duzeni/sonsuza-kadar-kullanilabilirlik.md` — `4750e45d` — full.
+
+Doğrulanan maddi bulgular:
+
+- Eski alanın ölçülen çöküşünde aşırı büyük canonical dosyalar, tavansız ham araştırma, arama güvensizliği yüzünden kopya/drift ve farklı ömürlü içeriğin aynı yerde tutulması öne çıkıyor.
+- Yalnız dosya yapısını düzeltmek yeterli görülmemiş; aynı davranış yeni yapılarda tekrar edebiliyor.
+- Uzun ömürlü kullanılabilirlik üç ayrı disiplini gerektiriyor: veri/kütüphane disiplini, danışmanın çalışma disiplini ve ürün geliştirme disiplini.
+- Ortam, danışman ve ürünün rolleri/evleri karıştırılmıyor.
+- Statik hijyen tek başına yeterli olmamış: sistemin hareketi, güncelleme sorumluluğu ve yaşam döngüsü de taşınmadığında çalışma alanı "depo" oluyor fakat "tezgâh" olmuyor.
 
 ## Çalışma hipotezleri — SONUÇ DEĞİL
 
@@ -48,14 +58,27 @@ H1. SOUL Research yalnız "yeni bir agent framework araştırması" değildir; �
 
 H2. KEEL, önemli deney ve mekanizma kanıtı taşısa da yazılım-projesi işletim disiplinidir; SOUL'un genel amaçlı mimarisine doğrudan kopyalanamaz. Ürün-özel mekanizma ile genellenebilir prensip ayrılmalıdır.
 
-H3. `soul` README'sindeki `development/` / `system/` ayrımı, önce sistemin kendisini değil **onu güvenilir biçimde üretecek geliştirme işletim sistemini** kurma ihtiyacının bilinçli sonucu olabilir. Bu gerekçenin kaynağı os-architect ve KEEL geçmişinden doğrulanmalıdır.
+H3. `soul` README'sindeki `development/` / `system/` ayrımı, önce sistemi değil **onu güvenilir biçimde üretecek ve uzun süre geliştirecek çalışma sistemini** kurma ihtiyacının bilinçli sonucu olabilir. İlk iki kök-neden dosyası bu hipotezi güçlendiriyor, ancak henüz doğrudan nedensel bağ kanıtlanmış değil.
+
+H4. SOUL Development OS'nin çözmesi gereken problem yalnız bilgi persistansı olmayabilir; **işin yaşam döngüsünü, güncelleme sorumluluğunu, doğrulamayı ve drift kontrolünü oturumlar arasında taşıma** problemi daha temel olabilir.
+
+## Plan kontrolü
+
+İlk iki A-grubu dosyası mevcut sırayı değiştirmedi. A → B → C → D planı korunuyor.
+
+Gerekçe: mevcut çözüm (KEEL) önce okunursa ürün mekanizmasının problem tanımını peşinen belirlemesi riski var. Önce çalışma düzeninin gerçek failure mode'ları ve araştırma yöntemi anlaşılmalı.
 
 ## En yüksek bilgi değerli sonraki okuma
 
-### A. Çalışma düzeninin neden evrildiğini anla
+### A. Çalışma düzeninin neden evrildiğini anla — DEVAM
+
+Tamamlandı:
 
 1. `os-architect/bilgi/calisma-duzeni/eski-alanin-cokusu.md`
 2. `os-architect/bilgi/calisma-duzeni/sonsuza-kadar-kullanilabilirlik.md`
+
+Sıradaki:
+
 3. `os-architect/bilgi/calisma-duzeni/arastirma-yontemi.md`
 4. `os-architect/bilgi/calisma-duzeni/hasim-turu-yontemi.md`
 5. `os-architect/bilgi/calisma-duzeni/dis-goz-yontemi.md`
@@ -79,17 +102,13 @@ H3. `soul` README'sindeki `development/` / `system/` ayrımı, önce sistemin ke
 
 OS Architect'teki problem/kanıt modeli okunduktan sonra KEEL'de ilgili `tools/guard`, `tools/bekci`, fixture ve sözleşme dosyalarına seçici in.
 
-## Okuma sırası için karar
-
-Bir sonraki turda **A → B → C → D** sırası izlenecek. Gerekçe: önce çalışma alanının neden bu hale geldiğini anlamadan ürün mekanizmasını okumak, mevcut çözümü problem tanımının kendisi sanma riski yaratır.
-
 ## Yeni oturumda devam
 
 1. Canonical `AGENT.md` + routing protokollerini yükle.
 2. `research/soul-context/README.md` oku.
 3. Bu `STATE.md` dosyasını oku.
-4. `repos/os-architect/README.md` dosyasını aç.
-5. A grubunun ilk dosyasından devam et.
+4. `research/soul-context/repos/os-architect/README.md` aç.
+5. `os-architect/bilgi/calisma-duzeni/arastirma-yontemi.md` ile devam et.
 
 ## Henüz yapılmaması gerekenler
 
