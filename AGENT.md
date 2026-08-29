@@ -53,6 +53,10 @@ The routing gate is deliberately auditable in the ChatGPT browser workflow.
 
 After successful bootstrap, the assistant's first user-visible message for each user turn must begin with a compact multiline status block showing the result of every active route. Keep the stable route IDs and `LOAD` / `SKIP` outcomes, and add the short human-readable route labels below so the user does not need to memorize the IDs.
 
+The **final substantive answer must also begin with this status block independently**, even if the same status was already emitted in an earlier progress, commentary, or tool-related message. A routing disclosure shown only in a transient progress/tool surface does **not** satisfy this contract, because such surfaces may not appear as persistent conversation messages in the ChatGPT browser UI.
+
+Do not rely on a separate preamble, progress update, commentary message, or tool-call wrapper as the sole routing disclosure. If no separate progress message is necessary, show the block once at the top of the final answer. If an earlier user-visible progress message is sent, begin that message with the block when possible and repeat the block at the top of the final substantive answer.
+
 Use this format, with **one route per line**:
 
 `Routing gate`  
@@ -62,7 +66,7 @@ Use this format, with **one route per line**:
 
 The status block exposes **routing outcomes only**, not hidden reasoning or chain-of-thought. Do not provide a rationale for every route by default. Explain a routing decision only when the user asks or when the decision boundary itself is useful to the task.
 
-If a later re-gating pass changes the loaded set during the same turn, disclose the added route compactly in the next user-visible update or final answer, using the same human-readable label.
+If a later re-gating pass changes the loaded set during the same turn, disclose the added route compactly in the next user-visible update and reflect the final routing state in the status block at the top of the final substantive answer.
 
 If bootstrap fails, report the bootstrap failure instead of fabricating a routing status.
 
