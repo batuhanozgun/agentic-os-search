@@ -4,7 +4,7 @@
 
 Bir review, eleştiri, re-check, test, metric veya verifier hükmünün ürettiği güveni olduğundan güçlü saymayı önle.
 
-Amaç her doğrulamada farklı model veya farklı ajan kullanmak ya da her testi kusursuz kabul etmek değildir. Amaç, **doğrulamanın hangi hata yollarını gerçekten dışlayabildiğini; ne kadar bağımsız, hata-duyarlı, uygun oracle'a dayalı, kapsamlı, kriter-bütünlüğü korunmuş ve güncel olduğunu değerlendirerek güven artışını hak ettiği seviyede tutmaktır.**
+Amaç her doğrulamada farklı model veya farklı ajan kullanmak ya da her testi kusursuz kabul etmek değildir. Amaç, **doğrulamanın hangi hata yollarını gerçekten dışlayabildiğini; ne kadar bağımsız, hata-duyarlı, uygun oracle'a dayalı, kapsamlı, kriter-bütünlüğü korunmuş, challenge yüzeyi güncel ve verdict'i taze olduğunu değerlendirerek güven artışını hak ettiği seviyede tutmaktır.**
 
 ## Temel Ayrım
 
@@ -20,9 +20,11 @@ Aşağıdakileri birbirine karıştırma:
 - bir kontrolün varlığı ile gerekli çalışma kiplerinde gerçekten devreye girmesi,
 - önceden belirlenmiş başarı ölçütü ile sonucu gördükten sonra uyarlanmış ölçüt,
 - keşifsel bulgu ile önceden belirlenmiş doğrulama,
+- aynı challenge setini tekrar koşmak ile değişen risk yüzeyini yeniden sınamak,
+- azalan bulgu sayısı ile azalan gerçek hata sayısı,
 - geçmişte geçerli bir verdict ile bugün hâlâ geçerli verdict.
 
-Bir doğrulama yararlı olabilir; fakat ürettiği güven yalnız bağımsızlığına değil, yanlış durumda kırmızı verebilmesine, doğru şeyi ölçmesine ve başarı kuralının sonuçtan sonra sessizce değiştirilmemiş olmasına da bağlıdır.
+Bir doğrulama yararlı olabilir; fakat ürettiği güven yalnız bağımsızlığına değil, yanlış durumda kırmızı verebilmesine, doğru şeyi ölçmesine, başarı kuralının sonuçtan sonra sessizce değiştirilmemiş olmasına ve kullanılan challenge'ın hâlâ ilgili hata yüzeyine duyarlı olmasına da bağlıdır.
 
 ## Protokol
 
@@ -141,13 +143,40 @@ Bir güvence teorik olarak doğru olsa bile gerekli çalışma kiplerinde hiç d
 
 değerlendir.
 
-### 8. Verdict Freshness'ını Kontrol Et
+### 8. Doğrulama Ritüelleşmesini ve Challenge Freshness'ını Kontrol Et
+
+Aynı review biçimi, adversarial lens, checklist, fixture seti veya challenge paketi tekrar tekrar kullanıldığında düşük bulgu sayısını otomatik olarak düşük gerçek hata sayısı kabul etme.
+
+Özellikle insan/LLM değerlendirmeleri, adaptif sistemler, değişen ürün yüzeyleri ve sabit fixture'larla yapılan tekrar koşularında şu soruyu sor:
+
+**“Bu doğrulama yöntemi hâlâ bugünkü yük taşıyan hata sınıflarını ayırt edebiliyor mu, yoksa aynı bakış açısı tekrarlandığı için ritüelleşmiş olabilir mi?”**
+
+Şunları kontrol et:
+
+- nesne veya risk yüzeyi değiştiği halde challenge seti aynı mı kaldı,
+- önceki incelemelerde bulunan hata sınıfları kontrol listesini domine edip yeni sınıfları görünmez mi kılıyor,
+- aynı reviewer / prompt / fixture kombinasyonu öğrenilmiş veya öngörülebilir hale gelmiş olabilir mi,
+- bulgu sayısının düşmesi gerçek iyileşmeden mi, verifier körleşmesinden mi kaynaklanıyor,
+- değişiklik-delta'sı biliniyorsa challenge özellikle değişen yüzeye yöneltilmiş mi,
+- nadir fakat yüksek etkili hata sınıfları düşük frekans nedeniyle challenge'dan düşmüş mü.
+
+Gerekliyse challenge'ı değişiklik-delta'sına, yeni failure mode'lara, karşı örneklere veya holdout/variant örneklere göre tazele.
+
+Ancak şu ayrımı koru:
+
+**Deterministik, kapsamı ve oracle'ı açık, ilgili hata sınıfına karşı hâlâ duyarlı bir test sırf tekrarlandığı için bayat değildir.**
+
+Ama kod, veri, risk yüzeyi, fixture dağılımı veya tehdit modeli maddi biçimde değiştiyse sabit test setinin hâlâ yeterli coverage taşıdığını yeniden değerlendir.
+
+Ritüelleşme riski özellikle doğrulama yönteminin kendi kör noktalarının ölçülmediği durumlarda yüksektir.
+
+### 9. Verdict Freshness'ını Kontrol Et
 
 Doğrulanan artefakt, veri, kaynak, runtime, test/oracle, criterion, konfigürasyon veya başka yük taşıyan bağımlılık maddi biçimde değiştiyse eski doğrulama hükmünü otomatik olarak güncel sayma.
 
 Güveni artıran verdict, doğruladığı nesne ve gerekli dependency closure ile birlikte düşünülmelidir.
 
-### 9. İlk Sonuca Ankrajlanmayı Azalt
+### 10. İlk Sonuca Ankrajlanmayı Azalt
 
 Verifier'a yalnız maker'ın sonucunu tekrar savundurmak yerine problemi veya artefaktı yeniden sınat.
 
@@ -158,9 +187,9 @@ Verifier'a yalnız maker'ın sonucunu tekrar savundurmak yerine problemi veya ar
 - yalnız “hata bul” diye sorup aynı öncülleri değişmeden koruma,
 - ilk sonucun dilini ikinci hükmün kabul kriterine dönüştürme.
 
-### 10. Doğrulama Yolu Sınırlıysa Güven İddiasını Sınırla
+### 11. Doğrulama Yolu Sınırlıysa Güven İddiasını Sınırla
 
-Gerçek bağımsızlık, hata-duyarlılığı, uygun oracle, criterion integrity veya coverage kurulamadıysa kontrolü olduğundan güçlü adlandırma.
+Gerçek bağımsızlık, hata-duyarlılığı, uygun oracle, criterion integrity, challenge freshness veya coverage kurulamadıysa kontrolü olduğundan güçlü adlandırma.
 
 Gerekirse sonucu:
 
@@ -169,6 +198,7 @@ Gerekirse sonucu:
 - `cross-check`,
 - `limited test evidence`,
 - `post-hoc / exploratory finding`,
+- `stale challenge set`,
 - `not independently verified`,
 - `not falsification-tested`
 
@@ -184,8 +214,9 @@ Doğrulama iddiasının gücü, kullanılan doğrulama yolunun:
 - hata-duyarlılığını,
 - oracle geçerliliğini,
 - kriter bütünlüğünü,
+- challenge freshness'ını,
 - coverage'ını,
-- freshness'ını
+- verdict freshness'ını
 
 aşmamalıdır.
 
@@ -194,9 +225,10 @@ aşmamalıdır.
 - aynı çözümü tekrar okumak → sınırlı self-review,
 - farklı yöntemle aynı hesabı yeniden yapmak → daha güçlü cross-check,
 - sonucu gördükten sonra threshold değiştirip aynı veriyi yeniden değerlendirmek → post-hoc / exploratory evidence,
-- kasıtlı yanlış durumda kırmızı verdiği gösterilmiş, kriteri önceden sabitlenmiş bağımsız oracle/reperformance → daha güçlü verification.
+- değişen risk yüzeyinde yıllardır aynı checklist'i hiç varyant üretmeden tekrar etmek → potansiyel ritüelleşmiş doğrulama,
+- kasıtlı yanlış durumda kırmızı verdiği gösterilmiş, kriteri önceden sabitlenmiş, güncel risk yüzeyine uygun bağımsız oracle/reperformance → daha güçlü verification.
 
-Bu örnekler mutlak bir seviye sistemi değildir; temel ilke, **güven artışını doğrulamanın gerçekten dışlayabildiği hata alanıyla ve criterion'un ne ölçüde outcome'dan bağımsız belirlendiğiyle orantılı tutmaktır.**
+Bu örnekler mutlak bir seviye sistemi değildir; temel ilke, **güven artışını doğrulamanın gerçekten dışlayabildiği hata alanıyla, criterion'un ne ölçüde outcome'dan bağımsız belirlendiğiyle ve challenge'ın mevcut risk yüzeyine ne kadar duyarlı kaldığıyla orantılı tutmaktır.**
 
 ## Nihai Kontrol
 
@@ -208,11 +240,12 @@ Bir doğrulama confidence artırmak için kullanılıyorsa şu soruları değerl
 4. Oracle veya metric doğru özelliği mi ölçüyor?
 5. Başarı kriteri, threshold, test veya dışlama kuralı sonucu görmeden önce sabit miydi; değilse yeni criterion fresh evidence üzerinde yeniden sınandı mı?
 6. Gerekli çalışma kiplerinde kontrol gerçekten koşuyor mu?
-7. Doğrulama hükmü hâlâ aynı nesne, criterion ve bağımlılıklar için güncel mi?
-8. Bu sınırlara göre güven dilim yeterince kalibre mi?
+7. Aynı challenge tekrar kullanılıyorsa hâlâ güncel hata yüzeyine duyarlı mı, yoksa ritüelleşmiş olabilir mi?
+8. Doğrulama hükmü hâlâ aynı nesne, criterion ve bağımlılıklar için güncel mi?
+9. Bu sınırlara göre güven dilim yeterince kalibre mi?
 
 ## Temel İlke
 
-**Yeşil sonuç, ancak ilgili yanlışı ayırt edebilen, doğru şeyi ölçen ve sonucu gördükten sonra sessizce yeniden tanımlanmamış geçerli bir doğrulama yolundan geldiğinde güven üretir.**
+**Yeşil sonuç, ancak ilgili yanlışı ayırt edebilen, doğru şeyi ölçen, sonucu gördükten sonra sessizce yeniden tanımlanmamış ve mevcut risk yüzeyine hâlâ duyarlı geçerli bir doğrulama yolundan geldiğinde güven üretir.**
 
-Doğrulamanın değeri aktör sayısından veya test sayısından değil; bağımsız, hata-duyarlı, uygun oracle'a dayalı, criterion bütünlüğü korunmuş ve geçerli kapsamda çalışarak ilgili hata ihtimalini gerçekten azaltmasından gelir.
+Doğrulamanın değeri aktör sayısından veya test sayısından değil; bağımsız, hata-duyarlı, uygun oracle'a dayalı, criterion bütünlüğü korunmuş, challenge'ı güncel ve geçerli kapsamda çalışarak ilgili hata ihtimalini gerçekten azaltmasından gelir.
