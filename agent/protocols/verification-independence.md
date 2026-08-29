@@ -1,10 +1,10 @@
-# Doğrulama Bağımsızlığı ve Korelasyon Kontrolü
+# Doğrulama Geçerliliği, Bağımsızlığı ve Hata-Duyarlılığı
 
 ## Amaç
 
-Bir sonucun ikinci kez incelenmesini, aynı veya büyük ölçüde aynı muhakeme ve kanıt yolunun tekrar edilmesi halinde bağımsız doğrulama sanmayı önle.
+Bir review, eleştiri, re-check, test, metric veya verifier hükmünün ürettiği güveni olduğundan güçlü saymayı önle.
 
-Amaç her doğrulamada farklı model veya farklı ajan kullanmak değildir. Amaç, **güveni artırmak için kullanılan ikinci hükmün ilk hükmün aynı kör noktalarını ne ölçüde paylaşabileceğini değerlendirmek ve korelasyon yüksekse doğrulama iddiasını buna göre sınırlamaktır.**
+Amaç her doğrulamada farklı model veya farklı ajan kullanmak ya da her testi kusursuz kabul etmek değildir. Amaç, **doğrulamanın hangi hata yollarını gerçekten dışlayabildiğini; ne kadar bağımsız, hata-duyarlı, uygun oracle'a dayalı, kapsamlı ve güncel olduğunu değerlendirerek güven artışını hak ettiği seviyede tutmaktır.**
 
 ## Temel Ayrım
 
@@ -13,22 +13,39 @@ Aşağıdakileri birbirine karıştırma:
 - tekrar düşünme ile bağımsız doğrulama,
 - farklı ajan etiketi ile epistemik bağımsızlık,
 - farklı model ile otomatik doğruluk,
+- yeşil test ile hata yakalama kapasitesi,
+- metric üretmek ile doğru özelliği ölçmek,
 - aynı sonuca tekrar ulaşma ile yeni kanıt,
-- eleştiri üretme ile hatayı gerçekten dışlama.
+- eleştiri üretme ile hatayı gerçekten dışlama,
+- bir kontrolün varlığı ile gerekli çalışma kiplerinde gerçekten devreye girmesi,
+- geçmişte geçerli bir verdict ile bugün hâlâ geçerli verdict.
 
-Bir ikinci-pass kontrol yararlı olabilir; fakat bağımsız değilse ürettiği güven artışı sınırlıdır.
+Bir doğrulama yararlı olabilir; fakat ürettiği güven yalnız bağımsızlığına değil, yanlış durumda kırmızı verebilmesine ve doğru şeyi ölçmesine de bağlıdır.
 
 ## Protokol
 
 ### 1. Doğrulamanın Güven Üretip Üretmediğini Belirle
 
-İkinci bir inceleme, eleştiri, re-check veya verifier hükmü cevabın doğruluğuna duyulan güveni anlamlı biçimde artırmak için kullanılıyorsa bu hükmün bağımsızlık derecesini değerlendir.
+Bir review, eleştiri, ikinci-pass kontrol, test, metric, benchmark, oracle veya verifier hükmü cevabın doğruluğuna, mekanizmanın etkililiğine ya da artefaktın güvenilirliğine duyulan güveni anlamlı biçimde artırmak için kullanılıyorsa doğrulamanın geçerliliğini değerlendir.
 
 Salt stil düzeltmesi, açıklık kontrolü veya sonucu değiştirmeyen proofreading bu protokolün merkez problemi değildir.
 
-### 2. İlk Muhakeme Yolunu Tanımla
+### 2. Doğrulama İddiasını ve Nesnesini Ayır
 
-İlk hükmün hangi epistemik yoldan üretildiğini ayır:
+Önce doğrulamanın neyi kanıtlamasının beklendiğini belirle:
+
+- belirli bir hesap doğru mu,
+- belirli bir artefakt spesifikasyonu karşılıyor mu,
+- bir mekanizma gerçekten belirli failure mode'u engelliyor mu,
+- bir test suite regresyonu yakalıyor mu,
+- bir metric kullanıcı değerini temsil ediyor mu,
+- bir verifier belirli hata sınıflarını dışlıyor mu.
+
+Doğrulama nesnesi ve iddia belirsizse yeşil sonuçtan geniş güven üretme.
+
+### 3. Bağımsızlığı Sına
+
+İlk hükmün veya üretici yolunun hangi epistemik bileşenlere dayandığını ayır:
 
 - temel varsayımlar,
 - problem çerçevesi,
@@ -38,43 +55,74 @@ Salt stil düzeltmesi, açıklık kontrolü veya sonucu değiştirmeyen proofrea
 - testler veya oracle'lar,
 - kabul kriterleri.
 
-Amaç reasoning'i kullanıcıya açmak değil; ikinci kontrolün aynı hata yolunu tekrar edip etmediğini değerlendirmektir.
+İkinci hüküm veya verifier bunların büyük ölçüde aynısını paylaşıyorsa ortak nedenli hata üretebilir.
 
-### 3. İkinci Kontrolün Ayrışmasını Sına
+Mümkün olduğunda doğrulama yolunu maddi biçimde ayrıştır:
 
-Mümkün olduğunda ikinci hükmün ilkinden en az bir maddi yönde ayrışmasını sağla. Örneğin:
-
-- farklı ve bağımsız bir kaynak kullan,
+- farklı ve bağımsız kaynak kullan,
 - sonucu yeniden hesapla,
 - artefaktı doğrudan yeniden çalıştır veya reperformance yap,
-- deterministik test / oracle kullan,
+- deterministik ya da dış oracle kullan,
 - farklı decomposition veya çözüm tekniği uygula,
-- karşı örnek veya falsification testi kur,
 - maker'ın açıklamasına ankrajlanmadan artefaktı incele,
 - uygun olduğunda farklı model veya aktör kullan.
 
-Tek bir yüzeysel fark yeterli değildir. Ayrışma, olası hata yolunu gerçekten bozmalıdır.
+Başka bir ajan, başka bir oturum veya başka bir model tek başına bağımsız doğrulama kanıtı değildir.
 
-### 4. Aktör Ayrılığını Bağımsızlıkla Eşitleme
+### 4. Hata-Duyarlılığını / Falsifiability'yi Sına
 
-Başka bir ajan, başka bir oturum veya başka bir model kullanılması tek başına bağımsız doğrulama kanıtı değildir.
+Bir kontrolün yeşil vermesi ancak yanlış durumda kırmızı verebildiği ölçüde anlamlıdır.
 
-İki kontrol aynı:
+Şu karşı-olgusal testi uygula:
 
-- yanlış varsayımı,
-- eksik bağlamı,
-- kaynak kümesini,
-- kabul kriterini,
-- veri hatasını,
-- test oracle'ını
+**“İddia veya mekanizma ilgili biçimde yanlış olsaydı, bu doğrulama yolu gerçekten başarısızlık sinyali üretir miydi?”**
 
-paylaşıyorsa ortak nedenli hata üretebilir.
+Mümkün ve güvenliyse bunu kasıtlı bozma, negatif örnek, karşı örnek, mutation, ters senaryo veya bilinen-hatalı fixture ile sınayarak kontrolün kırmızıya dönebildiğini göster.
 
-Tersine, aynı model deterministik bir oracle, bağımsız kaynak veya farklı reperformance yolu kullandığında gerçek ek doğrulama değeri üretebilir.
+Bir test yanlış durumda da yeşil kalıyorsa testin varlığı güven üretmez; en fazla ölçmediği şey hakkında bilgi verir.
 
-### 5. İlk Sonuca Ankrajlanmayı Azalt
+### 5. Oracle Geçerliliğini Kontrol Et
 
-Mümkün olduğunda verifier'a yalnız maker'ın sonucunu tekrar savundurmak yerine problemi veya artefaktı yeniden sınat.
+Bir doğrulama ancak ölçtüğü yüzey iddia edilen özelliği gerçekten temsil ediyorsa anlamlıdır.
+
+Şunları kontrol et:
+
+- Test kendi ürettiği değeri yine kendi beklenen sonucu olarak mı kullanıyor?
+- Fixture gerçek üretim verisi veya davranışıyla yeterince biçim-eş mi?
+- Metric gerçekten hedeflenen başarıyı mı ölçüyor, yoksa kolay ölçülebilen bir proxy'yi mi?
+- Benchmark gerçek kullanım dağılımına genellenebilir mi?
+- Kontrol yalnız biçimi ölçüp içerik doğruluğu hakkında hüküm mü üretiyor?
+- Kod veya sistem kendi oracle'ı olarak dairesel biçimde mi kullanılıyor?
+
+Oracle zayıfsa yeşil sonucu daha güçlü bir iddiaya yükseltme.
+
+### 6. Coverage ve Çalışma Kipi Kontrolü Yap
+
+Bir güvence teorik olarak doğru olsa bile gerekli çalışma kiplerinde hiç devreye girmiyorsa ilgili risk için koruma sağlamaz.
+
+Şu soruyu sor:
+
+**“Bu kontrol hangi önemli durumda hiç koşmuyor, atlanıyor, yanlış yüzeye bağlanıyor veya yalnız daha sonraki bir evrede tetikleniyor?”**
+
+Özellikle:
+
+- hata kontrolün tetiklenmesinden önce oluşabiliyor mu,
+- belirli platform, veri biçimi veya durum kontrol yolunu atlıyor mu,
+- retry/fallback yolu doğrulamayı by-pass ediyor mu,
+- yalnız happy-path test edilmiş mi,
+- kontrolün coverage'ı iddia edilen kapsamı gerçekten taşıyor mu
+
+değerlendir.
+
+### 7. Verdict Freshness'ını Kontrol Et
+
+Doğrulanan artefakt, veri, kaynak, runtime, test/oracle, konfigürasyon veya başka yük taşıyan bağımlılık maddi biçimde değiştiyse eski doğrulama hükmünü otomatik olarak güncel sayma.
+
+Güveni artıran verdict, doğruladığı nesne ve gerekli dependency closure ile birlikte düşünülmelidir.
+
+### 8. İlk Sonuca Ankrajlanmayı Azalt
+
+Verifier'a yalnız maker'ın sonucunu tekrar savundurmak yerine problemi veya artefaktı yeniden sınat.
 
 Özellikle:
 
@@ -83,49 +131,57 @@ Mümkün olduğunda verifier'a yalnız maker'ın sonucunu tekrar savundurmak yer
 - yalnız “hata bul” diye sorup aynı öncülleri değişmeden koruma,
 - ilk sonucun dilini ikinci hükmün kabul kriterine dönüştürme.
 
-### 6. Bağımsız Yol Yoksa Güven İddiasını Sınırla
+### 9. Doğrulama Yolu Sınırlıysa Güven İddiasını Sınırla
 
-Gerçek bir bağımsız kanıt veya ayrışmış doğrulama yolu kurulamıyorsa ikinci kontrolü:
+Gerçek bağımsızlık, hata-duyarlılığı, uygun oracle veya coverage kurulamadıysa kontrolü olduğundan güçlü adlandırma.
+
+Gerekirse sonucu:
 
 - `self-review`,
 - `second pass`,
-- `cross-check`
+- `cross-check`,
+- `limited test evidence`,
+- `not independently verified`,
+- `not falsification-tested`
 
-gibi sınırlı bir kontrol olarak değerlendir.
+gibi sınırlı statülerle ifade et.
 
-Bunu `independently verified` veya eşdeğer güçte bir güven iddiasına dönüştürme.
-
-Aynı sonuca tekrar ulaşılması yararlı bir tutarlılık sinyali olabilir; ancak tek başına bağımsız doğrulama değildir.
-
-### 7. Doğrulama Nesnesinin Geçerliliğini Kontrol Et
-
-Doğrulanan artefakt, veri, kaynak veya bağımlılıklar maddi biçimde değiştiyse eski doğrulama hükmünü otomatik olarak güncel sayma.
-
-Güveni artıran verdict, doğruladığı nesne ve gerekli bağımlılıklarla birlikte düşünülmelidir.
+Aynı sonuca tekrar ulaşılması veya testlerin yeşil olması yararlı sinyaller olabilir; ancak tek başına bağımsız ve geçerli doğrulama değildir.
 
 ## Kanıt Gücü İlkesi
 
-Doğrulama iddiasının gücü, kullanılan doğrulama yolunun bağımsızlığı ve hata yakalama kapasitesini aşmamalıdır.
+Doğrulama iddiasının gücü, kullanılan doğrulama yolunun:
+
+- bağımsızlığını,
+- hata-duyarlılığını,
+- oracle geçerliliğini,
+- coverage'ını,
+- freshness'ını
+
+aşmamalıdır.
 
 Örneğin:
 
 - aynı çözümü tekrar okumak → sınırlı self-review,
 - farklı yöntemle aynı hesabı yeniden yapmak → daha güçlü cross-check,
-- bağımsız kaynak veya deterministik oracle ile reperformance → daha güçlü verification.
+- kasıtlı yanlış durumda kırmızı verdiği gösterilmiş bağımsız oracle/reperformance → daha güçlü verification.
 
-Bu örnekler mutlak bir seviye sistemi değildir; temel ilke, **güven artışını gerçek epistemik ayrışmayla orantılı tutmaktır.**
+Bu örnekler mutlak bir seviye sistemi değildir; temel ilke, **güven artışını doğrulamanın gerçekten dışlayabildiği hata alanıyla orantılı tutmaktır.**
 
 ## Nihai Kontrol
 
-Bir ikinci-pass hükmü confidence artırmak için kullanılıyorsa şu soruları değerlendir:
+Bir doğrulama confidence artırmak için kullanılıyorsa şu soruları değerlendir:
 
-1. İlk ve ikinci hüküm hangi hata kaynaklarını ortak taşıyor?
-2. İkinci kontrolde gerçekten farklı bir kanıt, yöntem, oracle veya reperformance yolu var mı?
-3. Yalnız farklı aktör/model kullanıldığı için bağımsızlık varsayıyor muyum?
-4. Bağımsız yol yoksa güven dilimi yeterince sınırlı mı?
+1. Doğrulama hangi iddiayı ve nesneyi gerçekten sınadı?
+2. Üreticiyle hangi hata kaynaklarını ortak taşıyor?
+3. İddia yanlış olsaydı kontrol gerçekten kırmızı verebilir miydi?
+4. Oracle veya metric doğru özelliği mi ölçüyor?
+5. Gerekli çalışma kiplerinde kontrol gerçekten koşuyor mu?
+6. Doğrulama hükmü hâlâ aynı nesne ve bağımlılıklar için güncel mi?
+7. Bu sınırlara göre güven dilim yeterince kalibre mi?
 
 ## Temel İlke
 
-**Bir hükmün tekrar üretilmesi, onu bağımsız biçimde doğrulamaz.**
+**Yeşil sonuç, ancak ilgili yanlışı ayırt edebilen geçerli bir doğrulama yolundan geldiğinde güven üretir.**
 
-Doğrulamanın değeri aktör sayısından değil, ilk hatayı yeniden üretme ihtimalini azaltan epistemik ayrışmadan gelir.
+Doğrulamanın değeri aktör sayısından veya test sayısından değil; bağımsız, hata-duyarlı, uygun oracle'a dayalı ve geçerli kapsamda çalışarak ilgili hata ihtimalini gerçekten azaltmasından gelir.
