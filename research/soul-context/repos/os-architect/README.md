@@ -23,32 +23,26 @@ Bununla birlikte repo kendi çalışma düzeninin öz-anlatısını da içerir. 
 | `bilgi/calisma-duzeni/INDEKS.md` | `1f5cef29` | full | meta-yöntem kaynaklarını haritalamak | eski alanın çöküşü, sürdürülebilirlik, araştırma, hasım turu, deney ve dış-göz için ayrı canonical notlar var |
 | `bilgi/calisma-duzeni/eski-alanin-cokusu.md` | `5fd38faa` | full | bugünkü çalışma mimarisinin kök failure mode'larını bulmak | ölçülen çöküş: aşırı büyük dosyalar, tavansız ham araştırma, güvenilmeyen arama yüzünden kopya/drift, farklı ömürlü içeriğin aynı dosyada karışması; yapı düzeltilse bile davranış değişmezse hastalık tekrarlıyor |
 | `bilgi/calisma-duzeni/sonsuza-kadar-kullanilabilirlik.md` | `4750e45d` | full | uzun ömür hedefinin kapsamını anlamak | üç ayak: veri/kütüphane disiplini + danışmanın çalışma disiplini + ürün geliştirme disiplini; üç ev: ortam + danışman + KEEL. Yalnız statik hijyen yetmemiş; sistem kimin neyi ne zaman güncelleyeceğini ve hareketi de taşımalı |
+| `bilgi/calisma-duzeni/arastirma-yontemi.md` | `a6601f3f` | full | araştırma sürecinin kendi failure mode'larını anlamak | T1-T5 kaynak tasnifi; aracın sentezi dış kanıt değil; echo/self-citation denetimi; kritik iddiayı birincilden teyit; ölçüm-önce-tasarım; okuma sözleşmesi; çürütme koşusu |
+| `bilgi/calisma-duzeni/hasim-turu-yontemi.md` | `751fafea` | full | adversarial review'un gerçekten ne zaman güven ürettiğini anlamak | çok göz aynı hatayı çoğaltabilir; okuyan ve koşan göz farklı sınıf bulur; yalancı-yeşil avı, eksik merceği yeniden koşma, sentez ajanından kaçınma ve tasarım/uygulama turlarını ayırma gerekli |
+| `bilgi/calisma-duzeni/dis-goz-yontemi.md` | `fcc54218` | full | dış doğrulamanın yararı ve sınırlarını anlamak | dış rapor fikir kaynağıdır; repo/makine üzerinde tekrar doğrulanır. Soğuk denetim yeni gerçek bulgular üretebilir fakat statik bakış, teslim bağlamı ve yanlış teşhis riski taşır; taze hakemlik ve eşit-katman kıyası önemli |
 
-## Geçiş 1'de oluşan maddi ayrım
+## Geçiş 1 — çalışma düzeni ve araştırma yöntemi: TAMAMLANDI
 
-İlk iki kök-neden kaydı aynı problemi iki seviyede ayırıyor:
+İlk iki kök-neden kaydı problemi iki seviyede ayırıyor:
 
 1. **Depo/temsil failure'ı:** şişme, kopya, arama güvensizliği, ömür karışması, açılamayan canonical dosya.
 2. **Çalışma-döngüsü failure'ı:** doğru dosya yapısı kurulsa bile hareket, sorumluluk ve güncelleme yaşam döngüsü tanımlı değilse alan yalnız depo oluyor; tezgâh olmuyor.
 
-Bu ayrım SOUL için şimdilik hipotez üretir: bir development OS yalnız bilgi saklama mimarisi değil, **çalışmanın yaşam döngüsünü taşıyan sistem** olmak zorunda olabilir. Bunu sonuç saymadan metodoloji ve ürün kanıtlarıyla sınamak gerekiyor.
+Metodoloji dosyaları üçüncü bir seviye ekliyor:
 
-## Öncelikli geçiş 1 — çalışma düzeninin kök nedenleri
+3. **Epistemik süreç failure'ı:** çok kaynak veya çok reviewer görünümü bağımsız kanıt sanılabilir; echo/self-citation, ortak kaynak, öz-onaylama, yalancı-yeşil test ve dış raporun yanlış teşhisi güveni sahte biçimde yükseltebilir.
 
-Tamamlanan:
-
-1. `bilgi/calisma-duzeni/eski-alanin-cokusu.md`
-2. `bilgi/calisma-duzeni/sonsuza-kadar-kullanilabilirlik.md`
-
-Sıradaki:
-
-3. `bilgi/calisma-duzeni/arastirma-yontemi.md`
-4. `bilgi/calisma-duzeni/hasim-turu-yontemi.md`
-5. `bilgi/calisma-duzeni/dis-goz-yontemi.md`
-
-Amaç: bugün görülen dosya/indeks sistemini tasarım tercihi olarak değil, hangi gerçek failure mode'ların sonucu olduğunu ve araştırmanın bu failure mode'ları yeniden üretmemesi için hangi yöntemi kullandığını anlamak.
+Bu yüzden SOUL için şimdilik yalnız bir hipotez taşınıyor: development OS, bilgi saklamanın yanında **çalışmanın ve doğrulamanın yaşam döngüsünü** de taşımalı olabilir. Bu henüz gereksinim veya mimari hüküm değildir.
 
 ## Öncelikli geçiş 2 — KEEL'in problem/kanıt modeli
+
+Sıradaki:
 
 1. `bilgi/keel/kurulus-ve-sertlestirme.md`
 2. `bilgi/keel/genesis-v2-kanit-zinciri.md`
@@ -56,7 +50,7 @@ Amaç: bugün görülen dosya/indeks sistemini tasarım tercihi olarak değil, h
 4. `bilgi/keel/defo-cercevesi.md`
 5. `bilgi/keel/dis-dogrulama.md`
 
-Amaç: KEEL'in bugünkü mekanizmalarının neyi çözmek için doğduğunu ve hangi kanıta dayandığını ayırmak.
+Amaç: KEEL'in bugünkü mekanizmalarının neyi çözmek için doğduğunu ve hangi kanıta dayandığını ayırmak. Özellikle ürünün kendi öz-anlatısını, ölçüm/saha kanıtı ve dış doğrulama ile ayrı tutmak.
 
 ## Öncelikli geçiş 3 — önceki araştırmanın kendisi
 
@@ -81,8 +75,7 @@ Bunlara ancak canlı indeks/not kaynak zinciri veya açık soru işaret ettiğin
 ## Açık sorular
 
 - Eski çalışma alanının ölçülen failure mode'larından hangileri doğrudan LLM/agent özelliği, hangileri sıradan bilgi mimarisi problemi?
-- "Sonsuza kadar kullanılabilirlik" hedefinin hangi parçaları genel agentic development OS için gerekli, hangileri bu çalışma alanına özgü?
-- Araştırma yöntemi echo/cherry-picking/coverage problemlerini nasıl ele alıyor?
+- KEEL'in kuruluş mekanizmaları hangi somut arıza/ölçüm zincirinden doğdu?
 - KEEL'in defo modeli deneysel kanıt, saha gözlemi ve tasarım varsayımı olarak nasıl ayrılıyor?
 - Dış doğrulamalar gerçekten bağımsız mı; hangi ortak varsayımları taşıyor?
 - SOUL'un `development/` işletim sistemi fikrinin doğrudan tarihsel öncülleri burada nerede?
