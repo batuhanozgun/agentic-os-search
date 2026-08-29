@@ -17,22 +17,36 @@ Bununla birlikte repo kendi çalışma düzeninin öz-anlatısını da içerir. 
 | kök içerik ağacı | — | index | giriş yüzeyini bulmak | `CLAUDE.md`, `PANO.md`, `NEREDE_NE_VAR.md`, `bilgi/`, `kurallar/`, `tools/`, git'te yaşayan arşivler var |
 | `CLAUDE.md` | `2eb682f0` | full | çalışma alanının amaç ve davranış çapası | Explicit iş KEEL'i geliştirmek/bitirmek; ortamın sürdürülebilirliği, kanıt, bağımsız roller, kök neden, drift ve mekanik kapılar yük taşıyor |
 | `PANO.md` | `28a9be2a` | full | canlı durumun ne olduğunu görmek | KEEL v0.2 yayın ve kabul/otonomi işleri hâlâ aktif; repo tarihsel arşiv değil, yaşayan geliştirme alanı |
-| `NEREDE_NE_VAR.md` | `049d8926` | full | bilgi mimarisini anlamak | tek ev, indeks, canlı/aşiv ayrımı, geri getirme komutları; 87 dosyalık eski araştırma arşivi ve 32 dosyalık KEEL geliştirme kaydı git'te tutuluyor |
+| `NEREDE_NE_VAR.md` | `049d8926` | full | bilgi mimarisini anlamak | tek ev, indeks, canlı/arşiv ayrımı, geri getirme komutları; 87 dosyalık eski araştırma arşivi ve 32 dosyalık KEEL geliştirme kaydı git'te tutuluyor |
 | `bilgi/INDEKS.md` | `19b78442` | full | kalıcı bilgi katmanını anlamak | iki ana damar: `calisma-duzeni/` ve `keel/`; durum + çıkış satırıyla bilgi ömrü mekanikleştiriliyor |
 | `bilgi/keel/INDEKS.md` | `881c2be4` | full | KEEL bilgi kümelerini haritalamak | kuruluş, proje yönetimi, otonomi, koruma/doğrulama, dış-göz ve araştırma seansları ayrılmış |
 | `bilgi/calisma-duzeni/INDEKS.md` | `1f5cef29` | full | meta-yöntem kaynaklarını haritalamak | eski alanın çöküşü, sürdürülebilirlik, araştırma, hasım turu, deney ve dış-göz için ayrı canonical notlar var |
+| `bilgi/calisma-duzeni/eski-alanin-cokusu.md` | `5fd38faa` | full | bugünkü çalışma mimarisinin kök failure mode'larını bulmak | ölçülen çöküş: aşırı büyük dosyalar, tavansız ham araştırma, güvenilmeyen arama yüzünden kopya/drift, farklı ömürlü içeriğin aynı dosyada karışması; yapı düzeltilse bile davranış değişmezse hastalık tekrarlıyor |
+| `bilgi/calisma-duzeni/sonsuza-kadar-kullanilabilirlik.md` | `4750e45d` | full | uzun ömür hedefinin kapsamını anlamak | üç ayak: veri/kütüphane disiplini + danışmanın çalışma disiplini + ürün geliştirme disiplini; üç ev: ortam + danışman + KEEL. Yalnız statik hijyen yetmemiş; sistem kimin neyi ne zaman güncelleyeceğini ve hareketi de taşımalı |
+
+## Geçiş 1'de oluşan maddi ayrım
+
+İlk iki kök-neden kaydı aynı problemi iki seviyede ayırıyor:
+
+1. **Depo/temsil failure'ı:** şişme, kopya, arama güvensizliği, ömür karışması, açılamayan canonical dosya.
+2. **Çalışma-döngüsü failure'ı:** doğru dosya yapısı kurulsa bile hareket, sorumluluk ve güncelleme yaşam döngüsü tanımlı değilse alan yalnız depo oluyor; tezgâh olmuyor.
+
+Bu ayrım SOUL için şimdilik hipotez üretir: bir development OS yalnız bilgi saklama mimarisi değil, **çalışmanın yaşam döngüsünü taşıyan sistem** olmak zorunda olabilir. Bunu sonuç saymadan metodoloji ve ürün kanıtlarıyla sınamak gerekiyor.
 
 ## Öncelikli geçiş 1 — çalışma düzeninin kök nedenleri
 
-Sıra:
+Tamamlanan:
 
 1. `bilgi/calisma-duzeni/eski-alanin-cokusu.md`
 2. `bilgi/calisma-duzeni/sonsuza-kadar-kullanilabilirlik.md`
+
+Sıradaki:
+
 3. `bilgi/calisma-duzeni/arastirma-yontemi.md`
 4. `bilgi/calisma-duzeni/hasim-turu-yontemi.md`
 5. `bilgi/calisma-duzeni/dis-goz-yontemi.md`
 
-Amaç: bugün görülen dosya/indeks sistemini tasarım tercihi olarak değil, hangi gerçek failure mode'ların sonucu olduğunu anlamak.
+Amaç: bugün görülen dosya/indeks sistemini tasarım tercihi olarak değil, hangi gerçek failure mode'ların sonucu olduğunu ve araştırmanın bu failure mode'ları yeniden üretmemesi için hangi yöntemi kullandığını anlamak.
 
 ## Öncelikli geçiş 2 — KEEL'in problem/kanıt modeli
 
@@ -66,8 +80,8 @@ Bunlara ancak canlı indeks/not kaynak zinciri veya açık soru işaret ettiğin
 
 ## Açık sorular
 
-- Eski çalışma alanı tam olarak hangi failure mode'lar yüzünden çöktü?
-- "Sonsuza kadar kullanılabilirlik" hedefi hangi gözlemlerden doğdu ve hangi parçaları genellenebilir?
+- Eski çalışma alanının ölçülen failure mode'larından hangileri doğrudan LLM/agent özelliği, hangileri sıradan bilgi mimarisi problemi?
+- "Sonsuza kadar kullanılabilirlik" hedefinin hangi parçaları genel agentic development OS için gerekli, hangileri bu çalışma alanına özgü?
 - Araştırma yöntemi echo/cherry-picking/coverage problemlerini nasıl ele alıyor?
 - KEEL'in defo modeli deneysel kanıt, saha gözlemi ve tasarım varsayımı olarak nasıl ayrılıyor?
 - Dış doğrulamalar gerçekten bağımsız mı; hangi ortak varsayımları taşıyor?
