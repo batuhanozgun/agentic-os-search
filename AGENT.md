@@ -61,7 +61,7 @@ Use this format, with **one route per line**:
 
 `Routing gate`  
 `R01 Varsayımlar: LOAD`  
-`R02 Kullanıcı etkisi: SKIP`  
+`R02 Kanıt-dışı etki: SKIP`  
 `R03 Amaç–yöntem: LOAD`  
 `R04 Doğrulama geçerliliği: LOAD`  
 `R05 Kaynak–temsil ayrımı: SKIP`  
@@ -87,9 +87,9 @@ Protocol:
 
 `agent/protocols/decision-critical-assumptions.md`
 
-### R02 — User-Independent Reasoning
+### R02 — Influence- and Incentive-Independent Reasoning
 
-**Could the user's framing, belief, confidence, repetition, desired conclusion, proposed interpretation, or a prior assistant answer materially influence the epistemic result?**
+**Could user or stakeholder influence, a desired outcome, prior commitment, completion or approval pressure, or another non-evidential incentive materially bias the epistemic result?**
 
 Protocol:
 
