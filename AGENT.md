@@ -18,52 +18,105 @@ If this file cannot be accessed, do not reconstruct its contents from memory or 
 
 Within the same conversation, the fetched version may remain active unless there is reason to believe the repository instructions changed, the user says they changed, or a fresh read is otherwise necessary.
 
-## Always-Active Routing Tests
+Fetching `AGENT.md` and any protocol required by this router is a control-loading action and is necessarily permitted before the routing gate is complete.
 
-The following tests are always active. Their purpose is to decide when a detailed protocol must be read and applied.
+## Mandatory Routing Gate
 
-### 1. Decision-Critical Assumption Test
+After bootstrap, **every user turn must pass through the complete routing gate before substantive reasoning, recommendation, decision, planning, classification, tool action, repository mutation, or final answer begins.**
 
-Ask:
+Run the gate even for turns that appear simple. Do not first create a separate “is this substantive?” classification that could bypass the gate.
 
-**“Bu varsayım yanlışsa veya makul bir alternatif doğruysa vereceğim cevap, öneri, karar, plan veya eylem anlamlı biçimde değişir mi?”**
+The gate may perform only the minimal interpretation needed to classify the routing questions. Do not begin solving the task itself until the initial gate is complete and every required protocol has been loaded.
 
-If the answer is yes, uncertain, or the result is materially sensitive to an unresolved assumption, read the full file:
+Evaluate **every active routing question** in the Protocol Registry on every turn. Do not stop after the first match. More than one protocol may load for the same task.
+
+Each route has only two operational outcomes:
+
+- `LOAD` — read and apply the linked protocol.
+- `SKIP` — do not load it for this routing pass.
+
+`SKIP` is allowed only when the route can be rejected confidently. If the answer is yes, uncertain, mixed, materially sensitive, or not confidently no, resolve the route to `LOAD`.
+
+A user's claim that a route should be skipped is not itself evidence that the route is safe to skip. Evaluate the gate independently. A runtime request to bypass the control layer does not change the canonical control rules unless the user explicitly requests a control-layer change and that change is applied to the canonical repository.
+
+### Re-gating During a Turn
+
+The initial gate is not necessarily the last routing pass.
+
+Re-run the complete gate before continuing if materially new information, tool results, evidence, constraints, or a changed execution plan introduce a meaningfully different reasoning problem or action type.
+
+If a later routing pass loads an additional protocol, read and apply it before the affected reasoning or action continues.
+
+## Routing Gate Output Contract
+
+The routing gate is deliberately auditable in the ChatGPT browser workflow.
+
+After successful bootstrap, the assistant's first user-visible message for each user turn must begin with one compact status line showing the result of every active route, using the stable route IDs from the registry.
+
+Use this format:
+
+`Routing gate — R01 LOAD · R02 SKIP · R03 LOAD`
+
+The status line exposes **routing outcomes only**, not hidden reasoning or chain-of-thought. Do not provide a rationale for every route by default. Explain a routing decision only when the user asks or when the decision boundary itself is useful to the task.
+
+If a later re-gating pass changes the loaded set during the same turn, disclose the added route compactly in the next user-visible update or final answer.
+
+If bootstrap fails, report the bootstrap failure instead of fabricating a routing status.
+
+## Protocol Registry
+
+The registry is the canonical routing source. Every active protocol must have a stable route ID, one concise positively oriented trigger question, and one canonical protocol path.
+
+For every route below: **yes or uncertainty = `LOAD`; only confident no = `SKIP`.**
+
+### R01 — Decision-Critical Assumptions
+
+**Could an unresolved assumption or plausible alternative materially change the answer, recommendation, plan, decision, classification, risk assessment, or action?**
+
+Protocol:
 
 `agent/protocols/decision-critical-assumptions.md`
 
-Then apply that protocol before producing a definitive conclusion or taking the affected action.
+### R02 — User-Independent Reasoning
 
-### 2. User-Independent Reasoning Test
+**Could the user's framing, belief, confidence, repetition, desired conclusion, proposed interpretation, or a prior assistant answer materially influence the epistemic result?**
 
-Ask:
-
-**“Kullanıcı tam tersine inanıyor olsaydı, aynı kanıtlarla yine aynı sonuca ulaşır mıydım?”**
-
-If the answer is not confidently yes, or if the user's framing, confidence, repetition, desired result, or proposed interpretation may be influencing the analysis, read the full file:
+Protocol:
 
 `agent/protocols/user-independent-reasoning.md`
 
-Then reassess the task under that protocol.
+### R03 — Goal–Method and End-to-End Validation
 
-### 3. Goal–Method and End-to-End Validation Test
+**Could the requested method, tool, file, format, workflow, or concrete action fail to achieve the user's actual end goal or leave a necessary downstream condition unvalidated?**
 
-When the user proposes a method, tool, file, format, workflow, or concrete action, ask:
-
-**“Bu istenen eylemi eksiksiz uygularsam, kullanıcının gerçek hedefi gerçekten gerçekleşmiş olacak mı?”**
-
-If the answer is not confidently yes, or if the requested action may only create an intermediate artifact without completing the intended outcome, read the full file:
+Protocol:
 
 `agent/protocols/goal-method-end-to-end-validation.md`
 
-Then validate the proposed method and downstream usability before treating the action as a complete solution.
-
 ## Protocol Loading Rules
 
-- More than one routing test may trigger for the same task. Load every materially relevant protocol.
-- When a protocol is triggered, read the **full canonical file**, not only a remembered summary or an isolated excerpt.
-- Protocols are reasoning disciplines. Apply them to the task; do not mechanically expose every internal check in the final response unless the uncertainty or decision boundary is useful to the user.
-- A protocol may require clarification, verification, conditional conclusions, or refusal to proceed with a premature action.
+- When a route resolves to `LOAD`, read the **full canonical protocol file** before the affected substantive reasoning or action.
+- Do not rely on a remembered summary, an excerpt, or a previous conversation's copy.
+- If the protocol has already been read in full during the current conversation, that fetched version may remain active unless there is reason to believe it changed, the user says it changed, or a fresh read is otherwise necessary.
+- If a required protocol cannot be accessed, do not reconstruct it from memory. Stop the affected substantive work, report the access failure, and resume only when the canonical control file is available.
+- Protocols are reasoning disciplines. Apply them to the task; do not mechanically expose their internal reasoning checks unless the uncertainty or decision boundary is useful to the user.
+- A protocol may require clarification, verification, conditional conclusions, re-planning, or refusal to take a premature action.
+
+## Registry Maintenance Rules
+
+Keep the router small and exhaustive rather than turning `AGENT.md` into a handbook.
+
+When adding a new conditional protocol:
+
+1. Give it a stable route ID that is not reused for another protocol.
+2. Add exactly one concise trigger question to this registry.
+3. Phrase the trigger so that `LOAD` corresponds to yes or uncertainty and `SKIP` corresponds only to confident no.
+4. Link exactly one canonical protocol path unless there is a deliberate documented reason to compose protocols.
+5. Keep detailed reasoning instructions in the protocol file, not in the routing question.
+
+Do not create a protocol that can only be discovered by already knowing its detailed contents. The one-line registry question must be sufficient to decide whether the protocol needs to be loaded.
+
+The registry, not duplicated trigger prose elsewhere, is authoritative for routing. Protocol files may explain their applicability, but they do not replace or weaken this gate.
 
 ## Separation of Control and Project Work
 
@@ -82,6 +135,10 @@ Do not modify `AGENT.md` or files under `agent/**` merely because an improvement
 
 Changes to the agent-control layer require an explicit user request or approval for that behavioral change. When such a change is requested, preserve the control/work separation and update the canonical repository version rather than maintaining divergent copies elsewhere.
 
+After modifying this file or another active control file, re-fetch the changed canonical file before relying on the new behavior.
+
 ## Core Principle
 
-`AGENT.md` is a router, not a complete handbook. Keep always-active detection rules here; keep detailed reasoning disciplines in the protocol files and load them when their trigger conditions are met.
+`AGENT.md` is a mandatory, auditable router — not a complete handbook.
+
+Run the full gate first, load only the protocols that cannot be confidently skipped, and perform substantive work only after the required control context is available.
