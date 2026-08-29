@@ -1,7 +1,7 @@
 # SOUL Context — STATE
 
 **Durum:** AÇIK  
-**Faz:** 5 — KEEL öz-anlatısını bugünkü mekanizmayla karşılaştırma  
+**Faz:** 6 — SOUL'a geçiş kronolojisini yeniden kurma  
 **Son güncelleme:** 2026-08-29
 
 ## Ana hedef
@@ -18,47 +18,55 @@
 
 ### A — çalışma düzeni ve araştırma yöntemi
 
-Tam okunan ana dosyalar: `eski-alanin-cokusu`, `sonsuza-kadar-kullanilabilirlik`, `arastirma-yontemi`, `hasim-turu-yontemi`, `dis-goz-yontemi`.
-
-Doğrulanan ayrım:
-
+Doğrulanan ana problem katmanları:
 - depo/temsil failure'ı,
 - çalışma-döngüsü failure'ı,
 - epistemik süreç failure'ı.
 
 ### B — KEEL problem ve kanıt modeli
 
-Tam okunan ana dosyalar: `kurulus-ve-sertlestirme`, `genesis-v2-kanit-zinciri`, `urun-ariza-kokenleri`, `defo-cercevesi`, `dis-dogrulama`.
-
-Doğrulanan ayrım:
-
+Kanıt statüleri ayrıldı:
 - gözlenen arıza/saha olayı,
 - ölçüm/tatbikat,
 - tasarım hükmü,
 - dış yakınsama.
 
-KEEL güvenlik sınırı olarak değil savruk/onay-arayışlı ajan için işletim disiplini olarak çerçeveleniyor. Tarihsel olarak doğrulama/koruma mekanizmaları davranış anti-defolarından daha güçlü.
+KEEL güvenlik sınırı değil; savruk/onay-arayışlı ajan için işletim disiplini olarak çerçeveleniyor. Tarihsel doğrulama/koruma mekanizmaları davranış anti-defolarından daha güçlü.
 
 ### C — önceki araştırma ve dış-göz kayıtları
 
-Okundu:
+Araştırma seansının altı kaleminden yalnız 1, 2 ve 6'nın repo ayağı tamamlanmış; 3–5 araştırılmış sayılmıyor.
 
-- `arastirma-seansi-2026-08-kunye.md`
-- `arastirma-seansi-2026-08-akil-yurutme.md`
-- `arastirma-seansi-2026-08-ev-eslemesi.md`
-- `arastirma-seansi-2026-08-sektorler.md`
-- `arastirma-seansi-2026-08-sektorler-hukmu.md`
-- `arastirma-seansi-2026-08-gstack.md`
-- `disgoz-seansi-2026-08-kunye.md`
-- `disgoz-seansi-2026-08-hedef-ve-bakis.md`
-- `disgoz-seansi-2026-08-teshisler.md`
-- `disgoz-seansi-2026-08-matris.md`
-- `disgoz-seansi-2026-08-alternatifler.md`
-- `disgoz-seansi-2026-08-fikir-carpismasi.md`
+Önceki araştırmanın yönü:
+- soru ≠ görev,
+- gerçek amacı/öncülü icradan önce yeniden türetme,
+- uzman–sahip asimetrisi,
+- oturumların sonucu taşıyıp sebebi/amacı kaybetmesi,
+- sorgulama için `üreteç + tetik + kanıt zinciri`,
+- dersin ihtiyaç anına ulaşmaması.
 
-Önemli sınır: araştırma seansının altı kaleminden yalnız 1, 2 ve 6'nın repo ayağı koşulmuş. 3–5 için tamamlanmış ayrı koşu kaydı yok; araştırılmış sayılmayacak.
+2026-08-11 gstack kaydında sahibi tarafından "araştırma evi kurulacak" ve araştırmaların sonraki yeni geliştirme çalışmasına girdi olacağı yönü verilmiş; bu bir D-numaralı mühürlü karar değil.
 
-`akil-yurutme` ve `sektorler` dış literatürün damıtılmış ikinci-el görünümüdür. Şu aşamada geçmiş araştırmanın düşünce yönünü anlamak için kullanılır; SOUL için yük taşıyan dış-literatür iddiası gerektiğinde birincil kaynağa geri dönülecek.
+### D — KEEL öz-anlatısını bugünkü mekanikle karşılaştırma — SEÇİCİ TAMAMLANDI
+
+Doğrudan kod/sözleşme/test yüzeyinde görülenler:
+
+1. **State / devam:** `GENESIS_DURUM` tek makine bloğu; `kurulum-surucu.sh` bozuk/eksik/atlanan state'i fail-closed engelliyor ve sıra tutarlılığını ölçüyor.
+2. **Hook wiring:** `.claude/settings.json` file-guard, kurulum sürücüsü, açılış, kapanış, sevk ve SubagentStop zarf kapısını gerçek Claude Code hook olaylarına bağlıyor.
+3. **Rol kafesi:** `file-guard.sh`, `yazamaz` rolün kendi evi dışına yazmasını ve kendi `ROL.md` sözleşmesini değiştirmesini engelliyor; bozuk rol damgasında yazma güvenli tarafta kesiliyor.
+4. **Doğrulayıcı ayrımı:** `dogrulayici` yalnız Read/Grep/Glob araçlarına sahip; dosya-gerçeği ayağı salt-okur.
+5. **Karne/kapanış:** `sevk.sh`, bu dönemde üretilmiş kapalı görev için taze YEŞİL karne arıyor; yok/bayatsa doğrulayıcı çağırıyor. Kapanış karnesi son iş zarfından sonra taze olmalı; YEŞİL/KIRMIZI/DOĞRULANAMADI ayrı akışlar.
+6. **Falsification tasarımı:** `tools/bekci/test/bozma.test.mjs`, temiz yeşilden sonra 9 kasıtlı mutasyonda bekçinin kırmızı/kilit üretmesini bekliyor.
+7. **İnsan↔makine ayrımı:** state, bekçi makine satırı/exit code ve zarf/karne tazeliği gibi kritik yüzeylerde salt düzyazıdan daha açık makine sözleşmeleri var.
+8. **Ders→ihtiyaç köprüsü:** ilk plan kutusu rol ihtiyaçlarını/kayıt düzenini çıkarıyor ve role özel `Açılış ek-okumaları` işaretçilerini güncelliyor; SessionStart belirli olayları hatırlatıyor. Bu kısmi mekanik köprü, genel semantik lesson retrieval değildir.
+
+### D doğrulama sınırları
+
+- Mutation test dosyalarının tasarımı okundu, ancak bu oturumda fresh execution yapılamadı: geçici çalışma ortamında GitHub ağı yoktu.
+- KEEL release commit mesajı "deneme kurulumu 1202 test yeşil" diyor; bu commit-yazarı beyanıdır, bağımsız CI değildir.
+- Aynı release commit'i için GitHub Actions workflow run görünmedi.
+- Büyük scriptler iddia taşıyan bölümlerden seçici okundu; exhaustive full-code audit yapılmadı.
+- Claude Code hook/runtime davranışı canlı harness üzerinde yeniden ölçülmedi.
 
 ## Şu ana kadarki yapısal problem haritası
 
@@ -68,15 +76,26 @@ Okundu:
 4. **Amaç/çerçeve:** soru görev sanılıyor; öncül ve gerçek amaç icradan önce yeniden türetilmeyebiliyor. Oturumlar sonucu taşıyıp neden/amaç modelini kaybedebiliyor.
 5. **Ders→mekanizma:** ders belge olarak kalıyor, ihtiyaç anına ulaşmıyor veya bir hatta uygulanıp kardeş hatta taşınmıyor.
 
+## KEEL mekanik doğrulamasının ana anlamı
+
+KEEL'deki temel ilkelerin önemli kısmı yalnız öz-anlatı değil; gerçek hook, parser, rol kafesi, karne akışı ve mutation test tanımlarıyla mekanikleşmiş.
+
+Ama SOUL açısından üç sınır kritik:
+
+- **runtime özgüllüğü:** birçok garanti Claude Code hook/tool modeline bağlı;
+- **epistemik bağımsızlık:** ayrı koltuk ≠ ayrı model/ayrı çerçeve;
+- **lesson retrieval:** işaretçi ve planlama disiplini güçlü ama geçmişteki doğru dersi yeni ihtiyaçta otomatik bulma genel problemi çözülmüş değil.
+
+Bu yüzden KEEL'i SOUL'a kopyalamak yerine failure sınıflarını first principles'tan yeniden türetmek gerekebilir.
+
 ## Tarihsel yön sinyalleri — henüz nedensel sonuç değil
 
-- 2026-08-08 dış-göz seansında hedef: dünya standardı + alışılmışın dışında/vizyoner problem çözme; KEEL akıl+teknik birlikte değerlendirilmeli.
-- Aynı seansın üst tezi: daha fazla altyapı eklemek yerine görünmez varsayımları sözleşme, fixture, iz ve kapsama ölçümüne dönüştürmek.
-- 2026-08-10 araştırma seansı çerçeve körlüğü ve "soru ≠ görev" problemi etrafında açılmış.
-- 2026-08-11 gstack kaydında sahibin yön beyanı: "araştırma evi kurulacak"; araştırmalar sonraki yeni geliştirme çalışmasına girdi olacak. Bu bir mühürlü karar değil.
-- 2026-08-25 `soul` repo bootstrap'ı: SOUL first-principles general-purpose agentic architecture; `development/` ile `system/` ayrı; ilk iş paketi SOUL Development Operating System.
-
-Bu kronoloji doğrudan devamlılık hipotezini güçlendiriyor fakat **SOUL Research = önceki KEEL planının aynen devamı** sonucu henüz verilmez.
+- 2026-08-08 dış-göz seansı: dünya standardı + alışılmadık/vizyoner problem çözme; KEEL akıl+teknik birlikte değerlendirilmeli.
+- Aynı seans: daha fazla altyapı yerine görünmez varsayımları sözleşme/fixture/iz/kapsama ölçümüne dönüştürme yönü.
+- 2026-08-10 araştırma seansı: çerçeve körlüğü ve "soru ≠ görev".
+- 2026-08-11 gstack: "araştırma evi kurulacak"; araştırmalar sonraki yeni geliştirme çalışmasına girdi olacak (yön beyanı, mühürlü karar değil).
+- 2026-08-12 KEEL v0.2 yayın commit'i.
+- 2026-08-25 `soul` bootstrap: first-principles general-purpose agentic architecture; `development/` ve `system/` ayrımı; ilk paket Development OS.
 
 ## Çalışma hipotezleri — SONUÇ DEĞİL
 
@@ -88,34 +107,33 @@ H3. KEEL'den SOUL'a aktarılabilir çekirdek, dosya/ritüel isimlerinden çok **
 
 H4. Önceki araştırmalar "daha iyi düşün" öğüdünden çok sorgulamanın **üreteci + tetiği + kanıt zinciri** fikrine doğru ilerlemiş; SOUL bunun daha genel bir biçimini arıyor olabilir.
 
-H5. 8–11 Ağustos dış-göz/araştırma çalışmaları ile 25 Ağustos SOUL bootstrap'ı arasında doğrudan tasarım devamlılığı olabilir; bunu mevcut KEEL mekanizması ve mümkünse aradaki karar/commit kayıtlarıyla doğrulamak gerekir.
+H5. 8–11 Ağustos dış-göz/araştırma çalışmaları ile 25 Ağustos SOUL bootstrap'ı arasında doğrudan tasarım devamlılığı olabilir; şimdi bu ara dönemin karar/commit/kayıt zinciri araştırılmalı.
 
-## Şimdi — D geçişi
+## Şimdi — E geçişi: SOUL'a geçiş kronolojisi
 
-Amaç: geçmiş anlatıların bugünkü `keel` reposunda gerçekten ne kadar mekanik karşılığı olduğunu görmek.
+En yüksek bilgi değerli soru:
 
-Öncelikli yüzeyler:
+**2026-08-11'deki "araştırma evi / sonraki yeni geliştirme" yönünden 2026-08-25 SOUL bootstrap'ına hangi olay, değerlendirme, karar veya yeniden-çerçeveleme zinciriyle gelindi?**
 
-1. kurulum/giriş + `GENESIS_DURUM` / yeniden başlama,
-2. guard / protected paths / role boundary,
-3. bekçi + kasıtlı bozma / test yüzeyi,
-4. verifier / karne / kapanış,
-5. insan-okur ↔ makine durum sözleşmeleri,
-6. bağlam ve ders→ihtiyaç köprüsü.
+Öncelik:
 
-D geçişinde önce `keel` dizin haritaları çıkarılacak, sonra yalnız yük taşıyan dosyalar seçilecek; bütün `tools/` ağacı körlemesine okunmayacak.
+1. `os-architect` 2026-08-11 → 2026-08-25 commit/kayıtlarında SOUL, araştırma evi, değerlendirme günü, KEEL'in yeniden değerlendirilmesi veya first-principles yeniden kuruluş sinyallerini bul.
+2. İndekslerden işaret edilen `degerlendirme-gunu-*`, sahip seansları ve ilgili karar kayıtlarını seçici oku.
+3. Gerekirse git'te yaşayan tarihî dosyalara yalnız kaynak zinciri işaret ettiğinde dön.
+4. `soul` bootstrap ifadesinin geçmiş kayıtlardaki hangi probleme cevap verdiğini ayır.
 
 ## Yeni oturumda devam
 
 1. Canonical `AGENT.md` + routing protokollerini yükle.
 2. `research/soul-context/README.md` oku.
 3. Bu `STATE.md` dosyasını oku.
-4. `research/soul-context/repos/keel/README.md` aç.
-5. `keel` içinde D geçişi için dizin haritası + seçici mekanizma okumasıyla devam et.
+4. `research/soul-context/repos/os-architect/README.md` aç.
+5. E geçişi için 2026-08-11 → 2026-08-25 kronolojisini araştır.
 
 ## Henüz yapılmaması gerekenler
 
 - SOUL mimarisi önermek.
 - KEEL mekanizmalarını SOUL gereksinimi saymak.
 - İkinci-el literatür özetlerini doğrulanmış dış kanıt saymak.
+- Fresh execution yapılmadan "KEEL testleri bugün geçiyor" demek.
 - "SOUL Research'ün amacı kesin olarak X" hükmü vermek.
