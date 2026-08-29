@@ -1,129 +1,121 @@
 # SOUL Context — STATE
 
 **Durum:** AÇIK  
-**Faz:** 4 — önceki araştırma ve dış-göz kayıtlarının bağlamı  
+**Faz:** 5 — KEEL öz-anlatısını bugünkü mekanizmayla karşılaştırma  
 **Son güncelleme:** 2026-08-29
 
 ## Ana hedef
 
 Üç kaynak repoyu sistematik okuyarak SOUL Research projesinin gerçek araştırma niyetini yeniden kurmak; erken mimari çözüm üretmemek.
 
-## Şu ana kadar doğrulananlar
+## Kaynak repoların rolleri
 
-### `soul`
+- `soul`: current explicit intent anchor.
+- `os-architect`: tarihsel arıza, karar, yöntem, araştırma ve KEEL geliştirme bağlamı.
+- `keel`: bugünkü somut ürün/mekanizma yüzeyi.
 
-- `README.md` tam okundu — SHA `9dbded3017e62a968ead024cf1d544d1d37a2be2`.
-- Repo geçmişinde bağlı GitHub görünümünde tek commit bulundu: `7b2a9a4` — `bootstrap: initialize SOUL repository` (2026-08-25).
-- Commit yalnız `README.md` oluşturuyor.
-- Explicit çapa: SOUL, intended outcome'u kontrollü ve doğrulanabilir çalışan sisteme dönüştüren genel amaçlı agentic architecture olarak first principles'tan yeniden kuruluyor.
-- Explicit ayrım: `development/` = SOUL'u tasarlayan/gözden geçiren/doğrulayan/geliştiren operating system; `system/` = tekrar kullanılabilir ürün.
-- İlk iş paketi product architecture değil, SOUL Development Operating System.
+## Tamamlanan geçişler
 
-### `keel`
+### A — çalışma düzeni ve araştırma yöntemi
 
-- kök ağaç haritası görüldü.
-- `README.md` tam okundu — SHA `a221d174f7422a32dbd369e8516d8b7aa31b3a92`.
-- `GENESIS.md` tam okundu — SHA `a04b80607915644ea56524d2fa87c6177f34949d`.
-- `00_genesis/DEFO_MODELI.md` tam okundu — SHA `e9bddf5e04e13d90dbb6014eb432fba18357f6ac`.
-- İlk sinyal: KEEL, durumsuz ajanlarla yazılım projesi kurup yürütmek için işletim disiplini; kanonik durum, roller, kutular, insan mühürleri ve mekanik doğrulama yüzeyleri merkezde.
-- DEFO modeli, sistem tasarımının LLM/ajan eğilimlerini yok saymak yerine bunların gözlemlenebilir izlerini ve mekanik karşılıklarını üretmesi gerektiğini savunuyor.
+Tam okunan ana dosyalar: `eski-alanin-cokusu`, `sonsuza-kadar-kullanilabilirlik`, `arastirma-yontemi`, `hasim-turu-yontemi`, `dis-goz-yontemi`.
 
-### `os-architect`
+Doğrulanan ayrım:
 
-Giriş ve indeksler tam okundu:
+- depo/temsil failure'ı,
+- çalışma-döngüsü failure'ı,
+- epistemik süreç failure'ı.
 
-- `NEREDE_NE_VAR.md` — `049d8926`.
-- `PANO.md` — `28a9be2a`.
-- `CLAUDE.md` — `2eb682f0`.
-- `bilgi/INDEKS.md` — `19b78442`.
-- `bilgi/keel/INDEKS.md` — `881c2be4`.
-- `bilgi/calisma-duzeni/INDEKS.md` — `1f5cef29`.
+### B — KEEL problem ve kanıt modeli
 
-A grubu — çalışma düzeni ve araştırma yöntemi — TAMAMLANDI:
+Tam okunan ana dosyalar: `kurulus-ve-sertlestirme`, `genesis-v2-kanit-zinciri`, `urun-ariza-kokenleri`, `defo-cercevesi`, `dis-dogrulama`.
 
-- `bilgi/calisma-duzeni/eski-alanin-cokusu.md` — `5fd38faa`.
-- `bilgi/calisma-duzeni/sonsuza-kadar-kullanilabilirlik.md` — `4750e45d`.
-- `bilgi/calisma-duzeni/arastirma-yontemi.md` — `a6601f3f`.
-- `bilgi/calisma-duzeni/hasim-turu-yontemi.md` — `751fafea`.
-- `bilgi/calisma-duzeni/dis-goz-yontemi.md` — `fcc54218`.
+Doğrulanan ayrım:
 
-B grubu — KEEL problem ve kanıt modeli — TAMAMLANDI:
+- gözlenen arıza/saha olayı,
+- ölçüm/tatbikat,
+- tasarım hükmü,
+- dış yakınsama.
 
-- `bilgi/keel/kurulus-ve-sertlestirme.md` — `81493b09`.
-- `bilgi/keel/genesis-v2-kanit-zinciri.md` — `8de3d1d7`.
-- `bilgi/keel/urun-ariza-kokenleri.md` — `d293234d`.
-- `bilgi/keel/defo-cercevesi.md` — `6cacdf34`.
-- `bilgi/keel/dis-dogrulama.md` — `6c89e66a`.
+KEEL güvenlik sınırı olarak değil savruk/onay-arayışlı ajan için işletim disiplini olarak çerçeveleniyor. Tarihsel olarak doğrulama/koruma mekanizmaları davranış anti-defolarından daha güçlü.
 
-## Doğrulanan maddi bulgular
+### C — önceki araştırma ve dış-göz kayıtları
 
-### Çalışma alanı / süreç
+Okundu:
 
-- Eski alanın ölçülen çöküşünde aşırı büyük canonical dosyalar, tavansız ham araştırma, arama güvensizliği yüzünden kopya/drift ve farklı ömürlü içeriğin aynı yerde tutulması öne çıkıyor.
-- Yalnız dosya yapısını düzeltmek yeterli görülmemiş; aynı davranış yeni yapılarda tekrar edebiliyor.
-- Uzun ömürlü kullanılabilirlik veri/kütüphane disiplini + danışmanın çalışma disiplini + ürün geliştirme disiplini olarak üçe ayrılmış.
-- Statik hijyen tek başına yeterli değil: hareket, güncelleme sorumluluğu ve yaşam döngüsü taşınmazsa alan depo olur fakat tezgâh olmaz.
+- `arastirma-seansi-2026-08-kunye.md`
+- `arastirma-seansi-2026-08-akil-yurutme.md`
+- `arastirma-seansi-2026-08-ev-eslemesi.md`
+- `arastirma-seansi-2026-08-sektorler.md`
+- `arastirma-seansi-2026-08-sektorler-hukmu.md`
+- `arastirma-seansi-2026-08-gstack.md`
+- `disgoz-seansi-2026-08-kunye.md`
+- `disgoz-seansi-2026-08-hedef-ve-bakis.md`
+- `disgoz-seansi-2026-08-teshisler.md`
+- `disgoz-seansi-2026-08-matris.md`
+- `disgoz-seansi-2026-08-alternatifler.md`
+- `disgoz-seansi-2026-08-fikir-carpismasi.md`
 
-### Araştırma / doğrulama
+Önemli sınır: araştırma seansının altı kaleminden yalnız 1, 2 ve 6'nın repo ayağı koşulmuş. 3–5 için tamamlanmış ayrı koşu kaydı yok; araştırılmış sayılmayacak.
 
-- Araştırma süreci echo/self-citation, aynı kaynağı çoğaltma, dış aracın sentezini dış kanıt sayma, ölçülmemiş tasarım ve doğrulanmamış dış iddia gibi failure mode'lara karşı açık yöntemler geliştirmiş.
-- Çok reviewer/ajan tek başına bağımsızlık değil. Okuyan göz ile koşan göz farklı hata sınıfları buluyor; yalancı-yeşil avı ve kasıtlı bozma doğrulamanın kırmızı verebildiğini sınamak için kullanılıyor.
-- Dış göz yeni gerçek bulgular üretebilir; fakat dış rapor hakikat sayılmıyor, repo/makine üzerinde tekrar doğrulanıyor. Doğru bulgu + yanlış teşhis mümkün kabul ediliyor.
+`akil-yurutme` ve `sektorler` dış literatürün damıtılmış ikinci-el görünümüdür. Şu aşamada geçmiş araştırmanın düşünce yönünü anlamak için kullanılır; SOUL için yük taşıyan dış-literatür iddiası gerektiğinde birincil kaynağa geri dönülecek.
 
-### KEEL'in problem modeli
+## Şu ana kadarki yapısal problem haritası
 
-- KEEL'in erken mekanizmalarının önemli kısmı minimal tasarım → gerçek kurulum → gözlenen arıza → sertleştirme döngüsünden türemiş; baştan tamamlanmış bir mimari olarak doğmamış.
-- GENESIS v2 için 206 birleşik ders envanteri ve kasıtlı bozma/tatbikat kanıtı var; ancak davranış sondaları tek-model/tek-koşu ve bazı kararlar ölçüm tarafından zorunlu kılınmış değil.
-- Ürün arızalarının ana kökü "bir hatta öğrenilen dersin kardeş hatta taşınmaması" olarak modellenmiş. Bazı yeşil kontrollerin gerçekte sıfır bilgi ürettiği ancak kasıtlı bozmayla bulunmuş.
-- DEFO çerçevesi KEEL'i güvenlik sınırı değil, savruk/onay-arayışlı ajan için disiplin sistemi olarak tanımlıyor.
-- Tarihsel mekanizma envanterinde doğrulama/koruma mekanizmaları davranış anti-defolarından daha güçlü; yağcılık, aynalama, şişme ve drift gibi defolar daha çok zayıf prosedür/öğüt düzeyinde kalmış.
-- Dış okumalar bağımsız repo/bağlam yakınsamaları ve yeni teyitli bulgular üretmiş; ancak model bağımsızlığı yok ve aynı model kopyalarının iki kanıt olmadığı açıkça kabul edilmiş.
-- Dış yakınsama zincirinin dördüncü halkası iki kayıtta farklı anlatılıyor; bu çözülmemiş kayıt çelişkisi dış anlatımın kanıt gücünü sınırlar.
+1. **Depo/temsil:** bilgi şişiyor, kopyalanıyor, bulunamıyor veya farklı ömürler karışıyor.
+2. **Çalışma yaşam döngüsü:** durum saklansa bile hareket, sorumluluk ve güncelleme yükümlülüğü taşınmayabiliyor.
+3. **Epistemik süreç:** aynı kaynak/model/çerçeve sahte yakınsama; verifier körlüğü ve yalancı-yeşil sahte güven üretebiliyor.
+4. **Amaç/çerçeve:** soru görev sanılıyor; öncül ve gerçek amaç icradan önce yeniden türetilmeyebiliyor. Oturumlar sonucu taşıyıp neden/amaç modelini kaybedebiliyor.
+5. **Ders→mekanizma:** ders belge olarak kalıyor, ihtiyaç anına ulaşmıyor veya bir hatta uygulanıp kardeş hatta taşınmıyor.
+
+## Tarihsel yön sinyalleri — henüz nedensel sonuç değil
+
+- 2026-08-08 dış-göz seansında hedef: dünya standardı + alışılmışın dışında/vizyoner problem çözme; KEEL akıl+teknik birlikte değerlendirilmeli.
+- Aynı seansın üst tezi: daha fazla altyapı eklemek yerine görünmez varsayımları sözleşme, fixture, iz ve kapsama ölçümüne dönüştürmek.
+- 2026-08-10 araştırma seansı çerçeve körlüğü ve "soru ≠ görev" problemi etrafında açılmış.
+- 2026-08-11 gstack kaydında sahibin yön beyanı: "araştırma evi kurulacak"; araştırmalar sonraki yeni geliştirme çalışmasına girdi olacak. Bu bir mühürlü karar değil.
+- 2026-08-25 `soul` repo bootstrap'ı: SOUL first-principles general-purpose agentic architecture; `development/` ile `system/` ayrı; ilk iş paketi SOUL Development Operating System.
+
+Bu kronoloji doğrudan devamlılık hipotezini güçlendiriyor fakat **SOUL Research = önceki KEEL planının aynen devamı** sonucu henüz verilmez.
 
 ## Çalışma hipotezleri — SONUÇ DEĞİL
 
-H1. SOUL Research yalnız "yeni bir agent framework araştırması" değildir; önceki çalışma alanlarında ortaya çıkan **durumsuzluk, drift, öz-onaylama, motivasyon çakışması, bilgi ömrü ve doğrulama** problemlerini daha genel bir agentic architecture bağlamında yeniden ele alma hazırlığı olabilir.
+H1. SOUL Research'ün temel niyeti yalnız yeni bir agent framework aramak değil; durumsuzluk, drift, öz-onaylama, bilgi ömrü, amaç kaybı ve doğrulama problemlerini daha genel bir agentic architecture seviyesinde first principles'tan yeniden ele almak olabilir.
 
-H2. KEEL, önemli deney ve mekanizma kanıtı taşısa da yazılım-projesi işletim disiplinidir; SOUL'un genel amaçlı mimarisine doğrudan kopyalanamaz. Ürün-özel mekanizma ile genellenebilir prensip ayrılmalıdır.
+H2. SOUL Development OS'nin problemi yalnız persistans değil; **amaç + iş yaşam döngüsü + güncelleme sorumluluğu + epistemik doğrulama + dersin ihtiyaç anına ulaşması** birlikte olabilir.
 
-H3. `soul` README'sindeki `development/` / `system/` ayrımı, önce sistemi değil **onu güvenilir biçimde üretecek ve uzun süre geliştirecek çalışma sistemini** kurma ihtiyacının bilinçli sonucu olabilir. A+B grupları bu hipotezi güçlendiriyor, ancak doğrudan nedensel bağ henüz kanıtlanmış değil.
+H3. KEEL'den SOUL'a aktarılabilir çekirdek, dosya/ritüel isimlerinden çok **failure → ölçüm → mekanizma → falsification → yaşam döngüsü** zinciri olabilir.
 
-H4. SOUL Development OS'nin çözmesi gereken problem yalnız bilgi persistansı olmayabilir; **işin yaşam döngüsünü, güncelleme sorumluluğunu, doğrulamayı ve drift kontrolünü oturumlar arasında taşıma** problemi daha temel olabilir.
+H4. Önceki araştırmalar "daha iyi düşün" öğüdünden çok sorgulamanın **üreteci + tetiği + kanıt zinciri** fikrine doğru ilerlemiş; SOUL bunun daha genel bir biçimini arıyor olabilir.
 
-H5. KEEL'den SOUL'a aktarılabilir olanın dosya/ritüel isimlerinden çok **failure → ölçüm → mekanizma → falsification → yaşam döngüsü** zinciri olması daha olası görünüyor. Bunun genellenebilirliği henüz sınanmadı.
+H5. 8–11 Ağustos dış-göz/araştırma çalışmaları ile 25 Ağustos SOUL bootstrap'ı arasında doğrudan tasarım devamlılığı olabilir; bunu mevcut KEEL mekanizması ve mümkünse aradaki karar/commit kayıtlarıyla doğrulamak gerekir.
 
-H6. SOUL Research'ün kendi araştırma düzeni de araştırma nesnesinden bağımsız bir güven problemi taşıyor olabilir: aynı model/aynı kaynak/aynı çerçeveden gelen çoklu sentez sahte yakınsama üretebilir. İlerideki dış araştırmada kaynak bağımsızlığı ve falsification yüzeyi açıkça izlenmeli.
+## Şimdi — D geçişi
 
-## Plan kontrolü
+Amaç: geçmiş anlatıların bugünkü `keel` reposunda gerçekten ne kadar mekanik karşılığı olduğunu görmek.
 
-A ve B grupları tamamlandı. A → B → C → D planı korunuyor.
+Öncelikli yüzeyler:
 
-B geçişi mevcut çözümü kopyalamak yerine kanıt statülerini ayırmanın gerekli olduğunu doğruladı. C grubunda önceki dış araştırmanın sorusu ve kapsamı okunacak; mevcut KEEL tezlerini challenge edip etmediği ayrıca sınanacak.
+1. kurulum/giriş + `GENESIS_DURUM` / yeniden başlama,
+2. guard / protected paths / role boundary,
+3. bekçi + kasıtlı bozma / test yüzeyi,
+4. verifier / karne / kapanış,
+5. insan-okur ↔ makine durum sözleşmeleri,
+6. bağlam ve ders→ihtiyaç köprüsü.
 
-## En yüksek bilgi değerli sonraki okuma
-
-### C. Daha önce yapılmış dış araştırmanın çerçevesi — ŞİMDİ
-
-1. `os-architect/bilgi/keel/arastirma-seansi-2026-08-kunye.md`
-2. yalnız künyenin işaret ettiği alt araştırma dosyaları
-3. `os-architect/bilgi/keel/disgoz-seansi-2026-08-kunye.md`
-4. yalnız gerekli dış-göz kayıtları
-
-### D. KEEL'in öz-anlatısını mekanikle karşılaştır
-
-C geçişinden sonra KEEL'de ilgili `tools/guard`, `tools/bekci`, fixture ve sözleşme dosyalarına seçici in.
+D geçişinde önce `keel` dizin haritaları çıkarılacak, sonra yalnız yük taşıyan dosyalar seçilecek; bütün `tools/` ağacı körlemesine okunmayacak.
 
 ## Yeni oturumda devam
 
 1. Canonical `AGENT.md` + routing protokollerini yükle.
 2. `research/soul-context/README.md` oku.
 3. Bu `STATE.md` dosyasını oku.
-4. `research/soul-context/repos/os-architect/README.md` aç.
-5. `os-architect/bilgi/keel/arastirma-seansi-2026-08-kunye.md` ile devam et.
+4. `research/soul-context/repos/keel/README.md` aç.
+5. `keel` içinde D geçişi için dizin haritası + seçici mekanizma okumasıyla devam et.
 
 ## Henüz yapılmaması gerekenler
 
-- SOUL için mimari önermek.
-- KEEL mekanizmalarını SOUL gereksinimi olarak kabul etmek.
+- SOUL mimarisi önermek.
+- KEEL mekanizmalarını SOUL gereksinimi saymak.
+- İkinci-el literatür özetlerini doğrulanmış dış kanıt saymak.
 - "SOUL Research'ün amacı kesin olarak X" hükmü vermek.
-- Üç repoyu dosya sayısı üzerinden körlemesine tüketmek.
