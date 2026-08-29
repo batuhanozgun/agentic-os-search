@@ -62,7 +62,9 @@ Use this format, with **one route per line**:
 `Routing gate`  
 `R01 Varsayımlar: LOAD`  
 `R02 Kullanıcı etkisi: SKIP`  
-`R03 Amaç–yöntem: LOAD`
+`R03 Amaç–yöntem: LOAD`  
+`R04 Doğrulama bağımsızlığı: LOAD`  
+`R05 Kaynak–temsil ayrımı: SKIP`
 
 The status block exposes **routing outcomes only**, not hidden reasoning or chain-of-thought. Do not provide a rationale for every route by default. Explain a routing decision only when the user asks or when the decision boundary itself is useful to the task.
 
@@ -99,6 +101,22 @@ Protocol:
 Protocol:
 
 `agent/protocols/goal-method-end-to-end-validation.md`
+
+### R04 — Verification Independence
+
+**Could the answer rely on a second-pass review, critique, re-check, or verifier judgment to materially increase confidence in correctness?**
+
+Protocol:
+
+`agent/protocols/verification-independence.md`
+
+### R05 — Source–View Fidelity
+
+**Could omitted, stale, or distorted information in a summary, excerpt, retrieval result, memory, compressed context, or other derived view materially change the conclusion?**
+
+Protocol:
+
+`agent/protocols/source-view-fidelity.md`
 
 ## Protocol Loading Rules
 
