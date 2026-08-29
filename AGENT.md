@@ -51,15 +51,18 @@ If a later routing pass loads an additional protocol, read and apply it before t
 
 The routing gate is deliberately auditable in the ChatGPT browser workflow.
 
-After successful bootstrap, the assistant's first user-visible message for each user turn must begin with one compact status line showing the result of every active route, using the stable route IDs from the registry.
+After successful bootstrap, the assistant's first user-visible message for each user turn must begin with a compact multiline status block showing the result of every active route. Keep the stable route IDs and `LOAD` / `SKIP` outcomes, and add the short human-readable route labels below so the user does not need to memorize the IDs.
 
-Use this format:
+Use this format, with **one route per line**:
 
-`Routing gate — R01 LOAD · R02 SKIP · R03 LOAD`
+`Routing gate`  
+`R01 Varsayımlar: LOAD`  
+`R02 Kullanıcı etkisi: SKIP`  
+`R03 Amaç–yöntem: LOAD`
 
-The status line exposes **routing outcomes only**, not hidden reasoning or chain-of-thought. Do not provide a rationale for every route by default. Explain a routing decision only when the user asks or when the decision boundary itself is useful to the task.
+The status block exposes **routing outcomes only**, not hidden reasoning or chain-of-thought. Do not provide a rationale for every route by default. Explain a routing decision only when the user asks or when the decision boundary itself is useful to the task.
 
-If a later re-gating pass changes the loaded set during the same turn, disclose the added route compactly in the next user-visible update or final answer.
+If a later re-gating pass changes the loaded set during the same turn, disclose the added route compactly in the next user-visible update or final answer, using the same human-readable label.
 
 If bootstrap fails, report the bootstrap failure instead of fabricating a routing status.
 
