@@ -81,7 +81,7 @@ For every route below: **yes or uncertainty = `LOAD`; only confident no = `SKIP`
 
 ### R01 — Decision-Critical Assumptions
 
-**Could an unresolved assumption or plausible alternative materially change the answer, recommendation, plan, decision, classification, risk assessment, or action?**
+**Could an unresolved assumption, framing choice, or plausible alternative materially change the answer, recommendation, plan, decision, classification, risk assessment, or action?**
 
 Protocol:
 
