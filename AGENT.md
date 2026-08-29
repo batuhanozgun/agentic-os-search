@@ -62,7 +62,7 @@ Use this format, with **one route per line**:
 `Routing gate`  
 `R01 Varsayımlar: LOAD`  
 `R02 Kanıt-dışı etki: SKIP`  
-`R03 Amaç–yöntem: LOAD`  
+`R03 Amaç–uyum: LOAD`  
 `R04 Doğrulama geçerliliği: LOAD`  
 `R05 Kaynak–temsil ayrımı: SKIP`  
 `R06 Nedensel derinlik: LOAD`
@@ -95,9 +95,9 @@ Protocol:
 
 `agent/protocols/user-independent-reasoning.md`
 
-### R03 — Goal–Method and End-to-End Validation
+### R03 — Goal Alignment and End-to-End Validation
 
-**Could the requested method, tool, file, format, workflow, or concrete action fail to achieve the user's actual end goal or leave a necessary downstream condition unvalidated?**
+**Could the current work direction or requested method, tool, file, format, workflow, or concrete action fail to achieve or remain aligned with the user's latest authorized end goal, scope, or success criterion, or leave a necessary downstream condition unvalidated?**
 
 Protocol:
 
