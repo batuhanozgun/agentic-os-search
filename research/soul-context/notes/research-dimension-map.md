@@ -1,543 +1,421 @@
-# SOUL Research Dimension Map — Stage 2 historical-failure red team
+# SOUL Research Dimension Map — Stage 3 omission / overlap / counter-frame red team
 
-**Status:** active; foundation-derived + historical-failure challenged, not architecture  
+**Status:** active; taxonomy tightened, not architecture  
 **Date:** 2026-08-30
 
 ## Purpose
 
-Translate SOUL's accepted/current foundation and Phase-1..3 roadmap gates into **research dimensions and evidence obligations** without converting them into mechanisms, roles, tools, services or a product backlog.
+Define a small set of **discriminating research dimensions** that can support SOUL Phase 1–3 without becoming a technology catalogue, KEEL reconstruction or unbounded defect list.
 
-This stage deliberately distinguishes:
+A dimension is retained only if it protects a distinguishable property/failure surface and has meaningfully different evidence/stopping obligations from its neighbours.
 
-- **Foundation constraint / owner-defined property:** currently authoritative; research does not vote on whether SOUL should have it.
-- **Researchable system question:** evidence can inform how the property can be satisfied, what failure classes threaten it, what capabilities are necessary, and which alternative layers/control patterns are credible.
-- **Empirical/generalisation claim:** requires scenario, experiment, comparative or field evidence rather than prose alone.
+## Epistemic classes
 
-Stage 2 additionally attacks the foundation-derived map with the reconstructed KEEL/os-architect/SOUL failure corpus. The purpose is to detect missing dimensions rather than force all failures into a convenient taxonomy.
+- **Foundation constraint / owner-defined property:** current authority; research can find contradiction/impossibility but cannot silently vote it away.
+- **Researchable system question:** evidence informs capability necessity, failure classes, alternative layers and design trade-offs.
+- **Task-specific capability family:** may be needed for some outcomes but is not automatically a stable-core dimension.
+- **Validation axis:** tests several dimensions; should not be mistaken for a component/capability.
 
 ## Source basis
 
-Primary SOUL sources:
-
-- `development/00_foundation/VISION.md`
-- `development/00_foundation/DEFINITION.md`
-- `development/00_foundation/SUCCESS_CRITERIA.md`
-- `development/00_foundation/NON_NEGOTIABLES.md`
-- `development/03_plan/ROADMAP.md`
-
-Boundary control:
-
+Primary SOUL foundation/governance:
+- `VISION.md`
+- `DEFINITION.md`
+- `SUCCESS_CRITERIA.md`
+- `NON_NEGOTIABLES.md`
+- `ROADMAP.md`
 - `ROLE_MODEL.md`
-- `EVIDENCE_TEMPLATE.md`
 - `DECISION_POLICY.md`
+- `EVIDENCE_TEMPLATE.md`
 - `REASONING_POLICY.md`
 
-Historical challenge sources:
+Challenge evidence:
+- reconstructed os-architect / KEEL / SOUL failure corpus;
+- NASA decision-analysis holdout;
+- Cochrane/PRISMA evidence-synthesis holdout;
+- NIST/FEMA dynamic-operations holdout.
 
-- `research/soul-context/repos/os-architect/README.md`
-- `research/soul-context/repos/keel/README.md`
-- `research/soul-context/repos/soul/README.md`
-- `research/soul-context/notes/transition-to-soul.md`
-- `research/soul-context/notes/research-to-architecture-boundary.md`
-
-## Foundation-level fixed properties — do not turn into popularity questions
-
-The following are current architectural constraints or success properties, not open questions such as `is this a good idea?`:
-
-- critical project truth must outlive chat/model memory;
-- producer self-certification is insufficient for material work;
-- evidence cannot be replaced by plausible narrative;
-- authority must be explicit and bounded;
-- state, memory, context and knowledge are distinct concepts;
-- humans are not fallback search engines or hidden orchestrators;
-- fresh-session continuation is required;
-- missing capability must be explicit and governed;
-- critical control state cannot be solely controlled by the component it constrains;
-- unknown/unverified/blocked/partial/stale/conflicted/failed must be representable;
-- repeated preventable/detectable failures should migrate toward stronger controls when practicable;
-- one material fact should have one authoritative home;
-- domain assumptions must not silently leak into stable core;
-- core evolution is governed;
-- observability is part of correctness;
-- general-purpose SOUL must demonstrate transfer across materially different pilots.
-
-Research may discover that a foundation constraint is internally inconsistent or impossible under another constraint. That would be **counter-evidence requiring a foundation decision path**, not permission for research to silently rewrite the foundation.
-
-# Candidate research dimensions
+# Current property dimensions
 
 ## D1 — Intended outcome → bounded work definition
 
-### Foundation demand
+**Protected property:** the system pursues the actual intended outcome under explicit assumptions, unknowns, constraints, acceptance conditions and human decision boundaries instead of converting the user's wording/method directly into execution.
 
-SOUL receives an intended outcome and must distinguish factual gaps from human preferences/values/constraints/approval boundaries. Success requires an explicit bounded work definition with assumptions, unknowns, constraints, acceptance criteria and human decision boundaries.
+**Key research questions:**
+- fact gap vs assumption vs constraint vs preference/value vs approval boundary;
+- question/request vs task/objective;
+- when to ask, infer, research, defer or refuse;
+- how to detect framing drift and hidden premise failure.
 
-### Researchable questions
+**Evidence:** requirements/intent elicitation prior art; historical framing failures; ambiguous-premise scenario tests; owner burden versus framing-error reduction.
 
-- What recurring failure classes occur when agents translate ambiguous or underspecified human outcomes into work definitions?
-- How can factual uncertainty, preference/value ambiguity, hard constraints, soft preferences and authority/approval boundaries be distinguished reliably?
-- When should a system ask, infer, research, defer, or refuse to proceed?
-- How can the system detect that the user's apparent request is a proposed method rather than the actual outcome?
-- What evidence shows that clarification/framing improved outcome fidelity rather than merely adding questions?
+**Falsifiers:** lighter direct execution performs equally/better on outcome fidelity; clarification increases burden without reducing material errors; proposed universal goal schema fails across domains.
 
-### Evidence classes
-
-- human–AI requirements/intent elicitation literature and standards;
-- historical agent failures where request→task translation drifted;
-- comparative task cases with hidden/ambiguous premises;
-- adversarial prompts where method is mistaken for objective;
-- owner-relevant acceptance tests across materially different domains.
-
-### Strong falsifiers / counter-frames
-
-- a lighter direct-execution baseline performs equally or better on outcome fidelity for the same task class;
-- clarification protocol increases owner burden without reducing material framing errors;
-- a proposed universal intent schema fails on a materially different domain or value-laden task.
-
-### Downstream decision dimensions
-
-Phase 1 purpose/boundary/completion semantics; later goal/work-definition domain model.
+**Phase 1–3 relevance:** direct Phase-1 purpose/input/completion boundary; capability implications in Phase 2; framing/drift failures in Phase 3.
 
 ---
 
 ## D2 — Task-specific system formation and capability derivation
 
-### Foundation demand
+**Protected property:** SOUL derives the functions/capabilities needed by the outcome instead of relying on a permanently fixed team, toolset or workflow.
 
-SOUL is not a fixed team/workflow. It must determine which capabilities, roles, tools, knowledge sources, controls and verification a task requires, including missing capabilities.
+**Key research questions:**
+- capability versus role/tool/workflow/mechanism;
+- function/capability necessity from outcome + failure/control obligations;
+- existing vs adapted vs genuinely missing capability;
+- when motivation/authority separation is necessary versus coordination overhead;
+- burden of proof for durable roles/controls.
 
-### Researchable questions
+**Evidence:** cross-domain functional decomposition; systems-engineering/function-allocation prior art; agent-system comparisons as prior art; ablation/comparator evidence for durable component necessity; historical motivation conflicts.
 
-- What is a **capability** at the right abstraction level for a general-purpose agentic system?
-- How can capability necessity be derived from outcome/failure/control obligations rather than copied from existing frameworks?
-- When is an existing capability sufficient, when must it be adapted, and when is a genuinely missing capability present?
-- What failure modes arise from over-decomposition, under-decomposition, duplicated capability ownership or hidden capability improvisation?
-- Which functions require distinct success motivations/authority boundaries and which can safely remain combined?
+**Falsifiers:** simpler structure protects same property; capability categories collapse across domains; bundled-treatment improvement is the only support for a permanent component.
 
-### Evidence classes
+**Elasticity guard:** D2 is intentionally able to contain **task-specific capability discovery**, but it may not use that breadth to declare every domain method a stable-core capability. Domain methods such as NASA-style decision analysis remain task-specific unless independent evidence establishes a core invariant.
 
-- cross-domain task/capability decomposition cases;
-- systems-engineering/function-allocation prior art;
-- agent-framework/multi-agent prior art used as comparative evidence, not schema;
-- ablation/comparator evidence when claiming a durable role/component is necessary;
-- historical KEEL/Development-OS evidence of role/motivation failure.
-
-### Strong falsifiers / counter-frames
-
-- the same property is achieved with a materially simpler capability structure;
-- proposed capability categories collapse or overlap across domains;
-- a durable role/control is justified only by bundled-treatment improvement without component-level identification.
-
-### Downstream decision dimensions
-
-Phase 2 Capability Architecture; Phase 9 self-extension lifecycle.
+**Phase 1–3 relevance:** actor/system boundary; central Phase-2 function/capability map; capability failure surfaces in Phase 3.
 
 ---
 
-## D3 — Persistent state, memory, context, knowledge and retrieval
+## D3 — Internal/external state, memory, context, knowledge and retrieval
 
-### Foundation demand
+**Protected property:** the system can preserve authoritative truth and supply sufficient, fresh, relevant information to actors without collapsing state/history/context/knowledge/world observations into one undifferentiated prompt/store.
 
-Critical state outlives model memory; state/memory/context/knowledge are different; fresh sessions continue correctly; agents receive sufficient current context without treating all history as equally relevant/authoritative.
+**Key research questions:**
+- authority, lifetime, freshness, trust and access classes;
+- durable internal/project state versus externally observed world state;
+- validity horizon of observations and plan assumptions;
+- always-present vs retrieve-on-trigger vs reconstructable vs forensic information;
+- omission, stale/conflict detection and unknown-needed evidence;
+- source/entity versus multiple representations/reports;
+- cold-start sufficiency.
 
-### Researchable questions
+**Evidence:** context/retrieval literature; cold-start tests; stale/conflict/omission scenarios; external-state update scenarios; comparative context-load versus error experiments.
 
-- What information classes have different authority, lifetime, freshness, trust and retrieval semantics?
-- Which information must be always-present, selectively retrieved, reconstructable, or purely forensic?
-- How can selective context reduce attention load without hiding evidence the actor does not know it needs?
-- How are omission, stale retrieval, conflicting sources, derived summaries and unknown triggers detected?
-- What minimum persistent state is sufficient for cold-start continuation?
+**Falsifiers:** context reduction hides material evidence; retrieval trigger depends on omitted evidence; derived summary becomes authority; stale world observation remains silently valid; fresh actor cannot reconstruct responsibility.
 
-### Evidence classes
-
-- context engineering / memory / information-retrieval literature;
-- cold-start reconstruction tests;
-- omission/adversarial retrieval tests;
-- stale/conflict scenarios;
-- comparative context-budget experiments with outcome/error measures, not token reduction alone.
-
-### Strong falsifiers / counter-frames
-
-- lower context load correlates with missed material evidence;
-- a retrieval trigger depends on evidence omitted from the actor's current context;
-- a derived summary becomes de facto authority and drifts from source truth;
-- fresh session cannot reconstruct next responsibility without chat replay.
-
-### Downstream decision dimensions
-
-Phase 4 domain model; Phase 5 state/memory/context/knowledge/retrieval architecture.
+**Phase 1–3 relevance:** minimum conceptual separation for Phase 1; capability families in Phase 2; stale/omitted/conflicted-state signals/controls in Phase 3.
 
 ---
 
 ## D4 — Authority, bounded agency and human governance
 
-### Foundation demand
+**Protected property:** actors/tools/capabilities operate under explicit bounded authority while human judgement is used for genuine values/approval rather than hidden technical orchestration.
 
-Agents/tools/capabilities cannot silently widen authority. Human owner supplies genuine values, judgement, authority and approvals, not technical/search work the system can derive.
+**Key research questions:**
+- normative/value/authority choices versus technical/researchable choices;
+- least privilege and protected control state;
+- circular technical acceptance and self-extension;
+- separation-of-duties benefit versus coordination cost;
+- escalation without owner-as-scheduler/verifier.
 
-### Researchable questions
+**Evidence:** access-control/separation-of-duties prior art; governance/safety evidence; privilege/authority failure cases; authority-boundary adversarial scenarios.
 
-- Which decisions are normative/value choices versus researchable/technical choices?
-- How should authority be represented so it is explicit, inspectable and difficult for the constrained component to rewrite?
-- What are common authority-leak patterns in agent/tool systems?
-- When does separation of roles reduce conflict of motivation, and when does it only add coordination cost?
-- What escalation design avoids both hidden owner orchestration and unsafe autonomous widening?
+**Falsifiers:** separation relocates ambiguity; no non-circular acceptance authority exists; controls turn owner into routine orchestrator; constrained actor controls its own constraints.
 
-### Evidence classes
-
-- access-control / least-privilege / separation-of-duties literature;
-- human-in-the-loop governance and safety evidence;
-- concrete privilege-escalation/failure cases;
-- motivation/function-allocation analyses;
-- authority-boundary adversarial scenarios.
-
-### Strong falsifiers / counter-frames
-
-- proposed separation merely relocates authority ambiguity;
-- no non-circular actor can accept/dispose a technical finding;
-- safety mechanism turns human owner into routine scheduler/verifier;
-- protected control remains writable by the component it constrains.
-
-### Downstream decision dimensions
-
-Phase 1 human-governance principles; Phase 8 authority/policy/safety/human governance.
+**Phase 1–3 relevance:** direct Phase-1 autonomy/human governance; authority/control capabilities in Phase 2; authority failure/control ownership in Phase 3.
 
 ---
 
 ## D5 — Evidence, provenance, verification and completion
 
-### Foundation demand
+**Protected property:** material success/recommendation claims are supported by appropriate evidence and independent enough verification rather than narrative, tool success, producer confidence or correlated agreement.
 
-Plausible narrative/tool success/agent agreement/self-declaration are not proof. Completion requires acceptance conditions, evidence obligations, required verification, policy gates and human approvals. High-impact analytical claims require traceable provenance.
+**Key research questions:**
+- claim/evidence classes;
+- deterministic verification vs semantic/evaluative judgement vs irreducible uncertainty;
+- valid oracle/falsifiability;
+- independence and correlated-error risk;
+- exact-target/freshness binding;
+- analytical provenance `claim → method → inputs → source/version`;
+- risk-proportional completion/evidence thresholds.
 
-### Researchable questions
+**Evidence:** V&V/reproducibility/evaluation prior art; mutation/negative tests; analytical provenance cases; reviewer-independence comparisons.
 
-- Which claim types admit deterministic verification, which require semantic/evaluative judgement, and which remain fundamentally uncertain?
-- What forms of independence materially reduce correlated error?
-- How should exact-target freshness and evidence-to-claim binding work across evolving artefacts?
-- How can systems distinguish `used real data` from `recommendation actually derived from data`?
-- Which completion states and evidence thresholds are proportionate to risk?
+**Falsifiers:** green path never exercises rejection; verifier derives truth from producer rationale; target changed after review; recommendation cannot be reconstructed; agreement shares source/frame error.
 
-### Evidence classes
-
-- software/system verification and validation prior art;
-- scientific reproducibility/provenance methods;
-- evaluation science / benchmark design;
-- adversarial/mutation/negative tests;
-- same-model versus diverse independent review comparisons where possible.
-
-### Strong falsifiers / counter-frames
-
-- green test never exercises the claimed rejected/failure state;
-- verifier inherits producer rationale before deriving expectations;
-- exact target changes after review;
-- multiple agreeing models share the same source/frame failure;
-- analytical conclusion cannot be reconstructed from method/inputs/source.
-
-### Downstream decision dimensions
-
-Phase 1 completion semantics; Phase 7 evidence/provenance/verification/evaluation architecture.
+**Phase 1–3 relevance:** direct Phase-1 completion semantics; evidence/verification capabilities in Phase 2; oracle/provenance/false-green failures in Phase 3.
 
 ---
 
 ## D6 — Failure representation, containment, recovery and liveness
 
-### Foundation demand
+**Protected property:** uncertainty and failure are representable states with bounded prevention/detection/containment/recovery/non-completion paths rather than silent drift or forced-success prose.
 
-Unknown/unverified/blocked/partial/stale/conflicted/failed are legitimate states. Failures must not become silent drift or false completion and must have bounded recovery paths.
+**Key research questions:**
+- domain-neutral agentic failure taxonomy;
+- observable signals;
+- prevention/detection/containment/recovery/regression allocation;
+- proximate versus root causes;
+- repair versus reframe/research/redesign;
+- deadlock/starvation/oscillation/meta-work and recovery safety.
 
-### Researchable questions
+**Evidence:** predecessor failure corpus; cross-domain incident/fault-tolerance prior art; state-machine counterexamples; failure injection/recovery scenarios.
 
-- What agentic failure taxonomy is sufficiently general across domains without becoming an unbounded defect catalogue?
-- Which failure classes require prevention, detection, containment, recovery, human escalation, or explicit non-completion?
-- How should partial success, uncertainty, stale state, conflicting evidence and not-assessable conditions be represented?
-- What distinguishes a bounded repair from a required reframe/redesign/research path?
-- What liveness/deadlock/starvation failures are introduced by stronger control processes?
+**Falsifiers:** taxonomy collapses into software bugs; safe fallback loses later truth; stronger controls create unbounded meta-work/deadlock; recovery requires inventing control semantics during the incident.
 
-### Evidence classes
-
-- historical failure corpus from KEEL/SOUL/predecessors;
-- cross-domain incident/failure literature;
-- fault-tolerance/recovery prior art;
-- state-machine counterexamples;
-- adversarial failure injection / recovery scenarios.
-
-### Strong falsifiers / counter-frames
-
-- failure taxonomy only names software-development problems;
-- recovery semantics require inventing architecture during the incident;
-- a `safe fallback` discards later canonical truth;
-- stronger gates produce unbounded meta-work or deadlock.
-
-### Downstream decision dimensions
-
-Phase 3 Failure Model; Phase 6 runtime/recovery; Phase 10 observability.
+**Phase 1–3 relevance:** legitimate lifecycle/non-completion in Phase 1; control capabilities in Phase 2; central Phase-3 failure model.
 
 ---
 
-## D7 — Learning, controlled evolution and missing-capability admission
+## D7 — Learning, controlled evolution and capability admission
 
-### Foundation demand
+**Protected property:** validated lessons/missing capabilities can change the future system through governed evolution without allowing running work to rewrite its own correctness/authority/admission rules.
 
-Repeated validated lessons should become stronger controls where practicable. Running work may not silently rewrite the rules by which its own correctness/authority/completion are judged. Missing capabilities follow a governed build/test/verify/admit lifecycle.
+**Key research questions:**
+- when a repeated failure justifies durable control;
+- lesson invocation at need time;
+- local fix vs class control vs architecture evolution vs foundation reopening;
+- missing-capability admission evidence;
+- disable/rollback/forward-restoration semantics.
 
-### Researchable questions
+**Evidence:** change/configuration-management and safety-case prior art; adaptation/self-modification literature; historical lesson-transfer failures; prospective capability-admission trials; regression/mutation evidence.
 
-- When is a repeated failure sufficiently general to justify a durable control or architectural change?
-- How can lessons be invoked at the relevant future moment without indiscriminate context loading?
-- What separates local repair, class-level control, architecture change and foundation reopening?
-- What evidence should be required before a generated capability is admitted?
-- How can rollback/disable/forward restoration preserve truth after a bad evolution step?
+**Falsifiers:** lesson remains prose and repeats; capability self-certifies; historical replay is treated as generalisation; rollback lacks invariants/forward restoration.
 
-### Evidence classes
-
-- software change-control / configuration-management / safety-case prior art;
-- online adaptation/self-modification research;
-- mutation/regression evidence;
-- historical lesson-transfer failures;
-- prospective capability-admission trials.
-
-### Strong falsifiers / counter-frames
-
-- lesson exists only as prose and is repeatedly missed;
-- new capability self-certifies or changes admission criteria;
-- replay/historical evidence is treated as proof of future generalisation;
-- rollback lacks invariants and forward-restoration semantics.
-
-### Downstream decision dimensions
-
-Definition's Evolution concern; Phase 9 Self-Extension Architecture; Phase 13 hardening/migration.
+**Phase 1–3 relevance:** Evolution concern in Phase 1; missing-capability governance first-class in Phase 2; evolution/admission failures in Phase 3.
 
 ---
 
 ## D8 — Observability and reconstructability
 
-### Foundation demand
+**Protected property:** an authorised human/fresh actor can determine material system state, actions, authority, evidence, blockers and stop reasons without hidden reasoning or conflicting shadow truth.
 
-A human must be able to determine what is happening, why, under whose authority, with what evidence, what is blocked, and why the system stopped. Observability is part of correctness.
+**Key research questions:**
+- minimum event/state/decision/evidence trace;
+- authoritative state versus derived operational view;
+- forensic reconstruction;
+- observability needed for failure diagnosis, authority audit, verification and resource/cost control;
+- avoiding unbounded telemetry/context growth.
 
-### Researchable questions
+**Evidence:** observability/audit/event-sourcing prior art; reconstruction exercises; operator scenarios; stale-view/omission tests.
 
-- What minimum event/state/decision/evidence trace lets a fresh human or agent reconstruct material behaviour without replaying hidden reasoning?
-- How should traces distinguish state truth from explanatory/derived views?
-- What observability is required for failure diagnosis, authority audit, verification and cost control?
-- How can observability avoid turning into unbounded logging/context growth?
+**Falsifiers:** operator cannot explain stop/authority/evidence; trace cannot reconstruct sequence; telemetry becomes competing source of truth; more telemetry reduces diagnostic reliability.
 
-### Evidence classes
-
-- distributed-systems/observability prior art;
-- audit/event-sourcing/provenance literature;
-- forensic reconstruction exercises;
-- operator usability studies/scenarios;
-- omission and stale-view tests.
-
-### Strong falsifiers / counter-frames
-
-- operator cannot explain why system stopped or who authorised a material action;
-- trace exists but cannot establish causal/state sequence;
-- observability data becomes another conflicting source of truth;
-- trace volume makes retrieval/diagnosis less reliable.
-
-### Downstream decision dimensions
-
-Phase 10 Observability and Operational Model; cross-cutting all phases.
+**Phase 1–3 relevance:** controlled/inspectable lifecycle in Phase 1; observability capabilities in Phase 2; explicit failure signals required by Phase 3.
 
 ---
 
-## D9 — Generality, domain transfer and task-specific architecture
+## D9 — Core invariant ↔ task-specific system / system boundary
 
-### Foundation demand
+**Why D9 changed:** Stage-1 called this `Generality, domain transfer and task-specific architecture`. Red-team showed that **domain transfer is primarily a validation axis**, not the same kind of property/capability dimension as D1–D8/D10.
 
-SOUL's generality must come from deriving task-specific operating systems above a stable core, not from encoding one fixed workflow. A credible v1 needs materially different pilots; one successful domain is insufficient evidence.
+**Protected property:** SOUL has a stable control/core boundary while deriving task-specific working systems; domain assumptions and one pilot's workflow do not silently become universal core semantics.
 
-### Researchable questions
+**Key research questions:**
+- what qualifies as an invariant concept/property versus generated task structure;
+- what belongs to SOUL, generated operating system, external environment or human authority;
+- how to detect domain assumptions leaking into core;
+- what should remain extensible rather than invariant;
+- which proposed core abstractions become contradictory/meaningless across domains.
 
-- Which properties are genuinely invariant across software production, analytical decision support, research/design/operations and other materially different work?
-- Which properties must remain task-specific rather than entering core?
-- What scenario families are sufficiently different to falsify software-development overfitting?
-- What counts as transfer versus superficial reuse of shared vocabulary?
-- How should capability/failure coverage be evaluated across domains before implementation technology is chosen?
+**Evidence:** cross-domain comparative task analysis; negative cases; systems-architecture boundary prior art; materially different scenario mapping.
 
-### Evidence classes
+**Falsifiers:** core requires software-specific workflow semantics; invariant has no stable meaning in another domain; task-specific method must be hard-coded for system formation to work; system boundary moves opportunistically to preserve a claim.
 
-- cross-domain comparative task analysis;
-- materially different scenario stress tests;
-- domain-specific standards/prior art where relevant;
-- transfer/generalisation evaluation;
-- negative cases where a proposed core abstraction fails or becomes domain leakage.
-
-### Strong falsifiers / counter-frames
-
-- core requires software-specific workflow semantics to function;
-- same mechanism works only because pilots share hidden structure;
-- success criteria are measurable only in one domain;
-- a claimed invariant becomes contradictory or meaningless in another domain.
-
-### Downstream decision dimensions
-
-Phase 1 system/non-system boundary; Phase 2 capability coverage; Phase 3 failure coverage; Phase 12 pilots/evaluation.
+**Phase 1–3 relevance:** direct Phase-1 system/non-system boundary; core/task-specific capability allocation in Phase 2; domain-leak failure classes in Phase 3.
 
 ---
 
 ## D10 — Work selection, decomposition, orchestration and lifecycle
 
-### Why Stage 2 added this dimension
+**Protected property:** current objective/state/evidence becomes the correct bounded next work and progresses through execution/handoff/replanning/completion without local completion pressure, static backlog assumptions or hidden orchestration.
 
-The Stage-1 nine-dimension map did not cleanly represent two independent historical signals:
+**Key research questions:**
+- result integration vs substantive next-work selection vs design vs implementation;
+- work granularity/decomposition/dependencies;
+- risk/uncertainty-proportional reasoning depth;
+- repair vs reframe/research/redesign/owner-decision routing;
+- purpose-preserving handoff;
+- external-state/assumption invalidation → replanning;
+- time/resource/budget/concurrency constraints as work-selection inputs;
+- oscillation, starvation, infinite investigation and premature closure.
 
-1. os-architect's **working-loop failure**: static state can survive while work movement, responsibility, update obligation and next action do not;
-2. SOUL WP-021's current Development-OS failure hypothesis: a material result can be faithfully integrated yet still be routed too quickly into `repair`, so **result integration and substantive next-work selection are different functions**.
+**Evidence:** historical work trajectories; workflow/program-decision prior art; blind replay/holdout trajectories; simpler-routing comparisons; dynamic-operations cases; process/cost/liveness metrics.
 
-SOUL `DEFINITION.md` independently lists execution, orchestration, handoff, verification, evaluation, recovery and completion under Runtime. Therefore this is not merely a predecessor-process quirk.
+**Falsifiers:** planner/gate complexity does not detect failures earlier than a simpler baseline; faithful integration still auto-manufactures repair; handoff loses purpose; routing oscillates; actor silently redesigns; overhead rises without reliability benefit.
 
-### Foundation demand
+**Phase 1–3 relevance:** direct Phase-1 lifecycle; planning/orchestration/handoff functions in Phase 2; routing/liveness/handoff failures in Phase 3.
 
-The generated task-specific system must not only possess capabilities; it must turn the current objective/state/evidence into correctly bounded next work, sequence/decompose it, coordinate responsibility and handoff, and reach explicit completion/non-completion without losing purpose or becoming trapped in local execution momentum.
+# Cross-cutting validation axes
 
-### Researchable questions
+## V1 — Domain transfer / scenario diversity
 
-- How should a system select the **next unit of work** from objective, state, dependencies, evidence, risk and unresolved decisions without defaulting to the previous actor's completion frame?
-- When is work decomposition too coarse, too fine, too serial, or unnecessarily multi-agent?
-- How are result integration, next-work selection, technical design and implementation motivations separated when materially necessary without multiplying roles by default?
-- How should risk/uncertainty determine reasoning depth before execution?
-- What handoff contract preserves objective, protected properties, evidence, unresolved assumptions and reopen conditions rather than only task status?
-- How are oscillation, deadlock, starvation, infinite investigation and premature closure represented and bounded?
-- When does a material finding justify repair, reframing, research, redesign, roadmap change or a genuine owner decision?
+This is the corrected home for the former `domain transfer` part of D9.
 
-### Evidence classes
+**Question:** do D1–D10 properties/capabilities/failures remain meaningful across materially different target families without importing one domain workflow into core?
 
-- historical work trajectories from SOUL/KEEL/predecessors;
-- workflow/project/program decision prior art where it addresses stateful work selection rather than generic planning advice;
-- process-mining / incident reconstruction;
-- blind replay or holdout trajectories with future findings hidden;
-- simpler-routing versus separated-responsibility comparisons;
-- cross-domain work-lifecycle cases where the same work-selection logic is stressed by different task structures.
+**Current holdouts:**
+- analytical decision support — NASA decision-analysis guidance;
+- systematic evidence synthesis — Cochrane/PRISMA;
+- dynamic incident/operations — NIST/FEMA.
 
-### Strong falsifiers / counter-frames
+**Important:** V1 tests the whole map. Passing one `D9` box cannot prove generality.
 
-- added planner/role/gate complexity detects no material failure earlier than a simpler baseline;
-- faithful result integration still manufactures a repair-shaped task without a separate justified decision;
-- handoff preserves status but loses purpose, assumptions or decision rationale;
-- route classification oscillates or permanently escalates without a representable terminal state;
-- implementation actor silently redesigns because the build-ready boundary is not meaningful;
-- process overhead/owner interventions grow without measured reliability benefit.
+## V2 — Risk/materiality/proportionality and evidence value
 
-### Downstream decision dimensions
+The required depth of research/control should vary with consequence, uncertainty, reversibility and information value.
 
-Phase 1 lifecycle/completion principles; Phase 2 function/capability allocation; Phase 6 runtime/orchestration/recovery; cross-cutting Development OS learning.
+Relevant evidence:
+- NASA: analysis depth and uncertainty reduction are decision/risk dependent and must justify resource/schedule cost;
+- SOUL WP-021: more analysis/roles/artefacts are not success metrics;
+- current foundation: target is useful bounded autonomy, not maximum process.
 
----
+V2 prevents `more control` and `more research` from becoming default answers.
 
-# Cross-cutting evidence classes
+## V3 — Source/view fidelity and omission awareness
 
-The dimensions above imply at least six **different evidence functions**. They are not interchangeable.
+Research and runtime derived views must not silently become source truth or completeness claims.
 
-1. **Normative/foundation authority** — defines current values/constraints; evidence can challenge feasibility/consistency but not silently override authority.
-2. **Historical/observational failure evidence** — shows what occurred; does not alone establish universal cause or generality.
-3. **External primary/prior-art evidence** — shows known mechanisms, standards, hazards or trade-offs; popularity/convergence does not decide SOUL architecture.
-4. **Comparative scenario evidence** — tests whether a concept/property transfers across materially different domains and hidden assumptions.
-5. **Causal/experimental evidence** — needed when claiming a specific component/role/control causes improvement or is necessary; bundled-treatment evidence may be insufficient.
-6. **Independent challenge/verification evidence** — tests conformance, hidden assumptions or failure paths; must be calibrated to claim and independence level.
+This axis cuts across D3/D5/D8 and is directly motivated by:
+- duplicate/stale canonical state history;
+- Cochrane study-versus-report and search-completeness distinctions;
+- F-AR-011 selective-context omission risk;
+- canonical source/view control in this research project.
 
-## Cross-cutting burden-of-proof metrics
+# Overlap red-team — why dimensions remain separate
 
-These are not separate architecture dimensions, but any proposed research-backed control/process should be evaluated against them where material:
+| Pair | Why not merge |
+|---|---|
+| D1 vs D10 | D1 asks whether the **right objective/work definition** exists; D10 asks whether the system selects and advances the **right next work** under that definition. Correct objective can still have bad routing; good routing can efficiently pursue wrong objective. |
+| D2 vs D10 | D2 concerns which functions/capabilities the task-specific system needs; D10 concerns lifecycle/work transition and execution sequencing. |
+| D3 vs D8 | D3 protects information/state truth, freshness and availability; D8 protects visibility/reconstructability. Correct truth may be invisible; visible trace may represent stale/incorrect truth. |
+| D4 vs D5 | D4 asks `who may decide/do`; D5 asks `what evidence justifies the claim`. Correct authority can make epistemically bad decisions and vice versa. |
+| D5 vs D6 | D5 protects correctness/completion claims; D6 represents and handles failure/uncertainty/liveness. A verifier can correctly detect a failure without recovery semantics. |
+| D6 vs D7 | D6 restores/contains current work; D7 changes the future system/capability set. Recovery and evolution have different authority/freshness/rollback risks. |
+| D2 vs D9 | D2 derives what capabilities a task-specific system needs; D9 decides what, if anything, belongs to stable core versus generated/task-specific structure. |
+| D6 vs D10 | D6 defines failure states/control responses; D10 decides/sequences substantive work. A failure can be accurately represented yet routed to the wrong next work. |
 
-- false-positive / false-negative cost;
-- owner intervention burden;
-- agent/tool/token/time cost;
-- context load versus omission/error rate;
-- coordination/handoff failure rate;
-- complexity introduced versus failure class prevented/detected;
-- liveness / latency to safe completion;
-- generalisation versus domain-specific special casing.
+# Roadmap-leak test
 
-`more analysis`, `more roles`, `more files` or `fewer reviewer findings` are not success metrics by themselves.
+No current dimension is retained solely because a later roadmap phase has a matching title.
 
-# Stage 2 — historical-failure coverage attack
+Independent foundation/history support exists for each:
 
-## Reconstructed failure classes mapped to dimensions
+- D1: Success Criterion 1 + historical question≠task/frame blindness.
+- D2: Vision/Definition + Success Criterion 2/12.
+- D3: Non-negotiables 1/5/7/12 + observed state/context failures + operations holdout.
+- D4: Vision/Definition + non-negotiables 4/6/9/14 + owner-orchestration failures.
+- D5: Vision + Success 6–8 + false-green/verifier failures.
+- D6: Success 10 + non-negotiable 10/11 + historical recovery/liveness failures.
+- D7: Definition Evolution + Success 11/12 + lesson-transfer failures.
+- D8: Success 13 + non-negotiable 15 + reconstruction/visibility failures.
+- D9: Vision/Definition `general-purpose but not one fixed architecture` + non-negotiable 13 + Success 14.
+- D10: Definition Runtime + historical work-loop failure + WP-021 + NASA/FEMA holdouts.
 
-| Historical / current failure class | Primary dimension(s) | Coverage judgement |
-|---|---|---|
-| repo bloat, duplicate truth, mixed information lifetimes, inaccessible canonical files | D3, D8 | covered; authority/lifetime/retrieval + reconstructability |
-| state survives but work movement/update responsibility/next action does not | **D10**, D8 | **Stage-1 gap; caused D10 addition** |
-| echo/self-citation, shared-source agreement, verifier blindness, false green | D5 | covered; independence/oracle/falsifiability |
-| question treated as task; premise/goal not re-derived | D1 | covered |
-| session preserves result but loses purpose/reason | D1, D3, D10 | covered only with D10; purpose must survive handoff, not merely state |
-| owner becomes hidden orchestrator or technical verifier | D4, D10 | covered |
-| learned lesson remains prose / applied in one sibling line but not another / not invoked at need time | D7, D3 | covered; evolution + retrieval trigger |
-| control is green but measures the wrong property or produces zero information | D5, D6 | covered; claim-to-test validity + failure detection |
-| combined role motivations bias plan/design/build toward completion | D2, D4, D10 | covered; function necessity + authority + work lifecycle |
-| material finding auto-routes into repair-shaped work | **D10**, D6 | **Stage-1 gap; caused D10 addition** |
-| selective context hides unknown-needed counter-evidence | D3, D5 | covered; omission-aware retrieval + evidence completeness |
-| rollback/fallback asserted without lifecycle semantics | D6, D7 | covered; recovery versus governed evolution |
-| KEEL guarantee depends on Claude Code hooks/tool metadata | D9, D2 | covered; domain/runtime-specific mechanism versus invariant capability |
-| human-readable prose and machine state are mixed, creating drift/ambiguous truth | D3, D8 | covered |
-| separate reviewer seat shares same model/frame and produces pseudo-independence | D5, D9 | covered; epistemic independence + generalisation across perspectives |
-| existing mechanism anchors redesign; `would we build this from zero?` omitted | D2, D10; research-process cross-cut | covered as necessity/alternative-layer challenge; not a standalone product dimension |
-| new process/role complexity grows without measured benefit | D2, D10; cross-cut burden metrics | covered as necessity and proportionality, not separate foundation property |
+Roadmap therefore organises later architecture work around properties that have independent support; it is not the sole reason the dimensions exist.
 
-## Stage-2 result
+# Holdout omission test
 
-The initial map was **not complete**. Historical failure evidence forced D10.
+## S1 NASA analytical decision support
 
-After adding D10, no currently reconstructed high-level failure class is completely unmapped. That does **not** prove completeness. It only means the known predecessor corpus no longer supplies an obvious uncovered class.
+Properties observed first:
+- decision context/intended outcome,
+- criteria and preferences,
+- alternatives,
+- uncertainty/sensitivity,
+- decision authority,
+- risk-proportional analysis depth,
+- value of additional information.
 
-This is exactly where confirmation risk increases: the map is now partly shaped by the same failure corpus used to test it. Therefore the next validity step must use **materially different external/domain scenarios**, not more internal KEEL/SOUL examples.
+Mapping:
+- D1, D4, D5, D10;
+- domain-specific alternative-evaluation method belongs under D2 task-specific capability derivation unless later evidence proves a stable-core invariant.
 
-# Current ten-dimension map
+**Stretch flag:** D2 is broad, but this use is intentional and falsifiable through D9/V1; it is not used to declare NASA's process a SOUL core mechanism.
+
+## S2 Cochrane/PRISMA evidence synthesis
+
+Properties observed first:
+- explicit review boundary/eligibility,
+- source/entity versus multiple reports,
+- search coverage and selection trace,
+- method-specific stopping,
+- freshness/update,
+- documented residual uncertainty.
+
+Mapping:
+- D1, D3, D5, D8, D10 + V3.
+
+**Stretch flag:** none material. The holdout instead invalidated a universal research-stopping formula.
+
+## S3 NIST/FEMA dynamic operations
+
+Properties observed first:
+- changing external conditions,
+- situational awareness,
+- operational-period validity,
+- objectives and resources,
+- execute/evaluate/revise,
+- containment/recovery,
+- continuous lessons/improvement,
+- authority/coordination.
+
+Mapping:
+- D3, D4, D6, D7, D8, D10.
+
+**Stretch flag resolved by revision:** initial D3 was too internally focused. D3 now explicitly includes external-world observations/freshness; D10 includes assumption-triggered replanning and resource/time constraints.
+
+No separate `environment sensing` dimension is justified yet. If another materially different domain exposes external-state properties not representable without stretching D3/D10, reopen.
+
+# Counter-frame test
+
+A lifecycle/control-plane organisation can explain the same dimensions more compactly:
+
+## Lifecycle functions
+- D1 — define intended work
+- D2 — form task-specific system
+- D10 — select/execute/coordinate work
+- D7 — evolve the system
+
+## Cross-cutting control/information properties
+- D3 — information/state/context
+- D4 — authority/human governance
+- D5 — evidence/verification/completion
+- D6 — failure/recovery/liveness
+- D8 — observability
+- D9 — core/task-specific/system boundary
+
+This counter-frame **does not currently reduce the protected-property count**; it is a useful second view, not a competing source of truth. It shows that D1–D10 need not imply ten runtime services or ten agents.
+
+That distinction is important: research dimension ≠ architectural component.
+
+# Current dimension set
 
 1. D1 — Intended outcome → bounded work definition
-2. D2 — Task-specific system formation and capability derivation
-3. D3 — State / memory / context / knowledge / retrieval
+2. D2 — Task-specific system formation / capability derivation
+3. D3 — Internal/external state / memory / context / knowledge / retrieval
 4. D4 — Authority / bounded agency / human governance
 5. D5 — Evidence / provenance / verification / completion
 6. D6 — Failure representation / containment / recovery / liveness
 7. D7 — Learning / controlled evolution / capability admission
 8. D8 — Observability / reconstructability
-9. D9 — Generality / domain transfer / task-specific architecture
+9. D9 — Core invariant ↔ task-specific system / system boundary
 10. D10 — Work selection / decomposition / orchestration / lifecycle
 
-# Remaining challenge before freezing dimensions
+Cross-cutting:
+- V1 domain transfer/scenario diversity,
+- V2 risk/materiality/proportionality/value of information,
+- V3 source/view fidelity and omission awareness.
 
-## 1. External/domain holdout challenge
+# Current validity judgement
 
-The current dimensions were derived from SOUL foundation and challenged with SOUL/KEEL/predecessor history. That is not independent enough to claim generality.
+The dimension set has changed under every major challenge round so far:
 
-Need materially different scenario families that can reveal missing dimensions without inheriting software-development language.
+- Stage 1: D1–D9 from foundation.
+- Stage 2: historical failure corpus forced D10.
+- External holdout: widened D3/D10 and changed stopping logic.
+- Stage 3: reclassified domain transfer from D9 into V1; narrowed D9 to a discriminating core/task-specific boundary property; added explicit resource/time inputs to D10.
 
-At minimum test against:
+This is evidence against pure confirmation, but **not proof of completeness**.
 
-- analytical decision-support work with uncertain/conflicting evidence and consequential recommendation;
-- open-ended research / synthesis work where completion and evidence saturation differ from artifact delivery;
-- operational / coordination work with changing external state, temporal deadlines and recovery needs.
+# Next gate
 
-A fourth scenario may be needed if these three still share hidden knowledge-work structure.
+Before freezing the question inventory:
 
-## 2. Pre-architecture relevance challenge
+1. test whether V1–V3 are sufficient validation axes or another cross-cutting risk is missing;
+2. derive the **smallest pre-Phase1/2/3 question set** for each D1–D10 using `prearchitecture-research-scope.md`;
+3. attach evidence class + strongest falsifier + stopping condition;
+4. ensure no question embeds a mechanism/role/tool answer;
+5. adversarially sample omitted domains/questions rather than expanding literature indiscriminately.
 
-For each D1–D10 ask:
-
-- must this be researched before Phase 1–3 decisions, or can it wait for a later phase?
-- what minimum unknown must be resolved now?
-- what would be premature implementation detail?
-
-The dimension may remain architecturally important while only part of it belongs in the pre-architecture research programme.
-
-## 3. Stopping-condition challenge
-
-A dimension is too broad if no evidence can say `enough for the next decision`.
-
-Before freezing, each dimension needs:
-
-- exact decision-critical unknowns;
-- minimum evidence classes;
-- disconfirming evidence/falsifier;
-- known limitations;
-- explicit point where remaining uncertainty can be deferred to a later phase/test.
-
-# Stage-2 conclusion
-
-The research programme should currently be organised around **ten property/failure dimensions**, not technologies, frameworks, KEEL folders, or a growing catalogue of historical defects.
-
-The map remains provisional until external/domain holdout scenarios challenge it. The next step is therefore not to collect literature for all ten dimensions indiscriminately. It is to design a small **scenario holdout matrix** that can falsify the dimension set, expose software-development frame leakage, and identify which parts of D1–D10 truly need evidence before Phase 1–3.
+If this survives, Phase 8 can move from taxonomy construction to a bounded research-package inventory.
