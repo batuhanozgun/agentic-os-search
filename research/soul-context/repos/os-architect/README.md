@@ -2,7 +2,7 @@
 
 Repo: `batuhanozgun/os-architect`  
 Rol: tarihsel karar/araştırma + çalışma-disiplini + KEEL geliştirme bağlamı  
-Okuma stratejisi: indeks → yüksek bilgi değerli tema → kaynak gövdesi → gerektiğinde git arşivi
+Statü: **source ledger; current next-action authority değildir**
 
 ## Okuma kaydı — giriş ve yöntem
 
@@ -41,7 +41,7 @@ Okuma stratejisi: indeks → yüksek bilgi değerli tema → kaynak gövdesi →
 | `bilgi/keel/arastirma-seansi-2026-08-sektorler-hukmu.md` | `463c8540` | full | araştırma sentezi: soru üretici + tetik + kanıt zinciri; sorgu sürekli değil geri-dönüşsüzlük eşiği/tetik önünde; ritüelleşme ve bedel katmanı açıkları |
 | `bilgi/keel/arastirma-seansi-2026-08-gstack.md` | `be2615e` | full | gstack belge düzeyinde karşı-okunmuş; girişte mekanik zorlama yok, office-hours içinde amaç/öncül sorgusu var, çıkış denetimi güçlü. 2026-08-11 yön beyanı: araştırma evi kurulacak, araştırmalar sonraki yeni geliştirme çalışmasına girdi olacak |
 
-**Kaynak-fidelity notu:** `akil-yurutme` ve `sektorler` dış literatür sonuçlarının damıtılmış kayıtlarıdır. Bu aşamada yalnız geçmiş araştırmanın düşünce yönünü yeniden kurmak için kullanılır; SOUL için yük taşıyan bilimsel iddia gerektiğinde birincil kaynağa dönülecek.
+**Kaynak-fidelity notu:** `akil-yurutme` ve `sektorler` dış literatür sonuçlarının damıtılmış kayıtlarıdır. Bu aşamada yalnız geçmiş araştırmanın düşünce yönünü yeniden kurmak için kullanılır; load-bearing dış iddia gerektiğinde birincil kaynağa dönülür.
 
 ## Okuma kaydı — dış-göz seansı 2026-08-08
 
@@ -54,7 +54,7 @@ Okuma stratejisi: indeks → yüksek bilgi değerli tema → kaynak gövdesi →
 | `bilgi/keel/disgoz-seansi-2026-08-alternatifler.md` | `b1045347` | full | rakip yerine teknoloji alternatifleri; ortak sorun insan görünümü ile makine durumunun fazla iç içe olması; büyük refactor saha kanıtından önce önerilmemiş |
 | `bilgi/keel/disgoz-seansi-2026-08-fikir-carpismasi.md` | `9a57de98` | full | üst tez: daha fazla altyapı değil, görünmez varsayımları sözleşme/fixture/iz/kapsama ölçümüne dönüştürmek; F1-F4 deney/ölçüm taslakları, mühürlü karar değil |
 
-## Şu ana kadarki yapısal ayrım
+## Kaynaklardan çıkan yapısal ayrım
 
 1. **Depo/temsil failure'ı** — bilgi bulunamıyor, şişiyor, kopyalanıyor, ömrü karışıyor.
 2. **Çalışma-döngüsü failure'ı** — işin hareketi, sorumluluğu ve güncelleme yaşam döngüsü taşınmıyor.
@@ -62,30 +62,8 @@ Okuma stratejisi: indeks → yüksek bilgi değerli tema → kaynak gövdesi →
 4. **Amaç/çerçeve failure'ı** — soru görev sanılıyor, öncül ve amaç yeniden türetilmeden icraya giriliyor; oturumlar sonuçları taşıyıp sebebi/amacı kaybedebiliyor.
 5. **Ders→mekanizma failure'ı** — öğrenilmiş ders belge olarak kalıyor veya bir hatta uygulanıp kardeş hatta taşınmıyor; ihtiyaç anına ulaşmıyor.
 
-## C geçişinin durumu
+## Kapsam / eksiklik notu
 
-- Önceki araştırma programının koşulmuş kayıtları okundu.
-- Programın 3, 4 ve 5. kalemleri için ayrı tamamlanmış koşu kaydı yok; bunlar araştırılmış sayılmayacak.
-- Dış-göz seansının beş alt dosyası künye ile birlikte okundu.
-
-Bu nedenle C **mevcut kayıt kapsamı içinde tamamlandı**, fakat geçmiş araştırma programının kendisi eksik kalmış bir programdır.
-
-## Sıradaki geçiş — D: KEEL'in öz-anlatısını mekanikle karşılaştır
-
-Seçici olarak mevcut `keel` reposunda:
-
-- kurulum/giriş ve state devam mekanizması,
-- guard / protected-path / role boundary,
-- bekçi ve kasıtlı bozma yüzeyi,
-- kanıt/verifier ve kapanış yüzeyi,
-- insan-okur ↔ makine-durum sözleşmeleri,
-- ders/bağlam köprüsü
-
-incelenecek. Amaç öz-anlatıyı yeniden okumak değil, yük taşıyan iddiaların bugünkü mekanik karşılığını görmek.
-
-## Açık sorular
-
-- SOUL'un `development/` OS fikri 11 Ağustos araştırma-evi yön beyanının ve 8–10 Ağustos çerçeve çalışmalarının doğrudan devamı mı, yoksa yeni bir yeniden-çerçeveleme mi?
-- KEEL'in bugünkü mekanizması amaç/öncül yeniden-türetme açığını gerçekten kapattı mı?
-- Ders→ihtiyaç köprüsü bugün mekanik mi, yoksa hâlâ "ilgili dosyayı oku" talimatına mı dayanıyor?
-- KEEL'in doğrulama iddiaları bugünkü kod/test yüzeyinde kasıtlı bozma ve bağımsızlık ölçülerini gerçekten taşıyor mu?
+- Önceki araştırma programının tamamlanmış kayıtları seçici olarak okundu; programın 3, 4 ve 5. kalemleri için ayrı tamamlanmış koşu kaydı bulunmadığından araştırılmış sayılmadı.
+- Dış-göz seansının künye ve beş alt dosyası okundu.
+- Bu ledger historical/context evidence'tır; eski `next step` veya `open question` kayıtları güncel çalışma talimatı değildir ve working tree'den çıkarılmıştır. Gerekirse Git history'den recover edilebilir.
