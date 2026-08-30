@@ -1,327 +1,374 @@
 # SOUL Research — Pre-Architecture Scope Boundary
 
-**Status:** provisional scope cut; derived from D1–D10 + Phase 1–3 roadmap gates  
+**Status:** provisional gate-dependent scope; red-teamed against roadmap  
 **Date:** 2026-08-30
 
 ## Question
 
-Which parts of the D1–D10 research-dimension map must be sufficiently understood **before SOUL Phase 1 Definition, Phase 2 Capability Architecture and Phase 3 Failure Model**, and which parts should be deliberately deferred to later architecture/evaluation phases?
+Which parts of D1–D10 must be sufficiently understood before SOUL Phase 1 Definition, Phase 2 Capability Architecture and Phase 3 Failure Model, and which details should be deliberately deferred?
 
-This is a scope-control document, not an architecture plan.
+This is scope control, not architecture.
 
-## Why this boundary is necessary
+## Core correction
 
-The SOUL roadmap is dependency ordered. It intentionally postpones:
+An earlier draft divided the dimensions into `P0 gate-critical` and `P1 minimum-model` groups. Exact roadmap re-reading showed that split was misleading.
 
-- detailed state/memory/context/retrieval architecture,
-- runtime orchestration implementation,
-- evidence/evaluation architecture,
-- authority/policy implementation,
-- self-extension architecture,
-- observability implementation,
-- technology selection
+Phase 1 itself requires:
+- purpose,
+- boundaries,
+- actors,
+- lifecycle,
+- completion semantics,
+- autonomy/human-governance principles,
+- system/non-system boundary.
 
-until later phases.
+Phase 2 requires a complete capability map, including missing-capability creation/governance, tested against materially different scenarios.
 
-Therefore `important to SOUL` cannot be equated with `must be fully researched now`.
+Phase 3 requires a failure taxonomy that maps failures to observable signals, prevention, detection, containment, recovery, regression and explicit control ownership.
 
-Pre-architecture research should resolve only uncertainties needed to make Phase 1–3 decisions without importing KEEL mechanisms or arbitrary framework assumptions.
+Therefore **no D1–D10 dimension is safely dismissible as merely later-phase detail**. What varies is the **minimum depth needed for each gate**, not whether the dimension matters.
 
 # Scope cut by dimension
 
 ## D1 — Intended outcome → bounded work definition
 
-### Must know before Phase 1–3
+### Minimum needed before Phase 1–3
 
 - material failure classes in goal/request interpretation;
 - distinctions between missing fact, assumption, constraint, preference/value and approval/authority boundary;
-- evidence that `request ≠ true objective/method` is a real recurring failure surface, not only one KEEL anecdote;
-- minimum properties a bounded work definition must expose so Phase 1 can define SOUL's input/lifecycle/completion boundary.
+- evidence that `request/method ≠ true objective` is a recurring failure surface;
+- minimum properties of a bounded work definition.
 
-### Can defer
+### Defer
 
-- final dialogue/clarification algorithm;
-- prompt format or schema implementation;
-- UI for elicitation;
+- final clarification/dialogue algorithm;
+- prompt/schema/UI implementation;
 - domain-specific requirements methods.
+
+### Gate dependency
+
+- **Phase 1:** direct — purpose/input/lifecycle/human boundary.
+- **Phase 2:** constrains which capabilities are required.
+- **Phase 3:** supplies framing/drift failure classes.
 
 ### Pre-architecture stop condition
 
-Enough when Phase 1 can define the goal/work boundary and human-vs-system information responsibility with known major failure classes and no mechanism lock-in.
+Phase 1 can define the goal/work boundary and human-vs-system information responsibility with known major failure classes and no mechanism lock-in.
 
 ---
 
 ## D2 — Task-specific system formation and capability derivation
 
-### Must know before Phase 1–3
+### Minimum needed before Phase 1–3
 
-- a defensible abstraction of `capability` versus role/tool/workflow/mechanism;
-- principles for deriving necessary functions/capabilities from outcome + failure/control obligations;
-- evidence for when motivation/authority separation can matter and the burden of proof for adding permanent functions/roles;
-- cross-domain capability coverage tests sufficient to challenge software-development leakage.
+- defensible abstraction of capability versus role/tool/workflow/mechanism;
+- derivation principles from outcome + failure/control obligations;
+- burden of proof for permanent functions/roles and motivation separation;
+- cross-domain capability-coverage challenge.
 
-### Can defer
+### Defer
 
-- exact capability registry schema;
-- capability implementation/admission engine;
-- model/tool/provider selection;
-- detailed generated-role format.
+- registry schema;
+- implementation/admission engine;
+- provider/framework selection;
+- concrete generated-role format.
 
-### Pre-architecture stop condition
+### Gate dependency
 
-Enough when Phase 2 can enumerate capabilities by function/property without using KEEL folders or a chosen framework as the taxonomy.
+- **Phase 1:** informs actor/system boundary without fixing topology.
+- **Phase 2:** direct central concern.
+- **Phase 3:** each capability becomes a failure/control surface.
+
+### Stop condition
+
+Phase 2 can enumerate functions/capabilities without KEEL folders or a chosen framework as taxonomy.
 
 ---
 
 ## D3 — Internal/external state, memory, context, knowledge and retrieval
 
-### Must know before Phase 1–3
+### Minimum needed before Phase 1–3
 
-- conceptual distinctions among authoritative internal state, memory/history, actor context, knowledge/evidence and externally observed world state;
-- material failure classes: duplication/drift, stale state, omission, unknown-needed context, freshness/validity loss, derived-view authority leakage;
-- cold-start and changing-world requirements that imply later capabilities/controls;
-- what must be observable in Phase-3 failure signals.
+- conceptual distinctions among authoritative internal state, memory/history, actor context, knowledge/evidence and observed external-world state;
+- major failure classes: duplication/drift, stale state, omission, unknown-needed context, freshness/validity loss, derived-view authority leakage;
+- cold-start and changing-world properties that imply capabilities/controls;
+- observable signals needed by Phase 3.
 
-### Can defer
+### Defer
 
-- database/repository/vector-store choices;
-- retrieval ranking/embedding algorithms;
+- databases/vector stores;
+- retrieval ranking/embeddings;
 - compression implementation;
-- exact context-window budgeting;
-- detailed Phase-5 storage/retrieval architecture.
+- detailed Phase-5 architecture.
 
-### Pre-architecture stop condition
+### Gate dependency
 
-Enough when Phase 2 can derive information/context capabilities and Phase 3 can name the main failure/control properties without committing to a storage or retrieval mechanism.
+- **Phase 1:** enough to keep system boundary/lifecycle from assuming one undifferentiated memory concept.
+- **Phase 2:** derives state/context/retrieval capability families.
+- **Phase 3:** stale/omitted/conflicted/unknown state failures and controls.
+
+### Stop condition
+
+Phase 2–3 can derive information capabilities/failures without committing to storage/retrieval technology.
 
 ---
 
 ## D4 — Authority, bounded agency and human governance
 
-### Must know before Phase 1–3
+### Minimum needed before Phase 1–3
 
-- owner-value/judgement/approval decisions versus researchable/technical/system decisions;
-- common authority-leak/self-extension/circular-acceptance failure classes;
-- properties of protected control state and least privilege relevant to capability/failure mapping;
-- evidence that adding more roles is not automatically stronger separation.
+- value/judgement/approval versus researchable/technical/system decisions;
+- authority-leak, self-extension and circular-acceptance failure classes;
+- protected-control and least-privilege properties;
+- evidence that more roles do not automatically mean stronger separation.
 
-### Can defer
+### Defer
 
 - full policy language;
-- permissions engine/ACL implementation;
-- exact escalation UI;
-- Phase-8 authority-rule encoding.
+- permissions engine;
+- escalation UI;
+- Phase-8 encoding.
 
-### Pre-architecture stop condition
+### Gate dependency
 
-Enough when Phase 1 can state human-governance boundaries and Phase 2–3 can allocate required authority/control capabilities and failure ownership without inventing a concrete enforcement technology.
+- **Phase 1:** direct — autonomy/human-governance principles and actor boundaries.
+- **Phase 2:** authority/control capabilities and function ownership.
+- **Phase 3:** authority failure classes + control ownership.
+
+### Stop condition
+
+Phase 1 can state human/system decision boundaries and Phase 2–3 can allocate authority/control obligations without choosing enforcement technology.
 
 ---
 
 ## D5 — Evidence, provenance, verification and completion
 
-### Must know before Phase 1–3
+### Minimum needed before Phase 1–3
 
-- claim/evidence classes relevant to material work;
-- producer self-certification and correlated-agreement failure classes;
-- deterministic versus semantic/evaluative verification distinction;
+- claim/evidence classes;
+- producer self-certification and correlated-agreement failures;
+- deterministic versus semantic/evaluative verification;
 - exact-target/freshness/provenance properties;
 - legitimate uncertainty/non-verification states;
-- what `completion` must mean at the abstract system level.
+- abstract completion semantics.
 
-### Can defer
+### Defer
 
-- concrete evaluator architecture;
-- benchmark suite and grading implementation;
-- provenance storage engine;
-- model-diversity/vendor strategy;
-- detailed Phase-7 verification orchestration.
+- evaluator architecture;
+- benchmark/grader implementation;
+- provenance storage;
+- detailed Phase-7 orchestration.
 
-### Pre-architecture stop condition
+### Gate dependency
 
-Enough when Phase 1 can define completion and Phase 2–3 can derive evidence/verification capabilities plus their main failure/control obligations.
+- **Phase 1:** direct — completion semantics.
+- **Phase 2:** evidence/verification capability derivation.
+- **Phase 3:** verification/oracle/provenance failure classes and controls.
+
+### Stop condition
+
+Phase 1 can define completion and Phase 2–3 can derive evidence/verification capabilities plus failure/control obligations.
 
 ---
 
 ## D6 — Failure representation, containment, recovery and liveness
 
-### Must know before Phase 1–3
+### Minimum needed before Phase 1–3
 
-This is **directly Phase-3 critical**.
-
-Need:
-
-- a domain-neutral failure taxonomy at the right abstraction level;
+- domain-neutral failure taxonomy at the right abstraction level;
 - observable signals and uncertainty states;
 - prevention/detection/containment/recovery/regression categories;
-- root-cause versus proximate-failure distinction;
-- liveness/deadlock/starvation/meta-work failure classes;
-- conditions that distinguish repair from reframe/research/redesign/non-completion.
+- proximate versus root-cause distinction;
+- liveness/deadlock/starvation/meta-work failures;
+- repair versus reframe/research/redesign/non-completion boundaries.
 
-### Can defer
+### Defer
 
-- detailed recovery engine;
-- domain-specific incident playbooks;
-- exact retry/backoff policies;
-- runtime implementation of recovery state machines.
+- recovery engine;
+- domain playbooks;
+- retry/backoff policy;
+- runtime recovery implementation.
 
-### Pre-architecture stop condition
+### Gate dependency
 
-Enough only when every material Phase-2 capability has failure/control ownership and the taxonomy survives materially different scenario families without collapsing into software bug categories.
+- **Phase 1:** constrains legitimate lifecycle/non-completion states.
+- **Phase 2:** every capability needs failure/control obligations.
+- **Phase 3:** direct central concern.
+
+### Stop condition
+
+Every material Phase-2 capability can map to domain-neutral observable failure/control ownership, and the taxonomy survives materially different scenarios.
 
 ---
 
 ## D7 — Learning, controlled evolution and capability admission
 
-### Must know before Phase 1–3
+### Minimum needed before Phase 1–3
 
-- why lesson-as-prose / lesson-not-invoked is a material failure class;
-- difference between local correction, class-level control, architecture evolution and foundation reopening;
-- core property that self-modification/admission cannot self-certify or rewrite its own judging rules;
-- failure/control obligations created by missing capability and future evolution.
+- lesson-as-prose / lesson-not-invoked failure class;
+- local correction versus class control versus architecture evolution versus foundation reopening;
+- no self-certifying/self-rule-rewriting admission;
+- abstract missing-capability/evolution obligations.
 
-### Can defer
+### Defer
 
-- exact build/test/verify/admit pipeline;
-- capability registry implementation;
+- final build/test/verify/admit pipeline;
+- capability registry;
 - automated policy synthesis;
-- Phase-9 self-extension mechanism;
-- concrete rollback orchestration.
+- detailed rollback orchestration;
+- Phase-9 implementation architecture.
 
-### Pre-architecture stop condition
+### Gate dependency
 
-Enough when Phase 2–3 can reserve the required evolution/admission capabilities and failure boundaries without defining the final self-extension architecture.
+- **Phase 1:** `DEFINITION.md` explicitly names Evolution as a top-level concern; enough boundary is required here.
+- **Phase 2:** missing-capability creation/governance is explicitly first-class.
+- **Phase 3:** evolution/admission failures require control ownership.
+
+### Stop condition
+
+Phase 1 can define Evolution boundaries and Phase 2–3 can reserve required capabilities/failure controls without defining the final self-extension mechanism.
 
 ---
 
 ## D8 — Observability and reconstructability
 
-### Must know before Phase 1–3
+### Minimum needed before Phase 1–3
 
-- what material facts/actions/decisions/evidence/authority/failures must be externally observable for correctness and diagnosis;
-- difference between authoritative state and derived operational views;
-- observability failure classes relevant to Phase-3 detection;
-- minimum reconstructability needed for fresh-session and independent review.
+- material facts/actions/decisions/evidence/authority/failures that must be observable;
+- authoritative state versus derived operational view;
+- observability failure classes;
+- minimum reconstructability for fresh session and independent review.
 
-### Can defer
+### Defer
 
-- logging stack;
-- event-sourcing implementation;
+- logging/event stack;
 - dashboard/cockpit design;
-- telemetry retention/aggregation technology;
-- detailed Phase-10 operational model.
+- telemetry technology/retention;
+- detailed Phase-10 model.
 
-### Pre-architecture stop condition
+### Gate dependency
 
-Enough when Phase 2 can derive observability capabilities and Phase 3 can attach detectable signals to material failures, without choosing telemetry technology.
+- **Phase 1:** enough to make `controlled` and completion/non-completion inspectable concepts.
+- **Phase 2:** observability capabilities.
+- **Phase 3:** explicit observable signals are a gate requirement.
+
+### Stop condition
+
+Phase 2 can derive observability functions and Phase 3 can attach signals to material failure classes without choosing telemetry technology.
 
 ---
 
 ## D9 — Generality, domain transfer and task-specific architecture
 
-### Must know before Phase 1–3
+### Minimum needed before Phase 1–3
 
-This is **directly Phase-2 gate critical**.
+- materially different scenario families;
+- criteria for detecting domain leakage;
+- capability/failure coverage method across scenarios;
+- invariant property versus task-specific operating structure;
+- negative cases capable of falsifying universal abstractions.
 
-Need:
+### Defer
 
-- materially different target scenario families;
-- criteria for detecting domain leakage into core;
-- method for testing capability and failure coverage across scenarios;
-- distinction between invariant property and task-specific operating structure;
-- negative cases capable of falsifying a claimed universal abstraction.
-
-### Can defer
-
-- full production pilots;
-- v1 implementation benchmarking;
-- long-running domain transfer evaluation;
+- production pilots;
+- long-running v1 benchmarks;
 - optimization for every supported domain.
 
-### Pre-architecture stop condition
+### Gate dependency
 
-Enough when the Phase-2 capability map can be attacked by materially different scenarios and no capability is classified core merely because software-development history made it familiar.
+- **Phase 1:** direct — system/non-system boundary and meaning of general-purpose.
+- **Phase 2:** direct gate — capability coverage across materially different scenarios.
+- **Phase 3:** failure taxonomy must not be one-domain defect catalogue.
+
+### Stop condition
+
+Phase 2 capability map can be attacked by materially different scenarios and no capability is core merely because predecessor software work made it familiar.
 
 ---
 
 ## D10 — Work selection, decomposition, orchestration and lifecycle
 
-### Must know before Phase 1–3
+### Minimum needed before Phase 1–3
 
-- distinction between result integration, next-work selection, design and implementation;
-- failure classes from premature repair routing, execution/completion bias, lost purpose across handoff and unbounded investigation;
-- principles for risk-proportional reasoning/work depth;
-- abstract lifecycle properties needed for Phase 1 and function/capability derivation in Phase 2;
-- external-state invalidation/replanning as a general work-lifecycle requirement, not only static backlog sequencing.
+- result integration versus next-work selection versus design versus implementation;
+- premature repair routing, execution/completion bias, lost-purpose handoff and unbounded-investigation failures;
+- risk-proportional reasoning/work depth;
+- abstract lifecycle properties;
+- replanning when external state invalidates assumptions.
 
-### Can defer
+### Defer
 
-- permanent Planner role decision;
+- permanent Planner-role decision;
 - exact routing state machine;
-- orchestration framework;
-- queue/scheduler implementation;
-- detailed Phase-6 runtime topology.
+- orchestration framework/scheduler;
+- Phase-6 topology.
 
-### Pre-architecture stop condition
+### Gate dependency
 
-Enough when Phase 1 can define lifecycle/completion states and Phase 2–3 can derive orchestration/work-selection functions plus failure obligations **without presupposing a specific planner/agent topology**.
+- **Phase 1:** direct — lifecycle.
+- **Phase 2:** derives planning/orchestration/handoff capability functions without fixing topology.
+- **Phase 3:** routing/liveness/handoff failures and controls.
 
-# Priority classes for SOUL Research before Phase 1–3
+### Stop condition
 
-## P0 — gate-critical; must be materially developed before architecture
+Phase 1 can define lifecycle/completion states and Phase 2–3 can derive work-selection/orchestration functions plus failures without presupposing a Planner/agent topology.
 
-- D1 — goal/work definition boundary
-- D2 — capability abstraction/derivation
-- D6 — failure taxonomy/control ownership
-- D9 — cross-domain/generalisation challenge
-- D10 — lifecycle/work-selection properties
+# Gate-dependent minimum model
 
-These directly determine whether Phase 1–3 can be framed without KEEL leakage.
+A better model than P0/P1 is:
 
-## P1 — cross-cutting control properties; minimum model required now
+## Phase-1 Definition-critical surface
 
-- D3 — information/state/context/world-state distinctions
-- D4 — authority/human boundary
-- D5 — evidence/verification/completion semantics
-- D7 — evolution/admission boundary
-- D8 — observability/reconstructability
+Research must be mature enough to define, without mechanism lock-in:
 
-These need enough research to derive capabilities/failures, but detailed architecture belongs later.
+- D1 goal/work boundary,
+- D4 autonomy/human authority boundary,
+- D5 completion/evidence meaning,
+- D7 Evolution boundary,
+- D9 general-purpose/system boundary,
+- D10 lifecycle,
 
-This priority split is not a statement that P1 is less important to the final system. It is a **dependency/scope judgement** about what must be resolved before Phase 1–3.
+while D2/D3/D6/D8 must already be coherent enough that the definition does not silently assume a fixed team, undifferentiated state, binary failure or invisible system.
+
+## Phase-2 Capability-critical surface
+
+D2 and D9 are central, but the map must derive capabilities implied by **all D1–D10 properties**. In particular, Phase 2 cannot postpone discovery of a capability family merely because its detailed architecture is Phase 5–10.
+
+## Phase-3 Failure-critical surface
+
+D6 is central, but failure analysis must attack **all D1–D10 capability/property surfaces** and assign observable signals/control ownership. Thus minimum D3/D4/D5/D7/D8 understanding is required before Phase 3 even though their detailed architectures come later.
 
 # Global pre-architecture research stop gate
 
-The programme should not wait for exhaustive literature coverage of D1–D10.
+Do not wait for exhaustive literature coverage of D1–D10.
 
-A defensible transition toward Phase 1–3 would require at least:
+A defensible transition toward Phase 1–3 requires:
 
-1. **Question coverage:** every P0 dimension has explicit decision-critical questions, evidence, counter-evidence and bounded remaining uncertainty.
-2. **Capability abstraction:** Phase 2 can be organised by functions/properties, not current tools, frameworks or KEEL folders.
-3. **Failure coverage:** a cross-domain failure taxonomy can map every candidate capability to observable failure/control obligations.
-4. **Domain holdout:** materially different scenario families attack capability/failure coverage and reveal no unresolved high-impact domain leakage.
-5. **Authority/evidence minimums:** P1 dimensions are sufficiently defined that Phase 2–3 do not silently invent human boundaries, evidence semantics, state concepts or observability requirements.
-6. **No unresolved frame blocker:** no known material counter-evidence suggests the research question map itself is missing a higher-level problem class.
-7. **Residual uncertainty ledger:** deferred questions are explicitly assigned to later phases/methods rather than disappearing.
-8. **Research-promotion boundary preserved:** the research output remains evidence/question/failure/capability input; architecture commitments still require the SOUL decision path.
+1. **Definition readiness:** Phase-1 direct surfaces above have explicit questions, evidence, counter-evidence and bounded residual uncertainty.
+2. **Capability abstraction:** Phase 2 can be organised by functions/properties, not tools/frameworks/KEEL folders.
+3. **Capability coverage:** every D1–D10 property can map to candidate function/capability obligations without choosing implementation.
+4. **Failure coverage:** a cross-domain taxonomy can map capability/property surfaces to observable failure/control obligations.
+5. **Domain holdout:** materially different scenario families attack the map and reveal no unresolved high-impact domain leakage.
+6. **No unresolved frame blocker:** no known material counter-evidence indicates the question map is missing a higher-level problem class.
+7. **Residual uncertainty ledger:** deferred questions are explicitly routed to later phases/methods.
+8. **Promotion boundary:** research remains evidence/question/failure/capability input; architecture commitments use the SOUL decision path.
 
 # What should explicitly NOT block Phase 1–3
 
-The following should not be required merely to feel `well researched`:
+- agent framework or LLM-provider choice;
+- final memory/retrieval database;
+- fixed role names/topology;
+- final runtime performance proof;
+- complete Phase-7 evaluator implementation;
+- exhaustive industry coverage;
+- every low-risk implementation trade-off;
+- completed production pilots before architecture exists.
 
-- choosing an agent framework or LLM provider;
-- designing the final memory/retrieval database;
-- deciding every role name/topology;
-- proving final runtime performance;
-- building the final verification/evaluation system;
-- exhaustive coverage of every industry/domain;
-- resolving every lower-risk implementation trade-off;
-- proving generality from completed production pilots before architecture exists.
+# Remaining adversarial questions
 
-# Main uncertainty after this scope cut
+1. Is any D1–D10 `minimum needed` item actually a hidden implementation preference rather than a property/failure question?
+2. Did the roadmap itself inherit SOUL/KEEL framing that the research should challenge rather than merely operationalise?
+3. Which external holdout properties have been made to fit D1–D10 only because the dimension wording is too broad?
+4. What minimum evidence quality/quantity is enough for each direct Phase-1 surface without turning pre-architecture research into an indefinite programme?
 
-The P0/P1 split is derived from the current roadmap and failure evidence, not yet independently validated.
-
-The next adversarial task is to test whether a P1 dimension contains a hidden **Phase-1/2 framing dependency** that would make deferral dangerous, or whether a P0 dimension has been over-promoted because predecessor history makes it salient.
-
-That check should be run against the external holdout families and explicit roadmap gate language, not by preference.
+The next work should answer these with the external holdout matrix and contradiction/omission testing, not create architecture mechanisms.
