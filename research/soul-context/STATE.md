@@ -1,298 +1,161 @@
 # SOUL Context — STATE
 
-**Durum:** AÇIK  
-**Faz:** 8 — SOUL Research question / evidence-dimension map — CONSOLIDATION  
+**Durum:** PAUSED — CONTEXT SYNTHESIS COMPLETE  
+**Faz:** context reconstruction closed before project-wide research-method design  
 **Son güncelleme:** 2026-08-30
 
-> Canonical çalışma durumu ve next-action pointer. Ayrıntılı araştırma kanıtı `notes/` ve repo defterlerinde yaşar; bu dosya corpus değildir.
+> Bu dosya continuation pointer'dır; ayrıntılı kanıt corpus'u değildir.
 
-## Ana hedef
+## Yetkilendirilmiş amaç
 
-SOUL'un neden yeniden kurulduğunu, önceki çalışma/ürün deneyimlerinden hangi problem sınıflarının açığa çıktığını ve **SOUL mimarisine geçmeden önce araştırılması gereken genel problem/evidence alanlarını** kanıta dayalı biçimde çıkarmak.
+`os-architect`, `soul`, `keel` ve bounded predecessor evidence olarak `keel-research` kaynaklarını sistematik okuyarak:
 
-Research output ile architecture decision ayrı tutulacak; bu çalışma mekanizma/teknoloji seçmeyecek.
+1. SOUL Research'ün neden açıldığını,
+2. araştırmanın hangi tür sistemi beslemesinin amaçlandığını,
+3. predecessor deneyimlerinden hangi problem sınıflarının görünür olduğunu,
+4. bu bağlamın yeni konuşmalarda yeniden kurulmadan kullanılabilmesini
+
+sağlamak.
+
+Bu hattın amacı **proje-geneli "araştırmayı nasıl yapacağız?" metodolojisini kararlaştırmak değildir.**
+
+## Bounded result
+
+Ana çıktı:
+
+- `CONTEXT-SYNTHESIS.md`
+
+Kısa çalışma hükmü:
+
+> Araştırma; KEEL mekanizmalarını kopyalamak veya tek bir sabit workflow seçmek için değil, intended outcome'dan gereken task-specific working system'i kurabilen, stable control model altında çalışan genel amaçlı agentic operating architecture için evidence üretmek amacıyla kullanılacak gibi görünmektedir. Bu hüküm first-party source reconstruction'dır; final architecture veya project-wide research charter değildir.
 
 ## Kaynak rolleri
 
-- `soul`: birincil SOUL intent + Development OS + work/verification/review evidence.
-- `os-architect`: tarihsel arıza, yöntem, araştırma, sahip düzeltmeleri ve KEEL üst-seviye yeniden değerlendirmesi.
-- `keel`: somut mekanizma/runtime yüzeyi; tarihsel iddiaların mekanik karşı-okuması.
-- `keel-research`: yalnız SOUL source chain'i işaret ettiğinde sınırlı predecessor prior-art; SOUL authority değil.
+- `soul` — primary current intent + Development OS + foundation/work/verification/review evidence.
+- `os-architect` — historical failure/method/research/owner-correction context.
+- `keel` — concrete mechanism/runtime counter-read surface.
+- `keel-research` — only bounded predecessor prior-art where source chain points to it; not SOUL authority.
 
-## Tamamlanan bağlam geçişleri
+Repo ledgers:
 
-### A–D — predecessor reconstruction
-
-Ana problem sınıfları ayrıldı:
-- source/view ve state drift,
-- work continuity / responsibility,
-- epistemik / correlated-verification failure,
-- goal/framing loss,
-- lesson→need-time failure.
-
-KEEL'de seçici mekanik karşı-okuma yapıldı; fresh execution üretilmedi.
-
-Detay:
+- `repos/soul/README.md`
 - `repos/os-architect/README.md`
 - `repos/keel/README.md`
+- `repos/keel-research/README.md`
 
-### E — KEEL → SOUL transition
+## Completed context findings
 
-2026-08-08..13 problem product-bug düzeyinden framing, goal, work selection, verification, lesson retrieval ve system-level reasoning düzeyine çıktı.
+### Transition
 
-2026-08-11 owner direction: `araştırma evi kurulacak`; research sonraki yeni geliştirme çalışmasına girdi olacak.
+The inspected record supports a transition from:
 
-2026-08-25 SOUL bootstrap / Development OS:
-- first-principles general-purpose system formation,
-- product architecture Phase-0 non-scope,
-- KEEL mapping/technology/runtime seçimleri ertelenmiş,
-- predecessor lessons explicit evidence synthesis üzerinden SOUL-specific design'e taşınmış.
+- local KEEL defects / operating discipline
 
-Detay:
+toward:
+
+- framing/goal loss,
+- state/work continuity,
+- verification independence,
+- lesson-at-need-time,
+- owner hidden orchestration,
+- system-level work selection/reasoning,
+- first-principles system formation.
+
+Detailed synthesis:
+
 - `notes/transition-to-soul.md`
-- `repos/soul/README.md`
 
-### F — Research ↔ Architecture boundary
+### Development before product architecture
 
-Direct SOUL governance'tan doğrulandı:
-- research ≠ decision,
-- evidence architecture truth değildir,
-- material finding auto-repair/backlog değildir,
-- architecture commitment ayrı decision/work-selection/review path ister,
-- prior art default architecture değildir,
-- technology selection later phase'tir.
+SOUL Phase 0 deliberately establishes a Development OS before product architecture so that the architecture work itself does not depend on one chat/model memory, producer self-certification or drifting state.
 
-## Faz 8 — taxonomy construction / challenge history
+### Predecessor evidence is not architecture truth
 
-### Stage 1 — foundation extraction
+SOUL's own evidence distinguishes source-derived predecessor principles from SOUL-specific synthesis decisions.
 
-SOUL foundation property surface'inden D1–D9 çıkarıldı.
+### Research is not automatic architecture promotion
 
-**Foundation constraint ≠ research popularity question.** Research contradiction/impossibility bulabilir ama current non-negotiable'ı sessizce oylamaz.
+Material evidence/findings do not automatically become repair, backlog, permanent role, mechanism or accepted architecture.
 
-### Stage 2 — historical failure red-team
+Detailed synthesis:
 
-İki gap ilk geniş D10'u doğurdu:
-- static state survives but work movement/responsibility/next action does not;
-- material result auto-routes to repair-shaped work.
+- `notes/research-to-architecture-boundary.md`
 
-### Stage 3 — external holdouts S1–S3
+## Early work that advanced beyond the user's current sequencing
 
-- **S1 NASA decision analysis:** decision context, authority, uncertainty, work-depth/value-of-information.
-- **S2 Cochrane/PRISMA:** source/entity/report, search coverage, method-specific stopping, reconstructable evidence selection.
-- **S3 NIST/FEMA operations:** dynamic external state, operational periods, plan→execute→revise, replanning.
+During this context study, provisional models were developed earlier than the user intended to discuss project-wide research methodology.
 
-Forced changes:
-- D3 external-world freshness içerecek şekilde genişledi;
-- universal stopping formula reddedildi;
-- risk/method/decision-sensitive stopping benimsendi.
+They include:
 
-Detay:
+- D1–D11 protected-property taxonomy,
+- V1–V4 validation axes,
+- external holdouts,
+- provisional stopping logic,
+- provisional pre-architecture scope,
+- provisional research-package ideas.
+
+Relevant local notes include:
+
+- `notes/research-dimension-map.md`
 - `notes/scenario-holdout-matrix.md`
-
-### Stage 4 — pre-architecture scope cut
-
-Binary P0/P1 split reddedildi.
-
-**Her dimension Phase 1–3 öncesinde minimum modele ihtiyaç duyar; gerekli derinlik gate-dependent'tir.**
-
-Baseline note:
-- `notes/prearchitecture-research-scope.md` — Stage-5 öncesi D1–D10 sürümü; consolidation gerekiyor.
-
-### Stage 5 — taxonomy discrimination red-team
-
-Applied:
-- property-first omission mapping,
-- distinguishing counterexamples,
-- negative dimension boundaries,
-- counter-frame,
-- roadmap-leak test,
-- physical-operations holdout S4.
-
-#### S4 — FAA aviation safety / physical operations
-
-Observed:
-- failure öncesi hazard/risk,
-- risk assessment/control,
-- continued-effectiveness assurance,
-- changing operational environment,
-- authority/accountability,
-- competency/lessons,
-- consequence-proportional control.
-
-Forced changes:
-- **D6 post-hoc failure dili dar çıktı → hazard/risk precursor surface eklendi.**
-- V2 physical consequence/irreversibility ile güçlendi.
-- Roadmap Phase-3 `Failure Model` hazard precursor coverage açısından research counter-evidence aldı; otomatik roadmap edit yok.
-
-#### Old-D10 did not survive
-
-Old D10 two independent properties taşıyordu:
-- what work next?
-- how selected work progresses?
-
-Counterexamples and external evidence supported split:
-- **D10 — work selection / decomposition / prioritisation / reasoning depth**
-- **D11 — work lifecycle / orchestration / continuity / replanning**
-
-#### D2 / D6 / D11 negative boundaries
-
-Explicit `must NOT absorb` boundaries written and tested.
-
-#### D8
-
-Remains independent: truth/freshness and reconstructability can fail separately; SOUL foundation also makes observability part of correctness.
-
-Detailed notes:
+- `notes/scenario-holdout-s5-supply-chain-trust.md`
+- `notes/prearchitecture-research-scope.md`
 - `notes/taxonomy-red-team-2026-08-30.md`
 - `notes/dimension-boundary-test-2026-08-30.md`
 
-### Stage 6 — S5 external dependency / trust holdout
+### Status of those models
 
-Reason opened:
-S1–S4 mostly assumed one organisation/shared command or broadly cooperative work. Remaining frame risk was critical dependency on actors/artifacts outside system authority under asymmetric information and possible malicious/strategic behaviour.
+**LOCAL / PROVISIONAL / NOT PROMOTED.**
 
-Sources:
-- NIST SP 800-161 Rev.1 update,
-- NIST SP 1326 Due Diligence Quick-Start Guide (July 2026).
+They are not:
 
-Observed before mapping:
-- external suppliers outside direct authority,
-- limited visibility into development/integration and upstream tiers,
-- malicious/counterfeit/vulnerable inputs,
-- provenance/resilience/ownership-control due diligence,
-- multi-tier dependency risk,
-- bounded investigative rigor before acquisition.
+- agent-control rules,
+- project-wide research governance,
+- canonical research methodology,
+- canonical stopping rules,
+- canonical evidence-package schema,
+- SOUL architecture,
+- SOUL requirements/backlog.
 
-Result:
-- **No D12 yet.** D1–D11 can represent the property surfaces without a new bucket.
-- **V1–V3 did not survive.** External dependency/trust asymmetry is not equivalent to domain diversity, risk magnitude or source fidelity.
+When project-wide research-method design begins, these ideas must be re-evaluated rather than inherited because they already exist.
 
-New validation axis:
+## Control-layer isolation — verified
 
-### V4 — External dependency / trust / adversarial counterparty exposure
+The context line began at commit `d83853bd...`, whose parent is `425e2550...`.
 
-Challenge:
+A repository compare from `425e2550...` through the pre-closure context head showed **36 commits and only files under `research/soul-context/**` changed**. No `AGENT.md` or `agent/**` file was modified by this work.
 
-**Do the protected properties and research conclusions still hold when critical actors, tools, services, data or artefacts are outside direct system authority, only partially observable, and potentially unreliable, strategically misaligned or adversarial?**
+The closure changes also remain under `research/soul-context/**`.
 
-Detailed note:
-- `notes/scenario-holdout-s5-supply-chain-trust.md`
+Therefore the early context taxonomy/method work did not alter the agent-control layer.
 
-## Current provisional dimension set — D1–D11
+## Why this line is paused now
 
-1. **D1 — Intended outcome → bounded work definition**
-2. **D2 — Capability/function necessity, coverage and task-specific composition requirements**
-3. **D3 — Internal/external state, memory, context, knowledge and retrieval**
-4. **D4 — Authority, bounded agency and human governance**
-5. **D5 — Evidence, provenance, verification and completion**
-6. **D6 — Hazard/failure representation, prevention, containment, recovery and liveness**
-7. **D7 — Learning, controlled evolution and capability admission**
-8. **D8 — Observability and reconstructability**
-9. **D9 — Core invariant ↔ task-specific system / system boundary**
-10. **D10 — Work selection, decomposition, prioritisation and reasoning depth**
-11. **D11 — Work lifecycle, orchestration, continuity and replanning**
+The original contextual objective is sufficiently met:
 
-## Current provisional validation axes — V1–V4
+1. source roles are known and navigable;
+2. the KEEL → SOUL transition has direct first-party evidence;
+3. the reason Development OS precedes architecture is explicit;
+4. predecessor lesson vs SOUL synthesis is explicit;
+5. research/evidence vs architecture decision is explicit;
+6. there is a bounded answer for what kind of system Batu wants research to inform;
+7. early research-method ideas are quarantined as provisional context work.
 
-- **V1 — Domain transfer / scenario diversity**
-- **V2 — Risk / materiality / proportionality / value of information**
-- **V3 — Source/view fidelity / omission awareness**
-- **V4 — External dependency / trust / adversarial counterparty exposure**
+Further context reading may still refine or falsify details, but there is no current justification to expand the taxonomy or external holdouts before the user explicitly starts the separate question:
 
-## Validity status
+> **SOUL Research'te araştırmayı nasıl yapacağız?**
 
-### Taxonomy changed under every major challenge
+## Next action
 
-- D1–D9 → D1–D10 after historical failure challenge.
-- D3 widened after dynamic operations.
-- stopping logic changed after NASA/Cochrane.
-- P0/P1 scope model changed after roadmap gate check.
-- D1–D10 → **D1–D11** after discrimination test.
-- D6 widened after physical-safety holdout.
-- D2 narrowed by negative boundary.
-- D8 survived attempted demotion.
-- V1–V3 → **V1–V4** after external-dependency/trust holdout.
+**STOP. Await explicit user direction.**
 
-This is evidence against pure confirmation, **not completeness proof**.
+Do not continue D1–D11/V1–V4 consolidation, holdout expansion, stopping-rule design or research-package design merely because those threads are open in notes.
 
-### Not established
+When the user later starts project-wide research-method design:
 
-- D1–D11 completeness,
-- V1–V4 completeness,
-- any architecture mechanism,
-- causal optimality of external-domain processes,
-- five holdouts = proof of SOUL generality,
-- formal canonical Research package schema,
-- formal canonical stopping/promotion gate,
-- true model-level independence,
-- formal roadmap changes from hazard/trust findings.
-
-## Provisional research stopping principle
-
-Not canonical:
-
-**Continue while a material uncertainty remains for which plausible additional evidence could change the authorised next-work/design decision enough to justify evidence-collection cost/delay. Stop or defer when remaining uncertainty is decision-insensitive at the required risk level, when the relevant research method's stopping/completeness tests are satisfied, or when the uncertainty requires a different method/phase rather than more of the same search.**
-
-Every package should preserve stopping rationale + residual uncertainty.
-
-## Şimdi — consolidation gate
-
-Highest-information question:
-
-**Can the challenged D1–D11 + V1–V4 set be converted into a bounded pre-architecture research inventory without reintroducing architecture answers, duplicate questions or indefinite evidence demands?**
-
-### Next actions
-
-1. Consolidate `notes/research-dimension-map.md` from old D1–D10/V1–V3 to **D1–D11/V1–V4**; preserve history/challenge trail.
-2. Consolidate `notes/prearchitecture-research-scope.md`:
-   - hazard-aware D6,
-   - split D10/D11,
-   - V4 challenge obligation.
-3. For each D1–D11 derive the smallest pre-Phase1/2/3 research package:
-   - exact property question,
-   - decision/gate relevance,
-   - evidence classes,
-   - strongest falsifier/counter-frame,
-   - stopping condition,
-   - residual uncertainty,
-   - explicit `does NOT prove`.
-4. Run V1–V4 against each package; a package that cannot state how it is challenged is not ready.
-5. Run final overlap + architecture-leak review.
-6. Do **not** add more holdouts by count; reopen only when a concrete unmapped frame risk appears.
-
-## Açık riskler
-
-- taxonomy elasticity,
-- roadmap circularity,
-- predecessor-frame inheritance,
-- research inflation,
-- prior-art evidence promoted to causal necessity,
-- source/view omission,
-- architecture leakage,
-- domain overfit,
-- false verifier independence,
-- D6/V2 becoming safety catch-all,
-- V4 becoming generic security/trust catch-all.
-
-## Yeni oturumda devam
-
-1. fresh `AGENT.md` + triggered protocols,
-2. `research/soul-context/README.md`,
-3. this `STATE.md`,
-4. `notes/dimension-boundary-test-2026-08-30.md`,
-5. `notes/scenario-holdout-s5-supply-chain-trust.md`,
-6. consolidate old dimension/scope notes,
-7. derive bounded research packages.
-
-## Henüz yapılmaması gerekenler
-
-- SOUL architecture/mechanism önermek.
-- D1–D11 veya V1–V4'ü canonical kabul etmek.
-- KEEL mechanisms = SOUL requirements eşitliği.
-- Research finding'i requirement/feature/backlog item yapmak.
-- Technology/framework selection.
-- External guidance'ı agentic effectiveness proof saymak.
-- Provisional stopping/package modelini canonical governance kabul etmek.
-- FAA/NIST process/roles'u SOUL architecture diye kopyalamak.
-- Research finding üzerinden roadmap'i otomatik değiştirmek.
+1. load canonical agent-control as usual,
+2. read `research/soul-context/README.md`,
+3. read `CONTEXT-SYNTHESIS.md`,
+4. read this `STATE.md`,
+5. use detailed context notes only as evidence when a specific design question needs them,
+6. re-derive project-wide method decisions from the then-authorized goal rather than promoting the provisional local models.
