@@ -1,6 +1,6 @@
-# SOUL Research Dimension Map — Stage 1 foundation extraction
+# SOUL Research Dimension Map — Stage 2 historical-failure red team
 
-**Status:** active; foundation-derived dimensions, not architecture  
+**Status:** active; foundation-derived + historical-failure challenged, not architecture  
 **Date:** 2026-08-30
 
 ## Purpose
@@ -12,6 +12,8 @@ This stage deliberately distinguishes:
 - **Foundation constraint / owner-defined property:** currently authoritative; research does not vote on whether SOUL should have it.
 - **Researchable system question:** evidence can inform how the property can be satisfied, what failure classes threaten it, what capabilities are necessary, and which alternative layers/control patterns are credible.
 - **Empirical/generalisation claim:** requires scenario, experiment, comparative or field evidence rather than prose alone.
+
+Stage 2 additionally attacks the foundation-derived map with the reconstructed KEEL/os-architect/SOUL failure corpus. The purpose is to detect missing dimensions rather than force all failures into a convenient taxonomy.
 
 ## Source basis
 
@@ -30,6 +32,14 @@ Boundary control:
 - `DECISION_POLICY.md`
 - `REASONING_POLICY.md`
 
+Historical challenge sources:
+
+- `research/soul-context/repos/os-architect/README.md`
+- `research/soul-context/repos/keel/README.md`
+- `research/soul-context/repos/soul/README.md`
+- `research/soul-context/notes/transition-to-soul.md`
+- `research/soul-context/notes/research-to-architecture-boundary.md`
+
 ## Foundation-level fixed properties — do not turn into popularity questions
 
 The following are current architectural constraints or success properties, not open questions such as `is this a good idea?`:
@@ -42,7 +52,7 @@ The following are current architectural constraints or success properties, not o
 - humans are not fallback search engines or hidden orchestrators;
 - fresh-session continuation is required;
 - missing capability must be explicit and governed;
-- critical control state cannot be solely controlled by the constrained component;
+- critical control state cannot be solely controlled by the component it constrains;
 - unknown/unverified/blocked/partial/stale/conflicted/failed must be representable;
 - repeated preventable/detectable failures should migrate toward stronger controls when practicable;
 - one material fact should have one authoritative home;
@@ -368,6 +378,55 @@ Phase 1 system/non-system boundary; Phase 2 capability coverage; Phase 3 failure
 
 ---
 
+## D10 — Work selection, decomposition, orchestration and lifecycle
+
+### Why Stage 2 added this dimension
+
+The Stage-1 nine-dimension map did not cleanly represent two independent historical signals:
+
+1. os-architect's **working-loop failure**: static state can survive while work movement, responsibility, update obligation and next action do not;
+2. SOUL WP-021's current Development-OS failure hypothesis: a material result can be faithfully integrated yet still be routed too quickly into `repair`, so **result integration and substantive next-work selection are different functions**.
+
+SOUL `DEFINITION.md` independently lists execution, orchestration, handoff, verification, evaluation, recovery and completion under Runtime. Therefore this is not merely a predecessor-process quirk.
+
+### Foundation demand
+
+The generated task-specific system must not only possess capabilities; it must turn the current objective/state/evidence into correctly bounded next work, sequence/decompose it, coordinate responsibility and handoff, and reach explicit completion/non-completion without losing purpose or becoming trapped in local execution momentum.
+
+### Researchable questions
+
+- How should a system select the **next unit of work** from objective, state, dependencies, evidence, risk and unresolved decisions without defaulting to the previous actor's completion frame?
+- When is work decomposition too coarse, too fine, too serial, or unnecessarily multi-agent?
+- How are result integration, next-work selection, technical design and implementation motivations separated when materially necessary without multiplying roles by default?
+- How should risk/uncertainty determine reasoning depth before execution?
+- What handoff contract preserves objective, protected properties, evidence, unresolved assumptions and reopen conditions rather than only task status?
+- How are oscillation, deadlock, starvation, infinite investigation and premature closure represented and bounded?
+- When does a material finding justify repair, reframing, research, redesign, roadmap change or a genuine owner decision?
+
+### Evidence classes
+
+- historical work trajectories from SOUL/KEEL/predecessors;
+- workflow/project/program decision prior art where it addresses stateful work selection rather than generic planning advice;
+- process-mining / incident reconstruction;
+- blind replay or holdout trajectories with future findings hidden;
+- simpler-routing versus separated-responsibility comparisons;
+- cross-domain work-lifecycle cases where the same work-selection logic is stressed by different task structures.
+
+### Strong falsifiers / counter-frames
+
+- added planner/role/gate complexity detects no material failure earlier than a simpler baseline;
+- faithful result integration still manufactures a repair-shaped task without a separate justified decision;
+- handoff preserves status but loses purpose, assumptions or decision rationale;
+- route classification oscillates or permanently escalates without a representable terminal state;
+- implementation actor silently redesigns because the build-ready boundary is not meaningful;
+- process overhead/owner interventions grow without measured reliability benefit.
+
+### Downstream decision dimensions
+
+Phase 1 lifecycle/completion principles; Phase 2 function/capability allocation; Phase 6 runtime/orchestration/recovery; cross-cutting Development OS learning.
+
+---
+
 # Cross-cutting evidence classes
 
 The dimensions above imply at least six **different evidence functions**. They are not interchangeable.
@@ -379,27 +438,106 @@ The dimensions above imply at least six **different evidence functions**. They a
 5. **Causal/experimental evidence** — needed when claiming a specific component/role/control causes improvement or is necessary; bundled-treatment evidence may be insufficient.
 6. **Independent challenge/verification evidence** — tests conformance, hidden assumptions or failure paths; must be calibrated to claim and independence level.
 
-# Initial deduplication result
+## Cross-cutting burden-of-proof metrics
 
-The 14 current success criteria do **not** require 14 independent research programmes. They cluster into nine higher-level dimensions above.
+These are not separate architecture dimensions, but any proposed research-backed control/process should be evaluated against them where material:
 
-Potential overlaps to watch in Stage 2:
+- false-positive / false-negative cost;
+- owner intervention burden;
+- agent/tool/token/time cost;
+- context load versus omission/error rate;
+- coordination/handoff failure rate;
+- complexity introduced versus failure class prevented/detected;
+- liveness / latency to safe completion;
+- generalisation versus domain-specific special casing.
 
-- D3 context/knowledge and D8 observability may share provenance/state mechanisms but protect different properties.
-- D4 authority and D5 verification both use separation, but authority correctness and epistemic correctness are distinct.
-- D6 recovery and D7 evolution both respond to failure; recovery restores work, evolution changes the system for future work.
-- D2 capability formation and D9 generality intersect; capability categories must not be inferred from one domain.
+`more analysis`, `more roles`, `more files` or `fewer reviewer findings` are not success metrics by themselves.
 
-# Stage-1 conclusion
+# Stage 2 — historical-failure coverage attack
 
-Foundation extraction supports a research programme organised around **properties and failure obligations**, not technologies or existing KEEL folders.
+## Reconstructed failure classes mapped to dimensions
 
-The next stage must try to break this nine-dimension map using the already reconstructed KEEL/os-architect/SOUL failure evidence:
+| Historical / current failure class | Primary dimension(s) | Coverage judgement |
+|---|---|---|
+| repo bloat, duplicate truth, mixed information lifetimes, inaccessible canonical files | D3, D8 | covered; authority/lifetime/retrieval + reconstructability |
+| state survives but work movement/update responsibility/next action does not | **D10**, D8 | **Stage-1 gap; caused D10 addition** |
+| echo/self-citation, shared-source agreement, verifier blindness, false green | D5 | covered; independence/oracle/falsifiability |
+| question treated as task; premise/goal not re-derived | D1 | covered |
+| session preserves result but loses purpose/reason | D1, D3, D10 | covered only with D10; purpose must survive handoff, not merely state |
+| owner becomes hidden orchestrator or technical verifier | D4, D10 | covered |
+| learned lesson remains prose / applied in one sibling line but not another / not invoked at need time | D7, D3 | covered; evolution + retrieval trigger |
+| control is green but measures the wrong property or produces zero information | D5, D6 | covered; claim-to-test validity + failure detection |
+| combined role motivations bias plan/design/build toward completion | D2, D4, D10 | covered; function necessity + authority + work lifecycle |
+| material finding auto-routes into repair-shaped work | **D10**, D6 | **Stage-1 gap; caused D10 addition** |
+| selective context hides unknown-needed counter-evidence | D3, D5 | covered; omission-aware retrieval + evidence completeness |
+| rollback/fallback asserted without lifecycle semantics | D6, D7 | covered; recovery versus governed evolution |
+| KEEL guarantee depends on Claude Code hooks/tool metadata | D9, D2 | covered; domain/runtime-specific mechanism versus invariant capability |
+| human-readable prose and machine state are mixed, creating drift/ambiguous truth | D3, D8 | covered |
+| separate reviewer seat shares same model/frame and produces pseudo-independence | D5, D9 | covered; epistemic independence + generalisation across perspectives |
+| existing mechanism anchors redesign; `would we build this from zero?` omitted | D2, D10; research-process cross-cut | covered as necessity/alternative-layer challenge; not a standalone product dimension |
+| new process/role complexity grows without measured benefit | D2, D10; cross-cut burden metrics | covered as necessity and proportionality, not separate foundation property |
 
-- Does any observed failure not fit?
-- Are any dimensions only implementation concerns rather than pre-architecture research obligations?
-- Is a dimension too broad to have a meaningful stopping condition?
-- Did foundation wording cause us to miss a credible counter-frame?
-- Are we accidentally treating a non-negotiable implementation shape as a fixed property?
+## Stage-2 result
 
-Only after that adversarial mapping should evidence requirements and stopping conditions be frozen.
+The initial map was **not complete**. Historical failure evidence forced D10.
+
+After adding D10, no currently reconstructed high-level failure class is completely unmapped. That does **not** prove completeness. It only means the known predecessor corpus no longer supplies an obvious uncovered class.
+
+This is exactly where confirmation risk increases: the map is now partly shaped by the same failure corpus used to test it. Therefore the next validity step must use **materially different external/domain scenarios**, not more internal KEEL/SOUL examples.
+
+# Current ten-dimension map
+
+1. D1 — Intended outcome → bounded work definition
+2. D2 — Task-specific system formation and capability derivation
+3. D3 — State / memory / context / knowledge / retrieval
+4. D4 — Authority / bounded agency / human governance
+5. D5 — Evidence / provenance / verification / completion
+6. D6 — Failure representation / containment / recovery / liveness
+7. D7 — Learning / controlled evolution / capability admission
+8. D8 — Observability / reconstructability
+9. D9 — Generality / domain transfer / task-specific architecture
+10. D10 — Work selection / decomposition / orchestration / lifecycle
+
+# Remaining challenge before freezing dimensions
+
+## 1. External/domain holdout challenge
+
+The current dimensions were derived from SOUL foundation and challenged with SOUL/KEEL/predecessor history. That is not independent enough to claim generality.
+
+Need materially different scenario families that can reveal missing dimensions without inheriting software-development language.
+
+At minimum test against:
+
+- analytical decision-support work with uncertain/conflicting evidence and consequential recommendation;
+- open-ended research / synthesis work where completion and evidence saturation differ from artifact delivery;
+- operational / coordination work with changing external state, temporal deadlines and recovery needs.
+
+A fourth scenario may be needed if these three still share hidden knowledge-work structure.
+
+## 2. Pre-architecture relevance challenge
+
+For each D1–D10 ask:
+
+- must this be researched before Phase 1–3 decisions, or can it wait for a later phase?
+- what minimum unknown must be resolved now?
+- what would be premature implementation detail?
+
+The dimension may remain architecturally important while only part of it belongs in the pre-architecture research programme.
+
+## 3. Stopping-condition challenge
+
+A dimension is too broad if no evidence can say `enough for the next decision`.
+
+Before freezing, each dimension needs:
+
+- exact decision-critical unknowns;
+- minimum evidence classes;
+- disconfirming evidence/falsifier;
+- known limitations;
+- explicit point where remaining uncertainty can be deferred to a later phase/test.
+
+# Stage-2 conclusion
+
+The research programme should currently be organised around **ten property/failure dimensions**, not technologies, frameworks, KEEL folders, or a growing catalogue of historical defects.
+
+The map remains provisional until external/domain holdout scenarios challenge it. The next step is therefore not to collect literature for all ten dimensions indiscriminately. It is to design a small **scenario holdout matrix** that can falsify the dimension set, expose software-development frame leakage, and identify which parts of D1–D10 truly need evidence before Phase 1–3.
