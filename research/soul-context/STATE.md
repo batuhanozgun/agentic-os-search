@@ -1,26 +1,28 @@
 # SOUL Context — STATE
 
 **Durum:** AÇIK  
-**Faz:** 7 — SOUL Research ↔ SOUL architecture research boundary  
-**Son güncelleme:** 2026-08-29
+**Faz:** 8 — SOUL Research question / evidence-dimension map  
+**Son güncelleme:** 2026-08-30
 
 ## Ana hedef
 
-Üç kaynak repoyu sistematik okuyarak SOUL Research projesinin gerçek araştırma niyetini yeniden kurmak; erken mimari çözüm üretmemek.
+SOUL'un neden yeniden kurulduğunu, önceki çalışma/ürün deneyimlerinden hangi problem sınıflarının açığa çıktığını ve **SOUL mimarisine geçmeden önce araştırılması gereken genel problem/evidence alanlarını** kanıta dayalı biçimde çıkarmak.
 
-## Kaynak repoların güncel rolleri
+Bu çalışma SOUL mimarisi önermeyecek. Research output ile architecture decision ayrı tutulacak.
 
-- `soul`: **birincil SOUL intent + Development OS + work/verification evidence**. Default `main` minimaldir; yüksek-bilgi kaynak `phase0/development-os` ve seçili work/review dallarıdır.
+## Kaynak rolleri
+
+### Omurga kaynaklar
+
+- `soul`: birincil SOUL intent + Development OS + work/verification/review evidence.
 - `os-architect`: tarihsel arıza, yöntem, araştırma, sahip düzeltmeleri ve KEEL'in üst-seviye yeniden değerlendirilmesi.
 - `keel`: somut mekanizma/runtime yüzeyi; tarihsel iddiaların bugünkü mekanik karşılığını sınamak için.
 
-## Önemli düzeltme
+### Sınırlı first-party predecessor source
 
-Önceki `soul` değerlendirmesinde "repo küçük / yalnız README" hükmü yalnız default `main` dalına dayanıyordu. Dal taraması çok sayıda work/verify/review/audit dalı ve `phase0/development-os` dalını ortaya çıkardı.
+- `keel-research`: yalnız SOUL'un kendi WP/source chain'i doğrudan işaret ettiğinde seçici prior-art/evidence olarak kullanılır; SOUL authority veya dördüncü omurga kaynak değildir.
 
-Bu omission maddi olduğu için eski repo-geneli çıkarım geçersizdir. `repos/soul/README.md` güncellendi.
-
-## Tamamlanan araştırma geçişleri
+## Tamamlanan geçişler
 
 ### A — çalışma düzeni ve araştırma yöntemi
 
@@ -60,44 +62,26 @@ Seçici kod/sözleşme/test okuması doğruladı:
 - mutation-test definitions,
 - kısmi lesson→need işaretçi mekanizması.
 
-Sınır: fresh execution bu oturumda üretilemedi; test tasarımı ile güncel pass ayrı tutuluyor.
+Sınır: fresh execution üretilemedi; test tasarımı ile güncel pass ayrı tutuluyor.
 
 ### E — KEEL → SOUL geçişi
 
-#### os-architect tarihsel pivot
+#### Tarihsel pivot
 
-2026-08-08..13 kayıtlarında problem ürün-bug seviyesinin üstüne çıktı:
+2026-08-08..13 os-architect/KEEL kayıtlarında problem product-bug seviyesinin üstüne çıktı:
 - mekanizma gerçekten gerekli mi / doğru katmanda mı,
 - sistem sahibini amacına taşıyor mu,
 - koltuk-içi akıl güçlü iken koltuk-üstü akıl sahipsiz mi,
 - gate biçim ölçerken değer/uyum/geçen-zaman ölçülüyor mu,
 - owner hidden orchestrator oluyor mu,
 - doğru ders ihtiyaç anında çağrılıyor mu,
-- root cause yalnız mekanik kusur değil danışmanın framing/çalışma biçimi olabilir mi.
+- root cause yalnız mekanik kusur değil framing/çalışma biçimi olabilir mi.
 
-2026-08-11 kaydı: `araştırma evi kurulacak`; araştırmalar sonraki yeni geliştirme çalışmasına girdi olacak. Bu yön beyanıdır, formal D-kararı değildir.
+2026-08-11: `araştırma evi kurulacak`; araştırmalar sonraki yeni geliştirmeye girdi olacak. Bu formal product decision değil, yön beyanı.
 
-`os-architect` 2026-08-13 sonrası 25 Ağustos'a kadar commit taşımaz; exact launch/naming kararı bu repodan tek başına çıkarılamaz.
+#### SOUL birincil amacı
 
-#### SOUL birincil kaynakları
-
-`phase0/development-os` branch'inde okundu:
-
-- `development/README.md`
-- `00_foundation/VISION.md`
-- `DEFINITION.md`
-- `NON_NEGOTIABLES.md`
-- `SUCCESS_CRITERIA.md`
-- `04_work/WP-000-DEVELOPMENT-OS.md`
-- `04_work/WP-001-PHASE0-VERIFICATION.md`
-- `06_reviews/VERIFICATION-WP-000-2026-08-25.md`
-- `05_evidence/REASONING-POLICY-SYNTHESIS-2026-08-26.md`
-
-## Artık birincil kaynakla doğrulanan SOUL amacı
-
-### Ürün
-
-SOUL preset workflow/team/template değil. Temel işi **system formation**:
+SOUL preset workflow/team/template değil; temel işi **system formation**:
 
 1. intended outcome'u anlamak,
 2. gereken working system'i belirlemek,
@@ -107,106 +91,205 @@ SOUL preset workflow/team/template değil. Temel işi **system formation**:
 6. assumptions gerçeklikle bozulduğunda adapt etmek,
 7. continuity/governance/state'i zaman içinde korumak.
 
-### Development OS
+Development OS, SOUL'un çözmeyi amaçladığı agentic failure class'larını SOUL'u geliştirirken yeniden üretmemek için ürün mimarisinden önce kuruluyor.
 
-SOUL'u geliştirirken SOUL'un kontrol etmeyi amaçladığı aynı agentic failure class'ları yeniden üretmemek için ürün mimarisinden önce durable repository-based development OS kuruluyor.
+WP-000 açıkça product capability architecture, technology choice, KEEL folder mapping ve runtime code'u Phase-0 non-scope yapıyor.
 
-WP-000 açıkça şunları non-scope yapıyor:
-- complete capability architecture,
-- implementation technology choices,
-- KEEL folder mapping,
-- runtime code.
+#### Öncül → SOUL bağlantısı
 
-Yani "first principles" yalnız söylem değil; mevcut çözümü ürün mimarisine erken taşımamaya dönük scope control.
+`REASONING-POLICY-SYNTHESIS-2026-08-26.md`, KEEL-Work, keel-dev, oyun2, os-architect ve keel-research kaynaklarını SHA'larıyla listeliyor; source-derived principles ile SOUL-specific synthesis'i ayrı tutuyor.
 
-## İlk Development OS verification sonucu
+Bu yüzden SOUL–öncül bağı yalnız benzerlik değil, birincil source-chain kanıtıdır.
 
-WP-001 fresh verifier, exact commit'e karşı WP-000'ı değerlendirmiş ve overall `FAIL` vermiş.
+### F — SOUL Research ↔ SOUL architecture boundary — TAMAMLANDI
 
-FAIL nedenleri:
+#### Direct SOUL governance
 
-1. cold-start mandatory read order'ları birbirleriyle uyumsuz;
-2. `NEXT_SESSION.md` current WP bilgisini stale duplicate olarak taşıyor ve canonical `STATE.md` ile drift ediyor.
+Doğrudan doğrulandı:
 
-Dokuz başka kriter PASS olsa da iki mandatory kriter FAIL olduğu için overall FAIL korunmuş. Verifier repair yapmamış; changed target için yeni verifier zorunlu.
+- `ROLE_MODEL.md`: Researcher external/empirical evidence kurar; finding'i sessizce architecture decision'a çeviremez, conflicting evidence'i saklayamaz.
+- `EVIDENCE_TEMPLATE.md`: question/source/method/findings/limitations/`what this does NOT prove`/decision relevance taşır; proper decision process olmadan architecture decision ilan etmez.
+- `DECISION_POLICY.md`: açık ifade **Research is not decision**. Architecture decision ADR + independent review ister; foundation change daha güçlü gate taşır.
+- `REASONING_POLICY.md`: primary/authoritative sources, date/version freshness, disagreement/limitations, similarity≠equivalence, popularity≠quality, tool/framework≠problem definition, analytical provenance `claim→method→inputs→source/version`.
+- `development/02_architecture/README.md`: KEEL evidence/prior art'tır, default SOUL schema değildir.
+- `ROADMAP.md`: Phase 1 Definition → Phase 2 Capability Architecture without KEEL organising principle → Phase 3 Failure Model; technology choice ancak Phase 11.
 
-Bu, independent/fail-visible verification'ın yalnız manifesto olmadığını gösteren doğrudan davranış kanıtıdır.
+#### Verification ve adversarial review farklı kanıt yolları
 
-## Öncül repo → SOUL bağlantısı artık doğrudan kanıtlı
+- WP-006 exact-target verification tüm current Phase-0 kriterlerde PASS verdi.
+- WP-007 ayrı adversarial review yine material F-AR-001 bulup `Requires repair` verdi.
 
-`REASONING-POLICY-SYNTHESIS-2026-08-26.md`, KEEL-Work, keel-dev, oyun2, os-architect ve keel-research kaynaklarını blob SHA'larıyla listeliyor.
+Sonuç: **spec conformance PASS ≠ frame/design robustness**.
 
-Kaynaklardan türetilen recurring principles ile SOUL-specific synthesis decisions ayrı tutuluyor.
+#### WP-021 lifecycle learning
 
-Doğrudan taşınan problem/principle sınıfları arasında:
-- external project truth,
-- objective/method/state/evidence/authority separation,
-- observation/inference/assumption/verification ayrımı,
-- producer/tool/retrieval/repeated-model agreement'ın proof olmaması,
-- existing mechanism/plan/tool'un privileged default sayılmaması,
-- framing/necessity/alternative-layer/falsification,
-- owner value vs technical authority,
-- proximal + root-cause failure analysis,
-- observable/mechanical controls,
-- proportional deep reasoning,
-- exact-target verification freshness
-var.
+WP-021 doğrudan şunu problemleştiriyor:
 
-SOUL bunları klasör/ritüel olarak kopyalamıyor; yeni canonical reasoning/cold-start/governance synthesis'e dönüştürüyor.
+**material FAIL / Requires-repair evidence → otomatik repair-shaped work**.
 
-## Bağımsız sentez notu
+Önerilen disiplin:
+- substantive next-work selection, result integration ve implementation ayrı;
+- repair conclusion olmalı, default route değil;
+- next work design, reframe, investigation, research into another layer veya başka authorised path olabilir;
+- research evidence-gap driven olmalı ve decision authority olmamalı;
+- more analysis / more artefacts başarı metriği değil.
 
-`research/soul-context/notes/transition-to-soul.md`
+Not: WP-021 current proposal/design evidence'dır; accepted governance değildir.
 
-Bu not doğrudan kanıt, kaynak boşluğu ve halen çıkarım olan SOUL Research amacı ifadesini ayrı tutuyor.
+#### Pre-build review lessons — F-AR-009..012
 
-## SOUL Research amacı için mevcut en güçlü çalışma hükmü
+2026-08-29 exact-target pre-build adversarial review dört material design gap buldu:
+
+1. **F-AR-009:** technical design acceptance / material finding disposition circular veya unowned olabilir.
+2. **F-AR-010:** bundled replay permanent Planner necessity'sini causal identify edemez; ablation/simpler comparator yok.
+3. **F-AR-011:** selective context metadata gerekli evidence'i omission detection olmadan gizleyebilir.
+4. **F-AR-012:** rollback mitigation deniyor ama invariant/disable/partial-rollout/forward-restoration contract yok.
+
+SOUL Research için handoff dersleri:
+- evidence report kendi adoption kararını içeremez;
+- package improvement component necessity kanıtı değildir;
+- derived/curated view source completeness değildir;
+- reversibility/recovery iddiası lifecycle contract gerektirir.
+
+#### Sınırlı predecessor boundary evidence
+
+SOUL WP-021'in doğrudan işaret ettiği `batuhanozgun/keel-research` scratch source seçici okundu.
+
+- Scratch planning kendini exploratory/non-authoritative, SOUL architecture truth olmayan evidence/input olarak sınırlıyor.
+- `PROMOTION.md` tarihsel research-house sınırını açıkça kuruyor: `research repo research üretir; product backlog üretmez`.
+- `SUPPORT/GAP/RISK/CONTRADICTION/UNTESTED/ALTERNATIVE` epistemik sinyallerdir; TODO/feature/bug değildir.
+- Product promotion ayrı değerlendirme kapısıdır.
+
+Bu SOUL rule'u değildir; SOUL'un kendi current governance'iyle aynı yüksek-seviye ayrımın tarihsel öncülüdür.
+
+## Artık doğrudan kurulabilen boundary modeli
+
+**Research informs. Work selection decides what kind of next work is justified. Design/ADR converts evidence into a candidate technical commitment. Independent verification/challenge constrains the claim. Accepted governance changes status. Implementation is downstream.**
+
+Özel ayrımlar:
+
+- research finding ≠ requirement,
+- requirement/capability hypothesis ≠ mechanism,
+- mechanism candidate ≠ accepted architecture,
+- verifier PASS ≠ adversarial robustness,
+- historical replay ≠ generalisation,
+- multi-model/same-model agreement ≠ independent ground truth,
+- accepted design ≠ implementation proof.
+
+## Bağımsız sentez notları
+
+- `research/soul-context/notes/transition-to-soul.md`
+- `research/soul-context/notes/research-to-architecture-boundary.md`
+
+## SOUL Research amacı için güncel çalışma hükmü
 
 ### Doğrudan kanıtlanan arka plan
 
-SOUL, KEEL'den daha genel bir probleme yöneliyor: herhangi bir intended outcome için doğru controlled working system'i oluşturmak ve işletmek.
+SOUL herhangi bir intended outcome için gereken controlled working system'i oluşturabilen general-purpose system formation architecture'a yöneliyor.
 
-SOUL'un kendi development process'i ürün mimarisini erken kapatmamak; chat memory/self-certification/framing drift gibi failure'ları kendi içinde yeniden üretmemek için önce kontrol altına alınıyor.
+SOUL'un kendi development process'i, ürün mimarisini erken kapatmamak ve chat memory/self-certification/framing drift gibi failure'ları yeniden üretmemek için önce kontrol altına alınıyor.
 
-### Güçlü fakat hâlâ çıkarım olan SOUL Research amacı
+Research ile architecture/decision açıkça farklı authority/state katmanlarıdır.
 
-SOUL Research projesi büyük olasılıkla, SOUL mimarisine girecek **genel problem modelini ve kanıt tabanını** üretmek için ayrı tutuluyor:
+### Güçlü fakat hâlâ charter-level inference
+
+SOUL Research büyük olasılıkla, architecture work'e **genel problem modeli + decision-oriented evidence base** sağlamak için ayrı tutuluyor:
 
 - KEEL'e özgü mekanizmaları evrensel gereksinim sanmamak,
 - mevcut araç/runtime affordance'larının mimariyi belirlemesini önlemek,
-- aynı model/çerçevenin sahte yakınsamasını azaltmak,
-- tarihsel dersleri first-principles genellenebilirlik testine sokmak,
-- dış literatür/alternatif sektör/mimari evidence ile challenge etmek,
-- sonunda SOUL architecture work'ün kullanabileceği durable research artefacts üretmek.
+- tarihsel failure'ları generalisability testine sokmak,
+- external/empirical evidence ve materially different scenarios ile problem/capability/failure hypotheses'i challenge etmek,
+- architecture kararına dönüşmeden önce limitations/falsifiers/alternatives/provenance'i durable biçimde taşımak.
 
-Bu ifade henüz kaynaklarda bulunan verbatim bir `SOUL Research charter` değildir; direct SOUL foundation + predecessor evidence chain + bu projenin kullanıcı tarafından tanımlanan araştırma rolünden çıkarılan en güçlü çalışma hükmüdür.
+Checked `research/soul-context` tree içinde ayrı verbatim `SOUL Research charter` veya formal handoff schema yok. Bu nedenle yukarıdaki ifade hâlâ evidence-supported working judgment'tır.
 
-## Şimdi — F geçişi: research → architecture boundary
+## Provisional research output shape — SONUÇ DEĞİL, Faz-8'de sınanacak
+
+Boundary evidence, future research artefact'in en az şu karar-yönelimli alanları taşımasının yararlı olacağını düşündürüyor:
+
+- exact research question / decision dimension,
+- uncertainty neden material,
+- observation / inference / assumption ayrımı,
+- primary/authoritative source + version,
+- conflicting evidence / alternatives,
+- source quality / omissions,
+- supported claim,
+- explicit non-proof,
+- capability/failure/control-property hypothesis,
+- alternative frame/layer,
+- strongest falsifier,
+- causal necessity identified mi değil mi,
+- remaining uncertainty ve hangi evidence kararı değiştirir,
+- downstream decision relevance without architecture verdict.
+
+Bu henüz canonical schema değildir.
+
+## Provisional stopping rule — Faz-8'de sınanacak
+
+Henüz canonical SOUL Research completion rule bulunmadı.
+
+Mevcut evidence'den türeyen provisional rule:
+
+**Bir research line, tanımlı decision-critical uncertainty gereken risk seviyesinde additional evidence'in authorised next-work/design kararını değiştirme ihtimali düşük olacak kadar daraldığında; ya da kalan uncertainty açıkça bounded olup başka method/phase'e devredilmesi gerektiğinde kapanabilir.**
+
+Bu `yeterince kaynak okuduk` kriterinden daha güçlüdür ama henüz formal research governance değildir.
+
+## Şimdi — G geçişi / Faz 8: research question + evidence-dimension map
 
 En yüksek bilgi değerli soru:
 
-**SOUL product-development repo'su dış araştırma/evidence'i architecture kararlarına hangi sözleşmeyle sokuyor ve hangi araştırma boşluklarını açık bırakıyor?**
+**SOUL'un Phase 1 Definition, Phase 2 Capability Architecture ve Phase 3 Failure Model çalışmalarına geçmeden önce SOUL Research hangi minimum problem/evidence boyutlarını araştırmalı; her boyut hangi kanıt sınıfıyla ve hangi falsifier/stopping condition ile sınanmalı?**
 
-Öncelik:
+Amaç bir feature listesi veya architecture blueprint çıkarmak değil; **araştırma kapsamının gerekli ve yeterli boyutlarını** çıkarmak.
 
-1. `phase0/development-os` içinde yalnız reasoning/adversarial work packages'tan yeni failure class üreten kayıtları oku (`WP-005` ve ilgili re-verification/adversarial result girişleri).
-2. `development/01_governance` içinde evidence/research → decision sınırını taşıyan policy'leri seçici oku.
-3. Sonraki capability/failure architecture work'ün external research/evidence yükümlülüklerini haritala; bütün work branch'lerini tüketme.
-4. Bir verbatim SOUL Research charter / separate research boundary bulunursa mevcut çıkarım onunla revize edilir.
+### Faz-8 çalışma sırası
+
+1. SOUL foundation (`VISION / DEFINITION / SUCCESS_CRITERIA / NON_NEGOTIABLES`) içindeki yük taşıyan outcome/property'leri tekrar decision-dimension olarak çıkar.
+2. ROADMAP Phase 1–3 gate'lerini araştırma yükümlülüklerine çevir — çözüm/mekanizma değil soru/evidence biçiminde.
+3. A–F geçişlerinden çıkan failure class'ları deduplicate ederek `problem dimension` adaylarına map et.
+4. Her dimension için:
+   - neden material,
+   - mevcut kanıt,
+   - unknown/assumption,
+   - gerekli evidence class,
+   - strongest falsifier / counter-frame,
+   - stopping condition,
+   - downstream decision dimension
+   tanımla.
+5. General-purpose iddiası nedeniyle en az üç materially different scenario/domain family'nin hangi dimensions'i test ettiğini araştır; implementation pilot tasarlama.
+6. Faz sonunda red-team et:
+   - KEEL frame leakage var mı,
+   - tool/framework anchoring var mı,
+   - research scope unbounded mı,
+   - missing dimension var mı,
+   - evidence type yanlış claim'e terfi etmiş mi.
+
+## Açık riskler
+
+- **frame inheritance:** geçmiş failure haritasını SOUL'un tamamı sanmak;
+- **research inflation:** her ilginç soruyu research requirement yapmak;
+- **evidence mismatch:** popularity/similarity/history'yi causal necessity diye kullanmak;
+- **derived-view omission:** sentezde karşı-kanıt veya bilinmeyen trigger'ı gizlemek;
+- **premature requirement:** research signal'i requirement'a çevirmek;
+- **architecture leakage:** soru haritasına mechanism/role/tool cevabı gömmek;
+- **single-domain overfit:** software-development deneyimini general-purpose system formation diye genellemek;
+- **false independence:** fresh same-model review'u independent ground truth saymak.
 
 ## Yeni oturumda devam
 
-1. Fresh canonical `AGENT.md` ve routing protokolleri.
-2. `research/soul-context/README.md`.
-3. Bu `STATE.md`.
-4. `research/soul-context/notes/transition-to-soul.md`.
-5. `research/soul-context/repos/soul/README.md`.
-6. F geçişinin ilk yüksek-bilgi dosyasından devam.
+1. fresh canonical `AGENT.md` + routing protocols,
+2. `research/soul-context/README.md`,
+3. bu `STATE.md`,
+4. `notes/research-to-architecture-boundary.md`,
+5. `repos/soul/README.md`,
+6. Faz-8: foundation outcome/property extraction ile devam.
 
 ## Henüz yapılmaması gerekenler
 
-- SOUL mimarisi önermek.
+- SOUL architecture önermek.
 - KEEL mechanisms = SOUL requirements eşitliği kurmak.
-- second-order literature summaries'i primary evidence saymak.
-- same-model verifier'ı true independent ground truth saymak.
-- `SOUL Research'ün amacı kesin olarak X` demek; verbatim charter bulunana veya alternative frame'ler kapanana kadar çalışma hükmü olarak tut.
+- Research finding'i requirement/feature/backlog item yapmak.
+- Technology/framework selection'a geçmek.
+- Same-model verifier/reviewer'ı true independent ground truth saymak.
+- Provisional research package/stopping rule'u canonical kabul etmek.
+- Phase 1–3 work package yokken roadmap description'ı operational evidence gibi sunmak.
