@@ -2,31 +2,36 @@
 
 ## Amaç
 
-Bu çalışma alanının amacı, `batuhanozgun/os-architect`, `batuhanozgun/keel` ve `batuhanozgun/soul` depolarını sistematik biçimde okuyarak **SOUL Research projesinin neden açıldığını, hangi problem sınıfını araştıracağını ve sonraki araştırmanın hangi niyetle yürütülmesi gerektiğini kanıta dayalı biçimde anlamaktır.**
+Bu çalışma alanının amacı, `batuhanozgun/os-architect`, `batuhanozgun/keel`, `batuhanozgun/soul` ve gerektiğinde sınırlı predecessor kanıtı olarak `batuhanozgun/keel-research` depolarını sistematik biçimde okuyarak **SOUL Research projesinin neden açıldığını, hangi tür sistemi araştırmanın beslemesi beklendiğini ve sonraki araştırmanın hangi niyetle yürütüleceğini kanıta dayalı biçimde anlamaktır.**
 
-Bu klasör araştırma sonucunun kendisi değil; uzun soluklu okuma, iz sürme, sentez ve oturumlar-arası devamlılık için çalışma evidir.
+Bu klasör proje-geneli araştırma metodolojisinin kendisi değildir; uzun soluklu okuma, iz sürme, sentez ve oturumlar-arası devamlılık için **bounded context workspace**'tir.
+
+Bu çalışma sırasında erken geliştirilen taxonomy, holdout, stopping ve research-package fikirleri yalnız `research/soul-context/**` altında **provisional context hypotheses** statüsündedir. Bunlar `AGENT.md`, `agent/**`, proje-geneli araştırma governance'ı veya SOUL mimarisi değildir.
 
 ## Navigasyon
 
-- `STATE.md` — current phase, verified findings, open hypotheses and exact next reading.
+- `CONTEXT-SYNTHESIS.md` — bu context çalışmasının bounded sonucu, non-proofs ve stop/handoff sınırı.
+- `STATE.md` — current status ve yeniden açılırsa continuation pointer.
 - `repos/os-architect/README.md` — tarihsel yöntem/araştırma/KEEL geliştirme okuma defteri.
 - `repos/keel/README.md` — bugünkü KEEL mekanik karşı-okuma defteri.
 - `repos/soul/README.md` — SOUL `main` + yüksek-bilgi work/verification branch okuma defteri.
+- `repos/keel-research/README.md` — yalnız SOUL source chain'i işaret ettiğinde kullanılan bounded predecessor ledger.
 - `notes/transition-to-soul.md` — KEEL/os-architect → SOUL geçişinin bağımsız sentez notu; direct evidence ile inference ayrı tutulur.
+- `notes/research-to-architecture-boundary.md` — research finding ile architecture commitment ayrımının kaynak sentezi.
+- diğer `notes/` — bu context hattında oluşmuş provisional challenge/taxonomy/holdout notları; proje-geneli karar değillerdir.
 
 ## Kaynak rolleri — güncel model
 
 - `soul` — SOUL'un explicit amacı, Development OS'si, work package'ları ve verification davranışı için birincil kaynak. `main` minimaldir; repo-geneli yalnız default branch değildir.
 - `os-architect` — KEEL'in ve onu üreten çalışma disiplininin karar, araştırma, hata, doğrulama, sahip düzeltmesi ve yöntem geçmişi.
 - `keel` — bu geçmişin somutlaşmış ürün/mekanizma yüzeyi; tarihsel mekanizma iddialarının bugünkü karşılığını sınamak için.
+- `keel-research` — SOUL'un kendi source chain'i doğrudan işaret ettiğinde kullanılan predecessor prior-art; SOUL authority veya dördüncü eşit omurga kaynak değildir.
 
-## Araştırma sorusu
+## Ana context sorusu
 
-Ana soru:
+> Bu kaynaklar birlikte okunduğunda SOUL neden yeniden kuruluyor; önceki çalışma ve ürün deneyimleri hangi problem alanlarını açığa çıkarıyor; Batu araştırma sonrasında nasıl bir yapının kurulmasını amaçlıyor?
 
-> Bu üç repo birlikte okunduğunda SOUL neden yeniden kuruluyor; önceki çalışma ve ürün deneyimleri hangi problem alanlarını açığa çıkarıyor; SOUL Research hangi soruları cevaplamadan SOUL mimarisine geçmemeli?
-
-Bu soru erken tek-cümlelik bir cevaba zorlanmayacaktır. Gözlem, çıkarım ve hipotez ayrı tutulacaktır.
+Bu soru erken tek-cümlelik bir cevaba zorlanmadı. Gözlem, çıkarım ve hipotez ayrı tutuldu.
 
 ## Okuma yöntemi
 
@@ -39,10 +44,11 @@ Her repoda önce README, durum/indeks, genesis veya benzeri navigasyon dosyalar�
 - `soul`: önce `main` explicit intent; ardından dal haritasından yalnız yüksek-bilgi work/verification hattı. Foundation → active/first work package → verification/evidence sırası; bütün work branch'leri körlemesine tüketilmez.
 - `os-architect`: indekslerden konu kümeleri seçilir; canlı bilgi, arşiv ve git geçmişi birbirine karıştırılmaz.
 - `keel`: ürünün öz-anlatısı ile mekanik gerçekliği ayrılır; README/GENESIS/DEFO_MODELİ sonrasında yalnız yük taşıyan mekanizmalar ve test/guard yüzeyleri okunur.
+- `keel-research`: yalnız primary SOUL/predecessor source chain'i maddi bir iddiayı ona bağladığında açılır; bağımsız SOUL authority sayılmaz.
 
 ### 3. Tematik geçişler
 
-Okumalar şu problem temalarında gruplanır:
+Okumalar şu problem temalarında gruplanmıştır:
 
 1. problem ve defo modeli,
 2. oturumlar-arası süreklilik / kanonik durum,
@@ -54,7 +60,7 @@ Okumalar şu problem temalarında gruplanır:
 8. araştırma ve dış-göz yöntemleri,
 9. ürün ile geliştirme işletim sisteminin ayrımı,
 10. KEEL'e özgü olan ile genel amaçlı SOUL'a taşınabilecek olanın ayrımı,
-11. research/evidence'in architecture kararlarına giriş sözleşmesi.
+11. research/evidence'in architecture kararlarına giriş sınırı.
 
 ### 4. Her okuma iz bırakır
 
@@ -79,46 +85,49 @@ Sentezde üç statü kullanılır:
 
 Bir kaynağın kendi öz-anlatısı, mekanizmanın gerçekten çalıştığına tek başına kanıt sayılmaz. İddia mekanik etkililik taşıyorsa gerektiğinde kod, guard, test, fixture, tarihsel arıza veya bağımsız değerlendirme yüzeyine inilir.
 
-Derived dış-literatür özetleri, geçmiş araştırmanın ne düşündüğünü gösterebilir; SOUL için load-bearing dış iddia olacaksa primary source recovery yapılır.
+Derived dış-literatür özetleri, geçmiş araştırmanın ne düşündüğünü gösterebilir; SOUL için load-bearing dış iddia olacaksa primary source recovery gerekir.
 
-### 6. Erken sentez yasağı
+### 6. Erken sentez / promotion sınırı
 
-Bir repodaki güçlü anlatı diğer iki repoya genellenmez. Özellikle KEEL'in kendi problem çerçevesi, SOUL'un araştırma sonucunu peşinen belirlemiş sayılmaz.
+Bir repodaki güçlü anlatı diğer kaynaklara genellenmez. Özellikle KEEL'in kendi problem çerçevesi, SOUL'un araştırma sonucu veya mimarisi sayılmaz.
 
-SOUL'un kendi foundation metinleri ürün hedefi için birincil kaynaktır; fakat ayrı **SOUL Research projesinin** charter'ı bulunmadan research amaç cümlesi çalışma hükmü olarak tutulur.
+SOUL'un foundation metinleri ürün hedefi için birincil kaynaktır; fakat bu context hattında oluşmuş D1–D11, V1–V4, stopping logic veya package fikirleri **yalnız local provisional synthesis**'tir.
+
+Bu klasördeki bir bulgu şu alanlara kendiliğinden promotion yapmaz:
+
+- `AGENT.md`,
+- `agent/**`,
+- proje-geneli araştırma yöntemi/governance'ı,
+- SOUL architecture/requirements/backlog,
+- canonical stopping veya evidence-package standardı.
 
 ## Ölçeklenme kuralı
 
-Başlangıçta repo başına tek `README.md` okuma defteri tutulur. Bağımsız bir tema repo sınırını aşmaya başladığında `notes/` altında tek canonical gövde açılır ve repo defterleri ona işaret eder.
-
-Defter büyüyüp navigasyonu zorlaştırırsa:
-
-1. önce `ledger.md` (kaynak envanteri) ile `notes/` (maddi tematik notlar) ayrılır,
-2. sonra yalnız gerekirse tematik alt klasör açılır,
-3. içerik kopyalanmaz; bir yerde gövde, diğer yerde işaretçi tutulur.
+Repo başına okuma defterleri ve bağımsız temalar için `notes/` kullanılır. İçerik kopyalanmaz; bir yerde gövde, diğer yerde işaretçi tutulur.
 
 Yapı, ilerideki büyüklüğü tahmin ederek baştan şişirilmez; gerçek yük yeni katmanı gerektirdiğinde evrilir.
 
 ## Oturumlar arası devamlılık
 
-Yeni bir konuşmada çalışma şu sırayla devam eder:
+Bu context hattı yeniden açılırsa çalışma şu sırayla devam eder:
 
 1. canonical `AGENT.md` ve routing'in yüklediği protokoller okunur.
 2. Bu dosya okunur.
-3. `STATE.md` okunur.
-4. `STATE.md` bağımsız bir sentez notuna işaret ediyorsa o not açılır.
-5. Yalnız `STATE.md`'nin işaret ettiği repo defteri ve kaynaklar açılır.
-6. Yeni okuma yapıldıkça repo defteri, ilgili note ve `STATE.md` aynı oturumda güncellenir.
+3. `CONTEXT-SYNTHESIS.md` okunur.
+4. `STATE.md` okunur.
+5. Yalnız belirli bir claim/question gerekiyorsa ilgili repo ledger veya note açılır.
 
 Chat geçmişi bu araştırmanın durum kaynağı değildir. Canonical çalışma durumu bu klasörde tutulur.
 
-## Kapanış ölçütü
+## Context hattının kapanış ölçütü
 
-Bu hazırlık okuması, üç repo hakkında "yeterince dosya okundu" denildiğinde değil; aşağıdakiler kanıtla kurulabildiğinde tamamlanmış sayılır:
+Bu hazırlık/context okuması aşağıdakiler kanıtla kurulabildiğinde yeterli sayılır:
 
 - SOUL'un yeniden başlangıç gerekçesi,
 - önceki sistem/çalışma düzeninden taşınmak istenen problem dersleri,
 - taşınmaması gereken ürün/runtime-özel varsayımlar,
-- SOUL Research'ün cevaplaması gereken ana araştırma soruları,
-- research/evidence'in architecture kararlarını nasıl kısıtlayacağı,
-- bu soruların hangi primary sources, independent evidence ve karşı-kanıtlarla sınanacağı.
+- araştırmanın beslemesi beklenen sistem yönü,
+- research/evidence ile architecture decision arasındaki sınır,
+- erken geliştirilen research-method fikirlerinin context-local/provisional olduğu.
+
+Bu ölçütler için bounded synthesis `CONTEXT-SYNTHESIS.md` içinde bulunmaktadır. Proje-geneli **"araştırmayı nasıl yapacağız?"** kararı bu klasörün kapanışından sonra ayrıca ve yeniden türetilmelidir.
