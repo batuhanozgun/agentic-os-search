@@ -1,7 +1,7 @@
 # SOUL Context — STATE
 
 **Durum:** AÇIK  
-**Faz:** 8 — SOUL Research question / evidence-dimension map — EXTERNAL HOLDOUT + SCOPE RED-TEAM  
+**Faz:** 8 — SOUL Research question / evidence-dimension map — TAXONOMY DISCRIMINATION RED-TEAM  
 **Son güncelleme:** 2026-08-30
 
 ## Ana hedef
@@ -116,23 +116,7 @@ Known KEEL/os-architect/SOUL failure corpus, D1–D9'a zorla map edilmedi.
 - static state survives but work movement/responsibility/next action does not;
 - material result auto-routes to repair-shaped work.
 
-Bu nedenle **D10 — Work selection / decomposition / orchestration / lifecycle** eklendi.
-
-### Current ten dimensions
-
-1. **D1 — Intended outcome → bounded work definition**
-2. **D2 — Task-specific system formation / capability derivation**
-3. **D3 — Internal/external state, memory, context, knowledge, retrieval**
-4. **D4 — Authority / bounded agency / human governance**
-5. **D5 — Evidence / provenance / verification / completion**
-6. **D6 — Failure representation / containment / recovery / liveness**
-7. **D7 — Learning / controlled evolution / capability admission**
-8. **D8 — Observability / reconstructability**
-9. **D9 — Generality / domain transfer / task-specific architecture**
-10. **D10 — Work selection / decomposition / orchestration / lifecycle**
-
-Independent note:
-- `notes/research-dimension-map.md`
+Bu nedenle ilk haritada **D10 — Work selection / decomposition / orchestration / lifecycle** eklendi.
 
 ### Stage 3 — external/domain holdout
 
@@ -152,7 +136,7 @@ Observed properties:
 
 Result:
 - new core dimension zorlamadı;
-- D1/D4/D5/D10'u bağımsız biçimde destekledi;
+- D1/D4/D5/eski-D10'u bağımsız biçimde destekledi;
 - stopping rule'u güçlendirdi: more research yalnız uncertainty reduction downstream decision'ı credibly değiştirebilecek ve maliyetine değecekse gerekçeli.
 
 #### S2 — systematic evidence synthesis
@@ -168,7 +152,7 @@ Observed:
 
 Result:
 - universal saturation/source-count stopping rule reddedildi;
-- D3/D5/D8/D10 güçlendi;
+- D3/D5/D8/eski-D10 güçlendi;
 - source coverage / omission trace ihtiyacı güçlendi.
 
 #### S3 — dynamic incident/operations
@@ -185,9 +169,9 @@ Observed:
 - lessons/improvement can feed while operations continue.
 
 Result:
-- yeni dimension henüz gerekmedi;
-- **D3 wording internal-repo centric idi; external-world state freshness/validity eklenmeli**;
-- **D10 static backlog gibi okunmamalı; assumption-invalidating external change → replan içermeli**.
+- yeni dimension zorlamadı;
+- D3 external-world state freshness/validity içerecek şekilde genişledi;
+- eski-D10 assumption-invalidating external change → replan içerecek şekilde genişledi.
 
 Independent note:
 - `notes/scenario-holdout-matrix.md`
@@ -203,16 +187,111 @@ Roadmap exact gate dili:
 
 Bu nedenle doğru model:
 
-**all D1–D10 need a minimum pre-architecture model; required depth is gate-dependent.**
-
-- Phase 1 direct surface: D1, D4, D5, D7, D9, D10; D2/D3/D6/D8 enough to avoid hidden assumptions.
-- Phase 2: D2/D9 central but capabilities must cover properties implied by all D1–D10.
-- Phase 3: D6 central but failure analysis attacks all D1–D10 and needs their observable/control semantics.
+**all research dimensions need a minimum pre-architecture model; required depth is gate-dependent.**
 
 Detailed implementation architecture remains Phase 4–10.
 
 Independent note:
 - `notes/prearchitecture-research-scope.md`
+
+### Stage 5 — taxonomy discrimination red-team — CURRENT
+
+Soru:
+
+**Boyutlar gerçekten ayırt edici protected property'ler mi, yoksa yeni problemleri sonradan içine alabilecek kadar elastik mi?**
+
+Uygulanan testler:
+- omission test,
+- overlap / distinguishing-counterexample test,
+- control-loop counter-frame,
+- roadmap-leak test,
+- fourth external holdout with physical-world safety/operations.
+
+#### S4 — aviation safety management / physical operations
+
+Primary authoritative sources: FAA Safety Management System pages + active SRM policy landing page.
+
+Property-first observations:
+- operational decision-making içinde safety/risk,
+- failure öncesi hazard identification + risk assessment,
+- unacceptable risk için controls/mitigations,
+- implemented controls için continued-effectiveness assurance,
+- operational/environment change altında new hazard / ineffective control,
+- authority/responsibility/communication interfaces,
+- competency/training/lessons,
+- consequence/risk-proportional control depth.
+
+Result:
+- yeni ayrı `safety` dimension henüz gerekmedi;
+- **D6'nın yalnız failure/post-hoc dili dar çıktı; prospective hazard/risk surface açıkça temsil edilmeli**;
+- V2 risk/materiality/proportionality fiziksel consequence/irreversibility ile güçlendi;
+- roadmap Phase-3 `Failure Model` wording'i hazard/risk precursor coverage açısından araştırma counter-evidence'i aldı; bu otomatik roadmap edit değildir.
+
+#### Internal split finding — eski D10
+
+Eski D10 iki bağımsız property taşıyor:
+
+1. **what work next?** — selection/decomposition/prioritisation/depth;
+2. **how selected work progresses?** — lifecycle/orchestration/continuity/replanning.
+
+Distinguishing counterexamples:
+- correct next work + broken handoff/state/dependency progression;
+- robust lifecycle + wrong substantive routing (ör. every finding → repair).
+
+Independent evidence split:
+- historical auto-repair routing vs movement/responsibility-loss failures;
+- NASA analytical work-selection/depth;
+- FEMA/NIST lifecycle/replanning;
+- SOUL Definition Genesis vs Runtime separation.
+
+**Provisional correction: D10 → D10 + D11.**
+
+#### D2 elasticity guard
+
+D2 task-specific capability discovery'yi taşıyabilir ama unmatched her domain property'yi catch-all biçimde içine alamaz.
+
+Research wording daraltıldı:
+- capability/function necessity,
+- coverage,
+- task-specific composition requirements.
+
+D2 bir domain methodunu task-specific capability candidate olarak sınıflandırabilir; bu onun stable-core, belirli role/tool/workflow veya known runtime mechanism olduğunu kanıtlamaz.
+
+#### D8 independence result
+
+D8 şimdilik bağımsız protected property olarak kalıyor.
+
+Counterexamples:
+- fresh/correct authoritative truth exists but operator cannot reconstruct action/authority/stop reason → D3 pass, D8 fail;
+- rich visible trace exists but underlying authoritative truth stale/conflicted → visibility does not repair D3.
+
+SOUL `NON_NEGOTIABLES.md` ayrıca observability'yi correctness condition olarak tanımlıyor.
+
+Independent current note:
+- `notes/taxonomy-red-team-2026-08-30.md`
+
+## Current provisional dimension set — D1–D11
+
+1. **D1 — Intended outcome → bounded work definition**
+2. **D2 — Capability/function necessity, coverage and task-specific composition requirements**
+3. **D3 — Internal/external state, memory, context, knowledge and retrieval**
+4. **D4 — Authority, bounded agency and human governance**
+5. **D5 — Evidence, provenance, verification and completion**
+6. **D6 — Hazard/failure representation, prevention, containment, recovery and liveness**
+7. **D7 — Learning, controlled evolution and capability admission**
+8. **D8 — Observability and reconstructability**
+9. **D9 — Core invariant ↔ task-specific system / system boundary**
+10. **D10 — Work selection, decomposition, prioritisation and reasoning depth**
+11. **D11 — Work lifecycle, orchestration, continuity and replanning**
+
+Cross-cutting validation axes remain provisionally:
+- **V1 — Domain transfer / scenario diversity**
+- **V2 — Risk / materiality / proportionality / value of information**
+- **V3 — Source/view fidelity / omission awareness**
+
+Important:
+- `notes/research-dimension-map.md` still contains the previous consolidated D1–D10 wording and is now **historical-current-but-stale relative to Stage 5** until explicitly consolidated.
+- `notes/prearchitecture-research-scope.md` still uses D1–D10 and must be revised for D10/D11 + hazard-aware D6 before question-inventory freeze.
 
 ## Current provisional research stopping principle
 
@@ -244,36 +323,43 @@ Decision-oriented evidence package may need:
 
 ### What changed under challenge
 
-- D1–D9 → **D1–D10** after internal failure red-team.
+- D1–D9 → D1–D10 after internal failure red-team.
 - D3 widened after external operations holdout.
-- D10 widened to external-state-triggered replanning.
+- old D10 widened to external-state-triggered replanning.
 - one global stopping rule → method/risk/decision-sensitive stopping.
 - binary P0/P1 scope → gate-dependent minimum depth.
+- **D1–D10 → provisional D1–D11 after discrimination red-team.**
+- **old D10 split into D10 work selection and D11 work lifecycle/orchestration.**
+- **D6 widened to prospective hazard/risk + failure/control surface.**
+- **D2 narrowed with anti-catch-all guard.**
+- D8 survived attempted demotion to validation axis.
+- V1–V3 survived S4; no V4 yet.
 
 ### What has NOT been established
 
-- D1–D10 completeness;
+- D1–D11 completeness;
 - any architecture mechanism;
-- causal optimality of NASA/Cochrane/NIST/FEMA processes;
-- three holdouts = proof of SOUL generality;
+- causal optimality of NASA/Cochrane/NIST/FEMA/FAA processes;
+- four holdouts = proof of SOUL generality;
 - formal canonical SOUL Research package schema;
 - formal canonical stopping/promotion gate;
-- true model-level independence.
+- true model-level independence;
+- whether Phase-3 roadmap should formally widen from failure to hazard+risk precursors.
 
 ## Şimdi — next Phase-8 adversarial gate
 
 Highest-information question:
 
-**Are D1–D10 genuinely discriminating dimensions, or have some been written broadly enough that any missing problem can be made to fit after the fact?**
+**Does the revised D1–D11 map survive a property-first remap and negative-boundary test, or do D2/D6/D11 still function as catch-all buckets?**
 
 ### Next actions
 
-1. **Omission test:** for each external holdout, name the domain property first, then map it to D1–D10; flag any property that requires reinterpretation/stretching.
-2. **Overlap test:** identify dimensions whose stopping/evidence obligations cannot be distinguished in practice; merge only if protected properties really coincide.
-3. **Counter-frame test:** ask whether a materially different top-level organisation (e.g. decision lifecycle / information lifecycle / control loop) explains the same evidence with fewer arbitrary categories.
-4. **Roadmap-leak test:** identify dimensions that exist only because current SOUL roadmap names a later architecture phase; demand independent property/failure evidence for them.
-5. **Scope-stop test:** for each D1–D10 derive the smallest pre-Phase1/2/3 research question set; anything else routes later.
-6. If D1–D10 survive, then derive formal **research question inventory + evidence class + falsifier + stopping condition** per dimension.
+1. Remap S1–S4 property-first against D1–D11; flag any property requiring reinterpretation/stretching.
+2. Derive the smallest pre-Phase1/2/3 question set for revised D6, split D10 and new D11; update `prearchitecture-research-scope.md`.
+3. Construct explicit **negative examples** for D2, D6 and D11 — examples that must route elsewhere rather than being absorbable.
+4. Consolidate `research-dimension-map.md` only after this boundary test passes; do not overwrite history before the revised set is challenged.
+5. Add a fifth external holdout only if it attacks a still-uncovered frame (e.g. embodied resource production / market interaction / social coordination), not merely to increase source count.
+6. If D1–D11 survive, derive formal **research question inventory + evidence class + falsifier + stopping condition** per dimension.
 
 ## Açık riskler
 
@@ -285,24 +371,28 @@ Highest-information question:
 - **derived-view omission:** synthesis hides counter-evidence or unknown-needed sources;
 - **architecture leakage:** role/tool/mechanism answers embedded into research questions;
 - **single-domain overfit:** general-purpose claim inferred from agent/software work;
-- **false independence:** same-model review treated as independent ground truth.
+- **false independence:** same-model review treated as independent ground truth;
+- **safety-as-catch-all:** prospective risk evidence silently turns D6 or V2 into unlimited buckets.
 
 ## Yeni oturumda devam
 
 1. fresh `AGENT.md` + triggered protocols,
 2. `research/soul-context/README.md`,
 3. this `STATE.md`,
-4. `notes/research-dimension-map.md`,
-5. `notes/scenario-holdout-matrix.md`,
-6. `notes/prearchitecture-research-scope.md`,
-7. run omission/overlap/counter-frame red-team.
+4. `notes/taxonomy-red-team-2026-08-30.md`,
+5. `notes/research-dimension-map.md` (previous map; read as pre-Stage-5 baseline),
+6. `notes/scenario-holdout-matrix.md`,
+7. `notes/prearchitecture-research-scope.md`,
+8. run D1–D11 property-first remap + negative-boundary test.
 
 ## Henüz yapılmaması gerekenler
 
 - SOUL architecture veya mechanism önermek.
-- D1–D10'u canonical kabul etmek.
+- D1–D11'u canonical kabul etmek.
 - KEEL mechanisms = SOUL requirements eşitliği.
 - Research finding'i requirement/feature/backlog item yapmak.
 - Technology/framework selection.
 - External domain guidance'ı agentic effectiveness proof saymak.
 - Provisional stopping/package modelini canonical governance kabul etmek.
+- FAA SMS process/roles'u SOUL safety architecture diye kopyalamak.
+- Phase-3 roadmap wording'ini research finding üzerinden otomatik değiştirmek.
