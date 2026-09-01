@@ -1,14 +1,15 @@
 # SOUL Foundations — STATE
 
-**Status:** active; user evaluation gate after Layer-1 Actors research  
-**Current authorised layer:** Layer 1 independent vertical foundations research
+**Status:** active; all three Layer-1 verticals evaluated; post-vertical discussion gate  
+**Current authorised activity:** exploratory cross-vertical discussion and research-direction framing  
+**Next substantive research layer:** UNDETERMINED; NOT AUTHORISED
 
 ## Dependency state
 
 - **Layer 0 — bounded context / prior-repository reconstruction:** COMPLETE for current purpose in `research/soul-context/`.
 - **Layer 1A — Records / persistent-information:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED.
 - **Layer 1B — Work:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED; RETRIEVAL CLOSURE COMPLETE.
-- **Layer 1C — Actors:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; USER EVALUATION PENDING; RETRIEVAL CLOSURE COMPLETE.
+- **Layer 1C — Actors:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED; RETRIEVAL CLOSURE COMPLETE.
 - **Next layer after Layer 1:** UNDETERMINED; NOT AUTHORISED.
 
 ## Records checkpoint
@@ -80,32 +81,42 @@ Dedicated residual and relationship surfaces:
 Freshness/version binding:
 - `01_verticals/actors/CURRENT-SURFACES.md`
 
-**The user has not yet evaluated or accepted the Actors result.**
+The user evaluated the Actors result on 2026-09-01 and accepted it as sufficient for the current foundation purpose.
+
+## Post-vertical discussion handoff
+
+All three independent verticals are now complete/evaluated for the current foundation purpose. The user has authorised a new conversation to **discuss** the three results together with existing SOUL / Development OS context, with the aim of identifying the territory between these foundation results and later SOUL work and of deciding what research should come next.
+
+Canonical handoff:
+- `DISCUSSION-HANDOFF.md`
+
+This is an exploratory comparison/research-direction activity, not a declaration that the three verticals form the final SOUL ontology and not an automatic authorization for architecture or a new substantive research layer.
 
 ## Guardrails
 
 - Records, Work and Actors remain a **research decomposition hypothesis**, not final ontology.
 - Completion or prior sequencing of one vertical does not establish ontological dependence or priority among verticals.
-- Each vertical begins from first principles and must not inherit another vertical's substantive conclusions as axioms.
-- Cross-vertical observations may be recorded but must not redirect an independent vertical into premature synthesis.
-- No `02_*` or later research layer is authorised merely because a plausible structure can be imagined.
+- Cross-vertical comparison may now be discussed explicitly, but a new inference formed by that comparison must not be mislabeled as an established vertical research result.
 - Research findings do not become SOUL architecture decisions without a later explicit synthesis/decision path.
-- A completed/evaluated vertical does not automatically authorise the next vertical or synthesis stage.
+- Existing `research/soul-context/` evidence should be used to recover SOUL / Development OS intent and the research–architecture boundary; old exploratory material is not current truth unless explicitly promoted through evidence and decision.
+- A completed/evaluated Layer 1 does not automatically authorize Layer 2, architecture or implementation.
 
 ## Current sequencing
 
-**RECORDS AND WORK ARE EVALUATED. ACTORS RESEARCH IS SUFFICIENTLY COMPLETE FOR THE CURRENT FOUNDATION PURPOSE AND AWAITS USER EVALUATION.**
+**RECORDS, WORK AND ACTORS ARE ALL SUFFICIENTLY COMPLETE AND USER-EVALUATED FOR THE CURRENT FOUNDATION PURPOSE.**
 
-Do not start cross-vertical synthesis, SOUL architecture, implementation design, another independent vertical, or another research layer automatically.
+The current activity is a user-led exploratory discussion across those results and existing SOUL / Development OS context to identify missing bridges, tensions, decision-critical uncertainties and candidate research directions.
 
 ## Next logical work
 
-Evaluate the Actors result with the user and decide the next direction only after that evaluation.
-
-Possible later work is deliberately not predetermined by this state.
+Use `DISCUSSION-HANDOFF.md` to conduct that discussion and produce, for user evaluation, a clearer map of:
+- what the three verticals jointly constrain versus leave open;
+- which cross-vertical relations or missing concepts are decision-critical;
+- what belongs to SOUL versus Development OS versus further research;
+- what substantive research or decision path should be authorized next.
 
 ## Next authorised work
 
-**NO NEW SUBSTANTIVE RESEARCH PHASE IS CURRENTLY AUTHORISED.**
+**DISCUSSION AND BOUNDED RETRIEVAL FROM THE EXISTING CORPUS ARE AUTHORISED. NO NEW SUBSTANTIVE RESEARCH LAYER, SOUL ARCHITECTURE, DATA MODEL OR IMPLEMENTATION PHASE IS YET AUTHORISED.**
 
-Only repository consistency/freshness maintenance for the completed Actors handoff is authorised until explicit user direction.
+If the discussion exposes a question that requires new evidence, record/propose it as a candidate research task and obtain explicit user direction before launching a broad new research pass.
