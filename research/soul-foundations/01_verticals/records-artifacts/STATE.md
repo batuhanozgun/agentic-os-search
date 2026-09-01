@@ -3,7 +3,7 @@
 **Status:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE  
 **Parent:** `research/soul-foundations/`  
 **Last updated:** 2026-09-01  
-**Default action:** stop foundational expansion; reopen only on a material falsifier/new first-order gap
+**Default action:** stop foundational expansion; evaluate this vertical before selecting another research direction
 
 ## Purpose
 
@@ -76,7 +76,7 @@ Records research now exposes, without turning them into universal components:
 
 ## Reopen condition
 
-Reopen this vertical only if later Work/Actors/architecture research produces a case that:
+Reopen this vertical only if evaluation or later research produces a case that:
 
 1. cannot be represented by the current Records semantic model;
 2. exposes a materially new Records failure/capability dimension;
@@ -102,8 +102,16 @@ Reopen this vertical only if later Work/Actors/architecture research produces a 
 - evidential sufficiency/factual truth/reasoning;
 - approval/retention/destruction workflows.
 
-## Next logical Layer-1 work
+## Next logical work
 
-Proceed to the next **independent** vertical, currently `Work`, only after re-anchoring it from first principles.
+**Evaluate this completed Records vertical as a whole before choosing another vertical or layer.**
 
-Do not inherit the Records synthesis as proof that Records/Work/Actors are final ontological primitives. Records findings may be used later as counterexamples/relations, not as axioms for Work research.
+The evaluation should test:
+
+- whether the current completion claim is justified;
+- whether any important Records question was prematurely classified as refinement/assurance/cross-vertical;
+- what the vertical changed in the original problem framing;
+- whether the Records / Work / Actors decomposition still deserves to remain the Layer-1 hypothesis;
+- what next research direction is actually supported.
+
+Do not proceed automatically to Work or Actors.
