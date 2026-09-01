@@ -12,6 +12,7 @@ It routes readers to the shortest current surface that can answer the question. 
 |---|---|---|
 | 30-second current orientation | `KEY.md` | `FINDINGS-MAP.md` |
 | Current Environment status / authorization | `STATE.md` | parent `../../STATE.md`, then `../../ENVIRONMENT-EVALUATION-HANDOFF.md` |
+| Current-vs-historical / exact revision binding | `CURRENT-SURFACES.md` | re-fetch listed current path when decision-critical |
 | Topic/question routing | `FINDINGS-MAP.md` | relevant `findings/*.md` |
 | Full current Environment result | `synthesis/ENVIRONMENT-VERTICAL-SYNTHESIS.md` | relevant topic finding |
 | Why research stopped / omission challenge | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | source ledger + relevant finding |
@@ -47,6 +48,9 @@ Preferred current conclusion surfaces:
 - `DEFERRED-RELATIONS.md`
 - `evidence/SOURCE-LEDGER.md`
 - `STATE.md`
+
+Freshness/version manifest:
+- `CURRENT-SURFACES.md`
 
 Historical/audit surfaces:
 - `ORIENTATION.md` — initial deliberately weak hypotheses/rivals;
