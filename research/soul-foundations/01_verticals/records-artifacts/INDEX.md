@@ -57,11 +57,11 @@ Do not descend merely to increase source count when the higher layer already ans
 
 ## Topic routing
 
-| Topic | L3 read first | L4 challenge / evidence |
+| Topic | Deeper read first | Challenge / evidence recovery |
 |---|---|---|
 | Overall Records result | `synthesis/RECORDS-VERTICAL-SYNTHESIS.md` | `synthesis/VERTICAL-COMPLETENESS-COUNTERCHECK.md`, relevant source ledgers |
 | Why the vertical stopped | `synthesis/VERTICAL-COMPLETENESS-COUNTERCHECK.md` | `sources/vertical-completeness-omission-review.md`, `VERTICAL-COMPLETENESS-PLAN.md` |
-| What is a record / object boundaries | `synthesis/OBJECT-BOUNDARIES.md` | object-boundaries counter material + `sources/object-boundaries-recordhood.md`, `FOUNDATIONAL-SYNTHESIS.md` |
+| What is a record / object boundaries | `synthesis/OBJECT-BOUNDARIES.md` | `synthesis/ARTIFACT-COUNTERCHECK.md`, `sources/object-boundaries-recordhood.md`, `sources/term-boundaries.md` |
 | `Artifact` verdict | `synthesis/ARTIFACT-COUNTERCHECK.md` | `sources/artifact-counterframe.md`, `sources/term-boundaries.md` |
 | What must persist / preservation closure | `synthesis/MINIMUM-ENVELOPE.md` | `synthesis/MINIMUM-ENVELOPE-COUNTERCHECK.md`, `sources/minimum-envelope.md` |
 | Change / status / time | `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` | `synthesis/CHANGE-STATUS-TEMPORAL-COUNTERCHECK.md`, `sources/change-status-temporal-semantics.md` |
