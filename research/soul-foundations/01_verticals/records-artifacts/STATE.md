@@ -1,89 +1,118 @@
 # Records / Artifacts — STATE
 
-**Status:** active vertical — foundational pass complete at user-return gate  
+**Status:** active vertical; object-boundaries pass return condition met  
 **Parent:** `research/soul-foundations/`  
-**Last updated:** 2026-09-01
+**Last updated:** 2026-09-01  
+**User-return gate:** YES  
 
 ## Current objective
 
-Establish a first-principles, source-grounded understanding of the records / artifacts problem domain before relating it to Work, Actors, the SOUL Development System, or SOUL architecture.
+Establish a first-principles, source-grounded understanding of the persistent-information / records problem domain before relating it to Work, Actors, the SOUL Development System, or SOUL architecture.
 
-## Completed pass
+The package directory remains `records-artifacts/` for continuity, but `artifact` is no longer assumed to be a valid unqualified foundational Records category.
 
-The foundational pass asked what a record is, what must persist for later trustworthy use, and which distinctions among data, information, document, record, state, event, claim, evidence, knowledge, memory, and derived representation are load-bearing.
+## Completed research passes
 
-Canonical outputs:
+### Pass 1 — Foundational Records research
 
-- `RESEARCH-PLAN.md` — question, lenses, counter-frames and return condition.
-- `SOURCES.md` — consolidated cross-disciplinary source ledger and limitations.
-- `FOUNDATIONAL-SYNTHESIS.md` — main bounded synthesis.
-- `OPEN-QUESTIONS.md` — prioritised next internal Records questions.
-- `synthesis/CONCEPT-BOUNDARIES.md` — supporting provisional term boundaries.
-- `synthesis/FAILURE-MODES.md` — supporting failure inventory.
-- `synthesis/RETURN-CONDITION-REVIEW.md` — self-review of the pass return condition.
-- `sources/` — subordinate detailed source ledgers by lens.
-- `DEFERRED-RELATIONS.md` — cross-vertical observations deliberately not solved here.
+**Status:** completed at its return condition.
 
-The package has been consolidated so there is one main foundational synthesis and one main open-question queue; supporting subdirectories do not maintain competing copies.
+Asked what a record is, what must persist for later trustworthy use, and which distinctions among data, information, document, record, state, event, claim, evidence, knowledge, memory, and derived representation are load-bearing.
 
-## Foundational result
+Primary outputs:
+- `RESEARCH-PLAN.md`
+- `SOURCES.md`
+- `FOUNDATIONAL-SYNTHESIS.md`
+- supporting `sources/` and `synthesis/` ledgers/modules.
 
-The pass does not support `record = file`, `record = anything persisted`, `preserve bytes = preserve meaning`, `immutable = true/trustworthy`, or `stored = retrievable` as adequate general models.
+### Pass 2 — Object boundaries / recordhood / artifact / identity-change
 
-The strongest bounded synthesis is that recordhood is at least materially contextual/functional rather than a storage format, but the deeper `type vs managed role/status vs family of record types` question remains open. Durable trustworthy reuse can require separable properties including identity, representation/interpretability, context, provenance, temporal semantics, integrity/change trace, authority/status, relations, findability/retrievability and lifecycle/retention.
+**Status:** completed at its return condition.
 
-`record` and `artifact` are not proven to be the same category. `artifact` remains broader/context-dependent in current evidence and requires more targeted boundary work if it stays load-bearing.
+Authorised scope:
+- `OBJECT-BOUNDARIES-PLAN.md`
 
-## Candidate research dimensions
+Primary result:
+- `synthesis/OBJECT-BOUNDARIES.md`
 
-- identity,
-- content/representation,
-- interpretability,
-- context,
-- provenance/lineage,
-- time,
-- integrity/change trace,
-- authority/status,
-- findability/retrievability,
-- lifecycle/retention,
-- relationships/aggregation.
+Artifact adverse-evidence refinement:
+- `synthesis/ARTIFACT-COUNTERCHECK.md`
 
-These are research dimensions, not fields, components or SOUL primitives.
+Pass-specific source trace:
+- `sources/object-boundaries-recordhood.md`
+- `sources/artifact-counterframe.md`
 
-## Counter-frames preserved
+## Current bounded findings
 
-- Record definitions differ across evidence, information, persistent-representation and contextual/emergent-recordness traditions.
-- Linear lifecycle and records-continuum models are both retained as competing lenses.
-- Record is not assumed to be a discrete object; aggregate/system-resident/contextual records remain possible.
-- Artifact is not assumed synonymous with record.
-- Immutability, event sourcing, versioned object storage, graph representation and current-state databases remain alternative mechanisms/patterns, not selected architecture.
+The object-boundaries pass provides enough evidence to use the following distinctions as a **working research model**, not a final SOUL ontology:
 
-## Deferred relations
+- higher-level persistent information resource/content identity;
+- record role/status;
+- representation / instantiation;
+- copy / instance;
+- version / revision;
+- semantic derivation / derived information object;
+- aggregation / set.
 
-See `DEFERRED-RELATIONS.md`.
+Key bounded conclusions:
 
-Material relations currently include Records↔Work, Records↔Actors, authority, evidence, provenance ownership and retention/disposition authority. They are recorded but not solved from this vertical.
+1. `record` is not adequately defined as stored information, file, document, copy, or all persistent data.
+2. Recordhood currently fits a hybrid model: persistent/recoverable representation + documentary relation to activity/occurrence/context + a continuing recordkeeping/reference/evidence/accountability/information function.
+3. Record status can differ for identical or near-identical copies because use/purpose/context can differ.
+4. Resource identity, version identity, and representation/instance identity must not be collapsed.
+5. Copy, format conversion, revision, correction/retraction, semantic derivation, and aggregation have distinct change/identity semantics.
+6. `artifact` is **not retained as an unqualified foundational super-category** for the Records vertical.
+7. The stronger claim that artifact ontologies are incoherent was rejected: qualified concepts such as `information artifact` remain legitimate candidates when their ontology is explicit.
+8. The correct neutral category broader than `record` remains unresolved; `persistent information resource` is only a working label.
 
-## Return-condition verdict
+## Vertical guardrail
 
-**MET for the foundational pass.**
+Relations to Work, Actors, authority, orchestration, or SOUL architecture may be recorded when unavoidable, but are deferred rather than solved inside this vertical.
 
-The major competing frames were compared; load-bearing distinctions and failure surfaces are explicit; limiting/counter evidence was sought; source trace is persisted; unresolved questions are concrete and prioritised; no storage technology or SOUL architecture was selected.
+See:
+- `DEFERRED-RELATIONS.md`
 
-This verdict is a research-process checkpoint, **not independent verification of the synthesis** and not completion of the Records / Artifacts vertical.
+## Current high-information unknowns
 
-## Next logical internal research
+Prioritised in `OPEN-QUESTIONS.md`.
 
-Use `OPEN-QUESTIONS.md`. Highest-information targets are currently:
+Highest current candidate:
 
-1. recordness / natural object model — intrinsic type vs contextual/managed role/status vs family of record types;
-2. identity across change;
-3. granularity of the natural record unit;
-4. intrinsic vs external preservation envelope;
-5. coexistence of current truth and historical truth.
+> **What is the minimum persistent information / record envelope required to preserve identity, interpretation, context, provenance, temporal/status semantics, integrity, relationships, and retrievability across time — and which properties vary by information-resource class or retention horizon?**
+
+Other frame-changing unknowns include:
+- the neutral broader persistent-information category above/around records;
+- identity/significance thresholds for instance vs version vs new record vs derived resource.
+
+## Return-condition verdict — object-boundaries pass
+
+**MET.**
+
+- major competing recordhood models were compared;
+- object distinctions were counter-tested;
+- the artifact claim received an adverse-evidence pass and a bounded verdict;
+- identity/change cases were mapped;
+- source trace is persisted;
+- residual uncertainty is concrete enough to define the next internal pass.
+
+This is a research-process checkpoint, not independent proof of a universal ontology and not completion of the Records vertical.
+
+## Next logical work
+
+Define and execute a bounded **minimum persistent information / record envelope** research pass before storage, organisation, retrieval, or technology selection.
 
 ## Next authorised work
 
-**RETURN TO USER.**
+**RETURN TO USER AND RE-ANCHOR DIRECTION.**
 
-Further Records research may continue on user direction. Work, Actors, cross-vertical synthesis, Development System design, and SOUL architecture remain outside the current authorised stage. A later continuation can resume from the repository without replaying old chat.
+The object-boundaries pass has reached its approved operational return condition. Do not automatically execute the next logical pass.
+
+Before another long pass:
+
+1. restate the proposed purpose;
+2. define scope and exclusions;
+3. define the operational return condition;
+4. obtain user approval;
+5. then work to that return condition without stopping at the first useful finding.
+
+Work, Actors, cross-vertical synthesis, Development System design, and SOUL architecture remain outside the current authorised stage.
