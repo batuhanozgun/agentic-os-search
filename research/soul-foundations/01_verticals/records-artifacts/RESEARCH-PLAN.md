@@ -1,7 +1,8 @@
 # Records / Artifacts — Foundational Research Pass
 
-**Status:** active working plan  
-**Date opened:** 2026-09-01
+**Status:** completed at user-return gate  
+**Date opened:** 2026-09-01  
+**Return condition met:** 2026-09-01
 
 ## Research question
 
@@ -51,7 +52,7 @@ For each material claim, distinguish:
 
 ## Counter-frame / falsification checks
 
-Actively test at least these alternatives:
+The completed pass actively tested at least these alternatives:
 
 - `record = stored information` may be too broad;
 - `record = immutable historical event` may be too narrow;
@@ -59,22 +60,27 @@ Actively test at least these alternatives:
 - `all persistent information needs record-level governance` may be false;
 - archival/records-management concepts may overfit accountability/institutional evidence and not generalise to all operational information;
 - database/event-sourcing concepts may preserve machine state while losing semantic/contextual record properties;
-- search/retrieval success may not imply authority, truth, freshness, or completeness.
+- search/retrieval success may not imply authority, truth, freshness, or completeness;
+- `Record` may not be one universally fixed object class: contextual/managed-status and emergent-recordness counter-frames remain live.
 
 ## Vertical-isolation rule
 
 When a question materially requires Work or Actors (e.g. 'who is authorised to alter this record?' or 'which work produced it?'), record the relation and the minimum fact needed to understand the Records side, but defer the other vertical's model.
 
+Material relations discovered during the pass are persisted in `DEFERRED-RELATIONS.md`.
+
 ## Return condition
 
-This foundational pass is ready to return to the user when:
+The foundational pass was ready to return to the user when:
 
-1. major competing definitions/frames of `record` have been compared rather than one selected by convenience;
-2. load-bearing distinctions among the core information categories are explicit enough to guide the next records research;
-3. persistent-information properties and lifecycle/failure surfaces are supported across multiple independent disciplines;
-4. counter-evidence and scope limits are explicit;
-5. source trace is persisted in the repository;
-6. unresolved questions are concrete and prioritised by information value;
-7. no storage technology or SOUL architecture has been silently selected.
+1. major competing definitions/frames of `record` had been compared rather than one selected by convenience;
+2. load-bearing distinctions among the core information categories were explicit enough to guide the next records research;
+3. persistent-information properties and lifecycle/failure surfaces were supported across multiple independent disciplines;
+4. counter-evidence and scope limits were explicit;
+5. source trace was persisted in the repository;
+6. unresolved questions were concrete and prioritised by information value;
+7. no storage technology or SOUL architecture had been silently selected.
 
-Meeting this return condition does **not** mean the entire Records / Artifacts vertical is complete. It means the foundational pass has produced enough ground to decide its next internal research step.
+**Verdict:** MET. See `synthesis/RETURN-CONDITION-REVIEW.md`.
+
+Meeting this return condition does **not** mean the entire Records / Artifacts vertical is complete. It means the foundational pass has produced enough ground to decide its next internal research step. Per the parent guardrail, the adjoining deepening pass is not silently opened in the same turn.
