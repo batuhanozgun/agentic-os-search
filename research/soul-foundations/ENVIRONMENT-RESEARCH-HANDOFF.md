@@ -123,19 +123,72 @@ Current conditions:
 
 This arrangement creates a practical continuity requirement: a fresh session must recover the current research purpose, authority, state, working hypotheses and next responsibility from the repository without replaying the old conversation.
 
-## 8. Cold-start route for the Environment research conversation
+## 8. Mandatory cold-start preflight for the Environment research conversation
 
-After repository-wide `AGENT.md` bootstrap and triggered protocols, read:
+The next Environment research session is **not a continuity experiment**. It must fail closed before substantive Environment reasoning/research if canonical context cannot be recovered with high confidence.
+
+### 8.1 Control bootstrap — mandatory
+
+Before substantive project work:
+
+1. fetch the current `AGENT.md` from `batuhanozgun/agentic-os-search` `main`;
+2. run the complete routing gate;
+3. fully load every protocol resolved to `LOAD`;
+4. if any required agent-control file cannot be read, stop substantive work and report the failure rather than reconstructing from memory.
+
+### 8.2 Project-state recovery — mandatory full reads
+
+After control bootstrap, fully read these current project-work surfaces before beginning Environment research:
 
 1. `research/soul-foundations/STATE.md`
 2. `research/soul-foundations/INDEX.md`
-3. this `ENVIRONMENT-RESEARCH-HANDOFF.md`
-4. `research/soul-foundations/DISCUSSION-HANDOFF.md` only if the pre-discussion framing/history is needed
-5. `research/soul-context/INDEX.md`
-6. `research/soul-context/evidence/CONTEXT-SYNTHESIS.md` when SOUL / Development OS intent is material
-7. the current `KEY.md`, `FINDINGS-MAP.md`, synthesis and `DEFERRED-RELATIONS.md` surfaces of Records / Work / Actors only as demanded by the specific Environment boundary question.
+3. this `research/soul-foundations/ENVIRONMENT-RESEARCH-HANDOFF.md`
+4. `research/soul-context/INDEX.md`
+5. `research/soul-context/evidence/CONTEXT-SYNTHESIS.md`
+6. `research/soul-context/evidence/research-architecture-boundary.md`
 
-Do not rely on chat-history recollection as the source of current direction.
+Then recover the three completed verticals at the minimum cross-vertical depth required to avoid summary drift:
+
+7. Records `KEY.md`
+8. Records `DEFERRED-RELATIONS.md`
+9. Work `KEY.md`
+10. Work `DEFERRED-RELATIONS.md`
+11. Actors `KEY.md`
+12. Actors `DEFERRED-RELATIONS.md`
+
+If a boundary question becomes load-bearing, descend to that vertical's `FINDINGS-MAP.md`, full synthesis, topic finding and source ledger/primary source according to its retrieval router. Do not treat the short surfaces as sufficient when the research question depends on a distinction only preserved deeper in the corpus.
+
+`DISCUSSION-HANDOFF.md` is historical/pre-discussion context and should be read only if needed to resolve an ambiguity; it is not the current next-action authority.
+
+### 8.3 Preflight consistency checks — mandatory
+
+Before substantive Environment research, verify that the recovered repository state is internally coherent on all of the following:
+
+- Records, Work and Actors are complete/evaluated for the current foundation purpose;
+- Environment is authorised for independent foundation research but is not yet an established fourth leg;
+- relation/control/coordination fabric is a working cross-vertical hypothesis, not accepted architecture;
+- broad composition/relations research is not yet authorised;
+- research findings must not be promoted directly to SOUL architecture truth;
+- the Environment pass is required to test rival framings/falsifiers rather than confirm a preferred four-leg model;
+- the next stop after bounded Environment research is user evaluation, not automatic architecture or composition work.
+
+If `STATE.md`, `INDEX.md`, this handoff, or the relevant context/vertical surfaces conflict materially on current authorization, epistemic status or next responsibility, **do not choose one silently and continue**. Report the conflict and stop the affected research until the canonical state is repaired or clarified.
+
+### 8.4 User-visible orientation before research — mandatory
+
+The first substantive response in the new Environment session must, after the routing status block, briefly state:
+
+- which canonical project files were fully read for preflight;
+- the recovered current authorization and next responsibility;
+- the Environment research question in falsifiable form;
+- what is established versus working hypothesis;
+- the principal assumptions or rival framings that must not be silently fixed in advance.
+
+This is an auditable orientation checkpoint, not a request for the user to re-explain the project. If the repository state is coherent, continue the authorised research without asking the user to repeat information already recoverable from the repository.
+
+### 8.5 No chat-memory shortcut
+
+Do not use remembered conversation content, project summaries or prior-session model memory as substitutes for the mandatory canonical reads above. They may help locate a file, but current direction and substantive claims must be recovered from the repository.
 
 ## 9. Epistemic status discipline
 
@@ -158,5 +211,7 @@ In particular:
 ## 10. Current next responsibility
 
 The next authorised substantive research direction is an **independent Environment foundation pass** designed to test, not assume, the fourth-leg hypothesis.
+
+The new session must complete the mandatory preflight in Section 8 before substantive Environment research begins.
 
 After that pass reaches a bounded result, stop for user evaluation before promoting any cross-vertical composition/relations research or architecture work.
