@@ -8,27 +8,42 @@ It is intentionally layered. Earlier research may change the structure, scope, o
 
 ## Current research hypothesis
 
-The current starting hypothesis is that three problem domains deserve independent vertical research:
+The starting hypothesis was that three problem domains deserved independent vertical research:
 
 1. **Records / Artifacts** — what persists, how information is represented, stored, organised, governed, changed, traced, and retrieved.
 2. **Work** — what must be done, changed, investigated, verified, or completed, and how such work is represented and controlled.
 3. **Actors** — what performs work or exercises authority, and how identity, capability, responsibility, delegation, and accountability are represented.
 
-These are research starting points, not accepted SOUL primitives or architecture truth.
+These are research regions, not accepted SOUL primitives or architecture truth.
+
+## Current status
+
+All three Layer-1 verticals are sufficiently complete and user-evaluated for the current foundation purpose.
+
+The current authorised activity is **not** an architecture phase or an automatically authorised next research layer. It is an exploratory discussion across the three completed corpora and existing SOUL / Development OS context to identify missing bridges, tensions, decision-critical uncertainties and candidate research directions.
+
+Current handoff:
+- `DISCUSSION-HANDOFF.md`
+
+Current state/router:
+- `STATE.md`
+- `INDEX.md`
 
 ## Layering rule
 
 - Layer 0 provides bounded context and problem reconstruction from prior repository research.
-- Layer 1 researches each current vertical independently.
-- Later layers are **undetermined** until the evidence from the current layers justifies them.
+- Layer 1 researched each current vertical independently.
+- Later layers remain **undetermined** until evidence and explicit user direction justify them.
 
 A later synthesis may confirm, refine, add to, replace, or dissolve the current three-part framing.
 
 ## Vertical isolation rule
 
-Each Layer-1 vertical should stay focused on its own problem domain. When research encounters a materially important relation to another vertical, record it as a deferred relational question rather than allowing the research to drift into the other domain.
+Each Layer-1 vertical was researched independently. When research encountered a materially important relation to another vertical, it recorded that relation as a deferred question rather than allowing the vertical to drift into premature synthesis.
 
-Isolation is methodological, not ontological: the research must not assume that the domains are truly independent in reality.
+Isolation was methodological, not ontological: completion of independent research does not establish that the domains are truly independent in reality.
+
+The current post-vertical discussion may now compare those results, but new cross-vertical inferences must remain distinguishable from established vertical findings.
 
 ## Epistemic rule
 
@@ -36,4 +51,4 @@ Research findings, taxonomies, models, and synthesis produced here are evidence 
 
 ## Relationship to `research/soul-context/`
 
-`research/soul-context/` remains the existing bounded context-reconstruction package. It is not duplicated here. `00_context/` records only the dependency from that completed context work into this foundations research.
+`research/soul-context/` remains the bounded context-reconstruction package for SOUL, Development OS and predecessor work. It is not duplicated here. Use its `INDEX.md` to recover SOUL / Development OS intent and the research–architecture boundary when those topics become relevant.
