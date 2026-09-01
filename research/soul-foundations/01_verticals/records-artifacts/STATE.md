@@ -1,13 +1,13 @@
 # Records / Persistent Information — STATE
 
-**Status:** active vertical; change/status/temporal pass return condition met  
+**Status:** active vertical; organisation/retrieval pass return condition met  
 **Parent:** `research/soul-foundations/`  
 **Last updated:** 2026-09-01  
 **User-return gate:** YES
 
 ## Current objective
 
-Establish a first-principles, source-grounded understanding of the persistent-information / records problem domain before relating it to Work, Actors, the SOUL Development System, or SOUL architecture.
+Establish a first-principles, source-grounded understanding of the persistent-information / Records problem domain before relating it to Work, Actors, the SOUL Development System, or SOUL architecture.
 
 The package directory remains `records-artifacts/` for continuity. `Artifact` is not treated as an unqualified foundational Records category.
 
@@ -18,125 +18,116 @@ The package directory remains `records-artifacts/` for continuity. `Artifact` is
 1. **Foundational Records / persistent-information** — recordhood/problem structure; rejected storage-first framing.
 2. **Object boundaries / artifact / identity-change** — separated resource, record role, version, representation, derivation and aggregation; rejected unqualified `artifact` as super-category.
 3. **Minimum envelope → minimum preservation closure** — rejected universal object-local metadata bundle; established profile-relative information/dependency closure.
-4. **Change / status / temporal semantics** — rejected generic `update`, one universal status enum, and one universal timestamp model; established architecture-neutral reconstructability semantics.
+4. **Change / status / temporal semantics** — rejected generic `update`, one universal status and one universal timestamp model; established architecture-neutral reconstructability semantics.
+5. **Organisation / derived views / retrieval semantics** — rejected one canonical hierarchy and one generic `search` notion; established plural organisation roles and claim-relative retrieval sufficiency.
 
-## Pass 4 outputs
+## Pass 5 outputs
 
-- plan: `CHANGE-LIFECYCLE-PLAN.md`
-- synthesis: `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md`
-- adversarial check: `synthesis/CHANGE-STATUS-TEMPORAL-COUNTERCHECK.md`
-- source ledger: `sources/change-status-temporal-semantics.md`
+- plan: `ORGANISATION-RETRIEVAL-PLAN.md`
+- synthesis: `synthesis/ORGANISATION-RETRIEVAL-SEMANTICS.md`
+- adversarial check: `synthesis/ORGANISATION-RETRIEVAL-COUNTERCHECK.md`
+- source ledger: `sources/organisation-retrieval-semantics.md`
 
 ---
 
 # Current bounded result
 
-## Change is multidimensional
+## Organisation is purpose-relative
 
-Do not collapse:
+Do not automatically collapse:
 
-- creation/generation vs capture/registration;
-- revision/version vs representation migration/re-instantiation;
-- semantic derivation vs revision;
-- supersession vs correction;
-- correction vs generic revision/enhancement;
-- retraction/reliance withdrawal vs removal/access unavailability;
-- removal vs destruction/disposition;
-- preservation/custody events vs resource standing/version semantics.
+- context/provenance-preserving organisation;
+- descriptive / knowledge organisation;
+- access / retrieval organisation;
+- exact source/version/standing binding.
 
-## One universal `status` is not supported
+These are semantic roles, **not mandatory separate stores/components**. A simple profile may combine roles where no protected distinction is lost.
 
-Independent status/standing questions can include:
+Multiple organisations are permitted but not required. A resource may participate in several contextual, subject, aggregate or access structures without becoming several source records merely because it appears in several views.
 
-- production/reproduction state;
-- identity/version lineage;
-- role/context-scoped currentness/designation/precedence;
-- reliance/editorial standing;
-- availability/presence;
-- preservation/custody history.
+## `Canonical vs derived` was too binary
 
-These are conditional semantic dimensions, **not mandatory stored fields**. A resource profile may merge dimensions when they cannot vary independently for its protected use.
+Current Records-side model distinguishes:
 
-## Temporal result
+- derivation relation;
+- access/discovery function;
+- own resource/record identity;
+- recordkeeping/designated-source role;
+- exact source/version/standing binding;
+- freshness/coverage semantics.
 
-One generic timestamp is insufficient when domain-effective standing and system knowledge diverge.
+A derived output can itself become a persistent resource/record or designated recordkeeping source for a bounded role. Authority to establish such designation remains deferred.
 
-The strongest general distinction is:
+## Retrieval is claim-relative
 
-- **effective/applicable time** — when a fact/status/relation applies in the governed/modelled domain;
-- **system-known/recorded time** — when the managing system learned/recorded/asserted it.
+Different retrieval needs require different closure, including:
 
-Creation, capture, publication, correction, retraction, migration, transfer, destruction, etc. are normally **typed event occurrence times**, not automatically universal independent temporal axes.
+- known-item / exact identity;
+- structured filter;
+- semantic/topical discovery;
+- exhaustive/high-recall retrieval;
+- current-standing retrieval;
+- historical/as-of retrieval;
+- system-known-as-of retrieval;
+- provenance/derivation traversal;
+- aggregation/case/thread reconstruction.
 
-## Terminology correction
+A hit does not by itself establish exact identity, current standing, completeness, authority, truth or evidential sufficiency.
 
-The earlier phrase `current truth / historical truth` is retired.
+A miss does not by itself establish absence. Strong absence inference becomes possible only when corpus/domain, coverage, matching sensitivity, aliases/identity scope, freshness/as-of and recall are sufficiently bounded.
 
-Records semantics preserve:
+## Derived-view freshness
 
-- current standing/designation;
-- historical state/standing;
-- system-known historical state when required;
-- identity/provenance lineage.
+Source change and access-view visibility are separate facts unless a profile guarantees otherwise.
 
-They do **not** establish factual truth or evidential sufficiency.
+Staleness is not inherently wrong. The failure is **freshness/as-of semantics mismatching the claim**. Historical snapshots are intentionally non-current; current-sensitive retrieval needs an adequate assurance path to current standing, not necessarily a direct origin lookup.
 
-## Reconstructability result
+Freshness can depend on source version/standing, schema/vocabulary version and corpus coverage, not only elapsed time.
 
-A current snapshot alone can lose history/transition meaning. A raw event list alone can also be insufficient if event semantics, identity binding, effective time, or currentness rules are not preserved.
+## Architecture boundary
 
-The architecture-neutral obligation is:
+No hierarchy/graph/vector/search/database/cache/storage topology has been selected.
 
-> preserve enough typed change facts, standing assertions, identity/lineage relations, temporal semantics and provenance bindings to reconstruct the views required by the preservation/reuse profile.
-
-No event-sourcing or temporal-database architecture is implied.
-
-## Disposition boundary
-
-Disposition remains in Records only at the terminal information-history boundary:
-
-- transfer vs disposal/destruction are distinct;
-- destruction can make payload irrecoverable while certifiable destruction history/identity remains where required.
-
-Retention schedules, legal holds, authority, approvals and execution workflow remain deferred.
+Plural relationships do not imply graph architecture; retrieval contracts are conceptual guarantees/assumptions, not API requirements.
 
 ---
 
-# Pass 4 return-condition verdict
+# Pass 5 return-condition verdict
 
 **MET.**
 
-- main change kinds compared across independent publishing/versioning, provenance, preservation, temporal-data, archival and records-management sources;
-- status vocabulary reduced to semantic dimensions rather than copied as one enum;
-- time distinctions tested and bounded;
-- identity/provenance effects made explicit;
-- current/historical reconstruction requirements explicit;
-- disposition kept inside the Records semantic boundary without authority/workflow drift;
-- adversarial pass challenged over-separation, source-term collisions, architecture contamination, time overfitting and currentness assumptions;
-- source trace and synthesis persisted;
-- no storage architecture, Work model, Actors model, authority system or SOUL schema selected.
+- context-preserving, descriptive/knowledge and access/retrieval organisation were compared;
+- binary canonical/derived framing was replaced with a bounded relational model;
+- materially different retrieval modes and sufficiency requirements were distinguished;
+- stale/incomplete/lossy/duplicate/independently-editable view failures were tested;
+- retrieval hit/miss epistemic limits are explicit;
+- standing-change propagation was bounded without synchronous-invalidation architecture;
+- adversarial pass challenged over-separation, graph drift, source/derived hierarchy, miss/absence absolutism, stale-view assumptions and IR scope drift;
+- source trace and synthesis are persisted;
+- no search/storage/SOUL architecture was selected.
 
-This is a research-process checkpoint, **not independent proof of a universal lifecycle model** and not completion of the Records vertical.
+This is a research-process checkpoint, **not independent proof of a universal organisation/retrieval model** and not completion of the Records vertical.
 
 ---
 
 # Current highest-information unknown
 
-The first four passes now establish enough about:
+Five passes now establish enough about:
 
-- what persistent objects/records are;
-- what information closure must survive;
-- how change/status/time must remain semantically reconstructable.
+- persistent object/record boundaries;
+- minimum preservation closure;
+- change/standing/time reconstruction;
+- organisation/access views and retrieval semantics.
 
 The next major Records gap is now:
 
-> **How should persistent information be organised and retrieved so canonical identity, derived/discovery views, aggregations, version/standing history, and current/as-of retrieval remain distinguishable without stale indexes/summaries becoming shadow authorities?**
+> **How should these conditional findings be turned into purpose-relative Records profiles / requirement-derivation rules so a given resource/use/horizon/risk gets the necessary identity, preservation, history, organisation, retrieval and assurance obligations — without requiring every possible property or prematurely selecting storage architecture?**
 
 See `OPEN-QUESTIONS.md`.
 
 ## Next logical work
 
-A bounded **organisation / canonical-vs-derived views / retrieval sufficiency** pass.
+A bounded **Records profile / requirement derivation** pass.
 
 ## Next authorised work
 
@@ -146,7 +137,7 @@ Do not automatically execute another long pass.
 
 Before continuation:
 
-1. restate/re-evaluate purpose and direction;
+1. re-evaluate purpose and direction against all completed passes;
 2. define scope/exclusions;
 3. define operational return condition;
 4. obtain user approval;
