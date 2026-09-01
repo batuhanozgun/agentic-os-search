@@ -6,7 +6,7 @@
 ## Dependency state
 
 - **Layer 0 — bounded context / prior-repository reconstruction:** COMPLETE for the current purpose in `research/soul-context/`.
-- **Layer 1A — Records / Artifacts:** READY TO START.
+- **Layer 1A — Records / Artifacts:** ACTIVE.
 - **Layer 1B — Work:** NOT STARTED.
 - **Layer 1C — Actors:** NOT STARTED.
 - **Next layer:** UNDETERMINED.
@@ -22,6 +22,6 @@ The current working sequence is to research the Layer-1 verticals separately, be
 - No `02_*` or later research layer is authorised merely because a plausible next step can be imagined.
 - Research results do not become SOUL architecture decisions without a later explicit synthesis/decision path.
 
-## Next authorised work
+## Current authorised work
 
-Begin `01_verticals/records-artifacts/` by defining and researching the problem domain from first principles: what a record/artifact/information-bearing persistent object is, how information persists, is organised, governed, changed, traced, and retrieved, and which distinctions are load-bearing.
+Continue the foundational Records / Artifacts research pass to its explicit return condition and persist the research package. Work, Actors, cross-vertical synthesis, Development System design, and SOUL architecture remain outside the current authorised stage.
