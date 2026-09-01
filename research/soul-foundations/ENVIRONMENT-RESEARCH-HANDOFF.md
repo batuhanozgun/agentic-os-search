@@ -73,6 +73,8 @@ In that sense, some Records are not merely passive historical storage; they may 
 
 This must **not** be collapsed into `Records exist only so Actors can work better`. Records research also protects independent persistence concerns such as evidential/accountability use, historical reconstructability, retention/disposition, provenance and future uses that may outlive a particular Actor or Work episode. The working hypothesis is therefore relational: **the quality and binding of Records can materially constrain Actor effectiveness and Work continuity without making Records reducible to Actor support.**
 
+A timing refinement is also important. Saying that an Actor needs the "right Record at the right time" should not silently assign temporal control to Records or Environment. Work research already treats planning, sequencing, readiness, waiting, coordination, event/situation-driven control and actual situated execution as Work-relevant distinctions. A stronger working interpretation is therefore: **Work carries the semantics of when action is planned, eligible, ready or triggered; Environment may supply changing conditions/events/resource availability that make Work ready or blocked; Records preserve the plans, observations, state and evidence needed to know those conditions; Actors act within those bindings.** This is a cross-vertical working hypothesis, not an accepted ownership model.
+
 The current agent-control files (`AGENT.md`, protocols), project state, handoffs and research routers are practical examples of this relation in the present research operating arrangement. They are operational observations, not proof that the same relation exhausts Records in SOUL or other systems.
 
 ## 4. Why Environment research comes next
