@@ -7,31 +7,30 @@ This file is the retrieval router for `records-artifacts/**`. It is not evidence
 ## Default reading order
 
 1. `STATE.md` — current result and authorisation boundary.
-2. `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` — latest bounded Records synthesis.
-3. `synthesis/CHANGE-STATUS-TEMPORAL-COUNTERCHECK.md` — adverse test of the latest frame.
-4. `synthesis/MINIMUM-ENVELOPE.md` — preservation-closure basis.
-5. `synthesis/OBJECT-BOUNDARIES.md` — recordhood/object-boundary basis.
-6. `FOUNDATIONAL-SYNTHESIS.md` — original broad foundation when earlier concepts/failure surfaces are needed.
-7. relevant pass-specific ledger under `sources/`.
-8. for exact/load-bearing claims, recover the primary source named by the ledger.
+2. `synthesis/ORGANISATION-RETRIEVAL-SEMANTICS.md` — latest bounded Records synthesis.
+3. `synthesis/ORGANISATION-RETRIEVAL-COUNTERCHECK.md` — adverse test of the latest frame.
+4. `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` — change/standing/time basis.
+5. `synthesis/MINIMUM-ENVELOPE.md` — preservation-closure basis.
+6. `synthesis/OBJECT-BOUNDARIES.md` — recordhood/object-boundary basis.
+7. `FOUNDATIONAL-SYNTHESIS.md` — original broad foundation when earlier concepts/failure surfaces are needed.
+8. relevant pass-specific ledger under `sources/`.
+9. for exact/load-bearing claims, recover the primary source named by the ledger.
 
 ## Topic routing
 
 | Topic / question | Read first | Then / source trace |
 |---|---|---|
 | Current Records state / authorised work | `STATE.md` | `OPEN-QUESTIONS.md` |
+| Organisation / derived views / retrieval semantics | `synthesis/ORGANISATION-RETRIEVAL-SEMANTICS.md` | `sources/organisation-retrieval-semantics.md` |
+| Organisation roles: context vs knowledge vs access | `synthesis/ORGANISATION-RETRIEVAL-SEMANTICS.md` sections 2–3 | RiC/SAA/SKOS in pass ledger |
+| Source / derived / recordkeeping designation relationships | `synthesis/ORGANISATION-RETRIEVAL-SEMANTICS.md` sections 4–5 | OAIS/NARA/PROV in pass ledger |
+| Retrieval modes / sufficiency | `synthesis/ORGANISATION-RETRIEVAL-SEMANTICS.md` sections 6–8 | IR/Memento/FAIR in pass ledger |
+| Stale view / freshness / propagation | `synthesis/ORGANISATION-RETRIEVAL-SEMANTICS.md` sections 9–10 | RFC 9111/PostgreSQL/Elasticsearch in pass ledger |
+| Retrieval hit/miss and absence limits | `synthesis/ORGANISATION-RETRIEVAL-SEMANTICS.md` section 8 | IR/Memento + countercheck C5 |
+| Organisation/retrieval adverse constraints | `synthesis/ORGANISATION-RETRIEVAL-COUNTERCHECK.md` | pass source ledger |
+| Organisation/retrieval plan / return condition | `ORGANISATION-RETRIEVAL-PLAN.md` | `STATE.md` |
 | Change / status / temporal semantics | `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` | `sources/change-status-temporal-semantics.md` |
-| Why generic `update` fails | `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` sections 2–4 | pass source ledger |
-| Revision vs migration vs derivation | `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` C3–C5 | PROV/PREMIS/DataCite/JAV in source ledger |
-| Supersession vs correction vs retraction/removal | `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` C6–C9 | NISO CREC/JAV, ICMJE, Crossref, DataCite |
-| Destruction / disposition record-side boundary | `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` C11 | NARA in pass source ledger |
-| Why one universal status enum fails | `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` sections 5–6 | RiC/Crossref/NISO/PREMIS evidence |
-| Effective/applicable vs system-known time | `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` section 7 | Jensen/Snodgrass temporal sources |
-| Current vs historical reconstruction | `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` section 8 | pass source ledger |
-| Counterexamples / architecture contamination check | `synthesis/CHANGE-STATUS-TEMPORAL-COUNTERCHECK.md` | pass source ledger |
-| Change pass plan / return condition | `CHANGE-LIFECYCLE-PLAN.md` | `STATE.md` |
 | Minimum preservation closure | `synthesis/MINIMUM-ENVELOPE.md` | `sources/minimum-envelope.md` |
-| Minimum-closure adverse check | `synthesis/MINIMUM-ENVELOPE-COUNTERCHECK.md` | `sources/minimum-envelope.md` |
 | Recordhood / object boundaries | `synthesis/OBJECT-BOUNDARIES.md` | `sources/object-boundaries-recordhood.md` |
 | `Artifact` current verdict | `synthesis/ARTIFACT-COUNTERCHECK.md` | `sources/artifact-counterframe.md` |
 | Broad foundational distinctions | `FOUNDATIONAL-SYNTHESIS.md` | `SOURCES.md`, foundational source ledgers |
@@ -64,6 +63,12 @@ This file is the retrieval router for `records-artifacts/**`. It is not evidence
 - synthesis: `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md`
 - adverse check: `synthesis/CHANGE-STATUS-TEMPORAL-COUNTERCHECK.md`
 - ledger: `sources/change-status-temporal-semantics.md`
+
+### Pass 5 — Organisation / derived views / retrieval semantics
+- plan: `ORGANISATION-RETRIEVAL-PLAN.md`
+- synthesis: `synthesis/ORGANISATION-RETRIEVAL-SEMANTICS.md`
+- adverse check: `synthesis/ORGANISATION-RETRIEVAL-COUNTERCHECK.md`
+- ledger: `sources/organisation-retrieval-semantics.md`
 
 ## Epistemic status
 
