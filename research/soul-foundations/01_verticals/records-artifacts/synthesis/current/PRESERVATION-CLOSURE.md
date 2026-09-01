@@ -63,4 +63,4 @@ The natural question is not `which metadata fields must every record have?` but:
 
 ## Audit / evidence route
 
-Read the historical blob referenced by the legacy `MINIMUM-ENVELOPE.md` stub together with `MINIMUM-ENVELOPE-COUNTERCHECK.md`, then `sources/minimum-envelope.md` and relevant primary sources.
+Use `../../INDEX.md` for the exact L4A adversarial/history route, L4B source-ledger route and L5 primary-source route for this topic.
