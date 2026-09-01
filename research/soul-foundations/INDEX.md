@@ -8,12 +8,13 @@ Retrieval router for `research/soul-foundations/**`. It is not evidence or archi
 
 | Question / topic | Read first | Then |
 |---|---|---|
-| Current overall research state / authorization | `STATE.md` | `ENVIRONMENT-EVALUATION-HANDOFF.md` |
+| Current overall research state / authorization | `STATE.md` | `FOUR-FOUNDATION-DISCUSSION-HANDOFF.md` |
+| Current four-corpus discussion purpose / guardrails | `FOUR-FOUNDATION-DISCUSSION-HANDOFF.md` | current vertical routers + `STATE.md` |
 | Why does this foundations research exist? | `README.md` | `00_context/README.md` |
 | What did prior repository research contribute? | `00_context/README.md` | `../soul-context/INDEX.md` |
-| What did the three-vertical discussion conclude and why was Environment researched? | `ENVIRONMENT-RESEARCH-HANDOFF.md` | current `STATE.md`; historical transition context only |
-| What is the current Environment result / evaluation checkpoint? | `ENVIRONMENT-EVALUATION-HANDOFF.md` | Environment `KEY.md`, `FINDINGS-MAP.md`, synthesis |
-| What was the pre-discussion handoff? | `DISCUSSION-HANDOFF.md` | use only when the earlier framing/history is needed |
+| What did the earlier three-vertical discussion conclude and why was Environment researched? | `ENVIRONMENT-RESEARCH-HANDOFF.md` | current `STATE.md`; historical transition context only |
+| What is the bounded Environment result / prior evaluation checkpoint? | `ENVIRONMENT-EVALUATION-HANDOFF.md` | Environment `KEY.md`, `FINDINGS-MAP.md`, synthesis |
+| What was the pre-Environment three-vertical discussion handoff? | `DISCUSSION-HANDOFF.md` | historical discussion framing only |
 | SOUL / Development OS context | `../soul-context/INDEX.md` | `../soul-context/evidence/CONTEXT-SYNTHESIS.md`, `../soul-context/evidence/research-architecture-boundary.md` when needed |
 | Shortest Records orientation | Records `KEY.md` | Records `FINDINGS-MAP.md` |
 | Consolidated Records result | Records `synthesis/RECORDS-VERTICAL-SYNTHESIS.md` | Records `STATE.md`, `INDEX.md` |
@@ -39,27 +40,34 @@ Retrieval router for `research/soul-foundations/**`. It is not evidence or archi
 | Environment residual questions | Environment `OPEN-QUESTIONS.md` | relevant finding |
 | Environment relations deferred for later synthesis | Environment `DEFERRED-RELATIONS.md` | independently recover Records/Work/Actors evidence |
 | Environment framing history | Environment `FRAME-EVOLUTION.md` | `ORIENTATION.md` for initial frame only |
-| What comes after Environment? | `STATE.md` | current next authorised work is user evaluation; later composition remains candidate only |
+| What comes after the current four-corpus discussion? | `STATE.md` | no new substantive research phase is currently authorised |
 
 ## Current sequencing
 
 - Records: sufficiently complete for current foundation purpose; user-evaluated.
 - Work: sufficiently complete; user-evaluated; progressive retrieval closure complete.
 - Actors: sufficiently complete; user-evaluated; retrieval closure complete.
-- Environment: bounded independent research result complete; **awaiting user evaluation**; retrieval closure established.
-- Broad cross-vertical composition/relations research: candidate only; **not authorised**.
+- Environment: bounded independent research result complete; usable in the current authorised comparison; exact prior evaluation state is preserved in `ENVIRONMENT-EVALUATION-HANDOFF.md`.
+- Four-foundation cross-corpus comparison/stress-test: **currently authorised**.
+- New relation/composition research phase, another foundation pass, SOUL architecture, final ontology/data model or implementation: **not authorised**.
 
-The completed research regions are not proof of a final SOUL ontology. In particular, Environment research supports a distinct boundary-relative operating-world **problem region**, not a mutually exclusive fourth object class or required fourth architecture module.
+The four researched regions are not proof of a final SOUL ontology. In particular, Environment research supports a distinct boundary-relative operating-world **problem region**, not a mutually exclusive fourth object class or required fourth architecture module.
 
 ## Retrieval rule
 
 Start with `STATE.md` for current purpose and authorization.
 
-For the current user-evaluation checkpoint, read `ENVIRONMENT-EVALUATION-HANDOFF.md`, then route Environment questions through `01_verticals/environment/INDEX.md`.
+For the current parent-level discussion, read `FOUR-FOUNDATION-DISCUSSION-HANDOFF.md`, then recover each vertical through its own current `INDEX.md`.
 
-`ENVIRONMENT-RESEARCH-HANDOFF.md` is now the historical transition/preflight handoff explaining why the independent Environment pass was opened. It is no longer the current next-action authority.
+For Environment's exact bounded result and previous evaluation checkpoint, use `ENVIRONMENT-EVALUATION-HANDOFF.md`, then route through `01_verticals/environment/INDEX.md`.
+
+`ENVIRONMENT-RESEARCH-HANDOFF.md` is the historical transition/preflight handoff explaining why the independent Environment pass was opened. It is no longer current next-action authority.
+
+`DISCUSSION-HANDOFF.md` is the historical three-vertical discussion handoff before Environment research. It is not the current four-corpus authorization surface.
 
 For each vertical, prefer its current `KEY.md` / `FINDINGS-MAP.md` for bounded orientation, descend to synthesis/topic findings for nuance, and use source ledger + primary/authoritative source for load-bearing or contested claims.
+
+For explicit cross-vertical comparison, use each vertical's `DEFERRED-RELATIONS.md` only as an entry point. Independently recover the other relevant vertical's current evidence; do not treat one vertical's deferred relation note as cross-vertical proof.
 
 Environment progressive route:
 
@@ -71,14 +79,15 @@ For SOUL / Development OS intent and the boundary between research findings and 
 
 ## Current authorization guardrail
 
-The Environment research phase has reached its authorised return condition.
+Current authorised work is bounded discussion/comparison over the four existing research corpora.
 
-**Current next authorised work: user evaluation of the Environment foundation result.**
+This discussion may expose repeated distinctions, overlaps, gaps, relational dependencies, possible relation/control/coordination semantics, falsifiers and candidate next research questions.
 
 Do not infer authorization for:
-- broad cross-vertical relation/composition research;
-- final foundation/ontology decision;
+- launching a new broad relation/composition research phase;
+- declaring a final foundation/ontology;
 - SOUL architecture;
-- data model or implementation.
+- data model or implementation;
+- another independent foundation pass.
 
-Those require subsequent explicit user direction.
+Any such next step requires a subsequent explicit user decision derived from the current discussion.
