@@ -1,63 +1,47 @@
 # SOUL Foundations — STATE
 
 **Status:** active  
-**Current authorised layer:** Layer 1 vertical foundations research
+**Current authorised layer:** Layer 1 independent vertical foundations research
 
 ## Dependency state
 
-- **Layer 0 — bounded context / prior-repository reconstruction:** COMPLETE for the current purpose in `research/soul-context/`.
-- **Layer 1A — Records / persistent-information research:** ACTIVE; five bounded passes complete at user-return gate.
-- **Layer 1B — Work:** NOT STARTED.
+- **Layer 0 — bounded context / prior-repository reconstruction:** COMPLETE for current purpose in `research/soul-context/`.
+- **Layer 1A — Records / persistent-information:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE.
+- **Layer 1B — Work:** READY TO START INDEPENDENTLY.
 - **Layer 1C — Actors:** NOT STARTED.
-- **Next layer:** UNDETERMINED.
+- **Next layer after Layer 1:** UNDETERMINED.
 
-## Current sequencing
+## Records checkpoint
 
-The Layer-1 verticals remain separate. Records has completed five bounded internal passes but the vertical itself is not complete. Work and Actors have not begun. Evidence from any Layer-1 vertical may change the framing or required later research.
+Records completed eight substantive bounded passes plus a completeness/omission red-team.
 
-The directory remains `01_verticals/records-artifacts/` for continuity. Current evidence does **not** support unqualified `artifact` as a foundational super-category; the neutral umbrella around `record` remains unresolved.
+Consolidated result:
+- `01_verticals/records-artifacts/synthesis/RECORDS-VERTICAL-SYNTHESIS.md`
+
+Completeness result:
+- no currently identified missing first-order Records dimension remains after a dedicated retention/appraisal/disposition pass;
+- remaining Records unknowns are refinements, implementation assurance or cross-vertical questions;
+- reopen Records only on a material later falsifier.
 
 ## Guardrails
 
-- Records, Work and Actors remain a research decomposition hypothesis, not a final ontology.
-- Cross-vertical questions may be captured but should not redirect an active vertical into another domain.
-- No `02_*` or later research layer is authorised merely because a plausible next step can be imagined.
-- Research results do not become SOUL architecture decisions without a later explicit synthesis/decision path.
+- Records, Work and Actors remain a **research decomposition hypothesis**, not final ontology.
+- Completion of Records does not validate Work/Actors as ontological primitives.
+- Each next vertical must begin from first principles and must not inherit prior vertical conclusions as axioms.
+- Cross-vertical observations may be recorded but must not redirect an independent vertical into premature synthesis.
+- No `02_*` or later research layer is authorised merely because a plausible structure can be imagined.
+- Research findings do not become SOUL architecture decisions without a later explicit synthesis/decision path.
 
-## Current Records checkpoint
+## Current sequencing
 
-Completed bounded passes:
+The next agreed independent Layer-1 vertical is **Work**.
 
-1. foundational Records / persistent-information research;
-2. object boundaries / recordhood / artifact / identity-change;
-3. minimum envelope → **minimum preservation closure**;
-4. change / status / temporal semantics;
-5. organisation / derived views / retrieval semantics.
+Work should be re-anchored from its own question — what work/action/task/process/planning/execution semantics are — while treating Records findings only as possible later relational counterexamples, not as foundational truth for Work.
 
-Latest bounded result:
-
-- organisation has separable context-preserving, descriptive/knowledge and access/retrieval roles, but these are semantic functions rather than mandatory separate components;
-- one resource can participate in multiple organisations/views when needed without losing one underlying identity;
-- `canonical vs derived` is too binary: derivation, access function, recordhood, recordkeeping/designation role and exact source/version/standing binding are separate dimensions;
-- retrieval sufficiency varies by information need, coverage, temporal/standing scope, freshness and precision/recall;
-- retrieval hit/miss support only claims justified by the view's coverage/freshness/sensitivity;
-- stale or historical views are not inherently wrong; mismatch between their as-of/freshness semantics and the use is the failure;
-- no search/storage/vector/graph/database architecture has been selected.
-
-The latest outputs are routed by `01_verticals/records-artifacts/INDEX.md`.
+Actors remains untouched until its independent vertical begins.
 
 ## Next logical work
 
-Current highest-information Records candidate:
+Start the Work vertical with a first-principles foundational pass.
 
-> **Records profile / requirement derivation** — derive which identity, preservation, history, organisation, retrieval and assurance obligations apply for a specified resource/use/horizon/risk/transformational context before comparing storage/search mechanisms.
-
-This was re-derived from Pass 5 rather than inherited from the prior queue.
-
-## Next authorised work
-
-**RETURN TO USER AND RE-ANCHOR DIRECTION.**
-
-Do not begin another long pass until its purpose, scope/exclusions and operational return condition are restated/re-evaluated and approved.
-
-Work, Actors, cross-vertical synthesis, Development System design, and SOUL architecture remain unauthorised.
+The result of Work may alter the framing or expose that the Layer-1 decomposition itself needs revision. The next layer remains undetermined.
