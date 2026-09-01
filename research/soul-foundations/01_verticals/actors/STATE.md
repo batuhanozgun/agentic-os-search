@@ -14,7 +14,7 @@ The independent Actors foundation research has reached bounded sufficiency for t
 This does **not** mean:
 - `Actor` was validated as a SOUL primitive;
 - the vertical was independently verified;
-- the three-vertical decomposition was validated as final ontology;
+- the then-current vertical decomposition was validated as final ontology;
 - SOUL architecture, a data model, implementation design or a later research layer has been decided.
 
 The strongest current result is a relational, multi-anchor account in which persistent bearers, role/position, context/time, situations/episodes, possible/expected conduct, participation, capability/competence, authority/obligation, representation/delegation, attribution/responsibility/accountability and collective/non-human agency levels remain separable when material.
@@ -62,6 +62,11 @@ The existence of more literature, terminology or domain-specific refinements alo
 
 ## Current handoff
 
-Actors now returns control to the parent `research/soul-foundations/` state.
+Actors returns control to the parent `research/soul-foundations/` state.
 
-The currently authorized parent activity is an exploratory discussion across the three completed/evaluated verticals and existing SOUL/Development OS context in order to identify the questions and research directions between these foundations and later SOUL work. That discussion is **not itself an authorization to convert research findings into architecture or to launch a new substantive research layer automatically**.
+Do not duplicate parent current authorization in this vertical-local state. Read current parent purpose, authorization and next responsibility from:
+- `../../STATE.md`
+- `../../INDEX.md`
+- the current parent handoff routed by those files.
+
+Actors remains available for selective recovery through this vertical's current retrieval surfaces and does not reopen automatically.
