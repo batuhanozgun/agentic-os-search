@@ -1,6 +1,6 @@
 # SOUL Foundations — STATE
 
-**Status:** active  
+**Status:** active; user evaluation gate after Layer-1 Actors research  
 **Current authorised layer:** Layer 1 independent vertical foundations research
 
 ## Dependency state
@@ -8,8 +8,8 @@
 - **Layer 0 — bounded context / prior-repository reconstruction:** COMPLETE for current purpose in `research/soul-context/`.
 - **Layer 1A — Records / persistent-information:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED.
 - **Layer 1B — Work:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED; RETRIEVAL CLOSURE COMPLETE.
-- **Layer 1C — Actors:** ACTIVE; AUTHORISED 2026-09-01; INDEPENDENT FOUNDATION RESEARCH IN PROGRESS.
-- **Next layer after Layer 1:** UNDETERMINED.
+- **Layer 1C — Actors:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; USER EVALUATION PENDING; RETRIEVAL CLOSURE COMPLETE.
+- **Next layer after Layer 1:** UNDETERMINED; NOT AUTHORISED.
 
 ## Records checkpoint
 
@@ -45,28 +45,42 @@ Current bounded-completion judgment:
 
 The user evaluated the Work result on 2026-09-01 and accepted it as sufficient for the current foundation purpose.
 
-Work retrieval closure is also complete. Later selective recovery is routed through:
+Work retrieval closure is complete and routes through:
 
 `L0 KEY → L1 findings map → L2 synthesis → L3 topic finding → L4A audit or L4B evidence trace → L5 primary source`.
 
-Dedicated Work residual and cross-vertical entry surfaces are:
-- `01_verticals/work/OPEN-QUESTIONS.md`
-- `01_verticals/work/DEFERRED-RELATIONS.md`
-
 ## Actors checkpoint
 
-The user explicitly authorised the independent Actors foundation research on 2026-09-01.
+The independent Actors foundation research was explicitly authorised and completed to bounded sufficiency on 2026-09-01.
 
-Current rule:
-- `Actors` remains a provisional research label, not an accepted SOUL primitive;
-- research begins independently from first principles rather than importing Records or Work substantive conclusions;
-- strong alternative frames, including non-Actor-centred analysis units, must be seriously tested;
-- cross-vertical relations may be recorded but not solved inside this vertical;
-- bounded completion requires progressive retrieval closure, source traceability, targeted omission/counter-check work and a final consistency re-read;
-- user evaluation is required after research completion before any cross-vertical or later phase can begin.
+Consolidated result:
+- `01_verticals/actors/synthesis/ACTORS-VERTICAL-SYNTHESIS.md`
 
-Current Actors state:
-- `01_verticals/actors/STATE.md`
+Completeness / omission result:
+- `01_verticals/actors/synthesis/COMPLETENESS-OMISSION-CHECK.md`
+
+Current bounded-completion judgment:
+- `Actor` was not validated as a universal primitive;
+- identity, role/position, context/time, action/decision/omission participation, capability/competence, authority/obligation, representation/delegation, attribution/responsibility/accountability and collective/non-human agency levels require separability when material;
+- an explicit non-Actor-centred event/participation frame was seriously tested and then materially revised after omission/refraining exposed the limits of positive-event centring;
+- shared/joint action was separated from organized corporate/group agency;
+- later targeted omission probes increasingly mapped to established dimensions rather than opening new first-order families;
+- source/view limitations are explicit and load-bearing results have recovery paths;
+- the completion check is same-model adversarial self-review, not independent verification;
+- remaining uncertainty is refinement, threshold, domain semantics or deferred cross-vertical relation.
+
+Actors retrieval closure routes through:
+
+`L0 KEY → L1 FINDINGS-MAP → L2 synthesis → L3 topic finding → L4A completeness/audit or L4B source ledger → L5 primary/authoritative source`.
+
+Dedicated residual and relationship surfaces:
+- `01_verticals/actors/OPEN-QUESTIONS.md`
+- `01_verticals/actors/DEFERRED-RELATIONS.md`
+
+Freshness/version binding:
+- `01_verticals/actors/CURRENT-SURFACES.md`
+
+**The user has not yet evaluated or accepted the Actors result.**
 
 ## Guardrails
 
@@ -80,16 +94,18 @@ Current Actors state:
 
 ## Current sequencing
 
-**RECORDS AND WORK ARE COMPLETE FOR THE CURRENT FOUNDATION PURPOSE. ACTORS IS THE CURRENT AUTHORISED INDEPENDENT RESEARCH LINE.**
+**RECORDS AND WORK ARE EVALUATED. ACTORS RESEARCH IS SUFFICIENTLY COMPLETE FOR THE CURRENT FOUNDATION PURPOSE AND AWAITS USER EVALUATION.**
 
 Do not start cross-vertical synthesis, SOUL architecture, implementation design, another independent vertical, or another research layer automatically.
 
 ## Next logical work
 
-Complete the independent Actors foundation research, then return the bounded result for user evaluation.
+Evaluate the Actors result with the user and decide the next direction only after that evaluation.
 
-A later cross-vertical or architecture step may become plausible, but its necessity, form and authorisation remain undetermined until Actors evidence and explicit user direction justify it.
+Possible later work is deliberately not predetermined by this state.
 
 ## Next authorised work
 
-**CONTINUE THE INDEPENDENT ACTORS FOUNDATION RESEARCH ONLY.**
+**NO NEW SUBSTANTIVE RESEARCH PHASE IS CURRENTLY AUTHORISED.**
+
+Only repository consistency/freshness maintenance for the completed Actors handoff is authorised until explicit user direction.
