@@ -1,8 +1,8 @@
 # SOUL Foundations — STATE
 
-**Status:** active; all three Layer-1 verticals evaluated; post-vertical discussion gate  
-**Current authorised activity:** exploratory cross-vertical discussion and research-direction framing  
-**Next substantive research layer:** UNDETERMINED; NOT AUTHORISED
+**Status:** active; three Layer-1 verticals evaluated; post-vertical discussion completed to a candidate next-research decision  
+**Current authorised activity:** independent Environment foundation research  
+**Next substantive research after Environment:** UNDETERMINED; NOT AUTHORISED
 
 ## Dependency state
 
@@ -10,7 +10,8 @@
 - **Layer 1A — Records / persistent-information:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED.
 - **Layer 1B — Work:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED; RETRIEVAL CLOSURE COMPLETE.
 - **Layer 1C — Actors:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED; RETRIEVAL CLOSURE COMPLETE.
-- **Next layer after Layer 1:** UNDETERMINED; NOT AUTHORISED.
+- **Candidate Layer 1D — Environment:** AUTHORISED FOR INDEPENDENT FOUNDATION RESEARCH; NOT YET RESEARCHED/EVALUATED.
+- **Later cross-vertical composition / relation research:** CANDIDATE ONLY; NOT AUTHORISED.
 
 ## Records checkpoint
 
@@ -83,40 +84,78 @@ Freshness/version binding:
 
 The user evaluated the Actors result on 2026-09-01 and accepted it as sufficient for the current foundation purpose.
 
-## Post-vertical discussion handoff
+## Post-vertical discussion checkpoint
 
-All three independent verticals are now complete/evaluated for the current foundation purpose. The user has authorised a new conversation to **discuss** the three results together with existing SOUL / Development OS context, with the aim of identifying the territory between these foundation results and later SOUL work and of deciding what research should come next.
+The three completed verticals were discussed together with current SOUL / Development OS context.
 
-Canonical handoff:
-- `DISCUSSION-HANDOFF.md`
+Canonical result/handoff:
+- `ENVIRONMENT-RESEARCH-HANDOFF.md`
 
-This is an exploratory comparison/research-direction activity, not a declaration that the three verticals form the final SOUL ontology and not an automatic authorization for architecture or a new substantive research layer.
+The discussion produced the following **working hypotheses / cross-vertical inferences**, not settled research findings or architecture:
+
+- Records, Work and Actors may be recurrent foundational system dimensions rather than mutually exclusive object classes or fixed SOUL modules.
+- Their deferred relations suggest a load-bearing relation/control/coordination fabric may be needed to explain how a controlled working system is formed.
+- The same high-level dimensions may recur across the current research/development arrangement, Development OS, SOUL and task-specific systems; this recurrence remains unverified.
+- Environment is a serious candidate fourth foundation region and should be independently researched before broader composition/relations synthesis.
+
+The user approved this direction on 2026-09-01.
+
+## Environment research direction
+
+The next authorised substantive research is an **independent Environment foundation pass**.
+
+Its purpose is not to prove a fourth leg. It should test whether Environment exposes independent first-order distinctions that cannot be preserved without material loss as properties, qualifiers or relations inside Records, Work and Actors.
+
+Starting scope and cold-start route:
+- `ENVIRONMENT-RESEARCH-HANDOFF.md`
+
+Environment remains a working research label. The research may confirm, split, rename or dissolve it.
+
+## Current research operating conditions
+
+Continuity must not depend on ChatGPT conversation memory.
+
+Current arrangement:
+- GitHub repository state is the canonical persistent research surface;
+- research/retrieval/discussion/evaluation/state-update/handoff are explicit Work activities;
+- the human owner supplies goals, evaluation and approval boundaries;
+- fresh ChatGPT sessions perform bounded research/reasoning/repository work under repository control;
+- the operational environment currently includes the ChatGPT Project, connected GitHub repository and their available capabilities/constraints.
+
+A fresh session must be able to recover the current purpose, authority, state, working hypotheses and next responsibility from repository state.
 
 ## Guardrails
 
 - Records, Work and Actors remain a **research decomposition hypothesis**, not final ontology.
+- Environment is a **candidate fourth foundation region**, not an accepted leg or primitive.
+- `relation/control fabric` is a **working cross-vertical hypothesis**, not an architecture component.
 - Completion or prior sequencing of one vertical does not establish ontological dependence or priority among verticals.
-- Cross-vertical comparison may now be discussed explicitly, but a new inference formed by that comparison must not be mislabeled as an established vertical research result.
+- Cross-vertical inference must not be mislabeled as an established vertical result.
 - Research findings do not become SOUL architecture decisions without a later explicit synthesis/decision path.
 - Existing `research/soul-context/` evidence should be used to recover SOUL / Development OS intent and the research–architecture boundary; old exploratory material is not current truth unless explicitly promoted through evidence and decision.
-- A completed/evaluated Layer 1 does not automatically authorize Layer 2, architecture or implementation.
+- Environment research should begin from a deliberately weak framing and actively test rival framings/falsifiers rather than assume the user's or assistant's preferred four-leg model.
 
 ## Current sequencing
 
-**RECORDS, WORK AND ACTORS ARE ALL SUFFICIENTLY COMPLETE AND USER-EVALUATED FOR THE CURRENT FOUNDATION PURPOSE.**
+**RECORDS, WORK AND ACTORS ARE SUFFICIENTLY COMPLETE AND USER-EVALUATED FOR THE CURRENT FOUNDATION PURPOSE.**
 
-The current activity is a user-led exploratory discussion across those results and existing SOUL / Development OS context to identify missing bridges, tensions, decision-critical uncertainties and candidate research directions.
+**ENVIRONMENT FOUNDATION RESEARCH IS AUTHORISED AS THE NEXT SUBSTANTIVE STEP.**
+
+Broad cross-vertical composition/relations research remains a later candidate and is not automatically authorised.
 
 ## Next logical work
 
-Use `DISCUSSION-HANDOFF.md` to conduct that discussion and produce, for user evaluation, a clearer map of:
-- what the three verticals jointly constrain versus leave open;
-- which cross-vertical relations or missing concepts are decision-critical;
-- what belongs to SOUL versus Development OS versus further research;
-- what substantive research or decision path should be authorized next.
+Use `ENVIRONMENT-RESEARCH-HANDOFF.md` to open an independent Environment foundation pass that tests:
+- what counts as environment at relevant analytical levels;
+- world/domain state versus runtime/execution environment;
+- resources/capacity, tools/capabilities, external systems/interfaces, constraints and context;
+- Actor capability versus environmental affordance/resource;
+- Work effects/observations versus persistent Records;
+- whether Environment can be reduced to existing vertical relations without first-order information loss;
+- whether the Environment problem recurs across Development OS, SOUL and task-specific systems.
 
 ## Next authorised work
 
-**DISCUSSION AND BOUNDED RETRIEVAL FROM THE EXISTING CORPUS ARE AUTHORISED. NO NEW SUBSTANTIVE RESEARCH LAYER, SOUL ARCHITECTURE, DATA MODEL OR IMPLEMENTATION PHASE IS YET AUTHORISED.**
+**INDEPENDENT ENVIRONMENT FOUNDATION RESEARCH IS AUTHORISED.**
 
-If the discussion exposes a question that requires new evidence, record/propose it as a candidate research task and obtain explicit user direction before launching a broad new research pass.
+After that pass reaches a bounded result, stop for user evaluation before launching broad cross-vertical composition/relations research, SOUL architecture, a final data model or implementation phase.
