@@ -173,6 +173,20 @@ This ledger records both the **source** and the **view actually inspected**. Pub
 - **Supports:** work design spans tasks, activities, relationships and responsibilities at task/process/organization levels; interdependence and autonomy are distinct work-design dimensions; work may be emergent/social/self-initiated.
 - **Countercheck result:** interdependence is already first-order in the Work findings; autonomy/discretion reinforces adaptive-control distinctions but its holder, authority and accountability are Actors/cross-vertical questions rather than a new isolated Work dimension.
 
+### S24 — ASQ Plan-Do-Check-Act cycle
+- **Source:** American Society for Quality, *What is the Plan-Do-Check-Act (PDCA) Cycle?*
+- **URL:** https://asq.org/quality-resources/pdca-cycle
+- **View:** A, current authoritative professional-body HTML.
+- **Supports:** repeated plan → do → check → act cycle; results/learning feed subsequent action and replanning.
+- **Countercheck result:** feedback-loop framing reinforces plan/execution/evaluation/adaptation as a coupled cycle but does not require a distinct first-order Work dimension beyond the existing axes.
+
+### S25 — NASA closed-loop process assessment
+- **Source:** NASA Software Engineering Handbook, *SWE-204 — Process Assessments*.
+- **URL:** https://swehb.nasa.gov/spaces/SWEHBVD/pages/102695538/SWE-204%2B-%2BProcess%2BAssessments
+- **View:** A, authoritative current handbook HTML.
+- **Supports:** identify/analyze non-conformance, assess root/contributing causes, implement corrective action, verify effectiveness through follow-up; closed-loop process connects failure, corrective work and verification.
+- **Countercheck result:** monitoring/feedback generates evaluation and corrective/recovery work already represented by the current Work frame rather than a separate new axis.
+
 ## Claim-level recovery map
 
 | Finding | Primary / authoritative anchors |
@@ -192,7 +206,7 @@ This ledger records both the **source** and the **view actually inspected**. Pub
 | Lifecycle semantics exceed todo/doing/done | S02, S22 |
 | Completion, verification, validation and acceptance differ | S02, S12 |
 | Termination, rollback, compensation, retry/recovery differ | S02, S11, S22 |
-| Failure can generate new recovery work | S02, S11 |
+| Failure can generate new recovery work | S02, S11, S25 |
 | Effort/work quantity differs from duration and elapsed/waiting time | S15 |
 | Support/enabling activity can be Work without directly creating terminal deliverable | S05, S09, S15 |
 | Candidate work differs from committed/in-progress work | S02, S19, S20 |
@@ -200,6 +214,7 @@ This ledger records both the **source** and the **view actually inspected**. Pub
 | Priority is contextual/relational under scarcity | S19, S20 |
 | Maintenance/recurrence fits existing boundedness/trigger/recovery axes | S21 with S02/S08/S14 |
 | Work-design autonomy does not collapse into interdependence | S23 |
+| Feedback/control-loop framing composes existing planning, execution, evaluation, adaptation and recovery axes | S24, S25 with S01/S07/S12 |
 
 ## Evidence limits
 
