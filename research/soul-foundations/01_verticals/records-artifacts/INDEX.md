@@ -4,32 +4,74 @@
 
 Retrieval router for `records-artifacts/**`. This file is not evidence or architectural truth.
 
-## Default reading order
+## Status gate
 
-1. `STATE.md` — status, boundary, reopen condition.
-2. `synthesis/RECORDS-VERTICAL-SYNTHESIS.md` — consolidated bounded result.
-3. `OPEN-QUESTIONS.md` — remaining issues classified by type.
-4. Relevant pass synthesis/counter-check.
-5. Relevant pass source ledger under `sources/`.
-6. For exact/load-bearing claims, recover the primary source named by the ledger.
+`STATE.md` is not part of the content-depth ladder. Read it first whenever current status, scope, remaining uncertainty, or reopen conditions matter.
+
+## Layered reading order
+
+### L0 — Key
+
+`KEY.md`
+
+Use for the shortest accurate orientation: domain purpose, strongest results, rejected shortcuts, and limits.
+
+### L1 — Findings map
+
+`FINDINGS-MAP.md`
+
+Use to identify which problem area matters and which deeper document should be loaded next.
+
+### L2 — Integrated vertical synthesis
+
+`synthesis/RECORDS-VERTICAL-SYNTHESIS.md`
+
+Use when the question spans several Records dimensions or the consolidated vertical model is needed.
+
+### L3 — Topic synthesis
+
+Read the relevant focused synthesis listed in the topic-routing table below.
+
+### L4 — Challenge and evidence recovery
+
+1. Read the companion adversarial counter-check when the focused synthesis needs to be challenged.
+2. Read the relevant source ledger under `sources/` when claim provenance, source scope, or competing evidence matters.
+
+### L5 — Primary source
+
+For exact/load-bearing claims, recover the primary source URL named in the source ledger and read the primary source itself.
+
+## Layer rule
+
+Higher layers are deliberately lossy derived views. They are useful for routing and bounded understanding, but they do not gain authority merely by being easier to read.
+
+Descend when:
+
+- an omitted caveat could change a decision;
+- a claim is load-bearing;
+- two summaries appear inconsistent;
+- exact terminology/source scope matters;
+- a counterexample or falsifier must be checked.
+
+Do not descend merely to increase source count when the higher layer already answers the bounded question safely.
 
 ## Topic routing
 
-| Topic | Read first | Then |
+| Topic | L3 read first | L4 challenge / evidence |
 |---|---|---|
-| Overall Records result | `synthesis/RECORDS-VERTICAL-SYNTHESIS.md` | `STATE.md` |
-| Why the vertical stopped | `synthesis/VERTICAL-COMPLETENESS-COUNTERCHECK.md` | `VERTICAL-COMPLETENESS-PLAN.md`, completeness source ledger |
-| What is a record / object boundaries | `synthesis/OBJECT-BOUNDARIES.md` | `FOUNDATIONAL-SYNTHESIS.md`, object source ledger |
-| `Artifact` verdict | `synthesis/ARTIFACT-COUNTERCHECK.md` | artifact source ledger |
-| What must persist / preservation closure | `synthesis/MINIMUM-ENVELOPE.md` | counter-check + minimum-envelope ledger |
-| Change / status / time | `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` | counter-check + pass ledger |
-| Organisation / derived views / retrieval | `synthesis/ORGANISATION-RETRIEVAL-SEMANTICS.md` | counter-check + pass ledger |
-| Requirement/profile derivation | `synthesis/REQUIREMENT-PROFILE-DERIVATION.md` | counter-check + `sources/requirement-profile-derivation.md` |
-| Storage/history/search mechanism patterns | `synthesis/MECHANISM-PATTERN-LANDSCAPE.md` | counter-check + `sources/mechanism-pattern-landscape.md` |
-| Retention / appraisal / disposition | `synthesis/RETENTION-DISPOSITION-SEMANTICS.md` | counter-check + `sources/retention-disposition.md` |
-| Failure modes | `synthesis/FAILURE-MODES.md` | relevant pass synthesis/source ledger |
-| Remaining unresolved issues | `OPEN-QUESTIONS.md` | `STATE.md` |
-| Work / Actors relations deliberately deferred | `DEFERRED-RELATIONS.md` | later independent verticals/synthesis |
+| Overall Records result | `synthesis/RECORDS-VERTICAL-SYNTHESIS.md` | `synthesis/VERTICAL-COMPLETENESS-COUNTERCHECK.md`, relevant source ledgers |
+| Why the vertical stopped | `synthesis/VERTICAL-COMPLETENESS-COUNTERCHECK.md` | `sources/vertical-completeness-omission-review.md`, `VERTICAL-COMPLETENESS-PLAN.md` |
+| What is a record / object boundaries | `synthesis/OBJECT-BOUNDARIES.md` | object-boundaries counter material + `sources/object-boundaries-recordhood.md`, `FOUNDATIONAL-SYNTHESIS.md` |
+| `Artifact` verdict | `synthesis/ARTIFACT-COUNTERCHECK.md` | `sources/artifact-counterframe.md`, `sources/term-boundaries.md` |
+| What must persist / preservation closure | `synthesis/MINIMUM-ENVELOPE.md` | `synthesis/MINIMUM-ENVELOPE-COUNTERCHECK.md`, `sources/minimum-envelope.md` |
+| Change / status / time | `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md` | `synthesis/CHANGE-STATUS-TEMPORAL-COUNTERCHECK.md`, `sources/change-status-temporal-semantics.md` |
+| Organisation / derived views / retrieval | `synthesis/ORGANISATION-RETRIEVAL-SEMANTICS.md` | `synthesis/ORGANISATION-RETRIEVAL-COUNTERCHECK.md`, `sources/organisation-retrieval-semantics.md` |
+| Requirement/profile derivation | `synthesis/REQUIREMENT-PROFILE-DERIVATION.md` | `synthesis/REQUIREMENT-PROFILE-COUNTERCHECK.md`, `sources/requirement-profile-derivation.md` |
+| Storage/history/search mechanism patterns | `synthesis/MECHANISM-PATTERN-LANDSCAPE.md` | `synthesis/MECHANISM-PATTERN-COUNTERCHECK.md`, `sources/mechanism-pattern-landscape.md` |
+| Retention / appraisal / disposition | `synthesis/RETENTION-DISPOSITION-SEMANTICS.md` | `synthesis/RETENTION-DISPOSITION-COUNTERCHECK.md`, `sources/retention-disposition.md` |
+| Failure modes | `synthesis/FAILURE-MODES.md` | relevant topic synthesis and source ledger |
+| Remaining unresolved issues | `OPEN-QUESTIONS.md` | `STATE.md`, relevant topic synthesis |
+| Deliberately deferred relations | `DEFERRED-RELATIONS.md` | relevant Records synthesis only; do not resolve adjacent domains here |
 
 ## Pass map
 
@@ -47,6 +89,7 @@ Each later pass has a companion adversarial counter-check where applicable. Sour
 
 ## Epistemic status
 
+- `KEY.md` and `FINDINGS-MAP.md` are access surfaces, not new evidence or competing canonical syntheses.
 - The consolidated synthesis is **sufficient for current foundation purpose**, not final ontology.
-- `OPEN-QUESTIONS.md` no longer functions as an automatic internal execution queue; it records bounded residual uncertainty and reopen triggers.
+- `OPEN-QUESTIONS.md` records bounded residual uncertainty and reopen triggers; it is not an automatic execution queue.
 - The package name `records-artifacts/` remains historical/provisional.
