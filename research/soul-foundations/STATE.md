@@ -1,8 +1,8 @@
 # SOUL Foundations — STATE
 
-**Status:** active; four independent foundation research regions have bounded results; Environment awaits user evaluation  
-**Current authorised activity:** user evaluation of the Environment foundation result  
-**Next substantive research after Environment evaluation:** UNDETERMINED; NOT AUTHORISED
+**Status:** active; four independent foundation research regions have bounded results; parent-level four-corpus discussion authorised  
+**Current authorised activity:** compare and stress-test the bounded Records, Work, Actors and Environment corpora together without promoting them into architecture or launching a new research phase  
+**Next substantive research after this discussion:** UNDETERMINED; NOT AUTHORISED
 
 ## Dependency state
 
@@ -10,8 +10,9 @@
 - **Layer 1A — Records / persistent-information:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED.
 - **Layer 1B — Work:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED; RETRIEVAL CLOSURE COMPLETE.
 - **Layer 1C — Actors:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED; RETRIEVAL CLOSURE COMPLETE.
-- **Candidate Layer 1D — Environment:** BOUNDED INDEPENDENT RESEARCH COMPLETE FOR CURRENT PURPOSE; AWAITING USER EVALUATION; NOT AN ACCEPTED FOURTH ONTOLOGY LEG OR ARCHITECTURE MODULE.
-- **Later cross-vertical composition / relation research:** CANDIDATE ONLY; NOT AUTHORISED.
+- **Candidate Layer 1D — Environment:** BOUNDED INDEPENDENT RESEARCH COMPLETE FOR CURRENT PURPOSE; current corpus supports an independent boundary-relative operating-world problem region; repository does not record a separate explicit user acceptance verdict promoting it beyond that bounded result; NOT AN ACCEPTED FOURTH ONTOLOGY LEG OR ARCHITECTURE MODULE.
+- **Cross-foundation comparison/stress-test:** CURRENTLY AUTHORISED as discussion/inference work over the existing bounded corpora.
+- **New relation/composition research phase or another foundation pass:** CANDIDATE ONLY; NOT AUTHORISED.
 
 ## Records checkpoint
 
@@ -84,11 +85,12 @@ Freshness/version binding:
 
 The user evaluated the Actors result on 2026-09-01 and accepted it as sufficient for the current foundation purpose.
 
-## Post-vertical discussion checkpoint
+## Historical three-vertical discussion checkpoint
 
-The three completed verticals were discussed together with current SOUL / Development OS context.
+Records, Work and Actors were previously discussed together with current SOUL / Development OS context before Environment research.
 
-Historical transition handoff into Environment research:
+Historical handoffs:
+- `DISCUSSION-HANDOFF.md`
 - `ENVIRONMENT-RESEARCH-HANDOFF.md`
 
 That discussion produced working hypotheses, not architecture:
@@ -103,7 +105,7 @@ The user approved the Environment research direction on 2026-09-01.
 
 The independent Environment pass completed its mandatory preflight and then reached bounded sufficiency on 2026-09-01.
 
-Current evaluation handoff:
+Evaluation handoff preserving the exact bounded result and previous return condition:
 - `ENVIRONMENT-EVALUATION-HANDOFF.md`
 
 Retrieval route:
@@ -142,6 +144,29 @@ This does **not** establish:
 
 The Environment completeness/omission check is same-model adversarial self-review, **not independent verification**.
 
+The current user direction authorises use of this bounded result in four-corpus discussion. That direction does not by itself strengthen the Environment result into an accepted ontology/module claim or independent verification.
+
+## Current four-foundation discussion checkpoint
+
+Current handoff:
+- `FOUR-FOUNDATION-DISCUSSION-HANDOFF.md`
+
+The authorised discussion may compare/stress-test the four existing bounded corpora to identify:
+- repeated distinctions expressed in different vocabulary;
+- overlapping or unstable boundaries;
+- explanation gaps no single corpus resolves;
+- relational dependencies across regions;
+- load-bearing relation/control/coordination semantics;
+- falsifiers or omissions that could indicate another first-order research region;
+- whether high-level problem/dimension families recur across Development OS, SOUL and task-specific working systems.
+
+These are discussion targets, not predetermined conclusions.
+
+Working hypotheses remain hypotheses:
+- `relation/control/coordination fabric` may be load-bearing;
+- foundation-dimension recurrence across system levels may exist;
+- the four research regions may or may not survive later synthesis as named architectural or ontological units.
+
 ## Current research operating conditions
 
 Continuity must not depend on ChatGPT conversation memory.
@@ -159,28 +184,32 @@ A fresh session must be able to recover the current purpose, authority, state, e
 
 - Records, Work and Actors remain research dimensions/results, not proof of a final ontology.
 - The Environment pass supports an independent problem region but **not** a settled fourth object class/module.
-- `relation/control fabric` remains a working cross-vertical hypothesis, not an architecture component.
+- The current four-corpus discussion does not itself make the four regions final foundation legs.
+- `relation/control/coordination fabric` remains a working cross-vertical hypothesis, not an architecture component.
 - Cross-vertical inference must not be mislabeled as an established vertical result.
 - Research findings do not become SOUL architecture decisions without a later explicit synthesis/decision path.
 - Existing `research/soul-context/` evidence remains the route for SOUL / Development OS intent and the research–architecture boundary.
 - Environment's result must not be strengthened from bounded research sufficiency into universal completeness or independent verification.
+- Do not launch a new relation/composition research phase, fifth foundation pass, architecture, final data model or implementation without later explicit user authorisation.
 
 ## Current sequencing
 
 **RECORDS, WORK AND ACTORS ARE SUFFICIENTLY COMPLETE AND USER-EVALUATED FOR THE CURRENT FOUNDATION PURPOSE.**
 
-**ENVIRONMENT INDEPENDENT FOUNDATION RESEARCH HAS A BOUNDED RESULT AND IS AWAITING USER EVALUATION.**
+**ENVIRONMENT INDEPENDENT FOUNDATION RESEARCH HAS A BOUNDED RESULT SUFFICIENT FOR THE CURRENT AUTHORISED CROSS-CORPUS DISCUSSION; NO STRONGER ONTOLOGY/MODULE CLAIM IS AUTHORISED.**
 
-Broad cross-vertical composition/relations research remains a later candidate and is not automatically authorised.
+**CURRENT AUTHORISED WORK IS FOUR-CORPUS COMPARISON AND STRESS-TESTING ONLY.**
+
+Any new substantive research direction remains undetermined and unauthorised until derived from the discussion and explicitly approved by the user.
 
 ## Next logical work
 
-After Environment evaluation, a plausible later candidate is to investigate what typed relation/control/coordination semantics are required across the validated foundation regions.
+Possible later directions must be derived from explanation gaps exposed by the current comparison rather than selected in advance.
 
-This is **next logical work only**, not current authorization.
+A typed relation/control/coordination study remains one working candidate, not the predetermined next phase.
 
 ## Next authorised work
 
-**USER EVALUATION OF THE ENVIRONMENT FOUNDATION RESULT.**
+Continue the bounded four-foundation discussion under `FOUR-FOUNDATION-DISCUSSION-HANDOFF.md`.
 
-Do not launch broad cross-vertical composition/relations research, SOUL architecture, final data model or implementation without explicit subsequent user direction.
+Do not automatically begin a new external research phase, architecture, ontology/data-model design or implementation.
