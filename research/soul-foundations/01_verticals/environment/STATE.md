@@ -4,7 +4,7 @@
 **Parent:** `research/soul-foundations/`  
 **Authorised:** 2026-09-01  
 **Research start:** 2026-09-01  
-**Current phase:** initial frame discrimination and source recovery
+**Current phase:** initial frame discrimination, source recovery and bounded topic findings
 
 ## Current research question
 
@@ -21,27 +21,32 @@ Established by parent project state:
 Environment-local status:
 - initial working orientation created;
 - first external evidence pass started across system context/boundaries, context theory, affordances, agent–environment models, execution/runtime infrastructure and environmental ontology;
-- no bounded Environment conclusion exists yet;
+- primary/authoritative recovery completed for the first boundary/context claims;
+- two bounded Environment-local findings are recorded:
+  - `findings/01-boundary-relative-environment.md` — Environment membership is not safely a context-free intrinsic object type; inside/outside semantics depend on system-of-interest, analytical purpose/level and boundary;
+  - `findings/02-context-is-not-environment.md` — context cannot safely be used as a synonym for Environment; contextual relevance can be interaction/activity dependent and differs from live world state or persistent representations of it;
+- these findings constrain the research frame but do not establish an independent fourth leg;
+- no bounded Environment synthesis/completeness judgment exists yet;
 - no Environment finding has been promoted to architecture truth.
 
 ## Current strongest live tensions
 
-1. **Boundary-relative externality vs intrinsic category** — systems engineering and agent–environment models make environment meaningful relative to a system/agent boundary, which weakens any intrinsic `Environment object type` framing.
-2. **Represented context vs interactional context** — context can be modelled as situational information, but interactional accounts challenge the idea that context is a fixed bag of external attributes.
-3. **Actor capability vs world affordance/resource availability** — action possibility may depend on both bearer capability and current environmental conditions.
+1. **Boundary-relative externality vs intrinsic category** — current evidence rejects an intrinsic `Environment object type` as a safe default; boundary/system-of-interest binding is load-bearing.
+2. **Represented context vs interactional context** — current evidence rejects `context = environment` and keeps representational and interactional context accounts distinct.
+3. **Actor capability vs world affordance/resource availability** — action possibility may depend on both bearer capability and current environmental conditions; whether this belongs to Environment or relation semantics remains open.
 4. **World/effect state vs persistent Records** — a changed or observed world state is not automatically identical to a persisted record of that state.
 5. **Unified Environment vs split region** — technical execution substrate/infrastructure may or may not belong to the same foundational region as physical/social/domain context.
 6. **Independent region vs relation fabric** — several promising distinctions may ultimately be better represented as typed relations rather than a fourth foundation leg.
 
-These are working research tensions, not settled findings.
+Items 1–2 now have bounded topic findings. Items 3–6 remain active research tensions rather than settled findings.
 
 ## Current next work
 
-- recover primary/authoritative sources for the initial source set;
-- deepen the strongest boundary/context/affordance/runtime claims rather than rely on search snippets;
-- create topic findings only when evidence supports a bounded distinction;
+- deepen affordance/resource/capability evidence and actively test whether it is better explained by Actor–Work–world relations than by an Environment leg;
+- recover runtime/infrastructure sources and test whether execution substrate is the same foundation region as world/domain context or a separate concern;
+- test current world/effect state against Records to distinguish live state, observation, evidence and persistence;
+- use agent–environment and distributed/extended-system framings to challenge stable system boundaries and tool categories;
 - actively search for counterexamples where Environment can be reduced without loss to Records, Work, Actors or relations;
-- test whether current world state, resource availability, interfaces and execution conditions form one coherent family or several unrelated families;
 - preserve deferred cross-vertical questions without solving composition.
 
 ## Stop / return condition
