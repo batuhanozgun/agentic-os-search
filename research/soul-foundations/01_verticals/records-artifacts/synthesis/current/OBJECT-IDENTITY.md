@@ -59,4 +59,4 @@ Use `artifact` only when its source/domain meaning is explicit.
 
 ## Audit / evidence route
 
-For research history and challenge, read the historical blob referenced by the legacy `OBJECT-BOUNDARIES.md` stub together with `ARTIFACT-COUNTERCHECK.md`; then use `sources/object-boundaries-recordhood.md`, `sources/artifact-counterframe.md` and exact primary sources as needed.
+Use `../../INDEX.md` for the exact L4A adversarial/history route, L4B source-ledger route and L5 primary-source route for this topic.
