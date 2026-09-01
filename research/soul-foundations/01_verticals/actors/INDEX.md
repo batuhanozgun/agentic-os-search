@@ -46,10 +46,12 @@ Historical/audit/context surfaces:
 
 ## Scope guardrail
 
-Actors is sufficiently complete only for the current independent foundation purpose and awaits user evaluation.
+Actors is sufficiently complete for the current independent foundation purpose and was evaluated by the user as sufficient on 2026-09-01.
 
-This index does **not** authorize:
-- Records–Work–Actors synthesis;
+This evaluation does **not** itself authorize:
+- treating Records–Work–Actors as a final ontology;
 - a SOUL ontology/architecture;
 - data-model or implementation design;
-- another research vertical/layer.
+- another substantive research vertical/layer.
+
+The parent foundations state currently authorizes exploratory discussion across the three completed/evaluated verticals and existing SOUL/Development OS context in order to identify missing bridges, tensions and candidate research directions. Return to `../../STATE.md` and `../../DISCUSSION-HANDOFF.md` for that activity.
