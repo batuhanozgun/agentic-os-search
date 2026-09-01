@@ -12,7 +12,7 @@ If a current substantive/routing surface changes materially:
 
 1. update all affected derived surfaces;
 2. re-run the bounded cold-read/currentness check;
-3. create/update the revision binding with the new exact blobs;
+3. update this exact-blob binding;
 4. change the revision identifier when the meaning/routing contract materially changes.
 
 Historical/audit/source files are not required to share this revision identifier; their role is classified in `DOCUMENT-STATUS.md`.
@@ -41,15 +41,15 @@ Historical/audit/source files are not required to share this revision identifier
 
 | Topic | File | Blob SHA |
 |---|---|---|
-| object / identity | `synthesis/current/OBJECT-IDENTITY.md` | `f33f10d9d2b1d411d7d8a3e46fc2090a7ab99557` |
-| preservation closure | `synthesis/current/PRESERVATION-CLOSURE.md` | `8b9625c55246549e35693eff1a774c3b3627a3f0` |
-| change / time / standing | `synthesis/current/CHANGE-TIME-STANDING.md` | `986b82de6758257b0d8154dad12070dd297cc659` |
-| organisation / retrieval | `synthesis/current/ORGANISATION-RETRIEVAL.md` | `ba8928f5dc871ff8fa09e43faa749070985a7c3f` |
-| requirement derivation | `synthesis/current/REQUIREMENT-DERIVATION.md` | `06d75011549cf6de505ef14700e3e8335b113f87` |
-| mechanism landscape | `synthesis/current/MECHANISM-LANDSCAPE.md` | `a19d616c2b9210b38f629b88e9f0bdb5be4eda8e` |
-| retention / disposition | `synthesis/current/RETENTION-DISPOSITION.md` | `758b761be4243eb181b51d842d573e4ec1c475f0` |
+| object / identity | `synthesis/current/OBJECT-IDENTITY.md` | `64296b4356f842dae49d9e6083766aa0b1ce66b1` |
+| preservation closure | `synthesis/current/PRESERVATION-CLOSURE.md` | `bb255435ad69a678326988931b3dd5d4af682810` |
+| change / time / standing | `synthesis/current/CHANGE-TIME-STANDING.md` | `bee8197ff3490f94316c1b32cb6df40c1f116017` |
+| organisation / retrieval | `synthesis/current/ORGANISATION-RETRIEVAL.md` | `94d5152050bf5cf501e86128c90e802e72f056b8` |
+| requirement derivation | `synthesis/current/REQUIREMENT-DERIVATION.md` | `491c40143ede4bba16047796a5d5bd972e2f21f4` |
+| mechanism landscape | `synthesis/current/MECHANISM-LANDSCAPE.md` | `9e2fe2fcafe802ec1f8b5be7dbc4d58e531df60c` |
+| retention / disposition | `synthesis/current/RETENTION-DISPOSITION.md` | `244adcbd9108e8b0617e4caf8340bf81ddbb4ce3` |
 | failure surfaces | `synthesis/current/FAILURE-SURFACES.md` | `73c9f99bfb052b87eb8b576ad8ec4a121248ff74` |
-| completeness | `synthesis/current/COMPLETENESS.md` | `dae72c4783fc48f045cf465bbb3f513ce3e15a4b` |
+| completeness | `synthesis/current/COMPLETENESS.md` | `0a7add99862bdc054410e9e21b0ee0066aea4952` |
 
 ## Bounded residual / deferred records
 
