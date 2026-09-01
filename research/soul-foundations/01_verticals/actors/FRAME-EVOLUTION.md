@@ -69,9 +69,13 @@ This frame strongly explains why:
 
 ### What evidence weakened
 
-An episode-only model fragments durable identity, standing authority, organizational structure, continuing duties and latent capability. Some facts exist before any particular episode (membership, office, granted authority, competence, standing obligations).
+The first weakness was continuity: an episode-only model fragments durable identity, standing authority, organizational structure, continuing duties and latent capability. Some facts exist before any particular episode.
 
-**Current judgment:** strongest corrective to naive Actor-entity modelling, but insufficient alone. The evidence points toward a multi-anchor relational account rather than replacing entities with events wholesale.
+A later omission probe exposed a deeper weakness: **agency and responsibility can concern intentional omissions, failures to act or refraining, which need not be events in the same sense as performed actions.** A model whose primitive is only an observed action event can therefore make normatively significant non-occurrence invisible.
+
+The non-Actor alternative was accordingly widened from `event + participant` to something closer to **situation/episode + available or expected conduct + participation/decision/omission relations**.
+
+**Current judgment:** the action-event frame remains the strongest corrective to naive Actor-entity modelling, but literal event-centrism is rejected. The evidence supports a multi-anchor relational account with situations/episodes broad enough to represent action and meaningful non-action.
 
 ## F4 — institutional attribution / principal–agent frame
 
@@ -107,7 +111,7 @@ Rival frame: treat sufficiently organized collectives or coupled human-machine a
 
 ### What evidence preserved
 
-Christian List distinguishes aggregate, common and corporate collective attitudes; only the corporate case commits to group agency, and corporate attitudes need not equal majority attitudes of members. Cognitive Systems Engineering likewise provides cases where system performance is analysed at the joint human-machine level rather than by decomposing components in isolation.
+Christian List distinguishes aggregate, common and corporate attitudes; only the corporate case commits to group agency, and corporate attitudes need not equal majority attitudes of members. Cognitive Systems Engineering likewise provides cases where system performance is analysed at the joint human-machine level rather than by decomposing components in isolation.
 
 ### What evidence weakened
 
@@ -115,16 +119,17 @@ Not every collection is an agent. Group agency depends on organization and decis
 
 **Current judgment:** collective and distributed agency are conditional analytical achievements, not consequences of plurality.
 
-## Current frame after initial evidence pass
+## Current frame after omission-driven revision
 
 The strongest current explanation is **relational and multi-anchor**:
 
 1. persistent **bearers** provide continuity (person, organization, system, office/role-bearing structure, etc.);
 2. **contexts and time** determine which standing facts are relevant;
-3. **episodes** provide the locus for concrete action/decision/commitment participation;
-4. distinct **participation relations** record who performed, initiated, decided, authorized, represented, received, etc.;
-5. distinct **normative relations** record permission/authority, obligation/duty, representation/delegation and institutional standing;
-6. distinct **attribution relations** record causal attribution, provenance/responsibility, legal attribution and accountability;
-7. **collective/distributed organization** determines when system- or group-level descriptions are warranted rather than merely aggregated.
+3. **situations / episodes** provide a locus for concrete action, decision, commitment and meaningful non-action;
+4. **available, expected or required conduct** matters where omission or duty is at issue;
+5. distinct **participation relations** record who performed, initiated, decided, authorized, represented, received, benefited, was affected, refrained or failed to act where such distinctions are material;
+6. distinct **normative relations** record permission/authority, obligation/duty, representation/delegation and institutional standing;
+7. distinct **attribution relations** record causal attribution, provenance/responsibility, legal attribution and accountability;
+8. **collective/distributed organization** determines when system- or group-level descriptions are warranted rather than merely aggregated.
 
 This is a research finding about distinctions to preserve, not a SOUL data model or ontology decision.
