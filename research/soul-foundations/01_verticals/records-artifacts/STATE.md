@@ -1,118 +1,192 @@
-# Records / Artifacts — STATE
+# Records / Persistent Information — STATE
 
-**Status:** active vertical; object-boundaries pass return condition met  
+**Status:** active vertical; minimum-preservation-closure pass return condition met  
 **Parent:** `research/soul-foundations/`  
 **Last updated:** 2026-09-01  
-**User-return gate:** YES  
+**User-return gate:** YES
 
 ## Current objective
 
 Establish a first-principles, source-grounded understanding of the persistent-information / records problem domain before relating it to Work, Actors, the SOUL Development System, or SOUL architecture.
 
-The package directory remains `records-artifacts/` for continuity, but `artifact` is no longer assumed to be a valid unqualified foundational Records category.
+The package directory remains `records-artifacts/` for continuity. `Artifact` is not treated as an unqualified foundational Records category.
 
-## Completed research passes
+---
 
-### Pass 1 — Foundational Records research
+# Completed research passes
 
-**Status:** completed at its return condition.
+## Pass 1 — Foundational Records research
 
-Asked what a record is, what must persist for later trustworthy use, and which distinctions among data, information, document, record, state, event, claim, evidence, knowledge, memory, and derived representation are load-bearing.
+**Status:** completed at return condition.
+
+Question:
+- what a record is;
+- what must persist for trustworthy later use;
+- which early information/state/evidence/knowledge distinctions are load-bearing.
 
 Primary outputs:
 - `RESEARCH-PLAN.md`
-- `SOURCES.md`
 - `FOUNDATIONAL-SYNTHESIS.md`
-- supporting `sources/` and `synthesis/` ledgers/modules.
+- `SOURCES.md`
+- supporting source/synthesis modules.
 
-### Pass 2 — Object boundaries / recordhood / artifact / identity-change
+## Pass 2 — Object boundaries / recordhood / artifact / identity-change
 
-**Status:** completed at its return condition.
+**Status:** completed at return condition.
 
-Authorised scope:
+Primary outputs:
 - `OBJECT-BOUNDARIES-PLAN.md`
+- `synthesis/OBJECT-BOUNDARIES.md`
+- `synthesis/ARTIFACT-COUNTERCHECK.md`
+- pass-specific source ledgers.
+
+Bounded result:
+- higher-level resource identity, record role/status, representation/instantiation, copy, version/revision, semantic derivation and aggregation must not be collapsed;
+- unqualified `artifact` is not retained as a foundational Records super-category.
+
+## Pass 3 — Minimum persistent-information / record envelope
+
+**Status:** completed at return condition.
+
+Approved/re-anchored plan:
+- `MINIMUM-ENVELOPE-PLAN.md`
 
 Primary result:
-- `synthesis/OBJECT-BOUNDARIES.md`
+- `synthesis/MINIMUM-ENVELOPE.md`
 
-Artifact adverse-evidence refinement:
-- `synthesis/ARTIFACT-COUNTERCHECK.md`
+Adversarial check:
+- `synthesis/MINIMUM-ENVELOPE-COUNTERCHECK.md`
 
 Pass-specific source trace:
-- `sources/object-boundaries-recordhood.md`
-- `sources/artifact-counterframe.md`
+- `sources/minimum-envelope.md`
 
-## Current bounded findings
+---
 
-The object-boundaries pass provides enough evidence to use the following distinctions as a **working research model**, not a final SOUL ontology:
+# Current bounded result
 
-- higher-level persistent information resource/content identity;
-- record role/status;
-- representation / instantiation;
-- copy / instance;
-- version / revision;
-- semantic derivation / derived information object;
-- aggregation / set.
+The third pass materially reframed `minimum envelope`.
 
-Key bounded conclusions:
+The evidence does **not** support one universal metadata bundle physically attached to every persistent information object.
 
-1. `record` is not adequately defined as stored information, file, document, copy, or all persistent data.
-2. Recordhood currently fits a hybrid model: persistent/recoverable representation + documentary relation to activity/occurrence/context + a continuing recordkeeping/reference/evidence/accountability/information function.
-3. Record status can differ for identical or near-identical copies because use/purpose/context can differ.
-4. Resource identity, version identity, and representation/instance identity must not be collapsed.
-5. Copy, format conversion, revision, correction/retraction, semantic derivation, and aggregation have distinct change/identity semantics.
-6. `artifact` is **not retained as an unqualified foundational super-category** for the Records vertical.
-7. The stronger claim that artifact ontologies are incoherent was rejected: qualified concepts such as `information artifact` remain legitimate candidates when their ontology is explicit.
-8. The correct neutral category broader than `record` remains unresolved; `persistent information resource` is only a working label.
+The current working research model is:
 
-## Vertical guardrail
+> **Minimum preservation closure** = the smallest set of information, relationships, interpretive dependencies, controls and reliable bindings — intrinsic or externally/inheritedly available — required for a specified future use of a specified resource class at a specified horizon/risk level.
 
-Relations to Work, Actors, authority, orchestration, or SOUL architecture may be recorded when unavoidable, but are deferred rather than solved inside this vertical.
+This is a local research synthesis, not a standard or SOUL component.
 
-See:
-- `DEFERRED-RELATIONS.md`
+## Parameters that change the minimum
 
-## Current high-information unknowns
+- intended future use / protected capability;
+- resource class/structure;
+- retention horizon and expected environmental change;
+- risk/consequence/security/legal obligations;
+- expected transformations;
+- target future knowledge base / community.
+
+## Recurring preservation-closure obligation families
+
+- referential identity + exact binding;
+- interpretability / representation information;
+- origin / provenance / contextual history;
+- temporal / version / status information when change matters;
+- integrity/continuity evidence proportional to horizon/risk/control model;
+- relations/aggregation/derivation when dependencies exist;
+- rights/access/use constraints when applicable;
+- discovery/retrieval path at system level.
+
+Two meta-obligations were newly exposed:
+
+- preservation/use objective + target knowledge base;
+- significant / transformational properties when preservation includes transformation.
+
+These are obligation families, not fields.
+
+## Important placement result
+
+Required information does not have to be embedded in every object.
+
+It may be:
+
+- intrinsic/embedded;
+- externally linked;
+- represented in a provenance/relation graph;
+- inherited from controlled aggregate/system context;
+- known through preserved business/system rules;
+- deterministically reconstructed from preserved inputs.
+
+But external/inherited/reconstructed knowledge is only sufficient while dependency survivability, exact binding, version correctness, interpretability and transfer/materialisation requirements are protected for the horizon.
+
+## What the pass rejected
+
+- one universal minimum metadata list;
+- `more metadata is always safer`;
+- all required metadata must live inside each object;
+- persistent ID alone solves identity;
+- per-object checksum is a universal preservation minimum;
+- provenance alone preserves meaning/trust;
+- semantic discovery metadata must be intrinsic to every object;
+- retention horizon alone determines required metadata depth.
+
+## Boundary preserved
+
+The closure model does **not** establish factual truth, evidential sufficiency, correct reasoning, actor authority, or implementation topology.
+
+Retention/disposition remains a neighbouring Records lifecycle problem rather than being solved by the closure model.
+
+---
+
+# Current highest-information unknowns
 
 Prioritised in `OPEN-QUESTIONS.md`.
 
-Highest current candidate:
+Highest candidate:
 
-> **What is the minimum persistent information / record envelope required to preserve identity, interpretation, context, provenance, temporal/status semantics, integrity, relationships, and retrievability across time — and which properties vary by information-resource class or retention horizon?**
+> **How should persistent information change through time — creation, revision, supersession, correction, retraction/invalidation, derivation, migration and disposition — so that current status/truth, historical truth, identity and provenance remain simultaneously reconstructable?**
 
-Other frame-changing unknowns include:
-- the neutral broader persistent-information category above/around records;
-- identity/significance thresholds for instance vs version vs new record vs derived resource.
+Other major open questions:
 
-## Return-condition verdict — object-boundaries pass
+- identity/significant-property thresholds under transformation;
+- profile derivation from use/class/horizon/risk/community;
+- broader neutral persistent-information category;
+- aggregation/relation semantics;
+- external dependency survivability;
+- retrieval sufficiency;
+- retention/deletion/disposition semantics.
+
+---
+
+# Return-condition verdict — minimum-closure pass
 
 **MET.**
 
-- major competing recordhood models were compared;
-- object distinctions were counter-tested;
-- the artifact claim received an adverse-evidence pass and a bounded verdict;
-- identity/change cases were mapped;
-- source trace is persisted;
-- residual uncertainty is concrete enough to define the next internal pass.
+- candidate obligations were tested across records metadata, digital preservation, provenance, archival context, citation/data stewardship and government minimum-profile sources;
+- invariant-purpose vs conditional vs useful-but-nonminimum distinctions are explicit at bounded conceptual level;
+- intrinsic/external/inherited placement was tested with failure cases;
+- class/risk/horizon sensitivity was tested;
+- an adversarial omission/counterexample pass was completed;
+- `minimum envelope` was reframed rather than accepted unchanged;
+- no storage/schema/retrieval technology or SOUL architecture was selected;
+- source trace and residual questions are persisted;
+- next logical Records direction was re-derived from findings rather than inherited from the pre-pass plan.
 
-This is a research-process checkpoint, not independent proof of a universal ontology and not completion of the Records vertical.
+This is a research-process checkpoint, **not independent proof of a universal model** and not completion of the Records vertical.
 
 ## Next logical work
 
-Define and execute a bounded **minimum persistent information / record envelope** research pass before storage, organisation, retrieval, or technology selection.
+A bounded **change / status / temporal lifecycle semantics** pass is currently highest-information.
 
 ## Next authorised work
 
 **RETURN TO USER AND RE-ANCHOR DIRECTION.**
 
-The object-boundaries pass has reached its approved operational return condition. Do not automatically execute the next logical pass.
+Do not automatically execute another long pass.
 
-Before another long pass:
+Before continuation:
 
 1. restate the proposed purpose;
 2. define scope and exclusions;
-3. define the operational return condition;
+3. define operational return condition;
 4. obtain user approval;
 5. then work to that return condition without stopping at the first useful finding.
 
-Work, Actors, cross-vertical synthesis, Development System design, and SOUL architecture remain outside the current authorised stage.
+Work, Actors, cross-vertical synthesis, Development System design, and SOUL architecture remain outside the authorised stage.
