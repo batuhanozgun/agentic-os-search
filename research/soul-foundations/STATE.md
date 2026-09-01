@@ -1,8 +1,8 @@
 # SOUL Foundations — STATE
 
-**Status:** active; three Layer-1 verticals evaluated; independent Environment foundation research in progress  
-**Current authorised activity:** independent Environment foundation research  
-**Next substantive research after Environment:** UNDETERMINED; NOT AUTHORISED
+**Status:** active; four independent foundation research regions have bounded results; Environment awaits user evaluation  
+**Current authorised activity:** user evaluation of the Environment foundation result  
+**Next substantive research after Environment evaluation:** UNDETERMINED; NOT AUTHORISED
 
 ## Dependency state
 
@@ -10,7 +10,7 @@
 - **Layer 1A — Records / persistent-information:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED.
 - **Layer 1B — Work:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED; RETRIEVAL CLOSURE COMPLETE.
 - **Layer 1C — Actors:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED; RETRIEVAL CLOSURE COMPLETE.
-- **Candidate Layer 1D — Environment:** ACTIVE INDEPENDENT FOUNDATION RESEARCH; NOT YET COMPLETE/EVALUATED; NOT AN ESTABLISHED FOURTH LEG.
+- **Candidate Layer 1D — Environment:** BOUNDED INDEPENDENT RESEARCH COMPLETE FOR CURRENT PURPOSE; AWAITING USER EVALUATION; NOT AN ACCEPTED FOURTH ONTOLOGY LEG OR ARCHITECTURE MODULE.
 - **Later cross-vertical composition / relation research:** CANDIDATE ONLY; NOT AUTHORISED.
 
 ## Records checkpoint
@@ -88,45 +88,59 @@ The user evaluated the Actors result on 2026-09-01 and accepted it as sufficient
 
 The three completed verticals were discussed together with current SOUL / Development OS context.
 
-Canonical result/handoff:
+Historical transition handoff into Environment research:
 - `ENVIRONMENT-RESEARCH-HANDOFF.md`
 
-The discussion produced the following **working hypotheses / cross-vertical inferences**, not settled research findings or architecture:
+That discussion produced working hypotheses, not architecture:
+- Records, Work and Actors may be recurrent foundational system dimensions rather than mutually exclusive object classes or fixed modules.
+- Their deferred relations suggest a load-bearing relation/control/coordination fabric may be needed.
+- The same high-level dimensions may recur across the current research/development arrangement, Development OS, SOUL and task-specific systems; recurrence remains unverified.
+- Environment was identified as a serious candidate fourth foundation region requiring independent research before composition.
 
-- Records, Work and Actors may be recurrent foundational system dimensions rather than mutually exclusive object classes or fixed SOUL modules.
-- Their deferred relations suggest a load-bearing relation/control/coordination fabric may be needed to explain how a controlled working system is formed.
-- The same high-level dimensions may recur across the current research/development arrangement, Development OS, SOUL and task-specific systems; this recurrence remains unverified.
-- Environment is a serious candidate fourth foundation region and should be independently researched before broader composition/relations synthesis.
+The user approved the Environment research direction on 2026-09-01.
 
-The user approved this direction on 2026-09-01.
+## Environment checkpoint
 
-## Environment research checkpoint
+The independent Environment pass completed its mandatory preflight and then reached bounded sufficiency on 2026-09-01.
 
-The independent Environment foundation pass was opened on 2026-09-01 after the mandatory cold-start/preflight in `ENVIRONMENT-RESEARCH-HANDOFF.md` completed without a material repository-state conflict.
+Current evaluation handoff:
+- `ENVIRONMENT-EVALUATION-HANDOFF.md`
 
-Current router/state:
+Retrieval route:
 - `01_verticals/environment/INDEX.md`
-- `01_verticals/environment/STATE.md`
 
-Initial framing:
-- `01_verticals/environment/ORIENTATION.md`
+Shortest result:
+- `01_verticals/environment/KEY.md`
 
-Evidence recovery:
-- `01_verticals/environment/evidence/SOURCE-LEDGER.md`
+Consolidated result:
+- `01_verticals/environment/synthesis/ENVIRONMENT-VERTICAL-SYNTHESIS.md`
 
-Current bounded Environment-local findings:
-- `01_verticals/environment/findings/01-boundary-relative-environment.md`
-- `01_verticals/environment/findings/02-context-is-not-environment.md`
+Completeness / omission result:
+- `01_verticals/environment/synthesis/COMPLETENESS-OMISSION-CHECK.md`
 
-Current research constraints/results:
-- Environment remains a working research label and is **not** an accepted fourth foundation leg.
-- Current evidence rejects treating Environment membership as a context-free intrinsic object type; inside/outside semantics depend on the selected system-of-interest, analytical purpose/level and boundary.
-- Current evidence also rejects using `context` as a synonym for Environment; contextual relevance can be interaction/activity dependent and must be distinguished from world state and persisted representations of it.
-- These findings constrain the research frame; they do not yet show that an independent Environment region survives reduction to Records, Work, Actors plus typed relations/qualifiers.
-- Active unresolved lines include Actor capability versus environmental affordance/resource, current world/effect state versus persistent Records, execution substrate/infrastructure, stable versus shifting tool/system boundaries, and the null hypothesis that relation semantics can absorb Environment without material loss.
-- No Environment synthesis/completeness judgment or user evaluation exists yet.
+Current bounded judgment:
+- Environment membership is boundary/system-of-interest relative rather than a safe intrinsic object type;
+- context is not synonymous with Environment and can be relevance/activity dependent;
+- Actor capability does not by itself determine situated actionability because current external conditions/resources/interfaces can vary independently;
+- actual world state, observation, belief/knowledge and persistent Records can diverge;
+- Work state/effects do not substitute for underlying external state;
+- tools, resources, runtime and infrastructure are boundary-/relation-dependent roles rather than intrinsic Environment classes;
+- technical runtime is a strong operating-world instance but current evidence does not require a separate technical-environment foundation family;
+- a direct null/reduction test found that Records + Work + Actors alone can remain locally unchanged while external state changes feasibility/outcomes;
+- typed relations may avoid a dedicated fourth object bucket/module, but if they require external states/conditions/resources/interfaces as relata, they represent the Environment problem rather than eliminate it;
+- late probes into physical hazards, social/institutional/regulatory conditions, hidden/noisy state, non-stationarity, multi-agent cases and scarce/shared resources mapped to the established distinctions rather than opening a new first-order family.
 
-The purpose remains to test whether Environment exposes independent first-order distinctions that cannot be preserved without material loss as properties, qualifiers or relations inside Records, Work and Actors. The research may confirm, split, rename or dissolve the candidate region.
+Strongest current research frame:
+
+> a **boundary-relative operating-world problem region** involving current external states/conditions/processes/dynamics, observation and interaction through sensing/action/interfaces/resources.
+
+This does **not** establish:
+- Environment as a mutually exclusive fourth ontology leg;
+- a required fourth SOUL module;
+- final terminology (`Environment`, `Operating world`, etc.);
+- cross-vertical relation/control architecture.
+
+The Environment completeness/omission check is same-model adversarial self-review, **not independent verification**.
 
 ## Current research operating conditions
 
@@ -139,39 +153,34 @@ Current arrangement:
 - fresh ChatGPT sessions perform bounded research/reasoning/repository work under repository control;
 - the operational environment currently includes the ChatGPT Project, connected GitHub repository and their available capabilities/constraints.
 
-A fresh session must be able to recover the current purpose, authority, state, working hypotheses and next responsibility from repository state.
+A fresh session must be able to recover the current purpose, authority, state, epistemic status and next responsibility from repository state.
 
 ## Guardrails
 
-- Records, Work and Actors remain a **research decomposition hypothesis**, not final ontology.
-- Environment is a **candidate fourth foundation region**, not an accepted leg or primitive.
-- `relation/control fabric` is a **working cross-vertical hypothesis**, not an architecture component.
-- Completion or prior sequencing of one vertical does not establish ontological dependence or priority among verticals.
+- Records, Work and Actors remain research dimensions/results, not proof of a final ontology.
+- The Environment pass supports an independent problem region but **not** a settled fourth object class/module.
+- `relation/control fabric` remains a working cross-vertical hypothesis, not an architecture component.
 - Cross-vertical inference must not be mislabeled as an established vertical result.
 - Research findings do not become SOUL architecture decisions without a later explicit synthesis/decision path.
-- Existing `research/soul-context/` evidence should be used to recover SOUL / Development OS intent and the research–architecture boundary; old exploratory material is not current truth unless explicitly promoted through evidence and decision.
-- Environment research must continue to test rival framings/falsifiers rather than assume the user's or assistant's preferred four-leg model.
+- Existing `research/soul-context/` evidence remains the route for SOUL / Development OS intent and the research–architecture boundary.
+- Environment's result must not be strengthened from bounded research sufficiency into universal completeness or independent verification.
 
 ## Current sequencing
 
 **RECORDS, WORK AND ACTORS ARE SUFFICIENTLY COMPLETE AND USER-EVALUATED FOR THE CURRENT FOUNDATION PURPOSE.**
 
-**ENVIRONMENT FOUNDATION RESEARCH IS ACTIVE AND AUTHORISED; IT IS NOT YET COMPLETE OR USER-EVALUATED.**
+**ENVIRONMENT INDEPENDENT FOUNDATION RESEARCH HAS A BOUNDED RESULT AND IS AWAITING USER EVALUATION.**
 
 Broad cross-vertical composition/relations research remains a later candidate and is not automatically authorised.
 
 ## Next logical work
 
-Continue the independent Environment pass through `01_verticals/environment/INDEX.md`, with current priority on:
-- Actor capability versus environmental affordance/resource;
-- execution/runtime substrate and whether it belongs to the same region as world/domain context;
-- current world/effect state versus observation and persistent Records;
-- tool/infrastructure boundary shifts and agent–environment alternatives;
-- direct attempts to reduce Environment to existing verticals plus typed relations without material information loss;
-- later omission/falsifier probes and bounded-completion checks.
+After Environment evaluation, a plausible later candidate is to investigate what typed relation/control/coordination semantics are required across the validated foundation regions.
+
+This is **next logical work only**, not current authorization.
 
 ## Next authorised work
 
-**CONTINUE INDEPENDENT ENVIRONMENT FOUNDATION RESEARCH.**
+**USER EVALUATION OF THE ENVIRONMENT FOUNDATION RESULT.**
 
-After that pass reaches a bounded result, stop for user evaluation before launching broad cross-vertical composition/relations research, SOUL architecture, a final data model or implementation phase.
+Do not launch broad cross-vertical composition/relations research, SOUL architecture, final data model or implementation without explicit subsequent user direction.
