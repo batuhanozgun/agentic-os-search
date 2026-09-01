@@ -1,86 +1,247 @@
-# Records / Artifacts — Open Questions After Foundational Pass
+# Records / Artifacts — Open Questions
 
-**Status:** prioritised research queue; not an authorised phase transition  
+**Status:** prioritised research queue after object-boundaries pass; not automatic execution authority  
 **Date:** 2026-09-01
 
-## Priority rule
+## What changed
 
-Questions are ordered by expected ability to change the internal Records model. This is not a commitment to execute all of them in order. The user-facing return gate has been reached; further work remains inside the same vertical only when explicitly continued.
+The previous P0 questions — natural object model, recordhood threshold, and artifact boundary — received bounded answers in:
 
-## P0 — frame-changing
+- `synthesis/OBJECT-BOUNDARIES.md`
+- `synthesis/ARTIFACT-COUNTERCHECK.md`
 
-### Q1. Natural object model
+They are no longer the highest-information unknowns, although the resulting model remains provisional and can be reopened by later evidence.
 
-Can the observed distinctions be represented with a minimal set such as:
+## Current established working distinctions
 
-- persistent resource,
-- record/status,
-- version/state,
-- representation/instance,
-- aggregation/collection,
-- derived view,
+Enough evidence now exists to avoid collapsing:
 
-or does this collapse important cases?
+- higher-level persistent information resource/content identity,
+- record role/status,
+- representation / instantiation,
+- copy / instance,
+- version / revision,
+- semantic derivation,
+- aggregation / set.
 
-**Disconfirming test:** construct cases where two proposed categories have no independent failure/management semantics, or where a missing category is repeatedly forced into several others.
+`Artifact` is not retained as an **unqualified** foundational Records super-category. Qualified concepts such as `information artifact` remain candidates for the unresolved broader persistent-information frame.
 
-### Q2. Recordhood threshold
+---
 
-Is a `record` simply a persistent representation retained in relation to activity/evidence/reference, or should stable identity/context/integrity be constitutive requirements before something qualifies as a record?
+# P0 — frame-changing / next-pass candidates
 
-**Competing frames:** ISO/NARA activity/evidence framing; InterPARES diplomatics; information-science `information-as-thing`; technical event/state records.
+## Q1. Minimum persistent information / record envelope
 
-### Q3. Artifact boundary
+What minimum properties must survive with a persistent information resource so that it can later be:
 
-Does `artifact` name a broader useful category (e.g. produced object that may not be a record), or is it an unnecessary software/research term that should be removed from this vertical?
+- identified,
+- interpreted,
+- contextualised,
+- traced to source/derivation,
+- placed in time and status,
+- checked for integrity where required,
+- related to other resources/aggregations,
+- found and reconstructed?
 
-**Disconfirming test:** find high-value persistent objects that clearly matter to the system but do not satisfy a defensible record definition.
+Candidate property families exposed so far:
 
-## P1 — property semantics
+- identity;
+- resource/record role or type;
+- representation information;
+- provenance/source;
+- occurrence/context linkage;
+- temporal semantics;
+- version/change/status;
+- integrity/fixity;
+- relations/aggregation;
+- currentness/authority signal;
+- discovery metadata.
 
-### Q4. Minimum context / metadata by class and horizon
+**Disconfirming tests:**
+- remove a candidate property and construct a case where later use still succeeds without material ambiguity or loss;
+- find a property omitted from the list whose absence causes a distinct failure;
+- test whether requirements differ qualitatively by persistent-object class or retention horizon.
 
-What minimum identity, representation, provenance, temporal, relation, integrity and discovery metadata is necessary for different persistent-object classes and retention horizons?
+**Why P0:** storage, organisation, retrieval, and preservation mechanisms cannot be evaluated coherently until we know what must actually survive.
 
-**Risk:** too little causes semantic loss; too much creates unbounded maintenance and processing burden.
+---
 
-### Q5. Authority/change semantics
+## Q2. Broader persistent-information category
 
-What record-side statuses are genuinely distinct: draft, current, authoritative, historical, superseded, corrected, retracted, invalidated, derived, cached, archived, disposed?
+What neutral frame should contain important persistent information that is not necessarily a record?
 
-**Boundary:** do not decide which Actor may assign statuses yet.
+Candidates to compare rather than inherit:
 
-### Q6. Temporal semantics
+- persistent information resource,
+- information object,
+- information content entity,
+- information artifact,
+- record resource (possibly too record-centric),
+- another frame exposed by research.
 
-Which time axes are needed across record classes: event/occurrence, observation, valid, recording/transaction, modification/version, publication, supersession, freshness horizon?
+**Key test:** which candidate preserves the object-boundary distinctions without importing Work, physical-object, or domain-specific semantics into the Records vertical?
 
-**Disconfirming test:** if two axes never produce different answers or controls in relevant cases, merge them.
+This question also controls whether `records-artifacts/` should eventually be renamed.
 
-### Q7. Aggregation and relation semantics
+---
 
-When does collection/series/order carry information that cannot be reconstructed from item-level metadata? How should hierarchy, graph relations and provenance coexist?
+## Q3. Identity/significance thresholds
 
-## P2 — access / retrieval / preservation
+When should a change or transformation produce:
 
-### Q8. Canonical source versus discovery views
+- the same instance,
+- a new instance/representation,
+- a new version/revision,
+- a new record,
+- a new derived information resource?
 
-How should indexes, caches, summaries, embeddings, catalogues and alternate organisations point to canonical records without becoming shadow sources of truth?
+The object-boundaries pass shows there is no universal file-level rule. The unresolved problem is what property/significance criteria make these decisions defensible across classes and horizons.
 
-### Q9. Retrieval sufficiency
+---
 
-What does it mean to be able to `reach the information again`? Need to distinguish known-item lookup, semantic discovery, exhaustive recall, temporal retrieval, provenance traversal and reconstruction.
+# P1 — property and lifecycle semantics
 
-### Q10. Preservation horizon
+## Q4. Change/status semantics
 
-Which properties must survive for session-scale, project-scale, organizational, legal/audit and archival horizons? Does the required model change qualitatively or only in degree?
+Which record-side states/transitions are genuinely distinct rather than one generic `updated` state?
 
-## Deferred relational questions
+Candidate distinctions:
 
-These were exposed by the Records research but are not solved here:
+- draft,
+- current,
+- authoritative/current-of-record,
+- historical,
+- superseded,
+- corrected,
+- retracted/invalidated,
+- derived,
+- transformed/migrated,
+- archived,
+- disposed.
 
-- **Records ↔ Work:** which activity/work produced, consumed, changed, verified or superseded a record?
-- **Records ↔ Actors:** who/what created, asserted, observed, changed, verified or has custody of a record?
-- **Records ↔ Authority:** who may declare a version authoritative, correct/retract it, change retention, or dispose of it?
-- **Records ↔ Evidence:** evidence is relational to a claim/decision; the Records vertical can preserve evidence objects and provenance but cannot alone define evidential sufficiency.
+**Boundary:** define record-side semantics without deciding which Actor is authorised to assign them.
 
-These relations should be available to later vertical/synthesis work but must not redirect the current Records research into Work/Actors design.
+---
+
+## Q5. Temporal semantics
+
+Which time axes are required across persistent-resource classes?
+
+Candidates:
+
+- occurrence/event time,
+- observation time,
+- valid time,
+- recording/transaction time,
+- creation/capture time,
+- modification/version time,
+- publication time,
+- supersession/retraction time,
+- freshness/validity horizon.
+
+**Disconfirming test:** if two time axes never produce different answers, reconstruction, or controls in relevant cases, they should not remain separate by terminology alone.
+
+---
+
+## Q6. Aggregation and relation semantics
+
+When does collection/series/order/thread/case context carry information that cannot be reconstructed from item-level metadata?
+
+How should:
+
+- hierarchy,
+- membership,
+- ordering,
+- provenance relations,
+- version relations,
+- derivation relations
+
+coexist without turning organisation into a second source of truth?
+
+---
+
+## Q7. Integrity / authenticity / reliability / correctness
+
+What must be separately represented or tested to distinguish:
+
+- bit-level fixity/integrity,
+- authenticity/identity continuity,
+- provenance completeness,
+- reliability of creation process,
+- factual/semantic correctness,
+- current validity?
+
+The foundational research already shows these are non-substitutable; the remaining question is their minimum record-side semantics by class/risk/horizon.
+
+---
+
+# P2 — organisation, retrieval, preservation
+
+## Q8. Canonical resource versus discovery/derived views
+
+How should indexes, caches, summaries, embeddings, catalogues, alternate organisations, and search results refer to persistent resources without becoming silent shadow authorities?
+
+---
+
+## Q9. Retrieval sufficiency
+
+What does `ulaşılabilir olmak` actually require?
+
+Distinguish at least:
+
+- known-item lookup,
+- attribute/filter retrieval,
+- semantic discovery,
+- exhaustive/high-recall retrieval,
+- temporal/as-of retrieval,
+- provenance traversal,
+- aggregation reconstruction,
+- forensic reconstruction.
+
+A resource can be preserved yet operationally lost if the required retrieval mode cannot recover it.
+
+---
+
+## Q10. Preservation horizon
+
+Which properties and controls must survive for:
+
+- session-scale,
+- project-scale,
+- organisational/operational,
+- audit/legal,
+- archival/long-term
+
+horizons?
+
+Does the model change qualitatively by horizon, or only the strength/quantity of preservation metadata and controls?
+
+---
+
+## Q11. Retention / deletion / disposition
+
+What information must be preserved about deletion, expiration, supersession, or disposition so that removal does not erase necessary history/context?
+
+**Boundary:** Records may define lifecycle semantics; authority to destroy or retain remains deferred to later cross-vertical work.
+
+---
+
+# Deferred relational questions
+
+Cross-vertical questions remain in `DEFERRED-RELATIONS.md`, including:
+
+- Records ↔ Work activity/production/consumption;
+- Records ↔ Actors originator/custody/authority;
+- Records ↔ Evidence claim-support relation;
+- provenance graph ownership;
+- retention/disposition authority;
+- derived-record creation;
+- artifact-as-work-product semantics.
+
+These are visible but must not redirect the current Records research into Work or Actors design.
+
+## Current next-logical-work note
+
+The highest-information candidate is **Q1 — Minimum persistent information / record envelope**.
+
+That is a research recommendation, not execution authority. A new long pass should first re-anchor its purpose, scope, exclusions, and return condition with the user.
