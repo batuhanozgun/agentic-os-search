@@ -2,7 +2,7 @@
 
 **Document role:** CURRENT_TOPIC_SYNTHESIS  
 **Vertical revision:** `records-foundation-2026-09-01-r2`  
-**Integrates:** `RECORDS-VERTICAL-SYNTHESIS.md`, `VERTICAL-COMPLETENESS-COUNTERCHECK.md`, retention follow-up, and current `STATE.md`.
+**Integrates:** `../RECORDS-VERTICAL-SYNTHESIS.md`, `../VERTICAL-COMPLETENESS-COUNTERCHECK.md`, retention follow-up, and current `../../STATE.md`.
 
 ## Current bounded verdict
 
@@ -57,4 +57,4 @@ Do not expand this vertical merely because more literature exists. Use the curre
 
 ## Audit / evidence route
 
-Read `../RECORDS-VERTICAL-SYNTHESIS.md` for the integrated L2 result, then `../VERTICAL-COMPLETENESS-COUNTERCHECK.md` and `sources/vertical-completeness-omission-review.md` for the omission audit. Retention/disposition should be read through the current retention topic because it was the one missing first-order dimension found by that audit.
+Use `../../INDEX.md` for the exact L4A completeness/adversarial route, L4B omission-review source-ledger route and L5 primary-source route.
