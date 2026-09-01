@@ -6,14 +6,14 @@
 ## Dependency state
 
 - **Layer 0 — bounded context / prior-repository reconstruction:** COMPLETE for the current purpose in `research/soul-context/`.
-- **Layer 1A — Records / persistent-information research:** ACTIVE; three bounded passes complete at user-return gate.
+- **Layer 1A — Records / persistent-information research:** ACTIVE; four bounded passes complete at user-return gate.
 - **Layer 1B — Work:** NOT STARTED.
 - **Layer 1C — Actors:** NOT STARTED.
 - **Next layer:** UNDETERMINED.
 
 ## Current sequencing
 
-The Layer-1 verticals remain separate. Records has completed three bounded internal passes but the vertical itself is not complete. Work and Actors have not begun. Evidence from any Layer-1 vertical may change the framing or required later research.
+The Layer-1 verticals remain separate. Records has completed four bounded internal passes but the vertical itself is not complete. Work and Actors have not begun. Evidence from any Layer-1 vertical may change the framing or required later research.
 
 The directory remains `01_verticals/records-artifacts/` for continuity. Current evidence does **not** support unqualified `artifact` as a foundational super-category; the neutral umbrella around `record` remains unresolved.
 
@@ -30,30 +30,33 @@ Completed bounded passes:
 
 1. foundational Records / persistent-information research;
 2. object boundaries / recordhood / artifact / identity-change;
-3. minimum persistent-information / record envelope → reframed as **minimum preservation closure**.
+3. minimum envelope → **minimum preservation closure**;
+4. change / status / temporal semantics.
 
 Latest bounded result:
 
-- there is no evidence-supported universal object-local metadata bundle for all persistent information;
-- the minimum depends on intended future use, resource class, retention horizon, risk/control obligations, expected transformations and target knowledge base/community;
-- recurring obligation families concern identity/binding, interpretability, provenance/context, time/version/status when needed, integrity/continuity, relations/aggregation, rights/access and retrievability;
-- required knowledge may be embedded, external, relational, inherited or reconstructable if its dependency/binding remains durable for the required horizon;
-- preservation objective and significant/transformational properties become first-class framing variables when long-term transformation is involved.
+- evolving persistent information cannot be adequately represented by generic `update`, one universal status, or one universal timestamp;
+- revision, migration/re-instantiation, derivation, supersession, correction, retraction, removal and destruction have distinct semantic effects;
+- resource/version lineage, currentness/designation, reliance standing, availability and preservation/custody history can vary independently;
+- effective/applicable time may differ from system-known/recorded time, while many named dates are typed event times rather than universal axes;
+- Records can preserve current/historical standing and system-known history but does not itself establish factual truth;
+- terminal destruction can coexist with retained disposition/destruction history where required;
+- no temporal/event-storage architecture has been selected.
 
-The latest outputs are under `01_verticals/records-artifacts/` and routed by its `INDEX.md`.
+The latest outputs are routed by `01_verticals/records-artifacts/INDEX.md`.
 
 ## Next logical work
 
 Current highest-information Records candidate:
 
-> **Change / status / temporal lifecycle semantics** — how creation, revision, supersession, correction, retraction/invalidation, derivation, migration and disposition should preserve both current and historical meaning/identity/provenance.
+> **Organisation / canonical-vs-derived views / retrieval sufficiency** — how information should remain findable and reconstructable across canonical identity, indexes/summaries/caches, aggregations, version/standing history, and current/as-of retrieval without derived views becoming stale shadow authorities.
 
-This was re-derived from the third pass; it is not inherited automatically from the prior queue.
+This was re-derived from Pass 4 rather than inherited from the prior queue.
 
 ## Next authorised work
 
 **RETURN TO USER AND RE-ANCHOR DIRECTION.**
 
-Do not begin another long pass until its purpose, scope/exclusions and operational return condition are restated and approved.
+Do not begin another long pass until its purpose, scope/exclusions and operational return condition are restated/re-evaluated and approved.
 
 Work, Actors, cross-vertical synthesis, Development System design, and SOUL architecture remain unauthorised.
