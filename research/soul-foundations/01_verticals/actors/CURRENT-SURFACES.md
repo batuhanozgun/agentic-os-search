@@ -1,12 +1,12 @@
 # Actors — Current Surfaces / Freshness Manifest
 
-**Status:** canonical freshness/version binding for the bounded Actors handoff  
+**Status:** canonical freshness/version binding for the evaluated Actors handoff  
 **Bound:** 2026-09-01  
 **Branch:** `main`
 
 ## Purpose
 
-This file prevents a direct search result, historical framing note or stale summary from being mistaken for the preferred current Actors conclusion.
+This file prevents a direct search result, historical framing note or stale summary from being mistaken for the preferred current Actors conclusion or current evaluation state.
 
 For a decision-critical read:
 
@@ -21,11 +21,11 @@ For a decision-critical read:
 
 | Layer / role | Path | Bound Git blob SHA |
 |---|---|---|
-| L0 shortest orientation | `KEY.md` | `7a7c38eda18a30664eec6fc0ad8bdf3484be5bee` |
+| L0 shortest orientation | `KEY.md` | `f77dcbe403dadd68ea4424172638d11abc119187` |
 | L1 topic router | `FINDINGS-MAP.md` | `20d83aac6a415ce6e84f35bf3a265c1d49945b84` |
-| Vertical router | `INDEX.md` | `140bfc359aa8a0538789d9bfc769d22ef0821a3c` |
-| Current vertical state | `STATE.md` | `693b3f1fee773fd1890b41d77e9a8662b1777cf9` |
-| Vertical overview | `README.md` | `d89d862f223fffc65621d47b9f32cb96634ae253` |
+| Vertical router | `INDEX.md` | `3d79a5ddef98f189ea7ea2b1ed7da8fa62ebfdfa` |
+| Current vertical state | `STATE.md` | `e650691f63286584c28c29cb8463e877a0c40e84` |
+| Vertical overview | `README.md` | `980b4e551069b0731c58d6da517a8338f83338cc` |
 | L2 consolidated synthesis | `synthesis/ACTORS-VERTICAL-SYNTHESIS.md` | `5ae5260cc5fc7ae8f5e7cc0171e3a1b887901224` |
 | L3 identity/role/participation | `findings/IDENTITY-ROLE-PARTICIPATION.md` | `0b3e47ca2a9b0db2798b604e905629acc7b8263d` |
 | L3 capability/authority/obligation | `findings/CAPABILITY-AUTHORITY-OBLIGATION.md` | `c1e2edfa445de1e31922db41e06dc0a0d16b1945` |
@@ -53,14 +53,15 @@ Reading rule:
 - `FRAME-EVOLUTION.md` answers **how the framing changed**.
 - `COMPLETENESS-OMISSION-CHECK.md` answers **how the result was adversarially challenged and why research stopped**; it is not independent verification.
 
-## Parent routing surfaces bound at handoff
+## Parent routing surfaces bound after user evaluation
 
 | Role | Path from `research/soul-foundations/` | Bound Git blob SHA |
 |---|---|---|
-| Parent state | `STATE.md` | `a7f0fe3616eb4d3076f167ee33ea06e8d22a5d7d` |
-| Parent retrieval router | `INDEX.md` | `18dbe83ff6b7b27f551bd79c64d38d4c2eb1ea2e` |
+| Parent state | `STATE.md` | `9b5b5ea6859b7148f630d37900b8d99420b80670` |
+| Parent retrieval router | `INDEX.md` | `4a9c5aca00525ea05e98bad700d2d7cd0ee4a82e` |
+| Post-vertical discussion handoff | `DISCUSSION-HANDOFF.md` | `518cded9cd82183097b3ed84a9471572da2048de` |
 
-If parent state or routing changes because the user evaluates Actors or authorizes a later phase, that does not by itself invalidate Actors substantive findings. It does mean this handoff binding is historically dated and should be refreshed if this file is still being used as the current routing manifest.
+Parent state now records Actors as user-evaluated and routes the next activity to exploratory three-vertical / SOUL / Development OS discussion. This does not alter the substantive Actors findings; it changes the handoff and authorization state.
 
 ## Retrieval depth
 
