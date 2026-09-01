@@ -18,7 +18,8 @@ It routes readers to the shortest current surface that can answer the question. 
 | Actors-local residual questions | `OPEN-QUESTIONS.md` | relevant topic finding |
 | Records/Work/later synthesis relations | `DEFERRED-RELATIONS.md` | later independently recover the other vertical |
 | Research framing history | `FRAME-EVOLUTION.md` | `ORIENTATION.md` for the initial frame |
-| Current status / authorization | `STATE.md` | parent `../../STATE.md` |
+| Current Actors status | `STATE.md` | parent `../../STATE.md` for parent-level authorization |
+| Current parent purpose / authorization | `../../STATE.md` | `../../INDEX.md` and current parent handoff |
 | Current-vs-historical file status / version binding | `CURRENT-SURFACES.md` | re-fetch listed path if decision-critical |
 
 ## Progressive depth
@@ -49,9 +50,9 @@ Historical/audit/context surfaces:
 Actors is sufficiently complete for the current independent foundation purpose and was evaluated by the user as sufficient on 2026-09-01.
 
 This evaluation does **not** itself authorize:
-- treating Records–Work–Actors as a final ontology;
+- treating any current foundation decomposition as a final ontology;
 - a SOUL ontology/architecture;
 - data-model or implementation design;
 - another substantive research vertical/layer.
 
-The parent foundations state currently authorizes exploratory discussion across the three completed/evaluated verticals and existing SOUL/Development OS context in order to identify missing bridges, tensions and candidate research directions. Return to `../../STATE.md` and `../../DISCUSSION-HANDOFF.md` for that activity.
+Parent-level current purpose, authorization and next responsibility are intentionally not duplicated here. Read `../../STATE.md` and follow the parent router/handoff chain.
