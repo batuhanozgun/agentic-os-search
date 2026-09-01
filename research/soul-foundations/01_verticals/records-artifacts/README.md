@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Research the persistent-information / Records problem domain independently before using it inside a broader SOUL architecture model.
+Research the persistent-information / Records problem domain independently before using it inside a broader architecture model.
 
 The concern is broader than a database or file format: what information-bearing things persist, what makes them identifiable/interpretable, what context must survive, how they change, how they are organised/retrieved, how requirements vary by use/risk/horizon, and when persistence should end or custody should change.
 
@@ -12,15 +12,53 @@ The directory name `records-artifacts/` is retained for continuity. Current rese
 
 **SUFFICIENTLY COMPLETE FOR THE CURRENT FOUNDATION PURPOSE.**
 
-The vertical should not keep expanding by default. Reopen only if later Work/Actors/architecture research produces a material Records counterexample or new first-order gap.
+The vertical should not keep expanding by default. Reopen only if later evaluation produces a material Records counterexample or new first-order gap.
 
-## Read first
+## Reading model — surface to source
 
-1. `STATE.md` — current status, remaining boundaries and reopen condition.
-2. `synthesis/RECORDS-VERTICAL-SYNTHESIS.md` — consolidated bounded result.
-3. `INDEX.md` — topic/pass/source routing.
-4. `OPEN-QUESTIONS.md` — bounded residual questions and classification.
-5. Exact pass syntheses/source ledgers only when deeper evidence recovery is needed.
+The package now uses layered reading surfaces so every use does not require a full read of the entire research corpus.
+
+### Status gate — not a depth layer
+
+Read `STATE.md` when current status, boundaries, remaining uncertainty, or reopen conditions matter.
+
+### L0 — Key
+
+`KEY.md`
+
+Shortest orientation surface. Use it to answer: what did this vertical study, what are the strongest results, and what shortcuts were rejected?
+
+### L1 — Findings map
+
+`FINDINGS-MAP.md`
+
+Topic-level map. Use it to locate the relevant problem area and the next deeper document without reading the entire vertical.
+
+### L2 — Integrated vertical synthesis
+
+`synthesis/RECORDS-VERTICAL-SYNTHESIS.md`
+
+Consolidated bounded result across all passes. Read when several Records dimensions interact or the integrated model matters.
+
+### L3 — Topic syntheses
+
+Read the relevant topic synthesis when one distinction is decision-critical: object boundaries, preservation closure, change/time, organisation/retrieval, requirement derivation, mechanism patterns, retention/disposition, or failure modes.
+
+### L4 — Challenge and evidence recovery
+
+Read the companion adversarial counter-check when the synthesis must be challenged, then the pass-specific source ledger when the claim must be traced or its source scope recovered.
+
+### L5 — Primary source
+
+For exact/load-bearing claims, recover and read the primary standard, specification, paper, or guidance named by the source ledger.
+
+### Reading rule
+
+A higher layer is a **derived access view**, not a replacement for the layer below it.
+
+Descend only as far as the current question requires, but do not strengthen a higher-layer summary by assumption when the decision depends on omitted nuance.
+
+`INDEX.md` provides exact routing paths.
 
 ## Research map
 
@@ -88,14 +126,14 @@ Pass-specific source ledgers live under `sources/`.
 
 ## Vertical isolation
 
-Records research exposes relations to Work, Actors, authority and evidence but does not solve them.
+Records research exposes relations outside this vertical but does not solve them.
 
-See `DEFERRED-RELATIONS.md`.
+See `DEFERRED-RELATIONS.md` for intentionally deferred relations.
 
-No database, graph/vector store, Git/event-sourcing model, search engine, deletion mechanism, Actor model, Work model, Development System design or SOUL architecture has been selected.
+No database, graph/vector store, Git/event-sourcing model, search engine, deletion mechanism, adjacent vertical model, Development System design or architecture has been selected.
 
 ## Epistemic rule
 
-Research findings are not SOUL architecture decisions. Source ledgers and syntheses are derived research views; exact/load-bearing claims remain recoverable to primary sources.
+Research findings are not architecture decisions. `KEY.md`, `FINDINGS-MAP.md`, syntheses, counter-checks and source ledgers are derived research views at different depths; exact/load-bearing claims remain recoverable to primary sources.
 
 `Sufficiently complete` means enough foundation to stop expanding this vertical by default — not final truth, universal ontology or independent verification.
