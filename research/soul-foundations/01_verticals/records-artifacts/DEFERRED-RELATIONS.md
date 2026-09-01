@@ -103,3 +103,16 @@ Deferred question:
 
 Current consequence:
 - do not let software work-product usage determine the Records taxonomy before Work is independently researched.
+
+## DR-10 — Recordkeeping/current-source designation authority
+
+Observed signal:
+- organisation/retrieval research shows a derived output, query result, finding aid or other representation can have its own recordhood and may be designated as a recordkeeping source for a bounded role;
+- current/designated standing is role/context scoped rather than a purely intrinsic property of bytes;
+- access views must preserve exact binding to the resource/version/standing they describe, but Records semantics alone cannot determine who may establish or change that designation.
+
+Deferred question:
+- Who/what is authorised to designate a resource/version/representation as the recordkeeping copy, current source, authoritative source for a role, or replacement for another source?
+- What approval, delegation, conflict-resolution or review rules govern that designation?
+
+Records may preserve the designation relation, its scope, history and provenance. Authority and workflow for establishing it remain deferred to Actors/Work/policy synthesis.
