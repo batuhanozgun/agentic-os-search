@@ -65,6 +65,16 @@ A stronger but still unverified hypothesis is that Development OS, SOUL and task
 
 If this survives research, system quality at each level may depend materially on the quality and interaction of these dimensions. This remains a research hypothesis, not architecture truth.
 
+### H5 — Records may function as an enabling substrate for Actor↔Work continuity
+
+The current research operating arrangement exposed a sharper cross-vertical interpretation: many persistent control surfaces exist because a fresh or bounded Actor must be able to perform current Work with the correct purpose, authority, context, prior state, evidence and stop conditions without relying on latent conversation/model memory.
+
+In that sense, some Records are not merely passive historical storage; they may be part of the enabling substrate through which Actors can orient to, perform, verify, hand off and continue Work across discontinuous executions.
+
+This must **not** be collapsed into `Records exist only so Actors can work better`. Records research also protects independent persistence concerns such as evidential/accountability use, historical reconstructability, retention/disposition, provenance and future uses that may outlive a particular Actor or Work episode. The working hypothesis is therefore relational: **the quality and binding of Records can materially constrain Actor effectiveness and Work continuity without making Records reducible to Actor support.**
+
+The current agent-control files (`AGENT.md`, protocols), project state, handoffs and research routers are practical examples of this relation in the present research operating arrangement. They are operational observations, not proof that the same relation exhausts Records in SOUL or other systems.
+
 ## 4. Why Environment research comes next
 
 Environment should be researched before a broad cross-vertical composition/relations study because:
