@@ -2,7 +2,7 @@
 
 ## Role
 
-Canonical retrieval router for the active independent Environment foundation research.
+Canonical retrieval router for the bounded independent Environment foundation research.
 
 It routes readers to the shortest current surface that can answer the question. It is not itself substantive evidence.
 
@@ -10,39 +10,79 @@ It routes readers to the shortest current surface that can answer the question. 
 
 | Need | Read first | Then if needed |
 |---|---|---|
-| Current Environment authorization/status | `STATE.md` | parent `../../STATE.md` and `../../ENVIRONMENT-RESEARCH-HANDOFF.md` |
-| Initial falsifiable framing and rivals | `ORIENTATION.md` | `STATE.md` |
-| Initial source recovery | `evidence/SOURCE-LEDGER.md` | primary/authoritative source |
-| Why Environment membership cannot be a context-free object type | `findings/01-boundary-relative-environment.md` | NASA/SEBoK via source ledger / primary source |
-| Why context should not be collapsed into Environment | `findings/02-context-is-not-environment.md` | Dey/Dourish via source ledger / primary source |
-| Current topic findings | `findings/` | source ledger + primary source |
-| Parent project constraints | `../../ENVIRONMENT-RESEARCH-HANDOFF.md` | `../../STATE.md` |
-| Records boundary question | `../records-artifacts/DEFERRED-RELATIONS.md` | Records `KEY.md` / relevant deeper finding |
-| Work boundary question | `../work/DEFERRED-RELATIONS.md` | Work `KEY.md` / relevant deeper finding |
-| Actors boundary question | `../actors/DEFERRED-RELATIONS.md` | Actors `KEY.md` / relevant deeper finding |
+| 30-second current orientation | `KEY.md` | `FINDINGS-MAP.md` |
+| Current Environment status / authorization | `STATE.md` | parent `../../STATE.md`, then `../../ENVIRONMENT-EVALUATION-HANDOFF.md` |
+| Topic/question routing | `FINDINGS-MAP.md` | relevant `findings/*.md` |
+| Full current Environment result | `synthesis/ENVIRONMENT-VERTICAL-SYNTHESIS.md` | relevant topic finding |
+| Why research stopped / omission challenge | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | source ledger + relevant finding |
+| Evidence/source recovery | `evidence/SOURCE-LEDGER.md` | primary/authoritative source |
+| Environment-local residual questions | `OPEN-QUESTIONS.md` | relevant topic finding |
+| Records/Work/Actors/later synthesis relations | `DEFERRED-RELATIONS.md` | independently recover relevant vertical current evidence |
+| Research frame history | `FRAME-EVOLUTION.md` | `ORIENTATION.md` for initial frame only |
+| Why Environment research was authorised | `../../ENVIRONMENT-RESEARCH-HANDOFF.md` | parent historical/current state as needed |
+| Current evaluation handoff | `../../ENVIRONMENT-EVALUATION-HANDOFF.md` | `STATE.md`, synthesis |
 | SOUL / Development OS intent | `../../../soul-context/INDEX.md` | relevant evidence surface |
 
-## Current research depth
+## Progressive depth
 
-The vertical is in initial frame-discrimination research. Two bounded Environment-local findings are now recorded, but there is no synthesis, KEY, findings map, completeness judgment or user-evaluated result yet.
+`L0 KEY → L1 FINDINGS-MAP → L2 SYNTHESIS → L3 TOPIC FINDING → L4A COMPLETENESS/AUDIT or L4B SOURCE LEDGER → L5 PRIMARY/AUTHORITATIVE SOURCE`
 
-Do not treat `ORIENTATION.md` as the current conclusion. It contains deliberately weak hypotheses and rival framings that may be revised or falsified.
+## Current findings routing
 
-The two current findings constrain framing only:
-- Environment membership is boundary/system-of-interest relative rather than a safe intrinsic object type;
-- context is relevance/activity dependent and cannot safely be used as a synonym for Environment.
+- Boundary/system-of-interest relativity → `findings/01-boundary-relative-environment.md`
+- Context distinction → `findings/02-context-is-not-environment.md`
+- Capability/affordance/actionability → `findings/03-actionability-is-relational.md`
+- World state / observation / belief / Records → `findings/04-world-state-observation-and-record.md`
+- Tool/runtime/infrastructure boundary roles → `findings/05-tools-runtime-infrastructure-are-boundary-roles.md`
+- Direct null/reduction test → `findings/06-reduction-and-null-hypothesis-test.md`
 
-Neither finding establishes Environment as an independent fourth foundation leg.
+## Current versus historical
+
+Preferred current conclusion surfaces:
+- `KEY.md`
+- `FINDINGS-MAP.md`
+- `synthesis/ENVIRONMENT-VERTICAL-SYNTHESIS.md`
+- current `findings/*.md`
+- `OPEN-QUESTIONS.md`
+- `DEFERRED-RELATIONS.md`
+- `evidence/SOURCE-LEDGER.md`
+- `STATE.md`
+
+Historical/audit surfaces:
+- `ORIENTATION.md` — initial deliberately weak hypotheses/rivals;
+- `FRAME-EVOLUTION.md` — how the frame was revised;
+- `synthesis/COMPLETENESS-OMISSION-CHECK.md` — same-model adversarial self-review and stop rationale.
+
+Do not use `ORIENTATION.md` as the current result merely because it matches the query.
+
+## Current bounded result
+
+The research supports an independent foundation **problem region** around boundary-relative operating-world state/dynamics, but it does **not** validate Environment as a mutually exclusive fourth object class or required fourth architecture module.
+
+The strongest current distinctions include:
+- boundary/system-of-interest relativity;
+- live world state/dynamics versus observation/belief/persistent Records;
+- Actor capability versus situated actionability;
+- Work state/effects versus external conditions;
+- boundary-dependent tool/resource/infrastructure roles;
+- relation-only representation can avoid a fourth bucket but cannot erase the need for external/world-state relata when those facts matter.
+
+## Verification / completion status
+
+Boundedly sufficient for the current independent foundation purpose; awaiting user evaluation.
+
+The completeness/omission check is same-model adversarial self-review, **not independent verification**.
 
 ## Scope guardrail
 
-This vertical is authorised to research Environment independently.
+The Environment research phase has reached its authorised return condition.
 
-It is not authorised to:
-- declare Environment a fourth foundation leg;
-- convert research findings into SOUL architecture;
-- resolve the relation/control/coordination fabric;
-- launch broad cross-vertical composition research;
-- select a final data model, technology or implementation.
+Current next authorised activity is **user evaluation**.
 
-After a bounded Environment result, return to the user for evaluation.
+Do not automatically:
+- launch broad cross-vertical composition/relation research;
+- declare a four-leg ontology;
+- convert findings into SOUL architecture;
+- select final data model, technology or implementation.
+
+Later work requires explicit user direction.
