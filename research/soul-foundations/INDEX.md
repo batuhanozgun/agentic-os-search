@@ -10,9 +10,10 @@ Retrieval router for `research/soul-foundations/**`. It is not evidence or archi
 |---|---|---|
 | Why does this foundations research exist? | `README.md` | `00_context/README.md` |
 | What did prior repository research contribute? | `00_context/README.md` | `../soul-context/INDEX.md` |
-| Current overall research state | `STATE.md` | relevant vertical `STATE.md` |
-| What should the post-vertical discussion do now? | `DISCUSSION-HANDOFF.md` | `STATE.md`, then the relevant context/vertical router |
-| SOUL / Development OS context for the discussion | `../soul-context/INDEX.md` | `../soul-context/evidence/CONTEXT-SYNTHESIS.md`, and `../soul-context/evidence/research-architecture-boundary.md` when needed |
+| Current overall research state | `STATE.md` | current handoff, then relevant vertical state/router |
+| What did the three-vertical discussion conclude and what is next? | `ENVIRONMENT-RESEARCH-HANDOFF.md` | `STATE.md`, then relevant context/vertical router |
+| What was the pre-discussion handoff? | `DISCUSSION-HANDOFF.md` | use only when the earlier framing/history is needed |
+| SOUL / Development OS context | `../soul-context/INDEX.md` | `../soul-context/evidence/CONTEXT-SYNTHESIS.md`, and `../soul-context/evidence/research-architecture-boundary.md` when needed |
 | Shortest Records orientation | Records `KEY.md` | Records `FINDINGS-MAP.md` |
 | Consolidated Records result | Records `synthesis/RECORDS-VERTICAL-SYNTHESIS.md` | Records `STATE.md`, `INDEX.md` |
 | Why Records stopped expanding | Records `synthesis/VERTICAL-COMPLETENESS-COUNTERCHECK.md` | Records residual questions |
@@ -30,23 +31,27 @@ Retrieval router for `research/soul-foundations/**`. It is not evidence or archi
 | Actors relations deferred for cross-vertical study | Actors `DEFERRED-RELATIONS.md` | relevant Actors finding + separately recover other vertical evidence |
 | Current Actors source/view limits | Actors `evidence/SOURCE-LEDGER.md` | reopen primary/authoritative source when decision-critical |
 | Actors current-vs-historical/version status | Actors `CURRENT-SURFACES.md` | Actors `INDEX.md` |
-| What comes next? | `DISCUSSION-HANDOFF.md` | exploratory discussion and research-direction framing; no new substantive layer automatically authorised |
+| How should the Environment research start? | `ENVIRONMENT-RESEARCH-HANDOFF.md` | `STATE.md`, then bounded recovery from Work/Actors/Records and SOUL context as the question requires |
+| What comes after Environment? | `ENVIRONMENT-RESEARCH-HANDOFF.md` | candidate cross-vertical composition/relations research; requires Environment evaluation and explicit user direction |
 
 ## Current sequencing
 
 - Records: sufficiently complete for current foundation purpose; evaluated.
 - Work: sufficiently complete for current foundation purpose; evaluated; progressive retrieval closure complete.
 - Actors: sufficiently complete for current foundation purpose; evaluated; retrieval closure complete.
-- Post-vertical activity: exploratory discussion across the three results and existing SOUL / Development OS context to identify missing bridges, tensions and candidate research directions.
-- Next substantive research layer: undetermined and not authorised.
+- Post-vertical discussion: completed to a working-hypothesis / next-research checkpoint.
+- Candidate Environment foundation region: independent research authorised; not yet researched/evaluated.
+- Broad cross-vertical composition/relations research: candidate only; not authorised.
 
-The three-part sequence is a research decomposition, not proof of a final SOUL ontology.
+The original three-part sequence remains a research decomposition, not proof of a final SOUL ontology. Environment is likewise a candidate research region, not an accepted fourth leg.
 
 ## Retrieval rule
 
-Start with `STATE.md` and `DISCUSSION-HANDOFF.md` for the current session purpose.
+Start with `STATE.md` and `ENVIRONMENT-RESEARCH-HANDOFF.md` for the current purpose and next responsibility.
 
-For each vertical, use its `STATE.md` plus its progressive retrieval router for the current conclusion and appropriate depth. Start from the vertical's `KEY.md` or `FINDINGS-MAP.md` when a bounded question does not require the full synthesis. Descend to topic findings, audit/source ledgers and primary sources only when the decision requires that nuance or evidence.
+Use `DISCUSSION-HANDOFF.md` only when recovering the framing that preceded the post-vertical discussion.
+
+For each completed vertical, use its `STATE.md` plus its progressive retrieval router for the current conclusion and appropriate depth. Start from the vertical's `KEY.md` or `FINDINGS-MAP.md` when a bounded question does not require the full synthesis. Descend to topic findings, audit/source ledgers and primary sources only when the decision requires that nuance or evidence.
 
 For Actors specifically:
 
@@ -56,4 +61,4 @@ Do not use Actors `ORIENTATION.md` as the current result; it is the initial fram
 
 For SOUL / Development OS intent and the boundary between research findings and architecture decisions, route through `../soul-context/INDEX.md`; do not treat old exploratory material as current truth.
 
-The current discussion may form cross-vertical hypotheses and candidate research directions, but these must remain distinguishable from established vertical findings and from architecture decisions.
+Current cross-vertical working hypotheses — recurrent Records/Work/Actors dimensions, candidate Environment, and a possible relation/control/coordination fabric — are preserved in `ENVIRONMENT-RESEARCH-HANDOFF.md`. They must remain distinguishable from established vertical findings and from architecture decisions.
