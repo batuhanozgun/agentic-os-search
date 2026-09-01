@@ -65,7 +65,8 @@ Use this format, with **one route per line**:
 `R03 Amaç–uyum: LOAD`  
 `R04 Doğrulama geçerliliği: LOAD`  
 `R05 Kaynak–temsil ayrımı: SKIP`  
-`R06 Nedensel derinlik: LOAD`
+`R06 Nedensel derinlik: LOAD`  
+`R07 Çalışma sürekliliği: LOAD`
 
 The status block exposes **routing outcomes only**, not hidden reasoning or chain-of-thought. Do not provide a rationale for every route by default. Explain a routing decision only when the user asks or when the decision boundary itself is useful to the task.
 
@@ -127,6 +128,14 @@ Protocol:
 
 `agent/protocols/causal-depth-root-cause-validation.md`
 
+### R07 — Work-System Continuity
+
+**Could this turn materially change persistent project state, current/next Work, Actor authority/responsibility, available Environment/capability, or a relation among them such that a fresh session could drift if canonical repository state is not updated?**
+
+Protocol:
+
+`agent/protocols/work-system-continuity.md`
+
 ## Protocol Loading Rules
 
 - When a route resolves to `LOAD`, read the **full canonical protocol file** before the affected substantive reasoning or action.
@@ -134,7 +143,7 @@ Protocol:
 - If the protocol has already been read in full during the current conversation, that fetched version may remain active unless there is reason to believe it changed, the user says it changed, or a fresh read is otherwise necessary.
 - If a required protocol cannot be accessed, do not reconstruct it from memory. Stop the affected substantive work, report the access failure, and resume only when the canonical control file is available.
 - Protocols are reasoning disciplines. Apply them to the task; do not mechanically expose their internal reasoning checks unless the uncertainty or decision boundary is useful to the user.
-- A protocol may require clarification, verification, conditional conclusions, re-planning, or refusal to take a premature action.
+- A protocol may require clarification, verification, conditional conclusions, re-planning, continuity repair, or refusal to take a premature action.
 
 ## Registry Maintenance Rules
 
@@ -175,4 +184,4 @@ After modifying this file or another active control file, re-fetch the changed c
 
 `AGENT.md` is a mandatory, auditable router — not a complete handbook.
 
-Run the full gate first, load only the protocols that cannot be confidently skipped, and perform substantive work only after the required control context is available.
+Run the full gate first, load only the protocols that cannot be confidently skipped, preserve work-system continuity when material state changes, and perform substantive work only after the required control context is available.
