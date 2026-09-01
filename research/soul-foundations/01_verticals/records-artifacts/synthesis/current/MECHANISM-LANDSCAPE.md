@@ -75,4 +75,4 @@ Replication, disaster recovery, distributed consistency, encryption/key lifecycl
 
 ## Audit / evidence route
 
-Read the historical blob referenced by the legacy mechanism synthesis stub with `MECHANISM-PATTERN-COUNTERCHECK.md`, then `sources/mechanism-pattern-landscape.md` and the exact product/specification sources used as exemplars.
+Use `../../INDEX.md` for the exact L4A adversarial/history route, L4B source-ledger route and L5 primary-source route for this topic.
