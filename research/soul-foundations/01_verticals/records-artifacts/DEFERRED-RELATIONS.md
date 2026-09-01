@@ -89,3 +89,17 @@ Deferred question:
 - When does a derived view become a new record/work output rather than merely an access representation of an existing record?
 
 This depends on both record identity and Work semantics and remains deferred.
+
+## DR-09 — `Artifact` ↔ Work-product semantics
+
+Observed signal:
+- software/systems-engineering sources often use `artifact` to mean a work product produced, consumed or modified by project activity;
+- archival usage often means a physical/man-made object or a resource whose material object has intrinsic value;
+- formal `information artifact` ontologies can define a disciplined informational category, but only with explicit qualification.
+
+Deferred question:
+- Should later cross-vertical synthesis use `artifact` specifically as a Work-produced object relation, rather than as the Records super-category?
+- If a qualified `information artifact` concept is retained inside Records, how is it distinguished from a Work artifact/work product?
+
+Current consequence:
+- do not let software work-product usage determine the Records taxonomy before Work is independently researched.
