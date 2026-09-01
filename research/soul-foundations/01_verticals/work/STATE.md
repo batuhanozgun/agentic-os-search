@@ -1,57 +1,90 @@
 # Work — STATE
 
-**Status:** active  
+**Status:** sufficiently complete for current foundation purpose; awaiting user evaluation  
 **Parent:** `research/soul-foundations/`  
 **Authorised:** 2026-09-01 by explicit user next-direction decision after Records evaluation
 
 ## Current phase
 
-Independent foundations research: initial framing and first-principles evidence gathering.
+Bounded-completion checkpoint after independent foundations research, synthesis and targeted omission/countercheck work.
 
-The immediate task is to build a sufficiently broad starting research direction, test it against a strong alternative framing, and then let subsequent questions be derived from evidence rather than from a fixed pass template.
+Substantive Work expansion is paused pending user evaluation.
 
-## Starting epistemic position
+## Current result
 
-Established context:
-- Layer 1 is the authorised foundations-research layer.
-- Records is sufficiently complete for the current foundation purpose and has already been evaluated.
-- Work is now the active independent vertical.
-- Actors, cross-vertical synthesis, SOUL architecture and later layers are not authorised.
+Consolidated synthesis:
 
-Working hypotheses, not conclusions:
-- `Work` may name a coherent enough problem area to justify independent study.
-- Candidate phenomena include things to be done, changed, investigated, decided, verified, recovered, coordinated, or completed, plus their lifecycle and control conditions.
+- `synthesis/WORK-VERTICAL-SYNTHESIS.md`
 
-Decision-critical assumptions to challenge early:
-- that `work item` or `task` is the right unit of analysis;
-- that Work is best understood as a lifecycle/state-machine problem;
-- that plan/execution/completion distinctions generalise across domains;
-- that coordination, uncertainty, exception handling, evaluation and closure belong inside one Work frame rather than requiring different framings;
-- that the provisional label `Work` does not hide a more useful decomposition.
+Completeness / omission judgment:
+
+- `synthesis/COMPLETENESS-OMISSION-CHECK.md`
+
+Claim-to-source recovery:
+
+- `evidence/SOURCE-LEDGER.md`
+
+Retrieval routing:
+
+- `INDEX.md`
+
+## Current conclusion
+
+The narrow foundation frame `Work = task/work item + scalar lifecycle` is insufficient.
+
+The current evidence requires preserving multiple analytical dimensions, including:
+
+- purpose/outcome versus action/task versus method/refinement;
+- plural Work units/levels rather than one universal task atom;
+- candidate/eligible/selected-or-committed/in-progress distinctions;
+- plan/prescription versus actual situated execution and adaptive elaboration;
+- imperative, declarative and event/situation-driven control regimes;
+- dependency, coordination, concurrency and system-level flow;
+- multidimensional lifecycle/readiness/requiredness/closure semantics;
+- effort/work quantity versus duration, waiting and elapsed time;
+- execution completion versus verification, validation and acceptance;
+- termination, partial effects, compensation, repair, retry and failure-generated Work;
+- bounded versus continuing/recurring/supporting Work.
+
+These are research distinctions, not accepted SOUL primitives or implementation fields.
+
+## Bounded-completion basis
+
+The vertical reached the current stopping condition because:
+
+- the starting frame was challenged by materially different analytical traditions;
+- early and targeted omission checks exposed and integrated substantive missing distinctions;
+- later targeted probes — maintenance, classic workflow-pattern complexity, autonomy/interdependence and feedback/control loops — predominantly mapped to already established first-order dimensions;
+- marginal information gain for new first-order Work families materially decreased;
+- load-bearing claims have source-recovery paths with view/source status recorded;
+- the omission pass is explicitly recorded as same-model adversarial self-review, not independent verification.
+
+This is sufficient completion for the current foundation purpose, not exhaustive scholarship on Work.
+
+## Remaining uncertainty
+
+Open questions remain around:
+
+- which dimensions survive later cross-vertical synthesis;
+- domain-specific formal semantics for uncertainty, risk, timing, resources and measurement;
+- who/what holds authority, responsibility and capability for Work decisions — deferred to Actors/cross-vertical analysis;
+- what persistent evidence establishes Work state, commitments and outcomes — deferred Records relation;
+- whether later evidence changes the provisional boundary or label `Work` itself.
+
+See `synthesis/COMPLETENESS-OMISSION-CHECK.md` for reopen conditions and evidence limits.
 
 ## Vertical isolation
 
-Do not use Records substantive conclusions as Work axioms. Reopen Records material only when a concrete Work question requires it.
+Records substantive conclusions were not used as Work axioms.
 
-Relations to Records or Actors may be logged as deferred relational questions, but this vertical must not solve those domains.
+Relations to Records or Actors are preserved only as deferred questions. This state does not authorize solving those domains.
 
-## Research direction rule
+## Next logical work
 
-Do not freeze a comprehensive pass list in advance. Maintain a current research orientation and derive the next high-information question from accumulated evidence. If a finding weakens the current framing or plan, revise the plan rather than continuing mechanically.
-
-## Completion condition
-
-The Work vertical may reach bounded completion for the current foundation purpose when:
-
-- continued search for new first-order distinctions yields materially diminishing information gain;
-- major alternative framings and omission risks have been challenged;
-- load-bearing conclusions are traceable to evidence at an appropriate source level;
-- current conclusions, historical/intermediate findings, unresolved uncertainty and deferred cross-vertical questions are recoverable without full-corpus rereading.
-
-At bounded completion, return to the user for evaluation.
+Evaluate the completed Work vertical as a whole: what was established, what remains uncertain, whether the bounded-completion judgment is justified, and what the evidence implies for the next research direction.
 
 ## Next authorised work
 
-Continue **Work vertical independent foundations research** and the Work-local retrieval/state maintenance required to preserve it accurately.
+**WORK VERTICAL EVALUATION ONLY.**
 
-Do not start Actors, cross-vertical synthesis, SOUL architecture or implementation design.
+Do not automatically reopen substantive Work research, start Actors, perform cross-vertical synthesis, design SOUL architecture, or begin implementation work.
