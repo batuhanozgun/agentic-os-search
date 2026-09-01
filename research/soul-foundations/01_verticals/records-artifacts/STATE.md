@@ -7,7 +7,7 @@
 
 ## Purpose
 
-Establish a first-principles, source-grounded understanding of the persistent-information / Records problem domain before later cross-vertical synthesis or SOUL architecture work.
+Establish a first-principles, source-grounded understanding of the persistent-information / Records problem domain before later synthesis or architecture work.
 
 The directory remains `records-artifacts/` for continuity. Unqualified `artifact` is not treated as the foundational super-category.
 
@@ -40,25 +40,24 @@ A dedicated omission/red-team review tested:
 
 Only **retention/appraisal/disposition** exposed a missing first-order Records semantic dimension and received a focused pass.
 
-The other candidates currently classify as refinements, implementation assurance, profile-specific mechanism work, or cross-vertical concerns.
+The other candidates currently classify as refinements, implementation assurance, profile-specific mechanism work, or matters outside this vertical.
 
-## Canonical bounded synthesis
+## Reading surfaces
 
-Read first:
+The completed vertical is now exposed through a surface-to-source reading ladder:
 
-- `synthesis/RECORDS-VERTICAL-SYNTHESIS.md`
+- **L0:** `KEY.md` — shortest orientation surface;
+- **L1:** `FINDINGS-MAP.md` — topic-level findings and routing;
+- **L2:** `synthesis/RECORDS-VERTICAL-SYNTHESIS.md` — integrated bounded synthesis;
+- **L3:** focused topic syntheses;
+- **L4:** adversarial counter-checks and pass-specific source ledgers;
+- **L5:** primary sources named by the ledgers.
 
-Supporting latest modules:
+`STATE.md` is a status/currentness gate rather than a content-depth layer.
 
-- `synthesis/REQUIREMENT-PROFILE-DERIVATION.md`
-- `synthesis/REQUIREMENT-PROFILE-COUNTERCHECK.md`
-- `synthesis/MECHANISM-PATTERN-LANDSCAPE.md`
-- `synthesis/MECHANISM-PATTERN-COUNTERCHECK.md`
-- `synthesis/RETENTION-DISPOSITION-SEMANTICS.md`
-- `synthesis/RETENTION-DISPOSITION-COUNTERCHECK.md`
-- `synthesis/VERTICAL-COMPLETENESS-COUNTERCHECK.md`
+`INDEX.md` is the authoritative routing table across these layers.
 
-`INDEX.md` routes older pass results and source ledgers.
+Higher layers are derived access views and must not be treated as stronger evidence than the deeper material they summarize.
 
 ## Current bounded model
 
@@ -76,11 +75,11 @@ Records research now exposes, without turning them into universal components:
 
 ## Reopen condition
 
-Reopen this vertical only if evaluation or later research produces a case that:
+Reopen this vertical only if evaluation or later evidence produces a case that:
 
 1. cannot be represented by the current Records semantic model;
 2. exposes a materially new Records failure/capability dimension;
-3. cannot be handled as a profile-specific requirement, implementation-assurance question or cross-vertical relation.
+3. cannot be handled as a profile-specific requirement, implementation-assurance question or matter outside this vertical.
 
 ## Remaining bounded unknowns
 
@@ -96,9 +95,9 @@ Reopen this vertical only if evaluation or later research produces a case that:
 - actual deletion/erasure guarantees;
 - concrete metadata/storage/search configuration.
 
-### Cross-vertical
-- Work processes that create/read/change/verify/dispose records;
-- Actor authority/custody/delegation;
+### Outside this vertical
+- who/what performs actions on records;
+- authority/custody/delegation semantics;
 - evidential sufficiency/factual truth/reasoning;
 - approval/retention/destruction workflows.
 
@@ -109,9 +108,9 @@ Reopen this vertical only if evaluation or later research produces a case that:
 The evaluation should test:
 
 - whether the current completion claim is justified;
-- whether any important Records question was prematurely classified as refinement/assurance/cross-vertical;
-- what the vertical changed in the original problem framing;
-- whether the Records / Work / Actors decomposition still deserves to remain the Layer-1 hypothesis;
-- what next research direction is actually supported.
+- whether any important Records question was prematurely classified as refinement/assurance/outside-scope;
+- what the vertical changed in the original Records problem framing;
+- whether the layered reading surfaces preserve enough meaning while enabling selective deepening;
+- what, if anything, should be changed inside this vertical before it is used as a stable research input.
 
-Do not proceed automatically to Work or Actors.
+Do not proceed automatically into an adjacent vertical.
