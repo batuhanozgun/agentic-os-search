@@ -87,7 +87,7 @@ Linear checklist semantics are not a neutral default. Work may require:
 
 ## 6. Interruptions and resumptions alter the work, not only its timestamp
 
-Research on interruptions and task transitions finds that interruptions, multitasking and switching need to be understood in relation to a system of goals and can affect cognitive, emotional and performance outcomes [S17]. Empirical workflow research also observes changeover costs when collaborative interruptions preempt individual tasks.
+Research on interruptions and task transitions finds that interruptions, multitasking and switching need to be understood in relation to a system of goals and can affect cognitive, emotional and performance outcomes [S17]. Empirical workflow research also observes changeover costs when collaborative interruptions preempt individual tasks [S18].
 
 CMMN's lifecycle separately represents suspension and resumption rather than treating them as mere elapsed time [S02].
 
