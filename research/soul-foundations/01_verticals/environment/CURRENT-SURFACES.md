@@ -17,7 +17,7 @@ Use these paths as the preferred current surfaces for this revision. If a decisi
 | Cross-vertical deferrals | `DEFERRED-RELATIONS.md` | `8c8f98b46a5aabc82357235a8c4ec9db53c36b3b` |
 | Research frame history | `FRAME-EVOLUTION.md` | `93b74b7647c46e534aa1d372f360d513d48e84bf` |
 | Current status/authorization | `STATE.md` | `a5416087baceb066b27642b11b2549b8a70c684d` |
-| Retrieval router | `INDEX.md` | `728f6ad74e006e76fc07c9a2050cf129e5ca7e5a` |
+| Retrieval router | `INDEX.md` | `46186975ecd133b4ef2857a7318063cebba6fbf0` |
 
 ## Current versus historical
 
