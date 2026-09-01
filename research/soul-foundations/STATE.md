@@ -8,7 +8,7 @@
 - **Layer 0 — bounded context / prior-repository reconstruction:** COMPLETE for current purpose in `research/soul-context/`.
 - **Layer 1A — Records / persistent-information:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED.
 - **Layer 1B — Work:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED; RETRIEVAL CLOSURE COMPLETE.
-- **Layer 1C — Actors:** NOT STARTED; NOT AUTHORISED.
+- **Layer 1C — Actors:** ACTIVE; AUTHORISED 2026-09-01; INDEPENDENT FOUNDATION RESEARCH IN PROGRESS.
 - **Next layer after Layer 1:** UNDETERMINED.
 
 ## Records checkpoint
@@ -53,6 +53,21 @@ Dedicated Work residual and cross-vertical entry surfaces are:
 - `01_verticals/work/OPEN-QUESTIONS.md`
 - `01_verticals/work/DEFERRED-RELATIONS.md`
 
+## Actors checkpoint
+
+The user explicitly authorised the independent Actors foundation research on 2026-09-01.
+
+Current rule:
+- `Actors` remains a provisional research label, not an accepted SOUL primitive;
+- research begins independently from first principles rather than importing Records or Work substantive conclusions;
+- strong alternative frames, including non-Actor-centred analysis units, must be seriously tested;
+- cross-vertical relations may be recorded but not solved inside this vertical;
+- bounded completion requires progressive retrieval closure, source traceability, targeted omission/counter-check work and a final consistency re-read;
+- user evaluation is required after research completion before any cross-vertical or later phase can begin.
+
+Current Actors state:
+- `01_verticals/actors/STATE.md`
+
 ## Guardrails
 
 - Records, Work and Actors remain a **research decomposition hypothesis**, not final ontology.
@@ -65,23 +80,16 @@ Dedicated Work residual and cross-vertical entry surfaces are:
 
 ## Current sequencing
 
-**RECORDS AND WORK ARE COMPLETE FOR THE CURRENT FOUNDATION PURPOSE. AWAIT AN EXPLICIT NEXT-DIRECTION DECISION.**
+**RECORDS AND WORK ARE COMPLETE FOR THE CURRENT FOUNDATION PURPOSE. ACTORS IS THE CURRENT AUTHORISED INDEPENDENT RESEARCH LINE.**
 
-Do not start Actors, cross-vertical synthesis, SOUL architecture, implementation design, or another research layer automatically.
+Do not start cross-vertical synthesis, SOUL architecture, implementation design, another independent vertical, or another research layer automatically.
 
 ## Next logical work
 
-The next plausible Layer-1 decision is whether to:
+Complete the independent Actors foundation research, then return the bounded result for user evaluation.
 
-- authorise the independent Actors vertical;
-- revise the Layer-1 decomposition before Actors;
-- reopen Records or Work only if a material reason exists;
-- or choose another explicitly justified research step.
-
-`Actors` is the obvious remaining member of the current starting hypothesis, but logical sequencing is not authorisation and does not prove that the three-part decomposition is final.
+A later cross-vertical or architecture step may become plausible, but its necessity, form and authorisation remain undetermined until Actors evidence and explicit user direction justify it.
 
 ## Next authorised work
 
-**NO NEW SUBSTANTIVE RESEARCH PHASE IS CURRENTLY AUTHORISED.**
-
-Repository-state/retrieval maintenance may preserve completed work. Actors and cross-vertical synthesis remain unauthorised until explicit user direction.
+**CONTINUE THE INDEPENDENT ACTORS FOUNDATION RESEARCH ONLY.**
