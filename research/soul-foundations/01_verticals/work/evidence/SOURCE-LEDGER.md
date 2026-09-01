@@ -28,10 +28,10 @@ This ledger distinguishes the **source itself** from the **view actually inspect
 - **Source:** Object Management Group, *Case Management Model and Notation, Version 1.0*, formal/2014-05-05.
 - **URL:** https://www.omg.org/spec/CMMN/1.0/PDF
 - **Type:** normative specification.
-- **View grade:** A; execution-semantics pages and Stage/Task lifecycle tables directly inspected, including rendered page views.
-- **Supports:** Available/Enabled/Disabled/Active/Suspended/Failed/Completed/Terminated distinctions; transitions; sentries/entry-exit criteria; requiredness/manual activation/repetition controls.
-- **Used in:** units; coordination; state/closure/recovery findings.
-- **Scope caution:** CMMN states are evidence that these distinctions can matter; they are not asserted as a universal SOUL state machine.
+- **View grade:** A; execution-semantics, PlanningTable/DiscretionaryItem, applicability and Stage/Task lifecycle sections directly inspected, including rendered page views.
+- **Supports:** discretionary potential work versus items selected into a runtime plan; applicability; Available/Enabled/Disabled/Active/Suspended/Failed/Completed/Terminated distinctions; transitions; sentries/entry-exit criteria; requiredness/manual activation/repetition controls.
+- **Used in:** units; coordination; state/closure/recovery; intake/commitment findings.
+- **Scope caution:** CMMN concepts are evidence that these distinctions can matter; they are not asserted as a universal SOUL case/work model.
 
 ### S03 — Declarative process management / ConDec
 
@@ -196,6 +196,36 @@ This ledger distinguishes the **source itself** from the **view actually inspect
 - **Supports:** discretionary collaborative task switching can create measurable changeover/resumption time in real professional work.
 - **Used in:** coordination findings as supporting evidence for interruption/resumption cost.
 
+### S19 — Official Kanban Guide
+
+- **Source:** Kanban University / Mauvius Group, *The Official Kanban Guide* (2022 edition PDF).
+- **URL:** https://kanban.university/wp-content/uploads/2023/04/The-Official-Kanban-Guide_A4.pdf
+- **Type:** authoritative method-body guide.
+- **View grade:** A; full PDF text and rendered pages directly inspected.
+- **Supports:** options before a commitment point; vetting options against urgency and available capacity; discarding options before service delivery; commitment point as the decision to start delivery activities; pull only when capacity is available; WIP/throughput/flow distinctions; differentiated classes of service.
+- **Used in:** intake/selection/commitment findings; completeness countercheck.
+- **Scope caution:** Kanban policy is not adopted as a universal Work management method. The source is used as a counterexample showing that demand, commitment and in-progress load can be distinct.
+
+### S20 — PMI Standard for Portfolio Management, Third Edition
+
+- **Source:** Project Management Institute, *The Standard for Portfolio Management — Third Edition* (2013).
+- **URL:** https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/standard-for-portfolio-management-third-edition.pdf
+- **Type:** professional standard.
+- **View grade:** A; full PDF text and rendered introduction/portfolio-management pages directly inspected.
+- **Supports:** proposed/future components; evaluation, selection, prioritization and authorization; ranking; competition for organizational resources; allocation based on priorities/capacity; ongoing portfolio adjustment and distinction from execution.
+- **Used in:** intake/selection/commitment findings; completeness countercheck.
+- **Freshness note:** PMI now publishes a Fourth Edition. This older full-text edition is used only for stable conceptual distinctions between candidate/selected work, prioritization and scarce-resource allocation; current normative process compliance is not inferred from it.
+
+### S21 — ISO maintenance terminology
+
+- **Source:** ISO Online Browsing Platform, ISO/TR 12489 maintenance terms citing ISO 14224 / IEC reliability terminology.
+- **URL:** https://www.iso.org/obp/ui?_escaped_fragment_=iso%3Astd%3Aiso%3Atr%3A12489%3Aed-1%3Av1%3Aen
+- **Type:** authoritative standards terminology page.
+- **View grade:** A for the inspected definitions.
+- **Supports:** maintenance as actions intended to retain or restore required function; preventive maintenance at predetermined intervals/criteria; corrective maintenance after fault detection to restore function.
+- **Used in:** intake/commitment omission countercheck only.
+- **Countercheck result:** maintenance did not introduce a new first-order Work dimension; it mapped to ongoing/recurring/triggered Work, purpose/outcome, and failure-generated recovery/repair.
+
 ## Claim-level recovery map
 
 | Finding | Primary/authoritative anchors |
@@ -211,12 +241,16 @@ This ledger distinguishes the **source itself** from the **view actually inspect
 | Dependencies/coordination are first-order | S05, S09 |
 | Concurrency/synchronization/partial order matter | S04, S05, S02 |
 | Interruptions/resumption create work effects | S17, S18, S02 |
-| Flow has system-level properties | S10 |
+| Flow has system-level properties | S10, S19 |
 | Lifecycle semantics exceed todo/doing/done | S02 |
 | Completion, verification, validation, acceptance differ | S02, S12 |
 | Termination, rollback, compensation, retry/recovery differ | S02, S11 |
 | Failure can generate new recovery work | S02, S11 |
 | Time includes prerequisites/synchronisation/waiting, not only elapsed duration | S02, S04, S05 |
+| Potential/candidate work differs from committed/in-progress work | S02, S19, S20 |
+| Selection/prioritization/resource admission are distinct from execution | S19, S20 |
+| Priority is contextual/relational under scarcity | S19, S20 |
+| Preventive/corrective maintenance fits existing boundedness/trigger/recovery axes | S21 plus existing S02/S08/S14 |
 
 ## Evidence limits
 
@@ -224,4 +258,5 @@ This ledger distinguishes the **source itself** from the **view actually inspect
 - Some foundational sources are old because the relevant distinctions originate in mature fields; age alone does not invalidate a stable conceptual counterexample.
 - Several claims rely on publisher/institutional abstracts rather than full texts. Those claims are deliberately bounded to abstract-level statements.
 - The research uses standards and formal models as **existence proofs for distinctions**, not as evidence that SOUL should implement those standards.
+- Older full-text professional standards are used only for stable conceptual distinctions where the current-edition status is explicitly noted; they are not treated as current compliance requirements.
 - No same-model adversarial review in this vertical is described as independent verification.
