@@ -25,7 +25,7 @@ The strongest non-Actor-centred alternative initially used `action event + parti
 
 ## Confidence
 
-**Boundedly sufficient for the current foundation purpose; user evaluation pending.**
+**Boundedly sufficient for the current foundation purpose; evaluated by the user as sufficient on 2026-09-01.**
 
 The completion check is same-model adversarial self-review, **not independent verification**.
 
