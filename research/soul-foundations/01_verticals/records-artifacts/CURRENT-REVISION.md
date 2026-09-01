@@ -22,7 +22,7 @@ Historical/audit/source files are not required to share this revision identifier
 | File | Blob SHA |
 |---|---|
 | `README.md` | `15bedacb37bdc2eda5971cf542a6a387d5ab67a9` |
-| `STATE.md` | `e18d1178a4e0096a067b29033b8948645e31b3c1` |
+| `STATE.md` | `f5a2456bd496a5934eab72a9ac58cad17c372715` |
 | `INDEX.md` | `8df2cb201a35e8cea4e3f51ef0a8777bb802e40c` |
 | `DOCUMENT-STATUS.md` | `8d090bf1d82cb3ed67a1ce4f8671f954f6ec9bd3` |
 | `synthesis/README.md` | `8588c4a5ed2b6f06b7f18eb1c88e9cf443eed9a3` |
