@@ -6,14 +6,14 @@
 ## Dependency state
 
 - **Layer 0 — bounded context / prior-repository reconstruction:** COMPLETE for the current purpose in `research/soul-context/`.
-- **Layer 1A — Records / persistent-information research:** ACTIVE; four bounded passes complete at user-return gate.
+- **Layer 1A — Records / persistent-information research:** ACTIVE; five bounded passes complete at user-return gate.
 - **Layer 1B — Work:** NOT STARTED.
 - **Layer 1C — Actors:** NOT STARTED.
 - **Next layer:** UNDETERMINED.
 
 ## Current sequencing
 
-The Layer-1 verticals remain separate. Records has completed four bounded internal passes but the vertical itself is not complete. Work and Actors have not begun. Evidence from any Layer-1 vertical may change the framing or required later research.
+The Layer-1 verticals remain separate. Records has completed five bounded internal passes but the vertical itself is not complete. Work and Actors have not begun. Evidence from any Layer-1 vertical may change the framing or required later research.
 
 The directory remains `01_verticals/records-artifacts/` for continuity. Current evidence does **not** support unqualified `artifact` as a foundational super-category; the neutral umbrella around `record` remains unresolved.
 
@@ -31,17 +31,18 @@ Completed bounded passes:
 1. foundational Records / persistent-information research;
 2. object boundaries / recordhood / artifact / identity-change;
 3. minimum envelope → **minimum preservation closure**;
-4. change / status / temporal semantics.
+4. change / status / temporal semantics;
+5. organisation / derived views / retrieval semantics.
 
 Latest bounded result:
 
-- evolving persistent information cannot be adequately represented by generic `update`, one universal status, or one universal timestamp;
-- revision, migration/re-instantiation, derivation, supersession, correction, retraction, removal and destruction have distinct semantic effects;
-- resource/version lineage, currentness/designation, reliance standing, availability and preservation/custody history can vary independently;
-- effective/applicable time may differ from system-known/recorded time, while many named dates are typed event times rather than universal axes;
-- Records can preserve current/historical standing and system-known history but does not itself establish factual truth;
-- terminal destruction can coexist with retained disposition/destruction history where required;
-- no temporal/event-storage architecture has been selected.
+- organisation has separable context-preserving, descriptive/knowledge and access/retrieval roles, but these are semantic functions rather than mandatory separate components;
+- one resource can participate in multiple organisations/views when needed without losing one underlying identity;
+- `canonical vs derived` is too binary: derivation, access function, recordhood, recordkeeping/designation role and exact source/version/standing binding are separate dimensions;
+- retrieval sufficiency varies by information need, coverage, temporal/standing scope, freshness and precision/recall;
+- retrieval hit/miss support only claims justified by the view's coverage/freshness/sensitivity;
+- stale or historical views are not inherently wrong; mismatch between their as-of/freshness semantics and the use is the failure;
+- no search/storage/vector/graph/database architecture has been selected.
 
 The latest outputs are routed by `01_verticals/records-artifacts/INDEX.md`.
 
@@ -49,9 +50,9 @@ The latest outputs are routed by `01_verticals/records-artifacts/INDEX.md`.
 
 Current highest-information Records candidate:
 
-> **Organisation / canonical-vs-derived views / retrieval sufficiency** — how information should remain findable and reconstructable across canonical identity, indexes/summaries/caches, aggregations, version/standing history, and current/as-of retrieval without derived views becoming stale shadow authorities.
+> **Records profile / requirement derivation** — derive which identity, preservation, history, organisation, retrieval and assurance obligations apply for a specified resource/use/horizon/risk/transformational context before comparing storage/search mechanisms.
 
-This was re-derived from Pass 4 rather than inherited from the prior queue.
+This was re-derived from Pass 5 rather than inherited from the prior queue.
 
 ## Next authorised work
 
