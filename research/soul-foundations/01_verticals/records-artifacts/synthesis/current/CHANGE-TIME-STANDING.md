@@ -52,7 +52,7 @@ That does not require event sourcing, temporal tables, append-only storage or pr
 
 ## Counter-check corrections retained
 
-- the six-ish status dimensions are conditional semantic questions, not mandatory stored fields;
+- the status dimensions are conditional semantic questions, not mandatory stored fields;
 - source-domain labels such as publishing correction/retraction terms must not be universalized beyond their semantic effect;
 - `current/latest` can be role-, branch-, context- or effective-interval scoped and is not universally `max(timestamp)`;
 - timestamp ordering can still be sufficient in a domain that explicitly defines currentness that way;
@@ -69,4 +69,4 @@ Records can preserve current/historical **standing, state and what the system kn
 
 ## Audit / evidence route
 
-Read the historical blob referenced by the legacy change synthesis stub together with `CHANGE-STATUS-TEMPORAL-COUNTERCHECK.md`, then `sources/change-status-temporal-semantics.md` and exact primary sources.
+Use `../../INDEX.md` for the exact L4A adversarial/history route, L4B source-ledger route and L5 primary-source route for this topic.
