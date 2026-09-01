@@ -25,11 +25,9 @@ This is a research result about distinctions to preserve, **not** a SOUL data mo
 
 ## Status
 
-**Research is sufficiently complete for the current foundation purpose; user evaluation pending.**
+**Research is sufficiently complete for the current foundation purpose and was evaluated by the user as sufficient on 2026-09-01.**
 
 The completion/omission pass is same-model adversarial self-review, not independent verification.
-
-Do not treat this state as user acceptance.
 
 ## Read current surfaces
 
@@ -60,6 +58,6 @@ Historical/audit framing:
 
 ## Boundary
 
-This vertical does not authorise Records–Work–Actors synthesis, SOUL architecture, data-model design, implementation, another research vertical, or another research layer.
+Completion/evaluation of this vertical does not itself establish a Records–Work–Actors ontology, SOUL architecture, data model or implementation design.
 
-The next step is user evaluation of this Actors result.
+Control has returned to the parent `research/soul-foundations/` state. The next authorized activity is exploratory discussion across the three completed/evaluated verticals and existing SOUL/Development OS context to identify missing bridges, tensions and candidate research directions. No new substantive research layer is automatically authorized by that discussion.
