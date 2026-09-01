@@ -1,66 +1,111 @@
 # Environment — STATE
 
-**Status:** active independent foundation research  
+**Status:** bounded independent foundation research complete for current purpose; awaiting user evaluation  
 **Parent:** `research/soul-foundations/`  
 **Authorised:** 2026-09-01  
 **Research start:** 2026-09-01  
-**Current phase:** initial frame discrimination, source recovery and bounded topic findings
+**Bounded research completion:** 2026-09-01  
+**Current phase:** user evaluation gate
 
 ## Current research question
 
 > Does a coherent first-order problem region remain around boundary-relative external/world state, operating conditions, resources, affordances, tools/infrastructure, external systems/interfaces and observable/changeable conditions that cannot be represented without material loss as Records, Work, Actors or relations/qualifiers among them?
 
-## Current epistemic state
+## Current bounded judgment
 
-Established by parent project state:
-- Records, Work and Actors are sufficiently complete and user-evaluated for the current foundation purpose.
-- Environment is authorised for independent research but is not an established fourth leg.
-- relation/control/coordination fabric is a working cross-vertical hypothesis, not accepted architecture.
-- broad composition/relations research and architecture work are not authorised by this phase.
+**A distinct foundation problem region survives, but not as a validated mutually exclusive fourth object class or required architecture module.**
 
-Environment-local status:
-- initial working orientation created;
-- first external evidence pass started across system context/boundaries, context theory, affordances, agent–environment models, execution/runtime infrastructure and environmental ontology;
-- primary/authoritative recovery completed for the first boundary/context claims;
-- two bounded Environment-local findings are recorded:
-  - `findings/01-boundary-relative-environment.md` — Environment membership is not safely a context-free intrinsic object type; inside/outside semantics depend on system-of-interest, analytical purpose/level and boundary;
-  - `findings/02-context-is-not-environment.md` — context cannot safely be used as a synonym for Environment; contextual relevance can be interaction/activity dependent and differs from live world state or persistent representations of it;
-- these findings constrain the research frame but do not establish an independent fourth leg;
-- no bounded Environment synthesis/completeness judgment exists yet;
-- no Environment finding has been promoted to architecture truth.
+Strongest current account:
 
-## Current strongest live tensions
+> A controlled working system operates relative to a selected system-of-interest and boundary within an operating world whose current states, conditions and dynamics may change independently of the system's present Records, Work and Actor facts; those conditions can affect actionability/outcomes, may be partially observable, and are coupled through sensing, action, interfaces and resources.
 
-1. **Boundary-relative externality vs intrinsic category** — current evidence rejects an intrinsic `Environment object type` as a safe default; boundary/system-of-interest binding is load-bearing.
-2. **Represented context vs interactional context** — current evidence rejects `context = environment` and keeps representational and interactional context accounts distinct.
-3. **Actor capability vs world affordance/resource availability** — action possibility may depend on both bearer capability and current environmental conditions; whether this belongs to Environment or relation semantics remains open.
-4. **World/effect state vs persistent Records** — a changed or observed world state is not automatically identical to a persisted record of that state.
-5. **Unified Environment vs split region** — technical execution substrate/infrastructure may or may not belong to the same foundational region as physical/social/domain context.
-6. **Independent region vs relation fabric** — several promising distinctions may ultimately be better represented as typed relations rather than a fourth foundation leg.
+`Environment` remains a working research label. `Operating world` / `operating situation` are candidate alternative framings, not accepted terminology.
 
-Items 1–2 now have bounded topic findings. Items 3–6 remain active research tensions rather than settled findings.
+## Current result surfaces
 
-## Current next work
+Shortest orientation:
+- `KEY.md`
 
-- deepen affordance/resource/capability evidence and actively test whether it is better explained by Actor–Work–world relations than by an Environment leg;
-- recover runtime/infrastructure sources and test whether execution substrate is the same foundation region as world/domain context or a separate concern;
-- test current world/effect state against Records to distinguish live state, observation, evidence and persistence;
-- use agent–environment and distributed/extended-system framings to challenge stable system boundaries and tool categories;
-- actively search for counterexamples where Environment can be reduced without loss to Records, Work, Actors or relations;
-- preserve deferred cross-vertical questions without solving composition.
+Topic router:
+- `FINDINGS-MAP.md`
 
-## Stop / return condition
+Integrated result:
+- `synthesis/ENVIRONMENT-VERTICAL-SYNTHESIS.md`
 
-Do not stop merely because a plausible Environment taxonomy appears.
+Completeness / omission check:
+- `synthesis/COMPLETENESS-OMISSION-CHECK.md`
 
-A bounded Environment result should require:
-- materially distinct rival frames tested;
-- at least one serious attempt to dissolve or split the Environment region;
-- load-bearing claims traced to recoverable sources;
-- late omission/falsifier probes that no longer open new first-order families or that demonstrate the region should be split/dissolved;
-- explicit residual and deferred-relation surfaces;
-- user evaluation before any broader cross-vertical composition/relations or architecture work begins.
+Evidence:
+- `evidence/SOURCE-LEDGER.md`
 
-## Current handoff
+Residuals / relations:
+- `OPEN-QUESTIONS.md`
+- `DEFERRED-RELATIONS.md`
 
-This vertical remains active. Return to the parent foundations state only after a bounded result is ready for user evaluation or if a material blocker/conflict prevents further research.
+Research history:
+- `FRAME-EVOLUTION.md`
+- `ORIENTATION.md` (initial frame only; not current conclusion)
+
+## Current findings
+
+1. Environment membership is boundary/system-of-interest relative rather than an intrinsic object type.
+2. Context cannot safely be used as a synonym for Environment; relevance can be activity/interaction dependent.
+3. Actor capability does not determine situated actionability by itself; current external conditions/resources/interfaces can vary independently.
+4. Actual world state, observation, belief/knowledge and persistent Records are separable when partial observability, noise, delay or change matters.
+5. Tools, resources, runtime and infrastructure are boundary-/relation-dependent roles; runtime is a strong operating-world instance but no separate technical-environment family is required at foundation level.
+6. The strongest null reduction fails at the problem-region level: Records/Work/Actors can remain locally fixed while external state changes and feasibility/outcomes change. Typed relations may avoid a fourth module, but require external/world-state relata and therefore represent rather than eliminate the region.
+7. Late probes into physical hazards, institutional/social conditions, non-stationarity, multi-agent cases and scarce/shared resources mapped to the established distinctions rather than opening a new first-order family.
+
+## Strongest non-collapse rules
+
+- Environment/world state ≠ context.
+- World state ≠ observation ≠ belief ≠ Record.
+- Actor capability ≠ situated actionability.
+- Work state/effect ≠ underlying external condition.
+- Tool/resource/infrastructure ≠ intrinsic Environment entity.
+- Other Actor ≠ only Environment.
+- Boundary ≠ fixed natural fact.
+- Environment ≠ static metadata.
+
+## Completeness status
+
+The vertical reached bounded sufficiency because:
+- materially different rival frames were tested;
+- the initial fourth-leg interpretation was materially revised rather than confirmed;
+- a direct dissolution/null hypothesis test was performed;
+- load-bearing claims have source-recovery paths;
+- late omission probes increasingly mapped to existing distinctions;
+- remaining uncertainty is primarily refinement or cross-vertical relation/ownership.
+
+The completeness/omission check is **same-model adversarial self-review, not independent verification**.
+
+## Residual uncertainty
+
+Remaining questions include:
+- minimum sufficient world model per protected use;
+- boundary selection/change governance;
+- observability/controllability/model-mismatch semantics;
+- resource/capacity ownership;
+- social/institutional environment boundaries;
+- cross-level recurrence strength;
+- later relation/control/coordination representation.
+
+These do not currently justify more isolated Environment expansion absent a new falsifier.
+
+## Current authorization / handoff
+
+The independent Environment research phase has reached its authorised return condition.
+
+**NEXT AUTHORISED ACTIVITY: USER EVALUATION OF THE ENVIRONMENT RESULT.**
+
+Current evaluation handoff:
+- `../../ENVIRONMENT-EVALUATION-HANDOFF.md`
+
+Do **not** automatically launch broad cross-vertical composition/relations research, SOUL architecture, final ontology/data model or implementation.
+
+## Reopen condition
+
+Reopen substantive Environment research only on:
+- explicit user direction;
+- a material later falsifier;
+- or a later authorised synthesis exposing a decision-critical Environment distinction the current corpus cannot support.
