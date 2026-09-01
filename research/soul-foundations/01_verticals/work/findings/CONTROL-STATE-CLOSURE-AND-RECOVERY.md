@@ -132,24 +132,35 @@ At foundation level it is useful to keep apart:
 
 The evidence does not yet justify a universal field set; it does justify the orthogonality of these questions.
 
-## 8. Temporal state includes waiting and deadlines, not only duration
+## 8. Time, effort and waiting are different dimensions
 
-Coordination theory identifies prerequisite and simultaneity constraints [S05]. CMMN uses entry/exit criteria and event-driven transitions [S01][S02]. HTN task networks may contain ordering and interval constraints [S04].
+Coordination theory identifies prerequisite and simultaneity constraints [S05]. CMMN uses entry/exit criteria and event-driven transitions [S01][S02]. HTN task networks may contain ordering and interval constraints [S04]. PMI scheduling guidance explicitly distinguishes **effort/work**—labor units required—from **duration**, and warns that duration-percent-complete can be only a rough approximation of actual work progress because it is unrelated to the amount of work effort [S15].
 
 ### Finding
 
-Work time has multiple semantics:
+The Work problem has several materially different temporal/resource quantities:
 
-- processing duration;
-- waiting for prerequisites/events;
-- earliest/latest admissible timing;
-- synchronization or overlap constraints;
-- elapsed time across suspension;
-- recurrence or repeated execution.
+- **effort / work quantity:** labor or resource units required;
+- **processing duration:** work periods during which execution takes place;
+- **waiting:** time spent pending prerequisites, events, capacity or decisions;
+- **elapsed/span time:** wall-clock interval across processing, waiting and suspension;
+- **earliest/latest admissible timing:** timing imposed by constraints;
+- **synchronization / overlap:** temporal relations among activities;
+- **recurrence:** repeated execution over time.
 
-A single `start_at/end_at` pair cannot represent all of these meanings without losing why time matters.
+These quantities can change independently. More elapsed time does not imply more effort performed; the same effort can have different durations under different resource assignments; an item can wait without consuming its main processing effort.
 
-## 9. Closure semantics for continuing work differ from bounded work
+A single `start_at/end_at` pair or one duration-derived progress percentage therefore cannot represent all of these meanings without losing why time or capacity matters.
+
+## 9. Support work can be real Work without directly producing the terminal result
+
+PMI's scheduling guidance describes level-of-effort activities such as project management, accounting, liaison or preventive maintenance that support discrete work without themselves directly producing the final project product/service/result [S15]. This independently reinforces the coordination/articulation finding that support activity cannot be dismissed as non-Work merely because it is not a direct transformation step.
+
+### Finding
+
+A foundation should not define Work solely by direct contribution to the terminal deliverable. Some Work exists to sustain, coordinate, protect or enable the conditions under which other Work can proceed.
+
+## 10. Closure semantics for continuing work differ from bounded work
 
 The earlier units analysis found that ongoing operations/durable activities do not have one natural final completion event [S08][S14].
 
@@ -165,7 +176,7 @@ For continuing work, meaningful control may concern:
 
 Such work may have completed **episodes** while the larger responsibility remains open. Forcing the durable activity itself into `done` produces a false terminal state.
 
-## 10. Failure modes exposed by this lens
+## 11. Failure modes exposed by this lens
 
 Premature `todo / doing / done` semantics create predictable failure classes:
 
@@ -176,11 +187,13 @@ Premature `todo / doing / done` semantics create predictable failure classes:
 - **failure-as-terminal:** remediation/compensation/retry work is not represented;
 - **requiredness conflation:** optionality/applicability and execution state are mixed;
 - **temporal blindness:** waiting, synchronization and deadline semantics collapse into elapsed duration;
+- **effort–duration conflation:** labor/resource demand, processing duration and elapsed time are treated as one quantity;
+- **support-work erasure:** enabling/sustaining work disappears because it is not a direct deliverable-producing step;
 - **false terminality:** ongoing responsibilities are forced into artificial completion.
 
 ## Causal-depth note
 
-These failure modes are not merely UI/status naming problems. Their systemic cause would be a framing assumption that Work has one local lifecycle and one terminal success predicate. Renaming statuses without separating the underlying dimensions would address the symptom rather than the failure class.
+These failure modes are not merely UI/status naming problems. Their systemic cause would be a framing assumption that Work has one local lifecycle, one scalar progress/time quantity and one terminal success predicate. Renaming statuses or adding more timestamps without separating the underlying dimensions would address symptoms rather than the failure class.
 
 ## Deferred cross-vertical questions
 
