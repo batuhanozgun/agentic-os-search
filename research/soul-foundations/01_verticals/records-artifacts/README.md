@@ -8,17 +8,30 @@ The concern is broader than a database or file format: what information-bearing 
 
 ## Current status
 
-The first **foundational pass** reached its explicit return condition on 2026-09-01. The Records / Artifacts vertical itself remains open.
+The first **foundational pass** reached its explicit user-return condition on 2026-09-01. The Records / Artifacts vertical itself remains open.
 
 The pass established enough source-grounded structure to reject a storage-first framing and to prioritise narrower internal questions about recordness, identity, granularity, change and current-vs-historical truth.
 
-Read:
+## Canonical research outputs for this pass
 
-1. `STATE.md` — current vertical state and next logical/authorised boundary.
-2. `INDEX.md` — topic routing.
-3. `synthesis/FOUNDATIONAL-SYNTHESIS.md` — bounded current result.
-4. `synthesis/RETURN-CONDITION-REVIEW.md` — why the foundational pass stopped here.
-5. `sources/` — source ledgers for exact claim recovery.
+Read in this order:
+
+1. `STATE.md` — current vertical state and authorisation boundary.
+2. `INDEX.md` — topic/claim routing.
+3. `FOUNDATIONAL-SYNTHESIS.md` — main bounded synthesis for the completed pass.
+4. `SOURCES.md` — consolidated source ledger and source limitations.
+5. `OPEN-QUESTIONS.md` — prioritised internal Records research queue.
+6. `synthesis/RETURN-CONDITION-REVIEW.md` — self-review showing why the pass stopped at the user-return gate.
+
+Supporting detail:
+
+- `sources/` — narrower source ledgers grouped by lens; subordinate to `SOURCES.md` and used for claim recovery/deepening.
+- `synthesis/CONCEPT-BOUNDARIES.md` — provisional anti-confusion vocabulary.
+- `synthesis/FAILURE-MODES.md` — research-derived failure inventory for later model falsification.
+- `DEFERRED-RELATIONS.md` — cross-vertical observations deliberately not solved here.
+- `RESEARCH-PLAN.md` — the completed pass question, evidence strategy, counter-frames and return condition.
+
+No duplicate foundational synthesis or duplicate open-question source of truth is maintained under `synthesis/`.
 
 ## Starting questions
 
@@ -39,7 +52,7 @@ These remain probes, not a fixed taxonomy or exhaustive research plan.
 
 ## Bounded findings from the foundational pass
 
-The current evidence supports these anti-collapse rules without yet fixing a final ontology:
+The current evidence supports these anti-collapse rules without fixing a final ontology:
 
 - `record` is not safely equivalent to `stored information`, file, document, row or artifact;
 - preserved bits are not the same as preserved meaning or record continuity;
@@ -51,19 +64,7 @@ The current evidence supports these anti-collapse rules without yet fixing a fin
 - current-state, multiversion, event-history, immutable-object and graph patterns are alternative mechanisms, not predetermined architecture choices;
 - archival theory itself contains competing `recordness` frames, including contextual/emergent views, so a universal `Record` object class is not yet justified.
 
-See `synthesis/FOUNDATIONAL-SYNTHESIS.md` for evidence-calibrated detail and caveats.
-
-## Package structure
-
-- `RESEARCH-PLAN.md` — scope, lenses, counter-frames and pass return condition.
-- `INDEX.md` — retrieval routing.
-- `sources/` — source ledgers, separated from synthesis.
-- `synthesis/FOUNDATIONAL-SYNTHESIS.md` — bounded result.
-- `synthesis/CONCEPT-BOUNDARIES.md` — provisional anti-confusion vocabulary.
-- `synthesis/FAILURE-MODES.md` — failure inventory for later design falsification.
-- `synthesis/OPEN-QUESTIONS.md` — prioritised unresolved questions.
-- `synthesis/RETURN-CONDITION-REVIEW.md` — self-review of the completed pass.
-- `DEFERRED-RELATIONS.md` — cross-vertical observations deliberately not solved here.
+See `FOUNDATIONAL-SYNTHESIS.md` for evidence-calibrated detail and caveats.
 
 ## Vertical isolation
 
@@ -77,4 +78,4 @@ The terms `records-artifacts` are provisional labels for the research target. If
 
 ## Epistemic rule
 
-Research findings are not SOUL architecture decisions. Source ledgers and synthesis are derived research views; load-bearing exact claims must remain recoverable to their primary sources.
+Research findings are not SOUL architecture decisions. `SOURCES.md`, detailed ledgers, indexes and syntheses are derived research views; load-bearing exact claims must remain recoverable to their primary sources.
