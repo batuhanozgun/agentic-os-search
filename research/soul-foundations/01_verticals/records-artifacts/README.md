@@ -4,11 +4,25 @@
 
 Research the records / artifacts problem domain independently before using it inside a broader SOUL architecture model.
 
-The starting concern is broader than a database or file format: what information-bearing things persist across time, what makes them identifiable and trustworthy, how they are represented and stored, how they change, how they are organised and related, and how they can be found and recovered later.
+The concern is broader than a database or file format: what information-bearing things persist across time, what makes them identifiable and trustworthy, how they are represented and stored, how they change, how they are organised and related, and how they can be found and recovered later.
+
+## Current status
+
+The first **foundational pass** reached its explicit return condition on 2026-09-01. The Records / Artifacts vertical itself remains open.
+
+The pass established enough source-grounded structure to reject a storage-first framing and to prioritise narrower internal questions about recordness, identity, granularity, change and current-vs-historical truth.
+
+Read:
+
+1. `STATE.md` — current vertical state and next logical/authorised boundary.
+2. `INDEX.md` — topic routing.
+3. `synthesis/FOUNDATIONAL-SYNTHESIS.md` — bounded current result.
+4. `synthesis/RETURN-CONDITION-REVIEW.md` — why the foundational pass stopped here.
+5. `sources/` — source ledgers for exact claim recovery.
 
 ## Starting questions
 
-The research begins from questions such as:
+The research began from questions such as:
 
 - What is a record? What is an artifact? Are these the same category?
 - What distinctions exist among data, information, record, document, state, event, fact, claim, evidence, knowledge, memory, and derived view?
@@ -18,21 +32,49 @@ The research begins from questions such as:
 - How are provenance, authorship, lineage, authority, validity, and time represented?
 - How is information organised without creating multiple conflicting sources of truth?
 - How is information indexed, searched, retrieved, reconstructed, and re-contextualised later?
-- What are the relevant failure modes: loss, duplication, staleness, ambiguity, corruption, untraceable derivation, inaccessible storage, retrieval failure, and context distortion?
+- What failure modes recur across different record/storage paradigms?
 - Which principles are stable across filesystems, databases, version control, event logs, archives, knowledge systems, and other storage/record paradigms?
 
-These questions are starting probes, not a fixed taxonomy or exhaustive research plan.
+These remain probes, not a fixed taxonomy or exhaustive research plan.
+
+## Bounded findings from the foundational pass
+
+The current evidence supports these anti-collapse rules without yet fixing a final ontology:
+
+- `record` is not safely equivalent to `stored information`, file, document, row or artifact;
+- preserved bits are not the same as preserved meaning or record continuity;
+- record identity can differ from version identity, content identity and locator;
+- time has multiple semantics; one generic timestamp is insufficient for many record histories;
+- provenance, context and relationships can carry record meaning outside the payload;
+- organisation for preserving context and organisation for access/search are different functions;
+- retention/disposition is part of records management; `keep everything forever` is not a neutral default;
+- current-state, multiversion, event-history, immutable-object and graph patterns are alternative mechanisms, not predetermined architecture choices;
+- archival theory itself contains competing `recordness` frames, including contextual/emergent views, so a universal `Record` object class is not yet justified.
+
+See `synthesis/FOUNDATIONAL-SYNTHESIS.md` for evidence-calibrated detail and caveats.
+
+## Package structure
+
+- `RESEARCH-PLAN.md` — scope, lenses, counter-frames and pass return condition.
+- `INDEX.md` — retrieval routing.
+- `sources/` — source ledgers, separated from synthesis.
+- `synthesis/FOUNDATIONAL-SYNTHESIS.md` — bounded result.
+- `synthesis/CONCEPT-BOUNDARIES.md` — provisional anti-confusion vocabulary.
+- `synthesis/FAILURE-MODES.md` — failure inventory for later design falsification.
+- `synthesis/OPEN-QUESTIONS.md` — prioritised unresolved questions.
+- `synthesis/RETURN-CONDITION-REVIEW.md` — self-review of the completed pass.
+- `DEFERRED-RELATIONS.md` — cross-vertical observations deliberately not solved here.
 
 ## Vertical isolation
 
-This research may discover that records depend on work, actors, authority, or other concepts. Such relations should be captured as deferred relational questions when they matter, but the active research should not turn into Work, Actors, orchestration, or SOUL architecture research.
+This research may discover that records depend on work, actors, authority, or other concepts. Such relations are captured in `DEFERRED-RELATIONS.md` when material, but the active research does not turn into Work, Actors, orchestration, Development System, or SOUL architecture research.
 
-Isolation is methodological only. It must not assume records are ontologically independent.
+Isolation is methodological only. It does not assume records are ontologically independent.
 
 ## Scope evolution
 
 The terms `records-artifacts` are provisional labels for the research target. If evidence shows that the domain should be split, renamed, expanded, or reframed, the research structure may change explicitly rather than forcing findings into the initial label.
 
-## Output expectation
+## Epistemic rule
 
-The eventual output should be a source-grounded research package that distinguishes observations, competing models, trade-offs, failure modes, unresolved questions, and bounded synthesis. It should be usable by later research without requiring old chat history.
+Research findings are not SOUL architecture decisions. Source ledgers and synthesis are derived research views; load-bearing exact claims must remain recoverable to their primary sources.
