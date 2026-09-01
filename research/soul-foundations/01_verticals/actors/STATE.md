@@ -1,43 +1,70 @@
 # Actors — STATE
 
-**Status:** active; authorised  
+**Status:** sufficiently complete for current foundation purpose; user evaluation pending  
 **Parent:** `research/soul-foundations/`  
 **Authorised:** 2026-09-01  
-**Current phase:** independent Actors foundation research
+**Bounded research completion:** 2026-09-01  
+**Current phase:** user evaluation gate
 
-## Authorised scope
+## Current judgment
 
-Research the provisional `Actors` problem region independently from first principles for the current SOUL Foundations purpose.
+The independent Actors foundation research has reached bounded sufficiency for the current SOUL Foundations purpose.
 
-`Actors` is a research label, not an accepted primitive, ontology class, or required final vertical. The research must actively test non-Actor-centred explanatory frames and may split, replace, or weaken this framing if evidence supports doing so.
+This does **not** mean:
+- `Actor` was validated as a SOUL primitive;
+- the vertical was independently verified;
+- the user has accepted the result;
+- cross-vertical synthesis or a later research layer is authorised.
 
-## Current research rule
+The strongest current result is a relational, multi-anchor account in which persistent bearers, role/position, context/time, situations/episodes, possible/expected conduct, participation, capability/competence, authority/obligation, representation/delegation, attribution/responsibility/accountability and collective/non-human agency levels remain separable when material.
 
-- Do not import substantive Records or Work conclusions as Actors axioms.
-- Recover another vertical only when a concrete Actors question requires it, and only to the minimum depth needed.
-- Record cross-vertical relations for later study instead of solving the combined model here.
-- Do not proceed from Actors into cross-vertical synthesis, SOUL architecture, implementation, or another research layer without explicit user direction.
+## Why research stopped
 
-## Current working stage
+Bounded completion is based on:
 
-Initial orientation and evidence discovery are authorised. The research should separate established context, working hypotheses, open questions, and decision-critical assumptions before settling on any topic structure.
+- serious testing of multiple rival frames, including an explicit non-Actor-centred action-event/participation frame;
+- a material late falsifier: omission/refraining showed that literal positive-event centring was also insufficient and forced frame revision;
+- separation of shared/joint agency from corporate/group agency;
+- targeted later probes into trust, fiduciary duty, competence, consent/control, separation of duty, apparent authority and additional collective cases predominantly mapping to established dimensions rather than opening new first-order families;
+- recoverable source/view paths for load-bearing claims;
+- explicit separation of Actors-local uncertainty and deferred cross-vertical relations;
+- progressive retrieval closure.
 
-Repository structure beyond this state surface should be allowed to emerge from the distinctions found in the research rather than copied mechanically from Records or Work.
+The completeness/omission check is same-model adversarial self-review, **not independent verification**.
 
-## Completion condition
+## Preferred current reading path
 
-Bounded completion is not tied to a fixed number of passes. It requires, at minimum:
+`KEY.md → FINDINGS-MAP.md → synthesis/ACTORS-VERTICAL-SYNTHESIS.md → relevant findings/*.md → completeness check or source ledger → primary/authoritative source`
 
-- serious testing of strong alternative frames, including a non-Actor-centred analysis unit;
-- evidence-backed first-order distinctions with recoverable source paths;
-- targeted omission / counter-check work showing diminishing discovery of new first-order distinctions;
-- explicit separation of strong results, remaining Actors-local uncertainty, and deferred cross-vertical relations;
-- a progressive retrieval path from short orientation to synthesis, topic detail, audit/evidence trace, and primary sources;
-- freshness/version binding for the preferred current reading surfaces;
-- a final canonical consistency re-read.
+Router:
+- `INDEX.md`
 
-Any same-model adversarial completion check must be labelled self-review rather than independent verification.
+Freshness/version binding:
+- `CURRENT-SURFACES.md`
+
+## Residual surfaces
+
+Actors-local uncertainty:
+- `OPEN-QUESTIONS.md`
+
+Cross-vertical deferrals:
+- `DEFERRED-RELATIONS.md`
+
+## Reopen condition
+
+Reopen substantive Actors research only on:
+- explicit user direction;
+- a material later falsifier;
+- or a later authorized synthesis exposing a decision-critical Actors distinction that the current corpus cannot support.
+
+The existence of more literature, terminology or domain-specific refinements alone is not sufficient reason to reopen.
+
+## Next logical work
+
+User evaluation of the Actors result.
 
 ## Next authorised work
 
-Continue the independent Actors foundation research only.
+**NO NEW SUBSTANTIVE RESEARCH PHASE IS AUTHORISED.**
+
+Repository consistency/freshness maintenance needed to complete this bounded handoff is allowed. Do not start cross-vertical synthesis, architecture, implementation, another vertical or another research layer without explicit user direction.
