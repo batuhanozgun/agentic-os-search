@@ -1,6 +1,6 @@
 # Records / Persistent Information — STATE
 
-**Status:** active vertical; minimum-preservation-closure pass return condition met  
+**Status:** active vertical; change/status/temporal pass return condition met  
 **Parent:** `research/soul-foundations/`  
 **Last updated:** 2026-09-01  
 **User-return gate:** YES
@@ -15,165 +15,128 @@ The package directory remains `records-artifacts/` for continuity. `Artifact` is
 
 # Completed research passes
 
-## Pass 1 — Foundational Records research
+1. **Foundational Records / persistent-information** — recordhood/problem structure; rejected storage-first framing.
+2. **Object boundaries / artifact / identity-change** — separated resource, record role, version, representation, derivation and aggregation; rejected unqualified `artifact` as super-category.
+3. **Minimum envelope → minimum preservation closure** — rejected universal object-local metadata bundle; established profile-relative information/dependency closure.
+4. **Change / status / temporal semantics** — rejected generic `update`, one universal status enum, and one universal timestamp model; established architecture-neutral reconstructability semantics.
 
-**Status:** completed at return condition.
+## Pass 4 outputs
 
-Question:
-- what a record is;
-- what must persist for trustworthy later use;
-- which early information/state/evidence/knowledge distinctions are load-bearing.
-
-Primary outputs:
-- `RESEARCH-PLAN.md`
-- `FOUNDATIONAL-SYNTHESIS.md`
-- `SOURCES.md`
-- supporting source/synthesis modules.
-
-## Pass 2 — Object boundaries / recordhood / artifact / identity-change
-
-**Status:** completed at return condition.
-
-Primary outputs:
-- `OBJECT-BOUNDARIES-PLAN.md`
-- `synthesis/OBJECT-BOUNDARIES.md`
-- `synthesis/ARTIFACT-COUNTERCHECK.md`
-- pass-specific source ledgers.
-
-Bounded result:
-- higher-level resource identity, record role/status, representation/instantiation, copy, version/revision, semantic derivation and aggregation must not be collapsed;
-- unqualified `artifact` is not retained as a foundational Records super-category.
-
-## Pass 3 — Minimum persistent-information / record envelope
-
-**Status:** completed at return condition.
-
-Approved/re-anchored plan:
-- `MINIMUM-ENVELOPE-PLAN.md`
-
-Primary result:
-- `synthesis/MINIMUM-ENVELOPE.md`
-
-Adversarial check:
-- `synthesis/MINIMUM-ENVELOPE-COUNTERCHECK.md`
-
-Pass-specific source trace:
-- `sources/minimum-envelope.md`
+- plan: `CHANGE-LIFECYCLE-PLAN.md`
+- synthesis: `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md`
+- adversarial check: `synthesis/CHANGE-STATUS-TEMPORAL-COUNTERCHECK.md`
+- source ledger: `sources/change-status-temporal-semantics.md`
 
 ---
 
 # Current bounded result
 
-The third pass materially reframed `minimum envelope`.
+## Change is multidimensional
 
-The evidence does **not** support one universal metadata bundle physically attached to every persistent information object.
+Do not collapse:
 
-The current working research model is:
+- creation/generation vs capture/registration;
+- revision/version vs representation migration/re-instantiation;
+- semantic derivation vs revision;
+- supersession vs correction;
+- correction vs generic revision/enhancement;
+- retraction/reliance withdrawal vs removal/access unavailability;
+- removal vs destruction/disposition;
+- preservation/custody events vs resource standing/version semantics.
 
-> **Minimum preservation closure** = the smallest set of information, relationships, interpretive dependencies, controls and reliable bindings — intrinsic or externally/inheritedly available — required for a specified future use of a specified resource class at a specified horizon/risk level.
+## One universal `status` is not supported
 
-This is a local research synthesis, not a standard or SOUL component.
+Independent status/standing questions can include:
 
-## Parameters that change the minimum
+- production/reproduction state;
+- identity/version lineage;
+- role/context-scoped currentness/designation/precedence;
+- reliance/editorial standing;
+- availability/presence;
+- preservation/custody history.
 
-- intended future use / protected capability;
-- resource class/structure;
-- retention horizon and expected environmental change;
-- risk/consequence/security/legal obligations;
-- expected transformations;
-- target future knowledge base / community.
+These are conditional semantic dimensions, **not mandatory stored fields**. A resource profile may merge dimensions when they cannot vary independently for its protected use.
 
-## Recurring preservation-closure obligation families
+## Temporal result
 
-- referential identity + exact binding;
-- interpretability / representation information;
-- origin / provenance / contextual history;
-- temporal / version / status information when change matters;
-- integrity/continuity evidence proportional to horizon/risk/control model;
-- relations/aggregation/derivation when dependencies exist;
-- rights/access/use constraints when applicable;
-- discovery/retrieval path at system level.
+One generic timestamp is insufficient when domain-effective standing and system knowledge diverge.
 
-Two meta-obligations were newly exposed:
+The strongest general distinction is:
 
-- preservation/use objective + target knowledge base;
-- significant / transformational properties when preservation includes transformation.
+- **effective/applicable time** — when a fact/status/relation applies in the governed/modelled domain;
+- **system-known/recorded time** — when the managing system learned/recorded/asserted it.
 
-These are obligation families, not fields.
+Creation, capture, publication, correction, retraction, migration, transfer, destruction, etc. are normally **typed event occurrence times**, not automatically universal independent temporal axes.
 
-## Important placement result
+## Terminology correction
 
-Required information does not have to be embedded in every object.
+The earlier phrase `current truth / historical truth` is retired.
 
-It may be:
+Records semantics preserve:
 
-- intrinsic/embedded;
-- externally linked;
-- represented in a provenance/relation graph;
-- inherited from controlled aggregate/system context;
-- known through preserved business/system rules;
-- deterministically reconstructed from preserved inputs.
+- current standing/designation;
+- historical state/standing;
+- system-known historical state when required;
+- identity/provenance lineage.
 
-But external/inherited/reconstructed knowledge is only sufficient while dependency survivability, exact binding, version correctness, interpretability and transfer/materialisation requirements are protected for the horizon.
+They do **not** establish factual truth or evidential sufficiency.
 
-## What the pass rejected
+## Reconstructability result
 
-- one universal minimum metadata list;
-- `more metadata is always safer`;
-- all required metadata must live inside each object;
-- persistent ID alone solves identity;
-- per-object checksum is a universal preservation minimum;
-- provenance alone preserves meaning/trust;
-- semantic discovery metadata must be intrinsic to every object;
-- retention horizon alone determines required metadata depth.
+A current snapshot alone can lose history/transition meaning. A raw event list alone can also be insufficient if event semantics, identity binding, effective time, or currentness rules are not preserved.
 
-## Boundary preserved
+The architecture-neutral obligation is:
 
-The closure model does **not** establish factual truth, evidential sufficiency, correct reasoning, actor authority, or implementation topology.
+> preserve enough typed change facts, standing assertions, identity/lineage relations, temporal semantics and provenance bindings to reconstruct the views required by the preservation/reuse profile.
 
-Retention/disposition remains a neighbouring Records lifecycle problem rather than being solved by the closure model.
+No event-sourcing or temporal-database architecture is implied.
 
----
+## Disposition boundary
 
-# Current highest-information unknowns
+Disposition remains in Records only at the terminal information-history boundary:
 
-Prioritised in `OPEN-QUESTIONS.md`.
+- transfer vs disposal/destruction are distinct;
+- destruction can make payload irrecoverable while certifiable destruction history/identity remains where required.
 
-Highest candidate:
-
-> **How should persistent information change through time — creation, revision, supersession, correction, retraction/invalidation, derivation, migration and disposition — so that current status/truth, historical truth, identity and provenance remain simultaneously reconstructable?**
-
-Other major open questions:
-
-- identity/significant-property thresholds under transformation;
-- profile derivation from use/class/horizon/risk/community;
-- broader neutral persistent-information category;
-- aggregation/relation semantics;
-- external dependency survivability;
-- retrieval sufficiency;
-- retention/deletion/disposition semantics.
+Retention schedules, legal holds, authority, approvals and execution workflow remain deferred.
 
 ---
 
-# Return-condition verdict — minimum-closure pass
+# Pass 4 return-condition verdict
 
 **MET.**
 
-- candidate obligations were tested across records metadata, digital preservation, provenance, archival context, citation/data stewardship and government minimum-profile sources;
-- invariant-purpose vs conditional vs useful-but-nonminimum distinctions are explicit at bounded conceptual level;
-- intrinsic/external/inherited placement was tested with failure cases;
-- class/risk/horizon sensitivity was tested;
-- an adversarial omission/counterexample pass was completed;
-- `minimum envelope` was reframed rather than accepted unchanged;
-- no storage/schema/retrieval technology or SOUL architecture was selected;
-- source trace and residual questions are persisted;
-- next logical Records direction was re-derived from findings rather than inherited from the pre-pass plan.
+- main change kinds compared across independent publishing/versioning, provenance, preservation, temporal-data, archival and records-management sources;
+- status vocabulary reduced to semantic dimensions rather than copied as one enum;
+- time distinctions tested and bounded;
+- identity/provenance effects made explicit;
+- current/historical reconstruction requirements explicit;
+- disposition kept inside the Records semantic boundary without authority/workflow drift;
+- adversarial pass challenged over-separation, source-term collisions, architecture contamination, time overfitting and currentness assumptions;
+- source trace and synthesis persisted;
+- no storage architecture, Work model, Actors model, authority system or SOUL schema selected.
 
-This is a research-process checkpoint, **not independent proof of a universal model** and not completion of the Records vertical.
+This is a research-process checkpoint, **not independent proof of a universal lifecycle model** and not completion of the Records vertical.
+
+---
+
+# Current highest-information unknown
+
+The first four passes now establish enough about:
+
+- what persistent objects/records are;
+- what information closure must survive;
+- how change/status/time must remain semantically reconstructable.
+
+The next major Records gap is now:
+
+> **How should persistent information be organised and retrieved so canonical identity, derived/discovery views, aggregations, version/standing history, and current/as-of retrieval remain distinguishable without stale indexes/summaries becoming shadow authorities?**
+
+See `OPEN-QUESTIONS.md`.
 
 ## Next logical work
 
-A bounded **change / status / temporal lifecycle semantics** pass is currently highest-information.
+A bounded **organisation / canonical-vs-derived views / retrieval sufficiency** pass.
 
 ## Next authorised work
 
@@ -183,8 +146,8 @@ Do not automatically execute another long pass.
 
 Before continuation:
 
-1. restate the proposed purpose;
-2. define scope and exclusions;
+1. restate/re-evaluate purpose and direction;
+2. define scope/exclusions;
 3. define operational return condition;
 4. obtain user approval;
 5. then work to that return condition without stopping at the first useful finding.
