@@ -1,20 +1,21 @@
 # Actors — STATE
 
-**Status:** sufficiently complete for current foundation purpose; user evaluation pending  
+**Status:** sufficiently complete for current foundation purpose; evaluated  
 **Parent:** `research/soul-foundations/`  
 **Authorised:** 2026-09-01  
 **Bounded research completion:** 2026-09-01  
-**Current phase:** user evaluation gate
+**User evaluation:** accepted as sufficient on 2026-09-01  
+**Current phase:** closed independent vertical; reopen only by condition below
 
 ## Current judgment
 
-The independent Actors foundation research has reached bounded sufficiency for the current SOUL Foundations purpose.
+The independent Actors foundation research has reached bounded sufficiency for the current SOUL Foundations purpose and has been evaluated by the user as sufficient.
 
 This does **not** mean:
 - `Actor` was validated as a SOUL primitive;
 - the vertical was independently verified;
-- the user has accepted the result;
-- cross-vertical synthesis or a later research layer is authorised.
+- the three-vertical decomposition was validated as final ontology;
+- SOUL architecture, a data model, implementation design or a later research layer has been decided.
 
 The strongest current result is a relational, multi-anchor account in which persistent bearers, role/position, context/time, situations/episodes, possible/expected conduct, participation, capability/competence, authority/obligation, representation/delegation, attribution/responsibility/accountability and collective/non-human agency levels remain separable when material.
 
@@ -55,16 +56,12 @@ Cross-vertical deferrals:
 Reopen substantive Actors research only on:
 - explicit user direction;
 - a material later falsifier;
-- or a later authorized synthesis exposing a decision-critical Actors distinction that the current corpus cannot support.
+- or a later authorized synthesis/research phase exposing a decision-critical Actors distinction that the current corpus cannot support.
 
 The existence of more literature, terminology or domain-specific refinements alone is not sufficient reason to reopen.
 
-## Next logical work
+## Current handoff
 
-User evaluation of the Actors result.
+Actors now returns control to the parent `research/soul-foundations/` state.
 
-## Next authorised work
-
-**NO NEW SUBSTANTIVE RESEARCH PHASE IS AUTHORISED.**
-
-Repository consistency/freshness maintenance needed to complete this bounded handoff is allowed. Do not start cross-vertical synthesis, architecture, implementation, another vertical or another research layer without explicit user direction.
+The currently authorized parent activity is an exploratory discussion across the three completed/evaluated verticals and existing SOUL/Development OS context in order to identify the questions and research directions between these foundations and later SOUL work. That discussion is **not itself an authorization to convert research findings into architecture or to launch a new substantive research layer automatically**.
