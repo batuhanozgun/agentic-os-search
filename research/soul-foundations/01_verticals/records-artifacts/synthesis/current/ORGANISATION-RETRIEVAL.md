@@ -64,4 +64,4 @@ Plural organisation does not imply graph architecture. Typed relations can be re
 
 ## Audit / evidence route
 
-Read the historical blob referenced by the legacy organisation/retrieval synthesis stub with `ORGANISATION-RETRIEVAL-COUNTERCHECK.md`, then `sources/organisation-retrieval-semantics.md` and primary sources.
+Use `../../INDEX.md` for the exact L4A adversarial/history route, L4B source-ledger route and L5 primary-source route for this topic.
