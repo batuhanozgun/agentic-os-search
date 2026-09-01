@@ -7,7 +7,7 @@
 
 - **Layer 0 — bounded context / prior-repository reconstruction:** COMPLETE for current purpose in `research/soul-context/`.
 - **Layer 1A — Records / persistent-information:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE.
-- **Layer 1B — Work:** NOT STARTED; NOT AUTHORISED.
+- **Layer 1B — Work:** ACTIVE; EXPLICITLY AUTHORISED on 2026-09-01 after Records evaluation.
 - **Layer 1C — Actors:** NOT STARTED; NOT AUTHORISED.
 - **Next layer after Layer 1:** UNDETERMINED.
 
@@ -23,35 +23,32 @@ Completeness result:
 - remaining Records unknowns are refinements, implementation assurance or cross-vertical questions;
 - reopen Records only on a material later falsifier.
 
+The completed Records evaluation produced an explicit next-direction decision: begin the independent Work vertical. Records substantive findings do not become Work axioms.
+
 ## Guardrails
 
 - Records, Work and Actors remain a **research decomposition hypothesis**, not final ontology.
-- Completion of one vertical does not automatically authorise or validate the next vertical.
-- After a vertical reaches its bounded completion condition, first evaluate that vertical's result, omissions, implications, and the Layer-1 decomposition before selecting the next research direction.
-- Each future vertical, if selected, must begin from first principles and must not inherit prior vertical conclusions as axioms.
+- Completion or prior sequencing of one vertical does not establish ontological dependence or priority among verticals.
+- Each vertical begins from first principles and must not inherit another vertical's substantive conclusions as axioms.
 - Cross-vertical observations may be recorded but must not redirect an independent vertical into premature synthesis.
 - No `02_*` or later research layer is authorised merely because a plausible structure can be imagined.
 - Research findings do not become SOUL architecture decisions without a later explicit synthesis/decision path.
+- A bounded-complete vertical returns to the user for evaluation; it does not automatically authorise the next vertical or synthesis stage.
 
 ## Current sequencing
 
-**STOP AFTER RECORDS AND EVALUATE.**
+**WORK IS THE ACTIVE INDEPENDENT VERTICAL.**
 
-Do not start Work, Actors, cross-vertical synthesis, or a later layer automatically.
+Research Work as a problem domain without assuming that `Work` is the correct final category, without importing Records as a substantive starting ontology, and without solving Actors or cross-vertical architecture.
 
-The immediate task is to evaluate the completed Records vertical and then decide, with the user, whether:
-
-- Records needs reopening;
-- another independent vertical should begin;
-- the Layer-1 decomposition should change;
-- or another research step is more appropriate.
+Do not start Actors, cross-vertical synthesis, or a later layer automatically.
 
 ## Next logical work
 
-Evaluate the completed Records vertical as a whole: what was established, what remains uncertain, whether the current stopping condition is justified, and what the evidence implies for the next research direction.
+Establish and test a sufficiently broad first-principles research framing for Work, then pursue the highest-information research questions revealed by evidence. Preserve currentness, uncertainties, source traceability, and historical versus current conclusions as the vertical develops.
 
 ## Next authorised work
 
-**RECORDS VERTICAL EVALUATION ONLY.**
+**WORK VERTICAL INDEPENDENT FOUNDATIONS RESEARCH ONLY**, plus repository-state/routing maintenance necessary to preserve that work accurately.
 
-Work and Actors remain unauthorised until that evaluation produces an explicit next-direction decision.
+Actors and cross-vertical synthesis remain unauthorised.
