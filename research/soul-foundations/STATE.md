@@ -7,8 +7,8 @@
 
 - **Layer 0 — bounded context / prior-repository reconstruction:** COMPLETE for current purpose in `research/soul-context/`.
 - **Layer 1A — Records / persistent-information:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE.
-- **Layer 1B — Work:** READY TO START INDEPENDENTLY.
-- **Layer 1C — Actors:** NOT STARTED.
+- **Layer 1B — Work:** NOT STARTED; NOT AUTHORISED.
+- **Layer 1C — Actors:** NOT STARTED; NOT AUTHORISED.
 - **Next layer after Layer 1:** UNDETERMINED.
 
 ## Records checkpoint
@@ -26,22 +26,32 @@ Completeness result:
 ## Guardrails
 
 - Records, Work and Actors remain a **research decomposition hypothesis**, not final ontology.
-- Completion of Records does not validate Work/Actors as ontological primitives.
-- Each next vertical must begin from first principles and must not inherit prior vertical conclusions as axioms.
+- Completion of one vertical does not automatically authorise or validate the next vertical.
+- After a vertical reaches its bounded completion condition, first evaluate that vertical's result, omissions, implications, and the Layer-1 decomposition before selecting the next research direction.
+- Each future vertical, if selected, must begin from first principles and must not inherit prior vertical conclusions as axioms.
 - Cross-vertical observations may be recorded but must not redirect an independent vertical into premature synthesis.
 - No `02_*` or later research layer is authorised merely because a plausible structure can be imagined.
 - Research findings do not become SOUL architecture decisions without a later explicit synthesis/decision path.
 
 ## Current sequencing
 
-The next agreed independent Layer-1 vertical is **Work**.
+**STOP AFTER RECORDS AND EVALUATE.**
 
-Work should be re-anchored from its own question — what work/action/task/process/planning/execution semantics are — while treating Records findings only as possible later relational counterexamples, not as foundational truth for Work.
+Do not start Work, Actors, cross-vertical synthesis, or a later layer automatically.
 
-Actors remains untouched until its independent vertical begins.
+The immediate task is to evaluate the completed Records vertical and then decide, with the user, whether:
+
+- Records needs reopening;
+- another independent vertical should begin;
+- the Layer-1 decomposition should change;
+- or another research step is more appropriate.
 
 ## Next logical work
 
-Start the Work vertical with a first-principles foundational pass.
+Evaluate the completed Records vertical as a whole: what was established, what remains uncertain, whether the current stopping condition is justified, and what the evidence implies for the next research direction.
 
-The result of Work may alter the framing or expose that the Layer-1 decomposition itself needs revision. The next layer remains undetermined.
+## Next authorised work
+
+**RECORDS VERTICAL EVALUATION ONLY.**
+
+Work and Actors remain unauthorised until that evaluation produces an explicit next-direction decision.
