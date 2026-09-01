@@ -12,22 +12,29 @@ Establish a first-principles, source-grounded understanding of the records / art
 
 The foundational pass asked what a record is, what must persist for later trustworthy use, and which distinctions among data, information, document, record, state, event, claim, evidence, knowledge, memory, and derived representation are load-bearing.
 
-Outputs:
+Canonical outputs:
 
 - `RESEARCH-PLAN.md` — question, lenses, counter-frames and return condition.
-- `SOURCES.md` — cross-disciplinary source ledger and limitations.
-- `FOUNDATIONAL-SYNTHESIS.md` — bounded synthesis, falsified simplifications, candidate invariant properties and failure surfaces.
-- `OPEN-QUESTIONS.md` — prioritised next questions and deferred cross-vertical relations.
+- `SOURCES.md` — consolidated cross-disciplinary source ledger and limitations.
+- `FOUNDATIONAL-SYNTHESIS.md` — main bounded synthesis.
+- `OPEN-QUESTIONS.md` — prioritised next internal Records questions.
+- `synthesis/CONCEPT-BOUNDARIES.md` — supporting provisional term boundaries.
+- `synthesis/FAILURE-MODES.md` — supporting failure inventory.
+- `synthesis/RETURN-CONDITION-REVIEW.md` — self-review of the pass return condition.
+- `sources/` — subordinate detailed source ledgers by lens.
+- `DEFERRED-RELATIONS.md` — cross-vertical observations deliberately not solved here.
+
+The package has been consolidated so there is one main foundational synthesis and one main open-question queue; supporting subdirectories do not maintain competing copies.
 
 ## Foundational result
 
 The pass does not support `record = file`, `record = anything persisted`, `preserve bytes = preserve meaning`, `immutable = true/trustworthy`, or `stored = retrievable` as adequate general models.
 
-The strongest bounded synthesis is that recordhood is contextual/functional rather than a storage format, and durable trustworthy reuse can require separable properties including identity, representation/interpretability, context, provenance, temporal semantics, integrity/change trace, authority/status, relations, findability/retrievability and lifecycle/retention.
+The strongest bounded synthesis is that recordhood is at least materially contextual/functional rather than a storage format, but the deeper `type vs managed role/status vs family of record types` question remains open. Durable trustworthy reuse can require separable properties including identity, representation/interpretability, context, provenance, temporal semantics, integrity/change trace, authority/status, relations, findability/retrievability and lifecycle/retention.
 
-`record` and `artifact` are not yet proven to be the same category. `artifact` remains under-defined relative to the now-better-grounded record concept.
+`record` and `artifact` are not proven to be the same category. `artifact` remains broader/context-dependent in current evidence and requires more targeted boundary work if it stays load-bearing.
 
-## Candidate invariant properties for the next Records pass
+## Candidate research dimensions
 
 - identity,
 - content/representation,
@@ -41,14 +48,21 @@ The strongest bounded synthesis is that recordhood is contextual/functional rath
 - lifecycle/retention,
 - relationships/aggregation.
 
-These are research candidates, not fields, components or SOUL primitives.
+These are research dimensions, not fields, components or SOUL primitives.
+
+## Counter-frames preserved
+
+- Record definitions differ across evidence, information, persistent-representation and contextual/emergent-recordness traditions.
+- Linear lifecycle and records-continuum models are both retained as competing lenses.
+- Record is not assumed to be a discrete object; aggregate/system-resident/contextual records remain possible.
+- Artifact is not assumed synonymous with record.
+- Immutability, event sourcing, versioned object storage, graph representation and current-state databases remain alternative mechanisms/patterns, not selected architecture.
 
 ## Deferred relations
 
-- Records ↔ Work: production/use/change/verification/supersession relations.
-- Records ↔ Actors: creation/assertion/observation/custody/change/verification relations.
-- Records ↔ Authority: who may establish authoritative/corrected/retracted/disposed status.
-- Records ↔ Evidence: record preservation can support evidence, but evidential sufficiency is relational to claims/decisions and is not solved in this vertical.
+See `DEFERRED-RELATIONS.md`.
+
+Material relations currently include Records↔Work, Records↔Actors, authority, evidence, provenance ownership and retention/disposition authority. They are recorded but not solved from this vertical.
 
 ## Return-condition verdict
 
@@ -58,10 +72,18 @@ The major competing frames were compared; load-bearing distinctions and failure 
 
 This verdict is a research-process checkpoint, **not independent verification of the synthesis** and not completion of the Records / Artifacts vertical.
 
-## Next logical work
+## Next logical internal research
 
-Use `OPEN-QUESTIONS.md`, beginning with the natural object model / recordhood threshold / artifact boundary because these can still change the frame for all later Records research.
+Use `OPEN-QUESTIONS.md`. Highest-information targets are currently:
+
+1. recordness / natural object model — intrinsic type vs contextual/managed role/status vs family of record types;
+2. identity across change;
+3. granularity of the natural record unit;
+4. intrinsic vs external preservation envelope;
+5. coexistence of current truth and historical truth.
 
 ## Next authorised work
 
-**RETURN TO USER.** Further Records research may continue on user direction. Work, Actors, cross-vertical synthesis, Development System design, and SOUL architecture remain outside the current authorised stage.
+**RETURN TO USER.**
+
+Further Records research may continue on user direction. Work, Actors, cross-vertical synthesis, Development System design, and SOUL architecture remain outside the current authorised stage. A later continuation can resume from the repository without replaying old chat.
