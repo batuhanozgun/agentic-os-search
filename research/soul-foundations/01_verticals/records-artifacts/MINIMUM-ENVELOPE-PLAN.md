@@ -1,7 +1,8 @@
 # Records / Persistent Information — Minimum Envelope Research Pass
 
-**Status:** active approved research plan  
-**Date opened:** 2026-09-01
+**Status:** completed at return condition  
+**Date opened:** 2026-09-01  
+**Date closed:** 2026-09-01
 
 ## Direction re-check
 
@@ -109,3 +110,7 @@ Return to the user only when all are satisfied sufficiently for the current rese
 9. the next internal Records research direction can be re-derived from the result rather than inherited from the pre-pass plan.
 
 Meeting this condition does not complete the Records vertical.
+
+## Close note
+
+The return condition was met. The pass replaced the physical/object-local `minimum envelope` assumption with a parameterised **minimum preservation closure** model. See `synthesis/MINIMUM-ENVELOPE.md` and its adversarial counter-check for the bounded result.
