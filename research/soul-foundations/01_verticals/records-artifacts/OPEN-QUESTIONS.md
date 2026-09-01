@@ -1,129 +1,124 @@
 # Records / Persistent Information — Open Questions
 
-**Status:** prioritised research queue after change/status/temporal pass; not automatic execution authority  
+**Status:** prioritised research queue after organisation/retrieval pass; not automatic execution authority  
 **Date:** 2026-09-01
 
 ## What changed
 
-Four bounded Records passes now exist:
+Five bounded Records passes now exist:
 
 1. foundational recordhood / persistent-information;
 2. object boundaries / recordhood / artifact / identity-change;
 3. minimum envelope → **minimum preservation closure**;
-4. change / status / temporal semantics.
+4. change / status / temporal semantics;
+5. organisation / derived views / retrieval semantics.
 
-Pass 4 rejected generic `update`, one universal status enum, and one universal timestamp model.
-
-Current bounded change model distinguishes:
-
-- resource/version/representation/derivation lineage;
-- typed change facts;
-- production/reproduction state;
-- role/context-scoped currentness/designation;
-- reliance/editorial standing;
-- availability/presence;
-- preservation/custody history;
-- effective/applicable time vs system-known/recorded time when they diverge.
-
-These are semantic questions, not mandatory fields/components.
+Pass 5 established that organisation is plural/purpose-relative rather than one canonical hierarchy, and retrieval sufficiency depends on the information need, corpus/coverage, temporal/standing scope, freshness and precision/recall requirements.
 
 See:
 
-- `synthesis/CHANGE-STATUS-TEMPORAL-SEMANTICS.md`
-- `synthesis/CHANGE-STATUS-TEMPORAL-COUNTERCHECK.md`
-- `sources/change-status-temporal-semantics.md`
+- `synthesis/ORGANISATION-RETRIEVAL-SEMANTICS.md`
+- `synthesis/ORGANISATION-RETRIEVAL-COUNTERCHECK.md`
+- `sources/organisation-retrieval-semantics.md`
 
 ---
 
 # P0 — frame-changing / highest-information next candidates
 
-## Q1. Organisation, canonical/derived views, and retrieval sufficiency
+## Q1. Records profile / requirement derivation
 
-How should persistent information be organised and reached again while preserving the distinctions established by the first four passes?
+The first five passes now expose many requirements that are **conditional rather than universal**.
 
-The next pass should jointly investigate:
+Given a particular:
 
-### Canonical resource vs derived/discovery views
+- resource / record class;
+- intended future use;
+- retention horizon;
+- risk / consequence / legal-security obligations;
+- expected transformations;
+- target future knowledge base/community;
+- retrieval needs and coverage expectations,
 
-How should:
+how should a Records model determine which obligations must be preserved and how strongly?
 
-- indexes;
-- catalogues;
-- search results;
-- caches;
-- summaries;
-- embeddings/semantic indexes;
-- alternate organisational views
+Candidate obligation families already exposed include:
 
-refer to canonical resources without becoming stale or shadow sources of truth/standing?
+- identity and exact binding;
+- representation / interpretability;
+- provenance/context;
+- temporal/version/standing history;
+- integrity/continuity assurance;
+- aggregation/relations;
+- rights/use constraints;
+- organisation/access descriptions;
+- retrieval coverage/freshness/recall;
+- preservation objective/significant properties.
 
-### Retrieval modes
+### Key questions
 
-What information/relations are required for materially different retrieval questions:
+- Which obligations are baseline for a profile and which are conditional?
+- Which semantic dimensions may safely be merged because they cannot vary independently for the protected use?
+- Which information may remain external/inherited/reconstructable versus must travel with the resource across boundaries?
+- What assurance level is needed for each obligation?
+- Can a small number of profile families capture most requirements, or does the evidence require rule-based derivation rather than fixed profiles?
 
-- known-item lookup;
-- attribute/filter lookup;
-- semantic discovery;
-- exhaustive/high-recall retrieval;
-- current-standing retrieval;
-- historical/as-of retrieval;
-- system-known-as-of retrieval;
-- version/derivation/provenance traversal;
-- aggregate/case/thread reconstruction?
+### Why P0 now
 
-### Organisation / aggregation / relation semantics
+Continuing to add semantic dimensions without a derivation rule risks turning the Records research into an unbounded checklist. Conversely, selecting storage/search technology now would silently choose which obligations to support before deciding when they actually apply.
 
-When does hierarchy, membership, order, series, case/thread context or graph relation carry meaning that cannot be reconstructed from isolated records?
+### Disconfirming tests
 
-### Change propagation
-
-If canonical standing changes through correction, supersession, retraction, removal or other transition, what must happen semantically so derived/indexed views do not continue presenting stale standing as current?
-
-**Why P0:**
-
-The first four passes now define the object, preservation closure, and temporal/status distinctions that retrieval must respect. Continuing to refine object semantics without testing reachability would risk drift away from the original Records objective: information must not merely persist; the right state/identity must be recoverable later.
-
-**Architecture boundary:**
-
-Do not select search engine, vector database, graph database, relational schema, ranking algorithm, embedding model, or storage topology. First define organisation/retrieval semantics and failure conditions.
+- construct simple resource/use cases where a proposed profile over-requires semantics with no protected benefit;
+- construct high-risk/long-horizon cases where a proposed profile omits a required obligation;
+- test whether profile variables are redundant or whether a missing variable changes requirements;
+- test whether fixed profiles fail cases that a rule-based derivation handles better, and vice versa.
 
 ---
 
 ## Q2. Identity / significant-property thresholds under transformation
 
-When does a transformation remain:
+When does transformation create:
 
-- the same representation;
-- a new representation/instance;
-- a new version/revision;
-- a new record;
-- a distinct derived information resource?
+- same instance;
+- new representation/instance;
+- new version/revision;
+- new record;
+- distinct derived information resource?
 
-The evidence now supplies better discriminators:
+The evidence now supplies stronger discriminators:
 
 - preservation/use objective;
 - significant/transformational properties;
-- resource family vs version vs representation identity;
-- revision vs migration vs derivation semantics.
+- broader resource vs version vs representation identity;
+- revision vs migration vs derivation semantics;
+- whether downstream retrieval/source binding needs independent identity.
 
-This remains unresolved but can now be tested with organisation/retrieval use cases instead of abstract file operations alone.
+This remains frame-changing but may be easier to resolve after a profile derivation model clarifies which protected properties matter for a given use.
 
 ---
 
-## Q3. Profile derivation / preservation-closure calculation
+## Q3. External dependency survivability / portability
 
-Given:
+When may preservation closure safely depend on:
 
-- intended future use;
-- resource class;
-- retention horizon;
-- risk/control obligations;
-- expected transformations;
-- target knowledge base/community,
+- external metadata registries;
+- provenance/relation graphs;
+- controlled vocabularies/schemas;
+- indexes/finding aids;
+- aggregate/system context;
+- deterministic reconstruction rules?
 
-how should a Records system determine which preservation obligations must be explicit, may be external/inherited/reconstructable, or are unnecessary?
+Need stronger profile-relative criteria for:
 
-**Why not yet first:** retrieval/organisation semantics are likely to expose additional profile variation; formalising the profile rule before that evidence may freeze the model too early.
+- exact binding;
+- historical version locking;
+- dependency disappearance;
+- transfer/materialisation;
+- fallback/recovery;
+- schema/vocabulary drift;
+- access-control dependency.
+
+Pass 5 made this more important because organisation/retrieval relies heavily on derived/external structures.
 
 ---
 
@@ -141,44 +136,65 @@ Candidates remain:
 
 This controls whether the historical `records-artifacts/` package should eventually be renamed.
 
+Do not rename merely because unqualified `artifact` was rejected.
+
 ---
 
-# P1 — remaining Records semantics
+# P1 — remaining Records semantics / assurance
 
-## Q5. External dependency survivability
+## Q5. Assurance profile
 
-When can required closure safely remain in an external registry, schema/vocabulary, provenance graph, aggregate context, or reconstruction rule?
+What level/type of evidence is required by profile to support:
 
-Need stronger criteria for:
-
-- historical version locking;
-- exact binding;
-- dependency disappearance;
-- transfer/materialisation;
-- recovery/fallback.
-
-This may be partially answered by Q1 because retrieval itself depends on external derived/index structures.
-
-## Q6. Integrity / authenticity / reliability / correctness
-
-The distinctions are established, but profile-specific assurance remains unresolved:
-
-- fixity/integrity;
 - identity/authenticity continuity;
+- bit/representation integrity;
 - provenance completeness;
 - creation-process reliability;
-- factual correctness;
-- current validity/standing.
+- standing/currentness;
+- access-view freshness/coverage?
 
-Records research must continue to avoid absorbing factual truth/evidential sufficiency.
+Keep distinct from factual correctness and evidential sufficiency.
 
-## Q7. Disposition residual identity/history
+---
 
-After authorised payload destruction/removal, what minimum identity/status/history/tombstone evidence should survive for different use/risk profiles?
+## Q6. Disposition residual identity / discoverability
 
-Pass 4 established only the semantic boundary: destruction can coexist with retained destruction proof/history.
+After authorised payload destruction/removal, what minimum identity/status/history/tombstone or finding-aid information should survive for different profiles?
 
-Authority, retention schedules, legal hold and approval workflow remain deferred.
+Questions include:
+
+- should prior identifiers continue to resolve to a destruction/removal state?
+- when should existence history remain discoverable?
+- what must survive to prove authorised destruction without preserving the payload?
+
+Authority, legal hold, retention schedule and approval workflow remain deferred.
+
+---
+
+## Q7. Derived-resource promotion boundary
+
+When does a summary, query output, finding aid, access collection or projection stop being merely an access view and require independent Records management as a persistent resource/record?
+
+Pass 5 established that derivation, access function and recordhood are independent dimensions. The exact promotion threshold remains use/context dependent and intersects Work semantics, so solve only the Records-side criteria here and defer production/authority questions.
+
+---
+
+# P2 — later mechanism comparison
+
+## Q8. Storage/state pattern comparison
+
+Only after requirement/profile derivation is sufficiently bounded, compare mechanism families against required Records semantics:
+
+- current-state mutable store;
+- multiversion store;
+- immutable/versioned objects;
+- content-addressed object graph;
+- event/change history + projections;
+- graph relation representation;
+- file/document collections + metadata/indexes;
+- separate access/search indexes.
+
+This is **not yet authorised next work** and must not become a familiarity-driven technology choice.
 
 ---
 
@@ -190,6 +206,7 @@ Continue to use `DEFERRED-RELATIONS.md` for:
 - Records ↔ Actors originator/custody/authority;
 - evidence/claim sufficiency;
 - provenance ownership;
+- recordkeeping/current-source designation authority;
 - rights/disposition authority;
 - artifact-as-work-product semantics.
 
@@ -199,13 +216,8 @@ Do not solve these from Records alone.
 
 # Current next-logical-work note
 
-The highest-information internal Records candidate is now **Q1 — organisation + canonical/derived views + retrieval sufficiency**.
+The highest-information internal Records candidate is now **Q1 — Records profile / requirement derivation**.
 
-This direction was re-derived from Pass 4 rather than inherited from the previous queue:
+Reason: five passes have established object, preservation, change and retrieval semantics, but most requirements are conditional. Before comparing storage/search mechanisms, the research needs a bounded method for determining **which Records obligations apply to which use/profile**.
 
-- current/historical standing is now semantically explicit;
-- stale discovery views are a concrete failure mode;
-- aggregation/relations affect reconstruction;
-- the original Records objective includes organising and reaching information again.
-
-A new long pass must first re-anchor purpose, scope/exclusions, and operational return condition with the user.
+A new long pass must first re-anchor purpose, scope/exclusions and operational return condition with the user.
