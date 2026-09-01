@@ -63,4 +63,4 @@ How a concrete system proves this is implementation assurance.
 
 ## Audit / evidence route
 
-Read the historical blob referenced by the legacy retention synthesis stub together with `RETENTION-DISPOSITION-COUNTERCHECK.md`, then `sources/retention-disposition.md` and exact primary sources.
+Use `../../INDEX.md` for the exact L4A adversarial/history route, L4B source-ledger route and L5 primary-source route for this topic.
