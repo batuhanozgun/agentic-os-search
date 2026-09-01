@@ -1,86 +1,65 @@
-# Records / Persistent Information — Key
+# Records / Persistent Information — KEY
 
-**Reading layer:** L0 — shortest orientation surface  
-**Status:** derived view of the completed Records vertical; not evidence and not a replacement for deeper layers.
+**Document role:** CURRENT_L0  
+**Vertical revision:** `records-foundation-2026-09-01-r2`  
+**Status:** intentionally lossy orientation surface; not evidence.
 
 ## What this vertical studied
 
-This vertical studied the problem that begins when information must persist and be usable again later.
+The problem that begins when information must persist and be usable again later:
 
-The question was not only `where do we store it?` It was:
-
-> What must remain knowable about persistent information so that the intended thing can later be identified, understood, related, reconstructed, found, used, and—when required—correctly transferred or brought to an end?
+> What must remain knowable so the intended persistent information can later be identified, understood, related, reconstructed, found, used, and—when required—correctly transferred or brought to an end?
 
 ## Main result
 
-Persistent information cannot be treated as content alone.
+Persistent information cannot safely be treated as content/file alone.
 
-Depending on purpose, a persistent resource may also need enough surviving information about:
+Depending on purpose, the system may need to preserve enough about:
 
-- **identity** — exactly which resource, version, representation, or aggregate this is;
-- **meaning and context** — how it should be interpreted and where it came from;
-- **history** — what changed, when, and what earlier states/standings existed;
-- **relations** — what it depends on, derives from, belongs with, or is part of;
-- **standing** — which version/state is current, superseded, corrected, unavailable, etc. when those distinctions matter;
-- **retrieval** — how the intended resource/state can be found again and what a hit or miss actually proves;
-- **continuity** — what evidence is needed that the intended information survived without an undetected material break;
-- **rights and constraints** — what restrictions materially affect preservation, access, or reuse;
-- **lifetime** — how long persistence should continue, what can suspend disposition, and what transfer/destruction means.
+- identity and exact version/representation/aggregate binding;
+- meaning, context and origin;
+- history and change semantics;
+- relations/derivation/aggregation;
+- current or historical standing;
+- retrieval coverage/freshness/as-of meaning;
+- integrity/continuity assurance;
+- rights/use constraints;
+- retention, transfer and destruction outcome.
 
-Not every resource needs all of these at maximum depth. Requirements depend on the intended future use, resource class, horizon, risk/consequence, transformations, dependencies, external obligations, and who must later understand/use it.
+Not every resource needs every obligation. Requirements vary with intended future use, resource class, horizon, risk/consequence, transformations, dependencies and applicable external constraints.
 
-## Most important corrections produced by the research
+## Shortcuts rejected as universal rules
 
-The research rejected these shortcuts as universal rules:
-
-- `record = file`;
-- `persistent = record`;
-- `one id = all identity questions solved`;
-- `one metadata bundle fits every resource`;
-- `update = one kind of change`;
-- `one status` or `one timestamp` is enough for all history;
-- `one hierarchy` is the natural organisation of all information;
-- `search hit = correct/current/source`;
-- `search miss = absence`;
-- `versioning = history solved`;
-- `immutable = trustworthy`;
-- `keep everything forever = safest`;
-- `delete from the main view = destroyed`;
-- choosing a storage/search mechanism first will reveal the correct Records requirements.
+- `record = file` or `anything persisted`;
+- one ID solves every identity question;
+- one metadata bundle fits every resource;
+- one `update`, one status or one timestamp captures all change/history;
+- one hierarchy is the natural organisation of all information;
+- search hit = exact/current/authoritative/truth;
+- search miss = absence;
+- versioning/immutability = history/trust solved;
+- keep everything forever = safest;
+- delete/hide from main view = destroyed;
+- storage/search technology should be selected before Records requirements are known.
 
 ## Strongest working principle
 
-> Derive what must remain knowable and testable **before** choosing how it is physically stored, indexed, versioned, or deleted.
+> First derive what must remain knowable, retrievable and testable for the protected use; only then judge storage/history/search mechanisms.
 
-A requirement can be satisfied inside the object, by an external linked source, by inherited context, by relations, by preserved rules, or by a system capability—provided the dependency remains correctly bound, recoverable, interpretable, and sufficient for the intended use.
+Required information can be embedded, externally linked, inherited, relational or reconstructable if the dependency remains correctly bound, available and interpretable for the required context/horizon.
 
-## What this vertical does not decide
+## Important boundary
 
-This research does **not** provide:
+Correct persistence does not by itself establish factual truth, evidential sufficiency, sound reasoning or correct decisions.
 
-- a universal `Record` schema;
-- a final upper ontology or final name for every persistent information-bearing thing;
-- a universal version/identity threshold for every domain;
-- one metadata standard for all resources;
-- a chosen database, graph store, event model, object store, search engine, or deletion mechanism;
-- factual truth or evidential sufficiency merely because information was preserved correctly.
+## Go deeper
 
-Those would require additional context or later evaluation.
+- Need topic choice? → `FINDINGS-MAP.md`.
+- Need integrated result? → `synthesis/RECORDS-VERTICAL-SYNTHESIS.md`.
+- Need one current topic in detail? → `synthesis/current/`.
+- Need challenge/audit or evidence? → follow `INDEX.md` L4A/L4B routes.
+- Need exact claim support? → read the primary source at L5.
 
-## How to go deeper
+If a decision depends on nuance omitted here, descend. Do not fill the omitted detail by assumption.
 
-Do not jump directly from this file to all source material.
-
-1. Read `FINDINGS-MAP.md` to locate the relevant problem area.
-2. Read `synthesis/RECORDS-VERTICAL-SYNTHESIS.md` when the integrated vertical model is needed.
-3. Read the relevant topic synthesis when a specific distinction is load-bearing.
-4. Read its adversarial counter-check and source ledger when the synthesis must be challenged or traced.
-5. Recover the primary source named by the ledger when an exact or decision-critical claim depends on it.
-
-`INDEX.md` provides the exact routes.
-
-## Epistemic warning
-
-This file is intentionally lossy. It is an access surface over the research, not the research itself.
-
-If a decision depends on a nuance that is absent here, descend to the next layer rather than strengthening this summary by assumption.
+Currentness/exact blob binding: `CURRENT-REVISION.md`.
