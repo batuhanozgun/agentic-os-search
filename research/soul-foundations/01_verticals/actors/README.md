@@ -4,28 +4,62 @@
 
 Research the provisional `Actors` problem region independently before any broader SOUL synthesis.
 
-The starting label points toward phenomena such as action, decision, authority, capability, responsibility, accountability, representation, delegation, collective action and possible non-human agency. None of these terms, their grouping, or an `Actor entity` is assumed to be the correct foundational model.
+`Actors` remains a research/retrieval label, not an accepted SOUL primitive. The completed bounded research found that identity, role, participation, capability, authority, obligation, representation, attribution, responsibility/accountability, collective agency and non-human participation cannot safely be collapsed into one Actor entity or one Actor property bundle.
 
-## Research stance
+## Current result
 
-`Actors` is a provisional research label, not an accepted SOUL primitive.
+The strongest current explanation is relational and multi-anchor rather than Actor-centred:
 
-The research must actively test materially different analysis units and explanatory frames. At least one strong alternative must explain the region without taking a pre-existing `Actor entity` as the primitive unit.
+- persistent bearers/identity;
+- roles/positions and context/time;
+- situations/episodes including meaningful omission/non-action;
+- typed participation and decision relations;
+- capability/competence;
+- permission/authority/obligation;
+- representation/delegation/impersonation;
+- typed attribution/responsibility/accountability;
+- shared/joint vs corporate/group agency;
+- operational non-human participation vs legal/moral attribution.
 
-Records and Work are not Actors axioms. Cross-vertical relations may be noted when material but must be deferred rather than solved here.
+This is a research result about distinctions to preserve, **not** a SOUL data model or ontology decision.
 
 ## Status
 
-Active and explicitly authorised on 2026-09-01.
+**Research is sufficiently complete for the current foundation purpose; user evaluation pending.**
 
-Current state:
-- `STATE.md`
+The completion/omission pass is same-model adversarial self-review, not independent verification.
 
-Initial research framing:
+Do not treat this state as user acceptance.
+
+## Read current surfaces
+
+Start here:
+- `KEY.md`
+- `FINDINGS-MAP.md`
+- `INDEX.md`
+
+Full current synthesis:
+- `synthesis/ACTORS-VERTICAL-SYNTHESIS.md`
+
+Why research stopped:
+- `synthesis/COMPLETENESS-OMISSION-CHECK.md`
+
+Evidence/source-view recovery:
+- `evidence/SOURCE-LEDGER.md`
+
+Residuals:
+- `OPEN-QUESTIONS.md`
+- `DEFERRED-RELATIONS.md`
+
+Current-vs-historical/version routing:
+- `CURRENT-SURFACES.md`
+
+Historical/audit framing:
 - `ORIENTATION.md`
-
-Additional retrieval surfaces, findings, synthesis, evidence trace, omission/counter-check and freshness/version controls will be added only as the research reveals a stable need for them.
+- `FRAME-EVOLUTION.md`
 
 ## Boundary
 
-This vertical does not authorise Records–Work–Actors synthesis, SOUL architecture, data-model design, implementation, or another research layer.
+This vertical does not authorise Records–Work–Actors synthesis, SOUL architecture, data-model design, implementation, another research vertical, or another research layer.
+
+The next step is user evaluation of this Actors result.
