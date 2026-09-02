@@ -13,13 +13,25 @@ Work
 Actors / Agency–Participation–Authority
 ```
 
-## Core planning principle
+## Core planning principles
 
-**Do not force one shared layer count.**
+### 1. Do not force one shared layer count
 
 The project should standardize the *quality gates* applied to each ground, not the number or names of its semantic layers.
 
 A ground may close after a short coverage audit if prior research already supplies the needed depth. Another may require multiple new first-principles passes and several internal subregions.
+
+### 2. One active ground at a time
+
+At most **one ground may be under substantive deepening research at any time**.
+
+When a ground is active:
+- the other three remain inactive;
+- they may be referenced only when needed for boundary discrimination, counterexamples or relation capture;
+- cross-ground observations are recorded rather than pursued by opening another ground in parallel;
+- a switch to another ground requires an explicit transition decision.
+
+This rule exists to prevent the research from becoming a mixed synthesis before each ground has its own sufficiently clear semantics.
 
 ## Common quality gates for every ground
 
@@ -75,6 +87,8 @@ Examples:
 - Actor ↔ environment access/actionability.
 
 Only relations required to define the local ground boundary may become load-bearing in the ground synthesis.
+
+G4 never authorizes a second simultaneous ground pass.
 
 ### G5 — Adversarial completion check
 Attack the current decomposition with:
@@ -266,6 +280,8 @@ Work and Actors already have deep top-level research and should be tested after 
 
 This sequence does not imply equal research depth or a dependency that forbids revisiting earlier grounds. Material falsifiers can reopen adequacy at any point.
 
+Each numbered ground is researched in a separate active pass; the sequence never means parallel research.
+
 ---
 
 # Repository plan for substantive stage
@@ -291,6 +307,8 @@ When the user authorizes the first ground, create only that ground's active pack
 ```
 
 Do not pre-create four empty canonical ground packages merely to make the tree symmetrical.
+
+Do not create a second active ground package until the current ground has been closed/paused and the transition is explicitly authorized.
 
 ---
 
