@@ -1,12 +1,12 @@
 # Top-Level Ground Adequacy — CURRENT SURFACES
 
-**Status:** canonical local freshness binding for the bounded refined adequacy result  
+**Status:** canonical local freshness binding for the user-accepted refined adequacy result  
 **Date:** 2026-09-02  
 **Branch:** `main`
 
 ## Purpose
 
-Prevent the first five-peer closure, an intermediate hierarchy frame, or stale state from being mistaken for the current bounded adequacy result.
+Prevent the first five-peer closure, an intermediate hierarchy frame, pre-acceptance state, or stale router from being mistaken for the current bounded adequacy result.
 
 This manifest binds inquiry-local surfaces only. Parent project authorization remains in `../STATE.md` and `../INDEX.md`.
 
@@ -17,10 +17,10 @@ If a bound path differs from the SHA below, treat this manifest as stale until t
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Stable package purpose | `README.md` | `c95c60d9cafdf189895e5c300f9f52e188490692` |
-| Inquiry state | `STATE.md` | `3899a64ad4361996c93d4ee8bb13fa278a20e95b` |
-| Inquiry router | `INDEX.md` | `582f290aca7dfa03de93f3cd63ef422b4f9c93de` |
-| L0 key | `KEY.md` | `88b9ac903e9e96afd2993f22e96236b5296f9e41` |
-| L1 findings map | `FINDINGS-MAP.md` | `2f3ac19dac41375e3fe39fd0aed143a03a733625` |
+| Inquiry state / user acceptance | `STATE.md` | `0d83ef188dbba7a75bc6c2b237d66d6a87e9d1f3` |
+| Inquiry router | `INDEX.md` | `6eb206c85b1c9e92d75901c4533975a92f2185ff` |
+| L0 key | `KEY.md` | `dd7ce2b615b520b6fa8e844fd5b790f70b3aad12` |
+| L1 findings map | `FINDINGS-MAP.md` | `674b40fdb911285dac8144e0e919e6c7c91e21b7` |
 | Residual questions | `OPEN-QUESTIONS.md` | `0d5d04380cfc4962c4a3ad7b689537fc545ea02f` |
 
 ## Focused findings
@@ -48,17 +48,15 @@ If a bound path differs from the SHA below, treat this manifest as stale until t
 | General evidence/source recovery ledger | `evidence/SOURCE-LEDGER.md` | `17d2cb4f4168561fa0b644e3fa79cab2d41a77e7` |
 | Environment hierarchy source ledger | `evidence/ENVIRONMENT-HIERARCHY-SOURCES.md` | `8c3c42feb7143aeffcc4091bbbcd14ec0f9c3082` |
 
-## Current-result rule
+## Accepted current-result rule
 
 Prefer:
 
 `STATE → KEY/FINDINGS-MAP → ADEQUACY-SYNTHESIS → focused finding → current refinement audit/source recovery`
 
-For Environment hierarchy specifically:
+The current result is **user-accepted as a working research hypothesis**. It is not architecture or universal truth.
 
-`KEY → finding 08 → finding 09 → finding 10 → ENVIRONMENT-HIERARCHY-REFINEMENT-CHECK → ENVIRONMENT-HIERARCHY-SOURCES`
-
-## Current strongest result
+## Current strongest hierarchy
 
 ```text
 Environment / Operating Reality                 [working label]
@@ -75,19 +73,19 @@ Actors / Agency–Participation–Authority
 + typed relations / control / transitions
 ```
 
-Interpretation:
-- World/domain and Technical Work Environment are distinct lower problem regions;
-- current evidence prefers one broader Environment-like parent rather than five peer grounds;
-- TWE is not universally a subtype of product operational world;
-- grounds are analytical problem lenses, not exclusive object or architecture classes.
-
 ## Revision-history rule
 
 Findings 01–07 and the prior audit preserve the first broad adequacy path, including the earlier five-peer hypothesis where historically relevant.
 
 Those historical statements do not override the current synthesis/state.
 
-The Environment parent/peer conclusion changed only after the explicit reopened falsifier and dedicated findings 08–10.
+The Environment parent/peer conclusion changed only after the explicit reopened falsifier and dedicated findings 08–10. User acceptance then closed the adequacy-evaluation gate without promoting the hierarchy to architecture truth.
+
+## Next-stage boundary
+
+Current adequacy work points to `../03_ground-deepening/` for research-program planning.
+
+Do not infer that acceptance automatically authorizes substantive ground research or cross-ground composition.
 
 ## Update rule
 
