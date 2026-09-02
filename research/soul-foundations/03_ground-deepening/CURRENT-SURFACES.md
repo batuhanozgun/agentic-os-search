@@ -1,6 +1,6 @@
 # Ground Deepening — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Domain State closure and repository cleanup  
+**Status:** canonical freshness binding after bounded Domain State closure and deep repository verification  
 **Date:** 2026-09-02  
 **Branch:** `main`
 
@@ -11,16 +11,16 @@
 | Stable purpose | `README.md` | `7afa5bd2461cb2fd27cefbd49ff8172ed23ebb7a` |
 | Stage state / authorization | `STATE.md` | `e6ef7e3cd488f38de8d12a74506af2ec3a14d6c1` |
 | Original accepted deepening plan | `PLAN.md` | `dfe00d2ca4d43758c476f640332751c3af013725` |
-| Recursive hierarchical method | `HIERARCHICAL-DEEPENING-METHOD.md` | `6fce78cbcd0665a2c21fad4e58666b20073b3f1a` |
+| Recursive hierarchical method | `HIERARCHICAL-DEEPENING-METHOD.md` | `4d964c09a70ebe5f114d597f5413b41193ce650b` |
 | Stage router | `INDEX.md` | `94f80c7531391a398129c0be725aafa921bd92c5` |
 
 ## Current Environment package
 
 | Ground / node | Status | Freshness surface |
 |---|---|---|
-| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `17a10f08cb498822b6f43116c8c4c52a481719e8` |
-| Domain Reality | boundedly sufficient; user-authorised for continuation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `e1a7ee941d50da0985cd735741f0da21a27742ed` |
-| Domain State | boundedly sufficient; awaiting user evaluation | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `770ec2d9d30715be8015bc7ff7b392362e801b6d` |
+| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `85fca784fc55218f971a2df88cac357fcdb05501` |
+| Domain Reality | boundedly sufficient; user-authorised for continuation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `9d873436f6b9ad22ea79f306264f1bd1d0fd72ec` |
+| Domain State | boundedly sufficient; awaiting user evaluation | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `2bbe824f4c868a45621f529199292eae51b2a6df` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
 | Domain Dynamics / Processes | inactive; not yet deepened | no child package |
@@ -47,6 +47,10 @@ Environment / Operating Reality
 ```
 
 Discovered children are not automatically authorised.
+
+## Pass-artifact provenance
+
+Plans, focused findings, source ledgers and completion audits may preserve pass-time labels/status for research reconstruction. Current hierarchy and authorization are carried by the current `STATE`/`KEY`/router/manifest chain; preserved pass-time `active`, `candidate`, `provisional` or superseded labels do not reactivate work.
 
 ## Preferred retrieval
 
