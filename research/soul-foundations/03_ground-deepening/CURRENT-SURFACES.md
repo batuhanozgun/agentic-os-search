@@ -1,6 +1,6 @@
 # Ground Deepening — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Domain Reality closure and routing sync  
+**Status:** canonical freshness binding after bounded Domain State closure and repository cleanup  
 **Date:** 2026-09-02  
 **Branch:** `main`
 
@@ -8,20 +8,22 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Stable purpose | `README.md` | `398e59813f70336060ad8ccff454c9da60b89742` |
-| Stage state / authorization | `STATE.md` | `ca6e8b42d3194bb9c0edd572733d3022721b758d` |
+| Stable purpose | `README.md` | `7afa5bd2461cb2fd27cefbd49ff8172ed23ebb7a` |
+| Stage state / authorization | `STATE.md` | `e6ef7e3cd488f38de8d12a74506af2ec3a14d6c1` |
 | Original accepted deepening plan | `PLAN.md` | `dfe00d2ca4d43758c476f640332751c3af013725` |
 | Recursive hierarchical method | `HIERARCHICAL-DEEPENING-METHOD.md` | `6fce78cbcd0665a2c21fad4e58666b20073b3f1a` |
-| Stage router | `INDEX.md` | `b9e16a37168827f1a129eda151613450a84025be` |
+| Stage router | `INDEX.md` | `94f80c7531391a398129c0be725aafa921bd92c5` |
 
 ## Current Environment package
 
 | Ground / node | Status | Freshness surface |
 |---|---|---|
-| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `9aeeb38c14ea15251e7590e11d1a7a0a699e759e` |
-| Domain Reality | boundedly sufficient; awaiting user evaluation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `74f893b631700d89bdfd409382aa6fc2c9383e86` |
-| Domain State / Configuration | discovered; inactive | no child package |
-| Domain Dynamics / Processes | discovered; inactive | no child package |
+| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `17a10f08cb498822b6f43116c8c4c52a481719e8` |
+| Domain Reality | boundedly sufficient; user-authorised for continuation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `e1a7ee941d50da0985cd735741f0da21a27742ed` |
+| Domain State | boundedly sufficient; awaiting user evaluation | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `770ec2d9d30715be8015bc7ff7b392362e801b6d` |
+| Domain Structure / Composition | discovered; inactive | routed through Domain State package |
+| Domain Condition / Status | discovered; inactive | routed through Domain State package |
+| Domain Dynamics / Processes | inactive; not yet deepened | no child package |
 | Work Conditions / Enabling–Constraining Environment | inactive | no current child package |
 | Information / Representation | inactive | no package created |
 | Work | inactive | no `03` package created |
@@ -29,24 +31,26 @@
 
 ## Current status
 
-> **No substantive node is active. Domain Reality is closed for bounded immediate-child research and awaits user evaluation.**
+> **No substantive node is active. Domain State is closed for bounded immediate-child research and awaits user evaluation.**
 
 Current tree:
 
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
-    │    ├─ Domain State / Configuration
+    │    ├─ Domain State
+    │    │    ├─ Domain Structure / Composition
+    │    │    └─ Domain Condition / Status
     │    └─ Domain Dynamics / Processes
     └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
 
-Discovered State/Dynamics children are not automatically authorised.
+Discovered children are not automatically authorised.
 
 ## Preferred retrieval
 
-`STATE → HIERARCHICAL-DEEPENING-METHOD → Environment STATE/KEY → Domain Reality STATE/KEY → synthesis → audit/source recovery`
+`STATE → HIERARCHICAL-DEEPENING-METHOD → Environment STATE/KEY → Domain Reality STATE/KEY → Domain State STATE/KEY → synthesis → audit/source recovery`
 
 ## Update rule
 
