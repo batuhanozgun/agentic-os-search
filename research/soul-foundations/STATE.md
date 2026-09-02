@@ -1,7 +1,7 @@
 # SOUL Foundations — STATE
 
-**Status:** active; Records, Work and Actors remain bounded/user-evaluated; prior Environment corpus is superseded; replacement Work Environment vertical is authorised and not yet started  
-**Current authorised activity:** run an independent Work Environment / Çalışma Ortamı foundation research pass  
+**Status:** active; Records, Work and Actors remain bounded/user-evaluated; prior Environment corpus is superseded; replacement Work Environment vertical is ACTIVE in independent orientation research  
+**Current authorised activity:** run the independent Work Environment / Çalışma Ortamı foundation research pass  
 **Four-foundation comparison:** PAUSED until the replacement fourth vertical is researched and evaluated
 
 ## Dependency state
@@ -11,7 +11,7 @@
 - **Layer 1B — Work:** SUFFICIENTLY COMPLETE; USER-EVALUATED; RETRIEVAL CLOSURE COMPLETE.
 - **Layer 1C — Actors:** SUFFICIENTLY COMPLETE; USER-EVALUATED; RETRIEVAL CLOSURE COMPLETE.
 - **Previous candidate Layer 1D — Environment:** SUPERSEDED FOR THE INTENDED PURPOSE. It researched a broader external operating-world/system-boundary problem.
-- **Replacement candidate Layer 1D — Work Environment / Çalışma Ortamı:** RESEARCH AUTHORISED; NOT YET STARTED.
+- **Replacement candidate Layer 1D — Work Environment / Çalışma Ortamı:** ACTIVE; initial orientation/terminology/rival-frame pass has started.
 - **Cross-foundation comparison/stress-test:** PAUSED.
 - **Relation/composition research, architecture, ontology/data model, implementation:** NOT AUTHORISED.
 
@@ -32,9 +32,30 @@ Likewise, Records, Work and Actors findings must not be imported as premises. Re
 Canonical correction handoff:
 - `WORK-ENVIRONMENT-CORRECTION-HANDOFF.md`
 
+Active vertical router:
+- `01_verticals/work-environment/INDEX.md`
+
+## Work Environment current checkpoint
+
+Initial orientation research began on 2026-09-02.
+
+Current surfaces:
+- `01_verticals/work-environment/STATE.md`
+- `01_verticals/work-environment/INDEX.md`
+- `01_verticals/work-environment/ORIENTATION.md`
+- `01_verticals/work-environment/sources/ORIENTATION-SOURCES.md`
+
+Early orientation signal, **not yet a bounded vertical finding**:
+- the bare term `work environment` is overloaded and in ergonomics/human-factors standards is used for broad surrounding physical/chemical/biological/organizational/social/cultural factors;
+- neighbouring technical traditions use materially different frames such as software/development environment, runtime/execution environment, platform, digital workplace, technological work environment and shared workspace;
+- no one rival term/frame has yet been accepted;
+- terminology collision itself is now a first-order research issue because it can cause scope drift.
+
+The next substantive pass selected by orientation is **boundary and identity**: what makes a technical/work-supporting setting one environment rather than a tool bundle, platform, infrastructure, workspace or work system, and under what changes does it remain the same environment?
+
 ## Working terminology
 
-`Work Environment / Çalışma Ortamı` is only a working label. The research should test it against plausible rival terms rather than assume it is final.
+`Work Environment / Çalışma Ortamı` remains only a working label. The research must test it against plausible rival terms rather than assume it is final.
 
 ## Previous Environment corpus status
 
@@ -67,9 +88,10 @@ Working cross-foundation hypotheses remain hypotheses and must be re-evaluated o
 - Do not perform cross-foundation relation/composition analysis during the independent vertical.
 - Do not promote research findings into SOUL architecture, a final ontology, data model or implementation.
 - Do not assume `Work Environment` is a final ontology class, module or even the final term.
+- Treat current orientation dimensions/hypotheses as research leads until deeper passes and adversarial checks support them.
 
 ## Next logical and authorised work
 
-Begin the independent **Work Environment / Çalışma Ortamı** vertical from `What is a Work Environment?` and expand the research until bounded sufficiency or a material reframing is reached.
+Continue the independent **Work Environment / Çalışma Ortamı** vertical with the boundary-and-identity pass selected by orientation, then continue through further dimensions/counterframes until bounded sufficiency or material reframing.
 
-Use `WORK-ENVIRONMENT-CORRECTION-HANDOFF.md` as the current handoff. Return the bounded result to the user for evaluation before resuming four-foundation comparison.
+Use `01_verticals/work-environment/INDEX.md` as the active vertical router and `WORK-ENVIRONMENT-CORRECTION-HANDOFF.md` for the scope correction. Return the bounded vertical result to the user for evaluation before resuming four-foundation comparison.
