@@ -1,27 +1,27 @@
-# Four-Foundation Adequacy — CURRENT SURFACES
+# Top-Level Ground Adequacy — CURRENT SURFACES
 
-**Status:** canonical local freshness binding for the bounded adequacy result  
+**Status:** canonical local freshness binding for the bounded refined adequacy result  
 **Date:** 2026-09-02  
 **Branch:** `main`
 
 ## Purpose
 
-Prevent an intermediate mapping, pre-correction four-area frame or stale state from being mistaken for the current bounded adequacy result.
+Prevent the first five-peer closure, an intermediate hierarchy frame, or stale state from being mistaken for the current bounded adequacy result.
 
 This manifest binds inquiry-local surfaces only. Parent project authorization remains in `../STATE.md` and `../INDEX.md`.
 
-If a bound current path differs from the SHA below, treat this manifest as stale until the affected chain is rechecked.
+If a bound path differs from the SHA below, treat this manifest as stale until the affected chain is rechecked.
 
 ## Entry / current result surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Stable package purpose | `README.md` | `c95c60d9cafdf189895e5c300f9f52e188490692` |
-| Inquiry state | `STATE.md` | `41d761c9509ca70cd7fab4d71351f1b95ca3fe5d` |
-| Inquiry router | `INDEX.md` | `6fb1758e63ea0433ca3037e13437f213e45f3ffc` |
-| L0 key | `KEY.md` | `6bfae9badd6a3d0c7571a4a78094d76a03071de3` |
-| L1 findings map | `FINDINGS-MAP.md` | `d5481d7de922dfd2f7078f1ea0f353b862a093f4` |
-| Residual questions | `OPEN-QUESTIONS.md` | `09dbd25821f0178b82bad15c6d49e49700f311b2` |
+| Inquiry state | `STATE.md` | `3899a64ad4361996c93d4ee8bb13fa278a20e95b` |
+| Inquiry router | `INDEX.md` | `582f290aca7dfa03de93f3cd63ef422b4f9c93de` |
+| L0 key | `KEY.md` | `88b9ac903e9e96afd2993f22e96236b5296f9e41` |
+| L1 findings map | `FINDINGS-MAP.md` | `2f3ac19dac41375e3fe39fd0aed143a03a733625` |
+| Residual questions | `OPEN-QUESTIONS.md` | `0d5d04380cfc4962c4a3ad7b689537fc545ea02f` |
 
 ## Focused findings
 
@@ -34,27 +34,60 @@ If a bound current path differs from the SHA below, treat this manifest as stale
 | `findings/05-information-representation-boundary.md` | `3b150d5f527855dbb075c36be596fb9743d729cd` |
 | `findings/06-soul-vs-development-os-adequacy.md` | `83dc333d57a023344a829fd3c120a050b9402ab7` |
 | `findings/07-corrected-ground-omission-challenge.md` | `728942048cdf769d66de052af3eea58b23bc6e0f` |
+| `findings/08-environment-parent-hierarchy.md` | `e9d6c61cb69e7631b3efe48e454b44b279258d0e` |
+| `findings/09-environment-parent-boundary-leak-check.md` | `069d91c67800f32c77dcb8f9a833440a0ab68264` |
+| `findings/10-agent-control-counterframe.md` | `668d6a46af7ccb2670042de302f05343b86fc76c` |
 
 ## Synthesis / audit / evidence
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Integrated adequacy synthesis | `synthesis/ADEQUACY-SYNTHESIS.md` | `89dd5af8e32679d398e397bbb3000e69b23ad28f` |
-| Same-model completion/omission audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | `af65eaf705c520a2325f4f979ff5daa63bf54df3` |
-| Evidence/source recovery ledger | `evidence/SOURCE-LEDGER.md` | `17d2cb4f4168561fa0b644e3fa79cab2d41a77e7` |
+| Integrated current adequacy synthesis | `synthesis/ADEQUACY-SYNTHESIS.md` | `8603f4d15ba013aa2cfee8f367b53a9546c49b74` |
+| Current hierarchy refinement audit | `synthesis/ENVIRONMENT-HIERARCHY-REFINEMENT-CHECK.md` | `223daa500c337c7f2690ef442b8699ae1a446dfc` |
+| Prior broad-adequacy audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | `9efdd38c2f13fdd41f6ea493cf51504f85a661f6` |
+| General evidence/source recovery ledger | `evidence/SOURCE-LEDGER.md` | `17d2cb4f4168561fa0b644e3fa79cab2d41a77e7` |
+| Environment hierarchy source ledger | `evidence/ENVIRONMENT-HIERARCHY-SOURCES.md` | `8c3c42feb7143aeffcc4091bbbcd14ec0f9c3082` |
 
 ## Current-result rule
 
 Prefer:
 
-`STATE → KEY/FINDINGS-MAP → ADEQUACY-SYNTHESIS → focused finding → audit/source recovery`
+`STATE → KEY/FINDINGS-MAP → ADEQUACY-SYNTHESIS → focused finding → current refinement audit/source recovery`
 
-Current strongest result:
+For Environment hierarchy specifically:
 
-- the original four are distinct/productive but not exhaustive at current levels;
-- `Operating World / Work Domain` is a strong missing-ground result;
-- `Information / Representation State` is the stronger candidate top information ground, with Records retained as persistence branch;
-- typed relation/control/transition fabric is mandatory but not established as a peer ground.
+`KEY → finding 08 → finding 09 → finding 10 → ENVIRONMENT-HIERARCHY-REFINEMENT-CHECK → ENVIRONMENT-HIERARCHY-SOURCES`
+
+## Current strongest result
+
+```text
+Environment / Operating Reality                 [working label]
+    ├─ Operating World / Work Domain
+    └─ Work-Support Environment
+         └─ Technical Work Environment
+
+Information / Representation State
+    └─ Records / Persistent Information
+
+Work
+Actors / Agency–Participation–Authority
+
++ typed relations / control / transitions
+```
+
+Interpretation:
+- World/domain and Technical Work Environment are distinct lower problem regions;
+- current evidence prefers one broader Environment-like parent rather than five peer grounds;
+- TWE is not universally a subtype of product operational world;
+- grounds are analytical problem lenses, not exclusive object or architecture classes.
+
+## Revision-history rule
+
+Findings 01–07 and the prior audit preserve the first broad adequacy path, including the earlier five-peer hypothesis where historically relevant.
+
+Those historical statements do not override the current synthesis/state.
+
+The Environment parent/peer conclusion changed only after the explicit reopened falsifier and dedicated findings 08–10.
 
 ## Update rule
 
@@ -63,4 +96,4 @@ Material edits to a current surface require:
 1. re-fetching the changed path;
 2. updating its bound SHA here;
 3. rechecking `STATE.md`, `KEY.md`, `FINDINGS-MAP.md`, `INDEX.md` and parent state/router for drift;
-4. if the central adequacy judgment changes, re-running the completion/omission judgment rather than preserving the old stop verdict.
+4. if the central hierarchy judgment changes, re-running the relevant adversarial completion check rather than preserving the old stop verdict.
