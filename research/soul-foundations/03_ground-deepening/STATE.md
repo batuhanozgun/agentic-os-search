@@ -1,17 +1,22 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT PASS BOUNDEDLY COMPLETE; AWAITING USER EVALUATION  
+**Status:** HIERARCHICAL DEEPENING METHOD ADDED; DOMAIN / EFFECT PLAN READY; NO SUBSTANTIVE NODE ACTIVE  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
-**Environment pass authorised:** 2026-09-02  
-**Environment bounded closure:** 2026-09-02  
-**Scope:** ground-specific research-depth completion for the accepted four-ground working hypothesis  
-**Current authorised activity:** user evaluation of Environment result only; no substantive ground is currently active
+**Environment parent pass authorised:** 2026-09-02  
+**Environment bounded parent closure:** 2026-09-02  
+**Environment parent evaluation:** accepted as reasonable enough for hierarchical continuation on 2026-09-02  
+**Scope:** ground-specific and recursively branch-specific research-depth completion  
+**Current authorised activity:** user evaluation/refinement of the Domain / Effect Reality research plan only
 
 ## Working grounds
 
 ```text
-Environment / Operating Reality                 ← boundedly sufficient; awaiting user evaluation
+Environment / Operating Reality                 ← parent result accepted for continuation
+    ├─ Domain / Effect Reality                   ← plan ready; not active
+    └─ Work Conditions / Enabling–Constraining Environment ← inactive
+         └─ Technical Work Environment
+
 Information / Representation State              ← inactive
 Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
@@ -19,17 +24,22 @@ Actors / Agency–Participation–Authority          ← inactive
 
 Cross-ground relations/control/transitions may be recorded but are not yet systematically composed.
 
-## One-active-ground rule
+## Hierarchical deepening method
 
-At most one ground may be under substantive deepening research at a time.
+Current recursive method:
+- `HIERARCHICAL-DEEPENING-METHOD.md`
 
-The Environment pass is now closed for bounded research and returned to the user. No other ground becomes active automatically.
+Key operating rules:
+- at most one hierarchical node is under substantive research at a time;
+- a node pass researches that node and discovers only its immediate child regions;
+- discovering children does not authorize researching them in the same pass;
+- child branches are promoted only when separation preserves a distinct first-order question, failure mode, reduction/boundary behavior or materially different downstream reasoning;
+- cross-cutting dimensions are not promoted merely to make the tree deeper;
+- after node closure, return to user evaluation before activating a child or sibling.
 
-Switching to Information, Work or Actors requires an explicit next-ground decision after user evaluation.
+## Environment parent result
 
-## Environment result
-
-Current strongest Environment hierarchy:
+Current bounded Environment hierarchy:
 
 ```text
 Environment / Operating Reality
@@ -38,54 +48,44 @@ Environment / Operating Reality
          └─ Technical Work Environment
 ```
 
-Material correction from the starting hypothesis:
-- one broad Environment parent survives;
-- target/domain and execution-condition roles remain distinct;
-- `Work-Support Environment` was too narrow/positive and is broadened to enabling–constraining Work Conditions;
-- Technical Work Environment remains the deep technical specialization;
-- no third universal first-order Environment branch emerged from the current adversarial/holdout set.
+The parent ground survived adversarial research. The former `Work-Support Environment` label was broadened because constraining/degrading/hazard conditions are also first-order execution conditions.
 
-Branches are non-exclusive analytical roles, not object classes.
+This is a research hierarchy, not architecture or ontology.
 
-## Environment completion basis
+## Next planned research node
 
-The pass covered:
-- prior evidence recovery;
-- parent boundary/reference frame;
-- Domain/Effect vs Work-Condition roles;
-- actual state/dynamics/observability boundary;
-- actionability/resources/constraints/effects;
-- nontechnical physical/social/institutional conditions;
-- nesting/role switching/environment identity;
-- rival decomposition/naming;
-- cross-domain holdouts/omission probes;
-- integrated problem/failure map;
-- source ledger;
-- same-model completion/omission review.
+`Environment → Domain / Effect Reality`
 
-The completion audit is not independent verification.
+Plan:
+- `grounds/environment/DOMAIN-EFFECT-RESEARCH-PLAN.md`
 
-Current Environment route:
-`grounds/environment/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → relevant finding → completeness/source recovery`
+The planned pass must first attack whether `Domain / Effect Reality` is one coherent node or should split/reframe, then derive only its immediate child problem map.
+
+No substantive Domain/Effect research is active yet.
+
+## One-active-node rule
+
+During a future Domain/Effect pass:
+- Work Conditions remains inactive;
+- Information, Work and Actors remain inactive;
+- sibling/other-ground material may be consulted only for bounded boundary tests, counterexamples or deferred relation capture;
+- child nodes discovered under Domain/Effect are not auto-activated.
 
 ## Other grounds
 
 ### Information
-Not active. Existing Records evidence remains available, but broader Information / Representation research must not begin until explicitly authorised.
+Inactive. Existing Records evidence remains available for later recovery only.
 
 ### Work
-Not active. Planned first action remains a coverage/gap audit if/when authorised.
+Inactive. Planned first action remains a coverage/gap audit if/when its top-level turn arrives.
 
 ### Actors
-Not active. Planned first action remains a coverage/gap audit if/when authorised.
+Inactive. Planned first action remains a coverage/gap audit if/when its top-level turn arrives.
 
 ## Current return condition
 
-User evaluates the bounded Environment result and decides whether:
-- Environment is accepted for this stage;
-- Environment needs targeted reopening;
-- or a next single ground should later be authorised.
+User evaluates the Domain/Effect research plan and decides whether to authorize that single node pass.
 
 ## Guardrail
 
-Do not begin substantive Information, Work or Actors research, systematic relation/control composition, SOUL/Development OS architecture, final ontology/data-model work or implementation without explicit next authorization.
+Do not begin substantive Domain/Effect, Work Conditions, Information, Work or Actors research; systematic relation/control composition; SOUL/Development OS architecture; final ontology/data-model work; or implementation without explicit next authorization.
