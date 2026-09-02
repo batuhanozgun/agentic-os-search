@@ -2,88 +2,77 @@
 
 ## Role
 
-Retrieval router for `research/soul-foundations/**`. It is not evidence or architectural truth.
+Current retrieval router for `research/soul-foundations/**`.
+
+This file routes to current or deliberately historical material. It is not substantive evidence and does not independently authorise new work.
+
+## Current authority
+
+For current project status, authorisation and next responsibility:
+
+1. read `STATE.md`;
+2. use this file to select the required research surface.
+
+There is no current parent handoff. Historical handoffs are archived under `history/handoffs/`.
 
 ## Current routes
 
-| Question / topic | Read first | Then |
+| Need | Read first | Then if needed |
 |---|---|---|
-| Current overall research state / authorization | `STATE.md` | `WORK-ENVIRONMENT-CORRECTION-HANDOFF.md` |
-| Active Work Environment research | `01_verticals/work-environment/INDEX.md` | Work Environment `STATE.md`, `ORIENTATION.md` |
-| Why was the previous Environment result superseded? | `WORK-ENVIRONMENT-CORRECTION-HANDOFF.md` | old Environment material only for audit/history |
-| What is the replacement fourth-vertical method/scope? | `WORK-ENVIRONMENT-CORRECTION-HANDOFF.md` | active Work Environment `INDEX.md` |
-| Why does this foundations research exist? | `README.md` | `00_context/README.md` |
-| Shortest Records orientation | Records `KEY.md` | Records `FINDINGS-MAP.md` |
-| Consolidated Records result | Records `synthesis/RECORDS-VERTICAL-SYNTHESIS.md` | Records `STATE.md`, `INDEX.md` |
-| Shortest Work orientation | Work `KEY.md` | Work `FINDINGS-MAP.md` |
-| Consolidated Work result | Work `synthesis/WORK-VERTICAL-SYNTHESIS.md` | Work `STATE.md`, `INDEX.md` |
-| Shortest Actors orientation | Actors `KEY.md` | Actors `FINDINGS-MAP.md` |
-| Consolidated Actors result | Actors `synthesis/ACTORS-VERTICAL-SYNTHESIS.md` | Actors `STATE.md`, `INDEX.md` |
-| Previous wrong-scope Environment corpus | `WORK-ENVIRONMENT-CORRECTION-HANDOFF.md` | `01_verticals/environment/INDEX.md` only for deliberate historical/audit recovery |
-| What comes next? | `STATE.md` | active Work Environment `INDEX.md` |
+| Current overall research state / authorisation | `STATE.md` | relevant active vertical router |
+| Package purpose / reading rules | `README.md` | `STATE.md` |
+| Records shortest orientation | `01_verticals/records-artifacts/KEY.md` | Records `FINDINGS-MAP.md` / `INDEX.md` |
+| Records full result | `01_verticals/records-artifacts/synthesis/RECORDS-VERTICAL-SYNTHESIS.md` | relevant finding/source route |
+| Work shortest orientation | `01_verticals/work/KEY.md` | Work `FINDINGS-MAP.md` / `INDEX.md` |
+| Work full result | `01_verticals/work/synthesis/WORK-VERTICAL-SYNTHESIS.md` | relevant finding/source route |
+| Actors shortest orientation | `01_verticals/actors/KEY.md` | Actors `FINDINGS-MAP.md` / `INDEX.md` |
+| Actors full result | `01_verticals/actors/synthesis/ACTORS-VERTICAL-SYNTHESIS.md` | relevant finding/source route |
+| Technical Work Environment shortest orientation | `01_verticals/work-environment/KEY.md` | Work Environment `FINDINGS-MAP.md` / `INDEX.md` |
+| Technical Work Environment full result | `01_verticals/work-environment/synthesis/WORK-ENVIRONMENT-VERTICAL-SYNTHESIS.md` | relevant finding/source route |
+| Why/what was the old broad Environment pass? | `history/superseded/operating-world-environment/ARCHIVE-NOTICE.md` | archived `corpus/KEY.md` / `corpus/INDEX.md` |
+| Historical transition/handoff recovery | `history/INDEX.md` | relevant `history/handoffs/*.md` |
+| SOUL / Development OS prior context | `../soul-context/INDEX.md` | routed context evidence |
+| What comes next? | `STATE.md` | user decision; no substantive next phase is currently authorised |
 
-## Current sequencing
+## Current foundation library
 
-- Records: sufficiently complete and user-evaluated.
-- Work: sufficiently complete and user-evaluated.
-- Actors: sufficiently complete and user-evaluated.
-- Previous `Environment`: **superseded for the intended fourth-region purpose**.
-- Replacement `Work Environment / Çalışma Ortamı`: **ACTIVE independent vertical research; orientation pass started**.
-- Four-foundation comparison: **paused** until the replacement vertical returns and is evaluated.
-- Relation/composition research, SOUL architecture, final ontology/data model and implementation: **not authorised**.
+The active `01_verticals/` research library contains exactly:
 
-## Replacement fourth-vertical rule
+- `records-artifacts/`
+- `work/`
+- `actors/`
+- `work-environment/`
 
-Start from:
+All four intended independent corpora are sufficiently complete and user-evaluated for the current foundation purpose.
 
-> **What is a Work Environment / Çalışma Ortamı?**
+This does **not** establish that they are four final ontology classes, four architecture modules or an exhaustive system decomposition.
 
-Research the phenomenon independently, in the same methodological spirit as the Records, Work and Actors verticals.
+## Progressive retrieval rule
 
-Do **not** define or bound the vertical by:
-- Codex;
-- GitHub;
-- ChatGPT;
-- the user's computer;
-- Development OS architecture;
-- SOUL architecture;
-- Records/Work/Actors findings or their relations.
+For a vertical question, prefer:
 
-Those are not premises for this vertical. Concrete systems may be used later only as examples, counterexamples or falsifiers after domain-level claims have been developed.
+`vertical INDEX/KEY → FINDINGS-MAP → synthesis → relevant topic finding → completeness/audit or source ledger → primary/authoritative source`
 
-`Work Environment / Çalışma Ortamı` is a working label and must itself remain open to revision by the research.
+Do not read the entire corpus by default. Do not extend compressed summaries by assumption when a decision turns on detail omitted at that layer.
 
-## Active Work Environment retrieval
+## Active versus historical rule
 
-Start with:
+`history/` is not part of the current foundation set.
 
-`01_verticals/work-environment/STATE.md → INDEX.md → ORIENTATION.md → sources/ORIENTATION-SOURCES.md when source recovery is needed`.
+The superseded broad Environment corpus is preserved there because it researched a coherent boundary-relative operating-world question, but it answered a different question from Technical Work Environment.
 
-The orientation pass currently exposes terminology/rival-frame families and weak hypotheses only. It has **not** established a final definition or bounded vertical result.
+Historical handoffs preserve point-in-time state. Their old `current`, `next`, `authorised` or `awaiting evaluation` language must be interpreted relative to their checkpoint date, not as present project authority.
 
-Current next pass: **boundary and identity** — distinguish environment from tool bundle, platform, infrastructure, workspace and work system, and examine identity through configuration/state change.
+## Cross-foundation guardrail
 
-## Retrieval rule
+The completed active corpora are ready to be selectively recovered for a later authorised cross-foundation discussion, but cleanup itself does not authorise that phase.
 
-For Records, Work and Actors, use their current vertical routers only when historical/methodological comparison is needed; do not import their substantive findings into the Work Environment vertical.
-
-Do not route a fresh session through the previous Environment synthesis as a current result. Enter `01_verticals/environment/` only for explicit audit/history recovery.
-
-Historical handoffs are not current next-action authority:
-- `DISCUSSION-HANDOFF.md`
-- `ENVIRONMENT-RESEARCH-HANDOFF.md`
-- `ENVIRONMENT-EVALUATION-HANDOFF.md`
-- `FOUR-FOUNDATION-DISCUSSION-HANDOFF.md`
-
-## Current authorization guardrail
-
-The current substantive foundation activity is the independent Work Environment vertical.
-
-Do not infer authorization for:
-- using the superseded Environment corpus as the fourth result;
-- resuming cross-foundation synthesis before replacement research is evaluated;
-- broad relation/composition research;
-- declaring a final foundation/ontology;
-- SOUL architecture;
-- final data model;
+Do not infer current authorisation for:
+- cross-foundation comparison/synthesis;
+- relation/control/coordination research;
+- another foundation vertical;
+- SOUL or Development OS architecture;
+- final ontology/data-model design;
 - implementation.
+
+Read `STATE.md` for the current next-direction gate.
