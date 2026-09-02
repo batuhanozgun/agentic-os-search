@@ -2,21 +2,32 @@
 
 ## Role
 
-Current router for the planned `03_ground-deepening/` research stage.
+Current router for the accepted `03_ground-deepening/` research program.
 
-This package is currently a **plan**, not an active substantive research corpus.
+The program is accepted, but **no substantive ground pass is active yet**.
 
 ## Read order
 
-1. `STATE.md` — current authorization and stage status.
+1. `STATE.md` — current authorization and one-active-ground rule.
 2. `PLAN.md` — adaptive research program and ground-specific strategy.
 3. `README.md` — stable package purpose.
+4. `CURRENT-SURFACES.md` — exact planning/currentness binding.
 
 ## Current stage status
 
-**PLANNED; AWAITING USER EVALUATION.**
+**PLAN USER-ACCEPTED; AWAITING EXPLICIT AUTHORIZATION OF ONE FIRST GROUND.**
 
 No Environment, Information, Work or Actors substantive deepening package has been opened yet.
+
+## One-active-ground rule
+
+At most one ground may be under substantive research at any time.
+
+When one ground is active:
+- the other three remain inactive;
+- they may be consulted only for bounded boundary checks/counterexamples/relation capture;
+- cross-ground findings are deferred rather than expanded into a parallel pass;
+- changing the active ground requires an explicit transition decision.
 
 ## Ground routing once authorised
 
@@ -26,7 +37,7 @@ Start by recovering:
 - `../history/superseded/operating-world-environment/`;
 - `../02_adequacy/` hierarchy findings 08–10 and current synthesis/audit.
 
-Then create the active Environment package only after explicit user authorization.
+Create only the Environment active package after explicit user authorization.
 
 ### Information
 Start by recovering:
@@ -34,7 +45,7 @@ Start by recovering:
 - `../02_adequacy/findings/05-information-representation-boundary.md`;
 - relevant SOUL/Development OS context surfaces.
 
-Then create the active Information package only after explicit user authorization.
+Create only the Information active package after explicit user authorization.
 
 ### Work
 Start from the existing `../01_verticals/work/` package and run the planned coverage/gap audit before deciding whether substantive reopening is required.
@@ -45,6 +56,8 @@ Start from the existing `../01_verticals/actors/` package and run the planned co
 ## Cross-ground rule
 
 Relations observed during ground research should be recorded and recoverable, but the full typed relation/control/composition model is not part of this stage unless explicitly authorised later.
+
+Cross-ground relevance never authorizes parallel research of another ground.
 
 ## Guardrail
 
