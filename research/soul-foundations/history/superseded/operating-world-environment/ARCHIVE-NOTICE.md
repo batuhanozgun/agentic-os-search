@@ -20,6 +20,18 @@ The intended fourth research region was instead the **Technical Work Environment
 
 `../../../01_verticals/work-environment/`
 
+## Preservation status
+
+The original broad Environment research tree is preserved byte-for-byte under:
+
+`corpus/`
+
+Archived corpus tree SHA:
+
+`93fe3fc6810b6f6472539583e46144db2803ce17`
+
+This exactly matches the former active `01_verticals/environment/` tree at archival time. The archive therefore preserves the complete original research package rather than a rewritten summary of it.
+
 ## Interpretation rule
 
 This research is not being deleted or declared false.
@@ -30,6 +42,8 @@ Its bounded findings may be valid for the question it actually studied. The corp
 - an accepted SOUL ontology/module;
 - current project authorization.
 
+Files inside `corpus/` are historical snapshots. Point-in-time phrases such as `current`, `awaiting user evaluation` or then-current authorization refer to the original research checkpoint and do not override present parent state.
+
 ## Current authority
 
 For current SOUL Foundations state and routing, leave this archive and read:
@@ -38,7 +52,3 @@ For current SOUL Foundations state and routing, leave this archive and read:
 
 For the replacement fourth vertical, read:
 - `../../../01_verticals/work-environment/INDEX.md`
-
-## Direct-search warning
-
-Files preserved below may contain point-in-time wording such as `current`, `awaiting user evaluation` or then-current authorization. Inside this archive those statements are historical to the original research checkpoint and do not override current parent state.
