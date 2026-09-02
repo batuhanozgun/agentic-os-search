@@ -1,19 +1,14 @@
 # Four-Foundation Adequacy — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT ADEQUACY QUESTION; AWAITING USER EVALUATION  
+**Status:** REOPENED FOR NARROW REFINEMENT  
 **Authorised:** 2026-09-02  
-**Research closure:** 2026-09-02  
+**Prior bounded closure:** 2026-09-02  
+**Current authorised question:** test whether `Operating World / Work Domain` and `Technical Work Environment` should remain peer top-level grounds or instead be modeled as distinct subregions of one broader `Environment / Operating Context` ground  
 **Scope:** cross-foundation analytical/problem-ground adequacy only; not SOUL/Development OS architecture, final ontology/data model or implementation
 
-## Question answered
+## Prior bounded judgment retained as hypothesis under test
 
-Determine whether Records, Work, Actors and Technical Work Environment are sufficient and productive as top-level analytical/problem grounds for later SOUL and Development OS reasoning.
-
-## Current bounded judgment
-
-The original four are **real, separable and productive problem regions**, but their current scopes are **not sufficient as an exhaustive top-level map**.
-
-The strongest current level-aligned research hypothesis is:
+The previous adequacy pass found the original four to be genuine, separable and productive but not exhaustive, and proposed this level-aligned map:
 
 ```text
 Operating World / Work Domain / Domain Reality
@@ -26,117 +21,54 @@ Technical Work Environment
 + typed relations / control / transitions across grounds
 ```
 
-This is a research map, not a module/class/ontology decision.
+That five-ground result is **not frozen**. The user has explicitly reopened one residual boundary question: whether the two environment-like grounds are better represented at top level as one broader ground with distinct internal branches.
 
-## Material corrections to the original four-ground hypothesis
+## Current refinement question
 
-### 1. Operating World / Work Domain is missing
+> Do `Operating World / Work Domain` and `Technical Work Environment` share a sufficiently coherent parent problem such that one top-level `Environment / Operating Context` ground with explicit subregions is analytically stronger than treating them as peer grounds?
 
-Actual domain/world/process state can exist and change independently of:
-- Records/observations/models about it;
-- Work performed on it;
-- Actors participating;
-- the technical support setting used to perform Work.
+The research must not answer this from naming similarity alone.
 
-This gap is supported by internal boundary cases and materially different external traditions.
+## Required tests
 
-### 2. Records is probably one analytical level too narrow for the top information ground
+1. **Shared-genus test:** identify the strongest common problem stated without presupposing either branch.
+2. **Non-collapse test:** preserve the difference between the state of the domain being acted upon and the technical support conditions enabling Work.
+3. **Boundary-leak test:** ensure a broadened Environment does not swallow Work, Actors, Information/Representation or every contextual condition.
+4. **Productive-decomposition test:** determine whether the broader ground opens stable lower branches rather than becoming a miscellaneous residual bucket.
+5. **Rival-level test:** compare at least:
+   - five peer grounds;
+   - four broad grounds with Environment as parent;
+   - Technical Work Environment as merely a relation/view over World + Work + technical resources;
+   - Operating World as merely `everything outside the system`, which may be too boundary-relative to serve as a useful peer.
+6. **SOUL vs Development OS test:** the hierarchy may behave differently in a general-purpose system and in the development operating system.
+7. **Cross-lineage challenge:** use independent systems/work/context traditions rather than project lineage alone.
 
-Records correctly addresses persistent information.
+## Preserved results
 
-General-purpose working systems also need observation, belief/model/claim, transient/selective context, uncertainty and other representation semantics before or without persistence.
+This narrow reopening does not invalidate:
+- the independent Technical Work Environment corpus;
+- the archived broad operating-world research;
+- the prior finding that world/domain state is distinct from observations/records/models;
+- the prior finding that technical support environment has its own boundary, capability, constraint, state, identity, lifecycle and readiness semantics.
 
-Current hypothesis: `Information / Representation State` is the broader ground, with the existing Records corpus retained as its persistence branch.
+The question is their **top-level parent/peer relationship**, not whether either phenomenon exists.
 
-### 3. Typed relation/control fabric is mandatory but not a peer ground
+## Stop boundary
 
-Authority, dependency, provenance, observation, feedback, access, verification, delegation, constraint and transition semantics must compose the grounds explicitly.
+Do not:
+- design SOUL or Development OS architecture;
+- rename or restructure the completed vertical corpora merely because a broader hierarchy becomes preferable;
+- treat `Environment` as an accepted ontology class;
+- begin the Information/Representation foundation pass;
+- begin detailed relation/control composition.
 
-Current evidence does not justify one generic `Governance/Control` peer category because that would collapse materially different relation types.
+## Return condition
 
-## Original-four preservation judgment
+Return to the user when the refinement has a bounded evidence-backed judgment on:
 
-Do not discard the four existing corpora:
-
-- Records remains a deep, valid persistence problem region;
-- Work remains first-order and irreducible at the current analytical level;
-- Actors remains first-order and relationally rich;
-- Technical Work Environment remains first-order as realized technical support context.
-
-The correction is about **top-level sufficiency and level alignment**, not about those researches having failed.
-
-## SOUL vs Development OS
-
-### Development OS
-
-Original four are near-adequate/operationally powerful because the domain is heavily informational and technical. They are still not cleanly exhaustive because:
-- the system/product under development is distinct from development artefacts/Work/support environment;
-- transient/selective context and reasoning state exceed persistent Records.
-
-The corrected five-ground map fits more cleanly.
-
-### General-purpose SOUL
-
-Original four are insufficient as an exhaustive top-level map. Dynamic/partially observed physical, clinical, market, scientific, operational and other domains require explicit domain/world and representation distinctions.
-
-The corrected five-ground hypothesis currently has materially stronger coverage and cross-lineage support.
-
-## Completion basis
-
-The inquiry performed:
-
-1. unconstrained internal problem extraction before using the four labels;
-2. mapping against all four current foundation corpora;
-3. separability and productive-decomposition tests;
-4. recovery of the archived broad Environment result as a falsifier;
-5. external/cross-lineage holdouts including Work System Theory, W3C PROV, Cognitive Work Analysis, STAMP/STPA, agent–environment/POMDP, BDI, situation awareness, Activity Theory, NASA systems engineering and FRAM;
-6. rival decompositions;
-7. focused Information/Representation boundary research;
-8. separate SOUL vs Development OS judgment;
-9. targeted omission challenge over goals, governance, organization, communication, strategy, outputs/customers, resources/economics, risk/safety, time/space, evolution, system boundary, nontechnical support, generic entities, semantics and uncertainty.
-
-The final omission pass did not expose another peer region; it mainly strengthened mappings/boundaries. Marginal information value for further broad category search has therefore declined.
-
-## Verification limitation
-
-The completion/omission challenge is **same-model adversarial self-review, not independent verification**.
-
-External sources provide cross-lineage evidence, but no external source independently validates the exact corrected five-ground synthesis.
-
-## Preferred reading path
-
-`KEY.md → FINDINGS-MAP.md → synthesis/ADEQUACY-SYNTHESIS.md → relevant findings/*.md → completeness audit or source ledger → primary/authoritative source`
-
-## Residual questions
-
-See `OPEN-QUESTIONS.md` for:
-- exact naming/boundaries of Operating World and Information/Representation;
-- Records parent/child relation;
-- Work Domain ↔ Technical Work Environment role boundary;
-- typed relation/control families;
-- universal-completeness uncertainty;
-- architecture representation, which remains out of scope.
-
-## Reopen condition
-
-Reopen broad adequacy research only if:
-- a materially different domain exposes a first-order problem that fits only by stretching a current ground;
-- Operating World or Information/Representation becomes a residual bucket under deeper research;
-- an existing ground becomes reducible at the corrected level;
-- relation/control requires a new independent semantic substrate;
-- independent review exposes a materially omitted tradition/counterexample.
-
-## Next logical research
-
-If the user accepts this adequacy judgment, the highest-information next research is:
-
-1. independent foundation research into `Operating World / Work Domain` from the corrected question;
-2. independent foundation research into `Information / Representation State`, using Records as preserved persistence evidence rather than restarting it blindly;
-3. rerun top-level adequacy;
-4. only then investigate cross-ground relation/control composition before architecture.
-
-## Next authorised work
-
-**USER EVALUATION OF THIS ADEQUACY RESULT.**
-
-Do not automatically begin the two proposed foundation passes, relation/control composition, SOUL/Development OS architecture, ontology/data-model design or implementation.
+1. whether one broader Environment/Operating Context ground is preferable;
+2. the minimum definition needed to keep that parent non-vacuous;
+3. what branch distinction must remain explicit;
+4. what belongs outside that parent despite being contextual;
+5. whether the resulting candidate top-level map is four broad grounds or still five peers;
+6. remaining falsifiers/open questions.
