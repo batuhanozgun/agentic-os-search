@@ -1,21 +1,23 @@
 # Ground Deepening — STATE
 
-**Status:** HIERARCHICAL DEEPENING ACTIVE ON ENVIRONMENT → DOMAIN REALITY → DOMAIN STATE / CONFIGURATION ONLY  
+**Status:** DOMAIN STATE BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment parent evaluation:** accepted for hierarchical continuation  
-**Domain Reality bounded closure:** 2026-09-02  
-**Domain State node authorised:** 2026-09-02  
+**Domain Reality:** boundedly sufficient; user-authorised for continuation  
+**Domain State bounded closure:** 2026-09-02  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
-**Current authorised activity:** substantive Domain State / Configuration research only
+**Current authorised activity:** user evaluation of the Domain State result only
 
 ## Working research tree
 
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
-    │    ├─ Domain State / Configuration           ← ACTIVE
-    │    └─ Domain Dynamics / Processes            ← inactive
+    │    ├─ Domain State                           ← boundedly sufficient; awaiting user evaluation
+    │    │    ├─ Domain Structure / Composition   ← discovered; inactive
+    │    │    └─ Domain Condition / Status        ← discovered; inactive
+    │    └─ Domain Dynamics / Processes           ← inactive
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 
@@ -24,7 +26,25 @@ Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-Cross-ground relations/control/transitions may be recorded but are not yet systematically composed.
+## Domain State result
+
+The prior `Domain State / Configuration` label is refined to `Domain State`.
+
+Immediate children:
+- **Domain Structure / Composition** — actual constituents + composition/organization/topology;
+- **Domain Condition / Status** — actual properties/values/health/mode/status/standing.
+
+No third universal immediate child is currently required.
+
+Cross-cutting at this level:
+- identity / continuity;
+- constraints / invariants;
+- granularity / state sufficiency;
+- reference/scope/time;
+- actual-versus-represented boundary;
+- observability/evidence/uncertainty;
+- causal explanation;
+- cross-ground role switching.
 
 ## Hierarchical deepening method
 
@@ -34,60 +54,32 @@ Method:
 Rules:
 - at most one hierarchical node under substantive research;
 - node pass discovers only immediate children;
-- child discovery does not authorise child research;
-- child promotion requires distinct first-order question/failure/boundary/downstream reasoning value;
+- child discovery does not authorize child research;
 - cross-cutting dimensions are not promoted merely to deepen the tree;
-- node closure returns to user evaluation before child/sibling activation.
+- closure returns to user evaluation before child/sibling activation.
 
-## Prior Environment / Domain Reality result
-
-Current bounded tree before this pass:
-
-```text
-Environment / Operating Reality
-    ├─ Domain Reality
-    │    ├─ Domain State / Configuration
-    │    └─ Domain Dynamics / Processes
-    └─ Work Conditions / Enabling–Constraining Environment
-         └─ Technical Work Environment
-```
-
-`Effect Reality` is not a separate immediate child; actual result is Domain State/trajectory and causal effect/outcome attribution remains relational/evidential.
-
-## Active research node
-
-`Environment → Domain Reality → Domain State / Configuration`
+## Current Domain State route
 
 Plan:
 - `grounds/environment/domain-effect/DOMAIN-STATE-RESEARCH-PLAN.md`
 
-State:
-- `grounds/environment/domain-effect/domain-state/STATE.md`
-
-The pass must first attack whether State/Configuration is one coherent node or should split/reframe, then derive only its immediate child problem map or a justified bounded-leaf result.
-
-Priority rivals/falsifiers:
-- Structure/Composition;
-- Identity/Continuity;
-- Properties/Condition versus Relations/Topology;
-- Constraints/Invariants;
-- state granularity/sufficiency;
-- State versus realized-condition/situation framing;
-- actual versus represented state in social/institutional cases.
+Result:
+`grounds/environment/domain-effect/domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → focused finding → completion/source recovery`
 
 ## One-active-node rule
 
-During this pass:
-- Domain Dynamics remains inactive;
-- Work Conditions remains inactive;
-- Information, Work and Actors remain inactive;
-- sibling/other-ground material may be consulted only for bounded boundary tests, counterexamples or deferred relation capture;
-- child nodes discovered under Domain State are not auto-activated.
+No substantive node is active while Domain State awaits user evaluation.
+
+Domain Structure, Domain Condition, Domain Dynamics, Work Conditions, Information, Work and Actors are all inactive.
+
+## Verification status
+
+The Domain State completion audit is same-model adversarial self-review, not independent verification.
 
 ## Current return condition
 
-Complete the Domain State / Configuration node pass to bounded sufficiency or operational limit, persist current evidence/state, and return to user evaluation.
+User evaluates the bounded Domain State result and decides whether it is reasonable enough for hierarchical continuation or needs targeted reopening.
 
 ## Guardrail
 
-Do not begin substantive Domain Dynamics, any discovered State child, Work Conditions, Information, Work or Actors research; systematic relation/control composition; SOUL/Development OS architecture; final ontology/data-model work; or implementation during this pass.
+Do not activate Domain Structure, Domain Condition, Domain Dynamics, Work Conditions, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, final ontology/data-model work or implementation without explicit next authorization.
