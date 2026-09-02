@@ -1,60 +1,59 @@
 # Environment / Operating Reality — STATE
 
-**Status:** PARENT GROUND USER-EVALUATED; DOMAIN REALITY CHILD PASS BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION  
+**Status:** PARENT GROUND USER-EVALUATED; DOMAIN REALITY USER-AUTHORISED FOR CONTINUATION; DOMAIN STATE / CONFIGURATION ACTIVE  
 **Authorised:** 2026-09-02  
-**Bounded parent-ground closure:** 2026-09-02  
-**Parent user evaluation:** accepted as reasonable enough to continue hierarchical deepening on 2026-09-02  
-**Domain Reality bounded child closure:** 2026-09-02  
 **Scope:** Environment / Operating Reality ground only  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** user evaluation of the Domain Reality child result only; no substantive node is active
+**Current authorised activity:** substantive `Domain State / Configuration` research only
 
 ## Current Environment research hierarchy
 
-The parent-ground result remains accepted for continuation. The child pass materially corrected the first branch:
-
 ```text
 Environment / Operating Reality
-    ├─ Domain Reality                              ← bounded result; awaiting user evaluation
-    │    ├─ Domain State / Configuration           ← discovered child; inactive
-    │    └─ Domain Dynamics / Processes            ← discovered child; inactive
+    ├─ Domain Reality
+    │    ├─ Domain State / Configuration           ← ACTIVE
+    │    └─ Domain Dynamics / Processes            ← inactive
     │
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
 
-The previous label `Domain / Effect Reality` is weakened by the child research. Current strongest bounded child result is `Domain Reality`.
+The parent and Domain Reality results are accepted for continued hierarchical research, not as final ontology or architecture.
 
-## Why `Effect` is removed from the node name
+## Domain Reality result retained
 
-Keep separate:
+`Domain / Effect Reality` was refined to `Domain Reality` because:
+- actual resulting conditions/trajectories belong to Domain Reality;
+- causal effect/attribution is relational/counterfactual/evidential;
+- observational Work can have Domain Reality without intended effect.
 
-```text
-actual resulting Domain condition/trajectory
-≠ intended/desired outcome
-≠ observed/represented result
-≠ causal effect / attribution
-```
+Immediate children discovered by that pass:
+- Domain State / Configuration;
+- Domain Dynamics / Processes.
 
-Actual results are Domain State/trajectory. Causal effect is relational/counterfactual/evidential, and observational Work can have Domain Reality without intended intervention.
+## Active child — Domain State / Configuration
 
-## Immediate-child result
+Research plan:
+- `domain-effect/DOMAIN-STATE-RESEARCH-PLAN.md`
 
-### Domain State / Configuration
+Active node state:
+- `domain-effect/domain-state/STATE.md`
 
-Asks what realized domain condition/configuration obtains at the relevant time/scope, including load-bearing constituents, properties, relations/topology and current status.
+Primary question:
 
-### Domain Dynamics / Processes
+> What problems must be solved to characterize the realized condition/configuration of a materially relevant domain at a selected time and scope, and which problems deserve immediate child promotion without collapsing Dynamics, Information, Work or Actors into State?
 
-Asks what realized processes, interactions, events and disturbances make the domain persist, evolve or transition through time, including endogenous/exogenous change, Work-coupled transitions, delays and path dependence.
+The pass explicitly challenges:
+- State versus Configuration/Structure;
+- constituents/identity versus properties/status versus relations/topology;
+- Structure/Composition as a possible child;
+- Identity/Continuity as a possible child/cross-cutting prerequisite;
+- Constraints/Invariants;
+- state granularity/sufficiency;
+- `State` versus realized-condition/situation framing;
+- actual versus represented state, including institutional/social cases.
 
-These branches passed child-promotion through distinct first-order questions/failure modes and cross-domain usefulness. They are research problem branches, not ontology classes.
-
-## Third-child status
-
-No third universal immediate child is currently required. Structure/composition, constraints/invariants, effects/outcomes, space/time, affordances/actionability, causality and domain-type taxonomies remain cross-cutting, relational or specialization candidates at this level.
-
-## Parent-ground distinctions retained and refined
+## Parent-ground distinctions retained
 
 ```text
 actual Environment condition ≠ specification ≠ observation ≠ model ≠ Record
@@ -62,39 +61,24 @@ Domain Reality ≠ every target of Work
 Domain Dynamics ≠ Work lifecycle
 after-state/change ≠ causal effect attribution
 intended outcome ≠ actual resulting condition
-Actor capability ≠ situated actionability
 environmental participation ≠ semantic ownership
 ```
 
-Some institutional/social realities may be constituted by collective rules/attitudes/representations. The project therefore requires separation from any particular representation, not metaphysical independence from all representation.
-
-## Hierarchical deepening rule
+## Hierarchical rule
 
 - one active hierarchical node at a time;
+- Domain State pass identifies only immediate child regions or a justified leaf result;
 - child discovery does not authorize child research;
-- the current Domain Reality pass is closed;
-- `Domain State / Configuration`, `Domain Dynamics / Processes` and the Work-Conditions sibling are all inactive;
-- user evaluation is required before any next node is activated.
+- Domain Dynamics and Work Conditions remain inactive;
+- return to user evaluation after Domain State closure.
 
 Method:
 - `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-## Current Domain Reality route
-
-`domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-REALITY-SYNTHESIS.md → focused finding → completeness/source recovery`
-
-The package directory retains the historical path name `domain-effect/`; current semantic authority inside it uses `Domain Reality`. A directory rename is not necessary for epistemic correctness and is not performed during closure.
-
-## Verification status
-
-The node completion audit is same-model adversarial self-review, not independent verification. External source traditions support discriminating claims but do not independently validate the exact two-child project hierarchy.
-
 ## Current return condition
 
-User evaluates whether the bounded Domain Reality result is reasonable enough for hierarchical continuation or requires targeted reopening.
+Complete the bounded Domain State / Configuration pass, persist its state/evidence/currentness, and return to user evaluation.
 
-## Next authorised work
+## Guardrail
 
-**USER EVALUATION OF THE DOMAIN REALITY RESULT ONLY.**
-
-Do not automatically activate Domain State, Domain Dynamics, Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation.
+Do not activate Domain Dynamics, any discovered State child, Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation automatically.
