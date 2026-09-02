@@ -1,56 +1,31 @@
 # Environment / Operating Reality — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT GROUND-DEEPENING PURPOSE; AWAITING USER EVALUATION  
+**Status:** PARENT GROUND USER-EVALUATED FOR HIERARCHICAL CONTINUATION; DOMAIN / EFFECT RESEARCH PLAN READY  
 **Authorised:** 2026-09-02  
-**Bounded research closure:** 2026-09-02  
+**Bounded parent-ground closure:** 2026-09-02  
+**User evaluation:** 2026-09-02 — result judged reasonable enough to continue hierarchical deepening; not universal truth or architecture  
 **Scope:** Environment / Operating Reality ground only  
-**Other grounds:** inactive; no next ground authorised
+**Other top-level grounds:** inactive  
+**Current authorised activity:** evaluate/refine the `Domain / Effect Reality` research plan only; no substantive child-branch research is active
 
-## Question answered
-
-What is the strongest first-principles account of the Environment / Operating Reality problem ground needed for later SOUL and Development OS reasoning, including its boundary, first-order subregions, dynamics, condition/effect roles, failure surfaces and reduction limits?
-
-## Bounded current judgment
-
-Environment survives as a coherent top-level research ground.
-
-The starting hierarchy was materially refined from:
+## Current Environment hierarchy
 
 ```text
 Environment / Operating Reality
-    ├─ Operating World / Work Domain
-    └─ Work-Support Environment
-         └─ Technical Work Environment
-```
-
-to the stronger current working structure:
-
-```text
-Environment / Operating Reality
-    ├─ Domain / Effect Reality
+    ├─ Domain / Effect Reality                         ← next planned research node
     └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
 
-The main correction is that `support` was too narrow for physical, social/institutional, resource, hazard, interference and degradation conditions that materially shape Work without positively supporting it.
+The parent-ground result is accepted **for continuation of research**, not as a final ontology, universal decomposition or architecture decision.
 
-Branches are non-exclusive analytical roles, not object classes.
+## Parent-ground bounded result retained
 
-## Core parent semantics
-
-Environment concerns **realized, boundary/reference-relative conditions and dynamics** that matter to focal Work because they:
-- constitute the reality/effect space the Work must understand, accommodate, navigate, maintain, change or judge outcomes against; and/or
+Environment concerns realized, boundary/reference-relative conditions and dynamics that matter to focal Work because they:
+- constitute the domain/effect reality the Work must understand, accommodate, navigate, maintain, change or judge outcomes against; and/or
 - materially enable, constrain, degrade, endanger or otherwise shape execution.
 
-Environment is not:
-- everything outside;
-- everything relevant;
-- Context;
-- all constraints/resources;
-- a fixed object family;
-- the specification/observation/model/Record of the conditions.
-
-## Strong non-collapse rules
+Strong distinctions remain:
 
 ```text
 actual Environment condition ≠ specification ≠ observation ≠ model ≠ Record
@@ -60,67 +35,54 @@ environmental participation ≠ semantic ownership
 outside boundary ≠ automatically relevant Environment
 ```
 
-## First-order Environment problem families
+## Material hierarchy result
 
-Current bounded map covers:
-1. reference frame / focal Work / system-of-interest;
-2. boundary / material participation;
-3. Domain/Effect vs Work-Condition role;
-4. realized state;
-5. dynamics/disturbances/path dependence;
-6. coupling/interfaces/resources/capacity;
-7. constraints/hazards in realized-condition role;
-8. observability/model-mismatch boundary;
-9. situated feasibility/actionability relation boundary;
-10. actual effects/outcome grounding;
-11. nesting/role switching/boundary lifecycle;
-12. specialized lower environment profiles, with TWE as the established deep example.
+The parent pass produced two immediate first-order roles:
 
-## Third-branch / omission result
+1. **Domain / Effect Reality** — what actual reality focal Work is about, must accommodate/navigate/understand/change, or must judge real-world outcomes against.
+2. **Work Conditions / Enabling–Constraining Environment** — realized conditions/capabilities/resources/interfaces that materially enable, constrain, degrade or otherwise shape execution.
 
-Physical, social, institutional/legal, economic/resource, ecological, ambient, hazard, infrastructure, other-agent/system, temporal/spatial, specified-envelope and uncertainty cases were tested.
+Branches are non-exclusive analytical roles, not object types.
 
-No third first-order Environment branch was forced when roles are non-exclusive:
-- Domain/Effect;
-- Work Conditions;
-- both;
-- neither if not load-bearing.
+## Hierarchical deepening rule
 
-## Evidence / verification status
+Environment is not considered exhaustively researched merely because the parent and its immediate children are now visible.
 
-The pass recovered:
-- completed TWE evidence;
-- archived operating-world evidence;
-- adequacy hierarchy evidence;
-- cross-lineage external sources including systems engineering, NASA/NIST/ISO, SEIPS/HFE, O*NET, CWA/WDA, operational-context, affordance and work-system traditions;
-- materially different scenario holdouts.
+Further work follows:
+- `../../HIERARCHICAL-DEEPENING-METHOD.md`;
+- one active hierarchical node at a time;
+- research the selected node;
+- identify only its immediate child regions;
+- return for user evaluation before activating a child or sibling;
+- do not mistake cross-cutting dimensions for child branches merely to create a deeper tree.
 
-The final completeness/omission check is **same-model adversarial self-review, not independent verification**.
+## Next planned node — Domain / Effect Reality
 
-No external source independently validates this exact project hierarchy.
+Plan:
+- `DOMAIN-EFFECT-RESEARCH-PLAN.md`
 
-## Preferred retrieval
+Main question:
 
-`KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → relevant findings/*.md → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md → primary/authoritative source`
+> What actual reality is focal Work about, trying to understand, accommodate, navigate, maintain, transform, or judge outcomes against; and what immediate first-order problem regions are required to reason about that reality without collapsing Work, Information, Actors or execution conditions into it?
+
+The plan explicitly attacks the inherited label/shape, including whether `Domain Reality` and `Effect Reality` should remain one node or split.
+
+## Work Conditions sibling
+
+`Work Conditions / Enabling–Constraining Environment` is **not active** during the Domain/Effect pass.
+
+Technical Work Environment remains valid deep prior evidence under that sibling, but no Work-Conditions substantive research is authorized by this state.
+
+## Parent-ground evidence route
+
+`KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → relevant finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md → primary source`
 
 Residuals:
 - `OPEN-QUESTIONS.md`
 - `DEFERRED-RELATIONS.md`
 
-Exact local freshness:
-- `CURRENT-SURFACES.md` once written/updated after final closure edits.
-
-## Reopen condition
-
-Reopen Environment if:
-- a later domain exposes a realized condition that cannot fit Domain/Effect or Work Conditions without forced stretching;
-- the parent repeatedly steals Work/Actors/Information semantics;
-- deeper Information/Work/Actors research falsifies an Environment boundary;
-- independent review presents a materially stronger decomposition;
-- a new source tradition materially changes the current result.
-
 ## Next authorised work
 
-**USER EVALUATION OF THE ENVIRONMENT RESULT ONLY.**
+**USER EVALUATION / REFINEMENT OF `DOMAIN-EFFECT-RESEARCH-PLAN.md` ONLY.**
 
-Do not automatically activate Information, Work, Actors, cross-ground composition, architecture, ontology/data-model work or implementation.
+Do not begin substantive Domain/Effect research until the user accepts the plan and explicitly asks to start. Do not activate Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation automatically.
