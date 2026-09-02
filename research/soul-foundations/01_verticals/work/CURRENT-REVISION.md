@@ -1,7 +1,7 @@
 # Work — Current Revision Binding
 
 **Document role:** CURRENT_REVISION_MANIFEST  
-**Revision:** `work-foundation-2026-09-01-r1`  
+**Revision:** `work-foundation-2026-09-02-r2`  
 **Purpose:** bind the preferred current Work reading surfaces to exact repository blobs so progressive derived views cannot silently drift apart.
 
 ## Revision rule
@@ -21,10 +21,10 @@ Historical orientation is not required to share the current revision identifier;
 
 | File | Blob SHA |
 |---|---|
-| `README.md` | `b1077da2146ca1104e6ccd4cb85f046fd6823cec` |
-| `STATE.md` | `4bee6d5a362f12189df77948ef247bbb86eddcf2` |
-| `INDEX.md` | `10a2a50509bca725c137b0348217754144b48447` |
-| `DOCUMENT-STATUS.md` | `6818f6909d3c5f1e0e4a7f88f0fc3bbc3a6ba275` |
+| `README.md` | `e5a6442a7da8281f7a24cc6fe54fbda53f6a8e85` |
+| `STATE.md` | `1ac22035b6172059cd606435e7f536a744cf7fc4` |
+| `INDEX.md` | `a1d266b2d26f397483ebc3dd61dc4d487f38c833` |
+| `DOCUMENT-STATUS.md` | `e1f24612c95438c4294192fb18529c8b19ba3318` |
 
 ## L0 / L1 / L2
 
@@ -66,5 +66,7 @@ L5 consists of the primary/authoritative sources named by the source ledger and 
 ## Interpretation
 
 The SHA binding establishes **which derived view/version is current in this Work retrieval revision**. It does not make any derived view primary evidence or independently verified truth.
+
+This manifest binds Work-local surfaces only. Current parent-level project authorization and next responsibility live in `../../STATE.md` and `../../INDEX.md`.
 
 If a listed SHA no longer matches the current path, treat this manifest as stale until repaired; do not silently infer that the newer file is part of this revision.
