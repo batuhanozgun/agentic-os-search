@@ -1,20 +1,21 @@
 # Ground Deepening — STATE
 
-**Status:** HIERARCHICAL DEEPENING ACTIVE ON ENVIRONMENT → DOMAIN / EFFECT REALITY ONLY  
+**Status:** DOMAIN REALITY NODE BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
-**Environment parent pass authorised:** 2026-09-02  
-**Environment bounded parent closure:** 2026-09-02  
 **Environment parent evaluation:** accepted as reasonable enough for hierarchical continuation on 2026-09-02  
-**Domain / Effect node authorised:** 2026-09-02  
+**Domain Reality bounded closure:** 2026-09-02  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
-**Current authorised activity:** substantive Domain / Effect Reality research only
+**Current authorised activity:** user evaluation of the Domain Reality result only
 
-## Working grounds
+## Working research tree
 
 ```text
 Environment / Operating Reality
-    ├─ Domain / Effect Reality                   ← ACTIVE
+    ├─ Domain Reality                              ← boundedly sufficient; awaiting user evaluation
+    │    ├─ Domain State / Configuration           ← discovered; inactive
+    │    └─ Domain Dynamics / Processes            ← discovered; inactive
+    │
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 
@@ -30,59 +31,56 @@ Cross-ground relations/control/transitions may be recorded but are not yet syste
 Current recursive method:
 - `HIERARCHICAL-DEEPENING-METHOD.md`
 
-Key operating rules:
-- at most one hierarchical node is under substantive research at a time;
-- a node pass researches that node and discovers only its immediate child regions;
-- discovering children does not authorize researching them in the same pass;
-- child branches are promoted only when separation preserves a distinct first-order question, failure mode, reduction/boundary behavior or materially different downstream reasoning;
-- cross-cutting dimensions are not promoted merely to make the tree deeper;
-- after node closure, return to user evaluation before activating a child or sibling.
+Key rules:
+- at most one hierarchical node under substantive research;
+- node pass discovers only immediate child regions;
+- discovering children does not authorize researching them;
+- child promotion requires a distinct first-order question/failure/boundary/downstream reasoning value;
+- cross-cutting dimensions are not promoted merely to deepen the tree;
+- after node closure, return to user evaluation before child/sibling activation.
 
 ## Environment parent result
 
-Current bounded Environment hierarchy:
+Parent remains accepted for continued hierarchical research. Current refined Environment tree is:
 
 ```text
 Environment / Operating Reality
-    ├─ Domain / Effect Reality
+    ├─ Domain Reality
+    │    ├─ Domain State / Configuration
+    │    └─ Domain Dynamics / Processes
     └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
 
-The parent ground survived adversarial research. The former `Work-Support Environment` label was broadened because constraining/degrading/hazard conditions are also first-order execution conditions.
+The child pass refines the old parent label `Domain / Effect Reality` to `Domain Reality`.
 
-This is a research hierarchy, not architecture or ontology.
+## Domain Reality bounded result
 
-## Active research node
+Main findings:
+- `Effect Reality` is not supported as a separate immediate reality child;
+- actual result is Domain State/trajectory;
+- causal effect/attribution is relational/counterfactual/evidential;
+- Domain State / Configuration and Domain Dynamics / Processes pass the child-promotion test;
+- no third universal immediate child emerged from Structure/Constraint/Outcome/type and cross-domain probes;
+- Domain Reality is not every target of Work and may be absent as a material target for some Work.
 
-`Environment → Domain / Effect Reality`
-
-Plan:
-- `grounds/environment/DOMAIN-EFFECT-RESEARCH-PLAN.md`
-
-The pass must first attack whether `Domain / Effect Reality` is one coherent node or should split/reframe, then derive only its immediate child problem map.
-
-Required output at bounded closure:
-- active-node state and shortest result;
-- immediate-child map or justified leaf/reframe result;
-- focused findings and evidence ledger;
-- deferred relations/open questions;
-- same-model completion/omission audit;
-- exact current surfaces;
-- user evaluation before any child/sibling activation.
+Current route:
+`grounds/environment/domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-REALITY-SYNTHESIS.md → focused finding → audit/source recovery`
 
 ## One-active-node rule
 
-During this Domain/Effect pass:
-- Work Conditions remains inactive;
-- Information, Work and Actors remain inactive;
-- sibling/other-ground material may be consulted only for bounded boundary tests, counterexamples or deferred relation capture;
-- child nodes discovered under Domain/Effect are not auto-activated.
+No substantive node is active while the Domain Reality result awaits evaluation.
+
+`Domain State / Configuration`, `Domain Dynamics / Processes`, Work Conditions, Information, Work and Actors are all inactive.
+
+## Verification status
+
+The Domain Reality completion audit is same-model adversarial self-review, not independent verification.
 
 ## Current return condition
 
-Complete the Domain / Effect Reality node pass to bounded sufficiency or operational limit, persist current evidence/state, and return to user evaluation.
+User evaluates the bounded Domain Reality node and decides whether it is reasonable enough for hierarchical continuation or needs targeted reopening.
 
 ## Guardrail
 
-Do not begin substantive Work Conditions, Information, Work or Actors research; systematic relation/control composition; SOUL/Development OS architecture; final ontology/data-model work; or implementation during this pass.
+Do not activate Domain State, Domain Dynamics, Work Conditions, Information, Work or Actors; systematic relation/control composition; SOUL/Development OS architecture; final ontology/data-model work; or implementation without explicit next authorization.
