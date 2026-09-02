@@ -118,8 +118,16 @@ OCI runtime config: https://specs.opencontainers.org/runtime-spec/config/
 
 Relevant evidence:
 - components, commands, events/endpoints/resources/variables as explicit configured environment facets;
-- resource limits, process environment and isolation configuration as part of environment behavior.
+- runtime configuration specifies process environment, sandboxing and platform-specific resource details.
+
+## S12 — NIST SEE capability modeling
+
+Zelkowitz, *Modeling Software Engineering Environment Capabilities*, Journal of Systems and Software 35(1), 1996.  
+https://www.sciencedirect.com/science/article/pii/0164121295000828
+
+Relevant evidence:
+- service-based model can formally characterize environment capabilities, interoperability and integration.
 
 ## Synthesis caution
 
-The finding's distinctions among component/tool, capability/service, resource, interface and constraint/policy are comparative synthesis constructs. No source is claimed to publish that exact domain-general taxonomy.
+The terms `support closure`, `bound dependency`, and the six-state separation `exists → reachable → integrated/bound → permitted → available → sufficient` are vertical synthesis constructs. They are not quoted taxonomies from these sources and must remain open to falsification.
