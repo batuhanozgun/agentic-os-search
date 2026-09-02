@@ -1,7 +1,7 @@
 # SOUL Foundations — STATE
 
 **Status:** active research library; independent discovery and adequacy layers are closed; Environment parent and Domain Reality are user-evaluated for hierarchical continuation; Domain State is boundedly sufficient and awaiting user evaluation  
-**Repository cleanup/currentness verification:** hierarchical routing refreshed on 2026-09-02  
+**Repository cleanup/currentness verification:** completed after Domain State closure on 2026-09-02; current routing/readability surfaces and exact manifest chain are synchronized  
 **Current authorised substantive activity:** USER EVALUATION OF THE DOMAIN STATE RESULT ONLY  
 **Current return condition:** user evaluates Domain State before any child/sibling/other ground is activated
 
@@ -95,13 +95,13 @@ Parent currentness:
 `STATE.md → INDEX.md`
 
 Ground-deepening state/method:
-`03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md → INDEX.md`
+`03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md → INDEX.md → CURRENT-SURFACES.md`
 
 Environment / Domain Reality route:
-`03_ground-deepening/grounds/environment/STATE.md → domain-effect/STATE.md → KEY.md`
+`03_ground-deepening/grounds/environment/STATE.md → KEY.md → domain-effect/STATE.md → KEY.md`
 
 Current Domain State result:
-`03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → focused finding → completion/source recovery`
+`03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → focused finding → completion/source recovery → CURRENT-SURFACES.md`
 
 ## Verification status
 
