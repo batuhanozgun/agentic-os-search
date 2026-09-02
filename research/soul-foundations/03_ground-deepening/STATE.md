@@ -1,101 +1,91 @@
 # Ground Deepening — STATE
 
-**Status:** ACTIVE — ENVIRONMENT / OPERATING REALITY ONLY  
+**Status:** ENVIRONMENT PASS BOUNDEDLY COMPLETE; AWAITING USER EVALUATION  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment pass authorised:** 2026-09-02  
+**Environment bounded closure:** 2026-09-02  
 **Scope:** ground-specific research-depth completion for the accepted four-ground working hypothesis  
-**Current authorised activity:** substantive Environment / Operating Reality research only
+**Current authorised activity:** user evaluation of Environment result only; no substantive ground is currently active
 
 ## Working grounds
 
 ```text
-Environment / Operating Reality                 ← ACTIVE
+Environment / Operating Reality                 ← boundedly sufficient; awaiting user evaluation
 Information / Representation State              ← inactive
 Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-+ cross-ground relations/control/transitions may be recorded but are not yet systematically composed.
+Cross-ground relations/control/transitions may be recorded but are not yet systematically composed.
 
-These are research/problem grounds, not architecture modules, ontology classes or exclusive entity buckets.
+## One-active-ground rule
 
-## Accepted operating rule — one active ground at a time
+At most one ground may be under substantive deepening research at a time.
 
-At most **one** ground may be under substantive deepening research at a time.
+The Environment pass is now closed for bounded research and returned to the user. No other ground becomes active automatically.
 
-During the Environment pass:
-- Information, Work and Actors are not researched in parallel;
-- they may be consulted only as bounded references for Environment boundary checks, counterexamples or relation capture;
-- discovering a cross-ground issue does not authorize opening another ground;
-- switching grounds requires closing/pausing Environment and an explicit next-ground decision.
+Switching to Information, Work or Actors requires an explicit next-ground decision after user evaluation.
 
-## Active Environment objective
+## Environment result
 
-Research Environment / Operating Reality to bounded sufficiency without assuming the current two-branch hierarchy is correct.
-
-Starting hypothesis to challenge:
+Current strongest Environment hierarchy:
 
 ```text
 Environment / Operating Reality
-    ├─ Operating World / Work Domain
-    └─ Work-Support Environment
+    ├─ Domain / Effect Reality
+    └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
 
-The pass must test:
-- whether the parent is coherent and non-residual;
-- whether target/domain and support are the right first-order branches;
-- whether nontechnical support changes the branch structure;
-- whether physical, social, institutional, digital and hybrid cases fit without forced collapse;
-- boundary/reference-point dependence and nested systems;
-- actual conditions versus observation/representation;
-- state, dynamics, constraints, resources, interfaces, disturbances, feasibility/actionability and effects;
-- when a concrete system changes target/support role across Work;
-- whether a materially different Environment-local first-order region is missing;
-- whether Environment should be reduced, split, renamed or reframed.
+Material correction from the starting hypothesis:
+- one broad Environment parent survives;
+- target/domain and execution-condition roles remain distinct;
+- `Work-Support Environment` was too narrow/positive and is broadened to enabling–constraining Work Conditions;
+- Technical Work Environment remains the deep technical specialization;
+- no third universal first-order Environment branch emerged from the current adversarial/holdout set.
 
-Existing Technical Work Environment and archived operating-world research are prior evidence, not axioms.
+Branches are non-exclusive analytical roles, not object classes.
 
-## Method
+## Environment completion basis
 
-1. Recover current and historical Environment evidence.
-2. Freeze a current evidence inventory and known falsifiers.
-3. Run boundary/level tests before broadening the decomposition.
-4. Derive Environment-specific subproblem families from evidence.
-5. Deepen only materially under-supported families.
-6. Capture cross-ground relations separately.
-7. Run external holdouts and rival-decomposition tests.
-8. Run same-model omission/reduction/completeness challenge, labeled non-independent.
-9. Return to user evaluation; do not automatically activate Information.
+The pass covered:
+- prior evidence recovery;
+- parent boundary/reference frame;
+- Domain/Effect vs Work-Condition roles;
+- actual state/dynamics/observability boundary;
+- actionability/resources/constraints/effects;
+- nontechnical physical/social/institutional conditions;
+- nesting/role switching/environment identity;
+- rival decomposition/naming;
+- cross-domain holdouts/omission probes;
+- integrated problem/failure map;
+- source ledger;
+- same-model completion/omission review.
 
-## Expected prior evidence
+The completion audit is not independent verification.
 
-Primary project inputs:
-- `../../01_verticals/work-environment/`
-- `../../history/superseded/operating-world-environment/`
-- `../../02_adequacy/findings/08-environment-parent-hierarchy.md`
-- `../../02_adequacy/findings/09-environment-parent-boundary-leak-check.md`
-- `../../02_adequacy/findings/10-agent-control-counterframe.md`
-- `../../02_adequacy/evidence/ENVIRONMENT-HIERARCHY-SOURCES.md`
-- `../../02_adequacy/synthesis/ENVIRONMENT-HIERARCHY-REFINEMENT-CHECK.md`
+Current Environment route:
+`grounds/environment/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → relevant finding → completeness/source recovery`
 
-## Closure rule
+## Other grounds
 
-Environment closes only if:
-- parent boundary is usable and not an `everything else` bucket;
-- material first-order Environment regions are identified;
-- existing TWE and operating-world evidence are correctly integrated rather than duplicated;
-- materially different external/domain cases stop producing new Environment-local first-order regions;
-- rival/reduction attempts do not expose a stronger framing;
-- residual uncertainty and deferred cross-ground relations are explicit;
-- source/view recovery exists for load-bearing claims;
-- user receives the result for evaluation.
+### Information
+Not active. Existing Records evidence remains available, but broader Information / Representation research must not begin until explicitly authorised.
+
+### Work
+Not active. Planned first action remains a coverage/gap audit if/when authorised.
+
+### Actors
+Not active. Planned first action remains a coverage/gap audit if/when authorised.
 
 ## Current return condition
 
-Complete the Environment ground pass to bounded sufficiency or operational limit, persist current state/evidence, and return to user evaluation.
+User evaluates the bounded Environment result and decides whether:
+- Environment is accepted for this stage;
+- Environment needs targeted reopening;
+- or a next single ground should later be authorised.
 
 ## Guardrail
 
-Do not begin substantive Information, Work or Actors research, systematic relation/control composition, SOUL/Development OS architecture, final ontology/data-model work or implementation.
+Do not begin substantive Information, Work or Actors research, systematic relation/control composition, SOUL/Development OS architecture, final ontology/data-model work or implementation without explicit next authorization.
