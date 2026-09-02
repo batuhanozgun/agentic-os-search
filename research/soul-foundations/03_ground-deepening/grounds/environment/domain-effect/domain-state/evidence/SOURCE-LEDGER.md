@@ -1,8 +1,10 @@
 # Domain State — Source Ledger
 
-**Status:** active source/view recovery ledger  
+**Status:** preserved source/view recovery ledger for the closed Domain State pass; not active work  
 **Date:** 2026-09-02  
-**Scope:** Environment → Domain Reality → Domain State / Configuration only
+**Scope:** Environment → Domain Reality → Domain State, started under the label `Domain State / Configuration`
+
+> **Pass provenance:** This ledger preserves the evidence recovery used during the Domain State pass. Current hierarchy/status is in `../STATE.md`, `../KEY.md`, `../FINDINGS-MAP.md`, and `../CURRENT-SURFACES.md`. Pass-time language below is evidence history, not current authorization.
 
 ## Purpose
 
@@ -14,16 +16,16 @@ No external source independently validates the project's child hierarchy.
 
 ## A. Project evidence
 
-### A1 — Domain Reality current package
+### A1 — Domain Reality parent package at the time of this pass
 
 Key paths:
-- `../STATE.md`
-- `../KEY.md`
-- `../FINDINGS-MAP.md`
-- `../findings/04-state-configuration-vs-dynamics-processes.md`
-- `../findings/08-domain-reality-problem-map.md`
-- `../synthesis/DOMAIN-REALITY-SYNTHESIS.md`
-- `../OPEN-QUESTIONS.md`
+- `../../STATE.md`
+- `../../KEY.md`
+- `../../FINDINGS-MAP.md`
+- `../../findings/04-state-configuration-vs-dynamics-processes.md`
+- `../../findings/08-domain-reality-problem-map.md`
+- `../../synthesis/DOMAIN-REALITY-SYNTHESIS.md`
+- `../../OPEN-QUESTIONS.md`
 
 Carries:
 - State/Configuration versus Dynamics/Processes separation;
@@ -37,8 +39,8 @@ Limitation:
 ### A2 — Technical Work Environment prior evidence
 
 Key paths:
-- `../../../../01_verticals/work-environment/findings/01-boundary-and-identity.md`
-- `../../../../01_verticals/work-environment/findings/02-configuration-state-reproducibility.md`
+- `../../../../../../01_verticals/work-environment/findings/01-boundary-and-identity.md`
+- `../../../../../../01_verticals/work-environment/findings/02-configuration-state-reproducibility.md`
 - relevant source ledgers when needed.
 
 Carries:
@@ -265,12 +267,20 @@ Limitations:
 
 ---
 
-## C. Current evidence trajectory
+## C. Pass evidence trajectory
 
 Early search produced meaningful structural information:
 - `State / Configuration` should likely be shortened to `Domain State`;
-- realized Structure/Composition and realized Condition/Status appear to have distinct first-order questions/failures;
-- actual-vs-represented state is a cross-ground boundary, not a child;
-- identity, constraints and granularity are explicit but cross-cutting at this level.
+- realized Structure/Composition and realized Condition/Status appeared to have distinct first-order questions/failures;
+- actual-vs-represented state was a cross-ground boundary, not a child;
+- identity, constraints and granularity appeared explicit but cross-cutting at this level.
 
-Later cross-domain probes have so far refined these boundaries rather than producing a third immediate child.
+Later cross-domain probes refined these boundaries rather than producing a third immediate child. Closure established:
+
+```text
+Domain State
+    ├─ Domain Structure / Composition
+    └─ Domain Condition / Status
+```
+
+Use the package `STATE.md`, `KEY.md`, synthesis and `CURRENT-SURFACES.md` for the current bounded result and authorization state.
