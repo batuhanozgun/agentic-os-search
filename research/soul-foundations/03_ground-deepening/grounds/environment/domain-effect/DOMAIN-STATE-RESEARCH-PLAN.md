@@ -1,10 +1,12 @@
 # Domain State / Configuration — Research Plan
 
-**Status:** PLAN READY; substantive node research not started until the pre-research gate below is passed  
+**Status:** EXECUTED HISTORICAL PLAN; Domain State node pass closed and awaits user evaluation  
 **Date:** 2026-09-02  
 **Parent:** `Domain Reality`  
 **Sibling:** `Domain Dynamics / Processes` — inactive during this pass  
 **User direction:** plan first; after the plan, the assistant may decide whether entry conditions are strong enough to begin the single-node pass in the same turn
+
+> **Execution / refinement notice:** This file preserves the plan and starting label that governed the completed pass. The pass refined `Domain State / Configuration` to `Domain State` and discovered `Domain Structure / Composition` plus `Domain Condition / Status`. Current hierarchy/status is in `STATE.md`, `KEY.md`, and `domain-state/STATE.md`. The plan body below is intentionally retained as pre-result research control, not current authorization.
 
 ## Purpose
 
@@ -14,7 +16,7 @@ This pass follows `../../../HIERARCHICAL-DEEPENING-METHOD.md` and must stop befo
 
 ## Starting hypothesis under attack
 
-Current bounded hierarchy:
+Current bounded hierarchy at planning time:
 
 ```text
 Environment / Operating Reality
