@@ -1,9 +1,9 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; four independent vertical corpora are user-evaluated and the top-level adequacy inquiry is boundedly sufficient, awaiting user evaluation  
+**Status:** active research library; four independent vertical corpora are user-evaluated and the top-level adequacy inquiry is reopened for one narrow hierarchy refinement  
 **Repository cleanup/currentness verification:** COMPLETE on 2026-09-02  
-**Current authorised substantive activity:** USER EVALUATION of the adequacy result only  
-**Current return condition:** user evaluates whether the bounded adequacy result is accepted before any new foundation or composition research begins
+**Current authorised substantive activity:** environment-hierarchy adequacy refinement — test whether Operating World / Work Domain and Technical Work Environment should be peer top-level grounds or distinct branches of one broader Environment / Operating Context ground  
+**Current return condition:** return a bounded evidence-backed refinement judgment to the user before any new foundation or composition research begins
 
 ## Dependency state
 
@@ -12,24 +12,20 @@
 - **Work:** SUFFICIENTLY COMPLETE; USER-EVALUATED; RETRIEVAL CLOSURE COMPLETE.
 - **Actors:** SUFFICIENTLY COMPLETE; USER-EVALUATED; RETRIEVAL CLOSURE COMPLETE.
 - **Technical Work Environment:** SUFFICIENTLY COMPLETE; USER-EVALUATED.
-- **Four-foundation adequacy inquiry:** BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION in `02_adequacy/`.
-- **Earlier broad Environment / operating-world research:** SUPERSEDED FOR THE INTENDED FOURTH-VERTICAL PURPOSE; archived as historical research only.
-- **New Operating World / Work Domain foundation pass:** logical next candidate, NOT AUTHORISED.
-- **New Information / Representation State foundation pass:** logical next candidate, NOT AUTHORISED.
+- **Top-level adequacy inquiry:** prior bounded result REOPENED ONLY for the `Operating World ↔ Technical Work Environment` top-level parent/peer question in `02_adequacy/`.
+- **Earlier broad Environment / operating-world research:** SUPERSEDED FOR THE INTENDED FOURTH-VERTICAL PURPOSE; archived as historical research only, but valid prior evidence/falsifier material for the reopened hierarchy question.
+- **New Operating World / Work Domain foundation pass:** NOT AUTHORISED.
+- **New Information / Representation State foundation pass:** logical later candidate, NOT AUTHORISED.
 - **Relation/control composition research:** logical later candidate, NOT AUTHORISED.
 - **SOUL/Development OS architecture, final ontology/data model, implementation:** NOT AUTHORISED.
 
-## Current adequacy result
+## Prior adequacy result under narrow refinement
 
-Question:
-
-> Do Records, Work, Actors and Technical Work Environment provide a sufficient and productive top-level analytical/problem-ground decomposition for later SOUL and Development OS reasoning?
-
-Bounded answer:
+The prior bounded answer was:
 
 > **The original four are genuine, separable and productive problem regions, but their current scopes are not sufficient as an exhaustive top-level analytical map.**
 
-The strongest current level-aligned research hypothesis is:
+It proposed:
 
 ```text
 Operating World / Work Domain / Domain Reality
@@ -42,111 +38,59 @@ Technical Work Environment
 + typed relations / control / transitions across grounds
 ```
 
-This is a research map, not a five-module architecture, final ontology or schema.
+The user has not rejected the substantive distinctions, but has challenged the **top-level level assignment** of the two environment-like regions. The current question is therefore whether the stronger map is instead:
 
-### Material correction 1 — Operating World / Work Domain
+```text
+Environment / Operating Context
+    ├─ Operating World / Work Domain
+    └─ Technical Work Environment
+Information / Representation State
+    └─ Records / Persistent Information
+Work
+Actors / Agency–Participation–Authority
 
-Actual domain/world/process state can exist and change independently of:
-- Records/observations/models about it;
-- Work performed on it;
-- Actors participating;
-- the technical support setting used to perform Work.
++ typed relations / control / transitions
+```
 
-The gap survived internal mapping, archived operating-world falsifier recovery, rival decomposition tests and cross-lineage holdouts including Cognitive Work Analysis, STAMP/control and agent–environment traditions.
+This is a research hypothesis, not architecture or ontology.
 
-### Material correction 2 — Records level alignment
+## Current hierarchy-refinement tests
 
-Records correctly addresses persistent information, but a general-purpose working system also needs semantics for:
-- observations/signals;
-- beliefs/models/claims/inferences;
-- transient/selective context;
-- uncertainty/conflict;
-- decisions about what later becomes persistent.
+The inquiry must establish whether a broader Environment parent:
 
-Current hypothesis: `Information / Representation State` is the broader top-level problem ground, with the existing Records corpus retained as its deep persistence branch.
+1. has a non-vacuous common problem shared by world/domain state and technical support context;
+2. preserves their material differences rather than collapsing them;
+3. does not expand until Work, Actors, Information or all contextual conditions become Environment;
+4. produces stable lower-level research branches;
+5. fits both Development OS and general-purpose SOUL better than five peer grounds;
+6. survives cross-lineage comparison with systems, work, context and control traditions.
 
-### Material correction 3 — relation/control fabric
+Rival structures remain live until tested.
 
-Authority, dependency, provenance, observation, feedback, access, verification, delegation, constraint and transition semantics are structurally necessary across grounds.
+## Preserved epistemic results
 
-Current evidence supports an explicit typed relation/control/transition fabric, **not** one generic peer `Governance/Control` bucket.
+The reopening does not undo these established research-level distinctions:
 
-## Original four remain preserved
+- Work remains a distinct first-order problem region.
+- Actors remains a distinct first-order agency/participation/authority region.
+- Records remains a valid deep persistent-information corpus.
+- General-purpose SOUL requires information/representation semantics broader than persistence alone.
+- Domain/world state is distinct from observations, records and models of it.
+- Technical Work Environment has distinct support-boundary, capability, constraint, identity, state, lifecycle, readiness and observability semantics.
+- typed relation/control/transition structure remains necessary for composition.
 
-The adequacy correction does not invalidate the four completed studies:
+## Active research packages
 
-- Records remains the deep persistence research corpus;
-- Work remains a distinct first-order problem region;
-- Actors remains a distinct first-order agency/participation/authority region;
-- Technical Work Environment remains a distinct first-order technical support-context region.
+Independent verticals remain unchanged under `01_verticals/`:
+- `records-artifacts/`
+- `work/`
+- `actors/`
+- `work-environment/`
 
-The correction concerns top-level sufficiency and analytical level, not the validity of those bounded results.
+Current cross-foundation adequacy/refinement package:
+- `02_adequacy/`
 
-## Development OS versus general-purpose SOUL
-
-### Development OS
-
-The original four are operationally strong and near-adequate because software development is heavily informational and technical.
-
-They are still not cleanly exhaustive because:
-- the system/product under development is distinct from development Work, representations and technical support setting;
-- transient/selective context and reasoning state exceed persistent Records.
-
-The corrected five-ground hypothesis fits more cleanly.
-
-### General-purpose SOUL
-
-The original four are insufficient as an exhaustive top-level map. Partially observed and independently changing physical, clinical, market, scientific, operational and other domains make the domain/world and representation distinctions load-bearing.
-
-## Adequacy inquiry completion basis
-
-The inquiry used:
-
-1. unconstrained SOUL/Development OS problem extraction before four-label mapping;
-2. current SOUL first-party intent and Development OS evidence;
-3. OS Architect / KEEL lived failure and mechanism history without treating predecessor architecture as truth;
-4. all four current vertical corpora after the independent inventory existed;
-5. the archived broad Environment result only as a falsifier/candidate missing-region input;
-6. cross-lineage holdouts from Work System Theory, W3C PROV, Cognitive Work Analysis, STAMP/STPA, agent–environment/POMDP, BDI, situation awareness, Activity Theory, NASA systems engineering and FRAM;
-7. rival decompositions;
-8. focused Information/Representation boundary analysis;
-9. separate Development OS and SOUL adequacy judgments;
-10. a targeted omission challenge over goals, governance, organization, communication, strategy, outputs/customers, resources/economics, risk/safety, time/space, evolution, system boundary, nontechnical support, generic entities, semantics and uncertainty.
-
-The final targeted omission pass exposed no additional peer problem region; later evidence increasingly improved boundary/mapping clarity rather than opening a new family.
-
-## Verification limit
-
-The final completeness/omission pass is **same-model adversarial self-review, not independent verification**.
-
-External sources are cross-lineage evidence, but no external source independently validates the exact corrected five-ground synthesis.
-
-Universal exhaustive completeness is therefore not established.
-
-## Adequacy retrieval
-
-Current adequacy package:
-- `02_adequacy/STATE.md`
-- `02_adequacy/KEY.md`
-- `02_adequacy/FINDINGS-MAP.md`
-- `02_adequacy/synthesis/ADEQUACY-SYNTHESIS.md`
-- `02_adequacy/synthesis/COMPLETENESS-OMISSION-CHECK.md`
-- `02_adequacy/evidence/SOURCE-LEDGER.md`
-- `02_adequacy/CURRENT-SURFACES.md`
-
-Preferred route:
-
-`02_adequacy/STATE → KEY/FINDINGS-MAP → ADEQUACY-SYNTHESIS → focused finding → audit/source recovery`
-
-## Current independent foundation library
-
-Active independent verticals remain:
-- `01_verticals/records-artifacts/`
-- `01_verticals/work/`
-- `01_verticals/actors/`
-- `01_verticals/work-environment/`
-
-Do not rename/reorganize these corpora merely because adequacy research produced a broader candidate map. They are evidence packages with their own bounded questions and should remain stable until a later explicit research-library decision.
+Do not rename or move completed research corpora merely because this refinement changes the preferred top-level map.
 
 ## Superseded operating-world research
 
@@ -159,48 +103,26 @@ Archive interpretation:
 Archived corpus tree SHA:
 - `93fe3fc6810b6f6472539583e46144db2803ce17`
 
-It is prior research/falsifier material for a possible future Work-Domain pass, **not** automatically the finished new foundation.
+It is valid prior research into the operating-world question, but it is not automatically the completed result of any future independent Work-Domain pass.
 
-## Historical handoffs / cleanup closure
+## Verification limit
 
-Historical transition files remain under `history/handoffs/`; there is no current parent handoff.
+The prior adequacy completeness/omission pass was same-model adversarial self-review, not independent verification. This reopened refinement must retain the same distinction.
 
-The 2026-09-02 cleanup/currentness verification remains closed:
-- active `01_verticals/` contains exactly the four evaluated independent corpora;
-- historical broad Environment is outside active verticals;
-- current vertical manifests were verified after cleanup;
-- current parent authority is this `STATE.md` plus `INDEX.md`.
+## Retrieval/currentness rule
 
-## Epistemic position
+For current parent-level orientation:
 
-### Established strongly enough for current research purpose
+`STATE.md → INDEX.md → 02_adequacy/STATE.md → required current adequacy finding/synthesis → descend only as needed`
 
-- the four completed verticals are real/separable/productive problem regions;
-- original-four exhaustive sufficiency is not supported;
-- Operating World / Work Domain is a strong missing-ground result;
-- persistent Records does not exhaust Information / Representation State;
-- typed relation/control/transition structure is essential to composition;
-- corrected five-ground hypothesis explains current internal and external holdouts better than the unchanged four.
-
-### Still hypothesis / open
-
-- final names and exact boundaries of Operating World and Information/Representation;
-- universal completeness of the corrected five;
-- exact relation/control taxonomy;
-- final SOUL/Development OS architecture or data model;
-- one-to-one mapping between research grounds and implementation components.
+Do not treat the prior five-ground synthesis as frozen authority while the hierarchy-refinement question is open.
 
 ## Next logical work
 
-If the user accepts the adequacy result, the highest-information next research sequence is:
-
-1. independent foundation research into `Operating World / Work Domain` from the corrected question;
-2. independent foundation research into `Information / Representation State`, using Records as preserved persistence evidence rather than restarting it blindly;
-3. rerun top-level adequacy;
-4. then investigate typed relation/control composition before architecture.
+Perform the authorised hierarchy refinement to operational research limits, including external/cross-lineage challenge and rival-level tests. If the result changes the preferred top-level map, update the adequacy synthesis/current surfaces and return it to the user for evaluation.
 
 ## Next authorised work
 
-**USER EVALUATION OF THE ADEQUACY RESULT.**
+**Environment-hierarchy adequacy refinement only.**
 
-Do not automatically begin either proposed foundation pass, relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
+Do not automatically begin new foundation passes, relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
