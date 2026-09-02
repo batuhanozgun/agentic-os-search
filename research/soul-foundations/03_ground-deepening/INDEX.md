@@ -2,77 +2,78 @@
 
 ## Role
 
-Current router for the accepted `03_ground-deepening/` research program.
+Current router for the accepted `03_ground-deepening/` research program and its recursive hierarchical method.
 
 ## Current stage status
 
-**ENVIRONMENT PASS BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION.**
-
-No substantive ground is currently active. Information, Work and Actors remain inactive.
+**ENVIRONMENT PARENT ACCEPTED FOR CONTINUATION; DOMAIN / EFFECT PLAN READY; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Read order
 
-1. `STATE.md` — current stage state/authorization and one-active-ground rule.
-2. for Environment result → `grounds/environment/STATE.md` then its `KEY.md` / `FINDINGS-MAP.md`.
-3. `PLAN.md` — accepted adaptive research program.
-4. `CURRENT-SURFACES.md` — exact stage freshness binding.
+1. `STATE.md` — current stage state/authorization.
+2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive one-node-at-a-time method.
+3. `PLAN.md` — accepted top-level ground-deepening program.
+4. current ground/node route as needed.
+5. `CURRENT-SURFACES.md` — exact stage freshness binding.
 
-## One-active-ground rule
+## Current Environment route
 
-At most one ground may be under substantive research at any time.
+Parent result:
+`grounds/environment/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → focused finding → completion/source recovery`
 
-The Environment pass is closed for bounded research and has returned to user evaluation. Another ground requires explicit authorization after that evaluation.
+Next-node plan:
+`grounds/environment/DOMAIN-EFFECT-RESEARCH-PLAN.md`
 
-## Current ground routes
-
-### Environment — completed current pass
-
-Status:
-- boundedly sufficient for current ground-deepening purpose;
-- awaiting user evaluation.
-
-Route:
-`grounds/environment/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → relevant finding → completeness/source recovery`
-
-Current bounded hierarchy:
+Current hierarchy:
 
 ```text
 Environment / Operating Reality
-    ├─ Domain / Effect Reality
-    └─ Work Conditions / Enabling–Constraining Environment
+    ├─ Domain / Effect Reality                         ← plan ready; inactive
+    └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
 
-The material correction from the starting plan is the broadening of positive `support` semantics to enabling–constraining Work Conditions.
+## Hierarchical deepening rule
 
-### Information — inactive
+At most one hierarchical node may be under substantive research at any time.
 
-Planned prior evidence:
-- `../01_verticals/records-artifacts/`;
-- `../02_adequacy/findings/05-information-representation-boundary.md`;
-- relevant SOUL/Development OS context surfaces.
+A node pass:
+- attacks the node's coherence/level;
+- identifies only immediate child problem regions;
+- separates child branches from cross-cutting dimensions;
+- closes and returns to user evaluation before a child or sibling becomes active.
 
-Do not start without explicit authorization.
+Finding a deeper child is not authorization to research it immediately.
 
-### Work — inactive
+## Other top-level grounds
 
-Planned first action remains a coverage/gap audit against the accepted hierarchy.
+### Information
+Inactive. Existing Records evidence remains available for later recovery only.
 
-### Actors — inactive
+### Work
+Inactive. Planned first action remains a coverage/gap audit when its top-level turn arrives.
 
-Planned first action remains a coverage/gap audit against the accepted hierarchy.
+### Actors
+Inactive. Planned first action remains a coverage/gap audit when its top-level turn arrives.
 
 ## Cross-ground rule
 
-Relations observed during ground research are recorded and recoverable, but systematic typed relation/control/composition research remains outside this stage unless separately authorised.
+Relations observed during node research should be recorded and recoverable, but systematic typed relation/control/composition research remains outside this stage unless separately authorised.
+
+Cross-ground relevance never authorizes parallel substantive research.
 
 ## Guardrail
 
-Do not infer from Environment closure:
-- automatic acceptance by the user;
-- automatic activation of Information;
-- that every ground requires the same number of layers;
-- that Environment research grounds map to architecture modules;
-- that `04` composition or `05` architecture are authorised.
+Current authorised work is user evaluation/refinement of the Domain/Effect research plan only.
+
+Do not infer authorization for:
+- substantive Domain/Effect research;
+- Work Conditions research;
+- Information, Work or Actors research;
+- parallel node research;
+- systematic relation/control composition;
+- SOUL/Development OS architecture;
+- final ontology/data-model design;
+- implementation.
 
 Parent authorization remains in `../STATE.md`.
