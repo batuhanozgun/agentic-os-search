@@ -1,7 +1,10 @@
 # Actors — Frame Evolution
 
-**Status:** active research history; not the current synthesis  
-**Started:** 2026-09-01
+**Status:** HISTORICAL / AUDIT — research-frame evolution; not the current synthesis  
+**Started:** 2026-09-01  
+**Closed:** 2026-09-01
+
+> This file records materially important framing changes during Actors research. It is retained for audit/path recovery. For the current positive result, read `KEY.md`, `FINDINGS-MAP.md` and `synthesis/ACTORS-VERTICAL-SYNTHESIS.md`.
 
 ## Why this file exists
 
@@ -121,15 +124,15 @@ Not every collection is an agent. Group agency depends on organization and decis
 
 ## Current frame after omission-driven revision
 
-The strongest current explanation is **relational and multi-anchor**:
+The research closed on a **relational and multi-anchor** explanation:
 
-1. persistent **bearers** provide continuity (person, organization, system, office/role-bearing structure, etc.);
+1. persistent **bearers** provide continuity;
 2. **contexts and time** determine which standing facts are relevant;
 3. **situations / episodes** provide a locus for concrete action, decision, commitment and meaningful non-action;
 4. **available, expected or required conduct** matters where omission or duty is at issue;
-5. distinct **participation relations** record who performed, initiated, decided, authorized, represented, received, benefited, was affected, refrained or failed to act where such distinctions are material;
+5. distinct **participation relations** record who performed, initiated, decided, authorized, represented, received, benefited, was affected, refrained or failed to act where material;
 6. distinct **normative relations** record permission/authority, obligation/duty, representation/delegation and institutional standing;
 7. distinct **attribution relations** record causal attribution, provenance/responsibility, legal attribution and accountability;
 8. **collective/distributed organization** determines when system- or group-level descriptions are warranted rather than merely aggregated.
 
-This is a research finding about distinctions to preserve, not a SOUL data model or ontology decision.
+This historical frame evolution supports the current synthesis; it does not override it and is not a SOUL data model or ontology decision.
