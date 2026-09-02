@@ -2,6 +2,8 @@
 
 **Status:** bounded current immediate-child result; awaiting user evaluation
 
+> **Pass-artifact provenance:** Focused findings, the executed research plan, source ledger and completion audit preserve pass-time candidate/provisional language where useful for research reconstruction. Current hierarchy, authorization and epistemic status come from `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`; pass-time `active`, `candidate` or `provisional` metadata is not current authorization.
+
 ## Fast route
 
 - shortest result → `KEY.md`
