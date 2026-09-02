@@ -1,84 +1,89 @@
 # Environment / Operating Reality — STATE
 
-**Status:** PARENT GROUND USER-EVALUATED; DOMAIN REALITY USER-AUTHORISED FOR CONTINUATION; DOMAIN STATE / CONFIGURATION ACTIVE  
+**Status:** PARENT GROUND USER-EVALUATED; DOMAIN REALITY USER-AUTHORISED FOR CONTINUATION; DOMAIN STATE BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION  
 **Authorised:** 2026-09-02  
 **Scope:** Environment / Operating Reality ground only  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** substantive `Domain State / Configuration` research only
+**Current authorised activity:** user evaluation of the `Domain State` result only
 
 ## Current Environment research hierarchy
 
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
-    │    ├─ Domain State / Configuration           ← ACTIVE
-    │    └─ Domain Dynamics / Processes            ← inactive
+    │    ├─ Domain State                           ← bounded result; awaiting user evaluation
+    │    │    ├─ Domain Structure / Composition   ← discovered; inactive
+    │    │    └─ Domain Condition / Status        ← discovered; inactive
+    │    └─ Domain Dynamics / Processes           ← inactive
     │
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
 
-The parent and Domain Reality results are accepted for continued hierarchical research, not as final ontology or architecture.
+The parent and Domain Reality results remain accepted for continued hierarchical research, not as final ontology or architecture.
 
 ## Domain Reality result retained
 
-`Domain / Effect Reality` was refined to `Domain Reality` because:
-- actual resulting conditions/trajectories belong to Domain Reality;
-- causal effect/attribution is relational/counterfactual/evidential;
-- observational Work can have Domain Reality without intended effect.
+`Domain / Effect Reality` was refined to `Domain Reality` because actual resulting conditions/trajectories belong to Domain Reality while causal effect/attribution is relational/counterfactual/evidential.
 
-Immediate children discovered by that pass:
-- Domain State / Configuration;
-- Domain Dynamics / Processes.
+## Domain State bounded result
 
-## Active child — Domain State / Configuration
+The inherited child label `Domain State / Configuration` is refined to `Domain State`.
 
-Research plan:
-- `domain-effect/DOMAIN-STATE-RESEARCH-PLAN.md`
+Immediate children:
 
-Active node state:
-- `domain-effect/domain-state/STATE.md`
+1. **Domain Structure / Composition** — which materially relevant constituents are actually present and how they are actually composed/organized/connected.
+2. **Domain Condition / Status** — which materially relevant properties, values, qualities, health, mode, status or standing actually hold.
 
-Primary question:
+No third universal immediate child is currently required.
 
-> What problems must be solved to characterize the realized condition/configuration of a materially relevant domain at a selected time and scope, and which problems deserve immediate child promotion without collapsing Dynamics, Information, Work or Actors into State?
+Explicit cross-cutting dimensions:
+- identity/continuity;
+- constraints/invariants;
+- granularity/state sufficiency;
+- reference/scope/time;
+- actual-versus-represented boundary;
+- observability/evidence/uncertainty;
+- causal explanation;
+- role switching.
 
-The pass explicitly challenges:
-- State versus Configuration/Structure;
-- constituents/identity versus properties/status versus relations/topology;
-- Structure/Composition as a possible child;
-- Identity/Continuity as a possible child/cross-cutting prerequisite;
-- Constraints/Invariants;
-- state granularity/sufficiency;
-- `State` versus realized-condition/situation framing;
-- actual versus represented state, including institutional/social cases.
-
-## Parent-ground distinctions retained
+## Strong distinctions
 
 ```text
 actual Environment condition ≠ specification ≠ observation ≠ model ≠ Record
 Domain Reality ≠ every target of Work
+Domain State ≠ one formal/model state vector
+actual Structure ≠ architecture/baseline/inventory by identity
+actual Condition ≠ observation/measurement/report/cache by identity
 Domain Dynamics ≠ Work lifecycle
-after-state/change ≠ causal effect attribution
-intended outcome ≠ actual resulting condition
-environmental participation ≠ semantic ownership
+current State ≠ causal explanation
 ```
 
 ## Hierarchical rule
 
 - one active hierarchical node at a time;
-- Domain State pass identifies only immediate child regions or a justified leaf result;
-- child discovery does not authorize child research;
+- Domain State pass is closed;
+- discovered Structure/Condition children are inactive;
 - Domain Dynamics and Work Conditions remain inactive;
-- return to user evaluation after Domain State closure.
+- return to user evaluation before any next node.
 
 Method:
 - `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
+## Current Domain State route
+
+`domain-effect/domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → relevant finding → completion/source recovery`
+
+## Verification status
+
+The node completion audit is same-model adversarial self-review, not independent verification. External source traditions support distinctions but do not independently validate the exact project hierarchy.
+
 ## Current return condition
 
-Complete the bounded Domain State / Configuration pass, persist its state/evidence/currentness, and return to user evaluation.
+User evaluates whether the bounded Domain State result is reasonable enough for hierarchical continuation or requires targeted reopening.
 
-## Guardrail
+## Next authorised work
 
-Do not activate Domain Dynamics, any discovered State child, Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation automatically.
+**USER EVALUATION OF THE DOMAIN STATE RESULT ONLY.**
+
+Do not activate Domain Structure, Domain Condition, Domain Dynamics, Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation automatically.
