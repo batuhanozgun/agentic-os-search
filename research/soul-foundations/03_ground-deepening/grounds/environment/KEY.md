@@ -1,90 +1,83 @@
 # Environment / Operating Reality — KEY
 
-**Status:** parent ground user-evaluated for hierarchical continuation; Domain Reality child boundedly sufficient and awaiting user evaluation  
+**Status:** Environment parent user-evaluated for continuation; Domain Reality continued; Domain State boundedly sufficient and awaiting user evaluation  
 **Date:** 2026-09-02  
 **Scope:** Environment research hierarchy only; not cross-ground composition or architecture
 
 ## Shortest current result
 
-Environment / Operating Reality remains a coherent top-level research ground.
-
-Current research tree:
-
 ```text
 Environment / Operating Reality
-    ├─ Domain Reality                              [child result awaiting user evaluation]
-    │    ├─ Domain State / Configuration           [discovered; inactive]
-    │    └─ Domain Dynamics / Processes            [discovered; inactive]
-    │
+    ├─ Domain Reality
+    │    ├─ Domain State
+    │    │    ├─ Domain Structure / Composition   [discovered; inactive]
+    │    │    └─ Domain Condition / Status        [discovered; inactive]
+    │    └─ Domain Dynamics / Processes           [inactive]
     └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
 
-Branches are analytical problem roles, not object classes.
+Branches are analytical problem roles, not object/schema classes.
 
-## Parent result retained
+## Parent Environment result retained
 
-Environment concerns boundary/reference-relative realized conditions and dynamics that matter to focal Work because they:
-- constitute the domain reality materially at issue; and/or
-- materially enable, constrain, degrade, endanger or otherwise shape execution.
+Environment concerns boundary/reference-relative realized conditions and dynamics that matter because they:
+- constitute the Domain Reality materially at issue; and/or
+- materially enable, constrain, degrade, endanger or otherwise shape Work execution.
 
-`Work-Support Environment` was broadened to **Work Conditions / Enabling–Constraining Environment** because negative/degrading conditions are first-order, not merely positive support.
+`Work-Support Environment` was broadened to **Work Conditions / Enabling–Constraining Environment** because adverse/degrading conditions are first-order.
 
-## Deeper correction to the first branch
+## Domain Reality correction retained
 
-The parent pass used `Domain / Effect Reality`. Dedicated child research now supports the stronger label:
+`Domain / Effect Reality` → **Domain Reality**.
 
-> **Domain Reality**
+Actual result belongs to Domain State/trajectory; intended outcome and causal effect/attribution are not separate reality children.
 
-because:
-- actual results are later/current Domain State/trajectory;
-- intended outcome is not actual reality;
-- causal effect/attribution is relational/counterfactual/evidential;
-- observational/diagnostic Work can have Domain Reality while causing no intended effect.
+## Deeper Domain State result
 
-Immediate child candidates surviving the dedicated pass:
+`Domain State / Configuration` → **Domain State**.
 
-### Domain State / Configuration
+Immediate children:
 
-What realized domain condition/configuration obtains at the relevant time/scope?
+### Domain Structure / Composition
+What materially relevant constituents are actually present and how are they actually composed/organized/connected?
 
-### Domain Dynamics / Processes
+### Domain Condition / Status
+What materially relevant properties, values, qualities, health, mode, status or standing actually hold?
 
-What realized processes/interactions/events/disturbances make the domain persist, evolve or transition through time?
-
-No third universal immediate child is currently required. This child result awaits user evaluation before further descent.
+No third universal immediate State child is currently required.
 
 ## Strong non-collapse distinctions
 
 ```text
 Environment ≠ everything outside / everything relevant / Context
 Domain Reality ≠ every target of Work
-actual Domain condition ≠ observation/model/specification/Record
+Domain State ≠ one formal/model state vector
+actual Structure ≠ architecture/baseline/inventory by identity
+actual Condition ≠ observation/measurement/report/cache by identity
 Domain Dynamics ≠ Work lifecycle
-actual resulting condition ≠ intended outcome ≠ causal effect attribution
+actual result ≠ intended outcome ≠ causal attribution
 Actor capability ≠ situated actionability
-environmental participation ≠ semantic ownership
 ```
-
-Some institutional/social realities may be socially/representationally constituted; the project requires separation from any **particular representation**, not metaphysical independence from all representation.
 
 ## Verification limit
 
-Parent and child completion audits are same-model adversarial self-review, not independent verification. External traditions support discriminating claims but do not independently validate the exact project hierarchy.
+Parent, Domain Reality and Domain State completion audits are same-model adversarial self-review, not independent verification. External source traditions support distinctions but do not independently validate the exact hierarchy.
 
 ## Go deeper
 
-Parent route:
+Environment parent:
 - `FINDINGS-MAP.md`
 - `synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`
 
-Current Domain Reality route:
+Domain Reality:
 - `domain-effect/STATE.md`
 - `domain-effect/KEY.md`
-- `domain-effect/FINDINGS-MAP.md`
-- `domain-effect/synthesis/DOMAIN-REALITY-SYNTHESIS.md`
 
-Exact freshness:
-- `CURRENT-SURFACES.md`
+Current Domain State result:
+- `domain-effect/domain-state/STATE.md`
+- `domain-effect/domain-state/KEY.md`
+- `domain-effect/domain-state/FINDINGS-MAP.md`
+- `domain-effect/domain-state/synthesis/DOMAIN-STATE-SYNTHESIS.md`
 
 No discovered child or sibling is authorised automatically.
