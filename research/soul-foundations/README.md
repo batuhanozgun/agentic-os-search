@@ -2,48 +2,87 @@
 
 ## Purpose
 
-This package preserves independent first-principles research into foundational problem regions that may later inform SOUL and Development OS work.
+This package preserves first-principles research into foundational problem regions that may later inform SOUL and Development OS work.
 
 The repository is a **research library and continuity surface**, not a pre-declared SOUL ontology. Research labels, distinctions, synthesis results and counterexamples are evidence/research outputs; they do not automatically become architecture decisions.
 
-## Current independent research corpora
+## Research layers
 
-The independent research library contains four completed foundation corpora under `01_verticals/`:
+### `01_verticals/` — independent discovery research
 
-1. `01_verticals/records-artifacts/` — persistent information / Records.
-2. `01_verticals/work/` — Work.
-3. `01_verticals/actors/` — Actors.
-4. `01_verticals/work-environment/` — Technical Work Environment / Teknik Çalışma Ortamı.
+Contains four completed, user-evaluated bounded research corpora:
 
-These names are research/retrieval labels. A later synthesis may rename, split, combine, nest or dissolve them without contradicting the independent findings they preserve.
+1. `records-artifacts/` — persistent information / Records;
+2. `work/` — Work;
+3. `actors/` — Actors;
+4. `work-environment/` — Technical Work Environment.
 
-## Cross-foundation research layers
+These folders preserve the original independent research questions. They are **not assumed to be the final four top-level research grounds**.
 
-Cross-foundation tests and comparative research live outside `01_verticals/` so they do not silently rewrite the independently researched corpora.
+### `02_adequacy/` — top-level hierarchy adequacy research
 
-- `02_adequacy/` — evaluates whether the independently researched foundation regions provide sufficient and productive top-level analytical/problem grounds for later SOUL and Development OS reasoning, including rival-decomposition and external holdout tests.
+Tests what the independent discovery evidence implies when considered together for SOUL and Development OS.
 
-Read that package's own `STATE.md` and `INDEX.md` for its current epistemic status and retrieval route.
+Its current user-accepted **working research hypothesis** is:
 
-A cross-foundation result can challenge the level, boundary or relationship among independent corpora without converting the result into architecture or changing the historical research question each vertical answered.
+```text
+Environment / Operating Reality
+    ├─ Operating World / Work Domain
+    └─ Work-Support Environment
+         └─ Technical Work Environment
+
+Information / Representation State
+    └─ Records / Persistent Information
+
+Work
+Actors / Agency–Participation–Authority
+
++ typed relations / control / transitions
+```
+
+This is a research-routing hierarchy, not architecture or ontology.
+
+### `03_ground-deepening/` — ground-specific depth planning / later research
+
+This layer plans how to bring each accepted top-level ground to sufficient internal research depth.
+
+Key rule: **do not impose one shared layer count or identical research workflow on all four grounds.**
+
+Environment and Information have known parent-level research gaps. Work and Actors already have broad/deep independent corpora and therefore begin with coverage/gap tests rather than automatic re-research.
+
+Read `03_ground-deepening/STATE.md` and `PLAN.md` for current status and method.
+
+## Level alignment of existing deep corpora
+
+```text
+Information / Representation
+    └─ Records / Persistent Information          ← existing deep corpus
+
+Environment / Operating Reality
+    └─ Work-Support Environment
+         └─ Technical Work Environment           ← existing deep corpus
+
+Work                                             ← existing broad/deep corpus
+Actors                                           ← existing broad/deep corpus
+```
+
+Existing corpora remain stable evidence packages even when later research changes their parent level or role in the research hierarchy.
 
 ## Historical material
 
-Superseded research paths and point-in-time handoffs live under:
-
-- `history/`
+Superseded research paths and point-in-time handoffs live under `history/`.
 
 Historical material is retained for audit, research-path reconstruction and later falsifier recovery. It is not current project authority merely because a search result finds it directly.
 
-In particular, the earlier broad `Environment` pass is archived as boundary-relative **operating-world** research because it answered a different question from the intended Technical Work Environment vertical.
+In particular, the earlier broad `Environment` pass is archived as boundary-relative operating-world research because it answered a different question from the intended Technical Work Environment vertical. It remains useful prior evidence for later Environment/Operating World research.
 
 ## Retrieval model
 
-Each completed vertical should be recovered progressively rather than by rereading its entire corpus by default:
+For completed independent corpora:
 
 `KEY → FINDINGS-MAP → synthesis → relevant topic finding → completeness/audit or source ledger → primary/authoritative source`
 
-Cross-foundation packages define their own progressive route in their local `INDEX.md`.
+Cross-foundation packages define their own progressive routes in their local `INDEX.md` files.
 
 Higher-level surfaces are intentionally compressed. When a decision depends on omitted nuance, source scope or a contested claim, descend rather than filling the gap by assumption.
 
@@ -56,19 +95,18 @@ For current project state, authorization and next responsibility, read:
 
 Vertical-local `STATE`, `README`, manifests, cross-foundation research outputs and historical handoffs do not override parent authority about what the project should do next.
 
-## Vertical isolation rule
+## Isolation and composition rule
 
-Independent foundation research deliberately avoided treating other verticals' conclusions as axioms. Material relations encountered during a vertical were recorded in `DEFERRED-RELATIONS.md` rather than solved prematurely.
+The independent discovery stage deliberately avoided solving cross-ground relations prematurely.
 
-Isolation is methodological, not ontological. It does not establish that the original problem regions are truly independent, exhaustive or required to become separate modules/classes.
+Ground deepening may now acknowledge and record relations needed to define local boundaries, but systematic typed relation/control/composition research remains a later phase unless explicitly authorised.
 
 ## Epistemic rule
 
 Keep separate:
-
-- established independent research finding;
+- established bounded research finding;
 - cross-foundation inference;
-- working hypothesis;
+- accepted working research hypothesis;
 - open question;
 - candidate research/design decision;
 - accepted architecture decision.
