@@ -39,31 +39,42 @@ Its Environment lower hierarchy was intentionally a working hypothesis for deepe
 
 This is a research-routing frame, not architecture or ontology.
 
-### `03_ground-deepening/` — ground-specific depth research
+### `03_ground-deepening/` — recursive ground/node depth research
 
-This layer brings each accepted top-level ground to sufficient internal research depth **one ground at a time**.
+This layer brings each accepted top-level ground to sufficient internal research depth **one active hierarchical node at a time**.
 
 Key rules:
 - do not impose one shared layer count or identical research workflow on all grounds;
-- at most one ground is researched substantively at a time;
-- other grounds may be consulted only for bounded boundary/counterexample/relation purposes;
-- each ground receives its own closure and user evaluation.
+- at most one hierarchical node is researched substantively at a time;
+- sibling/other grounds may be consulted only for bounded boundary, counterexample or deferred-relation purposes;
+- one node pass discovers only its immediate children;
+- discovering a child does not authorize researching that child;
+- each closed node returns to user evaluation before any deeper or sibling activation.
 
-The first substantive package is:
+The current substantive package is:
 - `03_ground-deepening/grounds/environment/`
 
-Its bounded current research result refines the Environment lower structure to:
+Current Environment research hierarchy:
 
 ```text
 Environment / Operating Reality
-    ├─ Domain / Effect Reality
+    ├─ Domain Reality
+    │    ├─ Domain State
+    │    │    ├─ Domain Structure / Composition
+    │    │    └─ Domain Condition / Status
+    │    └─ Domain Dynamics / Processes
     └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
 
-The older `Work-Support Environment` phrase was broadened because realized conditions can constrain, degrade, block or endanger Work as well as positively support it.
+Current epistemic/authorization status is not encoded by indentation alone. Read package-local `STATE.md` / `INDEX.md` surfaces and the relevant `CURRENT-SURFACES.md` manifest. Parent `STATE.md` remains the sole authority for what happens next.
 
-Read package-local `STATE.md` / `INDEX.md` surfaces for epistemic/current status. Parent `STATE.md` remains the sole authority for what happens next.
+The deeper Environment work has materially refined earlier labels:
+- `Domain / Effect Reality` → `Domain Reality`;
+- `Domain State / Configuration` → `Domain State`;
+- Domain State immediate children → `Domain Structure / Composition` + `Domain Condition / Status`.
+
+The older `Work-Support Environment` phrase was broadened because realized conditions can constrain, degrade, block or endanger Work as well as positively support it.
 
 ## Level alignment of existing deep corpora
 
@@ -112,7 +123,7 @@ Vertical-local `STATE`, `README`, manifests, cross-foundation research outputs a
 
 The independent discovery stage deliberately avoided solving cross-ground relations prematurely.
 
-Ground deepening may acknowledge and record relations needed to define local boundaries, but systematic typed relation/control/composition research remains a later phase unless explicitly authorised.
+Ground/node deepening may acknowledge and record relations needed to define local boundaries, but systematic typed relation/control/composition research remains a later phase unless explicitly authorised.
 
 ## Epistemic rule
 
