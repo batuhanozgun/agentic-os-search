@@ -19,7 +19,7 @@ It routes readers to the shortest current surface that can answer the question. 
 | Records/Work/later synthesis relations | `DEFERRED-RELATIONS.md` | later independently recover the other vertical |
 | Research framing history | `FRAME-EVOLUTION.md` | `ORIENTATION.md` for the initial frame |
 | Current Actors status | `STATE.md` | parent `../../STATE.md` for parent-level authorization |
-| Current parent purpose / authorization | `../../STATE.md` | `../../INDEX.md` and current parent handoff |
+| Current parent purpose / authorization | `../../STATE.md` | `../../INDEX.md` |
 | Current-vs-historical file status / version binding | `CURRENT-SURFACES.md` | re-fetch listed path if decision-critical |
 
 ## Progressive depth
@@ -55,4 +55,6 @@ This evaluation does **not** itself authorize:
 - data-model or implementation design;
 - another substantive research vertical/layer.
 
-Parent-level current purpose, authorization and next responsibility are intentionally not duplicated here. Read `../../STATE.md` and follow the parent router/handoff chain.
+Parent-level current purpose, authorization and next responsibility are intentionally not duplicated here. Read `../../STATE.md` and `../../INDEX.md`.
+
+Historical handoffs are audit material under the parent history archive; they are not part of the current authority route unless the parent router deliberately sends a historical-recovery question there.
