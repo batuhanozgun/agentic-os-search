@@ -1,7 +1,7 @@
 # Work — Document Status Manifest
 
 **Document role:** CURRENT_STATUS_MANIFEST  
-**Vertical revision:** `work-foundation-2026-09-01-r1`
+**Vertical revision:** `work-foundation-2026-09-02-r2`
 
 This manifest answers:
 
@@ -13,10 +13,10 @@ This manifest answers:
 - **HISTORICAL** — earlier research-stage framing retained for path recovery; not the current conclusion.
 - **ADVERSARIAL_AUDIT** — challenge/omission/countercheck surface; not independent verification and not the preferred positive result alone.
 - **EVIDENCE_TRACE** — source-reading ledger/retrieval aid; derived from sources, not a primary source.
-- **STATE** — current status/boundary/reopen gate; not substantive evidence.
+- **STATE** — current vertical status/boundary/reopen gate; not substantive evidence.
 - **ROUTER** — navigation/currentness surface; not substantive evidence.
 - **CURRENT_RESIDUAL** — bounded unresolved Work-local questions; not a new research mandate by itself.
-- **CURRENT_DEFERRED_RELATIONS** — material cross-vertical relations intentionally left unsolved.
+- **CURRENT_DEFERRED_RELATIONS** — material cross-foundation relations intentionally left unsolved.
 
 ## Current surfaces
 
@@ -60,7 +60,7 @@ This records the weak starting hypothesis, decision-critical assumptions and str
 ### ADVERSARIAL_AUDIT — L4A
 - `synthesis/COMPLETENESS-OMISSION-CHECK.md`
 
-This answers `why was bounded completion judged reasonable and what omission probes were run?`. It is same-model adversarial self-review, explicitly **not independent verification**.
+This answers `why was bounded completion judged reasonable and what omission probes were run?`. It is same-model adversarial self-review, explicitly **not independent verification**. Its point-in-time evaluation language does not override current `STATE.md`.
 
 ## Evidence trace layer
 
@@ -78,11 +78,17 @@ If search/retrieval lands on a Work file without first reading `INDEX.md`:
 
 1. inspect the file's role/status header where present;
 2. if it is `orientation/RESEARCH-ORIENTATION.md`, treat it as historical framing;
-3. if it is `COMPLETENESS-OMISSION-CHECK.md`, pair it with the current positive synthesis rather than treating the audit as the conclusion;
+3. if it is `COMPLETENESS-OMISSION-CHECK.md`, pair it with the current positive synthesis and `STATE.md` rather than treating the audit as current project status;
 4. if it is `SOURCE-LEDGER.md`, do not treat it as synthesis or primary evidence;
 5. if it is one L3 finding, use the L2 synthesis for integrated/current interpretation when the question spans topics;
 6. if role/currentness remains ambiguous, return to `INDEX.md`.
 
+## Parent authority
+
+This manifest classifies Work-local surfaces only. It does not bind or duplicate parent-level project state. Current project purpose, authorization and next responsibility live in:
+- `../../STATE.md`
+- `../../INDEX.md`
+
 ## Currentness principle
 
-Search rank, detail level and file age do not establish authority. Preferred currentness is determined by this package's routing/status contract and exact revision binding in `CURRENT-REVISION.md`.
+Search rank, detail level and file age do not establish authority. Preferred Work-local currentness is determined by this package's routing/status contract and exact revision binding in `CURRENT-REVISION.md`.
