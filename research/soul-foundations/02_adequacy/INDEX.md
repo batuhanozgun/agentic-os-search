@@ -6,6 +6,12 @@ Current router for the bounded cross-foundation adequacy result after the Enviro
 
 This file is not substantive evidence and does not independently authorize new work.
 
+## Current status
+
+The refined four-broad-ground hierarchy was **USER-EVALUATED / ACCEPTED on 2026-09-02 as a working research hypothesis**.
+
+Acceptance closes the adequacy-evaluation gate only. It does not authorize architecture, ontology/schema work, implementation or automatic deep research.
+
 ## Current reading order
 
 1. `STATE.md` — current status, scope, bounded judgment and authorization.
@@ -15,7 +21,7 @@ This file is not substantive evidence and does not independently authorize new w
 5. relevant focused finding.
 6. current audit and source ledger if the claim is decision-critical.
 
-## Current hierarchy result
+## Accepted working hierarchy
 
 ```text
 Environment / Operating Reality                 [working label]
@@ -73,27 +79,28 @@ The package contains a legitimate research revision:
 
 - first broad adequacy closure → five-peer preference;
 - user-raised parent/branch falsifier;
-- reopened hierarchy research → four-broad-ground preference.
+- reopened hierarchy research → four-broad-ground preference;
+- user acceptance → four-broad-ground hierarchy becomes the current working research hypothesis.
 
 Do not treat an earlier five-peer statement in a focused finding as the current conclusion merely because it appears in search.
 
-Current conclusion authority is:
-- `STATE.md`;
-- `KEY.md`;
-- `synthesis/ADEQUACY-SYNTHESIS.md`;
-- current refinement findings 08–10;
-- `synthesis/ENVIRONMENT-HIERARCHY-REFINEMENT-CHECK.md`.
+## Current next decision
 
-The first `COMPLETENESS-OMISSION-CHECK.md` is retained as a prior checkpoint and explicitly marks the narrow conclusion that was superseded.
+The next authorized activity is **research-program planning for ground deepening**: determine, separately for Environment, Information, Work and Actors, what additional scope/depth is required before later cross-ground composition research.
+
+Do not assume:
+- equal layer counts;
+- identical research procedures;
+- that completed `01_verticals/` packages map one-to-one to the new top-level hierarchy;
+- that relation/control composition has already begun.
 
 ## Scope guardrail
 
 The result does not authorize:
 - renaming/restructuring completed vertical corpora;
 - declaring four ontology classes/modules;
-- opening SOUL or Development OS architecture;
+- detailed SOUL or Development OS architecture;
 - final data-model/schema work;
-- implementation;
-- automatic new parent-ground research.
+- implementation.
 
 Parent project authorization lives only at `../STATE.md` and `../INDEX.md`.
