@@ -1,22 +1,20 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; independent discovery corpora are closed; refined top-level adequacy result is user-evaluated and accepted as the current working research hypothesis; ground-deepening research program is user-accepted  
-**Repository cleanup/currentness verification:** COMPLETE on 2026-09-02; acceptance/next-stage routing refreshed on 2026-09-02  
-**Current authorised substantive activity:** choose/authorize exactly one first ground for `03_ground-deepening`; no substantive ground pass is active yet  
-**Current return condition:** user explicitly selects the first single ground before substantive research begins
+**Status:** active research library; independent discovery corpora are closed; refined top-level adequacy result is user-evaluated and accepted as the current working research hypothesis; ground-deepening program is active on exactly one ground  
+**Repository cleanup/currentness verification:** COMPLETE on 2026-09-02; current ground authorization refreshed on 2026-09-02  
+**Current authorised substantive activity:** ENVIRONMENT / OPERATING REALITY ground deepening only  
+**Current return condition:** complete a bounded Environment ground pass, return it for user evaluation, and do not open another ground in parallel
 
 ## Dependency state
 
-- **Layer 0 — bounded context / predecessor reconstruction:** COMPLETE for current purpose in `research/soul-context/`.
-- **Independent discovery research (`01_verticals/`):** COMPLETE / USER-EVALUATED for the original bounded questions.
-  - Records / persistent information: closed.
-  - Work: closed.
-  - Actors: closed.
-  - Technical Work Environment: closed.
-- **Top-level adequacy / hierarchy inquiry (`02_adequacy/`):** BOUNDEDLY SUFFICIENT; USER-EVALUATED / ACCEPTED AS WORKING RESEARCH HYPOTHESIS.
-- **Ground-deepening stage (`03_ground-deepening/`):** PLAN USER-ACCEPTED; no substantive ground research started.
-- **Cross-ground relation/control composition:** NOT AUTHORISED.
-- **SOUL/Development OS architecture, final ontology/data model, implementation:** NOT AUTHORISED.
+- `01_verticals/`: COMPLETE / USER-EVALUATED for original independent discovery questions.
+- `02_adequacy/`: BOUNDEDLY SUFFICIENT; USER-EVALUATED / ACCEPTED AS WORKING RESEARCH HYPOTHESIS.
+- `03_ground-deepening/`: ACTIVE on exactly one ground — **Environment / Operating Reality**.
+- Information ground deepening: NOT ACTIVE.
+- Work coverage/gap audit: NOT ACTIVE.
+- Actors coverage/gap audit: NOT ACTIVE.
+- Cross-ground relation/control composition: NOT AUTHORISED.
+- SOUL/Development OS architecture, final ontology/data model, implementation: NOT AUTHORISED.
 
 ## Accepted top-level working research hypothesis
 
@@ -30,7 +28,6 @@ Information / Representation State
     └─ Records / Persistent Information
 
 Work
-
 Actors / Agency–Participation–Authority
 
 + typed relations / control / transitions across grounds
@@ -38,103 +35,53 @@ Actors / Agency–Participation–Authority
 
 This is a research-routing hierarchy, not architecture, final ontology, schema or a claim of universal exhaustiveness.
 
-## Meaning of the research layers
+## Active-ground authorization
 
-### `01_verticals/`
-Completed independent discovery studies that generated the evidence base:
-- Records / persistent information;
-- Work;
-- Actors;
-- Technical Work Environment.
+The accepted `03_ground-deepening` plan recommended Environment first by expected information gain. After confirming the one-active-ground rule, the user instructed the assistant to begin research and work to the operational limit. This is treated as authorization to start the recommended first ground: **Environment / Operating Reality**.
 
-These are stable evidence packages, not assumed to be the final four top-level ground folders.
+Only Environment is active.
 
-### `02_adequacy/`
-Comparative/adequacy research that tested coverage, level alignment and rival decompositions and produced the accepted four-broad-ground working hierarchy.
+Other grounds may be consulted only as bounded references when required to:
+- define Environment's boundary;
+- construct a counterexample;
+- distinguish world/support state from Work, Information or Actor semantics;
+- record a deferred cross-ground relation.
 
-### `03_ground-deepening/`
-Accepted program for bringing each top-level ground to sufficient internal scope/depth one ground at a time.
+Such consultation does not authorize substantive parallel research of another ground.
 
-## Accepted one-active-ground rule
+## Environment pass objective
 
-At most **one** of Environment, Information, Work or Actors may be under substantive deepening research at any time.
+Bring the Environment / Operating Reality ground to sufficient internal scope/depth for later SOUL and Development OS synthesis by:
+1. recovering existing Technical Work Environment, archived operating-world, and adequacy-hierarchy evidence;
+2. testing the Environment parent boundary and level independently;
+3. deriving Environment-specific first-order subproblem regions rather than imposing a shared layer count;
+4. deepening materially under-supported branches, especially Operating World / Work Domain and nontechnical support if required;
+5. preserving actual-world/support state versus representation, Work and Actor distinctions;
+6. recording cross-ground relations without solving the later composition layer;
+7. running adversarial omission/reduction/rival-decomposition checks;
+8. closing only at bounded sufficiency and returning to user evaluation.
 
-When one ground is active:
-- the other three are not researched in parallel;
-- they may be used only as bounded references for boundary checks, counterexamples or relation capture;
-- a cross-ground observation is recorded/deferred and does not open another ground;
-- switching grounds requires an explicit transition decision.
+## One-active-ground rule
 
-This rule is intended to prevent the stage from turning into premature mixed composition research.
+At most one of Environment, Information, Work or Actors may be under substantive deepening research at a time.
 
-## Ground-specific asymmetry
-
-### Environment
-Likely high-intensity new research. Parent-level/Operating-World semantics require independent deepening. Existing Technical Work Environment and archived operating-world research are prior evidence, not automatic completion.
-
-### Information
-Likely high-intensity new research. Broader Information / Representation semantics above persistent Records require substantial first-principles work. Existing Records research remains the deep persistence branch.
-
-### Work
-Existing Work corpus already addresses the top-level ground directly and deeply. Begin with a coverage/gap audit; reopen substantive research only if material Work-local gaps appear.
-
-### Actors
-Existing Actors corpus already addresses the top-level ground directly and deeply. Begin with a coverage/gap audit; reopen substantive research only if material Actors-local gaps appear.
-
-## Recommended order
-
-Current recommendation by expected information gain:
-
-1. Environment;
-2. Information;
-3. Work coverage/gap audit;
-4. Actors coverage/gap audit.
-
-This is a recommendation only. It does not itself authorize Environment.
-
-## Cross-ground relation rule
-
-Ground deepening is no longer blind to other grounds, but systematic relation/control/composition research remains a later phase.
-
-Relations needed to define local boundaries or failure cases may be used and recorded. They must not trigger parallel substantive research of another ground.
-
-## Phase boundary
-
-```text
-01  independent discovery research                 COMPLETE
-02  top-level adequacy / hierarchy discovery        COMPLETE + USER-ACCEPTED WORKING HYPOTHESIS
-03  ground-specific scope/depth completion          PLAN USER-ACCEPTED; NO ACTIVE GROUND YET
-04  cross-ground relations / composition            LOGICAL LATER CANDIDATE; NOT AUTHORISED
-05  SOUL / Development OS architecture derivation   LOGICAL LATER CANDIDATE; NOT AUTHORISED
-```
-
-Numbers 04 and 05 are planning labels only.
-
-## Epistemic guardrails
-
-- Completed research ≠ independent verification.
-- Same-model completeness checks are adversarial self-review, not independent verification.
-- Research grounds ≠ ontology classes/modules/components.
-- A concrete thing may participate in several grounds under different roles.
-- Next logical work ≠ next authorised work.
-- The four-ground hypothesis remains reopenable if deeper research exposes forced fit, leakage or a materially stronger rival decomposition.
+Switching grounds requires closing/pausing the active Environment state and an explicit next-ground decision.
 
 ## Current retrieval
 
 Parent currentness:
 `STATE.md → INDEX.md`
 
-Independent discovery evidence:
-`01_verticals/<package>/INDEX or KEY → FINDINGS-MAP → synthesis → focused finding → audit/source recovery`
+Environment active package:
+`03_ground-deepening/grounds/environment/STATE.md → INDEX/KEY → FINDINGS-MAP → synthesis → focused finding → audit/source recovery`
 
-Accepted adequacy result:
-`02_adequacy/STATE → KEY/FINDINGS-MAP → synthesis/ADEQUACY-SYNTHESIS → focused finding → current audit/source recovery`
-
-Ground-deepening program:
-`03_ground-deepening/STATE → PLAN → INDEX → CURRENT-SURFACES`
+Prior evidence inputs:
+- `01_verticals/work-environment/`
+- `history/superseded/operating-world-environment/`
+- `02_adequacy/` Environment hierarchy findings/audit/evidence
 
 ## Next authorised work
 
-**SELECT / AUTHORIZE EXACTLY ONE FIRST GROUND FOR `03_ground-deepening`.**
+**ENVIRONMENT / OPERATING REALITY GROUND DEEPENING ONLY.**
 
-Do not automatically begin substantive Environment, Information, Work or Actors research, parallel ground research, relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation until one ground is explicitly selected.
+Do not begin Information, Work or Actors ground research, systematic relation/control composition, architecture, ontology/data-model work or implementation during this pass.
