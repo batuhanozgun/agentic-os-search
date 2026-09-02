@@ -1,66 +1,164 @@
-# Domain State / Configuration — STATE
+# Domain State — STATE
 
-**Status:** ACTIVE RESEARCH  
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION  
 **Authorised:** 2026-09-02  
+**Bounded node closure:** 2026-09-02  
 **Parent:** Domain Reality  
 **Sibling:** Domain Dynamics / Processes — inactive  
 **Environment sibling:** Work Conditions / Enabling–Constraining Environment — inactive  
-**Other top-level grounds:** inactive; bounded reference only
+**Other top-level grounds:** inactive  
+**Current authorised activity:** user evaluation of this Domain State result only
 
-## Research question
+## Question answered
 
-What is the strongest first-principles account of the Domain Reality child currently labeled `Domain State / Configuration`, and what immediate first-order child problem regions—if any—survive split/merge/reduction and cross-domain falsification?
+What is the strongest first-principles account of the Domain Reality child previously labeled `Domain State / Configuration`, and what immediate first-order child problem regions survive split/merge/reduction and cross-domain falsification?
 
-## Starting label under attack
+## Material node correction
+
+The inherited label is refined from:
 
 ```text
-Environment / Operating Reality
-    ├─ Domain Reality
-    │    ├─ Domain State / Configuration          ← ACTIVE NODE
-    │    └─ Domain Dynamics / Processes           ← inactive
-    └─ Work Conditions / Enabling–Constraining Environment ← inactive
+Domain State / Configuration
 ```
 
-The node may be renamed, narrowed, split or judged a bounded leaf if evidence requires it.
+to:
 
-## Frozen high-value falsifiers
+```text
+Domain State
+```
 
-- State/Configuration may be an arbitrary bundle rather than one node.
-- Structure/Composition may need promotion to a separate child.
-- Identity/Continuity may be a co-equal child rather than cross-cutting.
-- Properties/Condition and Relations/Topology may require separate children.
-- Constraints/Invariants may form a missing State-local child.
-- State granularity/sufficiency may be too purpose-relative for stable children.
-- `State` may import representation semantics and require a realized-condition/situation reframe.
-- social/institutional reality may expose a boundary failure in actual-versus-representation semantics.
-- a materially different domain may expose a missing State-local first-order problem.
-- the correct result may be a bounded leaf if deeper splits add taxonomy but not material reasoning value.
+Reason:
+- `configuration` mixed realized structural arrangement, settings and documented baseline/specification meanings;
+- a cleaner broad node is the realized domain state/situation at selected scope/time;
+- structure/composition and condition/status can then be tested explicitly beneath it.
 
-## Current phase
+## Immediate-child result
 
-Evidence recovery → node coherence challenge → first-principles problem inventory → immediate-child discovery.
+```text
+Domain State
+    ├─ Domain Structure / Composition
+    └─ Domain Condition / Status
+```
 
-Plan:
-- `../DOMAIN-STATE-RESEARCH-PLAN.md`
+Branches are analytical problem regions, not object/schema classes.
 
-Method:
-- `../../../../HIERARCHICAL-DEEPENING-METHOD.md`
+### Domain Structure / Composition
 
-## One-active-node rule
+Primary question:
 
-Only Domain State / Configuration is active.
+> What materially relevant constituents are actually present, and how are they actually composed/organized/connected at the selected scope/time?
 
-Do not research Domain Dynamics, Work Conditions, Information, Work or Actors in parallel. They may appear only as bounded references for anti-collapse tests, counterexamples or deferred relations.
+Covers when material:
+- constituent presence;
+- part–whole composition/nesting;
+- realized structural relations/topology;
+- arrangement/containment/placement;
+- actual installed/deployed/assembled structure.
 
-Do not deep-research any child discovered during this pass.
+### Domain Condition / Status
 
-## Closure
+Primary question:
 
-Close only when:
-- the node label/boundary is coherent or a stronger replacement/leaf result is established;
-- immediate-child candidates are tested against cross-cutting-dimension and representation-view alternatives;
-- Structure, Identity, Constraints and Granularity rivals are directly challenged;
-- materially different domain holdouts stop producing new State-local first-order regions;
-- source/view recovery exists for load-bearing claims;
-- same-model completion review is labeled non-independent;
-- result is returned to user evaluation before any discovered child or sibling activation.
+> What materially relevant properties, values, qualities, health, mode, status or standing actually hold at the selected scope/time?
+
+Covers when material:
+- current property/value;
+- health/condition;
+- current mode/status;
+- whole/part current condition;
+- institutional/social standing in its Domain role.
+
+## Child-promotion basis
+
+Structure and Condition survived through:
+- distinct first-order questions;
+- distinct failure/recovery surfaces;
+- repeated cross-domain usefulness;
+- different operational source traditions;
+- materially different downstream reasoning if either is omitted.
+
+## Third-child result
+
+No third universal immediate child is currently required.
+
+Candidates tested and not promoted:
+- Constituents separate from Relations/Topology;
+- Identity / Continuity;
+- Constraints / Invariants;
+- Granularity / State Sufficiency;
+- Space / Time;
+- Observability / Uncertainty;
+- actual-vs-represented State;
+- physical/digital/social/institutional type branches.
+
+Current mapping:
+- constituents + organizing relations/topology → Structure / Composition;
+- current properties/qualities/status/standing → Condition / Status;
+- identity/continuity → cross-cutting across State and Dynamics;
+- constraints/invariants → admissibility/possibility-space cross-cutting State/Dynamics;
+- granularity/sufficiency → purpose/reference/representation-selection dimension;
+- actual-vs-represented → boundary to Information/composition.
+
+## Strong boundaries
+
+```text
+Domain State ≠ one formal/model state vector
+actual Structure ≠ architecture/baseline/inventory by identity
+actual Condition ≠ observation/measurement/report/cache by identity
+Structure ≠ Dynamics
+Condition ≠ Dynamics
+identity/continuity ≠ State-only child
+constraint/invariant ≠ current State by identity
+current State/Condition ≠ causal explanation of that State
+```
+
+Institutional/social reality may depend on collective rules/practices; the project requires separation from any particular representation, not metaphysical independence from all representation.
+
+## Evidence / verification status
+
+The pass recovered/challenged through:
+- Domain Reality and Environment prior evidence;
+- Technical Work Environment identity/configuration analogies;
+- current SEBoK state/structure systems material;
+- Work Domain Analysis;
+- NASA/NIST configuration management;
+- NIST asset condition / PHM;
+- current Kubernetes live-state reconciliation;
+- National Academies digital twins;
+- AI state-space / Markov sufficiency;
+- transition-system constraints/invariants;
+- identity/persistence philosophy;
+- properties/relations/facts/state-of-affairs counterframes;
+- social/institutional ontology;
+- ecological, market, scientific and hybrid holdouts.
+
+The completion/omission audit is **same-model adversarial self-review, not independent verification**. No source independently validates this exact two-child project hierarchy.
+
+A current SEBoK article explicitly acknowledging OpenAI drafting support was excluded as load-bearing independent evidence.
+
+## Preferred retrieval
+
+`KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → relevant finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md → primary source`
+
+Residuals:
+- `OPEN-QUESTIONS.md`
+- `DEFERRED-RELATIONS.md`
+
+Exact freshness:
+- `CURRENT-SURFACES.md` once final closure binding is written.
+
+## Reopen condition
+
+Reopen Domain State if:
+- deeper Structure research cannot contain membership/composition/topology without forced fit;
+- deeper Condition research exposes another co-equal State region;
+- Identity or Constraints repeatedly require dedicated first-order handling;
+- a materially different domain exposes a recurrent State-local problem outside both children;
+- later Dynamics/Information/Work/Actors research reveals boundary leakage;
+- independent review offers a materially stronger decomposition.
+
+## Next authorised work
+
+**USER EVALUATION OF THE DOMAIN STATE RESULT ONLY.**
+
+Do not automatically activate `Domain Structure / Composition`, `Domain Condition / Status`, Domain Dynamics, Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation.
