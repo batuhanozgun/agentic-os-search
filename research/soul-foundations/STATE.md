@@ -17,6 +17,49 @@
 - **Cross-foundation adequacy inquiry:** AUTHORISED on 2026-09-02; current framing question is whether the four intended corpora are sufficient and productive as top-level analytical/problem grounds for later SOUL and Development OS work.
 - **SOUL/Development OS architecture, final ontology/data model, implementation:** NOT AUTHORISED.
 
+## Adequacy inquiry
+
+### Current question
+
+> Do Records, Work, Actors and Technical Work Environment provide a sufficient and productive top-level analytical/problem-ground decomposition for reasoning about later SOUL and Development OS structure, or does the evidence require a different decomposition, an additional first-order region, or a distinct relation/control plane?
+
+### Working success criteria
+
+The four-area hypothesis is not accepted merely because important examples can be fitted into the four labels.
+
+The inquiry must test at least:
+
+1. **Coverage / adequacy:** can decision-critical SOUL and Development OS problem families be expressed within the four areas or genuinely relationally among them without hiding a distinct first-order region?
+2. **Separability:** do the four areas carry meaningfully distinct questions, or is one reducible to another / better represented differently?
+3. **Productive decomposition:** does each area open coherent lower-level research/design questions rather than merely serving as a broad bucket?
+4. **Rival decomposition:** is there a materially better top-level split?
+5. **SOUL vs Development OS independence:** a decomposition may be adequate for one and inadequate for the other; do not force a shared answer.
+
+### Evidence strategy
+
+The first problem inventory should be extracted **without using the four current labels as the organizing frame**. Only after the inventory exists should it be mapped against Records / Work / Actors / Technical Work Environment and their relations.
+
+Use distinct evidence roles:
+
+- `research/soul-context/repos/soul/` — current explicit SOUL intent and Development OS first-party evidence;
+- `research/soul-context/repos/os-architect/` — historical lived failures, work-discipline problems, owner corrections and KEEL-development experience;
+- `research/soul-context/repos/keel/` — concrete predecessor mechanisms and the failure/problem pressures they attempted to address;
+- `research/soul-context/repos/keel-research/` — bounded predecessor prior-art only when relevant; not SOUL authority;
+- four current independent foundation corpora — tested only after unconstrained problem extraction, not used to seed the initial problem inventory;
+- external/independent cases or literature — used as holdouts/counterexamples where needed so the adequacy judgment does not become circular within one project lineage.
+
+Predecessor mechanisms are evidence of experienced problems and attempted solutions, **not privileged architecture defaults**. SOUL's current documents are first-party evidence of intent and known requirements, but cannot by themselves prove the completeness of the four-area decomposition. KEEL/os-architect/SOUL share lineage and therefore can share omissions; cross-lineage challenge remains necessary for a strong adequacy judgment.
+
+### Current methodological guardrail
+
+Do not begin by asking `where does this fit among the four?`.
+
+Begin by asking:
+
+> What first-order problems must a system like SOUL or a development system like Development OS be able to reason about, govern, preserve, perform, constrain, observe, verify, recover from or adapt to?
+
+Then test the four-area hypothesis against the independently produced problem set.
+
 ## Current independent foundation library
 
 ### Records / persistent information
@@ -119,40 +162,14 @@ Established at independent-research level:
 - the bounded results preserved inside each of the four active vertical corpora;
 - each vertical's explicit verification/source limitations.
 
-Current working hypothesis under test:
-- Records, Work, Actors and Technical Work Environment may together form a sufficient and productive top-level analytical/problem-ground decomposition from which later SOUL and Development OS questions can be derived.
-
-The adequacy inquiry must not presuppose that hypothesis. It must allow outcomes including:
-- all four are useful but not exhaustive;
-- one or more are better treated as views rather than top-level categories;
-- an important fifth first-order problem region is missing;
-- cross-cutting relations/control/verification/governance phenomena require separate treatment;
-- SOUL and Development OS require different top-level decompositions.
-
-Not established merely by completing the four verticals:
+Not established merely by completing those corpora:
 - that the four labels are exhaustive ontology classes;
 - that they are mutually exclusive modules;
-- that one cross-foundation relation/control/coordination fabric is the correct model;
+- that one cross-foundation relation/control/coordination fabric is the correct next model;
 - that the same concrete structures recur across Development OS, SOUL and task-specific systems;
 - any final SOUL or Development OS architecture, schema or implementation.
 
-Historical cross-foundation statements about recurrence, relation/control/coordination or the old broad Environment remain hypotheses/inferences unless explicitly re-evaluated against the current four intended corpora.
-
-## Adequacy inquiry — authorised question and boundaries
-
-Primary question:
-
-> **Do Records, Work, Actors and Technical Work Environment provide the sufficient top-level analytical/problem grounds we need to think through and later construct SOUL and Development OS, such that decision-critical lower-level research/design questions can be systematically derived beneath or across them without hiding a missing first-order problem region?**
-
-The inquiry must test rather than assume:
-- **coverage:** are important first-order concerns missing?;
-- **separability:** are the four genuinely distinct problem regions, or are some better understood as views/relations/subcases?;
-- **cross-cutting fit:** can authority, coordination, control, verification, failure/recovery, observability, goals/decisions, governance/trust and similar concerns be faithfully located within/between the four, or do some require another top-level ground?;
-- **productive decomposition:** does each ground open coherent lower-level research/design branches rather than becoming a catch-all?;
-- **SOUL vs Development OS fit:** does the same top-level decomposition work for both, or do they diverge?;
-- **null/reduction alternatives:** could a different decomposition explain the same decision-critical problem space more cleanly?
-
-Current authorised work is comparative research and framing needed to answer this adequacy question. It does **not** authorise treating the four as accepted architecture categories or beginning detailed SOUL/Development OS construction.
+Historical cross-foundation statements about recurrence, relation/control/coordination or the old broad Environment remain hypotheses/inferences unless later explicitly re-evaluated against the current four intended corpora.
 
 ## Retrieval/currentness rule
 
@@ -162,23 +179,12 @@ For current parent-level orientation:
 
 Do not enter `history/` unless historical/audit recovery is intentional.
 
-For the adequacy inquiry, recover all four current vertical results independently before making cross-foundation inferences. Do not use compressed memory of a vertical as a substitute when a decision-critical distinction matters.
-
 ## Next logical work
 
-Frame the adequacy test with the user, especially the standard for what counts as `sufficient`, how cross-cutting relations count, and whether SOUL and Development OS must be tested separately.
-
-Then perform the bounded cross-foundation adequacy inquiry without opening detailed architecture/design branches prematurely.
+Within the authorised adequacy inquiry, the next logical work is to construct an unconstrained SOUL problem inventory and an unconstrained Development OS problem inventory from current first-party intent, predecessor lived failures/mechanisms and independent challenge evidence, without organizing the inventory under the four current foundation labels. The inventories should then be mapped against the four areas and their genuine relations, followed by missing-region/reduction/rival-decomposition stress tests.
 
 ## Next authorised work
 
-**Cross-foundation adequacy inquiry is authorised.**
+**Four-foundation adequacy inquiry only.**
 
-Current step: framing/discussion, followed by comparative research within the authorised adequacy question.
-
-Not authorised by this transition:
-- final ontology/category commitment;
-- detailed SOUL architecture;
-- detailed Development OS architecture;
-- data-model/schema selection;
-- implementation.
+Do not yet open lower-level SOUL/Development OS architecture, final ontology/data-model design or implementation. Do not treat predecessor repository organization or current four foundation labels as architecture defaults.
