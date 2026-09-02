@@ -1,56 +1,62 @@
 # SOUL / Development OS Top-Level Ground Adequacy — Synthesis
 
-**Status:** bounded current research synthesis  
+**Status:** bounded current research synthesis after Environment hierarchy refinement  
 **Date:** 2026-09-02  
 **Scope:** analytical/problem-ground adequacy only; not SOUL/Development OS architecture, ontology, schema or implementation
 
 ## Executive conclusion
 
-The four independent foundation studies were **not a wrong decomposition**. They exposed four genuine, separable and highly productive problem regions:
+The independent foundation studies were not a wrong decomposition. They exposed four genuine, separable and highly productive problem regions:
 
 - persistent information / Records;
 - Work;
-- Actors / agency-participation-authority;
+- Actors / agency–participation–authority;
 - Technical Work Environment.
 
-However, the research does **not** support the stronger claim that those four, at their current scopes and levels, are an exhaustive top-level decomposition for SOUL or Development OS.
+The first adequacy pass correctly found that those four **at their original scopes and levels** were not an exhaustive top-level map. It exposed two level corrections:
 
-Two corrections are required by the current evidence:
+1. actual `Operating World / Work Domain / Domain Reality` cannot be reduced to Records/representations, Work, Actors or the technical support setting;
+2. persistent Records is narrower than the full `Information / Representation State` problem needed by a general-purpose working system.
 
-1. **A distinct Operating World / Work Domain / Domain Reality problem region is missing.**  
-   The actual state/process/domain being acted upon or reasoned about cannot safely be reduced to Records about it, Work performed on it, Actors in it, or the technical support environment used to do the Work.
+The first closure therefore proposed five peer grounds. A later user-raised hierarchy falsifier reopened one question: whether `Operating World` and `Technical Work Environment` are genuinely peers at the same top level, or distinct lower branches of one broader environmental problem ground.
 
-2. **Records is probably one level too narrow as the top-level information ground.**  
-   General-purpose working systems must distinguish actual reality from observations, beliefs/models, claims, transient context and persistent Records. The stronger candidate top-level region is `Information / Representation State`, with the existing Records research retained as its deep persistence branch.
+The reopened comparison, boundary-leak tests and cross-lineage counterframes now support a refinement:
 
-In addition, the evidence strongly requires a **typed relation/control/transition fabric** across the grounds. Relation/control is structurally essential but is not currently justified as another peer ground of the same kind.
+> **Operating World / Work Domain and Work-Support Environment should remain explicitly distinct, but they are better treated as sibling analytical branches/roles under one broader Environment-like top-level problem ground than as peer top-level grounds.**
 
-The strongest current level-aligned research hypothesis is therefore:
+Crucially, this does **not** mean:
+- the two are the same phenomenon;
+- Technical Work Environment is universally a subtype of the product/system's operational world;
+- tools, sensors, infrastructure or external entities are intrinsically `Environment objects`;
+- one Environment data model/module should contain them all.
+
+The strongest current top-level research hypothesis is therefore:
 
 ```text
-1. Operating World / Work Domain / Domain Reality
+1. Environment / Operating Reality                 [working label]
+      ├─ Operating World / Work Domain
+      └─ Work-Support Environment
+           └─ Technical Work Environment           [existing deep technical branch]
+
 2. Information / Representation State
-      └─ Records / Persistent Information as a deep branch
+      └─ Records / Persistent Information          [existing deep persistence branch]
+
 3. Work
+
 4. Actors / Agency–Participation–Authority
-5. Technical Work Environment
 
 + typed relations / control / transitions across all grounds
 ```
 
-This is an analytical map for further research, **not five architecture modules or ontology classes**.
+This is an analytical research hierarchy, **not four architecture modules, ontology classes or mutually exclusive object buckets**.
 
 ---
 
-# 1. What the original four got right
+# 1. What the existing independent studies got right
 
-## They are not arbitrary buckets
+## Records / persistent information
 
-All four survived separate first-principles research and developed substantial internal structure.
-
-### Records / persistent information
-
-Exposed irreducible questions around:
+Records exposed irreducible questions around:
 - information-resource identity/version/representation;
 - meaning/context/provenance;
 - history/currentness/standing/time;
@@ -58,11 +64,11 @@ Exposed irreducible questions around:
 - organisation/retrieval;
 - retention/disposition.
 
-These do not reduce to Work or Actor semantics.
+These remain a deep, valid persistence research branch.
 
-### Work
+## Work
 
-Exposed irreducible questions around:
+Work exposed irreducible questions around:
 - purpose/outcome vs action/task/method;
 - candidate/eligible/committed/executing states;
 - dependency/coordination/flow;
@@ -71,11 +77,11 @@ Exposed irreducible questions around:
 - failure/recovery/compensation;
 - bounded vs continuing work.
 
-These do not reduce to Actor assignment or persistent Records.
+These do not reduce to Actor assignment, representations or environmental state.
 
-### Actors / agency-participation-authority
+## Actors / agency–participation–authority
 
-Exposed irreducible questions around:
+Actors exposed irreducible questions around:
 - bearer identity vs role vs participation;
 - capability vs permission/authority vs obligation;
 - performer vs decider/authorizer/principal/accountable party;
@@ -83,85 +89,64 @@ Exposed irreducible questions around:
 - omission;
 - collective/non-human agency.
 
-These do not reduce to Work episodes.
+These do not reduce to Work episodes or surrounding conditions.
 
-### Technical Work Environment
+## Technical Work Environment
 
-Exposed irreducible questions around:
-- technical support boundary;
-- effective capabilities/resources/interfaces/constraints;
-- declared vs discovered vs actual technical state;
+Technical Work Environment exposed stable support-context questions around:
+- effective support boundary/closure;
+- capabilities/resources/interfaces/constraints;
+- declared vs discovered vs actual state;
+- configuration/resolution/drift;
 - access/readiness/availability/capacity;
 - isolation/sharedness/composition;
 - instance/equivalence identity;
-- lifecycle/rebuild/restore/migrate.
+- lifecycle/rebuild/restore/migrate;
+- reproducibility/portability;
+- observability/control surface.
 
-These do not reduce to tool inventory or Work descriptions.
-
-## Productive-decomposition result
-
-All four produce coherent deeper research branches rather than simply collecting examples.
-
-Therefore the research does **not** recommend discarding any of the four corpora.
+These remain strongly productive even if the branch is no longer preferred as a peer top-level ground.
 
 ---
 
-# 2. Why the original four are nevertheless incomplete
+# 2. Why actual domain/world reality is necessary
 
-## Missing problem: actual domain/world state
-
-Consider a controlled working system reasoning about:
+A controlled working system can reason about or act upon:
 - a patient's actual physiological condition;
-- market/customer/legal state;
+- market/customer/legal conditions;
 - a robot's physical surroundings;
 - a scientific specimen/phenomenon;
 - an industrial process;
-- the actual runtime behavior/properties of a system being developed.
+- the actual behavior/properties of a system being developed.
 
-The system may have Records, observations or models of those states, but those representations can be stale, partial or wrong.
+Representations of those states can be stale, partial, wrong or absent. The underlying domain can also change independently of the current Work.
 
-The actual domain state can also change independently of the current Work.
+Therefore preserve:
 
-Therefore:
-
-> **domain/world state ≠ Record/representation**
+> **domain/world state ≠ observation/representation/Record**
 
 > **domain/world state ≠ Work status/effect**
 
-> **domain/world state ≠ Technical Work Environment**
+> **domain/world state ≠ technical Work-support condition**
 
-This distinction is supported internally by the archived broad Environment research and externally by Cognitive Work Analysis / Work Domain Analysis, agent–environment models, STAMP/control models and Activity Theory's object-of-activity distinction.
-
-## Result
-
-A top-level analytical map for general-purpose SOUL needs an explicit **Work Domain / Operating World** problem region.
+The archived broad Environment pass found these distinctions directly. Cognitive Work Analysis, STAMP/control and agent–environment traditions provide independent pressure in the same direction.
 
 ---
 
-# 3. Why Records is too narrow for the top level
+# 3. Why Records is too narrow for the top information level
 
-Records research intentionally begins when information must persist and remain usable again later.
+Records research intentionally starts when information must persist and remain usable later.
 
-But SOUL/Development OS also need to reason about:
-- observations/percepts;
-- transient signals;
-- current context assembled for one role/work episode;
-- beliefs/models about the world;
-- claims/inferences/assumptions;
+SOUL/Development OS also need to reason about information states that may precede persistence or never become durable Records:
+- observations/percepts/signals;
+- selected/transient context;
+- beliefs/models/claims/inferences;
+- assumptions;
 - uncertainty/conflict;
-- shared situational information;
-- decisions about what must later persist.
+- decision/evidence representations;
+- decisions about what should persist.
 
-These information states can matter before they become persistent Records — and some should never be retained as durable records.
-
-Independent traditions repeatedly preserve this distinction:
-- POMDP/agent–environment: hidden world state vs observation;
-- STAMP: controlled process vs feedback vs controller process model;
-- BDI: beliefs/information about world vs goals vs intentions;
-- situation awareness: perception vs comprehension vs projection;
-- Work System Theory: information as a core work-system element rather than only durable recordkeeping.
-
-## Stronger level alignment
+The stronger level alignment remains:
 
 ```text
 Information / Representation State
@@ -170,285 +155,339 @@ Information / Representation State
     ├─ selected/transient context
     ├─ evidence/decision representations
     └─ persistent information / Records
-          └─ existing deep Records research
 ```
 
-This does **not** diminish Records. It explains where the Records corpus fits in a more general system problem map.
+This does not invalidate Records; it locates it under a broader information problem ground.
 
 ---
 
-# 4. Relation/control is mandatory — but not another peer ground
+# 4. The Environment hierarchy refinement
 
-Many central SOUL/Development OS questions are not local to one ground:
+## 4.1 Shared higher problem
 
-- Actor **performs / decides / authorizes / owns / represents** Work;
-- Work **uses / produces / changes / observes / evaluates** representations or domain state;
-- representation **describes / derives-from / supports / challenges** a claim/state;
-- Work **targets / affects / depends-on** Operating World state;
-- Actor/Work **uses** Technical Work Environment capability/resource/interface;
-- evidence **verifies / validates / supports acceptance of** Work/output/claim;
-- control **permits / blocks / triggers / constrains / transitions**;
-- failure **generates** recovery/reframe/new Work;
-- learning **changes** future Work, information, authority or environment capability.
+The two environment-like researches share a higher-order problem:
 
-W3C PROV, STAMP, Work System Theory, Activity Theory and NASA systems thinking all independently reinforce the importance of relationships/interactions.
+> **What realized, boundary-relative domain/support conditions, resources and interfaces materially shape the feasible interaction space, risks and outcomes of focal Work independently of how those conditions are represented?**
 
-But `Relation`, `Governance` or `Control` is not currently a coherent peer substrate:
-- authority needs an Actor and governed scope;
-- dependency needs Work/resources;
-- provenance needs represented things/activities/agents;
-- access needs Actor/resource/context;
-- feedback needs source/recipient/state;
-- verification needs claim/target/evidence/decision position.
+Common structure includes:
+- selected analytical reference point/boundary;
+- actual current state rather than only descriptions;
+- independently changing conditions;
+- interfaces/resources/dependencies;
+- constraints/disturbances/opportunities;
+- partial observability;
+- purpose-relative actionability/readiness;
+- Work effects interacting with that reality.
 
-Therefore:
+This is a common problem grammar, not common object vocabulary.
 
-> **Treat typed relation/control/transition semantics as the composition fabric, not as a generic fifth/sixth bucket that swallows its relata.**
+## 4.2 Branch A — Operating World / Work Domain
 
----
+Primary question:
 
-# 5. Development OS judgment
+> **What actual reality is the Work trying to understand, change, maintain, navigate, satisfy or produce effects in?**
 
-## Original four
+Typical semantics:
+- domain entities/processes and actual state;
+- exogenous dynamics/disturbances;
+- target/system behavior;
+- physical/social/market/clinical/scientific/operational conditions;
+- Work effects and domain-grounded success/failure conditions.
 
-The four original regions are **very strong** for Development OS because development is heavily digital, repository-based and technically mediated.
+## 4.3 Branch B — Work-Support Environment
 
-Most historical failures map naturally to:
-- Records/continuity;
-- Work selection/lifecycle;
-- Actor roles/authority;
-- Technical Work Environment/mechanisms/readiness;
-- relations among them.
+Primary question:
 
-This is why the original four looked particularly compelling from the Development OS lineage.
+> **What realized support conditions make the Work possible, constrained, observable, reproducible, safe, degraded or unavailable?**
 
-## Why they are still not fully level-complete
+The existing Technical Work Environment corpus is the deep researched technical specialization of this branch.
 
-Two gaps remain even there:
-
-### The system/product under development
-
-SOUL's Development OS explicitly separates development artefacts from the eventual reusable product/system.
-
-The system being designed and its actual behavior/properties are not logically identical to:
-- source/document Records about it;
-- development Work;
-- the technical environment used to build/test it.
-
-That system/product can occupy the Work Domain / Operating World role.
-
-### Transient/selective context
-
-Development OS also needs role-specific context, observations, assumptions, models and reasoning state beyond durable repository truth.
-
-Persistent Records may be the authoritative source from which context is assembled, but the selected context itself is a distinct representation state.
-
-## Development OS verdict
-
-**Original four: near-adequate and operationally powerful, but not cleanly exhaustive at the top analytical level.**
-
-**Corrected five-ground map: stronger fit.**
+A broader support branch may later include nontechnical support conditions where they prove first-order, but that extension has not yet been independently researched.
 
 ---
 
-# 6. General-purpose SOUL judgment
+# 5. Why Technical Work Environment is not simply inside Operating World
 
-SOUL's stated ambition makes the missing distinctions much more important.
+Systems-engineering evidence supplies a decisive counterexample.
 
-A general-purpose system cannot assume:
-- relevant reality is already fully recorded;
-- observations are true/complete;
-- work only modifies digital artefacts;
-- technical work support equals the domain being acted upon;
-- persistent memory is the whole information state.
+ISO/IEC/IEEE 15288 terminology, surfaced through NIST SP 800-160/NIST glossary material, distinguishes a system-of-interest's operational environment from **enabling systems** used for life-cycle activities such as modeling, design, testing, training, compilation or fabrication. Such an enabling system need not be part of the system-of-interest's operational environment.
 
-Across clinical, robotics, market/decision-support, scientific and operational scenarios, the corrected distinction among:
-- actual domain state;
-- representation/information state;
-- Work;
-- Actors;
-- technical support setting;
+NASA ConOps material similarly separates physical/operational and support-environment concerns.
 
-is load-bearing.
-
-## SOUL verdict
-
-**The original four are insufficient as an exhaustive top-level analytical decomposition for general-purpose SOUL.**
-
-The corrected five-ground hypothesis currently has substantially stronger coverage and cross-lineage support.
-
----
-
-# 7. Rival decompositions rejected or weakened
-
-## `Keep the original four exactly`
-
-Rejected as complete because domain/world state and nonpersistent representation do not fit without stretching existing scopes.
-
-## `Put both world and work-support inside one Environment`
-
-Disfavored because it recreates the original scope collision:
-- support/means context;
-- subject/domain/operating-world state;
-
-ask different questions and should remain distinguishable.
-
-## `Demote Technical Work Environment to mere implementation detail`
-
-Rejected because realized support context has its own state/readiness/isolation/lifecycle/equivalence failures before technology choice.
-
-## `Make Governance/Control a peer category`
-
-Rejected as current best model because it collapses several typed relations/constraints rather than explaining them.
-
-## `Use only a generic entity-relation graph`
-
-Rejected as a **research decomposition**. A flexible representation can encode everything but does not tell the analyst which first-order problem families and anti-collapse distinctions must be investigated.
-
----
-
-# 8. Omission challenge
-
-Targeted tests were run for:
-- goal/purpose/value;
-- governance/policy/norm/law;
-- organization/community;
-- communication;
-- strategy/planning;
-- products/services/customers;
-- resources/economics;
-- risk/safety/quality;
-- time/space;
-- learning/evolution;
-- system boundary/composition;
-- nontechnical support context;
-- universal object/entity;
-- meaning/semantics;
-- uncertainty/conflict.
-
-None required another peer ground after the corrected map was available.
-
-They mapped through the five grounds plus typed relations/qualifiers/transitions without making one ground an obvious residual `everything else` category.
-
-The same-model audit therefore judges the current map **boundedly sufficient for the present adequacy question**, while explicitly not claiming universal exhaustive ontology.
-
----
-
-# 9. What this means for future research structure
-
-The user’s initial intuition was directionally right:
-
-> We need a small set of high-level problem grounds that open coherent deeper research paths before designing SOUL/Development OS.
-
-But the original proposed top level needs correction before we branch downward.
-
-## Do not proceed as
+Therefore reject:
 
 ```text
-SOUL / Development OS
-├─ Records
-├─ Work
-├─ Actors
-└─ Technical Work Environment
+Technical Work Environment ⊂ Operating World
 ```
 
-and assume completeness.
+as a universal hierarchy.
 
-## Stronger current research map
+The better relation is:
+
+```text
+broader situated/environmental ground
+    ├─ target/domain role
+    └─ support/enabling role
+```
+
+The same concrete system can change role with focal Work and analytical boundary.
+
+---
+
+# 6. Why the broader Environment ground does not swallow everything
+
+The parent is useful only with strict exclusion rules.
+
+Reject:
+- `Environment = everything relevant`;
+- `Environment = everything outside`;
+- `Environment = all constraints/resources`;
+- `Environment = generic context`;
+- `tool/resource = intrinsic Environment object`.
+
+The same concrete thing may participate in several grounds without semantic ownership collapsing.
+
+Examples:
+- another person may contribute to operating conditions while identity/authority/accountability remain Actors semantics;
+- a regulation may be a realized operating constraint while its text/version is Information and its authority is Actors/control;
+- a repository may be a support resource and also contain Records;
+- another Work stream may create an operating condition while retaining Work lifecycle semantics;
+- a CI/test system may be support environment for product-development Work and become the target/domain when it itself is maintained.
+
+Thus the grounds are **problem lenses/roles**, not exclusive entity partitions.
+
+---
+
+# 7. Why `Context` is not the preferred parent term
+
+Context-aware-computing traditions can define context as almost any information characterizing an entity's situation. Used at that breadth it can absorb identity, activity, device, location, time and social information.
+
+The archived Environment research also found:
+
+> world/environment state ≠ context.
+
+So `Context` is useful as a relevance/situation concept but currently too broad and representation-oriented to be the preferred top-ground name.
+
+`Environment`, `Operating Reality`, `Situated Conditions`, or another label remain provisional. The semantic boundary should be stabilized before naming is treated as canonical.
+
+---
+
+# 8. Agent/control counterframe — what the merge does not imply
+
+PEAS/POMDP and STAMP/control traditions preserve distinctions among world/controlled process, observations/feedback, sensors/actuators/controllers and internal process models.
+
+This is a strong warning against turning the current research hierarchy into a component taxonomy.
+
+The Environment-parent result therefore means only:
+
+> target/domain reality and Work-support conditions share a useful higher **problem-ground** level.
+
+It does not mean:
+- sensors/actuators/tools become environment objects;
+- controller and controlled process belong to one module;
+- system boundary distinctions disappear.
+
+Lower architecture/control models must remain free to place concrete components on different sides of their relevant boundaries.
+
+---
+
+# 9. Relation/control remains composition fabric
+
+Central SOUL/Development OS questions remain relational across grounds:
+- Actor performs/decides/authorizes Work;
+- Work targets/changes/depends on environmental state;
+- Work uses support capabilities/resources/interfaces;
+- representations describe/observe/model environmental or Work state;
+- evidence supports/challenges claims and verification decisions;
+- authority/dependency/provenance/access/feedback/constraint/transition connect grounds.
+
+Current evidence still favors explicit typed relation/control/transition semantics rather than one generic peer `Governance/Control` category.
+
+---
+
+# 10. Rival top-level structures
+
+## Original four research labels as peers
+
+```text
+Records
+Work
+Actors
+Technical Work Environment
+```
+
+Rejected as exhaustive top-level map because actual domain/world and broader nonpersistent representation are missing at that level.
+
+## Five peer corrected map
+
+```text
+Operating World
+Information / Representation
+Work
+Actors
+Technical Work Environment
+```
+
+Still useful as an anti-collapse view, but no longer preferred as the top hierarchy.
+
+Weakness:
+- level asymmetry: TWE is a specialized support region while Operating World is broad domain reality;
+- duplicates a common higher environmental grammar;
+- less symmetric with the information side where Records is correctly treated as a lower persistence branch.
+
+## Four broad grounds with explicit branches
+
+```text
+Environment / Operating Reality
+Information / Representation
+Work
+Actors
+```
+
+Preferred current hypothesis because it aligns analytical levels while preserving all load-bearing distinctions below.
+
+## `Technical Work Environment` dissolved as mere relation/implementation detail
+
+Rejected. Its independent support-boundary/state/identity/readiness/reproducibility/lifecycle research remains first-order and productive as a lower branch.
+
+## Generic `Context` parent
+
+Rejected as preferred current framing because of excessive scope and information/relevance collision.
+
+---
+
+# 11. Development OS judgment
+
+The four-broad-ground hierarchy maps cleanly:
+
+### Environment / Operating Reality
+- **target/domain side:** actual SOUL product/system/repository behavior being designed, changed or evaluated;
+- **support side:** ChatGPT/Codex/GitHub/CI/runtimes/test services/credentials and other enabling technical conditions.
+
+### Information / Representation
+- requirements, evidence, observations, assumptions, models, context selections and durable project Records.
+
+### Work
+- research/design/build/review/verification/integration lifecycle and coordination.
+
+### Actors
+- owner/system roles, authority, capability, responsibility and verification independence.
+
+The same repository or system can occupy several roles depending on the question. That is expected rather than a taxonomy failure.
+
+**Development OS verdict:** the four broad grounds fit more cleanly than either the original four research labels or five peer grounds.
+
+---
+
+# 12. General-purpose SOUL judgment
+
+The hierarchy also generalizes across materially different cases:
+
+- patient physiology versus clinical technical support;
+- physical plant state versus diagnostic/maintenance support;
+- market/business reality versus analytic/trading support systems;
+- scientific phenomenon/specimen versus laboratory/computational support;
+- robot surroundings versus simulation/development/remote-support environment.
+
+In each case:
+- target/domain and support remain different;
+- both can be analyzed under one broader situated/environmental problem ground;
+- representations, Work and Actors remain separate first-order lenses.
+
+**SOUL verdict:** four broad grounds currently give the strongest level-aligned research map.
+
+---
+
+# 13. Omission / boundary-leak challenge
+
+The refined parent was attacked with:
+- other Actors and organizations;
+- policy/law/standards;
+- physical workplace conditions;
+- tools/technologies;
+- Records/information used as tools;
+- organization/coordination;
+- other Work streams;
+- self-maintaining support systems;
+- nested system-of-interest changes;
+- nontechnical support;
+- agent/control component separation.
+
+No tested case required returning to five peers.
+
+The tests instead strengthened these requirements:
+- branch membership is role-relative;
+- multi-ground participation is normal;
+- Environment does not own Actor/Work/Information semantics;
+- target/domain and support branches may never be silently collapsed;
+- naming remains provisional.
+
+The current same-model refinement audit therefore judges the four-broad-ground hierarchy **boundedly sufficient for the present parent/peer question**.
+
+---
+
+# 14. What this means for future research structure
+
+The user's original intuition — use a small number of high-level grounds that open deeper research paths — remains supported.
+
+The strongest current research-routing hierarchy is:
 
 ```text
 SOUL / Development OS problem-space research
 │
-├─ Operating World / Work Domain / Domain Reality      [new foundation research needed]
-├─ Information / Representation State                 [new broader foundation research needed]
-│   └─ Records / Persistent Information               [existing deep research retained]
+├─ Environment / Operating Reality                    [parent semantics need deeper foundation work]
+│   ├─ Operating World / Work Domain                  [archived prior research; corrected independent pass may still be needed]
+│   └─ Work-Support Environment
+│       └─ Technical Work Environment                 [existing deep research]
+│
+├─ Information / Representation State                [new broader foundation research needed]
+│   └─ Records / Persistent Information               [existing deep research]
+│
 ├─ Work                                               [existing deep research]
-├─ Actors / Agency–Participation–Authority            [existing deep research]
-└─ Technical Work Environment                         [existing deep research]
+│
+└─ Actors / Agency–Participation–Authority            [existing deep research]
 
 Across all:
 └─ typed relations / control / transitions            [later composition research]
 ```
 
-This is a research-routing map, not a product/module hierarchy.
+This is not yet a SOUL/Development OS architecture.
 
 ---
 
-# 10. Recommended next research order
+# 15. Epistemic status
 
-Before detailed SOUL/Development OS design branches are opened:
+## Strong enough for current bounded research purpose
 
-## Next 1 — Operating World / Work Domain foundation
-
-Research independently:
-- what constitutes the domain/world relevant to Work;
-- boundary and identity;
-- states/processes/dynamics;
-- actionability/affordances/constraints;
-- effects/change;
-- observation boundary;
-- relation to representations without collapsing world into belief/Record;
-- physical/social/institutional/digital domain cases.
-
-The archived broad Environment corpus is useful prior-art/falsifier material but should not be promoted wholesale; the new pass should begin from the corrected Work-Domain question.
-
-## Next 2 — Information / Representation State foundation
-
-Research independently:
-- observation/signal/data;
-- claims/assertions/beliefs/models;
-- knowledge/uncertainty/conflict;
-- context selection;
-- derivation/inference;
-- source/provenance;
-- temporal/freshness/perspective semantics;
-- persistence/appraisal boundary;
-- exact relation to the existing Records research.
-
-Records should be treated as preserved evidence/input, not re-researched from zero unless the broader pass falsifies a Records assumption.
-
-## Then — rerun top-level adequacy
-
-Only after these two missing/level-correcting grounds are independently researched should the project decide whether the resulting top-level problem map is sufficient enough to open systematic SOUL/Development OS decomposition below it.
-
-## Then — composition research
-
-If the corrected grounds survive, investigate typed relations/control/transitions across them before turning the map into architecture.
-
----
-
-# 11. Epistemic status
-
-## Established strongly enough for the current research purpose
-
-- the original four are real, separable, productive problem regions;
-- original-four completeness is not supported;
-- actual domain/world state is a material missing problem;
-- persistent Records does not exhaust representation/information state;
-- typed relation/control structure is essential to composition;
-- relation/control is not currently established as a peer ground;
-- the corrected five-ground map explains both project-lineage and external holdouts better than the original four.
+- original four independent studies remain valid/productive;
+- original four at their original levels are not exhaustive;
+- broader Information/Representation above Records remains necessary;
+- Operating World and Technical Work Environment are distinct lower problems;
+- they are better aligned as target/domain and support branches under one broader environmental problem ground than as peer top-level grounds;
+- Technical Work Environment is not universally a subtype of product operational world;
+- relation/control remains essential composition fabric;
+- four broad grounds currently explain SOUL and Development OS cases better than five peers without losing the lower distinctions.
 
 ## Still hypothesis / unresolved
 
-- exact names and boundaries of Operating World and Information/Representation;
-- whether the corrected five are universally exhaustive;
-- exact relation taxonomy/control model;
-- final SOUL/Development OS architecture;
-- whether one concrete implementation maps one-to-one to these grounds.
+- final name of the broad environmental ground;
+- exact boundary of nontechnical Work-Support Environment;
+- full independent foundation account of Operating World / Work Domain under the corrected hierarchy;
+- full Information / Representation foundation;
+- universal completeness of the four broad grounds;
+- exact relation/control taxonomy;
+- architecture/data model/component mapping.
 
 ## Verification limit
 
-The final omission/completeness challenge is same-model adversarial self-review, not independent verification.
-
-External sources supply cross-lineage evidence but no source independently validates this exact synthesis.
+The hierarchy refinement is same-model synthesis/adversarial review with cross-lineage evidence. It is **not independent verification**, and no external source validates this exact four-ground hierarchy.
 
 ---
 
 # Final bounded answer
 
-> **The four independent studies give us four indispensable pieces of the foundation, but they are not sufficient as the complete top-level map.**
+> **World and Technical Work Environment are not the same phenomenon, but the evidence now favors treating them as distinct lower branches/roles of one broader Environment-like top-level problem ground rather than as peer top-level grounds.**
 >
-> **The strongest current research map has five analytical grounds: Operating World / Work Domain; Information / Representation State (with Records as its persistent-information branch); Work; Actors; and Technical Work Environment — composed through explicit typed relations/control/transitions.**
+> **The strongest current top-level research map is therefore four broad grounds: Environment / Operating Reality; Information / Representation; Work; Actors — with Records and Technical Work Environment retained as deep existing branches, and typed relations/control/transitions composing the grounds.**
 >
-> **This map is strong enough to determine the next research direction, but not strong enough to be declared the SOUL or Development OS architecture.**
+> **This is strong enough to revise the research-routing hypothesis, but not to declare a final ontology or SOUL/Development OS architecture.**
