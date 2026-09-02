@@ -26,8 +26,8 @@ For a decision-critical Actors read:
 | Stable overview | `README.md` | `9df7706c8afa2303dd348f0e0b7380fb1197e7b2` |
 | L0 shortest orientation | `KEY.md` | `f77dcbe403dadd68ea4424172638d11abc119187` |
 | L1 topic router | `FINDINGS-MAP.md` | `20d83aac6a415ce6e84f35bf3a265c1d49945b84` |
-| Vertical router | `INDEX.md` | `afb22fc239330978f45c64b64887bc645a02a694` |
-| Current vertical state | `STATE.md` | `ab0280a343446e839ed9cce9a73391224d667c80` |
+| Vertical router | `INDEX.md` | `c55847cfb60779231712c70f20479f864da62f97` |
+| Current vertical state | `STATE.md` | `48fc6c098aa33c1f246335c62c038e005fa299bd` |
 | L2 consolidated synthesis | `synthesis/ACTORS-VERTICAL-SYNTHESIS.md` | `5ae5260cc5fc7ae8f5e7cc0171e3a1b887901224` |
 | L3 identity/role/participation | `findings/IDENTITY-ROLE-PARTICIPATION.md` | `0b3e47ca2a9b0db2798b604e905629acc7b8263d` |
 | L3 capability/authority/obligation | `findings/CAPABILITY-AUTHORITY-OBLIGATION.md` | `c1e2edfa445de1e31922db41e06dc0a0d16b1945` |
@@ -64,6 +64,8 @@ Reading rule:
 Current parent purpose, authorization and next responsibility are not duplicated or blob-bound in this manifest. Read:
 - `../../STATE.md`
 - `../../INDEX.md`
+
+Historical handoffs are not part of the current authority route unless historical recovery is deliberately requested through the parent history router.
 
 ## Update rule
 
