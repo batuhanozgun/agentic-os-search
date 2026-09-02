@@ -1,21 +1,47 @@
-# Four-Foundation Adequacy — OPEN QUESTIONS
+# Top-Level Ground Adequacy — OPEN QUESTIONS
 
-**Status:** residual questions after bounded adequacy inquiry  
-**Rule:** these are unresolved research boundaries, not evidence that the current result failed.
+**Status:** residual questions after bounded Environment hierarchy refinement  
+**Rule:** unresolved naming/boundary questions are not evidence that the current four-broad-ground result failed.
 
-## Q1 — Work Domain naming and exact scope
+## Q1 — Environment parent naming
 
-The evidence strongly supports a distinct problem around actual domain/world state, but the best project term is unresolved:
-- Operating World;
-- Work Domain;
-- Domain Reality;
+Current semantics are stronger than the label.
+
+Candidate labels include:
+- Environment;
+- Operating Reality;
+- Situated Conditions;
 - another term.
 
-The later foundation pass must avoid turning this into an `everything external` residual bucket.
+`Context` is currently disfavored because many context traditions define it broadly enough to absorb Actors, Work and Information.
 
-## Q2 — Information / Representation naming and scope
+The eventual term must preserve a boundary-relative actual domain/support problem without implying one exclusive object class.
 
-The evidence supports a broader information ground above persistent Records, but exact boundaries among:
+## Q2 — Operating World / Work Domain exact scope
+
+The target/domain branch is strongly supported, but exact boundaries remain open:
+- physical/process state;
+- digital/system state;
+- institutional/regulatory state;
+- social/market conditions;
+- effects/output state;
+- which external facts are sufficiently Work-relevant to enter the branch.
+
+Do not turn it into `everything outside`.
+
+## Q3 — Work-Support Environment scope beyond technical support
+
+Technical Work Environment is deeply researched.
+
+Open:
+- whether physical facilities, human support, organizational support, supply/service support or other nontechnical enabling conditions require first-order sub-branches;
+- whether those semantics remain largely Actors/Work/Environment relations instead.
+
+Do not promote nontechnical support categories by symmetry alone.
+
+## Q4 — Information / Representation naming and scope
+
+Evidence supports a broader information ground above persistent Records, but exact boundaries among:
 - observation/signal;
 - representation/data;
 - belief/model/claim;
@@ -25,28 +51,31 @@ The evidence supports a broader information ground above persistent Records, but
 - Record
 remain to be researched first-principles rather than fixed from agent architecture jargon.
 
-## Q3 — Records parent/child relation
+## Q5 — Records parent/child relation
 
 Current hypothesis: Records / Persistent Information is a deep branch of broader Information / Representation State.
 
 Open:
-- what activates the transition from transient representation to persistent Record obligations;
-- whether all Records are comfortably nested under the broader ground without losing recordhood-specific context/role semantics;
-- whether some persistent representations should not count as Records even while they remain in the broader ground.
+- what activates transition from transient representation to persistence obligations;
+- whether all Records nest cleanly under the broader ground without losing recordhood-specific role/context semantics;
+- which persistent representations are not records even though they remain information resources.
 
-## Q4 — Work Domain ↔ Technical Work Environment role boundary
+## Q6 — Environment branch role switching
 
 The same concrete system/resource may be:
-- a technical support element for one Work;
-- the subject/domain being inspected or changed by another Work.
+- target/domain for one Work;
+- support environment for another;
+- Information/Record carrier;
+- automated participant under an Actors analysis.
 
 Open:
-- how to express role-relative membership without category duplication;
-- whether the support/domain distinction is sufficient across physical, digital and institutional cases.
+- exact semantics for role-relative membership;
+- whether one shared identity plus typed roles is enough;
+- how nested system-of-interest boundaries affect branch selection.
 
-## Q5 — Typed relation/control families
+## Q7 — Typed relation/control families
 
-Relation/control fabric is strongly required but not yet researched as its own composition layer.
+Relation/control fabric remains strongly required but not yet independently researched as a composition layer.
 
 Candidate families include:
 - participation/authority/delegation;
@@ -61,20 +90,13 @@ Candidate families include:
 
 These are candidates, not a final taxonomy.
 
-## Q6 — Cross-ground identity and boundary
+## Q8 — Universal completeness
 
-Each foundation found local identity/boundary semantics. Later synthesis must test:
-- when one concrete thing participates in multiple grounds;
-- when identity should be shared versus role-specific;
-- how system/work-domain/support boundaries interact.
+The current four-broad-ground hierarchy survived the present holdout/refinement set, but universal completeness is not proven.
 
-## Q7 — Universal completeness
+Reopen if a materially different domain exposes a first-order problem that fits only by stretching one ground or causes Environment to become a residual bucket.
 
-The corrected five-ground hypothesis survived the current broad holdout/omission set, but universal completeness is not proven.
-
-Reopen if materially different domains or independent review expose a problem that only fits by stretching one ground.
-
-## Q8 — Architecture representation
+## Q9 — Architecture representation
 
 Explicitly out of current scope:
 - modules/services;
@@ -86,9 +108,9 @@ Explicitly out of current scope:
 
 The research grounds may map many-to-many to architecture structures.
 
-## Q9 — SOUL vs Development OS specialization
+## Q10 — SOUL vs Development OS specialization
 
-The corrected five-ground map fits both more cleanly than the original four, but their lower-level priorities will differ.
+The same four broad grounds currently fit both, but lower-level priorities differ.
 
 Future research should determine which branches are:
 - universal SOUL concerns;
@@ -97,4 +119,11 @@ Future research should determine which branches are:
 
 ## Reopen rule
 
-Do not reopen broad adequacy merely because terminology remains unresolved. Reopen on a material counterexample, missing first-order failure family, or evidence that a current ground is residual/reducible at the intended analytical level.
+Do not reopen broad adequacy merely because terminology remains unresolved.
+
+Reopen on:
+- a material counterexample;
+- missing first-order failure family;
+- evidence that Environment absorbs other grounds to survive;
+- evidence that target/domain and support cannot share a meaningful parent at the intended level;
+- evidence that a current ground becomes reducible or is at the wrong analytical level.
