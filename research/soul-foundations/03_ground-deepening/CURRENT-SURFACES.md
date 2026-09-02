@@ -8,7 +8,7 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Stable purpose | `README.md` | `7afa5bd2461cb2fd27cefbd49ff8172ed23ebb7a` |
+| Stable purpose | `README.md` | `5380af8bf81ffe9860c71f597c84b245189b89f1` |
 | Stage state / authorization | `STATE.md` | `e6ef7e3cd488f38de8d12a74506af2ec3a14d6c1` |
 | Original accepted deepening plan | `PLAN.md` | `dfe00d2ca4d43758c476f640332751c3af013725` |
 | Recursive hierarchical method | `HIERARCHICAL-DEEPENING-METHOD.md` | `4d964c09a70ebe5f114d597f5413b41193ce650b` |
