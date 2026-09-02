@@ -1,94 +1,100 @@
 # Environment / Operating Reality — STATE
 
-**Status:** PARENT GROUND USER-EVALUATED; DOMAIN / EFFECT REALITY CHILD NODE ACTIVE  
+**Status:** PARENT GROUND USER-EVALUATED; DOMAIN REALITY CHILD PASS BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION  
 **Authorised:** 2026-09-02  
 **Bounded parent-ground closure:** 2026-09-02  
-**User evaluation:** 2026-09-02 — parent result judged reasonable enough to continue hierarchical deepening; not universal truth or architecture  
-**Domain / Effect node authorised:** 2026-09-02  
+**Parent user evaluation:** accepted as reasonable enough to continue hierarchical deepening on 2026-09-02  
+**Domain Reality bounded child closure:** 2026-09-02  
 **Scope:** Environment / Operating Reality ground only  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** substantive `Domain / Effect Reality` research only
+**Current authorised activity:** user evaluation of the Domain Reality child result only; no substantive node is active
 
-## Current Environment hierarchy
+## Current Environment research hierarchy
+
+The parent-ground result remains accepted for continuation. The child pass materially corrected the first branch:
 
 ```text
 Environment / Operating Reality
-    ├─ Domain / Effect Reality                         ← ACTIVE
+    ├─ Domain Reality                              ← bounded result; awaiting user evaluation
+    │    ├─ Domain State / Configuration           ← discovered child; inactive
+    │    └─ Domain Dynamics / Processes            ← discovered child; inactive
+    │
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
 
-The parent-ground result is accepted for continuation of research, not as a final ontology, universal decomposition or architecture decision. The active child label/shape remains falsifiable.
+The previous label `Domain / Effect Reality` is weakened by the child research. Current strongest bounded child result is `Domain Reality`.
 
-## Parent-ground bounded result retained
+## Why `Effect` is removed from the node name
 
-Environment concerns realized, boundary/reference-relative conditions and dynamics that matter to focal Work because they:
-- constitute the domain/effect reality the Work must understand, accommodate, navigate, maintain, change or judge outcomes against; and/or
-- materially enable, constrain, degrade, endanger or otherwise shape execution.
+Keep separate:
 
-Strong distinctions remain:
+```text
+actual resulting Domain condition/trajectory
+≠ intended/desired outcome
+≠ observed/represented result
+≠ causal effect / attribution
+```
+
+Actual results are Domain State/trajectory. Causal effect is relational/counterfactual/evidential, and observational Work can have Domain Reality without intended intervention.
+
+## Immediate-child result
+
+### Domain State / Configuration
+
+Asks what realized domain condition/configuration obtains at the relevant time/scope, including load-bearing constituents, properties, relations/topology and current status.
+
+### Domain Dynamics / Processes
+
+Asks what realized processes, interactions, events and disturbances make the domain persist, evolve or transition through time, including endogenous/exogenous change, Work-coupled transitions, delays and path dependence.
+
+These branches passed child-promotion through distinct first-order questions/failure modes and cross-domain usefulness. They are research problem branches, not ontology classes.
+
+## Third-child status
+
+No third universal immediate child is currently required. Structure/composition, constraints/invariants, effects/outcomes, space/time, affordances/actionability, causality and domain-type taxonomies remain cross-cutting, relational or specialization candidates at this level.
+
+## Parent-ground distinctions retained and refined
 
 ```text
 actual Environment condition ≠ specification ≠ observation ≠ model ≠ Record
-Work closure/status ≠ actual domain effect
+Domain Reality ≠ every target of Work
+Domain Dynamics ≠ Work lifecycle
+after-state/change ≠ causal effect attribution
+intended outcome ≠ actual resulting condition
 Actor capability ≠ situated actionability
 environmental participation ≠ semantic ownership
-outside boundary ≠ automatically relevant Environment
 ```
+
+Some institutional/social realities may be constituted by collective rules/attitudes/representations. The project therefore requires separation from any particular representation, not metaphysical independence from all representation.
 
 ## Hierarchical deepening rule
 
-Further work follows:
-- `../../HIERARCHICAL-DEEPENING-METHOD.md`;
 - one active hierarchical node at a time;
-- research the selected node;
-- identify only its immediate child regions;
-- return for user evaluation before activating a child or sibling;
-- do not mistake cross-cutting dimensions for child branches merely to create a deeper tree.
+- child discovery does not authorize child research;
+- the current Domain Reality pass is closed;
+- `Domain State / Configuration`, `Domain Dynamics / Processes` and the Work-Conditions sibling are all inactive;
+- user evaluation is required before any next node is activated.
 
-## Active node — Domain / Effect Reality
+Method:
+- `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-Plan:
-- `DOMAIN-EFFECT-RESEARCH-PLAN.md`
+## Current Domain Reality route
 
-Main question:
+`domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-REALITY-SYNTHESIS.md → focused finding → completeness/source recovery`
 
-> What actual reality is focal Work about, trying to understand, accommodate, navigate, maintain, transform, or judge outcomes against; and what immediate first-order problem regions are required to reason about that reality without collapsing Work, Information, Actors or execution conditions into it?
+The package directory retains the historical path name `domain-effect/`; current semantic authority inside it uses `Domain Reality`. A directory rename is not necessary for epistemic correctness and is not performed during closure.
 
-The pass explicitly attacks the inherited label/shape, including whether `Domain Reality` and `Effect Reality` should remain one node or split.
+## Verification status
 
-## Active-node scope and stop rule
-
-The Domain/Effect pass may:
-- recover prior operating-world and current parent evidence;
-- research external traditions/cross-domain falsifiers relevant to this node;
-- derive and test immediate child candidates;
-- record cross-ground/cross-sibling relations as deferred observations.
-
-It may not:
-- deep-research any child discovered during the same pass;
-- research Work Conditions in parallel;
-- activate Information, Work or Actors;
-- build the final relation/control model or architecture.
-
-## Work Conditions sibling
-
-`Work Conditions / Enabling–Constraining Environment` is inactive during the Domain/Effect pass.
-
-Technical Work Environment remains valid deep prior evidence under that sibling, but no Work-Conditions substantive research is authorized by this state.
-
-## Parent-ground evidence route
-
-`KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → relevant finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md → primary source`
-
-Historical operating-world evidence remains recoverable under `../../../history/superseded/operating-world-environment/` as prior evidence, not current authority.
+The node completion audit is same-model adversarial self-review, not independent verification. External source traditions support discriminating claims but do not independently validate the exact two-child project hierarchy.
 
 ## Current return condition
 
-Complete the Domain / Effect Reality node pass to bounded sufficiency or operational limit, persist current state/evidence, and return to user evaluation.
+User evaluates whether the bounded Domain Reality result is reasonable enough for hierarchical continuation or requires targeted reopening.
 
 ## Next authorised work
 
-**DOMAIN / EFFECT REALITY RESEARCH ONLY.**
+**USER EVALUATION OF THE DOMAIN REALITY RESULT ONLY.**
 
-Do not activate Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation automatically.
+Do not automatically activate Domain State, Domain Dynamics, Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation.
