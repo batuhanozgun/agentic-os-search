@@ -16,56 +16,76 @@ Its purpose is to determine and complete the **ground-specific internal scope an
 
 This layer does **not** assume that the four grounds require equal numbers of levels, equal amounts of new research or identical internal structures.
 
-## One-ground-at-a-time discipline
+## Recursive one-node-at-a-time discipline
 
-At most one top-level ground is researched substantively at a time.
+At most one hierarchical research node is researched substantively at a time.
 
-Other grounds may be consulted only when needed to preserve a boundary, construct a counterexample or record a deferred relation. They are not opened in parallel.
+This includes both top-level grounds and their deeper children. A node pass:
+- tests the selected node's own coherence/boundary;
+- identifies only its immediate child problem regions, if any;
+- records cross-cutting dimensions without promoting them automatically;
+- stops and returns to user evaluation before any child or sibling is activated.
 
-Each ground receives its own package, closure and user evaluation.
+Other grounds/siblings may be consulted only when needed to preserve a boundary, construct a counterexample or record a deferred relation. They are not opened in parallel.
+
+The canonical recursive method is:
+- `HIERARCHICAL-DEEPENING-METHOD.md`
 
 ## Relationship to prior research
 
 Existing completed corpora are evidence inputs, not material to be restarted blindly:
 
 - `01_verticals/records-artifacts/` is deep evidence for the persistent-information branch of Information / Representation;
-- `01_verticals/work-environment/` is deep evidence for Technical Work Environment, now retained under the broader Environment execution-condition branch identified by the Environment deepening pass;
+- `01_verticals/work-environment/` is deep evidence for Technical Work Environment, retained under the broader Environment work-condition branch;
 - `01_verticals/work/` is already a broad/deep study of the Work ground;
 - `01_verticals/actors/` is already a broad/deep study of the Actors ground;
 - `history/superseded/operating-world-environment/` is historical but valid prior evidence for Domain/Operating-World questions;
-- `02_adequacy/` supplies the accepted top-level hierarchy and the falsifiers that motivated deeper ground research.
+- `02_adequacy/` supplies the accepted top-level hierarchy and falsifiers that motivated deeper ground research.
 
-## Ground packages
+## Current Environment deepening
 
-Current substantive ground packages, when created, live under:
+The first active top-level ground is Environment. Its hierarchical deepening is **still in progress**, although several parent/child nodes have boundedly closed.
 
-- `grounds/<ground>/`
+Current research hierarchy:
 
-The first completed deepening package is:
-- `grounds/environment/`
+```text
+Environment / Operating Reality
+    ├─ Domain Reality
+    │    ├─ Domain State
+    │    │    ├─ Domain Structure / Composition
+    │    │    └─ Domain Condition / Status
+    │    └─ Domain Dynamics / Processes
+    └─ Work Conditions / Enabling–Constraining Environment
+         └─ Technical Work Environment
+```
 
-Read its own `STATE.md`, `KEY.md` and `CURRENT-SURFACES.md` for the current Environment result and status.
+Do not infer current authorization from the tree. Read:
+- `STATE.md` for stage authority/status;
+- `INDEX.md` for routing;
+- `CURRENT-SURFACES.md` for exact freshness.
 
 ## Research discipline
 
-For each ground:
+For each selected node:
 
-1. recover existing evidence before opening new search;
-2. test whether the top-level boundary is already adequately researched or merely inferred;
-3. identify ground-local missing first-order problem families;
-4. deepen only where evidence gaps are material;
-5. record cross-ground relations without prematurely solving composition;
-6. run an adversarial omission/reduction check before closure;
-7. return the result to the user for evaluation.
+1. recover decision-relevant existing evidence before opening new search;
+2. test the node label/level/boundary rather than inheriting it blindly;
+3. derive a first-principles node-local problem inventory;
+4. identify only stable immediate child regions;
+5. distinguish children from cross-cutting dimensions and domain-specific taxonomies;
+6. record cross-node/cross-ground relations without prematurely solving composition;
+7. run adversarial omission/reduction/rival-decomposition checks;
+8. close when additional broad probes have declining structural information value;
+9. return to user evaluation before deeper/sibling activation.
 
 ## Non-goals
 
 This layer does not itself authorize or decide:
 - a fixed layer count for all grounds;
 - a final relation/control taxonomy;
-- four architecture modules/classes;
+- architecture modules/classes;
 - SOUL or Development OS architecture;
 - final ontology/data model;
 - implementation.
 
-Read `STATE.md` for current authorization and `PLAN.md` for the accepted research program.
+Read `STATE.md` for current authorization and `PLAN.md` for the accepted top-level research program.
