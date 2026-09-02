@@ -1,19 +1,21 @@
 # Domain / Effect Reality — Research Plan
 
-**Status:** PLAN READY; substantive branch research not started
-**Date:** 2026-09-02
-**Parent:** `Environment / Operating Reality`
+**Status:** EXECUTED HISTORICAL PLAN; Domain Reality pass closed and later child deepening has continued  
+**Date:** 2026-09-02  
+**Parent:** `Environment / Operating Reality`  
 **Sibling:** `Work Conditions / Enabling–Constraining Environment` — inactive during this pass
+
+> **Execution / refinement notice:** This file preserves the pre-pass plan and starting labels. The executed pass refined `Domain / Effect Reality` to `Domain Reality` and discovered `Domain State` plus `Domain Dynamics / Processes`; later Domain State research refined the State child further. Current hierarchy/status is in `STATE.md`, `KEY.md`, `domain-effect/STATE.md`, and `domain-effect/domain-state/STATE.md`. The plan body below is intentionally retained as the research contract that governed the pass.
 
 ## Purpose
 
 Research `Domain / Effect Reality` as the next single Environment node, determine whether it is coherent at its current level, and identify only its **immediate first-order child problem regions** before any deeper child research begins.
 
-This plan follows `../../../HIERARCHICAL-DEEPENING-METHOD.md`.
+This plan follows `../../HIERARCHICAL-DEEPENING-METHOD.md`.
 
 ## Starting hypothesis under attack
 
-Current Environment result:
+Current Environment result at planning time:
 
 ```text
 Environment / Operating Reality
@@ -26,7 +28,7 @@ Working question:
 
 > What actual reality is focal Work about, trying to understand, accommodate, navigate, maintain, transform, or judge real-world outcomes against; and what immediate first-order problem regions are required to reason about that reality without collapsing Work, Information, Actors or execution conditions into it?
 
-`Domain / Effect Reality` is a current research label, not an axiom or architecture category.
+`Domain / Effect Reality` is a research label, not an axiom or architecture category.
 
 ## Decision-critical framing questions
 
@@ -54,14 +56,14 @@ Recover selectively, at decision-relevant depth:
 - `DEFERRED-RELATIONS.md`
 
 ### Historical operating-world evidence
-- `../../../../history/superseded/operating-world-environment/corpus/KEY.md`
-- `FINDINGS-MAP.md`
+- `../../../history/superseded/operating-world-environment/corpus/KEY.md`
+- `../../../history/superseded/operating-world-environment/corpus/FINDINGS-MAP.md`
 - integrated synthesis
 - boundary/state/actionability/reduction findings
 - source ledger as needed
 
 ### Adequacy evidence
-- `../../../../02_adequacy/findings/08-environment-parent-hierarchy.md`
+- `../../../02_adequacy/findings/08-environment-parent-hierarchy.md`
 - findings 09–10 where boundary/counterframe is load-bearing
 
 ### Other grounds
