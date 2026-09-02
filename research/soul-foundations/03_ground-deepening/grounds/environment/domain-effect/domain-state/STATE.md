@@ -145,7 +145,7 @@ Residuals:
 - `DEFERRED-RELATIONS.md`
 
 Exact freshness:
-- `CURRENT-SURFACES.md` once final closure binding is written.
+- `CURRENT-SURFACES.md`
 
 ## Reopen condition
 
