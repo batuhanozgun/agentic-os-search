@@ -1,6 +1,6 @@
 # Domain Reality — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Domain State child closure and routing cleanup  
+**Status:** canonical freshness binding after bounded Domain State closure and deep repository verification  
 **Date:** 2026-09-02  
 **Branch:** `main`
 
@@ -11,7 +11,8 @@
 | Node state | `STATE.md` | `278125a650884d97d58c95ff75a9d4ad9ec6bd1d` |
 | Router | `INDEX.md` | `ae6bdf011f4a94b139fbd45b88bdbf99e009401d` |
 | L0 key | `KEY.md` | `6b45aa60b91f6db4b91bad96b8d3d281483709ec` |
-| L1 findings map | `FINDINGS-MAP.md` | `fcc286f158cdc32ac993a43013d1c1c425243641` |
+| L1 findings map | `FINDINGS-MAP.md` | `5cf9daae4f683260afcd43c2f8a046adbb5edfb9` |
+| Executed Domain State research plan | `DOMAIN-STATE-RESEARCH-PLAN.md` | `8f5cabdd360fee61cd31a230018591673c348f24` |
 | Residual questions | `OPEN-QUESTIONS.md` | `792ce4c7dcff17e056146ac17790714af23e3c89` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `56d238a0f5b7fac2d4dd963473fe501a66d778a5` |
 
@@ -21,13 +22,15 @@
 |---|---|---|
 | Preserved node synthesis with subsequent-refinement notice | `synthesis/DOMAIN-REALITY-SYNTHESIS.md` | `c371af143aec53663b5ff5e01ad5bb89b2093df4` |
 | Original completion / omission audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | `ece9e98e051c4590f386bb3941d0040d5f4396d3` |
-| Original source/view ledger | `evidence/SOURCE-LEDGER.md` | `f95c635c95a24d0662fb24821a50a7728b4a806b` |
+| Preserved source/view ledger with repaired retrieval paths | `evidence/SOURCE-LEDGER.md` | `5e287a45886fc02f387a5da1b2822c44f054c2f3` |
+
+Focused findings/audit retain pass-time labels where useful for reconstruction. Current status/authorization is carried by `STATE.md`, `KEY.md`, `FINDINGS-MAP.md` and this manifest.
 
 ## Current deeper child
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain State | boundedly sufficient; awaiting user evaluation | `domain-state/CURRENT-SURFACES.md` @ `770ec2d9d30715be8015bc7ff7b392362e801b6d` |
+| Domain State | boundedly sufficient; awaiting user evaluation | `domain-state/CURRENT-SURFACES.md` @ `2bbe824f4c868a45621f529199292eae51b2a6df` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
 | Domain Dynamics / Processes | inactive; not yet deepened | no child package |
@@ -58,7 +61,7 @@ Domain Reality is boundedly sufficient and user-authorised for hierarchical cont
 Current route:
 `STATE → KEY/FINDINGS-MAP → domain-state/STATE → domain-state/KEY/FINDINGS-MAP → current child synthesis/audit/source recovery`
 
-Historical Domain Reality reasoning remains recoverable through its synthesis/findings, which now explicitly route readers to subsequent refinement.
+Historical Domain Reality reasoning remains recoverable through its synthesis/findings, which explicitly route readers to subsequent refinement or are labeled as pass-time artifacts by the package router.
 
 ## Update rule
 
