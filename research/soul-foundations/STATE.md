@@ -1,171 +1,110 @@
 # SOUL Foundations — STATE
 
-**Status:** active; four independent foundation research regions have bounded results; parent-level four-corpus discussion authorised  
-**Current authorised activity:** compare and stress-test the bounded Records, Work, Actors and Environment corpora together without promoting them into architecture or launching a new research phase  
-**Next substantive research after this discussion:** UNDETERMINED; NOT AUTHORISED
+**Status:** active; Records, Work and Actors remain bounded/user-evaluated; prior Environment corpus is superseded for the intended fourth-region purpose; replacement Work Environment research is authorised in principle but not yet started  
+**Current authorised activity:** correct scope/continuity and prepare the replacement Work Environment research without promoting any foundation result into architecture  
+**Four-foundation comparison:** PAUSED until the intended fourth region is researched correctly
 
-## Dependency state
+## Current dependency state
 
 - **Layer 0 — bounded context / prior-repository reconstruction:** COMPLETE for current purpose in `research/soul-context/`.
-- **Layer 1A — Records / persistent-information:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED.
-- **Layer 1B — Work:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED; RETRIEVAL CLOSURE COMPLETE.
-- **Layer 1C — Actors:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; EVALUATED; RETRIEVAL CLOSURE COMPLETE.
-- **Candidate Layer 1D — Environment:** BOUNDED INDEPENDENT RESEARCH COMPLETE FOR CURRENT PURPOSE; current corpus supports an independent boundary-relative operating-world problem region; repository does not record a separate explicit user acceptance verdict promoting it beyond that bounded result; NOT AN ACCEPTED FOURTH ONTOLOGY LEG OR ARCHITECTURE MODULE.
-- **Cross-foundation comparison/stress-test:** CURRENTLY AUTHORISED as discussion/inference work over the existing bounded corpora.
-- **New relation/composition research phase or another foundation pass:** CANDIDATE ONLY; NOT AUTHORISED.
+- **Layer 1A — Records / persistent information:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; USER-EVALUATED.
+- **Layer 1B — Work:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; USER-EVALUATED; RETRIEVAL CLOSURE COMPLETE.
+- **Layer 1C — Actors:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; USER-EVALUATED; RETRIEVAL CLOSURE COMPLETE.
+- **Previous candidate Layer 1D — Environment:** SUPERSEDED FOR THE INTENDED PURPOSE. The completed corpus researched a broader boundary-relative external operating-world problem, not the user's intended technical/work setting in which Actors perform Work.
+- **Replacement candidate Layer 1D — Work Environment / Çalışma Ortamı:** RESEARCH REQUIRED; AUTHORISED IN PRINCIPLE; NOT YET STARTED.
+- **Cross-foundation comparison/stress-test:** PAUSED. Do not use the superseded Environment corpus as the fourth bounded result.
+- **New relation/composition research, architecture, ontology/data model or implementation:** NOT AUTHORISED.
+
+## Scope correction — 2026-09-02
+
+The user clarified that the intended fourth research region is the **working setting in which Actors actually perform Work** while building Development OS and later SOUL.
+
+Concrete anchors include:
+
+- Codex as an agent work/execution setting;
+- GitHub/repositories as a shared technical work, coordination and persistence setting;
+- interfaces/capabilities through which Actors act across those settings;
+- the human user's local computer primarily as an access/tool surface unless its local machine state becomes directly load-bearing to execution.
+
+The previous Environment research instead expanded `Environment` into a general system-boundary/external-world problem involving external states, conditions, resources, hazards, observation and dynamics. That research may be coherent for that broader question, but it does **not** answer the intended fourth-region question.
+
+Canonical correction handoff:
+- `WORK-ENVIRONMENT-CORRECTION-HANDOFF.md`
+
+## Terminology
+
+Recommended working label:
+
+> **Work Environment / Çalışma Ortamı**
+
+Reason for preferring it over bare `Environment`:
+- it binds the concept directly to Work;
+- it reduces drift toward generic external-world/system-boundary semantics.
+
+Reason for not defaulting to `Execution Environment`:
+- that term can sound limited to runtime/process execution and may under-describe GitHub-like coordination/persistence settings.
+
+Reason for not defaulting to `Workspace`:
+- that term can sound like one UI/container rather than a set of technical settings, services and capability surfaces.
+
+This is a working research label only, not an ontology or architecture decision.
+
+## Previous Environment corpus status
+
+Previous routes remain in:
+- `01_verticals/environment/`
+- `ENVIRONMENT-EVALUATION-HANDOFF.md`
+
+These surfaces are now **historical wrong-scope material for the intended fourth-region problem**.
+
+They must not be used as:
+- the current fourth bounded foundation result;
+- evidence that Work Environment research is complete;
+- a premise for four-foundation comparison;
+- an architecture or ontology basis.
+
+Do not hard-delete them yet solely for cleanliness. First keep them outside active routing so the failure is auditable and cannot be silently repeated. After replacement Work Environment research reaches a stable retrieval surface, decide explicitly whether to archive or delete the old corpus.
 
 ## Records checkpoint
 
-Records completed eight substantive bounded passes plus a completeness/omission red-team.
+Records remains sufficiently complete and user-evaluated for the current foundation purpose.
 
-Consolidated result:
+Canonical synthesis:
 - `01_verticals/records-artifacts/synthesis/RECORDS-VERTICAL-SYNTHESIS.md`
 
-Completeness result:
-- no currently identified missing first-order Records dimension remains after a dedicated retention/appraisal/disposition pass;
-- remaining Records unknowns are refinements, implementation assurance or cross-vertical questions;
-- reopen Records only on a material later falsifier.
-
-The completed Records evaluation produced an explicit next-direction decision to begin the independent Work vertical. Records substantive findings did not become Work axioms.
+Reopen only on a material later falsifier or explicit user direction.
 
 ## Work checkpoint
 
-Work was independently researched from a deliberately weak starting frame and challenged against alternative analytical traditions including planning/task networks, case/declarative process models, situated work/activity theory, coordination/CSCW, system flow, project/portfolio/scheduling, recovery, maintenance, work design and closed-loop quality/control.
+Work remains sufficiently complete and user-evaluated for the current foundation purpose.
 
-Consolidated result:
+Canonical synthesis:
 - `01_verticals/work/synthesis/WORK-VERTICAL-SYNTHESIS.md`
 
-Completeness / omission result:
-- `01_verticals/work/synthesis/COMPLETENESS-OMISSION-CHECK.md`
-
-Current bounded-completion judgment:
-- the narrow `task/work-item + scalar lifecycle` framing is insufficient;
-- multiple first-order dimensions were identified and source-traced, including pre-execution selection/commitment, plural Work units, situated/adaptive execution, coordination/flow, multidimensional state/closure, effort-versus-duration, recovery and continuing Work;
-- later targeted omission probes predominantly mapped to the established dimensions rather than opening new first-order Work families;
-- the remaining Work uncertainty is primarily refinement, source-strengthening, domain-specific modeling or deferred cross-vertical relation;
-- the omission/countercheck pass is same-model adversarial self-review, not independent verification;
-- reopen Work substantive research only on explicit direction or a material later falsifier.
-
-The user evaluated the Work result on 2026-09-01 and accepted it as sufficient for the current foundation purpose.
-
-Work retrieval closure is complete and routes through:
-
-`L0 KEY → L1 findings map → L2 synthesis → L3 topic finding → L4A audit or L4B evidence trace → L5 primary source`.
+Retrieval closure remains complete.
 
 ## Actors checkpoint
 
-The independent Actors foundation research was explicitly authorised and completed to bounded sufficiency on 2026-09-01.
+Actors remains sufficiently complete and user-evaluated for the current foundation purpose.
 
-Consolidated result:
+Canonical synthesis:
 - `01_verticals/actors/synthesis/ACTORS-VERTICAL-SYNTHESIS.md`
 
-Completeness / omission result:
-- `01_verticals/actors/synthesis/COMPLETENESS-OMISSION-CHECK.md`
+Retrieval closure remains complete.
 
-Current bounded-completion judgment:
-- `Actor` was not validated as a universal primitive;
-- identity, role/position, context/time, action/decision/omission participation, capability/competence, authority/obligation, representation/delegation, attribution/responsibility/accountability and collective/non-human agency levels require separability when material;
-- an explicit non-Actor-centred event/participation frame was seriously tested and then materially revised after omission/refraining exposed the limits of positive-event centring;
-- shared/joint action was separated from organized corporate/group agency;
-- later targeted omission probes increasingly mapped to established dimensions rather than opening new first-order families;
-- source/view limitations are explicit and load-bearing results have recovery paths;
-- the completion check is same-model adversarial self-review, not independent verification;
-- remaining uncertainty is refinement, threshold, domain semantics or deferred cross-vertical relation.
+## Historical discussion status
 
-Actors retrieval closure routes through:
+The earlier three-vertical discussion over Records, Work and Actors remains historical context.
 
-`L0 KEY → L1 FINDINGS-MAP → L2 synthesis → L3 topic finding → L4A completeness/audit or L4B source ledger → L5 primary/authoritative source`.
-
-Dedicated residual and relationship surfaces:
-- `01_verticals/actors/OPEN-QUESTIONS.md`
-- `01_verticals/actors/DEFERRED-RELATIONS.md`
-
-Freshness/version binding:
-- `01_verticals/actors/CURRENT-SURFACES.md`
-
-The user evaluated the Actors result on 2026-09-01 and accepted it as sufficient for the current foundation purpose.
-
-## Historical three-vertical discussion checkpoint
-
-Records, Work and Actors were previously discussed together with current SOUL / Development OS context before Environment research.
+The later four-foundation discussion handoff is no longer current authority because its fourth corpus was based on the wrong Environment scope.
 
 Historical handoffs:
 - `DISCUSSION-HANDOFF.md`
 - `ENVIRONMENT-RESEARCH-HANDOFF.md`
-
-That discussion produced working hypotheses, not architecture:
-- Records, Work and Actors may be recurrent foundational system dimensions rather than mutually exclusive object classes or fixed modules.
-- Their deferred relations suggest a load-bearing relation/control/coordination fabric may be needed.
-- The same high-level dimensions may recur across the current research/development arrangement, Development OS, SOUL and task-specific systems; recurrence remains unverified.
-- Environment was identified as a serious candidate fourth foundation region requiring independent research before composition.
-
-The user approved the Environment research direction on 2026-09-01.
-
-## Environment checkpoint
-
-The independent Environment pass completed its mandatory preflight and then reached bounded sufficiency on 2026-09-01.
-
-Evaluation handoff preserving the exact bounded result and previous return condition:
 - `ENVIRONMENT-EVALUATION-HANDOFF.md`
-
-Retrieval route:
-- `01_verticals/environment/INDEX.md`
-
-Shortest result:
-- `01_verticals/environment/KEY.md`
-
-Consolidated result:
-- `01_verticals/environment/synthesis/ENVIRONMENT-VERTICAL-SYNTHESIS.md`
-
-Completeness / omission result:
-- `01_verticals/environment/synthesis/COMPLETENESS-OMISSION-CHECK.md`
-
-Current bounded judgment:
-- Environment membership is boundary/system-of-interest relative rather than a safe intrinsic object type;
-- context is not synonymous with Environment and can be relevance/activity dependent;
-- Actor capability does not by itself determine situated actionability because current external conditions/resources/interfaces can vary independently;
-- actual world state, observation, belief/knowledge and persistent Records can diverge;
-- Work state/effects do not substitute for underlying external state;
-- tools, resources, runtime and infrastructure are boundary-/relation-dependent roles rather than intrinsic Environment classes;
-- technical runtime is a strong operating-world instance but current evidence does not require a separate technical-environment foundation family;
-- a direct null/reduction test found that Records + Work + Actors alone can remain locally unchanged while external state changes feasibility/outcomes;
-- typed relations may avoid a dedicated fourth object bucket/module, but if they require external states/conditions/resources/interfaces as relata, they represent the Environment problem rather than eliminate it;
-- late probes into physical hazards, social/institutional/regulatory conditions, hidden/noisy state, non-stationarity, multi-agent cases and scarce/shared resources mapped to the established distinctions rather than opening a new first-order family.
-
-Strongest current research frame:
-
-> a **boundary-relative operating-world problem region** involving current external states/conditions/processes/dynamics, observation and interaction through sensing/action/interfaces/resources.
-
-This does **not** establish:
-- Environment as a mutually exclusive fourth ontology leg;
-- a required fourth SOUL module;
-- final terminology (`Environment`, `Operating world`, etc.);
-- cross-vertical relation/control architecture.
-
-The Environment completeness/omission check is same-model adversarial self-review, **not independent verification**.
-
-The current user direction authorises use of this bounded result in four-corpus discussion. That direction does not by itself strengthen the Environment result into an accepted ontology/module claim or independent verification.
-
-## Current four-foundation discussion checkpoint
-
-Current handoff:
 - `FOUR-FOUNDATION-DISCUSSION-HANDOFF.md`
 
-The authorised discussion may compare/stress-test the four existing bounded corpora to identify:
-- repeated distinctions expressed in different vocabulary;
-- overlapping or unstable boundaries;
-- explanation gaps no single corpus resolves;
-- relational dependencies across regions;
-- load-bearing relation/control/coordination semantics;
-- falsifiers or omissions that could indicate another first-order research region;
-- whether high-level problem/dimension families recur across Development OS, SOUL and task-specific working systems.
-
-These are discussion targets, not predetermined conclusions.
-
-Working hypotheses remain hypotheses:
-- `relation/control/coordination fabric` may be load-bearing;
-- foundation-dimension recurrence across system levels may exist;
-- the four research regions may or may not survive later synthesis as named architectural or ontological units.
+Working hypotheses produced by those discussions remain hypotheses only and should be re-evaluated after the replacement Work Environment research. In particular, do not treat relation/control/coordination fabric or four-region recurrence as established because the fourth region is currently unresolved.
 
 ## Current research operating conditions
 
@@ -173,43 +112,30 @@ Continuity must not depend on ChatGPT conversation memory.
 
 Current arrangement:
 - GitHub repository state is the canonical persistent research surface;
-- research/retrieval/discussion/evaluation/state-update/handoff are explicit Work activities with sequencing and authorization boundaries;
 - the human owner supplies goals, evaluation and approval boundaries;
-- fresh ChatGPT sessions perform bounded research/reasoning/repository work under repository control;
-- the operational environment currently includes the ChatGPT Project, connected GitHub repository and their available capabilities/constraints.
+- ChatGPT/Codex agents perform bounded research/reasoning/repository Work under repository control;
+- the actual technical work settings themselves are now part of the intended Work Environment research question rather than evidence already supplied by the superseded Environment corpus.
 
-A fresh session must be able to recover the current purpose, authority, state, epistemic status and next responsibility from repository state.
+A fresh session must recover the scope correction before touching the old Environment material.
 
 ## Guardrails
 
+- Do not call the previous Environment research 'the completed fourth foundation' for the intended SOUL foundations sequence.
+- Do not infer that `Environment` means generic external world in the replacement research.
+- Begin replacement research from concrete Development OS work settings before generalizing.
+- Keep inclusion/exclusion tests explicit so the term cannot silently expand again.
 - Records, Work and Actors remain research dimensions/results, not proof of a final ontology.
-- The Environment pass supports an independent problem region but **not** a settled fourth object class/module.
-- The current four-corpus discussion does not itself make the four regions final foundation legs.
-- `relation/control/coordination fabric` remains a working cross-vertical hypothesis, not an architecture component.
-- Cross-vertical inference must not be mislabeled as an established vertical result.
-- Research findings do not become SOUL architecture decisions without a later explicit synthesis/decision path.
-- Existing `research/soul-context/` evidence remains the route for SOUL / Development OS intent and the research–architecture boundary.
-- Environment's result must not be strengthened from bounded research sufficiency into universal completeness or independent verification.
-- Do not launch a new relation/composition research phase, fifth foundation pass, architecture, final data model or implementation without later explicit user authorisation.
-
-## Current sequencing
-
-**RECORDS, WORK AND ACTORS ARE SUFFICIENTLY COMPLETE AND USER-EVALUATED FOR THE CURRENT FOUNDATION PURPOSE.**
-
-**ENVIRONMENT INDEPENDENT FOUNDATION RESEARCH HAS A BOUNDED RESULT SUFFICIENT FOR THE CURRENT AUTHORISED CROSS-CORPUS DISCUSSION; NO STRONGER ONTOLOGY/MODULE CLAIM IS AUTHORISED.**
-
-**CURRENT AUTHORISED WORK IS FOUR-CORPUS COMPARISON AND STRESS-TESTING ONLY.**
-
-Any new substantive research direction remains undetermined and unauthorised until derived from the discussion and explicitly approved by the user.
+- `Work Environment` is a working label, not a final object class or module.
+- Do not launch relation/composition research, SOUL architecture, final ontology/data model or implementation from this correction alone.
 
 ## Next logical work
 
-Possible later directions must be derived from explanation gaps exposed by the current comparison rather than selected in advance.
+Prepare and run an independent **Work Environment / Çalışma Ortamı** foundation research pass anchored to the actual settings in which Actors perform Work.
 
-A typed relation/control/coordination study remains one working candidate, not the predetermined next phase.
+The replacement pass should explicitly test whether the chosen name and scope remain stable across Codex, GitHub, human access surfaces, agent capabilities/restrictions, cross-environment transitions and other relevant Development OS cases.
 
 ## Next authorised work
 
-Continue the bounded four-foundation discussion under `FOUR-FOUNDATION-DISCUSSION-HANDOFF.md`.
+Replacement Work Environment research is authorised in principle by the user's 2026-09-02 correction, but substantive research has not started in this state update.
 
-Do not automatically begin a new external research phase, architecture, ontology/data-model design or implementation.
+Use `WORK-ENVIRONMENT-CORRECTION-HANDOFF.md` as the current handoff. Do not resume four-corpus comparison until the replacement research returns for user evaluation.
