@@ -14,24 +14,49 @@ Only Environment is researched substantively here.
 
 ## Prior evidence
 
-The pass reuses but does not blindly inherit:
+The work reuses but does not blindly inherit:
 - the completed Technical Work Environment corpus;
 - the archived operating-world Environment corpus;
 - the `02_adequacy` Environment hierarchy refinement.
 
-## Current result
+## Current research hierarchy
 
-Current bounded research prefers:
+Current bounded hierarchy after deeper Domain Reality and Domain State passes:
 
 ```text
 Environment / Operating Reality
-    ├─ Domain / Effect Reality
+    ├─ Domain Reality
+    │    ├─ Domain State
+    │    │    ├─ Domain Structure / Composition
+    │    │    └─ Domain Condition / Status
+    │    └─ Domain Dynamics / Processes
     └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
 
-Read `STATE.md` for epistemic/current status and `INDEX.md` for routing.
+Material refinements produced by deeper passes:
+- `Domain / Effect Reality` → `Domain Reality`;
+- `Domain State / Configuration` → `Domain State`;
+- Domain State immediate children → `Domain Structure / Composition` + `Domain Condition / Status`.
+
+This is a **research/problem hierarchy**, not a taxonomy of mutually exclusive objects or an architecture/module decomposition.
+
+## Current status and retrieval
+
+Do not infer authorization from this README or from tree indentation.
+
+Read:
+1. `STATE.md` — current Environment epistemic/authorization state;
+2. `INDEX.md` — current route;
+3. `KEY.md` — shortest current hierarchy;
+4. relevant node package for deeper evidence;
+5. `CURRENT-SURFACES.md` — exact freshness binding.
+
+Current deeper node route:
+- `domain-effect/domain-state/`
 
 ## Guardrail
 
 Cross-ground relations may be recorded when needed to define Environment's boundary, but Information, Work, Actors and systematic relation/control composition are not researched in parallel in this package.
+
+A closed node does not authorize a discovered child or sibling automatically.
