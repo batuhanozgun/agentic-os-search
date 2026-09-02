@@ -1,9 +1,9 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; independent discovery and adequacy layers are closed; Environment parent ground is boundedly sufficient and user-evaluated for hierarchical continuation; Domain / Effect Reality research is active  
-**Repository cleanup/currentness verification:** COMPLETE on 2026-09-02; Domain/Effect authorization refreshed on 2026-09-02  
-**Current authorised substantive activity:** ENVIRONMENT → DOMAIN / EFFECT REALITY RESEARCH ONLY  
-**Current return condition:** complete the bounded Domain/Effect node pass to its immediate-child map, persist it, and return to user evaluation before any child/sibling is activated
+**Status:** active research library; independent discovery and adequacy layers are closed; Environment parent ground is user-evaluated for hierarchical continuation; Domain Reality node is boundedly sufficient and awaiting user evaluation  
+**Repository cleanup/currentness verification:** current hierarchical routing refreshed on 2026-09-02  
+**Current authorised substantive activity:** USER EVALUATION OF THE DOMAIN REALITY RESULT ONLY  
+**Current return condition:** user evaluates Domain Reality before any child/sibling/other ground is activated
 
 ## Dependency state
 
@@ -11,7 +11,9 @@
 - `02_adequacy/`: BOUNDEDLY SUFFICIENT; USER-EVALUATED / ACCEPTED AS WORKING RESEARCH HYPOTHESIS.
 - `03_ground-deepening/`:
   - **Environment / Operating Reality parent:** BOUNDEDLY SUFFICIENT; USER-EVALUATED AS REASONABLE ENOUGH FOR HIERARCHICAL CONTINUATION.
-  - **Environment → Domain / Effect Reality:** ACTIVE RESEARCH.
+  - **Environment → Domain Reality:** BOUNDEDLY SUFFICIENT FOR IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION.
+    - Domain State / Configuration: discovered child; NOT ACTIVE.
+    - Domain Dynamics / Processes: discovered child; NOT ACTIVE.
   - **Environment → Work Conditions / Enabling–Constraining Environment:** NOT ACTIVE.
   - Information / Representation State: NOT ACTIVE.
   - Work coverage/gap audit: NOT ACTIVE.
@@ -33,91 +35,91 @@ Actors / Agency–Participation–Authority
 
 This remains a research-routing hypothesis, not architecture, ontology, schema or universal truth.
 
-## Current Environment hierarchy
+## Current Environment research tree
 
-The Environment parent survived deeper first-principles/adversarial research and is accepted for continued hierarchical research under the current bounded result:
+The accepted Environment parent has now been hierarchically deepened one level on its first child:
 
 ```text
 Environment / Operating Reality
-    ├─ Domain / Effect Reality                  ← ACTIVE
-    └─ Work Conditions / Enabling–Constraining Environment
+    ├─ Domain Reality                              ← bounded result; awaiting user evaluation
+    │    ├─ Domain State / Configuration           ← discovered child; inactive
+    │    └─ Domain Dynamics / Processes            ← discovered child; inactive
+    │
+    └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
 
-The parent structure remains falsifiable during child research.
+The previous child label `Domain / Effect Reality` is materially refined to `Domain Reality` by the current pass.
 
-### Parent semantic guardrails
+### Why `Effect` was removed
 
-Environment is the boundary/reference-relative ground of realized load-bearing conditions and dynamics that matter to focal Work because they:
-- constitute the domain/effect reality the Work must understand, accommodate, navigate, maintain, change or judge outcomes against; and/or
-- materially enable, constrain, degrade, endanger or otherwise shape execution.
-
-Reject:
-- Environment = everything outside;
-- Environment = everything relevant;
-- Environment = generic Context;
-- Environment as an exclusive intrinsic object class.
-
-Strong distinctions remain:
+Current research separates:
 
 ```text
-actual Environment condition ≠ specification ≠ observation ≠ model ≠ Record
-Work closure/status ≠ actual Environment effect/outcome
-Actor capability ≠ situated actionability
-environmental participation ≠ semantic ownership
-outside boundary ≠ automatically relevant Environment
+actual resulting Domain condition/trajectory
+≠ intended/desired outcome
+≠ observed/represented result
+≠ causal effect / attribution
 ```
+
+Actual results are Domain State/trajectory. Causal effect is a cross-ground relation requiring intervention/counterfactual/evidential assumptions. Observation-only Work also falsifies any requirement that Domain Reality must contain an intended effect.
+
+### Immediate-child result
+
+**Domain State / Configuration** asks what realized domain condition/configuration obtains at the relevant time/scope.
+
+**Domain Dynamics / Processes** asks what realized processes, interactions, events and disturbances make the domain persist, evolve or transition through time.
+
+Both pass the project child-promotion test through distinct questions/failures, cross-domain recurrence and downstream reasoning value.
+
+No third universal immediate child is currently required. Structure/composition, constraints/invariants, outcome/effect, causality, space/time, observability/actionability and physical/digital/social/institutional type taxonomies remain cross-cutting, relational or specialization candidates at this level.
+
+## Domain boundary corrections
+
+```text
+Domain Reality ≠ every target of Work
+actual Domain condition ≠ observation/model/specification/Record
+Domain Dynamics ≠ Work lifecycle
+after-state/change ≠ causal effect attribution
+intended outcome ≠ actual resulting condition
+environmental participation ≠ semantic ownership
+```
+
+Some institutional/social realities may be constituted through collective rules/attitudes/representations. The current rule is separation from **any particular representation**, not metaphysical independence from all representation.
+
+Not every Work episode requires a material Domain Reality target; some Work primarily targets Information, Actors or Work-local structures.
 
 ## Hierarchical deepening method
 
-Current method:
+Method:
 - `03_ground-deepening/HIERARCHICAL-DEEPENING-METHOD.md`
 
-Rules:
-- substantive research activates at most one hierarchical node at a time;
-- a node pass tests that node and derives only its immediate children;
-- finding a child does not authorize researching it in the same pass;
-- child promotion requires a materially distinct first-order question/failure mode/boundary or downstream reasoning value;
-- cross-cutting dimensions are not converted into children merely to create a deeper tree;
-- after closure, return to user evaluation before activating a child or sibling.
-
-## Active node — Domain / Effect Reality
-
-Plan:
-- `03_ground-deepening/grounds/environment/DOMAIN-EFFECT-RESEARCH-PLAN.md`
-
-The active pass must test rather than assume:
-- whether `Domain Reality` and `Effect Reality` belong in one node;
-- whether effects/outcomes are Environment-local, primarily relational, or require a different split;
-- whether entities/processes/state/dynamics are children or cross-cutting dimensions;
-- whether physical, digital, social and institutional domain realities can share one branch without forced fit;
-- whether boundary/reference choices materially change the hierarchy;
-- whether a relation-only or controlled-process framing explains the problem more cleanly.
-
-The pass may identify only immediate Domain/Effect children. It must not deep-research those children in the same turn.
-
-## One-active-node rule
-
-Only Domain / Effect Reality is active.
-
-Work Conditions, Information, Work and Actors may be consulted only as bounded references for boundary tests/counterexamples/deferred relations. Such consultation does not activate them.
+Rules retained:
+- one active hierarchical node at a time;
+- node pass discovers only immediate children;
+- child discovery does not authorize child research;
+- return to user evaluation before any child/sibling activation.
 
 ## Current retrieval
 
 Parent currentness:
 `STATE.md → INDEX.md`
 
-Ground-deepening program:
+Ground-deepening state:
 `03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md → INDEX.md`
 
 Environment parent result:
-`03_ground-deepening/grounds/environment/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → focused finding → completion/source recovery`
+`03_ground-deepening/grounds/environment/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`
 
-Active-node plan:
-`03_ground-deepening/grounds/environment/DOMAIN-EFFECT-RESEARCH-PLAN.md`
+Current Domain Reality result:
+`03_ground-deepening/grounds/environment/domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-REALITY-SYNTHESIS.md → focused finding → completeness/source recovery`
+
+## Verification status
+
+The Domain Reality completion/omission review is same-model adversarial self-review, **not independent verification**. External traditions support discriminating claims but do not independently validate the exact project hierarchy.
 
 ## Current authorization
 
-**ENVIRONMENT → DOMAIN / EFFECT REALITY RESEARCH ONLY.**
+**USER EVALUATION OF THE DOMAIN REALITY RESULT ONLY.**
 
-Do not automatically begin Work Conditions, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
+Do not automatically activate Domain State, Domain Dynamics, Work Conditions, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
