@@ -1,16 +1,18 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; independent discovery and adequacy layers are closed; Environment ground-deepening is boundedly sufficient and awaiting user evaluation  
-**Repository cleanup/currentness verification:** COMPLETE on 2026-09-02; current ground routing refreshed on 2026-09-02  
-**Current authorised substantive activity:** USER EVALUATION OF ENVIRONMENT / OPERATING REALITY RESULT ONLY  
-**Current return condition:** user evaluates Environment before any next ground is activated
+**Status:** active research library; independent discovery and adequacy layers are closed; Environment parent ground is boundedly sufficient and user-evaluated for hierarchical continuation; Domain / Effect Reality research is planned  
+**Repository cleanup/currentness verification:** COMPLETE on 2026-09-02; hierarchical-deepening routing refreshed on 2026-09-02  
+**Current authorised substantive activity:** USER EVALUATION / REFINEMENT OF THE DOMAIN / EFFECT REALITY RESEARCH PLAN ONLY  
+**Current return condition:** user accepts/refines the Domain/Effect plan before that single node is activated
 
 ## Dependency state
 
 - `01_verticals/`: COMPLETE / USER-EVALUATED for original independent discovery questions.
 - `02_adequacy/`: BOUNDEDLY SUFFICIENT; USER-EVALUATED / ACCEPTED AS WORKING RESEARCH HYPOTHESIS.
 - `03_ground-deepening/`:
-  - **Environment / Operating Reality:** BOUNDEDLY SUFFICIENT FOR CURRENT DEEPENING PURPOSE; AWAITING USER EVALUATION.
+  - **Environment / Operating Reality parent:** BOUNDEDLY SUFFICIENT; USER-EVALUATED AS REASONABLE ENOUGH FOR HIERARCHICAL CONTINUATION.
+  - **Environment → Domain / Effect Reality:** PLAN READY; NOT ACTIVE.
+  - **Environment → Work Conditions / Enabling–Constraining Environment:** NOT ACTIVE.
   - Information / Representation State: NOT ACTIVE.
   - Work coverage/gap audit: NOT ACTIVE.
   - Actors coverage/gap audit: NOT ACTIVE.
@@ -31,30 +33,28 @@ Actors / Agency–Participation–Authority
 
 This remains a research-routing hypothesis, not architecture, ontology, schema or universal truth.
 
-## Environment deepening result
+## Current Environment hierarchy
 
-The Environment ground survived deeper first-principles/adversarial research, with a material refinement to its lower structure.
-
-Current strongest working hierarchy:
+The Environment parent survived deeper first-principles/adversarial research and is accepted for continued hierarchical research under the current bounded result:
 
 ```text
-Environment / Operating Reality                 [working parent label]
+Environment / Operating Reality
     ├─ Domain / Effect Reality
     └─ Work Conditions / Enabling–Constraining Environment
-         └─ Technical Work Environment           [existing deep technical specialization]
+         └─ Technical Work Environment
 ```
 
-### Material correction
+### Material correction retained
 
 The adequacy-stage `Work-Support Environment` phrase was too narrow/positive. Execution is shaped not only by support but also by realized conditions that constrain, degrade, block or make Work hazardous.
 
-The stronger second-role semantics are therefore:
+The stronger second-role semantics remain:
 
 > **Work Conditions / Enabling–Constraining Environment**
 
-### Parent semantics
+### Parent semantic guardrails
 
-Environment is the boundary/reference-relative ground of **realized load-bearing conditions and dynamics** that matter to focal Work because they:
+Environment is the boundary/reference-relative ground of realized load-bearing conditions and dynamics that matter to focal Work because they:
 - constitute the domain/effect reality the Work must understand, accommodate, navigate, maintain, change or judge outcomes against; and/or
 - materially enable, constrain, degrade, endanger or otherwise shape execution.
 
@@ -64,7 +64,7 @@ Reject:
 - Environment = generic Context;
 - Environment as an exclusive intrinsic object class.
 
-### Strong Environment distinctions
+Strong distinctions remain:
 
 ```text
 actual Environment condition ≠ specification ≠ observation ≠ model ≠ Record
@@ -74,83 +74,57 @@ environmental participation ≠ semantic ownership
 outside boundary ≠ automatically relevant Environment
 ```
 
-### Current first-order Environment map
+## Hierarchical deepening method
 
-The bounded pass covers:
-1. reference frame / focal Work / system-of-interest;
-2. boundary / material participation;
-3. Domain/Effect vs Work-Condition role;
-4. realized state;
-5. dynamics/disturbances/path dependence;
-6. coupling/interfaces/resources/capacity;
-7. constraints/hazards in realized-condition role;
-8. observability/model-mismatch boundary;
-9. situated feasibility/actionability relation boundary;
-10. actual effects/outcome grounding;
-11. nesting/role switching/boundary lifecycle;
-12. specialized lower Environment profiles, with Technical Work Environment as the current validated deep example.
+The project now explicitly separates node research from child research.
 
-### Omission result
+Method:
+- `03_ground-deepening/HIERARCHICAL-DEEPENING-METHOD.md`
 
-Physical, social, institutional/legal, economic/resource, ecological/natural, hazard, ambient, infrastructure/tool, other-agent/system, temporal/spatial, specified-envelope and uncertainty candidates were challenged.
+Rules:
+- substantive research activates at most one hierarchical node at a time;
+- a node pass tests that node and derives only its immediate children;
+- finding a child does not authorize researching it in the same pass;
+- child promotion requires a materially distinct first-order question/failure mode/boundary or downstream reasoning value;
+- cross-cutting dimensions are not converted into children merely to create a deeper tree;
+- after closure, return to user evaluation before activating a child or sibling.
 
-No current case forced a third universal first-order Environment branch when roles are non-exclusive:
-- Domain/Effect;
-- Work Conditions;
-- both;
-- neither if not load-bearing.
+## Next planned node — Domain / Effect Reality
 
-This is bounded evidence, not proof of universal completeness.
+Plan:
+- `03_ground-deepening/grounds/environment/DOMAIN-EFFECT-RESEARCH-PLAN.md`
 
-## Environment evidence/verification
+The plan treats the current node itself as falsifiable. In particular it will test whether:
+- `Domain Reality` and `Effect Reality` really belong in one node;
+- effects/outcomes are Environment-local, primarily relational, or require a different split;
+- entities/processes/state/dynamics are children or cross-cutting dimensions;
+- physical, digital, social and institutional domain realities can share one branch without forced fit;
+- boundary/reference choices materially change the hierarchy.
 
-Recovered and tested:
-- completed Technical Work Environment corpus;
-- archived operating-world Environment corpus;
-- `02_adequacy` Environment hierarchy work;
-- systems-engineering boundary/context/enabling-system sources;
-- NASA ConOps;
-- Cognitive Work Analysis / Work Domain Analysis;
-- SEIPS / ILO / ergonomics work-system traditions;
-- O*NET Work Context;
-- ISO Operational Design Domain;
-- affordance/ecological-psychology counterframe;
-- materially different clinical, software, scientific, logistics, emergency, legal, robotics, DevOps and market holdouts.
+The planned pass will identify only immediate Domain/Effect children and return for user evaluation before any child is researched.
 
-The completion/omission check is same-model adversarial self-review, **not independent verification**. No external source independently validates the exact project hierarchy.
+## One-active-node rule
 
-## Current Environment retrieval
+No substantive research node is active while the Domain/Effect plan awaits evaluation.
 
-`03_ground-deepening/grounds/environment/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → relevant focused finding → completeness/source recovery`
+If later authorised, only Domain / Effect Reality becomes active. Work Conditions, Information, Work and Actors remain inactive.
 
-Residuals:
-- `OPEN-QUESTIONS.md`;
-- `DEFERRED-RELATIONS.md`.
+## Current retrieval
 
-## One-active-ground rule
+Parent currentness:
+`STATE.md → INDEX.md`
 
-No ground is currently under substantive research while Environment awaits user evaluation.
+Ground-deepening program:
+`03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md / PLAN.md → INDEX.md`
 
-Do not activate Information, Work or Actors automatically. Switching grounds requires explicit next-ground authorization.
+Environment parent result:
+`03_ground-deepening/grounds/environment/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → focused finding → completion/source recovery`
 
-## Phase boundary
+Next-node plan:
+`03_ground-deepening/grounds/environment/DOMAIN-EFFECT-RESEARCH-PLAN.md`
 
-```text
-01  independent discovery research                 COMPLETE
-02  top-level adequacy / hierarchy discovery        COMPLETE + USER-ACCEPTED WORKING HYPOTHESIS
-03  ground-specific scope/depth completion
-    └─ Environment                                  BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION
-    └─ Information                                  NOT ACTIVE
-    └─ Work                                         NOT ACTIVE
-    └─ Actors                                       NOT ACTIVE
-04  cross-ground relations / composition            NOT AUTHORISED
-05  SOUL / Development OS architecture derivation   NOT AUTHORISED
-```
+## Current authorization
 
-`04` and `05` remain logical later candidates, not committed architecture phases.
+**USER EVALUATION / REFINEMENT OF THE DOMAIN / EFFECT REALITY RESEARCH PLAN ONLY.**
 
-## Next authorised work
-
-**USER EVALUATION OF THE ENVIRONMENT GROUND RESULT ONLY.**
-
-Do not begin Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation until explicitly authorised.
+Do not automatically begin Domain/Effect research, Work Conditions, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
