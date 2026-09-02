@@ -17,12 +17,14 @@ If a current substantive/routing surface changes materially:
 
 Historical/audit/source files are not required to share this revision identifier; their role is classified in `DOCUMENT-STATUS.md`.
 
+This manifest binds **Records-local surfaces only**. Parent project authorization and next responsibility are intentionally not SHA-bound here; read `../../STATE.md` and `../../INDEX.md` for those.
+
 ## Status / routing surfaces
 
 | File | Blob SHA |
 |---|---|
 | `README.md` | `15bedacb37bdc2eda5971cf542a6a387d5ab67a9` |
-| `STATE.md` | `f5a2456bd496a5934eab72a9ac58cad17c372715` |
+| `STATE.md` | `941ac8707a18d6e9384707d2165cb9dd5bf317b1` |
 | `INDEX.md` | `8df2cb201a35e8cea4e3f51ef0a8777bb802e40c` |
 | `DOCUMENT-STATUS.md` | `8d090bf1d82cb3ed67a1ce4f8671f954f6ec9bd3` |
 | `synthesis/README.md` | `8588c4a5ed2b6f06b7f18eb1c88e9cf443eed9a3` |
@@ -61,5 +63,7 @@ Historical/audit/source files are not required to share this revision identifier
 ## Interpretation
 
 The SHA binding establishes **which derived view/version is current in this repository revision**. It does not make the view primary evidence or independently verified truth.
+
+The Records-local state records that the completed research has been user-evaluated and is closed for selective recovery. Current parent-level purpose, authorization and next responsibility live only in `../../STATE.md` and `../../INDEX.md`.
 
 If a listed SHA no longer matches the current path, treat this manifest as stale until repaired; do not silently infer that the newer file is part of this revision.
