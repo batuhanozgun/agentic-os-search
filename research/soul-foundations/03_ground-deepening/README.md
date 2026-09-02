@@ -44,7 +44,7 @@ Existing completed corpora are evidence inputs, not material to be restarted bli
 
 ## Current Environment deepening
 
-The first active top-level ground is Environment. Its hierarchical deepening is **still in progress**, although several parent/child nodes have boundedly closed.
+The current top-level ground being deepened is Environment. Its hierarchical deepening is **still in progress**, although several parent/child nodes have boundedly closed. No substantive node is currently active while the closed Domain State result awaits user evaluation.
 
 Current research hierarchy:
 
