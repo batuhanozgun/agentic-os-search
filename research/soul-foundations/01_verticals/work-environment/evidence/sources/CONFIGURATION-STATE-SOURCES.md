@@ -116,6 +116,24 @@
 
 **Strength caveat:** practitioner/essay format, not empirical standard.
 
-## S11 — Additional reproducibility support
+## S11 — PiGx / Guix reproducibility
 
-The integrated vertical also draws on package/environment closure examples and current specifications recorded in the main evidence router and adjacent topic ledgers. When a later claim depends on exact wording or omitted detail, reopen the primary source rather than treating this ledger as evidence authority.
+**Source:** Wurmus et al., *PiGx: reproducible genomics analysis pipelines with GNU Guix*, GigaScience, 2018 / PMC.  
+**URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC6275446/
+
+**Load-bearing use:**
+- complete software environment specifications can recurse through full dependency graph;
+- isolated builds expose only specified dependencies, reducing hidden environmental inputs.
+
+## S12 — Reproducibility barriers in geoscientific analysis (2026)
+
+**Source:** *Overcoming barriers to reproducibility in geoscientific data analysis: Challenges and practical implementation strategies*, Environmental Modelling & Software, 2026.  
+**URL:** https://www.sciencedirect.com/science/article/abs/pii/S136481522600109X
+
+**Load-bearing use:**
+- computational environment includes hardware and logical/software layers;
+- OS, dependencies, code, hardware/resources can all affect reproducibility.
+
+## Source synthesis rule
+
+No source justifies treating one file/image/container as the universal environment boundary. The finding's four-view separation (definition → resolution → realized state → ambient context) is a comparative synthesis across these sources and is subject to later falsification.
