@@ -18,8 +18,8 @@ The strongest current explanation is relational and multi-anchor rather than Act
 - permission/authority/obligation;
 - representation/delegation/impersonation;
 - typed attribution/responsibility/accountability;
-- shared/joint vs corporate/group agency;
-- operational non-human participation vs legal/moral attribution.
+- shared/joint versus corporate/group agency;
+- operational non-human participation versus legal/moral attribution.
 
 This is a research result about distinctions to preserve, **not** a SOUL data model or ontology decision.
 
@@ -29,9 +29,9 @@ This is a research result about distinctions to preserve, **not** a SOUL data mo
 
 The completion/omission pass is same-model adversarial self-review, not independent verification.
 
-## Read current surfaces
+## Progressive retrieval
 
-Start here:
+Start:
 - `KEY.md`
 - `FINDINGS-MAP.md`
 - `INDEX.md`
@@ -49,15 +49,20 @@ Residuals:
 - `OPEN-QUESTIONS.md`
 - `DEFERRED-RELATIONS.md`
 
-Current-vs-historical/version routing:
+Currentness/version routing:
 - `CURRENT-SURFACES.md`
 
 Historical/audit framing:
 - `ORIENTATION.md`
 - `FRAME-EVOLUTION.md`
 
-## Boundary
+## Boundary and authority
+
+The Actors vertical is closed unless explicit user direction or a material later falsifier reopens it.
+
+This README does not carry parent-level next-work or authorization state. For current project purpose, authorization and next responsibility, read:
+
+- `../../STATE.md`
+- `../../INDEX.md`
 
 Completion/evaluation of this vertical does not itself establish a Records–Work–Actors ontology, SOUL architecture, data model or implementation design.
-
-Control has returned to the parent `research/soul-foundations/` state. The next authorized activity is exploratory discussion across the three completed/evaluated verticals and existing SOUL/Development OS context to identify missing bridges, tensions and candidate research directions. No new substantive research layer is automatically authorized by that discussion.
