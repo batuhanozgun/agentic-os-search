@@ -2,13 +2,15 @@
 
 **Document role:** STATE  
 **Vertical revision:** `records-foundation-2026-09-01-r2`  
-**Status:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE  
-**Last updated:** 2026-09-01  
-**Default action:** return to user/evaluation; do not expand this vertical or enter another vertical automatically.
+**Status:** SUFFICIENTLY COMPLETE FOR CURRENT FOUNDATION PURPOSE; USER-EVALUATED; READING PACKAGE CLOSED  
+**Last updated:** 2026-09-02  
+**Current phase:** closed independent vertical; selective recovery only unless reopened
 
 ## Purpose
 
-Maintain the current status, boundary and reopen condition for the completed persistent-information / Records foundational research.
+Maintain the current Records-local status, boundary and reopen condition for the completed persistent-information / Records foundational research.
+
+This vertical-local state does **not** carry parent-level next-work or authorization state.
 
 ## Completion basis
 
@@ -24,6 +26,8 @@ Eight substantive passes plus a dedicated omission/adversarial review covered:
 - completeness/omission testing.
 
 Retention/disposition was the only candidate in the omission review that exposed a missing first-order Records semantic dimension; it then received its own focused pass.
+
+The completed research and reading package were subsequently evaluated by the user as sufficient for the current foundation purpose.
 
 ## Reading structure validation
 
@@ -81,14 +85,19 @@ These are explicit in the cold-read countercheck and do not currently justify an
 
 ## Reopen condition
 
-Reopen foundational Records research only if evaluation or later evidence produces a case that:
+Reopen foundational Records research only if:
 
-1. cannot be represented by the current object/identity/preservation/change/organisation/retrieval/retention semantics;
-2. exposes a materially new Records failure/capability dimension;
-3. cannot be handled as a profile-specific requirement, implementation-assurance question, or matter outside this vertical.
+1. the user explicitly directs reopening; or
+2. later evidence produces a case that cannot be represented by the current object/identity/preservation/change/organisation/retrieval/retention semantics; or
+3. a materially new Records failure/capability dimension appears that cannot be handled as a profile-specific requirement, implementation-assurance question, or matter outside this vertical.
 
-## Current next action
+The existence of additional literature or implementation mechanisms alone is not sufficient reason to reopen.
 
-**RETURN TO USER / EVALUATE THE COMPLETED RECORDS VERTICAL AND ITS READING PACKAGE.**
+## Parent authority
 
-Do not proceed automatically into a different research vertical.
+Current project purpose, authorization and next responsibility live only at the parent level. Read:
+
+- `../../STATE.md`
+- `../../INDEX.md`
+
+Nothing in this Records-local state independently authorises another research vertical, cross-foundation synthesis, SOUL/Development OS architecture, final ontology/data model or implementation.
