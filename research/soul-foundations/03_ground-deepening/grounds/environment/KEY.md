@@ -1,122 +1,90 @@
 # Environment / Operating Reality — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT GROUND-DEEPENING PURPOSE; AWAITING USER EVALUATION  
+**Status:** parent ground user-evaluated for hierarchical continuation; Domain Reality child boundedly sufficient and awaiting user evaluation  
 **Date:** 2026-09-02  
-**Scope:** Environment ground only; not cross-ground composition or architecture
+**Scope:** Environment research hierarchy only; not cross-ground composition or architecture
 
-## Shortest result
+## Shortest current result
 
-The Environment / Operating Reality top-level ground **survives deeper research**, but its lower hierarchy is refined.
+Environment / Operating Reality remains a coherent top-level research ground.
 
-Strongest current working structure:
+Current research tree:
 
 ```text
-Environment / Operating Reality                 [working parent label]
-    ├─ Domain / Effect Reality
+Environment / Operating Reality
+    ├─ Domain Reality                              [child result awaiting user evaluation]
+    │    ├─ Domain State / Configuration           [discovered; inactive]
+    │    └─ Domain Dynamics / Processes            [discovered; inactive]
+    │
     └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
 
-Branches are non-exclusive analytical roles, not object classes.
+Branches are analytical problem roles, not object classes.
 
-## Material correction
+## Parent result retained
 
-`Work-Support Environment` was too narrow as the universal second-branch description.
+Environment concerns boundary/reference-relative realized conditions and dynamics that matter to focal Work because they:
+- constitute the domain reality materially at issue; and/or
+- materially enable, constrain, degrade, endanger or otherwise shape execution.
 
-Work is shaped not only by positive support but by realized:
-- physical conditions;
-- hazards/interference;
-- resource/capacity limits;
-- service/access failures;
-- institutional/regulatory constraints in their feasibility role;
-- technical support conditions.
+`Work-Support Environment` was broadened to **Work Conditions / Enabling–Constraining Environment** because negative/degrading conditions are first-order, not merely positive support.
 
-Therefore the stronger branch concept is **Work Conditions / Enabling–Constraining Environment**.
+## Deeper correction to the first branch
 
-The completed Technical Work Environment corpus remains a deep technical specialization of this branch.
+The parent pass used `Domain / Effect Reality`. Dedicated child research now supports the stronger label:
 
-## Domain / Effect Reality
+> **Domain Reality**
 
-Asks:
+because:
+- actual results are later/current Domain State/trajectory;
+- intended outcome is not actual reality;
+- causal effect/attribution is relational/counterfactual/evidential;
+- observational/diagnostic Work can have Domain Reality while causing no intended effect.
 
-> What actual reality is the Work about, must understand/accommodate/navigate, intends to change/maintain, or must judge outcomes against?
+Immediate child candidates surviving the dedicated pass:
 
-Examples: patient physiology, product behavior, specimen/phenomenon, traffic/terrain, damaged infrastructure, market/business state.
+### Domain State / Configuration
 
-Critical distinction:
+What realized domain condition/configuration obtains at the relevant time/scope?
 
-> **Work closure/status ≠ actual Environment effect/outcome.**
+### Domain Dynamics / Processes
 
-## Work Conditions / Enabling–Constraining Environment
+What realized processes/interactions/events/disturbances make the domain persist, evolve or transition through time?
 
-Asks:
+No third universal immediate child is currently required. This child result awaits user evaluation before further descent.
 
-> What realized conditions/capabilities/resources/interfaces materially shape whether and how the Work can be performed?
-
-Includes positive and negative conditions. Technical Work Environment is the deep researched technical case.
-
-## Parent semantics
-
-Environment is not `everything outside` or `everything relevant`.
-
-Strongest bounded formulation:
-
-> **Environment / Operating Reality is the boundary- and reference-relative ground of realized conditions and dynamics that matter to focal Work because they constitute its domain/effect reality and/or materially enable, constrain, degrade or otherwise shape execution.**
-
-Environmental participation requires a load-bearing coupling; it does not transfer all semantics of the participating thing into Environment.
-
-## Mandatory non-collapse distinctions
+## Strong non-collapse distinctions
 
 ```text
-actual Environment condition ≠ specification ≠ observation ≠ model ≠ Record
+Environment ≠ everything outside / everything relevant / Context
+Domain Reality ≠ every target of Work
+actual Domain condition ≠ observation/model/specification/Record
+Domain Dynamics ≠ Work lifecycle
+actual resulting condition ≠ intended outcome ≠ causal effect attribution
 Actor capability ≠ situated actionability
-Work closure/status ≠ actual domain effect
-tool/resource/person identity ≠ Environment role
-outside boundary ≠ automatically relevant Environment
+environmental participation ≠ semantic ownership
 ```
 
-## Third-branch result
-
-Physical, social, institutional, economic/resource, ecological, hazard, ambient and other candidate environment families were tested.
-
-No third first-order Environment branch is currently forced if conditions can occupy:
-- Domain/Effect role;
-- Work-Condition role;
-- both roles.
-
-## Productive problem map
-
-Environment research must preserve when material:
-- reference/system-of-interest/focal Work;
-- boundary/material participation;
-- role;
-- realized state;
-- dynamics/disturbances/path dependence;
-- coupling/interfaces/resources/capacity;
-- constraints/hazards;
-- observability/model mismatch boundary;
-- situated actionability relation boundary;
-- actual effects/outcome grounding;
-- nesting/role switching/boundary lifecycle;
-- deeper domain specializations.
-
-## Naming
-
-`Environment / Operating Reality` remains a paired working label.
-
-`Context` is not preferred because it is too broad and representation/relevance-oriented.
+Some institutional/social realities may be socially/representationally constituted; the project requires separation from any **particular representation**, not metaphysical independence from all representation.
 
 ## Verification limit
 
-The completion audit is same-model adversarial review, not independent verification. External cross-lineage sources support key distinctions but do not independently validate this exact project hierarchy.
+Parent and child completion audits are same-model adversarial self-review, not independent verification. External traditions support discriminating claims but do not independently validate the exact project hierarchy.
 
 ## Go deeper
 
-- topic route → `FINDINGS-MAP.md`
-- integrated answer → `synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`
-- why research stopped → `synthesis/COMPLETENESS-OMISSION-CHECK.md`
-- source recovery → `evidence/SOURCE-LEDGER.md`
-- residuals → `OPEN-QUESTIONS.md`
-- cross-ground deferrals → `DEFERRED-RELATIONS.md`
+Parent route:
+- `FINDINGS-MAP.md`
+- `synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`
 
-Do not activate Information or another ground from this file. Parent authorization remains outside this package.
+Current Domain Reality route:
+- `domain-effect/STATE.md`
+- `domain-effect/KEY.md`
+- `domain-effect/FINDINGS-MAP.md`
+- `domain-effect/synthesis/DOMAIN-REALITY-SYNTHESIS.md`
+
+Exact freshness:
+- `CURRENT-SURFACES.md`
+
+No discovered child or sibling is authorised automatically.
