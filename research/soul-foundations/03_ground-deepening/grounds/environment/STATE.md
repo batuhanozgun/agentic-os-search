@@ -1,15 +1,20 @@
 # Environment / Operating Reality — STATE
 
-**Status:** ACTIVE RESEARCH  
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT GROUND-DEEPENING PURPOSE; AWAITING USER EVALUATION  
 **Authorised:** 2026-09-02  
+**Bounded research closure:** 2026-09-02  
 **Scope:** Environment / Operating Reality ground only  
-**Other grounds:** inactive; bounded reference use only
+**Other grounds:** inactive; no next ground authorised
 
-## Research question
+## Question answered
 
-What is the strongest first-principles account of the Environment / Operating Reality problem ground needed for later SOUL and Development OS reasoning, including its boundary, first-order subregions, dynamics, support/target roles, failure surfaces and reduction limits?
+What is the strongest first-principles account of the Environment / Operating Reality problem ground needed for later SOUL and Development OS reasoning, including its boundary, first-order subregions, dynamics, condition/effect roles, failure surfaces and reduction limits?
 
-## Starting hypothesis under attack
+## Bounded current judgment
+
+Environment survives as a coherent top-level research ground.
+
+The starting hierarchy was materially refined from:
 
 ```text
 Environment / Operating Reality
@@ -18,41 +23,104 @@ Environment / Operating Reality
          └─ Technical Work Environment
 ```
 
-This is a hypothesis inherited from `02_adequacy`, not an axiom.
+to the stronger current working structure:
 
-## Required tests
+```text
+Environment / Operating Reality
+    ├─ Domain / Effect Reality
+    └─ Work Conditions / Enabling–Constraining Environment
+         └─ Technical Work Environment
+```
 
-- parent coherence / non-residuality;
-- target-domain versus support split;
-- nontechnical support;
-- physical/social/institutional/digital/hybrid cases;
-- boundary/reference-point dependence;
-- nested systems and role switching;
-- actual state versus observation/representation;
-- independent dynamics/disturbances;
-- constraints/resources/interfaces and actionability;
-- effects/outcome grounding;
-- reduction into Work, Information, Actors or relations;
-- rival decomposition / naming challenge;
-- omission/completeness challenge.
+The main correction is that `support` was too narrow for physical, social/institutional, resource, hazard, interference and degradation conditions that materially shape Work without positively supporting it.
 
-## Evidence reuse
+Branches are non-exclusive analytical roles, not object classes.
 
-Recover before new search:
-- completed Technical Work Environment corpus;
-- archived operating-world Environment corpus;
-- `02_adequacy` hierarchy findings 08–10 and source/audit surfaces.
+## Core parent semantics
 
-Prior evidence is input, not authority for the final Environment result.
+Environment concerns **realized, boundary/reference-relative conditions and dynamics** that matter to focal Work because they:
+- constitute the reality/effect space the Work must understand, accommodate, navigate, maintain, change or judge outcomes against; and/or
+- materially enable, constrain, degrade, endanger or otherwise shape execution.
 
-## Cross-ground rule
+Environment is not:
+- everything outside;
+- everything relevant;
+- Context;
+- all constraints/resources;
+- a fixed object family;
+- the specification/observation/model/Record of the conditions.
 
-Information, Work and Actors may be referenced only to preserve Environment boundaries or record deferred relations. They are not active research subjects in this pass.
+## Strong non-collapse rules
 
-## Current phase
+```text
+actual Environment condition ≠ specification ≠ observation ≠ model ≠ Record
+Work closure/status ≠ actual domain effect
+Actor capability ≠ situated actionability
+environmental participation ≠ semantic ownership
+outside boundary ≠ automatically relevant Environment
+```
 
-**Evidence recovery + boundary/decomposition challenge.**
+## First-order Environment problem families
 
-## Closure
+Current bounded map covers:
+1. reference frame / focal Work / system-of-interest;
+2. boundary / material participation;
+3. Domain/Effect vs Work-Condition role;
+4. realized state;
+5. dynamics/disturbances/path dependence;
+6. coupling/interfaces/resources/capacity;
+7. constraints/hazards in realized-condition role;
+8. observability/model-mismatch boundary;
+9. situated feasibility/actionability relation boundary;
+10. actual effects/outcome grounding;
+11. nesting/role switching/boundary lifecycle;
+12. specialized lower environment profiles, with TWE as the established deep example.
 
-Close only at bounded sufficiency, with explicit residuals, source recovery, same-model audit label, and user evaluation. Do not activate the next ground automatically.
+## Third-branch / omission result
+
+Physical, social, institutional/legal, economic/resource, ecological, ambient, hazard, infrastructure, other-agent/system, temporal/spatial, specified-envelope and uncertainty cases were tested.
+
+No third first-order Environment branch was forced when roles are non-exclusive:
+- Domain/Effect;
+- Work Conditions;
+- both;
+- neither if not load-bearing.
+
+## Evidence / verification status
+
+The pass recovered:
+- completed TWE evidence;
+- archived operating-world evidence;
+- adequacy hierarchy evidence;
+- cross-lineage external sources including systems engineering, NASA/NIST/ISO, SEIPS/HFE, O*NET, CWA/WDA, operational-context, affordance and work-system traditions;
+- materially different scenario holdouts.
+
+The final completeness/omission check is **same-model adversarial self-review, not independent verification**.
+
+No external source independently validates this exact project hierarchy.
+
+## Preferred retrieval
+
+`KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → relevant findings/*.md → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md → primary/authoritative source`
+
+Residuals:
+- `OPEN-QUESTIONS.md`
+- `DEFERRED-RELATIONS.md`
+
+Exact local freshness:
+- `CURRENT-SURFACES.md` once written/updated after final closure edits.
+
+## Reopen condition
+
+Reopen Environment if:
+- a later domain exposes a realized condition that cannot fit Domain/Effect or Work Conditions without forced stretching;
+- the parent repeatedly steals Work/Actors/Information semantics;
+- deeper Information/Work/Actors research falsifies an Environment boundary;
+- independent review presents a materially stronger decomposition;
+- a new source tradition materially changes the current result.
+
+## Next authorised work
+
+**USER EVALUATION OF THE ENVIRONMENT RESULT ONLY.**
+
+Do not automatically activate Information, Work, Actors, cross-ground composition, architecture, ontology/data-model work or implementation.
