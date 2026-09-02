@@ -19,6 +19,7 @@ No discovered child or sibling is active.
 5. relevant focused finding.
 6. `synthesis/COMPLETENESS-OMISSION-CHECK.md` or `evidence/SOURCE-LEDGER.md`.
 7. primary/authoritative source when decision-critical.
+8. `CURRENT-SURFACES.md` — exact local freshness binding.
 
 ## Current bounded hierarchy
 
