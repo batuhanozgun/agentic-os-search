@@ -1,6 +1,6 @@
 # Environment / Operating Reality — FINDINGS MAP
 
-**Status:** parent bounded result plus bounded Domain Reality child result; Domain Reality awaiting user evaluation
+**Status:** parent bounded/user-evaluated; Domain Reality continued; Domain State boundedly sufficient and awaiting user evaluation
 
 ## Fast route
 
@@ -9,7 +9,8 @@
 - parent integrated synthesis → `synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`
 - parent completion audit → `synthesis/COMPLETENESS-OMISSION-CHECK.md`
 - parent source recovery → `evidence/SOURCE-LEDGER.md`
-- current Domain Reality child → `domain-effect/STATE.md` / `KEY.md` / `FINDINGS-MAP.md`
+- Domain Reality → `domain-effect/STATE.md` / `KEY.md` / `FINDINGS-MAP.md`
+- current Domain State result → `domain-effect/domain-state/STATE.md` / `KEY.md` / `FINDINGS-MAP.md`
 - exact local freshness → `CURRENT-SURFACES.md`
 
 ## Parent-ground findings
@@ -27,45 +28,51 @@
 | Did cross-domain parent holdouts force a missing branch? | `findings/09-cross-domain-holdouts-and-omission.md` |
 | What is the parent problem map? | `findings/10-environment-problem-map-and-failure-surfaces.md` |
 
-## Current child refinement — Domain Reality
+## Subsequent child refinements
 
-The parent pass originally named its first child `Domain / Effect Reality`. Dedicated child research materially refines it to:
-
-```text
-Domain Reality
-    ├─ Domain State / Configuration
-    └─ Domain Dynamics / Processes
-```
-
-For detailed reasoning read:
-`domain-effect/FINDINGS-MAP.md`
-
-Core child conclusions:
-- `Effect` is not a separate immediate reality child;
-- actual result = Domain State/trajectory;
-- causal effect/outcome judgment = cross-ground relational/evidential question;
-- State/Configuration and Dynamics/Processes pass the child-promotion test;
-- no third universal immediate child is currently required;
-- Domain Reality is not every target of Work.
-
-This child result is bounded and awaiting user evaluation. State/Dynamics are inactive.
-
-## Current Environment tree
+The Environment parent pass originally used `Domain / Effect Reality`. Dedicated deeper research refined the current hierarchy to:
 
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
-    │    ├─ Domain State / Configuration
-    │    └─ Domain Dynamics / Processes
-    └─ Work Conditions / Enabling–Constraining Environment
+    │    ├─ Domain State
+    │    │    ├─ Domain Structure / Composition   ← discovered; inactive
+    │    │    └─ Domain Condition / Status        ← discovered; inactive
+    │    └─ Domain Dynamics / Processes           ← inactive
+    └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
+
+### Domain Reality result
+
+Detailed route:
+`domain-effect/FINDINGS-MAP.md`
+
+Key corrections:
+- `Domain / Effect Reality` → `Domain Reality`;
+- Effect/Outcome is not a separate immediate reality child;
+- actual result = Domain State/trajectory;
+- causal effect/outcome judgment = relational/evidential;
+- immediate children = Domain State + Domain Dynamics.
+
+### Domain State result
+
+Detailed route:
+`domain-effect/domain-state/FINDINGS-MAP.md`
+
+Key corrections:
+- `Domain State / Configuration` → `Domain State`;
+- immediate children = `Domain Structure / Composition` + `Domain Condition / Status`;
+- Identity/Continuity, Constraints/Invariants, Granularity/State Sufficiency and actual-versus-represented State remain explicit cross-cutting dimensions/boundaries;
+- no third universal immediate State child is currently required.
 
 ## Strong non-collapse rules
 
 - Environment ≠ everything outside / everything relevant / Context.
 - Domain Reality ≠ every target of Work.
-- actual condition ≠ observation/model/specification/Record.
+- Domain State ≠ one formal/model state vector.
+- actual Structure ≠ architecture/baseline/inventory by identity.
+- actual Condition ≠ observation/measurement/report/cache by identity.
 - Domain Dynamics ≠ Work lifecycle.
 - Work closure ≠ actual resulting condition.
 - actual change ≠ causal effect attribution.
@@ -80,6 +87,9 @@ Parent:
 Domain Reality:
 `domain-effect/STATE → KEY → FINDINGS-MAP → DOMAIN-REALITY-SYNTHESIS → focused finding → audit/source ledger`
 
+Domain State:
+`domain-effect/domain-state/STATE → KEY → FINDINGS-MAP → DOMAIN-STATE-SYNTHESIS → focused finding → audit/source ledger`
+
 ## Guardrail
 
-No substantive node is currently active. Current authorised work is user evaluation of Domain Reality only.
+No substantive node is currently active. Current authorised work is user evaluation of Domain State only. Structure, Condition, Dynamics and Work Conditions are inactive.
