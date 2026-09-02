@@ -2,78 +2,62 @@
 
 ## Role
 
-Current router for the accepted `03_ground-deepening/` research program and its recursive hierarchical method.
+Current router for the accepted `03_ground-deepening/` program and recursive one-node-at-a-time research.
 
 ## Current stage status
 
-**ENVIRONMENT PARENT ACCEPTED FOR CONTINUATION; DOMAIN / EFFECT PLAN READY; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN REALITY NODE BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Read order
 
 1. `STATE.md` — current stage state/authorization.
-2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive one-node-at-a-time method.
-3. `PLAN.md` — accepted top-level ground-deepening program.
-4. current ground/node route as needed.
-5. `CURRENT-SURFACES.md` — exact stage freshness binding.
+2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive method.
+3. current ground/node route.
+4. `PLAN.md` — original accepted top-level deepening plan when needed.
+5. `CURRENT-SURFACES.md` — exact stage freshness.
 
 ## Current Environment route
 
-Parent result:
-`grounds/environment/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → focused finding → completion/source recovery`
+Environment parent:
+`grounds/environment/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`
 
-Next-node plan:
-`grounds/environment/DOMAIN-EFFECT-RESEARCH-PLAN.md`
+Current child result:
+`grounds/environment/domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-REALITY-SYNTHESIS.md → focused finding → audit/source recovery`
 
-Current hierarchy:
+Current tree:
 
 ```text
 Environment / Operating Reality
-    ├─ Domain / Effect Reality                         ← plan ready; inactive
+    ├─ Domain Reality                              ← bounded result; awaiting user evaluation
+    │    ├─ Domain State / Configuration           ← inactive
+    │    └─ Domain Dynamics / Processes            ← inactive
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
 
-## Hierarchical deepening rule
+## Domain Reality correction
 
-At most one hierarchical node may be under substantive research at any time.
+The research plan entered with `Domain / Effect Reality`. The bounded result removes `Effect` from the node name because:
+- actual result is Domain State/trajectory;
+- causal effect is relational/counterfactual/evidential;
+- observational Work can have Domain Reality without intended effect.
 
-A node pass:
-- attacks the node's coherence/level;
-- identifies only immediate child problem regions;
-- separates child branches from cross-cutting dimensions;
-- closes and returns to user evaluation before a child or sibling becomes active.
+Immediate children:
+- `Domain State / Configuration`;
+- `Domain Dynamics / Processes`.
 
-Finding a deeper child is not authorization to research it immediately.
+## One-active-node rule
+
+No node is active while the result awaits user evaluation. Discovered children are not automatically authorised.
 
 ## Other top-level grounds
 
-### Information
-Inactive. Existing Records evidence remains available for later recovery only.
-
-### Work
-Inactive. Planned first action remains a coverage/gap audit when its top-level turn arrives.
-
-### Actors
-Inactive. Planned first action remains a coverage/gap audit when its top-level turn arrives.
+Information, Work and Actors remain inactive. Work Conditions sibling remains inactive.
 
 ## Cross-ground rule
 
-Relations observed during node research should be recorded and recoverable, but systematic typed relation/control/composition research remains outside this stage unless separately authorised.
-
-Cross-ground relevance never authorizes parallel substantive research.
+Relations may be recorded but systematic relation/control/composition research is not authorised.
 
 ## Guardrail
 
-Current authorised work is user evaluation/refinement of the Domain/Effect research plan only.
-
-Do not infer authorization for:
-- substantive Domain/Effect research;
-- Work Conditions research;
-- Information, Work or Actors research;
-- parallel node research;
-- systematic relation/control composition;
-- SOUL/Development OS architecture;
-- final ontology/data-model design;
-- implementation.
-
-Parent authorization remains in `../STATE.md`.
+Current authorised work is user evaluation of Domain Reality only. Do not infer authorization for State, Dynamics, Work Conditions, Information, Work, Actors, architecture, ontology/data model or implementation.
