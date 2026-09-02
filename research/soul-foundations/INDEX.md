@@ -22,20 +22,17 @@ There is no current parent handoff. Historical handoffs remain under `history/ha
 | Current overall research state / authorisation | `STATE.md` | relevant current package router |
 | Meaning of completed independent discovery packages | `STATE.md` | relevant `01_verticals/*` package |
 | Accepted top-level research hierarchy | `02_adequacy/KEY.md` | `02_adequacy/FINDINGS-MAP.md` / synthesis |
-| Full adequacy/hierarchy synthesis | `02_adequacy/synthesis/ADEQUACY-SYNTHESIS.md` | relevant focused finding |
-| Why World + TWE were grouped under one parent | `02_adequacy/findings/08-environment-parent-hierarchy.md` | findings 09–10 / refinement audit |
-| Records independent discovery result | `01_verticals/records-artifacts/KEY.md` | Records `FINDINGS-MAP.md` / synthesis |
-| Work independent discovery result | `01_verticals/work/KEY.md` | Work `FINDINGS-MAP.md` / synthesis |
-| Actors independent discovery result | `01_verticals/actors/KEY.md` | Actors `FINDINGS-MAP.md` / synthesis |
-| Technical Work Environment independent discovery result | `01_verticals/work-environment/KEY.md` | TWE `FINDINGS-MAP.md` / synthesis |
-| Old broad operating-world research | `history/superseded/operating-world-environment/ARCHIVE-NOTICE.md` | archived corpus KEY/synthesis |
-| Ground-deepening program status | `03_ground-deepening/STATE.md` | `03_ground-deepening/PLAN.md` / `INDEX.md` |
-| Current Environment deepening result | `03_ground-deepening/grounds/environment/KEY.md` | `FINDINGS-MAP.md` / synthesis |
-| Full Environment synthesis | `03_ground-deepening/grounds/environment/synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md` | focused finding / audit |
-| Why Environment research stopped | `03_ground-deepening/grounds/environment/synthesis/COMPLETENESS-OMISSION-CHECK.md` | source ledger |
+| Records independent discovery result | `01_verticals/records-artifacts/KEY.md` | Records synthesis/findings |
+| Work independent discovery result | `01_verticals/work/KEY.md` | Work synthesis/findings |
+| Actors independent discovery result | `01_verticals/actors/KEY.md` | Actors synthesis/findings |
+| Technical Work Environment independent result | `01_verticals/work-environment/KEY.md` | TWE synthesis/findings |
+| Historical operating-world evidence | `history/superseded/operating-world-environment/ARCHIVE-NOTICE.md` | archived corpus KEY/synthesis |
+| Ground-deepening program status | `03_ground-deepening/STATE.md` | `PLAN.md` / `INDEX.md` |
+| Recursive branch-deepening method | `03_ground-deepening/HIERARCHICAL-DEEPENING-METHOD.md` | current node plan |
+| Current Environment parent result | `03_ground-deepening/grounds/environment/KEY.md` | `FINDINGS-MAP.md` / synthesis |
+| Domain / Effect next-node plan | `03_ground-deepening/grounds/environment/DOMAIN-EFFECT-RESEARCH-PLAN.md` | Environment STATE / hierarchical method |
 | Environment source recovery | `03_ground-deepening/grounds/environment/evidence/SOURCE-LEDGER.md` | primary source |
-| Environment residuals / deferred relations | `03_ground-deepening/grounds/environment/OPEN-QUESTIONS.md` | `DEFERRED-RELATIONS.md` |
-| What is currently authorised? | `STATE.md` | user evaluation of Environment only |
+| What is currently authorised? | `STATE.md` | Domain/Effect plan evaluation/refinement only |
 
 ## Research-layer meaning
 
@@ -51,7 +48,7 @@ These packages preserve the questions originally researched. They are evidence i
 
 ### `02_adequacy/` — top-level hierarchy test
 
-Produced the user-accepted working research frame:
+Produced the user-accepted working frame:
 
 ```text
 Environment / Operating Reality
@@ -63,17 +60,16 @@ Actors
 + typed relations / control / transitions
 ```
 
-The adequacy-stage Environment lower hierarchy was a starting hypothesis, not final ground detail.
+### `03_ground-deepening/` — hierarchical one-node-at-a-time research
 
-### `03_ground-deepening/` — one-ground-at-a-time deepening
+Top-level grounds and their descendants are researched recursively.
 
-Purpose: bring the accepted four top-level grounds to sufficient internal scope/depth **one ground at a time**.
-
-Current status:
-- Environment: boundedly sufficient, awaiting user evaluation;
-- Information: inactive;
-- Work: inactive;
-- Actors: inactive.
+Current method:
+- one active node at a time;
+- a node pass discovers only immediate children;
+- child research requires a later explicit activation;
+- cross-cutting dimensions are not forced into child branches;
+- research hierarchy remains distinct from architecture/ontology.
 
 ## Current Environment result
 
@@ -84,47 +80,34 @@ Environment / Operating Reality
          └─ Technical Work Environment
 ```
 
-Interpretation:
-- one broad Environment parent survives deeper research;
-- Domain/Effect and execution-condition roles remain distinct and non-exclusive;
-- `Work-Support Environment` was broadened because constraining/degrading/hazard conditions are first-order, not merely positive support;
-- TWE remains a deep technical specialization;
-- no third universal Environment branch emerged from the current adversarial set;
-- branches are research roles/lenses, not object classes or architecture modules.
+The Environment parent result has been judged reasonable enough by the user to continue hierarchical deepening. This is continuation approval, not universal validation.
 
-## One-active-ground rule
+## Next planned node
 
-At most one of Environment, Information, Work or Actors may be under substantive research at any time.
+`Domain / Effect Reality`
 
-No ground is active while Environment awaits user evaluation.
+Its research plan is ready but substantive research has not started.
 
-Other grounds may be consulted only for bounded boundary tests, counterexamples or relation capture. Cross-ground observations do not authorize a parallel pass.
+The plan must first test whether `Domain / Effect Reality` is one coherent node or should split/reframe, then derive only its immediate first-order child map.
 
-## Progressive retrieval rule
-
-Independent discovery:
-`01_verticals/<package>/INDEX or KEY → FINDINGS-MAP → synthesis → focused finding → audit/source recovery`
-
-Accepted hierarchy:
-`02_adequacy/STATE → KEY/FINDINGS-MAP → ADEQUACY-SYNTHESIS → relevant finding → audit/source recovery`
-
-Environment ground:
-`03_ground-deepening/grounds/environment/STATE → KEY → FINDINGS-MAP → ENVIRONMENT-GROUND-SYNTHESIS → focused finding → completion/source recovery`
+`Work Conditions` remains inactive during that future pass.
 
 ## Active versus historical rule
 
 `history/` is not current project authority.
 
-The superseded broad Environment corpus remains valid prior operating-world evidence, but the current Environment ground result lives under `03_ground-deepening/grounds/environment/`.
+Historical Environment material may be recovered as evidence but cannot override current Environment STATE/synthesis.
 
 ## Next-work guardrail
 
-Current authorised work is **user evaluation of the bounded Environment result only**.
+Current authorised work is **user evaluation/refinement of the Domain / Effect Reality research plan only**.
 
 Do not infer current authorisation for:
+- substantive Domain/Effect research;
+- Work Conditions research;
 - Information ground research;
 - Work or Actors audits;
-- parallel ground research;
+- parallel node research;
 - systematic relation/control composition;
 - SOUL/Development OS architecture;
 - final ontology/data-model design;
