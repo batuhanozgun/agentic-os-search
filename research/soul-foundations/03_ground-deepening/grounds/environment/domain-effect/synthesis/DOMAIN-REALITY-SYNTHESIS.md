@@ -1,8 +1,10 @@
 # Domain Reality — Integrated Synthesis
 
-**Status:** bounded current synthesis; pending final continuity closure / user evaluation  
+**Status:** bounded Domain Reality node synthesis; preserved as the result of this node pass; subsequently refined below Domain State  
 **Date:** 2026-09-02  
 **Scope:** Environment child previously labeled `Domain / Effect Reality`; immediate-child discovery only
+
+> **Subsequent refinement notice:** This document preserves the Domain Reality pass as researched at that time. Later dedicated Domain State research refined `Domain State / Configuration` to `Domain State` and discovered `Domain Structure / Composition` plus `Domain Condition / Status`. For current hierarchy/status read `../STATE.md`, `../KEY.md`, and `../domain-state/STATE.md`. Do not rewrite the historical reasoning below as if the later child result had already been known during this pass.
 
 ## Executive result
 
@@ -14,7 +16,7 @@ Starting hypothesis:
 Domain / Effect Reality
 ```
 
-Strongest current bounded result:
+Strongest current bounded result of this pass:
 
 ```text
 Domain Reality
@@ -331,7 +333,7 @@ Rejected/weakened:
 - `Controlled Process / Target System` as universal frame;
 - relation-only/no Domain Reality research problem.
 
-Strongest current result:
+Strongest result of this pass:
 
 ```text
 Domain Reality
@@ -361,9 +363,9 @@ Late holdouts mostly refined boundaries and cross-cutting relations rather than 
 
 ---
 
-# 13. Updated Environment hierarchy
+# 13. Environment hierarchy at closure of this pass
 
-The current Environment research tree becomes:
+At the closure of the Domain Reality pass, the Environment research tree was:
 
 ```text
 Environment (Operating Reality)
@@ -384,19 +386,21 @@ It does not say:
 - every entity belongs to exactly one node;
 - formal ontology must use these labels.
 
+For the current hierarchy after later State deepening, follow the subsequent-refinement notice at the top.
+
 ---
 
-# 14. Epistemic status
+# 14. Epistemic status at closure of this pass
 
-Strong enough for the current node-level purpose:
+Strong enough for this node-level purpose:
 - rename `Domain / Effect Reality` → `Domain Reality`;
 - promote two immediate child problem branches;
 - reject Effect as separate reality child;
-- reject a current need for third universal Structure/Constraint/type branch;
+- reject a then-current need for third universal Structure/Constraint/type branch;
 - preserve actual-result versus causal-effect distinction;
 - preserve cross-ground target boundary.
 
-Still open:
+Questions deliberately carried forward from this pass included:
 - exact child names;
 - State/Structure boundary at deeper depth;
 - state sufficiency/granularity;
@@ -407,10 +411,12 @@ Still open:
 - deeper social/institutional composition;
 - universal completeness.
 
+Some of these were subsequently narrowed/resolved by the Domain State pass; current residuals live in `../OPEN-QUESTIONS.md` and `../domain-state/OPEN-QUESTIONS.md`.
+
 ## Verification limit
 
 This synthesis combines project evidence, external cross-lineage sources and same-model adversarial reasoning. It is **not independently verified**. External sources support distinctions; none independently validates the exact project child hierarchy.
 
-## Bounded answer
+## Bounded answer of this pass
 
-> **The Environment child previously called `Domain / Effect Reality` is better framed as `Domain Reality`. Its strongest current immediate research decomposition is `Domain State / Configuration` and `Domain Dynamics / Processes`. `Effect / Outcome` is not a third reality child: actual results are domain state/trajectory, while intended outcome and causal attribution are cross-ground relational/evidential questions.**
+> **The Environment child previously called `Domain / Effect Reality` is better framed as `Domain Reality`. Its strongest immediate research decomposition in this pass is `Domain State / Configuration` and `Domain Dynamics / Processes`. `Effect / Outcome` is not a third reality child: actual results are domain state/trajectory, while intended outcome and causal attribution are cross-ground relational/evidential questions.**
