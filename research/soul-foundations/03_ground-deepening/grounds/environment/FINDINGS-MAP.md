@@ -2,6 +2,8 @@
 
 **Status:** parent bounded/user-evaluated; Domain Reality continued; Domain State boundedly sufficient and awaiting user evaluation
 
+> **Pass-artifact provenance:** Focused findings, plans, source ledgers and completion audits may preserve the labels/status that were current during the pass that produced them. Current hierarchy, authorization and epistemic status come from this package's `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`. Pass-time terms such as `active`, `candidate` or older node labels are not current authorization.
+
 ## Fast route
 
 - current shortest Environment view → `KEY.md`
