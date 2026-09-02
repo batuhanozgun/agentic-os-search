@@ -1,7 +1,7 @@
 # Work — INDEX
 
 **Document role:** ROUTER  
-**Vertical revision:** `work-foundation-2026-09-01-r1`
+**Vertical revision:** `work-foundation-2026-09-02-r2`
 
 ## Role
 
@@ -9,9 +9,10 @@ Progressive retrieval router for the independent Work foundations vertical. It i
 
 ## Status/currentness first
 
-- `STATE.md` — current status, scope, bounded-completion gate and next authorised work.
+- `STATE.md` — current vertical status, scope, bounded-completion judgment and reopen condition.
 - `CURRENT-REVISION.md` — exact blob binding for preferred current reading surfaces.
 - `DOCUMENT-STATUS.md` — role/currentness classification when a file is found directly.
+- `README.md` — stable human-oriented overview.
 
 These are not substantive evidence layers.
 
@@ -90,14 +91,14 @@ Higher layers are intentionally lossy. Descend when:
 
 Do not descend merely to maximize file/source count when the bounded question is already safely answered.
 
-## Cross-vertical retrieval rule
+## Cross-foundation retrieval rule
 
-For later Records–Work–Actors work:
+For a later explicitly authorised cross-foundation question:
 
 1. begin with `DEFERRED-RELATIONS.md` if the question is explicitly relational;
 2. recover only the Work-local distinction needed from L0–L3;
 3. descend to L4B/L5 only when the Work claim itself is decision-critical;
-4. independently recover the other vertical's current evidence rather than treating the Work-side relation note as cross-vertical truth.
+4. independently recover the other vertical's current evidence rather than treating the Work-side relation note as cross-foundation truth.
 
 ## Direct-search rule
 
@@ -105,10 +106,14 @@ Search rank does not establish currentness. If retrieval lands on an unfamiliar 
 
 ## Currentness rule
 
-`STATE.md` and the L2 synthesis carry the current overall conclusion. L3 findings carry current topic detail. `orientation/RESEARCH-ORIENTATION.md` is historical framing; L4A is adversarial self-review; L4B is evidence trace.
+`STATE.md` and the L2 synthesis carry the current overall Work conclusion. L3 findings carry current topic detail. `orientation/RESEARCH-ORIENTATION.md` is historical framing; L4A is adversarial self-review; L4B is evidence trace.
 
 Exact current-surface binding is maintained in `CURRENT-REVISION.md`.
 
-## Vertical boundary
+## Vertical boundary / parent authority
 
-Nothing in this index authorises substantive Work reopening, Actors research, cross-vertical synthesis, SOUL architecture or implementation design. Repository state and explicit user direction control the next research phase.
+The Work vertical is closed unless explicitly reopened. Nothing in this index independently authorises another research/design phase.
+
+For current project purpose, authorization and next responsibility, read:
+- `../../STATE.md`
+- `../../INDEX.md`
