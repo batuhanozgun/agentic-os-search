@@ -1,8 +1,26 @@
 # Four-Foundation Adequacy — COMPLETENESS / OMISSION CHECK
 
-**Status:** same-model adversarial completion review  
+**Status:** PRIOR BROAD-ADEQUACY COMPLETION AUDIT; superseded only on the Environment parent/peer conclusion by `ENVIRONMENT-HIERARCHY-REFINEMENT-CHECK.md`  
 **Verification class:** NOT independent verification  
 **Date:** 2026-09-02
+
+## Current interpretation notice
+
+This audit documents the first bounded adequacy closure that preferred five peer grounds. It remains valid evidence for:
+- rejection of the original four-as-exhaustive hypothesis;
+- the Operating World and broader Information/Representation gaps;
+- relation/control as composition fabric;
+- the broad omission probes listed below.
+
+It is **not the current authority on whether Operating World and Technical Work Environment should be peers**. The user later raised a materially different hierarchy hypothesis — explicit target/domain and support branches under one broader Environment-like parent — which received a dedicated reopened research pass.
+
+For the current parent/peer judgment read:
+- `ENVIRONMENT-HIERARCHY-REFINEMENT-CHECK.md`;
+- `../findings/08-environment-parent-hierarchy.md`;
+- `../findings/09-environment-parent-boundary-leak-check.md`;
+- `../findings/10-agent-control-counterframe.md`.
+
+The remainder below preserves the first-closure audit reasoning and should be read relative to that checkpoint.
 
 ## Question
 
@@ -14,7 +32,7 @@ The audit does not ask whether all literature has been read. It asks whether mat
 
 # 1. Target being challenged
 
-The current strongest hypothesis before this audit is:
+The strongest hypothesis at the time of this first closure was:
 
 ```text
 Operating World / Work Domain / Domain Reality
@@ -83,26 +101,30 @@ Result:
 
 Material information gain: **HIGH**.
 
-## Challenge E — rival decompositions
+## Challenge E — rival decompositions at first closure
 
 Tested:
 - original four unchanged;
 - four + Operating World;
 - broaden Records to Information/Representation;
-- broaden Environment to combine support + world;
+- an early broad Environment merge;
 - demote Technical Work Environment;
 - promote Relation/Control to peer region;
 - relation-only/no stable regions.
 
-Result:
+Result at that checkpoint:
 - original four unchanged failed completeness;
-- broad Environment recreated residual/scope collision;
+- the early broad Environment formulation recreated residual/scope collision;
 - TWE demotion lost real first-order support-context semantics;
 - Relation/Control peer status was less coherent than relation-fabric status;
 - relation-only representation did not replace the need for problem-region research;
-- level-aligned five-ground hypothesis survived best.
+- the five-ground hypothesis survived best **among the formulations tested at that time**.
 
-Material information gain: **HIGH**.
+Later correction:
+- the reopened hierarchy pass tested a materially narrower and better-specified parent: target/domain and support remain explicit branches, the parent is a problem/role lens rather than an object bucket, and Actor/Work/Information semantics remain outside it.
+- that later formulation survived where the earlier broad Environment formulation did not.
+
+Material information gain at first closure: **HIGH**.
 
 ## Challenge F — targeted candidate omissions
 
@@ -131,9 +153,9 @@ Material information gain: **LOW/MEDIUM** — strengthened boundary explanations
 
 ---
 
-# 3. Specific falsifiers checked
+# 3. Specific falsifiers checked at first closure
 
-The current hypothesis would be materially weakened by any of these:
+The first-closure hypothesis would be materially weakened by any of these:
 
 ### F1 — Operating World is reducible to Records
 
@@ -146,9 +168,13 @@ Rejected by:
 
 Rejected because underlying conditions/process state can exist/change independently of the Work episode and can make the same Work feasible/infeasible or successful/unsuccessful.
 
-### F3 — Operating World can be folded into Technical Work Environment
+### F3 — Operating World can be folded into Technical Work Environment without explicit substructure
 
 Rejected because technical support is **means/context enabling Work**, while domain/world is **subject/state acted upon or reasoned about**. Same concrete entity can occupy either role in different analyses, but the roles ask different questions.
+
+Later refinement note:
+- this rejection remains valid against **collapse**;
+- it no longer implies that the two roles must be peer top-level grounds. `ENVIRONMENT-HIERARCHY-REFINEMENT-CHECK.md` preserves the distinction as explicit lower branches under a wider parent.
 
 ### F4 — all information can be treated as Records
 
@@ -170,9 +196,9 @@ Not established. Relation/control terms derive meaning from the grounds they con
 
 Rejected by environment-local state, boundary, capability, readiness, isolation, lifecycle and equivalence problems.
 
-### F9 — the corrected five are mutually exclusive categories
+### F9 — the research grounds are mutually exclusive categories
 
-Rejected as a requirement. The same concrete thing may play multiple analytical roles across questions. The current claim concerns **problem grounds**, not disjoint entity classes.
+Rejected as a requirement. The same concrete thing may play multiple analytical roles across questions. The claim concerns **problem grounds**, not disjoint entity classes.
 
 ---
 
@@ -186,13 +212,15 @@ However:
 - product/system-under-development remains distinct from development artefacts/support environment;
 - selective/transient context and reasoning state exceed persistent Records.
 
-Verdict: corrected five gives cleaner top-level coverage even here.
+First-closure verdict: five-ground correction gave cleaner top-level coverage.
+
+Current hierarchy refinement: preserve those missing distinctions, but read the two environment-like regions through the current four-broad-ground hierarchy.
 
 ## General-purpose SOUL
 
 Operating-world and representation distinctions become unavoidable across physical, clinical, market, scientific, operational and partially observable domains.
 
-Verdict: original four are insufficient as exhaustive top-level grounds.
+Verdict retained: original four research labels at their original levels are insufficient as an exhaustive top-level map.
 
 ---
 
@@ -200,62 +228,45 @@ Verdict: original four are insufficient as exhaustive top-level grounds.
 
 - SOUL / OS Architect / KEEL share lineage and cannot independently validate completeness.
 - External holdouts are intentionally drawn from materially different traditions, but several are still sociotechnical/human-factors adjacent.
-- No external source publishes or validates this exact five-ground synthesis.
+- No external source publishes or validates the project's exact synthesis.
 - The inquiry is cross-source synthesis by the same model conducting the research.
 - Scenario stress tests are analytical counterexamples, not empirical deployment trials.
-- The labels `Operating World`, `Information / Representation State`, `Actors`, `Work`, `Technical Work Environment` remain provisional.
+- Labels remain provisional.
 
 ---
 
-# 6. Residual questions
+# 6. Residual questions at first closure
 
-These remain material but do not currently require more broad adequacy search:
+The first closure left material questions including:
 
 1. final label/boundary for `Operating World / Work Domain / Domain Reality`;
 2. final label/boundary for `Information / Representation State`;
-3. exact parent/child relation between the existing Records corpus and the broader information ground;
-4. whether specific SOUL use domains require domain-specific additions below Operating World;
+3. exact parent/child relation between Records and broader information;
+4. Work Domain ↔ Technical Work Environment role boundary;
 5. exact vocabulary/taxonomy of typed relation/control families;
-6. how the five grounds should be represented architecturally — explicitly out of current scope;
-7. whether later foundation-specific research falsifies the current five-ground hypothesis.
+6. architecture representation — explicitly out of scope;
+7. whether later foundation-specific research falsifies the current map.
 
-These are **next research/design questions**, not reasons to keep searching broadly for another category without a new falsifier.
+Question 4 was subsequently reopened and materially changed the preferred top-level hierarchy.
 
 ---
 
-# 7. Completion judgment
+# 7. First-closure judgment
 
 ## Project-level adequacy inquiry
 
-**BOUNDEDLY SUFFICIENT TO REJECT THE ORIGINAL FOUR-AS-EXHAUSTIVE HYPOTHESIS AND TO IDENTIFY A STRONGER LEVEL-ALIGNED CANDIDATE.**
+**BOUNDEDLY SUFFICIENT TO REJECT THE ORIGINAL FOUR-AS-EXHAUSTIVE HYPOTHESIS AND TO IDENTIFY A STRONGER LEVEL-ALIGNED CANDIDATE AT THAT CHECKPOINT.**
 
 ## Generality claim
 
-The inquiry provides substantial cross-lineage support but **does not prove universal completeness** of the corrected five-ground hypothesis.
-
-## Why stop broad search now
-
-The information trajectory changed:
-
-- early passes exposed material missing regions/level mismatches;
-- rival and external passes reinforced them;
-- the final targeted omission pass produced no new peer region, only better mappings and boundary explanations.
-
-Further broad search without a new falsifier has diminishing expected value.
+The inquiry provided substantial cross-lineage support but did **not prove universal completeness**.
 
 ## Reopen condition
 
-Reopen adequacy-level broad search if:
-- a new domain exposes a first-order problem that cannot map without forced fit;
-- Operating World or Information/Representation turns into a residual bucket under deeper research;
-- one of the original four becomes reducible at the corrected level;
-- relation/control fabric requires semantics not grounded in the current relata;
-- independent review identifies an omitted materially different tradition/scenario likely to change the result.
+The audit explicitly allowed reopening on material counterexample, reduction or boundary failure. The user's parent/peer challenge satisfied that condition and was therefore researched rather than rejected as terminology-only.
 
 ---
 
-# Final audit statement
+# Final audit interpretation
 
-The current evidence is sufficient for a bounded research judgment, **not for architecture commitment and not for a claim of universal exhaustive ontology**.
-
-The next high-information move is deeper independent research of the newly exposed higher-level grounds/boundaries, not continuing to force the original four or immediately designing SOUL underneath them.
+This file remains the record of the first broad adequacy stopping judgment. For the **current** Environment hierarchy result, `ENVIRONMENT-HIERARCHY-REFINEMENT-CHECK.md` supersedes its earlier five-peer preference.
