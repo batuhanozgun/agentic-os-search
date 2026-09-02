@@ -19,9 +19,11 @@ There is no current parent handoff. Historical handoffs are archived under `hist
 
 | Need | Read first | Then if needed |
 |---|---|---|
-| Current overall research state / authorisation | `STATE.md` | relevant active vertical router |
-| Current four-foundation adequacy inquiry | `STATE.md` — `Adequacy inquiry` section | recover all four active verticals progressively |
-| Package purpose / reading rules | `README.md` | `STATE.md` |
+| Current overall research state / authorisation | `STATE.md` | relevant current package router |
+| Current top-level adequacy result | `02_adequacy/KEY.md` | `02_adequacy/FINDINGS-MAP.md` / synthesis |
+| Full adequacy synthesis | `02_adequacy/synthesis/ADEQUACY-SYNTHESIS.md` | focused finding / source ledger |
+| Why adequacy broad search stopped | `02_adequacy/synthesis/COMPLETENESS-OMISSION-CHECK.md` | source ledger |
+| Adequacy source/view recovery | `02_adequacy/evidence/SOURCE-LEDGER.md` | exact primary/authoritative source |
 | Records shortest orientation | `01_verticals/records-artifacts/KEY.md` | Records `FINDINGS-MAP.md` / `INDEX.md` |
 | Records full result | `01_verticals/records-artifacts/synthesis/RECORDS-VERTICAL-SYNTHESIS.md` | relevant finding/source route |
 | Work shortest orientation | `01_verticals/work/KEY.md` | Work `FINDINGS-MAP.md` / `INDEX.md` |
@@ -33,62 +35,63 @@ There is no current parent handoff. Historical handoffs are archived under `hist
 | Why/what was the old broad Environment pass? | `history/superseded/operating-world-environment/ARCHIVE-NOTICE.md` | archived `corpus/KEY.md` / `corpus/INDEX.md` |
 | Historical transition/handoff recovery | `history/INDEX.md` | relevant `history/handoffs/*.md` |
 | SOUL / Development OS prior context | `../soul-context/INDEX.md` | routed context evidence |
-| What comes next? | `STATE.md` | current authorised adequacy inquiry boundaries |
+| What comes next? | `STATE.md` | user evaluation; proposed new foundation passes are not authorised |
 
-## Current foundation library
+## Current independent foundation library
 
-The active `01_verticals/` research library contains exactly:
+The active `01_verticals/` library contains exactly:
 
 - `records-artifacts/`
 - `work/`
 - `actors/`
 - `work-environment/`
 
-All four intended independent corpora are sufficiently complete and user-evaluated for the current foundation purpose.
+All four are sufficiently complete and user-evaluated for their original independent foundation questions.
 
-This does **not** establish that they are four final ontology classes, four architecture modules or an exhaustive system decomposition.
+Do not reorganize them merely because the adequacy inquiry produced a broader candidate map.
 
-## Current cross-foundation inquiry
+## Current adequacy inquiry status
 
-The authorised current inquiry asks whether those four independent corpora provide a sufficient and productive top-level analytical/problem-ground decomposition for later SOUL and Development OS reasoning.
+`02_adequacy/` is **boundedly sufficient and awaiting user evaluation**.
 
-The inquiry must test rather than assume:
-- coverage / missing first-order regions;
-- separability versus overlap/reduction;
-- treatment of cross-cutting concerns and relations;
-- productive lower-level decomposition;
-- whether SOUL and Development OS fit the same top-level frame;
-- credible alternative decompositions.
+Its current conclusion is not `the four failed`. It is:
 
-Start from `STATE.md` for the exact wording, scope and stop boundary.
+- the four original regions are genuine, separable and productive;
+- their current scopes are not collectively exhaustive at the top analytical level;
+- a distinct `Operating World / Work Domain / Domain Reality` ground is strongly supported;
+- `Information / Representation State` is the stronger candidate top information ground, with Records retained as its persistence branch;
+- typed relation/control/transition structure is mandatory for composition but is not established as another peer ground.
+
+This is a research decomposition, not architecture or ontology.
 
 ## Progressive retrieval rule
 
-For a vertical question, prefer:
+For a vertical question:
 
 `vertical INDEX/KEY → FINDINGS-MAP → synthesis → relevant topic finding → completeness/audit or source ledger → primary/authoritative source`
 
-Do not read the entire corpus by default. Do not extend compressed summaries by assumption when a decision turns on detail omitted at that layer.
+For the adequacy question:
 
-For the current adequacy inquiry, recover each vertical independently before making cross-foundation claims. A similarity or apparent gap seen only in compressed summaries must be checked against the relevant deeper vertical surfaces before becoming load-bearing.
+`02_adequacy/STATE → KEY/FINDINGS-MAP → synthesis → focused finding → audit/source recovery`
+
+Do not infer a load-bearing cross-foundation conclusion from compressed surfaces if a relevant deeper finding is available.
 
 ## Active versus historical rule
 
-`history/` is not part of the current foundation set.
+`history/` is not part of the current independent foundation set.
 
-The superseded broad Environment corpus is preserved there because it researched a coherent boundary-relative operating-world question, but it answered a different question from Technical Work Environment.
+The superseded broad Environment corpus is preserved because it researched a coherent operating-world question. It is useful prior research/falsifier material for a possible future Work-Domain pass, but is not automatically that pass's final result.
 
-Historical handoffs preserve point-in-time state. Their old `current`, `next`, `authorised` or `awaiting evaluation` language must be interpreted relative to their checkpoint date, not as present project authority.
+Historical handoffs preserve point-in-time state and do not carry present authority.
 
-## Cross-foundation guardrail
+## Next-work guardrail
 
-The adequacy inquiry is authorised, but it is **not** equivalent to architecture or ontology commitment.
+Current authorised work is **user evaluation of the adequacy result**.
 
-Do not infer authorisation for:
-- declaring the four labels final ontology classes or architecture modules;
-- detailed SOUL architecture;
-- detailed Development OS architecture;
-- final ontology/data-model design;
-- implementation.
+Logical next research if the user accepts the result:
+- independent `Operating World / Work Domain` foundation research;
+- independent `Information / Representation State` foundation research;
+- rerun top-level adequacy;
+- then relation/control composition research before architecture.
 
-Read `STATE.md` for the current question, test boundaries and return condition.
+Do not infer current authorisation for those passes, SOUL/Development OS architecture, final ontology/data-model design or implementation.
