@@ -1,12 +1,12 @@
 # Ground Deepening — CURRENT SURFACES
 
-**Status:** canonical freshness binding for the current planning package  
+**Status:** canonical freshness binding for the user-accepted ground-deepening program  
 **Date:** 2026-09-02  
 **Branch:** `main`
 
 ## Purpose
 
-Bind the current planning surfaces so a later fresh session does not mistake an intermediate plan or an unapproved substantive ground package for current authority.
+Bind the current program surfaces so a later fresh session does not mistake an intermediate plan, pre-acceptance state, or an unapproved substantive ground package for current authority.
 
 Parent project authorization remains in `../STATE.md` and `../INDEX.md`.
 
@@ -15,9 +15,9 @@ Parent project authorization remains in `../STATE.md` and `../INDEX.md`.
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Stable purpose | `README.md` | `ac086373147a2e0b80846dd276f4e8393ab2d692` |
-| Planning state | `STATE.md` | `7cbcd782e6cfbd31b5bc1f843b8ac7c0cb3e5799` |
-| Research plan | `PLAN.md` | `efde93494ad600af3f4c930691965bfeea444615` |
-| Router | `INDEX.md` | `558a744a5f22885a9b9f77f2a6fc5edddadc127d` |
+| Program state / one-active-ground rule | `STATE.md` | `1abd8016a2aab793cf038946307219c87fb69cc7` |
+| User-accepted research plan | `PLAN.md` | `dfe00d2ca4d43758c476f640332751c3af013725` |
+| Router | `INDEX.md` | `83d1648a42ae5ff542e45d3106a1a28a0753a8a8` |
 
 ## Current rule
 
@@ -25,9 +25,9 @@ Preferred route:
 
 `STATE → PLAN → INDEX → README as needed`
 
-Current status is **PLAN READY / AWAITING USER EVALUATION**.
+Current status is **PLAN USER-ACCEPTED; NO SUBSTANTIVE GROUND PASS ACTIVE**.
 
-No substantive ground package under `grounds/` exists or is authorised yet.
+At most one ground may be active at a time. No package under `grounds/` exists or is authorised yet.
 
 ## Update rule
 
@@ -35,4 +35,4 @@ If any bound surface changes materially:
 1. re-fetch the path;
 2. update its SHA here;
 3. recheck parent `STATE.md` and `INDEX.md`;
-4. do not let a plan update silently authorize substantive research.
+4. do not let a plan/program update silently authorize substantive research or a second simultaneous ground.
