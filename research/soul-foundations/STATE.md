@@ -1,9 +1,9 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; independent discovery corpora are closed; refined top-level adequacy result is user-evaluated and accepted as the current working research hypothesis  
-**Repository cleanup/currentness verification:** COMPLETE on 2026-09-02; current acceptance/next-phase routing refreshed on 2026-09-02  
-**Current authorised substantive activity:** PLAN the next ground-deepening research stage only  
-**Current return condition:** produce and evaluate a ground-specific research-depth/decomposition plan before substantive new foundation research begins
+**Status:** active research library; independent discovery corpora are closed; refined top-level adequacy result is user-evaluated and accepted as the current working research hypothesis; ground-deepening research program is planned  
+**Repository cleanup/currentness verification:** COMPLETE on 2026-09-02; acceptance/next-stage routing refreshed on 2026-09-02  
+**Current authorised substantive activity:** USER EVALUATION / REFINEMENT of the `03_ground-deepening` plan only  
+**Current return condition:** user accepts/refines the ground-deepening plan and chooses whether/where to authorize the first substantive ground pass
 
 ## Dependency state
 
@@ -14,7 +14,7 @@
   - Actors: closed.
   - Technical Work Environment: closed.
 - **Top-level adequacy / hierarchy inquiry (`02_adequacy/`):** BOUNDEDLY SUFFICIENT; USER-EVALUATED / ACCEPTED AS WORKING RESEARCH HYPOTHESIS.
-- **Ground-deepening research (`03_*`):** planning authorised; substantive research not yet started.
+- **Ground-deepening stage (`03_ground-deepening/`):** PLAN READY / AWAITING USER EVALUATION; substantive research not started.
 - **Cross-ground relation/control composition:** NOT AUTHORISED.
 - **SOUL/Development OS architecture, final ontology/data model, implementation:** NOT AUTHORISED.
 
@@ -84,44 +84,66 @@ It established the current working hierarchy by:
 
 Its current result is accepted as a **working research hypothesis**, not as architecture truth.
 
-## Current research-program decision
+## Meaning of `03_ground-deepening/`
 
-The next stage is to determine how the four accepted top-level grounds should be researched to sufficient internal scope/depth **one ground at a time**.
+`03_ground-deepening/` is the planned stage for bringing each accepted top-level ground to sufficient internal research scope/depth.
 
-Do not impose a shared layer count or identical research procedure.
+Current planning surfaces:
+- `03_ground-deepening/STATE.md`
+- `03_ground-deepening/PLAN.md`
+- `03_ground-deepening/INDEX.md`
+- `03_ground-deepening/CURRENT-SURFACES.md`
 
-For each ground, first determine:
-1. what the current evidence already covers;
-2. whether the current top-level boundary/parent semantics are actually researched or merely inferred by adequacy work;
-3. which first-order subregions remain insufficient;
-4. which existing corpora can be reused directly;
-5. where new first-principles research is required;
-6. what falsifiers/omission tests define bounded sufficiency for that ground.
+The plan standardizes **quality gates**, not semantic layer counts.
 
-Cross-ground relations encountered during ground deepening should be recorded explicitly, but **systematic relation/control composition is a later phase** unless a relation is unavoidable to define the ground boundary itself.
+For each ground:
+1. recover existing evidence;
+2. test level/boundary adequacy;
+3. derive a ground-specific decomposition;
+4. deepen only materially under-supported branches;
+5. record but do not prematurely solve cross-ground relations;
+6. run adversarial omission/reduction tests;
+7. close only after user evaluation.
 
 ## Current expected asymmetry
 
 ### Environment
-Needs parent-level/Operating-World deepening. Existing Technical Work Environment and archived operating-world research are major prior evidence, but neither automatically completes the new parent ground.
+Likely high-intensity new research. Parent-level/Operating-World semantics require independent deepening. Existing Technical Work Environment and archived operating-world research are major prior evidence, but neither automatically completes the parent ground.
 
 ### Information
-Needs substantial top-level first-principles research above persistent Records. Existing Records research is a deep persistence branch and must be reused rather than restarted blindly.
+Likely high-intensity new research. Broader Information / Representation semantics above persistent Records require a substantial first-principles pass. Existing Records research is preserved as the deep persistence branch.
 
 ### Work
-Existing Work corpus already addresses the top-level ground directly and deeply. First action should be a coverage/gap test under the accepted hierarchy, not automatic re-research.
+Existing Work corpus already addresses the top-level ground directly and deeply. Begin with a coverage/gap audit under the accepted hierarchy; reopen substantive research only if material Work-local gaps appear.
 
 ### Actors
-Existing Actors corpus already addresses the top-level ground directly and deeply. First action should likewise be a coverage/gap test, with targeted reopening only if material gaps appear.
+Existing Actors corpus already addresses the top-level ground directly and deeply. Begin with a coverage/gap audit; reopen substantive research only if material Actors-local gaps appear.
+
+## Recommended plan order
+
+Current recommendation by expected information gain:
+
+1. Environment;
+2. Information;
+3. Work coverage/gap audit;
+4. Actors coverage/gap audit.
+
+This is a recommendation, not an irreversible dependency or current authorization to start Environment.
+
+## Cross-ground relation rule
+
+Ground deepening is no longer blind to other grounds.
+
+Relations needed to define local boundaries or failure cases may be used and recorded. However, systematic typed relation/control/composition research remains a later phase.
+
+A cross-ground question alone is not sufficient reason to reopen a ground-local corpus.
 
 ## Phase boundary
-
-Current logical sequence:
 
 ```text
 01  independent discovery research                 COMPLETE
 02  top-level adequacy / hierarchy discovery        COMPLETE + USER-ACCEPTED WORKING HYPOTHESIS
-03  ground-specific scope/depth completion          PLANNING AUTHORISED
+03  ground-specific scope/depth completion          PLAN READY; AWAITING USER EVALUATION
 04  cross-ground relations / composition            LOGICAL LATER CANDIDATE; NOT AUTHORISED
 05  SOUL / Development OS architecture derivation   LOGICAL LATER CANDIDATE; NOT AUTHORISED
 ```
@@ -151,10 +173,12 @@ Accepted adequacy result:
 
 `02_adequacy/STATE → KEY/FINDINGS-MAP → synthesis/ADEQUACY-SYNTHESIS → focused finding → current audit/source recovery`
 
+Ground-deepening plan:
+
+`03_ground-deepening/STATE → PLAN → INDEX → CURRENT-SURFACES`
+
 ## Next authorised work
 
-**GROUND-DEEPENING RESEARCH PROGRAM PLANNING ONLY.**
+**USER EVALUATION / REFINEMENT OF THE `03_ground-deepening` PLAN ONLY.**
 
-The plan may define a `03_*` research layer, ground-specific entry criteria, adaptive depth strategy, evidence reuse, order options and stop boundaries.
-
-Do not automatically begin substantive Environment, Information, Work or Actors research until the plan has been presented to and evaluated with the user.
+Do not automatically begin substantive Environment, Information, Work or Actors research, relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation until the plan is accepted and the next ground is explicitly authorised.
