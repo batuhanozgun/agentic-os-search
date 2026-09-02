@@ -1,8 +1,10 @@
 # Domain Reality — Source Ledger
 
-**Status:** active source/view recovery ledger  
+**Status:** preserved source/view recovery ledger for the closed Domain Reality pass; not active work  
 **Date:** 2026-09-02  
-**Scope:** Environment → Domain / Effect Reality node only
+**Scope:** Environment → Domain Reality node, started under the label `Domain / Effect Reality`
+
+> **Pass provenance:** This ledger preserves the evidence recovery used during the Domain Reality pass. Later Domain State refinement does not retroactively rewrite this pass evidence. Current hierarchy/status is in `../STATE.md`, `../KEY.md`, and `../domain-state/STATE.md`.
 
 ## Purpose
 
@@ -14,14 +16,14 @@ No source independently validates the project's eventual child map. External mat
 
 ## A. Project evidence
 
-### A1 — Current Environment parent corpus
+### A1 — Current Environment parent corpus at the time of this pass
 
 Paths:
-- `../STATE.md`
-- `../KEY.md`
-- `../FINDINGS-MAP.md`
-- `../synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`
-- findings 02–10 as relevant
+- `../../STATE.md`
+- `../../KEY.md`
+- `../../FINDINGS-MAP.md`
+- `../../synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`
+- parent findings 02–10 as relevant
 
 Carries:
 - Environment parent boundary;
@@ -39,8 +41,8 @@ Limitation:
 
 Paths:
 - `../../../../../history/superseded/operating-world-environment/corpus/KEY.md`
-- `FINDINGS-MAP.md`
-- boundary/state/actionability/reduction findings
+- `../../../../../history/superseded/operating-world-environment/corpus/FINDINGS-MAP.md`
+- routed boundary/state/actionability/reduction findings from that archived corpus
 
 Carries:
 - boundary-relative world/domain state;
@@ -262,13 +264,13 @@ Carries:
 
 ---
 
-## C. Current evidence trajectory
+## C. Pass evidence trajectory
 
 Early discriminators:
-- `Domain / Effect` does not appear to be two self-contained reality regions;
-- causal effect is relational/counterfactual while actual result is a domain condition/trajectory;
-- structure/state/process/dynamics distinctions recur, but external traditions treat them as different kinds of views/categories rather than converging on one child hierarchy;
-- social/institutional cases require a more careful reality/representation boundary;
-- observational Work proves that Domain Reality does not require intended intervention/effect.
+- `Domain / Effect` did not appear to be two self-contained reality regions;
+- causal effect appeared relational/counterfactual while actual result was a domain condition/trajectory;
+- structure/state/process/dynamics distinctions recurred, but external traditions treated them as different kinds of views/categories rather than converging on one child hierarchy;
+- social/institutional cases required a more careful reality/representation boundary;
+- observational Work showed that Domain Reality does not require intended intervention/effect.
 
-These are active findings under adversarial test, not yet closed node conclusions.
+These were pass-time discriminators under adversarial test. Closure established the bounded `Domain Reality → Domain State + Domain Dynamics / Processes` result; later Domain State refinement is routed from the current package surfaces.
