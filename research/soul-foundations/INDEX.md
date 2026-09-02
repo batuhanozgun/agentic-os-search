@@ -33,8 +33,9 @@ There is no current parent handoff. Historical handoffs remain under `history/ha
 | Old broad operating-world research | `history/superseded/operating-world-environment/ARCHIVE-NOTICE.md` | archived corpus KEY/synthesis |
 | Historical handoff recovery | `history/INDEX.md` | relevant historical handoff |
 | SOUL / Development OS prior context | `../soul-context/INDEX.md` | routed context evidence |
-| Current next-stage plan | `03_ground-deepening/STATE.md` | `03_ground-deepening/PLAN.md` / `INDEX.md` |
-| What is currently authorised? | `STATE.md` | only plan-stage surfaces |
+| Ground-deepening plan | `03_ground-deepening/STATE.md` | `03_ground-deepening/PLAN.md` / `INDEX.md` |
+| Ground-deepening plan freshness | `03_ground-deepening/CURRENT-SURFACES.md` | re-fetch exact path if decision-critical |
+| What is currently authorised? | `STATE.md` | user evaluation/refinement of the 03 plan only |
 
 ## Research-layer meaning
 
@@ -71,7 +72,9 @@ The result is a research frame, not architecture or ontology.
 
 ### `03_ground-deepening/` — planned next research stage
 
-Purpose: determine and then complete the **ground-specific internal scope/depth** required for Environment, Information, Work and Actors.
+Purpose: bring the accepted four top-level grounds to sufficient internal scope/depth **one ground at a time**.
+
+The plan is ready and awaiting user evaluation.
 
 The four grounds are not required to have:
 - equal layer counts;
@@ -79,7 +82,13 @@ The four grounds are not required to have:
 - identical research workflows;
 - equal amounts of new research.
 
-Current authorization is planning only. Read its local `STATE.md` before doing substantive research.
+Current recommended starting intensity/order:
+1. Environment — high-intensity new parent/domain research;
+2. Information — high-intensity broader representation research;
+3. Work — coverage/gap audit first;
+4. Actors — coverage/gap audit first.
+
+This recommendation is not current authorization to start Environment.
 
 ## Progressive retrieval rule
 
@@ -93,7 +102,7 @@ For the accepted hierarchy:
 
 For the next-stage plan:
 
-`03_ground-deepening/STATE → PLAN → INDEX`
+`03_ground-deepening/STATE → PLAN → INDEX → CURRENT-SURFACES`
 
 ## Active versus historical rule
 
@@ -105,7 +114,7 @@ Historical handoffs preserve point-in-time state only.
 
 ## Next-work guardrail
 
-Current authorised work is **ground-deepening research-program planning only**.
+Current authorised work is **user evaluation/refinement of the `03_ground-deepening` plan only**.
 
 Do not infer current authorisation for:
 - substantive new Environment research;
