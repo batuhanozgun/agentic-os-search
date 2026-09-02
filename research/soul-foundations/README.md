@@ -2,91 +2,67 @@
 
 ## Purpose
 
-This research package studies the foundational problem domains that may underlie SOUL before attempting a full SOUL architecture synthesis.
+This package preserves independent first-principles research into foundational problem regions that may later inform SOUL and Development OS work.
 
-It is intentionally layered. Earlier research may change the structure, scope, or even the necessity of later research. The repository records the path actually supported by research; it does not pre-create future layers as if their necessity were already known.
+The repository is a **research library and continuity surface**, not a pre-declared SOUL ontology. Research labels, distinctions, synthesis results and counterexamples are evidence/research outputs; they do not automatically become architecture decisions.
 
-## Current research hypothesis
+## Current independent research corpora
 
-The starting hypothesis was that three problem domains deserved independent vertical research:
+The active research library contains four intended independent foundation corpora:
 
-1. **Records / Artifacts** — what persists, how information is represented, stored, organised, governed, changed, traced, and retrieved.
-2. **Work** — what must be done, changed, investigated, verified, or completed, and how such work is represented and controlled.
-3. **Actors** — what performs work or exercises authority, and how identity, capability, responsibility, delegation, and accountability are represented.
+1. `01_verticals/records-artifacts/` — persistent information / Records.
+2. `01_verticals/work/` — Work.
+3. `01_verticals/actors/` — Actors.
+4. `01_verticals/work-environment/` — Technical Work Environment / Teknik Çalışma Ortamı.
 
-All three have now been independently researched to bounded sufficiency for the current foundation purpose.
+These names are research/retrieval labels. A later synthesis may rename, split, combine or dissolve them without contradicting the independent findings they preserve.
 
-The post-vertical discussion produced two additional working hypotheses:
+## Historical material
 
-- these three may be recurrent foundational system dimensions rather than mutually exclusive object classes or fixed SOUL modules;
-- **Environment** may be a fourth foundational region concerning the conditions, resources, tools/capabilities, external systems and observable/changeable state within which Actors perform Work and Records obtain/use context.
+Superseded research paths and point-in-time handoffs live under:
 
-Environment is a **candidate research region**, not an accepted fourth SOUL primitive or architecture component.
+- `history/`
 
-The same discussion also identified a possible cross-cutting **relation / control / coordination fabric** that may later be needed to explain how foundational dimensions form a coherent controlled working system. This is a working hypothesis for later study, not current architecture truth.
+Historical material is retained for audit, research-path reconstruction and later falsifier recovery. It is not current project authority merely because a search result finds it directly.
 
-## Current status
+In particular, the earlier broad `Environment` pass is archived as boundary-relative **operating-world** research because it answered a different question from the intended Technical Work Environment vertical.
 
-Records, Work and Actors are sufficiently complete and user-evaluated for the current foundation purpose.
+## Retrieval model
 
-The three-vertical discussion has completed to a next-research checkpoint. The user has authorised an **independent Environment foundation research pass** designed to test rather than assume the fourth-leg hypothesis.
+Each completed vertical should be recovered progressively rather than by rereading its entire corpus by default:
 
-Current handoff:
-- `ENVIRONMENT-RESEARCH-HANDOFF.md`
+`KEY → FINDINGS-MAP → synthesis → relevant topic finding → completeness/audit or source ledger → primary/authoritative source`
 
-Earlier discussion-entry handoff:
-- `DISCUSSION-HANDOFF.md`
+Higher-level surfaces are intentionally compressed. When a decision depends on omitted nuance, source scope or a contested claim, descend rather than filling the gap by assumption.
 
-Current state/router:
-- `STATE.md`
-- `INDEX.md`
+## Authority/currentness rule
 
-Broad cross-vertical composition/relations research, SOUL architecture and implementation remain later steps requiring separate evaluation/authorization.
+For current project state, authorization and next responsibility, read:
 
-## Layering rule
+1. `STATE.md` — sole parent-level dynamic authority;
+2. `INDEX.md` — current retrieval router.
 
-- Layer 0 provides bounded context and problem reconstruction from prior repository research.
-- Layer 1 independently researched Records, Work and Actors.
-- Environment is now an authorised candidate foundation pass whose job is to test whether another first-order region exists; its result may confirm, split, rename or dissolve the current Environment framing.
-- Later synthesis/composition layers remain undetermined until evidence and explicit user direction justify them.
-
-A later synthesis may confirm, refine, add to, replace, or dissolve the current decomposition.
+Vertical-local `STATE`, `README`, manifests and historical handoffs do not override parent authority about what the project should do next.
 
 ## Vertical isolation rule
 
-Each completed Layer-1 vertical was researched independently. When research encountered a materially important relation to another vertical, it recorded that relation as a deferred question rather than allowing the vertical to drift into premature synthesis.
+Independent foundation research deliberately avoided treating other verticals' conclusions as axioms. Material relations encountered during a vertical were recorded in `DEFERRED-RELATIONS.md` rather than solved prematurely.
 
-Isolation was methodological, not ontological: completion of independent research does not establish that the domains are truly independent in reality.
-
-The Environment pass should preserve the same discipline. It may use the completed verticals to identify boundary questions, but it must not treat their cross-vertical hypotheses as axioms proving Environment's necessity.
+Isolation is methodological, not ontological. It does not establish that the four problem regions are truly independent or that they must become separate modules/classes.
 
 ## Epistemic rule
 
-Research findings, taxonomies, models, cross-vertical inferences and working hypotheses produced here are evidence/research outputs. They do not automatically become SOUL architecture decisions.
-
 Keep separate:
 
-- established vertical findings;
-- cross-vertical inferences;
-- working hypotheses;
-- open questions;
-- candidate decisions;
-- accepted architecture decisions.
+- established independent research finding;
+- cross-foundation inference;
+- working hypothesis;
+- open question;
+- candidate research/design decision;
+- accepted architecture decision.
 
-## Research-work continuity rule
-
-This research itself is conducted across fresh ChatGPT sessions in a ChatGPT Project with GitHub as the canonical persistent surface.
-
-Conversation memory is not sufficient project state. A fresh session must be able to recover from repository state:
-
-- the current research purpose;
-- what is established versus hypothesised;
-- current authorisation and next responsibility;
-- relevant retrieval routes;
-- unresolved questions and handoff context.
-
-The current operating arrangement is described in `ENVIRONMENT-RESEARCH-HANDOFF.md` and current authority/state in `STATE.md`.
+Same-model completeness/omission checks are adversarial self-review, not independent verification.
 
 ## Relationship to `research/soul-context/`
 
-`research/soul-context/` remains the bounded context-reconstruction package for SOUL, Development OS and predecessor work. It is not duplicated here. Use its `INDEX.md` to recover SOUL / Development OS intent and the research–architecture boundary when those topics become relevant.
+`research/soul-context/` remains the bounded context-reconstruction package for SOUL, Development OS and predecessor work. It is not duplicated here. Use its `INDEX.md` when that context becomes relevant.
