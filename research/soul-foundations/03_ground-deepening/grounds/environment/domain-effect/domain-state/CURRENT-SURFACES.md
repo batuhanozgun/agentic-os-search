@@ -9,7 +9,7 @@
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Node state | `STATE.md` | `4e36927d905361a8808d95d9d45ef54bc29c6cfd` |
-| Router | `INDEX.md` | `ac990a16a7e1d345a7b525ca662480edeeae941e` |
+| Router | `INDEX.md` | `86d9a6ac7a7c44282566c7b480871e96a3c1a38d` |
 | L0 key | `KEY.md` | `e51f022dceba988eb7d96246dc89b8f0f0c7a95c` |
 | L1 findings map | `FINDINGS-MAP.md` | `e78bc58a65b0041e9af4d53ee0a4c9c12e9905e2` |
 | Residual questions | `OPEN-QUESTIONS.md` | `554a54fb344348b1bfb32502cd165f754c14235f` |
