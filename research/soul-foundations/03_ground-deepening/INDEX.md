@@ -4,68 +4,75 @@
 
 Current router for the accepted `03_ground-deepening/` research program.
 
-The program is accepted, but **no substantive ground pass is active yet**.
+## Current stage status
+
+**ENVIRONMENT PASS BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION.**
+
+No substantive ground is currently active. Information, Work and Actors remain inactive.
 
 ## Read order
 
-1. `STATE.md` — current authorization and one-active-ground rule.
-2. `PLAN.md` — adaptive research program and ground-specific strategy.
-3. `README.md` — stable package purpose.
-4. `CURRENT-SURFACES.md` — exact planning/currentness binding.
-
-## Current stage status
-
-**PLAN USER-ACCEPTED; AWAITING EXPLICIT AUTHORIZATION OF ONE FIRST GROUND.**
-
-No Environment, Information, Work or Actors substantive deepening package has been opened yet.
+1. `STATE.md` — current stage state/authorization and one-active-ground rule.
+2. for Environment result → `grounds/environment/STATE.md` then its `KEY.md` / `FINDINGS-MAP.md`.
+3. `PLAN.md` — accepted adaptive research program.
+4. `CURRENT-SURFACES.md` — exact stage freshness binding.
 
 ## One-active-ground rule
 
 At most one ground may be under substantive research at any time.
 
-When one ground is active:
-- the other three remain inactive;
-- they may be consulted only for bounded boundary checks/counterexamples/relation capture;
-- cross-ground findings are deferred rather than expanded into a parallel pass;
-- changing the active ground requires an explicit transition decision.
+The Environment pass is closed for bounded research and has returned to user evaluation. Another ground requires explicit authorization after that evaluation.
 
-## Ground routing once authorised
+## Current ground routes
 
-### Environment
-Start by recovering:
-- `../01_verticals/work-environment/`;
-- `../history/superseded/operating-world-environment/`;
-- `../02_adequacy/` hierarchy findings 08–10 and current synthesis/audit.
+### Environment — completed current pass
 
-Create only the Environment active package after explicit user authorization.
+Status:
+- boundedly sufficient for current ground-deepening purpose;
+- awaiting user evaluation.
 
-### Information
-Start by recovering:
+Route:
+`grounds/environment/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → relevant finding → completeness/source recovery`
+
+Current bounded hierarchy:
+
+```text
+Environment / Operating Reality
+    ├─ Domain / Effect Reality
+    └─ Work Conditions / Enabling–Constraining Environment
+         └─ Technical Work Environment
+```
+
+The material correction from the starting plan is the broadening of positive `support` semantics to enabling–constraining Work Conditions.
+
+### Information — inactive
+
+Planned prior evidence:
 - `../01_verticals/records-artifacts/`;
 - `../02_adequacy/findings/05-information-representation-boundary.md`;
 - relevant SOUL/Development OS context surfaces.
 
-Create only the Information active package after explicit user authorization.
+Do not start without explicit authorization.
 
-### Work
-Start from the existing `../01_verticals/work/` package and run the planned coverage/gap audit before deciding whether substantive reopening is required.
+### Work — inactive
 
-### Actors
-Start from the existing `../01_verticals/actors/` package and run the planned coverage/gap audit before deciding whether substantive reopening is required.
+Planned first action remains a coverage/gap audit against the accepted hierarchy.
+
+### Actors — inactive
+
+Planned first action remains a coverage/gap audit against the accepted hierarchy.
 
 ## Cross-ground rule
 
-Relations observed during ground research should be recorded and recoverable, but the full typed relation/control/composition model is not part of this stage unless explicitly authorised later.
-
-Cross-ground relevance never authorizes parallel research of another ground.
+Relations observed during ground research are recorded and recoverable, but systematic typed relation/control/composition research remains outside this stage unless separately authorised.
 
 ## Guardrail
 
-Do not infer from this plan:
-- that Environment must be researched before Information regardless of user decision;
-- that all four grounds require the same number of layers;
-- that all four need fresh broad literature research;
-- that the four research grounds map to four architecture modules;
-- that `04` composition or `05` architecture phases are already authorised.
+Do not infer from Environment closure:
+- automatic acceptance by the user;
+- automatic activation of Information;
+- that every ground requires the same number of layers;
+- that Environment research grounds map to architecture modules;
+- that `04` composition or `05` architecture are authorised.
 
 Parent authorization remains in `../STATE.md`.
