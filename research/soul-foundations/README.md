@@ -23,34 +23,47 @@ These folders preserve the original independent research questions. They are **n
 
 Tests what the independent discovery evidence implies when considered together for SOUL and Development OS.
 
-Its current user-accepted **working research hypothesis** is:
+It established and the user accepted the working top-level research frame:
 
 ```text
 Environment / Operating Reality
-    ├─ Operating World / Work Domain
-    └─ Work-Support Environment
-         └─ Technical Work Environment
-
 Information / Representation State
     └─ Records / Persistent Information
-
 Work
 Actors / Agency–Participation–Authority
 
 + typed relations / control / transitions
 ```
 
-This is a research-routing hierarchy, not architecture or ontology.
+Its Environment lower hierarchy was intentionally a working hypothesis for deeper research rather than permanent authority.
 
-### `03_ground-deepening/` — ground-specific depth planning / later research
+This is a research-routing frame, not architecture or ontology.
 
-This layer plans how to bring each accepted top-level ground to sufficient internal research depth.
+### `03_ground-deepening/` — ground-specific depth research
 
-Key rule: **do not impose one shared layer count or identical research workflow on all four grounds.**
+This layer brings each accepted top-level ground to sufficient internal research depth **one ground at a time**.
 
-Environment and Information have known parent-level research gaps. Work and Actors already have broad/deep independent corpora and therefore begin with coverage/gap tests rather than automatic re-research.
+Key rules:
+- do not impose one shared layer count or identical research workflow on all grounds;
+- at most one ground is researched substantively at a time;
+- other grounds may be consulted only for bounded boundary/counterexample/relation purposes;
+- each ground receives its own closure and user evaluation.
 
-Read `03_ground-deepening/STATE.md` and `PLAN.md` for current status and method.
+The first substantive package is:
+- `03_ground-deepening/grounds/environment/`
+
+Its bounded current research result refines the Environment lower structure to:
+
+```text
+Environment / Operating Reality
+    ├─ Domain / Effect Reality
+    └─ Work Conditions / Enabling–Constraining Environment
+         └─ Technical Work Environment
+```
+
+The older `Work-Support Environment` phrase was broadened because realized conditions can constrain, degrade, block or endanger Work as well as positively support it.
+
+Read package-local `STATE.md` / `INDEX.md` surfaces for epistemic/current status. Parent `STATE.md` remains the sole authority for what happens next.
 
 ## Level alignment of existing deep corpora
 
@@ -59,7 +72,7 @@ Information / Representation
     └─ Records / Persistent Information          ← existing deep corpus
 
 Environment / Operating Reality
-    └─ Work-Support Environment
+    └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment           ← existing deep corpus
 
 Work                                             ← existing broad/deep corpus
@@ -74,7 +87,7 @@ Superseded research paths and point-in-time handoffs live under `history/`.
 
 Historical material is retained for audit, research-path reconstruction and later falsifier recovery. It is not current project authority merely because a search result finds it directly.
 
-In particular, the earlier broad `Environment` pass is archived as boundary-relative operating-world research because it answered a different question from the intended Technical Work Environment vertical. It remains useful prior evidence for later Environment/Operating World research.
+In particular, the earlier broad `Environment` pass is archived as boundary-relative operating-world research because it answered a different question from the intended Technical Work Environment vertical. It remains useful prior evidence for current/later Environment research but does not override the current `03` Environment package.
 
 ## Retrieval model
 
@@ -82,7 +95,7 @@ For completed independent corpora:
 
 `KEY → FINDINGS-MAP → synthesis → relevant topic finding → completeness/audit or source ledger → primary/authoritative source`
 
-Cross-foundation packages define their own progressive routes in their local `INDEX.md` files.
+Cross-foundation and ground-deepening packages define their own progressive routes in local `INDEX.md` files.
 
 Higher-level surfaces are intentionally compressed. When a decision depends on omitted nuance, source scope or a contested claim, descend rather than filling the gap by assumption.
 
@@ -99,7 +112,7 @@ Vertical-local `STATE`, `README`, manifests, cross-foundation research outputs a
 
 The independent discovery stage deliberately avoided solving cross-ground relations prematurely.
 
-Ground deepening may now acknowledge and record relations needed to define local boundaries, but systematic typed relation/control/composition research remains a later phase unless explicitly authorised.
+Ground deepening may acknowledge and record relations needed to define local boundaries, but systematic typed relation/control/composition research remains a later phase unless explicitly authorised.
 
 ## Epistemic rule
 
