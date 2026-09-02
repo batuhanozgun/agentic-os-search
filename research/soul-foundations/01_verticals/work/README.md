@@ -2,70 +2,60 @@
 
 ## Purpose
 
-Research the Work problem domain independently before using it inside a broader SOUL architecture model.
+Research the provisional `Work` problem domain independently before using it inside a broader SOUL synthesis.
 
-`Work` is a provisional research label, not an accepted SOUL primitive and not a pre-agreed final category. The research may refine, split, replace, or reject the starting frame if evidence warrants it.
+`Work` is a research/retrieval label, not an accepted SOUL primitive or final ontology category. The completed research found that the narrow frame `Work = task/work item + scalar lifecycle` loses material distinctions.
 
-A weak starting hypothesis was that the area includes phenomena around things that must be done, changed, investigated, decided, verified, recovered, coordinated, or completed, together with the conditions under which such activity is represented, constrained, controlled, evaluated, and brought to closure. This was a research prompt, not a definition; the current synthesis is the authoritative derived result.
+## Current result
 
-## Vertical isolation
+The bounded result requires preserving, when relevant:
 
-Relations to records/artifacts, actors, authority, tools, or other domains may be recorded when material but should not redirect this vertical into those domains.
+- purpose/outcome versus action/task versus method/refinement;
+- plural Work units and analytical levels rather than one universal task atom;
+- candidate/eligible/selected-or-committed/in-progress distinctions;
+- planned/prescribed versus actual situated execution;
+- procedural, constraint-based and event/situation-driven control regimes;
+- dependency, coordination, concurrency and system-level flow;
+- multidimensional readiness/execution/closure semantics;
+- effort/work quantity versus processing duration, waiting and elapsed time;
+- execution completion versus verification, validation and acceptance;
+- termination, partial effects, compensation, repair, retry and failure-generated Work;
+- bounded versus continuing/recurring/supporting Work.
 
-Isolation is methodological rather than ontological. The research must not assume that Work is truly separable in reality.
-
-Records substantive findings were not used as Work axioms.
-
-## Research discipline
-
-The vertical:
-
-- separated established context, working hypotheses, open questions, and decision-critical assumptions;
-- tested the initial frame against materially different units of analysis and disciplinary traditions;
-- allowed evidence to change the research direction;
-- distinguished exploratory/historical framing from current conclusions;
-- traced load-bearing claims back to primary/authoritative sources where feasible;
-- used adversarial / omission checks without presenting same-model self-review as independent verification;
-- applied a bounded stopping condition based on diminishing information value for new first-order distinctions.
+These are research distinctions, not a schema or implementation prescription.
 
 ## Status
 
-**Sufficiently complete for the current foundation purpose; awaiting user evaluation.**
+**Sufficiently complete for the current foundation purpose; user-evaluated on 2026-09-01; retrieval closure complete.**
 
-Current positive result:
-- `synthesis/WORK-VERTICAL-SYNTHESIS.md`
+The completion/omission pass is same-model adversarial self-review, not independent verification.
 
-Bounded-completion / omission judgment:
-- `synthesis/COMPLETENESS-OMISSION-CHECK.md`
+## Progressive retrieval
 
-Substantive Work expansion is paused unless later evidence or explicit direction reopens it.
+1. `KEY.md` — shortest current orientation.
+2. `FINDINGS-MAP.md` — topic router.
+3. `synthesis/WORK-VERTICAL-SYNTHESIS.md` — integrated current result.
+4. relevant `findings/*.md` — topic detail.
+5. `synthesis/COMPLETENESS-OMISSION-CHECK.md` — why bounded stopping was reasonable.
+6. `evidence/SOURCE-LEDGER.md` — claim/source-view recovery.
+7. primary/authoritative source — when an exact or contested claim requires it.
 
-## Progressive retrieval package
+Additional surfaces:
 
-The completed Work research is packaged for later selective reuse rather than full-corpus rereading.
+- `INDEX.md` — retrieval contract;
+- `DOCUMENT-STATUS.md` — file-role/currentness classification;
+- `CURRENT-REVISION.md` — exact current-surface blob binding;
+- `OPEN-QUESTIONS.md` — bounded Work-local residuals;
+- `DEFERRED-RELATIONS.md` — cross-foundation questions deliberately not solved here;
+- `orientation/RESEARCH-ORIENTATION.md` — historical starting frame.
 
-Preferred depth sequence:
+## Boundary and authority
 
-1. **L0 — `KEY.md`**: shortest current orientation;
-2. **L1 — `FINDINGS-MAP.md`**: choose the relevant Work problem area;
-3. **L2 — `synthesis/WORK-VERTICAL-SYNTHESIS.md`**: integrated current result;
-4. **L3 — relevant `findings/*.md`**: current topic-detail surface;
-5. **L4A — `synthesis/COMPLETENESS-OMISSION-CHECK.md`**: adversarial/completeness self-review;
-6. **L4B — `evidence/SOURCE-LEDGER.md`**: claim/source recovery;
-7. **L5 — primary/authoritative source** named by the ledger when exact or load-bearing evidence must be checked.
+The Work vertical is closed unless explicit user direction or a material later falsifier reopens it.
 
-Additional retrieval/currentness surfaces:
+This README does not carry parent-level next-work or authorization state. For current project purpose, authorization and next responsibility, read:
 
-- `INDEX.md` — exact routing/depth contract;
-- `DOCUMENT-STATUS.md` — current/historical/audit/evidence role classification;
-- `CURRENT-REVISION.md` — exact blob binding for preferred current surfaces;
-- `OPEN-QUESTIONS.md` — bounded Work-local residual uncertainty;
-- `DEFERRED-RELATIONS.md` — focused entry points for later Records/Actors/cross-vertical work.
+- `../../STATE.md`
+- `../../INDEX.md`
 
-Higher layers are intentionally lossy. Descend only when the later question requires omitted nuance or stronger evidence.
-
-## Boundary
-
-Current authorisation covers Work evaluation and retrieval/state maintenance only. It does not authorise substantive Work reopening, Actors, cross-vertical synthesis, SOUL architecture, or implementation design.
-
-At this checkpoint, do not automatically expand Work further or move to another vertical. Evaluate the completed Work result with the user first. Reopen substantive Work research only on explicit direction or a material later falsifier.
+Completion of this vertical does not itself establish a SOUL ontology, architecture, data model or implementation design.
