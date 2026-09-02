@@ -8,16 +8,16 @@
 
 | Topic | Source ledger |
 |---|---|
-| Initial terminology / rival frames | `../sources/ORIENTATION-SOURCES.md` |
-| Boundary / identity / environment-vs-tool-platform-workspace | `../sources/BOUNDARY-IDENTITY-SOURCES.md` |
-| Configuration / realized state / reproducibility / drift | `../sources/CONFIGURATION-STATE-SOURCES.md` |
-| Capabilities / constraints / interfaces / resources | `../sources/CAPABILITY-CONSTRAINT-SOURCES.md` |
-| Composition / sharedness / isolation / lifecycle | `../sources/COMPOSITION-LIFECYCLE-SOURCES.md` |
-| Failure / readiness / health / observability | `../sources/FAILURE-HEALTH-SOURCES.md` |
-| Terminology / counterframes / null-reduction test | `../sources/COUNTERFRAME-TERMINOLOGY-SOURCES.md` |
-| Purpose roles / control / portability | `../sources/PURPOSE-CONTROL-PORTABILITY-SOURCES.md` |
-| Declared / discovered / dynamic environments | `../sources/DECLARED-DISCOVERED-DYNAMIC-SOURCES.md` |
-| Final omission / falsifier probes | `../sources/OMISSION-PROBE-SOURCES.md` |
+| Initial terminology / rival frames | `sources/ORIENTATION-SOURCES.md` |
+| Boundary / identity / environment-vs-tool-platform-workspace | `sources/BOUNDARY-IDENTITY-SOURCES.md` |
+| Configuration / realized state / reproducibility / drift | `sources/CONFIGURATION-STATE-SOURCES.md` |
+| Capabilities / constraints / interfaces / resources | `sources/CAPABILITY-CONSTRAINT-SOURCES.md` |
+| Composition / sharedness / isolation / lifecycle | `sources/COMPOSITION-LIFECYCLE-SOURCES.md` |
+| Failure / readiness / health / observability | `sources/FAILURE-HEALTH-SOURCES.md` |
+| Terminology / counterframes / null-reduction test | `sources/COUNTERFRAME-TERMINOLOGY-SOURCES.md` |
+| Purpose roles / control / portability | `sources/PURPOSE-CONTROL-PORTABILITY-SOURCES.md` |
+| Declared / discovered / dynamic environments | `sources/DECLARED-DISCOVERED-DYNAMIC-SOURCES.md` |
+| Final omission / falsifier probes | `sources/OMISSION-PROBE-SOURCES.md` |
 
 ## Main evidence families
 
