@@ -4,16 +4,12 @@
 **Date:** 2026-09-02  
 **Branch:** `main`
 
-## Purpose
-
-Bind the current node surfaces so a fresh session does not mistake the old `Domain / Effect Reality` plan/label, an active-research checkpoint or a discovered child for current authorization.
-
 ## Entry surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Node state | `STATE.md` | `4780dc0895d049193e6adbf02ae05b627b8f00e3` |
-| Router | `INDEX.md` | `0151ae4485ace4c53e57b65fc7782809d0eca40e` |
+| Router | `INDEX.md` | `29084b9e1111c31b5f56d77730ac59239cdf19d0` |
 | L0 key | `KEY.md` | `517b08d7f801a8a30334537cc5473311f3b21e0c` |
 | L1 findings map | `FINDINGS-MAP.md` | `8c2d358a7c70296268cbebcd26b08d3cd3b02293` |
 | Residual questions | `OPEN-QUESTIONS.md` | `f12c49a9730fa4171c4fd8d4a571733b6c8fa92e` |
@@ -57,9 +53,7 @@ Domain Reality
 
 ## Authorization rule
 
-The node is closed for bounded immediate-child research and awaits user evaluation.
-
-No discovered child or sibling is active.
+The node is closed for bounded immediate-child research and awaits user evaluation. No discovered child or sibling is active.
 
 ## Retrieval rule
 
@@ -67,8 +61,4 @@ No discovered child or sibling is active.
 
 ## Update rule
 
-After any material node edit:
-1. re-fetch exact blobs;
-2. update this manifest;
-3. recheck Environment, stage and parent STATE/INDEX surfaces;
-4. do not silently activate State, Dynamics or any sibling/ground.
+After any material node edit, re-fetch exact blobs, update this manifest, recheck Environment/stage/parent surfaces, and do not silently activate State, Dynamics or any sibling/ground.
