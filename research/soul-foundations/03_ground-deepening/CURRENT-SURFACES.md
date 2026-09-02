@@ -1,38 +1,50 @@
 # Ground Deepening — CURRENT SURFACES
 
-**Status:** canonical freshness binding for the user-accepted ground-deepening program  
+**Status:** canonical freshness binding for current ground-deepening stage after bounded Environment closure  
 **Date:** 2026-09-02  
 **Branch:** `main`
 
 ## Purpose
 
-Bind the current program surfaces so a later fresh session does not mistake an intermediate plan, pre-acceptance state, or an unapproved substantive ground package for current authority.
+Bind current stage surfaces so a later fresh session does not mistake the pre-research plan, an active Environment checkpoint, or an unapproved next ground for current authority.
 
 Parent project authorization remains in `../STATE.md` and `../INDEX.md`.
 
-## Bound surfaces
+## Bound stage surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Stable purpose | `README.md` | `ac086373147a2e0b80846dd276f4e8393ab2d692` |
-| Program state / one-active-ground rule | `STATE.md` | `1abd8016a2aab793cf038946307219c87fb69cc7` |
+| Stage state / one-active-ground rule | `STATE.md` | `defbb275352db4142cd10d7733891ad2536c8a8f` |
 | User-accepted research plan | `PLAN.md` | `dfe00d2ca4d43758c476f640332751c3af013725` |
-| Router | `INDEX.md` | `83d1648a42ae5ff542e45d3106a1a28a0753a8a8` |
+| Stage router | `INDEX.md` | `8fac4ff45d032e394b709284fb04b5a6ba853216` |
+
+## Current ground package
+
+| Ground | Status | Freshness surface |
+|---|---|---|
+| Environment / Operating Reality | boundedly sufficient; awaiting user evaluation | `grounds/environment/CURRENT-SURFACES.md` @ `906f885d90a834b645bc9e612f03e5e05db56932` |
+| Information / Representation | inactive | no package created |
+| Work | inactive | no `03` package created |
+| Actors | inactive | no `03` package created |
 
 ## Current rule
 
 Preferred route:
 
-`STATE → PLAN → INDEX → README as needed`
+`STATE → active/completed ground STATE → ground KEY/FINDINGS-MAP → synthesis → source/audit as needed`
 
-Current status is **PLAN USER-ACCEPTED; NO SUBSTANTIVE GROUND PASS ACTIVE**.
+Current status:
 
-At most one ground may be active at a time. No package under `grounds/` exists or is authorised yet.
+> **Environment research is closed for bounded scope and awaiting user evaluation. No substantive ground is active.**
+
+At most one ground may be active at a time. Environment closure does not activate Information automatically.
 
 ## Update rule
 
-If any bound surface changes materially:
+If any bound stage surface changes materially:
 1. re-fetch the path;
 2. update its SHA here;
 3. recheck parent `STATE.md` and `INDEX.md`;
-4. do not let a plan/program update silently authorize substantive research or a second simultaneous ground.
+4. recheck the current ground's `CURRENT-SURFACES.md` when relevant;
+5. never let closure of one ground silently authorize the next.
