@@ -2,61 +2,57 @@
 
 ## Role
 
-Current router for the bounded Environment parent result and its next hierarchical planning step.
+Current router for the user-evaluated Environment parent result and the bounded Domain Reality child result.
 
 ## Current status
 
-**ENVIRONMENT PARENT USER-EVALUATED FOR HIERARCHICAL CONTINUATION; DOMAIN / EFFECT PLAN READY; NO SUBSTANTIVE CHILD NODE ACTIVE.**
+**DOMAIN REALITY CHILD PASS BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Reading order
 
-1. `STATE.md` — current epistemic/authorization state.
-2. `KEY.md` — shortest bounded parent result.
-3. `FINDINGS-MAP.md` — route to exact parent-ground question.
-4. `synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md` — integrated bounded parent result.
-5. relevant focused finding.
-6. `synthesis/COMPLETENESS-OMISSION-CHECK.md` or `evidence/SOURCE-LEDGER.md`.
-7. `DOMAIN-EFFECT-RESEARCH-PLAN.md` — next-node plan when evaluating continuation.
+1. `STATE.md` — current Environment state/authorization.
+2. parent result → `KEY.md` / `FINDINGS-MAP.md` / `synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`.
+3. Domain Reality result → `domain-effect/STATE.md` then `KEY.md` / `FINDINGS-MAP.md` / synthesis.
+4. source/audit surfaces when decision-critical.
+5. `CURRENT-SURFACES.md` — exact Environment freshness binding.
 
-## Current Environment hierarchy
+## Current Environment research tree
 
 ```text
 Environment / Operating Reality
-    ├─ Domain / Effect Reality                         ← plan ready; inactive
+    ├─ Domain Reality                              ← bounded result; awaiting user evaluation
+    │    ├─ Domain State / Configuration           ← discovered; inactive
+    │    └─ Domain Dynamics / Processes            ← discovered; inactive
+    │
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
 
-Key interpretation:
-- one Environment top-level ground survived the parent pass;
-- target/effect and execution-condition roles remain distinct and non-exclusive;
-- `Work-Support Environment` was broadened because constraining/degrading conditions are first-order;
-- TWE remains the existing deep technical specialization;
-- no third first-order Environment branch was required at the parent level.
+The old child label `Domain / Effect Reality` is retained in the historical plan/package path but is semantically refined by the bounded child result.
+
+## Domain Reality route
+
+`domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-REALITY-SYNTHESIS.md → focused finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md`
+
+Main result:
+- rename `Domain / Effect Reality` → `Domain Reality`;
+- immediate children = State/Configuration + Dynamics/Processes;
+- Effect/Outcome = actual domain result plus cross-ground causal/outcome relation, not a third reality child.
 
 ## Hierarchical method
 
 Read:
 - `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-A node-level pass identifies only immediate children. Child research is a later, separately activated pass.
-
-## Next-node route
-
-`Domain / Effect Reality` plan:
-- `DOMAIN-EFFECT-RESEARCH-PLAN.md`
-
-The plan first attacks whether `Domain / Effect Reality` is itself one coherent node or should split/reframe. It does not presuppose the number or names of its children.
+No discovered child is auto-authorised. The user must evaluate the current node before any State/Dynamics/Work-Conditions pass begins.
 
 ## Prior evidence route
 
-For historical derivation only:
+Historical derivation only:
 - `../../../01_verticals/work-environment/`
 - `../../../history/superseded/operating-world-environment/`
-- `../../../02_adequacy/` hierarchy findings 08–10.
-
-Current Environment parent authority is this package's STATE/KEY/synthesis, not the older prior packages.
+- `../../../02_adequacy/` Environment hierarchy findings.
 
 ## Guardrail
 
-No substantive node is active. Do not begin Domain/Effect research or use this package to open Work Conditions, Information, Work, Actors, systematic composition or architecture without explicit authorization.
+No substantive node is active. Do not begin Domain State, Domain Dynamics, Work Conditions, Information, Work, Actors, systematic composition or architecture without explicit authorization.
