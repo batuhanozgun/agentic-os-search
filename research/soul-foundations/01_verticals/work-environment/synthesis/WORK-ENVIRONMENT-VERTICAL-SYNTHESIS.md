@@ -1,6 +1,6 @@
 # Technical Work Environment / Teknik Çalışma Ortamı — Vertical Synthesis
 
-**Status:** boundedly sufficient for current independent foundation purpose; awaiting user evaluation  
+**Status:** boundedly sufficient for current independent foundation purpose; user-evaluated on 2026-09-02  
 **Date:** 2026-09-02  
 **Scope:** independent research into the technical Work Environment phenomenon; not cross-foundation composition, SOUL architecture, ontology, schema or implementation.
 
@@ -663,7 +663,7 @@ Do not reopen merely because another product/environment type exists.
 
 # 25. Completion judgment
 
-**BOUNDEDLY SUFFICIENT FOR THE CURRENT INDEPENDENT FOUNDATION PURPOSE.**
+**BOUNDEDLY SUFFICIENT FOR THE CURRENT INDEPENDENT FOUNDATION PURPOSE; USER-EVALUATED ON 2026-09-02.**
 
 Why:
 
@@ -676,4 +676,4 @@ Why:
 
 This is a bounded research stop, **not universal completeness and not independent verification**.
 
-The proper next action is user evaluation of this vertical. Do not automatically resume cross-foundation synthesis or architecture.
+The vertical is closed unless explicit user direction or a material later falsifier reopens it. Current project authorization and next responsibility live in `../../STATE.md`.
