@@ -1,23 +1,24 @@
 # Environment / Operating Reality — STATE
 
-**Status:** PARENT GROUND USER-EVALUATED FOR HIERARCHICAL CONTINUATION; DOMAIN / EFFECT RESEARCH PLAN READY  
+**Status:** PARENT GROUND USER-EVALUATED; DOMAIN / EFFECT REALITY CHILD NODE ACTIVE  
 **Authorised:** 2026-09-02  
 **Bounded parent-ground closure:** 2026-09-02  
-**User evaluation:** 2026-09-02 — result judged reasonable enough to continue hierarchical deepening; not universal truth or architecture  
+**User evaluation:** 2026-09-02 — parent result judged reasonable enough to continue hierarchical deepening; not universal truth or architecture  
+**Domain / Effect node authorised:** 2026-09-02  
 **Scope:** Environment / Operating Reality ground only  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** evaluate/refine the `Domain / Effect Reality` research plan only; no substantive child-branch research is active
+**Current authorised activity:** substantive `Domain / Effect Reality` research only
 
 ## Current Environment hierarchy
 
 ```text
 Environment / Operating Reality
-    ├─ Domain / Effect Reality                         ← next planned research node
-    └─ Work Conditions / Enabling–Constraining Environment
+    ├─ Domain / Effect Reality                         ← ACTIVE
+    └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
 
-The parent-ground result is accepted **for continuation of research**, not as a final ontology, universal decomposition or architecture decision.
+The parent-ground result is accepted for continuation of research, not as a final ontology, universal decomposition or architecture decision. The active child label/shape remains falsifiable.
 
 ## Parent-ground bounded result retained
 
@@ -35,18 +36,7 @@ environmental participation ≠ semantic ownership
 outside boundary ≠ automatically relevant Environment
 ```
 
-## Material hierarchy result
-
-The parent pass produced two immediate first-order roles:
-
-1. **Domain / Effect Reality** — what actual reality focal Work is about, must accommodate/navigate/understand/change, or must judge real-world outcomes against.
-2. **Work Conditions / Enabling–Constraining Environment** — realized conditions/capabilities/resources/interfaces that materially enable, constrain, degrade or otherwise shape execution.
-
-Branches are non-exclusive analytical roles, not object types.
-
 ## Hierarchical deepening rule
-
-Environment is not considered exhaustively researched merely because the parent and its immediate children are now visible.
 
 Further work follows:
 - `../../HIERARCHICAL-DEEPENING-METHOD.md`;
@@ -56,7 +46,7 @@ Further work follows:
 - return for user evaluation before activating a child or sibling;
 - do not mistake cross-cutting dimensions for child branches merely to create a deeper tree.
 
-## Next planned node — Domain / Effect Reality
+## Active node — Domain / Effect Reality
 
 Plan:
 - `DOMAIN-EFFECT-RESEARCH-PLAN.md`
@@ -65,11 +55,25 @@ Main question:
 
 > What actual reality is focal Work about, trying to understand, accommodate, navigate, maintain, transform, or judge outcomes against; and what immediate first-order problem regions are required to reason about that reality without collapsing Work, Information, Actors or execution conditions into it?
 
-The plan explicitly attacks the inherited label/shape, including whether `Domain Reality` and `Effect Reality` should remain one node or split.
+The pass explicitly attacks the inherited label/shape, including whether `Domain Reality` and `Effect Reality` should remain one node or split.
+
+## Active-node scope and stop rule
+
+The Domain/Effect pass may:
+- recover prior operating-world and current parent evidence;
+- research external traditions/cross-domain falsifiers relevant to this node;
+- derive and test immediate child candidates;
+- record cross-ground/cross-sibling relations as deferred observations.
+
+It may not:
+- deep-research any child discovered during the same pass;
+- research Work Conditions in parallel;
+- activate Information, Work or Actors;
+- build the final relation/control model or architecture.
 
 ## Work Conditions sibling
 
-`Work Conditions / Enabling–Constraining Environment` is **not active** during the Domain/Effect pass.
+`Work Conditions / Enabling–Constraining Environment` is inactive during the Domain/Effect pass.
 
 Technical Work Environment remains valid deep prior evidence under that sibling, but no Work-Conditions substantive research is authorized by this state.
 
@@ -77,12 +81,14 @@ Technical Work Environment remains valid deep prior evidence under that sibling,
 
 `KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → relevant finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md → primary source`
 
-Residuals:
-- `OPEN-QUESTIONS.md`
-- `DEFERRED-RELATIONS.md`
+Historical operating-world evidence remains recoverable under `../../../history/superseded/operating-world-environment/` as prior evidence, not current authority.
+
+## Current return condition
+
+Complete the Domain / Effect Reality node pass to bounded sufficiency or operational limit, persist current state/evidence, and return to user evaluation.
 
 ## Next authorised work
 
-**USER EVALUATION / REFINEMENT OF `DOMAIN-EFFECT-RESEARCH-PLAN.md` ONLY.**
+**DOMAIN / EFFECT REALITY RESEARCH ONLY.**
 
-Do not begin substantive Domain/Effect research until the user accepts the plan and explicitly asks to start. Do not activate Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation automatically.
+Do not activate Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation automatically.
