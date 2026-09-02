@@ -1,51 +1,148 @@
-# Domain / Effect Reality — STATE
+# Domain Reality — STATE
 
-**Status:** ACTIVE RESEARCH  
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION  
 **Authorised:** 2026-09-02  
+**Bounded node closure:** 2026-09-02  
 **Parent:** Environment / Operating Reality  
 **Sibling:** Work Conditions / Enabling–Constraining Environment — inactive  
-**Other top-level grounds:** inactive; bounded reference only
+**Other top-level grounds:** inactive  
+**Current authorised activity:** user evaluation of this Domain Reality result only
 
-## Research question
+## Question answered
 
-What is the strongest first-principles account of the Environment child currently labeled `Domain / Effect Reality`, and what immediate first-order child problem regions—if any—survive split/merge/reduction and cross-domain falsification?
+What is the strongest first-principles account of the Environment child previously labeled `Domain / Effect Reality`, and what immediate first-order child problem regions survive split/merge/reduction and cross-domain falsification?
 
-## Starting label under attack
+## Material node correction
+
+The inherited label is refined from:
 
 ```text
-Environment / Operating Reality
-    ├─ Domain / Effect Reality             ← ACTIVE NODE
-    └─ Work Conditions / Enabling–Constraining Environment
+Domain / Effect Reality
 ```
 
-The node may be renamed, narrowed, split or reduced if evidence requires it.
+to:
 
-## Current high-value falsifiers
+```text
+Domain Reality
+```
 
-- `Effect Reality` may not be a distinct reality region; causal effect may be a relation/contrast over domain states/trajectories.
-- `Domain Reality` may have no universal immediate children; apparent subcategories may be cross-cutting dimensions or domain-specific taxonomies.
-- structure/state/process distinctions may be modeling or ontology views rather than problem-ground children.
-- `what Work is about` is too broad if it silently absorbs Information, Actor or Work-local targets.
-- social/institutional reality may be representation-dependent without being identical to a particular representation.
-- pure observational/diagnostic Work may require Domain Reality while producing no intended world effect.
+Reason:
+- actual resulting conditions/trajectories belong to Domain Reality;
+- causal effect/attribution is relational/counterfactual/evidential rather than a separate actual-reality region;
+- observational/diagnostic Work can have a domain with no intended Work-caused effect.
 
-## Current phase
+## Immediate-child result
 
-Evidence recovery + split/merge/reduction challenge + immediate-child discovery.
+```text
+Domain Reality
+    ├─ Domain State / Configuration
+    └─ Domain Dynamics / Processes
+```
 
-## One-active-node rule
+Branches are analytical problem regions, not object classes.
 
-Do not research the Work Conditions sibling, Information, Work or Actors in parallel. Other grounds may appear only to preserve boundaries or deferred relations.
+### Domain State / Configuration
 
-Do not deep-research any child discovered during this pass.
+Primary question:
 
-## Closure
+> What realized domain condition/configuration obtains at the relevant time and scope?
 
-Close only when:
-- the node label/boundary is coherent or a stronger replacement is established;
-- immediate-child candidates are tested against cross-cutting-dimension alternatives;
-- causal/effect semantics are separated from actual domain state where necessary;
-- materially different domain holdouts stop producing new first-order children;
-- source/view recovery exists for load-bearing claims;
-- same-model completion review is explicitly labeled non-independent;
-- result is returned to user evaluation before any child/sibling activation.
+Includes load-bearing constituents, properties, relations/topology/configuration and current domain status/condition.
+
+### Domain Dynamics / Processes
+
+Primary question:
+
+> What realized processes, interactions, events and disturbances make the domain persist, evolve or transition through time?
+
+Includes endogenous processes, exogenous disturbances, interactions/flows/feedback, Work-coupled transitions, independent transitions, delays and path dependence.
+
+## Child-promotion basis
+
+State/Configuration and Dynamics/Processes were not promoted merely because they are common modeling dimensions. They survived the child test through:
+- distinct first-order questions;
+- distinct failure modes;
+- repeated usefulness across materially different domains;
+- repeated cross-lineage distinctions;
+- materially different downstream reasoning consequences if either is omitted.
+
+## Third-child result
+
+No third universal immediate child is currently required.
+
+Candidates tested:
+- Structure/composition;
+- constraints/laws/invariants;
+- effects/outcomes;
+- space/time;
+- affordances/actionability;
+- causality;
+- physical/digital/social/institutional type branches.
+
+Current mapping:
+- realized constituents/relations/topology → State/Configuration;
+- processes/events/transitions → Dynamics/Processes;
+- constraints/invariants → cross-cut state/dynamics or represented forms in Information;
+- effect/outcome → realized state/trajectory plus cross-ground causal/outcome relations;
+- domain types → specialization profiles rather than universal immediate children.
+
+## Boundary corrections
+
+```text
+Domain Reality ≠ every target of Work
+actual Domain condition ≠ observation/model/specification/Record
+Domain Dynamics ≠ Work lifecycle
+after-state/change ≠ causal effect attribution
+intended outcome ≠ actual resulting condition
+```
+
+Some institutional/social realities may be constituted by collective rules/attitudes/representations. The project therefore does not require metaphysical independence from all representation; it requires separation between actual domain condition and any particular representation of it.
+
+Not every Work episode requires a material Domain Reality target. Work can primarily target Information, Actors or Work-local structures.
+
+## Verification / evidence status
+
+Recovered and challenged through:
+- current Environment parent evidence;
+- archived operating-world evidence;
+- Work Domain Analysis / Cognitive Work Analysis;
+- systems engineering / SEBoK / NASA;
+- control and dynamical systems;
+- STAMP/control framing;
+- situation calculus / MDP state-transition traditions;
+- causal inference / potential outcomes;
+- observational versus interventionist science;
+- SysML structure/behavior views;
+- BFO/DOLCE ontology counterframes;
+- social/institutional ontology;
+- digital-twin reality/model distinctions;
+- cross-domain holdouts.
+
+The completion/omission audit is **same-model adversarial self-review, not independent verification**. No source independently validates this exact two-child project hierarchy.
+
+## Preferred retrieval
+
+`KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-REALITY-SYNTHESIS.md → relevant finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md → primary source`
+
+Residuals:
+- `OPEN-QUESTIONS.md`
+- `DEFERRED-RELATIONS.md`
+
+Exact freshness:
+- `CURRENT-SURFACES.md` after final closure binding.
+
+## Reopen condition
+
+Reopen this node if:
+- later State research forces a separate Structure/Constraint child;
+- later Dynamics research exposes a missing co-equal region;
+- a materially different domain cannot fit State/Dynamics plus cross-cutting relations without forced stretching;
+- deeper Information/Work/Actors research reveals boundary leakage;
+- independent review offers a materially stronger decomposition;
+- new evidence shows Effect/Outcome cannot be carried relationally.
+
+## Next authorised work
+
+**USER EVALUATION OF THE DOMAIN REALITY RESULT ONLY.**
+
+Do not automatically activate `Domain State / Configuration`, `Domain Dynamics / Processes`, Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation.
