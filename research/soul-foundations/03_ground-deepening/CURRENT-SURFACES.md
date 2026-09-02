@@ -18,8 +18,8 @@
 
 | Ground / node | Status | Freshness surface |
 |---|---|---|
-| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `85fca784fc55218f971a2df88cac357fcdb05501` |
-| Domain Reality | boundedly sufficient; user-authorised for continuation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `9d873436f6b9ad22ea79f306264f1bd1d0fd72ec` |
+| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `5e375a50671ab8930c222839d82cfc2e9e95af5f` |
+| Domain Reality | boundedly sufficient; user-authorised for continuation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `2d694f7a3fe99e823b7efada1c5fdb3f2f67a030` |
 | Domain State | boundedly sufficient; awaiting user evaluation | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `2bbe824f4c868a45621f529199292eae51b2a6df` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
