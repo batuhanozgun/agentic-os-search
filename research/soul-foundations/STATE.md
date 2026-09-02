@@ -1,9 +1,9 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; independent discovery and adequacy layers are closed; Environment parent and Domain Reality are user-evaluated for hierarchical continuation; Domain State / Configuration is active  
+**Status:** active research library; independent discovery and adequacy layers are closed; Environment parent and Domain Reality are user-evaluated for hierarchical continuation; Domain State is boundedly sufficient and awaiting user evaluation  
 **Repository cleanup/currentness verification:** hierarchical routing refreshed on 2026-09-02  
-**Current authorised substantive activity:** ENVIRONMENT → DOMAIN REALITY → DOMAIN STATE / CONFIGURATION RESEARCH ONLY  
-**Current return condition:** complete the bounded Domain State node pass to its immediate-child/leaf result, persist it, and return to user evaluation before any child/sibling is activated
+**Current authorised substantive activity:** USER EVALUATION OF THE DOMAIN STATE RESULT ONLY  
+**Current return condition:** user evaluates Domain State before any child/sibling/other ground is activated
 
 ## Dependency state
 
@@ -11,8 +11,10 @@
 - `02_adequacy/`: BOUNDEDLY SUFFICIENT; USER-EVALUATED / ACCEPTED AS WORKING RESEARCH HYPOTHESIS.
 - `03_ground-deepening/`:
   - **Environment / Operating Reality parent:** BOUNDEDLY SUFFICIENT; USER-EVALUATED AS REASONABLE ENOUGH FOR HIERARCHICAL CONTINUATION.
-  - **Environment → Domain Reality:** BOUNDEDLY SUFFICIENT FOR IMMEDIATE-CHILD PURPOSE; USER-AUTHORISED FOR HIERARCHICAL CONTINUATION.
-    - **Domain State / Configuration:** ACTIVE RESEARCH.
+  - **Environment → Domain Reality:** BOUNDEDLY SUFFICIENT; USER-AUTHORISED FOR HIERARCHICAL CONTINUATION.
+    - **Domain State:** BOUNDEDLY SUFFICIENT FOR IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION.
+      - Domain Structure / Composition: discovered child; NOT ACTIVE.
+      - Domain Condition / Status: discovered child; NOT ACTIVE.
     - Domain Dynamics / Processes: NOT ACTIVE.
   - Environment → Work Conditions / Enabling–Constraining Environment: NOT ACTIVE.
   - Information / Representation State: NOT ACTIVE.
@@ -38,60 +40,75 @@ This remains a research-routing hypothesis, not architecture, ontology, schema o
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
-    │    ├─ Domain State / Configuration           ← ACTIVE
-    │    └─ Domain Dynamics / Processes            ← inactive
+    │    ├─ Domain State                           ← bounded result; awaiting user evaluation
+    │    │    ├─ Domain Structure / Composition   ← discovered; inactive
+    │    │    └─ Domain Condition / Status        ← discovered; inactive
+    │    │
+    │    └─ Domain Dynamics / Processes           ← inactive
     │
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
 
-The previous `Domain / Effect Reality` label remains superseded by the bounded `Domain Reality` result. Actual resulting conditions/trajectories are Domain Reality; causal effect/outcome attribution remains relational/evidential.
+## Domain State bounded result
 
-## Active node — Domain State / Configuration
+The prior label `Domain State / Configuration` is refined to `Domain State` because `configuration` mixed structural-arrangement, settings and baseline/representation meanings.
 
-Plan:
-- `03_ground-deepening/grounds/environment/domain-effect/DOMAIN-STATE-RESEARCH-PLAN.md`
+Immediate children:
 
-Active state:
-- `03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md`
+### Domain Structure / Composition
+Asks what materially relevant constituents are actually present and how they are actually composed/organized/connected at the selected scope/time.
 
-The pass must test rather than assume:
-- whether State and Configuration/Structure belong in one node;
-- whether constituents/identity, properties/condition and relations/topology are true children or aspects;
-- whether Structure/Composition, Identity/Continuity or Constraints/Invariants require child promotion;
-- whether state granularity/sufficiency is a stable research problem rather than only a representation choice;
-- whether `State` should be reframed as realized condition/situation;
-- whether social/institutional cases preserve actual-versus-particular-representation separation;
-- whether a bounded leaf is stronger than artificial deeper hierarchy.
+### Domain Condition / Status
+Asks what materially relevant properties, values, qualities, health, mode, status or standing actually hold at the selected scope/time.
 
-Only immediate children may be discovered. No discovered child may be deep-researched in this pass.
+These are research problem branches, not object/schema classes.
 
-## One-active-node rule
+No third universal immediate child is currently required. Identity/Continuity, Constraints/Invariants, Granularity/State Sufficiency, scope/time, and actual-versus-represented State remain explicit cross-cutting dimensions/boundaries.
 
-Only Domain State / Configuration is active.
+## Strong State distinctions
 
-Domain Dynamics, Work Conditions, Information, Work and Actors may be consulted only as bounded references for boundary tests/counterexamples/deferred relations. Such consultation does not activate them.
+```text
+Domain State ≠ one formal/model state vector
+actual Structure ≠ architecture/baseline/inventory by identity
+actual Condition ≠ observation/measurement/report/cache by identity
+Structure ≠ Dynamics
+Condition ≠ Dynamics
+identity/continuity ≠ State-only child
+constraint/invariant ≠ current State by identity
+current State ≠ causal explanation
+```
 
-## Verification status
+Some institutional/social State can be constituted through collective rules/practices; the required boundary is from any particular representation, not metaphysical independence from all representation.
 
-Any completion/omission review produced in this pass is same-model adversarial self-review unless a materially independent verifier is actually available and used. External sources may support distinctions but do not by themselves validate the exact project hierarchy.
+## Hierarchical deepening rule
+
+- one active node at a time;
+- Domain State pass is closed;
+- discovered Structure/Condition children are inactive;
+- Domain Dynamics, Work Conditions and other top-level grounds remain inactive;
+- user evaluation is required before any next node is activated.
 
 ## Current retrieval
 
 Parent currentness:
 `STATE.md → INDEX.md`
 
-Ground-deepening method/state:
+Ground-deepening state/method:
 `03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md → INDEX.md`
 
-Environment/Domain Reality prior result:
-`03_ground-deepening/grounds/environment/STATE.md → domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-REALITY-SYNTHESIS.md`
+Environment / Domain Reality route:
+`03_ground-deepening/grounds/environment/STATE.md → domain-effect/STATE.md → KEY.md`
 
-Active-node plan/state:
-`03_ground-deepening/grounds/environment/domain-effect/DOMAIN-STATE-RESEARCH-PLAN.md → domain-state/STATE.md`
+Current Domain State result:
+`03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → focused finding → completion/source recovery`
+
+## Verification status
+
+The Domain State completion/omission review is same-model adversarial self-review, **not independent verification**. External sources support discriminating claims but do not independently validate the exact project hierarchy.
 
 ## Current authorization
 
-**ENVIRONMENT → DOMAIN REALITY → DOMAIN STATE / CONFIGURATION RESEARCH ONLY.**
+**USER EVALUATION OF THE DOMAIN STATE RESULT ONLY.**
 
-Do not automatically activate Domain Dynamics, any discovered State child, Work Conditions, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
+Do not automatically activate Domain Structure, Domain Condition, Domain Dynamics, Work Conditions, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
