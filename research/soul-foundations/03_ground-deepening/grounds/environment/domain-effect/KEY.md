@@ -1,107 +1,90 @@
 # Domain Reality — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION  
+**Status:** Domain Reality boundedly sufficient and user-authorised for continuation; Domain State child boundedly sufficient and awaiting user evaluation  
 **Date:** 2026-09-02  
 **Parent:** Environment / Operating Reality
 
-## Shortest result
+## Shortest current result
 
-The Environment child previously labeled `Domain / Effect Reality` survives deeper research only after a material correction:
-
-> **Rename it to `Domain Reality`.**
-
-Strongest current immediate hierarchy:
+Current hierarchy:
 
 ```text
 Domain Reality
-    ├─ Domain State / Configuration
-    └─ Domain Dynamics / Processes
+    ├─ Domain State
+    │    ├─ Domain Structure / Composition        [discovered; inactive]
+    │    └─ Domain Condition / Status             [discovered; inactive]
+    └─ Domain Dynamics / Processes                [inactive]
 ```
 
-These are analytical problem branches, not object classes.
+Branches are analytical problem regions, not object/schema classes.
 
-## Why `Effect` was removed
+## Domain Reality correction retained
 
-Keep separate:
+The old `Domain / Effect Reality` label remains superseded by `Domain Reality`:
+- actual result is a Domain State/trajectory;
+- intended outcome is not actual reality;
+- causal effect/attribution is relational/counterfactual/evidential;
+- observational Work can have a Domain without intended intervention.
+
+## Deeper Domain State result
+
+The inherited child label `Domain State / Configuration` is refined to:
+
+> **Domain State**
+
+because `configuration` mixed structural arrangement, settings and represented baseline meanings.
+
+### Domain Structure / Composition
+
+Question:
+
+> What materially relevant constituents are actually present, and how are they actually composed/organized/connected at the selected scope/time?
+
+### Domain Condition / Status
+
+Question:
+
+> What materially relevant properties, values, qualities, health, mode, status or standing actually hold at the selected scope/time?
+
+No third universal immediate State child is currently required.
+
+## State cross-cutting dimensions
+
+Not promoted at this level:
+- Identity / Continuity;
+- Constraints / Invariants;
+- Granularity / State Sufficiency;
+- reference/scope/time;
+- actual-versus-represented State;
+- observability/evidence/uncertainty;
+- causal explanation.
+
+## Strong non-collapse rules
 
 ```text
-actual resulting Domain condition/trajectory
-≠ intended/desired outcome
-≠ observed/represented result
-≠ causal effect / attribution
+Domain Reality ≠ every target of Work
+Domain State ≠ one formal/model state vector
+actual Structure ≠ architecture/baseline/inventory by identity
+actual Condition ≠ observation/measurement/report/cache by identity
+Domain Dynamics ≠ Work lifecycle
+after-state/change ≠ causal effect attribution
+current State ≠ causal explanation
 ```
-
-State-transition traditions treat actions/events as changing domain/world/process state. Causal-inference traditions define effect through contrasts among potential outcomes/interventions. Observational Work can have a genuine domain while intentionally producing no effect.
-
-Therefore `Effect Reality` is not supported as a separate immediate reality branch.
-
-## Child 1 — Domain State / Configuration
-
-Question:
-
-> **What realized domain condition/configuration obtains at the relevant time and scope?**
-
-Includes when material:
-- constituents present;
-- current properties/status;
-- current relations/topology/configuration;
-- current spatial/institutional/social condition in its domain role.
-
-## Child 2 — Domain Dynamics / Processes
-
-Question:
-
-> **What realized processes, interactions, events and disturbances make the domain persist, evolve or transition through time?**
-
-Includes when material:
-- endogenous processes;
-- exogenous disturbances/events;
-- interactions/flows/feedback;
-- Work-coupled transitions;
-- independent transitions;
-- delays/path dependence/trajectories.
-
-## Why these are children rather than mere dimensions
-
-They passed the project child-promotion test because they have:
-- distinct first-order questions;
-- distinct failure modes;
-- repeated cross-domain usefulness;
-- repeated cross-lineage support;
-- materially different downstream reasoning consequences when omitted.
-
-## No third immediate child currently required
-
-Candidates tested and not promoted:
-- Structure/composition;
-- constraints/laws/invariants;
-- effects/outcomes;
-- space/time;
-- affordances/actionability;
-- causality;
-- physical/digital/social/institutional type branches.
-
-They currently map to State, Dynamics, cross-cutting dimensions/relations, or later domain specializations.
-
-## Boundary corrections
-
-- `Domain Reality ≠ every target of Work`.
-- Work can target Information, Actors or Work-local structures without Environment owning those semantics.
-- Domain Reality need not be metaphysically independent of all representation; some institutional realities can be socially constituted.
-- Stronger rule: actual domain condition is not identical to any particular observation/model/assertion/Record of it.
-- Not every Work episode needs a material Domain Reality target.
 
 ## Verification limit
 
-The completion audit is same-model adversarial review, not independent verification. External traditions support important distinctions but do not independently validate this exact two-child hierarchy.
+Domain Reality and Domain State completion audits are same-model adversarial self-review, not independent verification. External traditions support discriminating claims but do not independently validate the exact project hierarchy.
 
 ## Go deeper
 
-- topic route → `FINDINGS-MAP.md`
-- integrated result → `synthesis/DOMAIN-REALITY-SYNTHESIS.md`
-- why research stopped → `synthesis/COMPLETENESS-OMISSION-CHECK.md`
-- source recovery → `evidence/SOURCE-LEDGER.md`
-- residuals → `OPEN-QUESTIONS.md`
-- deferred relations → `DEFERRED-RELATIONS.md`
+Domain Reality original result:
+- `FINDINGS-MAP.md`
+- `synthesis/DOMAIN-REALITY-SYNTHESIS.md`
 
-Do not activate State, Dynamics or the Work-Conditions sibling from this file. Parent/stage authorization controls next work.
+Current Domain State result:
+- `domain-state/STATE.md`
+- `domain-state/KEY.md`
+- `domain-state/FINDINGS-MAP.md`
+- `domain-state/synthesis/DOMAIN-STATE-SYNTHESIS.md`
+
+Do not activate Structure, Condition, Dynamics or Work Conditions automatically. Current authorization is user evaluation of Domain State only.
