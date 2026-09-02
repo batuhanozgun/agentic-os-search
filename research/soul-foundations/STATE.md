@@ -1,87 +1,156 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; independent discovery corpora are closed; refined top-level adequacy result is user-evaluated and accepted as the current working research hypothesis; ground-deepening program is active on exactly one ground  
-**Repository cleanup/currentness verification:** COMPLETE on 2026-09-02; current ground authorization refreshed on 2026-09-02  
-**Current authorised substantive activity:** ENVIRONMENT / OPERATING REALITY ground deepening only  
-**Current return condition:** complete a bounded Environment ground pass, return it for user evaluation, and do not open another ground in parallel
+**Status:** active research library; independent discovery and adequacy layers are closed; Environment ground-deepening is boundedly sufficient and awaiting user evaluation  
+**Repository cleanup/currentness verification:** COMPLETE on 2026-09-02; current ground routing refreshed on 2026-09-02  
+**Current authorised substantive activity:** USER EVALUATION OF ENVIRONMENT / OPERATING REALITY RESULT ONLY  
+**Current return condition:** user evaluates Environment before any next ground is activated
 
 ## Dependency state
 
 - `01_verticals/`: COMPLETE / USER-EVALUATED for original independent discovery questions.
 - `02_adequacy/`: BOUNDEDLY SUFFICIENT; USER-EVALUATED / ACCEPTED AS WORKING RESEARCH HYPOTHESIS.
-- `03_ground-deepening/`: ACTIVE on exactly one ground — **Environment / Operating Reality**.
-- Information ground deepening: NOT ACTIVE.
-- Work coverage/gap audit: NOT ACTIVE.
-- Actors coverage/gap audit: NOT ACTIVE.
+- `03_ground-deepening/`:
+  - **Environment / Operating Reality:** BOUNDEDLY SUFFICIENT FOR CURRENT DEEPENING PURPOSE; AWAITING USER EVALUATION.
+  - Information / Representation State: NOT ACTIVE.
+  - Work coverage/gap audit: NOT ACTIVE.
+  - Actors coverage/gap audit: NOT ACTIVE.
 - Cross-ground relation/control composition: NOT AUTHORISED.
 - SOUL/Development OS architecture, final ontology/data model, implementation: NOT AUTHORISED.
 
 ## Accepted top-level working research hypothesis
 
 ```text
-Environment / Operating Reality                 [working label]
-    ├─ Operating World / Work Domain
-    └─ Work-Support Environment
-         └─ Technical Work Environment
-
+Environment / Operating Reality
 Information / Representation State
     └─ Records / Persistent Information
-
 Work
 Actors / Agency–Participation–Authority
 
 + typed relations / control / transitions across grounds
 ```
 
-This is a research-routing hierarchy, not architecture, final ontology, schema or a claim of universal exhaustiveness.
+This remains a research-routing hypothesis, not architecture, ontology, schema or universal truth.
 
-## Active-ground authorization
+## Environment deepening result
 
-The accepted `03_ground-deepening` plan recommended Environment first by expected information gain. After confirming the one-active-ground rule, the user instructed the assistant to begin research and work to the operational limit. This is treated as authorization to start the recommended first ground: **Environment / Operating Reality**.
+The Environment ground survived deeper first-principles/adversarial research, with a material refinement to its lower structure.
 
-Only Environment is active.
+Current strongest working hierarchy:
 
-Other grounds may be consulted only as bounded references when required to:
-- define Environment's boundary;
-- construct a counterexample;
-- distinguish world/support state from Work, Information or Actor semantics;
-- record a deferred cross-ground relation.
+```text
+Environment / Operating Reality                 [working parent label]
+    ├─ Domain / Effect Reality
+    └─ Work Conditions / Enabling–Constraining Environment
+         └─ Technical Work Environment           [existing deep technical specialization]
+```
 
-Such consultation does not authorize substantive parallel research of another ground.
+### Material correction
 
-## Environment pass objective
+The adequacy-stage `Work-Support Environment` phrase was too narrow/positive. Execution is shaped not only by support but also by realized conditions that constrain, degrade, block or make Work hazardous.
 
-Bring the Environment / Operating Reality ground to sufficient internal scope/depth for later SOUL and Development OS synthesis by:
-1. recovering existing Technical Work Environment, archived operating-world, and adequacy-hierarchy evidence;
-2. testing the Environment parent boundary and level independently;
-3. deriving Environment-specific first-order subproblem regions rather than imposing a shared layer count;
-4. deepening materially under-supported branches, especially Operating World / Work Domain and nontechnical support if required;
-5. preserving actual-world/support state versus representation, Work and Actor distinctions;
-6. recording cross-ground relations without solving the later composition layer;
-7. running adversarial omission/reduction/rival-decomposition checks;
-8. closing only at bounded sufficiency and returning to user evaluation.
+The stronger second-role semantics are therefore:
+
+> **Work Conditions / Enabling–Constraining Environment**
+
+### Parent semantics
+
+Environment is the boundary/reference-relative ground of **realized load-bearing conditions and dynamics** that matter to focal Work because they:
+- constitute the domain/effect reality the Work must understand, accommodate, navigate, maintain, change or judge outcomes against; and/or
+- materially enable, constrain, degrade, endanger or otherwise shape execution.
+
+Reject:
+- Environment = everything outside;
+- Environment = everything relevant;
+- Environment = generic Context;
+- Environment as an exclusive intrinsic object class.
+
+### Strong Environment distinctions
+
+```text
+actual Environment condition ≠ specification ≠ observation ≠ model ≠ Record
+Work closure/status ≠ actual Environment effect/outcome
+Actor capability ≠ situated actionability
+environmental participation ≠ semantic ownership
+outside boundary ≠ automatically relevant Environment
+```
+
+### Current first-order Environment map
+
+The bounded pass covers:
+1. reference frame / focal Work / system-of-interest;
+2. boundary / material participation;
+3. Domain/Effect vs Work-Condition role;
+4. realized state;
+5. dynamics/disturbances/path dependence;
+6. coupling/interfaces/resources/capacity;
+7. constraints/hazards in realized-condition role;
+8. observability/model-mismatch boundary;
+9. situated feasibility/actionability relation boundary;
+10. actual effects/outcome grounding;
+11. nesting/role switching/boundary lifecycle;
+12. specialized lower Environment profiles, with Technical Work Environment as the current validated deep example.
+
+### Omission result
+
+Physical, social, institutional/legal, economic/resource, ecological/natural, hazard, ambient, infrastructure/tool, other-agent/system, temporal/spatial, specified-envelope and uncertainty candidates were challenged.
+
+No current case forced a third universal first-order Environment branch when roles are non-exclusive:
+- Domain/Effect;
+- Work Conditions;
+- both;
+- neither if not load-bearing.
+
+This is bounded evidence, not proof of universal completeness.
+
+## Environment evidence/verification
+
+Recovered and tested:
+- completed Technical Work Environment corpus;
+- archived operating-world Environment corpus;
+- `02_adequacy` Environment hierarchy work;
+- systems-engineering boundary/context/enabling-system sources;
+- NASA ConOps;
+- Cognitive Work Analysis / Work Domain Analysis;
+- SEIPS / ILO / ergonomics work-system traditions;
+- O*NET Work Context;
+- ISO Operational Design Domain;
+- affordance/ecological-psychology counterframe;
+- materially different clinical, software, scientific, logistics, emergency, legal, robotics, DevOps and market holdouts.
+
+The completion/omission check is same-model adversarial self-review, **not independent verification**. No external source independently validates the exact project hierarchy.
+
+## Current Environment retrieval
+
+`03_ground-deepening/grounds/environment/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md → relevant focused finding → completeness/source recovery`
+
+Residuals:
+- `OPEN-QUESTIONS.md`;
+- `DEFERRED-RELATIONS.md`.
 
 ## One-active-ground rule
 
-At most one of Environment, Information, Work or Actors may be under substantive deepening research at a time.
+No ground is currently under substantive research while Environment awaits user evaluation.
 
-Switching grounds requires closing/pausing the active Environment state and an explicit next-ground decision.
+Do not activate Information, Work or Actors automatically. Switching grounds requires explicit next-ground authorization.
 
-## Current retrieval
+## Phase boundary
 
-Parent currentness:
-`STATE.md → INDEX.md`
+```text
+01  independent discovery research                 COMPLETE
+02  top-level adequacy / hierarchy discovery        COMPLETE + USER-ACCEPTED WORKING HYPOTHESIS
+03  ground-specific scope/depth completion
+    └─ Environment                                  BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION
+    └─ Information                                  NOT ACTIVE
+    └─ Work                                         NOT ACTIVE
+    └─ Actors                                       NOT ACTIVE
+04  cross-ground relations / composition            NOT AUTHORISED
+05  SOUL / Development OS architecture derivation   NOT AUTHORISED
+```
 
-Environment active package:
-`03_ground-deepening/grounds/environment/STATE.md → INDEX/KEY → FINDINGS-MAP → synthesis → focused finding → audit/source recovery`
-
-Prior evidence inputs:
-- `01_verticals/work-environment/`
-- `history/superseded/operating-world-environment/`
-- `02_adequacy/` Environment hierarchy findings/audit/evidence
+`04` and `05` remain logical later candidates, not committed architecture phases.
 
 ## Next authorised work
 
-**ENVIRONMENT / OPERATING REALITY GROUND DEEPENING ONLY.**
+**USER EVALUATION OF THE ENVIRONMENT GROUND RESULT ONLY.**
 
-Do not begin Information, Work or Actors ground research, systematic relation/control composition, architecture, ontology/data-model work or implementation during this pass.
+Do not begin Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation until explicitly authorised.
