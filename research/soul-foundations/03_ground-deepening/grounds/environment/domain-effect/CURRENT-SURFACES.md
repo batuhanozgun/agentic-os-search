@@ -16,7 +16,24 @@
 | Residual questions | `OPEN-QUESTIONS.md` | `792ce4c7dcff17e056146ac17790714af23e3c89` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `56d238a0f5b7fac2d4dd963473fe501a66d778a5` |
 
-## Domain Reality original node evidence
+## Original Domain Reality focused findings
+
+| Finding | Bound Git blob SHA |
+|---|---|
+| `findings/01-evidence-inventory-and-starting-falsifiers.md` | `69a0646034e12c38aaa9b9db0fc2911b45e3c37c` |
+| `findings/02-node-coherence-and-rename.md` | `ddd0c544bbe37e54202ee590ff8d152cab9481f5` |
+| `findings/03-effect-is-relation-not-child.md` | `f04d90f8bca9344eb1d61dc4de3abc758e4db595` |
+| `findings/04-state-configuration-vs-dynamics-processes.md` | `77b4f3a987d25e0ac64f54eb0ff9decdfb0aeecf` |
+| `findings/05-cross-ground-and-institutional-boundary.md` | `544a7e1994ac7d409d80728a1d61726365fd69ee` |
+| `findings/06-cross-domain-holdouts.md` | `ac59a3b8ab617300698d8e6cd7dd710cdbadc83d` |
+| `findings/07-rival-decomposition-and-child-result.md` | `b49fa12288dcef57e136ea5497f7ac23cbe8bdf9` |
+| `findings/08-domain-reality-problem-map.md` | `2ddd54a330ce4a90c8fcd5bda193b9713dc9ce66` |
+
+Findings tree: `da7e439a33217b507ead545759a0f466d7328d7e`
+
+Focused findings preserve pass-time labels where useful for reconstruction. Current status/authorization is carried by `STATE.md`, `KEY.md`, `FINDINGS-MAP.md` and this manifest.
+
+## Domain Reality synthesis / audit / evidence
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
@@ -24,7 +41,7 @@
 | Original completion / omission audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | `ece9e98e051c4590f386bb3941d0040d5f4396d3` |
 | Preserved source/view ledger with repaired retrieval paths | `evidence/SOURCE-LEDGER.md` | `5e287a45886fc02f387a5da1b2822c44f054c2f3` |
 
-Focused findings/audit retain pass-time labels where useful for reconstruction. Current status/authorization is carried by `STATE.md`, `KEY.md`, `FINDINGS-MAP.md` and this manifest.
+Evidence tree: `0270275657f5920c7c70d14b8385d5ee79bff4a4`
 
 ## Current deeper child
 
