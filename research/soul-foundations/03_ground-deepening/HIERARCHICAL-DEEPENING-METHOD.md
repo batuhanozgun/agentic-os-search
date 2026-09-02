@@ -18,11 +18,11 @@ Finding a child does not authorize researching that child in the same pass.
 
 ## Core rule — one active node at a time
 
-At any point, substantive research has exactly one active hierarchical node.
+During substantive research, **at most one hierarchical node is active**. When a node pass is running, exactly one node is active; between passes or while a closed result awaits user evaluation, zero nodes may be active.
 
 Examples:
 - `Environment` may be the active node;
-- after Environment closure, `Domain / Effect Reality` may become the active node;
+- after Environment closure, `Domain Reality` may become the active node;
 - if that node yields three immediate children, only one child may later be active at a time.
 
 Sibling nodes remain inactive. They may be referenced only for boundary tests, counterexamples or relation capture.
@@ -135,6 +135,14 @@ For every node pass persist:
 - exact current surfaces when closed.
 
 A fresh session must be able to tell which node is active, closed, awaiting evaluation or merely planned.
+
+### Pass-artifact provenance
+
+Focused findings, source ledgers, plans and audits may preserve the labels, candidate status and wording that were current **during the pass that produced them**. Once a node closes or is refined by a deeper child pass:
+- current hierarchy, authorization and epistemic status come from the current `STATE.md`, `KEY.md`, `FINDINGS-MAP.md` and `CURRENT-SURFACES.md` route;
+- pass-time metadata must not be interpreted as present authorization;
+- if a preserved pass artifact can reasonably be mistaken for current state, its package router or the artifact itself should carry an explicit executed/preserved/subsequent-refinement notice;
+- historical reasoning should not be retroactively rewritten merely to make it look as though later refinements were already known.
 
 ## Phase guardrail
 
