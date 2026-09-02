@@ -14,7 +14,7 @@ Parent project authorization remains in `../STATE.md` and `../INDEX.md`.
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Stable purpose | `README.md` | `ac086373147a2e0b80846dd276f4e8393ab2d692` |
+| Stable purpose | `README.md` | `398e59813f70336060ad8ccff454c9da60b89742` |
 | Stage state / one-active-ground rule | `STATE.md` | `defbb275352db4142cd10d7733891ad2536c8a8f` |
 | User-accepted research plan | `PLAN.md` | `dfe00d2ca4d43758c476f640332751c3af013725` |
 | Stage router | `INDEX.md` | `8fac4ff45d032e394b709284fb04b5a6ba853216` |
