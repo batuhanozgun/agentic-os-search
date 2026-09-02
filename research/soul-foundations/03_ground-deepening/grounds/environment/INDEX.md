@@ -2,57 +2,55 @@
 
 ## Role
 
-Current router for the user-evaluated Environment parent result and the bounded Domain Reality child result.
+Current router for the user-evaluated Environment parent, Domain Reality result and deeper Domain State result.
 
 ## Current status
 
-**DOMAIN REALITY CHILD PASS BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STATE BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Reading order
 
 1. `STATE.md` — current Environment state/authorization.
-2. parent result → `KEY.md` / `FINDINGS-MAP.md` / `synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`.
-3. Domain Reality result → `domain-effect/STATE.md` then `KEY.md` / `FINDINGS-MAP.md` / synthesis.
-4. source/audit surfaces when decision-critical.
-5. `CURRENT-SURFACES.md` — exact Environment freshness binding.
+2. `KEY.md` — shortest current hierarchy.
+3. parent result → `FINDINGS-MAP.md` / parent synthesis when needed.
+4. Domain Reality → `domain-effect/STATE.md` / `KEY.md`.
+5. Domain State → `domain-effect/domain-state/STATE.md` / `KEY.md` / `FINDINGS-MAP.md` / synthesis.
+6. audit/source surfaces when decision-critical.
+7. `CURRENT-SURFACES.md` — exact Environment freshness binding.
 
 ## Current Environment research tree
 
 ```text
 Environment / Operating Reality
-    ├─ Domain Reality                              ← bounded result; awaiting user evaluation
-    │    ├─ Domain State / Configuration           ← discovered; inactive
-    │    └─ Domain Dynamics / Processes            ← discovered; inactive
-    │
+    ├─ Domain Reality
+    │    ├─ Domain State
+    │    │    ├─ Domain Structure / Composition   ← discovered; inactive
+    │    │    └─ Domain Condition / Status        ← discovered; inactive
+    │    └─ Domain Dynamics / Processes           ← inactive
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
 
-The old child label `Domain / Effect Reality` is retained in the historical plan/package path but is semantically refined by the bounded child result.
+## Current routes
 
-## Domain Reality route
+### Domain Reality
+`domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-REALITY-SYNTHESIS.md`
 
-`domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-REALITY-SYNTHESIS.md → focused finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md`
+### Domain State
+`domain-effect/domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → relevant finding → completion/source recovery`
 
-Main result:
-- rename `Domain / Effect Reality` → `Domain Reality`;
-- immediate children = State/Configuration + Dynamics/Processes;
-- Effect/Outcome = actual domain result plus cross-ground causal/outcome relation, not a third reality child.
+Main State correction:
+- `Domain State / Configuration` → `Domain State`;
+- immediate children = `Domain Structure / Composition` + `Domain Condition / Status`;
+- no third universal immediate State child currently required.
 
 ## Hierarchical method
 
 Read:
 - `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-No discovered child is auto-authorised. The user must evaluate the current node before any State/Dynamics/Work-Conditions pass begins.
-
-## Prior evidence route
-
-Historical derivation only:
-- `../../../01_verticals/work-environment/`
-- `../../../history/superseded/operating-world-environment/`
-- `../../../02_adequacy/` Environment hierarchy findings.
+Node closure does not authorize any discovered child or sibling.
 
 ## Guardrail
 
-No substantive node is active. Do not begin Domain State, Domain Dynamics, Work Conditions, Information, Work, Actors, systematic composition or architecture without explicit authorization.
+No substantive node is active. Current authorized activity is user evaluation of Domain State only. Do not begin Structure, Condition, Dynamics, Work Conditions, Information, Work, Actors, systematic composition or architecture without explicit authorization.
