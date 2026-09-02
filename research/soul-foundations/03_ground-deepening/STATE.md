@@ -1,9 +1,10 @@
 # Ground Deepening — STATE
 
-**Status:** RESEARCH PROGRAM PLANNED; AWAITING USER EVALUATION  
+**Status:** RESEARCH PROGRAM USER-ACCEPTED; NO SUBSTANTIVE GROUND RESEARCH STARTED  
 **Created:** 2026-09-02  
-**Scope:** planning and later ground-specific research-depth completion for the accepted four-ground working hypothesis  
-**Current authorised activity:** evaluate/refine the plan only; no substantive new ground research has started
+**Plan accepted:** 2026-09-02  
+**Scope:** ground-specific research-depth completion for the accepted four-ground working hypothesis  
+**Current authorised activity:** select/authorize the first single ground; no substantive ground pass is active yet
 
 ## Working grounds
 
@@ -18,20 +19,23 @@ Actors / Agency–Participation–Authority
 
 These are research/problem grounds, not architecture modules, ontology classes or exclusive entity buckets.
 
-## Current question
+## Accepted operating rule — one active ground at a time
 
-How should each of the four grounds be researched to **sufficient internal scope and depth**, given that:
-- they do not begin from equal prior evidence;
-- they may not require the same number of conceptual layers;
-- two grounds contain already-deep researched subregions (Records; Technical Work Environment);
-- Work and Actors already have broad/deep independent corpora;
-- later cross-ground composition should not be solved prematurely inside one ground.
+At most **one** of the four grounds may be under substantive deepening research in a research turn/phase.
 
-## Planning judgment
+When one ground is active:
+- the other three are not researched in parallel;
+- they may be consulted only as bounded reference points for boundary checks, counterexamples or relation capture;
+- discovering a cross-ground issue does not authorize opening the other ground;
+- switching the active ground requires closing/pausing the current ground state and an explicit next-ground decision.
+
+Purpose: prevent cross-ground evidence, open questions and conclusions from becoming an undifferentiated research mixture before each ground has its own usable scope/depth.
+
+## Accepted planning judgment
 
 Use an **adaptive ground-specific deepening strategy**, not one fixed layer template.
 
-Every ground receives the same *entry/closure discipline* but may receive a different decomposition, depth and amount of new research.
+Every ground receives the same entry/closure discipline but may receive a different decomposition, depth and amount of new research.
 
 Common discipline:
 1. recover current evidence;
@@ -43,7 +47,7 @@ Common discipline:
 7. run omission/reduction/falsifier checks;
 8. return to user evaluation.
 
-This is a procedure, **not a claim that these are eight semantic layers**.
+This is a procedure, not a claim that these are eight semantic layers.
 
 ## Ground-specific starting positions
 
@@ -71,17 +75,18 @@ Start with a coverage/gap audit under the accepted hierarchy. Reopen substantive
 
 Ground deepening is no longer conceptually blind to the other grounds, but it must not become composition research by accident.
 
-During each ground pass:
+During an active ground pass:
 - identify relations needed to state a boundary or failure case;
 - record them as cross-ground observations/deferred composition questions;
 - do not build the final relation/control taxonomy;
-- do not make another ground's current hypothesis an unquestioned axiom when the local conclusion depends on it.
+- do not make another ground's current hypothesis an unquestioned axiom when the local conclusion depends on it;
+- do not open another ground's substantive research in the same pass.
 
 Systematic relation/control composition remains a later candidate phase.
 
-## Proposed order
+## Recommended order
 
-Current recommended order by expected information gain:
+Current recommendation by expected information gain:
 
 1. **Environment** — newly reconstructed parent with two major branches; largest level-alignment risk.
 2. **Information** — broader parent above Records; major unresolved semantic scope.
@@ -90,22 +95,19 @@ Current recommended order by expected information gain:
 
 This is a recommendation, not an irreversible dependency order. The user may choose another starting ground.
 
-## Stop boundary for this planning phase
+## Current phase boundary
 
 Do not yet:
-- create substantive ground findings;
-- conduct broad external literature research for a ground;
+- begin substantive ground research without explicit authorization of exactly one ground;
+- pre-create four active ground packages;
+- conduct parallel literature searches across grounds;
 - restructure `01_verticals/` to match the new hierarchy;
 - decide the final number of levels inside any ground;
 - begin systematic cross-ground composition;
 - derive SOUL/Development OS architecture.
 
-## Return condition
+## Next decision
 
-Return the plan to the user with:
-- the repository currentness drift closed;
-- `03_ground-deepening/` created as a planning surface;
-- the adaptive research method stated;
-- ground-specific starting conditions stated;
-- a recommended research order and per-ground entry/exit logic;
-- substantive research still unstarted pending user evaluation.
+Choose whether to authorize the first single ground pass and which ground it is.
+
+The current recommendation is Environment, but it is not automatically authorised by this state.
