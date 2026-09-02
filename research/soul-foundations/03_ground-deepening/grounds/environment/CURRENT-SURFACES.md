@@ -9,7 +9,7 @@
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Stable purpose | `README.md` | `560b0de672f9620f4fa5fbabf915272a675cf61d` |
-| Ground state | `STATE.md` | `59d02d63c11904b90ba451b6aa78f2fcf1ad2aba5` |
+| Ground state | `STATE.md` | `59d02d63c11904bdb70ea275e9c58d7770fc6dfd` |
 | Ground router | `INDEX.md` | `cd5bb0118693bc16aaf4d9616b057d383f807202` |
 | L0 current Environment key | `KEY.md` | `2f074cd2688b3e8790ac6f3ec99997b3ac210a66` |
 | L1 current findings map | `FINDINGS-MAP.md` | `15770dcbb8cd18b187f14202464b5594e6e9bb96` |
