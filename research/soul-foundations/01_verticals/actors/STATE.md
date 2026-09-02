@@ -48,7 +48,7 @@ Freshness/version binding:
 Actors-local uncertainty:
 - `OPEN-QUESTIONS.md`
 
-Cross-vertical deferrals:
+Cross-foundation deferrals:
 - `DEFERRED-RELATIONS.md`
 
 ## Reopen condition
@@ -60,13 +60,14 @@ Reopen substantive Actors research only on:
 
 The existence of more literature, terminology or domain-specific refinements alone is not sufficient reason to reopen.
 
-## Current handoff
+## Parent authority
 
-Actors returns control to the parent `research/soul-foundations/` state.
+Actors has returned control to the parent `research/soul-foundations/` state and remains available for selective recovery through this vertical's current retrieval surfaces.
 
-Do not duplicate parent current authorization in this vertical-local state. Read current parent purpose, authorization and next responsibility from:
+Do not duplicate parent current authorization in this vertical-local state. Read current parent purpose, authorization and next responsibility only from:
 - `../../STATE.md`
 - `../../INDEX.md`
-- the current parent handoff routed by those files.
 
-Actors remains available for selective recovery through this vertical's current retrieval surfaces and does not reopen automatically.
+There is no vertical-local or implied parent handoff authority. Historical handoffs, if deliberately needed for audit, are routed from the parent history archive.
+
+Nothing in this Actors-local state independently authorises another research vertical, cross-foundation synthesis, SOUL/Development OS architecture, final ontology/data model or implementation.
