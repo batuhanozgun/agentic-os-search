@@ -1,29 +1,46 @@
-# Domain / Effect Reality — INDEX
+# Domain Reality — INDEX
 
 ## Role
 
-Current router for the active Environment child-node research pass.
+Current router for the bounded Environment → Domain Reality immediate-child result.
+
+## Current status
+
+**BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION.**
+
+No child or sibling is active.
 
 ## Read order
 
-1. `STATE.md` — authorization, scope and current phase.
-2. `KEY.md` — shortest current result once created.
-3. `FINDINGS-MAP.md` — topic router once created.
-4. `synthesis/DOMAIN-REALITY-SYNTHESIS.md` — integrated result once created.
+1. `STATE.md` — current epistemic/authorization state.
+2. `KEY.md` — shortest result.
+3. `FINDINGS-MAP.md` — route to exact question.
+4. `synthesis/DOMAIN-REALITY-SYNTHESIS.md` — integrated result.
 5. relevant focused finding.
-6. completion/omission audit or source ledger.
+6. `synthesis/COMPLETENESS-OMISSION-CHECK.md` or `evidence/SOURCE-LEDGER.md`.
 7. primary/authoritative source where decision-critical.
+8. `CURRENT-SURFACES.md` for exact local freshness.
+
+## Current result
+
+```text
+Domain Reality
+    ├─ Domain State / Configuration
+    └─ Domain Dynamics / Processes
+```
+
+The package path retains the starting label `domain-effect/`, but current semantic authority renames the node to `Domain Reality`.
+
+`Effect/Outcome` is not a third immediate reality child; actual result is Domain State/trajectory while causal effect/outcome judgment is relational/evidential.
 
 ## Parent / method inputs
 
+Historical derivation and method:
 - `../DOMAIN-EFFECT-RESEARCH-PLAN.md`
 - `../../../HIERARCHICAL-DEEPENING-METHOD.md`
 - `../STATE.md`
-- `../KEY.md`
-- `../FINDINGS-MAP.md`
-- `../synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`
-- archived operating-world evidence under `../../../../history/superseded/operating-world-environment/`
+- archived operating-world evidence as routed from the parent package.
 
 ## Guardrail
 
-Only the current Domain/Effect node is active. Child candidates discovered here remain inactive until this pass closes and the user evaluates them.
+Do not begin substantive `Domain State / Configuration`, `Domain Dynamics / Processes`, Work Conditions or another ground from this package. User evaluation is the only current authorised activity.
