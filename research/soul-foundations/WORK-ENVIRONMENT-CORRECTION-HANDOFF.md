@@ -1,109 +1,87 @@
 # SOUL Foundations — Work Environment Scope Correction Handoff
 
-**Status:** current correction checkpoint; replacement research not yet started  
+**Status:** current correction checkpoint; replacement research authorised; substantive pass not yet started  
 **Date:** 2026-09-02  
-**Purpose:** correct the scope error in the previous `Environment` research before any four-foundation comparison continues.
+**Purpose:** preserve the corrected scope and method for the replacement fourth independent vertical.
 
-## 1. User-intended problem
+## 1. Why the previous Environment pass is superseded
 
-The intended fourth research region was not the system's general external operating world.
+The previous `Environment` corpus researched a broad external operating-world/system-boundary problem. That is not the intended research region.
 
-The intended question is:
+The failure was not only terminology. The research question was allowed to drift before the intended phenomenon had been independently characterised.
 
-> **In what technical/work settings do the Actors actually perform the Work, and what capabilities, constraints, interfaces and state transitions do those settings make possible?**
+The previous corpus is therefore **SUPERSEDED FOR THE INTENDED FOURTH-REGION PURPOSE** and must not be used as the fourth bounded foundation result.
 
-For the current Development OS / SOUL work, concrete examples include:
+## 2. Correct methodological position
 
-- Codex as an agent work/execution setting;
-- GitHub/repositories as a shared technical work, coordination and persistence setting;
-- interfaces/capabilities that Actors use to act across those settings;
-- the human user's local computer primarily as an access/tool surface unless some local machine state becomes directly load-bearing to execution.
+The replacement research is an **independent vertical**, methodologically parallel to Records, Work and Actors.
 
-This is narrower and more operational than the previous research frame.
+It must not begin from:
 
-## 2. Scope error in the previous Environment pass
+- Development OS architecture;
+- SOUL architecture;
+- Codex, GitHub, ChatGPT or the user's computer as defining anchors;
+- Records, Work or Actors findings as premises;
+- presumed relations among the four research regions;
+- a predetermined module, ontology class or implementation need.
 
-The previous `Environment` corpus researched a broader systems-theory problem:
+The starting question is deliberately prior to those concerns:
 
-- external world state and dynamics;
-- boundary-relative operating conditions;
-- physical/social/institutional/regulatory conditions;
-- external resources, hazards, observability and exogenous change.
+> **What is a Work Environment / Çalışma Ortamı?**
 
-That corpus is internally coherent for that broader question, but it **does not answer the user's intended Work-environment question**.
+The research should then expand from first principles and relevant bodies of evidence to discover the important dimensions, distinctions, boundaries, rival framings, failure modes and omissions of the phenomenon itself.
 
-The proximate contributor was the overloaded label `Environment`. The deeper failure was that the research frame was not sufficiently bound to the user's concrete Development OS referent before abstraction expanded the term into an external-world/system-boundary problem.
+`Work Environment / Çalışma Ortamı` is a **working label only**. The research may conclude that another term better names the phenomenon.
 
-Renaming alone is therefore insufficient; the replacement research must include explicit inclusion/exclusion tests and concrete anchors.
+## 3. Vertical-independence rule
 
-## 3. Current epistemic status
+Records provides the methodological precedent: it researched persistent information as a domain rather than asking how an agent stores information. The replacement fourth vertical must follow the same discipline.
 
-The previous Environment corpus is **SUPERSEDED FOR THE INTENDED FOURTH-REGION PURPOSE**.
+Accordingly:
 
-It must not be used as:
+- do not ask how Codex provides a work environment as the primary research question;
+- do not ask how agents use a work environment as the primary research question;
+- do not ask how Work Environment connects to Records, Work or Actors during this vertical;
+- do not use current Development OS tooling as the boundary of what can be discovered.
 
-- the fourth bounded foundation result;
-- evidence that the intended Work Environment research is complete;
-- a premise in four-foundation cross-comparison;
-- a basis for architecture or ontology decisions.
+Concrete systems may later be used as examples, counterexamples or falsifiers **after** a domain claim has been formed, but they do not define the research frame.
 
-It may be retained temporarily as an audit trail of the wrong-scope research and may later be archived or deleted after the replacement research is established.
+## 4. Research direction
 
-Records, Work and Actors remain unaffected by this correction.
+The pass should begin broad and architecture-neutral. Candidate questions to investigate include, without assuming their answers or completeness:
 
-## 4. Recommended terminology
+- what makes something a work environment rather than a tool, workspace, platform, runtime, infrastructure, resource or surrounding external environment;
+- whether a work environment is a place, configuration, capability-bearing setting, socio-technical arrangement, execution context, shared workspace, or some other kind of phenomenon;
+- what boundaries and membership criteria are defensible;
+- what dimensions or properties matter across different kinds of work environments;
+- how environments can be persistent or ephemeral, local or remote, isolated or shared, reproducible or drifting, configured or discovered, observable or opaque, controllable or externally administered;
+- what capabilities, constraints and affordances are environment-level rather than merely properties of a particular tool or actor;
+- how state, configuration, dependencies, interfaces, access, resources and execution conditions participate in the phenomenon;
+- whether one environment can contain, compose, overlap with or transition into another;
+- what failure modes arise when environment state, configuration or boundaries are misunderstood;
+- which candidate dimensions survive adversarial counterexamples and reduction tests;
+- whether the working label `Work Environment` survives comparison with rival terms.
 
-Recommended working label:
+This list is a research map, not a predefined ontology.
 
-> **Work Environment / Çalışma Ortamı**
+## 5. Explicit exclusions during the independent vertical
 
-Why:
+Until the independent vertical reaches bounded findings, do not perform:
 
-- it binds `Environment` directly to the Work being performed;
-- it is less likely than bare `Environment` or `Operational Environment` to drift toward the external world;
-- it is broader than `Execution Environment`, which can sound limited to runtime/process execution and would under-describe GitHub-like collaboration/persistence settings;
-- it is broader than `Workspace`, which can sound like a single UI/container rather than a set of technical settings and services.
+- cross-foundation composition or relation research;
+- Development OS or SOUL architecture derivation;
+- Codex/GitHub capability inventory as a substitute for domain research;
+- final ontology/data-model design;
+- implementation planning.
 
-`Work Environment` remains a working research label, not an ontology or architecture commitment.
+## 6. Previous corpus handling
 
-## 5. Replacement research scope guardrail
+The old `01_verticals/environment/` corpus and `ENVIRONMENT-EVALUATION-HANDOFF.md` remain historical wrong-scope material only.
 
-The replacement research should begin from concrete Development OS reality before generalizing.
+Do not use them as current evidence for the replacement vertical. Retain them temporarily for auditability; archive/delete can be decided after the replacement research has a stable retrieval surface.
 
-Minimum anchor cases:
+## 7. Next authorised work
 
-- human Actor using ChatGPT/Codex/GitHub surfaces;
-- Codex agent acting inside its available tool/runtime context;
-- shared GitHub repository as a place where Work and Records are changed, coordinated and handed off;
-- transitions between environments/surfaces;
-- capabilities and restrictions supplied by each environment;
-- authentication/authorization/access boundaries only insofar as they are properties of Actor interaction with the work environment;
-- local computer as tool/access surface unless its local runtime/files/system state becomes part of actual Work execution.
+Run the independent **Work Environment / Çalışma Ortamı** vertical from the question `What is a Work Environment?`, using external research and adversarial/counterframe passes until bounded sufficiency or a material reframing is reached.
 
-Explicitly exclude from the initial scope unless later evidence requires expansion:
-
-- generic external-world state merely because it can affect outcomes;
-- weather, physical hazards or broad social/regulatory conditions;
-- arbitrary system-of-interest boundary theory;
-- all resources or tools merely because they exist outside an Actor.
-
-## 6. Current authorization / next step
-
-The user has determined that the intended fourth research region must be researched again under the corrected meaning.
-
-Replacement research is authorised in principle, but **has not started in this checkpoint**. The present work is scope correction and continuity repair.
-
-Before substantive replacement research begins, use this handoff plus current parent `STATE.md` / `INDEX.md` as the canonical preflight source.
-
-Do not resume four-foundation comparison using the superseded Environment corpus.
-
-## 7. Old-corpus handling
-
-Do not hard-delete the old corpus merely to make the active state clean. First remove it from active routing and mark it superseded so a future session cannot mistake it for current truth.
-
-After the replacement Work Environment research reaches a stable retrieval surface, decide whether the old corpus should be:
-
-1. retained under an explicit archive/superseded path for auditability, or
-2. deleted if its audit value is judged lower than its retrieval/confusion risk.
-
-Until then, it is historical wrong-scope material only.
+Only after that result is returned to the user and evaluated may the project consider resuming cross-foundation comparison.
