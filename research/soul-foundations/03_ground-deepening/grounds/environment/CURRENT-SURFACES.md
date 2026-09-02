@@ -1,6 +1,6 @@
 # Environment / Operating Reality — CURRENT SURFACES
 
-**Status:** canonical local freshness binding after bounded Domain State child closure and repository cleanup  
+**Status:** canonical local freshness binding after bounded Domain State closure and deep repository verification  
 **Date:** 2026-09-02  
 **Branch:** `main`
 
@@ -9,11 +9,11 @@
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Stable purpose | `README.md` | `560b0de672f9620f4fa5fbabf915272a675cf61d` |
-| Ground state | `STATE.md` | `59d02d63c11904bdb70ea275e9c58d7770fc6dfd` |
+| Ground state | `STATE.md` | `59d02d63c11904b90ba451b6aa78f2fcf1ad2aba5` |
 | Ground router | `INDEX.md` | `cd5bb0118693bc16aaf4d9616b057d383f807202` |
 | L0 current Environment key | `KEY.md` | `2f074cd2688b3e8790ac6f3ec99997b3ac210a66` |
-| L1 current findings map | `FINDINGS-MAP.md` | `e6db7726ecc74ee6fc02f61b3d38639a5ad5e2e2` |
-| Historical Domain/Effect plan | `DOMAIN-EFFECT-RESEARCH-PLAN.md` | `5a98a2979ac782ddbe955a094ddf9248755babbf` |
+| L1 current findings map | `FINDINGS-MAP.md` | `15770dcbb8cd18b187f14202464b5594e6e9bb96` |
+| Executed Domain/Effect research plan | `DOMAIN-EFFECT-RESEARCH-PLAN.md` | `d10e5ef6d7ce9ff8a08084cc757c3b511f6e4603` |
 | Current residuals | `OPEN-QUESTIONS.md` | `cd13738716bd12716138d2531893b0fecf31d031` |
 | Parent deferred relations | `DEFERRED-RELATIONS.md` | `57e69d2d2607e0028478aaec662a6244f67d0a42` |
 
@@ -27,12 +27,14 @@ Findings tree: `bc38e888b077475c0e4461f8c530bc0920dbafcf`
 | Parent completion audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | `4761b1abb60e68a90b4ad71d5bd40d413803c7a7` |
 | Parent source ledger | `evidence/SOURCE-LEDGER.md` | `da594dfaf32430b6f51824396ccfa37b5fc8cf9b` |
 
+Focused findings/audit preserve pass-time labels where useful for research reconstruction. Current status/authorization comes from `STATE.md`, `KEY.md`, `FINDINGS-MAP.md` and this manifest.
+
 ## Current child results
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain Reality | boundedly sufficient; user-authorised for continuation | `domain-effect/CURRENT-SURFACES.md` @ `e1a7ee941d50da0985cd735741f0da21a27742ed` |
-| Domain State | boundedly sufficient; awaiting user evaluation | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `770ec2d9d30715be8015bc7ff7b392362e801b6d` |
+| Domain Reality | boundedly sufficient; user-authorised for continuation | `domain-effect/CURRENT-SURFACES.md` @ `9d873436f6b9ad22ea79f306264f1bd1d0fd72ec` |
+| Domain State | boundedly sufficient; awaiting user evaluation | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `2bbe824f4c868a45621f529199292eae51b2a6df` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
 | Domain Dynamics / Processes | inactive; not yet deepened | no current child package |
