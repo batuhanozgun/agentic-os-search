@@ -1,74 +1,82 @@
 # Domain Reality — STATE
 
-**Status:** BOUNDED DOMAIN REALITY RESULT USER-AUTHORISED FOR CONTINUATION; DOMAIN STATE / CONFIGURATION CHILD ACTIVE  
+**Status:** BOUNDED DOMAIN REALITY RESULT USER-AUTHORISED FOR CONTINUATION; DOMAIN STATE CHILD BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION  
 **Authorised:** 2026-09-02  
-**Bounded node closure:** 2026-09-02  
 **Parent:** Environment / Operating Reality  
 **Sibling:** Work Conditions / Enabling–Constraining Environment — inactive  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** substantive `Domain State / Configuration` child research only
+**Current authorised activity:** user evaluation of the `Domain State` child result only
 
-## Bounded Domain Reality result retained
+## Current Domain Reality hierarchy
 
 ```text
 Domain Reality
-    ├─ Domain State / Configuration               ← ACTIVE CHILD
-    └─ Domain Dynamics / Processes                ← inactive sibling
+    ├─ Domain State                               ← bounded result; awaiting user evaluation
+    │    ├─ Domain Structure / Composition       ← discovered; inactive
+    │    └─ Domain Condition / Status            ← discovered; inactive
+    └─ Domain Dynamics / Processes               ← inactive
 ```
 
 The prior label `Domain / Effect Reality` remains refined to `Domain Reality`.
 
 `Effect Reality` is not a separate immediate child: actual results are Domain State/trajectory, while intended outcome and causal effect/attribution are cross-ground relational/evidential questions.
 
-## Active child — Domain State / Configuration
+## Domain State result
 
-Plan:
-- `DOMAIN-STATE-RESEARCH-PLAN.md`
+The former `Domain State / Configuration` node is refined to `Domain State` because `configuration` spans structural arrangement, settings and documented baseline meanings.
 
-State:
-- `domain-state/STATE.md`
+Immediate children:
+- **Domain Structure / Composition** — actual constituents and realized composition/organization/topology;
+- **Domain Condition / Status** — actual properties/values/health/mode/status/standing.
 
-The child pass must test whether the current State/Configuration bundle survives deeper research, including whether:
-- Structure/Composition needs promotion;
-- Identity/Continuity needs promotion;
-- properties/status and relations/topology separate;
-- Constraints/Invariants need promotion;
-- granularity/sufficiency changes the decomposition;
-- a realized-condition/situation framing is stronger than `State`;
-- social/institutional state falsifies the actual-versus-particular-representation boundary.
+No third universal State child is currently required.
 
-Only immediate child discovery is authorised; deeper child research is not.
+Cross-cutting rather than promoted:
+- identity/continuity;
+- constraints/invariants;
+- granularity/state sufficiency;
+- reference/scope/time;
+- actual-versus-represented State;
+- observability/evidence/uncertainty;
+- causal explanation.
 
 ## Domain Dynamics sibling
 
-`Domain Dynamics / Processes` remains inactive. Its prior existence as a discovered sibling may be used only as a boundary/anti-collapse reference.
+`Domain Dynamics / Processes` remains inactive. Its existence may be used only as a boundary reference until explicitly authorised.
 
 ## Cross-ground boundaries retained
 
 ```text
 Domain Reality ≠ every target of Work
+Domain State ≠ one formal/model state vector
 actual Domain condition ≠ observation/model/specification/Record
 Domain Dynamics ≠ Work lifecycle
 after-state/change ≠ causal effect attribution
 intended outcome ≠ actual resulting condition
 ```
 
-Some institutional/social realities may depend on collective rules/attitudes/representations while remaining non-identical to any particular representation of them.
+## Current State route
+
+Plan:
+- `DOMAIN-STATE-RESEARCH-PLAN.md`
+
+Result:
+`domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → focused finding → completion/source recovery`
 
 ## One-active-node rule
 
-Do not activate Domain Dynamics, Work Conditions, Information, Work or Actors. They may be consulted only for bounded boundary tests/counterexamples/deferred relations.
+No substantive node is active while Domain State awaits user evaluation.
 
-Do not deep-research any Domain-State child discovered during this pass.
-
-## Current return condition
-
-Complete Domain State / Configuration to bounded immediate-child/leaf sufficiency or operational limit, persist the result, and return to user evaluation.
+Do not activate Domain Structure, Domain Condition, Domain Dynamics, Work Conditions, Information, Work or Actors.
 
 ## Verification status
 
-Same-model completion review is not independent verification. External sources may support discriminating claims but cannot by themselves validate the exact project hierarchy.
+Same-model completion review is not independent verification. External sources support discriminating claims but cannot independently validate the exact project hierarchy.
+
+## Current return condition
+
+User evaluates Domain State and decides whether it is reasonable enough for hierarchical continuation or needs targeted reopening.
 
 ## Next authorised work
 
-**DOMAIN STATE / CONFIGURATION RESEARCH ONLY.**
+**USER EVALUATION OF DOMAIN STATE ONLY.**
