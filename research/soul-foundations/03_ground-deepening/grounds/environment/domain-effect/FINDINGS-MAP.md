@@ -2,6 +2,8 @@
 
 **Status:** Domain Reality bounded result with Domain State child deepened; Domain State awaits user evaluation
 
+> **Pass-artifact provenance:** Focused findings, the executed research plan, source ledger and original completion audit preserve the labels/status current during the Domain Reality pass. Current hierarchy, authorization and epistemic status come from `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`; pass-time `active`, `candidate` or `Domain State / Configuration` wording is not current authorization.
+
 ## Fast route
 
 ### Domain Reality bounded result
