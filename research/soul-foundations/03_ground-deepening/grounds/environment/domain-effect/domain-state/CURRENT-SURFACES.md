@@ -1,6 +1,6 @@
 # Domain State — CURRENT SURFACES
 
-**Status:** canonical freshness binding for bounded Domain State immediate-child result  
+**Status:** canonical freshness binding for bounded Domain State immediate-child result after deep repository verification  
 **Date:** 2026-09-02  
 **Branch:** `main`
 
@@ -8,10 +8,11 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `4e36927d905361a8808d95d9d45ef54bc29c6cfd` |
+| Node state | `STATE.md` | `fee73cdc8a768b4a9e9fc6bfb879676b876dac1f` |
 | Router | `INDEX.md` | `86d9a6ac7a7c44282566c7b480871e96a3c1a38d` |
 | L0 key | `KEY.md` | `e51f022dceba988eb7d96246dc89b8f0f0c7a95c` |
-| L1 findings map | `FINDINGS-MAP.md` | `e78bc58a65b0041e9af4d53ee0a4c9c12e9905e2` |
+| L1 findings map | `FINDINGS-MAP.md` | `95ec65a65f6375e62cdf984bf013a9b0a1e7bdad` |
+| Executed research plan | `../DOMAIN-STATE-RESEARCH-PLAN.md` | `8f5cabdd360fee61cd31a230018591673c348f24` |
 | Residual questions | `OPEN-QUESTIONS.md` | `554a54fb344348b1bfb32502cd165f754c14235f` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `6b331ef678a46fb9aaeb20a0d9cab68073d4143e` |
 
@@ -31,16 +32,18 @@
 
 Findings tree: `d9d749dcc6d641abae5709ffd740aff5dbc16f83`
 
+Focused findings preserve pass-time candidate/provisional metadata where useful for reconstruction. `STATE.md`, `KEY.md`, `FINDINGS-MAP.md` and this manifest carry current status/authorization.
+
 ## Synthesis / audit / evidence
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Integrated synthesis | `synthesis/DOMAIN-STATE-SYNTHESIS.md` | `2fb261ec3a4522f8482421674d4c12e9c584eb9b` |
 | Completion / omission audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | `4564baf491b6f2b6a7465d26b19fc80ad1769348` |
-| Source/view ledger | `evidence/SOURCE-LEDGER.md` | `65d300f926a5ec71194295a554fdc258d416ae01` |
+| Preserved source/view ledger | `evidence/SOURCE-LEDGER.md` | `f9be4b1d2eeb9fb38b1a4826c94b20b406b9fa10` |
 
 Synthesis tree: `cae93528289779a262315f16141703d257407f57`  
-Evidence tree: `16beb7a87b34025746993331c700b10c3761aea5`
+Evidence tree: `6915ca57de1cf81debb3de9fc0a16e95b7cdd30f`
 
 ## Current bounded result
 
