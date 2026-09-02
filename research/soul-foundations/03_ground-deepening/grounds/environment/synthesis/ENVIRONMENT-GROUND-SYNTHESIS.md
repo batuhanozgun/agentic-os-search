@@ -1,14 +1,16 @@
 # Environment / Operating Reality — Ground Synthesis
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT GROUND-DEEPENING PURPOSE; AWAITING USER EVALUATION  
+**Status:** bounded Environment parent-pass synthesis; preserved as researched at parent depth; subsequently refined by child passes  
 **Date:** 2026-09-02  
 **Scope:** Environment ground deepening only; not Information/Work/Actors composition or architecture
 
+> **Subsequent refinement notice:** This document preserves the Environment parent pass as researched at that time. Later dedicated child passes refined `Domain / Effect Reality` to `Domain Reality`, then refined `Domain State / Configuration` to `Domain State` with `Domain Structure / Composition` and `Domain Condition / Status` as immediate children. For current hierarchy/status read `../STATE.md`, `../KEY.md`, `../domain-effect/STATE.md`, and `../domain-effect/domain-state/STATE.md`. The historical reasoning below is retained rather than retroactively rewritten.
+
 ## Executive conclusion
 
-The deeper pass **supports Environment / Operating Reality as a coherent top-level research ground**, but it materially refines the lower hierarchy inherited from `02_adequacy`.
+The deeper parent pass **supports Environment / Operating Reality as a coherent top-level research ground**, but materially refines the lower hierarchy inherited from `02_adequacy`.
 
-The strongest current Environment-specific decomposition is:
+The strongest decomposition at closure of this parent pass was:
 
 ```text
 Environment / Operating Reality                 [working parent label]
@@ -23,7 +25,7 @@ Environment / Operating Reality                 [working parent label]
                  = existing deep technical specialization
 ```
 
-The branch labels are provisional. The structural result is stronger than the terminology.
+The branch labels were provisional. The structural result was stronger than the terminology.
 
 This is a **research/problem hierarchy**, not a taxonomy of objects, architecture modules or schema classes.
 
@@ -81,7 +83,7 @@ Examples:
 
 The existing TWE research already included constraints, isolation, degradation, unavailability and capacity, so the previous *content* was broader than the branch name.
 
-Current stronger branch concept:
+Current stronger branch concept from this pass:
 
 > **Work Conditions / Enabling–Constraining Environment**
 
@@ -91,7 +93,7 @@ Technical Work Environment remains a deep specialization of this branch.
 
 # 3. Parent definition
 
-The strongest bounded formulation is:
+The strongest bounded formulation from this pass is:
 
 > **Environment / Operating Reality is the boundary- and reference-relative ground of realized conditions and dynamics that matter to focal Work because they constitute the reality/effect space the Work must understand, accommodate or change, and/or because they materially enable, constrain, degrade or otherwise shape execution.**
 
@@ -109,7 +111,7 @@ Environmental participation requires a defensible load-bearing coupling to targe
 
 # 4. Role A — Domain / Effect Reality
 
-Primary question:
+Primary question at parent depth:
 
 > **What actual reality is the Work about, trying to understand/change/maintain/navigate/accommodate, or using as the ground of real-world success and effects?**
 
@@ -135,6 +137,8 @@ Examples:
 > **Work closure/status ≠ actual domain effect.**
 
 A task can complete while the intended environmental result fails, remains partial or changes later.
+
+Later dedicated research refined this branch name and structure; follow the notice at the top for current routing.
 
 ---
 
@@ -172,7 +176,7 @@ These specialized technical semantics should not all be mechanically generalized
 
 ---
 
-# 6. No third first-order Environment branch currently required
+# 6. No third first-order Environment branch currently required at parent depth
 
 The pass explicitly tested:
 - physical environment;
@@ -188,8 +192,8 @@ The pass explicitly tested:
 - specified operating envelope;
 - unknown/uncertain environment.
 
-Current mapping rule:
-- matters because Work is about/affects/accommodates it → Domain/Effect;
+Mapping rule at this depth:
+- matters because Work is about/affects/accommodates it → Domain/Effect role;
 - matters because it shapes execution → Work Conditions;
 - both roles may apply;
 - neither → not load-bearing Environment merely by existence.
@@ -340,7 +344,7 @@ Strong analytical method, but usually broader/system-centric rather than the exa
 ## relation-only/no Environment ground
 Possible later representation, but insufficient as research decomposition because it does not force explicit investigation of realized state, dynamics, hidden conditions and actual effects.
 
-Current candidate survives best.
+Current candidate at parent closure survives best.
 
 ---
 
@@ -365,7 +369,7 @@ Later holdouts mostly produced:
 - cross-ground deferrals;
 rather than new Environment-local first-order families.
 
-This supports bounded completion.
+This supports bounded completion of the parent pass.
 
 ---
 
@@ -373,7 +377,7 @@ This supports bounded completion.
 
 The Environment ground gives later reasoning a disciplined way to ask two complementary questions for any focal Work:
 
-1. **Domain/effect:** what actual reality is this Work about and what real-world state/effect matters?
+1. **Domain:** what actual reality is this Work about and what realized state/change matters?
 2. **Conditions of execution:** under what actual conditions/resources/interfaces/constraints can it be carried out?
 
 Then separately, in other grounds/later composition:
@@ -384,16 +388,16 @@ Then separately, in other grounds/later composition:
 This is not yet a SOUL module design.
 
 For Development OS, the distinction naturally separates:
-- actual product/system/repository behavior as Domain/Effect reality;
+- actual product/system/repository behavior as Domain Reality;
 - GitHub/CI/runtimes/credentials/workspaces/etc. as technical execution conditions when used as support.
 
 For general-purpose SOUL, the same grammar survives physical, clinical, scientific, institutional and hybrid cases.
 
 ---
 
-# 16. Naming judgment
+# 16. Naming judgment at parent closure
 
-The structure is more stable than the label.
+The structure was more stable than the label.
 
 Retain for now:
 
@@ -401,21 +405,21 @@ Retain for now:
 
 as a paired working parent label.
 
-Current lower labels:
+Parent-pass lower labels were:
 - **Domain / Effect Reality**;
 - **Work Conditions / Enabling–Constraining Environment**.
 
-Do not standardize terminology into architecture until later synthesis.
+The first was subsequently refined by dedicated child research. Do not standardize terminology into architecture until later synthesis.
 
 ---
 
-# 17. Epistemic status
+# 17. Epistemic status of this parent pass
 
-## Strong enough for current Environment-ground purpose
+## Strong enough for Environment-parent purpose
 
 - a coherent Environment / Operating Reality top-level problem ground survives reduction;
 - one parent is stronger than separate top-level Domain and TWE peers;
-- two explicit non-exclusive first-order roles are currently sufficient;
+- two explicit non-exclusive first-order roles are sufficient at this level;
 - `Work-Support Environment` needs broadening to include enabling and constraining execution conditions;
 - Technical Work Environment remains a valid deep specialization;
 - realized state/dynamics are distinct from specifications/observations/models/Records;
@@ -423,7 +427,7 @@ Do not standardize terminology into architecture until later synthesis.
 - no third Environment first-order branch emerged from current cross-domain holdouts;
 - Environment is productive as a research decomposition without becoming an object/module taxonomy.
 
-## Still open
+## Questions carried forward
 
 - final parent/branch names;
 - formal environmental participation/materiality threshold;
@@ -436,14 +440,16 @@ Do not standardize terminology into architecture until later synthesis.
 - cross-ground relation/control model;
 - architecture representation.
 
+Current residuals after child refinement live in `../OPEN-QUESTIONS.md` and child-local residual files.
+
 ## Verification limit
 
 The final completion/omission check is same-model adversarial review, not independent verification. External sources are cross-lineage evidence but none independently validates this exact project synthesis.
 
 ---
 
-# Bounded answer
+# Bounded answer of the parent pass
 
-> **Environment / Operating Reality survives as one of the four top-level research grounds. The strongest current internal structure is not simply `Operating World + Work-Support Environment`; it is two non-exclusive roles: `Domain / Effect Reality` and broader `Work Conditions / Enabling–Constraining Environment`, with the completed Technical Work Environment corpus retained as a deep technical specialization of the second role.**
+> **Environment / Operating Reality survives as one of the four top-level research grounds. At parent closure its strongest internal structure was two non-exclusive roles: `Domain / Effect Reality` and broader `Work Conditions / Enabling–Constraining Environment`, with the completed Technical Work Environment corpus retained as a deep technical specialization of the second role.**
 >
-> **The ground is fundamentally about realized, boundary-relative conditions/dynamics and their coupling to Work, not about environmental object types or representations of those conditions.**
+> **Later child research refined the first role; use current State/Key/router surfaces for the latest hierarchy.**
