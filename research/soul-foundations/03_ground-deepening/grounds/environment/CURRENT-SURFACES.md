@@ -33,7 +33,7 @@ Focused findings/audit preserve pass-time labels where useful for research recon
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain Reality | boundedly sufficient; user-authorised for continuation | `domain-effect/CURRENT-SURFACES.md` @ `9d873436f6b9ad22ea79f306264f1bd1d0fd72ec` |
+| Domain Reality | boundedly sufficient; user-authorised for continuation | `domain-effect/CURRENT-SURFACES.md` @ `2d694f7a3fe99e823b7efada1c5fdb3f2f67a030` |
 | Domain State | boundedly sufficient; awaiting user evaluation | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `2bbe824f4c868a45621f529199292eae51b2a6df` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
