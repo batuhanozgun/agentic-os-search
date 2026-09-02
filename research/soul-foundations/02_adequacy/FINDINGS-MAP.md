@@ -1,7 +1,7 @@
 # Four-Foundation Adequacy — FINDINGS MAP
 
 **Role:** current retrieval map  
-**Status:** bounded current inquiry result after Environment hierarchy refinement; awaiting user evaluation
+**Status:** bounded current inquiry result after Environment hierarchy refinement; USER-EVALUATED / ACCEPTED AS WORKING RESEARCH HYPOTHESIS
 
 ## Fast route
 
@@ -40,11 +40,11 @@ L4B source ledgers
 L5  exact primary / authoritative source
 ```
 
-## Current central result
+## Accepted current central result
 
-The original four independent studies are useful, separable and productive but were not level-aligned as an exhaustive top map.
+The original four independent studies were useful, separable and productive but were not level-aligned as an exhaustive top map.
 
-Current strongest hierarchy:
+The user accepted the following as the current **working research hierarchy** on 2026-09-02:
 
 ```text
 Environment / Operating Reality                 [working label]
@@ -61,14 +61,14 @@ Actors / Agency–Participation–Authority
 + typed relations / control / transitions
 ```
 
-Important: `World` and `Technical Work Environment` remain distinct lower problems. The refinement changes their **parent/peer level**, not their semantic difference.
+Important: acceptance means the project will use this hierarchy to plan deeper research. It does not establish architecture, final ontology, universal completeness or equal depth requirements across the four grounds.
 
 ## Current versus prior closure
 
 The first adequacy closure preferred five peer grounds. The user later raised a materially different parent/branch hypothesis that survived dedicated cross-lineage and boundary-leak tests.
 
 Therefore:
-- current hierarchy authority → `ADEQUACY-SYNTHESIS.md` + `ENVIRONMENT-HIERARCHY-REFINEMENT-CHECK.md`;
+- current hierarchy authority → `STATE.md`, `KEY.md`, `ADEQUACY-SYNTHESIS.md` + `ENVIRONMENT-HIERARCHY-REFINEMENT-CHECK.md`;
 - `COMPLETENESS-OMISSION-CHECK.md` is the preserved prior broad-adequacy closure and is superseded only on this parent/peer question.
 
 ## Important anti-drift rules
@@ -80,4 +80,5 @@ Therefore:
 - Do not interpret Records as invalidated; it remains the deep persistence branch.
 - Do not dissolve Technical Work Environment; its lower research is still first-order/productive.
 - Do not promote relation/control into a peer category without new evidence.
-- Do not open architecture or implementation merely because the hierarchy is more coherent.
+- Do not assume all four grounds require the same number of research layers.
+- Do not open architecture or implementation merely because the hierarchy has been accepted as a working research frame.
