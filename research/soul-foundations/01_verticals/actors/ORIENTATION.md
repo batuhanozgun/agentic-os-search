@@ -1,22 +1,26 @@
 # Actors — Initial Research Orientation
 
-**Status:** active working orientation; not evidence; not synthesis  
+**Status:** HISTORICAL — initial working orientation; not evidence; not current synthesis  
 **Date:** 2026-09-01
 
-## 1. Established context
+> This file preserves the starting hypotheses and rival frames used to begin the Actors research. For the current result, read `KEY.md`, `FINDINGS-MAP.md` and `synthesis/ACTORS-VERTICAL-SYNTHESIS.md`.
 
-The following is established by current project state and explicit user authorisation, not by Actors research evidence:
+## 1. Established context at research start
 
-- `Actors` is the current authorised independent Layer-1 research line.
-- `Actors` is only a provisional research label.
-- Records and Work are complete enough for the current foundation purpose but their substantive findings are not Actors axioms.
-- Cross-vertical relations may be recorded but not solved here.
-- No cross-vertical synthesis, SOUL architecture, implementation, or later research layer is authorised by this work.
-- Bounded completion requires strong alternative frames, source recovery, targeted omission/counter-check work, progressive retrieval closure, freshness/version protection, and a return to the user for evaluation.
+The following was established by project state and explicit user authorisation at the time this research began, not by Actors research evidence:
+
+- `Actors` was the authorised independent Layer-1 research line.
+- `Actors` was only a provisional research label.
+- Records and Work were complete enough for the then-current foundation purpose but their substantive findings were not Actors axioms.
+- Cross-vertical relations could be recorded but not solved here.
+- No cross-vertical synthesis, SOUL architecture, implementation, or later research layer was authorised by this work.
+- Bounded completion required strong alternative frames, source recovery, targeted omission/counter-check work, progressive retrieval closure, freshness/version protection, and a return to the user for evaluation.
+
+These statements are historical research-start context. Current parent authorisation must be recovered from `../../STATE.md` and `../../INDEX.md`.
 
 ## 2. Weak working hypotheses
 
-These hypotheses exist to create falsifiable research directions. They are not accepted conclusions.
+These hypotheses existed to create falsifiable research directions. They were not accepted conclusions.
 
 H1. The problem region may involve several separable phenomena that are often collapsed into one `Actor` notion: identity, action participation, decision, authority, capability, responsibility, accountability, representation, delegation, membership and collective action.
 
@@ -28,47 +32,47 @@ H4. Collective and institutional action may not reduce cleanly either to one ind
 
 H5. Non-human systems may require context-specific participation or attribution semantics rather than a universal yes/no decision about whether they are Actors.
 
-## 3. Strong alternative frames to test
+## 3. Strong alternative frames tested
 
-These are rival starting frames. None is preferred yet.
+These were rival starting frames. None was preferred at the outset.
 
 ### A. Entity-centred Actor frame
 
 Primitive candidate: a persistent entity that bears identity, roles, capabilities, authority, responsibility and other attributes.
 
-Risk to test: this frame may reify a stable Actor and hide context, temporal variation, attribution rules, collective structure, and event-specific participation roles.
+Risk tested: this frame may reify a stable Actor and hide context, temporal variation, attribution rules, collective structure, and event-specific participation roles.
 
 ### B. Role / position / relation frame
 
 Primitive candidate: positions in social, organisational or normative relations. A person or system counts as an Actor only through the role or relation occupied in a context.
 
-Risk to test: may under-represent persistent identity, individual agency, cross-context continuity, or emergent collective action.
+Risk tested: may under-represent persistent identity, individual agency, cross-context continuity, or emergent collective action.
 
 ### C. Action-event / participation frame — explicit non-Actor-centred alternative
 
 Primitive candidate: action, decision or commitment events plus participation roles such as initiator, performer, decider, authoriser, principal, representative, recipient, beneficiary or accountable party. `Actor` becomes a derived label for a participant in one or more event-specific relations.
 
-Risk to test: may fragment durable responsibility, institutional identity, standing authority and latent capability into event-local facts.
+Risk tested: may fragment durable responsibility, institutional identity, standing authority and latent capability into event-local facts.
 
 ### D. Institutional attribution frame
 
 Primitive candidate: constitutive and regulative rules that attribute actions, decisions, obligations and accountability to persons, offices, organisations or other units. Organisational agency is not assumed to be reducible to individual action or to exist independently of attribution rules.
 
-Risk to test: may over-normativise cases where causal capacity, skill, embodiment or autonomous behaviour matters independently of formal rules.
+Risk tested: may over-normativise cases where causal capacity, skill, embodiment or autonomous behaviour matters independently of formal rules.
 
 ### E. Authorisation / control frame
 
 Primitive candidate: principals, subjects, roles, sessions, permissions, capabilities, constraints and delegation relations. The key question is not `who is the Actor?` but `under what authority and context can which subject cause which protected action?`
 
-Risk to test: may model permitted system action well while missing responsibility, intentionality, collective decision, competence and informal practice.
+Risk tested: may model permitted system action well while missing responsibility, intentionality, collective decision, competence and informal practice.
 
 ### F. Distributed socio-technical agency frame
 
 Primitive candidate: coupled human–technical arrangements in which action and control are distributed across people, artefacts, routines, software and organisational structure.
 
-Risk to test: may make attribution, accountability and explicit authority too diffuse for practical representation.
+Risk tested: may make attribution, accountability and explicit authority too diffuse for practical representation.
 
-## 4. Open questions
+## 4. Open questions at research start
 
 - What phenomena survive across materially different disciplines and use cases without assuming a single Actor ontology?
 - Is persistent identity a foundational requirement or merely one resource used to connect event-specific participation across time?
@@ -81,9 +85,9 @@ Risk to test: may make attribution, accountability and explicit authority too di
 - Are responsibility and accountability properties of entities, relations to norms/decision rights, or post-event attribution practices?
 - Which dimensions are Actors-local and which should be deferred to later relations with Work, Records, governance or environment?
 
-## 5. Decision-critical assumptions to resolve
+## 5. Decision-critical assumptions challenged
 
-A1. **Analysis-unit assumption:** whether a persistent Actor entity is necessary as the primary unit. If false, the repository's entire conceptual organisation could change.
+A1. **Analysis-unit assumption:** whether a persistent Actor entity is necessary as the primary unit.
 
 A2. **Identity-continuity assumption:** whether one stable identifier can safely connect role, authority, responsibility and action across contexts and time.
 
@@ -99,9 +103,9 @@ A7. **Human-default assumption:** whether human individual agency is a neutral b
 
 A8. **Context-independence assumption:** whether capacity, authority, role and accountability are stable Actor properties rather than context-, relation- and time-bound facts.
 
-## 6. First evidence priority
+## 6. Initial evidence priority
 
-The first evidence pass should maximise discrimination among the alternative frames rather than accumulate terminology. Priority is evidence that can separate:
+The first evidence pass was designed to maximise discrimination among the alternative frames rather than accumulate terminology. Priority was evidence that could separate:
 
 1. entity identity from event participation;
 2. capability/competence from permission/authority;
@@ -111,4 +115,4 @@ The first evidence pass should maximise discrimination among the alternative fra
 6. direct action from action on behalf of another;
 7. human-centred agency from distributed or non-human participation.
 
-Research direction should change if early evidence exposes a more fundamental distinction than these.
+For the evidence-driven result of that process, use the current synthesis rather than this historical orientation.
