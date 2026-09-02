@@ -1,14 +1,8 @@
 # Ground Deepening — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Domain Reality node closure  
+**Status:** canonical freshness binding after bounded Domain Reality closure and routing sync  
 **Date:** 2026-09-02  
 **Branch:** `main`
-
-## Purpose
-
-Bind current stage surfaces so a fresh session does not mistake the earlier Domain/Effect plan, an active-node checkpoint or discovered children for current authorization.
-
-Parent project authorization remains in `../STATE.md` and `../INDEX.md`.
 
 ## Bound stage surfaces
 
@@ -24,8 +18,8 @@ Parent project authorization remains in `../STATE.md` and `../INDEX.md`.
 
 | Ground / node | Status | Freshness surface |
 |---|---|---|
-| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `804b73d347dcc0656f167174ea07202429b2fd1d` |
-| Domain Reality | boundedly sufficient; awaiting user evaluation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `e9c4329675eb043eb663478e28cc63f54cbd7bb9` |
+| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `9aeeb38c14ea15251e7590e11d1a7a0a699e759e` |
+| Domain Reality | boundedly sufficient; awaiting user evaluation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `74f893b631700d89bdfd409382aa6fc2c9383e86` |
 | Domain State / Configuration | discovered; inactive | no child package |
 | Domain Dynamics / Processes | discovered; inactive | no child package |
 | Work Conditions / Enabling–Constraining Environment | inactive | no current child package |
@@ -33,19 +27,11 @@ Parent project authorization remains in `../STATE.md` and `../INDEX.md`.
 | Work | inactive | no `03` package created |
 | Actors | inactive | no `03` package created |
 
-## Current rule
-
-Preferred route:
-
-`STATE → HIERARCHICAL-DEEPENING-METHOD → current ground STATE → current node STATE/KEY → synthesis`
-
-Current status:
+## Current status
 
 > **No substantive node is active. Domain Reality is closed for bounded immediate-child research and awaits user evaluation.**
 
-Discovered State/Dynamics children are not authorised automatically.
-
-## Current hierarchy
+Current tree:
 
 ```text
 Environment / Operating Reality
@@ -56,11 +42,12 @@ Environment / Operating Reality
          └─ Technical Work Environment
 ```
 
+Discovered State/Dynamics children are not automatically authorised.
+
+## Preferred retrieval
+
+`STATE → HIERARCHICAL-DEEPENING-METHOD → Environment STATE/KEY → Domain Reality STATE/KEY → synthesis → audit/source recovery`
+
 ## Update rule
 
-If any bound stage surface changes materially:
-1. re-fetch the path;
-2. update its SHA here;
-3. recheck parent `STATE.md` and `INDEX.md`;
-4. recheck Environment and current node manifests;
-5. never let node closure or child discovery silently authorize next-node research.
+If any bound stage surface changes materially, re-fetch and refresh this manifest, recheck parent/Environment/node surfaces, and never let node closure or child discovery silently authorize next-node research.
