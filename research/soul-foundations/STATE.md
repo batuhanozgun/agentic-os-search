@@ -1,10 +1,9 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; four intended independent foundation corpora are sufficiently complete and user-evaluated for the current foundation purpose  
+**Status:** active research library; four independent vertical corpora are user-evaluated and the top-level adequacy inquiry is boundedly sufficient, awaiting user evaluation  
 **Repository cleanup/currentness verification:** COMPLETE on 2026-09-02  
-**Current authorised substantive activity:** four-foundation adequacy inquiry — test whether Records, Work, Actors and Technical Work Environment provide a sufficient top-level analytical/problem-ground decomposition for later SOUL and Development OS reasoning  
-**Current step:** frame the adequacy test with the user before broad comparative research; do not assume the four-area hypothesis is true  
-**Current return condition:** reach a bounded, evidence-backed judgment on adequacy/coverage/separability/productive-decomposition and return it to the user before opening lower-level SOUL/Development OS design branches
+**Current authorised substantive activity:** USER EVALUATION of the adequacy result only  
+**Current return condition:** user evaluates whether the bounded adequacy result is accepted before any new foundation or composition research begins
 
 ## Dependency state
 
@@ -12,107 +11,146 @@
 - **Records / persistent information:** SUFFICIENTLY COMPLETE; USER-EVALUATED; READING PACKAGE CLOSED.
 - **Work:** SUFFICIENTLY COMPLETE; USER-EVALUATED; RETRIEVAL CLOSURE COMPLETE.
 - **Actors:** SUFFICIENTLY COMPLETE; USER-EVALUATED; RETRIEVAL CLOSURE COMPLETE.
-- **Technical Work Environment / Teknik Çalışma Ortamı:** SUFFICIENTLY COMPLETE; USER-EVALUATED.
-- **Earlier broad Environment / operating-world research:** SUPERSEDED FOR THE INTENDED FOURTH-REGION PURPOSE; archived as historical research only.
-- **Cross-foundation adequacy inquiry:** AUTHORISED on 2026-09-02; current framing question is whether the four intended corpora are sufficient and productive as top-level analytical/problem grounds for later SOUL and Development OS work.
+- **Technical Work Environment:** SUFFICIENTLY COMPLETE; USER-EVALUATED.
+- **Four-foundation adequacy inquiry:** BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION in `02_adequacy/`.
+- **Earlier broad Environment / operating-world research:** SUPERSEDED FOR THE INTENDED FOURTH-VERTICAL PURPOSE; archived as historical research only.
+- **New Operating World / Work Domain foundation pass:** logical next candidate, NOT AUTHORISED.
+- **New Information / Representation State foundation pass:** logical next candidate, NOT AUTHORISED.
+- **Relation/control composition research:** logical later candidate, NOT AUTHORISED.
 - **SOUL/Development OS architecture, final ontology/data model, implementation:** NOT AUTHORISED.
 
-## Adequacy inquiry
+## Current adequacy result
 
-### Current question
+Question:
 
-> Do Records, Work, Actors and Technical Work Environment provide a sufficient and productive top-level analytical/problem-ground decomposition for reasoning about later SOUL and Development OS structure, or does the evidence require a different decomposition, an additional first-order region, or a distinct relation/control plane?
+> Do Records, Work, Actors and Technical Work Environment provide a sufficient and productive top-level analytical/problem-ground decomposition for later SOUL and Development OS reasoning?
 
-### Working success criteria
+Bounded answer:
 
-The four-area hypothesis is not accepted merely because important examples can be fitted into the four labels.
+> **The original four are genuine, separable and productive problem regions, but their current scopes are not sufficient as an exhaustive top-level analytical map.**
 
-The inquiry must test at least:
+The strongest current level-aligned research hypothesis is:
 
-1. **Coverage / adequacy:** can decision-critical SOUL and Development OS problem families be expressed within the four areas or genuinely relationally among them without hiding a distinct first-order region?
-2. **Separability:** do the four areas carry meaningfully distinct questions, or is one reducible to another / better represented differently?
-3. **Productive decomposition:** does each area open coherent lower-level research/design questions rather than merely serving as a broad bucket?
-4. **Rival decomposition:** is there a materially better top-level split?
-5. **SOUL vs Development OS independence:** a decomposition may be adequate for one and inadequate for the other; do not force a shared answer.
+```text
+Operating World / Work Domain / Domain Reality
+Information / Representation State
+    └─ Records / Persistent Information as a deep persistence branch
+Work
+Actors / Agency–Participation–Authority
+Technical Work Environment
 
-### Evidence strategy
++ typed relations / control / transitions across grounds
+```
 
-The first problem inventory should be extracted **without using the four current labels as the organizing frame**. Only after the inventory exists should it be mapped against Records / Work / Actors / Technical Work Environment and their relations.
+This is a research map, not a five-module architecture, final ontology or schema.
 
-Use distinct evidence roles:
+### Material correction 1 — Operating World / Work Domain
 
-- `research/soul-context/repos/soul/` — current explicit SOUL intent and Development OS first-party evidence;
-- `research/soul-context/repos/os-architect/` — historical lived failures, work-discipline problems, owner corrections and KEEL-development experience;
-- `research/soul-context/repos/keel/` — concrete predecessor mechanisms and the failure/problem pressures they attempted to address;
-- `research/soul-context/repos/keel-research/` — bounded predecessor prior-art only when relevant; not SOUL authority;
-- four current independent foundation corpora — tested only after unconstrained problem extraction, not used to seed the initial problem inventory;
-- external/independent cases or literature — used as holdouts/counterexamples where needed so the adequacy judgment does not become circular within one project lineage.
+Actual domain/world/process state can exist and change independently of:
+- Records/observations/models about it;
+- Work performed on it;
+- Actors participating;
+- the technical support setting used to perform Work.
 
-Predecessor mechanisms are evidence of experienced problems and attempted solutions, **not privileged architecture defaults**. SOUL's current documents are first-party evidence of intent and known requirements, but cannot by themselves prove the completeness of the four-area decomposition. KEEL/os-architect/SOUL share lineage and therefore can share omissions; cross-lineage challenge remains necessary for a strong adequacy judgment.
+The gap survived internal mapping, archived operating-world falsifier recovery, rival decomposition tests and cross-lineage holdouts including Cognitive Work Analysis, STAMP/control and agent–environment traditions.
 
-### Current methodological guardrail
+### Material correction 2 — Records level alignment
 
-Do not begin by asking `where does this fit among the four?`.
+Records correctly addresses persistent information, but a general-purpose working system also needs semantics for:
+- observations/signals;
+- beliefs/models/claims/inferences;
+- transient/selective context;
+- uncertainty/conflict;
+- decisions about what later becomes persistent.
 
-Begin by asking:
+Current hypothesis: `Information / Representation State` is the broader top-level problem ground, with the existing Records corpus retained as its deep persistence branch.
 
-> What first-order problems must a system like SOUL or a development system like Development OS be able to reason about, govern, preserve, perform, constrain, observe, verify, recover from or adapt to?
+### Material correction 3 — relation/control fabric
 
-Then test the four-area hypothesis against the independently produced problem set.
+Authority, dependency, provenance, observation, feedback, access, verification, delegation, constraint and transition semantics are structurally necessary across grounds.
+
+Current evidence supports an explicit typed relation/control/transition fabric, **not** one generic peer `Governance/Control` bucket.
+
+## Original four remain preserved
+
+The adequacy correction does not invalidate the four completed studies:
+
+- Records remains the deep persistence research corpus;
+- Work remains a distinct first-order problem region;
+- Actors remains a distinct first-order agency/participation/authority region;
+- Technical Work Environment remains a distinct first-order technical support-context region.
+
+The correction concerns top-level sufficiency and analytical level, not the validity of those bounded results.
+
+## Development OS versus general-purpose SOUL
+
+### Development OS
+
+The original four are operationally strong and near-adequate because software development is heavily informational and technical.
+
+They are still not cleanly exhaustive because:
+- the system/product under development is distinct from development Work, representations and technical support setting;
+- transient/selective context and reasoning state exceed persistent Records.
+
+The corrected five-ground hypothesis fits more cleanly.
+
+### General-purpose SOUL
+
+The original four are insufficient as an exhaustive top-level map. Partially observed and independently changing physical, clinical, market, scientific, operational and other domains make the domain/world and representation distinctions load-bearing.
+
+## Adequacy inquiry completion basis
+
+The inquiry used:
+
+1. unconstrained SOUL/Development OS problem extraction before four-label mapping;
+2. current SOUL first-party intent and Development OS evidence;
+3. OS Architect / KEEL lived failure and mechanism history without treating predecessor architecture as truth;
+4. all four current vertical corpora after the independent inventory existed;
+5. the archived broad Environment result only as a falsifier/candidate missing-region input;
+6. cross-lineage holdouts from Work System Theory, W3C PROV, Cognitive Work Analysis, STAMP/STPA, agent–environment/POMDP, BDI, situation awareness, Activity Theory, NASA systems engineering and FRAM;
+7. rival decompositions;
+8. focused Information/Representation boundary analysis;
+9. separate Development OS and SOUL adequacy judgments;
+10. a targeted omission challenge over goals, governance, organization, communication, strategy, outputs/customers, resources/economics, risk/safety, time/space, evolution, system boundary, nontechnical support, generic entities, semantics and uncertainty.
+
+The final targeted omission pass exposed no additional peer problem region; later evidence increasingly improved boundary/mapping clarity rather than opening a new family.
+
+## Verification limit
+
+The final completeness/omission pass is **same-model adversarial self-review, not independent verification**.
+
+External sources are cross-lineage evidence, but no external source independently validates the exact corrected five-ground synthesis.
+
+Universal exhaustive completeness is therefore not established.
+
+## Adequacy retrieval
+
+Current adequacy package:
+- `02_adequacy/STATE.md`
+- `02_adequacy/KEY.md`
+- `02_adequacy/FINDINGS-MAP.md`
+- `02_adequacy/synthesis/ADEQUACY-SYNTHESIS.md`
+- `02_adequacy/synthesis/COMPLETENESS-OMISSION-CHECK.md`
+- `02_adequacy/evidence/SOURCE-LEDGER.md`
+- `02_adequacy/CURRENT-SURFACES.md`
+
+Preferred route:
+
+`02_adequacy/STATE → KEY/FINDINGS-MAP → ADEQUACY-SYNTHESIS → focused finding → audit/source recovery`
 
 ## Current independent foundation library
 
-### Records / persistent information
-
-Canonical vertical:
+Active independent verticals remain:
 - `01_verticals/records-artifacts/`
-
-Current synthesis:
-- `01_verticals/records-artifacts/synthesis/RECORDS-VERTICAL-SYNTHESIS.md`
-
-The research is user-evaluated, its reading package is closed, and its vertical-local state does not carry parent-level next-work authorization.
-
-Reopen only on explicit direction or a material later falsifier.
-
-### Work
-
-Canonical vertical:
 - `01_verticals/work/`
-
-Current synthesis:
-- `01_verticals/work/synthesis/WORK-VERTICAL-SYNTHESIS.md`
-
-The research remains bounded-complete, user-evaluated and available for selective recovery.
-
-### Actors
-
-Canonical vertical:
 - `01_verticals/actors/`
-
-Current synthesis:
-- `01_verticals/actors/synthesis/ACTORS-VERTICAL-SYNTHESIS.md`
-
-The research remains bounded-complete, user-evaluated and available for selective recovery.
-
-### Technical Work Environment
-
-Canonical vertical:
 - `01_verticals/work-environment/`
 
-Current synthesis:
-- `01_verticals/work-environment/synthesis/WORK-ENVIRONMENT-VERTICAL-SYNTHESIS.md`
-
-Strongest bounded result:
-
-> **A Technical Work Environment is a bounded realized technical support context in which a selected set of capabilities, services, resources and interfaces are effectively available under particular constraints, configuration and current state. It may, but need not, have an explicit profile/definition.**
-
-The research does not require an intrinsic `Environment` object class. A later representation may be relational/compositional while the technical-environment problem remains first-order.
+Do not rename/reorganize these corpora merely because adequacy research produced a broader candidate map. They are evidence packages with their own bounded questions and should remain stable until a later explicit research-library decision.
 
 ## Superseded operating-world research
 
-The earlier broad Environment pass researched a different question: a boundary-relative operating world/external-state problem.
-
-That corpus is preserved byte-for-byte under:
+The earlier broad Environment pass is preserved byte-for-byte under:
 - `history/superseded/operating-world-environment/corpus/`
 
 Archive interpretation:
@@ -121,70 +159,48 @@ Archive interpretation:
 Archived corpus tree SHA:
 - `93fe3fc6810b6f6472539583e46144db2803ce17`
 
-This matches the former active Environment tree at archival time.
+It is prior research/falsifier material for a possible future Work-Domain pass, **not** automatically the finished new foundation.
 
-It is not one of the four current intended foundation corpora and must not be used as evidence for the Technical Work Environment result.
+## Historical handoffs / cleanup closure
 
-## Historical handoffs
+Historical transition files remain under `history/handoffs/`; there is no current parent handoff.
 
-Point-in-time transition/handoff files are archived under:
-- `history/handoffs/`
+The 2026-09-02 cleanup/currentness verification remains closed:
+- active `01_verticals/` contains exactly the four evaluated independent corpora;
+- historical broad Environment is outside active verticals;
+- current vertical manifests were verified after cleanup;
+- current parent authority is this `STATE.md` plus `INDEX.md`.
 
-They preserve what was current at those checkpoints. Their internal `current` language is historical and does not override this state.
+## Epistemic position
 
-There is **no current parent handoff**. Current parent authority is `STATE.md` plus routing through `INDEX.md`.
+### Established strongly enough for current research purpose
 
-## Cleanup / currentness verification closure
+- the four completed verticals are real/separable/productive problem regions;
+- original-four exhaustive sufficiency is not supported;
+- Operating World / Work Domain is a strong missing-ground result;
+- persistent Records does not exhaust Information / Representation State;
+- typed relation/control/transition structure is essential to composition;
+- corrected five-ground hypothesis explains current internal and external holdouts better than the unchanged four.
 
-The 2026-09-02 cleanup was performed to prevent fresh-session drift between current research state and historical repository state, without deleting substantive research history.
+### Still hypothesis / open
 
-Verification established:
-
-1. `research/soul-foundations/` root contains only current parent surfaces plus `00_context/`, `01_verticals/` and `history/`;
-2. active `01_verticals/` contains exactly the four intended corpora: `records-artifacts/`, `work/`, `actors/`, `work-environment/`;
-3. the superseded broad Environment corpus is absent from active verticals and preserved byte-for-byte in history;
-4. historical parent handoffs are absent from the current root and live only under `history/handoffs/`;
-5. Records, Work, Actors and Technical Work Environment local states no longer carry stale parent next-work/evaluation authority;
-6. Work, Actors, Records and Technical Work Environment currentness manifests/revision bindings were checked against current repository blob SHAs after the cleanup; all bound current surfaces matched at closure;
-7. Technical Work Environment evidence ledgers were moved under `evidence/sources/` with their original blob identities preserved;
-8. historical/orientation/audit surfaces that remain within active vertical packages are explicitly classified as historical/audit/plan rather than preferred current conclusions;
-9. no known current route depends on the removed active `environment/` path or a current parent handoff.
-
-Repository code-search results were used only as a supplementary stale-reference probe, not as the sole verification method, because external/search indexes can lag repository state.
-
-**Closure judgment:** no known repository-currentness drift remains on the canonical fresh-session route at this checkpoint.
-
-This is a repository-state/currentness judgment, not independent verification of the substantive research findings themselves.
-
-## Current epistemic position
-
-Established at independent-research level:
-- the bounded results preserved inside each of the four active vertical corpora;
-- each vertical's explicit verification/source limitations.
-
-Not established merely by completing those corpora:
-- that the four labels are exhaustive ontology classes;
-- that they are mutually exclusive modules;
-- that one cross-foundation relation/control/coordination fabric is the correct next model;
-- that the same concrete structures recur across Development OS, SOUL and task-specific systems;
-- any final SOUL or Development OS architecture, schema or implementation.
-
-Historical cross-foundation statements about recurrence, relation/control/coordination or the old broad Environment remain hypotheses/inferences unless later explicitly re-evaluated against the current four intended corpora.
-
-## Retrieval/currentness rule
-
-For current parent-level orientation:
-
-`STATE.md → INDEX.md → required active vertical INDEX → KEY/FINDINGS-MAP → descend only as needed`
-
-Do not enter `history/` unless historical/audit recovery is intentional.
+- final names and exact boundaries of Operating World and Information/Representation;
+- universal completeness of the corrected five;
+- exact relation/control taxonomy;
+- final SOUL/Development OS architecture or data model;
+- one-to-one mapping between research grounds and implementation components.
 
 ## Next logical work
 
-Within the authorised adequacy inquiry, the next logical work is to construct an unconstrained SOUL problem inventory and an unconstrained Development OS problem inventory from current first-party intent, predecessor lived failures/mechanisms and independent challenge evidence, without organizing the inventory under the four current foundation labels. The inventories should then be mapped against the four areas and their genuine relations, followed by missing-region/reduction/rival-decomposition stress tests.
+If the user accepts the adequacy result, the highest-information next research sequence is:
+
+1. independent foundation research into `Operating World / Work Domain` from the corrected question;
+2. independent foundation research into `Information / Representation State`, using Records as preserved persistence evidence rather than restarting it blindly;
+3. rerun top-level adequacy;
+4. then investigate typed relation/control composition before architecture.
 
 ## Next authorised work
 
-**Four-foundation adequacy inquiry only.**
+**USER EVALUATION OF THE ADEQUACY RESULT.**
 
-Do not yet open lower-level SOUL/Development OS architecture, final ontology/data-model design or implementation. Do not treat predecessor repository organization or current four foundation labels as architecture defaults.
+Do not automatically begin either proposed foundation pass, relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
