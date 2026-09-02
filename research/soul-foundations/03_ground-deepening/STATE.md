@@ -1,113 +1,101 @@
 # Ground Deepening — STATE
 
-**Status:** RESEARCH PROGRAM USER-ACCEPTED; NO SUBSTANTIVE GROUND RESEARCH STARTED  
+**Status:** ACTIVE — ENVIRONMENT / OPERATING REALITY ONLY  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
+**Environment pass authorised:** 2026-09-02  
 **Scope:** ground-specific research-depth completion for the accepted four-ground working hypothesis  
-**Current authorised activity:** select/authorize the first single ground; no substantive ground pass is active yet
+**Current authorised activity:** substantive Environment / Operating Reality research only
 
 ## Working grounds
 
 ```text
-Environment / Operating Reality
-Information / Representation State
-Work
-Actors / Agency–Participation–Authority
-
-+ cross-ground relations/control/transitions recorded but not yet systematically composed
+Environment / Operating Reality                 ← ACTIVE
+Information / Representation State              ← inactive
+Work                                             ← inactive
+Actors / Agency–Participation–Authority          ← inactive
 ```
+
++ cross-ground relations/control/transitions may be recorded but are not yet systematically composed.
 
 These are research/problem grounds, not architecture modules, ontology classes or exclusive entity buckets.
 
 ## Accepted operating rule — one active ground at a time
 
-At most **one** of the four grounds may be under substantive deepening research in a research turn/phase.
+At most **one** ground may be under substantive deepening research at a time.
 
-When one ground is active:
-- the other three are not researched in parallel;
-- they may be consulted only as bounded reference points for boundary checks, counterexamples or relation capture;
-- discovering a cross-ground issue does not authorize opening the other ground;
-- switching the active ground requires closing/pausing the current ground state and an explicit next-ground decision.
+During the Environment pass:
+- Information, Work and Actors are not researched in parallel;
+- they may be consulted only as bounded references for Environment boundary checks, counterexamples or relation capture;
+- discovering a cross-ground issue does not authorize opening another ground;
+- switching grounds requires closing/pausing Environment and an explicit next-ground decision.
 
-Purpose: prevent cross-ground evidence, open questions and conclusions from becoming an undifferentiated research mixture before each ground has its own usable scope/depth.
+## Active Environment objective
 
-## Accepted planning judgment
+Research Environment / Operating Reality to bounded sufficiency without assuming the current two-branch hierarchy is correct.
 
-Use an **adaptive ground-specific deepening strategy**, not one fixed layer template.
+Starting hypothesis to challenge:
 
-Every ground receives the same entry/closure discipline but may receive a different decomposition, depth and amount of new research.
+```text
+Environment / Operating Reality
+    ├─ Operating World / Work Domain
+    └─ Work-Support Environment
+         └─ Technical Work Environment
+```
 
-Common discipline:
-1. recover current evidence;
-2. test level/boundary adequacy;
-3. identify material ground-local gaps;
-4. derive a ground-specific subproblem map;
-5. deepen only unresolved/high-load branches;
-6. record cross-ground relation observations separately;
-7. run omission/reduction/falsifier checks;
-8. return to user evaluation.
+The pass must test:
+- whether the parent is coherent and non-residual;
+- whether target/domain and support are the right first-order branches;
+- whether nontechnical support changes the branch structure;
+- whether physical, social, institutional, digital and hybrid cases fit without forced collapse;
+- boundary/reference-point dependence and nested systems;
+- actual conditions versus observation/representation;
+- state, dynamics, constraints, resources, interfaces, disturbances, feasibility/actionability and effects;
+- when a concrete system changes target/support role across Work;
+- whether a materially different Environment-local first-order region is missing;
+- whether Environment should be reduced, split, renamed or reframed.
 
-This is a procedure, not a claim that these are eight semantic layers.
+Existing Technical Work Environment and archived operating-world research are prior evidence, not axioms.
 
-## Ground-specific starting positions
+## Method
 
-### Environment
-Known top-level gap remains. Parent semantics were inferred and stress-tested in `02_adequacy/`, but are not yet researched to the same independent depth as Technical Work Environment.
+1. Recover current and historical Environment evidence.
+2. Freeze a current evidence inventory and known falsifiers.
+3. Run boundary/level tests before broadening the decomposition.
+4. Derive Environment-specific subproblem families from evidence.
+5. Deepen only materially under-supported families.
+6. Capture cross-ground relations separately.
+7. Run external holdouts and rival-decomposition tests.
+8. Run same-model omission/reduction/completeness challenge, labeled non-independent.
+9. Return to user evaluation; do not automatically activate Information.
 
-Likely needs substantive new research.
+## Expected prior evidence
 
-### Information
-Known top-level gap remains above Records. Persistent information is deeply researched, while observation, representation, belief/model/claim, transient context, uncertainty/conflict and persistence-boundary semantics require broader first-principles treatment.
+Primary project inputs:
+- `../../01_verticals/work-environment/`
+- `../../history/superseded/operating-world-environment/`
+- `../../02_adequacy/findings/08-environment-parent-hierarchy.md`
+- `../../02_adequacy/findings/09-environment-parent-boundary-leak-check.md`
+- `../../02_adequacy/findings/10-agent-control-counterframe.md`
+- `../../02_adequacy/evidence/ENVIRONMENT-HIERARCHY-SOURCES.md`
+- `../../02_adequacy/synthesis/ENVIRONMENT-HIERARCHY-REFINEMENT-CHECK.md`
 
-Likely needs substantive new research.
+## Closure rule
 
-### Work
-Existing independent corpus already addresses the top-level ground directly and deeply.
+Environment closes only if:
+- parent boundary is usable and not an `everything else` bucket;
+- material first-order Environment regions are identified;
+- existing TWE and operating-world evidence are correctly integrated rather than duplicated;
+- materially different external/domain cases stop producing new Environment-local first-order regions;
+- rival/reduction attempts do not expose a stronger framing;
+- residual uncertainty and deferred cross-ground relations are explicit;
+- source/view recovery exists for load-bearing claims;
+- user receives the result for evaluation.
 
-Start with a coverage/gap audit under the accepted hierarchy. Reopen substantive research only if that audit exposes material Work-local omissions.
+## Current return condition
 
-### Actors
-Existing independent corpus already addresses the top-level ground directly and deeply.
+Complete the Environment ground pass to bounded sufficiency or operational limit, persist current state/evidence, and return to user evaluation.
 
-Start with a coverage/gap audit under the accepted hierarchy. Reopen substantive research only if material Actors-local omissions appear.
+## Guardrail
 
-## Cross-ground relation handling
-
-Ground deepening is no longer conceptually blind to the other grounds, but it must not become composition research by accident.
-
-During an active ground pass:
-- identify relations needed to state a boundary or failure case;
-- record them as cross-ground observations/deferred composition questions;
-- do not build the final relation/control taxonomy;
-- do not make another ground's current hypothesis an unquestioned axiom when the local conclusion depends on it;
-- do not open another ground's substantive research in the same pass.
-
-Systematic relation/control composition remains a later candidate phase.
-
-## Recommended order
-
-Current recommendation by expected information gain:
-
-1. **Environment** — newly reconstructed parent with two major branches; largest level-alignment risk.
-2. **Information** — broader parent above Records; major unresolved semantic scope.
-3. **Work** — coverage/gap test first; targeted reopening only if needed.
-4. **Actors** — coverage/gap test first; targeted reopening only if needed.
-
-This is a recommendation, not an irreversible dependency order. The user may choose another starting ground.
-
-## Current phase boundary
-
-Do not yet:
-- begin substantive ground research without explicit authorization of exactly one ground;
-- pre-create four active ground packages;
-- conduct parallel literature searches across grounds;
-- restructure `01_verticals/` to match the new hierarchy;
-- decide the final number of levels inside any ground;
-- begin systematic cross-ground composition;
-- derive SOUL/Development OS architecture.
-
-## Next decision
-
-Choose whether to authorize the first single ground pass and which ground it is.
-
-The current recommendation is Environment, but it is not automatically authorised by this state.
+Do not begin substantive Information, Work or Actors research, systematic relation/control composition, SOUL/Development OS architecture, final ontology/data-model work or implementation.
