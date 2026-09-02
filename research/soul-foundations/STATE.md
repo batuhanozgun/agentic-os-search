@@ -1,7 +1,7 @@
 # SOUL Foundations — STATE
 
 **Status:** active research library; independent discovery and adequacy layers are closed; Environment parent and Domain Reality are user-evaluated for hierarchical continuation; Domain State is boundedly sufficient and awaiting user evaluation  
-**Repository cleanup/currentness verification:** completed after Domain State closure on 2026-09-02; current routing/readability surfaces and exact manifest chain are synchronized  
+**Repository cleanup/currentness verification:** deep verification completed on 2026-09-02; nested retrieval paths, executed-pass metadata, pass-artifact provenance and exact manifest chain were checked/repaired and synchronized without changing the research conclusions  
 **Current authorised substantive activity:** USER EVALUATION OF THE DOMAIN STATE RESULT ONLY  
 **Current return condition:** user evaluates Domain State before any child/sibling/other ground is activated
 
@@ -83,7 +83,7 @@ Some institutional/social State can be constituted through collective rules/prac
 
 ## Hierarchical deepening rule
 
-- one active node at a time;
+- at most one substantive hierarchical node is active at a time; zero may be active between passes or during user evaluation;
 - Domain State pass is closed;
 - discovered Structure/Condition children are inactive;
 - Domain Dynamics, Work Conditions and other top-level grounds remain inactive;
@@ -103,9 +103,15 @@ Environment / Domain Reality route:
 Current Domain State result:
 `03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → focused finding → completion/source recovery → CURRENT-SURFACES.md`
 
+## Pass-artifact provenance
+
+Plans, focused findings, source ledgers and completion audits may preserve labels/status from the pass that produced them for research reconstruction. They do not override current `STATE`/`KEY`/router/manifest surfaces and do not authorize work merely because pass-time text says `active`, `candidate` or uses a later-refined label.
+
 ## Verification status
 
 The Domain State completion/omission review is same-model adversarial self-review, **not independent verification**. External sources support discriminating claims but do not independently validate the exact project hierarchy.
+
+Repository currentness verification checks routing/freshness integrity; it does not convert same-model research review into independent validation.
 
 ## Current authorization
 
