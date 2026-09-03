@@ -1,13 +1,14 @@
 # Domain Dynamics — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION  
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED AS REASONABLE ENOUGH FOR HIERARCHICAL CONTINUATION  
 **Activated:** 2026-09-03  
 **Bounded node closure:** 2026-09-03  
+**User evaluation accepted:** 2026-09-03  
 **Parent:** Domain Reality  
 **Sibling:** Domain State — boundedly sufficient; user-evaluated for hierarchical continuation  
 **Environment sibling:** Work Conditions / Enabling–Constraining Environment — inactive  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** none inside this node; return bounded result to user evaluation before another node is activated
+**Current authorised activity:** none inside this node; parent/stage may now select and plan the next single research node
 
 ## Question answered
 
@@ -105,6 +106,12 @@ The completion/omission audit is **same-model adversarial self-review, not indep
 
 A current SEBoK behavior/dynamics surface acknowledging OpenAI drafting support was excluded as load-bearing independent evidence.
 
+## User evaluation
+
+The user reviewed the simplified bounded result on 2026-09-03 and found the current `Domain Dynamics` leaf result reasonable. Treat the result as accepted for hierarchical continuation, subject to the reopen conditions below.
+
+This evaluation does not select or activate a next node.
+
 ## Preferred retrieval
 
 `KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md → relevant finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md`
@@ -114,7 +121,7 @@ Residuals:
 - `DEFERRED-RELATIONS.md`
 
 Exact freshness:
-- `CURRENT-SURFACES.md` once closure manifest is bound.
+- `CURRENT-SURFACES.md`.
 
 ## Reopen condition
 
@@ -128,6 +135,6 @@ Reopen Domain Dynamics if:
 
 ## Next authorised work
 
-**USER EVALUATION OF THIS BOUNDED RESULT ONLY.**
+**NEXT-NODE SELECTION / PLANNING AT THE PARENT/STAGE LEVEL ONLY.**
 
-No substantive node is active after closure. Do not automatically activate Domain Structure, Domain Condition, Work Conditions, Information, Work, Actors, any Dynamics child, systematic relation/control composition, architecture, ontology/data-model work or implementation.
+No substantive node is active. Do not automatically activate Domain Structure, Domain Condition, Work Conditions, Information, Work, Actors, any Dynamics child, systematic relation/control composition, architecture, ontology/data-model work or implementation.
