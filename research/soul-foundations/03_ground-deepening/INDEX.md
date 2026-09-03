@@ -6,9 +6,9 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**DOMAIN STRUCTURE BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STRUCTURE BOUNDED / USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorization is user evaluation of the bounded Structure result only.
+Current substantive authorization is **NONE**. The next logical step is Domain Condition / Status planning from the current canonical state, but it requires explicit user authorization.
 
 ## Read order
 
@@ -32,13 +32,13 @@ Structure result:
 Current sequence:
 
 ```text
-Structure research → user evaluation
-→ Condition research → user evaluation
+Structure research      ← boundedly complete
+→ user evaluation       ← accepted 2026-09-03
+→ Condition research    ← next logical node; inactive / not yet planned or authorized
+→ user evaluation
 → Environment completion review
 → then decide whether Information should begin
 ```
-
-Structure research is boundedly complete. The Condition plan is intentionally deferred until Structure evaluation.
 
 ## Current tree
 
@@ -46,7 +46,7 @@ Structure research is boundedly complete. The Condition plan is intentionally de
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure                         ← bounded; awaiting user evaluation
+    │    │    ├─ Domain Structure                         ← bounded; user-evaluated / accepted
     │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
     │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
     │    │    └─ Domain Condition / Status                ← discovered; inactive
@@ -61,8 +61,8 @@ Actors / Agency–Participation–Authority          ← inactive
 
 ## One-active-node rule
 
-No substantive node is active. Research closure does not authorize either discovered Structure child or Domain Condition / Status.
+No substantive node is active. Research closure and user acceptance do not authorize either discovered Structure child or Domain Condition / Status.
 
 ## Guardrail
 
-Do not infer authorization for Condition research, Information, cross-ground composition, SOUL/Development OS architecture, ontology/data model or implementation.
+Do not infer authorization for Condition planning/research, Information, cross-ground composition, SOUL/Development OS architecture, ontology/data model or implementation.
