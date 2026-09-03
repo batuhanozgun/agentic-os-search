@@ -1,6 +1,6 @@
 # Environment / Operating Reality — CURRENT SURFACES
 
-**Status:** canonical local freshness binding after bounded Domain State closure and deep repository verification  
+**Status:** canonical local freshness binding after Domain State user evaluation and hierarchical-continuation acceptance  
 **Date:** 2026-09-03  
 **Branch:** `main`
 
@@ -9,10 +9,10 @@
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Stable purpose | `README.md` | `560b0de672f9620f4fa5fbabf915272a675cf61d` |
-| Ground state | `STATE.md` | `59d02d63c11904bdb70ea275e9c58d7770fc6dfd` |
-| Ground router | `INDEX.md` | `cd5bb0118693bc16aaf4d9616b057d383f807202` |
-| L0 current Environment key | `KEY.md` | `2f074cd2688b3e8790ac6f3ec99997b3ac210a66` |
-| L1 current findings map | `FINDINGS-MAP.md` | `15770dcbb8cd18b187f14202464b5594e6e9bb96` |
+| Ground state | `STATE.md` | `5beebfba61f28294facfbb0212c38a299e370b30` |
+| Ground router | `INDEX.md` | `29a57b660ef02fe964ea582f102b045ae450f671` |
+| L0 current Environment key | `KEY.md` | `3f943ecfeb765a82a6ba048d858ec69fbf7eb835` |
+| L1 current findings map | `FINDINGS-MAP.md` | `be3c388bc3c84343ce432a65d3e35fae3cf9f8e6` |
 | Executed Domain/Effect research plan | `DOMAIN-EFFECT-RESEARCH-PLAN.md` | `d10e5ef6d7ce9ff8a08084cc757c3b511f6e4603` |
 | Current residuals | `OPEN-QUESTIONS.md` | `cd13738716bd12716138d2531893b0fecf31d031` |
 | Parent deferred relations | `DEFERRED-RELATIONS.md` | `57e69d2d2607e0028478aaec662a6244f67d0a42` |
@@ -33,14 +33,14 @@ Focused findings/audit preserve pass-time labels where useful for research recon
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain Reality | boundedly sufficient; user-authorised for continuation | `domain-effect/CURRENT-SURFACES.md` @ `dcff6dc3be62c843673ba334e3a2127f33f15ab5` |
-| Domain State | boundedly sufficient; awaiting user evaluation | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `639aaac7b6f7c45c91fa90aad8d6f5faa454c441` |
+| Domain Reality | boundedly sufficient; user-authorised for continuation | `domain-effect/CURRENT-SURFACES.md` @ `78bd7f05037a869856338c63e6410c9a78c2e2d2` |
+| Domain State | boundedly sufficient; user-evaluated for hierarchical continuation | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `ab2ce814f62ecdcfa2f4119a2c8cd11243b8e6e9` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
 | Domain Dynamics / Processes | inactive; not yet deepened | no current child package |
 | Work Conditions / Enabling–Constraining Environment | inactive | no current child package |
 
-The child source ledgers now preserve exact historical pass-input manifest anchors as well as current navigation paths, preventing later parent edits from contaminating pass reconstruction.
+The child source ledgers preserve exact historical pass-input manifest anchors as well as current navigation paths, preventing later parent edits from contaminating pass reconstruction.
 
 ## Current tree
 
@@ -59,7 +59,7 @@ The directory name `domain-effect/` preserves the starting hypothesis; current s
 
 ## Authorization rule
 
-No substantive Environment node is active. Current allowed work is user evaluation of the Domain State result only. Structure, Condition, Dynamics and Work Conditions are inactive.
+No substantive Environment node is active. Current allowed work is selection/planning of one next research node with the user. Structure, Condition, Dynamics and Work Conditions remain inactive until separately authorised.
 
 ## Retrieval rule
 
@@ -74,4 +74,4 @@ use the exact pass-input snapshot anchors preserved in the child source ledgers 
 
 ## Update rule
 
-After material Environment edits, re-fetch exact blobs, refresh this manifest and stage manifest, and never let child discovery/closure silently activate another node.
+After material Environment edits, re-fetch exact blobs, refresh this manifest and stage manifest, and never let child discovery, closure or user evaluation silently activate another node.
