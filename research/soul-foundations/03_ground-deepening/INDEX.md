@@ -6,64 +6,50 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**DOMAIN CONDITION BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**ENVIRONMENT COMPLETION REVIEW BOUNDED; ENVIRONMENT NOT YET COMPLETE; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorization is user evaluation of the bounded Condition result only.
+Current authorization is user evaluation of the Environment completion-review result only.
 
 ## Read order
 
-1. `STATE.md` — current stage state/authorization.
+1. `STATE.md` — current stage status/authorization.
 2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive method.
-3. current Environment route.
-4. Condition result → `grounds/environment/domain-effect/domain-state/domain-condition/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
-5. Structure result → `grounds/environment/domain-effect/domain-state/domain-structure/STATE.md` → `KEY.md` as needed.
-6. `PLAN.md` — original accepted top-level plan when needed.
+3. Environment route → `grounds/environment/STATE.md` → `KEY.md`.
+4. Environment completion review → `grounds/environment/completion-review/STATE.md` → `KEY.md` → synthesis/audit.
+5. relevant Domain State/Structure/Condition/Dynamics/Work Conditions packages as needed.
+6. `PLAN.md` — accepted program quality gates and selective-deepening rule.
 7. `CURRENT-SURFACES.md` — exact stage freshness.
 
-Executed Structure and Condition plans remain historical pass reconstruction surfaces; they are not current authorization.
-
-## Current Environment route
-
-Environment parent:
-`grounds/environment/STATE.md → INDEX.md → KEY.md`
-
-Condition result:
-`grounds/environment/domain-effect/domain-state/domain-condition/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/audit/source ledger`
-
-Current sequence:
-
-```text
-Structure research/evaluation ← complete / accepted
-Condition research             ← boundedly complete
-Condition user evaluation      ← CURRENT GATE
-Environment completion review  ← inactive; later explicit transition
-Information decision           ← only after Environment completion review
-```
-
-## Current tree
+## Current Environment tree
 
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure                         ← bounded / accepted
-    │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
-    │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
-    │    │    └─ Domain Condition                         ← bounded; awaiting user evaluation
-    │    │         ├─ Realized Characteristics / Values    ← discovered; inactive
-    │    │         └─ Criterion-Relative Standing / Status ← discovered; inactive
-    │    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
-    └─ Work Conditions                                    ← bounded leaf; user-evaluated
-
-Information / Representation State              ← inactive; transition deferred
-Work                                             ← inactive
-Actors / Agency–Participation–Authority          ← inactive
+    │    │    ├─ Domain Structure
+    │    │    │    ├─ Constituent Composition / Membership   ← promoted; inactive; not researched
+    │    │    │    └─ Relational Organization / Topology     ← promoted; inactive; not researched
+    │    │    └─ Domain Condition
+    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive; not researched
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive; not researched
+    │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
+    └─ Work Conditions                                        ← bounded leaf; user-evaluated
 ```
 
-## One-active-node rule
+## Completion-review verdict
 
-No substantive node is active. Research closure does not authorize either discovered Condition child or the Environment completion review.
+Retain the Environment parent, Domain Reality/Work Conditions roles, Domain Dynamics leaf and Work Conditions leaf.
+
+Environment is not complete because all four promoted Structure/Condition descendants remain material research debts under `G3 — Selective deepening` and the one-level method.
+
+## Transition rule
+
+Information remains inactive. Do not transition while this known Environment debt remains.
+
+## Recommended next selection
+
+After user evaluation: `Constituent Composition / Membership` is the strongest default next child. It is not active.
 
 ## Guardrail
 
-Do not infer authorization for Environment completion review, Information, cross-ground composition, SOUL/Development OS architecture, ontology/data model or implementation.
+No substantive node is active. Do not infer authorization for any descendant, Information, cross-ground composition, architecture, ontology/data model or implementation.
