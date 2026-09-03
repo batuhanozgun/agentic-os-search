@@ -6,16 +6,16 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**WORK CONDITIONS BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STATE, DOMAIN DYNAMICS AND WORK CONDITIONS USER-EVALUATED; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorised task is user evaluation of Work Conditions only.
+Current authorised task is selection/planning of one next research node with the user.
 
 ## Read order
 
 1. `STATE.md` — current stage state/authorization.
 2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive method.
-3. current Work Conditions result → `grounds/environment/work-conditions/STATE.md` / `KEY.md`.
-4. current Environment route.
+3. current Environment route.
+4. current Work Conditions result when needed.
 5. `PLAN.md` — original accepted top-level plan when needed.
 6. `CURRENT-SURFACES.md` — exact stage freshness.
 
@@ -24,7 +24,7 @@ Current authorised task is user evaluation of Work Conditions only.
 Environment parent:
 `grounds/environment/STATE.md → INDEX.md → KEY.md`
 
-Current Work Conditions result:
+Work Conditions result:
 `grounds/environment/work-conditions/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/WORK-CONDITIONS-SYNTHESIS.md → relevant finding → completion/source recovery`
 
 Executed Work Conditions plan:
@@ -41,7 +41,7 @@ Environment / Operating Reality
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← bounded leaf; awaiting user evaluation
+    └─ Work Conditions                            ← bounded leaf; user-evaluated
          ↳ Technical Work Environment             ← deep technical specialization/profile
 ```
 
@@ -53,12 +53,12 @@ Environment / Operating Reality
 - `Domain Dynamics / Processes` → `Domain Dynamics`;
 - Domain Dynamics = bounded leaf; user-evaluated;
 - `Work Conditions / Enabling–Constraining Environment` → `Work Conditions`;
-- Work Conditions = bounded leaf; no universal immediate child;
+- Work Conditions = bounded leaf; no universal immediate child; user-evaluated;
 - Technical Work Environment = retained deep technical specialization/profile.
 
 ## One-active-node rule
 
-No node is active. Work Conditions closure does not authorize Structure, Condition, Information, Work, Actors or another ground.
+No node is active. User evaluation does not authorize Structure, Condition, Information, Work, Actors or another ground automatically.
 
 ## Other top-level grounds
 
@@ -66,4 +66,4 @@ Information, Work and Actors remain inactive.
 
 ## Guardrail
 
-Current authorised work is **user evaluation of Work Conditions only**. Do not infer authorization for another hierarchical node, cross-ground composition, SOUL/Development OS architecture, ontology/data model or implementation.
+Current authorised work is **next-node selection/planning only**. Do not infer authorization for another hierarchical node, cross-ground composition, SOUL/Development OS architecture, ontology/data model or implementation.
