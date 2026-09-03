@@ -1,6 +1,6 @@
 # Domain Reality — KEY
 
-**Status:** Domain Reality boundedly sufficient; Domain State user-evaluated; Domain Dynamics bounded and awaiting user evaluation  
+**Status:** Domain Reality boundedly sufficient; Domain State and Domain Dynamics user-evaluated for hierarchical continuation  
 **Date:** 2026-09-03  
 **Parent:** Environment / Operating Reality
 
@@ -11,7 +11,7 @@ Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure / Composition        [discovered; inactive]
     │    └─ Domain Condition / Status             [discovered; inactive]
-    └─ Domain Dynamics                            [bounded leaf; awaiting user evaluation]
+    └─ Domain Dynamics                            [bounded leaf; user-evaluated]
 ```
 
 Branches are analytical problem regions, not object/schema classes.
@@ -43,7 +43,8 @@ Question:
 Current result:
 - Dynamics is necessary and cannot be reduced to a State snapshot;
 - **no universal immediate child is currently justified**;
-- Domain Dynamics is a **bounded leaf** at current foundation-research depth.
+- Domain Dynamics is a **bounded leaf** at current foundation-research depth;
+- the user evaluated the result on 2026-09-03 and found it reasonable for hierarchical continuation.
 
 Explicit but non-child problem regions:
 - realized occurrence / interaction;
@@ -51,8 +52,6 @@ Explicit but non-child problem regions:
 - temporal dependence / memory;
 - dynamic pattern / regime;
 - multi-scale / nested Dynamics.
-
-Process/event, occurrence/change, endogenous/exogenous, continuous/discrete, history/path dependence and stability/regime did not survive as universal recursive child splits.
 
 ## Strong non-collapse rules
 
@@ -89,4 +88,4 @@ Current Dynamics result:
 - `domain-dynamics/FINDINGS-MAP.md`
 - `domain-dynamics/synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md`
 
-No substantive node is active. Current next work is user evaluation of Domain Dynamics; no other node is authorised automatically.
+No substantive node is active. Current next work is selection/planning of one next research node with the user.
