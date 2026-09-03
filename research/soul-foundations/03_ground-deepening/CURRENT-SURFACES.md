@@ -1,6 +1,6 @@
 # Ground Deepening — CURRENT SURFACES
 
-**Status:** canonical freshness binding after Domain State user evaluation and hierarchical-continuation acceptance  
+**Status:** canonical freshness binding after Domain Dynamics selection/planning; substantive Dynamics research not active  
 **Date:** 2026-09-03  
 **Branch:** `main`
 
@@ -9,21 +9,21 @@
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Stable purpose | `README.md` | `5380af8bf81ffe9860c71f597c84b245189b89f1` |
-| Stage state / authorization | `STATE.md` | `1bcd4291bb21bc8465d93fa4fb3fe4fb88378c09` |
+| Stage state / authorization | `STATE.md` | `c011b2a5046aede306d1d40d40b40bf48389f850` |
 | Original accepted deepening plan | `PLAN.md` | `dfe00d2ca4d43758c476f640332751c3af013725` |
 | Recursive hierarchical method | `HIERARCHICAL-DEEPENING-METHOD.md` | `4d964c09a70ebe5f114d597f5413b41193ce650b` |
-| Stage router | `INDEX.md` | `88a873f5a0fa9bf6370e8271c70ad26478de94ae` |
+| Stage router | `INDEX.md` | `1163141e3cd2dcd0f9a3b789c73cdb8b9f3d548a` |
 
 ## Current Environment package
 
 | Ground / node | Status | Freshness surface |
 |---|---|---|
-| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `cb6b1fd5739efa97fc7c669cef8fe3ae0cb059c5` |
-| Domain Reality | boundedly sufficient; user-authorised for continuation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `78bd7f05037a869856338c63e6410c9a78c2e2d2` |
+| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `9d123463336121c2db86fcf55e687ebe82baca36` |
+| Domain Reality | boundedly sufficient; Dynamics selected/planned inside it | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `7d1009e1f6f9c9aa9aacab4dcabb736aa45df102` |
 | Domain State | boundedly sufficient; user-evaluated for hierarchical continuation | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `ab2ce814f62ecdcfa2f4119a2c8cd11243b8e6e9` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
-| Domain Dynamics / Processes | inactive; not yet deepened | no child package |
+| Domain Dynamics / Processes | selected/planned; substantive research not active | plan `grounds/environment/domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md` @ `ae258d4a112932e4f9828ebd2cbda06288fd21e8` |
 | Work Conditions / Enabling–Constraining Environment | inactive | no current child package |
 | Information / Representation | inactive | no package created |
 | Work | inactive | no `03` package created |
@@ -31,7 +31,7 @@
 
 ## Current status
 
-> **No substantive node is active. Domain State is closed, user-evaluated and accepted for hierarchical continuation. The next task is selection/planning of one next research node with the user.**
+> **No substantive node is active. Domain Dynamics / Processes is the selected next node and its research plan is complete. The next task is user review / explicit authorization of the substantive Dynamics pass.**
 
 Current tree:
 
@@ -41,12 +41,12 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition
     │    │    └─ Domain Condition / Status
-    │    └─ Domain Dynamics / Processes
+    │    └─ Domain Dynamics / Processes           ← selected/planned; not active
     └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
 
-Discovered children are not automatically authorised.
+Discovered children are not automatically authorised. A selected/planned node is not an active substantive pass until the explicit phase transition.
 
 ## Pass-artifact provenance
 
@@ -59,10 +59,12 @@ The Domain Reality and Domain State source ledgers also bind exact pre-pass pare
 
 ## Preferred retrieval
 
-`STATE → HIERARCHICAL-DEEPENING-METHOD → Environment STATE/KEY → Domain Reality STATE/KEY → Domain State STATE/KEY → synthesis → audit/source recovery`
+Planning/current state:
+`STATE → HIERARCHICAL-DEEPENING-METHOD → Environment STATE/KEY → Domain Reality STATE/KEY/INDEX → DOMAIN-DYNAMICS-RESEARCH-PLAN → Domain State sibling state/key as required`
 
-For historical pass reconstruction, use the exact pass-input snapshot anchor recorded in the relevant source ledger.
+Historical or prior-result recovery:
+use the exact pass-input snapshot anchors recorded in the relevant source ledgers.
 
 ## Update rule
 
-If any bound stage surface changes materially, re-fetch and refresh this manifest, recheck parent/Environment/node surfaces, and never let node closure, child discovery or user evaluation silently authorize next-node research.
+If any bound stage surface changes materially, re-fetch and refresh this manifest, recheck parent/Environment/node surfaces, and never let planning, node closure, child discovery or user evaluation silently authorize substantive research.
