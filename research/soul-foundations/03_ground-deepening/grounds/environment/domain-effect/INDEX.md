@@ -6,9 +6,9 @@ Current router for the bounded Domain Reality result and the deeper bounded Doma
 
 ## Current status
 
-**DOMAIN STATE BOUNDEDLY SUFFICIENT FOR IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION.**
+**DOMAIN STATE BOUNDEDLY SUFFICIENT AND USER-EVALUATED FOR HIERARCHICAL CONTINUATION.**
 
-No child or sibling is active.
+No child or sibling is active. The next task is selection/planning of one next research node with the user.
 
 ## Read order
 
@@ -38,7 +38,8 @@ The package directory name `domain-effect/` is historical; current node semantic
 State result:
 - `Domain State / Configuration` → `Domain State`;
 - children = Structure/Composition + Condition/Status;
-- no third universal immediate State child currently required.
+- no third universal immediate State child currently required;
+- user evaluation accepted on 2026-09-03.
 
 ## Domain Dynamics sibling
 
@@ -46,4 +47,4 @@ State result:
 
 ## Guardrail
 
-Do not activate Structure, Condition, Dynamics, Work Conditions or another ground. Current authorization is user evaluation of Domain State only.
+Do not activate Structure, Condition, Dynamics, Work Conditions or another ground automatically. Current authorization is next-node selection/planning only.
