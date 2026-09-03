@@ -1,6 +1,6 @@
 # Domain Reality — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Domain State closure and deep repository verification  
+**Status:** canonical freshness binding after Domain State user evaluation and hierarchical-continuation acceptance  
 **Date:** 2026-09-03  
 **Branch:** `main`
 
@@ -8,10 +8,10 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `278125a650884d97d58c95ff75a9d4ad9ec6bd1d` |
-| Router | `INDEX.md` | `ae6bdf011f4a94b139fbd45b88bdbf99e009401d` |
-| L0 key | `KEY.md` | `6b45aa60b91f6db4b91bad96b8d3d281483709ec` |
-| L1 findings map | `FINDINGS-MAP.md` | `5cf9daae4f683260afcd43c2f8a046adbb5edfb9` |
+| Node state | `STATE.md` | `0305ce3b973bea70e9b7164672e324199a6de0cd` |
+| Router | `INDEX.md` | `897b1929f29177c844bd29f374813614eda51bb4` |
+| L0 key | `KEY.md` | `84339b4c4b2eee496935ad80c2531541a7172e75` |
+| L1 findings map | `FINDINGS-MAP.md` | `6878443bae8c9d07b14c2d5096ed9e45f2b0ece1` |
 | Executed Domain State research plan | `DOMAIN-STATE-RESEARCH-PLAN.md` | `8f5cabdd360fee61cd31a230018591673c348f24` |
 | Residual questions | `OPEN-QUESTIONS.md` | `792ce4c7dcff17e056146ac17790714af23e3c89` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `56d238a0f5b7fac2d4dd963473fe501a66d778a5` |
@@ -49,7 +49,7 @@ The source ledger distinguishes current Environment navigation paths from the ex
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain State | boundedly sufficient; awaiting user evaluation | `domain-state/CURRENT-SURFACES.md` @ `639aaac7b6f7c45c91fa90aad8d6f5faa454c441` |
+| Domain State | boundedly sufficient; user-evaluated for hierarchical continuation | `domain-state/CURRENT-SURFACES.md` @ `ab2ce814f62ecdcfa2f4119a2c8cd11243b8e6e9` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
 | Domain Dynamics / Processes | inactive; not yet deepened | no child package |
@@ -73,7 +73,9 @@ Current refinements:
 
 ## Authorization rule
 
-Domain Reality is boundedly sufficient and user-authorised for hierarchical continuation. The deeper Domain State node is closed and awaits user evaluation. No discovered child or sibling is active.
+Domain Reality and Domain State are user-evaluated for hierarchical continuation. No discovered child or sibling is active.
+
+Current authorised work is selection/planning of one next research node with the user; substantive research activation remains separate.
 
 ## Retrieval rule
 
@@ -86,4 +88,4 @@ Historical Domain Reality reasoning remains recoverable through its synthesis/fi
 
 ## Update rule
 
-After any material Domain Reality/State edit, re-fetch exact blobs, update this manifest, then refresh Environment and stage manifests. Never let child discovery or closure silently authorize the next node.
+After any material Domain Reality/State edit, re-fetch exact blobs, update this manifest, then refresh Environment and stage manifests. Never let child discovery, closure or user evaluation silently authorize the next node.
