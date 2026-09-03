@@ -1,6 +1,6 @@
 # Domain State — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT; USER-EVALUATED; DOMAIN STRUCTURE BOUNDED / AWAITING USER EVALUATION  
+**Status:** BOUNDEDLY SUFFICIENT; USER-EVALUATED; DOMAIN STRUCTURE BOUNDED / USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE  
 **Date:** 2026-09-03  
 **Parent:** Domain Reality
 
@@ -14,7 +14,7 @@ Current hierarchy after the deeper Structure pass:
 
 ```text
 Domain State
-    ├─ Domain Structure
+    ├─ Domain Structure                         ← bounded; user-evaluated / accepted
     │    ├─ Constituent Composition / Membership   ← discovered; inactive
     │    └─ Relational Organization / Topology     ← discovered; inactive
     └─ Domain Condition / Status                   ← discovered; inactive
@@ -89,7 +89,11 @@ current State difference ≠ causal explanation
 
 ## Verification limit
 
-Both Domain State and Structure completion audits are same-model adversarial self-review, not independent verification. External traditions discriminate alternatives but do not independently validate this exact hierarchy.
+Both Domain State and Structure completion audits are same-model adversarial self-review, not independent verification. External traditions discriminate alternatives but do not independently validate this exact hierarchy. User acceptance does not alter that status.
+
+## User evaluation
+
+The bounded Domain Structure result was accepted by the user on 2026-09-03. No reopen trigger was raised.
 
 ## Go deeper
 
@@ -106,12 +110,12 @@ Both Domain State and Structure completion audits are same-model adversarial sel
 The agreed sequence remains:
 
 ```text
-Structure research → user evaluation
-→ Condition research → user evaluation
+Structure research      ← boundedly complete
+→ user evaluation       ← accepted 2026-09-03
+→ Condition research    ← next logical node; inactive
+→ user evaluation
 → Environment completion review
 → then decide whether Information should begin
 ```
 
-Structure research is now boundedly complete; **current authorized work is user evaluation only**.
-
-Do not activate a Structure child or Condition automatically.
+Current substantive authorization is **NONE**. Do not activate a Structure child or Condition automatically; Condition planning/research requires explicit user authorization.
