@@ -2,13 +2,13 @@
 
 ## Role
 
-Current router for the user-evaluated Environment parent, bounded Domain Reality result, user-evaluated Domain State result and bounded Domain Dynamics result.
+Current router for the user-evaluated Environment parent, bounded Domain Reality result, user-evaluated Domain State result and user-evaluated bounded Domain Dynamics result.
 
 ## Current status
 
-**DOMAIN DYNAMICS BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorised work is user evaluation of Domain Dynamics only.
+Current authorised work is selection/planning of one next research node with the user.
 
 ## Reading order
 
@@ -29,7 +29,7 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
-    │    └─ Domain Dynamics                       ← bounded leaf; awaiting user evaluation
+    │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
@@ -54,15 +54,15 @@ Dynamics correction:
 - `Domain Dynamics / Processes` → `Domain Dynamics`;
 - no universal immediate child currently justified;
 - bounded leaf at current foundation depth;
-- awaiting user evaluation.
+- user evaluation accepted 2026-09-03.
 
 ## Hierarchical method
 
 Read:
 - `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-Node closure does not automatically authorize a sibling, child or another ground.
+User evaluation does not automatically authorize a sibling, child or another ground.
 
 ## Guardrail
 
-No substantive node is active. Current authorized activity is user evaluation of Domain Dynamics. Do not begin Structure, Condition, Work Conditions, Information, Work, Actors, systematic composition or architecture without an explicit later transition.
+No substantive node is active. Current authorized activity is selection/planning of one next research node. Do not begin Structure, Condition, Work Conditions, Information, Work, Actors, systematic composition or architecture without an explicit later transition.
