@@ -1,6 +1,6 @@
 # Environment / Operating Reality — KEY
 
-**Status:** Environment parent, Domain State and Domain Dynamics user-evaluated; Work Conditions bounded / awaiting user evaluation; no substantive node active
+**Status:** Environment parent, Domain State, Domain Dynamics and Work Conditions user-evaluated; no substantive node active
 **Date:** 2026-09-03
 **Scope:** Environment research hierarchy only; not cross-ground composition or architecture
 
@@ -13,11 +13,11 @@ Environment / Operating Reality
     │    │    ├─ Domain Structure / Composition   [discovered; inactive]
     │    │    └─ Domain Condition / Status        [discovered; inactive]
     │    └─ Domain Dynamics                       [bounded leaf; user-evaluated]
-    └─ Work Conditions                            [bounded leaf; awaiting user evaluation]
+    └─ Work Conditions                            [bounded leaf; user-evaluated]
          ↳ Technical Work Environment             [deep technical specialization/profile]
 ```
 
-Branches are analytical problem roles, not object/schema classes.
+Branches are analytical research problem roles, not object/schema classes.
 
 ## Parent Environment result retained
 
@@ -51,7 +51,7 @@ Current result:
 - the node remains first-order because it protects support, access, readiness, capacity, hazard, dependency and execution-window questions;
 - **no universal immediate child is currently justified**;
 - Work Conditions is a **bounded leaf** at current universal foundation depth;
-- awaiting user evaluation.
+- user evaluation accepted 2026-09-03.
 
 Explicit but non-child problem regions:
 - support/resources/services/capabilities;
@@ -88,7 +88,7 @@ Domain Reality role ≠ Work Conditions role by object identity
 
 ## Verification limit
 
-Parent, Domain Reality, Domain State, Domain Dynamics and Work Conditions completion audits are same-model adversarial reviews, not independent verification. External traditions discriminate claims but do not independently validate the exact hierarchy.
+Parent, Domain Reality, Domain State, Domain Dynamics and Work Conditions completion audits are same-model adversarial reviews, not independent verification. External traditions discriminate claims but do not independently validate the exact hierarchy. User evaluation accepts bounded continuation but does not alter verification status.
 
 ## Go deeper
 
@@ -106,4 +106,4 @@ Current Work Conditions result:
 - `work-conditions/FINDINGS-MAP.md`
 - `work-conditions/synthesis/WORK-CONDITIONS-SYNTHESIS.md`
 
-Current next work is user evaluation of Work Conditions. No next node is automatically authorised.
+Current next work is selection/planning of one next research node with the user. No next node is automatically authorised.
