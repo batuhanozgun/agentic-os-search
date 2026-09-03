@@ -1,15 +1,15 @@
 # Environment / Operating Reality — STATE
 
-**Status:** ENVIRONMENT RESEARCH CONTINUES; DOMAIN CONDITION BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** ENVIRONMENT COMPLETION REVIEW AUTHORISED; DOMAIN CONDITION USER-EVALUATED / ACCEPTED; NO CHILD NODE ACTIVE  
 **Environment parent authorised:** 2026-09-02
 **Domain State user evaluation accepted:** 2026-09-03
 **Domain Dynamics user evaluation accepted:** 2026-09-03
 **Work Conditions user evaluation accepted:** 2026-09-03
 **Domain Structure:** bounded / user-evaluated / accepted 2026-09-03
-**Domain Condition:** substantive pass bounded 2026-09-03; awaiting user evaluation
+**Domain Condition:** bounded / user-evaluated / accepted 2026-09-04
 **Scope:** Environment / Operating Reality ground only
 **Other top-level grounds:** inactive
-**Current authorised activity:** USER EVALUATION OF THE BOUNDED DOMAIN CONDITION RESULT ONLY
+**Current authorised activity:** ENVIRONMENT COMPLETION REVIEW ONLY
 
 ## Current Environment research hierarchy
 
@@ -18,11 +18,11 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure                         ← bounded / accepted
-    │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
-    │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
-    │    │    └─ Domain Condition                         ← bounded; awaiting user evaluation
-    │    │         ├─ Realized Characteristics / Values    ← discovered; inactive
-    │    │         └─ Criterion-Relative Standing / Status ← discovered; inactive
+    │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive / not researched
+    │    │    │    └─ Relational Organization / Topology   ← discovered; inactive / not researched
+    │    │    └─ Domain Condition                         ← bounded / accepted
+    │    │         ├─ Realized Characteristics / Values    ← discovered; inactive / not researched
+    │    │         └─ Criterion-Relative Standing / Status ← discovered; inactive / not researched
     │    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
     └─ Work Conditions                                    ← bounded leaf; user-evaluated
          ↳ Technical Work Environment                     ← deep technical specialization/profile
@@ -36,44 +36,35 @@ The agreed sequence now stands at:
 
 ```text
 1. Domain Structure research/evaluation ← complete / accepted
-2. Domain Condition research            ← boundedly complete
-3. user evaluation of Condition result  ← CURRENT GATE
-4. explicit Environment completion review ← inactive; later
-5. only then decide whether Information / Representation State should begin
+2. Domain Condition research/evaluation ← complete / accepted
+3. explicit Environment completion review ← AUTHORISED CURRENT STAGE
+4. only after review + user direction decide whether Information / Representation State should begin
 ```
-
-## Domain Condition bounded result
-
-The inherited `Domain Condition / Status` label was refined to:
-
-```text
-Domain Condition
-    ├─ Realized Characteristics / Values
-    └─ Criterion-Relative Standing / Status
-```
-
-The deeper pass found two stable immediate analytical problem regions:
-- **Realized Characteristics / Values** — what current non-structural condition facts, values or modes actually obtain before asking whether they satisfy a separate criterion;
-- **Criterion-Relative Standing / Status** — what current standing obtains relative to a materially relevant functional, normative, regulatory or domain criterion.
-
-No third universal Condition child survived current bounded testing. Neither discovered Condition child is active.
-
-The deeper Condition result did not expose a third co-equal Domain State region; the Structure-versus-Condition parent split survives.
 
 ## Environment result retained so far
 
-Environment still concerns boundary/reference-relative realized conditions and dynamics that matter because they:
+Environment concerns boundary/reference-relative realized conditions and dynamics that matter because they:
 - constitute the Domain Reality materially at issue; and/or
 - materially shape whether and how focal Work can be performed.
 
 Current researched branches:
 - Domain State parent — user-evaluated;
 - Domain Structure — bounded / accepted;
-- Domain Condition — bounded / awaiting evaluation;
+- Domain Condition — bounded / accepted;
 - Domain Dynamics — bounded leaf / user-evaluated;
 - Work Conditions — bounded leaf / user-evaluated.
 
-Environment itself is **not yet declared complete**. That judgment belongs to the later explicit completion review after Condition user evaluation.
+Environment itself is **not yet declared complete**. The active next stage must separately test coverage, unresolved descendant debt, parent coherence, omissions and transition safety.
+
+## Completion-review highest-risk question
+
+Structure and Condition each produced stable immediate children that have not received their own substantive passes:
+- Constituent Composition / Membership;
+- Relational Organization / Topology;
+- Realized Characteristics / Values;
+- Criterion-Relative Standing / Status.
+
+The completion review must decide whether this unresearched descendant surface materially blocks Environment closure under the hierarchical method. It must not assume either answer.
 
 ## Strong distinctions
 
@@ -93,14 +84,10 @@ current condition mismatch ≠ established causal root cause
 
 ## Verification status
 
-Existing node completion/omission reviews, including Condition, are same-model adversarial self-reviews, not independent verification. External sources discriminate rival hypotheses but do not independently validate the exact project hierarchy.
-
-## Next logical work
-
-If the Condition result is accepted and no reopen trigger appears, perform an explicit Environment completion review from the then-current canonical state.
+Existing node completion/omission reviews are same-model adversarial self-reviews, not independent verification. User acceptance does not alter those limits. The completion review must preserve this distinction.
 
 ## Next authorised work
 
-**USER EVALUATION OF THE BOUNDED DOMAIN CONDITION RESULT ONLY.**
+**ENVIRONMENT COMPLETION REVIEW ONLY.**
 
-Do not activate either Condition child, a Structure child, Environment completion review, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation.
+Do not activate a Structure/Condition child, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation unless a later explicit transition authorises it.
