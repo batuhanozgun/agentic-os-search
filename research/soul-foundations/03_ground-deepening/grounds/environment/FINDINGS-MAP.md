@@ -1,6 +1,6 @@
 # Environment / Operating Reality — FINDINGS MAP
 
-**Status:** parent bounded/user-evaluated; Domain State user-evaluated; Domain Dynamics bounded / awaiting user evaluation
+**Status:** parent bounded/user-evaluated; Domain State and Domain Dynamics user-evaluated for hierarchical continuation
 
 > **Pass-artifact provenance:** Focused findings, plans, source ledgers and completion audits may preserve labels/status current during their producing passes. Current hierarchy, authorization and epistemic status come from `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`; older labels and pass-time `active`/`candidate` wording are not current authorization.
 
@@ -15,21 +15,6 @@
 - Domain Dynamics → `domain-effect/domain-dynamics/STATE.md` / `KEY.md` / `FINDINGS-MAP.md`
 - exact local freshness → `CURRENT-SURFACES.md`
 
-## Parent-ground findings
-
-| Question | Read |
-|---|---|
-| What evidence/falsifiers existed before the parent pass? | `findings/01-evidence-inventory-and-starting-falsifiers.md` |
-| Can the broad parent avoid `everything relevant`? | `findings/02-parent-boundary-and-reference-frame.md` |
-| Why two parent roles and why was support too narrow? | `findings/03-domain-effect-vs-execution-condition-roles.md` |
-| Why separate actual state from specification/observation/model? | `findings/04-realized-state-dynamics-and-observability.md` |
-| How do resources/constraints/actionability/effects fit? | `findings/05-actionability-resources-constraints-and-effects.md` |
-| Do nontechnical conditions create another parent branch? | `findings/06-nontechnical-conditions-and-boundary-leak.md` |
-| How do nesting/boundary/role switching work? | `findings/07-nesting-role-switching-and-environment-identity.md` |
-| Which parent rivals/names were tested? | `findings/08-rival-decomposition-and-naming-challenge.md` |
-| Did cross-domain parent holdouts force a missing branch? | `findings/09-cross-domain-holdouts-and-omission.md` |
-| What is the parent problem map? | `findings/10-environment-problem-map-and-failure-surfaces.md` |
-
 ## Current hierarchy after deeper child research
 
 ```text
@@ -38,7 +23,7 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
-    │    └─ Domain Dynamics                       ← bounded leaf; awaiting user evaluation
+    │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
@@ -76,10 +61,8 @@ Key corrections:
 - Dynamics remains necessary and distinct from a current State snapshot;
 - no universal immediate child survived deeper falsification;
 - bounded leaf at current foundation depth;
-- occurrence/interaction, change/transition/trajectory, memory/path dependence, dynamic patterns/regimes and multi-scale behavior remain explicit but non-hierarchical.
-
-Current status:
-- **awaiting user evaluation**.
+- occurrence/interaction, change/transition/trajectory, memory/path dependence, dynamic patterns/regimes and multi-scale behavior remain explicit but non-hierarchical;
+- user evaluation accepted 2026-09-03.
 
 ## Strong non-collapse rules
 
@@ -95,20 +78,6 @@ Current status:
 - Actor capability ≠ situated actionability.
 - environmental participation ≠ semantic ownership.
 
-## Progressive retrieval
-
-Parent:
-`KEY → FINDINGS-MAP → ENVIRONMENT-GROUND-SYNTHESIS → focused finding → audit/source ledger`
-
-Domain Reality:
-`domain-effect/STATE → KEY → FINDINGS-MAP → deeper current child`
-
-Domain State:
-`domain-effect/domain-state/STATE → KEY → FINDINGS-MAP → DOMAIN-STATE-SYNTHESIS → audit/source ledger`
-
-Domain Dynamics:
-`domain-effect/domain-dynamics/STATE → KEY → FINDINGS-MAP → DOMAIN-DYNAMICS-SYNTHESIS → audit/source ledger`
-
 ## Guardrail
 
-No substantive node is active. Current authorised work is user evaluation of Domain Dynamics. Closure does not authorize Structure, Condition, Work Conditions or another ground automatically.
+No substantive node is active. Current authorised work is selection/planning of one next research node. User evaluation does not authorize Structure, Condition, Work Conditions or another ground automatically.
