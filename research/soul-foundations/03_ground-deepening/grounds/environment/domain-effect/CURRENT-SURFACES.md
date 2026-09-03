@@ -1,6 +1,6 @@
 # Domain Reality — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Domain Structure closure; Structure awaiting user evaluation  
+**Status:** canonical freshness binding after bounded Domain Structure closure and user acceptance  
 **Date:** 2026-09-03  
 **Branch:** `main`
 
@@ -8,9 +8,9 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `7b2b78753d6f60cb79c091b5a932469acfb4c114` |
-| Router | `INDEX.md` | `a1e87d65d981c77ae1a4a8e0d7ea4232a961c791` |
-| L0 key | `KEY.md` | `517f4253f1207d61921656155edda496b1282c88` |
+| Node state | `STATE.md` | `10cd939eb7a3c7c9d4c20ae26cc43bff997a883a` |
+| Router | `INDEX.md` | `8a460c7c0e6292a702be1a9cb8cd2709497f893b` |
+| L0 key | `KEY.md` | `1e75a15e21e447ddf4d5cf4bff6f5aa8016e9277` |
 | L1 findings map | `FINDINGS-MAP.md` | `a0c3b18fd608a37dafc379e988048b5446c56ad0` |
 | Executed Domain State plan | `DOMAIN-STATE-RESEARCH-PLAN.md` | `8f5cabdd360fee61cd31a230018591673c348f24` |
 | Executed Domain Dynamics plan | `DOMAIN-DYNAMICS-RESEARCH-PLAN.md` | `3c46fd5e4dd053ae4a57cd4caf473131a3183d15` |
@@ -21,9 +21,9 @@
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain State | bounded; user-evaluated; Structure refinement propagated | `domain-state/CURRENT-SURFACES.md` @ `19e673cfc42fcf2a2d16d5a703f553fd07c09190` |
-| Domain Structure | bounded immediate-child result; awaiting user evaluation | `domain-state/domain-structure/CURRENT-SURFACES.md` @ `efae949983e64e0669b8d66421b8896c4dbf5168` |
-| Domain Condition / Status | discovered; inactive; planning deferred until Structure evaluation | routed through Domain State package |
+| Domain State | bounded; user-evaluated; Structure acceptance propagated | `domain-state/CURRENT-SURFACES.md` @ `8ece496f1602ab8505390c07d131a9d2aa6f0558` |
+| Domain Structure | bounded immediate-child result; user-evaluated / accepted | `domain-state/domain-structure/CURRENT-SURFACES.md` @ `8bd8d0b1e7e26f10d007d4e2c3702f0787d25619` |
+| Domain Condition / Status | discovered; inactive; next logical node; planning/research requires explicit authorization | routed through Domain State package |
 | Domain Dynamics | bounded leaf; user-evaluated | `domain-dynamics/CURRENT-SURFACES.md` @ `cd4c1dbbd23ac73227ed3765df3c514a54b707ef` |
 
 The frozen historical Structure plan remains at `domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md` @ `fc402ad7dd0259cec4a831586766e0c1a1cfdad4`.
@@ -33,7 +33,7 @@ The frozen historical Structure plan remains at `domain-state/DOMAIN-STRUCTURE-R
 ```text
 Domain Reality
     ├─ Domain State
-    │    ├─ Domain Structure                         ← bounded; awaiting user evaluation
+    │    ├─ Domain Structure                         ← bounded; user-evaluated / accepted
     │    │    ├─ Constituent Composition / Membership ← discovered; inactive
     │    │    └─ Relational Organization / Topology   ← discovered; inactive
     │    └─ Domain Condition / Status                ← discovered; inactive
@@ -43,21 +43,23 @@ Domain Reality
 Agreed continuation:
 
 ```text
-Structure research → user evaluation
-→ Condition research → user evaluation
+Structure research      ← boundedly complete
+→ user evaluation       ← accepted 2026-09-03
+→ Condition research    ← next logical node; inactive / not yet planned or authorized
+→ user evaluation
 → Environment completion review
 → then decide whether Information should begin
 ```
 
-The Structure research step is complete at bounded immediate-child depth. User evaluation is the current gate.
-
 ## Pass-artifact provenance
 
-Earlier Domain Reality/State/Dynamics artifacts preserve the state available during their producing passes. Deeper Structure refinement is routed through current state/router/freshness surfaces rather than retroactively rewriting historical reasoning.
+Earlier Domain Reality/State/Dynamics artifacts preserve the state available during their producing passes. Deeper Structure refinement and later user acceptance are routed through current state/router/freshness surfaces rather than retroactively rewriting historical reasoning.
 
 ## Authorization rule
 
-No substantive node is active. Current authorized work is **user evaluation of the bounded Domain Structure result only**.
+No substantive node is active. Current substantive authorization is **NONE**.
+
+The next logical step is Domain Condition / Status planning from the current canonical state, but this requires explicit user authorization.
 
 ## Retrieval rule
 
@@ -69,4 +71,4 @@ Established historical results:
 
 ## Update rule
 
-After user evaluation and any later authorized next-node transition, refresh Domain Reality → Environment → stage/root surfaces bottom-up.
+After any later authorized next-node transition, refresh Domain Reality → Environment → stage/root surfaces bottom-up.
