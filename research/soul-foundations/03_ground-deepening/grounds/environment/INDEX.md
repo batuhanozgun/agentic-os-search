@@ -2,81 +2,64 @@
 
 ## Role
 
-Current router for the Environment ground and its agreed continuation through Condition evaluation and explicit Environment completion review before any Information transition.
+Current router for the Environment ground after the explicit post-Condition completion review.
 
 ## Current status
 
-**DOMAIN CONDITION BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**COMPLETION REVIEW BOUNDED; ENVIRONMENT NOT YET COMPLETE; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorization is user evaluation of the bounded Condition result only.
+Current authorization is user evaluation of the completion-review result only.
 
 ## Reading order
 
-1. `STATE.md` — current Environment state/authorization/sequencing.
-2. `KEY.md` — shortest current Environment hierarchy.
-3. Condition route → `domain-effect/domain-state/domain-condition/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
-4. Structure route → `domain-effect/domain-state/domain-structure/STATE.md` → `KEY.md` as needed.
-5. Domain Reality/State/Dynamics as needed.
-6. Work Conditions result as needed.
-7. parent result → `FINDINGS-MAP.md` / parent synthesis when needed.
-8. relevant child findings/audit/source surfaces when decision-critical.
-9. `CURRENT-SURFACES.md` — exact Environment freshness binding.
+1. `STATE.md` — current Environment status/authorization.
+2. `KEY.md` — shortest current Environment hierarchy and verdict.
+3. Completion review → `completion-review/STATE.md` → `KEY.md` → synthesis/audit.
+4. Domain Reality/State routes as needed.
+5. Structure/Condition child packages as needed.
+6. Work Conditions / Dynamics leaf results as needed.
+7. `CURRENT-SURFACES.md` — exact current freshness.
+8. Historical Environment synthesis/audit only for reconstruction of the earlier parent pass.
 
-Executed Structure and Condition plans remain historical pass reconstruction surfaces under Domain State; they are not current authorization.
-
-## Current Environment research tree
+## Current tree
 
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure                         ← bounded / accepted
-    │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
-    │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
-    │    │    └─ Domain Condition                         ← bounded; awaiting user evaluation
-    │    │         ├─ Realized Characteristics / Values    ← discovered; inactive
-    │    │         └─ Criterion-Relative Standing / Status ← discovered; inactive
-    │    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
-    └─ Work Conditions                                    ← bounded leaf; user-evaluated
-         ↳ Technical Work Environment                     ← deep technical specialization/profile
+    │    │    ├─ Domain Structure
+    │    │    │    ├─ Constituent Composition / Membership   ← promoted; inactive; not researched
+    │    │    │    └─ Relational Organization / Topology     ← promoted; inactive; not researched
+    │    │    └─ Domain Condition
+    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive; not researched
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive; not researched
+    │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
+    └─ Work Conditions                                        ← bounded leaf; user-evaluated
 ```
 
-## Agreed continuation
+## Completion-review result
 
-```text
-Structure research/evaluation ← complete / accepted
-Condition research             ← boundedly complete
-Condition user evaluation      ← CURRENT GATE
-Environment completion review  ← inactive; later explicit transition
-Information decision           ← only after Environment completion review
-```
+Retain:
+- Environment parent;
+- Domain Reality + Work Conditions first-order roles;
+- Domain Dynamics bounded leaf;
+- Work Conditions bounded leaf.
+
+Environment is not complete because all four promoted Structure/Condition descendants remain material research debts under Ground Deepening G3 and the one-level method.
 
 ## Current routes
 
-### Condition result
-`domain-effect/domain-state/domain-condition/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/audit/source ledger`
-
-### Structure result
-`domain-effect/domain-state/domain-structure/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/audit/source ledger`
+### Completion review
+`completion-review/STATE.md → KEY.md → synthesis/ENVIRONMENT-COMPLETION-REVIEW.md → synthesis/COMPLETENESS-OMISSION-CHECK.md`
 
 ### Domain Reality
-`domain-effect/STATE.md → KEY.md → domain-state/STATE.md → relevant deeper child`
+`domain-effect/STATE.md → KEY.md → domain-state/STATE.md → relevant child`
 
 ### Work Conditions
-`work-conditions/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/WORK-CONDITIONS-SYNTHESIS.md`
-
-## Historical input rule
-
-Preserved pass snapshots remain historical evidence. Current refinements must not be retroactively substituted into prior pass inputs.
-
-## Hierarchical method
-
-`../../HIERARCHICAL-DEEPENING-METHOD.md`
-
-Research closure does not authorize a discovered child or the next sibling/stage automatically.
+`work-conditions/STATE.md → KEY.md`
 
 ## Guardrail
 
-No substantive node is active. Current authorized work is Condition user evaluation only.
+No substantive node is active. Information remains inactive.
 
-Do not activate a Condition child, Structure child, Environment completion review, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation without the required later transition.
+Recommended next selection after user evaluation: `Constituent Composition / Membership`; do not activate automatically.
