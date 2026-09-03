@@ -1,6 +1,6 @@
 # Environment / Operating Reality — KEY
 
-**Status:** Environment researched branches user-evaluated; Domain Structure bounded / awaiting user evaluation; no substantive node active
+**Status:** researched Environment branches user-evaluated through Domain Structure; no substantive node active
 **Date:** 2026-09-03
 **Scope:** Environment research hierarchy only; not cross-ground composition or architecture
 
@@ -10,7 +10,7 @@
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure                         [bounded; awaiting user evaluation]
+    │    │    ├─ Domain Structure                         [bounded; user-evaluated / accepted]
     │    │    │    ├─ Constituent Composition / Membership [discovered; inactive]
     │    │    │    └─ Relational Organization / Topology   [discovered; inactive]
     │    │    └─ Domain Condition / Status                [discovered; inactive]
@@ -23,20 +23,18 @@ Branches are analytical research problem roles, not object/schema/architecture c
 
 ## Why Environment is not yet handed off to Information
 
-Structure and Condition were discovered as distinct Domain State children. Structure has now received its own bounded pass; Condition has not.
+Structure and Condition were discovered as distinct Domain State children. Structure has now received its own bounded pass and user evaluation; Condition has not.
 
 Current continuation:
 
 ```text
 1. Domain Structure research          [complete at bounded immediate-child depth]
-2. user evaluation                    [current gate]
-3. Domain Condition / Status research [inactive]
+2. user evaluation                    [accepted 2026-09-03]
+3. Domain Condition / Status research [next logical node; inactive / not yet planned or authorized]
 4. user evaluation
 5. Environment completion review
 6. then decide whether Information should begin
 ```
-
-The Condition plan remains intentionally deferred until after Structure evaluation.
 
 ## Domain Structure result
 
@@ -47,6 +45,8 @@ Immediate discovered regions:
 - **Relational Organization / Topology** — how those relevant constituents are structurally organized.
 
 The split is semantic/problem-role based, not a graph node/edge or schema decomposition. No third universal Structure child currently survives.
+
+The bounded Structure result was accepted by the user on 2026-09-03. No reopen trigger was raised.
 
 ## Parent Environment result retained
 
@@ -113,4 +113,4 @@ Work Conditions:
 
 ## Authorization
 
-**Current authorized work is user evaluation of the bounded Domain Structure result only.**
+Current substantive authorization is **NONE**. The next logical step is Domain Condition / Status planning from the current canonical state, but it requires explicit user authorization.
