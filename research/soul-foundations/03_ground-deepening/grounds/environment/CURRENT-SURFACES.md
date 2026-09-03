@@ -33,12 +33,14 @@ Focused findings/audit preserve pass-time labels where useful for research recon
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain Reality | boundedly sufficient; user-authorised for continuation | `domain-effect/CURRENT-SURFACES.md` @ `2d694f7a3fe99e823b7efada1c5fdb3f2f67a030` |
-| Domain State | boundedly sufficient; awaiting user evaluation | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `2bbe824f4c868a45621f529199292eae51b2a6df` |
+| Domain Reality | boundedly sufficient; user-authorised for continuation | `domain-effect/CURRENT-SURFACES.md` @ `64d757ab320a84a14f563fe873563257e7be5b98` |
+| Domain State | boundedly sufficient; awaiting user evaluation | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `96502225d2e0b4de793c0231eddb4e8e970fbd5e` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
 | Domain Dynamics / Processes | inactive; not yet deepened | no current child package |
 | Work Conditions / Enabling–Constraining Environment | inactive | no current child package |
+
+The child source ledgers now preserve exact historical pass-input manifest anchors as well as current navigation paths, preventing later parent edits from contaminating pass reconstruction.
 
 ## Current tree
 
@@ -66,6 +68,9 @@ Parent:
 
 Domain Reality / State:
 `domain-effect/STATE → KEY/FINDINGS-MAP → domain-state/STATE → KEY/FINDINGS-MAP → current child synthesis/audit/source recovery`
+
+Historical pass reconstruction:
+use the exact pass-input snapshot anchors preserved in the child source ledgers rather than resolving current parent paths as if they were historical snapshots.
 
 ## Update rule
 
