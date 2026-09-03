@@ -2,23 +2,23 @@
 
 ## Role
 
-Current router for the Environment ground and its active Work Conditions pass.
+Current router for the Environment ground, bounded Domain Reality branch and bounded Work Conditions result.
 
 ## Current status
 
-**WORK CONDITIONS ACTIVE; DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED.**
+**WORK CONDITIONS BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorised work is substantive Work Conditions research only.
+Current authorised work is user evaluation of Work Conditions only.
 
 ## Reading order
 
 1. `STATE.md` — current Environment state/authorization.
-2. active Work Conditions → `work-conditions/STATE.md` / `INDEX.md`.
-3. `WORK-CONDITIONS-RESEARCH-PLAN.md` — frozen current-pass plan/falsifiers.
-4. `KEY.md` — current parent hierarchy.
-5. Domain Reality/State/Dynamics only as boundary references when needed.
-6. parent findings/synthesis when needed.
-7. `CURRENT-SURFACES.md` — exact Environment freshness binding; active pass preserves the pre-pass blob separately.
+2. current Work Conditions result → `work-conditions/STATE.md` / `KEY.md`.
+3. `KEY.md` — shortest current Environment hierarchy.
+4. Domain Reality/State/Dynamics as needed.
+5. parent result → `FINDINGS-MAP.md` / parent synthesis when needed.
+6. relevant child findings/audit/source surfaces when decision-critical.
+7. `CURRENT-SURFACES.md` — exact Environment freshness binding.
 
 ## Current Environment research tree
 
@@ -26,43 +26,46 @@ Current authorised work is substantive Work Conditions research only.
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition   ← inactive
-    │    │    └─ Domain Condition / Status        ← inactive
+    │    │    ├─ Domain Structure / Composition   ← discovered; inactive
+    │    │    └─ Domain Condition / Status        ← discovered; inactive
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← ACTIVE
-         └─ Technical Work Environment            ← prior deep specialization; placement under test
+    └─ Work Conditions                            ← bounded leaf; awaiting user evaluation
+         ↳ Technical Work Environment             ← deep technical specialization/profile
 ```
 
-## Active Work Conditions route
+## Current routes
 
-`work-conditions/STATE.md → INDEX.md → findings → synthesis → audit/source recovery at closure`
+### Work Conditions
+`work-conditions/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/WORK-CONDITIONS-SYNTHESIS.md → relevant finding → completion/source recovery`
 
-Frozen plan:
+Work Conditions correction:
+- `Work Conditions / Enabling–Constraining Environment` → `Work Conditions`;
+- no universal immediate child currently justified;
+- bounded leaf at current universal foundation depth;
+- Technical Work Environment retained as a deep technical specialization/profile;
+- awaiting user evaluation.
+
+Executed frozen plan:
 - `WORK-CONDITIONS-RESEARCH-PLAN.md`.
 
-Exact historical input to the pass:
-- Environment `CURRENT-SURFACES.md` blob `0bd03a434fdba0baed0821a7d73e2e7e4643b541`.
+### Domain Reality
+`domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → relevant deeper child`
 
-## Boundary routes
+Domain State and Domain Dynamics are user-evaluated. Structure/Condition remain inactive.
 
-Domain Reality:
-`domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md`
+## Historical input anchor
 
-Domain State:
-`domain-effect/domain-state/STATE.md → KEY.md`
+The Work Conditions pass began from Environment `CURRENT-SURFACES.md` blob:
+- `0bd03a434fdba0baed0821a7d73e2e7e4643b541`.
 
-Domain Dynamics:
-`domain-effect/domain-dynamics/STATE.md → KEY.md`
-
-Technical Work Environment prior evidence:
-`../../../01_verticals/work-environment/KEY.md` through its own progressive retrieval.
+Do not substitute this post-pass Environment state for the historical pass input.
 
 ## Hierarchical method
 
 `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-Only Work Conditions is active. Child discovery does not authorize child research.
+Node closure does not automatically authorize a sibling, child or another ground.
 
 ## Guardrail
 
-Do not begin Structure, Condition, Information, Work, Actors, systematic composition or architecture during this pass.
+No substantive node is active. Current authorized activity is user evaluation of Work Conditions. Do not begin Structure, Condition, Information, Work, Actors, systematic composition or architecture without an explicit later transition.
