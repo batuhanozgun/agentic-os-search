@@ -23,7 +23,7 @@
 | Structure freshness | `domain-structure/CURRENT-SURFACES.md` | `8bd8d0b1e7e26f10d007d4e2c3702f0787d25619` |
 | Executed Condition plan | `DOMAIN-CONDITION-RESEARCH-PLAN.md` | `17708a8592c7e3607846a71bc6f8174955d3fd5d` |
 | Condition freshness | `domain-condition/CURRENT-SURFACES.md` | `b661a325c32339e81d900532dcb556af6167cf01` |
-| Environment completion review | `../../completion-review/CURRENT-SURFACES.md` | `pending direct binding in Environment freshness surface` |
+| Environment completion review | `../../completion-review/CURRENT-SURFACES.md` | `447f3e79b2b7e38b51c37665d0b8e1490c125889` |
 
 ## Historical Domain State pass surfaces
 
