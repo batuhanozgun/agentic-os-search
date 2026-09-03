@@ -1,6 +1,6 @@
 # Domain State — CURRENT SURFACES
 
-**Status:** canonical freshness binding after Structure/Condition acceptance and Environment completion review  
+**Status:** canonical freshness binding after Structure/Condition acceptance and bounded Environment completion review  
 **Date:** 2026-09-04  
 **Branch:** `main`
 
@@ -8,7 +8,7 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `06ffba6cc04cadf2cecf33f549614309c495541f` |
+| Node state | `STATE.md` | `92d096a86be397d04672ad112b452ca107614711` |
 | Router | `INDEX.md` | `549228693a6a49cce098fb6a6a6f085104a97fe1` |
 | L0 key | `KEY.md` | `be6e08e09fbabdbc0b6c462fba462dc7c101e7c6` |
 | L1 findings map | `FINDINGS-MAP.md` | `221a9f80449c171b84d3c4d4125dd0d1098464ac` |
