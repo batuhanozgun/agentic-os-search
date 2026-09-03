@@ -1,17 +1,18 @@
 # Domain Reality — STATE
 
-**Status:** BOUNDED DOMAIN REALITY RESULT USER-AUTHORISED FOR CONTINUATION; DOMAIN STATE CHILD BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION  
+**Status:** BOUNDED DOMAIN REALITY RESULT USER-AUTHORISED FOR CONTINUATION; DOMAIN STATE CHILD USER-EVALUATED FOR HIERARCHICAL CONTINUATION  
 **Authorised:** 2026-09-02  
+**Domain State user evaluation accepted:** 2026-09-03  
 **Parent:** Environment / Operating Reality  
 **Sibling:** Work Conditions / Enabling–Constraining Environment — inactive  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** user evaluation of the `Domain State` child result only
+**Current authorised activity:** selection/planning of the next single research node only; no substantive node active
 
 ## Current Domain Reality hierarchy
 
 ```text
 Domain Reality
-    ├─ Domain State                               ← bounded result; awaiting user evaluation
+    ├─ Domain State                               ← bounded result; user-evaluated for continuation
     │    ├─ Domain Structure / Composition       ← discovered; inactive
     │    └─ Domain Condition / Status            ← discovered; inactive
     └─ Domain Dynamics / Processes               ← inactive
@@ -40,6 +41,12 @@ Cross-cutting rather than promoted:
 - observability/evidence/uncertainty;
 - causal explanation.
 
+## User evaluation
+
+The user reviewed the Domain State result on 2026-09-03 and found no blocking problem with the Structure/Composition versus Condition/Status distinction. Domain State is accepted as reasonable enough for continued hierarchical research, subject to existing reopen conditions.
+
+This does not select or activate Structure, Condition, Dynamics or any other node.
+
 ## Domain Dynamics sibling
 
 `Domain Dynamics / Processes` remains inactive. Its existence may be used only as a boundary reference until explicitly authorised.
@@ -65,9 +72,7 @@ Result:
 
 ## One-active-node rule
 
-No substantive node is active while Domain State awaits user evaluation.
-
-Do not activate Domain Structure, Domain Condition, Domain Dynamics, Work Conditions, Information, Work or Actors.
+No substantive node is active. Domain Structure, Domain Condition, Domain Dynamics, Work Conditions, Information, Work and Actors are all inactive until separately selected and authorised.
 
 ## Verification status
 
@@ -75,8 +80,8 @@ Same-model completion review is not independent verification. External sources s
 
 ## Current return condition
 
-User evaluates Domain State and decides whether it is reasonable enough for hierarchical continuation or needs targeted reopening.
+Select and plan one next research node with the user before any substantive research is activated.
 
 ## Next authorised work
 
-**USER EVALUATION OF DOMAIN STATE ONLY.**
+**NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE.**
