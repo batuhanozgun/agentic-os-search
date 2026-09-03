@@ -1,23 +1,23 @@
 # Domain State — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT; USER-EVALUATED PARENT; STRUCTURE ACCEPTED; CONDITION BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDEDLY SUFFICIENT PARENT; USER-EVALUATED; STRUCTURE AND CONDITION BOUNDED / USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE CHILD ACTIVE  
 **Domain State user evaluation accepted:** 2026-09-03  
 **Domain Structure:** bounded / user-evaluated / accepted 2026-09-03  
-**Domain Condition:** substantive pass bounded 2026-09-03; awaiting user evaluation  
+**Domain Condition:** bounded / user-evaluated / accepted 2026-09-04  
 **Parent:** Domain Reality  
 **Sibling:** Domain Dynamics — bounded leaf; user-evaluated  
-**Current authorised activity:** USER EVALUATION OF THE BOUNDED DOMAIN CONDITION RESULT ONLY
+**Current authorised activity:** ENVIRONMENT COMPLETION REVIEW AT THE PARENT/STAGE LEVEL ONLY
 
 ## Current hierarchy
 
 ```text
 Domain State
     ├─ Domain Structure                         ← bounded / accepted
-    │    ├─ Constituent Composition / Membership ← discovered; inactive
-    │    └─ Relational Organization / Topology   ← discovered; inactive
-    └─ Domain Condition                         ← bounded; awaiting user evaluation
-         ├─ Realized Characteristics / Values    ← discovered; inactive
-         └─ Criterion-Relative Standing / Status ← discovered; inactive
+    │    ├─ Constituent Composition / Membership ← discovered; inactive / not researched
+    │    └─ Relational Organization / Topology   ← discovered; inactive / not researched
+    └─ Domain Condition                         ← bounded / accepted
+         ├─ Realized Characteristics / Values    ← discovered; inactive / not researched
+         └─ Criterion-Relative Standing / Status ← discovered; inactive / not researched
 ```
 
 Branches are analytical problem regions, not object/schema/architecture classes.
@@ -28,7 +28,7 @@ Branches are analytical problem regions, not object/schema/architecture classes.
 - **Domain Structure** — what materially relevant constituents participate and how the selected structure is actually organized;
 - **Domain Condition** — what materially relevant non-structural current condition actually obtains, including realized characteristics/values and materially relevant criterion-relative standing.
 
-Deeper Structure and Condition passes refine rather than overturn this parent split.
+Dedicated Structure and Condition passes refine rather than overturn this parent split.
 
 ## Domain Structure result
 
@@ -38,11 +38,9 @@ Domain Structure
     └─ Relational Organization / Topology
 ```
 
-User-evaluated / accepted 2026-09-03. Neither child is active.
+User-evaluated / accepted 2026-09-03. Neither child is active or researched.
 
 ## Domain Condition result
-
-The inherited `Domain Condition / Status` label was challenged under the frozen Condition plan and refined to:
 
 ```text
 Domain Condition
@@ -50,15 +48,7 @@ Domain Condition
     └─ Criterion-Relative Standing / Status
 ```
 
-### Realized Characteristics / Values
-
-> What materially relevant characteristics, quantities, qualitative values, modes or relational conditions actually obtain at the selected scope/time, before asking whether they satisfy a separate criterion?
-
-### Criterion-Relative Standing / Status
-
-> Relative to a materially relevant functional, normative, regulatory or domain criterion, what standing currently obtains?
-
-The split is semantic, not raw-vs-derived data or scalar-vs-category. No third universal Condition child survived current bounded testing.
+User-evaluated / accepted 2026-09-04. Neither child is active or researched.
 
 ## Current boundaries
 
@@ -74,16 +64,21 @@ current State difference ≠ causal root cause
 
 ## Verification status
 
-Domain State, Structure and Condition completion audits are same-model adversarial self-reviews, **not independent verification**. External sources discriminate rivals but do not independently validate the exact project hierarchy.
+Domain State, Structure and Condition completion audits are same-model adversarial self-reviews, **not independent verification**. External sources discriminate rivals but do not independently validate the exact project hierarchy. User acceptance does not alter that status.
+
+## Completion-review dependency
+
+The upcoming Environment completion review must explicitly decide whether the four discovered but unresearched Structure/Condition children are material research debts that block Environment closure under `HIERARCHICAL-DEEPENING-METHOD.md`.
+
+Do not infer completion merely because both parent children have received one deeper pass.
 
 ## Current sequence
 
 ```text
 Structure research/evaluation ← complete / accepted
-Condition research             ← boundedly complete
-Condition user evaluation      ← CURRENT GATE
-Environment completion review  ← not active; only after Condition evaluation
-Information transition decision← only after Environment completion review
+Condition research/evaluation ← complete / accepted
+Environment completion review  ← authorised next stage
+Information transition decision← only after that review and later user direction
 ```
 
 ## Current Condition route
@@ -100,6 +95,6 @@ Historical parent synthesis/findings remain preserved rather than retroactively 
 
 ## Next authorised work
 
-**USER EVALUATION OF THE BOUNDED DOMAIN CONDITION RESULT ONLY.**
+**ENVIRONMENT COMPLETION REVIEW ONLY.**
 
-Do not activate either Condition child, a Structure child, Environment completion review, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation automatically.
+Do not activate any Structure/Condition child, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation automatically.
