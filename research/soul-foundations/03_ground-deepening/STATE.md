@@ -1,14 +1,14 @@
 # Ground Deepening — STATE
 
-**Status:** DOMAIN STATE USER-EVALUATED; DOMAIN DYNAMICS BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED; NO SUBSTANTIVE NODE ACTIVE  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment parent evaluation:** accepted for hierarchical continuation  
 **Domain Reality:** boundedly sufficient; user-authorised for continuation  
 **Domain State user evaluation:** accepted 2026-09-03  
-**Domain Dynamics bounded closure:** 2026-09-03  
+**Domain Dynamics user evaluation:** accepted 2026-09-03  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
-**Current authorised activity:** user evaluation of Domain Dynamics only
+**Current authorised activity:** selection/planning of the next single research node only
 
 ## Working research tree
 
@@ -18,7 +18,7 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition   ← inactive
     │    │    └─ Domain Condition / Status        ← inactive
-    │    └─ Domain Dynamics                       ← bounded leaf; awaiting user evaluation
+    │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
 
 Information / Representation State              ← inactive
@@ -41,17 +41,18 @@ Current depth result:
 - dedicated Dynamics node survives;
 - no universal immediate child currently survives the child-promotion test;
 - Domain Dynamics is a bounded leaf at current foundation-research depth;
-- internal problem regions remain explicit but non-hierarchical.
+- internal problem regions remain explicit but non-hierarchical;
+- user evaluation accepted 2026-09-03.
 
 ## Hierarchical method
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
 Rules retained:
-- no substantive node is active after closure;
+- no substantive node is active after evaluation;
 - child discovery/leaf closure does not authorize another node;
 - dimensions/modeling choices are not promoted merely to deepen the tree;
-- closure returns to user evaluation before sibling/child/ground transition.
+- after evaluation, next-node selection/planning precedes substantive activation.
 
 ## Verification status
 
@@ -59,7 +60,7 @@ Dynamics completion/omission review is same-model adversarial self-review, not i
 
 ## Current return condition
 
-Return the bounded Domain Dynamics result to the user for evaluation. Do not select/activate another node until that evaluation/transition decision.
+Select and plan one next research node with the user before substantive research begins.
 
 ## Guardrail
 
