@@ -1,7 +1,7 @@
 # Environment / Operating Reality — KEY
 
-**Status:** researched Environment branches through Domain Condition; Condition bounded / awaiting user evaluation; no substantive node active
-**Date:** 2026-09-03
+**Status:** COMPLETION REVIEW BOUNDED; ENVIRONMENT NOT YET COMPLETE; AWAITING USER EVALUATION  
+**Date:** 2026-09-04  
 **Scope:** Environment research hierarchy only; not cross-ground composition or architecture
 
 ## Shortest current result
@@ -10,117 +10,71 @@
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure                         [bounded; accepted]
-    │    │    │    ├─ Constituent Composition / Membership [discovered; inactive]
-    │    │    │    └─ Relational Organization / Topology   [discovered; inactive]
-    │    │    └─ Domain Condition                         [bounded; awaiting user evaluation]
-    │    │         ├─ Realized Characteristics / Values    [discovered; inactive]
-    │    │         └─ Criterion-Relative Standing / Status [discovered; inactive]
-    │    └─ Domain Dynamics                               [bounded leaf; user-evaluated]
-    └─ Work Conditions                                    [bounded leaf; user-evaluated]
-         ↳ Technical Work Environment                     [deep technical specialization/profile]
+    │    │    ├─ Domain Structure
+    │    │    │    ├─ Constituent Composition / Membership   ← promoted; unresearched
+    │    │    │    └─ Relational Organization / Topology     ← promoted; unresearched
+    │    │    └─ Domain Condition
+    │    │         ├─ Realized Characteristics / Values       ← promoted; unresearched
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; unresearched
+    │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
+    └─ Work Conditions                                        ← bounded leaf; user-evaluated
+         ↳ Technical Work Environment                         ← deep technical specialization/profile
 ```
 
-Branches are analytical research problem roles, not object/schema/architecture classes.
+## Completion-review verdict
 
-## Why Environment is not yet handed off to Information
+**Environment is not yet complete for the current Ground Deepening purpose.**
 
-The Domain State children Structure and Condition have now each received their own bounded pass. Structure is accepted; Condition awaits user evaluation.
-
-Current continuation:
+The parent decomposition survives:
 
 ```text
-1. Domain Structure research/evaluation [complete / accepted]
-2. Domain Condition research            [boundedly complete]
-3. Condition user evaluation            [current gate]
-4. Environment completion review        [inactive]
-5. then decide whether Information should begin
+Environment / Operating Reality
+    ├─ Domain Reality
+    └─ Work Conditions
 ```
 
-The completion review must explicitly ask whether the researched Environment hierarchy is now sufficiently covered; it is not implied merely because the planned branches were visited.
+No third universal first-order Environment branch is currently required and broad parent search has declining value.
 
-## Domain Structure result
+The blocker is four promoted descendants that have never received their own substantive passes:
+- Constituent Composition / Membership;
+- Relational Organization / Topology;
+- Realized Characteristics / Values;
+- Criterion-Relative Standing / Status.
 
-```text
-Domain Structure
-    ├─ Constituent Composition / Membership
-    └─ Relational Organization / Topology
-```
+All four independently meet `G3 — Selective deepening` because they have distinct failure/recovery surfaces and material child-local boundary/decomposition questions.
 
-Bounded / user-evaluated / accepted.
+## What remains closed
 
-## Domain Condition result
+- Domain Dynamics remains a bounded leaf.
+- Work Conditions remains a bounded leaf.
+- Technical Work Environment remains a deep specialization/profile.
+- current Environment residuals do not form a third universal branch.
 
-`Domain Condition / Status` was refined to **Domain Condition**.
+## Transition judgment
 
-```text
-Domain Condition
-    ├─ Realized Characteristics / Values
-    └─ Criterion-Relative Standing / Status
-```
+**Information should not begin yet.**
 
-- Realized Characteristics / Values asks what current non-structural condition facts/values/modes actually obtain.
-- Criterion-Relative Standing / Status asks what current standing obtains relative to a materially relevant criterion.
+Transition would leave known Environment research debt unresolved, including reality-versus-representation and criterion-relative-standing boundaries that the next top-level ground will directly touch.
 
-No third universal immediate Condition child currently survives.
+## Recommended next selection after user evaluation
 
-## Parent Environment result retained
+`Constituent Composition / Membership` is the strongest default next child.
 
-Environment concerns boundary/reference-relative realized conditions and dynamics that matter because they:
-- constitute the Domain Reality materially at issue; and/or
-- materially shape whether and how focal Work can be performed.
-
-## Domain Reality result retained
-
-`Domain / Effect Reality` → **Domain Reality**.
-
-Domain State now routes to the deeper Structure and Condition results above.
-
-Domain Dynamics remains a bounded leaf / user-evaluated.
-
-## Work Conditions result retained
-
-`Work Conditions / Enabling–Constraining Environment` → **Work Conditions**.
-
-Work Conditions remains a bounded leaf at current universal foundation depth; Technical Work Environment remains a deep technical specialization/profile.
-
-## Strong non-collapse distinctions
-
-```text
-Environment ≠ everything outside / everything relevant / Context
-Domain Reality ≠ every target of Work
-Work Conditions ≠ a second kind of reality
-Domain Structure ≠ Domain Condition
-actual characteristic/value ≠ observation/measurement/report by identity
-actual standing/status ≠ score/API status/certificate/report by identity
-current State ≠ Dynamics
-actual Environment fact ≠ representation by identity
-Domain Reality role ≠ Work Conditions role by object identity
-```
+It is not active and this recommendation is not authorization.
 
 ## Verification limit
 
-Existing completion audits are same-model adversarial reviews, not independent verification. External sources discriminate rival hypotheses but do not independently validate the exact hierarchy.
+The completion review is same-model adversarial self-review, not independent verification. Fresh external sources were used only to discriminate live rivals.
 
 ## Go deeper
 
-Condition:
-- `domain-effect/domain-state/domain-condition/STATE.md`
-- `domain-effect/domain-state/domain-condition/KEY.md`
-- `domain-effect/domain-state/domain-condition/CURRENT-SURFACES.md`
-
-Structure:
-- `domain-effect/domain-state/domain-structure/STATE.md`
-- `domain-effect/domain-state/domain-structure/KEY.md`
-
-Domain Reality:
-- `domain-effect/STATE.md`
-- `domain-effect/KEY.md`
-
-Work Conditions:
-- `work-conditions/STATE.md`
-- `work-conditions/KEY.md`
+Completion review:
+- `completion-review/STATE.md`
+- `completion-review/KEY.md`
+- `completion-review/synthesis/ENVIRONMENT-COMPLETION-REVIEW.md`
+- `completion-review/synthesis/COMPLETENESS-OMISSION-CHECK.md`
+- `completion-review/CURRENT-SURFACES.md`
 
 ## Authorization
 
-**Current authorized work is user evaluation of the bounded Domain Condition result only.**
+Current authorized interaction is **user evaluation of the Environment completion-review result only**.
