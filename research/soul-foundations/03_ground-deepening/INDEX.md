@@ -6,26 +6,28 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**DOMAIN STRUCTURE SELECTED / PLANNED NEXT; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STRUCTURE BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorization is planning only. Structure research requires a later explicit activation.
+Current authorization is user evaluation of the bounded Structure result only.
 
 ## Read order
 
 1. `STATE.md` — current stage state/authorization.
 2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive method.
 3. current Environment route.
-4. selected Structure route → `grounds/environment/domain-effect/domain-state/STATE.md` → `DOMAIN-STRUCTURE-RESEARCH-PLAN.md`.
+4. Structure result → `grounds/environment/domain-effect/domain-state/domain-structure/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
 5. `PLAN.md` — original accepted top-level plan when needed.
 6. `CURRENT-SURFACES.md` — exact stage freshness.
+
+The executed Structure plan remains at `grounds/environment/domain-effect/domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md` for pass reconstruction; it is not current authorization.
 
 ## Current Environment route
 
 Environment parent:
 `grounds/environment/STATE.md → INDEX.md → KEY.md`
 
-Selected Structure plan:
-`grounds/environment/domain-effect/domain-state/STATE.md → DOMAIN-STRUCTURE-RESEARCH-PLAN.md → KEY.md`
+Structure result:
+`grounds/environment/domain-effect/domain-state/domain-structure/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/audit/source ledger`
 
 Current sequence:
 
@@ -36,7 +38,7 @@ Structure research → user evaluation
 → then decide whether Information should begin
 ```
 
-The Condition plan is intentionally deferred until Structure evaluation.
+Structure research is boundedly complete. The Condition plan is intentionally deferred until Structure evaluation.
 
 ## Current tree
 
@@ -44,11 +46,13 @@ The Condition plan is intentionally deferred until Structure evaluation.
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition   ← selected/planned next; research not active
-    │    │    └─ Domain Condition / Status        ← discovered; intended after Structure evaluation
-    │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← bounded leaf; user-evaluated
-         ↳ Technical Work Environment             ← deep technical specialization/profile
+    │    │    ├─ Domain Structure                         ← bounded; awaiting user evaluation
+    │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
+    │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
+    │    │    └─ Domain Condition / Status                ← discovered; inactive
+    │    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
+    └─ Work Conditions                                    ← bounded leaf; user-evaluated
+         ↳ Technical Work Environment                     ← deep technical specialization/profile
 
 Information / Representation State              ← inactive; transition deferred
 Work                                             ← inactive
@@ -57,8 +61,8 @@ Actors / Agency–Participation–Authority          ← inactive
 
 ## One-active-node rule
 
-No node is active. Planning completion does not authorize Structure execution.
+No substantive node is active. Research closure does not authorize either discovered Structure child or Domain Condition / Status.
 
 ## Guardrail
 
-Do not infer authorization for Structure research, Condition research, Information, cross-ground composition, SOUL/Development OS architecture, ontology/data model or implementation.
+Do not infer authorization for Condition research, Information, cross-ground composition, SOUL/Development OS architecture, ontology/data model or implementation.
