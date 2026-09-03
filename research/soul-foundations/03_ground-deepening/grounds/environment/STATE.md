@@ -1,12 +1,13 @@
 # Environment / Operating Reality — STATE
 
-**Status:** PARENT GROUND, DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED; NO SUBSTANTIVE NODE ACTIVE  
-**Environment parent authorised:** 2026-09-02  
-**Domain State user evaluation accepted:** 2026-09-03  
-**Domain Dynamics user evaluation accepted:** 2026-09-03  
-**Scope:** Environment / Operating Reality ground only  
-**Other top-level grounds:** inactive  
-**Current authorised activity:** selection/planning of the next single research node only
+**Status:** PARENT GROUND, DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED; WORK CONDITIONS ACTIVE
+**Environment parent authorised:** 2026-09-02
+**Domain State user evaluation accepted:** 2026-09-03
+**Domain Dynamics user evaluation accepted:** 2026-09-03
+**Work Conditions activated:** 2026-09-03
+**Scope:** Environment / Operating Reality ground only
+**Other top-level grounds:** inactive
+**Current authorised activity:** substantive Work Conditions research to bounded closure / user-evaluation boundary
 
 ## Current Environment research hierarchy
 
@@ -14,73 +15,68 @@
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition   ← discovered; inactive
-    │    │    └─ Domain Condition / Status        ← discovered; inactive
+    │    │    ├─ Domain Structure / Composition   ← inactive
+    │    │    └─ Domain Condition / Status        ← inactive
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions / Enabling–Constraining Environment ← inactive
-         └─ Technical Work Environment
+    └─ Work Conditions                            ← ACTIVE
+         └─ Technical Work Environment            ← prior deep technical specialization; placement under test
 ```
 
 The parent, Domain Reality, Domain State and Domain Dynamics results are accepted as reasonable enough for continued hierarchical research, not as final ontology or architecture.
 
-## Environment parent result retained
+## Active node — Work Conditions
+
+Starting label:
+- `Work Conditions / Enabling–Constraining Environment`.
+
+Current active question:
+- what realized circumstances materially shape whether and how focal Work can be performed;
+- whether this is a coherent first-order branch or reducible to Domain Reality facts + relation to Work;
+- what immediate children, if any, survive;
+- whether Technical Work Environment is a genuine immediate child or a specialization/profile.
+
+Governing plan:
+- `WORK-CONDITIONS-RESEARCH-PLAN.md`.
+
+Active package:
+- `work-conditions/STATE.md → INDEX.md → findings/evidence → synthesis at closure`.
+
+Exact pre-pass Environment manifest preserved by the active package:
+- `CURRENT-SURFACES.md` blob `0bd03a434fdba0baed0821a7d73e2e7e4643b541`.
+
+## Retained Environment findings
 
 Environment concerns boundary/reference-relative realized conditions and dynamics that matter because they:
-- constitute the Domain Reality materially at issue; and/or
+- constitute Domain Reality materially at issue; and/or
 - materially enable, constrain, degrade, endanger or otherwise shape Work execution.
 
-`Work-Support Environment` remains broadened to **Work Conditions / Enabling–Constraining Environment** because adverse/degrading conditions are first-order.
+`Work-Support Environment` was broadened because adverse/degrading conditions are first-order.
 
-## Domain Reality corrections retained
+Domain Reality corrections retained:
+- `Domain / Effect Reality` → Domain Reality;
+- actual result belongs to Domain State/trajectory;
+- intended outcome and causal effect/attribution remain relation/evidence problems.
 
-- `Domain / Effect Reality` → **Domain Reality**.
-- actual result belongs to Domain State/trajectory; intended outcome and causal effect/attribution remain relations/evidence problems.
-
-## Domain State bounded result
-
-`Domain State / Configuration` → **Domain State**.
-
-Immediate children:
-1. **Domain Structure / Composition** — actual constituents and realized organization/topology.
-2. **Domain Condition / Status** — actual properties/values/health/mode/status/standing.
-
-Domain State is user-evaluated for hierarchical continuation.
-
-## Domain Dynamics bounded result
-
-`Domain Dynamics / Processes` → **Domain Dynamics**.
-
-Current result:
-- Dynamics is required to capture realized unfolding across time rather than only current State;
-- no universal immediate child currently survives deeper falsification;
-- `Domain Dynamics` is a **bounded leaf** at current foundation-research depth;
-- occurrence/interaction, change/transition/trajectory, history/path dependence, dynamic pattern/regime and multi-scale behavior remain explicit internal problem regions/properties rather than children.
-
-The user evaluated the simplified Dynamics result on 2026-09-03 and found it reasonable for hierarchical continuation. This does not activate another node.
-
-Current Dynamics route:
-`domain-effect/domain-dynamics/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md → focused finding → completion/source recovery`
-
-## Strong distinctions
+## Strong distinctions under active test
 
 ```text
 actual Environment condition/dynamics ≠ specification ≠ observation ≠ model ≠ Record
 Domain Reality ≠ every target of Work
-Domain Dynamics ≠ Domain State
 Domain Dynamics ≠ focal Work lifecycle
-Domain Dynamics role ≠ Work Conditions role by object identity
-actual Dynamics ≠ transition law / reachable-state model / forecast
-actual transition/change ≠ causal effect attribution
+Work Conditions ≠ Work internal state by default
+resource existence ≠ availability/reachability/permission/sufficiency
+Actor capability ≠ situated actionability
+Domain Reality role ≠ Work Conditions role by object identity
 ```
 
-## Hierarchical rule
+## One-active-node rule
 
-No substantive node is active.
+Only Work Conditions is substantively active.
 
 Inactive:
 - Domain Structure / Composition;
 - Domain Condition / Status;
-- Work Conditions;
+- Domain Dynamics;
 - Information;
 - Work;
 - Actors;
@@ -88,12 +84,8 @@ Inactive:
 
 ## Verification status
 
-Domain State and Domain Dynamics completion audits are same-model adversarial reviews, not independent verification. External source traditions discriminate boundaries/rivals but do not independently validate the exact hierarchy.
+No Work Conditions decomposition is yet verified. Prior Environment/Dynamics completion audits are same-model adversarial reviews, not independent verification.
 
 ## Current return condition
 
-Select and plan one next research node with the user before substantive research begins.
-
-## Next authorised work
-
-**NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE.**
+Complete the Work Conditions node pass to bounded closure or a material blocker/falsifier, then return the result to user evaluation before activating another node.
