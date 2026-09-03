@@ -2,23 +2,24 @@
 
 ## Role
 
-Current router for the Environment ground, bounded Domain Reality branch and user-evaluated Work Conditions result.
+Current router for the Environment ground and its agreed continuation through Domain Structure and Domain Condition before any Information transition.
 
 ## Current status
 
-**DOMAIN STATE, DOMAIN DYNAMICS AND WORK CONDITIONS USER-EVALUATED; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STRUCTURE SELECTED / PLANNED NEXT; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorised work is selection/planning of one next research node with the user.
+Current authorization is planning only. Structure research requires a later explicit activation.
 
 ## Reading order
 
-1. `STATE.md` — current Environment state/authorization.
-2. `KEY.md` — shortest current Environment hierarchy.
-3. Work Conditions → `work-conditions/STATE.md` / `KEY.md` when needed.
+1. `STATE.md` — current Environment state/authorization/sequencing.
+2. selected Structure route → `domain-effect/domain-state/STATE.md` → `domain-effect/domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md`.
+3. `KEY.md` — shortest current Environment hierarchy.
 4. Domain Reality/State/Dynamics as needed.
-5. parent result → `FINDINGS-MAP.md` / parent synthesis when needed.
-6. relevant child findings/audit/source surfaces when decision-critical.
-7. `CURRENT-SURFACES.md` — exact Environment freshness binding.
+5. Work Conditions result as needed.
+6. parent result → `FINDINGS-MAP.md` / parent synthesis when needed.
+7. relevant child findings/audit/source surfaces when decision-critical.
+8. `CURRENT-SURFACES.md` — exact Environment freshness binding.
 
 ## Current Environment research tree
 
@@ -26,46 +27,47 @@ Current authorised work is selection/planning of one next research node with the
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition   ← discovered; inactive
-    │    │    └─ Domain Condition / Status        ← discovered; inactive
+    │    │    ├─ Domain Structure / Composition   ← selected/planned next; research not active
+    │    │    └─ Domain Condition / Status        ← discovered; intended after Structure evaluation
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
     └─ Work Conditions                            ← bounded leaf; user-evaluated
          ↳ Technical Work Environment             ← deep technical specialization/profile
 ```
 
+## Agreed continuation
+
+```text
+Structure research → user evaluation
+→ Condition research → user evaluation
+→ Environment completion review
+→ then decide whether Information should begin
+```
+
+This ordering is not justified merely by visual sequence. It follows the hierarchical method because Structure and Condition were discovered as materially distinct children of Domain State but have not yet received their own node passes.
+
+Condition planning is intentionally deferred until after Structure evaluation.
+
 ## Current routes
 
-### Work Conditions
-`work-conditions/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/WORK-CONDITIONS-SYNTHESIS.md → relevant finding → completion/source recovery`
-
-Work Conditions correction:
-- `Work Conditions / Enabling–Constraining Environment` → `Work Conditions`;
-- no universal immediate child currently justified;
-- bounded leaf at current universal foundation depth;
-- Technical Work Environment retained as a deep technical specialization/profile;
-- user evaluation accepted 2026-09-03.
-
-Executed frozen plan:
-- `WORK-CONDITIONS-RESEARCH-PLAN.md`.
+### Selected Structure plan
+`domain-effect/domain-state/STATE.md → DOMAIN-STRUCTURE-RESEARCH-PLAN.md → KEY.md`
 
 ### Domain Reality
 `domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → relevant deeper child`
 
-Domain State and Domain Dynamics are user-evaluated. Structure/Condition remain inactive.
+### Work Conditions
+`work-conditions/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/WORK-CONDITIONS-SYNTHESIS.md`
 
-## Historical input anchor
+## Historical input rule
 
-The Work Conditions pass began from Environment `CURRENT-SURFACES.md` blob:
-- `0bd03a434fdba0baed0821a7d73e2e7e4643b541`.
-
-Do not substitute current post-pass Environment state for the historical pass input.
+Preserved pass snapshots remain historical evidence. Current sequencing changes must not be retroactively substituted into prior pass inputs.
 
 ## Hierarchical method
 
 `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-Node closure or user evaluation does not automatically authorize a sibling, child or another ground.
+Selection/planning does not equal substantive activation.
 
 ## Guardrail
 
-No substantive node is active. Current authorized activity is next-node selection/planning only. Do not begin Structure, Condition, Information, Work, Actors, systematic composition or architecture without an explicit later transition.
+No substantive node is active. Do not begin Structure, Condition, Information, Work, Actors, systematic composition or architecture without the required later transition.
