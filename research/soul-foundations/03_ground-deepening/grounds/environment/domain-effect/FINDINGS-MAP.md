@@ -1,6 +1,6 @@
 # Domain Reality — FINDINGS MAP
 
-**Status:** Domain Reality bounded result with Domain State user-evaluated and Domain Dynamics bounded / awaiting user evaluation
+**Status:** Domain Reality bounded result with Domain State and Domain Dynamics user-evaluated for hierarchical continuation
 
 > **Pass-artifact provenance:** Original focused findings, executed research plans, source ledgers and completion audits preserve labels/status current during their producing passes. Current hierarchy, authorization and epistemic status come from `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`; pass-time `active`, `candidate`, `Domain State / Configuration` or `Domain Dynamics / Processes` wording is not current authorization.
 
@@ -46,7 +46,7 @@ Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure / Composition        ← discovered; inactive
     │    └─ Domain Condition / Status             ← discovered; inactive
-    └─ Domain Dynamics                            ← bounded leaf; awaiting user evaluation
+    └─ Domain Dynamics                            ← bounded leaf; user-evaluated
 ```
 
 Current corrections:
@@ -58,10 +58,10 @@ Current corrections:
 ## User-evaluation state
 
 - Domain State: user-evaluated and accepted for hierarchical continuation.
-- Domain Dynamics: boundedly sufficient, **awaiting user evaluation**.
+- Domain Dynamics: user-evaluated and accepted for hierarchical continuation.
 
-No substantive node is active.
+No substantive node is active. Current authorised work is selection/planning of one next research node with the user.
 
 ## Guardrail
 
-Do not treat closure of Dynamics as authorization for Structure, Condition, Work Conditions or another ground. User evaluation precedes the next transition decision.
+Do not treat user evaluation as authorization for Structure, Condition, Work Conditions or another ground. Next-node selection/planning precedes any substantive transition.
