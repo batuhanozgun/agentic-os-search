@@ -1,6 +1,6 @@
 # Domain Reality — FINDINGS MAP
 
-**Status:** Domain Reality bounded result with Domain State child deepened; Domain State awaits user evaluation
+**Status:** Domain Reality bounded result with Domain State child deepened and user-evaluated for hierarchical continuation
 
 > **Pass-artifact provenance:** Focused findings, the executed research plan, source ledger and original completion audit preserve the labels/status current during the Domain Reality pass. Current hierarchy, authorization and epistemic status come from `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`; pass-time `active`, `candidate` or `Domain State / Configuration` wording is not current authorization.
 
@@ -50,6 +50,10 @@ Interpretation:
 - Identity, Constraints and Granularity remain cross-cutting at this level;
 - child discovery does not authorize further descent.
 
+## User evaluation
+
+The user reviewed the Domain State result on 2026-09-03 and accepted it as reasonable enough for hierarchical continuation. This does not select or activate Structure, Condition, Dynamics or another node.
+
 ## Guardrail
 
-Current authorised work is user evaluation of Domain State only. Do not activate Structure, Condition, Dynamics, Work Conditions or another ground from this router.
+No substantive node is active. Current authorised work is next-node selection/planning with the user; research activation remains separate.
