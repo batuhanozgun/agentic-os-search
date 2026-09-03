@@ -1,6 +1,6 @@
 # Domain State — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED AS REASONABLE ENOUGH FOR HIERARCHICAL CONTINUATION  
+**Status:** BOUNDEDLY SUFFICIENT; USER-EVALUATED; DOMAIN STRUCTURE SELECTED / PLANNED NEXT; NO SUBSTANTIVE NODE ACTIVE  
 **Date:** 2026-09-03  
 **Parent:** Domain Reality
 
@@ -14,8 +14,8 @@ Strongest current immediate hierarchy:
 
 ```text
 Domain State
-    ├─ Domain Structure / Composition
-    └─ Domain Condition / Status
+    ├─ Domain Structure / Composition   ← selected/planned next; research not active
+    └─ Domain Condition / Status        ← discovered; intended after Structure evaluation
 ```
 
 These are analytical problem branches, not object classes or schema sections.
@@ -86,21 +86,44 @@ current condition ≠ causal explanation
 
 Some institutional/social states may be constituted through rules/collective practices. The required distinction is from any **particular representation**, not metaphysical independence from all representation.
 
-## User evaluation
+## Current sequencing decision
 
-The user reviewed the result on 2026-09-03 and found the Structure/Composition versus Condition/Status distinction reasonable with no blocking problem. The result is accepted for hierarchical continuation, while all children/siblings remain inactive until separately selected and authorised.
+The user clarified and accepted the following method application:
+
+> A child discovered by the parent research is not treated as already researched. Material discovered children should receive their own passes before Environment is considered complete enough to leave.
+
+Therefore:
+
+```text
+1. Domain Structure / Composition
+2. user evaluation
+3. Domain Condition / Status
+4. user evaluation
+5. Environment completion review
+6. then decide whether to transition to Information
+```
+
+Structure planning surface:
+- `DOMAIN-STRUCTURE-RESEARCH-PLAN.md`
+
+The plan is frozen, but Structure substantive research is not active yet.
 
 ## Verification limit
 
-The completion audit is same-model adversarial review, not independent verification. External traditions support discriminating claims but do not independently validate this exact two-child hierarchy.
+The Domain State completion audit is same-model adversarial review, not independent verification. External traditions support discriminating claims but do not independently validate this exact two-child hierarchy. User evaluation and sequencing do not alter that verification status.
 
 ## Go deeper
 
+- selected Structure plan → `DOMAIN-STRUCTURE-RESEARCH-PLAN.md`
 - topic route → `FINDINGS-MAP.md`
-- integrated result → `synthesis/DOMAIN-STATE-SYNTHESIS.md`
-- why research stopped → `synthesis/COMPLETENESS-OMISSION-CHECK.md`
+- integrated parent result → `synthesis/DOMAIN-STATE-SYNTHESIS.md`
+- parent completion audit → `synthesis/COMPLETENESS-OMISSION-CHECK.md`
 - source recovery → `evidence/SOURCE-LEDGER.md`
 - residuals → `OPEN-QUESTIONS.md`
 - deferred relations → `DEFERRED-RELATIONS.md`
 
-No substantive next node is active. Parent/stage authorization controls next-node selection.
+## Authorization
+
+**Domain Structure is selected and planned; no substantive node is active.**
+
+A later explicit transition is required to begin Structure research.
