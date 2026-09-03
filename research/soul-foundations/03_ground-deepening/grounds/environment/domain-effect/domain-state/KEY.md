@@ -1,121 +1,102 @@
 # Domain State — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT; USER-EVALUATED; DOMAIN STRUCTURE BOUNDED / USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDEDLY SUFFICIENT; USER-EVALUATED PARENT; STRUCTURE ACCEPTED; CONDITION BOUNDED / AWAITING USER EVALUATION  
 **Date:** 2026-09-03  
 **Parent:** Domain Reality
 
-## Shortest result
-
-The node previously labeled `Domain State / Configuration` remains best framed as:
-
-> **Domain State**
-
-Current hierarchy after the deeper Structure pass:
+## Shortest current result
 
 ```text
 Domain State
-    ├─ Domain Structure                         ← bounded; user-evaluated / accepted
-    │    ├─ Constituent Composition / Membership   ← discovered; inactive
-    │    └─ Relational Organization / Topology     ← discovered; inactive
-    └─ Domain Condition / Status                   ← discovered; inactive
+    ├─ Domain Structure
+    │    ├─ Constituent Composition / Membership
+    │    └─ Relational Organization / Topology
+    └─ Domain Condition
+         ├─ Realized Characteristics / Values
+         └─ Criterion-Relative Standing / Status
 ```
 
-These are analytical problem branches, not object classes, schema sections or architecture modules.
+These are analytical problem regions, not object/schema/architecture classes.
 
-## Child 1 — Domain Structure
+## Domain Structure
 
-Primary parent-level question:
+Parent-level question:
 
-> **What materially relevant constituents are actually present/participating, and how is the selected structure actually organized at the selected scope and time?**
+> What materially relevant constituents actually participate, and how is the selected structure actually organized?
 
-The deeper Structure pass refined the inherited `Domain Structure / Composition` label to `Domain Structure` and found two immediate problem regions:
+Deeper result:
+- **Constituent Composition / Membership** — what participates / what is part of what;
+- **Relational Organization / Topology** — how relevant constituents are structurally related/connected/arranged.
 
-### Constituent Composition / Membership
+Structure result: bounded / user-evaluated / accepted.
 
-> Which materially relevant constituents actually participate in or make up the selected whole/scope, including materially relevant part–whole and nested membership?
+## Domain Condition
 
-### Relational Organization / Topology
+Parent-level question:
 
-> How are the relevant constituents actually structurally related, connected, arranged, contained or interfaced at the selected scope/time?
+> What materially relevant non-structural current condition actually obtains at the selected scope and time?
 
-The split is semantic, not graph `node` versus `edge` primitives.
+The inherited `Domain Condition / Status` label was refined to `Domain Condition`.
 
-## Child 2 — Domain Condition / Status
+Deeper result:
 
-Primary question:
+### Realized Characteristics / Values
 
-> **What materially relevant properties, values, qualities, health, mode, status or standing actually hold at the selected scope and time?**
+> What materially relevant characteristics, quantities, qualitative values, modes or relational conditions actually obtain before asking whether they satisfy a separate criterion?
 
-Condition has not yet received its own substantive child pass.
+### Criterion-Relative Standing / Status
 
-## Parent boundary survives
+> Relative to a materially relevant functional, normative, regulatory or domain criterion, what standing currently obtains?
 
-Correct structure does not establish correct condition, and correct condition evidence does not establish correct structure.
+Examples include healthy/degraded, ready/not-ready, compliant/non-compliant, valid/invalid or good-standing/not-good-standing when these are true domain standings rather than merely reports.
 
-Likewise, deeper Structure research did not expose a third co-equal Domain State region.
+## Why the Condition split matters
 
-## Structure pass result
+Current facts and standing can fail independently:
+- correct facts + wrong/inapplicable criterion → wrong standing;
+- correct standing can sometimes be established without reconstructing every underlying non-load-bearing fact.
 
-`Domain Structure` is not a bounded leaf at the current depth. Two immediate first-order regions survived:
-
-```text
-what constitutes / participates in the whole
-vs
-how those constituents are structurally organized
-```
-
-Tested but not promoted as separate universal Structure children:
-- spatial arrangement/containment;
-- hierarchy versus network;
-- interfaces/boundaries/couplings;
-- identity/continuity;
-- constraints/invariants;
-- scale/granularity;
-- physical/digital/biological/social type branches.
+The split is semantic, not raw-vs-derived, scalar-vs-enum or physical-vs-social.
 
 ## Strong non-collapse rules
 
 ```text
 Domain State ≠ one formal/model state vector
-Domain Structure ≠ Domain Condition / Status
-actual Structure ≠ architecture/baseline/BOM/inventory/topology model by identity
-actual Condition ≠ observed/reported/cached status by identity
-current Structure ≠ Dynamics
-structural relation ≠ interaction/process by identity
-identity/continuity ≠ State-only or Structure-only child
-constraint/invariant ≠ current State by identity
+Domain Structure ≠ Domain Condition
+current State ≠ Dynamics/history
+actual Structure ≠ architecture/baseline/model by identity
+actual characteristic/value ≠ observation/measurement/estimate/report by identity
+actual standing/status ≠ score/API status/certificate/report by identity
+criterion/rule ≠ current satisfaction/violation by identity
 current State difference ≠ causal explanation
 ```
 
 ## Verification limit
 
-Both Domain State and Structure completion audits are same-model adversarial self-review, not independent verification. External traditions discriminate alternatives but do not independently validate this exact hierarchy. User acceptance does not alter that status.
-
-## User evaluation
-
-The bounded Domain Structure result was accepted by the user on 2026-09-03. No reopen trigger was raised.
+The completion audits are same-model adversarial self-reviews, not independent verification. External sources discriminate rivals but do not independently validate this exact hierarchy.
 
 ## Go deeper
 
-- Structure current result → `domain-structure/KEY.md`
-- Structure synthesis → `domain-structure/synthesis/DOMAIN-STRUCTURE-SYNTHESIS.md`
-- Structure audit → `domain-structure/synthesis/COMPLETENESS-OMISSION-CHECK.md`
-- Structure sources → `domain-structure/evidence/SOURCE-LEDGER.md`
-- Structure exact freshness → `domain-structure/CURRENT-SURFACES.md`
-- parent topic route → `FINDINGS-MAP.md`
-- integrated parent result → `synthesis/DOMAIN-STATE-SYNTHESIS.md` (historical parent-pass synthesis; later Structure refinement is routed separately)
+Structure:
+- `domain-structure/STATE.md`
+- `domain-structure/KEY.md`
+
+Condition:
+- `domain-condition/STATE.md`
+- `domain-condition/KEY.md`
+- `domain-condition/FINDINGS-MAP.md`
+- `domain-condition/synthesis/DOMAIN-CONDITION-SYNTHESIS.md`
+- `domain-condition/CURRENT-SURFACES.md`
+
+Historical parent synthesis remains `synthesis/DOMAIN-STATE-SYNTHESIS.md`; deeper child refinements are routed separately.
 
 ## Sequence / authorization
 
-The agreed sequence remains:
-
 ```text
-Structure research      ← boundedly complete
-→ user evaluation       ← accepted 2026-09-03
-→ Condition research    ← next logical node; inactive
-→ user evaluation
-→ Environment completion review
-→ then decide whether Information should begin
+Structure research/evaluation ← complete / accepted
+Condition research             ← boundedly complete
+Condition user evaluation      ← CURRENT GATE
+Environment completion review  ← later
 ```
 
-Current substantive authorization is **NONE**. Do not activate a Structure child or Condition automatically; Condition planning/research requires explicit user authorization.
+Current authorized work is **user evaluation of Domain Condition only**.
