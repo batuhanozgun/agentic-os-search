@@ -1,6 +1,6 @@
 # Ground Deepening — CURRENT SURFACES
 
-**Status:** canonical freshness binding after Work Conditions user evaluation
+**Status:** canonical freshness binding after Domain Structure selection/planning; substantive Structure research not active
 **Date:** 2026-09-03
 **Branch:** `main`
 
@@ -9,70 +9,47 @@
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Stable purpose | `README.md` | `5380af8bf81ffe9860c71f597c84b245189b89f1` |
-| Stage state / authorization | `STATE.md` | `93919466027969d4423b6b8259561e7f2549eab6` |
+| Stage state / authorization | `STATE.md` | `23956c9d93fdae538304ea55b673b7431dd1fa19` |
 | Original accepted deepening plan | `PLAN.md` | `dfe00d2ca4d43758c476f640332751c3af013725` |
 | Recursive hierarchical method | `HIERARCHICAL-DEEPENING-METHOD.md` | `4d964c09a70ebe5f114d597f5413b41193ce650b` |
-| Stage router | `INDEX.md` | `152c23666db7efe8b02e31235682102cbaa8d35d` |
+| Stage router | `INDEX.md` | `842803308ab582d52cd7788517c178a17fbeb3fc` |
 
 ## Current Environment package
 
 | Ground / node | Status | Freshness surface |
 |---|---|---|
-| Environment / Operating Reality parent | boundedly sufficient; current researched branches user-evaluated | `grounds/environment/CURRENT-SURFACES.md` @ `df86ca6cb68f11e5eb2f10844e1b18d84fa4e8a2` |
-| Domain Reality | boundedly sufficient; State/Dynamics user-evaluated | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `98c01ec16886ea55321d09c082a2eca92e810eee` |
-| Domain State | boundedly sufficient; user-evaluated | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `ab2ce814f62ecdcfa2f4119a2c8cd11243b8e6e9` |
-| Domain Structure / Composition | discovered; inactive | routed through Domain State package |
-| Domain Condition / Status | discovered; inactive | routed through Domain State package |
+| Environment / Operating Reality | Structure-first continuation selected/planned | `grounds/environment/CURRENT-SURFACES.md` @ `f5fdde15129b72e24b42d5526c80e8a1e81059a3` |
+| Domain Reality | boundedly sufficient; Structure selected/planned next | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `06c5a34e90d79833f675acaaea1928bbc741b6f0` |
+| Domain State | boundedly sufficient; user-evaluated; Structure selected/planned | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `c4f190f9d11dfa97ab94e2ed351f1c74b64e2b2c` |
+| Domain Structure / Composition | selected/planned next; research not active | `grounds/environment/domain-effect/domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md` @ `fc402ad7dd0259cec4a831586766e0c1a1cfdad4` |
+| Domain Condition / Status | discovered; intended after Structure evaluation | routed through Domain State package |
 | Domain Dynamics | bounded leaf; user-evaluated | `grounds/environment/domain-effect/domain-dynamics/CURRENT-SURFACES.md` @ `cd4c1dbbd23ac73227ed3765df3c514a54b707ef` |
 | Work Conditions | bounded leaf; user-evaluated | `grounds/environment/work-conditions/CURRENT-SURFACES.md` @ `dc71e5477d41b8c3ce65af8cb3969e7458ce0deb` |
-| Technical Work Environment | deep technical specialization/profile | routed through Work Conditions + `01_verticals/work-environment/` |
-| Information / Representation | inactive | no `03` package created |
+| Information / Representation | inactive; transition deferred pending Environment completion review | no `03` package created |
 | Work | inactive | no `03` package created |
 | Actors | inactive | no `03` package created |
 
-## Current status
+## Current status / sequence
 
-> **No substantive node is active. Domain State, Domain Dynamics and Work Conditions have been user-evaluated. The next task is selection/planning of one next research node with the user.**
-
-## Current tree
+> **No substantive node is active. Domain Structure is selected and planned next. After Structure evaluation, Domain Condition is intended next; after both, Environment must receive an explicit completion review before any Information transition.**
 
 ```text
-Environment / Operating Reality
-    ├─ Domain Reality
-    │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition
-    │    │    └─ Domain Condition / Status
-    │    └─ Domain Dynamics                         ← bounded leaf; user-evaluated
-    └─ Work Conditions                              ← bounded leaf; user-evaluated
-         ↳ Technical Work Environment              ← deep technical specialization/profile
+Structure research → user evaluation
+→ Condition research → user evaluation
+→ Environment completion review
+→ then decide whether Information should begin
 ```
-
-## Current refinements
-
-- `Domain / Effect Reality` → `Domain Reality`;
-- `Domain State / Configuration` → `Domain State`;
-- State children = Structure/Composition + Condition/Status;
-- `Domain Dynamics / Processes` → `Domain Dynamics`;
-- Domain Dynamics = bounded leaf;
-- `Work Conditions / Enabling–Constraining Environment` → `Work Conditions`;
-- Work Conditions = bounded leaf at universal foundation level;
-- Technical Work Environment remains a deep technical specialization/profile, not a demonstrated universal immediate child.
-
-## Pass-artifact provenance
-
-Work Conditions preserves exact pre-pass Environment manifest blob:
-- `0bd03a434fdba0baed0821a7d73e2e7e4643b541`.
-
-Therefore later Environment edits cannot silently become evidence available to the earlier Work Conditions pass.
 
 ## Verification status
 
-Work Conditions completion audit is same-model adversarial review, not independent verification. Repository freshness/provenance checks and user evaluation do not convert it into independent validation.
+Existing research completion audits remain same-model adversarial reviews, not independent verification. Repository freshness and user sequencing decisions do not alter research verification status.
 
 ## Authorization state
 
-Current authorised work is selection/planning of one next research node only. No substantive node is active.
+Current authorized work has reached its operational boundary: **Domain Structure selection/planning is complete; substantive research is not active.**
+
+A later explicit transition is required before the Structure pass begins.
 
 ## Update rule
 
-If any bound stage surface changes materially, re-fetch and refresh this manifest and higher current state/router surfaces. Never let node closure or evaluation silently authorize the next research node.
+When Structure research is activated or any bound stage surface changes materially, refresh this manifest and higher root surfaces. Never treat planned/selected as active.
