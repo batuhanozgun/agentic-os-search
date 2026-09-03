@@ -1,6 +1,6 @@
 # Domain Structure — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION  
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE CHILD ACTIVE  
 **Date:** 2026-09-03  
 **Parent:** Domain State
 
@@ -99,8 +99,16 @@ current structural snapshot ≠ identity/continuity through replacement
 
 ## Verification limit
 
-The closure/omission audit is same-model adversarial self-review, not independent verification. External traditions discriminate among rivals but do not independently validate this exact project hierarchy.
+The closure/omission audit is same-model adversarial self-review, not independent verification. External traditions discriminate among rivals but do not independently validate this exact project hierarchy. User acceptance does not alter that limit.
+
+## User evaluation
+
+Accepted by the user on 2026-09-03. No reopen trigger was raised.
+
+This closes the Structure evaluation gate only; neither discovered Structure child is activated.
 
 ## Next sequence
 
-Return this bounded result to the user for evaluation. Do not activate either discovered Structure child. Under the previously agreed Environment sequence, Domain Condition / Status is the intended next sibling only after Structure evaluation and a fresh planning/authorization step.
+The next logical step under the agreed Environment sequence is to select/plan `Domain Condition / Status` from the then-current canonical state.
+
+Current substantive authorization is **NONE**. Condition planning/research requires explicit user authorization; do not activate a Structure child or Condition automatically.
