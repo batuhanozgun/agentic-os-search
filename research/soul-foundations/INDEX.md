@@ -14,14 +14,13 @@ For current status/authorization read `STATE.md` first. This router does not ind
 | Independent discovery evidence | relevant `01_verticals/*/KEY.md` | synthesis/findings |
 | Accepted top-level hierarchy | `02_adequacy/KEY.md` | synthesis/findings |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` |
-| Recursive deepening method | `03_ground-deepening/HIERARCHICAL-DEEPENING-METHOD.md` | current node result |
+| Active Work Conditions research | `03_ground-deepening/grounds/environment/work-conditions/STATE.md` | `INDEX.md` / plan / findings |
+| Work Conditions frozen plan | `03_ground-deepening/grounds/environment/WORK-CONDITIONS-RESEARCH-PLAN.md` | pass reconstruction |
 | Environment parent result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / parent synthesis |
 | Domain Reality result | `03_ground-deepening/grounds/environment/domain-effect/STATE.md` | KEY / FINDINGS-MAP |
-| Current Domain State result | `03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md` | KEY / FINDINGS-MAP / synthesis |
-| Current Domain Dynamics result | `03_ground-deepening/grounds/environment/domain-effect/domain-dynamics/STATE.md` | KEY / FINDINGS-MAP / synthesis |
-| Domain Dynamics source recovery | `03_ground-deepening/grounds/environment/domain-effect/domain-dynamics/evidence/SOURCE-LEDGER.md` | primary external/internal source |
+| Prior Technical Work Environment evidence | `01_verticals/work-environment/KEY.md` | progressive retrieval |
 | Historical operating-world evidence | `history/superseded/operating-world-environment/ARCHIVE-NOTICE.md` | archived corpus |
-| What is authorised now? | `STATE.md` | next-node selection/planning; no substantive node active |
+| What is authorised now? | `STATE.md` | Work Conditions research only |
 
 ## Current Environment research tree
 
@@ -29,29 +28,21 @@ For current status/authorization read `STATE.md` first. This router does not ind
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition   ← discovered; inactive
-    │    │    └─ Domain Condition / Status        ← discovered; inactive
+    │    │    ├─ Domain Structure / Composition   ← inactive
+    │    │    └─ Domain Condition / Status        ← inactive
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions / Enabling–Constraining Environment ← inactive
-         └─ Technical Work Environment
+    └─ Work Conditions                            ← ACTIVE
+         └─ Technical Work Environment            ← prior specialization; placement under test
 ```
-
-Current corrections carried by deeper research:
-- `Domain / Effect Reality` → `Domain Reality`;
-- `Domain State / Configuration` → `Domain State`;
-- Domain State immediate children → Structure/Composition + Condition/Status;
-- `Domain Dynamics / Processes` → `Domain Dynamics`;
-- no universal Domain Dynamics immediate child currently justified;
-- Domain State and Dynamics user evaluations accepted 2026-09-03.
 
 ## One-active-node rule
 
-No substantive node is active. Current authorised work is selection/planning of one next research node. Structure, Condition, Work Conditions, Information, Work and Actors all require explicit later transition/authorization.
+Only Work Conditions is substantively active. Structure, Condition, Information, Work and Actors remain inactive.
 
 ## Active versus historical rule
 
-`history/` is prior evidence, not current authority. Current Domain Reality/State/Dynamics authority lives under `03_ground-deepening/grounds/environment/domain-effect/` despite the retained historical directory name.
+`history/` is prior evidence, not current authority. The active Work Conditions package preserves the exact pre-pass Environment manifest used at activation.
 
 ## Guardrail
 
-Do not infer authorization for deeper State children, Work Conditions, Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
+Do not infer authorization for another node, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
