@@ -2,66 +2,42 @@
 
 ## Role
 
-Current router for the bounded Domain State parent and its deeper Structure and Condition results.
+Current router for the bounded Domain State parent and its deeper Structure/Condition results after the Environment completion review.
 
 ## Current status
 
-**STRUCTURE BOUNDED / ACCEPTED; CONDITION BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
-
-Current authorization is user evaluation of the bounded Domain Condition result only.
+**STRUCTURE AND CONDITION ACCEPTED; FOUR PROMOTED DESCENDANTS REMAIN UNRESEARCHED; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Reading order
 
-1. `STATE.md` — current epistemic/authorization/sequencing state.
-2. `KEY.md` — shortest current Domain State hierarchy.
-3. Condition current result → `domain-condition/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
-4. Condition detail → `domain-condition/FINDINGS-MAP.md` → synthesis/audit/source ledger as needed.
-5. Structure result → `domain-structure/STATE.md` → `KEY.md` as needed.
-6. `FINDINGS-MAP.md` / historical parent synthesis for original Domain State evidence.
-7. primary/authoritative external source when decision-critical.
-8. `CURRENT-SURFACES.md` for exact current freshness.
+1. `STATE.md` — current Domain State status.
+2. `KEY.md` — shortest hierarchy and review impact.
+3. Structure result → `domain-structure/STATE.md` / `KEY.md`.
+4. Condition result → `domain-condition/STATE.md` / `KEY.md`.
+5. Environment completion review → `../../completion-review/STATE.md` → `KEY.md` → synthesis/audit.
+6. `CURRENT-SURFACES.md` — exact freshness.
+7. Historical parent findings/synthesis only when reconstructing the original Domain State pass.
 
-Frozen executed plans remain historical pass reconstruction surfaces:
-- `DOMAIN-STRUCTURE-RESEARCH-PLAN.md`
-- `DOMAIN-CONDITION-RESEARCH-PLAN.md`
-
-They are not current authorization.
-
-## Current bounded hierarchy
+## Current hierarchy
 
 ```text
 Domain State
-    ├─ Domain Structure                         ← bounded / accepted
-    │    ├─ Constituent Composition / Membership ← discovered; inactive
-    │    └─ Relational Organization / Topology   ← discovered; inactive
-    └─ Domain Condition                         ← bounded; awaiting user evaluation
-         ├─ Realized Characteristics / Values    ← discovered; inactive
-         └─ Criterion-Relative Standing / Status ← discovered; inactive
+    ├─ Domain Structure
+    │    ├─ Constituent Composition / Membership   ← promoted; inactive; not researched
+    │    └─ Relational Organization / Topology     ← promoted; inactive; not researched
+    └─ Domain Condition
+         ├─ Realized Characteristics / Values       ← promoted; inactive; not researched
+         └─ Criterion-Relative Standing / Status    ← promoted; inactive; not researched
 ```
 
-## Sequence
+## Completion-review result
 
-```text
-Structure research/evaluation ← complete / accepted
-Condition research             ← boundedly complete
-Condition user evaluation      ← CURRENT GATE
-Environment completion review  ← inactive; later explicit transition
-Information decision           ← only after Environment completion review
-```
+The Environment completion review did not reopen Domain State or its Structure/Condition split.
 
-## Cross-cutting dimensions retained
-
-- identity / continuity;
-- constraints / criteria / invariants;
-- granularity / scale / aggregation;
-- reference / scope / time;
-- actual-versus-represented boundary;
-- observability / evidence / uncertainty;
-- causal explanation;
-- role switching.
-
-These remain explicit but are not additional immediate Domain State/Structure/Condition children under the current bounded results.
+It did determine that all four promoted descendants remain material Ground Deepening research debts. Parent-pass child promotion is not treated as substantive child research.
 
 ## Guardrail
 
-Do not activate either Condition child, a Structure child, Environment completion review, Information, systematic composition, architecture, ontology/schema/data-model work or implementation automatically.
+No descendant is active. Information remains inactive.
+
+Recommended next child after user evaluation of the Environment completion review: `Constituent Composition / Membership`.
