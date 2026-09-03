@@ -6,9 +6,9 @@ Current router for the bounded Domain-State result and the deeper bounded Domain
 
 ## Current status
 
-**DOMAIN STATE USER-EVALUATED; DOMAIN STRUCTURE BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STATE USER-EVALUATED; DOMAIN STRUCTURE BOUNDED / USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorization is user evaluation of the Structure result only.
+Current substantive authorization is **NONE**. The next logical step is `Domain Condition / Status` planning from the current canonical state, but it requires explicit user authorization.
 
 ## Reading order
 
@@ -29,7 +29,7 @@ The frozen executed Structure plan remains at `DOMAIN-STRUCTURE-RESEARCH-PLAN.md
 
 ```text
 Domain State
-    ├─ Domain Structure                         ← bounded result; awaiting user evaluation
+    ├─ Domain Structure                         ← bounded result; user-evaluated / accepted
     │    ├─ Constituent Composition / Membership ← discovered; inactive
     │    └─ Relational Organization / Topology   ← discovered; inactive
     └─ Domain Condition / Status                ← discovered sibling; inactive
@@ -38,13 +38,13 @@ Domain State
 Agreed sequence:
 
 ```text
-Structure research → user evaluation
-→ Condition research → user evaluation
+Structure research      ← complete at bounded immediate-child depth
+→ user evaluation       ← accepted 2026-09-03
+→ Condition research    ← next logical node; inactive / not yet planned or authorized
+→ user evaluation
 → Environment completion review
 → then decide whether Information should begin
 ```
-
-The Structure research step is complete at bounded immediate-child depth. The Condition plan remains intentionally unfrozen until after Structure user evaluation.
 
 ## Cross-cutting dimensions
 
@@ -59,8 +59,12 @@ The Structure research step is complete at bounded immediate-child depth. The Co
 
 These remain explicit but are not immediate Domain State or Structure children under the current bounded results.
 
+## User evaluation
+
+The bounded Domain Structure result was accepted by the user on 2026-09-03. No reopen trigger was raised.
+
 ## Guardrail
 
 This router does not activate either discovered Structure child or Domain Condition / Status.
 
-Do not begin Condition, transition to Information, or infer systematic composition/architecture/ontology/schema/implementation without later explicit authorization.
+Do not begin Condition planning/research, transition to Information, or infer systematic composition/architecture/ontology/schema/implementation without later explicit authorization.
