@@ -1,14 +1,14 @@
 # Environment / Operating Reality — STATE
 
-**Status:** PARENT GROUND, DOMAIN STATE, DOMAIN DYNAMICS AND WORK CONDITIONS USER-EVALUATED; DOMAIN STRUCTURE SELECTED / PLANNED NEXT; NO SUBSTANTIVE NODE ACTIVE
+**Status:** PARENT GROUND, DOMAIN STATE, DOMAIN DYNAMICS AND WORK CONDITIONS USER-EVALUATED; DOMAIN STRUCTURE BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
 **Environment parent authorised:** 2026-09-02
 **Domain State user evaluation accepted:** 2026-09-03
 **Domain Dynamics user evaluation accepted:** 2026-09-03
 **Work Conditions user evaluation accepted:** 2026-09-03
-**Environment continuation decision:** Structure first, then Condition, then Environment completion review; accepted 2026-09-03
+**Domain Structure substantive pass bounded:** 2026-09-03
 **Scope:** Environment / Operating Reality ground only
 **Other top-level grounds:** inactive
-**Current authorised activity:** Domain Structure selection/planning only; substantive Structure research not active
+**Current authorised activity:** user evaluation of the bounded Domain Structure result only
 
 ## Current Environment research hierarchy
 
@@ -16,45 +16,55 @@
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition   ← selected/planned next; research not active
-    │    │    └─ Domain Condition / Status        ← discovered; intended after Structure evaluation
-    │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← bounded leaf; user-evaluated
-         ↳ Technical Work Environment             ← deep technical specialization/profile
+    │    │    ├─ Domain Structure                         ← bounded result; awaiting user evaluation
+    │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
+    │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
+    │    │    └─ Domain Condition / Status                ← discovered; inactive
+    │    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
+    └─ Work Conditions                                    ← bounded leaf; user-evaluated
+         ↳ Technical Work Environment                     ← deep technical specialization/profile
 ```
 
-The parent, Domain Reality, Domain State, Domain Dynamics and Work Conditions results are accepted as reasonable enough for continued hierarchical research. This is a research hierarchy, not a final ontology, data model or architecture.
+This remains a research hierarchy, not an ontology, data model or architecture.
 
 ## Environment continuation decision
 
-The user clarified the intended research method: parent research discovers immediate children, but a material discovered child is not treated as already researched merely because its existence was established.
+The project method treats a discovered material child as unresearched until it receives its own pass.
 
-Therefore Environment is not yet ready to transition to Information solely because its major first-order branches have been mapped.
-
-Agreed sequence:
+The agreed sequence remains:
 
 ```text
-1. Domain Structure / Composition research
-2. user evaluation
-3. Domain Condition / Status research
-4. user evaluation
+1. Domain Structure research          ← boundedly complete
+2. user evaluation of Structure       ← CURRENT GATE
+3. Domain Condition / Status research ← inactive; detailed planning deferred
+4. user evaluation of Condition
 5. explicit Environment completion review
 6. only then decide whether Information / Representation State should begin
 ```
 
-`Domain Structure / Composition` is selected and planned in:
-- `domain-effect/domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md`.
+## Domain Structure bounded result
 
-No substantive Structure research is active yet.
+The inherited label `Domain Structure / Composition` was refined to:
 
-The Condition plan is intentionally deferred until after Structure research/evaluation so that it can use the then-current Environment/Domain State result rather than premature assumptions.
+```text
+Domain Structure
+    ├─ Constituent Composition / Membership
+    └─ Relational Organization / Topology
+```
+
+The deeper pass found two stable immediate analytical problem regions:
+- **Constituent Composition / Membership** — what actually participates / makes up the selected whole, including materially relevant part–whole and nesting;
+- **Relational Organization / Topology** — how those relevant constituents are actually structurally related, connected, arranged, contained or interfaced.
+
+No third universal Structure child survived current testing. The discovered Structure children are inactive and have not received their own passes.
+
+The deeper Structure result did not expose a third co-equal Domain State region; the Structure-versus-Condition parent split survives.
 
 ## Work Conditions bounded result retained
 
-`Work Conditions / Enabling–Constraining Environment` is simplified to `Work Conditions`.
+Work Conditions asks which realized circumstances materially shape whether and how focal Work can be performed.
 
 Current result:
-- Work Conditions asks which realized circumstances materially shape whether and how focal Work can be performed;
 - no universal immediate child survived deeper falsification;
 - Work Conditions is a bounded leaf at current universal foundation depth;
 - Technical Work Environment remains a deep technical specialization/profile;
@@ -67,12 +77,12 @@ Current Domain Reality hierarchy:
 ```text
 Domain Reality
     ├─ Domain State
-    │    ├─ Domain Structure / Composition
+    │    ├─ Domain Structure
     │    └─ Domain Condition / Status
     └─ Domain Dynamics
 ```
 
-Domain State and Domain Dynamics are user-evaluated. Structure and Condition remain to receive their own passes under the agreed sequence.
+Domain State and Dynamics remain user-evaluated. Structure has now received its own bounded pass; Condition has not.
 
 ## Strong distinctions
 
@@ -80,22 +90,25 @@ Domain State and Domain Dynamics are user-evaluated. Structure and Condition rem
 Environment ≠ everything outside / everything relevant
 Domain Reality ≠ every target of Work
 Work Conditions ≠ a second kind of reality
-Work Conditions ≠ Work internal lifecycle/state
-Work Conditions ≠ Actor capability/authority
-actual Environment fact ≠ observation/report/model/Record by identity
+Domain Structure ≠ Domain Condition / Status
+current Structure ≠ Domain Dynamics
+actual Structure ≠ architecture / BOM / inventory / baseline / topology model / Record by identity
+actual Condition ≠ observation / report / cache by identity
+actual Environment fact ≠ representation by identity
 Domain Reality role ≠ Work Conditions role by object identity
+structural mismatch ≠ established causal root cause
 ```
 
 ## Verification status
 
-Existing node completion/omission reviews are same-model adversarial self-reviews, not independent verification. User evaluation and sequencing decisions do not change those verification limits.
+Existing node completion/omission reviews, including the Structure audit, are same-model adversarial self-reviews, not independent verification. External sources discriminate rival hypotheses but do not independently validate the exact project hierarchy. User evaluation does not alter those verification limits.
 
 ## Next logical work
 
-Execute the planned Domain Structure research pass; after its user evaluation, plan/evaluate Domain Condition; after both, reassess Environment completion.
+After Structure user evaluation, if accepted and no reopen trigger appears, plan/authorize Domain Condition / Status from the then-current canonical state. After Condition research and evaluation, explicitly reassess Environment completion.
 
 ## Next authorised work
 
-**DOMAIN STRUCTURE SELECTED / PLANNED; NO SUBSTANTIVE NODE ACTIVE.**
+**USER EVALUATION OF THE BOUNDED DOMAIN STRUCTURE RESULT ONLY.**
 
-Do not automatically begin Structure research, Condition research, Information, Work, Actors, systematic composition, architecture or implementation.
+Do not automatically activate either Structure child, Domain Condition, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation.
