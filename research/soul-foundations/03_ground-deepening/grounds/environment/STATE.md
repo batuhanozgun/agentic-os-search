@@ -1,12 +1,12 @@
 # Environment / Operating Reality — STATE
 
-**Status:** PARENT GROUND USER-EVALUATED; DOMAIN REALITY BOUNDED; DOMAIN STATE USER-EVALUATED; DOMAIN DYNAMICS BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** PARENT GROUND, DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED; NO SUBSTANTIVE NODE ACTIVE  
 **Environment parent authorised:** 2026-09-02  
 **Domain State user evaluation accepted:** 2026-09-03  
-**Domain Dynamics bounded closure:** 2026-09-03  
+**Domain Dynamics user evaluation accepted:** 2026-09-03  
 **Scope:** Environment / Operating Reality ground only  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** user evaluation of the bounded Domain Dynamics result only
+**Current authorised activity:** selection/planning of the next single research node only
 
 ## Current Environment research hierarchy
 
@@ -16,12 +16,12 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
-    │    └─ Domain Dynamics                       ← bounded leaf; awaiting user evaluation
+    │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
 
-The parent and Domain Reality/State results are accepted as reasonable enough for continued hierarchical research, not as final ontology or architecture. Dynamics has closed its pass but has not yet been user-evaluated.
+The parent, Domain Reality, Domain State and Domain Dynamics results are accepted as reasonable enough for continued hierarchical research, not as final ontology or architecture.
 
 ## Environment parent result retained
 
@@ -56,6 +56,8 @@ Current result:
 - `Domain Dynamics` is a **bounded leaf** at current foundation-research depth;
 - occurrence/interaction, change/transition/trajectory, history/path dependence, dynamic pattern/regime and multi-scale behavior remain explicit internal problem regions/properties rather than children.
 
+The user evaluated the simplified Dynamics result on 2026-09-03 and found it reasonable for hierarchical continuation. This does not activate another node.
+
 Current Dynamics route:
 `domain-effect/domain-dynamics/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md → focused finding → completion/source recovery`
 
@@ -71,11 +73,9 @@ actual Dynamics ≠ transition law / reachable-state model / forecast
 actual transition/change ≠ causal effect attribution
 ```
 
-Institutional/social actualities may be partly constituted through rules/collective practices; the boundary is from any particular representation, not metaphysical independence from all representation.
-
 ## Hierarchical rule
 
-No substantive node is active after Dynamics closure.
+No substantive node is active.
 
 Inactive:
 - Domain Structure / Composition;
@@ -92,8 +92,8 @@ Domain State and Domain Dynamics completion audits are same-model adversarial re
 
 ## Current return condition
 
-Return the bounded Domain Dynamics result to user evaluation before selecting or activating another node.
+Select and plan one next research node with the user before substantive research begins.
 
 ## Next authorised work
 
-**USER EVALUATION OF DOMAIN DYNAMICS ONLY; NO SUBSTANTIVE NODE ACTIVE.**
+**NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE.**
