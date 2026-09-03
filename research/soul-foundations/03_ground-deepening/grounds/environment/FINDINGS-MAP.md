@@ -1,6 +1,6 @@
 # Environment / Operating Reality — FINDINGS MAP
 
-**Status:** parent bounded/user-evaluated; Domain State and Domain Dynamics user-evaluated; Work Conditions bounded / awaiting user evaluation
+**Status:** parent bounded/user-evaluated; Domain State, Domain Dynamics and Work Conditions user-evaluated
 
 > **Pass-artifact provenance:** Focused findings, plans, source ledgers and completion audits may preserve labels/status current during their producing passes. Current hierarchy, authorization and epistemic status come from `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`; older labels and pass-time active/candidate wording are not current authorization.
 
@@ -40,7 +40,7 @@ Environment / Operating Reality
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← bounded leaf; awaiting user evaluation
+    └─ Work Conditions                            ← bounded leaf; user-evaluated
          ↳ Technical Work Environment             ← deep technical specialization/profile
 ```
 
@@ -67,7 +67,7 @@ Key corrections:
 - no universal immediate child survived deeper falsification;
 - bounded leaf at current universal foundation depth;
 - Technical Work Environment retained as a deep technical specialization/profile, not a demonstrated universal immediate child;
-- awaiting user evaluation.
+- user evaluation accepted 2026-09-03.
 
 ## Strong non-collapse rules
 
@@ -96,4 +96,4 @@ Work Conditions:
 
 ## Guardrail
 
-No substantive node is active. Current authorised work is user evaluation of Work Conditions. Closure does not authorize Structure, Condition, Information, Work, Actors or another node automatically.
+No substantive node is active. Current authorised work is selection/planning of one next research node. User evaluation does not automatically authorize Structure, Condition, Information, Work, Actors or another node.
