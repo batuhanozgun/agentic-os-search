@@ -1,6 +1,6 @@
 # Environment / Operating Reality — KEY
 
-**Status:** Environment parent, Domain Reality and Domain State user-evaluated for hierarchical continuation; no substantive node active  
+**Status:** Environment parent, Domain Reality and Domain State user-evaluated for continuation; Domain Dynamics selected/planned, substantive research not active  
 **Date:** 2026-09-03  
 **Scope:** Environment research hierarchy only; not cross-ground composition or architecture
 
@@ -12,7 +12,7 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition   [discovered; inactive]
     │    │    └─ Domain Condition / Status        [discovered; inactive]
-    │    └─ Domain Dynamics / Processes           [inactive]
+    │    └─ Domain Dynamics / Processes           [selected/planned; not active]
     └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
@@ -47,9 +47,25 @@ What materially relevant properties, values, qualities, health, mode, status or 
 
 No third universal immediate State child is currently required.
 
-## User evaluation
+## Domain State user evaluation
 
-The user accepted the Domain State result on 2026-09-03 as reasonable enough for continued hierarchical research. No next node has been selected or activated.
+The user accepted the Domain State result on 2026-09-03 as reasonable enough for continued hierarchical research. Structure and Condition remain inactive.
+
+## Selected next node — Domain Dynamics / Processes
+
+The user selected Domain Dynamics on 2026-09-03. Its research plan is complete:
+- `domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+
+The planned pass attacks whether Dynamics is one coherent node, a leaf, a rename, or needs first-order separation among candidates such as processes/flows, events/transitions, trajectories/history, endogenous/exogenous change or other rivals. It explicitly protects these boundaries:
+
+```text
+actual Dynamics ≠ time-indexed State by identity
+actual Dynamics ≠ Work lifecycle/execution
+actual Dynamics ≠ event/process model, log, simulation or forecast
+actual transition/change ≠ causal attribution
+```
+
+The plan does not select a Dynamics decomposition in advance. Substantive research is not active and requires explicit phase authorization.
 
 ## Strong non-collapse distinctions
 
@@ -60,13 +76,14 @@ Domain State ≠ one formal/model state vector
 actual Structure ≠ architecture/baseline/inventory by identity
 actual Condition ≠ observation/measurement/report/cache by identity
 Domain Dynamics ≠ Work lifecycle
-actual result ≠ intended outcome ≠ causal attribution
+actual Domain dynamics ≠ representation/model/log of dynamics
+actual result/change ≠ intended outcome ≠ causal attribution
 Actor capability ≠ situated actionability
 ```
 
 ## Verification limit
 
-Parent, Domain Reality and Domain State completion audits are same-model adversarial self-review, not independent verification. External source traditions support distinctions but do not independently validate the exact hierarchy.
+Parent, Domain Reality and Domain State completion audits are same-model adversarial self-review, not independent verification. The Dynamics plan is pre-research control and has not yet produced a substantive node result.
 
 ## Go deeper
 
@@ -84,4 +101,7 @@ Current Domain State result:
 - `domain-effect/domain-state/FINDINGS-MAP.md`
 - `domain-effect/domain-state/synthesis/DOMAIN-STATE-SYNTHESIS.md`
 
-Current next work is selection/planning of one next research node with the user. No discovered child or sibling is authorised automatically.
+Selected next-node plan:
+- `domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+
+Current next work is user review / explicit authorization of the planned Domain Dynamics substantive pass. No substantive node is active.
