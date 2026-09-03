@@ -12,58 +12,58 @@ For current status/authorization read `STATE.md` first. This router does not ind
 |---|---|---|
 | Current overall state / authorisation | `STATE.md` | relevant current package router |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` |
-| Current Environment result / sequence | `03_ground-deepening/grounds/environment/STATE.md` | INDEX / KEY |
-| Current Domain Condition result | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-condition/STATE.md` | KEY / FINDINGS-MAP / synthesis / audit |
-| Current Domain Structure result | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/STATE.md` | KEY / FINDINGS-MAP / synthesis / audit |
-| Domain State parent result | `03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md` | KEY / FINDINGS-MAP / historical synthesis |
-| Domain Reality result | `03_ground-deepening/grounds/environment/domain-effect/STATE.md` | KEY / FINDINGS-MAP |
-| Work Conditions result | `03_ground-deepening/grounds/environment/work-conditions/STATE.md` | KEY / FINDINGS-MAP / synthesis |
+| Current Environment status | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX |
+| Environment completion review | `03_ground-deepening/grounds/environment/completion-review/STATE.md` | KEY / synthesis / audit / CURRENT-SURFACES |
+| Current Domain State | `03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md` | KEY / child packages |
+| Current Domain Structure | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/STATE.md` | KEY / findings / synthesis |
+| Current Domain Condition | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-condition/STATE.md` | KEY / findings / synthesis |
+| Domain Dynamics | `03_ground-deepening/grounds/environment/domain-effect/domain-dynamics/STATE.md` | KEY / synthesis |
+| Work Conditions | `03_ground-deepening/grounds/environment/work-conditions/STATE.md` | KEY / synthesis |
 | Accepted top-level hierarchy | `02_adequacy/KEY.md` | synthesis/findings |
 | Independent discovery evidence | relevant `01_verticals/*/KEY.md` | synthesis/findings |
-| What is authorised now? | `STATE.md` | user evaluation of bounded Domain Condition only |
+| What is authorised now? | `STATE.md` | user evaluation of Environment completion review only |
 
-Executed Structure and Condition plans remain historical pass reconstruction surfaces:
-- `03_ground-deepening/grounds/environment/domain-effect/domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md`
-- `03_ground-deepening/grounds/environment/domain-effect/domain-state/DOMAIN-CONDITION-RESEARCH-PLAN.md`
-
-## Current Environment research tree
+## Current Environment tree
 
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure                         ← bounded / user-evaluated / accepted
-    │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
-    │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
-    │    │    └─ Domain Condition                         ← bounded; awaiting user evaluation
-    │    │         ├─ Realized Characteristics / Values    ← discovered; inactive
-    │    │         └─ Criterion-Relative Standing / Status ← discovered; inactive
-    │    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
-    └─ Work Conditions                                    ← bounded leaf; user-evaluated
-         ↳ Technical Work Environment                     ← deep technical specialization/profile
+    │    │    ├─ Domain Structure
+    │    │    │    ├─ Constituent Composition / Membership   ← promoted; inactive; not researched
+    │    │    │    └─ Relational Organization / Topology     ← promoted; inactive; not researched
+    │    │    └─ Domain Condition
+    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive; not researched
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive; not researched
+    │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
+    └─ Work Conditions                                        ← bounded leaf; user-evaluated
 ```
 
-## Current agreed sequence
+## Current Environment verdict
+
+The explicit completion review is bounded and awaiting user evaluation.
+
+It retained the Environment parent and its first-order roles:
 
 ```text
-Structure research/evaluation ← complete / accepted
-Condition research             ← boundedly complete
-Condition user evaluation      ← CURRENT GATE
-Environment completion review  ← inactive; later explicit transition
-Information decision           ← only after Environment completion review
+Environment / Operating Reality
+    ├─ Domain Reality
+    └─ Work Conditions
 ```
 
-## Current Condition result
+but judged Environment **not yet complete** because all four promoted Structure/Condition descendants remain material research debts under Ground Deepening `G3 — Selective deepening` and the one-level method.
 
-```text
-Domain Condition
-    ├─ Realized Characteristics / Values
-    └─ Criterion-Relative Standing / Status
-```
+Domain Dynamics and Work Conditions remain bounded leaves. No broad Environment restart is currently indicated.
 
-This is a research hierarchy refinement, not a data/schema/ontology/architecture decomposition.
+## Transition state
 
-The inherited `Domain Condition / Status` label was refined to `Domain Condition`. No discovered Condition child has been researched or activated.
+Information / Representation State remains inactive. Transition is deferred while known Environment research debt remains.
+
+## Recommended next logical selection
+
+After user evaluation of the completion review: `Constituent Composition / Membership` is the strongest default next child.
+
+It is not active and this router does not authorize it.
 
 ## One-active-node rule
 
@@ -71,8 +71,8 @@ No substantive node is active.
 
 ## Active versus historical rule
 
-Historical pass artifacts preserve the state available during their producing passes. Current sequencing/authorization comes from current `STATE.md`, stage/Environment/Domain State state, and the deeper Structure/Condition packages.
+Historical pass artifacts preserve the state available during their producing passes. Current hierarchy, completion judgment and authorization come from current `STATE.md`, Ground Deepening/Environment surfaces and the completion-review package.
 
 ## Guardrail
 
-Do not infer authorization to activate a Condition child, Structure child, Environment completion review, begin Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
+Do not infer authorization to activate any Environment descendant, Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
