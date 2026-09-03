@@ -1,10 +1,9 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; independent discovery and adequacy layers are closed; Environment parent, Domain State and Domain Dynamics are user-evaluated for hierarchical continuation; no substantive node active  
-**Repository continuity verification:** Domain Dynamics user evaluation was synchronized bottom-up through the Dynamics package, Domain Reality, Environment, ground-deepening and foundation root on 2026-09-03  
-**Domain Dynamics user evaluation:** accepted 2026-09-03  
-**Current authorised substantive activity:** NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE  
-**Current return condition:** select and plan one next research node with the user before substantive research begins
+**Status:** active research library; independent discovery and adequacy layers are closed; Environment parent, Domain State and Domain Dynamics are user-evaluated; Work Conditions is the single active substantive node
+**Work Conditions activated:** 2026-09-03
+**Current authorised substantive activity:** WORK CONDITIONS RESEARCH ONLY
+**Current return condition:** complete the Work Conditions pass to bounded closure / material blocker and return the result to user evaluation before selecting or activating another node
 
 ## Dependency state
 
@@ -13,11 +12,12 @@
 - `03_ground-deepening/`:
   - Environment / Operating Reality: boundedly sufficient parent; user-evaluated for continuation.
   - Domain Reality: boundedly sufficient; State/Dynamics child results user-evaluated.
-    - Domain State: boundedly sufficient for immediate-child purpose; user-evaluated.
-      - Domain Structure / Composition: discovered; inactive.
-      - Domain Condition / Status: discovered; inactive.
+    - Domain State: boundedly sufficient; user-evaluated.
+      - Domain Structure / Composition: inactive.
+      - Domain Condition / Status: inactive.
     - Domain Dynamics: bounded leaf; user-evaluated.
-  - Work Conditions / Enabling–Constraining Environment: inactive.
+  - **Work Conditions: ACTIVE.**
+    - Technical Work Environment: prior deep technical specialization; placement under active test.
   - Information / Representation State: inactive.
   - Work coverage/gap audit: inactive.
   - Actors coverage/gap audit: inactive.
@@ -45,37 +45,29 @@ Environment / Operating Reality
     │    │    ├─ Domain Structure / Composition   ← inactive
     │    │    └─ Domain Condition / Status        ← inactive
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions / Enabling–Constraining Environment ← inactive
+    └─ Work Conditions                            ← ACTIVE
+         └─ Technical Work Environment            ← prior specialization; placement under test
 ```
 
-## Domain Dynamics bounded result
+## Active Work Conditions pass
 
-Starting label:
-- `Domain Dynamics / Processes`.
+Governing plan:
+`03_ground-deepening/grounds/environment/WORK-CONDITIONS-RESEARCH-PLAN.md`
 
-Current label:
-- **`Domain Dynamics`**.
+Active package:
+`03_ground-deepening/grounds/environment/work-conditions/STATE.md → INDEX.md`
 
-Current depth result:
-- Dynamics remains a necessary first-order Domain Reality problem because realized unfolding through time cannot be reduced to one current State snapshot;
-- no universal immediate child survives deeper cross-lineage/cross-domain falsification strongly enough for promotion;
-- Domain Dynamics is a bounded leaf at current foundation-research depth;
-- occurrence/interaction, change/transition/trajectory, temporal dependence/path dependence, dynamic patterns/regimes and multi-scale behavior remain explicit internal problem regions/properties rather than children;
-- the user evaluated the simplified result on 2026-09-03 and found it reasonable for hierarchical continuation.
+Exact pre-pass Environment snapshot:
+- `CURRENT-SURFACES.md` blob `0bd03a434fdba0baed0821a7d73e2e7e4643b541`.
+
+The pass tests whether Work Conditions is coherent or reducible, what immediate children if any survive, and whether Technical Work Environment is a true immediate child or only a technical specialization.
 
 ## Verification status
 
-The Domain Dynamics completion/omission audit is same-model adversarial self-review, **not independent verification**. External source traditions and holdouts discriminate rival decompositions but do not independently validate the exact leaf result.
-
-## Current retrieval
-
-`STATE.md → INDEX.md → 03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md → grounds/environment/STATE.md → domain-effect/STATE.md → relevant current child result`
-
-For exact stage freshness:
-- `03_ground-deepening/CURRENT-SURFACES.md`.
+No Work Conditions decomposition is yet verified. Same-model closure review later in this pass must remain labeled non-independent. Prior node audits remain non-independent.
 
 ## Current authorization
 
-**NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE.**
+**WORK CONDITIONS RESEARCH ONLY.**
 
-Do not activate Domain Structure, Domain Condition, Work Conditions, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation automatically.
+Do not activate Domain Structure, Domain Condition, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation during this pass.
