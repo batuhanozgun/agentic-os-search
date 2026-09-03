@@ -1,83 +1,166 @@
-# Domain Condition / Status — STATE
+# Domain Condition — STATE
 
-**Status:** ACTIVE SUBSTANTIVE RESEARCH PASS  
+**Status:** BOUNDED RESEARCH RESULT; AWAITING USER EVALUATION; NO SUBSTANTIVE CHILD ACTIVE  
 **Activated:** 2026-09-03  
+**Bounded closure:** 2026-09-03  
 **Parent:** `Domain State`  
 **Sibling:** `Domain Structure` — bounded / user-evaluated / accepted  
 **Higher ground:** `Environment / Operating Reality`
 
-## Current authorization
+## Current bounded result
 
-The user explicitly authorized the next recommended work on 2026-09-03: prepare the Domain Condition / Status plan, adversarially challenge it, then execute the Condition research pass to the operational limit.
-
-This activates **one node only**:
-
-> `Domain Condition / Status`
-
-Do not activate a discovered Condition child, a Structure child, Information, systematic composition, architecture or implementation.
-
-## Frozen execution plan
-
-`../DOMAIN-CONDITION-RESEARCH-PLAN.md`
-
-Plan blob at activation:
-
-`17708a8592c7e3607846a71bc6f8174955d3fd5d`
-
-## Exact pre-pass parent binding
-
-The Condition pass starts from the following current Domain State surfaces:
-
-- parent `../STATE.md`: `8265fa962e8e1f2bbe9499a41f67caf845b0d91d`
-- parent `../CURRENT-SURFACES.md`: `8ece496f1602ab8505390c07d131a9d2aa6f0558`
-- parent `../KEY.md`: `159d121ec2fcef865043e0cfb165af385874155e`
-- accepted Structure result `../domain-structure/CURRENT-SURFACES.md`: `8bd8d0b1e7e26f10d007d4e2c3702f0787d25619`
-
-These are historical pass-input bindings and must remain reconstructable after later continuity updates.
-
-## Inherited established result
-
-At the parent level, `Domain Condition / Status` is an established immediate Domain State research region with the inherited question:
-
-> What materially relevant properties, values, qualities, health, mode, status or standing actually hold at the selected scope and time?
-
-Established parent boundary:
+The inherited planning label:
 
 ```text
-Domain Structure ≠ Domain Condition / Status
-actual Condition ≠ observed / measured / inferred / reported / cached status by identity
-current Condition ≠ Dynamics/history by identity
-constraint/rule ≠ current satisfaction/violation fact by identity
-current Condition difference ≠ causal explanation
+Domain Condition / Status
 ```
 
-## Unverified assumptions under attack
+was refined to:
 
-The pass does **not** assume:
-- `Condition / Status` is the best final label;
-- property/value, health, mode, status and standing belong in one unsplit leaf;
-- health/status is always an actual condition rather than an assessment relative to criteria;
-- whole condition is reducible to constituent conditions;
-- quantitative/categorical or intrinsic/relational distinctions deserve children;
-- capability/capacity/availability belong exclusively here;
-- institutional standing can be handled without Actor/Information leakage;
-- the parent Structure-versus-Condition split must survive deeper research.
+```text
+Domain Condition
+    ├─ Realized Characteristics / Values
+    └─ Criterion-Relative Standing / Status
+```
 
-## Frozen falsifiers
+Interpretation:
+- `Domain Condition` remains a coherent Domain State child;
+- `Status` is too overloaded as a co-primary synonym for the whole node and is retained below it where criterion-relative standing is the protected question;
+- two immediate analytical problem regions survive deeper split/merge, boundary and cross-domain falsification;
+- neither discovered child has been deep researched or activated.
 
-Use F1–F16 from `../DOMAIN-CONDITION-RESEARCH-PLAN.md` without outcome-dependent relaxation.
+## Child questions
 
-## Current stage
+### Realized Characteristics / Values
 
-`S0 canonical recovery / snapshot` complete.  
-`S1–S7` active under the frozen plan.
+> What materially relevant characteristics, quantities, qualitative values, modes or relational conditions actually obtain at the selected scope and time, before asking whether they satisfy a separate criterion?
 
-## Verification rule
+### Criterion-Relative Standing / Status
 
-Same-model adversarial review may support bounded closure but is **not independent verification**. External sources are challenge/discrimination evidence and do not independently validate the exact project hierarchy merely because they use similar vocabulary.
+> Relative to a materially relevant functional, normative, regulatory or domain criterion, what standing currently obtains for the selected constituent or whole?
 
-## Return condition
+This second child can include true current standings such as healthy/degraded, ready/not-ready, compliant/non-compliant, valid/invalid or good-standing/not-good-standing when materially meaningful.
 
-Close the node only at bounded immediate-child depth and return the result to the user for evaluation.
+The criterion/rule/threshold itself is not actual Condition by identity.
 
-Do not automatically begin Environment completion review after closure.
+## Why two children survive
+
+The split is semantic, not raw-versus-derived data or scalar-versus-category.
+
+Independent failure/recovery surfaces exist:
+- underlying/current condition characteristics can be correct while an inapplicable or wrong criterion yields the wrong standing;
+- current standing can sometimes be established without reconstructing every underlying non-load-bearing characteristic;
+- recovery of a standing requires criterion applicability/semantics in addition to current condition evidence.
+
+## Third-child / cross-cut result
+
+Not promoted as universal immediate Condition children:
+- Health / Quality;
+- Mode / Lifecycle Status;
+- Capability / Capacity / Availability / Reliability;
+- Whole / Aggregate Condition;
+- Constituent Condition;
+- Intrinsic versus Relational Condition;
+- Quantitative / Qualitative / Categorical value forms;
+- Constraints / Compliance;
+- Observed / Inferred / Reported Condition;
+- physical / digital / biological / market / institutional type branches.
+
+Current treatment:
+- underlying damage/degradation → Realized Characteristics / Values when it is the current condition itself;
+- health/readiness/compliance/validity classification → Criterion-Relative Standing / Status when it is a true current standing;
+- current operating mode → usually Realized Characteristics / Values; mode transition/history → Dynamics;
+- criteria/rules/thresholds → cross-ground/reference inputs; current satisfaction/violation → possible criterion-relative standing;
+- whole/constituent → scope/aggregation dimension;
+- actual-versus-observed/reported → Information boundary.
+
+## Parent impact
+
+No evidence from this pass forces reopening of the Domain State parent split.
+
+Current local hierarchy:
+
+```text
+Domain State
+    ├─ Domain Structure
+    │    ├─ Constituent Composition / Membership   ← discovered; inactive
+    │    └─ Relational Organization / Topology     ← discovered; inactive
+    └─ Domain Condition
+         ├─ Realized Characteristics / Values       ← discovered; inactive
+         └─ Criterion-Relative Standing / Status    ← discovered; inactive
+```
+
+The deeper Condition split refines rather than contradicts the parent result.
+
+## Strong boundaries retained
+
+```text
+Domain Condition ≠ Domain Structure
+current Condition ≠ Domain Dynamics / history / trend
+actual characteristic/value ≠ measurement / observation / estimate / model value by identity
+actual standing/status ≠ health score / API status / dashboard / certificate / report by identity
+criterion / rule / threshold ≠ current satisfaction/violation fact by identity
+current degraded/non-compliant condition ≠ causal diagnosis/root cause
+Domain Condition role ≠ Work Condition role by object identity
+institutional standing ≠ Actor authority semantics by identity
+```
+
+## Cross-domain status
+
+The two-child candidate survived holdouts across:
+- deployed software/services;
+- physical machine/manufacturing assets;
+- infrastructure/process systems;
+- ecological systems;
+- market/financial domains;
+- organizations/institutions;
+- scientific specimen/experimental targets;
+- hybrid cyber-physical/digital-twin targets;
+- whole/constituent aggregation cases;
+- Domain Condition ↔ Work Condition role switching.
+
+No recurrent third Condition-local region was forced.
+
+## Evidence status
+
+External sources were used as challenge/discrimination instruments across systems engineering, NASA human-system requirements, condition monitoring/PHM, ISO quality/assessment vocabulary, software runtime systems, ecology, markets, institutional standing and property counterframes.
+
+No external source independently validates the exact project hierarchy.
+
+The completion/omission audit is same-model adversarial self-review, **not independent verification**.
+
+## Closure basis
+
+Frozen F1–F16 were explicitly tested.
+
+Strongest material changes from the inherited hypothesis:
+- F1 supported in part: parent label refines to `Domain Condition`;
+- F2 supported with stronger semantic framing: current characteristics versus criterion-relative standing;
+- F16 rejected: Domain Condition is not a bounded leaf at current depth;
+- no third universal Condition child survived.
+
+Late adversarial search mainly refined terminology, criterion boundaries, role switching and representation separation rather than exposing another first-order region. Broad Condition search therefore reached bounded sufficiency for the current immediate-child purpose.
+
+## Reopen conditions
+
+Reopen if:
+- deeper child research cannot contain materially recurrent cases without forced fit;
+- a materially different domain exposes a third Condition-local recovery question;
+- criterion-relative standing proves to be purely Information/relation-side rather than a reality-side Condition fact;
+- Environment completion review exposes a missing Environment region;
+- later Actors/Information composition breaks institutional standing boundaries;
+- independent review produces a materially stronger decomposition.
+
+## Current return condition
+
+Return this bounded Condition result to the user for evaluation.
+
+Do **not** automatically activate either discovered Condition child or begin Environment completion review, Information, cross-ground composition, architecture or implementation.
+
+## Next logical work
+
+If the user accepts this Condition result and no reopen trigger appears, the agreed next logical stage is an explicit **Environment completion review** from the then-current canonical state.
+
+## Next authorised work
+
+**USER EVALUATION OF DOMAIN CONDITION RESULT ONLY.**
