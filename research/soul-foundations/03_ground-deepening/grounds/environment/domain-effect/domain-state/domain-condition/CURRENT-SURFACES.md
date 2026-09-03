@@ -1,16 +1,16 @@
 # Domain Condition — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Condition closure; awaiting user evaluation  
-**Date:** 2026-09-03  
+**Status:** canonical freshness binding after bounded Condition closure and user acceptance  
+**Date:** 2026-09-04  
 **Branch:** `main`
 
 ## Entry surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `e8a31b22a98bbc7f9303b95a0ad03d189b524a47` |
-| Router | `INDEX.md` | `ef647d7e629c3ccaab42ea4d969001d02b433292` |
-| L0 key | `KEY.md` | `9464a411c0d5c9092a817f1adbfeca090751d160` |
+| Node state | `STATE.md` | `23570d2f17af4948dcac6fc6b68a85d67e56f864` |
+| Router | `INDEX.md` | `8a1c0e84f689bd69e72c3f86aacf91a1a7404553` |
+| L0 key | `KEY.md` | `ee3c9ca952e73f339d634529fd8e56aa60eb2f02` |
 | L1 findings map | `FINDINGS-MAP.md` | `f13abc3480f6366ef11df4b58f79dfdc50edd7a8` |
 | Residual questions | `OPEN-QUESTIONS.md` | `788c4200e82da2a981667e2890d36a7c13be2373` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `1a7a6f5d73293ca7962255bfcadbabfc3f57b139` |
@@ -49,7 +49,7 @@ This Condition pass was entered from the Domain State snapshot bound by:
 - frozen plan `../DOMAIN-CONDITION-RESEARCH-PLAN.md`: `17708a8592c7e3607846a71bc6f8174955d3fd5d`
 - accepted Structure freshness `../domain-structure/CURRENT-SURFACES.md`: `8bd8d0b1e7e26f10d007d4e2c3702f0787d25619`
 
-Those SHAs are historical pass-input bindings; parent current surfaces may now be refreshed to reflect this Condition result.
+Those SHAs are historical pass-input bindings; parent current surfaces may now be refreshed to reflect this Condition result and evaluation state.
 
 ## Current bounded result
 
@@ -59,17 +59,17 @@ Domain Condition
     └─ Criterion-Relative Standing / Status    ← discovered; inactive
 ```
 
-`Domain Condition / Status` was refined to `Domain Condition`. No discovered child is substantively active.
+`Domain Condition / Status` was refined to `Domain Condition`. The bounded result was user-evaluated and accepted on 2026-09-04. No discovered child is substantively active.
 
 ## Verification rule
 
-The completion audit is same-model adversarial self-review, not independent verification. External sources discriminate/falsify rivals but do not independently validate this exact hierarchy.
+The completion audit is same-model adversarial self-review, not independent verification. External sources discriminate/falsify rivals but do not independently validate this exact hierarchy. User acceptance does not alter that verification status.
 
 ## Authorization rule
 
-Current authorised work is **user evaluation of the bounded Domain Condition result only**.
+The next authorised stage is **Environment completion review** at the higher Environment level.
 
-Do not activate either Condition child, begin Environment completion review, transition to Information, or start systematic composition/architecture/ontology/data-model/implementation work without later explicit authorization.
+Do not activate either Condition child, transition to Information, or start systematic composition/architecture/ontology/data-model/implementation work without later explicit authorization.
 
 ## Retrieval rule
 
