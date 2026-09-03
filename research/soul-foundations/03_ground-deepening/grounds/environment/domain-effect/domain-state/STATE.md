@@ -1,14 +1,14 @@
 # Domain State — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED AS REASONABLE ENOUGH FOR HIERARCHICAL CONTINUATION  
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED; DOMAIN STRUCTURE SELECTED / PLANNED NEXT; NO SUBSTANTIVE NODE ACTIVE  
 **Authorised:** 2026-09-02  
 **Bounded node closure:** 2026-09-02  
 **User evaluation accepted:** 2026-09-03  
+**Domain Structure sequencing decision:** accepted 2026-09-03  
 **Parent:** Domain Reality  
-**Sibling:** Domain Dynamics / Processes — inactive  
-**Environment sibling:** Work Conditions / Enabling–Constraining Environment — inactive  
-**Other top-level grounds:** inactive  
-**Current authorised activity:** selection/planning of the next single research node only; no substantive node active
+**Sibling:** Domain Dynamics — bounded leaf; user-evaluated  
+**Environment sibling:** Work Conditions — bounded leaf; user-evaluated  
+**Current authorised activity:** Domain Structure selection/planning only; substantive Structure research not active
 
 ## Question answered
 
@@ -16,7 +16,7 @@ What is the strongest first-principles account of the Domain Reality child previ
 
 ## Material node correction
 
-The inherited label is refined from:
+The inherited label was refined from:
 
 ```text
 Domain State / Configuration
@@ -37,8 +37,8 @@ Reason:
 
 ```text
 Domain State
-    ├─ Domain Structure / Composition
-    └─ Domain Condition / Status
+    ├─ Domain Structure / Composition   ← SELECTED / PLANNED NEXT; research not active
+    └─ Domain Condition / Status        ← discovered; intended sibling after Structure evaluation
 ```
 
 Branches are analytical problem regions, not object/schema classes.
@@ -115,37 +115,44 @@ current State/Condition ≠ causal explanation of that State
 
 Institutional/social reality may depend on collective rules/practices; the project requires separation from any particular representation, not metaphysical independence from all representation.
 
-## Evidence / verification status
-
-The pass recovered/challenged through:
-- Domain Reality and Environment prior evidence;
-- Technical Work Environment identity/configuration analogies;
-- current SEBoK state/structure systems material;
-- Work Domain Analysis;
-- NASA/NIST configuration management;
-- NIST asset condition / PHM;
-- current Kubernetes live-state reconciliation;
-- National Academies digital twins;
-- AI state-space / Markov sufficiency;
-- transition-system constraints/invariants;
-- identity/persistence philosophy;
-- properties/relations/facts/state-of-affairs counterframes;
-- social/institutional ontology;
-- ecological, market, scientific and hybrid holdouts.
-
-The completion/omission audit is **same-model adversarial self-review, not independent verification**. No source independently validates this exact two-child project hierarchy.
-
-A current SEBoK article explicitly acknowledging OpenAI drafting support was excluded as load-bearing independent evidence.
-
 ## User evaluation
 
-The user reviewed the simplified Domain State result on 2026-09-03 and reported no problem with the Structure/Composition versus Condition/Status distinction. Treat the result as accepted for continued hierarchical research, subject to the existing reopen conditions.
+The user reviewed the simplified Domain State result on 2026-09-03 and accepted the Structure/Composition versus Condition/Status distinction for continued hierarchical research.
 
-This is not universal validation, final ontology or architecture truth.
+The user later clarified the intended method: discovered material children are not treated as already researched merely because the parent pass established them. The agreed Environment sequence is therefore:
+
+```text
+1. Domain Structure / Composition
+2. user evaluation
+3. Domain Condition / Status
+4. user evaluation
+5. explicit Environment completion review
+6. only then decide whether to transition to Information
+```
+
+This sequencing decision is accepted. It does not activate substantive Structure research.
+
+## Structure planning
+
+Frozen planning surface:
+- `DOMAIN-STRUCTURE-RESEARCH-PLAN.md`
+
+Status:
+- selected next node;
+- planning complete;
+- no Structure result package exists yet;
+- broad external Structure research has not begun under this authorization.
+
+## Evidence / verification status
+
+The Domain State completion/omission audit is **same-model adversarial self-review, not independent verification**. No source independently validates this exact two-child project hierarchy. User evaluation and sequencing decisions do not change that verification status.
 
 ## Preferred retrieval
 
 `KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → relevant finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md → primary source`
+
+For the selected next node:
+- `DOMAIN-STRUCTURE-RESEARCH-PLAN.md`.
 
 Residuals:
 - `OPEN-QUESTIONS.md`
@@ -164,8 +171,12 @@ Reopen Domain State if:
 - later Dynamics/Information/Work/Actors research reveals boundary leakage;
 - independent review offers a materially stronger decomposition.
 
+## Next logical work
+
+Execute the planned `Domain Structure / Composition` research pass, then return its bounded result for user evaluation.
+
 ## Next authorised work
 
-**SELECT / PLAN THE NEXT SINGLE RESEARCH NODE WITH THE USER.**
+**DOMAIN STRUCTURE IS SELECTED AND PLANNED, BUT SUBSTANTIVE RESEARCH IS NOT YET ACTIVE.**
 
-No substantive node is active. Do not automatically activate `Domain Structure / Composition`, `Domain Condition / Status`, Domain Dynamics, Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation.
+Do not automatically activate Structure, deep-research Condition, begin Information, or move into composition/architecture/ontology/data-model work without a later explicit transition.
