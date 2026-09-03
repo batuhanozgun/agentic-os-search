@@ -1,6 +1,6 @@
 # Ground Deepening — STATE
 
-**Status:** DOMAIN CONDITION BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE
+**Status:** ENVIRONMENT COMPLETION REVIEW AUTHORISED; NO CHILD NODE ACTIVE
 **Created:** 2026-09-02
 **Plan accepted:** 2026-09-02
 **Environment parent evaluation:** accepted for hierarchical continuation
@@ -8,10 +8,10 @@
 **Domain Dynamics user evaluation:** accepted 2026-09-03
 **Work Conditions user evaluation:** accepted 2026-09-03
 **Domain Structure:** bounded / user-evaluated / accepted 2026-09-03
-**Domain Condition:** bounded 2026-09-03; awaiting user evaluation
+**Domain Condition:** bounded / user-evaluated / accepted 2026-09-04
 **Environment continuation decision:** Structure → Condition → Environment completion review before any Information transition; accepted 2026-09-03
 **Scope:** ground-specific and recursively branch-specific research-depth completion
-**Current authorised activity:** USER EVALUATION OF THE BOUNDED DOMAIN CONDITION RESULT ONLY
+**Current authorised activity:** ENVIRONMENT COMPLETION REVIEW ONLY
 
 ## Working research tree
 
@@ -20,11 +20,11 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure                         ← bounded / accepted
-    │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
-    │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
-    │    │    └─ Domain Condition                         ← bounded; awaiting user evaluation
-    │    │         ├─ Realized Characteristics / Values    ← discovered; inactive
-    │    │         └─ Criterion-Relative Standing / Status ← discovered; inactive
+    │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive / not researched
+    │    │    │    └─ Relational Organization / Topology   ← discovered; inactive / not researched
+    │    │    └─ Domain Condition                         ← bounded / accepted
+    │    │         ├─ Realized Characteristics / Values    ← discovered; inactive / not researched
+    │    │         └─ Criterion-Relative Standing / Status ← discovered; inactive / not researched
     │    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
     └─ Work Conditions                                    ← bounded leaf; user-evaluated
 
@@ -37,41 +37,27 @@ Actors / Agency–Participation–Authority          ← inactive
 
 ```text
 Structure research/evaluation ← complete / accepted
-Condition research             ← boundedly complete
-Condition user evaluation      ← CURRENT GATE
-Environment completion review  ← inactive; later explicit transition
-Information transition         ← only after Environment completion review
+Condition research/evaluation ← complete / accepted
+Environment completion review  ← AUTHORISED CURRENT STAGE
+Information transition         ← only after review and later user direction
 ```
-
-Condition result route:
-- `grounds/environment/domain-effect/domain-state/domain-condition/STATE.md`
-- `grounds/environment/domain-effect/domain-state/domain-condition/KEY.md`
-- `grounds/environment/domain-effect/domain-state/domain-condition/CURRENT-SURFACES.md`
-
-Executed Condition plan:
-- `grounds/environment/domain-effect/domain-state/DOMAIN-CONDITION-RESEARCH-PLAN.md`
 
 ## Hierarchical method
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
 Rules retained:
-- one substantive node at a time;
 - discovering a child does not mean that child has been researched;
-- research closure does not activate a child or next stage automatically;
-- after Condition closure, return for user evaluation;
-- Environment completion review is a separate later stage.
+- completion review must test whether unresolved discovered descendants are material blockers;
+- research closure does not activate a child or next top-level ground automatically;
+- Environment completion cannot be inferred merely from following the planned sibling sequence.
 
 ## Verification status
 
-Existing node completion/omission reviews, including Condition, are same-model adversarial self-reviews, not independent verification.
-
-## Next logical work
-
-If Condition is accepted and no reopen trigger appears, perform an explicit Environment completion review from then-current canonical state.
+Existing node completion/omission reviews are same-model adversarial self-reviews, not independent verification. The Environment completion review will be same-model unless a materially independent path is explicitly introduced.
 
 ## Next authorised work
 
-**USER EVALUATION OF THE BOUNDED DOMAIN CONDITION RESULT ONLY.**
+**ENVIRONMENT COMPLETION REVIEW ONLY.**
 
-Do not activate a Condition child, Structure child, Environment completion review, Information, Work, Actors, systematic relation/control composition, architecture, ontology/data-model work or implementation automatically.
+Do not activate a Structure/Condition child, Information, Work, Actors, systematic relation/control composition, architecture, ontology/data-model work or implementation automatically.
