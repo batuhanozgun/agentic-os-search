@@ -1,60 +1,133 @@
-# Domain Dynamics / Processes — STATE
+# Domain Dynamics — STATE
 
-**Status:** ACTIVE SUBSTANTIVE RESEARCH  
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION  
 **Activated:** 2026-09-03  
+**Bounded node closure:** 2026-09-03  
 **Parent:** Domain Reality  
 **Sibling:** Domain State — boundedly sufficient; user-evaluated for hierarchical continuation  
 **Environment sibling:** Work Conditions / Enabling–Constraining Environment — inactive  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** execute the single-node Domain Dynamics / Processes pass to its bounded closure / user-evaluation boundary
+**Current authorised activity:** none inside this node; return bounded result to user evaluation before another node is activated
 
-## Research question
+## Question answered
 
 What must be understood about the realized ways a materially relevant domain changes, unfolds, interacts and transitions through time, and which of those problems deserve promotion to immediate child research regions without collapsing State, Work Conditions, Work, Information, Actors, possibility/law descriptions or causal attribution into Dynamics?
 
-## Governing plan
+## Material node correction
 
-`../DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+The inherited label is refined from:
 
-The plan's framing rivals, falsifiers, holdouts, closure criteria and stop-descending rule were frozen before substantive research began.
+```text
+Domain Dynamics / Processes
+```
 
-## One-active-node rule
+to:
 
-`Domain Dynamics / Processes` is the only substantive hierarchical node active.
+```text
+Domain Dynamics
+```
 
-Inactive:
-- Domain Structure / Composition;
-- Domain Condition / Status;
-- Work Conditions / Enabling–Constraining Environment;
-- Information / Representation State;
-- Work;
-- Actors;
-- cross-ground relation/control composition;
-- architecture / ontology / data model / implementation.
+Reason:
+- `process` is one important occurrence mode but privileges one ontology/vocabulary;
+- events, transitions, trajectories, persistence, stability/regime behavior and hybrid flow/jump evolution also belong to the broad Dynamics problem;
+- no one formalism should define the research node.
 
-## Pre-pass provenance anchor
+## Immediate-child result
 
-Exact parent snapshot at activation:
-- Domain Reality `CURRENT-SURFACES.md` blob SHA: `3c8b74691b87fcf1076c380b67c307be5598168d`.
+```text
+Domain Dynamics     ← bounded leaf at current foundation-research depth
+```
 
-This anchor is the pass-input parent state. Current navigation paths may change later and must not be substituted for this historical input.
+No universal immediate child currently survives the child-promotion test strongly enough to justify another recursive level.
 
-## Current progress
+The strongest rival split was:
 
-- D0 canonical recovery: ACTIVE / being completed.
-- D1 node coherence attack: not yet concluded.
-- D2 first-principles problem inventory: not yet concluded.
-- D3 immediate-child discovery: not yet concluded.
-- D4 boundary/cross-cutting tests: not yet concluded.
-- D5 external cross-lineage falsification: not yet concluded.
-- D6 cross-domain holdouts: not yet concluded.
-- D7 omission/reduction audit: not yet concluded.
-- D8 closure: not reached.
+```text
+Occurrence / Interaction / Process
+Change / Transition / Trajectory
+```
 
-## Verification status
+It remains an explicit internal distinction but is not promoted because its boundary shifts with scale/formalism and overlaps materially in hybrid/coupled systems.
 
-No substantive Dynamics decomposition is yet verified. Same-model review later in the pass must remain labeled non-independent. External sources may support distinctions but do not independently validate the project's exact hierarchy.
+## Explicit internal problem regions — not children
 
-## Return condition
+- **Realized occurrence / interaction** — processes/activities, flows, coupling, feedback, disturbances, initiation/continuation/cessation.
+- **Realized change / transition / trajectory** — changes to Structure/Condition, ordering, evolution, gradual/abrupt transition, recovery and regime change.
+- **Temporal dependence / memory** — delay, persistence, hysteresis/path dependence, State sufficiency versus omitted state.
+- **Dynamic pattern / regime** — stability/instability, cycles, attractor/basin behavior, synchronization, tipping/regime behavior.
+- **Multi-scale / nested Dynamics** — scale/reference dependence of event/process/disturbance descriptions.
 
-Work until the node is boundedly sufficient for its immediate-child purpose or a material blocker/falsifier requires returning earlier. At closure return to the user before activating any discovered child or sibling.
+## Candidate children not promoted
+
+- Process / Flow / Interaction versus Event / Transition;
+- Trajectory / Evolution / History;
+- Endogenous versus Exogenous / Disturbance;
+- Feedback / Interaction / Mechanism;
+- Identity / Continuity;
+- History / Path Dependence;
+- Continuous versus Discrete;
+- Deterministic versus Stochastic;
+- Stability / Equilibrium / Regime;
+- type-based physical/digital/social/institutional branches.
+
+Current classification: modes, properties, dependencies, boundary relations, representation/formalism choices or domain specializations rather than stable universal children.
+
+## Strong boundaries
+
+```text
+Domain Dynamics ≠ Domain State
+actual Dynamics ≠ transition rule / law / reachable-state model
+actual Dynamics ≠ log / observation / process model / simulation / forecast / digital twin
+Domain Dynamics ≠ focal Work lifecycle
+Domain Dynamics role ≠ Work Conditions role by object identity
+Actor action in Dynamics ≠ Actor identity/authority semantics
+actual temporal change ≠ causal effect attribution
+```
+
+Institutional/social Dynamics may be constituted through collective rules/practices; `actual` means realized change/continuation rather than metaphysical independence from all representation. The required separation is from any particular Record/model/assertion and from Actor-owned authority semantics.
+
+## Evidence / verification status
+
+The pass recovered/challenged through:
+- canonical Domain Reality and deeper Domain State evidence;
+- hybrid dynamical systems;
+- process/occurrence philosophy;
+- Markov/state-sufficiency counterframes;
+- ecological feedback, hysteresis/regime-shift cases;
+- hybrid robotics and stability/trajectory analysis;
+- digital-twin actual-versus-representation boundary;
+- Kubernetes control-loop/runtime dynamics;
+- causal-inference counterframes;
+- institutional/social reality;
+- software, physical, ecological, market, scientific, institutional and hybrid holdouts.
+
+The completion/omission audit is **same-model adversarial self-review, not independent verification**. External sources discriminate candidate splits but do not independently validate this exact project leaf result.
+
+A current SEBoK behavior/dynamics surface acknowledging OpenAI drafting support was excluded as load-bearing independent evidence.
+
+## Preferred retrieval
+
+`KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md → relevant finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md`
+
+Residuals:
+- `OPEN-QUESTIONS.md`
+- `DEFERRED-RELATIONS.md`
+
+Exact freshness:
+- `CURRENT-SURFACES.md` once closure manifest is bound.
+
+## Reopen condition
+
+Reopen Domain Dynamics if:
+- occurrence/process versus transition/trajectory repeatedly requires independent first-order research across materially different domains;
+- a dynamics-local identity, constraints or history region cannot remain cross-cutting;
+- path dependence exposes a recurrent family outside the current problem map;
+- Work Conditions / Information / Work / Actors research reveals boundary leakage;
+- a materially different domain exposes a missing first-order Dynamics region;
+- independent review offers a materially stronger decomposition.
+
+## Next authorised work
+
+**USER EVALUATION OF THIS BOUNDED RESULT ONLY.**
+
+No substantive node is active after closure. Do not automatically activate Domain Structure, Domain Condition, Work Conditions, Information, Work, Actors, any Dynamics child, systematic relation/control composition, architecture, ontology/data-model work or implementation.
