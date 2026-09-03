@@ -4,6 +4,7 @@
 **Date:** 2026-09-03  
 **Parent:** `Domain Reality`  
 **Sibling:** `Domain State` — boundedly sufficient and user-evaluated for hierarchical continuation  
+**Environment sibling:** `Work Conditions / Enabling–Constraining Environment` — inactive  
 **User direction:** Domain Dynamics / Processes accepted as the next node; build the research plan and work to the operational boundary; no explicit authorization to begin substantive research in this turn
 
 ## Purpose
@@ -30,7 +31,7 @@ Environment / Operating Reality
 
 Working question:
 
-> What must be understood about the **realized ways a materially relevant domain changes, unfolds, interacts and transitions through time**, and which of those problems deserve promotion to immediate child research regions without collapsing State, Work, Information, Actors or causal attribution into Dynamics?
+> What must be understood about the **realized ways a materially relevant domain changes, unfolds, interacts and transitions through time**, and which of those problems deserve promotion to immediate child research regions without collapsing State, Work Conditions, Work, Information, Actors, possibility/law descriptions or causal attribution into Dynamics?
 
 The node must remain compatible with domains where change is continuous, discrete, stochastic, rule-mediated, socially constituted, hybrid, partly hidden or partly driven by focal Work.
 
@@ -42,14 +43,17 @@ The pass must explicitly test rather than assume:
 2. Are ongoing processes/flows and discrete events/transitions genuinely different first-order problem regions, or mainly alternative temporal/modeling views of one dynamics problem?
 3. Does `trajectory/evolution/history` deserve a child separate from `process/interaction`, or is trajectory the realized time-extended result of processes/events rather than a peer region?
 4. Are endogenous processes and exogenous disturbances distinct child regions, or is source-of-change a causal/provenance dimension that cuts across dynamics?
-5. How should interactions, feedback, rates, accumulation, delays and nonlinear effects be represented as reality-side dynamics without importing one mathematical formalism as the project hierarchy?
-6. What role does identity/continuity play across substantial structural and condition change; is it Dynamics-local, State–Dynamics cross-cutting, or domain-specific?
-7. When does history/path dependence indicate a genuinely Dynamics-local dependency rather than merely an omitted current-State variable or an Information limitation?
-8. How must realized domain change remain separate from observations, event logs, process models, simulations, forecasts and other representations of change?
-9. How must domain processes remain separate from the lifecycle/execution of focal `Work`, especially when Work actions themselves participate in domain change?
-10. How must an actual transition/change remain separate from a claim that Work, an Actor, an event or another factor **caused** that change?
-11. Can physical, software, ecological, market, institutional/social and hybrid domains share one first-order dynamics hierarchy without type-based or representation-based categories becoming the project tree?
-12. Is `Dynamics / Processes` too formal or too broad, such that `Domain Change / Evolution`, `Domain Behavior`, `Domain Processes` or another framing better protects the problem boundary?
+5. How should interactions, coupling, feedback, rates, accumulation, synchronization, delays and nonlinear effects be treated as reality-side dynamics without importing one mathematical formalism as the project hierarchy?
+6. Do stability, equilibrium/non-equilibrium behavior, regimes, attractors or regime shifts expose a distinct first-order Dynamics problem, or are they properties/patterns of dynamics that cut across candidate children?
+7. What role does identity/continuity play across substantial structural and condition change; is it Dynamics-local, State–Dynamics cross-cutting, or domain-specific?
+8. When does history/path dependence indicate a genuinely Dynamics-local dependency rather than merely an omitted current-State variable or an Information limitation?
+9. What belongs to **realized Dynamics** versus laws, constraints, transition possibilities, reachable-state structure or other descriptions of what could/should happen rather than what actually unfolds?
+10. How must realized domain change remain separate from observations, event logs, process models, simulations, forecasts and other representations of change?
+11. How must domain processes remain separate from the lifecycle/execution of focal `Work`, especially when Work actions themselves participate in domain change?
+12. How should `Domain Dynamics` remain distinct from changing `Work Conditions` when the same concrete system/process can be target-domain reality for one Work and enabling/constraining environment for another?
+13. How must an actual transition/change remain separate from a claim that Work, an Actor, an event or another factor **caused** that change?
+14. Can physical, software, ecological, market, institutional/social and hybrid domains share one first-order dynamics hierarchy without type-based or representation-based categories becoming the project tree?
+15. Is `Dynamics / Processes` too formal or too broad, such that `Domain Change / Evolution`, `Domain Behavior`, `Domain Processes` or another framing better protects the problem boundary?
 
 ## Evidence recovery before broad new search
 
@@ -80,9 +84,15 @@ Recover the deeper sibling result because Dynamics boundaries depend on what Sta
 - `domain-state/OPEN-QUESTIONS.md`
 - relevant State findings/audit/source ledger when a Dynamics conclusion depends on Structure/Condition, identity, constraints, granularity or actual-versus-represented boundaries.
 
-### Environment parent evidence
+### Environment parent / Work Conditions boundary
 
-Recover parent boundary/reference and actual-versus-representation findings when a Dynamics conclusion depends on what counts as realized Environment rather than Information, Work or Actors.
+Recover parent boundary/reference findings and deferred sibling relations when a Dynamics conclusion depends on what counts as:
+- target/domain reality;
+- enabling/constraining Work Conditions;
+- the same concrete system/process switching analytical role across different Work;
+- realized Environment versus represented Information.
+
+Do not open Work Conditions substantive research.
 
 ### Work evidence — boundary reference only
 
@@ -111,14 +121,17 @@ Freeze these before new search:
 - **F3:** `Trajectory / Evolution / History` is a co-equal first-order child rather than a derived/cross-cutting time-extended view.
 - **F4:** endogenous dynamics and exogenous disturbance are distinct first-order children rather than source-of-change dimensions.
 - **F5:** `Feedback / Interaction / Mechanism` is a missing child whose omission materially weakens later reasoning.
-- **F6:** identity/continuity is a Dynamics-local child rather than a State–Dynamics cross-cutting prerequisite.
-- **F7:** path dependence/history cannot be handled without a distinct first-order dynamics region.
-- **F8:** continuous versus discrete, deterministic versus stochastic, reversible versus irreversible or rate-based versus event-based distinctions are representation/model classes rather than project-level children; evidence may falsify this.
-- **F9:** Dynamics silently collapses into causal explanation; observed change/transition cannot be separated cleanly from why it occurred.
-- **F10:** Dynamics silently collapses into Work because focal Work is treated as the default or sole source of domain change.
-- **F11:** social/institutional dynamics break the actual-versus-representation or Environment-versus-Actors boundary as currently stated.
-- **F12:** a materially different domain exposes a recurrent Dynamics-local problem outside every surviving candidate child.
-- **F13:** further decomposition adds vocabulary/modeling detail but no new first-order SOUL/Development-OS reasoning value, making Dynamics a bounded leaf.
+- **F6:** stability/regime/equilibrium behavior requires a distinct first-order child rather than remaining a Dynamics property/pattern.
+- **F7:** identity/continuity is a Dynamics-local child rather than a State–Dynamics cross-cutting prerequisite.
+- **F8:** path dependence/history cannot be handled without a distinct first-order dynamics region.
+- **F9:** one or more continuous/discrete, deterministic/stochastic, reversible/irreversible or rate/event distinctions have first-order project value and cannot remain merely modeling/formalism dimensions.
+- **F10:** realized Dynamics cannot be cleanly separated from laws, admissible transitions, reachable-state structure or possibility-space descriptions.
+- **F11:** Dynamics silently collapses into causal explanation; observed change/transition cannot be separated cleanly from why it occurred.
+- **F12:** Dynamics silently collapses into Work because focal Work is treated as the default or sole source of domain change.
+- **F13:** Dynamics cannot remain cleanly separated from the Work-Conditions sibling under target/support role switching.
+- **F14:** social/institutional dynamics break the actual-versus-representation or Environment-versus-Actors boundary as currently stated.
+- **F15:** a materially different domain exposes a recurrent Dynamics-local problem outside every surviving candidate child.
+- **F16:** further decomposition adds vocabulary/modeling detail but no new first-order SOUL/Development-OS reasoning value, making Dynamics a bounded leaf.
 
 ## Research sequence
 
@@ -144,9 +157,10 @@ C. Interactions / Mechanisms + Trajectories       [two children]
 D. Endogenous Dynamics + Exogenous Disturbances   [source-based split]
 E. Continuous Dynamics + Discrete Events          [formalism-based split]
 F. Dynamics + History / Path Dependence           [memory-based split]
-G. Domain Change / Evolution                      [rename/reframe]
-H. State-transition reduction                     [no dedicated Dynamics node]
-I. Bounded leaf                                   [no stable immediate children]
+G. Dynamics + Regimes / Stability                 [pattern-based split]
+H. Domain Change / Evolution                      [rename/reframe]
+I. State-transition reduction                     [no dedicated Dynamics node]
+J. Bounded leaf                                   [no stable immediate children]
 ```
 
 A rival wins only if it preserves the parent boundary and materially improves failure analysis or later SOUL/Development-OS reasoning with less forced fit.
@@ -159,19 +173,23 @@ Probe, without pre-promoting:
 - occurrence and temporal ordering;
 - transition/change between realized States;
 - ongoing processes and interactions;
+- coupling, concurrency and synchronization;
 - flows, rates and accumulations;
 - feedback and reciprocal influence;
 - delays, hysteresis and lag;
 - trajectory/evolution over time;
+- stability, equilibria/non-equilibria, regimes and regime shifts;
 - disturbances/shocks;
 - endogenous versus externally introduced change;
 - branching/alternative possible transitions where materially relevant;
+- realized transition/trajectory versus laws, admissibility and reachable possibilities;
 - stochasticity/variability where reality-side rather than merely model-side;
 - path dependence/history dependence;
 - persistence, replacement and identity across change;
 - multi-scale/nested dynamics;
-- initiation, continuation, cessation, recovery and regime/mode change;
+- initiation, continuation, cessation, recovery and mode/regime change;
 - constraints/invariants over transitions;
+- target-domain process versus changing Work Conditions under reference/role switching;
 - focal Work actions participating in but not exhausting domain change;
 - actual process/change versus observation, log, model, simulation or forecast;
 - actual transition versus causal attribution.
@@ -192,20 +210,23 @@ Do not promote a child merely because:
 - a simulator distinguishes continuous and discrete modes;
 - a database/event-store has separate representations;
 - a causal graph distinguishes node/edge types;
-- a domain-specific lifecycle has named phases.
+- a domain-specific lifecycle has named phases;
+- one mathematical tradition gives stability, stochasticity or reachability a dedicated formal object.
 
 ### D4 — Cross-cutting-dimension and anti-collapse tests
 
-Explicitly test whether the following are children, dimensions, relations or representation choices:
+Explicitly test whether the following are children, dimensions, relations, patterns or representation choices:
 - time scale / temporal granularity;
 - continuous versus discrete;
 - deterministic versus stochastic;
 - reversible versus irreversible;
 - periodic/cyclic versus one-way;
 - endogenous versus exogenous;
+- stability / equilibrium / regime / attractor behavior;
 - identity / continuity;
 - path dependence / memory;
 - constraints / invariants;
+- realized versus possible/admissible/reachable dynamics;
 - observability / uncertainty;
 - actual versus represented process;
 - causal provenance / attribution;
@@ -213,6 +234,7 @@ Explicitly test whether the following are children, dimensions, relations or rep
 
 Stress-test against:
 - `Domain State` so Dynamics does not become a time-indexed State bucket;
+- `Work Conditions` so changing support/enabling conditions do not become Domain Reality merely because they evolve;
 - `Work` so domain process does not become focal task/workflow execution;
 - `Information` so event/process representations do not become reality;
 - `Actors` so agency/authority does not become domain dynamics by identity.
@@ -222,12 +244,12 @@ Stress-test against:
 Use materially different source traditions. No source taxonomy defines the project tree by authority.
 
 Candidate source families for the substantive pass:
-- dynamical-systems and control traditions: state, trajectory, flow, feedback, stability and disturbance;
+- dynamical-systems and control traditions: state, trajectory, flow, feedback, stability, regime and disturbance;
 - discrete-event, transition-system and hybrid-systems traditions;
 - stochastic-process and memory/path-dependence counterframes;
 - process/occurrent ontology and event-theoretic traditions;
-- complex-adaptive/network dynamics where interactions and feedback challenge simple transition views;
-- temporal-logic / state-transition perspectives as formal counterframes, not project authority;
+- complex-adaptive/network dynamics where coupling, emergence and feedback challenge simple transition views;
+- temporal-logic / state-transition / reachability perspectives as formal counterframes, not project authority;
 - causal-inference/intervention traditions specifically to protect `change ≠ causal attribution`;
 - digital-twin / live-system synchronization traditions for actual dynamics versus represented/predicted dynamics;
 - institutional/social-process traditions for rule-mediated realized change;
@@ -239,17 +261,20 @@ Source selection should maximize independence of framing rather than accumulate 
 
 At minimum challenge the candidate map with:
 - SOUL / KEEL / Development OS operating against a live repository and deployed system whose domain can change independently of focal Work;
-- distributed/software runtime evolution with asynchronous events, retries, failures and recovery;
+- distributed/software runtime evolution with asynchronous events, retries, failures, coupling and recovery;
 - physical asset/process dynamics including degradation, repair-independent drift or changing operating conditions;
 - ecological/resource dynamics with feedback, accumulation and delayed consequences;
-- market/business dynamics with endogenous interaction plus exogenous shocks;
+- market/business dynamics with endogenous interaction plus exogenous shocks and regime changes;
 - scientific/experimental system dynamics where observation is partial and intervention is not the only source of change;
 - institutional/social rule-mediated change without transferring Actor authority semantics into Environment;
 - hybrid physical/digital systems with continuous and discrete behavior;
 - a case where two systems share the same observed current State but differ materially because of history/path dependence;
 - a case where identity persists despite substantial structural replacement;
 - a case where focal Work causes part of a transition but not the full resulting trajectory;
-- a case where a transition occurs without focal Work at all.
+- a case where a transition occurs without focal Work at all;
+- a role-switching case where the same evolving system/process is Domain Reality for one Work but a Work Condition for another;
+- a case where possible/reachable transitions differ from the transition that actually occurs;
+- a case where stability/regime knowledge materially matters despite similar near-term State observations.
 
 Holdouts are falsification instruments, not illustrations.
 
@@ -261,11 +286,14 @@ Try to produce:
 - a forced fit caused by treating events as processes or processes as transitions;
 - a case where trajectory/history deserves co-equal status;
 - a case where feedback/interaction deserves co-equal status;
+- a case where stability/regime behavior deserves co-equal status;
 - a case where identity/continuity deserves first-order Dynamics handling;
+- a case where possible/admissible dynamics are silently substituted for realized dynamics;
 - a case where an event log/model/forecast is silently substituted for actual dynamics;
+- a case where Work Conditions semantics have leaked into Domain Reality dynamics;
 - a case where Work lifecycle semantics have leaked into Domain Dynamics;
 - a case where observed sequence has been mistaken for causal mechanism/effect attribution;
-- a domain where boundary/reference choice materially changes what counts as one process versus environment disturbance;
+- a domain where boundary/reference choice materially changes what counts as one process versus environment disturbance/support condition;
 - a reason the node should remain a leaf.
 
 Same-model completion review must be labeled non-independent.
@@ -276,9 +304,10 @@ Close the **Domain Dynamics / Processes** pass when:
 - the node is coherent or a stronger replacement is established;
 - immediate-child map or justified leaf result is explicit;
 - process/event/transition/trajectory rivals have been directly challenged;
-- endogenous/exogenous and formalism-based splits have been classified as children versus cross-cutting/model dimensions;
+- endogenous/exogenous, stability/regime and formalism-based splits have been classified as children versus cross-cutting/model/pattern dimensions;
+- realized dynamics is separated from laws/constraints/admissible or reachable possibilities;
 - identity, history/path dependence, constraints and multi-scale issues are explicitly placed;
-- State, Work, Information, Actors and causal-attribution boundaries survive adversarial cases;
+- State, Work Conditions, Work, Information, Actors and causal-attribution boundaries survive adversarial cases;
 - materially different holdouts stop producing new first-order Dynamics regions;
 - load-bearing claims have source/view recovery;
 - residuals and deferred relations are explicit;
@@ -290,7 +319,7 @@ Then return to user evaluation before activating any discovered Dynamics child o
 
 A leaf result is acceptable and should be preferred over artificial hierarchy if:
 - no candidate child split survives adversarial testing;
-- candidate splits are mainly temporal scales, mathematical formalisms, causal-source labels or representation choices;
+- candidate splits are mainly temporal scales, mathematical formalisms, causal-source labels, stability patterns or representation choices;
 - decomposition does not change failure analysis, boundary reasoning, relation structure or later design reasoning materially;
 - further search mainly refines vocabulary, mechanisms or domain examples.
 
@@ -303,6 +332,7 @@ Leaf status remains bounded and reopenable.
 - do not recursively research discovered Dynamics children in the same pass;
 - do not solve the final causal/effect relation taxonomy;
 - do not infer that Work action caused a domain transition merely because both occurred;
+- do not identify possible/admissible/reachable dynamics with realized dynamics;
 - do not turn the Dynamics map into ontology classes, event-store schema, process engine, simulator, causal graph or architecture modules;
 - do not choose a universal state-transition formalism, differential-equation model, stochastic model or event representation;
 - do not auto-activate another node after closure.
@@ -323,7 +353,7 @@ At closure produce a dedicated Dynamics child package containing:
 
 Main user-facing answer:
 
-> **Under Domain Dynamics / Processes, which immediate first-order research branches actually exist, why are they separate, and which apparent distinctions are only temporal/modeling dimensions, causal relations or representation choices?**
+> **Under Domain Dynamics / Processes, which immediate first-order research branches actually exist, why are they separate, and which apparent distinctions are only temporal/modeling dimensions, stability/pattern properties, causal relations, Work-Condition roles, possibility descriptions or representation choices?**
 
 ## Pre-research readiness gate
 
