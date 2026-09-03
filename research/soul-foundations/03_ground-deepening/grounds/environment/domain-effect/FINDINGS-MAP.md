@@ -1,23 +1,30 @@
 # Domain Reality — FINDINGS MAP
 
-**Status:** Domain Reality bounded result with Domain State child deepened and user-evaluated for hierarchical continuation
+**Status:** Domain Reality bounded result with Domain State user-evaluated and Domain Dynamics bounded / awaiting user evaluation
 
-> **Pass-artifact provenance:** Focused findings, the executed research plan, source ledger and original completion audit preserve the labels/status current during the Domain Reality pass. Current hierarchy, authorization and epistemic status come from `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`; pass-time `active`, `candidate` or `Domain State / Configuration` wording is not current authorization.
+> **Pass-artifact provenance:** Original focused findings, executed research plans, source ledgers and completion audits preserve labels/status current during their producing passes. Current hierarchy, authorization and epistemic status come from `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`; pass-time `active`, `candidate`, `Domain State / Configuration` or `Domain Dynamics / Processes` wording is not current authorization.
 
 ## Fast route
 
 ### Domain Reality bounded result
-- shortest result → `KEY.md`
-- integrated synthesis → `synthesis/DOMAIN-REALITY-SYNTHESIS.md`
+- shortest current hierarchy → `KEY.md`
+- original integrated synthesis → `synthesis/DOMAIN-REALITY-SYNTHESIS.md`
 - original completion judgment → `synthesis/COMPLETENESS-OMISSION-CHECK.md`
 - original source recovery → `evidence/SOURCE-LEDGER.md`
 
-### Current deeper child result
-- Domain State state → `domain-state/STATE.md`
+### Current deeper Domain State result
+- State status → `domain-state/STATE.md`
 - shortest State result → `domain-state/KEY.md`
 - State topic route → `domain-state/FINDINGS-MAP.md`
 - State synthesis → `domain-state/synthesis/DOMAIN-STATE-SYNTHESIS.md`
-- State completion/source recovery → `domain-state/synthesis/COMPLETENESS-OMISSION-CHECK.md` / `domain-state/evidence/SOURCE-LEDGER.md`
+
+### Current deeper Domain Dynamics result
+- Dynamics status → `domain-dynamics/STATE.md`
+- shortest result → `domain-dynamics/KEY.md`
+- Dynamics topic route → `domain-dynamics/FINDINGS-MAP.md`
+- integrated synthesis → `domain-dynamics/synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md`
+- why no child was promoted → `domain-dynamics/findings/06-falsifier-disposition-and-leaf-result.md`
+- completion/source recovery → `domain-dynamics/synthesis/COMPLETENESS-OMISSION-CHECK.md` / `domain-dynamics/evidence/SOURCE-LEDGER.md`
 
 ## Original Domain Reality focused findings
 
@@ -26,34 +33,35 @@
 | What prior evidence and falsifiers governed Domain Reality? | `findings/01-evidence-inventory-and-starting-falsifiers.md` |
 | Why rename `Domain / Effect Reality` to `Domain Reality`? | `findings/02-node-coherence-and-rename.md` |
 | Why is Effect not a separate reality child? | `findings/03-effect-is-relation-not-child.md` |
-| Why promote State/Configuration and Dynamics/Processes? | `findings/04-state-configuration-vs-dynamics-processes.md` |
+| Why were State/Configuration and Dynamics/Processes originally promoted? | `findings/04-state-configuration-vs-dynamics-processes.md` |
 | How does Domain Reality avoid swallowing Information/Actors/Work? | `findings/05-cross-ground-and-institutional-boundary.md` |
 | Did materially different domains require another Domain Reality child? | `findings/06-cross-domain-holdouts.md` |
-| Which Domain Reality rival decompositions were tested? | `findings/07-rival-decomposition-and-child-result.md` |
-| What is the original Domain Reality problem map? | `findings/08-domain-reality-problem-map.md` |
+| Which original rival decompositions were tested? | `findings/07-rival-decomposition-and-child-result.md` |
+| What was the original Domain Reality problem map? | `findings/08-domain-reality-problem-map.md` |
 
-## Current hierarchy after Domain State deepening
+## Current hierarchy after both sibling passes
 
 ```text
 Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure / Composition        ← discovered; inactive
     │    └─ Domain Condition / Status             ← discovered; inactive
-    └─ Domain Dynamics / Processes                ← inactive
+    └─ Domain Dynamics                            ← bounded leaf; awaiting user evaluation
 ```
 
-Interpretation:
-- Domain Reality remains the parent result;
-- the former child label `Domain State / Configuration` is refined to `Domain State`;
-- Structure protects actual constituent/composition/topology questions;
-- Condition protects actual current property/health/status/standing questions;
-- Identity, Constraints and Granularity remain cross-cutting at this level;
-- child discovery does not authorize further descent.
+Current corrections:
+- `Domain State / Configuration` → `Domain State`;
+- State children = Structure/Composition + Condition/Status;
+- `Domain Dynamics / Processes` → `Domain Dynamics`;
+- no universal Dynamics child currently justified.
 
-## User evaluation
+## User-evaluation state
 
-The user reviewed the Domain State result on 2026-09-03 and accepted it as reasonable enough for hierarchical continuation. This does not select or activate Structure, Condition, Dynamics or another node.
+- Domain State: user-evaluated and accepted for hierarchical continuation.
+- Domain Dynamics: boundedly sufficient, **awaiting user evaluation**.
+
+No substantive node is active.
 
 ## Guardrail
 
-No substantive node is active. Current authorised work is next-node selection/planning with the user; research activation remains separate.
+Do not treat closure of Dynamics as authorization for Structure, Condition, Work Conditions or another ground. User evaluation precedes the next transition decision.
