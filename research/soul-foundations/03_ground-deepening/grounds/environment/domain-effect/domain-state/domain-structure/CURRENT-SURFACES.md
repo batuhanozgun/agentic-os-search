@@ -34,7 +34,7 @@ Findings tree: `038e39a0033ede87a34dd09b56cdb210f2fa7dc4`.
 |---|---|---|
 | Integrated synthesis | `synthesis/DOMAIN-STRUCTURE-SYNTHESIS.md` | `a222a028119edbd9c90b18a6449ba2929c526596` |
 | Completion / omission audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | `0105b90ccd7290c4398eb44c02b699df1483e27f` |
-| Source / view ledger | `evidence/SOURCE-LEDGER.md` | `375b79264e9ce81297c48e7234` |
+| Source / view ledger | `evidence/SOURCE-LEDGER.md` | `375b79264e9ce81297fd35630c9bae97c48e7234` |
 
 Synthesis tree: `917e03cb418a4aed3cb42daa057ff0f6c421b700`  
 Evidence tree: `778d3092c31159eeb1e856c82883695a9b8e7406`
