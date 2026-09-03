@@ -1,6 +1,6 @@
 # Domain State — FINDINGS MAP
 
-**Status:** bounded current immediate-child result; awaiting user evaluation
+**Status:** bounded current immediate-child result; user-evaluated for hierarchical continuation
 
 > **Pass-artifact provenance:** Focused findings, the executed research plan, source ledger and completion audit preserve pass-time candidate/provisional language where useful for research reconstruction. Current hierarchy, authorization and epistemic status come from `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`; pass-time `active`, `candidate` or `provisional` metadata is not current authorization.
 
@@ -44,6 +44,10 @@ Key interpretation:
 - actual-versus-represented State remains a boundary to Information/composition;
 - no third universal immediate child is currently required.
 
+## User evaluation
+
+The user reviewed and accepted this bounded result on 2026-09-03 as reasonable enough for continued hierarchical research. This evaluation does not select or activate Structure, Condition or any sibling node.
+
 ## Key non-collapse rules
 
 ```text
@@ -61,4 +65,4 @@ current State ≠ causal explanation
 
 ## Guardrail
 
-This package does not authorize substantive research of `Domain Structure / Composition`, `Domain Condition / Status`, `Domain Dynamics / Processes`, Work Conditions or another top-level ground.
+No substantive node is currently active. Next authorised work is selection/planning of one next research node with the user; research activation remains separate.
