@@ -1,6 +1,6 @@
 # Ground Deepening — CURRENT SURFACES
 
-**Status:** canonical freshness binding after Domain Dynamics selection/planning; substantive Dynamics research not active  
+**Status:** canonical freshness binding after bounded Domain Dynamics closure; awaiting Dynamics user evaluation  
 **Date:** 2026-09-03  
 **Branch:** `main`
 
@@ -9,21 +9,21 @@
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Stable purpose | `README.md` | `5380af8bf81ffe9860c71f597c84b245189b89f1` |
-| Stage state / authorization | `STATE.md` | `c011b2a5046aede306d1d40d40b40bf48389f850` |
+| Stage state / authorization | `STATE.md` | `e2dfbaee22ff07fcd15dffdb7d04f16336abc664` |
 | Original accepted deepening plan | `PLAN.md` | `dfe00d2ca4d43758c476f640332751c3af013725` |
 | Recursive hierarchical method | `HIERARCHICAL-DEEPENING-METHOD.md` | `4d964c09a70ebe5f114d597f5413b41193ce650b` |
-| Stage router | `INDEX.md` | `1163141e3cd2dcd0f9a3b789c73cdb8b9f3d548a` |
+| Stage router | `INDEX.md` | `4020faa94a9c1e5e0080d4c00172819282cb641f` |
 
 ## Current Environment package
 
 | Ground / node | Status | Freshness surface |
 |---|---|---|
-| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `7ee6fb28d468bb665c0f5dde084e77509d12060e` |
-| Domain Reality | boundedly sufficient; Dynamics selected/planned inside it | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `3c8b74691b87fcf1076c380b67c307be5598168d` |
-| Domain State | boundedly sufficient; user-evaluated for hierarchical continuation | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `ab2ce814f62ecdcfa2f4119a2c8cd11243b8e6e9` |
+| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `83b0d507618da1788dab72450a2320345bd0aa97` |
+| Domain Reality | boundedly sufficient; State/Dynamics child results integrated | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `adf8eb6ecebbd90a88882487f38ff4809bd5f08a` |
+| Domain State | boundedly sufficient; user-evaluated | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `ab2ce814f62ecdcfa2f4119a2c8cd11243b8e6e9` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
-| Domain Dynamics / Processes | selected/planned; substantive research not active | plan `grounds/environment/domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md` @ `3c46fd5e4dd053ae4a57cd4caf473131a3183d15` |
+| Domain Dynamics | bounded leaf; awaiting user evaluation | `grounds/environment/domain-effect/domain-dynamics/CURRENT-SURFACES.md` @ `a647b7a2c76c1285a22014baea2322604cb863e1` |
 | Work Conditions / Enabling–Constraining Environment | inactive | no current child package |
 | Information / Representation | inactive | no package created |
 | Work | inactive | no `03` package created |
@@ -31,7 +31,7 @@
 
 ## Current status
 
-> **No substantive node is active. Domain Dynamics / Processes is the selected next node and its research plan is complete. The next task is user review / explicit authorization of the substantive Dynamics pass.**
+> **No substantive node is active. Domain Dynamics is boundedly sufficient for its immediate-child purpose and awaits user evaluation. No next node is selected or authorised by this closure.**
 
 Current tree:
 
@@ -41,30 +41,42 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition
     │    │    └─ Domain Condition / Status
-    │    └─ Domain Dynamics / Processes           ← selected/planned; not active
+    │    └─ Domain Dynamics                         ← bounded leaf; awaiting user evaluation
     └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
 
-Discovered children are not automatically authorised. A selected/planned node is not an active substantive pass until the explicit phase transition.
+Current refinements:
+- `Domain / Effect Reality` → `Domain Reality`;
+- `Domain State / Configuration` → `Domain State`;
+- State children = Structure/Composition + Condition/Status;
+- `Domain Dynamics / Processes` → `Domain Dynamics`;
+- no universal immediate Dynamics child currently justified.
 
 ## Pass-artifact provenance
 
 Plans, focused findings, source ledgers and completion audits may preserve pass-time labels/status for research reconstruction. Current hierarchy and authorization are carried by the current `STATE`/`KEY`/router/manifest chain; preserved pass-time `active`, `candidate`, `provisional` or superseded labels do not reactivate work.
 
-The Domain Reality and Domain State source ledgers also bind exact pre-pass parent `CURRENT-SURFACES.md` blobs. Therefore:
-- current relative paths serve present-day navigation;
-- content-addressed pass-input snapshots serve historical reconstruction;
-- later parent edits cannot silently become evidence that was not available to the earlier pass.
+Domain Dynamics preserves exact pre-pass Domain Reality manifest blob:
+- `3c8b74691b87fcf1076c380b67c307be5598168d`.
+
+Therefore later parent edits cannot silently become evidence available to the earlier Dynamics pass.
 
 ## Preferred retrieval
 
-Planning/current state:
-`STATE → HIERARCHICAL-DEEPENING-METHOD → Environment STATE/KEY → Domain Reality STATE/KEY/INDEX → DOMAIN-DYNAMICS-RESEARCH-PLAN → Domain State sibling state/key as required`
+`STATE → HIERARCHICAL-DEEPENING-METHOD → Environment STATE/KEY → Domain Reality STATE/KEY → Domain Dynamics STATE/KEY → synthesis/audit/source recovery`
 
-Historical or prior-result recovery:
-use the exact pass-input snapshot anchors recorded in the relevant source ledgers.
+For State-specific issues:
+`Domain Reality → domain-state/STATE/KEY → State synthesis/audit/source recovery`
+
+## Verification status
+
+Dynamics completion audit is same-model adversarial review, not independent verification. Repository freshness/provenance checks do not convert it into independent validation.
+
+## Authorization state
+
+Current authorised work is user evaluation of Domain Dynamics only. No substantive node is active.
 
 ## Update rule
 
-If any bound stage surface changes materially, re-fetch and refresh this manifest, recheck parent/Environment/node surfaces, and never let planning, node closure, child discovery or user evaluation silently authorize substantive research.
+If Dynamics is user-evaluated or any bound surface changes materially, re-fetch and refresh this manifest and higher current state/router surfaces. Never let node closure or evaluation silently authorize the next research node.
