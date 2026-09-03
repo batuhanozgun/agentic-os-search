@@ -1,6 +1,6 @@
 # Environment / Operating Reality — CURRENT SURFACES
 
-**Status:** canonical local freshness binding after bounded Work Conditions closure; awaiting Work Conditions user evaluation
+**Status:** canonical local freshness binding after Work Conditions user evaluation
 **Date:** 2026-09-03
 **Branch:** `main`
 
@@ -9,13 +9,13 @@
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Stable purpose | `README.md` | `560b0de672f9620f4fa5fbabf915272a675cf61d` |
-| Ground state | `STATE.md` | `4e144b7a641d8c381ffd16f8ab3075ed1751fa2e` |
-| Ground router | `INDEX.md` | `0cd83c410a12c678d650fd8202632f5aef64b903` |
-| L0 current Environment key | `KEY.md` | `95e20b960db2a294c0b6283dbb04dfabecf1b0ce` |
-| L1 current findings map | `FINDINGS-MAP.md` | `fa1dfadd238f14b01e9a911ce84f3b1cd8bf97b4` |
+| Ground state | `STATE.md` | `ac39c1a7e3819861be5d6bcadd0767bc1ff4cbd3` |
+| Ground router | `INDEX.md` | `f95b034c242f7e9ec44c29815ac4f108d7e4d9ec` |
+| L0 current Environment key | `KEY.md` | `a6c6192cc5b2ba03b90788880a48a8db3c9d9b10` |
+| L1 current findings map | `FINDINGS-MAP.md` | `1663b27201c4396dfc68c6942b8988b48d1d98e1` |
 | Executed Domain/Effect research plan | `DOMAIN-EFFECT-RESEARCH-PLAN.md` | `d10e5ef6d7ce9ff8a08084cc757c3b511f6e4603` |
 | Executed Work Conditions research plan | `WORK-CONDITIONS-RESEARCH-PLAN.md` | `c1c7076d41526dde89d0ce0dbeb9b30be9070f17` |
-| Current residuals | `OPEN-QUESTIONS.md` | `9e8e4d28a4e3615f8dfe2e16e6fc452f6adf0b46` |
+| Current residuals | `OPEN-QUESTIONS.md` | `38453a3c341bc269fa4a861ca5941ebc7ab3e79c` |
 | Parent deferred relations | `DEFERRED-RELATIONS.md` | `57e69d2d2607e0028478aaec662a6244f67d0a42` |
 
 ## Current branch results
@@ -27,7 +27,7 @@
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
 | Domain Dynamics | bounded leaf; user-evaluated | `domain-effect/domain-dynamics/CURRENT-SURFACES.md` @ `cd4c1dbbd23ac73227ed3765df3c514a54b707ef` |
-| Work Conditions | bounded leaf; awaiting user evaluation | `work-conditions/CURRENT-SURFACES.md` @ `7e74b6dc47fbb20b6b98bd9fffa347884c10e4c4` |
+| Work Conditions | bounded leaf; user-evaluated | `work-conditions/CURRENT-SURFACES.md` @ `dc71e5477d41b8c3ce65af8cb3969e7458ce0deb` |
 | Technical Work Environment | deep prior technical specialization/profile | routed through Work Conditions + `01_verticals/work-environment/` |
 
 ## Current tree
@@ -39,7 +39,7 @@ Environment / Operating Reality
     │    │    ├─ Domain Structure / Composition
     │    │    └─ Domain Condition / Status
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← bounded leaf; awaiting user evaluation
+    └─ Work Conditions                            ← bounded leaf; user-evaluated
          ↳ Technical Work Environment             ← deep technical specialization/profile
 ```
 
@@ -62,11 +62,11 @@ That content-addressed snapshot is preserved in the Work Conditions source ledge
 
 ## Authorization rule
 
-No substantive Environment node is active. Current allowed work is user evaluation of Work Conditions. Structure, Condition and other grounds remain inactive until separately transitioned/authorised.
+No substantive Environment node is active. Current allowed work is selection/planning of one next research node with the user. Structure, Condition and other grounds remain inactive until separately transitioned/authorised.
 
 ## Verification status
 
-Work Conditions completion audit is same-model adversarial review, not independent verification. Repository freshness/provenance checks do not convert it into independent validation.
+Work Conditions completion audit is same-model adversarial review, not independent verification. Repository freshness/provenance checks and user evaluation do not convert it into independent validation.
 
 ## Retrieval rule
 
@@ -84,4 +84,4 @@ use exact pass-input snapshot anchors preserved in child source ledgers rather t
 
 ## Update rule
 
-After Work Conditions user evaluation or other material Environment edits, refresh this manifest and the stage manifest. Never let closure or user evaluation silently activate another node.
+After any material Environment edit, refresh this manifest and the stage manifest. Never let closure or user evaluation silently activate another node.
