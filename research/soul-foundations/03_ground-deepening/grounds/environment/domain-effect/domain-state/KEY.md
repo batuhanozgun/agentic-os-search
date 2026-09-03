@@ -1,7 +1,7 @@
 # Domain State — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION  
-**Date:** 2026-09-02  
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED AS REASONABLE ENOUGH FOR HIERARCHICAL CONTINUATION  
+**Date:** 2026-09-03  
 **Parent:** Domain Reality
 
 ## Shortest result
@@ -86,6 +86,10 @@ current condition ≠ causal explanation
 
 Some institutional/social states may be constituted through rules/collective practices. The required distinction is from any **particular representation**, not metaphysical independence from all representation.
 
+## User evaluation
+
+The user reviewed the result on 2026-09-03 and found the Structure/Composition versus Condition/Status distinction reasonable with no blocking problem. The result is accepted for hierarchical continuation, while all children/siblings remain inactive until separately selected and authorised.
+
 ## Verification limit
 
 The completion audit is same-model adversarial review, not independent verification. External traditions support discriminating claims but do not independently validate this exact two-child hierarchy.
@@ -99,4 +103,4 @@ The completion audit is same-model adversarial review, not independent verificat
 - residuals → `OPEN-QUESTIONS.md`
 - deferred relations → `DEFERRED-RELATIONS.md`
 
-Do not activate Structure, Condition or the Domain Dynamics sibling from this file. Parent/stage authorization controls next work.
+No substantive next node is active. Parent/stage authorization controls next-node selection.
