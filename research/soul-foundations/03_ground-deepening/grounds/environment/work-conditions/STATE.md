@@ -1,58 +1,136 @@
 # Work Conditions — STATE
 
-**Status:** ACTIVE SUBSTANTIVE RESEARCH
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION
 **Activated:** 2026-09-03
+**Bounded node closure:** 2026-09-03
 **Parent:** Environment / Operating Reality
 **Sibling:** Domain Reality — boundedly sufficient; Domain State and Domain Dynamics user-evaluated
 **Other top-level grounds:** inactive
-**Current authorised activity:** execute the single-node Work Conditions pass to bounded closure / user-evaluation boundary
+**Current authorised activity:** none inside this node; return bounded result to user evaluation before another node is selected or activated
 
-## Research question
+## Question answered
 
 What realized circumstances materially shape whether and how focal Work can be performed, and does `Work Conditions / Enabling–Constraining Environment` form a coherent first-order Environment branch with stable immediate children, or is a stronger rename/reduction/decomposition needed?
 
-## Governing plan
+## Material node correction
 
-`../WORK-CONDITIONS-RESEARCH-PLAN.md`
+The inherited paired label is simplified from:
 
-The framing rivals and falsifiers were frozen before external search.
+```text
+Work Conditions / Enabling–Constraining Environment
+```
 
-## One-active-node rule
+to:
 
-`Work Conditions` is the only substantive hierarchical node active.
+```text
+Work Conditions
+```
 
-Inactive:
-- Domain Structure / Composition;
-- Domain Condition / Status;
-- Domain Dynamics;
-- Information / Representation State;
-- Work;
-- Actors;
-- cross-ground composition / architecture / implementation.
+The longer phrase remains explanatory wording rather than the preferred node label.
 
-## Pre-pass provenance anchor
+## Bounded node meaning
 
-Exact Environment snapshot at activation:
-- Environment `CURRENT-SURFACES.md` blob SHA: `0bd03a434fdba0baed0821a7d73e2e7e4643b541`.
+> Work Conditions are the realized circumstances materially load-bearing for whether and how focal Work can be performed at the selected scope and time.
 
-This is the pass-input parent state. Later Environment edits must not be substituted for this historical input.
+Material effects can concern:
+- start / continuation / blockage;
+- usable or permissible method;
+- safety / exposure;
+- pace / waiting / throughput;
+- reliability / recovery;
+- resource sufficiency;
+- achievable quality or precision.
 
-## Current progress
+## Immediate-child result
 
-- W0 canonical recovery: ACTIVE / being completed.
-- W1 node coherence attack: not yet concluded.
-- W2 problem inventory: not yet concluded.
-- W3 immediate-child discovery: not yet concluded.
-- W4 boundary tests: not yet concluded.
-- W5 external falsification: not yet concluded.
-- W6 holdouts: not yet concluded.
-- W7 omission/reduction audit: not yet concluded.
-- W8 closure: not reached.
+```text
+Work Conditions     ← bounded leaf at current universal foundation-research depth
+```
 
-## Verification status
+No universal immediate child currently survives the child-promotion test strongly enough for recursive promotion.
 
-No substantive Work Conditions decomposition is yet verified. Same-model completion review later in the pass must remain labeled non-independent.
+Candidate splits not promoted:
+- enablers versus constraints;
+- resources/capacity versus access/interfaces versus hazards;
+- technical versus physical versus social/organizational versus institutional/logistical;
+- prerequisites/readiness versus ongoing conditions;
+- support systems versus ambient conditions;
+- availability/readiness/sufficiency as separate branches.
 
-## Return condition
+They behave primarily as dimensions, condition roles, relations, current-state distinctions or specialization profiles.
 
-Work until the node is boundedly sufficient for its immediate-child purpose or a material blocker/falsifier requires returning earlier. At closure return to the user before activating any discovered child, sibling or other ground.
+## Explicit internal problem regions — not children
+
+- required support/resources/services/capabilities;
+- access/interfaces/usable coupling;
+- current availability/readiness/sufficiency/capacity;
+- constraints/hazards/interference;
+- dependencies/shared support/contention/failure propagation;
+- temporal validity/windows/continuity;
+- situational fit/actionability boundary;
+- reference/boundary/role switching.
+
+## Technical Work Environment placement
+
+The prior Technical Work Environment corpus remains valid and valuable.
+
+Current interpretation:
+
+> **Technical Work Environment is a deep technical specialization/profile of Work Conditions, not a demonstrated universal immediate child.**
+
+Nontechnical Work can have material Work Conditions without a meaningful Technical Work Environment. The previous technical findings are retained; only their broader hierarchical interpretation is refined.
+
+## Strong boundaries
+
+```text
+Work Conditions ≠ a second kind of reality
+Work Conditions ≠ all ambient context
+Work Conditions ≠ Work internal lifecycle/state
+Work Conditions ≠ Actor capability/authority
+Work Conditions ≠ observation/report/policy text
+resource exists ≠ accessible ≠ available ≠ sufficient
+Work Condition ≠ full actionability
+```
+
+Same concrete fact/system may be Domain Reality for one focal Work and Work Condition for another; role does not determine identity.
+
+## Evidence / verification status
+
+The pass used:
+- frozen falsifiers before external search;
+- canonical Environment and TWE evidence;
+- human factors / ergonomics;
+- occupational work-context and job-quality traditions;
+- job demands–resources counterframes;
+- occupational-safety hazard traditions;
+- systems-engineering support/physical-environment counterframes;
+- affordance/actionability literature;
+- software, maintenance, clinical, scientific, logistical, legal/institutional, emergency, automated and nontechnical holdouts.
+
+The completion/omission audit is **same-model adversarial self-review, not independent verification**. External sources discriminate candidate splits but do not independently validate this exact project leaf result.
+
+## Preferred retrieval
+
+`KEY.md → FINDINGS-MAP.md → synthesis/WORK-CONDITIONS-SYNTHESIS.md → relevant finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md`
+
+Residuals:
+- `OPEN-QUESTIONS.md`
+- `DEFERRED-RELATIONS.md`
+
+Exact freshness:
+- `CURRENT-SURFACES.md` once closure manifest is bound.
+
+## Reopen condition
+
+Reopen Work Conditions if:
+- a materially different domain exposes a recurrent first-order problem outside the current map;
+- one candidate split repeatedly requires independent recursive research across different domains;
+- later Work/Actors/Information research exposes boundary leakage;
+- Technical Work Environment or another specialization proves to require a stable universal parent split;
+- independent review offers a materially stronger decomposition.
+
+## Next authorised work
+
+**USER EVALUATION OF THIS BOUNDED RESULT ONLY.**
+
+No substantive node is active after closure. Do not automatically activate Domain Structure, Domain Condition, Information, Work, Actors, another Work-Conditions branch, systematic relation/control composition, architecture, ontology/data-model work or implementation.
