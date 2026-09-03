@@ -1,9 +1,9 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; independent discovery and adequacy layers are closed; Environment parent and Domain Reality are user-evaluated for hierarchical continuation; Domain State is boundedly sufficient and awaiting user evaluation  
+**Status:** active research library; independent discovery and adequacy layers are closed; Environment parent, Domain Reality and Domain State are user-evaluated for hierarchical continuation  
 **Repository cleanup/currentness verification:** deep verification completed on 2026-09-03; nested retrieval paths, executed-pass metadata, pass-artifact provenance, exact pre-pass parent snapshots and the bottom-up manifest chain were checked/repaired and synchronized without changing the research conclusions  
-**Current authorised substantive activity:** USER EVALUATION OF THE DOMAIN STATE RESULT ONLY  
-**Current return condition:** user evaluates Domain State before any child/sibling/other ground is activated
+**Current authorised substantive activity:** NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE  
+**Current return condition:** select and plan one next research node with the user before any child/sibling/other ground is activated
 
 ## Dependency state
 
@@ -12,7 +12,7 @@
 - `03_ground-deepening/`:
   - **Environment / Operating Reality parent:** BOUNDEDLY SUFFICIENT; USER-EVALUATED AS REASONABLE ENOUGH FOR HIERARCHICAL CONTINUATION.
   - **Environment → Domain Reality:** BOUNDEDLY SUFFICIENT; USER-AUTHORISED FOR HIERARCHICAL CONTINUATION.
-    - **Domain State:** BOUNDEDLY SUFFICIENT FOR IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION.
+    - **Domain State:** BOUNDEDLY SUFFICIENT FOR IMMEDIATE-CHILD PURPOSE; USER-EVALUATED AS REASONABLE ENOUGH FOR HIERARCHICAL CONTINUATION.
       - Domain Structure / Composition: discovered child; NOT ACTIVE.
       - Domain Condition / Status: discovered child; NOT ACTIVE.
     - Domain Dynamics / Processes: NOT ACTIVE.
@@ -40,7 +40,7 @@ This remains a research-routing hypothesis, not architecture, ontology, schema o
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
-    │    ├─ Domain State                           ← bounded result; awaiting user evaluation
+    │    ├─ Domain State                           ← bounded result; user-evaluated for continuation
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
     │    │
@@ -66,6 +66,12 @@ These are research problem branches, not object/schema classes.
 
 No third universal immediate child is currently required. Identity/Continuity, Constraints/Invariants, Granularity/State Sufficiency, scope/time, and actual-versus-represented State remain explicit cross-cutting dimensions/boundaries.
 
+## User evaluation
+
+The user reviewed the Domain State result on 2026-09-03 and found no blocking problem with the Structure/Composition versus Condition/Status distinction. Treat Domain State as accepted for continued hierarchical research, subject to its reopen conditions.
+
+This does not select or activate the next node.
+
 ## Strong State distinctions
 
 ```text
@@ -83,11 +89,11 @@ Some institutional/social State can be constituted through collective rules/prac
 
 ## Hierarchical deepening rule
 
-- at most one substantive hierarchical node is active at a time; zero may be active between passes or during user evaluation;
-- Domain State pass is closed;
+- at most one substantive hierarchical node is active at a time; zero may be active between passes or during next-node selection/planning;
+- Domain State pass is closed and user-evaluated;
 - discovered Structure/Condition children are inactive;
 - Domain Dynamics, Work Conditions and other top-level grounds remain inactive;
-- user evaluation is required before any next node is activated.
+- next-node selection/planning is required before any new research activation.
 
 ## Current retrieval
 
@@ -125,6 +131,6 @@ Repository currentness verification checks routing/freshness/provenance integrit
 
 ## Current authorization
 
-**USER EVALUATION OF THE DOMAIN STATE RESULT ONLY.**
+**NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE.**
 
 Do not automatically activate Domain Structure, Domain Condition, Domain Dynamics, Work Conditions, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
