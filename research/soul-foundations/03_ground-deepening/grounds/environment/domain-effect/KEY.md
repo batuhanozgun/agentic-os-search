@@ -1,7 +1,7 @@
 # Domain Reality — KEY
 
-**Status:** Domain Reality boundedly sufficient and user-authorised for continuation; Domain State child boundedly sufficient and awaiting user evaluation  
-**Date:** 2026-09-02  
+**Status:** Domain Reality boundedly sufficient and user-authorised for continuation; Domain State child user-evaluated for hierarchical continuation  
+**Date:** 2026-09-03  
 **Parent:** Environment / Operating Reality
 
 ## Shortest current result
@@ -71,6 +71,10 @@ after-state/change ≠ causal effect attribution
 current State ≠ causal explanation
 ```
 
+## User evaluation
+
+The user accepted the bounded Domain State result on 2026-09-03 as reasonable enough for continued hierarchical research. No child or sibling is selected or active yet.
+
 ## Verification limit
 
 Domain Reality and Domain State completion audits are same-model adversarial self-review, not independent verification. External traditions support discriminating claims but do not independently validate the exact project hierarchy.
@@ -87,4 +91,4 @@ Current Domain State result:
 - `domain-state/FINDINGS-MAP.md`
 - `domain-state/synthesis/DOMAIN-STATE-SYNTHESIS.md`
 
-Do not activate Structure, Condition, Dynamics or Work Conditions automatically. Current authorization is user evaluation of Domain State only.
+Current next work is selection/planning of one next research node with the user. Research activation remains separate.
