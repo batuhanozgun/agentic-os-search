@@ -1,11 +1,12 @@
 # Environment / Operating Reality — STATE
 
-**Status:** PARENT GROUND USER-EVALUATED; DOMAIN REALITY USER-AUTHORISED FOR CONTINUATION; DOMAIN STATE USER-EVALUATED FOR HIERARCHICAL CONTINUATION  
+**Status:** PARENT GROUND USER-EVALUATED; DOMAIN REALITY USER-AUTHORISED; DOMAIN STATE USER-EVALUATED; DOMAIN DYNAMICS SELECTED/PLANNED, SUBSTANTIVE RESEARCH NOT ACTIVE  
 **Authorised:** 2026-09-02  
 **Domain State user evaluation accepted:** 2026-09-03  
+**Domain Dynamics selected/planned:** 2026-09-03  
 **Scope:** Environment / Operating Reality ground only  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** selection/planning of the next single research node only; no substantive node active
+**Current authorised activity:** Dynamics plan review / explicit substantive-research activation decision only; no substantive node active
 
 ## Current Environment research hierarchy
 
@@ -15,7 +16,7 @@ Environment / Operating Reality
     │    ├─ Domain State                           ← bounded result; user-evaluated for continuation
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
-    │    └─ Domain Dynamics / Processes           ← inactive
+    │    └─ Domain Dynamics / Processes           ← selected/planned; not active
     │
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
@@ -48,11 +49,30 @@ Explicit cross-cutting dimensions:
 - causal explanation;
 - role switching.
 
-## User evaluation
+## Domain State user evaluation
 
 The user reviewed the Domain State result on 2026-09-03 and reported no blocking problem with the Structure/Composition versus Condition/Status distinction. Domain State is accepted for hierarchical continuation subject to existing reopen conditions.
 
-This evaluation does not select or activate the next node.
+This evaluation does not activate Structure or Condition.
+
+## Selected next node — Domain Dynamics / Processes
+
+On 2026-09-03 the user accepted `Domain Dynamics / Processes` as the next Environment research node and asked for its research plan to be built to the operational boundary.
+
+Plan:
+- `domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+
+Planning is complete, but substantive Dynamics research is **not active**. The plan pre-freezes:
+- node-coherence/split/rename rivals;
+- decision-critical framing questions;
+- falsifiers;
+- inherited-evidence recovery;
+- external falsification families;
+- cross-domain holdouts;
+- closure/stop criteria;
+- a readiness gate requiring explicit research activation after planning.
+
+No Dynamics child package exists yet.
 
 ## Strong distinctions
 
@@ -63,7 +83,8 @@ Domain State ≠ one formal/model state vector
 actual Structure ≠ architecture/baseline/inventory by identity
 actual Condition ≠ observation/measurement/report/cache by identity
 Domain Dynamics ≠ Work lifecycle
-current State ≠ causal explanation
+actual Domain dynamics ≠ event/process representation or log
+actual transition/change ≠ causal effect attribution
 ```
 
 ## Hierarchical rule
@@ -71,26 +92,29 @@ current State ≠ causal explanation
 - at most one active hierarchical node at a time;
 - Domain State pass is closed and user-evaluated;
 - discovered Structure/Condition children are inactive;
-- Domain Dynamics and Work Conditions remain inactive;
-- next-node selection/planning precedes any new research activation.
+- Domain Dynamics is selected/planned but inactive;
+- Work Conditions remains inactive;
+- explicit research activation is required before a new substantive pass begins.
 
 Method:
 - `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-## Current Domain State route
+## Current routes
 
+Domain State:
 `domain-effect/domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → relevant finding → completion/source recovery`
+
+Planned Domain Dynamics:
+`domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
 
 ## Verification status
 
-The node completion audit is same-model adversarial self-review, not independent verification. External source traditions support distinctions but do not independently validate the exact project hierarchy.
+The node completion audits are same-model adversarial self-review, not independent verification. The Dynamics plan is a pre-research control artifact and does not establish substantive Dynamics findings.
 
 ## Current return condition
 
-Select and plan one next research node with the user before substantive research begins.
+Return the completed Dynamics plan/state to the user and obtain explicit authorization before substantive Dynamics research begins.
 
 ## Next authorised work
 
-**NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE.**
-
-Do not activate Domain Structure, Domain Condition, Domain Dynamics, Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation automatically.
+**DYNAMICS PLAN REVIEW / EXPLICIT RESEARCH-ACTIVATION DECISION ONLY; NO SUBSTANTIVE NODE ACTIVE.**
