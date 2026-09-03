@@ -1,6 +1,6 @@
 # Environment / Operating Reality — KEY
 
-**Status:** Environment parent user-evaluated; Domain State user-evaluated; Domain Dynamics bounded / awaiting user evaluation; no substantive node active  
+**Status:** Environment parent, Domain State and Domain Dynamics user-evaluated; no substantive node active  
 **Date:** 2026-09-03  
 **Scope:** Environment research hierarchy only; not cross-ground composition or architecture
 
@@ -12,7 +12,7 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition   [discovered; inactive]
     │    │    └─ Domain Condition / Status        [discovered; inactive]
-    │    └─ Domain Dynamics                       [bounded leaf; awaiting user evaluation]
+    │    └─ Domain Dynamics                       [bounded leaf; user-evaluated]
     └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
@@ -47,14 +47,11 @@ Domain State is user-evaluated for hierarchical continuation.
 
 `Domain Dynamics / Processes` → **Domain Dynamics**.
 
-Question:
-
-> What actually unfolds, persists, interacts or changes through time in materially relevant Domain Reality?
-
 Current result:
 - Dynamics remains necessary and distinct from a State snapshot;
-- **no universal immediate child is currently justified**;
-- Domain Dynamics is a **bounded leaf** at current foundation depth.
+- no universal immediate child is currently justified;
+- Domain Dynamics is a bounded leaf at current foundation depth;
+- user evaluation accepted on 2026-09-03.
 
 Explicit but non-child problem regions:
 - occurrence / interaction;
@@ -99,7 +96,5 @@ Domain State:
 Domain Dynamics:
 - `domain-effect/domain-dynamics/STATE.md`
 - `domain-effect/domain-dynamics/KEY.md`
-- `domain-effect/domain-dynamics/FINDINGS-MAP.md`
-- `domain-effect/domain-dynamics/synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md`
 
-Current next work is user evaluation of Domain Dynamics. No next node is automatically authorised.
+Current next work is selection/planning of one next research node with the user. No next node is automatically authorised.
