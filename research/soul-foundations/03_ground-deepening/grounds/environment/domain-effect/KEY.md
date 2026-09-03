@@ -1,6 +1,6 @@
 # Domain Reality — KEY
 
-**Status:** Domain Reality boundedly sufficient; Domain State and Domain Dynamics user-evaluated for hierarchical continuation  
+**Status:** Domain Reality boundedly sufficient; Domain State and Domain Dynamics user-evaluated; Domain Structure selected/planned next  
 **Date:** 2026-09-03  
 **Parent:** Environment / Operating Reality
 
@@ -9,8 +9,8 @@
 ```text
 Domain Reality
     ├─ Domain State
-    │    ├─ Domain Structure / Composition        [discovered; inactive]
-    │    └─ Domain Condition / Status             [discovered; inactive]
+    │    ├─ Domain Structure / Composition        [selected/planned next; research not active]
+    │    └─ Domain Condition / Status             [discovered; intended after Structure evaluation]
     └─ Domain Dynamics                            [bounded leaf; user-evaluated]
 ```
 
@@ -32,26 +32,29 @@ Immediate children:
 
 Domain State is user-evaluated for hierarchical continuation.
 
+Current agreed sequence:
+
+```text
+Structure research → user evaluation
+→ Condition research → user evaluation
+→ Environment completion review
+→ then decide whether Information should begin
+```
+
+Structure is selected and planned in:
+- `domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md`.
+
+No substantive Structure research is active yet.
+
 ## Domain Dynamics deeper result
 
 `Domain Dynamics / Processes` → **Domain Dynamics**.
 
-Question:
-
-> What actually unfolds, persists, interacts or changes through time in the materially relevant Domain Reality at the selected boundary, scope and temporal resolution?
-
 Current result:
 - Dynamics is necessary and cannot be reduced to a State snapshot;
-- **no universal immediate child is currently justified**;
-- Domain Dynamics is a **bounded leaf** at current foundation-research depth;
-- the user evaluated the result on 2026-09-03 and found it reasonable for hierarchical continuation.
-
-Explicit but non-child problem regions:
-- realized occurrence / interaction;
-- realized change / transition / trajectory;
-- temporal dependence / memory;
-- dynamic pattern / regime;
-- multi-scale / nested Dynamics.
+- no universal immediate child is currently justified;
+- Domain Dynamics is a bounded leaf at current foundation-research depth;
+- user evaluation accepted on 2026-09-03.
 
 ## Strong non-collapse rules
 
@@ -70,13 +73,12 @@ actual transition/change ≠ causal attribution
 
 ## Verification limit
 
-Domain State and Dynamics completion audits are same-model adversarial reviews, not independent verification. External traditions and holdouts support discriminating boundaries but do not independently validate the exact hierarchy.
+Domain State and Dynamics completion audits are same-model adversarial reviews, not independent verification. External traditions and holdouts support discriminating boundaries but do not independently validate the exact hierarchy. Sequencing does not alter research verification status.
 
 ## Go deeper
 
-Domain Reality original result:
-- `FINDINGS-MAP.md`
-- `synthesis/DOMAIN-REALITY-SYNTHESIS.md`
+Selected Structure plan:
+- `domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md`
 
 Current State result:
 - `domain-state/STATE.md`
@@ -85,7 +87,7 @@ Current State result:
 Current Dynamics result:
 - `domain-dynamics/STATE.md`
 - `domain-dynamics/KEY.md`
-- `domain-dynamics/FINDINGS-MAP.md`
-- `domain-dynamics/synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md`
 
-No substantive node is active. Current next work is selection/planning of one next research node with the user.
+## Authorization
+
+**Domain Structure is selected and planned; no substantive node is active.**
