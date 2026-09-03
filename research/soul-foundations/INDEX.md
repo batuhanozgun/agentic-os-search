@@ -18,9 +18,10 @@ For current status/authorization read `STATE.md` first. This router does not ind
 | Environment parent result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / parent synthesis |
 | Domain Reality result | `03_ground-deepening/grounds/environment/domain-effect/STATE.md` | KEY / synthesis |
 | Current Domain State result | `03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md` | KEY / FINDINGS-MAP / synthesis |
+| Selected Domain Dynamics plan | `03_ground-deepening/grounds/environment/domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md` | Domain Reality / Domain State recovery specified by plan |
 | Domain State source recovery | `03_ground-deepening/grounds/environment/domain-effect/domain-state/evidence/SOURCE-LEDGER.md` | primary source |
 | Historical operating-world evidence | `history/superseded/operating-world-environment/ARCHIVE-NOTICE.md` | archived corpus |
-| What is authorised now? | `STATE.md` | select/plan one next research node; no substantive node active |
+| What is authorised now? | `STATE.md` | Dynamics plan review / explicit research-activation decision; no substantive node active |
 
 ## Research-layer meaning
 
@@ -39,17 +40,17 @@ Actors
 ```
 
 ### `03_ground-deepening/`
-Recursively deepens one research node at a time. A node pass identifies only immediate children; child discovery does not authorize child research.
+Recursively deepens one research node at a time. A node pass identifies only immediate children; child discovery does not authorize child research, and planning does not itself activate a substantive pass.
 
 ## Current Environment research tree
 
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
-    │    ├─ Domain State                          ← user-evaluated for continuation
+    │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
-    │    └─ Domain Dynamics / Processes           ← inactive
+    │    └─ Domain Dynamics / Processes           ← selected/planned; not active
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
@@ -58,11 +59,19 @@ Current corrections carried by deeper research:
 - `Domain / Effect Reality` → `Domain Reality`;
 - `Domain State / Configuration` → `Domain State`;
 - Domain State immediate children → Structure/Composition + Condition/Status;
-- Domain State user evaluation accepted on 2026-09-03.
+- Domain State user evaluation accepted on 2026-09-03;
+- Domain Dynamics selected as the next node and planned on 2026-09-03, without substantive activation.
+
+## Selected Domain Dynamics planning state
+
+Canonical plan:
+`03_ground-deepening/grounds/environment/domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+
+The plan freezes framing rivals, falsifiers, evidence recovery, external falsification, holdouts and closure conditions before research. It explicitly requires a separate user authorization before the Dynamics pass becomes active.
 
 ## One-active-node rule
 
-No substantive node is currently active. Structure, Condition, Dynamics, Work Conditions, Information, Work and Actors all require explicit future authorization.
+No substantive node is currently active. Dynamics is selected/planned but inactive. Structure, Condition, Work Conditions, Information, Work and Actors all require explicit future authorization.
 
 ## Active versus historical rule
 
@@ -70,6 +79,6 @@ No substantive node is currently active. Structure, Condition, Dynamics, Work Co
 
 ## Guardrail
 
-Current authorised work is **selection/planning of one next research node with the user**.
+Current authorised work is **Dynamics plan review / explicit research-activation decision only**.
 
-Do not infer authorization for deeper child research, Domain Dynamics, Work Conditions, Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
+Do not infer authorization for Domain Dynamics substantive research, Structure, Condition, Work Conditions, Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
