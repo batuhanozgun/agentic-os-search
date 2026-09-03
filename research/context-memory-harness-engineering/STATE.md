@@ -23,7 +23,7 @@ All substantive research files above are complete for the current bounded questi
 
 ---
 
-## 2. Accepted research result — not architecture
+## 2. Current bounded research result — not architecture
 
 Current bounded synthesis:
 
