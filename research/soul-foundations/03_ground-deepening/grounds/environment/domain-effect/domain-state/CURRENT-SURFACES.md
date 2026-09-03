@@ -1,6 +1,6 @@
 # Domain State — CURRENT SURFACES
 
-**Status:** canonical freshness binding for bounded Domain State immediate-child result after deep repository verification  
+**Status:** canonical freshness binding for bounded, user-evaluated Domain State immediate-child result  
 **Date:** 2026-09-03  
 **Branch:** `main`
 
@@ -8,10 +8,10 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `fee73cdc8a768b4a9e9fc6bfb879676b876dac1f` |
-| Router | `INDEX.md` | `86d9a6ac7a7c44282566c7b480871e96a3c1a38d` |
-| L0 key | `KEY.md` | `e51f022dceba988eb7d96246dc89b8f0f0c7a95c` |
-| L1 findings map | `FINDINGS-MAP.md` | `95ec65a65f6375e62cdf984bf013a9b0a1e7bdad` |
+| Node state | `STATE.md` | `968b746d3cfe97726abb1a1d9342b6415b70350e` |
+| Router | `INDEX.md` | `361c61012a39b0ad365606c3d8b1d45a10780540` |
+| L0 key | `KEY.md` | `26d5b1670bf1ce949e076f5cce0a4866a82d652b` |
+| L1 findings map | `FINDINGS-MAP.md` | `29d01710810399ce81b79051b1fb0840da13acf4` |
 | Executed research plan | `../DOMAIN-STATE-RESEARCH-PLAN.md` | `8f5cabdd360fee61cd31a230018591673c348f24` |
 | Residual questions | `OPEN-QUESTIONS.md` | `554a54fb344348b1bfb32502cd165f754c14235f` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `6b331ef678a46fb9aaeb20a0d9cab68073d4143e` |
@@ -57,9 +57,11 @@ Domain State
 
 `Domain State / Configuration` is refined to `Domain State`. Identity/Continuity, Constraints/Invariants, Granularity/State Sufficiency, actual-versus-represented State and related dimensions remain explicit cross-cutting/boundary questions rather than co-equal children at this level.
 
-## Authorization rule
+## User evaluation / authorization rule
 
-The node is closed for bounded immediate-child research and awaits user evaluation. `Domain Structure / Composition`, `Domain Condition / Status`, Domain Dynamics, Work Conditions and other grounds are inactive.
+The node is closed for bounded immediate-child research and was user-evaluated on 2026-09-03 as reasonable enough for hierarchical continuation. `Domain Structure / Composition`, `Domain Condition / Status`, Domain Dynamics, Work Conditions and other grounds remain inactive.
+
+Current authorised work is selection/planning of one next research node with the user; substantive research activation remains separate.
 
 ## Retrieval rule
 
@@ -69,4 +71,4 @@ For historical pass reconstruction use the exact pass-input snapshot anchor in `
 
 ## Update rule
 
-After any material Domain State edit, re-fetch exact blobs, refresh this manifest, then refresh Domain Reality → Environment → stage manifests. Never let node closure or child discovery silently authorize next-node research.
+After any material Domain State edit, re-fetch exact blobs, refresh this manifest, then refresh Domain Reality → Environment → stage manifests. Never let node closure, user evaluation or child discovery silently authorize next-node research.
