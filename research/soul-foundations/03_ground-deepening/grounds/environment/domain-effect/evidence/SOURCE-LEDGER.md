@@ -6,6 +6,18 @@
 
 > **Pass provenance:** This ledger preserves the evidence recovery used during the Domain Reality pass. Later Domain State refinement does not retroactively rewrite this pass evidence. Current hierarchy/status is in `../STATE.md`, `../KEY.md`, and `../domain-state/STATE.md`.
 
+### Exact pass-input snapshot
+
+For historical reconstruction, the Environment parent state **immediately before the Domain Reality pass began** is content-addressed by the Environment `CURRENT-SURFACES.md` blob:
+
+- pass-input manifest blob: `d5dd0bd7f4c3663d5d41b71b7f616f83ad229456`
+- containing commit: `223de2c5f710f5a1ce5968147682f10f3bff5f02`
+
+Interpretation:
+- the relative paths below are **current navigation paths** to the corresponding evidence families;
+- the blob above is the **exact historical parent snapshot** for reconstructing what was current when this pass was planned/entered;
+- later edits to parent `STATE`/`KEY`/router files must not be mistaken for the pass-input state.
+
 ## Purpose
 
 Track which source families carry which claims while keeping external taxonomies distinct from the project hierarchy.
