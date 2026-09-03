@@ -1,6 +1,6 @@
 # Domain Reality — CURRENT SURFACES
 
-**Status:** canonical freshness binding after Domain State user evaluation and hierarchical-continuation acceptance  
+**Status:** canonical freshness binding after Domain Dynamics selection/planning; substantive Dynamics research not active  
 **Date:** 2026-09-03  
 **Branch:** `main`
 
@@ -8,11 +8,12 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `0305ce3b973bea70e9b7164672e324199a6de0cd` |
-| Router | `INDEX.md` | `897b1929f29177c844bd29f374813614eda51bb4` |
-| L0 key | `KEY.md` | `84339b4c4b2eee496935ad80c2531541a7172e75` |
+| Node state | `STATE.md` | `5218bc0619d1cf329a3cd3549db134f7502fa9d5` |
+| Router | `INDEX.md` | `cdc9a493ef21dfb9d80e95986d28102560395053` |
+| L0 key | `KEY.md` | `fb2a08eb51188b73e8c8c54eb6173b71e147d531` |
 | L1 findings map | `FINDINGS-MAP.md` | `6878443bae8c9d07b14c2d5096ed9e45f2b0ece1` |
 | Executed Domain State research plan | `DOMAIN-STATE-RESEARCH-PLAN.md` | `8f5cabdd360fee61cd31a230018591673c348f24` |
+| Selected/planned Domain Dynamics research plan | `DOMAIN-DYNAMICS-RESEARCH-PLAN.md` | `ae258d4a112932e4f9828ebd2cbda06288fd21e8` |
 | Residual questions | `OPEN-QUESTIONS.md` | `792ce4c7dcff17e056146ac17790714af23e3c89` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `56d238a0f5b7fac2d4dd963473fe501a66d778a5` |
 
@@ -31,7 +32,7 @@
 
 Findings tree: `da7e439a33217b507ead545759a0f466d7328d7e`
 
-Focused findings preserve pass-time labels where useful for reconstruction. Current status/authorization is carried by `STATE.md`, `KEY.md`, `FINDINGS-MAP.md` and this manifest.
+Focused findings preserve pass-time labels where useful for reconstruction. Current status/authorization is carried by `STATE.md`, `KEY.md`, `INDEX.md` and this manifest.
 
 ## Domain Reality synthesis / audit / evidence
 
@@ -45,14 +46,14 @@ Evidence tree: `919312ca88fb21921bcedcefe69f071f9cd67524`
 
 The source ledger distinguishes current Environment navigation paths from the exact historical pre-pass Environment snapshot (`CURRENT-SURFACES.md` blob `d5dd0bd7f4c3663d5d41b71b7f616f83ad229456`).
 
-## Current deeper child
+## Current deeper children / next node
 
 | Node | Status | Freshness surface |
 |---|---|---|
 | Domain State | boundedly sufficient; user-evaluated for hierarchical continuation | `domain-state/CURRENT-SURFACES.md` @ `ab2ce814f62ecdcfa2f4119a2c8cd11243b8e6e9` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
-| Domain Dynamics / Processes | inactive; not yet deepened | no child package |
+| Domain Dynamics / Processes | selected/planned; substantive research not active | plan @ `DOMAIN-DYNAMICS-RESEARCH-PLAN.md`; no child package yet |
 
 ## Current hierarchy
 
@@ -61,7 +62,7 @@ Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure / Composition
     │    └─ Domain Condition / Status
-    └─ Domain Dynamics / Processes
+    └─ Domain Dynamics / Processes                ← selected/planned; not active
 ```
 
 Current refinements:
@@ -73,14 +74,14 @@ Current refinements:
 
 ## Authorization rule
 
-Domain Reality and Domain State are user-evaluated for hierarchical continuation. No discovered child or sibling is active.
+Domain Reality and Domain State are user-evaluated for hierarchical continuation. `Domain Dynamics / Processes` is the selected next node and its research plan is complete, but no substantive node is active.
 
-Current authorised work is selection/planning of one next research node with the user; substantive research activation remains separate.
+Current authorised work is plan review / explicit Dynamics research-activation decision. Substantive research activation remains a separate phase transition.
 
 ## Retrieval rule
 
 Current route:
-`STATE → KEY/FINDINGS-MAP → domain-state/STATE → domain-state/KEY/FINDINGS-MAP → current child synthesis/audit/source recovery`
+`STATE → KEY/INDEX → DOMAIN-DYNAMICS-RESEARCH-PLAN → original Domain Reality evidence as needed → domain-state/STATE → domain-state/KEY/FINDINGS-MAP → sibling synthesis/audit/source recovery`
 
 For historical pass reconstruction use the exact pass-input snapshot anchors in the relevant source ledgers rather than current parent paths alone.
 
@@ -88,4 +89,4 @@ Historical Domain Reality reasoning remains recoverable through its synthesis/fi
 
 ## Update rule
 
-After any material Domain Reality/State edit, re-fetch exact blobs, update this manifest, then refresh Environment and stage manifests. Never let child discovery, closure or user evaluation silently authorize the next node.
+After any material Domain Reality/State/Dynamics-planning edit, re-fetch exact blobs, update this manifest, then refresh Environment and stage manifests. Never let planning, child discovery, closure or user evaluation silently authorize substantive research.
