@@ -1,74 +1,144 @@
-# Domain Structure / Composition — STATE
+# Domain Structure — STATE
 
-**Status:** ACTIVE SUBSTANTIVE RESEARCH  
+**Status:** BOUNDED RESEARCH RESULT; AWAITING USER EVALUATION; NO SUBSTANTIVE CHILD ACTIVE  
 **Activated:** 2026-09-03  
+**Bounded closure:** 2026-09-03  
 **Parent:** `Domain State`  
-**Sibling:** `Domain Condition / Status` — inactive; research deferred until Structure user evaluation  
-**Higher ground:** `Environment / Operating Reality`  
-**Authorisation:** explicit user activation on 2026-09-03  
-**Active node rule:** this is the only substantive hierarchical node active
+**Sibling:** `Domain Condition / Status` — inactive; intended only after Structure user evaluation and explicit next-step authorization  
+**Higher ground:** `Environment / Operating Reality`
 
-## Current purpose
+## Current bounded result
 
-Execute the frozen `../DOMAIN-STRUCTURE-RESEARCH-PLAN.md` and determine, at one-level discovery depth only:
+The inherited planning label:
 
-1. whether `Domain Structure / Composition` is coherent at this level;
-2. whether the label should be retained, simplified or replaced;
-3. which immediate first-order child problem regions, if any, survive split/merge/reduction and cross-domain falsification;
-4. which apparent subdivisions are modeling primitives, cross-cutting dimensions or domain-specific profiles;
-5. whether deeper Structure research reopens the `Domain State` parent decomposition.
+```text
+Domain Structure / Composition
+```
 
-## Starting hypothesis under attack
+was refined to:
 
-> What materially relevant constituents are actually present, and how are they actually composed, organized, connected, contained or arranged at the selected scope and time?
+```text
+Domain Structure
+    ├─ Constituent Composition / Membership
+    └─ Relational Organization / Topology
+```
 
-Inherited parent hypothesis:
+Interpretation:
+- `Domain Structure` remains a coherent Domain State child;
+- `Composition` is too narrow as a co-primary synonym for the entire node and is retained below it;
+- two immediate analytical problem regions survive deeper split/merge and cross-domain falsification;
+- neither discovered child has been deep researched or activated.
+
+## Child questions
+
+### Constituent Composition / Membership
+
+> Which materially relevant constituents actually participate in or make up the selected whole/scope, including materially relevant part–whole and nested membership?
+
+### Relational Organization / Topology
+
+> How are the relevant constituents actually structurally related, connected, arranged, contained or interfaced at the selected scope/time?
+
+`Topology` is an explanatory companion only. Some network traditions use topology for nodes plus links; the project child boundary is the semantic phrase `Relational Organization`.
+
+## Third-child / cross-cut result
+
+Not promoted as universal immediate Structure children:
+- Spatial Arrangement / Containment;
+- Hierarchy / Nesting versus Network / Topology;
+- Interfaces / Boundaries / Couplings;
+- Identity / Continuity;
+- Constraints / Invariants;
+- Scale / Granularity;
+- physical / digital / biological / social type branches.
+
+Current treatment:
+- spatial relation/placement → Relational Organization when structurally material;
+- part-of/nesting → Composition when constitution/membership is the protected question;
+- hierarchy/network → structural forms;
+- realized interface → Relational Organization; exchange → Dynamics; interface condition → Condition; interface spec → representation;
+- identity, constraints, scale/reference and actual-versus-represented remain cross-cutting/boundary dimensions.
+
+## Parent impact
+
+No evidence from this pass forces reopening of the Domain State parent split.
+
+Current local hierarchy:
 
 ```text
 Domain State
-    ├─ Domain Structure / Composition   ← ACTIVE
-    └─ Domain Condition / Status        ← inactive sibling
+    ├─ Domain Structure
+    │    ├─ Constituent Composition / Membership   ← discovered; inactive
+    │    └─ Relational Organization / Topology     ← discovered; inactive
+    └─ Domain Condition / Status                   ← discovered sibling; inactive
 ```
 
-This is a research hierarchy, not an ontology, schema or architecture.
+The deeper split refines rather than contradicts the parent result: at Domain-State resolution constituents + relations jointly distinguished Structure from Condition; at Structure-specific resolution they now produce independent failure/recovery questions.
 
-## Exact pre-pass parent binding
+## Strong boundaries retained
 
-The Structure pass is bound to the canonical Domain State surfaces current immediately before activation:
+```text
+Domain Structure ≠ Domain Condition / Status
+current Structure snapshot ≠ Domain Dynamics
+actual Structure ≠ architecture / BOM / inventory / configuration baseline / topology model / Record by identity
+structural relation/interface ≠ interaction event/process by identity
+structural role relation ≠ Actor authority semantics by identity
+part-of/membership ≠ every spatial containment relation
+current composition ≠ identity/continuity through replacement
+```
 
-- `../STATE.md` blob: `9c72eb836c164d574fe36deeff1dbc8b0127993f`
-- `../CURRENT-SURFACES.md` blob: `c4f190f9d11dfa97ab94e2ed351f1c74b64e2b2c`
-- `../KEY.md` blob: `1c7ea731c2629a132d06a43ef3d9f9d90825c02e`
-- `../FINDINGS-MAP.md` blob: `29d01710810399ce81b79051b1fb0840da13acf4`
-- frozen plan `../DOMAIN-STRUCTURE-RESEARCH-PLAN.md` blob: `fc402ad7dd0259cec4a831586766e0c1a1cfdad4`
-- parent synthesis blob: `2fb261ec3a4522f8482421674d4c12e9c584eb9b`
-- parent completion audit blob: `4564baf491b6f2b6a7465d26b19fc80ad1769348`
-- parent evidence ledger blob: `352c75725f8e19fc751cc60ba07cd37a0891e2b6`
+## Cross-domain status
 
-## Frozen falsifiers
+The two-child candidate survived holdouts across:
+- deployed software/services;
+- physical assembly/manufacturing;
+- infrastructure/system-of-systems;
+- biology/ecology;
+- social/institutional organization;
+- market/supply networks;
+- scientific setup/specimen;
+- hybrid CPS/IoT;
+- replacement/continuity;
+- cross-ground role switching.
 
-F1–F15 from the canonical plan remain active. In particular, do not assume:
-- the node is coherent;
-- constituents/membership and relations/topology belong together;
-- spatial arrangement, hierarchy/nesting, interfaces/boundaries, identity, constraints or scale are not children;
-- actual structure can always be separated cleanly from Condition, Actors or Information;
-- any child must exist at all.
+No recurrent third Structure-local region was forced.
 
-## Research sequence
+## Evidence status
 
-`S0 canonical recovery/snapshot → S1 coherence/split-merge-rename → S2 first-principles inventory → S3 immediate-child discovery → S4 boundary tests → S5 cross-lineage falsification → S6 cross-domain holdouts → S7 omission/rival audit and bounded closure`
+External sources were used as challenge/discrimination instruments across systems engineering, formal ontology, software/runtime systems, configuration management, geospatial topology, supply networks, markets, institutions, biology/ecology and hybrid CPS/IoT.
 
-## Verification status
+No external source independently validates the exact project hierarchy.
 
-Any completion/omission audit produced in this pass is same-model adversarial self-review unless a genuinely independent verifier is introduced. External sources are discrimination/falsification evidence; no source is presumed to validate the project hierarchy by authority.
+The completion/omission audit is same-model adversarial self-review, **not independent verification**.
 
-## Guardrails
+## Closure basis
 
-- Do not deep-research any newly discovered child in this pass.
-- Do not deep-research `Domain Condition / Status` in parallel.
-- Do not begin Information, Work, Actors, systematic relation/control composition, architecture, ontology/data-model work or implementation.
-- Keep actual realized structure distinct from architecture, inventory, baseline, graph/model, record or digital twin by identity.
+Frozen F1–F15 were explicitly tested. The strongest material change from the inherited hypothesis was:
+- F2 supported: Composition/Membership and Relational Organization/Topology should separate at this deeper level;
+- F15 rejected: Domain Structure is not a bounded leaf at current depth.
 
-## Return condition
+Late adversarial search mainly refined terminology/overlap rather than exposing a new first-order region. Broad Structure search therefore reached bounded sufficiency for the current immediate-child purpose.
 
-Close only when the frozen closure criteria are met or when a falsifier forces a parent reopen / explicit unresolved result. Then return the bounded Structure result to the user before activating any sibling or child.
+## Reopen conditions
+
+Reopen if:
+- deeper Composition research cannot contain membership/part-whole/nesting without forced fit;
+- deeper Relational Organization research cannot contain interface/spatial/network forms without forced fit;
+- a recurrent third Structure-local recovery question appears;
+- Condition research reveals irreducible Structure/Condition ambiguity;
+- Actors/Information composition breaks institutional boundaries;
+- independent review produces a materially stronger decomposition.
+
+## Current return condition
+
+Return this bounded Structure result to the user for evaluation.
+
+Do **not** automatically activate either Structure child, Domain Condition / Status, Information, cross-ground composition, architecture or implementation.
+
+## Next logical work
+
+Under the previously agreed Environment sequence: after user evaluation of this Structure result, plan/authorize the `Domain Condition / Status` research pass.
+
+## Next authorised work
+
+**USER EVALUATION OF DOMAIN STRUCTURE RESULT ONLY.**
