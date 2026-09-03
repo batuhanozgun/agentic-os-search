@@ -2,23 +2,23 @@
 
 ## Role
 
-Current router for the user-evaluated Environment parent, Domain Reality result, deeper Domain State result and selected/planned Domain Dynamics pass.
+Current router for the user-evaluated Environment parent, bounded Domain Reality result, user-evaluated Domain State result and bounded Domain Dynamics result.
 
 ## Current status
 
-**DOMAIN STATE USER-EVALUATED; DOMAIN DYNAMICS SELECTED/PLANNED; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN DYNAMICS BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
-The next task is user review / explicit authorization of the planned Domain Dynamics substantive pass.
+Current authorised work is user evaluation of Domain Dynamics only.
 
 ## Reading order
 
 1. `STATE.md` — current Environment state/authorization.
 2. `KEY.md` — shortest current hierarchy.
-3. selected next-node plan → `domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md`.
-4. parent result → `FINDINGS-MAP.md` / parent synthesis when needed.
-5. Domain Reality → `domain-effect/STATE.md` / `KEY.md`.
-6. Domain State → `domain-effect/domain-state/STATE.md` / `KEY.md` / `FINDINGS-MAP.md` / synthesis.
-7. audit/source surfaces when decision-critical.
+3. Domain Dynamics → `domain-effect/domain-dynamics/STATE.md` / `KEY.md`.
+4. Domain Reality → `domain-effect/STATE.md` / `KEY.md`.
+5. Domain State → `domain-effect/domain-state/STATE.md` / `KEY.md`.
+6. parent result → `FINDINGS-MAP.md` / parent synthesis when needed.
+7. child findings/audit/source surfaces when decision-critical.
 8. `CURRENT-SURFACES.md` — exact Environment freshness binding.
 
 ## Current Environment research tree
@@ -29,7 +29,7 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
-    │    └─ Domain Dynamics / Processes           ← selected/planned; not active
+    │    └─ Domain Dynamics                       ← bounded leaf; awaiting user evaluation
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
@@ -37,34 +37,32 @@ Environment / Operating Reality
 ## Current routes
 
 ### Domain Reality
-`domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-REALITY-SYNTHESIS.md`
+`domain-effect/STATE.md → KEY.md → FINDINGS-MAP.md → relevant deeper child`
 
 ### Domain State
 `domain-effect/domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → relevant finding → completion/source recovery`
 
-Main State correction:
+State correction:
 - `Domain State / Configuration` → `Domain State`;
-- immediate children = `Domain Structure / Composition` + `Domain Condition / Status`;
-- no third universal immediate State child currently required;
-- user evaluation accepted on 2026-09-03.
+- immediate children = Structure/Composition + Condition/Status;
+- user evaluation accepted 2026-09-03.
 
-### Selected/planned Domain Dynamics
-`domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+### Domain Dynamics
+`domain-effect/domain-dynamics/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md → relevant finding → completion/source recovery`
 
-Status:
-- selected by the user on 2026-09-03;
-- plan complete;
-- substantive pass not active;
-- no Dynamics child package yet;
-- explicit research activation required after planning.
+Dynamics correction:
+- `Domain Dynamics / Processes` → `Domain Dynamics`;
+- no universal immediate child currently justified;
+- bounded leaf at current foundation depth;
+- awaiting user evaluation.
 
 ## Hierarchical method
 
 Read:
 - `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-Node planning, closure or user evaluation does not automatically authorize substantive research or another discovered child/sibling.
+Node closure does not automatically authorize a sibling, child or another ground.
 
 ## Guardrail
 
-No substantive node is active. Current authorized activity is Dynamics plan review / explicit research-activation decision. Do not begin Structure, Condition, Dynamics, Work Conditions, Information, Work, Actors, systematic composition or architecture without explicit authorization.
+No substantive node is active. Current authorized activity is user evaluation of Domain Dynamics. Do not begin Structure, Condition, Work Conditions, Information, Work, Actors, systematic composition or architecture without an explicit later transition.
