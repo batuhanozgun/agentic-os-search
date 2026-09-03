@@ -18,12 +18,12 @@
 
 | Ground / node | Status | Freshness surface |
 |---|---|---|
-| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `9d123463336121c2db86fcf55e687ebe82baca36` |
-| Domain Reality | boundedly sufficient; Dynamics selected/planned inside it | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `7d1009e1f6f9c9aa9aacab4dcabb736aa45df102` |
+| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `7ee6fb28d468bb665c0f5dde084e77509d12060e` |
+| Domain Reality | boundedly sufficient; Dynamics selected/planned inside it | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `3c8b74691b87fcf1076c380b67c307be5598168d` |
 | Domain State | boundedly sufficient; user-evaluated for hierarchical continuation | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `ab2ce814f62ecdcfa2f4119a2c8cd11243b8e6e9` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
-| Domain Dynamics / Processes | selected/planned; substantive research not active | plan `grounds/environment/domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md` @ `ae258d4a112932e4f9828ebd2cbda06288fd21e8` |
+| Domain Dynamics / Processes | selected/planned; substantive research not active | plan `grounds/environment/domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md` @ `3c46fd5e4dd053ae4a57cd4caf473131a3183d15` |
 | Work Conditions / Enabling–Constraining Environment | inactive | no current child package |
 | Information / Representation | inactive | no package created |
 | Work | inactive | no `03` package created |
