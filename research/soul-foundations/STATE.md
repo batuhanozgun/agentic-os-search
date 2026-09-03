@@ -1,12 +1,12 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment research continues; Domain Structure bounded / user-evaluated / accepted; no substantive node active
+**Status:** active research library; Environment research continues; Domain Condition / Status substantive pass active
 **Environment researched/user-evaluated so far:** parent, Domain Reality, Domain State, Domain Dynamics, Work Conditions, Domain Structure
-**Domain Structure substantive pass:** bounded 2026-09-03; user evaluation accepted 2026-09-03
+**Domain Structure:** bounded / user-evaluated / accepted 2026-09-03
+**Domain Condition / Status substantive pass:** activated 2026-09-03 under frozen plan
 **Environment continuation decision:** Structure → Condition → Environment completion review before any Information transition; accepted 2026-09-03
-**Repository continuity status:** Structure result, user acceptance and authorization state synchronized bottom-up through Domain State, Domain Reality, Environment and ground-deepening on 2026-09-03
-**Current authorised substantive activity:** NONE
-**Current return condition:** explicit user authorization is required before the next substantive node selection/planning/research step
+**Current authorised substantive activity:** DOMAIN CONDITION / STATUS RESEARCH AT IMMEDIATE-CHILD DEPTH ONLY
+**Current return condition:** close Condition at bounded immediate-child depth and return to the user for evaluation; do not auto-start Environment completion review
 
 ## Dependency state
 
@@ -16,13 +16,12 @@
   - Environment / Operating Reality: active ground for completion sequencing; not yet handed off to Information.
   - Domain Reality: boundedly sufficient; State/Dynamics results user-evaluated.
     - Domain State: boundedly sufficient; user-evaluated.
-      - **Domain Structure: BOUNDED IMMEDIATE-CHILD RESULT; USER-EVALUATED / ACCEPTED.**
+      - Domain Structure: bounded immediate-child result; user-evaluated / accepted.
         - Constituent Composition / Membership: discovered; inactive; not researched.
         - Relational Organization / Topology: discovered; inactive; not researched.
-      - Domain Condition / Status: discovered; inactive; next logical node; planning/research not yet authorized.
+      - **Domain Condition / Status: ACTIVE SUBSTANTIVE PASS.**
     - Domain Dynamics: bounded leaf; user-evaluated.
   - Work Conditions: bounded leaf; user-evaluated.
-    - Technical Work Environment: retained deep technical specialization/profile; prior vertical user-evaluated.
   - Information / Representation State: inactive; transition deferred pending Condition research/evaluation and Environment completion review.
   - Work coverage/gap audit: inactive.
   - Actors coverage/gap audit: inactive.
@@ -47,73 +46,44 @@ This remains a research-routing hypothesis, not architecture, ontology, schema o
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure                         ← bounded; user-evaluated / accepted
+    │    │    ├─ Domain Structure                         ← bounded / accepted
     │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
     │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
-    │    │    └─ Domain Condition / Status                ← discovered; inactive / next logical node
+    │    │    └─ Domain Condition / Status                ← ACTIVE
     │    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
     └─ Work Conditions                                    ← bounded leaf; user-evaluated
-         ↳ Technical Work Environment                     ← deep technical specialization/profile
 ```
 
-## Domain Structure bounded result
+## Active Condition pass
 
-The inherited `Domain Structure / Composition` planning label was refined to `Domain Structure`.
+Frozen plan:
+`03_ground-deepening/grounds/environment/domain-effect/domain-state/DOMAIN-CONDITION-RESEARCH-PLAN.md`
 
-At this deeper Structure-specific resolution, two immediate analytical problem regions survive:
-- **Constituent Composition / Membership** — which materially relevant constituents actually participate in / make up the selected whole, including part–whole/nesting when material;
-- **Relational Organization / Topology** — how those relevant constituents are actually structurally related, connected, arranged, contained or interfaced.
+Active package:
+`03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-condition/STATE.md`
 
-No third universal Structure child survived current bounded testing. This result refines rather than overturns the parent Domain State Structure-versus-Condition split.
+The pass challenges node coherence, label, leaf/split rivals, descriptive-versus-evaluative ambiguity, whole-versus-constituent condition, Structure/Dynamics/Information/Actors/Work-Conditions boundaries, cross-domain holdouts and frozen falsifiers before closure.
 
-The user accepted the bounded result on 2026-09-03. No reopen trigger was raised. User acceptance does not alter the result's verification limits.
-
-## Current sequencing decision
-
-The user clarified the intended method and accepted this consequence:
-
-> Discovering a material child during a parent pass does not count as having researched that child. The child should receive its own pass when it remains materially under-supported.
-
-The current sequence is now:
+## Current sequence
 
 ```text
-1. Domain Structure research          ← boundedly complete
-2. user evaluation                    ← accepted 2026-09-03
-3. Domain Condition / Status research ← next logical node; inactive / not yet planned or authorized
-4. user evaluation
-5. explicit Environment completion review
-6. only then decide whether to transition to Information / Representation State
+1. Domain Structure research/evaluation ← complete / accepted
+2. Domain Condition / Status research   ← ACTIVE
+3. user evaluation of Condition result
+4. explicit Environment completion review
+5. only then decide whether to transition to Information / Representation State
 ```
-
-This is not a depth-for-symmetry rule. Each node may still close as a bounded leaf when further decomposition adds no material research value.
-
-## Method interpretation
-
-The current ground-deepening method is deliberately incremental: research one node, challenge its label/boundary/decomposition, preserve only distinctions that survive bounded adversarial testing, return the result for user evaluation, then select the next node. This gradually produces an evidence-backed **research hierarchy**.
-
-It does not yet constitute a final ontology, data model, control model or SOUL/Development OS architecture.
-
-Research closure or user acceptance does not automatically authorize the next node.
 
 ## Verification status
 
-Existing research completion/omission audits, including Domain Structure, are same-model adversarial self-reviews, **not independent verification**. External source traditions and holdouts discriminate rival decompositions but do not independently validate the exact hierarchy. Repository currentness and user evaluation do not convert these reviews into independent validation.
+Same-model completion/omission audits are not independent verification. External sources are challenge/discrimination evidence and do not independently validate the exact project hierarchy merely by using similar terminology.
 
 ## Current retrieval
 
-`STATE.md → INDEX.md → 03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md → grounds/environment/STATE.md → domain-effect/domain-state/STATE.md → domain-structure/STATE.md → domain-structure/KEY.md`
-
-For exact stage/local freshness:
-- `03_ground-deepening/CURRENT-SURFACES.md`
-- `03_ground-deepening/grounds/environment/CURRENT-SURFACES.md`
-- `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/CURRENT-SURFACES.md`
-
-## Next logical work
-
-After explicit user authorization, select/plan Domain Condition / Status from the current canonical state.
+`STATE.md → 03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md → grounds/environment/STATE.md → domain-effect/domain-state/STATE.md → DOMAIN-CONDITION-RESEARCH-PLAN.md → domain-condition/STATE.md`
 
 ## Current authorization
 
-**NONE. AWAIT EXPLICIT USER AUTHORIZATION FOR THE NEXT SUBSTANTIVE PLANNING/RESEARCH STEP.**
+**DOMAIN CONDITION / STATUS SUBSTANTIVE RESEARCH ONLY.**
 
-Do not activate a Structure child, Condition, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation without the required later explicit transition.
+Do not activate a Condition child, Structure child, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
