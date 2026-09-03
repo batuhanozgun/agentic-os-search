@@ -1,6 +1,6 @@
 # Ground Deepening — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Domain State closure and deep repository verification  
+**Status:** canonical freshness binding after Domain State user evaluation and hierarchical-continuation acceptance  
 **Date:** 2026-09-03  
 **Branch:** `main`
 
@@ -9,18 +9,18 @@
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Stable purpose | `README.md` | `5380af8bf81ffe9860c71f597c84b245189b89f1` |
-| Stage state / authorization | `STATE.md` | `e6ef7e3cd488f38de8d12a74506af2ec3a14d6c1` |
+| Stage state / authorization | `STATE.md` | `1bcd4291bb21bc8465d93fa4fb3fe4fb88378c09` |
 | Original accepted deepening plan | `PLAN.md` | `dfe00d2ca4d43758c476f640332751c3af013725` |
 | Recursive hierarchical method | `HIERARCHICAL-DEEPENING-METHOD.md` | `4d964c09a70ebe5f114d597f5413b41193ce650b` |
-| Stage router | `INDEX.md` | `94f80c7531391a398129c0be725aafa921bd92c5` |
+| Stage router | `INDEX.md` | `88a873f5a0fa9bf6370e8271c70ad26478de94ae` |
 
 ## Current Environment package
 
 | Ground / node | Status | Freshness surface |
 |---|---|---|
-| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `93a7798650c9f7af2c2bb4ff52b9646a83eff4be` |
-| Domain Reality | boundedly sufficient; user-authorised for continuation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `dcff6dc3be62c843673ba334e3a2127f33f15ab5` |
-| Domain State | boundedly sufficient; awaiting user evaluation | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `639aaac7b6f7c45c91fa90aad8d6f5faa454c441` |
+| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `cb6b1fd5739efa97fc7c669cef8fe3ae0cb059c5` |
+| Domain Reality | boundedly sufficient; user-authorised for continuation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `78bd7f05037a869856338c63e6410c9a78c2e2d2` |
+| Domain State | boundedly sufficient; user-evaluated for hierarchical continuation | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `ab2ce814f62ecdcfa2f4119a2c8cd11243b8e6e9` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
 | Domain Dynamics / Processes | inactive; not yet deepened | no child package |
@@ -31,7 +31,7 @@
 
 ## Current status
 
-> **No substantive node is active. Domain State is closed for bounded immediate-child research and awaits user evaluation.**
+> **No substantive node is active. Domain State is closed, user-evaluated and accepted for hierarchical continuation. The next task is selection/planning of one next research node with the user.**
 
 Current tree:
 
@@ -65,4 +65,4 @@ For historical pass reconstruction, use the exact pass-input snapshot anchor rec
 
 ## Update rule
 
-If any bound stage surface changes materially, re-fetch and refresh this manifest, recheck parent/Environment/node surfaces, and never let node closure or child discovery silently authorize next-node research.
+If any bound stage surface changes materially, re-fetch and refresh this manifest, recheck parent/Environment/node surfaces, and never let node closure, child discovery or user evaluation silently authorize next-node research.
