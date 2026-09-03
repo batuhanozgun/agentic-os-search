@@ -2,13 +2,13 @@
 
 ## Role
 
-Current router for the bounded Work Conditions node result.
+Current router for the bounded, user-evaluated Work Conditions node result.
 
 ## Current status
 
-**BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION.**
+**BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED FOR HIERARCHICAL CONTINUATION.**
 
-No substantive node is active after this closure.
+No substantive node is active.
 
 ## Read order
 
@@ -21,12 +21,12 @@ No substantive node is active after this closure.
 7. `evidence/SOURCE-LEDGER.md` — source provenance / exact pre-pass snapshot.
 8. `OPEN-QUESTIONS.md` / `DEFERRED-RELATIONS.md` — residuals and later composition obligations.
 9. `CURRENT-SURFACES.md` — exact package freshness.
-10. `../WORK-CONDITIONS-RESEARCH-PLAN.md` — frozen pre-research plan/falsifiers when reconstructing the pass.
+10. `../WORK-CONDITIONS-RESEARCH-PLAN.md` — frozen executed pre-research plan/falsifiers when reconstructing the pass.
 
 ## Shortest current result
 
 ```text
-Work Conditions     ← bounded leaf at current universal foundation-research depth
+Work Conditions     ← bounded leaf at current universal foundation-research depth; user-evaluated
 ```
 
 The starting paired label `Work Conditions / Enabling–Constraining Environment` is simplified to `Work Conditions`.
@@ -55,6 +55,8 @@ Current parent paths may change after closure; use the content-addressed anchor 
 
 The closure audit is same-model adversarial review, not independent verification. External sources discriminate rival decompositions but do not independently validate the exact leaf result.
 
+User evaluation was accepted on 2026-09-03 and does not change that verification limit.
+
 ## Guardrail
 
-This result awaits user evaluation. Do not activate another node or convert the research hierarchy into ontology/schema/architecture/resource-management/policy-engine implementation automatically.
+The node is user-evaluated. Do not automatically activate another node or convert the research hierarchy into ontology/schema/architecture/resource-management/policy-engine implementation. Next work is parent/stage-level selection/planning of one research node.
