@@ -1,7 +1,7 @@
 # Domain Condition — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION  
-**Date:** 2026-09-03  
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED / ACCEPTED  
+**Date:** 2026-09-04  
 **Parent:** Domain State
 
 ## Shortest result
@@ -104,8 +104,12 @@ Domain State
 
 ## Verification limit
 
-The completion audit is same-model adversarial self-review, not independent verification. External sources discriminate rivals but do not independently validate this exact project hierarchy.
+The completion audit is same-model adversarial self-review, not independent verification. External sources discriminate rivals but do not independently validate this exact project hierarchy. User acceptance does not alter that limit.
+
+## User evaluation
+
+The bounded result was accepted by the user on 2026-09-04. No reopen trigger was raised.
 
 ## Next sequence
 
-Return this bounded result to the user for evaluation. Do not activate either discovered Condition child and do not begin the Environment completion review automatically.
+The next authorised stage is an explicit **Environment completion review**. Neither discovered Condition child is active, and Information is not authorised.
