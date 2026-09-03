@@ -1,25 +1,24 @@
 # Ground Deepening — STATE
 
-**Status:** DOMAIN STATE USER-EVALUATED; DOMAIN DYNAMICS ACTIVE AS THE SINGLE SUBSTANTIVE NODE  
+**Status:** DOMAIN STATE USER-EVALUATED; DOMAIN DYNAMICS BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment parent evaluation:** accepted for hierarchical continuation  
 **Domain Reality:** boundedly sufficient; user-authorised for continuation  
-**Domain State bounded closure:** 2026-09-02  
 **Domain State user evaluation:** accepted 2026-09-03  
-**Domain Dynamics substantive activation:** 2026-09-03  
+**Domain Dynamics bounded closure:** 2026-09-03  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
-**Current authorised activity:** execute Domain Dynamics / Processes to bounded node closure; no other substantive node may open
+**Current authorised activity:** user evaluation of Domain Dynamics only
 
 ## Working research tree
 
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
-    │    ├─ Domain State                           ← bounded; user-evaluated
+    │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition   ← inactive
     │    │    └─ Domain Condition / Status        ← inactive
-    │    └─ Domain Dynamics / Processes           ← ACTIVE
+    │    └─ Domain Dynamics                       ← bounded leaf; awaiting user evaluation
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
 
 Information / Representation State              ← inactive
@@ -27,35 +26,41 @@ Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-## Active pass
+## Domain Dynamics result
 
 Frozen plan:
 `grounds/environment/domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
 
-Active package:
-`grounds/environment/domain-effect/domain-dynamics/STATE.md → INDEX.md → findings → synthesis/audit/source recovery → CURRENT-SURFACES.md`
+Bounded result:
+`grounds/environment/domain-effect/domain-dynamics/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md`
 
-The active package preserves the exact pre-pass Domain Reality `CURRENT-SURFACES.md` blob `3c8b74691b87fcf1076c380b67c307be5598168d`.
+Current correction:
+- `Domain Dynamics / Processes` → `Domain Dynamics`.
+
+Current depth result:
+- dedicated Dynamics node survives;
+- no universal immediate child currently survives the child-promotion test;
+- Domain Dynamics is a bounded leaf at current foundation-research depth;
+- internal problem regions remain explicit but non-hierarchical.
 
 ## Hierarchical method
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
 Rules retained:
-- exactly one node is active during substantive research;
-- discover only immediate children;
-- child discovery does not authorize child research;
+- no substantive node is active after closure;
+- child discovery/leaf closure does not authorize another node;
 - dimensions/modeling choices are not promoted merely to deepen the tree;
-- closure returns to user evaluation before another node opens.
+- closure returns to user evaluation before sibling/child/ground transition.
 
 ## Verification status
 
-Dynamics is under research. No substantive decomposition is yet established or independently verified.
+Dynamics completion/omission review is same-model adversarial self-review, not independent verification. External source traditions and holdouts discriminate rival decompositions but do not independently validate the exact leaf result.
 
 ## Current return condition
 
-Continue the Dynamics pass to bounded closure or a material blocker. At closure return to the user before any child/sibling/ground activation.
+Return the bounded Domain Dynamics result to the user for evaluation. Do not select/activate another node until that evaluation/transition decision.
 
 ## Guardrail
 
-Do not open Domain Structure, Domain Condition, Work Conditions, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation during the active Dynamics pass.
+Do not activate Domain Structure, Domain Condition, Work Conditions, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation automatically.
