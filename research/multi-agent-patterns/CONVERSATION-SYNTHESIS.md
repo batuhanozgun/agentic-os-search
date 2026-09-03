@@ -8,6 +8,8 @@
 
 The discussion began from a practical question rather than a research program: what do the six patterns in the image actually mean, how do they map to concrete agent systems such as Codex and Claude Code, and which distinctions in the image are useful versus misleading?
 
+The user explicitly asked that the image **not** be turned into a new research topic and that the sections be discussed one by one rather than explained all at once. The Instagram caption supplied with the image was treated as **context from the account that posted it, not as evidence or an authoritative frame**. Its broad claim—roughly, that architecture should match the problem rather than maximize complexity—was evaluated on its merits instead of being adopted because the account asserted it.
+
 The most important correction that emerged is that the six boxes are **not six peer alternatives at the same abstraction level**. Some describe execution order, some describe authority/coordination, some describe review or human governance, and Composite describes composition of the others.
 
 A more accurate reading is therefore:
@@ -252,7 +254,20 @@ Thus hierarchy is primarily an **authority/delegation/coordination topology**, w
 
 The pattern itself has no universal theoretical depth limit. Product implementations may impose limits, defaults, concurrency caps, or recursion controls.
 
-The conversation looked at Codex and Claude Code as concrete examples and found that their current multi-agent mechanisms differ and are evolving. Those exact product limits are **time-sensitive implementation facts**, not stable conceptual properties of Hierarchical design. Any implementation relying on specific nesting depths or concurrency limits should re-check current first-party product documentation/code at implementation time.
+The conversation specifically researched Codex and Claude Code because the user asked how many nested agent levels these products can support.
+
+### Time-sensitive product notes discussed on 2026-09-03
+
+These are **implementation observations, not stable pattern properties**, and should be rechecked before use:
+
+- **Claude Code:** the conversation reported a default subagent spawn depth of three levels beneath the main Claude execution, configurable through `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH`, and a default concurrent subagent limit of 20.
+- **Codex:** current source inspection showed a legacy/V1 `max_depth` control with default agent depth `1`, while the V2 configuration explicitly marks that V1 depth setting as ignored. V2 exposed concurrency control (including a default of 4 concurrent threads per session in the inspected source). Recursive trees deeper than the old V1 default had also been observed/reported, but those observations were not treated as a guaranteed supported depth contract.
+
+The lasting conceptual conclusion is therefore **not** “Claude supports N and Codex supports M.” It is:
+
+> technical ability to nest agents is separate from whether additional hierarchy is justified.
+
+Any implementation relying on specific nesting depths, environment variables, feature flags, or concurrency defaults should re-check current first-party product documentation/code at implementation time.
 
 ## Main value
 
@@ -372,7 +387,31 @@ collect review
 
 and the direction can be reversed.
 
-The bridge may be a shell script, Python program, CI workflow, service, or another orchestration layer. Programmatic/non-interactive CLI modes make this kind of sequencing possible where supported.
+The bridge may be a shell script, Python program, CI workflow, service, or another orchestration layer.
+
+### Programmatic sequencing discussed
+
+The conversation identified non-interactive/programmatic CLI execution as a simple basis for such orchestration: Codex can be invoked through non-interactive `codex exec`, and Claude Code can be used in a print/programmatic mode such as `claude -p`. An external process can wait for the first command to exit before launching the second.
+
+That means both directions are possible in principle:
+
+```text
+Claude Code finishes → Codex starts
+```
+
+and:
+
+```text
+Codex finishes → Claude Code starts
+```
+
+as well as longer loops such as:
+
+```text
+Claude → Codex review → Claude repair → Codex re-check
+```
+
+The orchestrator—not the products “sensing” one another—is what establishes the completion signal and sequencing.
 
 ## Why an external orchestrator can be preferable
 
@@ -695,7 +734,7 @@ The original image also contains a lower “2026 Production Stack” section des
 
 Therefore this file intentionally does **not** invent a conclusion about MCP, A2A, their relationship, their maturity, or whether that lower section of the image is accurate.
 
-Likewise, exact current product limits for Codex or Claude Code—nesting depth, concurrency, feature flags, CLI behavior, model defaults—are implementation details that can change. They were useful concrete examples in the discussion, but they should be freshly checked before being used as architecture constraints.
+Exact current product limits for Codex or Claude Code—nesting depth, concurrency, feature flags, CLI behavior, model defaults—are implementation details that can change. The product-specific observations above are retained because they were explicitly discussed and researched in this conversation, but they should not be treated as durable architecture constraints.
 
 ---
 
