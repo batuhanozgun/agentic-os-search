@@ -1,13 +1,14 @@
 # Domain State — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION  
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED AS REASONABLE ENOUGH FOR HIERARCHICAL CONTINUATION  
 **Authorised:** 2026-09-02  
 **Bounded node closure:** 2026-09-02  
+**User evaluation accepted:** 2026-09-03  
 **Parent:** Domain Reality  
 **Sibling:** Domain Dynamics / Processes — inactive  
 **Environment sibling:** Work Conditions / Enabling–Constraining Environment — inactive  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** user evaluation of this Domain State result only
+**Current authorised activity:** selection/planning of the next single research node only; no substantive node active
 
 ## Question answered
 
@@ -136,6 +137,12 @@ The completion/omission audit is **same-model adversarial self-review, not indep
 
 A current SEBoK article explicitly acknowledging OpenAI drafting support was excluded as load-bearing independent evidence.
 
+## User evaluation
+
+The user reviewed the simplified Domain State result on 2026-09-03 and reported no problem with the Structure/Composition versus Condition/Status distinction. Treat the result as accepted for continued hierarchical research, subject to the existing reopen conditions.
+
+This is not universal validation, final ontology or architecture truth.
+
 ## Preferred retrieval
 
 `KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → relevant finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md → primary source`
@@ -159,6 +166,6 @@ Reopen Domain State if:
 
 ## Next authorised work
 
-**USER EVALUATION OF THE DOMAIN STATE RESULT ONLY.**
+**SELECT / PLAN THE NEXT SINGLE RESEARCH NODE WITH THE USER.**
 
-Do not automatically activate `Domain Structure / Composition`, `Domain Condition / Status`, Domain Dynamics, Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation.
+No substantive node is active. Do not automatically activate `Domain Structure / Composition`, `Domain Condition / Status`, Domain Dynamics, Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation.
