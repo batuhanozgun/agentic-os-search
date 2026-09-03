@@ -1,6 +1,6 @@
 # Domain State — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Domain Structure closure; Structure awaiting user evaluation  
+**Status:** canonical freshness binding after bounded Domain Structure closure and user acceptance  
 **Date:** 2026-09-03  
 **Branch:** `main`
 
@@ -8,18 +8,18 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `c3a99508feaa56b4cfba6e8274c3a6a26b31aeb2` |
-| Router | `INDEX.md` | `c3eb98575b218cc8fab9036c7163967fa9adf52f` |
-| L0 key | `KEY.md` | `19b7386f838c88034722ffd71c158fc88b2e8e1d` |
+| Node state | `STATE.md` | `8265fa962e8e1f2bbe9499a41f67caf845b0d91d` |
+| Router | `INDEX.md` | `b5a217ab67f759d7119b5c55c4478d27a5360f0a` |
+| L0 key | `KEY.md` | `159d121ec2fcef865043e0cfb165af385874155e` |
 | L1 findings map | `FINDINGS-MAP.md` | `f3082713f0fd3f97801571dda5e7393ce66abc0c` |
 | Frozen historical Structure plan | `DOMAIN-STRUCTURE-RESEARCH-PLAN.md` | `fc402ad7dd0259cec4a831586766e0c1a1cfdad4` |
-| Domain Structure current surfaces | `domain-structure/CURRENT-SURFACES.md` | `efae949983e64e0669b8d66421b8896c4dbf5168` |
+| Domain Structure current surfaces | `domain-structure/CURRENT-SURFACES.md` | `8bd8d0b1e7e26f10d007d4e2c3702f0787d25619` |
 | Residual questions | `OPEN-QUESTIONS.md` | `554a54fb344348b1bfb32502cd165f754c14235f` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `6b331ef678a46fb9aaeb20a0d9cab68073d4143e` |
 
 ## Historical Domain State pass surfaces
 
-The following artifacts preserve the Domain State parent pass and are not retroactively rewritten to make the deeper Structure split appear pre-known:
+The following artifacts preserve the Domain State parent pass and are not retroactively rewritten to make the deeper Structure split or its later user acceptance appear pre-known:
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
@@ -46,7 +46,7 @@ The following artifacts preserve the Domain State parent pass and are not retroa
 
 ```text
 Domain State
-    ├─ Domain Structure                         ← bounded result; awaiting user evaluation
+    ├─ Domain Structure                         ← bounded result; user-evaluated / accepted
     │    ├─ Constituent Composition / Membership ← discovered; inactive
     │    └─ Relational Organization / Topology   ← discovered; inactive
     └─ Domain Condition / Status                ← discovered sibling; inactive
@@ -57,17 +57,19 @@ The deeper Structure pass refined `Domain Structure / Composition` to `Domain St
 ## Current sequence
 
 ```text
-Structure research → user evaluation
-→ Condition research → user evaluation
+Structure research      ← boundedly complete
+→ user evaluation       ← accepted 2026-09-03
+→ Condition research    ← next logical node; inactive / not yet planned or authorized
+→ user evaluation
 → Environment completion review
 → then decide whether Information should begin
 ```
 
-The Structure research step is now boundedly complete. The current gate is user evaluation.
-
 ## Authorization rule
 
-Current authorized work is **user evaluation of the bounded Domain Structure result only**.
+No substantive node is active. Current substantive authorization is **NONE**.
+
+The next logical step is Domain Condition / Status planning from the current canonical state, but this requires explicit user authorization.
 
 Do not activate either Structure child, Domain Condition / Status, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation without later explicit authorization.
 
