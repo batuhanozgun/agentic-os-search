@@ -1,23 +1,34 @@
 # Domain State — CURRENT SURFACES
 
-**Status:** canonical freshness binding after Domain Structure selection/planning; substantive Structure research not active  
+**Status:** canonical freshness binding after bounded Domain Structure closure; Structure awaiting user evaluation  
 **Date:** 2026-09-03  
 **Branch:** `main`
 
-## Entry surfaces
+## Current entry surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `9c72eb836c164d574fe36deeff1dbc8b0127993f` |
-| Router | `INDEX.md` | `887019991d82bc7bb1f44504575fa01dbc93ed7b` |
-| L0 key | `KEY.md` | `1c7ea731c2629a132d06a43ef3d9f9d90825c02e` |
-| Selected next-node plan | `DOMAIN-STRUCTURE-RESEARCH-PLAN.md` | `fc402ad7dd0259cec4a831586766e0c1a1cfdad4` |
-| L1 findings map | `FINDINGS-MAP.md` | `29d01710810399ce81b79051b1fb0840da13acf4` |
-| Executed Domain State research plan | `../DOMAIN-STATE-RESEARCH-PLAN.md` | `8f5cabdd360fee61cd31a230018591673c348f24` |
+| Node state | `STATE.md` | `c3a99508feaa56b4cfba6e8274c3a6a26b31aeb2` |
+| Router | `INDEX.md` | `c3eb98575b218cc8fab9036c7163967fa9adf52f` |
+| L0 key | `KEY.md` | `19b7386f838c88034722ffd71c158fc88b2e8e1d` |
+| L1 findings map | `FINDINGS-MAP.md` | `f3082713f0fd3f97801571dda5e7393ce66abc0c` |
+| Frozen historical Structure plan | `DOMAIN-STRUCTURE-RESEARCH-PLAN.md` | `fc402ad7dd0259cec4a831586766e0c1a1cfdad4` |
+| Domain Structure current surfaces | `domain-structure/CURRENT-SURFACES.md` | `efae949983e64e0669b8d66421b8896c4dbf5168` |
 | Residual questions | `OPEN-QUESTIONS.md` | `554a54fb344348b1bfb32502cd165f754c14235f` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `6b331ef678a46fb9aaeb20a0d9cab68073d4143e` |
 
-## Focused findings
+## Historical Domain State pass surfaces
+
+The following artifacts preserve the Domain State parent pass and are not retroactively rewritten to make the deeper Structure split appear pre-known:
+
+| Role | Path | Bound Git blob SHA |
+|---|---|---|
+| Integrated parent synthesis | `synthesis/DOMAIN-STATE-SYNTHESIS.md` | `2fb261ec3a4522f8482421674d4c12e9c584eb9b` |
+| Parent completion / omission audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | `4564baf491b6f2b6a7465d26b19fc80ad1769348` |
+| Parent source/view ledger | `evidence/SOURCE-LEDGER.md` | `352c75725f8e19fc751cc60ba07cd37a0891e2b6` |
+| Executed Domain State plan | `../DOMAIN-STATE-RESEARCH-PLAN.md` | `8f5cabdd360fee61cd31a230018591673c348f24` |
+
+## Historical focused findings
 
 | Finding | Bound Git blob SHA |
 |---|---|
@@ -31,30 +42,19 @@
 | `findings/08-rival-decomposition-and-child-result.md` | `19c2c214cd52414f190d4ce90eb80eff8b4ae1aa` |
 | `findings/09-domain-state-problem-map.md` | `26c347258cd6320dcfeeeddd93be485dea439c4c` |
 
-Findings tree: `d9d749dcc6d641abae5709ffd740aff5dbc16f83`.
-
-## Synthesis / audit / evidence
-
-| Role | Path | Bound Git blob SHA |
-|---|---|---|
-| Integrated synthesis | `synthesis/DOMAIN-STATE-SYNTHESIS.md` | `2fb261ec3a4522f8482421674d4c12e9c584eb9b` |
-| Completion / omission audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | `4564baf491b6f2b6a7465d26b19fc80ad1769348` |
-| Preserved source/view ledger with exact pre-pass parent snapshot | `evidence/SOURCE-LEDGER.md` | `352c75725f8e19fc751cc60ba07cd37a0891e2b6` |
-
-Synthesis tree: `cae93528289779a262315f16141703d257407f57`  
-Evidence tree: `d30a87b120945f2d1746b66c4f1c4c9ae954d4bd`
-
-The source ledger preserves the historical Domain State pass input separately from later sequencing changes.
-
-## Current bounded result / selected sequence
+## Current bounded hierarchy
 
 ```text
 Domain State
-    ├─ Domain Structure / Composition   ← selected/planned next; research not active
-    └─ Domain Condition / Status        ← discovered; intended after Structure evaluation
+    ├─ Domain Structure                         ← bounded result; awaiting user evaluation
+    │    ├─ Constituent Composition / Membership ← discovered; inactive
+    │    └─ Relational Organization / Topology   ← discovered; inactive
+    └─ Domain Condition / Status                ← discovered sibling; inactive
 ```
 
-Agreed continuation:
+The deeper Structure pass refined `Domain Structure / Composition` to `Domain Structure`. It did not reopen the parent Domain State split.
+
+## Current sequence
 
 ```text
 Structure research → user evaluation
@@ -63,22 +63,20 @@ Structure research → user evaluation
 → then decide whether Information should begin
 ```
 
-The Condition plan is intentionally deferred until after Structure research/evaluation so that it can use the then-current canonical state rather than premature assumptions.
+The Structure research step is now boundedly complete. The current gate is user evaluation.
 
 ## Authorization rule
 
-Current authorized work is **Domain Structure selection/planning only**. Planning is complete. No substantive node is active.
+Current authorized work is **user evaluation of the bounded Domain Structure result only**.
 
-A later explicit transition is required before Structure research begins.
+Do not activate either Structure child, Domain Condition / Status, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation without later explicit authorization.
 
 ## Retrieval rule
 
-For current sequencing/authorization:
-`STATE → DOMAIN-STRUCTURE-RESEARCH-PLAN → KEY`
+For current state:
+`STATE → KEY → domain-structure/STATE → domain-structure/KEY → domain-structure/CURRENT-SURFACES`.
 
-For established Domain State evidence:
-`KEY/FINDINGS-MAP → DOMAIN-STATE-SYNTHESIS → focused finding → audit/source ledger → primary source`
+For historical parent reasoning:
+`FINDINGS-MAP → parent synthesis/finding/audit/source ledger`.
 
-## Update rule
-
-If Structure research is activated, first bind the exact pre-pass Domain State snapshot and create/update the Structure research package/state as required by the hierarchical method. Then refresh Domain Reality → Environment → stage/root surfaces bottom-up.
+The pre-pass Structure input remains reconstructable from the historical SHAs recorded in `domain-structure/CURRENT-SURFACES.md`.
