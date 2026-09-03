@@ -1,26 +1,26 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; independent discovery and adequacy layers are closed; Environment parent, Domain State, Domain Dynamics and Work Conditions are user-evaluated for hierarchical continuation; no substantive node active
-**Work Conditions bounded closure:** 2026-09-03
-**Work Conditions user evaluation:** accepted 2026-09-03
-**Repository continuity status:** Work Conditions user evaluation synchronized bottom-up through its package, Environment, ground-deepening and foundation root on 2026-09-03
-**Current authorised substantive activity:** NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE
-**Current return condition:** select and plan one next research node with the user before substantive research begins
+**Status:** active research library; Environment research continues; Domain Structure selected/planned next; no substantive node active
+**Environment researched/user-evaluated so far:** parent, Domain Reality, Domain State, Domain Dynamics, Work Conditions
+**Environment continuation decision:** Structure → Condition → Environment completion review before any Information transition; accepted 2026-09-03
+**Repository continuity status:** sequencing decision and Structure plan synchronized bottom-up through Domain State, Domain Reality, Environment and ground-deepening on 2026-09-03
+**Current authorised substantive activity:** DOMAIN STRUCTURE SELECTION / PLANNING ONLY; PLANNING COMPLETE; NO SUBSTANTIVE NODE ACTIVE
+**Current return condition:** explicit user transition is required before Domain Structure substantive research begins
 
 ## Dependency state
 
 - `01_verticals/`: COMPLETE / USER-EVALUATED for original independent discovery questions.
 - `02_adequacy/`: BOUNDEDLY SUFFICIENT; USER-EVALUATED / ACCEPTED AS WORKING RESEARCH HYPOTHESIS.
 - `03_ground-deepening/`:
-  - Environment / Operating Reality: boundedly sufficient parent; current researched major branches user-evaluated.
-  - Domain Reality: boundedly sufficient; State/Dynamics child results user-evaluated.
+  - Environment / Operating Reality: active ground for completion sequencing; not yet handed off to Information.
+  - Domain Reality: boundedly sufficient; State/Dynamics results user-evaluated.
     - Domain State: boundedly sufficient; user-evaluated.
-      - Domain Structure / Composition: discovered; inactive.
-      - Domain Condition / Status: discovered; inactive.
+      - **Domain Structure / Composition: SELECTED / PLANNED NEXT; substantive research not active.**
+      - Domain Condition / Status: discovered; intended after Structure evaluation.
     - Domain Dynamics: bounded leaf; user-evaluated.
   - Work Conditions: bounded leaf; user-evaluated.
     - Technical Work Environment: retained deep technical specialization/profile; prior vertical user-evaluated.
-  - Information / Representation State: inactive.
+  - Information / Representation State: inactive; transition deferred pending Environment completion review.
   - Work coverage/gap audit: inactive.
   - Actors coverage/gap audit: inactive.
 - Cross-ground relation/control composition: not authorised.
@@ -44,69 +44,66 @@ This remains a research-routing hypothesis, not architecture, ontology, schema o
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition   ← inactive
-    │    │    └─ Domain Condition / Status        ← inactive
+    │    │    ├─ Domain Structure / Composition   ← selected/planned next; research not active
+    │    │    └─ Domain Condition / Status        ← discovered; intended after Structure evaluation
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
     └─ Work Conditions                            ← bounded leaf; user-evaluated
          ↳ Technical Work Environment             ← deep technical specialization/profile
 ```
 
-## Work Conditions bounded result
+## Current sequencing decision
 
-Starting label:
-- `Work Conditions / Enabling–Constraining Environment`.
+The user clarified the intended method and accepted this consequence:
 
-Current label:
-- **`Work Conditions`**.
+> Discovering a material child during a parent pass does not count as having researched that child. The child should receive its own pass when it remains materially under-supported.
 
-Current depth result:
-- Work Conditions asks which realized circumstances are materially load-bearing for whether/how focal Work can be performed;
-- it is a Work-relative analytical role over realized facts, not a second kind of reality;
-- no universal immediate child survives deeper cross-lineage/cross-domain falsification strongly enough for promotion;
-- Work Conditions is a bounded leaf at current universal foundation-research depth;
-- Technical Work Environment remains a deep technical specialization/profile, not a demonstrated universal immediate child;
-- the user evaluated the simplified result on 2026-09-03 and found it appropriate for hierarchical continuation.
-
-Strong boundaries retained:
+Therefore the current sequence is:
 
 ```text
-Work Conditions ≠ all ambient context
-Work Conditions ≠ Work internal lifecycle/state
-Work Conditions ≠ Actor capability/authority
-actual Work Condition ≠ observation/report/policy text
-resource exists ≠ accessible ≠ available ≠ sufficient
-Work Condition ≠ full actionability
-Domain Reality role ≠ Work Conditions role by object identity
+1. Domain Structure / Composition research
+2. user evaluation
+3. Domain Condition / Status research
+4. user evaluation
+5. explicit Environment completion review
+6. only then decide whether to transition to Information / Representation State
 ```
 
-## Work Conditions retrieval
+This is not a depth-for-symmetry rule. Each node may still close as a bounded leaf when further decomposition adds no material research value.
 
-Bounded package:
-`03_ground-deepening/grounds/environment/work-conditions/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/WORK-CONDITIONS-SYNTHESIS.md → relevant finding → completion/source recovery`
+## Selected Structure plan
 
-Executed pre-research plan:
-`03_ground-deepening/grounds/environment/WORK-CONDITIONS-RESEARCH-PLAN.md`
+Canonical plan:
+`03_ground-deepening/grounds/environment/domain-effect/domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md`
 
-Exact pre-pass Environment snapshot preserved by the Work Conditions package:
-- `CURRENT-SURFACES.md` blob `0bd03a434fdba0baed0821a7d73e2e7e4643b541`.
+Status:
+- next node selected;
+- planning complete;
+- substantive research not active;
+- Condition planning intentionally deferred until Structure evaluation.
 
 ## Method interpretation
 
-The current ground-deepening method is deliberately incremental: research one node, challenge its label/boundary/decomposition, preserve only distinctions that survive bounded adversarial testing, return the result for user evaluation, then select the next node. This gradually produces an evidence-backed **research hierarchy**. It does not yet constitute a final ontology, data model, control model or SOUL/Development OS architecture.
+The current ground-deepening method is deliberately incremental: research one node, challenge its label/boundary/decomposition, preserve only distinctions that survive bounded adversarial testing, return the result for user evaluation, then select the next node. This gradually produces an evidence-backed **research hierarchy**.
+
+It does not yet constitute a final ontology, data model, control model or SOUL/Development OS architecture.
 
 ## Verification status
 
-The Work Conditions completion/omission audit is same-model adversarial self-review, **not independent verification**. External source traditions and holdouts discriminate rival decompositions but do not independently validate the exact leaf result. Repository currentness/provenance checks and user evaluation do not convert research review into independent validation.
+Existing research completion/omission audits are same-model adversarial self-reviews, **not independent verification**. External source traditions and holdouts discriminate rival decompositions but do not independently validate the exact hierarchy. Repository currentness, user evaluation and sequencing decisions do not convert research review into independent validation.
 
 ## Current retrieval
 
-`STATE.md → INDEX.md → 03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md → grounds/environment/STATE.md → relevant current child result`
+`STATE.md → INDEX.md → 03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md → grounds/environment/STATE.md → domain-effect/domain-state/STATE.md → DOMAIN-STRUCTURE-RESEARCH-PLAN.md`
 
 For exact stage freshness:
 - `03_ground-deepening/CURRENT-SURFACES.md`.
 
+## Next logical work
+
+Execute the planned Domain Structure research pass.
+
 ## Current authorization
 
-**NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STRUCTURE IS SELECTED AND PLANNED, BUT SUBSTANTIVE RESEARCH IS NOT YET ACTIVE.**
 
-Do not activate Domain Structure, Domain Condition, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation automatically.
+Do not begin Structure research, Condition research, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation without the required later explicit transition.
