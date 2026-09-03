@@ -1,10 +1,11 @@
 # Domain Structure — STATE
 
-**Status:** BOUNDED RESEARCH RESULT; AWAITING USER EVALUATION; NO SUBSTANTIVE CHILD ACTIVE  
+**Status:** BOUNDED RESEARCH RESULT; USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE CHILD ACTIVE  
 **Activated:** 2026-09-03  
 **Bounded closure:** 2026-09-03  
+**User evaluation accepted:** 2026-09-03  
 **Parent:** `Domain State`  
-**Sibling:** `Domain Condition / Status` — inactive; intended only after Structure user evaluation and explicit next-step authorization  
+**Sibling:** `Domain Condition / Status` — inactive; next logical sibling; planning/research requires explicit next-step authorization  
 **Higher ground:** `Environment / Operating Reality`
 
 ## Current bounded result
@@ -27,7 +28,8 @@ Interpretation:
 - `Domain Structure` remains a coherent Domain State child;
 - `Composition` is too narrow as a co-primary synonym for the entire node and is retained below it;
 - two immediate analytical problem regions survive deeper split/merge and cross-domain falsification;
-- neither discovered child has been deep researched or activated.
+- neither discovered child has been deep researched or activated;
+- the user accepted this bounded result on 2026-09-03 without changing its verification status.
 
 ## Child questions
 
@@ -111,6 +113,8 @@ No external source independently validates the exact project hierarchy.
 
 The completion/omission audit is same-model adversarial self-review, **not independent verification**.
 
+User evaluation/acceptance does not convert this result into independent verification.
+
 ## Closure basis
 
 Frozen F1–F15 were explicitly tested. The strongest material change from the inherited hypothesis was:
@@ -129,16 +133,18 @@ Reopen if:
 - Actors/Information composition breaks institutional boundaries;
 - independent review produces a materially stronger decomposition.
 
-## Current return condition
+## User evaluation result
 
-Return this bounded Structure result to the user for evaluation.
+The user accepted the bounded Domain Structure result on 2026-09-03. No reopen trigger was raised.
 
-Do **not** automatically activate either Structure child, Domain Condition / Status, Information, cross-ground composition, architecture or implementation.
+This closes the Structure evaluation gate only. It does **not** activate either discovered Structure child or authorize the next sibling automatically.
 
 ## Next logical work
 
-Under the previously agreed Environment sequence: after user evaluation of this Structure result, plan/authorize the `Domain Condition / Status` research pass.
+Under the previously agreed Environment sequence, the next logical step is to select/plan the `Domain Condition / Status` research pass from the then-current canonical state.
 
 ## Next authorised work
 
-**USER EVALUATION OF DOMAIN STRUCTURE RESULT ONLY.**
+**NONE. AWAIT EXPLICIT USER AUTHORIZATION FOR THE NEXT SUBSTANTIVE PLANNING/RESEARCH STEP.**
+
+Do **not** automatically activate either Structure child, Domain Condition / Status, Information, cross-ground composition, architecture or implementation.
