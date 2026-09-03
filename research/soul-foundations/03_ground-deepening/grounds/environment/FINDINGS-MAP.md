@@ -1,6 +1,6 @@
 # Environment / Operating Reality — FINDINGS MAP
 
-**Status:** parent bounded/user-evaluated; Domain Reality continued; Domain State boundedly sufficient and awaiting user evaluation
+**Status:** parent bounded/user-evaluated; Domain Reality continued; Domain State user-evaluated for hierarchical continuation
 
 > **Pass-artifact provenance:** Focused findings, plans, source ledgers and completion audits may preserve the labels/status that were current during the pass that produced them. Current hierarchy, authorization and epistemic status come from this package's `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`. Pass-time terms such as `active`, `candidate` or older node labels are not current authorization.
 
@@ -66,7 +66,8 @@ Key corrections:
 - `Domain State / Configuration` → `Domain State`;
 - immediate children = `Domain Structure / Composition` + `Domain Condition / Status`;
 - Identity/Continuity, Constraints/Invariants, Granularity/State Sufficiency and actual-versus-represented State remain explicit cross-cutting dimensions/boundaries;
-- no third universal immediate State child is currently required.
+- no third universal immediate State child is currently required;
+- user evaluation accepted on 2026-09-03.
 
 ## Strong non-collapse rules
 
@@ -94,4 +95,4 @@ Domain State:
 
 ## Guardrail
 
-No substantive node is currently active. Current authorised work is user evaluation of Domain State only. Structure, Condition, Dynamics and Work Conditions are inactive.
+No substantive node is currently active. Current authorised work is next-node selection/planning with the user; Structure, Condition, Dynamics and Work Conditions remain inactive until separately authorised.
