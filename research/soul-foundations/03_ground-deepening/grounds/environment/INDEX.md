@@ -6,7 +6,9 @@ Current router for the user-evaluated Environment parent, Domain Reality result 
 
 ## Current status
 
-**DOMAIN STATE BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STATE USER-EVALUATED FOR HIERARCHICAL CONTINUATION; NO SUBSTANTIVE NODE ACTIVE.**
+
+The next task is selection/planning of one next research node with the user.
 
 ## Reading order
 
@@ -42,15 +44,16 @@ Environment / Operating Reality
 Main State correction:
 - `Domain State / Configuration` → `Domain State`;
 - immediate children = `Domain Structure / Composition` + `Domain Condition / Status`;
-- no third universal immediate State child currently required.
+- no third universal immediate State child currently required;
+- user evaluation accepted on 2026-09-03.
 
 ## Hierarchical method
 
 Read:
 - `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-Node closure does not authorize any discovered child or sibling.
+Node closure or user evaluation does not automatically authorize any discovered child or sibling.
 
 ## Guardrail
 
-No substantive node is active. Current authorized activity is user evaluation of Domain State only. Do not begin Structure, Condition, Dynamics, Work Conditions, Information, Work, Actors, systematic composition or architecture without explicit authorization.
+No substantive node is active. Current authorized activity is next-node selection/planning with the user. Do not begin Structure, Condition, Dynamics, Work Conditions, Information, Work, Actors, systematic composition or architecture without explicit authorization.
