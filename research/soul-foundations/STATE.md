@@ -1,7 +1,7 @@
 # SOUL Foundations — STATE
 
 **Status:** active research library; independent discovery and adequacy layers are closed; Environment parent and Domain Reality are user-evaluated for hierarchical continuation; Domain State is boundedly sufficient and awaiting user evaluation  
-**Repository cleanup/currentness verification:** deep verification completed on 2026-09-02; nested retrieval paths, executed-pass metadata, pass-artifact provenance and exact manifest chain were checked/repaired and synchronized without changing the research conclusions  
+**Repository cleanup/currentness verification:** deep verification completed on 2026-09-03; nested retrieval paths, executed-pass metadata, pass-artifact provenance, exact pre-pass parent snapshots and the bottom-up manifest chain were checked/repaired and synchronized without changing the research conclusions  
 **Current authorised substantive activity:** USER EVALUATION OF THE DOMAIN STATE RESULT ONLY  
 **Current return condition:** user evaluates Domain State before any child/sibling/other ground is activated
 
@@ -107,11 +107,21 @@ Current Domain State result:
 
 Plans, focused findings, source ledgers and completion audits may preserve labels/status from the pass that produced them for research reconstruction. They do not override current `STATE`/`KEY`/router/manifest surfaces and do not authorize work merely because pass-time text says `active`, `candidate` or uses a later-refined label.
 
+For completed nested passes, source ledgers distinguish:
+- **current navigation paths** — where the corresponding evidence family lives now;
+- **exact pass-input snapshots** — content-addressed parent `CURRENT-SURFACES.md` blobs representing what was current when that pass began.
+
+Currently bound historical anchors:
+- Domain Reality pass input → Environment manifest blob `d5dd0bd7f4c3663d5d41b71b7f616f83ad229456`;
+- Domain State pass input → Domain Reality manifest blob `74f893b631700d89bdfd409382aa6fc2c9383e86`.
+
+This prevents later parent edits from being silently substituted for evidence available to an earlier pass.
+
 ## Verification status
 
 The Domain State completion/omission review is same-model adversarial self-review, **not independent verification**. External sources support discriminating claims but do not independently validate the exact project hierarchy.
 
-Repository currentness verification checks routing/freshness integrity; it does not convert same-model research review into independent validation.
+Repository currentness verification checks routing/freshness/provenance integrity; it does not convert same-model research review into independent validation.
 
 ## Current authorization
 
