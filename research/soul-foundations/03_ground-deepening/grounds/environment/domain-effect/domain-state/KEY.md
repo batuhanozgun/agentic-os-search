@@ -1,129 +1,117 @@
 # Domain State — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT; USER-EVALUATED; DOMAIN STRUCTURE SELECTED / PLANNED NEXT; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDEDLY SUFFICIENT; USER-EVALUATED; DOMAIN STRUCTURE BOUNDED / AWAITING USER EVALUATION  
 **Date:** 2026-09-03  
 **Parent:** Domain Reality
 
 ## Shortest result
 
-The child previously labeled `Domain State / Configuration` is better framed as:
+The node previously labeled `Domain State / Configuration` remains best framed as:
 
 > **Domain State**
 
-Strongest current immediate hierarchy:
+Current hierarchy after the deeper Structure pass:
 
 ```text
 Domain State
-    ├─ Domain Structure / Composition   ← selected/planned next; research not active
-    └─ Domain Condition / Status        ← discovered; intended after Structure evaluation
+    ├─ Domain Structure
+    │    ├─ Constituent Composition / Membership   ← discovered; inactive
+    │    └─ Relational Organization / Topology     ← discovered; inactive
+    └─ Domain Condition / Status                   ← discovered; inactive
 ```
 
-These are analytical problem branches, not object classes or schema sections.
+These are analytical problem branches, not object classes, schema sections or architecture modules.
 
-## Child 1 — Domain Structure / Composition
+## Child 1 — Domain Structure
 
-Question:
+Primary parent-level question:
 
-> **What materially relevant constituents are actually present, and how are they actually composed/organized/connected at the selected scope and time?**
+> **What materially relevant constituents are actually present/participating, and how is the selected structure actually organized at the selected scope and time?**
 
-Includes when material:
-- constituent presence;
-- part–whole composition;
-- nesting;
-- realized relations/topology;
-- containment/placement/arrangement;
-- actual installed/deployed/assembled structure.
+The deeper Structure pass refined the inherited `Domain Structure / Composition` label to `Domain Structure` and found two immediate problem regions:
+
+### Constituent Composition / Membership
+
+> Which materially relevant constituents actually participate in or make up the selected whole/scope, including materially relevant part–whole and nested membership?
+
+### Relational Organization / Topology
+
+> How are the relevant constituents actually structurally related, connected, arranged, contained or interfaced at the selected scope/time?
+
+The split is semantic, not graph `node` versus `edge` primitives.
 
 ## Child 2 — Domain Condition / Status
 
-Question:
+Primary question:
 
 > **What materially relevant properties, values, qualities, health, mode, status or standing actually hold at the selected scope and time?**
 
-Includes when material:
-- current properties/values;
-- health/condition;
-- current mode/status;
-- current whole/part condition;
-- institutional/social standing in its Domain role.
+Condition has not yet received its own substantive child pass.
 
-## Why these are separate
+## Parent boundary survives
 
-Correct structure does not establish correct condition, and correct condition readings do not establish correct structure.
+Correct structure does not establish correct condition, and correct condition evidence does not establish correct structure.
 
-Examples of different failure classes:
-- healthy components arranged/connected incorrectly;
-- correct topology with an unhealthy/degraded component;
-- correct measured values for an incomplete/wrong constituent set;
-- correct institutional structure with changed current standing.
+Likewise, deeper Structure research did not expose a third co-equal Domain State region.
 
-## No third immediate child currently required
+## Structure pass result
 
-Candidates tested and not promoted:
-- Constituents as separate from Relations/Topology;
-- Identity / Continuity;
-- Constraints / Invariants;
-- Granularity / State Sufficiency;
-- Space / Time;
-- Observability / Uncertainty;
-- actual-vs-represented state;
-- physical/digital/social/institutional type branches.
+`Domain Structure` is not a bounded leaf at the current depth. Two immediate first-order regions survived:
 
-They currently remain cross-cutting dimensions, boundary relations or domain specializations.
+```text
+what constitutes / participates in the whole
+vs
+how those constituents are structurally organized
+```
+
+Tested but not promoted as separate universal Structure children:
+- spatial arrangement/containment;
+- hierarchy versus network;
+- interfaces/boundaries/couplings;
+- identity/continuity;
+- constraints/invariants;
+- scale/granularity;
+- physical/digital/biological/social type branches.
 
 ## Strong non-collapse rules
 
 ```text
 Domain State ≠ one formal/model state vector
-actual Structure ≠ architecture/baseline/inventory by identity
+Domain Structure ≠ Domain Condition / Status
+actual Structure ≠ architecture/baseline/BOM/inventory/topology model by identity
 actual Condition ≠ observed/reported/cached status by identity
-Structure ≠ Dynamics
-Condition ≠ Dynamics
-identity/continuity ≠ State-only child
+current Structure ≠ Dynamics
+structural relation ≠ interaction/process by identity
+identity/continuity ≠ State-only or Structure-only child
 constraint/invariant ≠ current State by identity
-current condition ≠ causal explanation
+current State difference ≠ causal explanation
 ```
-
-Some institutional/social states may be constituted through rules/collective practices. The required distinction is from any **particular representation**, not metaphysical independence from all representation.
-
-## Current sequencing decision
-
-The user clarified and accepted the following method application:
-
-> A child discovered by the parent research is not treated as already researched. Material discovered children should receive their own passes before Environment is considered complete enough to leave.
-
-Therefore:
-
-```text
-1. Domain Structure / Composition
-2. user evaluation
-3. Domain Condition / Status
-4. user evaluation
-5. Environment completion review
-6. then decide whether to transition to Information
-```
-
-Structure planning surface:
-- `DOMAIN-STRUCTURE-RESEARCH-PLAN.md`
-
-The plan is frozen, but Structure substantive research is not active yet.
 
 ## Verification limit
 
-The Domain State completion audit is same-model adversarial review, not independent verification. External traditions support discriminating claims but do not independently validate this exact two-child hierarchy. User evaluation and sequencing do not alter that verification status.
+Both Domain State and Structure completion audits are same-model adversarial self-review, not independent verification. External traditions discriminate alternatives but do not independently validate this exact hierarchy.
 
 ## Go deeper
 
-- selected Structure plan → `DOMAIN-STRUCTURE-RESEARCH-PLAN.md`
-- topic route → `FINDINGS-MAP.md`
-- integrated parent result → `synthesis/DOMAIN-STATE-SYNTHESIS.md`
-- parent completion audit → `synthesis/COMPLETENESS-OMISSION-CHECK.md`
-- source recovery → `evidence/SOURCE-LEDGER.md`
-- residuals → `OPEN-QUESTIONS.md`
-- deferred relations → `DEFERRED-RELATIONS.md`
+- Structure current result → `domain-structure/KEY.md`
+- Structure synthesis → `domain-structure/synthesis/DOMAIN-STRUCTURE-SYNTHESIS.md`
+- Structure audit → `domain-structure/synthesis/COMPLETENESS-OMISSION-CHECK.md`
+- Structure sources → `domain-structure/evidence/SOURCE-LEDGER.md`
+- Structure exact freshness → `domain-structure/CURRENT-SURFACES.md`
+- parent topic route → `FINDINGS-MAP.md`
+- integrated parent result → `synthesis/DOMAIN-STATE-SYNTHESIS.md` (historical parent-pass synthesis; later Structure refinement is routed separately)
 
-## Authorization
+## Sequence / authorization
 
-**Domain Structure is selected and planned; no substantive node is active.**
+The agreed sequence remains:
 
-A later explicit transition is required to begin Structure research.
+```text
+Structure research → user evaluation
+→ Condition research → user evaluation
+→ Environment completion review
+→ then decide whether Information should begin
+```
+
+Structure research is now boundedly complete; **current authorized work is user evaluation only**.
+
+Do not activate a Structure child or Condition automatically.
