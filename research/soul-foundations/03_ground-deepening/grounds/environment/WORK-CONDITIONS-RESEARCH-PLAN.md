@@ -1,10 +1,12 @@
 # Work Conditions — Research Plan
 
-**Status:** EXECUTING / SUBSTANTIVE RESEARCH AUTHORISED
+**Status:** EXECUTED / PRESERVED PRE-RESEARCH CONTROL
 **Date:** 2026-09-03
 **Parent:** Environment / Operating Reality
 **Sibling:** Domain Reality — boundedly sufficient; State and Dynamics user-evaluated
 **Other grounds:** inactive except as boundary references
+
+> This plan preserves the framing attacks, falsifiers and closure criteria that governed the Work Conditions pass. Current result/status/authorization live in `work-conditions/STATE.md`, `KEY.md`, `FINDINGS-MAP.md` and `CURRENT-SURFACES.md`.
 
 ## Research question
 
