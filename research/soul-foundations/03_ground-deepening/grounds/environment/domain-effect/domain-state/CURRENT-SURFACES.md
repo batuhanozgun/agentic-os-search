@@ -40,10 +40,12 @@ Focused findings preserve pass-time candidate/provisional metadata where useful 
 |---|---|---|
 | Integrated synthesis | `synthesis/DOMAIN-STATE-SYNTHESIS.md` | `2fb261ec3a4522f8482421674d4c12e9c584eb9b` |
 | Completion / omission audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | `4564baf491b6f2b6a7465d26b19fc80ad1769348` |
-| Preserved source/view ledger | `evidence/SOURCE-LEDGER.md` | `f9be4b1d2eeb9fb38b1a4826c94b20b406b9fa10` |
+| Preserved source/view ledger with exact pre-pass parent snapshot | `evidence/SOURCE-LEDGER.md` | `352c75725f8e19fc751cc60ba07cd37a0891e2b6` |
 
 Synthesis tree: `cae93528289779a262315f16141703d257407f57`  
-Evidence tree: `6915ca57de1cf81debb3de9fc0a16e95b7cdd30f`
+Evidence tree: `d30a87b120945f2d1746b66c4f1c4c9ae954d4bd`
+
+The source ledger distinguishes current navigation paths from the exact historical Domain Reality pass-input snapshot (`CURRENT-SURFACES.md` blob `74f893b631700d89bdfd409382aa6fc2c9383e86`).
 
 ## Current bounded result
 
@@ -62,6 +64,8 @@ The node is closed for bounded immediate-child research and awaits user evaluati
 ## Retrieval rule
 
 `STATE → KEY/FINDINGS-MAP → DOMAIN-STATE-SYNTHESIS → focused finding → audit/source ledger → primary source`
+
+For historical pass reconstruction use the exact pass-input snapshot anchor in `evidence/SOURCE-LEDGER.md`, not current parent paths alone.
 
 ## Update rule
 
