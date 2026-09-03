@@ -1,23 +1,24 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; independent discovery and adequacy layers are closed; Environment parent, Domain State and Domain Dynamics are user-evaluated; Work Conditions is boundedly sufficient and awaiting user evaluation; no substantive node active
+**Status:** active research library; independent discovery and adequacy layers are closed; Environment parent, Domain State, Domain Dynamics and Work Conditions are user-evaluated for hierarchical continuation; no substantive node active
 **Work Conditions bounded closure:** 2026-09-03
-**Repository continuity status:** Work Conditions closure synchronized through its package, Environment and ground-deepening; root current state now reflects the closure
-**Current authorised substantive activity:** USER EVALUATION OF WORK CONDITIONS ONLY; NO SUBSTANTIVE NODE ACTIVE
-**Current return condition:** return the bounded Work Conditions result to the user; do not select or activate a next node before that evaluation/transition decision
+**Work Conditions user evaluation:** accepted 2026-09-03
+**Repository continuity status:** Work Conditions user evaluation synchronized bottom-up through its package, Environment, ground-deepening and foundation root on 2026-09-03
+**Current authorised substantive activity:** NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE
+**Current return condition:** select and plan one next research node with the user before substantive research begins
 
 ## Dependency state
 
 - `01_verticals/`: COMPLETE / USER-EVALUATED for original independent discovery questions.
 - `02_adequacy/`: BOUNDEDLY SUFFICIENT; USER-EVALUATED / ACCEPTED AS WORKING RESEARCH HYPOTHESIS.
 - `03_ground-deepening/`:
-  - Environment / Operating Reality: boundedly sufficient parent; Work Conditions evaluation pending.
+  - Environment / Operating Reality: boundedly sufficient parent; current researched major branches user-evaluated.
   - Domain Reality: boundedly sufficient; State/Dynamics child results user-evaluated.
     - Domain State: boundedly sufficient; user-evaluated.
       - Domain Structure / Composition: discovered; inactive.
       - Domain Condition / Status: discovered; inactive.
     - Domain Dynamics: bounded leaf; user-evaluated.
-  - **Work Conditions: BOUNDED LEAF; AWAITING USER EVALUATION.**
+  - Work Conditions: bounded leaf; user-evaluated.
     - Technical Work Environment: retained deep technical specialization/profile; prior vertical user-evaluated.
   - Information / Representation State: inactive.
   - Work coverage/gap audit: inactive.
@@ -46,7 +47,7 @@ Environment / Operating Reality
     │    │    ├─ Domain Structure / Composition   ← inactive
     │    │    └─ Domain Condition / Status        ← inactive
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← bounded leaf; awaiting user evaluation
+    └─ Work Conditions                            ← bounded leaf; user-evaluated
          ↳ Technical Work Environment             ← deep technical specialization/profile
 ```
 
@@ -63,7 +64,8 @@ Current depth result:
 - it is a Work-relative analytical role over realized facts, not a second kind of reality;
 - no universal immediate child survives deeper cross-lineage/cross-domain falsification strongly enough for promotion;
 - Work Conditions is a bounded leaf at current universal foundation-research depth;
-- Technical Work Environment remains a deep technical specialization/profile, not a demonstrated universal immediate child.
+- Technical Work Environment remains a deep technical specialization/profile, not a demonstrated universal immediate child;
+- the user evaluated the simplified result on 2026-09-03 and found it appropriate for hierarchical continuation.
 
 Strong boundaries retained:
 
@@ -88,19 +90,23 @@ Executed pre-research plan:
 Exact pre-pass Environment snapshot preserved by the Work Conditions package:
 - `CURRENT-SURFACES.md` blob `0bd03a434fdba0baed0821a7d73e2e7e4643b541`.
 
+## Method interpretation
+
+The current ground-deepening method is deliberately incremental: research one node, challenge its label/boundary/decomposition, preserve only distinctions that survive bounded adversarial testing, return the result for user evaluation, then select the next node. This gradually produces an evidence-backed **research hierarchy**. It does not yet constitute a final ontology, data model, control model or SOUL/Development OS architecture.
+
 ## Verification status
 
-The Work Conditions completion/omission audit is same-model adversarial self-review, **not independent verification**. External source traditions and holdouts discriminate rival decompositions but do not independently validate the exact leaf result. Repository currentness/provenance checks do not convert research review into independent validation.
+The Work Conditions completion/omission audit is same-model adversarial self-review, **not independent verification**. External source traditions and holdouts discriminate rival decompositions but do not independently validate the exact leaf result. Repository currentness/provenance checks and user evaluation do not convert research review into independent validation.
 
 ## Current retrieval
 
-`STATE.md → INDEX.md → 03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md → grounds/environment/STATE.md → work-conditions/STATE.md → KEY/synthesis/audit/source recovery`
+`STATE.md → INDEX.md → 03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md → grounds/environment/STATE.md → relevant current child result`
 
 For exact stage freshness:
 - `03_ground-deepening/CURRENT-SURFACES.md`.
 
 ## Current authorization
 
-**USER EVALUATION OF WORK CONDITIONS ONLY; NO SUBSTANTIVE NODE ACTIVE.**
+**NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE.**
 
 Do not activate Domain Structure, Domain Condition, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation automatically.
