@@ -2,72 +2,40 @@
 
 ## Role
 
-Current router for the bounded Domain Reality result and its deeper Domain State, Structure, Condition and Dynamics results.
+Current router for the bounded Domain Reality result after the explicit Environment completion review.
 
 ## Current status
 
-**DOMAIN CONDITION BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
-
-Current authorization is user evaluation of the bounded Condition result only.
+**DOMAIN REALITY RETAINED; DYNAMICS LEAF RETAINED; FOUR DOMAIN STATE DESCENDANTS REMAIN UNRESEARCHED; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Read order
 
-1. `STATE.md` — current Domain Reality authorization/state.
+1. `STATE.md` — current Domain Reality state.
 2. `KEY.md` — shortest current hierarchy.
-3. current State result → `domain-state/STATE.md` / `KEY.md`.
-4. current Condition result → `domain-state/domain-condition/STATE.md` / `KEY.md` / `CURRENT-SURFACES.md`.
-5. current Structure result → `domain-state/domain-structure/STATE.md` / `KEY.md`.
-6. current Dynamics result → `domain-dynamics/STATE.md` / `KEY.md`.
-7. original Domain Reality evidence → `FINDINGS-MAP.md` / synthesis when needed.
-8. relevant child findings/audit/source ledger when decision-critical.
-9. `CURRENT-SURFACES.md` — exact current freshness binding.
+3. Domain State → `domain-state/STATE.md` / `KEY.md`.
+4. Structure/Condition child packages as needed.
+5. Domain Dynamics → `domain-dynamics/STATE.md`.
+6. Environment completion review → `../completion-review/STATE.md` → `KEY.md` → synthesis/audit.
+7. `CURRENT-SURFACES.md` — exact freshness.
 
-Executed plans are historical pass reconstruction surfaces, not current authorization:
-- `domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md`
-- `domain-state/DOMAIN-CONDITION-RESEARCH-PLAN.md`
-
-## Current hierarchy and continuation
+## Current hierarchy
 
 ```text
 Domain Reality
     ├─ Domain State
-    │    ├─ Domain Structure                         ← bounded / accepted
-    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
-    │    │    └─ Relational Organization / Topology   ← discovered; inactive
-    │    └─ Domain Condition                         ← bounded; awaiting user evaluation
-    │         ├─ Realized Characteristics / Values    ← discovered; inactive
-    │         └─ Criterion-Relative Standing / Status ← discovered; inactive
-    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
+    │    ├─ Domain Structure
+    │    │    ├─ Constituent Composition / Membership   ← promoted; inactive; not researched
+    │    │    └─ Relational Organization / Topology     ← promoted; inactive; not researched
+    │    └─ Domain Condition
+    │         ├─ Realized Characteristics / Values       ← promoted; inactive; not researched
+    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive; not researched
+    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
 ```
 
-Agreed continuation:
+## Completion-review impact
 
-```text
-Structure research/evaluation ← complete / accepted
-Condition research             ← boundedly complete
-Condition user evaluation      ← CURRENT GATE
-Environment completion review  ← inactive; later explicit stage
-Information decision           ← only after Environment completion review
-```
-
-## Domain State route
-
-`domain-state/STATE.md → domain-state/KEY.md → relevant deeper child package`
-
-Condition result:
-- inherited `Domain Condition / Status` → `Domain Condition`;
-- immediate discovered regions = `Realized Characteristics / Values` + `Criterion-Relative Standing / Status`;
-- no discovered Condition child is active;
-- no third co-equal Domain State region was exposed.
-
-## Domain Dynamics route
-
-`domain-dynamics/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md`
-
-Dynamics remains a bounded leaf and user-evaluated.
+No Domain Reality parent reopen occurred. The blocker to Environment completion is focused descendant deepening under Structure and Condition.
 
 ## Guardrail
 
-No substantive node is active.
-
-Do not activate a Condition child, Structure child, Environment completion review, Information, composition, architecture, ontology/schema or implementation without later explicit authorization.
+No descendant and no Information ground is active. Current gate is user evaluation of the Environment completion review.
