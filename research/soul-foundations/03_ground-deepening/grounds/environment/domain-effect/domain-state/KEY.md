@@ -1,7 +1,7 @@
 # Domain State — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT; USER-EVALUATED PARENT; STRUCTURE ACCEPTED; CONDITION BOUNDED / AWAITING USER EVALUATION  
-**Date:** 2026-09-03  
+**Status:** BOUNDEDLY SUFFICIENT PARENT; USER-EVALUATED; STRUCTURE AND CONDITION ACCEPTED; DESCENDANT RESEARCH DEBT RETAINED  
+**Date:** 2026-09-04  
 **Parent:** Domain Reality
 
 ## Shortest current result
@@ -9,54 +9,24 @@
 ```text
 Domain State
     ├─ Domain Structure
-    │    ├─ Constituent Composition / Membership
-    │    └─ Relational Organization / Topology
+    │    ├─ Constituent Composition / Membership   ← promoted; inactive; not researched
+    │    └─ Relational Organization / Topology     ← promoted; inactive; not researched
     └─ Domain Condition
-         ├─ Realized Characteristics / Values
-         └─ Criterion-Relative Standing / Status
+         ├─ Realized Characteristics / Values       ← promoted; inactive; not researched
+         └─ Criterion-Relative Standing / Status    ← promoted; inactive; not researched
 ```
 
-These are analytical problem regions, not object/schema/architecture classes.
+Structure and Condition bounded results are user-evaluated / accepted.
 
-## Domain Structure
+## Environment completion-review impact
 
-Parent-level question:
+The explicit Environment completion review retained the Domain State hierarchy but judged that all four promoted descendants remain material research debts under `G3 — Selective deepening` and the one-level method.
 
-> What materially relevant constituents actually participate, and how is the selected structure actually organized?
-
-Deeper result:
-- **Constituent Composition / Membership** — what participates / what is part of what;
-- **Relational Organization / Topology** — how relevant constituents are structurally related/connected/arranged.
-
-Structure result: bounded / user-evaluated / accepted.
-
-## Domain Condition
-
-Parent-level question:
-
-> What materially relevant non-structural current condition actually obtains at the selected scope and time?
-
-The inherited `Domain Condition / Status` label was refined to `Domain Condition`.
-
-Deeper result:
-
-### Realized Characteristics / Values
-
-> What materially relevant characteristics, quantities, qualitative values, modes or relational conditions actually obtain before asking whether they satisfy a separate criterion?
-
-### Criterion-Relative Standing / Status
-
-> Relative to a materially relevant functional, normative, regulatory or domain criterion, what standing currently obtains?
-
-Examples include healthy/degraded, ready/not-ready, compliant/non-compliant, valid/invalid or good-standing/not-good-standing when these are true domain standings rather than merely reports.
-
-## Why the Condition split matters
-
-Current facts and standing can fail independently:
-- correct facts + wrong/inapplicable criterion → wrong standing;
-- correct standing can sometimes be established without reconstructing every underlying non-load-bearing fact.
-
-The split is semantic, not raw-vs-derived, scalar-vs-enum or physical-vs-social.
+Therefore:
+- Domain State parent does not reopen;
+- Structure/Condition parent results remain accepted;
+- none of the four descendants is considered substantively researched merely because its parent pass promoted it;
+- Environment cannot yet close while these debts remain.
 
 ## Strong non-collapse rules
 
@@ -73,7 +43,7 @@ current State difference ≠ causal explanation
 
 ## Verification limit
 
-The completion audits are same-model adversarial self-reviews, not independent verification. External sources discriminate rivals but do not independently validate this exact hierarchy.
+Underlying node audits and the Environment completion review are same-model adversarial self-reviews, not independent verification.
 
 ## Go deeper
 
@@ -84,19 +54,16 @@ Structure:
 Condition:
 - `domain-condition/STATE.md`
 - `domain-condition/KEY.md`
-- `domain-condition/FINDINGS-MAP.md`
-- `domain-condition/synthesis/DOMAIN-CONDITION-SYNTHESIS.md`
-- `domain-condition/CURRENT-SURFACES.md`
 
-Historical parent synthesis remains `synthesis/DOMAIN-STATE-SYNTHESIS.md`; deeper child refinements are routed separately.
+Environment completion review:
+- `../../completion-review/STATE.md`
+- `../../completion-review/KEY.md`
+- `../../completion-review/synthesis/ENVIRONMENT-COMPLETION-REVIEW.md`
 
 ## Sequence / authorization
 
-```text
-Structure research/evaluation ← complete / accepted
-Condition research             ← boundedly complete
-Condition user evaluation      ← CURRENT GATE
-Environment completion review  ← later
-```
+The completion review is bounded and awaiting user evaluation. No descendant is active.
 
-Current authorized work is **user evaluation of Domain Condition only**.
+Recommended next selection after user evaluation: `Constituent Composition / Membership`.
+
+Do not activate it automatically.
