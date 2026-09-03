@@ -1,6 +1,6 @@
 # Domain State — CURRENT SURFACES
 
-**Status:** canonical freshness binding for bounded, user-evaluated Domain State immediate-child result  
+**Status:** canonical freshness binding after Domain Structure selection/planning; substantive Structure research not active  
 **Date:** 2026-09-03  
 **Branch:** `main`
 
@@ -8,11 +8,12 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `968b746d3cfe97726abb1a1d9342b6415b70350e` |
-| Router | `INDEX.md` | `361c61012a39b0ad365606c3d8b1d45a10780540` |
-| L0 key | `KEY.md` | `26d5b1670bf1ce949e076f5cce0a4866a82d652b` |
+| Node state | `STATE.md` | `9c72eb836c164d574fe36deeff1dbc8b0127993f` |
+| Router | `INDEX.md` | `887019991d82bc7bb1f44504575fa01dbc93ed7b` |
+| L0 key | `KEY.md` | `1c7ea731c2629a132d06a43ef3d9f9d90825c02e` |
+| Selected next-node plan | `DOMAIN-STRUCTURE-RESEARCH-PLAN.md` | `fc402ad7dd0259cec4a831586766e0c1a1cfdad4` |
 | L1 findings map | `FINDINGS-MAP.md` | `29d01710810399ce81b79051b1fb0840da13acf4` |
-| Executed research plan | `../DOMAIN-STATE-RESEARCH-PLAN.md` | `8f5cabdd360fee61cd31a230018591673c348f24` |
+| Executed Domain State research plan | `../DOMAIN-STATE-RESEARCH-PLAN.md` | `8f5cabdd360fee61cd31a230018591673c348f24` |
 | Residual questions | `OPEN-QUESTIONS.md` | `554a54fb344348b1bfb32502cd165f754c14235f` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `6b331ef678a46fb9aaeb20a0d9cab68073d4143e` |
 
@@ -30,9 +31,7 @@
 | `findings/08-rival-decomposition-and-child-result.md` | `19c2c214cd52414f190d4ce90eb80eff8b4ae1aa` |
 | `findings/09-domain-state-problem-map.md` | `26c347258cd6320dcfeeeddd93be485dea439c4c` |
 
-Findings tree: `d9d749dcc6d641abae5709ffd740aff5dbc16f83`
-
-Focused findings preserve pass-time candidate/provisional metadata where useful for reconstruction. `STATE.md`, `KEY.md`, `FINDINGS-MAP.md` and this manifest carry current status/authorization.
+Findings tree: `d9d749dcc6d641abae5709ffd740aff5dbc16f83`.
 
 ## Synthesis / audit / evidence
 
@@ -45,30 +44,41 @@ Focused findings preserve pass-time candidate/provisional metadata where useful 
 Synthesis tree: `cae93528289779a262315f16141703d257407f57`  
 Evidence tree: `d30a87b120945f2d1746b66c4f1c4c9ae954d4bd`
 
-The source ledger distinguishes current navigation paths from the exact historical Domain Reality pass-input snapshot (`CURRENT-SURFACES.md` blob `74f893b631700d89bdfd409382aa6fc2c9383e86`).
+The source ledger preserves the historical Domain State pass input separately from later sequencing changes.
 
-## Current bounded result
+## Current bounded result / selected sequence
 
 ```text
 Domain State
-    ├─ Domain Structure / Composition
-    └─ Domain Condition / Status
+    ├─ Domain Structure / Composition   ← selected/planned next; research not active
+    └─ Domain Condition / Status        ← discovered; intended after Structure evaluation
 ```
 
-`Domain State / Configuration` is refined to `Domain State`. Identity/Continuity, Constraints/Invariants, Granularity/State Sufficiency, actual-versus-represented State and related dimensions remain explicit cross-cutting/boundary questions rather than co-equal children at this level.
+Agreed continuation:
 
-## User evaluation / authorization rule
+```text
+Structure research → user evaluation
+→ Condition research → user evaluation
+→ Environment completion review
+→ then decide whether Information should begin
+```
 
-The node is closed for bounded immediate-child research and was user-evaluated on 2026-09-03 as reasonable enough for hierarchical continuation. `Domain Structure / Composition`, `Domain Condition / Status`, Domain Dynamics, Work Conditions and other grounds remain inactive.
+The Condition plan is intentionally deferred until after Structure research/evaluation so that it can use the then-current canonical state rather than premature assumptions.
 
-Current authorised work is selection/planning of one next research node with the user; substantive research activation remains separate.
+## Authorization rule
+
+Current authorized work is **Domain Structure selection/planning only**. Planning is complete. No substantive node is active.
+
+A later explicit transition is required before Structure research begins.
 
 ## Retrieval rule
 
-`STATE → KEY/FINDINGS-MAP → DOMAIN-STATE-SYNTHESIS → focused finding → audit/source ledger → primary source`
+For current sequencing/authorization:
+`STATE → DOMAIN-STRUCTURE-RESEARCH-PLAN → KEY`
 
-For historical pass reconstruction use the exact pass-input snapshot anchor in `evidence/SOURCE-LEDGER.md`, not current parent paths alone.
+For established Domain State evidence:
+`KEY/FINDINGS-MAP → DOMAIN-STATE-SYNTHESIS → focused finding → audit/source ledger → primary source`
 
 ## Update rule
 
-After any material Domain State edit, re-fetch exact blobs, refresh this manifest, then refresh Domain Reality → Environment → stage manifests. Never let node closure, user evaluation or child discovery silently authorize next-node research.
+If Structure research is activated, first bind the exact pre-pass Domain State snapshot and create/update the Structure research package/state as required by the hierarchical method. Then refresh Domain Reality → Environment → stage/root surfaces bottom-up.
