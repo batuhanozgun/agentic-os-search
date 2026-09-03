@@ -2,26 +2,27 @@
 
 ## Role
 
-Current router for the Environment ground and its agreed continuation through Domain Condition before any Information transition.
+Current router for the Environment ground and its agreed continuation through Condition evaluation and explicit Environment completion review before any Information transition.
 
 ## Current status
 
-**DOMAIN STRUCTURE BOUNDED / USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN CONDITION BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current substantive authorization is **NONE**. The next logical step is Domain Condition / Status planning from the current canonical state, but it requires explicit user authorization.
+Current authorization is user evaluation of the bounded Condition result only.
 
 ## Reading order
 
 1. `STATE.md` — current Environment state/authorization/sequencing.
 2. `KEY.md` — shortest current Environment hierarchy.
-3. Structure route → `domain-effect/domain-state/domain-structure/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
-4. Domain Reality/State/Dynamics as needed.
-5. Work Conditions result as needed.
-6. parent result → `FINDINGS-MAP.md` / parent synthesis when needed.
-7. relevant child findings/audit/source surfaces when decision-critical.
-8. `CURRENT-SURFACES.md` — exact Environment freshness binding.
+3. Condition route → `domain-effect/domain-state/domain-condition/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
+4. Structure route → `domain-effect/domain-state/domain-structure/STATE.md` → `KEY.md` as needed.
+5. Domain Reality/State/Dynamics as needed.
+6. Work Conditions result as needed.
+7. parent result → `FINDINGS-MAP.md` / parent synthesis when needed.
+8. relevant child findings/audit/source surfaces when decision-critical.
+9. `CURRENT-SURFACES.md` — exact Environment freshness binding.
 
-The executed Structure plan remains at `domain-effect/domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md` for pass reconstruction; it is no longer current authorization.
+Executed Structure and Condition plans remain historical pass reconstruction surfaces under Domain State; they are not current authorization.
 
 ## Current Environment research tree
 
@@ -29,10 +30,12 @@ The executed Structure plan remains at `domain-effect/domain-state/DOMAIN-STRUCT
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure                         ← bounded; user-evaluated / accepted
+    │    │    ├─ Domain Structure                         ← bounded / accepted
     │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
     │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
-    │    │    └─ Domain Condition / Status                ← discovered; inactive
+    │    │    └─ Domain Condition                         ← bounded; awaiting user evaluation
+    │    │         ├─ Realized Characteristics / Values    ← discovered; inactive
+    │    │         └─ Criterion-Relative Standing / Status ← discovered; inactive
     │    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
     └─ Work Conditions                                    ← bounded leaf; user-evaluated
          ↳ Technical Work Environment                     ← deep technical specialization/profile
@@ -41,15 +44,17 @@ Environment / Operating Reality
 ## Agreed continuation
 
 ```text
-Structure research      ← boundedly complete
-→ user evaluation       ← accepted 2026-09-03
-→ Condition research    ← next logical node; inactive / not yet planned or authorized
-→ user evaluation
-→ Environment completion review
-→ then decide whether Information should begin
+Structure research/evaluation ← complete / accepted
+Condition research             ← boundedly complete
+Condition user evaluation      ← CURRENT GATE
+Environment completion review  ← inactive; later explicit transition
+Information decision           ← only after Environment completion review
 ```
 
 ## Current routes
+
+### Condition result
+`domain-effect/domain-state/domain-condition/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/audit/source ledger`
 
 ### Structure result
 `domain-effect/domain-state/domain-structure/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/audit/source ledger`
@@ -62,16 +67,16 @@ Structure research      ← boundedly complete
 
 ## Historical input rule
 
-Preserved pass snapshots remain historical evidence. Current refinements and later user acceptance must not be retroactively substituted into prior pass inputs.
+Preserved pass snapshots remain historical evidence. Current refinements must not be retroactively substituted into prior pass inputs.
 
 ## Hierarchical method
 
 `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-Research closure and user acceptance do not authorize a discovered child or sibling automatically.
+Research closure does not authorize a discovered child or the next sibling/stage automatically.
 
 ## Guardrail
 
-No substantive node is active. Current substantive authorization is **NONE**.
+No substantive node is active. Current authorized work is Condition user evaluation only.
 
-Do not activate a Structure child, plan/research Condition, begin Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation without the required later explicit transition.
+Do not activate a Condition child, Structure child, Environment completion review, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation without the required later transition.
