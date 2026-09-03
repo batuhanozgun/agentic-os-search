@@ -1,7 +1,7 @@
 # Ground Deepening — CURRENT SURFACES
 
 **Status:** canonical freshness binding after bounded Domain State closure and deep repository verification  
-**Date:** 2026-09-02  
+**Date:** 2026-09-03  
 **Branch:** `main`
 
 ## Bound stage surfaces
@@ -18,9 +18,9 @@
 
 | Ground / node | Status | Freshness surface |
 |---|---|---|
-| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `5e375a50671ab8930c222839d82cfc2e9e95af5f` |
-| Domain Reality | boundedly sufficient; user-authorised for continuation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `2d694f7a3fe99e823b7efada1c5fdb3f2f67a030` |
-| Domain State | boundedly sufficient; awaiting user evaluation | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `2bbe824f4c868a45621f529199292eae51b2a6df` |
+| Environment / Operating Reality parent | boundedly sufficient; user-evaluated for continuation | `grounds/environment/CURRENT-SURFACES.md` @ `93a7798650c9f7af2c2bb4ff52b9646a83eff4be` |
+| Domain Reality | boundedly sufficient; user-authorised for continuation | `grounds/environment/domain-effect/CURRENT-SURFACES.md` @ `dcff6dc3be62c843673ba334e3a2127f33f15ab5` |
+| Domain State | boundedly sufficient; awaiting user evaluation | `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` @ `639aaac7b6f7c45c91fa90aad8d6f5faa454c441` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
 | Domain Dynamics / Processes | inactive; not yet deepened | no child package |
@@ -52,9 +52,16 @@ Discovered children are not automatically authorised.
 
 Plans, focused findings, source ledgers and completion audits may preserve pass-time labels/status for research reconstruction. Current hierarchy and authorization are carried by the current `STATE`/`KEY`/router/manifest chain; preserved pass-time `active`, `candidate`, `provisional` or superseded labels do not reactivate work.
 
+The Domain Reality and Domain State source ledgers also bind exact pre-pass parent `CURRENT-SURFACES.md` blobs. Therefore:
+- current relative paths serve present-day navigation;
+- content-addressed pass-input snapshots serve historical reconstruction;
+- later parent edits cannot silently become evidence that was not available to the earlier pass.
+
 ## Preferred retrieval
 
 `STATE → HIERARCHICAL-DEEPENING-METHOD → Environment STATE/KEY → Domain Reality STATE/KEY → Domain State STATE/KEY → synthesis → audit/source recovery`
+
+For historical pass reconstruction, use the exact pass-input snapshot anchor recorded in the relevant source ledger.
 
 ## Update rule
 
