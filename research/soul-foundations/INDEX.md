@@ -16,12 +16,13 @@ For current status/authorization read `STATE.md` first. This router does not ind
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` |
 | Recursive deepening method | `03_ground-deepening/HIERARCHICAL-DEEPENING-METHOD.md` | current node result |
 | Environment parent result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / parent synthesis |
-| Domain Reality result | `03_ground-deepening/grounds/environment/domain-effect/STATE.md` | KEY / synthesis |
+| Domain Reality result | `03_ground-deepening/grounds/environment/domain-effect/STATE.md` | KEY / FINDINGS-MAP |
 | Current Domain State result | `03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md` | KEY / FINDINGS-MAP / synthesis |
-| Selected Domain Dynamics plan | `03_ground-deepening/grounds/environment/domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md` | Domain Reality / Domain State recovery specified by plan |
-| Domain State source recovery | `03_ground-deepening/grounds/environment/domain-effect/domain-state/evidence/SOURCE-LEDGER.md` | primary source |
+| Current Domain Dynamics result | `03_ground-deepening/grounds/environment/domain-effect/domain-dynamics/STATE.md` | KEY / FINDINGS-MAP / synthesis |
+| Executed Domain Dynamics plan | `03_ground-deepening/grounds/environment/domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md` | frozen falsifiers / pass reconstruction |
+| Domain Dynamics source recovery | `03_ground-deepening/grounds/environment/domain-effect/domain-dynamics/evidence/SOURCE-LEDGER.md` | primary external/internal source |
 | Historical operating-world evidence | `history/superseded/operating-world-environment/ARCHIVE-NOTICE.md` | archived corpus |
-| What is authorised now? | `STATE.md` | Dynamics plan review / explicit research-activation decision; no substantive node active |
+| What is authorised now? | `STATE.md` | user evaluation of Domain Dynamics; no substantive node active |
 
 ## Research-layer meaning
 
@@ -40,7 +41,7 @@ Actors
 ```
 
 ### `03_ground-deepening/`
-Recursively deepens one research node at a time. A node pass identifies only immediate children; child discovery does not authorize child research, and planning does not itself activate a substantive pass.
+Recursively deepens one research node at a time. A node pass identifies only immediate children; child discovery does not authorize child research. A bounded leaf is an allowed result when no stable child split survives.
 
 ## Current Environment research tree
 
@@ -50,7 +51,7 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
-    │    └─ Domain Dynamics / Processes           ← selected/planned; not active
+    │    └─ Domain Dynamics                       ← bounded leaf; awaiting user evaluation
     └─ Work Conditions / Enabling–Constraining Environment ← inactive
          └─ Technical Work Environment
 ```
@@ -59,26 +60,30 @@ Current corrections carried by deeper research:
 - `Domain / Effect Reality` → `Domain Reality`;
 - `Domain State / Configuration` → `Domain State`;
 - Domain State immediate children → Structure/Composition + Condition/Status;
-- Domain State user evaluation accepted on 2026-09-03;
-- Domain Dynamics selected as the next node and planned on 2026-09-03, without substantive activation.
+- `Domain Dynamics / Processes` → `Domain Dynamics`;
+- no universal Domain Dynamics immediate child currently justified.
 
-## Selected Domain Dynamics planning state
+## Dynamics shortest result
 
-Canonical plan:
-`03_ground-deepening/grounds/environment/domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+`Domain Dynamics` is a necessary Domain Reality branch for realized unfolding through time, but current cross-lineage and cross-domain falsification does not justify another universal recursive child layer.
 
-The plan freezes framing rivals, falsifiers, evidence recovery, external falsification, holdouts and closure conditions before research. It explicitly requires a separate user authorization before the Dynamics pass becomes active.
+Explicit non-child problem regions include:
+- occurrence / interaction;
+- change / transition / trajectory;
+- temporal dependence / path dependence;
+- dynamic pattern / regime;
+- multi-scale / nested dynamics.
 
 ## One-active-node rule
 
-No substantive node is currently active. Dynamics is selected/planned but inactive. Structure, Condition, Work Conditions, Information, Work and Actors all require explicit future authorization.
+No substantive node is active. Domain Dynamics awaits user evaluation. Structure, Condition, Work Conditions, Information, Work and Actors all require explicit later transition/authorization.
 
 ## Active versus historical rule
 
-`history/` is prior evidence, not current authority. Current Domain Reality and Domain State authority lives under `03_ground-deepening/grounds/environment/domain-effect/` despite the retained historical directory name.
+`history/` is prior evidence, not current authority. Current Domain Reality/State/Dynamics authority lives under `03_ground-deepening/grounds/environment/domain-effect/` despite the retained historical directory name.
 
 ## Guardrail
 
-Current authorised work is **Dynamics plan review / explicit research-activation decision only**.
+Current authorised work is **user evaluation of Domain Dynamics only**.
 
-Do not infer authorization for Domain Dynamics substantive research, Structure, Condition, Work Conditions, Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
+Do not infer authorization for deeper State children, Work Conditions, Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
