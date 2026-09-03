@@ -1,15 +1,15 @@
 # Ground Deepening — STATE
 
-**Status:** WORK CONDITIONS ACTIVE; DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED
+**Status:** WORK CONDITIONS BOUNDED / AWAITING USER EVALUATION; DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED; NO SUBSTANTIVE NODE ACTIVE
 **Created:** 2026-09-02
 **Plan accepted:** 2026-09-02
 **Environment parent evaluation:** accepted for hierarchical continuation
 **Domain Reality:** boundedly sufficient; user-authorised for continuation
 **Domain State user evaluation:** accepted 2026-09-03
 **Domain Dynamics user evaluation:** accepted 2026-09-03
-**Work Conditions activated:** 2026-09-03
+**Work Conditions bounded closure:** 2026-09-03
 **Scope:** ground-specific and recursively branch-specific research-depth completion
-**Current authorised activity:** substantive Work Conditions research only
+**Current authorised activity:** user evaluation of Work Conditions only
 
 ## Working research tree
 
@@ -20,45 +20,47 @@ Environment / Operating Reality
     │    │    ├─ Domain Structure / Composition   ← inactive
     │    │    └─ Domain Condition / Status        ← inactive
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← ACTIVE
-         └─ Technical Work Environment            ← prior specialization; placement under test
+    └─ Work Conditions                            ← bounded leaf; awaiting user evaluation
+         ↳ Technical Work Environment             ← deep technical specialization/profile
 
 Information / Representation State              ← inactive
 Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-## Active node
+## Work Conditions result
 
-Work Conditions research plan:
+Executed plan:
 `grounds/environment/WORK-CONDITIONS-RESEARCH-PLAN.md`
 
-Active package:
-`grounds/environment/work-conditions/STATE.md → INDEX.md`
+Bounded result:
+`grounds/environment/work-conditions/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/WORK-CONDITIONS-SYNTHESIS.md`
 
-Exact pre-pass Environment manifest:
-`0bd03a434fdba0baed0821a7d73e2e7e4643b541`.
-
-The pass tests node coherence/reduction, immediate-child candidates, Technical Work Environment placement, cross-ground boundaries and cross-domain holdouts.
+Current corrections:
+- `Work Conditions / Enabling–Constraining Environment` → `Work Conditions`;
+- Work Conditions remains a first-order Work-relative research role over realized circumstances;
+- no universal immediate child survives the child-promotion test;
+- Work Conditions is a bounded leaf at current universal foundation-research depth;
+- Technical Work Environment is retained as a deep technical specialization/profile, not a demonstrated universal immediate child.
 
 ## Hierarchical method
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
 Rules retained:
-- exactly one substantive node active during the pass;
-- child discovery does not authorize child research;
-- dimensions/types are not promoted merely to deepen the tree;
-- closure returns to user evaluation before another node activates.
+- no substantive node is active after closure;
+- child discovery/leaf closure does not authorize another node;
+- dimensions/types/relations are not promoted merely to deepen the tree;
+- closure returns to user evaluation before sibling/child/ground transition.
 
 ## Verification status
 
-No Work Conditions result is yet verified. Same-model closure review must remain labeled non-independent.
+Work Conditions completion/omission review is same-model adversarial self-review, not independent verification. External source traditions and holdouts discriminate rival decompositions but do not independently validate the exact leaf result.
 
 ## Current return condition
 
-Research Work Conditions to bounded closure or material blocker/falsifier and return to the user before any subsequent node transition.
+Return the bounded Work Conditions result to the user for evaluation. Do not select/activate another node until that evaluation/transition decision.
 
 ## Guardrail
 
-Do not activate Domain Structure, Domain Condition, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation during this pass.
+Do not activate Domain Structure, Domain Condition, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation automatically.
