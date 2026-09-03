@@ -1,31 +1,32 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment completion review authorised; Domain Condition bounded / user-evaluated / accepted; no child node active
-**Environment researched/user-evaluated so far:** parent, Domain Reality, Domain State, Domain Dynamics, Work Conditions, Domain Structure, Domain Condition
+**Status:** active research library; Environment completion review bounded; Environment not yet complete; no substantive node active
+**Environment researched/user-evaluated so far:** parent, Domain Reality, Domain State, Domain Dynamics, Work Conditions, Domain Structure, Domain Condition; completion review bounded and awaiting evaluation
 **Domain Structure:** bounded / user-evaluated / accepted 2026-09-03
 **Domain Condition:** bounded / user-evaluated / accepted 2026-09-04
-**Environment continuation decision:** Structure → Condition → Environment completion review before any Information transition; accepted 2026-09-03
-**Current authorised substantive activity:** ENVIRONMENT COMPLETION REVIEW ONLY
-**Current return condition:** complete the Environment review and return its judgment; do not auto-start Information or any newly selected descendant
+**Environment completion review:** bounded 2026-09-04; Environment NOT YET COMPLETE; awaiting user evaluation
+**Current authorised substantive activity:** NONE
+**Current authorised interaction:** USER EVALUATION OF THE ENVIRONMENT COMPLETION REVIEW ONLY
+**Current return condition:** return the review judgment; do not auto-start a descendant or Information
 
 ## Dependency state
 
 - `01_verticals/`: COMPLETE / USER-EVALUATED for original independent discovery questions.
 - `02_adequacy/`: BOUNDEDLY SUFFICIENT; USER-EVALUATED / ACCEPTED AS WORKING RESEARCH HYPOTHESIS.
 - `03_ground-deepening/`:
-  - Environment / Operating Reality: completion review authorised; not yet declared complete and not handed off to Information.
-  - Domain Reality: boundedly sufficient; State/Dynamics results user-evaluated.
-    - Domain State: boundedly sufficient; user-evaluated.
-      - Domain Structure: bounded immediate-child result; user-evaluated / accepted.
-        - Constituent Composition / Membership: discovered; inactive; not researched.
-        - Relational Organization / Topology: discovered; inactive; not researched.
-      - Domain Condition: bounded immediate-child result; user-evaluated / accepted.
-        - Realized Characteristics / Values: discovered; inactive; not researched.
-        - Criterion-Relative Standing / Status: discovered; inactive; not researched.
-    - Domain Dynamics: bounded leaf; user-evaluated.
-  - Work Conditions: bounded leaf; user-evaluated.
-    - Technical Work Environment: retained deep technical specialization/profile; prior vertical user-evaluated.
-  - Information / Representation State: inactive; transition deferred pending Environment completion review and later explicit user direction.
+  - Environment / Operating Reality: **NOT YET COMPLETE** after explicit completion review; parent retained; focused descendant debt remains.
+  - Domain Reality: boundedly sufficient; retained by completion review.
+    - Domain State: boundedly sufficient; Structure/Condition accepted.
+      - Domain Structure: bounded / accepted.
+        - Constituent Composition / Membership: promoted; inactive; not researched.
+        - Relational Organization / Topology: promoted; inactive; not researched.
+      - Domain Condition: bounded / accepted.
+        - Realized Characteristics / Values: promoted; inactive; not researched.
+        - Criterion-Relative Standing / Status: promoted; inactive; not researched.
+    - Domain Dynamics: bounded leaf; user-evaluated; retained by completion review.
+  - Work Conditions: bounded leaf; user-evaluated; retained by completion review.
+    - Technical Work Environment: retained deep technical specialization/profile.
+  - Information / Representation State: inactive; transition blocked while known Environment descendant debt remains.
   - Work coverage/gap audit: inactive.
   - Actors coverage/gap audit: inactive.
 - Cross-ground relation/control composition: not authorised.
@@ -43,57 +44,89 @@ Actors / Agency–Participation–Authority
 
 This remains a research-routing hypothesis, not architecture, ontology, schema or universal truth.
 
-## Current Environment research tree
+## Current Environment tree
 
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure                         ← bounded / accepted
-    │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive / not researched
-    │    │    │    └─ Relational Organization / Topology   ← discovered; inactive / not researched
-    │    │    └─ Domain Condition                         ← bounded / accepted
-    │    │         ├─ Realized Characteristics / Values    ← discovered; inactive / not researched
-    │    │         └─ Criterion-Relative Standing / Status ← discovered; inactive / not researched
-    │    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
-    └─ Work Conditions                                    ← bounded leaf; user-evaluated
-         ↳ Technical Work Environment                     ← deep technical specialization/profile
+    │    │    ├─ Domain Structure
+    │    │    │    ├─ Constituent Composition / Membership   ← promoted; inactive; not researched
+    │    │    │    └─ Relational Organization / Topology     ← promoted; inactive; not researched
+    │    │    └─ Domain Condition
+    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive; not researched
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive; not researched
+    │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
+    └─ Work Conditions                                        ← bounded leaf; user-evaluated
+         ↳ Technical Work Environment                         ← deep technical specialization/profile
 ```
 
-## Environment completion-review problem
+## Environment completion-review verdict
 
-The review must not equate sequence completion with ground completion.
+The Environment parent remains coherent:
 
-Highest-risk unresolved issue:
-- Structure and Condition each produced stable immediate children;
-- all four children are explicitly marked discovered / inactive / not researched;
-- the hierarchical method states that discovering a child does not mean it has been researched.
+```text
+Environment / Operating Reality
+    ├─ Domain Reality
+    └─ Work Conditions
+```
 
-The review must therefore decide whether those descendant research debts materially block Environment closure, or whether the current foundation purpose is already boundedly served without descending into them now.
+No current evidence requires a third universal Environment first-order branch or a broad Environment-parent restart.
 
-The review must also re-test:
-- `Domain Reality` + `Work Conditions` parent coverage;
-- State/Dynamics separation after deeper Structure/Condition refinements;
-- Environment versus Information/Work/Actors boundaries;
-- parent residual questions versus genuinely missing Environment regions;
-- whether any Information transition would hide unresolved Environment work.
+However, Environment is **not yet complete for the current Ground Deepening purpose** because four promoted Structure/Condition descendants remain materially unresearched.
+
+All four have distinct failure/recovery surfaces and meet the program's `G3 — Selective deepening` threshold. The one-level method explicitly prevents treating parent-pass child promotion as substantive child research.
+
+Retained closure judgments:
+- Domain Dynamics remains a bounded leaf;
+- Work Conditions remains a bounded leaf;
+- Environment residual questions do not form a third parent branch.
+
+## Transition judgment
+
+Do **not** begin Information yet. A new top-level ground should not start while known Environment branches still meet the project's own dedicated-research trigger.
+
+## Recommended next logical selection
+
+After user evaluation of this review, the strongest default next node is:
+
+> **Constituent Composition / Membership**
+
+This is a recommendation only. No node is active.
+
+A provisional deeper order, to be reassessed after every accepted child pass, is:
+
+```text
+1. Constituent Composition / Membership
+2. Relational Organization / Topology
+3. Realized Characteristics / Values
+4. Criterion-Relative Standing / Status
+5. rerun Environment completion review
+```
+
+Do not treat this as a frozen mandatory sequence.
 
 ## Method interpretation
 
-The current ground-deepening method is deliberately incremental and falsifiable. A planned path being traversed is not a closure criterion. Closure requires a separate omission/reduction judgment against the current tree and residuals.
+The current ground-deepening program is selective, recursive and falsifiable. Traversing a planned sibling sequence is not a closure criterion. A promoted child that remains materially under-supported must receive its own pass; a child may then close as a bounded leaf if no stable further split survives.
 
-It does not yet constitute a final ontology, data model, control model or SOUL/Development OS architecture.
+This research hierarchy is not yet a final ontology, data model, control model or SOUL/Development OS architecture.
 
 ## Verification status
 
-Existing research completion/omission audits are same-model adversarial self-reviews, **not independent verification**. User evaluation does not convert them into independent validation. The completion review must preserve this limitation.
+The Environment completion review and underlying node completion audits are same-model adversarial self-reviews, **not independent verification**. Fresh external sources were used as counterframes against live rivals only. User acceptance and repository freshness do not convert these into independent validation.
 
 ## Current retrieval
 
-`STATE.md → 03_ground-deepening/STATE.md → HIERARCHICAL-DEEPENING-METHOD.md → grounds/environment/STATE.md → current Environment/Domain Reality/Domain State/Structure/Condition/Work Conditions surfaces`.
+`STATE.md → INDEX.md → 03_ground-deepening/STATE.md → grounds/environment/STATE.md → grounds/environment/completion-review/STATE.md → completion-review/KEY.md → completion-review/synthesis/ENVIRONMENT-COMPLETION-REVIEW.md`.
+
+Exact freshness:
+- `03_ground-deepening/CURRENT-SURFACES.md`
+- `03_ground-deepening/grounds/environment/CURRENT-SURFACES.md`
+- `03_ground-deepening/grounds/environment/completion-review/CURRENT-SURFACES.md`
 
 ## Current authorization
 
-**ENVIRONMENT COMPLETION REVIEW ONLY.**
+**USER EVALUATION OF THE ENVIRONMENT COMPLETION REVIEW ONLY.**
 
-Do not activate any Structure/Condition child, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation unless a later explicit transition authorises it.
+Do not activate any Environment descendant, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation without a later explicit transition.
