@@ -2,22 +2,23 @@
 
 ## Role
 
-Current router for the bounded Domain Reality result and the deeper bounded Domain State result.
+Current router for the bounded Domain Reality result, the deeper bounded Domain State result and the selected/planned Domain Dynamics pass.
 
 ## Current status
 
-**DOMAIN STATE BOUNDEDLY SUFFICIENT AND USER-EVALUATED FOR HIERARCHICAL CONTINUATION.**
+**DOMAIN STATE USER-EVALUATED; DOMAIN DYNAMICS SELECTED AND PLANNED; NO SUBSTANTIVE NODE ACTIVE.**
 
-No child or sibling is active. The next task is selection/planning of one next research node with the user.
+The next task is user review / explicit authorization of the planned Domain Dynamics substantive pass.
 
 ## Read order
 
 1. `STATE.md` — current Domain Reality authorization/state.
 2. `KEY.md` — shortest current hierarchy.
-3. original Domain Reality evidence → `FINDINGS-MAP.md` / synthesis.
-4. current Domain State result → `domain-state/STATE.md` / `KEY.md` / `FINDINGS-MAP.md` / synthesis.
-5. relevant audit/source ledger when decision-critical.
-6. current-surfaces manifests for exact freshness.
+3. selected next-node plan → `DOMAIN-DYNAMICS-RESEARCH-PLAN.md`.
+4. original Domain Reality evidence → `FINDINGS-MAP.md` / synthesis.
+5. current Domain State result → `domain-state/STATE.md` / `KEY.md` / `FINDINGS-MAP.md` / synthesis.
+6. relevant audit/source ledger when decision-critical.
+7. current-surfaces manifests for exact freshness.
 
 ## Current hierarchy
 
@@ -26,7 +27,7 @@ Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure / Composition        ← discovered; inactive
     │    └─ Domain Condition / Status             ← discovered; inactive
-    └─ Domain Dynamics / Processes                ← inactive
+    └─ Domain Dynamics / Processes                ← selected/planned; not active
 ```
 
 The package directory name `domain-effect/` is historical; current node semantics are `Domain Reality`.
@@ -41,10 +42,17 @@ State result:
 - no third universal immediate State child currently required;
 - user evaluation accepted on 2026-09-03.
 
-## Domain Dynamics sibling
+## Planned Domain Dynamics route
 
-`Domain Dynamics / Processes` remains inactive and has not been deepened.
+`DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+
+Status:
+- selected by the user on 2026-09-03;
+- research plan complete;
+- substantive research not active;
+- no Dynamics child package exists yet;
+- explicit user authorization is required before the pass becomes active.
 
 ## Guardrail
 
-Do not activate Structure, Condition, Dynamics, Work Conditions or another ground automatically. Current authorization is next-node selection/planning only.
+Do not activate Structure, Condition, Dynamics, Work Conditions or another ground automatically. Current authorization is Dynamics plan review / explicit research-activation decision only.
