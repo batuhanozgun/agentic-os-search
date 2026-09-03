@@ -1,14 +1,15 @@
 # Environment / Operating Reality — STATE
 
-**Status:** PARENT GROUND, DOMAIN STATE, DOMAIN DYNAMICS AND WORK CONDITIONS USER-EVALUATED; DOMAIN STRUCTURE BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** PARENT GROUND, DOMAIN STATE, DOMAIN DYNAMICS, WORK CONDITIONS AND DOMAIN STRUCTURE USER-EVALUATED; NO SUBSTANTIVE NODE ACTIVE  
 **Environment parent authorised:** 2026-09-02
 **Domain State user evaluation accepted:** 2026-09-03
 **Domain Dynamics user evaluation accepted:** 2026-09-03
 **Work Conditions user evaluation accepted:** 2026-09-03
 **Domain Structure substantive pass bounded:** 2026-09-03
+**Domain Structure user evaluation accepted:** 2026-09-03
 **Scope:** Environment / Operating Reality ground only
 **Other top-level grounds:** inactive
-**Current authorised activity:** user evaluation of the bounded Domain Structure result only
+**Current authorised activity:** NONE; awaiting explicit user authorization for the next substantive planning/research step
 
 ## Current Environment research hierarchy
 
@@ -16,7 +17,7 @@
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure                         ← bounded result; awaiting user evaluation
+    │    │    ├─ Domain Structure                         ← bounded; user-evaluated / accepted
     │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
     │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
     │    │    └─ Domain Condition / Status                ← discovered; inactive
@@ -31,12 +32,12 @@ This remains a research hierarchy, not an ontology, data model or architecture.
 
 The project method treats a discovered material child as unresearched until it receives its own pass.
 
-The agreed sequence remains:
+The agreed sequence now stands at:
 
 ```text
 1. Domain Structure research          ← boundedly complete
-2. user evaluation of Structure       ← CURRENT GATE
-3. Domain Condition / Status research ← inactive; detailed planning deferred
+2. user evaluation of Structure       ← accepted 2026-09-03
+3. Domain Condition / Status research ← next logical node; inactive / not yet planned or authorized
 4. user evaluation of Condition
 5. explicit Environment completion review
 6. only then decide whether Information / Representation State should begin
@@ -60,6 +61,8 @@ No third universal Structure child survived current testing. The discovered Stru
 
 The deeper Structure result did not expose a third co-equal Domain State region; the Structure-versus-Condition parent split survives.
 
+The bounded Structure result was accepted by the user on 2026-09-03. No reopen trigger was raised.
+
 ## Work Conditions bounded result retained
 
 Work Conditions asks which realized circumstances materially shape whether and how focal Work can be performed.
@@ -82,7 +85,7 @@ Domain Reality
     └─ Domain Dynamics
 ```
 
-Domain State and Dynamics remain user-evaluated. Structure has now received its own bounded pass; Condition has not.
+Domain State, Dynamics and the deeper Structure result are now user-evaluated. Condition has not received its own pass.
 
 ## Strong distinctions
 
@@ -105,10 +108,10 @@ Existing node completion/omission reviews, including the Structure audit, are sa
 
 ## Next logical work
 
-After Structure user evaluation, if accepted and no reopen trigger appears, plan/authorize Domain Condition / Status from the then-current canonical state. After Condition research and evaluation, explicitly reassess Environment completion.
+Plan/select Domain Condition / Status from the current canonical state after explicit user authorization. After Condition research and evaluation, explicitly reassess Environment completion.
 
 ## Next authorised work
 
-**USER EVALUATION OF THE BOUNDED DOMAIN STRUCTURE RESULT ONLY.**
+**NONE. AWAIT EXPLICIT USER AUTHORIZATION FOR THE NEXT SUBSTANTIVE PLANNING/RESEARCH STEP.**
 
 Do not automatically activate either Structure child, Domain Condition, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation.
