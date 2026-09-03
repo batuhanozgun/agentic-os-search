@@ -1,13 +1,13 @@
 # Environment / Operating Reality — STATE
 
-**Status:** PARENT GROUND, DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED; WORK CONDITIONS ACTIVE
+**Status:** PARENT GROUND, DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED; WORK CONDITIONS BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE
 **Environment parent authorised:** 2026-09-02
 **Domain State user evaluation accepted:** 2026-09-03
 **Domain Dynamics user evaluation accepted:** 2026-09-03
-**Work Conditions activated:** 2026-09-03
+**Work Conditions bounded closure:** 2026-09-03
 **Scope:** Environment / Operating Reality ground only
 **Other top-level grounds:** inactive
-**Current authorised activity:** substantive Work Conditions research to bounded closure / user-evaluation boundary
+**Current authorised activity:** user evaluation of the bounded Work Conditions result only
 
 ## Current Environment research hierarchy
 
@@ -15,77 +15,92 @@
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition   ← inactive
-    │    │    └─ Domain Condition / Status        ← inactive
+    │    │    ├─ Domain Structure / Composition   ← discovered; inactive
+    │    │    └─ Domain Condition / Status        ← discovered; inactive
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← ACTIVE
-         └─ Technical Work Environment            ← prior deep technical specialization; placement under test
+    └─ Work Conditions                            ← bounded leaf; awaiting user evaluation
+         ↳ Technical Work Environment             ← deep technical specialization/profile
 ```
 
-The parent, Domain Reality, Domain State and Domain Dynamics results are accepted as reasonable enough for continued hierarchical research, not as final ontology or architecture.
+The parent, Domain Reality, Domain State and Domain Dynamics are already accepted as reasonable enough for continued hierarchical research. Work Conditions has completed its dedicated pass and now awaits user evaluation.
 
-## Active node — Work Conditions
+## Work Conditions bounded result
 
-Starting label:
-- `Work Conditions / Enabling–Constraining Environment`.
-
-Current active question:
-- what realized circumstances materially shape whether and how focal Work can be performed;
-- whether this is a coherent first-order branch or reducible to Domain Reality facts + relation to Work;
-- what immediate children, if any, survive;
-- whether Technical Work Environment is a genuine immediate child or a specialization/profile.
-
-Governing plan:
-- `WORK-CONDITIONS-RESEARCH-PLAN.md`.
-
-Active package:
-- `work-conditions/STATE.md → INDEX.md → findings/evidence → synthesis at closure`.
-
-Exact pre-pass Environment manifest preserved by the active package:
-- `CURRENT-SURFACES.md` blob `0bd03a434fdba0baed0821a7d73e2e7e4643b541`.
-
-## Retained Environment findings
-
-Environment concerns boundary/reference-relative realized conditions and dynamics that matter because they:
-- constitute Domain Reality materially at issue; and/or
-- materially enable, constrain, degrade, endanger or otherwise shape Work execution.
-
-`Work-Support Environment` was broadened because adverse/degrading conditions are first-order.
-
-Domain Reality corrections retained:
-- `Domain / Effect Reality` → Domain Reality;
-- actual result belongs to Domain State/trajectory;
-- intended outcome and causal effect/attribution remain relation/evidence problems.
-
-## Strong distinctions under active test
+The starting paired label:
 
 ```text
-actual Environment condition/dynamics ≠ specification ≠ observation ≠ model ≠ Record
+Work Conditions / Enabling–Constraining Environment
+```
+
+is simplified to:
+
+```text
+Work Conditions
+```
+
+Current result:
+- Work Conditions asks which realized circumstances materially shape whether and how focal Work can be performed;
+- it is an analytical Work-relative role over realized facts, not a second kind of reality;
+- it remains a useful first-order research problem because it protects support/access/capacity/readiness/hazard/dependency failure surfaces that generic Domain Reality does not force;
+- no universal immediate child survived deeper falsification;
+- `Work Conditions` is a bounded leaf at current universal foundation depth;
+- Technical Work Environment remains a deep technical specialization/profile, not a demonstrated universal immediate child.
+
+Current Work Conditions route:
+`work-conditions/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/WORK-CONDITIONS-SYNTHESIS.md → relevant finding → completion/source recovery`
+
+## Domain Reality result retained
+
+Current Domain Reality hierarchy:
+
+```text
+Domain Reality
+    ├─ Domain State
+    │    ├─ Domain Structure / Composition
+    │    └─ Domain Condition / Status
+    └─ Domain Dynamics
+```
+
+Domain State and Domain Dynamics are user-evaluated. Structure and Condition remain inactive.
+
+## Strong distinctions
+
+```text
+Environment ≠ everything outside / everything relevant
 Domain Reality ≠ every target of Work
-Domain Dynamics ≠ focal Work lifecycle
-Work Conditions ≠ Work internal state by default
-resource existence ≠ availability/reachability/permission/sufficiency
-Actor capability ≠ situated actionability
+Work Conditions ≠ a second kind of reality
+Work Conditions ≠ Work internal lifecycle/state
+Work Conditions ≠ Actor capability/authority
+Work Conditions ≠ observation/report/policy text
+resource exists ≠ accessible ≠ available ≠ sufficient
+Work Condition ≠ full actionability
 Domain Reality role ≠ Work Conditions role by object identity
 ```
 
-## One-active-node rule
+The same concrete fact/system may participate in Domain Reality and Work Conditions under different focal Work/reference roles without identity duplication.
 
-Only Work Conditions is substantively active.
+## Hierarchical rule
+
+No substantive node is active after Work Conditions closure.
 
 Inactive:
 - Domain Structure / Composition;
 - Domain Condition / Status;
-- Domain Dynamics;
 - Information;
 - Work;
 - Actors;
 - systematic composition / architecture / implementation.
 
+Technical Work Environment is retained evidence/specialization, not an active node.
+
 ## Verification status
 
-No Work Conditions decomposition is yet verified. Prior Environment/Dynamics completion audits are same-model adversarial reviews, not independent verification.
+Work Conditions completion/omission review is same-model adversarial self-review, not independent verification. External source traditions and holdouts discriminate boundaries/rivals but do not independently validate the exact leaf result.
 
 ## Current return condition
 
-Complete the Work Conditions node pass to bounded closure or a material blocker/falsifier, then return the result to user evaluation before activating another node.
+Return the bounded Work Conditions result to user evaluation. Do not select or activate another node before that evaluation/transition decision.
+
+## Next authorised work
+
+**USER EVALUATION OF WORK CONDITIONS ONLY; NO SUBSTANTIVE NODE ACTIVE.**
