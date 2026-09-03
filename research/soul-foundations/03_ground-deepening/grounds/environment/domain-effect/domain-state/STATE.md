@@ -1,41 +1,36 @@
 # Domain State — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT PARENT; USER-EVALUATED; DOMAIN CONDITION / STATUS SUBSTANTIVE PASS ACTIVE  
-**Domain State authorised:** 2026-09-02  
-**Domain State bounded closure:** 2026-09-02  
+**Status:** BOUNDEDLY SUFFICIENT; USER-EVALUATED PARENT; STRUCTURE ACCEPTED; CONDITION BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
 **Domain State user evaluation accepted:** 2026-09-03  
-**Domain Structure substantive pass:** bounded / user-evaluated / accepted 2026-09-03  
-**Domain Condition / Status substantive pass:** activated 2026-09-03  
+**Domain Structure:** bounded / user-evaluated / accepted 2026-09-03  
+**Domain Condition:** substantive pass bounded 2026-09-03; awaiting user evaluation  
 **Parent:** Domain Reality  
 **Sibling:** Domain Dynamics — bounded leaf; user-evaluated  
-**Environment sibling:** Work Conditions — bounded leaf; user-evaluated  
-**Current authorised activity:** DOMAIN CONDITION / STATUS RESEARCH AT IMMEDIATE-CHILD DEPTH ONLY
+**Current authorised activity:** USER EVALUATION OF THE BOUNDED DOMAIN CONDITION RESULT ONLY
 
 ## Current hierarchy
 
 ```text
 Domain State
-    ├─ Domain Structure                         ← bounded / user-evaluated / accepted
-    │    ├─ Constituent Composition / Membership ← discovered; inactive / not researched
-    │    └─ Relational Organization / Topology   ← discovered; inactive / not researched
-    └─ Domain Condition / Status                ← ACTIVE SUBSTANTIVE PASS
+    ├─ Domain Structure                         ← bounded / accepted
+    │    ├─ Constituent Composition / Membership ← discovered; inactive
+    │    └─ Relational Organization / Topology   ← discovered; inactive
+    └─ Domain Condition                         ← bounded; awaiting user evaluation
+         ├─ Realized Characteristics / Values    ← discovered; inactive
+         └─ Criterion-Relative Standing / Status ← discovered; inactive
 ```
 
 Branches are analytical problem regions, not object/schema/architecture classes.
 
-## Domain State result retained
+## Parent result retained
 
-The earlier `Domain State / Configuration` node remains refined to `Domain State`.
+`Domain State / Configuration` remains refined to **Domain State** with two immediate parent regions:
+- **Domain Structure** — what materially relevant constituents participate and how the selected structure is actually organized;
+- **Domain Condition** — what materially relevant non-structural current condition actually obtains, including realized characteristics/values and materially relevant criterion-relative standing.
 
-Its two immediate first-order regions remain the inherited parent hypothesis under deeper testing:
-- **Domain Structure** — what materially relevant constituents are actually present/participating and how the selected structure is actually organized;
-- **Domain Condition / Status** — what materially relevant properties, values, health, mode, status or standing actually hold.
+Deeper Structure and Condition passes refine rather than overturn this parent split.
 
-The active Condition pass may refine its own label/internal decomposition and may reopen the parent only if a frozen falsifier actually breaks the Structure-versus-Condition result.
-
-## Domain Structure result retained
-
-The deeper Structure pass refined the inherited `Domain Structure / Composition` label to:
+## Domain Structure result
 
 ```text
 Domain Structure
@@ -43,56 +38,68 @@ Domain Structure
     └─ Relational Organization / Topology
 ```
 
-The bounded Structure result was user-evaluated / accepted on 2026-09-03. Neither Structure child is active.
+User-evaluated / accepted 2026-09-03. Neither child is active.
 
-## Domain Condition active pass
+## Domain Condition result
 
-Frozen plan:
-- `DOMAIN-CONDITION-RESEARCH-PLAN.md`
-
-Active package:
-- `domain-condition/STATE.md`
-- `domain-condition/evidence/SOURCE-LEDGER.md`
-
-Inherited Condition question under attack:
-
-> What materially relevant properties, values, qualities, health, mode, status or standing actually hold at the selected scope and time?
-
-Do not assume that `Condition / Status` is the final label or that the inherited property/status families are children. The active pass explicitly tests leaf, split, rename, reduction and parent-reopen rivals.
-
-## Strong boundaries retained unless falsified
+The inherited `Domain Condition / Status` label was challenged under the frozen Condition plan and refined to:
 
 ```text
-Domain State ≠ one formal/model state vector
-Domain Structure ≠ Domain Condition / Status
-actual Structure ≠ architecture / BOM / inventory / baseline / topology model / Record by identity
-actual Condition ≠ observation / measurement / inference / report / cache by identity
-current State ≠ Dynamics/history by identity
-identity/continuity ≠ State-only child
-constraint/invariant ≠ current State by identity
+Domain Condition
+    ├─ Realized Characteristics / Values
+    └─ Criterion-Relative Standing / Status
+```
+
+### Realized Characteristics / Values
+
+> What materially relevant characteristics, quantities, qualitative values, modes or relational conditions actually obtain at the selected scope/time, before asking whether they satisfy a separate criterion?
+
+### Criterion-Relative Standing / Status
+
+> Relative to a materially relevant functional, normative, regulatory or domain criterion, what standing currently obtains?
+
+The split is semantic, not raw-vs-derived data or scalar-vs-category. No third universal Condition child survived current bounded testing.
+
+## Current boundaries
+
+```text
+Domain Structure ≠ Domain Condition
+current Domain State ≠ Domain Dynamics / history by identity
+actual Structure ≠ architecture / inventory / baseline / topology model by identity
+actual characteristic/value ≠ measurement / estimate / report by identity
+actual standing/status ≠ health score / API status / certificate / report by identity
+criterion / rule / threshold ≠ current satisfaction/violation fact by identity
 current State difference ≠ causal root cause
 ```
 
 ## Verification status
 
-Existing completion/omission audits are same-model adversarial self-reviews, **not independent verification**. External sources discriminate rivals but do not independently validate the exact project hierarchy merely by vocabulary overlap.
+Domain State, Structure and Condition completion audits are same-model adversarial self-reviews, **not independent verification**. External sources discriminate rivals but do not independently validate the exact project hierarchy.
 
 ## Current sequence
 
 ```text
-Structure research      ← bounded / accepted
-→ Condition research    ← ACTIVE
-→ user evaluation       ← required after Condition closure
-→ Environment completion review
-→ only then decide whether Information should begin
+Structure research/evaluation ← complete / accepted
+Condition research             ← boundedly complete
+Condition user evaluation      ← CURRENT GATE
+Environment completion review  ← not active; only after Condition evaluation
+Information transition decision← only after Environment completion review
 ```
 
-## Next logical work
+## Current Condition route
 
-Execute the frozen Domain Condition / Status plan to bounded immediate-child closure, then return the result to the user.
+- `domain-condition/STATE.md`
+- `domain-condition/KEY.md`
+- `domain-condition/FINDINGS-MAP.md`
+- `domain-condition/synthesis/DOMAIN-CONDITION-SYNTHESIS.md`
+- `domain-condition/synthesis/COMPLETENESS-OMISSION-CHECK.md`
+- `domain-condition/evidence/SOURCE-LEDGER.md`
+- `domain-condition/CURRENT-SURFACES.md`
+
+Historical parent synthesis/findings remain preserved rather than retroactively rewritten.
 
 ## Next authorised work
 
-**DOMAIN CONDITION / STATUS SUBSTANTIVE RESEARCH ONLY.**
+**USER EVALUATION OF THE BOUNDED DOMAIN CONDITION RESULT ONLY.**
 
-Do not activate a Condition child, Structure child, Information, Work, Actors, cross-ground composition, architecture, ontology/data-model work or implementation.
+Do not activate either Condition child, a Structure child, Environment completion review, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation automatically.
