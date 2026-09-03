@@ -1,13 +1,14 @@
 # Environment / Operating Reality — STATE
 
-**Status:** PARENT GROUND, DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED; WORK CONDITIONS BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE
+**Status:** PARENT GROUND, DOMAIN STATE, DOMAIN DYNAMICS AND WORK CONDITIONS USER-EVALUATED; NO SUBSTANTIVE NODE ACTIVE
 **Environment parent authorised:** 2026-09-02
 **Domain State user evaluation accepted:** 2026-09-03
 **Domain Dynamics user evaluation accepted:** 2026-09-03
 **Work Conditions bounded closure:** 2026-09-03
+**Work Conditions user evaluation accepted:** 2026-09-03
 **Scope:** Environment / Operating Reality ground only
 **Other top-level grounds:** inactive
-**Current authorised activity:** user evaluation of the bounded Work Conditions result only
+**Current authorised activity:** selection/planning of the next single research node only
 
 ## Current Environment research hierarchy
 
@@ -18,11 +19,11 @@ Environment / Operating Reality
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← bounded leaf; awaiting user evaluation
+    └─ Work Conditions                            ← bounded leaf; user-evaluated
          ↳ Technical Work Environment             ← deep technical specialization/profile
 ```
 
-The parent, Domain Reality, Domain State and Domain Dynamics are already accepted as reasonable enough for continued hierarchical research. Work Conditions has completed its dedicated pass and now awaits user evaluation.
+The parent, Domain Reality, Domain State, Domain Dynamics and Work Conditions results are accepted as reasonable enough for continued hierarchical research. This is a research hierarchy, not a final ontology, data model or architecture.
 
 ## Work Conditions bounded result
 
@@ -44,7 +45,8 @@ Current result:
 - it remains a useful first-order research problem because it protects support/access/capacity/readiness/hazard/dependency failure surfaces that generic Domain Reality does not force;
 - no universal immediate child survived deeper falsification;
 - `Work Conditions` is a bounded leaf at current universal foundation depth;
-- Technical Work Environment remains a deep technical specialization/profile, not a demonstrated universal immediate child.
+- Technical Work Environment remains a deep technical specialization/profile, not a demonstrated universal immediate child;
+- user evaluation accepted 2026-09-03.
 
 Current Work Conditions route:
 `work-conditions/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/WORK-CONDITIONS-SYNTHESIS.md → relevant finding → completion/source recovery`
@@ -81,7 +83,7 @@ The same concrete fact/system may participate in Domain Reality and Work Conditi
 
 ## Hierarchical rule
 
-No substantive node is active after Work Conditions closure.
+No substantive node is active.
 
 Inactive:
 - Domain Structure / Composition;
@@ -95,12 +97,12 @@ Technical Work Environment is retained evidence/specialization, not an active no
 
 ## Verification status
 
-Work Conditions completion/omission review is same-model adversarial self-review, not independent verification. External source traditions and holdouts discriminate boundaries/rivals but do not independently validate the exact leaf result.
+Work Conditions completion/omission review is same-model adversarial self-review, not independent verification. External source traditions and holdouts discriminate boundaries/rivals but do not independently validate the exact leaf result. User evaluation does not change that verification status.
 
 ## Current return condition
 
-Return the bounded Work Conditions result to user evaluation. Do not select or activate another node before that evaluation/transition decision.
+Select and plan one next research node with the user before substantive research begins.
 
 ## Next authorised work
 
-**USER EVALUATION OF WORK CONDITIONS ONLY; NO SUBSTANTIVE NODE ACTIVE.**
+**NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE.**
