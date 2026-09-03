@@ -1,6 +1,6 @@
 # Domain Reality — KEY
 
-**Status:** Domain Reality boundedly sufficient and user-authorised for continuation; Domain State child user-evaluated for hierarchical continuation  
+**Status:** Domain Reality boundedly sufficient; Domain State user-evaluated; Domain Dynamics selected/planned, substantive research not active  
 **Date:** 2026-09-03  
 **Parent:** Environment / Operating Reality
 
@@ -13,7 +13,7 @@ Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure / Composition        [discovered; inactive]
     │    └─ Domain Condition / Status             [discovered; inactive]
-    └─ Domain Dynamics / Processes                [inactive]
+    └─ Domain Dynamics / Processes                [selected/planned; not active]
 ```
 
 Branches are analytical problem regions, not object/schema classes.
@@ -59,6 +59,30 @@ Not promoted at this level:
 - observability/evidence/uncertainty;
 - causal explanation.
 
+## Domain State user evaluation
+
+The user accepted the bounded Domain State result on 2026-09-03 as reasonable enough for continued hierarchical research. Structure and Condition remain inactive.
+
+## Selected next node — Domain Dynamics / Processes
+
+The user selected `Domain Dynamics / Processes` as the next node on 2026-09-03 and requested its research plan.
+
+Plan:
+- `DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+
+Planning is complete. The plan freezes the Dynamics framing attack, pre-research falsifiers, evidence-recovery route, external falsification families, cross-domain holdouts, closure conditions and readiness gate.
+
+Substantive Dynamics research is **not active** and requires a separate explicit phase authorization.
+
+Core planned boundary tests include:
+
+```text
+actual Dynamics ≠ time-indexed State by identity
+actual Dynamics ≠ Work lifecycle/execution
+actual Dynamics ≠ event/process representation or log
+actual transition/change ≠ causal attribution
+```
+
 ## Strong non-collapse rules
 
 ```text
@@ -67,17 +91,14 @@ Domain State ≠ one formal/model state vector
 actual Structure ≠ architecture/baseline/inventory by identity
 actual Condition ≠ observation/measurement/report/cache by identity
 Domain Dynamics ≠ Work lifecycle
+actual Domain dynamics ≠ representation/model/log of dynamics
 after-state/change ≠ causal effect attribution
 current State ≠ causal explanation
 ```
 
-## User evaluation
-
-The user accepted the bounded Domain State result on 2026-09-03 as reasonable enough for continued hierarchical research. No child or sibling is selected or active yet.
-
 ## Verification limit
 
-Domain Reality and Domain State completion audits are same-model adversarial self-review, not independent verification. External traditions support discriminating claims but do not independently validate the exact project hierarchy.
+Domain Reality and Domain State completion audits are same-model adversarial self-review, not independent verification. The Dynamics plan is pre-research control and does not itself validate a Dynamics decomposition.
 
 ## Go deeper
 
@@ -91,4 +112,7 @@ Current Domain State result:
 - `domain-state/FINDINGS-MAP.md`
 - `domain-state/synthesis/DOMAIN-STATE-SYNTHESIS.md`
 
-Current next work is selection/planning of one next research node with the user. Research activation remains separate.
+Selected next-node plan:
+- `DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+
+Current next work is user review / explicit authorization of the planned Domain Dynamics substantive pass. No substantive node is active.
