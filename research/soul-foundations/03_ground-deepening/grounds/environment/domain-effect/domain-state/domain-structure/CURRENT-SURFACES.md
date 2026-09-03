@@ -1,6 +1,6 @@
 # Domain Structure — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Structure closure; awaiting user evaluation  
+**Status:** canonical freshness binding after bounded Structure closure and user acceptance  
 **Date:** 2026-09-03  
 **Branch:** `main`
 
@@ -8,9 +8,9 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `8a85bca3d3b1664ca2fbc1dbbe537c1c251bdcb5` |
-| Router | `INDEX.md` | `921d00942b4ccc6e3c5abfbf1cd6e64bb03f912e` |
-| L0 key | `KEY.md` | `13a2edbf853021e3d6e23241a86e67332fe2f011` |
+| Node state | `STATE.md` | `a69e73f90e2714ab8945529d309db99fedfda6be` |
+| Router | `INDEX.md` | `4e6d11e895b459392c60f9346d6f7682b33d4603` |
+| L0 key | `KEY.md` | `9815af79146027447a02b4e654b8797edc6bf424` |
 | L1 findings map | `FINDINGS-MAP.md` | `3906538681a8a6ee28a7f5771860e6fe13f2a1fc` |
 | Residual questions | `OPEN-QUESTIONS.md` | `a7a94666fac213c5fecc55086afaa14affd93d19` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `248c52cc19f6145d15b6cab48dbdb6795a77d23f` |
@@ -34,7 +34,7 @@ Findings tree: `038e39a0033ede87a34dd09b56cdb210f2fa7dc4`.
 |---|---|---|
 | Integrated synthesis | `synthesis/DOMAIN-STRUCTURE-SYNTHESIS.md` | `a222a028119edbd9c90b18a6449ba2929c526596` |
 | Completion / omission audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | `0105b90ccd7290c4398eb44c02b699df1483e27f` |
-| Source / view ledger | `evidence/SOURCE-LEDGER.md` | `375b79264e9ce81297fd35630c9bae97c48e7234` |
+| Source / view ledger | `evidence/SOURCE-LEDGER.md` | `375b79264e9ce81297c48e7234` |
 
 Synthesis tree: `917e03cb418a4aed3cb42daa057ff0f6c421b700`  
 Evidence tree: `778d3092c31159eeb1e856c82883695a9b8e7406`
@@ -48,7 +48,7 @@ This Structure pass was entered from the Domain State snapshot bound by:
 - parent `../KEY.md`: `1c7ea731c2629a132d06a43ef3d9f9d90825c02e`
 - frozen plan `../DOMAIN-STRUCTURE-RESEARCH-PLAN.md`: `fc402ad7dd0259cec4a831586766e0c1a1cfdad4`
 
-Those SHAs are historical pass-input bindings; parent current surfaces may now be refreshed to reflect this child result.
+Those SHAs are historical pass-input bindings; parent current surfaces may now be refreshed to reflect this child result and evaluation state.
 
 ## Current bounded result
 
@@ -58,15 +58,15 @@ Domain Structure
     └─ Relational Organization / Topology     ← discovered; inactive
 ```
 
-`Domain Structure / Composition` was refined to `Domain Structure`. No discovered child is substantively active.
+`Domain Structure / Composition` was refined to `Domain Structure`. The bounded result was user-evaluated and accepted on 2026-09-03. No discovered child is substantively active.
 
 ## Verification rule
 
-The completion audit is same-model adversarial self-review, not independent verification. External sources discriminate/falsify rivals but do not independently validate this exact hierarchy.
+The completion audit is same-model adversarial self-review, not independent verification. External sources discriminate/falsify rivals but do not independently validate this exact hierarchy. User acceptance does not alter that verification status.
 
 ## Authorization rule
 
-Current authorised work is **user evaluation of the bounded Domain Structure result only**.
+No substantive work is currently authorized. The next logical step is `Domain Condition / Status` planning, which requires explicit user authorization.
 
 Do not activate either Structure child, Domain Condition / Status, Information, Work, Actors, systematic relation/control composition, architecture, ontology/data-model work or implementation without later explicit authorization.
 
