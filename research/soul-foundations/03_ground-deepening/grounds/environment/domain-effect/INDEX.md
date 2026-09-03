@@ -6,9 +6,9 @@ Current router for the bounded Domain Reality result and its deeper Domain State
 
 ## Current status
 
-**DOMAIN STATE USER-EVALUATED; DOMAIN DYNAMICS BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorised work is user evaluation of the Dynamics result only.
+Current authorised work is selection/planning of one next research node with the user.
 
 ## Read order
 
@@ -27,7 +27,7 @@ Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure / Composition        ← discovered; inactive
     │    └─ Domain Condition / Status             ← discovered; inactive
-    └─ Domain Dynamics                            ← bounded leaf; awaiting user evaluation
+    └─ Domain Dynamics                            ← bounded leaf; user-evaluated
 ```
 
 The package directory name `domain-effect/` is historical; current node semantics are `Domain Reality`.
@@ -49,11 +49,11 @@ Dynamics result:
 - `Domain Dynamics / Processes` → `Domain Dynamics`;
 - no universal immediate child currently justified;
 - bounded leaf at current foundation depth;
-- awaiting user evaluation.
+- user evaluation accepted 2026-09-03.
 
 Frozen executed plan:
 - `DOMAIN-DYNAMICS-RESEARCH-PLAN.md`.
 
 ## Guardrail
 
-No node is active. Do not activate Structure, Condition, Work Conditions or another ground automatically. Dynamics closure returns to user evaluation before any subsequent node selection/activation.
+No node is active. Selection/planning of the next single research node is authorised; Structure, Condition, Work Conditions or another ground must not be substantively activated automatically.
