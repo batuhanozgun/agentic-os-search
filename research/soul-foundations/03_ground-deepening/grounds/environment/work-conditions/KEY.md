@@ -1,6 +1,6 @@
 # Work Conditions — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED FOR HIERARCHICAL CONTINUATION
 **Date:** 2026-09-03
 **Parent:** Environment / Operating Reality
 
@@ -19,7 +19,7 @@ is better simplified to:
 Current bounded hierarchy:
 
 ```text
-Work Conditions     ← bounded leaf at current universal foundation-research depth
+Work Conditions     ← bounded leaf at current universal foundation-research depth; user-evaluated
 ```
 
 No universal immediate child currently clears the project's child-promotion threshold.
@@ -88,6 +88,8 @@ Same concrete fact may be Domain Reality for one Work and Work Condition for ano
 
 External source traditions and cross-domain holdouts discriminated rival decompositions. The completion audit is same-model adversarial review, **not independent verification**. No external source independently validates this exact project leaf result.
 
+The user evaluated the simplified result on 2026-09-03 and found it appropriate for hierarchical continuation. This accepts the bounded result without changing the verification status or authorising a specific next substantive node.
+
 ## Go deeper
 
 - full synthesis → `synthesis/WORK-CONDITIONS-SYNTHESIS.md`
@@ -101,4 +103,4 @@ External source traditions and cross-domain holdouts discriminated rival decompo
 - residuals → `OPEN-QUESTIONS.md`
 - deferred relations → `DEFERRED-RELATIONS.md`
 
-No substantive node is active after closure. This result awaits user evaluation before another node is selected or activated.
+No substantive node is active. Current next work is selection/planning of one next research node at the parent/stage level.
