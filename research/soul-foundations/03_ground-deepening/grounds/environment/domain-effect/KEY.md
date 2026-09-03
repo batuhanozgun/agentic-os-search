@@ -1,6 +1,6 @@
 # Domain Reality — KEY
 
-**Status:** bounded Domain Reality result; Domain State/Dynamics user-evaluated; Domain Structure bounded / awaiting user evaluation  
+**Status:** bounded Domain Reality result; Domain State/Dynamics user-evaluated; Domain Structure bounded / user-evaluated / accepted; no substantive node active  
 **Date:** 2026-09-03  
 **Parent:** Environment / Operating Reality
 
@@ -9,7 +9,7 @@
 ```text
 Domain Reality
     ├─ Domain State
-    │    ├─ Domain Structure                         [bounded; awaiting user evaluation]
+    │    ├─ Domain Structure                         [bounded; user-evaluated / accepted]
     │    │    ├─ Constituent Composition / Membership [discovered; inactive]
     │    │    └─ Relational Organization / Topology   [discovered; inactive]
     │    └─ Domain Condition / Status                [discovered; inactive]
@@ -48,6 +48,8 @@ The split is semantic/problem-role based:
 
 No third co-equal Domain State child was exposed.
 
+The bounded Structure result was accepted by the user on 2026-09-03. No reopen trigger was raised.
+
 ## Domain Dynamics retained
 
 `Domain Dynamics / Processes` → **Domain Dynamics**.
@@ -74,7 +76,7 @@ actual transition/change ≠ causal attribution
 
 ## Verification limit
 
-Domain State, Structure and Dynamics completion audits are same-model adversarial reviews, not independent verification. External traditions/holdouts discriminate boundaries but do not independently validate the exact hierarchy.
+Domain State, Structure and Dynamics completion audits are same-model adversarial reviews, not independent verification. External traditions/holdouts discriminate boundaries but do not independently validate the exact hierarchy. User acceptance does not alter that status.
 
 ## Go deeper
 
@@ -93,4 +95,4 @@ Current Dynamics route:
 
 ## Authorization
 
-**Current authorized work is user evaluation of the bounded Domain Structure result only.**
+Current substantive authorization is **NONE**. The next logical step is Domain Condition / Status planning from the current canonical state, but it requires explicit user authorization.
