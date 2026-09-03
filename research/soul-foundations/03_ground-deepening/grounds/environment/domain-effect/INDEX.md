@@ -6,9 +6,9 @@ Current router for the bounded Domain Reality result and its deeper Domain State
 
 ## Current status
 
-**DOMAIN STRUCTURE BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STRUCTURE BOUNDED / USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorization is user evaluation of the Structure result only.
+Current substantive authorization is **NONE**. The next logical step is Domain Condition / Status planning from the current canonical state, but it requires explicit user authorization.
 
 ## Read order
 
@@ -28,7 +28,7 @@ The executed Structure plan remains at `domain-state/DOMAIN-STRUCTURE-RESEARCH-P
 ```text
 Domain Reality
     ├─ Domain State
-    │    ├─ Domain Structure                         ← bounded; awaiting user evaluation
+    │    ├─ Domain Structure                         ← bounded; user-evaluated / accepted
     │    │    ├─ Constituent Composition / Membership ← discovered; inactive
     │    │    └─ Relational Organization / Topology   ← discovered; inactive
     │    └─ Domain Condition / Status                ← discovered; inactive
@@ -38,13 +38,13 @@ Domain Reality
 Agreed continuation:
 
 ```text
-Structure research → user evaluation
-→ Condition research → user evaluation
+Structure research      ← boundedly complete
+→ user evaluation       ← accepted 2026-09-03
+→ Condition research    ← next logical node; inactive / not yet planned or authorized
+→ user evaluation
 → Environment completion review
 → then decide whether Information should begin
 ```
-
-Structure research is boundedly complete. Condition planning remains intentionally deferred until after Structure evaluation.
 
 ## Domain State / Structure route
 
@@ -53,6 +53,7 @@ Structure research is boundedly complete. Condition planning remains intentional
 Current Structure result:
 - inherited `Domain Structure / Composition` → `Domain Structure`;
 - immediate discovered regions = `Constituent Composition / Membership` + `Relational Organization / Topology`;
+- bounded result user-evaluated / accepted 2026-09-03;
 - no discovered Structure child is active;
 - no third co-equal Domain State region was exposed.
 
@@ -66,4 +67,4 @@ Dynamics remains a bounded leaf and user-evaluated.
 
 No substantive node is active.
 
-Do not activate a Structure child, Condition, Information, composition, architecture, ontology/schema or implementation without later explicit authorization.
+Do not activate a Structure child, plan/research Condition, begin Information, composition, architecture, ontology/schema or implementation without later explicit authorization.
