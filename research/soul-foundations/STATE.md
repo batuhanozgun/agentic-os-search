@@ -1,7 +1,7 @@
 # SOUL Foundations — STATE
 
 **Status:** active research library; independent discovery and adequacy layers are closed; Environment parent, Domain Reality and Domain State are user-evaluated for hierarchical continuation; Domain Dynamics is boundedly sufficient and awaiting user evaluation; no substantive node active  
-**Repository cleanup/currentness verification:** deep verification completed on 2026-09-03 before Dynamics activation; Dynamics closure surfaces are being synchronized bottom-up in this same pass  
+**Repository cleanup/currentness verification:** deep verification completed on 2026-09-03; Domain Dynamics closure surfaces were synchronized bottom-up through Domain Reality, Environment, ground-deepening and foundation root without changing the bounded research conclusion  
 **Domain Dynamics bounded closure:** 2026-09-03  
 **Current authorised substantive activity:** USER EVALUATION OF DOMAIN DYNAMICS ONLY; NO SUBSTANTIVE NODE ACTIVE  
 **Current return condition:** return the bounded Domain Dynamics result to the user; do not select or activate a next node before that evaluation/transition decision
