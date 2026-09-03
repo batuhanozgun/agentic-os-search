@@ -2,13 +2,13 @@
 
 ## Role
 
-Current router for the Environment ground and its agreed continuation through Domain Structure evaluation and Domain Condition before any Information transition.
+Current router for the Environment ground and its agreed continuation through Domain Condition before any Information transition.
 
 ## Current status
 
-**DOMAIN STRUCTURE BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STRUCTURE BOUNDED / USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorization is user evaluation of the Structure result only.
+Current substantive authorization is **NONE**. The next logical step is Domain Condition / Status planning from the current canonical state, but it requires explicit user authorization.
 
 ## Reading order
 
@@ -29,7 +29,7 @@ The executed Structure plan remains at `domain-effect/domain-state/DOMAIN-STRUCT
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure                         ← bounded; awaiting user evaluation
+    │    │    ├─ Domain Structure                         ← bounded; user-evaluated / accepted
     │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
     │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
     │    │    └─ Domain Condition / Status                ← discovered; inactive
@@ -41,13 +41,13 @@ Environment / Operating Reality
 ## Agreed continuation
 
 ```text
-Structure research → user evaluation
-→ Condition research → user evaluation
+Structure research      ← boundedly complete
+→ user evaluation       ← accepted 2026-09-03
+→ Condition research    ← next logical node; inactive / not yet planned or authorized
+→ user evaluation
 → Environment completion review
 → then decide whether Information should begin
 ```
-
-Structure research is boundedly complete at immediate-child depth. Condition planning is intentionally deferred until after Structure evaluation.
 
 ## Current routes
 
@@ -62,16 +62,16 @@ Structure research is boundedly complete at immediate-child depth. Condition pla
 
 ## Historical input rule
 
-Preserved pass snapshots remain historical evidence. Current refinements must not be retroactively substituted into prior pass inputs.
+Preserved pass snapshots remain historical evidence. Current refinements and later user acceptance must not be retroactively substituted into prior pass inputs.
 
 ## Hierarchical method
 
 `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-Research closure does not authorize a discovered child or sibling automatically.
+Research closure and user acceptance do not authorize a discovered child or sibling automatically.
 
 ## Guardrail
 
-No substantive node is active. Current authorized work is Structure user evaluation only.
+No substantive node is active. Current substantive authorization is **NONE**.
 
-Do not activate a Structure child, Condition, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation without the required later transition.
+Do not activate a Structure child, plan/research Condition, begin Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation without the required later explicit transition.
