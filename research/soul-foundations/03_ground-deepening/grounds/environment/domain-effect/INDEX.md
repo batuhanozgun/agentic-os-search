@@ -2,23 +2,23 @@
 
 ## Role
 
-Current router for the bounded Domain Reality result, the deeper bounded Domain State result and the selected/planned Domain Dynamics pass.
+Current router for the bounded Domain Reality result and its deeper Domain State and Domain Dynamics results.
 
 ## Current status
 
-**DOMAIN STATE USER-EVALUATED; DOMAIN DYNAMICS SELECTED AND PLANNED; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STATE USER-EVALUATED; DOMAIN DYNAMICS BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
-The next task is user review / explicit authorization of the planned Domain Dynamics substantive pass.
+Current authorised work is user evaluation of the Dynamics result only.
 
 ## Read order
 
 1. `STATE.md` — current Domain Reality authorization/state.
 2. `KEY.md` — shortest current hierarchy.
-3. selected next-node plan → `DOMAIN-DYNAMICS-RESEARCH-PLAN.md`.
-4. original Domain Reality evidence → `FINDINGS-MAP.md` / synthesis.
-5. current Domain State result → `domain-state/STATE.md` / `KEY.md` / `FINDINGS-MAP.md` / synthesis.
-6. relevant audit/source ledger when decision-critical.
-7. current-surfaces manifests for exact freshness.
+3. current Dynamics result → `domain-dynamics/STATE.md` / `KEY.md`.
+4. current State result → `domain-state/STATE.md` / `KEY.md`.
+5. original Domain Reality evidence → `FINDINGS-MAP.md` / synthesis when needed.
+6. relevant child findings/audit/source ledger when decision-critical.
+7. `CURRENT-SURFACES.md` — exact current freshness binding.
 
 ## Current hierarchy
 
@@ -27,32 +27,33 @@ Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure / Composition        ← discovered; inactive
     │    └─ Domain Condition / Status             ← discovered; inactive
-    └─ Domain Dynamics / Processes                ← selected/planned; not active
+    └─ Domain Dynamics                            ← bounded leaf; awaiting user evaluation
 ```
 
 The package directory name `domain-effect/` is historical; current node semantics are `Domain Reality`.
 
-## Current Domain State route
+## Domain State route
 
-`domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → focused finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md`
+`domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → relevant finding → completion/source recovery`
 
 State result:
 - `Domain State / Configuration` → `Domain State`;
 - children = Structure/Composition + Condition/Status;
-- no third universal immediate State child currently required;
-- user evaluation accepted on 2026-09-03.
+- user evaluation accepted 2026-09-03.
 
-## Planned Domain Dynamics route
+## Domain Dynamics route
 
-`DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+`domain-dynamics/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md → relevant finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md`
 
-Status:
-- selected by the user on 2026-09-03;
-- research plan complete;
-- substantive research not active;
-- no Dynamics child package exists yet;
-- explicit user authorization is required before the pass becomes active.
+Dynamics result:
+- `Domain Dynamics / Processes` → `Domain Dynamics`;
+- no universal immediate child currently justified;
+- bounded leaf at current foundation depth;
+- awaiting user evaluation.
+
+Frozen executed plan:
+- `DOMAIN-DYNAMICS-RESEARCH-PLAN.md`.
 
 ## Guardrail
 
-Do not activate Structure, Condition, Dynamics, Work Conditions or another ground automatically. Current authorization is Dynamics plan review / explicit research-activation decision only.
+No node is active. Do not activate Structure, Condition, Work Conditions or another ground automatically. Dynamics closure returns to user evaluation before any subsequent node selection/activation.
