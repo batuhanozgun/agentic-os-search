@@ -6,7 +6,9 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**DOMAIN STATE BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STATE USER-EVALUATED FOR HIERARCHICAL CONTINUATION; NO SUBSTANTIVE NODE ACTIVE.**
+
+The next task is selection/planning of one next research node with the user.
 
 ## Read order
 
@@ -50,9 +52,11 @@ Immediate children:
 
 Identity/Continuity, Constraints/Invariants, Granularity/State Sufficiency and actual-versus-represented State remain explicit cross-cutting dimensions/boundaries rather than co-equal children.
 
+The user accepted this bounded result on 2026-09-03 as reasonable enough for continued hierarchical research.
+
 ## One-active-node rule
 
-No node is active while Domain State awaits user evaluation. Discovered children are not automatically authorised.
+No node is active. Discovered children are not automatically authorised.
 
 ## Other top-level grounds
 
@@ -60,4 +64,4 @@ Information, Work and Actors remain inactive. Domain Dynamics and Work Condition
 
 ## Guardrail
 
-Current authorised work is user evaluation of Domain State only. Do not infer authorization for Structure, Condition, Dynamics, Work Conditions, Information, Work, Actors, architecture, ontology/data model or implementation.
+Current authorised work is next-node selection/planning only. Do not infer authorization for Structure, Condition, Dynamics, Work Conditions, Information, Work, Actors, architecture, ontology/data model or implementation.
