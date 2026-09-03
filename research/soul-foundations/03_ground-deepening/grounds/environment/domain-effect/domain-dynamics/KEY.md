@@ -1,6 +1,6 @@
 # Domain Dynamics — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION  
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED AS REASONABLE ENOUGH FOR HIERARCHICAL CONTINUATION  
 **Date:** 2026-09-03  
 **Parent:** Domain Reality
 
@@ -70,6 +70,12 @@ actual temporal change ≠ causal effect attribution
 
 `Actual Dynamics` does not require metaphysical independence from all representation or collective practice. Institutional/social dynamics can be constituted through rules and collective practices. The boundary is from any particular Record/model/assertion and from Actor authority semantics.
 
+## User evaluation
+
+The user reviewed the simplified result on 2026-09-03 and found the bounded leaf result reasonable. It is accepted for hierarchical continuation, subject to the existing reopen conditions.
+
+This evaluation does not select or activate a next research node.
+
 ## Verification limit
 
 External source lineages and cross-domain holdouts discriminated rival decompositions. The completion audit is still same-model adversarial review, **not independent verification**. No external source independently validates this exact project leaf result.
@@ -86,4 +92,4 @@ External source lineages and cross-domain holdouts discriminated rival decomposi
 - residuals → `OPEN-QUESTIONS.md`
 - deferred relations → `DEFERRED-RELATIONS.md`
 
-No substantive node is active after closure. This result awaits user evaluation before any child/sibling/other-ground activation.
+No substantive node is active. Parent/stage work may now select and plan one next research node.
