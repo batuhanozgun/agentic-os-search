@@ -1,68 +1,59 @@
 # Domain State — FINDINGS MAP
 
-**Status:** bounded current immediate-child result; user-evaluated for hierarchical continuation
+**Status:** bounded parent result; user-evaluated; deeper Domain Structure result bounded / awaiting user evaluation
 
-> **Pass-artifact provenance:** Focused findings, the executed research plan, source ledger and completion audit preserve pass-time candidate/provisional language where useful for research reconstruction. Current hierarchy, authorization and epistemic status come from `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`; pass-time `active`, `candidate` or `provisional` metadata is not current authorization.
+> **Pass-artifact provenance:** Domain State findings/synthesis preserve the state available during the parent pass. Current hierarchy, authorization and later Structure refinement come from `STATE.md`, `KEY.md`, this router, `CURRENT-SURFACES.md` and the `domain-structure/` package. Historical pass-time `candidate`, `active` or provisional language is not current authorization.
 
 ## Fast route
 
-- shortest result → `KEY.md`
-- integrated synthesis → `synthesis/DOMAIN-STATE-SYNTHESIS.md`
-- completion judgment → `synthesis/COMPLETENESS-OMISSION-CHECK.md`
-- source recovery → `evidence/SOURCE-LEDGER.md`
-- residuals → `OPEN-QUESTIONS.md`
-- deferred relations → `DEFERRED-RELATIONS.md`
+- shortest current parent result → `KEY.md`
+- current parent state / authorization → `STATE.md`
+- deeper Structure current result → `domain-structure/KEY.md`
+- deeper Structure topic route → `domain-structure/FINDINGS-MAP.md`
+- deeper Structure synthesis → `domain-structure/synthesis/DOMAIN-STRUCTURE-SYNTHESIS.md`
+- deeper Structure completion judgment → `domain-structure/synthesis/COMPLETENESS-OMISSION-CHECK.md`
+- deeper Structure source recovery → `domain-structure/evidence/SOURCE-LEDGER.md`
+- deeper Structure exact freshness → `domain-structure/CURRENT-SURFACES.md`
+- historical Domain State synthesis → `synthesis/DOMAIN-STATE-SYNTHESIS.md`
+- historical Domain State completion judgment → `synthesis/COMPLETENESS-OMISSION-CHECK.md`
+- parent source recovery → `evidence/SOURCE-LEDGER.md`
+- parent residuals → `OPEN-QUESTIONS.md`
+- parent deferred relations → `DEFERRED-RELATIONS.md`
 
-## Focused findings
+## Historical Domain State focused findings
 
 | Question | Read |
 |---|---|
-| What prior evidence/falsifiers governed the pass? | `findings/01-evidence-inventory-and-starting-falsifiers.md` |
+| What prior evidence/falsifiers governed the parent pass? | `findings/01-evidence-inventory-and-starting-falsifiers.md` |
 | Why refine `Domain State / Configuration` to `Domain State`? | `findings/02-node-coherence-and-rename.md` |
-| Why promote Structure / Composition? | `findings/03-structure-composition-child.md` |
+| Why was Structure promoted at the parent level? | `findings/03-structure-composition-child.md` |
 | Why promote Condition / Status? | `findings/04-condition-status-child.md` |
 | Why are Identity, Constraints and Granularity cross-cutting? | `findings/05-identity-constraints-granularity-crosscut.md` |
 | Why is actual State not its specification/report/model/Record? | `findings/06-actual-vs-represented-state-boundary.md` |
-| Did materially different domains force another child? | `findings/07-cross-domain-holdouts.md` |
-| Which rival decompositions were tested? | `findings/08-rival-decomposition-and-child-result.md` |
-| What is the current State problem/failure map? | `findings/09-domain-state-problem-map.md` |
+| Did materially different domains force another parent child? | `findings/07-cross-domain-holdouts.md` |
+| Which parent rival decompositions were tested? | `findings/08-rival-decomposition-and-child-result.md` |
+| What is the parent State problem/failure map? | `findings/09-domain-state-problem-map.md` |
 
-## Current central result
+## Current central hierarchy
 
 ```text
 Domain State
-    ├─ Domain Structure / Composition
-    └─ Domain Condition / Status
+    ├─ Domain Structure
+    │    ├─ Constituent Composition / Membership   ← discovered; inactive
+    │    └─ Relational Organization / Topology     ← discovered; inactive
+    └─ Domain Condition / Status                   ← discovered; inactive
 ```
 
 Key interpretation:
-- parent label shortened because `configuration` mixed structure/settings/baseline meanings;
-- Structure protects realized constituent/composition/topology questions;
-- Condition protects realized property/health/status/standing questions;
-- constituents and structural relations are not split into separate universal children;
-- Identity/Continuity, Constraints/Invariants and Granularity/State Sufficiency remain explicit cross-cutting dimensions;
-- actual-versus-represented State remains a boundary to Information/composition;
-- no third universal immediate child is currently required.
+- the parent `Domain State` result remains valid at its level;
+- deeper research refined `Domain Structure / Composition` to `Domain Structure`;
+- at Structure-specific resolution, constituent composition/membership and relational organization/topology now survive as distinct immediate problem regions;
+- this refines rather than contradicts the parent pass because the parent needed a broad Structure region to distinguish it from Condition;
+- no third co-equal Domain State child was exposed;
+- Identity/Continuity, Constraints/Invariants, scope/granularity and actual-versus-represented remain explicit cross-cutting/boundary dimensions.
 
-## User evaluation
+## Verification / authorization
 
-The user reviewed and accepted this bounded result on 2026-09-03 as reasonable enough for continued hierarchical research. This evaluation does not select or activate Structure, Condition or any sibling node.
+The Domain State and Structure completion audits are same-model adversarial self-reviews, not independent verification.
 
-## Key non-collapse rules
-
-```text
-Domain State ≠ one formal/model state vector
-actual Structure ≠ architecture/baseline/inventory by identity
-actual Condition ≠ measurement/report/status cache by identity
-Structure ≠ Dynamics
-Condition ≠ Dynamics
-current State ≠ causal explanation
-```
-
-## Progressive retrieval
-
-`KEY → FINDINGS-MAP → DOMAIN-STATE-SYNTHESIS → focused finding → completion/source ledger → primary source`
-
-## Guardrail
-
-No substantive node is currently active. Next authorised work is selection/planning of one next research node with the user; research activation remains separate.
+No substantive node is currently active. **Current authorized work is user evaluation of the bounded Domain Structure result only.**
