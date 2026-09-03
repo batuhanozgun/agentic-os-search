@@ -2,19 +2,19 @@
 
 ## Role
 
-Current router for the Environment ground, bounded Domain Reality branch and bounded Work Conditions result.
+Current router for the Environment ground, bounded Domain Reality branch and user-evaluated Work Conditions result.
 
 ## Current status
 
-**WORK CONDITIONS BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STATE, DOMAIN DYNAMICS AND WORK CONDITIONS USER-EVALUATED; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorised work is user evaluation of Work Conditions only.
+Current authorised work is selection/planning of one next research node with the user.
 
 ## Reading order
 
 1. `STATE.md` — current Environment state/authorization.
-2. current Work Conditions result → `work-conditions/STATE.md` / `KEY.md`.
-3. `KEY.md` — shortest current Environment hierarchy.
+2. `KEY.md` — shortest current Environment hierarchy.
+3. Work Conditions → `work-conditions/STATE.md` / `KEY.md` when needed.
 4. Domain Reality/State/Dynamics as needed.
 5. parent result → `FINDINGS-MAP.md` / parent synthesis when needed.
 6. relevant child findings/audit/source surfaces when decision-critical.
@@ -29,7 +29,7 @@ Environment / Operating Reality
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← bounded leaf; awaiting user evaluation
+    └─ Work Conditions                            ← bounded leaf; user-evaluated
          ↳ Technical Work Environment             ← deep technical specialization/profile
 ```
 
@@ -43,7 +43,7 @@ Work Conditions correction:
 - no universal immediate child currently justified;
 - bounded leaf at current universal foundation depth;
 - Technical Work Environment retained as a deep technical specialization/profile;
-- awaiting user evaluation.
+- user evaluation accepted 2026-09-03.
 
 Executed frozen plan:
 - `WORK-CONDITIONS-RESEARCH-PLAN.md`.
@@ -58,14 +58,14 @@ Domain State and Domain Dynamics are user-evaluated. Structure/Condition remain 
 The Work Conditions pass began from Environment `CURRENT-SURFACES.md` blob:
 - `0bd03a434fdba0baed0821a7d73e2e7e4643b541`.
 
-Do not substitute this post-pass Environment state for the historical pass input.
+Do not substitute current post-pass Environment state for the historical pass input.
 
 ## Hierarchical method
 
 `../../HIERARCHICAL-DEEPENING-METHOD.md`
 
-Node closure does not automatically authorize a sibling, child or another ground.
+Node closure or user evaluation does not automatically authorize a sibling, child or another ground.
 
 ## Guardrail
 
-No substantive node is active. Current authorized activity is user evaluation of Work Conditions. Do not begin Structure, Condition, Information, Work, Actors, systematic composition or architecture without an explicit later transition.
+No substantive node is active. Current authorized activity is next-node selection/planning only. Do not begin Structure, Condition, Information, Work, Actors, systematic composition or architecture without an explicit later transition.
