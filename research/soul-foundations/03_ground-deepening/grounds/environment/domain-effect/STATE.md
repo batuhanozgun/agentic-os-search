@@ -1,15 +1,15 @@
 # Domain Reality — STATE
 
-**Status:** BOUNDED DOMAIN REALITY RESULT; DOMAIN STATE/DYNAMICS USER-EVALUATED; DOMAIN CONDITION BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDED DOMAIN REALITY RESULT; DOMAIN STATE/DYNAMICS USER-EVALUATED; STRUCTURE AND CONDITION ACCEPTED; NO SUBSTANTIVE CHILD ACTIVE  
 **Domain Reality authorised:** 2026-09-02  
 **Domain State user evaluation accepted:** 2026-09-03  
 **Domain Dynamics user evaluation accepted:** 2026-09-03  
 **Domain Structure:** bounded / user-evaluated / accepted 2026-09-03  
-**Domain Condition:** substantive pass bounded 2026-09-03; awaiting user evaluation  
+**Domain Condition:** bounded / user-evaluated / accepted 2026-09-04  
 **Parent:** Environment / Operating Reality  
 **Sibling:** Work Conditions — bounded leaf; user-evaluated  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** USER EVALUATION OF THE BOUNDED DOMAIN CONDITION RESULT ONLY
+**Current authorised activity:** ENVIRONMENT COMPLETION REVIEW AT THE PARENT/STAGE LEVEL ONLY
 
 ## Current Domain Reality hierarchy
 
@@ -17,11 +17,11 @@
 Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure                         ← bounded / accepted
-    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
-    │    │    └─ Relational Organization / Topology   ← discovered; inactive
-    │    └─ Domain Condition                         ← bounded; awaiting user evaluation
-    │         ├─ Realized Characteristics / Values    ← discovered; inactive
-    │         └─ Criterion-Relative Standing / Status ← discovered; inactive
+    │    │    ├─ Constituent Composition / Membership ← discovered; inactive / not researched
+    │    │    └─ Relational Organization / Topology   ← discovered; inactive / not researched
+    │    └─ Domain Condition                         ← bounded / accepted
+    │         ├─ Realized Characteristics / Values    ← discovered; inactive / not researched
+    │         └─ Criterion-Relative Standing / Status ← discovered; inactive / not researched
     └─ Domain Dynamics                               ← bounded leaf; user-evaluated
 ```
 
@@ -31,7 +31,7 @@ The historical `Domain / Effect Reality` label remains refined to `Domain Realit
 
 `Domain State / Configuration` remains refined to `Domain State`.
 
-Its parent split remains Structure versus Condition. Deeper passes now refine both children:
+Its parent split remains Structure versus Condition. Dedicated passes now refine both children:
 
 ```text
 Domain Structure
@@ -43,7 +43,7 @@ Domain Condition
     └─ Criterion-Relative Standing / Status
 ```
 
-The Condition pass refined the inherited `Domain Condition / Status` label to `Domain Condition`. No third co-equal Domain State region was exposed.
+No third co-equal Domain State region was exposed.
 
 ## Domain Dynamics retained
 
@@ -67,30 +67,27 @@ criterion / rule / threshold ≠ current satisfaction/violation fact by identity
 actual transition/change ≠ causal attribution
 ```
 
+## Completion-review dependency
+
+The Environment completion review must decide whether deeper child discovery leaves material unresolved research debt inside Domain Reality. In particular, the four discovered Structure/Condition children remain unresearched.
+
+This review must not infer ground completion from traversal of the previously planned sibling sequence alone.
+
 ## Current sequence
 
 ```text
 Structure research/evaluation ← complete / accepted
-Condition research             ← boundedly complete
-Condition user evaluation      ← CURRENT GATE
-Environment completion review  ← inactive; later explicit stage
-Information transition decision← only after Environment completion review
+Condition research/evaluation ← complete / accepted
+Environment completion review  ← authorised next stage
+Information transition decision← only after completion review and later user direction
 ```
 
 ## Verification status
 
-Domain State, Structure, Condition and Dynamics completion audits are same-model adversarial reviews, not independent verification. External sources discriminate rival decompositions but do not independently validate the exact hierarchy.
-
-## Current return condition
-
-Return the bounded Domain Condition result for user evaluation.
-
-## Next logical work
-
-If the user accepts Condition and no reopen trigger appears, the agreed next logical stage is an explicit Environment completion review from the then-current canonical state.
+Domain State, Structure, Condition and Dynamics completion audits are same-model adversarial reviews, not independent verification. External sources discriminate rival decompositions but do not independently validate the exact hierarchy. User acceptance does not alter that status.
 
 ## Next authorised work
 
-**USER EVALUATION OF THE BOUNDED DOMAIN CONDITION RESULT ONLY.**
+**ENVIRONMENT COMPLETION REVIEW ONLY.**
 
-Do not activate a Condition child, Structure child, Environment completion review, Information, cross-ground composition, architecture, ontology/schema or implementation automatically.
+Do not activate a Condition child, Structure child, Information, cross-ground composition, architecture, ontology/schema or implementation automatically.
