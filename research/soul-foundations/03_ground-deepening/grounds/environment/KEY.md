@@ -1,6 +1,6 @@
 # Environment / Operating Reality — KEY
 
-**Status:** Environment parent, Domain Reality and Domain State user-evaluated for continuation; Domain Dynamics selected/planned, substantive research not active  
+**Status:** Environment parent user-evaluated; Domain State user-evaluated; Domain Dynamics bounded / awaiting user evaluation; no substantive node active  
 **Date:** 2026-09-03  
 **Scope:** Environment research hierarchy only; not cross-ground composition or architecture
 
@@ -12,7 +12,7 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure / Composition   [discovered; inactive]
     │    │    └─ Domain Condition / Status        [discovered; inactive]
-    │    └─ Domain Dynamics / Processes           [selected/planned; not active]
+    │    └─ Domain Dynamics                       [bounded leaf; awaiting user evaluation]
     └─ Work Conditions / Enabling–Constraining Environment
          └─ Technical Work Environment
 ```
@@ -25,65 +25,62 @@ Environment concerns boundary/reference-relative realized conditions and dynamic
 - constitute the Domain Reality materially at issue; and/or
 - materially enable, constrain, degrade, endanger or otherwise shape Work execution.
 
-`Work-Support Environment` was broadened to **Work Conditions / Enabling–Constraining Environment** because adverse/degrading conditions are first-order.
+`Work-Support Environment` remains broadened to **Work Conditions / Enabling–Constraining Environment** because negative/degrading conditions are first-order.
 
 ## Domain Reality correction retained
 
 `Domain / Effect Reality` → **Domain Reality**.
 
-Actual result belongs to Domain State/trajectory; intended outcome and causal effect/attribution are not separate reality children.
+Actual result belongs to Domain State/trajectory; intended outcome and causal effect/attribution are relational/evidential questions.
 
 ## Deeper Domain State result
 
 `Domain State / Configuration` → **Domain State**.
 
 Immediate children:
+- **Domain Structure / Composition** — what is actually present and how is it composed/organized/connected?
+- **Domain Condition / Status** — what properties/values/health/mode/status/standing actually hold?
 
-### Domain Structure / Composition
-What materially relevant constituents are actually present and how are they actually composed/organized/connected?
+Domain State is user-evaluated for hierarchical continuation.
 
-### Domain Condition / Status
-What materially relevant properties, values, qualities, health, mode, status or standing actually hold?
+## Deeper Domain Dynamics result
 
-No third universal immediate State child is currently required.
+`Domain Dynamics / Processes` → **Domain Dynamics**.
 
-## Domain State user evaluation
+Question:
 
-The user accepted the Domain State result on 2026-09-03 as reasonable enough for continued hierarchical research. Structure and Condition remain inactive.
+> What actually unfolds, persists, interacts or changes through time in materially relevant Domain Reality?
 
-## Selected next node — Domain Dynamics / Processes
+Current result:
+- Dynamics remains necessary and distinct from a State snapshot;
+- **no universal immediate child is currently justified**;
+- Domain Dynamics is a **bounded leaf** at current foundation depth.
 
-The user selected Domain Dynamics on 2026-09-03. Its research plan is complete:
-- `domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
-
-The planned pass attacks whether Dynamics is one coherent node, a leaf, a rename, or needs first-order separation among candidates such as processes/flows, events/transitions, trajectories/history, endogenous/exogenous change or other rivals. It explicitly protects these boundaries:
-
-```text
-actual Dynamics ≠ time-indexed State by identity
-actual Dynamics ≠ Work lifecycle/execution
-actual Dynamics ≠ event/process model, log, simulation or forecast
-actual transition/change ≠ causal attribution
-```
-
-The plan does not select a Dynamics decomposition in advance. Substantive research is not active and requires explicit phase authorization.
+Explicit but non-child problem regions:
+- occurrence / interaction;
+- change / transition / trajectory;
+- temporal dependence / memory;
+- dynamic pattern / regime;
+- multi-scale / nested Dynamics.
 
 ## Strong non-collapse distinctions
 
 ```text
 Environment ≠ everything outside / everything relevant / Context
 Domain Reality ≠ every target of Work
-Domain State ≠ one formal/model state vector
+Domain Dynamics ≠ Domain State
 actual Structure ≠ architecture/baseline/inventory by identity
 actual Condition ≠ observation/measurement/report/cache by identity
-Domain Dynamics ≠ Work lifecycle
-actual Domain dynamics ≠ representation/model/log of dynamics
-actual result/change ≠ intended outcome ≠ causal attribution
-Actor capability ≠ situated actionability
+actual Dynamics ≠ log/model/simulation/forecast/digital twin
+actual Dynamics ≠ possible transition law / reachable-state description
+Domain Dynamics ≠ focal Work lifecycle
+Domain Dynamics role ≠ Work Conditions role by object identity
+actual transition/change ≠ causal attribution
 ```
 
 ## Verification limit
 
-Parent, Domain Reality and Domain State completion audits are same-model adversarial self-review, not independent verification. The Dynamics plan is pre-research control and has not yet produced a substantive node result.
+Parent, Domain Reality, Domain State and Domain Dynamics completion audits are same-model adversarial reviews, not independent verification. External traditions discriminate claims but do not independently validate the exact hierarchy.
 
 ## Go deeper
 
@@ -95,13 +92,14 @@ Domain Reality:
 - `domain-effect/STATE.md`
 - `domain-effect/KEY.md`
 
-Current Domain State result:
+Domain State:
 - `domain-effect/domain-state/STATE.md`
 - `domain-effect/domain-state/KEY.md`
-- `domain-effect/domain-state/FINDINGS-MAP.md`
-- `domain-effect/domain-state/synthesis/DOMAIN-STATE-SYNTHESIS.md`
 
-Selected next-node plan:
-- `domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+Domain Dynamics:
+- `domain-effect/domain-dynamics/STATE.md`
+- `domain-effect/domain-dynamics/KEY.md`
+- `domain-effect/domain-dynamics/FINDINGS-MAP.md`
+- `domain-effect/domain-dynamics/synthesis/DOMAIN-DYNAMICS-SYNTHESIS.md`
 
-Current next work is user review / explicit authorization of the planned Domain Dynamics substantive pass. No substantive node is active.
+Current next work is user evaluation of Domain Dynamics. No next node is automatically authorised.
