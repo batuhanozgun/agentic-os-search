@@ -1,7 +1,7 @@
 # Environment / Operating Reality — KEY
 
-**Status:** Environment parent user-evaluated for continuation; Domain Reality continued; Domain State boundedly sufficient and awaiting user evaluation  
-**Date:** 2026-09-02  
+**Status:** Environment parent, Domain Reality and Domain State user-evaluated for hierarchical continuation; no substantive node active  
+**Date:** 2026-09-03  
 **Scope:** Environment research hierarchy only; not cross-ground composition or architecture
 
 ## Shortest current result
@@ -47,6 +47,10 @@ What materially relevant properties, values, qualities, health, mode, status or 
 
 No third universal immediate State child is currently required.
 
+## User evaluation
+
+The user accepted the Domain State result on 2026-09-03 as reasonable enough for continued hierarchical research. No next node has been selected or activated.
+
 ## Strong non-collapse distinctions
 
 ```text
@@ -80,4 +84,4 @@ Current Domain State result:
 - `domain-effect/domain-state/FINDINGS-MAP.md`
 - `domain-effect/domain-state/synthesis/DOMAIN-STATE-SYNTHESIS.md`
 
-No discovered child or sibling is authorised automatically.
+Current next work is selection/planning of one next research node with the user. No discovered child or sibling is authorised automatically.
