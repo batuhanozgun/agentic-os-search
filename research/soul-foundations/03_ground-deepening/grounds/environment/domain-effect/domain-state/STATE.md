@@ -1,20 +1,21 @@
 # Domain State — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT; USER-EVALUATED; DOMAIN STRUCTURE RESEARCH BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDEDLY SUFFICIENT; USER-EVALUATED; DOMAIN STRUCTURE BOUNDED / USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE  
 **Domain State authorised:** 2026-09-02  
 **Domain State bounded closure:** 2026-09-02  
 **Domain State user evaluation accepted:** 2026-09-03  
 **Domain Structure substantive pass:** activated and boundedly closed 2026-09-03  
+**Domain Structure user evaluation accepted:** 2026-09-03  
 **Parent:** Domain Reality  
 **Sibling:** Domain Dynamics — bounded leaf; user-evaluated  
 **Environment sibling:** Work Conditions — bounded leaf; user-evaluated  
-**Current authorised activity:** user evaluation of the bounded Domain Structure result only
+**Current authorised activity:** NONE; awaiting explicit user authorization for the next substantive planning/research step
 
 ## Current hierarchy
 
 ```text
 Domain State
-    ├─ Domain Structure                         ← bounded child research result; awaiting user evaluation
+    ├─ Domain Structure                         ← bounded child research result; user-evaluated / accepted
     │    ├─ Constituent Composition / Membership ← discovered; inactive / not researched
     │    └─ Relational Organization / Topology   ← discovered; inactive / not researched
     └─ Domain Condition / Status                ← discovered sibling; inactive
@@ -115,6 +116,12 @@ Frozen historical plan remains:
 
 The Domain State and Domain Structure completion/omission audits are same-model adversarial self-reviews, **not independent verification**. External sources discriminate rival decompositions but do not independently validate the exact project hierarchy. User evaluation does not alter that status.
 
+## User evaluation result
+
+The bounded Domain Structure result was accepted by the user on 2026-09-03. No reopen trigger was raised.
+
+This closes the Structure evaluation gate without activating either Structure child or the Condition sibling.
+
 ## Reopen conditions
 
 Reopen Domain State if:
@@ -130,20 +137,20 @@ Reopen Domain State if:
 The previously accepted Environment sequence remains:
 
 ```text
-Structure research → user evaluation
-→ Condition research → user evaluation
+Structure research      ← boundedly complete
+→ user evaluation       ← accepted 2026-09-03
+→ Condition research    ← next logical node; inactive / not yet planned or authorized
+→ user evaluation
 → Environment completion review
 → only then decide whether Information should begin
 ```
 
-The Structure research step is now complete at bounded immediate-child depth; **its user evaluation is the current gate**.
-
 ## Next logical work
 
-After user evaluation, if the Structure result is accepted and no reopen trigger appears, select/plan the `Domain Condition / Status` pass from then-current canonical state.
+Select/plan the `Domain Condition / Status` pass from the current canonical state after explicit user authorization.
 
 ## Next authorised work
 
-**USER EVALUATION OF THE DOMAIN STRUCTURE RESULT ONLY.**
+**NONE. AWAIT EXPLICIT USER AUTHORIZATION FOR THE NEXT SUBSTANTIVE PLANNING/RESEARCH STEP.**
 
 Do not automatically activate either Structure child, Domain Condition / Status, Information, Work, Actors, cross-ground composition, architecture, ontology/data-model work or implementation.
