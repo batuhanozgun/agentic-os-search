@@ -1,24 +1,28 @@
 # Domain Reality — OPEN QUESTIONS
 
-**Status:** bounded residual uncertainty after Domain Reality closure and subsequent Domain State deepening
+**Status:** bounded residual uncertainty after Domain State and Domain Dynamics deepening
 
 These are residual questions, not demonstrated missing immediate children.
 
-## Resolved by subsequent Domain State research
+## Resolved/refined by deeper sibling research
 
-The following questions from the original Domain Reality closure are no longer open at this level:
+### Domain State
+- `Domain State / Configuration` → **Domain State**;
+- immediate children = **Domain Structure / Composition** + **Domain Condition / Status**;
+- Identity/Continuity, Constraints/Invariants and Granularity/State Sufficiency remained cross-cutting.
 
-- `Domain State / Configuration` was refined to **`Domain State`**;
-- deeper State research found a distinct **`Domain Structure / Composition`** child rather than keeping structure only as an undifferentiated State detail;
-- the sibling State child is **`Domain Condition / Status`**;
-- Identity/Continuity, Constraints/Invariants and Granularity/State Sufficiency remained explicit cross-cutting dimensions rather than co-equal State children.
+### Domain Dynamics
+- `Domain Dynamics / Processes` → **Domain Dynamics**;
+- dedicated Dynamics node survives;
+- no universal immediate Dynamics child currently survives the child-promotion test;
+- Domain Dynamics is a bounded leaf at current foundation depth;
+- process/event, occurrence/change, endogenous/exogenous, continuous/discrete, history/path dependence and stability/regime remain explicit but non-child distinctions/properties.
 
-Current deeper route:
-- `domain-state/STATE.md`
-- `domain-state/KEY.md`
-- `domain-state/OPEN-QUESTIONS.md`
+Current deeper routes:
+- `domain-state/STATE.md → KEY.md`
+- `domain-dynamics/STATE.md → KEY.md`
 
-## Q1 — final Domain Reality / Dynamics labels
+## Q1 — final Domain Reality terminology
 
 Current hierarchy:
 
@@ -27,50 +31,46 @@ Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure / Composition
     │    └─ Domain Condition / Status
-    └─ Domain Dynamics / Processes
+    └─ Domain Dynamics
 ```
 
 Open:
-- whether `Processes` remains a useful explanatory companion after dedicated Dynamics research;
-- whether any shorter Domain Reality terminology preserves the same boundary without sounding like a formal ontology.
+- whether later cross-ground synthesis exposes a shorter/less formal parent vocabulary without losing the State/Dynamics distinction;
+- whether `Dynamics` remains the best broad label once Information/Work/Actors composition is visible.
 
 ## Q2 — Constraints / laws / invariants across State and Dynamics
 
-Current result treats these as cross-cutting because they can constrain admissible states and/or transitions and may have represented forms in Information.
-
-Deeper State research did not promote Constraints as a State child.
+Deeper State and Dynamics research did not promote Constraints as a child.
 
 Open:
-- whether dedicated Dynamics research exposes a stable Domain-local constraints specialization;
-- whether the current cross-cutting treatment remains sufficient after both siblings are deepened.
+- how later composition distinguishes realized constraint condition from represented rule/law and from a relation delimiting admissible states/transitions;
+- whether Work Conditions research exposes a dedicated constraint role that changes this treatment.
 
 ## Q3 — Domain identity / continuity across change
 
-State research confirmed identity/continuity is not State-only.
+Both sibling passes retained identity/continuity as cross-cutting.
 
 Open:
-- what makes a domain constituent/system/situation the same across substantial change;
-- when identity is domain-specific rather than universal;
-- how identity should connect Structure/Condition to trajectories and replacement/change.
+- what makes a domain constituent/system/situation the same across substantial change/replacement;
+- when identity criteria are domain/purpose specific;
+- how identity claims bind Structure/Condition to Dynamics without becoming one universal identity child.
 
-Detailed State-local residuals live in `domain-state/OPEN-QUESTIONS.md`.
+## Q4 — State sufficiency and Dynamics memory
 
-## Q4 — Granularity, sufficient State and history
-
-State research confirmed there is no one universally sufficient State description.
+Established:
+- no one universally sufficient State representation;
+- Markov history-independence is conditional on a sufficient present-state representation/model;
+- genuine hysteresis/path dependence can remain material.
 
 Open:
-- when omitted history should be represented as additional current variables versus retained as genuinely Dynamics-local path dependence;
-- how later Information/composition should declare purpose-relative sufficiency without identifying the representation with reality.
+- how later Information/composition records the intended prediction/control purpose and evidence for dynamic sufficiency;
+- how to distinguish omitted current variables from irreducible path dependence in operational reasoning.
 
-## Q5 — Dynamics decomposition and representation
+## Q5 — realized versus possible Dynamics
 
-Open until dedicated Dynamics research:
-- whether `Domain Dynamics / Processes` remains one coherent node;
-- what immediate child regions, if any, survive deeper falsification;
-- when dynamics are usefully represented as events, processes, transitions, flows, differential equations, rules, stochastic processes or other domain-specific forms.
-
-No universal representation is selected here.
+Open:
+- how transition laws, invariants, reachable-state structures and counterfactual trajectories relate to actual realized Dynamics;
+- where represented laws/rules belong in Information versus realized physical/institutional constraints in Environment.
 
 ## Q6 — Causal attribution standards
 
@@ -78,27 +78,33 @@ Established:
 - actual transition/change is not itself proof of causal effect.
 
 Open:
-- what later composition/evidence standards SOUL/Development OS should require before attributing a transition to Work, Actor or another cause.
+- what later composition/evidence standards SOUL/Development OS should require before attributing a transition/trajectory difference to Work, Actor action, disturbance or another cause.
 
-## Q7 — Institutional/social reality composition
+## Q7 — Work Conditions role switching
 
 Open:
-- how later Information/Actors composition should represent domain facts that are real but depend on collective acceptance, rules, standing or institutional representation;
-- how realized Structure/Condition stays distinct from Actor authority/role and from particular representations of institutional facts.
+- how the same changing concrete system is represented once while serving as Domain Reality for Work targeting it and as enabling/constraining Work Conditions for other Work;
+- how degradation/recovery of support systems composes with Work readiness/execution.
 
-## Q8 — Domains with minimal/no Environment target
+## Q8 — institutional/social reality composition
+
+Open:
+- how later Information/Actors composition handles realized facts/dynamics partly constituted through collective rules/practices;
+- how Actor authority/role and particular representations remain distinct from realized institutional Structure/Condition/Dynamics.
+
+## Q9 — Domains with minimal/no Domain Reality target
 
 Some Work targets Information, Actors or Work-local structures and may have no material Domain Reality target.
 
 Open:
-- how later composition indicates absence/non-applicability cleanly without manufacturing a target domain.
+- how later composition indicates absence/non-applicability without manufacturing a target domain.
 
-## Q9 — universal completeness
+## Q10 — universal completeness
 
-Reopen the Domain Reality immediate-child map if later State/Dynamics research or a materially different domain exposes a recurrent first-order Domain Reality problem that cannot be handled as:
+Reopen the Domain Reality immediate-child map if later Structure/Condition research, Work Conditions/Information/Work/Actors research or a materially different domain exposes a recurrent first-order Domain Reality problem that cannot be handled as:
 - Domain State;
-- Domain Dynamics / Processes;
-- or an explicit cross-cutting relation/dimension;
+- Domain Dynamics;
+- or an explicit cross-cutting relation/dimension
 without forced fit.
 
 ## Out of scope
@@ -108,6 +114,5 @@ Still not decided:
 - world-model schema;
 - causal graph architecture;
 - event/state storage design;
-- simulation architecture;
-- digital twin implementation;
+- simulation/digital-twin implementation;
 - final SOUL module boundaries.
