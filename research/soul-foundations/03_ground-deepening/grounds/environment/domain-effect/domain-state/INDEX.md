@@ -6,9 +6,9 @@ Current router for the bounded Domain-State immediate-child research result.
 
 ## Current status
 
-**BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION.**
+**BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED FOR HIERARCHICAL CONTINUATION.**
 
-No discovered child or sibling is active.
+No discovered child or sibling is active. The next task is selection/planning of one next research node with the user.
 
 ## Reading order
 
@@ -44,8 +44,12 @@ The parent label is refined from `Domain State / Configuration` to `Domain State
 
 These remain explicit but are not immediate child branches at this level.
 
+## User evaluation
+
+The user accepted the bounded result on 2026-09-03 as reasonable enough to continue. This does not select or activate a child.
+
 ## Guardrail
 
 Do not activate Structure/Composition, Condition/Status, Domain Dynamics, Work Conditions, Information, Work, Actors, systematic composition or architecture from this package.
 
-Parent/stage authorization controls next work.
+Parent/stage authorization controls next-node selection and research activation.
