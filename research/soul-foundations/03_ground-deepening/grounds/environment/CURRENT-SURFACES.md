@@ -1,7 +1,7 @@
 # Environment / Operating Reality — CURRENT SURFACES
 
 **Status:** canonical local freshness binding after bounded Domain State closure and deep repository verification  
-**Date:** 2026-09-02  
+**Date:** 2026-09-03  
 **Branch:** `main`
 
 ## Entry surfaces
@@ -33,8 +33,8 @@ Focused findings/audit preserve pass-time labels where useful for research recon
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain Reality | boundedly sufficient; user-authorised for continuation | `domain-effect/CURRENT-SURFACES.md` @ `64d757ab320a84a14f563fe873563257e7be5b98` |
-| Domain State | boundedly sufficient; awaiting user evaluation | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `96502225d2e0b4de793c0231eddb4e8e970fbd5e` |
+| Domain Reality | boundedly sufficient; user-authorised for continuation | `domain-effect/CURRENT-SURFACES.md` @ `dcff6dc3be62c843673ba334e3a2127f33f15ab5` |
+| Domain State | boundedly sufficient; awaiting user evaluation | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `639aaac7b6f7c45c91fa90aad8d6f5faa454c441` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
 | Domain Dynamics / Processes | inactive; not yet deepened | no current child package |
