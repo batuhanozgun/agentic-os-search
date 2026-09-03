@@ -11,17 +11,15 @@ For current status/authorization read `STATE.md` first. This router does not ind
 | Need | Read first | Then if needed |
 |---|---|---|
 | Current overall state / authorisation | `STATE.md` | relevant current package router |
-| Independent discovery evidence | relevant `01_verticals/*/KEY.md` | synthesis/findings |
-| Accepted top-level hierarchy | `02_adequacy/KEY.md` | synthesis/findings |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` |
-| Current Environment result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / FINDINGS-MAP |
-| Work Conditions result | `03_ground-deepening/grounds/environment/work-conditions/STATE.md` | KEY / FINDINGS-MAP / synthesis |
-| Executed Work Conditions plan | `03_ground-deepening/grounds/environment/WORK-CONDITIONS-RESEARCH-PLAN.md` | frozen falsifiers / pass reconstruction |
-| Work Conditions source recovery | `03_ground-deepening/grounds/environment/work-conditions/evidence/SOURCE-LEDGER.md` | primary external/internal source |
+| Current Environment result / sequence | `03_ground-deepening/grounds/environment/STATE.md` | INDEX / KEY |
+| Selected Domain Structure plan | `03_ground-deepening/grounds/environment/domain-effect/domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md` | Domain State STATE / KEY / prior findings |
+| Domain State parent result | `03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md` | KEY / FINDINGS-MAP / synthesis |
 | Domain Reality result | `03_ground-deepening/grounds/environment/domain-effect/STATE.md` | KEY / FINDINGS-MAP |
-| Prior Technical Work Environment evidence | `01_verticals/work-environment/KEY.md` | progressive retrieval |
-| Historical operating-world evidence | `history/superseded/operating-world-environment/ARCHIVE-NOTICE.md` | archived corpus |
-| What is authorised now? | `STATE.md` | next-node selection/planning; no substantive node active |
+| Work Conditions result | `03_ground-deepening/grounds/environment/work-conditions/STATE.md` | KEY / FINDINGS-MAP / synthesis |
+| Accepted top-level hierarchy | `02_adequacy/KEY.md` | synthesis/findings |
+| Independent discovery evidence | relevant `01_verticals/*/KEY.md` | synthesis/findings |
+| What is authorised now? | `STATE.md` | Structure selected/planned; substantive research requires later activation |
 
 ## Current Environment research tree
 
@@ -29,47 +27,37 @@ For current status/authorization read `STATE.md` first. This router does not ind
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition   ← discovered; inactive
-    │    │    └─ Domain Condition / Status        ← discovered; inactive
+    │    │    ├─ Domain Structure / Composition   ← selected/planned next; research not active
+    │    │    └─ Domain Condition / Status        ← discovered; intended after Structure evaluation
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
     └─ Work Conditions                            ← bounded leaf; user-evaluated
          ↳ Technical Work Environment             ← deep technical specialization/profile
 ```
 
-Current corrections carried by deeper research:
-- `Domain / Effect Reality` → `Domain Reality`;
-- `Domain State / Configuration` → `Domain State`;
-- Domain State immediate children → Structure/Composition + Condition/Status;
-- `Domain Dynamics / Processes` → `Domain Dynamics`;
-- Domain Dynamics = bounded leaf; user-evaluated;
-- `Work Conditions / Enabling–Constraining Environment` → `Work Conditions`;
-- Work Conditions = bounded leaf; no universal immediate child; user-evaluated;
-- Technical Work Environment = retained deep technical specialization/profile.
+## Current agreed sequence
 
-## Work Conditions shortest result
+```text
+Structure research → user evaluation
+→ Condition research → user evaluation
+→ Environment completion review
+→ then decide whether Information should begin
+```
 
-`Work Conditions` is the Work-relative analytical problem of which realized circumstances materially shape whether/how focal Work can be performed. Current cross-lineage and cross-domain falsification does not justify another universal recursive child layer.
+Rationale:
+- Structure and Condition were discovered as material Domain State children;
+- parent discovery did not itself constitute their own research passes;
+- this is not a rule to force equal depth: any node may close as a bounded leaf if further decomposition lacks material value.
 
-Explicit non-child problem regions include:
-- support/resources/services/capabilities;
-- access/interfaces;
-- availability/readiness/sufficiency/capacity;
-- constraints/hazards/interference;
-- dependencies/shared support/failure propagation;
-- temporal validity/windows;
-- situational fit/actionability boundary;
-- reference/boundary/role switching.
+Condition planning is intentionally deferred until Structure evaluation.
 
 ## One-active-node rule
 
-No substantive node is active. Structure, Condition, Information, Work and Actors all require an explicit later transition/authorization.
+No substantive node is active. Domain Structure selection/planning is complete.
 
 ## Active versus historical rule
 
-`history/` is prior evidence, not current authority. Work Conditions current authority lives under `03_ground-deepening/grounds/environment/work-conditions/`. Its exact pre-pass Environment snapshot is content-addressed in its source ledger/manifest.
+Historical pass artifacts preserve the state available during their producing passes. Current sequencing/authorization comes from current `STATE.md`, stage/Environment state, Domain State state and the selected Structure plan.
 
 ## Guardrail
 
-Current authorised work is **next-node selection/planning only**.
-
-Do not infer authorization for deeper State children, Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
+Do not infer authorization to execute Structure research, deep-research Condition, begin Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
