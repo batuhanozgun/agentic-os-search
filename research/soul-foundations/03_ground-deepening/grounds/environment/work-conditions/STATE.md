@@ -1,12 +1,13 @@
 # Work Conditions — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED FOR HIERARCHICAL CONTINUATION
 **Activated:** 2026-09-03
 **Bounded node closure:** 2026-09-03
+**User evaluation accepted:** 2026-09-03
 **Parent:** Environment / Operating Reality
 **Sibling:** Domain Reality — boundedly sufficient; Domain State and Domain Dynamics user-evaluated
 **Other top-level grounds:** inactive
-**Current authorised activity:** none inside this node; return bounded result to user evaluation before another node is selected or activated
+**Current authorised activity:** none inside this node; next-node selection/planning occurs at the stage/Environment level
 
 ## Question answered
 
@@ -109,6 +110,8 @@ The pass used:
 
 The completion/omission audit is **same-model adversarial self-review, not independent verification**. External sources discriminate candidate splits but do not independently validate this exact project leaf result.
 
+The user evaluated the simplified result on 2026-09-03 and found it appropriate for hierarchical continuation. That evaluation accepts the bounded research result; it does not convert the self-review into independent verification or authorise a specific next substantive node.
+
 ## Preferred retrieval
 
 `KEY.md → FINDINGS-MAP.md → synthesis/WORK-CONDITIONS-SYNTHESIS.md → relevant finding → synthesis/COMPLETENESS-OMISSION-CHECK.md or evidence/SOURCE-LEDGER.md`
@@ -118,7 +121,7 @@ Residuals:
 - `DEFERRED-RELATIONS.md`
 
 Exact freshness:
-- `CURRENT-SURFACES.md` once closure manifest is bound.
+- `CURRENT-SURFACES.md`.
 
 ## Reopen condition
 
@@ -131,6 +134,6 @@ Reopen Work Conditions if:
 
 ## Next authorised work
 
-**USER EVALUATION OF THIS BOUNDED RESULT ONLY.**
+**NEXT-NODE SELECTION / PLANNING ONLY AT THE PARENT/STAGE LEVEL.**
 
-No substantive node is active after closure. Do not automatically activate Domain Structure, Domain Condition, Information, Work, Actors, another Work-Conditions branch, systematic relation/control composition, architecture, ontology/data-model work or implementation.
+No substantive node is active. Do not automatically activate Domain Structure, Domain Condition, Information, Work, Actors, another Work-Conditions branch, systematic relation/control composition, architecture, ontology/data-model work or implementation.
