@@ -1,15 +1,15 @@
 # Ground Deepening — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Domain Condition closure; Condition awaiting user evaluation  
-**Date:** 2026-09-03  
+**Status:** canonical freshness binding after bounded Environment completion review; Environment not yet complete  
+**Date:** 2026-09-04  
 **Branch:** `main`
 
 ## Stage entry surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Stage state | `STATE.md` | `9cce4857d452e1dd058846f780b054966208f708` |
-| Stage router | `INDEX.md` | `3e123c15323858cfede3a84ce08d463520113b8d` |
+| Stage state | `STATE.md` | `a1a3b8f0c626d9b3f5b17d5ad97ec61cef2b8a59` |
+| Stage router | `INDEX.md` | `d599b8c025a1281653faffc7ae64b287d0feffb8` |
 | Hierarchical method | `HIERARCHICAL-DEEPENING-METHOD.md` | `4d964c09a70ebe5f114d597f5413b41193ce650b` |
 | Original accepted plan | `PLAN.md` | `dfe00d2ca4d43758c476f640332751c3af013725` |
 | Stage README | `README.md` | `5380af8bf81ffe9860c71f597c84b245189b89f1` |
@@ -18,11 +18,12 @@
 
 | Surface | Bound Git blob SHA |
 |---|---|
-| `grounds/environment/CURRENT-SURFACES.md` | `b5bfddd8aeac9b2594aeb6548d759b1b5379e593` |
-| `grounds/environment/domain-effect/CURRENT-SURFACES.md` | `703a340d46d18706e2869344909cee2a7a94aff7` |
-| `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` | `7be2b320d4db848c090ff5cf44a427cddede7811` |
+| `grounds/environment/CURRENT-SURFACES.md` | `6b8a340e16ee5aaa168c39106ee65af7b8cf47cb` |
+| `grounds/environment/completion-review/CURRENT-SURFACES.md` | `447f3e79b2b7e38b51c37665d0b8e1490c125889` |
+| `grounds/environment/domain-effect/CURRENT-SURFACES.md` | `91742ff489b4e27e635e0a38552647636a830fa7` |
+| `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` | `6289c817d5f6d25e6b2d728c684128a1f635e72b` |
 | `grounds/environment/domain-effect/domain-state/domain-structure/CURRENT-SURFACES.md` | `8bd8d0b1e7e26f10d007d4e2c3702f0787d25619` |
-| `grounds/environment/domain-effect/domain-state/domain-condition/CURRENT-SURFACES.md` | `cdeb10ca2f15b2b4397dd9c7bfe1fc47d4b038e2` |
+| `grounds/environment/domain-effect/domain-state/domain-condition/CURRENT-SURFACES.md` | `b661a325c32339e81d900532dcb556af6167cf01` |
 | `grounds/environment/domain-effect/domain-dynamics/CURRENT-SURFACES.md` | `cd4c1dbbd23ac73227ed3765df3c514a54b707ef` |
 
 ## Current tree / sequencing
@@ -31,36 +32,24 @@
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure                         ← bounded / accepted
-    │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
-    │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
-    │    │    └─ Domain Condition                         ← bounded; awaiting user evaluation
-    │    │         ├─ Realized Characteristics / Values    ← discovered; inactive
-    │    │         └─ Criterion-Relative Standing / Status ← discovered; inactive
-    │    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
-    └─ Work Conditions                                    ← bounded leaf; user-evaluated
+    │    │    ├─ Domain Structure
+    │    │    │    ├─ Constituent Composition / Membership   ← promoted; inactive; not researched
+    │    │    │    └─ Relational Organization / Topology     ← promoted; inactive; not researched
+    │    │    └─ Domain Condition
+    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive; not researched
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive; not researched
+    │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
+    └─ Work Conditions                                        ← bounded leaf; user-evaluated
 
 Information / Representation State              ← inactive
 Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-Agreed sequence:
+## Current verdict / authorization
 
-```text
-Structure research/evaluation ← complete / accepted
-Condition research             ← boundedly complete
-Condition user evaluation      ← CURRENT GATE
-Environment completion review  ← inactive; later explicit stage
-Information decision           ← only after Environment completion review
-```
+Environment completion review is bounded; Environment is **not yet complete**.
 
-## Authorization rule
+No substantive node is active. Current authorized interaction is **user evaluation of the Environment completion-review result only**.
 
-No substantive node is active. Current authorized work is **user evaluation of the bounded Domain Condition result only**.
-
-## Fresh-session route
-
-`STATE → grounds/environment/STATE → grounds/environment/domain-effect/STATE → grounds/environment/domain-effect/domain-state/STATE → grounds/environment/domain-effect/domain-state/domain-condition/STATE`.
-
-Use each package's `CURRENT-SURFACES.md` when exact pass/current provenance is decision-critical.
+Information remains inactive. Recommended next selection after evaluation: `Constituent Composition / Membership`.
