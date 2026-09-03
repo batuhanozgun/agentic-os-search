@@ -1,12 +1,13 @@
 # Domain Reality — STATE
 
-**Status:** BOUNDED DOMAIN REALITY RESULT USER-AUTHORISED FOR CONTINUATION; DOMAIN STATE CHILD USER-EVALUATED FOR HIERARCHICAL CONTINUATION  
+**Status:** BOUNDED DOMAIN REALITY RESULT USER-AUTHORISED FOR CONTINUATION; DOMAIN STATE USER-EVALUATED; DOMAIN DYNAMICS SELECTED AND PLANNED, SUBSTANTIVE RESEARCH NOT ACTIVE  
 **Authorised:** 2026-09-02  
 **Domain State user evaluation accepted:** 2026-09-03  
+**Domain Dynamics selected/planned:** 2026-09-03  
 **Parent:** Environment / Operating Reality  
 **Sibling:** Work Conditions / Enabling–Constraining Environment — inactive  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** selection/planning of the next single research node only; no substantive node active
+**Current authorised activity:** Dynamics plan review / explicit substantive-research activation decision only; no substantive node active
 
 ## Current Domain Reality hierarchy
 
@@ -15,7 +16,7 @@ Domain Reality
     ├─ Domain State                               ← bounded result; user-evaluated for continuation
     │    ├─ Domain Structure / Composition       ← discovered; inactive
     │    └─ Domain Condition / Status            ← discovered; inactive
-    └─ Domain Dynamics / Processes               ← inactive
+    └─ Domain Dynamics / Processes               ← selected next node; research plan complete; not active
 ```
 
 The prior label `Domain / Effect Reality` remains refined to `Domain Reality`.
@@ -41,15 +42,26 @@ Cross-cutting rather than promoted:
 - observability/evidence/uncertainty;
 - causal explanation.
 
-## User evaluation
+## Domain State user evaluation
 
 The user reviewed the Domain State result on 2026-09-03 and found no blocking problem with the Structure/Composition versus Condition/Status distinction. Domain State is accepted as reasonable enough for continued hierarchical research, subject to existing reopen conditions.
 
-This does not select or activate Structure, Condition, Dynamics or any other node.
+This does not activate Structure or Condition.
 
-## Domain Dynamics sibling
+## Domain Dynamics selection and planning
 
-`Domain Dynamics / Processes` remains inactive. Its existence may be used only as a boundary reference until explicitly authorised.
+On 2026-09-03 the user accepted `Domain Dynamics / Processes` as the next research node and authorised planning to the operational boundary.
+
+Canonical plan:
+- `DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
+
+Planning result:
+- Dynamics is the selected next node;
+- pre-research framing questions, falsifiers, sequence, holdouts, closure criteria and readiness gate are frozen;
+- substantive Dynamics research has **not** been authorised or activated in this turn;
+- no Dynamics child package exists yet.
+
+The next phase transition requires explicit user authorization to begin substantive Dynamics research, or an explicit delegation of plan→start authority.
 
 ## Cross-ground boundaries retained
 
@@ -58,30 +70,33 @@ Domain Reality ≠ every target of Work
 Domain State ≠ one formal/model state vector
 actual Domain condition ≠ observation/model/specification/Record
 Domain Dynamics ≠ Work lifecycle
-after-state/change ≠ causal effect attribution
-intended outcome ≠ actual resulting condition
+actual Domain dynamics ≠ event/process log or model
+actual transition/change ≠ causal effect attribution
+after-state/change ≠ intended outcome
 ```
 
-## Current State route
+## Current routes
 
-Plan:
-- `DOMAIN-STATE-RESEARCH-PLAN.md`
-
-Result:
+Domain State result:
 `domain-state/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/DOMAIN-STATE-SYNTHESIS.md → focused finding → completion/source recovery`
+
+Domain Dynamics planned pass:
+`DOMAIN-DYNAMICS-RESEARCH-PLAN.md`
 
 ## One-active-node rule
 
-No substantive node is active. Domain Structure, Domain Condition, Domain Dynamics, Work Conditions, Information, Work and Actors are all inactive until separately selected and authorised.
+No substantive node is active.
+
+Domain Dynamics is selected/planned but inactive. Domain Structure, Domain Condition, Work Conditions, Information, Work and Actors remain inactive until separately authorised.
 
 ## Verification status
 
-Same-model completion review is not independent verification. External sources support discriminating claims but cannot independently validate the exact project hierarchy.
+Domain State same-model completion review is not independent verification. The new Dynamics plan is a pre-research control artifact; it has not yet produced or verified substantive Dynamics findings.
 
 ## Current return condition
 
-Select and plan one next research node with the user before any substantive research is activated.
+Return the completed Dynamics plan/state to the user and obtain explicit authorization before activating substantive Dynamics research.
 
 ## Next authorised work
 
-**NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE.**
+**DYNAMICS PLAN REVIEW / EXPLICIT RESEARCH-ACTIVATION DECISION ONLY; NO SUBSTANTIVE NODE ACTIVE.**
