@@ -1,7 +1,7 @@
 # Domain Reality — CURRENT SURFACES
 
 **Status:** canonical freshness binding after bounded Domain State closure and deep repository verification  
-**Date:** 2026-09-02  
+**Date:** 2026-09-03  
 **Branch:** `main`
 
 ## Entry surfaces
@@ -49,7 +49,7 @@ The source ledger distinguishes current Environment navigation paths from the ex
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain State | boundedly sufficient; awaiting user evaluation | `domain-state/CURRENT-SURFACES.md` @ `96502225d2e0b4de793c0231eddb4e8e970fbd5e` |
+| Domain State | boundedly sufficient; awaiting user evaluation | `domain-state/CURRENT-SURFACES.md` @ `639aaac7b6f7c45c91fa90aad8d6f5faa454c441` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
 | Domain Dynamics / Processes | inactive; not yet deepened | no child package |
