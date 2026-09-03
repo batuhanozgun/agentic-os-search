@@ -39,15 +39,17 @@ Focused findings preserve pass-time labels where useful for reconstruction. Curr
 |---|---|---|
 | Preserved node synthesis with subsequent-refinement notice | `synthesis/DOMAIN-REALITY-SYNTHESIS.md` | `c371af143aec53663b5ff5e01ad5bb89b2093df4` |
 | Original completion / omission audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` | `ece9e98e051c4590f386bb3941d0040d5f4396d3` |
-| Preserved source/view ledger with repaired retrieval paths | `evidence/SOURCE-LEDGER.md` | `5e287a45886fc02f387a5da1b2822c44f054c2f3` |
+| Preserved source/view ledger with repaired retrieval paths and exact pre-pass parent snapshot | `evidence/SOURCE-LEDGER.md` | `df64c57371cacbe2fb0f407977b19283e6d9a56b` |
 
-Evidence tree: `0270275657f5920c7c70d14b8385d5ee79bff4a4`
+Evidence tree: `919312ca88fb21921bcedcefe69f071f9cd67524`
+
+The source ledger distinguishes current Environment navigation paths from the exact historical pre-pass Environment snapshot (`CURRENT-SURFACES.md` blob `d5dd0bd7f4c3663d5d41b71b7f616f83ad229456`).
 
 ## Current deeper child
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain State | boundedly sufficient; awaiting user evaluation | `domain-state/CURRENT-SURFACES.md` @ `2bbe824f4c868a45621f529199292eae51b2a6df` |
+| Domain State | boundedly sufficient; awaiting user evaluation | `domain-state/CURRENT-SURFACES.md` @ `96502225d2e0b4de793c0231eddb4e8e970fbd5e` |
 | Domain Structure / Composition | discovered; inactive | routed through Domain State package |
 | Domain Condition / Status | discovered; inactive | routed through Domain State package |
 | Domain Dynamics / Processes | inactive; not yet deepened | no child package |
@@ -77,6 +79,8 @@ Domain Reality is boundedly sufficient and user-authorised for hierarchical cont
 
 Current route:
 `STATE → KEY/FINDINGS-MAP → domain-state/STATE → domain-state/KEY/FINDINGS-MAP → current child synthesis/audit/source recovery`
+
+For historical pass reconstruction use the exact pass-input snapshot anchors in the relevant source ledgers rather than current parent paths alone.
 
 Historical Domain Reality reasoning remains recoverable through its synthesis/findings, which explicitly route readers to subsequent refinement or are labeled as pass-time artifacts by the package router.
 
