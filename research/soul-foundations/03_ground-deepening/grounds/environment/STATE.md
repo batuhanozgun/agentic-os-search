@@ -1,17 +1,18 @@
 # Environment / Operating Reality — STATE
 
-**Status:** PARENT GROUND USER-EVALUATED; DOMAIN REALITY USER-AUTHORISED FOR CONTINUATION; DOMAIN STATE BOUNDEDLY SUFFICIENT; AWAITING USER EVALUATION  
+**Status:** PARENT GROUND USER-EVALUATED; DOMAIN REALITY USER-AUTHORISED FOR CONTINUATION; DOMAIN STATE USER-EVALUATED FOR HIERARCHICAL CONTINUATION  
 **Authorised:** 2026-09-02  
+**Domain State user evaluation accepted:** 2026-09-03  
 **Scope:** Environment / Operating Reality ground only  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** user evaluation of the `Domain State` result only
+**Current authorised activity:** selection/planning of the next single research node only; no substantive node active
 
 ## Current Environment research hierarchy
 
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
-    │    ├─ Domain State                           ← bounded result; awaiting user evaluation
+    │    ├─ Domain State                           ← bounded result; user-evaluated for continuation
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
     │    └─ Domain Dynamics / Processes           ← inactive
@@ -20,7 +21,7 @@ Environment / Operating Reality
          └─ Technical Work Environment
 ```
 
-The parent and Domain Reality results remain accepted for continued hierarchical research, not as final ontology or architecture.
+The parent, Domain Reality and Domain State results are accepted as reasonable enough for continued hierarchical research, not as final ontology or architecture.
 
 ## Domain Reality result retained
 
@@ -47,6 +48,12 @@ Explicit cross-cutting dimensions:
 - causal explanation;
 - role switching.
 
+## User evaluation
+
+The user reviewed the Domain State result on 2026-09-03 and reported no blocking problem with the Structure/Composition versus Condition/Status distinction. Domain State is accepted for hierarchical continuation subject to existing reopen conditions.
+
+This evaluation does not select or activate the next node.
+
 ## Strong distinctions
 
 ```text
@@ -61,11 +68,11 @@ current State ≠ causal explanation
 
 ## Hierarchical rule
 
-- one active hierarchical node at a time;
-- Domain State pass is closed;
+- at most one active hierarchical node at a time;
+- Domain State pass is closed and user-evaluated;
 - discovered Structure/Condition children are inactive;
 - Domain Dynamics and Work Conditions remain inactive;
-- return to user evaluation before any next node.
+- next-node selection/planning precedes any new research activation.
 
 Method:
 - `../../HIERARCHICAL-DEEPENING-METHOD.md`
@@ -80,10 +87,10 @@ The node completion audit is same-model adversarial self-review, not independent
 
 ## Current return condition
 
-User evaluates whether the bounded Domain State result is reasonable enough for hierarchical continuation or requires targeted reopening.
+Select and plan one next research node with the user before substantive research begins.
 
 ## Next authorised work
 
-**USER EVALUATION OF THE DOMAIN STATE RESULT ONLY.**
+**NEXT-NODE SELECTION / PLANNING ONLY; NO SUBSTANTIVE NODE ACTIVE.**
 
 Do not activate Domain Structure, Domain Condition, Domain Dynamics, Work Conditions, Information, Work, Actors, composition, architecture, ontology/data-model work or implementation automatically.
