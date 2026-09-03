@@ -1,7 +1,7 @@
 # Environment / Operating Reality — KEY
 
-**Status:** Environment parent, Domain State and Domain Dynamics user-evaluated; no substantive node active  
-**Date:** 2026-09-03  
+**Status:** Environment parent, Domain State and Domain Dynamics user-evaluated; Work Conditions bounded / awaiting user evaluation; no substantive node active
+**Date:** 2026-09-03
 **Scope:** Environment research hierarchy only; not cross-ground composition or architecture
 
 ## Shortest current result
@@ -13,8 +13,8 @@ Environment / Operating Reality
     │    │    ├─ Domain Structure / Composition   [discovered; inactive]
     │    │    └─ Domain Condition / Status        [discovered; inactive]
     │    └─ Domain Dynamics                       [bounded leaf; user-evaluated]
-    └─ Work Conditions / Enabling–Constraining Environment
-         └─ Technical Work Environment
+    └─ Work Conditions                            [bounded leaf; awaiting user evaluation]
+         ↳ Technical Work Environment             [deep technical specialization/profile]
 ```
 
 Branches are analytical problem roles, not object/schema classes.
@@ -23,61 +23,72 @@ Branches are analytical problem roles, not object/schema classes.
 
 Environment concerns boundary/reference-relative realized conditions and dynamics that matter because they:
 - constitute the Domain Reality materially at issue; and/or
-- materially enable, constrain, degrade, endanger or otherwise shape Work execution.
+- materially shape whether and how focal Work can be performed.
 
-`Work-Support Environment` remains broadened to **Work Conditions / Enabling–Constraining Environment** because negative/degrading conditions are first-order.
-
-## Domain Reality correction retained
+## Domain Reality result retained
 
 `Domain / Effect Reality` → **Domain Reality**.
 
-Actual result belongs to Domain State/trajectory; intended outcome and causal effect/attribution are relational/evidential questions.
+Domain State:
+- Structure / Composition;
+- Condition / Status.
 
-## Deeper Domain State result
+Domain Dynamics:
+- bounded leaf;
+- no universal immediate child;
+- user-evaluated.
 
-`Domain State / Configuration` → **Domain State**.
+## Work Conditions deeper result
 
-Immediate children:
-- **Domain Structure / Composition** — what is actually present and how is it composed/organized/connected?
-- **Domain Condition / Status** — what properties/values/health/mode/status/standing actually hold?
+`Work Conditions / Enabling–Constraining Environment` → **Work Conditions**.
 
-Domain State is user-evaluated for hierarchical continuation.
+Question:
 
-## Deeper Domain Dynamics result
-
-`Domain Dynamics / Processes` → **Domain Dynamics**.
+> Which realized circumstances are materially load-bearing for whether and how focal Work can be performed?
 
 Current result:
-- Dynamics remains necessary and distinct from a State snapshot;
-- no universal immediate child is currently justified;
-- Domain Dynamics is a bounded leaf at current foundation depth;
-- user evaluation accepted on 2026-09-03.
+- Work Conditions is a Work-relative analytical role over realized circumstances, not a second kind of reality;
+- the node remains first-order because it protects support, access, readiness, capacity, hazard, dependency and execution-window questions;
+- **no universal immediate child is currently justified**;
+- Work Conditions is a **bounded leaf** at current universal foundation depth;
+- awaiting user evaluation.
 
 Explicit but non-child problem regions:
-- occurrence / interaction;
-- change / transition / trajectory;
-- temporal dependence / memory;
-- dynamic pattern / regime;
-- multi-scale / nested Dynamics.
+- support/resources/services/capabilities;
+- access/interfaces;
+- availability/readiness/sufficiency/capacity;
+- constraints/hazards/interference;
+- dependencies/shared support/failure propagation;
+- temporal validity/windows;
+- situational fit/actionability boundary;
+- reference/boundary/role switching.
+
+## Technical Work Environment
+
+The prior TWE corpus remains valid and deeply researched.
+
+Current interpretation:
+- **technical specialization/profile of Work Conditions**;
+- not a demonstrated universal immediate child;
+- nontechnical Work can have material Work Conditions without a meaningful TWE.
 
 ## Strong non-collapse distinctions
 
 ```text
 Environment ≠ everything outside / everything relevant / Context
 Domain Reality ≠ every target of Work
-Domain Dynamics ≠ Domain State
-actual Structure ≠ architecture/baseline/inventory by identity
-actual Condition ≠ observation/measurement/report/cache by identity
-actual Dynamics ≠ log/model/simulation/forecast/digital twin
-actual Dynamics ≠ possible transition law / reachable-state description
-Domain Dynamics ≠ focal Work lifecycle
-Domain Dynamics role ≠ Work Conditions role by object identity
-actual transition/change ≠ causal attribution
+Work Conditions ≠ a second kind of reality
+Work Conditions ≠ Work internal lifecycle/state
+Work Conditions ≠ Actor capability/authority
+actual Work Condition ≠ observation/report/policy text
+resource exists ≠ accessible ≠ available ≠ sufficient
+Work Condition ≠ full actionability
+Domain Reality role ≠ Work Conditions role by object identity
 ```
 
 ## Verification limit
 
-Parent, Domain Reality, Domain State and Domain Dynamics completion audits are same-model adversarial reviews, not independent verification. External traditions discriminate claims but do not independently validate the exact hierarchy.
+Parent, Domain Reality, Domain State, Domain Dynamics and Work Conditions completion audits are same-model adversarial reviews, not independent verification. External traditions discriminate claims but do not independently validate the exact hierarchy.
 
 ## Go deeper
 
@@ -89,12 +100,10 @@ Domain Reality:
 - `domain-effect/STATE.md`
 - `domain-effect/KEY.md`
 
-Domain State:
-- `domain-effect/domain-state/STATE.md`
-- `domain-effect/domain-state/KEY.md`
+Current Work Conditions result:
+- `work-conditions/STATE.md`
+- `work-conditions/KEY.md`
+- `work-conditions/FINDINGS-MAP.md`
+- `work-conditions/synthesis/WORK-CONDITIONS-SYNTHESIS.md`
 
-Domain Dynamics:
-- `domain-effect/domain-dynamics/STATE.md`
-- `domain-effect/domain-dynamics/KEY.md`
-
-Current next work is selection/planning of one next research node with the user. No next node is automatically authorised.
+Current next work is user evaluation of Work Conditions. No next node is automatically authorised.
