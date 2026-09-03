@@ -1,40 +1,64 @@
 # Domain Reality — STATE
 
-**Status:** BOUNDED DOMAIN REALITY RESULT; DOMAIN STATE AND DOMAIN DYNAMICS USER-EVALUATED; DOMAIN STRUCTURE SELECTED / PLANNED NEXT; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDED DOMAIN REALITY RESULT; DOMAIN STATE/DYNAMICS USER-EVALUATED; DOMAIN STRUCTURE BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
 **Domain Reality authorised:** 2026-09-02  
 **Domain State user evaluation accepted:** 2026-09-03  
 **Domain Dynamics user evaluation accepted:** 2026-09-03  
-**Domain Structure sequencing decision:** accepted 2026-09-03  
+**Domain Structure substantive pass bounded:** 2026-09-03  
 **Parent:** Environment / Operating Reality  
 **Sibling:** Work Conditions — bounded leaf; user-evaluated  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** Domain Structure selection/planning only; substantive research not active
+**Current authorised activity:** user evaluation of the bounded Domain Structure result only
 
 ## Current Domain Reality hierarchy
 
 ```text
 Domain Reality
     ├─ Domain State
-    │    ├─ Domain Structure / Composition       ← selected/planned next; research not active
-    │    └─ Domain Condition / Status             ← discovered; intended after Structure evaluation
-    └─ Domain Dynamics                           ← bounded leaf; user-evaluated
+    │    ├─ Domain Structure                         ← bounded result; awaiting user evaluation
+    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
+    │    │    └─ Relational Organization / Topology   ← discovered; inactive
+    │    └─ Domain Condition / Status                ← discovered; inactive
+    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
 ```
 
-The historical starting label `Domain / Effect Reality` remains refined to `Domain Reality`.
+The historical `Domain / Effect Reality` label remains refined to `Domain Reality`. `Effect Reality` is not a separate child: actual results belong to Domain State/trajectory while intended outcome and causal attribution remain cross-ground questions.
 
-`Effect Reality` is not a separate child: actual results belong to Domain State/trajectory while intended outcome and causal attribution remain cross-ground relational/evidential questions.
+## Domain State / Structure refinement
 
-## Domain State result and sequencing
+`Domain State / Configuration` remains refined to `Domain State`.
 
-`Domain State / Configuration` was refined to `Domain State`.
+Its parent-level split remains Structure versus Condition. The deeper Structure pass refined `Domain Structure / Composition` to `Domain Structure` and found two immediate analytical regions:
+- **Constituent Composition / Membership** — what actually participates / makes up the selected whole, including part–whole/nesting when material;
+- **Relational Organization / Topology** — how those relevant constituents are actually structurally related/connected/arranged/interfaced.
 
-Immediate children:
-- **Domain Structure / Composition** — actual constituents and realized composition/organization/topology;
-- **Domain Condition / Status** — actual properties/values/health/mode/status/standing.
+This deeper split did not expose a third co-equal Domain State region and does not reopen the parent result.
 
-Domain State was user-evaluated on 2026-09-03 as reasonable enough for hierarchical continuation.
+## Domain Dynamics retained
 
-The user subsequently clarified that discovered material children should not be treated as already researched. The agreed local sequence is:
+`Domain Dynamics / Processes` remains refined to `Domain Dynamics`:
+- necessary because realized unfolding through time cannot be reduced to a State snapshot;
+- no stable universal immediate child survived its deeper pass;
+- bounded leaf at current foundation depth;
+- user-evaluated 2026-09-03.
+
+## Strong boundaries retained
+
+```text
+Domain Reality ≠ every target of Work
+Domain State ≠ one formal/model state vector
+Domain Structure ≠ Domain Condition / Status
+Domain Dynamics ≠ Domain State
+actual Structure ≠ architecture / BOM / inventory / baseline / topology model / Record by identity
+actual Condition ≠ observation / measurement / report / cache by identity
+actual Dynamics ≠ transition law / event log / simulation / forecast by identity
+structural relation ≠ interaction/process by identity
+Domain Dynamics ≠ focal Work lifecycle
+actual transition/change ≠ causal attribution
+after-state/change ≠ intended outcome
+```
+
+## Current sequence
 
 ```text
 Structure research → user evaluation
@@ -43,50 +67,22 @@ Structure research → user evaluation
 → then decide whether Information should begin
 ```
 
-Domain Structure is now selected and planned. Its plan is:
-- `domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md`.
-
-No substantive Structure research is active yet.
-
-## Domain Dynamics bounded result
-
-The sibling pass refined `Domain Dynamics / Processes` to `Domain Dynamics`.
-
-Current result:
-- Domain Dynamics remains necessary because realized unfolding through time cannot be reduced to a current State snapshot;
-- no stable universal immediate child survives the deeper child-promotion test;
-- the node is a bounded leaf at current foundation-research depth;
-- occurrence/interaction, change/transition/trajectory, temporal memory/path dependence, dynamic patterns/regimes and multi-scale dynamics remain explicit internal problem regions/properties, not recursive children;
-- user evaluation accepted 2026-09-03.
-
-## Strong boundaries retained / refined
-
-```text
-Domain Reality ≠ every target of Work
-Domain State ≠ one formal/model state vector
-Domain Dynamics ≠ Domain State
-actual Domain condition/dynamics ≠ observation/model/specification/Record
-actual Dynamics ≠ transition law / reachable-state model / forecast
-Domain Dynamics ≠ focal Work lifecycle
-Domain Dynamics role ≠ Work Conditions role by object identity
-actual transition/change ≠ causal effect attribution
-after-state/change ≠ intended outcome
-```
+Structure research is now boundedly complete at immediate-child depth. Its user evaluation is the current gate. Condition planning remains intentionally deferred until after that evaluation.
 
 ## Verification status
 
-Domain State and Domain Dynamics closure audits are same-model adversarial reviews, not independent verification. External sources support and falsify discriminating claims but do not independently validate the exact project hierarchy. Sequencing decisions do not change research verification status.
+Domain State, Domain Structure and Domain Dynamics completion audits are same-model adversarial reviews, not independent verification. External sources discriminate rival decompositions but do not independently validate the exact hierarchy.
 
 ## Current return condition
 
-Planning for Domain Structure is complete. Return for explicit substantive activation before the Structure pass begins.
+Return the bounded Domain Structure result for user evaluation.
 
 ## Next logical work
 
-Execute the planned Domain Structure research pass.
+If user evaluation accepts the Structure result and no reopen trigger appears, select/plan Domain Condition / Status from the then-current canonical state.
 
 ## Next authorised work
 
-**DOMAIN STRUCTURE SELECTED / PLANNED; NO SUBSTANTIVE NODE ACTIVE.**
+**USER EVALUATION OF DOMAIN STRUCTURE ONLY.**
 
-Do not automatically begin Structure research, Condition research, Information, cross-ground composition, architecture or implementation.
+Do not activate a Structure child, Condition, Information, cross-ground composition, architecture, ontology/schema or implementation automatically.
