@@ -2,32 +2,37 @@
 
 ## Role
 
-Current router for the bounded Domain-State result and the selected/planned Domain Structure child.
+Current router for the bounded Domain-State result and the deeper bounded Domain Structure child result.
 
 ## Current status
 
-**DOMAIN STATE USER-EVALUATED; DOMAIN STRUCTURE SELECTED / PLANNED NEXT; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN STATE USER-EVALUATED; DOMAIN STRUCTURE BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
-Current authorization is planning only. `Domain Structure / Composition` has been selected and its plan frozen, but substantive Structure research has not begun.
+Current authorization is user evaluation of the Structure result only.
 
 ## Reading order
 
 1. `STATE.md` — current epistemic/authorization/sequencing state.
-2. `DOMAIN-STRUCTURE-RESEARCH-PLAN.md` — selected next-node plan and frozen pre-research falsifiers.
-3. `KEY.md` — shortest bounded Domain State result.
-4. `FINDINGS-MAP.md` — route to exact parent finding.
-5. `synthesis/DOMAIN-STATE-SYNTHESIS.md` — integrated parent result.
-6. relevant focused finding.
-7. `synthesis/COMPLETENESS-OMISSION-CHECK.md` or `evidence/SOURCE-LEDGER.md`.
-8. primary/authoritative source when decision-critical.
-9. `CURRENT-SURFACES.md` — exact local freshness binding.
+2. `KEY.md` — shortest current Domain State hierarchy.
+3. `domain-structure/STATE.md` — current deeper Structure status.
+4. `domain-structure/KEY.md` — shortest bounded Structure result.
+5. `domain-structure/FINDINGS-MAP.md` — route to Structure findings.
+6. `domain-structure/synthesis/DOMAIN-STRUCTURE-SYNTHESIS.md` — integrated Structure result.
+7. `domain-structure/synthesis/COMPLETENESS-OMISSION-CHECK.md` or `domain-structure/evidence/SOURCE-LEDGER.md` as needed.
+8. `FINDINGS-MAP.md` / parent synthesis for historical Domain State evidence.
+9. primary/authoritative source when decision-critical.
+10. `CURRENT-SURFACES.md` and child `domain-structure/CURRENT-SURFACES.md` for exact freshness.
+
+The frozen executed Structure plan remains at `DOMAIN-STRUCTURE-RESEARCH-PLAN.md` for pass reconstruction; it is no longer current authorization.
 
 ## Current bounded hierarchy and sequence
 
 ```text
 Domain State
-    ├─ Domain Structure / Composition   ← selected/planned next; research not active
-    └─ Domain Condition / Status        ← discovered; intended after Structure evaluation
+    ├─ Domain Structure                         ← bounded result; awaiting user evaluation
+    │    ├─ Constituent Composition / Membership ← discovered; inactive
+    │    └─ Relational Organization / Topology   ← discovered; inactive
+    └─ Domain Condition / Status                ← discovered sibling; inactive
 ```
 
 Agreed sequence:
@@ -39,23 +44,23 @@ Structure research → user evaluation
 → then decide whether Information should begin
 ```
 
-The Condition plan is intentionally not frozen yet; it should be planned from the then-current state after Structure research/evaluation.
+The Structure research step is complete at bounded immediate-child depth. The Condition plan remains intentionally unfrozen until after Structure user evaluation.
 
 ## Cross-cutting dimensions
 
 - identity / continuity;
 - constraints / invariants;
-- granularity / state sufficiency;
-- reference/scope/time;
+- granularity / scale / state sufficiency;
+- reference / scope / time;
 - actual-versus-represented boundary;
-- observability/evidence/uncertainty;
+- observability / evidence / uncertainty;
 - causal explanation;
 - role switching.
 
-These remain explicit but are not immediate child branches at this level.
+These remain explicit but are not immediate Domain State or Structure children under the current bounded results.
 
 ## Guardrail
 
-This router does not activate Structure research.
+This router does not activate either discovered Structure child or Domain Condition / Status.
 
-Do not begin Structure substantive research, deep-research Condition, transition to Information, or infer systematic composition/architecture/ontology/schema/implementation without the required later authorization.
+Do not begin Condition, transition to Information, or infer systematic composition/architecture/ontology/schema/implementation without later explicit authorization.
