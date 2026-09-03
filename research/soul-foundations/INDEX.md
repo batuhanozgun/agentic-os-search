@@ -14,14 +14,14 @@ For current status/authorization read `STATE.md` first. This router does not ind
 | Independent discovery evidence | relevant `01_verticals/*/KEY.md` | synthesis/findings |
 | Accepted top-level hierarchy | `02_adequacy/KEY.md` | synthesis/findings |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` |
-| Current Work Conditions result | `03_ground-deepening/grounds/environment/work-conditions/STATE.md` | KEY / FINDINGS-MAP / synthesis |
+| Current Environment result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / FINDINGS-MAP |
+| Work Conditions result | `03_ground-deepening/grounds/environment/work-conditions/STATE.md` | KEY / FINDINGS-MAP / synthesis |
 | Executed Work Conditions plan | `03_ground-deepening/grounds/environment/WORK-CONDITIONS-RESEARCH-PLAN.md` | frozen falsifiers / pass reconstruction |
 | Work Conditions source recovery | `03_ground-deepening/grounds/environment/work-conditions/evidence/SOURCE-LEDGER.md` | primary external/internal source |
-| Environment parent result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / parent synthesis |
 | Domain Reality result | `03_ground-deepening/grounds/environment/domain-effect/STATE.md` | KEY / FINDINGS-MAP |
 | Prior Technical Work Environment evidence | `01_verticals/work-environment/KEY.md` | progressive retrieval |
 | Historical operating-world evidence | `history/superseded/operating-world-environment/ARCHIVE-NOTICE.md` | archived corpus |
-| What is authorised now? | `STATE.md` | user evaluation of Work Conditions; no substantive node active |
+| What is authorised now? | `STATE.md` | next-node selection/planning; no substantive node active |
 
 ## Current Environment research tree
 
@@ -32,7 +32,7 @@ Environment / Operating Reality
     │    │    ├─ Domain Structure / Composition   ← discovered; inactive
     │    │    └─ Domain Condition / Status        ← discovered; inactive
     │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← bounded leaf; awaiting user evaluation
+    └─ Work Conditions                            ← bounded leaf; user-evaluated
          ↳ Technical Work Environment             ← deep technical specialization/profile
 ```
 
@@ -43,7 +43,7 @@ Current corrections carried by deeper research:
 - `Domain Dynamics / Processes` → `Domain Dynamics`;
 - Domain Dynamics = bounded leaf; user-evaluated;
 - `Work Conditions / Enabling–Constraining Environment` → `Work Conditions`;
-- Work Conditions = bounded leaf; no universal immediate child;
+- Work Conditions = bounded leaf; no universal immediate child; user-evaluated;
 - Technical Work Environment = retained deep technical specialization/profile.
 
 ## Work Conditions shortest result
@@ -62,7 +62,7 @@ Explicit non-child problem regions include:
 
 ## One-active-node rule
 
-No substantive node is active. Work Conditions awaits user evaluation. Structure, Condition, Information, Work and Actors all require an explicit later transition/authorization.
+No substantive node is active. Structure, Condition, Information, Work and Actors all require an explicit later transition/authorization.
 
 ## Active versus historical rule
 
@@ -70,6 +70,6 @@ No substantive node is active. Work Conditions awaits user evaluation. Structure
 
 ## Guardrail
 
-Current authorised work is **user evaluation of Work Conditions only**.
+Current authorised work is **next-node selection/planning only**.
 
 Do not infer authorization for deeper State children, Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
