@@ -1,6 +1,6 @@
 # Environment / Operating Reality — KEY
 
-**Status:** Environment parent and researched branches user-evaluated; Domain Structure selected/planned next; no substantive node active
+**Status:** Environment researched branches user-evaluated; Domain Structure bounded / awaiting user evaluation; no substantive node active
 **Date:** 2026-09-03
 **Scope:** Environment research hierarchy only; not cross-ground composition or architecture
 
@@ -10,36 +10,43 @@
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition   [selected/planned next; research not active]
-    │    │    └─ Domain Condition / Status        [discovered; intended after Structure evaluation]
-    │    └─ Domain Dynamics                       [bounded leaf; user-evaluated]
-    └─ Work Conditions                            [bounded leaf; user-evaluated]
-         ↳ Technical Work Environment             [deep technical specialization/profile]
+    │    │    ├─ Domain Structure                         [bounded; awaiting user evaluation]
+    │    │    │    ├─ Constituent Composition / Membership [discovered; inactive]
+    │    │    │    └─ Relational Organization / Topology   [discovered; inactive]
+    │    │    └─ Domain Condition / Status                [discovered; inactive]
+    │    └─ Domain Dynamics                               [bounded leaf; user-evaluated]
+    └─ Work Conditions                                    [bounded leaf; user-evaluated]
+         ↳ Technical Work Environment                     [deep technical specialization/profile]
 ```
 
-Branches are analytical research problem roles, not object/schema classes.
+Branches are analytical research problem roles, not object/schema/architecture classes.
 
 ## Why Environment is not yet handed off to Information
 
-The Domain State pass established Structure and Condition as distinct material children, but establishing a child is not the same as researching that child.
-
-The agreed method therefore treats Environment as still locally incomplete at those two discovered nodes.
+Structure and Condition were discovered as distinct Domain State children. Structure has now received its own bounded pass; Condition has not.
 
 Current continuation:
 
 ```text
-1. Domain Structure / Composition
-2. user evaluation
-3. Domain Condition / Status
+1. Domain Structure research          [complete at bounded immediate-child depth]
+2. user evaluation                    [current gate]
+3. Domain Condition / Status research [inactive]
 4. user evaluation
 5. Environment completion review
 6. then decide whether Information should begin
 ```
 
-Structure plan:
-- `domain-effect/domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md`.
+The Condition plan remains intentionally deferred until after Structure evaluation.
 
-Structure research is not active yet. The Condition plan is intentionally deferred until after Structure evaluation.
+## Domain Structure result
+
+`Domain Structure / Composition` was refined to **Domain Structure**.
+
+Immediate discovered regions:
+- **Constituent Composition / Membership** — what actually participates / makes up the selected whole;
+- **Relational Organization / Topology** — how those relevant constituents are structurally organized.
+
+The split is semantic/problem-role based, not a graph node/edge or schema decomposition. No third universal Structure child currently survives.
 
 ## Parent Environment result retained
 
@@ -52,8 +59,8 @@ Environment concerns boundary/reference-relative realized conditions and dynamic
 `Domain / Effect Reality` → **Domain Reality**.
 
 Domain State:
-- Structure / Composition;
-- Condition / Status.
+- Domain Structure;
+- Domain Condition / Status.
 
 Domain Dynamics:
 - bounded leaf;
@@ -67,7 +74,7 @@ Domain Dynamics:
 Current result:
 - Work Conditions is a Work-relative analytical role over realized circumstances;
 - no universal immediate child is currently justified;
-- Work Conditions is a bounded leaf at current universal foundation depth;
+- bounded leaf at current universal foundation depth;
 - user evaluation accepted 2026-09-03;
 - Technical Work Environment remains a deep technical specialization/profile.
 
@@ -77,20 +84,24 @@ Current result:
 Environment ≠ everything outside / everything relevant / Context
 Domain Reality ≠ every target of Work
 Work Conditions ≠ a second kind of reality
-actual Structure ≠ architecture/baseline/inventory by identity
+Domain Structure ≠ Domain Condition / Status
+actual Structure ≠ architecture/BOM/inventory/baseline/topology model by identity
 actual Condition ≠ observation/report/cache by identity
+current Structure ≠ Dynamics
 actual Environment fact ≠ representation by identity
 Domain Reality role ≠ Work Conditions role by object identity
 ```
 
 ## Verification limit
 
-Existing completion audits are same-model adversarial reviews, not independent verification. User evaluation and sequencing do not alter those verification limits.
+Existing completion audits are same-model adversarial reviews, not independent verification. External sources support/falsify discriminating hypotheses but do not independently validate the exact hierarchy. User evaluation does not alter these limits.
 
 ## Go deeper
 
-Selected Structure plan:
-- `domain-effect/domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md`
+Structure:
+- `domain-effect/domain-state/domain-structure/STATE.md`
+- `domain-effect/domain-state/domain-structure/KEY.md`
+- `domain-effect/domain-state/domain-structure/CURRENT-SURFACES.md`
 
 Domain Reality:
 - `domain-effect/STATE.md`
@@ -102,4 +113,4 @@ Work Conditions:
 
 ## Authorization
 
-**Domain Structure is selected and planned; no substantive node is active.**
+**Current authorized work is user evaluation of the bounded Domain Structure result only.**
