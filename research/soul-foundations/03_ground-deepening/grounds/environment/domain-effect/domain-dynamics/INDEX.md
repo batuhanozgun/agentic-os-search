@@ -6,9 +6,9 @@ Current router for the bounded Domain Dynamics node result.
 
 ## Current status
 
-**BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; AWAITING USER EVALUATION.**
+**BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; USER-EVALUATED FOR HIERARCHICAL CONTINUATION.**
 
-No substantive node is active after this closure.
+No substantive node is active after this closure/evaluation.
 
 ## Read order
 
@@ -33,6 +33,8 @@ The starting label `Domain Dynamics / Processes` is refined to `Domain Dynamics`
 
 No universal immediate child currently survives strongly enough for promotion. Occurrence/interaction, change/transition/trajectory, history/path dependence, stability/regime and multi-scale dynamics remain explicit internal problem regions/properties rather than recursive children.
 
+The user evaluated this bounded result on 2026-09-03 and found it reasonable for hierarchical continuation.
+
 ## Historical parent anchor
 
 The pass began from Domain Reality `CURRENT-SURFACES.md` blob:
@@ -46,4 +48,4 @@ The closure audit is same-model adversarial review, not independent verification
 
 ## Guardrail
 
-This result awaits user evaluation. Do not activate another node or convert the research hierarchy into ontology classes, architecture modules, event-store/process-engine design, simulation/causal implementation or final relation taxonomy automatically.
+No substantive node is active. Parent/stage work may now select and plan one next research node, but no child/sibling/other ground is automatically activated. Do not convert the research hierarchy into ontology classes, architecture modules, event-store/process-engine design, simulation/causal implementation or final relation taxonomy automatically.
