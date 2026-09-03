@@ -1,6 +1,6 @@
 # Work Conditions — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Work Conditions closure; awaiting user evaluation
+**Status:** canonical freshness binding after Work Conditions user evaluation
 **Date:** 2026-09-03
 **Branch:** `main`
 
@@ -8,9 +8,9 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `8caa749db40cd062b911b8a2e4070e060cffcd4c` |
-| Router | `INDEX.md` | `23ed2ada35e8a7a18f048c1b3f805ed44585e1e7` |
-| L0 key | `KEY.md` | `116e83c5d324dcfb5c4cecce3c6dfa4542a02bfe` |
+| Node state | `STATE.md` | `0cb57424c88f205093349a4ec4a8f5e46994d79c` |
+| Router | `INDEX.md` | `fb1615676b4144069a77973cb1aba6057ed1d784` |
+| L0 key | `KEY.md` | `ab894627a1ee8755613444db8550089e5a013014` |
 | L1 findings map | `FINDINGS-MAP.md` | `b47e0dd7746c985100362ed9434f0d434723cb5e` |
 | Residual questions | `OPEN-QUESTIONS.md` | `190d76b988ad005142168838d94ba92d97ceaa2a` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `12010ccb47b65efa41ecbeae3a70002070a37351` |
@@ -51,7 +51,7 @@ This snapshot is the historical input to the Work Conditions pass. Later parent 
 ## Current bounded result
 
 ```text
-Work Conditions     ← bounded leaf at current universal foundation-research depth; awaiting user evaluation
+Work Conditions     ← bounded leaf at current universal foundation-research depth; user-evaluated
 ```
 
 Starting paired label `Work Conditions / Enabling–Constraining Environment` is simplified to `Work Conditions`.
@@ -62,12 +62,12 @@ Technical Work Environment is retained as a deep technical specialization/profil
 
 ## Verification status
 
-The closure audit is same-model adversarial self-review, not independent verification. External sources and holdouts discriminate rival decompositions but do not independently validate the exact leaf result.
+The closure audit is same-model adversarial self-review, not independent verification. External sources and holdouts discriminate rival decompositions but do not independently validate the exact leaf result. User evaluation does not alter this verification status.
 
 ## Authorization state
 
-No substantive node is active after closure. This package awaits user evaluation. Another child/sibling/ground requires a later explicit transition decision.
+No substantive node is active. Work Conditions has been user-evaluated. Parent/stage-level next work is selection/planning of one next research node; no specific node is automatically authorised.
 
 ## Update rule
 
-If this node is user-evaluated, reopened or materially edited, refresh this manifest and then refresh Environment → ground-deepening → foundation root current surfaces/state/router bottom-up.
+If this node is reopened or materially edited, refresh this manifest and then refresh Environment → ground-deepening → foundation root current surfaces/state/router bottom-up.
