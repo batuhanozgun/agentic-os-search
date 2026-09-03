@@ -1,16 +1,16 @@
 # Environment / Operating Reality — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Domain Condition closure; Condition awaiting user evaluation  
-**Date:** 2026-09-03  
+**Status:** canonical freshness binding after bounded Environment completion review; Environment not yet complete  
+**Date:** 2026-09-04  
 **Branch:** `main`
 
 ## Entry surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `564b0201b634d4ceaa292445ac56fbe67bb2d86e` |
-| Router | `INDEX.md` | `268b79ed97ab923f2ba422251129490e034ef92c` |
-| L0 key | `KEY.md` | `92af58ba2238ba0d2368367a0789af271af8959b` |
+| Node state | `STATE.md` | `220cdba418dd0d867709ce20288407ade716deb0` |
+| Router | `INDEX.md` | `db41dc1d8cf589c25abe39c261aea6bccc3c175d` |
+| L0 key | `KEY.md` | `168aeeb5b5c316b0c6372871d9f6f298bfb07921` |
 | Parent findings map | `FINDINGS-MAP.md` | `1663b27201c4396dfc68c6942b8988b48d1d98e1` |
 | Parent residual questions | `OPEN-QUESTIONS.md` | `38453a3c341bc269fa4a861ca5941ebc7ab3e79c` |
 | Parent deferred relations | `DEFERRED-RELATIONS.md` | `57e69d2d2607e0028478aaec662a6244f67d0a42` |
@@ -19,58 +19,39 @@
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain Reality | bounded; Condition refinement propagated | `domain-effect/CURRENT-SURFACES.md` @ `703a340d46d18706e2869344909cee2a7a94aff7` |
-| Domain State | bounded; Condition refinement propagated | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `7be2b320d4db848c090ff5cf44a427cddede7811` |
-| Domain Structure | bounded immediate-child result; user-evaluated / accepted | `domain-effect/domain-state/domain-structure/CURRENT-SURFACES.md` @ `8bd8d0b1e7e26f10d007d4e2c3702f0787d25619` |
-| Domain Condition | bounded immediate-child result; awaiting user evaluation | `domain-effect/domain-state/domain-condition/CURRENT-SURFACES.md` @ `cdeb10ca2f15b2b4397dd9c7bfe1fc47d4b038e2` |
-| Domain Dynamics | bounded leaf; user-evaluated | `domain-effect/domain-dynamics/CURRENT-SURFACES.md` @ `cd4c1dbbd23ac73227ed3765df3c514a54b707ef` |
-| Work Conditions | bounded leaf; user-evaluated | routed through `work-conditions/` current surfaces |
+| Domain Reality | retained; four State descendants remain unresearched | `domain-effect/CURRENT-SURFACES.md` @ `91742ff489b4e27e635e0a38552647636a830fa7` |
+| Domain State | retained; Structure/Condition accepted; four descendants unresearched | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `6289c817d5f6d25e6b2d728c684128a1f635e72b` |
+| Domain Structure | bounded / accepted | `domain-effect/domain-state/domain-structure/CURRENT-SURFACES.md` @ `8bd8d0b1e7e26f10d007d4e2c3702f0787d25619` |
+| Domain Condition | bounded / accepted | `domain-effect/domain-state/domain-condition/CURRENT-SURFACES.md` @ `b661a325c32339e81d900532dcb556af6167cf01` |
+| Domain Dynamics | bounded leaf / user-evaluated | `domain-effect/domain-dynamics/CURRENT-SURFACES.md` @ `cd4c1dbbd23ac73227ed3765df3c514a54b707ef` |
+| Work Conditions | bounded leaf / user-evaluated | routed through `work-conditions/` current surfaces |
+| Environment completion review | bounded; Environment not complete; awaiting user evaluation | `completion-review/CURRENT-SURFACES.md` @ `447f3e79b2b7e38b51c37665d0b8e1490c125889` |
 
-## Historical plans retained
+## Review plan / historical plans
 
-- `DOMAIN-EFFECT-RESEARCH-PLAN.md` @ `d10e5ef6d7ce9ff8a08084cc757c3b511f6e4603`
-- `WORK-CONDITIONS-RESEARCH-PLAN.md` @ `c1c7076d41526dde89d0ce0dbeb9b30be9070f17`
-- `domain-effect/DOMAIN-STATE-RESEARCH-PLAN.md` @ `8f5cabdd360fee61cd31a230018591673c348f24`
-- `domain-effect/DOMAIN-DYNAMICS-RESEARCH-PLAN.md` @ `3c46fd5e4dd053ae4a57cd4caf473131a3183d15`
-- `domain-effect/domain-state/DOMAIN-STRUCTURE-RESEARCH-PLAN.md` @ `fc402ad7dd0259cec4a831586766e0c1a1cfdad4`
-- `domain-effect/domain-state/DOMAIN-CONDITION-RESEARCH-PLAN.md` @ `17708a8592c7e3607846a71bc6f8174955d3fd5d`
+- `ENVIRONMENT-COMPLETION-REVIEW-PLAN.md` @ `c530ef2e6ec8a0f88358ba1c2cae32d66e70607f`
+- prior Environment/Domain/State/Dynamics/Structure/Condition/Work-Conditions research plans remain historical execution surfaces.
 
-These are historical/executed planning surfaces, not current authorization.
-
-## Current hierarchy / sequence
+## Current verdict
 
 ```text
-Environment / Operating Reality
-    ├─ Domain Reality
-    │    ├─ Domain State
-    │    │    ├─ Domain Structure                         ← bounded / accepted
-    │    │    │    ├─ Constituent Composition / Membership ← discovered; inactive
-    │    │    │    └─ Relational Organization / Topology   ← discovered; inactive
-    │    │    └─ Domain Condition                         ← bounded; awaiting user evaluation
-    │    │         ├─ Realized Characteristics / Values    ← discovered; inactive
-    │    │         └─ Criterion-Relative Standing / Status ← discovered; inactive
-    │    └─ Domain Dynamics                               ← bounded leaf; user-evaluated
-    └─ Work Conditions                                    ← bounded leaf; user-evaluated
+Environment parent: RETAIN
+Environment completion: NOT YET COMPLETE
+Domain Dynamics: RETAIN BOUNDED LEAF
+Work Conditions: RETAIN BOUNDED LEAF
 ```
 
-Agreed continuation:
+Blocking descendants:
 
 ```text
-Structure research/evaluation ← complete / accepted
-Condition research             ← boundedly complete
-Condition user evaluation      ← CURRENT GATE
-Environment completion review  ← inactive; later explicit stage
-Information decision           ← only after Environment completion review
+Constituent Composition / Membership   ← promoted; inactive; not researched
+Relational Organization / Topology     ← promoted; inactive; not researched
+Realized Characteristics / Values      ← promoted; inactive; not researched
+Criterion-Relative Standing / Status   ← promoted; inactive; not researched
 ```
-
-## Provenance rule
-
-Earlier parent/child pass artifacts preserve the state available during those passes. Later Structure/Condition refinements are carried by current state/router/freshness surfaces rather than rewriting historical pass evidence.
 
 ## Authorization rule
 
-No substantive node is active. Current authorized work is **user evaluation of the bounded Domain Condition result only**.
+No substantive node is active. Current authorised interaction is **user evaluation of the Environment completion-review result only**.
 
-## Update rule
-
-After Condition user evaluation and any later authorized transition, refresh Environment → stage/root surfaces bottom-up.
+Information remains inactive. Recommended next selection after user evaluation: `Constituent Composition / Membership`.
