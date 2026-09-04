@@ -1,54 +1,69 @@
 # Domain Condition — STATE
 
-**Status:** BOUNDED PARENT RESULT; USER-EVALUATED / ACCEPTED; `REALIZED CHARACTERISTICS / VALUES` SUBSTANTIVE PASS ACTIVE  
-**Activated:** 2026-09-03  
-**Bounded closure:** 2026-09-03  
-**User evaluation accepted:** 2026-09-04  
+**Status:** BOUNDED PARENT RESULT; USER-EVALUATED / ACCEPTED; `REALIZED CHARACTERISTICS` BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Parent bounded closure:** 2026-09-03  
+**Parent user evaluation accepted:** 2026-09-04  
+**Realized Characteristics:** bounded leaf 2026-09-04; awaiting user evaluation  
 **Parent:** `Domain State`  
-**Sibling:** `Domain Structure` — bounded / accepted; both children bounded leaves / accepted  
+**Sibling:** `Domain Structure` — bounded / accepted; both immediate children bounded leaves / accepted  
 **Higher ground:** `Environment / Operating Reality`  
-**Current authorised activity:** `REALIZED CHARACTERISTICS / VALUES` RESEARCH ONLY
+**Current authorised activity:** USER EVALUATION OF BOUNDED `REALIZED CHARACTERISTICS` ONLY
 
 ## Current hierarchy
 
 ```text
 Domain Condition
-    ├─ Realized Characteristics / Values       ← ACTIVE SUBSTANTIVE PASS
-    └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
+    ├─ Realized Characteristics                 ← bounded leaf; awaiting user evaluation
+    └─ Criterion-Relative Standing / Status     ← promoted; inactive / not researched
 ```
 
-Parent interpretation retained:
-- Realized Characteristics / Values asks what materially relevant current characteristics, quantities, qualitative values, modes or relational conditions actually obtain before a separate criterion is applied.
-- Criterion-Relative Standing / Status asks what current standing obtains relative to a materially relevant criterion.
+The inherited child label `Realized Characteristics / Values` was refined to **Realized Characteristics**.
 
-The split is semantic, not raw-vs-derived data or scalar-vs-category.
+Protected question:
 
-## Active child route
+> What materially relevant non-structural characteristics actually obtain for the selected bearer, relation or whole at the selected time, before asking whether they satisfy a separate criterion?
 
-Frozen plan:
-`REALIZED-CHARACTERISTICS-VALUES-RESEARCH-PLAN.md`
+No universal immediate child survived the focused pass.
 
-Active package:
-`realized-characteristics-values/STATE.md`
-
-The pass challenges node label/coherence, child-split rivals, actual-versus-measured/modelled value boundaries, Structure/Dynamics/Standing leakage, cross-domain holdouts and frozen F1–F20 before closure.
-
-## Parent boundaries retained unless falsified
+## Strong boundaries
 
 ```text
-Domain Condition ≠ Domain Structure
-current Condition ≠ Dynamics / history / trend
-actual characteristic/value ≠ measurement / observation / estimate / model value by identity
-actual standing/status ≠ score / report / certificate by identity
-criterion / rule / threshold ≠ current satisfaction/violation fact by identity
+Realized Characteristics ≠ Constituent Composition
+Realized Characteristics ≠ Relational Organization
+current characteristic ≠ transition/history Dynamics
+actual characteristic ≠ observation/measurement/estimate/model/report by identity
+actual characteristic ≠ criterion/rule/required range by identity
+Realized Characteristics ≠ Criterion-Relative Standing / Status
 ```
+
+## Parent impact
+
+No evidence forces reopening Domain Condition or Domain State. The parent characteristics-versus-standing split remains intact.
+
+## Current child route
+
+- `realized-characteristics-values/STATE.md`
+- `realized-characteristics-values/KEY.md`
+- `realized-characteristics-values/FINDINGS-MAP.md`
+- `realized-characteristics-values/synthesis/REALIZED-CHARACTERISTICS-SYNTHESIS.md`
+- `realized-characteristics-values/synthesis/COMPLETENESS-OMISSION-CHECK.md`
+- `realized-characteristics-values/CURRENT-SURFACES.md`
+
+Frozen executed plan:
+`REALIZED-CHARACTERISTICS-VALUES-RESEARCH-PLAN.md`.
 
 ## Verification status
 
-Existing audits are same-model adversarial self-reviews, not independent verification. The active child pass must preserve this limitation.
+The child F1–F20 audit and parent audits are same-model adversarial self-reviews, **not independent verification**. User evaluation does not change verification independence.
+
+## Current sequence
+
+```text
+Realized Characteristics research    ← boundedly complete
+Realized Characteristics evaluation  ← CURRENT GATE
+Criterion-Relative Standing / Status ← remains inactive
+```
 
 ## Guardrail
 
-**Only `Realized Characteristics / Values` is active.**
-
-Do not activate `Criterion-Relative Standing / Status`, Information, Work, Actors, cross-ground composition, architecture, ontology/schema/data-model work or implementation.
+Do not activate `Criterion-Relative Standing / Status`, Information, Work, Actors, systematic composition, architecture, ontology/schema/data-model work or implementation automatically.
