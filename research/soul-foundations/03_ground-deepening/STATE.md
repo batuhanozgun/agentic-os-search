@@ -1,6 +1,6 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT DESCENDANT ACCEPTED — CONSTITUENT COMPOSITION LEAF; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** ENVIRONMENT DESCENDANT RESEARCH ACTIVE — RELATIONAL ORGANIZATION / TOPOLOGY  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment parent evaluation:** accepted for hierarchical continuation  
@@ -10,9 +10,10 @@
 **Domain Structure:** bounded / accepted 2026-09-03  
 **Domain Condition:** bounded / accepted 2026-09-04  
 **Environment completion review:** bounded / accepted 2026-09-04; Environment not yet complete  
-**Constituent Composition:** bounded leaf / user-evaluated / accepted 2026-09-04  
+**Constituent Composition:** bounded leaf / accepted 2026-09-04  
+**Relational Organization / Topology:** active substantive pass 2026-09-04  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
-**Current authorised activity:** NEXT ENVIRONMENT DEBT SELECTION / PLANNING ONLY
+**Current authorised activity:** `RELATIONAL ORGANIZATION / TOPOLOGY` RESEARCH AT IMMEDIATE-CHILD DEPTH ONLY
 
 ## Working research tree
 
@@ -22,10 +23,10 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
     │    │    │    ├─ Constituent Composition               ← bounded leaf; accepted
-    │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
+    │    │    │    └─ Relational Organization / Topology    ← ACTIVE
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
-    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
+    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive
     │    └─ Domain Dynamics                                   ← bounded leaf
     └─ Work Conditions                                        ← bounded leaf
 
@@ -34,31 +35,26 @@ Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-## Current Environment continuation
+## Current continuation
 
 ```text
-Environment completion review        ← accepted
-Constituent Composition research     ← complete / accepted
-next Environment debt selection      ← CURRENT PARENT/STAGE TASK
+Environment completion review     ← accepted
+Constituent Composition            ← bounded leaf / accepted
+Relational Organization / Topology ← ACTIVE
+→ user evaluation after bounded closure
+→ reassess remaining Environment debt from then-current state
 ```
-
-Remaining promoted Environment debt:
-- Relational Organization / Topology;
-- Realized Characteristics / Values;
-- Criterion-Relative Standing / Status.
-
-`Relational Organization / Topology` is the strongest default next selection, but must be planned/activated explicitly from current canonical state.
 
 ## Method
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
-The bounded-leaf result stops descent inside Constituent Composition unless a reopen condition later appears.
+One active node only. Child discovery in the active pass does not authorize grandchild research.
 
 ## Verification status
 
-Same-model completion/omission reviews are not independent verification. User acceptance does not alter that status.
+Same-model completion/omission reviews are not independent verification.
 
 ## Guardrail
 
-No substantive node is active. Do not activate another Environment descendant, Information, Work, Actors, systematic relation/control composition, architecture, ontology/data-model work or implementation automatically.
+Do not activate another Environment descendant, Information, Work, Actors, systematic relation/control composition, architecture, ontology/data-model work or implementation.
