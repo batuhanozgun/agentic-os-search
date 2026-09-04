@@ -1,14 +1,15 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL PASS BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
+**Status:** ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL PASS BOUNDEDLY COMPLETE / USER-EVALUATED  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment completion:** boundedly complete / accepted 2026-09-04  
 **Information activation:** 2026-09-04  
 **Information top-level closure:** boundedly complete for evaluation 2026-09-04  
+**Information user evaluation:** accepted 2026-09-04  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
 **Current authorised substantive activity:** NONE  
-**Current phase:** INFORMATION USER-EVALUATION GATE
+**Current phase:** POST-INFORMATION NEXT-WORK SELECTION GATE
 
 ## Working research tree / epistemic status
 
@@ -26,17 +27,17 @@ Environment / Operating Reality                 ← boundedly complete / accepte
     └─ Work Conditions                              ← bounded leaf / accepted
          ↳ Technical Work Environment               ← deep technical specialization/profile
 
-Information / Representation                    ← bounded top-level result / USER EVALUATION PENDING
+Information / Representation                    ← bounded top-level result / accepted
     ├─ Informational State / Representational Constitution
     └─ Informational Dynamics / Formation–Transformation
 
-Records / Persistent Information                ↳ proposed deep persistence specialization/profile across Information
+Records / Persistent Information                ↳ accepted deep persistence specialization/profile across Information
 
 Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-The Information tree above is the completed pass result, **not yet user-accepted**. The pass was executed under the prior routing label `Information / Representation State` and recommends dropping `State` from the parent label.
+The Information tree above is the completed, user-evaluated top-level research result. The pass was executed under the prior routing label `Information / Representation State`; the refined parent label `Information / Representation` is accepted for the current research structure.
 
 ## Information progress
 
@@ -48,7 +49,8 @@ N3 rival immediate-child discovery               ← COMPLETE
 N4 boundary / anti-collapse                      ← COMPLETE
 N5 external / cross-domain falsifiers            ← COMPLETE
 N6 omission / reduction / rival audit            ← COMPLETE; same-model, non-independent
-N7 top-level closure                             ← COMPLETE / USER EVALUATION GATE
+N7 top-level closure                             ← COMPLETE
+user evaluation                                  ← ACCEPTED
 substantive child research                       ← NOT ACTIVE
 ```
 
@@ -56,7 +58,7 @@ substantive child research                       ← NOT ACTIVE
 
 The deeper pass rejects the adequacy-stage familiar noun list as an immediate hierarchy.
 
-Current bounded result:
+Accepted bounded result:
 
 - Informational State/Constitution and Informational Dynamics/Formation–Transformation are the two immediate-child research regions;
 - context, evidence, provenance, freshness, uncertainty, conflict, accessibility and similar concerns remain primarily cross-cutting/use-relative at this level;
@@ -81,7 +83,7 @@ Read:
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
-The one-node-at-a-time rule is currently satisfied because **zero substantive nodes are active** while the Information result awaits user evaluation.
+The one-node-at-a-time rule is currently satisfied because **zero substantive nodes are active** while the next work is selected.
 
 ## Verification status
 
@@ -89,11 +91,11 @@ External standards/research increased falsifier diversity. N6 remains same-model
 
 ## Current gate / guardrail
 
-Current interaction is Information result evaluation only.
+The Information user-evaluation gate is closed. Current interaction is next-work selection/planning only.
 
 Do not begin:
 
-- either proposed Information child;
+- either Information child;
 - Work;
 - Actors;
 - systematic relation/control composition;
@@ -101,4 +103,4 @@ Do not begin:
 - ontology/data model;
 - implementation
 
-until a separate post-evaluation transition is explicitly authorised.
+until a separate transition is explicitly selected and authorised.
