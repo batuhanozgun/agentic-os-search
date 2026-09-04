@@ -1,14 +1,14 @@
 # Domain State — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT PARENT; STRUCTURE/CONDITION ACCEPTED; RELATIONAL ORGANIZATION BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDEDLY SUFFICIENT PARENT; STRUCTURE/CONDITION ACCEPTED; STRUCTURE CHILDREN BOUNDED LEAVES / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE  
 **Domain State user evaluation accepted:** 2026-09-03  
 **Domain Structure:** bounded / accepted 2026-09-03  
 **Domain Condition:** bounded / accepted 2026-09-04  
 **Constituent Composition:** bounded leaf / accepted 2026-09-04  
-**Relational Organization:** bounded leaf 2026-09-04; awaiting user evaluation  
+**Relational Organization:** bounded leaf / accepted 2026-09-04  
 **Parent:** Domain Reality  
 **Sibling:** Domain Dynamics — bounded leaf; user-evaluated  
-**Current authorised activity:** USER EVALUATION OF BOUNDED `RELATIONAL ORGANIZATION` ONLY
+**Current authorised activity:** NEXT-DEBT SELECTION / PLANNING FOR DOMAIN CONDITION
 
 ## Current hierarchy
 
@@ -16,7 +16,7 @@
 Domain State
     ├─ Domain Structure
     │    ├─ Constituent Composition   ← bounded leaf; accepted
-    │    └─ Relational Organization   ← bounded leaf; awaiting user evaluation
+    │    └─ Relational Organization   ← bounded leaf; accepted
     └─ Domain Condition
          ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
          └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
@@ -24,20 +24,13 @@ Domain State
 
 ## Current judgment
 
-The dedicated Structure descendant pass refined `Relational Organization / Topology` to `Relational Organization` and closed it as a bounded leaf.
+Both dedicated Structure descendants are now bounded leaves and accepted. No evidence from them reopens Domain Structure, Domain State or Domain Dynamics.
 
-No evidence from that pass reopens:
-- Domain Structure;
-- the Domain State Structure-versus-Condition split;
-- Domain Dynamics.
-
-If accepted, both Domain Structure children are bounded leaves at the current foundation depth.
-
-Remaining Environment research debt is currently limited to the two promoted Domain Condition descendants:
+Remaining Environment research debt is limited to the two promoted Domain Condition descendants:
 - Realized Characteristics / Values;
 - Criterion-Relative Standing / Status.
 
-These must not be activated before the current user-evaluation gate closes.
+The strongest default next selection is `Realized Characteristics / Values`, because it protects the criterion-independent current-condition question and provides the cleanest reality-side anchor before deeper criterion-relative standing research. This is a research-order choice, not a claim that standing is reducible to characteristics.
 
 ## Strong boundaries
 
@@ -45,20 +38,19 @@ These must not be activated before the current user-evaluation gate closes.
 Domain Structure ≠ Domain Condition
 Constituent Composition ≠ Relational Organization
 current Domain State ≠ Domain Dynamics / history
-actual Structure ≠ architecture / inventory / baseline / model by identity
-actual structural relation ≠ interaction/flow/event by identity
 actual characteristic/value ≠ measurement / estimate / report by identity
 actual standing/status ≠ score / report / certificate by identity
+criterion / rule / threshold ≠ current satisfaction/violation fact by identity
 ```
 
 ## Verification status
 
-Underlying node audits and Environment completion review are same-model adversarial self-reviews, **not independent verification**. The Relational Organization F1–F21 audit has the same limitation.
+Underlying node audits and Environment completion review are same-model adversarial self-reviews, **not independent verification**.
 
 ## Current route
 
-`domain-structure/STATE.md → domain-structure/relational-organization-topology/STATE.md → KEY.md → synthesis/audit`.
+For remaining debt: `domain-condition/STATE.md → KEY.md → OPEN-QUESTIONS.md → evidence/SOURCE-LEDGER.md`.
 
 ## Guardrail
 
-No substantive node is active. Do not activate a Domain Condition child, Information, Work, Actors, architecture, ontology/data-model work or implementation automatically.
+Planning/selection of the next Domain Condition child is authorised by the user's continuation direction. Do not activate Information, Work, Actors, architecture, ontology/data-model work or implementation.
