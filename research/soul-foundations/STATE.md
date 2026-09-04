@@ -1,14 +1,14 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment not yet complete; `Constituent Composition` bounded leaf / awaiting user evaluation; no substantive node active  
-**Environment completed/evaluated so far:** parent, Domain Reality, Domain State, Domain Dynamics, Work Conditions, Domain Structure, Domain Condition; Environment completion review accepted; Constituent Composition bounded  
+**Status:** active research library; Environment not yet complete; `Constituent Composition` bounded leaf / accepted; no substantive node active  
+**Environment completed/evaluated so far:** parent, Domain Reality, Domain State, Domain Dynamics, Work Conditions, Domain Structure, Domain Condition; Environment completion review accepted; Constituent Composition accepted  
 **Domain Structure:** bounded / user-evaluated / accepted 2026-09-03  
 **Domain Condition:** bounded / user-evaluated / accepted 2026-09-04  
 **Environment completion review:** bounded / user-evaluated / accepted 2026-09-04; Environment NOT YET COMPLETE  
-**Constituent Composition:** bounded leaf 2026-09-04; awaiting user evaluation  
+**Constituent Composition:** bounded leaf / user-evaluated / accepted 2026-09-04  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** USER EVALUATION OF BOUNDED `CONSTITUENT COMPOSITION` ONLY  
-**Current return condition:** return the bounded child result; do not auto-start another descendant or Information
+**Current authorised interaction:** NEXT ENVIRONMENT DEBT SELECTION / PLANNING ONLY  
+**Current return condition:** reassess the remaining Environment debt from current canonical state; do not auto-start another descendant or Information
 
 ## Dependency state
 
@@ -19,7 +19,7 @@
   - Domain Reality: boundedly sufficient.
     - Domain State: boundedly sufficient.
       - Domain Structure: bounded / accepted.
-        - **Constituent Composition: BOUNDED LEAF; AWAITING USER EVALUATION.**
+        - **Constituent Composition: BOUNDED LEAF; USER-EVALUATED / ACCEPTED.**
         - Relational Organization / Topology: promoted; inactive; not researched.
       - Domain Condition: bounded / accepted.
         - Realized Characteristics / Values: promoted; inactive; not researched.
@@ -52,7 +52,7 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    │    │    ├─ Constituent Composition               ← bounded leaf; accepted
     │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
@@ -61,7 +61,7 @@ Environment / Operating Reality
     └─ Work Conditions                                        ← bounded leaf
 ```
 
-## Constituent Composition bounded result
+## Constituent Composition accepted result
 
 The inherited label:
 
@@ -76,7 +76,7 @@ was refined to:
 Current judgment:
 
 ```text
-Constituent Composition     ← bounded leaf at current foundation-research depth
+Constituent Composition     ← bounded leaf / accepted
 ```
 
 The protected question is which materially relevant constituents actually make up or participate in the selected structural whole/scope at the selected time, under the constituent-relation semantics appropriate to that whole.
@@ -96,28 +96,24 @@ Information remains inactive while these Environment debts remain.
 
 ## Recommended next logical selection
 
-If the current bounded result is accepted and no reopen trigger appears, the strongest default next node is:
+The strongest default next node is:
 
 > **Relational Organization / Topology**
 
-This is a recommendation only. No node is active, and the next selection must be reassessed from then-current canonical state.
+Reason: it is the remaining unresolved child of the accepted Domain Structure branch and directly complements the now-closed constituent question with the distinct question of how those constituents are structurally organized.
+
+This is a recommendation only. No node is active; planning/activation must follow the current canonical state and hierarchical method.
 
 ## Verification status
 
-The Constituent Composition F1–F19 completion audit and underlying node/review audits are same-model adversarial self-reviews, **not independent verification**. External sources were used to discriminate live rivals; they do not independently validate the exact hierarchy. User evaluation does not alter this status.
+The Constituent Composition F1–F19 completion audit and underlying node/review audits are same-model adversarial self-reviews, **not independent verification**. External sources discriminate live rivals but do not independently validate the exact hierarchy. User acceptance does not alter this status.
 
 ## Current retrieval
 
 `STATE.md → INDEX.md → 03_ground-deepening/STATE.md → grounds/environment/STATE.md → domain-effect/domain-state/domain-structure/STATE.md → constituent-composition-membership/STATE.md → KEY.md → synthesis/audit`.
 
-Exact freshness:
-- `03_ground-deepening/CURRENT-SURFACES.md`
-- `03_ground-deepening/grounds/environment/CURRENT-SURFACES.md`
-- `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/CURRENT-SURFACES.md`
-- `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/constituent-composition-membership/CURRENT-SURFACES.md`
-
 ## Current authorization
 
-**USER EVALUATION OF THE BOUNDED `CONSTITUENT COMPOSITION` RESULT ONLY.**
+**NEXT ENVIRONMENT DEBT SELECTION / PLANNING ONLY.**
 
 Do not activate another Environment descendant, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation without later explicit transition.
