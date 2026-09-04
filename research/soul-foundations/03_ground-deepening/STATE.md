@@ -1,6 +1,6 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT DESCENDANT BOUNDED — CONSTITUENT COMPOSITION LEAF; AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** ENVIRONMENT DESCENDANT ACCEPTED — CONSTITUENT COMPOSITION LEAF; NO SUBSTANTIVE NODE ACTIVE  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment parent evaluation:** accepted for hierarchical continuation  
@@ -10,9 +10,9 @@
 **Domain Structure:** bounded / accepted 2026-09-03  
 **Domain Condition:** bounded / accepted 2026-09-04  
 **Environment completion review:** bounded / accepted 2026-09-04; Environment not yet complete  
-**Constituent Composition:** bounded leaf 2026-09-04; awaiting user evaluation  
+**Constituent Composition:** bounded leaf / user-evaluated / accepted 2026-09-04  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
-**Current authorised activity:** USER EVALUATION OF BOUNDED `CONSTITUENT COMPOSITION` ONLY
+**Current authorised activity:** NEXT ENVIRONMENT DEBT SELECTION / PLANNING ONLY
 
 ## Working research tree
 
@@ -21,7 +21,7 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    │    │    ├─ Constituent Composition               ← bounded leaf; accepted
     │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
@@ -37,10 +37,9 @@ Actors / Agency–Participation–Authority          ← inactive
 ## Current Environment continuation
 
 ```text
-Environment completion review          ← accepted
-Constituent Composition research       ← bounded leaf
-Constituent Composition user evaluation← CURRENT GATE
-next Environment debt selection        ← only after evaluation
+Environment completion review        ← accepted
+Constituent Composition research     ← complete / accepted
+next Environment debt selection      ← CURRENT PARENT/STAGE TASK
 ```
 
 Remaining promoted Environment debt:
@@ -48,7 +47,7 @@ Remaining promoted Environment debt:
 - Realized Characteristics / Values;
 - Criterion-Relative Standing / Status.
 
-If the current result is accepted and no reopen trigger appears, `Relational Organization / Topology` is the strongest default next sibling, but the order must be reassessed from then-current state.
+`Relational Organization / Topology` is the strongest default next selection, but must be planned/activated explicitly from current canonical state.
 
 ## Method
 
@@ -58,7 +57,7 @@ The bounded-leaf result stops descent inside Constituent Composition unless a re
 
 ## Verification status
 
-Same-model completion/omission reviews are not independent verification.
+Same-model completion/omission reviews are not independent verification. User acceptance does not alter that status.
 
 ## Guardrail
 
