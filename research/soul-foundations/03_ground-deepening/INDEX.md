@@ -6,23 +6,21 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**ALL CURRENTLY KNOWN ENVIRONMENT DESCENDANT PASSES BOUNDED / ACCEPTED; ENVIRONMENT-LEVEL JUDGMENT CURRENT; NO SUBSTANTIVE NODE ACTIVE.**
+**ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; NEXT-GROUND SELECTION CURRENT; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Read order
 
 1. `STATE.md` — current stage status/authorization.
 2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive method.
-3. Environment → `grounds/environment/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
-4. Domain Reality / Domain State / Condition / Structure descendants as needed.
-5. Domain Dynamics / Work Conditions as needed.
-6. Environment parent synthesis/audit for Environment-wide judgment.
-7. `PLAN.md` — program gates.
-8. `CURRENT-SURFACES.md` — exact stage freshness.
+3. Completed Environment → `grounds/environment/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
+4. Environment parent/child synthesis only when recovering its result or boundaries.
+5. `PLAN.md` — program gates.
+6. `CURRENT-SURFACES.md` — exact stage freshness.
 
-## Current tree
+## Completed Environment tree
 
 ```text
-Environment / Operating Reality
+Environment / Operating Reality                 ← boundedly complete / accepted
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
@@ -31,15 +29,17 @@ Environment / Operating Reality
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics      ← bounded leaf / accepted
     │    │         └─ Criterion-Relative Standing   ← bounded leaf / accepted
-    │    └─ Domain Dynamics                         ← bounded leaf
-    └─ Work Conditions                              ← bounded leaf
+    │    └─ Domain Dynamics                         ← bounded leaf / accepted
+    └─ Work Conditions                              ← bounded leaf / accepted
          ↳ Technical Work Environment               ← deep technical specialization/profile
 ```
 
 ## Current stage judgment
 
-All currently known promoted Environment descendants have dedicated accepted/bounded results at current foundation depth. Environment completion is **not inferred** from traversal; current work is Environment-level discussion/judgment.
+Environment research is closed for the current foundation purpose. The current gate is next-ground selection/planning.
 
-## Current gate
+Information / Representation State is the strongest sequence candidate from the existing program, but remains inactive until explicitly selected and planned from current canonical state.
 
-No substantive node is active. Information remains inactive.
+## Guardrail
+
+No substantive node is active. Do not infer architecture, ontology/data model, implementation or automatic activation of any remaining ground.
