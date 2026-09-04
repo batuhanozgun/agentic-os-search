@@ -2,30 +2,44 @@
 
 ## Role
 
-Current retrieval router for the boundedly complete, user-evaluated Information top-level node.
+Current retrieval router for the user-evaluated Information top-level node and its active child deepening.
 
-The pass was executed under the routing label `Information / Representation State`. Its accepted bounded result uses the refined label `Information / Representation`.
+The parent pass was executed under the routing label `Information / Representation State`. Its accepted refined label is `Information / Representation`.
 
 ## Current status
 
-**TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED.**
+**TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE CHILD ACTIVE.**
 
-No substantive child is active.
+Exactly one substantive child is active:
+
+`informational-state/`
 
 ## Default read order
 
-1. `STATE.md` — current node status, epistemic status and authorization.
-2. `KEY.md` — shortest current orientation.
-3. `FINDINGS-MAP.md` — current bounded result and topic routing.
-4. `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` — integrated top-level result.
-5. `N7-NODE-CLOSURE.md` — closure basis, residual uncertainty and reopen triggers.
-6. Descend to N0–N6 only when the reasoning path, rival decomposition, boundary attack, omission audit or exact source use matters.
-7. `EXTERNAL-SOURCE-LEDGER.md` — external source roles and exact source routes.
-8. `OPEN-QUESTIONS.md` — residual/deeper/reopen questions; not an execution queue.
-9. `DEFERRED-RELATIONS.md` — cross-ground relations intentionally not solved here.
-10. `CURRENT-SURFACES.md` — exact current-surface binding.
+1. `STATE.md` — parent status and current child authorization.
+2. `KEY.md` — shortest accepted parent orientation.
+3. `FINDINGS-MAP.md` — accepted parent result and topic routing.
+4. `informational-state/STATE.md` — active child state.
+5. `informational-state/INDEX.md` → `RESEARCH-PLAN.md` → current pass artifacts.
+6. Parent `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` and `N7-NODE-CLOSURE.md` when parent closure reasoning matters.
+7. Parent N0–N6 only when the earlier reasoning path, rival decomposition, boundary attack, omission audit or exact source use matters.
+8. `EXTERNAL-SOURCE-LEDGER.md` — parent external source roles and exact source routes.
+9. `OPEN-QUESTIONS.md` — residual/deeper/reopen questions; not an automatic execution queue.
+10. `DEFERRED-RELATIONS.md` — cross-ground relations intentionally not solved here.
+11. `CURRENT-SURFACES.md` — current surface binding.
 
-## Pass reconstruction route
+## Accepted parent hierarchy
+
+```text
+Information / Representation
+    ├─ Informational State / Representational Constitution   ← ACTIVE
+    └─ Informational Dynamics / Formation–Transformation     ← inactive
+
+Records / Persistent Information
+    ↳ deep persistence specialization/profile crossing Information
+```
+
+## Parent pass reconstruction route
 
 | Need | Read |
 |---|---|
@@ -38,26 +52,13 @@ No substantive child is active.
 | Missing-child/reduction/rival audit | `N6-OMISSION-REDUCTION-RIVAL-AUDIT.md` |
 | Closure decision | `N7-NODE-CLOSURE.md` |
 
-## Current bounded hierarchy result
-
-```text
-Information / Representation
-    ├─ Informational State / Representational Constitution
-    └─ Informational Dynamics / Formation–Transformation
-
-Records / Persistent Information
-    ↳ deep persistence specialization/profile crossing Information
-```
-
-The two children are bounded research results **accepted as the current top-level research structure**. Their existence does not authorize a child research pass.
-
 ## Records route
 
 The existing completed Records corpus remains the deep persistent-information evidence package:
 
 `../../../01_verticals/records-artifacts/`
 
-The Information pass refines Records' hierarchical role; it does not invalidate or rewrite the Records-local findings.
+The Information parent pass refined Records' hierarchical role; it did not invalidate or rewrite the Records-local findings.
 
 ## Stage-wide authority
 
@@ -74,13 +75,11 @@ This package is research only.
 
 Do not infer authorization to begin:
 
-- Informational State child deepening;
 - Informational Dynamics child deepening;
+- any child discovered inside Informational State;
 - Work or Actors ground deepening;
 - systematic relation/control composition;
 - architecture modules;
 - ontology/database schema;
 - RAG/KG/memory/context implementation;
 - SOUL/Development OS implementation.
-
-Current interaction is next-work selection/planning only.
