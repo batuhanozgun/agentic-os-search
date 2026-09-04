@@ -18,6 +18,14 @@ Candidate studies are classified by research object:
 
 A study can use external sources without being an `external-target` study.
 
+## Migration note
+
+On 2026-09-04 the existing candidate packages were moved from direct `research/<package>/` paths into `research/studies/<package>/` while their substantive research blobs were preserved by SHA where no content change was required.
+
+Current canonical package locations are the paths under this library and the package `META.md` / `STATE.md` / `INDEX.md` surfaces.
+
+Some chronological rationale or deep-dive documents created before the migration may still contain **historical pre-migration path literals**. Do not treat those literals as current routing authority. Resolve the named package through this `INDEX.md`, `CATALOG.md`, or its current `META.md`. Current load-bearing routers/state surfaces should use the new paths.
+
 ## Retrieval flow
 
 ```text
