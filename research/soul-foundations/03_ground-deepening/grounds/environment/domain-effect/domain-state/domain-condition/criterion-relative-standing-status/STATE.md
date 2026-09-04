@@ -1,8 +1,9 @@
 # Criterion-Relative Standing — STATE
 
-**Status:** BOUNDED RESEARCH RESULT; BOUNDED LEAF; AWAITING USER EVALUATION; NO SUBSTANTIVE CHILD ACTIVE  
+**Status:** BOUNDED RESEARCH RESULT; BOUNDED LEAF; USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE CHILD ACTIVE  
 **Activated:** 2026-09-04  
 **Bounded closure:** 2026-09-04  
+**User evaluation accepted:** 2026-09-04  
 **Pass-start label:** `Criterion-Relative Standing / Status`  
 **Preferred bounded label:** `Criterion-Relative Standing`  
 **Parent:** `Domain Condition`  
@@ -77,7 +78,7 @@ Current local hierarchy:
 ```text
 Domain Condition
     ├─ Realized Characteristics       ← bounded leaf / accepted
-    └─ Criterion-Relative Standing    ← bounded leaf / awaiting user evaluation
+    └─ Criterion-Relative Standing    ← bounded leaf / accepted
 ```
 
 No third Domain Condition region was forced.
@@ -107,6 +108,8 @@ No source independently validates the exact project hierarchy.
 
 The F1–F22 completion/omission audit is same-model adversarial self-review, **not independent verification**.
 
+User evaluation/acceptance does not convert this result into independent verification.
+
 ## Closure basis
 
 Material outcomes from the frozen falsifiers:
@@ -130,16 +133,16 @@ Reopen if:
 - later composition makes functional-versus-normative standing materially different enough to change foundation-level recovery;
 - independent review offers a materially stronger decomposition.
 
-## Current return condition
+## User evaluation result
 
-Return this bounded result for user evaluation and the Environment-level discussion explicitly reserved for the next turn.
+The user accepted the bounded `Criterion-Relative Standing` result on 2026-09-04. No reopen trigger was raised.
 
-All currently known promoted Environment descendants have now received dedicated passes at current foundation depth, subject to user evaluation of this final child result.
+All currently known promoted Environment descendants have now received dedicated passes and their leaf results have been user-evaluated/accepted at current foundation depth.
 
-**Do not declare Environment complete here and do not begin Information automatically.**
+This does **not** by itself declare Environment complete.
 
 ## Next authorised work
 
-**USER EVALUATION OF BOUNDED `CRITERION-RELATIVE STANDING` / ENVIRONMENT DISCUSSION NEXT TURN ONLY.**
+**ENVIRONMENT-LEVEL DISCUSSION / JUDGMENT ONLY.**
 
-No substantive node is active.
+Do not begin Information automatically. No substantive node is active.
