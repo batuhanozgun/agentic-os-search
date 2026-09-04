@@ -1,60 +1,56 @@
 # Domain Structure — FINDINGS MAP
 
-**Status:** bounded immediate-child result; awaiting user evaluation
+**Status:** bounded parent result; Constituent Composition deeper result bounded / awaiting user evaluation
+
+> **Pass-artifact provenance:** the original Domain Structure findings/synthesis preserve the state available during the parent pass. Current hierarchy and deeper child refinement come from `STATE.md`, `KEY.md`, this router, `CURRENT-SURFACES.md` and the child package.
 
 ## Fast route
 
-- shortest result → `KEY.md`
-- integrated synthesis → `synthesis/DOMAIN-STRUCTURE-SYNTHESIS.md`
-- completion / omission audit → `synthesis/COMPLETENESS-OMISSION-CHECK.md`
-- source recovery → `evidence/SOURCE-LEDGER.md`
-- residuals → `OPEN-QUESTIONS.md`
-- deferred relations → `DEFERRED-RELATIONS.md`
+- shortest current Structure result → `KEY.md`
+- current Structure state / authorization → `STATE.md`
+- current Constituent Composition result → `constituent-composition-membership/KEY.md`
+- child findings route → `constituent-composition-membership/FINDINGS-MAP.md`
+- child synthesis → `constituent-composition-membership/synthesis/CONSTITUENT-COMPOSITION-SYNTHESIS.md`
+- child completion audit → `constituent-composition-membership/synthesis/COMPLETENESS-OMISSION-CHECK.md`
+- child source recovery → `constituent-composition-membership/evidence/SOURCE-LEDGER.md`
+- child exact freshness → `constituent-composition-membership/CURRENT-SURFACES.md`
+- historical Structure synthesis → `synthesis/DOMAIN-STRUCTURE-SYNTHESIS.md`
+- historical Structure audit → `synthesis/COMPLETENESS-OMISSION-CHECK.md`
+- historical Structure source ledger → `evidence/SOURCE-LEDGER.md`
 
-## Focused findings
+## Historical Structure focused findings
 
 | Question | Read |
 |---|---|
 | Does the inherited node survive and what is its strongest label? | `findings/01-node-coherence-and-label.md` |
-| Why promote constituent composition / membership? | `findings/02-composition-membership-child.md` |
-| Why promote relational organization / topology? | `findings/03-relational-organization-topology-child.md` |
-| Why are spatial, hierarchy/network, interface, identity, constraint and scale candidates not separate children? | `findings/04-third-child-and-crosscut-audit.md` |
-| Does the two-child split survive materially different domains? | `findings/05-cross-domain-holdouts.md` |
-| Do sibling/cross-ground boundaries survive? | `findings/06-boundary-and-anti-collapse.md` |
+| Why was constituent composition / membership promoted? | `findings/02-composition-membership-child.md` |
+| Why was relational organization / topology promoted? | `findings/03-relational-organization-topology-child.md` |
+| Why were spatial, hierarchy/network, interface, identity, constraint and scale candidates not separate children? | `findings/04-third-child-and-crosscut-audit.md` |
+| Did the two-child split survive materially different domains? | `findings/05-cross-domain-holdouts.md` |
+| Did sibling/cross-ground boundaries survive? | `findings/06-boundary-and-anti-collapse.md` |
 
 ## Current central result
 
 ```text
 Domain Structure
-    ├─ Constituent Composition / Membership
-    └─ Relational Organization / Topology
+    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    └─ Relational Organization / Topology    ← promoted; inactive / not researched
 ```
 
-Interpretation:
-- `Domain Structure / Composition` is shortened to `Domain Structure`;
-- composition/membership protects the realized constituent/part-whole question;
-- relational organization/topology protects realized connection/dependency/arrangement/interface questions;
-- the split is semantic/problem-role based, not `node` versus `edge` schema mirroring;
-- hierarchy, network and spatial organization are forms/families inside the two branches rather than universal co-equal children;
-- identity, constraints, scale/reference and actual-versus-represented remain explicit cross-cutting/boundary dimensions;
-- no third universal Structure-local child is currently required.
+Key refinement from the deeper child pass:
+- `Constituent Composition / Membership` → **Constituent Composition**;
+- the node remains coherent across part/member/participant/ingredient and other constituent-relation forms;
+- those relation forms must preserve distinct semantics but do not form a stable universal child split;
+- multiplicity/cardinality is not a separate universal child;
+- scope/time/identity/nesting remain dimensions/cross-cuts rather than immediate children;
+- no evidence reopens Domain Structure.
 
-## Resolution change from the parent pass
+## Resolution rule
 
-The Domain State pass reasonably kept constituents + relations together to distinguish Structure from Condition. At the deeper Structure-only resolution, independent failure/recovery surfaces now justify separating:
+At the parent Structure pass, Constituent Composition was probed enough to establish that it deserved its own child. The dedicated child pass now supplies its own closure judgment. Historical parent findings are not evidence that this deeper leaf result was already known then.
 
-```text
-what constitutes / participates in the whole
-```
+## Verification / authorization
 
-from:
+The parent and child audits are same-model adversarial self-reviews, not independent verification.
 
-```text
-how those constituents are structurally organized
-```
-
-This refines rather than contradicts the parent result.
-
-## Guardrail
-
-Pass-time source models and taxonomies are challenge instruments. Do not infer ontology classes, graph schema, database tables, architecture modules or implementation components from this hierarchy.
+No substantive node is currently active. Current authorized interaction is **user evaluation of bounded Constituent Composition only**.
