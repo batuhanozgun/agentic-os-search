@@ -72,3 +72,15 @@ Underlying prior audits are same-model adversarial self-reviews unless separatel
 **INFORMATION / REPRESENTATION STATE TOP-LEVEL NODE RESEARCH.**
 
 Only that node is active. Discovering an Information child does not authorize researching it in the same pass. Do not begin Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation automatically.
+
+## Cross-phase external-research reuse continuity
+
+**Accepted continuity intent (2026-09-04):** substantive external research may contain sources, capabilities, services, datasets, patterns, repositories, standards or discovery mechanisms that are useful later even when they are not part of the current research question.
+
+Canonical reuse surface:
+
+`../EXTERNAL-RESEARCH-REUSE.md`
+
+Use that surface to preserve materially useful **reuse candidates** for later SOUL / Development OS work without promoting them to architecture truth or implementation decisions.
+
+When a successor canonical state/router eventually replaces this foundation-research state, this cross-phase intent and route should remain recoverable until the user explicitly retires or replaces it. In particular, when SOUL / Development OS design or implementation begins, the registry should be reviewed rather than silently left behind.
