@@ -17,6 +17,7 @@ For current status/authorization read `STATE.md` first. This router does not ind
 | Information candidate/problem map | `03_ground-deepening/grounds/information/FINDINGS-MAP.md` | `OPEN-QUESTIONS.md` / evidence routes |
 | Completed Environment result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX / CURRENT-SURFACES / parent synthesis-audit |
 | Environment leaf internal maps | relevant leaf `FINDINGS-MAP.md` | synthesis / audit / evidence |
+| Cross-phase external research reuse / later SOUL–Development OS candidates | `../EXTERNAL-RESEARCH-REUSE.md` | linked detailed research package and current authoritative external source |
 | What is authorised now? | `STATE.md` | Information top-level node only |
 
 ## Completed Environment tree
