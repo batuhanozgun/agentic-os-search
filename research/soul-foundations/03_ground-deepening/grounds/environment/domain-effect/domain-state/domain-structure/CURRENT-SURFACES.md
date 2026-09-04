@@ -1,6 +1,6 @@
 # Domain Structure — CURRENT SURFACES
 
-**Status:** canonical freshness binding after Constituent Composition user acceptance  
+**Status:** canonical freshness binding after bounded Relational Organization child closure; awaiting user evaluation  
 **Date:** 2026-09-04  
 **Branch:** `main`
 
@@ -8,37 +8,40 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `0c1ff131db1ca7af78d1f4365262a4a54a85dd52` |
-| Router | `INDEX.md` | `0eee60e033ddaa80fba3f6776f1c67e5e511a516` |
-| L0 key | `KEY.md` | `233dc5f6146509eecb264baa96dd55ecc5da5977` |
-| L1 findings map | `FINDINGS-MAP.md` | `629720da9b3fa72bbba5264630dd65c9c80c28e2` |
+| Node state | `STATE.md` | `ff2ed4ce2c56b035cde52d5ceb948688cbd981af` |
+| Router | `INDEX.md` | `ad0ed6c80e8a3c150becf38e330c7f5d9e05999a` |
+| L0 key | `KEY.md` | `c4f9c2e22034ded20187c0056c07c36050f4e5d7` |
+| L1 findings map | `FINDINGS-MAP.md` | `eb44182754418ccd46b53b048b93807a5707cbcf` |
 | Residual questions | `OPEN-QUESTIONS.md` | `a7a94666fac213c5fecc55086afaa14affd93d19` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `248c52cc19f6145d15b6cab48dbdb6795a77d23f` |
 
-## Deeper child surface
+## Deeper child surfaces
 
 | Node | Status | Freshness surface |
 |---|---|---|
 | Constituent Composition | bounded leaf; user-evaluated / accepted | `constituent-composition-membership/CURRENT-SURFACES.md` @ `09f059582ab244c60aea4559bc8f927f7565126c` |
-| Relational Organization / Topology | promoted; inactive / not researched | routed through current parent surfaces |
+| Relational Organization | bounded leaf; awaiting user evaluation | `relational-organization-topology/CURRENT-SURFACES.md` @ `99139c1584e7043a4569538d8410739dfca0016c` |
 
-Executed child plan:
-`CONSTITUENT-COMPOSITION-MEMBERSHIP-RESEARCH-PLAN.md` @ `eac741f457d0505830cafbafa80a4534c510507f`.
+Executed child plans:
+- `CONSTITUENT-COMPOSITION-MEMBERSHIP-RESEARCH-PLAN.md` @ `eac741f457d0505830cafbafa80a4534c510507f`
+- `RELATIONAL-ORGANIZATION-TOPOLOGY-RESEARCH-PLAN.md` @ `1dfdd04550b455380d5ac12bfd998d501379159d`
 
 ## Historical Structure pass surfaces
 
-The original Structure pass remains preserved and is not retroactively rewritten.
+The original Structure synthesis/audit/evidence remain preserved as historical pass artifacts and are not retroactively rewritten.
 
 ## Current hierarchy
 
 ```text
 Domain Structure
-    ├─ Constituent Composition               ← bounded leaf; accepted
-    └─ Relational Organization / Topology    ← promoted; inactive / not researched
+    ├─ Constituent Composition   ← bounded leaf; accepted
+    └─ Relational Organization   ← bounded leaf; awaiting user evaluation
 ```
 
 ## Current result / authorization
 
-No substantive node is active. Current authorised work is **next Environment debt selection/planning only**.
+The child inherited as `Relational Organization / Topology` is refined to `Relational Organization` and closes as a bounded leaf.
 
-`Relational Organization / Topology` is the strongest default next sibling but is not automatically authorized.
+No substantive node is active. Current authorised interaction is **user evaluation of bounded Relational Organization only**.
+
+If accepted, remaining Environment debt must be reassessed from then-current canonical state. The two Domain Condition descendants remain promoted / inactive / unresearched.
