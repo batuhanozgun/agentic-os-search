@@ -1,6 +1,6 @@
 # Information / Representation — KEY
 
-**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
+**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-04  
 **Use:** intentionally lossy orientation; not evidence
 
@@ -8,7 +8,7 @@
 
 A coherent top-level research problem region survives around **mediated informational states/representations and the processes that form or change them**, distinct from the actual referent, Work and Actors they may describe.
 
-Recommended bounded tree:
+Accepted bounded tree:
 
 ```text
 Information / Representation
@@ -19,9 +19,9 @@ Records / Persistent Information
     ↳ deep persistence specialization/profile crossing Information
 ```
 
-The parent was researched under the routing label `Information / Representation State`; dropping `State` is recommended because the parent includes both State and Dynamics.
+The parent was researched under the routing label `Information / Representation State`; dropping `State` is accepted for the current research label because the parent includes both State and Dynamics.
 
-The two children are research results awaiting user evaluation. **No child is active.**
+The two children are bounded research results accepted as the current top-level structure. **No child is active.**
 
 ## Child 1 — State / Constitution
 
@@ -90,4 +90,4 @@ The commonality is structural, not an imported external taxonomy.
 
 ## Current authorization
 
-User evaluation only. No Information child, Work/Actors ground, composition, architecture, ontology or implementation work is active.
+Next-work selection/planning only. No Information child, Work/Actors ground, composition, architecture, ontology or implementation work is active.
