@@ -1,6 +1,6 @@
 # Domain Reality — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Constituent Composition closure; awaiting user evaluation  
+**Status:** canonical freshness binding after Constituent Composition user acceptance  
 **Date:** 2026-09-04  
 **Branch:** `main`
 
@@ -8,7 +8,7 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `b0f68d856fa8fe5ec2603f2cbcd1c40763514f05` |
+| Node state | `STATE.md` | `d18fff5dd37b05826ba60209a6a11207b1f782cc` |
 | Router | `INDEX.md` | `e6f809e279a1694e2fa50cb19c6e37eec66cebfe` |
 | L0 key | `KEY.md` | `123239a5757e31bfbbafda2269350c32b8a48b2a` |
 | L1 findings map | `FINDINGS-MAP.md` | `a0c3b18fd608a37dafc379e988048b5446c56ad0` |
@@ -19,9 +19,9 @@
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain State | retained; Constituent Composition closure propagated | `domain-state/CURRENT-SURFACES.md` @ `c3e7150a92f136d7b3661436eaf043a4fe9b6623` |
-| Domain Structure | bounded / accepted; Constituent Composition bounded leaf | `domain-state/domain-structure/CURRENT-SURFACES.md` @ `7c03f33f26165a49dccbf41bcdc571291757683d` |
-| Constituent Composition | bounded leaf / awaiting user evaluation | `domain-state/domain-structure/constituent-composition-membership/CURRENT-SURFACES.md` @ `bf7c0d88d190d57a3ffd7a0c191b12f49837e83d` |
+| Domain State | retained; Constituent Composition accepted | `domain-state/CURRENT-SURFACES.md` @ `5619b3835f412767ce2e4249b9a45649c30bd1a4` |
+| Domain Structure | bounded / accepted; Constituent Composition accepted leaf | `domain-state/domain-structure/CURRENT-SURFACES.md` @ `87fa042407751be2647c87f82bcf75720c78cbe4` |
+| Constituent Composition | bounded leaf / user-evaluated / accepted | `domain-state/domain-structure/constituent-composition-membership/CURRENT-SURFACES.md` @ `09f059582ab244c60aea4559bc8f927f7565126c` |
 | Domain Condition | bounded / accepted; two children unresearched | `domain-state/domain-condition/CURRENT-SURFACES.md` @ `b661a325c32339e81d900532dcb556af6167cf01` |
 | Domain Dynamics | bounded leaf / user-evaluated | `domain-dynamics/CURRENT-SURFACES.md` @ `cd4c1dbbd23ac73227ed3765df3c514a54b707ef` |
 
@@ -31,7 +31,7 @@
 Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure
-    │    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    │    ├─ Constituent Composition               ← bounded leaf; accepted
     │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
     │    └─ Domain Condition
     │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
@@ -41,4 +41,4 @@ Domain Reality
 
 ## Authorization rule
 
-No substantive node is active. Current authorized interaction is **user evaluation of bounded Constituent Composition only**. Information remains inactive.
+No substantive node is active. Current authorized work is **next Environment debt selection/planning only**. Information remains inactive.
