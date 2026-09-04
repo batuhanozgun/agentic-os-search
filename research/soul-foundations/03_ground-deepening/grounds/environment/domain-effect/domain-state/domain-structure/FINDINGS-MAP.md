@@ -1,22 +1,20 @@
 # Domain Structure — FINDINGS MAP
 
-**Status:** bounded parent result; Constituent Composition deeper result bounded / awaiting user evaluation
+**Status:** bounded parent result; Constituent Composition accepted leaf; Relational Organization bounded leaf / awaiting user evaluation
 
-> **Pass-artifact provenance:** the original Domain Structure findings/synthesis preserve the state available during the parent pass. Current hierarchy and deeper child refinement come from `STATE.md`, `KEY.md`, this router, `CURRENT-SURFACES.md` and the child package.
+> **Pass-artifact provenance:** the original Domain Structure findings/synthesis preserve the state available during the parent pass. Current hierarchy and deeper child refinements come from `STATE.md`, `KEY.md`, this router, `CURRENT-SURFACES.md` and the two child packages.
 
 ## Fast route
 
 - shortest current Structure result → `KEY.md`
 - current Structure state / authorization → `STATE.md`
-- current Constituent Composition result → `constituent-composition-membership/KEY.md`
-- child findings route → `constituent-composition-membership/FINDINGS-MAP.md`
-- child synthesis → `constituent-composition-membership/synthesis/CONSTITUENT-COMPOSITION-SYNTHESIS.md`
-- child completion audit → `constituent-composition-membership/synthesis/COMPLETENESS-OMISSION-CHECK.md`
-- child source recovery → `constituent-composition-membership/evidence/SOURCE-LEDGER.md`
-- child exact freshness → `constituent-composition-membership/CURRENT-SURFACES.md`
+- Constituent Composition result → `constituent-composition-membership/KEY.md`
+- Constituent Composition synthesis → `constituent-composition-membership/synthesis/CONSTITUENT-COMPOSITION-SYNTHESIS.md`
+- Relational Organization result → `relational-organization-topology/KEY.md`
+- Relational Organization synthesis → `relational-organization-topology/synthesis/RELATIONAL-ORGANIZATION-SYNTHESIS.md`
+- Relational Organization audit → `relational-organization-topology/synthesis/COMPLETENESS-OMISSION-CHECK.md`
 - historical Structure synthesis → `synthesis/DOMAIN-STRUCTURE-SYNTHESIS.md`
 - historical Structure audit → `synthesis/COMPLETENESS-OMISSION-CHECK.md`
-- historical Structure source ledger → `evidence/SOURCE-LEDGER.md`
 
 ## Historical Structure focused findings
 
@@ -33,24 +31,36 @@
 
 ```text
 Domain Structure
-    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
-    └─ Relational Organization / Topology    ← promoted; inactive / not researched
+    ├─ Constituent Composition   ← bounded leaf; accepted
+    └─ Relational Organization   ← bounded leaf; awaiting user evaluation
 ```
 
-Key refinement from the deeper child pass:
+### Constituent Composition refinement
+
 - `Constituent Composition / Membership` → **Constituent Composition**;
-- the node remains coherent across part/member/participant/ingredient and other constituent-relation forms;
-- those relation forms must preserve distinct semantics but do not form a stable universal child split;
-- multiplicity/cardinality is not a separate universal child;
-- scope/time/identity/nesting remain dimensions/cross-cuts rather than immediate children;
-- no evidence reopens Domain Structure.
+- bounded leaf;
+- accepted by user 2026-09-04;
+- part/member/participant/ingredient remain typed relation semantics rather than child taxonomy;
+- multiplicity, nesting, scope/time/identity candidates did not survive as children.
+
+### Relational Organization refinement
+
+- `Relational Organization / Topology` → **Relational Organization**;
+- bounded leaf;
+- `Topology` dropped as overloaded across networking, GIS and higher-order mathematics;
+- connectivity/dependency, spatial/geometric, interfaces, hierarchy, pairwise/higher-order and derived-pattern candidates did not survive as universal immediate children;
+- relation existence/organization remains distinct from relational Condition values, Dynamics/rewiring, Actor authority semantics and representation.
 
 ## Resolution rule
 
-At the parent Structure pass, Constituent Composition was probed enough to establish that it deserved its own child. The dedicated child pass now supplies its own closure judgment. Historical parent findings are not evidence that this deeper leaf result was already known then.
+The parent Structure pass promoted both children after probing independent failure surfaces. Each dedicated child pass now supplies its own deeper closure judgment. Historical parent findings are not evidence that these leaf results were already known during the parent pass.
+
+## Parent impact
+
+No deeper child pass currently reopens Domain Structure or Domain State.
 
 ## Verification / authorization
 
-The parent and child audits are same-model adversarial self-reviews, not independent verification.
+All audits are same-model adversarial self-reviews, not independent verification.
 
-No substantive node is currently active. Current authorized interaction is **user evaluation of bounded Constituent Composition only**.
+No substantive node is currently active. Current authorized interaction is **user evaluation of bounded Relational Organization only**.
