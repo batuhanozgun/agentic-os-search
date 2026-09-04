@@ -1,38 +1,145 @@
-# Criterion-Relative Standing / Status — STATE
+# Criterion-Relative Standing — STATE
 
-**Status:** ACTIVE SUBSTANTIVE PASS  
+**Status:** BOUNDED RESEARCH RESULT; BOUNDED LEAF; AWAITING USER EVALUATION; NO SUBSTANTIVE CHILD ACTIVE  
 **Activated:** 2026-09-04  
+**Bounded closure:** 2026-09-04  
+**Pass-start label:** `Criterion-Relative Standing / Status`  
+**Preferred bounded label:** `Criterion-Relative Standing`  
 **Parent:** `Domain Condition`  
 **Sibling:** `Realized Characteristics` — bounded leaf / user-evaluated / accepted  
 **Higher ground:** `Environment / Operating Reality`  
 **Frozen plan:** `../CRITERION-RELATIVE-STANDING-STATUS-RESEARCH-PLAN.md` @ `4aba6a1bc268a3b372a76c460d3cd978f3171765`
 
-## Protected starting question
+## Current bounded result
 
-> Relative to a materially relevant and applicable functional, normative, regulatory, institutional, scientific or other domain criterion, what true current standing obtains for the selected bearer or whole?
+```text
+Criterion-Relative Standing / Status
+→ Criterion-Relative Standing
+→ bounded leaf at current foundation-research depth
+```
 
-The node label, reality-side status and leaf/split outcome remain under challenge.
+Primary question:
 
-## Active scope
+> Relative to the materially relevant and applicable criterion, expected function, rule or constitutive regime, what true current standing obtains for the selected bearer or whole?
 
-This pass tests:
-- node coherence and label;
-- functional, normative/regulatory, legal/institutional, validity/quality, severity/graded, aggregate and access/adjudication split rivals;
-- actual-standing versus criterion, applicability, authority, assessment, evidence and representation boundaries;
-- Realized Characteristics merge/reduction rivals;
-- Dynamics, Actors and Work-Conditions boundaries;
-- cross-domain holdouts;
-- F1–F22 frozen falsifiers;
-- parent reopen and leaf-versus-child-promotion outcome.
+## Why the label changes
 
-## Guardrail
+`Criterion-Relative` remains essential because the node concerns a current result relative to an applicable criterion/regime rather than bare current characteristics.
 
-Only this child is active.
+`Status` is dropped as a co-primary label because it is materially overloaded across lifecycle state, API/report/database fields, institutional status and generic condition vocabulary. Domain-native `status` terms remain valid inside specific cases.
 
-Do not activate Information, Work, Actors, systematic composition, architecture, ontology/schema/data-model work or implementation.
+## Immediate-child result
 
-If immediate children are discovered, record them but do not deep-research them in this pass.
+```text
+Criterion-Relative Standing   ← BOUNDED LEAF
+```
+
+Tested and not promoted as universal immediate children:
+- Functional / Operational Standing;
+- Normative / Regulatory Standing;
+- Legal / Institutional Standing;
+- Validity / Quality / Acceptability;
+- Binary versus Graded / Severity;
+- Constituent versus Whole / Aggregate;
+- Direct versus Inferred / Modelled / Adjudicated;
+- Capability / Availability / Reliability;
+- domain-type branches.
+
+These behave primarily as criterion/binding families, result scales, bearer/scope dimensions, access/assessment mechanisms or domain profiles rather than independent first-order recovery regions.
+
+## Strong boundaries
+
+```text
+Criterion-Relative Standing ≠ Realized Characteristics
+actual standing ≠ criterion / rule / threshold / requirement by identity
+actual standing ≠ assessment / acceptance decision by identity
+actual standing ≠ evidence / measurement / model / score by identity
+actual standing ≠ API status field / dashboard / certificate / report by identity
+actual standing ≠ Actor authority role by identity
+current standing ≠ transition/history Dynamics
+current standing ≠ causal diagnosis/root cause
+```
+
+## Reality / representation result
+
+A true standing can obtain even when access is indirect, uncertain, contested or represented through an artifact. Conversely, an assessment/report can be wrong.
+
+NIST conformity decision-rule work provides a load-bearing counterexample: characteristics that actually conform and measurement results accepted under a decision rule can diverge because of uncertainty and false acceptance/rejection.
+
+Institutional/legal standing can depend on constitutive rules and authority without becoming identical to the certificate, registry view or status field that reports it.
+
+## Parent impact
+
+No evidence forces reopening `Domain Condition`, `Domain State`, `Domain Reality` or the accepted Structure/Realized-Characteristics results.
+
+Current local hierarchy:
+
+```text
+Domain Condition
+    ├─ Realized Characteristics       ← bounded leaf / accepted
+    └─ Criterion-Relative Standing    ← bounded leaf / awaiting user evaluation
+```
+
+No third Domain Condition region was forced.
+
+## Cross-domain status
+
+The refined node survived holdouts across:
+- deployed software/service readiness and pressure conditions;
+- physical machine/process health;
+- manufacturing conformity;
+- regulatory audit/compliance;
+- banking capitalization categories;
+- business-entity and professional-license standing;
+- ecological graded condition;
+- scientific validation/verification counterframes;
+- hybrid cyber-physical readiness/health;
+- whole/constituent bearer switching;
+- authority-dependent/disputed-access cases.
+
+No recurrent missing immediate child emerged.
+
+## Evidence / verification status
+
+The pass used cross-source falsification across ISO conformity/audit/quality standards, NIST conformity and condition work, Kubernetes, NASA, official regulatory/legal sources, FDIC, EPA, SEBoK and institutional counterframes.
+
+No source independently validates the exact project hierarchy.
+
+The F1–F22 completion/omission audit is same-model adversarial self-review, **not independent verification**.
+
+## Closure basis
+
+Material outcomes from the frozen falsifiers:
+- F1 rejected; F2/F3 supported: refine label to `Criterion-Relative Standing`;
+- F4–F10 child-split candidates rejected;
+- F11–F15 reality/criterion/representation boundaries survive;
+- F16/F17 merge/reduction rivals rejected;
+- F18/F19 causal/Dynamics collapse rejected;
+- F20 institutional standing does not collapse into Actor authority;
+- F21 rejected: holdouts do not force parent reopen or third Condition region;
+- F22 supported: bounded leaf.
+
+Late search mainly produced new criterion domains, standing labels, severity scales, assessment/decision mechanisms, authority arrangements, evidence/uncertainty concerns and representation formats rather than a stable new first-order recovery region.
+
+## Reopen conditions
+
+Reopen if:
+- a materially different domain repeatedly requires a distinct first-order standing recovery program;
+- institutional/adjudicated standing cannot preserve Actor/Information boundaries without forced fit;
+- Information research invalidates the actual-standing versus representation distinction;
+- later composition makes functional-versus-normative standing materially different enough to change foundation-level recovery;
+- independent review offers a materially stronger decomposition.
 
 ## Current return condition
 
-Close at bounded immediate-child depth, propagate continuity, then stop for the user's planned Environment discussion.
+Return this bounded result for user evaluation and the Environment-level discussion explicitly reserved for the next turn.
+
+All currently known promoted Environment descendants have now received dedicated passes at current foundation depth, subject to user evaluation of this final child result.
+
+**Do not declare Environment complete here and do not begin Information automatically.**
+
+## Next authorised work
+
+**USER EVALUATION OF BOUNDED `CRITERION-RELATIVE STANDING` / ENVIRONMENT DISCUSSION NEXT TURN ONLY.**
+
+No substantive node is active.
