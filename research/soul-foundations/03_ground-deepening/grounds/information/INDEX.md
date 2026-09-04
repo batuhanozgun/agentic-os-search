@@ -7,12 +7,18 @@ Current retrieval router for the active Information / Representation State top-l
 ## Read order
 
 1. `STATE.md` — current node status, authorization and phase.
-2. `RESEARCH-PLAN.md` — node-local application of the hierarchical method.
-3. `EVIDENCE-INVENTORY.md` — recovered prior evidence and source roles.
-4. `KEY.md` — shortest current orientation.
-5. `FINDINGS-MAP.md` — current candidate/problem map and later bounded findings route.
-6. `OPEN-QUESTIONS.md` — unresolved node-local questions.
-7. `DEFERRED-RELATIONS.md` — cross-ground relations observed but not solved here.
+2. `KEY.md` — shortest current orientation.
+3. `FINDINGS-MAP.md` — current bounded findings/problem map.
+4. Current phase material:
+   - `N0-INTERNAL-EVIDENCE-RECOVERY.md`
+   - `N1-NODE-COHERENCE-ATTACK.md`
+   - `N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md`
+5. `RESEARCH-PLAN.md` — node-local application of the hierarchical method.
+6. `EVIDENCE-INVENTORY.md` — recovered prior evidence and source roles.
+7. `EXTERNAL-SOURCE-LEDGER.md` — external structural/falsifier source route.
+8. `OPEN-QUESTIONS.md` — unresolved node-local questions.
+9. `DEFERRED-RELATIONS.md` — cross-ground relations observed but not solved here.
+10. `CURRENT-SURFACES.md` — exact current-surface binding.
 
 For the stage-wide method and authority, read:
 
@@ -22,11 +28,19 @@ For the stage-wide method and authority, read:
 
 ## Current phase
 
-`N0 — canonical/internal evidence recovery` is active.
+`N3 — immediate-child clustering` is active.
 
-Do not treat candidate structures in `FINDINGS-MAP.md` as accepted children until the node pass survives N1–N6 and closes through N7/user evaluation.
+Completed within this node:
+
+- N0 internal/canonical evidence recovery;
+- N1 parent coherence attack — provisional pass;
+- N2 first-principles problem inventory — 12 problem families, not children.
+
+N3 must compare rival clusterings and may conclude that no stable immediate-child split is justified.
 
 ## Guardrail
+
+Do not treat the N2 problem families or any N3 candidate clustering as accepted children until the node survives N3–N6 and closes through N7/user evaluation.
 
 This package is research only. It does not authorize:
 
