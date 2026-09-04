@@ -1,13 +1,13 @@
 # Domain State — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT PARENT; STRUCTURE/CONDITION ACCEPTED; `REALIZED CHARACTERISTICS` BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDEDLY SUFFICIENT PARENT; STRUCTURE/CONDITION ACCEPTED; `REALIZED CHARACTERISTICS` LEAF ACCEPTED; FINAL CONDITION CHILD RESEARCH AUTHORISED  
 **Domain State user evaluation accepted:** 2026-09-03  
 **Domain Structure:** bounded / accepted; both immediate children bounded leaves / accepted  
 **Domain Condition:** bounded / accepted  
-**Realized Characteristics:** bounded leaf 2026-09-04; awaiting user evaluation  
+**Realized Characteristics:** bounded leaf / accepted 2026-09-04  
 **Parent:** Domain Reality  
 **Sibling:** Domain Dynamics — bounded leaf / user-evaluated  
-**Current authorised activity:** USER EVALUATION OF BOUNDED `REALIZED CHARACTERISTICS` ONLY
+**Current authorised activity:** PLAN AND RESEARCH `CRITERION-RELATIVE STANDING / STATUS` ONLY
 
 ## Current hierarchy
 
@@ -17,29 +17,26 @@ Domain State
     │    ├─ Constituent Composition   ← bounded leaf / accepted
     │    └─ Relational Organization   ← bounded leaf / accepted
     └─ Domain Condition
-         ├─ Realized Characteristics                 ← bounded leaf / awaiting user evaluation
-         └─ Criterion-Relative Standing / Status     ← promoted / inactive / unresearched
+         ├─ Realized Characteristics                 ← bounded leaf / accepted
+         └─ Criterion-Relative Standing / Status     ← promoted / authorised for focused pass
 ```
 
-No evidence from the focused child pass reopens Domain Structure, Domain Condition, Domain State or Domain Dynamics.
+No evidence from the accepted Structure children or Realized Characteristics reopens Domain State or Domain Dynamics.
 
-## Strong boundaries
+## Strong boundaries entering the final child pass
 
 ```text
 Domain Structure ≠ Domain Condition
 actual characteristic ≠ measurement / estimate / model / report by identity
 Realized Characteristics ≠ Criterion-Relative Standing / Status
-current characteristic ≠ Dynamics/history
+criterion / rule ≠ current standing by identity
+current Domain State ≠ Dynamics/history
 ```
 
 ## Verification status
 
 Underlying node audits are same-model adversarial self-reviews, not independent verification.
 
-## Current route
-
-`domain-condition/STATE.md → realized-characteristics-values/STATE.md → KEY.md → synthesis/audit`.
-
 ## Guardrail
 
-No substantive node is active. Do not activate `Criterion-Relative Standing / Status`, Information, Work, Actors, architecture, ontology/data-model work or implementation automatically.
+Only the final Domain Condition child pass is authorised. Information, Work, Actors, architecture, ontology/data-model work and implementation remain inactive.
