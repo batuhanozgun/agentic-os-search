@@ -1,18 +1,12 @@
 # Environment / Operating Reality — STATE
 
-**Status:** ENVIRONMENT NOT YET COMPLETE; BOTH STRUCTURE CHILDREN BOUNDED LEAVES / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE  
-**Environment parent authorised:** 2026-09-02  
-**Domain State user evaluation accepted:** 2026-09-03  
-**Domain Dynamics user evaluation accepted:** 2026-09-03  
-**Work Conditions user evaluation accepted:** 2026-09-03  
-**Domain Structure:** bounded / accepted 2026-09-03  
-**Domain Condition:** bounded / accepted 2026-09-04  
+**Status:** ENVIRONMENT NOT YET COMPLETE; `REALIZED CHARACTERISTICS / VALUES` SUBSTANTIVE PASS ACTIVE  
+**Domain Structure:** bounded / accepted; both immediate children bounded leaves / accepted  
+**Domain Condition:** bounded / accepted; first immediate child active  
 **Environment completion review:** bounded / accepted 2026-09-04; Environment NOT YET COMPLETE  
-**Constituent Composition:** bounded leaf / accepted 2026-09-04  
-**Relational Organization:** bounded leaf / accepted 2026-09-04  
 **Scope:** Environment / Operating Reality ground only  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** NEXT-DEBT SELECTION / PLANNING UNDER DOMAIN CONDITION
+**Current authorised activity:** `REALIZED CHARACTERISTICS / VALUES` RESEARCH ONLY
 
 ## Current Environment hierarchy
 
@@ -24,21 +18,14 @@ Environment / Operating Reality
     │    │    │    ├─ Constituent Composition   ← bounded leaf; accepted
     │    │    │    └─ Relational Organization   ← bounded leaf; accepted
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
-    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
-    │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
-    └─ Work Conditions                                        ← bounded leaf; user-evaluated
+    │    │         ├─ Realized Characteristics / Values       ← ACTIVE
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive
+    │    └─ Domain Dynamics                                   ← bounded leaf
+    └─ Work Conditions                                        ← bounded leaf
 ```
 
-## Current judgment
-
-Both Structure descendants are now bounded leaves and accepted. No broad Environment restart, Domain Structure reopen or third Environment branch is indicated.
-
-Remaining Environment debt:
-- Realized Characteristics / Values;
-- Criterion-Relative Standing / Status.
-
-`Realized Characteristics / Values` is the strongest default next selection because it isolates the criterion-independent current-condition problem before the more criterion-sensitive standing child. This ordering does not make standing reducible to characteristics.
+Frozen active plan:
+`domain-effect/domain-state/domain-condition/REALIZED-CHARACTERISTICS-VALUES-RESEARCH-PLAN.md`
 
 Information remains inactive while Environment descendant debt remains.
 
@@ -48,4 +35,4 @@ Completion reviews and node audits remain same-model adversarial self-review, no
 
 ## Guardrail
 
-The user's continuation direction authorises next-debt selection/planning and, once frozen, the selected focused Environment descendant pass. Do not begin Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation.
+Only the selected Domain Condition child is active. Do not begin Criterion-Relative Standing, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation.
