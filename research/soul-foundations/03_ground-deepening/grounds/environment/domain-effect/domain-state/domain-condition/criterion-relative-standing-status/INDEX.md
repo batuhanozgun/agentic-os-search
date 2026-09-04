@@ -8,7 +8,7 @@ For current status/authorization read `STATE.md` first.
 
 ## Current status
 
-**BOUNDED RESULT; REFINED TO `CRITERION-RELATIVE STANDING`; BOUNDED LEAF; AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**BOUNDED RESULT; REFINED TO `CRITERION-RELATIVE STANDING`; BOUNDED LEAF; USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Fast route
 
@@ -22,7 +22,7 @@ For current status/authorization read `STATE.md` first.
 | Source recovery | `evidence/SOURCE-LEDGER.md` |
 | Residual uncertainty | `OPEN-QUESTIONS.md` |
 | Deferred relations | `DEFERRED-RELATIONS.md` |
-| Exact closure freshness | `CURRENT-SURFACES.md` |
+| Exact closure/evaluation freshness | `CURRENT-SURFACES.md` |
 | Frozen executed plan | `../CRITERION-RELATIVE-STANDING-STATUS-RESEARCH-PLAN.md` |
 
 ## Current result
@@ -30,7 +30,7 @@ For current status/authorization read `STATE.md` first.
 ```text
 Criterion-Relative Standing / Status
 → Criterion-Relative Standing
-→ bounded leaf
+→ bounded leaf / accepted
 ```
 
 Parent view:
@@ -38,7 +38,7 @@ Parent view:
 ```text
 Domain Condition
     ├─ Realized Characteristics       ← bounded leaf / accepted
-    └─ Criterion-Relative Standing    ← bounded leaf / awaiting user evaluation
+    └─ Criterion-Relative Standing    ← bounded leaf / accepted
 ```
 
 ## Key interpretation
@@ -47,9 +47,9 @@ The node protects the true current standing that obtains relative to a materiall
 
 ## Current gate
 
-No substantive node is active after closure. Current interaction is bounded-child evaluation and the Environment-level discussion explicitly reserved by the user for the next turn.
+No substantive node is active after acceptance. All currently known promoted Environment descendants have dedicated accepted/bounded results at current foundation depth.
 
-Information remains inactive.
+Current authorized work is **Environment-level discussion / judgment only**. Information remains inactive.
 
 ## Historical rule
 
