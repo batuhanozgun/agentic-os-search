@@ -13,15 +13,16 @@ For current status/authorization read `STATE.md` first. This router does not ind
 | Current overall state / authorisation | `STATE.md` | relevant current package router |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` |
 | Current Environment status | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX |
-| Environment completion review | `03_ground-deepening/grounds/environment/completion-review/STATE.md` | KEY / synthesis / audit / CURRENT-SURFACES |
+| Current Constituent Composition result | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/constituent-composition-membership/STATE.md` | KEY / FINDINGS-MAP / synthesis / audit / CURRENT-SURFACES |
+| Current Domain Structure | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/STATE.md` | KEY / FINDINGS-MAP / current surfaces |
 | Current Domain State | `03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md` | KEY / child packages |
-| Current Domain Structure | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/STATE.md` | KEY / findings / synthesis |
 | Current Domain Condition | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-condition/STATE.md` | KEY / findings / synthesis |
 | Domain Dynamics | `03_ground-deepening/grounds/environment/domain-effect/domain-dynamics/STATE.md` | KEY / synthesis |
 | Work Conditions | `03_ground-deepening/grounds/environment/work-conditions/STATE.md` | KEY / synthesis |
+| Environment completion review | `03_ground-deepening/grounds/environment/completion-review/STATE.md` | KEY / synthesis / audit |
 | Accepted top-level hierarchy | `02_adequacy/KEY.md` | synthesis/findings |
 | Independent discovery evidence | relevant `01_verticals/*/KEY.md` | synthesis/findings |
-| What is authorised now? | `STATE.md` | user evaluation of Environment completion review only |
+| What is authorised now? | `STATE.md` | user evaluation of bounded Constituent Composition only |
 
 ## Current Environment tree
 
@@ -30,38 +31,37 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition / Membership   ← promoted; inactive; not researched
-    │    │    │    └─ Relational Organization / Topology     ← promoted; inactive; not researched
+    │    │    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive; not researched
-    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive; not researched
+    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
     │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
     └─ Work Conditions                                        ← bounded leaf; user-evaluated
 ```
 
-## Current Environment verdict
+## Current deeper result
 
-The explicit completion review is bounded and awaiting user evaluation.
+The child inherited as `Constituent Composition / Membership` was researched under a frozen plan and refined to:
 
-It retained the Environment parent and its first-order roles:
+> **Constituent Composition**
 
-```text
-Environment / Operating Reality
-    ├─ Domain Reality
-    └─ Work Conditions
-```
+It closes as a bounded leaf at current foundation-research depth.
 
-but judged Environment **not yet complete** because all four promoted Structure/Condition descendants remain material research debts under Ground Deepening `G3 — Selective deepening` and the one-level method.
+No stable immediate split among parthood/membership, nesting, temporary/fuzzy participation, multiplicity, identity/scope or domain-type candidates survived. No Domain Structure reopen was forced.
 
-Domain Dynamics and Work Conditions remain bounded leaves. No broad Environment restart is currently indicated.
+## Remaining Environment debt
 
-## Transition state
+Promoted/unresearched:
+- Relational Organization / Topology;
+- Realized Characteristics / Values;
+- Criterion-Relative Standing / Status.
 
-Information / Representation State remains inactive. Transition is deferred while known Environment research debt remains.
+Information remains inactive.
 
 ## Recommended next logical selection
 
-After user evaluation of the completion review: `Constituent Composition / Membership` is the strongest default next child.
+If the current result is accepted and no reopen trigger appears: `Relational Organization / Topology` is the strongest default next sibling.
 
 It is not active and this router does not authorize it.
 
@@ -71,8 +71,8 @@ No substantive node is active.
 
 ## Active versus historical rule
 
-Historical pass artifacts preserve the state available during their producing passes. Current hierarchy, completion judgment and authorization come from current `STATE.md`, Ground Deepening/Environment surfaces and the completion-review package.
+Historical pass artifacts preserve the state available during their producing passes. Current hierarchy, descendant closure and authorization come from current `STATE.md`, stage/Environment/Domain Structure surfaces and the Constituent Composition package.
 
 ## Guardrail
 
-Do not infer authorization to activate any Environment descendant, Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
+Do not infer authorization to activate another Environment descendant, Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
