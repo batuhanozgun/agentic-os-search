@@ -1,32 +1,31 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment not yet complete; `Constituent Composition` bounded leaf / accepted; no substantive node active  
+**Status:** active research library; Environment not yet complete; `Relational Organization / Topology` substantive pass active  
 **Environment completed/evaluated so far:** parent, Domain Reality, Domain State, Domain Dynamics, Work Conditions, Domain Structure, Domain Condition; Environment completion review accepted; Constituent Composition accepted  
 **Domain Structure:** bounded / user-evaluated / accepted 2026-09-03  
 **Domain Condition:** bounded / user-evaluated / accepted 2026-09-04  
 **Environment completion review:** bounded / user-evaluated / accepted 2026-09-04; Environment NOT YET COMPLETE  
 **Constituent Composition:** bounded leaf / user-evaluated / accepted 2026-09-04  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT ENVIRONMENT DEBT SELECTION / PLANNING ONLY  
-**Current return condition:** reassess the remaining Environment debt from current canonical state; do not auto-start another descendant or Information
+**Relational Organization / Topology:** active substantive pass 2026-09-04  
+**Current authorised substantive activity:** `RELATIONAL ORGANIZATION / TOPOLOGY` RESEARCH AT IMMEDIATE-CHILD DEPTH ONLY  
+**Current return condition:** close the selected child at bounded immediate-child depth and return for user evaluation; do not auto-start a Domain Condition child or Information
 
 ## Dependency state
 
 - `01_verticals/`: COMPLETE / USER-EVALUATED for original independent discovery questions.
 - `02_adequacy/`: BOUNDEDLY SUFFICIENT; USER-EVALUATED / ACCEPTED AS WORKING RESEARCH HYPOTHESIS.
 - `03_ground-deepening/`:
-  - Environment / Operating Reality: active ground for completion sequencing; not yet complete.
+  - Environment / Operating Reality: active ground; not yet complete.
   - Domain Reality: boundedly sufficient.
     - Domain State: boundedly sufficient.
       - Domain Structure: bounded / accepted.
-        - **Constituent Composition: BOUNDED LEAF; USER-EVALUATED / ACCEPTED.**
-        - Relational Organization / Topology: promoted; inactive; not researched.
+        - Constituent Composition: bounded leaf / accepted.
+        - **Relational Organization / Topology: ACTIVE SUBSTANTIVE PASS.**
       - Domain Condition: bounded / accepted.
         - Realized Characteristics / Values: promoted; inactive; not researched.
         - Criterion-Relative Standing / Status: promoted; inactive; not researched.
     - Domain Dynamics: bounded leaf; user-evaluated.
   - Work Conditions: bounded leaf; user-evaluated.
-    - Technical Work Environment: retained deep technical specialization/profile.
   - Information / Representation State: inactive; transition blocked while Environment debt remains.
   - Work coverage/gap audit: inactive.
   - Actors coverage/gap audit: inactive.
@@ -53,67 +52,30 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
     │    │    │    ├─ Constituent Composition               ← bounded leaf; accepted
-    │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
+    │    │    │    └─ Relational Organization / Topology    ← ACTIVE
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
-    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
+    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive
     │    └─ Domain Dynamics                                   ← bounded leaf
     └─ Work Conditions                                        ← bounded leaf
 ```
 
-## Constituent Composition accepted result
+## Active pass
 
-The inherited label:
+Frozen plan:
+`03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/RELATIONAL-ORGANIZATION-TOPOLOGY-RESEARCH-PLAN.md`
 
-```text
-Constituent Composition / Membership
-```
+Active package:
+`03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/relational-organization-topology/STATE.md`
 
-was refined to:
-
-> **Constituent Composition**
-
-Current judgment:
-
-```text
-Constituent Composition     ← bounded leaf / accepted
-```
-
-The protected question is which materially relevant constituents actually make up or participate in the selected structural whole/scope at the selected time, under the constituent-relation semantics appropriate to that whole.
-
-The pass preserves distinctions such as part/member/participant/ingredient without promoting them into a universal child taxonomy. Nesting, temporary/fuzzy participation, boundary/scope, identity/continuity, multiplicity/cardinality and type-based candidates also did not survive as immediate children.
-
-No evidence forces reopening Domain Structure or Domain State.
-
-## Remaining Environment debt
-
-Promoted/unresearched descendants now are:
-- Relational Organization / Topology;
-- Realized Characteristics / Values;
-- Criterion-Relative Standing / Status.
-
-Information remains inactive while these Environment debts remain.
-
-## Recommended next logical selection
-
-The strongest default next node is:
-
-> **Relational Organization / Topology**
-
-Reason: it is the remaining unresolved child of the accepted Domain Structure branch and directly complements the now-closed constituent question with the distinct question of how those constituents are structurally organized.
-
-This is a recommendation only. No node is active; planning/activation must follow the current canonical state and hierarchical method.
+The pass tests node coherence, the `Topology` companion label, connectivity/dependency versus spatial/geometric split rivals, interfaces, hierarchy/ordering, derived patterns, sibling/cross-ground boundaries and cross-domain holdouts.
 
 ## Verification status
 
-The Constituent Composition F1–F19 completion audit and underlying node/review audits are same-model adversarial self-reviews, **not independent verification**. External sources discriminate live rivals but do not independently validate the exact hierarchy. User acceptance does not alter this status.
+Underlying audits are same-model adversarial self-reviews, **not independent verification**. The active child pass must preserve that limitation.
 
-## Current retrieval
+## Guardrail
 
-`STATE.md → INDEX.md → 03_ground-deepening/STATE.md → grounds/environment/STATE.md → domain-effect/domain-state/domain-structure/STATE.md → constituent-composition-membership/STATE.md → KEY.md → synthesis/audit`.
+Only `Relational Organization / Topology` is substantively active.
 
-## Current authorization
-
-**NEXT ENVIRONMENT DEBT SELECTION / PLANNING ONLY.**
-
-Do not activate another Environment descendant, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation without later explicit transition.
+Do not activate another Environment descendant, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
