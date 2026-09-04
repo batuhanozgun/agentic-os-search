@@ -1,17 +1,13 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL NODE ACTIVE  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment completion:** boundedly complete / accepted 2026-09-04  
-**Constituent Composition:** bounded leaf / accepted  
-**Relational Organization:** bounded leaf / accepted  
-**Realized Characteristics:** bounded leaf / accepted  
-**Criterion-Relative Standing:** bounded leaf / accepted  
-**Domain Dynamics:** bounded leaf / accepted  
-**Work Conditions:** bounded leaf / accepted  
+**Information activation:** 2026-09-04  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
-**Current authorised activity:** NEXT-GROUND SELECTION / PLANNING ONLY
+**Current authorised activity:** INFORMATION / REPRESENTATION STATE TOP-LEVEL NODE RESEARCH  
+**Current phase:** N0 canonical/internal evidence recovery
 
 ## Working research tree
 
@@ -29,7 +25,7 @@ Environment / Operating Reality                 ← boundedly complete / accepte
     └─ Work Conditions                              ← bounded leaf / accepted
          ↳ Technical Work Environment               ← deep technical specialization/profile
 
-Information / Representation State              ← inactive
+Information / Representation State              ← ACTIVE / top-level node / N0
 Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
@@ -38,15 +34,27 @@ Actors / Agency–Participation–Authority          ← inactive
 
 ```text
 Environment research             ← CLOSED for current foundation purpose
-next-ground selection / planning ← CURRENT GATE
-Information                      ← strong next candidate, not yet activated
+Information top-level node       ← ACTIVE
+N0 evidence recovery             ← CURRENT PHASE
+Information child activation     ← NOT AUTHORISED before top-level closure + user evaluation
 ```
+
+## Active package
+
+`grounds/information/`
+
+Read:
+
+1. `grounds/information/STATE.md`
+2. `grounds/information/INDEX.md`
+3. `grounds/information/RESEARCH-PLAN.md`
+4. `grounds/information/EVIDENCE-INVENTORY.md`
 
 ## Method
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
-Environment closure is bounded, not universal. Reopen only under explicit later boundary/reopen evidence.
+Only one node may be active. The Information parent label/decomposition remains a hypothesis to test, not an inherited taxonomy.
 
 ## Verification status
 
@@ -54,4 +62,4 @@ Same-model completion/omission reviews are not independent verification.
 
 ## Guardrail
 
-No substantive node is active. Do not begin Information or later ground/composition/architecture work until current canonical state is recovered and the next ground is explicitly selected/planned.
+Do not begin an Information child, Work, Actors, systematic relation/control composition, architecture, ontology/data model or implementation until the appropriate later transition is explicitly authorised.
