@@ -2,13 +2,13 @@
 
 ## Role
 
-Current retrieval router for the bounded `Domain Condition` parent and its deeper child results.
+Current retrieval router for the bounded `Domain Condition` parent and both deeper child results.
 
 For current authorization/status read `STATE.md` first.
 
 ## Current status
 
-**PARENT ACCEPTED; `REALIZED CHARACTERISTICS` BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**PARENT ACCEPTED; BOTH IMMEDIATE CHILD PASSES BOUNDED; `CRITERION-RELATIVE STANDING` AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Fast route
 
@@ -16,37 +16,38 @@ For current authorization/status read `STATE.md` first.
 |---|---|
 | Current node status | `STATE.md` |
 | Shortest current hierarchy | `KEY.md` |
-| Current Realized Characteristics result | `realized-characteristics-values/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md` |
-| Realized Characteristics detail | `realized-characteristics-values/FINDINGS-MAP.md` → synthesis/audit/source ledger |
+| Realized Characteristics | `realized-characteristics-values/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md` |
+| Criterion-Relative Standing | `criterion-relative-standing-status/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md` |
+| Final standing detail | `criterion-relative-standing-status/FINDINGS-MAP.md` → synthesis/audit/source ledger |
 | Historical parent result | `FINDINGS-MAP.md` / `synthesis/DOMAIN-CONDITION-SYNTHESIS.md` |
 | Parent residual uncertainty | `OPEN-QUESTIONS.md` |
 | Parent deferred relations | `DEFERRED-RELATIONS.md` |
 | Exact parent freshness | `CURRENT-SURFACES.md` |
 
-Frozen executed plans remain historical pass reconstruction surfaces:
+Frozen executed child plans:
 - `REALIZED-CHARACTERISTICS-VALUES-RESEARCH-PLAN.md`
-- earlier parent `DOMAIN-CONDITION-RESEARCH-PLAN.md` one level above.
+- `CRITERION-RELATIVE-STANDING-STATUS-RESEARCH-PLAN.md`
 
 ## Current hierarchy
 
 ```text
 Domain Condition
-    ├─ Realized Characteristics                 ← bounded leaf / awaiting user evaluation
-    └─ Criterion-Relative Standing / Status     ← promoted / inactive / unresearched
+    ├─ Realized Characteristics       ← bounded leaf / accepted
+    └─ Criterion-Relative Standing    ← bounded leaf / awaiting user evaluation
 ```
 
-`Realized Characteristics / Values` was refined to `Realized Characteristics`; no universal immediate child survived its dedicated pass.
+No third universal Domain Condition child was exposed by the dedicated child passes.
 
 ## Current gate
 
-No substantive node is active. Current authorized interaction is **user evaluation of bounded `Realized Characteristics` only**.
+No substantive node is active. Current interaction is user evaluation of bounded `Criterion-Relative Standing` and the Environment-level discussion reserved for the next turn.
 
-`Criterion-Relative Standing / Status` and Information remain inactive.
+Information remains inactive.
 
 ## Historical rule
 
-Parent pass artifacts preserve the state available during their producing pass. Deeper child refinement is routed through current state/router/freshness surfaces rather than retroactively rewriting historical synthesis.
+Parent pass artifacts preserve the state available during their producing pass. Deeper child refinements are routed through current state/router/freshness surfaces rather than retroactively rewriting historical synthesis.
 
 ## Guardrail
 
-Do not infer ontology classes, schema fields, telemetry design, rule engines, architecture modules or implementation from this research hierarchy.
+Do not infer ontology classes, schema fields, rule engines, authority systems, architecture modules or implementation from this research hierarchy.
