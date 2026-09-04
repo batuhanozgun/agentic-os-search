@@ -2,60 +2,76 @@
 
 ## Role
 
-Current retrieval router for the active Informational State foundation-research node.
+Current retrieval router for the boundedly complete Informational State foundation-research node.
 
-For authorization and phase read `STATE.md` first.
+For current status and authorization read `STATE.md` first.
 
 ## Current status
 
-**ACTIVE RESEARCH — N6 omission / reduction / rival-decomposition audit.**
+**BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
 
-Exactly one substantive node is active: `Informational State / Representational Constitution`.
+No substantive node is active.
 
-## Current read order
+## Default read order
 
-1. `STATE.md` — authorization, phase, stop condition.
-2. `RESEARCH-PLAN.md` — node-specific N0–N7 research questions and evidence strategy.
-3. `EVIDENCE-INVENTORY.md` — recovered internal/candidate evidence.
-4. `N0-CANONICAL-RECOVERY.md` — canonical recovery.
-5. `N1-NODE-COHERENCE-ATTACK.md` — why the node survives and inherited splits remain unaccepted.
-6. `N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md` — State problem families.
-7. `N3-IMMEDIATE-CHILD-DISCOVERY.md` — rival decompositions; provisional bounded-leaf result.
-8. `N4-BOUNDARY-ANTI-COLLAPSE.md` — neighbouring-ground and role-switching attacks.
-9. `N5-EXTERNAL-CROSS-DOMAIN-FALSIFIERS.md` — external holdouts.
-10. `EXTERNAL-SOURCE-LEDGER.md` — exact external source routes and freshness notes.
-11. `N6-OMISSION-REDUCTION-RIVAL-AUDIT.md` — once completed, same-model adversarial audit.
-12. `FINDINGS-MAP.md` and synthesis at bounded closure.
-13. `N7-NODE-CLOSURE.md` — closure basis, residual uncertainty, verification status.
-14. `CURRENT-SURFACES.md` — exact closed/current surface binding when produced.
+1. `STATE.md` — current status, bounded result and authorization.
+2. `KEY.md` — shortest current orientation.
+3. `FINDINGS-MAP.md` — current bounded result and topic routing.
+4. `synthesis/INFORMATIONAL-STATE-SYNTHESIS.md` — integrated node result.
+5. `N7-NODE-CLOSURE.md` — closure basis, residual uncertainty and verification status.
+6. `OPEN-QUESTIONS.md` — residual/reopen questions; not an execution queue.
+7. `DEFERRED-RELATIONS.md` — intentionally deferred cross-node/cross-ground relations.
+8. `EXTERNAL-SOURCE-LEDGER.md` — exact external source routes/freshness notes.
+9. Descend to N0–N6 only when the reasoning path, rival decomposition, boundary attack, falsifier or omission audit matters.
+10. `CURRENT-SURFACES.md` — exact current-surface binding once finalized.
 
-## Current leading result
+## Bounded result
 
 ```text
-Informational State / Representational Constitution   ← provisional bounded leaf
+Informational State / Representational Constitution   ← bounded leaf / USER EVALUATION PENDING
 
-No immediate child promoted after N5.
+No immediate child promoted.
 ```
 
-Internal constitution dimensions remain explicit. N6 is intentionally trying to falsify this result.
+Internal constitution dimensions remain explicit:
+
+- reference / applicability;
+- content / interpretation / form / mode;
+- identity / granularity / equivalence;
+- attribution / perspective / standing / freshness / conflict / visibility where State-side.
+
+These are orientation dimensions/relations, not accepted child branches.
+
+## Pass reconstruction route
+
+| Need | Read |
+|---|---|
+| Canonical/internal recovery | `N0-CANONICAL-RECOVERY.md` + `EVIDENCE-INVENTORY.md` |
+| Why the node survives / why inherited splits weakened | `N1-NODE-COHERENCE-ATTACK.md` |
+| State problem inventory | `N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md` |
+| Rival immediate-child decompositions | `N3-IMMEDIATE-CHILD-DISCOVERY.md` |
+| Dynamics/Environment/Work/Actors/Records boundaries | `N4-BOUNDARY-ANTI-COLLAPSE.md` |
+| External/cross-domain holdouts | `N5-EXTERNAL-CROSS-DOMAIN-FALSIFIERS.md` |
+| Same-model missing-child/reduction attack | `N6-OMISSION-REDUCTION-RIVAL-AUDIT.md` |
+| Closure judgment | `N7-NODE-CLOSURE.md` |
 
 ## Parent route
 
 Parent Information package: `../`
 
 ```text
-Information / Representation
-    ├─ Informational State / Representational Constitution   ← ACTIVE
+Information / Representation                    ← boundedly complete / user-evaluated
+    ├─ Informational State / Representational Constitution   ← bounded leaf / evaluation pending
     └─ Informational Dynamics / Formation–Transformation     ← inactive
 
 Records / Persistent Information
     ↳ deep persistence specialization/profile across Information
 ```
 
-## Verification note
+## Verification status
 
-N6 is same-model adversarial review, not independent verification.
+External falsifiers plus same-model adversarial N6 support bounded closure. The full node result has not received independent second-researcher/model replication.
 
 ## Guardrail
 
-This router does not authorize sibling, discovered child, composition, architecture, ontology or implementation work.
+Current interaction is user evaluation only. This router does not authorize Informational Dynamics, any State child, Work, Actors, composition, architecture, ontology or implementation work.
