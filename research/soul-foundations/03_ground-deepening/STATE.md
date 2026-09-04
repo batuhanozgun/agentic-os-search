@@ -1,14 +1,14 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT DESCENDANT BOUNDED — `REALIZED CHARACTERISTICS` LEAF; AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** FINAL KNOWN ENVIRONMENT DESCENDANT RESEARCH AUTHORISED; NO OTHER SUBSTANTIVE NODE ACTIVE  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment completion review:** bounded / accepted; Environment not yet complete  
 **Constituent Composition:** bounded leaf / accepted  
 **Relational Organization:** bounded leaf / accepted  
-**Realized Characteristics:** bounded leaf 2026-09-04; awaiting user evaluation  
+**Realized Characteristics:** bounded leaf / accepted 2026-09-04  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
-**Current authorised activity:** USER EVALUATION OF BOUNDED `REALIZED CHARACTERISTICS` ONLY
+**Current authorised activity:** PLAN AND RESEARCH `CRITERION-RELATIVE STANDING / STATUS` TO BOUNDED CLOSURE
 
 ## Working research tree
 
@@ -20,8 +20,8 @@ Environment / Operating Reality
     │    │    │    ├─ Constituent Composition   ← bounded leaf / accepted
     │    │    │    └─ Relational Organization   ← bounded leaf / accepted
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics                 ← bounded leaf / awaiting user evaluation
-    │    │         └─ Criterion-Relative Standing / Status     ← promoted / inactive / unresearched
+    │    │         ├─ Realized Characteristics                 ← bounded leaf / accepted
+    │    │         └─ Criterion-Relative Standing / Status     ← final known debt / authorised
     │    └─ Domain Dynamics                                   ← bounded leaf
     └─ Work Conditions                                        ← bounded leaf
 
@@ -33,16 +33,16 @@ Actors / Agency–Participation–Authority          ← inactive
 ## Current continuation
 
 ```text
-Realized Characteristics research    ← boundedly complete
-Realized Characteristics evaluation  ← CURRENT GATE
-Criterion-Relative Standing / Status ← remaining Environment debt; inactive
+Realized Characteristics evaluation            ← accepted
+Criterion-Relative Standing / Status research  ← AUTHORISED CURRENT WORK
+Environment discussion                         ← next user turn after bounded child closure
 ```
 
 ## Method
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
-No substantive node is active after bounded closure. Child closure does not auto-activate its sibling.
+One active node at a time. The final child pass may discover immediate children, but it must not deep-research any newly discovered child in the same pass.
 
 ## Verification status
 
@@ -50,4 +50,4 @@ Same-model completion/omission reviews are not independent verification.
 
 ## Guardrail
 
-Do not activate Criterion-Relative Standing / Status, Information, Work, Actors, systematic relation/control composition, architecture, ontology/data-model work or implementation automatically.
+Do not begin Information or any later ground/composition/architecture work in this turn.
