@@ -1,15 +1,15 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment not yet complete; `Relational Organization` bounded leaf / awaiting user evaluation; no substantive node active  
-**Environment completed/evaluated so far:** parent, Domain Reality, Domain State, Domain Dynamics, Work Conditions, Domain Structure, Domain Condition; Environment completion review accepted; Constituent Composition accepted; Relational Organization bounded  
+**Status:** active research library; Environment not yet complete; Structure descendants bounded leaves / accepted; next Domain Condition descendant planning authorised  
+**Environment completed/evaluated so far:** parent, Domain Reality, Domain State, Domain Dynamics, Work Conditions, Domain Structure, Domain Condition; Environment completion review accepted; Constituent Composition accepted; Relational Organization accepted  
 **Domain Structure:** bounded / user-evaluated / accepted 2026-09-03  
 **Domain Condition:** bounded / user-evaluated / accepted 2026-09-04  
 **Environment completion review:** bounded / user-evaluated / accepted 2026-09-04; Environment NOT YET COMPLETE  
 **Constituent Composition:** bounded leaf / user-evaluated / accepted 2026-09-04  
-**Relational Organization:** bounded leaf 2026-09-04; awaiting user evaluation  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** USER EVALUATION OF BOUNDED `RELATIONAL ORGANIZATION` ONLY  
-**Current return condition:** return the bounded child result; do not auto-start a Domain Condition descendant or Information
+**Relational Organization:** bounded leaf / user-evaluated / accepted 2026-09-04  
+**Current authorised substantive activity:** NONE UNTIL FOCUSED PLAN IS FROZEN  
+**Current authorised planning:** `REALIZED CHARACTERISTICS / VALUES`  
+**Current return condition:** freeze the focused plan, execute only that descendant pass, then return its bounded result for user evaluation
 
 ## Dependency state
 
@@ -21,9 +21,9 @@
     - Domain State: boundedly sufficient.
       - Domain Structure: bounded / accepted.
         - Constituent Composition: bounded leaf / accepted.
-        - **Relational Organization: BOUNDED LEAF; AWAITING USER EVALUATION.**
+        - Relational Organization: bounded leaf / accepted.
       - Domain Condition: bounded / accepted.
-        - Realized Characteristics / Values: promoted; inactive; not researched.
+        - **Realized Characteristics / Values: promoted; inactive; focused planning authorised.**
         - Criterion-Relative Standing / Status: promoted; inactive; not researched.
     - Domain Dynamics: bounded leaf; user-evaluated.
   - Work Conditions: bounded leaf; user-evaluated.
@@ -53,56 +53,24 @@ Environment / Operating Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
     │    │    │    ├─ Constituent Composition   ← bounded leaf; accepted
-    │    │    │    └─ Relational Organization   ← bounded leaf; awaiting user evaluation
+    │    │    │    └─ Relational Organization   ← bounded leaf; accepted
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive
+    │    │         ├─ Realized Characteristics / Values       ← promoted; planning authorised
     │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive
     │    └─ Domain Dynamics                                   ← bounded leaf
     └─ Work Conditions                                        ← bounded leaf
 ```
 
-## Relational Organization bounded result
+## Current sequencing judgment
 
-The inherited label:
-
-```text
-Relational Organization / Topology
-```
-
-was refined to:
-
-> **Relational Organization**
-
-Current judgment:
-
-```text
-Relational Organization   ← bounded leaf
-```
-
-The protected question is how materially relevant constituents are actually structurally organized relative to one another and, where necessary, to the selected reference frame at the selected time.
-
-The pass preserves connection/dependency, spatial, interface, hierarchy, higher-order and other relation semantics without promoting them into universal immediate children. `Topology` is dropped because materially different external traditions use it at incompatible semantic scopes.
-
-No evidence forces reopening Domain Structure or Domain State.
-
-## Remaining Environment debt
-
-Promoted/unresearched descendants now are only:
-- Realized Characteristics / Values;
-- Criterion-Relative Standing / Status.
-
-Information remains inactive while these Environment debts remain.
+With both Structure children accepted, only two Environment research debts remain. `Realized Characteristics / Values` is selected first because it protects the criterion-independent question of what current non-structural condition actually obtains. This gives the cleanest actual-reality anchor before deeper research into criterion-relative standing, while preserving that standing may sometimes be established without reconstructing every underlying characteristic.
 
 ## Verification status
 
-The Relational Organization F1–F21 completion audit and underlying node/review audits are same-model adversarial self-reviews, **not independent verification**. External sources discriminate live rivals but do not independently validate the exact hierarchy.
-
-## Current retrieval
-
-`STATE.md → INDEX.md → 03_ground-deepening/STATE.md → grounds/environment/STATE.md → domain-effect/domain-state/domain-structure/STATE.md → relational-organization-topology/STATE.md → KEY.md → synthesis/audit`.
+Underlying node audits and Environment completion review are same-model adversarial self-reviews, **not independent verification**. User acceptance and repository freshness do not change that status.
 
 ## Current authorization
 
-**USER EVALUATION OF THE BOUNDED `RELATIONAL ORGANIZATION` RESULT ONLY.**
+The user's continuation direction authorises focused planning for `Realized Characteristics / Values` and execution once that plan is frozen.
 
-Do not activate a Domain Condition descendant, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation without later explicit transition.
+Do not activate Criterion-Relative Standing / Status, Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
