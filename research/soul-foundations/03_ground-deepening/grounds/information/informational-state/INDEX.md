@@ -8,7 +8,7 @@ For authorization and phase read `STATE.md` first.
 
 ## Current status
 
-**ACTIVE RESEARCH — N4 boundary / anti-collapse.**
+**ACTIVE RESEARCH — N6 omission / reduction / rival-decomposition audit.**
 
 Exactly one substantive node is active: `Informational State / Representational Constitution`.
 
@@ -17,24 +17,27 @@ Exactly one substantive node is active: `Informational State / Representational 
 1. `STATE.md` — authorization, phase, stop condition.
 2. `RESEARCH-PLAN.md` — node-specific N0–N7 research questions and evidence strategy.
 3. `EVIDENCE-INVENTORY.md` — recovered internal/candidate evidence.
-4. `N0-CANONICAL-RECOVERY.md` — current canonical recovery.
+4. `N0-CANONICAL-RECOVERY.md` — canonical recovery.
 5. `N1-NODE-COHERENCE-ATTACK.md` — why the node survives and inherited splits remain unaccepted.
-6. `N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md` — state problem families.
+6. `N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md` — State problem families.
 7. `N3-IMMEDIATE-CHILD-DISCOVERY.md` — rival decompositions; provisional bounded-leaf result.
-8. N4–N6 as completed.
-9. `FINDINGS-MAP.md` and synthesis at bounded closure.
-10. `N7-NODE-CLOSURE.md` — closure basis, residual uncertainty, verification status.
-11. `CURRENT-SURFACES.md` — exact closed/current surface binding when produced.
+8. `N4-BOUNDARY-ANTI-COLLAPSE.md` — neighbouring-ground and role-switching attacks.
+9. `N5-EXTERNAL-CROSS-DOMAIN-FALSIFIERS.md` — external holdouts.
+10. `EXTERNAL-SOURCE-LEDGER.md` — exact external source routes and freshness notes.
+11. `N6-OMISSION-REDUCTION-RIVAL-AUDIT.md` — once completed, same-model adversarial audit.
+12. `FINDINGS-MAP.md` and synthesis at bounded closure.
+13. `N7-NODE-CLOSURE.md` — closure basis, residual uncertainty, verification status.
+14. `CURRENT-SURFACES.md` — exact closed/current surface binding when produced.
 
 ## Current leading result
 
 ```text
 Informational State / Representational Constitution   ← provisional bounded leaf
 
-No immediate child promoted after N3.
+No immediate child promoted after N5.
 ```
 
-Internal constitution dimensions remain explicit; N4–N6 must still falsify the no-split result.
+Internal constitution dimensions remain explicit. N6 is intentionally trying to falsify this result.
 
 ## Parent route
 
@@ -48,6 +51,10 @@ Information / Representation
 Records / Persistent Information
     ↳ deep persistence specialization/profile across Information
 ```
+
+## Verification note
+
+N6 is same-model adversarial review, not independent verification.
 
 ## Guardrail
 
