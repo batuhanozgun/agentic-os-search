@@ -6,45 +6,40 @@ Current router for the bounded Domain State parent and its deeper Structure/Cond
 
 ## Current status
 
-**STRUCTURE/CONDITION ACCEPTED; CONSTITUENT COMPOSITION BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**STRUCTURE AND CONDITION ACCEPTED; CONSTITUENT COMPOSITION BOUNDED LEAF / ACCEPTED; THREE PROMOTED DESCENDANTS REMAIN UNRESEARCHED; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Reading order
 
 1. `STATE.md` — current Domain State status/authorization.
 2. `KEY.md` — shortest current hierarchy.
-3. Structure current result → `domain-structure/STATE.md` / `KEY.md`.
-4. Constituent Composition current result → `domain-structure/constituent-composition-membership/STATE.md` / `KEY.md` / `CURRENT-SURFACES.md`.
-5. Condition current result → `domain-condition/STATE.md` / `KEY.md`.
-6. Environment completion review when sequencing rationale is needed.
+3. Structure → `domain-structure/STATE.md` / `KEY.md`.
+4. Constituent Composition → `domain-structure/constituent-composition-membership/STATE.md` / `KEY.md` / `CURRENT-SURFACES.md`.
+5. Condition → `domain-condition/STATE.md` / `KEY.md`.
+6. Environment completion review when remaining-debt rationale is needed.
 7. `CURRENT-SURFACES.md` — exact freshness.
-8. Historical parent findings/synthesis only for pass reconstruction.
+8. Historical parent findings/synthesis only when reconstructing the original Domain State pass.
 
 ## Current hierarchy
 
 ```text
 Domain State
     ├─ Domain Structure
-    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    ├─ Constituent Composition               ← bounded leaf; accepted
     │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
     └─ Domain Condition
          ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
          └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
 ```
 
-## Deeper result impact
+## Current next-debt judgment
 
-The dedicated child pass refined `Constituent Composition / Membership` to `Constituent Composition` and closed it as a bounded leaf.
+Remaining Environment debt:
+- Relational Organization / Topology;
+- Realized Characteristics / Values;
+- Criterion-Relative Standing / Status.
 
-This refinement does not reopen Domain Structure or Domain State. Historical parent/Structure synthesis remains preserved; current routing carries the deeper result.
-
-## Remaining debt / current gate
-
-No substantive node is active.
-
-Current authorized interaction is **user evaluation of bounded Constituent Composition only**.
-
-If accepted, remaining Environment debt must be reassessed. `Relational Organization / Topology` is the strongest default next sibling, but is not active.
+`Relational Organization / Topology` is the strongest default next selection, but this router does not activate it.
 
 ## Guardrail
 
-Information remains inactive. Do not infer authorization for any descendant, cross-ground composition, architecture, ontology/schema/data-model work or implementation.
+No substantive node is active. Information remains inactive. Do not infer authorization for another descendant, composition, architecture, ontology/schema or implementation.
