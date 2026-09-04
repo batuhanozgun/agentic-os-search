@@ -2,13 +2,13 @@
 
 ## Role
 
-Current retrieval router for the boundedly complete Information top-level node.
+Current retrieval router for the boundedly complete, user-evaluated Information top-level node.
 
-The pass was executed under the routing label `Information / Representation State`. Its current bounded result recommends the refined label `Information / Representation`.
+The pass was executed under the routing label `Information / Representation State`. Its accepted bounded result uses the refined label `Information / Representation`.
 
 ## Current status
 
-**TOP-LEVEL NODE BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+**TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED.**
 
 No substantive child is active.
 
@@ -49,7 +49,7 @@ Records / Persistent Information
     ↳ deep persistence specialization/profile crossing Information
 ```
 
-The two children are bounded research results **awaiting user evaluation**. Their existence does not authorize a child research pass.
+The two children are bounded research results **accepted as the current top-level research structure**. Their existence does not authorize a child research pass.
 
 ## Records route
 
@@ -83,4 +83,4 @@ Do not infer authorization to begin:
 - RAG/KG/memory/context implementation;
 - SOUL/Development OS implementation.
 
-Current interaction is user evaluation of the bounded top-level result.
+Current interaction is next-work selection/planning only.
