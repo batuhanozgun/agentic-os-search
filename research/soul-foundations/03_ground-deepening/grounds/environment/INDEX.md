@@ -6,18 +6,19 @@ Current router for the Environment ground and its focused descendant deepening.
 
 ## Current status
 
-**ENVIRONMENT NOT YET COMPLETE; CONSTITUENT COMPOSITION BOUNDED LEAF / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE.**
+**ENVIRONMENT NOT YET COMPLETE; RELATIONAL ORGANIZATION BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Reading order
 
 1. `STATE.md` — current Environment status/authorization.
 2. `KEY.md` — shortest current Environment hierarchy.
-3. Constituent Composition → `domain-effect/domain-state/domain-structure/constituent-composition-membership/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
-4. Domain Structure/State/Reality routes as needed.
-5. Domain Condition / Dynamics / Work Conditions as needed.
-6. Environment completion review for the debt-selection rationale.
-7. `CURRENT-SURFACES.md` — exact current freshness.
-8. Historical Environment synthesis/audit only for reconstruction of earlier pass states.
+3. Relational Organization → `domain-effect/domain-state/domain-structure/relational-organization-topology/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
+4. Constituent Composition → `domain-effect/domain-state/domain-structure/constituent-composition-membership/STATE.md` as needed.
+5. Domain Structure/State/Reality routes as needed.
+6. Domain Condition / Dynamics / Work Conditions as needed.
+7. Environment completion review for the debt rationale.
+8. `CURRENT-SURFACES.md` — exact current freshness.
+9. Historical Environment synthesis/audit only for reconstruction of earlier pass states.
 
 ## Current tree
 
@@ -26,8 +27,8 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition               ← bounded leaf; accepted
-    │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
+    │    │    │    ├─ Constituent Composition   ← bounded leaf; accepted
+    │    │    │    └─ Relational Organization   ← bounded leaf; awaiting user evaluation
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
     │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
@@ -37,17 +38,12 @@ Environment / Operating Reality
 
 ## Current result
 
-`Constituent Composition / Membership` was refined to `Constituent Composition`, closed as a bounded leaf and user-evaluated / accepted.
+`Relational Organization / Topology` was refined to `Relational Organization` and closed as a bounded leaf.
 
-Remaining promoted/unresearched debts:
-- Relational Organization / Topology;
+Subject to the current user-evaluation gate, remaining promoted/unresearched Environment debt is:
 - Realized Characteristics / Values;
 - Criterion-Relative Standing / Status.
 
-## Current next selection
-
-`Relational Organization / Topology` is the strongest default next Environment debt. It is not active.
-
 ## Guardrail
 
-No substantive node is active. Information remains inactive. Do not infer authorization for another descendant, Work/Actors, composition, architecture, ontology/schema or implementation.
+No substantive node is active. Information remains inactive. Do not infer authorization for a Domain Condition child, Work/Actors, composition, architecture, ontology/schema or implementation.
