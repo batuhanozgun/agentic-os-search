@@ -13,6 +13,7 @@ Foundation relevance below is a retrieval hint only. It does not assign a study 
 | Study | Type | Current status | Strongest current reuse signals | Foundation relevance hints | Start |
 |---|---|---|---|---|---|
 | `ai-knowledge-strategies` | focused-topic | bounded research complete; related follow-up linked | RAG, Knowledge Graph, Fine-Tuning, CAG, Long Context decision boundaries; knowledge/context mechanism selection; falsifiers and failure modes | Information: strong; Environment/Work/Actors: conditional cross-boundary relevance | `ai-knowledge-strategies/META.md` |
+| `anthropic-ai-native-sdlc-playbook` | external-target | bounded external-target research complete; architecture/adoption not authorised | agent-native software operating model; committed artifact chain; configuration evals; advisory→deterministic control stack; environment-tiered autonomy; transitive agent authority; production feedback/evolution loops | Work: strong; Actors: strong; Information: strong; Environment: strong/conditional; relations/control: strong later-phase relevance | `anthropic-ai-native-sdlc-playbook/META.md` |
 | `context-memory-harness-engineering` | focused-topic | bounded research complete; user evaluation pending in package state | context formation, memory lifecycle, harness/runtime/control, relationship to AI knowledge mechanisms | Information: strong; Environment: strong/conditional; Work & Actors: conditional | `context-memory-harness-engineering/META.md` |
 | `multi-agent-patterns` | focused-topic | exploratory systems assessment complete for the triggering discussion | coordination/control patterns, generator–critic, orchestration, authority/verification design pressure | Actors: strong; Work: strong; relations/control: strong later-phase relevance | `multi-agent-patterns/META.md` |
 | `hands-on-large-language-models` | external-target | durable external-repository research complete; production adoption not recommended/evaluated | executable LLM examples, representation/retrieval/fine-tuning/agent reference cases, version/environment failure cases | Information: strong; Environment: conditional; Actors: conditional | `hands-on-large-language-models/META.md` |
@@ -27,9 +28,10 @@ Likely candidates to inspect first, depending on the exact node/problem:
 - `ai-knowledge-strategies`
 - `context-memory-harness-engineering`
 - `hands-on-large-language-models`
+- `anthropic-ai-native-sdlc-playbook` when artifact identity/derivation, context/configuration surfaces, policy freshness, exact-target binding or production-observation→representation transitions are material
 - `public-apis` only when external information/data/capability access is materially in scope
 
-Do not load all four by default; read META first and let the active Foundation method/authorization control depth.
+Do not load all candidates by default; read META first and let the active Foundation method/authorization control depth.
 
 ### If current work concerns Environment / capability
 
@@ -38,16 +40,28 @@ Potential candidates:
 - `public-apis`
 - `context-memory-harness-engineering`
 - `hands-on-large-language-models` for executable environment/version binding cases
+- `anthropic-ai-native-sdlc-playbook` for sandbox/permission/network/MCP/CI/production-state control examples and repo-state-vs-live-state falsifiers
 
 ### If current work concerns Actors / Work / coordination
 
 Potential candidates:
 
 - `multi-agent-patterns`
+- `anthropic-ai-native-sdlc-playbook` for real operational producer/reviewer/human-gate patterns, transitive agent authority, tiered autonomy, artifact/gate dependencies and recurring maintenance work
 - `context-memory-harness-engineering`
 - selected agent material from `hands-on-large-language-models`
 
 These are discovery hints, not conclusions about final Foundation structure.
+
+### If later design / architecture work concerns agent-runtime governance
+
+Potential candidates to inspect selectively:
+
+- `anthropic-ai-native-sdlc-playbook` — managed settings, Hooks, permissions, sandboxing, managed MCP, runtime telemetry, configuration evals, incident loops
+- `context-memory-harness-engineering` — broader context/memory/harness boundaries
+- `multi-agent-patterns` — coordination and verification topology
+
+Current project authorization still controls whether such design/architecture work may begin.
 
 ## Maintenance
 
