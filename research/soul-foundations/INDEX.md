@@ -12,16 +12,14 @@ For current status/authorization read `STATE.md` first. This router does not ind
 |---|---|---|
 | Current overall state / authorisation | `STATE.md` | relevant current package router |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` / `CURRENT-SURFACES.md` |
-| Current Environment status | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX / CURRENT-SURFACES |
-| Final Criterion-Relative Standing result | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-condition/criterion-relative-standing-status/STATE.md` | KEY / FINDINGS-MAP / synthesis / audit / CURRENT-SURFACES |
-| Current Domain Condition | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-condition/STATE.md` | KEY / current surfaces |
-| Realized Characteristics | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-condition/realized-characteristics-values/STATE.md` | KEY / synthesis / audit |
+| Current Environment status | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX / CURRENT-SURFACES / parent synthesis-audit |
+| Current Domain Reality | `03_ground-deepening/grounds/environment/domain-effect/STATE.md` | KEY / current surfaces |
 | Current Domain State | `03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md` | KEY / child packages |
-| Accepted Structure children | relevant `domain-structure/*/STATE.md` | KEY / synthesis / audit |
+| Current Domain Condition | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-condition/STATE.md` | KEY / accepted child surfaces |
+| Structure children | relevant `domain-structure/*/STATE.md` | KEY / synthesis / audit |
 | Domain Dynamics | `03_ground-deepening/grounds/environment/domain-effect/domain-dynamics/STATE.md` | KEY / synthesis |
 | Work Conditions | `03_ground-deepening/grounds/environment/work-conditions/STATE.md` | KEY / synthesis |
-| Earlier Environment completion review | `03_ground-deepening/grounds/environment/completion-review/STATE.md` | KEY / synthesis / audit |
-| What is authorised now? | `STATE.md` | final Standing evaluation / Environment discussion next turn |
+| What is authorised now? | `STATE.md` | Environment-level discussion / judgment only |
 
 ## Current Environment tree
 
@@ -34,24 +32,17 @@ Environment / Operating Reality
     │    │    │    └─ Relational Organization       ← bounded leaf / accepted
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics      ← bounded leaf / accepted
-    │    │         └─ Criterion-Relative Standing   ← bounded leaf / awaiting user evaluation
+    │    │         └─ Criterion-Relative Standing   ← bounded leaf / accepted
     │    └─ Domain Dynamics                         ← bounded leaf
     └─ Work Conditions                              ← bounded leaf
+         ↳ Technical Work Environment               ← deep technical specialization/profile
 ```
-
-## Current final-descendant result
-
-The child inherited as `Criterion-Relative Standing / Status` was researched under a frozen F1–F22 plan and refined to:
-
-> **Criterion-Relative Standing**
-
-It closes as a bounded leaf at current foundation-research depth. No stable universal child split survived and no Domain Condition/State/Environment parent reopen was forced by the child pass.
 
 ## Environment completion state
 
-All currently known promoted Environment descendants have now received dedicated focused passes, subject to user evaluation of the final Standing result.
+All currently known promoted Environment descendants have dedicated accepted/bounded results at current foundation depth.
 
-This router does **not** declare Environment complete. The user explicitly reserved the next turn for Environment-level discussion/judgment.
+This router does **not** declare Environment complete. Current work is Environment-level discussion/judgment.
 
 Information remains inactive.
 
