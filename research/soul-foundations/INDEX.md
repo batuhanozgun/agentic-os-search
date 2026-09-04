@@ -13,16 +13,15 @@ For current status/authorization read `STATE.md` first. This router does not ind
 | Current overall state / authorisation | `STATE.md` | relevant current package router |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` |
 | Current Environment status | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX |
-| Current Constituent Composition result | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/constituent-composition-membership/STATE.md` | KEY / FINDINGS-MAP / synthesis / audit / CURRENT-SURFACES |
+| Current Relational Organization result | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/relational-organization-topology/STATE.md` | KEY / FINDINGS-MAP / synthesis / audit / CURRENT-SURFACES |
+| Current Constituent Composition result | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/constituent-composition-membership/STATE.md` | KEY / synthesis / audit |
 | Current Domain Structure | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-structure/STATE.md` | KEY / FINDINGS-MAP / current surfaces |
 | Current Domain State | `03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md` | KEY / child packages |
 | Current Domain Condition | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-condition/STATE.md` | KEY / findings / synthesis |
 | Domain Dynamics | `03_ground-deepening/grounds/environment/domain-effect/domain-dynamics/STATE.md` | KEY / synthesis |
 | Work Conditions | `03_ground-deepening/grounds/environment/work-conditions/STATE.md` | KEY / synthesis |
 | Environment completion review | `03_ground-deepening/grounds/environment/completion-review/STATE.md` | KEY / synthesis / audit |
-| Accepted top-level hierarchy | `02_adequacy/KEY.md` | synthesis/findings |
-| Independent discovery evidence | relevant `01_verticals/*/KEY.md` | synthesis/findings |
-| What is authorised now? | `STATE.md` | next Environment debt selection/planning only |
+| What is authorised now? | `STATE.md` | user evaluation of bounded Relational Organization only |
 
 ## Current Environment tree
 
@@ -31,8 +30,8 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition               ← bounded leaf; user-evaluated / accepted
-    │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
+    │    │    │    ├─ Constituent Composition   ← bounded leaf; accepted
+    │    │    │    └─ Relational Organization   ← bounded leaf; awaiting user evaluation
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
     │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
@@ -42,37 +41,26 @@ Environment / Operating Reality
 
 ## Current deeper result
 
-The child inherited as `Constituent Composition / Membership` was researched under a frozen plan and refined to:
+The child inherited as `Relational Organization / Topology` was researched under a frozen F1–F21 plan and refined to:
 
-> **Constituent Composition**
+> **Relational Organization**
 
-It closes as a bounded leaf at current foundation-research depth and was accepted by the user on 2026-09-04.
+It closes as a bounded leaf at current foundation-research depth.
 
-No stable immediate split among parthood/membership, nesting, temporary/fuzzy participation, multiplicity, identity/scope or domain-type candidates survived. No Domain Structure reopen was forced.
+No stable universal child split among connectivity/dependency, spatial/geometric organization, interfaces, hierarchy/order, pairwise/higher-order relations or derived patterns survived. No Domain Structure reopen was forced.
 
 ## Remaining Environment debt
 
 Promoted/unresearched:
-- Relational Organization / Topology;
 - Realized Characteristics / Values;
 - Criterion-Relative Standing / Status.
 
 Information remains inactive.
 
-## Recommended next logical selection
-
-`Relational Organization / Topology` is the strongest default next sibling because it is the remaining unresolved Structure child.
-
-It is not active and this router does not authorize it.
-
 ## One-active-node rule
 
-No substantive node is active.
-
-## Active versus historical rule
-
-Historical pass artifacts preserve the state available during their producing passes. Current hierarchy, descendant closure and authorization come from current `STATE.md`, stage/Environment/Domain Structure surfaces and the Constituent Composition package.
+No substantive node is active. Current gate is user evaluation of bounded Relational Organization.
 
 ## Guardrail
 
-Do not infer authorization to activate another Environment descendant, Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
+Do not infer authorization to activate a Domain Condition descendant, Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
