@@ -67,7 +67,8 @@ Use this format, with **one route per line**:
 `R05 Kaynak–temsil ayrımı: SKIP`  
 `R06 Nedensel derinlik: LOAD`  
 `R07 Çalışma sürekliliği: LOAD`  
-`R08 Canonical çalışma preflight'ı: LOAD`
+`R08 Canonical çalışma preflight'ı: LOAD`  
+`R09 Aday araştırma kütüphanesi: LOAD`
 
 The status block exposes **routing outcomes only**, not hidden reasoning or chain-of-thought. Do not provide a rationale for every route by default. Explain a routing decision only when the user asks or when the decision boundary itself is useful to the task.
 
@@ -144,6 +145,14 @@ Protocol:
 Protocol:
 
 `agent/protocols/canonical-work-preflight.md`
+
+### R09 — Candidate Research Library Continuity and Reuse
+
+**Could this turn create, update or classify a candidate study outside `research/soul-context/**` and `research/soul-foundations/**`, or could current Foundation/design/architecture/implementation work materially benefit from previously catalogued candidate studies?**
+
+Protocol:
+
+`agent/protocols/candidate-research-library.md`
 
 ## Protocol Loading Rules
 

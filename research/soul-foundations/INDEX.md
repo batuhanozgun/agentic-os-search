@@ -17,7 +17,7 @@ For current status/authorization read `STATE.md` first. This router does not ind
 | Information candidate/problem map | `03_ground-deepening/grounds/information/FINDINGS-MAP.md` | `OPEN-QUESTIONS.md` / evidence routes |
 | Completed Environment result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX / CURRENT-SURFACES / parent synthesis-audit |
 | Environment leaf internal maps | relevant leaf `FINDINGS-MAP.md` | synthesis / audit / evidence |
-| Cross-phase external research reuse / later SOUL–Development OS candidates | `../EXTERNAL-RESEARCH-REUSE.md` | linked detailed research package and current authoritative external source |
+| Prior candidate studies that may be relevant to a Foundation problem | `../studies/CATALOG.md` | selected study `META.md` → package STATE/INDEX/findings; use only when active node method/authorization makes them relevant |
 | What is authorised now? | `STATE.md` | Information top-level node only |
 
 ## Completed Environment tree
@@ -51,6 +51,20 @@ N3 immediate-child clustering       ← CURRENT
 ```
 
 The parent is currently coherent enough as a research problem region to continue, but its label remains provisional. No immediate child is accepted yet.
+
+## Candidate-study boundary
+
+`research/studies/**` is a separate candidate research library. Its packages can be used selectively as evidence, falsifiers, concrete mechanism/reference material or later design inputs when the active Foundation method makes them relevant.
+
+They do **not**:
+
+- define Foundation children;
+- override first-principles discovery;
+- authorize cross-ground composition;
+- authorize architecture/implementation;
+- become ontology members because a catalog relevance tag points to a Foundation area.
+
+Use the studies catalog as a discovery surface, not as Foundation evidence by itself. Descend to the selected package and sources when a claim is load-bearing.
 
 ## One-active-node rule
 

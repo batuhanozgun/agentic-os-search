@@ -6,6 +6,8 @@ This package preserves first-principles research into foundational problem regio
 
 The repository is a **research library and continuity surface**, not a pre-declared SOUL ontology. Research labels, distinctions, synthesis results and counterexamples are evidence/research outputs; they do not automatically become architecture decisions.
 
+Within the wider `research/` tree, this package has a distinct role: **it is the foundational ground research**, not one candidate study among many. Focused-topic and external-target research that may later help interpret, pressure-test or implement Foundation-derived structure lives separately under `research/studies/**`.
+
 ## Research layers
 
 ### `01_verticals/` — independent discovery research
@@ -97,6 +99,54 @@ For current status and routing read:
 2. `INDEX.md` — current retrieval router;
 3. `03_ground-deepening/STATE.md` and the active Information package.
 
+## Relationship to the candidate research library
+
+Canonical candidate-study library:
+
+`research/studies/`
+
+Root discovery surface:
+
+`research/studies/CATALOG.md`
+
+This library is expected to accumulate many focused and external studies over time. Its role relative to Foundations is **selective reuse**, not structural authority.
+
+Candidate studies may later contribute:
+
+- external evidence and counterexamples;
+- falsifiers / pressure tests;
+- concrete mechanisms or implementation references;
+- capability/service/data-source landscape information;
+- benchmark/test-case ideas;
+- design constraints and failure modes.
+
+The relationship is intentionally many-to-many. A study can be relevant to Information, Environment, Work, Actors or later relation/control questions without “belonging under” one of those nodes.
+
+### Use during Foundation deepening
+
+The active node's own method and authorization remain controlling.
+
+Candidate studies should be consulted when they materially improve evidence/falsifier coverage or clarify a bounded mechanism, **without replacing first-principles problem discovery with an inherited technology taxonomy**.
+
+For example, RAG research can be relevant to Information without implying `RAG` is an Information child. An API catalogue can be relevant to Environment, Information or Work at different times without becoming a Foundation primitive.
+
+### Use after Foundation research
+
+When Foundation-derived structure later reaches authorised SOUL / Development OS design, architecture or implementation work, the candidate library should be reviewed selectively so prior research is not reinvented or forgotten.
+
+The intended retrieval pattern is:
+
+```text
+current Foundation/design problem
+  → candidate-study catalog
+  → selected package META
+  → package STATE/INDEX/findings
+  → current authoritative external source when freshness is decision-critical
+  → present design/implementation decision
+```
+
+A candidate study can inform that decision; it cannot pre-authorize it.
+
 ## Level alignment of existing deep corpora
 
 ```text
@@ -136,7 +186,7 @@ For current project state, authorization and next responsibility, read:
 1. `STATE.md` — sole parent-level dynamic authority;
 2. `INDEX.md` — current retrieval router.
 
-Vertical-local `STATE`, README files, manifests, cross-foundation research outputs and historical handoffs do not override parent authority about what the project should do next.
+Vertical-local `STATE`, README files, manifests, candidate studies and historical handoffs do not override parent authority about what the project should do next.
 
 ## Isolation and composition rule
 
@@ -145,7 +195,8 @@ Ground/node deepening may acknowledge and record relations needed to define loca
 ## Epistemic rule
 
 Keep separate:
-- established bounded research finding;
+- established bounded Foundation research finding;
+- candidate-study finding;
 - cross-foundation inference;
 - accepted working research hypothesis;
 - open question;
@@ -158,4 +209,14 @@ Same-model completeness/omission checks are adversarial self-review, not indepen
 
 `research/soul-context/` remains the bounded context-reconstruction package for SOUL, Development OS and predecessor work.
 
-`research/ai-knowledge-strategies/` and `research/context-memory-harness-engineering/` contain later technical research relevant to Information failure surfaces. They are evidence inputs only and explicitly carry no Foundation-tree or architecture authority.
+Candidate technical and external research lives under `research/studies/**` and is discoverable through `research/studies/CATALOG.md`.
+
+Current examples include:
+
+- `research/studies/ai-knowledge-strategies/`;
+- `research/studies/context-memory-harness-engineering/`;
+- `research/studies/multi-agent-patterns/`;
+- `research/studies/hands-on-large-language-models/`;
+- `research/studies/public-apis/`.
+
+These may be evidence inputs or later design resources, but explicitly carry no Foundation-tree or architecture authority merely by being catalogued.
