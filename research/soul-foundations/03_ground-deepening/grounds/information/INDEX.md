@@ -1,51 +1,86 @@
-# Information / Representation State — INDEX
+# Information / Representation — INDEX
 
 ## Role
 
-Current retrieval router for the active Information / Representation State top-level node.
+Current retrieval router for the boundedly complete Information top-level node.
 
-## Read order
+The pass was executed under the routing label `Information / Representation State`. Its current bounded result recommends the refined label `Information / Representation`.
 
-1. `STATE.md` — current node status, authorization and phase.
+## Current status
+
+**TOP-LEVEL NODE BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+
+No substantive child is active.
+
+## Default read order
+
+1. `STATE.md` — current node status, epistemic status and authorization.
 2. `KEY.md` — shortest current orientation.
-3. `FINDINGS-MAP.md` — current bounded findings/problem map.
-4. Current phase material:
-   - `N0-INTERNAL-EVIDENCE-RECOVERY.md`
-   - `N1-NODE-COHERENCE-ATTACK.md`
-   - `N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md`
-5. `RESEARCH-PLAN.md` — node-local application of the hierarchical method.
-6. `EVIDENCE-INVENTORY.md` — recovered prior evidence and source roles.
-7. `EXTERNAL-SOURCE-LEDGER.md` — external structural/falsifier source route.
-8. `OPEN-QUESTIONS.md` — unresolved node-local questions.
-9. `DEFERRED-RELATIONS.md` — cross-ground relations observed but not solved here.
+3. `FINDINGS-MAP.md` — current bounded result and topic routing.
+4. `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` — integrated top-level result.
+5. `N7-NODE-CLOSURE.md` — closure basis, residual uncertainty and reopen triggers.
+6. Descend to N0–N6 only when the reasoning path, rival decomposition, boundary attack, omission audit or exact source use matters.
+7. `EXTERNAL-SOURCE-LEDGER.md` — external source roles and exact source routes.
+8. `OPEN-QUESTIONS.md` — residual/deeper/reopen questions; not an execution queue.
+9. `DEFERRED-RELATIONS.md` — cross-ground relations intentionally not solved here.
 10. `CURRENT-SURFACES.md` — exact current-surface binding.
 
-For the stage-wide method and authority, read:
+## Pass reconstruction route
+
+| Need | Read |
+|---|---|
+| Internal evidence recovery | `N0-INTERNAL-EVIDENCE-RECOVERY.md` + `EVIDENCE-INVENTORY.md` |
+| Why the parent survived / naming cautions | `N1-NODE-COHERENCE-ATTACK.md` |
+| Original 12 problem families | `N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md` |
+| Rival immediate-child decompositions | `N3-IMMEDIATE-CHILD-DISCOVERY.md` |
+| Environment/Work/Actors/Records boundary tests | `N4-BOUNDARY-ANTI-COLLAPSE.md` |
+| External/cross-domain falsifiers | `N5-EXTERNAL-CROSS-DOMAIN-FALSIFIERS.md` |
+| Missing-child/reduction/rival audit | `N6-OMISSION-REDUCTION-RIVAL-AUDIT.md` |
+| Closure decision | `N7-NODE-CLOSURE.md` |
+
+## Current bounded hierarchy result
+
+```text
+Information / Representation
+    ├─ Informational State / Representational Constitution
+    └─ Informational Dynamics / Formation–Transformation
+
+Records / Persistent Information
+    ↳ deep persistence specialization/profile crossing Information
+```
+
+The two children are bounded research results **awaiting user evaluation**. Their existence does not authorize a child research pass.
+
+## Records route
+
+The existing completed Records corpus remains the deep persistent-information evidence package:
+
+`../../../01_verticals/records-artifacts/`
+
+The Information pass refines Records' hierarchical role; it does not invalidate or rewrite the Records-local findings.
+
+## Stage-wide authority
+
+For stage and project authority read:
 
 - `../../STATE.md`
 - `../../HIERARCHICAL-DEEPENING-METHOD.md`
 - `../../PLAN.md`
-
-## Current phase
-
-`N3 — immediate-child clustering` is active.
-
-Completed within this node:
-
-- N0 internal/canonical evidence recovery;
-- N1 parent coherence attack — provisional pass;
-- N2 first-principles problem inventory — 12 problem families, not children.
-
-N3 must compare rival clusterings and may conclude that no stable immediate-child split is justified.
+- `../../../STATE.md`
 
 ## Guardrail
 
-Do not treat the N2 problem families or any N3 candidate clustering as accepted children until the node survives N3–N6 and closes through N7/user evaluation.
+This package is research only.
 
-This package is research only. It does not authorize:
+Do not infer authorization to begin:
 
-- architecture modules;
-- ontology or database schema;
-- RAG/KG/memory implementation;
+- Informational State child deepening;
+- Informational Dynamics child deepening;
+- Work or Actors ground deepening;
 - systematic relation/control composition;
-- activation of an Information child or another top-level ground.
+- architecture modules;
+- ontology/database schema;
+- RAG/KG/memory/context implementation;
+- SOUL/Development OS implementation.
+
+Current interaction is user evaluation of the bounded top-level result.
