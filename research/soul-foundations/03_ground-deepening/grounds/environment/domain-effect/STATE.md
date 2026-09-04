@@ -1,9 +1,9 @@
 # Domain Reality — STATE
 
-**Status:** BOUNDED DOMAIN REALITY RESULT RETAINED; ALL KNOWN DOMAIN-STATE DESCENDANT PASSES BOUNDED; FINAL STANDING CHILD AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDED DOMAIN REALITY RESULT RETAINED; ALL KNOWN DESCENDANT PASSES BOUNDED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE  
 **Parent:** Environment / Operating Reality  
 **Sibling:** Work Conditions — bounded leaf / user-evaluated  
-**Current authorised activity:** NONE; FINAL CHILD EVALUATION / ENVIRONMENT DISCUSSION NEXT TURN
+**Current authorised activity:** ENVIRONMENT-LEVEL DISCUSSION / JUDGMENT ONLY
 
 ## Current hierarchy
 
@@ -15,11 +15,11 @@ Domain Reality
     │    │    └─ Relational Organization       ← bounded leaf / accepted
     │    └─ Domain Condition
     │         ├─ Realized Characteristics      ← bounded leaf / accepted
-    │         └─ Criterion-Relative Standing   ← bounded leaf / awaiting user evaluation
+    │         └─ Criterion-Relative Standing   ← bounded leaf / accepted
     └─ Domain Dynamics                         ← bounded leaf / user-evaluated
 ```
 
-No Domain Reality, Domain State, Domain Structure or Domain Condition parent reopen was forced by the final child pass.
+No Domain Reality, Domain State, Domain Structure or Domain Condition parent reopen was forced by the descendant passes.
 
 ## Strong boundaries retained
 
@@ -33,7 +33,7 @@ Domain Dynamics ≠ current Domain State
 
 ## Current implication
 
-All currently known Domain Reality descendants have received dedicated passes at current foundation depth, subject to user evaluation of the final Standing result.
+All currently known Domain Reality descendants have dedicated accepted/bounded results at current foundation depth.
 
 This does not declare Environment complete.
 
