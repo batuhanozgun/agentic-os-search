@@ -1,37 +1,45 @@
 # Domain State — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT PARENT; STRUCTURE/CONDITION ACCEPTED; `REALIZED CHARACTERISTICS` LEAF ACCEPTED; FINAL CONDITION CHILD RESEARCH AUTHORISED  
+**Status:** BOUNDEDLY SUFFICIENT PARENT; STRUCTURE/CONDITION ACCEPTED; ALL KNOWN IMMEDIATE DESCENDANT PASSES BOUNDED; FINAL STANDING CHILD AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
 **Domain State user evaluation accepted:** 2026-09-03  
 **Domain Structure:** bounded / accepted; both immediate children bounded leaves / accepted  
-**Domain Condition:** bounded / accepted  
+**Domain Condition:** bounded / accepted; both immediate child passes bounded  
 **Realized Characteristics:** bounded leaf / accepted 2026-09-04  
+**Criterion-Relative Standing:** bounded leaf 2026-09-04; awaiting user evaluation  
 **Parent:** Domain Reality  
 **Sibling:** Domain Dynamics — bounded leaf / user-evaluated  
-**Current authorised activity:** PLAN AND RESEARCH `CRITERION-RELATIVE STANDING / STATUS` ONLY
+**Current authorised activity:** NONE; FINAL CHILD EVALUATION / ENVIRONMENT DISCUSSION NEXT TURN
 
 ## Current hierarchy
 
 ```text
 Domain State
     ├─ Domain Structure
-    │    ├─ Constituent Composition   ← bounded leaf / accepted
-    │    └─ Relational Organization   ← bounded leaf / accepted
+    │    ├─ Constituent Composition       ← bounded leaf / accepted
+    │    └─ Relational Organization       ← bounded leaf / accepted
     └─ Domain Condition
-         ├─ Realized Characteristics                 ← bounded leaf / accepted
-         └─ Criterion-Relative Standing / Status     ← promoted / authorised for focused pass
+         ├─ Realized Characteristics      ← bounded leaf / accepted
+         └─ Criterion-Relative Standing   ← bounded leaf / awaiting user evaluation
 ```
 
-No evidence from the accepted Structure children or Realized Characteristics reopens Domain State or Domain Dynamics.
+No evidence from any focused descendant pass reopens Domain State or Domain Dynamics.
 
-## Strong boundaries entering the final child pass
+## Strong boundaries
 
 ```text
 Domain Structure ≠ Domain Condition
+Constituent Composition ≠ Relational Organization
+Realized Characteristics ≠ Criterion-Relative Standing
 actual characteristic ≠ measurement / estimate / model / report by identity
-Realized Characteristics ≠ Criterion-Relative Standing / Status
-criterion / rule ≠ current standing by identity
+actual standing ≠ criterion / assessment / score / report / certificate by identity
 current Domain State ≠ Dynamics/history
 ```
+
+## Current implication
+
+All currently known descendants under Domain State have now received dedicated passes at current foundation depth, subject to evaluation of the final Standing result.
+
+This does not declare the higher Environment ground complete.
 
 ## Verification status
 
@@ -39,4 +47,4 @@ Underlying node audits are same-model adversarial self-reviews, not independent 
 
 ## Guardrail
 
-Only the final Domain Condition child pass is authorised. Information, Work, Actors, architecture, ontology/data-model work and implementation remain inactive.
+No substantive node is active. Do not begin Information or later architecture/composition work automatically.
