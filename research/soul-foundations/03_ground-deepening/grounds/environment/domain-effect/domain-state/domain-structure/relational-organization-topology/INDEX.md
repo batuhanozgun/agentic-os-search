@@ -4,11 +4,11 @@
 
 Current router for the dedicated Structure-child pass inherited as `Relational Organization / Topology`.
 
-For current status/authorization read `STATE.md` first.
+For current status read `STATE.md` first.
 
 ## Current status
 
-**BOUNDED RESULT; REFINED TO `RELATIONAL ORGANIZATION`; BOUNDED LEAF; AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**BOUNDED RESULT; REFINED TO `RELATIONAL ORGANIZATION`; BOUNDED LEAF; USER-EVALUATED / ACCEPTED.**
 
 ## Fast route
 
@@ -22,7 +22,7 @@ For current status/authorization read `STATE.md` first.
 | Source recovery | `evidence/SOURCE-LEDGER.md` |
 | Residual uncertainty | `OPEN-QUESTIONS.md` |
 | Deferred relations | `DEFERRED-RELATIONS.md` |
-| Exact closure freshness | `CURRENT-SURFACES.md` |
+| Exact current freshness | `CURRENT-SURFACES.md` |
 | Frozen executed plan | `../RELATIONAL-ORGANIZATION-TOPOLOGY-RESEARCH-PLAN.md` |
 
 ## Current result
@@ -30,7 +30,7 @@ For current status/authorization read `STATE.md` first.
 ```text
 Relational Organization / Topology
 → Relational Organization
-→ bounded leaf
+→ bounded leaf / accepted
 ```
 
 Parent view:
@@ -38,20 +38,18 @@ Parent view:
 ```text
 Domain Structure
     ├─ Constituent Composition   ← bounded leaf / accepted
-    └─ Relational Organization   ← bounded leaf / awaiting user evaluation
+    └─ Relational Organization   ← bounded leaf / accepted
 ```
-
-## Key interpretation
-
-The node protects actual structural organization among already-selected constituents. Relation semantics may include connection, dependency, interface, spatial arrangement, hierarchy/order and higher-order relations without being collapsed into one ontology primitive.
 
 No universal immediate child survived the pass.
 
 ## Current gate
 
-No substantive node is active. Current authorized interaction is **user evaluation of bounded Relational Organization only**.
+No substantive node is active inside this package. Selection/planning returns to the parent/stage level.
 
-The two Domain Condition descendants remain promoted / inactive / unresearched. Information remains inactive.
+Remaining Environment debt is under `Domain Condition`:
+- `Realized Characteristics / Values`;
+- `Criterion-Relative Standing / Status`.
 
 ## Historical rule
 
