@@ -1,16 +1,16 @@
 # Environment / Operating Reality — STATE
 
-**Status:** COMPLETION REVIEW BOUNDED; ENVIRONMENT NOT YET COMPLETE; NO SUBSTANTIVE NODE ACTIVE  
-**Environment parent authorised:** 2026-09-02
-**Domain State user evaluation accepted:** 2026-09-03
-**Domain Dynamics user evaluation accepted:** 2026-09-03
-**Work Conditions user evaluation accepted:** 2026-09-03
-**Domain Structure:** bounded / user-evaluated / accepted 2026-09-03
-**Domain Condition:** bounded / user-evaluated / accepted 2026-09-04
-**Environment completion review:** bounded 2026-09-04; awaiting user evaluation
-**Scope:** Environment / Operating Reality ground only
-**Other top-level grounds:** inactive
-**Current authorised activity:** USER EVALUATION OF THE ENVIRONMENT COMPLETION REVIEW ONLY
+**Status:** ENVIRONMENT NOT YET COMPLETE; COMPLETION REVIEW ACCEPTED; CONSTITUENT COMPOSITION / MEMBERSHIP PASS ACTIVE  
+**Environment parent authorised:** 2026-09-02  
+**Domain State user evaluation accepted:** 2026-09-03  
+**Domain Dynamics user evaluation accepted:** 2026-09-03  
+**Work Conditions user evaluation accepted:** 2026-09-03  
+**Domain Structure:** bounded / accepted 2026-09-03  
+**Domain Condition:** bounded / accepted 2026-09-04  
+**Environment completion review:** bounded / user-evaluated / accepted 2026-09-04; Environment NOT YET COMPLETE  
+**Scope:** Environment / Operating Reality ground only  
+**Other top-level grounds:** inactive  
+**Current authorised activity:** `CONSTITUENT COMPOSITION / MEMBERSHIP` RESEARCH ONLY
 
 ## Current Environment hierarchy
 
@@ -19,21 +19,19 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition / Membership   ← promoted; inactive; not researched
-    │    │    │    └─ Relational Organization / Topology     ← promoted; inactive; not researched
+    │    │    │    ├─ Constituent Composition / Membership   ← ACTIVE SUBSTANTIVE PASS
+    │    │    │    └─ Relational Organization / Topology     ← promoted; inactive / not researched
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive; not researched
-    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive; not researched
+    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
     │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
     └─ Work Conditions                                        ← bounded leaf; user-evaluated
-         ↳ Technical Work Environment                         ← deep technical specialization/profile
+         ↳ Technical Work Environment                         ← deep specialization/profile
 ```
 
-## Completion-review verdict
+## Accepted completion-review verdict
 
-**Environment is not yet complete for the current Ground Deepening purpose.**
-
-The parent remains coherent:
+The Environment parent remains coherent:
 
 ```text
 Environment / Operating Reality
@@ -41,46 +39,22 @@ Environment / Operating Reality
     └─ Work Conditions
 ```
 
-No third first-order Environment branch is currently required.
+No broad Environment restart is indicated. Completion is blocked by focused descendant research debt.
 
-The blocker is focused descendant research debt:
-- Constituent Composition / Membership;
-- Relational Organization / Topology;
-- Realized Characteristics / Values;
-- Criterion-Relative Standing / Status.
+The user accepted that verdict and authorized continuation on 2026-09-04. The selected first descendant is `Constituent Composition / Membership`.
 
-All four were promoted on distinct failure/recovery surfaces and remain explicitly unresearched. Under the Ground Deepening selective-deepening and one-level rules, parent-pass promotion does not count as substantive child research.
+## Active child route
 
-## What remains closed
-
-- Domain Dynamics remains a bounded leaf.
-- Work Conditions remains a bounded leaf.
-- Technical Work Environment remains a deep specialization/profile.
-- current Environment residuals do not form a third universal branch.
-- broad Environment-parent search should stop unless a new parent falsifier appears.
+`domain-effect/domain-state/domain-structure/CONSTITUENT-COMPOSITION-MEMBERSHIP-RESEARCH-PLAN.md → domain-effect/domain-state/domain-structure/constituent-composition-membership/STATE.md`
 
 ## Transition judgment
 
-Do **not** begin Information yet. The next useful work is focused Environment descendant research after user evaluation/authorization.
-
-## Recommended next selection
-
-`Constituent Composition / Membership` is the strongest default next node, but is not active.
+Information remains inactive while current Environment descendant debt is being resolved.
 
 ## Verification status
 
-The completion review is same-model adversarial self-review, not independent verification. Fresh external sources were used as counterframes only.
+Completion reviews and node audits remain same-model adversarial self-review, not independent verification.
 
-## Review route
+## Guardrail
 
-- `completion-review/STATE.md`
-- `completion-review/KEY.md`
-- `completion-review/synthesis/ENVIRONMENT-COMPLETION-REVIEW.md`
-- `completion-review/synthesis/COMPLETENESS-OMISSION-CHECK.md`
-- `completion-review/CURRENT-SURFACES.md`
-
-## Next authorised work
-
-**USER EVALUATION OF THE ENVIRONMENT COMPLETION REVIEW ONLY.**
-
-Do not activate any descendant, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation automatically.
+Only `Constituent Composition / Membership` is substantively active. Do not activate another descendant, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation.
