@@ -35,9 +35,7 @@ Actors / Agency–Participation–Authority
 + typed relations / control / transitions
 ```
 
-Its Environment lower hierarchy was intentionally a working hypothesis for deeper research rather than permanent authority.
-
-This is a research-routing frame, not architecture or ontology.
+This is a research-routing frame, not architecture or ontology. Lower hierarchy and parent labels remain challengeable during `03_ground-deepening/`.
 
 ### `03_ground-deepening/` — recursive ground/node depth research
 
@@ -51,43 +49,55 @@ Key rules:
 - discovering a child does not authorize researching that child;
 - each closed node returns to user evaluation before any deeper or sibling activation.
 
-The current substantive package is:
-- `03_ground-deepening/grounds/environment/`
+## Current stage
 
-Current Environment research hierarchy:
+### Environment / Operating Reality
+
+`03_ground-deepening/grounds/environment/` is **boundedly complete / user-evaluated** for the current foundation purpose.
+
+Current bounded tree:
 
 ```text
 Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition
-    │    │    └─ Domain Condition / Status
-    │    └─ Domain Dynamics / Processes
-    └─ Work Conditions / Enabling–Constraining Environment
-         └─ Technical Work Environment
+    │    │    ├─ Domain Structure
+    │    │    │    ├─ Constituent Composition
+    │    │    │    └─ Relational Organization
+    │    │    └─ Domain Condition
+    │    │         ├─ Realized Characteristics
+    │    │         └─ Criterion-Relative Standing
+    │    └─ Domain Dynamics
+    └─ Work Conditions
+         ↳ Technical Work Environment
 ```
 
-Current epistemic/authorization status is not encoded by indentation alone. Read package-local `STATE.md` / `INDEX.md` surfaces and the relevant `CURRENT-SURFACES.md` manifest. Parent `STATE.md` remains the sole authority for what happens next.
+### Information / Representation State
 
-The deeper Environment work has materially refined earlier labels:
-- `Domain / Effect Reality` → `Domain Reality`;
-- `Domain State / Configuration` → `Domain State`;
-- Domain State immediate children → `Domain Structure / Composition` + `Domain Condition / Status`.
+`03_ground-deepening/grounds/information/` is the **current single active top-level node**, explicitly selected by the user on 2026-09-04 after Environment closure.
 
-The older `Work-Support Environment` phrase was broadened because realized conditions can constrain, degrade, block or endanger Work as well as positively support it.
+Its current phase is `N0 — canonical/internal evidence recovery`.
+
+The current parent label and any candidate children remain hypotheses to be attacked. The prior Records corpus is retained as deep evidence for persistent-information problems but does not predetermine the Information hierarchy.
+
+For current status and routing read:
+
+1. `STATE.md` — sole parent-level dynamic authority;
+2. `INDEX.md` — current retrieval router;
+3. `03_ground-deepening/STATE.md` and the active Information package.
 
 ## Level alignment of existing deep corpora
 
 ```text
-Information / Representation
-    └─ Records / Persistent Information          ← existing deep corpus
+Information / Representation                    ← active parent research; provisional internal structure
+    ? Records / Persistent Information           ← existing deep corpus; position to be tested
 
-Environment / Operating Reality
-    └─ Work Conditions / Enabling–Constraining Environment
-         └─ Technical Work Environment           ← existing deep corpus
+Environment / Operating Reality                 ← boundedly complete
+    └─ Work Conditions
+         ↳ Technical Work Environment            ← existing deep specialization/profile
 
-Work                                             ← existing broad/deep corpus
-Actors                                           ← existing broad/deep corpus
+Work                                             ← existing broad/deep corpus; inactive
+Actors                                           ← existing broad/deep corpus; inactive
 ```
 
 Existing corpora remain stable evidence packages even when later research changes their parent level or role in the research hierarchy.
@@ -97,8 +107,6 @@ Existing corpora remain stable evidence packages even when later research change
 Superseded research paths and point-in-time handoffs live under `history/`.
 
 Historical material is retained for audit, research-path reconstruction and later falsifier recovery. It is not current project authority merely because a search result finds it directly.
-
-In particular, the earlier broad `Environment` pass is archived as boundary-relative operating-world research because it answered a different question from the intended Technical Work Environment vertical. It remains useful prior evidence for current/later Environment research but does not override the current `03` Environment package.
 
 ## Retrieval model
 
@@ -117,11 +125,9 @@ For current project state, authorization and next responsibility, read:
 1. `STATE.md` — sole parent-level dynamic authority;
 2. `INDEX.md` — current retrieval router.
 
-Vertical-local `STATE`, `README`, manifests, cross-foundation research outputs and historical handoffs do not override parent authority about what the project should do next.
+Vertical-local `STATE`, README files, manifests, cross-foundation research outputs and historical handoffs do not override parent authority about what the project should do next.
 
 ## Isolation and composition rule
-
-The independent discovery stage deliberately avoided solving cross-ground relations prematurely.
 
 Ground/node deepening may acknowledge and record relations needed to define local boundaries, but systematic typed relation/control/composition research remains a later phase unless explicitly authorised.
 
@@ -137,6 +143,8 @@ Keep separate:
 
 Same-model completeness/omission checks are adversarial self-review, not independent verification.
 
-## Relationship to `research/soul-context/`
+## Relationship to other research packages
 
-`research/soul-context/` remains the bounded context-reconstruction package for SOUL, Development OS and predecessor work. It is not duplicated here. Use its `INDEX.md` when that context becomes relevant.
+`research/soul-context/` remains the bounded context-reconstruction package for SOUL, Development OS and predecessor work.
+
+`research/ai-knowledge-strategies/` and `research/context-memory-harness-engineering/` contain later technical research relevant to Information failure surfaces. They are evidence inputs only and explicitly carry no Foundation-tree or architecture authority.
