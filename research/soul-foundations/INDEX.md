@@ -12,19 +12,14 @@ For current status/authorization read `STATE.md` first. This router does not ind
 |---|---|---|
 | Current overall state / authorisation | `STATE.md` | relevant current package router |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` / `CURRENT-SURFACES.md` |
-| Current Environment status | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX / CURRENT-SURFACES / parent synthesis-audit |
-| Current Domain Reality | `03_ground-deepening/grounds/environment/domain-effect/STATE.md` | KEY / current surfaces |
-| Current Domain State | `03_ground-deepening/grounds/environment/domain-effect/domain-state/STATE.md` | KEY / child packages |
-| Current Domain Condition | `03_ground-deepening/grounds/environment/domain-effect/domain-state/domain-condition/STATE.md` | KEY / accepted child surfaces |
-| Structure children | relevant `domain-structure/*/STATE.md` | KEY / synthesis / audit |
-| Domain Dynamics | `03_ground-deepening/grounds/environment/domain-effect/domain-dynamics/STATE.md` | KEY / synthesis |
-| Work Conditions | `03_ground-deepening/grounds/environment/work-conditions/STATE.md` | KEY / synthesis |
-| What is authorised now? | `STATE.md` | Environment-level discussion / judgment only |
+| Completed Environment result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX / CURRENT-SURFACES / parent synthesis-audit |
+| Environment leaf internal maps | relevant leaf `FINDINGS-MAP.md` | synthesis / audit / evidence |
+| What is authorised now? | `STATE.md` | next-ground selection / planning only |
 
-## Current Environment tree
+## Completed Environment tree
 
 ```text
-Environment / Operating Reality
+Environment / Operating Reality                 ← boundedly complete / accepted
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
@@ -33,18 +28,16 @@ Environment / Operating Reality
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics      ← bounded leaf / accepted
     │    │         └─ Criterion-Relative Standing   ← bounded leaf / accepted
-    │    └─ Domain Dynamics                         ← bounded leaf
-    └─ Work Conditions                              ← bounded leaf
+    │    └─ Domain Dynamics                         ← bounded leaf / accepted
+    └─ Work Conditions                              ← bounded leaf / accepted
          ↳ Technical Work Environment               ← deep technical specialization/profile
 ```
 
-## Environment completion state
+## Current transition state
 
-All currently known promoted Environment descendants have dedicated accepted/bounded results at current foundation depth.
+Environment is boundedly complete for the current foundation-research purpose.
 
-This router does **not** declare Environment complete. Current work is Environment-level discussion/judgment.
-
-Information remains inactive.
+The next session should cold-start from canonical state and perform next-ground selection/planning. `Information / Representation State` is the strongest sequence candidate but remains inactive until explicitly selected and planned.
 
 ## One-active-node rule
 
@@ -52,4 +45,4 @@ No substantive node is active.
 
 ## Guardrail
 
-Do not infer authorization to begin Information, Work/Actors audits, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
+Do not infer authorization to begin Work/Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
