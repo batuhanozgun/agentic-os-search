@@ -1,8 +1,9 @@
 # Constituent Composition — STATE
 
-**Status:** BOUNDED RESEARCH RESULT; BOUNDED LEAF; AWAITING USER EVALUATION; NO SUBSTANTIVE CHILD ACTIVE  
+**Status:** BOUNDED RESEARCH RESULT; BOUNDED LEAF; USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE CHILD ACTIVE  
 **Activated:** 2026-09-04  
 **Bounded closure:** 2026-09-04  
+**User evaluation accepted:** 2026-09-04  
 **Pass-start label:** `Constituent Composition / Membership`  
 **Preferred bounded label:** `Constituent Composition`  
 **Parent:** `Domain Structure`  
@@ -86,7 +87,7 @@ Current local hierarchy after this deeper pass:
 
 ```text
 Domain Structure
-    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    ├─ Constituent Composition               ← bounded leaf; user-evaluated / accepted
     └─ Relational Organization / Topology    ← promoted; inactive / not researched
 ```
 
@@ -115,6 +116,8 @@ No source independently validates the exact project hierarchy.
 
 The F1–F19 completion/omission audit is same-model adversarial self-review, **not independent verification**.
 
+User evaluation accepts the bounded result for hierarchical continuation; it does not change verification independence.
+
 ## Closure basis
 
 Material outcomes from the frozen falsifiers:
@@ -136,16 +139,24 @@ Reopen if:
 - later Information research breaks actual-versus-represented composition boundaries;
 - independent review offers a materially stronger decomposition.
 
+## User evaluation result
+
+The user accepted the bounded `Constituent Composition` leaf result on 2026-09-04. No reopen trigger was raised.
+
+This closes the child evaluation gate only. It does **not** activate the sibling or any later ground automatically.
+
 ## Current return condition
 
-Return this bounded result for user evaluation.
+Return to the parent/stage level for next-debt selection from then-current canonical state.
 
 Do **not** activate `Relational Organization / Topology`, a Domain Condition child or Information automatically.
 
 ## Next logical work
 
-If the user accepts this result and no reopen trigger appears, reassess remaining Environment debt from then-current canonical state. `Relational Organization / Topology` is the strongest default next sibling, but this is not automatic authorization.
+With this result accepted and no reopen trigger present, reassess the remaining Environment debt. `Relational Organization / Topology` is the strongest default next sibling, but this is not automatic authorization.
 
 ## Next authorised work
 
-**USER EVALUATION OF THE BOUNDED CONSTITUENT COMPOSITION RESULT ONLY.**
+**NEXT-DEBT SELECTION / PLANNING AT THE PARENT/STAGE LEVEL ONLY.**
+
+No substantive node is active.
