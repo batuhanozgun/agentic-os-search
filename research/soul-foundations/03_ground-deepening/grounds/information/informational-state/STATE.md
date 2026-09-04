@@ -1,37 +1,48 @@
 # Informational State / Representational Constitution — STATE
 
-**Status:** ACTIVE RESEARCH  
+**Status:** ACTIVE RESEARCH — N7 CLOSURE  
 **Activated:** 2026-09-05  
 **User authorization:** explicit selection and authorization after user-evaluated Information top-level closure  
 **Parent:** `Information / Representation` — boundedly complete / user-evaluated  
-**Current phase:** N6 omission / reduction / rival-decomposition audit  
-**N0–N5:** COMPLETE  
+**Current phase:** N7 bounded closure / prepare user evaluation  
+**N0–N6:** COMPLETE  
 **Substantive node active:** Informational State / Representational Constitution  
 **Sibling:** Informational Dynamics / Formation–Transformation — inactive  
 **Work / Actors:** inactive
 
 ## Current purpose
 
-Research the accepted `Informational State / Representational Constitution` child as one bounded hierarchical node and determine whether stable immediate children exist or whether State is a bounded leaf whose internal structure is dimensional/relational.
+Close the authorised `Informational State / Representational Constitution` pass if the N0–N6 result is boundedly sufficient for the current Foundation depth, then return it for user evaluation before any other node is activated.
 
 ## Protected question
 
 > What informational state/result/representation exists, what is it about, what content/form/identity/qualifications constitute it, and what makes it materially the same as or different from another state?
 
-## Current leading result after N5
+## Leading N0–N6 result
 
 ```text
-Informational State / Representational Constitution   ← PROVISIONAL BOUNDED LEAF
+Informational State / Representational Constitution   ← BOUNDED LEAF CANDIDATE
 
 No immediate child promoted.
+```
 
-Internal constitution map:
-    reference / subject binding
-    applicability / scope / reference frame
+The node retains an explicit internal constitution map rather than collapsing distinctions:
+
+```text
+Reference & applicability
+    referent / subject
+    scope / time / population / reference frame
+
+Content & realization
     content / interpretation
-    representation form / encoding / schema binding
+    form / encoding / schema binding
     mode / stance / representational commitment
+
+Individuation
     identity / granularity / equivalence
+    version / copy / projection / fragment / aggregate when material
+
+Qualification & relations
     source / holder / perspective / attribution
     uncertainty / confidence / reliability / epistemic standing
     temporal standing / freshness
@@ -39,7 +50,7 @@ Internal constitution map:
     availability / visibility / persistence status where State-side
 ```
 
-N4 found that this leaf map preserves clean boundaries against Environment, Dynamics, Work, Actors and Records. N5 found no materially different external tradition that forces a stable immediate child split. N6 must now try to defeat the no-split result through same-model adversarial omission/reduction/rival attacks.
+These four blocks are retrieval/orientation clusters only, not accepted child branches.
 
 ## Research progress
 
@@ -50,19 +61,17 @@ N2 first-principles problem inventory         ← COMPLETE
 N3 immediate-child discovery                  ← COMPLETE / leaf candidate leads
 N4 boundary / anti-collapse                   ← COMPLETE / leaf candidate survives
 N5 external / cross-domain falsifiers         ← COMPLETE / leaf candidate survives
-N6 omission / reduction / rival audit         ← ACTIVE / same-model, non-independent
-N7 node closure / user evaluation             ← pending
+N6 omission / reduction / rival audit         ← COMPLETE / same-model; leaf candidate survives
+N7 node closure / user evaluation             ← ACTIVE
 ```
 
-## Verification warning
+## Verification status
 
-N6 is a same-model adversarial review and must not be presented as independent verification. User acceptance, if later given, will close the evaluation gate only; it will not change verification independence.
+The pass combines current canonical Foundation evidence, the completed Records specialization, selected candidate studies and materially different external traditions. N6 is same-model adversarial review. The complete child result has **not** received independent second-researcher/model replication.
 
 ## Stop / return condition
 
-Return to the user only when the leaf/no-split result or an alternative child map survives N6 with explicit residual uncertainty and verification status.
-
-Finding children does **not** authorize researching those children in this same pass.
+If N7 confirms bounded closure, set substantive active node to NONE and return the bounded result for user evaluation. Do not activate Informational Dynamics or any other node.
 
 ## Guardrail
 
