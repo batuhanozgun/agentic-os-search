@@ -1,12 +1,13 @@
 # Realized Characteristics — STATE
 
-**Status:** BOUNDED RESEARCH RESULT; BOUNDED LEAF; AWAITING USER EVALUATION; NO SUBSTANTIVE CHILD ACTIVE  
+**Status:** BOUNDED RESEARCH RESULT; BOUNDED LEAF; USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE CHILD ACTIVE  
 **Activated:** 2026-09-04  
 **Bounded closure:** 2026-09-04  
+**User evaluation accepted:** 2026-09-04  
 **Pass-start label:** `Realized Characteristics / Values`  
 **Preferred bounded label:** `Realized Characteristics`  
 **Parent:** `Domain Condition`  
-**Sibling:** `Criterion-Relative Standing / Status` — promoted; inactive / not researched  
+**Sibling:** `Criterion-Relative Standing / Status` — promoted; next authorised Environment debt  
 **Higher ground:** `Environment / Operating Reality`  
 **Frozen plan:** `../REALIZED-CHARACTERISTICS-VALUES-RESEARCH-PLAN.md` @ `71d6c9d10d3984bf2c8abf9d8b2d60dddfae6837`
 
@@ -83,22 +84,13 @@ Current local hierarchy:
 
 ```text
 Domain Condition
-    ├─ Realized Characteristics                 ← bounded leaf; awaiting user evaluation
-    └─ Criterion-Relative Standing / Status     ← promoted; inactive / not researched
+    ├─ Realized Characteristics                 ← bounded leaf; user-evaluated / accepted
+    └─ Criterion-Relative Standing / Status     ← promoted; next authorised Environment debt
 ```
 
 ## Cross-domain status
 
-The refined node survived holdouts across:
-- deployed software/services;
-- physical machine/process assets;
-- ecology/biology;
-- market/financial domains;
-- institutions/organizations;
-- scientific specimens/experimental targets;
-- hybrid cyber-physical systems;
-- whole/constituent bearer switching;
-- relation-valued characteristic cases.
+The refined node survived holdouts across deployed software/services, physical machine/process assets, ecology/biology, market/financial domains, institutions/organizations, scientific specimens/experimental targets, hybrid cyber-physical systems, whole/constituent bearer switching and relation-valued characteristic cases.
 
 No recurrent missing immediate child or third Domain Condition region was forced.
 
@@ -108,20 +100,7 @@ The pass used cross-source falsification across metrology, sensor/observation se
 
 No source independently validates the exact project hierarchy.
 
-The F1–F20 completion/omission audit is same-model adversarial self-review, **not independent verification**.
-
-## Closure basis
-
-Material outcomes from the frozen falsifiers:
-- F1 rejected: inherited paired label is not optimal;
-- F2 supported: drop/demote `Values` from the primary label;
-- F4–F9/F11 child-split candidates rejected;
-- F10 supported as an anti-child result for mathematical/value-result shape;
-- F12–F18 anti-collapse boundaries survive;
-- F19 rejected: holdouts do not force a third Condition region or parent reopen;
-- F20 supported: bounded leaf.
-
-Late search mainly produced property subtypes, units/scales, measurement/result forms, aggregate semantics, domain metrics and neighbouring-ground boundary cases rather than a stable new first-order recovery region.
+The F1–F20 completion/omission audit is same-model adversarial self-review, **not independent verification**. User acceptance does not alter verification independence.
 
 ## Reopen conditions
 
@@ -133,18 +112,14 @@ Reopen if:
 - Information research shows the actual-versus-represented boundary is wrongly drawn;
 - independent review offers a materially stronger decomposition.
 
-## Current return condition
+## User evaluation result
 
-Return this bounded `Realized Characteristics` result for user evaluation.
+The user accepted the bounded `Realized Characteristics` leaf result on 2026-09-04. No reopen trigger was raised.
 
-Do **not** activate `Criterion-Relative Standing / Status` or Information automatically.
+This closes the child evaluation gate only. It does not itself complete Environment or activate Information.
 
-## Next logical work
+## Next logical / authorised work
 
-If the user accepts this result and no reopen trigger appears, reassess/select the remaining promoted Environment debt:
+The remaining promoted Environment debt is `Criterion-Relative Standing / Status`. The user explicitly authorised researching that final branch to bounded closure before returning to discuss Environment.
 
-`Criterion-Relative Standing / Status`.
-
-## Next authorised work
-
-**USER EVALUATION OF THE BOUNDED `REALIZED CHARACTERISTICS` RESULT ONLY.**
+No child inside `Realized Characteristics` is active.
