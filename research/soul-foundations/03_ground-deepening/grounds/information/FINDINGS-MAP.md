@@ -1,107 +1,145 @@
 # Information / Representation State — Findings Map
 
-**Status:** ACTIVE / PRE-FINDING CANDIDATE MAP  
-**Warning:** this file currently maps problems and hypotheses, not accepted immediate children.
+**Status:** ACTIVE / N1+N2 BOUNDED; N3 clustering next  
+**Warning:** no immediate-child hierarchy is accepted yet.
 
-## A. Parent coherence
+## A. Parent coherence — provisional pass
 
-Questions:
+Current bounded result:
 
-- Is there a stable first-order problem region between actual reality and the Work/Actors that use representations?
-- Can this region be reduced non-lossily to relations/properties of Environment, Work and Actors?
-- Does `Information / Representation State` become an undifferentiated residual bucket?
-- Which parent label best preserves the intended boundary without presupposing epistemic truth or persistence?
+A coherent research problem region exists strongly enough to continue, provided it is scoped to **mediated informational access/representation and the independent semantics/failures of informational states, transformations and relations**, rather than `anything describable`.
 
-Status: OPEN.
+The parent survives as a **research ground**, not as proof of one ontology primitive/class.
 
-## B. Reality → informational access
+Open label issue:
 
-Candidate problem family:
+- `Information` is too polysemous if unbounded;
+- `Representation` is narrower than all causal/syntactic information;
+- `State` underplays observation/formation/derivation dynamics;
+- `Epistemic State` may exclude descriptive/operational representations.
 
-- signal/measurement/observation/data acquisition;
-- partial/noisy/selective access;
-- referent and scope binding;
-- distinction between represented state and actual state.
+Current routing label remains provisional.
 
-Child status: NOT DETERMINED.
+## B. N2 first-principles problem families
 
-## C. Assertion / interpretation / model state
+Canonical inventory:
 
-Candidate problem family:
+`N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md`
 
-- claims/assertions;
-- interpretation;
-- beliefs/models/hypotheses;
-- perspective/holder/shared representation;
-- possible disagreement or inconsistency.
+Twelve bounded problem families are currently exposed:
 
-Child status: NOT DETERMINED.
+1. referent / subject / scope binding;
+2. informational access / acquisition / observation formation;
+3. representational content / form / assertion semantics;
+4. informational identity / granularity / equivalence;
+5. source / holder / perspective / attribution;
+6. derivation / transformation / lineage;
+7. epistemic / evidential / reliability standing;
+8. temporal applicability / freshness / change in standing;
+9. selection / view / context formation;
+10. conflict / consistency / plurality;
+11. accessibility / exposure / communication boundary;
+12. persistence / memory / recordhood transition.
 
-## D. Derivation / inference / evidential standing
+These are **problem families, not children**.
 
-Candidate problem family:
+## C. Structural corrections established by N1/N2
 
-- transformation/derivation;
-- inference;
-- support/evidence relationships;
-- provenance;
-- confidence/uncertainty/coverage;
-- distinction between source, evidence, conclusion and decision.
+### C1 — actual state / observation / estimate cannot collapse
 
-Child status: NOT DETERMINED.
+Independent control/measurement traditions preserve a distinction among actual referent state, observation/result and internal estimate/model.
 
-## E. Context / view formation
+### C2 — process/result/relation/lifecycle kinds are mixed in the inherited sketch
 
-Candidate problem family:
+Examples:
 
-- selective exposure/assembly for a current purpose;
-- current working set;
-- filtering/compression/summarization;
-- view fidelity and omitted information;
-- context as state vs context as relation/view.
+- observation/inference = process/relation candidates;
+- model/claim/result = informational state/result candidates;
+- evidence/authority/context = role/relation/view candidates;
+- persistence = lifecycle condition/specialisation.
 
-Child status: NOT DETERMINED; strong risk of being a cross-cutting relation rather than a child.
+Therefore the adequacy-stage noun list is not an accepted child taxonomy.
 
-## F. Persistence / Records boundary
+### C3 — information != representation
 
-Prior deep evidence exists for Persistent Information / Records.
+Causal/statistical information can exist without semantic representation in the relevant sense. The current compound label must therefore remain bounded/provisional.
 
-Open structural questions:
+### C4 — evidence is relational
 
-- Is persistence a stable immediate Information child?
-- Is recordhood narrower than persistence?
-- Which Information semantics exist before persistence obligations arise?
-- Can Records retain its own requirement-derivation logic when nested?
+Evidence/support standing is relative to a target claim/question/hypothesis and body of other evidence. Do not promote `Evidence` mechanically as an object child.
 
-Child status: NOT DETERMINED.
+### C5 — provenance is relational
 
-## G. Cross-cutting candidate dimensions
+Provenance spans informational/entity states, activities and agents. Treat provenance as a likely cross-cutting relation/dimension unless N3 proves otherwise.
 
-Do not promote automatically:
+### C6 — context is use-relative
 
+Context literature and current project evidence both suggest that context often depends on relevance/selection relative to an entity, interaction, Work or current use. Treat context/view formation as a problem family, not an intrinsic object subtype.
+
+### C7 — quality/stewardship dimensions are not ontology children
+
+Data-quality and FAIR traditions expose intrinsic/contextual/representational/access/reuse concerns, but these are stakeholder/use/system perspectives and desiderata crossing multiple informational states.
+
+## D. Candidate cross-cutting dimensions
+
+Current strong cross-cutting candidates:
+
+- referent/scope;
+- source/provenance;
+- holder/perspective;
+- temporal applicability/freshness;
 - uncertainty/confidence;
-- provenance/source;
-- temporal validity/freshness;
-- perspective/holder;
-- authority;
+- authority/standing;
 - accessibility/visibility;
+- representation medium/form;
 - persistence horizon;
-- representation form/medium;
 - derivation lineage.
 
-These may recur across several eventual children.
+Do not promote automatically.
 
-## H. Boundary rivals
+## E. Candidate process/result pattern
 
-Must be tested against:
+A recurring structural pattern, not yet a hierarchy:
+
+```text
+formation / acquisition / transformation
+        ↓
+informational result / representation / state
+        ↓
+relations / standing / use / context
+        ↓
+optional persistence / lifecycle obligations
+```
+
+N3 must test whether this is merely a lifecycle view or can yield stable first-order branches.
+
+## F. Records boundary
+
+Prior deep evidence establishes Persistent Information / Records as a specialised problem region.
+
+Still open:
+
+- immediate child vs deeper specialization vs lifecycle axis;
+- persistence vs recordhood;
+- how Records requirement-derivation semantics nest without flattening;
+- whether transient and persistent representations share enough parent semantics to justify the current broader ground.
+
+## G. Boundary rivals
+
+Must continue to survive tests against:
 
 - Environment / actual world state;
 - Work state, goal, decision and commitment;
-- Actor identity/capability/authority/mental state;
+- Actor identity/capability/authority/participation;
 - Records / persistent information;
-- relation-only representations;
-- implementation mechanisms such as RAG/KG/memory/context systems.
+- relation-only implementations;
+- technical mechanisms such as RAG/KG/memory/context systems.
 
-## Current status
+## H. Current phase
 
-No immediate-child map is accepted yet. N0 evidence recovery remains active.
+N0 complete.  
+N1 parent coherence attack complete with provisional pass.  
+N2 first-principles problem inventory complete.  
+**N3 immediate-child clustering is next and active.**
+
+No child is accepted yet.
