@@ -12,14 +12,14 @@ For current status/authorization read `STATE.md` first. This router does not ind
 |---|---|---|
 | Current overall state / authorisation | `STATE.md` | relevant current package router |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` / `CURRENT-SURFACES.md` |
-| Current Information result under evaluation | `03_ground-deepening/grounds/information/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis |
+| Accepted Information top-level result | `03_ground-deepening/grounds/information/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis |
 | Integrated Information top-level result | `03_ground-deepening/grounds/information/synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` | `N7-NODE-CLOSURE.md` |
 | Information research path / rivals / falsifiers | Information `INDEX.md` | N0–N6 / source ledger |
 | Information residual/reopen/deeper questions | Information `OPEN-QUESTIONS.md` | relevant pass file |
 | Completed Environment result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX / CURRENT-SURFACES / parent synthesis-audit |
 | Environment leaf internal maps | relevant leaf `FINDINGS-MAP.md` | synthesis / audit / evidence |
 | Prior candidate studies relevant to a Foundation problem | `../studies/CATALOG.md` | selected study `META.md` → package STATE/INDEX/findings; active Foundation method/authorization controls depth |
-| What is authorised now? | `STATE.md` | Information result evaluation only; no substantive node active |
+| What is authorised now? | `STATE.md` | next-work selection/planning only; no substantive node active |
 
 ## Completed Environment tree
 
@@ -38,9 +38,9 @@ Environment / Operating Reality                 ← boundedly complete / accepte
          ↳ Technical Work Environment               ← deep technical specialization/profile
 ```
 
-## Information result under evaluation
+## Accepted Information result
 
-The completed pass was routed as `Information / Representation State` and recommends:
+The completed pass was routed as `Information / Representation State` and the user-evaluated current bounded result is:
 
 ```text
 Information / Representation
@@ -53,10 +53,10 @@ Records / Persistent Information
 
 Important status rule:
 
-- this is the **current bounded research result**;
-- it is **awaiting user evaluation**;
-- it does not yet become a user-accepted replacement for the prior adequacy-stage working sketch merely because the pass closed;
-- no Information child is active.
+- this is the **current bounded, user-evaluated research result**;
+- it refines the prior adequacy-stage Information→Records working sketch;
+- no Information child is active;
+- acceptance does not imply independent verification or architecture/ontology adoption.
 
 ## Candidate-study boundary
 
@@ -76,11 +76,11 @@ Use the studies catalog as discovery, then descend to selected package/source wh
 
 No substantive node is active.
 
-The current interaction is evaluation of the bounded Information top-level result.
+The Information evaluation gate is closed. The current interaction is next-work selection/planning only.
 
-After evaluation, a separate transition decision is required before:
+A separate transition decision is required before:
 
-- deepening either proposed Information child;
+- deepening either Information child;
 - proceeding to Work or Actors;
 - opening systematic relation/control composition.
 
