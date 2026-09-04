@@ -12,7 +12,8 @@ For current status/authorization read `STATE.md` first. This router does not ind
 |---|---|---|
 | Current overall state / authorisation | `STATE.md` | relevant current package router |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` / `CURRENT-SURFACES.md` |
-| Current active Information work | `03_ground-deepening/grounds/information/STATE.md` | `INDEX.md` → `RESEARCH-PLAN.md` / `EVIDENCE-INVENTORY.md` |
+| Current active Information work | `03_ground-deepening/grounds/information/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → `INDEX.md` |
+| Information N0–N2 results | active Information `INDEX.md` | N0 recovery / N1 coherence / N2 inventory / source ledger |
 | Information candidate/problem map | `03_ground-deepening/grounds/information/FINDINGS-MAP.md` | `OPEN-QUESTIONS.md` / evidence routes |
 | Completed Environment result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX / CURRENT-SURFACES / parent synthesis-audit |
 | Environment leaf internal maps | relevant leaf `FINDINGS-MAP.md` | synthesis / audit / evidence |
@@ -35,17 +36,26 @@ Environment / Operating Reality                 ← boundedly complete / accepte
          ↳ Technical Work Environment               ← deep technical specialization/profile
 ```
 
-## Current transition state
+## Current Information state
 
-Environment is boundedly complete for the current foundation-research purpose.
+`Information / Representation State` is the **single active top-level node**.
 
-On 2026-09-04 the user explicitly selected `Information / Representation State` as the next ground after canonical preflight. Information is now the **single active top-level node**, beginning at N0 internal/canonical evidence recovery.
+Progress:
+
+```text
+N0 internal evidence recovery       ← complete
+N1 parent coherence attack          ← provisional pass / complete
+N2 first-principles problem map     ← bounded complete / no children accepted
+N3 immediate-child clustering       ← CURRENT
+```
+
+The parent is currently coherent enough as a research problem region to continue, but its label remains provisional. No immediate child is accepted yet.
 
 ## One-active-node rule
 
 Only `Information / Representation State` is active.
 
-Candidate children in the active package are hypotheses/problem regions only. No child may be activated until the top-level Information node closes and the user evaluates it.
+Candidate children/clusters are hypotheses only. No child may be activated until the top-level Information node closes and the user evaluates it.
 
 ## Guardrail
 
