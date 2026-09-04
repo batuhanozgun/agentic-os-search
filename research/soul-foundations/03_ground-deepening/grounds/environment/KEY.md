@@ -1,6 +1,6 @@
 # Environment / Operating Reality — KEY
 
-**Status:** ALL CURRENTLY KNOWN PROMOTED DESCENDANTS BOUNDED / ACCEPTED; ENVIRONMENT COMPLETION NOT YET ADJUDICATED  
+**Status:** BOUNDEDLY COMPLETE FOR CURRENT FOUNDATION-RESEARCH PURPOSE; USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-04
 
 ## Shortest current result
@@ -15,28 +15,21 @@ Environment / Operating Reality
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics      ← bounded leaf / accepted
     │    │         └─ Criterion-Relative Standing   ← bounded leaf / accepted
-    │    └─ Domain Dynamics                         ← bounded leaf
-    └─ Work Conditions                              ← bounded leaf
+    │    └─ Domain Dynamics                         ← bounded leaf / accepted
+    └─ Work Conditions                              ← bounded leaf / accepted
          ↳ Technical Work Environment               ← deep technical specialization/profile
 ```
 
-## Current research state
+## Completion judgment
 
-All currently known promoted Environment descendants have dedicated accepted/bounded results at current foundation depth. No descendant evidence forced an Environment/Domain parent reopen.
+Environment is boundedly complete for this foundation-research stage.
 
-## Important distinction
+All currently known promoted descendants have dedicated accepted/bounded results. No descendant pass forced an Environment/Domain parent reopen. Leaf packages retain rich internal problem maps; leaf status means no stable universal immediate-child split was justified, not that the leaf lacks internal concepts.
 
-```text
-known descendant research debt addressed and accepted
-≠ Environment completion already adjudicated
-```
-
-Current authorized work is Environment-level discussion / judgment.
+Residual questions and reopen triggers remain preserved in the Environment and child packages. Completion is therefore bounded, not a universal ontology/architecture claim.
 
 ## Transition judgment
 
-Information remains inactive and must not begin automatically.
+No substantive node is active. Next work is next-ground selection/planning from canonical state.
 
-## Authorization
-
-No substantive node is active.
+Information remains inactive until explicitly selected and planned.
