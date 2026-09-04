@@ -95,6 +95,20 @@ Review relevant entries when work reaches any of these conditions:
 - **Detailed research route:** no dedicated durable research package yet; current evaluation originated in project conversation and this registry preserves only the prospective reuse conclusion
 - **External source:** https://github.com/public-apis/public-apis
 
+### HandsOnLLM/Hands-On-Large-Language-Models
+
+- **Target:** `HandsOnLLM/Hands-On-Large-Language-Models`
+- **Kind:** executable LLM textbook / notebook corpus / implementation-reference and falsifier source
+- **Current status:** reuse candidate; research/reference value established, production adoption not evaluated or recommended
+- **Potential SOUL use:** provide concrete LLM representation, retrieval, fine-tuning, tool/memory/planning and multi-agent examples that can pressure-test Information and Actors reasoning without importing the book's organization as SOUL taxonomy
+- **Potential Development OS use:** supply executable AI failure cases for semantic model/tokenizer binding, model/API/version drift, environment-bound replay, training-runtime behavior and AI artifact provenance/verification design
+- **Reuse mode:** evidence/reference, falsifier/test-case source and implementation-learning corpus; not a default production dependency
+- **Why it matters:** one coherent corpus spans tokenization, embeddings, classification, clustering, prompting, RAG, multimodality, representation-model training, generation-model fine-tuning and agent composition; open maintenance cases make hidden model/environment/API bindings operationally visible
+- **Constraints / risks:** notebook-centric rather than production-library architecture; no repository-local automated test/CI surface observed in the audit; executable examples can drift with hosted runtimes, provider APIs and ML dependency versions; open PR diagnoses are reported evidence rather than automatically verified root causes
+- **Revalidation needed:** before any implementation reuse, re-check current target HEAD, dependencies, affected notebooks, provider/model contracts and execution environment; independently run the exact example or derived test when correctness matters
+- **Detailed research route:** `research/hands-on-large-language-models/REPOSITORY-RESEARCH.md` and `research/hands-on-large-language-models/SOUL-DEVELOPMENT-OS-ASSESSMENT.md`
+- **External source:** https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
+
 ## Maintenance rule
 
 Prefer updating an existing entry over creating duplicate authoritative copies. If later research produces a dedicated package, link to it here rather than copying its full findings.
