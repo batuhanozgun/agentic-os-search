@@ -2,52 +2,51 @@
 
 ## Role
 
-Current retrieval router for the bounded `Domain Condition` research pass under `Environment → Domain Reality → Domain State`.
+Current retrieval router for the bounded `Domain Condition` parent and its deeper child results.
 
 For current authorization/status read `STATE.md` first.
+
+## Current status
+
+**PARENT ACCEPTED; `REALIZED CHARACTERISTICS` BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Fast route
 
 | Need | Read |
 |---|---|
 | Current node status | `STATE.md` |
-| Shortest bounded result | `KEY.md` |
-| Topic routing | `FINDINGS-MAP.md` |
-| Integrated research result | `synthesis/DOMAIN-CONDITION-SYNTHESIS.md` |
-| Omission / rival audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` |
-| Source recovery | `evidence/SOURCE-LEDGER.md` |
-| Residual uncertainty | `OPEN-QUESTIONS.md` |
-| Deferred relations | `DEFERRED-RELATIONS.md` |
-| Exact freshness after closure/evaluation | `CURRENT-SURFACES.md` |
+| Shortest current hierarchy | `KEY.md` |
+| Current Realized Characteristics result | `realized-characteristics-values/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md` |
+| Realized Characteristics detail | `realized-characteristics-values/FINDINGS-MAP.md` → synthesis/audit/source ledger |
+| Historical parent result | `FINDINGS-MAP.md` / `synthesis/DOMAIN-CONDITION-SYNTHESIS.md` |
+| Parent residual uncertainty | `OPEN-QUESTIONS.md` |
+| Parent deferred relations | `DEFERRED-RELATIONS.md` |
+| Exact parent freshness | `CURRENT-SURFACES.md` |
 
-## Current bounded hierarchy
+Frozen executed plans remain historical pass reconstruction surfaces:
+- `REALIZED-CHARACTERISTICS-VALUES-RESEARCH-PLAN.md`
+- earlier parent `DOMAIN-CONDITION-RESEARCH-PLAN.md` one level above.
+
+## Current hierarchy
 
 ```text
-Domain State
-    ├─ Domain Structure
-    │    ├─ Constituent Composition / Membership
-    │    └─ Relational Organization / Topology
-    └─ Domain Condition                         ← user-evaluated / accepted
-         ├─ Realized Characteristics / Values       ← discovered; inactive
-         └─ Criterion-Relative Standing / Status    ← discovered; inactive
+Domain Condition
+    ├─ Realized Characteristics                 ← bounded leaf / awaiting user evaluation
+    └─ Criterion-Relative Standing / Status     ← promoted / inactive / unresearched
 ```
 
-`Domain Condition / Status` was the inherited planning label. The deeper pass refines the node to `Domain Condition`; `Status` remains useful under the criterion-relative standing child rather than as a co-primary parent synonym.
+`Realized Characteristics / Values` was refined to `Realized Characteristics`; no universal immediate child survived its dedicated pass.
 
-The bounded result was user-evaluated / accepted on 2026-09-04. User acceptance does not alter the verification limits of the research.
+## Current gate
 
-Branches are analytical problem regions, not ontology classes, data types, schema sections or architecture modules.
+No substantive node is active. Current authorized interaction is **user evaluation of bounded `Realized Characteristics` only**.
 
-## Current sequence
+`Criterion-Relative Standing / Status` and Information remain inactive.
 
-The Condition evaluation gate is closed. The next authorised stage is an explicit **Environment completion review** from the current canonical state.
+## Historical rule
+
+Parent pass artifacts preserve the state available during their producing pass. Deeper child refinement is routed through current state/router/freshness surfaces rather than retroactively rewriting historical synthesis.
 
 ## Guardrail
 
-This package does not authorize:
-- deep research of either newly discovered Condition child;
-- Information, Work or Actors research;
-- systematic relation/control composition;
-- SOUL/Development OS architecture, ontology, schema or implementation.
-
-Environment completion review is authorised at the higher Environment/stage level; it must not silently turn into Information research.
+Do not infer ontology classes, schema fields, telemetry design, rule engines, architecture modules or implementation from this research hierarchy.
