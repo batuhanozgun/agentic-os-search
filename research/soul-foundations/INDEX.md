@@ -12,13 +12,14 @@ For current status/authorization read `STATE.md` first. This router does not ind
 |---|---|---|
 | Current overall state / authorisation | `STATE.md` | relevant current package router |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` / `CURRENT-SURFACES.md` |
-| Current active Information work | `03_ground-deepening/grounds/information/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → `INDEX.md` |
-| Information N0–N2 results | active Information `INDEX.md` | N0 recovery / N1 coherence / N2 inventory / source ledger |
-| Information candidate/problem map | `03_ground-deepening/grounds/information/FINDINGS-MAP.md` | `OPEN-QUESTIONS.md` / evidence routes |
+| Current Information result under evaluation | `03_ground-deepening/grounds/information/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis |
+| Integrated Information top-level result | `03_ground-deepening/grounds/information/synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` | `N7-NODE-CLOSURE.md` |
+| Information research path / rivals / falsifiers | Information `INDEX.md` | N0–N6 / source ledger |
+| Information residual/reopen/deeper questions | Information `OPEN-QUESTIONS.md` | relevant pass file |
 | Completed Environment result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX / CURRENT-SURFACES / parent synthesis-audit |
 | Environment leaf internal maps | relevant leaf `FINDINGS-MAP.md` | synthesis / audit / evidence |
-| Prior candidate studies that may be relevant to a Foundation problem | `../studies/CATALOG.md` | selected study `META.md` → package STATE/INDEX/findings; use only when active node method/authorization makes them relevant |
-| What is authorised now? | `STATE.md` | Information top-level node only |
+| Prior candidate studies relevant to a Foundation problem | `../studies/CATALOG.md` | selected study `META.md` → package STATE/INDEX/findings; active Foundation method/authorization controls depth |
+| What is authorised now? | `STATE.md` | Information result evaluation only; no substantive node active |
 
 ## Completed Environment tree
 
@@ -37,26 +38,31 @@ Environment / Operating Reality                 ← boundedly complete / accepte
          ↳ Technical Work Environment               ← deep technical specialization/profile
 ```
 
-## Current Information state
+## Information result under evaluation
 
-`Information / Representation State` is the **single active top-level node**.
-
-Progress:
+The completed pass was routed as `Information / Representation State` and recommends:
 
 ```text
-N0 internal evidence recovery       ← complete
-N1 parent coherence attack          ← provisional pass / complete
-N2 first-principles problem map     ← bounded complete / no children accepted
-N3 immediate-child clustering       ← CURRENT
+Information / Representation
+    ├─ Informational State / Representational Constitution
+    └─ Informational Dynamics / Formation–Transformation
+
+Records / Persistent Information
+    ↳ deep persistence specialization/profile crossing Information
 ```
 
-The parent is currently coherent enough as a research problem region to continue, but its label remains provisional. No immediate child is accepted yet.
+Important status rule:
+
+- this is the **current bounded research result**;
+- it is **awaiting user evaluation**;
+- it does not yet become a user-accepted replacement for the prior adequacy-stage working sketch merely because the pass closed;
+- no Information child is active.
 
 ## Candidate-study boundary
 
-`research/studies/**` is a separate candidate research library. Its packages can be used selectively as evidence, falsifiers, concrete mechanism/reference material or later design inputs when the active Foundation method makes them relevant.
+`research/studies/**` is a separate candidate research library. Its packages can be used selectively as evidence, falsifiers, mechanism/reference material or later design inputs when the current Foundation method makes them relevant.
 
-They do **not**:
+They do not:
 
 - define Foundation children;
 - override first-principles discovery;
@@ -64,14 +70,20 @@ They do **not**:
 - authorize architecture/implementation;
 - become ontology members because a catalog relevance tag points to a Foundation area.
 
-Use the studies catalog as a discovery surface, not as Foundation evidence by itself. Descend to the selected package and sources when a claim is load-bearing.
+Use the studies catalog as discovery, then descend to selected package/source when a claim is load-bearing.
 
-## One-active-node rule
+## Current gate
 
-Only `Information / Representation State` is active.
+No substantive node is active.
 
-Candidate children/clusters are hypotheses only. No child may be activated until the top-level Information node closes and the user evaluates it.
+The current interaction is evaluation of the bounded Information top-level result.
+
+After evaluation, a separate transition decision is required before:
+
+- deepening either proposed Information child;
+- proceeding to Work or Actors;
+- opening systematic relation/control composition.
 
 ## Guardrail
 
-Do not infer authorization to begin Work/Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data model or implementation.
+Do not infer architecture, ontology/data model, implementation or automatic activation from the Information closure.
