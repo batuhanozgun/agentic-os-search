@@ -1,6 +1,6 @@
 # Information / Representation State — N7 Node Closure
 
-**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
+**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-04  
 **Verification:** same-model adversarial completion review + cross-domain external falsifiers; not independent verification
 
@@ -18,19 +18,19 @@ Can the Information top-level node close for the current foundation purpose with
 
 ## Verdict
 
-**YES — boundedly complete for user evaluation.**
+**YES — boundedly complete; user-evaluated and accepted 2026-09-04.**
 
 Do not interpret this as universal information ontology completeness or independent proof.
 
 ---
 
-# 2. Proposed refined parent result
+# 2. Accepted refined parent result
 
-Current repository routing label during the pass:
+Repository routing label during the pass:
 
 `Information / Representation State`
 
-Recommended bounded refinement:
+Accepted bounded refinement:
 
 > **Information / Representation**
 
@@ -44,7 +44,7 @@ Reason:
 
 ---
 
-# 3. Proposed immediate-child tree
+# 3. Accepted immediate-child tree
 
 ```text
 Information / Representation
@@ -135,7 +135,7 @@ Information / Representation State
 
 The deeper Information pass refines that interpretation.
 
-## Current bounded judgment
+## Accepted bounded judgment
 
 > **Records / Persistent Information is a deeply researched persistence specialization/profile across the Information / Representation ground, not a clean universal immediate peer child.**
 
@@ -235,7 +235,7 @@ Additional broad probes are now mostly producing:
 - domain-specific pipelines;
 - lifecycle specializations;
 - vocabulary refinements;
-- implementation/quality/stewardship concerns;
+- implementation/quality/stewardship concerns
 
 rather than a new first-order Information region.
 
@@ -270,7 +270,7 @@ It did **not** perform an independent second-model/second-researcher replication
 
 Therefore:
 
-> `boundedly complete` means sufficient to stop this top-level node pass and ask for user evaluation; it does not mean objectively final or independently verified.
+> `boundedly complete` means sufficient to stop this top-level node pass. User acceptance closes the research evaluation gate; it does not mean objectively final or independently verified.
 
 ---
 
@@ -278,7 +278,7 @@ Therefore:
 
 **No substantive child is active.**
 
-The top-level node returns to the user for evaluation.
+The top-level result has been returned to the user and accepted.
 
 Do not automatically begin:
 
@@ -291,4 +291,4 @@ Do not automatically begin:
 - ontology/data model;
 - implementation.
 
-If the user accepts the bounded result, the next step is a separate selection/planning decision about whether to deepen one of the two Information children or proceed according to the broader ground-deepening sequence.
+The next step is a separate selection/planning decision about whether to deepen one of the two Information children or proceed according to the broader ground-deepening sequence. Substantive work requires explicit authorization after that decision.
