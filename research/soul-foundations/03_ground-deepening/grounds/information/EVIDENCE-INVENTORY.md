@@ -1,9 +1,10 @@
 # Information / Representation State — Evidence Inventory
 
-**Status:** N0 ACTIVE / PARTIAL RECOVERY  
-**Purpose:** track decision-relevant existing repository evidence before broad new external search.
+**Status:** N0 COMPLETE; external N1/N2 source recovery started  
+**Date:** 2026-09-04  
+**Purpose:** track decision-relevant repository evidence and external structural probes without confusing source roles.
 
-## 1. Direct predecessor evidence
+## 1. Direct predecessor evidence — recovered
 
 ### Records / Persistent Information vertical
 
@@ -13,6 +14,10 @@ Current authoritative route:
 - `../../../01_verticals/records-artifacts/INDEX.md`
 - `../../../01_verticals/records-artifacts/KEY.md`
 - `../../../01_verticals/records-artifacts/FINDINGS-MAP.md`
+- `../../../01_verticals/records-artifacts/CURRENT-REVISION.md`
+- `../../../01_verticals/records-artifacts/synthesis/RECORDS-VERTICAL-SYNTHESIS.md`
+- `../../../01_verticals/records-artifacts/OPEN-QUESTIONS.md`
+- `../../../01_verticals/records-artifacts/DEFERRED-RELATIONS.md`
 
 Current role:
 
@@ -30,18 +35,13 @@ Recovered bounded semantics include:
 - retention/disposition;
 - explicit boundary that correct persistence does not establish truth, evidential sufficiency or sound reasoning.
 
-Still to recover selectively before N0 closes:
+Decision-relevant deferred issues include evidence relation, source/authority designation, Actor/Work relation, provenance ownership and derived-view recordhood.
 
-- integrated Records synthesis;
-- Records open questions;
-- Records deferred relations;
-- focused L3 topics where the Information boundary depends on omitted nuance.
-
-## 2. Adequacy finding that motivated this ground
+## 2. Adequacy finding that motivated this ground — recovered
 
 `../../../02_adequacy/findings/05-information-representation-boundary.md`
 
-Role: current focused adequacy finding; research-level predecessor hypothesis, not final node result.
+Role: focused predecessor hypothesis; not final node result.
 
 Recovered claims/hypotheses to challenge:
 
@@ -53,7 +53,39 @@ Recovered claims/hypotheses to challenge:
 
 The predecessor finding explicitly keeps falsifiers open and does not settle naming or ontology.
 
-## 3. Newer technical research added after the original ground plan
+## 3. Neighbour-ground boundaries — recovered to minimum sufficient depth
+
+### Environment
+
+Recovered current `STATE.md`, `KEY.md` and `DEFERRED-RELATIONS.md`.
+
+Environment-local established anti-collapse rule:
+
+> actual condition != specification / observation / model / Record
+
+Representation-side uncertainty/freshness/conflict, evidence and selected context were explicitly deferred to the Information pass.
+
+### Work
+
+Recovered current `KEY.md`.
+
+Work is a plural, relational, temporally evolving problem region around purpose/outcome, selection/commitment, execution, coordination/evaluation and recovery. Work itself is not exhausted by information that represents Work state.
+
+### Actors
+
+Recovered current `KEY.md`.
+
+Actor research preserves bearer/role/participation/capability/authority/delegation/accountability distinctions. Actor phenomena are not exhausted by information about them.
+
+## 4. Project-context boundary — recovered
+
+`../../../00_context/README.md`
+
+Role: confirms prior context reconstruction is only a starting problem-space signal and does not establish final architecture/ontology or irreducible primitives.
+
+No deeper soul-context read was required for N0 because the current Information decision did not depend on an exact predecessor-repository claim omitted by the Foundations context surface.
+
+## 5. Newer technical research — recovered
 
 ### AI Knowledge Strategies
 
@@ -87,31 +119,41 @@ Decision-relevant signals:
 - memory read becomes context, so persistence and current working context are distinct but related;
 - persistent memory does not acquire source authority merely by being remembered.
 
-These distinctions are useful challenge cases for Information boundaries but must not be imported as immediate children without first-principles tests.
+## 6. N0 integrated result
 
-## 4. SOUL context route
+Canonical synthesis:
 
-`../../../../soul-context/INDEX.md`
+`N0-INTERNAL-EVIDENCE-RECOVERY.md`
 
-Role: bounded project-context router. Relevant only when the Information node needs exact project-specific evidence about context, state, evidence, assumptions, continuity or research/architecture separation.
+N0 conclusion:
 
-No claim from this package is yet promoted into the Information findings map merely because it is project-relevant.
+- no current internal contradiction forces reopening Environment, Work, Actors or Records;
+- Records is a real specialised persistent-information region but cannot answer broader evidence/truth/context/representation questions alone;
+- neighbour-ground boundaries are sufficient to test reduction without stealing their semantics;
+- the Information parent remains an accepted working hypothesis, not a result.
 
-## 5. Environment boundary dependency
+## 7. External N1/N2 source recovery
 
-Environment is already boundedly complete. Its result establishes a current project distinction between actual operating/domain conditions and representations about them.
+Canonical external ledger:
 
-Only the minimum Environment surfaces necessary for actual-vs-representation boundary tests should be recovered during N0/N4; Environment itself must not be reopened without a material falsifier.
+`EXTERNAL-SOURCE-LEDGER.md`
 
-## 6. Current evidence gaps before broad external search
+Current traditions sampled:
 
-N0 remains open until at least:
+- POMDP / partially observable control and decision theory;
+- ISO/OGC observations and measurements;
+- W3C provenance;
+- epistemology of evidence;
+- mental representation;
+- mathematical/semantic information;
+- context-aware computing;
+- data quality;
+- FAIR scientific-data stewardship.
 
-1. Records integrated synthesis/open questions/deferred relations are selectively read;
-2. project-context evidence relevant to context/evidence/state is identified through its router;
-3. the current Environment boundary surface needed for reality-vs-representation is recovered;
-4. any material contradiction among these internal sources is resolved or explicitly retained as a rival.
+Their taxonomies are used as falsifiers/problem probes, not imported into the Foundation hierarchy.
 
-## Epistemic rule
+## 8. Epistemic rule
 
-This inventory records source roles and recovered claims. It is not itself proof of the external claims inside the source packages. Load-bearing external assertions must later descend to their original source ledgers/primary sources as required.
+This inventory records source roles and recovered claims. It is not itself proof of external claims.
+
+Load-bearing external assertions should route through `EXTERNAL-SOURCE-LEDGER.md` to the original/authoritative source. Higher-level summaries are not substitutes when omitted nuance could change a decision.
