@@ -33,10 +33,10 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Evidence inventory | `EVIDENCE-INVENTORY.md` | `651bcea375da677658ac72c44542691f61190d09` |
+| Evidence inventory | `EVIDENCE-INVENTORY.md` | `7d329fa6978adfd63b78921c6166a5f4f1c263f2` |
 | External source ledger | `EXTERNAL-SOURCE-LEDGER.md` | `3296c8a1668c830d728d9dfba4b6ce1defd777bd` |
 | Residual questions | `OPEN-QUESTIONS.md` | `635022054b8eae14e77ba638ac12ab640b31b937` |
-| Deferred relations | `DEFERRED-RELATIONS.md` | `8d984fba5c5bb484cc2522baeebd59c623d1c2d1` |
+| Deferred relations | `DEFERRED-RELATIONS.md` | `49d87281764d62f3c899808a852854c999842122` |
 
 ## Current bounded result
 
