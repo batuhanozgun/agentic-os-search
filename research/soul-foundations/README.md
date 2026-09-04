@@ -76,9 +76,20 @@ Environment / Operating Reality
 
 `03_ground-deepening/grounds/information/` is the **current single active top-level node**, explicitly selected by the user on 2026-09-04 after Environment closure.
 
-Its current phase is `N0 — canonical/internal evidence recovery`.
+Current progress:
 
-The current parent label and any candidate children remain hypotheses to be attacked. The prior Records corpus is retained as deep evidence for persistent-information problems but does not predetermine the Information hierarchy.
+```text
+N0 internal evidence recovery       ← complete
+N1 parent coherence attack          ← provisional pass / complete
+N2 first-principles problem map     ← bounded complete / no children accepted
+N3 immediate-child clustering       ← CURRENT
+```
+
+N1 found a coherent first-order research problem region around mediated informational access/representation and the independent semantics/failures of informational states, transformations and relations. This is not an ontology-primitive decision and the current parent label remains provisional.
+
+N2 exposed twelve problem families and rejected the inherited observation/belief/evidence/context/Records noun list as a hierarchy because it mixes processes, states/results, relations/roles, cross-cutting dimensions and lifecycle conditions.
+
+The prior Records corpus remains deep evidence for persistent-information problems but does not predetermine the Information hierarchy.
 
 For current status and routing read:
 
@@ -89,8 +100,8 @@ For current status and routing read:
 ## Level alignment of existing deep corpora
 
 ```text
-Information / Representation                    ← active parent research; provisional internal structure
-    ? Records / Persistent Information           ← existing deep corpus; position to be tested
+Information / Representation                    ← active parent research; provisional label/internal structure
+    ? Records / Persistent Information           ← existing deep corpus; position still to be tested
 
 Environment / Operating Reality                 ← boundedly complete
     └─ Work Conditions
