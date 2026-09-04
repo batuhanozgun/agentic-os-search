@@ -40,24 +40,24 @@ Its current bounded tree is routed from the parent `STATE.md` and Environment pa
 
 `grounds/information/` is the **current single active top-level node**, explicitly selected by the user on 2026-09-04 after Environment closure and canonical sequencing checks.
 
-Current phase:
+Current progress:
 
-`N0 — canonical/internal evidence recovery`
+```text
+N0 internal evidence recovery       ← complete
+N1 parent coherence attack          ← provisional pass / complete
+N2 first-principles problem map     ← bounded complete / 12 problem families, no children
+N3 immediate-child clustering       ← CURRENT
+```
 
-The active pass must challenge rather than inherit:
-
-- the parent label `Information / Representation State`;
-- the necessity of an independent Information ground;
-- the structural position of Records / Persistent Information;
-- any candidate split among observation, model/belief, inference/evidence, context/view and persistence.
+N1 retains the parent as a coherent research problem region while keeping its label provisional. N2 rejects the inherited observation/belief/evidence/context/Records noun list as a child hierarchy because it mixes processes, informational states/results, relations/roles, cross-cutting dimensions and lifecycle conditions.
 
 Read:
 
 1. `STATE.md` for stage authority/status;
 2. `INDEX.md` for routing;
 3. `grounds/information/STATE.md` for active-node state;
-4. `grounds/information/RESEARCH-PLAN.md` for the node pass;
-5. `grounds/information/EVIDENCE-INVENTORY.md` for N0 recovery.
+4. `grounds/information/KEY.md` and `FINDINGS-MAP.md` for current bounded orientation;
+5. `grounds/information/INDEX.md` for N0/N1/N2 evidence and source routes.
 
 ## Relationship to prior research
 
