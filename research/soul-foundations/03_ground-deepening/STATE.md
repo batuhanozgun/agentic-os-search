@@ -7,7 +7,7 @@
 **Information activation:** 2026-09-04  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
 **Current authorised activity:** INFORMATION / REPRESENTATION STATE TOP-LEVEL NODE RESEARCH  
-**Current phase:** N0 canonical/internal evidence recovery
+**Current phase:** N3 immediate-child clustering
 
 ## Working research tree
 
@@ -25,19 +25,25 @@ Environment / Operating Reality                 ← boundedly complete / accepte
     └─ Work Conditions                              ← bounded leaf / accepted
          ↳ Technical Work Environment               ← deep technical specialization/profile
 
-Information / Representation State              ← ACTIVE / top-level node / N0
+Information / Representation State              ← ACTIVE / top-level node / N3
 Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-## Current continuation
+## Information progress
 
 ```text
-Environment research             ← CLOSED for current foundation purpose
-Information top-level node       ← ACTIVE
-N0 evidence recovery             ← CURRENT PHASE
-Information child activation     ← NOT AUTHORISED before top-level closure + user evaluation
+N0 internal evidence recovery       ← COMPLETE
+N1 node coherence attack            ← PROVISIONAL PASS / COMPLETE
+N2 first-principles problem map     ← BOUNDED COMPLETE / 12 families, not children
+N3 immediate-child clustering       ← CURRENT PHASE
+N4–N6 boundary/falsifier/audit      ← pending within same authorised node
+N7 closure + user evaluation        ← return gate
 ```
+
+N1 retains the parent as a coherent **research problem region**, not as an ontology primitive. The current parent label remains provisional.
+
+N2 rejected the inherited noun list as a child hierarchy because it mixes processes, informational states/results, relations/roles, cross-cutting dimensions and lifecycle conditions.
 
 ## Active package
 
@@ -46,19 +52,19 @@ Information child activation     ← NOT AUTHORISED before top-level closure + u
 Read:
 
 1. `grounds/information/STATE.md`
-2. `grounds/information/INDEX.md`
-3. `grounds/information/RESEARCH-PLAN.md`
-4. `grounds/information/EVIDENCE-INVENTORY.md`
+2. `grounds/information/KEY.md`
+3. `grounds/information/FINDINGS-MAP.md`
+4. `grounds/information/INDEX.md`
 
 ## Method
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
-Only one node may be active. The Information parent label/decomposition remains a hypothesis to test, not an inherited taxonomy.
+Only one node may be active. No Information child is accepted yet.
 
 ## Verification status
 
-Same-model completion/omission reviews are not independent verification.
+Same-model completion/omission reviews are not independent verification. External sources increase cross-domain challenge coverage but do not convert this pass into independent verification.
 
 ## Guardrail
 
