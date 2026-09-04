@@ -1,6 +1,6 @@
 # Domain State — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT PARENT; STRUCTURE/CONDITION ACCEPTED; CONSTITUENT COMPOSITION BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** BOUNDEDLY SUFFICIENT PARENT; STRUCTURE/CONDITION ACCEPTED; CONSTITUENT COMPOSITION BOUNDED LEAF / ACCEPTED  
 **Date:** 2026-09-04  
 **Parent:** Domain Reality
 
@@ -9,7 +9,7 @@
 ```text
 Domain State
     ├─ Domain Structure
-    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    ├─ Constituent Composition               ← bounded leaf; accepted
     │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
     └─ Domain Condition
          ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
@@ -20,9 +20,7 @@ Structure and Condition parent results remain accepted.
 
 ## Deeper Constituent Composition result
 
-`Constituent Composition / Membership` → **Constituent Composition**.
-
-It closes as a bounded leaf at current foundation depth.
+`Constituent Composition / Membership` → **Constituent Composition** → bounded leaf / user-evaluated / accepted.
 
 The node protects which actual constituents make up/participate in the selected structural whole. Distinct relation forms such as part/member/participant/ingredient remain semantically explicit but do not currently form universal child branches.
 
@@ -35,7 +33,7 @@ Currently unresearched promoted descendants:
 - Realized Characteristics / Values;
 - Criterion-Relative Standing / Status.
 
-The next selection must be made after the current user-evaluation gate. `Relational Organization / Topology` is the strongest default next sibling, not automatic authorization.
+`Relational Organization / Topology` is the strongest default next sibling, but it is not automatically active.
 
 ## Strong non-collapse rules
 
@@ -50,7 +48,7 @@ actual standing/status ≠ score/report/certificate by identity
 
 ## Verification limit
 
-All completion audits are same-model adversarial self-reviews, not independent verification.
+All completion audits are same-model adversarial self-reviews, not independent verification. User acceptance does not alter that status.
 
 ## Go deeper
 
@@ -60,4 +58,4 @@ All completion audits are same-model adversarial self-reviews, not independent v
 
 ## Authorization
 
-Current authorized interaction is **user evaluation of bounded Constituent Composition only**. No substantive node is active.
+No substantive node is active. Current authorized work is **next Environment debt selection/planning only**.
