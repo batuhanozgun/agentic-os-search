@@ -1,14 +1,14 @@
 # Domain State — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT PARENT; STRUCTURE/CONDITION ACCEPTED; ALL KNOWN IMMEDIATE DESCENDANT PASSES BOUNDED; FINAL STANDING CHILD AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDEDLY SUFFICIENT PARENT; STRUCTURE/CONDITION ACCEPTED; ALL KNOWN IMMEDIATE DESCENDANT PASSES BOUNDED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE  
 **Domain State user evaluation accepted:** 2026-09-03  
 **Domain Structure:** bounded / accepted; both immediate children bounded leaves / accepted  
-**Domain Condition:** bounded / accepted; both immediate child passes bounded  
+**Domain Condition:** bounded / accepted; both immediate children bounded leaves / accepted  
 **Realized Characteristics:** bounded leaf / accepted 2026-09-04  
-**Criterion-Relative Standing:** bounded leaf 2026-09-04; awaiting user evaluation  
+**Criterion-Relative Standing:** bounded leaf / accepted 2026-09-04  
 **Parent:** Domain Reality  
 **Sibling:** Domain Dynamics — bounded leaf / user-evaluated  
-**Current authorised activity:** NONE; FINAL CHILD EVALUATION / ENVIRONMENT DISCUSSION NEXT TURN
+**Current authorised activity:** ENVIRONMENT-LEVEL DISCUSSION / JUDGMENT ONLY
 
 ## Current hierarchy
 
@@ -19,7 +19,7 @@ Domain State
     │    └─ Relational Organization       ← bounded leaf / accepted
     └─ Domain Condition
          ├─ Realized Characteristics      ← bounded leaf / accepted
-         └─ Criterion-Relative Standing   ← bounded leaf / awaiting user evaluation
+         └─ Criterion-Relative Standing   ← bounded leaf / accepted
 ```
 
 No evidence from any focused descendant pass reopens Domain State or Domain Dynamics.
@@ -37,7 +37,7 @@ current Domain State ≠ Dynamics/history
 
 ## Current implication
 
-All currently known descendants under Domain State have now received dedicated passes at current foundation depth, subject to evaluation of the final Standing result.
+All currently known descendants under Domain State have dedicated accepted/bounded results at current foundation depth.
 
 This does not declare the higher Environment ground complete.
 
