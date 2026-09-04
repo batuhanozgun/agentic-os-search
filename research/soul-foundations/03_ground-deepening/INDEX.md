@@ -6,19 +6,18 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**ENVIRONMENT COMPLETION REVIEW BOUNDED; ENVIRONMENT NOT YET COMPLETE; NO SUBSTANTIVE NODE ACTIVE.**
-
-Current authorization is user evaluation of the Environment completion-review result only.
+**CONSTITUENT COMPOSITION BOUNDED LEAF / AWAITING USER EVALUATION; ENVIRONMENT NOT YET COMPLETE; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Read order
 
 1. `STATE.md` — current stage status/authorization.
 2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive method.
 3. Environment route → `grounds/environment/STATE.md` → `KEY.md`.
-4. Environment completion review → `grounds/environment/completion-review/STATE.md` → `KEY.md` → synthesis/audit.
-5. relevant Domain State/Structure/Condition/Dynamics/Work Conditions packages as needed.
-6. `PLAN.md` — accepted program quality gates and selective-deepening rule.
-7. `CURRENT-SURFACES.md` — exact stage freshness.
+4. Constituent Composition → `grounds/environment/domain-effect/domain-state/domain-structure/constituent-composition-membership/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
+5. Domain Structure/State/Reality routes as needed.
+6. Environment completion review for remaining-debt rationale.
+7. `PLAN.md` — program gates.
+8. `CURRENT-SURFACES.md` — exact stage freshness.
 
 ## Current Environment tree
 
@@ -27,29 +26,32 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition / Membership   ← promoted; inactive; not researched
-    │    │    │    └─ Relational Organization / Topology     ← promoted; inactive; not researched
+    │    │    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive; not researched
-    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive; not researched
-    │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
-    └─ Work Conditions                                        ← bounded leaf; user-evaluated
+    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
+    │    └─ Domain Dynamics                                   ← bounded leaf
+    └─ Work Conditions                                        ← bounded leaf
 ```
 
-## Completion-review verdict
+## Current stage judgment
 
-Retain the Environment parent, Domain Reality/Work Conditions roles, Domain Dynamics leaf and Work Conditions leaf.
+Environment remains not yet complete. One of the four post-review debts has now received its own substantive pass and closed as a bounded leaf:
 
-Environment is not complete because all four promoted Structure/Condition descendants remain material research debts under `G3 — Selective deepening` and the one-level method.
+`Constituent Composition / Membership` → `Constituent Composition`.
 
-## Transition rule
+Remaining promoted/unresearched debts:
+- Relational Organization / Topology;
+- Realized Characteristics / Values;
+- Criterion-Relative Standing / Status.
 
-Information remains inactive. Do not transition while this known Environment debt remains.
+## Current gate
 
-## Recommended next selection
+No substantive node is active. Current authorized interaction is **user evaluation of bounded Constituent Composition only**.
 
-After user evaluation: `Constituent Composition / Membership` is the strongest default next child. It is not active.
+Information remains inactive. If accepted, reassess the next Environment debt; `Relational Organization / Topology` is the strongest default next sibling, not automatic authorization.
 
 ## Guardrail
 
-No substantive node is active. Do not infer authorization for any descendant, Information, cross-ground composition, architecture, ontology/data model or implementation.
+Do not infer authorization for another descendant, Information, cross-ground composition, architecture, ontology/data model or implementation.
