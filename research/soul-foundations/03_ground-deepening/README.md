@@ -20,49 +20,55 @@ This layer does **not** assume that the four grounds require equal numbers of le
 
 At most one hierarchical research node is researched substantively at a time.
 
-This includes both top-level grounds and their deeper children. A node pass:
+A node pass:
 - tests the selected node's own coherence/boundary;
 - identifies only its immediate child problem regions, if any;
 - records cross-cutting dimensions without promoting them automatically;
 - stops and returns to user evaluation before any child or sibling is activated.
 
-Other grounds/siblings may be consulted only when needed to preserve a boundary, construct a counterexample or record a deferred relation. They are not opened in parallel.
+The canonical recursive method is `HIERARCHICAL-DEEPENING-METHOD.md`.
 
-The canonical recursive method is:
-- `HIERARCHICAL-DEEPENING-METHOD.md`
+## Current state
+
+### Environment
+
+`grounds/environment/` is **boundedly complete / user-evaluated** for the current foundation purpose.
+
+Its current bounded tree is routed from the parent `STATE.md` and Environment package surfaces.
+
+### Information / Representation State
+
+`grounds/information/` is the **current single active top-level node**, explicitly selected by the user on 2026-09-04 after Environment closure and canonical sequencing checks.
+
+Current phase:
+
+`N0 — canonical/internal evidence recovery`
+
+The active pass must challenge rather than inherit:
+
+- the parent label `Information / Representation State`;
+- the necessity of an independent Information ground;
+- the structural position of Records / Persistent Information;
+- any candidate split among observation, model/belief, inference/evidence, context/view and persistence.
+
+Read:
+
+1. `STATE.md` for stage authority/status;
+2. `INDEX.md` for routing;
+3. `grounds/information/STATE.md` for active-node state;
+4. `grounds/information/RESEARCH-PLAN.md` for the node pass;
+5. `grounds/information/EVIDENCE-INVENTORY.md` for N0 recovery.
 
 ## Relationship to prior research
 
 Existing completed corpora are evidence inputs, not material to be restarted blindly:
 
-- `01_verticals/records-artifacts/` is deep evidence for the persistent-information branch of Information / Representation;
+- `01_verticals/records-artifacts/` is deep evidence for persistent-information problems; its position under Information remains to be tested;
 - `01_verticals/work-environment/` is deep evidence for Technical Work Environment, retained under the broader Environment work-condition branch;
-- `01_verticals/work/` is already a broad/deep study of the Work ground;
-- `01_verticals/actors/` is already a broad/deep study of the Actors ground;
-- `history/superseded/operating-world-environment/` is historical but valid prior evidence for Domain/Operating-World questions;
-- `02_adequacy/` supplies the accepted top-level hierarchy and falsifiers that motivated deeper ground research.
-
-## Current Environment deepening
-
-The current top-level ground being deepened is Environment. Its hierarchical deepening is **still in progress**, although several parent/child nodes have boundedly closed. No substantive node is currently active while the closed Domain State result awaits user evaluation.
-
-Current research hierarchy:
-
-```text
-Environment / Operating Reality
-    ├─ Domain Reality
-    │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition
-    │    │    └─ Domain Condition / Status
-    │    └─ Domain Dynamics / Processes
-    └─ Work Conditions / Enabling–Constraining Environment
-         └─ Technical Work Environment
-```
-
-Do not infer current authorization from the tree. Read:
-- `STATE.md` for stage authority/status;
-- `INDEX.md` for routing;
-- `CURRENT-SURFACES.md` for exact freshness.
+- `01_verticals/work/` is already a broad/deep study of Work;
+- `01_verticals/actors/` is already a broad/deep study of Actors;
+- `02_adequacy/` supplies the accepted top-level working frame and falsifiers;
+- `../ai-knowledge-strategies/` and `../context-memory-harness-engineering/` provide later technical/failure-surface evidence relevant to Information, but explicitly carry no Foundation-tree authority.
 
 ## Research discipline
 
