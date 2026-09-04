@@ -1,8 +1,7 @@
 # Environment / Operating Reality — KEY
 
-**Status:** ENVIRONMENT NOT YET COMPLETE; RELATIONAL ORGANIZATION BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
-**Date:** 2026-09-04  
-**Scope:** Environment research hierarchy only; not cross-ground composition or architecture
+**Status:** ENVIRONMENT NOT YET COMPLETE; `REALIZED CHARACTERISTICS` BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Date:** 2026-09-04
 
 ## Shortest current result
 
@@ -11,42 +10,29 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition   ← bounded leaf; accepted
-    │    │    │    └─ Relational Organization   ← bounded leaf; awaiting user evaluation
+    │    │    │    ├─ Constituent Composition   ← bounded leaf / accepted
+    │    │    │    └─ Relational Organization   ← bounded leaf / accepted
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
-    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
-    │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
-    └─ Work Conditions                                        ← bounded leaf; user-evaluated
+    │    │         ├─ Realized Characteristics                 ← bounded leaf / awaiting user evaluation
+    │    │         └─ Criterion-Relative Standing / Status     ← promoted / inactive / unresearched
+    │    └─ Domain Dynamics                                   ← bounded leaf
+    └─ Work Conditions                                        ← bounded leaf
 ```
 
 ## Current verdict
 
 Environment parent remains retained and Environment remains **not yet complete**.
 
-Structure-side focused debt is now bounded:
-- `Constituent Composition` → bounded leaf / accepted;
-- `Relational Organization / Topology` → **Relational Organization** → bounded leaf / awaiting user evaluation.
+`Realized Characteristics / Values` was refined to **Realized Characteristics** and closed as a bounded leaf. No Environment/Domain parent reopen was forced.
 
-If the current result is accepted, remaining promoted/unresearched Environment debt is only:
-- Realized Characteristics / Values;
-- Criterion-Relative Standing / Status.
+Remaining promoted/unresearched debt after the current gate:
+
+`Criterion-Relative Standing / Status`.
 
 ## Transition judgment
 
-**Information should not begin yet.** Known Environment descendant debt remains.
-
-## Verification limit
-
-Completion reviews and node audits are same-model adversarial self-reviews, not independent verification.
-
-## Go deeper
-
-Relational Organization:
-- `domain-effect/domain-state/domain-structure/relational-organization-topology/STATE.md`
-- `domain-effect/domain-state/domain-structure/relational-organization-topology/KEY.md`
-- `domain-effect/domain-state/domain-structure/relational-organization-topology/CURRENT-SURFACES.md`
+Information should not begin yet.
 
 ## Authorization
 
-No substantive node is active. Current authorized interaction is **user evaluation of bounded Relational Organization only**.
+No substantive node is active. Current authorized interaction is **user evaluation of bounded `Realized Characteristics` only**.
