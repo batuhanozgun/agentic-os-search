@@ -37,7 +37,7 @@ Actors / Agency–Participation–Authority
 + typed relations / control / transitions
 ```
 
-This is a research-routing frame, not architecture or ontology. Lower hierarchy and parent labels remain challengeable during `03_ground-deepening/`.
+This is a research-routing frame, not architecture or ontology. Its Information portion has now been challenged/refined by the deeper `03_ground-deepening` pass; the deeper result remains under user evaluation rather than silently rewriting the earlier accepted state.
 
 ### `03_ground-deepening/` — recursive ground/node depth research
 
@@ -74,30 +74,43 @@ Environment / Operating Reality
          ↳ Technical Work Environment
 ```
 
-### Information / Representation State
+### Information top-level pass
 
-`03_ground-deepening/grounds/information/` is the **current single active top-level node**, explicitly selected by the user on 2026-09-04 after Environment closure.
+`03_ground-deepening/grounds/information/` is **boundedly complete / awaiting user evaluation**.
 
-Current progress:
+The pass was executed under the routing label `Information / Representation State` and recommends the refined parent label:
+
+> **Information / Representation**
+
+Recommended bounded structure:
 
 ```text
-N0 internal evidence recovery       ← complete
-N1 parent coherence attack          ← provisional pass / complete
-N2 first-principles problem map     ← bounded complete / no children accepted
-N3 immediate-child clustering       ← CURRENT
+Information / Representation
+    ├─ Informational State / Representational Constitution
+    └─ Informational Dynamics / Formation–Transformation
+
+Records / Persistent Information
+    ↳ deep persistence specialization/profile crossing Information
 ```
 
-N1 found a coherent first-order research problem region around mediated informational access/representation and the independent semantics/failures of informational states, transformations and relations. This is not an ontology-primitive decision and the current parent label remains provisional.
+Current epistemic status:
 
-N2 exposed twelve problem families and rejected the inherited observation/belief/evidence/context/Records noun list as a hierarchy because it mixes processes, states/results, relations/roles, cross-cutting dimensions and lifecycle conditions.
+- parent research-ground coherence: boundedly supported;
+- parent rename: recommended, not yet user-evaluated;
+- two immediate children: boundedly supported, not yet user-evaluated/accepted;
+- Records hierarchical-role refinement: bounded research result, not yet user-evaluated;
+- existing Records-local findings remain user-evaluated and valid for their persistence scope;
+- no substantive child is active.
 
-The prior Records corpus remains deep evidence for persistent-information problems but does not predetermine the Information hierarchy.
+The completed Information pass also rejects the inherited `observation / belief / evidence / context / Records` noun list as an immediate hierarchy because it mixes processes, states/results, relations/roles, use-relative views and lifecycle conditions.
 
-For current status and routing read:
+For current result and status read:
 
 1. `STATE.md` — sole parent-level dynamic authority;
 2. `INDEX.md` — current retrieval router;
-3. `03_ground-deepening/STATE.md` and the active Information package.
+3. `03_ground-deepening/grounds/information/STATE.md`;
+4. `03_ground-deepening/grounds/information/KEY.md`;
+5. `03_ground-deepening/grounds/information/synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md`.
 
 ## Relationship to the candidate research library
 
@@ -149,11 +162,16 @@ A candidate study can inform that decision; it cannot pre-authorize it.
 
 ## Level alignment of existing deep corpora
 
-```text
-Information / Representation                    ← active parent research; provisional label/internal structure
-    ? Records / Persistent Information           ← existing deep corpus; position still to be tested
+Current research result under evaluation:
 
-Environment / Operating Reality                 ← boundedly complete
+```text
+Information / Representation                    ← bounded top-level result; user evaluation pending
+    ├─ Informational State / Representational Constitution
+    └─ Informational Dynamics / Formation–Transformation
+         
+Records / Persistent Information                ← existing deep corpus; persistence specialization/profile across Information
+
+Environment / Operating Reality                 ← boundedly complete / user-evaluated
     └─ Work Conditions
          ↳ Technical Work Environment            ← existing deep specialization/profile
 
@@ -191,6 +209,12 @@ Vertical-local `STATE`, README files, manifests, candidate studies and historica
 ## Isolation and composition rule
 
 Ground/node deepening may acknowledge and record relations needed to define local boundaries, but systematic typed relation/control/composition research remains a later phase unless explicitly authorised.
+
+## Current gate
+
+No substantive node is active.
+
+Current interaction is user evaluation of the Information top-level closure. A separate transition decision is required before deepening an Information child or proceeding to another ground.
 
 ## Epistemic rule
 
