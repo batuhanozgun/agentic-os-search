@@ -1,8 +1,8 @@
 # Environment / Operating Reality — KEY
 
-**Status:** COMPLETION REVIEW BOUNDED; ENVIRONMENT NOT YET COMPLETE; AWAITING USER EVALUATION  
+**Status:** ENVIRONMENT NOT YET COMPLETE; CONSTITUENT COMPOSITION BOUNDED LEAF / AWAITING USER EVALUATION  
 **Date:** 2026-09-04  
-**Scope:** Environment research hierarchy only; not cross-ground composition or architecture
+**Scope:** Environment research hierarchy only
 
 ## Shortest current result
 
@@ -11,70 +11,51 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition / Membership   ← promoted; unresearched
-    │    │    │    └─ Relational Organization / Topology     ← promoted; unresearched
+    │    │    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics / Values       ← promoted; unresearched
-    │    │         └─ Criterion-Relative Standing / Status    ← promoted; unresearched
+    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
     │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
     └─ Work Conditions                                        ← bounded leaf; user-evaluated
-         ↳ Technical Work Environment                         ← deep technical specialization/profile
 ```
 
-## Completion-review verdict
+## Current completion status
 
-**Environment is not yet complete for the current Ground Deepening purpose.**
+Environment parent remains retained and broad parent search remains stopped.
 
-The parent decomposition survives:
+The first post-review descendant is now bounded:
 
 ```text
-Environment / Operating Reality
-    ├─ Domain Reality
-    └─ Work Conditions
+Constituent Composition / Membership
+→ Constituent Composition
+→ bounded leaf
 ```
 
-No third universal first-order Environment branch is currently required and broad parent search has declining value.
+The dedicated pass found no stable immediate child split and no Domain Structure reopen trigger.
 
-The blocker is four promoted descendants that have never received their own substantive passes:
-- Constituent Composition / Membership;
+## Remaining debt
+
+Promoted/unresearched Environment descendants:
 - Relational Organization / Topology;
 - Realized Characteristics / Values;
 - Criterion-Relative Standing / Status.
 
-All four independently meet `G3 — Selective deepening` because they have distinct failure/recovery surfaces and material child-local boundary/decomposition questions.
-
-## What remains closed
-
-- Domain Dynamics remains a bounded leaf.
-- Work Conditions remains a bounded leaf.
-- Technical Work Environment remains a deep specialization/profile.
-- current Environment residuals do not form a third universal branch.
-
-## Transition judgment
-
-**Information should not begin yet.**
-
-Transition would leave known Environment research debt unresolved, including reality-versus-representation and criterion-relative-standing boundaries that the next top-level ground will directly touch.
-
-## Recommended next selection after user evaluation
-
-`Constituent Composition / Membership` is the strongest default next child.
-
-It is not active and this recommendation is not authorization.
+Therefore Environment is still not complete and Information should not begin yet.
 
 ## Verification limit
 
-The completion review is same-model adversarial self-review, not independent verification. Fresh external sources were used only to discriminate live rivals.
+The constituent pass and prior completion reviews are same-model adversarial self-reviews, not independent verification.
 
 ## Go deeper
 
-Completion review:
-- `completion-review/STATE.md`
-- `completion-review/KEY.md`
-- `completion-review/synthesis/ENVIRONMENT-COMPLETION-REVIEW.md`
-- `completion-review/synthesis/COMPLETENESS-OMISSION-CHECK.md`
-- `completion-review/CURRENT-SURFACES.md`
+Constituent Composition:
+- `domain-effect/domain-state/domain-structure/constituent-composition-membership/STATE.md`
+- `.../KEY.md`
+- `.../CURRENT-SURFACES.md`
 
 ## Authorization
 
-Current authorized interaction is **user evaluation of the Environment completion-review result only**.
+No substantive node is active. Current authorized interaction is **user evaluation of bounded Constituent Composition only**.
+
+If accepted, `Relational Organization / Topology` is the strongest default next sibling, but is not automatically authorized.
