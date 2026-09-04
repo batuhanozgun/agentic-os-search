@@ -1,23 +1,24 @@
 # Information / Representation — CURRENT SURFACES
 
-**Status:** canonical freshness binding at bounded top-level closure / user-evaluation gate  
-**Date:** 2026-09-04  
+**Status:** accepted parent binding with Informational State child active  
+**Date:** 2026-09-05  
 **Branch:** `main`  
-**Current phase:** N7 closure complete / USER EVALUATION
+**Current phase:** Informational State child deepening active
 
 ## Current orientation and authority
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `20b3c0903d21445e5092a92858b3e84ab068aa44` |
-| Node router | `INDEX.md` | `f790079238a8ce3ddea5c5b3492c728614245fc9` |
-| Current key | `KEY.md` | `181839c2f527640c93bbbbe236f947c872e1a13f` |
-| Current findings map | `FINDINGS-MAP.md` | `34515b7c3fe4149433792a968b5cd4cadae7e306` |
-| Integrated top-level synthesis | `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` | `2036907af2ddf6b966b18ad7077ff2b49e573ae3` |
-| Closure judgment | `N7-NODE-CLOSURE.md` | `b81ce2ed69f65b568195603ebe633acdc96a2b6f` |
-| Node research plan | `RESEARCH-PLAN.md` | `59347ff22bb3b0349f325bda6e3af0c9bf46acef` |
+| Parent state / child authorization | `STATE.md` | `be0f790fa0996126064cdff1fdd2a825cd5320f6` |
+| Parent router | `INDEX.md` | `9ca19ecf7df380116ea729aa4b4e1722d5d32c95` |
+| Accepted parent key | `KEY.md` | `eb9ead9aa2acf8a9904add85b86b067b45df8eb5` |
+| Accepted parent findings map | `FINDINGS-MAP.md` | `bafbbf822113c62a3b7acfb7fbb22ce951c38984` |
+| Integrated parent synthesis | `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` | `15ab6fc1acac64d8bcf48296c2d15ad8c5a79b99` |
+| Parent closure judgment | `N7-NODE-CLOSURE.md` | `3363eee98643ca28b1ff6ab3d1ec55d7ca871cde` |
+| Parent residual/deeper questions | `OPEN-QUESTIONS.md` | `3104631bc2e554190ba5b4d093db8031008267f2` |
+| Parent research plan | `RESEARCH-PLAN.md` | `59347ff22bb3b0349f325bda6e3af0c9bf46acef` |
 
-## Completed node-pass surfaces
+## Completed parent-pass surfaces
 
 | Phase / role | Path | Bound Git blob SHA |
 |---|---|---|
@@ -29,37 +30,55 @@
 | N5 external / cross-domain falsifiers | `N5-EXTERNAL-CROSS-DOMAIN-FALSIFIERS.md` | `daa34ae45784201290b20139ab75517b920cea7c` |
 | N6 omission / reduction / rival audit | `N6-OMISSION-REDUCTION-RIVAL-AUDIT.md` | `bc67199884d2d0e2fea94723daad91097039dd3d` |
 
-## Evidence / residual surfaces
+## Parent evidence surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Evidence inventory | `EVIDENCE-INVENTORY.md` | `7d329fa6978adfd63b78921c6166a5f4f1c263f2` |
 | External source ledger | `EXTERNAL-SOURCE-LEDGER.md` | `3296c8a1668c830d728d9dfba4b6ce1defd777bd` |
-| Residual questions | `OPEN-QUESTIONS.md` | `635022054b8eae14e77ba638ac12ab640b31b937` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `49d87281764d62f3c899808a852854c999842122` |
 
-## Current bounded result
+## Active child surfaces
+
+| Role | Path | Bound Git blob SHA |
+|---|---|---|
+| Active child state | `informational-state/STATE.md` | `3b1acd8f5a176860051600e9d7daeab6a9e5d83b` |
+| Active child router | `informational-state/INDEX.md` | `9414975661c428cc774132e108ac12d647e4fdfb` |
+| Active child plan | `informational-state/RESEARCH-PLAN.md` | `ee3c9db6ef504d75a349ca6a34a14f6d0db32c65` |
+
+## Stage / Foundation authority surfaces
+
+| Role | Path | Bound Git blob SHA |
+|---|---|---|
+| Ground-deepening state | `../../STATE.md` | `0ca8bee24708ec454677900385bb153580171947` |
+| Ground-deepening router | `../../INDEX.md` | `bef3ff6df27bb129b41862cdfc7bc809bf94d363` |
+| Foundation state | `../../../STATE.md` | `32e804bc61f1e2fe92d47487f21df0b4c41a11f3` |
+| Foundation index | `../../../INDEX.md` | `835135cc16726a88da68d92cb59907b175b02155` |
+
+## Current bounded result / sequencing
 
 ```text
-Information / Representation                    ← bounded result / user evaluation pending
-    ├─ Informational State / Representational Constitution
-    └─ Informational Dynamics / Formation–Transformation
+Information / Representation                    ← boundedly complete / user-evaluated
+    ├─ Informational State / Representational Constitution  ← ACTIVE
+    └─ Informational Dynamics / Formation–Transformation    ← inactive
 
-Records / Persistent Information                ↳ deep persistence specialization/profile crossing Information
+Records / Persistent Information                ↳ accepted deep persistence specialization/profile
+Work                                             ← inactive
+Actors                                           ← inactive
 ```
 
-The pass was executed under the prior routing label `Information / Representation State`; the refined label above is a completed research recommendation, not yet user-accepted.
+The parent pass was executed under the earlier routing label `Information / Representation State`; that pass-time wording remains preserved in its historical artifacts. The current accepted parent label is `Information / Representation`.
 
 ## Authorization interpretation
 
-No substantive node is active.
+Exactly one substantive node is active: `Informational State / Representational Constitution`.
 
-The current gate is user evaluation of the bounded top-level result. Discovering/supporting the two children does not authorise either child pass.
+The child pass may discover immediate children but may not activate them. Informational Dynamics, Work, Actors, systematic composition, architecture, ontology/data model and implementation remain unauthorised.
 
 ## Provenance rule
 
-N0–N6 pass artifacts preserve the labels/status that were current when each phase was executed. Current hierarchy, status and authorization come from `STATE.md`, `KEY.md`, `FINDINGS-MAP.md`, this manifest and the parent stage/Foundations `STATE.md` surfaces.
+Parent N0–N6 pass artifacts preserve the labels/status current when each phase was executed. Current hierarchy, status and authorization come from current `STATE.md`, `KEY.md`, `FINDINGS-MAP.md`, this manifest and the stage/Foundations state surfaces.
 
 ## Verification note
 
-The exact SHA binding establishes current repository view identity. It does not independently verify the research result. N6 remains same-model adversarial review.
+Exact SHA binding establishes repository-view identity only. It does not independently verify the parent or active child research results. Parent N6 remains same-model adversarial review; the active child pass must maintain its own verification status.
