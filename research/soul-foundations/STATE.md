@@ -1,19 +1,19 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; all currently known Environment descendant passes bounded / accepted; Environment-level completion judgment current; no substantive node active  
+**Status:** active research library; Environment boundedly complete / user-evaluated; next-ground selection current; no substantive node active  
+**Environment / Operating Reality:** boundedly complete / accepted 2026-09-04  
 **Domain Structure:** bounded / accepted; Constituent Composition and Relational Organization bounded leaves / accepted  
 **Domain Condition:** bounded / accepted; Realized Characteristics and Criterion-Relative Standing bounded leaves / accepted  
-**Environment completion review:** earlier review bounded / accepted; its identified descendant debt has now been researched and user-evaluated  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** ENVIRONMENT-LEVEL DISCUSSION / JUDGMENT ONLY  
-**Current return condition:** assess Environment as a whole; do not begin Information automatically
+**Current authorised interaction:** NEXT-GROUND SELECTION / PLANNING ONLY  
+**Current return condition:** cold-start from canonical state; select and plan the next ground before substantive research
 
 ## Dependency state
 
 - `01_verticals/`: complete / user-evaluated.
 - `02_adequacy/`: boundedly sufficient / accepted working hypothesis.
 - `03_ground-deepening/`:
-  - Environment / Operating Reality: all currently known promoted descendants have dedicated bounded/accepted results; Environment-level completion judgment remains pending.
+  - **Environment / Operating Reality: BOUNDEDLY COMPLETE / USER-EVALUATED.**
   - Domain Reality:
     - Domain State:
       - Domain Structure:
@@ -22,17 +22,17 @@
       - Domain Condition:
         - Realized Characteristics: bounded leaf / accepted.
         - Criterion-Relative Standing: bounded leaf / accepted.
-    - Domain Dynamics: bounded leaf.
-  - Work Conditions: bounded leaf.
-  - Information / Representation State: inactive.
+    - Domain Dynamics: bounded leaf / accepted.
+  - Work Conditions: bounded leaf / accepted.
+  - Information / Representation State: inactive; strongest sequence candidate for next-ground selection.
   - Work: inactive.
   - Actors: inactive.
 - Cross-ground composition, architecture, ontology/data model and implementation: not authorised.
 
-## Current Environment tree
+## Completed Environment tree
 
 ```text
-Environment / Operating Reality
+Environment / Operating Reality                 ← boundedly complete / accepted
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
@@ -41,22 +41,25 @@ Environment / Operating Reality
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics      ← bounded leaf / accepted
     │    │         └─ Criterion-Relative Standing   ← bounded leaf / accepted
-    │    └─ Domain Dynamics                         ← bounded leaf
-    └─ Work Conditions                              ← bounded leaf
+    │    └─ Domain Dynamics                         ← bounded leaf / accepted
+    └─ Work Conditions                              ← bounded leaf / accepted
+         ↳ Technical Work Environment               ← deep technical specialization/profile
 ```
 
-## Environment completion state
+## Environment completion judgment
 
-All **currently known** promoted Environment descendants have dedicated focused passes and accepted/bounded results at current foundation depth.
+Environment is closed as **boundedly complete for the current foundation-research purpose**.
 
-This does **not** yet declare Environment boundedly complete. Current work is the Environment-level discussion/judgment requested by the user, and known-tree traversal is not itself a completion criterion.
+This is not a universal ontology or architecture claim. Rich internal leaf problem maps remain preserved even where no further universal hierarchical child was promoted. Later Information, Work, Actors, composition, independent review or materially different domain evidence may trigger an explicit reopen.
 
 ## Verification status
 
-Underlying audits are same-model adversarial self-reviews, **not independent verification**. External sources discriminate live rivals but do not independently validate the exact hierarchy.
+Underlying audits are same-model adversarial self-reviews, **not independent verification**. User acceptance closes the research gate; it does not change verification independence.
 
 ## Current authorization
 
-**ENVIRONMENT-LEVEL DISCUSSION / JUDGMENT ONLY.**
+**NEXT-GROUND SELECTION / PLANNING ONLY.**
 
-Do not begin Information, Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation automatically.
+Information / Representation State is the strongest next candidate in the existing research sequence, but it is not active until a fresh session recovers canonical state and explicitly selects/plans it.
+
+Do not begin Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation automatically.
