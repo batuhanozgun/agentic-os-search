@@ -1,6 +1,6 @@
 # Environment / Operating Reality — STATE
 
-**Status:** ENVIRONMENT NOT YET COMPLETE; RELATIONAL ORGANIZATION / TOPOLOGY PASS ACTIVE  
+**Status:** ENVIRONMENT NOT YET COMPLETE; RELATIONAL ORGANIZATION BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
 **Environment parent authorised:** 2026-09-02  
 **Domain State user evaluation accepted:** 2026-09-03  
 **Domain Dynamics user evaluation accepted:** 2026-09-03  
@@ -9,10 +9,10 @@
 **Domain Condition:** bounded / accepted 2026-09-04  
 **Environment completion review:** bounded / accepted 2026-09-04; Environment NOT YET COMPLETE  
 **Constituent Composition:** bounded leaf / accepted 2026-09-04  
-**Relational Organization / Topology:** active substantive pass 2026-09-04  
+**Relational Organization:** bounded leaf 2026-09-04; awaiting user evaluation  
 **Scope:** Environment / Operating Reality ground only  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** `RELATIONAL ORGANIZATION / TOPOLOGY` RESEARCH ONLY
+**Current authorised activity:** USER EVALUATION OF BOUNDED `RELATIONAL ORGANIZATION` ONLY
 
 ## Current Environment hierarchy
 
@@ -21,32 +21,36 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition               ← bounded leaf; accepted
-    │    │    │    └─ Relational Organization / Topology    ← ACTIVE SUBSTANTIVE PASS
+    │    │    │    ├─ Constituent Composition   ← bounded leaf; accepted
+    │    │    │    └─ Relational Organization   ← bounded leaf; awaiting user evaluation
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
     │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
-    │    └─ Domain Dynamics                                   ← bounded leaf
-    └─ Work Conditions                                        ← bounded leaf
+    │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
+    └─ Work Conditions                                        ← bounded leaf; user-evaluated
 ```
 
-## Current deeper work
+## Current deeper result
 
-The second focused Structure descendant is active under:
-`domain-effect/domain-state/domain-structure/RELATIONAL-ORGANIZATION-TOPOLOGY-RESEARCH-PLAN.md`
+The second focused Structure descendant has closed:
 
-Its package is:
-`domain-effect/domain-state/domain-structure/relational-organization-topology/STATE.md`.
+```text
+Relational Organization / Topology
+→ Relational Organization
+→ bounded leaf
+```
 
-The pass tests whether relation/connectivity/dependency, spatial/geometric arrangement, interfaces, hierarchy and derived patterns form one coherent node or require a deeper split.
+No evidence requires a broad Environment restart, Domain Structure reopen or a new Structure child.
+
+If accepted, both Structure children are bounded leaves at the current foundation depth.
 
 ## Remaining Environment debt
 
-Besides the active node:
-- Realized Characteristics / Values — inactive / not researched;
-- Criterion-Relative Standing / Status — inactive / not researched.
+Promoted but unresearched:
+- Realized Characteristics / Values;
+- Criterion-Relative Standing / Status.
 
-Information remains inactive while Environment descendant debt remains.
+Information remains inactive while this Environment descendant debt remains.
 
 ## Verification status
 
@@ -54,4 +58,4 @@ Completion reviews and node audits remain same-model adversarial self-review, no
 
 ## Guardrail
 
-Only `Relational Organization / Topology` is substantively active. Do not activate another descendant, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation.
+No substantive node is active. Do not activate a Domain Condition child, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation automatically.
