@@ -1,16 +1,15 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE CHILD ACTIVE  
+**Status:** ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE CHILD BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment completion:** boundedly complete / accepted 2026-09-04  
-**Information activation:** 2026-09-04  
-**Information top-level closure:** boundedly complete for evaluation 2026-09-04  
-**Information user evaluation:** accepted 2026-09-04  
+**Information top-level user evaluation:** accepted 2026-09-04  
 **Informational State activation:** 2026-09-05  
+**Informational State closure:** boundedly complete for evaluation 2026-09-05  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
-**Current authorised substantive activity:** INFORMATIONAL STATE / REPRESENTATIONAL CONSTITUTION NODE RESEARCH  
-**Current phase:** INFORMATIONAL STATE ACTIVE — N0 CANONICAL RECOVERY
+**Current authorised substantive activity:** NONE  
+**Current phase:** INFORMATIONAL STATE USER-EVALUATION GATE
 
 ## Working research tree / epistemic status
 
@@ -28,8 +27,8 @@ Environment / Operating Reality                 ← boundedly complete / accepte
     └─ Work Conditions                              ← bounded leaf / accepted
          ↳ Technical Work Environment               ← deep technical specialization/profile
 
-Information / Representation                    ← bounded top-level result / accepted
-    ├─ Informational State / Representational Constitution  ← ACTIVE
+Information / Representation                    ← boundedly complete / accepted
+    ├─ Informational State / Representational Constitution  ← bounded leaf / USER EVALUATION PENDING
     └─ Informational Dynamics / Formation–Transformation    ← inactive
 
 Records / Persistent Information                ↳ accepted deep persistence specialization/profile across Information
@@ -38,25 +37,27 @@ Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-## Information progress
-
-Top-level Information N0–N7 is complete and user-evaluated.
-
-Current child pass:
+## Informational State progress
 
 ```text
-Informational State / Representational Constitution
-    N0 canonical/internal evidence recovery       ← ACTIVE
-    N1 node coherence attack                      ← pending
-    N2 first-principles problem inventory         ← pending
-    N3 immediate-child discovery                  ← pending
-    N4 boundary / anti-collapse                   ← pending
-    N5 external / cross-domain falsifiers         ← pending
-    N6 omission / reduction / rival audit         ← pending
-    N7 node closure / user evaluation             ← pending
+N0 canonical/internal evidence recovery       ← COMPLETE
+N1 node coherence attack                      ← COMPLETE
+N2 first-principles problem inventory         ← COMPLETE
+N3 immediate-child discovery                  ← COMPLETE
+N4 boundary / anti-collapse                   ← COMPLETE
+N5 external / cross-domain falsifiers         ← COMPLETE
+N6 omission / reduction / rival audit         ← COMPLETE; same-model, non-independent
+N7 node closure                               ← COMPLETE / USER EVALUATION GATE
+substantive child research                    ← NONE ACTIVE
 ```
 
-Current package:
+## Informational State bounded result
+
+Current judgment:
+
+> `Informational State / Representational Constitution` is a bounded leaf for the current Foundation depth; its internal distinctions should remain explicit as constitution/qualification dimensions and relations rather than be forced into immediate children.
+
+Canonical package:
 
 `grounds/information/informational-state/`
 
@@ -64,20 +65,20 @@ Current package:
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
-The one-node-at-a-time rule is currently satisfied because exactly one substantive node is active: Informational State / Representational Constitution.
-
-Finding immediate children during this pass does not authorize researching them in the same pass.
+The one-node-at-a-time rule is currently satisfied because zero substantive nodes are active while the child result awaits user evaluation.
 
 ## Verification status
 
-The parent Information result remains bounded and user-evaluated but not independently replicated. The active child pass must preserve its own verification status and label same-model adversarial review as non-independent.
+The child pass used internal/canonical evidence, Records, candidate studies and materially different external traditions. N6 remains same-model adversarial self-review and is not independent verification. User evaluation does not change that independence status.
 
 ## Current gate / guardrail
+
+Current interaction is Informational State result evaluation only.
 
 Do not begin:
 
 - Informational Dynamics;
-- any child discovered inside Informational State;
+- any State child;
 - Work;
 - Actors;
 - systematic relation/control composition;
@@ -85,4 +86,4 @@ Do not begin:
 - ontology/data model;
 - implementation
 
-until the active Informational State pass reaches its return condition and a subsequent transition is explicitly authorized.
+until a separate post-evaluation transition is explicitly selected and authorised.
