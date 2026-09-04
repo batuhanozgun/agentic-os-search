@@ -1,9 +1,9 @@
 # Information / Representation — Residual Questions
 
-**Status:** bounded residual uncertainty after top-level closure; not an automatic execution queue  
-**Date:** 2026-09-04
+**Status:** bounded residual uncertainty after accepted top-level closure; Informational State child currently active  
+**Date:** 2026-09-05
 
-The top-level Information node is **boundedly complete and awaiting user evaluation**. These questions remain visible for deeper child research, later composition or explicit reopen decisions.
+The top-level Information node is **boundedly complete and user-evaluated**. These questions remain visible for the active Informational State pass, later Informational Dynamics research, later composition or explicit reopen decisions.
 
 ## A. Parent naming / boundary refinements
 
@@ -11,7 +11,7 @@ The top-level Information node is **boundedly complete and awaiting user evaluat
 
 Is `Information / Representation` the best durable parent label, or would a formulation such as `Informational Mediation / Representation` better avoid the polysemy of `Information` without excluding signal/data-access concerns?
 
-**Current bounded decision:** recommend `Information / Representation`; do not treat the label as an ontology primitive.
+**Current bounded decision:** `Information / Representation` is the accepted current research label; do not treat the label as an ontology primitive.
 
 ### Q2 — pre-semantic signal boundary
 
@@ -19,9 +19,11 @@ How far should purely syntactic/statistical/channel information remain inside th
 
 **Current bounded rule:** include it only when the load-bearing problem is informational mediation/access relevant to later represented state or transformation; do not make all Shannon-style information part of one residual bucket.
 
-## B. Informational State child questions
+## B. Informational State child questions — ACTIVE PASS
 
-These require a separate authorised child pass before promotion/refinement:
+These are active research questions under:
+
+`informational-state/`
 
 ### Q3 — stable internal child split
 
@@ -39,9 +41,9 @@ What exact semantics distinguish Actor-local, shared, system-level and external-
 
 Which distinctions among genuine contradiction, differing time/scope/perspective, uncertainty and competing hypotheses are first-order inside State?
 
-## C. Informational Dynamics child questions
+## C. Informational Dynamics child questions — INACTIVE
 
-These require a separate authorised child pass:
+These require a separate authorised child pass after the active Informational State pass closes and is evaluated.
 
 ### Q7 — stable internal child split
 
@@ -104,7 +106,7 @@ representation exists
 
 This belongs primarily to later relation/control composition, not another top-level Information pass by default.
 
-## F. Reopen / falsifier questions
+## F. Parent reopen / falsifier questions
 
 Reopen the top-level node if later evidence shows:
 
@@ -117,6 +119,6 @@ Reopen the top-level node if later evidence shows:
 
 ## Current authorization
 
-These questions are preserved for continuity only.
+**Informational State / Representational Constitution is the only active substantive node.**
 
-**No child or sibling research is authorised until user evaluation and a separate transition decision.**
+These residual questions do not authorize Informational Dynamics, discovered grandchildren, Work/Actors, composition, architecture, ontology or implementation work.
