@@ -91,8 +91,8 @@ No deeper soul-context read was required for N0 because the current Information 
 
 Current route:
 
-- `../../../../ai-knowledge-strategies/STATE.md`
-- `../../../../ai-knowledge-strategies/INDEX.md`
+- `../../../../studies/ai-knowledge-strategies/STATE.md`
+- `../../../../studies/ai-knowledge-strategies/INDEX.md`
 
 Role: technical mechanism/failure-surface evidence, **not Foundation-tree authority**.
 
@@ -107,8 +107,8 @@ Decision-relevant signals:
 
 Current route:
 
-- `../../../../context-memory-harness-engineering/STATE.md`
-- `../../../../context-memory-harness-engineering/INDEX.md`
+- `../../../../studies/context-memory-harness-engineering/STATE.md`
+- `../../../../studies/context-memory-harness-engineering/INDEX.md`
 
 Role: technical engineering/failure-surface evidence, **not Foundation-tree authority**.
 

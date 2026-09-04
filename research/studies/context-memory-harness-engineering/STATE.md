@@ -55,7 +55,7 @@ Therefore the triad is most useful as **engineering problem / failure-surface de
 
 Canonical related package:
 
-`research/ai-knowledge-strategies/`
+`research/studies/ai-knowledge-strategies/`
 
 Current relation:
 
