@@ -1,6 +1,6 @@
 # Realized Characteristics — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded child closure; awaiting user evaluation  
+**Status:** canonical freshness binding after bounded child closure and user acceptance  
 **Date:** 2026-09-04  
 **Branch:** `main`
 
@@ -8,7 +8,7 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `ffb2a3c3a2459a5d479b4dc1981fe2914c0abd58` |
+| Node state | `STATE.md` | `89f92492c6856b3a3e446b22ef3278ea84243178` |
 | Router | `INDEX.md` | `641de48eeb709f47037f936fca25c89a1b1b735b` |
 | L0 key | `KEY.md` | `37d40cc6e61f5700e9f91c1b5600681a60ea1193` |
 | L1 findings map | `FINDINGS-MAP.md` | `43a50a722dd240dd40d487d131245c843baf8a9c` |
@@ -51,21 +51,21 @@ The plan preserves exact root/parent inputs from before substantive research. Th
 ```text
 Realized Characteristics / Values
 → Realized Characteristics
-→ bounded leaf
+→ bounded leaf / user-evaluated / accepted
 ```
 
 Parent view:
 
 ```text
 Domain Condition
-    ├─ Realized Characteristics                 ← bounded leaf / awaiting user evaluation
-    └─ Criterion-Relative Standing / Status     ← promoted / inactive / unresearched
+    ├─ Realized Characteristics                 ← bounded leaf / accepted
+    └─ Criterion-Relative Standing / Status     ← remaining promoted Environment debt
 ```
 
 ## Verification / authorization rule
 
-The F1–F20 audit is same-model adversarial self-review, not independent verification. External evidence discriminates rivals but does not independently validate the exact hierarchy.
+The F1–F20 audit is same-model adversarial self-review, not independent verification. User acceptance does not alter that limit.
 
-No substantive node is active after closure. Current authorised interaction is **user evaluation of bounded `Realized Characteristics` only**.
+No substantive child inside this node is active. The user has separately authorised the sibling `Criterion-Relative Standing / Status` pass.
 
-Do not activate `Criterion-Relative Standing / Status` or Information automatically.
+Information remains inactive.
