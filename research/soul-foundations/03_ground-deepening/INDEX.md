@@ -6,18 +6,18 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; NEXT-GROUND SELECTION CURRENT; NO SUBSTANTIVE NODE ACTIVE.**
+**ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL NODE ACTIVE AT N0.**
 
 ## Read order
 
 1. `STATE.md` — current stage status/authorization.
 2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive method.
-3. Completed Environment → `grounds/environment/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
-4. Environment parent/child synthesis only when recovering its result or boundaries.
-5. `PLAN.md` — program gates.
+3. Current active node → `grounds/information/STATE.md` → `INDEX.md` → `RESEARCH-PLAN.md` → `EVIDENCE-INVENTORY.md`.
+4. Completed Environment → `grounds/environment/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md` only when its result/boundary is needed.
+5. `PLAN.md` — accepted program gates and starting evidence.
 6. `CURRENT-SURFACES.md` — exact stage freshness.
 
-## Completed Environment tree
+## Current research tree
 
 ```text
 Environment / Operating Reality                 ← boundedly complete / accepted
@@ -32,14 +32,24 @@ Environment / Operating Reality                 ← boundedly complete / accepte
     │    └─ Domain Dynamics                         ← bounded leaf / accepted
     └─ Work Conditions                              ← bounded leaf / accepted
          ↳ Technical Work Environment               ← deep technical specialization/profile
+
+Information / Representation State              ← ACTIVE / N0
+Work                                             ← inactive
+Actors                                           ← inactive
 ```
 
 ## Current stage judgment
 
-Environment research is closed for the current foundation purpose. The current gate is next-ground selection/planning.
+Environment is closed for the current foundation purpose.
 
-Information / Representation State is the strongest sequence candidate from the existing program, but remains inactive until explicitly selected and planned from current canonical state.
+Information was explicitly selected by the user on 2026-09-04 after canonical sequencing/preflight checks. The current active work is the **Information top-level node**, beginning with internal evidence recovery before broad external search.
+
+## One-active-node rule
+
+Only Information / Representation State is active.
+
+Candidate immediate children are hypotheses only. Discovering one does not authorize a child pass.
 
 ## Guardrail
 
-No substantive node is active. Do not infer architecture, ontology/data model, implementation or automatic activation of any remaining ground.
+Do not infer architecture, ontology/data model, implementation, systematic cross-ground composition or automatic activation of an Information child/remaining ground.
