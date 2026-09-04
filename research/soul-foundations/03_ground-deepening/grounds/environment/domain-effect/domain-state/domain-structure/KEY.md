@@ -1,6 +1,6 @@
 # Domain Structure — KEY
 
-**Status:** BOUNDED PARENT; USER-EVALUATED / ACCEPTED; CONSTITUENT COMPOSITION BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** BOUNDED PARENT; USER-EVALUATED / ACCEPTED; CONSTITUENT COMPOSITION BOUNDED LEAF / ACCEPTED  
 **Date:** 2026-09-04  
 **Parent:** Domain State
 
@@ -8,7 +8,7 @@
 
 ```text
 Domain Structure
-    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    ├─ Constituent Composition               ← bounded leaf; user-evaluated / accepted
     └─ Relational Organization / Topology    ← promoted; inactive / not researched
 ```
 
@@ -27,6 +27,7 @@ Primary question:
 Deeper result:
 - coherent node;
 - bounded leaf at current foundation depth;
+- user-evaluated / accepted on 2026-09-04;
 - relation semantics such as part/member/participant/ingredient remain explicit but do not form a stable universal child split;
 - nesting, temporary participation, boundary/scope, identity, multiplicity and type-based candidates are not promoted.
 
@@ -65,7 +66,7 @@ No evidence forces reopening Domain Structure or the Domain State Structure-vers
 
 ## Verification limit
 
-The child F1–F19 audit is same-model adversarial self-review, not independent verification. External sources discriminate rivals but do not independently validate this exact project hierarchy.
+The child F1–F19 audit is same-model adversarial self-review, not independent verification. External sources discriminate rivals but do not independently validate this exact project hierarchy. User acceptance does not alter that status.
 
 ## Go deeper
 
@@ -80,6 +81,6 @@ Historical parent synthesis remains `synthesis/DOMAIN-STRUCTURE-SYNTHESIS.md`; i
 
 ## Sequence / authorization
 
-Current authorized interaction is **user evaluation of bounded Constituent Composition only**.
+No substantive node is active. Current authorized work is **next Environment debt selection/planning only**.
 
-If accepted, reassess remaining Environment debt from then-current state. `Relational Organization / Topology` is the strongest default next sibling, not an automatic activation.
+`Relational Organization / Topology` is the strongest default next sibling, not an automatic activation.
