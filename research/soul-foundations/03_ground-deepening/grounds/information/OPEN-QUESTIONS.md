@@ -1,47 +1,122 @@
-# Information / Representation State — Open Questions
+# Information / Representation — Residual Questions
 
-**Status:** active node-local research questions
+**Status:** bounded residual uncertainty after top-level closure; not an automatic execution queue  
+**Date:** 2026-09-04
 
-## Parent / level
+The top-level Information node is **boundedly complete and awaiting user evaluation**. These questions remain visible for deeper child research, later composition or explicit reopen decisions.
 
-1. Is an independent Information/Representation ground necessary, or can the same problems be represented non-lossily within Environment, Work and Actors?
-2. Is `Information / Representation State` the right label and analytical level?
-3. What prevents the ground from becoming `everything that can be described`?
+## A. Parent naming / boundary refinements
 
-## Reality / observation boundary
+### Q1 — final research label
 
-4. What exactly distinguishes actual state from signal, measurement, observation, data and representation?
-5. How should partiality, noise, missingness and selection be represented without treating them as defects of reality itself?
+Is `Information / Representation` the best durable parent label, or would a formulation such as `Informational Mediation / Representation` better avoid the polysemy of `Information` without excluding signal/data-access concerns?
 
-## Representation / epistemic roles
+**Current bounded decision:** recommend `Information / Representation`; do not treat the label as an ontology primitive.
 
-6. Which distinctions among assertion, claim, model, belief, assumption, hypothesis, inference and knowledge are first-order for this project rather than domain terminology?
-7. Is evidential standing a property/state, a relation between representations, or a separate problem region?
-8. How should disagreement, conflict, uncertainty and confidence be preserved without prematurely choosing a probability-only frame?
+### Q2 — pre-semantic signal boundary
 
-## Holder / sharing / perspective
+How far should purely syntactic/statistical/channel information remain inside the parent when no semantic representation/aboutness exists?
 
-9. What makes an informational state Actor-local, shared, system-level or source-external?
-10. Does perspective/holder define a child branch or recur across all representation forms?
+**Current bounded rule:** include it only when the load-bearing problem is informational mediation/access relevant to later represented state or transformation; do not make all Shannon-style information part of one residual bucket.
 
-## Context / view
+## B. Informational State child questions
 
-11. Is context a representation state, a selected view/relation over information, a Work-relative exposure boundary, or some combination?
-12. Which failure families arise from compression, selection, stale context and omitted evidence?
+These require a separate authorised child pass before promotion/refinement:
 
-## Persistence / Records
+### Q3 — stable internal child split
 
-13. Is persistence a stable immediate child of Information or a cross-cutting lifecycle condition?
-14. Are all persistent representations Records? If not, what introduces recordhood obligations?
-15. Can the existing Records requirement-derivation semantics remain intact when nested under a broader ground?
+Do referent/scope, content/form/interpretation and informational identity remain internal problem regions, or do any become stable immediate children of Informational State?
 
-## Boundary with Work and Actors
+### Q4 — epistemic standing structure
 
-16. When does a goal, decision, commitment, plan or Work state count as Work rather than merely a representation about Work?
-17. When is a belief/model part of an Actor's state, and when is the representation itself an Information-ground object/problem?
-18. Can the same concrete representation participate simultaneously in Actor, Work and Information relations without collapsing the analytical grounds?
+How should assertion, assumption, hypothesis, estimate, accepted fact, confidence, reliability and evidential role be represented without importing one probability-only or philosophy-specific calculus?
 
-## Closure
+### Q5 — perspective / holder / sharing
 
-19. What stable immediate children, if any, survive cross-domain falsification and anti-collapse tests?
-20. What evidence would falsify the parent entirely or force a materially different decomposition?
+What exact semantics distinguish Actor-local, shared, system-level and external-source informational states when holder and source differ?
+
+### Q6 — conflict/plurality
+
+Which distinctions among genuine contradiction, differing time/scope/perspective, uncertainty and competing hypotheses are first-order inside State?
+
+## C. Informational Dynamics child questions
+
+These require a separate authorised child pass:
+
+### Q7 — stable internal child split
+
+Do acquisition/observation, derivation/transformation and selection/context formation survive as immediate children of Dynamics, or are they mechanisms/dimensions under a different decomposition?
+
+### Q8 — revision / invalidation / standing change
+
+How should correction, retraction, supersession, belief revision and conflict resolution relate to derivation/change without collapsing Work or authority semantics?
+
+### Q9 — communication / exposure / retrieval
+
+When is transmission/retrieval merely an informational dynamic, and when do Environment channel conditions or Actor permission/control become load-bearing neighbouring-ground semantics?
+
+## D. Persistence / Records specialization questions
+
+### Q10 — composition representation
+
+How should the persistence specialization later be represented across State and Dynamics without duplicating the existing Records corpus or pretending it is a peer partition?
+
+### Q11 — persistence vs memory vs recordhood
+
+Which future-use/lifecycle conditions activate:
+
+- mere persistence;
+- managed memory lifecycle;
+- recordhood/recordkeeping obligations?
+
+The completed Records corpus already covers the deep persistence obligations; this question concerns later cross-ground/composition placement.
+
+### Q12 — persistent derived/context states
+
+When should a selected context, summary, index, model or provenance relation acquire its own persistent identity/Records obligations?
+
+## E. Cross-ground relation questions
+
+### Q13 — Information ↔ Environment
+
+How should informational state/dynamics bind to actual Environment state, including observation, uncertainty, forecasts, stale models and evidence of past realised conditions, without duplicating Environment?
+
+### Q14 — Information ↔ Work
+
+How should goals, plans, decisions, commitments, status representations and verification evidence connect to actual Work state without treating representation updates as Work execution?
+
+### Q15 — Information ↔ Actors
+
+How should belief/holder/source/attribution relations connect to Actor identity, role, authority and delegation without reducing either ground to the other?
+
+### Q16 — evidence / decision / authority
+
+What typed relations are needed later to preserve:
+
+```text
+representation exists
+!= true
+!= evidence for target claim
+!= authoritative source for role
+!= sufficient evidence for decision
+!= authorised/committed decision
+```
+
+This belongs primarily to later relation/control composition, not another top-level Information pass by default.
+
+## F. Reopen / falsifier questions
+
+Reopen the top-level node if later evidence shows:
+
+1. a third stable universal first-order child that cannot fit State/Dynamics without forced loss;
+2. State vs Dynamics is cosmetic and collapses safely;
+3. persistence cannot remain a specialization without semantic duplication/loss;
+4. later Work/Actors/composition research shows boundary theft;
+5. a materially different domain breaks the bounded parent scope;
+6. independent review exposes a missing region or forced-fit case.
+
+## Current authorization
+
+These questions are preserved for continuity only.
+
+**No child or sibling research is authorised until user evaluation and a separate transition decision.**
