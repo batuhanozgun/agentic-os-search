@@ -6,7 +6,7 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**CONSTITUENT COMPOSITION BOUNDED LEAF / AWAITING USER EVALUATION; ENVIRONMENT NOT YET COMPLETE; NO SUBSTANTIVE NODE ACTIVE.**
+**CONSTITUENT COMPOSITION BOUNDED LEAF / ACCEPTED; ENVIRONMENT NOT YET COMPLETE; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Read order
 
@@ -26,7 +26,7 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    │    │    ├─ Constituent Composition               ← bounded leaf; accepted
     │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
@@ -37,20 +37,20 @@ Environment / Operating Reality
 
 ## Current stage judgment
 
-Environment remains not yet complete. One of the four post-review debts has now received its own substantive pass and closed as a bounded leaf:
+Environment remains not yet complete. The first post-review debt has completed and been accepted:
 
-`Constituent Composition / Membership` → `Constituent Composition`.
+`Constituent Composition / Membership` → `Constituent Composition` → bounded leaf / accepted.
 
 Remaining promoted/unresearched debts:
 - Relational Organization / Topology;
 - Realized Characteristics / Values;
 - Criterion-Relative Standing / Status.
 
-## Current gate
+## Current task
 
-No substantive node is active. Current authorized interaction is **user evaluation of bounded Constituent Composition only**.
+No substantive node is active. Current authorized work is **next Environment debt selection/planning only**.
 
-Information remains inactive. If accepted, reassess the next Environment debt; `Relational Organization / Topology` is the strongest default next sibling, not automatic authorization.
+Information remains inactive. `Relational Organization / Topology` is the strongest default next sibling, not automatic authorization.
 
 ## Guardrail
 
