@@ -4,7 +4,8 @@
 **Activated:** 2026-09-04  
 **User authorization:** explicit selection of Information as the next ground after Environment closure  
 **Current node:** Information / Representation State  
-**Current phase:** N0 canonical/internal evidence recovery  
+**Current phase:** N1 node coherence attack; N2 first-principles inventory may be developed only as needed to test coherence  
+**N0 internal evidence recovery:** COMPLETE  
 **Sibling grounds:** Work inactive; Actors inactive  
 **Environment:** boundedly complete / user-evaluated
 
@@ -29,30 +30,44 @@ Only this node is active. Discovering an immediate child does **not** authorize 
 
 No systematic cross-ground composition, architecture, ontology/data-model or implementation work is authorised.
 
-## Current phase — N0 evidence recovery
+## Completed N0 recovery
 
-Before opening broad new external search, recover decision-relevant existing repository evidence.
+Canonical N0 result:
 
-Already recovered at activation:
+`N0-INTERNAL-EVIDENCE-RECOVERY.md`
 
-- `../../../01_verticals/records-artifacts/STATE.md`
-- `../../../01_verticals/records-artifacts/INDEX.md`
-- `../../../01_verticals/records-artifacts/KEY.md`
-- `../../../01_verticals/records-artifacts/FINDINGS-MAP.md`
-- `../../../02_adequacy/findings/05-information-representation-boundary.md`
-- `../../../../ai-knowledge-strategies/STATE.md` and `INDEX.md`
-- `../../../../context-memory-harness-engineering/STATE.md` and `INDEX.md`
-- `../../../../soul-context/INDEX.md`
+N0 recovered the decision-relevant current Records corpus, adequacy predecessor hypothesis, Environment actual-vs-representation boundary, bounded Work/Actors neighbour boundaries, and newer AI knowledge/context-memory technical evidence.
 
-N0 is **not yet closed**. The Records integrated synthesis/open questions/deferred relations and any other decision-relevant internal evidence must be selectively recovered before external search.
+Current conclusion:
 
-## Epistemic status at activation
+- no internal contradiction forces reopening another ground;
+- persistent Records is a real specialised problem region, but does not settle broader Information semantics;
+- actual reality, Work and Actor phenomena retain protected boundaries against their representations;
+- the parent Information hypothesis remains plausible but unproven and must now survive direct reduction/residual/rename/split attacks.
+
+## Current phase — N1 coherence attack
+
+Primary question:
+
+> Is there a coherent, non-residual and non-redundant first-order problem region here at all, and what exact distinction makes it one region?
+
+Keep at least these rivals alive:
+
+1. broader Information/Representation ground with Records nested;
+2. reduction to properties/relations of Environment, Work and Actors;
+3. current parent is too broad/mixed and should split differently;
+4. label/framing error: `Information`, `Representation`, `Epistemic State` or another frame changes the boundary materially.
+
+N2 problem inventory may be developed during N1 only as a falsification aid; do not promote children before the coherence question is sufficiently resolved.
+
+## Epistemic status
 
 ### Retained established bounded findings
 
 - The completed Records vertical is sufficiently complete for its own persistent-information scope and is user-evaluated.
 - Persistence introduces distinctive identity, preservation, history/standing, retrieval and retention/disposition obligations.
-- Recent AI knowledge/context-memory research distinguishes source authority, provenance, freshness, epistemic status, context formation and memory lifecycle as cross-cutting technical concerns; those packages explicitly make no Foundation-tree decision.
+- Environment has an accepted local anti-collapse rule: actual condition is distinct from specification/observation/model/Record.
+- Work and Actors have independent bounded problem-region semantics that are not exhausted by representations about them.
 
 ### Accepted working hypothesis, not yet a result of this node pass
 
