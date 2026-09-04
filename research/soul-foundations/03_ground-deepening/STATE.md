@@ -1,17 +1,17 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT COMPLETION REVIEW BOUNDED; ENVIRONMENT NOT YET COMPLETE; NO SUBSTANTIVE NODE ACTIVE
-**Created:** 2026-09-02
-**Plan accepted:** 2026-09-02
-**Environment parent evaluation:** accepted for hierarchical continuation
-**Domain State user evaluation:** accepted 2026-09-03
-**Domain Dynamics user evaluation:** accepted 2026-09-03
-**Work Conditions user evaluation:** accepted 2026-09-03
-**Domain Structure:** bounded / user-evaluated / accepted 2026-09-03
-**Domain Condition:** bounded / user-evaluated / accepted 2026-09-04
-**Environment completion review:** bounded 2026-09-04; awaiting user evaluation
-**Scope:** ground-specific and recursively branch-specific research-depth completion
-**Current authorised activity:** USER EVALUATION OF THE ENVIRONMENT COMPLETION REVIEW ONLY
+**Status:** ENVIRONMENT DESCENDANT RESEARCH ACTIVE — CONSTITUENT COMPOSITION / MEMBERSHIP  
+**Created:** 2026-09-02  
+**Plan accepted:** 2026-09-02  
+**Environment parent evaluation:** accepted for hierarchical continuation  
+**Domain State user evaluation:** accepted 2026-09-03  
+**Domain Dynamics user evaluation:** accepted 2026-09-03  
+**Work Conditions user evaluation:** accepted 2026-09-03  
+**Domain Structure:** bounded / accepted 2026-09-03  
+**Domain Condition:** bounded / accepted 2026-09-04  
+**Environment completion review:** bounded / accepted 2026-09-04; Environment not yet complete  
+**Scope:** ground-specific and recursively branch-specific research-depth completion  
+**Current authorised activity:** `CONSTITUENT COMPOSITION / MEMBERSHIP` RESEARCH AT IMMEDIATE-CHILD DEPTH ONLY
 
 ## Working research tree
 
@@ -20,41 +20,38 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition / Membership   ← promoted; inactive; not researched
-    │    │    │    └─ Relational Organization / Topology     ← promoted; inactive; not researched
+    │    │    │    ├─ Constituent Composition / Membership   ← ACTIVE
+    │    │    │    └─ Relational Organization / Topology     ← promoted; inactive
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive; not researched
-    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive; not researched
-    │    └─ Domain Dynamics                                   ← bounded leaf; user-evaluated
-    └─ Work Conditions                                        ← bounded leaf; user-evaluated
+    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive
+    │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive
+    │    └─ Domain Dynamics                                   ← bounded leaf
+    └─ Work Conditions                                        ← bounded leaf
 
-Information / Representation State              ← inactive; transition deferred
+Information / Representation State              ← inactive
 Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-## Environment completion-review verdict
+## Current Environment continuation
 
-Environment parent remains coherent, but Environment is **not yet complete** for the current Ground Deepening purpose.
+```text
+Environment completion review ← bounded / accepted
+→ Constituent Composition / Membership research ← ACTIVE
+→ user evaluation after bounded closure
+→ reassess next Environment debt from then-current state
+```
 
-The blocker is the four promoted Structure/Condition descendants above. All four have distinct failure/recovery surfaces and remain unresearched under the one-level method.
+## Method
 
-No broad Environment restart is needed. Domain Dynamics and Work Conditions remain bounded leaves.
+`HIERARCHICAL-DEEPENING-METHOD.md`
 
-## Transition judgment
-
-Information should not begin while the current-ground descendant debt remains.
-
-## Recommended next selection after user evaluation
-
-`Constituent Composition / Membership` is the strongest default next child, but is not active.
+One active node only. Child discovery in the active pass does not authorize grandchild research.
 
 ## Verification status
 
-The Environment completion review and underlying node audits are same-model adversarial self-reviews, not independent verification.
+Same-model completion/omission reviews are not independent verification.
 
-## Next authorised work
+## Guardrail
 
-**USER EVALUATION OF THE ENVIRONMENT COMPLETION REVIEW ONLY.**
-
-Do not activate any descendant, Information, Work, Actors, systematic relation/control composition, architecture, ontology/data-model work or implementation automatically.
+Do not activate another Environment descendant, Information, Work, Actors, systematic relation/control composition, architecture, ontology/data-model work or implementation.
