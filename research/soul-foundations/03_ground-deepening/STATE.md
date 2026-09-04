@@ -1,19 +1,13 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT DESCENDANT SELECTION / PLANNING — STRUCTURE CHILDREN ACCEPTED; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** ENVIRONMENT DESCENDANT ACTIVE — `REALIZED CHARACTERISTICS / VALUES`  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
-**Environment parent evaluation:** accepted for hierarchical continuation  
-**Domain State user evaluation:** accepted 2026-09-03  
-**Domain Dynamics user evaluation:** accepted 2026-09-03  
-**Work Conditions user evaluation:** accepted 2026-09-03  
-**Domain Structure:** bounded / accepted 2026-09-03  
-**Domain Condition:** bounded / accepted 2026-09-04  
-**Environment completion review:** bounded / accepted 2026-09-04; Environment not yet complete  
-**Constituent Composition:** bounded leaf / accepted 2026-09-04  
-**Relational Organization:** bounded leaf / accepted 2026-09-04  
+**Environment completion review:** bounded / accepted; Environment not yet complete  
+**Constituent Composition:** bounded leaf / accepted  
+**Relational Organization:** bounded leaf / accepted  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
-**Current authorised activity:** SELECT / PLAN NEXT DOMAIN CONDITION DESCENDANT
+**Current authorised activity:** `REALIZED CHARACTERISTICS / VALUES` RESEARCH ONLY
 
 ## Working research tree
 
@@ -25,7 +19,7 @@ Environment / Operating Reality
     │    │    │    ├─ Constituent Composition   ← bounded leaf; accepted
     │    │    │    └─ Relational Organization   ← bounded leaf; accepted
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics / Values       ← promoted; inactive
+    │    │         ├─ Realized Characteristics / Values       ← ACTIVE
     │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive
     │    └─ Domain Dynamics                                   ← bounded leaf
     └─ Work Conditions                                        ← bounded leaf
@@ -35,23 +29,14 @@ Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-## Current continuation
-
-```text
-Environment completion review          ← accepted
-Constituent Composition                 ← bounded leaf / accepted
-Relational Organization                 ← bounded leaf / accepted
-Realized Characteristics / Values       ← strongest default next selection; planning now authorised
-Criterion-Relative Standing / Status    ← remains inactive
-```
-
-The order is not a frozen mandatory sequence. It is chosen because the first child isolates criterion-independent realized condition facts before the criterion-sensitive standing problem.
+Frozen active plan:
+`grounds/environment/domain-effect/domain-state/domain-condition/REALIZED-CHARACTERISTICS-VALUES-RESEARCH-PLAN.md`
 
 ## Method
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
-Discovering/promoting a child does not count as researching it. One substantive node at a time remains mandatory.
+One substantive node at a time. Close this child at bounded immediate-child depth and return for user evaluation.
 
 ## Verification status
 
@@ -59,4 +44,4 @@ Same-model completion/omission reviews are not independent verification.
 
 ## Guardrail
 
-Do not activate Information, Work, Actors, systematic relation/control composition, architecture, ontology/data-model work or implementation. The selected child may become active only under a frozen focused plan.
+Do not activate Criterion-Relative Standing / Status, Information, Work, Actors, systematic relation/control composition, architecture, ontology/data-model work or implementation.
