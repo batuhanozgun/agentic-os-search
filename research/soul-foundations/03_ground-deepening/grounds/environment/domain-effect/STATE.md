@@ -1,9 +1,9 @@
 # Domain Reality — STATE
 
-**Status:** BOUNDED DOMAIN REALITY RESULT RETAINED; `REALIZED CHARACTERISTICS` BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDED DOMAIN REALITY RESULT RETAINED; STRUCTURE CHILDREN AND REALIZED CHARACTERISTICS ACCEPTED; FINAL CONDITION CHILD RESEARCH AUTHORISED  
 **Parent:** Environment / Operating Reality  
 **Sibling:** Work Conditions — bounded leaf / user-evaluated  
-**Current authorised activity:** USER EVALUATION OF BOUNDED `REALIZED CHARACTERISTICS` ONLY
+**Current authorised activity:** PLAN AND RESEARCH `CRITERION-RELATIVE STANDING / STATUS` ONLY
 
 ## Current hierarchy
 
@@ -14,12 +14,12 @@ Domain Reality
     │    │    ├─ Constituent Composition   ← bounded leaf / accepted
     │    │    └─ Relational Organization   ← bounded leaf / accepted
     │    └─ Domain Condition
-    │         ├─ Realized Characteristics                 ← bounded leaf / awaiting user evaluation
-    │         └─ Criterion-Relative Standing / Status     ← promoted / inactive / unresearched
+    │         ├─ Realized Characteristics                 ← bounded leaf / accepted
+    │         └─ Criterion-Relative Standing / Status     ← promoted / authorised for final focused pass
     └─ Domain Dynamics                                   ← bounded leaf / user-evaluated
 ```
 
-No Domain Reality, Domain State, Domain Structure or Domain Condition parent reopen was forced by the focused child pass.
+No Domain Reality, Domain State, Domain Structure or Domain Condition parent reopen is indicated entering the final child pass.
 
 ## Strong boundaries retained
 
@@ -27,7 +27,8 @@ No Domain Reality, Domain State, Domain Structure or Domain Condition parent reo
 Domain Reality ≠ every target of Work
 Domain Structure ≠ Domain Condition
 actual characteristic ≠ measurement / estimate / model / report by identity
-Realized Characteristics ≠ Criterion-Relative Standing / Status
+actual standing ≠ representation by identity
+criterion/rule ≠ current standing by identity
 Domain Dynamics ≠ current Domain State
 ```
 
@@ -37,4 +38,4 @@ Underlying node audits are same-model adversarial reviews, not independent verif
 
 ## Guardrail
 
-No substantive node is active. Information and `Criterion-Relative Standing / Status` remain inactive pending user evaluation.
+Only `Criterion-Relative Standing / Status` research is authorised. Information and other top-level grounds remain inactive.
