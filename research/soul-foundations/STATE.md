@@ -1,12 +1,11 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment boundedly complete / user-evaluated; next-ground selection current; no substantive node active  
+**Status:** active research library; Environment boundedly complete / user-evaluated; Information top-level node active  
 **Environment / Operating Reality:** boundedly complete / accepted 2026-09-04  
-**Domain Structure:** bounded / accepted; Constituent Composition and Relational Organization bounded leaves / accepted  
-**Domain Condition:** bounded / accepted; Realized Characteristics and Criterion-Relative Standing bounded leaves / accepted  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT-GROUND SELECTION / PLANNING ONLY  
-**Current return condition:** cold-start from canonical state; select and plan the next ground before substantive research
+**Information / Representation State:** ACTIVE / N0 evidence recovery  
+**Current authorised substantive activity:** Information / Representation State top-level node research  
+**Current authorised interaction:** execute the Information node pass under the hierarchical method through bounded immediate-child resolution  
+**Current return condition:** close the Information top-level node and return to user evaluation before any child/sibling activation
 
 ## Dependency state
 
@@ -24,7 +23,7 @@
         - Criterion-Relative Standing: bounded leaf / accepted.
     - Domain Dynamics: bounded leaf / accepted.
   - Work Conditions: bounded leaf / accepted.
-  - Information / Representation State: inactive; strongest sequence candidate for next-ground selection.
+  - **Information / Representation State: ACTIVE top-level node; N0 canonical/internal evidence recovery.**
   - Work: inactive.
   - Actors: inactive.
 - Cross-ground composition, architecture, ontology/data model and implementation: not authorised.
@@ -46,20 +45,42 @@ Environment / Operating Reality                 ← boundedly complete / accepte
          ↳ Technical Work Environment               ← deep technical specialization/profile
 ```
 
-## Environment completion judgment
+## Active Information node
 
-Environment is closed as **boundedly complete for the current foundation-research purpose**.
+Canonical package:
 
-This is not a universal ontology or architecture claim. Rich internal leaf problem maps remain preserved even where no further universal hierarchical child was promoted. Later Information, Work, Actors, composition, independent review or materially different domain evidence may trigger an explicit reopen.
+`03_ground-deepening/grounds/information/`
+
+The active node must test rather than inherit the current parent hypothesis:
+
+```text
+Information / Representation State              ← ACTIVE / label and decomposition provisional
+    ? Records / Persistent Information           ← existing deep evidence; structural position to be tested
+    ? transient observation / representation
+    ? belief/model/claim/inference/evidence
+    ? context/view formation
+```
+
+Question marks are candidate/problem regions, not accepted children.
+
+Current phase is N0 evidence recovery. Recover decision-relevant existing project evidence before broad new external search.
+
+## Information activation basis
+
+The accepted program recommended Environment → Information → Work → Actors because Environment and Information carried the clearest top-level level-alignment gaps, while Work and Actors already have deep top-level corpora.
+
+User explicitly selected Information as the next ground on 2026-09-04 after requesting repository/agent checks. No material counterevidence was found during activation preflight.
+
+Newer 2026-09-03 AI knowledge and context/memory/harness research is relevant as technical/failure-surface evidence but explicitly carries no Foundation-tree authority; it must not be imported as taxonomy.
 
 ## Verification status
 
-Underlying audits are same-model adversarial self-reviews, **not independent verification**. User acceptance closes the research gate; it does not change verification independence.
+Underlying prior audits are same-model adversarial self-reviews unless separately stated; they are **not independent verification**. User acceptance closes research gates but does not change verification independence.
+
+The active Information pass must preserve this distinction.
 
 ## Current authorization
 
-**NEXT-GROUND SELECTION / PLANNING ONLY.**
+**INFORMATION / REPRESENTATION STATE TOP-LEVEL NODE RESEARCH.**
 
-Information / Representation State is the strongest next candidate in the existing research sequence, but it is not active until a fresh session recovers canonical state and explicitly selects/plans it.
-
-Do not begin Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation automatically.
+Only that node is active. Discovering an Information child does not authorize researching it in the same pass. Do not begin Work, Actors, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation automatically.
