@@ -6,7 +6,7 @@ Current router for the bounded Domain Reality result.
 
 ## Current status
 
-**DOMAIN REALITY RETAINED; `REALIZED CHARACTERISTICS` BOUNDED LEAF / AWAITING USER EVALUATION; ONE DOMAIN CONDITION DESCENDANT REMAINS UNRESEARCHED; NO SUBSTANTIVE NODE ACTIVE.**
+**DOMAIN REALITY RETAINED; ALL KNOWN DESCENDANT PASSES BOUNDED; `CRITERION-RELATIVE STANDING` AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Read order
 
@@ -14,8 +14,8 @@ Current router for the bounded Domain Reality result.
 2. `KEY.md` — shortest hierarchy.
 3. Domain State → `domain-state/STATE.md` / `KEY.md`.
 4. Domain Condition → `domain-state/domain-condition/STATE.md` / `KEY.md`.
-5. Realized Characteristics → `domain-state/domain-condition/realized-characteristics-values/STATE.md` / `KEY.md` / `CURRENT-SURFACES.md`.
-6. Structure/Dynamics as needed.
+5. Final Standing child → `domain-state/domain-condition/criterion-relative-standing-status/STATE.md` / `KEY.md` / `CURRENT-SURFACES.md`.
+6. Realized Characteristics / Structure / Dynamics as needed.
 7. `CURRENT-SURFACES.md` — exact freshness.
 
 ## Current hierarchy
@@ -24,14 +24,14 @@ Current router for the bounded Domain Reality result.
 Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure
-    │    │    ├─ Constituent Composition   ← bounded leaf / accepted
-    │    │    └─ Relational Organization   ← bounded leaf / accepted
+    │    │    ├─ Constituent Composition       ← bounded leaf / accepted
+    │    │    └─ Relational Organization       ← bounded leaf / accepted
     │    └─ Domain Condition
-    │         ├─ Realized Characteristics                 ← bounded leaf / awaiting user evaluation
-    │         └─ Criterion-Relative Standing / Status     ← promoted / inactive / unresearched
-    └─ Domain Dynamics                                   ← bounded leaf
+    │         ├─ Realized Characteristics      ← bounded leaf / accepted
+    │         └─ Criterion-Relative Standing   ← bounded leaf / awaiting user evaluation
+    └─ Domain Dynamics                         ← bounded leaf
 ```
 
 ## Guardrail
 
-No substantive node is active. Current gate is user evaluation of bounded `Realized Characteristics`. Information remains inactive.
+No substantive node is active. Current gate is final Standing evaluation and next-turn Environment discussion. Information remains inactive.
