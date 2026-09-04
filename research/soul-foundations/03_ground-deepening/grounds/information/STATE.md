@@ -1,171 +1,79 @@
 # Information / Representation — STATE
 
-**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
+**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE CHILD BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
 **Activated:** 2026-09-04  
-**Closed for evaluation:** 2026-09-04  
-**User evaluation:** accepted 2026-09-04  
-**User authorization:** explicit selection of Information as the next ground after Environment closure  
-**Research-pass routing label:** Information / Representation State  
+**Top-level user evaluation:** accepted 2026-09-04  
 **Accepted refined parent label:** Information / Representation  
-**Current phase:** CHILD DEEPENING — INFORMATIONAL STATE ACTIVE  
-**N0–N6:** COMPLETE for the bounded top-level pass  
-**Substantive child active:** Informational State / Representational Constitution  
-**Sibling child:** Informational Dynamics / Formation–Transformation — inactive  
-**Sibling grounds:** Work inactive; Actors inactive  
-**Environment:** boundedly complete / user-evaluated
+**Current phase:** INFORMATIONAL STATE USER-EVALUATION GATE  
+**Substantive child active:** NONE  
+**Informational State:** boundedly complete / user evaluation pending  
+**Informational Dynamics:** inactive  
+**Work / Actors:** inactive
 
-## Current purpose
-
-Preserve the bounded, user-evaluated Information top-level result while the explicitly authorised `Informational State / Representational Constitution` child is researched as the single active substantive node.
-
-Current child package:
-
-`informational-state/`
-
-No other child or sibling ground is active.
-
-## Accepted bounded result
-
-Current research label:
-
-> **Information / Representation**
-
-Accepted immediate-child structure:
+## Current parent result
 
 ```text
-Information / Representation
-    ├─ Informational State / Representational Constitution   ← ACTIVE
+Information / Representation                    ← boundedly complete / accepted
+    ├─ Informational State / Representational Constitution   ← bounded leaf / USER EVALUATION PENDING
     └─ Informational Dynamics / Formation–Transformation     ← inactive
 
 Records / Persistent Information
-    ↳ deep persistence specialization/profile crossing the Information ground
+    ↳ deep persistence specialization/profile crossing Information
 ```
 
-The two immediate children are boundedly supported by the completed top-level pass and user-evaluated as the current research structure. Only Informational State is currently authorised for substantive deepening.
+## Informational State child result under evaluation
 
-## Child 1 — Informational State / Representational Constitution
+Canonical child package:
 
-Protected first-order question:
+`informational-state/`
 
-> What informational state/result/representation exists, what is it about, what content/form/identity does it carry, and what makes its interpretation materially distinct from another informational state?
+Current bounded judgment:
 
-Primary problem regions recovered from N2:
+> **Informational State / Representational Constitution is a bounded leaf for the current Foundation research depth. No stable immediate child split survived N1–N6.**
 
-- referent / subject / scope binding;
-- representational content / form / interpretation / assertion semantics;
-- informational identity / granularity / equivalence.
+The child retains explicit internal dimensions/relations covering:
 
-Source, perspective, confidence, freshness, epistemic standing, conflict, accessibility and persistence status remain dimensions/relations unless the active child research independently proves a deeper structure.
+- reference / applicability;
+- content / interpretation / form / mode;
+- identity / granularity / equivalence;
+- attribution / perspective / uncertainty / standing / freshness / conflict / visibility/persistence status where State-side.
 
-## Child 2 — Informational Dynamics / Formation–Transformation
+These are not promoted as immediate child branches.
 
-Protected first-order question:
+## Boundary status
 
-> How do informational states become available, get generated, selected, transformed, revised, communicated, invalidated or otherwise change?
-
-Primary problem regions recovered from N2:
-
-- observation / acquisition formation;
-- derivation / transformation / lineage;
-- selection / view / context formation.
-
-Dynamic aspects also include correction/retraction, conflict handling, retrieval/exposure and persistence lifecycle operations when later activated.
-
-This child is currently inactive.
-
-## Records / persistence judgment
-
-The prior adequacy sketch treated Records as a child of the broader Information ground.
-
-The deeper pass refined that interpretation:
-
-> **Records / Persistent Information is currently better treated as a deep persistence specialization/profile across Information rather than a clean universal immediate peer child.**
-
-Reason:
-
-- persistence is activated by future-use/horizon/lifecycle obligations;
-- persistent information still has Informational State semantics;
-- persistent lifecycle still has Informational Dynamics semantics;
-- peer-child treatment overlaps both promoted branches.
-
-The existing Records corpus remains valid, user-evaluated deep evidence for persistence-specific obligations and is not invalidated by this hierarchical correction.
-
-## Cross-cutting dimensions retained
-
-Explicit but unpromoted at the parent level:
-
-- referent / scope;
-- source / provenance;
-- holder / perspective;
-- temporal applicability / freshness;
-- uncertainty / confidence;
-- epistemic / evidential / authority standing;
-- conflict / plurality;
-- accessibility / visibility;
-- representation form / interpretability;
-- persistence horizon;
-- derivation lineage.
-
-## Boundary result
+Accepted parent anti-collapse remains intact:
 
 ```text
 Environment → actual realised conditions / operating reality
-Work        → pursuit / commitment / execution / evaluation phenomena
-Actors      → bearer / role / capability / authority / participation phenomena
-Information → mediated informational states + their formation/change dynamics
+Work        → pursuit / commitment / execution / evaluation
+Actors      → bearer / role / capability / authority / participation
+State       → represented result and its constitution/qualification
+Dynamics    → formation/change/derivation/selection/revision/communication
 ```
 
-Anti-collapse rules include:
-
-- actual condition != observation/model/record;
-- representation of Work status != actual Work execution/acceptance;
-- Actor identity/authority != representation about that Actor/authority;
-- source authority != truth;
-- message delivery != shared understanding;
-- persistence correctness != factual correctness;
-- context visibility != source existence.
-
-## Completed top-level pass route
-
-- `N0-INTERNAL-EVIDENCE-RECOVERY.md`
-- `N1-NODE-COHERENCE-ATTACK.md`
-- `N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md`
-- `N3-IMMEDIATE-CHILD-DISCOVERY.md`
-- `N4-BOUNDARY-ANTI-COLLAPSE.md`
-- `N5-EXTERNAL-CROSS-DOMAIN-FALSIFIERS.md`
-- `N6-OMISSION-REDUCTION-RIVAL-AUDIT.md`
-- `N7-NODE-CLOSURE.md`
-- `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md`
+Records remains a persistence specialization across Information.
 
 ## Verification status
 
-External cross-domain sources improved falsifier coverage for the parent. N6 was same-model adversarial review. The complete parent synthesis has **not** received independent second-researcher/model replication.
+The State child used current canonical evidence, Records research, selected candidate studies and materially different external sources. Its N6 is same-model adversarial review. The child synthesis has **not** received independent second-researcher/model replication.
 
-User evaluation closed the parent research evaluation gate but did not change verification independence.
+User evaluation may close the child gate but does not change verification independence.
 
-## Parent reopen triggers
+## Current authorization
 
-Reopen the top-level result if later evidence shows:
+**USER EVALUATION OF INFORMATIONAL STATE RESULT ONLY.**
 
-1. a material case requires a third first-order branch;
-2. State vs Dynamics can be collapsed without decision-critical loss;
-3. persistence cannot be treated as a specialization without forced duplication/loss;
-4. later Work/Actors/composition research exposes boundary theft;
-5. the refined parent scope/label fails materially in a holdout domain;
-6. independent review exposes a missing region or forced-fit case.
-
-## Current authorization / return condition
-
-**INFORMATIONAL STATE / REPRESENTATIONAL CONSTITUTION RESEARCH IS ACTIVE.**
+No substantive node is active.
 
 Do not begin:
 
-- Informational Dynamics child research;
-- any child discovered inside Informational State;
-- Work or Actors ground deepening;
+- Informational Dynamics;
+- any State child;
+- Work or Actors;
 - systematic relation/control composition;
-- SOUL/Development OS architecture;
+- SOUL / Development OS architecture;
 - ontology/data-model work;
 - implementation.
 
-When the active Informational State pass reaches its bounded stop condition, return its result for user evaluation before any next node is activated.
+After evaluation, make a separate next-work transition decision.
