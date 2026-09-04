@@ -1,6 +1,6 @@
 # Constituent Composition — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded child closure; awaiting user evaluation  
+**Status:** canonical freshness binding after bounded child closure and user acceptance  
 **Date:** 2026-09-04  
 **Branch:** `main`
 
@@ -8,7 +8,7 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `ad7044d68684f7752c09216b6e37061848127f6e` |
+| Node state | `STATE.md` | `320f5c207bfe6b5b7ae595846d252921127d6dd5` |
 | Router | `INDEX.md` | `a1519428bc9b890375f3f0012c9362bc213f59a8` |
 | L0 key | `KEY.md` | `76e3be3a417732965c59d9ddf90e7939d81a279c` |
 | L1 findings map | `FINDINGS-MAP.md` | `8299a6db71ab4c7a1d9605a5bb337bf48da032af` |
@@ -61,21 +61,21 @@ These SHAs are pass-input provenance and must not be overwritten with post-pass 
 ```text
 Constituent Composition / Membership
 → Constituent Composition
-→ bounded leaf
+→ bounded leaf / user-evaluated / accepted
 ```
 
 Parent view:
 
 ```text
 Domain Structure
-    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    ├─ Constituent Composition               ← bounded leaf; accepted
     └─ Relational Organization / Topology    ← promoted; inactive / not researched
 ```
 
 ## Verification / authorization rule
 
-The F1–F19 audit is same-model adversarial self-review, not independent verification.
+The F1–F19 audit is same-model adversarial self-review, not independent verification. User acceptance does not change that status.
 
-No substantive node is active. Current authorised interaction is **user evaluation of the bounded Constituent Composition result only**.
+No substantive node is active. Current authorised work is **next-debt selection/planning at the parent/stage level only**.
 
 Do not activate the Structure sibling, a Condition child or Information automatically.
