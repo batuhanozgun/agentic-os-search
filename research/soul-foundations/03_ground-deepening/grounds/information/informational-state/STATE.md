@@ -4,7 +4,8 @@
 **Activated:** 2026-09-05  
 **User authorization:** explicit selection and authorization after user-evaluated Information top-level closure  
 **Parent:** `Information / Representation` — boundedly complete / user-evaluated  
-**Current phase:** N0 canonical recovery  
+**Current phase:** N1 node coherence attack  
+**N0:** COMPLETE  
 **Substantive node active:** Informational State / Representational Constitution  
 **Sibling:** Informational Dynamics / Formation–Transformation — inactive  
 **Work / Actors:** inactive
@@ -26,28 +27,29 @@ The pass must not assume that the top-level provisional problem regions — refe
 
 > What informational state/result/representation exists, what is it about, what content/form/identity does it carry, and what makes its interpretation materially distinct from another informational state?
 
-## Initial open problem regions inherited from the parent
+## Current working pressure after N0
 
-These are research inputs, not accepted children:
+N0 recovered strong evidence that:
 
-- referent / subject / scope binding;
-- representational content / form / interpretation / assertion semantics;
-- informational identity / granularity / equivalence;
-- epistemic standing / assertion mode / confidence / reliability;
-- holder / perspective / sharing;
-- conflict / plurality;
-- source / provenance, temporal applicability / freshness, accessibility / visibility and persistence status where state-side semantics are load-bearing.
+- referent/scope, content/interpretation and identity/equivalence are load-bearing State problems;
+- source, perspective, standing, freshness, conflict and accessibility can materially qualify states but may be cross-cutting/relational;
+- Records demonstrates that byte/file identity is insufficient and that version/representation/derivation/aggregate distinctions can matter;
+- candidate studies reinforce persistence != current visibility and recorded artifact != semantic/actual state.
 
-## Research route
+None of these are accepted State children yet.
 
-- N0 — canonical/internal evidence recovery;
-- N1 — node coherence attack;
-- N2 — first-principles problem inventory;
-- N3 — immediate-child discovery with rival decompositions;
-- N4 — boundary / anti-collapse testing;
-- N5 — external and cross-domain falsifiers;
-- N6 — omission / reduction / rival-decomposition audit;
-- N7 — bounded closure and return for user evaluation.
+## Research progress
+
+```text
+N0 canonical/internal evidence recovery       ← COMPLETE
+N1 node coherence attack                      ← ACTIVE
+N2 first-principles problem inventory         ← pending
+N3 immediate-child discovery                  ← pending
+N4 boundary / anti-collapse                   ← pending
+N5 external / cross-domain falsifiers         ← pending
+N6 omission / reduction / rival audit         ← pending
+N7 node closure / user evaluation             ← pending
+```
 
 ## Stop / return condition
 
