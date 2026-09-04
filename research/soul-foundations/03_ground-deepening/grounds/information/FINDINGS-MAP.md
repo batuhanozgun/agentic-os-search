@@ -1,11 +1,11 @@
 # Information / Representation — Findings Map
 
-**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
-**Warning:** current tree is a bounded research result, not architecture/ontology and not yet user-accepted.
+**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
+**Warning:** current tree is a bounded research result, not architecture/ontology.
 
 ## A. Parent result
 
-Recommended research label:
+Accepted research label:
 
 > **Information / Representation**
 
@@ -22,6 +22,8 @@ Information / Representation
     ├─ Informational State / Representational Constitution
     └─ Informational Dynamics / Formation–Transformation
 ```
+
+These two regions are accepted as the current bounded top-level research structure; no child research pass is active.
 
 ### B1 — Informational State / Representational Constitution
 
@@ -79,7 +81,7 @@ These may become deeper research regions only if later child passes independentl
 
 ## E. Records / persistence result
 
-Current bounded correction:
+Accepted bounded correction:
 
 > **Records / Persistent Information is a deep persistence specialization/profile crossing the Information ground, not a clean universal immediate peer child.**
 
@@ -161,6 +163,8 @@ Data-quality, FAIR, context-aware and annotation traditions were used as contras
 
 ## K. Current gate
 
-The top-level node is boundedly complete and awaiting user evaluation.
+The top-level node is boundedly complete and user-evaluated/accepted.
 
 **No child is active.**
+
+Current interaction is next-work selection/planning only; substantive research requires a separate explicit transition.
