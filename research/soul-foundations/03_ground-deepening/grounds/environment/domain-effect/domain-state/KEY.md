@@ -1,6 +1,6 @@
 # Domain State — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT PARENT; `REALIZED CHARACTERISTICS` BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** BOUNDEDLY SUFFICIENT PARENT; ALL KNOWN DESCENDANT PASSES BOUNDED; FINAL STANDING CHILD AWAITING USER EVALUATION  
 **Date:** 2026-09-04
 
 ## Shortest current hierarchy
@@ -8,30 +8,28 @@
 ```text
 Domain State
     ├─ Domain Structure
-    │    ├─ Constituent Composition   ← bounded leaf / accepted
-    │    └─ Relational Organization   ← bounded leaf / accepted
+    │    ├─ Constituent Composition       ← bounded leaf / accepted
+    │    └─ Relational Organization       ← bounded leaf / accepted
     └─ Domain Condition
-         ├─ Realized Characteristics                 ← bounded leaf / awaiting user evaluation
-         └─ Criterion-Relative Standing / Status     ← promoted / inactive / unresearched
+         ├─ Realized Characteristics      ← bounded leaf / accepted
+         └─ Criterion-Relative Standing   ← bounded leaf / awaiting user evaluation
 ```
 
-The first Domain Condition child was refined from `Realized Characteristics / Values` to `Realized Characteristics` and closed as a bounded leaf.
-
-Protected question:
-
-> What materially relevant non-structural characteristics actually obtain for the selected bearer, relation or whole at the selected time, before a separate criterion is applied?
-
-No evidence forces Domain Condition or Domain State reopen.
+Both Domain Condition children have now received focused passes. No third Condition region or Domain State reopen was forced.
 
 ## Strong boundaries
 
 ```text
 Domain Structure ≠ Domain Condition
+Constituent Composition ≠ Relational Organization
+Realized Characteristics ≠ Criterion-Relative Standing
 actual characteristic ≠ observation/measurement/estimate/model/report by identity
-Realized Characteristics ≠ Criterion-Relative Standing / Status
-current characteristic ≠ Dynamics/history
+actual standing ≠ criterion/assessment/score/report/certificate by identity
+current Domain State ≠ Dynamics/history
 ```
 
 ## Current gate
 
-Current authorized interaction is **user evaluation of bounded `Realized Characteristics` only**. No substantive node is active.
+No substantive node is active. `Criterion-Relative Standing` awaits user evaluation, and Environment-level completion discussion is reserved for the next turn.
+
+Information remains inactive.
