@@ -1,6 +1,6 @@
 # Criterion-Relative Standing — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded child closure; awaiting user evaluation  
+**Status:** canonical freshness binding after bounded child closure and user acceptance  
 **Date:** 2026-09-04  
 **Branch:** `main`
 
@@ -8,9 +8,9 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `20523aa3c4c6a3f6c6ab3daed61c04bb713ba325` |
-| Router | `INDEX.md` | `de8b6f0130ab2524d40c5c8e3042bccc67ed6f05` |
-| L0 key | `KEY.md` | `205ca251eb9e674bef47f316f9f5a518c5e5fa01` |
+| Node state | `STATE.md` | `ffa5e5687dde593f7d591a4c8ac5e8567b2838f9` |
+| Router | `INDEX.md` | `0d93290ad45a49dba13774947eb62f056e617959` |
+| L0 key | `KEY.md` | `f72bf953eabaa93a138e32607b9a2a229751ecea` |
 | L1 findings map | `FINDINGS-MAP.md` | `4fc10e6244c5ded4fcc53ec186683b9ca4fd18fa` |
 | Residual questions | `OPEN-QUESTIONS.md` | `330732193c0eee99715ee91b0d5768fdacfd364f` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `738bf4187dd332e872f713a15fdf65182e18ea42` |
@@ -51,7 +51,7 @@ The frozen plan preserves exact root/parent/sibling inputs from before substanti
 ```text
 Criterion-Relative Standing / Status
 → Criterion-Relative Standing
-→ bounded leaf
+→ bounded leaf / accepted
 ```
 
 Parent view:
@@ -59,19 +59,17 @@ Parent view:
 ```text
 Domain Condition
     ├─ Realized Characteristics       ← bounded leaf / accepted
-    └─ Criterion-Relative Standing    ← bounded leaf / awaiting user evaluation
+    └─ Criterion-Relative Standing    ← bounded leaf / accepted
 ```
 
 ## Environment state implication
 
-All currently known promoted Environment descendants have now received dedicated focused passes at current foundation depth, subject to user evaluation of this final child result.
+All currently known promoted Environment descendants have dedicated focused passes and accepted/bounded results at current foundation depth.
 
-This file does **not** declare Environment complete. The user explicitly reserved the next turn for Environment-level discussion/judgment.
+This file does **not** declare Environment complete. Current authorized work is Environment-level discussion / judgment.
 
 ## Verification / authorization rule
 
-The F1–F22 audit is same-model adversarial self-review, not independent verification. External evidence discriminates rivals but does not independently validate the exact hierarchy.
+The F1–F22 audit is same-model adversarial self-review, not independent verification. External evidence discriminates rivals but does not independently validate the exact hierarchy. User acceptance does not alter that verification status.
 
-No substantive node is active after closure. Current authorized interaction is user evaluation of bounded `Criterion-Relative Standing` and the planned Environment discussion.
-
-Information remains inactive.
+No substantive node is active. Information remains inactive.
