@@ -1,12 +1,16 @@
 # Environment / Operating Reality — STATE
 
-**Status:** ENVIRONMENT NOT YET COMPLETE; ALL PRIOR FOCUSED DESCENDANTS ACCEPTED; FINAL KNOWN DESCENDANT RESEARCH AUTHORISED  
+**Status:** ALL CURRENTLY KNOWN PROMOTED DESCENDANT PASSES BOUNDED; FINAL STANDING CHILD AWAITING USER EVALUATION; ENVIRONMENT COMPLETION NOT YET ADJUDICATED; NO SUBSTANTIVE NODE ACTIVE  
 **Domain Structure:** bounded / accepted; both immediate children bounded leaves / accepted  
-**Domain Condition:** bounded / accepted; Realized Characteristics bounded leaf / accepted  
-**Environment completion review:** bounded / accepted; Environment NOT YET COMPLETE  
+**Domain Condition:** bounded / accepted; both immediate child passes bounded  
+**Realized Characteristics:** bounded leaf / accepted  
+**Criterion-Relative Standing:** bounded leaf 2026-09-04; awaiting user evaluation  
+**Domain Dynamics:** bounded leaf / user-evaluated  
+**Work Conditions:** bounded leaf / user-evaluated  
+**Environment completion review:** earlier review bounded / accepted; its identified descendant debt has now received focused passes, subject to final Standing evaluation  
 **Scope:** Environment / Operating Reality ground only  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** PLAN AND RESEARCH `CRITERION-RELATIVE STANDING / STATUS` TO BOUNDED CLOSURE
+**Current authorised activity:** NONE; RETURN FINAL CHILD RESULT, THEN DISCUSS ENVIRONMENT NEXT TURN
 
 ## Current Environment hierarchy
 
@@ -15,25 +19,43 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition   ← bounded leaf / accepted
-    │    │    │    └─ Relational Organization   ← bounded leaf / accepted
+    │    │    │    ├─ Constituent Composition       ← bounded leaf / accepted
+    │    │    │    └─ Relational Organization       ← bounded leaf / accepted
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics                 ← bounded leaf / accepted
-    │    │         └─ Criterion-Relative Standing / Status     ← final known debt / authorised
-    │    └─ Domain Dynamics                                   ← bounded leaf
-    └─ Work Conditions                                        ← bounded leaf
+    │    │         ├─ Realized Characteristics      ← bounded leaf / accepted
+    │    │         └─ Criterion-Relative Standing   ← bounded leaf / awaiting user evaluation
+    │    └─ Domain Dynamics                         ← bounded leaf / user-evaluated
+    └─ Work Conditions                              ← bounded leaf / user-evaluated
 ```
 
-## Remaining Environment debt
+## Current bounded research state
 
-Only one known promoted/unresearched descendant remains: `Criterion-Relative Standing / Status`.
+Every currently known promoted Environment descendant has now received a dedicated pass at current foundation depth.
 
-The user explicitly authorised completing this final branch now and requested that the next turn be used to discuss Environment. Therefore this turn must stop after bounded child closure and continuity propagation; it must not auto-run a new Environment completion review or begin Information.
+The final child result is:
+
+```text
+Criterion-Relative Standing / Status
+→ Criterion-Relative Standing
+→ bounded leaf
+```
+
+No final-child evidence forced a broad Environment restart or parent reopen.
+
+## Important completion distinction
+
+```text
+known descendant research debt addressed
+≠
+Environment bounded completion already adjudicated
+```
+
+The user explicitly reserved the next turn for Environment-level discussion. Therefore Environment completion is deliberately **not declared in this turn**.
 
 ## Verification status
 
-Completion reviews and node audits remain same-model adversarial self-review, not independent verification.
+Completion reviews and node audits remain same-model adversarial self-reviews, not independent verification.
 
 ## Guardrail
 
-Do not activate Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation.
+No substantive node is active. Do not begin Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation automatically.
