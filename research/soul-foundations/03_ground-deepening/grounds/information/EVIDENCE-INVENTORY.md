@@ -1,6 +1,6 @@
-# Information / Representation State — Evidence Inventory
+# Information / Representation — Evidence Inventory
 
-**Status:** N0 COMPLETE; external N1/N2 source recovery started  
+**Status:** N0 INTERNAL RECOVERY COMPLETE; external falsifier recovery completed through N5  
 **Date:** 2026-09-04  
 **Purpose:** track decision-relevant repository evidence and external structural probes without confusing source roles.
 
@@ -37,13 +37,23 @@ Recovered bounded semantics include:
 
 Decision-relevant deferred issues include evidence relation, source/authority designation, Actor/Work relation, provenance ownership and derived-view recordhood.
 
+### Information-pass structural correction after N3–N6
+
+The completed top-level pass does **not** invalidate the Records corpus.
+
+It refines its parent-level role:
+
+> Records / Persistent Information is currently better treated as a deep persistence specialization/profile crossing the Information ground rather than a clean immediate peer child beside Informational State and Informational Dynamics.
+
+This is a current Information research result awaiting user evaluation, not a retroactive rewrite of the Records-local corpus.
+
 ## 2. Adequacy finding that motivated this ground — recovered
 
 `../../../02_adequacy/findings/05-information-representation-boundary.md`
 
 Role: focused predecessor hypothesis; not final node result.
 
-Recovered claims/hypotheses to challenge:
+Recovered claims/hypotheses challenged by the pass:
 
 - actual world state != observation/representation;
 - nonpersistent representation != Record merely because it carries information;
@@ -51,7 +61,7 @@ Recovered claims/hypotheses to challenge:
 - Work-relative context is a selection/use relation over information rather than the whole phenomenon;
 - broader `Information / Representation State` may be the parent with Records as a persistent branch.
 
-The predecessor finding explicitly keeps falsifiers open and does not settle naming or ontology.
+The predecessor finding explicitly kept falsifiers open. N1–N6 later retained the broader ground but refined the label/decomposition and Records role.
 
 ## 3. Neighbour-ground boundaries — recovered to minimum sufficient depth
 
@@ -85,7 +95,9 @@ Role: confirms prior context reconstruction is only a starting problem-space sig
 
 No deeper soul-context read was required for N0 because the current Information decision did not depend on an exact predecessor-repository claim omitted by the Foundations context surface.
 
-## 5. Newer technical research — recovered
+## 5. Candidate-study evidence/falsifiers — selectively recovered
+
+Candidate studies live under `research/studies/**` and carry no Foundation-tree authority.
 
 ### AI Knowledge Strategies
 
@@ -93,8 +105,6 @@ Current route:
 
 - `../../../../studies/ai-knowledge-strategies/STATE.md`
 - `../../../../studies/ai-knowledge-strategies/INDEX.md`
-
-Role: technical mechanism/failure-surface evidence, **not Foundation-tree authority**.
 
 Decision-relevant signals:
 
@@ -107,17 +117,27 @@ Decision-relevant signals:
 
 Current route:
 
+- `../../../../studies/context-memory-harness-engineering/META.md`
 - `../../../../studies/context-memory-harness-engineering/STATE.md`
 - `../../../../studies/context-memory-harness-engineering/INDEX.md`
-
-Role: technical engineering/failure-surface evidence, **not Foundation-tree authority**.
+- `../../../../studies/context-memory-harness-engineering/04-CROSS-LAYER-SYNTHESIS.md`
 
 Decision-relevant signals:
 
 - Context Engineering concerns formation/maintenance of the current model-visible working set;
 - agent memory concerns cross-time write/manage/read/update/forget lifecycle;
-- memory read becomes context, so persistence and current working context are distinct but related;
-- persistent memory does not acquire source authority merely by being remembered.
+- persistence, managed memory and current model-visible context are distinct;
+- memory read becomes context;
+- persistent memory does not acquire source authority merely by being remembered;
+- these are engineering/failure-surface distinctions, not a Foundation hierarchy.
+
+### Hands-On Large Language Models study
+
+Route:
+
+- `../../../../studies/hands-on-large-language-models/META.md`
+
+Role: executable/operational falsifier corpus for representation identity, model/tokenizer binding, retrieval/context selection, derivation and model/API drift. Not Foundation authority.
 
 ## 6. N0 integrated result
 
@@ -127,33 +147,51 @@ Canonical synthesis:
 
 N0 conclusion:
 
-- no current internal contradiction forces reopening Environment, Work, Actors or Records;
+- no internal contradiction forced reopening Environment, Work, Actors or Records;
 - Records is a real specialised persistent-information region but cannot answer broader evidence/truth/context/representation questions alone;
-- neighbour-ground boundaries are sufficient to test reduction without stealing their semantics;
-- the Information parent remains an accepted working hypothesis, not a result.
+- neighbour-ground boundaries were sufficient to test reduction without stealing their semantics;
+- the Information parent remained an accepted working hypothesis, not a result.
 
-## 7. External N1/N2 source recovery
+## 7. External recovery through N5
 
 Canonical external ledger:
 
 `EXTERNAL-SOURCE-LEDGER.md`
 
-Current traditions sampled:
+Material traditions sampled across N1–N5 include:
 
 - POMDP / partially observable control and decision theory;
+- JCGM/BIPM metrology;
 - ISO/OGC observations and measurements;
 - W3C provenance;
+- database provenance;
 - epistemology of evidence;
+- belief revision;
 - mental representation;
 - mathematical/semantic information;
+- Web Annotation;
 - context-aware computing;
+- situation awareness;
 - data quality;
-- FAIR scientific-data stewardship.
+- FAIR scientific-data stewardship;
+- dataset usage/feedback.
 
-Their taxonomies are used as falsifiers/problem probes, not imported into the Foundation hierarchy.
+Their taxonomies were used as falsifiers/problem probes, not imported into the Foundation hierarchy.
 
-## 8. Epistemic rule
+## 8. Cross-domain structural result from evidence recovery
+
+The strongest recurring cross-domain distinction was not a shared vocabulary but:
+
+> **informational products/states/results must often be kept distinct from the processes/operations that acquire, generate, derive, select, communicate or revise them.**
+
+At the same time, source/provenance, uncertainty/confidence, freshness, evidence role, context relevance, accessibility, quality and persistence horizon repeatedly behaved as relations, dimensions, conditions or specializations crossing those regions.
+
+This evidence informed N3–N6; current synthesis authority lives in `STATE.md`, `FINDINGS-MAP.md`, `N7-NODE-CLOSURE.md` and `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md`.
+
+## 9. Epistemic rule
 
 This inventory records source roles and recovered claims. It is not itself proof of external claims.
 
-Load-bearing external assertions should route through `EXTERNAL-SOURCE-LEDGER.md` to the original/authoritative source. Higher-level summaries are not substitutes when omitted nuance could change a decision.
+Load-bearing external assertions should route through `EXTERNAL-SOURCE-LEDGER.md` to the original/authoritative source. Candidate-study synthesis is not a substitute for primary evidence when omitted nuance could change a decision.
+
+The completed Information synthesis remains bounded research with same-model adversarial closure, not independent verification.
