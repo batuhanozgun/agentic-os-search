@@ -1,6 +1,6 @@
 # Ground Deepening — CURRENT SURFACES
 
-**Status:** canonical freshness binding after Constituent Composition user acceptance; Environment not yet complete  
+**Status:** canonical freshness binding after bounded Relational Organization closure; Environment not yet complete  
 **Date:** 2026-09-04  
 **Branch:** `main`
 
@@ -8,8 +8,8 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Stage state | `STATE.md` | `1f940c496e732662d53b4e75695254d0a7ef2ffe` |
-| Stage router | `INDEX.md` | `208abb74e636c8bf9442ca780aa3dd7c0d3bb4ca` |
+| Stage state | `STATE.md` | `63def5401e49c3906914e09f07b1988c4fbe9f73` |
+| Stage router | `INDEX.md` | `b8456651bf492718f40d8bf448a64a9b76f843a1` |
 | Hierarchical method | `HIERARCHICAL-DEEPENING-METHOD.md` | `4d964c09a70ebe5f114d597f5413b41193ce650b` |
 | Original accepted plan | `PLAN.md` | `dfe00d2ca4d43758c476f640332751c3af013725` |
 | Stage README | `README.md` | `5380af8bf81ffe9860c71f597c84b245189b89f1` |
@@ -18,12 +18,13 @@
 
 | Surface | Bound Git blob SHA |
 |---|---|
-| `grounds/environment/CURRENT-SURFACES.md` | `37fd823578aaed92288eb6e55d24827649ff53ee` |
+| `grounds/environment/CURRENT-SURFACES.md` | `995879ed5d36c674b840107143ebbb96b8fe8f3b` |
 | `grounds/environment/completion-review/CURRENT-SURFACES.md` | `447f3e79b2b7e38b51c37665d0b8e1490c125889` |
-| `grounds/environment/domain-effect/CURRENT-SURFACES.md` | `1ec1496465d4020d5ea7e65be1e651b2e430e97e` |
-| `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` | `256148433ea59ff6a36344d39263493187d07b1f` |
-| `grounds/environment/domain-effect/domain-state/domain-structure/CURRENT-SURFACES.md` | `323598946458ad223d777b0835cb66cecfa56b30` |
+| `grounds/environment/domain-effect/CURRENT-SURFACES.md` | `e686ec0c4cc73548e06f180b5ee8f570dd0544fd` |
+| `grounds/environment/domain-effect/domain-state/CURRENT-SURFACES.md` | `819fe2995fe928d31780dbe2a873c6617ad1ca57` |
+| `grounds/environment/domain-effect/domain-state/domain-structure/CURRENT-SURFACES.md` | `9248086987e5c339b28aca4ae8b095068812d7c6` |
 | `grounds/environment/domain-effect/domain-state/domain-structure/constituent-composition-membership/CURRENT-SURFACES.md` | `09f059582ab244c60aea4559bc8f927f7565126c` |
+| `grounds/environment/domain-effect/domain-state/domain-structure/relational-organization-topology/CURRENT-SURFACES.md` | `99139c1584e7043a4569538d8410739dfca0016c` |
 | `grounds/environment/domain-effect/domain-state/domain-condition/CURRENT-SURFACES.md` | `b661a325c32339e81d900532dcb556af6167cf01` |
 | `grounds/environment/domain-effect/domain-dynamics/CURRENT-SURFACES.md` | `cd4c1dbbd23ac73227ed3765df3c514a54b707ef` |
 
@@ -34,8 +35,8 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition               ← bounded leaf; accepted
-    │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
+    │    │    │    ├─ Constituent Composition   ← bounded leaf; accepted
+    │    │    │    └─ Relational Organization   ← bounded leaf; awaiting user evaluation
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
     │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
@@ -51,8 +52,8 @@ Actors / Agency–Participation–Authority          ← inactive
 
 Environment remains **not yet complete**.
 
-`Constituent Composition` is a bounded leaf and is user-evaluated / accepted.
+`Relational Organization` is a bounded leaf and awaits user evaluation.
 
-No substantive node is active. Current authorized work is **next Environment debt selection/planning only**.
+No substantive node is active. Current authorized interaction is **user evaluation of bounded Relational Organization only**.
 
-Information remains inactive. `Relational Organization / Topology` is the strongest default next selection but is not automatically active.
+Information remains inactive. Next Environment debt selection occurs only after evaluation.
