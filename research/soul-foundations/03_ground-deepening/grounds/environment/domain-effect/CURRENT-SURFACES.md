@@ -1,6 +1,6 @@
 # Domain Reality — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Relational Organization closure; awaiting user evaluation  
+**Status:** canonical freshness binding after bounded `Realized Characteristics` closure; awaiting user evaluation  
 **Date:** 2026-09-04  
 **Branch:** `main`
 
@@ -8,38 +8,36 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `e9e7522bfe3f83d604a976f8f10b9a571d5c1950` |
-| Router | `INDEX.md` | `2b1fcd308e175e8b5f85f34fe672429f67f74e1f` |
-| L0 key | `KEY.md` | `2b9776632c42bc59551ead1abf8ad65b7b1fad55` |
+| Node state | `STATE.md` | `c5cbe9c98e1a2eacd63336f3c73d612e6b0a08b5` |
+| Router | `INDEX.md` | `ebc121b4277d4a8c5e4879326bba3287773efbc0` |
+| L0 key | `KEY.md` | `a015dbaf8244d016225bc6ab777b1503c81b314e` |
 | L1 findings map | `FINDINGS-MAP.md` | `a0c3b18fd608a37dafc379e988048b5446c56ad0` |
 | Current residual questions | `OPEN-QUESTIONS.md` | `0197089b1f5e97beef77790f68b46bebd509a40c` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `56d238a0f5b7fac2d4dd963473fe501a66d778a5` |
 
-## Current deeper child surfaces
+## Current deeper surfaces
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain State | retained; Relational Organization closure propagated | `domain-state/CURRENT-SURFACES.md` @ `819fe2995fe928d31780dbe2a873c6617ad1ca57` |
-| Domain Structure | bounded / accepted; both children bounded leaves | `domain-state/domain-structure/CURRENT-SURFACES.md` @ `9248086987e5c339b28aca4ae8b095068812d7c6` |
-| Constituent Composition | bounded leaf / accepted | `domain-state/domain-structure/constituent-composition-membership/CURRENT-SURFACES.md` @ `09f059582ab244c60aea4559bc8f927f7565126c` |
-| Relational Organization | bounded leaf / awaiting user evaluation | `domain-state/domain-structure/relational-organization-topology/CURRENT-SURFACES.md` @ `99139c1584e7043a4569538d8410739dfca0016c` |
-| Domain Condition | bounded / accepted; two children unresearched | `domain-state/domain-condition/CURRENT-SURFACES.md` @ `b661a325c32339e81d900532dcb556af6167cf01` |
+| Domain State | retained; Realized Characteristics closure propagated | `domain-state/CURRENT-SURFACES.md` @ `64b6e773fc107ad5d55ef56367ec591602219b86` |
+| Domain Condition | accepted parent; first child bounded leaf | `domain-state/domain-condition/CURRENT-SURFACES.md` @ `249fd1bbe7766a75effa49158b64cc1d27f7fa23` |
+| Realized Characteristics | bounded leaf / awaiting user evaluation | `domain-state/domain-condition/realized-characteristics-values/CURRENT-SURFACES.md` @ `31eab937af5b8c514bff1777a5e6c4d9f76abcfb` |
+| Domain Structure | accepted; both children bounded leaves / accepted | `domain-state/domain-structure/CURRENT-SURFACES.md` @ `9248086987e5c339b28aca4ae8b095068812d7c6` |
+| Relational Organization | bounded leaf / accepted | `domain-state/domain-structure/relational-organization-topology/CURRENT-SURFACES.md` @ `c1b009ce05079ea2e5acf499d542d3664476be54` |
 | Domain Dynamics | bounded leaf / user-evaluated | `domain-dynamics/CURRENT-SURFACES.md` @ `cd4c1dbbd23ac73227ed3765df3c514a54b707ef` |
 
-## Current hierarchy
+## Current hierarchy / authorization
 
 ```text
 Domain Reality
     ├─ Domain State
     │    ├─ Domain Structure
-    │    │    ├─ Constituent Composition   ← bounded leaf; accepted
-    │    │    └─ Relational Organization   ← bounded leaf; awaiting user evaluation
+    │    │    ├─ Constituent Composition   ← bounded leaf / accepted
+    │    │    └─ Relational Organization   ← bounded leaf / accepted
     │    └─ Domain Condition
-    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
-    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
+    │         ├─ Realized Characteristics                 ← bounded leaf / awaiting user evaluation
+    │         └─ Criterion-Relative Standing / Status     ← promoted / inactive / unresearched
     └─ Domain Dynamics                                   ← bounded leaf
 ```
 
-## Authorization rule
-
-No substantive node is active. Current authorized interaction is **user evaluation of bounded Relational Organization only**. Information remains inactive.
+No substantive node is active. Current authorized interaction is **user evaluation of bounded `Realized Characteristics` only**.
