@@ -6,17 +6,17 @@ Current router for the Environment ground and its focused descendant deepening.
 
 ## Current status
 
-**ENVIRONMENT NOT YET COMPLETE; `REALIZED CHARACTERISTICS` BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**ALL CURRENTLY KNOWN PROMOTED DESCENDANT PASSES BOUNDED; `CRITERION-RELATIVE STANDING` AWAITING USER EVALUATION; ENVIRONMENT COMPLETION DISCUSSION NEXT; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Reading order
 
 1. `STATE.md` — current Environment status/authorization.
 2. `KEY.md` — shortest current hierarchy.
-3. Realized Characteristics → `domain-effect/domain-state/domain-condition/realized-characteristics-values/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
+3. Final Standing result → `domain-effect/domain-state/domain-condition/criterion-relative-standing-status/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
 4. Domain Condition parent → `domain-effect/domain-state/domain-condition/STATE.md` / `KEY.md`.
-5. Domain State/Reality as needed.
+5. Realized Characteristics / Domain State / Domain Reality as needed.
 6. accepted Structure children / Dynamics / Work Conditions as needed.
-7. Environment completion review for debt rationale.
+7. earlier Environment completion review for the debt rationale.
 8. `CURRENT-SURFACES.md` — exact current freshness.
 
 ## Current tree
@@ -26,21 +26,21 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition   ← bounded leaf / accepted
-    │    │    │    └─ Relational Organization   ← bounded leaf / accepted
+    │    │    │    ├─ Constituent Composition       ← bounded leaf / accepted
+    │    │    │    └─ Relational Organization       ← bounded leaf / accepted
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics                 ← bounded leaf / awaiting user evaluation
-    │    │         └─ Criterion-Relative Standing / Status     ← promoted / inactive / unresearched
-    │    └─ Domain Dynamics                                   ← bounded leaf
-    └─ Work Conditions                                        ← bounded leaf
+    │    │         ├─ Realized Characteristics      ← bounded leaf / accepted
+    │    │         └─ Criterion-Relative Standing   ← bounded leaf / awaiting user evaluation
+    │    └─ Domain Dynamics                         ← bounded leaf
+    └─ Work Conditions                              ← bounded leaf
 ```
 
-## Remaining Environment debt
+## Current completion state
 
-Only `Criterion-Relative Standing / Status` remains promoted/unresearched after the current evaluation gate.
+All currently known promoted descendants have received focused passes. This router does not infer Environment completion from traversal. Environment-level judgment is reserved for the next user turn.
 
 Information remains inactive.
 
 ## Guardrail
 
-No substantive node is active. Current authorized interaction is user evaluation of bounded `Realized Characteristics` only.
+No substantive node is active. Do not activate Information or later grounds automatically.
