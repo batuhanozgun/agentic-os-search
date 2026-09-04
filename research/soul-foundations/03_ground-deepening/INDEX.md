@@ -6,18 +6,19 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL NODE ACTIVE AT N3.**
+**ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL PASS BOUNDEDLY COMPLETE / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Read order
 
 1. `STATE.md` — current stage status/authorization.
 2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive method.
-3. Current active node → `grounds/information/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → `INDEX.md`.
-4. Completed Environment → `grounds/environment/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md` only when its result/boundary is needed.
-5. `PLAN.md` — accepted program gates and starting evidence.
-6. `CURRENT-SURFACES.md` — exact stage freshness.
+3. Current Information result → `grounds/information/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md`.
+4. Information research-path reconstruction → `grounds/information/INDEX.md` → N0–N7 / source routes.
+5. Completed Environment → `grounds/environment/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md` only when its result/boundary is needed.
+6. `PLAN.md` — accepted original program gates and starting evidence.
+7. `CURRENT-SURFACES.md` — exact stage freshness.
 
-## Current research tree
+## Current research result / epistemic status
 
 ```text
 Environment / Operating Reality                 ← boundedly complete / accepted
@@ -33,29 +34,36 @@ Environment / Operating Reality                 ← boundedly complete / accepte
     └─ Work Conditions                              ← bounded leaf / accepted
          ↳ Technical Work Environment               ← deep technical specialization/profile
 
-Information / Representation State              ← ACTIVE / N3
+Information / Representation                    ← bounded result / USER EVALUATION PENDING
+    ├─ Informational State / Representational Constitution
+    └─ Informational Dynamics / Formation–Transformation
+
+Records / Persistent Information                ↳ proposed deep persistence specialization/profile
+
 Work                                             ← inactive
 Actors                                           ← inactive
 ```
 
-## Current Information progress
+The Information result above is not yet user-accepted. It refines the prior routing label `Information / Representation State` and the earlier adequacy-stage Records-child sketch.
+
+## Information completion route
 
 ```text
 N0 internal evidence recovery       ← complete
-N1 node coherence attack            ← provisional pass / complete
-N2 first-principles problem map     ← bounded complete / 12 problem families, not children
-N3 immediate-child clustering       ← CURRENT
+N1 parent coherence attack          ← complete
+N2 first-principles problem map     ← complete
+N3 rival child discovery            ← complete
+N4 boundary/anti-collapse           ← complete
+N5 external falsifiers              ← complete
+N6 omission/reduction audit         ← complete / same-model
+N7 closure                          ← complete / awaiting user evaluation
 ```
 
-N1 retained the parent as a coherent research problem region, not an ontology primitive. The current parent label remains provisional.
+## Current gate
 
-N2 falsified the inherited observation/belief/evidence/context/Records noun list as a child hierarchy because it mixes processes, informational results/states, roles/relations, cross-cutting dimensions and lifecycle conditions.
+No substantive node is active.
 
-## One-active-node rule
-
-Only Information / Representation State is active.
-
-No candidate immediate child may be activated until the top-level node closes and the user evaluates the result.
+The user must evaluate the Information top-level result before any proposed child or another ground is activated.
 
 ## Guardrail
 
