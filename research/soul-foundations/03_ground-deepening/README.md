@@ -10,7 +10,7 @@
 Its purpose is to determine and complete the **ground-specific internal scope and research depth** required for the four accepted working research grounds:
 
 - Environment / Operating Reality;
-- Information / Representation State;
+- Information / Representation State — routing label inherited from adequacy, now challenged/refined by deeper research;
 - Work;
 - Actors / Agency–Participation–Authority.
 
@@ -34,41 +34,53 @@ The canonical recursive method is `HIERARCHICAL-DEEPENING-METHOD.md`.
 
 `grounds/environment/` is **boundedly complete / user-evaluated** for the current foundation purpose.
 
-Its current bounded tree is routed from the parent `STATE.md` and Environment package surfaces.
+### Information
 
-### Information / Representation State
+`grounds/information/` completed its top-level pass on 2026-09-04 and is **boundedly complete / awaiting user evaluation**.
 
-`grounds/information/` is the **current single active top-level node**, explicitly selected by the user on 2026-09-04 after Environment closure and canonical sequencing checks.
+The pass was executed under the routing label `Information / Representation State` and recommends the refined research label:
 
-Current progress:
+> **Information / Representation**
+
+Current bounded result:
 
 ```text
-N0 internal evidence recovery       ← complete
-N1 parent coherence attack          ← provisional pass / complete
-N2 first-principles problem map     ← bounded complete / 12 problem families, no children
-N3 immediate-child clustering       ← CURRENT
+Information / Representation
+    ├─ Informational State / Representational Constitution
+    └─ Informational Dynamics / Formation–Transformation
+
+Records / Persistent Information
+    ↳ deep persistence specialization/profile crossing Information
 ```
 
-N1 retains the parent as a coherent research problem region while keeping its label provisional. N2 rejects the inherited observation/belief/evidence/context/Records noun list as a child hierarchy because it mixes processes, informational states/results, relations/roles, cross-cutting dimensions and lifecycle conditions.
+Status rules:
+
+- the two immediate children are boundedly supported research results but are not yet user-evaluated/accepted;
+- the Records role refinement is a bounded Information-pass result and does not invalidate the existing user-evaluated Records corpus;
+- no substantive child is active;
+- Work and Actors remain inactive.
+
+The top-level Information pass also found that the inherited `observation / belief / evidence / context / Records` noun list is not a valid child hierarchy because it mixes processes, states/results, relations/roles, use-relative views and lifecycle conditions.
 
 Read:
 
 1. `STATE.md` for stage authority/status;
 2. `INDEX.md` for routing;
-3. `grounds/information/STATE.md` for active-node state;
-4. `grounds/information/KEY.md` and `FINDINGS-MAP.md` for current bounded orientation;
-5. `grounds/information/INDEX.md` for N0/N1/N2 evidence and source routes.
+3. `grounds/information/STATE.md` for current Information status;
+4. `grounds/information/KEY.md` and `FINDINGS-MAP.md` for bounded orientation;
+5. `grounds/information/synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` for the integrated result;
+6. `grounds/information/INDEX.md` for N0–N7 reconstruction and evidence/source routes.
 
 ## Relationship to prior research
 
 Existing completed corpora are evidence inputs, not material to be restarted blindly:
 
-- `01_verticals/records-artifacts/` is deep evidence for persistent-information problems; its position under Information remains to be tested;
-- `01_verticals/work-environment/` is deep evidence for Technical Work Environment, retained under the broader Environment work-condition branch;
-- `01_verticals/work/` is already a broad/deep study of Work;
-- `01_verticals/actors/` is already a broad/deep study of Actors;
-- `02_adequacy/` supplies the accepted top-level working frame and falsifiers;
-- `../ai-knowledge-strategies/` and `../context-memory-harness-engineering/` provide later technical/failure-surface evidence relevant to Information, but explicitly carry no Foundation-tree authority.
+- `01_verticals/records-artifacts/` remains deep evidence for persistent-information semantics; deeper Information research now recommends treating it as a persistence specialization/profile rather than a clean immediate child partition;
+- `01_verticals/work-environment/` is deep evidence for Technical Work Environment under Environment Work Conditions;
+- `01_verticals/work/` remains a broad/deep study of Work;
+- `01_verticals/actors/` remains a broad/deep study of Actors;
+- `02_adequacy/` supplies the prior accepted top-level working frame and historical falsifiers;
+- `../../studies/` supplies candidate research inputs/falsifiers under separate authority boundaries.
 
 ## Research discipline
 
@@ -84,6 +96,20 @@ For each selected node:
 8. close when additional broad probes have declining structural information value;
 9. return to user evaluation before deeper/sibling activation.
 
+## Current gate
+
+**Information user evaluation.**
+
+Zero substantive nodes are active.
+
+A separate post-evaluation transition decision is required before:
+
+- Informational State child deepening;
+- Informational Dynamics child deepening;
+- Work;
+- Actors;
+- systematic relation/control composition.
+
 ## Non-goals
 
 This layer does not itself authorize or decide:
@@ -94,4 +120,4 @@ This layer does not itself authorize or decide:
 - final ontology/data model;
 - implementation.
 
-Read `STATE.md` for current authorization and `PLAN.md` for the accepted top-level research program.
+Read `STATE.md` for current authorization and `PLAN.md` for the accepted original top-level research program.
