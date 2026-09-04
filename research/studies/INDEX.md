@@ -49,6 +49,7 @@ Do not load every study merely because the library exists.
 | Scan all known candidate studies | `CATALOG.md` | selected package `META.md` |
 | Understand package creation/metadata rules | `PACKAGE-CONTRACT.md` | root `../INDEX.md` |
 | Knowledge access / representation / adaptation mechanisms | `ai-knowledge-strategies/META.md` | `STATE.md` → `INDEX.md` / mechanism files |
+| Anthropic AI-native SDLC / agent-native software operating model | `anthropic-ai-native-sdlc-playbook/META.md` | `STATE.md` → `INDEX.md` → playbook research / source ledger / SOUL-DevOS assessment / falsifiers |
 | Context / memory / harness engineering | `context-memory-harness-engineering/META.md` | `STATE.md` → `INDEX.md` / cross-layer synthesis |
 | Multi-agent coordination / control patterns | `multi-agent-patterns/META.md` | assessment / conversation synthesis |
 | Hands-On LLM repository as evidence/reference corpus | `hands-on-large-language-models/META.md` | repository research → SOUL/DevOS assessment |
@@ -69,6 +70,8 @@ Use studies as applicable for:
 
 Do not infer from a relevance tag that a study belongs inside a Foundation node.
 
+The `anthropic-ai-native-sdlc-playbook` study is particularly broad across Work, Actors, Information and Environment because its external target is an end-to-end software operating model. That breadth is a retrieval property, **not** a reason to use the playbook as a cross-Foundation taxonomy.
+
 ## Design / architecture interaction
 
 When SOUL or Development OS design/architecture/implementation is later authorised:
@@ -85,6 +88,7 @@ Completion of a study never authorizes adoption.
 ## Current package list
 
 - `ai-knowledge-strategies/`
+- `anthropic-ai-native-sdlc-playbook/`
 - `context-memory-harness-engineering/`
 - `hands-on-large-language-models/`
 - `multi-agent-patterns/`
