@@ -4,8 +4,10 @@
 **Activated:** 2026-09-04  
 **User authorization:** explicit selection of Information as the next ground after Environment closure  
 **Current node:** Information / Representation State  
-**Current phase:** N1 node coherence attack; N2 first-principles inventory may be developed only as needed to test coherence  
+**Current phase:** N3 immediate-child clustering  
 **N0 internal evidence recovery:** COMPLETE  
+**N1 node coherence attack:** PROVISIONAL PASS / COMPLETE  
+**N2 first-principles problem inventory:** BOUNDED COMPLETE / 12 problem families; no child taxonomy accepted  
 **Sibling grounds:** Work inactive; Actors inactive  
 **Environment:** boundedly complete / user-evaluated
 
@@ -30,35 +32,62 @@ Only this node is active. Discovering an immediate child does **not** authorize 
 
 No systematic cross-ground composition, architecture, ontology/data-model or implementation work is authorised.
 
-## Completed N0 recovery
+## Completed N0 — internal evidence recovery
 
-Canonical N0 result:
+Canonical result:
 
 `N0-INTERNAL-EVIDENCE-RECOVERY.md`
 
-N0 recovered the decision-relevant current Records corpus, adequacy predecessor hypothesis, Environment actual-vs-representation boundary, bounded Work/Actors neighbour boundaries, and newer AI knowledge/context-memory technical evidence.
+No current internal contradiction forces reopening Environment, Work, Actors or Records.
 
-Current conclusion:
+Persistent Records is a real specialised problem region, but it does not settle broader information/representation semantics or evidence/truth/context questions.
 
-- no internal contradiction forces reopening another ground;
-- persistent Records is a real specialised problem region, but does not settle broader Information semantics;
-- actual reality, Work and Actor phenomena retain protected boundaries against their representations;
-- the parent Information hypothesis remains plausible but unproven and must now survive direct reduction/residual/rename/split attacks.
+## Completed N1 — parent coherence attack
 
-## Current phase — N1 coherence attack
+Canonical result:
+
+`N1-NODE-COHERENCE-ATTACK.md`
+
+Verdict:
+
+**PROVISIONAL PASS.**
+
+A coherent first-order research problem region exists strongly enough to continue when scoped to mediated informational access/representation and the independent semantics/failures of informational states, transformations and relations.
+
+N1 also established important cautions:
+
+- the parent survives as a research ground, not proof of one ontology primitive;
+- `Information`, `Representation`, `State` and `Epistemic State` are materially different framings, so the current label remains provisional;
+- the inherited observation/belief/evidence/context/Records noun list mixes processes, states/results, relations/roles and lifecycle conditions and is not a child hierarchy.
+
+## Completed N2 — first-principles problem inventory
+
+Canonical result:
+
+`N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md`
+
+Twelve problem families are currently exposed, including referent binding, acquisition/observation, content/assertion semantics, informational identity, source/perspective, derivation, epistemic standing, temporal applicability, context/view selection, conflict, exposure/access and persistence/recordhood transition.
+
+These are problem families only.
+
+Strong cross-cutting candidates include provenance/source, perspective, freshness, uncertainty/confidence, authority/standing, accessibility, representation form, persistence horizon and derivation lineage.
+
+## Current phase — N3 immediate-child clustering
 
 Primary question:
 
-> Is there a coherent, non-residual and non-redundant first-order problem region here at all, and what exact distinction makes it one region?
+> Can the N2 problem families be compressed into a small set of stable first-order research branches without turning cross-cutting dimensions, roles, processes or lifecycle conditions into fake peer children?
 
-Keep at least these rivals alive:
+N3 must test multiple rival clusterings rather than choose the first neat tree.
 
-1. broader Information/Representation ground with Records nested;
-2. reduction to properties/relations of Environment, Work and Actors;
-3. current parent is too broad/mixed and should split differently;
-4. label/framing error: `Information`, `Representation`, `Epistemic State` or another frame changes the boundary materially.
+At minimum test:
 
-N2 problem inventory may be developed during N1 only as a falsification aid; do not promote children before the coherence question is sufficiently resolved.
+1. lifecycle/process-result-relations-persistence clustering;
+2. constitution / formation-transformation / standing / exposure-context / continuity clustering;
+3. state vs dynamics or another lower-cardinality decomposition;
+4. no stable immediate-child split at this level, with a rich internal problem map retained instead.
+
+Data-quality, FAIR, context, provenance and epistemic taxonomies are falsifiers/contrast cases only and must not be imported as the hierarchy.
 
 ## Epistemic status
 
@@ -69,17 +98,18 @@ N2 problem inventory may be developed during N1 only as a falsification aid; do 
 - Environment has an accepted local anti-collapse rule: actual condition is distinct from specification/observation/model/Record.
 - Work and Actors have independent bounded problem-region semantics that are not exhausted by representations about them.
 
-### Accepted working hypothesis, not yet a result of this node pass
+### Current node findings
 
-`Information / Representation State` is a broader ground within which Records / Persistent Information may be a specialised persistent branch.
+- parent research-ground coherence: provisional pass;
+- current parent label: unresolved/provisional;
+- inherited child sketch: rejected as a hierarchy;
+- N2 problem inventory: bounded first inventory;
+- immediate children: **NONE ACCEPTED YET**.
 
-### Open / to be challenged
+### Accepted working hypothesis still under test
 
-- whether an independent Information/Representation ground is actually necessary;
-- whether `Information / Representation State` is the right label and level;
-- whether observation, assertion, model/belief, inference/evidence, context and persistence form stable immediate children or instead cross-cutting roles/dimensions;
-- whether persistent Records nests cleanly without losing its own requirement-derivation logic.
+Records / Persistent Information may be a specialised persistent branch somewhere inside the broader ground, but its exact hierarchical position is unresolved.
 
 ## Return condition
 
-Run the active top-level node through the hierarchical method only to immediate-child resolution and bounded closure. Then return the result to the user before activating any child or sibling.
+Run the active top-level node through N3–N6 only to bounded immediate-child resolution and node closure. Then return the result to the user before activating any child or sibling.
