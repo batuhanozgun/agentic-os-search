@@ -1,6 +1,6 @@
 # Domain Structure — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Constituent Composition child closure; child awaiting user evaluation  
+**Status:** canonical freshness binding after Constituent Composition user acceptance  
 **Date:** 2026-09-04  
 **Branch:** `main`
 
@@ -8,7 +8,7 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `61e4d693a6b94da9364bd41eabe345d460544a42` |
+| Node state | `STATE.md` | `0c1ff131db1ca7af78d1f4365262a4a54a85dd52` |
 | Router | `INDEX.md` | `3339ddcf7055c7e4431811ab094b66169a3d79b4` |
 | L0 key | `KEY.md` | `bd46833a8a62c82ae1565f5d9646b873b0dd9fd8` |
 | L1 findings map | `FINDINGS-MAP.md` | `629720da9b3fa72bbba5264630dd65c9c80c28e2` |
@@ -19,7 +19,7 @@
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Constituent Composition | bounded leaf; awaiting user evaluation | `constituent-composition-membership/CURRENT-SURFACES.md` @ `bf7c0d88d190d57a3ffd7a0c191b12f49837e83d` |
+| Constituent Composition | bounded leaf; user-evaluated / accepted | `constituent-composition-membership/CURRENT-SURFACES.md` @ `09f059582ab244c60aea4559bc8f927f7565126c` |
 | Relational Organization / Topology | promoted; inactive / not researched | routed through current parent surfaces |
 
 Executed child plan:
@@ -42,14 +42,14 @@ These historical artifacts preserve pass-time state and are not retroactively re
 
 ```text
 Domain Structure
-    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    ├─ Constituent Composition               ← bounded leaf; accepted
     └─ Relational Organization / Topology    ← promoted; inactive / not researched
 ```
 
 ## Current result / authorization
 
-The child inherited as `Constituent Composition / Membership` is now refined to `Constituent Composition` and closes as a bounded leaf.
+The child inherited as `Constituent Composition / Membership` is refined to `Constituent Composition`, closes as a bounded leaf and is user-evaluated / accepted.
 
-No substantive node is active. Current authorised interaction is **user evaluation of bounded Constituent Composition only**.
+No substantive node is active. Current authorised work is **next-debt selection/planning at the parent/stage level only**.
 
-If accepted, remaining Environment debt must be reassessed from the then-current canonical state. `Relational Organization / Topology` is the strongest default next sibling but is not automatically authorized.
+`Relational Organization / Topology` is the strongest default next sibling but is not automatically authorized.
