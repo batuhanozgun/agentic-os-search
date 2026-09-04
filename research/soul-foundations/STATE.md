@@ -1,18 +1,18 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment boundedly complete / user-evaluated; Information top-level pass boundedly complete / awaiting user evaluation  
+**Status:** active research library; Environment boundedly complete / user-evaluated; Information top-level pass boundedly complete / user-evaluated  
 **Environment / Operating Reality:** boundedly complete / accepted 2026-09-04  
 **Information routing label during pass:** Information / Representation State  
-**Information top-level research result:** BOUNDEDLY COMPLETE / USER EVALUATION PENDING  
-**Recommended refined Information label:** Information / Representation  
+**Information top-level research result:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
+**Accepted refined Information label:** Information / Representation  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** INFORMATION TOP-LEVEL RESULT EVALUATION ONLY  
-**Current return condition:** user evaluates Information closure before any child/sibling activation or next-ground decision
+**Current authorised interaction:** NEXT-WORK SELECTION / PLANNING ONLY  
+**Current return condition:** select and explicitly authorise the next substantive ground/node before activation
 
 ## Dependency state
 
 - `01_verticals/`: complete / user-evaluated.
-- `02_adequacy/`: boundedly sufficient / accepted working hypothesis; its earlier Information→Records sketch has now been challenged/refined by deeper Information research but is not silently rewritten as user-accepted state before evaluation.
+- `02_adequacy/`: boundedly sufficient / accepted working hypothesis; its earlier Information→Records sketch has now been challenged and hierarchically refined by the deeper, user-evaluated Information result.
 - `03_ground-deepening/`:
   - **Environment / Operating Reality: BOUNDEDLY COMPLETE / USER-EVALUATED.**
     - Domain Reality:
@@ -25,7 +25,7 @@
           - Criterion-Relative Standing: bounded leaf / accepted.
       - Domain Dynamics: bounded leaf / accepted.
     - Work Conditions: bounded leaf / accepted.
-  - **Information top-level pass: BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+  - **Information top-level pass: BOUNDEDLY COMPLETE / USER-EVALUATED.**
     - N0 internal evidence recovery: complete.
     - N1 node coherence attack: complete.
     - N2 first-principles problem inventory: complete.
@@ -33,7 +33,8 @@
     - N4 boundary/anti-collapse: complete.
     - N5 external/cross-domain falsifiers: complete.
     - N6 omission/reduction/rival audit: complete; same-model, non-independent.
-    - N7 closure: complete for evaluation.
+    - N7 closure: complete.
+    - user evaluation: accepted 2026-09-04.
     - substantive child active: NONE.
   - Work: inactive.
   - Actors: inactive.
@@ -56,16 +57,16 @@ Environment / Operating Reality                 ← boundedly complete / accepte
          ↳ Technical Work Environment               ← deep technical specialization/profile
 ```
 
-## Information result under user evaluation
+## User-evaluated Information result
 
 Canonical package:
 
 `03_ground-deepening/grounds/information/`
 
-Recommended bounded result:
+Accepted bounded result:
 
 ```text
-Information / Representation                    ← recommended refined parent label
+Information / Representation
     ├─ Informational State / Representational Constitution
     └─ Informational Dynamics / Formation–Transformation
 
@@ -75,10 +76,10 @@ Records / Persistent Information
 
 Epistemic status:
 
-- parent research-ground coherence: boundedly supported;
-- parent rename from `Information / Representation State` to `Information / Representation`: recommended by completed pass, **not yet user-evaluated**;
-- two immediate children: boundedly supported by completed pass, **not yet user-evaluated/accepted**;
-- Records hierarchical-role correction: bounded research result, **not yet user-evaluated**;
+- parent research-ground coherence: boundedly supported and user-evaluated;
+- parent rename from `Information / Representation State` to `Information / Representation`: accepted as the current research label;
+- two immediate children: boundedly supported and accepted as the current top-level research structure;
+- Records hierarchical-role correction: accepted bounded research result;
 - existing Records-local findings remain user-evaluated and valid for their persistent-information scope.
 
 ## Key Information corrections
@@ -93,13 +94,13 @@ Context, evidence, provenance, freshness, uncertainty, accessibility and persist
 
 ## Verification status
 
-The Information pass used materially different external traditions and primary/authoritative sources where available. N6 is same-model adversarial self-review, **not independent verification**. User acceptance may close the research gate but does not change verification independence.
+The Information pass used materially different external traditions and primary/authoritative sources where available. N6 is same-model adversarial self-review, **not independent verification**. User acceptance closes the research evaluation gate but does not change verification independence.
 
 ## Current authorization
 
 **NO SUBSTANTIVE NODE ACTIVE.**
 
-Current interaction is user evaluation of the Information top-level closure.
+The Information evaluation gate is closed. Current interaction is next-work selection/planning only.
 
 Do not automatically begin:
 
@@ -111,4 +112,4 @@ Do not automatically begin:
 - ontology/data-model work;
 - implementation.
 
-After user evaluation, make a separate next-work selection/planning decision.
+A separate next-work decision and explicit authorization are required before substantive research resumes.
