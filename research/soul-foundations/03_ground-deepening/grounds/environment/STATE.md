@@ -1,16 +1,17 @@
 # Environment / Operating Reality — STATE
 
-**Status:** ENVIRONMENT NOT YET COMPLETE; COMPLETION REVIEW ACCEPTED; CONSTITUENT COMPOSITION / MEMBERSHIP PASS ACTIVE  
+**Status:** ENVIRONMENT NOT YET COMPLETE; CONSTITUENT COMPOSITION BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
 **Environment parent authorised:** 2026-09-02  
 **Domain State user evaluation accepted:** 2026-09-03  
 **Domain Dynamics user evaluation accepted:** 2026-09-03  
 **Work Conditions user evaluation accepted:** 2026-09-03  
 **Domain Structure:** bounded / accepted 2026-09-03  
 **Domain Condition:** bounded / accepted 2026-09-04  
-**Environment completion review:** bounded / user-evaluated / accepted 2026-09-04; Environment NOT YET COMPLETE  
+**Environment completion review:** bounded / accepted 2026-09-04; Environment NOT YET COMPLETE  
+**Constituent Composition:** bounded leaf 2026-09-04; awaiting user evaluation  
 **Scope:** Environment / Operating Reality ground only  
 **Other top-level grounds:** inactive  
-**Current authorised activity:** `CONSTITUENT COMPOSITION / MEMBERSHIP` RESEARCH ONLY
+**Current authorised activity:** USER EVALUATION OF BOUNDED `CONSTITUENT COMPOSITION` ONLY
 
 ## Current Environment hierarchy
 
@@ -19,8 +20,8 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition / Membership   ← ACTIVE SUBSTANTIVE PASS
-    │    │    │    └─ Relational Organization / Topology     ← promoted; inactive / not researched
+    │    │    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
     │    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
@@ -29,27 +30,30 @@ Environment / Operating Reality
          ↳ Technical Work Environment                         ← deep specialization/profile
 ```
 
-## Accepted completion-review verdict
+## Current deeper result
 
-The Environment parent remains coherent:
+The first focused descendant selected after the Environment completion review has closed:
 
 ```text
-Environment / Operating Reality
-    ├─ Domain Reality
-    └─ Work Conditions
+Constituent Composition / Membership
+→ Constituent Composition
+→ bounded leaf
 ```
 
-No broad Environment restart is indicated. Completion is blocked by focused descendant research debt.
+No evidence from the pass requires a broad Environment restart, a third Domain Structure child or reopening the Structure/Condition split.
 
-The user accepted that verdict and authorized continuation on 2026-09-04. The selected first descendant is `Constituent Composition / Membership`.
+## Remaining Environment debt
 
-## Active child route
+Currently promoted but unresearched:
+- Relational Organization / Topology;
+- Realized Characteristics / Values;
+- Criterion-Relative Standing / Status.
 
-`domain-effect/domain-state/domain-structure/CONSTITUENT-COMPOSITION-MEMBERSHIP-RESEARCH-PLAN.md → domain-effect/domain-state/domain-structure/constituent-composition-membership/STATE.md`
+Information remains inactive while Environment descendant debt remains.
 
-## Transition judgment
+## Next logical selection
 
-Information remains inactive while current Environment descendant debt is being resolved.
+If the current result is accepted and no reopen trigger appears, `Relational Organization / Topology` is the strongest default next sibling because it is the remaining unresolved Structure branch. This is a recommendation, not authorization.
 
 ## Verification status
 
@@ -57,4 +61,4 @@ Completion reviews and node audits remain same-model adversarial self-review, no
 
 ## Guardrail
 
-Only `Constituent Composition / Membership` is substantively active. Do not activate another descendant, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation.
+No substantive node is active. Do not activate another descendant, Information, Work, Actors, systematic composition, architecture, ontology/schema or implementation automatically.
