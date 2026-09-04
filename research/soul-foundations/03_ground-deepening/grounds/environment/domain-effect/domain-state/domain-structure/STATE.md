@@ -1,21 +1,22 @@
 # Domain Structure — STATE
 
-**Status:** BOUNDED PARENT RESULT; USER-EVALUATED / ACCEPTED; CONSTITUENT COMPOSITION CHILD BOUNDED / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDED PARENT RESULT; USER-EVALUATED / ACCEPTED; CONSTITUENT COMPOSITION CHILD BOUNDED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE  
 **Parent pass activated:** 2026-09-03  
 **Parent bounded closure:** 2026-09-03  
 **Parent user evaluation accepted:** 2026-09-03  
 **Constituent child activated:** 2026-09-04  
 **Constituent child bounded closure:** 2026-09-04  
+**Constituent child user evaluation accepted:** 2026-09-04  
 **Parent:** `Domain State`  
 **Sibling:** `Domain Condition` — bounded / user-evaluated / accepted  
 **Higher ground:** `Environment / Operating Reality`  
-**Current authorised activity:** USER EVALUATION OF THE BOUNDED `CONSTITUENT COMPOSITION` RESULT ONLY
+**Current authorised activity:** NEXT-DEBT SELECTION / PLANNING AT THE PARENT/STAGE LEVEL ONLY
 
 ## Current hierarchy
 
 ```text
 Domain Structure
-    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    ├─ Constituent Composition               ← bounded leaf; user-evaluated / accepted
     └─ Relational Organization / Topology    ← promoted; inactive / not researched
 ```
 
@@ -93,6 +94,12 @@ how the included constituents are structurally organized
 
 Both the parent Structure audit and the child F1–F19 audit are same-model adversarial self-reviews, **not independent verification**. External traditions discriminate rivals but do not independently validate this exact hierarchy. User evaluation does not change verification independence.
 
+## User evaluation
+
+The bounded Constituent Composition result was accepted by the user on 2026-09-04. No reopen trigger was raised.
+
+This closes the child evaluation gate only; it does not activate the remaining Structure sibling automatically.
+
 ## Current child route
 
 - `constituent-composition-membership/STATE.md`
@@ -109,12 +116,11 @@ Frozen executed child plan:
 
 ```text
 Environment completion review        ← accepted
-Constituent Composition research     ← boundedly complete
-Constituent Composition evaluation   ← CURRENT GATE
-remaining Environment debt selection ← only after evaluation
+Constituent Composition research     ← complete / accepted
+remaining Environment debt selection ← current parent/stage task only
 ```
 
-`Relational Organization / Topology` is the strongest default next sibling if this result is accepted and no reopen trigger appears, but it is not active.
+`Relational Organization / Topology` is the strongest default next sibling from the current state, but it is not active.
 
 ## Guardrail
 
