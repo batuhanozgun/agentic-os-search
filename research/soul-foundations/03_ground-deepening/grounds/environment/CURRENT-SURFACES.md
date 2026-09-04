@@ -9,8 +9,8 @@
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
 | Node state | `STATE.md` | `891ce567968c0dec8f6a8a7bf7bad0e000edc621` |
-| Router | `INDEX.md` | `feec76a1d6e7fbdfcd2238f465f4b4cf22c3a79d` |
-| L0 key | `KEY.md` | `9ecc87eb7fcb9789e7fbcca37a675e256cce13d9` |
+| Router | `INDEX.md` | `4537d9e9c814d2999de571c14b88d4f4906f0028` |
+| L0 key | `KEY.md` | `39a67bc08fbdbeab96fe69c5ea27629dd5b8e632` |
 | Parent findings map | `FINDINGS-MAP.md` | `1663b27201c4396dfc68c6942b8988b48d1d98e1` |
 | Parent residual questions | `OPEN-QUESTIONS.md` | `38453a3c341bc269fa4a861ca5941ebc7ab3e79c` |
 | Parent deferred relations | `DEFERRED-RELATIONS.md` | `57e69d2d2607e0028478aaec662a6244f67d0a42` |
@@ -19,9 +19,9 @@
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain Reality | retained; Constituent Composition accepted | `domain-effect/CURRENT-SURFACES.md` @ `3d320e3a10c90908e26505488be44c8b9540f8a5` |
-| Domain State | retained; Constituent Composition accepted | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `5619b3835f412767ce2e4249b9a45649c30bd1a4` |
-| Domain Structure | accepted parent; Constituent Composition accepted leaf | `domain-effect/domain-state/domain-structure/CURRENT-SURFACES.md` @ `87fa042407751be2647c87f82bcf75720c78cbe4` |
+| Domain Reality | retained; Constituent Composition accepted | `domain-effect/CURRENT-SURFACES.md` @ `1ec1496465d4020d5ea7e65be1e651b2e430e97e` |
+| Domain State | retained; Constituent Composition accepted | `domain-effect/domain-state/CURRENT-SURFACES.md` @ `256148433ea59ff6a36344d39263493187d07b1f` |
+| Domain Structure | accepted parent; Constituent Composition accepted leaf | `domain-effect/domain-state/domain-structure/CURRENT-SURFACES.md` @ `323598946458ad223d777b0835cb66cecfa56b30` |
 | Constituent Composition | bounded leaf; user-evaluated / accepted | `domain-effect/domain-state/domain-structure/constituent-composition-membership/CURRENT-SURFACES.md` @ `09f059582ab244c60aea4559bc8f927f7565126c` |
 | Domain Condition | bounded / accepted; two children unresearched | `domain-effect/domain-state/domain-condition/CURRENT-SURFACES.md` @ `b661a325c32339e81d900532dcb556af6167cf01` |
 | Domain Dynamics | bounded leaf / user-evaluated | `domain-effect/domain-dynamics/CURRENT-SURFACES.md` @ `cd4c1dbbd23ac73227ed3765df3c514a54b707ef` |
