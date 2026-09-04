@@ -1,6 +1,6 @@
 # Criterion-Relative Standing — KEY
 
-**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; BOUNDED LEAF; AWAITING USER EVALUATION  
+**Status:** BOUNDEDLY SUFFICIENT FOR CURRENT IMMEDIATE-CHILD PURPOSE; BOUNDED LEAF; USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-04  
 **Parent:** Domain Condition
 
@@ -90,12 +90,12 @@ Current local hierarchy:
 ```text
 Domain Condition
     ├─ Realized Characteristics       ← bounded leaf / accepted
-    └─ Criterion-Relative Standing    ← bounded leaf / awaiting user evaluation
+    └─ Criterion-Relative Standing    ← bounded leaf / accepted
 ```
 
 ## Verification limit
 
-The F1–F22 audit is same-model adversarial self-review, not independent verification. External sources discriminate rivals but do not independently validate this exact hierarchy.
+The F1–F22 audit is same-model adversarial self-review, not independent verification. External sources discriminate rivals but do not independently validate this exact hierarchy. User acceptance does not alter that limit.
 
 ## Go deeper
 
@@ -110,6 +110,6 @@ The F1–F22 audit is same-model adversarial self-review, not independent verifi
 
 ## Authorization
 
-No substantive node is active after closure. Current authorized interaction is user evaluation of bounded `Criterion-Relative Standing` and the user's planned next-turn Environment discussion.
+No substantive node is active after acceptance. Current authorized work is **Environment-level discussion / judgment only**.
 
 Do not begin Information automatically.
