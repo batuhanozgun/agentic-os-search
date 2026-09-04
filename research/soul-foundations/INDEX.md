@@ -22,7 +22,7 @@ For current status/authorization read `STATE.md` first. This router does not ind
 | Environment completion review | `03_ground-deepening/grounds/environment/completion-review/STATE.md` | KEY / synthesis / audit |
 | Accepted top-level hierarchy | `02_adequacy/KEY.md` | synthesis/findings |
 | Independent discovery evidence | relevant `01_verticals/*/KEY.md` | synthesis/findings |
-| What is authorised now? | `STATE.md` | user evaluation of bounded Constituent Composition only |
+| What is authorised now? | `STATE.md` | next Environment debt selection/planning only |
 
 ## Current Environment tree
 
@@ -31,7 +31,7 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    │    │    ├─ Constituent Composition               ← bounded leaf; user-evaluated / accepted
     │    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
@@ -46,7 +46,7 @@ The child inherited as `Constituent Composition / Membership` was researched und
 
 > **Constituent Composition**
 
-It closes as a bounded leaf at current foundation-research depth.
+It closes as a bounded leaf at current foundation-research depth and was accepted by the user on 2026-09-04.
 
 No stable immediate split among parthood/membership, nesting, temporary/fuzzy participation, multiplicity, identity/scope or domain-type candidates survived. No Domain Structure reopen was forced.
 
@@ -61,7 +61,7 @@ Information remains inactive.
 
 ## Recommended next logical selection
 
-If the current result is accepted and no reopen trigger appears: `Relational Organization / Topology` is the strongest default next sibling.
+`Relational Organization / Topology` is the strongest default next sibling because it is the remaining unresolved Structure child.
 
 It is not active and this router does not authorize it.
 
