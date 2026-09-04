@@ -1,12 +1,13 @@
-# Information / Representation State — STATE
+# Information / Representation — STATE
 
-**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
+**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
 **Activated:** 2026-09-04  
 **Closed for evaluation:** 2026-09-04  
+**User evaluation:** accepted 2026-09-04  
 **User authorization:** explicit selection of Information as the next ground after Environment closure  
 **Research-pass routing label:** Information / Representation State  
-**Recommended refined parent label:** Information / Representation  
-**Current phase:** N7 closure / USER EVALUATION GATE  
+**Accepted refined parent label:** Information / Representation  
+**Current phase:** POST-EVALUATION / NEXT-WORK SELECTION GATE  
 **N0–N6:** COMPLETE for the bounded top-level pass  
 **Substantive child active:** NONE  
 **Sibling grounds:** Work inactive; Actors inactive  
@@ -14,7 +15,7 @@
 
 ## Current purpose
 
-Preserve the bounded result of the completed Information top-level pass and return it for user evaluation before any child or sibling is activated.
+Preserve the bounded, user-evaluated result of the completed Information top-level pass while no child or sibling is active. A separate next-work selection and explicit authorization are required before substantive research resumes.
 
 The pass tested rather than assumed:
 
@@ -25,13 +26,13 @@ The pass tested rather than assumed:
 - whether Records / Persistent Information is an immediate child or another kind of specialization;
 - rival decompositions, cross-cutting dimensions and omission/falsifier cases.
 
-## Current bounded result
+## Accepted bounded result
 
-Recommended research label:
+Current research label:
 
 > **Information / Representation**
 
-Recommended immediate-child structure:
+Accepted immediate-child structure:
 
 ```text
 Information / Representation
@@ -42,7 +43,7 @@ Records / Persistent Information
     ↳ deep persistence specialization/profile crossing the Information ground
 ```
 
-These two immediate children are **boundedly supported by the completed top-level pass but not yet user-evaluated/accepted**.
+These two immediate children are **boundedly supported by the completed top-level pass and user-evaluated as the current research structure**.
 
 No child is active.
 
@@ -153,7 +154,7 @@ The pass reached bounded closure because:
 
 External cross-domain sources improve falsifier coverage. N6 is same-model adversarial review. The complete synthesis has **not** received independent second-researcher/model replication.
 
-User evaluation can close the research gate but does not change verification independence.
+User evaluation closes the research evaluation gate but does not change verification independence.
 
 ## Reopen triggers
 
@@ -168,7 +169,7 @@ Reopen the top-level result if later evidence shows:
 
 ## Current authorization / return condition
 
-**USER EVALUATION ONLY.**
+**NEXT-WORK SELECTION / PLANNING ONLY.**
 
 No substantive node is active.
 
@@ -182,4 +183,4 @@ Do not automatically begin:
 - ontology/data-model work;
 - implementation.
 
-After user evaluation, make a separate next-work selection/planning decision.
+A separate next-work decision and explicit authorization are required before substantive research resumes.
