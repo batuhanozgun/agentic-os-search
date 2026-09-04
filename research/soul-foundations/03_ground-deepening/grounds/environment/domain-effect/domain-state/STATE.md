@@ -1,20 +1,20 @@
 # Domain State — STATE
 
-**Status:** BOUNDEDLY SUFFICIENT PARENT; STRUCTURE/CONDITION ACCEPTED; CONSTITUENT COMPOSITION BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDEDLY SUFFICIENT PARENT; STRUCTURE/CONDITION ACCEPTED; CONSTITUENT COMPOSITION BOUNDED LEAF / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE  
 **Domain State user evaluation accepted:** 2026-09-03  
 **Domain Structure:** bounded / accepted 2026-09-03  
 **Domain Condition:** bounded / accepted 2026-09-04  
-**Constituent Composition:** bounded leaf 2026-09-04; awaiting user evaluation  
+**Constituent Composition:** bounded leaf / user-evaluated / accepted 2026-09-04  
 **Parent:** Domain Reality  
 **Sibling:** Domain Dynamics — bounded leaf; user-evaluated  
-**Current authorised activity:** USER EVALUATION OF BOUNDED `CONSTITUENT COMPOSITION` ONLY
+**Current authorised activity:** NEXT-DEBT SELECTION / PLANNING AT THE PARENT/STAGE LEVEL ONLY
 
 ## Current hierarchy
 
 ```text
 Domain State
     ├─ Domain Structure
-    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    ├─ Constituent Composition               ← bounded leaf; accepted
     │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
     └─ Domain Condition
          ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
@@ -23,19 +23,19 @@ Domain State
 
 ## Current judgment
 
-The deeper pass refined `Constituent Composition / Membership` to `Constituent Composition` and closed it as a bounded leaf.
+The deeper pass refined `Constituent Composition / Membership` to `Constituent Composition`, closed it as a bounded leaf and the user accepted the result.
 
 No evidence from that pass reopens:
 - Domain Structure;
 - the Domain State Structure-versus-Condition split;
 - Domain Dynamics.
 
-Remaining Environment research debt after this closure is currently:
+Remaining Environment research debt is currently:
 - Relational Organization / Topology;
 - Realized Characteristics / Values;
 - Criterion-Relative Standing / Status.
 
-This debt order must be reassessed after user evaluation rather than treated as automatic sequencing.
+`Relational Organization / Topology` is the strongest default next selection because it is the remaining unresolved Structure sibling, but the selection must be made from current parent/stage state and is not automatically active.
 
 ## Strong boundaries
 
@@ -51,7 +51,7 @@ current State difference ≠ causal root cause
 
 ## Verification status
 
-Underlying node audits and the Environment completion review are same-model adversarial self-reviews, **not independent verification**. The Constituent Composition F1–F19 audit has the same limitation.
+Underlying node audits and the Environment completion review are same-model adversarial self-reviews, **not independent verification**. The Constituent Composition F1–F19 audit has the same limitation. User acceptance does not alter that status.
 
 ## Current route
 
