@@ -1,145 +1,166 @@
-# Information / Representation State — Findings Map
+# Information / Representation — Findings Map
 
-**Status:** ACTIVE / N1+N2 BOUNDED; N3 clustering next  
-**Warning:** no immediate-child hierarchy is accepted yet.
+**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
+**Warning:** current tree is a bounded research result, not architecture/ontology and not yet user-accepted.
 
-## A. Parent coherence — provisional pass
+## A. Parent result
 
-Current bounded result:
+Recommended research label:
 
-A coherent research problem region exists strongly enough to continue, provided it is scoped to **mediated informational access/representation and the independent semantics/failures of informational states, transformations and relations**, rather than `anything describable`.
+> **Information / Representation**
 
-The parent survives as a **research ground**, not as proof of one ontology primitive/class.
+Bounded scope:
 
-Open label issue:
+> mediated informational access/representation and the semantics/failures of informational states and transformations that can vary independently of the referent, Work or Actor itself.
 
-- `Information` is too polysemous if unbounded;
-- `Representation` is narrower than all causal/syntactic information;
-- `State` underplays observation/formation/derivation dynamics;
-- `Epistemic State` may exclude descriptive/operational representations.
+The prior routing label `Information / Representation State` is refined because `State` under-describes formation/change dynamics.
 
-Current routing label remains provisional.
+## B. Immediate-child result
 
-## B. N2 first-principles problem families
+```text
+Information / Representation
+    ├─ Informational State / Representational Constitution
+    └─ Informational Dynamics / Formation–Transformation
+```
 
-Canonical inventory:
+### B1 — Informational State / Representational Constitution
 
-`N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md`
+Primary question:
 
-Twelve bounded problem families are currently exposed:
+> What informational state/result/representation exists, what is it about, what content/form/identity does it carry, and what makes its interpretation materially distinct from another informational state?
 
-1. referent / subject / scope binding;
-2. informational access / acquisition / observation formation;
-3. representational content / form / assertion semantics;
-4. informational identity / granularity / equivalence;
-5. source / holder / perspective / attribution;
-6. derivation / transformation / lineage;
-7. epistemic / evidential / reliability standing;
-8. temporal applicability / freshness / change in standing;
-9. selection / view / context formation;
-10. conflict / consistency / plurality;
-11. accessibility / exposure / communication boundary;
-12. persistence / memory / recordhood transition.
+Primary inherited N2 regions:
 
-These are **problem families, not children**.
+- referent / subject / scope binding;
+- representational content / form / interpretation / assertion semantics;
+- informational identity / granularity / equivalence.
 
-## C. Structural corrections established by N1/N2
+### B2 — Informational Dynamics / Formation–Transformation
 
-### C1 — actual state / observation / estimate cannot collapse
+Primary question:
 
-Independent control/measurement traditions preserve a distinction among actual referent state, observation/result and internal estimate/model.
+> How do informational states become available, get generated, selected, transformed, revised, communicated, invalidated or otherwise change?
 
-### C2 — process/result/relation/lifecycle kinds are mixed in the inherited sketch
+Primary inherited N2 regions:
 
-Examples:
+- acquisition / observation formation;
+- derivation / transformation / lineage;
+- selection / view / context formation.
 
-- observation/inference = process/relation candidates;
-- model/claim/result = informational state/result candidates;
-- evidence/authority/context = role/relation/view candidates;
-- persistence = lifecycle condition/specialisation.
+## C. Why familiar nouns were rejected as children
 
-Therefore the adequacy-stage noun list is not an accepted child taxonomy.
+The inherited `observation / belief / evidence / context / Records` sketch mixes:
 
-### C3 — information != representation
+- processes;
+- representational states/results;
+- relations/roles;
+- use-relative views;
+- lifecycle conditions.
 
-Causal/statistical information can exist without semantic representation in the relevant sense. The current compound label must therefore remain bounded/provisional.
+It is therefore not a valid immediate-child hierarchy.
 
-### C4 — evidence is relational
+## D. Cross-cutting dimensions retained
 
-Evidence/support standing is relative to a target claim/question/hypothesis and body of other evidence. Do not promote `Evidence` mechanically as an object child.
+Explicit but not promoted:
 
-### C5 — provenance is relational
-
-Provenance spans informational/entity states, activities and agents. Treat provenance as a likely cross-cutting relation/dimension unless N3 proves otherwise.
-
-### C6 — context is use-relative
-
-Context literature and current project evidence both suggest that context often depends on relevance/selection relative to an entity, interaction, Work or current use. Treat context/view formation as a problem family, not an intrinsic object subtype.
-
-### C7 — quality/stewardship dimensions are not ontology children
-
-Data-quality and FAIR traditions expose intrinsic/contextual/representational/access/reuse concerns, but these are stakeholder/use/system perspectives and desiderata crossing multiple informational states.
-
-## D. Candidate cross-cutting dimensions
-
-Current strong cross-cutting candidates:
-
-- referent/scope;
-- source/provenance;
-- holder/perspective;
-- temporal applicability/freshness;
-- uncertainty/confidence;
-- authority/standing;
-- accessibility/visibility;
-- representation medium/form;
+- referent / scope;
+- source / provenance;
+- holder / perspective;
+- temporal applicability / freshness;
+- uncertainty / confidence;
+- epistemic / evidential / authority standing;
+- conflict / plurality;
+- accessibility / visibility;
+- representation form / interpretability;
 - persistence horizon;
 - derivation lineage.
 
-Do not promote automatically.
+These may become deeper research regions only if later child passes independently justify promotion.
 
-## E. Candidate process/result pattern
+## E. Records / persistence result
 
-A recurring structural pattern, not yet a hierarchy:
+Current bounded correction:
+
+> **Records / Persistent Information is a deep persistence specialization/profile crossing the Information ground, not a clean universal immediate peer child.**
+
+Persistence activates distinctive obligations around identity/version binding, preservation closure, history/standing, retrieval and retention/disposition, but persistent information still participates in both State and Dynamics.
+
+The completed Records corpus remains valid and user-evaluated for that specialization.
+
+## F. Context result
+
+Current bounded interpretation:
 
 ```text
-formation / acquisition / transformation
-        ↓
-informational result / representation / state
-        ↓
-relations / standing / use / context
-        ↓
-optional persistence / lifecycle obligations
+eligible / available informational states
+        ↓ selection / retrieval / ranking / compression
+contextual working view/state
+        ↓ relative to
+Work / Actor / query / decision / purpose
 ```
 
-N3 must test whether this is merely a lifecycle view or can yield stable first-order branches.
+Therefore Context is a high-value State + Dynamics + use-relation pattern, not an immediate child.
 
-## F. Records boundary
+## G. Evidence / truth / authority result
 
-Prior deep evidence establishes Persistent Information / Records as a specialised problem region.
+Keep separate:
 
-Still open:
+```text
+representation exists
+!= representation is true
+!= representation is evidence for this claim
+!= source is authoritative for this role
+!= evidence is sufficient for this decision
+!= decision is authorised/committed
+```
 
-- immediate child vs deeper specialization vs lifecycle axis;
-- persistence vs recordhood;
-- how Records requirement-derivation semantics nest without flattening;
-- whether transient and persistent representations share enough parent semantics to justify the current broader ground.
+Evidence and authority remain load-bearing cross-ground/cross-cutting relations rather than peer children.
 
-## G. Boundary rivals
+## H. Boundary result
 
-Must continue to survive tests against:
+```text
+Environment → actual realised conditions / operating reality
+Work        → pursuit / commitment / execution / evaluation
+Actors      → bearer / role / capability / authority / participation
+Information → mediated informational states + formation/change dynamics
+```
 
-- Environment / actual world state;
-- Work state, goal, decision and commitment;
-- Actor identity/capability/authority/participation;
-- Records / persistent information;
-- relation-only implementations;
-- technical mechanisms such as RAG/KG/memory/context systems.
+Key anti-collapse rules:
 
-## H. Current phase
+- actual state != observation/model/record;
+- state/result != generating/changing process;
+- Work representation != actual Work state;
+- Actor representation != Actor identity/authority;
+- persistence correctness != factual truth;
+- message delivery != shared understanding;
+- context visibility != source existence.
 
-N0 complete.  
-N1 parent coherence attack complete with provisional pass.  
-N2 first-principles problem inventory complete.  
-**N3 immediate-child clustering is next and active.**
+## I. External structural convergence
 
-No child is accepted yet.
+Materially different traditions independently preserve analogous distinctions:
+
+- metrology: measurement process vs measurement result;
+- OGC/ISO observation: procedure/act vs result;
+- W3C PROV: entity vs activity/generation/derivation;
+- database provenance: output vs source/transformation lineage;
+- belief revision: belief state/base vs change operations.
+
+Data-quality, FAIR, context-aware and annotation traditions were used as contrast/falsifier cases and did not force a third first-order branch.
+
+## J. Completion route
+
+- N0 → `N0-INTERNAL-EVIDENCE-RECOVERY.md`
+- N1 → `N1-NODE-COHERENCE-ATTACK.md`
+- N2 → `N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md`
+- N3 → `N3-IMMEDIATE-CHILD-DISCOVERY.md`
+- N4 → `N4-BOUNDARY-ANTI-COLLAPSE.md`
+- N5 → `N5-EXTERNAL-CROSS-DOMAIN-FALSIFIERS.md`
+- N6 → `N6-OMISSION-REDUCTION-RIVAL-AUDIT.md`
+- N7 → `N7-NODE-CLOSURE.md`
+- integrated synthesis → `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md`
+
+## K. Current gate
+
+The top-level node is boundedly complete and awaiting user evaluation.
+
+**No child is active.**
