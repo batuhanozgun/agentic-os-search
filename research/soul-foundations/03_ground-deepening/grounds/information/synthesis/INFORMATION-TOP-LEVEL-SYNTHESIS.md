@@ -1,6 +1,6 @@
 # Information / Representation — Top-Level Synthesis
 
-**Status:** bounded synthesis of completed top-level node pass; awaiting user evaluation  
+**Status:** bounded synthesis of completed top-level node pass; user-evaluated / accepted  
 **Date:** 2026-09-04  
 **Scope:** Information top-level research only; not architecture, ontology or implementation
 
@@ -33,11 +33,11 @@ A coherent first-order research region survives when scoped to:
 
 This parent should not mean `anything that can be described`.
 
-The recommended research label is:
+The accepted current research label is:
 
 > **Information / Representation**
 
-The earlier suffix `State` should be dropped because the ground contains both state/result semantics and formation/change dynamics.
+The earlier suffix `State` is dropped because the ground contains both state/result semantics and formation/change dynamics.
 
 The label remains provisional at the level of universal terminology. It is a routing/research label, not a SOUL ontology class.
 
@@ -45,7 +45,7 @@ The label remains provisional at the level of universal terminology. It is a rou
 
 # 2. Core hierarchy result
 
-The strongest current immediate-child structure is:
+The accepted current immediate-child structure is:
 
 ```text
 Information / Representation
@@ -371,9 +371,9 @@ These are reopen/deepening questions, not reasons to keep the top-level pass ope
 
 # 14. Completion judgment
 
-The Information top-level node is **boundedly complete for the current foundation-research purpose and awaiting user evaluation**.
+The Information top-level node is **boundedly complete for the current foundation-research purpose and user-evaluated/accepted**.
 
-The strongest current result is:
+The accepted current result is:
 
 ```text
 Information / Representation
@@ -384,4 +384,4 @@ Records / Persistent Information
     ↳ deep persistence specialization/profile across Information
 ```
 
-No substantive child is active until the user evaluates this closure and a later transition decision explicitly selects the next work.
+No substantive child is active. A separate next-work selection/planning decision and explicit authorization are required before substantive research resumes.
