@@ -2,55 +2,55 @@
 
 ## Role
 
-Current retrieval router for the `Domain Structure` research pass under `Environment → Domain Reality → Domain State`.
+Current retrieval router for `Domain Structure` and its deeper child results.
 
 For current authorization/status read `STATE.md` first.
 
 ## Current status
 
-**BOUNDED RESULT; USER-EVALUATED / ACCEPTED; NO SUBSTANTIVE CHILD ACTIVE.**
-
-Current substantive authorization is **NONE**. The next logical sibling is `Domain Condition / Status`, but its planning/research requires explicit user authorization.
+**DOMAIN STRUCTURE PARENT ACCEPTED; CONSTITUENT COMPOSITION BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Fast route
 
 | Need | Read |
 |---|---|
-| Current node status | `STATE.md` |
-| Shortest bounded result | `KEY.md` |
-| Topic routing | `FINDINGS-MAP.md` |
-| Integrated research result | `synthesis/DOMAIN-STRUCTURE-SYNTHESIS.md` |
-| Omission / rival audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` |
-| Source recovery | `evidence/SOURCE-LEDGER.md` |
-| Residual uncertainty | `OPEN-QUESTIONS.md` |
-| Deferred relations | `DEFERRED-RELATIONS.md` |
-| Exact freshness after closure/evaluation | `CURRENT-SURFACES.md` |
+| Current Structure state | `STATE.md` |
+| Shortest current hierarchy | `KEY.md` |
+| Current topic routing | `FINDINGS-MAP.md` |
+| Current Constituent Composition result | `constituent-composition-membership/STATE.md` → `KEY.md` |
+| Constituent Composition detail | child `FINDINGS-MAP.md` → synthesis/audit/source ledger |
+| Historical Structure synthesis | `synthesis/DOMAIN-STRUCTURE-SYNTHESIS.md` |
+| Historical Structure audit | `synthesis/COMPLETENESS-OMISSION-CHECK.md` |
+| Exact current freshness | `CURRENT-SURFACES.md` and child `CURRENT-SURFACES.md` |
 
-## Current bounded hierarchy
+Executed child plan:
+`CONSTITUENT-COMPOSITION-MEMBERSHIP-RESEARCH-PLAN.md`.
+
+## Current hierarchy
 
 ```text
-Domain State
-    ├─ Domain Structure
-    │    ├─ Constituent Composition / Membership
-    │    └─ Relational Organization / Topology
-    └─ Domain Condition / Status          ← inactive sibling; next logical step only after explicit authorization
+Domain Structure
+    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    └─ Relational Organization / Topology    ← promoted; inactive / not researched
 ```
 
-`Domain Structure / Composition` was the inherited planning label. The deeper pass refines the node to `Domain Structure`; `Composition` is retained as one structural child rather than as a co-primary parent label.
+The child was inherited as `Constituent Composition / Membership` and refined by its dedicated pass to `Constituent Composition`.
 
-Branches are analytical problem regions, not ontology classes, graph primitives, database sections or architecture modules.
+## Current interpretation
 
-## User evaluation
+- Composition protects **which actual constituents make up/participate in the selected whole**.
+- Relation semantics such as part/member/participant/ingredient must be preserved, but no stable universal child split among them survived.
+- Relational Organization protects **how included constituents are structurally organized** and remains unresearched as a dedicated node.
+- Parent historical artifacts preserve the state available during their pass and are not rewritten to make the later child refinement appear pre-known.
 
-The bounded Structure result was accepted by the user on 2026-09-03. No reopen trigger was raised.
+## Current gate
 
-This closes the evaluation gate but does not activate either discovered Structure child or the Condition sibling.
+No substantive node is active.
+
+Current authorized interaction is **user evaluation of the bounded Constituent Composition result only**.
+
+After evaluation, reassess remaining Environment debt. Do not activate the sibling automatically.
 
 ## Guardrail
 
-This package does not authorize:
-- deep research of either newly discovered Structure child;
-- Domain Condition / Status planning or research without explicit user authorization;
-- Information, Work or Actors research;
-- systematic relation/control composition;
-- SOUL/Development OS architecture, ontology, schema or implementation.
+Do not infer authorization for `Relational Organization / Topology`, a Domain Condition child, Information, Work, Actors, systematic relation/control composition, architecture, ontology/schema/data-model work or implementation.
