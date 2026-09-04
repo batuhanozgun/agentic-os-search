@@ -1,21 +1,21 @@
 # Domain Condition — STATE
 
-**Status:** BOUNDED PARENT RESULT; USER-EVALUATED / ACCEPTED; BOTH IMMEDIATE CHILD PASSES BOUNDED; FINAL CHILD AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** BOUNDED PARENT RESULT; USER-EVALUATED / ACCEPTED; BOTH IMMEDIATE CHILDREN BOUNDED LEAVES / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE  
 **Parent bounded closure:** 2026-09-03  
 **Parent user evaluation accepted:** 2026-09-04  
 **Realized Characteristics:** bounded leaf / user-evaluated / accepted 2026-09-04  
-**Criterion-Relative Standing:** bounded leaf 2026-09-04; awaiting user evaluation  
+**Criterion-Relative Standing:** bounded leaf / user-evaluated / accepted 2026-09-04  
 **Parent:** `Domain State`  
 **Sibling:** `Domain Structure` — bounded / accepted; both immediate children bounded leaves / accepted  
 **Higher ground:** `Environment / Operating Reality`  
-**Current authorised activity:** NONE; RETURN FINAL CHILD RESULT AND DISCUSS ENVIRONMENT NEXT TURN
+**Current authorised activity:** ENVIRONMENT-LEVEL DISCUSSION / JUDGMENT ONLY
 
 ## Current hierarchy
 
 ```text
 Domain Condition
     ├─ Realized Characteristics       ← bounded leaf / accepted
-    └─ Criterion-Relative Standing    ← bounded leaf / awaiting user evaluation
+    └─ Criterion-Relative Standing    ← bounded leaf / accepted
 ```
 
 The inherited labels were refined by their dedicated passes:
@@ -65,27 +65,7 @@ current standing ≠ causal diagnosis/root cause
 
 ## Parent impact
 
-No evidence from either child pass forces reopening Domain Condition, Domain State or Domain Structure.
-
-No third Domain Condition region was exposed.
-
-## Current child routes
-
-Realized Characteristics:
-- `realized-characteristics-values/STATE.md`
-- `realized-characteristics-values/CURRENT-SURFACES.md`
-
-Criterion-Relative Standing:
-- `criterion-relative-standing-status/STATE.md`
-- `criterion-relative-standing-status/KEY.md`
-- `criterion-relative-standing-status/FINDINGS-MAP.md`
-- `criterion-relative-standing-status/synthesis/CRITERION-RELATIVE-STANDING-SYNTHESIS.md`
-- `criterion-relative-standing-status/synthesis/COMPLETENESS-OMISSION-CHECK.md`
-- `criterion-relative-standing-status/CURRENT-SURFACES.md`
-
-Frozen executed plans:
-- `REALIZED-CHARACTERISTICS-VALUES-RESEARCH-PLAN.md`
-- `CRITERION-RELATIVE-STANDING-STATUS-RESEARCH-PLAN.md`.
+No evidence from either child pass forces reopening Domain Condition, Domain State or Domain Structure. No third Domain Condition region was exposed.
 
 ## Verification status
 
@@ -93,9 +73,9 @@ All node completion audits are same-model adversarial self-reviews, **not indepe
 
 ## Environment implication
 
-All currently known promoted Environment descendants have now received focused passes at current foundation depth, subject to user evaluation of `Criterion-Relative Standing`.
+All currently known promoted Environment descendants have dedicated accepted/bounded results at current foundation depth.
 
-This does **not** declare Environment complete. The user explicitly reserved the next turn for Environment-level discussion/judgment.
+This does **not** declare Environment complete. Current authorized work is Environment-level discussion / judgment.
 
 ## Guardrail
 
