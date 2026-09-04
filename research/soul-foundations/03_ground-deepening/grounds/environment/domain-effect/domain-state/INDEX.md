@@ -6,15 +6,15 @@ Current router for bounded Domain State and its deeper Structure/Condition resul
 
 ## Current status
 
-**ALL KNOWN DESCENDANT PASSES BOUNDED; `CRITERION-RELATIVE STANDING` AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE.**
+**ALL KNOWN DESCENDANT PASSES BOUNDED / ACCEPTED; NO SUBSTANTIVE NODE ACTIVE.**
 
 ## Reading order
 
 1. `STATE.md` — current state/authorization.
 2. `KEY.md` — shortest hierarchy.
-3. Final Condition child → `domain-condition/criterion-relative-standing-status/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md`.
-4. Domain Condition parent → `domain-condition/STATE.md` / `KEY.md`.
-5. Realized Characteristics and Structure children as needed.
+3. Domain Condition → `domain-condition/STATE.md` / `KEY.md` / `CURRENT-SURFACES.md`.
+4. Condition children → their `STATE.md` / `KEY.md` / `CURRENT-SURFACES.md`.
+5. Structure children as needed.
 6. historical parent findings/synthesis only for original pass reconstruction.
 7. `CURRENT-SURFACES.md` for exact freshness.
 
@@ -27,12 +27,12 @@ Domain State
     │    └─ Relational Organization       ← bounded leaf / accepted
     └─ Domain Condition
          ├─ Realized Characteristics      ← bounded leaf / accepted
-         └─ Criterion-Relative Standing   ← bounded leaf / awaiting user evaluation
+         └─ Criterion-Relative Standing   ← bounded leaf / accepted
 ```
 
 ## Current gate
 
-No substantive node is active. Current interaction is final standing evaluation and the Environment-level discussion reserved for the next turn.
+No substantive node is active. Current authorized work is **Environment-level discussion / judgment only**.
 
 Information remains inactive.
 
