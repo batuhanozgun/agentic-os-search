@@ -1,30 +1,25 @@
 # Informational State / Representational Constitution — STATE
 
-**Status:** ACTIVE RESEARCH — N7 CLOSURE  
+**Status:** BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
 **Activated:** 2026-09-05  
+**Closed for evaluation:** 2026-09-05  
 **User authorization:** explicit selection and authorization after user-evaluated Information top-level closure  
 **Parent:** `Information / Representation` — boundedly complete / user-evaluated  
-**Current phase:** N7 bounded closure / prepare user evaluation  
+**Current phase:** N7 CLOSURE COMPLETE / USER EVALUATION GATE  
 **N0–N6:** COMPLETE  
-**Substantive node active:** Informational State / Representational Constitution  
+**Substantive node active:** NONE  
 **Sibling:** Informational Dynamics / Formation–Transformation — inactive  
 **Work / Actors:** inactive
 
 ## Current purpose
 
-Close the authorised `Informational State / Representational Constitution` pass if the N0–N6 result is boundedly sufficient for the current Foundation depth, then return it for user evaluation before any other node is activated.
+Preserve the bounded result of the completed `Informational State / Representational Constitution` pass and return it for user evaluation before any sibling, ground or deeper node is activated.
 
-## Protected question
+## Bounded result
 
-> What informational state/result/representation exists, what is it about, what content/form/identity/qualifications constitute it, and what makes it materially the same as or different from another state?
+> **Informational State / Representational Constitution is a bounded leaf for the current Foundation research depth.**
 
-## Leading N0–N6 result
-
-```text
-Informational State / Representational Constitution   ← BOUNDED LEAF CANDIDATE
-
-No immediate child promoted.
-```
+No stable immediate child split survived N1–N6.
 
 The node retains an explicit internal constitution map rather than collapsing distinctions:
 
@@ -50,29 +45,49 @@ Qualification & relations
     availability / visibility / persistence status where State-side
 ```
 
-These four blocks are retrieval/orientation clusters only, not accepted child branches.
+The four blocks are orientation/retrieval clusters only, not accepted child branches.
 
-## Research progress
+## Closure basis
 
-```text
-N0 canonical/internal evidence recovery       ← COMPLETE
-N1 node coherence attack                      ← COMPLETE
-N2 first-principles problem inventory         ← COMPLETE
-N3 immediate-child discovery                  ← COMPLETE / leaf candidate leads
-N4 boundary / anti-collapse                   ← COMPLETE / leaf candidate survives
-N5 external / cross-domain falsifiers         ← COMPLETE / leaf candidate survives
-N6 omission / reduction / rival audit         ← COMPLETE / same-model; leaf candidate survives
-N7 node closure / user evaluation             ← ACTIVE
-```
+- N0 recovered canonical parent/internal evidence, Records and selected candidate studies.
+- N1 showed the State node is coherent but weakened inherited State sub-hierarchies.
+- N2 derived eleven first-principles State failure/problem families.
+- N3 compared rival decompositions and found the bounded-leaf model strongest.
+- N4 preserved boundaries against Dynamics, Environment, Work, Actors and Records.
+- N5 used materially different external traditions and found no stable missing child.
+- N6 same-model adversarial review tried to force multiple child splits and found none cleaner than the leaf result.
+- N7 closed the node for user evaluation.
 
 ## Verification status
 
-The pass combines current canonical Foundation evidence, the completed Records specialization, selected candidate studies and materially different external traditions. N6 is same-model adversarial review. The complete child result has **not** received independent second-researcher/model replication.
+The pass combines current canonical evidence, completed Records research, selected candidate-study holdouts and primary/authoritative external sources where available. N6 is same-model adversarial review. The complete child synthesis has **not** received independent second-researcher/model replication.
 
-## Stop / return condition
+User evaluation can close the research gate but does not change verification independence.
 
-If N7 confirms bounded closure, set substantive active node to NONE and return the bounded result for user evaluation. Do not activate Informational Dynamics or any other node.
+## Reopen triggers
 
-## Guardrail
+Reopen if later evidence shows:
 
-Do not begin Informational Dynamics, any discovered child, Work, Actors, systematic composition, architecture, ontology/data-model or implementation work.
+1. a stable `Qualification / Standing`, `Identity / Equivalence` or `Reference / Applicability` child across materially different domains;
+2. a multimodal/non-propositional/pre-semantic case exposes a missing constitution region;
+3. later Informational Dynamics research reveals State boundary theft or omission;
+4. later Work/Actors/composition research exposes a forced fit;
+5. independent review identifies a stable missing child or invalid leaf judgment.
+
+## Current authorization / return condition
+
+**USER EVALUATION ONLY.**
+
+No substantive node is active.
+
+Do not begin:
+
+- Informational Dynamics;
+- any newly proposed State child;
+- Work or Actors;
+- systematic relation/control composition;
+- SOUL / Development OS architecture;
+- ontology/data-model work;
+- implementation.
+
+After user evaluation, make a separate next-work selection/authorization decision.
