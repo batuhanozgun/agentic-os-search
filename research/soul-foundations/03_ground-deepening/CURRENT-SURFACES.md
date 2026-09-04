@@ -24,7 +24,7 @@
 
 | Surface | Bound Git blob SHA |
 |---|---|
-| `grounds/information/CURRENT-SURFACES.md` | `78d88d13805c67859fda8bbeebf19a8a40a81e31` |
+| `grounds/information/CURRENT-SURFACES.md` | `fe1212527ab2ce11565a9ed4bd68ebc49f92c8ff` |
 
 ## Current sequencing / gate
 
