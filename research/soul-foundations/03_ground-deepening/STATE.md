@@ -1,15 +1,15 @@
 # Ground Deepening — STATE
 
-**Status:** ALL CURRENTLY KNOWN ENVIRONMENT DESCENDANT PASSES BOUNDED; FINAL STANDING CHILD AWAITING USER EVALUATION; ENVIRONMENT COMPLETION DISCUSSION NEXT; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** ALL CURRENTLY KNOWN ENVIRONMENT DESCENDANT PASSES BOUNDED / ACCEPTED; ENVIRONMENT-LEVEL JUDGMENT CURRENT; NO SUBSTANTIVE NODE ACTIVE  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
-**Environment completion review:** earlier review bounded / accepted; its identified descendant debt has now received focused passes, subject to final child evaluation  
+**Environment completion review:** earlier review bounded / accepted; its identified descendant debt has now been researched and user-evaluated  
 **Constituent Composition:** bounded leaf / accepted  
 **Relational Organization:** bounded leaf / accepted  
 **Realized Characteristics:** bounded leaf / accepted  
-**Criterion-Relative Standing:** bounded leaf 2026-09-04; awaiting user evaluation  
+**Criterion-Relative Standing:** bounded leaf / accepted  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
-**Current authorised activity:** NONE; FINAL CHILD EVALUATION / ENVIRONMENT DISCUSSION NEXT TURN
+**Current authorised activity:** ENVIRONMENT-LEVEL DISCUSSION / JUDGMENT ONLY
 
 ## Working research tree
 
@@ -22,7 +22,7 @@ Environment / Operating Reality
     │    │    │    └─ Relational Organization       ← bounded leaf / accepted
     │    │    └─ Domain Condition
     │    │         ├─ Realized Characteristics      ← bounded leaf / accepted
-    │    │         └─ Criterion-Relative Standing   ← bounded leaf / awaiting user evaluation
+    │    │         └─ Criterion-Relative Standing   ← bounded leaf / accepted
     │    └─ Domain Dynamics                         ← bounded leaf
     └─ Work Conditions                              ← bounded leaf
 
@@ -34,9 +34,8 @@ Actors / Agency–Participation–Authority          ← inactive
 ## Current continuation
 
 ```text
-known Environment descendant passes ← bounded at current foundation depth
-Criterion-Relative Standing evaluation ← CURRENT GATE
-Environment-level discussion/judgment ← NEXT USER TURN
+known Environment descendant passes ← bounded / accepted at current foundation depth
+Environment-level discussion/judgment ← CURRENT GATE
 Information transition                ← not authorised
 ```
 
@@ -44,7 +43,7 @@ Information transition                ← not authorised
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
-Known descendant coverage is not itself the Environment completion judgment. The next turn must assess Environment as a whole rather than silently inferring closure.
+Known descendant coverage is not itself the Environment completion judgment. Current work assesses Environment as a whole.
 
 ## Verification status
 
