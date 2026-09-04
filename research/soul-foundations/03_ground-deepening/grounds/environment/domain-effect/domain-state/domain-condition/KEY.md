@@ -1,6 +1,6 @@
 # Domain Condition — KEY
 
-**Status:** BOUNDED PARENT RESULT; USER-EVALUATED / ACCEPTED; BOTH IMMEDIATE CHILD PASSES BOUNDED  
+**Status:** BOUNDED PARENT RESULT; USER-EVALUATED / ACCEPTED; BOTH IMMEDIATE CHILDREN BOUNDED LEAVES / ACCEPTED  
 **Date:** 2026-09-04  
 **Parent:** Domain State
 
@@ -9,7 +9,7 @@
 ```text
 Domain Condition
     ├─ Realized Characteristics       ← bounded leaf / accepted
-    └─ Criterion-Relative Standing    ← bounded leaf / awaiting user evaluation
+    └─ Criterion-Relative Standing    ← bounded leaf / accepted
 ```
 
 The parent label remains `Domain Condition`.
@@ -73,22 +73,10 @@ No evidence forces reopening `Domain State`.
 
 ## Verification limit
 
-Child completion audits are same-model adversarial self-reviews, not independent verification. External evidence discriminates rivals but does not independently validate this exact hierarchy.
-
-## Go deeper
-
-Realized Characteristics:
-- `realized-characteristics-values/STATE.md`
-- `realized-characteristics-values/CURRENT-SURFACES.md`
-
-Criterion-Relative Standing:
-- `criterion-relative-standing-status/STATE.md`
-- `criterion-relative-standing-status/KEY.md`
-- `criterion-relative-standing-status/FINDINGS-MAP.md`
-- `criterion-relative-standing-status/CURRENT-SURFACES.md`
+Child completion audits are same-model adversarial self-reviews, not independent verification. External evidence discriminates rivals but does not independently validate this exact hierarchy. User acceptance does not alter that limit.
 
 ## Current gate
 
-No substantive node is active. `Criterion-Relative Standing` awaits user evaluation, and the user reserved the next turn for Environment-level discussion.
+No substantive node is active. Current authorized work is **Environment-level discussion / judgment only**.
 
 Do not begin Information automatically.
