@@ -1,6 +1,6 @@
 # Environment / Operating Reality — KEY
 
-**Status:** ENVIRONMENT NOT YET COMPLETE; `REALIZED CHARACTERISTICS` BOUNDED LEAF / AWAITING USER EVALUATION; NO SUBSTANTIVE NODE ACTIVE  
+**Status:** ALL CURRENTLY KNOWN PROMOTED DESCENDANT PASSES BOUNDED; FINAL STANDING CHILD AWAITING USER EVALUATION; ENVIRONMENT COMPLETION NOT YET ADJUDICATED  
 **Date:** 2026-09-04
 
 ## Shortest current result
@@ -10,29 +10,42 @@ Environment / Operating Reality
     ├─ Domain Reality
     │    ├─ Domain State
     │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition   ← bounded leaf / accepted
-    │    │    │    └─ Relational Organization   ← bounded leaf / accepted
+    │    │    │    ├─ Constituent Composition       ← bounded leaf / accepted
+    │    │    │    └─ Relational Organization       ← bounded leaf / accepted
     │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics                 ← bounded leaf / awaiting user evaluation
-    │    │         └─ Criterion-Relative Standing / Status     ← promoted / inactive / unresearched
-    │    └─ Domain Dynamics                                   ← bounded leaf
-    └─ Work Conditions                                        ← bounded leaf
+    │    │         ├─ Realized Characteristics      ← bounded leaf / accepted
+    │    │         └─ Criterion-Relative Standing   ← bounded leaf / awaiting user evaluation
+    │    └─ Domain Dynamics                         ← bounded leaf
+    └─ Work Conditions                              ← bounded leaf
 ```
 
-## Current verdict
+## Current research state
 
-Environment parent remains retained and Environment remains **not yet complete**.
+All currently known promoted Environment descendants have now received dedicated focused passes at current foundation depth.
 
-`Realized Characteristics / Values` was refined to **Realized Characteristics** and closed as a bounded leaf. No Environment/Domain parent reopen was forced.
+The final descendant was refined:
 
-Remaining promoted/unresearched debt after the current gate:
+```text
+Criterion-Relative Standing / Status
+→ Criterion-Relative Standing
+→ bounded leaf
+```
 
-`Criterion-Relative Standing / Status`.
+No final-child evidence forced an Environment/Domain parent reopen.
+
+## Important distinction
+
+```text
+known descendant research debt addressed
+≠ Environment completion already adjudicated
+```
+
+The user reserved the next turn for Environment-level discussion. Environment completion remains deliberately pending.
 
 ## Transition judgment
 
-Information should not begin yet.
+Information remains inactive and must not begin automatically.
 
 ## Authorization
 
-No substantive node is active. Current authorized interaction is **user evaluation of bounded `Realized Characteristics` only**.
+No substantive node is active. Current interaction is final Standing evaluation and the next-turn Environment discussion.
