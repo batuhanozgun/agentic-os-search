@@ -1,6 +1,6 @@
 # Domain Reality — CURRENT SURFACES
 
-**Status:** canonical freshness binding after bounded Environment completion review  
+**Status:** canonical freshness binding after bounded Constituent Composition closure; awaiting user evaluation  
 **Date:** 2026-09-04  
 **Branch:** `main`
 
@@ -8,9 +8,9 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `52102ec9067ef10d0fbe8e754a3dcaf6c821b72b` |
-| Router | `INDEX.md` | `11cf4d07f77b43c025181a48fd69142e08ab592f` |
-| L0 key | `KEY.md` | `20466b6563f335ccdd6e28dc1304bc892cb1d4fb` |
+| Node state | `STATE.md` | `b0f68d856fa8fe5ec2603f2cbcd1c40763514f05` |
+| Router | `INDEX.md` | `e6f809e279a1694e2fa50cb19c6e37eec66cebfe` |
+| L0 key | `KEY.md` | `123239a5757e31bfbbafda2269350c32b8a48b2a` |
 | L1 findings map | `FINDINGS-MAP.md` | `a0c3b18fd608a37dafc379e988048b5446c56ad0` |
 | Current residual questions | `OPEN-QUESTIONS.md` | `0197089b1f5e97beef77790f68b46bebd509a40c` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `56d238a0f5b7fac2d4dd963473fe501a66d778a5` |
@@ -19,15 +19,26 @@
 
 | Node | Status | Freshness surface |
 |---|---|---|
-| Domain State | retained; four promoted descendants remain unresearched | `domain-state/CURRENT-SURFACES.md` @ `6289c817d5f6d25e6b2d728c684128a1f635e72b` |
-| Domain Structure | bounded / accepted; two children promoted/unresearched | `domain-state/domain-structure/CURRENT-SURFACES.md` @ `8bd8d0b1e7e26f10d007d4e2c3702f0787d25619` |
-| Domain Condition | bounded / accepted; two children promoted/unresearched | `domain-state/domain-condition/CURRENT-SURFACES.md` @ `b661a325c32339e81d900532dcb556af6167cf01` |
+| Domain State | retained; Constituent Composition closure propagated | `domain-state/CURRENT-SURFACES.md` @ `c3e7150a92f136d7b3661436eaf043a4fe9b6623` |
+| Domain Structure | bounded / accepted; Constituent Composition bounded leaf | `domain-state/domain-structure/CURRENT-SURFACES.md` @ `7c03f33f26165a49dccbf41bcdc571291757683d` |
+| Constituent Composition | bounded leaf / awaiting user evaluation | `domain-state/domain-structure/constituent-composition-membership/CURRENT-SURFACES.md` @ `bf7c0d88d190d57a3ffd7a0c191b12f49837e83d` |
+| Domain Condition | bounded / accepted; two children unresearched | `domain-state/domain-condition/CURRENT-SURFACES.md` @ `b661a325c32339e81d900532dcb556af6167cf01` |
 | Domain Dynamics | bounded leaf / user-evaluated | `domain-dynamics/CURRENT-SURFACES.md` @ `cd4c1dbbd23ac73227ed3765df3c514a54b707ef` |
 
-## Completion-review impact
+## Current hierarchy
 
-The Environment completion review retained Domain Reality and Dynamics but judged Environment not yet complete because the four Structure/Condition descendants remain material research debts.
+```text
+Domain Reality
+    ├─ Domain State
+    │    ├─ Domain Structure
+    │    │    ├─ Constituent Composition               ← bounded leaf; awaiting user evaluation
+    │    │    └─ Relational Organization / Topology    ← promoted; inactive / not researched
+    │    └─ Domain Condition
+    │         ├─ Realized Characteristics / Values       ← promoted; inactive / not researched
+    │         └─ Criterion-Relative Standing / Status    ← promoted; inactive / not researched
+    └─ Domain Dynamics                                   ← bounded leaf
+```
 
 ## Authorization rule
 
-No substantive node is active. Current gate is user evaluation of the Environment completion-review result. Information remains inactive.
+No substantive node is active. Current authorized interaction is **user evaluation of bounded Constituent Composition only**. Information remains inactive.
