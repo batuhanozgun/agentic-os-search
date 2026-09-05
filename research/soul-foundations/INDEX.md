@@ -8,37 +8,39 @@ Read `STATE.md` first for current authorization.
 
 ## Current stage
 
-**CROSS-GROUND COMPOSITION PARENT ACCEPTED; RELATIONAL BINDING CHILD ACTIVE — B0.**
+**CROSS-GROUND COMPOSITION PARENT ACCEPTED; RELATIONAL BINDING BOUNDED LEAF / AWAITING USER EVALUATION.**
+
+No substantive Foundation child is active.
 
 ## Read routes
 
 | Need | Read first | Then if needed |
 |---|---|---|
-| Current overall state / authorization | `STATE.md` | active child router |
-| Active Relational Binding child | `05_relation-control-composition/relational-binding/STATE.md` | `PLAN.md` → `INDEX.md` → B0–B7 |
-| Accepted composition parent result | `05_relation-control-composition/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → C7 |
-| Parent binding evidence | `05_relation-control-composition/C2-PAIRWISE-PROBES.md` | C6/C7 as needed |
+| Current overall state / authorization | `STATE.md` | current composition router |
+| Current Relational Binding result | `05_relation-control-composition/relational-binding/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → B7 |
+| Binding research reasoning | `05_relation-control-composition/relational-binding/INDEX.md` | targeted B0–B6 pass |
+| Binding residual/reopen questions | `05_relation-control-composition/relational-binding/OPEN-QUESTIONS.md` | relevant parent/ground surface if reopened |
+| Accepted composition parent | `05_relation-control-composition/STATE.md` | `KEY.md` → synthesis/C7 |
 | Accepted adequacy result | `04_top-level-adequacy-rerun/STATE.md` | `KEY.md` → synthesis/Q6 |
-| Accepted Environment | `03_ground-deepening/grounds/environment/STATE.md` | local current route |
-| Accepted Information | `03_ground-deepening/grounds/information/STATE.md` | local current route |
-| Accepted Work | `03_ground-deepening/grounds/work/STATE.md` | local current route |
-| Accepted Actors | `03_ground-deepening/grounds/actors/STATE.md` | local current route |
-| Candidate studies | `../studies/CATALOG.md` | selected package only when a live child hypothesis requires it |
+| Accepted grounds | `03_ground-deepening/grounds/<ground>/STATE.md` | local current route |
+| Candidate studies | `../studies/CATALOG.md` | selected package only when a later authorised question requires it |
 
 ## Current composition map
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding                  ← ACTIVE
-├─ Composite Standing / Qualification ← inactive
+├─ Relational Binding                  ← bounded leaf / USER EVALUATION PENDING
+├─ Composite Standing / Qualification ← recommended next if Binding accepted / inactive
 ├─ Control / Constraint                ← inactive
 └─ Transition / Effect / Feedback      ← inactive
 ```
 
-## Current child question
+## Current next-step interpretation
 
-Which accepted-ground anchors are connected, in what typed role, direction, scope, reference frame and time, and what semantic difference would be lost by replacing that binding with a generic link?
+Current interaction is evaluation of Relational Binding only.
+
+If accepted, `Composite Standing / Qualification` is the strongest current next-child candidate, but it requires a separate substantive activation instruction.
 
 ## Guardrail
 
-Only Relational Binding is active. Composite Standing, Control, Transition, architecture, ontology/data model, schema design and implementation remain unauthorized.
+Architecture, ontology/data model, schema design, implementation and further composition-child research remain unauthorized until separately activated.
