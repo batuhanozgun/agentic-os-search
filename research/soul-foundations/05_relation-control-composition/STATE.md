@@ -1,75 +1,56 @@
 # Relation / Control / Composition — STATE
 
-**Status:** PARENT ACCEPTED; RELATIONAL BINDING BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** PARENT ACCEPTED; RELATIONAL BINDING ACCEPTED; COMPOSITE STANDING ACTIVE  
 **Parent user evaluation:** ACCEPTED 2026-09-05  
-**Current phase:** RELATIONAL BINDING RESULT EVALUATION  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** RELATIONAL BINDING RESULT EVALUATION ONLY
+**Relational Binding:** bounded leaf / user-evaluated / accepted 2026-09-05  
+**Current phase:** COMPOSITE STANDING / QUALIFICATION — S0 ACTIVE  
+**Current authorised substantive activity:** COMPOSITE STANDING / QUALIFICATION CHILD PASS
 
 ## Accepted composition structure
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding                  ← BOUNDED LEAF / USER EVALUATION PENDING
-├─ Composite Standing / Qualification ← NOT ACTIVE
-├─ Control / Constraint                ← NOT ACTIVE
-└─ Transition / Effect / Feedback      ← NOT ACTIVE
+├─ Relational Binding                  ← bounded leaf / accepted
+├─ Composite Standing / Qualification ← ACTIVE
+├─ Control / Constraint                ← inactive
+└─ Transition / Effect / Feedback      ← inactive
 ```
 
-## Current Relational Binding result
+## Active child
 
 Canonical package:
 
-`relational-binding/`
+`composite-standing/`
 
-Current bounded judgment:
+Protected question:
 
-> Relational Binding is a bounded leaf at the current Foundation depth. No immediate child was promoted; its internal structure is a reusable binding-semantic signature plus overlapping relation-family profiles.
+> What criterion-, target-, use-, authority-, evidence-, reference-frame- or time-relative standing holds only when several accepted-ground facts and bindings are jointly evaluated, and what exact anchors make that standing valid, current and decision-usable?
 
-Stable signature pressure includes:
+## Accepted Binding prerequisite
+
+Composite Standing inherits, but may falsify, the accepted Binding grammar:
 - exact anchors in typed semantic positions;
-- binding meaning / protected relation question;
+- relation meaning;
 - applicability scope/reference frame;
-- effective/reference time where material;
+- time/currentness where material;
 - relation-instance individuation;
-- qualified/n-ary structure where binary decomposition loses association;
-- permitted/forbidden relation inference where decision-critical.
+- qualified/n-ary structure where binary decomposition loses association.
 
-Stable profiles include:
-- Reference / Representation / Targeting;
-- Participation / Position;
-- Dependency / Support;
-- Provenance / Attribution;
-- Situation / Access / Interface;
-- Specification / Evidence / Traceability.
+Correct Binding does not establish Composite Standing by itself.
 
-## Child status
+## Other child status
 
 ```text
-Relational Binding                  ← evaluation pending / inactive
-Composite Standing / Qualification ← RECOMMENDED NEXT IF BINDING ACCEPTED / inactive
-Control / Constraint                ← inactive
-Transition / Effect / Feedback      ← inactive
+Control / Constraint           ← inactive
+Transition / Effect / Feedback ← inactive
 ```
 
-## Sequencing result after Binding closure
-
-The parent sequencing question was re-run as required by C7.
-
-Current recommendation:
-
-> **Composite Standing / Qualification should be the next composition child if Relational Binding is accepted.**
-
-Reason: Binding repeatedly terminates in multi-anchor qualification questions such as actionable, verified, validated, accepted, evidence sufficient, ready/supported and outcome attained.
-
-This recommendation does not activate the child.
+Their order will be re-selected after Composite Standing closure rather than pre-committed.
 
 ## Verification status
 
-Relational Binding B7 is same-model adversarial review. No independent second-researcher/model replication has validated the exact bounded-leaf result or binding signature.
+Relational Binding B7 is same-model adversarial review, not independent verification. Composite Standing has not yet reached a verdict.
 
-## Current authorization
+## Guardrail
 
-**RELATIONAL BINDING RESULT EVALUATION ONLY.**
-
-Do not automatically begin Composite Standing, Control, Transition, architecture, ontology/data-model/schema work or implementation.
+Do not begin Control, Transition, architecture, ontology/data-model/schema work or implementation while Composite Standing is active.
