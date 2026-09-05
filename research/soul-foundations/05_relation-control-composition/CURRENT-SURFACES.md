@@ -1,6 +1,6 @@
 # Relation / Control / Composition — CURRENT SURFACES
 
-**Status:** canonical freshness binding at bounded parent closure / user-evaluation gate  
+**Status:** canonical freshness binding after parent user acceptance  
 **Date:** 2026-09-05  
 **Branch:** `main`
 
@@ -8,8 +8,8 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Parent state | `STATE.md` | `f7d1ef5b7f322630174c7652df95429a29094d39` |
-| Parent router | `INDEX.md` | `612419f4c9b63ce15cef5f0bd3278027181382ca` |
+| Parent state | `STATE.md` | `246c77dd55d22f2507c6c6a86721f3d14a02fe9a` |
+| Parent router | `INDEX.md` | `24b214572b7a0ef51cc62a859877171f19f1ec58` |
 | Parent plan | `PLAN.md` | `bc866966be4d1410839ea8ae85901c3a4eb7372f` |
 | L0 key | `KEY.md` | `06ea53bc25749b94e3294c2a316e8a25474731ca` |
 | Findings map | `FINDINGS-MAP.md` | `b98253dd32aa06ae5761770a4400dc208e15a7b6` |
@@ -43,24 +43,25 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Foundation state | `../STATE.md` | `343c21379063bbfaeb46847adc07e398de1fcd4f` |
-| Foundation router | `../INDEX.md` | `ff26be234c511e5ef58758696838480774d5ce36` |
+| Foundation state | `../STATE.md` | `dcc734e33777ae5ce7d8bd3775705a351a35bdf5` |
+| Foundation router | `../INDEX.md` | `1220a379adfb6927454378ee8aef7d548cc8c872` |
 
-## Current bounded result
+## Accepted bounded result
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding                  ← discovered / user evaluation pending
-├─ Composite Standing / Qualification ← discovered / user evaluation pending
-├─ Control / Constraint                ← discovered / user evaluation pending
-└─ Transition / Effect / Feedback      ← discovered / user evaluation pending
+├─ Relational Binding                  ← discovered / recommended next / inactive
+├─ Composite Standing / Qualification ← discovered / inactive
+├─ Control / Constraint                ← discovered / inactive
+└─ Transition / Effect / Feedback      ← discovered / inactive
 
+composition parent                     ← USER-EVALUATED / ACCEPTED
 substantive composition child          ← NONE
 ```
 
 ## Sequencing interpretation
 
-If the parent result is accepted, `Relational Binding` is the recommended first child pass. Remaining child order is intentionally not fixed yet.
+`Relational Binding` is the recommended first child pass. Remaining child order is intentionally not fixed yet.
 
 ## Verification note
 
