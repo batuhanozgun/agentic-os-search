@@ -4,44 +4,32 @@
 **Activated:** 2026-09-05  
 **Parent:** `Cross-Ground Composition` — accepted  
 **Relational Binding:** accepted bounded leaf  
-**S0–S4:** COMPLETE  
-**Current phase:** S5 AUTHORITATIVE EXTERNAL / CANDIDATE-STUDY HOLDOUTS  
+**S0–S5:** COMPLETE  
+**Current phase:** S6 SYNTHESIS / IMMEDIATE-CHILD DECISION  
 **Current authorised substantive activity:** COMPOSITE STANDING / QUALIFICATION CHILD PASS
 
-## Current leading result under external attack
+## Current leading judgment
 
 ```text
 Composite Standing / Qualification
+    ← BOUNDED LEAF HYPOTHESIS
     ← cross-ground qualification only
-    ← bounded-leaf hypothesis survives internal rivals
-    ← shared semantic signature
-    ← overlapping profiles
+    ← no immediate child currently justified
+    ← shared semantic core + optional assessment/recognition layers
+    ← overlapping standing profiles
 ```
 
-Protected boundary:
+## Strong routing correction
+
+A standing does **not** become Composite merely because evidence, assessment Work or reports from other grounds are used to discover it.
+
+Composite routing requires that multiple accepted-ground semantics are part of the **standing's constitutive/defining qualification basis**. Ground-local standing remains ground-local when cross-ground material is merely epistemic access.
+
+## Current research route
 
 ```text
-ground-local standing
-!= cross-ground composite qualification
-```
-
-Three-layer non-collapse:
-
-```text
-object/constitutive standing
-!= epistemic assessment
-!= decision/recognition
-!= recorded status
-```
-
-S5 uses authoritative holdouts to try to falsify these claims rather than validate them by vocabulary match.
-
-## Research route
-
-```text
-S0–S4 ← COMPLETE
-S5 authoritative/candidate holdouts ← ACTIVE
-S6 synthesis / child decision
+S0–S5 ← COMPLETE
+S6 synthesis / immediate-child decision ← ACTIVE
 S7 adversarial closure / user evaluation gate
 ```
 
