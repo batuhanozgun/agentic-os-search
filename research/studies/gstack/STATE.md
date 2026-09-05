@@ -5,7 +5,7 @@
 **User authorization:** broad gstack research and durable repository work authorised through the current operational boundary  
 **Pinned target:** `garrytan/gstack@0d1bd5616c0ef096bb7ccee336f63c60ee408618`  
 **Observed:** 2026-09-05  
-**Current phase:** S1 — corpus topology + governing/runtime source expansion  
+**Current phase:** S2 — subsystem reconstruction; planning/specification/work-admission bounded synthesis complete  
 **Foundation mutation:** NONE / NOT AUTHORISED BY THIS STUDY  
 
 ## Protected research question
@@ -31,7 +31,7 @@ behavior/policy contract
 
 Higher-level summaries must retain source re-entry paths.
 
-## Completed in current pass
+## Completed durable checkpoint
 
 ### Canonical project control / preflight
 
@@ -42,112 +42,145 @@ Higher-level summaries must retain source re-entry paths.
 
 ### External target snapshot
 
-- pinned gstack research corpus to commit `0d1bd5616c0ef096bb7ccee336f63c60ee408618`;
+- pinned corpus to `0d1bd5616c0ef096bb7ccee336f63c60ee408618`;
 - recorded package version 1.79.0 and rapid-release freshness risk;
-- recovered actual repository tree/contents at the pinned revision.
+- recovered actual repository topology and distinguished it from stale/derived structure documentation.
 
-### Fully read / orientation sources
+### Orientation / governing layer
 
-Current orientation reads include:
+Substantial-to-full source coverage now includes repository control, architecture, ethos/design policy, package/eval surfaces, root router, generator/resolver composition, and host-aware carved-section mechanics. See `SOURCE-LEDGER.md` for exact status.
 
-- `AGENTS.md`
-- `ARCHITECTURE.md`
-- `CLAUDE.md`
-- `DESIGN.md`
-- `ETHOS.md`
-- `docs/PROJECT_STRUCTURE.md`
-- `package.json`
+### First bounded subsystem synthesis
 
-Additional source inspected:
+Created:
 
-- `office-hours/SKILL.md.tmpl` — substantial source read begun; long template/section composition requires continued section-level follow-through before claiming complete mechanism coverage.
+`research/studies/gstack/syntheses/planning-specification-work-admission.md`
 
-See `SOURCE-LEDGER.md` for source status and blob/reference details.
+This synthesis reconstructs the gstack-native chain around:
 
-## Provisional system findings — not final synthesis
+- `/office-hours` discovery/design;
+- durable design lineage and approval;
+- `/plan-ceo-review` scope/ambition review;
+- `/plan-eng-review` target authority and engineering hardening;
+- `/autoplan` delegated-decision mode;
+- `/spec` executable-work admission, issue/archive, and optional isolated agent spawn;
+- template/resolver/section composition;
+- deterministic structural tests and selected behavioral E2Es.
+
+It deliberately does **not** claim whole-system closure.
+
+## Current strongest findings
 
 ### F1 — gstack is more than a prompt/skill collection
 
-**Status:** strong observation/inference from architecture, package manifest, project structure and control docs.
+**Status:** strong observation/inference.
 
-The pinned system combines:
+The pinned system combines generated workflow contracts, a persistent browser/runtime, durable local/repo artifacts, review/decision state, host/model integration, testing/eval infrastructure, security/control surfaces, and production lifecycle workflows.
 
-- generated workflow skill contracts;
-- shared policy/preamble and section composition;
-- a persistent browser execution runtime;
-- state and durable artifacts;
-- host/model integration surfaces;
-- tests/evals/routing checks;
-- security/permission controls;
-- shipping/deployment/production feedback workflows;
-- repository self-generation/release mechanisms.
+### F2 — generated skills are composed behavioral programs
 
-Do not collapse this into "Markdown prompts" even though much behavioral policy is expressed in Markdown/templates.
+**Status:** strong implementation observation for the inspected path.
 
-### F2 — policy is propagated into behavior through generation/composition
+The meaningful behavior source is not one `SKILL.md`. The inspected composition path includes `.tmpl` skeletons, shared resolver-generated policy, on-demand carved sections, host-specific rendering, and parent-child skill composition. Generated files are runtime artifacts but not sufficient provenance by themselves.
 
-**Status:** strong observation; implementation details still to expand.
+### F3 — planning is a sequence of qualification transitions
 
-`ETHOS.md`, generated skill preambles/templates and repository instructions indicate a deliberate policy propagation path. The study must inspect the generator/shared sections to determine exactly how reliably this is composed into each skill.
+**Status:** strong subsystem inference.
 
-### F3 — strong-agent orchestration is intentionally separated from deterministic browser execution
+Across the inspected planning/spec chain, continuation repeatedly requires a more qualified state: problem framed, premise agreed, approach chosen, scope accepted, review target resolved, findings decided, spec confirmed, outbound content safe, and agent spawn authorised.
 
-**Status:** strong architecture observation; runtime code/tests still to expand.
+This chain is composable rather than a universal monolithic state machine: the root router may enter later specialist stages directly and prerequisites may be advisory.
 
-The browser daemon is designed as a persistent, relatively deterministic capability surface while the AI agent orchestrates higher-level workflows. This is a candidate Environment/Actors/Work cross-boundary mechanism, but final Foundation projection is deferred.
+### F4 — durable artifacts participate in control flow
 
-### F4 — evaluation is a first-class repository subsystem
+**Status:** strong subsystem inference.
 
-**Status:** strong manifest observation; criterion/oracle quality not yet established.
+Design docs, CEO plans, review reports/logs, decision logs, task artifacts, spec archives/issues and worktree metadata support later discovery, handoff, review readiness/staleness, or execution. They should not be modeled as passive documentation only.
 
-The package defines free tests, paid LLM evals, E2E/routing evals, Codex/Gemini variants, gate vs periodic tiers, sharding, compare/summary/flake/watch/select tools, compliance audit and slop scanning. This is materially more than conventional unit-test-only validation, but its independence and coverage remain open questions.
+### F5 — decision authority is an explicit workflow dimension
 
-### F5 — planning skills encode explicit work-state gates and durable handoffs
+**Status:** strong subsystem inference.
 
-**Status:** early strong observation from `office-hours`; broader planning cluster not yet sufficient for subsystem synthesis.
+Interactive review paths use fine-grained user approval. `/autoplan` deliberately changes that delegation regime: bounded Mechanical/Taste decisions are auto-decided under declared principles, while User Challenges preserve user direction until a final approval gate. Parent composition explicitly suppresses child gates that would contradict the parent's one-gate contract.
 
-`office-hours` separates understanding/design from implementation, forces premise challenge and alternatives, requires explicit user approval before progressing, writes durable design artifacts and carries memory/context hooks. The exact relationship to downstream planning/engineering skills remains to be reconstructed.
+### F6 — `/spec` acts as a work-admission boundary
 
-## Known inconsistency / freshness note
+**Status:** strong structural observation + bounded behavioral support.
 
-`docs/PROJECT_STRUCTURE.md` describes some paths that do not resolve exactly at the pinned revision (for example a referenced `skill/SKILL.md.tmpl` path was not present when fetched). Therefore repository-authored structure documentation is treated as an intended/derived view and checked against the actual pinned tree.
+The inspected contract requires why/scope/current-state/code evidence before issue filing, then applies semantic review, fail-closed redaction, optional executability scoring, sink-level re-scans, local archive, plan-mode dispatch, dirty-tree/TOCTOU checks, SHA pinning, and final spawn confirmation.
 
-## Current coverage gaps
+`test/spec-template-invariants.test.ts` structurally pins these requirements; this is stronger than documentation but still does not prove perfect model compliance in every execution.
 
-Major unresolved clusters include:
+### F7 — evaluation is a first-class subsystem, but verification strength varies sharply by test tier
 
-- complete skill/template inventory and generated-section architecture;
-- plan/spec/orchestration chain;
-- code review, investigation and QA;
-- browser runtime code and runtime tests;
-- security / permission / guard mechanisms;
-- memory / learnings / GBrain;
-- multi-agent and cross-model dispatch/review;
-- host adapters / portability;
-- ship/deploy/canary/production/retro chain;
-- eval definitions, routing tests, judges and failure handling;
-- self-generation/release/update mechanisms;
-- chronology/evolution stream from the large changelog and recent release diffs.
+**Status:** strong source observation; broader oracle audit pending.
+
+The coverage matrix explicitly separates CI-blocking gate checks from periodic/deeper E2E. Some skills currently have only a structural coverage floor, while planning/spec have richer targeted behavior/invariant tests. First-party tests remain non-independent, and LLM-judge/E2E oracle validity needs separate inspection.
+
+### F8 — office-hours includes a separate relationship/promotion mechanism
+
+**Status:** direct observation; analytically separated by R02.
+
+Founder-signal tracking, YC messaging, resource recommendations, repeat-session tiers, opt-out configuration and telemetry are real system behavior. They are not evidence that the planning method is technically or epistemically superior and must remain separated from the work-quality assessment.
+
+### F9 — persistent browser execution remains a major unclosed subsystem
+
+**Status:** strong architecture observation; implementation/runtime test expansion pending.
+
+The earlier architecture read indicates a persistent Chromium/Bun/CDP capability layer intentionally separated from agent-level orchestration. This remains an important future Environment/Actors/Work interaction candidate but has not yet received a dedicated subsystem synthesis.
 
 ## Verification status
 
-- Current findings are first-party source-grounded but incomplete.
-- No independent replication exists.
-- gstack tests/evals have not yet been audited enough to make strong claims about actual behavioral enforcement.
-- No four-ground or cross-ground final synthesis is authorised by evidence yet; those layers remain downstream of gstack-native coverage.
+Current planning/spec synthesis distinguishes three evidence strengths:
+
+1. **intended policy** — skill/template prose;
+2. **structurally pinned contract** — generator/invariant/deterministic tests;
+3. **behavioral evidence** — real-agent/PTY or LLM-judged E2E.
+
+Do not collapse those categories.
+
+Current limitations:
+
+- no independent external replication;
+- cross-model diversity is not automatically independent verification because framing/artifacts/orchestration may be shared;
+- several behavioral E2Es are periodic/non-gating and intentionally scenario-bounded;
+- the complete planning→review→QA→ship lifecycle has not yet been closed;
+- four-ground and cross-ground synthesis remain premature.
+
+## Known inconsistencies / cautions
+
+1. `docs/PROJECT_STRUCTURE.md` contains paths that do not exactly resolve at the pinned revision; actual tree/source wins over that derived view.
+2. Some long source files were read substantially but remain marked CONTINUE rather than being overstated as full coverage.
+3. gstack's own tests/evals are first-party evidence; test existence is not equivalent to criterion validity, coverage adequacy, or independent verification.
+4. Upstream `main` is fast-moving; all current conclusions remain version-bound to the pinned revision.
+
+## Current coverage gaps
+
+Major unresolved clusters now are:
+
+- **review / QA / ship admission chain and review-log/dashboard consumers**;
+- investigation/root-cause workflow;
+- browser runtime code, command surface and runtime tests;
+- security / permission / guard mechanisms beyond the inspected spec redaction path;
+- memory / learnings / GBrain and stale-context/authority behavior;
+- multi-agent and cross-model dispatch beyond planning;
+- host adapters / portability fidelity;
+- deploy/canary/production/retro feedback loop;
+- eval judges, routing, compliance, flake/compare/watch lifecycle;
+- repository self-development / release/update mechanisms;
+- chronology/evolution stream from changelog and release diffs.
 
 ## Next work
 
-Continue S1/S2 by expanding high-leverage mechanisms in this approximate order, revisable by evidence:
+The immediate next dependency is the **review → QA → ship boundary**.
 
-1. skill generation/shared orchestration architecture;
-2. planning/spec workflow chain;
-3. review/investigate/QA chain;
-4. browser/runtime + guard/security mechanisms;
-5. multi-agent/cross-model + host portability;
-6. memory/GBrain;
-7. ship/deploy/canary/retro/production feedback;
-8. eval/routing/compliance infrastructure;
-9. repository self-development and release evolution.
+Research it as a connected mechanism rather than three isolated skills:
 
-Create subsystem syntheses only when source coverage is sufficient; do not wait for every file in the repository if remaining files are demonstrably non-load-bearing for the protected question.
+1. inspect `/review` and its adversarial/cross-model/test-verification machinery;
+2. inspect `/qa` / `/qa-only` and browser evidence contracts;
+3. inspect `/ship`, review-readiness consumers, plan/spec completion gates, and issue/decision/task integration;
+4. inspect deterministic and behavioral tests for those boundaries;
+5. decide whether the planning subsystem's qualified states actually constrain shipping, are only advisory, or vary by configuration;
+6. write a second bounded subsystem synthesis if evidence is sufficient.
+
+After that, revisit whether the provisional subsystem map should merge or split before moving to browser/security/memory/multi-agent/host/lifecycle clusters.
