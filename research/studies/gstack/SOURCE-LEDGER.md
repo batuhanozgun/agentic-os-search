@@ -51,7 +51,7 @@ Observed 2026-09-05.
 | `plan-ceo-review/sections/review-sections.md.tmpl` | pinned | SUBSTANTIAL / CONTINUE | full-depth review findings/gates |
 | `plan-eng-review/SKILL.md.tmpl` | `e066e2c5f5028ad3b8485fe8606967ac1188b47e` | FULL | target/scope authority |
 | `plan-eng-review/sections/manifest.json` | `f76e8f95bf4b313cecc2797278440cfc8f0a90a5` | FULL | section registry |
-| `plan-eng-review/sections/review-sections.md.tmpl` | pinned | FULL for synthesis use | architecture/test/perf review |
+| `plan-eng-review/sections/review-sections.md.tmpl` | pinned | FULL for synthesis use | architecture/test/perf review + optional worktree-parallelization planning |
 | `autoplan/SKILL.md.tmpl` | `6a034e15e7647980d74dfa71bfe17c25875ed054` | SUBSTANTIAL / CONTINUE | delegated decisions and audit |
 | `spec/SKILL.md.tmpl` | pinned | SUBSTANTIAL / CONTINUE | why/scope/code-evidence/spec spine |
 | `spec/sections/gate-and-file.md.tmpl` | `f8923a834e9228d42b4e535ed8b97cb52e0e5a6d` | FULL | quality/redaction/sink/issue/archive/spawn controls |
@@ -73,7 +73,7 @@ Observed 2026-09-05.
 | `ship/sections/plan-completion.md` | `2c36cefe477d68768a5623090c9a90835427ae5f` | FULL | ship-time plan control |
 | `ship/sections/review-army.md` | `bb1c3b82910ebaccf1beecfa10bf0771cc777601` | SUBSTANTIAL / CONTINUE | fresh specialists/red-team/fix loop |
 | `ship/sections/adversarial.md` | `254331b9f615a09dc6e96deb952d622fe54bcd32` | FULL | Claude/Codex adversarial challenge |
-| `ship/sections/pr-body.md` | pinned | SUBSTANTIAL / CONTINUE | PR/release evidence aggregation |
+| `ship/sections/pr-body.md` | pinned | SUBSTANTIAL / CONTINUE | PR/release evidence aggregation + spawned doc-sync handoff/recovery |
 | `qa-only/SKILL.md.tmpl` | `75c4123cc5c406ffdd36c71a094335c137135b1e` | FULL | browser report-only evidence |
 | `qa/SKILL.md.tmpl` | `d15a0c5d151ec6a8b15cd3a31dc96430ddb91909` | FULL | browser fix/verify loop |
 | `scripts/resolvers/utility.ts` QA methodology | `911b01d8f7e5264a759cfa878c440e7f642eb7cb` | FULL for use | shared QA methodology |
@@ -119,7 +119,7 @@ Observed 2026-09-05.
 | `bin/gstack-paths` | `5b66e3102ff5c55b76bf88b0a2cdc31ae6b83d56` | FULL | state-root resolution |
 | `hosts/define-host.ts` | `0ed190dd00606a69acb0aca990289781f79bbc79` | FULL | external-host frontmatter defaults |
 | `hosts/claude.ts` | `5381953cae8040508a260e6e4b3eb39973c92934` | FULL | Claude hook/GBrain behavior |
-| `hosts/codex.ts` | `b46e9222495eada3da68debaae6dab6d9d57167c` | FULL | Codex hook suppression |
+| `hosts/codex.ts` | `b46e9222495eada3da68debaae6dab6d9d57167c` | FULL | Codex hook/cross-model suppression |
 | OpenClaw investigate adaptation | pinned | FULL | causal phases without freeze |
 
 ---
@@ -142,6 +142,40 @@ Observed 2026-09-05.
 | `bin/gstack-gbrain-repo-policy` | pinned | FULL for current use | normalized per-remote read-write/read-only/deny store; batch fail-closed |
 | `lib/gbrain-repo-policy-client.ts` | `890282847a4241e4f79509360de5dc6a33de2505` | FULL | shared TS policy client; caller owns failure polarity |
 | `bin/gstack-memory-ingest.ts` | pinned | SUBSTANTIAL / CONTINUE | transcript/artifact ingest; policy filter before write; accounting/state controls |
+
+---
+
+## Multi-agent / cross-model coordination sources
+
+| Source | Evidence | Status | Role / key finding |
+|---|---|---:|---|
+| pinned v1.79 commit `0d1bd...` | commit message/diff | FULL for synthesis use | third stranded-parent recurrence; foreground fix, recovery and residual TODOs |
+| `scripts/resolvers/constants.ts` | `4e94b986eff9a526eae24acead228e50dafb8bd8` | FULL for synthesis use | shared foreground-dispatch note + Codex availability/under-Codex semantics |
+| `test/run-in-background-guidance.test.ts` | `bd0f1e42d95c0ac96ec40cda7a89112cd2c1f749` | FULL | 24-carrier structural pin/scanner; not universal behavioral execution proof |
+| `ship/sections/pr-body.md` | pinned | FULL for multi-agent use | spawned docs child, JSON contract, timeout/cancel/reconcile, authority subtraction |
+| `document-release/SKILL.md` | pinned | SUBSTANTIAL / CONTINUE | spawned-session AUQ adaptation and trust trigger |
+| `test/skill-e2e-ship-docsync.test.ts` | pinned | FULL | actual Agent/Task dispatch and `run_in_background:false` captured in tool calls |
+| `test/skill-e2e-docsync-spawned.test.ts` | pinned | FULL | real spawned child gate auto-decision + parseable result + VERSION boundary |
+| `review/sections/review-army.md` | `f37fb5d738106c063bdcf784078535d714723bc5` | FULL for synthesis use | parallel specialist fan-out, JSON merge/dedupe/confidence/red-team semantics |
+| `test/skill-e2e-review-army.test.ts` | pinned | SUBSTANTIAL / CONTINUE | review/checklist/output behavior; many scenarios explicitly inline specialists instead of real child dispatch |
+| `ship/sections/adversarial.md` | pinned | FULL for current use | same-family fresh adversarial child + Codex outside-model challenge + missing-coverage semantics |
+| `codex/SKILL.md.tmpl` | pinned | SUBSTANTIAL / CONTINUE | Codex review/challenge/consult and same-model nesting guard |
+| `test/codex-under-codex-detection.test.ts` | `b2428244eaf6fab4be0ce86a914594987a643c70` | FULL | live-shell presence detection + rendered consumers |
+| `autoplan/sections/ceo-phase.md` | `876c03fb91780ab0c2527dcb08300e058c4042be` | FULL for synthesis use | dual voices, foreground sequencing, fresh Claude vs Codex roles |
+| `autoplan/sections/design-phase.md` | `88a5616515a3793e00eb556005657426c4eafb89` | FULL for synthesis use | prior-phase context deliberately withheld from Claude, supplied to Codex |
+| `autoplan/sections/dx-phase.md` | `54157874c3ab8a3d84d05fd852e3762e5788c394` | FULL for synthesis use | dual-voice degradation/consensus |
+| `autoplan/sections/eng-phase.md` | `2f0251af31a4cc149c91ce3d395516568af97884` | FULL for synthesis use | dual voices, test/architecture integration |
+| `test/skill-e2e-autoplan-dual-voice.test.ts` | `1efc6dfc68643fa2772770ea9b87187986612e99` | FULL | periodic actual Agent + Codex invocation/liveness evidence, not full-pipeline correctness |
+| `cso/SKILL.md` | pinned | SUBSTANTIAL / CONTINUE | per-finding fresh verifier with initial reasoning withheld |
+| `test/skill-e2e-cso.test.ts` | `5f58a45d053b450d958c16696ec65fa8e393a60c` | FULL for current use | selected live CSO paths; diff-mode includes verification child |
+| `design-shotgun/SKILL.md` | pinned | SUBSTANTIAL / CONTINUE | N foreground Agent calls in one message → concurrent generative fan-out |
+| dedicated `test/skill-e2e-design-shotgun.test.ts` | targeted fetch/search | ABSENT / NEGATIVE | dedicated production-topology E2E not found in current targeted search |
+| `pair-agent/SKILL.md.tmpl` | `2f66ec44b63ba24e6a0ba4023a042f66342edefc` | FULL for synthesis use | remote/local browser capability delegation |
+| `browse/test/tab-isolation.test.ts` | `698dd1ac8b0c750df4d03632925195e6458e1118` | FULL | own-only pair-agent tab boundary |
+| `plan-eng-review/sections/review-sections.md` | pinned | SUBSTANTIAL / CONTINUE | explicit `isolation:"worktree"` as optional implementation-parallel strategy |
+| `hosts/define-host.ts` | `0ed190dd00606a69acb0aca990289781f79bbc79` | FULL | cross-model suppression/tool rewrite model |
+| `hosts/codex.ts` | `b46e9222495eada3da68debaae6dab6d9d57167c` | FULL | Codex host lacks Claude/Codex-self orchestration contract |
+| pinned `TODOS.md` dispatch items | pinned | SUBSTANTIAL / CONTINUE | known cross-host Agent-render defect + proposed PreToolUse foreground runtime enforcement |
 
 ---
 
@@ -183,7 +217,7 @@ Observed 2026-09-05.
 | `test/skill-e2e-context-skills.test.ts` | pinned | SUBSTANTIAL / CONTINUE | real skill save→restore/list/branch behavior |
 | `test/learnings.test.ts` | `e43fe7c04969f287ebab171baced4a9944601119` | SUBSTANTIAL / CONTINUE | real logger/search append, decay, latest-winner, injection checks |
 | `test/gstack-learnings-search.test.ts` | `ffa0227aed5afe0d2f4656f18b49cc2d8b344a45` | FULL | cross-project trusted-only + query behavior |
-| `test/learnings-injection.test.ts` | `f5b5191f4eca3c3cc53be1b5872a647dbbb2e35b` | PLANNED / REFERENCED | dedicated learning-injection suite exists; current synthesis already has logger regression evidence |
+| `test/learnings-injection.test.ts` | `f5b5191f4eca3c3cc53be1b5872a647dbbb2e35b` | PLANNED / REFERENCED | dedicated learning-injection suite exists |
 | `test/skill-e2e-learnings.test.ts` | `8672ef3c2a2ab1fe2caaa0bd76c7098df747168e` | FULL | real-agent basic `/learn` retrieval |
 | `test/brain-cache-spec.test.ts` | pinned | FULL for current use | entity/scope/TTL/budget/trust constants |
 | `test/brain-cache-roundtrip.test.ts` | pinned | FULL for current use | warm/missing/stale-fallback/meta/endpoint state machine |
@@ -193,6 +227,13 @@ Observed 2026-09-05.
 | `test/autoplan-preflight-budget.test.ts` referenced in spec comment | fetch 404 | ABSENT / NEGATIVE | stale comment; equivalent current assertions exist elsewhere |
 | `test/salience-allowlist.test.ts` | pinned | FULL | privacy-prefix allowlist behavior |
 | `test/gbrain-repo-policy-client.test.ts` | pinned | FULL | real Bash/TS policy, corrupt batch fail-closed, normalization parity |
+| `test/run-in-background-guidance.test.ts` | `bd0f1e42d95c0ac96ec40cda7a89112cd2c1f749` | FULL | cross-carrier foreground structural scanner/pins |
+| `test/skill-e2e-ship-docsync.test.ts` | pinned | FULL | production-style docs child dispatch + captured foreground flag |
+| `test/skill-e2e-docsync-spawned.test.ts` | pinned | FULL | spawned AUQ adaptation + parent-consumable JSON contract |
+| `test/skill-e2e-autoplan-dual-voice.test.ts` | `1efc6dfc68643fa2772770ea9b87187986612e99` | FULL | periodic dual-voice existence/liveness, not full consensus correctness |
+| `test/codex-under-codex-detection.test.ts` | `b2428244eaf6fab4be0ce86a914594987a643c70` | FULL | nested same-model suppression |
+| `test/skill-e2e-cso.test.ts` | `5f58a45d053b450d958c16696ec65fa8e393a60c` | FULL for current use | selected CSO actual verifier use + vulnerability/report behavior |
+| `test/skill-e2e-review-army.test.ts` | pinned | SUBSTANTIAL / CONTINUE | checklist/findings/format behavior; not strong proof of actual parallel child topology |
 | broader LLM judge/routing/Codex/Gemini/eval lifecycle tests | — | PLANNED | later eval/portability cluster |
 
 ---
@@ -206,6 +247,7 @@ Observed 2026-09-05.
 | `syntheses/browser-runtime-security-evidence.md` | BOUNDED | browser execution → capability/security → evidence |
 | `syntheses/investigation-root-cause-debug-control.md` | BOUNDED | failure → causal hypothesis → bounded fix → fresh verification/learning |
 | `syntheses/memory-learnings-context-gbrain.md` | BOUNDED | prior state → qualification/trust/cache → current context/reuse |
+| `syntheses/multi-agent-cross-model-coordination.md` | BOUNDED | dispatch/context/authority → child execution/result → aggregation/liveness/continuation |
 
 ---
 
@@ -214,7 +256,7 @@ Observed 2026-09-05.
 | Source | Status | Note |
 |---|---:|---|
 | `CHANGELOG.md` (~1.1 MB pinned) | PLANNED / PARTITIONED | use chronological/mechanistic partitions |
-| pinned v1.79 release commit/diff | NEXT-CLUSTER RELEVANT | subagent dispatch/stranded-run behavior relevant to multi-agent synthesis |
+| pinned v1.79 release commit/diff | READ / SYNTHESIZED | third stranded-subagent recurrence is causal evidence for multi-agent/liveness synthesis |
 
 ---
 
@@ -225,18 +267,24 @@ Observed 2026-09-05.
 3. Skill prose is intended workflow policy, not automatically executed behavior.
 4. First-party tests/evals are not independent verification.
 5. Cross-model diversity is not automatically independent verification.
-6. Office-hours promotion/relationship behavior is separate from planning-quality evidence.
-7. Ship evidence channels have heterogeneous failure polarity; “gate” is not one semantics.
-8. AI-assessed changed-path coverage is not instrumented coverage.
-9. Pair-agent own-only tab isolation does not generalize to shared local clients.
-10. Browser command historical READ/WRITE sets are not security capability authority.
-11. Browser state continuity between calls is not default headless cross-daemon persistence.
-12. Live public ngrok behavior was not reproduced by inspected E2E.
-13. Investigate causal workflow has no registered direct behavioral E2E; freeze is better tested.
-14. Investigate freeze is Edit/Write-specific, host-specific and not automatically cleared by investigate.
-15. Investigate `root cause` does not guarantee systemic prevention/detection depth.
-16. Context checkpoints are LLM-authored continuity representations and are not automatically source-revalidated on restore.
-17. Local learnings are sourced/decayed candidate evidence, not automatic truth.
-18. GBrain cache qualification can be lost in representation: `stale-fallback` is printed on stderr but planning preflight suppresses stderr and injects content only.
-19. A stale brain-cache spec comment points to a non-existent autoplan budget test; actual current tests win.
-20. Repo trust policy is an actual ingest control; unattended unreadable policy state fails closed before transcript writes.
+6. Same-family fresh-context subagents are not outside-model verification.
+7. Office-hours promotion/relationship behavior is separate from planning-quality evidence.
+8. Ship evidence channels have heterogeneous failure polarity; “gate” is not one semantics.
+9. AI-assessed changed-path coverage is not instrumented coverage.
+10. Pair-agent own-only tab isolation does not generalize to shared local clients or filesystem/worktree isolation.
+11. Browser command historical READ/WRITE sets are not security capability authority.
+12. Browser state continuity between calls is not default headless cross-daemon persistence.
+13. Live public ngrok behavior was not reproduced by inspected E2E.
+14. Investigate causal workflow has no registered direct behavioral E2E; freeze is better tested.
+15. Investigate freeze is Edit/Write-specific, host-specific and not automatically cleared by investigate.
+16. Investigate `root cause` does not guarantee systemic prevention/detection depth.
+17. Context checkpoints are LLM-authored continuity representations and are not automatically source-revalidated on restore.
+18. Local learnings are sourced/decayed candidate evidence, not automatic truth.
+19. GBrain cache qualification can be lost in representation: `stale-fallback` is printed on stderr but planning preflight suppresses stderr and injects content only.
+20. A stale brain-cache spec comment points to a non-existent autoplan budget test; actual current tests win.
+21. Repo trust policy is an actual ingest control; unattended unreadable policy state fails closed before transcript writes.
+22. `MULTI-SPECIALIST CONFIRMED` is a product confidence heuristic, not proof of statistically independent findings.
+23. Review Army E2Es frequently substitute inline checklist application for real parallel Agent dispatch; do not cite them as production-topology proof.
+24. Fresh context is not a universal side-effect-isolation boundary; Step 18 child shares the working tree with its parent.
+25. v1.79 foreground guidance is not yet a universal runtime-enforced invariant; PreToolUse enforcement remains TODO.
+26. A Claude-host Agent dispatch contract cannot be generalized to non-Claude hosts; the pinned repo records a Codex-host Step 18 dispatch mismatch as an open issue.
