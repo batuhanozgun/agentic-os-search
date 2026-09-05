@@ -1,26 +1,53 @@
-# Informational Dynamics / Formation–Transformation — INDEX
+# Informational Dynamics / Formation–Transition — INDEX
 
 ## Role
 
-Current retrieval router for the active Informational Dynamics foundation-research node.
+Current retrieval router for the boundedly complete Informational Dynamics foundation-research node.
 
-For authorization and phase read `STATE.md` first.
+For current status and authorization read `STATE.md` first.
 
 ## Current status
 
-**ACTIVE RESEARCH — N0 canonical/internal evidence recovery.**
+**BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
 
-Exactly one substantive node is active: `Informational Dynamics / Formation–Transformation`.
+No substantive node is active.
 
-## Current read order
+## Default read order
 
-1. `STATE.md` — authorization, phase, stop condition.
-2. `RESEARCH-PLAN.md` — node-specific N0–N7 research questions and evidence strategy.
-3. `EVIDENCE-INVENTORY.md` — once produced, recovered internal/candidate evidence.
-4. N0–N6 pass artifacts as they are completed.
-5. `FINDINGS-MAP.md` and synthesis when the node reaches bounded closure.
-6. `N7-NODE-CLOSURE.md` — closure basis, residual uncertainty, verification status.
-7. `CURRENT-SURFACES.md` — exact closed/current surface binding when produced.
+1. `STATE.md` — current status, bounded result and authorization.
+2. `KEY.md` — shortest current orientation.
+3. `FINDINGS-MAP.md` — current result and topic routing.
+4. `synthesis/INFORMATIONAL-DYNAMICS-SYNTHESIS.md` — integrated result.
+5. `N7-NODE-CLOSURE.md` — closure basis, residual uncertainty, verification status.
+6. `OPEN-QUESTIONS.md` — residual/reopen questions; not an execution queue.
+7. `DEFERRED-RELATIONS.md` — intentionally deferred cross-node/cross-ground relations.
+8. `EXTERNAL-SOURCE-LEDGER.md` — external source roles/routes.
+9. Descend to N0–N6 only when the reasoning path, rival decomposition, boundary attack, falsifier or omission audit matters.
+10. `CURRENT-SURFACES.md` — exact current-surface binding.
+
+## Bounded result
+
+```text
+Informational Dynamics / Formation–Transition   ← boundedly complete / USER EVALUATION PENDING
+    ├─ Informational Formation / Acquisition
+    ├─ Informational Derivation / Transformation
+    └─ Informational Selection / Exposure
+```
+
+No proposed child is active or separately researched yet.
+
+## Pass reconstruction route
+
+| Need | Read |
+|---|---|
+| Canonical/internal recovery | `N0-CANONICAL-RECOVERY.md` + `EVIDENCE-INVENTORY.md` |
+| Node coherence / label problem | `N1-NODE-COHERENCE-ATTACK.md` |
+| Dynamics problem inventory | `N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md` |
+| Rival immediate-child decompositions | `N3-IMMEDIATE-CHILD-DISCOVERY.md` |
+| State/Environment/Work/Actors/Records boundaries | `N4-BOUNDARY-ANTI-COLLAPSE.md` |
+| External/cross-domain holdouts | `N5-EXTERNAL-CROSS-DOMAIN-FALSIFIERS.md` |
+| Same-model missing-child/reduction attack | `N6-OMISSION-REDUCTION-RIVAL-AUDIT.md` |
+| Closure judgment | `N7-NODE-CLOSURE.md` |
 
 ## Parent / sibling route
 
@@ -28,27 +55,16 @@ Parent Information package: `../`
 
 Accepted sibling result: `../informational-state/`
 
-Current structure:
-
 ```text
 Information / Representation                    ← boundedly complete / user-evaluated
     ├─ Informational State / Representational Constitution   ← bounded leaf / user-evaluated
-    └─ Informational Dynamics / Formation–Transformation     ← ACTIVE
-
-Records / Persistent Information
-    ↳ deep persistence specialization/profile across Information
+    └─ Informational Dynamics / Formation–Transition         ← boundedly complete / evaluation pending
 ```
 
-## Candidate-study reuse boundary
+## Verification status
 
-Candidate studies may be used selectively as evidence, falsifiers or mechanism examples. They do not define the Dynamics hierarchy.
-
-Likely first retrieval candidates for this node:
-
-- `research/studies/context-memory-harness-engineering/`
-- `research/studies/ai-knowledge-strategies/`
-- `research/studies/anthropic-ai-native-sdlc-playbook/`
+External falsifiers plus same-model adversarial N6 support bounded closure. The full node result has not received independent second-researcher/model replication.
 
 ## Guardrail
 
-This router does not authorize sibling re-research, discovered Dynamics children, Work, Actors, composition, architecture, ontology or implementation work.
+Current interaction is user evaluation only. This router does not authorize a Dynamics child, Work, Actors, composition, architecture, ontology or implementation work.
