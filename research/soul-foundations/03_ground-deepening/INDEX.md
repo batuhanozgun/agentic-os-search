@@ -6,18 +6,19 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**ENVIRONMENT ACCEPTED; INFORMATION ACCEPTED; WORK ACCEPTED; ACTORS RECOMMENDED NEXT / NOT ACTIVE.**
+**ENVIRONMENT ACCEPTED; INFORMATION ACCEPTED; WORK ACCEPTED; ACTORS COVERAGE/GAP AUDIT ACTIVE.**
 
 ## Read order
 
-1. `STATE.md` — current stage status/authorization and next-ground recommendation.
+1. `STATE.md` — current stage status/authorization.
 2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive method.
-3. Accepted Work result → `grounds/work/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis.
-4. Prior Actors evidence for next-ground planning → `../01_verticals/actors/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → targeted residual/deferred surfaces.
-5. Accepted Information → `grounds/information/STATE.md` when boundary discrimination matters.
-6. Accepted Environment → `grounds/environment/STATE.md` when boundary discrimination matters.
-7. Candidate studies → `../../studies/CATALOG.md` → selected package only when load-bearing.
-8. `CURRENT-SURFACES.md` — exact stage freshness.
+3. Active Actors audit → `grounds/actors/STATE.md` → `AUDIT-PLAN.md` → `INDEX.md` → current A-pass.
+4. Prior Actors evidence → `../01_verticals/actors/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → targeted evidence.
+5. Accepted Work → `grounds/work/STATE.md` when boundary discrimination matters.
+6. Accepted Information → `grounds/information/STATE.md` when boundary discrimination matters.
+7. Accepted Environment → `grounds/environment/STATE.md` when boundary discrimination matters.
+8. Candidate studies → `../../studies/CATALOG.md` → selected package only when load-bearing.
+9. `CURRENT-SURFACES.md` — exact stage freshness.
 
 ## Current result
 
@@ -25,27 +26,17 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 Environment / Operating Reality                 ← boundedly complete / accepted
 Information / Representation                    ← boundedly complete / accepted
 Work                                             ← boundedly complete / accepted
-Actors                                           ← inactive / RECOMMENDED NEXT
+Actors / Agency–Participation–Authority          ← ACTIVE COVERAGE / GAP AUDIT / A0
 ```
 
-## Next-ground recommendation
+## Actors audit rule
 
-Recommended next substantive pass:
-
-> **Actors / Agency–Participation–Authority — coverage / gap audit**
-
-Do not restart broad Actors research by default. Reuse the completed Actors vertical and test it against the now-accepted Environment, Information and Work boundaries plus newer agentic holdouts. Open targeted Actors deepening only if a material Actors-local gap survives.
-
-## Why not another ground first?
-
-- Environment, Information and Work have bounded accepted results and no current reopen trigger.
-- Actors is the only top-level ground not yet evaluated under this ground-deepening program.
-- Stage exit requires all four grounds to be evaluated before top-level adequacy is rerun.
+Do not restart broad Actors research by default. Reuse the completed Actors vertical and test it against the accepted neighboring grounds plus newer agentic holdouts. Open targeted Actors deepening only if a material Actors-local gap survives.
 
 ## Current gate
 
-No substantive ground is active. The Actors audit is selected as the recommended next work but requires explicit activation/authorization.
+Exactly one substantive ground is active: Actors.
 
 ## Guardrail
 
-Do not infer systematic composition, architecture, ontology/data model or implementation from the current ground map.
+Do not run top-level adequacy, systematic composition, architecture, ontology/data model or implementation before Actors closure and user evaluation.
