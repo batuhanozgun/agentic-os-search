@@ -20,42 +20,86 @@ This README is stable orientation, not dynamic authority.
 ### `01_verticals/` — independent discovery research
 
 Completed bounded corpora:
+- Records / persistent information;
+- Work;
+- Actors;
+- Technical Work Environment.
 
-1. `records-artifacts/` — persistent information / Records;
-2. `work/` — Work;
-3. `actors/` — Actors;
-4. `work-environment/` — Technical Work Environment.
-
-These remain deep evidence corpora and were not assumed to be the final top-level Foundation map.
+These remain evidence corpora rather than final top-level taxonomy authority.
 
 ### `02_adequacy/` — first top-level adequacy synthesis
 
-This stage exposed two level corrections:
+This stage exposed two major level corrections:
 - actual Operating/Domain Reality was missing from the original independent set;
 - Records was too narrow for the broader Information/Representation problem.
 
-A reopened hierarchy pass aligned target/domain reality and Work-support conditions under one broader Environment-like research ground while preserving their distinction.
-
-### `03_ground-deepening/` — recursive ground research
-
-All four grounds were deepened/evaluated and accepted:
+Working frame became:
 
 ```text
 Environment / Operating Reality
 Information / Representation
 Work
 Actors / Agency–Participation–Authority
+
++ typed relations / control / transitions
 ```
 
-Key accepted ground results include:
-- Environment: Domain Reality + Work Conditions, with accepted Domain State/Condition/Dynamics descendants;
-- Information: Informational State + Informational Dynamics, with Formation/Acquisition, Derivation/Transformation and Selection/Exposure regions;
-- Work: boundedly sufficient, rich multidimensional map, no universal immediate-child hierarchy;
-- Actors: boundedly sufficient, rich relational/multi-anchor map, no universal immediate-child hierarchy.
+### `03_ground-deepening/` — recursive ground research
 
-### `04_top-level-adequacy-rerun/` — post-deepening adequacy test
+All four grounds were deepened/evaluated and accepted.
 
-The four-ground hypothesis was re-run after deepening rather than inherited.
+#### Environment / Operating Reality
+
+```text
+Environment / Operating Reality
+    ├─ Domain Reality
+    │    ├─ Domain State
+    │    │    ├─ Domain Structure
+    │    │    │    ├─ Constituent Composition
+    │    │    │    └─ Relational Organization
+    │    │    └─ Domain Condition
+    │    │         ├─ Realized Characteristics
+    │    │         └─ Criterion-Relative Standing
+    │    └─ Domain Dynamics
+    └─ Work Conditions
+         ↳ Technical Work Environment profile
+```
+
+#### Information / Representation
+
+```text
+Information / Representation
+    ├─ Informational State / Representational Constitution
+    └─ Informational Dynamics / Formation–Transition
+         ├─ Formation / Acquisition
+         ├─ Derivation / Transformation
+         └─ Selection / Exposure
+
+Records / Persistent Information
+    ↳ deep persistence specialization/profile across Information
+```
+
+#### Work
+
+```text
+Work
+    ← boundedly complete / accepted
+    ← rich multidimensional internal problem map
+    ← no universal immediate-child hierarchy promoted
+```
+
+#### Actors / Agency–Participation–Authority
+
+```text
+Actors / Agency–Participation–Authority
+    ← boundedly complete / accepted
+    ← rich relational / multi-anchor internal problem map
+    ← no universal immediate-child hierarchy promoted
+```
+
+### `04_top-level-adequacy-rerun/`
+
+The four-ground hypothesis was re-run after ground deepening rather than inherited.
 
 Result:
 
@@ -68,11 +112,13 @@ Actors / Agency–Participation–Authority
 + typed relations / control / transitions
 ```
 
-No fifth peer ground, required merge/split, wrong-level correction or materially stronger rival survived.
+No fifth peer ground, required merge/split, wrong-level correction or stronger rival survived.
 
-**Status:** boundedly complete / user-evaluated / accepted.
+**Status:** user-evaluated / accepted for current Foundation sequencing.
 
-### `05_relation-control-composition/` — cross-ground composition research
+---
+
+## `05_relation-control-composition/` — cross-ground composition research
 
 Accepted parent structure:
 
@@ -84,87 +130,144 @@ Cross-Ground Composition
 └─ Transition / Effect / Feedback
 ```
 
-These are **diagnostic research problem regions**, not mutually exclusive event/relation classes and not architecture modules.
+These are **diagnostic research problem regions**, not architecture modules or mutually exclusive event classes.
 
-The composition parent is **user-evaluated / accepted**.
+### Relational Binding — accepted bounded leaf
 
-#### Relational Binding
+Core problem:
 
-Completed and accepted bounded leaf.
+> What exact anchors are connected, in what typed semantic positions and applicability frame?
 
-Core pressure:
+Durable grammar preserves:
+- exact anchors;
+- role/position;
+- scope/time/version qualifiers;
+- relation-instance identity;
+- qualified/n-ary structure where pairwise decomposition loses meaning.
 
-```text
-Binding semantic instance
-├─ relation meaning / protected semantic question
-├─ exact anchors in typed semantic positions
-├─ applicability structure
-├─ relation-instance individuation
-└─ qualified/n-ary structure when binary decomposition loses association
-```
-
-Key non-collapse rules:
+Key rules:
 
 ```text
 generic connectivity != semantic binding
-represented/asserted binding != actual binding
-actual binding != evidence sufficient to establish binding
-binding != composite standing
-binding != control result
-binding != transition/effect history
+represented binding != actual binding
+actual binding != evidence sufficient to establish it
 graph reachability != legitimate transitive relation
 ```
 
-#### Composite Standing / Qualification
+### Composite Standing / Qualification — accepted bounded leaf
 
-Completed and accepted bounded leaf.
+Core problem:
 
-Decisive routing correction:
+> What cross-ground qualification cannot be localized to one ground because several accepted-ground semantics are constitutive of what it means or makes it hold?
+
+Critical boundary:
 
 ```text
 ground-local Criterion-Relative Standing
 != cross-ground Composite Standing
 ```
 
-A standing belongs in Composite Standing only when multiple accepted-ground semantics are part of what the qualification **means or what constitutes it**. Cross-ground evidence, assessment Work, reporting or access alone does not make a ground-local standing Composite.
-
-Stable semantic core:
-
-```text
-Composite Standing core
-├─ standing meaning / exact qualification question
-├─ exact qualified focus + accepted Binding instances
-├─ qualification frame
-├─ constitutive cross-ground basis
-├─ object-level result semantics
-└─ validity dependencies/currentness
-```
-
-Associated meanings remain distinct:
+Strong distinctions:
 
 ```text
 standing holds
 != epistemic assessment
 != decision / recognition
 != recorded status
-```
 
-Also preserved:
+false
+!= unknown / indeterminate
+!= not evaluated
+!= not applicable
+!= stale
 
-```text
-criterion != decision rule
-false != unknown != not evaluated != not applicable != stale
 verified != validated != accepted
 capable != actionable != authorized != technically reachable
 ```
 
-NASA Product Verification/Validation, JCGM 106/VIM, NIST ABAC, NASA TRL, NIST AI RMF and selected candidate studies were used as falsifiers/holdouts. None forced an immediate child or upstream reopen.
+### Control / Constraint — current bounded result under evaluation
 
-Current next-step recommendation:
+Core problem:
 
-> **Control / Constraint**
+> How is an exact candidate behavior, transition, flow or protected effect governed under an applicable basis/objective, while preserving authority, decision, enforcement, coverage and monitoring distinctions when material?
 
-It is not active. `Transition / Effect / Feedback` remains inactive and should be re-ranked after Control closure rather than treated as pre-fixed.
+Current result:
+
+```text
+Control / Constraint
+    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← no immediate child promoted
+```
+
+Canonical core:
+
+```text
+Control / Constraint core
+├─ protected governing question
+├─ exact governed focus / protected effect
+├─ governing basis / objective / invariant
+├─ governing mode / effect
+├─ applicability frame
+├─ precedence / conflict / exception / default semantics where material
+└─ current validity dependencies
+```
+
+Associated but non-collapsed concerns include:
+- authority / legitimacy;
+- evaluation / decision / gate;
+- enforcement / intervention;
+- coverage / alternate-path / bypass;
+- monitoring / observation;
+- compliance / effectiveness assessment.
+
+Most important new scope distinction:
+
+```text
+governed-effect / control-objective scope
+!= enforcement-point / monitored-path scope
+```
+
+Therefore:
+
+```text
+one path blocked
+!= protected effect controlled
+```
+
+This is especially important for agentic systems: an agent can be blocked from a direct privileged tool while still reaching the same effect through another agent, service, credential or channel.
+
+Accumulated non-collapse:
+
+```text
+policy text
+!= legitimate/current/applicable governing basis
+!= authority
+!= decision
+!= enforcement
+!= compliance
+
+review Work != gate result != authorized progression
+decision != enforcement
+enforcement-point success != end-to-end control-objective success
+obligation != actionability
+effective effect power != legitimate authority
+```
+
+Current external/candidate holdouts include NIST access/zero-trust/security-control material, OASIS XACML, NASA governance/decision gates, OSHA machine guarding, FAA safety-risk guidance and the Anthropic AI-native SDLC study.
+
+### Transition / Effect / Feedback — inactive
+
+If Control is accepted, this is the strongest current next composition child.
+
+Expected protected frontier:
+- actual change and propagation;
+- intended versus realized effect;
+- sequence versus causation;
+- policy/authority/enforcement update propagation;
+- control failure/bypass → actual effect;
+- feedback/adaptation/evolution loops.
+
+It is **not active** and requires separate user authorization.
 
 ---
 
@@ -180,11 +283,11 @@ post-deepening top-level adequacy                ← accepted
 Cross-Ground Composition                        ← accepted
     ├─ Relational Binding                       ← bounded leaf / accepted
     ├─ Composite Standing / Qualification       ← bounded leaf / accepted
-    ├─ Control / Constraint                     ← recommended next / inactive
-    └─ Transition / Effect / Feedback           ← inactive
+    ├─ Control / Constraint                     ← BOUNDED LEAF / USER EVALUATION PENDING
+    └─ Transition / Effect / Feedback           ← recommended next if Control accepted / inactive
 ```
 
-No substantive Foundation child is active. Current interaction is next composition-child selection/planning only.
+No substantive Foundation child is active at the current evaluation gate.
 
 Architecture, ontology/data model, schema design and implementation remain outside current Foundation authorization.
 
@@ -201,14 +304,6 @@ Discovery surface:
 `research/studies/CATALOG.md`
 
 Candidate studies may supply external evidence/counterexamples, falsifiers, mechanism references, benchmarks and later implementation learning. They do **not** define Foundation structure merely by being catalogued.
-
-Current examples include:
-- `ai-knowledge-strategies/`;
-- `anthropic-ai-native-sdlc-playbook/`;
-- `context-memory-harness-engineering/`;
-- `multi-agent-patterns/`;
-- `hands-on-large-language-models/`;
-- `public-apis/`.
 
 ---
 
