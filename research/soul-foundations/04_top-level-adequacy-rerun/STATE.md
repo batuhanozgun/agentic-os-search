@@ -3,7 +3,7 @@
 **Status:** ACTIVE  
 **Activated:** 2026-09-05  
 **User authorization:** explicit acceptance of the Actors result and instruction to continue  
-**Current phase:** Q0 CANONICAL EVIDENCE RECOVERY  
+**Current phase:** Q1 EXHAUSTIVENESS / MISSING-GROUND TEST  
 **Current authorised substantive activity:** TOP-LEVEL ADEQUACY RERUN
 
 ## Entering accepted grounds
@@ -39,14 +39,20 @@ The rerun may **not** yet:
 ## Current route
 
 ```text
-Q0 evidence recovery
-→ Q1 exhaustiveness / missing-ground
-→ Q2 level-alignment / reduction
-→ Q3 boundary-interaction pressure
-→ Q4 materially different holdouts
-→ Q5 rival decompositions
-→ Q6 bounded closure / user evaluation
+Q0 evidence recovery                         ← COMPLETE
+Q1 exhaustiveness / missing-ground           ← ACTIVE
+Q2 level-alignment / reduction               ← pending
+Q3 boundary-interaction pressure             ← pending
+Q4 materially different holdouts             ← pending
+Q5 rival decompositions                      ← pending
+Q6 bounded closure / user evaluation         ← pending
 ```
+
+## Q0 result
+
+Canonical evidence recovery completed without current-ground conflict. The original adequacy hypothesis remains a live candidate rather than an inherited conclusion.
+
+Live Q1 pressure includes Goal/Value, Norms/Governance/Control, Relations, Capability/Actionability, Parties/Stakeholders and Time/Continuity/Evolution.
 
 ## Stop rule
 
