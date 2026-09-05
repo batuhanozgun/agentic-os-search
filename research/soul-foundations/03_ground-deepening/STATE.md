@@ -1,14 +1,15 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT ACCEPTED; INFORMATION ACCEPTED; WORK ACCEPTED; ACTORS NEXT-GROUND RECOMMENDATION PENDING AUTHORIZATION  
+**Status:** ENVIRONMENT ACCEPTED; INFORMATION ACCEPTED; WORK ACCEPTED; ACTORS AUDIT ACTIVE  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment completion:** accepted 2026-09-04  
 **Information completion:** accepted 2026-09-05  
 **Work ground evaluation:** accepted for sequencing 2026-09-05  
+**Actors audit activation:** 2026-09-05  
 **Scope:** ground-specific and recursive one-node-at-a-time research-depth completion  
-**Current authorised substantive activity:** NONE  
-**Current phase:** NEXT-GROUND SELECTION COMPLETE / ACTORS AUTHORIZATION PENDING
+**Current authorised substantive activity:** ACTORS COVERAGE / GAP AUDIT ONLY  
+**Current phase:** ACTORS A0 CANONICAL / EVIDENCE RECOVERY
 
 ## Working research tree / epistemic status
 
@@ -18,49 +19,45 @@ Information / Representation                    ← boundedly complete / accepte
 Work                                             ← boundedly complete / accepted
     ↳ rich multidimensional internal problem map
     ↳ no universal immediate-child hierarchy promoted
-Actors / Agency–Participation–Authority          ← inactive / RECOMMENDED NEXT GROUND
+Actors / Agency–Participation–Authority          ← ACTIVE COVERAGE / GAP AUDIT
 ```
 
 Information retains its accepted State/Dynamics structure and Records persistence specialization. Work retains the accepted bounded audit result and prior deep Work corpus.
 
-## Next-ground selection result
+## Actors audit
 
-**Recommended next substantive ground:** `Actors / Agency–Participation–Authority`.
+Canonical package:
 
-**Recommended entry mode:** **coverage / gap audit**, not a full restart.
+`grounds/actors/`
 
-Rationale:
+Current mode: **coverage / gap audit**, not a full restart.
 
-1. Actors is the only accepted top-level ground not yet evaluated under the current ground-deepening program.
-2. The existing `01_verticals/actors/` corpus is already deep, user-evaluated and boundedly sufficient in isolation.
-3. Environment, Information and Work now provide materially sharper boundary tests than existed when that Actors vertical closed.
-4. Newer candidate studies add strong holdouts around transitive authority, subagents, delegation, human gates, role topology and multi-agent responsibility.
-5. No current falsifier justifies reopening Environment, Information or Work before testing Actors.
-6. The stage exit condition requires all four grounds to be individually evaluated before rerunning top-level adequacy or considering systematic composition.
+Protected questions include:
 
-## Actors audit — protected selection questions
-
-If authorised, first test whether the existing Actors corpus still cleanly handles:
-
-- Actor standing/state vs Information representations about Actors;
-- capability/competence vs situated actionability and Environment conditions;
-- participation in Work vs role/identity/assignment collapse;
-- Work admission/requiredness vs Actor obligation/authorization;
-- delegated/transitive authority and agent-to-agent capability paths;
+- Actor state/standing vs Information representation;
+- capability/competence vs Environment actionability;
+- Work participation/admission vs role, obligation and authority;
+- delegation/transitive authority and agent-to-agent capability paths;
 - performer/decider/authorizer/principal/accountable-party separation;
-- collective/shared/corporate and non-human agency under current agentic cases;
-- responsibility/accountability when Work, Information and Environment evidence diverge.
+- collective/shared/corporate and non-human agency;
+- omission/non-action and responsibility/accountability under current ground boundaries.
 
-Only if a material Actors-local gap survives should targeted substantive Actors deepening open.
+Only a surviving material Actors-local gap may trigger targeted substantive deepening.
 
 ## Verification status
 
-Environment, Information and Work have bounded accepted results. Their same-model adversarial checks are not independent replication. The Actors independent vertical also used same-model completion review; its future ground audit must not inherit closure uncritically.
+The prior Actors vertical is source-backed and user-evaluated, but its completion check is same-model and non-independent. The active audit must independently re-attack boundary fit and omissions using newer evidence/holdouts.
 
 ## Current gate / guardrail
 
-No substantive ground is active.
+Exactly one substantive ground is active: Actors.
 
-The current selection result does **not** activate Actors. Explicit transition/authorization is required before an Actors coverage/gap audit begins.
+Do not begin:
 
-Do not begin systematic relation/control composition, architecture, ontology/data-model work or implementation. After Actors is eventually evaluated, rerun top-level adequacy before deciding whether composition research should begin.
+- top-level adequacy rerun;
+- systematic relation/control composition;
+- architecture;
+- ontology/data model;
+- implementation.
+
+After Actors closes and is user-evaluated, rerun top-level adequacy before considering composition research.
