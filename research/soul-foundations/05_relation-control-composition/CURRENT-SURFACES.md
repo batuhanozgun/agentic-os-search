@@ -1,6 +1,6 @@
 # Relation / Control / Composition — CURRENT SURFACES
 
-**Status:** canonical freshness binding at Composite Standing bounded closure / user-evaluation gate  
+**Status:** canonical freshness binding after Composite Standing acceptance / next-child planning gate  
 **Date:** 2026-09-05  
 **Branch:** `main`
 
@@ -8,10 +8,10 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Parent state | `STATE.md` | `922ce1287460ef12ce3c29e49054d2b608f4db7e` |
-| Parent router | `INDEX.md` | `a2c21e819f6e435ebdf90a9954a67056c99b4422` |
+| Parent state | `STATE.md` | `8166efad020d5ec1d861970d95300629b5f34457` |
+| Parent router | `INDEX.md` | `e9d398db61bcbcadfc55f3968b690d447cfff57f` |
 | Parent plan | `PLAN.md` | `bc866966be4d1410839ea8ae85901c3a4eb7372f` |
-| Parent key | `KEY.md` | `00986d1fec86582219a9739994051c2730f48504` |
+| Parent key | `KEY.md` | `f147d23bc8983f6c09782e89f47185ef25b79ca4` |
 | Parent findings map | `FINDINGS-MAP.md` | `b98253dd32aa06ae5761770a4400dc208e15a7b6` |
 | Parent synthesis | `synthesis/COMPOSITION-PARENT-SYNTHESIS.md` | `f4a36ddaf6a711efd2939a3f423313e5af8c3530` |
 | Parent residual questions | `OPEN-QUESTIONS.md` | `27f52f01f58b35a5339b697613e32fb8407b5356` |
@@ -34,8 +34,8 @@
 | Child | Status | Current manifest |
 |---|---|---|
 | Relational Binding | bounded leaf / USER-EVALUATED / ACCEPTED | `relational-binding/CURRENT-SURFACES.md` @ `cd21db93fd96195a474860afdcea5071207c61f6` |
-| Composite Standing / Qualification | bounded leaf / USER EVALUATION PENDING | `composite-standing/CURRENT-SURFACES.md` @ `435f77fae5552dda3ee5eca57e9ff05567c4d766` |
-| Control / Constraint | recommended next if Standing accepted / inactive | not created/active |
+| Composite Standing / Qualification | bounded leaf / USER-EVALUATED / ACCEPTED | `composite-standing/CURRENT-SURFACES.md` @ `07b8b01180149a8f87d4b257526926ac2700b63e` |
+| Control / Constraint | recommended next / inactive | not created/active |
 | Transition / Effect / Feedback | inactive | not created/active |
 
 ## Accepted upstream inputs
@@ -52,16 +52,16 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Foundation state | `../STATE.md` | `db0d502e41205d8ff98164e3ef7176c1c0a6acd7` |
-| Foundation router | `../INDEX.md` | `29f25a16865e8dc6d6d192d7edba47ba0a01ef7c` |
+| Foundation state | `../STATE.md` | `ec44a39a7ae411215ffd81819082b0f11403aef5` |
+| Foundation router | `../INDEX.md` | `6f99bf3581e11ceda5b2d291c908873df4927281` |
 
 ## Current bounded state
 
 ```text
 Cross-Ground Composition
 ├─ Relational Binding                  ← BOUNDED LEAF / ACCEPTED
-├─ Composite Standing / Qualification ← BOUNDED LEAF / USER EVALUATION PENDING
-├─ Control / Constraint                ← recommended next if Standing accepted / inactive
+├─ Composite Standing / Qualification ← BOUNDED LEAF / ACCEPTED
+├─ Control / Constraint                ← recommended next / inactive
 └─ Transition / Effect / Feedback      ← inactive
 
 substantive composition child          ← NONE
