@@ -1,64 +1,75 @@
 # Relation / Control / Composition — STATE
 
-**Status:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED; RELATIONAL BINDING CHILD ACTIVE  
-**Activated:** 2026-09-05  
-**Closed for evaluation:** 2026-09-05  
-**User evaluation:** ACCEPTED 2026-09-05  
-**Current phase:** RELATIONAL BINDING CHILD RESEARCH  
-**C0–C7 parent pass:** COMPLETE  
-**Current authorised substantive activity:** RELATIONAL BINDING CHILD PASS
-
-## Accepted Foundation grounds
-
-```text
-Environment / Operating Reality                 ← accepted
-Information / Representation                    ← accepted
-Work                                             ← accepted
-Actors / Agency–Participation–Authority          ← accepted
-```
+**Status:** PARENT ACCEPTED; RELATIONAL BINDING BOUNDED LEAF / AWAITING USER EVALUATION  
+**Parent user evaluation:** ACCEPTED 2026-09-05  
+**Current phase:** RELATIONAL BINDING RESULT EVALUATION  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** RELATIONAL BINDING RESULT EVALUATION ONLY
 
 ## Accepted composition structure
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding                  ← ACTIVE CHILD
+├─ Relational Binding                  ← BOUNDED LEAF / USER EVALUATION PENDING
 ├─ Composite Standing / Qualification ← NOT ACTIVE
 ├─ Control / Constraint                ← NOT ACTIVE
 └─ Transition / Effect / Feedback      ← NOT ACTIVE
 ```
 
-These are diagnostic research problem regions, not ontology buckets or architecture modules.
-
-## Active child
+## Current Relational Binding result
 
 Canonical package:
 
 `relational-binding/`
 
-Protected child question:
+Current bounded judgment:
 
-> Which accepted-ground anchors are connected, in what typed role, direction, scope, reference frame and time, and what semantic difference would be lost by replacing that binding with a generic link?
+> Relational Binding is a bounded leaf at the current Foundation depth. No immediate child was promoted; its internal structure is a reusable binding-semantic signature plus overlapping relation-family profiles.
 
-## Parent result retained
+Stable signature pressure includes:
+- exact anchors in typed semantic positions;
+- binding meaning / protected relation question;
+- applicability scope/reference frame;
+- effective/reference time where material;
+- relation-instance individuation;
+- qualified/n-ary structure where binary decomposition loses association;
+- permitted/forbidden relation inference where decision-critical.
 
-- pairwise relations are necessary but insufficient for complete composition semantics;
-- Composite Standing, Control and Transition remain separate inactive children;
-- no fifth composition region or upstream fifth Foundation ground was forced by the accepted parent pass.
+Stable profiles include:
+- Reference / Representation / Targeting;
+- Participation / Position;
+- Dependency / Support;
+- Provenance / Attribution;
+- Situation / Access / Interface;
+- Specification / Evidence / Traceability.
+
+## Child status
+
+```text
+Relational Binding                  ← evaluation pending / inactive
+Composite Standing / Qualification ← RECOMMENDED NEXT IF BINDING ACCEPTED / inactive
+Control / Constraint                ← inactive
+Transition / Effect / Feedback      ← inactive
+```
+
+## Sequencing result after Binding closure
+
+The parent sequencing question was re-run as required by C7.
+
+Current recommendation:
+
+> **Composite Standing / Qualification should be the next composition child if Relational Binding is accepted.**
+
+Reason: Binding repeatedly terminates in multi-anchor qualification questions such as actionable, verified, validated, accepted, evidence sufficient, ready/supported and outcome attained.
+
+This recommendation does not activate the child.
 
 ## Verification status
 
-Parent C7 is same-model adversarial review and not independent replication. The active Binding child must retain the same verification distinction.
+Relational Binding B7 is same-model adversarial review. No independent second-researcher/model replication has validated the exact bounded-leaf result or binding signature.
 
-## Current authorization / return condition
+## Current authorization
 
-**RELATIONAL BINDING CHILD PASS ONLY.**
+**RELATIONAL BINDING RESULT EVALUATION ONLY.**
 
-Do not begin automatically:
-- Composite Standing / Qualification;
-- Control / Constraint;
-- Transition / Effect / Feedback;
-- SOUL / Development OS architecture;
-- ontology/data-model/schema work;
-- implementation.
-
-Relational Binding returns to the parent for user evaluation at bounded closure.
+Do not automatically begin Composite Standing, Control, Transition, architecture, ontology/data-model/schema work or implementation.
