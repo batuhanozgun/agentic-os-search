@@ -1,48 +1,58 @@
 # Information / Representation — STATE
 
-**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE CHILD BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
+**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE USER-EVALUATED; INFORMATIONAL DYNAMICS CHILD ACTIVE  
 **Activated:** 2026-09-04  
 **Top-level user evaluation:** accepted 2026-09-04  
 **Accepted refined parent label:** Information / Representation  
-**Current phase:** INFORMATIONAL STATE USER-EVALUATION GATE  
-**Substantive child active:** NONE  
-**Informational State:** boundedly complete / user evaluation pending  
-**Informational Dynamics:** inactive  
+**Informational State evaluation / sequencing acceptance:** 2026-09-05  
+**Current phase:** INFORMATIONAL DYNAMICS ACTIVE RESEARCH  
+**Substantive child active:** Informational Dynamics / Formation–Transformation  
+**Informational State:** bounded leaf / user-evaluated  
+**Informational Dynamics:** ACTIVE  
 **Work / Actors:** inactive
 
 ## Current parent result
 
 ```text
 Information / Representation                    ← boundedly complete / accepted
-    ├─ Informational State / Representational Constitution   ← bounded leaf / USER EVALUATION PENDING
-    └─ Informational Dynamics / Formation–Transformation     ← inactive
+    ├─ Informational State / Representational Constitution   ← bounded leaf / user-evaluated
+    └─ Informational Dynamics / Formation–Transformation     ← ACTIVE
 
 Records / Persistent Information
     ↳ deep persistence specialization/profile crossing Information
 ```
 
-## Informational State child result under evaluation
+## Accepted Informational State result
 
 Canonical child package:
 
 `informational-state/`
 
-Current bounded judgment:
+Bounded judgment:
 
 > **Informational State / Representational Constitution is a bounded leaf for the current Foundation research depth. No stable immediate child split survived N1–N6.**
 
-The child retains explicit internal dimensions/relations covering:
+Its internal constitution dimensions/relations remain explicit but are not promoted as child branches. User transition to the next research closes its Foundation sequencing gate; verification remains same-model + external-falsifier bounded research, not independent replication.
 
-- reference / applicability;
-- content / interpretation / form / mode;
-- identity / granularity / equivalence;
-- attribution / perspective / uncertainty / standing / freshness / conflict / visibility/persistence status where State-side.
+## Active Informational Dynamics research
 
-These are not promoted as immediate child branches.
+Canonical child package:
+
+`informational-dynamics/`
+
+Protected question:
+
+> How do informational states become available, get generated, selected, transformed, revised, communicated, invalidated or otherwise change, and which distinctions among those processes are foundational rather than mechanism- or domain-specific?
+
+Current phase:
+
+`N0 canonical/internal evidence recovery`
+
+Exactly one substantive node is active.
 
 ## Boundary status
 
-Accepted parent anti-collapse remains intact:
+Accepted parent anti-collapse remains the starting boundary hypothesis:
 
 ```text
 Environment → actual realised conditions / operating reality
@@ -52,28 +62,27 @@ State       → represented result and its constitution/qualification
 Dynamics    → formation/change/derivation/selection/revision/communication
 ```
 
-Records remains a persistence specialization across Information.
+The active Dynamics pass must re-test rather than merely inherit the last line.
+
+Records remains a persistence specialization across Information; persistence-related dynamics may be used as boundary/falsifier evidence without turning Records into an automatic Dynamics child.
 
 ## Verification status
 
-The State child used current canonical evidence, Records research, selected candidate studies and materially different external sources. Its N6 is same-model adversarial review. The child synthesis has **not** received independent second-researcher/model replication.
+The parent and accepted State child used materially different external traditions plus same-model adversarial N6 reviews; neither complete synthesis has independent second-researcher/model replication.
 
-User evaluation may close the child gate but does not change verification independence.
+The active Dynamics pass must maintain its own evidence and verification ledger. Candidate studies and user approval are not proof of its decomposition.
 
 ## Current authorization
 
-**USER EVALUATION OF INFORMATIONAL STATE RESULT ONLY.**
+**INFORMATIONAL DYNAMICS / FORMATION–TRANSFORMATION RESEARCH IS AUTHORISED AND ACTIVE.**
 
-No substantive node is active.
+Do not automatically begin:
 
-Do not begin:
-
-- Informational Dynamics;
-- any State child;
-- Work or Actors;
+- any child discovered inside Informational Dynamics;
+- Work or Actors ground deepening;
 - systematic relation/control composition;
 - SOUL / Development OS architecture;
 - ontology/data-model work;
 - implementation.
 
-After evaluation, make a separate next-work transition decision.
+When the active node reaches bounded closure, return its result for user evaluation before a separate next-work decision.
