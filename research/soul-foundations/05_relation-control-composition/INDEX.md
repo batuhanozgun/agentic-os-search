@@ -2,23 +2,23 @@
 
 ## Role
 
-Current router for accepted Cross-Ground Composition and completed child research.
+Current router for accepted Cross-Ground Composition and active Transition / Effect / Feedback child research.
 
 Read `STATE.md` first for status and current authorization.
 
 ## Current status
 
-**PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; NO SUBSTANTIVE CHILD ACTIVE.**
+**PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; TRANSITION / EFFECT / FEEDBACK ACTIVE (T0).**
 
 ## Preferred read order
 
-1. `STATE.md` — current child status, recommendation and guardrail.
-2. Accepted Control result → `control-constraint/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → K7.
-3. Accepted Composite Standing prerequisite → `composite-standing/STATE.md` → `KEY.md` → synthesis/S7 when needed.
-4. Accepted Binding prerequisite → `relational-binding/STATE.md` → `KEY.md` → synthesis/B7 when needed.
-5. Parent result → `KEY.md` → `FINDINGS-MAP.md` → synthesis → C7.
-6. Parent/child residual questions when a boundary depends on them.
-7. Ground current/deferred surfaces only when decision-critical.
+1. `STATE.md` — current child status and guardrail.
+2. Active Transition result path → `transition-effect-feedback/STATE.md` → `PLAN.md` → current T-pass.
+3. Accepted Control → `control-constraint/STATE.md` → `KEY.md` → synthesis/K7.
+4. Accepted Composite Standing → `composite-standing/STATE.md` → `KEY.md` → synthesis/S7.
+5. Accepted Binding → `relational-binding/STATE.md` → `KEY.md` → synthesis/B7.
+6. Parent result → `KEY.md` → `FINDINGS-MAP.md` → synthesis/C7.
+7. Parent/child residuals and ground-local dynamics only when decision-critical.
 8. Candidate studies only through catalog → selected META → targeted files.
 9. Current manifests for exact freshness binding.
 
@@ -29,15 +29,9 @@ Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
 ├─ Composite Standing / Qualification ← bounded leaf / accepted
 ├─ Control / Constraint                ← bounded leaf / accepted
-└─ Transition / Effect / Feedback      ← recommended next / inactive
+└─ Transition / Effect / Feedback      ← ACTIVE / T0
 ```
-
-## Current next-step interpretation
-
-Current interaction is next composition-child selection/planning only.
-
-`Transition / Effect / Feedback` is the strongest current next-child candidate and requires a separate substantive activation instruction.
 
 ## Guardrail
 
-Transition, architecture, ontology/data model, schema design and implementation remain unauthorized until separately activated.
+Architecture, ontology/data model, schema design and implementation remain unauthorized.
