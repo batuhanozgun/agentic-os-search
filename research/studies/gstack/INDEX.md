@@ -24,10 +24,11 @@ Observed 2026-09-05; package version 1.79.0.
 | Investigation / causal control | `syntheses/investigation-root-cause-debug-control.md` | ledger → sources |
 | Memory / learnings / GBrain | `syntheses/memory-learnings-context-gbrain.md` | ledger → sources |
 | Multi-agent / cross-model | `syntheses/multi-agent-cross-model-coordination.md` | ledger → sources |
-| Guarded action / CSO security | `syntheses/guarded-action-security-review.md` | ledger → careful/guard/CSO/one-way sources |
-| Host adapters / portability | `syntheses/host-adapters-portability-fidelity.md` | ledger → HostConfig/generator/setup/tests |
-| Deploy / canary / production feedback | not yet synthesized | **current next cluster** |
-| Four-ground projection | not yet produced | only after native model stabilizes |
+| Guarded action / CSO security | `syntheses/guarded-action-security-review.md` | ledger → sources |
+| Host adapters / portability | `syntheses/host-adapters-portability-fidelity.md` | ledger → sources |
+| Deploy / canary / production feedback | `syntheses/deploy-canary-production-retrospective-feedback.md` | ledger → land/deploy/canary/retro sources |
+| Testing / eval infrastructure | not yet synthesized | **current next cluster** |
+| Four-ground projection | not yet produced | after remaining native system syntheses |
 
 ## Current durable syntheses
 
@@ -36,33 +37,37 @@ Observed 2026-09-05; package version 1.79.0.
 3. **Browser runtime / security / evidence** — capability/effect/evidence boundaries and freshness.
 4. **Investigation / root-cause / debug control** — hypothesis-driven causal debugging; systemic RCA not guaranteed.
 5. **Memory / learnings / context / GBrain** — qualified prior information; stale-fallback label can be lost before planning consumption.
-6. **Multi-agent / cross-model coordination** — context/authority/completion/result/liveness semantics; fresh context ≠ model independence; v1.79 stranded-parent recurrence.
-7. **Guarded action / security review** — preventive hooks, one-way human authority, CSO detective qualification; runtime enforcement can degrade to prose across hosts.
-8. **Host adapters / portability fidelity** — typed host compilation plus runtime materialization; support is a ladder, not a boolean, and generation health ≠ behavioral portability health.
+6. **Multi-agent / cross-model coordination** — context/authority/completion/result/liveness semantics; fresh context ≠ model independence.
+7. **Guarded action / security review** — preventive hooks, one-way human authority, CSO detective qualification; enforcement can degrade to prose across hosts.
+8. **Host adapters / portability fidelity** — typed host compilation plus runtime materialization; support is a ladder, not a boolean.
+9. **Deploy / Canary / production / retrospective feedback** — merge, deploy and live-health standings separated; rollback closure and release-identity proof remain incomplete.
 
-### Portability retrieval summary
+### Production-feedback retrieval summary
 
 ```text
-canonical workflow
-→ host config + model overlay
-→ preserve / rewrite / suppress / inline / advisory / unsupported
-→ generated artifact
-→ install/runtime assets
-→ actual host capability
-→ behavioral verification standing
+qualified PR
+→ readiness evidence
+→ one-way merge authority
+→ authoritative merge state
+→ deployment evidence
+→ immediate live verification
+→ extended canary
+→ history / retro / learnings
+→ candidate future improvement
 ```
 
 Key corrections:
 
-- ten registered hosts do not share one operational support level;
-- setup has first-class install arms for Claude/Codex/Kiro/Factory/OpenCode/Cursor; Slate, OpenClaw/Hermes and GBrain have different integration standings;
-- host and model are independent axes;
-- external hosts inline carved sections while Claude retains lazy section files;
-- external safety-prose substitution can weaken deterministic Claude hook enforcement;
-- Codex still has a known Agent-dispatch semantic leak;
-- setup is not yet fully driven by the typed host registry despite `docs/ADDING_A_HOST.md` claiming otherwise;
-- static/generation tests are much stronger than real-host behavioral validation outside Claude/Codex;
-- Codex periodic CI currently has a known all-skip false-green condition.
+- local merge command result is not authoritative remote merge state;
+- deploy completion is not live-health completion;
+- auto-deploy URL health is not automatically exact-release identity proof;
+- Canary needs a genuine pre-deploy baseline for before/after regression attribution;
+- rollback `REVERTED` does not prove rollback deployment + production restoration;
+- failed-test “BLOCKER” prose and final merge-anyway menu are inconsistent;
+- `/health` is code-quality health, not production health;
+- Retro recommendations are informational feedback, not automatic Work admission;
+- production E2Es largely simulate external effects;
+- Canary behavior test existence and coverage-matrix attribution disagree.
 
 ## Synthesis ladder
 
@@ -88,36 +93,37 @@ Higher synthesis never removes source re-entry.
 7. multi-agent / cross-model coordination — **done**;
 8. guarded-action / CSO security-review — **done**;
 9. host adapters / portability fidelity — **done**;
-10. **deploy / canary / production observation / retrospective feedback — NEXT**;
-11. testing / eval / routing / compliance infrastructure;
+10. deploy / canary / production observation / retrospective feedback — **done**;
+11. **testing / eval / routing / compliance infrastructure — NEXT**;
 12. repository self-development / generation / update / release mechanisms.
 
 These are research clusters, not Foundation categories.
 
 ## Immediate next route
 
-Study **deploy / canary / production observation / retrospective feedback**.
+Study **testing / eval / judge / routing / compliance / flake lifecycle**.
 
 Central question:
 
-> after implementation is qualified, how does gstack move changes through merge/deploy/rollout, observe production behavior, distinguish successful execution from successful outcome, decide rollback/continuation, and feed operational evidence back into later work?
+> how does gstack decide what verification runs, distinguish structural/static evidence from real-agent behavior and LLM-judge evidence, prove the intended oracle actually executed, handle skips/flakes/cost/routing, and convert results into trustworthy confidence rather than false green?
 
 Priority evidence:
 
-- `land-and-deploy` workflow and authority gates;
-- `canary` rollout/observation semantics;
-- `health` production/operational checks;
-- `retro` outcome and learning feedback;
-- setup/deploy-provider adapters where load-bearing;
-- deployment evidence/freshness, rollback and failure polarity;
-- tests/E2Es that prove actual rollout logic rather than presentation only.
+- `package.json` test/eval commands;
+- `test/skill-coverage-matrix.ts` and its validator;
+- touchfile/diff routing and shard-selection helpers;
+- free tests versus paid E2E and LLM-judge suites;
+- Claude/Codex/Gemini session runners;
+- eval artifact schema, aggregation/compare/summary/flake ranking;
+- CI/gate/periodic selection and skip semantics;
+- audit/compliance/slop scans;
+- known falsifiers: Codex all-skip green, Canary coverage-route mismatch, simulated production E2Es.
 
 ## Guardrails
 
-- Understand gstack-native mechanism before four-ground projection.
-- Keep authored policy, implementation, structural pins and behavioral evidence distinct.
-- Do not equate merge, deploy-command success, rollout health and user/business outcome.
-- Do not equate syntactic generation success with semantic portability.
-- Host/provider capability must be part of any deployment/control claim.
+- Keep authored test intent, route metadata, actual execution, oracle validity and independent verification separate.
+- A green job is not positive evidence if the intended test/runtime skipped.
+- A real agent E2E is not necessarily a real external-system integration test.
+- LLM-as-judge is an oracle with its own calibration/common-cause limits.
 - Do not mutate Foundation from this candidate study.
 - Do not silently substitute current gstack HEAD for the pinned snapshot.
