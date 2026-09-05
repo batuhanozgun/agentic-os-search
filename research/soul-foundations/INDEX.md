@@ -12,43 +12,37 @@ For current status/authorization read `STATE.md` first. This router does not ind
 |---|---|---|
 | Current overall state / authorisation | `STATE.md` | relevant package router |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` |
-| Work bounded result under evaluation | `03_ground-deepening/grounds/work/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → `A6-CLOSURE.md` |
-| Work audit path / rivals / holdouts | `03_ground-deepening/grounds/work/INDEX.md` | A0–A5 / residual / deferred routes |
-| Prior Work evidence corpus | `01_verticals/work/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → targeted L3/L4 evidence |
-| Accepted Information result | `03_ground-deepening/grounds/information/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` |
-| Completed Environment | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX / CURRENT-SURFACES |
-| Candidate studies | `../studies/CATALOG.md` | selected `META.md` → package findings when current audit makes them relevant |
-| What is authorised now? | `STATE.md` | Work result evaluation only; no substantive ground active |
+| Accepted Work result | `03_ground-deepening/grounds/work/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis |
+| Prior Work evidence corpus | `01_verticals/work/STATE.md` | current progressive-retrieval route |
+| Recommended next Actors audit | `01_verticals/actors/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → `OPEN-QUESTIONS.md` / `DEFERRED-RELATIONS.md` |
+| Accepted Information result | `03_ground-deepening/grounds/information/STATE.md` | current routes |
+| Completed Environment | `03_ground-deepening/grounds/environment/STATE.md` | current routes |
+| Candidate studies for Actors holdouts | `../studies/CATALOG.md` | selected `META.md` → package findings when needed |
+| What is authorised now? | `STATE.md` | no substantive ground active; Actors audit recommendation awaits authorization |
 
 ## Current ground status
 
 ```text
 Environment / Operating Reality                 ← boundedly complete / accepted
 Information / Representation                    ← boundedly complete / accepted
-Work                                             ← boundedly complete / USER EVALUATION PENDING
-    ↳ rich multidimensional internal problem map
-    ↳ no universal immediate-child hierarchy promoted
-Actors                                           ← inactive
+Work                                             ← boundedly complete / accepted
+Actors / Agency–Participation–Authority          ← inactive / RECOMMENDED NEXT
 ```
 
-## Work result summary
+## Next-ground recommendation
 
-The current Work audit found no material first-order Work-local gap after testing:
+Recommended next substantive work:
 
-- Environment / Information / Actors boundaries;
-- purpose/outcome placement;
-- sensemaking, discovery-driven and meta-work;
-- multi-agent integration/verification;
-- risk/value/governance/communication candidates;
-- newer candidate studies;
-- rival reductions of Work into task, workflow, Environment, Information or Actors.
+> **Actors / Agency–Participation–Authority — coverage / gap audit.**
+
+Use the existing deep Actors vertical rather than restarting broad research. Test it against current Environment/Information/Work boundaries and newer agentic holdouts. Open targeted deepening only if a material Actors-local gap survives.
 
 ## Candidate-study boundary
 
-`research/studies/**` remains a separate candidate research library. Candidate packages supplied falsifiers/holdouts; they do not define the Foundation Work ground or authorize architecture/implementation.
+`research/studies/**` remains a separate candidate research library. Relevant packages may supply holdouts/falsifiers but do not define the Actors Foundation ground or authorize architecture/implementation.
 
 ## Current gate
 
-No substantive Foundation ground is active. Current interaction is evaluation of the bounded Work result.
+No substantive Foundation ground is active. Explicit user authorization is required before the Actors audit begins.
 
-A separate post-evaluation transition is required before Actors or a later phase becomes active.
+After Actors is evaluated, rerun top-level adequacy before any systematic composition decision.
