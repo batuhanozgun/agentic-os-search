@@ -1,9 +1,10 @@
 # Information / Representation — Residual Questions
 
-**Status:** bounded residual uncertainty after accepted top-level closure; Informational State child currently active  
-**Date:** 2026-09-05
+**Status:** bounded residual uncertainty after accepted Information closure  
+**Date:** 2026-09-05  
+**Role:** residual/reopen questions; NOT an active-pass router or execution queue
 
-The top-level Information node is **boundedly complete and user-evaluated**. These questions remain visible for the active Informational State pass, later Informational Dynamics research, later composition or explicit reopen decisions.
+The top-level Information node, Informational State and Informational Dynamics are accepted for the current Foundation depth. No Information child is active.
 
 ## A. Parent naming / boundary refinements
 
@@ -17,17 +18,15 @@ Is `Information / Representation` the best durable parent label, or would a form
 
 How far should purely syntactic/statistical/channel information remain inside the parent when no semantic representation/aboutness exists?
 
-**Current bounded rule:** include it only when the load-bearing problem is informational mediation/access relevant to later represented state or transformation; do not make all Shannon-style information part of one residual bucket.
+**Current bounded rule:** include it only when the load-bearing problem is informational mediation/access relevant to later represented state or transition; do not make all Shannon-style information part of one residual bucket.
 
-## B. Informational State child questions — ACTIVE PASS
+## B. Informational State residuals
 
-These are active research questions under:
+`Informational State / Representational Constitution` is a bounded leaf at current Foundation depth. Its internal regions remain orientation/retrieval dimensions, not promoted children.
 
-`informational-state/`
+### Q3 — future child pressure
 
-### Q3 — stable internal child split
-
-Do referent/scope, content/form/interpretation and informational identity remain internal problem regions, or do any become stable immediate children of Informational State?
+Do referent/scope, content/form/interpretation and informational identity ever become stable immediate children under a later falsifier, or should they remain internal dimensions?
 
 ### Q4 — epistemic standing structure
 
@@ -39,15 +38,21 @@ What exact semantics distinguish Actor-local, shared, system-level and external-
 
 ### Q6 — conflict/plurality
 
-Which distinctions among genuine contradiction, differing time/scope/perspective, uncertainty and competing hypotheses are first-order inside State?
+Which distinctions among genuine contradiction, differing time/scope/perspective, uncertainty and competing hypotheses become load-bearing in later composition?
 
-## C. Informational Dynamics child questions — INACTIVE
+## C. Informational Dynamics residuals
 
-These require a separate authorised child pass after the active Informational State pass closes and is evaluated.
+`Informational Dynamics / Formation–Transition` is accepted with three immediate bounded problem regions:
 
-### Q7 — stable internal child split
+- Formation / Acquisition;
+- Derivation / Transformation;
+- Selection / Exposure.
 
-Do acquisition/observation, derivation/transformation and selection/context formation survive as immediate children of Dynamics, or are they mechanisms/dimensions under a different decomposition?
+They are structurally accepted but have not received separate child passes.
+
+### Q7 — child deepening trigger
+
+Under what later decision-critical pressure would one of the three Dynamics children require its own pass rather than remaining at the current bounded depth?
 
 ### Q8 — revision / invalidation / standing change
 
@@ -55,7 +60,7 @@ How should correction, retraction, supersession, belief revision and conflict re
 
 ### Q9 — communication / exposure / retrieval
 
-When is transmission/retrieval merely an informational dynamic, and when do Environment channel conditions or Actor permission/control become load-bearing neighbouring-ground semantics?
+When is transmission/retrieval primarily an informational transition, and when do Environment channel conditions or Actor permission/control become load-bearing neighbouring-ground semantics?
 
 ## D. Persistence / Records specialization questions
 
@@ -71,7 +76,7 @@ Which future-use/lifecycle conditions activate:
 - managed memory lifecycle;
 - recordhood/recordkeeping obligations?
 
-The completed Records corpus already covers the deep persistence obligations; this question concerns later cross-ground/composition placement.
+The completed Records corpus already covers deep persistence obligations; this question concerns later cross-ground/composition placement.
 
 ### Q12 — persistent derived/context states
 
@@ -119,6 +124,6 @@ Reopen the top-level node if later evidence shows:
 
 ## Current authorization
 
-**Informational State / Representational Constitution is the only active substantive node.**
+This residual file does not authorize any Information child pass, Work/Actors reopening, relation/control composition, architecture, ontology/data model or implementation.
 
-These residual questions do not authorize Informational Dynamics, discovered grandchildren, Work/Actors, composition, architecture, ontology or implementation work.
+Current project authorization is controlled by the Foundation parent `STATE.md`.
