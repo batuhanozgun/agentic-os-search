@@ -8,39 +8,45 @@ Read `STATE.md` first for current authorization.
 
 ## Current stage
 
-**ACTIVE:** `05_relation-control-composition/` — C0 canonical/current evidence recovery.
+**CROSS-GROUND COMPOSITION PARENT — BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+
+No substantive Foundation child/phase is active.
 
 ## Read routes
 
 | Need | Read first | Then if needed |
 |---|---|---|
-| Current overall state / authorization | `STATE.md` | active package router |
-| Active composition parent pass | `05_relation-control-composition/STATE.md` | `PLAN.md` → C0–C7 artifacts |
-| Composition frontier inherited from adequacy | `04_top-level-adequacy-rerun/DEFERRED-RELATIONS.md` | `OPEN-QUESTIONS.md` |
+| Current overall state / authorization | `STATE.md` | current package router |
+| Current composition parent result | `05_relation-control-composition/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → C7 |
+| Composition research reasoning | `05_relation-control-composition/INDEX.md` | targeted C0–C6 pass |
+| Composition residual/reopen questions | `05_relation-control-composition/OPEN-QUESTIONS.md` | relevant ground/adequacy surface if reopened |
 | Accepted adequacy result | `04_top-level-adequacy-rerun/STATE.md` | `KEY.md` → synthesis/Q6 |
 | Accepted Environment | `03_ground-deepening/grounds/environment/STATE.md` | local current route |
 | Accepted Information | `03_ground-deepening/grounds/information/STATE.md` | local current route |
 | Accepted Work | `03_ground-deepening/grounds/work/STATE.md` | local current route |
 | Accepted Actors | `03_ground-deepening/grounds/actors/STATE.md` | local current route |
-| Candidate studies | `../studies/CATALOG.md` | selected package `META.md`, then targeted evidence only |
+| Candidate studies | `../studies/CATALOG.md` | selected package only when a later authorised question requires it |
 
-## Accepted Foundation map
+## Current bounded composition map
 
 ```text
-Environment / Operating Reality                 ← accepted
-Information / Representation                    ← accepted
-Work                                             ← accepted
-Actors / Agency–Participation–Authority          ← accepted
-
-post-deepening four-ground adequacy              ← boundedly supported / USER-EVALUATED / ACCEPTED
+Cross-Ground Composition
+├─ Relational Binding
+├─ Composite Standing / Qualification
+├─ Control / Constraint
+└─ Transition / Effect / Feedback
 ```
 
-## Active research interpretation
+No child is active.
 
-The current phase studies how the four grounds compose through typed relations, derived standings, controls and transitions.
+## Current next-step interpretation
 
-Pairwise relations are discovery probes, not a presumed final taxonomy. Multi-ground cases such as verification/acceptance, actionability/effective power, goal/outcome and feedback/evolution are first-class research objects.
+If the user accepts the parent result, `Relational Binding` is the recommended first child pass.
+
+The remaining child order should be selected after Binding closure rather than fixed now.
 
 ## Guardrail
 
-Architecture, ontology/data model, schema design and implementation remain unauthorized. Any immediate research children discovered by the active parent pass require a separate activation after parent closure/evaluation.
+Current interaction is evaluation of the bounded composition parent result only.
+
+Architecture, ontology/data model, schema design, implementation and composition-child deepening remain unauthorized until separately activated.
