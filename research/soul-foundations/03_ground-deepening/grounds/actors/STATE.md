@@ -4,7 +4,8 @@
 **Activated:** 2026-09-05  
 **User authorization:** explicit instruction to begin and work to operational limit after selecting Actors as the next ground  
 **Prior Actors corpus:** `../../../01_verticals/actors/` — sufficiently complete / user-evaluated independent vertical  
-**Current phase:** A0 CANONICAL / EVIDENCE RECOVERY  
+**Current phase:** A1 FOUR-GROUND BOUNDARY / COVERAGE AUDIT  
+**A0:** COMPLETE  
 **Substantive ground active:** Actors  
 **Environment:** accepted / inactive  
 **Information:** accepted / inactive  
@@ -27,9 +28,9 @@ This is **not** a restart of Actors research and does not presume a child hierar
 
 ## Audit route
 
-- A0 — canonical/current Actors evidence recovery;
-- A1 — four-ground boundary and coverage audit;
-- A2 — first-order gap / omission test over current Actors distinctions;
+- A0 — canonical/current Actors evidence recovery ← COMPLETE;
+- A1 — four-ground boundary and coverage audit ← ACTIVE;
+- A2 — first-order gap / omission test;
 - A3 — newer candidate-study holdouts;
 - A4 — selective external/cross-domain holdouts only where a live gap hypothesis survives;
 - A5 — same-model adversarial rival / reduction / boundary-theft audit;
