@@ -2,19 +2,19 @@
 
 ## Role
 
-Current retrieval router for the boundedly complete Work ground coverage/gap audit.
+Current retrieval router for the boundedly complete and user-accepted Work ground coverage/gap audit.
 
 Read `STATE.md` first for current status and authorization.
 
 ## Current status
 
-**BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+**BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED.**
 
-No substantive ground is active.
+No substantive ground is active from this package.
 
 ## Default read order
 
-1. `STATE.md` — current bounded result, verification status and authorization.
+1. `STATE.md` — current bounded result and verification status.
 2. `KEY.md` — shortest current orientation.
 3. `FINDINGS-MAP.md` — current result and topic routing.
 4. `synthesis/WORK-GROUND-AUDIT-SYNTHESIS.md` — integrated audit result.
@@ -25,10 +25,10 @@ No substantive ground is active.
 9. Prior Work corpus when detailed first-order evidence matters → `../../../01_verticals/work/STATE.md` → its current retrieval route.
 10. `CURRENT-SURFACES.md` — exact current-surface binding.
 
-## Bounded result
+## Accepted bounded result
 
 ```text
-Work   ← boundedly complete for current Foundation depth / USER EVALUATION PENDING
+Work   ← boundedly complete / accepted
         ← rich multidimensional internal problem map
         ← NO universal immediate-child hierarchy promoted
 ```
@@ -58,4 +58,4 @@ The current audit is source-backed through the prior Work corpus and candidate s
 
 ## Guardrail
 
-Current interaction is user evaluation only. This router does not authorize Actors, systematic composition, architecture, ontology/data model or implementation work.
+This router does not authorize Actors, systematic composition, architecture, ontology/data model or implementation work. Parent state controls the next-ground transition.
