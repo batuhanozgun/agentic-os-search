@@ -6,58 +6,70 @@ This package preserves first-principles research into foundational problem regio
 
 The repository is a **research library and continuity surface**, not a pre-declared SOUL ontology. Research labels, distinctions, synthesis results and counterexamples are evidence/research outputs; they do not automatically become architecture decisions.
 
-Within the wider `research/` tree, this package has a distinct role: **it is the foundational ground research**, not one candidate study among many. Focused-topic and external-target research that may later help interpret, pressure-test or implement Foundation-derived structure lives separately under `research/studies/**`.
+Within the wider `research/` tree, this package has a distinct role: **foundational ground research**. Focused-topic and external-target studies that may pressure-test or later help implement Foundation-derived structure live separately under `research/studies/**`.
 
-## Research layers
+For current status and authorization always read:
+
+1. `STATE.md`;
+2. `INDEX.md`.
+
+This README is stable orientation, not the sole dynamic authority.
+
+---
+
+## Research progression
 
 ### `01_verticals/` — independent discovery research
 
-Contains four completed, user-evaluated bounded research corpora:
+Completed bounded research corpora:
 
 1. `records-artifacts/` — persistent information / Records;
 2. `work/` — Work;
 3. `actors/` — Actors;
 4. `work-environment/` — Technical Work Environment.
 
-These folders preserve the original independent research questions. They are **not assumed to be the final four top-level research grounds**.
+These were intentionally researched as independent questions. They are preserved as deep evidence corpora and were **not assumed to be the final four top-level Foundation grounds**.
 
-### `02_adequacy/` — top-level hierarchy adequacy research
+### `02_adequacy/` — first top-level adequacy synthesis
 
-Tests what the independent discovery evidence implies when considered together for SOUL and Development OS.
+The independent studies were compared together and pressure-tested against SOUL/Development OS needs and materially different external traditions.
 
-It established and the user accepted the working top-level research frame:
+This stage found two level corrections:
+
+- actual Operating/Domain Reality was missing from the original independent set;
+- Records was too narrow for the broader Information/Representation problem.
+
+A reopened hierarchy pass then found that target/domain reality and Work-support conditions should remain distinct but are better aligned as lower roles/branches under one broader Environment-like problem ground rather than as peer top-level grounds.
+
+Accepted working hypothesis from that stage:
 
 ```text
 Environment / Operating Reality
-Information / Representation State
-    └─ Records / Persistent Information
+Information / Representation
 Work
 Actors / Agency–Participation–Authority
 
 + typed relations / control / transitions
 ```
 
-This is a research-routing frame, not architecture or ontology. Its Information portion has now been challenged/refined by the deeper `03_ground-deepening` pass; the deeper result remains under user evaluation rather than silently rewriting the earlier accepted state.
+This was explicitly a falsifiable research hypothesis, not architecture or ontology.
 
-### `03_ground-deepening/` — recursive ground/node depth research
+### `03_ground-deepening/` — recursive ground/node research
 
-This layer brings each accepted top-level ground to sufficient internal research depth **one active hierarchical node at a time**.
+This stage tested and deepened each accepted ground one active hierarchical node at a time.
 
-Key rules:
-- do not impose one shared layer count or identical research workflow on all grounds;
-- at most one hierarchical node is researched substantively at a time;
-- sibling/other grounds may be consulted only for bounded boundary, counterexample or deferred-relation purposes;
-- one node pass discovers only its immediate children;
-- discovering a child does not authorize researching that child;
-- each closed node returns to user evaluation before any deeper or sibling activation.
+Core rules included:
 
-## Current stage
+- no forced shared layer count across grounds;
+- at most one substantive hierarchical node active at a time;
+- immediate children discovered before any child research was authorized;
+- deepening only where decision-critical evidence justified it;
+- leaf status did not mean absence of rich internal concepts;
+- systematic cross-ground relation/control composition remained deferred.
 
-### Environment / Operating Reality
+Current accepted ground results:
 
-`03_ground-deepening/grounds/environment/` is **boundedly complete / user-evaluated** for the current foundation purpose.
-
-Current bounded tree:
+#### Environment / Operating Reality
 
 ```text
 Environment / Operating Reality
@@ -71,176 +83,201 @@ Environment / Operating Reality
     │    │         └─ Criterion-Relative Standing
     │    └─ Domain Dynamics
     └─ Work Conditions
-         ↳ Technical Work Environment
+         ↳ Technical Work Environment profile
 ```
 
-### Information top-level pass
+Environment is boundedly complete / accepted for the current Foundation depth.
 
-`03_ground-deepening/grounds/information/` is **boundedly complete / awaiting user evaluation**.
-
-The pass was executed under the routing label `Information / Representation State` and recommends the refined parent label:
-
-> **Information / Representation**
-
-Recommended bounded structure:
+#### Information / Representation
 
 ```text
 Information / Representation
     ├─ Informational State / Representational Constitution
-    └─ Informational Dynamics / Formation–Transformation
+    └─ Informational Dynamics / Formation–Transition
+         ├─ Formation / Acquisition
+         ├─ Derivation / Transformation
+         └─ Selection / Exposure
 
 Records / Persistent Information
-    ↳ deep persistence specialization/profile crossing Information
+    ↳ deep persistence specialization/profile across Information
 ```
 
-Current epistemic status:
+Information is boundedly complete / accepted for the current Foundation depth.
 
-- parent research-ground coherence: boundedly supported;
-- parent rename: recommended, not yet user-evaluated;
-- two immediate children: boundedly supported, not yet user-evaluated/accepted;
-- Records hierarchical-role refinement: bounded research result, not yet user-evaluated;
-- existing Records-local findings remain user-evaluated and valid for their persistence scope;
-- no substantive child is active.
+The three Dynamics children are accepted bounded immediate problem regions but have not received separate child passes because current evidence did not justify deeper recursion.
 
-The completed Information pass also rejects the inherited `observation / belief / evidence / context / Records` noun list as an immediate hierarchy because it mixes processes, states/results, relations/roles, use-relative views and lifecycle conditions.
+#### Work
 
-For current result and status read:
+Work survived a post-Environment/Information coverage/gap audit.
 
-1. `STATE.md` — sole parent-level dynamic authority;
-2. `INDEX.md` — current retrieval router;
-3. `03_ground-deepening/grounds/information/STATE.md`;
-4. `03_ground-deepening/grounds/information/KEY.md`;
-5. `03_ground-deepening/grounds/information/synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md`.
+Current status:
 
-## Relationship to the candidate research library
+```text
+Work
+    ← boundedly complete / accepted
+    ← rich multidimensional internal problem map
+    ← no universal immediate-child hierarchy promoted
+```
+
+The prior deep Work vertical remains the evidence-bearing corpus.
+
+#### Actors / Agency–Participation–Authority
+
+Actors survived a post-Environment/Information/Work coverage/gap audit and contemporary agentic holdouts.
+
+Current status:
+
+```text
+Actors / Agency–Participation–Authority
+    ← boundedly complete / accepted
+    ← rich relational / multi-anchor internal problem map
+    ← no universal immediate-child hierarchy promoted
+```
+
+Important naming warning: `Actors` is an umbrella research label, not `active doers only` and not one universal Actor primitive. Non-performing beneficiaries, affected parties, rights holders, principals, recipients and accountability forums can be semantically relevant typed positions.
+
+### `04_top-level-adequacy-rerun/` — post-deepening adequacy test
+
+After all four grounds were accepted, the top-level hypothesis was re-run rather than inherited.
+
+The rerun tested:
+
+- missing fifth-ground candidates;
+- wrong-level placement and reduction;
+- pairwise and multi-ground boundary pressure;
+- materially different external domain holdouts;
+- serious rival top-level decompositions.
+
+Current bounded result under user evaluation:
+
+```text
+Environment / Operating Reality
+Information / Representation
+Work
+Actors / Agency–Participation–Authority
+
++ typed relations / control / transitions
+```
+
+No fifth peer ground, required merge/split, wrong-level correction or materially stronger rival survived the rerun.
+
+The selected external holdouts included metrology/scientific measurement, emergency management, healthcare/patient safety and governance-heavy AI risk management.
+
+---
+
+## Current Foundation frontier
+
+A critical distinction after the adequacy rerun:
+
+```text
+four-ground adequacy                     ← boundedly supported
+systematic relation/control composition  ← not yet researched
+architecture                             ← not authorised by Foundation research
+ontology / data model                    ← not authorised
+implementation                           ← not authorised
+```
+
+The strongest unresolved Foundation question is now:
+
+> **How do Environment, Information, Work and Actors compose through typed relations, derived standings, controls and transitions without collapsing their local semantics?**
+
+Important pressure already exposed includes:
+
+- goal/outcome/value/criteria directedness;
+- Actor ↔ Work participation/obligation/authority;
+- capability/access/actionability/effective power;
+- observation/referent binding;
+- dependency/coordination/support;
+- verification/validation/acceptance;
+- provenance/attribution/accountability;
+- target/effect/causation;
+- delegation/access/enforcement/transitive authority;
+- feedback/learning/evolution.
+
+These are **deferred research pressures, not an accepted relation taxonomy**.
+
+Current authorization is always controlled by `STATE.md`.
+
+---
+
+## Relationship to candidate studies
 
 Canonical candidate-study library:
 
 `research/studies/`
 
-Root discovery surface:
+Discovery surface:
 
 `research/studies/CATALOG.md`
 
-This library is expected to accumulate many focused and external studies over time. Its role relative to Foundations is **selective reuse**, not structural authority.
+Candidate studies may supply:
 
-Candidate studies may later contribute:
-
-- external evidence and counterexamples;
-- falsifiers / pressure tests;
-- concrete mechanisms or implementation references;
+- external evidence/counterexamples;
+- falsifiers and design pressure;
+- concrete mechanisms;
 - capability/service/data-source landscape information;
-- benchmark/test-case ideas;
-- design constraints and failure modes.
+- benchmark/test ideas;
+- later implementation references.
 
-The relationship is intentionally many-to-many. A study can be relevant to Information, Environment, Work, Actors or later relation/control questions without “belonging under” one of those nodes.
-
-### Use during Foundation deepening
-
-The active node's own method and authorization remain controlling.
-
-Candidate studies should be consulted when they materially improve evidence/falsifier coverage or clarify a bounded mechanism, **without replacing first-principles problem discovery with an inherited technology taxonomy**.
-
-For example, RAG research can be relevant to Information without implying `RAG` is an Information child. An API catalogue can be relevant to Environment, Information or Work at different times without becoming a Foundation primitive.
-
-### Use after Foundation research
-
-When Foundation-derived structure later reaches authorised SOUL / Development OS design, architecture or implementation work, the candidate library should be reviewed selectively so prior research is not reinvented or forgotten.
+They do **not** define the Foundation hierarchy merely by existing in the catalog.
 
 The intended retrieval pattern is:
 
 ```text
-current Foundation/design problem
-  → candidate-study catalog
-  → selected package META
-  → package STATE/INDEX/findings
-  → current authoritative external source when freshness is decision-critical
-  → present design/implementation decision
+current Foundation/design question
+→ candidate-study catalog
+→ selected package META
+→ package STATE/INDEX/findings when needed
+→ current authoritative external source if freshness is decision-critical
+→ present research/design decision
 ```
-
-A candidate study can inform that decision; it cannot pre-authorize it.
-
-## Level alignment of existing deep corpora
-
-Current research result under evaluation:
-
-```text
-Information / Representation                    ← bounded top-level result; user evaluation pending
-    ├─ Informational State / Representational Constitution
-    └─ Informational Dynamics / Formation–Transformation
-         
-Records / Persistent Information                ← existing deep corpus; persistence specialization/profile across Information
-
-Environment / Operating Reality                 ← boundedly complete / user-evaluated
-    └─ Work Conditions
-         ↳ Technical Work Environment            ← existing deep specialization/profile
-
-Work                                             ← existing broad/deep corpus; inactive
-Actors                                           ← existing broad/deep corpus; inactive
-```
-
-Existing corpora remain stable evidence packages even when later research changes their parent level or role in the research hierarchy.
-
-## Historical material
-
-Superseded research paths and point-in-time handoffs live under `history/`.
-
-Historical material is retained for audit, research-path reconstruction and later falsifier recovery. It is not current project authority merely because a search result finds it directly.
-
-## Retrieval model
-
-For completed independent corpora:
-
-`KEY → FINDINGS-MAP → synthesis → relevant topic finding → completeness/audit or source ledger → primary/authoritative source`
-
-Cross-foundation and ground-deepening packages define their own progressive routes in local `INDEX.md` files.
-
-Higher-level surfaces are intentionally compressed. When a decision depends on omitted nuance, source scope or a contested claim, descend rather than filling the gap by assumption.
-
-## Authority/currentness rule
-
-For current project state, authorization and next responsibility, read:
-
-1. `STATE.md` — sole parent-level dynamic authority;
-2. `INDEX.md` — current retrieval router.
-
-Vertical-local `STATE`, README files, manifests, candidate studies and historical handoffs do not override parent authority about what the project should do next.
-
-## Isolation and composition rule
-
-Ground/node deepening may acknowledge and record relations needed to define local boundaries, but systematic typed relation/control/composition research remains a later phase unless explicitly authorised.
-
-## Current gate
-
-No substantive node is active.
-
-Current interaction is user evaluation of the Information top-level closure. A separate transition decision is required before deepening an Information child or proceeding to another ground.
-
-## Epistemic rule
-
-Keep separate:
-- established bounded Foundation research finding;
-- candidate-study finding;
-- cross-foundation inference;
-- accepted working research hypothesis;
-- open question;
-- candidate research/design decision;
-- accepted architecture decision.
-
-Same-model completeness/omission checks are adversarial self-review, not independent verification.
-
-## Relationship to other research packages
-
-`research/soul-context/` remains the bounded context-reconstruction package for SOUL, Development OS and predecessor work.
-
-Candidate technical and external research lives under `research/studies/**` and is discoverable through `research/studies/CATALOG.md`.
 
 Current examples include:
 
-- `research/studies/ai-knowledge-strategies/`;
-- `research/studies/context-memory-harness-engineering/`;
-- `research/studies/multi-agent-patterns/`;
-- `research/studies/hands-on-large-language-models/`;
-- `research/studies/public-apis/`.
+- `ai-knowledge-strategies/`;
+- `anthropic-ai-native-sdlc-playbook/`;
+- `context-memory-harness-engineering/`;
+- `multi-agent-patterns/`;
+- `hands-on-large-language-models/`;
+- `public-apis/`.
 
-These may be evidence inputs or later design resources, but explicitly carry no Foundation-tree or architecture authority merely by being catalogued.
+---
+
+## Retrieval model
+
+For current Foundation state:
+
+`STATE.md → INDEX.md → active/current package STATE → KEY → FINDINGS-MAP → synthesis → targeted deep evidence`
+
+For completed ground packages, descend only as far as the current decision requires.
+
+Higher-level surfaces are intentionally compressed. When a decision depends on omitted nuance, source scope or a contested claim, descend rather than filling the gap by assumption.
+
+Historical material under `history/` remains useful for audit/reconstruction but does not override current parent authority.
+
+---
+
+## Epistemic rules
+
+Keep separate:
+
+- bounded Foundation research finding;
+- accepted working research hypothesis;
+- candidate-study finding;
+- cross-ground inference;
+- residual/open question;
+- deferred relation/composition pressure;
+- architecture/design decision;
+- implementation state.
+
+Also keep separate:
+
+```text
+same-model adversarial review
+!= independent verification
+
+exact Git SHA binding
+!= substantive truth verification
+```
+
+User acceptance closes sequencing/evaluation gates; it does not convert same-model synthesis into independent replication.
