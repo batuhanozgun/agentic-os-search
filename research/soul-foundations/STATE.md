@@ -1,35 +1,24 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment and Information accepted; Work boundedly complete / awaiting user evaluation  
+**Status:** active research library; Environment, Information and Work boundedly complete / accepted; Actors recommended next ground  
 **Environment / Operating Reality:** boundedly complete / accepted 2026-09-04  
 **Information / Representation:** boundedly complete / accepted  
-**Informational State:** bounded leaf / accepted  
-**Informational Dynamics / Formation–Transition:** boundedly complete / accepted  
-**Work:** BOUNDEDLY COMPLETE / USER EVALUATION PENDING  
-**Actors:** inactive  
+**Work:** boundedly complete / user-evaluated / accepted 2026-09-05  
+**Actors:** inactive / RECOMMENDED NEXT GROUND  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** WORK RESULT EVALUATION ONLY  
-**Current return condition:** user evaluation of the bounded Work result before any separate next-work selection or ground activation
+**Current authorised interaction:** NEXT-GROUND SELECTION RESULT / ACTORS AUTHORIZATION PENDING
 
 ## Dependency state
 
 - `01_verticals/`: complete / user-evaluated.
-  - Work independent vertical: sufficiently complete / user-evaluated; current ground audit found it sufficient under the four-ground frame.
-  - Actors independent vertical: sufficiently complete / user-evaluated; ground-deepening audit remains inactive.
+  - Work independent vertical: sufficiently complete / accepted into current ground-deepening stage.
+  - Actors independent vertical: sufficiently complete / user-evaluated in isolation; ground-deepening audit not yet performed.
 - `02_adequacy/`: boundedly sufficient / accepted working hypothesis; four-ground frame remains reopenable on material falsifiers.
 - `03_ground-deepening/`:
   - Environment / Operating Reality: boundedly complete / accepted.
   - Information / Representation: boundedly complete / accepted.
-    - Informational State / Representational Constitution: bounded leaf / accepted.
-    - Informational Dynamics / Formation–Transition: boundedly complete / accepted.
-      - Informational Formation / Acquisition: structurally accepted immediate child; not separately researched.
-      - Informational Derivation / Transformation: structurally accepted immediate child; not separately researched.
-      - Informational Selection / Exposure: structurally accepted immediate child; not separately researched.
-    - Records / Persistent Information: accepted deep persistence specialization/profile across Information.
-  - Work: boundedly complete / user evaluation pending.
-    - no universal immediate-child hierarchy promoted;
-    - prior Work vertical remains the deep evidence-bearing corpus.
-  - Actors: inactive.
+  - Work: boundedly complete / accepted; no universal immediate-child hierarchy promoted.
+  - Actors: inactive; recommended next substantive ground via coverage/gap audit.
 - Cross-ground composition, architecture, ontology/data model and implementation: not authorised.
 
 ## Current ground sequence
@@ -37,35 +26,33 @@
 ```text
 Environment / Operating Reality                 ← boundedly complete / accepted
 Information / Representation                    ← boundedly complete / accepted
-Work                                             ← boundedly complete / USER EVALUATION PENDING
-    ↳ rich multidimensional internal problem map
-    ↳ no universal immediate-child hierarchy promoted
-Actors                                           ← inactive
+Work                                             ← boundedly complete / accepted
+Actors / Agency–Participation–Authority          ← inactive / RECOMMENDED NEXT
 ```
 
-## Work bounded result
+## Next-ground selection
 
-The current audit did not find a material new Work-local first-order family. It sharpened the boundary around the prior Work distinctions:
+Recommended next substantive work:
 
-```text
-actual Work state != informational representation of Work state
-Work readiness/admission != actual Environment capability/resource state
-Work admission != Actor obligation/authorization
-Work completion != actual target condition/evidence/authorized acceptance
-```
+> **Actors / Agency–Participation–Authority — coverage / gap audit.**
 
-The audit also found that contemporary agentic patterns and mechanisms instantiate existing Work distinctions rather than defining a new Work taxonomy.
+Why:
+
+- it is the only accepted top-level ground not yet evaluated under `03_ground-deepening`;
+- its existing vertical is already deep, so a full restart is not justified by default;
+- accepted Environment, Information and Work results now provide sharper boundary tests for capability/actionability, Actor representation vs actual standing, Work participation vs authority/obligation and acceptance/accountability;
+- newer candidate studies provide strong falsifiers around subagents, delegation, transitive authority, human gates and multi-agent role/responsibility topologies;
+- no current reopen trigger justifies returning to Environment, Information or Work before this audit;
+- ground-deepening stage exit requires all four grounds to be individually evaluated before top-level adequacy is rerun.
 
 ## Verification status
 
-The prior Work vertical is broadly source-backed and user-evaluated. The current ground audit adds four-ground boundary checks, candidate-study holdouts and same-model adversarial reduction. The combined Work result has not received independent second-researcher/model replication. User evaluation does not change verification independence.
+Work user acceptance closes its sequencing gate but does not change verification independence. Environment, Information, Work and the prior Actors vertical all retain their stated same-model/non-independent review limitations.
 
 ## Current authorization
 
-**WORK RESULT EVALUATION ONLY.**
-
 No substantive Foundation ground is active.
 
-Do not automatically begin Actors, systematic typed relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
+The Actors audit is a **selected recommendation, not an activated pass**. Explicit user authorization is required before opening it.
 
-After user evaluation, make a separate next-work selection/authorization decision.
+After Actors is eventually evaluated, rerun top-level adequacy before deciding whether systematic relation/control/composition research should begin. Do not jump directly to architecture, ontology/data-model work or implementation.
