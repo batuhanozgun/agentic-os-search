@@ -2,24 +2,26 @@
 
 ## Role
 
-Current retrieval router for the user-evaluated Information top-level node and its completed Informational State child deepening.
+Current retrieval router for the user-evaluated Information top-level node, its accepted Informational State child, and the active Informational Dynamics child deepening.
 
 The parent pass was executed under the routing label `Information / Representation State`. Its accepted refined label is `Information / Representation`.
 
 ## Current status
 
-**TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE CHILD BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+**TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE USER-EVALUATED; INFORMATIONAL DYNAMICS CHILD ACTIVE.**
 
-No substantive child is active.
+Exactly one substantive child is active:
+
+`informational-dynamics/`
 
 ## Default read order
 
-1. `STATE.md` — parent status and current authorization.
+1. `STATE.md` — parent status and current child authorization.
 2. `KEY.md` — shortest accepted parent orientation.
 3. `FINDINGS-MAP.md` — accepted parent result and topic routing.
-4. `informational-state/STATE.md` — completed child status and bounded result.
-5. `informational-state/KEY.md` → `FINDINGS-MAP.md` → `synthesis/INFORMATIONAL-STATE-SYNTHESIS.md` → `N7-NODE-CLOSURE.md` for the child result under evaluation.
-6. Child `INDEX.md` → N0–N6 / evidence / source routes when the child reasoning path, rivals, boundary attack or falsifiers matter.
+4. `informational-dynamics/STATE.md` — active child state.
+5. `informational-dynamics/INDEX.md` → `RESEARCH-PLAN.md` → current pass artifacts.
+6. `informational-state/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` when accepted State/output semantics or sibling boundary matters.
 7. Parent `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` and `N7-NODE-CLOSURE.md` when parent closure reasoning matters.
 8. Parent N0–N6 only when the earlier reasoning path, rival decomposition, boundary attack, omission audit or exact source use matters.
 9. `EXTERNAL-SOURCE-LEDGER.md` — parent external source roles and exact source routes.
@@ -27,18 +29,18 @@ No substantive child is active.
 11. `DEFERRED-RELATIONS.md` — cross-ground relations intentionally not solved here.
 12. `CURRENT-SURFACES.md` — current surface binding.
 
-## Accepted parent hierarchy / current child status
+## Accepted parent hierarchy / active child
 
 ```text
 Information / Representation
-    ├─ Informational State / Representational Constitution   ← bounded leaf / USER EVALUATION PENDING
-    └─ Informational Dynamics / Formation–Transformation     ← inactive
+    ├─ Informational State / Representational Constitution   ← bounded leaf / user-evaluated
+    └─ Informational Dynamics / Formation–Transformation     ← ACTIVE
 
 Records / Persistent Information
     ↳ deep persistence specialization/profile crossing Information
 ```
 
-The Informational State pass found no stable immediate-child split at the current Foundation depth. Its internal constitution distinctions remain explicit orientation dimensions/relations rather than accepted child branches.
+The active Dynamics pass must derive its own internal structure. Parent-level dynamic regions such as acquisition, derivation, selection/context formation, revision, communication and persistence lifecycle are research inputs, not accepted children.
 
 ## Parent pass reconstruction route
 
@@ -72,12 +74,11 @@ For stage and project authority read:
 
 ## Current gate / guardrail
 
-Current interaction is evaluation of the bounded Informational State result. No substantive child is active.
+Exactly one substantive node is active: `Informational Dynamics / Formation–Transformation`.
 
 This package does not authorize:
 
-- Informational Dynamics child deepening;
-- any proposed child inside Informational State;
+- any child discovered inside Informational Dynamics;
 - Work or Actors ground deepening;
 - systematic relation/control composition;
 - architecture modules;
@@ -85,4 +86,4 @@ This package does not authorize:
 - RAG/KG/memory/context implementation;
 - SOUL/Development OS implementation.
 
-A separate post-evaluation transition is required before any such work begins.
+Return the Dynamics result for user evaluation at bounded closure before any further node activation.
