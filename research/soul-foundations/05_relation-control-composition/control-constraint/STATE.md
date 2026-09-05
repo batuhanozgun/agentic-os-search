@@ -1,24 +1,24 @@
 # Control / Constraint — STATE
 
-**Status:** BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED  
 **Activated:** 2026-09-05  
 **Closed for evaluation:** 2026-09-05  
+**User evaluation accepted:** 2026-09-05  
 **Parent:** `Cross-Ground Composition` — accepted  
 **Prior children:** Relational Binding and Composite Standing — bounded leaves / user-evaluated / accepted  
-**Current phase:** K7 CLOSURE COMPLETE / USER EVALUATION GATE  
 **K0–K7:** COMPLETE  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** CONTROL / CONSTRAINT RESULT EVALUATION ONLY
+**Current authorised interaction:** NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY
 
 ## Protected question
 
 > What governing semantics apply to an exact candidate behavior, transition, flow, choice or continuation under an applicable governing basis/objective, and which authority, decision, enforcement, coverage and monitoring distinctions must be preserved when material?
 
-## Bounded result
+## Accepted bounded result
 
 ```text
 Control / Constraint
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / USER-EVALUATED / ACCEPTED
     ← cross-ground governing semantics
     ← no immediate child promoted
     ← one reusable semantic core
@@ -76,9 +76,6 @@ A local mechanism can behave correctly while an indirect Actor/tool/service/phys
 ## Strongest non-collapse rules
 
 ```text
-arbitrary limitation
-!= Control automatically
-
 policy text
 != legitimate/current/applicable governing basis
 != authority
@@ -129,36 +126,23 @@ control currentness
 - Monitoring / Compliance / Control Assurance;
 - Preventive / Detective / Mitigating effect profile.
 
-## External / candidate holdout result
-
-NIST ABAC, NIST Zero Trust, NIST SP 800-53, OASIS XACML, NASA Technical Authority/decision-gate material, OSHA machine guarding/interlocks, FAA safety-risk guidance and selected project candidate studies did not force a child split or upstream reopen.
-
-Strong agentic holdout:
-
-```text
-direct agent restriction
-!= effective system restriction
-```
-
-when an indirect agent/tool path can still reach the governed effect.
-
 ## Next sequencing recommendation
 
-If the user accepts this result:
+After acceptance, the strongest current next composition-child candidate remains:
 
-> **Transition / Effect / Feedback** is the strongest current next composition-child candidate.
+> **Transition / Effect / Feedback**
 
 It is not active.
 
 ## Verification status
 
-K7 is same-model adversarial review. No independent second-researcher/model replication validates this exact bounded-leaf result or semantic grammar, and no external standard publishes this exact Foundation synthesis.
+K7 is same-model adversarial review. No independent second-researcher/model replication has validated this exact bounded-leaf result or semantic grammar, and no external standard publishes this exact Foundation synthesis.
 
-User evaluation can close sequencing but does not change verification independence.
+User acceptance closes the sequencing/evaluation gate but does not change verification independence.
 
 ## Current authorization / return condition
 
-**USER EVALUATION OF CONTROL / CONSTRAINT RESULT ONLY.**
+**NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY.**
 
 Do not automatically begin:
 - Transition / Effect / Feedback;
