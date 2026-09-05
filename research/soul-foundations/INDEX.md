@@ -8,16 +8,14 @@ Read `STATE.md` first for current authorization.
 
 ## Current stage
 
-**CROSS-GROUND COMPOSITION — CONTROL / CONSTRAINT BOUNDED LEAF / AWAITING USER EVALUATION.**
-
-No substantive Foundation child is active.
+**CROSS-GROUND COMPOSITION — BINDING, COMPOSITE STANDING AND CONTROL ACCEPTED; NO SUBSTANTIVE CHILD ACTIVE.**
 
 ## Read routes
 
 | Need | Read first | Then if needed |
 |---|---|---|
 | Current overall state / authorization | `STATE.md` | current composition router |
-| Current Control result | `05_relation-control-composition/control-constraint/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → K7 |
+| Accepted Control result | `05_relation-control-composition/control-constraint/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → K7 |
 | Control reasoning | `05_relation-control-composition/control-constraint/INDEX.md` | targeted K0–K6 pass |
 | Control residuals | `05_relation-control-composition/control-constraint/OPEN-QUESTIONS.md` | relevant sibling/ground/parent surface if reopened |
 | Accepted Composite Standing | `05_relation-control-composition/composite-standing/STATE.md` | `KEY.md` → synthesis/S7 |
@@ -33,15 +31,15 @@ No substantive Foundation child is active.
 Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
 ├─ Composite Standing / Qualification ← bounded leaf / accepted
-├─ Control / Constraint                ← bounded leaf / USER EVALUATION PENDING
-└─ Transition / Effect / Feedback      ← recommended next if Control accepted / inactive
+├─ Control / Constraint                ← bounded leaf / accepted
+└─ Transition / Effect / Feedback      ← recommended next / inactive
 ```
 
 ## Current next-step interpretation
 
-Current interaction is evaluation of Control / Constraint only.
+Current interaction is next composition-child selection/planning only.
 
-If accepted, `Transition / Effect / Feedback` is the strongest current next-child candidate and requires separate substantive activation.
+`Transition / Effect / Feedback` is the strongest current next-child candidate and requires separate substantive activation.
 
 ## Guardrail
 
