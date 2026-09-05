@@ -1,15 +1,17 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE CHILD BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
+**Status:** ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE USER-EVALUATED; INFORMATIONAL DYNAMICS ACTIVE  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment completion:** boundedly complete / accepted 2026-09-04  
 **Information top-level user evaluation:** accepted 2026-09-04  
 **Informational State activation:** 2026-09-05  
-**Informational State closure:** boundedly complete for evaluation 2026-09-05  
+**Informational State closure:** boundedly complete 2026-09-05  
+**Informational State user transition acceptance:** 2026-09-05  
+**Informational Dynamics activation:** 2026-09-05  
 **Scope:** ground-specific and recursively branch-specific research-depth completion  
-**Current authorised substantive activity:** NONE  
-**Current phase:** INFORMATIONAL STATE USER-EVALUATION GATE
+**Current authorised substantive activity:** INFORMATIONAL DYNAMICS / FORMATION–TRANSFORMATION NODE RESEARCH  
+**Current phase:** INFORMATIONAL DYNAMICS ACTIVE RESEARCH
 
 ## Working research tree / epistemic status
 
@@ -28,8 +30,8 @@ Environment / Operating Reality                 ← boundedly complete / accepte
          ↳ Technical Work Environment               ← deep technical specialization/profile
 
 Information / Representation                    ← boundedly complete / accepted
-    ├─ Informational State / Representational Constitution  ← bounded leaf / USER EVALUATION PENDING
-    └─ Informational Dynamics / Formation–Transformation    ← inactive
+    ├─ Informational State / Representational Constitution  ← bounded leaf / user-evaluated
+    └─ Informational Dynamics / Formation–Transformation    ← ACTIVE
 
 Records / Persistent Information                ↳ accepted deep persistence specialization/profile across Information
 
@@ -37,53 +39,63 @@ Work                                             ← inactive
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-## Informational State progress
+## Informational State completion
 
 ```text
 N0 canonical/internal evidence recovery       ← COMPLETE
 N1 node coherence attack                      ← COMPLETE
 N2 first-principles problem inventory         ← COMPLETE
-N3 immediate-child discovery                  ← COMPLETE
+N3 immediate-child discovery                  ← COMPLETE / no stable child promoted
 N4 boundary / anti-collapse                   ← COMPLETE
 N5 external / cross-domain falsifiers         ← COMPLETE
 N6 omission / reduction / rival audit         ← COMPLETE; same-model, non-independent
-N7 node closure                               ← COMPLETE / USER EVALUATION GATE
-substantive child research                    ← NONE ACTIVE
+N7 node closure                               ← COMPLETE / user-evaluated for sequencing
 ```
 
-## Informational State bounded result
+Bounded result:
 
-Current judgment:
+> `Informational State / Representational Constitution` is a bounded leaf for the current Foundation depth; its internal distinctions remain explicit constitution/qualification dimensions and relations rather than immediate children.
 
-> `Informational State / Representational Constitution` is a bounded leaf for the current Foundation depth; its internal distinctions should remain explicit as constitution/qualification dimensions and relations rather than be forced into immediate children.
+## Active Informational Dynamics Work
 
 Canonical package:
 
-`grounds/information/informational-state/`
+`grounds/information/informational-dynamics/`
+
+Current phase:
+
+`N0 canonical/internal evidence recovery`
+
+Protected question:
+
+> How do informational states become available, get generated, selected, transformed, revised, communicated, invalidated or otherwise change, and which distinctions among those processes are foundational rather than mechanism- or domain-specific?
+
+Exactly one substantive node is active.
 
 ## Method
 
 `HIERARCHICAL-DEEPENING-METHOD.md`
 
-The one-node-at-a-time rule is currently satisfied because zero substantive nodes are active while the child result awaits user evaluation.
+The one-node-at-a-time rule is satisfied. Findings inside Dynamics may be used to propose immediate children, but no discovered child may be activated in this pass.
 
 ## Verification status
 
-The child pass used internal/canonical evidence, Records, candidate studies and materially different external traditions. N6 remains same-model adversarial self-review and is not independent verification. User evaluation does not change that independence status.
+Information parent and Informational State child closure remain bounded research results with external/cross-domain falsifiers plus same-model adversarial audit, not independent replication.
+
+The active Dynamics pass must maintain its own evidence, falsifier and verification surfaces.
 
 ## Current gate / guardrail
 
-Current interaction is Informational State result evaluation only.
+Current authorised substantive research is `Informational Dynamics / Formation–Transformation` only.
 
 Do not begin:
 
-- Informational Dynamics;
-- any State child;
+- a Dynamics child discovered during this pass;
 - Work;
 - Actors;
 - systematic relation/control composition;
 - architecture;
 - ontology/data model;
-- implementation
+- implementation.
 
-until a separate post-evaluation transition is explicitly selected and authorised.
+Return the Dynamics node for user evaluation at bounded closure before a separate next-work transition.
