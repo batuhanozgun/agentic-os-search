@@ -1,90 +1,86 @@
 # Relation / Control / Composition — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** parent USER-EVALUATED / ACCEPTED; Binding accepted; Composite Standing awaiting user evaluation  
+**Status:** parent accepted; Binding accepted; Composite Standing accepted; next-child planning  
 **Date:** 2026-09-05
 
 ## Shortest current result
 
-Systematic cross-ground composition is an accepted Foundation research problem distinct from, but dependent on, the four accepted grounds.
+Systematic cross-ground composition is a coherent Foundation research problem distinct from, but dependent on, the four accepted grounds.
 
-Accepted parent structure:
+Accepted bounded parent structure:
 
 ```text
 Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
-├─ Composite Standing / Qualification ← bounded leaf / USER EVALUATION PENDING
-├─ Control / Constraint                ← recommended next if Standing accepted / inactive
+├─ Composite Standing / Qualification ← bounded leaf / accepted
+├─ Control / Constraint                ← recommended next / inactive
 └─ Transition / Effect / Feedback      ← inactive
 ```
 
 These are **diagnostic research problem regions**, not mutually exclusive event/relation classes and not architecture modules.
 
-## Parent meanings
+## Accepted child results so far
 
 ### Relational Binding
-What exact anchors are connected, in what typed semantic positions and applicability frame?
 
-Accepted result: bounded leaf with a reusable binding-semantic signature; no immediate child promoted.
+Protected question:
+
+> What is connected to what, in what typed semantic positions and under what applicability conditions, such that replacing the connection with a generic link would lose decision-critical meaning?
+
+Result: bounded leaf with exact-anchor / typed-position / applicability / qualified-n-ary binding grammar.
 
 ### Composite Standing / Qualification
-What cross-ground qualification holds when several accepted-ground semantics are part of what the qualification means or constitutes it?
 
-Current bounded result: bounded leaf / user evaluation pending.
+Protected question:
 
-Critical routing rule:
+> What qualification cannot be localized to one accepted ground because several ground semantics are constitutive of what the standing means or what makes it hold?
 
-```text
-ground-local standing != cross-ground Composite Standing
-```
+Result: bounded leaf with a cross-ground qualification grammar and a strict boundary against ground-local Criterion-Relative Standing.
 
-Cross-ground evidence or assessment access alone does not make a ground-local standing Composite.
-
-### Control / Constraint
-What makes a transition/action permitted, required, blocked, gated, escalated or conditioned, and how are policy, authority, decision, obligation, enforcement and compliance kept distinct?
-
-Recommended next if Composite Standing is accepted; not active.
-
-### Transition / Effect / Feedback
-How do changes/actions/observations/decisions/effects propagate across ground states and composite standings over time, with what trigger/causal/feedback semantics?
-
-Inactive; priority should be re-selected after Control closure.
-
-## Strongest non-collapse rules accumulated so far
+Key distinction:
 
 ```text
-pairwise connectivity != complete composition semantics
-represented binding != actual binding
-binding != Composite Standing
-
 standing holds
 != assessment supports it
 != decision recognizes it
 != record says it holds
+```
 
-criterion != decision rule
+## Remaining regions
 
-policy text
-!= legitimate authority
-!= authorization decision
-!= technical enforcement
-!= observed compliance
+### Control / Constraint
 
+What makes a transition/action permitted, required, blocked, gated, escalated or conditioned, and how are policy, authority, decision, obligation, enforcement and compliance kept distinct?
+
+### Transition / Effect / Feedback
+
+How do changes/actions/observations/decisions/effects propagate across ground states and composite standings over time, with what trigger/causal/feedback semantics?
+
+## Strongest non-collapse rules
+
+```text
+pairwise connectivity != complete composition semantics
+represented relation/standing != actual relation/standing
+ground-local standing != cross-ground Composite Standing
+policy text != legitimate authority != authorization decision != technical enforcement != observed compliance
 sequence != causation
 intended effect != realized effect
 reachable effect power != legitimate authority
 ```
 
-## Current sequencing
+## Next sequencing recommendation
 
-Current interaction is **Composite Standing result evaluation only**.
+After Standing closure, the remaining order was re-evaluated.
 
-If accepted:
+> **Control / Constraint is the strongest current next child.**
 
-> **Control / Constraint** is the strongest current next composition-child candidate.
-
-No substantive child is active.
+Do not pre-commit Transition automatically; re-select after Control closure.
 
 ## Verification boundary
 
-Parent C7, Binding B7 and Standing S7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact composition decomposition or bounded-leaf child results.
+Parent C7, Binding B7 and Standing S7 are same-model adversarial reviews. External sources pressure specific claims but do not independently validate this exact project synthesis. No independent second-researcher/model replication has been performed.
+
+## Current gate
+
+Next composition-child selection/planning only. No substantive child, architecture, ontology/data model or implementation work is active.
