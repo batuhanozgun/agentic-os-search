@@ -1,53 +1,68 @@
 # Relation / Control / Composition — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** bounded parent result / awaiting user evaluation  
+**Status:** parent USER-EVALUATED / ACCEPTED; Binding accepted; Composite Standing awaiting user evaluation  
 **Date:** 2026-09-05
 
 ## Shortest current result
 
-Systematic cross-ground composition is a coherent Foundation research problem distinct from, but dependent on, the four accepted grounds.
+Systematic cross-ground composition is an accepted Foundation research problem distinct from, but dependent on, the four accepted grounds.
 
-Recommended bounded parent structure:
+Accepted parent structure:
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding
-├─ Composite Standing / Qualification
-├─ Control / Constraint
-└─ Transition / Effect / Feedback
+├─ Relational Binding                  ← bounded leaf / accepted
+├─ Composite Standing / Qualification ← bounded leaf / USER EVALUATION PENDING
+├─ Control / Constraint                ← recommended next if Standing accepted / inactive
+└─ Transition / Effect / Feedback      ← inactive
 ```
 
 These are **diagnostic research problem regions**, not mutually exclusive event/relation classes and not architecture modules.
 
-## What each region asks
+## Parent meanings
 
 ### Relational Binding
+What exact anchors are connected, in what typed semantic positions and applicability frame?
 
-What is connected to what, in what typed role/direction/scope/reference/time, and what semantic loss occurs if the link is generalized?
+Accepted result: bounded leaf with a reusable binding-semantic signature; no immediate child promoted.
 
 ### Composite Standing / Qualification
+What cross-ground qualification holds when several accepted-ground semantics are part of what the qualification means or constitutes it?
 
-What criterion-/target-/use-/authority-/time-relative standing holds only when several ground facts/relations are jointly evaluated?
+Current bounded result: bounded leaf / user evaluation pending.
 
-Examples: actionable, verified, validated, accepted, goal attained, evidence sufficient.
+Critical routing rule:
+
+```text
+ground-local standing != cross-ground Composite Standing
+```
+
+Cross-ground evidence or assessment access alone does not make a ground-local standing Composite.
 
 ### Control / Constraint
-
 What makes a transition/action permitted, required, blocked, gated, escalated or conditioned, and how are policy, authority, decision, obligation, enforcement and compliance kept distinct?
 
-### Transition / Effect / Feedback
+Recommended next if Composite Standing is accepted; not active.
 
+### Transition / Effect / Feedback
 How do changes/actions/observations/decisions/effects propagate across ground states and composite standings over time, with what trigger/causal/feedback semantics?
 
-## Strongest non-collapse rules
+Inactive; priority should be re-selected after Control closure.
+
+## Strongest non-collapse rules accumulated so far
 
 ```text
 pairwise connectivity != complete composition semantics
+represented binding != actual binding
+binding != Composite Standing
 
-represented relation/standing != actual relation/standing
+standing holds
+!= assessment supports it
+!= decision recognizes it
+!= record says it holds
 
-composite standing != one ground-local status
+criterion != decision rule
 
 policy text
 != legitimate authority
@@ -57,40 +72,19 @@ policy text
 
 sequence != causation
 intended effect != realized effect
-
 reachable effect power != legitimate authority
 ```
 
-## Not promoted as immediate children
+## Current sequencing
 
-- pairwise ground combinations;
-- Goal / Outcome / Value;
-- Verification / Validation / Acceptance;
-- Actionability / Effective Power;
-- Governance / Policy;
-- Provenance / Evidence / Attribution;
-- Causation;
-- Dependency / Coordination / Support;
-- Risk / Value / Priority;
-- Time / Continuity;
-- Feedback / Learning / Evolution as a separate peer.
+Current interaction is **Composite Standing result evaluation only**.
 
-These are cross-cutting families, composite patterns, dimensions or specializations across the four recommended regions.
+If accepted:
 
-## Next sequencing recommendation
+> **Control / Constraint** is the strongest current next composition-child candidate.
 
-If the parent result is accepted:
-
-> **Relational Binding should be the first child pass.**
-
-Do not pre-commit the remaining child order. After Binding closes, re-select among Composite Standing, Control and Transition based on the evidence it exposes.
+No substantive child is active.
 
 ## Verification boundary
 
-The result uses accepted Foundation evidence, pairwise and multi-ground falsification, rival frames, W3C PROV, NIST ABAC, NASA systems V&V, and selected candidate studies.
-
-C7 is same-model adversarial review. No independent second-researcher/model replication validates the exact four-region structure.
-
-## Current gate
-
-User evaluation only after closure. No child, architecture, ontology/data model or implementation work is active.
+Parent C7, Binding B7 and Standing S7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact composition decomposition or bounded-leaf child results.
