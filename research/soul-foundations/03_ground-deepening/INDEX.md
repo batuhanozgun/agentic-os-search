@@ -6,38 +6,35 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE USER-EVALUATED; INFORMATIONAL DYNAMICS BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+**ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL AND FIRST-LEVEL CHILD STRUCTURE USER-EVALUATED / ACCEPTED.**
 
 ## Read order
 
 1. `STATE.md` — current stage status/authorization.
 2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive method.
-3. Informational Dynamics bounded result under evaluation → `grounds/information/informational-dynamics/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → `N7-NODE-CLOSURE.md`.
-4. Dynamics research-path reconstruction → its `INDEX.md` → N0–N6 / evidence / source routes.
-5. Accepted Informational State sibling → `grounds/information/informational-state/STATE.md` → `KEY.md` → `FINDINGS-MAP.md`.
-6. Accepted Information parent → `grounds/information/STATE.md` → parent result routes.
+3. Accepted Information parent → `grounds/information/STATE.md` → `KEY.md` → `FINDINGS-MAP.md`.
+4. Accepted Informational State result → `grounds/information/informational-state/STATE.md` → package routes.
+5. Accepted Informational Dynamics result → `grounds/information/informational-dynamics/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis.
+6. Dynamics research-path reconstruction → its `INDEX.md` → N0–N7 / evidence / source routes.
 7. Completed Environment → `grounds/environment/STATE.md` → `KEY.md` / `CURRENT-SURFACES.md` when needed.
 8. `CURRENT-SURFACES.md` — exact stage freshness.
 
-## Current result
+## Current accepted result
 
 ```text
 Information / Representation                    ← boundedly complete / accepted
-    ├─ Informational State / Representational Constitution  ← bounded leaf / user-evaluated
-    └─ Informational Dynamics / Formation–Transformation    ← boundedly complete / USER EVALUATION PENDING
-
-Dynamics closure recommendation:
-Informational Dynamics / Formation–Transition
-    ├─ Informational Formation / Acquisition
-    ├─ Informational Derivation / Transformation
-    └─ Informational Selection / Exposure
+    ├─ Informational State / Representational Constitution  ← bounded leaf / accepted
+    └─ Informational Dynamics / Formation–Transition        ← boundedly complete / accepted
+         ├─ Informational Formation / Acquisition
+         ├─ Informational Derivation / Transformation
+         └─ Informational Selection / Exposure
 ```
 
-No substantive node is active. The Dynamics label refinement and proposed children await user evaluation.
+The three Dynamics children are accepted structurally but have not yet been separately researched.
 
 ## Current gate
 
-Current interaction is evaluation of the bounded Informational Dynamics result. A separate post-evaluation transition is required before any child, Work, Actors or another substantive node is activated.
+No substantive node is active. Current interaction is next-work selection/planning only. A separate transition is required before any Dynamics child, Work, Actors or another substantive node is activated.
 
 ## Guardrail
 
