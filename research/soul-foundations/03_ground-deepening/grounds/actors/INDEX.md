@@ -2,51 +2,64 @@
 
 ## Role
 
-Current retrieval router for the active Actors ground coverage/gap audit.
+Current retrieval router for the boundedly complete Actors ground coverage/gap audit.
 
-Read `STATE.md` first for authorization and phase.
+Read `STATE.md` first for current status and authorization.
 
 ## Current status
 
-**ACTIVE — A1 four-ground boundary / coverage audit.**
+**BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
 
-Exactly one substantive ground is active: `Actors`.
+No substantive ground is active.
 
 ## Default read order
 
-1. `STATE.md` — authorization, phase and stop rule.
-2. `AUDIT-PLAN.md` — audit questions, evidence strategy and pass structure.
-3. `A0-EVIDENCE-RECOVERY.md` — recovered corpus, boundaries and live hypotheses.
-4. `A1-FOUR-GROUND-BOUNDARY-COVERAGE.md` once produced.
-5. A2–A5 audit artifacts as completed.
-6. `KEY.md`, `FINDINGS-MAP.md` and synthesis when bounded closure is reached.
-7. `A6-CLOSURE.md` — final gap/no-gap judgment and verification status.
-8. `CURRENT-SURFACES.md` — exact current surface binding.
+1. `STATE.md` — current bounded result, verification status and authorization.
+2. `KEY.md` — shortest current orientation.
+3. `FINDINGS-MAP.md` — current result and topic routing.
+4. `synthesis/ACTORS-GROUND-AUDIT-SYNTHESIS.md` — integrated audit result.
+5. `A6-CLOSURE.md` — closure basis, residual uncertainty and reopen triggers.
+6. `OPEN-QUESTIONS.md` — bounded residuals; not an execution queue.
+7. `DEFERRED-RELATIONS.md` — cross-ground relations intentionally deferred.
+8. Descend to A0–A5 when audit reasoning, boundary tests, candidate holdouts or rivals matter.
+9. Prior Actors corpus when detailed first-order evidence matters → `../../../01_verticals/actors/STATE.md` → its current retrieval route.
+10. `CURRENT-SURFACES.md` — exact current-surface binding.
 
-## Prior Actors corpus
+## Bounded result
 
-The audit reuses rather than replaces `../../../01_verticals/actors/`.
+```text
+Actors / Agency–Participation–Authority
+    ← boundedly complete for current Foundation depth / USER EVALUATION PENDING
+    ← rich relational / multi-anchor internal problem map
+    ← NO universal immediate-child hierarchy promoted
+```
 
-Preferred prior-corpus path:
+## Main audit corrections
 
-`STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ACTORS-VERTICAL-SYNTHESIS.md → targeted L3/L4 evidence as needed`.
+- Actor standing != representation/evidence of standing;
+- Actor capability/competence != Environment actionability;
+- Actor authority != technical effect power/runtime enforcement;
+- Actor participation/assignment != Work identity/admission/execution;
+- Work requiredness != Actor obligation;
+- Work acceptance state != authority to accept;
+- `Actors` includes semantically relevant non-performing parties/positions, not only active doers.
 
-## Current accepted neighboring grounds
+## Prior Actors corpus relation
 
-- Environment / Operating Reality — accepted;
-- Information / Representation — accepted;
-- Work — accepted.
+This package does not replace the prior independent Actors vertical. It evaluates and bridges that corpus into the current four-ground Foundation frame.
 
-## Candidate-study reuse
+Preferred prior-corpus route:
 
-Likely holdouts:
+`../../../01_verticals/actors/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/ACTORS-VERTICAL-SYNTHESIS.md → targeted L3/L4 evidence`.
 
-- `research/studies/anthropic-ai-native-sdlc-playbook/`;
-- `research/studies/multi-agent-patterns/`;
-- `research/studies/context-memory-harness-engineering/` when runtime permissions/orchestration/context-bound agency matters.
+## Candidate-study result
 
-Candidate studies are falsifiers/design pressure only; they do not define Actors.
+Anthropic AI-native SDLC, multi-agent patterns and context/memory/harness studies were used as falsifiers/holdouts. They did not define the Actors structure and did not force a new first-order Actors family.
+
+## Verification status
+
+The current audit is source-backed through the prior Actors corpus and candidate studies, but A5 is same-model adversarial review. No independent replication has been performed.
 
 ## Guardrail
 
-This router does not authorize top-level adequacy rerun, systematic composition, architecture, ontology/data model or implementation.
+Current interaction is user evaluation only. This router does not authorize top-level adequacy rerun, systematic composition, architecture, ontology/data model or implementation.
