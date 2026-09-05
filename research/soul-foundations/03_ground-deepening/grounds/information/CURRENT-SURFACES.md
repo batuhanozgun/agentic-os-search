@@ -1,16 +1,16 @@
 # Information / Representation — CURRENT SURFACES
 
-**Status:** accepted parent binding with Informational State child active  
+**Status:** accepted parent binding with Informational State child boundedly complete / awaiting user evaluation  
 **Date:** 2026-09-05  
 **Branch:** `main`  
-**Current phase:** Informational State child deepening active
+**Current phase:** Informational State user-evaluation gate; no substantive child active
 
 ## Current orientation and authority
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Parent state / child authorization | `STATE.md` | `be0f790fa0996126064cdff1fdd2a825cd5320f6` |
-| Parent router | `INDEX.md` | `9ca19ecf7df380116ea729aa4b4e1722d5d32c95` |
+| Parent state / authorization | `STATE.md` | `6e1db1383c939b03e2378ba47bdb0dfe5e682f99` |
+| Parent router | `INDEX.md` | `ab6fe4549cabbd06cf53a68403a77513bcd42108` |
 | Accepted parent key | `KEY.md` | `eb9ead9aa2acf8a9904add85b86b067b45df8eb5` |
 | Accepted parent findings map | `FINDINGS-MAP.md` | `bafbbf822113c62a3b7acfb7fbb22ce951c38984` |
 | Integrated parent synthesis | `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` | `15ab6fc1acac64d8bcf48296c2d15ad8c5a79b99` |
@@ -38,47 +38,49 @@
 | External source ledger | `EXTERNAL-SOURCE-LEDGER.md` | `3296c8a1668c830d728d9dfba4b6ce1defd777bd` |
 | Deferred relations | `DEFERRED-RELATIONS.md` | `49d87281764d62f3c899808a852854c999842122` |
 
-## Active child surfaces
+## Informational State child closure surface
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Active child state | `informational-state/STATE.md` | `3b1acd8f5a176860051600e9d7daeab6a9e5d83b` |
-| Active child router | `informational-state/INDEX.md` | `9414975661c428cc774132e108ac12d647e4fdfb` |
-| Active child plan | `informational-state/RESEARCH-PLAN.md` | `ee3c9db6ef504d75a349ca6a34a14f6d0db32c65` |
+| Child state | `informational-state/STATE.md` | `67073f98cdc133665ae0cdcf79969d2bf3730bea` |
+| Child router | `informational-state/INDEX.md` | `9388d57d354cff7d18f4107f2c6f3cbd5aee979f` |
+| Child freshness manifest | `informational-state/CURRENT-SURFACES.md` | `446568c180b6431c355e239c62817785a83e28cb` |
+| Child research plan | `informational-state/RESEARCH-PLAN.md` | `ee3c9db6ef504d75a349ca6a34a14f6d0db32c65` |
 
 ## Stage / Foundation authority surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Ground-deepening state | `../../STATE.md` | `0ca8bee24708ec454677900385bb153580171947` |
-| Ground-deepening router | `../../INDEX.md` | `bef3ff6df27bb129b41862cdfc7bc809bf94d363` |
-| Foundation state | `../../../STATE.md` | `32e804bc61f1e2fe92d47487f21df0b4c41a11f3` |
-| Foundation index | `../../../INDEX.md` | `835135cc16726a88da68d92cb59907b175b02155` |
+| Ground-deepening state | `../../STATE.md` | `c32c5d415576b0b591dc4015fa5898e593616876` |
+| Ground-deepening router | `../../INDEX.md` | `5028525a99105668dbda936b72db653b5b9a66d2` |
+| Foundation state | `../../../STATE.md` | `c2754fdd231750fbc9dfe21e3e5f985e944359ee` |
+| Foundation index | `../../../INDEX.md` | `0c5f5fadd30752c37b14efe156a9567e9e3deb1b` |
 
 ## Current bounded result / sequencing
 
 ```text
 Information / Representation                    ← boundedly complete / user-evaluated
-    ├─ Informational State / Representational Constitution  ← ACTIVE
+    ├─ Informational State / Representational Constitution  ← bounded leaf / USER EVALUATION PENDING
     └─ Informational Dynamics / Formation–Transformation    ← inactive
 
 Records / Persistent Information                ↳ accepted deep persistence specialization/profile
 Work                                             ← inactive
 Actors                                           ← inactive
+substantive active node                          ← NONE
 ```
 
 The parent pass was executed under the earlier routing label `Information / Representation State`; that pass-time wording remains preserved in its historical artifacts. The current accepted parent label is `Information / Representation`.
 
 ## Authorization interpretation
 
-Exactly one substantive node is active: `Informational State / Representational Constitution`.
+No substantive node is active.
 
-The child pass may discover immediate children but may not activate them. Informational Dynamics, Work, Actors, systematic composition, architecture, ontology/data model and implementation remain unauthorised.
+Current interaction is user evaluation of the bounded Informational State result. A separate post-evaluation transition is required before Informational Dynamics, Work, Actors or any deeper node is activated.
 
 ## Provenance rule
 
-Parent N0–N6 pass artifacts preserve the labels/status current when each phase was executed. Current hierarchy, status and authorization come from current `STATE.md`, `KEY.md`, `FINDINGS-MAP.md`, this manifest and the stage/Foundations state surfaces.
+Parent N0–N6 pass artifacts preserve the labels/status current when each phase was executed. Current hierarchy, status and authorization come from current `STATE.md`, `KEY.md`, `FINDINGS-MAP.md`, this manifest, the child closure package and the stage/Foundations state surfaces.
 
 ## Verification note
 
-Exact SHA binding establishes repository-view identity only. It does not independently verify the parent or active child research results. Parent N6 remains same-model adversarial review; the active child pass must maintain its own verification status.
+Exact SHA binding establishes repository-view identity only. It does not independently verify the parent or child research result. Parent and child N6 passes remain same-model adversarial review; the complete child synthesis has not received independent second-researcher/model replication.
