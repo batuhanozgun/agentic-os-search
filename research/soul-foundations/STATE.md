@@ -1,13 +1,14 @@
 # SOUL Foundations — STATE
 
-**Status:** four-ground adequacy accepted; relation/control/composition parent research ACTIVE  
+**Status:** four-ground adequacy accepted; composition parent BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
 **Environment / Operating Reality:** boundedly complete / accepted  
 **Information / Representation:** boundedly complete / accepted  
 **Work:** boundedly complete / accepted  
 **Actors / Agency–Participation–Authority:** boundedly complete / accepted  
-**Post-deepening top-level adequacy:** boundedly complete / user-evaluated / accepted 2026-09-05  
-**Current authorised substantive activity:** RELATION / CONTROL / COMPOSITION PARENT PASS  
-**Current phase:** `05_relation-control-composition` / C0 CANONICAL EVIDENCE RECOVERY
+**Post-deepening top-level adequacy:** boundedly complete / user-evaluated / accepted  
+**Cross-Ground Composition parent:** boundedly complete / USER EVALUATION PENDING  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** COMPOSITION PARENT RESULT EVALUATION ONLY
 
 ## Accepted Foundation anchors
 
@@ -17,60 +18,69 @@ Information / Representation                    ← accepted
 Work                                             ← accepted
 Actors / Agency–Participation–Authority          ← accepted
 
-post-deepening four-ground adequacy              ← accepted for current Foundation sequencing
+post-deepening four-ground adequacy              ← accepted
 ```
 
-## Active protected question
+## Current bounded composition result
 
-> How do Environment, Information, Work and Actors compose through typed relations, derived standings, controls and transitions without collapsing their ground-local semantics or prematurely selecting architecture/ontology?
-
-Canonical active package:
+Canonical package:
 
 `05_relation-control-composition/`
 
-## Why this phase exists
+Recommended structure:
 
-The adequacy rerun found no missing fifth ground. Its strongest residual result was that many load-bearing SOUL/Development OS questions are inherently cross-ground, including:
+```text
+Cross-Ground Composition
+├─ Relational Binding
+├─ Composite Standing / Qualification
+├─ Control / Constraint
+└─ Transition / Effect / Feedback
+```
 
-- goal/outcome/value/criteria directedness;
-- Actor ↔ Work participation/obligation/authority;
-- capability/access/actionability/effective power;
-- observation/referent binding;
-- verification/validation/acceptance;
-- provenance/attribution/accountability;
-- target/effect/causation;
-- policy/authority/enforcement;
-- dependency/coordination/support;
-- feedback/learning/evolution.
+These are diagnostic research problem regions, not mutually exclusive event/relation classes and not architecture modules.
 
-These pressures are research inputs, **not accepted relation types**.
+## Strongest findings
 
-## Current research rule
+- pairwise ground relations are necessary but not sufficient;
+- multi-ground hard cases such as actionability/effective power, verification/validation/acceptance, goal attainment, governance/enforcement and accountability require explicit composition semantics;
+- composite standings must not be projected as intrinsic one-ground statuses;
+- policy, authority, authorization decision, obligation, technical enforcement and observed compliance remain distinct;
+- transition/effect/feedback semantics are not reducible to Work lifecycle alone;
+- no fifth composition region or upstream fifth Foundation ground survived the parent pass.
 
-The active parent pass uses:
+## Child status
 
-- six pairwise ground combinations as discovery probes;
-- multi-ground hard cases as first-class evidence;
-- rival organizing frames;
-- selective external/candidate-study holdouts;
-- adversarial closure.
+```text
+Relational Binding                  ← discovered / NOT ACTIVE
+Composite Standing / Qualification ← discovered / NOT ACTIVE
+Control / Constraint                ← discovered / NOT ACTIVE
+Transition / Effect / Feedback      ← discovered / NOT ACTIVE
+```
 
-The purpose is to discover whether stable immediate composition-research regions exist. Any discovered child requires a separate post-parent activation decision before substantive deepening.
+## Sequencing recommendation
 
-## Scope boundary
+If the user accepts the parent result:
 
-This phase does **not** authorize:
+> **Relational Binding should be the first child pass.**
 
-- SOUL / Development OS architecture;
-- final ontology/data model;
-- database/schema relation design;
-- implementation;
-- child deepening before parent closure/evaluation.
+Do not pre-commit the remaining child order. Re-select after Binding closure.
 
 ## Verification status
 
-Accepted ground and adequacy results retain their explicit verification limits. The active composition pass must independently state the source/review class of its own findings.
+The composition parent uses accepted Foundation evidence, pairwise and multi-ground falsification, rival frames, authoritative external holdouts and selected candidate-study pressure.
 
-## Current authorization
+**C7 is same-model adversarial review. No independent second-researcher/model replication has validated the exact four-region decomposition, and no external standard publishes this exact Foundation frame.**
 
-**RELATION / CONTROL / COMPOSITION PARENT PASS ONLY.**
+User evaluation can close the sequencing gate but does not change verification independence.
+
+## Current authorization / return condition
+
+**USER EVALUATION OF THE COMPOSITION PARENT RESULT ONLY.**
+
+No composition child or later phase is active.
+
+Do not automatically begin:
+- Relational Binding or another child;
+- SOUL / Development OS architecture;
+- ontology/data-model or schema work;
+- implementation.
