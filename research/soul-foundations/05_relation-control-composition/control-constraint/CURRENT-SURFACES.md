@@ -1,6 +1,6 @@
 # Control / Constraint — CURRENT SURFACES
 
-**Status:** canonical freshness binding at bounded leaf closure / user-evaluation gate  
+**Status:** canonical freshness binding after user acceptance  
 **Date:** 2026-09-05  
 **Branch:** `main`
 
@@ -8,10 +8,10 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Child state | `STATE.md` | `cc8ddba4fcb5ec2ca003045f6914e839595713ef` |
-| Child router | `INDEX.md` | `518fef5340b9113676627faac16b248184d9faee` |
+| Child state | `STATE.md` | `a4de09321df7bf17b04cd32b4d324e280af43625` |
+| Child router | `INDEX.md` | `a9c97b32ffaab4cdc3f716d4bddb1bf5ff33aae1` |
 | Child plan | `PLAN.md` | `04d4799d739919b4e0324ce3161cc5d10c345e56` |
-| L0 key | `KEY.md` | `3e72fe04f2ed869400009270a4b61ee4cc603d1e` |
+| L0 key | `KEY.md` | `b88b7c78ce0816ff793fda79f272508f3e7afd18` |
 | Findings map | `FINDINGS-MAP.md` | `ba394dc6a3ad0311b7f002a7aa11415ffc42c558` |
 | Integrated synthesis | `synthesis/CONTROL-CONSTRAINT-SYNTHESIS.md` | `1bd117b9faebd34dda682727273e17f060fccc94` |
 | Residual / reopen questions | `OPEN-QUESTIONS.md` | `3fce2eae698c38bc09871921e3eb084b4ec56871` |
@@ -64,12 +64,12 @@ These sources pressure specific semantics; none validates the exact project synt
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Composition parent state | `../STATE.md` | `bd17662cb98cf52014b3cc4b58b856df0ba7aaaf` |
-| Composition parent router | `../INDEX.md` | `951d42ac07a184115b6b17e5bf8225aefde13494` |
-| Composition parent key | `../KEY.md` | `c601e000edeaa650032625722a618d0f1c258783` |
+| Composition parent state | `../STATE.md` | `29aa8ff1b84ad04ff2f95c89de5b36c21e9c0adc` |
+| Composition parent router | `../INDEX.md` | `655060565305b861d93d2431077230af471ad5b5` |
+| Composition parent key | `../KEY.md` | `7de39f893b82134fd235477defc2d2f163d84e24` |
 | Composition parent residuals | `../OPEN-QUESTIONS.md` | `7f6e823f0e7fe9f34c738d845238547aa637dd89` |
-| Foundation state | `../../STATE.md` | `9043517e24fdeb58764ad02e409f8e845d12b1d8` |
-| Foundation router | `../../INDEX.md` | `6a789905da3940f4e157ff539a5265ee8c834f54` |
+| Foundation state | `../../STATE.md` | `ba6faeaaa89273202a586c71bf5a5284e959a095` |
+| Foundation router | `../../INDEX.md` | `d7fbee4fec87b1a56ccd41b76649490528156344` |
 
 ## Current bounded result
 
@@ -77,8 +77,8 @@ These sources pressure specific semantics; none validates the exact project synt
 Cross-Ground Composition
 ├─ Relational Binding                  ← BOUNDED LEAF / ACCEPTED
 ├─ Composite Standing / Qualification ← BOUNDED LEAF / ACCEPTED
-├─ Control / Constraint                ← BOUNDED LEAF / USER EVALUATION PENDING
-└─ Transition / Effect / Feedback      ← recommended next if Control accepted / inactive
+├─ Control / Constraint                ← BOUNDED LEAF / USER-EVALUATED / ACCEPTED
+└─ Transition / Effect / Feedback      ← recommended next / inactive
 
 substantive composition child          ← NONE
 ```
