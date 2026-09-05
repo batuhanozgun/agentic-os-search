@@ -3,56 +3,42 @@
 **Status:** ACTIVE FOUNDATION CHILD RESEARCH  
 **Activated:** 2026-09-05  
 **Parent:** `Cross-Ground Composition` — accepted  
-**Prior child:** `Relational Binding` — bounded leaf / user-evaluated / accepted  
-**S0:** COMPLETE  
-**S1:** COMPLETE / cross-ground boundary + semantic signature supported  
-**Current phase:** S2 STANDING-FAMILY DISCOVERY  
+**Relational Binding:** accepted bounded leaf  
+**S0–S2:** COMPLETE  
+**Current phase:** S3 EVALUATION LOGIC / UNCERTAINTY / INVALIDATION AUDIT  
 **Current authorised substantive activity:** COMPOSITE STANDING / QUALIFICATION CHILD PASS
 
-## Protected question
-
-> What qualification cannot be faithfully localized to one accepted ground because its truth/evaluation conditions require several ground-local facts/bindings under an explicit criterion/use/reference frame?
-
-## Current boundary
+## Current bounded hypothesis
 
 ```text
-ground-local criterion-relative standing
-!=
-cross-ground Composite Standing
+Composite Standing / Qualification
+    ← cross-ground only; not universal standing bucket
+    ← likely bounded leaf
+    ← shared semantic signature
+    ← overlapping standing profiles
 ```
 
-Composite Standing is not a universal standing bucket.
-
-## Current signature hypothesis
+## Current semantic separation under test
 
 ```text
-Composite Standing instance
-├─ standing meaning / exact qualification question
-├─ qualified focus + exact Binding instances
-├─ qualification frame
-├─ constitutive basis across grounds
-├─ result semantics
-├─ evaluation/access basis [conditional]
-└─ validity dependencies/currentness
+object/constitutive standing
+!= epistemic assessment of that standing
+!= decision / recognition / acceptance outcome
+!= recorded assertion/status field
 ```
 
-Required non-collapse:
+S3 must determine which of these belong inside the standing grammar as layers/dimensions and which are separate Control/Information/Transition concerns.
 
-```text
-constitutive/truth basis != evaluation/access basis
-standing holds != evaluator says it holds != record says it holds
-```
-
-## Research route
+## Current research route
 
 ```text
 S0 evidence recovery                              ← COMPLETE
-S1 standing object + minimum semantic signature   ← COMPLETE
-S2 standing-family discovery                      ← ACTIVE
-S3 evaluation logic / uncertainty / invalidation
+S1 minimum semantic signature                     ← COMPLETE
+S2 standing-family discovery                      ← COMPLETE
+S3 evaluation logic / uncertainty / invalidation  ← ACTIVE
 S4 rival internal decompositions
 S5 authoritative external + candidate holdouts
-S6 synthesis / immediate-child decision
+S6 synthesis / child decision
 S7 adversarial closure / user evaluation gate
 ```
 
