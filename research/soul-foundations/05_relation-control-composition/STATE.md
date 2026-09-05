@@ -1,76 +1,76 @@
 # Relation / Control / Composition — STATE
 
-**Status:** PARENT ACCEPTED; RELATIONAL BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; NEXT-CHILD SELECTION / PLANNING  
+**Status:** PARENT ACCEPTED; RELATIONAL BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL / CONSTRAINT ACTIVE  
 **Parent user evaluation:** ACCEPTED 2026-09-05  
 **Relational Binding:** bounded leaf / user-evaluated / accepted 2026-09-05  
 **Composite Standing / Qualification:** bounded leaf / user-evaluated / accepted 2026-09-05  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY
+**Control / Constraint:** ACTIVE — K0 canonical/evidence recovery  
+**Current authorised substantive activity:** CONTROL / CONSTRAINT CHILD PASS
 
-## Accepted composition structure
+## Accepted composition structure / current child
 
 ```text
 Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
 ├─ Composite Standing / Qualification ← bounded leaf / accepted
-├─ Control / Constraint                ← inactive
+├─ Control / Constraint                ← ACTIVE / K0
 └─ Transition / Effect / Feedback      ← inactive
 ```
 
-## Accepted Composite Standing result
+## Control protected question
 
-Canonical package:
+> What makes a candidate action, transition, decision or continuation permitted, required, prohibited, blocked, gated, conditioned, escalated or otherwise governed, while preserving distinctions among norm/policy, legitimate authority, deontic standing, decision, enforcement, monitoring/compliance and alternate-path closure?
 
-`composite-standing/`
+Canonical active package:
 
-Accepted bounded judgment:
+`control-constraint/`
 
-> Composite Standing / Qualification is a bounded leaf for cross-ground qualifications whose constitutive/defining semantics cannot be localized to one accepted ground. No immediate child is promoted.
-
-Critical boundary:
+## Key inherited boundaries
 
 ```text
-ground-local Criterion-Relative Standing
-!= cross-ground Composite Standing
+Binding
+→ what exact anchors/roles/applicability are connected?
+
+Composite Standing
+→ what cross-ground qualification currently holds?
+
+Control
+→ what governs/permits/requires/prohibits/blocks/gates/intervenes?
+
+Transition [deferred]
+→ what changed/propagated/effected over time?
 ```
 
-Cross-ground evidence, assessment or reporting does not by itself make a standing Composite.
+Strong inherited non-collapse:
 
-Stable semantic pressure includes:
-- exact qualified focus and Binding instances;
-- explicit qualification frame/criterion/use/scope;
-- constitutive cross-ground basis;
-- non-boolean/uncertainty-aware result semantics;
-- distinction among standing, assessment, decision/recognition and recorded representation;
-- validity dependencies/currentness.
+```text
+policy text
+!= legitimate authority
+!= authorization decision
+!= technical enforcement
+!= observed compliance
+
+capable
+!= actionable
+!= authorized
+!= technically reachable
+```
 
 ## Child status
 
 ```text
 Relational Binding                  ← accepted / inactive
 Composite Standing / Qualification ← accepted / inactive
-Control / Constraint                ← RECOMMENDED NEXT / inactive
+Control / Constraint                ← ACTIVE / K0
 Transition / Effect / Feedback      ← inactive
 ```
 
-## Sequencing result after Standing closure
-
-The remaining-child sequencing question was re-evaluated during S7.
-
-Current recommendation:
-
-> **Control / Constraint should be the next composition child.**
-
-Reason: Standing leaves policy/criterion, legitimate authority, permission/obligation, decision/gate, enforcement and bypass semantics unresolved.
-
-This recommendation does not activate the child. Re-select Transition priority after Control closure.
-
 ## Verification status
 
-Relational Binding B7 and Composite Standing S7 are same-model adversarial reviews. No independent second-researcher/model replication has validated these exact bounded-leaf results.
+Prior child adversarial closures are same-model reviews. Control will use authoritative external/candidate holdouts as falsifiers but no external source is taxonomy authority.
 
 ## Current authorization
 
-**NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY.**
+**CONTROL / CONSTRAINT CHILD PASS TO BOUNDED CLOSURE.**
 
-Do not automatically begin Control, Transition, architecture, ontology/data-model/schema work or implementation.
+Do not begin Transition, architecture, ontology/data-model/schema work or implementation.
