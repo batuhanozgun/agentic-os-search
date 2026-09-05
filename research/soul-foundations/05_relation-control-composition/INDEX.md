@@ -8,14 +8,12 @@ Read `STATE.md` first for status and current authorization.
 
 ## Current status
 
-**PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL BOUNDED LEAF / AWAITING USER EVALUATION.**
-
-No substantive composition child is active.
+**PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; NO SUBSTANTIVE CHILD ACTIVE.**
 
 ## Preferred read order
 
-1. `STATE.md` — current child/evaluation status and guardrail.
-2. Current Control result → `control-constraint/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → K7.
+1. `STATE.md` — current child status, recommendation and guardrail.
+2. Accepted Control result → `control-constraint/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → K7.
 3. Accepted Composite Standing prerequisite → `composite-standing/STATE.md` → `KEY.md` → synthesis/S7 when needed.
 4. Accepted Binding prerequisite → `relational-binding/STATE.md` → `KEY.md` → synthesis/B7 when needed.
 5. Parent result → `KEY.md` → `FINDINGS-MAP.md` → synthesis → C7.
@@ -30,16 +28,16 @@ No substantive composition child is active.
 Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
 ├─ Composite Standing / Qualification ← bounded leaf / accepted
-├─ Control / Constraint                ← bounded leaf / USER EVALUATION PENDING
-└─ Transition / Effect / Feedback      ← recommended next if Control accepted / inactive
+├─ Control / Constraint                ← bounded leaf / accepted
+└─ Transition / Effect / Feedback      ← recommended next / inactive
 ```
 
 ## Current next-step interpretation
 
-Current interaction is Control / Constraint result evaluation only.
+Current interaction is next composition-child selection/planning only.
 
-If accepted, `Transition / Effect / Feedback` is the strongest current next-child candidate and requires a separate substantive activation instruction.
+`Transition / Effect / Feedback` is the strongest current next-child candidate and requires a separate substantive activation instruction.
 
 ## Guardrail
 
-Transition, architecture, ontology/data model, schema design and implementation remain unauthorized.
+Transition, architecture, ontology/data model, schema design and implementation remain unauthorized until separately activated.
