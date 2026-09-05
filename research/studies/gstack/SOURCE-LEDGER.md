@@ -26,6 +26,7 @@ Observed 2026-09-05.
 | `ETHOS.md` | content fetch during study | FULL | cross-skill behavioral philosophy/policy source |
 | `DESIGN.md` | content fetch during study | FULL | visual artifact design policy |
 | `ARCHITECTURE.md` | blob `374dd8774bd08657cb15987182596a7630bfae47` | FULL | browser/runtime architecture, daemon lifecycle, listener/security model |
+| `BROWSER.md` | pinned content/search during browser pass | SUBSTANTIAL / CONTINUE | repository-authored browser operator/security/runtime view; implementation cross-check required |
 | `docs/PROJECT_STRUCTURE.md` | pinned content fetch | FULL | repository-authored structural view; requires actual-tree cross-check |
 | `package.json` | pinned content fetch; package v1.79.0 | FULL | build/runtime dependencies; test/eval/gate commands; executable surfaces |
 | `SKILL.md.tmpl` | blob `402bd0d7b0f2bf02f6c9e4754e0e2a655f5f4057` | FULL | root intent router; proactive opt-out; direct specialist routing |
@@ -82,20 +83,19 @@ Observed 2026-09-05.
 
 | Source | Read status | Current role / note |
 |---|---:|---|
-| `investigate/SKILL.md.tmpl` | PLANNED | root-cause investigation |
+| `investigate/SKILL.md.tmpl` | `c7cd9a99ad695f966ef2befaf18b1120eff89535` | FULL / NEXT SYNTHESIS | root-cause investigation phases, hypothesis testing, scope lock, regression/fresh verification, learning handoff |
 | `design-review/SKILL.md.tmpl` | PLANNED | implemented UI/design review |
 | `devex-review/SKILL.md.tmpl` | PLANNED | implemented developer-experience review |
-| `pair-agent/SKILL.md.tmpl` | PLANNED | multi-agent coordination |
+| `pair-agent/SKILL.md.tmpl` | PLANNED | multi-agent coordination beyond browser-side pairing ceremony |
 | `cso/SKILL.md.tmpl` | PLANNED | security review/CSO role |
 | `learn/SKILL.md.tmpl` | PLANNED | durable learning capture |
 | `setup-gbrain/SKILL.md.tmpl` | PLANNED | GBrain setup/context memory |
 | `sync-gbrain/SKILL.md.tmpl` | PLANNED | GBrain synchronization |
 | `codex/SKILL.md.tmpl` | PLANNED | cross-model second opinion/review beyond the inspected ship integration |
 | `benchmark/SKILL.md.tmpl` | PLANNED | model/agent comparison |
-| `browse/SKILL.md.tmpl` | PLANNED | browser skill contract |
-| guard/freeze/careful/unfreeze skill surfaces | PLANNED | guarded-action / scope-control mechanisms; exact paths to verify from tree |
+| guard/freeze/careful/unfreeze skill surfaces | PLANNED / REFERENCED | guarded-action / scope-control mechanisms; investigate already references freeze runtime |
 
-## Shared / generator / runtime sources
+## Shared / generator / browser runtime sources
 
 | Source | Evidence ref | Status | Why needed / current result |
 |---|---|---:|---|
@@ -104,11 +104,26 @@ Observed 2026-09-05.
 | `scripts/resolvers/sections.ts` | `c6425e19b93d20018057cf2fe6ae9eeb2f613a18` | FULL | Claude STOP+Read carve vs non-Claude inline rendering; passive manifest semantics |
 | `scripts/resolvers/composition.ts` | `b8d3483d9bd961409025959eddcd8840dd5f98a8` | FULL | parent-child skill invocation and parent-owned section skip contract |
 | shared Codex integration | partial through planning/review/ship sources | SUBSTANTIAL / CONTINUE | cross-model challenge topology and graceful degradation; independence not established |
-| shared browser/reference-doc utilities | partial via QA consumer contracts | SUBSTANTIAL / CONTINUE | browser evidence semantics seen from consumers; implementation still pending |
-| `browse/src/**` core daemon/server/CLI | — | PLANNED | actual persistent execution environment; immediate next cluster |
-| browser command modules | — | PLANNED | exact action/evidence capability surface |
-| browser/runtime tests | — | PLANNED | enforcement and failure/recovery evidence |
-| host adapter surfaces | — | PLANNED | portability and host-specific behavior |
+| `browse/SKILL.md.tmpl` | pinned fetch | SUBSTANTIAL / CONTINUE | operator/runtime contract; persistence, QA patterns, evidence caveats, handoff, file/local-render guidance |
+| `browse/src/server.ts` | pinned fetch/search | SUBSTANTIAL / CONTINUE | long-lived daemon, factory/auth, local/tunnel listeners, dispatch, tab gate, persistence/security/audit integration |
+| `browse/src/browser-manager.ts` | pinned fetch/search | SUBSTANTIAL / CONTINUE | browser/context lifecycle, headed/headless modes, persistent profile, tab ownership, crash/disconnect semantics |
+| `browse/src/tab-session.ts` | `dccabf28f4263cb77d0a594369bb15f3e2c7ad73` | FULL | per-tab refs/snapshot/frame/load-html state and invalidation |
+| `browse/src/commands.ts` | pinned fetch | SUBSTANTIAL / CONTINUE | shared command registry and page-content classification; historical read/write labels are not security authority |
+| `browse/src/token-registry.ts` | `89b0a990c31e26188275295e3d2d60f5908c5033` | FULL | root/scoped tokens, scope/domain/rate/expiry/tab policy, reduction/revocation semantics |
+| `browse/src/snapshot.ts` | pinned fetch | SUBSTANTIAL / CONTINUE | ARIA snapshot/ref model, cursor-interactive refs, annotation ambiguity/degradation |
+| `browse/src/cdp-allowlist.ts` | `752ce464c8e9e5d9f697c81a08444d0dd666b1e0` | FULL | deny-default CDP method registry with scope/output/justification |
+| `browse/src/cdp-bridge.ts` | `3d1fa3d8d002656f0e9528001df7b7c6e300b80b` | FULL | allowlist dispatch, tab/global locks, timeout, CDP-session lifecycle |
+| `browse/src/url-validation.ts` | `c9e9c170ac36a6c744f47dee2b3bf15eb49e68f1` | FULL | schemes, file URLs, metadata/SSRF/DNS-rebinding checks; local QA allowances |
+| `browse/src/path-security.ts` | `bc02ccde06c753dcd4b00e3fba49ad87267adb04` | FULL | local output/read paths, symlink handling, temp-only remote serving |
+| `browse/src/file-permissions.ts` | pinned fetch | SUBSTANTIAL / CONTINUE | POSIX/Windows owner-only hardening, shared/symlink directory protection, best-effort semantics |
+| `browse/src/session-persist.ts` | `3c6627bcbc0c24e76c519934b0a3a9ba3b87aca9` | FULL | opt-in headless persistence, excluded authority/content fields, restore filtering/quarantine |
+| `browse/src/content-security.ts` | `a185764583f73aaa7b8d979d8ff5942bf63c25f7` | FULL | datamarking, hidden/ARIA handling, content filters, untrusted envelopes, URL blocklist |
+| `browse/src/security.ts` | `3da662a008e0785102f6572de468cc8dcb6bc136` | FULL | ML-signal verdict combiner/canary utilities and dead-state removal context |
+| `browse/src/security-classifier.ts` | `a89ddf694b165872263ed8a2f46e88faa5b3f52f` | FULL | TestSavantAI L4 classifier, model staging, explicit fail-open behavior |
+| `browse/src/security-sidecar-client.ts` | `95e226070466df31b6e0db2ef7d93bf50b49b521` | FULL | lazy sidecar, timeout/request cap, respawn/circuit breaker, degradation semantics |
+| `browse/src/audit.ts` | `f93b47fb090c99c95dd3c83091a0b097330130df` | FULL | persistent best-effort JSONL command forensic trail |
+| `browse/src/activity.ts` | `b15eb45a1d1c2bf5ae57f832418a0d7aa40a0f52` | FULL | bounded real-time activity feed, privacy filtering, gap detection |
+| host adapter surfaces | — | PLANNED | portability and host-specific behavior beyond current browser implementation |
 
 ## Eval / verification / compliance sources
 
@@ -125,13 +140,25 @@ Observed 2026-09-05.
 | `test/skill-e2e-qa-workflow.test.ts` | pinned source | SUBSTANTIAL / CONTINUE | real browser QA behavior; qa-only no-edit/clean-tree guardrail; qa fix-loop edit + commit evidence; broader file continues |
 | `test/skill-e2e-ship-idempotency.test.ts` | `29ef83827d66b150d4114a3e7efa8124975a4dfc` | FULL | periodic real-PTY proof for release version/changelog idempotency only; not a whole-ship gate E2E |
 | `test/skill-validation.test.ts` | pinned source | SUBSTANTIAL / CONTINUE | generated-skill/router/command invariants; pins selected composition contracts |
+| `browse/test/dual-listener.test.ts` | pinned fetch | SUBSTANTIAL / CONTINUE | exact-set tunnel path/command structural pins; explicitly distinct from behavioral tunnel E2E |
+| `browse/test/server-factory.test.ts` | pinned fetch | SUBSTANTIAL / CONTINUE | factory/auth/listener behavior and embedded-server contract |
+| `browse/test/server-auth.test.ts` | pinned fetch | SUBSTANTIAL / CONTINUE | auth/CORS/token/tab/chain/activity/tunnel structural security regressions |
+| `browse/test/pair-agent-e2e.test.ts` | pinned fetch | SUBSTANTIAL / CONTINUE | real-daemon HTTP pair/connect/scoped-token behavior; explicitly no live ngrok |
+| `browse/test/tab-isolation.test.ts` | `698dd1ac8b0c750df4d03632925195e6458e1118` | FULL | own-only versus shared tab-access logic, ownership release |
+| `browse/test/token-registry.test.ts` | pinned fetch | SUBSTANTIAL / CONTINUE | scope/token/reduction/reserved-identity behavior |
+| `browse/test/cdp-allowlist.test.ts` | `8256e7a198e6e197ca2f70e60f9ff1abb109a661` | FULL | explicit dangerous-method denial and allowlist metadata pins |
+| `browse/test/cdp-e2e.test.ts` | `d5d2e26c1b8f08bf531dd4b4bed06b85d153458e` | FULL | real Chromium CDP allow/deny/output behavior |
+| `browse/test/url-validation.test.ts` | `7f7fe5949318572935a55c46412a956d04d19994` | FULL | scheme/metadata/file-path and direct-fetch SSRF regression tests |
+| `browse/test/session-persist.test.ts` | `bf7bfa8bdec2633d160ff4122f33ede8869f283a` | FULL | serialization/restore controls plus real-Chromium persistence round trip |
+| `browse/test/content-security.test.ts` | pinned fetch | SUBSTANTIAL / CONTINUE | envelope/datamark/filter/hidden-content and centralized wrapping checks |
+| `browse/test/server-security-surface.test.ts` | `cdfb76c96e982130048acc8fac511d8abb5b7bad` | FULL | removes unfed false-green security state while pinning live L4 path |
 | `test/skill-llm-eval*.test.ts` | — | PLANNED | broader behavioral criteria and LLM-judged eval design |
 | `test/skill-routing-e2e.test.ts` | — | PLANNED | skill invocation/routing behavior |
 | `test/codex-e2e*.test.ts` | — | PLANNED | cross-model contract, including Sol scope |
 | `test/gemini-e2e.test.ts` | — | PLANNED | host/model portability evidence |
 | `test/llm-judge-recommendation.test.ts` | — | PLANNED | judge/oracle design |
 | `test/carve-section-loading.test.ts` | — | PLANNED | runtime section-loading behavior |
-| audit/compliance tests | partial via spec + ship plan invariants | SUBSTANTIAL / CONTINUE | deterministic policy checks require broader pass |
+| audit/compliance tests | partial via spec + ship + browser security invariants | SUBSTANTIAL / CONTINUE | deterministic policy checks require broader pass |
 | eval list/compare/summary/flake/watch/select scripts | — | PLANNED | eval lifecycle and operational feedback |
 
 ## Durable study syntheses
@@ -140,6 +167,7 @@ Observed 2026-09-05.
 |---|---:|---|
 | `syntheses/planning-specification-work-admission.md` | BOUNDED | gstack-native discovery → planning review → spec/work-admission model; not whole-system closure |
 | `syntheses/review-qa-ship-delivery-qualification.md` | BOUNDED | implementation → review/QA/test/plan reconciliation → ship-time delivery qualification; not production/deploy closure |
+| `syntheses/browser-runtime-security-evidence.md` | BOUNDED | persistent browser execution → capability/isolation/security controls → browser evidence/audit semantics; not independent security certification |
 
 ## Evolution / chronology sources
 
@@ -159,3 +187,8 @@ Observed 2026-09-05.
 7. `/ship` uses heterogeneous evidence with different failure polarities. “Gate” does not always mean non-overridable blocker, and “always-on” adversarial review does not mean every outside-model pass successfully ran.
 8. AI-assessed changed-path coverage is not the same measurement as instrumented line/branch coverage; preserve that distinction.
 9. The README/docs lifecycle is a normative system view. Actual `/ship` can skip standalone QA when no executable plan verification is available, so do not infer a universal `Review → QA → Ship` state machine from documentation alone.
+10. Pair-agent/tunnel tab ownership is strict under `own-only`, but shared local browser-skill clients intentionally bypass tab ownership as a security boundary; do not generalize isolation across both modes.
+11. `browse/src/commands.ts` historical `READ_COMMANDS`/`WRITE_COMMANDS` sets are not the authoritative security capability classification; `token-registry.ts` explicitly reclassifies dangerous side effects.
+12. Browser persistence between live-daemon calls is not equivalent to persistence across headless daemon restart; cross-restart persistence is opt-in.
+13. Browser security controls have heterogeneous failure polarity: selected CDP/tunnel/URL/path controls hard-deny, while ML classification, audit writes and some file-permission hardening are graceful/best-effort.
+14. The inspected pair-agent E2E does not create a live ngrok tunnel; do not upgrade local HTTP ceremony evidence into a claim of hostile public-tunnel validation.
