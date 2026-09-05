@@ -1,6 +1,6 @@
 # Ground Deepening — CURRENT SURFACES
 
-**Status:** canonical freshness binding with Work coverage/gap audit active  
+**Status:** canonical freshness binding with Work coverage/gap audit active at A1  
 **Date:** 2026-09-05  
 **Branch:** `main`
 
@@ -21,7 +21,7 @@
 | `grounds/environment/CURRENT-SURFACES.md` | `7505697056168353cbe4a42fef3be4fe3ab98f9d` |
 | `grounds/information/CURRENT-SURFACES.md` | `21577ac431bb1cf9cd098fbe731dd0ef6726a87d` |
 | `grounds/information/informational-dynamics/CURRENT-SURFACES.md` | `960caf9160540b92452cf76c312841ef5d7ad6d1` |
-| `grounds/work/CURRENT-SURFACES.md` | `6799cfa274e08b652c9db4fca2199ee6c1b720ce` |
+| `grounds/work/CURRENT-SURFACES.md` | `ac1816bdea1df9cfb9615d2cb62ee1012ed13e69` |
 
 ## Foundation authority surfaces
 
@@ -35,7 +35,7 @@
 ```text
 Environment / Operating Reality    ← boundedly complete / accepted
 Information / Representation       ← boundedly complete / accepted
-Work                               ← ACTIVE COVERAGE / GAP AUDIT / A0
+Work                               ← ACTIVE COVERAGE / GAP AUDIT / A1
 Actors                             ← inactive
 ```
 
@@ -45,4 +45,4 @@ Exactly one substantive ground is active: Work. Actors, Information descendants,
 
 ## Verification note
 
-Exact SHA binding establishes repository-view identity only. The Work audit still has to establish whether the prior Work corpus is sufficient under the current four-ground frame; its adversarial self-review is not independent verification.
+Exact SHA binding establishes repository-view identity only. A0 is complete; A1 boundary testing is active. Same-model adversarial review is not independent verification.
