@@ -1,6 +1,6 @@
 # SOUL Foundations — STATE
 
-**Status:** four-ground adequacy accepted; composition parent accepted; Binding accepted; Composite Standing BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** four-ground adequacy accepted; composition parent accepted; Binding accepted; Composite Standing accepted; next composition-child selection/planning  
 **Environment / Operating Reality:** boundedly complete / accepted  
 **Information / Representation:** boundedly complete / accepted  
 **Work:** boundedly complete / accepted  
@@ -8,9 +8,9 @@
 **Post-deepening top-level adequacy:** accepted  
 **Cross-Ground Composition parent:** accepted  
 **Relational Binding:** bounded leaf / user-evaluated / accepted 2026-09-05  
-**Composite Standing / Qualification:** bounded leaf / USER EVALUATION PENDING  
+**Composite Standing / Qualification:** bounded leaf / user-evaluated / accepted 2026-09-05  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** COMPOSITE STANDING RESULT EVALUATION ONLY
+**Current authorised interaction:** NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY
 
 ## Accepted Foundation anchors
 
@@ -22,6 +22,7 @@ Actors / Agency–Participation–Authority          ← accepted
 post-deepening four-ground adequacy              ← accepted
 Cross-Ground Composition parent                  ← accepted
 Relational Binding                               ← accepted bounded leaf
+Composite Standing / Qualification               ← accepted bounded leaf
 ```
 
 ## Current composition state
@@ -29,18 +30,18 @@ Relational Binding                               ← accepted bounded leaf
 ```text
 Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
-├─ Composite Standing / Qualification ← BOUNDED LEAF / USER EVALUATION PENDING
-├─ Control / Constraint                ← recommended next if Standing accepted / inactive
+├─ Composite Standing / Qualification ← bounded leaf / accepted
+├─ Control / Constraint                ← recommended next / inactive
 └─ Transition / Effect / Feedback      ← inactive
 ```
 
-## Current Composite Standing result
+## Accepted Composite Standing result
 
 Canonical package:
 
 `05_relation-control-composition/composite-standing/`
 
-Current bounded judgment:
+Accepted bounded judgment:
 
 > Composite Standing / Qualification has no promoted immediate child at current Foundation depth. It is limited to cross-ground qualifications whose constitutive/defining semantics irreducibly require multiple accepted-ground facts or exact bindings.
 
@@ -71,7 +72,7 @@ standing holds
 
 ## Current next-frontier recommendation
 
-If the user accepts Composite Standing, the strongest current next composition-child candidate is:
+The strongest current next composition-child candidate is:
 
 > **Control / Constraint**
 
@@ -83,6 +84,6 @@ Composite Standing S7 is same-model adversarial review. External authoritative h
 
 ## Current authorization
 
-**USER EVALUATION OF COMPOSITE STANDING / QUALIFICATION RESULT ONLY.**
+**NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY.**
 
 Do not automatically begin Control, Transition, architecture, ontology/data-model/schema work or implementation.
