@@ -3,7 +3,7 @@
 **Status:** ACTIVE  
 **Activated:** 2026-09-05  
 **User authorization:** explicit acceptance of the Actors result and instruction to continue  
-**Current phase:** Q2 LEVEL-ALIGNMENT / REDUCTION TEST  
+**Current phase:** Q3 BOUNDARY-INTERACTION PRESSURE  
 **Current authorised substantive activity:** TOP-LEVEL ADEQUACY RERUN
 
 ## Entering accepted grounds
@@ -24,23 +24,21 @@ Actors / Agency–Participation–Authority          ← accepted
 ```text
 Q0 evidence recovery                         ← COMPLETE
 Q1 exhaustiveness / missing-ground           ← COMPLETE / no fifth ground forced
-Q2 level-alignment / reduction               ← ACTIVE
-Q3 boundary-interaction pressure             ← pending
+Q2 level-alignment / reduction               ← COMPLETE / all four retained
+Q3 boundary-interaction pressure             ← ACTIVE
 Q4 materially different holdouts             ← pending
 Q5 rival decompositions                      ← pending
 Q6 bounded closure / user evaluation         ← pending
 ```
 
-## Q1 result
+## Current result entering Q3
 
-No tested candidate forced a fifth peer ground. Goal/value, governance/control, relations, capability/actionability, parties/stakeholders and time/evolution remain cross-ground relations, derived standings, qualifiers, naming pressures or later composition concerns under current evidence.
+- no fifth ground has been forced;
+- Environment, Information, Work and Actors each survive reduction/merge/split attacks;
+- systematic relation/control composition remains deliberately unsolved.
 
-## Scope boundary
+Q3 now tests whether real multi-ground cases expose hidden boundary theft or an irreducible locus outside the four grounds.
 
-This rerun may test missing-ground, wrong-level, merge/split and rival hypotheses. It does not yet authorize systematic relation/control composition, architecture, ontology/data model or implementation.
+## Guardrail
 
-## Stop rule
-
-If a material inadequacy falsifier survives, resolve only the minimum Foundation research needed before any relation/control composition.
-
-If the four-ground frame survives, return it for user evaluation before authorizing systematic composition.
+Use relations as adequacy falsifiers only. Do not build the final relation/control taxonomy in this stage.
