@@ -2,42 +2,43 @@
 
 ## Role
 
-Current retrieval router for the user-evaluated Information top-level node and its active child deepening.
+Current retrieval router for the user-evaluated Information top-level node and its completed Informational State child deepening.
 
 The parent pass was executed under the routing label `Information / Representation State`. Its accepted refined label is `Information / Representation`.
 
 ## Current status
 
-**TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE CHILD ACTIVE.**
+**TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE CHILD BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
 
-Exactly one substantive child is active:
-
-`informational-state/`
+No substantive child is active.
 
 ## Default read order
 
-1. `STATE.md` — parent status and current child authorization.
+1. `STATE.md` — parent status and current authorization.
 2. `KEY.md` — shortest accepted parent orientation.
 3. `FINDINGS-MAP.md` — accepted parent result and topic routing.
-4. `informational-state/STATE.md` — active child state.
-5. `informational-state/INDEX.md` → `RESEARCH-PLAN.md` → current pass artifacts.
-6. Parent `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` and `N7-NODE-CLOSURE.md` when parent closure reasoning matters.
-7. Parent N0–N6 only when the earlier reasoning path, rival decomposition, boundary attack, omission audit or exact source use matters.
-8. `EXTERNAL-SOURCE-LEDGER.md` — parent external source roles and exact source routes.
-9. `OPEN-QUESTIONS.md` — residual/deeper/reopen questions; not an automatic execution queue.
-10. `DEFERRED-RELATIONS.md` — cross-ground relations intentionally not solved here.
-11. `CURRENT-SURFACES.md` — current surface binding.
+4. `informational-state/STATE.md` — completed child status and bounded result.
+5. `informational-state/KEY.md` → `FINDINGS-MAP.md` → `synthesis/INFORMATIONAL-STATE-SYNTHESIS.md` → `N7-NODE-CLOSURE.md` for the child result under evaluation.
+6. Child `INDEX.md` → N0–N6 / evidence / source routes when the child reasoning path, rivals, boundary attack or falsifiers matter.
+7. Parent `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` and `N7-NODE-CLOSURE.md` when parent closure reasoning matters.
+8. Parent N0–N6 only when the earlier reasoning path, rival decomposition, boundary attack, omission audit or exact source use matters.
+9. `EXTERNAL-SOURCE-LEDGER.md` — parent external source roles and exact source routes.
+10. `OPEN-QUESTIONS.md` — residual/deeper/reopen questions; not an automatic execution queue.
+11. `DEFERRED-RELATIONS.md` — cross-ground relations intentionally not solved here.
+12. `CURRENT-SURFACES.md` — current surface binding.
 
-## Accepted parent hierarchy
+## Accepted parent hierarchy / current child status
 
 ```text
 Information / Representation
-    ├─ Informational State / Representational Constitution   ← ACTIVE
+    ├─ Informational State / Representational Constitution   ← bounded leaf / USER EVALUATION PENDING
     └─ Informational Dynamics / Formation–Transformation     ← inactive
 
 Records / Persistent Information
     ↳ deep persistence specialization/profile crossing Information
 ```
+
+The Informational State pass found no stable immediate-child split at the current Foundation depth. Its internal constitution distinctions remain explicit orientation dimensions/relations rather than accepted child branches.
 
 ## Parent pass reconstruction route
 
@@ -69,17 +70,19 @@ For stage and project authority read:
 - `../../PLAN.md`
 - `../../../STATE.md`
 
-## Guardrail
+## Current gate / guardrail
 
-This package is research only.
+Current interaction is evaluation of the bounded Informational State result. No substantive child is active.
 
-Do not infer authorization to begin:
+This package does not authorize:
 
 - Informational Dynamics child deepening;
-- any child discovered inside Informational State;
+- any proposed child inside Informational State;
 - Work or Actors ground deepening;
 - systematic relation/control composition;
 - architecture modules;
 - ontology/database schema;
 - RAG/KG/memory/context implementation;
 - SOUL/Development OS implementation.
+
+A separate post-evaluation transition is required before any such work begins.
