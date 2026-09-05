@@ -11,7 +11,7 @@
 | Parent state | `STATE.md` | `922ce1287460ef12ce3c29e49054d2b608f4db7e` |
 | Parent router | `INDEX.md` | `a2c21e819f6e435ebdf90a9954a67056c99b4422` |
 | Parent plan | `PLAN.md` | `bc866966be4d1410839ea8ae85901c3a4eb7372f` |
-| Parent key | `KEY.md` | `06ea53bc25749b94e3294c2a316e8a25474731ca` |
+| Parent key | `KEY.md` | `00986d1fec86582219a9739994051c2730f48504` |
 | Parent findings map | `FINDINGS-MAP.md` | `b98253dd32aa06ae5761770a4400dc208e15a7b6` |
 | Parent synthesis | `synthesis/COMPOSITION-PARENT-SYNTHESIS.md` | `f4a36ddaf6a711efd2939a3f423313e5af8c3530` |
 | Parent residual questions | `OPEN-QUESTIONS.md` | `27f52f01f58b35a5339b697613e32fb8407b5356` |
