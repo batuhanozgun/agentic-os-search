@@ -4,19 +4,25 @@
 **Activated:** 2026-09-05  
 **Parent:** `Cross-Ground Composition` — accepted  
 **Relational Binding:** accepted bounded leaf  
-**S0–S3:** COMPLETE  
-**Current phase:** S4 RIVAL INTERNAL DECOMPOSITIONS / CHILD DISCOVERY PRESSURE  
+**S0–S4:** COMPLETE  
+**Current phase:** S5 AUTHORITATIVE EXTERNAL / CANDIDATE-STUDY HOLDOUTS  
 **Current authorised substantive activity:** COMPOSITE STANDING / QUALIFICATION CHILD PASS
 
-## Current leading hypothesis
+## Current leading result under external attack
 
 ```text
 Composite Standing / Qualification
     ← cross-ground qualification only
-    ← likely bounded leaf
-    ← one shared semantic signature
-    ← overlapping standing profiles
-    ← three semantic layers retained as dimensions, not yet children
+    ← bounded-leaf hypothesis survives internal rivals
+    ← shared semantic signature
+    ← overlapping profiles
+```
+
+Protected boundary:
+
+```text
+ground-local standing
+!= cross-ground composite qualification
 ```
 
 Three-layer non-collapse:
@@ -24,21 +30,17 @@ Three-layer non-collapse:
 ```text
 object/constitutive standing
 != epistemic assessment
-!= decision/recognition outcome
-!= recorded assertion
+!= decision/recognition
+!= recorded status
 ```
 
-S4 must challenge both bounded-leaf status and the current label/boundary.
+S5 uses authoritative holdouts to try to falsify these claims rather than validate them by vocabulary match.
 
 ## Research route
 
 ```text
-S0 evidence recovery                              ← COMPLETE
-S1 minimum semantic signature                     ← COMPLETE
-S2 standing-family discovery                      ← COMPLETE
-S3 evaluation / uncertainty / invalidation        ← COMPLETE
-S4 rival internal decompositions                  ← ACTIVE
-S5 authoritative external + candidate holdouts
+S0–S4 ← COMPLETE
+S5 authoritative/candidate holdouts ← ACTIVE
 S6 synthesis / child decision
 S7 adversarial closure / user evaluation gate
 ```
