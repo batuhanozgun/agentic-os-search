@@ -210,13 +210,13 @@ Question: is this a fifth ground or a cross-ground criterion/decision family?
 
 Question: does recurrent evolution expose a missing top-level problem region?
 
-## 6. Source/view fidelity note
+## 6. Source/view fidelity note and cleanup
 
-`../03_ground-deepening/grounds/information/OPEN-QUESTIONS.md` contains stale point-in-time wording that says Informational State is active. It remains useful for residual question content but is **not** current status authority.
+During Q0 recovery, `../03_ground-deepening/grounds/information/OPEN-QUESTIONS.md` was found to contain stale point-in-time wording that still described Informational State as active even though the canonical Information `STATE.md` + `CURRENT-SURFACES.md` showed the whole Information result accepted and no child active.
 
-Current authority is the Information `STATE.md` + `CURRENT-SURFACES.md`, which show the complete Information result accepted and no child active.
+The stale residual wording was **not** used as status authority. It was cleaned on 2026-09-05 so the residual file now accurately identifies itself as a non-authoritative residual/reopen ledger.
 
-This stale routing/status wording should be cleaned as repository continuity debt, but it does not change the substantive Information result.
+This was a continuity/view repair only; it did not change the substantive Information findings or accepted hierarchy.
 
 ## 7. Live hypotheses entering Q1–Q5
 
