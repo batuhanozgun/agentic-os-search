@@ -8,7 +8,7 @@ Read `STATE.md` first for current authorization.
 
 ## Current stage
 
-**CROSS-GROUND COMPOSITION PARENT — BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+**CROSS-GROUND COMPOSITION PARENT — BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED.**
 
 No substantive Foundation child/phase is active.
 
@@ -17,7 +17,7 @@ No substantive Foundation child/phase is active.
 | Need | Read first | Then if needed |
 |---|---|---|
 | Current overall state / authorization | `STATE.md` | current package router |
-| Current composition parent result | `05_relation-control-composition/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → C7 |
+| Accepted composition parent result | `05_relation-control-composition/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → C7 |
 | Composition research reasoning | `05_relation-control-composition/INDEX.md` | targeted C0–C6 pass |
 | Composition residual/reopen questions | `05_relation-control-composition/OPEN-QUESTIONS.md` | relevant ground/adequacy surface if reopened |
 | Accepted adequacy result | `04_top-level-adequacy-rerun/STATE.md` | `KEY.md` → synthesis/Q6 |
@@ -27,7 +27,7 @@ No substantive Foundation child/phase is active.
 | Accepted Actors | `03_ground-deepening/grounds/actors/STATE.md` | local current route |
 | Candidate studies | `../studies/CATALOG.md` | selected package only when a later authorised question requires it |
 
-## Current bounded composition map
+## Accepted bounded composition map
 
 ```text
 Cross-Ground Composition
@@ -41,12 +41,12 @@ No child is active.
 
 ## Current next-step interpretation
 
-If the user accepts the parent result, `Relational Binding` is the recommended first child pass.
+`Relational Binding` is the recommended first child pass and remains inactive pending separate substantive activation.
 
 The remaining child order should be selected after Binding closure rather than fixed now.
 
 ## Guardrail
 
-Current interaction is evaluation of the bounded composition parent result only.
+Current interaction is next composition child selection/planning only.
 
 Architecture, ontology/data model, schema design, implementation and composition-child deepening remain unauthorized until separately activated.
