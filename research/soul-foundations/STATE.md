@@ -1,75 +1,54 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment, Information and Work accepted; Actors boundedly complete / awaiting user evaluation  
-**Environment / Operating Reality:** boundedly complete / accepted 2026-09-04  
-**Information / Representation:** boundedly complete / accepted  
-**Work:** boundedly complete / user-evaluated / accepted 2026-09-05  
-**Actors:** BOUNDEDLY COMPLETE / USER EVALUATION PENDING  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** ACTORS RESULT EVALUATION ONLY  
-**Current return condition:** user evaluation of the bounded Actors result before top-level adequacy or any later phase is activated
+**Status:** all four grounds boundedly complete / accepted; top-level adequacy rerun ACTIVE  
+**Environment / Operating Reality:** accepted  
+**Information / Representation:** accepted  
+**Work:** accepted  
+**Actors / Agency–Participation–Authority:** accepted 2026-09-05  
+**Current authorised substantive activity:** TOP-LEVEL ADEQUACY RERUN  
+**Current phase:** `04_top-level-adequacy-rerun` / Q0 CANONICAL EVIDENCE RECOVERY
 
-## Dependency state
+## Ground-deepening result
 
-- `01_verticals/`: complete / user-evaluated.
-  - Work independent vertical: accepted into current ground-deepening stage.
-  - Actors independent vertical: sufficiently complete / user-evaluated; current ground audit found it sufficient under the four-ground frame.
-- `02_adequacy/`: boundedly sufficient / accepted working hypothesis; four-ground frame remains reopenable on material falsifiers.
-- `03_ground-deepening/`:
-  - Environment / Operating Reality: boundedly complete / accepted.
-  - Information / Representation: boundedly complete / accepted.
-  - Work: boundedly complete / accepted.
-  - Actors: boundedly complete / user evaluation pending.
-    - no universal immediate-child hierarchy promoted;
-    - prior Actors vertical remains the deep evidence-bearing corpus.
-- Cross-ground composition, architecture, ontology/data model and implementation: not authorised.
-
-## Current ground sequence
+`03_ground-deepening/` is complete. All four accepted top-level grounds have been individually evaluated:
 
 ```text
-Environment / Operating Reality                 ← boundedly complete / accepted
-Information / Representation                    ← boundedly complete / accepted
-Work                                             ← boundedly complete / accepted
-Actors / Agency–Participation–Authority          ← boundedly complete / USER EVALUATION PENDING
-    ↳ rich relational / multi-anchor internal problem map
-    ↳ no universal immediate-child hierarchy promoted
+Environment / Operating Reality                 ← accepted
+Information / Representation                    ← accepted
+Work                                             ← accepted
+Actors / Agency–Participation–Authority          ← accepted
 ```
 
-## Actors bounded result
+## Current protected question
 
-The current audit did not find a material new Actors-local first-order family. It sharpened the boundary around the prior Actors distinctions:
+> After deeper research into all four grounds, does this four-ground frame remain boundedly adequate as the strongest current top-level problem-ground map for later SOUL / Development OS reasoning?
 
-```text
-Actor standing != representation/evidence of Actor standing
-Actor capability/competence != Environment actionability
-Actor authority != technical effect power/runtime enforcement
-Actor participation/assignment != Work identity/admission/execution
-Work requiredness != Actor obligation
-Work acceptance state != authority to accept
-```
+Current package:
 
-The audit also found:
+`04_top-level-adequacy-rerun/`
 
-- `Actors` must not mean only active doers; non-performing relevant parties/positions can matter;
-- effective/transitive effect power is a high-priority later relation/control issue, not a new Actors child;
-- contemporary multi-agent/high-discretion AI cases instantiate existing Actors distinctions rather than defining a new taxonomy.
+## Scope boundary
 
-## Verification status
+The active rerun may test:
+- missing fifth-ground hypotheses;
+- wrong top-level placement;
+- merge/split/rival decompositions;
+- boundary theft;
+- deferred cross-ground relations only as adequacy falsifiers;
+- materially different holdout cases when needed.
 
-The prior Actors vertical is broadly source-backed and user-evaluated. The current ground audit adds four-ground boundary checks, candidate-study holdouts and same-model adversarial reduction. The combined Actors result has not received independent second-researcher/model replication. User evaluation does not change verification independence.
-
-## Current authorization
-
-**ACTORS RESULT EVALUATION ONLY.**
-
-No substantive Foundation ground is active.
-
-Do not automatically begin:
-
-- top-level adequacy rerun;
-- systematic typed relation/control composition;
-- SOUL/Development OS architecture;
+It does **not** yet authorize:
+- systematic typed relation/control/composition research;
+- SOUL / Development OS architecture;
 - ontology/data-model work;
 - implementation.
 
-If the user accepts Actors, all four top-level grounds will have been individually evaluated under ground-deepening. The next logical work is then a separately authorized top-level adequacy rerun, not automatic composition or architecture.
+## Verification status
+
+Ground acceptance closes sequencing gates but does not convert same-model adversarial checks into independent verification. Each package retains its explicit verification limitations.
+
+## Current authorization
+
+**TOP-LEVEL ADEQUACY RERUN ONLY.**
+
+If the four-ground frame survives and the user later evaluates that rerun, the project may then separately decide whether systematic typed relation/control/composition research should begin.
