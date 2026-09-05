@@ -1,14 +1,14 @@
 # SOUL Foundations — STATE
 
-**Status:** four-ground adequacy accepted; composition parent BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
+**Status:** four-ground adequacy accepted; composition parent accepted; no substantive child active  
 **Environment / Operating Reality:** boundedly complete / accepted  
 **Information / Representation:** boundedly complete / accepted  
 **Work:** boundedly complete / accepted  
 **Actors / Agency–Participation–Authority:** boundedly complete / accepted  
 **Post-deepening top-level adequacy:** boundedly complete / user-evaluated / accepted  
-**Cross-Ground Composition parent:** boundedly complete / USER EVALUATION PENDING  
+**Cross-Ground Composition parent:** boundedly complete / user-evaluated / accepted 2026-09-05  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** COMPOSITION PARENT RESULT EVALUATION ONLY
+**Current authorised interaction:** NEXT COMPOSITION CHILD SELECTION / PLANNING ONLY
 
 ## Accepted Foundation anchors
 
@@ -17,17 +17,16 @@ Environment / Operating Reality                 ← accepted
 Information / Representation                    ← accepted
 Work                                             ← accepted
 Actors / Agency–Participation–Authority          ← accepted
-
 post-deepening four-ground adequacy              ← accepted
 ```
 
-## Current bounded composition result
+## Accepted composition parent
 
 Canonical package:
 
 `05_relation-control-composition/`
 
-Recommended structure:
+Accepted bounded structure:
 
 ```text
 Cross-Ground Composition
@@ -37,50 +36,29 @@ Cross-Ground Composition
 └─ Transition / Effect / Feedback
 ```
 
-These are diagnostic research problem regions, not mutually exclusive event/relation classes and not architecture modules.
-
-## Strongest findings
-
-- pairwise ground relations are necessary but not sufficient;
-- multi-ground hard cases such as actionability/effective power, verification/validation/acceptance, goal attainment, governance/enforcement and accountability require explicit composition semantics;
-- composite standings must not be projected as intrinsic one-ground statuses;
-- policy, authority, authorization decision, obligation, technical enforcement and observed compliance remain distinct;
-- transition/effect/feedback semantics are not reducible to Work lifecycle alone;
-- no fifth composition region or upstream fifth Foundation ground survived the parent pass.
+These are diagnostic research problem regions, not mutually exclusive relation/event classes and not architecture modules.
 
 ## Child status
 
 ```text
-Relational Binding                  ← discovered / NOT ACTIVE
+Relational Binding                  ← discovered / RECOMMENDED NEXT / NOT ACTIVE
 Composite Standing / Qualification ← discovered / NOT ACTIVE
 Control / Constraint                ← discovered / NOT ACTIVE
 Transition / Effect / Feedback      ← discovered / NOT ACTIVE
 ```
 
-## Sequencing recommendation
+## Sequencing result
 
-If the user accepts the parent result:
+The accepted parent research recommends **Relational Binding** as the first child pass because later standing/control/transition semantics depend on precise anchors and typed bindings.
 
-> **Relational Binding should be the first child pass.**
-
-Do not pre-commit the remaining child order. Re-select after Binding closure.
+The remaining child order is intentionally not fixed. Re-select after Binding closure.
 
 ## Verification status
 
-The composition parent uses accepted Foundation evidence, pairwise and multi-ground falsification, rival frames, authoritative external holdouts and selected candidate-study pressure.
-
-**C7 is same-model adversarial review. No independent second-researcher/model replication has validated the exact four-region decomposition, and no external standard publishes this exact Foundation frame.**
-
-User evaluation can close the sequencing gate but does not change verification independence.
+The composition parent is source-backed and adversarially challenged but remains same-researcher synthesis. C7 is not independent verification; no independent second-researcher/model replication has validated the exact four-region structure.
 
 ## Current authorization / return condition
 
-**USER EVALUATION OF THE COMPOSITION PARENT RESULT ONLY.**
+No substantive Foundation child is active.
 
-No composition child or later phase is active.
-
-Do not automatically begin:
-- Relational Binding or another child;
-- SOUL / Development OS architecture;
-- ontology/data-model or schema work;
-- implementation.
+Current interaction is **next composition child selection/planning only**. Do not automatically begin Relational Binding, architecture, ontology/data-model/schema work or implementation without a separate substantive activation instruction.
