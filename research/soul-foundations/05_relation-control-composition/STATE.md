@@ -1,13 +1,13 @@
 # Relation / Control / Composition — STATE
 
-**Status:** BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
+**Status:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
 **Activated:** 2026-09-05  
 **Closed for evaluation:** 2026-09-05  
-**User authorization:** accepted post-deepening adequacy and authorized parent research to operational limit  
-**Current phase:** C7 CLOSURE COMPLETE / USER EVALUATION GATE  
+**User evaluation:** ACCEPTED 2026-09-05  
+**Current phase:** POST-EVALUATION / CHILD-SELECTION GATE  
 **C0–C7:** COMPLETE  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** COMPOSITION PARENT RESULT EVALUATION ONLY
+**Current authorised interaction:** NEXT-CHILD SELECTION / PLANNING ONLY
 
 ## Entering accepted Foundation grounds
 
@@ -18,11 +18,11 @@ Work                                             ← accepted
 Actors / Agency–Participation–Authority          ← accepted
 ```
 
-## Bounded parent result
+## Accepted bounded parent result
 
 > **Cross-ground composition is a coherent Foundation research problem with four currently supported immediate research regions.**
 
-Recommended structure:
+Accepted structure for current Foundation sequencing:
 
 ```text
 Cross-Ground Composition
@@ -38,96 +38,40 @@ These are diagnostic research problem regions, not mutually exclusive event/rela
 
 > How do Environment, Information, Work and Actors compose through typed relations, composite standings, controls and transitions without collapsing their ground-local semantics?
 
-## Completed route
-
-```text
-C0 canonical/current evidence recovery           ← COMPLETE
-C1 composition-object / semantic-kind discrimination ← COMPLETE
-C2 pairwise cross-ground probes                  ← COMPLETE
-C3 multi-ground composite-pattern discovery      ← COMPLETE
-C4 rival organizing frames                       ← COMPLETE
-C5 external/candidate-study holdouts              ← COMPLETE
-C6 parent synthesis / immediate-child discovery   ← COMPLETE
-C7 adversarial closure                            ← COMPLETE / same-model, non-independent
-```
-
 ## Strongest structural findings
 
-### Pairwise-only composition is insufficient
+- pairwise relations are necessary but insufficient for complete composition semantics;
+- composite standings such as actionable, verified, validated, accepted, goal attained or evidence sufficient require several anchors and must not be projected as intrinsic one-ground statuses;
+- policy representation, legitimate authority, authorization decision, obligation, technical enforcement and observed compliance remain distinct;
+- transition/effect/feedback semantics are not reducible to Work lifecycle alone;
+- no fifth composition region or upstream fifth Foundation ground survived C0–C7.
 
-All six ground pairs expose useful bindings, but recurring hard cases require three or four anchors.
-
-### Composite standings are first-class research problems
-
-Examples include:
-- actionable;
-- authorized for a specific operation/context;
-- verified;
-- validated / fit for intended use;
-- accepted;
-- goal/outcome attained;
-- evidence sufficient.
-
-These must not be silently localized as intrinsic one-ground status fields.
-
-### Control is not policy text or technical blocking alone
+## Child status
 
 ```text
-policy representation
-!= legitimate authority
-!= authorization decision
-!= obligation
-!= technical enforcement
-!= observed compliance
+Relational Binding                  ← discovered / RECOMMENDED NEXT / NOT ACTIVE
+Composite Standing / Qualification ← discovered / NOT ACTIVE
+Control / Constraint                ← discovered / NOT ACTIVE
+Transition / Effect / Feedback      ← discovered / NOT ACTIVE
 ```
-
-### Transition/effect is not Work lifecycle alone
-
-Cross-ground changes include Environment events, observation formation, Actor standing change, composite-standing invalidation and feedback/evolution loops.
-
-## Not promoted as immediate children
-
-- pairwise ground combinations;
-- Goal / Outcome / Value;
-- Verification / Validation / Acceptance;
-- Actionability / Effective Power;
-- Governance / Policy;
-- Provenance / Evidence / Attribution;
-- Causation;
-- Dependency / Coordination / Support;
-- Risk / Value / Priority;
-- Time / Continuity;
-- Feedback / Learning / Evolution as a separate peer.
-
-These remain cross-cutting families, composite patterns, dimensions or later specializations.
-
-## External/candidate holdout result
-
-W3C PROV, NIST ABAC and NASA systems verification/validation supplied materially different authoritative pressure. Anthropic AI-native SDLC, multi-agent patterns and context/memory/harness studies supplied current operational falsifiers.
-
-No holdout forced a fifth composition region or upstream fifth Foundation ground.
 
 ## Sequencing recommendation
 
-If the parent result is accepted:
+**Relational Binding should be the first child pass.**
 
-> **Relational Binding should be the first child pass.**
-
-Do not pre-commit the order of Composite Standing, Control and Transition. Re-select after Binding closure based on what it exposes.
+The order of Composite Standing, Control and Transition is intentionally not fixed. Re-select after Binding closure using the evidence exposed by that child pass.
 
 ## Verification status
 
-The exact four-region synthesis is project-specific. C7 is same-model adversarial review.
+C7 is same-model adversarial review. No independent second-researcher/model replication has validated the exact four-region decomposition, and no external standard publishes this exact Foundation frame.
 
-**No independent second-researcher/model replication has validated the exact parent decomposition, and no external standard publishes this exact four-region Foundation frame.**
-
-User evaluation can close the sequencing gate but does not change verification independence.
+User acceptance closes the parent sequencing gate; it does not change verification independence.
 
 ## Current authorization / return condition
 
-**USER EVALUATION OF THE COMPOSITION PARENT RESULT ONLY.**
+No composition child is active.
 
-No child is active.
+Current interaction is **next-child selection/planning only**. Relational Binding remains the recommended next child but requires a separate substantive activation instruction.
 
 Do not automatically begin:
 - Relational Binding or another child;
