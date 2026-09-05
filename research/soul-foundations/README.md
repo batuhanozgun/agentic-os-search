@@ -35,7 +35,7 @@ This stage exposed two level corrections:
 - actual Operating/Domain Reality was missing from the original independent set;
 - Records was too narrow for the broader Information/Representation problem.
 
-A reopened hierarchy pass then aligned target/domain reality and Work-support conditions under one broader Environment-like research ground while preserving their distinction.
+A reopened hierarchy pass aligned target/domain reality and Work-support conditions under one broader Environment-like research ground while preserving their distinction.
 
 Working frame:
 
@@ -50,7 +50,7 @@ Actors / Agency–Participation–Authority
 
 ### `03_ground-deepening/` — recursive ground research
 
-All four grounds were deepened/evaluated.
+All four grounds were deepened/evaluated and accepted.
 
 #### Environment / Operating Reality
 
@@ -132,15 +132,6 @@ The accepted adequacy result made composition—not ground identity—the next m
 
 #### Composition parent
 
-The parent pass researched:
-- semantic-kind discrimination;
-- all six pairwise ground combinations as probes;
-- multi-ground hard cases;
-- rival organizing frames;
-- W3C PROV, NIST ABAC and NASA systems V&V holdouts;
-- selected agentic candidate-study falsifiers;
-- adversarial closure.
-
 Accepted bounded structure:
 
 ```text
@@ -157,39 +148,26 @@ The composition parent is **user-evaluated / accepted**.
 
 #### Relational Binding
 
-`relational-binding/` is the first completed child pass.
-
-Current bounded result under user evaluation:
+`relational-binding/` is completed and accepted.
 
 ```text
 Relational Binding
-    ← bounded leaf
+    ← bounded leaf / accepted
     ← no immediate child promoted
     ← reusable binding-semantic signature
     ← overlapping relation-family profiles
 ```
 
-Core semantic signature:
+Core pressure:
 
 ```text
 Binding semantic instance
 ├─ relation meaning / protected semantic question
 ├─ exact anchors in typed semantic positions
 ├─ applicability structure
-│   ├─ scope/reference frame
-│   ├─ effective/reference time where material
-│   └─ operation/method/stage/state/version/role qualification where material
 ├─ relation-instance individuation
 └─ qualified/n-ary structure when binary decomposition loses association
 ```
-
-Retained relation-family profiles—not children—include:
-- Reference / Representation / Targeting;
-- Participation / Position;
-- Dependency / Support;
-- Provenance / Attribution;
-- Situation / Access / Interface;
-- Specification / Evidence / Traceability.
 
 Key non-collapse rules:
 
@@ -203,21 +181,69 @@ binding != transition/effect history
 graph reachability != legitimate transitive relation
 ```
 
-Binding used W3C PROV-O, W3C n-ary relation guidance, W3C Web Annotation, NIST ABAC and selected candidate studies as external/cross-domain pressure without importing their data models as Foundation taxonomy.
+#### Composite Standing / Qualification
 
-After Binding closure the remaining child sequence was re-evaluated as required by the parent result.
+`composite-standing/` is the second completed child pass and is currently awaiting user evaluation.
 
-Current recommendation if Binding is accepted:
+Current bounded result:
 
-> **Composite Standing / Qualification** is the strongest next composition-child candidate.
+```text
+Composite Standing / Qualification
+    ← bounded leaf / USER EVALUATION PENDING
+    ← cross-ground qualification only
+    ← no immediate child promoted
+```
 
-It is not active.
+The decisive routing correction is:
+
+```text
+ground-local Criterion-Relative Standing
+!= cross-ground Composite Standing
+```
+
+A standing belongs in Composite Standing only when multiple accepted-ground semantics are part of what the qualification **means or what constitutes it**. Cross-ground evidence, assessment Work, reporting or access alone does not make a ground-local standing Composite.
+
+Stable semantic core:
+
+```text
+Composite Standing core
+├─ standing meaning / exact qualification question
+├─ exact qualified focus + accepted Binding instances
+├─ qualification frame
+├─ constitutive cross-ground basis
+├─ object-level result semantics
+└─ validity dependencies/currentness
+```
+
+Associated meanings must remain distinct:
+
+```text
+standing holds
+!= epistemic assessment
+!= decision / recognition
+!= recorded status
+```
+
+The pass also preserves:
+
+```text
+criterion != decision rule
+false != unknown != not evaluated != not applicable != stale
+verified != validated != accepted
+capable != actionable != authorized != technically reachable
+```
+
+NASA Product Verification/Validation, JCGM 106/VIM, NIST ABAC, NASA TRL, NIST AI RMF and selected candidate studies were used as falsifiers/holdouts. None forced an immediate child or upstream reopen.
+
+Current next-step recommendation if Composite Standing is accepted:
+
+> **Control / Constraint**
+
+It is not active. `Transition / Effect / Feedback` remains inactive and should be re-ranked after Control closure rather than treated as pre-fixed.
 
 ---
 
 ## Current Foundation frontier
-
-Current bounded map:
 
 ```text
 Environment / Operating Reality                 ← accepted
@@ -227,11 +253,13 @@ Actors / Agency–Participation–Authority          ← accepted
 post-deepening top-level adequacy                ← accepted
 
 Cross-Ground Composition                        ← accepted
-    ├─ Relational Binding                       ← BOUNDED LEAF / USER EVALUATION PENDING
-    ├─ Composite Standing / Qualification       ← recommended next if Binding accepted / inactive
-    ├─ Control / Constraint                     ← inactive
+    ├─ Relational Binding                       ← bounded leaf / accepted
+    ├─ Composite Standing / Qualification       ← BOUNDED LEAF / USER EVALUATION PENDING
+    ├─ Control / Constraint                     ← recommended next if Standing accepted / inactive
     └─ Transition / Effect / Feedback           ← inactive
 ```
+
+No substantive Foundation child is active at the current evaluation gate.
 
 Architecture, ontology/data model, schema design and implementation remain outside current Foundation authorization.
 
