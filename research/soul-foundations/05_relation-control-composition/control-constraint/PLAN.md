@@ -1,6 +1,6 @@
 # Control / Constraint — Research Plan
 
-**Status:** ACTIVE PLAN  
+**Status:** COMPLETED RESEARCH PLAN  
 **Date:** 2026-09-05  
 **Parent:** accepted Cross-Ground Composition
 
@@ -10,7 +10,7 @@ Determine whether `Control / Constraint` is a coherent and sufficiently bounded 
 
 ## 2. Protected semantic distinction
 
-The pass must be able to explain, without collapse, cases where all of the following diverge:
+The pass was required to explain, without collapse, cases where all of the following diverge:
 
 ```text
 norm / policy / instruction exists
@@ -25,7 +25,7 @@ monitoring detects / misses
 recovery / escalation occurs
 ```
 
-A useful result must say which distinctions are universal and which are optional/domain-specific.
+A useful result had to say which distinctions are universal and which are optional/domain-specific.
 
 ## 3. Mandatory boundary checks
 
@@ -50,23 +50,16 @@ Policy/rule/configuration/decision records are representations. Control truth mu
 ### 3.7 Transition boundary
 Control governs/conditions transitions. Transition child will later study what changed, propagated or caused what. This pass may preserve control-state/current applicability and path closure but must not take over event-history/causal dynamics.
 
-## 4. Candidate semantic structure entering K0
+## 4. Candidate semantic structure tested
 
-This is a falsifiable starting hypothesis, not a result:
+Initial falsifiable hypothesis:
 
 ```text
 Control episode / regime
 ├─ governed focus
-│  ├─ Actor / Work / action / transition / resource / information operation
-│  └─ exact scope / object / operation / context / time
 ├─ normative / policy basis
 ├─ authority / competence-to-govern basis
 ├─ control modality
-│  ├─ permitted
-│  ├─ prohibited
-│  ├─ required
-│  ├─ discretionary / conditionally allowed
-│  └─ exception / waiver / escalation where material
 ├─ evaluation / decision / gate semantics
 ├─ enforcement / intervention semantics
 ├─ path / coverage / bypass semantics
@@ -74,149 +67,73 @@ Control episode / regime
 └─ validity/currentness dependencies
 ```
 
-K1–K7 must attempt to destroy or simplify this structure.
+K1 corrected this by showing that authority/decision/enforcement/monitoring are not universally mandatory. The final result retains one smaller core plus optional non-collapsed layers.
 
-## 5. Passes
+## 5. Completed passes
 
-### K0 — Canonical / evidence recovery
-Recover current parent/child boundaries, ground-local authority/obligation/capability distinctions, candidate-study holdouts and live falsifiers.
+```text
+K0 canonical/current evidence recovery              ← complete
+K1 protected question + minimum control signature   ← complete
+K2 control-layer discrimination                     ← complete
+K3 modality / gate / authority / path / bypass      ← complete
+K4 family discovery + rival decompositions          ← complete
+K5 authoritative external + candidate holdouts      ← complete
+K6 synthesis / immediate-child decision             ← complete
+K7 adversarial closure                              ← complete
+```
 
-Exit: frozen control hypotheses + source map.
+## 6. Required hard cases covered
 
-### K1 — Protected question + minimum control signature
-Test what must be known for a control claim to be meaningful across domains.
+The pass tested, among others:
+- policy says no, runtime permits;
+- runtime blocks without legitimate policy;
+- direct path denied, delegated/alternate path achieves effect;
+- approval recorded but approver lacks authority;
+- Actor permitted but not capable/actionable;
+- Actor obligated but technically unable;
+- gate criterion satisfied while authorization absent;
+- decision permits while enforcement is stale/misconfigured;
+- compliant behavior without monitoring evidence;
+- monitoring says compliant while actual behavior violates;
+- emergency override/waiver;
+- separation-of-duties/self-approval failure;
+- advisory AI instruction versus deterministic control;
+- sandbox/tool control with indirect agent/tool/network path.
 
-Key pressure:
-- governed focus;
-- norm/rule;
-- authority;
-- modality;
-- decision/gate;
-- enforcement;
-- applicability/currentness.
+## 7. Closure outcome
 
-Exit: provisional semantic grammar or collapse finding.
+The stop rule was met.
 
-### K2 — Control-layer discrimination
-Attack distinctions among:
-- norm/policy/instruction;
-- legitimate authority;
-- deontic standing (permission/prohibition/obligation);
-- authorization/approval decision;
-- technical enforcement;
-- monitoring/observation;
-- compliance/violation standing.
-
-Exit: which layers are irreducible, optional and compositional.
-
-### K3 — Modality / gate / authority / path / bypass audit
-Stress:
-- allow/deny/require;
-- preconditions/gates;
-- exceptions/waivers;
-- delegation;
-- separation of duties;
-- human approval;
-- alternate routes and transitive effect power;
-- fail-open/fail-closed;
-- control coverage over reachable paths.
-
-Exit: whether path-closure/bypass semantics require a distinct child/fifth region.
-
-### K4 — Family discovery + rival decompositions
-Test candidate child/rival structures:
-- Normative Control / Decision Control / Enforcement Control;
-- Preventive / Detective / Corrective;
-- Authorization / Obligation / Safety / Quality;
-- Policy / Decision / Enforcement / Monitoring;
-- Constraint / Gate / Intervention;
-- governance-only versus technical-only frames;
-- pure state-machine/guard or pure access-control reductions.
-
-Promotion criteria:
-1. distinct protected question;
-2. recurrent cross-domain failure family;
-3. low overlap;
-4. does not duplicate accepted ground/sibling semantics;
-5. useful at Foundation level before architecture.
-
-### K5 — Authoritative external + candidate-study holdouts
-Use materially different traditions as pressure, including as available/relevant:
-- NIST ABAC;
-- NIST Zero Trust Architecture;
-- NIST access-control/security control material;
-- safety/interlock or systems-engineering gate concepts;
-- governance/risk controls;
-- selected Anthropic AI-native SDLC, multi-agent, context/harness studies.
-
-Do not import implementation taxonomies as Foundation structure.
-
-### K6 — Synthesis / immediate-child decision
-Decide:
-- coherent child or collapse/reopen;
-- bounded leaf versus promoted children;
-- final control semantic grammar;
-- retained profiles/dimensions;
-- next sequencing pressure toward Transition.
-
-### K7 — Adversarial closure
-Attack at least:
-- Control duplicates Actors authority;
-- Control duplicates Standing;
-- Control duplicates Environment enforcement;
-- Control is merely Work gating;
-- policy/decision/enforcement should be children;
-- preventive/detective/corrective should be children;
-- alternate-path closure is graph/architecture detail only;
-- monitoring/compliance belongs entirely elsewhere;
-- deontic modality is too legalistic/domain-specific;
-- control currentness belongs entirely Transition;
-- bounded-leaf result reflects under-research;
-- a fifth composition region/ground appears.
-
-Return user-evaluation gate after K7.
-
-## 6. Required hard cases
-
-At minimum:
-
-1. policy says no, runtime still permits;
-2. runtime blocks, but no legitimate policy/authority supports block;
-3. direct path denied, delegated/alternate path can still achieve effect;
-4. approval recorded but approver lacks authority;
-5. Actor permitted but not capable/actionable;
-6. Actor obligated but technically unable;
-7. criterion/gate satisfied but authorization absent;
-8. authorization decision permits but enforcement stale/misconfigured;
-9. compliant behavior occurs without monitoring evidence;
-10. monitoring says compliant while actual behavior violates;
-11. emergency override/waiver changes control applicability;
-12. separation-of-duties requirement fails because producer verifies own work;
-13. advisory instruction influences but does not mechanically constrain an AI agent;
-14. deterministic sandbox blocks one tool but indirect agent/tool path remains.
-
-## 7. Stop rules
-
-Stop as bounded leaf when late pressure mainly generates:
+Late pressure mainly generated:
 - more domain control labels;
 - mechanism-specific taxonomies;
-- implementation choices;
-- overlapping profiles already explained by one grammar;
-- no new stable protected question.
+- overlapping profiles;
+- implementation forms;
+- Transition/causal residuals.
 
-Promote a child only if it clears all promotion criteria.
+No stable immediate-child protected question survived.
 
-Reopen an upstream result only on a surviving decision-critical falsifier.
+Current bounded judgment:
+
+```text
+Control / Constraint
+    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← one governing-control semantic core
+    ← optional/non-collapsed associated layers
+    ← no immediate child promoted
+```
+
+See `KEY.md`, `synthesis/CONTROL-CONSTRAINT-SYNTHESIS.md` and `K7-ADVERSARIAL-CLOSURE.md`.
 
 ## 8. Verification boundary
 
-Same-model adversarial review is not independent verification. External standards discriminate specific claims but do not validate the project decomposition by authority.
+K7 is same-model adversarial review, not independent verification. External standards discriminate specific claims but do not validate the project decomposition by authority.
 
-User acceptance closes sequencing only; it does not change verification independence.
+User acceptance may close sequencing only; it does not change verification independence.
 
-## 9. Non-goals
+## 9. Non-goals preserved
 
-Do not design:
+No design was performed for:
 - policy engine;
 - RBAC/ABAC schema;
 - authorization service;
