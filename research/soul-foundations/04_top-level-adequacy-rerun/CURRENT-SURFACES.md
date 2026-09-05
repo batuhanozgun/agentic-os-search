@@ -1,6 +1,6 @@
 # Top-Level Adequacy Rerun — CURRENT SURFACES
 
-**Status:** canonical freshness binding at bounded closure / user-evaluation gate  
+**Status:** canonical freshness binding after user acceptance / handoff to composition research  
 **Date:** 2026-09-05  
 **Branch:** `main`
 
@@ -8,10 +8,10 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Stage state | `STATE.md` | `f4b8b76a164917a143602e54ce5e765b8a79e1bd` |
-| Stage router | `INDEX.md` | `75ba86795f87c5533e3a518de5995f084f09b895` |
+| Stage state | `STATE.md` | `5ef329cee01e1c09e1445de802a248c90f1e1233` |
+| Stage router | `INDEX.md` | `92683a82527bdf833c5af5365c66a13239448ab4` |
 | Stage plan | `PLAN.md` | `6d218a331a85cd1251b054c1d2b2a726c1ff4a4d` |
-| L0 key | `KEY.md` | `2dd8620f7a254a6d806f554451ebddbe3f0aa842` |
+| L0 key | `KEY.md` | `76c8831ac48f05646f9450ee0183a2761f1bf102` |
 | Findings router | `FINDINGS-MAP.md` | `ac9fbccfe26b590a316870b98fedfd3fd4f20757` |
 | Integrated synthesis | `synthesis/TOP-LEVEL-ADEQUACY-RERUN-SYNTHESIS.md` | `c84cd4ba8509d3ba18604d6604f176404f9d4aff` |
 | Bounded closure | `Q6-CLOSURE.md` | `6c2b093b72ccb93c0ae6b9a7ba9f56950bee1817` |
@@ -39,47 +39,21 @@
 | Work | `../03_ground-deepening/grounds/work/CURRENT-SURFACES.md` | `7e5bdd9426f3c426ac312bca147517962ced6361` |
 | Actors / Agency–Participation–Authority | `../03_ground-deepening/grounds/actors/CURRENT-SURFACES.md` | `eb55fcaab6356675bd6ad7c696ef64f6203a85b3` |
 
-Completed ground-deepening stage manifest used at rerun entry:
-
-`../03_ground-deepening/CURRENT-SURFACES.md` @ `b921635bbffac493ffe1b094cd4e6b6e8d19a6e7`
-
-Original adequacy working-hypothesis state used as historical prior:
-
-`../02_adequacy/STATE.md` @ `0d83ef188dbba7a75bc6c2b237d66d6a87e9d1f3`
-
-Candidate-study discovery catalog recovered at Q0/Q4 decision boundary:
-
-`../../studies/CATALOG.md` @ `24fee494d281d63c675370e59a57adb668cf7719`
-
 ## Current Foundation authority surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Foundation state | `../STATE.md` | `1915758cd45126ee06949a94be3b33b4124abfd8` |
-| Foundation router | `../INDEX.md` | `783a0efded0ed24917949ed4cf10b85c272a0ae6` |
+| Foundation state | `../STATE.md` | `343c21379063bbfaeb46847adc07e398de1fcd4f` |
+| Foundation router | `../INDEX.md` | `ff26be234c511e5ef58758696838480774d5ce36` |
 
-## Current bounded result
+## Accepted bounded result
 
 ```text
-Environment / Operating Reality                 ← accepted
-Information / Representation                    ← accepted
-Work                                             ← accepted
-Actors / Agency–Participation–Authority          ← accepted
-
-post-deepening four-ground adequacy              ← BOUNDEDLY SUPPORTED / USER EVALUATION PENDING
-substantive Foundation phase                     ← NONE
+post-deepening four-ground adequacy ← BOUNDEDLY SUPPORTED / USER-EVALUATED / ACCEPTED
 ```
 
-No fifth peer ground, required merge/split, wrong-level correction or stronger rival survived Q0–Q5.
-
-## Next-frontier interpretation
-
-If user evaluation accepts this rerun, the next logical Foundation frontier is systematic typed relation/control/transition composition across the four grounds.
-
-That frontier is **not active** and this manifest does not authorize it.
+Current Foundation work has moved to `../05_relation-control-composition/` and is controlled by parent `STATE.md`.
 
 ## Verification note
 
-Exact SHA binding establishes repository-view identity/freshness only. It does not independently verify the research conclusion.
-
-The integrated adequacy result remains same-researcher synthesis and has not received independent second-researcher/model replication.
+Exact SHA binding establishes repository-view identity/freshness only. The integrated adequacy result remains same-researcher synthesis without independent second-researcher/model replication.
