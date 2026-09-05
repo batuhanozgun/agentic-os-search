@@ -1,14 +1,15 @@
 # SOUL Foundations — STATE
 
-**Status:** four-ground adequacy accepted; composition parent accepted; Relational Binding child ACTIVE  
+**Status:** four-ground adequacy accepted; composition parent accepted; Relational Binding BOUNDED LEAF / AWAITING USER EVALUATION  
 **Environment / Operating Reality:** boundedly complete / accepted  
 **Information / Representation:** boundedly complete / accepted  
 **Work:** boundedly complete / accepted  
 **Actors / Agency–Participation–Authority:** boundedly complete / accepted  
-**Post-deepening top-level adequacy:** boundedly complete / user-evaluated / accepted  
-**Cross-Ground Composition parent:** boundedly complete / user-evaluated / accepted 2026-09-05  
-**Current authorised substantive activity:** RELATIONAL BINDING CHILD PASS  
-**Current phase:** `05_relation-control-composition/relational-binding/` / B0 CANONICAL EVIDENCE RECOVERY
+**Post-deepening top-level adequacy:** accepted  
+**Cross-Ground Composition parent:** accepted  
+**Relational Binding:** bounded leaf / USER EVALUATION PENDING  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** RELATIONAL BINDING RESULT EVALUATION ONLY
 
 ## Accepted Foundation anchors
 
@@ -21,43 +22,66 @@ post-deepening four-ground adequacy              ← accepted
 Cross-Ground Composition parent                  ← accepted
 ```
 
-## Current composition structure
+## Current composition state
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding                  ← ACTIVE
-├─ Composite Standing / Qualification ← inactive
+├─ Relational Binding                  ← BOUNDED LEAF / USER EVALUATION PENDING
+├─ Composite Standing / Qualification ← recommended next if Binding accepted / inactive
 ├─ Control / Constraint                ← inactive
 └─ Transition / Effect / Feedback      ← inactive
 ```
 
-## Active protected question
+## Current Binding result
 
-> Which accepted-ground anchors are connected, in what typed role, direction, scope, reference frame and time, and what semantic difference would be lost by replacing that binding with a generic link?
+Canonical package:
 
-## Scope boundary
+`05_relation-control-composition/relational-binding/`
 
-The active child may research:
-- binding semantic signatures;
-- all six cross-ground pairwise bindings as probes;
-- qualified/n-ary bindings;
-- scope/reference/time/role/cardinality dimensions;
-- recurrent binding families;
-- immediate-child discovery inside Binding;
-- external/candidate holdouts when decision-relevant.
+Current bounded judgment:
 
-It does **not** authorize:
-- Composite Standing, Control or Transition child research;
-- systematic architecture;
-- ontology/data-model/schema design;
-- implementation.
+> Relational Binding has no promoted immediate child at current Foundation depth. Its durable internal result is one binding-semantic signature plus overlapping relation-family profiles.
+
+Core signature:
+
+```text
+Binding semantic instance
+├─ relation meaning / protected semantic question
+├─ exact anchors in typed semantic positions
+├─ applicability structure
+│   ├─ scope/reference frame
+│   ├─ effective/reference time where material
+│   └─ operation/method/stage/state/version/role qualification where material
+├─ relation-instance individuation
+└─ qualified/n-ary structure when binary decomposition loses association
+```
+
+## Strongest non-collapse rules
+
+```text
+generic connectivity != semantic binding
+represented/asserted binding != actual binding
+actual binding != evidence sufficient to establish binding
+binding != composite standing
+binding != control result
+binding != transition/effect history
+graph reachability != legitimate transitive relation
+```
+
+## Current next-frontier recommendation
+
+If the user accepts Relational Binding, the strongest current next composition-child candidate is:
+
+> **Composite Standing / Qualification**
+
+This is not active.
 
 ## Verification status
 
-Accepted parent/ground results retain their stated same-model/independence limitations. Exact repository binding is freshness/identity evidence only.
+Binding B7 is same-model adversarial review. External standards and candidate studies pressure the result but do not independently validate this exact synthesis. No independent second-researcher/model replication has been performed.
 
 ## Current authorization
 
-**RELATIONAL BINDING CHILD PASS ONLY.**
+**USER EVALUATION OF RELATIONAL BINDING RESULT ONLY.**
 
-At bounded closure, return the child result for user evaluation before any grandchild or another composition child is activated.
+Do not automatically begin Composite Standing, Control, Transition, architecture, ontology/data-model/schema work or implementation.
