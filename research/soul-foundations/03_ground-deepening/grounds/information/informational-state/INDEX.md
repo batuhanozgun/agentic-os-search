@@ -2,19 +2,19 @@
 
 ## Role
 
-Current retrieval router for the boundedly complete Informational State foundation-research node.
+Current retrieval router for the boundedly complete, user-evaluated Informational State foundation-research node.
 
-For current status and authorization read `STATE.md` first.
+For current status read `STATE.md` first.
 
 ## Current status
 
-**BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+**BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED FOR FOUNDATION SEQUENCING.**
 
-No substantive node is active.
+This node is closed. No State-internal child was promoted.
 
 ## Default read order
 
-1. `STATE.md` — current status, bounded result and authorization.
+1. `STATE.md` — current status, bounded result and verification boundary.
 2. `KEY.md` — shortest current orientation.
 3. `FINDINGS-MAP.md` — current bounded result and topic routing.
 4. `synthesis/INFORMATIONAL-STATE-SYNTHESIS.md` — integrated node result.
@@ -28,9 +28,9 @@ No substantive node is active.
 ## Bounded result
 
 ```text
-Informational State / Representational Constitution   ← bounded leaf / USER EVALUATION PENDING
+Informational State / Representational Constitution   ← bounded leaf / user-evaluated
 
-No immediate child promoted.
+Immediate children                                   ← NONE PROMOTED
 ```
 
 Internal constitution dimensions remain explicit:
@@ -55,23 +55,22 @@ These are orientation dimensions/relations, not accepted child branches.
 | Same-model missing-child/reduction attack | `N6-OMISSION-REDUCTION-RIVAL-AUDIT.md` |
 | Closure judgment | `N7-NODE-CLOSURE.md` |
 
-## Parent route
+## Parent / active sibling route
 
 Parent Information package: `../`
 
+Current sibling research package: `../informational-dynamics/`
+
 ```text
 Information / Representation                    ← boundedly complete / user-evaluated
-    ├─ Informational State / Representational Constitution   ← bounded leaf / evaluation pending
-    └─ Informational Dynamics / Formation–Transformation     ← inactive
-
-Records / Persistent Information
-    ↳ deep persistence specialization/profile across Information
+    ├─ Informational State / Representational Constitution   ← bounded leaf / user-evaluated
+    └─ Informational Dynamics / Formation–Transformation     ← ACTIVE
 ```
 
 ## Verification status
 
-External falsifiers plus same-model adversarial N6 support bounded closure. The full node result has not received independent second-researcher/model replication.
+External falsifiers plus same-model adversarial N6 support bounded closure. The full node result has not received independent second-researcher/model replication. User evaluation does not alter that verification status.
 
 ## Guardrail
 
-Current interaction is user evaluation only. This router does not authorize Informational Dynamics, any State child, Work, Actors, composition, architecture, ontology or implementation work.
+This closed node does not authorize any State-internal child, Work, Actors, composition, architecture, ontology or implementation work. Current substantive authorization is carried by the parent Information and active Dynamics package state.
