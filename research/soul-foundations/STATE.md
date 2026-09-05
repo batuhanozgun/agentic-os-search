@@ -1,14 +1,14 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment boundedly complete / user-evaluated; Information top-level boundedly complete / user-evaluated; Informational State child boundedly complete / awaiting user evaluation  
+**Status:** active research library; Environment boundedly complete / user-evaluated; Information top-level boundedly complete / user-evaluated; Informational State user-evaluated; Informational Dynamics active  
 **Environment / Operating Reality:** boundedly complete / accepted 2026-09-04  
 **Information routing label during pass:** Information / Representation State  
 **Information top-level research result:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
 **Accepted refined Information label:** Information / Representation  
-**Informational State research result:** BOUNDEDLY COMPLETE / USER EVALUATION PENDING  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** INFORMATIONAL STATE RESULT EVALUATION ONLY  
-**Current return condition:** user evaluation of the bounded Informational State result before any separate next-work selection or node activation
+**Informational State research result:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED FOR FOUNDATION SEQUENCING  
+**Current authorised substantive activity:** INFORMATIONAL DYNAMICS / FORMATION–TRANSFORMATION NODE RESEARCH  
+**Current authorised interaction:** ACTIVE FOUNDATION RESEARCH  
+**Current return condition:** complete the bounded Informational Dynamics node pass and return its result for user evaluation before any next node activation
 
 ## Dependency state
 
@@ -27,8 +27,8 @@
       - Domain Dynamics: bounded leaf / accepted.
     - Work Conditions: bounded leaf / accepted.
   - **Information / Representation top-level: BOUNDEDLY COMPLETE / USER-EVALUATED.**
-    - Informational State / Representational Constitution: **bounded leaf / USER EVALUATION PENDING**.
-    - Informational Dynamics / Formation–Transformation: inactive.
+    - Informational State / Representational Constitution: bounded leaf / user-evaluated.
+    - Informational Dynamics / Formation–Transformation: **ACTIVE**.
     - Records / Persistent Information: accepted deep persistence specialization/profile across Information.
   - Work: inactive.
   - Actors: inactive.
@@ -61,8 +61,8 @@ Current bounded result:
 
 ```text
 Information / Representation
-    ├─ Informational State / Representational Constitution   ← bounded leaf / USER EVALUATION PENDING
-    └─ Informational Dynamics / Formation–Transformation     ← inactive
+    ├─ Informational State / Representational Constitution   ← bounded leaf / user-evaluated
+    └─ Informational Dynamics / Formation–Transformation     ← ACTIVE
 
 Records / Persistent Information
     ↳ deep persistence specialization/profile crossing Information
@@ -75,47 +75,43 @@ Epistemic status:
 - two immediate Information children: boundedly supported and accepted as the current top-level research structure;
 - Records hierarchical-role correction: accepted bounded research result;
 - existing Records-local findings remain user-evaluated and valid for their persistent-information scope;
-- Informational State child result: boundedly complete, currently judged a bounded leaf at this Foundation depth, **awaiting user evaluation**;
-- no State-internal immediate child has been accepted.
+- Informational State child result: boundedly complete and user-evaluated as a bounded leaf for current Foundation sequencing;
+- no State-internal immediate child has been accepted;
+- Informational Dynamics internal structure is not yet established and is the subject of the active pass.
 
-## Current Work / gate
+## Active Work
 
-No substantive node is active.
+**Informational Dynamics / Formation–Transformation**
 
-The completed child package is:
+Package:
 
-`03_ground-deepening/grounds/information/informational-state/`
+`03_ground-deepening/grounds/information/informational-dynamics/`
 
-Current interaction:
+Current phase:
 
-`Informational State / Representational Constitution` result evaluation.
+`N0 canonical/internal evidence recovery`
 
-Current bounded child judgment:
+The active pass must test rather than assume the inherited dynamic regions: acquisition/observation formation, derivation/transformation/lineage, selection/context formation, revision/invalidation, communication/exposure and persistence-related lifecycle transitions.
 
-> Informational State / Representational Constitution is a bounded leaf for the current Foundation research depth; its internal distinctions remain explicit constitution/qualification dimensions and relations rather than promoted immediate children.
-
-A separate post-evaluation transition is required before any sibling, ground or deeper node becomes active.
+Exactly one substantive node is active.
 
 ## Verification status
 
-The Information parent pass used materially different external traditions and primary/authoritative sources where available. Its N6 was same-model adversarial self-review, **not independent verification**.
+The Information parent and Informational State child passes used materially different external traditions and same-model adversarial N6 review; neither full synthesis has independent second-researcher/model replication. User evaluation closed their sequencing gates but did not change verification independence.
 
-The Informational State child pass likewise used canonical/internal evidence, completed Records research, selected candidate studies and materially different external traditions. Its N6 is same-model adversarial self-review and the complete child synthesis has **not** received independent second-researcher/model replication.
-
-User acceptance can close a research gate but does not change verification independence.
+The active Dynamics pass must maintain its own evidence and verification ledger and must not promote user approval, candidate studies or external taxonomies into proof of its decomposition.
 
 ## Current authorization
 
-**INFORMATIONAL STATE RESULT EVALUATION ONLY. NO SUBSTANTIVE FOUNDATION NODE IS ACTIVE.**
+**INFORMATIONAL DYNAMICS / FORMATION–TRANSFORMATION RESEARCH IS AUTHORISED AND ACTIVE.**
 
 Do not automatically begin:
 
-- Informational Dynamics child research;
-- any proposed child inside Informational State;
+- any child discovered inside Informational Dynamics;
 - Work or Actors ground deepening;
 - systematic typed relation/control composition;
 - SOUL/Development OS architecture;
 - ontology/data-model work;
 - implementation.
 
-After user evaluation, make a separate next-work selection/authorization decision.
+When the active node reaches bounded closure, return it for user evaluation before a separate next-work decision.
