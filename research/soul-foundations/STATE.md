@@ -1,24 +1,24 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment, Information and Work boundedly complete / accepted; Actors recommended next ground  
+**Status:** active research library; Environment, Information and Work accepted; Actors coverage/gap audit ACTIVE  
 **Environment / Operating Reality:** boundedly complete / accepted 2026-09-04  
 **Information / Representation:** boundedly complete / accepted  
 **Work:** boundedly complete / user-evaluated / accepted 2026-09-05  
-**Actors:** inactive / RECOMMENDED NEXT GROUND  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT-GROUND SELECTION RESULT / ACTORS AUTHORIZATION PENDING
+**Actors:** ACTIVE COVERAGE / GAP AUDIT  
+**Current authorised substantive activity:** ACTORS GROUND AUDIT ONLY  
+**Current phase:** GROUND DEEPENING / ACTORS A0 CANONICAL-EVIDENCE RECOVERY
 
 ## Dependency state
 
 - `01_verticals/`: complete / user-evaluated.
-  - Work independent vertical: sufficiently complete / accepted into current ground-deepening stage.
-  - Actors independent vertical: sufficiently complete / user-evaluated in isolation; ground-deepening audit not yet performed.
+  - Work independent vertical: accepted into current ground-deepening stage.
+  - Actors independent vertical: sufficiently complete / user-evaluated in isolation; now under ground-deepening audit.
 - `02_adequacy/`: boundedly sufficient / accepted working hypothesis; four-ground frame remains reopenable on material falsifiers.
 - `03_ground-deepening/`:
   - Environment / Operating Reality: boundedly complete / accepted.
   - Information / Representation: boundedly complete / accepted.
-  - Work: boundedly complete / accepted; no universal immediate-child hierarchy promoted.
-  - Actors: inactive; recommended next substantive ground via coverage/gap audit.
+  - Work: boundedly complete / accepted.
+  - Actors: ACTIVE coverage/gap audit at A0.
 - Cross-ground composition, architecture, ontology/data model and implementation: not authorised.
 
 ## Current ground sequence
@@ -27,32 +27,31 @@
 Environment / Operating Reality                 ← boundedly complete / accepted
 Information / Representation                    ← boundedly complete / accepted
 Work                                             ← boundedly complete / accepted
-Actors / Agency–Participation–Authority          ← inactive / RECOMMENDED NEXT
+Actors / Agency–Participation–Authority          ← ACTIVE COVERAGE / GAP AUDIT
 ```
 
-## Next-ground selection
+## Actors audit purpose
 
-Recommended next substantive work:
+Determine whether the deep existing Actors corpus remains sufficient under the now-accepted Environment, Information and Work boundaries and newer agentic-system holdouts.
 
-> **Actors / Agency–Participation–Authority — coverage / gap audit.**
+Default assumption is **not** that new Actors research is required. Targeted deepening opens only if a material Actors-local first-order gap survives.
 
-Why:
+Primary tests:
 
-- it is the only accepted top-level ground not yet evaluated under `03_ground-deepening`;
-- its existing vertical is already deep, so a full restart is not justified by default;
-- accepted Environment, Information and Work results now provide sharper boundary tests for capability/actionability, Actor representation vs actual standing, Work participation vs authority/obligation and acceptance/accountability;
-- newer candidate studies provide strong falsifiers around subagents, delegation, transitive authority, human gates and multi-agent role/responsibility topologies;
-- no current reopen trigger justifies returning to Environment, Information or Work before this audit;
-- ground-deepening stage exit requires all four grounds to be individually evaluated before top-level adequacy is rerun.
+- Actor standing vs Information representation;
+- capability/competence vs situated Environment actionability;
+- Work participation/admission vs Actor role/obligation/authority;
+- delegation/transitive authority and agent-to-agent capability paths;
+- performer/decider/authorizer/principal/accountable-party separation;
+- omission/non-action, collective/corporate and non-human agency;
+- responsibility/accountability under divergent Work, Information and Environment evidence.
 
 ## Verification status
 
-Work user acceptance closes its sequencing gate but does not change verification independence. Environment, Information, Work and the prior Actors vertical all retain their stated same-model/non-independent review limitations.
+The prior Actors vertical is broadly source-backed and user-evaluated but its completion check is same-model, not independent verification. The current audit must not inherit prior closure without new boundary/holdout attacks.
 
 ## Current authorization
 
-No substantive Foundation ground is active.
+Exactly one substantive Foundation ground is active: **Actors**.
 
-The Actors audit is a **selected recommendation, not an activated pass**. Explicit user authorization is required before opening it.
-
-After Actors is eventually evaluated, rerun top-level adequacy before deciding whether systematic relation/control/composition research should begin. Do not jump directly to architecture, ontology/data-model work or implementation.
+Do not begin top-level adequacy rerun, systematic relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation until Actors closes and is evaluated.
