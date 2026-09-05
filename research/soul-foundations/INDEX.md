@@ -12,33 +12,30 @@ For current status/authorization read `STATE.md` first. This router does not ind
 |---|---|---|
 | Current overall state / authorisation | `STATE.md` | relevant package router |
 | Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` |
+| Active Work coverage/gap audit | `03_ground-deepening/grounds/work/STATE.md` | `AUDIT-PLAN.md` → current A-pass artifact |
+| Prior Work vertical | `01_verticals/work/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → targeted L3/L4 evidence |
 | Accepted Information result | `03_ground-deepening/grounds/information/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` |
-| Accepted Informational State result | `03_ground-deepening/grounds/information/informational-state/STATE.md` | package routes |
-| Accepted Informational Dynamics result | `03_ground-deepening/grounds/information/informational-dynamics/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis |
-| Dynamics research path / rivals / falsifiers | Dynamics `INDEX.md` | N0–N7 / evidence / source ledger |
 | Completed Environment | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX / CURRENT-SURFACES |
-| Candidate studies | `../studies/CATALOG.md` | selected `META.md` → package findings when current method makes them relevant |
-| What is authorised now? | `STATE.md` | next-work selection/planning only; no substantive node active |
+| Candidate studies | `../studies/CATALOG.md` | selected `META.md` → package findings when current audit makes them relevant |
+| What is authorised now? | `STATE.md` | Work ground coverage/gap audit only |
 
-## Current Information tree
+## Current ground sequence
 
 ```text
+Environment / Operating Reality                 ← boundedly complete / accepted
 Information / Representation                    ← boundedly complete / accepted
-    ├─ Informational State / Representational Constitution   ← bounded leaf / accepted
-    └─ Informational Dynamics / Formation–Transition         ← boundedly complete / accepted
-         ├─ Informational Formation / Acquisition
-         ├─ Informational Derivation / Transformation
-         └─ Informational Selection / Exposure
+Work                                             ← ACTIVE COVERAGE / GAP AUDIT
+Actors                                           ← inactive
 ```
 
-The three Dynamics children are structurally accepted immediate problem regions but have not yet been separately researched.
+The accepted Information child structure remains unchanged and inactive during Work audit.
 
 ## Candidate-study boundary
 
-`research/studies/**` is a separate candidate research library. Candidate packages may provide evidence/falsifiers but do not define Foundation children or authorize architecture/implementation.
+`research/studies/**` is a separate candidate research library. Candidate packages may provide falsifiers or design pressure but do not define Work or authorize architecture/implementation.
 
 ## Current gate
 
-No substantive Foundation node is active. Current interaction is next-work selection/planning only.
+Exactly one substantive Foundation ground is active: Work.
 
-A separate transition is required before any Dynamics child, Work, Actors or later phase becomes active.
+Do not activate Actors, systematic cross-ground composition, architecture, ontology/data-model or implementation work in this audit.
