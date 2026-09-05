@@ -11,9 +11,9 @@ For current status/authorization read `STATE.md` first. This router does not ind
 | Need | Read first | Then if needed |
 |---|---|---|
 | Current overall state / authorisation | `STATE.md` | relevant current package router |
-| Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` / current package |
-| Informational State bounded result under evaluation | `03_ground-deepening/grounds/information/informational-state/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → `N7-NODE-CLOSURE.md` |
-| Informational State research path / rivals / falsifiers | child `INDEX.md` | N0–N6 / evidence / source ledger |
+| Ground-deepening program | `03_ground-deepening/STATE.md` | method / `INDEX.md` / current active package |
+| Active Informational Dynamics research | `03_ground-deepening/grounds/information/informational-dynamics/STATE.md` | `INDEX.md` → `RESEARCH-PLAN.md` → current pass artifacts |
+| Accepted Informational State result | `03_ground-deepening/grounds/information/informational-state/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → `N7-NODE-CLOSURE.md` |
 | Accepted Information top-level result | `03_ground-deepening/grounds/information/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis |
 | Integrated Information top-level result | `03_ground-deepening/grounds/information/synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` | parent `N7-NODE-CLOSURE.md` |
 | Information parent research path / rivals / falsifiers | Information `INDEX.md` | parent N0–N6 / source ledger |
@@ -21,7 +21,7 @@ For current status/authorization read `STATE.md` first. This router does not ind
 | Completed Environment result | `03_ground-deepening/grounds/environment/STATE.md` | KEY / INDEX / CURRENT-SURFACES / parent synthesis-audit |
 | Environment leaf internal maps | relevant leaf `FINDINGS-MAP.md` | synthesis / audit / evidence |
 | Prior candidate studies relevant to a Foundation problem | `../studies/CATALOG.md` | selected study `META.md` → package STATE/INDEX/findings; active Foundation method/authorization controls depth |
-| What is authorised now? | `STATE.md` | Informational State result evaluation only; no substantive node active |
+| What is authorised now? | `STATE.md` | Informational Dynamics / Formation–Transformation only |
 
 ## Completed Environment tree
 
@@ -40,18 +40,18 @@ Environment / Operating Reality                 ← boundedly complete / accepte
          ↳ Technical Work Environment               ← deep technical specialization/profile
 ```
 
-## Accepted Information result and completed child under evaluation
+## Accepted Information result and active child
 
 ```text
 Information / Representation                    ← boundedly complete / accepted
-    ├─ Informational State / Representational Constitution   ← bounded leaf / USER EVALUATION PENDING
-    └─ Informational Dynamics / Formation–Transformation     ← inactive
+    ├─ Informational State / Representational Constitution   ← bounded leaf / user-evaluated
+    └─ Informational Dynamics / Formation–Transformation     ← ACTIVE
 
 Records / Persistent Information
     ↳ deep persistence specialization/profile crossing Information
 ```
 
-The Informational State pass found no stable immediate-child split at the current Foundation depth. Its internal constitution distinctions remain explicit dimensions/relations rather than accepted child nodes.
+The active Informational Dynamics pass must derive its own internal structure. Parent-level dynamic problem regions are research inputs, not accepted Dynamics child nodes.
 
 ## Candidate-study boundary
 
@@ -69,12 +69,12 @@ Use the studies catalog as discovery, then descend to selected package/source wh
 
 ## Current gate
 
-No substantive Foundation node is active.
+Exactly one substantive Foundation node is active:
 
-Current interaction is evaluation of the bounded Informational State result.
+`Informational Dynamics / Formation–Transformation`
 
-A separate post-evaluation transition is required before Informational Dynamics, Work, Actors or any deeper node becomes active.
+Do not begin Work, Actors, composition, architecture, ontology/data-model, implementation or a discovered Dynamics child during this pass.
 
 ## Guardrail
 
-Research hierarchy is not architecture or ontology. Do not infer authorization for composition, architecture, ontology/data-model or implementation work from the completed child result.
+Research hierarchy is not architecture or ontology. The active node must return for user evaluation at bounded closure before any further activation.
