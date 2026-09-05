@@ -1,16 +1,14 @@
 # Informational Dynamics / Formation–Transition — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** boundedly complete / awaiting user evaluation  
+**Status:** boundedly complete / user-evaluated / accepted  
 **Date:** 2026-09-05
 
-## What this node studied
+## Shortest current result
 
-The problem of how informational states come into existence, are derived or changed, and become visible/available to a use or consumer.
+Informational Dynamics studies how informational states come into existence, are derived or changed, and become visible/available to a use or consumer.
 
-## Main bounded result
-
-Recommended structure:
+Accepted bounded structure:
 
 ```text
 Informational Dynamics / Formation–Transition
@@ -31,20 +29,13 @@ How existing informational states produce or change another informational state 
 
 How existing informational states become selected, ranked, filtered, communicated or otherwise visible/available for a particular use/consumer.
 
-## Why the third child matters
+## Why Selection / Exposure matters
 
-A source can be correct and a transformation can be valid while the wrong information is retrieved/exposed. Conversely, the right source can be selected while acquisition or transformation is faulty. These are different failure families with different remedies.
+A source can be correct and a transformation can be valid while the wrong information is retrieved/exposed. Conversely, the right source can be selected while acquisition or transformation is faulty. These are distinct failure families.
 
 ## Not immediate children
 
-- revision/correction/retraction/supersession;
-- communication/distribution;
-- propagation/synchronization;
-- conflict/reconciliation;
-- persistence/memory lifecycle;
-- encoding/schema mapping.
-
-These remain specializations, composite patterns or cross-cutting dimensions/relations.
+Revision/correction/retraction/supersession, communication/distribution, propagation/synchronization, conflict/reconciliation, persistence/memory lifecycle and encoding/schema mapping remain specializations, composite patterns or cross-cutting dimensions/relations.
 
 ## Boundary rule
 
@@ -56,6 +47,6 @@ Cross-domain external falsifiers support the bounded result. N6 is same-model ad
 
 ## Current gate
 
-User evaluation only. No Dynamics child is active.
+Next-work selection/planning only. No Dynamics child is active.
 
 For detail: `FINDINGS-MAP.md` → `synthesis/INFORMATIONAL-DYNAMICS-SYNTHESIS.md` → `N7-NODE-CLOSURE.md`.
