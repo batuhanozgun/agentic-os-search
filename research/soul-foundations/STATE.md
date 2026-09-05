@@ -1,13 +1,14 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment boundedly complete / user-evaluated; Information top-level boundedly complete / user-evaluated; Informational State child active  
+**Status:** active research library; Environment boundedly complete / user-evaluated; Information top-level boundedly complete / user-evaluated; Informational State child boundedly complete / awaiting user evaluation  
 **Environment / Operating Reality:** boundedly complete / accepted 2026-09-04  
 **Information routing label during pass:** Information / Representation State  
 **Information top-level research result:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
 **Accepted refined Information label:** Information / Representation  
-**Current authorised substantive activity:** INFORMATIONAL STATE / REPRESENTATIONAL CONSTITUTION NODE RESEARCH  
-**Current authorised interaction:** ACTIVE FOUNDATION RESEARCH  
-**Current return condition:** complete the bounded Informational State node pass and return its result for user evaluation before any next node activation
+**Informational State research result:** BOUNDEDLY COMPLETE / USER EVALUATION PENDING  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** INFORMATIONAL STATE RESULT EVALUATION ONLY  
+**Current return condition:** user evaluation of the bounded Informational State result before any separate next-work selection or node activation
 
 ## Dependency state
 
@@ -26,7 +27,7 @@
       - Domain Dynamics: bounded leaf / accepted.
     - Work Conditions: bounded leaf / accepted.
   - **Information / Representation top-level: BOUNDEDLY COMPLETE / USER-EVALUATED.**
-    - Informational State / Representational Constitution: **ACTIVE**.
+    - Informational State / Representational Constitution: **bounded leaf / USER EVALUATION PENDING**.
     - Informational Dynamics / Formation–Transformation: inactive.
     - Records / Persistent Information: accepted deep persistence specialization/profile across Information.
   - Work: inactive.
@@ -56,11 +57,11 @@ Canonical parent package:
 
 `03_ground-deepening/grounds/information/`
 
-Accepted bounded result:
+Current bounded result:
 
 ```text
 Information / Representation
-    ├─ Informational State / Representational Constitution   ← ACTIVE
+    ├─ Informational State / Representational Constitution   ← bounded leaf / USER EVALUATION PENDING
     └─ Informational Dynamics / Formation–Transformation     ← inactive
 
 Records / Persistent Information
@@ -71,45 +72,50 @@ Epistemic status:
 
 - parent research-ground coherence: boundedly supported and user-evaluated;
 - parent label `Information / Representation`: accepted as the current research label;
-- two immediate children: boundedly supported and accepted as the current top-level research structure;
+- two immediate Information children: boundedly supported and accepted as the current top-level research structure;
 - Records hierarchical-role correction: accepted bounded research result;
 - existing Records-local findings remain user-evaluated and valid for their persistent-information scope;
-- child-internal hierarchy for Informational State is **not yet established** and is the subject of the active pass.
+- Informational State child result: boundedly complete, currently judged a bounded leaf at this Foundation depth, **awaiting user evaluation**;
+- no State-internal immediate child has been accepted.
 
-## Active Work
+## Current Work / gate
 
-**Informational State / Representational Constitution**
+No substantive node is active.
 
-Package:
+The completed child package is:
 
 `03_ground-deepening/grounds/information/informational-state/`
 
-Current phase:
+Current interaction:
 
-`N0 canonical/internal evidence recovery`
+`Informational State / Representational Constitution` result evaluation.
 
-The active pass must test rather than assume the provisional state-side regions exposed by the parent: referent/scope, content/form/interpretation, informational identity/granularity/equivalence, plus standing, perspective/sharing and conflict/plurality concerns.
+Current bounded child judgment:
 
-Exactly one substantive node is active.
+> Informational State / Representational Constitution is a bounded leaf for the current Foundation research depth; its internal distinctions remain explicit constitution/qualification dimensions and relations rather than promoted immediate children.
+
+A separate post-evaluation transition is required before any sibling, ground or deeper node becomes active.
 
 ## Verification status
 
-The Information parent pass used materially different external traditions and primary/authoritative sources where available. Its N6 was same-model adversarial self-review, **not independent verification**. User acceptance closed the parent research gate but did not change verification independence.
+The Information parent pass used materially different external traditions and primary/authoritative sources where available. Its N6 was same-model adversarial self-review, **not independent verification**.
 
-The active child pass must maintain its own evidence and verification ledger and must not promote user approval, candidate studies or external taxonomies into proof of its decomposition.
+The Informational State child pass likewise used canonical/internal evidence, completed Records research, selected candidate studies and materially different external traditions. Its N6 is same-model adversarial self-review and the complete child synthesis has **not** received independent second-researcher/model replication.
+
+User acceptance can close a research gate but does not change verification independence.
 
 ## Current authorization
 
-**INFORMATIONAL STATE / REPRESENTATIONAL CONSTITUTION RESEARCH IS AUTHORISED AND ACTIVE.**
+**INFORMATIONAL STATE RESULT EVALUATION ONLY. NO SUBSTANTIVE FOUNDATION NODE IS ACTIVE.**
 
 Do not automatically begin:
 
 - Informational Dynamics child research;
-- any child discovered inside Informational State;
+- any proposed child inside Informational State;
 - Work or Actors ground deepening;
 - systematic typed relation/control composition;
 - SOUL/Development OS architecture;
 - ontology/data-model work;
 - implementation.
 
-When the active node reaches bounded closure, return it for user evaluation before a separate next-work decision.
+After user evaluation, make a separate next-work selection/authorization decision.
