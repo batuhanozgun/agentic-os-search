@@ -1,6 +1,6 @@
 # Composite Standing / Qualification — CURRENT SURFACES
 
-**Status:** canonical freshness binding at bounded leaf closure / user-evaluation gate  
+**Status:** canonical freshness binding at accepted bounded-leaf checkpoint  
 **Date:** 2026-09-05  
 **Branch:** `main`
 
@@ -8,10 +8,10 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Child state | `STATE.md` | `e021b604814a0c895c4248b27922c237a6349743` |
-| Child router | `INDEX.md` | `ddb30ab2e17a56bb56d65dc5fb71fb64c4fb173b` |
+| Child state | `STATE.md` | `9269d530eb6ee64e63a6d01d56d75e3a7e9e7903` |
+| Child router | `INDEX.md` | `dfe3ca1b82464f6f419ff1377a32d13d28bf9eca` |
 | Child plan | `PLAN.md` | `a6e7332dfd930c2ba22a192cb4dbcfe2b3e23bed` |
-| L0 key | `KEY.md` | `84c936baf4f22c4392252747e8bba7a50a39d760` |
+| L0 key | `KEY.md` | `bc01502fd6ac3af3b7c7cc952266e0fb32e1cdec` |
 | Findings map | `FINDINGS-MAP.md` | `08c8b994b8163c36b260a60b6197d9e05f8de13f` |
 | Integrated synthesis | `synthesis/COMPOSITE-STANDING-SYNTHESIS.md` | `d4a1c40fb50257b284b7231425394cd2883fcae1` |
 | Residual / reopen questions | `OPEN-QUESTIONS.md` | `88971b1f2ff19cb1f8c6e67ca58eccf6f0bf0a1f` |
@@ -63,18 +63,18 @@ These sources pressure specific semantics; none validates the exact project synt
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Composition parent state | `../STATE.md` | `922ce1287460ef12ce3c29e49054d2b608f4db7e` |
-| Composition parent router | `../INDEX.md` | `a2c21e819f6e435ebdf90a9954a67056c99b4422` |
-| Foundation state | `../../STATE.md` | `db0d502e41205d8ff98164e3ef7176c1c0a6acd7` |
-| Foundation router | `../../INDEX.md` | `29f25a16865e8dc6d6d192d7edba47ba0a01ef7c` |
+| Composition parent state | `../STATE.md` | `8166efad020d5ec1d861970d95300629b5f34457` |
+| Composition parent router | `../INDEX.md` | `e9d398db61bcbcadfc55f3968b690d447cfff57f` |
+| Foundation state | `../../STATE.md` | `ec44a39a7ae411215ffd81819082b0f11403aef5` |
+| Foundation router | `../../INDEX.md` | `6f99bf3581e11ceda5b2d291c908873df4927281` |
 
-## Current bounded result
+## Current accepted state
 
 ```text
 Cross-Ground Composition
 ├─ Relational Binding                  ← BOUNDED LEAF / ACCEPTED
-├─ Composite Standing / Qualification ← BOUNDED LEAF / USER EVALUATION PENDING
-├─ Control / Constraint                ← recommended next if Standing accepted / inactive
+├─ Composite Standing / Qualification ← BOUNDED LEAF / ACCEPTED
+├─ Control / Constraint                ← recommended next / inactive
 └─ Transition / Effect / Feedback      ← inactive
 
 substantive composition child          ← NONE
