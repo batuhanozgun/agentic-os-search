@@ -3,8 +3,8 @@
 **Status:** ACTIVE FOUNDATION CHILD RESEARCH  
 **Activated:** 2026-09-05  
 **Parent:** `Cross-Ground Composition` — accepted  
-**Current phase:** B6 SYNTHESIS / IMMEDIATE-CHILD DECISION  
-**B0–B5:** COMPLETE  
+**Current phase:** B7 ADVERSARIAL CLOSURE  
+**B0–B6:** COMPLETE  
 **Current authorised substantive activity:** RELATIONAL BINDING CHILD PASS
 
 ## Protected question
@@ -20,13 +20,13 @@ B2 six-pair binding-family discovery                       ← COMPLETE
 B3 qualification / arity / scope / time / reference audit ← COMPLETE
 B4 rival internal decompositions + child discovery pressure ← COMPLETE
 B5 external authoritative + candidate-study holdouts       ← COMPLETE
-B6 synthesis / immediate-child decision                    ← ACTIVE
-B7 adversarial closure / user-evaluation gate
+B6 synthesis / immediate-child decision                    ← COMPLETE / provisional bounded leaf
+B7 adversarial closure / user-evaluation gate              ← ACTIVE
 ```
 
 ## Current provisional result
 
-B4+B5 favor Relational Binding as a bounded leaf with one reusable semantic-signature grammar and overlapping relation-family profiles. B6 must now make the explicit child-promotion decision.
+Relational Binding is provisionally a bounded leaf with a shared semantic-signature grammar and overlapping family profiles. B7 must attempt to falsify this result and its boundary with Composite Standing, Control and Transition.
 
 ## Guardrail
 
