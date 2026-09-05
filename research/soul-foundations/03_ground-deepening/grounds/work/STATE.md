@@ -1,51 +1,102 @@
 # Work Ground — STATE
 
-**Status:** ACTIVE COVERAGE / GAP AUDIT  
+**Status:** BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
 **Activated:** 2026-09-05  
+**Closed for evaluation:** 2026-09-05  
 **User authorization:** explicit instruction to continue research after accepting the recommendation to move from Information to Work coverage/gap audit  
 **Prior Work corpus:** `../../../01_verticals/work/` — sufficiently complete / user-evaluated independent vertical  
-**Current phase:** A1 FOUR-GROUND BOUNDARY / COVERAGE AUDIT  
-**A0:** COMPLETE  
-**Substantive ground active:** Work  
-**Actors:** inactive  
-**Information descendants:** inactive
+**Current phase:** A6 CLOSURE COMPLETE / USER EVALUATION GATE  
+**A0–A5:** COMPLETE; A4 conditionally skipped because no live gap hypothesis remained  
+**Substantive ground active:** NONE  
+**Actors:** inactive
 
-## Current purpose
+## Bounded result
 
-Determine whether the completed independent Work corpus remains sufficient when evaluated as one of the accepted four top-level Foundation grounds after Environment and Information have been deepened and accepted.
+The completed independent Work vertical remains sufficient as the current Foundation Work ground after four-ground boundary testing and newer agentic holdouts.
 
-This is **not** a restart of Work research and does not presume a new Work hierarchy is needed.
+Recommended current structural status:
 
-## Current live falsifiers
+```text
+Work   ← boundedly complete for current Foundation depth / USER EVALUATION PENDING
+        ← rich multidimensional internal problem map
+        ← NO universal immediate-child hierarchy promoted
+```
 
-A0 recovered nine hypotheses to attack:
+## Protected Work formulation
 
-- Environment-state theft;
-- Information-representation theft;
-- Actor authority/obligation theft;
-- purpose/outcome forcing another ground;
-- sensemaking/decision as missing first-order Work;
-- learning/discovery/meta-work as missing;
-- multi-agent integration/verification as missing;
-- resource/capacity mislocation;
-- current Work map being an incoherent grab-bag.
+> Work concerns the organization and evolution of pursuits over time: how possible pursuits toward purposes/outcomes are selected or rejected, structured, admitted, enacted, coordinated, monitored/evaluated, adapted, concluded or recovered under dependencies and constraints.
 
-## Audit route
+This is a research-ground formulation, not an ontology primitive or architecture component.
 
-- A0 — canonical/current Work evidence recovery — COMPLETE;
-- A1 — four-ground boundary and coverage audit — ACTIVE;
-- A2 — first-order gap / omission test — pending;
-- A3 — newer candidate-study holdouts — pending;
-- A4 — selective external/cross-domain holdouts only where a gap hypothesis survives — pending;
-- A5 — same-model adversarial rival / reduction / boundary-theft audit — pending;
-- A6 — bounded closure and return for user evaluation — pending.
+## Boundary corrections retained
 
-## Stop / reopen rule
+```text
+actual Work state
+!= informational representation of Work state
 
-If no material Work-local gap survives, close this package by accepting the existing Work vertical as sufficient for current ground-deepening purpose rather than manufacturing new branches.
+Work readiness/admission
+!= actual Environment capability/resource state
 
-If a material gap survives, open only the minimum targeted Work deepening needed to resolve it; do not restart the entire vertical.
+Work admission
+!= Actor obligation/authorization
 
-## Guardrail
+Work completion
+!= actual target condition achieved
+!= evidence says achieved
+!= authorized acceptance occurred
+```
 
-Do not begin Actors deepening, systematic cross-ground composition, architecture, ontology/data-model or implementation work in this pass.
+## Internal map status
+
+The prior Work dimensions remain deep and load-bearing, including purpose/outcome, plural units, admission, plan-vs-actual, control regimes, dependencies/coordination, flow/capacity relation, multidimensional state, effort/time/waiting, verification/validation/acceptance, recovery and bounded/continuing Work.
+
+They are **not promoted as immediate children** because stable sibling boundaries did not survive rival decomposition testing.
+
+## Audit result
+
+No material new Work-local first-order family survived tests of:
+
+- sensemaking/investigation/decision;
+- discovery-driven Work;
+- meta-work / work-system evolution;
+- multi-agent orchestration/integration/verification;
+- fresh-session continuity/migration;
+- policy/gate-generated Work;
+- risk/uncertainty;
+- value/benefit;
+- communication/handoff;
+- governance/compliance.
+
+Newer candidate studies reinforced existing Work distinctions rather than forcing a new family.
+
+## External-search decision
+
+Broad new external search was not opened because A1–A3 left no live first-order gap hypothesis and A5 did not revive one. The prior Work corpus already has broad cross-domain evidence. This is an information-gain decision, not a claim that Work scholarship is exhausted.
+
+## Verification status
+
+The prior Work corpus uses broad cross-domain evidence. The current audit adds accepted-ground boundary tests, newer candidate-study holdouts and A5 adversarial reduction.
+
+**A5 is same-model adversarial review. The combined Work result has not received independent second-researcher/model replication.**
+
+User evaluation may close sequencing but does not change verification independence.
+
+## Reopen triggers
+
+See `OPEN-QUESTIONS.md` and `A6-CLOSURE.md`. Reopen especially if Actors/composition exposes boundary theft, a materially different domain forces a missing first-order family, independent review finds an omission, or a stable child split emerges without false disjointness.
+
+## Current authorization / return condition
+
+**USER EVALUATION OF WORK RESULT ONLY.**
+
+No substantive ground is active.
+
+Do not begin:
+
+- Actors ground audit/deepening;
+- systematic relation/control composition;
+- SOUL / Development OS architecture;
+- ontology/data-model work;
+- implementation.
+
+After user evaluation, make a separate next-work transition decision.
