@@ -4,35 +4,48 @@
 **Activated:** 2026-09-05  
 **Parent:** `Cross-Ground Composition` — accepted  
 **Relational Binding:** accepted bounded leaf  
-**S0–S5:** COMPLETE  
-**Current phase:** S6 SYNTHESIS / IMMEDIATE-CHILD DECISION  
+**S0–S6:** COMPLETE  
+**Current phase:** S7 ADVERSARIAL CLOSURE  
 **Current authorised substantive activity:** COMPOSITE STANDING / QUALIFICATION CHILD PASS
 
-## Current leading judgment
+## Provisional result under final attack
 
 ```text
 Composite Standing / Qualification
-    ← BOUNDED LEAF HYPOTHESIS
+    ← BOUNDED LEAF
     ← cross-ground qualification only
-    ← no immediate child currently justified
-    ← shared semantic core + optional assessment/recognition layers
-    ← overlapping standing profiles
+    ← no immediate child promoted
+    ← shared semantic grammar + overlapping profiles
 ```
 
-## Strong routing correction
+Core routing rule:
 
-A standing does **not** become Composite merely because evidence, assessment Work or reports from other grounds are used to discover it.
+> Cross-ground evidence/access alone does not make a standing Composite. Multiple ground semantics must be part of the standing's constitutive/defining qualification basis.
 
-Composite routing requires that multiple accepted-ground semantics are part of the **standing's constitutive/defining qualification basis**. Ground-local standing remains ground-local when cross-ground material is merely epistemic access.
-
-## Current research route
+Core non-collapse:
 
 ```text
-S0–S5 ← COMPLETE
-S6 synthesis / immediate-child decision ← ACTIVE
-S7 adversarial closure / user evaluation gate
+ground-local standing
+!= cross-ground composite standing
+
+standing holds
+!= epistemic assessment
+!= decision/recognition
+!= recorded status
+
+criterion
+!= decision rule
+```
+
+S7 must attack the bounded-leaf result, the sibling boundaries and the proposed next-child sequencing.
+
+## Current route
+
+```text
+S0–S6 ← COMPLETE
+S7 adversarial closure ← ACTIVE
 ```
 
 ## Guardrail
 
-Control, Transition, architecture, ontology/data-model/schema and implementation remain inactive.
+Control, Transition, architecture, ontology/data-model/schema and implementation remain inactive until closure/evaluation.
