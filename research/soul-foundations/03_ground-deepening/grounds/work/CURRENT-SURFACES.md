@@ -1,19 +1,19 @@
 # Work Ground Coverage / Gap Audit — CURRENT SURFACES
 
-**Status:** canonical freshness binding at bounded closure / user-evaluation gate  
+**Status:** canonical freshness binding after Work user acceptance  
 **Date:** 2026-09-05  
 **Branch:** `main`  
-**Current phase:** A6 closure complete / USER EVALUATION PENDING
+**Current phase:** POST-EVALUATION / NEXT-GROUND SELECTION
 
 ## Current audit/result surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Audit state | `STATE.md` | `e00bedf6dd85c639679a3af71e50ee3a27b72d31` |
-| Audit router | `INDEX.md` | `aa205034a8bae554cd76b2ebcfb61ea25e26d5be` |
+| Audit state | `STATE.md` | `2689f38b81fb62b70b3b81948bc25e22cac11d31` |
+| Audit router | `INDEX.md` | `1e8ac74f49ae8a1b8887e4cdfa8079964298da27` |
 | Audit plan | `AUDIT-PLAN.md` | `35e0783a459242c99acc8cb7d4141ad4012cf279` |
-| Current key | `KEY.md` | `e0436f2e84484c5705f10c2d1cbf334a56189292` |
-| Current findings map | `FINDINGS-MAP.md` | `a8d465648a68784133b492b70f5696623dde4b45` |
+| Current key | `KEY.md` | `2b9e0a9d06cf461a42c38643f7fdc5e7717ed2eb` |
+| Current findings map | `FINDINGS-MAP.md` | `98f8ee2eb35bb05baf9601295b5e8a26b7a4b159` |
 | Integrated audit synthesis | `synthesis/WORK-GROUND-AUDIT-SYNTHESIS.md` | `5967c60b7650c0493cfb21813ff894b678a54138` |
 | Closure judgment | `A6-CLOSURE.md` | `38207d7f47362d03c3ed1a865a0990c57f977379` |
 | Residual / reopen questions | `OPEN-QUESTIONS.md` | `de07bb35b067543fe92e7a6904440257c2df9e2e` |
@@ -45,15 +45,15 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Ground-deepening state | `../../STATE.md` | `2405b819187d02b02ab5a47c757f4fc943a7f4a0` |
-| Ground-deepening router | `../../INDEX.md` | `4997fc65b0e68d88be4134ada0b90e2f860fd01e` |
-| Foundations state | `../../../STATE.md` | `a70ad48825337b60d23a806592a26df86d81b5fe` |
-| Foundations router | `../../../INDEX.md` | `af63a0ce1c605c4aff99184c375fe51df3c61316` |
+| Ground-deepening state | `../../STATE.md` | `4186c6c6d7077528081f60069f8327120a13503f` |
+| Ground-deepening router | `../../INDEX.md` | `aed4e9ec5ad58100293fd338ac283e0937ca5b66` |
+| Foundations state | `../../../STATE.md` | `752685c6ca6a5f5ea07e84587eab5c3f41160246` |
+| Foundations router | `../../../INDEX.md` | `d97efd09c3a2caf71a1968a230b2a33cf1087544` |
 
 ## Current bounded result
 
 ```text
-Work   ← boundedly complete / USER EVALUATION PENDING
+Work   ← boundedly complete / USER-EVALUATED / ACCEPTED
         ← rich multidimensional internal problem map
         ← NO universal immediate-child hierarchy promoted
 
@@ -62,7 +62,7 @@ substantive ground active ← NONE
 
 ## Authorization interpretation
 
-Current interaction is evaluation of the bounded Work result only. Actors, systematic composition, architecture, ontology/data-model and implementation remain inactive/unauthorised.
+Work is closed and accepted for the current ground-deepening stage. Parent state recommends an Actors coverage/gap audit as the next substantive ground, but Actors is not active until explicitly authorized.
 
 ## Verification note
 
