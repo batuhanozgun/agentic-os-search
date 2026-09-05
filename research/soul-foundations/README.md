@@ -126,9 +126,11 @@ No fifth peer ground, required merge/split, wrong-level correction or materially
 
 **Status:** boundedly complete / user-evaluated / accepted for current Foundation sequencing.
 
-### `05_relation-control-composition/` — cross-ground composition parent research
+### `05_relation-control-composition/` — cross-ground composition research
 
 The accepted adequacy result made composition—not ground identity—the next major Foundation problem.
+
+#### Composition parent
 
 The parent pass researched:
 - semantic-kind discrimination;
@@ -139,7 +141,7 @@ The parent pass researched:
 - selected agentic candidate-study falsifiers;
 - adversarial closure.
 
-Current bounded result:
+Accepted bounded structure:
 
 ```text
 Cross-Ground Composition
@@ -151,26 +153,65 @@ Cross-Ground Composition
 
 These are **diagnostic research problem regions**, not mutually exclusive event/relation classes and not architecture modules.
 
-Key result:
+The composition parent is **user-evaluated / accepted**.
+
+#### Relational Binding
+
+`relational-binding/` is the first completed child pass.
+
+Current bounded result under user evaluation:
 
 ```text
-pairwise connectivity != complete composition semantics
-
-composite standing != one ground-local status
-
-policy text
-!= legitimate authority
-!= authorization decision
-!= technical enforcement
-!= observed compliance
-
-sequence != causation
-intended effect != realized effect
+Relational Binding
+    ← bounded leaf
+    ← no immediate child promoted
+    ← reusable binding-semantic signature
+    ← overlapping relation-family profiles
 ```
 
-The parent result is currently **awaiting user evaluation**. No child is active.
+Core semantic signature:
 
-If accepted, `Relational Binding` is the recommended first child pass; the remaining child order should be re-selected after Binding closure rather than fixed now.
+```text
+Binding semantic instance
+├─ relation meaning / protected semantic question
+├─ exact anchors in typed semantic positions
+├─ applicability structure
+│   ├─ scope/reference frame
+│   ├─ effective/reference time where material
+│   └─ operation/method/stage/state/version/role qualification where material
+├─ relation-instance individuation
+└─ qualified/n-ary structure when binary decomposition loses association
+```
+
+Retained relation-family profiles—not children—include:
+- Reference / Representation / Targeting;
+- Participation / Position;
+- Dependency / Support;
+- Provenance / Attribution;
+- Situation / Access / Interface;
+- Specification / Evidence / Traceability.
+
+Key non-collapse rules:
+
+```text
+generic connectivity != semantic binding
+represented/asserted binding != actual binding
+actual binding != evidence sufficient to establish binding
+binding != composite standing
+binding != control result
+binding != transition/effect history
+graph reachability != legitimate transitive relation
+```
+
+Binding used W3C PROV-O, W3C n-ary relation guidance, W3C Web Annotation, NIST ABAC and selected candidate studies as external/cross-domain pressure without importing their data models as Foundation taxonomy.
+
+After Binding closure the remaining child sequence was re-evaluated as required by the parent result.
+
+Current recommendation if Binding is accepted:
+
+> **Composite Standing / Qualification** is the strongest next composition-child candidate.
+
+It is not active.
 
 ---
 
@@ -183,12 +224,13 @@ Environment / Operating Reality                 ← accepted
 Information / Representation                    ← accepted
 Work                                             ← accepted
 Actors / Agency–Participation–Authority          ← accepted
+post-deepening top-level adequacy                ← accepted
 
-Cross-Ground Composition                        ← bounded parent result / USER EVALUATION PENDING
-    ├─ Relational Binding                       ← discovered / inactive
-    ├─ Composite Standing / Qualification      ← discovered / inactive
-    ├─ Control / Constraint                    ← discovered / inactive
-    └─ Transition / Effect / Feedback          ← discovered / inactive
+Cross-Ground Composition                        ← accepted
+    ├─ Relational Binding                       ← BOUNDED LEAF / USER EVALUATION PENDING
+    ├─ Composite Standing / Qualification       ← recommended next if Binding accepted / inactive
+    ├─ Control / Constraint                     ← inactive
+    └─ Transition / Effect / Feedback           ← inactive
 ```
 
 Architecture, ontology/data model, schema design and implementation remain outside current Foundation authorization.
