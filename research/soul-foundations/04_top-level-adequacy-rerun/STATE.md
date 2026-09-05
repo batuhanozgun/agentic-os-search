@@ -1,14 +1,13 @@
 # Top-Level Adequacy Rerun — STATE
 
-**Status:** BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
+**Status:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
 **Activated:** 2026-09-05  
 **Closed for evaluation:** 2026-09-05  
-**User authorization:** explicit acceptance of the Actors result and instruction to continue  
-**Current phase:** Q6 CLOSURE COMPLETE / USER EVALUATION GATE  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** TOP-LEVEL ADEQUACY RERUN RESULT EVALUATION ONLY
+**User evaluation:** accepted 2026-09-05 for Foundation sequencing  
+**Current phase:** CLOSED / ACCEPTED  
+**Current authorised substantive activity:** NONE
 
-## Entering accepted grounds
+## Accepted grounds
 
 ```text
 Environment / Operating Reality                 ← accepted
@@ -17,7 +16,7 @@ Work                                             ← accepted
 Actors / Agency–Participation–Authority          ← accepted
 ```
 
-## Bounded result
+## Accepted bounded result
 
 > **The four-ground frame remains boundedly adequate at the current Foundation depth after recursive ground deepening and a fresh post-deepening adequacy rerun.**
 
@@ -43,59 +42,27 @@ Q2 level-alignment / reduction               ← COMPLETE / all four retained
 Q3 boundary-interaction pressure             ← COMPLETE / relations remain composition fabric
 Q4 materially different holdouts             ← COMPLETE / cross-domain frame survives
 Q5 rival decompositions                      ← COMPLETE / no stronger rival found
-Q6 bounded closure                           ← COMPLETE / USER EVALUATION GATE
+Q6 bounded closure                           ← COMPLETE / USER-EVALUATED / ACCEPTED
 ```
 
-## Strongest current correction
+## Strongest transition result
 
-The major unresolved Foundation problem is no longer the identity of the top-level grounds.
-
-It is now:
+The major unresolved Foundation problem is now:
 
 > **How do Environment, Information, Work and Actors compose through typed relations, derived standings, controls and transitions without collapsing their local semantics?**
 
-This is a later research phase, not a fifth ground.
+The user accepted this transition and separately authorized the parent-level composition research program under:
 
-High-priority pressure includes:
-
-- goal/outcome/value/criteria directedness;
-- Actor ↔ Work participation/obligation/authority;
-- capability/access/actionability/effective power;
-- observation/referent binding;
-- dependency/coordination/support;
-- verification/validation/acceptance;
-- provenance/attribution/accountability;
-- target/effect/causation;
-- delegation/access/enforcement/transitive authority;
-- feedback/learning/evolution.
-
-These are orientation pressures only, not an accepted relation taxonomy.
+`../05_relation-control-composition/`
 
 ## Verification status
 
-The rerun uses:
-
-- original cross-lineage adequacy evidence;
-- completed Environment and Information deepening;
-- Work and Actors four-ground audits;
-- targeted authoritative external holdouts from metrology, emergency management, healthcare/patient safety and AI risk governance;
-- same-model rival/adversarial comparison.
+The rerun uses original cross-lineage adequacy evidence, completed ground deepening, targeted authoritative cross-domain holdouts and same-model rival/adversarial comparison.
 
 **The integrated rerun has not received independent second-researcher/model replication, and no external source validates the exact four-ground synthesis.**
 
-User evaluation may close the sequencing gate but does not change verification independence.
+User acceptance closes the sequencing gate; it does not change verification independence.
 
-## Current authorization / return condition
+## Guardrail
 
-**USER EVALUATION OF THE TOP-LEVEL ADEQUACY RERUN RESULT ONLY.**
-
-No substantive Foundation research phase is active.
-
-Do not begin automatically:
-
-- systematic typed relation/control/composition research;
-- SOUL / Development OS architecture;
-- ontology/data-model work;
-- implementation.
-
-If the user accepts this adequacy result, make a separate transition decision and design the relation/control/composition research program before substantive relation research begins.
+This historical/current adequacy package does not itself authorize architecture, ontology/data model or implementation. Current Foundation authorization is controlled by the parent `../STATE.md`.
