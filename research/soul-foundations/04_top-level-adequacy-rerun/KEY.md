@@ -1,7 +1,7 @@
 # Top-Level Adequacy Rerun — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** bounded rerun result / awaiting user evaluation  
+**Status:** bounded rerun result / USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-05
 
 ## Shortest current result
@@ -23,21 +23,21 @@ No missing fifth ground, wrong-level placement, required merge/split or stronger
 
 The four-ground count did not change, but the evidence basis did:
 
-- Environment is now recursively deepened/accepted;
-- Information is now independently deepened/accepted beyond Records;
+- Environment is recursively deepened/accepted;
+- Information is independently deepened/accepted beyond Records;
 - Work survived a four-ground coverage/gap audit;
 - Actors survived a four-ground coverage/gap audit;
 - materially different external holdouts were tested;
 - serious rival top-level decompositions were attacked.
 
-## Strongest current distinction
+## Strongest distinction
 
 ```text
 ground adequacy
 != total Foundation completeness
 ```
 
-The four anchors are now boundedly stable, but their systematic typed relation/control/transition composition has **not yet been researched**.
+The four anchors are boundedly stable. The remaining major Foundation frontier is their systematic relation/control/transition composition.
 
 ## No fifth peer forced
 
@@ -51,29 +51,18 @@ Not promoted:
 - Time / Evolution;
 - Verification / Assurance.
 
-These are important cross-ground relations, derived standings, qualifiers or later composition concerns.
+These remain important cross-ground relations, derived standings, qualifiers or composition concerns.
 
-## High-priority later composition pressure
+## Current transition
 
-- goal/outcome directedness;
-- Actor ↔ Work participation/obligation/authority;
-- capability/access/actionability/effective power;
-- Environment ↔ Information observation/referent binding;
-- Work ↔ Information plan/status/evidence;
-- verification/validation/acceptance;
-- provenance/attribution/accountability;
-- target/effect/causation;
-- delegation/access/enforcement/transitive authority;
-- feedback/learning/evolution.
+User evaluation accepted this rerun for sequencing. Parent-level composition research is active under:
 
-This list is orientation only, not an accepted relation taxonomy.
+`../05_relation-control-composition/`
+
+This acceptance does not authorize architecture, ontology/data model or implementation.
 
 ## Verification boundary
 
 The rerun is source-backed and adversarially challenged but remains same-researcher synthesis. No independent second-researcher/model replication has been performed, and no external source validates the exact four-ground frame.
-
-## Current gate
-
-User evaluation only. Do not automatically begin systematic composition, architecture, ontology/data model or implementation.
 
 For detail: `FINDINGS-MAP.md` → `synthesis/TOP-LEVEL-ADEQUACY-RERUN-SYNTHESIS.md` → `Q6-CLOSURE.md`.
