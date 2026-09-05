@@ -25,8 +25,6 @@ Completed bounded corpora:
 - Actors;
 - Technical Work Environment.
 
-These remain evidence corpora rather than final top-level taxonomy authority.
-
 ### `02_adequacy/` — first top-level adequacy synthesis
 
 This stage exposed two major level corrections:
@@ -44,28 +42,15 @@ Actors / Agency–Participation–Authority
 + typed relations / control / transitions
 ```
 
-### `03_ground-deepening/` — recursive ground research
+### `03_ground-deepening/`
 
 All four grounds were deepened/evaluated and accepted.
 
 ### `04_top-level-adequacy-rerun/`
 
-The four-ground hypothesis was re-run after ground deepening rather than inherited.
+The four-ground hypothesis was re-run after deepening. No fifth peer ground, required merge/split, wrong-level correction or stronger rival survived.
 
-Result:
-
-```text
-Environment / Operating Reality
-Information / Representation
-Work
-Actors / Agency–Participation–Authority
-
-+ typed relations / control / transitions
-```
-
-No fifth peer ground, required merge/split, wrong-level correction or stronger rival survived.
-
-**Status:** user-evaluated / accepted for current Foundation sequencing.
+**Status:** user-evaluated / accepted.
 
 ---
 
@@ -89,7 +74,14 @@ Core problem:
 
 > What exact anchors are connected, in what typed semantic positions and applicability frame?
 
-Durable grammar preserves exact anchors, role/position, scope/time/version qualification, relation-instance identity, and qualified/n-ary structure where pairwise decomposition loses meaning.
+Key rules:
+
+```text
+generic connectivity != semantic binding
+represented binding != actual binding
+actual binding != evidence sufficient to establish binding
+graph reachability != legitimate transitive relation
+```
 
 ### Composite Standing / Qualification — accepted bounded leaf
 
@@ -104,7 +96,7 @@ ground-local Criterion-Relative Standing
 != cross-ground Composite Standing
 ```
 
-Strong distinctions:
+Key rules:
 
 ```text
 standing holds
@@ -120,75 +112,78 @@ capable != actionable != authorized != technically reachable
 
 Core problem:
 
-> How is an exact candidate behavior, transition, flow or protected effect governed under an applicable basis/objective, while preserving authority, decision, enforcement, coverage and monitoring distinctions when material?
+> How is an exact candidate behavior, transition, flow or protected effect governed under an applicable basis/objective?
 
-Accepted result:
-
-```text
-Control / Constraint
-    ← bounded leaf / accepted
-    ← no immediate child promoted
-```
-
-Canonical core:
+Key distinctions:
 
 ```text
-Control / Constraint core
-├─ protected governing question
-├─ exact governed focus / protected effect
-├─ governing basis / objective / invariant
-├─ governing mode / effect
-├─ applicability frame
-├─ precedence / conflict / exception / default semantics where material
-└─ current validity dependencies
-```
+policy != authority != decision != enforcement != monitoring != compliance
 
-Associated but non-collapsed concerns include authority/legitimacy, evaluation/decision/gate, enforcement/intervention, coverage/alternate-path/bypass, monitoring/observation, and compliance/effectiveness assessment.
-
-Most important scope distinction:
-
-```text
 governed-effect / control-objective scope
 != enforcement-point / monitored-path scope
 ```
 
-Therefore:
+Therefore one blocked path does not prove the protected effect is controlled end-to-end.
+
+### Transition / Effect / Feedback — current bounded parent result under evaluation
+
+This pass did **not** close as a leaf.
+
+Current structure:
 
 ```text
-one path blocked
-!= protected effect controlled
+Transition / Effect / Feedback
+├─ Cross-Ground Transition / Propagation
+├─ Cross-Ground Causal Effect / Contribution
+└─ Cross-Ground Feedback / Adaptation
 ```
 
-Accumulated non-collapse:
+Critical routing boundary:
 
 ```text
-policy text
-!= legitimate/current/applicable governing basis
-!= authority
-!= decision
-!= enforcement
-!= compliance
-
-review Work != gate result != authorized progression
-decision != enforcement
-enforcement-point success != end-to-end control-objective success
-obligation != actionability
-effective effect power != legitimate authority
+ground-local dynamics
+!= cross-ground Transition / Effect / Feedback
 ```
 
-### Transition / Effect / Feedback — recommended next / inactive
+#### Cross-Ground Transition / Propagation
 
-After Control acceptance, this is the strongest current next composition child.
+> What actually changed across ground boundaries, where/when did it become effective, and how fully did the change propagate?
 
-Expected protected frontier:
-- actual change and propagation;
-- intended versus realized effect;
-- sequence versus causation;
-- policy/authority/enforcement update propagation;
-- control failure/bypass → actual effect;
-- feedback/adaptation/evolution loops.
+```text
+change requested != change realized != change effective everywhere
+recorded event != actual occurrence
+occurrence time != observation time != effective time
+```
 
-It is **not active** and requires separate user authorization.
+#### Cross-Ground Causal Effect / Contribution
+
+> Which actions/events/conditions/controls/Work/Actor contributions caused, enabled, amplified, prevented, or failed to prevent/detect a realized cross-ground effect?
+
+```text
+sequence / association != causation
+trigger != complete causal explanation
+one cause identified != complete causal model
+```
+
+#### Cross-Ground Feedback / Adaptation
+
+> Did observations/results return across ground boundaries to alter later behavior, and was the influence one-off or persistent?
+
+```text
+observation != feedback
+feedback signal != feedback consumed
+feedback loop != learning/adaptation
+one-off response != persistent adaptation
+lesson recorded != learned system
+```
+
+External/cross-domain pressure used includes W3C PROV, Lamport distributed ordering, OpenTelemetry event timing, AWS/Google IAM propagation, NASA/FAA/CDC causal analysis, NIST incident/monitoring/AI RMF, FAA SMS, WHO patient-safety learning and selected project candidate studies.
+
+Current sequencing recommendation if this parent result is accepted:
+
+> **Cross-Ground Transition / Propagation** first.
+
+Then re-select between Causal Effect/Contribution and Feedback/Adaptation rather than pre-fixing the full order.
 
 ---
 
@@ -205,10 +200,13 @@ Cross-Ground Composition                        ← accepted
     ├─ Relational Binding                       ← bounded leaf / accepted
     ├─ Composite Standing / Qualification       ← bounded leaf / accepted
     ├─ Control / Constraint                     ← bounded leaf / accepted
-    └─ Transition / Effect / Feedback           ← recommended next / inactive
+    └─ Transition / Effect / Feedback           ← BOUNDED PARENT / USER EVALUATION PENDING
+       ├─ Cross-Ground Transition / Propagation     ← discovered / inactive
+       ├─ Cross-Ground Causal Effect / Contribution ← discovered / inactive
+       └─ Cross-Ground Feedback / Adaptation        ← discovered / inactive
 ```
 
-No substantive Foundation child is active at the current planning gate.
+No substantive Foundation child is active at the current evaluation gate.
 
 Architecture, ontology/data model, schema design and implementation remain outside current Foundation authorization.
 
@@ -225,8 +223,6 @@ Candidate studies may supply external evidence/counterexamples, falsifiers, mech
 ---
 
 ## Retrieval model
-
-For current Foundation state:
 
 `STATE.md → INDEX.md → current package STATE → KEY → FINDINGS-MAP → synthesis → targeted deep evidence`
 
