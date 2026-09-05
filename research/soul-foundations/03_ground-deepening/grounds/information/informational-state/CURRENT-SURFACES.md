@@ -1,16 +1,16 @@
 # Informational State / Representational Constitution — CURRENT SURFACES
 
-**Status:** canonical freshness binding at bounded leaf closure / user-evaluation gate  
+**Status:** canonical freshness binding at bounded leaf closure / user-evaluated  
 **Date:** 2026-09-05  
 **Branch:** `main`  
-**Current phase:** N7 closure complete / USER EVALUATION PENDING
+**Current phase:** CLOSED / USER-EVALUATED / ACCEPTED FOR FOUNDATION SEQUENCING
 
 ## Current orientation and authority
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Node state | `STATE.md` | `67073f98cdc133665ae0cdcf79969d2bf3730bea` |
-| Node router | `INDEX.md` | `9388d57d354cff7d18f4107f2c6f3cbd5aee979f` |
+| Node state | `STATE.md` | `a2dc3205cd058f26fa76d538f9b69d019709df16` |
+| Node router | `INDEX.md` | `8e87dcafa4a397e769201cb065eb7909cf553fb2` |
 | Current key | `KEY.md` | `ad97798ec29111e979e13f5a25cf9ac66999822a` |
 | Current findings map | `FINDINGS-MAP.md` | `d8a4411b8fce8150422200b8a091a41d69935f45` |
 | Integrated synthesis | `synthesis/INFORMATIONAL-STATE-SYNTHESIS.md` | `8d53f5a7520e68c220888ec036714a10e8d9895b` |
@@ -42,30 +42,27 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Information parent state | `../STATE.md` | `6e1db1383c939b03e2378ba47bdb0dfe5e682f99` |
-| Information parent router | `../INDEX.md` | `ab6fe4549cabbd06cf53a68403a77513bcd42108` |
-| Ground-deepening state | `../../../STATE.md` | `c32c5d415576b0b591dc4015fa5898e593616876` |
-| Ground-deepening router | `../../../INDEX.md` | `5028525a99105668dbda936b72db653b5b9a66d2` |
-| Foundations state | `../../../../STATE.md` | `c2754fdd231750fbc9dfe21e3e5f985e944359ee` |
-| Foundations router | `../../../../INDEX.md` | `0c5f5fadd30752c37b14efe156a9567e9e3deb1b` |
+| Information parent state | `../STATE.md` | `a5e89da139592b9b32fbf17aec2051fe29d641ae` |
+| Information parent router | `../INDEX.md` | `4b02d59c570d9b12d33248568fa4924f65295602` |
+| Ground-deepening state | `../../../STATE.md` | `b1bf228ed2fa3e74d39ba9f430c16545f5479292` |
+| Ground-deepening router | `../../../INDEX.md` | `a6d3e321a1a794db20e246ea037d97874597f20c` |
+| Foundations state | `../../../../STATE.md` | `add7f40b5ee226ae80d1f9d7fcaab4fc8e8042d7` |
+| Foundations router | `../../../../INDEX.md` | `1214a71add67ec76600b1d8a5f3d3746c3aabe84` |
 
-## Current bounded result
+## Current bounded result / sequencing
 
 ```text
-Informational State / Representational Constitution   ← bounded leaf / USER EVALUATION PENDING
-
-Immediate children                                  ← NONE PROMOTED
-substantive node active                              ← NONE
+Informational State / Representational Constitution   ← bounded leaf / user-evaluated
+Immediate children                                   ← NONE PROMOTED
+Current active sibling                               ← Informational Dynamics / Formation–Transformation
 ```
 
 The node retains explicit constitution/qualification dimensions and relations, but the research pass did not establish a stable immediate-child hierarchy at the current Foundation depth.
 
 ## Authorization interpretation
 
-Current interaction is user evaluation of the bounded node result only.
-
-This manifest does not authorize Informational Dynamics, any proposed State child, Work, Actors, systematic cross-ground composition, architecture, ontology/data-model or implementation work.
+This node is closed. Current substantive authorization is carried by `../informational-dynamics/STATE.md` and upstream current state surfaces.
 
 ## Verification note
 
-Exact SHA binding establishes repository-view identity only. It does not independently verify the research result. N6 is same-model adversarial review; the complete child synthesis has not received independent second-researcher/model replication.
+Exact SHA binding establishes repository-view identity only. It does not independently verify the research result. N6 is same-model adversarial review; the complete child synthesis has not received independent second-researcher/model replication. User evaluation does not alter that status.
