@@ -1,56 +1,77 @@
 # Relation / Control / Composition — STATE
 
-**Status:** PARENT ACCEPTED; RELATIONAL BINDING ACCEPTED; COMPOSITE STANDING ACTIVE  
+**Status:** PARENT ACCEPTED; RELATIONAL BINDING ACCEPTED; COMPOSITE STANDING BOUNDED LEAF / AWAITING USER EVALUATION  
 **Parent user evaluation:** ACCEPTED 2026-09-05  
 **Relational Binding:** bounded leaf / user-evaluated / accepted 2026-09-05  
-**Current phase:** COMPOSITE STANDING / QUALIFICATION — S0 ACTIVE  
-**Current authorised substantive activity:** COMPOSITE STANDING / QUALIFICATION CHILD PASS
+**Composite Standing / Qualification:** bounded leaf / USER EVALUATION PENDING  
+**Current phase:** COMPOSITE STANDING RESULT EVALUATION  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** COMPOSITE STANDING RESULT EVALUATION ONLY
 
 ## Accepted composition structure
 
 ```text
 Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
-├─ Composite Standing / Qualification ← ACTIVE
+├─ Composite Standing / Qualification ← BOUNDED LEAF / USER EVALUATION PENDING
 ├─ Control / Constraint                ← inactive
 └─ Transition / Effect / Feedback      ← inactive
 ```
 
-## Active child
+## Current Composite Standing result
 
 Canonical package:
 
 `composite-standing/`
 
-Protected question:
+Current bounded judgment:
 
-> What criterion-, target-, use-, authority-, evidence-, reference-frame- or time-relative standing holds only when several accepted-ground facts and bindings are jointly evaluated, and what exact anchors make that standing valid, current and decision-usable?
+> Composite Standing / Qualification is a bounded leaf for cross-ground qualifications whose constitutive/defining semantics cannot be localized to one accepted ground. No immediate child is promoted.
 
-## Accepted Binding prerequisite
-
-Composite Standing inherits, but may falsify, the accepted Binding grammar:
-- exact anchors in typed semantic positions;
-- relation meaning;
-- applicability scope/reference frame;
-- time/currentness where material;
-- relation-instance individuation;
-- qualified/n-ary structure where binary decomposition loses association.
-
-Correct Binding does not establish Composite Standing by itself.
-
-## Other child status
+Critical boundary:
 
 ```text
-Control / Constraint           ← inactive
-Transition / Effect / Feedback ← inactive
+ground-local Criterion-Relative Standing
+!= cross-ground Composite Standing
 ```
 
-Their order will be re-selected after Composite Standing closure rather than pre-committed.
+Cross-ground evidence, assessment or reporting does not by itself make a standing Composite.
+
+Stable semantic pressure includes:
+- exact qualified focus and Binding instances;
+- explicit qualification frame/criterion/use/scope;
+- constitutive cross-ground basis;
+- non-boolean/uncertainty-aware result semantics;
+- distinction among standing, assessment, decision/recognition and recorded representation;
+- validity dependencies/currentness.
+
+## Child status
+
+```text
+Relational Binding                  ← accepted / inactive
+Composite Standing / Qualification ← evaluation pending / inactive
+Control / Constraint                ← RECOMMENDED NEXT IF STANDING ACCEPTED / inactive
+Transition / Effect / Feedback      ← inactive
+```
+
+## Sequencing result after Standing closure
+
+The remaining-child sequencing question was re-evaluated.
+
+Current recommendation:
+
+> **Control / Constraint should be the next composition child if Composite Standing is accepted.**
+
+Reason: Standing leaves policy/criterion, legitimate authority, permission/obligation, decision/gate, enforcement and bypass semantics unresolved.
+
+This recommendation does not activate the child. Re-select Transition priority after Control closure.
 
 ## Verification status
 
-Relational Binding B7 is same-model adversarial review, not independent verification. Composite Standing has not yet reached a verdict.
+Relational Binding B7 and Composite Standing S7 are same-model adversarial reviews. No independent second-researcher/model replication has validated these exact bounded-leaf results.
 
-## Guardrail
+## Current authorization
 
-Do not begin Control, Transition, architecture, ontology/data-model/schema work or implementation while Composite Standing is active.
+**COMPOSITE STANDING RESULT EVALUATION ONLY.**
+
+Do not automatically begin Control, Transition, architecture, ontology/data-model/schema work or implementation.
