@@ -8,7 +8,7 @@ Read `STATE.md` first for authorization and phase.
 
 ## Current status
 
-**ACTIVE — A0 canonical/current evidence recovery.**
+**ACTIVE — A1 four-ground boundary / coverage audit.**
 
 Exactly one substantive ground is active: `Actors`.
 
@@ -16,17 +16,16 @@ Exactly one substantive ground is active: `Actors`.
 
 1. `STATE.md` — authorization, phase and stop rule.
 2. `AUDIT-PLAN.md` — audit questions, evidence strategy and pass structure.
-3. `A0-EVIDENCE-RECOVERY.md` once produced.
-4. A1–A5 audit artifacts as completed.
-5. `KEY.md`, `FINDINGS-MAP.md` and synthesis when bounded closure is reached.
-6. `A6-CLOSURE.md` — final gap/no-gap judgment and verification status.
-7. `CURRENT-SURFACES.md` — exact current surface binding.
+3. `A0-EVIDENCE-RECOVERY.md` — recovered corpus, boundaries and live hypotheses.
+4. `A1-FOUR-GROUND-BOUNDARY-COVERAGE.md` once produced.
+5. A2–A5 audit artifacts as completed.
+6. `KEY.md`, `FINDINGS-MAP.md` and synthesis when bounded closure is reached.
+7. `A6-CLOSURE.md` — final gap/no-gap judgment and verification status.
+8. `CURRENT-SURFACES.md` — exact current surface binding.
 
 ## Prior Actors corpus
 
-The audit reuses rather than replaces:
-
-`../../../01_verticals/actors/`
+The audit reuses rather than replaces `../../../01_verticals/actors/`.
 
 Preferred prior-corpus path:
 
@@ -40,7 +39,7 @@ Preferred prior-corpus path:
 
 ## Candidate-study reuse
 
-Likely first holdouts:
+Likely holdouts:
 
 - `research/studies/anthropic-ai-native-sdlc-playbook/`;
 - `research/studies/multi-agent-patterns/`;
