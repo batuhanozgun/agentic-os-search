@@ -5,7 +5,7 @@
 **User authorization:** broad gstack research and durable repository work authorised through the current operational boundary  
 **Pinned target:** `garrytan/gstack@0d1bd5616c0ef096bb7ccee336f63c60ee408618`  
 **Observed:** 2026-09-05  
-**Current phase:** S2 — subsystem reconstruction; **six bounded syntheses complete**  
+**Current phase:** S2 — subsystem reconstruction; **seven bounded syntheses complete**  
 **Foundation mutation:** NONE / NOT AUTHORISED BY THIS STUDY
 
 ## Protected research question
@@ -14,94 +14,82 @@ Build a source-grounded model of gstack as an implemented software-development o
 
 The Foundation four-ground frame remains an upper-level projection/comparison frame, not the initial source taxonomy.
 
-## Method
+## Evidence method
 
-Research units are semantic mechanisms/subsystems, not fixed file batches.
+Research units are semantic mechanisms/subsystems. Load-bearing claims distinguish:
 
-Load-bearing mechanisms are reconstructed from the strongest available combination of:
-
-```text
-behavior/policy contract
-+ generated/composed instruction surfaces
-+ orchestration/helper code
-+ runtime capability
-+ persistent artifacts/state
-+ tests/evals/compliance checks
-```
-
-Evidence classes remain distinct:
-
-1. intended policy;
+1. authored/intended policy;
 2. implemented composition/runtime contract;
-3. structurally pinned contract;
-4. behavioral evidence;
+3. structural tests/pins;
+4. behavioral E2E evidence;
 5. independent verification — not established for gstack as a whole.
 
-Higher-level syntheses retain source re-entry routes through `SOURCE-LEDGER.md`.
+Higher synthesis never removes source re-entry through `SOURCE-LEDGER.md`.
 
 ---
 
 ## Completed durable subsystem syntheses
 
-### 1 — Planning / specification / work admission
+1. `syntheses/planning-specification-work-admission.md`
+   - discovery → premise qualification → planning/review → spec → work admission.
 
-`research/studies/gstack/syntheses/planning-specification-work-admission.md`
+2. `syntheses/review-qa-ship-delivery-qualification.md`
+   - implementation → tests/coverage → review/QA → specialist/adversarial challenge → delivery qualification.
 
-Discovery, premise challenge, durable design lineage, CEO/engineering review, `/autoplan` delegated authority, specification, quality/redaction/sink gates, issue/archive and optional isolated execution.
+3. `syntheses/browser-runtime-security-evidence.md`
+   - persistent browser runtime, capability/tab/listener/CDP boundaries, evidence freshness and security failure polarity.
 
-### 2 — Review / QA / ship / delivery qualification
+4. `syntheses/investigation-root-cause-debug-control.md`
+   - evidence → falsifiable causal hypothesis → bounded fix → regression/fresh reproduction; strong debugging discipline but not mandatory systemic RCA.
 
-`research/studies/gstack/syntheses/review-qa-ship-delivery-qualification.md`
+5. `syntheses/memory-learnings-context-gbrain.md`
+   - checkpoints, sourced/decayed learnings, typed/TTL/budgeted GBrain context, trust/privacy/ingest controls; negative finding: `stale-fallback` status is lost before planning consumption.
 
-Review, browser QA, merged-code tests, failure ownership, semantic changed-path coverage, conditional plan completion, fresh pre-landing review, specialist/red-team/adversarial challenge, fix→test→review convergence and PR/release evidence.
+6. `syntheses/multi-agent-cross-model-coordination.md`
+   - fresh-context specialization, parallel fan-out, spawned workflow delegation, Codex outside-model challenge, remote pairing, liveness/partial-failure semantics; negative findings include implicit-dispatch recurrence and non-Claude host mismatch.
 
-### 3 — Browser runtime / security / evidence
+7. `syntheses/guarded-action-security-review.md`
+   - preventive tool interposition, one-way decision authority, CSO detective/advisory qualification, and host-dependent enforcement strength.
 
-`research/studies/gstack/syntheses/browser-runtime-security-evidence.md`
-
-Persistent browser daemon, per-tab state/ref semantics, root/scoped authority, own-only versus shared tab policy, local/tunnel listener separation, deny-default CDP, URL/SSRF/path controls, opt-in persistence, content/prompt-injection defenses, audit/activity evidence and heterogeneous security failure polarity.
-
-### 4 — Investigation / root-cause / debug control
-
-`research/studies/gstack/syntheses/investigation-root-cause-debug-control.md`
-
-Evidence before hypothesis, explicit falsifiable causal claims, 3-strike escalation, Claude-host freeze enforcement, host differences, minimal intervention, regression + fresh original-symptom verification, durable investigation learnings, and the causal-depth limit between local confirmed mechanism and systemic RCA.
-
-### 5 — Memory / learnings / context / GBrain
-
-`research/studies/gstack/syntheses/memory-learnings-context-gbrain.md`
-
-Distinguishes context checkpoints, local sourced/confidence-tagged learnings, typed/budgeted/TTL-aware GBrain planning digests, and trust/privacy/ingest authority. Includes the negative source-fidelity finding that `stale-fallback` state is computed by the cache but hidden from planning consumers because the resolver suppresses stderr.
-
-### 6 — Multi-agent / cross-model coordination
-
-`research/studies/gstack/syntheses/multi-agent-cross-model-coordination.md`
-
-Reconstructs six materially different coordination modes:
+### Security-control synthesis — key results
 
 ```text
-A. fresh-context specialization
-B. parallel specialist fan-out
-C. parallel generative fan-out
-D. spawned workflow delegation
-E. cross-model challenge
-F. remote capability pairing / optional worktree-parallel execution
+Preventive controls
+  /careful → Bash PreToolUse allow / ask / narrow HIGH deny
+  /freeze  → Edit/Write path deny
+  /guard   → careful + freeze composition
+
+Decision authority
+  typed one-way-door registry
+  + secondary destructive keyword net
+  + AUQ preference hook
+  → convenience preferences cannot suppress destructive/high-stakes human confirmation
+
+Detective/advisory security
+  /cso
+  → candidates
+  → hard FP filtering
+  → active source verification
+  → fresh verifier
+  → confidence/status gate
+  → exploit scenario/remediation
+  → timestamped report/trend
 ```
 
-Key results:
+Important corrections:
 
-- fresh-context separation and model diversity are distinct; same-family Claude subagents are not outside-model verification;
-- v1.79 is a causal record of a third recurring stranded-parent failure class after Claude Code changed Agent calls to background-by-default;
-- the proximate fix is explicit `run_in_background: false`, but the deeper failure was treating a load-bearing synchronization property as prose/default behavior instead of a first-class dispatch-interface invariant;
-- critical `/ship` → `/document-release` delegation has a machine-readable child-result contract, spawned-session decision adaptation, authority subtraction, parent type validation, timeout/cancellation and shared-working-tree reconciliation;
-- fresh context does not imply filesystem/worktree/process isolation;
-- Review Army parallel fan-out normalizes/fingerprints/deduplicates child findings but same-model specialist agreement remains correlated evidence;
-- Autoplan deliberately withholds prior-phase context from Claude subagents while giving accumulated findings to Codex, separating de-anchored reread from integrated outside-model challenge;
-- nested Codex is suppressed when already running under Codex because same-model self-review does not provide the intended diversity;
-- pair-agent browser-tab isolation is resource-specific and cannot be generalized to ordinary Agent subagents;
-- partial failure semantics depend on child criticality: additive reviewers may fail and degrade, while a still-mutating shared-state child can stop parent continuation;
-- multi-agent behavioral coverage is heterogeneous: ship docs handoff/spawned gates are strongly exercised, while Review Army's actual parallel topology and Design Shotgun are much more structurally than behaviorally established;
-- non-Claude host dispatch fidelity is a known pinned-revision gap: Codex-host ship can still receive Claude-specific Agent-tool instructions it cannot execute.
+- `/careful` is mainly an **ask gate**, with a deliberately tiny hard-deny subset; source calls HIGH a best-effort advisory hard-stop, not a universal policy boundary.
+- malformed/obfuscated/unreadable Bash payloads fail toward `ask`, not silent allow.
+- `/guard` is composition, not a filesystem/process sandbox; Bash and Edit/Write are controlled by different partial mechanisms.
+- on Claude, careful/freeze/guard use real PreToolUse hooks; common external-host renders remove hook frontmatter and inject **Safety Advisory prose** instead. Same skill name therefore does not imply equivalent enforcement.
+- typed one-way-door standing is primary; keyword classification is defense-in-depth because prose wording is too brittle for the primary safety boundary.
+- `never-ask` preference cannot auto-decide a one-way door; ambiguous recommendations also refuse auto-decision.
+- CSO daily mode favors precision (`>=8/10`); comprehensive mode favors recall (`>=2/10`) and labels weak results `TENTATIVE`.
+- CSO separates severity, confidence and verification status (`VERIFIED` / `UNVERIFIED` / `TENTATIVE`).
+- inability to quote the motivating current source forces confidence down and suppresses the finding from the main report.
+- fresh verifier reduces anchoring but is not independent external verification.
+- CSO’s “read-only” rule is behavioral rather than capability-enforced: the skill has Write authority for report persistence and no inspected source-write sandbox.
+- `.gstack/security-reports/*` are timestamped historical audit artifacts; no targeted pinned-repo evidence showed them acting as automatic live ship/deploy blockers.
 
 ---
 
@@ -111,157 +99,120 @@ Key results:
 
 **Status:** strengthened working hypothesis, not whole-system conclusion.
 
-Across six syntheses:
-
 ```text
 Planning/spec
-→ qualifies intent before work admission
+→ qualifies intent before admission
 
 Review/ship
 → qualifies implementation before delivery
 
 Browser/runtime
-→ qualifies capability, effect and evidence at execution boundaries
+→ qualifies capability, effect and evidence
 
 Investigate
 → qualifies causal explanation before corrective mutation
 
 Memory/context
-→ qualifies prior informational state before reuse
+→ qualifies prior information before reuse
 
 Multi-agent coordination
-→ qualifies delegation itself:
-   context, authority, completion, result validity and failure continuation
+→ qualifies delegation, completion and child evidence
+
+Guarded action/security
+→ qualifies whether effects may proceed,
+   whether the human must decide,
+   and whether security claims deserve standing
 ```
 
-### C2 — qualification can be recomputed instead of requiring historical ceremony
+### C2 — qualification can be recomputed; ceremony history is secondary
+Current standing often matters more than prior named ceremony. Browser refs, diff reviews, security evidence and child results have their own invalidation conditions.
 
-**Status:** strong cross-source inference.
-
-Current qualified standing often matters more than whether a named prior ceremony occurred. Ship can recompute review standing; browser evidence is invalidated by state change; children can independently recompute findings in fresh contexts.
-
-### C3 — durable artifacts and typed handoffs can become active control inputs
-
-**Status:** strong cross-subsystem inference.
-
-Plans, decisions, QA artifacts, review results, checkpoints, learnings and child JSON results can alter later admission, verification, release or parent continuation.
+### C3 — artifacts and typed representations can become active control inputs
+Plans, reports, decisions, checkpoints, learnings and child JSON can alter later work. Their authority is consumer- and freshness-specific.
 
 ### C4 — authority is explicit, movable and resource-specific
-
-**Status:** strong cross-subsystem inference.
-
-User approval, delegated autoplan decisions, ship overrides, browser capabilities, GBrain repo policy, investigate escalation and child scope guards are distinct authority transitions rather than one universal autonomy level.
+User approval, delegated decisions, runtime capabilities, GBrain policy, one-way doors, child scope guards and escalation are different authority relations.
 
 ### C5 — freshness is object-relative
-
-**Status:** strong synthesis conclusion.
-
-Diffs, plans, browser refs, checkpoints, learnings, brain digests and child results become invalid/stale for different reasons.
+Diff, plan, browser state, checkpoint, learning, brain digest, child result and security report become stale for different reasons.
 
 ### C6 — evidence diversity is not automatically verification independence
-
-**Status:** strong synthesis conclusion.
-
-Static reasoning, tests, browser observation, same-family fresh subagents and outside-model Codex challenge differ in oracle and common-cause dependence. Agreement is useful but not automatically independent verification.
+Same-family fresh agents, Codex, tests, browser observation and CSO verifiers share varying common causes/oracles. Agreement is useful, not automatic independent verification.
 
 ### C7 — failure polarity is deliberately heterogeneous
+Depending on mechanism, uncertainty can deny, ask, degrade, preserve stale state, suppress a claim, continue with partial evidence, or stop to prevent uncontrolled mutation.
 
-**Status:** strong synthesis conclusion.
+### C8 — source→view fidelity is system-level
+Known examples: generated skill vs template/resolver, checkpoint vs current source, browser stale refs, false-green security-state removal, hidden GBrain stale label, typed child data vs parent instruction, and historical CSO report vs current security truth.
 
-Some conditions hard-deny, some degrade, some require explicit override, some preserve stale-but-usable information, some continue with partial reviewers, and some stop specifically to avoid uncontrolled shared-state mutation.
+### C9 — causal depth remains bounded
+`/investigate` can terminate at a confirmed proximate mechanism; v1.79 multi-agent analysis demonstrates why recurrence/prevention/detection layers sometimes require deeper RCA.
 
-### C8 — source→view fidelity is a system-level concern
+### C10 — test names do not imply equal verification strength
+Some E2Es reproduce production topology; others inline checklists or test presentation. Confidence follows actual oracle/topology.
 
-**Status:** strong cross-subsystem conclusion.
-
-Examples include generated skill vs template/resolver provenance, checkpoint summary vs current source, browser stale refs, removed false-green security state, hidden GBrain stale-fallback state, and child-output data that must not become parent instructions merely because a trusted child produced it.
-
-### C9 — “root cause” can stop at a proximate confirmed mechanism
-
-**Status:** strong causal-depth qualification.
-
-Investigate encourages causal evidence/falsification but does not mandate a prevention/detection/systemic second layer.
-
-### C10 — test strength varies materially by subsystem
-
-**Status:** direct coverage conclusion.
-
-A named E2E can test production topology, a simplified inline approximation or merely output format. Confidence follows the actual oracle/topology, not the filename.
-
-### C11 — coordination correctness includes liveness, not only logical task decomposition
-
-**Status:** strong multi-agent causal conclusion.
-
-The v1.79 recurrence shows that a correct child task is insufficient if parent wait/completion semantics are implicit. Work-system correctness includes timeout, cancellation, duplicate-suppression and reconciliation after partial effects.
+### C11 — work-system correctness includes liveness
+Parent/child wait, timeout, cancellation, duplicate suppression and partial-effect reconciliation are correctness properties.
 
 ### C12 — isolation must name the resource
+Fresh context, browser tab, worktree, filesystem, memory and model separation are distinct.
 
-**Status:** strong corrective conclusion.
-
-Fresh context, browser-tab ownership, worktree separation, filesystem side effects, memory scope and model separation are different properties. No universal “agent isolation” standing exists in the inspected system.
-
-### C13 — multi-agent aggregation is itself a control mechanism
-
-**Status:** strong source observation.
-
-Parent workflows parse, validate, fingerprint, deduplicate, confidence-gate and synthesize child results. Child output is not automatically authoritative parent state.
+### C13 — aggregation is itself control
+Child/security findings are parsed, filtered, validated, deduplicated and status-qualified before affecting parent/user decisions.
 
 ### C14 — host portability is a distinct validity dimension
+A rule proven on Claude hooks/Agent semantics cannot be silently generalized to Codex/Factory/OpenClaw/Hermes.
 
-**Status:** direct known-gap observation.
+### C15 — prevention, authority and detection are different security layers
+A warning/deny hook, a mandatory human confirmation, and a CSO finding have different effects and must remain separate in later system modeling.
 
-A behavior proven on Claude-host Agent semantics cannot be silently generalized to Codex/Factory/OpenClaw/Hermes renders. Dedicated portability research remains necessary.
+### C16 — host capability can downgrade enforcement to advice
+The careful/freeze/guard generator path is a concrete example: runtime interposition on Claude becomes prose self-policing on external hosts.
 
 ---
 
-## Verification limits currently protected
+## Protected verification limits
 
 - no independent external replication of gstack as a whole;
-- same-family fresh-context agents are not independent verification;
-- cross-model challenge is not automatically independent verification;
-- several E2Es are scenario-bounded or approximate production orchestration;
-- Review Army's core parallel Agent topology has weaker behavioral coverage than its structural/checklist coverage;
-- a dedicated Design Shotgun production-topology E2E was not found in the targeted search;
-- v1.79 foreground semantics are structurally pinned across many carriers but not runtime-enforced by a universal hook at the pinned revision;
-- not every foreground child site has Step-18-level timeout/cancellation/reconciliation;
-- cross-host subagent dispatch semantics are known incomplete;
+- same-family subagents and cross-model challenge are not automatically independent verification;
+- Review Army production parallelism has weaker behavioral coverage than structural/checklist coverage;
+- foreground Agent semantics are not universally runtime-enforced at the pinned revision;
+- cross-host subagent dispatch fidelity is incomplete;
+- careful regex classification is not a complete shell semantic parser/sandbox;
+- careful/freeze/guard enforcement does not port unchanged to external hosts;
+- CSO confidence scores are authored calibration heuristics, not externally validated probabilities;
+- CSO is not equivalent to professional pentesting and does not automatically gate delivery;
+- CSO report freshness is not automatically recomputed by another control plane;
 - browser/runtime security has no independent penetration validation;
-- live hostile/public ngrok behavior was not reproduced by inspected tests;
-- optional ML prompt-injection defense is fail-open;
 - GBrain semantic correctness is not independently validated;
-- restored checkpoint semantics are not automatically revalidated against current source;
-- stale GBrain fallback loses its freshness label in the planning preflight view;
+- stale GBrain fallback loses its freshness label in planning view;
 - production deploy/canary/retro closure remains unsynthesized;
 - four-ground/cross-ground projection remains premature.
 
 ---
 
-## Known cautions / inconsistencies
+## Known cautions
 
-1. `docs/PROJECT_STRUCTURE.md` is a derived view and contains at least one stale/non-resolving path; actual pinned tree/source wins.
-2. Long sources marked `SUBSTANTIAL / CONTINUE` require re-entry before stronger whole-file claims.
-3. First-party tests/evals are evidence, not independent external verification.
-4. Upstream `main` is fast-moving; all conclusions are pinned-revision conclusions.
-5. “Gate,” “required,” “always-on,” “root cause,” “security,” “coverage,” “memory,” “agent,” “parallel,” and “independent” must be interpreted from actual control semantics.
-6. Pair-agent own-only isolation does not generalize to shared local browser clients or filesystem/worktree isolation.
-7. Browser between-call persistence does not imply default headless cross-daemon persistence.
-8. Investigate freeze is not a full filesystem sandbox and is host-specific.
-9. Investigate text inconsistently refers to three failed hypotheses versus three failed fix attempts.
-10. Brain-cache spec comments reference a non-existent `test/autoplan-preflight-budget.test.ts`; equivalent current assertions exist elsewhere. Actual tests win.
-11. A warm/stale distinction exists inside brain cache but the current planning preflight hides non-warm status by suppressing stderr.
-12. `MULTI-SPECIALIST CONFIRMED` and cross-model consensus are workflow confidence heuristics, not calibrated independent probabilities.
-13. Review Army E2Es frequently inline specialist checklists instead of exercising actual parallel child dispatch.
-14. Codex-host ship dispatch fidelity has an explicit unresolved TODO at the pinned revision.
-15. The v1.79 PreToolUse runtime enforcement follow-up remains TODO; current protection is guidance + structural scanning + selected behavioral E2Es.
+1. Derived docs never override pinned source/tree.
+2. `SUBSTANTIAL / CONTINUE` sources require re-entry for stronger whole-file claims.
+3. First-party tests/evals are evidence, not external independent verification.
+4. All conclusions are pinned-revision conclusions; upstream is fast-moving.
+5. Terms such as gate/security/root-cause/memory/agent/parallel/independent/isolation/read-only must be interpreted from actual control semantics.
+6. Pair-agent own-only isolation is browser-tab-specific.
+7. Investigate freeze is not a full filesystem sandbox and is host-specific.
+8. GBrain warm/stale distinction is lost in current planning preflight representation.
+9. Multi-specialist/cross-model agreement is a workflow heuristic, not calibrated independence.
+10. Codex-host ship has a known Agent-dispatch fidelity gap.
+11. `/careful` HIGH deny is session-scoped and explicitly not a universal policy boundary.
+12. `/guard` does not make Bash filesystem mutations obey the freeze Edit/Write boundary.
+13. CSO code “read-only” behavior is not enforced by a source-write capability sandbox.
+14. Historical CSO report presence is not current security proof.
 
 ---
 
 ## Current coverage gaps
 
-Major unresolved clusters:
-
-- **guarded-action / CSO security-review mechanisms beyond browser/freeze — NEXT**;
-- host adapters / portability fidelity as a dedicated subsystem;
+- **host adapters / portability fidelity — NEXT**;
 - deploy / canary / production observation / retrospective feedback;
 - test/eval/judge/routing/compliance/flake lifecycle;
 - repository self-development / generation / update / release mechanisms;
@@ -272,21 +223,18 @@ Major unresolved clusters:
 
 ## Next work
 
-The immediate next native subsystem is **guarded-action / CSO security-review mechanisms beyond browser/freeze**.
+The immediate next native subsystem is **host adapters / portability fidelity**.
 
 Research question:
 
-> outside the already-synthesized browser security and investigate freeze controls, how does gstack constrain dangerous action, represent security standing, verify candidate vulnerabilities, separate advisory findings from enforced blocks, and decide when uncertainty should deny, degrade, escalate or remain informational?
+> when gstack renders one conceptual workflow for Claude, Codex, Factory/Droid, Cursor, OpenClaw, Hermes and other supported hosts, which semantics are preserved, rewritten, suppressed, approximated, or weakened — and how can a consumer tell whether a cross-host skill still has the same effective behavior and control strength?
 
 Priority route:
 
-1. reconstruct `/cso` scan → candidate → fresh verifier → standing/report lifecycle without duplicating the multi-agent analysis;
-2. inspect `/careful`, `/guard`, dangerous-operation hooks and other mutation guards;
-3. distinguish policy prose from actual runtime deny/enforcement;
-4. trace security finding confidence/verification states and false-positive controls;
-5. inspect persistence/audit/receipt paths and whether security standing can become stale;
-6. inspect host-specific hook loss or advisory substitutions only as required for this subsystem, deferring full portability synthesis;
-7. map structural tests versus live behavioral E2Es;
-8. write a bounded guarded-action/security-review synthesis before production/deploy feedback or host portability.
-
-Only after several more native subsystem syntheses should the study begin the four-ground/cross-ground projection.
+1. reconstruct host config/type model and generation pipeline;
+2. compare frontmatter/tool/path/resolver suppression across representative hosts;
+3. inspect safety-hook → prose degradation, Agent dispatch gaps and GBrain/cross-model suppression;
+4. distinguish surface syntax portability from semantic fidelity;
+5. inspect golden/generated fixtures and host-specific tests;
+6. identify whether host capability differences are visible to users/workflows or can become silent behavioral drift;
+7. write a bounded portability synthesis before production/deploy feedback.
