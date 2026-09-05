@@ -1,61 +1,42 @@
 # Relation / Control / Composition — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control accepted; next-child planning  
+**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent awaiting user evaluation  
 **Date:** 2026-09-05
 
 ## Shortest current result
 
 Systematic cross-ground composition is a coherent Foundation research problem distinct from, but dependent on, the four accepted grounds.
 
-Accepted bounded parent structure:
+Current bounded structure:
 
 ```text
 Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
 ├─ Composite Standing / Qualification ← bounded leaf / accepted
 ├─ Control / Constraint                ← bounded leaf / accepted
-└─ Transition / Effect / Feedback      ← recommended next / inactive
+└─ Transition / Effect / Feedback      ← bounded parent / USER EVALUATION PENDING
+   ├─ Cross-Ground Transition / Propagation     ← discovered / inactive
+   ├─ Cross-Ground Causal Effect / Contribution ← discovered / inactive
+   └─ Cross-Ground Feedback / Adaptation        ← discovered / inactive
 ```
 
-These are **diagnostic research problem regions**, not mutually exclusive event/relation classes and not architecture modules.
+These are diagnostic research problem regions, not architecture modules or mutually exclusive object/event classes.
 
-## Accepted child results so far
+## Accepted child results
 
 ### Relational Binding
-
-Protected question:
-
-> What is connected to what, in what typed semantic positions and under what applicability conditions, such that replacing the connection with a generic link would lose decision-critical meaning?
-
-Result: bounded leaf with exact-anchor / typed-position / applicability / qualified-n-ary binding grammar.
+What exact anchors/roles are connected under which applicability frame?
 
 ### Composite Standing / Qualification
-
-Protected question:
-
-> What qualification cannot be localized to one accepted ground because several ground semantics are constitutive of what the standing means or what makes it hold?
-
-Result: bounded leaf with a cross-ground qualification grammar and a strict boundary against ground-local Criterion-Relative Standing.
-
-Key distinction:
+What cross-ground qualification holds because several ground semantics are constitutive of the standing?
 
 ```text
-standing holds
-!= assessment supports it
-!= decision recognizes it
-!= record says it holds
+standing holds != assessment supports != decision recognizes != record says
 ```
 
 ### Control / Constraint
-
-Protected question:
-
-> What governing semantics apply to an exact candidate behavior/transition/effect under an applicable governing basis/objective?
-
-Result: bounded leaf with a governing-control grammar and no immediate child promoted.
-
-Key distinctions:
+How is an exact candidate behavior/transition/effect governed under an applicable basis/objective?
 
 ```text
 policy != authority != decision != enforcement != monitoring != compliance
@@ -63,39 +44,54 @@ policy != authority != decision != enforcement != monitoring != compliance
 governed-effect scope != enforcement-point scope
 ```
 
-Therefore local mechanism success does not prove end-to-end control success.
+## Current Transition parent result
 
-## Remaining region
+### Cross-Ground Transition / Propagation
+What actually changed and where/when/how fully did it propagate?
 
-### Transition / Effect / Feedback
+### Cross-Ground Causal Effect / Contribution
+Why did the realized effect occur; what contributed, enabled, prevented or failed to prevent/detect it?
 
-How do changes/actions/observations/decisions/effects propagate across ground states and composite standings over time, with what trigger/causal/feedback semantics?
+### Cross-Ground Feedback / Adaptation
+Did observations/results return to alter later behavior, and was the influence one-off or persistent?
 
-## Strongest non-collapse rules
+Strongest new non-collapse:
 
 ```text
-pairwise connectivity != complete composition semantics
-represented relation/standing != actual relation/standing
-ground-local standing != cross-ground Composite Standing
-policy text != legitimate authority != authorization decision != technical enforcement != observed compliance
-enforcement-point success != end-to-end control-objective success
-sequence != causation
-intended effect != realized effect
-reachable effect power != legitimate authority
+change requested != change realized != change effective everywhere
+recorded event != actual occurrence
+occurrence time != observation time != effective time
+sequence / association != causation
+trigger != complete causal explanation
+one cause identified != complete causal model
+observation != feedback
+feedback signal != feedback consumed
+feedback loop != learning/adaptation
+one-off response != persistent adaptation
+lesson recorded != learned system
 ```
 
-## Next sequencing recommendation
+## Critical Transition boundary
 
-After Control closure, the remaining frontier was re-evaluated.
+```text
+ground-local dynamics
+!= cross-ground Transition / Effect / Feedback
+```
 
-> **Transition / Effect / Feedback is the strongest current next child.**
+Ground-local Environment/Information/Work/Actor dynamics remain in their accepted grounds.
 
-It is not active.
+## Current sequencing recommendation
+
+If the user accepts the Transition parent result:
+
+> **Cross-Ground Transition / Propagation** should be the first immediate-child pass.
+
+Do not pre-commit the remaining child order; re-select Causal Effect/Contribution versus Feedback/Adaptation after Transition/Propagation closure.
 
 ## Verification boundary
 
-Parent C7, Binding B7, Standing S7 and Control K7 are same-model adversarial reviews. External sources pressure specific claims but do not independently validate this exact project synthesis. No independent second-researcher/model replication has been performed.
+Parent C7, Binding B7, Standing S7, Control K7 and Transition T7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact composition decomposition or current child promotions.
 
 ## Current gate
 
-Next composition-child selection/planning only. No substantive child, architecture, ontology/data model or implementation work is active.
+Transition / Effect / Feedback parent result evaluation only. No substantive immediate-child research, architecture, ontology/data model or implementation work is active.
