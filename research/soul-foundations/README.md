@@ -31,85 +31,31 @@ These remain deep evidence corpora and were not assumed to be the final top-leve
 ### `02_adequacy/` — first top-level adequacy synthesis
 
 This stage exposed two level corrections:
-
 - actual Operating/Domain Reality was missing from the original independent set;
 - Records was too narrow for the broader Information/Representation problem.
 
 A reopened hierarchy pass aligned target/domain reality and Work-support conditions under one broader Environment-like research ground while preserving their distinction.
 
-Working frame:
-
-```text
-Environment / Operating Reality
-Information / Representation
-Work
-Actors / Agency–Participation–Authority
-
-+ typed relations / control / transitions
-```
-
 ### `03_ground-deepening/` — recursive ground research
 
-All four grounds were deepened/evaluated and accepted.
-
-#### Environment / Operating Reality
+All four grounds were deepened/evaluated and accepted:
 
 ```text
 Environment / Operating Reality
-    ├─ Domain Reality
-    │    ├─ Domain State
-    │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition
-    │    │    │    └─ Relational Organization
-    │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics
-    │    │         └─ Criterion-Relative Standing
-    │    └─ Domain Dynamics
-    └─ Work Conditions
-         ↳ Technical Work Environment profile
-```
-
-Boundedly complete / accepted for the current Foundation depth.
-
-#### Information / Representation
-
-```text
 Information / Representation
-    ├─ Informational State / Representational Constitution
-    └─ Informational Dynamics / Formation–Transition
-         ├─ Formation / Acquisition
-         ├─ Derivation / Transformation
-         └─ Selection / Exposure
-
-Records / Persistent Information
-    ↳ deep persistence specialization/profile across Information
-```
-
-Boundedly complete / accepted. The three Dynamics children are accepted immediate problem regions but were not separately deepened because current evidence did not justify further recursion.
-
-#### Work
-
-```text
 Work
-    ← boundedly complete / accepted
-    ← rich multidimensional internal problem map
-    ← no universal immediate-child hierarchy promoted
-```
-
-#### Actors / Agency–Participation–Authority
-
-```text
 Actors / Agency–Participation–Authority
-    ← boundedly complete / accepted
-    ← rich relational / multi-anchor internal problem map
-    ← no universal immediate-child hierarchy promoted
 ```
 
-`Actors` is an umbrella research label, not `active doers only` and not one universal Actor primitive.
+Key accepted ground results include:
+- Environment: Domain Reality + Work Conditions, with accepted Domain State/Condition/Dynamics descendants;
+- Information: Informational State + Informational Dynamics, with Formation/Acquisition, Derivation/Transformation and Selection/Exposure regions;
+- Work: boundedly sufficient, rich multidimensional map, no universal immediate-child hierarchy;
+- Actors: boundedly sufficient, rich relational/multi-anchor map, no universal immediate-child hierarchy.
 
 ### `04_top-level-adequacy-rerun/` — post-deepening adequacy test
 
-After all four grounds were completed, the top-level hypothesis was re-run rather than inherited.
+The four-ground hypothesis was re-run after deepening rather than inherited.
 
 Result:
 
@@ -124,15 +70,11 @@ Actors / Agency–Participation–Authority
 
 No fifth peer ground, required merge/split, wrong-level correction or materially stronger rival survived.
 
-**Status:** boundedly complete / user-evaluated / accepted for current Foundation sequencing.
+**Status:** boundedly complete / user-evaluated / accepted.
 
 ### `05_relation-control-composition/` — cross-ground composition research
 
-The accepted adequacy result made composition—not ground identity—the next major Foundation problem.
-
-#### Composition parent
-
-Accepted bounded structure:
+Accepted parent structure:
 
 ```text
 Cross-Ground Composition
@@ -148,15 +90,7 @@ The composition parent is **user-evaluated / accepted**.
 
 #### Relational Binding
 
-`relational-binding/` is completed and accepted.
-
-```text
-Relational Binding
-    ← bounded leaf / accepted
-    ← no immediate child promoted
-    ← reusable binding-semantic signature
-    ← overlapping relation-family profiles
-```
+Completed and accepted bounded leaf.
 
 Core pressure:
 
@@ -183,18 +117,9 @@ graph reachability != legitimate transitive relation
 
 #### Composite Standing / Qualification
 
-`composite-standing/` is the second completed child pass and is currently awaiting user evaluation.
+Completed and accepted bounded leaf.
 
-Current bounded result:
-
-```text
-Composite Standing / Qualification
-    ← bounded leaf / USER EVALUATION PENDING
-    ← cross-ground qualification only
-    ← no immediate child promoted
-```
-
-The decisive routing correction is:
+Decisive routing correction:
 
 ```text
 ground-local Criterion-Relative Standing
@@ -215,7 +140,7 @@ Composite Standing core
 └─ validity dependencies/currentness
 ```
 
-Associated meanings must remain distinct:
+Associated meanings remain distinct:
 
 ```text
 standing holds
@@ -224,7 +149,7 @@ standing holds
 != recorded status
 ```
 
-The pass also preserves:
+Also preserved:
 
 ```text
 criterion != decision rule
@@ -235,7 +160,7 @@ capable != actionable != authorized != technically reachable
 
 NASA Product Verification/Validation, JCGM 106/VIM, NIST ABAC, NASA TRL, NIST AI RMF and selected candidate studies were used as falsifiers/holdouts. None forced an immediate child or upstream reopen.
 
-Current next-step recommendation if Composite Standing is accepted:
+Current next-step recommendation:
 
 > **Control / Constraint**
 
@@ -254,12 +179,12 @@ post-deepening top-level adequacy                ← accepted
 
 Cross-Ground Composition                        ← accepted
     ├─ Relational Binding                       ← bounded leaf / accepted
-    ├─ Composite Standing / Qualification       ← BOUNDED LEAF / USER EVALUATION PENDING
-    ├─ Control / Constraint                     ← recommended next if Standing accepted / inactive
+    ├─ Composite Standing / Qualification       ← bounded leaf / accepted
+    ├─ Control / Constraint                     ← recommended next / inactive
     └─ Transition / Effect / Feedback           ← inactive
 ```
 
-No substantive Foundation child is active at the current evaluation gate.
+No substantive Foundation child is active. Current interaction is next composition-child selection/planning only.
 
 Architecture, ontology/data model, schema design and implementation remain outside current Foundation authorization.
 
