@@ -3,7 +3,7 @@
 **Status:** ACTIVE  
 **Activated:** 2026-09-05  
 **User authorization:** explicit acceptance of the Actors result and instruction to continue  
-**Current phase:** Q3 BOUNDARY-INTERACTION PRESSURE  
+**Current phase:** Q4 MATERIALLY DIFFERENT HOLDOUTS  
 **Current authorised substantive activity:** TOP-LEVEL ADEQUACY RERUN
 
 ## Entering accepted grounds
@@ -25,20 +25,18 @@ Actors / Agency–Participation–Authority          ← accepted
 Q0 evidence recovery                         ← COMPLETE
 Q1 exhaustiveness / missing-ground           ← COMPLETE / no fifth ground forced
 Q2 level-alignment / reduction               ← COMPLETE / all four retained
-Q3 boundary-interaction pressure             ← ACTIVE
-Q4 materially different holdouts             ← pending
+Q3 boundary-interaction pressure             ← COMPLETE / relations remain composition fabric
+Q4 materially different holdouts             ← ACTIVE
 Q5 rival decompositions                      ← pending
 Q6 bounded closure / user evaluation         ← pending
 ```
 
-## Current result entering Q3
+## Current result entering Q4
 
-- no fifth ground has been forced;
-- Environment, Information, Work and Actors each survive reduction/merge/split attacks;
-- systematic relation/control composition remains deliberately unsolved.
+The four-ground frame has survived missing-ground, reduction and interaction-pressure tests. Q3 strengthened the need for later typed relation/control/transition composition without promoting it to a fifth peer ground.
 
-Q3 now tests whether real multi-ground cases expose hidden boundary theft or an irreducible locus outside the four grounds.
+Q4 now tests whether that result is overfit to software/agentic/system-design cases.
 
 ## Guardrail
 
-Use relations as adequacy falsifiers only. Do not build the final relation/control taxonomy in this stage.
+Holdouts may falsify the ground set, but they do not authorize relation/control taxonomy design, architecture, ontology/data model or implementation.
