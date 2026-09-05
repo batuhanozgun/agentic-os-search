@@ -1,13 +1,12 @@
 # Relation / Control / Composition — STATE
 
-**Status:** PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; NEXT-CHILD SELECTION / PLANNING  
 **Parent user evaluation:** ACCEPTED 2026-09-05  
 **Relational Binding:** bounded leaf / user-evaluated / accepted 2026-09-05  
 **Composite Standing / Qualification:** bounded leaf / user-evaluated / accepted 2026-09-05  
-**Control / Constraint:** bounded leaf / USER EVALUATION PENDING  
-**Current phase:** CONTROL RESULT EVALUATION  
+**Control / Constraint:** bounded leaf / user-evaluated / accepted 2026-09-05  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** CONTROL / CONSTRAINT RESULT EVALUATION ONLY
+**Current authorised interaction:** NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY
 
 ## Current composition structure
 
@@ -15,17 +14,17 @@
 Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
 ├─ Composite Standing / Qualification ← bounded leaf / accepted
-├─ Control / Constraint                ← BOUNDED LEAF / USER EVALUATION PENDING
-└─ Transition / Effect / Feedback      ← recommended next if Control accepted / inactive
+├─ Control / Constraint                ← bounded leaf / accepted
+└─ Transition / Effect / Feedback      ← recommended next / inactive
 ```
 
-## Current Control result
+## Accepted Control result
 
 Canonical package:
 
 `control-constraint/`
 
-Current bounded judgment:
+Accepted bounded judgment:
 
 > Control / Constraint is a bounded leaf for cross-ground governing semantics over an exact candidate behavior/transition/effect under an applicable governing basis/objective. No immediate child is promoted.
 
@@ -63,8 +62,8 @@ one path blocked
 ```text
 Relational Binding                  ← accepted / inactive
 Composite Standing / Qualification ← accepted / inactive
-Control / Constraint                ← evaluation pending / inactive
-Transition / Effect / Feedback      ← RECOMMENDED NEXT IF CONTROL ACCEPTED / inactive
+Control / Constraint                ← accepted / inactive
+Transition / Effect / Feedback      ← RECOMMENDED NEXT / inactive
 ```
 
 ## Sequencing result after Control closure
@@ -73,7 +72,7 @@ K7 re-evaluated the remaining child frontier.
 
 Current recommendation:
 
-> **Transition / Effect / Feedback should be the next composition child if Control is accepted.**
+> **Transition / Effect / Feedback should be the next composition child.**
 
 Reason: unresolved Foundation pressure now concentrates on actual change, propagation, effect, causation and feedback over time; Transition can consume stable Binding + Standing + Control semantics.
 
@@ -85,6 +84,6 @@ Parent C7, Binding B7, Standing S7 and Control K7 are same-model adversarial rev
 
 ## Current authorization
 
-**CONTROL / CONSTRAINT RESULT EVALUATION ONLY.**
+**NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY.**
 
 Do not automatically begin Transition, architecture, ontology/data-model/schema work or implementation.
