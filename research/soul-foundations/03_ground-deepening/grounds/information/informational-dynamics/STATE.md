@@ -5,7 +5,8 @@
 **User authorization:** explicit instruction to start the next research after Informational State closure  
 **Parent:** `Information / Representation` — boundedly complete / user-evaluated  
 **Sibling:** `Informational State / Representational Constitution` — boundedly complete / user-evaluated / accepted for Foundation sequencing  
-**Current phase:** N0 CANONICAL / INTERNAL EVIDENCE RECOVERY  
+**Current phase:** N1 NODE COHERENCE ATTACK  
+**N0:** COMPLETE  
 **Substantive node active:** Informational Dynamics / Formation–Transformation  
 **Work / Actors:** inactive
 
@@ -24,9 +25,13 @@ Research the accepted `Informational Dynamics / Formation–Transformation` chil
 
 > How do informational states become available, get generated, selected, transformed, revised, communicated, invalidated or otherwise change, and which distinctions among those processes are foundational rather than merely mechanism- or domain-specific?
 
+## Recovered N0 constraint
+
+N0 established that Dynamics cannot be reduced to `content transformation` alone. Formation/acquisition, derivation/transformation, selection/exposure and standing/availability transitions all expose distinct failure effects, but none is yet accepted as an immediate child.
+
 ## Initial inherited problem regions
 
-These are research inputs, not accepted children:
+These remain research inputs, not accepted children:
 
 - observation / sensing / acquisition / ingestion;
 - generation / encoding / representation formation;
@@ -40,14 +45,14 @@ These are research inputs, not accepted children:
 
 ## Research route
 
-- N0 — canonical/internal evidence recovery;
-- N1 — node coherence attack;
-- N2 — first-principles problem inventory;
-- N3 — immediate-child discovery with rival decompositions;
-- N4 — boundary / anti-collapse testing;
-- N5 — external and cross-domain falsifiers;
-- N6 — omission / reduction / rival-decomposition audit;
-- N7 — bounded closure and return for user evaluation.
+- N0 — canonical/internal evidence recovery — COMPLETE;
+- N1 — node coherence attack — ACTIVE;
+- N2 — first-principles problem inventory — pending;
+- N3 — immediate-child discovery with rival decompositions — pending;
+- N4 — boundary / anti-collapse testing — pending;
+- N5 — external and cross-domain falsifiers — pending;
+- N6 — omission / reduction / rival-decomposition audit — pending;
+- N7 — bounded closure and return for user evaluation — pending.
 
 ## Stop / return condition
 
