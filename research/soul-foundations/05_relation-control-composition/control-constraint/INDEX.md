@@ -2,50 +2,57 @@
 
 ## Role
 
-Current router for the active Control / Constraint Foundation child pass.
+Current router for the completed Control / Constraint Foundation child pass.
 
-Read `STATE.md` first for authorization, current phase and stop rule.
+Read `STATE.md` first for bounded result, verification status and current authorization.
 
 ## Current status
 
-**ACTIVE — K0 canonical/current evidence recovery.**
+**BOUNDED LEAF / AWAITING USER EVALUATION.**
 
-## Read order
+No substantive composition child is active from this package.
 
-1. `STATE.md` — scope, authorization, current phase and closure rule.
-2. `PLAN.md` — research method and falsification criteria.
-3. Accepted Composite Standing result → `../composite-standing/STATE.md` → `KEY.md` → synthesis → S7.
-4. Accepted Relational Binding result → `../relational-binding/STATE.md` → `KEY.md` → synthesis → B7.
-5. Parent hard cases → `../C3-MULTI-GROUND-COMPOSITES.md` and parent `OPEN-QUESTIONS.md`.
-6. Actors/Work/Environment/Information current/deferred surfaces only where authority, obligation, capability, policy representation or enforcement conditions are decision-critical.
-7. Candidate studies → `../../../studies/CATALOG.md` → selected package `META.md` / targeted files.
-8. K0–K7 artifacts as completed.
-9. `KEY.md`, `FINDINGS-MAP.md`, synthesis and `CURRENT-SURFACES.md` after closure.
+## Preferred read order
 
-## Research rule
+1. `STATE.md` — bounded result, protected question and current gate.
+2. `KEY.md` — shortest current orientation.
+3. `FINDINGS-MAP.md` — targeted result/evidence router.
+4. `synthesis/CONTROL-CONSTRAINT-SYNTHESIS.md` — integrated result.
+5. `K7-ADVERSARIAL-CLOSURE.md` — final adversarial attack and sequencing result.
+6. `OPEN-QUESTIONS.md` — residual/reopen triggers; not an execution queue.
+7. K0–K6 only when evidence recovery, signature derivation, layer discrimination, bypass/path audit, rival decompositions, external holdouts or child-decision logic is decision-critical.
+8. `CURRENT-SURFACES.md` — exact current-surface binding after manifest closure.
 
-Do not treat a control-looking artifact or mechanism as the control semantics by identity.
-
-Preserve at minimum the possibility that:
+## Bounded result
 
 ```text
-policy / instruction
-!= legitimate authority
-!= permission / prohibition / obligation
-!= authorization / approval decision
-!= technical enforcement
-!= observed compliance / violation
+Control / Constraint
+    ← bounded leaf / USER EVALUATION PENDING
+    ← cross-ground governing semantics
+    ← no immediate child promoted
 ```
 
-Also preserve:
+## Critical routing rule
+
+An arbitrary limitation, policy artifact, authority standing or enforcement mechanism is not Control by identity.
+
+Control asks what exact behavior/effect is governed, under which basis/objective and applicability frame, with authority/decision/enforcement/coverage distinctions preserved when material.
+
+## Strongest new scope distinction
 
 ```text
-direct path blocked
-!= effect impossible
-!= alternate path closed
-!= action illegitimate
+governed-effect / control-objective scope
+!= enforcement-point / monitored-path scope
 ```
+
+Therefore local enforcement success does not prove end-to-end control success.
+
+## Next-step orientation
+
+If user evaluation accepts Control, **Transition / Effect / Feedback** is the strongest current next-child candidate.
+
+It is not active.
 
 ## Guardrail
 
-No Transition/Effect/Feedback, architecture, ontology/data-model/schema or implementation work is active.
+Current interaction is Control result evaluation only. Transition, architecture, ontology/data-model/schema design and implementation remain unauthorized.
