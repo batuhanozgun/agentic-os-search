@@ -1,44 +1,49 @@
 # Relation / Control / Composition — Open Questions / Reopen Triggers
 
-**Status:** bounded residuals after parent research  
+**Status:** bounded residuals after parent + Binding + Standing + Control research  
 **Date:** 2026-09-05  
 **Role:** residual uncertainty; NOT an automatic execution queue
 
-## Current bounded result
+## Current bounded structure
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding
-├─ Composite Standing / Qualification
-├─ Control / Constraint
-└─ Transition / Effect / Feedback
+├─ Relational Binding                  ← bounded leaf / accepted
+├─ Composite Standing / Qualification ← bounded leaf / accepted
+├─ Control / Constraint                ← bounded leaf / USER EVALUATION PENDING
+└─ Transition / Effect / Feedback      ← recommended next if Control accepted / inactive
 ```
 
-Parent structure is boundedly supported; user evaluation pending.
+The parent, Binding and Standing are user-evaluated/accepted. Control is currently at its user-evaluation gate.
 
-## Residual questions
+## Resolved parent questions now delegated to child results
 
-1. **Binding internal split:** do representation/referent, participation/role, dependency/support, provenance/attribution and target/effect bindings form stable children or remain relation families/dimensions?
-2. **N-ary semantics:** when must a composition relation be treated as inherently multi-anchor rather than decomposed into pairwise bindings plus a standing?
-3. **Standing representation:** which standings should be explicit versus recomputed/inferred later, without turning this research into ontology design?
-4. **Standing freshness:** how should criterion/target/evidence/authority changes invalidate prior composite standings?
-5. **Control layers:** what universal distinctions among norm/policy, authority, decision, enforcement, monitoring/compliance and recovery survive dedicated control research?
-6. **Alternate-path closure:** how should effective/transitive effect power be analyzed over reachable Actor/tool/channel paths without equating reachability with authority?
-7. **Causation:** does Transition/Effect research require a dedicated causal subregion once counterfactual, intervention and contribution distinctions become load-bearing?
-8. **Feedback/evolution:** when does feedback become genuine learned/changed system behavior rather than observation, record creation or one-off repair Work?
-9. **Verification standing:** what exact universal minimum anchors make `verified`, `validated`, `accepted` or `evidence sufficient` meaningful without importing domain-specific V&V doctrine?
-10. **Goal/outcome:** can dedicated Standing/Transition research preserve desired-vs-realized-vs-accepted outcome semantics without reopening a Goal ground?
-11. **Time/continuity:** how should cross-ground temporal alignment, validity intervals, event time, effective time and currentness be preserved across all four children?
-12. **Independent replication:** would an independent researcher/model retain the same four child regions or identify a missing/rival composition kind?
+The following earlier parent residuals received dedicated child treatment and should no longer be read as unresearched parent gaps:
+
+- Binding internal split / n-ary semantics → `relational-binding/` bounded leaf;
+- Standing representation/freshness / V&V minimum anchors → `composite-standing/` bounded leaf;
+- Control layers / alternate-path closure → `control-constraint/` bounded result under evaluation.
+
+Their package-local `OPEN-QUESTIONS.md` files preserve narrower reopen triggers.
+
+## Remaining parent-level residual questions
+
+1. **Transition internal structure:** do cross-ground change, realized effect, causal contribution and feedback/adaptation form stable children or one bounded semantic region?
+2. **Causation:** does Transition/Effect require a dedicated causal subregion once sequence, intervention, contribution and counterfactual distinctions are researched deeply?
+3. **Feedback/evolution:** when does observation → Work → decision → changed control/state become genuine learned/evolved system behavior rather than record creation or one-off repair?
+4. **Cross-ground temporal alignment:** how should event time, effective time, reference time, validity intervals and propagation delay be preserved without inventing one universal clock model?
+5. **Control-effectiveness composition:** what is required to distinguish control present/enforced/complied-with from control causally effective against its protected objective?
+6. **Revocation/change propagation:** how do policy/authority/waiver/control changes become effective across distributed enforcement points and persisted standings?
+7. **Goal/outcome propagation:** can Transition preserve intended target, realized effect, evidence and accepted outcome without reopening a Goal ground?
+8. **Independent replication:** would an independent researcher/model retain the same four composition regions and bounded-leaf judgments?
 
 ## Parent reopen triggers
 
 Reopen the parent if:
-- Relational Binding cannot be bounded without becoming a generic relation bucket;
-- Composite Standing collapses safely into Binding without losing decision-critical failure modes;
-- Control collapses safely into Standing/Transition without losing authority/enforcement/bypass semantics;
-- Transition/Effect proves reducible to ground-local dynamics without losing cross-ground propagation;
-- provenance/evidence, causation or another family becomes a stable fifth composition region;
+- Transition cannot be bounded without becoming a residual `all dynamics` bucket;
+- Transition collapses safely into ground-local dynamics without losing cross-ground propagation/effect semantics;
+- Control cannot remain distinct from Standing/Transition after Transition research;
+- causation, provenance/evidence or another family becomes a stable fifth composition region;
 - a child pass exposes an upstream fifth-ground/adequacy falsifier;
 - materially different domains repeatedly break the four-region structure;
 - independent review finds a stronger parent decomposition.
@@ -46,12 +51,16 @@ Reopen the parent if:
 ## Non-reopen conditions
 
 Do not reopen merely because:
-- a domain defines many relation names;
-- a later ontology/database uses different classes or edge types;
-- one implementation uses a policy engine, graph, workflow engine or event bus;
+- a domain defines many relation/control/transition labels;
+- a later ontology/database uses different classes/edges;
+- one implementation uses policy engines, event buses, workflow systems or state machines;
 - one composite episode touches several children simultaneously;
-- child research discovers domain-specific specializations.
+- child research discovers domain-specific specializations;
+- control uses multiple enforcement layers or path-analysis tooling;
+- Transition later needs domain-specific causal models.
 
 ## Current sequencing note
 
-If user evaluation accepts the parent, `Relational Binding` is the recommended first child. Other child order should be selected after Binding closure rather than pre-fixed now.
+If user evaluation accepts `Control / Constraint`, `Transition / Effect / Feedback` is the strongest next child and requires separate substantive activation.
+
+No architecture, ontology/data-model/schema or implementation work is authorized by this note.
