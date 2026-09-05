@@ -3,8 +3,8 @@
 **Status:** ACTIVE FOUNDATION CHILD RESEARCH  
 **Activated:** 2026-09-05  
 **Parent:** `Cross-Ground Composition` — accepted  
-**Current phase:** B4 RIVAL INTERNAL DECOMPOSITIONS / CHILD DISCOVERY PRESSURE  
-**B0–B3:** COMPLETE  
+**Current phase:** B5 EXTERNAL AUTHORITATIVE / CANDIDATE-STUDY HOLDOUTS  
+**B0–B4:** COMPLETE  
 **Current authorised substantive activity:** RELATIONAL BINDING CHILD PASS
 
 ## Protected question
@@ -18,15 +18,15 @@ B0 canonical/current evidence recovery                    ← COMPLETE
 B1 binding object + minimum semantic signature             ← COMPLETE
 B2 six-pair binding-family discovery                       ← COMPLETE
 B3 qualification / arity / scope / time / reference audit ← COMPLETE
-B4 rival internal decompositions + child discovery pressure ← ACTIVE
-B5 external authoritative + candidate-study holdouts
+B4 rival internal decompositions + child discovery pressure ← COMPLETE
+B5 external authoritative + candidate-study holdouts       ← ACTIVE
 B6 synthesis / immediate-child decision
 B7 adversarial closure / user-evaluation gate
 ```
 
-## Current orientation
+## Current provisional result
 
-B3 rejected Qualified/N-ary Binding as a separate child: qualification/arity is a cross-cutting structural property. B4 now tests whether semantic relation families form stable children or whether Binding should close as a bounded leaf with a shared signature grammar and overlapping family profiles.
+B4 currently favors Relational Binding as a bounded leaf with one reusable signature grammar and overlapping family profiles. B5 is a deliberate external falsification pass; the leaf judgment is not yet closed.
 
 ## Guardrail
 
