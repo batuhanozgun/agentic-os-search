@@ -2,37 +2,47 @@
 
 ## Role
 
-Current router for the active parent-level cross-ground composition research.
+Current router for the completed parent-level cross-ground composition research.
 
-Read `STATE.md` first for authorization and phase.
+Read `STATE.md` first for status and authorization.
 
 ## Current status
 
-**ACTIVE — C0 canonical/current evidence recovery.**
+**BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
 
-## Default read order
+No substantive composition child is active.
 
-1. `STATE.md` — authority, scope, phase and stop rule.
-2. `PLAN.md` — research method and falsification rules.
-3. `../04_top-level-adequacy-rerun/KEY.md` → `DEFERRED-RELATIONS.md` → `OPEN-QUESTIONS.md` — immediate frontier inherited from accepted adequacy.
-4. Accepted ground current surfaces only as needed:
-   - Environment;
-   - Information;
-   - Work;
-   - Actors.
-5. Ground-local deferred relation/open-question ledgers when a candidate composition depends on them.
-6. Candidate-study catalog → selected package `META.md` only when it provides a materially different falsifier/holdout.
-7. C0–C7 artifacts as completed.
-8. `KEY.md`, `FINDINGS-MAP.md`, synthesis and `CURRENT-SURFACES.md` after closure.
+## Preferred read order
 
-## Research rule
+1. `STATE.md` — bounded result, verification status and current gate.
+2. `KEY.md` — shortest current orientation.
+3. `FINDINGS-MAP.md` — topic/result router.
+4. `synthesis/COMPOSITION-PARENT-SYNTHESIS.md` — integrated parent result.
+5. `C7-ADVERSARIAL-CLOSURE.md` — final adversarial attack, limits and sequencing correction.
+6. `OPEN-QUESTIONS.md` — residual/reopen triggers; not an execution queue.
+7. C0–C6 only when evidence recovery, semantic-kind discrimination, pairwise probes, multi-ground composites, rivals, holdouts or child promotion logic is decision-critical.
+8. `CURRENT-SURFACES.md` — exact current-surface binding.
 
-Pairwise ground combinations are **discovery probes**, not presumed final taxonomy.
+## Current bounded structure
 
-Multi-ground cases are first-class because load-bearing semantics such as verification/acceptance, actionability/effective power, goal/outcome and feedback/evolution may require three or four grounds simultaneously.
+```text
+Cross-Ground Composition
+├─ Relational Binding
+├─ Composite Standing / Qualification
+├─ Control / Constraint
+└─ Transition / Effect / Feedback
+```
 
-## Current guardrail
+These are diagnostic research regions, not mutually exclusive relation/event classes.
 
-This phase researches Foundation composition semantics only.
+## Strongest next-step recommendation
 
-Architecture, ontology/data model, schema design and implementation remain unauthorized.
+If user evaluation accepts the parent result, activate **Relational Binding** as the first child pass.
+
+Do not pre-commit the remaining child order; re-select after Binding closure.
+
+## Guardrail
+
+Current interaction is parent-result evaluation only.
+
+Architecture, ontology/data model, schema design, implementation and composition-child deepening remain unauthorized until separately activated.
