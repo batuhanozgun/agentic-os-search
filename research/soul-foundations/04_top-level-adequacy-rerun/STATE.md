@@ -3,7 +3,7 @@
 **Status:** ACTIVE  
 **Activated:** 2026-09-05  
 **User authorization:** explicit acceptance of the Actors result and instruction to continue  
-**Current phase:** Q4 MATERIALLY DIFFERENT HOLDOUTS  
+**Current phase:** Q5 RIVAL TOP-LEVEL DECOMPOSITIONS  
 **Current authorised substantive activity:** TOP-LEVEL ADEQUACY RERUN
 
 ## Entering accepted grounds
@@ -26,17 +26,15 @@ Q0 evidence recovery                         ← COMPLETE
 Q1 exhaustiveness / missing-ground           ← COMPLETE / no fifth ground forced
 Q2 level-alignment / reduction               ← COMPLETE / all four retained
 Q3 boundary-interaction pressure             ← COMPLETE / relations remain composition fabric
-Q4 materially different holdouts             ← ACTIVE
-Q5 rival decompositions                      ← pending
+Q4 materially different holdouts             ← COMPLETE / cross-domain frame survives
+Q5 rival decompositions                      ← ACTIVE
 Q6 bounded closure / user evaluation         ← pending
 ```
 
-## Current result entering Q4
+## Current result entering Q5
 
-The four-ground frame has survived missing-ground, reduction and interaction-pressure tests. Q3 strengthened the need for later typed relation/control/transition composition without promoting it to a fifth peer ground.
-
-Q4 now tests whether that result is overfit to software/agentic/system-design cases.
+No omission, reduction, interaction or cross-domain holdout has yet falsified the four-ground map. Q5 now compares serious rival top-level decompositions on explanatory loss, boundary stability, level alignment and generality.
 
 ## Guardrail
 
-Holdouts may falsify the ground set, but they do not authorize relation/control taxonomy design, architecture, ontology/data model or implementation.
+A rival may replace/refine the current research frame if it explains the protected phenomena more cleanly. This still does not authorize architecture, ontology/data model or implementation.
