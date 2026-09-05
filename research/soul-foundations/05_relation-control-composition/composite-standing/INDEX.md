@@ -2,38 +2,48 @@
 
 ## Role
 
-Current router for the active Composite Standing / Qualification Foundation child pass.
+Current router for the completed Composite Standing / Qualification Foundation child pass.
 
-Read `STATE.md` first for authorization, current phase and stop rule.
+Read `STATE.md` first for bounded result, verification status and current authorization.
 
 ## Current status
 
-**ACTIVE — S0 canonical/current evidence recovery.**
+**BOUNDED LEAF / AWAITING USER EVALUATION.**
 
-## Read order
+No substantive composition child is active from this package.
 
-1. `STATE.md` — scope, authorization, current phase and closure rule.
-2. `PLAN.md` — research method and falsification criteria.
-3. Accepted Binding result → `../relational-binding/STATE.md` → `KEY.md` → synthesis → B7.
-4. Parent hard-case evidence → `../C3-MULTI-GROUND-COMPOSITES.md` and parent `OPEN-QUESTIONS.md`.
-5. Accepted ground current/deferred surfaces only when a standing family requires them.
-6. Candidate studies → `../../../studies/CATALOG.md` → selected `META.md` only when materially relevant.
-7. S0–S7 artifacts as completed.
-8. `KEY.md`, `FINDINGS-MAP.md`, synthesis and `CURRENT-SURFACES.md` after closure.
+## Preferred read order
 
-## Research rule
+1. `STATE.md` — bounded result, routing boundary and current gate.
+2. `KEY.md` — shortest current orientation.
+3. `FINDINGS-MAP.md` — targeted result/evidence router.
+4. `synthesis/COMPOSITE-STANDING-SYNTHESIS.md` — integrated result.
+5. `S7-ADVERSARIAL-CLOSURE.md` — final adversarial attack and sequencing result.
+6. `OPEN-QUESTIONS.md` — residual/reopen triggers; not an execution queue.
+7. S0–S6 only when boundary recovery, signature derivation, family mapping, uncertainty/invalidation, rival decompositions, external holdouts or child-decision logic is decision-critical.
+8. `CURRENT-SURFACES.md` — exact current-surface binding.
 
-A status label is not enough. Every candidate standing must be tested for the exact anchors, criteria, reference/use frame, time/currentness and evaluation conditions whose loss would change whether the standing meaningfully holds.
-
-Do not silently equate:
+## Bounded result
 
 ```text
-recorded status
-= evaluated result
-= actual standing
-= authorized judgment
+Composite Standing / Qualification
+    ← bounded leaf / USER EVALUATION PENDING
+    ← cross-ground qualification only
+    ← no immediate child promoted
 ```
+
+## Critical routing rule
+
+A standing belongs here only when several accepted-ground semantics are part of what the qualification means or what constitutes it.
+
+Cross-ground evidence/reporting/assessment access alone does not make a ground-local standing Composite.
+
+## Next-step orientation
+
+If user evaluation accepts Composite Standing, **Control / Constraint** is the strongest current next-child candidate.
+
+It is not active.
 
 ## Guardrail
 
-No Control/Constraint, Transition/Effect/Feedback, architecture, ontology/data-model/schema or implementation work is active.
+Current interaction is Composite Standing result evaluation only. Control, Transition, architecture, ontology/data-model/schema design and implementation remain unauthorized.
