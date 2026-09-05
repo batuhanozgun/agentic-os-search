@@ -48,55 +48,6 @@ Actors / Agency–Participation–Authority
 
 All four grounds were deepened/evaluated and accepted.
 
-#### Environment / Operating Reality
-
-```text
-Environment / Operating Reality
-    ├─ Domain Reality
-    │    ├─ Domain State
-    │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition
-    │    │    │    └─ Relational Organization
-    │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics
-    │    │         └─ Criterion-Relative Standing
-    │    └─ Domain Dynamics
-    └─ Work Conditions
-         ↳ Technical Work Environment profile
-```
-
-#### Information / Representation
-
-```text
-Information / Representation
-    ├─ Informational State / Representational Constitution
-    └─ Informational Dynamics / Formation–Transition
-         ├─ Formation / Acquisition
-         ├─ Derivation / Transformation
-         └─ Selection / Exposure
-
-Records / Persistent Information
-    ↳ deep persistence specialization/profile across Information
-```
-
-#### Work
-
-```text
-Work
-    ← boundedly complete / accepted
-    ← rich multidimensional internal problem map
-    ← no universal immediate-child hierarchy promoted
-```
-
-#### Actors / Agency–Participation–Authority
-
-```text
-Actors / Agency–Participation–Authority
-    ← boundedly complete / accepted
-    ← rich relational / multi-anchor internal problem map
-    ← no universal immediate-child hierarchy promoted
-```
-
 ### `04_top-level-adequacy-rerun/`
 
 The four-ground hypothesis was re-run after ground deepening rather than inherited.
@@ -138,21 +89,7 @@ Core problem:
 
 > What exact anchors are connected, in what typed semantic positions and applicability frame?
 
-Durable grammar preserves:
-- exact anchors;
-- role/position;
-- scope/time/version qualifiers;
-- relation-instance identity;
-- qualified/n-ary structure where pairwise decomposition loses meaning.
-
-Key rules:
-
-```text
-generic connectivity != semantic binding
-represented binding != actual binding
-actual binding != evidence sufficient to establish it
-graph reachability != legitimate transitive relation
-```
+Durable grammar preserves exact anchors, role/position, scope/time/version qualification, relation-instance identity, and qualified/n-ary structure where pairwise decomposition loses meaning.
 
 ### Composite Standing / Qualification — accepted bounded leaf
 
@@ -175,27 +112,21 @@ standing holds
 != decision / recognition
 != recorded status
 
-false
-!= unknown / indeterminate
-!= not evaluated
-!= not applicable
-!= stale
-
 verified != validated != accepted
 capable != actionable != authorized != technically reachable
 ```
 
-### Control / Constraint — current bounded result under evaluation
+### Control / Constraint — accepted bounded leaf
 
 Core problem:
 
 > How is an exact candidate behavior, transition, flow or protected effect governed under an applicable basis/objective, while preserving authority, decision, enforcement, coverage and monitoring distinctions when material?
 
-Current result:
+Accepted result:
 
 ```text
 Control / Constraint
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← bounded leaf / accepted
     ← no immediate child promoted
 ```
 
@@ -212,15 +143,9 @@ Control / Constraint core
 └─ current validity dependencies
 ```
 
-Associated but non-collapsed concerns include:
-- authority / legitimacy;
-- evaluation / decision / gate;
-- enforcement / intervention;
-- coverage / alternate-path / bypass;
-- monitoring / observation;
-- compliance / effectiveness assessment.
+Associated but non-collapsed concerns include authority/legitimacy, evaluation/decision/gate, enforcement/intervention, coverage/alternate-path/bypass, monitoring/observation, and compliance/effectiveness assessment.
 
-Most important new scope distinction:
+Most important scope distinction:
 
 ```text
 governed-effect / control-objective scope
@@ -233,8 +158,6 @@ Therefore:
 one path blocked
 != protected effect controlled
 ```
-
-This is especially important for agentic systems: an agent can be blocked from a direct privileged tool while still reaching the same effect through another agent, service, credential or channel.
 
 Accumulated non-collapse:
 
@@ -253,11 +176,9 @@ obligation != actionability
 effective effect power != legitimate authority
 ```
 
-Current external/candidate holdouts include NIST access/zero-trust/security-control material, OASIS XACML, NASA governance/decision gates, OSHA machine guarding, FAA safety-risk guidance and the Anthropic AI-native SDLC study.
+### Transition / Effect / Feedback — recommended next / inactive
 
-### Transition / Effect / Feedback — inactive
-
-If Control is accepted, this is the strongest current next composition child.
+After Control acceptance, this is the strongest current next composition child.
 
 Expected protected frontier:
 - actual change and propagation;
@@ -283,11 +204,11 @@ post-deepening top-level adequacy                ← accepted
 Cross-Ground Composition                        ← accepted
     ├─ Relational Binding                       ← bounded leaf / accepted
     ├─ Composite Standing / Qualification       ← bounded leaf / accepted
-    ├─ Control / Constraint                     ← BOUNDED LEAF / USER EVALUATION PENDING
-    └─ Transition / Effect / Feedback           ← recommended next if Control accepted / inactive
+    ├─ Control / Constraint                     ← bounded leaf / accepted
+    └─ Transition / Effect / Feedback           ← recommended next / inactive
 ```
 
-No substantive Foundation child is active at the current evaluation gate.
+No substantive Foundation child is active at the current planning gate.
 
 Architecture, ontology/data model, schema design and implementation remain outside current Foundation authorization.
 
@@ -295,13 +216,9 @@ Architecture, ontology/data model, schema design and implementation remain outsi
 
 ## Relationship to candidate studies
 
-Canonical candidate-study library:
+Canonical candidate-study library: `research/studies/`.
 
-`research/studies/`
-
-Discovery surface:
-
-`research/studies/CATALOG.md`
+Discovery surface: `research/studies/CATALOG.md`.
 
 Candidate studies may supply external evidence/counterexamples, falsifiers, mechanism references, benchmarks and later implementation learning. They do **not** define Foundation structure merely by being catalogued.
 
@@ -312,8 +229,6 @@ Candidate studies may supply external evidence/counterexamples, falsifiers, mech
 For current Foundation state:
 
 `STATE.md → INDEX.md → current package STATE → KEY → FINDINGS-MAP → synthesis → targeted deep evidence`
-
-Higher-level surfaces are intentionally compressed. Descend when a decision depends on nuance, source scope or a contested claim rather than filling gaps by assumption.
 
 Historical material remains useful for audit/reconstruction but does not override current parent authority.
 
