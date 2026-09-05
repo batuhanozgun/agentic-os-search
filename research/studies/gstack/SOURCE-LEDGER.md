@@ -15,6 +15,7 @@ Observed 2026-09-05.
 - **INVENTORY** — topology/metadata inspected only.
 - **PLANNED** — relevant source not yet substantively read.
 - **ABSENT / NEGATIVE** — searched-for evidence/surface does not exist at the pinned revision or registered matrix.
+- **BOUNDED NEGATIVE** — targeted search did not find the surface; not a universal proof of absence outside searched repository scope.
 
 `FULL` is read coverage, not independent verification.
 
@@ -186,18 +187,56 @@ Observed 2026-09-05.
 
 ---
 
-## Shared generation / composition / host sources
+## Host adapters / portability-fidelity sources
+
+| Source | Evidence | Status | Role / key finding |
+|---|---|---:|---|
+| `hosts/index.ts` | `cc1c213b532a5abb3bdf95a292a3a422c2faa1f8` | FULL | ten-host registry and host lookup/alias model |
+| `scripts/host-config.ts` | `378a24e2fefc500e166c848580e60dba8a8e242a` | FULL | typed HostConfig + validators |
+| `hosts/define-host.ts` | `0ed190dd00606a69acb0aca990289781f79bbc79` | FULL | common defaults, cross-model/GBrain suppression sets, tool rewrites |
+| `hosts/claude.ts` | `5381953cae8040508a260e6e4b3eb39973c92934` | FULL | primary host semantics, hook-preserving frontmatter, full learnings |
+| `hosts/codex.ts` | `b46e9222495eada3da68debaae6dab6d9d57167c` | FULL | gpt default, metadata, path rewrites, cross-model suppression, boundary instruction |
+| `hosts/factory.ts` | `9161d7fafa0c02dd8721051a357d1bd76fc2f856` | FULL | sensitive metadata + generic tool-language rewrites |
+| `hosts/kiro.ts` | `05d4b9ee512fe317299732d4573bce70cd27602f` | FULL | path adaptation |
+| `hosts/opencode.ts` | `fcba39d91f0a7b14dd1b272a4c1e295a75fc2a07` | FULL | expanded runtime-root asset set |
+| `hosts/slate.ts` | `99fa7197ab27f478f29d84d3a3d76f790b5331af` | FULL | registry/generation config despite non-first-class setup standing |
+| `hosts/cursor.ts` | `e0d38db8a8c8bb2f05f9ca923c6fa3c715018d7e` | FULL | default host config; first-class setup arm exists separately |
+| `hosts/openclaw.ts` | `6248e0587f083640b0b747ebff7eac90e90b258e` | FULL | sessions_spawn-style rewrites, cross-model/GBrain suppression, instruction tier |
+| `hosts/hermes.ts` | `cf140fae79bd69114b966def75960b2bfc13f339` | FULL | terminal/patch/delegate_task rewrites; GBrain enabled; instruction tier |
+| `hosts/gbrain.ts` | `32dfaa349ef5f67b9f5f642e2c979c63ee79e1ea` | FULL | brain-aware resolver retention, cross-model suppression |
+| `scripts/models.ts` | `e7bdf3d2f4e32da7139e710ef50714572842160a` | FULL | explicit `host != model`; model family/overlay normalization |
+| `scripts/resolvers/model-overlay.ts` | pinned | SUBSTANTIAL / CONTINUE | model-specific behavior patch generation |
+| `scripts/gen-skill-docs.ts` | `0be3ca9a126d0e3ad0f9cf76b641f15a728307c0` | FULL for portability synthesis | host compilation, frontmatter transform, suppression, rewrites, external section inlining, safety prose |
+| `docs/ADDING_A_HOST.md` | `d699816df9d63ee964a4d8184fb2b9528012526d` | FULL | intended declarative architecture; **overstates setup integration at pinned revision** |
+| `scripts/host-config-export.ts` | `35a0b91927dc38c8b45f4b8cf614d89ab1ba98bb` | FULL | explicit statement that setup is NOT yet wired to registry and hand-rolls host lists |
+| root `setup` | pinned | SUBSTANTIAL / CONTINUE | actual install/support tiers, host-specific runtime roots, sidecars, auto detection, model detection |
+| `scripts/skill-check.ts` | `9182737ee19e83855a622a90d3cb6e00ac793b73` | FULL | generated-host path/freshness health, not runtime behavioral parity |
+| `test/host-config.test.ts` | pinned | FULL for current use | config/index/export/golden structural validation |
+| `test/gen-skill-docs.test.ts` | pinned | FULL for portability use | all-host render, YAML/path/frontmatter/suppression/model/static host checks |
+| `test/fixtures/golden/codex-ship-SKILL.md` | pinned | SUBSTANTIAL / CONTINUE | Codex generated-view regression surface |
+| `test/fixtures/golden/factory-ship-SKILL.md` | pinned | SUBSTANTIAL / CONTINUE | Factory generated-view regression surface |
+| `test/helpers/codex-session-runner.ts` | pinned | SUBSTANTIAL / CONTINUE | real Codex CLI behavioral harness |
+| `test/codex-e2e.test.ts` | pinned | SUBSTANTIAL / CONTINUE | real Codex workflow behavior |
+| `test/codex-e2e-sol-scope.test.ts` | pinned | SUBSTANTIAL / CONTINUE | full generated Sol profile behavior / scope termination |
+| pinned `TODOS.md` Codex periodic CI item | pinned | FULL for negative finding | CI image lacks Codex CLI; shards skip all and report green |
+| pinned `TODOS.md` non-Claude dispatch audit | pinned | FULL for known gap | every subagent site still needs per-host native/inline/suppress decision |
+| pinned `TODOS.md` setup host-function dedup | pinned | FULL for drift finding | near-verbatim runtime-root/link functions drift independently |
+| Factory/Droid real-host E2E | targeted repo search | BOUNDED NEGATIVE | no dedicated real-host behavioral runner found; static generation evidence found |
+| Kiro real-host E2E | targeted repo search | BOUNDED NEGATIVE | no dedicated real-host behavioral runner found; setup/static evidence found |
+| OpenCode real-host E2E | targeted repo search | BOUNDED NEGATIVE | no dedicated real-host behavioral runner found; setup/static evidence found |
+| Cursor real-host E2E | targeted repo search | BOUNDED NEGATIVE | no dedicated real-host behavioral runner found; setup/static evidence found |
+| OpenClaw/Hermes full install/runtime parity | setup + targeted search | BOUNDED NEGATIVE / DIFFERENT CONTRACT | setup explicitly exposes methodology/instruction-tier path rather than same full install |
+
+---
+
+## Shared generation / composition sources
 
 | Source | Evidence | Status | Role |
 |---|---|---:|---|
-| `scripts/gen-skill-docs.ts` | `0be3ca9a126d0e3ad0f9cf76b641f15a728307c0` | SUBSTANTIAL / CONTINUE | template→resolver→host-specific output |
+| `scripts/gen-skill-docs.ts` | `0be3ca9a126d0e3ad0f9cf76b641f15a728307c0` | FULL for current use | template→resolver→host/model-specific output |
 | `scripts/resolvers/index.ts` | `cee08c2015a6ac2ff8605b02ac07a49d284d3ce1` | FULL | resolver registry |
 | `scripts/resolvers/sections.ts` | `c6425e19b93d20018057cf2fe6ae9eeb2f613a18` | FULL | carved section rendering |
 | `scripts/resolvers/composition.ts` | `b8d3483d9bd961409025959eddcd8840dd5f98a8` | FULL | parent-child composition |
-| `hosts/define-host.ts` | `0ed190dd00606a69acb0aca990289781f79bbc79` | FULL | host defaults/rewrites/frontmatter model |
-| `hosts/claude.ts` | `5381953cae8040508a260e6e4b3eb39973c92934` | FULL | Claude hook/GBrain behavior |
-| `hosts/codex.ts` | `b46e9222495eada3da68debaae6dab6d9d57167c` | FULL | Codex host behavior/suppression |
-| broader host adapter set | partial | NEXT / PLANNED | dedicated portability cluster |
 
 ---
 
@@ -216,9 +255,12 @@ Observed 2026-09-05.
 | `test/hook-scripts.test.ts` | FULL for careful use | direct shell-hook outputs and safety regression cases |
 | `test/plan-tune.test.ts` | FULL for safety use | one-way typed registry invariants |
 | `test/question-preference-hook.test.ts` | SUBSTANTIAL / CONTINUE | deterministic AUQ preference/safety interposition |
-| `test/gen-skill-docs.test.ts` | SUBSTANTIAL / CONTINUE | host generation/safety-prose structural behavior |
+| `test/gen-skill-docs.test.ts` | FULL for portability use | all-host generated-surface behavior; not actual-host equivalence |
+| `test/host-config.test.ts` | FULL | declarative config validation and golden structural contract |
 | `test/skill-e2e-cso.test.ts` | FULL for current use | selected real-agent security audit behavior and report persistence |
-| broader LLM judge/routing/Codex/Gemini/eval lifecycle tests | PLANNED | later eval cluster |
+| Codex CLI E2Es | SUBSTANTIAL / CONTINUE | real Codex behavior locally/when runtime exists; periodic CI has known all-skip gap |
+| Factory/Kiro/OpenCode/Cursor real-host E2E | BOUNDED NEGATIVE | no comparable dedicated runners found in targeted repository search |
+| broader LLM judge/routing/compliance/flake lifecycle tests | PLANNED | dedicated later eval cluster |
 
 ---
 
@@ -233,6 +275,7 @@ Observed 2026-09-05.
 | `syntheses/memory-learnings-context-gbrain.md` | BOUNDED | prior state → qualification/trust/cache → current context/reuse |
 | `syntheses/multi-agent-cross-model-coordination.md` | BOUNDED | dispatch/context/authority → child execution/result → liveness/continuation |
 | `syntheses/guarded-action-security-review.md` | BOUNDED | preventive action interposition + one-way authority + security evidence standing |
+| `syntheses/host-adapters-portability-fidelity.md` | BOUNDED | host/model compilation → install/runtime materialization → behavioral portability standing |
 
 ---
 
@@ -270,3 +313,9 @@ Observed 2026-09-05.
 21. CSO confidence/status is an audit representation, not externally calibrated probability.
 22. Historical `.gstack/security-reports` are not automatically current security truth or delivery gates.
 23. One-way typed registry is the primary destructive-decision source; keyword prose classification is only defense-in-depth.
+24. Host registry membership, generated-file freshness and actual runtime support are separate standings.
+25. `docs/ADDING_A_HOST.md` is stale/aspirational where it says setup is already fully config-driven; `host-config-export.ts` + actual `setup` win.
+26. Host and model are independent axes; do not infer model behavior from host identity alone.
+27. External-host section inlining changes context/loading topology even where logical content is preserved.
+28. A green Codex periodic shard can currently mean “all tests skipped”; job color is not proof that the intended runtime oracle executed.
+29. Targeted absence of non-Codex external-host E2E runners is a bounded repository finding, not proof about external/private validation.
