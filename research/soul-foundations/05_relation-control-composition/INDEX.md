@@ -2,28 +2,28 @@
 
 ## Role
 
-Current router for the completed parent-level cross-ground composition research.
+Current router for the accepted parent-level cross-ground composition research.
 
 Read `STATE.md` first for status and authorization.
 
 ## Current status
 
-**BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+**PARENT BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED.**
 
 No substantive composition child is active.
 
 ## Preferred read order
 
-1. `STATE.md` — bounded result, verification status and current gate.
+1. `STATE.md` — accepted result, verification status and current gate.
 2. `KEY.md` — shortest current orientation.
 3. `FINDINGS-MAP.md` — topic/result router.
 4. `synthesis/COMPOSITION-PARENT-SYNTHESIS.md` — integrated parent result.
 5. `C7-ADVERSARIAL-CLOSURE.md` — final adversarial attack, limits and sequencing correction.
 6. `OPEN-QUESTIONS.md` — residual/reopen triggers; not an execution queue.
-7. C0–C6 only when evidence recovery, semantic-kind discrimination, pairwise probes, multi-ground composites, rivals, holdouts or child promotion logic is decision-critical.
+7. C0–C6 only when evidence recovery, semantic-kind discrimination, pairwise probes, multi-ground composites, rivals, holdouts or child-promotion logic is decision-critical.
 8. `CURRENT-SURFACES.md` — exact current-surface binding.
 
-## Current bounded structure
+## Accepted bounded structure
 
 ```text
 Cross-Ground Composition
@@ -35,14 +35,14 @@ Cross-Ground Composition
 
 These are diagnostic research regions, not mutually exclusive relation/event classes.
 
-## Strongest next-step recommendation
+## Current sequencing recommendation
 
-If user evaluation accepts the parent result, activate **Relational Binding** as the first child pass.
+**Relational Binding** is the recommended first child pass and is **not active**.
 
 Do not pre-commit the remaining child order; re-select after Binding closure.
 
-## Guardrail
+## Current gate
 
-Current interaction is parent-result evaluation only.
+Next-child selection/planning only. A separate substantive activation instruction is required before Relational Binding begins.
 
-Architecture, ontology/data model, schema design, implementation and composition-child deepening remain unauthorized until separately activated.
+Architecture, ontology/data model, schema design and implementation remain unauthorized.
