@@ -1,21 +1,22 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment and Information accepted; Work ground coverage/gap audit active  
+**Status:** active research library; Environment and Information accepted; Work boundedly complete / awaiting user evaluation  
 **Environment / Operating Reality:** boundedly complete / accepted 2026-09-04  
 **Information / Representation:** boundedly complete / accepted  
 **Informational State:** bounded leaf / accepted  
 **Informational Dynamics / Formation–Transition:** boundedly complete / accepted  
-**Work:** ACTIVE COVERAGE / GAP AUDIT  
+**Work:** BOUNDEDLY COMPLETE / USER EVALUATION PENDING  
 **Actors:** inactive  
-**Current authorised substantive activity:** WORK GROUND COVERAGE / GAP AUDIT  
-**Current return condition:** bounded Work sufficiency/gap judgment for user evaluation
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** WORK RESULT EVALUATION ONLY  
+**Current return condition:** user evaluation of the bounded Work result before any separate next-work selection or ground activation
 
 ## Dependency state
 
 - `01_verticals/`: complete / user-evaluated.
-  - Work independent vertical: sufficiently complete / user-evaluated; being audited for current four-ground fit rather than restarted.
-  - Actors independent vertical: sufficiently complete / user-evaluated; inactive.
-- `02_adequacy/`: boundedly sufficient / accepted working hypothesis; four-ground frame remains subject to later falsifiers.
+  - Work independent vertical: sufficiently complete / user-evaluated; current ground audit found it sufficient under the four-ground frame.
+  - Actors independent vertical: sufficiently complete / user-evaluated; ground-deepening audit remains inactive.
+- `02_adequacy/`: boundedly sufficient / accepted working hypothesis; four-ground frame remains reopenable on material falsifiers.
 - `03_ground-deepening/`:
   - Environment / Operating Reality: boundedly complete / accepted.
   - Information / Representation: boundedly complete / accepted.
@@ -25,39 +26,46 @@
       - Informational Derivation / Transformation: structurally accepted immediate child; not separately researched.
       - Informational Selection / Exposure: structurally accepted immediate child; not separately researched.
     - Records / Persistent Information: accepted deep persistence specialization/profile across Information.
-  - Work: **ACTIVE coverage/gap audit** at `03_ground-deepening/grounds/work/`.
+  - Work: boundedly complete / user evaluation pending.
+    - no universal immediate-child hierarchy promoted;
+    - prior Work vertical remains the deep evidence-bearing corpus.
   - Actors: inactive.
 - Cross-ground composition, architecture, ontology/data model and implementation: not authorised.
 
-## Current Work audit purpose
-
-Test whether the accepted independent Work corpus remains sufficient as the Foundation Work ground under the now-accepted Environment and Information boundaries and newer candidate-study holdouts.
-
-The audit must distinguish:
-
-- a real missing Work-local first-order problem;
-- a neighboring-ground issue;
-- a deferred relation/composite;
-- a domain-specific mechanism/taxonomy;
-- mere additional examples of already-covered Work distinctions.
-
-If no material gap survives, the correct result is to accept the existing Work corpus into ground-deepening rather than manufacture new hierarchy.
-
-## Current sequencing
+## Current ground sequence
 
 ```text
 Environment / Operating Reality                 ← boundedly complete / accepted
 Information / Representation                    ← boundedly complete / accepted
-Work                                             ← ACTIVE COVERAGE / GAP AUDIT
+Work                                             ← boundedly complete / USER EVALUATION PENDING
+    ↳ rich multidimensional internal problem map
+    ↳ no universal immediate-child hierarchy promoted
 Actors                                           ← inactive
 ```
 
+## Work bounded result
+
+The current audit did not find a material new Work-local first-order family. It sharpened the boundary around the prior Work distinctions:
+
+```text
+actual Work state != informational representation of Work state
+Work readiness/admission != actual Environment capability/resource state
+Work admission != Actor obligation/authorization
+Work completion != actual target condition/evidence/authorized acceptance
+```
+
+The audit also found that contemporary agentic patterns and mechanisms instantiate existing Work distinctions rather than defining a new Work taxonomy.
+
 ## Verification status
 
-The prior Work corpus and current audit use same-model adversarial review unless explicitly stated otherwise. User evaluation does not create independent verification.
+The prior Work vertical is broadly source-backed and user-evaluated. The current ground audit adds four-ground boundary checks, candidate-study holdouts and same-model adversarial reduction. The combined Work result has not received independent second-researcher/model replication. User evaluation does not change verification independence.
 
 ## Current authorization
 
-**WORK GROUND COVERAGE / GAP AUDIT ONLY.**
+**WORK RESULT EVALUATION ONLY.**
+
+No substantive Foundation ground is active.
 
 Do not automatically begin Actors, systematic typed relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
+
+After user evaluation, make a separate next-work selection/authorization decision.
