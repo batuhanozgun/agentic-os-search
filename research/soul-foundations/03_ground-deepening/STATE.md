@@ -1,15 +1,16 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT ACCEPTED; INFORMATION ACCEPTED; WORK ACCEPTED; ACTORS AUDIT ACTIVE  
+**Status:** ENVIRONMENT ACCEPTED; INFORMATION ACCEPTED; WORK ACCEPTED; ACTORS BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment completion:** accepted 2026-09-04  
 **Information completion:** accepted 2026-09-05  
 **Work ground evaluation:** accepted for sequencing 2026-09-05  
 **Actors audit activation:** 2026-09-05  
+**Actors audit closure:** boundedly complete for evaluation 2026-09-05  
 **Scope:** ground-specific and recursive one-node-at-a-time research-depth completion  
-**Current authorised substantive activity:** ACTORS COVERAGE / GAP AUDIT ONLY  
-**Current phase:** ACTORS A0 CANONICAL / EVIDENCE RECOVERY
+**Current authorised substantive activity:** NONE  
+**Current phase:** ACTORS USER-EVALUATION GATE
 
 ## Working research tree / epistemic status
 
@@ -17,40 +18,58 @@
 Environment / Operating Reality                 ← boundedly complete / accepted
 Information / Representation                    ← boundedly complete / accepted
 Work                                             ← boundedly complete / accepted
-    ↳ rich multidimensional internal problem map
+Actors / Agency–Participation–Authority          ← boundedly complete / USER EVALUATION PENDING
+    ↳ rich relational / multi-anchor internal problem map
     ↳ no universal immediate-child hierarchy promoted
-Actors / Agency–Participation–Authority          ← ACTIVE COVERAGE / GAP AUDIT
 ```
 
-Information retains its accepted State/Dynamics structure and Records persistence specialization. Work retains the accepted bounded audit result and prior deep Work corpus.
+## Actors audit progress
 
-## Actors audit
+```text
+A0 canonical/current evidence recovery          ← COMPLETE
+A1 four-ground boundary / coverage audit        ← COMPLETE
+A2 first-order omission / gap test               ← COMPLETE
+A3 newer candidate-study holdouts                ← COMPLETE
+A4 external holdout expansion                    ← SKIPPED CONDITIONALLY; no live gap hypothesis
+A5 adversarial rival / reduction audit           ← COMPLETE / same-model, non-independent
+A6 closure                                       ← COMPLETE / USER EVALUATION GATE
+substantive ground active                        ← NONE
+```
+
+## Actors bounded result
 
 Canonical package:
 
 `grounds/actors/`
 
-Current mode: **coverage / gap audit**, not a full restart.
+Current judgment:
 
-Protected questions include:
+> The prior independent Actors corpus remains sufficient for the current four-ground Foundation depth. No material Actors-local first-order gap survived, and no stable universal immediate-child split is justified.
 
-- Actor state/standing vs Information representation;
-- capability/competence vs Environment actionability;
-- Work participation/admission vs role, obligation and authority;
-- delegation/transitive authority and agent-to-agent capability paths;
-- performer/decider/authorizer/principal/accountable-party separation;
-- collective/shared/corporate and non-human agency;
-- omission/non-action and responsibility/accountability under current ground boundaries.
+Strong boundary corrections retained:
 
-Only a surviving material Actors-local gap may trigger targeted substantive deepening.
+```text
+Actor standing != representation/evidence of Actor standing
+Actor capability/competence != Environment actionability
+Actor authority != technical effect power/runtime enforcement
+Actor participation/assignment != Work identity/admission/execution
+Work requiredness != Actor obligation
+Work acceptance state != authority to accept
+```
+
+Important orientation:
+
+- `Actors` does not mean only active doers;
+- semantically relevant non-performing parties/positions can matter;
+- reachable/effective effect power must not be called authority by default.
 
 ## Verification status
 
-The prior Actors vertical is source-backed and user-evaluated, but its completion check is same-model and non-independent. The active audit must independently re-attack boundary fit and omissions using newer evidence/holdouts.
+The prior Actors vertical has broad cross-domain evidence. The current audit adds accepted-ground boundary tests, newer candidate-study holdouts and same-model adversarial reduction. A5 is not independent verification. The combined Actors result has not received independent second-researcher/model replication.
 
 ## Current gate / guardrail
 
-Exactly one substantive ground is active: Actors.
+Current interaction is **Actors result evaluation only**.
 
 Do not begin:
 
@@ -60,4 +79,4 @@ Do not begin:
 - ontology/data model;
 - implementation.
 
-After Actors closes and is user-evaluated, rerun top-level adequacy before considering composition research.
+After user evaluation, make a separate transition decision. If Actors is accepted, the ground-deepening stage has all four grounds individually evaluated and the next logical step is a separately authorized top-level adequacy rerun.
