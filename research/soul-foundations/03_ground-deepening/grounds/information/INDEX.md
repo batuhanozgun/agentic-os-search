@@ -2,59 +2,43 @@
 
 ## Role
 
-Current retrieval router for the user-evaluated Information top-level node, its accepted Informational State child, and the bounded Informational Dynamics result under evaluation.
-
-The parent pass was executed under the routing label `Information / Representation State`. Its accepted refined label is `Information / Representation`.
+Current retrieval router for the user-evaluated Information top-level node and its user-evaluated first-level child structure.
 
 ## Current status
 
-**TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE USER-EVALUATED; INFORMATIONAL DYNAMICS BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+**TOP-LEVEL NODE AND FIRST-LEVEL CHILD STRUCTURE USER-EVALUATED / ACCEPTED.**
 
 No substantive child is active.
 
 ## Default read order
 
-1. `STATE.md` — parent status and current authorization.
-2. `informational-dynamics/STATE.md` — current bounded Dynamics result and evaluation gate.
-3. `informational-dynamics/KEY.md` → `FINDINGS-MAP.md` → `synthesis/INFORMATIONAL-DYNAMICS-SYNTHESIS.md` → `N7-NODE-CLOSURE.md` for the result under evaluation.
-4. Dynamics `INDEX.md` → N0–N6 / evidence / source routes when its reasoning path, rivals, boundary attack or falsifiers matter.
-5. `informational-state/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` when accepted State/output semantics matter.
-6. Parent `KEY.md` → `FINDINGS-MAP.md` → `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` for accepted parent orientation.
-7. Parent N0–N7 when the earlier parent reasoning path matters.
-8. `CURRENT-SURFACES.md` — current surface binding.
+1. `STATE.md` — current parent status and authorization.
+2. `KEY.md` — shortest accepted orientation.
+3. `FINDINGS-MAP.md` — current accepted Information hierarchy and topic routing.
+4. `informational-state/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` for the accepted State leaf result.
+5. `informational-dynamics/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis for the accepted Dynamics result.
+6. Dynamics `INDEX.md` → N0–N7 / evidence / source routes when its reasoning path or falsifiers matter.
+7. Parent synthesis/N0–N7 when top-level closure reasoning matters.
+8. `CURRENT-SURFACES.md` — exact current surface binding.
 
-## Current Information tree
-
-```text
-Information / Representation                    ← boundedly complete / user-evaluated
-    ├─ Informational State / Representational Constitution   ← bounded leaf / user-evaluated
-    └─ Informational Dynamics / Formation–Transformation     ← boundedly complete / USER EVALUATION PENDING
-```
-
-Dynamics closure recommends the refined label and child map:
+## Current accepted Information tree
 
 ```text
-Informational Dynamics / Formation–Transition
-    ├─ Informational Formation / Acquisition
-    ├─ Informational Derivation / Transformation
-    └─ Informational Selection / Exposure
+Information / Representation
+    ├─ Informational State / Representational Constitution   ← bounded leaf / accepted
+    └─ Informational Dynamics / Formation–Transition         ← boundedly complete / accepted
+         ├─ Informational Formation / Acquisition
+         ├─ Informational Derivation / Transformation
+         └─ Informational Selection / Exposure
+
+Records / Persistent Information
+    ↳ deep persistence specialization/profile crossing Information
 ```
 
-The refinement and three-child map are bounded research results awaiting user evaluation. None of the proposed children is active.
-
-Records / Persistent Information remains the accepted deep persistence specialization/profile crossing Information.
+The three Dynamics children are accepted structurally as immediate bounded problem regions but have not yet been separately researched.
 
 ## Current gate / guardrail
 
-Current interaction is evaluation of the bounded Informational Dynamics result. No substantive node is active.
+Current interaction is next-work selection/planning only. No substantive node is active.
 
-This package does not authorize:
-
-- any proposed Dynamics child;
-- Work or Actors ground deepening;
-- systematic relation/control composition;
-- architecture modules;
-- ontology/database schema;
-- implementation.
-
-A separate post-evaluation transition is required before any next substantive node becomes active.
+This package does not authorize any Dynamics child, Work, Actors, systematic relation/control composition, architecture, ontology/database schema or implementation. A separate transition is required before the next substantive node becomes active.
