@@ -1,59 +1,61 @@
 # Relation / Control / Composition — STATE
 
-**Status:** PARENT ACCEPTED; RELATIONAL BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL / CONSTRAINT ACTIVE  
+**Status:** PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL BOUNDED LEAF / AWAITING USER EVALUATION  
 **Parent user evaluation:** ACCEPTED 2026-09-05  
 **Relational Binding:** bounded leaf / user-evaluated / accepted 2026-09-05  
 **Composite Standing / Qualification:** bounded leaf / user-evaluated / accepted 2026-09-05  
-**Control / Constraint:** ACTIVE — K0 canonical/evidence recovery  
-**Current authorised substantive activity:** CONTROL / CONSTRAINT CHILD PASS
+**Control / Constraint:** bounded leaf / USER EVALUATION PENDING  
+**Current phase:** CONTROL RESULT EVALUATION  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** CONTROL / CONSTRAINT RESULT EVALUATION ONLY
 
-## Accepted composition structure / current child
+## Current composition structure
 
 ```text
 Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
 ├─ Composite Standing / Qualification ← bounded leaf / accepted
-├─ Control / Constraint                ← ACTIVE / K0
-└─ Transition / Effect / Feedback      ← inactive
+├─ Control / Constraint                ← BOUNDED LEAF / USER EVALUATION PENDING
+└─ Transition / Effect / Feedback      ← recommended next if Control accepted / inactive
 ```
 
-## Control protected question
+## Current Control result
 
-> What makes a candidate action, transition, decision or continuation permitted, required, prohibited, blocked, gated, conditioned, escalated or otherwise governed, while preserving distinctions among norm/policy, legitimate authority, deontic standing, decision, enforcement, monitoring/compliance and alternate-path closure?
-
-Canonical active package:
+Canonical package:
 
 `control-constraint/`
 
-## Key inherited boundaries
+Current bounded judgment:
+
+> Control / Constraint is a bounded leaf for cross-ground governing semantics over an exact candidate behavior/transition/effect under an applicable governing basis/objective. No immediate child is promoted.
+
+Canonical gloss:
 
 ```text
-Binding
-→ what exact anchors/roles/applicability are connected?
-
-Composite Standing
-→ what cross-ground qualification currently holds?
-
-Control
-→ what governs/permits/requires/prohibits/blocks/gates/intervenes?
-
-Transition [deferred]
-→ what changed/propagated/effected over time?
+arbitrary limitation / policy artifact / authority standing / mechanism
+!= Control by identity
 ```
 
-Strong inherited non-collapse:
+Stable semantic pressure includes:
+- exact governed focus / protected effect;
+- governing basis/objective/invariant;
+- governing mode;
+- applicability/scope/time;
+- precedence/conflict/exception/default semantics where material;
+- authority, decision, enforcement, coverage and monitoring kept distinct where material.
+
+Strongest scope discovery:
 
 ```text
-policy text
-!= legitimate authority
-!= authorization decision
-!= technical enforcement
-!= observed compliance
+governed-effect / control-objective scope
+!= enforcement-point / monitored-path scope
+```
 
-capable
-!= actionable
-!= authorized
-!= technically reachable
+Therefore:
+
+```text
+one path blocked
+!= protected effect controlled
 ```
 
 ## Child status
@@ -61,16 +63,28 @@ capable
 ```text
 Relational Binding                  ← accepted / inactive
 Composite Standing / Qualification ← accepted / inactive
-Control / Constraint                ← ACTIVE / K0
-Transition / Effect / Feedback      ← inactive
+Control / Constraint                ← evaluation pending / inactive
+Transition / Effect / Feedback      ← RECOMMENDED NEXT IF CONTROL ACCEPTED / inactive
 ```
+
+## Sequencing result after Control closure
+
+K7 re-evaluated the remaining child frontier.
+
+Current recommendation:
+
+> **Transition / Effect / Feedback should be the next composition child if Control is accepted.**
+
+Reason: unresolved Foundation pressure now concentrates on actual change, propagation, effect, causation and feedback over time; Transition can consume stable Binding + Standing + Control semantics.
+
+This recommendation does not activate Transition.
 
 ## Verification status
 
-Prior child adversarial closures are same-model reviews. Control will use authoritative external/candidate holdouts as falsifiers but no external source is taxonomy authority.
+Parent C7, Binding B7, Standing S7 and Control K7 are same-model adversarial reviews. No independent second-researcher/model replication validates these exact composition results.
 
 ## Current authorization
 
-**CONTROL / CONSTRAINT CHILD PASS TO BOUNDED CLOSURE.**
+**CONTROL / CONSTRAINT RESULT EVALUATION ONLY.**
 
-Do not begin Transition, architecture, ontology/data-model/schema work or implementation.
+Do not automatically begin Transition, architecture, ontology/data-model/schema work or implementation.
