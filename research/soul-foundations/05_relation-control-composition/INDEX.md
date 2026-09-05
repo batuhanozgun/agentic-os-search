@@ -2,42 +2,46 @@
 
 ## Role
 
-Current router for the accepted composition parent and bounded Relational Binding child.
+Current router for accepted Cross-Ground Composition and its active child research.
 
-Read `STATE.md` first for authorization and current gate.
+Read `STATE.md` first for authorization and current child.
 
 ## Current status
 
-**PARENT ACCEPTED; RELATIONAL BINDING BOUNDED LEAF / AWAITING USER EVALUATION.**
-
-No substantive composition child is active.
+**PARENT ACCEPTED; RELATIONAL BINDING ACCEPTED; COMPOSITE STANDING / QUALIFICATION ACTIVE.**
 
 ## Preferred read order
 
-1. `STATE.md` — parent/child status and current authorization.
-2. Current child result → `relational-binding/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → B7.
-3. Binding residual/reopen questions → `relational-binding/OPEN-QUESTIONS.md`.
-4. Parent orientation when needed → `KEY.md` → `FINDINGS-MAP.md` → synthesis → C7.
-5. Parent pairwise evidence → `C2-PAIRWISE-PROBES.md` when reconstruction is needed.
-6. `relational-binding/CURRENT-SURFACES.md` — exact child freshness binding.
-7. `CURRENT-SURFACES.md` — parent/stage freshness binding.
+1. `STATE.md` — parent/child status and guardrail.
+2. Active child → `composite-standing/STATE.md` → `PLAN.md` → S0–S7 as completed.
+3. Accepted Binding prerequisite → `relational-binding/STATE.md` → `KEY.md` → synthesis → B7 when needed.
+4. Parent result → `KEY.md` → `FINDINGS-MAP.md` → synthesis → C7.
+5. Parent C3 hard cases and `OPEN-QUESTIONS.md` when a standing question depends on them.
+6. Ground current/deferred surfaces only when decision-critical.
+7. Candidate studies only through catalog → selected META → deeper files as needed.
+8. Current manifests for exact freshness binding.
 
-## Accepted composition structure / current child status
+## Current composition map
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding                  ← bounded leaf / USER EVALUATION PENDING
-├─ Composite Standing / Qualification ← recommended next if accepted / inactive
+├─ Relational Binding                  ← bounded leaf / accepted
+├─ Composite Standing / Qualification ← ACTIVE
 ├─ Control / Constraint                ← inactive
 └─ Transition / Effect / Feedback      ← inactive
 ```
 
-## Current sequencing recommendation
+## Research rule
 
-If user evaluation accepts Relational Binding, **Composite Standing / Qualification** is the strongest next-child candidate.
+Composite Standing must not collapse:
 
-No child is active until a separate substantive activation instruction.
+```text
+recorded status
+= actual standing
+= authorized judgment
+= control decision
+```
 
 ## Guardrail
 
-Architecture, ontology/data model, schema design and implementation remain unauthorized.
+Only Composite Standing is active. Control, Transition, architecture, ontology/data-model/schema design and implementation remain unauthorized.
