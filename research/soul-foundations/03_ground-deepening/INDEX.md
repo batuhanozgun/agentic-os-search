@@ -6,14 +6,14 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE CHILD BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+**ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE USER-EVALUATED; INFORMATIONAL DYNAMICS ACTIVE.**
 
 ## Read order
 
 1. `STATE.md` — current stage status/authorization.
 2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive method.
-3. Informational State bounded result under evaluation → `grounds/information/informational-state/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → `synthesis/INFORMATIONAL-STATE-SYNTHESIS.md` → `N7-NODE-CLOSURE.md`.
-4. Informational State research-path reconstruction → child `INDEX.md` → N0–N6 / evidence / source routes.
+3. Active Informational Dynamics research → `grounds/information/informational-dynamics/STATE.md` → `INDEX.md` → `RESEARCH-PLAN.md` → current pass artifacts.
+4. Accepted Informational State sibling → `grounds/information/informational-state/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis when output-state/boundary semantics matter.
 5. Accepted Information parent → `grounds/information/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md`.
 6. Information parent research-path reconstruction → `grounds/information/INDEX.md` → parent N0–N7 / source routes.
 7. Completed Environment → `grounds/environment/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md` only when its result/boundary is needed.
@@ -37,16 +37,14 @@ Environment / Operating Reality                 ← boundedly complete / accepte
          ↳ Technical Work Environment               ← deep technical specialization/profile
 
 Information / Representation                    ← bounded result / accepted
-    ├─ Informational State / Representational Constitution  ← bounded leaf / USER EVALUATION PENDING
-    └─ Informational Dynamics / Formation–Transformation    ← inactive
+    ├─ Informational State / Representational Constitution  ← bounded leaf / user-evaluated
+    └─ Informational Dynamics / Formation–Transformation    ← ACTIVE
 
 Records / Persistent Information                ↳ accepted deep persistence specialization/profile
 
 Work                                             ← inactive
 Actors                                           ← inactive
 ```
-
-The accepted Information parent result refined the prior routing label `Information / Representation State` and the earlier adequacy-stage Records-child sketch.
 
 ## Information parent completion route
 
@@ -61,10 +59,9 @@ N6 omission/reduction audit         ← complete / same-model
 N7 closure                          ← complete / user-evaluated
 ```
 
-## Informational State child completion route
+## Informational State completion route
 
 ```text
-Informational State / Representational Constitution
 N0 canonical/internal recovery      ← complete
 N1 coherence attack                 ← complete
 N2 first-principles problem map     ← complete
@@ -72,15 +69,29 @@ N3 immediate-child discovery        ← complete / no stable child promoted
 N4 boundary/anti-collapse           ← complete
 N5 external falsifiers              ← complete
 N6 omission/reduction audit         ← complete / same-model, non-independent
-N7 closure/user evaluation          ← complete / USER EVALUATION PENDING
+N7 closure                          ← complete / user-evaluated for sequencing
+```
+
+## Active Informational Dynamics route
+
+```text
+Informational Dynamics / Formation–Transformation
+N0 canonical/internal recovery      ← ACTIVE
+N1 coherence attack                 ← pending
+N2 first-principles problem map     ← pending
+N3 immediate-child discovery        ← pending
+N4 boundary/anti-collapse           ← pending
+N5 external falsifiers              ← pending
+N6 omission/reduction audit         ← pending
+N7 closure/user evaluation          ← pending
 ```
 
 ## Current gate
 
-No substantive node is active.
+Exactly one substantive node is active: `Informational Dynamics / Formation–Transformation`.
 
-Current interaction is evaluation of the bounded Informational State result. A separate post-evaluation transition is required before any sibling, ground or deeper node is activated.
+Finding a child during this pass does not authorize researching that child in the same pass.
 
 ## Guardrail
 
-Do not infer architecture, ontology/data model, implementation, systematic cross-ground composition or automatic activation of Informational Dynamics / Work / Actors / any proposed deeper State node.
+Do not infer architecture, ontology/data model, implementation, systematic cross-ground composition or automatic activation of Work / Actors / discovered Dynamics children.
