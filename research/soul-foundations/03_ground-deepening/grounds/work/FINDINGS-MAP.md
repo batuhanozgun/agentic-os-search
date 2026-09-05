@@ -1,7 +1,7 @@
 # Work Ground Audit — FINDINGS MAP
 
 **Document role:** CURRENT_L1  
-**Status:** bounded audit result / awaiting user evaluation  
+**Status:** bounded audit result / USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-05
 
 ## 1. Does Work survive as a distinct Foundation ground?
@@ -122,7 +122,7 @@ Rejected as universal child decompositions:
 - Item / Network / System;
 - Purpose / Coordination / Execution / Evaluation / Recovery.
 
-Current preferred structural result:
+Current accepted structural result:
 
 > **Work is a boundedly sufficient ground with a rich internal multidimensional map and no promoted immediate-child hierarchy at current Foundation depth.**
 
@@ -133,6 +133,8 @@ Route: A5.
 - prior Work vertical: broad external/cross-domain evidence + same-model completeness audit;
 - current ground audit: four-ground boundary test + newer candidate-study holdouts + same-model adversarial reduction;
 - independent second-researcher/model replication: **not performed**.
+
+User acceptance closes sequencing but does not change verification independence.
 
 ## 14. Closure
 
