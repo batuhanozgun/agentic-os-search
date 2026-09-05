@@ -1,15 +1,14 @@
 # Relation / Control / Composition — STATE
 
-**Status:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
+**Status:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED; RELATIONAL BINDING CHILD ACTIVE  
 **Activated:** 2026-09-05  
 **Closed for evaluation:** 2026-09-05  
 **User evaluation:** ACCEPTED 2026-09-05  
-**Current phase:** POST-EVALUATION / CHILD-SELECTION GATE  
-**C0–C7:** COMPLETE  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT-CHILD SELECTION / PLANNING ONLY
+**Current phase:** RELATIONAL BINDING CHILD RESEARCH  
+**C0–C7 parent pass:** COMPLETE  
+**Current authorised substantive activity:** RELATIONAL BINDING CHILD PASS
 
-## Entering accepted Foundation grounds
+## Accepted Foundation grounds
 
 ```text
 Environment / Operating Reality                 ← accepted
@@ -18,63 +17,48 @@ Work                                             ← accepted
 Actors / Agency–Participation–Authority          ← accepted
 ```
 
-## Accepted bounded parent result
-
-> **Cross-ground composition is a coherent Foundation research problem with four currently supported immediate research regions.**
-
-Accepted structure for current Foundation sequencing:
+## Accepted composition structure
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding
-├─ Composite Standing / Qualification
-├─ Control / Constraint
-└─ Transition / Effect / Feedback
+├─ Relational Binding                  ← ACTIVE CHILD
+├─ Composite Standing / Qualification ← NOT ACTIVE
+├─ Control / Constraint                ← NOT ACTIVE
+└─ Transition / Effect / Feedback      ← NOT ACTIVE
 ```
 
-These are diagnostic research problem regions, not mutually exclusive event/relation classes, ontology buckets or architecture modules.
+These are diagnostic research problem regions, not ontology buckets or architecture modules.
 
-## Parent protected question
+## Active child
 
-> How do Environment, Information, Work and Actors compose through typed relations, composite standings, controls and transitions without collapsing their ground-local semantics?
+Canonical package:
 
-## Strongest structural findings
+`relational-binding/`
+
+Protected child question:
+
+> Which accepted-ground anchors are connected, in what typed role, direction, scope, reference frame and time, and what semantic difference would be lost by replacing that binding with a generic link?
+
+## Parent result retained
 
 - pairwise relations are necessary but insufficient for complete composition semantics;
-- composite standings such as actionable, verified, validated, accepted, goal attained or evidence sufficient require several anchors and must not be projected as intrinsic one-ground statuses;
-- policy representation, legitimate authority, authorization decision, obligation, technical enforcement and observed compliance remain distinct;
-- transition/effect/feedback semantics are not reducible to Work lifecycle alone;
-- no fifth composition region or upstream fifth Foundation ground survived C0–C7.
-
-## Child status
-
-```text
-Relational Binding                  ← discovered / RECOMMENDED NEXT / NOT ACTIVE
-Composite Standing / Qualification ← discovered / NOT ACTIVE
-Control / Constraint                ← discovered / NOT ACTIVE
-Transition / Effect / Feedback      ← discovered / NOT ACTIVE
-```
-
-## Sequencing recommendation
-
-**Relational Binding should be the first child pass.**
-
-The order of Composite Standing, Control and Transition is intentionally not fixed. Re-select after Binding closure using the evidence exposed by that child pass.
+- Composite Standing, Control and Transition remain separate inactive children;
+- no fifth composition region or upstream fifth Foundation ground was forced by the accepted parent pass.
 
 ## Verification status
 
-C7 is same-model adversarial review. No independent second-researcher/model replication has validated the exact four-region decomposition, and no external standard publishes this exact Foundation frame.
-
-User acceptance closes the parent sequencing gate; it does not change verification independence.
+Parent C7 is same-model adversarial review and not independent replication. The active Binding child must retain the same verification distinction.
 
 ## Current authorization / return condition
 
-No composition child is active.
+**RELATIONAL BINDING CHILD PASS ONLY.**
 
-Current interaction is **next-child selection/planning only**. Relational Binding remains the recommended next child but requires a separate substantive activation instruction.
-
-Do not automatically begin:
-- Relational Binding or another child;
+Do not begin automatically:
+- Composite Standing / Qualification;
+- Control / Constraint;
+- Transition / Effect / Feedback;
 - SOUL / Development OS architecture;
-- ontology/data-model or schema work;
+- ontology/data-model/schema work;
 - implementation.
+
+Relational Binding returns to the parent for user evaluation at bounded closure.
