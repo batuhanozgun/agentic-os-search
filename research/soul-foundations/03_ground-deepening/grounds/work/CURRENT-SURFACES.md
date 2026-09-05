@@ -1,6 +1,6 @@
 # Work Ground Coverage / Gap Audit — CURRENT SURFACES
 
-**Status:** canonical freshness binding with Work audit active at A0  
+**Status:** canonical freshness binding with Work audit active at A1  
 **Date:** 2026-09-05  
 **Branch:** `main`
 
@@ -8,9 +8,10 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Audit state | `STATE.md` | `5906ddc36739c28a3245b22a01b21d17ad32e064` |
+| Audit state | `STATE.md` | `cc396f582ab0da846172a0f515f6454865b337d6` |
 | Audit router | `INDEX.md` | `882f242fc05ee43b15405d958f5e7d253bb09008` |
 | Audit plan | `AUDIT-PLAN.md` | `35e0783a459242c99acc8cb7d4141ad4012cf279` |
+| A0 evidence recovery | `A0-EVIDENCE-RECOVERY.md` | `7e8458ecef8f1b64a86c40edcb6423b5270fae76` |
 
 ## Prior Work corpus binding
 
@@ -39,10 +40,10 @@
 ```text
 Environment / Operating Reality    ← accepted
 Information / Representation       ← accepted
-Work                               ← ACTIVE COVERAGE / GAP AUDIT / A0
+Work                               ← ACTIVE COVERAGE / GAP AUDIT / A1
 Actors                             ← inactive
 ```
 
 ## Verification note
 
-This manifest establishes exact repository-view identity only. It does not validate Work sufficiency. The audit must independently test boundary fit and omissions; same-model adversarial checks remain non-independent.
+This manifest establishes exact repository-view identity only. A0 established evidence/currentness recovery, not Work sufficiency. A1 must now test cross-ground boundary fit.
