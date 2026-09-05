@@ -1,30 +1,29 @@
 # Relation / Control / Composition — STATE
 
-**Status:** PARENT ACCEPTED; RELATIONAL BINDING ACCEPTED; COMPOSITE STANDING BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** PARENT ACCEPTED; RELATIONAL BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; NEXT-CHILD SELECTION / PLANNING  
 **Parent user evaluation:** ACCEPTED 2026-09-05  
 **Relational Binding:** bounded leaf / user-evaluated / accepted 2026-09-05  
-**Composite Standing / Qualification:** bounded leaf / USER EVALUATION PENDING  
-**Current phase:** COMPOSITE STANDING RESULT EVALUATION  
+**Composite Standing / Qualification:** bounded leaf / user-evaluated / accepted 2026-09-05  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** COMPOSITE STANDING RESULT EVALUATION ONLY
+**Current authorised interaction:** NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY
 
 ## Accepted composition structure
 
 ```text
 Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
-├─ Composite Standing / Qualification ← BOUNDED LEAF / USER EVALUATION PENDING
+├─ Composite Standing / Qualification ← bounded leaf / accepted
 ├─ Control / Constraint                ← inactive
 └─ Transition / Effect / Feedback      ← inactive
 ```
 
-## Current Composite Standing result
+## Accepted Composite Standing result
 
 Canonical package:
 
 `composite-standing/`
 
-Current bounded judgment:
+Accepted bounded judgment:
 
 > Composite Standing / Qualification is a bounded leaf for cross-ground qualifications whose constitutive/defining semantics cannot be localized to one accepted ground. No immediate child is promoted.
 
@@ -49,18 +48,18 @@ Stable semantic pressure includes:
 
 ```text
 Relational Binding                  ← accepted / inactive
-Composite Standing / Qualification ← evaluation pending / inactive
-Control / Constraint                ← RECOMMENDED NEXT IF STANDING ACCEPTED / inactive
+Composite Standing / Qualification ← accepted / inactive
+Control / Constraint                ← RECOMMENDED NEXT / inactive
 Transition / Effect / Feedback      ← inactive
 ```
 
 ## Sequencing result after Standing closure
 
-The remaining-child sequencing question was re-evaluated.
+The remaining-child sequencing question was re-evaluated during S7.
 
 Current recommendation:
 
-> **Control / Constraint should be the next composition child if Composite Standing is accepted.**
+> **Control / Constraint should be the next composition child.**
 
 Reason: Standing leaves policy/criterion, legitimate authority, permission/obligation, decision/gate, enforcement and bypass semantics unresolved.
 
@@ -72,6 +71,6 @@ Relational Binding B7 and Composite Standing S7 are same-model adversarial revie
 
 ## Current authorization
 
-**COMPOSITE STANDING RESULT EVALUATION ONLY.**
+**NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY.**
 
 Do not automatically begin Control, Transition, architecture, ontology/data-model/schema work or implementation.
