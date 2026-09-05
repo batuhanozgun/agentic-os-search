@@ -2,50 +2,48 @@
 
 ## Role
 
-Current router for the active Transition / Effect / Feedback Foundation child pass.
+Current router for the completed Transition / Effect / Feedback parent pass.
 
-Read `STATE.md` first for authorization, current phase and stop rule.
+Read `STATE.md` first for bounded result, child discovery, verification status and current authorization.
 
 ## Current status
 
-**ACTIVE — T0 canonical/current evidence recovery.**
+**BOUNDEDLY COMPLETE AS PARENT / AWAITING USER EVALUATION.**
 
-## Read order
+No substantive composition child is active from this package.
 
-1. `STATE.md` — scope, authorization, current phase and closure rule.
-2. `PLAN.md` — research method and falsification criteria.
-3. Accepted Control result → `../control-constraint/STATE.md` → `KEY.md` → synthesis → K7.
-4. Accepted Composite Standing → `../composite-standing/STATE.md` → `KEY.md` → synthesis → S7.
-5. Accepted Relational Binding → `../relational-binding/STATE.md` → `KEY.md` → synthesis → B7.
-6. Parent hard cases/residuals → `../C3-MULTI-GROUND-COMPOSITES.md` and `../OPEN-QUESTIONS.md`.
-7. Ground-local dynamics/deferred relations only where decision-critical.
-8. Candidate studies → `../../../studies/CATALOG.md` → selected META / targeted files.
-9. T0–T7 artifacts as completed.
-10. `KEY.md`, `FINDINGS-MAP.md`, synthesis and `CURRENT-SURFACES.md` after closure.
+## Preferred read order
 
-## Research rule
+1. `STATE.md` — bounded parent result and current gate.
+2. `KEY.md` — shortest orientation.
+3. `FINDINGS-MAP.md` — targeted result/evidence router.
+4. `synthesis/TRANSITION-EFFECT-FEEDBACK-SYNTHESIS.md` — integrated result.
+5. `T7-ADVERSARIAL-CLOSURE.md` — final attack and promotion decision.
+6. `OPEN-QUESTIONS.md` — residual/reopen triggers; not execution queue.
+7. T0–T6 only when evidence recovery, minimum signature, discrimination, propagation/time, rival splits, external holdouts or child-promotion logic is decision-critical.
+8. `CURRENT-SURFACES.md` — exact freshness binding after closure.
 
-Do not treat occurrence order, event logs, Work execution or observed state difference as causal/effect semantics by identity.
-
-Preserve at minimum:
+## Bounded result
 
 ```text
-event record != event/change itself
-sequence != causation
-intended effect != realized effect
-realized change != attribution to a specific cause
-observation != feedback
-feedback signal != adaptation/evolution
+Transition / Effect / Feedback
+├─ Cross-Ground Transition / Propagation
+├─ Cross-Ground Causal Effect / Contribution
+└─ Cross-Ground Feedback / Adaptation
 ```
 
-Also preserve:
+The parent is not a leaf.
 
-```text
-dependency changed
-→ prior standing/control may require re-evaluation
-!= prior standing/control necessarily changed at the same instant everywhere
-```
+## Critical routing rule
+
+Ground-local dynamics stay in their accepted ground. This parent applies only when the protected temporal/effect question irreducibly spans accepted grounds or their accepted composition semantics.
+
+## Next-step orientation
+
+If user evaluation accepts this result, **Cross-Ground Transition / Propagation** is the strongest first child.
+
+It is not active.
 
 ## Guardrail
 
-No architecture, ontology/data-model/schema or implementation work is active.
+Current interaction is Transition parent result evaluation only. Child research, architecture, ontology/data-model/schema design and implementation remain unauthorized.
