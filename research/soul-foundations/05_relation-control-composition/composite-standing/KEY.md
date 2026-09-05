@@ -1,14 +1,14 @@
 # Composite Standing / Qualification — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** bounded leaf result / awaiting user evaluation  
+**Status:** bounded leaf result / USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-05
 
 ## Shortest current result
 
 ```text
 Composite Standing / Qualification
-    ← BOUNDED LEAF
+    ← BOUNDED LEAF / ACCEPTED
     ← cross-ground qualification only
     ← no immediate child promoted
     ← shared semantic core + optional assessment/recognition layers
@@ -113,11 +113,9 @@ actual conformity
 
 ## Next sequencing recommendation
 
-If user evaluation accepts Composite Standing:
-
 > **Control / Constraint** is the strongest current next composition-child candidate.
 
-It is not active.
+It is not active and requires separate substantive activation.
 
 ## Verification boundary
 
