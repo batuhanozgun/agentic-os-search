@@ -1,26 +1,26 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment boundedly complete / user-evaluated; Information top-level boundedly complete / user-evaluated; Informational State user-evaluated; Informational Dynamics boundedly complete / awaiting user evaluation  
+**Status:** active research library; Environment boundedly complete / accepted; Information top-level and first-level child structure user-evaluated / accepted  
 **Environment / Operating Reality:** boundedly complete / accepted 2026-09-04  
-**Information top-level research result:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
-**Accepted Information label:** Information / Representation  
-**Informational State research result:** BOUNDED LEAF / USER-EVALUATED  
-**Informational Dynamics research result:** BOUNDEDLY COMPLETE / USER EVALUATION PENDING  
+**Information / Representation:** boundedly complete / accepted  
+**Informational State:** bounded leaf / user-evaluated  
+**Informational Dynamics / Formation–Transition:** boundedly complete / user-evaluated / accepted  
+**Dynamics user evaluation:** accepted 2026-09-05  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** INFORMATIONAL DYNAMICS RESULT EVALUATION ONLY  
-**Current return condition:** user evaluation of the bounded Informational Dynamics result before any separate next-work selection or node activation
+**Current authorised interaction:** NEXT-WORK SELECTION / PLANNING ONLY
 
 ## Dependency state
 
 - `01_verticals/`: complete / user-evaluated.
 - `02_adequacy/`: boundedly sufficient / accepted working hypothesis; earlier Information→Records sketch refined by deeper Information research.
 - `03_ground-deepening/`:
-  - Environment / Operating Reality: boundedly complete / user-evaluated.
-  - Information / Representation: boundedly complete / user-evaluated.
-    - Informational State / Representational Constitution: bounded leaf / user-evaluated.
-    - Informational Dynamics / Formation–Transformation: boundedly complete / user evaluation pending.
-      - recommended refined label: `Informational Dynamics / Formation–Transition`;
-      - proposed immediate children: Formation / Acquisition; Derivation / Transformation; Selection / Exposure.
+  - Environment / Operating Reality: boundedly complete / accepted.
+  - Information / Representation: boundedly complete / accepted.
+    - Informational State / Representational Constitution: bounded leaf / accepted.
+    - Informational Dynamics / Formation–Transition: boundedly complete / accepted.
+      - Informational Formation / Acquisition: structurally accepted immediate child; not separately researched.
+      - Informational Derivation / Transformation: structurally accepted immediate child; not separately researched.
+      - Informational Selection / Exposure: structurally accepted immediate child; not separately researched.
     - Records / Persistent Information: accepted deep persistence specialization/profile across Information.
   - Work: inactive.
   - Actors: inactive.
@@ -30,35 +30,23 @@
 
 ```text
 Information / Representation                    ← boundedly complete / accepted
-    ├─ Informational State / Representational Constitution   ← bounded leaf / user-evaluated
-    └─ Informational Dynamics / Formation–Transformation     ← boundedly complete / USER EVALUATION PENDING
-
-Dynamics closure recommendation:
-Informational Dynamics / Formation–Transition
-    ├─ Informational Formation / Acquisition
-    ├─ Informational Derivation / Transformation
-    └─ Informational Selection / Exposure
+    ├─ Informational State / Representational Constitution   ← bounded leaf / accepted
+    └─ Informational Dynamics / Formation–Transition         ← boundedly complete / accepted
+         ├─ Informational Formation / Acquisition
+         ├─ Informational Derivation / Transformation
+         └─ Informational Selection / Exposure
 ```
 
-The Dynamics label refinement and proposed children are bounded research results awaiting user evaluation. None is active.
+The three Dynamics children are accepted as bounded first-order problem regions. None has yet been activated or recursively researched.
 
 ## Verification status
 
-Information parent, State child and Dynamics child passes used cross-domain external falsifiers plus same-model adversarial review. The Dynamics full synthesis has not received independent second-researcher/model replication. User evaluation does not change verification independence.
+Information parent, State and Dynamics passes used cross-domain external falsifiers plus same-model adversarial review. The complete Dynamics synthesis has not received independent second-researcher/model replication. User acceptance does not change verification independence.
 
 ## Current authorization
 
-**INFORMATIONAL DYNAMICS RESULT EVALUATION ONLY.**
+**NEXT-WORK SELECTION / PLANNING ONLY.**
 
-No substantive node is active.
+No substantive Foundation node is active.
 
-Do not automatically begin:
-
-- any proposed Dynamics child;
-- Work or Actors ground deepening;
-- systematic typed relation/control composition;
-- SOUL/Development OS architecture;
-- ontology/data-model work;
-- implementation.
-
-After user evaluation, make a separate next-work selection/authorization decision.
+Do not automatically begin any Dynamics child, Work, Actors, systematic typed relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
