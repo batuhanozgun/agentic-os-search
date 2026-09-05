@@ -1,6 +1,6 @@
 # Relation / Control / Composition — CURRENT SURFACES
 
-**Status:** canonical freshness binding at Control / Constraint bounded closure / user-evaluation gate  
+**Status:** canonical freshness binding after Control acceptance / next-child planning gate  
 **Date:** 2026-09-05  
 **Branch:** `main`
 
@@ -8,10 +8,10 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Parent state | `STATE.md` | `bd17662cb98cf52014b3cc4b58b856df0ba7aaaf` |
-| Parent router | `INDEX.md` | `951d42ac07a184115b6b17e5bf8225aefde13494` |
+| Parent state | `STATE.md` | `29aa8ff1b84ad04ff2f95c89de5b36c21e9c0adc` |
+| Parent router | `INDEX.md` | `655060565305b861d93d2431077230af471ad5b5` |
 | Parent plan | `PLAN.md` | `bc866966be4d1410839ea8ae85901c3a4eb7372f` |
-| Parent key | `KEY.md` | `c601e000edeaa650032625722a618d0f1c258783` |
+| Parent key | `KEY.md` | `7de39f893b82134fd235477defc2d2f163d84e24` |
 | Parent findings map | `FINDINGS-MAP.md` | `b98253dd32aa06ae5761770a4400dc208e15a7b6` |
 | Parent synthesis | `synthesis/COMPOSITION-PARENT-SYNTHESIS.md` | `f4a36ddaf6a711efd2939a3f423313e5af8c3530` |
 | Parent residual questions | `OPEN-QUESTIONS.md` | `7f6e823f0e7fe9f34c738d845238547aa637dd89` |
@@ -35,8 +35,8 @@
 |---|---|---|
 | Relational Binding | bounded leaf / USER-EVALUATED / ACCEPTED | `relational-binding/CURRENT-SURFACES.md` @ `cd21db93fd96195a474860afdcea5071207c61f6` |
 | Composite Standing / Qualification | bounded leaf / USER-EVALUATED / ACCEPTED | `composite-standing/CURRENT-SURFACES.md` @ `07b8b01180149a8f87d4b257526926ac2700b63e` |
-| Control / Constraint | bounded leaf / USER EVALUATION PENDING | `control-constraint/CURRENT-SURFACES.md` @ `36e53b0151aff0f15aa8cc2a24bd7af2cd4339b5` |
-| Transition / Effect / Feedback | recommended next if Control accepted / inactive | not created/active |
+| Control / Constraint | bounded leaf / USER-EVALUATED / ACCEPTED | `control-constraint/CURRENT-SURFACES.md` @ `df99373883d3741a2b6b42df530e904213036b2c` |
+| Transition / Effect / Feedback | recommended next / inactive | not created/active |
 
 ## Accepted upstream inputs
 
@@ -52,9 +52,8 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Foundation state | `../STATE.md` | `9043517e24fdeb58764ad02e409f8e845d12b1d8` |
-| Foundation router | `../INDEX.md` | `6a789905da3940f4e157ff539a5265ee8c834f54` |
-| Foundation README orientation | `../README.md` | `a90af31af6093bd1fb37cdfff8731c5b95871166` |
+| Foundation state | `../STATE.md` | `ba6faeaaa89273202a586c71bf5a5284e959a095` |
+| Foundation router | `../INDEX.md` | `d7fbee4fec87b1a56ccd41b76649490528156344` |
 
 ## Current bounded state
 
@@ -62,8 +61,8 @@
 Cross-Ground Composition
 ├─ Relational Binding                  ← BOUNDED LEAF / ACCEPTED
 ├─ Composite Standing / Qualification ← BOUNDED LEAF / ACCEPTED
-├─ Control / Constraint                ← BOUNDED LEAF / USER EVALUATION PENDING
-└─ Transition / Effect / Feedback      ← recommended next if Control accepted / inactive
+├─ Control / Constraint                ← BOUNDED LEAF / ACCEPTED
+└─ Transition / Effect / Feedback      ← recommended next / inactive
 
 substantive composition child          ← NONE
 ```
