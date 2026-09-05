@@ -5,339 +5,242 @@
 **User authorization:** broad gstack research and durable repository work authorised through the current operational boundary  
 **Pinned target:** `garrytan/gstack@0d1bd5616c0ef096bb7ccee336f63c60ee408618`  
 **Observed:** 2026-09-05  
-**Current phase:** S2 — subsystem reconstruction; four bounded syntheses complete  
+**Current phase:** S2 — subsystem reconstruction; **five bounded syntheses complete**  
 **Foundation mutation:** NONE / NOT AUTHORISED BY THIS STUDY
 
 ## Protected research question
 
 Build a source-grounded model of gstack as an implemented software-development operating system / software factory, then determine what it does across Information, Work, Actors and Environment and how its important mechanisms connect those areas.
 
-The Foundation four-ground frame is an upper-level projection/comparison frame, not the initial source taxonomy.
+The Foundation four-ground frame remains an upper-level projection/comparison frame, not the initial source taxonomy.
 
 ## Method
 
 Research units are semantic mechanisms/subsystems, not fixed file batches.
 
-A load-bearing mechanism is reconstructed from the strongest relevant combination of:
+Load-bearing mechanisms are reconstructed from the strongest available combination of:
 
 ```text
 behavior/policy contract
-+ shared/generated instruction surfaces
++ generated/composed instruction surfaces
 + orchestration/helper code
 + runtime capability
-+ tests/evals/compliance checks
 + persistent artifacts/state
++ tests/evals/compliance checks
 ```
 
-Higher-level summaries retain source re-entry paths. Intended policy, implementation, structural pins, behavioral evidence and independent verification remain distinct evidence classes.
+Evidence classes remain distinct:
 
-## Completed durable checkpoints
+1. intended policy;
+2. implemented composition/runtime contract;
+3. structurally pinned contract;
+4. behavioral evidence;
+5. independent verification — not established for gstack as a whole.
+
+Higher-level syntheses retain source re-entry routes through `SOURCE-LEDGER.md`.
+
+## Completed durable subsystem syntheses
 
 ### 1 — Planning / specification / work admission
 
 `research/studies/gstack/syntheses/planning-specification-work-admission.md`
 
-Bounded reconstruction of discovery, premise challenge, durable design lineage, CEO/engineering review, delegated `/autoplan` decisions, specification, quality/redaction/sink gates, issue/archive and optional isolated execution.
+Discovery, premise challenge, durable design lineage, CEO/engineering review, `/autoplan` delegated authority, specification, quality/redaction/sink gates, issue/archive and optional isolated execution.
 
 ### 2 — Review / QA / ship / delivery qualification
 
 `research/studies/gstack/syntheses/review-qa-ship-delivery-qualification.md`
 
-Bounded reconstruction of review, browser QA, merged-code testing, failure ownership, semantic changed-path coverage, conditional plan completion, fresh pre-landing review, specialist/red-team/adversarial challenge, fix→test→review convergence and PR/release evidence.
+Review, browser QA, merged-code tests, failure ownership, semantic changed-path coverage, conditional plan completion, fresh pre-landing review, specialist/red-team/adversarial challenge, fix→test→review convergence and PR/release evidence.
 
 ### 3 — Browser runtime / security / evidence
 
 `research/studies/gstack/syntheses/browser-runtime-security-evidence.md`
 
-Bounded reconstruction of the persistent browser daemon, per-tab state/ref semantics, root/scoped browser authority, own-only versus shared tab policy, local/tunnel listener separation, deny-default CDP, URL/SSRF/path controls, opt-in persistence, content/prompt-injection defenses, audit/activity evidence and heterogeneous security failure polarity.
+Persistent browser daemon, per-tab state/ref semantics, root/scoped authority, own-only versus shared tab policy, local/tunnel listener separation, deny-default CDP, URL/SSRF/path controls, opt-in persistence, content/prompt-injection defenses, audit/activity evidence and heterogeneous security failure polarity.
 
 ### 4 — Investigation / root-cause / debug control
 
 `research/studies/gstack/syntheses/investigation-root-cause-debug-control.md`
 
-Bounded reconstruction of:
+Evidence before hypothesis, explicit falsifiable causal claims, 3-strike escalation, Claude-host freeze enforcement, host differences, minimal intervention, regression + fresh original-symptom verification, durable investigation learnings, and the causal-depth limit between local confirmed mechanism and systemic RCA.
 
-- evidence gathering before hypothesis formation;
-- explicit testable root-cause hypotheses;
-- hypothesis falsification and return to investigation;
-- 3-strike escalation and authority transfer to user/human choice;
-- Claude-host Edit/Write freeze coupling and its shell-level enforcement;
-- host-specific scope-lock differences;
-- minimal intervention, regression testing and fresh original-symptom verification;
-- structured debug completion states;
-- durable investigation-learning handoff;
-- causal-depth limit: strong hypothesis-driven debugging is not the same as mandatory systemic/prevention-detection RCA;
-- test-coverage asymmetry: causal workflow has mainly structural coverage while freeze has stronger runtime tests.
+### 5 — Memory / learnings / context / GBrain
 
-## Current strongest findings
+`research/studies/gstack/syntheses/memory-learnings-context-gbrain.md`
 
-### F1 — gstack is more than a prompt/skill collection
+Reconstructs four distinct memory/continuity mechanisms:
 
-**Status:** strong observation/inference.
+```text
+A. explicit context checkpoints
+B. local sourced/confidence-tagged learnings
+C. typed/budgeted/TTL-aware GBrain planning digests
+D. trust/privacy/ingest authority controlling persistent brain interaction
+```
 
-The pinned system combines generated behavioral contracts, durable artifacts, persistent runtime capability, actor/decision authority, testing/eval infrastructure, security/control surfaces and lifecycle workflows.
+Key results include:
 
-### F2 — generated skills are composed behavioral programs
+- context checkpoints are branch/timestamp-qualified handoff summaries, not mechanically revalidated current truth;
+- local learnings carry source/confidence/files, age decay for observed/inferred rows, latest-winner semantics and strict cross-project `trusted === true` gating;
+- learning ingestion rejects instruction-like suspicious payloads before persistence;
+- GBrain planning memory is routed by consumer skill, entity type and byte budget rather than globally injected;
+- cache validity depends on TTL, endpoint identity, schema identity and explicit invalidation;
+- salience applies a privacy-prefix allowlist before cache persistence;
+- per-remote GBrain policy (`read-write` / `read-only` / `deny`) is enforced before transcript-memory writes, with unattended corrupt-policy state failing closed;
+- **negative source-fidelity finding:** the cache CLI distinguishes `stale-fallback` and prints that state to stderr, but `generateBrainPreflight()` redirects cache stderr to `/dev/null` and injects only stdout. Planning models can therefore consume stale fallback content **without being told it is stale**;
+- some calibration write-back plumbing exists but remains feature/upstream-capability gated at the pinned revision.
 
-**Status:** strong implementation observation.
+## Current cross-subsystem findings
 
-`.tmpl` skeletons, shared resolvers, carved sections, host-specific rendering and parent-child composition jointly define behavior. Generated `SKILL.md` files are runtime artifacts, not sufficient provenance by themselves.
+### C1 — gstack is a qualification-driven work system
 
-### F3 — planning is a sequence of qualification transitions
+**Status:** strengthened working hypothesis, not whole-system conclusion.
 
-**Status:** strong subsystem inference.
+Across the first five syntheses:
 
-Continuation repeatedly requires a more qualified state: framed problem, accepted premise, chosen approach, accepted scope, resolved target, decided findings, confirmed spec, safe outbound content and authorised execution.
+```text
+Planning/spec
+→ qualifies intent before work admission
 
-### F4 — durable artifacts participate in control flow
+Review/ship
+→ qualifies implementation before delivery
+
+Browser/runtime
+→ qualifies capability, effect and evidence at execution boundaries
+
+Investigate
+→ qualifies causal explanation before corrective mutation
+
+Memory/context
+→ qualifies prior informational state before reuse
+```
+
+This pattern appears in behavioral contracts, durable artifacts, runtime capability gates, freshness checks, explicit authority transitions and evidence states.
+
+### C2 — qualification can be recomputed instead of requiring historical ceremony
+
+**Status:** strong cross-source inference.
+
+Examples include ship recomputing current Eng Review standing and browser/ref state requiring fresh observation after state changes. The system often cares more about a current qualified condition than whether a named prior ceremony happened.
+
+### C3 — durable artifacts can become active control inputs
 
 **Status:** strong cross-subsystem inference.
 
-Plans, review reports, decision logs, issues, QA/test-plan artifacts, worktree metadata and PR bodies are later rediscovered and can alter admission, staleness, execution or delivery decisions.
+Plans, decisions, QA artifacts, review results, context checkpoints and learnings are rediscovered later and can alter questions, admission, verification, release or investigation behavior.
 
-### F5 — decision authority is explicit and movable
+Their authority varies by artifact type and consumer.
 
-**Status:** strong subsystem inference.
+### C4 — authority is explicit and movable
 
-Interactive workflows retain granular user authority; `/autoplan` delegates declared classes; ship-time residual-risk decisions are explicit overrides; investigate's 3-strike rule ends automatic agent continuation and returns the next-investment decision to the user/human.
+**Status:** strong cross-subsystem inference.
 
-### F6 — `/spec` is a work-admission boundary
+User approval, delegated autoplan decisions, ship overrides, browser token capabilities, repo memory policy and investigate escalation all represent different authority transitions rather than one universal “agent autonomy” state.
 
-**Status:** strong structural observation + bounded behavioral support.
-
-Why/scope/current-state/code evidence precede filing; quality/confidentiality/sink and isolated-spawn controls constrain admission.
-
-### F7 — `/ship` is a delivery-qualification boundary
-
-**Status:** strong subsystem inference.
-
-Ship recomputes/consumes merged-code tests, semantic path coverage, plan completion, optional browser verification, fresh diff review, specialist/red-team review, adversarial challenge and release/documentation state.
-
-### F8 — required qualification is decoupled from prior ceremony
-
-**Status:** strong source/inference.
-
-A current Eng Review standing is required by default, but a prior standalone review ceremony is not: ship can recompute it. Discoverable plan artifacts can instead become conditional control objects at ship time.
-
-### F9 — verdict freshness is object-relative
-
-**Status:** strong source/inference.
-
-Diff review, plan review, browser refs/state and post-fix evidence each have different freshness conditions. A prior clean verdict is not authoritative merely because it exists.
-
-### F10 — verification is heterogeneous but not uniformly independent
+### C5 — freshness is object-relative
 
 **Status:** strong synthesis conclusion.
 
-Static reasoning, executable tests, browser observation, semantic coverage, specialist contexts and cross-model challenge are different evidence channels; common artifacts/framing/orchestration prevent automatic independence claims.
+A diff, plan, browser ref, context checkpoint, local learning and brain digest become stale for different reasons. “Recent” alone is not a universal validity criterion.
 
-### F11 — control failure polarity varies by evidence class
+### C6 — verification/evidence channels are heterogeneous but not uniformly independent
 
 **Status:** strong synthesis conclusion.
 
-Known invalidity can hard-block; uncertainty can trigger conservative ownership, explicit override or human escalation; optional outside-model/ML evidence can degrade gracefully; critical audit/gate machinery cannot always silently certify success.
+Static reasoning, tests, browser observation, specialist agents, cross-model challenge and persistent evidence channels differ in oracle and independence. First-party diversity is valuable but does not automatically create independent verification.
 
-### F12 — evaluation is first-class but test existence is not one confidence level
+### C7 — failure polarity is deliberately heterogeneous
 
-**Status:** strong source observation.
+**Status:** strong synthesis conclusion.
 
-Some mechanisms have deterministic invariants and real-browser/PTY/HTTP E2Es; others have only structural floors. Verification claims must follow the actual test tier and oracle.
+Some conditions hard-deny; some degrade; some require user override; some preserve stale-but-usable data; some fail closed only at unattended authority/data-movement boundaries. Labels such as “gate”, “security” or “memory available” are too coarse without actual continuation semantics.
 
-### F13 — persistent browser execution is a substantive evidence environment
+### C8 — source→view fidelity is an emerging system-level concern
 
-**Status:** strong subsystem inference.
+**Status:** strong cross-subsystem conclusion.
 
-Browser state, tabs, refs, mode, restore and action side effects change what an observation means; evidence freshness must be constructed.
+Examples now include:
 
-### F14 — browser authority is multi-dimensional capability state
+- generated skill output versus template/resolver provenance;
+- checkpoint summary versus current repository truth;
+- browser evidence ambiguity and stale refs;
+- stale security-status removal;
+- **GBrain stale state computed upstream but lost before planning consumption.**
 
-**Status:** strong implementation observation.
+The last item is a concrete implementation violation of the system's otherwise strong qualification pattern.
 
-Identity/token, scope, domain, tab policy, rate, expiry and listener surface jointly determine effective browser authority.
-
-### F15 — browser isolation is contextual, not universal
-
-**Status:** strong corrective finding.
-
-Own-only pair-agent/tunnel clients receive strict tab isolation. Shared local skill clients intentionally may operate across unowned/other tabs.
-
-### F16 — remote browser exposure is narrowed structurally before command policy
-
-**Status:** strong structural observation + bounded behavioral support.
-
-Tunnel traffic lands on a separate listener with only `/connect` and `/command`; root credentials are rejected there and a closed command allowlist precedes normal scoped-token checks. Live hostile ngrok exposure is not independently reproduced.
-
-### F17 — high-risk browser escape hatches are separately scoped / deny-default where practical
-
-**Status:** strong implementation + selected behavioral support.
-
-Raw CDP uses an explicit allowlist; browser-wide control is separate; navigation/file effects are validated; selected CDP denials have real-Chromium E2E evidence.
-
-### F18 — persistence excludes dangerous authority/content fields
-
-**Status:** strong implementation + behavioral support.
-
-Headless cross-restart persistence is opt-in. Cookies/URL/storage may persist; loaded HTML and tab ownership do not. Restore revalidates/filter/quarantines and has a real-Chromium round-trip test.
-
-### F19 — security standing is itself an evidence/freshness problem
-
-**Status:** strong source observation.
-
-An unfed stale security-status surface was removed rather than allowed to report false-green “protected” state.
-
-### F20 — browser auditability and operational visibility are separate
-
-**Status:** strong implementation inference.
-
-Persistent JSONL audit is best-effort forensic evidence; live activity is bounded/in-memory with gap detection. Neither is guaranteed complete history.
-
-### F21 — `/investigate` separates diagnosis from intervention
-
-**Status:** strong authored-contract observation.
-
-A specific testable causal hypothesis is intended to be established before implementation. The causal ordering is policy/model compliance rather than a machine-readable “root-cause-confirmed” runtime state gate.
-
-### F22 — uncertainty accumulation changes continuation authority
-
-**Status:** strong authored-contract observation.
-
-After three failed hypotheses the agent is instructed to stop and require an explicit choice among continued investigation, human escalation or instrumentation-and-wait.
-
-### F23 — investigation scope lock is real but partial and host-specific
-
-**Status:** strong implementation + test observation.
-
-On Claude Code, Edit/Write hooks can hard-deny out-of-boundary files, malformed payloads and symlink escapes. Bash remains outside the guardrail. Common external hosts strip hooks; the OpenClaw adaptation omits the freeze stage.
-
-### F24 — investigate freeze lifecycle is not automatically closed by the skill
-
-**Status:** strong implementation observation.
-
-The workflow writes `freeze-dir.txt`; `/unfreeze` removes it. `/investigate` does not guarantee automatic cleanup at completion, and state-root persistence varies by install/host context.
-
-### F25 — investigation completion uses both mechanism and symptom evidence
-
-**Status:** strong authored-contract observation.
-
-The intended completion combines regression test, full suite and fresh reproduction of the original bug. `DONE_WITH_CONCERNS` allows incomplete verification to remain explicit.
-
-### F26 — “root cause” is stronger language than the investigate contract can guarantee
+### C9 — “root cause” discipline is useful but can stop at proximate confirmed mechanism
 
 **Status:** strong causal-depth qualification.
 
-The workflow strongly supports hypothesis-driven debugging but does not require a separate analysis of why the system allowed/prevention/detection failed. A confirmed local mechanism can terminate the workflow even if deeper systemic causes remain.
+Investigate requires evidence and falsification, but not a mandatory second layer explaining prevention/detection/systemic failure.
 
-### F27 — recurring failure is allowed to pressure analysis toward architecture
+### C10 — test strength varies materially by subsystem
 
-**Status:** strong authored-contract observation.
+**Status:** direct coverage conclusion.
 
-Repeated bugs in the same area, cascading fixes, three failed hypotheses and >5-file blast radius are explicit signals to question the abstraction/architecture rather than continue patching.
+Browser/runtime, context and several low-level controls have real behavioral tests. `/investigate` causal ordering has only the generic structural skill floor despite stronger tests for its freeze submechanism. Test existence must not be flattened into one confidence score.
 
-### F28 — investigation knowledge is designed to compound but remains fallible evidence
+## Verification limits currently protected
 
-**Status:** strong implementation inference.
+- no independent external replication of gstack as a whole;
+- cross-model challenge is not automatically independent verification;
+- several E2Es are scenario-bounded or approximate production orchestration;
+- browser/runtime security has no independent penetration validation;
+- live hostile/public ngrok behavior not reproduced by inspected tests;
+- optional ML prompt-injection defense is fail-open;
+- local audit/permission-hardening include best-effort semantics;
+- GBrain semantic correctness is not independently validated;
+- restored checkpoint semantics are not automatically revalidated against current source;
+- stale GBrain fallback loses its freshness label in the planning preflight view;
+- production deploy/canary/retro closure remains unsynthesized;
+- four-ground/cross-ground projection remains premature.
 
-Local learnings preserve source/confidence/files, apply confidence decay and cross-project trust restrictions, and can reorder future investigation reasoning without becoming automatic truth.
+## Known cautions / inconsistencies
 
-### F29 — behavioral verification of investigate's causal methodology is a weak point
-
-**Status:** direct coverage observation.
-
-The skill coverage matrix assigns `/investigate` only the generic structural floor and no periodic E2E. Its freeze submechanism is much more strongly tested than the no-fix/3-strike/regression/fresh-verification behavior.
-
-### F30 — promotional/relationship behavior remains analytically separate
-
-**Status:** direct observation; R02 separation active.
-
-Office-hours founder/YC/retention surfaces remain real product behavior but are not evidence for planning/debugging/delivery quality.
-
-## Working cross-subsystem hypothesis
-
-**Status:** strengthened working hypothesis, not whole-gstack conclusion.
-
-The first four syntheses support the model that gstack is a **qualification-driven work system**:
-
-```text
-Planning/spec      qualifies intent before work admission
-Review/ship        qualifies implementation before delivery
-Browser/runtime    qualifies authority/effects/evidence at execution boundaries
-Investigate        qualifies causal explanation before corrective mutation
-```
-
-Behavioral contracts, durable artifacts, actor authority, runtime capabilities, observed effects and evidence freshness are repeatedly connected by explicit continuation/transition rules.
-
-This still must survive memory/context, multi-agent, guarded-action/security-review, production-feedback and eval-infrastructure research.
-
-## Verification status
-
-Current synthesis layers distinguish:
-
-1. **intended policy** — skill/template prose;
-2. **implemented composition/runtime contract** — resolver/helper/runtime code;
-3. **structurally pinned contract** — deterministic invariant/generator/source/shell tests;
-4. **behavioral evidence** — real-agent/PTY/browser/HTTP/LLM-judged E2E;
-5. **independent verification** — not established for gstack as a whole.
-
-Current limits include:
-
-- no independent external replication;
-- cross-model diversity is not automatically independent verification;
-- several behavioral E2Es are scenario-bounded or approximate production orchestration;
-- `/investigate` has no registered causal-workflow behavioral E2E beyond structural floor, despite stronger freeze tests;
-- AI-assessed changed-path coverage is not instrumented coverage;
-- browser runtime/security has no independent penetration validation;
-- live hostile/public ngrok behavior was not reproduced by inspected tests;
-- optional ML prompt-injection classification is fail-open and benchmark/oracle validity remains separate;
-- audit and permission-hardening include best-effort semantics;
-- deploy/canary/retro production loop remains open;
-- four-ground and cross-ground synthesis remain premature.
-
-## Known cautions
-
-1. `docs/PROJECT_STRUCTURE.md` is a derived view and contains at least one stale/non-resolving path; actual pinned source/tree wins.
-2. Long files marked `SUBSTANTIAL / CONTINUE` must be re-entered before stronger whole-file claims.
-3. First-party tests/evals are evidence about expected/implemented behavior, not independent verification.
-4. Upstream `main` is fast-moving; all current conclusions remain version-bound to the pinned commit.
-5. “Gate,” “required,” “always-on,” “root cause,” “security” and “coverage” must be interpreted from actual control semantics, not labels.
-6. Browser command READ/WRITE categories are not authoritative security capability classes.
-7. Pair-agent own-only isolation must not be generalized to shared local clients.
-8. Browser state continuity between calls is not default cross-daemon persistence.
-9. Investigate freeze is not a filesystem sandbox and is not uniformly available across hosts.
-10. The investigate text inconsistently says three failed **hypotheses** in the phase and three failed **fix attempts** in its closing rules; no machine-readable strike counter resolves this ambiguity.
-11. Investigation “root cause” can be a confirmed proximate mechanism without a mandatory prevention/detection/systemic cause analysis.
+1. `docs/PROJECT_STRUCTURE.md` is a derived view and contains at least one stale/non-resolving path; actual pinned tree/source wins.
+2. Long sources marked `SUBSTANTIAL / CONTINUE` require re-entry before stronger whole-file claims.
+3. First-party tests/evals are evidence, not independent external verification.
+4. Upstream `main` is fast-moving; all conclusions are pinned-revision conclusions.
+5. “Gate,” “required,” “always-on,” “root cause,” “security,” “coverage,” and “memory” must be interpreted from actual control semantics.
+6. Pair-agent own-only isolation does not generalize to shared local browser clients.
+7. Browser between-call persistence does not imply default headless cross-daemon persistence.
+8. Investigate freeze is not a full filesystem sandbox and is host-specific.
+9. Investigate text inconsistently refers to three failed hypotheses versus three failed fix attempts.
+10. Brain-cache spec comments reference a non-existent `test/autoplan-preflight-budget.test.ts`; equivalent budget assertions exist in current `brain-cache-spec.test.ts` and `skill-preflight-budget.test.ts`. Actual tests win over the stale comment.
+11. A warm/stale distinction exists inside the brain cache but the current planning preflight hides non-warm status by suppressing stderr.
 
 ## Current coverage gaps
 
-Major unresolved clusters now are:
+Major unresolved clusters:
 
-- **memory / learnings / context / GBrain lifecycle — NEXT**;
-- multi-agent and cross-model dispatch beyond inspected planning/ship/browser paths;
-- guarded-action and CSO security-review workflows beyond browser-native/freeze controls;
+- **multi-agent / cross-model coordination — NEXT**;
+- guarded-action / CSO security-review mechanisms beyond browser/freeze;
 - host adapters / portability fidelity as a dedicated subsystem;
-- deploy/canary/production/retro feedback loop;
-- eval judges, routing, compliance, flake/compare/watch lifecycle;
+- deploy / canary / production observation / retrospective feedback;
+- test/eval/judge/routing/compliance/flake lifecycle;
 - repository self-development / generation / update / release mechanisms;
-- chronology/evolution stream from changelog and release diffs;
-- independent/adversarial validation of selected security and causal-workflow claims.
+- chronology/evolution stream from changelog/release diffs;
+- independent/adversarial validation of selected security, memory and causal-workflow claims.
 
 ## Next work
 
-The immediate next native subsystem is **memory / learnings / context / GBrain**.
+The immediate next native subsystem is **multi-agent / cross-model coordination**.
 
-Rationale: investigation shows that verified causal conclusions are deliberately fed back into future reasoning. Planning also consumes prior decisions/context. The next system question is therefore not merely “where is memory stored?” but:
+Research question:
 
-> how does gstack create, classify, retrieve, decay, trust, invalidate, scope and re-use informational state so that prior work can improve later work without silently turning stale/contaminated state into authority?
+> how does gstack distribute work, authority, context and verification across multiple agents/models while controlling isolation, handoff, result aggregation, cancellation/failure, and shared-state contamination?
 
-Research priorities:
+Priorities:
 
-1. reconstruct local `learnings.jsonl` creation/search/prune/staleness semantics;
-2. inspect explicit context-save/context-restore checkpoints and what is or is not treated as current truth;
-3. reconstruct GBrain integration, cache/TTL/stale-but-usable behavior, trust policy and host suppression;
-4. distinguish user-stated, observed, inferred and cross-model sources;
-5. inspect cross-project contamination controls and privacy boundaries;
-6. trace where planning/review/investigate/retro consume and write memory;
-7. inspect tests/E2Es around learning persistence, decay, staleness, bad-token/offline/fallback behavior;
-8. determine whether memory is advisory context, an active control input, or both in different consumers;
-9. write a bounded memory/context synthesis before moving to broader multi-agent or production loops.
+1. reconstruct `pair-agent` and browser-pair authority/handoff beyond the already-read browser ceremony;
+2. inspect general subagent dispatch/Agent tool patterns and v1.79 stranded-run fix context;
+3. inspect `/codex` second-opinion behavior independently of ship's embedded use;
+4. inspect how agents receive context/artifacts and whether they inherit or recompute standing;
+5. inspect cancellation/timeouts/partial failure and whether parent work can become stranded;
+6. distinguish parallelism, specialization, adversarial diversity and actual verification independence;
+7. inspect tests/E2Es for production topology rather than inline checklist approximations;
+8. track shared browser/memory/worktree/resource isolation;
+9. write a bounded multi-agent synthesis before moving to guarded-action or production feedback.
 
-Only after several more native subsystem syntheses should the study start the four-ground/cross-ground projection.
+Only after several more native subsystem syntheses should the study begin the four-ground/cross-ground projection.
