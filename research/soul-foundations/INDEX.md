@@ -8,16 +8,14 @@ Read `STATE.md` first for current authorization.
 
 ## Current stage
 
-**CROSS-GROUND COMPOSITION — COMPOSITE STANDING BOUNDED LEAF / AWAITING USER EVALUATION.**
-
-No substantive Foundation child is active.
+**CROSS-GROUND COMPOSITION — RELATIONAL BINDING AND COMPOSITE STANDING ACCEPTED; NO SUBSTANTIVE CHILD ACTIVE.**
 
 ## Read routes
 
 | Need | Read first | Then if needed |
 |---|---|---|
 | Current overall state / authorization | `STATE.md` | current composition router |
-| Current Composite Standing result | `05_relation-control-composition/composite-standing/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → S7 |
+| Accepted Composite Standing result | `05_relation-control-composition/composite-standing/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → S7 |
 | Composite Standing reasoning | `05_relation-control-composition/composite-standing/INDEX.md` | targeted S0–S6 pass |
 | Composite Standing residuals | `05_relation-control-composition/composite-standing/OPEN-QUESTIONS.md` | relevant Binding/ground/parent surface if reopened |
 | Accepted Relational Binding result | `05_relation-control-composition/relational-binding/STATE.md` | `KEY.md` → synthesis/B7 |
@@ -31,16 +29,16 @@ No substantive Foundation child is active.
 ```text
 Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
-├─ Composite Standing / Qualification ← bounded leaf / USER EVALUATION PENDING
-├─ Control / Constraint                ← recommended next if Standing accepted / inactive
+├─ Composite Standing / Qualification ← bounded leaf / accepted
+├─ Control / Constraint                ← recommended next / inactive
 └─ Transition / Effect / Feedback      ← inactive
 ```
 
 ## Current next-step interpretation
 
-Current interaction is evaluation of Composite Standing only.
+Current interaction is next composition-child selection/planning only.
 
-If accepted, `Control / Constraint` is the strongest current next-child candidate and requires a separate substantive activation instruction.
+`Control / Constraint` is the strongest current next-child candidate and requires separate substantive activation.
 
 ## Guardrail
 
