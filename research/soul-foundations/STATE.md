@@ -1,18 +1,21 @@
 # SOUL Foundations — STATE
 
-**Status:** active research library; Environment boundedly complete / accepted; Information top-level and first-level child structure user-evaluated / accepted  
+**Status:** active research library; Environment and Information accepted; Work ground coverage/gap audit active  
 **Environment / Operating Reality:** boundedly complete / accepted 2026-09-04  
 **Information / Representation:** boundedly complete / accepted  
-**Informational State:** bounded leaf / user-evaluated  
-**Informational Dynamics / Formation–Transition:** boundedly complete / user-evaluated / accepted  
-**Dynamics user evaluation:** accepted 2026-09-05  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT-WORK SELECTION / PLANNING ONLY
+**Informational State:** bounded leaf / accepted  
+**Informational Dynamics / Formation–Transition:** boundedly complete / accepted  
+**Work:** ACTIVE COVERAGE / GAP AUDIT  
+**Actors:** inactive  
+**Current authorised substantive activity:** WORK GROUND COVERAGE / GAP AUDIT  
+**Current return condition:** bounded Work sufficiency/gap judgment for user evaluation
 
 ## Dependency state
 
 - `01_verticals/`: complete / user-evaluated.
-- `02_adequacy/`: boundedly sufficient / accepted working hypothesis; earlier Information→Records sketch refined by deeper Information research.
+  - Work independent vertical: sufficiently complete / user-evaluated; being audited for current four-ground fit rather than restarted.
+  - Actors independent vertical: sufficiently complete / user-evaluated; inactive.
+- `02_adequacy/`: boundedly sufficient / accepted working hypothesis; four-ground frame remains subject to later falsifiers.
 - `03_ground-deepening/`:
   - Environment / Operating Reality: boundedly complete / accepted.
   - Information / Representation: boundedly complete / accepted.
@@ -22,31 +25,39 @@
       - Informational Derivation / Transformation: structurally accepted immediate child; not separately researched.
       - Informational Selection / Exposure: structurally accepted immediate child; not separately researched.
     - Records / Persistent Information: accepted deep persistence specialization/profile across Information.
-  - Work: inactive.
+  - Work: **ACTIVE coverage/gap audit** at `03_ground-deepening/grounds/work/`.
   - Actors: inactive.
 - Cross-ground composition, architecture, ontology/data model and implementation: not authorised.
 
-## Current Information result
+## Current Work audit purpose
+
+Test whether the accepted independent Work corpus remains sufficient as the Foundation Work ground under the now-accepted Environment and Information boundaries and newer candidate-study holdouts.
+
+The audit must distinguish:
+
+- a real missing Work-local first-order problem;
+- a neighboring-ground issue;
+- a deferred relation/composite;
+- a domain-specific mechanism/taxonomy;
+- mere additional examples of already-covered Work distinctions.
+
+If no material gap survives, the correct result is to accept the existing Work corpus into ground-deepening rather than manufacture new hierarchy.
+
+## Current sequencing
 
 ```text
+Environment / Operating Reality                 ← boundedly complete / accepted
 Information / Representation                    ← boundedly complete / accepted
-    ├─ Informational State / Representational Constitution   ← bounded leaf / accepted
-    └─ Informational Dynamics / Formation–Transition         ← boundedly complete / accepted
-         ├─ Informational Formation / Acquisition
-         ├─ Informational Derivation / Transformation
-         └─ Informational Selection / Exposure
+Work                                             ← ACTIVE COVERAGE / GAP AUDIT
+Actors                                           ← inactive
 ```
-
-The three Dynamics children are accepted as bounded first-order problem regions. None has yet been activated or recursively researched.
 
 ## Verification status
 
-Information parent, State and Dynamics passes used cross-domain external falsifiers plus same-model adversarial review. The complete Dynamics synthesis has not received independent second-researcher/model replication. User acceptance does not change verification independence.
+The prior Work corpus and current audit use same-model adversarial review unless explicitly stated otherwise. User evaluation does not create independent verification.
 
 ## Current authorization
 
-**NEXT-WORK SELECTION / PLANNING ONLY.**
+**WORK GROUND COVERAGE / GAP AUDIT ONLY.**
 
-No substantive Foundation node is active.
-
-Do not automatically begin any Dynamics child, Work, Actors, systematic typed relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
+Do not automatically begin Actors, systematic typed relation/control composition, SOUL/Development OS architecture, ontology/data-model work or implementation.
