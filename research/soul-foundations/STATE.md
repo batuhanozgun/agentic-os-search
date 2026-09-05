@@ -1,15 +1,15 @@
 # SOUL Foundations — STATE
 
-**Status:** four-ground adequacy accepted; composition parent accepted; Relational Binding BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** four-ground adequacy accepted; composition parent accepted; Relational Binding accepted; Composite Standing ACTIVE  
 **Environment / Operating Reality:** boundedly complete / accepted  
 **Information / Representation:** boundedly complete / accepted  
 **Work:** boundedly complete / accepted  
 **Actors / Agency–Participation–Authority:** boundedly complete / accepted  
 **Post-deepening top-level adequacy:** accepted  
 **Cross-Ground Composition parent:** accepted  
-**Relational Binding:** bounded leaf / USER EVALUATION PENDING  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** RELATIONAL BINDING RESULT EVALUATION ONLY
+**Relational Binding:** bounded leaf / user-evaluated / accepted 2026-09-05  
+**Composite Standing / Qualification:** ACTIVE  
+**Current authorised substantive activity:** COMPOSITE STANDING / QUALIFICATION CHILD PASS
 
 ## Accepted Foundation anchors
 
@@ -20,68 +20,39 @@ Work                                             ← accepted
 Actors / Agency–Participation–Authority          ← accepted
 post-deepening four-ground adequacy              ← accepted
 Cross-Ground Composition parent                  ← accepted
+Relational Binding                               ← accepted bounded leaf
 ```
 
 ## Current composition state
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding                  ← BOUNDED LEAF / USER EVALUATION PENDING
-├─ Composite Standing / Qualification ← recommended next if Binding accepted / inactive
+├─ Relational Binding                  ← bounded leaf / accepted
+├─ Composite Standing / Qualification ← ACTIVE
 ├─ Control / Constraint                ← inactive
 └─ Transition / Effect / Feedback      ← inactive
 ```
 
-## Current Binding result
+## Active child
 
 Canonical package:
 
-`05_relation-control-composition/relational-binding/`
+`05_relation-control-composition/composite-standing/`
 
-Current bounded judgment:
+Current phase:
 
-> Relational Binding has no promoted immediate child at current Foundation depth. Its durable internal result is one binding-semantic signature plus overlapping relation-family profiles.
+`S0 canonical/current evidence recovery`
 
-Core signature:
+Protected question:
 
-```text
-Binding semantic instance
-├─ relation meaning / protected semantic question
-├─ exact anchors in typed semantic positions
-├─ applicability structure
-│   ├─ scope/reference frame
-│   ├─ effective/reference time where material
-│   └─ operation/method/stage/state/version/role qualification where material
-├─ relation-instance individuation
-└─ qualified/n-ary structure when binary decomposition loses association
-```
-
-## Strongest non-collapse rules
-
-```text
-generic connectivity != semantic binding
-represented/asserted binding != actual binding
-actual binding != evidence sufficient to establish binding
-binding != composite standing
-binding != control result
-binding != transition/effect history
-graph reachability != legitimate transitive relation
-```
-
-## Current next-frontier recommendation
-
-If the user accepts Relational Binding, the strongest current next composition-child candidate is:
-
-> **Composite Standing / Qualification**
-
-This is not active.
+> What criterion-, target-, use-, authority-, evidence-, reference-frame- or time-relative standing holds only when several accepted-ground facts and bindings are jointly evaluated, and what exact anchors make that standing valid, current and decision-usable?
 
 ## Verification status
 
-Binding B7 is same-model adversarial review. External standards and candidate studies pressure the result but do not independently validate this exact synthesis. No independent second-researcher/model replication has been performed.
+The accepted upstream results are source-backed but use same-model adversarial closure rather than independent replication. Composite Standing has no verdict yet.
 
 ## Current authorization
 
-**USER EVALUATION OF RELATIONAL BINDING RESULT ONLY.**
+Only **Composite Standing / Qualification** substantive research is active.
 
-Do not automatically begin Composite Standing, Control, Transition, architecture, ontology/data-model/schema work or implementation.
+Do not automatically begin Control, Transition, architecture, ontology/data-model/schema work or implementation.
