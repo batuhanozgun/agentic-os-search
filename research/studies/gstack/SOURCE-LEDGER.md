@@ -89,19 +89,15 @@ Observed 2026-09-05.
 | `browse/src/server.ts` | pinned | SUBSTANTIAL / CONTINUE | daemon/listeners/auth/dispatch/security/audit |
 | `browse/src/browser-manager.ts` | pinned | SUBSTANTIAL / CONTINUE | browser lifecycle/tab ownership |
 | `browse/src/tab-session.ts` | `dccabf28f4263cb77d0a594369bb15f3e2c7ad73` | FULL | per-tab state/ref invalidation |
-| `browse/src/commands.ts` | pinned | SUBSTANTIAL / CONTINUE | command registry; historical read/write taxonomy |
 | `browse/src/token-registry.ts` | `89b0a990c31e26188275295e3d2d60f5908c5033` | FULL | scoped authority/revocation |
-| `browse/src/snapshot.ts` | pinned | SUBSTANTIAL / CONTINUE | semantic refs/evidence ambiguity |
 | `browse/src/cdp-allowlist.ts` | `752ce464c8e9e5d9f697c81a08444d0dd666b1e0` | FULL | deny-default CDP |
 | `browse/src/cdp-bridge.ts` | `3d1fa3d8d002656f0e9528001df7b7c6e300b80b` | FULL | locks/timeouts/CDP lifecycle |
 | `browse/src/url-validation.ts` | `c9e9c170ac36a6c744f47dee2b3bf15eb49e68f1` | FULL | URL/SSRF controls |
 | `browse/src/path-security.ts` | `bc02ccde06c753dcd4b00e3fba49ad87267adb04` | FULL | filesystem path controls |
-| `browse/src/file-permissions.ts` | pinned | SUBSTANTIAL / CONTINUE | platform permission hardening |
 | `browse/src/session-persist.ts` | `3c6627bcbc0c24e76c519934b0a3a9ba3b87aca9` | FULL | opt-in persistence/restore |
 | `browse/src/content-security.ts` | `a185764583f73aaa7b8d979d8ff5942bf63c25f7` | FULL | deterministic content defenses |
 | `browse/src/security.ts` | `3da662a008e0785102f6572de468cc8dcb6bc136` | FULL | verdict combiner/dead-state context |
 | `browse/src/security-classifier.ts` | `a89ddf694b165872263ed8a2f46e88faa5b3f52f` | FULL | optional fail-open ML defense |
-| `browse/src/security-sidecar-client.ts` | `95e226070466df31b6e0db2ef7d93bf50b49b521` | FULL | sidecar timeout/circuit behavior |
 | `browse/src/audit.ts` | `f93b47fb090c99c95dd3c83091a0b097330130df` | FULL | best-effort persistent audit |
 | `browse/src/activity.ts` | `b15eb45a1d1c2bf5ae57f832418a0d7aa40a0f52` | FULL | bounded live activity/gaps |
 
@@ -112,14 +108,10 @@ Observed 2026-09-05.
 | Source | Evidence | Status | Role |
 |---|---|---:|---|
 | `investigate/SKILL.md.tmpl` | `c7cd9a99ad695f966ef2befaf18b1120eff89535` | FULL | causal workflow/3-strike/verification/learning |
-| generated `investigate/SKILL.md` | pinned | SUBSTANTIAL / CONTINUE | rendered context |
 | `freeze/SKILL.md.tmpl` | `e6804d91c23d1fd9804097a14adbc21a58745979` | FULL | Edit/Write boundary and non-sandbox caveat |
 | `freeze/bin/check-freeze.sh` | `6c6e62e76395a4cb568a13f7578f4222ae0bb26d` | FULL | runtime freeze enforcement |
 | `unfreeze/SKILL.md.tmpl` | `88e413fe5a49a45d46d8867b2d80ace30b3b45aa` | FULL | freeze cleanup |
 | `bin/gstack-paths` | `5b66e3102ff5c55b76bf88b0a2cdc31ae6b83d56` | FULL | state-root resolution |
-| `hosts/define-host.ts` | `0ed190dd00606a69acb0aca990289781f79bbc79` | FULL | external-host frontmatter defaults |
-| `hosts/claude.ts` | `5381953cae8040508a260e6e4b3eb39973c92934` | FULL | Claude hook/GBrain behavior |
-| `hosts/codex.ts` | `b46e9222495eada3da68debaae6dab6d9d57167c` | FULL | Codex hook/cross-model suppression |
 | OpenClaw investigate adaptation | pinned | FULL | causal phases without freeze |
 
 ---
@@ -135,13 +127,11 @@ Observed 2026-09-05.
 | `bin/gstack-learnings-log` | `3c47ebb80a4285028cf7c54549038553b81c5eb4` | FULL | validation/injection filter/trust mark/append |
 | `bin/gstack-learnings-search` | `d7038e821881861f9661af2f34f3728bf1cabe23` | FULL | decay/latest-winner/query/cross-project trust |
 | `scripts/brain-cache-spec.ts` | `eab2f9588776f7d3d9c734d9dcd2e1a52ba6879f` | FULL for synthesis use | canonical entity scope/TTL/budget/invalidation spec |
-| `bin/gstack-brain-cache` | pinned | SUBSTANTIAL / CONTINUE | cache states/refresh/atomicity/stale fallback; CLI prints non-warm state to stderr |
-| `scripts/resolvers/gbrain.ts` | `6c6b66d640187363c0dc12326fe08adfb689c98d` | FULL for current use | skill-specific brain preflight/refresh/writeback; **suppresses cache stderr, losing stale label** |
-| `setup-gbrain/SKILL.md.tmpl` | pinned | SUBSTANTIAL / CONTINUE | storage/trust/repo-policy consent setup |
-| `sync-gbrain/SKILL.md.tmpl` | pinned | SUBSTANTIAL / CONTINUE | code/memory/brain sync and failure polarity |
-| `bin/gstack-gbrain-repo-policy` | pinned | FULL for current use | normalized per-remote read-write/read-only/deny store; batch fail-closed |
-| `lib/gbrain-repo-policy-client.ts` | `890282847a4241e4f79509360de5dc6a33de2505` | FULL | shared TS policy client; caller owns failure polarity |
-| `bin/gstack-memory-ingest.ts` | pinned | SUBSTANTIAL / CONTINUE | transcript/artifact ingest; policy filter before write; accounting/state controls |
+| `bin/gstack-brain-cache` | pinned | SUBSTANTIAL / CONTINUE | cache states/refresh/atomicity/stale fallback |
+| `scripts/resolvers/gbrain.ts` | `6c6b66d640187363c0dc12326fe08adfb689c98d` | FULL for current use | **suppresses cache stderr, losing stale label** |
+| `bin/gstack-gbrain-repo-policy` | pinned | FULL for current use | per-remote read-write/read-only/deny store; batch fail-closed |
+| `lib/gbrain-repo-policy-client.ts` | `890282847a4241e4f79509360de5dc6a33de2505` | FULL | shared TS policy client |
+| `bin/gstack-memory-ingest.ts` | pinned | SUBSTANTIAL / CONTINUE | transcript/artifact ingest policy filtering |
 
 ---
 
@@ -149,33 +139,50 @@ Observed 2026-09-05.
 
 | Source | Evidence | Status | Role / key finding |
 |---|---|---:|---|
-| pinned v1.79 commit `0d1bd...` | commit message/diff | FULL for synthesis use | third stranded-parent recurrence; foreground fix, recovery and residual TODOs |
-| `scripts/resolvers/constants.ts` | `4e94b986eff9a526eae24acead228e50dafb8bd8` | FULL for synthesis use | shared foreground-dispatch note + Codex availability/under-Codex semantics |
-| `test/run-in-background-guidance.test.ts` | `bd0f1e42d95c0ac96ec40cda7a89112cd2c1f749` | FULL | 24-carrier structural pin/scanner; not universal behavioral execution proof |
-| `ship/sections/pr-body.md` | pinned | FULL for multi-agent use | spawned docs child, JSON contract, timeout/cancel/reconcile, authority subtraction |
-| `document-release/SKILL.md` | pinned | SUBSTANTIAL / CONTINUE | spawned-session AUQ adaptation and trust trigger |
-| `test/skill-e2e-ship-docsync.test.ts` | pinned | FULL | actual Agent/Task dispatch and `run_in_background:false` captured in tool calls |
-| `test/skill-e2e-docsync-spawned.test.ts` | pinned | FULL | real spawned child gate auto-decision + parseable result + VERSION boundary |
-| `review/sections/review-army.md` | `f37fb5d738106c063bdcf784078535d714723bc5` | FULL for synthesis use | parallel specialist fan-out, JSON merge/dedupe/confidence/red-team semantics |
-| `test/skill-e2e-review-army.test.ts` | pinned | SUBSTANTIAL / CONTINUE | review/checklist/output behavior; many scenarios explicitly inline specialists instead of real child dispatch |
-| `ship/sections/adversarial.md` | pinned | FULL for current use | same-family fresh adversarial child + Codex outside-model challenge + missing-coverage semantics |
-| `codex/SKILL.md.tmpl` | pinned | SUBSTANTIAL / CONTINUE | Codex review/challenge/consult and same-model nesting guard |
-| `test/codex-under-codex-detection.test.ts` | `b2428244eaf6fab4be0ce86a914594987a643c70` | FULL | live-shell presence detection + rendered consumers |
-| `autoplan/sections/ceo-phase.md` | `876c03fb91780ab0c2527dcb08300e058c4042be` | FULL for synthesis use | dual voices, foreground sequencing, fresh Claude vs Codex roles |
-| `autoplan/sections/design-phase.md` | `88a5616515a3793e00eb556005657426c4eafb89` | FULL for synthesis use | prior-phase context deliberately withheld from Claude, supplied to Codex |
-| `autoplan/sections/dx-phase.md` | `54157874c3ab8a3d84d05fd852e3762e5788c394` | FULL for synthesis use | dual-voice degradation/consensus |
-| `autoplan/sections/eng-phase.md` | `2f0251af31a4cc149c91ce3d395516568af97884` | FULL for synthesis use | dual voices, test/architecture integration |
-| `test/skill-e2e-autoplan-dual-voice.test.ts` | `1efc6dfc68643fa2772770ea9b87187986612e99` | FULL | periodic actual Agent + Codex invocation/liveness evidence, not full-pipeline correctness |
-| `cso/SKILL.md` | pinned | SUBSTANTIAL / CONTINUE | per-finding fresh verifier with initial reasoning withheld |
-| `test/skill-e2e-cso.test.ts` | `5f58a45d053b450d958c16696ec65fa8e393a60c` | FULL for current use | selected live CSO paths; diff-mode includes verification child |
-| `design-shotgun/SKILL.md` | pinned | SUBSTANTIAL / CONTINUE | N foreground Agent calls in one message → concurrent generative fan-out |
-| dedicated `test/skill-e2e-design-shotgun.test.ts` | targeted fetch/search | ABSENT / NEGATIVE | dedicated production-topology E2E not found in current targeted search |
+| pinned v1.79 commit `0d1bd...` | commit message/diff | FULL for synthesis use | third stranded-parent recurrence; foreground fix/recovery/TODOs |
+| `scripts/resolvers/constants.ts` | `4e94b986eff9a526eae24acead228e50dafb8bd8` | FULL for synthesis use | foreground dispatch + Codex availability semantics |
+| `test/run-in-background-guidance.test.ts` | `bd0f1e42d95c0ac96ec40cda7a89112cd2c1f749` | FULL | cross-carrier structural pin/scanner |
+| `ship/sections/pr-body.md` | pinned | FULL for multi-agent use | spawned docs child, JSON contract, timeout/cancel/reconcile |
+| `document-release/SKILL.md` | pinned | SUBSTANTIAL / CONTINUE | spawned-session decision semantics |
+| `test/skill-e2e-ship-docsync.test.ts` | pinned | FULL | actual dispatch/foreground behavioral pin |
+| `test/skill-e2e-docsync-spawned.test.ts` | pinned | FULL | spawned child gate + JSON contract |
+| `review/sections/review-army.md` | `f37fb5d738106c063bdcf784078535d714723bc5` | FULL for synthesis use | parallel specialist aggregation |
+| `test/skill-e2e-review-army.test.ts` | pinned | SUBSTANTIAL / CONTINUE | checklist/output behavior; weak topology proof |
+| `ship/sections/adversarial.md` | pinned | FULL for current use | same-family + Codex challenge |
+| `codex/SKILL.md.tmpl` | pinned | SUBSTANTIAL / CONTINUE | outside-model workflow/nesting guard |
+| `test/codex-under-codex-detection.test.ts` | `b2428244eaf6fab4be0ce86a914594987a643c70` | FULL | same-model nesting detection |
+| Autoplan phase sections | pinned SHAs in synthesis | FULL for synthesis use | deliberately asymmetric Claude/Codex context |
+| `test/skill-e2e-autoplan-dual-voice.test.ts` | `1efc6dfc68643fa2772770ea9b87187986612e99` | FULL | periodic actual dual-voice invocation/liveness |
+| `cso/SKILL.md` | pinned | SUBSTANTIAL / CONTINUE | fresh verifier pattern |
+| `test/skill-e2e-cso.test.ts` | `5f58a45d053b450d958c16696ec65fa8e393a60c` | FULL for current use | selected live verifier behavior |
+| `design-shotgun/SKILL.md` | pinned | SUBSTANTIAL / CONTINUE | parallel generative fan-out |
+| dedicated Design Shotgun E2E | targeted search | ABSENT / NEGATIVE | no dedicated production-topology E2E found |
 | `pair-agent/SKILL.md.tmpl` | `2f66ec44b63ba24e6a0ba4023a042f66342edefc` | FULL for synthesis use | remote/local browser capability delegation |
-| `browse/test/tab-isolation.test.ts` | `698dd1ac8b0c750df4d03632925195e6458e1118` | FULL | own-only pair-agent tab boundary |
-| `plan-eng-review/sections/review-sections.md` | pinned | SUBSTANTIAL / CONTINUE | explicit `isolation:"worktree"` as optional implementation-parallel strategy |
-| `hosts/define-host.ts` | `0ed190dd00606a69acb0aca990289781f79bbc79` | FULL | cross-model suppression/tool rewrite model |
-| `hosts/codex.ts` | `b46e9222495eada3da68debaae6dab6d9d57167c` | FULL | Codex host lacks Claude/Codex-self orchestration contract |
-| pinned `TODOS.md` dispatch items | pinned | SUBSTANTIAL / CONTINUE | known cross-host Agent-render defect + proposed PreToolUse foreground runtime enforcement |
+| `plan-eng-review/sections/review-sections.md` | pinned | SUBSTANTIAL / CONTINUE | optional worktree parallelism |
+| `hosts/define-host.ts` | `0ed190dd00606a69acb0aca990289781f79bbc79` | FULL | host tool rewrite model |
+| `hosts/codex.ts` | `b46e9222495eada3da68debaae6dab6d9d57167c` | FULL | Codex host suppression / Agent mismatch context |
+| pinned `TODOS.md` dispatch items | pinned | SUBSTANTIAL / CONTINUE | host dispatch defect + runtime foreground follow-up |
+
+---
+
+## Guarded-action / security-review sources
+
+| Source | Evidence | Status | Role / key finding |
+|---|---|---:|---|
+| `careful/SKILL.md.tmpl` | `8fba18fb0bc699d68058bb569a55a2aa535ebb93` | FULL | Claude Bash PreToolUse safety contract; MEDIUM ask + narrow HIGH deny |
+| `careful/bin/check-careful.sh` | `b6bebb9d3cc74758a292dd779361a7b5f49fff0b` | FULL for synthesis use | parser/obfuscation/safe-exception/destructive-pattern enforcement |
+| `guard/SKILL.md.tmpl` | `d4c78be492ed24425a763008c975bd5e4569a5ee` | FULL | composition of careful Bash + freeze Edit/Write hooks |
+| `freeze/bin/check-freeze.sh` | `6c6e62e76395a4cb568a13f7578f4222ae0bb26d` | FULL | path deny control reused by guard |
+| `test/hook-scripts.test.ts` | pinned | FULL for careful synthesis use | realistic parser/bypass/HIGH deny/MEDIUM ask/safe-command regressions |
+| `scripts/gen-skill-docs.ts` | `0be3ca9a126d0e3ad0f9cf76b641f15a728307c0` | FULL for safety-prose path | external-host hook extraction → Safety Advisory prose |
+| `test/gen-skill-docs.test.ts` | `cc4a8eaaf982d86c0dd8d21965f689431f65168f` | SUBSTANTIAL / CONTINUE | external hook skills have safety prose and no hooks frontmatter |
+| `scripts/one-way-doors.ts` | `61c0b24eaeec133afa399cd032d2106597bc4ff8` | FULL | typed-registry-first / keyword-fallback destructive decision classification |
+| `hosts/claude/hooks/question-preference-hook.ts` | `3e488363f005659e65f271445e46d06741a97795` | FULL for current use | never-ask enforcement; one-way safety override; refuse-on-ambiguous |
+| `test/plan-tune.test.ts` | `4eb9483ba2f808810f454b7011785afc704ff20f` | FULL for safety registry use | critical questions asserted one-way; registry consistency |
+| `test/question-preference-hook.test.ts` | pinned | SUBSTANTIAL / CONTINUE | one-way overrides never-ask; destructive ad-hoc keyword net; ambiguity pass-through |
+| `cso/SKILL.md` | `d16aef3278eede8f2b5377ed7d2798c8f5c11eff` | FULL for Phase 12-14 synthesis use | FP filters, active verification, confidence/status, source-quote gate, report/trend |
+| `test/skill-e2e-cso.test.ts` | `5f58a45d053b450d958c16696ec65fa8e393a60c` | FULL | full/diff/infra live audit; diff path records real verifier child |
+| `.gstack/security-reports` consumers | targeted repo search | BOUNDED NEGATIVE | found in CSO source/template/E2E; no separate live ship/deploy gate found in targeted search |
 
 ---
 
@@ -183,58 +190,35 @@ Observed 2026-09-05.
 
 | Source | Evidence | Status | Role |
 |---|---|---:|---|
-| `scripts/gen-skill-docs.ts` | pinned | SUBSTANTIAL / CONTINUE | template→resolver→generated/host overlays |
+| `scripts/gen-skill-docs.ts` | `0be3ca9a126d0e3ad0f9cf76b641f15a728307c0` | SUBSTANTIAL / CONTINUE | template→resolver→host-specific output |
 | `scripts/resolvers/index.ts` | `cee08c2015a6ac2ff8605b02ac07a49d284d3ce1` | FULL | resolver registry |
 | `scripts/resolvers/sections.ts` | `c6425e19b93d20018057cf2fe6ae9eeb2f613a18` | FULL | carved section rendering |
 | `scripts/resolvers/composition.ts` | `b8d3483d9bd961409025959eddcd8840dd5f98a8` | FULL | parent-child composition |
-| broader host adapter set | partial | PLANNED / PARTIAL | dedicated portability cluster later |
+| `hosts/define-host.ts` | `0ed190dd00606a69acb0aca990289781f79bbc79` | FULL | host defaults/rewrites/frontmatter model |
+| `hosts/claude.ts` | `5381953cae8040508a260e6e4b3eb39973c92934` | FULL | Claude hook/GBrain behavior |
+| `hosts/codex.ts` | `b46e9222495eada3da68debaae6dab6d9d57167c` | FULL | Codex host behavior/suppression |
+| broader host adapter set | partial | NEXT / PLANNED | dedicated portability cluster |
 
 ---
 
 ## Test / eval / verification sources
 
-| Source | Evidence | Status | What it actually supports |
-|---|---|---:|---|
-| `test/spec-template-invariants.test.ts` | `40d2d22677cbd0a506c6395bc0e2b00b3a2149d2` | FULL | spec structural pins |
-| `test/ship-plan-completion-invariants.test.ts` | `26c565b1b093262697832d3b161c479bbb5ce07b` | FULL | ship plan-gate structural pins |
-| `test/skill-coverage-matrix.ts` | `7359afbce8144625e3b832d0fa9044fb753185a8` | FULL | per-skill gate/periodic registry |
-| `test/skill-coverage-floor.test.ts` | `4f75e370b09c01098fb711ca4332f1370e1e5a10` | FULL | generic structural floor only |
-| planning/review/QA/ship live E2Es | recorded in prior study pass | FULL/SUBSTANTIAL | selected agent behavior, oracle/topology varies |
-| `browse/test/dual-listener.test.ts` | pinned | SUBSTANTIAL / CONTINUE | exact tunnel structural surface |
-| `browse/test/server-factory.test.ts` | pinned | SUBSTANTIAL / CONTINUE | factory/auth/listener behavior |
-| `browse/test/server-auth.test.ts` | pinned | SUBSTANTIAL / CONTINUE | auth/tab/chain/activity/tunnel regressions |
-| `browse/test/pair-agent-e2e.test.ts` | pinned | SUBSTANTIAL / CONTINUE | real-daemon HTTP pairing, no live ngrok |
-| `browse/test/tab-isolation.test.ts` | `698dd1ac8b0c750df4d03632925195e6458e1118` | FULL | own-only vs shared tab policy |
-| `browse/test/cdp-allowlist.test.ts` | `8256e7a198e6e197ca2f70e60f9ff1abb109a661` | FULL | dangerous CDP denial pins |
-| `browse/test/cdp-e2e.test.ts` | `d5d2e26c1b8f08bf531dd4b4bed06b85d153458e` | FULL | real Chromium CDP behavior |
-| `browse/test/url-validation.test.ts` | `7f7fe5949318572935a55c46412a956d04d19994` | FULL | URL/SSRF/direct-fetch regressions |
-| `browse/test/session-persist.test.ts` | `bf7bfa8bdec2633d160ff4122f33ede8869f283a` | FULL | real Chromium persistence roundtrip |
-| `browse/test/server-security-surface.test.ts` | `cdfb76c96e982130048acc8fac511d8abb5b7bad` | FULL | false-green security-status removal |
-| `test/investigate-freeze-path.test.ts` | `7b9ef0cae733b872f188588f6d1fee3125e41fb8` | FULL | investigate hook-path regression |
-| `test/hook-scripts.test.ts` | `55817099a5380b6d7170a53adc9ae4e9351ec4e4` | SUBSTANTIAL / CONTINUE | freeze/careful shell behavior |
-| investigate causal-workflow E2E | matrix | ABSENT / NEGATIVE | no registered direct behavioral E2E |
-| `test/context-save-hardening.test.ts` | pinned | SUBSTANTIAL / CONTINUE | save sanitization/collision + restore branch/order/cap shell logic |
-| `test/skill-e2e-context-skills.test.ts` | pinned | SUBSTANTIAL / CONTINUE | real skill save→restore/list/branch behavior |
-| `test/learnings.test.ts` | `e43fe7c04969f287ebab171baced4a9944601119` | SUBSTANTIAL / CONTINUE | real logger/search append, decay, latest-winner, injection checks |
-| `test/gstack-learnings-search.test.ts` | `ffa0227aed5afe0d2f4656f18b49cc2d8b344a45` | FULL | cross-project trusted-only + query behavior |
-| `test/learnings-injection.test.ts` | `f5b5191f4eca3c3cc53be1b5872a647dbbb2e35b` | PLANNED / REFERENCED | dedicated learning-injection suite exists |
-| `test/skill-e2e-learnings.test.ts` | `8672ef3c2a2ab1fe2caaa0bd76c7098df747168e` | FULL | real-agent basic `/learn` retrieval |
-| `test/brain-cache-spec.test.ts` | pinned | FULL for current use | entity/scope/TTL/budget/trust constants |
-| `test/brain-cache-roundtrip.test.ts` | pinned | FULL for current use | warm/missing/stale-fallback/meta/endpoint state machine |
-| separate stale-but-usable test file referenced by comments | search | ABSENT / NEGATIVE | current source comments stale; behavior covered in roundtrip suite |
-| `test/brain-preflight.test.ts` | pinned | FULL | planning-only preflight/subsets/writeback/invalidation wiring |
-| `test/skill-preflight-budget.test.ts` | pinned | FULL | resolver instruction budgets + autoplan aggregate |
-| `test/autoplan-preflight-budget.test.ts` referenced in spec comment | fetch 404 | ABSENT / NEGATIVE | stale comment; equivalent current assertions exist elsewhere |
-| `test/salience-allowlist.test.ts` | pinned | FULL | privacy-prefix allowlist behavior |
-| `test/gbrain-repo-policy-client.test.ts` | pinned | FULL | real Bash/TS policy, corrupt batch fail-closed, normalization parity |
-| `test/run-in-background-guidance.test.ts` | `bd0f1e42d95c0ac96ec40cda7a89112cd2c1f749` | FULL | cross-carrier foreground structural scanner/pins |
-| `test/skill-e2e-ship-docsync.test.ts` | pinned | FULL | production-style docs child dispatch + captured foreground flag |
-| `test/skill-e2e-docsync-spawned.test.ts` | pinned | FULL | spawned AUQ adaptation + parent-consumable JSON contract |
-| `test/skill-e2e-autoplan-dual-voice.test.ts` | `1efc6dfc68643fa2772770ea9b87187986612e99` | FULL | periodic dual-voice existence/liveness, not full consensus correctness |
-| `test/codex-under-codex-detection.test.ts` | `b2428244eaf6fab4be0ce86a914594987a643c70` | FULL | nested same-model suppression |
-| `test/skill-e2e-cso.test.ts` | `5f58a45d053b450d958c16696ec65fa8e393a60c` | FULL for current use | selected CSO actual verifier use + vulnerability/report behavior |
-| `test/skill-e2e-review-army.test.ts` | pinned | SUBSTANTIAL / CONTINUE | checklist/findings/format behavior; not strong proof of actual parallel child topology |
-| broader LLM judge/routing/Codex/Gemini/eval lifecycle tests | — | PLANNED | later eval/portability cluster |
+| Source | Status | What it actually supports |
+|---|---:|---|
+| `test/spec-template-invariants.test.ts` | FULL | spec structural pins |
+| `test/ship-plan-completion-invariants.test.ts` | FULL | ship plan-gate structural pins |
+| `test/skill-coverage-matrix.ts` | FULL | gate/periodic registry |
+| `test/skill-coverage-floor.test.ts` | FULL | generic structural floor only |
+| browser security/runtime tests recorded above | FULL/SUBSTANTIAL | real daemon/Chromium/auth/permission behaviors, not external pen test |
+| investigate causal-workflow E2E | ABSENT / NEGATIVE | no direct registered behavioral E2E |
+| context/learnings/brain-cache tests recorded above | FULL/SUBSTANTIAL | persistence/decay/trust/cache state machine |
+| multi-agent tests recorded above | FULL/SUBSTANTIAL | topology strength varies by site |
+| `test/hook-scripts.test.ts` | FULL for careful use | direct shell-hook outputs and safety regression cases |
+| `test/plan-tune.test.ts` | FULL for safety use | one-way typed registry invariants |
+| `test/question-preference-hook.test.ts` | SUBSTANTIAL / CONTINUE | deterministic AUQ preference/safety interposition |
+| `test/gen-skill-docs.test.ts` | SUBSTANTIAL / CONTINUE | host generation/safety-prose structural behavior |
+| `test/skill-e2e-cso.test.ts` | FULL for current use | selected real-agent security audit behavior and report persistence |
+| broader LLM judge/routing/Codex/Gemini/eval lifecycle tests | PLANNED | later eval cluster |
 
 ---
 
@@ -247,7 +231,8 @@ Observed 2026-09-05.
 | `syntheses/browser-runtime-security-evidence.md` | BOUNDED | browser execution → capability/security → evidence |
 | `syntheses/investigation-root-cause-debug-control.md` | BOUNDED | failure → causal hypothesis → bounded fix → fresh verification/learning |
 | `syntheses/memory-learnings-context-gbrain.md` | BOUNDED | prior state → qualification/trust/cache → current context/reuse |
-| `syntheses/multi-agent-cross-model-coordination.md` | BOUNDED | dispatch/context/authority → child execution/result → aggregation/liveness/continuation |
+| `syntheses/multi-agent-cross-model-coordination.md` | BOUNDED | dispatch/context/authority → child execution/result → liveness/continuation |
+| `syntheses/guarded-action-security-review.md` | BOUNDED | preventive action interposition + one-way authority + security evidence standing |
 
 ---
 
@@ -256,7 +241,7 @@ Observed 2026-09-05.
 | Source | Status | Note |
 |---|---:|---|
 | `CHANGELOG.md` (~1.1 MB pinned) | PLANNED / PARTITIONED | use chronological/mechanistic partitions |
-| pinned v1.79 release commit/diff | READ / SYNTHESIZED | third stranded-subagent recurrence is causal evidence for multi-agent/liveness synthesis |
+| pinned v1.79 release commit/diff | READ / SYNTHESIZED | stranded-subagent recurrence informs liveness/systemic cause |
 
 ---
 
@@ -266,25 +251,22 @@ Observed 2026-09-05.
 2. Generated `SKILL.md` does not replace `.tmpl`/resolver provenance.
 3. Skill prose is intended workflow policy, not automatically executed behavior.
 4. First-party tests/evals are not independent verification.
-5. Cross-model diversity is not automatically independent verification.
-6. Same-family fresh-context subagents are not outside-model verification.
-7. Office-hours promotion/relationship behavior is separate from planning-quality evidence.
-8. Ship evidence channels have heterogeneous failure polarity; “gate” is not one semantics.
-9. AI-assessed changed-path coverage is not instrumented coverage.
-10. Pair-agent own-only tab isolation does not generalize to shared local clients or filesystem/worktree isolation.
-11. Browser command historical READ/WRITE sets are not security capability authority.
-12. Browser state continuity between calls is not default headless cross-daemon persistence.
-13. Live public ngrok behavior was not reproduced by inspected E2E.
-14. Investigate causal workflow has no registered direct behavioral E2E; freeze is better tested.
-15. Investigate freeze is Edit/Write-specific, host-specific and not automatically cleared by investigate.
-16. Investigate `root cause` does not guarantee systemic prevention/detection depth.
-17. Context checkpoints are LLM-authored continuity representations and are not automatically source-revalidated on restore.
-18. Local learnings are sourced/decayed candidate evidence, not automatic truth.
-19. GBrain cache qualification can be lost in representation: `stale-fallback` is printed on stderr but planning preflight suppresses stderr and injects content only.
-20. A stale brain-cache spec comment points to a non-existent autoplan budget test; actual current tests win.
-21. Repo trust policy is an actual ingest control; unattended unreadable policy state fails closed before transcript writes.
-22. `MULTI-SPECIALIST CONFIRMED` is a product confidence heuristic, not proof of statistically independent findings.
-23. Review Army E2Es frequently substitute inline checklist application for real parallel Agent dispatch; do not cite them as production-topology proof.
-24. Fresh context is not a universal side-effect-isolation boundary; Step 18 child shares the working tree with its parent.
-25. v1.79 foreground guidance is not yet a universal runtime-enforced invariant; PreToolUse enforcement remains TODO.
-26. A Claude-host Agent dispatch contract cannot be generalized to non-Claude hosts; the pinned repo records a Codex-host Step 18 dispatch mismatch as an open issue.
+5. Same-family fresh-context and cross-model diversity are not automatically independent verification.
+6. AI-assessed changed-path coverage is not instrumented coverage.
+7. Pair-agent own-only tab isolation does not generalize to filesystem/worktree isolation.
+8. Browser state continuity is not default cross-daemon persistence.
+9. Investigate causal workflow is less behaviorally tested than freeze enforcement.
+10. Context checkpoints are LLM-authored continuity views, not automatically current truth.
+11. Local learnings are fallible sourced/decayed evidence.
+12. GBrain `stale-fallback` qualification is lost when planning preflight suppresses stderr.
+13. Review Army E2Es often inline specialist logic rather than real parallel dispatch.
+14. Fresh context is not side-effect isolation; Step 18 child shares working tree.
+15. v1.79 foreground guidance is not yet a universal runtime-enforced invariant.
+16. Claude-host Agent semantics do not automatically port to other hosts.
+17. `/careful` HIGH deny is explicitly best-effort/session-scoped, not a universal policy boundary.
+18. `/guard` is careful+freeze composition, not a complete sandbox.
+19. External-host careful/freeze/guard can degrade from PreToolUse enforcement to Safety Advisory prose.
+20. CSO “read-only” is authored behavior, not an inspected source-write sandbox.
+21. CSO confidence/status is an audit representation, not externally calibrated probability.
+22. Historical `.gstack/security-reports` are not automatically current security truth or delivery gates.
+23. One-way typed registry is the primary destructive-decision source; keyword prose classification is only defense-in-depth.
