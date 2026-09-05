@@ -1,6 +1,6 @@
 # Information / Representation — Findings Map
 
-**Status:** TOP-LEVEL NODE BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED  
+**Status:** TOP-LEVEL NODE AND FIRST-LEVEL CHILD STRUCTURE USER-EVALUATED / ACCEPTED  
 **Warning:** current tree is a bounded research result, not architecture/ontology.
 
 ## A. Parent result
@@ -11,99 +11,68 @@ Accepted research label:
 
 Bounded scope:
 
-> mediated informational access/representation and the semantics/failures of informational states and transformations that can vary independently of the referent, Work or Actor itself.
+> mediated informational access/representation and the semantics/failures of informational states and transitions that can vary independently of the referent, Work or Actor itself.
 
-The prior routing label `Information / Representation State` is refined because `State` under-describes formation/change dynamics.
-
-## B. Immediate-child result
+## B. Accepted current hierarchy
 
 ```text
 Information / Representation
-    ├─ Informational State / Representational Constitution
-    └─ Informational Dynamics / Formation–Transformation
+    ├─ Informational State / Representational Constitution   ← bounded leaf / accepted
+    └─ Informational Dynamics / Formation–Transition         ← boundedly complete / accepted
+         ├─ Informational Formation / Acquisition
+         ├─ Informational Derivation / Transformation
+         └─ Informational Selection / Exposure
 ```
 
-These two regions are accepted as the current bounded top-level research structure; no child research pass is active.
+The three Dynamics children are accepted as immediate bounded problem regions. They have not yet been separately researched as child passes.
 
-### B1 — Informational State / Representational Constitution
+## C. Informational State
 
 Primary question:
 
 > What informational state/result/representation exists, what is it about, what content/form/identity does it carry, and what makes its interpretation materially distinct from another informational state?
 
-Primary inherited N2 regions:
+Current result: bounded leaf. Its internal distinctions remain constitution/qualification dimensions and relations rather than child branches.
 
-- referent / subject / scope binding;
-- representational content / form / interpretation / assertion semantics;
-- informational identity / granularity / equivalence.
+## D. Informational Dynamics
 
-### B2 — Informational Dynamics / Formation–Transformation
+### Formation / Acquisition
 
-Primary question:
+> How does a phenomenon, source act, signal, assertion or source resource become a newly instantiated informational state?
 
-> How do informational states become available, get generated, selected, transformed, revised, communicated, invalidated or otherwise change?
+### Derivation / Transformation
 
-Primary inherited N2 regions:
+> How do existing informational states produce or change another informational state or standing, and what semantic effect occurs?
 
-- acquisition / observation formation;
-- derivation / transformation / lineage;
-- selection / view / context formation.
+### Selection / Exposure
 
-## C. Why familiar nouns were rejected as children
+> Which existing informational states become visible/available to a use or consumer, and what omission/coverage/order/freshness failures arise?
 
-The inherited `observation / belief / evidence / context / Records` sketch mixes:
+Selection / Exposure is materially distinct because a correct source can remain unchanged while the wrong subset/version/context is exposed. This is also the Information-side locus of frame-blindness risk when an agent selects only its own prior context, model knowledge or project-local material despite a materially broader source universe.
 
-- processes;
-- representational states/results;
-- relations/roles;
-- use-relative views;
-- lifecycle conditions.
+## E. Not promoted as immediate Dynamics children
 
-It is therefore not a valid immediate-child hierarchy.
+Revision/correction/retraction/supersession, communication/distribution, propagation/synchronization, conflict/reconciliation/merge, persistence/memory lifecycle and encoding/schema mapping remain specializations, composite patterns or cross-cutting transition dimensions/relations.
 
-## D. Cross-cutting dimensions retained
+## F. Records / persistence
 
-Explicit but not promoted:
+Records / Persistent Information remains a deep persistence specialization/profile crossing State and all three Dynamics children.
 
-- referent / scope;
-- source / provenance;
-- holder / perspective;
-- temporal applicability / freshness;
-- uncertainty / confidence;
-- epistemic / evidential / authority standing;
-- conflict / plurality;
-- accessibility / visibility;
-- representation form / interpretability;
-- persistence horizon;
-- derivation lineage.
-
-These may become deeper research regions only if later child passes independently justify promotion.
-
-## E. Records / persistence result
-
-Accepted bounded correction:
-
-> **Records / Persistent Information is a deep persistence specialization/profile crossing the Information ground, not a clean universal immediate peer child.**
-
-Persistence activates distinctive obligations around identity/version binding, preservation closure, history/standing, retrieval and retention/disposition, but persistent information still participates in both State and Dynamics.
-
-The completed Records corpus remains valid and user-evaluated for that specialization.
-
-## F. Context result
+## G. Context
 
 Current bounded interpretation:
 
 ```text
 eligible / available informational states
-        ↓ selection / retrieval / ranking / compression
+        ↓ Selection / Exposure
 contextual working view/state
         ↓ relative to
 Work / Actor / query / decision / purpose
 ```
 
-Therefore Context is a high-value State + Dynamics + use-relation pattern, not an immediate child.
+Context is therefore a high-value State + Dynamics + use-relation pattern, not an immediate Information child.
 
-## G. Evidence / truth / authority result
+## H. Evidence / truth / authority
 
 Keep separate:
 
@@ -116,55 +85,19 @@ representation exists
 != decision is authorised/committed
 ```
 
-Evidence and authority remain load-bearing cross-ground/cross-cutting relations rather than peer children.
-
-## H. Boundary result
+## I. Boundary result
 
 ```text
 Environment → actual realised conditions / operating reality
 Work        → pursuit / commitment / execution / evaluation
 Actors      → bearer / role / capability / authority / participation
-Information → mediated informational states + formation/change dynamics
+Information → informational states + formation/derivation/selection transitions
 ```
 
-Key anti-collapse rules:
+## J. Verification status
 
-- actual state != observation/model/record;
-- state/result != generating/changing process;
-- Work representation != actual Work state;
-- Actor representation != Actor identity/authority;
-- persistence correctness != factual truth;
-- message delivery != shared understanding;
-- context visibility != source existence.
-
-## I. External structural convergence
-
-Materially different traditions independently preserve analogous distinctions:
-
-- metrology: measurement process vs measurement result;
-- OGC/ISO observation: procedure/act vs result;
-- W3C PROV: entity vs activity/generation/derivation;
-- database provenance: output vs source/transformation lineage;
-- belief revision: belief state/base vs change operations.
-
-Data-quality, FAIR, context-aware and annotation traditions were used as contrast/falsifier cases and did not force a third first-order branch.
-
-## J. Completion route
-
-- N0 → `N0-INTERNAL-EVIDENCE-RECOVERY.md`
-- N1 → `N1-NODE-COHERENCE-ATTACK.md`
-- N2 → `N2-FIRST-PRINCIPLES-PROBLEM-INVENTORY.md`
-- N3 → `N3-IMMEDIATE-CHILD-DISCOVERY.md`
-- N4 → `N4-BOUNDARY-ANTI-COLLAPSE.md`
-- N5 → `N5-EXTERNAL-CROSS-DOMAIN-FALSIFIERS.md`
-- N6 → `N6-OMISSION-REDUCTION-RIVAL-AUDIT.md`
-- N7 → `N7-NODE-CLOSURE.md`
-- integrated synthesis → `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md`
+State and Dynamics passes used materially different external falsifiers plus same-model adversarial review. No independent second-researcher/model replication has been performed for the complete Dynamics synthesis.
 
 ## K. Current gate
 
-The top-level node is boundedly complete and user-evaluated/accepted.
-
-**No child is active.**
-
-Current interaction is next-work selection/planning only; substantive research requires a separate explicit transition.
+No substantive node is active. Current interaction is next-work selection/planning only; any deeper Dynamics child, Work, Actors or later phase requires a separate transition.
