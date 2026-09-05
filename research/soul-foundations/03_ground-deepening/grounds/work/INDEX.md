@@ -2,52 +2,60 @@
 
 ## Role
 
-Current retrieval router for the active Work ground coverage/gap audit.
+Current retrieval router for the boundedly complete Work ground coverage/gap audit.
 
-Read `STATE.md` first for authorization and phase.
+Read `STATE.md` first for current status and authorization.
 
 ## Current status
 
-**ACTIVE — A0 canonical/current evidence recovery.**
+**BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
 
-Exactly one substantive ground is active: `Work`.
+No substantive ground is active.
 
 ## Default read order
 
-1. `STATE.md` — authorization, phase and stop rule.
-2. `AUDIT-PLAN.md` — audit questions, evidence strategy and pass structure.
-3. `A0-EVIDENCE-RECOVERY.md` once produced.
-4. A1–A5 audit artifacts as completed.
-5. `FINDINGS-MAP.md` and synthesis when bounded closure is reached.
-6. `A6-CLOSURE.md` — final gap/no-gap judgment and verification status.
-7. `CURRENT-SURFACES.md` — exact current surface binding.
+1. `STATE.md` — current bounded result, verification status and authorization.
+2. `KEY.md` — shortest current orientation.
+3. `FINDINGS-MAP.md` — current result and topic routing.
+4. `synthesis/WORK-GROUND-AUDIT-SYNTHESIS.md` — integrated audit result.
+5. `A6-CLOSURE.md` — closure basis, residual uncertainty and reopen triggers.
+6. `OPEN-QUESTIONS.md` — bounded residuals; not an execution queue.
+7. `DEFERRED-RELATIONS.md` — cross-ground relations intentionally deferred.
+8. Descend to A0–A5 when audit reasoning, boundary tests, candidate holdouts or rivals matter.
+9. Prior Work corpus when detailed first-order evidence matters → `../../../01_verticals/work/STATE.md` → its current retrieval route.
+10. `CURRENT-SURFACES.md` — exact current-surface binding.
 
-## Prior Work corpus
+## Bounded result
 
-The audit reuses rather than replaces:
+```text
+Work   ← boundedly complete for current Foundation depth / USER EVALUATION PENDING
+        ← rich multidimensional internal problem map
+        ← NO universal immediate-child hierarchy promoted
+```
 
-`../../../01_verticals/work/`
+## Main audit corrections
 
-Preferred prior-corpus path:
+- actual Work state != representation/status of Work;
+- Work readiness/admission != actual Environment resource/capability state;
+- Work admission != Actor obligation/authorization;
+- Work completion != target condition/evidence/verification/authorized acceptance.
 
-`STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/WORK-VERTICAL-SYNTHESIS.md → targeted L3/L4 evidence as needed`.
+## Prior Work corpus relation
 
-## Current accepted neighboring grounds
+This package does not replace the prior independent Work vertical. It evaluates and bridges that corpus into the current four-ground Foundation frame.
 
-- Environment / Operating Reality — accepted;
-- Information / Representation — accepted;
-- Actors — independent vertical exists but ground-deepening audit remains inactive.
+Preferred prior-corpus route:
 
-## Candidate-study reuse
+`../../../01_verticals/work/STATE.md → KEY.md → FINDINGS-MAP.md → synthesis/WORK-VERTICAL-SYNTHESIS.md → targeted L3/L4 evidence`.
 
-Likely first holdouts:
+## Candidate-study result
 
-- `research/studies/anthropic-ai-native-sdlc-playbook/`;
-- `research/studies/multi-agent-patterns/`;
-- `research/studies/context-memory-harness-engineering/` when orchestration/continuity/context-work boundaries matter.
+Anthropic AI-native SDLC, multi-agent patterns and context/memory/harness studies were used as falsifiers/holdouts. They did not define the Work structure and did not force a new first-order Work family.
 
-Candidate studies are falsifiers/design pressure only; they do not define Work.
+## Verification status
+
+The current audit is source-backed through the prior Work corpus and candidate studies, but A5 is same-model adversarial review. No independent replication has been performed.
 
 ## Guardrail
 
-This router does not authorize Actors, systematic composition, architecture, ontology/data model or implementation.
+Current interaction is user evaluation only. This router does not authorize Actors, systematic composition, architecture, ontology/data model or implementation work.
