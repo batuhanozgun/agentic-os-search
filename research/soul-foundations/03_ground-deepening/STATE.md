@@ -1,6 +1,6 @@
 # Ground Deepening — STATE
 
-**Status:** ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL AND FIRST-LEVEL CHILD STRUCTURE USER-EVALUATED / ACCEPTED; WORK COVERAGE / GAP AUDIT ACTIVE  
+**Status:** ENVIRONMENT BOUNDEDLY COMPLETE / ACCEPTED; INFORMATION BOUNDEDLY COMPLETE / ACCEPTED; WORK BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
 **Created:** 2026-09-02  
 **Plan accepted:** 2026-09-02  
 **Environment completion:** accepted 2026-09-04  
@@ -8,9 +8,10 @@
 **Informational State user evaluation:** accepted 2026-09-05  
 **Informational Dynamics user evaluation:** accepted 2026-09-05  
 **Work audit activation:** 2026-09-05  
+**Work audit closure:** boundedly complete for evaluation 2026-09-05  
 **Scope:** ground-specific and recursive one-node-at-a-time research-depth completion  
-**Current authorised substantive activity:** WORK GROUND COVERAGE / GAP AUDIT  
-**Current phase:** WORK A0 CANONICAL / EVIDENCE RECOVERY
+**Current authorised substantive activity:** NONE  
+**Current phase:** WORK USER-EVALUATION GATE
 
 ## Working research tree / epistemic status
 
@@ -37,43 +38,60 @@ Information / Representation                    ← boundedly complete / accepte
 
 Records / Persistent Information                ↳ accepted deep persistence specialization/profile across Information
 
-Work                                             ← ACTIVE COVERAGE / GAP AUDIT
+Work                                             ← boundedly complete / USER EVALUATION PENDING
+    ↳ rich multidimensional internal problem map
+    ↳ no universal immediate-child hierarchy promoted
+
 Actors / Agency–Participation–Authority          ← inactive
 ```
 
-The Work audit reuses the accepted independent Work vertical and tests whether it remains sufficient under the now-accepted Environment and Information boundaries. It is not a restart of Work research.
-
-## Work audit route
+## Work audit progress
 
 ```text
-A0 canonical/current evidence recovery       ← ACTIVE
-A1 four-ground boundary / coverage audit     ← pending
-A2 first-order omission / gap test            ← pending
-A3 newer candidate-study holdouts             ← pending
-A4 selective external holdouts                ← pending if needed
-A5 adversarial rival / boundary audit         ← pending
-A6 closure / user evaluation                  ← pending
+A0 canonical/current evidence recovery          ← COMPLETE
+A1 four-ground boundary / coverage audit        ← COMPLETE
+A2 first-order omission / gap test               ← COMPLETE
+A3 newer candidate-study holdouts                ← COMPLETE
+A4 external holdout expansion                    ← SKIPPED CONDITIONALLY; no live gap hypothesis
+A5 adversarial rival / reduction audit           ← COMPLETE / same-model, non-independent
+A6 closure                                       ← COMPLETE / USER EVALUATION GATE
+substantive ground active                        ← NONE
 ```
 
-Canonical active package:
+## Work bounded result
+
+Canonical package:
 
 `grounds/work/`
 
+Current judgment:
+
+> The prior independent Work corpus remains sufficient for the current four-ground Foundation depth. No material Work-local first-order gap survived, and no stable universal immediate-child split is justified.
+
+Strong boundary corrections retained:
+
+```text
+actual Work state != informational representation of Work state
+Work readiness/admission != actual Environment capability/resource state
+Work admission != Actor obligation/authorization
+Work completion != actual target condition/evidence/authorized acceptance
+```
+
 ## Verification status
 
-The prior Work vertical is user-evaluated and boundedly complete but its completeness audit was same-model adversarial self-review, not independent verification. The current ground audit must not inherit stronger verification status than the evidence supports.
+The prior Work vertical has broad cross-domain evidence. The current audit adds accepted-ground boundary tests, newer candidate-study holdouts and same-model adversarial reduction. A5 is not independent verification. The combined Work result has not received independent second-researcher/model replication.
 
 ## Current gate / guardrail
 
-Exactly one substantive ground is active: **Work**.
+Current interaction is **Work result evaluation only**.
 
 Do not begin:
 
-- Actors ground deepening;
+- Actors ground audit/deepening;
 - any Information descendant;
 - systematic relation/control composition;
 - architecture;
 - ontology/data model;
 - implementation.
 
-If the Work audit finds a material local gap, deepen only that gap. If it finds a four-ground boundary falsifier, return to the relevant parent/adequacy gate rather than patching locally.
+A separate post-evaluation transition is required before any substantive ground or later phase becomes active.
