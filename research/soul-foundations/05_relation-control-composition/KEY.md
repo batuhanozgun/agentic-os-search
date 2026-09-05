@@ -1,104 +1,96 @@
 # Relation / Control / Composition — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control bounded leaf / awaiting user evaluation  
+**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control accepted; next-child planning  
 **Date:** 2026-09-05
 
 ## Shortest current result
 
 Systematic cross-ground composition is a coherent Foundation research problem distinct from, but dependent on, the four accepted grounds.
 
-Current bounded parent structure:
+Accepted bounded parent structure:
 
 ```text
 Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
 ├─ Composite Standing / Qualification ← bounded leaf / accepted
-├─ Control / Constraint                ← bounded leaf / USER EVALUATION PENDING
-└─ Transition / Effect / Feedback      ← recommended next if Control accepted / inactive
+├─ Control / Constraint                ← bounded leaf / accepted
+└─ Transition / Effect / Feedback      ← recommended next / inactive
 ```
 
 These are **diagnostic research problem regions**, not mutually exclusive event/relation classes and not architecture modules.
 
-## Child results so far
+## Accepted child results so far
 
-### Relational Binding — accepted
+### Relational Binding
 
-What exact anchors are connected, in what typed positions and applicability frame?
+Protected question:
 
-Core result: exact-anchor / role-position / applicability / relation-instance / qualified-n-ary binding grammar.
+> What is connected to what, in what typed semantic positions and under what applicability conditions, such that replacing the connection with a generic link would lose decision-critical meaning?
 
-### Composite Standing / Qualification — accepted
+Result: bounded leaf with exact-anchor / typed-position / applicability / qualified-n-ary binding grammar.
 
-What cross-ground qualification holds only because several accepted-ground semantics are constitutive of what it means?
+### Composite Standing / Qualification
+
+Protected question:
+
+> What qualification cannot be localized to one accepted ground because several ground semantics are constitutive of what the standing means or what makes it hold?
+
+Result: bounded leaf with a cross-ground qualification grammar and a strict boundary against ground-local Criterion-Relative Standing.
 
 Key distinction:
 
 ```text
-ground-local standing != cross-ground Composite Standing
-standing holds != assessment != decision/recognition != record
+standing holds
+!= assessment supports it
+!= decision recognizes it
+!= record says it holds
 ```
 
-### Control / Constraint — current result under evaluation
+### Control / Constraint
 
-What exact behavior/transition/effect is governed under what basis/objective and applicability frame, with authority, decision, enforcement, coverage and monitoring kept distinct where material?
+Protected question:
 
-Core result:
+> What governing semantics apply to an exact candidate behavior/transition/effect under an applicable governing basis/objective?
+
+Result: bounded leaf with a governing-control grammar and no immediate child promoted.
+
+Key distinctions:
 
 ```text
-Control / Constraint
-← bounded leaf
-← shared governing-control grammar
-← no immediate child promoted
+policy != authority != decision != enforcement != monitoring != compliance
+
+governed-effect scope != enforcement-point scope
 ```
 
-Strongest new discovery:
-
-```text
-governed-effect / control-objective scope
-!= enforcement-point / monitored-path scope
-```
-
-Therefore:
-
-```text
-one path blocked
-!= protected effect controlled
-```
-
-This matters particularly when Actor/tool/service/delegation paths make an indirect effect reachable despite correct local enforcement.
-
-## Strongest non-collapse rules accumulated so far
-
-```text
-pairwise connectivity != complete composition semantics
-represented binding/standing != actual binding/standing
-ground-local standing != cross-ground Composite Standing
-
-policy text
-!= legitimate/current/applicable governing basis
-!= authority
-!= decision
-!= enforcement
-!= compliance
-
-review Work != gate result != authorized progression
-decision != enforcement
-enforcement-point success != end-to-end control-objective success
-obligation != actionability
-reachable/effective effect power != legitimate authority
-
-sequence != causation
-intended effect != realized effect
-```
+Therefore local mechanism success does not prove end-to-end control success.
 
 ## Remaining region
 
 ### Transition / Effect / Feedback
 
-How do changes/actions/observations/decisions/control updates/effects propagate across ground states and composite standings over time, with what trigger/causal/feedback semantics?
+How do changes/actions/observations/decisions/effects propagate across ground states and composite standings over time, with what trigger/causal/feedback semantics?
 
-If Control is accepted, Transition is the strongest next child. It is not active.
+## Strongest non-collapse rules
+
+```text
+pairwise connectivity != complete composition semantics
+represented relation/standing != actual relation/standing
+ground-local standing != cross-ground Composite Standing
+policy text != legitimate authority != authorization decision != technical enforcement != observed compliance
+enforcement-point success != end-to-end control-objective success
+sequence != causation
+intended effect != realized effect
+reachable effect power != legitimate authority
+```
+
+## Next sequencing recommendation
+
+After Control closure, the remaining frontier was re-evaluated.
+
+> **Transition / Effect / Feedback is the strongest current next child.**
+
+It is not active.
 
 ## Verification boundary
 
@@ -106,4 +98,4 @@ Parent C7, Binding B7, Standing S7 and Control K7 are same-model adversarial rev
 
 ## Current gate
 
-Control result evaluation only. No substantive child, architecture, ontology/data-model/schema or implementation work is active.
+Next composition-child selection/planning only. No substantive child, architecture, ontology/data model or implementation work is active.
