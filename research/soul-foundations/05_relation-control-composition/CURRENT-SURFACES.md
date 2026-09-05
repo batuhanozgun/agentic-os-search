@@ -1,6 +1,6 @@
 # Relation / Control / Composition — CURRENT SURFACES
 
-**Status:** canonical freshness binding at Relational Binding bounded closure / user-evaluation gate  
+**Status:** canonical freshness binding at Composite Standing bounded closure / user-evaluation gate  
 **Date:** 2026-09-05  
 **Branch:** `main`
 
@@ -8,8 +8,8 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Parent state | `STATE.md` | `26f3ab9d5fb677e89c720dea7c625c49787778d5` |
-| Parent router | `INDEX.md` | `ac542049b0f67b20b567ca7815adaff3fe8a8da6` |
+| Parent state | `STATE.md` | `922ce1287460ef12ce3c29e49054d2b608f4db7e` |
+| Parent router | `INDEX.md` | `a2c21e819f6e435ebdf90a9954a67056c99b4422` |
 | Parent plan | `PLAN.md` | `bc866966be4d1410839ea8ae85901c3a4eb7372f` |
 | Parent key | `KEY.md` | `06ea53bc25749b94e3294c2a316e8a25474731ca` |
 | Parent findings map | `FINDINGS-MAP.md` | `b98253dd32aa06ae5761770a4400dc208e15a7b6` |
@@ -33,9 +33,9 @@
 
 | Child | Status | Current manifest |
 |---|---|---|
-| Relational Binding | bounded leaf / USER EVALUATION PENDING | `relational-binding/CURRENT-SURFACES.md` @ `723b5b1b63c8800754d27141985ffa6de4c9ff89` |
-| Composite Standing / Qualification | recommended next if Binding accepted / inactive | not created/active |
-| Control / Constraint | inactive | not created/active |
+| Relational Binding | bounded leaf / USER-EVALUATED / ACCEPTED | `relational-binding/CURRENT-SURFACES.md` @ `cd21db93fd96195a474860afdcea5071207c61f6` |
+| Composite Standing / Qualification | bounded leaf / USER EVALUATION PENDING | `composite-standing/CURRENT-SURFACES.md` @ `435f77fae5552dda3ee5eca57e9ff05567c4d766` |
+| Control / Constraint | recommended next if Standing accepted / inactive | not created/active |
 | Transition / Effect / Feedback | inactive | not created/active |
 
 ## Accepted upstream inputs
@@ -52,16 +52,16 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Foundation state | `../STATE.md` | `5f50b1d1f2afb6f5948ea07d8f69830b9e48e45e` |
-| Foundation router | `../INDEX.md` | `6b8ae7805a8a156dc325d9b6595f6f7e702f9d56` |
+| Foundation state | `../STATE.md` | `db0d502e41205d8ff98164e3ef7176c1c0a6acd7` |
+| Foundation router | `../INDEX.md` | `29f25a16865e8dc6d6d192d7edba47ba0a01ef7c` |
 
 ## Current bounded state
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding                  ← BOUNDED LEAF / USER EVALUATION PENDING
-├─ Composite Standing / Qualification ← recommended next if accepted / inactive
-├─ Control / Constraint                ← inactive
+├─ Relational Binding                  ← BOUNDED LEAF / ACCEPTED
+├─ Composite Standing / Qualification ← BOUNDED LEAF / USER EVALUATION PENDING
+├─ Control / Constraint                ← recommended next if Standing accepted / inactive
 └─ Transition / Effect / Feedback      ← inactive
 
 substantive composition child          ← NONE
@@ -71,4 +71,4 @@ substantive composition child          ← NONE
 
 Exact SHA binding establishes repository-view identity/freshness only.
 
-Parent C7 and Binding B7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact composition decomposition or Binding bounded-leaf result.
+Parent C7, Binding B7 and Standing S7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact composition decomposition or child bounded-leaf results.
