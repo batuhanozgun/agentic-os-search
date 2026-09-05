@@ -6,92 +6,39 @@ Current router for the accepted `03_ground-deepening/` program and recursive one
 
 ## Current stage status
 
-**ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE USER-EVALUATED; INFORMATIONAL DYNAMICS ACTIVE.**
+**ENVIRONMENT BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATION TOP-LEVEL BOUNDEDLY COMPLETE / USER-EVALUATED; INFORMATIONAL STATE USER-EVALUATED; INFORMATIONAL DYNAMICS BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
 
 ## Read order
 
 1. `STATE.md` — current stage status/authorization.
 2. `HIERARCHICAL-DEEPENING-METHOD.md` — recursive method.
-3. Active Informational Dynamics research → `grounds/information/informational-dynamics/STATE.md` → `INDEX.md` → `RESEARCH-PLAN.md` → current pass artifacts.
-4. Accepted Informational State sibling → `grounds/information/informational-state/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis when output-state/boundary semantics matter.
-5. Accepted Information parent → `grounds/information/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md`.
-6. Information parent research-path reconstruction → `grounds/information/INDEX.md` → parent N0–N7 / source routes.
-7. Completed Environment → `grounds/environment/STATE.md` → `KEY.md` → `CURRENT-SURFACES.md` only when its result/boundary is needed.
-8. `PLAN.md` — accepted original program gates and starting evidence.
-9. `CURRENT-SURFACES.md` — exact stage freshness.
+3. Informational Dynamics bounded result under evaluation → `grounds/information/informational-dynamics/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → `N7-NODE-CLOSURE.md`.
+4. Dynamics research-path reconstruction → its `INDEX.md` → N0–N6 / evidence / source routes.
+5. Accepted Informational State sibling → `grounds/information/informational-state/STATE.md` → `KEY.md` → `FINDINGS-MAP.md`.
+6. Accepted Information parent → `grounds/information/STATE.md` → parent result routes.
+7. Completed Environment → `grounds/environment/STATE.md` → `KEY.md` / `CURRENT-SURFACES.md` when needed.
+8. `CURRENT-SURFACES.md` — exact stage freshness.
 
-## Current research result / epistemic status
+## Current result
 
 ```text
-Environment / Operating Reality                 ← boundedly complete / accepted
-    ├─ Domain Reality
-    │    ├─ Domain State
-    │    │    ├─ Domain Structure
-    │    │    │    ├─ Constituent Composition       ← bounded leaf / accepted
-    │    │    │    └─ Relational Organization       ← bounded leaf / accepted
-    │    │    └─ Domain Condition
-    │    │         ├─ Realized Characteristics      ← bounded leaf / accepted
-    │    │         └─ Criterion-Relative Standing   ← bounded leaf / accepted
-    │    └─ Domain Dynamics                         ← bounded leaf / accepted
-    └─ Work Conditions                              ← bounded leaf / accepted
-         ↳ Technical Work Environment               ← deep technical specialization/profile
-
-Information / Representation                    ← bounded result / accepted
+Information / Representation                    ← boundedly complete / accepted
     ├─ Informational State / Representational Constitution  ← bounded leaf / user-evaluated
-    └─ Informational Dynamics / Formation–Transformation    ← ACTIVE
+    └─ Informational Dynamics / Formation–Transformation    ← boundedly complete / USER EVALUATION PENDING
 
-Records / Persistent Information                ↳ accepted deep persistence specialization/profile
-
-Work                                             ← inactive
-Actors                                           ← inactive
+Dynamics closure recommendation:
+Informational Dynamics / Formation–Transition
+    ├─ Informational Formation / Acquisition
+    ├─ Informational Derivation / Transformation
+    └─ Informational Selection / Exposure
 ```
 
-## Information parent completion route
-
-```text
-N0 internal evidence recovery       ← complete
-N1 parent coherence attack          ← complete
-N2 first-principles problem map     ← complete
-N3 rival child discovery            ← complete
-N4 boundary/anti-collapse           ← complete
-N5 external falsifiers              ← complete
-N6 omission/reduction audit         ← complete / same-model
-N7 closure                          ← complete / user-evaluated
-```
-
-## Informational State completion route
-
-```text
-N0 canonical/internal recovery      ← complete
-N1 coherence attack                 ← complete
-N2 first-principles problem map     ← complete
-N3 immediate-child discovery        ← complete / no stable child promoted
-N4 boundary/anti-collapse           ← complete
-N5 external falsifiers              ← complete
-N6 omission/reduction audit         ← complete / same-model, non-independent
-N7 closure                          ← complete / user-evaluated for sequencing
-```
-
-## Active Informational Dynamics route
-
-```text
-Informational Dynamics / Formation–Transformation
-N0 canonical/internal recovery      ← ACTIVE
-N1 coherence attack                 ← pending
-N2 first-principles problem map     ← pending
-N3 immediate-child discovery        ← pending
-N4 boundary/anti-collapse           ← pending
-N5 external falsifiers              ← pending
-N6 omission/reduction audit         ← pending
-N7 closure/user evaluation          ← pending
-```
+No substantive node is active. The Dynamics label refinement and proposed children await user evaluation.
 
 ## Current gate
 
-Exactly one substantive node is active: `Informational Dynamics / Formation–Transformation`.
-
-Finding a child during this pass does not authorize researching that child in the same pass.
+Current interaction is evaluation of the bounded Informational Dynamics result. A separate post-evaluation transition is required before any child, Work, Actors or another substantive node is activated.
 
 ## Guardrail
 
-Do not infer architecture, ontology/data model, implementation, systematic cross-ground composition or automatic activation of Work / Actors / discovered Dynamics children.
+Do not infer architecture, ontology/data model, implementation or systematic cross-ground composition from the research hierarchy.
