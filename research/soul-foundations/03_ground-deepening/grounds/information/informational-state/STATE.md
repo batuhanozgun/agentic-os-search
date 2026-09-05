@@ -1,19 +1,19 @@
 # Informational State / Representational Constitution — STATE
 
-**Status:** BOUNDEDLY COMPLETE / AWAITING USER EVALUATION  
+**Status:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED FOR FOUNDATION SEQUENCING  
 **Activated:** 2026-09-05  
 **Closed for evaluation:** 2026-09-05  
-**User authorization:** explicit selection and authorization after user-evaluated Information top-level closure  
+**User evaluation / transition acceptance:** 2026-09-05 — user explicitly authorised starting the next research after the bounded State result  
 **Parent:** `Information / Representation` — boundedly complete / user-evaluated  
-**Current phase:** N7 CLOSURE COMPLETE / USER EVALUATION GATE  
+**Current phase:** CLOSED / USER-EVALUATED  
 **N0–N6:** COMPLETE  
 **Substantive node active:** NONE  
-**Sibling:** Informational Dynamics / Formation–Transformation — inactive  
+**Sibling:** Informational Dynamics / Formation–Transformation — activated separately after this closure  
 **Work / Actors:** inactive
 
 ## Current purpose
 
-Preserve the bounded result of the completed `Informational State / Representational Constitution` pass and return it for user evaluation before any sibling, ground or deeper node is activated.
+Preserve the accepted bounded result of the completed `Informational State / Representational Constitution` pass as the current Foundation research result while keeping its verification limitations and reopen triggers explicit.
 
 ## Bounded result
 
@@ -56,13 +56,13 @@ The four blocks are orientation/retrieval clusters only, not accepted child bran
 - N4 preserved boundaries against Dynamics, Environment, Work, Actors and Records.
 - N5 used materially different external traditions and found no stable missing child.
 - N6 same-model adversarial review tried to force multiple child splits and found none cleaner than the leaf result.
-- N7 closed the node for user evaluation.
+- N7 closed the node for user evaluation; the subsequent user instruction to start the next research closes the sequencing gate.
 
 ## Verification status
 
 The pass combines current canonical evidence, completed Records research, selected candidate-study holdouts and primary/authoritative external sources where available. N6 is same-model adversarial review. The complete child synthesis has **not** received independent second-researcher/model replication.
 
-User evaluation can close the research gate but does not change verification independence.
+User evaluation closes the Foundation sequencing gate; it does **not** change verification independence.
 
 ## Reopen triggers
 
@@ -74,20 +74,8 @@ Reopen if later evidence shows:
 4. later Work/Actors/composition research exposes a forced fit;
 5. independent review identifies a stable missing child or invalid leaf judgment.
 
-## Current authorization / return condition
+## Current authorization
 
-**USER EVALUATION ONLY.**
+This node is closed. It does not authorize any deeper State child.
 
-No substantive node is active.
-
-Do not begin:
-
-- Informational Dynamics;
-- any newly proposed State child;
-- Work or Actors;
-- systematic relation/control composition;
-- SOUL / Development OS architecture;
-- ontology/data-model work;
-- implementation.
-
-After user evaluation, make a separate next-work selection/authorization decision.
+The separately authorised active sibling is `Informational Dynamics / Formation–Transformation`; see the parent Information and Dynamics package state for current Work authorization.
