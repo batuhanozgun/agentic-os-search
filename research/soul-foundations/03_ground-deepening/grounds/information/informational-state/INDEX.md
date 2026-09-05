@@ -23,7 +23,7 @@ No substantive node is active.
 7. `DEFERRED-RELATIONS.md` — intentionally deferred cross-node/cross-ground relations.
 8. `EXTERNAL-SOURCE-LEDGER.md` — exact external source routes/freshness notes.
 9. Descend to N0–N6 only when the reasoning path, rival decomposition, boundary attack, falsifier or omission audit matters.
-10. `CURRENT-SURFACES.md` — exact current-surface binding once finalized.
+10. `CURRENT-SURFACES.md` — exact current-surface binding.
 
 ## Bounded result
 
