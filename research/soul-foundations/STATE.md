@@ -1,14 +1,14 @@
 # SOUL Foundations — STATE
 
-**Status:** four-ground adequacy accepted; composition parent accepted; no substantive child active  
+**Status:** four-ground adequacy accepted; composition parent accepted; Relational Binding child ACTIVE  
 **Environment / Operating Reality:** boundedly complete / accepted  
 **Information / Representation:** boundedly complete / accepted  
 **Work:** boundedly complete / accepted  
 **Actors / Agency–Participation–Authority:** boundedly complete / accepted  
 **Post-deepening top-level adequacy:** boundedly complete / user-evaluated / accepted  
 **Cross-Ground Composition parent:** boundedly complete / user-evaluated / accepted 2026-09-05  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT COMPOSITION CHILD SELECTION / PLANNING ONLY
+**Current authorised substantive activity:** RELATIONAL BINDING CHILD PASS  
+**Current phase:** `05_relation-control-composition/relational-binding/` / B0 CANONICAL EVIDENCE RECOVERY
 
 ## Accepted Foundation anchors
 
@@ -18,47 +18,46 @@ Information / Representation                    ← accepted
 Work                                             ← accepted
 Actors / Agency–Participation–Authority          ← accepted
 post-deepening four-ground adequacy              ← accepted
+Cross-Ground Composition parent                  ← accepted
 ```
 
-## Accepted composition parent
-
-Canonical package:
-
-`05_relation-control-composition/`
-
-Accepted bounded structure:
+## Current composition structure
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding
-├─ Composite Standing / Qualification
-├─ Control / Constraint
-└─ Transition / Effect / Feedback
+├─ Relational Binding                  ← ACTIVE
+├─ Composite Standing / Qualification ← inactive
+├─ Control / Constraint                ← inactive
+└─ Transition / Effect / Feedback      ← inactive
 ```
 
-These are diagnostic research problem regions, not mutually exclusive relation/event classes and not architecture modules.
+## Active protected question
 
-## Child status
+> Which accepted-ground anchors are connected, in what typed role, direction, scope, reference frame and time, and what semantic difference would be lost by replacing that binding with a generic link?
 
-```text
-Relational Binding                  ← discovered / RECOMMENDED NEXT / NOT ACTIVE
-Composite Standing / Qualification ← discovered / NOT ACTIVE
-Control / Constraint                ← discovered / NOT ACTIVE
-Transition / Effect / Feedback      ← discovered / NOT ACTIVE
-```
+## Scope boundary
 
-## Sequencing result
+The active child may research:
+- binding semantic signatures;
+- all six cross-ground pairwise bindings as probes;
+- qualified/n-ary bindings;
+- scope/reference/time/role/cardinality dimensions;
+- recurrent binding families;
+- immediate-child discovery inside Binding;
+- external/candidate holdouts when decision-relevant.
 
-The accepted parent research recommends **Relational Binding** as the first child pass because later standing/control/transition semantics depend on precise anchors and typed bindings.
-
-The remaining child order is intentionally not fixed. Re-select after Binding closure.
+It does **not** authorize:
+- Composite Standing, Control or Transition child research;
+- systematic architecture;
+- ontology/data-model/schema design;
+- implementation.
 
 ## Verification status
 
-The composition parent is source-backed and adversarially challenged but remains same-researcher synthesis. C7 is not independent verification; no independent second-researcher/model replication has validated the exact four-region structure.
+Accepted parent/ground results retain their stated same-model/independence limitations. Exact repository binding is freshness/identity evidence only.
 
-## Current authorization / return condition
+## Current authorization
 
-No substantive Foundation child is active.
+**RELATIONAL BINDING CHILD PASS ONLY.**
 
-Current interaction is **next composition child selection/planning only**. Do not automatically begin Relational Binding, architecture, ontology/data-model/schema work or implementation without a separate substantive activation instruction.
+At bounded closure, return the child result for user evaluation before any grandchild or another composition child is activated.
