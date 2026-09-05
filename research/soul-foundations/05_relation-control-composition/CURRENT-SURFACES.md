@@ -1,6 +1,6 @@
 # Relation / Control / Composition — CURRENT SURFACES
 
-**Status:** canonical freshness binding after Control acceptance / next-child planning gate  
+**Status:** canonical freshness binding at Transition / Effect / Feedback bounded parent closure / user-evaluation gate  
 **Date:** 2026-09-05  
 **Branch:** `main`
 
@@ -8,13 +8,13 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Parent state | `STATE.md` | `29aa8ff1b84ad04ff2f95c89de5b36c21e9c0adc` |
-| Parent router | `INDEX.md` | `655060565305b861d93d2431077230af471ad5b5` |
+| Parent state | `STATE.md` | `1b51e85328f035cd4a27e5630093a7344a859ac5` |
+| Parent router | `INDEX.md` | `931110befc0dd18803594b64659e99a91b54b5db` |
 | Parent plan | `PLAN.md` | `bc866966be4d1410839ea8ae85901c3a4eb7372f` |
-| Parent key | `KEY.md` | `7de39f893b82134fd235477defc2d2f163d84e24` |
+| Parent key | `KEY.md` | `392665a35c1834c8155fb7e15c73af9e49116bf9` |
 | Parent findings map | `FINDINGS-MAP.md` | `b98253dd32aa06ae5761770a4400dc208e15a7b6` |
 | Parent synthesis | `synthesis/COMPOSITION-PARENT-SYNTHESIS.md` | `f4a36ddaf6a711efd2939a3f423313e5af8c3530` |
-| Parent residual questions | `OPEN-QUESTIONS.md` | `7f6e823f0e7fe9f34c738d845238547aa637dd89` |
+| Parent residual questions | `OPEN-QUESTIONS.md` | `53828943d586a58d479d7aa89d76a0a45a32d4b5` |
 
 ## Parent research passes
 
@@ -36,7 +36,18 @@
 | Relational Binding | bounded leaf / USER-EVALUATED / ACCEPTED | `relational-binding/CURRENT-SURFACES.md` @ `cd21db93fd96195a474860afdcea5071207c61f6` |
 | Composite Standing / Qualification | bounded leaf / USER-EVALUATED / ACCEPTED | `composite-standing/CURRENT-SURFACES.md` @ `07b8b01180149a8f87d4b257526926ac2700b63e` |
 | Control / Constraint | bounded leaf / USER-EVALUATED / ACCEPTED | `control-constraint/CURRENT-SURFACES.md` @ `df99373883d3741a2b6b42df530e904213036b2c` |
-| Transition / Effect / Feedback | recommended next / inactive | not created/active |
+| Transition / Effect / Feedback | bounded parent / USER EVALUATION PENDING | `transition-effect-feedback/CURRENT-SURFACES.md` @ `87abe0d0fc6e1bcf5ece2a61bc66ae087d1ee9e6` |
+
+## Transition immediate-child discovery
+
+```text
+Transition / Effect / Feedback
+├─ Cross-Ground Transition / Propagation     ← discovered / inactive
+├─ Cross-Ground Causal Effect / Contribution ← discovered / inactive
+└─ Cross-Ground Feedback / Adaptation        ← discovered / inactive
+```
+
+No immediate child is active. If the Transition parent result is accepted, `Cross-Ground Transition / Propagation` is the recommended first child and requires separate substantive authorization.
 
 ## Accepted upstream inputs
 
@@ -52,8 +63,9 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Foundation state | `../STATE.md` | `ba6faeaaa89273202a586c71bf5a5284e959a095` |
-| Foundation router | `../INDEX.md` | `d7fbee4fec87b1a56ccd41b76649490528156344` |
+| Foundation state | `../STATE.md` | `cbcc11e676f6b67b2c4ba701a993aa30a701e947` |
+| Foundation router | `../INDEX.md` | `41a19a2c0416c1db6e7e6a61db7564739dbc2c05` |
+| Foundation README orientation | `../README.md` | `b3a218dc8177a2aed110259f9735c77f2ae69ae3` |
 
 ## Current bounded state
 
@@ -62,7 +74,10 @@ Cross-Ground Composition
 ├─ Relational Binding                  ← BOUNDED LEAF / ACCEPTED
 ├─ Composite Standing / Qualification ← BOUNDED LEAF / ACCEPTED
 ├─ Control / Constraint                ← BOUNDED LEAF / ACCEPTED
-└─ Transition / Effect / Feedback      ← recommended next / inactive
+└─ Transition / Effect / Feedback      ← BOUNDED PARENT / USER EVALUATION PENDING
+   ├─ Cross-Ground Transition / Propagation     ← discovered / inactive
+   ├─ Cross-Ground Causal Effect / Contribution ← discovered / inactive
+   └─ Cross-Ground Feedback / Adaptation        ← discovered / inactive
 
 substantive composition child          ← NONE
 ```
@@ -71,4 +86,4 @@ substantive composition child          ← NONE
 
 Exact SHA binding establishes repository-view identity/freshness only.
 
-Parent C7, Binding B7, Standing S7 and Control K7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact composition decomposition or child bounded-leaf results.
+Parent C7, Binding B7, Standing S7, Control K7 and Transition T7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact composition decomposition or Transition immediate-child result.
