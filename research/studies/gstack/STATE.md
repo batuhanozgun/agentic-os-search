@@ -5,7 +5,7 @@
 **User authorization:** broad gstack research and durable repository work authorised through the current operational boundary  
 **Pinned target:** `garrytan/gstack@0d1bd5616c0ef096bb7ccee336f63c60ee408618`  
 **Observed:** 2026-09-05  
-**Current phase:** S2 — subsystem reconstruction; two bounded syntheses complete  
+**Current phase:** S2 — subsystem reconstruction; three bounded syntheses complete  
 **Foundation mutation:** NONE / NOT AUTHORISED BY THIS STUDY  
 
 ## Protected research question
@@ -44,7 +44,7 @@ Higher-level summaries must retain source re-entry paths.
 
 ### Orientation / governing layer
 
-Substantial-to-full source coverage includes repository control, architecture, ethos/design policy, package/eval surfaces, root router, generator/resolver composition, host-aware carved sections, and the first two workflow/lifecycle clusters. Exact status lives in `SOURCE-LEDGER.md`.
+Substantial-to-full source coverage includes repository control, architecture, ethos/design policy, package/eval surfaces, root router, generator/resolver composition, host-aware carved sections, and the first three workflow/runtime clusters. Exact status lives in `SOURCE-LEDGER.md`.
 
 ### Bounded synthesis 1 — planning / specification / work admission
 
@@ -82,6 +82,31 @@ Reconstructs:
 - deterministic and behavioral test evidence, including where E2E topology is only partial.
 
 It deliberately stops before deploy/canary/production closure.
+
+### Bounded synthesis 3 — browser runtime / security / evidence
+
+`research/studies/gstack/syntheses/browser-runtime-security-evidence.md`
+
+Reconstructs:
+
+- persistent daemon + BrowserManager + per-tab `TabSession` topology;
+- snapshot → semantic ref → action/evidence semantics and stale-ref invalidation;
+- command taxonomy versus actual security capability reclassification;
+- root/scoped token, scope, domain, rate, expiry and tab-policy authority;
+- strict own-only pair-agent isolation versus intentionally shared local skill semantics;
+- authority-reduction / re-pair revocation behavior;
+- physically separated local and tunnel listeners plus closed tunnel path/command surfaces;
+- extension credential bootstrap separated from `/health` liveness;
+- deny-default CDP allowlist and selected real-Chromium E2E enforcement;
+- shared URL/SSRF validation, including direct fetch paths;
+- filesystem/path and platform permission hardening boundaries;
+- opt-in headless session persistence and tamper-resistant restore semantics;
+- deterministic content/prompt-injection defenses plus optional fail-open ML sidecar;
+- stale/false-green security-standing removal;
+- persistent audit versus bounded live activity evidence;
+- different fail-closed / graceful-degrade polarities across security mechanisms.
+
+It deliberately does not claim independent overall browser-security validation or live hostile ngrok reproduction.
 
 ## Current strongest findings
 
@@ -175,11 +200,67 @@ Deterministic invariants strongly pin some structural contracts, real browser/PT
 
 Founder-signal tracking, YC messaging, resource recommendations, repeat-session tiers, opt-out configuration and telemetry are real behavior but are not evidence for planning/delivery quality.
 
-### F15 — persistent browser execution is now the highest-value unclosed dependency
+### F15 — persistent browser execution is a substantive evidence environment
 
-**Status:** architecture observation + consumer evidence; implementation synthesis pending.
+**Status:** strong subsystem inference.
 
-Both QA and ship treat `$B` browser output as substantive runtime evidence. The actual daemon/CLI/CDP/state/security implementation has not yet been reconstructed deeply enough to judge how strong, persistent or isolated that evidence channel really is.
+`$B` evidence is produced by a stateful daemon/browser/session system. Persistence, tab/ref state, browser mode, restore behavior and action side effects can change what an observation means; browser evidence freshness therefore has to be actively constructed rather than assumed.
+
+### F16 — browser authority is multi-dimensional capability state
+
+**Status:** strong implementation observation.
+
+Effective browser authority is a conjunction of actor/token identity, scope, domain restriction, tab policy, rate, expiry and exposed listener surface. One bearer token is not the whole authority model.
+
+### F17 — browser isolation is contextual, not universal
+
+**Status:** strong corrective finding.
+
+Pair-agent/tunnel `own-only` tokens receive strict tab ownership enforcement for reads and writes. Local shared-policy skill tokens intentionally may operate on unowned/other tabs. “Per-agent browser isolation” without this qualifier would overstate the implementation.
+
+### F18 — remote browser exposure is narrowed structurally before per-command policy
+
+**Status:** strong structural observation + bounded behavioral support.
+
+Tunnel callers are placed on a separate listener with only `/connect` and `/command`, root credentials are rejected there, and a closed command allowlist is applied before normal scoped-token controls. Pair/connect behavior has real-daemon HTTP E2E support; live ngrok exposure is not reproduced by the inspected suite.
+
+### F19 — high-risk browser escape hatches are deny-default or separately scoped where practical
+
+**Status:** strong implementation + selected behavioral support.
+
+Raw CDP is explicit allowlist only; browser-wide control is a distinct scope; unsafe navigation/file effects are validated; remote disk-write forms are excluded from the tunnel. Selected CDP denials are exercised against real Chromium.
+
+### F20 — persistence deliberately excludes authority/content fields that would be dangerous to trust from disk
+
+**Status:** strong implementation + behavioral support.
+
+Headless cross-restart persistence is opt-in. Cookies/URL/storage can persist; loaded HTML and tab ownership do not. Restore revalidates URLs/cookies and quarantines corrupt state. A real-Chromium round trip supports the selected continuity claims.
+
+### F21 — security standing is treated as an evidence/freshness problem
+
+**Status:** strong source observation.
+
+A stale security-status feed with no live writer was removed rather than allowed to report a false-green “protected” state. Absence of current measurement is not represented as positive standing.
+
+### F22 — browser security controls have heterogeneous failure polarity
+
+**Status:** strong synthesis conclusion.
+
+CDP/tunnel/URL/path/own-only access controls often deny hard. ML classification, audit persistence and some permission hardening are graceful/best-effort; the content-filter default is warning-oriented. “Security enabled” is too coarse to predict actual continuation semantics.
+
+### F23 — auditability and operational visibility are separate surfaces
+
+**Status:** strong implementation inference.
+
+The persistent JSONL command audit is intended as restart-surviving forensic evidence but is best-effort; the live activity feed is bounded/in-memory with explicit gap detection and privacy filtering. Neither should be treated as a complete guaranteed record of all browser effects.
+
+## Working cross-subsystem hypothesis
+
+**Status:** working hypothesis, not whole-gstack conclusion.
+
+The first three syntheses increasingly support the model that gstack is a **qualification-driven work system** in which behavioral contracts, durable artifacts, actor authority, runtime capabilities, observed effects and evidence freshness are connected through explicit control transitions.
+
+This remains provisional until investigation/root-cause, memory/context, multi-agent, production-feedback and eval-infrastructure clusters have been reconstructed.
 
 ## Verification status
 
@@ -187,8 +268,8 @@ Current syntheses distinguish at least:
 
 1. **intended policy** — template/skill prose;
 2. **implemented composition/runtime contract** — resolver/helper/runtime code;
-3. **structurally pinned contract** — deterministic invariant/generator tests;
-4. **behavioral evidence** — real-agent/PTY/browser/LLM-judged E2E;
+3. **structurally pinned contract** — deterministic invariant/generator/source tests;
+4. **behavioral evidence** — real-agent/PTY/browser/HTTP/LLM-judged E2E;
 5. **independent verification** — not established for gstack as a whole.
 
 Current limits:
@@ -198,7 +279,10 @@ Current limits:
 - several behavioral E2Es are scenario-bounded and some only approximate production orchestration;
 - AI-assessed changed-path coverage is not instrumented coverage;
 - `Review → QA → Ship` is not a universal state machine: standalone QA is conditional/optional in actual ship behavior;
-- browser runtime/security remains insufficiently reconstructed;
+- browser runtime/security has bounded first-party reconstruction but no independent penetration validation;
+- live hostile/public ngrok behavior was not reproduced by inspected tests;
+- optional ML prompt-injection classification is fail-open and benchmark/oracle validity remains separate;
+- audit and permission-hardening surfaces include best-effort semantics;
 - deploy/canary/retro production loop remains open;
 - four-ground and cross-ground synthesis remain premature.
 
@@ -208,35 +292,41 @@ Current limits:
 2. Some long source files are marked CONTINUE rather than overstated as full coverage.
 3. gstack's own tests/evals are first-party evidence; criterion validity, coverage adequacy and independent verification remain separate questions.
 4. Upstream `main` is fast-moving; all current conclusions remain version-bound to the pinned revision.
-5. “Gate,” “required,” and “always-on” have different concrete semantics in different workflows; check actual control path before reusing those labels.
+5. “Gate,” “required,” “always-on” and “security” have different concrete semantics in different workflows; check actual control path before reusing those labels.
+6. `commands.ts` historical read/write categories are not sufficient security classifications; the token registry reclassifies actual side effects.
+7. Pair-agent own-only isolation must not be generalized to shared local skill clients.
+8. Skill prose saying browser state persists between calls must not be broadened into default headless persistence across daemon restarts; cross-restart persistence is opt-in.
 
 ## Current coverage gaps
 
 Major unresolved clusters now are:
 
-- **browser runtime code, command surface, state persistence and runtime tests**;
-- **security / permission / tunnel / isolation / guarded-action mechanisms**;
-- investigation/root-cause workflow;
+- **investigation / root-cause / debugging workflow**;
 - memory / learnings / GBrain and stale-context/authority behavior;
-- multi-agent and cross-model dispatch beyond inspected planning/ship paths;
+- multi-agent and cross-model dispatch beyond inspected planning/ship/browser paths;
+- guarded-action and security-review workflows (`careful`, `freeze`, `guard`, `cso`) beyond browser-native controls;
 - host adapters / portability fidelity;
 - deploy/canary/production/retro feedback loop;
 - eval judges, routing, compliance, flake/compare/watch lifecycle;
 - repository self-development / release/update mechanisms;
-- chronology/evolution stream from changelog and release diffs.
+- chronology/evolution stream from changelog and release diffs;
+- independent/security-adversarial validation of selected runtime claims.
 
 ## Next work
 
-The immediate next dependency is the **browser/runtime + security/permission boundary**.
+The immediate next native subsystem is the **investigation / root-cause workflow**.
 
-Research it as a connected mechanism:
+Rationale: planning/spec models how work is admitted; review/ship models how implementation is qualified; browser runtime models how external effects/evidence are produced. `/investigate` is the next high-value mechanism for understanding how gstack changes course when observed reality contradicts intended behavior.
 
-1. recover actual `browse/src/**`, CLI/server/daemon command topology from the pinned tree;
-2. inspect lifecycle/state-file semantics and persistent Chromium/CDP connection handling;
-3. inspect local/tunnel listener separation, token/auth boundaries and extension/CDP bridging;
-4. inspect browser action/evidence commands used by QA and other skills;
-5. inspect runtime tests for persistence, isolation, safety, screenshots/snapshots and failure recovery;
-6. determine which safety properties are deterministic runtime enforcement versus instruction-level policy;
-7. write a bounded browser/runtime/security synthesis if evidence is sufficient.
+Research it as a causal-control mechanism:
+
+1. reconstruct the investigate phase contract and no-fix-before-cause rule;
+2. trace hypothesis creation, reproduction, falsification and 3-strike escalation;
+3. inspect freeze/scope-lock coupling and determine runtime enforcement versus prompt policy;
+4. inspect regression-test and fresh-verification requirements;
+5. trace learning/GBrain writes enough to understand the investigation handoff, without prematurely synthesizing the whole memory subsystem;
+6. inspect deterministic/behavioral tests for the investigate workflow;
+7. distinguish proximate-cause language from genuinely systemic prevention/detection reasoning;
+8. write a bounded investigation/root-cause synthesis if evidence is sufficient.
 
 Only after several more native subsystem syntheses should the study start a four-ground/cross-ground projection.
