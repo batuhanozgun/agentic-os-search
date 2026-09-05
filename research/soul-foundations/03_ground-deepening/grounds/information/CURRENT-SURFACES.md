@@ -13,7 +13,7 @@
 | Accepted parent key | `KEY.md` | `eb9ead9aa2acf8a9904add85b86b067b45df8eb5` |
 | Parent findings map | `FINDINGS-MAP.md` | `bafbbf822113c62a3b7acfb7fbb22ce951c38984` |
 | Parent synthesis | `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` | `15ab6fc1acac64d8bcf48296c2d15ad8c5a79b99` |
-| Accepted State manifest | `informational-state/CURRENT-SURFACES.md` | `228d2ba76f16496e5b14d58e93febc169d9d8ece` |
+| Accepted State manifest | `informational-state/CURRENT-SURFACES.md` | `59561ea369ddc233e41b5bb0cbe6c9fafd7a2592` |
 | Dynamics state | `informational-dynamics/STATE.md` | `af2722c40c15a2f7b83bc2ed07db981743d3de7f` |
 | Dynamics router | `informational-dynamics/INDEX.md` | `981cd8426d517b7e9186165ef1eff396ad82e624` |
 | Dynamics closure manifest | `informational-dynamics/CURRENT-SURFACES.md` | `6c253566153991e473869d72beb4e8066a78f245` |
