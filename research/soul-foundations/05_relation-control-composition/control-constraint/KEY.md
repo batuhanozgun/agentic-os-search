@@ -1,14 +1,14 @@
 # Control / Constraint — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** bounded leaf result / awaiting user evaluation  
+**Status:** bounded leaf result / USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-05
 
 ## Shortest current result
 
 ```text
 Control / Constraint
-    ← BOUNDED LEAF
+    ← BOUNDED LEAF / ACCEPTED
     ← cross-ground governing semantics
     ← no immediate child promoted
     ← one reusable semantic core
@@ -123,8 +123,6 @@ No tested split survives as a stable universal child hierarchy.
 Mandatory distinctions such as `basis / authority / decision / enforcement / monitoring` remain a semantic checklist rather than sibling populations.
 
 ## Next sequencing recommendation
-
-If user evaluation accepts Control:
 
 > **Transition / Effect / Feedback** is the strongest next composition-child candidate.
 
