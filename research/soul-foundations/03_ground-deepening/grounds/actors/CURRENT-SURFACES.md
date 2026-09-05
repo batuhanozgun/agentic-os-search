@@ -1,15 +1,15 @@
 # Actors Ground Coverage / Gap Audit — CURRENT SURFACES
 
-**Status:** canonical freshness binding at bounded closure / user-evaluation gate  
+**Status:** canonical freshness binding after user acceptance  
 **Date:** 2026-09-05  
 **Branch:** `main`  
-**Current phase:** A6 closure complete / USER EVALUATION PENDING
+**Current phase:** CLOSED / ACCEPTED
 
 ## Current audit/result surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Audit state | `STATE.md` | `ce1fa8f4273db9152f817df28b689cae87baf8bd` |
+| Audit state | `STATE.md` | `70698995ed89cdbbf0f10f77452ef52aa26d5284` |
 | Audit router | `INDEX.md` | `125eef4466f3e1f774f4f3c83fed63c97c15def7` |
 | Audit plan | `AUDIT-PLAN.md` | `de0a79a2d35630c98b8f97599b52cfa928ad312b` |
 | Current key | `KEY.md` | `e628bd74d546bf834d719c751eded5881fa28488` |
@@ -30,41 +30,26 @@
 | A4 external-holdout decision | `A4-EXTERNAL-HOLDOUT-DECISION.md` | `7b8f8aee589b27a48928bec185946b2e353bd025` |
 | A5 adversarial rival / reduction audit | `A5-ADVERSARIAL-RIVAL-REDUCTION-AUDIT.md` | `8158852e0b0fa88f12296038b0beb89413c83342` |
 
-## Prior Actors corpus binding
-
-| Role | Path | Bound Git blob SHA |
-|---|---|---|
-| Prior Actors current-surface manifest | `../../../01_verticals/actors/CURRENT-SURFACES.md` | `19f538ecb6d2e5a84bad5f7d547529a51d87bf96` |
-| Prior Actors state | `../../../01_verticals/actors/STATE.md` | `48fc6c098aa33c1f246335c62c038e005fa299bd` |
-| Prior Actors key | `../../../01_verticals/actors/KEY.md` | `f77dcbe403dadd68ea4424172638d11abc119187` |
-| Prior Actors findings map | `../../../01_verticals/actors/FINDINGS-MAP.md` | `20d83aac6a415ce6e84f35bf3a265c1d49945b84` |
-| Prior Actors synthesis | `../../../01_verticals/actors/synthesis/ACTORS-VERTICAL-SYNTHESIS.md` | `5ae5260cc5fc7ae8f5e7cc0171e3a1b887901224` |
-| Prior Actors completeness audit | `../../../01_verticals/actors/synthesis/COMPLETENESS-OMISSION-CHECK.md` | `1bf9e58d58be3cce18913803e185dd101cf85cf9` |
-
 ## Upstream authority surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Ground-deepening state | `../../STATE.md` | `0db2f259a45ad55b4fe99693f34f0307e0cd84e1` |
-| Ground-deepening router | `../../INDEX.md` | `1a0ab8b4507385358db2d5b744d17e1784d3e145` |
-| Foundations state | `../../../STATE.md` | `e23e853b18f1aa6fb8cfad91ff3db90c28c56046` |
-| Foundations router | `../../../INDEX.md` | `8c1dcc4f4a1da0287b3aab465f458d4c206600f9` |
+| Ground-deepening state | `../../STATE.md` | `04e5e6191fe9a6295b720f82aa4027153d03fda9` |
+| Ground-deepening router | `../../INDEX.md` | `bcda2b4b551458a10226036d299229343d7acfd7` |
+| Foundations state | `../../../STATE.md` | `feb7180d5c9e5b8ac396aed84f7d7a7926b89e17` |
+| Foundations router | `../../../INDEX.md` | `6a3e7e98b6789eba0c2e2f85d3de4b78030ac953` |
 
-## Current bounded result
+## Accepted bounded result
 
 ```text
 Actors / Agency–Participation–Authority
-    ← boundedly complete / USER EVALUATION PENDING
+    ← boundedly complete / accepted
     ← rich relational / multi-anchor internal problem map
     ← NO universal immediate-child hierarchy promoted
-
-substantive ground active ← NONE
 ```
 
-## Authorization interpretation
-
-Current interaction is evaluation of the bounded Actors result only. Top-level adequacy, systematic composition, architecture, ontology/data-model and implementation remain inactive/unauthorised.
+Current Foundation work has moved to `../../../04_top-level-adequacy-rerun/`.
 
 ## Verification note
 
-Exact SHA binding establishes repository-view identity only. The combined Actors result is supported by the prior broad Actors corpus and current audit, but A5 is same-model adversarial review and no independent second-researcher/model replication has been performed.
+Exact SHA binding establishes repository-view identity only. A5 is same-model adversarial review; no independent second-researcher/model replication has been performed.
