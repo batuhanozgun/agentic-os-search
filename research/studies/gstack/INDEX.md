@@ -25,7 +25,8 @@ Observed 2026-09-05; package version 1.79.0.
 | Memory / learnings / GBrain | `syntheses/memory-learnings-context-gbrain.md` | ledger → sources |
 | Multi-agent / cross-model | `syntheses/multi-agent-cross-model-coordination.md` | ledger → sources |
 | Guarded action / CSO security | `syntheses/guarded-action-security-review.md` | ledger → careful/guard/CSO/one-way sources |
-| Host adapters / portability | not yet synthesized | **current next cluster** |
+| Host adapters / portability | `syntheses/host-adapters-portability-fidelity.md` | ledger → HostConfig/generator/setup/tests |
+| Deploy / canary / production feedback | not yet synthesized | **current next cluster** |
 | Four-ground projection | not yet produced | only after native model stabilizes |
 
 ## Current durable syntheses
@@ -37,6 +38,31 @@ Observed 2026-09-05; package version 1.79.0.
 5. **Memory / learnings / context / GBrain** — qualified prior information; stale-fallback label can be lost before planning consumption.
 6. **Multi-agent / cross-model coordination** — context/authority/completion/result/liveness semantics; fresh context ≠ model independence; v1.79 stranded-parent recurrence.
 7. **Guarded action / security review** — preventive hooks, one-way human authority, CSO detective qualification; runtime enforcement can degrade to prose across hosts.
+8. **Host adapters / portability fidelity** — typed host compilation plus runtime materialization; support is a ladder, not a boolean, and generation health ≠ behavioral portability health.
+
+### Portability retrieval summary
+
+```text
+canonical workflow
+→ host config + model overlay
+→ preserve / rewrite / suppress / inline / advisory / unsupported
+→ generated artifact
+→ install/runtime assets
+→ actual host capability
+→ behavioral verification standing
+```
+
+Key corrections:
+
+- ten registered hosts do not share one operational support level;
+- setup has first-class install arms for Claude/Codex/Kiro/Factory/OpenCode/Cursor; Slate, OpenClaw/Hermes and GBrain have different integration standings;
+- host and model are independent axes;
+- external hosts inline carved sections while Claude retains lazy section files;
+- external safety-prose substitution can weaken deterministic Claude hook enforcement;
+- Codex still has a known Agent-dispatch semantic leak;
+- setup is not yet fully driven by the typed host registry despite `docs/ADDING_A_HOST.md` claiming otherwise;
+- static/generation tests are much stronger than real-host behavioral validation outside Claude/Codex;
+- Codex periodic CI currently has a known all-skip false-green condition.
 
 ## Synthesis ladder
 
@@ -61,8 +87,8 @@ Higher synthesis never removes source re-entry.
 6. memory / learnings / GBrain — **done**;
 7. multi-agent / cross-model coordination — **done**;
 8. guarded-action / CSO security-review — **done**;
-9. **host adapters / portability fidelity — NEXT**;
-10. deploy / canary / production observation / retrospective feedback;
+9. host adapters / portability fidelity — **done**;
+10. **deploy / canary / production observation / retrospective feedback — NEXT**;
 11. testing / eval / routing / compliance infrastructure;
 12. repository self-development / generation / update / release mechanisms.
 
@@ -70,28 +96,28 @@ These are research clusters, not Foundation categories.
 
 ## Immediate next route
 
-Study **host adapters / portability fidelity**.
+Study **deploy / canary / production observation / retrospective feedback**.
 
 Central question:
 
-> when gstack renders one conceptual workflow for different coding-agent hosts, which semantics are genuinely preserved and which are rewritten, suppressed, approximated or weakened because the host has different tools, hooks, session semantics or model capabilities?
+> after implementation is qualified, how does gstack move changes through merge/deploy/rollout, observe production behavior, distinguish successful execution from successful outcome, decide rollback/continuation, and feed operational evidence back into later work?
 
 Priority evidence:
 
-- `hosts/*.ts` type/config model;
-- `scripts/gen-skill-docs.ts` host generation and safety-prose substitutions;
-- tool/path rewrites and suppressed resolvers;
-- Claude hooks versus external-host behavior;
-- Codex-host Agent dispatch mismatch;
-- GBrain/cross-model suppression;
-- generated/golden host fixtures and tests;
-- user-visible versus silent semantic degradation.
+- `land-and-deploy` workflow and authority gates;
+- `canary` rollout/observation semantics;
+- `health` production/operational checks;
+- `retro` outcome and learning feedback;
+- setup/deploy-provider adapters where load-bearing;
+- deployment evidence/freshness, rollback and failure polarity;
+- tests/E2Es that prove actual rollout logic rather than presentation only.
 
 ## Guardrails
 
 - Understand gstack-native mechanism before four-ground projection.
 - Keep authored policy, implementation, structural pins and behavioral evidence distinct.
+- Do not equate merge, deploy-command success, rollout health and user/business outcome.
 - Do not equate syntactic generation success with semantic portability.
-- Host capability must be part of any enforcement/authority claim.
+- Host/provider capability must be part of any deployment/control claim.
 - Do not mutate Foundation from this candidate study.
 - Do not silently substitute current gstack HEAD for the pinned snapshot.
