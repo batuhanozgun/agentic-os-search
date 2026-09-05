@@ -1,14 +1,14 @@
 # Relational Binding — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** bounded leaf result / awaiting user evaluation  
+**Status:** bounded leaf / USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-05
 
 ## Shortest current result
 
 ```text
 Relational Binding
-    ← BOUNDED LEAF
+    ← BOUNDED LEAF / ACCEPTED
     ← no immediate child promoted
     ← one reusable binding-semantic signature
     ← overlapping relation-family profiles
@@ -61,13 +61,9 @@ binary representation != proof that semantics are inherently binary
 
 No candidate family cleared promotion criteria without heavy overlap, residual buckets or duplication of accepted ground semantics.
 
-## Next sequencing recommendation
+## Current sequencing context
 
-If user evaluation accepts Binding:
-
-> **Composite Standing / Qualification** is the strongest current next-child candidate.
-
-It is not active.
+Binding is accepted and closed. `Composite Standing / Qualification` was separately activated, researched to bounded closure, and is now awaiting user evaluation.
 
 ## Verification boundary
 
