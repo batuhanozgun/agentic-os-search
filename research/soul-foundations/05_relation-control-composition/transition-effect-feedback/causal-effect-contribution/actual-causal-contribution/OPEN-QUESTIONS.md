@@ -1,14 +1,14 @@
 # Actual Causal Contribution / Episode Causation — Open Questions / Reopen Triggers
 
-**Status:** bounded residuals after A0→A7 child closure  
+**Status:** accepted bounded residuals after A0→A7 child closure  
 **Date:** 2026-09-06  
 **Role:** residual uncertainty; NOT an automatic execution queue
 
-## Current bounded result
+## Current accepted bounded result
 
 ```text
 Actual Causal Contribution / Episode Causation
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / USER-EVALUATED / ACCEPTED
     ← no immediate child promoted
 ```
 
@@ -55,7 +55,7 @@ Do not reopen merely because:
 
 ## Sequencing note
 
-If user evaluation accepts this bounded leaf, the strongest current next research candidate is:
+The strongest current next research candidate is:
 
 > **Contrastive / Interventional Causal Effect**
 
