@@ -8,7 +8,7 @@ Read `STATE.md` first for current authorization.
 
 ## Current stage
 
-**CROSS-GROUND COMPOSITION — CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION BOUNDED LEAF / AWAITING USER EVALUATION.**
+**CROSS-GROUND COMPOSITION — CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT RECOMMENDED NEXT / INACTIVE.**
 
 No substantive Foundation child is active.
 
@@ -17,8 +17,7 @@ No substantive Foundation child is active.
 | Need | Read first | Then if needed |
 |---|---|---|
 | Current overall state / authorization | `STATE.md` | current composition router |
-| Current Actual Causation result | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/actual-causal-contribution/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → A7 |
-| Actual Causation reasoning | `.../actual-causal-contribution/INDEX.md` | targeted A0–A6 |
+| Accepted Actual Causation | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/actual-causal-contribution/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → A7 |
 | Actual Causation residuals | `.../actual-causal-contribution/OPEN-QUESTIONS.md` | parent/sibling/ground surface if reopened |
 | Accepted Causal parent | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/STATE.md` | `KEY.md` → E6/E7 |
 | Accepted Transition / Propagation | `05_relation-control-composition/transition-effect-feedback/transition-propagation/STATE.md` | `KEY.md` → synthesis/P7 |
@@ -40,16 +39,14 @@ Cross-Ground Composition
 └─ Transition / Effect / Feedback      ← accepted bounded parent
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-   │  ├─ Actual Causal Contribution / Episode Causation       ← BOUNDED LEAF / USER EVALUATION PENDING
-   │  └─ Contrastive / Interventional Causal Effect            ← recommended next if accepted / inactive
+   │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
+   │  └─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
    └─ Cross-Ground Feedback / Adaptation           ← inactive
 ```
 
 ## Current next-step interpretation
 
-Current interaction is evaluation of Actual Causal Contribution / Episode Causation only.
-
-If accepted, `Contrastive / Interventional Causal Effect` is the strongest current next child and requires separate substantive activation.
+`Contrastive / Interventional Causal Effect` is the strongest current next child and requires separate substantive activation.
 
 ## Guardrail
 
