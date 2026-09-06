@@ -1,94 +1,96 @@
 # Contrastive / Interventional Causal Effect — STATE
 
-**Status:** ACTIVE FOUNDATION CHILD RESEARCH  
+**Status:** BOUNDED LEAF / AWAITING USER EVALUATION  
 **Activated:** 2026-09-06  
-**User authorization:** accepted Actual Causation result and explicitly instructed substantive continuation  
+**Closed for evaluation:** 2026-09-06  
 **Parent:** `Cross-Ground Causal Effect / Contribution` — bounded parent / user-evaluated / accepted 2026-09-06  
 **Accepted sibling:** `Actual Causal Contribution / Episode Causation` — accepted bounded leaf  
-**Transition sibling outside causal parent:** `Cross-Ground Feedback / Adaptation` — inactive  
-**Current phase:** I0 CANONICAL / EVIDENCE RECOVERY  
-**Current authorised substantive activity:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT CHILD PASS
+**Transition sibling outside causal parent:** `Cross-Ground Feedback / Adaptation` — recommended next if accepted / inactive  
+**Current phase:** I7 CLOSURE COMPLETE / USER EVALUATION GATE  
+**I0–I7:** COMPLETE  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT RESULT EVALUATION ONLY
 
 ## Protected question
 
-> For a defined outcome/effect, how would that outcome differ under one exact alternative state/action/exposure/intervention versus another for the relevant unit/population/context, under what causal assumptions, scope and time, and with what limits on generalization?
+> For a defined target, how would outcome/effect Y differ under exact regime/state/action/exposure X versus comparator X', under the relevant context/time/version, and with what limits on causal identification and generalization?
 
-## Critical routing boundaries
-
-```text
-association / before-after difference
-!= contrastive causal effect
-
-intended intervention
-!= realized intervention / treatment exposure
-
-actual episode cause
-!= contrastive / interventional causal effect
-
-average / population effect
-!= individual effect by identity
-
-local causal effect
-!= transported / generalized effect by identity
-
-Control presence / compliance
-!= causal effectiveness
-
-causal-effect estimate / evidence
-!= sufficient-evidence Standing
-```
-
-## Candidate pressure — probes only
-
-- exact outcome / estimand-like target;
-- explicit causal contrast / comparator;
-- intervention/exposure identity and realized fidelity;
-- unit/population/context/scope/time;
-- baseline/reference regime;
-- confounding / selection / measurement / information threats;
-- heterogeneity / subgroup/context modification;
-- transportability / external validity;
-- interference / spillover / network effects;
-- direct / indirect / mediated effects where material;
-- effect scale / metric dependence;
-- non-manipulable exposure semantics;
-- control causal effectiveness;
-- fault-injection/eval generalization;
-- uncertainty / evidence sufficiency / decision boundary.
-
-None is an accepted child.
-
-## Research route
+## Bounded result
 
 ```text
-I0 canonical/current evidence recovery
-→ I1 minimum contrastive-effect signature
-→ I2 intervention/comparator/fidelity discrimination
-→ I3 confounding/selection/interference/heterogeneity audit
-→ I4 rival internal decompositions
-→ I5 authoritative external + candidate-study holdouts
-→ I6 synthesis / immediate-child decision
-→ I7 adversarial closure / user-evaluation gate
+Contrastive / Interventional Causal Effect
+    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← no immediate child promoted
+    ← one target-specific causal-contrast grammar
 ```
 
-## Stop / depth rule
+## Stable semantic core
 
-Continue deeper only while another distinction materially changes:
-- the meaning of the causal effect claim;
-- intervention choice or expected outcome;
-- reuse/generalization across context;
-- control-effectiveness conclusion;
-- evidence requirements;
-- or the decision outcome.
+```text
+Contrastive causal-effect claim
+├─ exact outcome Y + relevant horizon
+├─ exact target bearer/scope
+├─ focal regime X
+├─ comparator regime X'
+├─ exact intervention/exposure/regime identity
+├─ applicability frame / context / time / version
+├─ realized exposure/fidelity semantics where material
+├─ interference/exposure-configuration semantics where material
+├─ effect aggregation/scale where material
+├─ heterogeneity/conditioning semantics where material
+├─ object-level causal-effect claim
+├─ identification assumptions/threats visible when load-bearing
+├─ evidence/estimate separate from causal truth
+└─ source→target generalization boundary where material
+```
 
-If I6 discovers stable immediate children, do not activate them automatically. Return for user evaluation.
+## Strongest non-collapse rules
 
-If no stable split survives, close as a bounded leaf with reusable causal-contrast semantics and overlapping profiles/dimensions.
+```text
+"X works" != well-formed causal-effect claim
+association != causal effect
+before/after difference != causal effect
+outcome under X != effect of X without comparator
+same intervention label != same causal intervention
+intended/assigned X != realized/received X
+bundle effect != component effect
+average effect != individual effect
+source/local effect != target effect
+no observed spillover != no interference
+causal target defined != identifiable
+identifiable != estimated
+estimated != estimate correct/precise
+estimate != evidence-sufficiency Standing
+Control present/implemented/complied-with != Control causally effective
+actual episode cause != contrastive/interventional causal effect
+```
+
+## Profiles/dimensions — not children
+
+- intervention/comparator/fidelity;
+- confounding/selection/support;
+- individual/population/system effects;
+- heterogeneity/effect modification;
+- interference/spillover;
+- direct/indirect/mediated effects;
+- static/dynamic/adaptive regimes;
+- efficacy/effectiveness;
+- transportability/generalization;
+- evidence/identification method;
+- Control effectiveness.
+
+## Next sequencing recommendation
+
+If the user accepts this result:
+
+> **Cross-Ground Feedback / Adaptation** is the strongest current next child.
+
+It is not active.
+
+## Verification status
+
+I7 is same-model adversarial review. Fresh public-web retrieval failed technically during this pass. Parent source-grounded external conclusions and current gstack/Anthropic candidate studies supplied pressure, but no fresh independent transportability/interference review or second-researcher/model replication validates this exact bounded-leaf synthesis.
 
 ## Guardrail
 
-Do not begin:
-- Cross-Ground Feedback / Adaptation substantive research;
-- architecture;
-- ontology/data-model/schema design;
-- implementation.
+Do not automatically begin Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
