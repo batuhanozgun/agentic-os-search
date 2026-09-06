@@ -1,216 +1,366 @@
 # gstack — Observed Structure and Research Decomposition
 
-## Scope
+## Role
 
-This file records the **observed system/repository decomposition** used to route research. It is not a claim that repository directories map one-to-one to conceptual subsystems.
+This file is the **orientation inventory** used to discover and route the gstack corpus. It is not the final architecture model and it is not a directory→subsystem mapping.
 
-Pinned target: `garrytan/gstack@0d1bd5616c0ef096bb7ccee336f63c60ee408618`.
+Primary pinned target:
+
+`garrytan/gstack@0d1bd5616c0ef096bb7ccee336f63c60ee408618`
+
+The study is now boundedly complete. For current conclusions use:
+
+1. `../CORE.md` — compact result;
+2. `../INDEX.md` — retrieval router;
+3. `../syntheses/cross-system-composition.md` — whole native system;
+4. relevant subsystem synthesis;
+5. `../SOURCE-LEDGER.md` — source/read provenance;
+6. `../revalidation/2026-09-06-v1.80.0.md` — current-main delta through v1.80.
+
+This inventory remains useful for explaining how the source corpus was decomposed without treating repository layout as ontology.
+
+---
 
 ## High-level observed system
 
-Current source supports the following first-pass system model:
+The completed source pass supports this broad decomposition:
 
 ```text
-                    gstack
-                      │
-          ┌───────────┼────────────┐
-          │           │            │
-   behavioral     workflow      executable
-     policy       contracts       runtime
-          │           │            │
-          └──────┬────┴─────┬──────┘
-                 │          │
-             durable     verification /
-             state &        eval / audit
-             artifacts          │
-                 │              │
-                 └──────┬───────┘
+                      gstack
                         │
+        ┌───────────────┼────────────────┐
+        │               │                │
+  behavior/policy   workflow/work     runtime/effects
+        │               │                │
+        └──────────┬────┴───────┬────────┘
+                   │            │
+            durable state    verification /
+             & artifacts      eval / audit
+                   │            │
+                   └──────┬─────┘
+                          │
                  ship / deploy /
-                production feedback
-                        │
-                        ▼
-                 future behavior
+               production feedback
+                          │
+                          ▼
+               learning / self-change
+                          │
+                          ▼
+              generation / setup /
+                upgrade / release
 ```
 
-This is provisional. Its purpose is to stop the study from mistaking a directory list for the system architecture.
+The final cross-system synthesis sharpens this further: gstack is better modeled as a **federation of partial state machines connected through artifacts, standings, authority/control relations and runtime effects** than as one central workflow engine.
+
+---
 
 ## 1. Governing policy / behavior-contract layer
 
-Observed sources include:
+Important source families include:
 
-- `ETHOS.md`
-- `AGENTS.md`
-- `CLAUDE.md`
-- `DESIGN.md`
-- skill templates and their preambles/sections
+- `ETHOS.md`;
+- `AGENTS.md`;
+- `CLAUDE.md`;
+- `DESIGN.md`;
+- `SKILL.md.tmpl` sources;
+- `scripts/resolvers/**`;
+- host/model configuration and overlays.
 
-Important emerging property: gstack appears to propagate shared behavioral principles into many workflow surfaces rather than leaving them only as human-readable repository doctrine.
+Shared behavioral rules can exist at several strengths:
 
-Research question: **Which policies are advisory language, which become generated skill contract, and which have deterministic/runtime/test enforcement?**
+```text
+doctrine / prose
+→ generated workflow contract
+→ structural invariant
+→ runtime enforcement
+→ behavioral test / CI consequence
+```
 
-## 2. Workflow skill layer
+Do not infer enforcement strength from the presence of policy text alone.
 
-README/project structure and actual paths expose many role- or workflow-shaped skills. Preliminary families:
+---
+
+## 2. Workflow / work-system layer
+
+The corpus contains workflow-shaped skills spanning:
 
 ### Discovery / planning / design
 
-- office-hours
-- CEO / engineering / design / DevEx plan review
-- design consultation
-- autoplan
-- spec
+- `office-hours`;
+- CEO / engineering / design / DevEx plan review;
+- design consultation;
+- `autoplan`;
+- `spec`.
 
 ### Review / investigation / quality
 
-- review
-- investigate
-- QA / QA-only
-- design review
-- DevEx review
-- security/CSO
+- `review`;
+- `investigate`;
+- `qa` / `qa-only`;
+- design / DevEx review;
+- `cso`.
 
-### Multi-agent / cross-model
+### Coordination
 
-- pair-agent
-- Codex second-opinion/review surfaces
-- benchmark / model comparison
+- `pair-agent`;
+- Codex/outside-model surfaces;
+- review-army / specialist dispatch;
+- worktree/parallel planning surfaces.
 
-### Shipping / production / learning
+### Delivery / production / feedback
 
-- ship
-- land-and-deploy
-- canary
-- document-release
-- retro
-- learn
-- GBrain setup/sync
+- `ship`;
+- `land-and-deploy`;
+- `canary`;
+- `document-release`;
+- `retro`;
+- `learn`;
+- context / GBrain surfaces.
 
-### Capability / safety controls
+These are source/workflow families, not Foundation categories.
 
-- browse
-- careful/freeze/guard/unfreeze family (exact snapshot paths still to verify)
-
-These family labels are study navigation aids, not a complete list or a final taxonomy.
+---
 
 ## 3. Shared composition / generation layer
 
-Repository instructions indicate that generated skill documents are assembled from canonical templates/shared material. Relevant surfaces include:
+Canonical generated behavior is assembled from actual source surfaces including:
 
-- skill doc generation scripts;
-- preamble injection;
-- reusable sections;
-- shared browser helpers;
-- shared Codex/cross-model helpers;
-- shared orchestration/reference-document helpers.
+- root and per-skill `SKILL.md.tmpl` files;
+- `scripts/gen-skill-docs.ts`;
+- `scripts/resolvers/index.ts`;
+- `scripts/resolvers/sections.ts`;
+- `scripts/resolvers/composition.ts`;
+- host configurations under `hosts/**`;
+- model overlays;
+- carved sections / manifests.
 
-This layer is load-bearing because repeated policy or handoff behavior may originate here rather than independently in every skill.
+Important source-view rule:
+
+```text
+generated SKILL.md
+!= canonical authoring source
+```
+
+Generated output is an executable/inspectable view whose semantics depend on template, resolver, host/model and composition inputs.
+
+---
 
 ## 4. Browser / execution runtime
 
-`ARCHITECTURE.md` describes a material software subsystem rather than prompt-only tooling:
+The browser subsystem is material software, not prompt-only tooling:
 
 ```text
-agent / CLI
-   ↓
-compiled Bun browse client
-   ↓ localhost HTTP
+agent / browser CLI
+        ↓
 long-lived Bun daemon/server
-   ↓ CDP
-persistent Chromium
+        ↓
+BrowserManager + TabSession
+        ↓
+Playwright / Chromium / CDP
 ```
 
-Key intended properties:
+Relevant controls include:
 
-- persistent browser process and state;
-- persistent tabs/cookies/login/localStorage;
-- fast repeated command path after startup;
-- daemon state / lifecycle management;
-- local and restricted tunnel surfaces;
-- scoped token/security design;
-- deterministic capability surface beneath higher-level agent orchestration.
+- persistent tabs/profile/session state;
+- scoped tokens and tab/domain/capability restrictions;
+- URL/path/CDP boundaries;
+- reference invalidation;
+- audit/activity evidence;
+- optional tunnel exposure;
+- session persistence/restore.
 
-Runtime source/tests must be inspected before claiming every documented property is implemented exactly as described.
+The stateful runtime makes freshness and ownership part of browser-evidence validity.
 
-## 5. Durable state / information surfaces
+---
 
-Already visible in orientation/office-hours material:
+## 5. Guarded-action / security controls
 
-- design documents;
-- project-local gstack artifacts;
-- developer/builder profile data;
-- learnings / GBrain context;
-- browser daemon state;
+Actual pinned paths include:
+
+- `careful/SKILL.md.tmpl` + `careful/bin/check-careful.sh`;
+- `freeze/SKILL.md.tmpl` + `freeze/bin/check-freeze.sh`;
+- `guard/SKILL.md.tmpl`;
+- `unfreeze/SKILL.md.tmpl`;
+- one-way-door registry and Claude question-preference hook;
+- `cso` detective/advisory security workflow.
+
+The study distinguishes:
+
+```text
+preventive runtime interposition
+!= human decision authority
+!= detective security evidence
+```
+
+and:
+
+```text
+enforcement-point scope
+!= protected-effect scope
+```
+
+Current-main note: v1.80 repairs a pinned `/freeze` state-root fail-open defect; see the revalidation file. The broader Edit/Write-only boundary and host-portability limits remain.
+
+---
+
+## 6. Durable information / continuity layer
+
+Observed durable/state surfaces include:
+
+- design and specification artifacts;
+- review and decision logs;
+- context checkpoints;
+- local learnings;
+- GBrain/cache/policy data;
+- browser daemon/session state;
 - git/repository state;
-- release/documentation artifacts;
-- analytics/eureka/session records.
+- test/eval artifacts;
+- security reports;
+- deploy/canary/retro histories;
+- generation/install/update/release state.
 
-The study will treat these as information/state mechanisms first in gstack-native terms, then later project them onto Foundation Information.
+A central final finding is that these representations carry different provenance/freshness/authority semantics; there is no one generic “memory” standing.
 
-## 6. Eval / test / compliance layer
+---
 
-`package.json` exposes a large first-class eval/test lifecycle:
+## 7. Test / eval / compliance layer
 
-- free test shards;
-- Windows-specific tests;
-- paid LLM evals;
-- E2E skill tests;
-- routing E2E;
-- Codex and Gemini E2E variants;
-- LLM judge recommendation tests;
-- section-loading tests;
-- gate vs periodic tiers;
-- sharded paid evaluation;
-- eval list/compare/summary/flake-rank/watch/select operations;
-- compliance audit;
-- slop scan/diff.
+The completed synthesis found a first-class verification pipeline including:
 
-This suggests behavioral quality is treated as an operational subsystem. The study still needs to determine criteria, oracle quality, coverage, and how failures feed back into changes.
+- free/static tests;
+- Windows-specific execution;
+- real-agent E2E;
+- Codex/Gemini external-runtime E2E;
+- LLM-as-judge evals;
+- coverage/touchfile/tier routing;
+- paid planner/shard/reconciler infrastructure;
+- strict execution census;
+- partial/finalized eval artifacts;
+- baseline/compare/summary/flake tooling;
+- compliance/audit/slop scans.
 
-## 7. Host / model portability layer
+Protected conclusion:
 
-The repository's current public framing and eval scripts indicate support beyond one agent host/model. This likely requires adapters/detection/generation differences rather than a single universal prompt surface.
+```text
+test exists
+!= selected
+!= executed
+!= intended runtime exercised
+!= oracle valid
+!= finalized result
+!= independent verification
+```
 
-Research question: **Which parts are canonical behavior and which are host-specific translations or bounded variants?**
+The testing/eval cluster is no longer “research pending”; it is synthesized in `../syntheses/testing-eval-routing-compliance-flake-lifecycle.md`.
 
-## 8. Self-development / release layer
+---
 
-Repository instructions and package scripts show gstack also contains mechanisms for developing and validating gstack itself:
+## 8. Host / model portability layer
 
-- generation of skill docs;
-- skill checks;
+The pinned repository has a typed host-generation system plus heterogeneous setup/runtime standing.
+
+Key distinction:
+
+```text
+registered
+< generated
+< structurally valid
+< installable
+< runtime-capable
+< behaviorally exercised
+< failure-path exercised
+< independently validated
+```
+
+Host and model are separate axes. Generation/adaptation can preserve, rewrite, suppress, inline, weaken or leave behavior unsupported.
+
+---
+
+## 9. Delivery / production feedback layer
+
+The source exposes distinct operational standings across:
+
+```text
+qualified PR
+→ merge authority
+→ authoritative merged state
+→ deployment evidence
+→ live verification
+→ optional longitudinal canary
+→ rollback/recovery action
+→ retrospective / later learning
+```
+
+The study explicitly preserves:
+
+```text
+merge command != merged state
+deploy completed != service healthy
+revert pushed != production restored
+```
+
+---
+
+## 10. Repository self-development / release layer
+
+The repository develops and qualifies itself through:
+
+- source templates/resolvers/runtime code;
+- generation;
+- setup/materialization;
+- user-local render/relink;
 - tests/evals;
-- release procedures;
-- changelog/evolution history;
-- self-dogfooding patterns.
+- update detection;
+- manual/background upgrade;
+- migrations;
+- version/changelog/release gates;
+- operational feedback and repeated-failure hardening.
 
-This matters because the system may form a learning/control loop where its own operational failures lead to new contracts/tests/runtime controls.
+This forms a recursive loop in which failure classes increasingly become reusable helpers, runtime controls, structural pins and behavioral/environment tests.
+
+v1.80 adds further examples around setup capability degradation, installer ownership/provenance and test-environment fidelity.
+
+---
+
+## Final semantic research clusters
+
+The first-pass clusters converged into eleven bounded native subsystem syntheses:
+
+1. planning / specification / work admission;
+2. review / QA / delivery qualification;
+3. browser runtime / security / evidence;
+4. investigation / causal control;
+5. memory / learnings / context / GBrain;
+6. multi-agent / cross-model coordination;
+7. guarded action / security review;
+8. host adapters / portability fidelity;
+9. deploy / Canary / production / retrospective feedback;
+10. testing / eval / routing / compliance / flake lifecycle;
+11. repository self-development / generation / upgrade / release.
+
+Chronology/evolution was used horizontally to pressure-test these mechanisms rather than promoted as a twelfth sibling.
+
+---
 
 ## Documented vs observed structure warning
 
-`docs/PROJECT_STRUCTURE.md` is useful but not authoritative about every path at the pinned revision. A directly attempted fetch of `skill/SKILL.md.tmpl` returned 404 even though the project-structure document described that path. Therefore:
+Repository documentation is useful evidence about intended architecture but does not override the observed pinned tree or runtime source.
+
+An early example in this study was `docs/PROJECT_STRUCTURE.md` describing a `skill/SKILL.md.tmpl` path while the pinned tree had root `SKILL.md.tmpl`.
+
+Therefore:
 
 ```text
-repository documentation about structure
-!= observed pinned tree
+repository self-description
+!= observed source topology by identity
 ```
 
-Use actual contents/tree for path existence and source retrieval.
+Current docs may later repair such drift; historical mismatch remains evidence about source/view fidelity at the pinned snapshot.
 
-## Provisional semantic clusters for synthesis
+---
 
-These are the current research clusters, expected to evolve:
+## Closure note
 
-1. policy + generated behavior contract;
-2. discovery/planning/specification;
-3. review/investigation/QA;
-4. browser/runtime capability;
-5. security/guarded action;
-6. durable information/memory/context;
-7. multi-agent/cross-model coordination;
-8. host/model portability;
-9. ship/deploy/production feedback;
-10. eval/testing/compliance;
-11. self-generation/release/evolution.
+This inventory's discovery questions are closed by the durable synthesis package. Do **not** continue researching a cluster merely because an early question is visible here.
 
-The decisive criterion for cluster boundaries is whether the sources jointly explain a coherent mechanism, not whether they live in the same directory.
+Current continuation authority lives in `../STATE.md`. At study closure there is **no active gstack research Work**. Current-main behavior beyond the recorded v1.80 checkpoint requires freshness revalidation rather than automatic continuation.
