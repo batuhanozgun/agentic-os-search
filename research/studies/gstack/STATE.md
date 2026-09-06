@@ -6,6 +6,7 @@
 **Pinned release context:** `v1.79.0.0` / package `1.79.0`  
 **Primary observation:** 2026-09-05  
 **Freshness revalidated:** 2026-09-06 through `garrytan/gstack@c24121663732644c56280474a1720475dbe53127` / `v1.80.0.0`  
+**Adversarial closure audit:** COMPLETE 2026-09-06  
 **Current substantive activity from this study:** NONE  
 **Foundation mutation:** NONE / NOT AUTHORISED / NOT PERFORMED
 
@@ -13,22 +14,25 @@
 
 Build a source-grounded model of gstack as an implemented software-development operating system / software factory, then determine what it does across Information, Work, Actors and Environment and how its important mechanisms connect those areas.
 
-**Result:** answered to bounded study completion for the pinned snapshot, then selectively revalidated against the one-release current-main delta.
+**Result:** answered to bounded study completion for the pinned snapshot, challenged by a reverse-catalogue omission/distortion pass, then selectively revalidated against the one-release current-main delta.
 
 ---
 
 ## Closure state
 
 ```text
-Layer 1 — native subsystem reconstruction      CLOSED / 11 syntheses
+Layer 1 — native subsystem reconstruction      CLOSED / 11 semantic syntheses
 Layer 2 — cross-system composition             CLOSED
 Layer 3 — four-ground projection               CLOSED
 Layer 4 — neutral cross-ground mechanisms      CLOSED
 Layer 5 — compact core model                   CLOSED
+Adversarial omission / distortion audit        COMPLETE
 Source ledger / evidence routing               RECONCILED
 Pinned → current-main freshness check          COMPLETE through c2412166...
 Foundation adoption / architecture decision    NONE
 ```
+
+The closure audit explicitly challenged specialist verticals not visible in the eleven subsystem names—especially the iOS physical-device runtime, scrape→skillify, health/benchmark and output-generation utilities. No decision-critical missing first-order operating-system mechanism survived. The eleven remain **semantic research clusters, not eleven product verticals**.
 
 No additional sibling subsystem, Foundation mutation, SOUL/Development OS architecture or implementation work is activated by this closure.
 
@@ -83,9 +87,40 @@ The system is better modeled as a federation of partial state machines connected
 - `syntheses/cross-ground-mechanisms.md`
 - `CORE.md`
 
-### Freshness layer
+### Closure / freshness layer
 
+- `CLOSURE-AUDIT.md`
 - `revalidation/2026-09-06-v1.80.0.md`
+
+---
+
+## Adversarial closure result
+
+The completion criterion in `METHOD.md` requires a reverse omission/distortion pass rather than closing because an arbitrary file quota was reached.
+
+Strongest holdout: **iOS live-device runtime family**.
+
+Direct pinned-source review established a material separate execution topology:
+
+```text
+agent
+→ Mac ios-qa daemon
+→ USB CoreDevice
+→ embedded Debug StateServer
+→ real iPhone
+```
+
+with optional Tailscale remote agents, capability tiers, short-lived session tokens, device/session locking, typed state generation, snapshot/fix/reverify loops, sync/regeneration and real-device periodic tests.
+
+Closure judgment:
+
+> iOS is a major **cross-cutting specialized runtime vertical**, but not a twelfth first-order semantic subsystem. Its load-bearing mechanisms decompose without residue into already-modeled runtime/security/evidence, QA/investigation, authority/control, generation/freshness, testing/eval and Environment families.
+
+Other held-out surfaces—scrape→skillify, health/benchmark and document/PDF/diagram/design-output utilities—also remain meaningful specializations without forcing a new first-order operating mechanism.
+
+The structure inventory was corrected so this vertical is no longer invisible.
+
+Verification boundary: `CLOSURE-AUDIT.md` is same-model adversarial review using direct pinned sources/tests, not independent replication.
 
 ---
 
@@ -129,7 +164,7 @@ migration selected != migration completed
 ```
 
 ### C6 — evidence is heterogeneous
-Source reasoning, deterministic tests, real-agent E2E, browser observation, LLM judges, cross-model challenge and production probes differ in oracle, freshness, topology and independence.
+Source reasoning, deterministic tests, real-agent E2E, browser/device observation, LLM judges, cross-model challenge and production probes differ in oracle, freshness, topology and independence.
 
 ### C7 — aggregation is control
 Review, CSO, ship and eval systems parse/filter/dedupe/qualify evidence before it changes continuation or decision standing.
@@ -156,7 +191,7 @@ Shortest interpretation:
 - **Information / Representation:** gstack forms, transforms, selects/exposes, persists and qualifies representations/evidence; a major risk is qualifier loss at representation seams.
 - **Work:** gstack admits, structures, sequences/parallelizes, evaluates, recovers, completes and recursively improves pursuits; Work state remains distinct from evidence/acceptance/target outcome.
 - **Actors:** gstack separates participation, delegation, capability, authority, effect power and decision rights; technical reach is not legitimate authority.
-- **Environment / Operating Reality:** repo/worktree, filesystem, host/model, process, browser, network, CI, external APIs and production state materially determine actionability and correctness.
+- **Environment / Operating Reality:** repo/worktree, filesystem, host/model, process, browser/device, network, CI, external APIs and production state materially determine actionability and correctness.
 - **Cross-ground:** binding, standing, authority/control, transition, freshness, continuity and feedback make the four grounds operate as a system.
 
 This is candidate-study projection/comparison only. It does not adopt gstack into Foundation.
@@ -209,9 +244,10 @@ The pinned v1.79 evidence DAG remains stable. Current-main changes are carried a
 
 - The study used direct source, runtime/shared code, structural tests, real-agent E2Es, eval infrastructure and release history where relevant.
 - First-party tests/evals and v1.80 PR CI materially increase confidence but are not independent external replication.
-- Same-family subagents and cross-model challenge are not automatically independent verification.
+- Same-family subagents, cross-model challenge and the closure audit are not automatically independent verification.
 - No independent second-researcher/model replication of the complete gstack synthesis was performed.
 - Some E2Es simulate dangerous/external effects rather than reproduce live production topology.
+- Real-device iOS tests are explicitly Environment-gated and do not run in ordinary CI without machine/device opt-in.
 - Bounded negative searches do not prove universal absence outside searched repository surfaces.
 
 Study closure means the research question is adequately answered for its stated purpose and snapshot; it does **not** mean every implementation claim has maximal verification strength.
@@ -228,7 +264,7 @@ If later work needs gstack:
 
 1. read `META.md` for scope/freshness boundary;
 2. read `CORE.md` for the compact model;
-3. route through `INDEX.md` to the relevant synthesis;
+3. route through `INDEX.md` to the relevant synthesis or `CLOSURE-AUDIT.md`;
 4. re-enter `SOURCE-LEDGER.md` / pinned upstream source for load-bearing claims;
 5. if current gstack behavior matters, revalidate `main` beyond `c241216...` first.
 
