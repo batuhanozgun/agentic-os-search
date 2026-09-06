@@ -2,45 +2,55 @@
 
 ## Role
 
-Current router for the active Actual Causal Contribution / Episode Causation Foundation child pass.
+Current router for the completed Actual Causal Contribution / Episode Causation Foundation child pass.
 
-Read `STATE.md` first for authorization, phase and stop rule.
+Read `STATE.md` first for bounded result and authorization.
 
 ## Current status
 
-**ACTIVE — A0 canonical/current evidence recovery.**
+**BOUNDED LEAF — USER EVALUATION PENDING. A0→A7 COMPLETE.**
+
+No substantive causal child is active from this package.
 
 ## Preferred read order
 
-1. `STATE.md` — protected question, authorization and guardrail.
-2. `PLAN.md` — falsification method and closure criteria.
-3. Accepted causal parent → `../STATE.md` → `KEY.md` → E6/E7 when child promotion/boundary is material.
-4. Accepted Transition / Propagation prerequisite → `../../transition-propagation/STATE.md` → `KEY.md` → P6/P7.
-5. Parent actual-causation residuals → `../OPEN-QUESTIONS.md`.
-6. R06 causal-depth protocol when depth/root-cause claims are material.
-7. Actors/Control/Standing boundaries only when decision-critical.
-8. Candidate studies through catalog → selected META → targeted files only when load-bearing.
-9. A0–A7 artifacts as completed.
-10. `KEY.md`, `FINDINGS-MAP.md`, synthesis and `CURRENT-SURFACES.md` after closure.
+1. `STATE.md` — bounded result and current gate.
+2. `KEY.md` — shortest current orientation.
+3. `FINDINGS-MAP.md` — targeted result/evidence router.
+4. `synthesis/ACTUAL-CAUSAL-CONTRIBUTION-SYNTHESIS.md` — integrated result.
+5. `A7-ADVERSARIAL-CLOSURE.md` — final attack and sequencing result.
+6. `OPEN-QUESTIONS.md` — residual/reopen triggers; not an execution queue.
+7. A0–A6 only when detailed evidence/signature/multiple-cause/evidence/rival/holdout/promotion logic is decision-critical.
+8. Parent → `../STATE.md` → `KEY.md` → E6/E7 when parent split is material.
+9. R06 causal-depth protocol when depth claims are material.
+10. `CURRENT-SURFACES.md` — exact freshness after closure manifest.
 
-## Research rule
-
-Do not collapse episode causation into chronology, one trigger or one root-cause field.
-
-Preserve at minimum:
+## Bounded result
 
 ```text
-exact realized effect != intended / recorded effect
-chronology != actual cause
-trigger != complete causal explanation
-proximate cause != complete causal explanation
-one cause identified != complete causal model
-but-for necessity != universal causal criterion
-causal contribution != responsibility / accountability
-control failure != causal contribution by identity
-plausible episode explanation != alternatives sufficiently excluded
+Actual Causal Contribution / Episode Causation
+    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← no immediate child promoted
 ```
+
+## Core rules
+
+```text
+chronology != actual causation
+joint causal set != independent cause edges
+but-for necessity != universal causal criterion
+Control defect != actual causal contribution by identity
+omission causal relevance != duty/blame
+causal contribution != responsibility/accountability
+causal story supported != alternatives discriminated
+all observed contributors analyzed != causal explanation complete
+actual episode cause != contrastive/interventional causal effect
+```
+
+## Next-step orientation
+
+If user evaluation accepts this result, `Contrastive / Interventional Causal Effect` is the strongest current next child and requires separate substantive activation.
 
 ## Guardrail
 
-No Contrastive / Interventional Causal Effect, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation work is active.
+Contrastive / Interventional Causal Effect, Feedback / Adaptation, architecture, ontology/data-model/schema and implementation remain inactive.
