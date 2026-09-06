@@ -1,6 +1,6 @@
 # Transition / Effect / Feedback — CURRENT SURFACES
 
-**Status:** canonical freshness binding after Transition / Propagation bounded closure / user-evaluation gate  
+**Status:** canonical freshness binding at Causal Effect / Contribution bounded parent closure / user-evaluation gate  
 **Date:** 2026-09-06  
 **Branch:** `main`
 
@@ -8,13 +8,13 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Parent state | `STATE.md` | `8fbe08819a20beb1a6f17ff89303b090f3055d20` |
-| Parent router | `INDEX.md` | `3708582a7448b452d42bffd5f221ad682c460c91` |
+| Parent state | `STATE.md` | `7d6a50369c27f207858bc5f9d6689704f3782935` |
+| Parent router | `INDEX.md` | `d678b599050624a8641eefb0c61ae593f9694d60` |
 | Parent plan | `PLAN.md` | `b8a94e61fad5a98df5c2a8ed7cf7656b6d019362` |
-| Parent L0 key | `KEY.md` | `d0e36718a5ae2d24cc23edb6c94aa486a0796422` |
+| Parent L0 key | `KEY.md` | `e904f8539ff48e70d72c7a2b2255564ffb3e2b3b` |
 | Parent findings map | `FINDINGS-MAP.md` | `c4c2ce07e104874fc5c977869907c967a0751a7a` |
 | Parent integrated synthesis | `synthesis/TRANSITION-EFFECT-FEEDBACK-SYNTHESIS.md` | `104d182c83f51a75035269d8aeb4f2fe319c8085` |
-| Parent residual / reopen questions | `OPEN-QUESTIONS.md` | `2d50591aa909848d4b375268a9ef0cef7770210a` |
+| Parent residual / reopen questions | `OPEN-QUESTIONS.md` | `2f3399a9c55aaa77aeb86e7e168878b1fc220f19` |
 
 ## Completed parent passes
 
@@ -29,13 +29,29 @@
 | T6 synthesis/child decision | `T6-SYNTHESIS-CHILD-DECISION.md` | `04f3cec7d7d2e113df96d2d04eb86c905f3ba95d` |
 | T7 adversarial closure | `T7-ADVERSARIAL-CLOSURE.md` | `a24a1b30bbc572676a2bf86d0acd7650ddb63c11` |
 
-## Immediate child surfaces
+## Immediate-child surfaces
 
 | Child | Status | Current manifest |
 |---|---|---|
-| Cross-Ground Transition / Propagation | bounded leaf / USER EVALUATION PENDING | `transition-propagation/CURRENT-SURFACES.md` @ `f34b7d2f3c1ae303683e8c952610bb81bcd77c74` |
-| Cross-Ground Causal Effect / Contribution | recommended next if Propagation accepted / inactive | not created/active |
+| Cross-Ground Transition / Propagation | bounded leaf / USER-EVALUATED / ACCEPTED | `transition-propagation/CURRENT-SURFACES.md` @ `bf27c8c5b630995af0f83f11702f6f1e9b3eb26d` |
+| Cross-Ground Causal Effect / Contribution | bounded parent / USER EVALUATION PENDING | `causal-effect-contribution/CURRENT-SURFACES.md` @ `ab9f734bd2139f559dcc04a147c65673f1ffc0e7` |
 | Cross-Ground Feedback / Adaptation | inactive | not created/active |
+
+## Causal immediate-child discovery
+
+```text
+Cross-Ground Causal Effect / Contribution
+├─ Actual Causal Contribution / Episode Causation       ← discovered / inactive
+└─ Contrastive / Interventional Causal Effect            ← discovered / inactive
+```
+
+Critical distinction:
+
+```text
+What would X do to Y?
+!=
+Did X cause this observed Y?
+```
 
 ## Accepted upstream inputs
 
@@ -47,29 +63,26 @@
 | Environment Domain Dynamics key | `../../03_ground-deepening/grounds/environment/domain-effect/domain-dynamics/KEY.md` @ `f2c7104974508c965af735f9f1d0166623bf5c6b` |
 | Information key | `../../03_ground-deepening/grounds/information/KEY.md` @ `8f6bc44cb01ce46edce081c80280327940c9e881` |
 
-Accepted ground current-manifest checkpoints reused:
-- Environment `7505697056168353cbe4a42fef3be4fe3ab98f9d`;
-- Information `21577ac431bb1cf9cd098fbe731dd0ef6726a87d`;
-- Work `7e5bdd9426f3c426ac312bca147517962ced6361`;
-- Actors `eb55fcaab6356675bd6ad7c696ef64f6203a85b3`.
-
 ## Current composition / Foundation authority surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Composition state | `../STATE.md` | `724c658d0c65fcfbcb67d25670d529cd6b117d91` |
-| Composition router | `../INDEX.md` | `6193cd8864bb7e155c877015c107734a09812a83` |
-| Composition key | `../KEY.md` | `40dd5764bb976741792be4fec95f52bf7ebe0cea` |
-| Foundation state | `../../STATE.md` | `c14dc7d4b82cacc0705ed0661980a96a02558dd3` |
-| Foundation router | `../../INDEX.md` | `a179021178912bb0510b62229044d0d2d54bf0bd` |
-| Foundation README | `../../README.md` | `d39ecfb87a2f5e4e2e1adcd807626ac257b475f3` |
+| Composition state | `../STATE.md` | `89dfe25ef10b7f5c1fb0ecef4195cd9c6f6d75cf` |
+| Composition router | `../INDEX.md` | `32d1d4864189c3a21111d52b61c880b5705dce2f` |
+| Composition key | `../KEY.md` | `05b5755e480487678cfbdad5becd1ce7273ba459` |
+| Composition residuals | `../OPEN-QUESTIONS.md` | `0260912dc7c741803700583ff96c60fee181d219` |
+| Foundation state | `../../STATE.md` | `e21f40fd5c0792bd8be7ae928552e2fbae8ba5cb` |
+| Foundation router | `../../INDEX.md` | `c1f114cba751edc6f373bffe2dfe1eb2591d7a1c` |
+| Foundation README | `../../README.md` | `8d58ebb598053424f35093747a258685b59aec19` |
 
 ## Current bounded result
 
 ```text
 Transition / Effect / Feedback                       ← ACCEPTED PARENT
-├─ Cross-Ground Transition / Propagation             ← BOUNDED LEAF / USER EVALUATION PENDING
-├─ Cross-Ground Causal Effect / Contribution         ← recommended next if accepted / inactive
+├─ Cross-Ground Transition / Propagation             ← ACCEPTED BOUNDED LEAF
+├─ Cross-Ground Causal Effect / Contribution         ← BOUNDED PARENT / USER EVALUATION PENDING
+│  ├─ Actual Causal Contribution / Episode Causation    ← discovered / inactive
+│  └─ Contrastive / Interventional Causal Effect         ← discovered / inactive
 └─ Cross-Ground Feedback / Adaptation                ← inactive
 
 substantive Transition-parent child                  ← NONE
@@ -79,4 +92,4 @@ substantive Transition-parent child                  ← NONE
 
 Exact SHA binding establishes repository-view identity/freshness only.
 
-Parent T7 and Transition/Propagation P7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact parent decomposition or Propagation bounded-leaf result.
+Transition T7, Propagation P7 and Causal E7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact current decomposition.
