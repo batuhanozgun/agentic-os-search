@@ -1,6 +1,6 @@
 # SOUL Foundations — STATE
 
-**Status:** four-ground adequacy accepted; composition parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; Actual Causal Contribution accepted; Contrastive / Interventional Causal Effect ACTIVE  
+**Status:** four-ground adequacy accepted; composition parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; Actual Causal Contribution accepted; Contrastive / Interventional Causal Effect bounded leaf / AWAITING USER EVALUATION  
 **Environment / Operating Reality:** boundedly complete / accepted  
 **Information / Representation:** boundedly complete / accepted  
 **Work:** boundedly complete / accepted  
@@ -14,10 +14,10 @@
 **Cross-Ground Transition / Propagation:** accepted bounded leaf  
 **Cross-Ground Causal Effect / Contribution:** accepted bounded parent  
 **Actual Causal Contribution / Episode Causation:** accepted bounded leaf  
-**Contrastive / Interventional Causal Effect:** ACTIVE / I0 CANONICAL-EVIDENCE RECOVERY  
-**Cross-Ground Feedback / Adaptation:** inactive  
-**Current authorised substantive activity:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT CHILD PASS  
-**Current authorised interaction:** ACTIVE FOUNDATION RESEARCH
+**Contrastive / Interventional Causal Effect:** bounded leaf / USER EVALUATION PENDING  
+**Cross-Ground Feedback / Adaptation:** recommended next if accepted / inactive  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT RESULT EVALUATION ONLY
 
 ## Accepted Foundation anchors
 
@@ -48,18 +48,43 @@ Cross-Ground Composition
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
    │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← ACTIVE / I0
-   └─ Cross-Ground Feedback / Adaptation           ← inactive
+   │  └─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
+   └─ Cross-Ground Feedback / Adaptation           ← recommended next if accepted / inactive
 ```
 
-## Current active question
+## Current Contrastive result
 
-> For a defined outcome/effect, how would that outcome differ under one exact alternative state/action/exposure/intervention versus another for the relevant unit/population/context, under what causal assumptions, scope and time, and with what limits on generalization?
+Canonical package:
+
+`05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/contrastive-interventional-causal-effect/`
+
+Current bounded judgment:
+
+> Contrastive / Interventional Causal Effect is a bounded leaf with one target-specific causal-contrast grammar and no promoted immediate child.
+
+Strongest rules:
+
+```text
+causal effect identity
+= outcome + target + X vs X' + applicability frame
+
+intended/assigned intervention != realized/received intervention
+source/local effect != target effect
+causal target defined != identifiable != estimated != decision-sufficient
+```
+
+## Current next-frontier recommendation
+
+If the user accepts this result:
+
+> **Cross-Ground Feedback / Adaptation**
+
+This is not active and requires separate substantive activation.
 
 ## Verification status
 
-Accepted upstream closures remain same-model adversarial review with external/candidate pressure. The active child must perform its own external holdout pass before closure.
+I7 is same-model adversarial review. Fresh public-web retrieval failed technically during this pass; parent source-grounded external conclusions and current candidate-study pressure were reused. No independent second-researcher/model replication validates the exact synthesis.
 
 ## Guardrail
 
-Do not begin Feedback / Adaptation, architecture, ontology/data-model/schema or implementation while the active child pass is running.
+Do not automatically begin Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
