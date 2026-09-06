@@ -1,14 +1,14 @@
 # Cross-Ground Transition / Propagation — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** bounded leaf result / awaiting user evaluation  
+**Status:** bounded leaf result / USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-06
 
 ## Shortest current result
 
 ```text
 Cross-Ground Transition / Propagation
-    ← BOUNDED LEAF
+    ← BOUNDED LEAF / ACCEPTED
     ← no immediate child promoted
 ```
 
@@ -31,67 +31,27 @@ Cross-Ground Transition / Propagation
 └─ observation/evidence kept separate from actual realization
 ```
 
-## Strongest new structural result
+## Strongest structural result
 
-Propagation often consists of several exact transitions rather than one giant event:
-
-```text
-Transition A
-  --typed dependency/propagation relation-->
-Transition B
-  --typed relation-->
-Transition C
-```
-
-A propagation episode can group them without erasing local transition identity, scope, timing or failure points.
+Propagation often consists of several exact transitions rather than one giant event. A higher-level propagation episode can group them without erasing local transition identity, scope, timing or failure points.
 
 ## Strongest non-collapse rules
 
 ```text
-requested / intended change
-!= realized change
-
-approved / committed / issued change
-!= incorporated / realized change
-
-local realization
-!= change effective across all applicable scope
-
-change realized
-!= change observed / recorded
-
-occurrence time
-!= observation time
-!= effective time everywhere
-
-propagation
-!= data replication
-
-propagation episode exists
-!= full-propagation / convergence Standing holds
-
-retry / rollback / compensation / reconciliation Work
-!= successful restoration/convergence
-
+requested / intended change != realized change
+approved / committed / issued change != incorporated / realized change
+local realization != change effective across all applicable scope
+change realized != change observed / recorded
+occurrence time != observation time != effective time everywhere
+propagation != data replication
+propagation episode exists != full-propagation / convergence Standing holds
+retry / rollback / compensation / reconciliation Work != successful restoration/convergence
 rollback != time reversal
 compensation != literal reversal
 reconciliation ran != reconciled
-
-validity dependency changed
-!= underlying Standing automatically false
-
-transition/dependency sequence
-!= causal proof
+validity dependency changed != underlying Standing automatically false
+transition/dependency sequence != causal proof
 ```
-
-## Important routing rule
-
-```text
-ground-local dynamics
-!= cross-ground Transition / Propagation
-```
-
-Route here only when removing other-ground anchors/relations changes the protected transition/propagation question itself.
 
 ## Frame-blindness guardrail
 
@@ -118,14 +78,10 @@ Unknown applicable scope can legitimately make completeness `unknown/not fully e
 - observation lag;
 - path/mechanism-relative propagation latency.
 
-## Next sequencing recommendation
+## Continuation
 
-If user evaluation accepts this result:
-
-> **Cross-Ground Causal Effect / Contribution** is the strongest next sibling child.
-
-It is not active.
+The accepted result now serves as the exact-effect prerequisite for Causal Effect / Contribution research.
 
 ## Verification boundary
 
-P7 is same-model adversarial review. W3C, OpenTelemetry, AWS, Google Cloud, NASA and institutional rule material supplied external pressure, but no source validates this exact Foundation synthesis and no independent second-researcher/model replication has been performed.
+User acceptance closes the sequencing/evaluation gate. P7 remains same-model adversarial review; external sources do not independently validate this exact Foundation synthesis.
