@@ -2,179 +2,158 @@
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; CURRENT DEVELOPMENT-BOOTSTRAP BRIDGE MAINTENANCE ACTIVE  
 **Son güncelleme:** 2026-09-06  
-**Bridge checkpoint:** STAGE-1 RESPONSE RECEIVED / BOUNDED REVIEW COMPLETE; S1A STARTER-CONTRACT BRIEF READY TO SEND; NO DEVELOPMENT OS INSTALLED OR ACCEPTED
+**Bridge checkpoint:** S1A RESPONSE RECEIVED / BOUNDED REVIEW COMPLETE; G0 LOCAL EXPERIMENT BRIEF READY FOR USER ADOPTION; NO G0 DISPATCH, INSTALLATION, TEST OR OPERATING-ACCEPTANCE EVIDENCE RECEIVED
 
 ## Yetkilendirilmiş amaç
 
-Original context objective remains complete:
-
-`os-architect`, `soul`, `keel` ve gerektiğinde bounded predecessor evidence olarak `keel-research` kaynaklarını okuyarak:
-
-1. ChatGPT'deki SOUL Research projesinin neden açıldığını anlamak,
-2. bu araştırmanın hangi tür sistemi beslemesinin amaçlandığını anlamak,
-3. bu bağlamı konuşma hafızasından bağımsız olarak geri çağrılabilir tutmak.
+Original context objective remains complete: reconstruct why SOUL Research exists from `os-architect`, `soul`, `keel` and bounded `keel-research` evidence; retain that context outside chat memory.
 
 The user additionally authorised bounded cross-project continuity and temporary bootstrap guidance:
 
 > preserve the SOUL Research ↔ new Development OS ↔ Production transition; prepare and review bounded Codex work until the new Development OS can sustain work across fresh sessions without permanent hidden human orchestration.
 
-This does not reopen broad historical context research or make this package the future current-state authority for Development OS/Production.
-
-## Mevcut original context sonucu
-
-Bounded historical synthesis: `evidence/CONTEXT-SYNTHESIS.md`.
-
-SOUL Research investigates the problems, principles and evidence needed for a general-purpose SOUL direction that forms a task-specific working system from an intended outcome, without inheriting predecessor assumptions by default. `agentic-os-search` is the durable research environment.
-
-This is context reconstruction, not final product architecture or a universal research method.
+This does not reopen broad historical context research or make this package the future current-state authority for Development OS/Production. The current task is review and preparation of a relayable next assignment, not execution of that assignment on the user's Mac.
 
 ## Authority and entry surfaces
 
 **This STATE is the single current checkpoint/next-action authority for the research-side bootstrap bridge.**
 
-- Purpose, vision, topology, historical environment observations and stage conditions: `current/DEVELOPMENT-OS-BOOTSTRAP.md`.
-- Issued Stage-1 task: `current/briefs/CODEX-STAGE-1-BOOTSTRAP-DESIGN.md`.
-- Received Stage-1 response: `current/reviews/2026-09-06-stage-1/CODEX-RESPONSE.md`.
-- Research-side evaluation: `current/reviews/2026-09-06-stage-1/REVIEW.md`.
-- Prepared next task: `current/briefs/CODEX-STAGE-1A-STARTER-CONTRACT.md`.
+- Purpose/vision/topology/history and stage conditions: `current/DEVELOPMENT-OS-BOOTSTRAP.md`.
+- S1 task: `current/briefs/CODEX-STAGE-1-BOOTSTRAP-DESIGN.md`.
+- S1 response and review: `current/reviews/2026-09-06-stage-1/`.
+- S1A task: `current/briefs/CODEX-STAGE-1A-STARTER-CONTRACT.md`.
+- S1A response and review: **`current/reviews/2026-09-06-stage-1a/`**.
+- Proposed next assignment: **`current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`**.
 
-A task brief existing does not establish dispatch. A response, a review recommendation, permission for an experiment, accepted control state and implemented behavior are distinct.
+A prepared brief, reported dispatch, a returned response, review support, experimental authorization, operating acceptance and implemented behavior are separate. Once `soul-development-os` has a reliable canonical work surface, recover actual development work there rather than mirroring it here.
 
-Once `soul-development-os` has a reliable canonical work surface, recover actual development work there rather than mirroring routine state here.
+## Original historical result
+
+Bounded synthesis: `evidence/CONTEXT-SYNTHESIS.md`.
+
+SOUL Research investigates the problems, principles and evidence needed for a general-purpose SOUL direction that forms a task-specific working system from an intended outcome, without inheriting predecessor assumptions by default. This is context reconstruction and research direction, not final product architecture.
 
 ## Stage-0 history — reported capability preflight
 
 The user-relayed Codex desktop preflight reported:
 
-- `gpt-6-astra` with reasoning effort `ultra` visible in runtime metadata; exact backend snapshot unknown;
-- web-tool research access and private GitHub connector reads to `agentic-os-search` and `soul-production`;
-- local tool availability dependent in part on shell mode;
-- one terminal `curl` DNS failure, not a complete terminal-network diagnosis;
-- the initial session's working directory was not a Git checkout of `soul-development-os`;
-- no repository mutations or Development OS design in that preflight.
+- `gpt-6-astra` / `ultra` runtime metadata, exact backend snapshot unknown;
+- web-tool reading and private GitHub connector reads to `agentic-os-search` and `soul-production`;
+- local tools with shell-mode-dependent visibility;
+- one terminal curl DNS failure, not a general terminal-network diagnosis;
+- an initial non-Git working directory;
+- no repository mutation or Development OS design in that preflight.
 
-These are user-relayed local/runtime observations, not actions independently repeated on the Mac by the research assistant. Capability availability is task- and path-specific.
+These are user-relayed local/runtime observations, not actions independently repeated by this assistant. A capability in one task is not proof it exists in another, especially a new CLI child process.
 
-Remote GitHub inspection found `soul-development-os/main` at `3776384a7789ccf1959b99bba92c8cf1b3131f81`, tree `d564d0bc3dd917926892c55e3706cc116d5b165e`, containing only `.gitkeep`. The user attributed the initial file to an earlier cancelled Cloud attempt, not desktop preflight. That attribution remains user-reported; exact Cloud task logs were not inspected.
+Remote inspection found `soul-development-os/main` at `3776384a7789ccf1959b99bba92c8cf1b3131f81`, tree `d564d0bc3dd917926892c55e3706cc116d5b165e`, only `.gitkeep`. The user attributed the initial file to an earlier cancelled Cloud attempt; exact Cloud logs were not inspected. Keep it distinct from the later read-only desktop episode.
 
-## Stage-0B — completed for bounded continuation
+## Stage-0B — complete for bounded continuation
 
-The user supplied ordinary macOS Terminal clone output for `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo`. Three Git objects were received and no clone failure was shown. A preceding `compdef` error was not shown to block cloning; shell repair was not required.
+The user supplied ordinary Terminal clone output into `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo`. A preceding `compdef` error was not shown to prevent the clone; shell repair was not required.
 
-A later, separate user-relayed in-Codex check reported:
+A later user-relayed in-Codex check reported:
 
 | Check | Result |
 |---|---|
-| Default working directory and Git root | `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo` |
+| Default directory and Git root | `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo` |
 | Origin | `https://github.com/batuhanozgun/soul-development-os.git` |
 | Branch | `main` |
 | HEAD | `3776384a7789ccf1959b99bba92c8cf1b3131f81` |
 | Status | `## main...origin/main`; clean working tree |
-| Scope | No directory change and no mutations reported |
+| Scope | No directory change or mutation reported |
 
-Research-side GitHub readback returned the same remote HEAD. Binding was judged sufficiently supported for bounded read-only design continuation. Do not repeat clone or the full preflight without a material change.
+Research-side GitHub readback matched the remote HEAD. This was sufficient for bounded read-only design. Do not repeat cloning or full preflight without a material change. Local tracking status is not itself a fresh remote check; no independent inspection of the Mac, push/PR/CI certification or model-quality result follows.
 
-This does not independently inspect the Mac or certify push/PR/CI, model quality, instruction loading or OS behavior. Local tracking status is not by itself a fresh remote observation.
+## S1 — historical design and review
 
-## Stage-1 — dispatched and response received
+- Task ID: `DEVOS-BOOTSTRAP-S1-2026-09-06`.
+- Relay ref: `bfe58e7bde8ec9ef58e46fab5c04a7720e207407`; brief blob `83f09e8622e2f2706f56e63ea53143b3af3da30a`.
+- User confirmed sending it and supplied the response.
+- Response: `current/reviews/2026-09-06-stage-1/CODEX-RESPONSE.md`.
+- Response SHA-256: `e7080daa54fadb6f5efce1f844b7c19e57097a65160cd78ce7b4838c1af36cc5`; Git blob `4f64d7a5178ad639c2052a0f144653971b947295`.
+- Preservation commit: `1a7cfb0e19e0b878614610c2b21af96b322a1073`; source-copy identity was checked.
 
-- Brief ID: `DEVOS-BOOTSTRAP-S1-2026-09-06`.
-- Initial brief commit: `63a84a3979531ee664d3c29593c365756aa500e0`.
-- Ref supplied in the relay prompt: `bfe58e7bde8ec9ef58e46fab5c04a7720e207407`.
-- Brief blob: `83f09e8622e2f2706f56e63ea53143b3af3da30a`.
-- User confirmed dispatch with “Tamam. Verdim.”
-- User subsequently supplied the completed Codex answer as `Yapıştırılan markdown.md` and requested substantive review to the operational limit.
+S1 proposed AGENTS/STATE/work surfaces, one writer, proportional assurance, accepted B versus candidate C, a possible context-checker pilot and fresh-session tests. S1 review supported the direction but asked for C1 actual contract, C2 initial authority, C3 reviewer entry path and C4 writer/delegation/recovery semantics before operational use.
 
-The source response is stored unchanged at `current/reviews/2026-09-06-stage-1/CODEX-RESPONSE.md`.
+The user's question about installing thinking rules before design is retained in that review. S1 was guided by a temporary task contract, not an unguided baseline or an ablation experiment. S1A made the immediate reasoning discipline explicit and requested actual candidate texts rather than importing Research R01–R09.
 
-- Source SHA-256: `e7080daa54fadb6f5efce1f844b7c19e57097a65160cd78ce7b4838c1af36cc5`.
-- Git blob: `4f64d7a5178ad639c2052a0f144653971b947295`.
-- Source-preservation commit: `1a7cfb0e19e0b878614610c2b21af96b322a1073`.
-- Returned GitHub blob matched the blob calculated from the uploaded bytes. This verifies source-copy fidelity only.
+## S1A — response received
 
-### What Codex actually proposed
+- Task ID: `DEVOS-BOOTSTRAP-S1A-2026-09-06`.
+- Relay ref: `45a807ed3fe934c5aba19a840c953a3dee30669b`; brief blob `4eb655c6e67287ae21cde28bdbaec434f7e1a138`.
+- User supplied the returned answer as a new `Yapıştırılan markdown.md` attachment: `file_00000000b580820abc23d3af95bc942f`.
+- Source: `current/reviews/2026-09-06-stage-1a/CODEX-RESPONSE.md`.
+- 24,164 UTF-8 bytes; 417 lines; no final newline.
+- SHA-256: `a3247befbe5e5648d1bda6fb6a2a8f5bb69ed9fab574142916b0c6255773cf5e`.
+- Git blob: `7486c3c1034eec067186d1fdc3e5c2cadc61d52a`.
+- Preservation commit: `5596ee7cd9c50734016eaae5e6669cb58aa00579`; returned GitHub blob matched the upload-derived blob.
 
-Three persistent surfaces: `AGENTS.md`, `STATE.md`, and `work/<id>.md`; one writer by default; proportional assurance; research/decision/acceptance separation; accepted baseline B versus candidate C; a small context checker as possible first meaningful work; fresh-session and negative-scenario tests.
+This receipt supplies a user-relayed task result even though the previous STATE still said S1A READY TO SEND. It does not independently establish the full Codex task log or exact dispatch timestamp. Do not resend S1A because its original creation header says READY.
 
-Codex did not claim the files existed or that tests passed. It reported no file/repo/commit/branch/issue/PR changes. Local actions and complete source-reading coverage remain its reported observations; the research assistant did not inspect the full task log.
+### What S1A actually delivered
 
-## Stage-1 review outcome
+Full candidate AGENTS.md, STATE.md and work/BOOTSTRAP-001.md; a G0/C0/C1/review/acceptance/A sequence; one-writer and recording rules; T1–T4 conditions/expected outcomes/evidence; a proposed outside-candidate CLI reviewer path. Codex withdrew the permanent context-checker pilot and the claim that Issues inherently create competing authority. All file/test/acceptance fields were explicitly prospective. No installation or behavioral test was claimed.
 
-Review ID: `DEVOS-S1-REVIEW-2026-09-06`.
+Its local CLI-help and no-mutation claims are reports, not this assistant's independent runtime observations. Its research main-ref claim is consistent with this review's initial direct read of `45a807ed...`.
 
-**Direction supported for inspectable candidate drafting; no operational acceptance.** Do not misrepresent this as either a failed implementation or acceptance of a complete architecture.
+## S1A review — current judgment
 
-The response materially addresses the assigned conceptual design. Retain its small-start direction, proportionality, non-inheritance of old structures and evidence/authority distinctions. Exact three-file minimality and generally reliable agent behavior have not been demonstrated.
+Review ID: `DEVOS-S1A-REVIEW-2026-09-06`; record `current/reviews/2026-09-06-stage-1a/REVIEW.md`.
 
-Before installing or activating persistent controls, make four seams explicit in the candidate:
+**Ready to propose a bounded local experiment with one explicit recovery amendment; not operationally accepted.** No new broad S1B design pass is recommended.
 
-1. **Actual starter contract:** concrete decision behavior, not only a description of what AGENTS.md will contain.
-2. **Initial authority and acceptance:** B does not yet exist; distinguish drafting, bounded experimental use, technical evaluation, authorised acceptance and effective loading. Human approval is not technical verification.
-3. **Reviewer entry path:** opening candidate C may load its instructions; distinguish inspecting C as data from authorised behavioral testing under independently fixed criteria.
-4. **Writer/delegation/continuation:** scope the one-writer convention, next-work authority, recording of review results, unexpected changes and local-to-published evidence handoff.
+C1 actual contract and C2 initial authority are sufficiently specified for an experiment. C3 gives a concrete reviewer path with appropriately disclosed platform prerequisites; its real operation remains to be checked. C4 specifies ordinary handoff but literally requires a relinquishment record that a crashed writer may never produce.
 
-The context checker remains a pilot candidate, not a mandatory new subsystem. Compare it with existing Git commands; include a small research/decision case rather than treating a workspace checker as proof of reasoning autonomy.
+The one proposed AGENTS amendment allows recovery without that record only after the previous writer is observed stopped, actual state is inspected, and an existing authority permits a recorded reassignment. Silence/time alone is not stop evidence. G0 includes that exact amendment and a T3 missing-handoff variant. This is a static counterexample, not an observed product bug.
 
-The review is a source-grounded second assessment with documented limitations, not an independently executed Codex experiment. The reviewer also authored the initial task brief. Neither fresh-session behavior nor causal benefit of any proposed protocol has been measured.
+Additional execution conditions, not a new architecture programme:
 
-### Bootstrap-control sequencing concern
+- populate G0/live routing fields truthfully without fabricating operating acceptance;
+- explicitly map permitted experiment copies to source repository/C0 instead of treating their different paths as hidden misbinding;
+- check actual CLI model/auth/instruction and tool-effect boundaries; desktop selections and Cloud policies do not transfer automatically;
+- retain necessary evidence outside ephemeral session history;
+- freeze criteria before runs and preserve failures/blocked runs;
+- distinguish the limited source/devir pilot from general OS readiness.
 
-The user's question about installing thinking rules before Stage 1 remains important. The issued brief was a temporary task contract, not an unguided baseline. It contained reasoning constraints but did not establish a durable, behaviorally validated control layer.
+The full review contains source provenance, static checks, current official platform references and limitations. This assistant wrote the earlier briefs; the review is not wholly independent epistemic replication. No new Codex experiment was run here.
 
-S1A explicitly applies a short temporary reasoning discipline to its own design act and requests full candidate starter texts. It does not silently install the Research R01–R09 set, force a separate protocol directory or treat a no-protocol-directory choice as absence of reasoning discipline.
+## Current remote observation and remaining prerequisites
 
-## Current remote observation and remaining limits
+At S1A review on 2026-09-06, the target branch API still returned only `main` at `3776384a7789ccf1959b99bba92c8cf1b3131f81`, `protected: false`. The same historical commit has only `.gitkeep`. This is remote evidence only; uncommitted local state is not visible here.
 
-At this review on 2026-09-06, direct GitHub branch/tree reads again returned:
+Unestablished when needed: local candidate write/commit path and platform approval, fresh CLI startup with intended model and supported reasoning setting, read-only reviewer isolation across all relevant effect paths, source access in child sessions, actual instruction loading, behavioral test results, remote publication/CI and longer-term self-sustain.
 
-- only `main` in the `soul-development-os` branch listing;
-- HEAD `3776384a7789ccf1959b99bba92c8cf1b3131f81` and only `.gitkeep`;
-- branch metadata `protected: false`.
-
-This is bounded remote evidence, not proof that no local file changed or that all security settings are absent. No target-repository mutation was performed by this review.
-
-Still unestablished when relevant to implementation:
-
-- effective local permissions and terminal-network behavior;
-- Git write/push and PR publication;
-- CI and enforcement/bypass coverage;
-- independent reviewer startup/instruction isolation in this desktop environment;
-- actual loading and behavior of future control files;
-- governed self-development and fresh-session self-sustain.
-
-These do not require another exhaustive setup phase before read-only candidate drafting. They must not be falsely represented as already working.
+Not all prerequisites block local preparation. A failed startup must not be hidden with full-access bypass, credential copying, different-model fallback or fabricated tests. Report completed preparation and the precise blocked action.
 
 ## Next action
 
 ### Historical context line
 
-**STOP.** Do not broaden predecessor reconstruction without an authorised question or necessary source recovery.
+**STOP.** No broad predecessor reconstruction without a new authorised question or necessary source recovery.
 
 ### Current bootstrap bridge
 
-Prepared next task: **DEVOS-BOOTSTRAP-S1A-2026-09-06**, `current/briefs/CODEX-STAGE-1A-STARTER-CONTRACT.md`.
+Proposed task: **DEVOS-BOOTSTRAP-G0-2026-09-06**, `current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`.
 
-**Status:** READY TO SEND; no S1A dispatch or result observed.
+Initial G0 brief commit: `f12e502da0eca6c62df73508d2c5f6789a87f957`.
 
-Requested deliverable: full candidate starter-document texts in chat, a bounded initial authority/experiment/acceptance path, a reviewer entry path, one-writer/handoff semantics and a finite behavioral validation plan. Keep the small direction unless evidence justifies changing it; do not reopen broad research by default.
+**Status: READY FOR EXPLICIT USER ADOPTION. No G0 dispatch or acceptance is recorded.** The user's S1A attachment alone is not permission to edit the target repo or run local tests.
 
-The suggested assignment is read-only. No local/repository/control/config mutation, package installation, permission changes, push/PR/issue, actual behavioral experiment or SOUL product design/implementation is authorised by the brief's existence. It becomes a task only when the user sends/adopts it.
+If the user sends/adopts the pinned G0, requested work is one bounded local candidate/experiment: a local candidate branch, three documents with the stated amendment and truthful metadata, isolated sequential T1–T4, separate technical review, and a sanitised evidence package. The brief bounds effects, paths, model/auth handling, subprocess count/time and stop conditions.
 
-After receipt, assess whether the critical seams are resolved well enough for one explicitly authorised candidate implementation/experiment. Do not automatically start that phase. Do not generate endless further review because more detail is possible.
+No remote writes, main merge/advancement, production work, new credentials/paid infrastructure, permanent global permission changes, operating acceptance B0 or acceptance-record A are included. The initial main commit must not be treated as an accepted operating baseline.
 
-## Corpus and authority boundaries
+After Codex returns, inspect actual candidate/ref/diff, G0 provenance, loaded context, tests/evidence and reviewer limits. Obtain local artefacts from the user's relay/package when needed: this assistant cannot inspect unpublished local files through GitHub. Only then decide whether an operating-acceptance proposal, bounded repair or prerequisite correction is justified. Do not start broad automatic self-development merely because tests passed.
 
-- `repos/`: source ledgers.
-- `evidence/`: source-grounded historical context.
-- `current/`: bounded cross-project context and handoffs.
-- `current/briefs/`: versioned proposed/dispatched task definitions; progress is separate.
-- `current/reviews/`: user-relayed design responses and bounded bridge reviews; not Foundation findings or candidate studies.
-- `exploratory/`: early local/provisional ideas.
+## Corpus and boundaries
 
-Research remains authoritative for its research outputs. This package must not become duplicate Development OS state once that system owns canonical work. This review does not modify `AGENT.md`, `agent/**`, Foundation, the candidate-study catalog, predecessor SOUL or either new target repository.
+`repos/` holds ledgers; `evidence/` historical syntheses; `current/` cross-project context; `current/briefs/` versioned assignments; `current/reviews/` preserved responses and bounded reviews. They are not Foundation findings, candidate studies or this research assistant's control layer.
 
-## Bridge retirement condition
+The S1A review changes only these research-side continuity surfaces. It does not modify AGENT.md, agent/**, Foundation, studies, predecessor SOUL or either target repository. Old S1/S1A briefs and raw responses remain versioned evidence.
 
-Retire the bridge only after fresh Codex work demonstrates purpose/authority/state recovery, appropriate research and work selection, proportional assurance, evidence-backed results, interruption recovery, usable handoffs and governed control changes on meaningful normal and negative cases without permanent ChatGPT/Batu technical coordination.
+## Bridge retirement
 
-Documents existing, an approved idea, a model name or one successful checker does not establish that. Self-sustain is not unlimited authority or unattended 7/24 execution. Record any eventual transition and authoritative Development OS entrypoint rather than continuing to mirror its routine state here.
+Retire only after fresh Codex work demonstrates purpose/authority/state recovery, appropriate research/work selection, proportional assurance, evidence-backed outputs, interruption recovery, usable handoffs and governed change on meaningful normal and negative cases without permanent ChatGPT/Batu technical coordination.
+
+Three documents, a model label, a good design or one bounded experiment cannot establish unlimited autonomy or continuous unattended execution. Record an eventual transition and Development OS entrypoint rather than mirroring routine target state here.
