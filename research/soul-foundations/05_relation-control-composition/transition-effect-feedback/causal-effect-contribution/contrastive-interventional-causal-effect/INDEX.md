@@ -2,45 +2,54 @@
 
 ## Role
 
-Current router for the active Contrastive / Interventional Causal Effect Foundation child pass.
+Current router for the completed Contrastive / Interventional Causal Effect Foundation child pass.
 
-Read `STATE.md` first for authorization, phase and stop rule.
+Read `STATE.md` first for bounded result and current authorization.
 
 ## Current status
 
-**ACTIVE — I0 canonical/current evidence recovery.**
+**BOUNDED LEAF — USER EVALUATION PENDING. I0→I7 COMPLETE.**
+
+No substantive causal child is active from this package.
 
 ## Preferred read order
 
-1. `STATE.md` — protected question, authorization and guardrail.
-2. `PLAN.md` — falsification method and closure criteria.
-3. Accepted causal parent → `../STATE.md` → `KEY.md` → E6/E7 when parent split/boundary is material.
-4. Accepted Actual Causation sibling → `../actual-causal-contribution/STATE.md` → `KEY.md` → synthesis/A7.
-5. Parent residuals → `../OPEN-QUESTIONS.md`.
-6. Accepted Control and Composite Standing surfaces when causal-effectiveness/evidence-sufficiency boundaries are material.
-7. Candidate studies through catalog → selected META → targeted files only when load-bearing.
-8. I0–I7 artifacts as completed.
-9. `KEY.md`, `FINDINGS-MAP.md`, synthesis and `CURRENT-SURFACES.md` after closure.
+1. `STATE.md` — bounded result and current gate.
+2. `KEY.md` — shortest current orientation.
+3. `FINDINGS-MAP.md` — targeted result/evidence router.
+4. `synthesis/CONTRASTIVE-INTERVENTIONAL-CAUSAL-EFFECT-SYNTHESIS.md` — integrated result.
+5. `I7-ADVERSARIAL-CLOSURE.md` — final attack and sequencing result.
+6. `OPEN-QUESTIONS.md` — residual/reopen triggers; not an execution queue.
+7. I0–I6 only when detailed target/intervention/identification/transport logic is decision-critical.
+8. Parent → `../STATE.md` → `KEY.md` → E6/E7 when parent split is material.
+9. Accepted Actual Causation sibling → `../actual-causal-contribution/STATE.md` → `KEY.md` when actual-vs-contrastive boundary is material.
+10. `CURRENT-SURFACES.md` — exact freshness after closure manifest.
 
-## Research rule
-
-Do not collapse causal effect into association or observed improvement.
-
-Preserve at minimum:
+## Bounded result
 
 ```text
-contrast / comparator absent != causal effect identified
-association != causal effect
-before-after difference != intervention effect
-intended intervention != realized intervention
-average effect != individual effect
-local effect != transported effect
-no observed spillover != no interference
-control implemented != control causally effective
-actual episode cause != contrastive/interventional effect
-causal-effect evidence != evidence-sufficiency Standing
+Contrastive / Interventional Causal Effect
+    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← no immediate child promoted
 ```
+
+## Core rules
+
+```text
+association != causal effect
+intended/assigned intervention != realized/received intervention
+average effect != individual effect
+source/local effect != target effect
+no observed spillover != no interference
+causal target defined != identifiable/estimated
+Control implemented/complied-with != Control causally effective
+actual episode cause != contrastive/interventional effect
+```
+
+## Next-step orientation
+
+If user evaluation accepts this result, `Cross-Ground Feedback / Adaptation` is the strongest current next child and requires separate substantive activation.
 
 ## Guardrail
 
-No Feedback / Adaptation, architecture, ontology/data-model/schema or implementation work is active.
+Feedback / Adaptation, architecture, ontology/data-model/schema and implementation remain inactive.
