@@ -125,11 +125,11 @@ governed-effect / control-objective scope
 
 Therefore one blocked path does not prove the protected effect is controlled end-to-end.
 
-### Transition / Effect / Feedback — current bounded parent result under evaluation
+### Transition / Effect / Feedback — accepted bounded parent
 
-This pass did **not** close as a leaf.
+This region did **not** close as a leaf.
 
-Current structure:
+Accepted structure:
 
 ```text
 Transition / Effect / Feedback
@@ -145,17 +145,63 @@ ground-local dynamics
 != cross-ground Transition / Effect / Feedback
 ```
 
-#### Cross-Ground Transition / Propagation
+#### Cross-Ground Transition / Propagation — current bounded leaf under evaluation
 
-> What actually changed across ground boundaries, where/when did it become effective, and how fully did the change propagate?
+Core problem:
+
+> What exact change actually became real/effective across accepted-ground boundaries, for which anchors/scopes/times, and how fully did it propagate or fail to propagate?
+
+Current result:
 
 ```text
-change requested != change realized != change effective everywhere
-recorded event != actual occurrence
-occurrence time != observation time != effective time
+Cross-Ground Transition / Propagation
+    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← no immediate child promoted
 ```
 
-#### Cross-Ground Causal Effect / Contribution
+Key distinctions:
+
+```text
+requested / intended change
+!= realized change
+
+approved / committed / issued change
+!= incorporated / realized change
+
+local realization
+!= change effective across all applicable scope
+
+change realized
+!= change observed / recorded
+
+occurrence time
+!= observation time
+!= effective time everywhere
+
+propagation != data replication
+propagation episode exists != full-propagation Standing holds
+rollback != time reversal
+compensation != literal reversal
+transition/dependency sequence != causal proof
+```
+
+Important structural discovery:
+
+> A higher-level propagation episode can comprise several exact transition instances with different local owners, scopes, times and failure points; it need not be one monolithic event.
+
+Frame-blindness guardrail:
+
+```text
+all known targets updated
+!= all materially applicable targets known
+!= full propagation established
+```
+
+Profiles/dimensions include staged/delayed rollout, partial/heterogeneous propagation, continuous transition, supersession/conflict, rollback/compensation/reconciliation, stale-dependent pressure, residual effects and observation lag. These are not promoted children.
+
+External/cross-domain pressure used includes W3C PROV, OpenTelemetry, AWS/Google IAM propagation, NASA Configuration Management and institutional rule effective/compliance timing.
+
+#### Cross-Ground Causal Effect / Contribution — inactive
 
 > Which actions/events/conditions/controls/Work/Actor contributions caused, enabled, amplified, prevented, or failed to prevent/detect a realized cross-ground effect?
 
@@ -165,7 +211,9 @@ trigger != complete causal explanation
 one cause identified != complete causal model
 ```
 
-#### Cross-Ground Feedback / Adaptation
+If Transition / Propagation is accepted, this is the strongest current next child.
+
+#### Cross-Ground Feedback / Adaptation — inactive
 
 > Did observations/results return across ground boundaries to alter later behavior, and was the influence one-off or persistent?
 
@@ -176,14 +224,6 @@ feedback loop != learning/adaptation
 one-off response != persistent adaptation
 lesson recorded != learned system
 ```
-
-External/cross-domain pressure used includes W3C PROV, Lamport distributed ordering, OpenTelemetry event timing, AWS/Google IAM propagation, NASA/FAA/CDC causal analysis, NIST incident/monitoring/AI RMF, FAA SMS, WHO patient-safety learning and selected project candidate studies.
-
-Current sequencing recommendation if this parent result is accepted:
-
-> **Cross-Ground Transition / Propagation** first.
-
-Then re-select between Causal Effect/Contribution and Feedback/Adaptation rather than pre-fixing the full order.
 
 ---
 
@@ -200,10 +240,10 @@ Cross-Ground Composition                        ← accepted
     ├─ Relational Binding                       ← bounded leaf / accepted
     ├─ Composite Standing / Qualification       ← bounded leaf / accepted
     ├─ Control / Constraint                     ← bounded leaf / accepted
-    └─ Transition / Effect / Feedback           ← BOUNDED PARENT / USER EVALUATION PENDING
-       ├─ Cross-Ground Transition / Propagation     ← discovered / inactive
-       ├─ Cross-Ground Causal Effect / Contribution ← discovered / inactive
-       └─ Cross-Ground Feedback / Adaptation        ← discovered / inactive
+    └─ Transition / Effect / Feedback           ← bounded parent / accepted
+       ├─ Cross-Ground Transition / Propagation     ← BOUNDED LEAF / USER EVALUATION PENDING
+       ├─ Cross-Ground Causal Effect / Contribution ← recommended next if accepted / inactive
+       └─ Cross-Ground Feedback / Adaptation        ← inactive
 ```
 
 No substantive Foundation child is active at the current evaluation gate.
