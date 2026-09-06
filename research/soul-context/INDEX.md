@@ -42,6 +42,9 @@ Amaç: her yeni konuşmada tüm context corpus'unu yeniden tam okumadan, soruya 
 | Codex'e sırada hangi mesaj/görev verilecek? | prepared assignment is not execution or acceptance | **`STATE.md`** | named `current/briefs/` file; review target/authority before relay |
 | İlk üç-yüzey Development OS önerisi tam olarak neydi? | user-relayed Codex design candidate; not accepted | `current/reviews/2026-09-06-stage-1/CODEX-RESPONSE.md` | issued S1 brief; `STATE.md` for disposition |
 | S1 neden doğrudan kurulmadı; başlangıç düşünme sözleşmesi/B-C/tek yazıcı/test sorunları ne? | bounded review and proposed clarification; not runtime verification | `current/reviews/2026-09-06-stage-1/REVIEW.md` | original response, cited primary sources; current brief via `STATE.md` |
+| S1A'nın tam AGENTS/STATE/iş adayı, G0/C0/C1/A yolu ve T1–T4 önerisi neydi? | preserved user-relayed candidate; not installed controls | `current/reviews/2026-09-06-stage-1a/CODEX-RESPONSE.md` | same directory `REVIEW.md`; `STATE.md` for current disposition |
+| S1A için neden sınırlı deneme önerildi; kayıt bırakamayan yazıcı ve CLI kanıt sınırları ne? | bounded review and one proposed recovery amendment | `current/reviews/2026-09-06-stage-1a/REVIEW.md` | source response, official platform references |
+| G0 neye izin verecek; gerçekten verildi veya çalıştırıldı mı? | proposed bounded authorization is not a grant or result | **`STATE.md`** | `current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`; subsequent actual relay/evidence |
 | KEEL → SOUL tarihsel geçişi | direct evidence + bounded inference; source gap açık | `evidence/transition-to-soul.md` | `repos/os-architect/README.md`, `repos/soul/README.md` |
 | Eski workspace / KEEL failure dersleri | reconstructed source evidence | `repos/os-architect/README.md` | exact `os-architect` paths/SHAs |
 | KEEL'in hangi mekanizmaları gerçekten kod/test karşılığı taşıyor? | selective mechanical counter-read; fresh execution sınırlı | `repos/keel/README.md` | exact `keel` paths/SHAs |
@@ -56,6 +59,7 @@ Amaç: her yeni konuşmada tüm context corpus'unu yeniden tam okumadan, soruya 
 - `current/` hedef repo'nun current-state authority'sinin yerine geçmez; freshness/load-bearing durumda hedef repository'ye dön.
 - Kullanıcının aktardığı Codex/local sonuçları, research assistant'ın doğrudan GitHub gözlemleri ve çıkarımlar ayrı tutulur.
 - Bir yanıtın saklanan kopyasının hash eşleşmesi içerik doğruluğunu veya o ajanın bütün okuma/mutation beyanlarını doğrulamaz.
+- Aynı adlı ek dosyaları karıştırma: S1 ve S1A yanıtları ayrı tarihlendirilmiş review dizinlerinde, kendi blob/SHA-256 kimlikleriyle korunur.
 - Retrieval miss, source absence değildir.
 - Ledger'daki kısa özet kaynak gövdesinin yerine geçmez.
 - `exploratory/` içeriği eski repo bilgisinin bir parçası gibi sunulmaz.
