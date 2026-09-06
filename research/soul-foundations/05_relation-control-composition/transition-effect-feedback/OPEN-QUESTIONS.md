@@ -1,6 +1,6 @@
 # Transition / Effect / Feedback — Open Questions / Reopen Triggers
 
-**Status:** bounded residuals after accepted parent + completed Transition / Propagation child  
+**Status:** bounded residuals after accepted parent + accepted Transition / Propagation + completed Causal Effect parent research  
 **Date:** 2026-09-06  
 **Role:** residual uncertainty; NOT an automatic execution queue
 
@@ -8,14 +8,16 @@
 
 ```text
 Transition / Effect / Feedback                         ← accepted parent
-├─ Cross-Ground Transition / Propagation               ← bounded leaf / USER EVALUATION PENDING
-├─ Cross-Ground Causal Effect / Contribution           ← recommended next if accepted / inactive
+├─ Cross-Ground Transition / Propagation               ← accepted bounded leaf
+├─ Cross-Ground Causal Effect / Contribution           ← BOUNDED PARENT / USER EVALUATION PENDING
+│  ├─ Actual Causal Contribution / Episode Causation       ← discovered / inactive
+│  └─ Contrastive / Interventional Causal Effect            ← discovered / inactive
 └─ Cross-Ground Feedback / Adaptation                  ← inactive
 ```
 
-## Resolved parent questions delegated to Transition / Propagation result
+## Resolved Transition / Propagation questions
 
-Dedicated child research now covers:
+Dedicated child research covers:
 - universal minimum transition signature;
 - request/approval/record versus realization;
 - propagation as more than replication;
@@ -23,50 +25,76 @@ Dedicated child research now covers:
 - realized versus applicable scope;
 - partiality/divergence;
 - convergence as Standing-facing;
-- occurrence/effective/observation timing;
+- timing distinctions;
 - invalidation/currentness routing;
 - retry/rollback/compensation/reconciliation boundaries;
-- frame-blindness of propagation completeness.
+- propagation frame-blindness.
 
-Package-local residuals and reopen triggers live in:
+Package-local residuals: `transition-propagation/OPEN-QUESTIONS.md`.
 
-`transition-propagation/OPEN-QUESTIONS.md`
+## Resolved Causal parent questions
 
-## Remaining Causal Effect / Contribution questions
+Dedicated E0→E7 research now covers:
+- minimum causal-claim grammar;
+- causal-depth/proximate/enabling/prevention/detection/systemic role boundaries;
+- necessary/sufficient/contributing distinctions;
+- multiple sufficient causes / overdetermination;
+- omission/failure-to-prevent boundaries;
+- mechanism/intervention/counterfactual/statistical/investigative evidence pluralism;
+- association/confounding/competing explanations;
+- causal confidence versus evidence-sufficiency Standing;
+- Control causal-effectiveness boundary;
+- causal contribution versus Actor responsibility/accountability;
+- actual episode causation versus contrastive/interventional causal effect.
 
-1. What minimum causal claim vocabulary is Foundation-safe across interventionist, mechanistic, statistical and investigative traditions?
-2. How should causal confidence/competing explanations be preserved without turning the child into general epistemology?
-3. When are prevention/detection/control failures causal contributors versus separate control-assurance standings?
-4. How should causal attribution interact with Actor responsibility/accountability without collapsing physical causation into normative attribution?
-5. When is counterfactual reasoning necessary versus mechanism/temporal/contribution evidence sufficient for the domain decision?
-6. How should causal effect of Control be distinguished from mere presence/compliance?
-7. How should multiple sufficient/contributing causes be preserved without forcing one root cause?
+Package-local residuals: `causal-effect-contribution/OPEN-QUESTIONS.md`.
+
+## Current causal child residuals
+
+### Actual Causal Contribution / Episode Causation
+
+1. What minimum actual-cause structure survives deterministic, probabilistic, organizational and agentic incidents?
+2. How should overdetermination/multiple sufficient causes be preserved without selecting one universal causal formalism?
+3. When is but-for reasoning sufficient versus mechanism/causal-set reasoning?
+4. What constraints make omission/failure-to-prevent causally relevant rather than arbitrary absence?
+5. How should causal depth stop without either proximate-cause shallowness or infinite regression?
+6. How should episode causal evidence remain distinct from responsibility/accountability?
+
+### Contrastive / Interventional Causal Effect
+
+7. What minimum causal-contrast semantics are Foundation-safe without selecting one formalism?
+8. How should confounding/selection/information bias remain decision-visible without importing general statistics?
+9. How should effect heterogeneity, transportability and interference be bounded?
+10. How should intended versus realized intervention/fidelity be preserved?
+11. When does evaluation/fault-injection evidence generalize across version/environment/context?
+12. How should control risk-reduction effectiveness be separated from control assessment and effectiveness Standing?
 
 ## Remaining Feedback / Adaptation questions
 
-8. What exact threshold distinguishes a returned observation used once from a genuine feedback loop?
-9. What persistence threshold distinguishes repeated response from adaptation/evolution?
-10. Can adaptation be harmful/neutral/beneficial independently of whether it occurred, and where should that evaluation live?
-11. How should delayed feedback, oscillation, overshoot or stale feedback route between this child and ground-local dynamics?
-12. When does a new permanent eval/test/control count as system learning versus merely stored information until proven behavior-changing?
-13. Does reliable adaptation analysis require prior causal-effect research about which interventions actually changed outcomes?
+13. What exact threshold distinguishes returned observation used once from a genuine feedback loop?
+14. What persistence threshold distinguishes repeated response from adaptation/evolution?
+15. Can adaptation be harmful/neutral/beneficial independently of whether it occurred, and where should evaluation live?
+16. How should delayed/stale feedback, oscillation and overshoot route against ground-local dynamics?
+17. When does a permanent eval/test/control count as system learning rather than stored information until behavior changes?
+18. Does safe Feedback/Adaptation research require prior Actual Causation and/or Contrastive Causal Effect closure?
 
-## Parent / integration residuals
+## Parent/integration residuals
 
-14. Do Causal Effect and Feedback/Adaptation retain their promoted-child status after dedicated passes?
-15. Does deeper causal research force Causation to parent-sibling level?
-16. Does deeper Feedback research force Evolution into a separate composition region?
-17. Does a materially different non-agentic/non-software domain break the cross-ground routing test?
-18. Would independent second-researcher/model replication retain the same three-child decomposition and Propagation bounded-leaf result?
+19. Do the two causal children survive dedicated passes?
+20. Does deeper Actual Causation force a separate systemic-causation child?
+21. Does deeper Contrastive Causal Effect expose a separate causal-transport/generalization region?
+22. Does Feedback research force Evolution into a separate composition region?
+23. Does a materially different non-agentic/non-software domain break the Transition/Causal/Feedback routing?
+24. Would independent second-researcher/model replication retain the current structure?
 
 ## Parent reopen triggers
 
 Reopen the Transition parent if:
-- Transition / Propagation is rejected by user evaluation or later fails its ground-local boundary;
-- Causation cannot be bounded as a child without becoming a general relation/epistemology layer;
+- accepted Transition / Propagation later fails its ground-local boundary;
+- either causal promoted child cannot be bounded without becoming general epistemology/statistics or collapsing into another sibling;
+- Causation becomes independent of effect/change semantics and requires parent-sibling promotion;
 - Feedback/Adaptation cannot be bounded without duplicating Control, Work or Domain Dynamics;
-- one promoted child fails to produce distinct falsifiers/evidence/recovery Work;
-- Temporal Alignment, Observation, Evolution or another candidate develops an independent stable protected question;
+- Evolution or another candidate develops an independent stable protected question;
 - a child exposes a missing composition sibling or fifth Foundation ground;
 - cross-domain holdouts repeatedly require a materially stronger decomposition;
 - independent replication identifies a superior structure.
@@ -74,16 +102,15 @@ Reopen the Transition parent if:
 ## Non-reopen conditions
 
 Do not reopen merely because:
-- a domain uses event sourcing, state machines, process models or control loops;
-- a domain has many cause categories;
+- a domain uses different causal formalism;
 - one transition is continuous rather than discrete;
-- multiple time fields are needed;
+- one causal episode has many contributors;
+- one causal child uses randomized experiments and another mishap reconstruction;
 - feedback is delayed or nonlinear;
-- one system uses eventual consistency;
-- architecture later chooses message buses, telemetry platforms, policy distribution or learning systems.
+- later architecture chooses causal graphs, fault trees, event buses, policy distribution or learning systems.
 
 ## Current sequencing note
 
-If user evaluation accepts `Cross-Ground Transition / Propagation`, **Cross-Ground Causal Effect / Contribution** is the strongest next child and requires separate substantive activation.
+If user evaluation accepts `Cross-Ground Causal Effect / Contribution`, **Actual Causal Contribution / Episode Causation** is the strongest first causal child and requires separate substantive activation.
 
 No architecture, ontology/data-model/schema or implementation work is authorized by this note.
