@@ -1,84 +1,105 @@
 # Actual Causal Contribution / Episode Causation — STATE
 
-**Status:** ACTIVE FOUNDATION CHILD RESEARCH  
+**Status:** BOUNDED LEAF / AWAITING USER EVALUATION  
 **Activated:** 2026-09-06  
-**User authorization:** accepted `Cross-Ground Causal Effect / Contribution` parent and instructed continuation  
+**Closed for evaluation:** 2026-09-06  
 **Parent:** `Cross-Ground Causal Effect / Contribution` — bounded parent / user-evaluated / accepted 2026-09-06  
 **Sibling:** `Contrastive / Interventional Causal Effect` — discovered / inactive  
 **Transition sibling outside causal parent:** `Cross-Ground Feedback / Adaptation` — inactive  
-**Current phase:** A0 CANONICAL / EVIDENCE RECOVERY  
-**Current authorised substantive activity:** ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION CHILD PASS
+**Current phase:** A7 CLOSURE COMPLETE / USER EVALUATION GATE  
+**A0–A7:** COMPLETE  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION RESULT EVALUATION ONLY
 
 ## Protected question
 
 > For one exact realized cross-ground episode/effect, which actual events, conditions, omissions, controls, actions or interactions causally contributed to what occurred, through what episode-specific causal structure, at what decision-relevant depth, and with what uncertainty or competing explanations?
 
-## Critical routing boundaries
+## Bounded result
 
 ```text
-chronology / sequence
-!= actual episode causation
-
-plausible mechanism
-!= mechanism actually operated in this episode
-
-actual episode causal contribution
-!= contrastive/general causal effect
-
-causal contribution
-!= Actor responsibility / accountability
-
-control defect / noncompliance
-!= causal contribution to this effect by identity
+Actual Causal Contribution / Episode Causation
+    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← no immediate child promoted
+    ← effect-centered
+    ← configuration-sensitive
+    ← overlapping causal-role/depth/evidence profiles
 ```
 
-## Candidate pressure — probes only
-
-- exact explanandum / realized effect;
-- candidate actual contributors;
-- trigger / proximate mechanism;
-- enabling/contributing conditions;
-- prevention / detection / containment failures;
-- systemic/framing conditions;
-- necessary / sufficient / INUS-style contribution where useful;
-- joint causes / multiple sufficient sets / overdetermination;
-- omission / failure-to-prevent;
-- mitigating/preventive contribution;
-- mechanism and path evidence;
-- but-for / counterfactual tests where material;
-- competing episode explanations;
-- uncertainty / confidence;
-- causal depth stopping rule;
-- boundary to responsibility/accountability.
-
-None is an accepted child.
-
-## Research route
+## Stable semantic core
 
 ```text
-A0 canonical/current evidence recovery
-→ A1 minimum actual-cause claim signature
-→ A2 multiple causation / omission / depth discrimination
-→ A3 evidence / competing-explanation / confidence audit
-→ A4 rival internal decompositions
-→ A5 authoritative external + candidate-study holdouts
-→ A6 synthesis / immediate-child decision
-→ A7 adversarial closure / user-evaluation gate
+Actual episode-causal structure
+├─ exact episode / inquiry boundary
+├─ exact realized explanandum / effect
+├─ actual contributor instance(s)
+├─ causal role/polarity where material
+├─ joint / interaction / causal-set semantics where material
+├─ path / mechanism / dependency semantics where material
+├─ relevant context / scope / time
+├─ causal contrast / contingency where material
+├─ evidence kept separate from causal truth
+├─ competing explanations / unresolved contributors
+├─ calibrated confidence / completeness uncertainty
+└─ causal depth stopped by intervention/recurrence/control/decision value
 ```
 
-## Stop / depth rule
+## Strongest structural discovery
 
-Continue deeper only while another causal layer materially changes intervention choice, recurrence risk, control design, responsibility boundary or decision outcome.
+```text
+joint causal configuration
+!= collection of independent cause edges
+```
 
-If A6 discovers stable immediate children, do not activate them automatically. Return for user evaluation.
+Actual causal contribution can be configuration/set-relative; flattening joint/alternative sufficient structures can change the claim.
 
-If no stable split survives, close as a bounded leaf with reusable actual-episode causal grammar and overlapping analysis profiles.
+## Strongest non-collapse rules
+
+```text
+chronology != actual causation
+cause type capable of E != actual contributor in episode e
+joint causal set != independent cause edges
+could-have-caused != actually-caused
+but-for necessity != universal causal criterion
+cause of occurrence != cause of progression/severity/duration
+Control defect != actual causal contribution by identity
+systemic issue exists != systemic issue caused this episode
+omission causal relevance != duty/blame
+causal contribution != responsibility/accountability
+plausible mechanism != mechanism actually operated
+causal story supported != alternatives discriminated
+all observed contributors analyzed != causal explanation complete
+actual causal relation != evidence != evidence-sufficiency Standing
+actual episode cause != contrastive/interventional causal effect
+```
+
+## Profiles/dimensions — not children
+
+- direct/proximate;
+- enabling/contributing;
+- prevention failure;
+- detection/containment failure;
+- systemic/framing;
+- positive/omission;
+- promoting/mitigating;
+- necessary/sufficient/INUS-like;
+- individual/joint/redundant/preempted;
+- occurrence/progression/severity/duration;
+- path/mechanism/context/configuration;
+- evidence mode/confidence.
+
+## Next sequencing recommendation
+
+If the user accepts this result:
+
+> **Contrastive / Interventional Causal Effect** is the strongest current next child.
+
+It is not active.
+
+## Verification status
+
+A7 is same-model adversarial review. Source-grounded authoritative holdout conclusions were inherited from the accepted causal parent; fresh public-web retrieval failed technically during this child pass. No independent second-researcher/model replication validates this exact bounded-leaf synthesis.
 
 ## Guardrail
 
-Do not begin:
-- Contrastive / Interventional Causal Effect substantive research;
-- Cross-Ground Feedback / Adaptation substantive research;
-- architecture;
-- ontology/data-model/schema design;
-- implementation.
+Do not automatically begin Contrastive / Interventional Causal Effect, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
