@@ -2,19 +2,19 @@
 
 ## Role
 
-Current router for the completed Actual Causal Contribution / Episode Causation Foundation child pass.
+Current router for the accepted Actual Causal Contribution / Episode Causation Foundation child result.
 
 Read `STATE.md` first for bounded result and authorization.
 
 ## Current status
 
-**BOUNDED LEAF — USER EVALUATION PENDING. A0→A7 COMPLETE.**
+**BOUNDED LEAF — USER-EVALUATED / ACCEPTED. A0→A7 COMPLETE.**
 
 No substantive causal child is active from this package.
 
 ## Preferred read order
 
-1. `STATE.md` — bounded result and current gate.
+1. `STATE.md` — accepted bounded result and current guardrail.
 2. `KEY.md` — shortest current orientation.
 3. `FINDINGS-MAP.md` — targeted result/evidence router.
 4. `synthesis/ACTUAL-CAUSAL-CONTRIBUTION-SYNTHESIS.md` — integrated result.
@@ -23,13 +23,13 @@ No substantive causal child is active from this package.
 7. A0–A6 only when detailed evidence/signature/multiple-cause/evidence/rival/holdout/promotion logic is decision-critical.
 8. Parent → `../STATE.md` → `KEY.md` → E6/E7 when parent split is material.
 9. R06 causal-depth protocol when depth claims are material.
-10. `CURRENT-SURFACES.md` — exact freshness after closure manifest.
+10. `CURRENT-SURFACES.md` — exact freshness binding.
 
-## Bounded result
+## Accepted bounded result
 
 ```text
 Actual Causal Contribution / Episode Causation
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / USER-EVALUATED / ACCEPTED
     ← no immediate child promoted
 ```
 
@@ -49,7 +49,7 @@ actual episode cause != contrastive/interventional causal effect
 
 ## Next-step orientation
 
-If user evaluation accepts this result, `Contrastive / Interventional Causal Effect` is the strongest current next child and requires separate substantive activation.
+`Contrastive / Interventional Causal Effect` is the strongest current next child and requires separate substantive activation.
 
 ## Guardrail
 
