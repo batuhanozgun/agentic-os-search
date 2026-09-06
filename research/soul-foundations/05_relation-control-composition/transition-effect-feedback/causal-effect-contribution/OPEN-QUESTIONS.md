@@ -1,6 +1,6 @@
 # Cross-Ground Causal Effect / Contribution — Open Questions / Reopen Triggers
 
-**Status:** bounded residuals after accepted parent + accepted Actual Causation child  
+**Status:** bounded residuals after accepted parent + accepted Actual Causation + completed Contrastive Causal Effect research  
 **Date:** 2026-09-06  
 **Role:** residual uncertainty; NOT an automatic execution queue
 
@@ -9,54 +9,55 @@
 ```text
 Cross-Ground Causal Effect / Contribution        ← accepted bounded parent
 ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-└─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
+└─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
 ```
 
-## Accepted Actual Causation questions delegated to child package
+## Actual Causation questions delegated to accepted child
 
 Dedicated A0→A7 research covers:
 - minimum actual-cause grammar;
 - joint/configuration-sensitive causation;
 - multiple sufficient sets / overdetermination / preemption;
 - omission/failure-to-prevent relevance;
-- proximate/enabling/prevention/detection/systemic roles;
-- evidence/alternative discrimination;
-- causal frame-completeness uncertainty;
-- responsibility/Control/Standing boundaries;
-- causal-depth stopping rule.
+- causal depth / evidence / alternative discrimination;
+- responsibility/Control/Standing boundaries.
 
-Narrow residuals/reopen triggers live in:
+Narrow residuals: `actual-causal-contribution/OPEN-QUESTIONS.md`.
 
-`actual-causal-contribution/OPEN-QUESTIONS.md`
+## Contrastive Causal Effect questions now delegated to child package
 
-## Remaining Contrastive / Interventional Causal Effect questions
+Dedicated I0→I7 research covers:
+- minimum target-specific causal-contrast grammar;
+- exact outcome / comparator / target / applicability semantics;
+- intended/assigned versus realized intervention/fidelity;
+- bundled intervention/component-effect boundary;
+- confounding/selection/support as identification threats;
+- heterogeneity and average-to-individual boundary;
+- interference/spillover and system-regime semantics;
+- transportability/generalization as source→target evidence/invariance profile;
+- Control causal-effectiveness interface;
+- causal target versus identification/estimate/Standing boundary.
 
-1. What minimum causal-contrast semantics are Foundation-safe without selecting potential-outcome, SCM or decision-theoretic ontology?
-2. When must intervention/treatment realization/fidelity be separated from intended intervention?
-3. How should confounding, selection and information bias be preserved as threats without turning the child into general statistics?
-4. When do effect heterogeneity and transportability materially change reuse across Environment/context?
-5. How should interference/spillover between Actors/units be handled conceptually?
-6. Can causal effects be meaningful for non-manipulable exposures, and what contrast semantics are required?
-7. What distinguishes Control causal effectiveness from effectiveness Standing and control-assessment evidence?
-8. When does fault-injection/eval evidence generalize beyond one target/version/environment?
-9. How should average/general effects relate to individual/action-specific decisions without false group-to-individual inference?
-10. Does the child require its own split for intervention fidelity, heterogeneity or transportability?
+Narrow residuals/reopen triggers: `contrastive-interventional-causal-effect/OPEN-QUESTIONS.md`.
 
-## Parent/integration residuals
+## Remaining parent/integration residuals
 
-11. Does dedicated Contrastive / Interventional Causal Effect research preserve the accepted two-child causal parent?
-12. Does Feedback / Adaptation require both actual-cause and contrastive-effect semantics before safe closure?
-13. Can control effectiveness remain a composition of Control + causal child + Standing without a new region?
-14. Does deeper causal work ever force Causation to become a fifth composition sibling despite current effect-dependence?
-15. Would independent second-researcher/model replication retain the actual-vs-contrastive split and Actual Causation leaf?
+1. Does user evaluation accept the Contrastive bounded-leaf result?
+2. Does Feedback / Adaptation remain one coherent sibling after both causal children are bounded?
+3. Can beneficial/effective adaptation be represented as `adaptation occurrence + causal effect + Standing` without a new region?
+4. Can Control effectiveness remain a composition of Control + Contrastive Causal Effect + Standing across materially different domains?
+5. Does deeper Feedback work force Causation to become a fifth composition sibling despite current effect-dependence?
+6. Would independent second-researcher/model replication retain the actual-vs-contrastive split and both bounded leaves?
 
-## Parent reopen triggers
+## Strongest causal-parent reopen triggers
 
 Reopen `Cross-Ground Causal Effect / Contribution` if:
 - accepted Actual Causation later fails its configuration/explanandum boundary;
-- Contrastive Causal Effect collapses into accumulated actual episodes;
-- contrastive research exposes a stable third causal child such as Transport/Generalization;
-- causal confidence/alternatives cannot remain bounded without general epistemology;
+- Contrastive result is rejected or later collapses into accumulated actual episodes;
+- fresh transportability/generalization research exposes a stable third causal child;
+- interference cannot be represented inside target/regime contrast semantics;
+- causal confidence/identification cannot remain bounded without becoming general epistemology/statistics;
+- Feedback research exposes a missing causal-effect kind;
 - Causation ceases to depend on effect/change semantics;
 - independent replication identifies a stronger structure.
 
@@ -65,12 +66,15 @@ Reopen `Cross-Ground Causal Effect / Contribution` if:
 Do not reopen merely because:
 - a domain uses different causal formalisms;
 - actual episodes have many contributors;
-- one cause is probabilistic;
-- one contributor is systemic and enabling;
-- later architecture uses fault trees, Bayesian/causal graphs, STPA/CAST or statistical estimators.
+- one effect is heterogeneous or probabilistic;
+- one intervention has spillover/interference;
+- source and target contexts differ;
+- later architecture uses causal graphs, experiment platforms, Bayesian/fault-tree/STPA methods or statistical estimators.
 
 ## Current sequencing recommendation
 
-> **Contrastive / Interventional Causal Effect** is the strongest next child and requires separate substantive activation.
+If the user accepts `Contrastive / Interventional Causal Effect`:
+
+> **Cross-Ground Feedback / Adaptation** is the strongest next Transition child and requires separate substantive activation.
 
 No Feedback/Adaptation, architecture, ontology/data-model/schema or implementation work is authorized by this note.
