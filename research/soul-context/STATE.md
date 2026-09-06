@@ -46,24 +46,47 @@ It records, with explicit authority/epistemic limits:
 - the temporary ChatGPT↔Codex bootstrap responsibility split;
 - the self-sustain/bridge-retirement criteria;
 - current Codex environment/bootstrap observations and freshness warnings;
-- the completed Stage-0 capability preflight and current local working-copy blocker;
-- current staged bootstrap sequence and immediate next action;
+- the completed Stage-0 capability preflight and local working-copy binding requirement;
+- current staged bootstrap sequence;
 - explicit non-decisions so discussion does not silently become architecture.
+
+The latest bounded bridge checkpoint and next action are recorded below. The bridge note supplies rationale and stage conditions; it does not override newer observed checkpoints in this STATE.
 
 ## Current Stage-0 result
 
-Codex desktop preflight established that:
+The user-relayed Codex desktop preflight reported that:
 
 - Astra Ultra / `gpt-6-astra` + `ultra` was visible in runtime metadata;
 - web-tool research access works;
 - private `agentic-os-search` and `soul-production` can be read through the GitHub connector;
 - local development tools are broadly available;
 - terminal-network access is not generally established;
-- the desktop project's actual working directory is **not a Git checkout** of `soul-development-os`.
+- the tested desktop session's actual working directory was **not a Git checkout** of `soul-development-os`.
 
-Independent GitHub inspection confirmed that remote `batuhanozgun/soul-development-os` is initialized on `main` at commit `3776384a7789ccf1959b99bba92c8cf1b3131f81` and contains only `.gitkeep`.
+These local/runtime observations were reported by Codex, not independently executed on the user's Mac by the research assistant.
 
-Therefore the current blocker is source binding, not absence of a remote repository.
+Independent GitHub inspection confirmed that remote `batuhanozgun/soul-development-os` was initialized on `main` at commit `3776384a7789ccf1959b99bba92c8cf1b3131f81` and contained only `.gitkeep` at inspection time. Initial-file provenance is separately qualified in the bridge note.
+
+Therefore the identified blocker was source binding, not absence of a remote repository.
+
+## Stage-0B checkpoint — clone reported successful; project binding pending
+
+On 2026-09-06 the user pasted output from their ordinary macOS Terminal for cloning `batuhanozgun/soul-development-os` into:
+
+`/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo`
+
+The supplied output shows `Cloning into ...`, successful enumeration and receipt of three Git objects, `Receiving objects: 100% (3/3), done.`, and return to the shell prompt without a clone failure. This supports **clone success as user-supplied terminal evidence**, not an independently inspected local working copy.
+
+A preceding `command not found: compdef` line is also present. Its cause has not been diagnosed; the supplied output does not show it preventing the clone. No shell-configuration repair is currently required or authorised by this checkpoint.
+
+Remaining unknowns:
+
+- whether the Codex project's primary source folder has been changed to this clone;
+- whether a new Codex chat actually starts in that working copy;
+- the local `origin`, branch, HEAD and working-tree status from inside that new chat;
+- Codex's own terminal-network access and Git push permissions, which are not proved by the user's ordinary Terminal clone.
+
+Do not repeat cloning or delete/reinitialize directories merely because Codex binding has not yet been checked. Stage 0B remains open until the in-Codex read-only check succeeds. No Development OS design or implementation has begun on the strength of this clone report.
 
 ## Corpus ayrımı
 
@@ -104,18 +127,20 @@ Do not autonomously broaden predecessor/context research unless the user authori
 
 ### Current bootstrap bridge
 
-As of 2026-09-06, the current next bridge action is:
+As of this 2026-09-06 checkpoint, cloning is reported complete. The next bridge action is:
 
-> bind the Codex desktop `SOUL-Development-OS` project to an **actual local Git checkout** of `batuhanozgun/soul-development-os`, then run a minimal read-only Git binding recheck before any Development OS design begins.
+> select `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo` as the Codex desktop project's primary local source folder, open a new chat in that project, and run a minimal read-only Git binding recheck before any Development OS design begins.
 
-Required recheck:
+Required recheck from the new chat's default working directory:
 
-- `git rev-parse --show-toplevel` succeeds;
-- `git remote -v` identifies the intended repository;
+- `pwd` and `git rev-parse --show-toplevel` identify the intended working copy;
+- `git remote get-url origin` identifies the intended repository, with any embedded credentials redacted;
 - current branch/ref is visible;
 - HEAD/working-tree state is known and consistent with or explicitly behind remote `main`.
 
-After this binding is correct, Stage-1 Development OS bootstrap problem research/design may begin.
+Do not silently change directories to make a misbound chat pass this check. A mismatch is a binding failure to report, not permission to run `git init`, re-clone, move/delete files or broaden permissions.
+
+After this binding is correct, the next separately bounded assignment may address Stage-1 Development OS bootstrap problem research/design. The read-only recheck itself must stop after reporting.
 
 ## Bridge retirement condition
 
