@@ -1,61 +1,70 @@
 # Transition / Effect / Feedback — STATE
 
-**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL EFFECT / CONTRIBUTION ACTIVE  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL EFFECT / CONTRIBUTION BOUNDED PARENT / AWAITING USER EVALUATION  
 **Parent accepted:** 2026-09-06  
 **Parent:** `Cross-Ground Composition` — accepted  
 **Prior composition children:** Relational Binding, Composite Standing, Control / Constraint — accepted bounded leaves  
 **Cross-Ground Transition / Propagation:** bounded leaf / user-evaluated / accepted 2026-09-06  
-**Cross-Ground Causal Effect / Contribution:** ACTIVE — E0  
+**Cross-Ground Causal Effect / Contribution:** bounded parent result / USER EVALUATION PENDING  
 **Cross-Ground Feedback / Adaptation:** discovered / inactive  
-**Current authorised substantive activity:** CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION CHILD PASS
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION PARENT RESULT EVALUATION ONLY
 
-## Accepted parent structure
+## Current accepted/discovered structure
 
 ```text
 Transition / Effect / Feedback
 ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
-├─ Cross-Ground Causal Effect / Contribution    ← ACTIVE — E0
+├─ Cross-Ground Causal Effect / Contribution    ← BOUNDED PARENT / USER EVALUATION PENDING
+│  ├─ Actual Causal Contribution / Episode Causation       ← discovered / inactive
+│  └─ Contrastive / Interventional Causal Effect            ← discovered / inactive
 └─ Cross-Ground Feedback / Adaptation           ← discovered / inactive
 ```
 
-## Accepted prerequisite
+## Current Causal result
 
-`transition-propagation/` establishes exact realized effect/change identity, scope and timing before causal explanation is attempted.
+Canonical package:
 
-Key prerequisite:
+`causal-effect-contribution/`
+
+Current bounded judgment:
+
+> Cross-Ground Causal Effect / Contribution is coherent and bounded as a causal parent but is not a leaf. Two distinct causal questions survive: actual episode causation and contrastive/interventional causal effect.
+
+Critical distinction:
 
 ```text
-transition/dependency sequence
-!= causal proof
+What would X do to Y?
+!=
+Did X cause this observed Y?
 ```
 
-## Active Causal protected question
-
-> For an exact realized cross-ground effect or transition, which actions/events/conditions/controls/Work/Actor contributions actually caused, enabled, amplified, prevented, or failed to prevent/detect that effect; at what causal depth and with what evidential confidence?
-
-Strong initial non-collapse:
+Strong non-collapse:
 
 ```text
-A before B != A caused B
+sequence / association != causation
 trigger != complete causal explanation
 proximate cause != complete causal explanation
 one cause identified != complete causal model
-causal contribution != Actor responsibility / accountability
-control present / complied-with != control causally effective
+causal contribution != responsibility/accountability
+control presence/compliance != causal effectiveness
+actual episode cause != contrastive/interventional causal effect
 ```
 
-## Current sequencing
+## Current sequencing recommendation
 
-Causal Effect / Contribution is the only active Transition child. Feedback / Adaptation must not begin automatically.
+If the user accepts the Causal parent result:
 
-After causal closure, re-select whether Feedback / Adaptation is next and whether any parent reopen is needed.
+> **Actual Causal Contribution / Episode Causation** is the strongest first causal child.
+
+Do not pre-fix the order after that pass. Re-select Contrastive/Interventional Causal Effect versus Feedback/Adaptation based on exposed dependencies.
 
 ## Verification status
 
-Transition parent T7 and Transition/Propagation P7 remain same-model adversarial reviews. User acceptance closes their evaluation gates but does not create independent replication.
+Causal E7 is same-model adversarial review. External authoritative and scholarly holdouts pressure the result but do not independently validate the exact two-child synthesis.
 
 ## Current authorization
 
-**CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION CHILD PASS TO BOUNDED CLOSURE.**
+**CAUSAL EFFECT / CONTRIBUTION PARENT RESULT EVALUATION ONLY.**
 
-Do not begin Feedback/Adaptation, architecture, ontology/data-model/schema work or implementation.
+Do not automatically begin causal immediate-child research, Feedback/Adaptation, architecture, ontology/data-model/schema work or implementation.
