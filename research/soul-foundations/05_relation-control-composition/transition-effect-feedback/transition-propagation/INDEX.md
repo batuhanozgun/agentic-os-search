@@ -2,57 +2,54 @@
 
 ## Role
 
-Current router for the active Cross-Ground Transition / Propagation Foundation child pass.
+Current router for the completed Cross-Ground Transition / Propagation Foundation child pass.
 
-Read `STATE.md` first for authorization, phase and stop rule.
+Read `STATE.md` first for bounded result, verification status and current authorization.
 
 ## Current status
 
-**ACTIVE — P0 canonical/current evidence recovery.**
+**BOUNDED LEAF / AWAITING USER EVALUATION.**
+
+No substantive composition child is active from this package.
 
 ## Preferred read order
 
-1. `STATE.md` — protected question, authorization and guardrail.
-2. `PLAN.md` — falsification method and closure criteria.
-3. Accepted parent result → `../STATE.md` → `KEY.md` → T6/T7 when promotion/boundary logic is material.
-4. Parent propagation residuals → `../OPEN-QUESTIONS.md` and `../T3-TEMPORAL-PROPAGATION-INVALIDATION.md`.
-5. Accepted prerequisites when needed:
-   - `../../relational-binding/STATE.md`;
-   - `../../composite-standing/STATE.md`;
-   - `../../control-constraint/STATE.md`.
-6. Ground-local dynamics/current surfaces only for boundary tests.
-7. Candidate studies → `../../../../studies/CATALOG.md` → selected `META.md` → deeper files only when load-bearing.
-8. P0–P7 artifacts as completed.
-9. `KEY.md`, `FINDINGS-MAP.md`, synthesis and `CURRENT-SURFACES.md` after closure.
+1. `STATE.md` — bounded result and current gate.
+2. `KEY.md` — shortest current orientation.
+3. `FINDINGS-MAP.md` — targeted result/evidence router.
+4. `synthesis/TRANSITION-PROPAGATION-SYNTHESIS.md` — integrated result.
+5. `P7-ADVERSARIAL-CLOSURE.md` — final attack and sequencing result.
+6. `OPEN-QUESTIONS.md` — residual/reopen triggers; not an execution queue.
+7. P0–P6 only when evidence recovery, signature derivation, propagation discrimination, recovery/invalidation boundary, rival decompositions, external holdouts or child-decision logic is decision-critical.
+8. `CURRENT-SURFACES.md` — exact current-surface binding after closure.
 
-## Research rule
-
-Do not infer a universal transition lifecycle from one software/distributed-system example.
-
-Preserve at minimum:
+## Bounded result
 
 ```text
-requested / intended change
-!= realized change
-!= change effective across all relevant scope
-!= observed/reported change
+Cross-Ground Transition / Propagation
+    ← bounded leaf / USER EVALUATION PENDING
+    ← no immediate child promoted
 ```
 
-Also preserve:
+## Critical routing rule
 
 ```text
-dependency changed
-→ prior standing/control may require re-evaluation
-!= prior standing/control automatically flips
+ground-local dynamics
+!= cross-ground Transition / Propagation
 ```
 
-and:
+Use this child only when exact realized change/propagation semantics irreducibly span accepted grounds or Binding/Standing/Control composition.
 
-```text
-rollback/compensation/reconciliation Work
-!= successful restoration/convergence by identity
-```
+## Strongest new structural result
+
+A propagation episode can comprise multiple exact transition instances with different scopes/times/failure points; do not flatten the entire episode into one event.
+
+## Next-step orientation
+
+If user evaluation accepts this result, **Cross-Ground Causal Effect / Contribution** is the strongest current next sibling.
+
+It is not active.
 
 ## Guardrail
 
-No Causal Effect/Contribution, Feedback/Adaptation, architecture, ontology/data-model/schema or implementation work is active.
+Current interaction is Transition / Propagation result evaluation only. Causal Effect/Contribution, Feedback/Adaptation, architecture, ontology/data-model/schema design and implementation remain unauthorized.
