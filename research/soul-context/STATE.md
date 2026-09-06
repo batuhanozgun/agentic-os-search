@@ -2,7 +2,7 @@
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; CURRENT DEVELOPMENT-BOOTSTRAP BRIDGE MAINTENANCE ACTIVE  
 **Son güncelleme:** 2026-09-06  
-**Bridge checkpoint:** STAGE 0B COMPLETE FOR BOUNDED CONTINUATION; STAGE-1 DESIGN BRIEF READY TO SEND / NO CODEX DESIGN RESULT RECEIVED
+**Bridge checkpoint:** STAGE 0B COMPLETE FOR BOUNDED CONTINUATION; STAGE-1 BRIEF SENT BY USER / NO CODEX DESIGN RESULT RECEIVED
 
 ## Yetkilendirilmiş amaç
 
@@ -38,11 +38,13 @@ Bounded context and rationale:
 
 - `current/DEVELOPMENT-OS-BOOTSTRAP.md`
 
-Prepared next Codex task:
+Issued task brief (dispatch reported by user):
 
 - `current/briefs/CODEX-STAGE-1-BOOTSTRAP-DESIGN.md`
 - Brief ID: `DEVOS-BOOTSTRAP-S1-2026-09-06`
 - Initial brief commit: `63a84a3979531ee664d3c29593c365756aa500e0`
+- Ref specified in the relay prompt: `bfe58e7bde8ec9ef58e46fab5c04a7720e207407`
+- Brief blob at that ref: `83f09e8622e2f2706f56e63ea53143b3af3da30a`
 
 The context note preserves repository topology, clean-restart rationale, desired Development Actor character, the temporary ChatGPT↔Codex arrangement, staged bootstrap conditions and explicit non-decisions.
 
@@ -104,6 +106,23 @@ Still not established:
 
 These are relevant future design/implementation conditions, not reasons to repeat the now-satisfied binding gate. Do not infer write authority from successful reads, or apply Cloud settings to the local desktop session.
 
+## Stage-1 dispatch and bootstrap-control question
+
+On 2026-09-06 the user explicitly confirmed sending the Stage-1 relay prompt: **“Tamam. Verdim.”** This is user-reported dispatch; the research assistant has not inspected a Codex task log, confirmed the brief was loaded, or received the design result.
+
+The user then asked whether Codex should first have received a project `AGENTS.md`, reasoning protocols or other guidance, and whether the current task was intentionally testing its base behavior.
+
+Relevant distinctions recovered from the dispatched brief:
+
+- It already supplies task-specific purpose, source-reading requirements, uncertainty/evidence distinctions, permission to challenge the proposed framing, constraints against premature architecture adoption, and a read-only return condition.
+- Some desired reasoning practices are phrased as questions for the future system's design rather than explicit procedures to apply during the current design act. The brief therefore must not be equated with a complete installed reasoning/control system.
+- No durable project-specific Codex control layer has been established or behaviorally validated by this bridge. The existing platform/user instructions are not assumed absent.
+- No controlled baseline/ablation experiment was specified. A response to this guided brief is not an unguided baseline and cannot establish the causal benefit of future protocols.
+
+**Open review issue:** distinguish the temporary contract governing bootstrap design from the durable, automatically recoverable control structure the design proposes. Assess the minimum starter control and its loading/behavioral tests before authorising persistent operational changes or wider autonomy. This is a review concern, not an accepted directory structure, protocol set or new implementation assignment.
+
+The user's question does not cancel the dispatched read-only task, approve a Codex/control-file mutation or expand its authority. The sent brief remains unchanged at its pinned ref. Do not silently replace its instructions while treating the result as if it used the original version.
+
 ## Corpus ayrımı
 
 - `repos/` — source ledgers.
@@ -128,11 +147,11 @@ All material here is project-work. This turn does not modify `AGENT.md` or `agen
 
 ### Current bootstrap bridge
 
-Send the prepared `DEVOS-BOOTSTRAP-S1-2026-09-06` brief to Codex in the correctly bound desktop project.
+Receive and review the result of the user-dispatched `DEVOS-BOOTSTRAP-S1-2026-09-06` task. Do not ask the user to send the same brief again merely because its creation-time header says READY TO SEND.
 
-**Requested next deliverable:** a source-grounded design proposal for the minimum working Development OS bootstrap, including a finite implementation plan, validation approach, authority boundaries and explicit deferrals.
+**Requested deliverable:** a source-grounded design proposal for the minimum working Development OS bootstrap, including a finite implementation plan, validation approach, authority boundaries and explicit deferrals.
 
-**Not yet observed:** task dispatch, a Codex design result, accepted design, implementation, GitHub write/PR success or self-sustain testing. Brief readiness is not task completion.
+**Not yet observed:** a Codex design result, accepted design, implementation, GitHub write/PR success or self-sustain testing. User-reported dispatch is not task completion or proof of correct instruction loading.
 
 For this assignment:
 
@@ -142,7 +161,7 @@ For this assignment:
 - no automatic import of old SOUL roles/workflows or this research agent's control files;
 - Codex returns its proposal, evidence and uncertainties, then stops.
 
-After the result is relayed, review its source coverage, assumptions, minimum complexity, acceptance criteria and actual platform feasibility. Do not automatically approve or implement it. Unresolved write/CI capabilities must be addressed when the selected implementation needs them, rather than asserted to work.
+After the result is relayed, review its source coverage, assumptions, minimum complexity, acceptance criteria and actual platform feasibility, including the bootstrap-control sequencing concern above. Do not automatically approve or implement it. Unresolved write/CI capabilities must be addressed when the selected implementation needs them, rather than asserted to work.
 
 ## Bridge retirement condition
 
