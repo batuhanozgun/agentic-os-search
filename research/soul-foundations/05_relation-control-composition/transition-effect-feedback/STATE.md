@@ -1,15 +1,15 @@
 # Transition / Effect / Feedback — STATE
 
-**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT ACTIVE  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT BOUNDED LEAF / AWAITING USER EVALUATION  
 **Parent accepted:** 2026-09-06  
 **Parent:** `Cross-Ground Composition` — accepted  
 **Cross-Ground Transition / Propagation:** accepted bounded leaf  
 **Cross-Ground Causal Effect / Contribution:** accepted bounded parent  
 **Actual Causal Contribution / Episode Causation:** accepted bounded leaf  
-**Contrastive / Interventional Causal Effect:** ACTIVE / I0  
-**Cross-Ground Feedback / Adaptation:** inactive  
-**Current authorised substantive activity:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT CHILD PASS  
-**Current authorised interaction:** ACTIVE FOUNDATION RESEARCH
+**Contrastive / Interventional Causal Effect:** bounded leaf / USER EVALUATION PENDING  
+**Cross-Ground Feedback / Adaptation:** recommended next if Contrastive accepted / inactive  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT RESULT EVALUATION ONLY
 
 ## Current structure
 
@@ -18,20 +18,29 @@ Transition / Effect / Feedback                         ← accepted parent
 ├─ Cross-Ground Transition / Propagation               ← accepted bounded leaf
 ├─ Cross-Ground Causal Effect / Contribution           ← accepted bounded parent
 │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-│  └─ Contrastive / Interventional Causal Effect            ← ACTIVE / I0
-└─ Cross-Ground Feedback / Adaptation                  ← inactive
+│  └─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
+└─ Cross-Ground Feedback / Adaptation                  ← recommended next if accepted / inactive
 ```
 
-## Active causal distinction
+## Current Contrastive result
 
 ```text
-Did X cause this observed Y?
-!=
-How would Y differ under X versus X'?
+causal effect identity
+= outcome + target + X vs X' + applicability frame
+
+intended/assigned intervention != realized/received intervention
+source/local effect != target effect
+causal target defined != identifiable/estimated
 ```
 
-The first is accepted Actual Causation; the second is the active child.
+## Current sequencing recommendation
+
+If the user accepts the current leaf:
+
+> **Cross-Ground Feedback / Adaptation** should be the next substantive child.
+
+This recommendation does not activate it.
 
 ## Guardrail
 
-Do not begin Feedback / Adaptation, architecture, ontology/data-model/schema or implementation while the active child pass is running.
+Do not automatically begin Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
