@@ -1,65 +1,53 @@
 # Cross-Ground Causal Effect / Contribution — STATE
 
-**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT ACTIVE  
 **Parent accepted:** 2026-09-06  
 **Parent:** `Transition / Effect / Feedback` — accepted bounded parent  
 **Accepted prerequisite sibling:** Cross-Ground Transition / Propagation — accepted bounded leaf  
 **Actual Causal Contribution / Episode Causation:** bounded leaf / user-evaluated / accepted 2026-09-06  
-**Contrastive / Interventional Causal Effect:** recommended next / inactive  
+**Contrastive / Interventional Causal Effect:** ACTIVE / I0 CANONICAL-EVIDENCE RECOVERY  
 **Cross-Ground Feedback / Adaptation:** inactive  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT CAUSAL CHILD SELECTION / PLANNING ONLY
+**Current authorised substantive activity:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT CHILD PASS  
+**Current authorised interaction:** ACTIVE FOUNDATION RESEARCH
 
 ## Accepted parent structure
 
 ```text
 Cross-Ground Causal Effect / Contribution        ← accepted bounded parent
 ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-└─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
+└─ Contrastive / Interventional Causal Effect            ← ACTIVE / I0
 ```
 
 ## Accepted Actual Causation result
 
-Canonical package:
-
-`actual-causal-contribution/`
-
-Accepted bounded judgment:
-
-> Actual Causal Contribution / Episode Causation is a bounded leaf with one effect-centered, configuration-sensitive causal grammar and no promoted immediate child.
-
-Strongest structural discovery:
-
 ```text
-joint causal configuration
-!= collection of independent cause edges
-```
-
-Strongest non-collapse:
-
-```text
+joint causal configuration != collection of independent cause edges
 chronology != actual causation
-cause type capable of E != actual contributor in episode e
-could-have-caused != actually-caused
 but-for necessity != universal causal criterion
-Control defect != actual causal contribution by identity
-omission causal relevance != duty/blame
 causal contribution != responsibility/accountability
-causal story supported != alternatives discriminated
 all observed contributors analyzed != causal explanation complete
-actual episode cause != contrastive/interventional causal effect
 ```
 
-## Sequencing result
+## Active protected question
 
-> **Contrastive / Interventional Causal Effect** is the strongest current next child.
+> For a defined outcome/effect, how would that outcome differ under one exact alternative state/action/exposure/intervention versus another for the relevant unit/population/context, under what causal assumptions, scope and time, and with what limits on generalization?
 
-This is not active and requires separate substantive activation.
+## Active boundaries
+
+```text
+association != causal effect
+intended intervention != realized intervention
+actual episode cause != contrastive/interventional causal effect
+average effect != individual effect
+local effect != transported/generalized effect
+Control presence/compliance != causal effectiveness
+causal-effect evidence != sufficient-evidence Standing
+```
 
 ## Verification status
 
-Actual Causation A7 is same-model adversarial review. Authoritative holdout conclusions were inherited from the parent; fresh public-web retrieval failed technically during that pass. No independent second-researcher/model replication validates the exact leaf result.
+Accepted parent and Actual Causation closures are same-model adversarial reviews with source-grounded external pressure; no independent second-researcher/model replication validates the exact hierarchy.
 
 ## Guardrail
 
-Do not automatically begin Contrastive / Interventional Causal Effect, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
+Do not begin Feedback / Adaptation, architecture, ontology/data-model/schema or implementation while this child pass is active.
