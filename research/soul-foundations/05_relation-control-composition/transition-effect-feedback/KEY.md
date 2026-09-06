@@ -1,19 +1,21 @@
 # Transition / Effect / Feedback — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** parent accepted; Transition / Propagation bounded leaf / awaiting user evaluation  
+**Status:** parent accepted; Transition / Propagation accepted; Causal Effect / Contribution bounded parent / awaiting user evaluation  
 **Date:** 2026-09-06
 
-## Accepted parent structure
+## Current structure
 
 ```text
 Transition / Effect / Feedback
-├─ Cross-Ground Transition / Propagation        ← bounded leaf / USER EVALUATION PENDING
-├─ Cross-Ground Causal Effect / Contribution    ← recommended next if accepted / inactive
+├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
+├─ Cross-Ground Causal Effect / Contribution    ← BOUNDED PARENT / USER EVALUATION PENDING
+│  ├─ Actual Causal Contribution / Episode Causation       ← discovered / inactive
+│  └─ Contrastive / Interventional Causal Effect            ← discovered / inactive
 └─ Cross-Ground Feedback / Adaptation           ← inactive
 ```
 
-The parent is accepted and is **not a leaf**.
+The Transition parent is accepted and is **not a leaf**.
 
 ## Parent routing boundary
 
@@ -22,74 +24,84 @@ ground-local dynamics
 != cross-ground Transition / Effect / Feedback
 ```
 
-## Current child result — Cross-Ground Transition / Propagation
+## Accepted Transition / Propagation
 
-Protected question:
+Core question:
 
 > What exact change actually became real/effective across accepted-ground boundaries, for which anchors/scopes/times, and how fully did it propagate or fail to propagate?
 
-Result:
-
-```text
-Cross-Ground Transition / Propagation
-    ← bounded leaf
-    ← no immediate child promoted
-```
+Accepted result: bounded leaf, no immediate child.
 
 Strongest structural discovery:
 
-> Propagation can be a higher-level episode composed of multiple exact transition instances with different local owners, scopes, times and failure points.
+> A propagation episode can comprise multiple exact transition instances with distinct scopes/times/failure points.
 
-Strongest non-collapse:
+## Current Causal Effect / Contribution result
 
-```text
-requested / intended change
-!= realized change
+The causal child did **not** close as a leaf.
 
-approved / committed / issued change
-!= incorporated / realized change
-
-local realization
-!= change effective across all applicable scope
-
-change realized
-!= change observed / recorded
-
-occurrence time
-!= observation time
-!= effective time everywhere
-
-propagation != data replication
-propagation episode exists != full-propagation Standing holds
-rollback != time reversal
-compensation != literal reversal
-transition/dependency sequence != causal proof
-```
-
-Frame-blindness guardrail:
+Current bounded structure:
 
 ```text
-all known targets updated
-!= all materially applicable targets known
-!= full propagation established
+Cross-Ground Causal Effect / Contribution
+├─ Actual Causal Contribution / Episode Causation
+└─ Contrastive / Interventional Causal Effect
 ```
 
-## Remaining child questions
+Critical distinction:
 
-### Cross-Ground Causal Effect / Contribution
-Why did the realized effect occur; what caused/enabled/amplified/prevented or failed to prevent/detect it?
+```text
+What would X do to Y?
+!=
+Did X cause this observed Y?
+```
+
+### Actual Causal Contribution / Episode Causation
+
+> In this exact realized episode/effect, which actual events, conditions, omissions, controls, actions or interactions causally contributed to what occurred?
+
+### Contrastive / Interventional Causal Effect
+
+> How would outcome/effect Y differ under a defined alternative state/action/exposure/intervention X versus X', for the relevant unit/population/context?
+
+## Strong causal non-collapse
+
+```text
+sequence / association != causation
+trigger != complete causal explanation
+proximate cause != complete causal explanation
+one cause identified != complete causal model
+necessary != sufficient
+causal contribution != responsibility/accountability
+control presence/compliance != causal effectiveness
+actual episode cause != contrastive/interventional causal effect
+causal relation != causal evidence != sufficient-evidence Standing
+```
+
+## Causal-depth roles — profiles, not children
+
+- proximate/direct;
+- enabling/contributing;
+- prevention failure;
+- detection/containment failure;
+- systemic/framing;
+- omission/failure-to-prevent;
+- necessary/sufficient/contributing properties.
+
+## Remaining sibling
 
 ### Cross-Ground Feedback / Adaptation
-Did observations/results return to alter later behavior, and did the influence become a persistent system change?
+
+> Did observations/results return across ground boundaries to alter later behavior, and did that influence become persistent system change?
 
 ## Current sequencing recommendation
 
-If user evaluation accepts Transition / Propagation:
+If user evaluation accepts the Causal parent result:
 
-> **Cross-Ground Causal Effect / Contribution** should be the next child.
+> **Actual Causal Contribution / Episode Causation** should be the first immediate causal-child pass.
 
-Do not pre-commit Feedback/Adaptation activation; re-select after Causal closure if that child is accepted.
+Do not pre-commit the order after that child; re-select Contrastive/Interventional Effect versus Feedback/Adaptation.
 
 ## Verification boundary
 
-Transition parent T7 and Transition/Propagation P7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact decomposition or leaf result.
+Transition T7, Transition/Propagation P7 and Causal E7 are same-model adversarial reviews. External sources pressure individual distinctions but no independent second-researcher/model replication validates the exact project hierarchy.
