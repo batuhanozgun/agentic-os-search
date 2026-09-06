@@ -8,15 +8,16 @@ This file defines the **research-library classes and retrieval routes** used by 
 
 ## Research classes
 
-### 1. `soul-context/` — bounded project-context reconstruction
+### 1. `soul-context/` — bounded project-context reconstruction and current cross-project continuity
 
 Purpose:
 
 - recover why SOUL Research exists;
 - preserve source-grounded historical/current context from predecessor/current repositories;
+- preserve bounded current cross-project transition context when SOUL Research, Development OS and Production responsibilities materially change;
 - keep that context independent of chat memory.
 
-This is **not** the candidate studies library, not Foundation research, not architecture authority and not project-wide research methodology.
+This is **not** the candidate studies library, not Foundation research, not architecture authority, not Development OS current-state authority and not project-wide research methodology.
 
 Start with:
 
@@ -63,7 +64,7 @@ For creation/maintenance rules:
 
 A new durable research package belongs under `research/studies/<slug>/` when it is neither:
 
-- bounded SOUL project-context reconstruction (`soul-context`), nor
+- bounded SOUL project-context reconstruction/current transition context (`soul-context`), nor
 - current first-principles Foundation research (`soul-foundations`).
 
 Do not classify a study as "external" merely because it uses external sources. Classification is based on the **research object**:
@@ -77,6 +78,7 @@ Do not classify a study as "external" merely because it uses external sources. C
 | Need | Read first | Then if needed |
 |---|---|---|
 | Why this project exists / predecessor context | `soul-context/INDEX.md` | relevant evidence / source ledger |
+| Current SOUL Development OS bootstrap, repo topology, ChatGPT↔Codex bridge or research→development boundary | `soul-context/INDEX.md` | `soul-context/current/DEVELOPMENT-OS-BOOTSTRAP.md` → current target-repository state when load-bearing |
 | Current Foundation status / authorization | `soul-foundations/STATE.md` | `soul-foundations/INDEX.md` → active node package |
 | Find prior candidate research relevant to a problem | `studies/CATALOG.md` | relevant package `META.md` → `STATE.md` / `INDEX.md` / findings |
 | Understand candidate-library semantics | `studies/INDEX.md` | `studies/PACKAGE-CONTRACT.md` |
@@ -85,11 +87,12 @@ Do not classify a study as "external" merely because it uses external sources. C
 
 ## Authority boundaries
 
-- `soul-context` explains project context; it does not define the final system.
+- `soul-context` explains project context and bounded cross-project transition state; it does not define the final system or replace the current state of `soul-development-os` / `soul-production`.
 - `soul-foundations` is the active foundational research authority for the ground/hierarchy it studies; it is not automatically architecture.
 - `studies` contains candidate research inputs. A study can be technically strong and still have **no authority** to mutate Foundation, architecture, ontology, implementation or agent-control.
 - Study relevance to Foundation areas is a retrieval relation, not taxonomy membership.
 - Current design/implementation authorization must be recovered from the relevant current project state; study completion never grants it.
+- Cross-project continuity notes must reference target-repository truth rather than becoming duplicate current-state authorities once the target repository has a reliable canonical state surface.
 
 ## Growth model
 
@@ -115,6 +118,7 @@ Preserve these distinctions:
 - candidate-study finding;
 - external-source observation;
 - cross-study inference;
+- current operational/context note;
 - reuse hypothesis;
 - candidate design/architecture decision;
 - accepted design/architecture decision;
