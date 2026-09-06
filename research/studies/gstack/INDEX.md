@@ -2,28 +2,51 @@
 
 ## Role
 
-Retrieval router for the durable `garrytan/gstack` external-target study.
+Retrieval router for the bounded `garrytan/gstack` external-target study.
 
-Read `STATE.md` first for current progress/authorization, `META.md` for epistemic boundary, and `SOURCE-LEDGER.md` for detailed source coverage.
+## Study status
 
-## Current study target
+**BOUNDEDLY COMPLETE / CLOSED.**
 
-`garrytan/gstack@0d1bd5616c0ef096bb7ccee336f63c60ee408618`  
-Observed 2026-09-05; package version 1.79.0.
+Primary pinned target:
 
-## Current phase
+`garrytan/gstack@0d1bd5616c0ef096bb7ccee336f63c60ee408618` (`v1.79.0.0` context)
 
-- **Layer 1 / native subsystems:** CLOSED — 11 bounded syntheses.
-- **Layer 2 / cross-system composition:** CLOSED — `syntheses/cross-system-composition.md`.
-- **Layer 3 / Foundation four-ground projection:** **NEXT**.
+Freshness revalidated on 2026-09-06 through:
+
+`garrytan/gstack@c24121663732644c56280474a1720475dbe53127` (`v1.80.0.0`)
+
+No Foundation mutation or SOUL / Development OS architecture decision was made by this study.
+
+## Start here
+
+```text
+Need the study result quickly?
+→ CORE.md
+
+Need scope / authority / freshness?
+→ META.md
+
+Need closure/current work state?
+→ STATE.md
+
+Need source/read provenance?
+→ SOURCE-LEDGER.md
+
+Need current-main delta?
+→ revalidation/2026-09-06-v1.80.0.md
+```
 
 ## Read routes
 
 | Need | Read first | Then |
 |---|---|---|
-| Current progress / next work | `STATE.md` | relevant synthesis / source ledger |
-| Scope / authority / freshness | `META.md` | `METHOD.md` |
-| Detailed source coverage | `SOURCE-LEDGER.md` | pinned upstream source |
+| Compact whole-study model | `CORE.md` | cross-system → mechanisms → source ledger |
+| Scope / authority / reuse boundary | `META.md` | `STATE.md` |
+| Closure / current-next Work | `STATE.md` | `META.md` |
+| Method / evidence discipline | `METHOD.md` | `SOURCE-LEDGER.md` |
+| Source/read/freshness coverage | `SOURCE-LEDGER.md` | relevant synthesis → upstream source |
+| v1.79 → v1.80 freshness delta | `revalidation/2026-09-06-v1.80.0.md` | changed current source |
 | Planning / work admission | `syntheses/planning-specification-work-admission.md` | ledger → sources |
 | Review / QA / ship | `syntheses/review-qa-ship-delivery-qualification.md` | ledger → sources |
 | Browser runtime / security / evidence | `syntheses/browser-runtime-security-evidence.md` | ledger → sources |
@@ -35,8 +58,43 @@ Observed 2026-09-05; package version 1.79.0.
 | Deploy / Canary / production feedback | `syntheses/deploy-canary-production-retrospective-feedback.md` | ledger → sources |
 | Testing / eval / routing / compliance | `syntheses/testing-eval-routing-compliance-flake-lifecycle.md` | ledger → sources |
 | Self-development / generation / upgrade / release | `syntheses/repository-self-development-generation-upgrade-release.md` | ledger → sources |
-| Whole native system | `syntheses/cross-system-composition.md` | subsystem syntheses → sources |
-| Four-ground projection | not yet produced | **current next layer** |
+| Whole native system composition | `syntheses/cross-system-composition.md` | subsystem syntheses |
+| Four-ground comparison | `syntheses/four-ground-projection.md` | Foundation source if decision-critical |
+| Cross-ground mechanism model | `syntheses/cross-ground-mechanisms.md` | cross-system + four-ground projection |
+
+## Synthesis ladder
+
+```text
+pinned source corpus
+        ↓
+11 native subsystem syntheses
+        ↓
+cross-system composition
+        ↓
+four-ground projection
+        ↓
+cross-ground mechanisms
+        ↓
+CORE.md
+```
+
+Evidence provenance is a graph even though retrieval is hierarchical. Higher layers never replace source re-entry.
+
+## Compact result
+
+> **gstack is an artifact-mediated, qualification-driven software-development operating system that repeatedly binds the current situation, forms evidence, computes standing, resolves authority/control, performs a bounded effect, reads back what actually became true, invalidates stale representations, and continues/recover/adapts from the new state.**
+
+Core loop:
+
+```text
+SITUATE
+→ KNOW
+→ QUALIFY
+→ GOVERN
+→ ACT
+→ VERIFY REALITY
+→ REFRESH / RECOVER / LEARN
+```
 
 ## Native subsystem set
 
@@ -52,70 +110,59 @@ Observed 2026-09-05; package version 1.79.0.
 10. Testing / eval / routing / compliance / flake lifecycle
 11. Repository self-development / generation / upgrade / release
 
-## Cross-system composition result
+## Cross-system result
 
-The current gstack-native model is:
+The system is better modeled as a **federation of partial state machines** connected through durable artifacts, typed standings, authority/control relations, runtime capabilities/effects and explicit readback/freshness semantics than as one global workflow engine.
 
-> **an artifact-mediated, qualification-driven software-development operating system whose control plane repeatedly turns heterogeneous evidence and authority into bounded state transitions across repositories, agents, runtime tools, hosts and production surfaces.**
-
-It is a federation of partial state machines rather than one global workflow engine.
-
-### Core planes
+Recurring protected non-collapses include:
 
 ```text
-WORK / EFFECT PATH
-intent → admitted work → implementation → delivery → production → feedback
-
-AUTHORITY / CONTROL PLANE
-user decisions → delegation → capabilities → one-way doors → release authority
-
-EVIDENCE / REPRESENTATION PLANE
-source → tests → runtime observations → reports → aggregates → standings
-
-RUNTIME / ENVIRONMENT PLANE
-repo/worktree → host/process/filesystem → browser/network → external systems → production
-
-SELF-DEVELOPMENT PLANE
-failure → source change → generation/install → eval → release → stronger controls
+can act != may act
+record says X != X is currently true
+workflow completed != target condition achieved
+green job != intended oracle executed
+source HEAD advanced != install materialized
+revert pushed != production restored
 ```
 
-### Core native mechanisms
+A recurring defect class is qualification loss at representation/handoff seams.
 
-admission; representation/handoff; qualification; authority; capability/effect boundary; verification/observation; aggregation; transition; freshness/invalidation; continuity; feedback; adaptation/self-development.
+## Four-ground result
 
-These remain native abstractions, not Foundation categories.
+The study supplies bounded candidate evidence across all four accepted Foundation grounds:
 
-## Synthesis ladder
+- Information / Representation;
+- Work;
+- Actors / Agency–Participation–Authority;
+- Environment / Operating Reality.
 
-```text
-pinned source
-→ native subsystem syntheses               ✓
-→ cross-system composition synthesis       ✓
-→ four-ground projection                   ← NEXT
-→ neutral cross-ground mechanism synthesis
-→ compact gstack core model
-```
+It also pressure-tests accepted composition distinctions such as Binding, Composite Standing / Qualification, Control / Constraint and Transition / Effect / Feedback.
 
-Higher synthesis never removes source re-entry.
+This is **comparison/pressure-test evidence only**, not Foundation adoption.
 
-## Immediate next route — Foundation projection
+## Freshness result
 
-Before projecting, re-read current canonical Foundation state and the accepted boundaries for Information, Work, Actors and Environment. Foundation changed during this external study; do not project from stale summaries.
+The pinned snapshot was one release behind observed current main at closure.
 
-Then ask:
+v1.80 did **not** invalidate the core model. It:
 
-1. **Information:** what informational state, representation, transformation, selection/exposure, provenance/freshness and evidence machinery does gstack realize?
-2. **Work:** how are pursuits admitted, organized, sequenced/parallelized, qualified, completed/deferred and distinguished from their representations/evidence?
-3. **Actors:** which persistent parties/roles/agents carry participation, authority, obligation, attribution and responsibility; how are delegation/capability/collective roles realized?
-4. **Environment:** what domain/work conditions, resources, runtime surfaces, constraints, dynamics and external state make or limit work?
-5. **Cross-ground:** which native mechanisms bind these grounds operationally without being forced into one ground?
+- repaired the specific `/freeze` `GSTACK_HOME` state-root fail-open defect;
+- strengthened fail-closed hook behavior;
+- made Chromium bootstrap best-effort/bounded so setup completion can coexist with unavailable browser capability;
+- introduced stronger provenance-bound installer mutation authority;
+- fixed a telemetry cross-session status-transition error;
+- added environment-sensitive test-harness hardening.
+
+Representative protected negative findings remained unchanged by blob identity or complete changed-file inventory.
+
+See the revalidation file before making current-main claims.
 
 ## Guardrails
 
-- Foundation projection is comparison/retrieval, not automatic adoption.
-- Do not force a native mechanism into exactly one ground when it is relational.
-- Preserve counterexamples and qualification-loss seams.
-- Keep authority, capability, evidence and effect distinct.
-- Keep current standing separate from historical artifact/ceremony existence.
-- Do not mutate Foundation from this study.
-- Do not silently substitute current gstack HEAD for the pinned snapshot.
+- Treat the pinned revision as the primary research source.
+- Do not silently merge current-main behavior into pinned syntheses.
+- Do not treat a generated/documented behavior as runtime proof without corresponding evidence.
+- Do not turn first-party CI or cross-model review into independent verification by label.
+- Do not force every mechanism into exactly one Foundation ground.
+- Do not mutate Foundation or start architecture/implementation from study completion alone.
+- If current gstack beyond `c2412166...` matters, revalidate before load-bearing reuse.
