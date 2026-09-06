@@ -196,20 +196,41 @@ all observed contributors analyzed != causal explanation complete
 
 The leaf is effect-centered and configuration-sensitive. Joint causes, alternative sufficient routes, overdetermination, preemption, omission/failure-to-prevent, systemic contributors and control/barrier failures remain overlapping causal profiles rather than child regions.
 
-##### Contrastive / Interventional Causal Effect — recommended next / inactive
+##### Contrastive / Interventional Causal Effect — bounded leaf / user evaluation pending
 
-> How would outcome/effect Y differ under a defined alternative state/action/exposure/intervention X versus X', for the relevant unit/population/context?
+> For a defined target, how would outcome/effect Y differ under exact regime/state/action/exposure X versus comparator X', under the relevant context/time/version, and with what limits on causal identification and generalization?
+
+Current bounded result:
 
 ```text
-association != causal effect
-before/after difference != intervention effectiveness
-actual episode cause != contrastive/interventional causal effect
-control presence/compliance != causal risk-reduction effectiveness
+Contrastive / Interventional Causal Effect
+    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← no immediate child promoted
 ```
 
-This child is not active.
+Key rules:
 
-#### Cross-Ground Feedback / Adaptation — inactive
+```text
+"X works" != well-formed causal-effect claim
+association != causal effect
+before/after difference != causal effect
+intended/assigned intervention != realized/received intervention
+bundle effect != component effect
+average effect != individual effect
+source/local effect != target effect
+no observed spillover != no interference
+causal target defined != identifiable != estimated != decision-sufficient
+Control present/implemented/complied-with != Control causally effective
+actual episode cause != contrastive/interventional causal effect
+```
+
+The causal-effect target is defined by outcome + target + focal regime + comparator + applicability frame, with intervention versions/fidelity/interference/aggregation/generalization semantics preserved when materially necessary.
+
+Transportability/Generalization remains a major profile and strongest reopen trigger, not a promoted immediate child at current depth.
+
+Fresh public-web retrieval failed during the dedicated I0→I7 pass; the child reused source-grounded parent external conclusions and current Anthropic/gstack candidate pressure. No fresh dedicated transportability/interference literature review is claimed.
+
+#### Cross-Ground Feedback / Adaptation — recommended next if Contrastive accepted / inactive
 
 > Did observations/results return across ground boundaries to alter later behavior, and did that influence become persistent system change?
 
@@ -220,6 +241,15 @@ feedback loop != learning/adaptation
 one-off response != persistent adaptation
 lesson recorded != learned system
 ```
+
+With both causal children bounded, Feedback can later distinguish:
+
+```text
+adaptation occurred
+!= adaptation causally improved target outcomes
+```
+
+without using before/after change as causal proof.
 
 ---
 
@@ -240,8 +270,8 @@ Cross-Ground Composition                        ← accepted
        ├─ Cross-Ground Transition / Propagation     ← accepted bounded leaf
        ├─ Cross-Ground Causal Effect / Contribution ← accepted bounded parent
        │  ├─ Actual Causal Contribution / Episode Causation    ← accepted bounded leaf
-       │  └─ Contrastive / Interventional Causal Effect         ← recommended next / inactive
-       └─ Cross-Ground Feedback / Adaptation        ← inactive
+       │  └─ Contrastive / Interventional Causal Effect         ← BOUNDED LEAF / USER EVALUATION PENDING
+       └─ Cross-Ground Feedback / Adaptation        ← recommended next if accepted / inactive
 ```
 
 No substantive Foundation child is active.
