@@ -2,7 +2,7 @@
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; CURRENT DEVELOPMENT-BOOTSTRAP BRIDGE MAINTENANCE ACTIVE  
 **Son güncelleme:** 2026-09-06  
-**Bridge checkpoint:** S1A RESPONSE RECEIVED / BOUNDED REVIEW COMPLETE; G0 LOCAL EXPERIMENT BRIEF READY FOR USER ADOPTION; NO G0 DISPATCH, INSTALLATION, TEST OR OPERATING-ACCEPTANCE EVIDENCE RECEIVED
+**Bridge checkpoint:** S1A RESPONSE RECEIVED / BOUNDED REVIEW COMPLETE; G0 RELAY ANNOUNCED BY USER; NO G0 INSTALLATION, TEST OR OPERATING-ACCEPTANCE EVIDENCE RECEIVED
 
 ## Yetkilendirilmiş amaç
 
@@ -23,7 +23,7 @@ This does not reopen broad historical context research or make this package the 
 - S1 response and review: `current/reviews/2026-09-06-stage-1/`.
 - S1A task: `current/briefs/CODEX-STAGE-1A-STARTER-CONTRACT.md`.
 - S1A response and review: **`current/reviews/2026-09-06-stage-1a/`**.
-- Proposed next assignment: **`current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`**.
+- G0 assignment selected for user relay: **`current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`**; relay status and pinned identity below.
 
 A prepared brief, reported dispatch, a returned response, review support, experimental authorization, operating acceptance and implemented behavior are separate. Once `soul-development-os` has a reliable canonical work surface, recover actual development work there rather than mirroring it here.
 
@@ -134,13 +134,17 @@ Not all prerequisites block local preparation. A failed startup must not be hidd
 
 ### Current bootstrap bridge
 
-Proposed task: **DEVOS-BOOTSTRAP-G0-2026-09-06**, `current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`.
+Task selected for relay: **DEVOS-BOOTSTRAP-G0-2026-09-06**, `current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`.
 
-Initial G0 brief commit: `f12e502da0eca6c62df73508d2c5f6789a87f957`.
+- Initial G0 brief commit: `f12e502da0eca6c62df73508d2c5f6789a87f957`.
+- Ref specified in the relay prompt: `76ac566d994ddcadf8d26edc65cc2f77fb530602`.
+- Brief blob at that ref: `ffe265bce5248ef3dbb3383369678be0f6cfb322`.
 
-**Status: READY FOR EXPLICIT USER ADOPTION. No G0 dispatch or acceptance is recorded.** The user's S1A attachment alone is not permission to edit the target repo or run local tests.
+**Status: USER-ANNOUNCED RELAY / AWAITING CODEX REPORT.** On 2026-09-06, after asking how repository research informed the task and receiving the explanation, the user stated: “Anladım. mesajını iletiyorum codex'e bu durumda.” This records the user's decision/announcement to forward the existing G0 message. It is not independent confirmation that Codex received or loaded the brief, started execution, created files or ran tests.
 
-If the user sends/adopts the pinned G0, requested work is one bounded local candidate/experiment: a local candidate branch, three documents with the stated amendment and truthful metadata, isolated sequential T1–T4, separate technical review, and a sanitised evidence package. The brief bounds effects, paths, model/auth handling, subprocess count/time and stop conditions.
+The existing pinned G0 message remains the assignment; do not rewrite its scope or ask for duplicate dispatch merely because the brief's creation-time header says READY. No additional task or permission expansion is introduced by this checkpoint. The research-side next responsibility is to receive and review the Codex result/evidence package or a specific permission/blocker report.
+
+Under the G0 message when relayed/adopted, the requested work remains one bounded local candidate/experiment: a local candidate branch, three documents with the stated amendment and truthful metadata, isolated sequential T1–T4, separate technical review, and a sanitised evidence package. The brief bounds effects, paths, model/auth handling, subprocess count/time and stop conditions.
 
 No remote writes, main merge/advancement, production work, new credentials/paid infrastructure, permanent global permission changes, operating acceptance B0 or acceptance-record A are included. The initial main commit must not be treated as an accepted operating baseline.
 
