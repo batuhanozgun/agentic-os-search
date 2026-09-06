@@ -1,13 +1,13 @@
 # Relation / Control / Composition — STATE
 
-**Status:** PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; TRANSITION PARENT ACCEPTED; TRANSITION / PROPAGATION CHILD ACTIVE  
-**Parent user evaluation:** ACCEPTED 2026-09-05  
-**Relational Binding:** bounded leaf / user-evaluated / accepted 2026-09-05  
-**Composite Standing / Qualification:** bounded leaf / user-evaluated / accepted 2026-09-05  
-**Control / Constraint:** bounded leaf / user-evaluated / accepted 2026-09-05  
+**Status:** PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; TRANSITION PARENT ACCEPTED; TRANSITION / PROPAGATION BOUNDED LEAF / AWAITING USER EVALUATION  
+**Relational Binding:** bounded leaf / accepted  
+**Composite Standing / Qualification:** bounded leaf / accepted  
+**Control / Constraint:** bounded leaf / accepted  
 **Transition / Effect / Feedback:** bounded parent / user-evaluated / accepted 2026-09-06  
-**Current authorised substantive activity:** CROSS-GROUND TRANSITION / PROPAGATION CHILD PASS  
-**Current phase:** `transition-effect-feedback/transition-propagation/` — P0 ACTIVE
+**Cross-Ground Transition / Propagation:** bounded leaf / USER EVALUATION PENDING  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** CROSS-GROUND TRANSITION / PROPAGATION RESULT EVALUATION ONLY
 
 ## Current composition structure
 
@@ -17,55 +17,56 @@ Cross-Ground Composition
 ├─ Composite Standing / Qualification ← bounded leaf / accepted
 ├─ Control / Constraint                ← bounded leaf / accepted
 └─ Transition / Effect / Feedback      ← bounded parent / accepted
-   ├─ Cross-Ground Transition / Propagation        ← ACTIVE / P0
-   ├─ Cross-Ground Causal Effect / Contribution    ← discovered / inactive
-   └─ Cross-Ground Feedback / Adaptation           ← discovered / inactive
+   ├─ Cross-Ground Transition / Propagation        ← BOUNDED LEAF / USER EVALUATION PENDING
+   ├─ Cross-Ground Causal Effect / Contribution    ← recommended next if accepted / inactive
+   └─ Cross-Ground Feedback / Adaptation           ← inactive
 ```
 
-## Accepted Transition parent result
-
-Canonical package:
-
-`transition-effect-feedback/`
-
-Accepted bounded judgment:
-
-> Transition / Effect / Feedback is a coherent cross-ground parent, not a leaf. Three immediate diagnostic children survive.
-
-Critical boundary:
-
-```text
-ground-local dynamics != cross-ground Transition / Effect / Feedback
-```
-
-## Active child
+## Current Transition / Propagation result
 
 Canonical package:
 
 `transition-effect-feedback/transition-propagation/`
 
-Protected question:
+Current bounded judgment:
 
-> What actually changed/unfolded across ground boundaries, at what exact anchors/scopes/times, and how fully did the change propagate or fail to propagate?
+> Cross-Ground Transition / Propagation has no promoted immediate child at current Foundation depth. It preserves exact realized change, realized scope/time and typed propagation/dependency semantics while separating request/approval/record, global completeness, observation, recovery Work and causal explanation.
 
-Inherited non-collapse:
+Strongest non-collapse:
 
 ```text
-change requested != change realized != change effective everywhere
-recorded event != actual occurrence
-occurrence time != observation time != effective time
+requested / approved / committed / recorded change
+!= realized change
+!= change effective across all applicable scope
+!= observed / verified realization
 ```
 
-## Sequencing rule
+Strongest structural discovery:
 
-Only Cross-Ground Transition / Propagation is active.
+> Propagation can be a higher-level episode composed of several exact transition instances rather than one monolithic event.
 
-Re-select Causal Effect/Contribution versus Feedback/Adaptation only after this child closes and is evaluated.
+Frame-blindness guardrail:
+
+```text
+all known targets updated
+!= all materially applicable targets known
+!= full propagation established
+```
+
+## Sequencing result
+
+If the user accepts this result:
+
+> **Cross-Ground Causal Effect / Contribution** is the strongest current next sibling.
+
+This is not active.
 
 ## Verification status
 
-Parent C7, Binding B7, Standing S7, Control K7 and Transition T7 are same-model adversarial reviews. User acceptance does not create independent replication.
+Transition/Propagation P7 is same-model adversarial review with authoritative external holdout pressure. No independent second-researcher/model replication validates this exact bounded-leaf result.
 
-## Guardrail
+## Current authorization
+
+**CROSS-GROUND TRANSITION / PROPAGATION RESULT EVALUATION ONLY.**
 
 Do not automatically begin Causal Effect/Contribution, Feedback/Adaptation, architecture, ontology/data-model/schema work or implementation.
