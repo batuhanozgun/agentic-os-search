@@ -1,92 +1,61 @@
 # Transition / Effect / Feedback — STATE
 
-**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL EFFECT / CONTRIBUTION ACTIVE  
 **Parent accepted:** 2026-09-06  
 **Parent:** `Cross-Ground Composition` — accepted  
 **Prior composition children:** Relational Binding, Composite Standing, Control / Constraint — accepted bounded leaves  
-**Cross-Ground Transition / Propagation:** bounded leaf / USER EVALUATION PENDING  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** CROSS-GROUND TRANSITION / PROPAGATION RESULT EVALUATION ONLY
+**Cross-Ground Transition / Propagation:** bounded leaf / user-evaluated / accepted 2026-09-06  
+**Cross-Ground Causal Effect / Contribution:** ACTIVE — E0  
+**Cross-Ground Feedback / Adaptation:** discovered / inactive  
+**Current authorised substantive activity:** CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION CHILD PASS
 
 ## Accepted parent structure
 
 ```text
 Transition / Effect / Feedback
-├─ Cross-Ground Transition / Propagation        ← BOUNDED LEAF / USER EVALUATION PENDING
-├─ Cross-Ground Causal Effect / Contribution    ← discovered / inactive
+├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
+├─ Cross-Ground Causal Effect / Contribution    ← ACTIVE — E0
 └─ Cross-Ground Feedback / Adaptation           ← discovered / inactive
 ```
 
-## Current Transition / Propagation result
+## Accepted prerequisite
 
-Canonical package:
+`transition-propagation/` establishes exact realized effect/change identity, scope and timing before causal explanation is attempted.
 
-`transition-propagation/`
-
-Current bounded judgment:
-
-> Cross-Ground Transition / Propagation is a bounded leaf for realized cross-ground change, exact realized scope/time and propagation semantics. No immediate child is promoted.
-
-Critical routing boundary:
+Key prerequisite:
 
 ```text
-ground-local dynamics
-!= cross-ground Transition / Propagation
+transition/dependency sequence
+!= causal proof
 ```
 
-Stable non-collapse includes:
+## Active Causal protected question
+
+> For an exact realized cross-ground effect or transition, which actions/events/conditions/controls/Work/Actor contributions actually caused, enabled, amplified, prevented, or failed to prevent/detect that effect; at what causal depth and with what evidential confidence?
+
+Strong initial non-collapse:
 
 ```text
-requested / approved / committed / recorded change
-!= realized change
-!= change effective across all applicable scope
-!= observed / verified realization
-
-propagation != data replication
-propagation episode exists != full-propagation Standing holds
-rollback != time reversal
-compensation != literal reversal
-transition/dependency sequence != causal proof
+A before B != A caused B
+trigger != complete causal explanation
+proximate cause != complete causal explanation
+one cause identified != complete causal model
+causal contribution != Actor responsibility / accountability
+control present / complied-with != control causally effective
 ```
 
-Strongest structural discovery:
+## Current sequencing
 
-> A propagation episode can comprise multiple exact transition instances connected by typed dependencies/relations; it need not be one monolithic event.
+Causal Effect / Contribution is the only active Transition child. Feedback / Adaptation must not begin automatically.
 
-Frame-blindness guardrail:
-
-```text
-all known targets updated
-!= all materially applicable targets known
-!= full propagation established
-```
-
-## Child status
-
-```text
-Cross-Ground Transition / Propagation        ← evaluation pending / inactive
-Cross-Ground Causal Effect / Contribution    ← RECOMMENDED NEXT IF PROPAGATION ACCEPTED / inactive
-Cross-Ground Feedback / Adaptation           ← inactive
-```
-
-## Sequencing result after Transition / Propagation closure
-
-P7 re-evaluated the remaining sibling order.
-
-Current recommendation:
-
-> **Cross-Ground Causal Effect / Contribution should be next if Transition / Propagation is accepted.**
-
-Reason: exact realized effect/change identity is now available; causal-effect/control-effectiveness/root-cause questions are high-value and causal discrimination can later strengthen Feedback/Adaptation claims.
-
-This recommendation does not activate the child.
+After causal closure, re-select whether Feedback / Adaptation is next and whether any parent reopen is needed.
 
 ## Verification status
 
-Transition parent T7 and Transition/Propagation P7 are same-model adversarial reviews with authoritative external holdout pressure. No independent second-researcher/model replication validates the exact results.
+Transition parent T7 and Transition/Propagation P7 remain same-model adversarial reviews. User acceptance closes their evaluation gates but does not create independent replication.
 
 ## Current authorization
 
-**CROSS-GROUND TRANSITION / PROPAGATION RESULT EVALUATION ONLY.**
+**CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION CHILD PASS TO BOUNDED CLOSURE.**
 
-Do not automatically begin Causal Effect/Contribution, Feedback/Adaptation, architecture, ontology/data-model/schema work or implementation.
+Do not begin Feedback/Adaptation, architecture, ontology/data-model/schema work or implementation.
