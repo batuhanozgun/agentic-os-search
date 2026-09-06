@@ -15,7 +15,7 @@ Foundation relevance below is a retrieval hint only. It does not assign a study 
 | `ai-knowledge-strategies` | focused-topic | bounded research complete; related follow-up linked | RAG, Knowledge Graph, Fine-Tuning, CAG, Long Context decision boundaries; knowledge/context mechanism selection; falsifiers and failure modes | Information: strong; Environment/Work/Actors: conditional cross-boundary relevance | `ai-knowledge-strategies/META.md` |
 | `anthropic-ai-native-sdlc-playbook` | external-target | bounded external-target research complete; architecture/adoption not authorised | agent-native software operating model; committed artifact chain; configuration evals; advisory→deterministic control stack; environment-tiered autonomy; transitive agent authority; production feedback/evolution loops | Work: strong; Actors: strong; Information: strong; Environment: strong/conditional; relations/control: strong later-phase relevance | `anthropic-ai-native-sdlc-playbook/META.md` |
 | `context-memory-harness-engineering` | focused-topic | bounded research complete; user evaluation pending in package state | context formation, memory lifecycle, harness/runtime/control, relationship to AI knowledge mechanisms | Information: strong; Environment: strong/conditional; Work & Actors: conditional | `context-memory-harness-engineering/META.md` |
-| `gstack` | external-target | active source-grounded external-repository study; gstack-native subsystem modeling in progress | implemented agentic software factory; workflow gates/artifact handoffs; persistent browser/runtime; cross-model/multi-agent coordination; eval/routing infrastructure; memory/learning; ship/deploy/production loops | Information: strong; Work: strong; Actors: strong; Environment: strong; relations/control: strong later-phase pressure-test potential | `gstack/META.md` |
+| `gstack` | external-target | bounded research complete; pinned v1.79 corpus revalidated through v1.80 current-main snapshot; no adoption authorised | implemented agentic software factory; artifact-mediated qualification; work admission/review/QA/ship/deploy; persistent browser/runtime; authority vs capability; cross-model/multi-agent coordination; eval/routing; memory/learning; install/update/self-development; qualification-loss counterexamples | Information: strong; Work: strong; Actors: strong; Environment: strong; Binding/Standing/Control/Transition: strong later-phase pressure-test relevance | `gstack/META.md` |
 | `multi-agent-patterns` | focused-topic | exploratory systems assessment complete for the triggering discussion | coordination/control patterns, generator–critic, orchestration, authority/verification design pressure | Actors: strong; Work: strong; relations/control: strong later-phase relevance | `multi-agent-patterns/META.md` |
 | `hands-on-large-language-models` | external-target | durable external-repository research complete; production adoption not recommended/evaluated | executable LLM examples, representation/retrieval/fine-tuning/agent reference cases, version/environment failure cases | Information: strong; Environment: conditional; Actors: conditional | `hands-on-large-language-models/META.md` |
 | `public-apis` | external-target | bounded general repository evaluation; discovery reuse candidate | external API/capability discovery; data/service landscape; build-vs-integrate exploration | Environment: strong; Information: conditional/strong when external data access matters; Work: conditional | `public-apis/META.md` |
@@ -29,7 +29,7 @@ Likely candidates to inspect first, depending on the exact node/problem:
 - `ai-knowledge-strategies`
 - `context-memory-harness-engineering`
 - `hands-on-large-language-models`
-- `gstack` when durable design/spec/review/release artifacts, context selection, memory/learnings, evidence production, cross-stage handoffs or source-to-observation pipelines are material; study is still active, so read package state and revalidate load-bearing findings
+- `gstack` when durable design/spec/review/release artifacts, context selection, memory/learnings, evidence formation, qualification/freshness, cross-stage handoffs or source→observation→standing pipelines are material; start at `gstack/META.md` / `CORE.md` and revalidate upstream again if current behavior beyond its recorded v1.80 checkpoint matters
 - `anthropic-ai-native-sdlc-playbook` when artifact identity/derivation, context/configuration surfaces, policy freshness, exact-target binding or production-observation→representation transitions are material
 - `public-apis` only when external information/data/capability access is materially in scope
 
@@ -42,7 +42,7 @@ Potential candidates:
 - `public-apis`
 - `context-memory-harness-engineering`
 - `hands-on-large-language-models` for executable environment/version binding cases
-- `gstack` for persistent browser/runtime capability, local/tunnel security boundaries, tooling/host portability, guarded actions and production/runtime evidence; active-study freshness and coverage limits apply
+- `gstack` for persistent browser/runtime capability, host/model/materialization distinctions, tool/install state, guarded actions, CI/runtime validity and production evidence; the study is closed but current upstream must be revalidated beyond its recorded checkpoint when load-bearing
 - `anthropic-ai-native-sdlc-playbook` for sandbox/permission/network/MCP/CI/production-state control examples and repo-state-vs-live-state falsifiers
 
 ### If current work concerns Actors / Work / coordination
@@ -50,18 +50,28 @@ Potential candidates:
 Potential candidates:
 
 - `multi-agent-patterns`
-- `gstack` for explicit workflow roles, user approval gates, multi-agent/cross-model dispatch, review/QA/ship sequencing, durable handoffs and agent/runtime separation; active-study freshness and coverage limits apply
+- `gstack` for user approval gates, authority vs effect power, delegation, multi-agent/cross-model dispatch, work admission, review/QA/ship/deploy sequencing, durable handoffs, liveness and recovery
 - `anthropic-ai-native-sdlc-playbook` for real operational producer/reviewer/human-gate patterns, transitive agent authority, tiered autonomy, artifact/gate dependencies and recurring maintenance work
 - `context-memory-harness-engineering`
 - selected agent material from `hands-on-large-language-models`
 
 These are discovery hints, not conclusions about final Foundation structure.
 
+### If current work concerns relation / standing / control / transition composition
+
+Potential candidates:
+
+- `gstack` — implemented pressure cases for exact binding/provenance, composite readiness/qualification, enforcement-point vs protected-effect scope, realized effect/readback, partial propagation, rollback/restoration and qualification loss at handoff seams
+- `anthropic-ai-native-sdlc-playbook` — policy/configuration/authority/effect and production-feedback control cases
+- `multi-agent-patterns` — coordination/authority/verification topology
+
+Candidate-study relevance never changes the active Foundation authorization or acceptance state.
+
 ### If later design / architecture work concerns agent-runtime governance
 
 Potential candidates to inspect selectively:
 
-- `gstack` — implemented workflow/runtime/eval/security/memory/ship mechanisms; use only after reading active package state and revalidating any changed target files
+- `gstack` — implemented workflow/runtime/eval/security/memory/install/ship mechanisms; read `META.md`, `CORE.md`, relevant synthesis and freshness revalidation before load-bearing reuse
 - `anthropic-ai-native-sdlc-playbook` — managed settings, Hooks, permissions, sandboxing, managed MCP, runtime telemetry, configuration evals, incident loops
 - `context-memory-harness-engineering` — broader context/memory/harness boundaries
 - `multi-agent-patterns` — coordination and verification topology
