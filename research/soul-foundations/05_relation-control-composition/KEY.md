@@ -1,7 +1,7 @@
 # Relation / Control / Composition — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; Actual Causal Contribution accepted  
+**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; Actual Causal Contribution accepted; Contrastive / Interventional Causal Effect bounded leaf / awaiting user evaluation  
 **Date:** 2026-09-06
 
 ## Shortest current result
@@ -19,8 +19,8 @@ Cross-Ground Composition
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
    │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
-   └─ Cross-Ground Feedback / Adaptation           ← inactive
+   │  └─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
+   └─ Cross-Ground Feedback / Adaptation           ← recommended next if accepted / inactive
 ```
 
 These are diagnostic research problem regions, not architecture modules or mutually exclusive object/event classes.
@@ -65,21 +65,17 @@ ground-local dynamics != cross-ground Transition / Effect / Feedback
 
 ## Accepted Transition / Propagation
 
-Result: bounded leaf.
+A propagation episode can comprise several exact transition instances with distinct scope/time/failure points.
 
-Strongest structural discovery:
-
-> A propagation episode can comprise several exact transition instances with distinct scope/time/failure points.
-
-## Accepted Causal Effect / Contribution
+## Accepted Causal Effect / Contribution parent
 
 ```text
 Cross-Ground Causal Effect / Contribution
 ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-└─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
+└─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
 ```
 
-Critical distinction:
+Critical split:
 
 ```text
 What would X do to Y?
@@ -87,17 +83,28 @@ What would X do to Y?
 Did X cause this observed Y?
 ```
 
-### Accepted Actual Causal Contribution / Episode Causation
-
-Strong causal boundaries:
+### Accepted Actual Causation
 
 ```text
 joint causal configuration != independent cause edges
 chronology != actual causation
 but-for necessity != universal causal criterion
 causal contribution != responsibility/accountability
-all observed contributors analyzed != causal explanation complete
 ```
+
+### Current Contrastive Causal Effect
+
+```text
+causal effect identity
+= outcome + target + X vs X' + applicability frame
+
+intended/assigned intervention != realized/received intervention
+average effect != individual effect
+source/local effect != target effect
+causal target defined != identifiable != estimated != decision-sufficient
+```
+
+Current bounded result: no immediate child promoted.
 
 ## Remaining Transition sibling
 
@@ -107,14 +114,18 @@ all observed contributors analyzed != causal explanation complete
 
 ## Current sequencing recommendation
 
-> **Contrastive / Interventional Causal Effect** is the strongest next immediate child.
+If the current Contrastive result is accepted:
+
+> **Cross-Ground Feedback / Adaptation**
+
+is the strongest next immediate child.
 
 Do not activate automatically.
 
 ## Verification boundary
 
-All closure adversarial passes remain same-model review. External sources supply hostile pressure but no independent second-researcher/model replication validates the exact hierarchy.
+All closure adversarial passes remain same-model review. Fresh public-web retrieval failed during the Contrastive pass; no independent second-researcher/model replication validates the exact hierarchy.
 
 ## Current gate
 
-No substantive child is active. Architecture, ontology/data model and implementation remain outside current authorization.
+Contrastive result evaluation only. No substantive child is active. Architecture, ontology/data model and implementation remain outside current authorization.
