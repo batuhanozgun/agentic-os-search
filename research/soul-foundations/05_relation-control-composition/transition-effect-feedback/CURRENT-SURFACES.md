@@ -1,22 +1,22 @@
 # Transition / Effect / Feedback — CURRENT SURFACES
 
-**Status:** canonical freshness binding at bounded parent closure / user-evaluation gate  
-**Date:** 2026-09-05  
+**Status:** canonical freshness binding after Transition / Propagation bounded closure / user-evaluation gate  
+**Date:** 2026-09-06  
 **Branch:** `main`
 
-## Current result / routing surfaces
+## Current parent / routing surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Parent state | `STATE.md` | `434493361f8f8f6483fbbca543906474b5d27ebc` |
-| Parent router | `INDEX.md` | `8904e76241e4d5b804f15b8074d45d2ff6e4d89b` |
-| Research plan | `PLAN.md` | `b8a94e61fad5a98df5c2a8ed7cf7656b6d019362` |
-| L0 key | `KEY.md` | `c284d607a5d6e4f407ac13ab91b17b1af8aeda0b` |
-| Findings map | `FINDINGS-MAP.md` | `c4c2ce07e104874fc5c977869907c967a0751a7a` |
-| Integrated synthesis | `synthesis/TRANSITION-EFFECT-FEEDBACK-SYNTHESIS.md` | `104d182c83f51a75035269d8aeb4f2fe319c8085` |
-| Residual / reopen questions | `OPEN-QUESTIONS.md` | `5a6d3318bd85159caae1e2bc038a480bf01161cb` |
+| Parent state | `STATE.md` | `8fbe08819a20beb1a6f17ff89303b090f3055d20` |
+| Parent router | `INDEX.md` | `3708582a7448b452d42bffd5f221ad682c460c91` |
+| Parent plan | `PLAN.md` | `b8a94e61fad5a98df5c2a8ed7cf7656b6d019362` |
+| Parent L0 key | `KEY.md` | `d0e36718a5ae2d24cc23edb6c94aa486a0796422` |
+| Parent findings map | `FINDINGS-MAP.md` | `c4c2ce07e104874fc5c977869907c967a0751a7a` |
+| Parent integrated synthesis | `synthesis/TRANSITION-EFFECT-FEEDBACK-SYNTHESIS.md` | `104d182c83f51a75035269d8aeb4f2fe319c8085` |
+| Parent residual / reopen questions | `OPEN-QUESTIONS.md` | `2d50591aa909848d4b375268a9ef0cef7770210a` |
 
-## Completed passes
+## Completed parent passes
 
 | Pass | Path | Bound Git blob SHA |
 |---|---|---|
@@ -29,16 +29,23 @@
 | T6 synthesis/child decision | `T6-SYNTHESIS-CHILD-DECISION.md` | `04f3cec7d7d2e113df96d2d04eb86c905f3ba95d` |
 | T7 adversarial closure | `T7-ADVERSARIAL-CLOSURE.md` | `a24a1b30bbc572676a2bf86d0acd7650ddb63c11` |
 
+## Immediate child surfaces
+
+| Child | Status | Current manifest |
+|---|---|---|
+| Cross-Ground Transition / Propagation | bounded leaf / USER EVALUATION PENDING | `transition-propagation/CURRENT-SURFACES.md` @ `f34b7d2f3c1ae303683e8c952610bb81bcd77c74` |
+| Cross-Ground Causal Effect / Contribution | recommended next if Propagation accepted / inactive | not created/active |
+| Cross-Ground Feedback / Adaptation | inactive | not created/active |
+
 ## Accepted upstream inputs
 
 | Input | Bound surface SHA |
 |---|---|
-| Accepted Relational Binding manifest | `../relational-binding/CURRENT-SURFACES.md` @ `cd21db93fd96195a474860afdcea5071207c61f6` |
-| Accepted Composite Standing manifest | `../composite-standing/CURRENT-SURFACES.md` @ `07b8b01180149a8f87d4b257526926ac2700b63e` |
-| Accepted Control manifest | `../control-constraint/CURRENT-SURFACES.md` @ `df99373883d3741a2b6b42df530e904213036b2c` |
+| Relational Binding manifest | `../relational-binding/CURRENT-SURFACES.md` @ `cd21db93fd96195a474860afdcea5071207c61f6` |
+| Composite Standing manifest | `../composite-standing/CURRENT-SURFACES.md` @ `07b8b01180149a8f87d4b257526926ac2700b63e` |
+| Control manifest | `../control-constraint/CURRENT-SURFACES.md` @ `df99373883d3741a2b6b42df530e904213036b2c` |
 | Environment Domain Dynamics key | `../../03_ground-deepening/grounds/environment/domain-effect/domain-dynamics/KEY.md` @ `f2c7104974508c965af735f9f1d0166623bf5c6b` |
 | Information key | `../../03_ground-deepening/grounds/information/KEY.md` @ `8f6bc44cb01ce46edce081c80280327940c9e881` |
-| Anthropic candidate-study META | `../../../studies/anthropic-ai-native-sdlc-playbook/META.md` @ `7e89a64f594c989453195931388d57657ee9d0f7` |
 
 Accepted ground current-manifest checkpoints reused:
 - Environment `7505697056168353cbe4a42fef3be4fe3ab98f9d`;
@@ -46,48 +53,30 @@ Accepted ground current-manifest checkpoints reused:
 - Work `7e5bdd9426f3c426ac312bca147517962ced6361`;
 - Actors `eb55fcaab6356675bd6ad7c696ef64f6203a85b3`.
 
-## External holdout observation set
-
-Observed/recovered 2026-09-05:
-- W3C PROV-O / PROV constraints / PROV semantics;
-- Leslie Lamport distributed event-ordering work via Microsoft Research;
-- OpenTelemetry event timestamp/ObservedTimestamp semantics;
-- AWS IAM eventual consistency and session-revocation propagation;
-- Google Cloud IAM access-change propagation;
-- NASA mishap events/causal-factor guidance;
-- FAA root-cause and Safety Management System material;
-- CDC field epidemiology causality guidance;
-- NIST SP 800-61r3, RMF Monitor and AI RMF Manage material;
-- WHO patient-safety incident reporting/learning guidance.
-
-These sources discriminate specific semantics; none validates the exact project decomposition.
-
 ## Current composition / Foundation authority surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Composition state | `../STATE.md` | `1b51e85328f035cd4a27e5630093a7344a859ac5` |
-| Composition router | `../INDEX.md` | `931110befc0dd18803594b64659e99a91b54b5db` |
-| Composition key | `../KEY.md` | `392665a35c1834c8155fb7e15c73af9e49116bf9` |
-| Composition residuals | `../OPEN-QUESTIONS.md` | `53828943d586a58d479d7aa89d76a0a45a32d4b5` |
-| Foundation state | `../../STATE.md` | `cbcc11e676f6b67b2c4ba701a993aa30a701e947` |
-| Foundation router | `../../INDEX.md` | `41a19a2c0416c1db6e7e6a61db7564739dbc2c05` |
-| Foundation README | `../../README.md` | `b3a218dc8177a2aed110259f9735c77f2ae69ae3` |
+| Composition state | `../STATE.md` | `724c658d0c65fcfbcb67d25670d529cd6b117d91` |
+| Composition router | `../INDEX.md` | `6193cd8864bb7e155c877015c107734a09812a83` |
+| Composition key | `../KEY.md` | `40dd5764bb976741792be4fec95f52bf7ebe0cea` |
+| Foundation state | `../../STATE.md` | `c14dc7d4b82cacc0705ed0661980a96a02558dd3` |
+| Foundation router | `../../INDEX.md` | `a179021178912bb0510b62229044d0d2d54bf0bd` |
+| Foundation README | `../../README.md` | `d39ecfb87a2f5e4e2e1adcd807626ac257b475f3` |
 
 ## Current bounded result
 
 ```text
-Transition / Effect / Feedback
-├─ Cross-Ground Transition / Propagation     ← discovered / inactive
-├─ Cross-Ground Causal Effect / Contribution ← discovered / inactive
-└─ Cross-Ground Feedback / Adaptation        ← discovered / inactive
+Transition / Effect / Feedback                       ← ACCEPTED PARENT
+├─ Cross-Ground Transition / Propagation             ← BOUNDED LEAF / USER EVALUATION PENDING
+├─ Cross-Ground Causal Effect / Contribution         ← recommended next if accepted / inactive
+└─ Cross-Ground Feedback / Adaptation                ← inactive
 
-parent result                           ← BOUNDEDLY COMPLETE / USER EVALUATION PENDING
-substantive immediate child             ← NONE
+substantive Transition-parent child                  ← NONE
 ```
 
 ## Verification note
 
 Exact SHA binding establishes repository-view identity/freshness only.
 
-T7 is same-model adversarial review. No independent second-researcher/model replication validates the exact three-child result.
+Parent T7 and Transition/Propagation P7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact parent decomposition or Propagation bounded-leaf result.
