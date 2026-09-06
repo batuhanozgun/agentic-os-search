@@ -46,8 +46,24 @@ It records, with explicit authority/epistemic limits:
 - the temporary ChatGPT↔Codex bootstrap responsibility split;
 - the self-sustain/bridge-retirement criteria;
 - current Codex environment/bootstrap observations and freshness warnings;
-- current staged bootstrap sequence and immediate preflight next action;
+- the completed Stage-0 capability preflight and current local working-copy blocker;
+- current staged bootstrap sequence and immediate next action;
 - explicit non-decisions so discussion does not silently become architecture.
+
+## Current Stage-0 result
+
+Codex desktop preflight established that:
+
+- Astra Ultra / `gpt-6-astra` + `ultra` was visible in runtime metadata;
+- web-tool research access works;
+- private `agentic-os-search` and `soul-production` can be read through the GitHub connector;
+- local development tools are broadly available;
+- terminal-network access is not generally established;
+- the desktop project's actual working directory is **not a Git checkout** of `soul-development-os`.
+
+Independent GitHub inspection confirmed that remote `batuhanozgun/soul-development-os` is initialized on `main` at commit `3776384a7789ccf1959b99bba92c8cf1b3131f81` and contains only `.gitkeep`.
+
+Therefore the current blocker is source binding, not absence of a remote repository.
 
 ## Corpus ayrımı
 
@@ -90,9 +106,16 @@ Do not autonomously broaden predecessor/context research unless the user authori
 
 As of 2026-09-06, the current next bridge action is:
 
-> run and review the read-only Codex Stage-0 environment/capability preflight for the desktop `SOUL-Development-OS` project before Development OS design begins.
+> bind the Codex desktop `SOUL-Development-OS` project to an **actual local Git checkout** of `batuhanozgun/soul-development-os`, then run a minimal read-only Git binding recheck before any Development OS design begins.
 
-After the preflight result, current Development OS bootstrap work should progressively move into `soul-development-os` rather than accumulating here.
+Required recheck:
+
+- `git rev-parse --show-toplevel` succeeds;
+- `git remote -v` identifies the intended repository;
+- current branch/ref is visible;
+- HEAD/working-tree state is known and consistent with or explicitly behind remote `main`.
+
+After this binding is correct, Stage-1 Development OS bootstrap problem research/design may begin.
 
 ## Bridge retirement condition
 
