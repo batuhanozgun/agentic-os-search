@@ -1,7 +1,7 @@
 # Transition / Effect / Feedback — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** parent accepted; Transition / Propagation accepted; Causal parent accepted; Actual Causal Contribution bounded leaf / awaiting user evaluation  
+**Status:** parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; Actual Causal Contribution accepted  
 **Date:** 2026-09-06
 
 ## Current structure
@@ -10,24 +10,37 @@
 Transition / Effect / Feedback
 ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
 ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-│  ├─ Actual Causal Contribution / Episode Causation       ← BOUNDED LEAF / USER EVALUATION PENDING
-│  └─ Contrastive / Interventional Causal Effect            ← recommended next if accepted / inactive
+│  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
+│  └─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
 └─ Cross-Ground Feedback / Adaptation           ← inactive
+```
+
+The Transition parent is accepted and is **not a leaf**.
+
+## Parent routing boundary
+
+```text
+ground-local dynamics
+!= cross-ground Transition / Effect / Feedback
 ```
 
 ## Accepted Transition / Propagation
 
-> What exact change actually became real/effective, where/when, and how fully did it propagate?
+Core question:
 
-Strong guardrail:
+> What exact change actually became real/effective across accepted-ground boundaries, for which anchors/scopes/times, and how fully did it propagate or fail to propagate?
+
+Accepted result: bounded leaf, no immediate child.
+
+## Accepted Causal Effect / Contribution parent
 
 ```text
-all known targets updated
-!= all materially applicable targets known
-!= full propagation established
+Cross-Ground Causal Effect / Contribution
+├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
+└─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
 ```
 
-## Accepted Causal parent
+Critical distinction:
 
 ```text
 What would X do to Y?
@@ -35,60 +48,36 @@ What would X do to Y?
 Did X cause this observed Y?
 ```
 
-## Current Actual Causation result
+### Accepted Actual Causal Contribution / Episode Causation
 
 > In this exact realized episode/effect, which actual events, conditions, omissions, controls, actions or interactions causally contributed to what occurred?
 
-Result:
+Strong rules:
 
 ```text
-Actual Causal Contribution / Episode Causation
-    ← BOUNDED LEAF
-    ← no immediate child promoted
-```
-
-Strongest discovery:
-
-```text
-joint causal configuration
-!= collection of independent cause edges
-```
-
-Strongest boundaries:
-
-```text
+joint causal configuration != independent cause edges
 chronology != actual causation
 but-for necessity != universal causal criterion
-Control defect != actual causal contribution by identity
-omission causal relevance != duty/blame
 causal contribution != responsibility/accountability
-causal story supported != alternatives discriminated
 all observed contributors analyzed != causal explanation complete
-actual episode cause != contrastive/interventional causal effect
 ```
 
-## Remaining causal child
-
-### Contrastive / Interventional Causal Effect
+### Remaining Contrastive / Interventional Causal Effect
 
 > How would outcome/effect Y differ under a defined alternative state/action/exposure/intervention X versus X', for the relevant unit/population/context?
 
-Inactive.
-
-## Remaining Transition sibling
+## Remaining sibling
 
 ### Cross-Ground Feedback / Adaptation
 
 > Did observations/results return across ground boundaries to alter later behavior, and did that influence become persistent system change?
 
-Inactive.
-
 ## Current sequencing recommendation
 
-If user evaluation accepts Actual Causation:
+> **Contrastive / Interventional Causal Effect** should be the next immediate causal-child pass.
 
-> **Contrastive / Interventional Causal Effect** next.
+Do not activate automatically.
 
 ## Verification boundary
 
-Transition T7, Propagation P7, Causal E7 and Actual A7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact project hierarchy or current leaf result.
+Transition T7, Transition/Propagation P7, Causal E7 and Actual A7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact project hierarchy.
