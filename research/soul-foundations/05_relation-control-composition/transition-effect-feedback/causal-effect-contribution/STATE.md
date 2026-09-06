@@ -1,53 +1,60 @@
 # Cross-Ground Causal Effect / Contribution — STATE
 
-**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT ACTIVE  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT BOUNDED LEAF / AWAITING USER EVALUATION  
 **Parent accepted:** 2026-09-06  
 **Parent:** `Transition / Effect / Feedback` — accepted bounded parent  
 **Accepted prerequisite sibling:** Cross-Ground Transition / Propagation — accepted bounded leaf  
-**Actual Causal Contribution / Episode Causation:** bounded leaf / user-evaluated / accepted 2026-09-06  
-**Contrastive / Interventional Causal Effect:** ACTIVE / I0 CANONICAL-EVIDENCE RECOVERY  
-**Cross-Ground Feedback / Adaptation:** inactive  
-**Current authorised substantive activity:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT CHILD PASS  
-**Current authorised interaction:** ACTIVE FOUNDATION RESEARCH
+**Actual Causal Contribution / Episode Causation:** accepted bounded leaf  
+**Contrastive / Interventional Causal Effect:** bounded leaf / USER EVALUATION PENDING  
+**Cross-Ground Feedback / Adaptation:** recommended next if accepted / inactive  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT RESULT EVALUATION ONLY
 
 ## Accepted parent structure
 
 ```text
 Cross-Ground Causal Effect / Contribution        ← accepted bounded parent
 ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-└─ Contrastive / Interventional Causal Effect            ← ACTIVE / I0
+└─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
 ```
 
-## Accepted Actual Causation result
+## Current Contrastive result
+
+Canonical package:
+
+`contrastive-interventional-causal-effect/`
+
+Current bounded judgment:
+
+> Contrastive / Interventional Causal Effect is a bounded leaf with one target-specific causal-contrast grammar and no promoted immediate child.
+
+Strongest identity rule:
 
 ```text
-joint causal configuration != collection of independent cause edges
-chronology != actual causation
-but-for necessity != universal causal criterion
-causal contribution != responsibility/accountability
-all observed contributors analyzed != causal explanation complete
+causal effect identity
+= outcome + target + X vs X' + applicability frame
+  (+ exact regime/configuration semantics where material)
 ```
 
-## Active protected question
-
-> For a defined outcome/effect, how would that outcome differ under one exact alternative state/action/exposure/intervention versus another for the relevant unit/population/context, under what causal assumptions, scope and time, and with what limits on generalization?
-
-## Active boundaries
+Strongest epistemic/generalization rules:
 
 ```text
-association != causal effect
-intended intervention != realized intervention
-actual episode cause != contrastive/interventional causal effect
-average effect != individual effect
-local effect != transported/generalized effect
-Control presence/compliance != causal effectiveness
-causal-effect evidence != sufficient-evidence Standing
+causal target defined != identifiable != estimated != decision-sufficient
+source/local effect != target effect by identity
 ```
+
+## Sequencing result
+
+If the user accepts this result:
+
+> **Cross-Ground Feedback / Adaptation** is the strongest current next child.
+
+This is not active.
 
 ## Verification status
 
-Accepted parent and Actual Causation closures are same-model adversarial reviews with source-grounded external pressure; no independent second-researcher/model replication validates the exact hierarchy.
+I7 is same-model adversarial review. Fresh public-web retrieval failed technically during the child pass; source-grounded parent external conclusions plus gstack/Anthropic candidate pressure were reused. No independent second-researcher/model replication validates the exact leaf result.
 
 ## Guardrail
 
-Do not begin Feedback / Adaptation, architecture, ontology/data-model/schema or implementation while this child pass is active.
+Do not automatically begin Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
