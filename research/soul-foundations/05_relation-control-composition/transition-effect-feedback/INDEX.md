@@ -2,48 +2,54 @@
 
 ## Role
 
-Current router for the completed Transition / Effect / Feedback parent pass.
+Current router for the accepted Transition / Effect / Feedback parent and its immediate-child research.
 
-Read `STATE.md` first for bounded result, child discovery, verification status and current authorization.
+Read `STATE.md` first for current authorization and active child.
 
 ## Current status
 
-**BOUNDEDLY COMPLETE AS PARENT / AWAITING USER EVALUATION.**
-
-No substantive composition child is active from this package.
+**PARENT ACCEPTED; CROSS-GROUND TRANSITION / PROPAGATION ACTIVE — P0.**
 
 ## Preferred read order
 
-1. `STATE.md` — bounded parent result and current gate.
-2. `KEY.md` — shortest orientation.
-3. `FINDINGS-MAP.md` — targeted result/evidence router.
-4. `synthesis/TRANSITION-EFFECT-FEEDBACK-SYNTHESIS.md` — integrated result.
-5. `T7-ADVERSARIAL-CLOSURE.md` — final attack and promotion decision.
-6. `OPEN-QUESTIONS.md` — residual/reopen triggers; not execution queue.
-7. T0–T6 only when evidence recovery, minimum signature, discrimination, propagation/time, rival splits, external holdouts or child-promotion logic is decision-critical.
-8. `CURRENT-SURFACES.md` — exact freshness binding after closure.
+1. `STATE.md` — accepted parent result, active child and guardrails.
+2. Active child → `transition-propagation/STATE.md` → `PLAN.md` → current P-pass.
+3. Parent `KEY.md` → T6/T7 when child-promotion logic is decision-critical.
+4. `OPEN-QUESTIONS.md` → propagation residuals and parent reopen triggers.
+5. `T3-TEMPORAL-PROPAGATION-INVALIDATION.md` → inherited propagation/invalidation evidence.
+6. Accepted composition prerequisites only when needed.
+7. Candidate studies through catalog → selected META → targeted deeper files only when load-bearing.
+8. Current manifests for exact freshness.
 
-## Bounded result
+## Accepted parent structure
 
 ```text
 Transition / Effect / Feedback
-├─ Cross-Ground Transition / Propagation
-├─ Cross-Ground Causal Effect / Contribution
-└─ Cross-Ground Feedback / Adaptation
+├─ Cross-Ground Transition / Propagation        ← ACTIVE / P0
+├─ Cross-Ground Causal Effect / Contribution    ← discovered / inactive
+└─ Cross-Ground Feedback / Adaptation           ← discovered / inactive
 ```
 
-The parent is not a leaf.
+## Critical parent boundary
 
-## Critical routing rule
+```text
+ground-local dynamics
+!= cross-ground Transition / Effect / Feedback
+```
 
-Ground-local dynamics stay in their accepted ground. This parent applies only when the protected temporal/effect question irreducibly spans accepted grounds or their accepted composition semantics.
+## Active child rule
 
-## Next-step orientation
+Do not treat one software/distributed lifecycle as universal transition semantics.
 
-If user evaluation accepts this result, **Cross-Ground Transition / Propagation** is the strongest first child.
+Preserve at minimum:
 
-It is not active.
+```text
+requested/intended change
+!= realized change
+!= change effective across relevant scope
+!= observed/reported change
+```
 
 ## Guardrail
 
-Current interaction is Transition parent result evaluation only. Child research, architecture, ontology/data-model/schema design and implementation remain unauthorized.
+Causal Effect/Contribution, Feedback/Adaptation, architecture, ontology/data-model/schema and implementation remain inactive.
