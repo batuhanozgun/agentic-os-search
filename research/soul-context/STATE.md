@@ -162,7 +162,7 @@ After Codex returns, inspect actual candidate/ref/diff, G0 provenance, loaded co
 
 ## Corpus and boundaries
 
-`repos/` holds ledgers; `evidence/` historical syntheses; `current/briefs/` versioned assignments; `current/reviews/` preserved responses and bounded reviews. They are not Foundation findings, candidate studies or this research assistant's control layer.
+`repos/` holds ledgers; `evidence/` historical syntheses; `current/` cross-project context; `current/briefs/` versioned assignments; `current/reviews/` preserved responses and bounded reviews. They are not Foundation findings, candidate studies or this research assistant's control layer.
 
 The S1A review changes only these research-side continuity surfaces. It does not modify AGENT.md, agent/**, Foundation, studies, predecessor SOUL or either target repository. Old S1/S1A briefs and raw responses remain versioned evidence.
 
