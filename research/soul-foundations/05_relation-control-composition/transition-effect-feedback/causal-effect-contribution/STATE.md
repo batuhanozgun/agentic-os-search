@@ -1,95 +1,117 @@
 # Cross-Ground Causal Effect / Contribution — STATE
 
-**Status:** ACTIVE FOUNDATION CHILD RESEARCH  
+**Status:** BOUNDED PARENT RESULT / AWAITING USER EVALUATION  
 **Activated:** 2026-09-06  
-**User authorization:** accepted Cross-Ground Transition / Propagation and instructed continuation to operational limit  
+**Closed for evaluation:** 2026-09-06  
 **Parent:** `Transition / Effect / Feedback` — bounded parent / user-evaluated / accepted 2026-09-06  
 **Accepted prerequisite sibling:** Cross-Ground Transition / Propagation — bounded leaf / user-evaluated / accepted 2026-09-06  
 **Other sibling:** Cross-Ground Feedback / Adaptation — discovered / inactive  
-**Current phase:** E0 CANONICAL / EVIDENCE RECOVERY  
-**Current authorised substantive activity:** CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION CHILD PASS
+**Current phase:** E7 CLOSURE COMPLETE / USER EVALUATION GATE  
+**E0–E7:** COMPLETE  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION PARENT RESULT EVALUATION ONLY
 
-## Protected question
+## Protected parent question
 
-> For an exact realized cross-ground effect or transition, which actions/events/conditions/controls/Work/Actor contributions actually caused, enabled, amplified, prevented, or failed to prevent/detect that effect; at what causal depth and with what evidential confidence; and what distinctions are required to avoid mistaking sequence, association, trigger, attribution or responsibility for causal explanation?
+> For an exact realized effect or defined outcome transition, what causal claims are justified about contributors to the observed episode and about how changing candidate causes/actions/controls would alter outcomes under relevant alternatives?
 
-## Critical routing boundaries
-
-```text
-transition / propagation
-!= causal explanation
-
-sequence / association
-!= causation
-
-causal contribution
-!= Actor responsibility / accountability
-
-control present / complied-with
-!= control causally effective
-```
-
-## Candidate pressure — probes only
-
-- exact effect being explained;
-- proximate/direct mechanism;
-- enabling/contributing conditions;
-- prevention/detection/containment failure;
-- systemic/framing conditions;
-- trigger versus cause;
-- necessary versus sufficient versus contributing causes;
-- intervention/counterfactual/mechanistic/statistical evidence;
-- overdetermination and multiple sufficient causes;
-- competing explanations;
-- causal confidence / unresolved alternatives;
-- negative causation / failure-to-prevent claims;
-- control effectiveness;
-- causal attribution versus normative responsibility.
-
-None of these is an accepted child.
-
-## Primary falsification questions
-
-- Is Cross-Ground Causal Effect / Contribution coherent and irreducible, or can causal questions be safely reduced to Transition + Binding + Standing?
-- Is one generic `cause` relation sufficient, or must different causal roles/depths be preserved?
-- Does proximate/contributing/prevention/detection/systemic structure form stable immediate children or only analysis roles/profiles?
-- When is counterfactual reasoning necessary, and when are mechanism/intervention/temporal evidence sufficient?
-- How should multiple sufficient causes, overdetermination and causal interaction be handled without forcing one root cause?
-- Can omission/failure-to-prevent be causal without collapsing into obligation or responsibility?
-- Where does control effectiveness live: Control, Standing, or Causal Effect + Standing?
-- What separates causal attribution from Actor responsibility/accountability?
-- How should causal confidence and competing explanations be preserved without turning this child into general epistemology?
-- Does deeper causal research force Causation to parent-sibling level or expose an upstream adequacy falsifier?
-
-## Research route
+## Bounded result
 
 ```text
-E0 canonical/current evidence recovery
-→ E1 minimum causal-effect signature
-→ E2 causal-role / depth discrimination
-→ E3 evidence / counterfactual / competing-explanation audit
-→ E4 rival internal decompositions
-→ E5 authoritative external + candidate-study holdouts
-→ E6 synthesis / immediate-child decision
-→ E7 adversarial closure / user-evaluation gate
+Cross-Ground Causal Effect / Contribution
+    ← BOUNDEDLY COMPLETE AS PARENT REGION
+    ← NOT A LEAF
+    ← TWO IMMEDIATE DIAGNOSTIC CHILDREN PROMOTED
+
+├─ Actual Causal Contribution / Episode Causation
+└─ Contrastive / Interventional Causal Effect
 ```
 
-## Stop / depth rule
+No immediate child is active.
 
-This authorization covers the **Cross-Ground Causal Effect / Contribution child pass to bounded closure**.
+## Shared causal grammar
 
-If E6 discovers stable immediate children, do not activate them automatically. Return the result for user evaluation first.
+```text
+Causal claim
+├─ exact effect / outcome / explanandum
+├─ candidate cause / contributor / action / exposure
+├─ relevant context / scope / time
+├─ causal contrast / reference semantics where material
+├─ typed causal role/depth where decision-critical
+├─ domain-appropriate evidence
+├─ competing explanations/confounding where material
+├─ calibrated confidence / unresolved alternatives
+└─ stopping depth tied to intervention/recurrence/decision value
+```
 
-If no stable child split survives, close as a bounded leaf with reusable causal-effect grammar and overlapping analysis profiles.
+## Child 1 — Actual Causal Contribution / Episode Causation
 
-If a material upstream falsifier survives, reopen only the minimum affected prior research.
+Protected question:
 
-## Guardrail
+> In this exact realized episode/effect, which actual events, conditions, omissions, controls, actions or interactions causally contributed to what occurred?
 
-Do not begin:
-- Cross-Ground Feedback / Adaptation substantive research;
-- architecture;
-- ontology/data-model/schema design;
-- implementation.
+Core non-collapse:
 
-External standards, causal traditions and candidate studies are falsifiers/counterframes, not Foundation taxonomy authorities.
+```text
+chronology != actual cause
+trigger != complete causal explanation
+proximate cause != complete causal explanation
+one cause identified != complete causal model
+causal contribution != responsibility / accountability
+```
+
+## Child 2 — Contrastive / Interventional Causal Effect
+
+Protected question:
+
+> How would outcome/effect Y differ under a defined alternative state/action/exposure/intervention X versus X', for the relevant unit/population/context?
+
+Core non-collapse:
+
+```text
+association != causal effect
+before/after difference != intervention effectiveness
+contrastive/general effect != actual cause of one episode
+actual episode cause != general effect magnitude
+control presence/compliance != causal risk-reduction effectiveness
+```
+
+## Causal-depth roles — profiles, not children
+
+- proximate/direct;
+- enabling/contributing;
+- prevention failure;
+- detection/containment failure;
+- systemic/framing;
+- necessary/sufficient/contributing properties;
+- omission/failure-to-prevent;
+- mitigating/preventive contribution.
+
+## Critical sibling/ground boundaries
+
+```text
+transition / propagation != causal explanation
+causal relation != causal evidence
+causal evidence != evidence-sufficient Standing
+causal contribution != provenance by identity
+causal contribution != responsibility/accountability
+Control semantics != Control causal effectiveness
+```
+
+## Next sequencing recommendation
+
+If the user accepts this result:
+
+> **Actual Causal Contribution / Episode Causation** is the strongest first immediate-child pass.
+
+It is not active. Do not pre-fix the later order among Contrastive/Interventional Causal Effect and Feedback/Adaptation.
+
+## Verification status
+
+E7 is same-model adversarial review. External authoritative and scholarly holdouts pressure the result but do not independently validate the exact two-child synthesis. No independent second-researcher/model replication has been performed.
+
+## Current authorization / return condition
+
+**USER EVALUATION OF CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION PARENT RESULT ONLY.**
+
+Do not automatically begin immediate-child research, Feedback/Adaptation, architecture, ontology/data-model/schema work or implementation.
