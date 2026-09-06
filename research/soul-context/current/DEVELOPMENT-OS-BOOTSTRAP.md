@@ -241,25 +241,91 @@ The Cloud environment remains available as an execution option.
 
 **Freshness warning:** environment settings can change; load-bearing current claims must be re-read from Codex environment settings rather than trusted from this note.
 
-## Current desktop/local bootstrap choice
+## Desktop/local bootstrap choice
 
-The immediate bootstrap was then moved to the Codex desktop application because the user wanted to explicitly try **GPT-6 Astra Ultra**, while the Cloud task UI did not expose a visible model picker during setup.
+The immediate bootstrap was moved to the Codex desktop application because the user wanted to explicitly try **GPT-6 Astra Ultra**, while the Cloud task UI did not expose a visible model picker during setup.
 
 A desktop project named:
 
 `SOUL-Development-OS`
 
-was created against a local folder intended to be the local checkout of `batuhanozgun/soul-development-os`.
+was created. Stage-0 preflight then established that the project's actual working directory was **not** the intended Git checkout.
 
-At the time this note is written, a read-only capability preflight has been prepared but its results have **not yet been integrated here**. Therefore do not assume that:
+Observed working directory from Codex:
 
-- the local folder/remote binding is correct;
-- cross-private-repository access works;
-- web access works as intended;
-- the runtime can read `agentic-os-search`;
-- any Development OS files already exist.
+`/Users/Batu/Documents/Codex/2026-09-06/bu-oturum-s-f-rdan-kurulacak`
 
-Those are current preflight questions, not established facts.
+Observed contents:
+
+- empty `work/` directory;
+- empty `outputs/` directory;
+- no `.git` repository metadata.
+
+Therefore the desktop project's current source binding is unsuitable for repository-based Development OS work.
+
+## Stage-0 capability preflight result — completed 2026-09-06
+
+Codex reported the following direct observations:
+
+### Local execution
+
+- zsh 5.9;
+- Git 2.50.1;
+- Python 3.14.2 in the default login shell;
+- Node v22.22.3;
+- npm 10.9.8;
+- pnpm 11.19.0;
+- uv 0.11.8;
+- Make 3.81;
+- Clang 21.0.0;
+- Swift 6.3.3;
+- GitHub CLI `gh` not present on PATH;
+- Docker, Go, Cargo/Rust and CMake not present on PATH in that preflight;
+- shell mode materially changes visible tool versions/capabilities.
+
+### Internet/research access
+
+- Codex web access succeeded against official OpenAI Codex documentation;
+- web search returned results;
+- direct terminal `curl` to `developers.openai.com` failed DNS resolution in the tested execution path;
+- therefore web-tool research capability is established, but unrestricted terminal-network capability is **not** established.
+
+### Cross-repository GitHub access
+
+Through the Codex GitHub connector, read-only access succeeded to:
+
+- private `batuhanozgun/agentic-os-search`;
+- private `batuhanozgun/soul-production`.
+
+For `agentic-os-search`, Codex directly observed root `AGENT.md`, `agent/` and `research/` without applying that repository's `AGENT.md` as its own control file.
+
+### Model/runtime visibility
+
+Codex observed task/runtime metadata identifying:
+
+- model family: `gpt-6-astra`;
+- reasoning effort: `ultra`.
+
+Exact backend snapshot remained unknown.
+
+### Mutation boundary
+
+Codex reported:
+
+- `Repository mutations performed: NONE`
+- `Development OS design started: NO`
+
+This is consistent with the requested Stage-0 boundary.
+
+## Independent GitHub cross-check after Codex preflight
+
+The research-side GitHub connector independently confirmed that `batuhanozgun/soul-development-os` currently has:
+
+- branch `main`;
+- root commit `3776384a7789ccf1959b99bba92c8cf1b3131f81` (`Initialize repository`);
+- a minimal tree containing only `.gitkeep`.
+
+Therefore the remote repository is not literally commit-less; it is **semantically empty/minimal but initialized**. The Codex blocker is not “remote repository has no Git state”; it is **desktop project source binding points at the wrong non-Git local directory**.
 
 ## Model rule
 
@@ -271,24 +337,44 @@ The current use of Astra is an Environment/model choice for bootstrap experiment
 
 The current intended bootstrap sequence is deliberately staged.
 
-## Stage 0 — Environment capability preflight — CURRENT
+## Stage 0 — Environment capability preflight — COMPLETE, with working-copy blocker
 
-Before writing any Development OS structure, Codex should read-only establish:
+Stage-0 successfully established:
 
-- actual repository/remote/branch/working-tree state;
-- available local tools;
-- public internet/research access;
-- read-only access to `batuhanozgun/agentic-os-search`;
-- read-only access to `batuhanozgun/soul-production`;
-- observable model/runtime identity and limitations.
+- current desktop working directory is not a Git checkout;
+- local tool availability;
+- web research capability;
+- private cross-repository read access;
+- observable Astra/Ultra runtime identity;
+- material terminal-network limitation.
 
-Epistemic output should distinguish `OBSERVED`, `INFERRED` and `UNKNOWN`.
+Before Stage 1 can begin, the desktop project must be bound to a real local checkout of `batuhanozgun/soul-development-os`.
 
-No repository mutation or Development OS design should occur in this preflight.
+This is an Environment/working-copy correction, not Development OS design.
+
+## Stage 0B — Bind real local working copy — CURRENT
+
+Required next condition:
+
+```text
+Codex desktop project source folder
+        = actual local Git checkout of
+          batuhanozgun/soul-development-os
+```
+
+After binding, perform a minimal read-only recheck:
+
+- `git rev-parse --show-toplevel` succeeds;
+- `git remote -v` points to the intended repository;
+- current branch/ref is recoverable;
+- current HEAD matches or knowingly trails the GitHub `main` state;
+- working tree status is known.
+
+Do not begin Development OS design until this condition is established.
 
 ## Stage 1 — Bootstrap problem research/design
 
-After Environment facts are known, Codex should not be told to simply “create the Development OS.”
+After Environment facts and working-copy binding are known, Codex should not be told to simply “create the Development OS.”
 
 The next problem is to derive the **minimum sufficient bootstrap system** needed for a self-sustaining Development Actor, considering at least:
 
@@ -323,19 +409,11 @@ When the self-sustain test is satisfactory, record that transition here, move cu
 
 # 9. Current next action
 
-**As of 2026-09-06:** run the read-only Stage-0 Codex capability preflight in the desktop `SOUL-Development-OS` project.
+**As of 2026-09-06:** complete Stage 0B by binding the Codex desktop `SOUL-Development-OS` project to an actual local Git checkout of `batuhanozgun/soul-development-os`.
 
-The preflight must not mutate the repository or begin Development OS design. It should report:
+Then run only the minimal read-only Git binding recheck described in Stage 0B.
 
-1. current repository state;
-2. local execution capabilities;
-3. internet/research access;
-4. cross-repository access to `agentic-os-search` and `soul-production`;
-5. model/runtime visibility;
-6. observed limitations;
-7. bootstrap blockers.
-
-After Codex reports, the result should be reviewed against actual GitHub state before Stage 1 begins.
+Do **not** begin Stage-1 Development OS bootstrap research/design until the working-copy binding is observed to be correct.
 
 ---
 
