@@ -1,6 +1,6 @@
 # Cross-Ground Causal Effect / Contribution — CURRENT SURFACES
 
-**Status:** canonical freshness binding after accepted Actual Causal Contribution bounded leaf checkpoint  
+**Status:** canonical freshness binding after Contrastive / Interventional Causal Effect bounded leaf closure / user-evaluation gate  
 **Date:** 2026-09-06  
 **Branch:** `main`
 
@@ -8,13 +8,13 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Parent state | `STATE.md` | `3f824c2003fbf625c3e98d4c0bad2312e76fef6f` |
-| Parent router | `INDEX.md` | `fe8bea435bffa9fc7fe8bab03a127d7cbe41c595` |
+| Parent state | `STATE.md` | `d8b53cda5980dd483bad47efc0b0f253598ea558` |
+| Parent router | `INDEX.md` | `9b94042a0da4e6750a0fd6ba8e2214b2870cc976` |
 | Parent plan | `PLAN.md` | `973e2c07022f72030d29064d4817ff9e5d3c9af0` |
-| Parent L0 key | `KEY.md` | `e43dc7110b69ad89ee57d9e2da873de5b59d6550` |
+| Parent L0 key | `KEY.md` | `e470fcb4c937e17c50154e7049b7c36e67b14e72` |
 | Parent findings map | `FINDINGS-MAP.md` | `79aaed2e4c70a9e5f4dbb49714d11f63c7b3899d` |
 | Parent synthesis | `synthesis/CAUSAL-EFFECT-CONTRIBUTION-SYNTHESIS.md` | `843436fed17c0a3a086a04d79841d1afc6309e6d` |
-| Parent residuals | `OPEN-QUESTIONS.md` | `20b9e0066781deae5f8cbb7312dfe9b80778b93d` |
+| Parent residuals | `OPEN-QUESTIONS.md` | `eac2404eab51b7f3ca7a368cec0601856a17d324` |
 
 ## Completed parent passes
 
@@ -34,7 +34,7 @@
 ```text
 Cross-Ground Causal Effect / Contribution        ← USER-EVALUATED / ACCEPTED BOUNDED PARENT
 ├─ Actual Causal Contribution / Episode Causation       ← USER-EVALUATED / ACCEPTED BOUNDED LEAF
-└─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
+└─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
 ```
 
 ## Current child surfaces
@@ -42,21 +42,32 @@ Cross-Ground Causal Effect / Contribution        ← USER-EVALUATED / ACCEPTED B
 | Child | Status | Current manifest |
 |---|---|---|
 | Actual Causal Contribution / Episode Causation | user-evaluated / accepted bounded leaf | `actual-causal-contribution/CURRENT-SURFACES.md` @ `fbc0a842a4e4f1b95443470a1f0d3050c6a547b4` |
-| Contrastive / Interventional Causal Effect | recommended next / inactive | not created/active |
+| Contrastive / Interventional Causal Effect | bounded leaf / USER EVALUATION PENDING | `contrastive-interventional-causal-effect/CURRENT-SURFACES.md` @ `c1fa6ab69a3b3c27edeb021b77f4be4eab893096` |
 
-## Accepted actual-causation discoveries
+## Current contrastive-effect discoveries
 
 ```text
-joint causal configuration
-!= collection of independent cause edges
+causal effect identity
+= outcome + target + X vs X' + applicability frame
+  (+ exact regime/configuration semantics where material)
 
-all observed/logged contributors analyzed
-!= all materially relevant contributors observed
-!= causal explanation complete
+intended/assigned intervention != realized/received intervention
+source/local effect != target effect by identity
+causal target defined != identifiable != estimated != decision-sufficient
 ```
+
+Transportability / Generalization remains the strongest reopen trigger, not a promoted immediate child at current depth.
+
+## Current sequencing
+
+If user evaluation accepts the Contrastive leaf:
+
+> **Cross-Ground Feedback / Adaptation** is the strongest next Transition child.
+
+It is inactive.
 
 ## Verification note
 
 Exact SHA binding establishes repository-view identity/freshness only.
 
-Parent E7 and child A7 are same-model adversarial reviews. Fresh public-web retrieval failed during the child pass; no new independent external verification was added. No independent second-researcher/model replication validates the exact current decomposition.
+Parent E7, Actual A7 and Contrastive I7 are same-model adversarial reviews. Fresh public-web retrieval failed during the Contrastive child pass, so no fresh independent transportability/interference review was added. No independent second-researcher/model replication validates the exact current decomposition.
