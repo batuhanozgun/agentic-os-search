@@ -1,6 +1,6 @@
 # Relation / Control / Composition — STATE
 
-**Status:** PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; TRANSITION PARENT ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT ACTIVE  
+**Status:** PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; TRANSITION PARENT ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT BOUNDED LEAF / AWAITING USER EVALUATION  
 **Relational Binding:** accepted bounded leaf  
 **Composite Standing / Qualification:** accepted bounded leaf  
 **Control / Constraint:** accepted bounded leaf  
@@ -8,10 +8,10 @@
 **Cross-Ground Transition / Propagation:** accepted bounded leaf  
 **Cross-Ground Causal Effect / Contribution:** accepted bounded parent  
 **Actual Causal Contribution / Episode Causation:** accepted bounded leaf  
-**Contrastive / Interventional Causal Effect:** ACTIVE / I0  
-**Cross-Ground Feedback / Adaptation:** inactive  
-**Current authorised substantive activity:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT CHILD PASS  
-**Current authorised interaction:** ACTIVE FOUNDATION RESEARCH
+**Contrastive / Interventional Causal Effect:** bounded leaf / USER EVALUATION PENDING  
+**Cross-Ground Feedback / Adaptation:** recommended next if accepted / inactive  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT RESULT EVALUATION ONLY
 
 ## Current composition structure
 
@@ -24,12 +24,10 @@ Cross-Ground Composition
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
    │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← ACTIVE / I0
-   └─ Cross-Ground Feedback / Adaptation           ← inactive
+   │  └─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
+   └─ Cross-Ground Feedback / Adaptation           ← recommended next if accepted / inactive
 ```
 
 ## Current authorization
 
-The Contrastive / Interventional Causal Effect child pass is the only active substantive Foundation work.
-
-Do not activate Feedback / Adaptation, architecture, ontology/data-model/schema or implementation while it is active.
+User evaluation only. Do not automatically activate Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
