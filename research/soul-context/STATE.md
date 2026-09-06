@@ -2,15 +2,15 @@
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; CURRENT DEVELOPMENT-BOOTSTRAP BRIDGE MAINTENANCE ACTIVE  
 **Son güncelleme:** 2026-09-06  
-**Bridge checkpoint:** D1 DISPATCH/EXECUTION REPORTED BY USER; RESULT PENDING; DIRECTION REVIEW RECORDED; CANDIDATE BEHAVIOR AND OPERATING ACCEPTANCE STILL UNESTABLISHED
+**Bridge checkpoint:** D1 RESULT SUMMARY RECEIVED; NATIVE BOUNDARY RESULTS REPORTED / D1 EVIDENCE ZIP PENDING; DIRECTION REVIEW PRESERVED; CANDIDATE BEHAVIOR AND OPERATING ACCEPTANCE STILL UNESTABLISHED
 
 ## Yetkilendirilmiş amaç
 
-Original context objective remains complete: reconstruct why SOUL Research exists from `os-architect`, `soul`, `keel` and bounded `keel-research` evidence, and retain that context outside chat memory.
+Original context objective remains complete: reconstruct why SOUL Research exists from `os-architect`, `keel`, `soul` and bounded `keel-research` evidence, and retain that context outside chat memory.
 
 The user additionally authorised bounded cross-project continuity and temporary bootstrap guidance: preserve the SOUL Research → new Development OS → Production relationship; prepare and review Codex work until the new Development OS sustains work across sessions without permanent hidden human orchestration.
 
-This package does not become the product architecture or future Development OS current-state authority. The current research-side responsibility is to review direction/evidence and preserve continuity, not execute on the Mac, amend C1 or the running D1, or grant adjacent work merely by recording a recommendation.
+This package does not become the product architecture or future Development OS current-state authority. The current research-side responsibility is to receive and review D1 evidence against the restored direction, not execute on the Mac, amend C1 or the completed D1 records, or grant adjacent work merely by recording a recommendation.
 
 ## Authority and entry surfaces
 
@@ -26,13 +26,13 @@ This package does not become the product architecture or future Development OS c
 - Issued G0: `current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`.
 - **G0 archive evidence selection:** `current/reviews/2026-09-06-g0/EVIDENCE-EXTRACTS.md`.
 - **G0 archive audit and diagnosis:** `current/reviews/2026-09-06-g0/REVIEW.md`.
-- **D1 assignment, user-reported running:** `current/briefs/CODEX-G0-D1-BOUNDARY-DIAGNOSIS.md`.
+- **D1 assignment, returned summary received:** `current/briefs/CODEX-G0-D1-BOUNDARY-DIAGNOSIS.md`; receipt and evidence limits below.
 
 Prepared task, actual dispatch, returned result, tested property and operating acceptance are separate. Target-repository work must eventually be recovered there; unpublished local files cannot be fetched through this assistant's GitHub connector. A supplied snapshot is evidence, not live target state.
 
 ## Direction checkpoint — preserve the goal, not only the last blocker
 
-On 2026-09-06 the user stated that D1 had been sent and Codex was working, then asked whether setup and context pressure were again eroding the original SOUL scope. This is a user-reported execution status, not an independently observed D1 log or result.
+On 2026-09-06 the user stated that D1 had been sent and Codex was working, then asked whether setup and context pressure were again eroding the original SOUL scope. This was a user-reported execution status, not an independently observed D1 log or result. A subsequent returned summary is recorded below.
 
 The product direction remains outcome→task-specific working-system formation, operation, evidence-based reality checking and governed adaptation, without requiring the human to pre-design all agents/workflows/information mechanisms. Development OS is the means for developing that product, not the whole product. D1 is a bounded diagnostic within that means, not the new end goal.
 
@@ -42,7 +42,7 @@ Direction-review judgment: no accepted goal-reduction was found, and bounded boo
 
 The review preserves the capability expectations that are not yet implemented or tested: outcome understanding, appropriate system formation, epistemic state, useful bounded execution, reality verification, capability acquisition, recovery/evolution and reduced hidden human coordination. Deferred does not mean removed; neither does this list authorise implementing all capabilities now.
 
-Recommendation for the next scope/continuation decision: evaluate D1 by what necessary work it enables; do not automatically turn every remaining technical issue into another repair task. Keep a short explicit connection from current work to product purpose and the capabilities intentionally deferred. Any change to the frozen candidate or to the next experimental scope needs its own explicit, version-aware authorisation. The current D1 is unchanged and no extra prompt or concurrent writing work was dispatched by this review.
+Recommendation for the next scope/continuation decision: evaluate D1 by what necessary work it enables; do not automatically turn every remaining technical issue into another repair task. Keep a short explicit connection from current work to product purpose and the capabilities intentionally deferred. Any change to the frozen candidate or to the next experimental scope needs its own explicit, version-aware authorisation. The direction review did not change the running D1 or dispatch any extra prompt or concurrent writing work.
 
 ## Historical setup and design — do not repeat
 
@@ -118,9 +118,9 @@ The runtime helper changed once before actual inference to correct skill identit
 
 Actual model launches: 1/8; conservative startup attempts: 2/8; the one technical correction was used. G0's numerical remainder is not permission to restart a stopped task.
 
-The negative read was explicitly requested as a safe synthetic boundary probe. It is not an autonomous model policy violation or a test of the candidate's reasoning discipline. No personal-file read or write-escape experiment is evidenced.
+The negative read was explicitly requested as a safe synthetic boundary probe. It is not an autonomous model policy violation or a test of the candidate's reasoning discipline. No personal-file read or write-escape experiment is evidenced in the G0 archive.
 
-## G0 review judgment and causal hypothesis — D1 result still pending
+## G0 review judgment and causal hypothesis — historical, before D1 receipt
 
 **Candidate contents are consistent with the bounded authorisation; behavior remains untested. G0's isolation requirement remains unqualified.**
 
@@ -134,7 +134,7 @@ Official OpenAI source matching the recorded version gives a specific explanatio
 
 This is a strong, source-grounded mechanism for the observed successful read. Local binary-to-source build binding and actual effective Seatbelt execution were not captured, so it is not a uniquely proven local root cause or proof of a general platform vulnerability.
 
-Do not turn G0's negative result into PASS after learning about this exception. Also do not merely move the sentinel and declare isolation: G0 sources, fixed plan and experiment copies are under the same temporary area. Potential input-write exposure is a source-code-based risk, not an observed write event. The next bounded check must separate effective read coverage, read-only input protection and actual tool path.
+Do not turn G0's negative result into PASS after learning about this exception. Also do not merely move the sentinel and declare isolation: G0 sources, fixed plan and experiment copies are under the same temporary area. At the G0 audit, potential input-write exposure was a source-code-based risk, not an observed write event. D1's later reported synthetic write is recorded separately below; it does not establish mutation of actual G0 inputs.
 
 This assistant prepared G0; its prior test layout has no authorship privilege. The experiment's premises may require correction without deleting the original evidence or changing the user's end goal. No general VM/server/framework purchase or full sandbox redesign is selected.
 
@@ -142,13 +142,57 @@ This assistant prepared G0; its prior test layout has no authorship privilege. T
 
 The earlier long checkpoint reminder was not sent before the Codex result and is superseded. Do not send it now or force the old near-full conversation to rewrite frozen C1.
 
-The received work record contains G0 identity, actual results, evidence paths, budget, process exit, release with delivery and first safe continuation. This is enough to prepare a bounded new diagnostic in a fresh session. The candidate STATE still refers to closure in progress at snapshot time; the later handoff/report resolves this timing difference without editing the frozen candidate.
+The received work record contains G0 identity, actual results, evidence paths, budget, process exit, release with delivery and first safe continuation. This was enough to prepare a bounded diagnostic in a fresh session. The candidate STATE still refers to closure in progress at snapshot time; the later handoff/report resolves this timing difference without editing the frozen candidate.
 
 The archive records child `startup-retry`, PID 76949, `subprocess.wait` exit 0 and no pending relevant child. These are supplied execution records, not a live research-side Mac process audit. A fresh session must check current relevant state before any conflicting operations. Assisted coordinator continuation is not a passed T1 experiment.
 
 ## Current remote checkpoint
 
 The last research-side GitHub branch-list read, during the G0 archive audit, returned only `main` at `3776384a7789ccf1959b99bba92c8cf1b3131f81`, `protected: false`. No local candidate was published by that review. This is not a full remote audit or independent inspection of all Mac state; D1's current local state is not inferred from it.
+
+## D1 result receipt — user-relayed summary; evidence ZIP not yet received
+
+Task: **DEVOS-G0-D1-2026-09-06**.
+
+- Brief: `current/briefs/CODEX-G0-D1-BOUNDARY-DIAGNOSIS.md`.
+- Initial brief commit: `0aac736aacfd61d3af40e4397d9ea6421a5bc74e`.
+- Ref specified in the relay prompt: `7be2567f10490e70781105541b35817f96488fa2`.
+- Brief blob: `cefef3a72b46809faebdc46b6e43f6d50dfe027a`.
+
+The user first reported dispatch/execution, then pasted Codex's returned D1 summary. Exact receipt/loading/execution logs have not been independently inspected. Do not request duplicate dispatch because the brief's creation-time header says READY.
+
+Reported headline:
+
+> D1 tamamlandı. Geçici dizin istisnası açıklaması güçlü biçimde desteklendi; gerekli dosya sınırı bütünüyle doğrulanamadı.
+
+| Probe | User-relayed Codex result |
+|---|---|
+| Allowed synthetic read | Succeeded |
+| Unlisted temporary-file read | Succeeded; expected boundary not obtained |
+| Write to a supposedly read-only synthetic temporary input | Succeeded; hash changed |
+| Unauthorized synthetic read outside temporary directories | Blocked |
+| Write to a read-only synthetic input outside temporary directories | Blocked; hash preserved |
+| Explicit temporary-path deny | Did not block reading |
+
+Codex reported two profiles and nine synthetic native commands; counting the initial failed startup gives 10/10 conservative native attempts. It reported no child-model launch because the native prerequisite failed. The exact binary-to-source binding and the new profile's actual agent-shell behavior remain open in its own report.
+
+Codex also reported C1, G0 evidence and main preserved; all probe processes ended; the old G0 result was not rewritten; T1–T4, R(C1) and operating acceptance were not started. These are relayed statements, not a new independent check of the Mac or remote state.
+
+Reported local delivery directory:
+
+`/Users/Batu/Documents/Codex/SOUL-Development-OS-Run-Evidence/G0-D1-20260906T200915Z-hcg4769w/`
+
+- `D1-EVIDENCE.zip`, described as 102 KiB.
+- `REPORT-TR.md`.
+- Codex reported ZIP integrity and 64 manifest entries verified.
+
+**Receipt boundary:** only the pasted summary and local file references have been received. The D1 ZIP bytes, report, manifest, launch commands, effective policies, native outputs and before/after hashes have not been inspected by the research assistant. The earlier G0 ZIP, CHECKS.json and S1/S1A/vision markdown attachments are not this D1 archive. Do not fabricate a sandbox link or claim the 64 entries were independently checked.
+
+### Bounded interpretation pending the archive
+
+D1 completion means the bounded diagnostic returned, not that its target boundary passed. The reported temporary-input write is a material new observation relative to G0's read-only probe, but it does not establish that real G0 criteria or personal files were changed. The reported outside-temp blocks narrow the observed problem; neither universal sandbox failure nor universal safety follows.
+
+Outside-temp source/criterion protection may support a simpler experimental layout, but that is only a candidate inference, not an accepted profile, permission expansion or qualification of an actual model run. The explicit-deny result needs its exact rule form, path resolution, profile and execution record; do not assume the omission/default explanation automatically resolves it. Native controls do not establish unexecuted agent-shell behavior or Development OS capabilities.
 
 ## Next action
 
@@ -158,25 +202,19 @@ The last research-side GitHub branch-list read, during the G0 archive audit, ret
 
 ### Current bootstrap bridge
 
-Task reported sent and running: **DEVOS-G0-D1-2026-09-06**.
+**Receive `D1-EVIDENCE.zip` from the user and inspect the existing evidence before proposing another Codex task.** No new D2, G0 retry, model launch, repair or acceptance is authorised by the result summary.
 
-- Brief: `current/briefs/CODEX-G0-D1-BOUNDARY-DIAGNOSIS.md`.
-- Initial brief commit: `0aac736aacfd61d3af40e4397d9ea6421a5bc74e`.
-- Ref specified in the relay prompt: `7be2567f10490e70781105541b35817f96488fa2`.
-- Brief blob: `cefef3a72b46809faebdc46b6e43f6d50dfe027a`.
-- **Status: USER-REPORTED DISPATCH/EXECUTION; NO D1 RESULT RECEIVED.** The user's words were: “Mesajı verdim Codex çalışıyor.” Exact receipt/loading/execution logs have not been independently inspected. Do not ask for duplicate dispatch because the brief's creation-time header says READY.
+Review the exact native commands/profiles and any rendered/generated OS policy, synthetic paths and baseline access, positive and negative controls, before/after hashes, explicit-deny semantics, bounded run accounting, candidate preservation and process-exit records. Compare what was requested, what was applied and what was observed without turning an unverified report into independent proof.
 
-D1's adopted scope is unchanged: read existing evidence and exact version code, check the policy/launch path, and perform limited synthetic native probes with at most one necessary actual child-model check. Writes are only to new D1 evidence/synthetic areas. C1/G0/main are preserved; T1–T4/R(C1) and operating acceptance are excluded.
+Then select a next step by the restored product direction and minimum sufficient assurance for meaningful Development OS work. Examine whether the experimental layout can be simplified rather than treating full temporary-directory policy repair or complete source-build provenance as automatic projects. Required protection is not waived and old failures remain failures; no particular replacement layout has been adopted.
 
-Current research responsibility: receive the D1 result/evidence, assess the demonstrated boundary and unresolved conditions, then evaluate the next work against the restored product direction and the bounded bootstrap purpose. A technical success does not prove SOUL system formation; a remaining technical issue does not automatically authorize another repair task. No new task is sent into the running session by this direction review.
-
-After D1, a separately authorised T1–T4 continuation, narrower repair or explicit requirement/environment reconsideration may be justified by the evidence. Do not retry G0, install persistent policy, switch models, expand permissions, mutate frozen C1 or adopt operating acceptance automatically. Recommendations in the direction review are not new implementation authority.
+A separately authorised behavioral-test continuation, a narrowly necessary check or explicit requirement/environment reconsideration may follow from the evidence. Do not install persistent policy, switch models, expand permissions, mutate frozen C1 or grant operating acceptance automatically. Keep the recorded purpose-recovery gap and deferred SOUL capabilities visible instead of replacing them with the last sandbox issue. Recommendations in the direction review are not implementation authority.
 
 ## Corpus and authority boundaries
 
 `repos/`: predecessor ledgers. `evidence/`: historical syntheses. `current/`: cross-project context. `current/briefs/`: versioned assignments. `current/reviews/`: preserved responses, selected evidence and bounded reviews. These are not Foundation, candidate-study findings or this research assistant's agent-control.
 
-This direction review changes only the research-side continuity/review surfaces. AGENT.md, agent/**, Foundation, studies, predecessor SOUL and both target repositories are unchanged by it. Once Development OS has reliable accessible current state, recover its routine work there rather than mirroring it here.
+This result receipt changes only the research-side continuity surface. AGENT.md, agent/**, Foundation, studies, predecessor SOUL and both target repositories are unchanged by it. Once Development OS has reliable accessible current state, recover its routine work there rather than mirroring it here.
 
 ## Bridge retirement
 
