@@ -1,6 +1,6 @@
 # Relation / Control / Composition — Open Questions / Reopen Triggers
 
-**Status:** bounded residuals after accepted parent + Binding + Standing + Control + Transition parent + Propagation + Causal parent + Actual Causation  
+**Status:** bounded residuals after accepted parent + Binding + Standing + Control + Transition parent + Propagation + Causal parent + Actual Causation + completed Contrastive Causal Effect research  
 **Date:** 2026-09-06  
 **Role:** residual uncertainty; NOT an automatic execution queue
 
@@ -15,8 +15,8 @@ Cross-Ground Composition
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
    │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
-   └─ Cross-Ground Feedback / Adaptation           ← inactive
+   │  └─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
+   └─ Cross-Ground Feedback / Adaptation           ← recommended next if accepted / inactive
 ```
 
 ## Resolved parent questions delegated to child packages
@@ -28,17 +28,18 @@ Dedicated research now covers:
 - Transition internal structure → `transition-effect-feedback/` accepted bounded parent;
 - realized change / propagation / convergence/invalidation/recovery routing → `transition-effect-feedback/transition-propagation/` accepted bounded leaf;
 - causal question structure and actual-vs-contrastive split → `transition-effect-feedback/causal-effect-contribution/` accepted bounded parent;
-- actual episode causation grammar, joint/configuration causation, omission/depth/evidence completeness → `.../actual-causal-contribution/` accepted bounded leaf.
+- actual episode causation grammar → `.../actual-causal-contribution/` accepted bounded leaf;
+- contrastive causal-effect target/comparator/fidelity/identification/heterogeneity/interference/transport boundaries → `.../contrastive-interventional-causal-effect/` bounded leaf / user evaluation pending.
 
 Package-local `OPEN-QUESTIONS.md` files preserve narrower reopen triggers.
 
 ## Remaining parent-level residual questions
 
-1. **Contrastive causal-effect stability:** does dedicated Contrastive / Interventional Causal Effect research preserve the accepted two-child causal parent?
-2. **Causation level:** does deeper contrastive work force Causation to parent-sibling level despite current effect dependence?
-3. **Feedback/evolution level:** does deeper Feedback research expose a stable separate Evolution composition region?
-4. **Control effectiveness:** do Control + causal result + Standing remain sufficient for `control present/enforced/complied-with` versus `control causally effective`?
-5. **Goal/outcome composition:** can intended target, realized transition/effect, causal explanation, evidence and accepted outcome remain composed through current grounds/children without reopening Goal?
+1. Does user evaluation accept the Contrastive bounded leaf?
+2. **Feedback/evolution level:** does deeper Feedback research expose a stable separate Evolution composition region or immediate children?
+3. **Control effectiveness:** do Control + Contrastive Causal Effect + Standing remain sufficient for `control present/enforced/complied-with` versus `control causally effective`?
+4. **Goal/outcome composition:** can intended target, realized transition/effect, causal explanation, evidence and accepted outcome remain composed through current grounds/children without reopening Goal?
+5. **Transport/generalization:** does fresh dedicated literature later force a stronger causal split?
 6. **Propagation frame completeness:** do later domains break the `known targets != materially applicable targets` guardrail in a way that requires a new region rather than uncertainty handling?
 7. **Independent replication:** would an independent researcher/model retain the four composition regions and current Transition/Causal decompositions?
 
@@ -49,6 +50,7 @@ Reopen the composition parent if:
 - accepted Transition/Propagation collapses into ground-local dynamics or exposes a missing composition sibling;
 - Control cannot remain distinct from Standing/Transition/Causal Effect;
 - accepted Actual Causation later fails its causal-parent boundary;
+- Contrastive result is rejected or later exposes a new stable causal region;
 - Causation, Evolution, provenance/evidence or another family becomes a stable fifth composition region;
 - a child pass exposes an upstream fifth-ground/adequacy falsifier;
 - materially different domains repeatedly break the four-region structure;
@@ -56,8 +58,8 @@ Reopen the composition parent if:
 
 ## Current sequencing note
 
-> **Contrastive / Interventional Causal Effect** is the strongest next substantive child and requires separate activation.
+If user evaluation accepts `Contrastive / Interventional Causal Effect`:
 
-Do not pre-fix the order after that pass; re-select Feedback/Adaptation based on exposed dependencies.
+> **Cross-Ground Feedback / Adaptation** is the strongest next substantive child and requires separate activation.
 
 No architecture, ontology/data-model/schema or implementation work is authorized by this note.
