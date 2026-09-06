@@ -1,7 +1,8 @@
 # SOUL Context — STATE
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; CURRENT DEVELOPMENT-BOOTSTRAP BRIDGE MAINTENANCE ACTIVE  
-**Son güncelleme:** 2026-09-06
+**Son güncelleme:** 2026-09-06  
+**Bridge checkpoint:** STAGE 0B COMPLETE FOR BOUNDED CONTINUATION; STAGE-1 DESIGN BRIEF READY TO SEND / NO CODEX DESIGN RESULT RECEIVED
 
 ## Yetkilendirilmiş amaç
 
@@ -33,127 +34,125 @@ Bu bir context reconstruction'dır; final SOUL tanımı, architecture specificat
 
 ## Current Development OS bootstrap bridge
 
-Canonical bounded context note:
+Bounded context and rationale:
 
 - `current/DEVELOPMENT-OS-BOOTSTRAP.md`
 
-It records, with explicit authority/epistemic limits:
+Prepared next Codex task:
 
-- the three-repository split: `agentic-os-search`, `soul-development-os`, `soul-production`;
-- the old `soul` repository's predecessor/prior-art role;
-- the research → development → production authority boundary;
-- the intended Development Actor character (not merely a programmer);
-- the temporary ChatGPT↔Codex bootstrap responsibility split;
-- the self-sustain/bridge-retirement criteria;
-- current Codex environment/bootstrap observations and freshness warnings;
-- the completed Stage-0 capability preflight and local working-copy binding requirement;
-- current staged bootstrap sequence;
-- explicit non-decisions so discussion does not silently become architecture.
+- `current/briefs/CODEX-STAGE-1-BOOTSTRAP-DESIGN.md`
+- Brief ID: `DEVOS-BOOTSTRAP-S1-2026-09-06`
+- Initial brief commit: `63a84a3979531ee664d3c29593c365756aa500e0`
 
-The latest bounded bridge checkpoint and next action are recorded below. The bridge note supplies rationale and stage conditions; it does not override newer observed checkpoints in this STATE.
+The context note preserves repository topology, clean-restart rationale, desired Development Actor character, the temporary ChatGPT↔Codex arrangement, staged bootstrap conditions and explicit non-decisions.
 
-## Current Stage-0 result
+**This STATE is the single current checkpoint/next-action authority for the research-side bootstrap bridge.** The context note explains the stages; task briefs define bounded assignments. Neither their existence nor their stage descriptions establish that Codex ran them. Once `soul-development-os` has a reliable canonical work surface, recover actual development work there rather than mirroring it here.
+
+## Stage-0 result — historical preflight
 
 The user-relayed Codex desktop preflight reported that:
 
-- Astra Ultra / `gpt-6-astra` + `ultra` was visible in runtime metadata;
-- web-tool research access works;
-- private `agentic-os-search` and `soul-production` can be read through the GitHub connector;
-- local development tools are broadly available;
-- terminal-network access is not generally established;
-- the tested desktop session's actual working directory was **not a Git checkout** of `soul-development-os`.
+- `gpt-6-astra` with reasoning effort `ultra` was visible in runtime metadata; the exact backend snapshot was unknown;
+- web-tool research access worked;
+- private `agentic-os-search` and `soul-production` could be read through the GitHub connector;
+- local development tools were available, with shell-mode-dependent visibility;
+- one terminal `curl` request failed DNS resolution; general terminal networking was not established;
+- the initially tested desktop session's working directory was **not a Git checkout** of `soul-development-os`.
 
-These local/runtime observations were reported by Codex, not independently executed on the user's Mac by the research assistant.
+These local/runtime observations were reported by Codex, not independently executed on the user's Mac by the research assistant. Capability availability in a new task must not be inferred solely from another task's report.
 
-Independent GitHub inspection confirmed that remote `batuhanozgun/soul-development-os` was initialized on `main` at commit `3776384a7789ccf1959b99bba92c8cf1b3131f81` and contained only `.gitkeep` at inspection time. Initial-file provenance is separately qualified in the bridge note.
+Separate research-side GitHub inspection confirmed that remote `soul-development-os` was initialized on `main` at `3776384a7789ccf1959b99bba92c8cf1b3131f81`, with only `.gitkeep`. The user attributed that initial file to an earlier cancelled Cloud attempt, not the read-only desktop preflight. That attribution is preserved with its evidence boundary in the context note.
 
-Therefore the identified blocker was source binding, not absence of a remote repository.
+## Stage-0B history — local clone
 
-## Stage-0B checkpoint — clone reported successful; project binding pending
-
-On 2026-09-06 the user pasted output from their ordinary macOS Terminal for cloning `batuhanozgun/soul-development-os` into:
+On 2026-09-06 the user supplied ordinary macOS Terminal output showing a successful clone into:
 
 `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo`
 
-The supplied output shows `Cloning into ...`, successful enumeration and receipt of three Git objects, `Receiving objects: 100% (3/3), done.`, and return to the shell prompt without a clone failure. This supports **clone success as user-supplied terminal evidence**, not an independently inspected local working copy.
+The output showed receipt of three Git objects and return to the shell prompt without clone failure. A preceding `command not found: compdef` line was not shown to prevent cloning. Its cause remains undiagnosed; shell-configuration repair was not needed for this checkpoint.
 
-A preceding `command not found: compdef` line is also present. Its cause has not been diagnosed; the supplied output does not show it preventing the clone. No shell-configuration repair is currently required or authorised by this checkpoint.
+Clone success alone did not establish that Codex was using that working copy. A separate read-only in-Codex binding check was therefore requested.
 
-Remaining unknowns:
+## Stage-0B current result — binding confirmed for bounded continuation
 
-- whether the Codex project's primary source folder has been changed to this clone;
-- whether a new Codex chat actually starts in that working copy;
-- the local `origin`, branch, HEAD and working-tree status from inside that new chat;
-- Codex's own terminal-network access and Git push permissions, which are not proved by the user's ordinary Terminal clone.
+The user subsequently relayed the requested Codex recheck:
 
-Do not repeat cloning or delete/reinitialize directories merely because Codex binding has not yet been checked. Stage 0B remains open until the in-Codex read-only check succeeds. No Development OS design or implementation has begun on the strength of this clone report.
+| Check | Reported result |
+|---|---|
+| Default `pwd` and Git root | `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo` |
+| `origin` | `https://github.com/batuhanozgun/soul-development-os.git` |
+| Branch | `main` |
+| HEAD | `3776384a7789ccf1959b99bba92c8cf1b3131f81` |
+| Git status | `## main...origin/main`; clean working tree |
+| Scope | No directory change and no mutations reported |
+
+Research-side direct GitHub inspection of `soul-development-os/branches/main` on 2026-09-06 again returned the same HEAD and tree `d564d0bc3dd917926892c55e3706cc116d5b165e`.
+
+**Judgment:** the working-copy binding gate is sufficiently supported to proceed to the next bounded, read-only research/design assignment. Do not ask the user to clone again or repeat the entire preflight without a material change.
+
+**Verification boundary:** the local directory, cleanliness and no-mutation statements remain user-relayed Codex observations. The independent readback establishes remote HEAD consistency; it does not independently inspect the Mac. `main...origin/main` is a local tracking comparison, not by itself a fresh network check. This checkpoint does not certify Development OS behavior, model quality or full environment readiness.
+
+### Remaining capability limits
+
+Still not established:
+
+- Codex terminal-network availability in the correctly bound session;
+- Git push/write permissions or a working PR publication path;
+- CI execution and repository enforcement settings;
+- actual loading/effectiveness of a future Development OS instruction structure;
+- fresh-session self-sustain and governed self-development.
+
+These are relevant future design/implementation conditions, not reasons to repeat the now-satisfied binding gate. Do not infer write authority from successful reads, or apply Cloud settings to the local desktop session.
 
 ## Corpus ayrımı
 
 - `repos/` — source ledgers.
-- `evidence/` — source-grounded context için gerekli sentezler.
-- `current/` — bounded current cross-project operational/transition context; **not target-repository current-state authority**.
-- `exploratory/` — erken üretilmiş research-design/taxonomy/holdout fikirleri; local provisional only.
+- `evidence/` — source-grounded context syntheses.
+- `current/` — bounded cross-project context and task handoffs; not the target repositories' current-state authority.
+- `current/briefs/` — prepared, versioned Codex task briefs. Their execution/acceptance is recorded separately.
+- `exploratory/` — early local/provisional research-design ideas.
 
 ## Authority and continuity boundary
 
-`agentic-os-search` remains research authority for its own research outputs.
+`agentic-os-search` remains authoritative for its own research outputs, not automatically for SOUL architecture or implementation.
 
-The current bridge note is **not** allowed to become a second authoritative copy of future Development OS state.
+Once `soul-development-os` has reliable canonical work/bootstrap state, routine development state must be recovered there. This package retains the cross-project purpose, responsibility boundaries and transition record. Product repository candidates, accepted main/release state and actual running behavior must likewise remain distinguishable.
 
-Once `batuhanozgun/soul-development-os` has a reliable canonical bootstrap/state surface:
-
-- routine current development state must be recovered there;
-- this context package should retain only the cross-project transition/authority explanation and bridge history;
-- material bridge changes may still update `current/DEVELOPMENT-OS-BOOTSTRAP.md` until the bridge is retired.
-
-`soul-production` should likewise become the authority for accepted product state rather than being mirrored here.
-
-## Control-layer sınırı
-
-This context package is project-work material.
-
-Nothing under `research/soul-context/**` is agent-control merely because it describes desired Development Actor behavior. Agent-control for this ChatGPT research project remains only `AGENT.md` + `agent/**`.
-
-Likewise, the new Codex Development OS control structure has **not** yet been decided by this file.
+All material here is project-work. This turn does not modify `AGENT.md` or `agent/**`, define Codex's permanent control system, accept a Foundation result, or change the separate Foundation research frontier.
 
 ## Next action
 
 ### Original historical-context line
 
-**STOP.**
-
-Do not autonomously broaden predecessor/context research unless the user authorises a new context question or a load-bearing claim requires source recovery.
+**STOP.** Do not broaden historical reconstruction without a new authorised question or necessary source recovery.
 
 ### Current bootstrap bridge
 
-As of this 2026-09-06 checkpoint, cloning is reported complete. The next bridge action is:
+Send the prepared `DEVOS-BOOTSTRAP-S1-2026-09-06` brief to Codex in the correctly bound desktop project.
 
-> select `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo` as the Codex desktop project's primary local source folder, open a new chat in that project, and run a minimal read-only Git binding recheck before any Development OS design begins.
+**Requested next deliverable:** a source-grounded design proposal for the minimum working Development OS bootstrap, including a finite implementation plan, validation approach, authority boundaries and explicit deferrals.
 
-Required recheck from the new chat's default working directory:
+**Not yet observed:** task dispatch, a Codex design result, accepted design, implementation, GitHub write/PR success or self-sustain testing. Brief readiness is not task completion.
 
-- `pwd` and `git rev-parse --show-toplevel` identify the intended working copy;
-- `git remote get-url origin` identifies the intended repository, with any embedded credentials redacted;
-- current branch/ref is visible;
-- HEAD/working-tree state is known and consistent with or explicitly behind remote `main`.
+For this assignment:
 
-Do not silently change directories to make a misbound chat pass this check. A mismatch is a binding failure to report, not permission to run `git init`, re-clone, move/delete files or broaden permissions.
+- read-only repository/web research and design reasoning are in scope;
+- no file/config mutation, branch/commit/push, issue/PR creation, dependency installation or permission expansion;
+- no SOUL product architecture/implementation;
+- no automatic import of old SOUL roles/workflows or this research agent's control files;
+- Codex returns its proposal, evidence and uncertainties, then stops.
 
-After this binding is correct, the next separately bounded assignment may address Stage-1 Development OS bootstrap problem research/design. The read-only recheck itself must stop after reporting.
+After the result is relayed, review its source coverage, assumptions, minimum complexity, acceptance criteria and actual platform feasibility. Do not automatically approve or implement it. Unresolved write/CI capabilities must be addressed when the selected implementation needs them, rather than asserted to work.
 
 ## Bridge retirement condition
 
-Mark the current bridge as retired when a genuinely fresh Codex session can recover from `soul-development-os` canonical state alone:
+The bridge can retire when fresh Codex work demonstrates, rather than merely documents:
 
-- purpose and authorization;
-- established/open/uncertain state;
-- correct current/next Work and work-selection discipline;
-- Actor authority/non-authority;
-- research need and research-authority boundary;
-- design/build/verification/acceptance distinctions when material;
-- evidence/completion discipline;
-- fresh-session continuity;
-- governed Development OS self-revision;
+- recovery of purpose, authority, established/open state and the correct current/next work;
+- research when needed, without turning evidence into automatic architecture;
+- appropriate design/build/verification/acceptance separation;
+- evidence-based completion and recovery across sessions;
+- governed self-revision without self-expanding authority or silently changing success criteria;
+- at least meaningful routine work and relevant failure cases without ChatGPT/Batu acting as permanent technical coordinator.
 
-without depending on this ChatGPT conversation or routine hidden human orchestration.
+A launch prompt, directory tree, model name or one successful binding check is not sufficient. Self-sustain does not imply continuous unattended execution; any scheduling/automation capability requires its own justification and observed support.
