@@ -1,86 +1,92 @@
 # Transition / Effect / Feedback — STATE
 
-**Status:** BOUNDED PARENT RESULT / USER-EVALUATED / ACCEPTED 2026-09-06; TRANSITION / PROPAGATION CHILD ACTIVE  
-**Activated parent pass:** 2026-09-05  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION BOUNDED LEAF / AWAITING USER EVALUATION  
 **Parent accepted:** 2026-09-06  
 **Parent:** `Cross-Ground Composition` — accepted  
-**Prior composition children:** Relational Binding, Composite Standing, Control / Constraint — bounded leaves / accepted  
-**Current phase:** CROSS-GROUND TRANSITION / PROPAGATION — P0 ACTIVE  
-**Current authorised substantive activity:** CROSS-GROUND TRANSITION / PROPAGATION CHILD PASS
+**Prior composition children:** Relational Binding, Composite Standing, Control / Constraint — accepted bounded leaves  
+**Cross-Ground Transition / Propagation:** bounded leaf / USER EVALUATION PENDING  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** CROSS-GROUND TRANSITION / PROPAGATION RESULT EVALUATION ONLY
 
-## Accepted parent result
+## Accepted parent structure
 
 ```text
 Transition / Effect / Feedback
-    ← BOUNDEDLY COMPLETE AS PARENT REGION / ACCEPTED
-    ← NOT A LEAF
-
-├─ Cross-Ground Transition / Propagation        ← ACTIVE / P0
+├─ Cross-Ground Transition / Propagation        ← BOUNDED LEAF / USER EVALUATION PENDING
 ├─ Cross-Ground Causal Effect / Contribution    ← discovered / inactive
 └─ Cross-Ground Feedback / Adaptation           ← discovered / inactive
 ```
 
-## Critical routing boundary
-
-```text
-ground-local dynamics
-!= cross-ground Transition / Effect / Feedback
-```
-
-A case belongs here only when the protected temporal/effect question irreducibly spans accepted grounds or their accepted Binding/Standing/Control composition.
-
-## Accepted child protected questions
-
-### Cross-Ground Transition / Propagation — ACTIVE
-
-> What actually changed/unfolded across ground boundaries, at what exact anchors/scopes/times, and how fully did the change propagate or fail to propagate?
-
-Core non-collapse inherited from parent:
-
-```text
-change requested != change realized != change effective everywhere
-recorded event != actual occurrence
-occurrence time != observation time != effective time
-```
+## Current Transition / Propagation result
 
 Canonical package:
 
 `transition-propagation/`
 
-### Cross-Ground Causal Effect / Contribution — inactive
+Current bounded judgment:
 
-> Which actions/events/conditions/controls/Work/Actor contributions caused, enabled, amplified, prevented, or failed to prevent/detect a realized cross-ground effect, with what causal depth/confidence?
+> Cross-Ground Transition / Propagation is a bounded leaf for realized cross-ground change, exact realized scope/time and propagation semantics. No immediate child is promoted.
 
-### Cross-Ground Feedback / Adaptation — inactive
+Critical routing boundary:
 
-> Did observations/results/effects return across ground boundaries to alter later behavior, and did they only influence one response or persistently change the response-generating system?
+```text
+ground-local dynamics
+!= cross-ground Transition / Propagation
+```
 
-## Cross-cutting dimensions — not parent children
+Stable non-collapse includes:
 
-- occurrence/effective/observation/reference time;
-- delay/latency;
-- version/scope/reference frame;
-- partiality/convergence;
-- evidence/uncertainty;
-- direct/indirect paths;
-- persistence/reversibility;
-- scale/resolution.
+```text
+requested / approved / committed / recorded change
+!= realized change
+!= change effective across all applicable scope
+!= observed / verified realization
 
-## Sequencing rule
+propagation != data replication
+propagation episode exists != full-propagation Standing holds
+rollback != time reversal
+compensation != literal reversal
+transition/dependency sequence != causal proof
+```
 
-Only `Cross-Ground Transition / Propagation` is active.
+Strongest structural discovery:
 
-After this child closes, re-select between Causal Effect/Contribution and Feedback/Adaptation based on the child result; do not pre-fix their order.
+> A propagation episode can comprise multiple exact transition instances connected by typed dependencies/relations; it need not be one monolithic event.
+
+Frame-blindness guardrail:
+
+```text
+all known targets updated
+!= all materially applicable targets known
+!= full propagation established
+```
+
+## Child status
+
+```text
+Cross-Ground Transition / Propagation        ← evaluation pending / inactive
+Cross-Ground Causal Effect / Contribution    ← RECOMMENDED NEXT IF PROPAGATION ACCEPTED / inactive
+Cross-Ground Feedback / Adaptation           ← inactive
+```
+
+## Sequencing result after Transition / Propagation closure
+
+P7 re-evaluated the remaining sibling order.
+
+Current recommendation:
+
+> **Cross-Ground Causal Effect / Contribution should be next if Transition / Propagation is accepted.**
+
+Reason: exact realized effect/change identity is now available; causal-effect/control-effectiveness/root-cause questions are high-value and causal discrimination can later strengthen Feedback/Adaptation claims.
+
+This recommendation does not activate the child.
 
 ## Verification status
 
-Parent T7 is same-model adversarial review. User acceptance closes the parent evaluation gate but does not create independent verification.
+Transition parent T7 and Transition/Propagation P7 are same-model adversarial reviews with authoritative external holdout pressure. No independent second-researcher/model replication validates the exact results.
 
-## Guardrail
+## Current authorization
 
-Do not automatically begin:
-- Cross-Ground Causal Effect / Contribution;
-- Cross-Ground Feedback / Adaptation;
-- architecture;
-- ontology/data-model/schema work;
-- implementation.
+**CROSS-GROUND TRANSITION / PROPAGATION RESULT EVALUATION ONLY.**
+
+Do not automatically begin Causal Effect/Contribution, Feedback/Adaptation, architecture, ontology/data-model/schema work or implementation.
