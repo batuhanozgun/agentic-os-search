@@ -1,18 +1,18 @@
 # Cross-Ground Causal Effect / Contribution — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT BOUNDED LEAF / AWAITING USER EVALUATION  
 **Date:** 2026-09-06
 
-## Current accepted structure
+## Current structure
 
 ```text
 Cross-Ground Causal Effect / Contribution
 ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-└─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
+└─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
 ```
 
-The parent is **not a leaf**. The two diagnostic children remain distinct.
+The parent is **not a leaf**. Dedicated child research now supports bounded-leaf results for both immediate children, with the Contrastive result still awaiting user acceptance.
 
 ## Parent protected question
 
@@ -30,52 +30,66 @@ Did X cause this observed Y?
 
 > In this exact realized episode/effect, which actual events, conditions, omissions, controls, actions or interactions causally contributed to what occurred?
 
-Accepted strongest rules:
+Strongest rules:
 
 ```text
 chronology != actual cause
-joint causal configuration != collection of independent cause edges
+joint causal configuration != independent cause edges
 but-for necessity != universal causal criterion
-one cause identified != complete causal model
 causal contribution != responsibility/accountability
 all observed contributors analyzed != causal explanation complete
 ```
 
-## Remaining child — Contrastive / Interventional Causal Effect
+## Current child — Contrastive / Interventional Causal Effect
 
-> How would outcome/effect Y differ under a defined alternative state/action/exposure/intervention X versus X', for the relevant unit/population/context?
+> For a defined target, how would outcome/effect Y differ under exact regime/state/action/exposure X versus comparator X', under the relevant context/time/version, and with what limits on causal identification and generalization?
 
-Core non-collapse:
+Current bounded result:
 
 ```text
-association != causal effect
-before/after difference != intervention effectiveness
-average/general effect != actual cause of one episode
-actual episode cause != general effect magnitude
-control presence/compliance != causal risk-reduction effectiveness
+Contrastive / Interventional Causal Effect
+    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← no immediate child promoted
 ```
 
-## Causal-depth roles — profiles, not children
+Strongest rules:
 
-- proximate/direct cause;
-- enabling/contributing condition;
-- prevention failure;
-- detection/containment failure;
-- systemic/framing condition;
-- necessary/sufficient/contributing properties;
-- omission/failure-to-prevent;
-- mitigating/preventive contribution.
+```text
+causal effect identity
+= outcome + target + X vs X' + applicability frame
+  (+ exact regime/configuration semantics where material)
 
-## Evidence boundary
+association != causal effect
+intended/assigned X != realized/received X
+average effect != individual effect
+source/local effect != target effect
+no observed spillover != no interference
+causal target defined != identifiable != estimated != decision-sufficient
+Control implemented/complied-with != Control causally effective
+```
 
-No universal evidence ladder is promoted. Mechanism, intervention/experiment, counterfactual reasoning, statistical/observational causal inference, investigative reconstruction and domain theory remain claim-dependent evidence modes.
+Transportability/Generalization remains a major profile and strongest reopen trigger, not a promoted child at current depth.
 
-## Next sequencing recommendation
+## Control-effectiveness interface
 
-> **Contrastive / Interventional Causal Effect** is the strongest next child.
+```text
+Control
++ Contrastive Causal Effect
++ Composite Standing
+```
 
-It is not active.
+remains sufficient at current Foundation depth for distinguishing governing semantics, causal outcome change and whether that effect meets an effectiveness criterion.
+
+## Current sequencing recommendation
+
+If the user accepts the Contrastive leaf:
+
+> **Cross-Ground Feedback / Adaptation**
+
+is the strongest next Transition child.
+
+Do not activate automatically.
 
 ## Verification boundary
 
-Parent E7 and Actual A7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact hierarchy or accepted leaf result.
+Parent E7, Actual A7 and Contrastive I7 are same-model adversarial reviews. Fresh public-web retrieval failed during the Contrastive pass, so no fresh dedicated transportability/interference review was added. No independent second-researcher/model replication validates the exact current hierarchy.
