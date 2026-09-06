@@ -2,7 +2,7 @@
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; CURRENT DEVELOPMENT-BOOTSTRAP BRIDGE MAINTENANCE ACTIVE  
 **Son güncelleme:** 2026-09-06  
-**Bridge checkpoint:** G0 ZIP RECEIVED / STATIC EVIDENCE REVIEW COMPLETE; CANDIDATE CONTENT CONSISTENT; ISOLATION PREREQUISITE NOT QUALIFIED; D1 DIAGNOSTIC BRIEF READY FOR USER ADOPTION; NO OPERATING ACCEPTANCE
+**Bridge checkpoint:** D1 DISPATCH/EXECUTION REPORTED BY USER; RESULT PENDING; DIRECTION REVIEW RECORDED; CANDIDATE BEHAVIOR AND OPERATING ACCEPTANCE STILL UNESTABLISHED
 
 ## Yetkilendirilmiş amaç
 
@@ -10,13 +10,15 @@ Original context objective remains complete: reconstruct why SOUL Research exist
 
 The user additionally authorised bounded cross-project continuity and temporary bootstrap guidance: preserve the SOUL Research → new Development OS → Production relationship; prepare and review Codex work until the new Development OS sustains work across sessions without permanent hidden human orchestration.
 
-This package does not become the product architecture or future Development OS current-state authority. This turn reviews supplied evidence and prepares a proposed continuation; it does not execute on the Mac, amend the operating candidate, or grant the next task merely by writing a brief.
+This package does not become the product architecture or future Development OS current-state authority. The current research-side responsibility is to review direction/evidence and preserve continuity, not execute on the Mac, amend C1 or the running D1, or grant adjacent work merely by recording a recommendation.
 
 ## Authority and entry surfaces
 
 **This STATE is the single current checkpoint/next-action authority for the research-side bootstrap bridge.**
 
 - Purpose, vision, repository topology and stage conditions: `current/DEVELOPMENT-OS-BOOTSTRAP.md`.
+- **Opening vision restored by the user:** `current/reviews/2026-09-06-direction/OPENING-VISION-SOURCE.md`.
+- **Current direction assessment and capability-scope comparison:** `current/reviews/2026-09-06-direction/REVIEW.md`.
 - S1 task: `current/briefs/CODEX-STAGE-1-BOOTSTRAP-DESIGN.md`.
 - S1 response/review: `current/reviews/2026-09-06-stage-1/`.
 - S1A task: `current/briefs/CODEX-STAGE-1A-STARTER-CONTRACT.md`.
@@ -24,9 +26,23 @@ This package does not become the product architecture or future Development OS c
 - Issued G0: `current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`.
 - **G0 archive evidence selection:** `current/reviews/2026-09-06-g0/EVIDENCE-EXTRACTS.md`.
 - **G0 archive audit and diagnosis:** `current/reviews/2026-09-06-g0/REVIEW.md`.
-- **Proposed next task:** `current/briefs/CODEX-G0-D1-BOUNDARY-DIAGNOSIS.md`.
+- **D1 assignment, user-reported running:** `current/briefs/CODEX-G0-D1-BOUNDARY-DIAGNOSIS.md`.
 
 Prepared task, actual dispatch, returned result, tested property and operating acceptance are separate. Target-repository work must eventually be recovered there; unpublished local files cannot be fetched through this assistant's GitHub connector. A supplied snapshot is evidence, not live target state.
+
+## Direction checkpoint — preserve the goal, not only the last blocker
+
+On 2026-09-06 the user stated that D1 had been sent and Codex was working, then asked whether setup and context pressure were again eroding the original SOUL scope. This is a user-reported execution status, not an independently observed D1 log or result.
+
+The product direction remains outcome→task-specific working-system formation, operation, evidence-based reality checking and governed adaptation, without requiring the human to pre-design all agents/workflows/information mechanisms. Development OS is the means for developing that product, not the whole product. D1 is a bounded diagnostic within that means, not the new end goal.
+
+The restored opening answer is a user-selected reference to an earlier assistant synthesis, not automatic acceptance of its module names or every research claim. Source blob: `f8d4aa7c5fb6b09dc3e49ba5f336bb30bc5c4825`; SHA-256: `124a66f5829169d2d3fd8ee3ba88e27a6c3276d3c1016f2af3d275c328a55b27`. Its unchanged copy was read back after preservation.
+
+Direction-review judgment: no accepted goal-reduction was found, and bounded bootstrap remains defensible; however, current work is concentrated on controls/setup, while C1's local purpose primarily describes successful bootstrap/handoff rather than the fuller SOUL product direction. Indirect research references exist, so this is not total source absence. It is a goal-recovery and attention-allocation risk, not a proven fresh-session failure or proof that context saturation alone caused prior failures.
+
+The review preserves the capability expectations that are not yet implemented or tested: outcome understanding, appropriate system formation, epistemic state, useful bounded execution, reality verification, capability acquisition, recovery/evolution and reduced hidden human coordination. Deferred does not mean removed; neither does this list authorise implementing all capabilities now.
+
+Recommendation for the next scope/continuation decision: evaluate D1 by what necessary work it enables; do not automatically turn every remaining technical issue into another repair task. Keep a short explicit connection from current work to product purpose and the capabilities intentionally deferred. Any change to the frozen candidate or to the next experimental scope needs its own explicit, version-aware authorisation. The current D1 is unchanged and no extra prompt or concurrent writing work was dispatched by this review.
 
 ## Historical setup and design — do not repeat
 
@@ -73,7 +89,7 @@ Original Mac run directory:
 
 `/Users/Batu/Documents/Codex/SOUL-Development-OS-Run-Evidence/G0-20260906T184203Z-hw893ewz/`
 
-The original directory holds the ZIP and `evidence/REPORT-TR.md`, `evidence/R-C1-NOT-RUN.md`. The archive uses a portable internal layout. A local path alone is not an attachment; in this turn the ZIP bytes were actually obtained and inspected.
+The original directory holds the ZIP and `evidence/REPORT-TR.md`, `evidence/R-C1-NOT-RUN.md`. The archive uses a portable internal layout. A local path alone is not an attachment; the ZIP bytes were obtained and inspected in the preceding G0 evidence-review turn.
 
 ### Candidate and static verification
 
@@ -104,7 +120,7 @@ Actual model launches: 1/8; conservative startup attempts: 2/8; the one technica
 
 The negative read was explicitly requested as a safe synthetic boundary probe. It is not an autonomous model policy violation or a test of the candidate's reasoning discipline. No personal-file read or write-escape experiment is evidenced.
 
-## Current review judgment and causal hypothesis
+## G0 review judgment and causal hypothesis — D1 result still pending
 
 **Candidate contents are consistent with the bounded authorisation; behavior remains untested. G0's isolation requirement remains unqualified.**
 
@@ -132,7 +148,7 @@ The archive records child `startup-retry`, PID 76949, `subprocess.wait` exit 0 a
 
 ## Current remote checkpoint
 
-A fresh research-side GitHub branch-list read during this audit returned only `main` at `3776384a7789ccf1959b99bba92c8cf1b3131f81`, `protected: false`. No local candidate was published by this review. This is not a full remote audit or independent inspection of all Mac state.
+The last research-side GitHub branch-list read, during the G0 archive audit, returned only `main` at `3776384a7789ccf1959b99bba92c8cf1b3131f81`, `protected: false`. No local candidate was published by that review. This is not a full remote audit or independent inspection of all Mac state; D1's current local state is not inferred from it.
 
 ## Next action
 
@@ -142,21 +158,25 @@ A fresh research-side GitHub branch-list read during this audit returned only `m
 
 ### Current bootstrap bridge
 
-Proposed next task: **DEVOS-G0-D1-2026-09-06**.
+Task reported sent and running: **DEVOS-G0-D1-2026-09-06**.
 
 - Brief: `current/briefs/CODEX-G0-D1-BOUNDARY-DIAGNOSIS.md`.
 - Initial brief commit: `0aac736aacfd61d3af40e4397d9ea6421a5bc74e`.
-- **Status: READY FOR EXPLICIT USER ADOPTION; no D1 dispatch, probe, result or acceptance recorded.**
+- Ref specified in the relay prompt: `7be2567f10490e70781105541b35817f96488fa2`.
+- Brief blob: `cefef3a72b46809faebdc46b6e43f6d50dfe027a`.
+- **Status: USER-REPORTED DISPATCH/EXECUTION; NO D1 RESULT RECEIVED.** The user's words were: “Mesajı verdim Codex çalışıyor.” Exact receipt/loading/execution logs have not been independently inspected. Do not ask for duplicate dispatch because the brief's creation-time header says READY.
 
-Use a fresh Codex conversation in the correctly bound project. The proposed D1 reads existing evidence and exact version code, checks the real policy/launch path, and performs limited synthetic native probes with at most one necessary actual child-model check. It writes only new D1 evidence/synthetic areas, preserves C1/G0/main and does not run T1–T4/R(C1). User adoption of the pinned brief grants only its bounded diagnostic scope; this STATE does not grant it.
+D1's adopted scope is unchanged: read existing evidence and exact version code, check the policy/launch path, and perform limited synthetic native probes with at most one necessary actual child-model check. Writes are only to new D1 evidence/synthetic areas. C1/G0/main are preserved; T1–T4/R(C1) and operating acceptance are excluded.
 
-Next research responsibility after D1 relay: inspect actual policy/command/results and determine whether a separately authorised T1–T4 continuation, narrower repair, or explicit requirement/environment reconsideration is warranted. Do not retry G0, install persistent policy, switch models, expand permissions, or adopt operating acceptance automatically.
+Current research responsibility: receive the D1 result/evidence, assess the demonstrated boundary and unresolved conditions, then evaluate the next work against the restored product direction and the bounded bootstrap purpose. A technical success does not prove SOUL system formation; a remaining technical issue does not automatically authorize another repair task. No new task is sent into the running session by this direction review.
+
+After D1, a separately authorised T1–T4 continuation, narrower repair or explicit requirement/environment reconsideration may be justified by the evidence. Do not retry G0, install persistent policy, switch models, expand permissions, mutate frozen C1 or adopt operating acceptance automatically. Recommendations in the direction review are not new implementation authority.
 
 ## Corpus and authority boundaries
 
 `repos/`: predecessor ledgers. `evidence/`: historical syntheses. `current/`: cross-project context. `current/briefs/`: versioned assignments. `current/reviews/`: preserved responses, selected evidence and bounded reviews. These are not Foundation, candidate-study findings or this research assistant's agent-control.
 
-This audit changes only the research-side continuity/review surfaces. AGENT.md, agent/**, Foundation, studies, predecessor SOUL and both target repositories are unchanged by it. Once Development OS has reliable accessible current state, recover its routine work there rather than mirroring it here.
+This direction review changes only the research-side continuity/review surfaces. AGENT.md, agent/**, Foundation, studies, predecessor SOUL and both target repositories are unchanged by it. Once Development OS has reliable accessible current state, recover its routine work there rather than mirroring it here.
 
 ## Bridge retirement
 
