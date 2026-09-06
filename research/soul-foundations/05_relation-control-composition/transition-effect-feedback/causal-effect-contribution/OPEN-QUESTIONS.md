@@ -1,83 +1,78 @@
 # Cross-Ground Causal Effect / Contribution — Open Questions / Reopen Triggers
 
-**Status:** bounded residuals after E0→E7 parent closure  
+**Status:** bounded residuals after accepted parent + completed Actual Causation child  
 **Date:** 2026-09-06  
 **Role:** residual uncertainty; NOT an automatic execution queue
 
-## Current bounded result
+## Current structure
 
 ```text
-Cross-Ground Causal Effect / Contribution
-├─ Actual Causal Contribution / Episode Causation
-└─ Contrastive / Interventional Causal Effect
+Cross-Ground Causal Effect / Contribution        ← accepted bounded parent
+├─ Actual Causal Contribution / Episode Causation       ← bounded leaf / USER EVALUATION PENDING
+└─ Contrastive / Interventional Causal Effect            ← recommended next if accepted / inactive
 ```
 
-Parent is boundedly complete for current immediate-child discovery; user evaluation pending.
+## Actual Causation questions now delegated to child package
 
-## Actual Causal Contribution / Episode Causation residuals
+Dedicated A0→A7 research now covers:
+- minimum actual-cause grammar;
+- joint/configuration-sensitive causation;
+- multiple sufficient sets / overdetermination / preemption;
+- omission/failure-to-prevent relevance;
+- proximate/enabling/prevention/detection/systemic roles;
+- evidence/alternative discrimination;
+- causal frame-completeness uncertainty;
+- responsibility/Control/Standing boundaries;
+- causal-depth stopping rule.
 
-1. What minimum actual-cause claim structure survives deterministic, probabilistic, organizational and agentic incidents?
-2. How should multiple sufficient causes / overdetermination be represented conceptually without forcing one structural-causal formalism?
-3. When is but-for reasoning sufficient, when must causal-set/mechanism reasoning supplement it?
-4. What exact constraints make an omission/failure-to-prevent causally relevant rather than merely imaginable absence?
-5. How should proximate/enabling/prevention/detection/systemic roles be used without implying a universal depth hierarchy?
-6. What evidence threshold justifies saying one contributor actually caused this episode versus merely being plausible?
-7. How should causal analysis preserve uncertainty when several episode explanations remain observationally equivalent?
-8. When does deeper analysis materially change intervention/recurrence/control choice enough to continue?
-9. How should causal contribution interface with Actor responsibility/accountability without blame leakage?
-10. When is control failure a causal contributor to the outcome versus merely a control-assurance defect?
+Narrow residuals/reopen triggers live in:
 
-## Contrastive / Interventional Causal Effect residuals
+`actual-causal-contribution/OPEN-QUESTIONS.md`
 
-11. What minimum causal-contrast semantics are Foundation-safe without selecting potential-outcome, SCM or decision-theoretic ontology?
-12. When must intervention/treatment realization/fidelity be modeled separately from intended intervention?
-13. How should confounding, selection and information bias be represented as assumptions/threats without turning the child into general statistics?
-14. When do effect heterogeneity and transportability materially change whether one causal effect can be reused in another Environment/context?
-15. How should interference/spillover between Actors/units be handled conceptually?
-16. Can an effect be meaningfully causal for non-manipulable exposures, and what contrast semantics are needed?
-17. What distinguishes control causal effectiveness from effectiveness Standing and control-assessment evidence?
-18. When does fault injection/eval evidence generalize from one target/version/environment to a broader causal-effect claim?
-19. How should average effects relate to individual/action-specific decisions without false group-to-individual inference?
+## Remaining Contrastive / Interventional Causal Effect questions
+
+1. What minimum causal-contrast semantics are Foundation-safe without selecting potential-outcome, SCM or decision-theoretic ontology?
+2. When must intervention/treatment realization/fidelity be separated from intended intervention?
+3. How should confounding, selection and information bias be preserved as threats without turning the child into general statistics?
+4. When do effect heterogeneity and transportability materially change reuse across Environment/context?
+5. How should interference/spillover between Actors/units be handled conceptually?
+6. Can causal effects be meaningful for non-manipulable exposures, and what contrast semantics are required?
+7. What distinguishes Control causal effectiveness from effectiveness Standing and control-assessment evidence?
+8. When does fault-injection/eval evidence generalize beyond one target/version/environment?
+9. How should average/general effects relate to individual/action-specific decisions without false group-to-individual inference?
+10. Does the child require its own split for intervention fidelity, heterogeneity or transportability?
 
 ## Parent/integration residuals
 
-20. Do the two promoted children survive dedicated passes or does one split/collapse?
-21. Does Actual Causation research force a separate systemic-causation child?
-22. Does Contrastive Causal Effect research expose a need for a separate causal-transport/generalization region?
-23. Does Feedback/Adaptation require both actual-cause and contrastive-effect prerequisites before it can be bounded safely?
-24. Does deeper causal work force Causation to become a fifth composition sibling despite current effect-dependence?
-25. Would an independent researcher/model retain the actual-vs-contrastive two-child split?
+11. Does dedicated Contrastive / Interventional Causal Effect research preserve the accepted two-child causal parent?
+12. Does Feedback / Adaptation require both actual-cause and contrastive-effect semantics before safe closure?
+13. Can control effectiveness remain a composition of Control + causal child + Standing without a new region?
+14. Does deeper causal work ever force Causation to become a fifth composition sibling despite current effect-dependence?
+15. Would independent second-researcher/model replication retain the actual-vs-contrastive split and Actual Causation leaf?
 
 ## Parent reopen triggers
 
 Reopen `Cross-Ground Causal Effect / Contribution` if:
-- either promoted child fails to produce a distinct protected question/failure family/evidence problem;
-- actual episode causation can be safely reduced to contrastive effect + facts without decision-critical loss;
-- contrastive causal effect can be safely reduced to accumulated actual episodes;
-- systemic causation, causal mechanism, omission, transportability or control effectiveness becomes a stable independent child;
-- causal-confidence/alternative-explanation work cannot be bounded without becoming general epistemology;
-- Causation ceases to depend on effect/change semantics and becomes a stronger composition sibling;
-- a materially different domain repeatedly breaks the two-child split;
+- Actual Causation is rejected or later fails its configuration/explanandum boundary;
+- Contrastive Causal Effect collapses into accumulated actual episodes;
+- contrastive research exposes a stable third causal child such as Transport/Generalization;
+- causal confidence/alternatives cannot remain bounded without general epistemology;
+- Causation ceases to depend on effect/change semantics;
 - independent replication identifies a stronger structure.
 
 ## Non-reopen conditions
 
 Do not reopen merely because:
-- a domain uses a different causal formalism;
-- one domain uses root-cause trees and another randomized experiments;
-- a causal claim is probabilistic rather than deterministic;
-- one episode has many contributors;
-- one contributor is both enabling and systemic;
-- a control has both actual and general effectiveness questions;
-- counterfactual notation differs;
-- later architecture uses graphs, Bayesian networks, fault trees, STPA/CAST, statistical estimators or causal models.
+- a domain uses different causal formalisms;
+- actual episodes have many contributors;
+- one cause is probabilistic;
+- one contributor is systemic and enabling;
+- later architecture uses fault trees, Bayesian/causal graphs, STPA/CAST or statistical estimators.
 
 ## Current sequencing recommendation
 
-If user evaluation accepts the parent result:
+If user evaluation accepts `Actual Causal Contribution / Episode Causation`:
 
-> **Actual Causal Contribution / Episode Causation** is the strongest first immediate child.
+> **Contrastive / Interventional Causal Effect** is the strongest next child and requires separate substantive activation.
 
-Do not pre-fix the order after that child. Re-select `Contrastive / Interventional Causal Effect` versus `Feedback / Adaptation` based on exposed dependencies.
-
-No architecture, ontology/data-model/schema or implementation work is authorized by this note.
+No Feedback/Adaptation, architecture, ontology/data-model/schema or implementation work is authorized by this note.
