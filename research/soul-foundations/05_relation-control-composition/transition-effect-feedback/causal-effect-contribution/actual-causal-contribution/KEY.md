@@ -1,14 +1,14 @@
 # Actual Causal Contribution / Episode Causation — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** BOUNDED LEAF RESULT / AWAITING USER EVALUATION  
+**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-06
 
 ## Shortest current result
 
 ```text
 Actual Causal Contribution / Episode Causation
-    ← BOUNDED LEAF
+    ← BOUNDED LEAF / ACCEPTED
     ← no immediate child promoted
     ← effect-centered
     ← configuration-sensitive
@@ -123,8 +123,6 @@ actual causal relation != evidence != evidence-sufficiency Standing
 - evidence mode/confidence.
 
 ## Next sequencing recommendation
-
-If user evaluation accepts this result:
 
 > **Contrastive / Interventional Causal Effect** is the strongest next child.
 
