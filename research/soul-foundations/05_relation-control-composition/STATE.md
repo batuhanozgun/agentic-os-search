@@ -1,17 +1,17 @@
 # Relation / Control / Composition — STATE
 
-**Status:** PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; TRANSITION PARENT ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; TRANSITION PARENT ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED  
 **Relational Binding:** accepted bounded leaf  
 **Composite Standing / Qualification:** accepted bounded leaf  
 **Control / Constraint:** accepted bounded leaf  
 **Transition / Effect / Feedback:** accepted bounded parent  
 **Cross-Ground Transition / Propagation:** accepted bounded leaf  
 **Cross-Ground Causal Effect / Contribution:** accepted bounded parent  
-**Actual Causal Contribution / Episode Causation:** bounded leaf / USER EVALUATION PENDING  
-**Contrastive / Interventional Causal Effect:** recommended next if accepted / inactive  
+**Actual Causal Contribution / Episode Causation:** accepted bounded leaf  
+**Contrastive / Interventional Causal Effect:** recommended next / inactive  
 **Cross-Ground Feedback / Adaptation:** inactive  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION RESULT EVALUATION ONLY
+**Current authorised interaction:** NEXT CAUSAL CHILD SELECTION / PLANNING ONLY
 
 ## Current composition structure
 
@@ -23,11 +23,17 @@ Cross-Ground Composition
 └─ Transition / Effect / Feedback      ← accepted bounded parent
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-   │  ├─ Actual Causal Contribution / Episode Causation       ← BOUNDED LEAF / USER EVALUATION PENDING
-   │  └─ Contrastive / Interventional Causal Effect            ← recommended next if accepted / inactive
+   │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
+   │  └─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
    └─ Cross-Ground Feedback / Adaptation           ← inactive
 ```
 
+## Current next recommendation
+
+> **Contrastive / Interventional Causal Effect**
+
+This is not active.
+
 ## Current authorization
 
-User evaluation only. Do not automatically activate further causal research, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
+Selection/planning only. Do not automatically activate further causal research, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
