@@ -1,25 +1,25 @@
 # Actual Causal Contribution / Episode Causation — STATE
 
-**Status:** BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED  
 **Activated:** 2026-09-06  
 **Closed for evaluation:** 2026-09-06  
+**Accepted:** 2026-09-06  
 **Parent:** `Cross-Ground Causal Effect / Contribution` — bounded parent / user-evaluated / accepted 2026-09-06  
-**Sibling:** `Contrastive / Interventional Causal Effect` — discovered / inactive  
+**Sibling:** `Contrastive / Interventional Causal Effect` — recommended next / inactive  
 **Transition sibling outside causal parent:** `Cross-Ground Feedback / Adaptation` — inactive  
-**Current phase:** A7 CLOSURE COMPLETE / USER EVALUATION GATE  
 **A0–A7:** COMPLETE  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION RESULT EVALUATION ONLY
+**Current authorised interaction:** NEXT CAUSAL CHILD SELECTION / PLANNING ONLY
 
 ## Protected question
 
 > For one exact realized cross-ground episode/effect, which actual events, conditions, omissions, controls, actions or interactions causally contributed to what occurred, through what episode-specific causal structure, at what decision-relevant depth, and with what uncertainty or competing explanations?
 
-## Bounded result
+## Accepted bounded result
 
 ```text
 Actual Causal Contribution / Episode Causation
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / USER-EVALUATED / ACCEPTED
     ← no immediate child promoted
     ← effect-centered
     ← configuration-sensitive
@@ -88,13 +88,11 @@ actual episode cause != contrastive/interventional causal effect
 - path/mechanism/context/configuration;
 - evidence mode/confidence.
 
-## Next sequencing recommendation
-
-If the user accepts this result:
+## Current sequencing recommendation
 
 > **Contrastive / Interventional Causal Effect** is the strongest current next child.
 
-It is not active.
+It is not active and requires separate substantive activation.
 
 ## Verification status
 
