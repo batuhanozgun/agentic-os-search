@@ -33,6 +33,9 @@ Need closure/current work state?
 Need source/read provenance?
 → SOURCE-LEDGER.md
 
+Need to challenge closure / omitted verticals?
+→ CLOSURE-AUDIT.md
+
 Need current-main delta?
 → revalidation/2026-09-06-v1.80.0.md
 ```
@@ -44,9 +47,11 @@ Need current-main delta?
 | Compact whole-study model | `CORE.md` | cross-system → mechanisms → source ledger |
 | Scope / authority / reuse boundary | `META.md` | `STATE.md` |
 | Closure / current-next Work | `STATE.md` | `META.md` |
+| Adversarial omission / distortion check | `CLOSURE-AUDIT.md` | inventory → held-out source verticals |
 | Method / evidence discipline | `METHOD.md` | `SOURCE-LEDGER.md` |
 | Source/read/freshness coverage | `SOURCE-LEDGER.md` | relevant synthesis → upstream source |
 | v1.79 → v1.80 freshness delta | `revalidation/2026-09-06-v1.80.0.md` | changed current source |
+| Observed source topology / specialist verticals | `inventory/STRUCTURE.md` | closure audit → subsystem syntheses |
 | Planning / work admission | `syntheses/planning-specification-work-admission.md` | ledger → sources |
 | Review / QA / ship | `syntheses/review-qa-ship-delivery-qualification.md` | ledger → sources |
 | Browser runtime / security / evidence | `syntheses/browser-runtime-security-evidence.md` | ledger → sources |
@@ -67,7 +72,7 @@ Need current-main delta?
 ```text
 pinned source corpus
         ↓
-11 native subsystem syntheses
+11 native semantic subsystem syntheses
         ↓
 cross-system composition
         ↓
@@ -77,6 +82,8 @@ cross-ground mechanisms
         ↓
 CORE.md
 ```
+
+The **11 subsystems are semantic research clusters, not eleven product verticals**. Specialist verticals can cross several clusters. The final adversarial closure pass explicitly challenged this with the iOS physical-device runtime family, scrape→skillify, health/benchmark and output-generation utilities. No missing first-order mechanism survived; see `CLOSURE-AUDIT.md`.
 
 Evidence provenance is a graph even though retrieval is hierarchical. Higher layers never replace source re-entry.
 
@@ -109,6 +116,8 @@ SITUATE
 9. Deploy / Canary / production / retrospective feedback
 10. Testing / eval / routing / compliance / flake lifecycle
 11. Repository self-development / generation / upgrade / release
+
+Important specialist verticals such as **iOS live-device QA** remain visible in source topology and closure audit even though they are not promoted into a twelfth semantic subsystem.
 
 ## Cross-system result
 
@@ -162,7 +171,8 @@ See the revalidation file before making current-main claims.
 - Treat the pinned revision as the primary research source.
 - Do not silently merge current-main behavior into pinned syntheses.
 - Do not treat a generated/documented behavior as runtime proof without corresponding evidence.
-- Do not turn first-party CI or cross-model review into independent verification by label.
+- Do not turn first-party CI, the same-model closure audit or cross-model review into independent verification by label.
+- Do not mistake the 11 semantic subsystem clusters for an exhaustive product-skill taxonomy.
 - Do not force every mechanism into exactly one Foundation ground.
 - Do not mutate Foundation or start architecture/implementation from study completion alone.
 - If current gstack beyond `c2412166...` matters, revalidate before load-bearing reuse.
