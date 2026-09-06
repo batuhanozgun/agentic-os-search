@@ -8,7 +8,7 @@ Read `STATE.md` first for current authorization.
 
 ## Current stage
 
-**CROSS-GROUND COMPOSITION — TRANSITION / EFFECT / FEEDBACK PARENT BOUNDEDLY COMPLETE / AWAITING USER EVALUATION.**
+**CROSS-GROUND COMPOSITION — TRANSITION PARENT ACCEPTED; CROSS-GROUND TRANSITION / PROPAGATION BOUNDED LEAF / AWAITING USER EVALUATION.**
 
 No substantive Foundation child is active.
 
@@ -17,9 +17,10 @@ No substantive Foundation child is active.
 | Need | Read first | Then if needed |
 |---|---|---|
 | Current overall state / authorization | `STATE.md` | current composition router |
-| Current Transition parent result | `05_relation-control-composition/transition-effect-feedback/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → T7 |
-| Transition reasoning | `05_relation-control-composition/transition-effect-feedback/INDEX.md` | targeted T0–T6 pass |
-| Transition residuals | `05_relation-control-composition/transition-effect-feedback/OPEN-QUESTIONS.md` | sibling/ground/parent surface if reopened |
+| Current Transition / Propagation result | `05_relation-control-composition/transition-effect-feedback/transition-propagation/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → P7 |
+| Transition / Propagation reasoning | `05_relation-control-composition/transition-effect-feedback/transition-propagation/INDEX.md` | targeted P0–P6 |
+| Transition / Propagation residuals | `05_relation-control-composition/transition-effect-feedback/transition-propagation/OPEN-QUESTIONS.md` | relevant parent/sibling/ground surface if reopened |
+| Accepted Transition parent | `05_relation-control-composition/transition-effect-feedback/STATE.md` | `KEY.md` → T6/T7 |
 | Accepted Control | `05_relation-control-composition/control-constraint/STATE.md` | `KEY.md` → synthesis/K7 |
 | Accepted Composite Standing | `05_relation-control-composition/composite-standing/STATE.md` | `KEY.md` → synthesis/S7 |
 | Accepted Relational Binding | `05_relation-control-composition/relational-binding/STATE.md` | `KEY.md` → synthesis/B7 |
@@ -34,17 +35,17 @@ Cross-Ground Composition
 ├─ Relational Binding                  ← bounded leaf / accepted
 ├─ Composite Standing / Qualification ← bounded leaf / accepted
 ├─ Control / Constraint                ← bounded leaf / accepted
-└─ Transition / Effect / Feedback      ← bounded parent / USER EVALUATION PENDING
-   ├─ Cross-Ground Transition / Propagation     ← discovered / inactive
-   ├─ Cross-Ground Causal Effect / Contribution ← discovered / inactive
-   └─ Cross-Ground Feedback / Adaptation        ← discovered / inactive
+└─ Transition / Effect / Feedback      ← bounded parent / accepted
+   ├─ Cross-Ground Transition / Propagation        ← bounded leaf / USER EVALUATION PENDING
+   ├─ Cross-Ground Causal Effect / Contribution    ← recommended next if accepted / inactive
+   └─ Cross-Ground Feedback / Adaptation           ← inactive
 ```
 
 ## Current next-step interpretation
 
-Current interaction is evaluation of the Transition / Effect / Feedback parent result only.
+Current interaction is evaluation of Cross-Ground Transition / Propagation only.
 
-If accepted, `Cross-Ground Transition / Propagation` is the strongest first child and requires separate substantive activation.
+If accepted, `Cross-Ground Causal Effect / Contribution` is the strongest current next sibling and requires separate substantive activation.
 
 ## Guardrail
 
