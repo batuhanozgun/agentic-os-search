@@ -1,13 +1,13 @@
 # Actual Causal Contribution / Episode Causation — Findings Map
 
-**Status:** CURRENT L1 MAP / BOUNDED LEAF RESULT  
+**Status:** CURRENT L1 MAP / BOUNDED LEAF / USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-06
 
 ## Result
 
 ```text
 Actual Causal Contribution / Episode Causation
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / ACCEPTED
     ← no immediate child promoted
 ```
 
@@ -110,7 +110,7 @@ File: `A5-EXTERNAL-CANDIDATE-HOLDOUTS.md`
 
 ## A6 — Synthesis / child decision
 
-Provisional bounded leaf:
+Bounded leaf:
 
 ```text
 Actual Causal Contribution / Episode Causation
@@ -118,7 +118,7 @@ Actual Causal Contribution / Episode Causation
     ← no immediate child
 ```
 
-Provisional next candidate: Contrastive / Interventional Causal Effect.
+Next candidate: Contrastive / Interventional Causal Effect.
 
 File: `A6-SYNTHESIS-CHILD-DECISION.md`
 
@@ -145,7 +145,7 @@ Final:
 
 ```text
 Actual Causal Contribution / Episode Causation
-    ← BOUNDED LEAF
+    ← BOUNDED LEAF / USER-EVALUATED / ACCEPTED
 ```
 
 File: `A7-ADVERSARIAL-CLOSURE.md`
@@ -172,4 +172,4 @@ actual episode cause != contrastive/interventional causal effect
 
 ## Current gate
 
-User evaluation only. No further causal child, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation work is active.
+No substantive child is active. `Contrastive / Interventional Causal Effect` is recommended next but requires separate activation. Feedback / Adaptation, architecture, ontology/data-model/schema and implementation remain inactive.
