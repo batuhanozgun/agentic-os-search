@@ -1,6 +1,6 @@
 # Actual Causal Contribution / Episode Causation — CURRENT SURFACES
 
-**Status:** canonical freshness binding at bounded leaf closure / user-evaluation gate  
+**Status:** canonical freshness binding at user-evaluated / accepted bounded leaf checkpoint  
 **Date:** 2026-09-06  
 **Branch:** `main`
 
@@ -8,13 +8,13 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Child state | `STATE.md` | `453a76e091f485f2e21e4fc35833b8a37d71f141` |
-| Child router | `INDEX.md` | `335f96dc693e863a0f58c594e6800bda121596b4` |
+| Child state | `STATE.md` | `96a142722ae636f2b7caa78b51a237671630b1b5` |
+| Child router | `INDEX.md` | `783112e579ee55156713aa747b26833ce0a1d88c` |
 | Research plan | `PLAN.md` | `75496d0df5c3aadc24e12cca29f665c03c296484` |
-| L0 key | `KEY.md` | `1d74e4da7292970bde83252b758344e849e8cd28` |
-| Findings map | `FINDINGS-MAP.md` | `86bbdaf361edb1c859834550e9e78657068e03d5` |
+| L0 key | `KEY.md` | `45eb74b56729a2c20a38596b36ea1d1c19ead27e` |
+| Findings map | `FINDINGS-MAP.md` | `bc6714ca7fd57bd7562c32c48e9c6d271a49fbdc` |
 | Integrated synthesis | `synthesis/ACTUAL-CAUSAL-CONTRIBUTION-SYNTHESIS.md` | `7736c08420b16856b03f54e5b9ae60027869c99c` |
-| Residual / reopen questions | `OPEN-QUESTIONS.md` | `0f98bd50daefdd871a0f68d9271bbf8d0b6cb83e` |
+| Residual / reopen questions | `OPEN-QUESTIONS.md` | `8c5f9b21b7cf4f1d3867824089770aad99718e01` |
 
 ## Completed passes
 
@@ -29,11 +29,11 @@
 | A6 synthesis / immediate-child decision | `A6-SYNTHESIS-CHILD-DECISION.md` | `61fe0511dadcd35ad4b4611d9dcc4ab5a8ec9193` |
 | A7 adversarial closure | `A7-ADVERSARIAL-CLOSURE.md` | `37d2caccd79f04abd50a23783c162da6c43a62f8` |
 
-## Current bounded result
+## Accepted bounded result
 
 ```text
 Actual Causal Contribution / Episode Causation
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / USER-EVALUATED / ACCEPTED
     ← no immediate child promoted
     ← effect-centered
     ← configuration-sensitive
@@ -58,7 +58,7 @@ all observed/logged contributors analyzed
 
 | Input | Bound surface SHA |
 |---|---|
-| Accepted Causal parent pre-child manifest | `../CURRENT-SURFACES.md` @ `ab9f734bd2139f559dcc04a147c65673f1ffc0e7` (parent manifest will be refreshed after this file) |
+| Accepted Causal parent pre-child manifest | `../CURRENT-SURFACES.md` @ `a20c6e39dcc9d9af502eb5ed9bc9ab3bb56104f5` (parent manifest will be refreshed after this file) |
 | Accepted Causal parent E6 | `../E6-SYNTHESIS-CHILD-DECISION.md` @ `09ddd5cb01b11feaa27a4d64b33cf99a4c8ec873` |
 | Accepted Causal parent E7 | `../E7-ADVERSARIAL-CLOSURE.md` @ `02cb37437ec531a300664d8accbab1ccd08ff155` |
 | Accepted Transition / Propagation manifest | `../../transition-propagation/CURRENT-SURFACES.md` @ `bf27c8c5b630995af0f83f11702f6f1e9b3eb26d` |
@@ -66,15 +66,7 @@ all observed/logged contributors analyzed
 
 ## External / candidate holdout note
 
-This child reused source-grounded authoritative holdout conclusions recovered in parent E5:
-- NASA mishap investigation;
-- NTSB investigation/probable-cause practice;
-- FAA causal/root-cause practice;
-- WHO patient-safety systems pressure;
-- MIT CAST/STPA systems-safety pressure;
-- Anthropic AI-native SDLC candidate study as illustrative agentic-software pressure.
-
-Fresh public-web search was attempted but failed technically during A0. Therefore this child does **not** claim a new independent external verification pass.
+This child reused source-grounded authoritative holdout conclusions recovered in parent E5. Fresh public-web search was attempted but failed technically during A0. Therefore this child does **not** claim a new independent external verification pass.
 
 ## Verification note
 
