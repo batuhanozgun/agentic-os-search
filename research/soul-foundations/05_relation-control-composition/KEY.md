@@ -1,10 +1,14 @@
 # Relation / Control / Composition — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** accepted composition; Actual Causal Contribution bounded leaf / awaiting user evaluation  
+**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; Actual Causal Contribution accepted  
 **Date:** 2026-09-06
 
-## Current structure
+## Shortest current result
+
+Systematic cross-ground composition remains a coherent Foundation research problem dependent on the four accepted grounds.
+
+Current bounded structure:
 
 ```text
 Cross-Ground Composition
@@ -14,67 +18,103 @@ Cross-Ground Composition
 └─ Transition / Effect / Feedback      ← accepted bounded parent
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-   │  ├─ Actual Causal Contribution / Episode Causation       ← BOUNDED LEAF / USER EVALUATION PENDING
-   │  └─ Contrastive / Interventional Causal Effect            ← recommended next if accepted / inactive
+   │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
+   │  └─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
    └─ Cross-Ground Feedback / Adaptation           ← inactive
 ```
 
-These are diagnostic research regions, not architecture modules or mutually exclusive object/event classes.
+These are diagnostic research problem regions, not architecture modules or mutually exclusive object/event classes.
 
-## Accepted composition regions
+## Accepted composition results
 
 ### Relational Binding
-What exact anchors/roles are connected under which applicability frame?
+
+> What exact anchors/roles are connected under which applicability frame?
 
 ### Composite Standing / Qualification
-What cross-ground qualification holds because several ground semantics are constitutive of the standing?
 
-### Control / Constraint
-How is an exact candidate behavior/transition/effect governed under an applicable basis/objective?
-
-### Transition / Effect / Feedback
-What actually changed/propagated, why, and whether results feed back into later behavior?
-
-## Current Actual Causation result
+> What cross-ground qualification holds because several ground semantics are constitutive of the standing?
 
 ```text
-Actual Causal Contribution / Episode Causation
-    ← BOUNDED LEAF
-    ← effect-centered
-    ← configuration-sensitive
+standing holds != assessment supports != decision recognizes != record says
 ```
+
+### Control / Constraint
+
+> How is an exact candidate behavior/transition/effect governed under an applicable basis/objective?
+
+```text
+policy != authority != decision != enforcement != monitoring != compliance
+governed-effect scope != enforcement-point scope
+```
+
+### Transition / Effect / Feedback
+
+```text
+Transition / Effect / Feedback
+├─ Transition / Propagation
+├─ Causal Effect / Contribution
+└─ Feedback / Adaptation
+```
+
+Critical boundary:
+
+```text
+ground-local dynamics != cross-ground Transition / Effect / Feedback
+```
+
+## Accepted Transition / Propagation
+
+Result: bounded leaf.
 
 Strongest structural discovery:
 
+> A propagation episode can comprise several exact transition instances with distinct scope/time/failure points.
+
+## Accepted Causal Effect / Contribution
+
 ```text
-joint causal configuration
-!= collection of independent cause edges
+Cross-Ground Causal Effect / Contribution
+├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
+└─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
 ```
 
-Strongest causal boundaries:
+Critical distinction:
 
 ```text
+What would X do to Y?
+!=
+Did X cause this observed Y?
+```
+
+### Accepted Actual Causal Contribution / Episode Causation
+
+Strong causal boundaries:
+
+```text
+joint causal configuration != independent cause edges
 chronology != actual causation
-cause type capable of E != actual contributor in episode e
 but-for necessity != universal causal criterion
-Control defect != actual causal contribution by identity
-omission causal relevance != duty/blame
 causal contribution != responsibility/accountability
-causal story supported != alternatives discriminated
 all observed contributors analyzed != causal explanation complete
-actual episode cause != contrastive/interventional causal effect
 ```
 
-## Current frontier
+## Remaining Transition sibling
 
-Remaining substantive Transition descendants:
-- `Contrastive / Interventional Causal Effect` — recommended next if Actual Causation accepted;
-- `Cross-Ground Feedback / Adaptation` — inactive.
+### Cross-Ground Feedback / Adaptation
+
+> Did observations/results return across ground boundaries to alter later behavior, and did the influence become persistent system change?
+
+## Current sequencing recommendation
+
+> **Contrastive / Interventional Causal Effect** is the strongest next immediate child.
+
+Do not activate automatically.
 
 ## Verification boundary
 
-All closure adversarial passes remain same-model review. No independent second-researcher/model replication validates the exact hierarchy.
+All closure adversarial passes remain same-model review. External sources supply hostile pressure but no independent second-researcher/model replication validates the exact hierarchy.
 
 ## Current gate
 
-Actual Causal Contribution / Episode Causation result evaluation only. No further child research, architecture, ontology/data model or implementation work is active.
+No substantive child is active. Architecture, ontology/data model and implementation remain outside current authorization.
