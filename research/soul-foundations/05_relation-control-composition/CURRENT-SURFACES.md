@@ -14,7 +14,7 @@
 | Composition key | `KEY.md` | `40dd5764bb976741792be4fec95f52bf7ebe0cea` |
 | Parent findings map | `FINDINGS-MAP.md` | `b98253dd32aa06ae5761770a4400dc208e15a7b6` |
 | Parent synthesis | `synthesis/COMPOSITION-PARENT-SYNTHESIS.md` | `f4a36ddaf6a711efd2939a3f423313e5af8c3530` |
-| Parent residual questions | `OPEN-QUESTIONS.md` | `53828943d586a58d479d7aa89d76a0a45a32d4b5` |
+| Parent residual questions | `OPEN-QUESTIONS.md` | `4ba17c5a038a05d98381a23ef7b5a87d6494943f` |
 
 ## Parent research passes
 
