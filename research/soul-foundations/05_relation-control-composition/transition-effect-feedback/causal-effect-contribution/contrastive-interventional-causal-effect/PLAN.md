@@ -1,6 +1,6 @@
 # Contrastive / Interventional Causal Effect — Research Plan
 
-**Status:** ACTIVE PLAN  
+**Status:** COMPLETE / I0→I7 CLOSED FOR USER EVALUATION  
 **Date:** 2026-09-06  
 **Parent:** accepted `Cross-Ground Causal Effect / Contribution`
 
@@ -15,62 +15,33 @@ Bound contrastive/interventional causal-effect semantics without collapsing the 
 - general epistemology;
 - or architecture/schema design.
 
-## Passes
+## Completed passes
 
 ### I0 — Canonical/current evidence recovery
-Recover accepted causal-parent split, Actual Causation boundary, Control/Standing boundaries, parent residuals, candidate-study pressure and authoritative causal-effect traditions. Freeze falsifiers before synthesis.
+Recovered accepted causal-parent split, Actual Causation boundary, Control/Standing boundaries, parent residuals, candidate-study pressure and source-grounded parent external conclusions. Fresh public-web retrieval failed and is recorded as a verification limitation.
 
 ### I1 — Minimum contrastive-effect signature
-Test what a decision-critical causal-effect claim must preserve: exact outcome, exact causal contrast/comparator, intervention/exposure identity, relevant unit/population/context/scope/time, effect measure/scale where material, assumptions/threats, evidence basis, uncertainty and generalization boundary.
+Established exact outcome, contrast/comparator, intervention/exposure identity, target unit/population/context/scope/time, effect scale/aggregation where material, interference configuration and causal-truth vs identification/estimate boundaries.
 
 ### I2 — Intervention / comparator / fidelity discrimination
-Attack vague `X works` claims. Distinguish intended intervention, assignment/offer, realized treatment/action, adherence/fidelity/dose, comparator/reference regime and co-interventions. Test non-manipulable exposures without forcing all causal questions into literal interventions.
+Separated intended, assigned, materialized, received/traversed and sustained intervention; preserved comparator ambiguity, treatment versions, bundles/co-interventions, dynamic regimes and fidelity.
 
 ### I3 — Confounding / selection / interference / heterogeneity audit
-Test bias/identification assumptions, treatment-effect heterogeneity, subgroup/context modification, spillover/interference, unit-definition pressure, observation/selection processes and average-to-individual inference. Preserve causal semantics without importing all of statistics.
+Bound confounding/selection/support as identification threats; heterogeneity as target/conditioning structure; interference as regime/exposure-configuration structure; transportability as source→target evidence/invariance profile.
 
 ### I4 — Rival internal decompositions
-Test candidate splits such as:
-- Intervention Identity / Causal Identification / Generalization;
-- Direct / Indirect / Mediated / Spillover;
-- Individual / Population / System Effect;
-- Local Effect / Transportability;
-- Manipulable Intervention / Exposure Contrast;
-- Efficacy / Effectiveness / Implementation Fidelity;
-- Control Effectiveness / General Causal Effect.
+Rejected child splits by intervention-definition/identification/generalization, aggregation level, mediation/spillover, manipulability, efficacy/effectiveness, transportability, evidence method, Control effectiveness and dynamic-policy type.
 
-Promote none without distinct protected questions, failure families, evidence requirements and cross-domain recurrence.
-
-### I5 — Authoritative external + candidate holdouts
-Use independent traditions as hostile pressure, not taxonomy authority. Candidate targets include:
-- Harvard Causal Inference / target-trial / potential-outcomes tradition;
-- CDC epidemiology causal-association guidance;
-- ICH E9(R1) estimands and intercurrent-event discipline;
-- transportability/external-validity literature;
-- interference/spillover causal-inference literature;
-- NIST control-effectiveness material;
-- selected safety/engineering fault-injection or A/B/evaluation evidence;
-- gstack and Anthropic candidate studies as agentic-software pressure cases.
+### I5 — External + candidate holdouts
+Reapplied source-grounded parent Dawid/Musio, CDC and NIST conclusions and current Anthropic/gstack candidate pressure. Fresh dedicated external retrieval remained unavailable; this is explicit in closure confidence.
 
 ### I6 — Synthesis / immediate-child decision
-Decide whether the child is a bounded leaf, needs immediate children, collapses/splits differently, or forces parent/four-ground reopen.
+Provisional bounded leaf with one target-specific causal-contrast grammar; no immediate child promoted.
 
 ### I7 — Adversarial closure
-Attack the strongest provisional result, especially:
-- association leakage;
-- intervention/comparator ambiguity;
-- intended-versus-realized intervention collapse;
-- positivity/support assumptions;
-- confounding/selection under-modeling;
-- interference under-promotion;
-- heterogeneity/transportability under-promotion;
-- average-to-individual inference;
-- non-manipulable exposure semantics;
-- Control-effectiveness leakage;
-- evidence-sufficiency leakage into causal truth;
-- architecture/statistics-formalism leakage.
+Attacked Transportability, Identification, Interference, mediation, fidelity/Transition boundary, non-manipulable exposure semantics, average/individual effects, Control effectiveness, estimator-truth collapse, statistics drift and closure validity under limited fresh external access. Bounded-leaf result survived.
 
-## Required non-collapse probes
+## Required non-collapse set retained
 
 ```text
 association != causal effect
@@ -78,21 +49,25 @@ before/after difference != causal effect
 intended intervention != realized intervention
 assignment/offer != treatment received
 average effect != individual effect
-local effect != transported/generalized effect
+local/source effect != target effect
 no observed spillover != no interference
 control present/implemented != control causally effective
 actual episode cause != contrastive/interventional causal effect
-causal-effect claim != causal-effect evidence != sufficient-evidence Standing
+causal target != causal-effect evidence != sufficient-evidence Standing
 ```
 
-## Closure criteria
+## Closure result
 
-Close only when:
-- the protected question remains coherent and distinct from Actual Causation;
-- minimum contrastive-effect grammar survives cross-domain pressure;
-- intervention/comparator identity and realized fidelity are bounded;
-- confounding/selection/interference/heterogeneity/transportability remain decision-visible;
-- Control and Standing boundaries remain stable;
-- rival decompositions fail or a justified child split survives;
-- residuals are reopen triggers rather than hidden execution debt;
-- no causal/statistical formalism or architecture/schema commitment is required.
+```text
+Contrastive / Interventional Causal Effect
+    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← no immediate child promoted
+```
+
+All original closure criteria are satisfied at current Foundation depth, with one explicit verification limitation: fresh public-web retrieval failed, leaving Transportability/Generalization as the strongest future reopen/replication target.
+
+## Next recommendation if accepted
+
+> **Cross-Ground Feedback / Adaptation**
+
+This plan does not authorize activation.
