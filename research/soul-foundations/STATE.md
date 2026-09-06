@@ -1,6 +1,6 @@
 # SOUL Foundations — STATE
 
-**Status:** four-ground adequacy accepted; composition parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation bounded leaf / AWAITING USER EVALUATION  
+**Status:** four-ground adequacy accepted; composition parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution ACTIVE  
 **Environment / Operating Reality:** boundedly complete / accepted  
 **Information / Representation:** boundedly complete / accepted  
 **Work:** boundedly complete / accepted  
@@ -10,10 +10,11 @@
 **Relational Binding:** bounded leaf / accepted  
 **Composite Standing / Qualification:** bounded leaf / accepted  
 **Control / Constraint:** bounded leaf / accepted  
-**Transition / Effect / Feedback:** bounded parent / user-evaluated / accepted 2026-09-06  
-**Cross-Ground Transition / Propagation:** bounded leaf / USER EVALUATION PENDING  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** CROSS-GROUND TRANSITION / PROPAGATION RESULT EVALUATION ONLY
+**Transition / Effect / Feedback:** bounded parent / accepted  
+**Cross-Ground Transition / Propagation:** bounded leaf / user-evaluated / accepted 2026-09-06  
+**Cross-Ground Causal Effect / Contribution:** ACTIVE — E0  
+**Cross-Ground Feedback / Adaptation:** inactive  
+**Current authorised substantive activity:** CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION CHILD PASS
 
 ## Accepted Foundation anchors
 
@@ -28,6 +29,7 @@ Relational Binding                               ← accepted bounded leaf
 Composite Standing / Qualification               ← accepted bounded leaf
 Control / Constraint                             ← accepted bounded leaf
 Transition / Effect / Feedback                   ← accepted bounded parent
+Cross-Ground Transition / Propagation            ← accepted bounded leaf
 ```
 
 ## Current composition state
@@ -38,56 +40,33 @@ Cross-Ground Composition
 ├─ Composite Standing / Qualification ← accepted bounded leaf
 ├─ Control / Constraint                ← accepted bounded leaf
 └─ Transition / Effect / Feedback      ← accepted bounded parent
-   ├─ Cross-Ground Transition / Propagation        ← BOUNDED LEAF / USER EVALUATION PENDING
-   ├─ Cross-Ground Causal Effect / Contribution    ← recommended next if accepted / inactive
+   ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
+   ├─ Cross-Ground Causal Effect / Contribution    ← ACTIVE — E0
    └─ Cross-Ground Feedback / Adaptation           ← inactive
 ```
 
-## Current Transition / Propagation result
+## Current active research
 
 Canonical package:
 
-`05_relation-control-composition/transition-effect-feedback/transition-propagation/`
+`05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/`
 
-Current bounded judgment:
+Protected question:
 
-> Cross-Ground Transition / Propagation is a bounded leaf for exact realized cross-ground change, realized scope/time and propagation/dependency semantics. No immediate child is promoted.
+> For an exact realized cross-ground effect or transition, which actions/events/conditions/controls/Work/Actor contributions actually caused, enabled, amplified, prevented, or failed to prevent/detect that effect; at what causal depth and with what evidential confidence?
 
-Strongest non-collapse:
-
-```text
-requested / approved / committed / recorded change
-!= realized change
-!= change effective across all applicable scope
-!= observed / verified realization
-```
-
-Strongest structural discovery:
-
-> A propagation episode can comprise multiple exact transition instances with distinct local owners, scopes, times and failure points.
-
-Frame-blindness guardrail:
+Required causal-depth discipline:
 
 ```text
-all known targets updated
-!= all materially applicable targets known
-!= full propagation established
+symptom != cause
+proximate cause != complete causal explanation
+trigger != enabling conditions / control failures / systemic factors
+one cause found != alternatives excluded
+causal attribution != responsibility/accountability
 ```
-
-## Current next-frontier recommendation
-
-If the user accepts this result:
-
-> **Cross-Ground Causal Effect / Contribution**
-
-This is not active.
-
-## Verification status
-
-Transition/Propagation P7 is same-model adversarial review. Authoritative external holdouts pressure the result but do not independently validate the exact synthesis. No independent second-researcher/model replication has been performed.
 
 ## Current authorization
 
-**USER EVALUATION OF CROSS-GROUND TRANSITION / PROPAGATION RESULT ONLY.**
+**CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION E0→E7 TO BOUNDED CLOSURE.**
 
-Do not automatically begin Causal Effect/Contribution, Feedback/Adaptation, architecture, ontology/data-model/schema work or implementation.
+Do not automatically begin Feedback/Adaptation, architecture, ontology/data-model/schema work or implementation.
