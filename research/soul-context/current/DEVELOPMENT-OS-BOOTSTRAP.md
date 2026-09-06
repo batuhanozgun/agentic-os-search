@@ -327,6 +327,16 @@ The research-side GitHub connector independently confirmed that `batuhanozgun/so
 
 Therefore the remote repository is not literally commit-less; it is **semantically empty/minimal but initialized**. The Codex blocker is not “remote repository has no Git state”; it is **desktop project source binding points at the wrong non-Git local directory**.
 
+## Initial-file provenance clarification — user report, 2026-09-06
+
+After the Stage-0 report and GitHub cross-check, the user clarified that the `.gitkeep` file in `batuhanozgun/soul-development-os` came from an earlier Codex web/Cloud attempt. They sent the first prompt and immediately cancelled it, but the file had already been created during that attempt, before the desktop preflight. The user explicitly stated that the desktop session did not create it.
+
+**Evidence boundary:** this Cloud-attempt attribution is user-reported. The GitHub inspection independently establishes the initial commit and file's existence, but the Cloud task execution log and its binding to that commit were not independently inspected. Do not promote this attribution to independently verified task provenance.
+
+The earlier Cloud attempt and the later read-only desktop preflight are distinct episodes. The existence of the initial remote commit therefore does **not** by itself contradict the desktop report `Repository mutations performed: NONE`; nor does it independently prove that report in full. This clarification concerns the new `soul-development-os` repository, not a change to the predecessor `batuhanozgun/soul` repository.
+
+The current Stage-0B working-copy binding requirement is unchanged. No deletion, rollback, reinitialization, permission expansion or new Development OS design work is authorised by this clarification.
+
 ## Model rule
 
 The current use of Astra is an Environment/model choice for bootstrap experimentation, **not an architectural dependency**. Development OS should eventually treat model/runtime identity as a capability/environment variable rather than encode one model as permanent truth.
