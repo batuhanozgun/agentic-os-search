@@ -1,27 +1,25 @@
 # Cross-Ground Transition / Propagation — STATE
 
-**Status:** BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED  
 **Activated:** 2026-09-06  
 **Closed for evaluation:** 2026-09-06  
+**Accepted:** 2026-09-06  
 **Parent:** `Transition / Effect / Feedback` — bounded parent / user-evaluated / accepted 2026-09-06  
-**Sibling children:** Cross-Ground Causal Effect / Contribution and Cross-Ground Feedback / Adaptation — discovered / inactive  
-**Current phase:** P7 CLOSURE COMPLETE / USER EVALUATION GATE  
+**Sibling children:** Cross-Ground Causal Effect / Contribution — active after acceptance; Cross-Ground Feedback / Adaptation — inactive  
 **P0–P7:** COMPLETE  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** CROSS-GROUND TRANSITION / PROPAGATION RESULT EVALUATION ONLY
+**Current authorised substantive activity:** NONE IN THIS PACKAGE
 
 ## Protected question
 
 > What exact change actually became real/effective across accepted-ground boundaries, for which anchors/scopes/times, through which applicable bindings/dependencies, and how fully did the change propagate or fail to propagate?
 
-## Bounded result
+## Accepted bounded result
 
 ```text
 Cross-Ground Transition / Propagation
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / USER-EVALUATED / ACCEPTED
     ← no immediate child promoted
     ← one reusable realized-change / propagation grammar
-    ← profiles/dimensions retained without child promotion
 ```
 
 Canonical gloss:
@@ -34,8 +32,6 @@ Canonical gloss:
 ground-local dynamics
 != cross-ground Transition / Propagation
 ```
-
-Route here only when other-ground anchors/relations are constitutive of the protected change/propagation question.
 
 ## Stable semantic core
 
@@ -54,55 +50,24 @@ Cross-Ground Transition / Propagation
 
 ## Strongest structural discovery
 
-Propagation often consists of multiple exact transition instances rather than one monolithic event:
-
-```text
-Transition A
-  --typed relation-->
-Transition B
-  --typed relation-->
-Transition C
-```
-
-A higher-level propagation episode can group them without erasing local transition identity, scope/time or failure points.
+> A propagation episode can comprise multiple exact transition instances connected by typed dependencies/relations; it need not be one monolithic event.
 
 ## Strongest non-collapse rules
 
 ```text
-requested / intended change
-!= realized change
-
-approved / committed / issued change
-!= incorporated / realized change
-
-local realization
-!= change effective across all applicable scope
-
-change realized
-!= change observed / recorded
-
-occurrence time
-!= observation time
-!= effective time everywhere
-
-propagation
-!= data replication
-
-propagation episode exists
-!= full-propagation / convergence Standing holds
-
-retry / rollback / compensation / reconciliation Work
-!= successful restoration/convergence
-
+requested / intended change != realized change
+approved / committed / issued change != incorporated / realized change
+local realization != change effective across all applicable scope
+change realized != change observed / recorded
+occurrence time != observation time != effective time everywhere
+propagation != data replication
+propagation episode exists != full-propagation / convergence Standing holds
+retry / rollback / compensation / reconciliation Work != successful restoration/convergence
 rollback != time reversal
 compensation != literal reversal
 reconciliation ran != reconciled
-
-validity dependency changed
-!= underlying Standing automatically false
-
-transition/dependency sequence
-!= causal proof
+validity dependency changed != underlying Standing automatically false
+transition/dependency sequence != causal proof
 ```
 
 ## Frame-blindness guardrail
@@ -113,46 +78,10 @@ all known targets updated
 != full propagation established
 ```
 
-## Retained profiles/dimensions — not children
-
-- staged/delayed propagation;
-- eventual-consistency-style propagation;
-- institutional publication/effective/compliance staging;
-- approved-change/incorporation/verification staging;
-- partial/heterogeneous propagation;
-- continuous/gradual transition;
-- supersession/conflicting updates;
-- rollback/compensation/reconciliation;
-- stale-dependent/invalidation pressure;
-- reversible/irreversible residual effects;
-- observation lag;
-- path/mechanism-relative propagation latency.
-
-## External / candidate holdout result
-
-W3C PROV, OpenTelemetry, AWS IAM, Google Cloud IAM, NASA Configuration Management and institutional rule effective/compliance timing did not force a child split or upstream reopen.
-
-The selected Anthropic candidate study supplied illustrative software/agentic pressure. gstack was inspected at META level but deliberately not made load-bearing because its study is active/freshness-sensitive and authoritative sources already discriminated the live hypothesis.
-
-## Next sequencing recommendation
-
-If the user accepts this result:
-
-> **Cross-Ground Causal Effect / Contribution** is the strongest next sibling child.
-
-It is not active.
-
 ## Verification status
 
-P7 is same-model adversarial review. No independent second-researcher/model replication validates this exact bounded-leaf result, and no external source publishes this exact Foundation synthesis.
+P7 is same-model adversarial review. User acceptance closes the sequencing/evaluation gate; it does not constitute independent replication.
 
-## Current authorization / return condition
+## Continuation
 
-**USER EVALUATION OF CROSS-GROUND TRANSITION / PROPAGATION RESULT ONLY.**
-
-Do not automatically begin:
-- Cross-Ground Causal Effect / Contribution;
-- Cross-Ground Feedback / Adaptation;
-- architecture;
-- ontology/data-model/schema work;
-- implementation.
+`Cross-Ground Causal Effect / Contribution` is the separately activated current sibling pass. This accepted package remains an upstream prerequisite and may be reopened only if a later child exposes a material falsifier.
