@@ -2,44 +2,63 @@
 
 ## Role
 
-Current router for the active Cross-Ground Causal Effect / Contribution Foundation child pass.
+Current router for the bounded Cross-Ground Causal Effect / Contribution parent result.
 
-Read `STATE.md` first for authorization, phase and stop rule.
+Read `STATE.md` first for authorization and evaluation gate.
 
 ## Current status
 
-**ACTIVE — E0 canonical/current evidence recovery.**
+**BOUNDED PARENT RESULT — USER EVALUATION PENDING. E0→E7 COMPLETE.**
+
+No immediate child is active.
 
 ## Preferred read order
 
-1. `STATE.md` — protected question, authorization and guardrail.
-2. `PLAN.md` — falsification method and closure criteria.
-3. Accepted parent → `../STATE.md` → `KEY.md` → T6/T7 when promotion/boundary logic is material.
-4. Accepted Transition / Propagation prerequisite → `../transition-propagation/STATE.md` → `KEY.md` → P6/P7.
-5. Parent causal residuals → `../OPEN-QUESTIONS.md` and T2/T5/T6/T7.
-6. Accepted Control, Standing, Binding and Actors boundaries only when decision-critical.
-7. Candidate studies → `../../../../studies/CATALOG.md` → selected `META.md` → deeper files only when load-bearing.
-8. E0–E7 artifacts as completed.
-9. `KEY.md`, `FINDINGS-MAP.md`, synthesis and `CURRENT-SURFACES.md` after closure.
+1. `STATE.md` — bounded result, child structure and current gate.
+2. `KEY.md` — shortest current synthesis.
+3. `FINDINGS-MAP.md` — pass-by-pass map.
+4. `synthesis/CAUSAL-EFFECT-CONTRIBUTION-SYNTHESIS.md` — integrated result.
+5. `E7-ADVERSARIAL-CLOSURE.md` — strongest attacks and final naming refinement.
+6. `E6-SYNTHESIS-CHILD-DECISION.md` — promotion logic.
+7. E0–E5 only when a claim/boundary depends on the detailed path.
+8. `OPEN-QUESTIONS.md` — bounded residuals/reopen triggers.
+9. Accepted parent → `../STATE.md` → `KEY.md` → T6/T7 when parent boundary is material.
+10. Accepted Transition / Propagation prerequisite → `../transition-propagation/STATE.md` → `KEY.md` → P6/P7.
+11. Candidate studies only when decision-critical through catalog → selected META → targeted file.
+12. `CURRENT-SURFACES.md` for exact freshness after manifest creation.
+
+## Current structure
+
+```text
+Cross-Ground Causal Effect / Contribution
+├─ Actual Causal Contribution / Episode Causation       ← discovered / inactive
+└─ Contrastive / Interventional Causal Effect            ← discovered / inactive
+```
 
 ## Research rule
 
-Do not reduce causal analysis to chronology or one `root_cause` field.
-
-Preserve at minimum:
+Preserve:
 
 ```text
-exact realized effect != intended effect
-sequence / association != causation
-trigger != complete causal explanation
-proximate cause != complete causal explanation
-causal contribution != responsibility / accountability
-control presence != control causal effectiveness
-one plausible explanation != alternatives excluded
+What would X do to Y?
+!=
+Did X cause this observed Y?
 ```
 
-Use the project causal-depth protocol: go deeper only while doing so materially changes intervention, recurrence risk, control design, responsibility boundary or decision outcome.
+Also preserve:
+
+```text
+sequence / association != causation
+trigger != complete causal explanation
+one cause identified != complete causal model
+causal contribution != responsibility/accountability
+control presence/compliance != causal effectiveness
+```
+
+## Next sequencing if accepted
+
+`Actual Causal Contribution / Episode Causation` is the recommended first child but requires separate substantive activation.
 
 ## Guardrail
 
-No Feedback / Adaptation, architecture, ontology/data-model/schema or implementation work is active.
+No immediate child, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation work is active.
