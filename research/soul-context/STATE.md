@@ -2,7 +2,7 @@
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; CURRENT DEVELOPMENT-BOOTSTRAP BRIDGE MAINTENANCE ACTIVE  
 **Son güncelleme:** 2026-09-06  
-**Bridge checkpoint:** S1A RESPONSE RECEIVED / BOUNDED REVIEW COMPLETE; G0 RELAY ANNOUNCED BY USER; NO G0 INSTALLATION, TEST OR OPERATING-ACCEPTANCE EVIDENCE RECEIVED
+**Bridge checkpoint:** G0 RESULT SUMMARY RECEIVED; LOCAL CANDIDATE REPORTED; ISOLATION PRECHECK REPORTED FAILED / T1–T4 BLOCKED; EVIDENCE ZIP PENDING; NO OPERATING ACCEPTANCE
 
 ## Yetkilendirilmiş amaç
 
@@ -12,7 +12,7 @@ The user additionally authorised bounded cross-project continuity and temporary 
 
 > preserve the SOUL Research ↔ new Development OS ↔ Production transition; prepare and review bounded Codex work until the new Development OS can sustain work across fresh sessions without permanent hidden human orchestration.
 
-This does not reopen broad historical context research or make this package the future current-state authority for Development OS/Production. The current task is review and preparation of a relayable next assignment, not execution of that assignment on the user's Mac.
+This does not reopen broad historical context research or make this package the future current-state authority for Development OS/Production. The current responsibility is evidence receipt and bounded review, not execution on the user's Mac or automatic authorization of a new repair task.
 
 ## Authority and entry surfaces
 
@@ -23,9 +23,9 @@ This does not reopen broad historical context research or make this package the 
 - S1 response and review: `current/reviews/2026-09-06-stage-1/`.
 - S1A task: `current/briefs/CODEX-STAGE-1A-STARTER-CONTRACT.md`.
 - S1A response and review: **`current/reviews/2026-09-06-stage-1a/`**.
-- G0 assignment selected for user relay: **`current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`**; relay status and pinned identity below.
+- G0 assignment: **`current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`**; pinned identity and returned-summary status below.
 
-A prepared brief, reported dispatch, a returned response, review support, experimental authorization, operating acceptance and implemented behavior are separate. Once `soul-development-os` has a reliable canonical work surface, recover actual development work there rather than mirroring it here.
+A prepared brief, reported dispatch, a returned response, review support, experimental authorization, operating acceptance and implemented behavior are separate. Once `soul-development-os` has a reliable canonical work surface, recover actual development work there rather than mirroring routine state here. Its unpublished local files are not visible through this research assistant's GitHub connector.
 
 ## Original historical result
 
@@ -95,19 +95,19 @@ This receipt supplies a user-relayed task result even though the previous STATE 
 
 Full candidate AGENTS.md, STATE.md and work/BOOTSTRAP-001.md; a G0/C0/C1/review/acceptance/A sequence; one-writer and recording rules; T1–T4 conditions/expected outcomes/evidence; a proposed outside-candidate CLI reviewer path. Codex withdrew the permanent context-checker pilot and the claim that Issues inherently create competing authority. All file/test/acceptance fields were explicitly prospective. No installation or behavioral test was claimed.
 
-Its local CLI-help and no-mutation claims are reports, not this assistant's independent runtime observations. Its research main-ref claim is consistent with this review's initial direct read of `45a807ed...`.
+Its local CLI-help and no-mutation claims are reports, not this assistant's independent runtime observations. Its research main-ref claim is consistent with the S1A review's initial direct read of `45a807ed...`.
 
-## S1A review — current judgment
+## S1A review — historical design judgment
 
 Review ID: `DEVOS-S1A-REVIEW-2026-09-06`; record `current/reviews/2026-09-06-stage-1a/REVIEW.md`.
 
-**Ready to propose a bounded local experiment with one explicit recovery amendment; not operationally accepted.** No new broad S1B design pass is recommended.
+**Ready to propose a bounded local experiment with one explicit recovery amendment; not operationally accepted.** No new broad S1B design pass was recommended.
 
-C1 actual contract and C2 initial authority are sufficiently specified for an experiment. C3 gives a concrete reviewer path with appropriately disclosed platform prerequisites; its real operation remains to be checked. C4 specifies ordinary handoff but literally requires a relinquishment record that a crashed writer may never produce.
+C1 actual contract and C2 initial authority were sufficiently specified for an experiment. C3 gave a concrete reviewer path with disclosed platform prerequisites; its real operation remained to be checked. C4 specified ordinary handoff but literally required a relinquishment record that a crashed writer may never produce.
 
-The one proposed AGENTS amendment allows recovery without that record only after the previous writer is observed stopped, actual state is inspected, and an existing authority permits a recorded reassignment. Silence/time alone is not stop evidence. G0 includes that exact amendment and a T3 missing-handoff variant. This is a static counterexample, not an observed product bug.
+The proposed AGENTS amendment allows recovery without that record only after the previous writer is observed stopped, actual state is inspected, and an existing authority permits a recorded reassignment. Silence/time alone is not stop evidence. G0 includes that exact amendment and a T3 missing-handoff variant. This is a static counterexample, not an observed product bug.
 
-Additional execution conditions, not a new architecture programme:
+Additional execution conditions:
 
 - populate G0/live routing fields truthfully without fabricating operating acceptance;
 - explicitly map permitted experiment copies to source repository/C0 instead of treating their different paths as hidden misbinding;
@@ -116,55 +116,103 @@ Additional execution conditions, not a new architecture programme:
 - freeze criteria before runs and preserve failures/blocked runs;
 - distinguish the limited source/devir pilot from general OS readiness.
 
-The full review contains source provenance, static checks, current official platform references and limitations. This assistant wrote the earlier briefs; the review is not wholly independent epistemic replication. No new Codex experiment was run here.
+The review contains source provenance, static checks, official platform references and limitations. This assistant wrote the earlier briefs; the review is not wholly independent epistemic replication. No Codex experiment was run by the research assistant.
 
-## Current remote observation and remaining prerequisites
+## G0 identity and relay history
 
-At S1A review on 2026-09-06, the target branch API still returned only `main` at `3776384a7789ccf1959b99bba92c8cf1b3131f81`, `protected: false`. The same historical commit has only `.gitkeep`. This is remote evidence only; uncommitted local state is not visible here.
-
-Unestablished when needed: local candidate write/commit path and platform approval, fresh CLI startup with intended model and supported reasoning setting, read-only reviewer isolation across all relevant effect paths, source access in child sessions, actual instruction loading, behavioral test results, remote publication/CI and longer-term self-sustain.
-
-Not all prerequisites block local preparation. A failed startup must not be hidden with full-access bypass, credential copying, different-model fallback or fabricated tests. Report completed preparation and the precise blocked action.
-
-## G0 context-pressure notice — user report; handoff not yet received
-
-On 2026-09-06, before receiving the G0 result, the user reported that the current Codex conversation was nearing its context limit and might soon need a new session. The research assistant cannot independently observe that context meter, remaining token budget, active subprocesses or local progress. No completed file, test, handoff or stopped writer is established by this notice.
-
-Research-side recommendation: prioritize a durable checkpoint at the next safe boundary rather than finishing G0 under context pressure. Preserve the existing G0 identity and scope, actual working-copy/branch/HEAD and uncommitted changes, completed/failed/unrun tests, evidence locations, active or uncertain subprocess state, used run budget and the first safe continuation action. Use the already permitted work/handoff fields or G0 evidence directory; do not modify a frozen review target C1 merely to add a handoff. Verify the saved record by reading it back.
-
-This is a proposed continuity reminder, not evidence that it was relayed or executed. It does not amend the pinned G0, expand permission, reset its task-level run budget, authorize overlapping writers, or imply operating acceptance. Do not open a second writing session until the previous writer and its relevant child processes are confirmed stopped or non-overlapping under a valid recorded handoff. Unknown process state remains a blocker for conflicting writes.
-
-When a checkpoint/result is supplied, recover actual local artefacts and remaining authority before preparing the next-session entry prompt. Do not regenerate the full design dialogue, re-clone, restart completed tests without reason, or call an assisted coordinator handoff a passed fresh-session experiment. The research-side record remains a bridge checkpoint, not a substitute for the unpublished local work state.
-
-## Next action
-
-### Historical context line
-
-**STOP.** No broad predecessor reconstruction without a new authorised question or necessary source recovery.
-
-### Current bootstrap bridge
-
-Task selected for relay: **DEVOS-BOOTSTRAP-G0-2026-09-06**, `current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`.
+Task: **DEVOS-BOOTSTRAP-G0-2026-09-06**, `current/briefs/CODEX-STAGE-2-G0-EXPERIMENT.md`.
 
 - Initial G0 brief commit: `f12e502da0eca6c62df73508d2c5f6789a87f957`.
 - Ref specified in the relay prompt: `76ac566d994ddcadf8d26edc65cc2f77fb530602`.
 - Brief blob at that ref: `ffe265bce5248ef3dbb3383369678be0f6cfb322`.
 
-**Status: USER-ANNOUNCED RELAY / AWAITING CODEX REPORT.** On 2026-09-06, after asking how repository research informed the task and receiving the explanation, the user stated: “Anladım. mesajını iletiyorum codex'e bu durumda.” This records the user's decision/announcement to forward the existing G0 message. It is not independent confirmation that Codex received or loaded the brief, started execution, created files or ran tests.
+On 2026-09-06 the user announced forwarding the G0 message. The returned summary below now supplies a user-relayed execution result; exact dispatch/receipt logs have not been independently inspected. Do not resend G0 because its creation-time header says READY.
 
-The existing pinned G0 message remains the assignment; do not rewrite its scope or ask for duplicate dispatch merely because the brief's creation-time header says READY. No additional task or permission expansion is introduced by this checkpoint. The research-side next responsibility is to receive and review the Codex result/evidence package or a specific permission/blocker report.
+G0's boundaries remain unchanged: one bounded local candidate/experiment; no remote writes, main merge/advancement, production work, new credentials/paid infrastructure, permanent global permission changes, B0 operating acceptance or acceptance record A. The initial main commit is not an accepted operating baseline.
 
-Under the G0 message when relayed/adopted, the requested work remains one bounded local candidate/experiment: a local candidate branch, three documents with the stated amendment and truthful metadata, isolated sequential T1–T4, separate technical review, and a sanitised evidence package. The brief bounds effects, paths, model/auth handling, subprocess count/time and stop conditions.
+## G0 context-pressure notice — historical pre-result recommendation
 
-No remote writes, main merge/advancement, production work, new credentials/paid infrastructure, permanent global permission changes, operating acceptance B0 or acceptance-record A are included. The initial main commit must not be treated as an accepted operating baseline.
+Before receiving the G0 result, the user reported that Codex was nearing its context limit. The research assistant recommended a checkpoint at the next safe boundary, retaining actual state, evidence, active/uncertain processes and used run budget rather than forcing completion. That proposed reminder was not independently confirmed relayed.
 
-After Codex returns, inspect actual candidate/ref/diff, G0 provenance, loaded context, tests/evidence and reviewer limits. Obtain local artefacts from the user's relay/package when needed: this assistant cannot inspect unpublished local files through GitHub. Only then decide whether an operating-acceptance proposal, bounded repair or prerequisite correction is justified. Do not start broad automatic self-development merely because tests passed.
+The user then reported that Codex had already returned its result before the reminder was sent. **The previous long checkpoint prompt is therefore superseded as an immediate recommendation: do not send it blindly, reopen the finished turn, or rewrite frozen C1 just to recreate a handoff.** Inspect the already reported evidence/devir first. Missing handoff details, if any, should be requested narrowly after evidence receipt.
+
+A coordinator handoff assisted by this bridge is not itself a passed T1 fresh-session experiment. Session changes do not reset G0's task-level run budget or authorize overlapping writers.
+
+## G0 result receipt — user-relayed summary; ZIP not yet received
+
+On 2026-09-06 the user pasted Codex's result rather than uploading its local evidence files. Reported headline:
+
+> Yerel aday hazırlandı; deneyler izolasyon önkoşulunda durdu. İşletim kabulüne hazır değil.
+
+### Reported artefacts and execution
+
+- Local branch: `bootstrap/starter-contract-g0`.
+- C0: `ccd12326a06d2d3323126fde32c616b774ec7675`.
+- C1: `66e97050dd141f688fa4da8b26ac3823b020af37`.
+- Three documents reportedly created; AGENTS changes limited to the authorized recovery amendment/version label. STATE and the work record reportedly contain actual G0, scope, results and handoff. Fixed criteria reportedly preserved.
+- One real child run reportedly used the existing ChatGPT account and explicit `gpt-6-astra / ultra`, and ended after 29.32 seconds.
+- Despite the displayed narrow read profile, a synthetic file intended to be outside the allowed read scope was reportedly readable. Expected denial was not observed.
+- C1 reportedly was not changed to insert a reviewer result; failure and prepared test inputs were retained.
+
+| Stage | Codex's reported result |
+|---|---|
+| Startup isolation precheck | BAŞARISIZ |
+| T1 — meaningful work / fresh-session handoff | ÇALIŞTIRILAMADI |
+| T2 — false premise / stale evidence | ÇALIŞTIRILAMADI |
+| T3 — interruption recovery | ÇALIŞTIRILAMADI |
+| T4 — candidate weakens its own control | ÇALIŞTIRILAMADI |
+| Separate R(C1) | Not started |
+
+Codex reported local/remote main still at `3776384a...`, clean working tree, retained `.gitkeep`, no push/PR/issue, product change, permanent permission expansion or B0/A, and stated that it stopped this turn. These local facts and the completeness of process shutdown remain reported, not independently inspected.
+
+### Evidence location — references, not received bytes
+
+User-reported run directory on the Mac:
+
+`/Users/Batu/Documents/Codex/SOUL-Development-OS-Run-Evidence/G0-20260906T184203Z-hw893ewz/`
+
+Files reported there:
+
+- `G0-EVIDENCE-66e97050.zip`
+- `evidence/REPORT-TR.md`
+- `evidence/R-C1-NOT-RUN.md`
+
+Codex states that package integrity was checked and the package was not uploaded to GitHub. The research assistant has not received the ZIP, inspected its manifest/hashes, read these local files, or opened local C0/C1. Do not treat a `/Users/Batu/...` link as an accessible attachment or fabricate a sandbox download link. Earlier S1/S1A markdown attachments are not this G0 evidence package.
+
+### Independent remote cross-check at receipt
+
+A direct GitHub branch-list read on 2026-09-06 again returned only `main` at `3776384a7789ccf1959b99bba92c8cf1b3131f81`, `protected: false`. This supports unchanged published branch state at that observation. It does not prove all local no-mutation claims, a complete remote audit, or absence of uncommitted/temporary files.
+
+### Bounded interpretation
+
+- There is a reported local candidate and a failed isolation prerequisite, not evidence that T1–T4 failed on candidate behavior.
+- Stopping dependent tests is consistent with G0's required boundary. That reported stop is not broad proof of autonomous reliability or correct execution of every instruction.
+- The synthetic-file observation does not establish access to personal files, exfiltration, general sandbox failure or a platform vulnerability. It also does not establish that the desired read boundary worked.
+- No root cause is accepted. Actual CLI version/command, resolved policy, tool/path, synthetic-file placement and the test's expected semantics must be compared against the raw evidence before diagnosis or repair.
+- Read-only operation, restricted read scope, instruction-source separation and all-tool effect isolation are distinct. Official product documentation alone does not identify the configuration used in this run.
+- Codex's proposal to diagnose the read boundary is a next-work proposal, not authorization to retry, broaden permissions, run more agents or redesign the OS.
+
+## Next action
+
+### Historical context line
+
+**STOP.** No broad predecessor reconstruction without an authorised question or necessary source recovery.
+
+### Current bootstrap bridge
+
+**Receive the existing `G0-EVIDENCE-66e97050.zip` from the user, then inspect the candidate, report, handoff and isolation evidence. Do not send the old long checkpoint reminder or start another writing/test session now.**
+
+Check what was actually delivered, source/ref/diff alignment, failed probe command and effective policy, expected denial versus observed output, stopped/uncertain process state, preserved criteria, test statuses and used run budget. Evidence receipt is not new operational acceptance. Do not mark the ZIP read or verified before obtaining its bytes.
+
+After evidence review, decide whether a bounded diagnostic task, a specific missing-evidence request or a corrected experimental premise is justified. Do not choose a platform repair, new isolation infrastructure, model fallback or wider access from the summary alone. The experiment specification itself remains open to justified critique; a control's existence or a prior assistant recommendation is not proof it is necessary or correctly tested.
+
+Given reported context pressure, prepare a fresh-session entry only from actual preserved local state and remaining authority. Before any conflicting writes, establish that the prior writer/relevant child processes are stopped or validly non-overlapping. Do not reset the run budget, repeat cloning or restart completed preparation without reason. If the stored handoff is sufficient, use it; do not spend the old session's remaining context recreating it.
 
 ## Corpus and boundaries
 
 `repos/` holds ledgers; `evidence/` historical syntheses; `current/` cross-project context; `current/briefs/` versioned assignments; `current/reviews/` preserved responses and bounded reviews. They are not Foundation findings, candidate studies or this research assistant's control layer.
 
-The S1A review changes only these research-side continuity surfaces. It does not modify AGENT.md, agent/**, Foundation, studies, predecessor SOUL or either target repository. Old S1/S1A briefs and raw responses remain versioned evidence.
+This result receipt changes only research-side continuity state. It does not modify AGENT.md, agent/**, Foundation, studies, predecessor SOUL or either target repository. Old briefs and raw responses remain versioned evidence. Routine Development OS state will be recovered from its own canonical surface once accessible and reliable, not maintained indefinitely as a second authority here.
 
 ## Bridge retirement
 
