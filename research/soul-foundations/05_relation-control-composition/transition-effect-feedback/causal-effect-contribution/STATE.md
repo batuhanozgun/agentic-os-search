@@ -1,62 +1,67 @@
 # Cross-Ground Causal Effect / Contribution — STATE
 
-**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; ACTUAL CAUSAL CONTRIBUTION CHILD ACTIVE  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; ACTUAL CAUSAL CONTRIBUTION BOUNDED LEAF / AWAITING USER EVALUATION  
 **Parent accepted:** 2026-09-06  
-**Parent:** `Transition / Effect / Feedback` — bounded parent / user-evaluated / accepted 2026-09-06  
-**Accepted prerequisite sibling:** Cross-Ground Transition / Propagation — bounded leaf / accepted  
-**Actual Causal Contribution / Episode Causation:** ACTIVE child research  
-**Contrastive / Interventional Causal Effect:** discovered / inactive  
+**Parent:** `Transition / Effect / Feedback` — accepted bounded parent  
+**Accepted prerequisite sibling:** Cross-Ground Transition / Propagation — accepted bounded leaf  
+**Actual Causal Contribution / Episode Causation:** bounded leaf / USER EVALUATION PENDING  
+**Contrastive / Interventional Causal Effect:** recommended next if Actual Causation accepted / inactive  
 **Cross-Ground Feedback / Adaptation:** inactive  
-**Current authorised substantive activity:** ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION CHILD PASS
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION RESULT EVALUATION ONLY
 
 ## Accepted parent structure
 
 ```text
 Cross-Ground Causal Effect / Contribution        ← accepted bounded parent
-├─ Actual Causal Contribution / Episode Causation       ← ACTIVE
-└─ Contrastive / Interventional Causal Effect            ← inactive
+├─ Actual Causal Contribution / Episode Causation       ← BOUNDED LEAF / USER EVALUATION PENDING
+└─ Contrastive / Interventional Causal Effect            ← recommended next if accepted / inactive
 ```
 
-## Accepted parent result
-
-Critical distinction:
-
-```text
-What would X do to Y?
-!=
-Did X cause this observed Y?
-```
-
-Shared causal grammar:
-
-```text
-Causal claim
-├─ exact effect / outcome / explanandum
-├─ candidate cause / contributor / action / exposure
-├─ relevant context / scope / time
-├─ causal contrast / reference semantics where material
-├─ typed causal role/depth where decision-critical
-├─ domain-appropriate evidence
-├─ competing explanations/confounding where material
-├─ calibrated confidence / unresolved alternatives
-└─ stopping depth tied to intervention/recurrence/decision value
-```
-
-## Active child
+## Current Actual Causation result
 
 Canonical package:
 
 `actual-causal-contribution/`
 
-Protected question:
+Current bounded judgment:
 
-> For one exact realized cross-ground episode/effect, which actual events, conditions, omissions, controls, actions or interactions causally contributed to what occurred, through what episode-specific causal structure, at what decision-relevant depth, and with what uncertainty or competing explanations?
+> Actual Causal Contribution / Episode Causation is a bounded leaf with one effect-centered, configuration-sensitive causal grammar and no promoted immediate child.
+
+Strongest structural discovery:
+
+```text
+joint causal configuration
+!= collection of independent cause edges
+```
+
+Strongest non-collapse:
+
+```text
+chronology != actual causation
+cause type capable of E != actual contributor in episode e
+could-have-caused != actually-caused
+but-for necessity != universal causal criterion
+Control defect != actual causal contribution by identity
+omission causal relevance != duty/blame
+causal contribution != responsibility/accountability
+causal story supported != alternatives discriminated
+all observed contributors analyzed != causal explanation complete
+actual episode cause != contrastive/interventional causal effect
+```
+
+## Sequencing result
+
+If the user accepts this result:
+
+> **Contrastive / Interventional Causal Effect** is the strongest current next child.
+
+This is not active.
+
+## Verification status
+
+Actual Causation A7 is same-model adversarial review. Authoritative holdout conclusions were inherited from the parent; fresh public-web retrieval failed technically during this pass. No independent second-researcher/model replication validates the exact leaf result.
 
 ## Guardrail
 
-Do not automatically begin:
-- Contrastive / Interventional Causal Effect;
-- Cross-Ground Feedback / Adaptation;
-- architecture;
-- ontology/data-model/schema;
-- implementation.
+Do not automatically begin Contrastive / Interventional Causal Effect, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
