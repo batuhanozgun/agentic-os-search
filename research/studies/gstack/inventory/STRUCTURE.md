@@ -12,10 +12,11 @@ The study is now boundedly complete. For current conclusions use:
 
 1. `../CORE.md` — compact result;
 2. `../INDEX.md` — retrieval router;
-3. `../syntheses/cross-system-composition.md` — whole native system;
-4. relevant subsystem synthesis;
-5. `../SOURCE-LEDGER.md` — source/read provenance;
-6. `../revalidation/2026-09-06-v1.80.0.md` — current-main delta through v1.80.
+3. `../CLOSURE-AUDIT.md` — adversarial omission/distortion audit;
+4. `../syntheses/cross-system-composition.md` — whole native system;
+5. relevant subsystem synthesis;
+6. `../SOURCE-LEDGER.md` — source/read provenance;
+7. `../revalidation/2026-09-06-v1.80.0.md` — current-main delta through v1.80.
 
 This inventory remains useful for explaining how the source corpus was decomposed without treating repository layout as ontology.
 
@@ -51,6 +52,8 @@ The completed source pass supports this broad decomposition:
 ```
 
 The final cross-system synthesis sharpens this further: gstack is better modeled as a **federation of partial state machines connected through artifacts, standings, authority/control relations and runtime effects** than as one central workflow engine.
+
+Specialist product/runtime verticals can span several semantic subsystem clusters. The iOS physical-device family is the clearest example and is explicitly retained below.
 
 ---
 
@@ -117,7 +120,18 @@ The corpus contains workflow-shaped skills spanning:
 - `learn`;
 - context / GBrain surfaces.
 
-These are source/workflow families, not Foundation categories.
+### Measurement / qualification / utility verticals
+
+- `health`;
+- `benchmark` / `benchmark-models`;
+- `scrape` / `skillify`;
+- `document-generate`;
+- `make-pdf`;
+- `diagram`;
+- `design-html`;
+- setup/report convenience surfaces.
+
+These are source/workflow families, not Foundation categories and not one-to-one with final semantic subsystem clusters.
 
 ---
 
@@ -145,7 +159,7 @@ Generated output is an executable/inspectable view whose semantics depend on tem
 
 ---
 
-## 4. Browser / execution runtime
+## 4. Browser execution runtime
 
 The browser subsystem is material software, not prompt-only tooling:
 
@@ -171,9 +185,73 @@ Relevant controls include:
 
 The stateful runtime makes freshness and ownership part of browser-evidence validity.
 
+The browser subsystem is the most deeply researched general interactive runtime in the first layer, but it is **not the only execution environment in the repository**.
+
 ---
 
-## 5. Guarded-action / security controls
+## 5. Specialized iOS physical-device runtime vertical
+
+Pinned `AGENTS.md` exposes a separate iOS family:
+
+- `ios-qa`;
+- `ios-fix`;
+- `ios-design-review`;
+- `ios-clean`;
+- `ios-sync`;
+- `gstack-ios-qa-daemon`;
+- `gstack-ios-qa-mint`;
+- `gstack-ios-qa-regen`.
+
+Its source/runtime topology is materially distinct from Chromium:
+
+```text
+agent
+  ↓
+Mac gstack-ios-qa daemon
+  ↓ USB CoreDevice tunnel
+embedded Debug-only StateServer
+  ↓
+real iPhone app state / UI
+
+optional remote agent
+  ↓ Tailscale identity + capability token
+Mac daemon
+```
+
+Load-bearing mechanisms include:
+
+- Swift-source inspection and typed accessor generation;
+- Debug-only bridge installation;
+- physical device build/deploy/relaunch;
+- boot-token rotation;
+- observe/interact/mutate/restore capability tiers;
+- allowlist/identity/session-token control;
+- per-device/session locking;
+- screenshot/elements/state readback;
+- state-snapshot-driven fix/reverify loops;
+- schema/accessor freshness;
+- sync/regeneration against upstream templates;
+- structural Release-build exclusion;
+- no-device gate tests plus optional real-device periodic evidence.
+
+This vertical was explicitly challenged during `../CLOSURE-AUDIT.md` because it was weakly visible in the original eleven subsystem names.
+
+Audit judgment:
+
+> **material specialist runtime vertical, but not a twelfth first-order semantic subsystem.**
+
+Its operating semantics decompose without residue into existing runtime/security/evidence, QA/investigation, authority/control, generation/freshness, testing/eval and Environment mechanisms. Removing iOS would remove a major capability/example, not a primitive step from the final operating loop.
+
+This distinction is important:
+
+```text
+semantic subsystem cluster
+!= product/runtime vertical
+```
+
+---
+
+## 6. Guarded-action / security controls
 
 Actual pinned paths include:
 
@@ -199,11 +277,13 @@ enforcement-point scope
 != protected-effect scope
 ```
 
+The iOS capability-token/allowlist runtime is another concrete control realization over a different protected resource.
+
 Current-main note: v1.80 repairs a pinned `/freeze` state-root fail-open defect; see the revalidation file. The broader Edit/Write-only boundary and host-portability limits remain.
 
 ---
 
-## 6. Durable information / continuity layer
+## 7. Durable information / continuity layer
 
 Observed durable/state surfaces include:
 
@@ -213,6 +293,7 @@ Observed durable/state surfaces include:
 - local learnings;
 - GBrain/cache/policy data;
 - browser daemon/session state;
+- iOS device/session/schema/snapshot artifacts;
 - git/repository state;
 - test/eval artifacts;
 - security reports;
@@ -223,7 +304,7 @@ A central final finding is that these representations carry different provenance
 
 ---
 
-## 7. Test / eval / compliance layer
+## 8. Test / eval / compliance layer
 
 The completed synthesis found a first-class verification pipeline including:
 
@@ -239,6 +320,12 @@ The completed synthesis found a first-class verification pipeline including:
 - baseline/compare/summary/flake tooling;
 - compliance/audit/slop scans.
 
+The iOS family makes Environment-dependence especially explicit:
+
+- no-device paths can run in ordinary gate contexts;
+- physical-device paths require a connected/paired iPhone and CoreDevice;
+- full install/interaction additionally requires signing/deploy opt-in.
+
 Protected conclusion:
 
 ```text
@@ -251,11 +338,11 @@ test exists
 != independent verification
 ```
 
-The testing/eval cluster is no longer “research pending”; it is synthesized in `../syntheses/testing-eval-routing-compliance-flake-lifecycle.md`.
+The testing/eval cluster is synthesized in `../syntheses/testing-eval-routing-compliance-flake-lifecycle.md`.
 
 ---
 
-## 8. Host / model portability layer
+## 9. Host / model portability layer
 
 The pinned repository has a typed host-generation system plus heterogeneous setup/runtime standing.
 
@@ -274,9 +361,11 @@ registered
 
 Host and model are separate axes. Generation/adaptation can preserve, rewrite, suppress, inline, weaken or leave behavior unsupported.
 
+Remote iOS interaction further demonstrates that an agent host/model can be separated from the machine physically owning the protected device capability.
+
 ---
 
-## 9. Delivery / production feedback layer
+## 10. Delivery / production feedback layer
 
 The source exposes distinct operational standings across:
 
@@ -301,7 +390,7 @@ revert pushed != production restored
 
 ---
 
-## 10. Repository self-development / release layer
+## 11. Repository self-development / release layer
 
 The repository develops and qualifies itself through:
 
@@ -318,13 +407,15 @@ The repository develops and qualifies itself through:
 
 This forms a recursive loop in which failure classes increasingly become reusable helpers, runtime controls, structural pins and behavioral/environment tests.
 
+`skillify` is a related application-level example: successful exploratory browser Work can be converted into a tested deterministic reusable browser skill after provenance filtering and user approval.
+
 v1.80 adds further examples around setup capability degradation, installer ownership/provenance and test-environment fidelity.
 
 ---
 
 ## Final semantic research clusters
 
-The first-pass clusters converged into eleven bounded native subsystem syntheses:
+The source/product verticals converge into eleven bounded **semantic** native subsystem syntheses:
 
 1. planning / specification / work admission;
 2. review / QA / delivery qualification;
@@ -338,7 +429,11 @@ The first-pass clusters converged into eleven bounded native subsystem syntheses
 10. testing / eval / routing / compliance / flake lifecycle;
 11. repository self-development / generation / upgrade / release.
 
+These are not an exhaustive skill catalogue. Specialist verticals can span them.
+
 Chronology/evolution was used horizontally to pressure-test these mechanisms rather than promoted as a twelfth sibling.
+
+The adversarial closure audit tested the strongest omitted verticals—especially iOS live-device runtime, scrape→skillify and measurement/output utilities—and found no missing first-order operating-system mechanism. See `../CLOSURE-AUDIT.md`.
 
 ---
 
@@ -361,6 +456,6 @@ Current docs may later repair such drift; historical mismatch remains evidence a
 
 ## Closure note
 
-This inventory's discovery questions are closed by the durable synthesis package. Do **not** continue researching a cluster merely because an early question is visible here.
+This inventory's discovery questions are closed by the durable synthesis package and adversarial closure audit. Do **not** continue researching a cluster or specialist vertical merely because it appears here.
 
 Current continuation authority lives in `../STATE.md`. At study closure there is **no active gstack research Work**. Current-main behavior beyond the recorded v1.80 checkpoint requires freshness revalidation rather than automatic continuation.
