@@ -1,33 +1,80 @@
 # Transition / Effect / Feedback — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** bounded parent result / awaiting user evaluation  
-**Date:** 2026-09-05
+**Status:** parent accepted; Transition / Propagation bounded leaf / awaiting user evaluation  
+**Date:** 2026-09-06
 
-## Shortest current result
+## Accepted parent structure
 
 ```text
 Transition / Effect / Feedback
-├─ Cross-Ground Transition / Propagation
-├─ Cross-Ground Causal Effect / Contribution
-└─ Cross-Ground Feedback / Adaptation
+├─ Cross-Ground Transition / Propagation        ← bounded leaf / USER EVALUATION PENDING
+├─ Cross-Ground Causal Effect / Contribution    ← recommended next if accepted / inactive
+└─ Cross-Ground Feedback / Adaptation           ← inactive
 ```
 
-The parent is **not a leaf**. Three immediate diagnostic children survive.
+The parent is accepted and is **not a leaf**.
 
-## Critical routing boundary
+## Parent routing boundary
 
 ```text
 ground-local dynamics
 != cross-ground Transition / Effect / Feedback
 ```
 
-Use this region only when the protected temporal/effect question irreducibly spans accepted grounds or their Binding/Standing/Control composition.
+## Current child result — Cross-Ground Transition / Propagation
 
-## Child questions
+Protected question:
 
-### Cross-Ground Transition / Propagation
-What actually changed, where/when did it become effective, and how fully did it propagate?
+> What exact change actually became real/effective across accepted-ground boundaries, for which anchors/scopes/times, and how fully did it propagate or fail to propagate?
+
+Result:
+
+```text
+Cross-Ground Transition / Propagation
+    ← bounded leaf
+    ← no immediate child promoted
+```
+
+Strongest structural discovery:
+
+> Propagation can be a higher-level episode composed of multiple exact transition instances with different local owners, scopes, times and failure points.
+
+Strongest non-collapse:
+
+```text
+requested / intended change
+!= realized change
+
+approved / committed / issued change
+!= incorporated / realized change
+
+local realization
+!= change effective across all applicable scope
+
+change realized
+!= change observed / recorded
+
+occurrence time
+!= observation time
+!= effective time everywhere
+
+propagation != data replication
+propagation episode exists != full-propagation Standing holds
+rollback != time reversal
+compensation != literal reversal
+transition/dependency sequence != causal proof
+```
+
+Frame-blindness guardrail:
+
+```text
+all known targets updated
+!= all materially applicable targets known
+!= full propagation established
+```
+
+## Remaining child questions
 
 ### Cross-Ground Causal Effect / Contribution
 Why did the realized effect occur; what caused/enabled/amplified/prevented or failed to prevent/detect it?
@@ -35,43 +82,14 @@ Why did the realized effect occur; what caused/enabled/amplified/prevented or fa
 ### Cross-Ground Feedback / Adaptation
 Did observations/results return to alter later behavior, and did the influence become a persistent system change?
 
-## Strongest non-collapse rules
+## Current sequencing recommendation
 
-```text
-change requested != change realized != change effective everywhere
-recorded event != actual occurrence
-occurrence time != observation time != effective time
-sequence / association != causation
-trigger != complete causal explanation
-one cause identified != complete causal model
-intended effect != realized effect != accepted outcome
-observation != feedback
-feedback signal != feedback consumed
-feedback loop != learning/adaptation
-one-off response != persistent adaptation
-lesson recorded != learned system
-control present/complied-with != control causally effective
-```
+If user evaluation accepts Transition / Propagation:
 
-## Cross-cutting dimensions — not children
+> **Cross-Ground Causal Effect / Contribution** should be the next child.
 
-- occurrence/effective/observation/reference time;
-- version/scope/reference frame;
-- delay/latency;
-- partiality/convergence;
-- evidence/uncertainty;
-- direct/indirect paths;
-- persistence/reversibility;
-- scale/resolution.
-
-## Next sequencing recommendation
-
-If user evaluation accepts the parent result:
-
-> **Cross-Ground Transition / Propagation** should be the first immediate-child pass.
-
-Do not pre-commit the remaining order; re-select between Causal Effect/Contribution and Feedback/Adaptation after that child closes.
+Do not pre-commit Feedback/Adaptation activation; re-select after Causal closure if that child is accepted.
 
 ## Verification boundary
 
-T7 is same-model adversarial review. No independent second-researcher/model replication validates the exact three-child decomposition.
+Transition parent T7 and Transition/Propagation P7 are same-model adversarial reviews. No independent second-researcher/model replication validates the exact decomposition or leaf result.
