@@ -1,6 +1,6 @@
 # SOUL Foundations — STATE
 
-**Status:** four-ground adequacy accepted; composition parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; Actual Causal Contribution accepted  
+**Status:** four-ground adequacy accepted; composition parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; Actual Causal Contribution accepted; Contrastive / Interventional Causal Effect ACTIVE  
 **Environment / Operating Reality:** boundedly complete / accepted  
 **Information / Representation:** boundedly complete / accepted  
 **Work:** boundedly complete / accepted  
@@ -14,10 +14,10 @@
 **Cross-Ground Transition / Propagation:** accepted bounded leaf  
 **Cross-Ground Causal Effect / Contribution:** accepted bounded parent  
 **Actual Causal Contribution / Episode Causation:** accepted bounded leaf  
-**Contrastive / Interventional Causal Effect:** recommended next / inactive  
+**Contrastive / Interventional Causal Effect:** ACTIVE / I0 CANONICAL-EVIDENCE RECOVERY  
 **Cross-Ground Feedback / Adaptation:** inactive  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT CAUSAL CHILD SELECTION / PLANNING ONLY
+**Current authorised substantive activity:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT CHILD PASS  
+**Current authorised interaction:** ACTIVE FOUNDATION RESEARCH
 
 ## Accepted Foundation anchors
 
@@ -48,41 +48,18 @@ Cross-Ground Composition
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
    │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
+   │  └─ Contrastive / Interventional Causal Effect            ← ACTIVE / I0
    └─ Cross-Ground Feedback / Adaptation           ← inactive
 ```
 
-## Current accepted Actual Causation result
+## Current active question
 
-Canonical package:
-
-`05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/actual-causal-contribution/`
-
-Accepted bounded judgment:
-
-> Actual Causal Contribution / Episode Causation is a bounded leaf with one effect-centered, configuration-sensitive actual-cause grammar and no promoted immediate child.
-
-Strongest discoveries:
-
-```text
-joint causal configuration
-!= collection of independent cause edges
-
-all observed/logged contributors analyzed
-!= all materially relevant contributors observed
-!= causal explanation complete
-```
-
-## Current next-frontier recommendation
-
-> **Contrastive / Interventional Causal Effect**
-
-This is not active and requires separate substantive activation.
+> For a defined outcome/effect, how would that outcome differ under one exact alternative state/action/exposure/intervention versus another for the relevant unit/population/context, under what causal assumptions, scope and time, and with what limits on generalization?
 
 ## Verification status
 
-Actual Causation A7 is same-model adversarial review. Fresh public-web retrieval failed technically during that pass; authoritative holdout conclusions were inherited from source-grounded parent research. No independent second-researcher/model replication validates the exact synthesis.
+Accepted upstream closures remain same-model adversarial review with external/candidate pressure. The active child must perform its own external holdout pass before closure.
 
 ## Guardrail
 
-Do not automatically begin Contrastive / Interventional Causal Effect, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
+Do not begin Feedback / Adaptation, architecture, ontology/data-model/schema or implementation while the active child pass is running.
