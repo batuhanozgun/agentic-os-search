@@ -4,7 +4,7 @@
 
 This package preserves first-principles research into foundational problem regions that may later inform SOUL and Development OS work.
 
-It is a **research library and continuity surface**, not a pre-declared ontology or architecture. Research labels, distinctions, synthesis results and counterexamples do not automatically become design decisions.
+It is a **research library and continuity surface**, not a pre-declared ontology or architecture. Research labels, distinctions, synthesis results and counterexamples do not automatically become SOUL/Development OS design decisions.
 
 For current status and authorization always read:
 
@@ -17,11 +17,19 @@ This README is stable orientation, not dynamic authority.
 
 ## Research progression
 
-### `01_verticals/`
-Independent discovery research: Records, Work, Actors and Technical Work Environment.
+### `01_verticals/` — independent discovery research
 
-### `02_adequacy/`
-First top-level synthesis exposed two major corrections: actual Operating/Domain Reality was missing, and Records was too narrow for Information/Representation.
+Completed bounded corpora:
+- Records / persistent information;
+- Work;
+- Actors;
+- Technical Work Environment.
+
+### `02_adequacy/` — first top-level adequacy synthesis
+
+This stage exposed two major level corrections:
+- actual Operating/Domain Reality was missing from the original independent set;
+- Records was too narrow for the broader Information/Representation problem.
 
 Working frame became:
 
@@ -35,10 +43,12 @@ Actors / Agency–Participation–Authority
 ```
 
 ### `03_ground-deepening/`
+
 All four grounds were deepened/evaluated and accepted.
 
 ### `04_top-level-adequacy-rerun/`
-Post-deepening adequacy rerun found no stronger fifth peer, required merge/split or wrong-level correction.
+
+The four-ground hypothesis was re-run after deepening. No fifth peer ground, required merge/split, wrong-level correction or stronger rival survived.
 
 **Status:** user-evaluated / accepted.
 
@@ -56,11 +66,15 @@ Cross-Ground Composition
 └─ Transition / Effect / Feedback
 ```
 
-These are diagnostic research problem regions, not architecture modules or mutually exclusive event/object classes.
+These are **diagnostic research problem regions**, not architecture modules or mutually exclusive event classes.
 
 ### Relational Binding — accepted bounded leaf
 
+Core problem:
+
 > What exact anchors are connected, in what typed semantic positions and applicability frame?
+
+Key rules:
 
 ```text
 generic connectivity != semantic binding
@@ -71,21 +85,36 @@ graph reachability != legitimate transitive relation
 
 ### Composite Standing / Qualification — accepted bounded leaf
 
-> What cross-ground qualification cannot be localized to one ground because several ground semantics are constitutive of what it means or makes it hold?
+Core problem:
+
+> What cross-ground qualification cannot be localized to one ground because several accepted-ground semantics are constitutive of what it means or makes it hold?
+
+Critical boundary:
 
 ```text
 ground-local Criterion-Relative Standing
 != cross-ground Composite Standing
+```
 
+Key rules:
+
+```text
 standing holds
 != epistemic assessment
 != decision / recognition
 != recorded status
+
+verified != validated != accepted
+capable != actionable != authorized != technically reachable
 ```
 
 ### Control / Constraint — accepted bounded leaf
 
+Core problem:
+
 > How is an exact candidate behavior, transition, flow or protected effect governed under an applicable basis/objective?
+
+Key distinctions:
 
 ```text
 policy != authority != decision != enforcement != monitoring != compliance
@@ -94,7 +123,11 @@ governed-effect / control-objective scope
 != enforcement-point / monitored-path scope
 ```
 
+Therefore one blocked path does not prove the protected effect is controlled end-to-end.
+
 ### Transition / Effect / Feedback — accepted bounded parent
+
+Accepted structure:
 
 ```text
 Transition / Effect / Feedback
@@ -103,7 +136,7 @@ Transition / Effect / Feedback
 └─ Cross-Ground Feedback / Adaptation
 ```
 
-Critical boundary:
+Critical routing boundary:
 
 ```text
 ground-local dynamics
@@ -112,24 +145,13 @@ ground-local dynamics
 
 #### Cross-Ground Transition / Propagation — accepted bounded leaf
 
-> What exact change actually became real/effective across accepted-ground boundaries, where/when, and how fully did it propagate?
+Core problem:
 
-Key rules:
+> What exact change actually became real/effective across accepted-ground boundaries, for which anchors/scopes/times, and how fully did it propagate or fail to propagate?
 
-```text
-requested / intended change != realized change
-approved / committed / issued change != incorporated / realized change
-local realization != change effective across all applicable scope
-change realized != change observed / recorded
-propagation != data replication
-rollback != time reversal
-compensation != literal reversal
-transition/dependency sequence != causal proof
-```
+Important structural discovery:
 
-Structural discovery:
-
-> A propagation episode can comprise several exact transition instances with different scopes/times/failure points.
+> A higher-level propagation episode can comprise several exact transition instances with different local owners, scopes, times and failure points; it need not be one monolithic event.
 
 Frame-blindness guardrail:
 
@@ -141,7 +163,7 @@ all known targets updated
 
 #### Cross-Ground Causal Effect / Contribution — accepted bounded parent
 
-Accepted split:
+Accepted structure:
 
 ```text
 Cross-Ground Causal Effect / Contribution
@@ -149,7 +171,7 @@ Cross-Ground Causal Effect / Contribution
 └─ Contrastive / Interventional Causal Effect
 ```
 
-Critical distinction:
+The strongest distinction is:
 
 ```text
 What would X do to Y?
@@ -157,51 +179,24 @@ What would X do to Y?
 Did X cause this observed Y?
 ```
 
-##### Actual Causal Contribution / Episode Causation — current bounded leaf under evaluation
+##### Actual Causal Contribution / Episode Causation — accepted bounded leaf
 
 > In this exact realized episode/effect, which actual events, conditions, omissions, controls, actions or interactions causally contributed to what occurred?
 
-Current result:
+Accepted key rules:
 
 ```text
-Actual Causal Contribution / Episode Causation
-    ← BOUNDED LEAF / USER EVALUATION PENDING
-    ← no immediate child promoted
-    ← effect-centered
-    ← configuration-sensitive
-```
-
-Key structural discovery:
-
-```text
-joint causal configuration
-!= collection of independent cause edges
-```
-
-Key distinctions:
-
-```text
-chronology != actual causation
-cause type capable of E != actual contributor in episode e
-could-have-caused != actually-caused
+chronology != actual cause
+joint causal configuration != collection of independent cause edges
 but-for necessity != universal causal criterion
-cause of occurrence != cause of progression/severity/duration
-Control defect != actual causal contribution by identity
-systemic issue exists != systemic issue caused this episode
-omission causal relevance != duty/blame
+one cause identified != complete causal model
 causal contribution != responsibility/accountability
-plausible mechanism != mechanism actually operated
-causal story supported != alternatives discriminated
 all observed contributors analyzed != causal explanation complete
-actual causal relation != evidence != evidence-sufficiency Standing
-actual episode cause != contrastive/interventional causal effect
 ```
 
-Actual-causation profiles such as proximate, enabling, prevention/detection failure, systemic, omission, necessary/sufficient, joint/redundant/preempted and mechanism/path remain overlapping dimensions rather than children.
+The leaf is effect-centered and configuration-sensitive. Joint causes, alternative sufficient routes, overdetermination, preemption, omission/failure-to-prevent, systemic contributors and control/barrier failures remain overlapping causal profiles rather than child regions.
 
-Fresh public-web retrieval failed technically during this child pass; authoritative holdout conclusions were inherited from the source-grounded causal-parent research. No new independent external-verification claim was added.
-
-##### Contrastive / Interventional Causal Effect — inactive
+##### Contrastive / Interventional Causal Effect — recommended next / inactive
 
 > How would outcome/effect Y differ under a defined alternative state/action/exposure/intervention X versus X', for the relevant unit/population/context?
 
@@ -209,9 +204,10 @@ Fresh public-web retrieval failed technically during this child pass; authoritat
 association != causal effect
 before/after difference != intervention effectiveness
 actual episode cause != contrastive/interventional causal effect
+control presence/compliance != causal risk-reduction effectiveness
 ```
 
-If Actual Causation is accepted, this is the strongest current next child.
+This child is not active.
 
 #### Cross-Ground Feedback / Adaptation — inactive
 
@@ -243,12 +239,12 @@ Cross-Ground Composition                        ← accepted
     └─ Transition / Effect / Feedback           ← accepted bounded parent
        ├─ Cross-Ground Transition / Propagation     ← accepted bounded leaf
        ├─ Cross-Ground Causal Effect / Contribution ← accepted bounded parent
-       │  ├─ Actual Causal Contribution / Episode Causation    ← BOUNDED LEAF / USER EVALUATION PENDING
-       │  └─ Contrastive / Interventional Causal Effect         ← recommended next if accepted / inactive
+       │  ├─ Actual Causal Contribution / Episode Causation    ← accepted bounded leaf
+       │  └─ Contrastive / Interventional Causal Effect         ← recommended next / inactive
        └─ Cross-Ground Feedback / Adaptation        ← inactive
 ```
 
-No substantive Foundation child is active at the current evaluation gate.
+No substantive Foundation child is active.
 
 Architecture, ontology/data model, schema design and implementation remain outside current Foundation authorization.
 
@@ -260,7 +256,7 @@ Canonical candidate-study library: `research/studies/`.
 
 Discovery surface: `research/studies/CATALOG.md`.
 
-Candidate studies may supply evidence, counterexamples, falsifiers, mechanism references and later implementation learning. They do not define Foundation structure merely by being catalogued.
+Candidate studies may supply external evidence/counterexamples, falsifiers, mechanism references, benchmarks and later implementation learning. They do **not** define Foundation structure merely by being catalogued.
 
 ---
 
@@ -268,7 +264,7 @@ Candidate studies may supply evidence, counterexamples, falsifiers, mechanism re
 
 `STATE.md → INDEX.md → current package STATE → KEY → FINDINGS-MAP → synthesis → targeted deep evidence`
 
-Historical material remains useful for audit/reconstruction but does not override current authority surfaces.
+Historical material remains useful for audit/reconstruction but does not override current parent authority.
 
 ---
 
