@@ -8,14 +8,17 @@ Read `STATE.md` first for current authorization.
 
 ## Current stage
 
-**CROSS-GROUND COMPOSITION — CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT ACTIVE / I0.**
+**CROSS-GROUND COMPOSITION — CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT BOUNDED LEAF / AWAITING USER EVALUATION.**
+
+No substantive Foundation child is active.
 
 ## Read routes
 
 | Need | Read first | Then if needed |
 |---|---|---|
 | Current overall state / authorization | `STATE.md` | current composition router |
-| Active Contrastive / Interventional research | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/contrastive-interventional-causal-effect/STATE.md` | `PLAN.md` → completed I0–I7 |
+| Current Contrastive result | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/contrastive-interventional-causal-effect/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → I7 |
+| Contrastive residuals | `.../contrastive-interventional-causal-effect/OPEN-QUESTIONS.md` | parent/sibling/ground surface if reopened |
 | Accepted Actual Causation | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/actual-causal-contribution/STATE.md` | `KEY.md` → synthesis/A7 |
 | Accepted Causal parent | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/STATE.md` | `KEY.md` → E6/E7 |
 | Accepted Transition / Propagation | `05_relation-control-composition/transition-effect-feedback/transition-propagation/STATE.md` | `KEY.md` → synthesis/P7 |
@@ -38,10 +41,16 @@ Cross-Ground Composition
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
    │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← ACTIVE / I0
-   └─ Cross-Ground Feedback / Adaptation           ← inactive
+   │  └─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
+   └─ Cross-Ground Feedback / Adaptation           ← recommended next if accepted / inactive
 ```
+
+## Current next-step interpretation
+
+Current interaction is evaluation of Contrastive / Interventional Causal Effect only.
+
+If accepted, `Cross-Ground Feedback / Adaptation` is the strongest current next child and requires separate substantive activation.
 
 ## Guardrail
 
-Feedback / Adaptation, architecture, ontology/data model, schema design and implementation are inactive while the child pass runs.
+Architecture, ontology/data model, schema design, implementation and further child research remain unauthorized until separately activated.
