@@ -1,16 +1,17 @@
 # Relation / Control / Composition — STATE
 
-**Status:** PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; TRANSITION PARENT ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACTIVE  
+**Status:** PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; TRANSITION PARENT ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION BOUNDED LEAF / AWAITING USER EVALUATION  
 **Relational Binding:** accepted bounded leaf  
 **Composite Standing / Qualification:** accepted bounded leaf  
 **Control / Constraint:** accepted bounded leaf  
 **Transition / Effect / Feedback:** accepted bounded parent  
 **Cross-Ground Transition / Propagation:** accepted bounded leaf  
 **Cross-Ground Causal Effect / Contribution:** accepted bounded parent  
-**Actual Causal Contribution / Episode Causation:** ACTIVE  
-**Contrastive / Interventional Causal Effect:** inactive  
+**Actual Causal Contribution / Episode Causation:** bounded leaf / USER EVALUATION PENDING  
+**Contrastive / Interventional Causal Effect:** recommended next if accepted / inactive  
 **Cross-Ground Feedback / Adaptation:** inactive  
-**Current authorised substantive activity:** ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION CHILD PASS
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION RESULT EVALUATION ONLY
 
 ## Current composition structure
 
@@ -22,13 +23,11 @@ Cross-Ground Composition
 └─ Transition / Effect / Feedback      ← accepted bounded parent
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-   │  ├─ Actual Causal Contribution / Episode Causation       ← ACTIVE
-   │  └─ Contrastive / Interventional Causal Effect            ← inactive
+   │  ├─ Actual Causal Contribution / Episode Causation       ← BOUNDED LEAF / USER EVALUATION PENDING
+   │  └─ Contrastive / Interventional Causal Effect            ← recommended next if accepted / inactive
    └─ Cross-Ground Feedback / Adaptation           ← inactive
 ```
 
 ## Current authorization
 
-Substantive research is limited to the active Actual Causal Contribution / Episode Causation child pass.
-
-Do not automatically begin other causal children, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
+User evaluation only. Do not automatically activate further causal research, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
