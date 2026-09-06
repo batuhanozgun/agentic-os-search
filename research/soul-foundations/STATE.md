@@ -1,6 +1,6 @@
 # SOUL Foundations — STATE
 
-**Status:** four-ground adequacy accepted; composition parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution ACTIVE  
+**Status:** four-ground adequacy accepted; composition parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution bounded parent / AWAITING USER EVALUATION  
 **Environment / Operating Reality:** boundedly complete / accepted  
 **Information / Representation:** boundedly complete / accepted  
 **Work:** boundedly complete / accepted  
@@ -12,9 +12,10 @@
 **Control / Constraint:** bounded leaf / accepted  
 **Transition / Effect / Feedback:** bounded parent / accepted  
 **Cross-Ground Transition / Propagation:** bounded leaf / user-evaluated / accepted 2026-09-06  
-**Cross-Ground Causal Effect / Contribution:** ACTIVE — E0  
+**Cross-Ground Causal Effect / Contribution:** bounded parent / USER EVALUATION PENDING  
 **Cross-Ground Feedback / Adaptation:** inactive  
-**Current authorised substantive activity:** CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION CHILD PASS
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION PARENT RESULT EVALUATION ONLY
 
 ## Accepted Foundation anchors
 
@@ -41,32 +42,56 @@ Cross-Ground Composition
 ├─ Control / Constraint                ← accepted bounded leaf
 └─ Transition / Effect / Feedback      ← accepted bounded parent
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
-   ├─ Cross-Ground Causal Effect / Contribution    ← ACTIVE — E0
+   ├─ Cross-Ground Causal Effect / Contribution    ← BOUNDED PARENT / USER EVALUATION PENDING
+   │  ├─ Actual Causal Contribution / Episode Causation       ← discovered / inactive
+   │  └─ Contrastive / Interventional Causal Effect            ← discovered / inactive
    └─ Cross-Ground Feedback / Adaptation           ← inactive
 ```
 
-## Current active research
+## Current Causal result
 
 Canonical package:
 
 `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/`
 
-Protected question:
+Current bounded judgment:
 
-> For an exact realized cross-ground effect or transition, which actions/events/conditions/controls/Work/Actor contributions actually caused, enabled, amplified, prevented, or failed to prevent/detect that effect; at what causal depth and with what evidential confidence?
+> Causal Effect / Contribution is coherent and bounded as a parent but not a leaf. Two immediate diagnostic children survive: actual episode causation and contrastive/interventional causal effect.
 
-Required causal-depth discipline:
+Critical distinction:
 
 ```text
-symptom != cause
-proximate cause != complete causal explanation
-trigger != enabling conditions / control failures / systemic factors
-one cause found != alternatives excluded
-causal attribution != responsibility/accountability
+What would X do to Y?
+!=
+Did X cause this observed Y?
 ```
+
+Strong non-collapse:
+
+```text
+sequence / association != causation
+trigger != complete causal explanation
+proximate cause != complete causal explanation
+one cause identified != complete causal model
+causal contribution != responsibility/accountability
+control presence/compliance != causal effectiveness
+actual episode cause != contrastive/interventional causal effect
+```
+
+## Current next-frontier recommendation
+
+If the user accepts this result:
+
+> **Actual Causal Contribution / Episode Causation**
+
+This is not active. Re-select later sequencing after that child closes.
+
+## Verification status
+
+Causal E7 is same-model adversarial review. External authoritative and scholarly sources pressure the result but no independent second-researcher/model replication validates the exact synthesis.
 
 ## Current authorization
 
-**CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION E0→E7 TO BOUNDED CLOSURE.**
+**USER EVALUATION OF CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION PARENT RESULT ONLY.**
 
-Do not automatically begin Feedback/Adaptation, architecture, ontology/data-model/schema work or implementation.
+Do not automatically begin causal immediate-child research, Feedback/Adaptation, architecture, ontology/data-model/schema work or implementation.
