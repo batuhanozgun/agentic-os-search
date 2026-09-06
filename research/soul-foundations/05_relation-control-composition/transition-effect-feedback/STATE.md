@@ -1,15 +1,15 @@
 # Transition / Effect / Feedback — STATE
 
-**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT ACTIVE  
 **Parent accepted:** 2026-09-06  
 **Parent:** `Cross-Ground Composition` — accepted  
 **Cross-Ground Transition / Propagation:** accepted bounded leaf  
 **Cross-Ground Causal Effect / Contribution:** accepted bounded parent  
 **Actual Causal Contribution / Episode Causation:** accepted bounded leaf  
-**Contrastive / Interventional Causal Effect:** recommended next / inactive  
+**Contrastive / Interventional Causal Effect:** ACTIVE / I0  
 **Cross-Ground Feedback / Adaptation:** inactive  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT CAUSAL CHILD SELECTION / PLANNING ONLY
+**Current authorised substantive activity:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT CHILD PASS  
+**Current authorised interaction:** ACTIVE FOUNDATION RESEARCH
 
 ## Current structure
 
@@ -18,26 +18,20 @@ Transition / Effect / Feedback                         ← accepted parent
 ├─ Cross-Ground Transition / Propagation               ← accepted bounded leaf
 ├─ Cross-Ground Causal Effect / Contribution           ← accepted bounded parent
 │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-│  └─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
+│  └─ Contrastive / Interventional Causal Effect            ← ACTIVE / I0
 └─ Cross-Ground Feedback / Adaptation                  ← inactive
 ```
 
-## Accepted Actual Causation result
+## Active causal distinction
 
 ```text
-joint causal configuration != independent cause edges
-chronology != actual causation
-but-for necessity != universal causal criterion
-causal contribution != responsibility/accountability
-all observed contributors analyzed != causal explanation complete
+Did X cause this observed Y?
+!=
+How would Y differ under X versus X'?
 ```
 
-## Current sequencing recommendation
-
-> **Contrastive / Interventional Causal Effect** should be the next substantive child.
-
-This recommendation does not activate it.
+The first is accepted Actual Causation; the second is the active child.
 
 ## Guardrail
 
-Do not automatically begin Contrastive / Interventional Causal Effect, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation.
+Do not begin Feedback / Adaptation, architecture, ontology/data-model/schema or implementation while the active child pass is running.
