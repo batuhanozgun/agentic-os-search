@@ -2,52 +2,59 @@
 
 ## Role
 
-Current router for the accepted Cross-Ground Causal Effect / Contribution parent and its child research.
+Current router for the accepted Cross-Ground Causal Effect / Contribution parent and its immediate children.
 
-Read `STATE.md` first for authorization and current evaluation gate.
+Read `STATE.md` first for authorization.
 
 ## Current status
 
-**PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION BOUNDED LEAF / USER EVALUATION PENDING.**
+**PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT RECOMMENDED NEXT / INACTIVE.**
 
-No causal child is active.
+No immediate child is active.
 
 ## Preferred read order
 
-1. `STATE.md` — accepted parent structure and current gate.
-2. Current Actual Causation result → `actual-causal-contribution/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → A7.
-3. Actual Causation reasoning → `actual-causal-contribution/INDEX.md` → targeted A0–A6.
-4. Actual Causation residuals → `actual-causal-contribution/OPEN-QUESTIONS.md`.
-5. Parent `KEY.md` → E6/E7 when actual-vs-contrastive split is material.
-6. Parent `OPEN-QUESTIONS.md` for Contrastive and integration residuals.
-7. Accepted Transition / Propagation → `../transition-propagation/STATE.md` → `KEY.md` → P6/P7.
-8. Candidate studies only when decision-critical through catalog → selected META → targeted file.
-9. Current manifests for exact freshness.
+1. `STATE.md` — accepted parent/current child state and guardrail.
+2. Accepted Actual Causation → `actual-causal-contribution/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → A7.
+3. Actual Causation residuals → `actual-causal-contribution/OPEN-QUESTIONS.md` only when reopen conditions are material.
+4. Parent `KEY.md` → `FINDINGS-MAP.md` → synthesis → E6/E7 for the actual-vs-contrastive split.
+5. Parent `OPEN-QUESTIONS.md` for Contrastive/Feedback integration residuals.
+6. Accepted Transition / Propagation → `../transition-propagation/STATE.md` when exact-effect/propagation prerequisite is material.
+7. Candidate studies only when decision-critical through catalog → selected META → targeted file.
+8. `CURRENT-SURFACES.md` for exact freshness.
 
 ## Current structure
 
 ```text
 Cross-Ground Causal Effect / Contribution        ← accepted bounded parent
-├─ Actual Causal Contribution / Episode Causation       ← BOUNDED LEAF / USER EVALUATION PENDING
-└─ Contrastive / Interventional Causal Effect            ← recommended next if accepted / inactive
+├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
+└─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
 ```
 
-## Core actual-causation result
+## Research rule
+
+Preserve:
 
 ```text
-joint causal configuration != independent cause edges
-chronology != actual causation
-but-for necessity != universal causal criterion
-Control defect != actual causal contribution by identity
-causal contribution != responsibility/accountability
-causal story supported != alternatives discriminated
-all observed contributors analyzed != causal explanation complete
+What would X do to Y?
+!=
+Did X cause this observed Y?
 ```
 
-## Next sequencing if accepted
+Also preserve:
+
+```text
+sequence / association != causation
+trigger != complete causal explanation
+one cause identified != complete causal model
+causal contribution != responsibility/accountability
+control presence/compliance != causal effectiveness
+```
+
+## Next sequencing
 
 `Contrastive / Interventional Causal Effect` is the strongest current next child but requires separate substantive activation.
 
 ## Guardrail
 
-No further causal child, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation work is active.
+No Contrastive / Interventional Causal Effect, Feedback / Adaptation, architecture, ontology/data-model/schema or implementation work is active.
