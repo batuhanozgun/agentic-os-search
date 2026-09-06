@@ -1,35 +1,33 @@
 # Cross-Ground Causal Effect / Contribution — STATE
 
-**Status:** BOUNDED PARENT RESULT / AWAITING USER EVALUATION  
-**Activated:** 2026-09-06  
-**Closed for evaluation:** 2026-09-06  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; ACTUAL CAUSAL CONTRIBUTION CHILD ACTIVE  
+**Parent accepted:** 2026-09-06  
 **Parent:** `Transition / Effect / Feedback` — bounded parent / user-evaluated / accepted 2026-09-06  
-**Accepted prerequisite sibling:** Cross-Ground Transition / Propagation — bounded leaf / user-evaluated / accepted 2026-09-06  
-**Other sibling:** Cross-Ground Feedback / Adaptation — discovered / inactive  
-**Current phase:** E7 CLOSURE COMPLETE / USER EVALUATION GATE  
-**E0–E7:** COMPLETE  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION PARENT RESULT EVALUATION ONLY
+**Accepted prerequisite sibling:** Cross-Ground Transition / Propagation — bounded leaf / accepted  
+**Actual Causal Contribution / Episode Causation:** ACTIVE child research  
+**Contrastive / Interventional Causal Effect:** discovered / inactive  
+**Cross-Ground Feedback / Adaptation:** inactive  
+**Current authorised substantive activity:** ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION CHILD PASS
 
-## Protected parent question
-
-> For an exact realized effect or defined outcome transition, what causal claims are justified about contributors to the observed episode and about how changing candidate causes/actions/controls would alter outcomes under relevant alternatives?
-
-## Bounded result
+## Accepted parent structure
 
 ```text
-Cross-Ground Causal Effect / Contribution
-    ← BOUNDEDLY COMPLETE AS PARENT REGION
-    ← NOT A LEAF
-    ← TWO IMMEDIATE DIAGNOSTIC CHILDREN PROMOTED
-
-├─ Actual Causal Contribution / Episode Causation
-└─ Contrastive / Interventional Causal Effect
+Cross-Ground Causal Effect / Contribution        ← accepted bounded parent
+├─ Actual Causal Contribution / Episode Causation       ← ACTIVE
+└─ Contrastive / Interventional Causal Effect            ← inactive
 ```
 
-No immediate child is active.
+## Accepted parent result
 
-## Shared causal grammar
+Critical distinction:
+
+```text
+What would X do to Y?
+!=
+Did X cause this observed Y?
+```
+
+Shared causal grammar:
 
 ```text
 Causal claim
@@ -44,74 +42,21 @@ Causal claim
 └─ stopping depth tied to intervention/recurrence/decision value
 ```
 
-## Child 1 — Actual Causal Contribution / Episode Causation
+## Active child
+
+Canonical package:
+
+`actual-causal-contribution/`
 
 Protected question:
 
-> In this exact realized episode/effect, which actual events, conditions, omissions, controls, actions or interactions causally contributed to what occurred?
+> For one exact realized cross-ground episode/effect, which actual events, conditions, omissions, controls, actions or interactions causally contributed to what occurred, through what episode-specific causal structure, at what decision-relevant depth, and with what uncertainty or competing explanations?
 
-Core non-collapse:
+## Guardrail
 
-```text
-chronology != actual cause
-trigger != complete causal explanation
-proximate cause != complete causal explanation
-one cause identified != complete causal model
-causal contribution != responsibility / accountability
-```
-
-## Child 2 — Contrastive / Interventional Causal Effect
-
-Protected question:
-
-> How would outcome/effect Y differ under a defined alternative state/action/exposure/intervention X versus X', for the relevant unit/population/context?
-
-Core non-collapse:
-
-```text
-association != causal effect
-before/after difference != intervention effectiveness
-contrastive/general effect != actual cause of one episode
-actual episode cause != general effect magnitude
-control presence/compliance != causal risk-reduction effectiveness
-```
-
-## Causal-depth roles — profiles, not children
-
-- proximate/direct;
-- enabling/contributing;
-- prevention failure;
-- detection/containment failure;
-- systemic/framing;
-- necessary/sufficient/contributing properties;
-- omission/failure-to-prevent;
-- mitigating/preventive contribution.
-
-## Critical sibling/ground boundaries
-
-```text
-transition / propagation != causal explanation
-causal relation != causal evidence
-causal evidence != evidence-sufficient Standing
-causal contribution != provenance by identity
-causal contribution != responsibility/accountability
-Control semantics != Control causal effectiveness
-```
-
-## Next sequencing recommendation
-
-If the user accepts this result:
-
-> **Actual Causal Contribution / Episode Causation** is the strongest first immediate-child pass.
-
-It is not active. Do not pre-fix the later order among Contrastive/Interventional Causal Effect and Feedback/Adaptation.
-
-## Verification status
-
-E7 is same-model adversarial review. External authoritative and scholarly holdouts pressure the result but do not independently validate the exact two-child synthesis. No independent second-researcher/model replication has been performed.
-
-## Current authorization / return condition
-
-**USER EVALUATION OF CROSS-GROUND CAUSAL EFFECT / CONTRIBUTION PARENT RESULT ONLY.**
-
-Do not automatically begin immediate-child research, Feedback/Adaptation, architecture, ontology/data-model/schema work or implementation.
+Do not automatically begin:
+- Contrastive / Interventional Causal Effect;
+- Cross-Ground Feedback / Adaptation;
+- architecture;
+- ontology/data-model/schema;
+- implementation.
