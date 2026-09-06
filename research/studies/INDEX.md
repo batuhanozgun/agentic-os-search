@@ -24,7 +24,7 @@ On 2026-09-04 the existing candidate packages were moved from direct `research/<
 
 Current canonical package locations are the paths under this library and the package `META.md` / `STATE.md` / `INDEX.md` surfaces.
 
-Some chronological rationale or deep-dive documents created before the migration may still contain **historical pre-migration path literals**. Do not treat those literals as current routing authority. Resolve the named package through this `INDEX.md`, `CATALOG.md`, or its current `META.md`. Current load-bearing routers/state surfaces should use the new paths.
+Some chronological rationale or deep-dive documents created before the migration may still contain **historical pre-migration path literals**. Do not treat those literals as current routing authority. Resolve the named package through this `INDEX.md`, `CATALOG.md`, or its current `META.md`.
 
 ## Retrieval flow
 
@@ -51,6 +51,7 @@ Do not load every study merely because the library exists.
 | Knowledge access / representation / adaptation mechanisms | `ai-knowledge-strategies/META.md` | `STATE.md` → `INDEX.md` / mechanism files |
 | Anthropic AI-native SDLC / agent-native software operating model | `anthropic-ai-native-sdlc-playbook/META.md` | `STATE.md` → `INDEX.md` → playbook research / source ledger / SOUL-DevOS assessment / falsifiers |
 | Context / memory / harness engineering | `context-memory-harness-engineering/META.md` | `STATE.md` → `INDEX.md` / cross-layer synthesis |
+| gstack implemented agentic software factory / qualification-control-runtime case | `gstack/META.md` | `CORE.md` → `INDEX.md` → relevant synthesis / revalidation / source ledger |
 | Multi-agent coordination / control patterns | `multi-agent-patterns/META.md` | assessment / conversation synthesis |
 | Hands-On LLM repository as evidence/reference corpus | `hands-on-large-language-models/META.md` | repository research → SOUL/DevOS assessment |
 | Public/free API discovery catalogue | `public-apis/META.md` | `RESEARCH.md` → current upstream repository/docs |
@@ -70,7 +71,9 @@ Use studies as applicable for:
 
 Do not infer from a relevance tag that a study belongs inside a Foundation node.
 
-The `anthropic-ai-native-sdlc-playbook` study is particularly broad across Work, Actors, Information and Environment because its external target is an end-to-end software operating model. That breadth is a retrieval property, **not** a reason to use the playbook as a cross-Foundation taxonomy.
+The `anthropic-ai-native-sdlc-playbook` and `gstack` studies are both broad across Work, Actors, Information and Environment because their external targets concern end-to-end software operating models. That breadth is a retrieval property, **not** a reason to use either study as a Foundation taxonomy.
+
+`gstack` is especially useful as an implemented pressure test for artifact handoffs, qualification/standing, authority vs capability, runtime/environment dependence, verification routing, production transitions and self-development. Its primary corpus is pinned and its closure revalidation only extends through the current-main commit recorded in its `META.md`; later current-state reuse requires another freshness check.
 
 ## Design / architecture interaction
 
@@ -90,6 +93,7 @@ Completion of a study never authorizes adoption.
 - `ai-knowledge-strategies/`
 - `anthropic-ai-native-sdlc-playbook/`
 - `context-memory-harness-engineering/`
+- `gstack/`
 - `hands-on-large-language-models/`
 - `multi-agent-patterns/`
 - `public-apis/`
