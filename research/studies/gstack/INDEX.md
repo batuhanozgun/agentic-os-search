@@ -4,12 +4,17 @@
 
 Retrieval router for the durable `garrytan/gstack` external-target study.
 
-Read `STATE.md` first for current progress/authorization, `META.md` for epistemic boundary, and `SOURCE-LEDGER.md` for actual read coverage.
+Read `STATE.md` first for current progress/authorization, `META.md` for epistemic boundary, and `SOURCE-LEDGER.md` for actual source coverage.
 
 ## Current study target
 
 `garrytan/gstack@0d1bd5616c0ef096bb7ccee336f63c60ee408618`  
 Observed 2026-09-05; package version 1.79.0.
+
+## Current phase
+
+**First/native subsystem layer: boundedly complete (11 syntheses).**  
+**Current next layer: cross-system composition.**
 
 ## Read routes
 
@@ -17,7 +22,7 @@ Observed 2026-09-05; package version 1.79.0.
 |---|---|---|
 | Current progress / next work | `STATE.md` | relevant synthesis / ledger |
 | Scope / authority / freshness | `META.md` | `METHOD.md` |
-| Actual read coverage | `SOURCE-LEDGER.md` | pinned upstream source |
+| Actual source coverage | `SOURCE-LEDGER.md` | pinned upstream source |
 | Planning / work admission | `syntheses/planning-specification-work-admission.md` | ledger → sources |
 | Review / QA / ship | `syntheses/review-qa-ship-delivery-qualification.md` | ledger → sources |
 | Browser runtime / security / evidence | `syntheses/browser-runtime-security-evidence.md` | ledger → sources |
@@ -26,11 +31,13 @@ Observed 2026-09-05; package version 1.79.0.
 | Multi-agent / cross-model | `syntheses/multi-agent-cross-model-coordination.md` | ledger → sources |
 | Guarded action / CSO security | `syntheses/guarded-action-security-review.md` | ledger → sources |
 | Host adapters / portability | `syntheses/host-adapters-portability-fidelity.md` | ledger → sources |
-| Deploy / canary / production feedback | `syntheses/deploy-canary-production-retrospective-feedback.md` | ledger → land/deploy/canary/retro sources |
-| Testing / eval infrastructure | not yet synthesized | **current next cluster** |
-| Four-ground projection | not yet produced | after remaining native system syntheses |
+| Deploy / Canary / production feedback | `syntheses/deploy-canary-production-retrospective-feedback.md` | ledger → sources |
+| Testing / eval / routing / compliance | `syntheses/testing-eval-routing-compliance-flake-lifecycle.md` | ledger → test/eval sources |
+| Self-development / generation / upgrade / release | `syntheses/repository-self-development-generation-upgrade-release.md` | ledger → generator/setup/upgrade/version/history sources |
+| Cross-system composition | not yet produced | **current next layer** |
+| Four-ground projection | not yet produced | after cross-system model stabilizes |
 
-## Current durable syntheses
+## Native synthesis set
 
 1. **Planning / specification / work admission** — qualification before work admission.
 2. **Review / QA / delivery qualification** — qualification before delivery; current standing can be recomputed.
@@ -41,89 +48,61 @@ Observed 2026-09-05; package version 1.79.0.
 7. **Guarded action / security review** — preventive hooks, one-way human authority, CSO detective qualification; enforcement can degrade to prose across hosts.
 8. **Host adapters / portability fidelity** — typed host compilation plus runtime materialization; support is a ladder, not a boolean.
 9. **Deploy / Canary / production / retrospective feedback** — merge, deploy and live-health standings separated; rollback closure and release-identity proof remain incomplete.
+10. **Testing / eval / routing / compliance / flake lifecycle** — test existence, selection, execution, oracle, retry/flake and finalized evidence are separate standings.
+11. **Repository self-development / generation / upgrade / release** — authored source, generated behavior, installed runtime, running process, migration and release identity are separate standings.
 
-### Production-feedback retrieval summary
+## First-layer closure result
+
+The subsystem layer is sufficiently complete for the pinned revision to stop adding more sibling clusters. Chronology/evolution was sampled horizontally rather than treated as a twelfth taxonomy branch.
+
+The evolution evidence supports a recurring pattern:
 
 ```text
-qualified PR
-→ readiness evidence
-→ one-way merge authority
-→ authoritative merge state
-→ deployment evidence
-→ immediate live verification
-→ extended canary
-→ history / retro / learnings
-→ candidate future improvement
+prose / local convention
+→ concrete failure
+→ named state distinction
+→ reusable resolver/helper/CLI
+→ structural invariant/scanner
+→ behavioral/environment E2E
+→ CI/release consequence when justified
 ```
 
-Key corrections:
-
-- local merge command result is not authoritative remote merge state;
-- deploy completion is not live-health completion;
-- auto-deploy URL health is not automatically exact-release identity proof;
-- Canary needs a genuine pre-deploy baseline for before/after regression attribution;
-- rollback `REVERTED` does not prove rollback deployment + production restoration;
-- failed-test “BLOCKER” prose and final merge-anyway menu are inconsistent;
-- `/health` is code-quality health, not production health;
-- Retro recommendations are informational feedback, not automatic Work admission;
-- production E2Es largely simulate external effects;
-- Canary behavior test existence and coverage-matrix attribution disagree.
+This is not universal or complete; the pinned repo still contains explicit negative findings where an outer standing flattens a more qualified state.
 
 ## Synthesis ladder
 
 ```text
 pinned source
-→ mechanism records
-→ subsystem syntheses
-→ cross-system synthesis
+→ mechanism/subsystem syntheses            ← FIRST LAYER CLOSED
+→ cross-system composition synthesis       ← NEXT
 → four-ground projection + neutral cross-ground mechanisms
 → compact gstack core model
 ```
 
 Higher synthesis never removes source re-entry.
 
-## Provisional subsystem map
-
-1. governing ethos / behavioral policy / generation contract;
-2. planning / specification / work admission — **done**;
-3. review / QA / delivery qualification — **done**;
-4. browser runtime / security / evidence — **done**;
-5. investigation / causal control — **done**;
-6. memory / learnings / GBrain — **done**;
-7. multi-agent / cross-model coordination — **done**;
-8. guarded-action / CSO security-review — **done**;
-9. host adapters / portability fidelity — **done**;
-10. deploy / canary / production observation / retrospective feedback — **done**;
-11. **testing / eval / routing / compliance infrastructure — NEXT**;
-12. repository self-development / generation / update / release mechanisms.
-
-These are research clusters, not Foundation categories.
-
-## Immediate next route
-
-Study **testing / eval / judge / routing / compliance / flake lifecycle**.
+## Immediate next route — cross-system composition
 
 Central question:
 
-> how does gstack decide what verification runs, distinguish structural/static evidence from real-agent behavior and LLM-judge evidence, prove the intended oracle actually executed, handle skips/flakes/cost/routing, and convert results into trustworthy confidence rather than false green?
+> how do the 11 native subsystems compose into one operating system; which work, information, authority, evidence, standing and runtime objects cross subsystem boundaries; where are those objects re-qualified, invalidated, transformed or flattened; and what feedback loops make the system adaptive over time?
 
-Priority evidence:
+Priority views:
 
-- `package.json` test/eval commands;
-- `test/skill-coverage-matrix.ts` and its validator;
-- touchfile/diff routing and shard-selection helpers;
-- free tests versus paid E2E and LLM-judge suites;
-- Claude/Codex/Gemini session runners;
-- eval artifact schema, aggregation/compare/summary/flake ranking;
-- CI/gate/periodic selection and skip semantics;
-- audit/compliance/slop scans;
-- known falsifiers: Codex all-skip green, Canary coverage-route mismatch, simulated production E2Es.
+1. **End-to-end work lifecycle** — idea → discovery → admitted work → implementation → review/evidence → delivery → production → feedback → candidate future work.
+2. **Authority/control plane** — human decision rights, child delegation, tool capabilities, host/runtime enforcement, security intervention and release authority.
+3. **Information/evidence lineage** — source, plan, diff, review, runtime observation, memory, eval and release artifacts with their freshness/standing transitions.
+4. **Runtime/environment plane** — repo/worktree, host, browser, process, filesystem, external systems and production surfaces.
+5. **Feedback/self-development loops** — retro/learnings/evals/failures → new work → stronger controls → generation/setup/release.
+6. **Seam analysis** — where qualification strengthens versus where metadata/standing is lost.
+
+Produce one bounded gstack-native cross-system synthesis before any Foundation mapping.
 
 ## Guardrails
 
-- Keep authored test intent, route metadata, actual execution, oracle validity and independent verification separate.
-- A green job is not positive evidence if the intended test/runtime skipped.
-- A real agent E2E is not necessarily a real external-system integration test.
-- LLM-as-judge is an oracle with its own calibration/common-cause limits.
+- Do not turn the subsystem list into the four-ground taxonomy prematurely.
+- Keep authored intent, implemented control, test evidence and external/independent verification separate.
+- Treat “gate”, “current”, “supported”, “secure”, “deployed”, “updated”, “reverted” and “green” as typed standings whose actual semantics must be named.
+- Preserve known counterexamples; do not make the cross-system model cleaner than the implementation.
 - Do not mutate Foundation from this candidate study.
 - Do not silently substitute current gstack HEAD for the pinned snapshot.
