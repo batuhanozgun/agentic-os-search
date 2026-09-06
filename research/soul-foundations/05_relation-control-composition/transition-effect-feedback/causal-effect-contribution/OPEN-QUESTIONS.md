@@ -1,6 +1,6 @@
 # Cross-Ground Causal Effect / Contribution — Open Questions / Reopen Triggers
 
-**Status:** bounded residuals after accepted parent + completed Actual Causation child  
+**Status:** bounded residuals after accepted parent + accepted Actual Causation child  
 **Date:** 2026-09-06  
 **Role:** residual uncertainty; NOT an automatic execution queue
 
@@ -8,13 +8,13 @@
 
 ```text
 Cross-Ground Causal Effect / Contribution        ← accepted bounded parent
-├─ Actual Causal Contribution / Episode Causation       ← bounded leaf / USER EVALUATION PENDING
-└─ Contrastive / Interventional Causal Effect            ← recommended next if accepted / inactive
+├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
+└─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
 ```
 
-## Actual Causation questions now delegated to child package
+## Accepted Actual Causation questions delegated to child package
 
-Dedicated A0→A7 research now covers:
+Dedicated A0→A7 research covers:
 - minimum actual-cause grammar;
 - joint/configuration-sensitive causation;
 - multiple sufficient sets / overdetermination / preemption;
@@ -53,7 +53,7 @@ Narrow residuals/reopen triggers live in:
 ## Parent reopen triggers
 
 Reopen `Cross-Ground Causal Effect / Contribution` if:
-- Actual Causation is rejected or later fails its configuration/explanandum boundary;
+- accepted Actual Causation later fails its configuration/explanandum boundary;
 - Contrastive Causal Effect collapses into accumulated actual episodes;
 - contrastive research exposes a stable third causal child such as Transport/Generalization;
 - causal confidence/alternatives cannot remain bounded without general epistemology;
@@ -70,8 +70,6 @@ Do not reopen merely because:
 - later architecture uses fault trees, Bayesian/causal graphs, STPA/CAST or statistical estimators.
 
 ## Current sequencing recommendation
-
-If user evaluation accepts `Actual Causal Contribution / Episode Causation`:
 
 > **Contrastive / Interventional Causal Effect** is the strongest next child and requires separate substantive activation.
 
