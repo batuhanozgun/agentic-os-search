@@ -1,30 +1,30 @@
 # Cross-Ground Causal Effect / Contribution — STATE
 
-**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; ACTUAL CAUSAL CONTRIBUTION BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED  
 **Parent accepted:** 2026-09-06  
 **Parent:** `Transition / Effect / Feedback` — accepted bounded parent  
 **Accepted prerequisite sibling:** Cross-Ground Transition / Propagation — accepted bounded leaf  
-**Actual Causal Contribution / Episode Causation:** bounded leaf / USER EVALUATION PENDING  
-**Contrastive / Interventional Causal Effect:** recommended next if Actual Causation accepted / inactive  
+**Actual Causal Contribution / Episode Causation:** bounded leaf / user-evaluated / accepted 2026-09-06  
+**Contrastive / Interventional Causal Effect:** recommended next / inactive  
 **Cross-Ground Feedback / Adaptation:** inactive  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** ACTUAL CAUSAL CONTRIBUTION / EPISODE CAUSATION RESULT EVALUATION ONLY
+**Current authorised interaction:** NEXT CAUSAL CHILD SELECTION / PLANNING ONLY
 
 ## Accepted parent structure
 
 ```text
 Cross-Ground Causal Effect / Contribution        ← accepted bounded parent
-├─ Actual Causal Contribution / Episode Causation       ← BOUNDED LEAF / USER EVALUATION PENDING
-└─ Contrastive / Interventional Causal Effect            ← recommended next if accepted / inactive
+├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
+└─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
 ```
 
-## Current Actual Causation result
+## Accepted Actual Causation result
 
 Canonical package:
 
 `actual-causal-contribution/`
 
-Current bounded judgment:
+Accepted bounded judgment:
 
 > Actual Causal Contribution / Episode Causation is a bounded leaf with one effect-centered, configuration-sensitive causal grammar and no promoted immediate child.
 
@@ -52,15 +52,13 @@ actual episode cause != contrastive/interventional causal effect
 
 ## Sequencing result
 
-If the user accepts this result:
-
 > **Contrastive / Interventional Causal Effect** is the strongest current next child.
 
-This is not active.
+This is not active and requires separate substantive activation.
 
 ## Verification status
 
-Actual Causation A7 is same-model adversarial review. Authoritative holdout conclusions were inherited from the parent; fresh public-web retrieval failed technically during this pass. No independent second-researcher/model replication validates the exact leaf result.
+Actual Causation A7 is same-model adversarial review. Authoritative holdout conclusions were inherited from the parent; fresh public-web retrieval failed technically during that pass. No independent second-researcher/model replication validates the exact leaf result.
 
 ## Guardrail
 
