@@ -1,16 +1,32 @@
 # Cross-Ground Transition / Propagation — STATE
 
-**Status:** ACTIVE FOUNDATION CHILD RESEARCH  
+**Status:** BOUNDED LEAF / AWAITING USER EVALUATION  
 **Activated:** 2026-09-06  
-**User authorization:** accepted Transition / Effect / Feedback parent result and instructed Cross-Ground Transition / Propagation continuation to operational limit  
+**Closed for evaluation:** 2026-09-06  
 **Parent:** `Transition / Effect / Feedback` — bounded parent / user-evaluated / accepted 2026-09-06  
 **Sibling children:** Cross-Ground Causal Effect / Contribution and Cross-Ground Feedback / Adaptation — discovered / inactive  
-**Current phase:** P0 CANONICAL / EVIDENCE RECOVERY  
-**Current authorised substantive activity:** CROSS-GROUND TRANSITION / PROPAGATION CHILD PASS
+**Current phase:** P7 CLOSURE COMPLETE / USER EVALUATION GATE  
+**P0–P7:** COMPLETE  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** CROSS-GROUND TRANSITION / PROPAGATION RESULT EVALUATION ONLY
 
 ## Protected question
 
-> What actually changed or became effective across accepted-ground boundaries, at which exact anchors/scopes/times, how fully did the change propagate or fail to propagate, and what semantic distinctions are required to preserve partiality, delay, invalidation, convergence, rollback/compensation and observation-versus-occurrence without importing one implementation architecture?
+> What exact change actually became real/effective across accepted-ground boundaries, for which anchors/scopes/times, through which applicable bindings/dependencies, and how fully did the change propagate or fail to propagate?
+
+## Bounded result
+
+```text
+Cross-Ground Transition / Propagation
+    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← no immediate child promoted
+    ← one reusable realized-change / propagation grammar
+    ← profiles/dimensions retained without child promotion
+```
+
+Canonical gloss:
+
+> Cross-Ground Transition / Propagation concerns **realized cross-ground change and its scope/time of propagation**, not the request, plan, record, causal explanation or feedback response by identity.
 
 ## Critical routing boundary
 
@@ -19,68 +35,124 @@ ground-local dynamics
 != cross-ground Transition / Propagation
 ```
 
-A case belongs here only when the protected change/propagation question irreducibly spans accepted grounds or accepted Binding / Standing / Control composition.
+Route here only when other-ground anchors/relations are constitutive of the protected change/propagation question.
 
-## Candidate pressure — probes only
-
-- request / command / proposal versus commitment/admission;
-- committed source change versus realized local change;
-- local effect versus broader propagation/effectiveness;
-- occurrence/effective/reference/observation time;
-- partial, delayed, failed, superseded and conflicting application;
-- convergence and persistent divergence;
-- invalidation/re-evaluation pressure on prior Standing and Control;
-- rollback, compensation, retry, reconciliation and residual side effects;
-- exact target/version/scope and dependency changes;
-- event/record versus actual occurrence;
-- forward propagation across Information, Work, Actors, Control and Environment.
-
-None of these is an accepted child.
-
-## Primary falsification questions
-
-- Is Cross-Ground Transition / Propagation coherent and irreducible, or does it collapse into ground-local dynamics + Binding?
-- What universal minimum distinguishes requested/committed/realized/effective/observed change without forcing distributed-systems terminology onto all domains?
-- Does `commit` belong universally, or only to institutional/software profiles?
-- Is propagation fundamentally path/scope semantics, state convergence semantics, temporal semantics, or a combination?
-- When does a dependency change merely stale an assessment versus change the underlying Standing itself?
-- Can partiality, convergence, compensation and rollback be treated as dimensions/profiles, or do stable immediate children survive?
-- What distinguishes rollback from compensation when side effects cannot be undone?
-- Does `reconciliation` describe Work rather than Transition, and if so what is the Transition-owned result?
-- Is `invalidation` a Transition result, a Standing consequence, or a Binding/validity relation?
-- Can one transition have different effective times across scopes without requiring one global clock model?
-- Does the child expose a missing sibling, a missing Standing/Control distinction or an upstream adequacy falsifier?
-
-## Research route
+## Stable semantic core
 
 ```text
-P0 canonical/current evidence recovery
-→ P1 minimum cross-ground transition signature
-→ P2 realization / propagation / temporal-state discrimination
-→ P3 partiality / convergence / invalidation / recovery audit
-→ P4 rival internal decompositions
-→ P5 authoritative external + candidate-study holdouts
-→ P6 synthesis / immediate-child decision
-→ P7 adversarial closure / user-evaluation gate
+Cross-Ground Transition / Propagation
+├─ exact changed / affected focus
+├─ transition/change identity
+├─ reference/baseline or trajectory frame
+├─ realized scope
+├─ temporal/reference semantics where material
+├─ typed propagation/dependency semantics where material
+├─ partiality / persistence / reversibility / supersession where material
+├─ validity-dependency consequences exposed for downstream re-evaluation
+└─ observation/evidence kept separate from actual realization
 ```
 
-## Stop / depth rule
+## Strongest structural discovery
 
-This authorization covers the **Cross-Ground Transition / Propagation child pass to bounded closure**.
+Propagation often consists of multiple exact transition instances rather than one monolithic event:
 
-If P6 discovers stable immediate children, do not activate them automatically. Return this child result for user evaluation first.
+```text
+Transition A
+  --typed relation-->
+Transition B
+  --typed relation-->
+Transition C
+```
 
-If no stable child split survives, close as a bounded leaf with reusable transition/propagation grammar and overlapping dimensions/profiles.
+A higher-level propagation episode can group them without erasing local transition identity, scope/time or failure points.
 
-If a material upstream falsifier survives, reopen only the minimum affected prior research.
+## Strongest non-collapse rules
 
-## Guardrail
+```text
+requested / intended change
+!= realized change
 
-Do not begin:
-- Cross-Ground Causal Effect / Contribution substantive research;
-- Cross-Ground Feedback / Adaptation substantive research;
+approved / committed / issued change
+!= incorporated / realized change
+
+local realization
+!= change effective across all applicable scope
+
+change realized
+!= change observed / recorded
+
+occurrence time
+!= observation time
+!= effective time everywhere
+
+propagation
+!= data replication
+
+propagation episode exists
+!= full-propagation / convergence Standing holds
+
+retry / rollback / compensation / reconciliation Work
+!= successful restoration/convergence
+
+rollback != time reversal
+compensation != literal reversal
+reconciliation ran != reconciled
+
+validity dependency changed
+!= underlying Standing automatically false
+
+transition/dependency sequence
+!= causal proof
+```
+
+## Frame-blindness guardrail
+
+```text
+all known targets updated
+!= all materially applicable targets known
+!= full propagation established
+```
+
+## Retained profiles/dimensions — not children
+
+- staged/delayed propagation;
+- eventual-consistency-style propagation;
+- institutional publication/effective/compliance staging;
+- approved-change/incorporation/verification staging;
+- partial/heterogeneous propagation;
+- continuous/gradual transition;
+- supersession/conflicting updates;
+- rollback/compensation/reconciliation;
+- stale-dependent/invalidation pressure;
+- reversible/irreversible residual effects;
+- observation lag;
+- path/mechanism-relative propagation latency.
+
+## External / candidate holdout result
+
+W3C PROV, OpenTelemetry, AWS IAM, Google Cloud IAM, NASA Configuration Management and institutional rule effective/compliance timing did not force a child split or upstream reopen.
+
+The selected Anthropic candidate study supplied illustrative software/agentic pressure. gstack was inspected at META level but deliberately not made load-bearing because its study is active/freshness-sensitive and authoritative sources already discriminated the live hypothesis.
+
+## Next sequencing recommendation
+
+If the user accepts this result:
+
+> **Cross-Ground Causal Effect / Contribution** is the strongest next sibling child.
+
+It is not active.
+
+## Verification status
+
+P7 is same-model adversarial review. No independent second-researcher/model replication validates this exact bounded-leaf result, and no external source publishes this exact Foundation synthesis.
+
+## Current authorization / return condition
+
+**USER EVALUATION OF CROSS-GROUND TRANSITION / PROPAGATION RESULT ONLY.**
+
+Do not automatically begin:
+- Cross-Ground Causal Effect / Contribution;
+- Cross-Ground Feedback / Adaptation;
 - architecture;
-- ontology/data-model/schema design;
+- ontology/data-model/schema work;
 - implementation.
-
-External standards and candidate studies are falsifiers/counterframes, not Foundation taxonomy authorities.
