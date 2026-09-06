@@ -1,6 +1,6 @@
 # Cross-Ground Causal Effect / Contribution — CURRENT SURFACES
 
-**Status:** canonical freshness binding after Actual Causal Contribution bounded leaf closure / user-evaluation gate  
+**Status:** canonical freshness binding after accepted Actual Causal Contribution bounded leaf checkpoint  
 **Date:** 2026-09-06  
 **Branch:** `main`
 
@@ -8,13 +8,13 @@
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Parent state | `STATE.md` | `84c74243c6d6f840db2b5b110ed78d0251426d00` |
-| Parent router | `INDEX.md` | `c000d7d3ffc29c36cd719a8e40768fd34ec569fa` |
+| Parent state | `STATE.md` | `3f824c2003fbf625c3e98d4c0bad2312e76fef6f` |
+| Parent router | `INDEX.md` | `fe8bea435bffa9fc7fe8bab03a127d7cbe41c595` |
 | Parent plan | `PLAN.md` | `973e2c07022f72030d29064d4817ff9e5d3c9af0` |
-| Parent L0 key | `KEY.md` | `7aa6cc41f5403a06f36b60d47561229a7aa4e39d` |
+| Parent L0 key | `KEY.md` | `e43dc7110b69ad89ee57d9e2da873de5b59d6550` |
 | Parent findings map | `FINDINGS-MAP.md` | `79aaed2e4c70a9e5f4dbb49714d11f63c7b3899d` |
 | Parent synthesis | `synthesis/CAUSAL-EFFECT-CONTRIBUTION-SYNTHESIS.md` | `843436fed17c0a3a086a04d79841d1afc6309e6d` |
-| Parent residuals | `OPEN-QUESTIONS.md` | `b8bfd821d2dbe2b5ca74987a1ce01643cd52627f` |
+| Parent residuals | `OPEN-QUESTIONS.md` | `20b9e0066781deae5f8cbb7312dfe9b80778b93d` |
 
 ## Completed parent passes
 
@@ -33,18 +33,18 @@
 
 ```text
 Cross-Ground Causal Effect / Contribution        ← USER-EVALUATED / ACCEPTED BOUNDED PARENT
-├─ Actual Causal Contribution / Episode Causation       ← BOUNDED LEAF / USER EVALUATION PENDING
-└─ Contrastive / Interventional Causal Effect            ← recommended next if accepted / inactive
+├─ Actual Causal Contribution / Episode Causation       ← USER-EVALUATED / ACCEPTED BOUNDED LEAF
+└─ Contrastive / Interventional Causal Effect            ← recommended next / inactive
 ```
 
 ## Current child surfaces
 
 | Child | Status | Current manifest |
 |---|---|---|
-| Actual Causal Contribution / Episode Causation | bounded leaf / USER EVALUATION PENDING | `actual-causal-contribution/CURRENT-SURFACES.md` @ `af00bec46069cb962f47b89568b65602a809255b` |
-| Contrastive / Interventional Causal Effect | recommended next if Actual Causation accepted / inactive | not created/active |
+| Actual Causal Contribution / Episode Causation | user-evaluated / accepted bounded leaf | `actual-causal-contribution/CURRENT-SURFACES.md` @ `fbc0a842a4e4f1b95443470a1f0d3050c6a547b4` |
+| Contrastive / Interventional Causal Effect | recommended next / inactive | not created/active |
 
-## Current actual-causation discovery
+## Accepted actual-causation discoveries
 
 ```text
 joint causal configuration
