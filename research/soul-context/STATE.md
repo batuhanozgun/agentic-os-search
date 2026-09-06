@@ -126,6 +126,16 @@ Unestablished when needed: local candidate write/commit path and platform approv
 
 Not all prerequisites block local preparation. A failed startup must not be hidden with full-access bypass, credential copying, different-model fallback or fabricated tests. Report completed preparation and the precise blocked action.
 
+## G0 context-pressure notice — user report; handoff not yet received
+
+On 2026-09-06, before receiving the G0 result, the user reported that the current Codex conversation was nearing its context limit and might soon need a new session. The research assistant cannot independently observe that context meter, remaining token budget, active subprocesses or local progress. No completed file, test, handoff or stopped writer is established by this notice.
+
+Research-side recommendation: prioritize a durable checkpoint at the next safe boundary rather than finishing G0 under context pressure. Preserve the existing G0 identity and scope, actual working-copy/branch/HEAD and uncommitted changes, completed/failed/unrun tests, evidence locations, active or uncertain subprocess state, used run budget and the first safe continuation action. Use the already permitted work/handoff fields or G0 evidence directory; do not modify a frozen review target C1 merely to add a handoff. Verify the saved record by reading it back.
+
+This is a proposed continuity reminder, not evidence that it was relayed or executed. It does not amend the pinned G0, expand permission, reset its task-level run budget, authorize overlapping writers, or imply operating acceptance. Do not open a second writing session until the previous writer and its relevant child processes are confirmed stopped or non-overlapping under a valid recorded handoff. Unknown process state remains a blocker for conflicting writes.
+
+When a checkpoint/result is supplied, recover actual local artefacts and remaining authority before preparing the next-session entry prompt. Do not regenerate the full design dialogue, re-clone, restart completed tests without reason, or call an assisted coordinator handoff a passed fresh-session experiment. The research-side record remains a bridge checkpoint, not a substitute for the unpublished local work state.
+
 ## Next action
 
 ### Historical context line
@@ -152,7 +162,7 @@ After Codex returns, inspect actual candidate/ref/diff, G0 provenance, loaded co
 
 ## Corpus and boundaries
 
-`repos/` holds ledgers; `evidence/` historical syntheses; `current/` cross-project context; `current/briefs/` versioned assignments; `current/reviews/` preserved responses and bounded reviews. They are not Foundation findings, candidate studies or this research assistant's control layer.
+`repos/` holds ledgers; `evidence/` historical syntheses; `current/briefs/` versioned assignments; `current/reviews/` preserved responses and bounded reviews. They are not Foundation findings, candidate studies or this research assistant's control layer.
 
 The S1A review changes only these research-side continuity surfaces. It does not modify AGENT.md, agent/**, Foundation, studies, predecessor SOUL or either target repository. Old S1/S1A briefs and raw responses remain versioned evidence.
 
