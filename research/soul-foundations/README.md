@@ -127,8 +127,6 @@ Therefore one blocked path does not prove the protected effect is controlled end
 
 ### Transition / Effect / Feedback — accepted bounded parent
 
-This region did **not** close as a leaf.
-
 Accepted structure:
 
 ```text
@@ -145,39 +143,28 @@ ground-local dynamics
 != cross-ground Transition / Effect / Feedback
 ```
 
-#### Cross-Ground Transition / Propagation — current bounded leaf under evaluation
+#### Cross-Ground Transition / Propagation — accepted bounded leaf
 
 Core problem:
 
 > What exact change actually became real/effective across accepted-ground boundaries, for which anchors/scopes/times, and how fully did it propagate or fail to propagate?
 
-Current result:
+Accepted result:
 
 ```text
 Cross-Ground Transition / Propagation
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / ACCEPTED
     ← no immediate child promoted
 ```
 
 Key distinctions:
 
 ```text
-requested / intended change
-!= realized change
-
-approved / committed / issued change
-!= incorporated / realized change
-
-local realization
-!= change effective across all applicable scope
-
-change realized
-!= change observed / recorded
-
-occurrence time
-!= observation time
-!= effective time everywhere
-
+requested / intended change != realized change
+approved / committed / issued change != incorporated / realized change
+local realization != change effective across all applicable scope
+change realized != change observed / recorded
+occurrence time != observation time != effective time everywhere
 propagation != data replication
 propagation episode exists != full-propagation Standing holds
 rollback != time reversal
@@ -197,25 +184,60 @@ all known targets updated
 != full propagation established
 ```
 
-Profiles/dimensions include staged/delayed rollout, partial/heterogeneous propagation, continuous transition, supersession/conflict, rollback/compensation/reconciliation, stale-dependent pressure, residual effects and observation lag. These are not promoted children.
+#### Cross-Ground Causal Effect / Contribution — current bounded parent under evaluation
 
-External/cross-domain pressure used includes W3C PROV, OpenTelemetry, AWS/Google IAM propagation, NASA Configuration Management and institutional rule effective/compliance timing.
+Dedicated E0→E7 research did **not** close this region as a leaf.
 
-#### Cross-Ground Causal Effect / Contribution — inactive
-
-> Which actions/events/conditions/controls/Work/Actor contributions caused, enabled, amplified, prevented, or failed to prevent/detect a realized cross-ground effect?
+Current bounded structure:
 
 ```text
-sequence / association != causation
-trigger != complete causal explanation
-one cause identified != complete causal model
+Cross-Ground Causal Effect / Contribution
+├─ Actual Causal Contribution / Episode Causation
+└─ Contrastive / Interventional Causal Effect
 ```
 
-If Transition / Propagation is accepted, this is the strongest current next child.
+The strongest distinction is:
+
+```text
+What would X do to Y?
+!=
+Did X cause this observed Y?
+```
+
+##### Actual Causal Contribution / Episode Causation
+
+> In this exact realized episode/effect, which actual events, conditions, omissions, controls, actions or interactions causally contributed to what occurred?
+
+```text
+chronology != actual cause
+trigger != complete causal explanation
+proximate cause != complete causal explanation
+one cause identified != complete causal model
+causal contribution != responsibility/accountability
+```
+
+##### Contrastive / Interventional Causal Effect
+
+> How would outcome/effect Y differ under a defined alternative state/action/exposure/intervention X versus X', for the relevant unit/population/context?
+
+```text
+association != causal effect
+before/after difference != intervention effectiveness
+actual episode cause != contrastive/interventional causal effect
+control presence/compliance != causal risk-reduction effectiveness
+```
+
+Causal-depth roles such as proximate/direct, enabling/contributing, prevention failure, detection/containment failure and systemic/framing remain overlapping profiles rather than children.
+
+No universal evidence hierarchy is promoted. Mechanism, intervention/experiment, counterfactual reasoning, observational/statistical causal inference and investigative reconstruction can all be relevant depending on the causal claim.
+
+External/cross-domain pressure used includes NASA, FAA, NTSB, CDC, NIST, WHO, MIT systems-safety material and scholarly effects-of-causes versus causes-of-effects literature. No source publishes the exact project hierarchy.
+
+If the Causal parent result is accepted, the strongest first child is **Actual Causal Contribution / Episode Causation**. It is not active.
 
 #### Cross-Ground Feedback / Adaptation — inactive
 
-> Did observations/results return across ground boundaries to alter later behavior, and was the influence one-off or persistent?
+> Did observations/results return across ground boundaries to alter later behavior, and did that influence become persistent system change?
 
 ```text
 observation != feedback
@@ -237,12 +259,14 @@ Actors / Agency–Participation–Authority          ← accepted
 post-deepening top-level adequacy                ← accepted
 
 Cross-Ground Composition                        ← accepted
-    ├─ Relational Binding                       ← bounded leaf / accepted
-    ├─ Composite Standing / Qualification       ← bounded leaf / accepted
-    ├─ Control / Constraint                     ← bounded leaf / accepted
-    └─ Transition / Effect / Feedback           ← bounded parent / accepted
-       ├─ Cross-Ground Transition / Propagation     ← BOUNDED LEAF / USER EVALUATION PENDING
-       ├─ Cross-Ground Causal Effect / Contribution ← recommended next if accepted / inactive
+    ├─ Relational Binding                       ← accepted bounded leaf
+    ├─ Composite Standing / Qualification       ← accepted bounded leaf
+    ├─ Control / Constraint                     ← accepted bounded leaf
+    └─ Transition / Effect / Feedback           ← accepted bounded parent
+       ├─ Cross-Ground Transition / Propagation     ← accepted bounded leaf
+       ├─ Cross-Ground Causal Effect / Contribution ← BOUNDED PARENT / USER EVALUATION PENDING
+       │  ├─ Actual Causal Contribution / Episode Causation    ← discovered / inactive
+       │  └─ Contrastive / Interventional Causal Effect         ← discovered / inactive
        └─ Cross-Ground Feedback / Adaptation        ← inactive
 ```
 
