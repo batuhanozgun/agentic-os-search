@@ -2,127 +2,92 @@
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; DEVELOPMENT-BOOTSTRAP BRIDGE ACTIVE  
 **Son güncelleme:** 2026-09-07  
-**Bridge checkpoint:** USER CONFIRMED DESIGN-01 NOT SENT AND ASKED WHETHER DEVELOPMENT COORDINATION WILL REALLY MOVE TO CODEX; ROLE-TRANSFER EXPECTATION CLARIFIED; DESIGN-01 DISPATCH RECOMMENDATION ON HOLD; COORD-03 REMAINS COMPLETE; NO NEW TARGET TASK, ROLE GRANT OR OPERATING ACCEPTANCE
+**Bridge checkpoint:** COORDINATION HANDOFF BRIEF REVIEWED AND PREPARED; DESIGN-01 REMAINS UNSENT/HOLD; COORD-03 COMPLETE; NO TARGET ROLE GRANT OR OPERATING ACCEPTANCE UNTIL USER ADOPTS THE HANDOFF
 
 ## Purpose and authority
 
-The original context-reconstruction objective is complete; historical synthesis is `evidence/CONTEXT-SYNTHESIS.md`. Do not reopen predecessor research without a relevant authorised question.
+The original context-reconstruction objective is complete; historical synthesis remains under `evidence/` and predecessor ledgers. Do not reopen that work without a relevant authorised question.
 
-The user authorised temporary research-side bootstrap guidance and continuity until Development OS sustains useful bounded work without permanent ChatGPT/Batu micro-coordination. This is the research-side bridge checkpoint, not product architecture, live Mac state, a target operating grant or Foundation's own STATE.
+The current temporary bridge exists to move normal SOUL Development OS coordination out of browser ChatGPT/Batu micro-relay and into Codex, while SOUL Research continues here. This research-side STATE records cross-project direction and continuity only. It is **not** Development OS current-state authority, SOUL architecture authority, Foundation truth, or a target operating grant.
 
-Plan, proposed assignment, actual user grant, dispatch, producer report, direct evidence and operating acceptance are distinct. In the latest message the user explicitly says the DESIGN-01 message has **not** been sent. They ask whether their expectation of eventually using Codex as the development conversation/coordination home is mistaken. This is a request for honest clarification, not a new execution or control-change grant.
+Keep distinct: prepared task, explicit user grant, execution, producer report, direct evidence, candidate state, operating acceptance.
 
 ## Current entry routes
 
-- **Role-transfer plan to interpret against the clarification below:** `current/COORDINATION-TRANSFER-PLAN.md`.
-- Purpose/roles/research-development boundary: `current/DEVELOPMENT-OS-BOOTSTRAP.md`.
-- **Prepared but now held dispatch recommendation:** `current/briefs/CODEX-DESIGN-01-FIRST-SOUL-SCENARIO.md`. The pinned text is unchanged; its presence is not current execution authority.
+- **Prepared next handoff:** `current/briefs/CODEX-COORDINATION-HANDOFF.md`.
+- Role-transfer rationale/sequence: `current/COORDINATION-TRANSFER-PLAN.md`.
+- Purpose, repository boundaries and bridge conditions: `current/DEVELOPMENT-OS-BOOTSTRAP.md`.
+- Research router: `INDEX.md`.
 - Last completed publication review: `current/reviews/2026-09-07-coord-03/REVIEW.md`.
-- **Direct Development OS source:** private `batuhanozgun/soul-development-os`, branch `bootstrap/coordination-entry`; last directly rechecked HEAD **`c1401f4b427886c92363aa553ba9c6a5abc310fb`**. Read target `STATE.md` → `work/COORD-03.md` for its published result. Default target `main` remains the initial branch, not the candidate entry.
-- COORD-03 specification: `current/briefs/CODEX-COORD-03-PUBLISH-ENTRY.md`, issued research ref `bc9cefc7edf621a3a19b99b43ec34103199fcf66`.
-- New-main-session report/review: `current/reviews/2026-09-07-coord-02/FRESH-SESSION-REVIEW.md`, qualified by the memory-context observation below.
-- COORD-02 content/identity resolution: that directory's `IDENTITY-RESOLUTION.md`; original `REVIEW.md` file request is historical and resolved.
-- COORD-01 response/review: `current/reviews/2026-09-07-coord-01/`.
-- Opening vision/direction, method/research reuse and collaboration: `current/reviews/2026-09-06-direction/`, `2026-09-07-method/`, `2026-09-07-collaboration/`.
-- S1/S1A and G0/D1/G1: dated directories under `current/reviews/` and the respective issued briefs.
-- Held, never dispatched launcher proposal: `current/briefs/CODEX-G1-R1-LAUNCHER-CONTINUATION.md`.
+- Direct Development OS source: private `batuhanozgun/soul-development-os`, branch `bootstrap/coordination-entry`, last directly rechecked published HEAD `c1401f4b427886c92363aa553ba9c6a5abc310fb`; read target `STATE.md` → `work/COORD-03.md`.
+- Held, not dispatched: `current/briefs/CODEX-DESIGN-01-FIRST-SOUL-SCENARIO.md`.
+- Held, never dispatched: `current/briefs/CODEX-G1-R1-LAUNCHER-CONTINUATION.md`.
+- Earlier COORD/S1/G0/D1/G1 provenance remains in dated `current/reviews/` directories and Git history; this compact current STATE does not rewrite those results.
 
-Exact previous checkpoint: research **`a0dc5a3707684247a8e697a7e8d444524d45d587`**, this path, blob `7fe9aeb5f0af08c851c98641c41369e85609e160`. It preserves the complete DESIGN-01 proposal, source rationale, budget and pre-clarification next responsibility. Earlier COORD-03 identities and limits: `5ff2901d9f62cc5d811358f73bfbba3fd6f2f265`, STATE blob `3ffb41512b770af5eac912f513513b7f7e513044`. Full earlier provenance remains in named reviews and research commits `bc9cefc7edf621a3a19b99b43ec34103199fcf66`, `000f691b9a94607c9a8219961b4618eda0f1014f`, `04bfcb4c0b2c6439fe33fa0491c7bd5678205ba0`, `b62c9d0013aebce9c0b78035d5bd9a3b41b791a5`. Compression changes no earlier result, grant or budget. Requested attachments have been received; do not request duplicates or email retrieval.
+## Current decision — transfer responsibility, not merely communication capability
 
-## Latest clarification — communication capability is not responsibility transfer
+The user's intended destination is:
 
-The user's expectation is that development conversations eventually happen in Codex: an actor carrying the research-aware advisory/coordinating responsibility now performed here works directly with a Development OS-producing actor, without Batu relaying their technical messages. Browser research may continue separately. They were waiting for an explicit statement that ordinary development work can now continue in Codex rather than returning here after each step.
+- normal Development OS conversation occurs in Codex;
+- a research-aware Codex coordinator owns bounded work selection, decomposition, technical sequencing, helper delegation, integration and canonical continuation within its mandate;
+- native Codex helpers/subagents can be used directly when useful, without Batu carrying their messages;
+- browser ChatGPT remains SOUL Research, evidence/challenge and major direction support rather than the mandatory author of every next Development OS prompt;
+- Batu remains owner of vision, material scope/budget/risk, designated high-impact decisions, product/release acceptance and authority-expanding changes.
 
-This expectation is consistent with the accepted broad coordination-transfer direction. The process plan's D stage explicitly removes the browser assistant from routine micro-instructions. However, the implemented arrangement has so far only granted bounded individual tasks. The target STATE still says there is no next authorised work. Native helper exchanges, persistent entries and GitHub access do **not** themselves delegate ongoing coordination or make a browser review optional for an otherwise specified task.
+This does **not** require two permanent peer chat windows. One user-facing Codex coordinator plus on-demand native helpers is acceptable if it provides the required direct task/result coordination. It also does not migrate this ChatGPT session's hidden state, identity or tools into Codex.
 
-There is a material topology distinction to explain, not conceal:
+Three thresholds remain separate:
 
-- The user's mental picture contains a coordinating/advisory role and a Development OS-producing role inside Codex.
-- The written initial plan selected one main coordinator with on-demand native helpers, **not two pre-existing independent chat windows automatically linked as permanent peers**.
-- COORD-01/02 exercised limited source/text-review helpers; they did not install a permanent counterpart of the browser research assistant or grant an ongoing developer-worker role.
-- A Codex actor can be prepared to carry the relevant responsibility and source discipline; this does not migrate this ChatGPT session's identity, hidden context, tools or demonstrated quality. Reusing the exact old developer conversation is not an established capability or a required way to preserve its work; published records preserve that work.
+1. **Development conversation home** — normal Development OS discussion occurs in Codex.
+2. **Bounded coordination mandate** — the Codex coordinator may continue routine Development OS work without browser re-authorisation after every subtask, while respecting explicit owner boundaries.
+3. **Full bridge retirement / wider operating acceptance** — stronger evidence of useful work, recovery, governed change and reliable continuity; this is not yet claimed.
 
-### Assessment of the previous DESIGN-01 recommendation
+The next handoff aims only to establish thresholds 1 and 2. It must not claim threshold 3 or B0/general operating acceptance.
 
-DESIGN-01 can be a legitimate bounded ordinary research/design task. It is not inherently contrary to the plan and is not product implementation. But the previous relay still required the owner to bring the result back to the browser for the next decision, and it did not settle who would own subsequent coordination, what technical decisions were delegated, or when browser return stopped being mandatory.
+## Prepared handoff — reviewed, not yet granted
 
-Therefore saying merely 'we are already implementing your plan' would overstate the practical transfer. The COORD steps created relevant enabling capabilities; the user-facing working arrangement remains incomplete. The assistant's recommendation prioritised another useful deliverable without explicitly closing that transfer decision. This is a bounded planning/communication gap, not a diagnosis of the user's technical understanding or evidence that all prior work was wasted.
+Task: `DEVOS-COORD-HANDOFF-2026-09-07`  
+Brief: `current/briefs/CODEX-COORDINATION-HANDOFF.md`  
+Reviewed brief commit: `d589f512c655390781501bc440012fd4d1da1548`  
+Brief blob after review: `b4e6fff077e5ac9f36b8898e5325a3bea23b3f10`
 
-**Current disposition:** Do not send DESIGN-01 as the immediate next task while this handoff is being clarified. This is the assistant's held dispatch recommendation plus the user's explicit non-dispatch report, not a claim that the user rejected the scenario or authorised an alternative. Keep the existing brief as an undispatched proposal; do not rewrite its pinned terms or mark it as run.
+The brief was re-evaluated after the user explicitly asked whether pressure had caused a cheap/rushed handoff. The review found the direction appropriate but tightened two load-bearing points before dispatch:
 
-### Proposed next direction, not yet a grant
+- `READY` now means only **ready to use Codex as the normal bounded Development OS conversation/coordination home**, not B0, full self-sustain, hostile isolation, bridge retirement or product authority;
+- the bounded coordination remit is explicitly persistent/recoverable across later Codex chats and does not require browser ChatGPT to re-authorise every routine Development OS subtask. Owner boundaries remain explicit.
 
-Make the next step an explicit **bounded transfer of development coordination**, rather than another product-scenario assignment under browser-owned sequencing. A practical small arrangement is a user-facing Codex coordinator that carries purpose, research interpretation, task choice within scope, challenge and integration, with a separately tasked actor for focused development work/review as needed. Their exchange should occur through the already demonstrated native task/result path; a label or role-play within one answer is not evidence of two actors.
+The brief requires reuse of the existing small target surfaces, meaningful native helper review, direct repository checks and private-branch push/readback. It forbids new orchestration frameworks, custom launchers, G1-R1 revival, Claude installation, product implementation, `main` promotion and B0 acceptance during this handoff.
 
-The exact remit, permitted writes/publication, duration/checkpoint, delegation boundaries and escalation conditions still require a concrete user-adopted scope. No such mandate is granted by this clarification. Do not invent a new persistent team, control hierarchy or framework merely to discuss the handoff. Existing sources/entry records can be reused; any actual control-file change requires its own appropriate explicit permission.
+**The brief is still only prepared.** File existence and this STATE do not grant the target coordinator its standing mandate. The user's message adopting the pinned brief supplies that execution/role-transfer authority.
 
-Separate three thresholds:
+## Why the repository side is ready for this handoff
 
-1. **Development conversation home:** where Batu talks about normal development and receives recommendations/results.
-2. **Bounded work coordination:** what the Codex coordinator may select, delegate, review, revise and record without routing every technical step through browser ChatGPT.
-3. **Full bridge retirement / wider operating acceptance:** stronger evidence for reliable work, recovery and governed change across the agreed scope.
+The research-side router and bootstrap files already distinguish research authority from Development OS authority and point current bridge questions through this STATE. `current/COORDINATION-TRANSFER-PLAN.md` already defines the intended D-stage removal of browser micro-coordination. No new research repository or new Codex project is required merely to perform the handoff.
 
-The first two can be proposed incrementally before claiming the third. Do not make complete SOUL, complete Foundation, perfect reliability or all old G1 guarantees an unexplained prerequisite for moving a limited development interaction into Codex. Conversely, choosing Codex as the interaction home does not waive safety, change old results or grant unlimited autonomous implementation.
+The target candidate already has:
 
-For the initial transfer, the work remains bringing Development OS into useful bounded operation. A first SOUL product scenario may later be selected as an ordinary task, but completing DESIGN-01 is not an established prerequisite for this role transfer. The user retains vision, scope, budget and designated high-impact approvals; 'no technical relay' is not 'no human decisions'. Research here remains a source of evidence and periodic challenge, not the necessary author of every next prompt.
+- `AGENTS.md` with goal/method separation, source discipline, challenge behavior, authority boundaries, evidence/verification distinctions, work selection, writer/handoff rules and controlled-development principles;
+- `STATE.md` with SOUL/Development OS purpose, current repository identity and historical boundaries;
+- durable work records through COORD-03;
+- a private published candidate branch readable by the research side;
+- demonstrated native helper task/result use from COORD-01, with the known evidence limitations preserved.
 
-## Sources checked for this clarification
+The handoff task is therefore allowed to modify only the minimum target entry/control surfaces needed to encode the ongoing bounded coordinator responsibility. It should not rebuild the bootstrap from scratch.
 
-Canonical AGENT was freshly fetched. Required protocols were read in full or retained from full same-conversation canonical reads under the unchanged router. Current research STATE and the full coordination-transfer plan were re-read; the same-conversation bootstrap/context routes and published AGENTS/work records retain their roles and boundaries. The current target branch GET again returned coordination-entry at c1401f4 and main at `3776384a7789ccf1959b99bba92c8cf1b3131f81`; exact target STATE was read in full and still grants no next work. These remote reads cannot prove every local operation absent; DESIGN-01 non-dispatch is explicit user information.
+## Preserved limits and historical truth
 
-Official OpenAI Subagents documentation was checked again on 2026-09-07: `https://developers.openai.com/codex/multi-agent` redirects to `https://learn.chatgpt.com/docs/agent-configuration/subagents`. It documents native task delegation, follow-up routing and collecting results in the main conversation. It is not evidence that two arbitrary pre-existing chats have been connected, that a permanent pair is installed, or that every actor has independent authority/context. No new runtime test, provider call or package installation occurred here. Existing Foundation/study lessons are reused as distinctions, not as proof of a mandated role count.
+- DESIGN-01 was prepared but the user did not send it; it remains on hold and is not the immediate next task.
+- COORD-01 reported meaningful native helper delegation/direct return; raw native events were not independently replayed and this is not independent operating acceptance.
+- COORD-02/03 established a persistent target entry and private GitHub visibility. The earlier fresh-session result had platform memory context available, so repository-only/memory-independent cold-start sufficiency is not established.
+- G0/D1/G1 failures and NOT-RUN states remain historical truth; G1-R1 remains unsent. The coordination handoff does not silently pass, erase or revive them.
+- Native cooperative delegation is not hostile isolation or self-modification containment.
+- Claude Code is not part of this handoff. Adding another provider remains a separate later decision with data/account/cost boundaries.
+- `soul-development-os` candidate branch is not accepted `main`/B0.
 
-## Protected SOUL direction
+## Current next responsibility
 
-SOUL should form the task-appropriate working system needed for a user's outcome, operate it, compare effects with reality/evidence and adapt under authority. The user should not pre-design every team, workflow, information mechanism or toolchain.
+If the user chooses to proceed, adopt the reviewed handoff brief at commit `d589f512c655390781501bc440012fd4d1da1548` in the existing `SOUL-Development-OS-Local` project and existing `bootstrap/coordination-entry` branch. No new GitHub repository, new Codex project, re-clone, DESIGN-01 dispatch or G1-R1 repair is a prerequisite.
 
-Development OS develops that product. Markdown, sandbox, launcher, communicating actors and a published Git branch are means, not SOUL. Deferred capabilities remain: goal understanding, suitable system formation, epistemic state, useful execution, reality verification, capability acquisition, recovery/evolution and reduced hidden human coordination. Deferred does not mean removed or immediately authorised.
+The Codex handoff task should finish with `READY`, `PARTIAL` or `BLOCKED` under the brief's narrow definitions. If `READY`, it must provide one short first message for a **new Codex conversation**. At that point normal bounded Development OS conversation should move to Codex; browser return becomes periodic/research/owner-gate driven rather than mandatory after every routine step.
 
-The opening vision is an earlier assistant synthesis selected by the user, not an accepted module list; blob `f8d4aa7c5fb6b09dc3e49ba5f336bb30bc5c4825`. Core/Genesis/Runtime/Evolution were not adopted as modules. A future first example will not shrink the whole product to that example.
-
-## DESIGN-01 — prepared, user-confirmed not dispatched, recommendation held
-
-ID `DEVOS-DESIGN-01-2026-09-07`; brief `current/briefs/CODEX-DESIGN-01-FIRST-SOUL-SCENARIO.md`; initial commit `9d935b5c6982f67d8a4ea96753a24af5348cf92b`; offered relay ref `a0dc5a3707684247a8e697a7e8d444524d45d587`; brief blob `42f54428d0234467e51bd97e0e88ff86df5a197d`.
-
-Proposed output: one source-grounded first SOUL use case with concrete user outcome, system/human responsibilities, simpler alternative, observable conditions and deferred scope. It authorises nothing unless adopted. Its proposed envelope was one session/~60 minutes, at most one optional native read-only helper; only target STATE and work/DESIGN-01.md changes, at most two normal commits/pushes to the same private candidate branch, no product implementation/control/main/provider/infrastructure change. Full exact terms remain in the brief and previous checkpoint. No result or new work grant exists. Do not silently reuse the old brief for a different coordination mandate.
-
-## COORD-03 — completed publication and direct access
-
-Task `DEVOS-COORD-03-2026-09-07`; issued research ref `bc9cefc7edf621a3a19b99b43ec34103199fcf66`; brief blob `ebf8b7a9369577ecdae15064edc559853ad0e40b`.
-
-The user-relayed report described two permitted commits/two normal pushes, clean local state, standard platform-approved Git after sandbox DNS failure, and writer `/root` release. Local events remain producer-reported. Research independently read private repo metadata (id `1359050245`), remote branches, exact delivered files, commit metadata and both per-commit scopes:
-
-`e68938bbb5e3e56e6917e631fe283cc03f78e39f` → `d34050909bbd3fa8210fb8ccb7446361a3a5ce3b` → `c1401f4b427886c92363aa553ba9c6a5abc310fb`.
-
-Only STATE changed and work/COORD-03 was added. Final tree `619b67742836489a3fb48ea712ad2ae6d9dd71bc` contains six files; AGENTS, COORD-02, BOOTSTRAP-001 and .gitkeep preserve original blobs/modes. Delivered STATE blob `72ba718c71ef7de0799fb6991e7c7e5b8bb4f623`; COORD-03 blob `3f9277d5b44df1c286ea5b1ae74f878a61543a2f`; AGENTS blob `7657c2f03701f69c509b2614bfc988fb8ff5d5e0`. Full provenance: COORD-03 REVIEW and pre-DESIGN checkpoint.
-
-**Bounded recording/publication objective met.** No ZIP request, repeated publication or third self-receipt commit is needed. The prescribed final-ref chat delivery plus independent remote readback closed the last push even though its own record was written before that push. A later authorised record can link closure. Published candidate is not accepted main/B0.
-
-## Prior new-session evidence and memory qualification
-
-The reported new main session recovered purpose, Development OS role, completed COORD-02 and current read-only authority consistently with local records. It treated old NOT RUN as historical and did not infer implementation authority. This narrow report was positively reviewed; do not rerun it merely to fill another checklist.
-
-COORD-03 additionally records platform-provided AGENTS and memory context, a short memory-registry read and an omitted memory citation in the user relay. **Repository-only / memory-independent cold-start sufficiency is not established.** Memory contents and causal contribution were not inspected. Automatic instruction-loading telemetry, all-path isolation, general work selection and uninterrupted self-sustain are not established either. This qualification neither erases the practical result nor authorises a new memory/sandbox investigation.
-
-## Preserved earlier work and unresolved guarantees
-
-- COORD-02: candidate e68938b, parent C1 `66e97050dd141f688fa4da8b26ac3823b020af37`; original FULL.diff/EVIDENCE resolved the two-byte `dizinin` / `dizininin` representation difference. File/tree consistency matched; no target repair. Identities remain in IDENTITY-RESOLUTION/history.
-- COORD-01: native task/direct return/reasoned contribution reported; helped narrow the change to purpose/current entry. Raw native events were not independently replayed. `fork_turns=all` was not independent acceptance review. Publishing project records did not upload old external evidence.
-- S1/S1A: guided candidate design, not unguided baselines. Research R01–R09 was not imported. Target AGENTS remains the unchanged G0-recovery candidate.
-- G0: C0 `ccd12326a06d2d3323126fde32c616b774ec7675`, C1 above; one real child read an expected-denied temp fixture. T1–T4/R(C1) not run; no B0/A.
-- D1: temp read/write/exact-deny failures retained; selected non-temp controls passed. Diagnosis was not whole-profile qualification; no child model.
-- G1: eleven selected native controls passed; two custom-MCP model-free renders failed; actual child models 0/8; P0/P1/T1–T4/R(P1) not created/run. Purpose note was coordinator-authored.
-- G1-R1: never sent, still held. No new proposal revives it, resets its budget or relabels old results.
-- Native cooperative coordination is narrower than hostile control-mutation isolation; no safety waiver or whole-machine no-side-effect certificate.
-- Desktop binding was established by clone/read-only checks. Last UI label SOUL-Development-OS-Local, expected root `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo`. UI labels/Cloud settings are not identity/local-permission proof. No re-clone or whole inventory by default.
-- Claude is reported installed; version/login/plan/data scope remain unmeasured. No private-source transfer or Claude team was newly authorised.
-
-## Current next responsibility and corpus boundary
-
-Explain the gap between enabling native communication and actually transferring development coordination. The intended destination remains normal development interaction in Codex with direct actor task/result exchange, while research continues here. DESIGN-01 is not the immediate dispatch recommendation pending that handoff clarification. Do not respond by demanding more technical choices from Batu or by generating/launching another large setup project. No replacement execution prompt has been prepared in this clarification turn.
-
-If the user asks to proceed, prepare the smallest explicit, bounded role/responsibility handoff using current project records and available native capabilities, preserving real authority/verification boundaries. The user's message activating that remit, not this STATE, would supply execution authority. Make the browser's remaining review role and the point at which routine return is unnecessary explicit; do not imply full operating acceptance.
-
-Research retains research authority; the published development candidate is the source of its own work/content. This checkpoint records bridge direction and limits, not a competing target work database. INDEX and process/context routes already lead here. This turn updates only this checkpoint; target/predecessor/Foundation/studies/AGENT/agent files are unchanged. No actor, product scenario or test was launched.
-
-Full bridge retirement still requires useful work showing purpose/authority/state recovery, selection/execution, proportionate evidence, recovery/devir and governed change without permanent browser/Batu micro-relay. That stronger conclusion must not be confused with the earlier, bounded choice of Codex as the development interaction home. Human purpose/value/budget authority remains. No whole-chat identity transfer, exact one-million-token active browser window or unattended continuous operation is established.
+Do not mark the handoff executed, the standing coordination mandate active, the bridge retired, or B0 accepted until corresponding evidence and authority exist.
