@@ -2,7 +2,7 @@
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; DEVELOPMENT-BOOTSTRAP BRIDGE ACTIVE  
 **Son güncelleme:** 2026-09-07  
-**Bridge checkpoint:** CODEX BOUNDED COORDINATION HANDOFF COMPLETED/READY; USER IDENTIFIED MISSING DEVELOPMENT-SPECIFIC AGENT-CONTROL ROUTER/PROTOCOL LAYER AND EXPLICITLY ASKED TO HAVE CODEX BUILD IT; IMPLEMENTATION BRIEF PREPARED; NOT YET DISPATCHED FROM CHAT
+**Bridge checkpoint:** CODEX BOUNDED COORDINATION HANDOFF COMPLETED/READY; DEVELOPMENT-SPECIFIC AGENT-CONTROL TASK EXPLICITLY DISPATCHED BY USER; CODEX RESULT PENDING
 
 ## Purpose and authority
 
@@ -14,7 +14,7 @@ Keep distinct: prepared brief, user grant, dispatch, producer result, direct evi
 
 Private target repository: `batuhanozgun/soul-development-os`  
 Candidate branch: `bootstrap/coordination-entry`  
-Last user-reported and directly readable handoff HEAD: `020d44afae57efa4fad8febfd1fe2a0bce965af8`.
+Last directly readable handoff HEAD before the dispatched agent-control task: `020d44afae57efa4fad8febfd1fe2a0bce965af8`.
 
 At that state:
 
@@ -24,11 +24,13 @@ At that state:
 - normal bounded Development OS work no longer requires browser ChatGPT to author each next prompt;
 - B0/general operating acceptance, full bridge retirement, hostile isolation and unattended autonomy are **not** established.
 
-## Newly identified gap — coordinator exists, Development-specific agent-control architecture does not
+Do not assume the target remains at this HEAD after the dispatched task. On continuation, inspect the actual private branch and Codex result before making a current-state claim.
 
-The user correctly challenged the earlier interpretation of READY: the installed coordinator is not yet the functional counterpart of the browser research assistant's agent-control architecture.
+## Identified gap — coordinator exists, Development-specific agent-control architecture was missing
 
-Research `AGENT.md` uses a small mandatory routing registry plus conditionally loaded protocol files. The current Development OS `AGENTS.md` embeds many similar principles directly, but it does **not** provide the equivalent capability of:
+The user correctly challenged the earlier interpretation of READY: the installed coordinator was not yet the functional counterpart of the browser research assistant's agent-control architecture.
+
+Research `AGENT.md` uses a small mandatory routing registry plus conditionally loaded protocol files. The Development OS candidate at `020d44af...` embedded many similar principles directly in `AGENTS.md`, but did **not** provide the equivalent capability of:
 
 - mandatory full routing classification before substantive work;
 - stable Development-specific route IDs / positive trigger questions;
@@ -36,17 +38,20 @@ Research `AGENT.md` uses a small mandatory routing registry plus conditionally l
 - re-gating when evidence or plans materially change;
 - explicit control-layer vs project-work separation at the router/protocol level.
 
-This gap is not assigned to Batu to discover through product work. The user explicitly said they do not want to test on the assistant's behalf and then instructed: **have the Codex agent build it**.
+This gap is not assigned to Batu to discover through product work. The user explicitly rejected being used as the tester for this missing layer and instructed the research assistant to have the Codex agent build it.
 
-Research R01–R09 are **not** to be copied as Development OS control law. They are a design exemplar. Development OS needs its own minimal router/protocol set derived from its actual responsibilities, authority/effect boundaries, work selection, implementation/verification, delegation, continuity and research-reuse needs.
+Research R01–R09 are **not** target Development OS control law. They are a design exemplar. Development OS needs its own minimal router/protocol set derived from its actual responsibilities, authority/effect boundaries, work selection, implementation/verification, delegation, continuity and research-reuse needs.
 
-## Prepared next implementation
+## Dispatched implementation — result pending
 
 Task: `DEVOS-AGENT-CONTROL-2026-09-07`  
 Brief: `current/briefs/CODEX-DEVOS-AGENT-CONTROL.md`  
-Brief creation commit: `cb401d58f8e16f3b18d70199b128f5e9b2fb2633`.
+Brief creation commit: `cb401d58f8e16f3b18d70199b128f5e9b2fb2633`  
+Issued research ref used in the actual Codex dispatch: `e54015402d7d91d80d06972cf67525d22a674f09`.
 
-The brief authorises Codex, once explicitly adopted in the Codex chat, to **design + implement + internally challenge + validate + commit/push/read back** the Development-specific agent-control layer on the existing private candidate branch. Batu is not asked to perform the validation.
+The user reports that the final Codex dispatch message was **sent**. Therefore this task is no longer merely prepared. Do not ask the user to resend it, and do not issue a replacement prompt unless the actual Codex result or repository evidence shows that the dispatched task failed to bind to the intended brief/ref.
+
+The dispatched brief authorises Codex to **design + implement + internally challenge + validate + commit/push/read back** the Development-specific agent-control layer on the existing private candidate branch. Batu is not asked to perform the validation.
 
 Required characteristics include:
 
@@ -64,11 +69,18 @@ READY for this task means only: **the Development-specific agent-control layer i
 
 ## Current next responsibility
 
-Dispatch the prepared agent-control implementation brief to the existing `SOUL-Development-OS-Local` Codex conversation on `bootstrap/coordination-entry` using the latest research ref that includes this STATE and the brief.
+**Wait for / inspect the result of the already-dispatched `DEVOS-AGENT-CONTROL-2026-09-07` task. Do not dispatch it again.**
 
-After Codex completes it, research may directly inspect the pushed target files. If READY under the brief's narrow definition, the next normal Development OS conversation can start from the short repository-driven entry instead of another browser-authored control prompt.
+On the next SOUL Research conversation:
 
-Do not dispatch DESIGN-01 or G1-R1 before this control-layer task is resolved. Do not create a new GitHub repository or Codex project for this work.
+1. cold-start from root `AGENT.md` and its triggered protocols;
+2. read `research/soul-context/INDEX.md` → this `STATE.md`;
+3. treat the agent-control task as already dispatched, with result currently unknown unless new evidence is available;
+4. if the user provides the Codex result, evaluate it and directly inspect the pushed `soul-development-os` branch/files through GitHub;
+5. if the result is not yet available, do not invent completion and do not start DESIGN-01/G1-R1 or another replacement setup task;
+6. if Codex reports READY, verify the actual router/protocol topology, target HEAD, control/work separation, validation evidence and preserved limits before telling the user that the functional Codex counterpart is complete.
+
+If the target implementation is genuinely READY under the brief's narrow definition, the next normal Development OS conversation can start from the short repository-driven entry instead of another browser-authored control prompt.
 
 ## Preserved boundaries
 
