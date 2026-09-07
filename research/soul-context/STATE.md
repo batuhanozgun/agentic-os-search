@@ -2,7 +2,7 @@
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; CURRENT DEVELOPMENT-BOOTSTRAP BRIDGE MAINTENANCE ACTIVE  
 **Son güncelleme:** 2026-09-07  
-**Bridge checkpoint:** G1 RESPONSE AND FOUR ATTACHMENTS RECEIVED / STATIC AUDIT COMPLETE; 11 NATIVE CONTROLS SUPPORTED; ACTUAL AGENT START BLOCKED BY CUSTOM CONFIG PARSER; G1-R1 PROPOSED, NOT DISPATCHED; NO OPERATING ACCEPTANCE
+**Bridge checkpoint:** USER EXPLICITLY HAS NOT SENT G1-R1; METHOD/RESEARCH-REUSE REVIEW RECORDED; IMMEDIATE REPAIR RECOMMENDATION ON HOLD FOR DISCUSSION; G1 NATIVE PROGRESS RETAINED; NO OPERATING ACCEPTANCE
 
 ## Purpose and authority
 
@@ -17,15 +17,16 @@ This STATE is the **single current checkpoint/next-responsibility authority for 
 - Purpose/topology/roles/stage conditions: `current/DEVELOPMENT-OS-BOOTSTRAP.md`.
 - Restored opening vision: `current/reviews/2026-09-06-direction/OPENING-VISION-SOURCE.md`.
 - Scope/goal alignment: `current/reviews/2026-09-06-direction/REVIEW.md`.
+- **Latest method and research-reuse review:** `current/reviews/2026-09-07-method/REVIEW.md`.
 - S1/S1A source responses/reviews: `current/reviews/2026-09-06-stage-1/` and `2026-09-06-stage-1a/`.
 - G0 evidence/review: `current/reviews/2026-09-06-g0/`.
 - D1 evidence/review: `current/reviews/2026-09-07-d1/`.
 - Issued G1: `current/briefs/CODEX-G1-PURPOSE-PILOT.md`.
-- **Received G1 evidence/audit:** `current/reviews/2026-09-07-g1/EVIDENCE-EXTRACTS.md` and `REVIEW.md`.
-- **Separate synthetic parser test:** `current/reviews/2026-09-07-g1/PARSER-REGRESSION.py`; not a deployed launcher or active control.
-- **Proposed continuation:** `current/briefs/CODEX-G1-R1-LAUNCHER-CONTINUATION.md`.
+- Received G1 evidence/audit: `current/reviews/2026-09-07-g1/EVIDENCE-EXTRACTS.md` and `REVIEW.md`.
+- Separate synthetic parser test: `current/reviews/2026-09-07-g1/PARSER-REGRESSION.py`; not a deployed launcher or active control.
+- **Undispatched continuation candidate, currently on recommendation hold:** `current/briefs/CODEX-G1-R1-LAUNCHER-CONTINUATION.md`.
 
-Detailed observations remain in source/review records. Prior STATE versions stay in Git history, including `da702138d162f8671943dc7f53cb89880208d3a5` for the superseded email-transfer checkpoint and `4580f72421f7be5e081eb8770c40e4dd82ca8342` for the D1/G1-proposal checkpoint. No repeat email retrieval or file request is needed for either D1 or G1.
+Detailed observations remain in source/review records. Prior detailed STATE versions stay in Git history: `da702138d162f8671943dc7f53cb89880208d3a5` for the superseded email-transfer checkpoint, `4580f72421f7be5e081eb8770c40e4dd82ca8342` for D1/G1 proposal, and `af3e5075eb4c2019f3c7195e030961f628a0b4df` for G1 audit/R1 proposal. No repeat email retrieval or file request is needed for D1 or G1.
 
 ## Direction checkpoint — purpose must survive the last blocker
 
@@ -37,20 +38,39 @@ The opening source is an earlier assistant synthesis selected by the user for co
 
 The direction review found a real **purpose-recovery risk**: C1 foregrounds bootstrap/devir while the full product direction is indirectly linked. This is not a proven model failure or proof that context saturation alone caused historical problems. Preserve deferred capabilities: goal understanding, suitable system formation, epistemic state, useful bounded execution, reality verification, capability acquisition, recovery/evolution and reduced hidden human coordination. Deferred does not mean removed or authorised for immediate implementation.
 
-G1's intended purpose/STATE improvement and meaningful two-session pilot have **not happened yet**. Its coordinator note preserves the distinction but is not pilot evidence. A launcher repair must open the original useful work, not replace it as the end goal. The proposed continuation preserves this purpose without modifying frozen C1 or accepting product architecture.
+G1's intended purpose/STATE improvement and meaningful two-session pilot have **not happened yet**. Its coordinator note preserves the distinction but is not pilot evidence. No local bug fix can substitute for the intended useful work.
+
+## Latest user turn — discuss method before another repair
+
+The user explicitly stated that the G1-R1 message **has not been sent**, and requested discussion before continuing. They proposed several hypotheses: relevant Foundation research may not be ready; current work may be too ad hoc; repository/gstack research may be underused; or their own lack of technical knowledge/anxiety may be causing unnecessary interruption.
+
+Current review: `current/reviews/2026-09-07-method/REVIEW.md`.
+
+Bounded judgment:
+
+- The concern about method selection and setup dominating the purpose is substantive. No evidence establishes that the user's concern is merely technical misunderstanding, anxiety or excessive distrust.
+- Current Foundation already contains relevant accepted grounds, Binding, Standing and Control. It does not provide a finished Development OS engineering design. Pending Feedback/Adaptation is not shown to be a prerequisite for fixing the current configuration parser.
+- Earlier S1 research-use records include Context/Memory/Harness and Foundation Standing/Control; Codex's preserved S1 response also reports selected gstack coordination use. 'No repository use' or 'gstack never read' is too broad.
+- The stronger gap is insufficiently explicit **principle → project-specific risk/requirement → alternative mechanism → minimum sufficient verification** reasoning for this exact combined launcher/isolation-first path. Reading a relevant study and correctly diagnosing a local defect do not prove that path necessary or optimal.
+- This review selectively recovered gstack coordination/host/revalidation research and current upstream `0530392821c277b95e5cd65aa9d9fda4248718b2` probe/host/test sources. They supply concrete alternatives and limits, not a demonstrated drop-in SOUL or MCP-parser replacement. This was not a whole-study repin/current-head audit or a new installed dependency.
+- Earlier 'one correction' budgeting already unnecessarily bundled routine deterministic helper repair with material authority changes. The latest question is one level above that: which combined assurance requirements must actually block the first meaningful work?
+
+**Immediate recommendation:** do not automatically send G1-R1 from its READY header. First discuss and justify the minimum initial operating scope and proportional assurance, comparing the existing continuation with simpler appropriately bounded work and relevant existing mechanisms. This is not a decision to abandon bootstrap, wait for all Foundation, install gstack, or weaken any accepted safety condition. No new Codex prompt or repair was issued in this review.
+
+The assistant's previous immediate-send recommendation is held pending this method discussion. R1 remains an unchanged candidate proposal, not an authorised task. Product architecture and new Foundation work remain separate; current Foundation status is recovered from its own STATE rather than mirrored here.
 
 ## Setup and design history — do not restart
 
-The initial desktop preflight reported `gpt-6-astra / ultra`, web/GitHub reads, shell-dependent tools and a terminal DNS failure, but was in a non-Git directory. Those were user-relayed observations, not independently executed by this assistant.
+Initial desktop preflight reported `gpt-6-astra / ultra`, web/GitHub reads, shell-dependent tools and one terminal DNS failure, but ran in a non-Git directory. These were user-relayed observations, not independently executed by this assistant.
 
-The user then cloned and verified the correct working copy:
+The user then cloned and verified:
 
-- default directory/Git root: `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo`;
+- Git root/default directory: `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo`;
 - origin: `https://github.com/batuhanozgun/soul-development-os.git`;
 - initial main: `3776384a7789ccf1959b99bba92c8cf1b3131f81`, only `.gitkeep`;
 - clean working tree and correct binding.
 
-Remote readback matched. The user attributed `.gitkeep` to an earlier cancelled Cloud attempt, not desktop preflight; Cloud logs were not inspected. Cloud configuration does not automatically apply to desktop/CLI. Do not re-clone or redo a complete capability inventory without material change.
+Remote readback matched. The user attributed `.gitkeep` to an earlier cancelled Cloud attempt, not desktop preflight; Cloud logs were not inspected. Cloud settings do not automatically apply to desktop/CLI. Do not re-clone or redo a complete capability inventory without material change.
 
 S1 proposed AGENTS/STATE/work surfaces; S1A supplied full texts, authority/review paths and T1–T4. They were guided tasks, not unguided baselines. Research R01–R09 was not imported.
 
@@ -65,9 +85,9 @@ Task `DEVOS-BOOTSTRAP-G0-2026-09-06`, relay ref `76ac566d994ddcadf8d26edc65cc2f7
 
 Local branch `bootstrap/starter-contract-g0`; C0 `ccd12326a06d2d3323126fde32c616b774ec7675`; C1 `66e97050dd141f688fa4da8b26ac3823b020af37`; independently recomputed C1 tree `37b60cde322a54012a023b521a2c214028e61e9e`.
 
-G0 archive: 187871 bytes, SHA-256 `79848c0ad7a9247f8c8bad350ac03c7d7bb66d81a7163d6abda2a2cecf07ff07`; 90 entries/89 manifest hashes checked. Candidate/diffs were consistent with the authorised recovery amendment. Raw commit objects were absent; commit hashes themselves were not reconstructed.
+Archive: 187871 bytes, SHA-256 `79848c0ad7a9247f8c8bad350ac03c7d7bb66d81a7163d6abda2a2cecf07ff07`; 90 entries/89 manifest hashes checked. Candidate/diffs matched the authorised recovery amendment. Raw commit objects were absent; commit hashes themselves were not reconstructed.
 
-One real child-model process read the expected-denied synthetic temp file. It was an authorised negative probe, not autonomous disobedience. G0 used 1 actual/2 conservative startup attempts and its single correction. T1–T4 and R(C1) were not run; no B0/A/operating acceptance. The work record contains release/devir and process exit. The old long context-pressure reminder is superseded; do not ask the old session to rewrite C1. Assisted coordinator handoff is not passed T1.
+One actual child read an expected-denied synthetic temp file. This was an authorised negative probe, not autonomous disobedience. G0 used 1 actual/2 conservative startup attempts and its single correction. T1–T4 and R(C1) were not run; no B0/A/operating acceptance. The work record contains release/devir and process exit. The old long context-pressure reminder is superseded. Assisted coordinator handoff is not passed T1.
 
 Original directory: `/Users/Batu/Documents/Codex/SOUL-Development-OS-Run-Evidence/G0-20260906T184203Z-hw893ewz/`.
 
@@ -75,66 +95,56 @@ Original directory: `/Users/Batu/Documents/Codex/SOUL-Development-OS-Run-Evidenc
 
 Task `DEVOS-G0-D1-2026-09-06`, relay ref `7be2567f10490e70781105541b35817f96488fa2`, brief blob `cefef3a72b46809faebdc46b6e43f6d50dfe027a`.
 
-Actual uploaded ZIP was received and audited: 104578 bytes, SHA-256 `4495e9b919ce5b896c7c877f6547e95f582919ed542699c714973dee5935bfa6`; 65 files/64 checked manifest entries. Email-transfer difficulties were superseded by that direct upload.
+Uploaded ZIP: 104578 bytes, SHA-256 `4495e9b919ce5b896c7c877f6547e95f582919ed542699c714973dee5935bfa6`; 65 files/64 checked manifest entries. Direct upload superseded the earlier email-transfer blocker.
 
-Nine native commands plus one earlier failed dispatch consumed 10/10 conservatively. No child model. Temp unlisted read and read-only write succeeded; non-temp controls blocked corresponding operations; exact/special temp deny still failed. Before/after C1 and G0 records were consistent, with archive cross-checks. This was enough to select a different bounded method, not accept the D1 profile or open universal sandbox research.
-
-Versioned source distinguished Process temp compatibility grants, exact-root exclusions and glob-deny generation. Exact local binary-to-source provenance was not proved. G1 later tested glob-based native profiles; D1's failed results remain failed.
+Nine native commands plus one earlier failed dispatch consumed 10/10 conservatively; no child model. Temp unlisted read/read-only write succeeded; non-temp controls blocked corresponding operations; exact/special temp deny still failed. C1/G0 preservation records and archive cross-checks were consistent. Source review separated Process temp grants, exact-root exclusions and glob-deny generation; exact local build provenance was not proved. D1 did not qualify its failed profile. G1's later glob results do not rewrite D1's failures.
 
 Original directory: `/Users/Batu/Documents/Codex/SOUL-Development-OS-Run-Evidence/G0-D1-20260906T200915Z-hcg4769w/`.
 
-## G1 — response received and evidence reviewed
+## G1 — response and evidence review complete, actual pilot not run
 
-Task **DEVOS-G1-PURPOSE-PILOT-2026-09-07**; brief `current/briefs/CODEX-G1-PURPOSE-PILOT.md`, supplied ref `4580f72421f7be5e081eb8770c40e4dd82ca8342`, blob `b6e235b5a4cb0c54624ac10d86dc137da652cda4`.
+Task **DEVOS-G1-PURPOSE-PILOT-2026-09-07**; brief `current/briefs/CODEX-G1-PURPOSE-PILOT.md`, issued ref `4580f72421f7be5e081eb8770c40e4dd82ca8342`, blob `b6e235b5a4cb0c54624ac10d86dc137da652cda4`.
 
-The user returned Codex's result and four attachments, including the actual ZIP. This supersedes the earlier 'proposed/not dispatched' checkpoint; exact dispatch log/time was not independently audited. No duplicate relay is required.
+User supplied the result and four usable attachments. Archive **123604 bytes**, SHA-256 **`b448be458f6a78e0268240a0b4f648a76359bef2f884cfc6d2c71731225db1c9`**; attachment `file_000000009ee481f483838b702a93e31c`. All 73 manifest entries in the 74-file archive matched; separate report/purpose files and checksum matched.
 
-Archive **123604 bytes**, SHA-256 **`b448be458f6a78e0268240a0b4f648a76359bef2f884cfc6d2c71731225db1c9`**; attachment `file_000000009ee481f483838b702a93e31c`. All 73 manifest entries in the 74-file archive match independently computed hashes. Separate report/purpose files equal archive bytes; sidecar checksum matches.
+Original directory: `/Users/Batu/Documents/Codex/SOUL-Development-OS-Run-Evidence/G1-20260907T060548Z-_yuopdg0/`.
 
-Original directory:
+Evidence findings:
 
-`/Users/Batu/Documents/Codex/SOUL-Development-OS-Run-Evidence/G1-20260907T060548Z-_yuopdg0/`
+- Eleven selected native controls match plan/intent/profile/argv/result and fixture hash chains: three positive/eight negative. Required reads and writer-only output succeed; denied reads, protected writes and protected-directory rename are blocked in those cases.
+- Two profiles use temp glob denies and separate non-temp inputs/output; this is evidence for tested native paths, not every agent/tool effect.
+- Binary record: `codex-cli 0.153.4`, SHA-256 `42662bbc0522f0002eedc1e43dcda25d328176dda397d0428c0d33e26bff15ec`.
+- Two model-free renders fail on custom MCP overrides: first quoted-path transport error, then regex misclassifies `node_repl.env` as a server and emits `mcp_servers.node_repl.env.enabled=false`.
+- The single quotation correction was used; filesystem profiles did not change. Native starts **11/12**; actual models **0/8**. Model/effort was specified, not exercised.
+- **P0/P1, the G1 branch, T1–T4 and R(P1) do not exist as produced/run results.** The coordinator purpose note is not a fresh-session pilot.
+- Before/after hashes preserve four C1 files, 93 G0 and 68 D1 files and sets; earlier archives cross-match. Native exits/narrow PID checks and two render exit-1 records exist; render PIDs are absent.
 
-### Established from supplied records and independent consistency checks
+Full dynamic MCP/skill argv were omitted; a digest cannot reconstruct them. These checks do not authenticate every originating event, inspect the live Mac or prove every side effect absent. No bundled script was executed by this assistant.
 
-- All eleven selected native controls agree with their plan/intent/profile/argv/results and fixture hash chains: three positive/eight negative. Required reads and writer-only output succeed; denied reads/protected writes and directory-rename attempt are blocked within those cases.
-- Two role profiles use temp glob denies and separated non-temp inputs/output. Profile behavior is improved relative to D1, but only on the tested native paths.
-- Recorded binary remains `codex-cli 0.153.4`, SHA-256 `42662bbc0522f0002eedc1e43dcda25d328176dda397d0428c0d33e26bff15ec`.
-- Two model-free render calls fail on custom MCP override construction. First quoted-path transport error; then nested `node_repl.env` misclassified by regex as a server, emitting `mcp_servers.node_repl.env.enabled=false`.
-- Only the recorded quotation fix was made; filesystem profiles did not change. The single G1 correction allowance was exhausted.
-- Native starts **11/12**; actual child models **0/8**. Model/effort settings were specified, not exercised.
-- **P0/P1, the G1 candidate branch, T1–T4 and R(P1) were not produced/run.** The coordinator purpose note is not a fresh-session success.
-- Before/after records preserve four C1 files, 93 G0 and 68 D1 files and their sets. Earlier G0/D1 archives independently cross-match. Eleven native exits/narrow process checks and two render exit-1 results are present; render PIDs are absent.
+A separate research-authored in-memory regression reproduced the regex defect and tested structured TOML direct-child selection: 14 tests passed. No actual config, credentials, network, subprocess or project was used. This is not installed-Codex or agent-isolation validation. Source/code and review limits remain in `current/reviews/2026-09-07-g1/`.
 
-These checks do not authenticate every supplied event, inspect the live Mac, qualify every tool/global-config path or prove all side effects absent. Full dynamic MCP/skill argv are omitted from render records; a hash alone cannot reconstruct them. No bundled script was executed by this assistant.
+## G1-R1 proposal — retained but NOT dispatched
 
-### Review and new synthetic evidence
-
-The custom parser defect is specific and source-supported, not evidence of a new sandbox escape, quota failure or model failure. Source review and 14 newly authored, in-memory Python regression tests reproduce the old false positive and support structured TOML selection of direct server children. All 14 pass here. They access no actual config, credentials, network, subprocess or project and are **not** installed-Codex validation.
-
-Review outcome: preserve native progress; repair/verify the narrow launcher path, then conditionally return to existing G1 work. No reason was found to restart SOUL design or continue general sandbox/build-provenance research.
-
-The research assistant also identified a task-budget weakness: 'one technical correction' grouped harmless deterministic helper fixes with material permission changes. Codex obeyed that rule correctly. A prospective, time-bounded local repair allowance can reduce unnecessary human relay without weakening the actual access/evidence gates. This is a proposed task change, not a retroactive grant or agent-control mutation.
-
-## Next responsibility — proposed G1-R1, not granted
-
-- Task ID: **DEVOS-G1-R1-2026-09-07**.
+- ID: **DEVOS-G1-R1-2026-09-07**.
 - Brief: `current/briefs/CODEX-G1-R1-LAUNCHER-CONTINUATION.md`.
 - Initial brief commit: `0a0d61b3387a30ebfc836e56814def21eeb957cb`.
-- **Status: READY FOR EXPLICIT USER ADOPTION. No repair dispatch, effective startup, actual agent preflight or pilot result is recorded.**
+- Relay reference previously proposed: `af3e5075eb4c2019f3c7195e030961f628a0b4df`.
+- **Current disposition: USER CONFIRMED NOT SENT; IMMEDIATE SEND RECOMMENDATION ON HOLD FOR METHOD DISCUSSION.** The brief's creation-time READY header is not present authority.
 
-If adopted, this continuation permits only a new G1-R1 evidence/helper/synthetic area, structured parser/argv repair and local regressions, at most 30 minutes offline repair, four model-free render checks and up to twelve necessary native binding-delta checks. Exact effects and limits are in the brief. Prior G1 11/12 and single correction remain historical; the additional allowance is explicit, not reset by a new session.
+The retained proposal would, if later explicitly adopted, allow a new G1-R1 helper/evidence area, up to 30 minutes model-free repair, four renders and twelve necessary native delta checks. G1+R1 actual model starts would remain cumulatively at eight maximum, one at a time, twenty minutes each, with one real synthetic preflight. Only required gates passing would enable the original limited G1 candidate/pilot work. None of that new allowance has been granted or exercised.
 
-The real sentry/preflight and subsequent G1 actors stay at **eight actual child launches cumulatively across G1 and this continuation**, with one actual preflight, one process at a time and each at most twenty minutes. Before real sources are passed to children, the necessary native/startup/actual-tool conditions must hold. No unused budget grants a different experiment.
+Old C1/G0/D1/G1 evidence/main and AGENTS remain protected. No remote write/email, product work, global config/permission changes, installation, new credentials/paid service or operating acceptance follows from this method review. Failed/blocked records and spent budgets remain unchanged. No substitute task is active.
 
-Only after the required gates pass does the adopted continuation re-enable original G1 §§5–7: separate local candidate branch from C1, unchanged AGENTS, short purpose/STATE routing and new BOOTSTRAP-002, source-based two-session work, T2–T4 and R(P1). Do not stop merely at 'parser fixed' for another routine human relay. If a material boundary remains unestablished, return the exact blocked transition rather than relax protection or expand the project.
+## Current next responsibility
 
-Old C1/G0/D1/G1 evidence/main are preserved. No remote write/email, product work, global config/permission changes, installs, new credentials/paid service, B0/A or operating acceptance. The coordinator note must not be supplied as an answer for the pilot to copy. Broader SOUL capabilities stay deferred, not removed.
+Continue the user's research/method discussion. Decide at the appropriate scope/value boundary what minimum initial work and assurance are needed; derive technical alternatives from actual sources rather than asking the user to debug the launcher. The technical feasibility of R1 remains distinct from its necessity as the next work.
+
+Do not auto-send the old prompt, retry G1, install gstack, reopen broad Foundation or select a new framework. No repeated full research corpus reading is required just to recover this checkpoint. Review source pointers above preserve what was read, what is inferred and what remains open.
 
 ## Corpus and retirement boundaries
 
-`repos/` = historical ledgers; `evidence/` = context syntheses; `current/briefs/` = versioned assignments; `current/reviews/` = supplied selections, bounded reviews and labelled auxiliary regressions. These are not Foundation or candidate-study findings and do not govern this assistant. No agent-control, Foundation, studies, predecessor or target-repository file was changed by this review.
+`repos/` = historical ledgers; `evidence/` = context syntheses; `current/briefs/` = versioned assignments; `current/reviews/` = preserved selections, bounded reviews and labelled auxiliary regressions. These are not Foundation or candidate-study findings and do not govern this assistant. This latest method review changes only research-side review/continuity records, not agent-control, Foundation, studies, predecessor or target repositories.
 
-The last independent remote target-branch read remains in the earlier G0 audit. G1 supplies a recorded later GitHub main observation, not this assistant's new live inspection. Unpublished work is recovered on the Mac or from supplied snapshots. Once Development OS owns reliable accessible state, stop mirroring routine work here.
+The last independent target-branch read remains in the earlier G0 audit. G1's later GitHub main is a supplied observation, not this assistant's fresh live check. Unpublished work is recovered on the Mac or from supplied snapshots. Once Development OS owns reliable accessible state, stop mirroring routine work here.
 
-Retire the bridge only after meaningful fresh work demonstrates purpose/authority/state recovery, appropriate research/work selection, useful bounded execution, proportionate verification, evidence-backed results, interruption recovery, usable handoff and governed change without permanent ChatGPT/Batu coordination. Hash consistency, passing native probes, a fixed parser or a correctly stopped task does not establish that. Self-sustain is not unlimited authority or unattended continuous execution.
+Retire the bridge only after meaningful fresh work demonstrates purpose/authority/state recovery, appropriate research/work selection, useful bounded execution, proportionate verification, evidence-backed results, interruption recovery, usable handoff and governed change without permanent ChatGPT/Batu coordination. Hash consistency, a source-code explanation, passing native probes, a fixed parser or correctly stopped work does not establish that. Self-sustain is not unlimited authority or unattended continuous execution.
