@@ -14,7 +14,7 @@ Ancak D1'in B profili kabul edilmez: kendi hedeflediği temp okuma engelini sağ
 
 ## 2. Kanıt kapsamı
 
-Tam kaynak ZIP'in kimliği ve doğrudan kayıt seçimleri `EVIDENCE-EXTRACTS.md` içindedir. ZIP 104578 byte; SHA-256 `4495e9b919ce5b896c7c877f6547e95f582919ed542699c714973dee5935bfa6`. 64/64 manifest hash'i eşleşti; manifest hariç 65 dosya var.
+Tam kaynak ZIP'in kimliği ve doğrudan kayıt seçimleri `EVIDENCE-EXTRACTS.md` içindedir. ZIP 104578 byte; SHA-256 `4495e9b919ce5b896c7c877f6547e95f582919ed542699c714973dee5935bfa6`. 64/64 manifest hash'i eşleşti; manifest dahil toplam 65 dosya var.
 
 Araştırma asistanının bağımsız yeniden yaptığı işlemler: arşiv yapısı/CRC/hash denetimi, dokuz plan–intent–argv–sonuç eşleşmesi, TOML profil ayrıştırması, altı fixture'ın bütün hash zinciri, çıktıdan sonuç sınıflandırması, C1/G0 koruma kayıtlarının karşılaştırılması ve önceki G0 arşiviyle çapraz kontrol. Altı PASS, iki FAIL, bir nedensel gözlem doğru sınıflanmış; bunlardan bir genel başarı yüzdesi üretilmez.
 
@@ -81,4 +81,4 @@ D1'in native bütçesi 10/10 muhafazakâr olarak tamamlanmıştır; yeni önerin
 
 Bu asistan önceki görevleri de tasarladı: inceleme farklı veri/hesap ve canonical kaynak kullanıyor, fakat bütünüyle bağımsız bir epistemik hakem değildir. Etkin profil ve aday davranışı ancak uygun yeni gözlemlerle değerlendirilebilir.
 
-**Sonuç:** D1'i teşhis olarak yeterli kabul edip genel sandbox araştırmasını büyütmemek; gereken son erişim kontrolünü anlamlı pilotun açık ve kısa önkoşulu yapmak önerilir. Ne yeni profil ne Development OS işletimde kabul edilmiştir. Güncel görev/dispatch için `../../../STATE.md`, önerilen kapsam için `../../briefs/CODEX-G1-PURPOSE-PILOT.md` okunur.
+**Sonuç:** D1'i teşhis olarak yeterli kabul edip genel sandbox araştırmasını büyütmemek; gereken erişim kontrolünü anlamlı pilotun açık ve kısa önkoşulu yapmak önerilir. Ne yeni profil ne Development OS işletimde kabul edilmiştir. Güncel görev/dispatch için `../../../STATE.md`, önerilen kapsam için `../../briefs/CODEX-G1-PURPOSE-PILOT.md` okunur.
