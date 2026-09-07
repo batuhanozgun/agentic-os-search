@@ -1,80 +1,83 @@
 # Hermes Agent — Araştırma planı
 
-**Plan v0.3 — 2026-09-07.** Aktif dış hedef araştırması; değişebilir decomposition. Güncel iş otoritesi [STATE](STATE.md).
+**Plan v0.4 — 2026-09-07.** Aktif dış hedef araştırması; kanıta göre değişebilir decomposition. Güncel iş otoritesi [STATE](STATE.md).
 
-## 1. Döngü
+## 1. Döngü ve kapsam
 
-`kaynak keşfi → sınırlandırılmış mekanizma sorusu → alt kaynakları tam okuma → karşı yol/test → not → kapsam revizyonu → sonraki birim`.
+`kaynak keşfi → mekanizma sorusu → alt kaynakları tam okuma → karşı yol/test → not → kapsam revizyonu → sonraki birim`.
 
-Üst sentez, alt notların yalnız kısaltılması değildir; aralarındaki açıklanmamış geçişleri arar ve gerekirse kaynağa geri açılır. Bir öğrenme modülünden bütün ürün hakkında erken sonuca gidilmez.
+Üst sentez yalnız alt notların kısaltılması değildir; açıklanmamış geçişleri arar ve kaynağa geri döner. HERMES'i kendi davranış ailelerinden anlamak, ardından dört-alan ve SOUL/Development OS değerlendirmesi üretmek amaçtır. Hata listesi, kurulum, upstream onarımı veya benimseme bu araştırmanın yerine geçmez.
 
-## 2. Aşama ve ilk durum
+## 2. Aşamalar
 
-| Aşama | Durum / teslim |
+| Aşama | Durum |
 |---|---|
-| A0 Kimlik, pin, mevcut proje sınırı | Kaydedildi; upstream 0.21.0 manifesti ve immutable commit tanımlı. d8a077... ek okuma ref'i aynı ilgili blob'larla uzlaştırıldı; primary pin değişmedi. |
-| A1 Kaynak topolojisi | Kök ve apps listeleri tamam; recursive alt envanter ve execution-path haritası sürüyor. |
-| B0 İlk mekanizma sondajları | U01 review/koruma/onay/test kesiti + U01-C curator/usage/rapor kesiti kaydedildi. Uçtan uca öğrenme ailesi kapanmadı. |
-| B1–Bn Mekanizma genişletme | Aşağıdaki aileler provisional; kanıt geldikçe bölünebilir. |
-| C Native alt-sistem sentezleri | Başlatılmadı. |
-| D İlişkiler ve karşı-yol incelemesi | Genel sentez başlatılmadı; yerel sorular notlardan birikiyor. |
-| E Dört-alan projeksiyonu ve SOUL/DevOS değerlendirmesi | Native modelden sonra; henüz yok. |
-| F Çekirdek sentez, omission/distortion, freshness kapanışı | Henüz yok; METHOD ölçütleri uygulanacak. |
+| A0 Kimlik, pin, proje sınırı | c4a5de... immutable pin / 0.21.0 manifest; d8a077... ve üç dosyalık 7874ef... gözlemleri kapsamlarıyla ayrıldı. |
+| A1 Kaynak topolojisi | Kök/apps listeleri var; recursive alt envanter ve giriş yolları haritası sürüyor. |
+| B0 Mekanizma sondajları | U01 review, U01-C curator ve U01B onay/mutasyon kesitleri; iki exact modül üzerinde 10 sentetik tanılayıcı gözlem. Aile kapanmadı. |
+| B1–Bn Genişletme | F01–F12 aşağıda; sabit modül sayısı iddiası değil. |
+| C Native alt-sistem sentezleri | Henüz yok. |
+| D İlişkiler ve karşı-yol incelemesi | Yerel aday bağlantılar var; genel sentez yok. |
+| E Dört-alan / SOUL / DevOS | Native model yeterli olduktan sonra; henüz yok. |
+| F Çekirdek / omission-distortion / freshness | Henüz yok; METHOD bitiş ölçütleri geçerli. |
 
-## 3. Provisional kaynak aileleri
+## 3. Provisional kaynak aileleri — korunan geniş kapsam
 
-Bu liste on iki kesin modül iddiası değildir. Bir satır birden fazla mekanizma içerir, bir mekanizma birden fazla satıra bağlanabilir.
-
-| ID | Soru / doğal kaynak ailesi | Başlangıç rotası | Mevcut derinlik |
+| ID | Soru / aile | Başlangıç rotası | Mevcut derinlik |
 |---|---|---|---|
-| F01 | Konuşma/iş nasıl başlar, araç döngüsü, retry, kesinti ve sonlanma nasıl yönetilir? | `run_agent.py`, `agent/conversation_loop.py`, `agent/turn_*.py` | Harita/doküman; implementation closure yok. |
-| F02 | Prompt, context dosyası, araç tanımı, compression ve cache hangi bilgiyi taşır/kaybeder? | `agent/prompt_builder.py`, context-engine/compressor, prompt-caching, system-prompt yolları | Mimari/geliştirici rehberleri + review fork'a ait kod; genel context lifecycle açık. |
-| F03 | Oturum kimliği, lineage, arama, kullanım kaydı ve onarım hangi durumu korur? | `hermes_state.py`, `hermes_state_*.py`, `gateway/session.py`, session-search tool | Doküman; README–rehber çelişkisi açık. Skill kullanım kaydı session-storage'ın yerine geçmez. |
-| F04 | Bellek/beceri nasıl oluşur, değişir, sahiplenilir, onaylanır, geri alınır ve paylaşılır? | memory/skills, `agent/background_review.py`, curator, skill ledger/sync | İki kısmi not. Curator/skill_usage tam; mutator seçili; caller/replay/reuse/ledger/sync kapanmadı. |
-| F05 | Provider, model, credential, profile ve config seçimi çalışmayı nasıl bağlar? | `hermes_cli/runtime_provider.py`, auth/config/profile, `providers/` | Manifest ve review/curator runtime seçimi; genel çözümleme okunmadı. |
-| F06 | Araç/skill/plugin/MCP keşfi ile gerçek çağrı yetkisi nasıl ayrılır? | `model_tools.py`, `toolsets.py`, registry, plugin/pre-tool gates | Review whitelist/guard ve seçili test; skill_manage registry/schema kesiti. Gerçek single-op/batch/dispatch closure açık. |
-| F07 | Ortam/backends/native katmanlar hangi etkiyi gerçekten sınırlar? | `tools/environments/`, terminal/file/code/MCP, `native/`, Docker/OpenShell bağlantıları | Güvenlik kontratı ve root envanter; izolasyon doğrulanmadı. |
-| F08 | Delegation, process, cancellation, worktree ve eşzamanlı yazıcılar nasıl yönetilir? | `tools/delegate_tool.py`, process registry, review worker, profile context | Review/curator fork dar yolları; genel delegasyon ve etkili izolasyon henüz yok. |
-| F09 | Gateway mesajı nasıl yetkilendirilir, oturuma bağlanır ve sonuç teslim edilir? | `gateway/run*.py`, platform registry, `plugins/platforms/`, delivery/pairing | Mimari/güvenlik belgeleri; adapter eşdeğerliği kabul edilmedi. |
-| F10 | Cron/proaktif işler, kuyruk ve tekrarlar hangi durumda çalışır veya kaybolur? | `cron/`, `agent/review_idle_queue.py`, scheduler/delivery state | Curator'ın cron-reference koruma/rewrite çağrıları ve seçili testler; gerçek scheduler/restart açık. |
-| F11 | CLI/TUI/desktop/web/API/ACP aynı iş ve onay anlamını koruyor mu? | `apps/`, `web/`, `ui-tui/`, `tui_gateway/`, `acp_adapter/`, CLI | Apps listesi, package workspaces ve ortak onay komutları; yüzeyler ayrı korunuyor. |
-| F12 | Kurulum/güncelleme/compat, test/eval/telemetri ve trajectory üretimi değişimi nasıl yönetir? | pyproject/locks, `.github/`, scripts, `evals/`, batch/trajectory, compat manifest | Manifest/testler + skill telemetry/reporting/backup callsite; release/CI/quality eval/runtime henüz yok. |
+| F01 | Başlama, araç döngüsü, retry, kesinti, sonlanma | run_agent.py; agent/conversation_loop.py; turn_*.py | Harita/kontrat; gerçek caller/dispatch kapanışı sırada. |
+| F02 | Prompt, context dosyası, schema, compression/cache | prompt_builder; context-engine/compressor; prompt-caching | Rehberler + review fork; değişiklik sonrası invalidation callsite. Genel yaşam döngüsü açık. |
+| F03 | Session kimliği, lineage, arama, kullanım/onarım | hermes_state*.py; gateway/session.py; session-search | Doküman; README–rehber farkı açık. Skill usage ayrı kayıt. |
+| F04 | Bellek/beceri oluşturma, sahiplik, onay, geri alma/paylaşım | memory/skills; background_review; curator; ledger/sync | U01/U01-C/U01B; mutator/batch/approval kaynakları tam. Caller, memory, ledger/sync/reuse/kalite kapanmadı. |
+| F05 | Provider/model/credential/profile/config bağlama | runtime_provider; auth/config/profile; providers | Manifest + review/curator seçimi; genel resolver açık. |
+| F06 | Tool/skill/plugin/MCP keşfi ve gerçek çağrı yetkisi | model_tools.py; toolsets; registry; plugin pre-tool gates | Whitelist/guard, skill schema/registry/batch/apply; gerçek invoke ve bağlam aktarımı açık. |
+| F07 | Backend/native katmanların sınırlandırdığı etki | tools/environments; terminal/file/code/MCP; native; Docker/OpenShell | Güvenlik kontratı/root harita; izolasyon doğrulanmadı. |
+| F08 | Delegation/process/cancellation/worktree/yazıcılar | delegate_tool; process registry; fork/profile context | Review/curator dar yolları; genel delegasyon/eşzamanlılık açık. |
+| F09 | Gateway yetkilendirme, session, teslim | gateway/run*; registry/platforms; delivery/pairing | Mimari/güvenlik kontratı; adapter eşdeğerliği varsayılmadı. |
+| F10 | Cron/proaktif iş, kuyruk, tekrar/kayıp | cron; review_idle_queue; scheduler/delivery | Curator cron-reference callsite; gerçek scheduler/restart açık. |
+| F11 | CLI/TUI/desktop/web/API/ACP temsil/yetki eşdeğerliği | apps/web/ui-tui/tui_gateway/acp_adapter; CLI | Ortak approval preview/komut kesiti + bileşen karşı örnekleri; her UI'ye genellenmedi. |
+| F12 | Install/update/compat, test/eval/telemetri/trajectory | pyproject/locks; .github; scripts/evals; batch/trajectory | Seçili manifest, test kaynağı, curation kayıtları ve dar bileşen deneyi. Release/CI/gelecek-task quality açık. |
 
-Başlangıç rotalarından henüz getirilmeyen yollar keşif hedefidir. İlk kök haritasından veya belgelerin verdiği isimlerden türemiş olmaları dosyanın içeriğini doğrulamaz.
+Başlangıç rotası dosyanın okunduğunu göstermez. Bir mekanizma birden çok aileye bağlanır; family etiketleri ürün modülleri değildir.
 
-## 4. Sıradaki çalışma birimleri
+## 4. Birimler ve sıradaki iş
 
-**U01 — deneyimden kalıcı belleğe/beceriye geçiş.** İlk not [02-BACKGROUND-LEARNING](notes/02-BACKGROUND-LEARNING.md). Devam: trigger/caller → gerçek dispatch → memory/skill mutator → pending replay → ledger/geri alma → sonraki session/skill load. Her aşamadaki kritik karar/yan etki için test veya açık boşluk.
+**U01:** Deneyimden kalıcı belleğe/beceriye geçiş. [02 notu](notes/02-BACKGROUND-LEARNING.md). Trigger/caller, dispatch, memory-store, replay, ledger ve sonraki kullanım açık.
 
-**U01-C — oluşmuş beceri kütüphanesinin bakımı.** [03-SKILL-CURATION](notes/03-SKILL-CURATION.md) otomatik yaşam döngüsü, yönetim politikası, opt-in LLM consolidation, rapor ve cron bağlantısını ayırdı. Bu, U01'in yerine geçen yeni ana araştırma değil, kaynakta ortaya çıkan bağlantılı birimdir. İlk sonraki okuma H22 `tools/skill_manager_tool.py` 201–800; ardından batch/dispatch/apply. Prompt/guard farkı ve schema/report ilişkisi bu yoldan sınanacak. Son istekte 429 geldiği için eksik aralık açık kaydedildi; test veya çalışma başarısızlığı sanılmayacak.
+**U01-C (kimliği korunur):** Oluşmuş beceri kütüphanesinin bakımı. [03 notu](notes/03-SKILL-CURATION.md). Policy/authorship, deterministic maintenance/LLM consolidation, report/cron ve recovery ayrımları. Önceki tur H22 orta aralığına 429 nedeniyle erişemedi; U01B bu dosyanın tam okumasını sonradan kalıcı kayda getirdi. Eski eksik aralık current sonraki iş değildir.
 
-**U02 — çekirdek iş ve bağlam yaşam döngüsü.** F01/F02/F03 bağlantısı; farklı girişlerin ortak çekirdeğe ne taşıdığı. U01'i anlamak için gereken alt yol şimdi açılabilir; bütün çekirdek sentezi ayrı teslimdir.
+**U01B:** Onay, mutasyon ve geri alma. [04 notu](notes/04-SKILL-WRITE-TRANSACTION-AND-APPROVAL.md), [S01–S06](evidence/2026-09-07-u01b/SOURCES.md). Üç ayrı soru: onaylanan nesne/temsil; hata/istisna/restore yolları; dosya dışındaki iz/cache/sync etkileri. Bileşen kanıtı aile veya ürün kapanışı sayılmaz.
 
-**U03 — genişleyen yetki ve etki sınırı.** F05/F06/F07/F08; callback/whitelist, namespace, OS sınırı ve credential/external effect aynı güvence değildir. README'deki 'isolated subagents' ifadesi bütün bu alanlar için sonuç sayılmayacak.
+**İlk sonraki kaynak işi:** Gerçek review/foreground/curator caller → invoke/dispatch → exception handling → pending apply bağını izle. Origin/profile/authority aktarımı ve U01-C raporunun batch operations yorumunu aç. S01/S02 tam okuma mevcut; kaynakları gerekince iddiaya bağlı tekrar aç, eski state yüzünden gereksiz yeni-ilk-okuma yapma. Ardından memory mutator, cancellation/store, ledger/backup/restore/sync ve sonraki skill/cache-load.
 
-**U04 ve devamı — haritadaki kalan aileler ve varyantlar.** Gateway/cron/UI/install/eval bölgeleri U01'e ilginçlik nedeniyle tabi kılınmaz. Kaynak ağında ortaya çıkan bağımlılığa göre sıra değiştirilir; hedef dışı ecosystem araştırması ayrı gerekçe ister.
+**U02:** Çekirdek iş/bağlam yaşam döngüsü (F01/F02/F03); U01'in ihtiyaç duyduğu dar alt yollar şimdi açılabilir, genel çekirdek sentezi ayrıdır.
 
-## 5. Önceden seçilen karşı sorular
+**U03:** Genişleyen yetki ve etki (F05/F06/F07/F08); callback/whitelist, namespace, OS sınırı ve credentials tek güvence değildir.
 
-- Başka model daha bağımsız review mü sağlıyor, yoksa farklı ve eksik transcript ile farklı bir işi mi yapıyor?
-- Read-before-write kaydı exact içeriğe mi, path'e mi bağlı; okuma/approve/yazma arasında hedef değişirse ne olur?
-- Varsayılan izin ve config hatası aynı sonucu mu üretir; verilen onay ile gerçekten kalıcı pending record eşleşir mi?
-- Yeni kullanıcı mesajı review'u keserken eski worker ve paylaşılan store ne olur?
-- Session/profile ayırımı caller yetkisi veya dosya/process izolasyonuyla karıştırılıyor mu?
-- Zamanlanmış işin üretildiği, yürütüldüğü, teslim edildiği ve sonraki oturumda kullanıldığı durumlar ayrı mı?
-- Bir beceri güncellemesini 'başarılı öğrenme' sayan bağımsız sonuç ölçütü var mı; bulunmazsa arama kapsamı bunu söylemeye yeterli mi?
-- Curator'ın raporu gerçek içeriği korumayı mı, isim/araç beyanlarını mı doğruluyor? Raporlama arızası cron referansını da etkiliyor mu?
-- Otomatik arşivleme ile background skill_manage aynı ownership/dry-run/approval sözleşmesini mi uygular?
-- Çekirdek modelin dışında bırakılan desktop/web/native/compat bölgesi aslında birinci-derece mekanizma taşıyor mu?
+**U04 ve devamı:** Gateway/cron/UI/install/eval ve kalan varyantlar. U01 ayrıntıları bütün sistemi yutmamalı; kaynak bağımlılığına göre sıra değişebilir. Sistem dışı yeni araştırma nesnesi ayrı gerekçe/yetki ister.
 
-Bunlar doğrulanmış arıza listesi değil, araştırmanın kendi doğrulama yüzeyidir.
+## 5. Karşı sınama yüzeyi
+
+- Aynı/farklı model review'unda kanıt görünümü eşdeğer mi?
+- Read/preview/approve/write aynı hedef sürümünü mü bağlar; fuzzy patch ve rewrite varyantları neyi değiştirir?
+- Normal hata, fırlatılan istisna, restore hatası ve pending disk hatası gerçek caller'da nasıl temsil edilir?
+- Dosya geri alınırken ledger/cache/sahiplik/sync hangi durumu korur?
+- Origin/profil etiketi ile öneren/onaylayan/uygulayanın yetkisi nasıl ayrılır?
+- Cancellation sonrası eski worker ve paylaşılan store nasıl düzenlenir?
+- İşin oluşturulması/yürütülmesi/teslimi/sonraki kullanım aynı kayıt mı?
+- Curator raporu isim/beyan mı yoksa içerik koruması mı ölçer; batch schema/report ve cron referansı ilişkisi nedir?
+- Usage/update sayısı yerine sonraki görevde kalite artışı hangi kanıtla kurulabilir?
+- Dışarıda kalan UI/native/compat ailesi yeni birinci-derece mekanizma getiriyor mu?
+
+Bunların hepsi doğrulanmış kusur değildir. Bileşen gözlemi, statik çıkarım ve ürün düzeyinde açık soru ayrı tutulur.
 
 ## 6. Revizyon geçmişi
 
-| Revizyon | Kaynakla ortaya çıkan değişiklik | Plan etkisi |
+| Revizyon | Kaynak / değişim | Etki |
 |---|---|---|
-| v0.1 | Gstack'in semantic-pyramid yöntemi ve HERMES root/architecture | Sabit ref, doğal mekanizma birimi, geç aşama Foundation projeksiyonu. Gstack'in 11 ailesi kopyalanmadı. |
-| v0.2 | H04 review fork; H05 origin/ownership; H07/H08 approval; H09/H10 testlerin gerçek kapsamı; H13 security; T01 apps | 'Öğrenme' tek kutu olmaktan çıkarıldı. Transcript izolasyonu, kalıcı store, sahiplik, onay, kalite ve paylaşım ayrı sorular oldu. UI/native/terminal-whole-process ayrımları kapsamda bağımsız tutuldu. |
-| v0.3 | H16–H20 curator/docs/usage/test karşı okuması; H05 yeniden okuma; H22 seçili mutator/schema; kaynak-ref uzlaştırması | Beceri üretimi ve kütüphane bakımı ayrı birimler olarak bağlandı. Policy≠authorship, usage≠quality, archive≠complete rollback ve report→cron etkisi ortaya çıktı. U01-C erken açıldı; dispatcher/batch/apply boşluğu sıradaki somut kaynağa dönüştü. Primary pin ve diğer çalışma hatları korunur. |
+| v0.1 | Gstack yöntem + HERMES root/architecture | Sabit ref, doğal mekanizma birimi, geç Foundation projeksiyonu; Gstack aileleri kopyalanmadı. |
+| v0.2 | H04–H10/H13, apps | Öğrenme; transcript/store/ownership/approval/quality/share ayrımlarına açıldı. |
+| v0.3 | H16–H20/H05/H22, ref uzlaştırması | U01-C curator; policy≠authorship, usage≠quality, archive≠complete rollback, report→cron ilişkisi. |
+| v0.4 | Sohbet U01B paketinin kaynak/deney kaydı ve güncel v0.3 ile birleştirilmesi | H22 tam okuması recover edildi; approval representation, exception rollback ve pending durability karşı örnekleri taşındı. Caller/context ilk sıraya alındı. U01-C'nin kimliği ve F01–F12 kapsamı korundu; eski yerel v0.3 önerisi current'ın üstüne yazılmadı. |
 
-Sonraki değişiklik bu tablodan önce bulguya dayanmalıdır; plan sırf eski biçimi korumak için dondurulmaz. Curator prompt'undaki nicelik baskısı araştırmamızın kapanış ölçütüne aktarılmaz.
+V0.3 ayrıntıları Git geçmişinde `000f691b9a94607c9a8219961b4618eda0f1014f` ref'indeki bu dosyadan recover edilebilir. Bu kayıtların birleştirilmesi yeni deney, bağımsız doğrulama veya çalışma yöntemi için agent-control değişikliği değildir.

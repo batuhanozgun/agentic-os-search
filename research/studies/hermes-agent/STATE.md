@@ -1,10 +1,10 @@
 # Hermes Agent — STATE
 
-**Durum:** ACTIVE RESEARCH / INITIAL ORIENTATION, BACKGROUND-REVIEW AND SKILL-CURATION SOURCE PASSES RECORDED  
-**Son çalışma tarihi:** 2026-09-07  
+**Durum:** ACTIVE RESEARCH / BACKGROUND-REVIEW, SKILL-CURATION AND U01B COMPONENT EVIDENCE RECORDED  
+**Son kayıt tarihi:** 2026-09-07  
 **Kaynak pin:** `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`  
-**Mevcut plan:** [RESEARCH-PLAN.md](RESEARCH-PLAN.md), v0.3  
-**Araştırma tamamlandı mı?** HAYIR. U01 ve U01-C kısmi kaynak birimleridir; bütün sistem sentezi ve kapanış incelemesi yapılmadı.
+**Mevcut plan:** [RESEARCH-PLAN.md](RESEARCH-PLAN.md), v0.4  
+**Araştırma tamamlandı mı?** HAYIR. Kaynak ve dar bileşen kesitleri kaydedildi; bütün sistem sentezi, kalite doğrulaması ve kapanış incelemesi yapılmadı.
 
 ## Yetkilendirilmiş amaç ve kapsam
 
@@ -14,41 +14,39 @@ OpenClaw ayrı sonraki araştırma adayıdır; bu paketin genişleyen ikinci ara
 
 ## Yapılan iş — birikimli kayıt
 
-1. İlk tur güncel araştırma durumu ve diğer hatların sınırlarını kontrol etti. İlk preflight araştırma ref'i `4cb42472e3e8391f91836c5f4518db3fc30b89af`; önceki `b62c9d...` ile fark yalnız context köprüsünün dört dosyasındaydı. Gstack METHOD/META tam okundu.
-2. Upstream commit/tree sabitlendi. Kök tree ve `apps/` tree listeleri tam alındı; **recursive bütün repository envanteri çıkarılmadı**.
-3. İlk tur README, mimari rehber, bellek rehberi ve güvenlik politikasını tam okudu; manifest ve memory-manager üzerinde seçici okuma yaptı.
-4. İlk tur arka plan review, beceri yazma korumaları, yazım kökeni, yazma-onay altyapısı ve ortak onay komutlarını tam okudu; iki ilişkili test dosyasını tam kaynak olarak inceledi. [02-BACKGROUND-LEARNING](notes/02-BACKGROUND-LEARNING.md) bu kesiti korur.
-5. Ek turda mevcut paket `e6bc6cd98e31922c4cfd1c3b46e88c04aec2ca00` üzerinden tam geri kazanıldı; ikinci paket açılmadı. İlk ek okumalarının ref'i `d8a077...`, mevcut pin ile bir-commit karşılaştırmasıyla uzlaştırıldı; ilgili dosya içerikleri değişmemişti. Birincil pin korunur.
-6. Curator orchestrator, skill usage/policy/lifecycle, ilgili kullanıcı belgesi ve upstream geliştirici rehberleri tam okundu; skill guard yeniden açıldı. Curator testinde 1–440, skill-manager tool'da 1–200 ve 801–EOF seçildi. [03-SKILL-CURATION](notes/03-SKILL-CURATION.md) yeni bulguları, belge/guard farklarını ve açık kanıt sınırını taşır.
-7. Yayın öncesi research HEAD `408ee3ce7b25e873d2537ad44950249aa213cb06` olarak yeniden okundu. e6bc6cd... sonrasındaki iki commit yalnız context köprüsündeydi; bu ek onların üzerine, onları koruyacak biçimde hazırlanmıştır. Hermes ve catalog dışındaki dosyalara değişiklik verilmez.
+1. İlk tur güncel araştırma durumu ve diğer hatların sınırlarını kontrol etti. İlk preflight ref'i `4cb42472e3e8391f91836c5f4518db3fc30b89af`; önceki b62c9d... ile fark yalnız context köprüsünün dört dosyasındaydı. Gstack METHOD/META tam okundu.
+2. Upstream pin/tree sabitlendi. Kök ve apps tree listeleri alındı; recursive bütün repository envanteri henüz yok. README, mimari/bellek/güvenlik belgeleri; background review, guard, provenance, approval ve ilgili iki testin kaynakları okundu. [02-BACKGROUND-LEARNING](notes/02-BACKGROUND-LEARNING.md) bu kısmi mekanizmayı taşır.
+3. Curator turu mevcut paketi e6bc6cd... üzerinden geri kazandı; d8a077... ek kaynak ref'i ilgili aynı blob'larla uzlaştırıldı. Curator, skill usage/policy/lifecycle, kullanıcı/geliştirici rehberleri tam; curator testi 1–440 ve skill mutator'ın iki dış kesiti seçili okundu. [03-SKILL-CURATION](notes/03-SKILL-CURATION.md) korunur. O turun son H22 201–400 isteği 429 ile içerik getirmemişti; bu tarihsel erişim sonucu kalıcı kabiliyet yokluğu değildir.
+4. Ayrı U01B çalışma dilimi S01/H22 skill mutator'ı bütünüyle, batch kaynağını ve testini tam okudu; approval/komut yollarını yeniden açtı. İki exact upstream modülü ve açık dependency stub'larıyla 10 sentetik tanılayıcı durum çalıştırdı. O tur GitHub yazma eylemi sunulmadığını bildirerek sonucu sohbet dosyası/ZIP olarak teslim etti. Araştırma bulgusu vardı; repository yayın halkası açıktı.
+5. Bu kayıt turunda mevcut main `000f691b9a94607c9a8219961b4618eda0f1014f` ve güncel HERMES yüzeyleri okundu. Teslim ZIP'inin 13 manifest girdisi byte/SHA-256 ile kontrol edildi. Yazma eylemleri yeniden keşfedilip kullanıldı; eksik U01B not/kanıtları mevcut curator çalışmasının üzerine, onu koruyarak birleştirildi. Yerel önerinin v0.3 adı mevcut v0.3'ü ezmedi; canonical plan v0.4 oldu. [04-SKILL-WRITE-TRANSACTION-AND-APPROVAL](notes/04-SKILL-WRITE-TRANSACTION-AND-APPROVAL.md), [kanıt](evidence/2026-09-07-u01b/component-probe/README.md), [aktarım](evidence/2026-09-07-u01b/PUBLICATION.md).
 
-Tam/kısmi okuma ve ilk/ek tur ayrımı [SOURCE-LEDGER.md](SOURCE-LEDGER.md)'dedir. Eski kaydın yeniden okunması bütün eski upstream kaynaklarının yeniden okunması anlamına gelmez. Dosya sayısı veya kod satırı araştırma tamamlanma yüzdesi değildir.
+Birikimli okuma defteri [SOURCE-LEDGER.md](SOURCE-LEDGER.md)'dir. Eski kaynak okuması veya deney, aktarım turunda yeniden yapılmış gibi sayılmaz. Dosya/test sayısı araştırma tamamlanma yüzdesi değildir.
+
+## Yeni kanıtın statüsü
+
+U01B'de normal hata/bozuk JSON rollback'i, fırlatılan istisna ve restore hatası farklı sonuç verdi; ortak preview fonksiyonunda batch ve full-rewrite biçimleri farklı karşılandı; pending rename hatasında kimlik dönmesi geri bulunabilir kayıt üretmedi. Bunlar exact iki bileşen + sentetik bağımlılıklar kapsamındadır. Dış caller, tüm UI'ler, gerçek ledger/sync veya üretim hata oranı doğrulanmadı.
+
+Deney kaydı UTC `2026-09-07T09:35:13.772427+00:00`, Python 3.13.5/Linux'tur. Bu aktarım turunda yeniden koşturulmadı. Önceki statik curator/review turları statik kalır; bu ayrı bileşen deneyi onları veya tüm sistemi runtime-verified yapmaz. Hash kontrolü aktarım bütünlüğünü destekler, bağımsız yürütme doğrulaması değildir.
+
+## Sıradaki yetkili iş
+
+**U01'in gerçek caller/dispatch/context zinciri ve U01-C curator bağlantısı.** H22'nin 201–800 aralığı artık birikimli kayıtta eksik değildir: U01B/S01 tam okumaya bağlanır. Aynı bölümü sırf eski STATE öyle diyordu diye ilk kez okuyormuş gibi başlatma; yük taşıyan iddia için gerektiğinde kaynağa geri dön.
+
+İlk somut soru: review/foreground/curator → gerçek tool invoke → exception handling → pending apply sırasında hangi origin/profile/authority bağlamı taşınıyor? U01B'nin bileşen sınırlarını gerçek caller'a bağla; U01-C raporunun batch operations diliyle ilişkisini de burada sına. Ardından memory mutator, trigger/cancellation/store, ledger/backup/restore/sync ve sonraki session/skill/cache-load yollarını tamamla. Kaynak bağımlılığı sıra değiştirmeyi gerektirirse gerekçe plana yazılır.
 
 ## Henüz kurulmamış olan
 
 - Tüm önemli kaynak ailelerinin alt envanteri ve bağımlılık kapanışı.
-- Review tetiklenmesi → gerçek dispatch → mutasyon → onay sonrası replay → sonraki oturumda yeniden kullanım zincirinin bütün ilgili yolları.
-- Curator prompt/guard farklarının actual single-op/batch/apply yollarındaki sonucu; backup/ledger/cron/sync bağımlılıklarının bütünlüğü.
-- Öğrenilmiş veya birleştirilmiş becerilerin gerçekten daha doğru/yararlı olduğuna dair sonuç değerlendirmesi.
-- Gateway, cron, delegation, provider, UI ve kurulum yaşam döngülerinin kaynak temelli sentezi.
+- Review → dispatch → mutation → approval replay → sonraki kullanım zincirinin bütün ilgili yolları.
+- Curator prompt/guard/report farklarının bütün gerçek caller ve etkilerdeki sonucu.
+- Öğrenilmiş veya birleştirilmiş becerilerin gelecek görev kalitesini artırdığına dair yeterli değerlendirme.
+- Gateway, cron, delegation, provider, UI, environment ve kurulum/değerlendirme yaşam döngülerinin sentezi.
 - Native sistem modeli, dört-alan projeksiyonu, SOUL/Development OS değerlendirmesi ve omission/distortion kapanışı.
 
-## Sıradaki yetkili iş
+## Yeni oturum girişi ve durma sınırı
 
-**U01 devamı + U01-C'nin mutasyon bağlantısı.** İlk somut kaynak adımı `tools/skill_manager_tool.py` 201–800 aralığıdır; ardından çağrılan `tools/skill_manager_batch.py`, gerçek dispatch, `apply_skill_pending` ve ilgili testler izlenir. Şemadaki batch `operations` biçimi ile curator raporunun argüman yorumunun ilişkisi ayrıca sınanır.
+Canonical agent bootstrap → research root → studies katalog → bu paketin META/STATE/INDEX → METHOD ve güncel plan → ilgili 02/03/04 notu ve kaynak defteri. Notların iddiaları gerektiğinde pinned kaynaktan yeniden açılır. Diğer çalışma hatlarının yetkisi yalnız kendi STATE dosyalarındadır; burada kopyalanmaz.
 
-Sonra ilk U01'de açık kalan trigger/caller, memory mutator, pending replay, source-origin, cancellation/store, ledger/backup ve sonraki session/skill-load yollarına dönülür. Curator'ın cron referansı ve update/sync etkileri ilgili ailelere bağlanır. Bu sıranın değişmesi gerektiğinde neden kaynakla kaydedilir; diğer büyük aileler U01'in ayrıntıları haline getirilmez.
+Yazma erişiminin önceki turda neden farklı sunulduğu doğrulanmadı; kullanıcı ayarı veya izin hatası varsayılmaz. Sohbet ekleri bir kurtarma teslimiydi, yeni canonical çalışma yeri değildir. Kullanıcının ZIP'i elle taşıması, Codex'te işlem yapması veya kurulum yapması gerekmez. Araştırma için mevcut yetki sürer; yanıtlar arasında otomatik/background çalışma başlatılmaz.
 
-Son H22 201–400 okuması GitHub 429/fail-fast yanıtıyla içerik getirmedi; 201–800 hâlâ okunmamıştır. Bu, kalıcı GitHub erişim yokluğu veya HERMES'in çalışmadığı iddiası değildir; daha sonra research-repo yayın preflight'ı başarıyla yapılmıştır. Yeni oturum kaldığı aralığı biliyor, eksik kaynağı tahmin ederek devam etmiyor.
-
-Her birimde kod + ilgili test + en güçlü karşı yol incelenir. Yeni bir birincil mekanizma görülürse planın aileleri bölünebilir/birleşebilir; sabit başlık sayısı korunmaya çalışılmaz.
-
-## Yeni oturum girişi
-
-Canonical agent bootstrap → `research/INDEX.md` → `research/studies/CATALOG.md` → bu paketin META/STATE/INDEX dosyaları. Sonra METHOD, güncel plan, ilgili mekanizma notu ve kaynak defterindeki ilgili kayıtlar okunur; iddia taşıyan kaynaklar pinned ref'ten geri açılır. Diğer çalışma hatlarının güncel yetkisi yalnız kendi STATE dosyalarındadır, burada kopyalanmaz.
-
-## Doğrulama ve durma sınırı
-
-Kayıtlı araştırma statik kaynak okumasıdır. Upstream yazılım kurulmadı, çalıştırılmadı; test suite veya canlı model görevi yürütülmedi. Test dosyalarının varlığı başarılı test koşusu değildir. Değerlendirme aynı asistanın source review'udur; bağımsız yeniden araştırma değildir. Curation notundaki koşul uyuşmazlığı ve değişiklik baskısı farklı epistemik statülerdedir; canlı hata veya kalite kaybı oranına yükseltilmez.
-
-Bir araştırma birimi kanıt sınırıyla kaydedilmeden daha üst senteze yükseltilmez. Bütün araştırmanın bitiş koşulları METHOD'dadır. Maddi erişim veya yetki çelişkisi çıkarsa etkilenmeyen bulgular korunur ve sorun açık bırakılır. Bu STATE arka planda çalışan bir ajan veya geleceğe zamanlanmış işlem başlatmaz.
+Bir birim açık kanıt sınırlarıyla kaydedilmeden üst senteze yükseltilmez. Erişim/yetki çelişkisinde etkilenen kısım durur, diğer kanıtlar korunur. Çalışmanın bitiş ölçütü METHOD'dadır. Bu yayın Foundation, context/Codex, agent-control veya başka study'leri değiştirmez.

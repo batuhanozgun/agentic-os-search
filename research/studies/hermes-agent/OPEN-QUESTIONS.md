@@ -1,28 +1,29 @@
 # Hermes Agent — Açık sorular
 
-**2026-09-07 / active, plan v0.3.** Sorular keşif ve continuation kaydıdır; doğrulanmış kusur listesi değildir. Kaynak ID'leri [defterdedir](SOURCE-LEDGER.md).
+**2026-09-07 / active, plan v0.4.** Keşif/continuation kaydı; bütün satırlar doğrulanmış üretim kusuru değildir. H-ID'leri [SOURCE-LEDGER](SOURCE-LEDGER.md), S-ID'leri [U01B defteri](evidence/2026-09-07-u01b/SOURCES.md) üzerinden açılır.
 
-| ID | Açık ayrım | Sonraki en yüksek değerli kaynak/karşı sınama |
+| ID | Açık ayrım / mevcut ilerleme | Sonraki kaynak / karşı sınama |
 |---|---|---|
-| Q01 | Review ne zaman tetiklenir; manual refine, otomatik nudge ve farklı API yolları aynı mı? | `run_agent.py` forwarding → `agent/turn_facade.py`/loop ve ilgili çağıranlar; sadece dokümanın 'after turn' anlatımı yeterli değil. |
-| Q02 | Kurulan whitelist bütün ilgili gerçek dispatch yollarında mı uygulanıyor? | `hermes_cli/plugins.py`, actual invoke-tool/worker/context propagation; H09'un mock assertion'ının ötesine geç. |
-| Q03 | Okuma/approve/yazma arasında skill değişince hangi içerik esas alınır? | H05/H07/H08 → H22'nin eksik 201–800 aralığı, apply/locking/matching, ledger ve negatif testler. |
-| Q04 | Pending record disk hatasında döndürülürse gerçek kullanıcı yüzeyi ne söyler; kayıp işlem yeniden bulunabilir mi? | H07 stage failure → callers, status/commands, hata senaryosu. Arıza koşusu yapılmadı. |
-| Q05 | Background origin staging/replay sırasında korunur mu; insan onayı sahiplik kuralını hangi kapsamda değiştirir? | skill/memory mutator, `apply_skill_pending` / `apply_memory_pending`, H06 origin binding ve testler. |
-| Q06 | Paylaşılan memory store ve profile context; cancellation deadline sonrası eski worker yazıları nasıl düzenlenir? | H04/H12 → gerçek store kilitleri, caller context-copy, lifecycle/test yolları. |
-| Q07 | Sonraki oturum güncellemeyi gerçekten hangi yolla kullanır? | prompt-builder, MemoryStore/session load, skill discovery/view, frozen snapshot ve live/tool görünümü. |
-| Q08 | Farklı-model digest önemli tool kanıtını düşürdüğünde dersin doğruluğu nasıl sınanır? | H04 `_digest_history` + varsa eval/trajectory/dataset, farklı görünüm karşılaştırması. Kalite eşdeğerliği varsayılmayacak. |
-| Q09 | Curator birleştirme/rollback hangi semantik bilgiyi korur? | [03-SKILL-CURATION](notes/03-SKILL-CURATION.md) §§6–7: isim/beyan sınıflandırması ve best-effort kayıtlar okundu. H18/H19 → ledger/backup/sync ve actual mutator. `absorbed_into` varlığı yeterli semantik oracle değil. |
-| Q10 | README session-search özetleme iddiası ile bellek rehberi raw-message anlatımı nasıl uzlaştırılır? | Actual session-search implementation/schema/tests ve gerekirse değişiklik tarihi. |
-| Q11 | Terminal sandbox, bütün proses, adapter yetkisi ve session/profile ayrımı hangi kipte geçerli? | H13 → runtime/backend/plugin/gateway/UI kod ve testleri; politika compliance'ı henüz kurulmadı. |
-| Q12 | Bilinen büyük kaynak bölgelerinden hangileri yeni birinci-derece mekanizma getirecek? | apps/web/native/cron/provider/compat/eval alt envanteri. İlk F01–F12 planını gerekirse yeniden ayrıştır. |
-| Q13 | Boş aday kümesinin curator skip koşulu gerçek çağrı/test yolunda neye yol açıyor? | H18'de dönen ve aranan metinler eşleşmiyor; consolidation-on yoluna özel statik gözlem. Mevcut testin kalan bölümü ve uygun kontrollü karşı örnek; varsayılan-off ile karıştırma. |
-| Q14 | Curator prompt'undaki bundled/prune/dry-run talimatı actual guard ve dispatch ile hangi kapsamda uyuşuyor? | H16–H20/H05 → H22 orta bölüm ve batch; otomatik bakım ile LLM mutasyonu ayrı. Bir prompt banner'ını mekanik yazma yasağı diye kapatma. |
-| Q15 | Backup veya report/cron-reference yazımı başarısızsa hangi durumlar ayrışıyor? | H18 `_write_run_report`/`_rewrite_cron_refs`, H19 `_relocate` → gerçek backup/ledger/cron/restart ve hata senaryoları. Kaynak dalı canlı olay değildir. |
-| Q16 | Batch `operations` biçimi ve kesilmiş tool arguments, curator raporunun sınıflandırmasına ne taşıyor? | H22 schema + H18 `_skill_manage_args`/400-char kesiti → batch/tool-session trace ve ledger; normalizasyonun başka yerde yapılıp yapılmadığını doğrula. |
+| Q01 | Review ne zaman tetiklenir; manual refine/nudge/API yolları aynı mı? | run_agent forwarding → turn_facade/loop ve çağıranlar. |
+| Q02 | Whitelist bütün ilgili gerçek dispatch yollarında mı? | plugins, invoke-tool/worker/context; H09 mock assertion'ı yeterli değil. |
+| Q03 | Read/preview/approve/write arasında hedef değişirse ne olur? | H22/S01 tam; S04 preview ile mutator işlemi farklı. Gerçek caller, fuzzy matching, locking ve sürüm bağlama açık. |
+| Q04 | Pending saklama hatasında kullanıcı ne görür? | U01B D05'te kimlik döndü, normal pending kaydı bulunamadı, temp kaldı. Gerçek UI/caller, restart/recovery ve disk dağılımı açık; tüm ürün arızası denmez. |
+| Q05 | Öneren origin, insan onayı ve sonraki ownership nasıl bağlanır? | S01/S04/S05 dar replay yolu okundu; record origin'i payload dışında. UI/caller context ve memory apply açık. |
+| Q06 | Paylaşılan store/cancellation sonrası eski worker yazıları? | H04/H12 → store kilitleri, context-copy ve lifecycle/test. |
+| Q07 | Sonraki oturum değişikliği ne zaman yükler? | prompt-builder, MemoryStore, skill discovery/view/cache; frozen vs live görünüm. |
+| Q08 | Farklı-model digest'in düşürdüğü kanıt ders kalitesini nasıl etkiler? | H04 + varsa eval/trajectory/dataset; eşdeğerlik varsayılmayacak. |
+| Q09 | Curator merge/rollback semantik olarak ne korur? | 03 notu §§6–7; H18/H19 → ledger/backup/sync ve S01/S02 bağlantısı. absorbed_into yeterli oracle değil. |
+| Q10 | README session-search özetleme vs raw-message rehberi? | Actual session-search implementation/schema/test ve gerekirse tarih. |
+| Q11 | Terminal sandbox/whole-process/adapter/session sınırları? | H13 → backend/plugin/gateway/UI; politika compliance'ı açık. |
+| Q12 | Büyük açıklanmamış bölgeler yeni mekanizma getiriyor mu? | apps/web/native/cron/provider/compat/eval envanteri; F01–F12 değişebilir. |
+| Q13 | Boş aday kümesi curator skip koşulu? | H18 metin uyuşmazlığı statik; test kalanı ve kontrollü karşı örnek. Varsayılan-off yoluyla karıştırma. |
+| Q14 | Curator prompt bundled/prune/dry-run ile gerçek guard uyumu? | H16–H20/H05 → S01/S02 gerçek caller ve origin. Banner mekanik yasak değildir. |
+| Q15 | Backup/report/cron-reference hatasında hangi durum kalır? | H18/H19 → gerçek ledger/backup/cron/restart. Kaynak dalı canlı olay değil. |
+| Q16 | Batch operations ve kısa tool arguments curator raporuna ne taşır? | H22/S01 schema + S02 → H18 args/report yorumları ve gerçek trace/ledger. |
+| Q17 | Fırlatılan mutator istisnası gerçek caller'da nasıl ele alınır? | U01B B04 exact batch + sentetik OSError'da ilk değişiklik kaldı, snapshot temizlendi. Gerçek invoke/exception wrapper ve readback açık. |
+| Q18 | Ortak onay önizlemi tüm işlemleri temsil ediyor mu? | D02 batch etiketi, D03 rewrite/no-textual-change bileşen gözlemleri. CLI/gateway/desktop kullanımı, alternatif diff ve kullanıcıya etkisi ayrı incelenecek. |
+| Q19 | Dizin geri alınırken diğer etkiler? | S01 _record_success + S02; gerçek ledger/cache/ownership/sync/timer-profile. Sentetik olay listesi gerçek network veya audit sonucu değil. |
 
-## Yeniden açma ve kapatma
+Q03–Q05 kısmen aydınlandı; bütün caller/ürün kapsamında kapatılmadı. H22'nin eski eksik orta aralığı U01B tam okumasıyla recover edildi; sıradaki görev artık o aralığı ilk kez okumak değil gerçek zincire bağlamak.
 
-Bir sorunun cevaplanması, source/symbol/ref ve kanıt statüsüyle ilgili notta gösterilir; tablo yalnız o nota yönlendirir. Kaynak henüz okunmadığı için açık olan soru, gerçek ürün yetersizliği diye etiketlenmez. Deney gerektiren iddia statik kodla kapanmaz. Bu soruların bir kısmı yeterli kaynak incelemesi sonrası çalışma amacı için kapsam dışı bırakılabilir; gerekçesi kaybolmaz.
-
-U01 ve bağlantılı bakım/gelecek-kullanım eksikleri tamamlanmadan genel 'self-improvement verified' veya 'self-improvement absent' sonucu üretilmez. Q13 bir kaynak koşulu uyuşmazlığı; prompt'taki işlem sayısının kaliteye etkisi ise ayrı hipotezdir; aynı kesinlikte sunulmaz.
+Bir soru kaynağı/ref'i/kanıt statüsüyle notta cevaplanır; tablo rotadır. Kaynak erişimi eksiği ürün yetersizliği sayılmaz. Deney gerektiren genelleme statik kodla kapanmaz. Kapsam dışına çıkarılacak soru varsa gerekçe korunur. U01 ve bağlantılı bakım/gelecek-kullanım tamamlanmadan genel self-improvement verified/absent hükmü yoktur.
