@@ -7,11 +7,13 @@
 
 Turn the existing `soul-development-os` candidate into a practical **Codex development conversation home** so Batu no longer relays routine technical messages between browser ChatGPT and Codex.
 
-This is a bounded transfer of development coordination, not full autonomous operation and not SOUL product implementation.
+This is a bounded transfer of development coordination, not full autonomous operation, not bridge retirement, not B0/general operating acceptance, and not SOUL product implementation.
 
-At completion, Batu should be able to open a **new Codex chat in the same project/repository/branch** and say, in substance, `Development OS'ye devam et.` The Codex coordinator should then recover purpose/state/authority from the repository, select and organize the next appropriate Development OS work within the mandate below, use native helpers when useful, update canonical state, and ask Batu only for decisions that genuinely remain owner decisions.
+At completion, Batu should be able to open a **new Codex chat in the same project/repository/branch** and say, in substance, `Development OS'ye devam et.` The Codex coordinator should then recover purpose/state/authority from the repository, select and organize the next appropriate Development OS work within the standing mandate below, use native helpers when useful, update canonical state, and ask Batu only for decisions that genuinely remain owner decisions.
 
-Browser ChatGPT remains SOUL Research: Foundation/studies, research evidence, periodic challenge/audit, and major direction questions. It is no longer the required author of every normal Development OS prompt.
+The intended change is operational responsibility, not merely messaging capability: after a successful handoff, browser ChatGPT should not need to author or approve each ordinary Development OS task. The bounded coordination mandate should remain recoverable across later Codex chats from repository state until Batu changes or revokes it. A new owner decision is still required whenever the work crosses an owner boundary below.
+
+Browser ChatGPT remains SOUL Research: Foundation/studies, research evidence, periodic challenge/audit, and major direction questions. It is not the required author, verifier, or sequencing hub for every normal Development OS step.
 
 ## Required starting state
 
@@ -47,7 +49,10 @@ The user-facing Codex coordinator should be authorised, for **Development OS wor
 - update Development OS canonical state/work records and make normal commits/pushes on the designated private development branch when those effects are part of the authorised Development OS work;
 - verify material effects/read back resulting repository state before claiming completion;
 - preserve uncertainty, failures, rejected options and handoff state;
+- continue through routine bounded Development OS work without requiring browser ChatGPT re-authorisation after every completed subtask;
 - stop or escalate when an owner decision is actually required.
+
+This mandate permits reversible candidate design/implementation decisions on the private Development OS branch when they are necessary to the current Development OS purpose and do not cross the owner boundaries below. It does not convert candidate work into accepted architecture, B0, product release, or authority expansion.
 
 ### Owner decisions that remain with Batu
 
@@ -85,7 +90,9 @@ Use the existing `bootstrap/coordination-entry` branch. Normal local commits and
 
 ## Validation before declaring handoff ready
 
-Use the existing native Codex delegation path at least once on a **meaningful handoff review**, not a hello-world test. A helper should independently inspect the proposed coordinator entry/mandate against the stated goal and identify scope drift, missing owner boundaries or unnecessary machinery. The coordinator must evaluate the returned critique rather than automatically accept it.
+Use the existing native Codex delegation path at least once on a **meaningful handoff review**, not a hello-world test. A helper should inspect the proposed coordinator entry/mandate against the stated goal and identify scope drift, missing owner boundaries or unnecessary machinery. The coordinator must evaluate the returned critique rather than automatically accept it.
+
+This helper review is a challenge/cross-check, not independent operating acceptance. Shared context, tools, model family or assumptions may remain.
 
 Then perform direct static/source checks on the final repository state and push/readback if available.
 
@@ -96,18 +103,35 @@ The task is successful when all of the following are true:
 1. there is one clear canonical entry route for a new Codex conversation;
 2. that route tells the coordinator what it owns, what Batu still owns, and where research authority lives;
 3. routine Development OS work selection/decomposition/delegation no longer requires browser ChatGPT to author the next prompt;
-4. native helper delegation is usable from the coordinator for focused work/review;
-5. current state and handoff are committed and published on the private candidate branch, with remote readback where available;
-6. old failed/not-run experiments remain historically accurate;
-7. no product implementation, B0/general operating acceptance, new provider, or new orchestration infrastructure is smuggled into the handoff.
+4. the bounded coordination mandate is persistently recoverable across later Codex chats until explicitly changed/revoked;
+5. native helper delegation is usable from the coordinator for focused work/review;
+6. current state and handoff are committed and published on the private candidate branch, with remote readback where available;
+7. old failed/not-run experiments remain historically accurate;
+8. no product implementation, B0/general operating acceptance, new provider, or new orchestration infrastructure is smuggled into the handoff.
 
 If a real platform limitation prevents this exact arrangement, do not start an open-ended workaround project. Preserve the useful repository result, identify the exact limitation, and propose the smallest viable alternative.
+
+## Meaning of READY
+
+A final verdict of **READY** means only:
+
+> the repository and demonstrated native coordination path are sufficient to use Codex as the normal **bounded Development OS conversation/coordination home** under this mandate.
+
+It does **not** mean:
+
+- Development OS is generally validated or accepted as B0;
+- the research-side bridge is fully retired;
+- hostile isolation/self-modification guarantees are proven;
+- unattended continuous autonomy is established;
+- SOUL product implementation or release is authorised.
+
+Use **PARTIAL** if useful handoff state is produced but one material condition for using Codex as the normal bounded conversation home remains unmet. Use **BLOCKED** only if the handoff cannot establish a usable bounded Codex coordination home without crossing prohibited scope.
 
 ## Final delivery
 
 Return a concise Turkish report containing:
 
-- whether the coordination handoff is **READY**, **PARTIAL**, or **BLOCKED**;
+- whether the coordination handoff is **READY**, **PARTIAL**, or **BLOCKED** under the narrow meaning above;
 - the final branch and HEAD;
 - exact changed files and GitHub links;
 - what a new Codex conversation can now do without Batu/browser relay;
