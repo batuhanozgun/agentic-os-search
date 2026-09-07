@@ -10,6 +10,12 @@ The current temporary bridge moves normal SOUL Development OS coordination out o
 
 Keep distinct: prepared brief, user grant, dispatch, producer result, direct evidence, candidate state, B0/general operating acceptance.
 
+## Research-informed construction principle
+
+The user explicitly clarified that SOUL Research is not a deferred knowledge source intended to be used only when SOUL product architecture begins. From the first day of Development OS construction, the coordinator, future Development Actors, control architecture, work/verification/delegation mechanisms and later SOUL design must all be evaluated and shaped in light of the relevant Foundation findings and candidate studies.
+
+This does **not** mean blindly importing research conclusions as architecture or control law. Foundation findings remain research authority and candidate studies remain evidence/pressure-test/mechanism inputs; Development OS remains responsible for deriving and validating its own design/implementation decisions. The operational rule is therefore: when creating or materially changing Development OS actors, controls, workflows, verification, delegation or architecture, relevant research must be selectively retrieved and materially considered rather than postponed to a later SOUL-only phase.
+
 ## Current target state
 
 Private target repository: `batuhanozgun/soul-development-os`  
