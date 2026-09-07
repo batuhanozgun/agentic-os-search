@@ -1,8 +1,8 @@
 # SOUL Context — STATE
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; CURRENT DEVELOPMENT-BOOTSTRAP BRIDGE MAINTENANCE ACTIVE  
-**Son güncelleme:** 2026-09-06  
-**Bridge checkpoint:** D1 RESULT SUMMARY RECEIVED; NATIVE BOUNDARY RESULTS REPORTED / D1 EVIDENCE ZIP PENDING; DIRECTION REVIEW PRESERVED; CANDIDATE BEHAVIOR AND OPERATING ACCEPTANCE STILL UNESTABLISHED
+**Son güncelleme:** 2026-09-07  
+**Bridge checkpoint:** D1 RESULT SUMMARY RECEIVED; EMAIL AND ZIP ATTACHMENT METADATA OBSERVED / ZIP FILE EXTRACTION NOT COMPLETED; DIRECTION REVIEW PRESERVED; CANDIDATE BEHAVIOR AND OPERATING ACCEPTANCE STILL UNESTABLISHED
 
 ## Yetkilendirilmiş amaç
 
@@ -117,7 +117,6 @@ The runtime helper changed once before actual inference to correct skill identit
 | Operating acceptance / B0 / A | Not given / absent |
 
 Actual model launches: 1/8; conservative startup attempts: 2/8; the one technical correction was used. G0's numerical remainder is not permission to restart a stopped task.
-
 The negative read was explicitly requested as a safe synthetic boundary probe. It is not an autonomous model policy violation or a test of the candidate's reasoning discipline. No personal-file read or write-escape experiment is evidenced in the G0 archive.
 
 ## G0 review judgment and causal hypothesis — historical, before D1 receipt
@@ -150,7 +149,7 @@ The archive records child `startup-retry`, PID 76949, `subprocess.wait` exit 0 a
 
 The last research-side GitHub branch-list read, during the G0 archive audit, returned only `main` at `3776384a7789ccf1959b99bba92c8cf1b3131f81`, `protected: false`. No local candidate was published by that review. This is not a full remote audit or independent inspection of all Mac state; D1's current local state is not inferred from it.
 
-## D1 result receipt — user-relayed summary; evidence ZIP not yet received
+## D1 result receipt — user-relayed summary; evidence ZIP not yet available for inspection
 
 Task: **DEVOS-G0-D1-2026-09-06**.
 
@@ -186,7 +185,17 @@ Reported local delivery directory:
 - `REPORT-TR.md`.
 - Codex reported ZIP integrity and 64 manifest entries verified.
 
-**Receipt boundary:** only the pasted summary and local file references have been received. The D1 ZIP bytes, report, manifest, launch commands, effective policies, native outputs and before/after hashes have not been inspected by the research assistant. The earlier G0 ZIP, CHECKS.json and S1/S1A/vision markdown attachments are not this D1 archive. Do not fabricate a sandbox link or claim the 64 entries were independently checked.
+**Receipt boundary:** the pasted summary and local file references were followed by the email retrieval below. No complete, verified D1 ZIP file has been materialised for inspection here. Its report, manifest, launch commands, effective policies, native outputs and before/after hashes have not been audited by the research assistant. The earlier G0 ZIP, CHECKS.json and S1/S1A/vision markdown attachments are not this D1 archive. Do not fabricate a sandbox link or claim the 64 entries were independently checked.
+
+### Email retrieval — 2026-09-07; metadata observed, ZIP extraction incomplete
+
+The user, currently on a phone, explicitly asked to retrieve the evidence from the Gmail message titled `SOUL Development OS — D1 kanıt paketi` in the supplied account.
+
+A connected Gmail search and message read found message `1a07a56ebf8bcecd` with that exact subject and an attachment named `D1-EVIDENCE.zip`. Attachment metadata reports `application/zip`, 104578 bytes, and `read_attachment_supported: false`. The unsupported attachment-reading action was not invoked. Original MIME was also requested through the supported message-read action; the tool returned encoded message text with a truncated displayed attachment payload, not a usable local ZIP file. No complete binary extraction or independent checksum/manifest validation was completed.
+
+The email body declares SHA-256 `4495e9b919ce5b896c7c877f6547e95f582919ed542699c714973dee5935bfa6`. This is a source-stated expected checksum, not a value calculated from a received ZIP. A plugin capability search returned the existing Gmail connection and no demonstrated alternative attachment-download path. No additional service was installed and no email was sent, forwarded or relabelled by this retrieval.
+
+The email and attachment's existence are now directly observed. The actual evidence-review state is unchanged: obtain a usable copy of that existing ZIP before the substantive D1 evidence audit. A direct user upload remains a possible transfer route; neither package regeneration nor another Codex run is required merely because this connector cannot deliver the ZIP as a file.
 
 ### Bounded interpretation pending the archive
 
@@ -198,11 +207,11 @@ Outside-temp source/criterion protection may support a simpler experimental layo
 
 ### Historical context line
 
-**STOP.** No broad predecessor reconstruction without a new authorised question or necessary source recovery.
+**STOP.** No broad predecessor reconstruction without an authorised question or necessary source recovery.
 
 ### Current bootstrap bridge
 
-**Receive `D1-EVIDENCE.zip` from the user and inspect the existing evidence before proposing another Codex task.** No new D2, G0 retry, model launch, repair or acceptance is authorised by the result summary.
+**Obtain a usable copy of the existing `D1-EVIDENCE.zip` and inspect the evidence before proposing another Codex task.** The Gmail message/attachment metadata are available, but binary extraction was not completed. No new D2, G0 retry, model launch, repair or acceptance is authorised by this retrieval or the result summary.
 
 Review the exact native commands/profiles and any rendered/generated OS policy, synthetic paths and baseline access, positive and negative controls, before/after hashes, explicit-deny semantics, bounded run accounting, candidate preservation and process-exit records. Compare what was requested, what was applied and what was observed without turning an unverified report into independent proof.
 
