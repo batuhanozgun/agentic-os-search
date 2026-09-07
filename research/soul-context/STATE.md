@@ -2,96 +2,104 @@
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; DEVELOPMENT-BOOTSTRAP BRIDGE ACTIVE  
 **Son güncelleme:** 2026-09-07  
-**Bridge checkpoint:** CODEX BOUNDED COORDINATION HANDOFF COMPLETED/READY; DEVELOPMENT-SPECIFIC AGENT-CONTROL TASK EXPLICITLY DISPATCHED BY USER; CODEX RESULT PENDING
+**Bridge checkpoint:** PUBLISHED DEVELOPMENT AGENT-CONTROL RESULT OBSERVED; RESEARCH-INFORMED CONSTRUCTION-SYSTEM PLANNING BRIEF PREPARED FOR USER RELAY; NEW PLAN NOT YET RECEIVED
 
 ## Purpose and authority
 
-The current temporary bridge moves normal SOUL Development OS coordination out of browser ChatGPT/Batu micro-relay and into Codex while SOUL Research continues here. Research remains authority for Foundation/studies/evidence; `soul-development-os` is authority for its own current development state.
+The temporary bridge moves normal SOUL Development OS coordination out of browser ChatGPT/Batu micro-relay and into Codex while SOUL Research continues here. Research remains authority for Foundation/studies/evidence; `soul-development-os` is authority for its own current development state.
 
-Keep distinct: prepared brief, user grant, dispatch, producer result, direct evidence, candidate state, B0/general operating acceptance.
+Keep distinct: prepared brief, user adoption/grant, dispatch, producer result, direct repository observation, runtime verification, candidate qualification, and B0/general operating acceptance. A file or successful plan review does not prove that the proposed system has been implemented or works.
 
-## Research-informed construction principle
+The latest user direction is a finite external handoff: one research-side task message -> Codex's internally reviewed complete plan -> one research-side final review/correction or approval adopted and relayed by Batu -> Codex's bounded implementation, internal testing/repair and normal Development OS continuation. Browser ChatGPT then returns to research rather than writing routine development prompts. This is a work-direction and planning instruction, not a declaration that the bridge is already fully retired.
 
-The user explicitly clarified that SOUL Research is not a deferred knowledge source intended to be used only when SOUL product architecture begins. From the first day of Development OS construction, the coordinator, future Development Actors, control architecture, work/verification/delegation mechanisms and later SOUL design must all be evaluated and shaped in light of the relevant Foundation findings and candidate studies.
+## Research-informed construction and distributed reasoning
 
-This does **not** mean blindly importing research conclusions as architecture or control law. Foundation findings remain research authority and candidate studies remain evidence/pressure-test/mechanism inputs; Development OS remains responsible for deriving and validating its own design/implementation decisions. The operational rule is therefore: when creating or materially changing Development OS actors, controls, workflows, verification, delegation or architecture, relevant research must be selectively retrieved and materially considered rather than postponed to a later SOUL-only phase.
+The user explicitly clarified that SOUL Research is not a deferred knowledge source intended to be used only when SOUL product architecture begins. From the first day of Development OS construction, the coordinator, other Development Actors, control architecture, work/verification/delegation mechanisms and later SOUL design must all be evaluated and shaped in light of relevant Foundation findings and candidate studies.
 
-## Current target state
+This does not mean blindly importing research conclusions as architecture or control law. Foundation findings remain research authority and candidate studies remain evidence/pressure-test/mechanism inputs; Development OS remains responsible for deriving and validating its own design/implementation decisions. Relevant research must be selectively retrieved and materially considered, not merely cited after a design is chosen.
+
+The user also requires substantive delegated actors to reason under appropriate protocols: understand the goal, question assumptions, recover relevant sources, challenge a faulty premise, solve their bounded technical work, respect authority and produce evidence. All epistemic work must not remain in one coordinator. This does not grant every actor equal authority or justify cloning every protocol into every role.
+
+Earlier conversational suggestions — a fixed coordinator -> developer -> full Development OS sequence, or shared core plus role-specific protocols — are candidate framings, not accepted architecture. Information, Work, Actors and Environment are research lenses plus cross-ground relationships, not four mandatory folders/services/agents. The new plan must derive and justify its topology.
+
+## Latest directly observed target checkpoint
 
 Private target repository: `batuhanozgun/soul-development-os`  
 Candidate branch: `bootstrap/coordination-entry`  
-Last directly readable handoff HEAD before the dispatched agent-control task: `020d44afae57efa4fad8febfd1fe2a0bce965af8`.
+Directly observed published HEAD on 2026-09-07: `7800f37a563f56d3d712202d6737d19d1ff510eb`  
+Commit message: `Record agent-control validation and writer release`  
+Preceding implementation snapshot recorded in the target work: `720aee89f4aedb73df2434b0d6c902a84026a7d5`.
 
-At that state:
+At the observed HEAD, the research assistant directly read `AGENTS.md`, all eight `devos-agent/protocols/*.md` files, `STATE.md`, `work/COORDINATION-HANDOFF.md` and `work/AGENT-CONTROL.md`.
 
-- bounded Development OS coordination mandate is recorded and persistent across Codex chats until Batu changes/revokes it;
-- `AGENTS.md` contains useful goal/method, source, challenge, authority, work-selection, delegation, verification and continuity discipline;
-- `STATE.md` routes to the standing mandate and current work;
-- normal bounded Development OS work no longer requires browser ChatGPT to author each next prompt;
-- B0/general operating acceptance, full bridge retirement, hostile isolation and unattended autonomy are **not** established.
+Observed control topology:
 
-Do not assume the target remains at this HEAD after the dispatched task. On continuation, inspect the actual private branch and Codex result before making a current-state claim.
+- `AGENTS.md` is the target canonical entry with Development-specific DO-01 through DO-08 routing;
+- protocols cover entry/source, work/decision, effects/authority, verification, continuity/writer, delegation, research reuse and repair;
+- target control/project-work separation, conditional loading, re-gating and owner limits are explicit;
+- the target STATE/work record reports `DEVOS-AGENT-CONTROL-2026-09-07` READY for bounded agent-control use and reports writer release.
 
-## Identified gap — coordinator exists, Development-specific agent-control architecture was missing
+Evidence calibration:
 
-The user correctly challenged the earlier interpretation of READY: the installed coordinator was not yet the functional counterpart of the browser research assistant's agent-control architecture.
+- File contents and the published branch checkpoint are direct GitHub observations.
+- Native reviewer execution, 14 semantic scenario checks, failed F1 and repaired F2 fresh-child behavior are recorded by Codex in `work/AGENT-CONTROL.md`; this research turn did not independently rerun the user's local runtime.
+- F2 concerns one bounded simple entry scenario; 14 semantic routing checks are not 14 executed operating scenarios.
+- Narrow agent-control READY does not establish the complete multi-actor development system, B0/main acceptance, full bridge retirement, hostile isolation, independent-model verification or unattended autonomy.
 
-Research `AGENT.md` uses a small mandatory routing registry plus conditionally loaded protocol files. The Development OS candidate at `020d44af...` embedded many similar principles directly in `AGENTS.md`, but did **not** provide the equivalent capability of:
+This published target evidence supersedes the earlier research-side `CODEX RESULT PENDING` checkpoint for the old agent-control task. No new user-relayed Codex final chat report was needed to observe these repository files. Do not assume the target remains at this HEAD; recover actual local/remote state when the next task starts.
 
-- mandatory full routing classification before substantive work;
-- stable Development-specific route IDs / positive trigger questions;
-- conditional protocol loading rather than preloading all reasoning rules;
-- re-gating when evidence or plans materially change;
-- explicit control-layer vs project-work separation at the router/protocol level.
-
-This gap is not assigned to Batu to discover through product work. The user explicitly rejected being used as the tester for this missing layer and instructed the research assistant to have the Codex agent build it.
-
-Research R01–R09 are **not** target Development OS control law. They are a design exemplar. Development OS needs its own minimal router/protocol set derived from its actual responsibilities, authority/effect boundaries, work selection, implementation/verification, delegation, continuity and research-reuse needs.
-
-## Dispatched implementation — result pending
+## Previous agent-control assignment — historical provenance, do not redispatch
 
 Task: `DEVOS-AGENT-CONTROL-2026-09-07`  
 Brief: `current/briefs/CODEX-DEVOS-AGENT-CONTROL.md`  
 Brief creation commit: `cb401d58f8e16f3b18d70199b128f5e9b2fb2633`  
-Issued research ref used in the actual Codex dispatch: `e54015402d7d91d80d06972cf67525d22a674f09`.
+Issued research ref actually relayed by the user: `e54015402d7d91d80d06972cf67525d22a674f09`  
+Pre-task target handoff baseline: `020d44afae57efa4fad8febfd1fe2a0bce965af8`.
 
-The user reports that the final Codex dispatch message was **sent**. Therefore this task is no longer merely prepared. Do not ask the user to resend it, and do not issue a replacement prompt unless the actual Codex result or repository evidence shows that the dispatched task failed to bind to the intended brief/ref.
+The user explicitly reported that task dispatched. It authorised design/implementation/native challenge/validation/private publication of the missing Development-specific router and protocols. Research R01–R09 were a design exemplar, not target law. The later target work records the bounded result above.
 
-The dispatched brief authorises Codex to **design + implement + internally challenge + validate + commit/push/read back** the Development-specific agent-control layer on the existing private candidate branch. Batu is not asked to perform the validation.
+Do not resend that task or repeat its installation merely because a new construction-system task is now being planned. Do not erase the distinction between the useful coordinator mandate, the completed narrow control-layer task and the broader operating qualification still needed.
 
-Required characteristics include:
+## New prepared task — not yet dispatched or implemented
 
-- one platform-supported canonical entry;
-- a small exhaustive Development-specific routing registry;
-- conditional LOAD/SKIP protocol loading and re-gating;
-- explicit control/project-work separation;
-- authority/self-modification limits;
-- current-state/preflight, work selection, assumptions, goal-method alignment, source fidelity, verification, continuity, delegation, environment/capability, research reuse and causal-repair concerns covered with a minimal justified protocol set;
-- at least one native critical design review;
-- fixed scenario routing checks, path/reference checks and remote readback performed by Codex;
-- no custom launcher/framework, Claude integration, SOUL product implementation, G1-R1 revival, main/B0 promotion or new repository.
+Task: `DEVOS-CONSTRUCTION-PLAN-2026-09-07`  
+Brief: `current/briefs/CODEX-DEVOS-CONSTRUCTION-PLAN.md`  
+Brief creation commit: `2dec8b69918a8d2e285ab38be182fcc01c34418a`  
+Brief content blob: `82ea1dff7c78af3f858b0b5befdabe71316133bd`  
+Research evidence snapshot used to prepare the brief: `408f112a798bfe28549ec4a26bdfa9eef283504d`.
 
-READY for this task means only: **the Development-specific agent-control layer is implemented and internally validated for bounded Development OS use on the private candidate branch**. It does not mean B0, full bridge retirement or SOUL acceptance.
+The user authorised preparing this complete assignment and intends to relay it. This research turn created the brief; it did not send a Codex task, edit target controls, install a system or receive the new plan.
+
+When Batu adopts and relays the brief, its first phase is PLAN ONLY: canonical recovery, selective research, bounded existing-capability probes, native source/critical helpers, a durable plan/review package and minimal target STATE routing. Proposed controls remain inactive. Normal commits/push/readback are limited to the existing private candidate branch and allowed planning files. Actual installation/control mutation requires the later owner-adopted exact review/plan grant.
+
+Expected plan entry:
+
+`soul-development-os:work/DEVOS-CONSTRUCTION-PLAN-2026-09-07/PLAN.md`
+
+The brief requires research-to-decision traceability; four-ground plus relation/control analysis; distributed actor reasoning; native communication/control binding; explicit effect/writer/verification/recovery boundaries; a complete bounded implementation plan; at least two complementary native critical reviews; C01–C18 fixed acceptance/negative-test families; exact publication/readback; and a first useful Development OS pilot/continuation.
+
+The pilot is part of bounded commissioning under an explicit grant, not a job that can run only after its own successful result has already qualified the system. Normal continuation follows qualification. A local setup, a testable working development core and complete SOUL product development remain separate outcomes.
 
 ## Current next responsibility
 
-**Wait for / inspect the result of the already-dispatched `DEVOS-AGENT-CONTROL-2026-09-07` task. Do not dispatch it again.**
+**Provide/use the prepared planning relay; then review the exact returned `DEVOS-CONSTRUCTION-PLAN-2026-09-07` plan once. Do not confuse the previous agent-control READY report with the requested new plan.**
 
-On the next SOUL Research conversation:
+For the next research-side continuation:
 
-1. cold-start from root `AGENT.md` and its triggered protocols;
-2. read `research/soul-context/INDEX.md` → this `STATE.md`;
-3. treat the agent-control task as already dispatched, with result currently unknown unless new evidence is available;
-4. if the user provides the Codex result, evaluate it and directly inspect the pushed `soul-development-os` branch/files through GitHub;
-5. if the result is not yet available, do not invent completion and do not start DESIGN-01/G1-R1 or another replacement setup task;
-6. if Codex reports READY, verify the actual router/protocol topology, target HEAD, control/work separation, validation evidence and preserved limits before telling the user that the functional Codex counterpart is complete.
+1. Cold-start through research `AGENT.md` and all triggered protocols, then `research/soul-context/INDEX.md` -> this STATE -> the new brief.
+2. Recover whether the user has actually relayed the new assignment. Prepared is not sent; do not fabricate dispatch or completion.
+3. When the plan is returned, read its full canonical private-repository package, exact HEAD, supporting decisions/reviews/evidence and proposed grant. Do not approve from the short Codex final summary alone.
+4. Evaluate the plan against the full issued brief and C01–C18, actual environment evidence, research derivation, actor-level reasoning, control/work separation, bounded effect authority, non-circular qualification, recovery and normal continuation.
+5. Return one exact, actionable final adjudication. If corrections are safe and determinate, specify them and the internal validation/closure conditions without planning another browser review round. User adoption/relay supplies implementation authority; the research assistant is not the owner.
+6. If an unresolved critical fact makes approval unsafe, state the exact blocker rather than manufacture approval to satisfy the finite-relay or zero-error demand. In-scope engineering/retest is Codex's responsibility; genuine owner-boundary decisions remain Batu's. Do not turn normal technical repair into renewed browser coordination.
 
-If the target implementation is genuinely READY under the brief's narrow definition, the next normal Development OS conversation can start from the short repository-driven entry instead of another browser-authored control prompt.
+The final implementation must be qualified from actual evidence in Codex, not presumed correct because the plan was approved. The user requests zero error; this is a quality objective, not a guarantee, an evidence source or permission to relax criteria. Finite external review does not prohibit necessary bounded internal research, testing, repair or safe pause.
 
 ## Preserved boundaries
 
 - Batu retains fundamental product-goal, material scope/budget/risk, high-impact/irreversible effect, product/release, main/B0, authority-expansion, provider/private-data, credential/security and paid-infrastructure decisions.
-- Browser ChatGPT remains SOUL Research and periodic challenge/audit, not the normal Development OS sequencing hub.
-- Research `AGENT.md` / `agent/**` govern the research assistant only and are design sources for this task, not target authority.
-- Earlier G0/D1/G1 failures and NOT-RUN states remain historical truth; G1-R1 remains held.
-- DESIGN-01 remains prepared but unsent/held.
+- Normal owner/platform approvals or starting a Codex session are not technical message relay; eliminating routine browser orchestration does not promise automatic 24/7 invocation.
+- Browser ChatGPT remains SOUL Research and optional periodic challenge/audit, not the normal Development OS sequencing or verification hub.
+- Research `AGENT.md` / `agent/**` govern the research assistant only; this turn did not modify them. Research work does not adopt a SOUL or Development OS architecture on behalf of the target.
+- Earlier G0/D1/G1 failures and NOT-RUN states remain historical truth; G1-R1 remains held. DESIGN-01 remains prepared but unsent/held.
+- Foundation research state and incomplete candidate studies are unchanged. Their use as design evidence is not automatic promotion, implementation approval or authority to resume inactive Foundation work.
