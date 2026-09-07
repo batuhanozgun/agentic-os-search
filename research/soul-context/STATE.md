@@ -2,7 +2,7 @@
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; CURRENT DEVELOPMENT-BOOTSTRAP BRIDGE MAINTENANCE ACTIVE  
 **Son güncelleme:** 2026-09-07  
-**Bridge checkpoint:** CODEX/CLAUDE COLLABORATION OPTIONS REVIEWED FOR REDUCING HUMAN RELAY; ROLE TRANSFER AND NATIVE CAPABILITIES DISTINGUISHED FROM LIVE SETUP; G1-R1 STILL NOT SENT / ON HOLD; NO NEW ACTOR, CONTROL OR OPERATING ACCEPTANCE
+**Bridge checkpoint:** USER ACCEPTED COORDINATION-TRANSFER DIRECTION AND REQUESTED PLANNING; STAGED PLAN AND COORD-01 BRIEF PREPARED / NOT DISPATCHED; G1-R1 REMAINS ON HOLD; NO NEW NATIVE ACTOR OR OPERATING ACCEPTANCE
 
 ## Purpose and authority
 
@@ -10,158 +10,153 @@ Original context objective is complete: reconstruct why SOUL Research exists fro
 
 The user additionally authorised temporary cross-project continuity and bootstrap guidance: preserve SOUL Research → Development OS → Production; prepare and review bounded Codex work until Development OS sustains work across sessions without permanent hidden human orchestration.
 
-This STATE is the **single current checkpoint/next-responsibility authority for the research-side bridge**, not product architecture, unpublished live Mac state or Development OS operating acceptance. A proposed brief, user dispatch, returned report, directly examined evidence, qualified property and accepted operation are different. Writing a next-task proposal does not grant it.
+This STATE is the **single current checkpoint/next-responsibility authority for the research-side bridge**, not product architecture, unpublished live Mac state or Development OS operating acceptance. A proposed plan, explicit task grant/dispatch, returned report, examined evidence, qualified property and accepted operation are distinct. Recording this plan does not grant execution.
 
-## Entry routes
+## Current entry routes
 
 - Purpose/topology/roles/stage conditions: `current/DEVELOPMENT-OS-BOOTSTRAP.md`.
+- **New process plan:** `current/COORDINATION-TRANSFER-PLAN.md`.
+- **Prepared first execution candidate:** `current/briefs/CODEX-COORD-01-NATIVE-HANDOFF.md`.
 - Restored opening vision: `current/reviews/2026-09-06-direction/OPENING-VISION-SOURCE.md`.
 - Scope/goal alignment: `current/reviews/2026-09-06-direction/REVIEW.md`.
-- Method and research-reuse review: `current/reviews/2026-09-07-method/REVIEW.md`.
-- **Latest collaboration/role-transfer feasibility assessment:** `current/reviews/2026-09-07-collaboration/REVIEW.md`.
+- Method/research reuse: `current/reviews/2026-09-07-method/REVIEW.md`.
+- Collaboration feasibility and source routes: `current/reviews/2026-09-07-collaboration/REVIEW.md`.
 - S1/S1A source responses/reviews: `current/reviews/2026-09-06-stage-1/` and `2026-09-06-stage-1a/`.
-- G0 evidence/review: `current/reviews/2026-09-06-g0/`.
-- D1 evidence/review: `current/reviews/2026-09-07-d1/`.
-- Issued G1: `current/briefs/CODEX-G1-PURPOSE-PILOT.md`.
-- Received G1 evidence/audit: `current/reviews/2026-09-07-g1/EVIDENCE-EXTRACTS.md` and `REVIEW.md`.
+- G0, D1 and G1 evidence selections/audits: `current/reviews/2026-09-06-g0/`, `2026-09-07-d1/`, `2026-09-07-g1/`.
 - Separate synthetic parser test: `current/reviews/2026-09-07-g1/PARSER-REGRESSION.py`; not a deployed launcher or active control.
-- **Undispatched continuation candidate, currently on recommendation hold:** `current/briefs/CODEX-G1-R1-LAUNCHER-CONTINUATION.md`.
+- Held continuation: `current/briefs/CODEX-G1-R1-LAUNCHER-CONTINUATION.md`.
 
-Detailed observations remain in source/review records. Prior detailed STATE versions stay in Git history: `da702138d162f8671943dc7f53cb89880208d3a5` for the superseded email-transfer checkpoint, `4580f72421f7be5e081eb8770c40e4dd82ca8342` for D1/G1 proposal, `af3e5075eb4c2019f3c7195e030961f628a0b4df` for G1 audit/R1 proposal, and `8f1ff5b26503875b5c037d35c99b13253bcad721` for the method-discussion checkpoint. No repeat email retrieval or file request is needed for D1 or G1.
+Detailed observations stay in these source/review records. Prior STATE versions remain in Git history: `da702138d162f8671943dc7f53cb89880208d3a5` (email-transfer checkpoint), `4580f72421f7be5e081eb8770c40e4dd82ca8342` (D1/G1 proposal), `af3e5075eb4c2019f3c7195e030961f628a0b4df` (G1 audit/R1 proposal), `8f1ff5b26503875b5c037d35c99b13253bcad721` (method review), and `0a2cdfe1df6e1d22895cef62117d4653ef87df98` (collaboration discussion). Compression here does not delete unfinished scope or change earlier grants. D1/G1 files were received; do not request duplicate email retrieval or upload.
 
-## Direction checkpoint — purpose must survive the last blocker
+## Direction checkpoint — preserve the product, change the means deliberately
 
-The user restored the first SOUL vision and raised concern that setup complexity and context pressure could again erode scope. The continuing product direction is **outcome → task-specific working-system formation, operation, evidence-based reality checking and governed adaptation**, without requiring the user to pre-design every team/workflow/information mechanism.
+The continuing SOUL product direction is **outcome → task-specific working-system formation, operation, evidence-based reality checking and governed adaptation**, without the user pre-designing every team/workflow/information mechanism.
 
-Development OS is the means of developing that product. G0/D1/G1 are smaller work within that means. Three documents, an isolation profile or a fixed launcher are not SOUL itself. No accepted decision reduces SOUL to a coding assistant or fixed workflow.
+Development OS develops that product. G0/D1/G1 and the new coordination pilot are smaller work within that means. Three documents, a sandbox profile, a fixed launcher or communicating agents are not SOUL itself. No accepted decision reduces SOUL to a coding assistant or fixed workflow.
 
 The opening source is an earlier assistant synthesis selected by the user for comparison; its architectural names are not automatically accepted. Blob `f8d4aa7c5fb6b09dc3e49ba5f336bb30bc5c4825`; SHA-256 `124a66f5829169d2d3fd8ee3ba88e27a6c3276d3c1016f2af3d275c328a55b27`.
 
-The direction review found a real **purpose-recovery risk**: C1 foregrounds bootstrap/devir while the full product direction is indirectly linked. This is not a proven model failure or proof that context saturation alone caused historical problems. Preserve deferred capabilities: goal understanding, suitable system formation, epistemic state, useful bounded execution, reality verification, capability acquisition, recovery/evolution and reduced hidden human coordination. Deferred does not mean removed or authorised for immediate implementation.
+The direction review found a purpose-recovery risk: C1 foregrounds bootstrap/devir while the wider product direction is indirectly linked. This is not a proven model failure or proof that context saturation alone caused historical problems. Deferred capabilities remain: goal understanding, suitable system formation, epistemic state, useful execution, reality verification, capability acquisition, recovery/evolution and reduced hidden human coordination. Deferred does not mean removed or authorised for immediate implementation.
 
-G1's intended purpose/STATE improvement and meaningful two-session pilot have **not happened yet**. Its coordinator note preserves the distinction but is not pilot evidence. No local bug fix can substitute for the intended useful work.
+G1's purpose/STATE improvement and two-session pilot have not happened. Its coordinator note is not pilot evidence. A local bug fix cannot substitute for useful work; likewise, a successful native delegation will not by itself establish all deferred capabilities.
 
-## Latest discussion — move routine coordination, not assumed chat identity
+## Latest user direction and planning result
 
-The user proposed placing an equivalent research-informed adviser/coordination role in Codex so agents can exchange work without manual ChatGPT↔Batu↔Codex copying. They also reported Claude Code installed on the Mac and proposed involving it, with adapted reasoning protocols and focused specialists when needed. This is a feasibility/method question, not an implementation or cross-provider data-sharing grant.
+After the method/collaboration discussions, the assistant proposed native development-side coordination before returning to custom-launcher repair: one coordinator, on-demand helper, a meaningful bounded source/devir task, then staged persistence and fresh-session use. The user replied: **“Anlaştık. Planla o zaman süreci, ona göre aksiyon alalım.”**
 
-Review: `current/reviews/2026-09-07-collaboration/REVIEW.md`.
+This accepts the direction and authorises process planning/preparation. It does not show that a new task was sent to Codex, that an agent ran, that a permanent contract was accepted, or that private material was shared with Claude.
 
-Current official documents describe Codex native subagents, `codex exec`, Codex MCP/App Server, Claude `-p`, custom subagents, experimental teams and Claude-to-Claude cross-session messaging. Claude cross-session messaging has a documented version/provider/configuration boundary; it is not automatically Codex-to-Claude messaging. Supported interfaces allow a caller to launch bounded work, receive output and resume appropriate sessions, but this was not exercised on the Mac in this turn.
+Prepared plan: **DEVOS-COORDINATION-TRANSFER-2026-09-07**, `current/COORDINATION-TRANSFER-PLAN.md`, initial commit `e58082daf990389d63d8551e222e236b48cb44aa`.
 
-Transferring explicit purpose, source routes, work state and adapted discipline is possible as a new-role bootstrap. It does not automatically migrate this ChatGPT session, its complete context, tools, hidden instructions or measured performance. The claimed exact 1M active browser context is unverified and is not a design dependency.
+Prepared first task: **DEVOS-COORD-01-2026-09-07**, `current/briefs/CODEX-COORD-01-NATIVE-HANDOFF.md`, initial commit `5e8bede689cd9b3d1d3c112b35cfed6342ad40c1`.
 
-Proposed minimum to compare: one development coordinator with on-demand bounded producer/reviewer participation; Claude can provide a separate-model view, not proof by agreement. Two permanent Codex agents plus Claude are not a prerequisite. Native delegation should be evaluated before another custom orchestration layer. Browser research can continue separately through durable research outputs rather than being a mandatory turn-by-turn relay.
+**Status: READY FOR EXPLICIT EXECUTION ADOPTION; NOT DISPATCHED OR RUN.** The actual execution grant will be the user's message adopting the pinned brief, not this planning entry.
 
-Constraints to preserve: single writer per conflicting scope, precise source/target/work handoff, bounded time/turns, visible disagreement and failure, human purpose/scope/budget authority, proportional verification, and no silent transfer of credentials or private project data to a new provider. Removing manual copying is distinct from indefinite unattended work after the controlling process or Mac stops.
+### Planned sequence
 
-Still unmeasured: Claude version/login/plan, actual invocation/return and permission scope, current native delegation on the installed Codex client, source access for new actors, runtime resource cost and any cross-provider execution. No role instructions were changed, no agent or team was launched, and no tool/service was installed. Plugin discovery did not establish a live browser-to-Mac agent-control connection. Research AGENT/agent/** was not imported into a target actor.
+1. A temporary coordinator work contract and exact source routes are included in the first brief; no blind import of Research R01–R09 and no target config change.
+2. In a fresh Codex chat within the already bound project, perform COORD-01 using an existing native helper if available. The real task assesses C1's purpose/scope representation against sources. One coordinator, at most one helper, direct return and reasoned integration; only new separate result/evidence files. No C1/AGENTS/Git/old-evidence mutation.
+3. After result review and separate authority, persist only needed development entry/work changes and test use from a genuinely new main session. Native helper success is not that cold-start test and does not certify automatic AGENTS loading.
+4. Gradually make `soul-development-os` the accessible current-state authority and return routine technical coordination there. Any remote publication/branch/PR or wider operating scope must be explicitly granted and read back. Browser research remains evidence/direction input, not a mandatory turn-by-turn relay.
 
-## Previous method discussion — retained before another repair
+Claude is a later optional separate-model reviewer, not a prerequisite or silent fallback. Existing gstack mechanisms remain comparison candidates; no installation selected. G1-R1 stays held unless a separately justified later task needs it. The plan is not a schedule guarantee or a mandate to complete all phases in one run.
 
-The user explicitly stated that the G1-R1 message **has not been sent**, and requested discussion before continuing. They proposed several hypotheses: relevant Foundation research may not be ready; current work may be too ad hoc; repository/gstack research may be underused; or their own lack of technical knowledge/anxiety may be causing unnecessary interruption.
+### Scope/assurance distinction that must survive
 
-Method review: `current/reviews/2026-09-07-method/REVIEW.md`.
+COORD-01 is a cooperative, source-based task/delegation observation under existing platform protections. It does not evaluate hostile candidate control mutation, prove all-path file isolation, or grant operating acceptance. This is an explicit new smaller claim, **not a retrospective waiver or PASS for G1**.
 
-Bounded judgment:
+A role called read-only is not a technical boundary. Native children may inherit parent permissions, tools and context. Actual relevant conditions must be observed; known bypass or material safety/scope conflict stops the affected delegation. No hidden config scanning, custom MCP-disabling helper, permission expansion or personal-file sentinel probes are part of this new task.
 
-- The concern about method selection and setup dominating the purpose is substantive. No evidence establishes that the user's concern is merely technical misunderstanding, anxiety or excessive distrust.
-- Current Foundation already contains relevant accepted grounds, Binding, Standing and Control. It does not provide a finished Development OS engineering design. Pending Feedback/Adaptation is not shown to be a prerequisite for fixing the current configuration parser.
-- Earlier S1 research-use records include Context/Memory/Harness and Foundation Standing/Control; Codex's preserved S1 response also reports selected gstack coordination use. 'No repository use' or 'gstack never read' is too broad.
-- The stronger gap is insufficiently explicit **principle → project-specific risk/requirement → alternative mechanism → minimum sufficient verification** reasoning for this exact combined launcher/isolation-first path. Reading a relevant study and correctly diagnosing a local defect do not prove that path necessary or optimal.
-- That review selectively recovered gstack coordination/host/revalidation research and current upstream `0530392821c277b95e5cd65aa9d9fda4248718b2` probe/host/test sources. They supply concrete alternatives and limits, not a demonstrated drop-in SOUL or MCP-parser replacement. This was not a whole-study repin/current-head audit or a new installed dependency.
-- Earlier 'one correction' budgeting already unnecessarily bundled routine deterministic helper repair with material authority changes. The question one level above remains: which combined assurance requirements must actually block the first meaningful work?
+Success is useful source work plus actual direct task/result/integration, truthful limits and a usable handoff. If native capability is absent, preserve the authorised single-actor result as partial; do not invent native success or silently build a different launcher. One final owner-to-research transfer may still be needed; the first pilot removes internal actor relay for that task, not all human participation or 24/7 launch needs.
 
-**Immediate recommendation remains:** do not automatically send G1-R1 from its READY header. Discuss and justify the minimum initial operating scope and proportional assurance, now including native delegation and bounded Codex/Claude coordination as alternatives. This is not a decision to abandon bootstrap, wait for all Foundation, install gstack or weaken an accepted safety condition. No substitute execution task is active.
+The plan gives a finite initial envelope: one helper session and at most two clarification returns, a short capability check and a 45-minute target wall-clock boundary. These are design/budget choices, not research-derived optimal constants or mechanically guaranteed native timeouts. Exact effects/stops live in the brief.
 
-The assistant's previous immediate-send recommendation is held pending this method discussion. R1 remains an unchanged candidate proposal, not an authorised task. Product architecture and new Foundation work remain separate; current Foundation status is recovered from its own STATE rather than mirrored here.
+## Earlier method and collaboration findings — still applicable
+
+The user explicitly has not sent G1-R1. Their concern about setup dominating the purpose has substantive support; it is not established to be mere technical misunderstanding/anxiety. Relevant Foundation and studies were used, but reading them and diagnosing a local defect did not prove the combined isolation-first path minimum or necessary.
+
+The method review records a missing explicit chain: principle → project-specific risk/requirement → credible mechanism alternatives → proportionate verification. The earlier one-correction limit also bundled harmless helper edits with authority changes and returned routine technical work to the user. These are bounded design critiques, not a proven single root cause of all prior KEEL/SOUL failures.
+
+Collaboration review distinguishes role transfer from migrating this ChatGPT session, tools, context or performance. The exact active 1M browser context was unverified. The user reported Claude Code installed; version/login/plan/invocation/permission scope remain unmeasured.
+
+This planning turn rechecked official OpenAI native Subagents documentation and Claude headless documentation. Documented support is not a local observation. Native availability/permission inheritance inform the first method; Claude's programmatic use has plan/credit/auth boundaries and is not assumed free, unlimited or identical to interactive use. No live browser-to-Mac actor-control channel was established.
+
+The selective gstack source comparison remains the previous review at upstream `0530392821c277b95e5cd65aa9d9fda4248718b2`; this plan does not repin the study, adopt its wrappers or claim complete current-upstream validation. Foundation current authority stays in its own STATE.
 
 ## Setup and design history — do not restart
 
-Initial desktop preflight reported `gpt-6-astra / ultra`, web/GitHub reads, shell-dependent tools and a terminal DNS failure, but ran in a non-Git directory. These were user-relayed observations, not independently executed by this assistant.
+Initial desktop preflight reported web/GitHub reads and `gpt-6-astra / ultra` but ran in a non-Git directory. The user then cloned and supplied a successful binding check:
 
-The user then cloned and verified:
+- `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo`;
+- origin `https://github.com/batuhanozgun/soul-development-os.git`;
+- initial main `3776384a7789ccf1959b99bba92c8cf1b3131f81`, only `.gitkeep`;
+- clean tree and correct binding.
 
-- Git root/default directory: `/Users/Batu/Documents/Codex/SOUL-Development-OS-Repo`;
-- origin: `https://github.com/batuhanozgun/soul-development-os.git`;
-- initial main: `3776384a7789ccf1959b99bba92c8cf1b3131f81`, only `.gitkeep`;
-- clean working tree and correct binding.
+Research-side remote readback matched. The user attributed `.gitkeep` to a cancelled Cloud attempt; exact Cloud logs were not audited. Cloud settings do not configure desktop/CLI. No re-clone, reset or general capability inventory is required without relevant change.
 
-Remote readback matched. The user attributed `.gitkeep` to an earlier cancelled Cloud attempt, not desktop preflight; Cloud logs were not inspected. Cloud settings do not automatically apply to desktop/CLI. Do not re-clone or redo a complete capability inventory without material change.
+S1 proposed AGENTS/STATE/work; S1A supplied candidate texts, initial authority/review paths and T1–T4. These were guided tasks, not unguided model baselines. Research controls were not imported.
 
-S1 proposed AGENTS/STATE/work surfaces; S1A supplied full texts, authority/review paths and T1–T4. They were guided tasks, not unguided baselines. Research R01–R09 was not imported.
-
-| Task | Issued ref | Preserved response blob |
+| Task | Issued ref | Preserved source response blob |
 |---|---|---|
 | S1 | `bfe58e7bde8ec9ef58e46fab5c04a7720e207407` | `4f64d7a5178ad639c2052a0f144653971b947295` |
 | S1A | `45a807ed3fe934c5aba19a840c953a3dee30669b` | `7486c3c1034eec067186d1fdc3e5c2cadc61d52a` |
 
-## G0 checkpoint — preserved, not accepted
+## Protected experiment checkpoints
 
-Task `DEVOS-BOOTSTRAP-G0-2026-09-06`, relay ref `76ac566d994ddcadf8d26edc65cc2f77fb530602`, brief blob `ffe265bce5248ef3dbb3383369678be0f6cfb322`.
+### G0
 
-Local branch `bootstrap/starter-contract-g0`; C0 `ccd12326a06d2d3323126fde32c616b774ec7675`; C1 `66e97050dd141f688fa4da8b26ac3823b020af37`; independently recomputed C1 tree `37b60cde322a54012a023b521a2c214028e61e9e`.
+Task `DEVOS-BOOTSTRAP-G0-2026-09-06`, relay `76ac566d994ddcadf8d26edc65cc2f77fb530602`, brief blob `ffe265bce5248ef3dbb3383369678be0f6cfb322`.
 
-Archive: 187871 bytes, SHA-256 `79848c0ad7a9247f8c8bad350ac03c7d7bb66d81a7163d6abda2a2cecf07ff07`; 90 entries/89 manifest hashes checked. Candidate/diffs matched the authorised recovery amendment. Raw commit objects were absent; commit hashes themselves were not reconstructed.
+Local branch `bootstrap/starter-contract-g0`; recorded C0 `ccd12326a06d2d3323126fde32c616b774ec7675`; C1 `66e97050dd141f688fa4da8b26ac3823b020af37`; independently recomputed tree `37b60cde322a54012a023b521a2c214028e61e9e`.
 
-One actual child read an expected-denied synthetic temp file. This was an authorised negative probe, not autonomous disobedience. G0 used 1 actual/2 conservative startup attempts and its single correction. T1–T4 and R(C1) were not run; no B0/A/operating acceptance. The work record contains release/devir and process exit. The old long context-pressure reminder is superseded. Assisted coordinator handoff is not passed T1.
+Received G0 ZIP: 187871 bytes; SHA-256 `79848c0ad7a9247f8c8bad350ac03c7d7bb66d81a7163d6abda2a2cecf07ff07`; 90 files/89 manifest hashes checked. Candidate/diff consistency supported the authorised recovery amendment; raw commit hashes were not reconstructed from absent raw commit objects.
 
-Original directory: `/Users/Batu/Documents/Codex/SOUL-Development-OS-Run-Evidence/G0-20260906T184203Z-hw893ewz/`.
+One real child read an expected-denied synthetic temp file during an authorised negative probe. One actual/two conservative startup attempts; correction used. T1–T4 and R(C1) not run; no B0/A/acceptance. Devir and child exit were recorded. The old long context-pressure reminder is superseded; assisted handoff is not passed T1.
 
-## D1 checkpoint — diagnosis complete, failed profile preserved
+Mac directory: `SOUL-Development-OS-Run-Evidence/G0-20260906T184203Z-hw893ewz/` under `/Users/Batu/Documents/Codex/`.
 
-Task `DEVOS-G0-D1-2026-09-06`, relay ref `7be2567f10490e70781105541b35817f96488fa2`, brief blob `cefef3a72b46809faebdc46b6e43f6d50dfe027a`.
+### D1
 
-Uploaded ZIP: 104578 bytes, SHA-256 `4495e9b919ce5b896c7c877f6547e95f582919ed542699c714973dee5935bfa6`; 65 files/64 checked manifest entries. Direct upload superseded the earlier email-transfer blocker.
+Task `DEVOS-G0-D1-2026-09-06`, relay `7be2567f10490e70781105541b35817f96488fa2`, brief blob `cefef3a72b46809faebdc46b6e43f6d50dfe027a`.
 
-Nine native commands plus one earlier failed dispatch consumed 10/10 conservatively; no child model. Temp unlisted read/read-only write succeeded; non-temp controls blocked corresponding operations; exact/special temp deny still failed. C1/G0 preservation records and archive cross-checks were consistent. Source review separated Process temp grants, exact-root exclusions and glob-deny generation; exact local build provenance was not proved. D1 did not qualify its failed profile. G1's later glob results do not rewrite D1's failures.
+Received ZIP: 104578 bytes; SHA-256 `4495e9b919ce5b896c7c877f6547e95f582919ed542699c714973dee5935bfa6`; 65 files/64 manifest entries checked. Direct upload superseded the email transfer blocker.
 
-Original directory: `/Users/Batu/Documents/Codex/SOUL-Development-OS-Run-Evidence/G0-D1-20260906T200915Z-hcg4769w/`.
+Nine native commands plus an earlier failed dispatch consumed 10/10 conservatively; no child model. Temp unlisted read/readonly write succeeded; corresponding non-temp operations were blocked; exact/special temp deny failed. C1/G0 preservation records and archive cross-checks matched. Source review explained Process temp grants vs exact/glob rules without proving exact binary build provenance. D1's failed profile was not accepted.
 
-## G1 — response and evidence review complete, actual pilot not run
+Mac directory: `SOUL-Development-OS-Run-Evidence/G0-D1-20260906T200915Z-hcg4769w/`.
 
-Task **DEVOS-G1-PURPOSE-PILOT-2026-09-07**; brief `current/briefs/CODEX-G1-PURPOSE-PILOT.md`, issued ref `4580f72421f7be5e081eb8770c40e4dd82ca8342`, blob `b6e235b5a4cb0c54624ac10d86dc137da652cda4`.
+### G1
 
-User supplied the result and four usable attachments. Archive **123604 bytes**, SHA-256 **`b448be458f6a78e0268240a0b4f648a76359bef2f884cfc6d2c71731225db1c9`**; attachment `file_000000009ee481f483838b702a93e31c`. All 73 manifest entries in the 74-file archive matched; separate report/purpose files and checksum matched.
+Task `DEVOS-G1-PURPOSE-PILOT-2026-09-07`, relay `4580f72421f7be5e081eb8770c40e4dd82ca8342`, brief blob `b6e235b5a4cb0c54624ac10d86dc137da652cda4`.
 
-Original directory: `/Users/Batu/Documents/Codex/SOUL-Development-OS-Run-Evidence/G1-20260907T060548Z-_yuopdg0/`.
+Four usable attachments received. ZIP 123604 bytes; SHA-256 `b448be458f6a78e0268240a0b4f648a76359bef2f884cfc6d2c71731225db1c9`; attachment `file_000000009ee481f483838b702a93e31c`; 74 files/73 manifest entries checked. Separate report/purpose/checksum matched.
 
-Evidence findings:
+Mac directory: `SOUL-Development-OS-Run-Evidence/G1-20260907T060548Z-_yuopdg0/`.
 
-- Eleven selected native controls match plan/intent/profile/argv/result and fixture hash chains: three positive/eight negative. Required reads and writer-only output succeed; denied reads, protected writes and protected-directory rename are blocked in those cases.
-- Two profiles use temp glob denies and separate non-temp inputs/output; this is evidence for tested native paths, not every agent/tool effect.
-- Binary record: `codex-cli 0.153.4`, SHA-256 `42662bbc0522f0002eedc1e43dcda25d328176dda397d0428c0d33e26bff15ec`.
-- Two model-free renders fail on custom MCP overrides: first quoted-path transport error, then regex misclassifies `node_repl.env` as a server and emits `mcp_servers.node_repl.env.enabled=false`.
-- The single quotation correction was used; filesystem profiles did not change. Native starts **11/12**; actual models **0/8**. Model/effort was specified, not exercised.
-- **P0/P1, the G1 branch, T1–T4 and R(P1) do not exist as produced/run results.** The coordinator purpose note is not a fresh-session pilot.
-- Before/after hashes preserve four C1 files, 93 G0 and 68 D1 files and sets; earlier archives cross-match. Native exits/narrow PID checks and two render exit-1 records exist; render PIDs are absent.
+Eleven native controls (3 positive/8 negative) matched plan/argv/profile/result and fixture hash chains; two glob-deny profiles supported the tested native cases, not all agent/tool effects. Binary recorded `codex-cli 0.153.4`, SHA-256 `42662bbc0522f0002eedc1e43dcda25d328176dda397d0428c0d33e26bff15ec`.
 
-Full dynamic MCP/skill argv were omitted; a digest cannot reconstruct them. These checks do not authenticate every originating event, inspect the live Mac or prove every side effect absent. No bundled script was executed by this assistant.
+Two model-free renders failed on custom MCP overrides: quoted transport key, then nested `node_repl.env` misclassified as a server. Single quotation correction used; filesystem profiles unchanged. Native starts 11/12; actual models 0/8. **P0/P1, G1 candidate branch, T1–T4 and R(P1) were not created/run.** Coordinator purpose note is not fresh-session pilot evidence.
 
-A separate research-authored in-memory regression reproduced the regex defect and tested structured TOML direct-child selection: 14 tests passed. No actual config, credentials, network, subprocess or project was used. This is not installed-Codex or agent-isolation validation. Source/code and review limits remain in `current/reviews/2026-09-07-g1/`.
+Before/after hashes preserved four C1 files, 93 G0 and 68 D1 files; prior archives cross-matched. Native exits/narrow PID checks and render exit-1 records exist; render PIDs and full dynamic MCP/skill argv are absent. A digest cannot reconstruct omitted arguments. The research assistant did not run bundled scripts, inspect the live Mac or establish every side effect absent.
 
-## G1-R1 proposal — retained but NOT dispatched
+A separate research-authored synthetic TOML regression reproduced the parser defect; 14 local tests passed without actual config/credentials/network/subprocess. It is not installed-Codex or agent-isolation validation.
 
-- ID: **DEVOS-G1-R1-2026-09-07**.
-- Brief: `current/briefs/CODEX-G1-R1-LAUNCHER-CONTINUATION.md`.
-- Initial brief commit: `0a0d61b3387a30ebfc836e56814def21eeb957cb`.
-- Relay reference previously proposed: `af3e5075eb4c2019f3c7195e030961f628a0b4df`.
-- **Current disposition: USER CONFIRMED NOT SENT; IMMEDIATE SEND RECOMMENDATION ON HOLD FOR METHOD DISCUSSION.** The brief's creation-time READY header is not present authority.
+### G1-R1 — held, not dispatched
 
-The retained proposal would, if later explicitly adopted, allow a new G1-R1 helper/evidence area, up to 30 minutes model-free repair, four renders and twelve necessary native delta checks. G1+R1 actual model starts would remain cumulatively at eight maximum, one at a time, twenty minutes each, with one real synthetic preflight. Only required gates passing would enable the original limited G1 candidate/pilot work. None of that new allowance has been granted or exercised.
+ID `DEVOS-G1-R1-2026-09-07`; initial brief commit `0a0d61b3387a30ebfc836e56814def21eeb957cb`; formerly proposed relay ref `af3e5075eb4c2019f3c7195e030961f628a0b4df`.
 
-Old C1/G0/D1/G1 evidence/main and AGENTS remain protected. No remote write/email, product work, global config/permission changes, installation, new credentials/paid service or operating acceptance follows from these method discussions. Failed/blocked records and spent budgets remain unchanged. No substitute task is active.
+User confirmed not sent. Its creation-time READY header is not current authority. The proposal's additional offline repair/render/native allowance and conditional G1 continuation were never granted or exercised. New native-coordination planning does not authorise that repair or reset any old budget. All frozen C1/G0/D1/G1 records and main remain protected.
 
 ## Current next responsibility
 
-Continue the user's method/coordination discussion. Select at the appropriate scope/value boundary the minimum useful initial work and proportional assurance. Compare native Codex delegation and a bounded Codex↔Claude role arrangement with the held custom-launcher path; do not require the user to debug the launcher or pre-design a large agent team. Documented feasibility is not local capability or permission to act.
+Present the staged plan and its prepared first task. Execution begins only when the user adopts the specific COORD-01 brief in Codex; no background monitoring or automatic dispatch is implied. Then review actual native delegation/useful output/hand-off and relevant scope limits, not just agent names or self-reported success.
 
-Do not auto-send G1-R1, retry G1, install gstack, enable teams, transfer this chat or agent-control, reopen Foundation, share private sources with Claude, or select/build a framework from this discussion alone. Any later bounded capability check, role adaptation or execution task needs its then-current explicit scope. Research can continue here without becoming routine technical coordination forever.
+Do not send/retry G1-R1, install gstack, enable teams, change controls, share private sources with Claude, run a new Foundation task or treat later plan stages as authorised. No target-file change, team launch or message to another agent was performed in this planning turn. The current read chain is `INDEX → STATE → plan → brief → actual target/source as required`.
 
-## Corpus and retirement boundaries
+## Retirement and corpus boundary
 
-`repos/` = historical ledgers; `evidence/` = context syntheses; `current/briefs/` = versioned assignments; `current/reviews/` = preserved selections, bounded reviews and labelled auxiliary regressions. These are not Foundation or candidate-study findings and do not govern this assistant. The latest collaboration review changes only research-side review/continuity records, not agent-control, Foundation, studies, predecessor or target repositories.
+`repos/` historical ledgers, `evidence/` context syntheses, `current/` bridge plans, briefs and reviews are not Foundation or candidate studies and do not govern this assistant. This planning update changes only the research-side continuity/plan surfaces. Agent-control, Foundation, studies, predecessor and both target repositories are unchanged by it.
 
-The last independent target-branch read remains in the earlier G0 audit. G1's later GitHub main is a supplied observation, not this assistant's fresh live check. Unpublished work is recovered on the Mac or from supplied snapshots. Once Development OS owns reliable accessible state, stop mirroring routine work here.
+Latest live target state is not inferred from old remote reads or uploaded archives. Once Development OS owns reliable accessible current work, stop mirroring routine work here.
 
-Retire the bridge only after meaningful fresh work demonstrates purpose/authority/state recovery, appropriate research/work selection, useful bounded execution, proportionate verification, evidence-backed results, interruption recovery, usable handoff and governed change without permanent ChatGPT/Batu coordination. Hash consistency, a source-code explanation, passing native probes, a fixed parser or correctly stopped work does not establish that. Self-sustain is not unlimited authority or unattended continuous execution.
+Retire routine research-side coordination only after meaningful fresh work demonstrates purpose/authority/state recovery, useful work selection/execution, proportionate verification, evidence, interruption recovery, devir and governed change without permanent ChatGPT/Batu micro-coordination. One native conversation, passing file probes, a source explanation or a correct stop does not establish that. Self-sustain is not unlimited authority or unattended continuous operation.
