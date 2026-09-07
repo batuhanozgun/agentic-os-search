@@ -2,92 +2,78 @@
 
 **Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; DEVELOPMENT-BOOTSTRAP BRIDGE ACTIVE  
 **Son güncelleme:** 2026-09-07  
-**Bridge checkpoint:** COORDINATION HANDOFF BRIEF REVIEWED AND PREPARED; DESIGN-01 REMAINS UNSENT/HOLD; COORD-03 COMPLETE; NO TARGET ROLE GRANT OR OPERATING ACCEPTANCE UNTIL USER ADOPTS THE HANDOFF
+**Bridge checkpoint:** CODEX BOUNDED COORDINATION HANDOFF COMPLETED/READY; USER IDENTIFIED MISSING DEVELOPMENT-SPECIFIC AGENT-CONTROL ROUTER/PROTOCOL LAYER AND EXPLICITLY ASKED TO HAVE CODEX BUILD IT; IMPLEMENTATION BRIEF PREPARED; NOT YET DISPATCHED FROM CHAT
 
 ## Purpose and authority
 
-The original context-reconstruction objective is complete; historical synthesis remains under `evidence/` and predecessor ledgers. Do not reopen that work without a relevant authorised question.
+The current temporary bridge moves normal SOUL Development OS coordination out of browser ChatGPT/Batu micro-relay and into Codex while SOUL Research continues here. Research remains authority for Foundation/studies/evidence; `soul-development-os` is authority for its own current development state.
 
-The current temporary bridge exists to move normal SOUL Development OS coordination out of browser ChatGPT/Batu micro-relay and into Codex, while SOUL Research continues here. This research-side STATE records cross-project direction and continuity only. It is **not** Development OS current-state authority, SOUL architecture authority, Foundation truth, or a target operating grant.
+Keep distinct: prepared brief, user grant, dispatch, producer result, direct evidence, candidate state, B0/general operating acceptance.
 
-Keep distinct: prepared task, explicit user grant, execution, producer report, direct evidence, candidate state, operating acceptance.
+## Current target state
 
-## Current entry routes
+Private target repository: `batuhanozgun/soul-development-os`  
+Candidate branch: `bootstrap/coordination-entry`  
+Last user-reported and directly readable handoff HEAD: `020d44afae57efa4fad8febfd1fe2a0bce965af8`.
 
-- **Prepared next handoff:** `current/briefs/CODEX-COORDINATION-HANDOFF.md`.
-- Role-transfer rationale/sequence: `current/COORDINATION-TRANSFER-PLAN.md`.
-- Purpose, repository boundaries and bridge conditions: `current/DEVELOPMENT-OS-BOOTSTRAP.md`.
-- Research router: `INDEX.md`.
-- Last completed publication review: `current/reviews/2026-09-07-coord-03/REVIEW.md`.
-- Direct Development OS source: private `batuhanozgun/soul-development-os`, branch `bootstrap/coordination-entry`, last directly rechecked published HEAD `c1401f4b427886c92363aa553ba9c6a5abc310fb`; read target `STATE.md` → `work/COORD-03.md`.
-- Held, not dispatched: `current/briefs/CODEX-DESIGN-01-FIRST-SOUL-SCENARIO.md`.
-- Held, never dispatched: `current/briefs/CODEX-G1-R1-LAUNCHER-CONTINUATION.md`.
-- Earlier COORD/S1/G0/D1/G1 provenance remains in dated `current/reviews/` directories and Git history; this compact current STATE does not rewrite those results.
+At that state:
 
-## Current decision — transfer responsibility, not merely communication capability
+- bounded Development OS coordination mandate is recorded and persistent across Codex chats until Batu changes/revokes it;
+- `AGENTS.md` contains useful goal/method, source, challenge, authority, work-selection, delegation, verification and continuity discipline;
+- `STATE.md` routes to the standing mandate and current work;
+- normal bounded Development OS work no longer requires browser ChatGPT to author each next prompt;
+- B0/general operating acceptance, full bridge retirement, hostile isolation and unattended autonomy are **not** established.
 
-The user's intended destination is:
+## Newly identified gap — coordinator exists, Development-specific agent-control architecture does not
 
-- normal Development OS conversation occurs in Codex;
-- a research-aware Codex coordinator owns bounded work selection, decomposition, technical sequencing, helper delegation, integration and canonical continuation within its mandate;
-- native Codex helpers/subagents can be used directly when useful, without Batu carrying their messages;
-- browser ChatGPT remains SOUL Research, evidence/challenge and major direction support rather than the mandatory author of every next Development OS prompt;
-- Batu remains owner of vision, material scope/budget/risk, designated high-impact decisions, product/release acceptance and authority-expanding changes.
+The user correctly challenged the earlier interpretation of READY: the installed coordinator is not yet the functional counterpart of the browser research assistant's agent-control architecture.
 
-This does **not** require two permanent peer chat windows. One user-facing Codex coordinator plus on-demand native helpers is acceptable if it provides the required direct task/result coordination. It also does not migrate this ChatGPT session's hidden state, identity or tools into Codex.
+Research `AGENT.md` uses a small mandatory routing registry plus conditionally loaded protocol files. The current Development OS `AGENTS.md` embeds many similar principles directly, but it does **not** provide the equivalent capability of:
 
-Three thresholds remain separate:
+- mandatory full routing classification before substantive work;
+- stable Development-specific route IDs / positive trigger questions;
+- conditional protocol loading rather than preloading all reasoning rules;
+- re-gating when evidence or plans materially change;
+- explicit control-layer vs project-work separation at the router/protocol level.
 
-1. **Development conversation home** — normal Development OS discussion occurs in Codex.
-2. **Bounded coordination mandate** — the Codex coordinator may continue routine Development OS work without browser re-authorisation after every subtask, while respecting explicit owner boundaries.
-3. **Full bridge retirement / wider operating acceptance** — stronger evidence of useful work, recovery, governed change and reliable continuity; this is not yet claimed.
+This gap is not assigned to Batu to discover through product work. The user explicitly said they do not want to test on the assistant's behalf and then instructed: **have the Codex agent build it**.
 
-The next handoff aims only to establish thresholds 1 and 2. It must not claim threshold 3 or B0/general operating acceptance.
+Research R01–R09 are **not** to be copied as Development OS control law. They are a design exemplar. Development OS needs its own minimal router/protocol set derived from its actual responsibilities, authority/effect boundaries, work selection, implementation/verification, delegation, continuity and research-reuse needs.
 
-## Prepared handoff — reviewed, not yet granted
+## Prepared next implementation
 
-Task: `DEVOS-COORD-HANDOFF-2026-09-07`  
-Brief: `current/briefs/CODEX-COORDINATION-HANDOFF.md`  
-Reviewed brief commit: `d589f512c655390781501bc440012fd4d1da1548`  
-Brief blob after review: `b4e6fff077e5ac9f36b8898e5325a3bea23b3f10`
+Task: `DEVOS-AGENT-CONTROL-2026-09-07`  
+Brief: `current/briefs/CODEX-DEVOS-AGENT-CONTROL.md`  
+Brief creation commit: `cb401d58f8e16f3b18d70199b128f5e9b2fb2633`.
 
-The brief was re-evaluated after the user explicitly asked whether pressure had caused a cheap/rushed handoff. The review found the direction appropriate but tightened two load-bearing points before dispatch:
+The brief authorises Codex, once explicitly adopted in the Codex chat, to **design + implement + internally challenge + validate + commit/push/read back** the Development-specific agent-control layer on the existing private candidate branch. Batu is not asked to perform the validation.
 
-- `READY` now means only **ready to use Codex as the normal bounded Development OS conversation/coordination home**, not B0, full self-sustain, hostile isolation, bridge retirement or product authority;
-- the bounded coordination remit is explicitly persistent/recoverable across later Codex chats and does not require browser ChatGPT to re-authorise every routine Development OS subtask. Owner boundaries remain explicit.
+Required characteristics include:
 
-The brief requires reuse of the existing small target surfaces, meaningful native helper review, direct repository checks and private-branch push/readback. It forbids new orchestration frameworks, custom launchers, G1-R1 revival, Claude installation, product implementation, `main` promotion and B0 acceptance during this handoff.
+- one platform-supported canonical entry;
+- a small exhaustive Development-specific routing registry;
+- conditional LOAD/SKIP protocol loading and re-gating;
+- explicit control/project-work separation;
+- authority/self-modification limits;
+- current-state/preflight, work selection, assumptions, goal-method alignment, source fidelity, verification, continuity, delegation, environment/capability, research reuse and causal-repair concerns covered with a minimal justified protocol set;
+- at least one native critical design review;
+- fixed scenario routing checks, path/reference checks and remote readback performed by Codex;
+- no custom launcher/framework, Claude integration, SOUL product implementation, G1-R1 revival, main/B0 promotion or new repository.
 
-**The brief is still only prepared.** File existence and this STATE do not grant the target coordinator its standing mandate. The user's message adopting the pinned brief supplies that execution/role-transfer authority.
-
-## Why the repository side is ready for this handoff
-
-The research-side router and bootstrap files already distinguish research authority from Development OS authority and point current bridge questions through this STATE. `current/COORDINATION-TRANSFER-PLAN.md` already defines the intended D-stage removal of browser micro-coordination. No new research repository or new Codex project is required merely to perform the handoff.
-
-The target candidate already has:
-
-- `AGENTS.md` with goal/method separation, source discipline, challenge behavior, authority boundaries, evidence/verification distinctions, work selection, writer/handoff rules and controlled-development principles;
-- `STATE.md` with SOUL/Development OS purpose, current repository identity and historical boundaries;
-- durable work records through COORD-03;
-- a private published candidate branch readable by the research side;
-- demonstrated native helper task/result use from COORD-01, with the known evidence limitations preserved.
-
-The handoff task is therefore allowed to modify only the minimum target entry/control surfaces needed to encode the ongoing bounded coordinator responsibility. It should not rebuild the bootstrap from scratch.
-
-## Preserved limits and historical truth
-
-- DESIGN-01 was prepared but the user did not send it; it remains on hold and is not the immediate next task.
-- COORD-01 reported meaningful native helper delegation/direct return; raw native events were not independently replayed and this is not independent operating acceptance.
-- COORD-02/03 established a persistent target entry and private GitHub visibility. The earlier fresh-session result had platform memory context available, so repository-only/memory-independent cold-start sufficiency is not established.
-- G0/D1/G1 failures and NOT-RUN states remain historical truth; G1-R1 remains unsent. The coordination handoff does not silently pass, erase or revive them.
-- Native cooperative delegation is not hostile isolation or self-modification containment.
-- Claude Code is not part of this handoff. Adding another provider remains a separate later decision with data/account/cost boundaries.
-- `soul-development-os` candidate branch is not accepted `main`/B0.
+READY for this task means only: **the Development-specific agent-control layer is implemented and internally validated for bounded Development OS use on the private candidate branch**. It does not mean B0, full bridge retirement or SOUL acceptance.
 
 ## Current next responsibility
 
-If the user chooses to proceed, adopt the reviewed handoff brief at commit `d589f512c655390781501bc440012fd4d1da1548` in the existing `SOUL-Development-OS-Local` project and existing `bootstrap/coordination-entry` branch. No new GitHub repository, new Codex project, re-clone, DESIGN-01 dispatch or G1-R1 repair is a prerequisite.
+Dispatch the prepared agent-control implementation brief to the existing `SOUL-Development-OS-Local` Codex conversation on `bootstrap/coordination-entry` using the latest research ref that includes this STATE and the brief.
 
-The Codex handoff task should finish with `READY`, `PARTIAL` or `BLOCKED` under the brief's narrow definitions. If `READY`, it must provide one short first message for a **new Codex conversation**. At that point normal bounded Development OS conversation should move to Codex; browser return becomes periodic/research/owner-gate driven rather than mandatory after every routine step.
+After Codex completes it, research may directly inspect the pushed target files. If READY under the brief's narrow definition, the next normal Development OS conversation can start from the short repository-driven entry instead of another browser-authored control prompt.
 
-Do not mark the handoff executed, the standing coordination mandate active, the bridge retired, or B0 accepted until corresponding evidence and authority exist.
+Do not dispatch DESIGN-01 or G1-R1 before this control-layer task is resolved. Do not create a new GitHub repository or Codex project for this work.
+
+## Preserved boundaries
+
+- Batu retains fundamental product-goal, material scope/budget/risk, high-impact/irreversible effect, product/release, main/B0, authority-expansion, provider/private-data, credential/security and paid-infrastructure decisions.
+- Browser ChatGPT remains SOUL Research and periodic challenge/audit, not the normal Development OS sequencing hub.
+- Research `AGENT.md` / `agent/**` govern the research assistant only and are design sources for this task, not target authority.
+- Earlier G0/D1/G1 failures and NOT-RUN states remain historical truth; G1-R1 remains held.
+- DESIGN-01 remains prepared but unsent/held.
