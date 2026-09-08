@@ -1,8 +1,8 @@
 # Hermes Agent — Birikimli kaynak ve yürütme defteri
 
-**Son ek: 2026-09-08 / U01-D, U01-M ve context-transfer probe.** Birincil pin `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a` değişmedi. Current çalışma otoritesi STATE; defter kanıt/okuma rotasıdır.
+**Son ek: 2026-09-08 / U01B2 tesliminin canonical yayını; U01-D, U01-M ve context-transfer kanıtı korunur.** Birincil pin `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a` değişmedi. Current çalışma otoritesi STATE; defter kanıt/okuma rotasıdır.
 
-FULL tam kaynak okuması; SELECTED belirtilen kesit/sembol; LISTED yalnız topoloji. Hiçbiri kendi başına execution değildir. Eski tam okumalar yeni turda yeniden yapılmış sayılmaz. Büyük façade'ların tüm metnine erişim, tüm dependency/compat yüzeyinin araştırma kapanışı değildir; son turdaki karar taşıyan kesitler D defterinde SELECTED olarak sınırlandırılır.
+FULL tam kaynak okuması; SELECTED belirtilen kesit/sembol; LISTED yalnız topoloji. Hiçbiri kendi başına execution değildir. Eski tam okumalar yeni turda yeniden yapılmış sayılmaz. Büyük façade'ların tüm metnine erişim, tüm dependency/compat yüzeyinin araştırma kapanışı değildir; caller turundaki karar taşıyan kesitler D defterinde SELECTED olarak sınırlandırılır.
 
 ## H-kaynakları — önceki birikimli kayıt korunur
 
@@ -13,11 +13,11 @@ Primary pin'e göre yollar ve kimlikler:
 | H01 | README.md | c05112266746ff99a3326a62c38c33fbc08ecd23 | FULL, ilk + curator |
 | H02 | website/docs/developer-guide/architecture.md | 3640103c3de97ed7c01a3862b76b35371f9d5f06 | FULL, ilk + curator |
 | H03 | website/docs/user-guide/features/memory.md | 0c03f4e8cb897bbfd0af29375d7a245fa5751499 | FULL |
-| H04 | agent/background_review.py | 0e8e76ae235450f3e896a86951409cf82b7cca1e | FULL; son tur D18 ile yeniden açıldı |
+| H04 | agent/background_review.py | 0e8e76ae235450f3e896a86951409cf82b7cca1e | FULL; caller turu D18 ile yeniden açıldı |
 | H05 | tools/skill_manager_guards.py | 06df3cd695592fd2e582b49ce391d76fd137da3b | FULL, ilk + curator |
-| H06 | tools/skill_provenance.py | 3df9cf143045644310fa7d27a65666c8c23caf95 | FULL; son tur D19 + dar execution |
-| H07 | tools/write_approval.py | f1e99b46e934595c002c2bc659143fcbc1f9fe8d | FULL; U01B/S04 + dar execution |
-| H08 | hermes_cli/write_approval_commands.py | 150b72dfd17696ab7a64f97057b7405128f5b352 | FULL; S05 ve son D17 tekrar, çalıştırılmadı |
+| H06 | tools/skill_provenance.py | 3df9cf143045644310fa7d27a65666c8c23caf95 | FULL; caller turu D19 + dar execution |
+| H07 | tools/write_approval.py | f1e99b46e934595c002c2bc659143fcbc1f9fe8d | FULL; U01B/S04 + dar execution; ayrı U01B2 arşiv okuması/koşusu aşağıda |
+| H08 | hermes_cli/write_approval_commands.py | 150b72dfd17696ab7a64f97057b7405128f5b352 | FULL; S05 ve D17 tekrar, çalıştırılmadı |
 | H09 | tests/run_agent/test_background_review_toolset_restriction.py | 3175aa394ce4aaa3258243cec82c546cdad73ba1 | FULL / TEST SOURCE INSPECTED |
 | H10 | tests/tools/test_write_approval.py | 44db64514921b1cb892e16e913bffa641acb2947 | FULL / TEST SOURCE INSPECTED |
 | H11 | pyproject.toml | 12c672ff3cdacd9d045d60d1cc4248e0aeba6f72 | SELECTED manifest/dependency, curator 1–115 |
@@ -45,7 +45,7 @@ Primary pin'e göre yollar ve kimlikler:
 - S04 = H07; S05 = H08.
 - S06 = LICENSE, blob `75410e73319c72cd3e991a501c5455eb78f38375`, FULL ve kaynak kopyalarıyla korunmuş.
 
-[Eski probe](evidence/2026-09-07-u01b/component-probe/README.md) → harness/RESULT/stdout/stderr/upstream/lisans. UTC `2026-09-07T09:35:13.772427+00:00`, Python 3.13.5/Linux. İki exact modül + sentetik bağımlılıklar, 10 tanılayıcı durum. Ürün conformance veya bağımsız araştırmacı tekrarı değil. Bu tur yeniden çalıştırılmadı. [Yayın aktarımı](evidence/2026-09-07-u01b/PUBLICATION.md) deneyden ayrı olaydır.
+[Eski probe](evidence/2026-09-07-u01b/component-probe/README.md) → harness/RESULT/stdout/stderr/upstream/lisans. UTC `2026-09-07T09:35:13.772427+00:00`, Python 3.13.5/Linux. İki exact modül + sentetik bağımlılıklar, 10 tanılayıcı durum. Ürün conformance veya bağımsız araştırmacı tekrarı değil. Bu yayın turunda yeniden çalıştırılmadı. [Yayın aktarımı](evidence/2026-09-07-u01b/PUBLICATION.md) deneyden ayrı olaydır.
 
 ## Tree, yöntem ve freshness geçmişi
 
@@ -74,10 +74,20 @@ W gözlemleri commit/blob'a bağlanmadı. H03 ile W04 aynı nesne sayılmaz. Bel
 
 ## D01–D22 — pinned caller / worker / memory kaynakları
 
-[Yeni tam D defteri](evidence/2026-09-08-context-transfer/SOURCES.md) exact path/blob ve FULL/SELECTED/EXECUTED derinliğini taşır. [06](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md) caller/transfer; [07](notes/07-MEMORY-STORE-AND-PENDING-REPLAY.md) memory/replay bulgularını içerir.
+[Tam D defteri](evidence/2026-09-08-context-transfer/SOURCES.md) exact path/blob ve FULL/SELECTED/EXECUTED derinliğini taşır. [06](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md) caller/transfer; [07](notes/07-MEMORY-STORE-AND-PENDING-REPLAY.md) memory/replay bulgularını içerir.
 
-Son tur `a218acfc...` research state'inden başladı. Path isteği yine 429 verdi; primary tree/blob API kaynak getirdi. Root'a ek agent/tools/hermes_cli non-recursive topolojisi görüldü; D09/D10/D19 yerel kopyaları ve LICENSE Git blob hash'leriyle doğrulandı. Bir source-transcription uyuşmazlığı execution öncesinde yakalanıp canonical blob yeniden alınarak düzeltildi; doğrulama eşiği değiştirilmedi.
+Caller turu `a218acfc...` research state'inden başladı. Path isteği yine 429 verdi; primary tree/blob API kaynak getirdi. Root'a ek agent/tools/hermes_cli non-recursive topolojisi görüldü; D09/D10/D19 yerel kopyaları ve LICENSE Git blob hash'leriyle doğrulandı. Bir source-transcription uyuşmazlığı execution öncesinde yakalanıp canonical blob yeniden alınarak düzeltildi; doğrulama eşiği değiştirilmedi.
 
 [Transport probe](evidence/2026-09-08-context-transfer/README.md): UTC `2026-09-08T15:57:15.365904+00:00`, Python 3.13.5/Linux. Üç exact modül, sentetik callback API/profil marker/allowlist; P01–P07. Gerçek executor/PluginManager/AIAgent/MemoryStore ve profil resolver bu koşuda yoktur. Yedi beklenti matched; product conformance NOT ASSESSED. [Ham sonuç](evidence/2026-09-08-context-transfer/RESULT.json), [harness](evidence/2026-09-08-context-transfer/harness.py), [kimlik manifesti](evidence/2026-09-08-context-transfer/MANIFEST.json).
 
 Güncel açık kapsam: ordinary dispatch entegrasyon sınaması; actual UI/approval/profile; curator nested batch/rapor; ledger/backup/restore/sync; cancellation/shared-store; prompt reload/invalidation; session search/archive; alternatif runtime, provider/backend/delegation/gateway/cron/UI; install/CI/eval/gelecek-task kalite. Kaynak okuması, dar modül yürütmesi, hash bütünlüğü ve tüm ürün doğrulaması ayrı tutulur. Current upstream yeniden doğrulanmadı; geçmiş W ve U01B statüleri değiştirilmedi.
+
+## U01B2 — ayrı arşiv kaynaklı deney ve sonradan yayın
+
+[08 canonical giriş](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md) → [özgün rapor](evidence/2026-09-08-u01b2/06-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md), [SOURCES.json](evidence/2026-09-08-u01b2/SOURCES.json), [RESULT](evidence/2026-09-08-u01b2/RESULT.json), [SPEC](evidence/2026-09-08-u01b2/SPEC.md), [probe](evidence/2026-09-08-u01b2/probe.py), [yayın](evidence/2026-09-08-u01b2/PUBLICATION.md).
+
+U01B2 çalışma dilimi research `a218acfc...` arşivinden S02 ve S04/H07'yi FULL yeniden okudu; blob'lar sırasıyla `9f38adff284eede4234948f67e99a43752c0926e` ve `f1e99b46e934595c002c2bc659143fcbc1f9fe8d`. Yeni H-ID veya upstream güncellik doğrulaması değildir. Kaynak lisansı aynı `75410e...` blob'udur.
+
+Koşu UTC `2026-09-08T15:48:02.995262+00:00`, Python 3.13.5/Linux; 12 tanılayıcı senaryo, G01 içinde 10 gate varyantı. Gerçek iki modül ile sentetik config/profile-origin/callback/guard/mutator/adapter/reentry. R03 önceki exception sınırının yeni fixture tekrarı; R04 deterministik araya-giren yazı, gerçek thread yarışı değildir. Gerçek production replay, kilitler, UI, ledger/sync veya kalite deneyi yapılmadı. HARNESS-CHECK yalnız değiştirilmiş kaynak kimliğinin execution öncesi reddini sınar.
+
+Teslim ZIP'i bu yayın turunda açıldı; 14 manifest girdisinin byte/SHA-256 kontrolü yapıldı, MANIFEST dahil 15 özgün dosya korundu. Deney veya negatif kontrol yeniden çalıştırılmadı. Publication tabanı `29ab9b816843bab6f9e5f5b5815590fbac2b1713`; D kaynak/transport ilerlemesi aynen korunur. U01B2'nin eski NOT_PUBLISHED ve caller erişimi ifadeleri kendi tarihsel turuna aittir; current STATE değildir. Yerel D01 senaryosu D kaynak defterinin D01'iyle karıştırılmaz.

@@ -20,16 +20,18 @@ Bu dosya retrieval rotasıdır. Güncel iş/tamamlanma otoritesi [STATE.md](STAT
 | Gerçek caller, ortak kontrol, worker, hata ve sonuç kaydı? | [06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md) |
 | Memory mutator, kilit/reload, snapshot ve pending replay? | [07-MEMORY-STORE-AND-PENDING-REPLAY](notes/07-MEMORY-STORE-AND-PENDING-REPLAY.md) |
 | ContextVar/callback/allowlist aktarımı gerçekten nasıl sınandı? | [Transport probe](evidence/2026-09-08-context-transfer/README.md) → CHALLENGE / harness / RESULT / MANIFEST |
-| Bu tur hangi pinned modül ne derinlikte incelendi? | [D01–D22 kaynak defteri](evidence/2026-09-08-context-transfer/SOURCES.md) |
-| Hangi soru hâlâ açık? | [OPEN-QUESTIONS](OPEN-QUESTIONS.md) |
+| Caller turunda hangi pinned modül ne derinlikte incelendi? | [D01–D22 kaynak defteri](evidence/2026-09-08-context-transfer/SOURCES.md) |
+| Onay payload'ı hedefi koruyor mu; canlı diff ve rollback'in sınırları? | [08 U01B2 girişi](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md) → özgün araştırma / RESULT / SPEC / probe |
+| Son ZIP araştırması repoya aktarıldı mı? | [U01B2 yayın kaydı](evidence/2026-09-08-u01b2/PUBLICATION.md); teslimin NOT_PUBLISHED ifadeleri tarihseldir |
+| Hangi soru hâlâ açık? | [OPEN-QUESTIONS](OPEN-QUESTIONS.md); U01B2 takipleri için 08 girişi |
 
 ## Sentez katmanları
 
 ```text
 Pinned kaynak                 primary pin korunuyor; ordinary caller/memory kapsamı genişledi
   ↓
-Mekanizma notları              U01 / U01-C / U01B + U01-D / U01-M kısmi kesitleri
-Bileşen kanıtı                U01B: 2 exact modül/10 durum; transport: 3 exact modül/7 durum
+Mekanizma notları              U01 / U01-C / U01B + U01-D / U01-M + U01B2 kısmi kesitleri
+Bileşen kanıtı                U01B: 2 modül/10 durum; transport: 3 modül/7 durum; U01B2: 2 modül/12 senaryo
 Ek belge sözleşmesi           U01-DOC / W01–W08; pin'e eşitlenmedi
   ↓
 Native alt-sistem sentezleri   henüz yok; notlar tam aile kapanışı değil
@@ -41,4 +43,6 @@ Dört-alan projeksiyonu         henüz yok
 SOUL / Development OS ve CORE henüz yok
 ```
 
-Sayılar tamamlanma veya ürün PASS ölçüsü değildir. U01-C curator kimliği korunur; U01-D yeni caller/transfer notunu, U01-M memory notunu adlandırır. 04'ün S-ID'leri U01B'ye; 02/03'ün H-ID'leri ana deftere; 05'in W-ID'leri belge defterine; 06/07'nin D-ID'leri yeni kaynak defterine bağlanır. Eski notlardaki 'yazılamadı/429/ilk sonraki dosya' ifadeleri kendi tarihsel turunu anlatır; current STATE'in yerine geçmez. 05/K03'ün yalnız transport alt sorusu yeni probe ile kısmen sınandı; dokuz kontrol bütünüyle çalıştırılmış değildir.
+Sayılar tamamlanma veya ürün PASS ölçüsü değildir. U01-C curator kimliği korunur; U01-D caller/transfer notunu, U01-M memory notunu adlandırır. 04'ün S-ID'leri U01B'ye; 02/03'ün H-ID'leri ana deftere; 05'in W-ID'leri belge defterine; 06/07'nin D-ID'leri D kaynak defterine bağlanır. U01B2'nin yerel B/W ve G/T/D/R senaryo kimlikleri bu defterleri yeniden numaralandırmaz.
+
+Eski notlardaki 'yazılamadı/429/ilk sonraki dosya' ifadeleri kendi tarihsel turunu anlatır; current STATE'in yerine geçmez. 05/K03'ün yalnız transport alt sorusu probe ile kısmen sınandı; dokuz kontrol bütünüyle çalıştırılmış değildir. U01B2 tesliminin özgün 06 adlı raporu kanıt dizininde korunur; bu dizinin mevcut 06/07 notları değiştirilmez. Yayın yeni deney veya v0.6 çalışma sırasının değişmesi değildir.
