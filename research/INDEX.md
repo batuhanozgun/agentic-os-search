@@ -78,7 +78,7 @@ Do not classify a study as "external" merely because it uses external sources. C
 | Need | Read first | Then if needed |
 |---|---|---|
 | Why this project exists / predecessor context | `soul-context/INDEX.md` | relevant evidence / source ledger |
-| Current SOUL Development OS bootstrap, repo topology, ChatGPT↔Codex bridge or research→development boundary | `soul-context/INDEX.md` | `soul-context/STATE.md` → named current brief and actual target-repository state; historical bootstrap context only when relevant |
+| Current SOUL Development OS context, repo topology, ChatGPT↔Codex handoff or research→development boundary | `soul-context/INDEX.md` | `soul-context/STATE.md` → named current exact contract (brief/review) → actual target-repository state only when relevant; recover dispatch, authority and handoff responsibility from STATE, not historical bootstrap notes |
 | Current Foundation status / authorization | `soul-foundations/STATE.md` | `soul-foundations/INDEX.md` → active node package |
 | Find prior candidate research relevant to a problem | `studies/CATALOG.md` | relevant package `META.md` → `STATE.md` / `INDEX.md` / findings |
 | Understand candidate-library semantics | `studies/INDEX.md` | `studies/PACKAGE-CONTRACT.md` |
