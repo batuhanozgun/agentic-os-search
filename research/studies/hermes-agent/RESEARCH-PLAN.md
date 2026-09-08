@@ -1,6 +1,6 @@
 # Hermes Agent — Araştırma planı
 
-**Plan v0.4 — 2026-09-07.** Aktif dış hedef araştırması; kanıta göre değişebilir decomposition. Güncel iş otoritesi [STATE](STATE.md).
+**Plan v0.5 — 2026-09-08.** Aktif dış hedef araştırması; kanıta göre değişebilir decomposition. Güncel iş otoritesi [STATE](STATE.md).
 
 ## 1. Döngü ve kapsam
 
@@ -15,6 +15,7 @@
 | A0 Kimlik, pin, proje sınırı | c4a5de... immutable pin / 0.21.0 manifest; d8a077... ve üç dosyalık 7874ef... gözlemleri kapsamlarıyla ayrıldı. |
 | A1 Kaynak topolojisi | Kök/apps listeleri var; recursive alt envanter ve giriş yolları haritası sürüyor. |
 | B0 Mekanizma sondajları | U01 review, U01-C curator ve U01B onay/mutasyon kesitleri; iki exact modül üzerinde 10 sentetik tanılayıcı gözlem. Aile kapanmadı. |
+| U01-DOC Ek kontrat incelemesi | Sekiz resmî web belge yüzeyinde seçili bölümler incelendi. Pin ile eşleştirilmedi; kod okuması veya yeni deney değildir. [05 notu](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md). |
 | B1–Bn Genişletme | F01–F12 aşağıda; sabit modül sayısı iddiası değil. |
 | C Native alt-sistem sentezleri | Henüz yok. |
 | D İlişkiler ve karşı-yol incelemesi | Yerel aday bağlantılar var; genel sentez yok. |
@@ -56,6 +57,16 @@ Başlangıç rotası dosyanın okunduğunu göstermez. Bir mekanizma birden çok
 
 **U04 ve devamı:** Gateway/cron/UI/install/eval ve kalan varyantlar. U01 ayrıntıları bütün sistemi yutmamalı; kaynak bağımlılığına göre sıra değişebilir. Sistem dışı yeni araştırma nesnesi ayrı gerekçe/yetki ister.
 
+## 4A. Bu turun erişim sınırı ve ek kontrat katmanı
+
+2026-09-08'de primary pin'deki `run_agent.py` 1–190 isteği iki kez 429 / `too-many-processes` ile içerik getirmedi. Bu giriş dosyası veya caller zinciri okunmuş sayılmadı. [Erişim/okuma kaydı](evidence/2026-09-08-doc-contracts/READING-AND-ACCESS.md) gerçek gözlemi taşır; bu bir kalıcı erişim yokluğu veya ürün kusuru değildir.
+
+Bu nedenle aynı araştırma nesnesinin resmî belgeleriyle **U01-DOC** ek birimi yapıldı. W01–W08; registry/special-tool dispatch, observer/enforcement ayrımı, profile namespace, memory görünürlüğü, session temsilleri ve compression sınırları için kontrat ve rakip açıklama sağladı. Web belgelerinin ortak commit'i bilinmiyor. Primary pin değişmedi; belgeler U01B'nin gerçek caller karşılığını doğrulamadı.
+
+[05 notunun §9'undaki K01–K09](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md) gelecek kaynak/deney çalışmasının ayırıcı kontrolleridir: special/genel dispatch kapsamı; exception temsili ve telafi; context aktarımı; onay talebi/teslim/karar/etki; disk/store/prompt görünürlüğü; turn/teardown; kaynak/arşiv/replay görünümü; özet hatası; curator batch raporu. **Dokuzu da PLANNED / NOT RUN.** Yeni HERMES koşusu veya bağımsız test yoktur.
+
+Sonraki çalışma ilk olarak §4'teki gerçek caller zincirine döner. Belgelerdeki semboller yalnız navigation ipucudur; kodun current/pinned konumu doğrulanmalıdır. Yeni bir kaynak revizyonu kullanılacaksa primary ile ilgili bağımlılık farkları ayrılmadan mevcut deneyle birleştirilmez. Okuma yeniden mümkün olmadığında kod-aile kapanışı verilmez; erişim durumu açık tutulur. F01–F12 kapsamı ve önce native model, sonra projeksiyon sırası değişmez.
+
 ## 5. Karşı sınama yüzeyi
 
 - Aynı/farklı model review'unda kanıt görünümü eşdeğer mi?
@@ -79,5 +90,6 @@ Bunların hepsi doğrulanmış kusur değildir. Bileşen gözlemi, statik çıka
 | v0.2 | H04–H10/H13, apps | Öğrenme; transcript/store/ownership/approval/quality/share ayrımlarına açıldı. |
 | v0.3 | H16–H20/H05/H22, ref uzlaştırması | U01-C curator; policy≠authorship, usage≠quality, archive≠complete rollback, report→cron ilişkisi. |
 | v0.4 | Sohbet U01B paketinin kaynak/deney kaydı ve güncel v0.3 ile birleştirilmesi | H22 tam okuması recover edildi; approval representation, exception rollback ve pending durability karşı örnekleri taşındı. Caller/context ilk sıraya alındı. U01-C'nin kimliği ve F01–F12 kapsamı korundu; eski yerel v0.3 önerisi current'ın üstüne yazılmadı. |
+| v0.5 | 2026-09-08 upstream caller isteğinde iki 429; W01–W08 resmî belge kontratları | Ek U01-DOC katmanı ve dokuz çalıştırılmamış ayırıcı kontrol; gerçek caller ilk sırada kaldı. H/S kanıtının kapsamı, primary pin ve geniş aileler korunur; yeni kod okuması/deney iddiası yok. |
 
 V0.3 ayrıntıları Git geçmişinde `000f691b9a94607c9a8219961b4618eda0f1014f` ref'indeki bu dosyadan recover edilebilir. Bu kayıtların birleştirilmesi yeni deney, bağımsız doğrulama veya çalışma yöntemi için agent-control değişikliği değildir.

@@ -1,6 +1,6 @@
 # Hermes Agent — Açık sorular
 
-**2026-09-07 / active, plan v0.4.** Keşif/continuation kaydı; bütün satırlar doğrulanmış üretim kusuru değildir. H-ID'leri [SOURCE-LEDGER](SOURCE-LEDGER.md), S-ID'leri [U01B defteri](evidence/2026-09-07-u01b/SOURCES.md) üzerinden açılır.
+**2026-09-08 / active, plan v0.5.** Keşif/continuation kaydı; bütün satırlar doğrulanmış üretim kusuru değildir. H-ID'leri [SOURCE-LEDGER](SOURCE-LEDGER.md), S-ID'leri [U01B defteri](evidence/2026-09-07-u01b/SOURCES.md) üzerinden açılır.
 
 | ID | Açık ayrım / mevcut ilerleme | Sonraki kaynak / karşı sınama |
 |---|---|---|
@@ -27,3 +27,18 @@
 Q03–Q05 kısmen aydınlandı; bütün caller/ürün kapsamında kapatılmadı. H22'nin eski eksik orta aralığı U01B tam okumasıyla recover edildi; sıradaki görev artık o aralığı ilk kez okumak değil gerçek zincire bağlamak.
 
 Bir soru kaynağı/ref'i/kanıt statüsüyle notta cevaplanır; tablo rotadır. Kaynak erişimi eksiği ürün yetersizliği sayılmaz. Deney gerektiren genelleme statik kodla kapanmaz. Kapsam dışına çıkarılacak soru varsa gerekçe korunur. U01 ve bağlantılı bakım/gelecek-kullanım tamamlanmadan genel self-improvement verified/absent hükmü yoktur.
+
+## U01-DOC ile ayrıntılanan sorular — kapatılmış kod bulgusu değil
+
+[05 notu](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md) ve [W01–W08 defteri](evidence/2026-09-08-doc-contracts/READING-AND-ACCESS.md), yukarıdaki soruların kontrat tarafını genişletir. Primary caller isteği iki kez 429 verdiği için Q01/Q02/Q05/Q17'nin yeni pinned kod kapanışı yoktur. Aşağıdaki alt sorular mevcut aileleri ikame etmez.
+
+| ID | Yeni ayırıcı soru | Bağlantı / sonraki kontrol |
+|---|---|---|
+| Q20 | Agent-local memory/todo/session_search/delegate ile genel registry yolları aynı denetimi hangi callsite'ta alır? | Q02; W01–W03; K01/K03. Belge şemasından bypass sonucu çıkmaz. |
+| Q21 | Error-to-JSON wrapper yalnız sonucu mu dönüştürür, önceki etkiyi de telafi eder mi? | Q17/Q19; W01 ve U01B B04; K02 gerçek caller + readback. |
+| Q22 | Frozen memory hangi rebuild'de yeniden görünür; aynı session ID bağlam revizyonunu gizler mi? | Q07/Q01; W04/W05/W08; K05/K06. Belge kapsam farkı runtime bug değildir. |
+| Q23 | Command approval gözlem olayları ile skill/memory pending onayı aynı kontrol/teslim/karar zincirini paylaşır mı? | Q04/Q05/Q18; W03; K04. Observer, onay veren merci değildir. |
+| Q24 | Profile/home bölümlemesi, DB contention yönetimi ve agent-local cache/memory tutarlılığı hangi kapsamda birleşir? | Q06/Q11; W06/W07; K03/K05. Namespace, sandbox ve tüm-depo eşzamanlılığı ayrı. |
+| Q25 | Raw/arşiv/API-content/search/review görünümleri hangi kritik bilgiyi korur; summary failure hangi isteği değiştirir? | Q08/Q10; W07/W08; K07/K08. Belgedeki failure uyarısı yürütülmüş deney değildir. |
+
+K09, Q16'nın mevcut curator batch sorusunu sınayacak; yeni kod sonucu yok. K01–K09'un tamamı **PLANNED / NOT RUN**. Güncel resmî belge ortak commit'i bilinmediğinden bu sorular primary kaynakla karşılaştırılmadan implementation veya ürün güvenliği hükmü verilmez.

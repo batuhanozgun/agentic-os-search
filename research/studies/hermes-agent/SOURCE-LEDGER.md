@@ -1,6 +1,6 @@
 # Hermes Agent — Birikimli kaynak ve yürütme defteri
 
-**2026-09-07 / U01B aktarımıyla uzlaştırılmış kayıt.** Birincil pin: `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`.
+**Son ek: 2026-09-08 / U01-DOC.** Aşağıdaki H/S/tree geçmişi 2026-09-07 U01B aktarımından korunur; o bölümlerdeki “bu tur/aktarım” eski kayıt olayını anlatır. Yeni W-kaynakları sonda ayrı katmandır. Yeni kod okuması ve yeni HERMES yürütmesi yoktur. Birincil pin: `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`.
 
 FULL = önceki veya bu konuşmada tam içerik okunmuş; SELECTED = belirtilen aralık; LISTED = yalnız harita. Hiçbiri tek başına yürütme değildir. Eski okuma bu aktarım turunda yeniden yapılmış sayılmaz. Upstream test suite çalıştırılmadı; yalnız U01B'nin iki exact modüllü sentetik bileşen deneyi kayıtlıdır. Aktarımda deney yeniden koşturulmadı.
 
@@ -62,3 +62,26 @@ Geçmiş web keşifleri resmî belgeler içindi; teknik iddiaların dayanağı p
 Tam okunmamış bölgeler: CONTRIBUTING/SOUL/compat; genel run_agent/turn/dispatch/plugin; memory mutator; ledger/backup/sync; session search/state; idle queue; provider/backend/delegation; gateway/cron/ACP/UI; install/CI/eval/trajectory. S01/S02 artık bu eksik listede değildir. Bir isim veya search hit'i FULL sayılmaz.
 
 Yeni kaynak/koşu kendi ref, kimlik, kapsam ve turuyla eklenir. Bu defter continuity için sıkıştırılmıştır; önceki detaylar immutable Git geçmişinde, U01B ham kanıtları paket içindedir. [Aktarım kimlikleri ve sınırı](evidence/2026-09-07-u01b/PUBLICATION.md).
+
+## 2026-09-08 — U01-DOC, ayrı web-kontrat katmanı
+
+Research preflight `de51ef60f1afbc1aab265727146c1e8d236ff4ec` üzerinde package STATE/META/INDEX/METHOD/PLAN, 02/03/04 notları ve bu defter geri kazanıldı. R01–R09 kontrol bağlamı uygulandı; agent-control araştırma kanıtı sayılmadı. Primary pin ve H01–H22 / S01–S06 statüleri değişmedi.
+
+[W01–W08 okuma ve erişim defteri](evidence/2026-09-08-doc-contracts/READING-AND-ACCESS.md) URL, erişim tarihi, okunan bölüm/aralık ve kapsam sınırını taşır. [05 mekanizma-kontrat notu](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md) bu kaynakların sınırlı çıkarımlarını ve rakip açıklamaları içerir.
+
+| ID | Resmî belge | Bu turdaki rol |
+|---|---|---|
+| W01 | Tools Runtime | Registry/availability/dispatch ve error-wrapping açıklamaları. |
+| W02 | Agent Loop Internals | Özel tool yolları, concurrent execution, kesinti ve lifecycle kontratı. |
+| W03 | Event Hooks | Observer/control, approval olayları ve desteklenen hata politikası sınırları. |
+| W04 | Persistent Memory | Frozen/live bellek ve yazma/notification ayrımı. |
+| W05 | Prompt Assembly | Cached/request-time katmanlar; memory snapshot invalidation/rebuild açıklaması. |
+| W06 | Profiles | Home namespace ile workspace/OS sandbox ayrımı. |
+| W07 | Session Storage | Stored/API-visible/replay/search temsilleri; DB erişim kapsamı. |
+| W08 | Context Compression and Caching | Aynı-ID compaction, prompt rebuild, arşiv ve summary-failure uyarısı. |
+
+W-kayıtları commit/blob'a bağlanmadı. Web metadata'sındaki crawl zamanı ortak kaynak sürümü veya yayın tarihi sayılmadı. W04, H03'ün pinned blob'u ile aynı nesne değildir. Bir belge gözlemi Python implementation FULL kaydına veya runtime doğrulamasına yükseltilmedi.
+
+Primary `run_agent.py` 1–190 çağrısı iki kez GitHub 429 / `too-many-processes` verdi; sıfır kaynak içerik elde edildi. Container archive denemesi DNS hatasıyla sonuçlandı. Bu nedenle yeni H23/FULL caller kaydı yoktur; exact olaylar W-defterindedir. GitHub'daki kendi research repository erişimi ayrı çalıştı; upstream arızasının nedenini kullanıcı ayarı/izin hatası diye açıklamadık.
+
+K01–K09 **PLANNED / NOT RUN**. Bu tur source suite, component probe, agent/provider veya kullanıcı profili çalıştırılmadı. Önceki U01B'nin 10 tanılayıcı gözlemi yeni koşu gibi sayılmaz. Yeni kayıt, doküman kontratlarıyla daha ayırt edici devam soruları oluşturur; gerçek caller/context/pending chain hâlâ ilk kaynak işidir.
