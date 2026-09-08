@@ -25,7 +25,7 @@ Kavramsal metin yöntem tanımıdır. Süreklilik metni mimari ÖNERİ'dir. ZIP 
 
 Bu paket Research agent-control değildir. Target için davranış benimsemesi gerçek kullanıcı grant'ı ve target kontrol yolu gerektirir. Research AGENT/agent ve Foundation değişmedi. Güncel devir yetkisi bu META'da değil `../../soul-context/STATE.md` ve oradaki exact review/target kaydında yaşar.
 
-Özgün eklerin baytları bu Research paketine kopyalanmadı. Hash ve içerik kapsamı ASSESSMENT'tadır; asıllar 8 Eylül konuşmasının eklerindedir. Sonraki exact kaynak okuması için aynı hash'li ZIP/metinler yeniden erişilebilir olmalı veya gerçekten oluşmuş target input kaydı gözlenmelidir. Önerilmiş `work/devos-rpd/inputs/` konumunu şimdiden varmış sayma; özetle kaynak boşluğunu doldurma. Bu, bounded assessment'ın yeniden bulunabilirliği ile kaynakların bağımsız tam yeniden üretilebilirliğini ayıran açık sınırdır.
+Özgün eklerin baytları bu Research paketine kopyalanmadı. Hash ve içerik kapsamı ASSESSMENT'tadır; asıllar 8 Eylül konuşmasının eklerindedir. Sonraki exact kaynak okuması için aynı hash'li ZIP/metinler yeniden erişilebilir olmalı veya gerçekten oluşmuş target input kaydı gözlenmelidir. Güncel REVIEW'un önerdiği `work/devos-kernel/references/` konumunu şimdiden varmış sayma; özetle kaynak boşluğunu doldurma. Bu, bounded assessment'ın yeniden bulunabilirliği ile kaynakların bağımsız tam yeniden üretilebilirliğini ayıran açık sınırdır.
 
 API/hook/subagent/izin/OS iddiaları güncel resmî kaynak ve actual host ile yeniden kontrol edilir. Kavramsal tanımın başka planlama yöntemlerinden bilimsel yeniliği/üstünlüğü kurulmadı; karşılaştırmalı deney ayrı iştir.
 
