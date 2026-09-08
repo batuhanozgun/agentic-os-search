@@ -78,7 +78,7 @@ Do not classify a study as "external" merely because it uses external sources. C
 | Need | Read first | Then if needed |
 |---|---|---|
 | Why this project exists / predecessor context | `soul-context/INDEX.md` | relevant evidence / source ledger |
-| Current SOUL Development OS bootstrap, repo topology, ChatGPT↔Codex bridge or research→development boundary | `soul-context/INDEX.md` | `soul-context/current/DEVELOPMENT-OS-BOOTSTRAP.md` → current target-repository state when load-bearing |
+| Current SOUL Development OS bootstrap, repo topology, ChatGPT↔Codex bridge or research→development boundary | `soul-context/INDEX.md` | `soul-context/STATE.md` → named current brief and actual target-repository state; historical bootstrap context only when relevant |
 | Current Foundation status / authorization | `soul-foundations/STATE.md` | `soul-foundations/INDEX.md` → active node package |
 | Find prior candidate research relevant to a problem | `studies/CATALOG.md` | relevant package `META.md` → `STATE.md` / `INDEX.md` / findings |
 | Understand candidate-library semantics | `studies/INDEX.md` | `studies/PACKAGE-CONTRACT.md` |
@@ -87,7 +87,7 @@ Do not classify a study as "external" merely because it uses external sources. C
 
 ## Authority boundaries
 
-- `soul-context` explains project context and bounded cross-project transition state; it does not define the final system or replace the current state of `soul-development-os` / `soul-production`.
+- `soul-context` explains project context and bounded cross-project transition state; it does not define the final system or replace the current state of the Development OS repository named in `soul-context/STATE.md` or of `soul-production`. Do not inherit an earlier target's mandate or readiness after a repository change.
 - `soul-foundations` is the active foundational research authority for the ground/hierarchy it studies; it is not automatically architecture.
 - `studies` contains candidate research inputs. A study can be technically strong and still have **no authority** to mutate Foundation, architecture, ontology, implementation or agent-control.
 - Study relevance to Foundation areas is a retrieval relation, not taxonomy membership.
