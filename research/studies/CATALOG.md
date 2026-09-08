@@ -20,6 +20,7 @@ Foundation relevance below is a retrieval hint only. It does not assign a study 
 | `multi-agent-patterns` | focused-topic | exploratory systems assessment complete for the triggering discussion | coordination/control patterns, generator–critic, orchestration, authority/verification design pressure | Actors: strong; Work: strong; relations/control: strong later-phase relevance | `multi-agent-patterns/META.md` |
 | `hands-on-large-language-models` | external-target | durable external-repository research complete; production adoption not recommended/evaluated | executable LLM examples, representation/retrieval/fine-tuning/agent reference cases, version/environment failure cases | Information: strong; Environment: conditional; Actors: conditional | `hands-on-large-language-models/META.md` |
 | `public-apis` | external-target | bounded general repository evaluation; discovery reuse candidate | external API/capability discovery; data/service landscape; build-vs-integrate exploration | Environment: strong; Information: conditional/strong when external data access matters; Work: conditional | `public-apis/META.md` |
+| `recursive-prerequisite-discovery` | focused-topic | bounded source-informed assessment; 25 local mechanical tests re-run; no live-agent efficacy/integration validation; original-source recovery limitation explicit | prerequisite vs decomposition; conditional methods and AND/OR; agent-relative actionable frontier; unfinished inquiry/return-to continuity; proposal vs accepted state; prototype vs reasoning validity | Work/Information: strong candidate; Actors/Environment and Binding/Standing/Control/Transition: cross-boundary relevance; not Foundation adoption | `recursive-prerequisite-discovery/META.md` |
 
 ## Selection guidance
 
@@ -55,6 +56,7 @@ Potential candidates:
 - `anthropic-ai-native-sdlc-playbook` for real operational producer/reviewer/human-gate patterns, transitive agent authority, tiered autonomy, artifact/gate dependencies and recurring maintenance work
 - `context-memory-harness-engineering`
 - selected agent material from `hands-on-large-language-models`
+- `recursive-prerequisite-discovery` for discovery-driven work, agent-level prerequisite reasoning, actionable-frontier selection and unfinished-inquiry continuity; the proposed storage architecture is not automatically adopted and mechanical tests do not verify agent reasoning
 
 These are discovery hints, not conclusions about final Foundation structure.
 
