@@ -1,77 +1,62 @@
 # SOUL Context — STATE
 
-**Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; DEVELOPMENT HANDOFF PREPARATION ACTIVE  
+**Durum:** ORIGINAL CONTEXT OBJECTIVE MET / PAUSED; FINAL DEVELOPMENT PLAN REVIEW COMPLETE  
 **Son güncelleme:** 2026-09-08  
 **Güncel hedef:** `batuhanozgun/soul-development-os_02`, `main`  
-**Checkpoint:** OLD CONSTRUCTION MESSAGE EXPLICITLY NOT SENT; NEW-REPOSITORY PLAN BRIEF PREPARED; NEW DISPATCH / PLAN / IMPLEMENTATION NOT OBSERVED.
+**Checkpoint:** NEW-TARGET PLAN RECEIVED AND DIRECTLY READ; APPROVED FOR IMPLEMENTATION WITH THREE REQUIRED AMENDMENTS; OWNER ADOPTION / IMPLEMENTATION NOT YET OBSERVED.
 
-## Güncel kullanıcı yönü ve yetki
+## Amaç ve sorumluluk
 
-Batu, önceki `DEVOS-CONSTRUCTION-PLAN-2026-09-07` mesajını **göndermediğini** bildirdi. Eski Codex çalışma düzenini toparlayamadığı için yeni proje repository'si `soul-development-os_02` oluşturduğunu ve hazırlığın buna göre yapılmasını istedi. Bu, yeni aktif hedefe geçiştir; eski repository'deki görev, mandat, READY veya deney durumunu yeni hedefe aktarma yetkisi değildir. Eski repository'nin silindiği/teknik olarak arşivlendiği de iddia edilmez.
+SOUL, kullanıcının istediği sonuç için işe uygun çalışma sistemini oluşturma, işletme, gerçek etkisini değerlendirme ve yetki altında uyarlama ürün hedefidir. Development OS bu ürünü araştırmak, tasarlamak, geliştirmek ve doğrulamak için kullanılacak çalışma düzenidir. Güncel devir, Development OS'yi geliştirmeye başlayacak ilk Codex çekirdeğinin kurulmasına yöneliktir; bütün Development OS veya SOUL ürününün tamamlandığı iddiası değildir.
 
-Güncel Research işi yeni hedefe uygun görev hazırlamaktır; hedefte uygulama veya Codex'e otomatik gönderim değildir. Dış akış korunur: hazırlanmış görev → Codex'in kendi iç incelemeleriyle tamamlanmış planı → Research'ün tek değerlendirmesini Batu'nun benimseyip iletmesi → exact kapsamda Codex'in kurulum/doğrulama/onarım ve normal Development OS devamı. Tek dış değerlendirme, iç mühendislik/test ihtiyacını kaldırmaz veya güvenli olmayan onayı zorunlu kılmaz.
+Araştırma ilk günden kullanılır. Koordinatör ve diğer aktörlerin bilgi/context, muhakeme, üretim, doğrulama, yetki, iletişim ve ortam kararları ilgili Foundation/studies ile değerlendirilir. Araştırma bulgusu otomatik mimari, kontrol veya uygulama yetkisi olmaz. Information, Work, Actors, Environment ve ilişkiler araştırma lensleridir; dört zorunlu klasör/ajan/servis değildir. Maddi iş yapan child kendi problemini düşünebilmeli, kaynak okuyabilmeli, itiraz edebilmeli ve gerçek çözüm/kanıt üretmelidir.
 
-## Amaç ve kaynak sınırı
+Batu'nun istediği dış akış: görev → Codex'in internally reviewed planı → Research'ün tek nihai değerlendirmesini Batu'nun benimseyip iletmesi → Codex'in kurulumu, iç doğrulama/onarımı ve bounded Development OS devamı. Bu turun nihai değerlendirmesi o tek review'dur. Rutin ikinci browser turu veya kullanıcıyı teknik mesaj taşıyıcı/test operatörü yapma planlanmaz. Gerçek owner kararları, platform onayları ve normal yeni Codex oturumu başlatılması farklıdır.
 
-SOUL, istenen sonuç için işe uygun çalışma sistemini oluşturma, işletme, gerçek etkisini değerlendirme ve yetki altında uyarlama ürün hedefidir. Development OS bu ürünü araştırmak, tasarlamak, geliştirmek ve doğrulamak için kullanılacak çalışma düzenidir. Şimdi planlanacak şey, Development OS'yi geliştirmeye başlayabilecek ilk çalışan Codex çekirdeğidir; SOUL ürününün tamamını veya bütün gelecek mimarisini bugün kurmak değildir.
+## Gelen plan — doğrudan gözlenen target
 
-Araştırma ilk günden kullanılır: koordinatör, diğer aktörler, kontrol, bilgi/context, iş, doğrulama, iletişim ve ortam kararları Foundation bulguları ve ilgili studies ile değerlendirilir. Araştırma statüsü mimari/uygulama kabulüne otomatik yükselmez. Information, Work, Actors, Environment ve ilişkiler araştırma lensleridir; dört zorunlu klasör/servis/ajan değildir.
+Kullanıcı Codex'in `PLAN-REVIEW-READY` cevabını ve yeni hedefin exact PLAN/EVIDENCE bağlantılarını iletti. Önceki hazırlığın gönderim/beklenti durumu artık bu gelen yeni planla aşılmıştır; eski gönderilmemiş repo göreviyle karıştırma.
 
-Maddi iş yapan alt ajanlar kendi görevlerini anlamalı, varsayım sorgulamalı, kaynağa inebilmeli, itiraz edebilmeli ve kapsam içinde gerçek çözüm/kanıt üretmelidir. Muhakeme yalnız koordinatöre yüklenmez. Ortak çekirdek + rol farkları veya sabit coordinator→developer sırası önceden kabul edilmiş mimari değildir. Yetkiler de rol etiketinden türemez.
+**Target repository:** `batuhanozgun/soul-development-os_02` — metadata id `1361557590`, private.  
+**Doğrudan gözlenen main:** `a91c7a956734580106139d5ce0ba8dd74660f161`.  
+**PLAN:** `work/devos-bootstrap/PLAN.md` — Git blob `7cd3dc1c303beb1e1b7cb1bd4a63ce23f224433d`.  
+**EVIDENCE:** `work/devos-bootstrap/EVIDENCE.md` — Git blob `98b74acee2426599c80343c2e4677320ac19193c`.  
+**STATE:** Git blob `a07f922d3d944690d31f1b7b4112b01a30aff5aa`.
 
-Research kaynak otoritesi `agentic-os-search` içinde kalır. Yeni Development OS'nin güncel işi/yetkisi kendi repository'sinde yaşar. Research burada yalnız geçişi ve tek review sorumluluğunu kaydeder; normal geliştirme state'ini kopyalamaz. `soul-production` ürün hedefidir; şimdi oraya yazma veya ürün kabulü yetkisi verilmez.
+PLAN'ın 262 satırı, EVIDENCE'ın 190 satırı ve aynı exact STATE tam okundu. Başlangıç `a3108fda8b2c5bc49cf919a83c0ce710127a6a91` ile doğrudan GitHub karşılaştırması iki commit, yalnız STATE/PLAN/EVIDENCE değişikliğini gösterdi. AGENTS ve 12 protokol değişmedi. Yeni hedefin R01–R08 / W01–W04 konu-bağımsız kontrolü ve kullanıcıya görünür `ID–Soru | Yanıt | Karar | Cevap` gösterimi korunuyor.
 
-## Yeni hedef — doğrudan gözlenen başlangıç
+Native iki plan incelemesi, düzeltilen üç bulgu, N01–N03 denemeleri ve yerel/uzak yayın gözlemleri target EVIDENCE'ta Codex'in kayıtlarıdır. Research kullanıcının yerel runtime'ını yeniden çalıştırmadı. N02-a3 işlem başlamadan önceki turn interruption, N03-a2 düzenli geçici dosya yazma/devir kanıtıdır; çalışan writer/subprocess kesintisinin doğrulaması değildir. K01–K12 kurulum testleri planlandı fakat çalıştırılmadı. Yeni sistem kurulmadı, yeni genel uygulama/devam grant'ı target STATE'te henüz verilmiş değil.
 
-8 Eylül 2026 GitHub bağlantısıyla gözlenen:
+## Tek nihai değerlendirme
 
-- Repository: `batuhanozgun/soul-development-os_02`; id `1361557590`; private; varsayılan dal `main`.
-- HEAD: `a3108fda8b2c5bc49cf919a83c0ce710127a6a91`.
-- Tree: `46ffd4fc9d4f37d2e07c37b38ccd563c866c142f`; recursive tree yanıtı `truncated=false`.
-- 14 izlenen dosya: `AGENTS.md`, `STATE.md`, altı `devos-agent/protocols/reasoning/*.md`, altı `devos-agent/protocols/work-tracking/*.md`.
-- Bu tree'de ürün kodu, `work/` paketi veya `.codex/` config'i yok.
-- AGENTS blob'u: `95296d64c523803d4e3d1b628579327559cadbbf`.
-- STATE blob'u: `9ab8b2e39e0b76d499157c07002afadd6612ad84`.
+**Review ID:** `DEVOS02-FINAL-REVIEW-2026-09-08`.  
+**Hüküm:** ÜÇ ZORUNLU UYGULAMA DÜZELTMESİYLE UYGULAMAYA UYGUN.  
+**Canonical review:** `current/reviews/2026-09-08-devos02-plan/REVIEW.md`.  
+**Review yayın commit'i:** `ceb2dd6b725d0b6a00e113315f5439e5493a03ed`.  
+**Review Git blob:** `e221966185ca145584daa6db3ec610cc9b803f7f`.
 
-AGENTS konu-bağımsız yönlendiricidir: Düşünme/Muhakeme R01–R06; İş Takibi R07–R08 ve W01–W04. Kullanıcı tarafından istenen görünür tablo `ID–Soru | Yanıt | Karar | Cevap` biçimindedir. Bu başlangıcı eski DO-01–08 kontrolüyle karıştırma veya hazırlık sırasında yeniden yazma.
+Ayrıntılı değerlendirme ve bağlayıcı düzeltme önerisinin tek evi REVIEW'dur. Kısa retrieval özeti:
 
-Target STATE tam okundu. İçeriği son yönlendirme/gösterim/yayın işinin kaydıdır; genel proje amacı ve sürekli mandatın belirlenmediğini açıkça söyler. Bu nedenle yeni planlama işi kendi kullanıcı grant'ını ve amacını mevcut STATE'e kaydedecektir; olmayan `COORDINATION-HANDOFF` veya eski yetki kaydını aramayacaktır.
+- F01: eksiksiz evidence için sonuçlardan bağımsız zorunlu check kümesi; boş/eksik/yanlış bağlanmış veya çalıştırılmamış kaydın sahte olumlu sonuca dönüşmemesi; tarihsel negatif kanıt ve kendi kapanışını önceden gerektirmeyen pilot.
+- F02: disk dosyaları, fiilen kullanılan rol/kontrol/ortam bağı ve yeni oturumun exact grant/iş yolunu birbirine bağlama; fixture testini bütün platform loader/izolasyon kanıtına yükseltmeme.
+- F03: gerçek canlı-yazıcı/kısmi-etki kesinti koşusunu I1'e, hedefteki I2 üretiminden önceye alma; stop isteği ile gerçek sonlanmayı ayırma; native kapasiteyi zorunlu doğrulamayı engellemeyecek biçimde kullanma.
 
-Research bu turda hedef AGENTS/STATE'i ve beş ilgili iş takibi protokolünü tam okudu: canonical-work-preflight, work-lifecycle, effects-and-authority, writers-and-delegation, research-use. Diğer hedef protokoller için tam içerik denetimi veya bütün kontrol sistemine yeni READY hükmü verilmedi. Native çalışma/yayın beyanları hedef STATE'in kayıtlarıdır; kullanıcının yerel runtime'ı burada yeniden çalıştırılmadı. Yerel cwd/süreç/yazıcı durumu yalnız GitHub tree'den doğrulanamaz.
+Ana tasarım korunur: mevcut native delegation, üreticinin kendi mühendisliği/testi, ayrı-start değerlendirme, root integration, kontrollü tek yazıcı ve küçük stdlib araçları. Yeni protokol/framework/role-config zorunluluğu yaratılmadı. Başlangıç PLAN/EVIDENCE tarihsel onay nesnesi olarak değişmeden kalır; kabul edilen review/PLAN ilişkisi ve uygulama deltası target `work/devos-kernel/WORK.md`, sonuçlar aynı işin EVIDENCE dosyasına kaydedilir.
 
-## Tek güncel hazırlık
+## Sıradaki sorumluluk ve yetki sınırı
 
-**Task ID:** `DEVOS02-BOOTSTRAP-PLAN-2026-09-08`  
-**Brief:** `current/briefs/CODEX-DEVOS-CONSTRUCTION-PLAN.md`  
-**Statü:** NEW-TARGET PREPARATION COMPLETE / USER RELAY NOT YET OBSERVED.
+Research'ün bu değerlendirmesi owner grant değildir. Kullanıcıya verilecek tek mesaj, exact PLAN §11'deki `DEVOS02-KERNEL-IMPLEMENT-AND-CONTINUE-v1` kapsamını ve exact REVIEW F01–F03'ü benimsemesini ifade eder. Bu mesajın Codex'e iletildiği veya uygulamanın başladığı henüz gözlenmedi; olmuş sayma.
 
-Aynı brief yolu yeni hedef için bütünüyle yeniden hazırlanmıştır; bu sürüm yalnız eski repo adını değiştiren bir yama değildir. Önceki gönderilmemiş sürüm tarihçede korunur, yeni işin bağımlılığı değildir. Eski `de51ef60f1afbc1aab265727146c1e8d236ff4ec` ref'li mesaj yeniden kullanılmamalıdır.
+Benimseme sonrasında Codex I0–I5'i yürütür; düzeltme ve testlerin iç kapanışını kendisi yapar. K01–K12 actual kanıtla karşılanmadan normal işletime geçmez. Pilotun başarı koşulları pilot öncesinde sağlanmış sayılmaz. Başarılı ilk pilot tekrar edilmez; `DEVOS-SOURCE-CONTEXT-02` ilk normal devamdır. Dar Python/çalışma kaydı grant'ı bütün Development OS'nin mimarisi veya sınırsız gelecekteki geliştirme yetkisi değildir.
 
-Brief'in kullanıcı tarafından benimsenmesinden sonraki ilk aşama PLAN ONLY'dir. Planlama çıktısı yeni hedefte yalnız:
+Yeni ürün amacı, maddi scope/risk/bütçe, SOUL ürün kodu/release/kabul, yüksek etkili dış işlem, başka repository/dal, PR/merge/tag/force, sağlayıcı/credential/izin ve kabul/mandat genişletme Batu'da kalır. Mevcut AGENTS/protokol/.codex/global ayar değişimi bu uygulama grant'ında yoktur. Bunlar gerektiğinde Codex'in Batu'ya sunacağı gerçek owner kararlarıdır; Research'e rutin teknik koordinasyon iadesi değildir.
 
-- `STATE.md`;
-- `work/devos-bootstrap/PLAN.md`;
-- `work/devos-bootstrap/EVIDENCE.md`.
+Owner-benimsenmiş devirden sonra browser Research normal araştırma rolüne döner. Codex'in gerçek kurulum/işletim durumu hedef STATE/WORK/EVIDENCE içinde yaşar; Research bunu ikinci bir current authority olarak kopyalamaz. Teknik problemde bounded iç onarım veya güvenli checkpoint vardır; kritik gerçeği saklayarak PASS/approval üretmek yoktur. Gözetimsiz 24/7 yürütme veya sıfır hata garantisi verilmez.
 
-Ayrı eski mandat/handoff zinciri veya yeni branch kurulmaz. Planlama aşamasında AGENTS/protokol/global config/etkin rol yapılandırması değiştirilmez. Bu üç belgenin yeni private `main`e normal yayını ancak kullanıcı brief'i benimsediğinde verilen sınırlı planlama grant'ının parçasıdır; yeni sistem kurulumu veya genel main/kod kabulü değildir.
+## Geçmiş ve kaynak rotası
 
-Yeni sürekli bounded geliştirme mandatı ve gerekli proje-yerel kontrol/rol/kod/test değişiklikleri PLAN içinde önerilir, şimdi etkinleşmez. Sonraki owner-benimsenmiş exact değerlendirme bunları sınırlar. K01–K12 kabul kapsamı, iki tamamlayıcı native plan incelemesi, araştırma-karar izi, gerçek child muhakemesi/üretimi, kontrolün fiilî yüklenmesi, etki/yazıcı/kanıt/recovery ve yararlı pilot/normal devam şartları brief'tedir.
+Issued görev: `DEVOS02-BOOTSTRAP-PLAN-2026-09-08`; Research `4ad34d7429e5c63f2cbc327e79f3a0038c5568de` içindeki `current/briefs/CODEX-DEVOS-CONSTRUCTION-PLAN.md`. Bu şartname bu review sırasında değiştirilmedi. Önceki yeni-repo hazırlığı ve tüm baseline ayrıntıları [önceki STATE](https://github.com/batuhanozgun/agentic-os-search/blob/4ad34d7429e5c63f2cbc327e79f3a0038c5568de/research/soul-context/STATE.md) içinde korunur.
 
-Hazırlık için current research snapshot `29ab9b816843bab6f9e5f5b5815590fbac2b1713` üzerinden ilgili kaynaklar geri kazanıldı. Foundation ana durumu değişmemiştir; Hermes katalog kaydı ilerlemiştir ama araştırma kısmi kalır. Yeni aktarımdaki tek issued ref, brief ve başlangıç research kaynaklarını birlikte bağlayacaktır; eski bir operasyonel snapshot yeni hedefe üstün tutulmaz.
+Eski `soul-development-os` ve `DEVOS-CONSTRUCTION-PLAN-2026-09-07` gönderilmemiş mesajı tarihsel malzemedir, yeni hedefin mandatı/görevi değildir. Eski README/brief/review veya `current/DEVELOPMENT-OS-BOOTSTRAP.md` üzerinden eski operasyon zincirini yeniden başlatma. Canonical güncel rota: **bu STATE → exact REVIEW → yeni target'ın exact PLAN/STATE/WORK**.
 
-## Sıradaki Research sorumluluğu
-
-1. Yeni repo için hazırlanmış tek mesajı kullanıcıya ver. **Gönderildiğini varsayma.**
-2. Plan geldiğinde bunun yeni task/target'a ait olduğunu kontrol et; eski agent-control READY veya eski repo planını onun yerine değerlendirme.
-3. Yeni hedefin actual ref'inden PLAN, EVIDENCE, STATE ve maddi ek kaynakları tam oku. Planı kısa final özetinden veya yalnız protokol dosyalarının varlığından onaylama.
-4. Full issued brief, K01–K12, mevcut kontrolün korunması, yeni yetkinin kapsamı, araştırmanın gerçek etkisi, aktör muhakemesi, native kabiliyetler, kanıt/etki ayrımı ve non-circular pilot/devam yoluna karşı tek nihai değerlendirme yap.
-5. Düzeltme gerekiyorsa exact ve iç doğrulama koşullarıyla uygulanabilir olsun; rutin bir ikinci browser döngüsü planlama. Güvenli kararın önünde çözülemeyen kritik olgu varsa onu saklayıp onay verme.
-6. Araştırma görüşü owner yetkisi değildir. Batu'nun benimsemesi/iletmesi sonrasında Codex gerçek uygulama ve testten sorumludur; plan onayı runtime başarısı değildir. Gerçek owner kararları korunur, rutin teknik işler kullanıcıya geri yüklenmez.
-
-Bu tur yeni hedefe yazmadı, Codex görevini göndermedi, sistemi kurmadı ve uygulama kabulü vermedi. Research AGENT/agent, Foundation ve studies içerikleri değiştirilmedi. Devir şartları gerçekten karşılandığında browser'ın rutin koordinasyon görevi sona erer; sırf plan hazırlanmış diye tam devir veya gözetimsiz çalışma ilan edilmez.
-
-## Tarihsel bağlam — yeni başlangıcın önkoşulu değil
-
-Eski `soul-development-os` için 7 Eylül gözlemi `7800f37a563f56d3d712202d6737d19d1ff510eb`, dar agent-control READY ve önceki deney/mandat ayrımları tarihseldir. Eski başarısız/çalıştırılmamış sonuçlar yeniden etiketlenmez, yeni repo işine dönüştürülmez.
-
-Tam önceki checkpoint ve kaynak kimlikleri Git tarihindeki [önceki STATE](https://github.com/batuhanozgun/agentic-os-search/blob/de51ef60f1afbc1aab265727146c1e8d236ff4ec/research/soul-context/STATE.md) içinde korunur. `current/DEVELOPMENT-OS-BOOTSTRAP.md` ve eski reviews/briefs, predecessor amaç/gerekçe ve eski bootstrap'ın tarihsel malzemesidir. Güncel hedef/iş için bunlardan değil **bu STATE → güncel brief → yeni target STATE** yolundan başla.
+Bu tur target'a yazmadı, kontrol dosyalarını değiştirmedi ve sistemi çalıştırmadı. Research tarafında yalnız nihai değerlendirme ve bu continuity kaydı yayımlandı. Foundation/studies araştırma içerikleri ve agent-control kuralları değişmedi.
