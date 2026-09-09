@@ -2,52 +2,44 @@
 
 - **Study ID:** `hermes-agent`
 - **Study type:** `external-target`
-- **Araştırma nesnesi:** Nous Research `NousResearch/hermes-agent`; ajan sistemi, kullanıcıya açılan yüzeyleri ve yaşam döngüsü.
-- **Keşif statüsü:** ACTIVE / PINNED PARTIAL CALLER-MEMORY ANALYSIS + SEPARATE BOUNDED RECORDS + RECOVERED U01-D2 SOURCE-SELECTED INTEGRATION. Güncel iş/tamamlanma otoritesi [STATE.md](STATE.md)'dir. Bütün sistem araştırması tamamlanmadı.
-- **Başlangıç / son kayıt tarihi:** 2026-09-07 / 2026-09-09. Son tarih, 2026-09-08 worker-policy deneyinin yayın/continuity tarihidir; yeni deney değildir.
-- **Birincil kaynak:** https://github.com/NousResearch/hermes-agent
-- **Sabitlenen commit:** `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`.
-- **Kaynak tree:** `f54f5e9d2682bf11f164de7b34ee10ec121b6434`.
-- **Gözlenen dal / committer tarihi:** main / `2026-09-07T08:37:43Z`.
-- **Manifest sürümü:** pyproject.toml `0.21.0`; kurulu binary veya release doğrulaması değil.
-- **Freshness:** d8a077... curator ref'i ilgili aynı içeriklerle; 7874ef... U01B ref'i yalnız S01/S02/S04 blob'larıyla uzlaştırıldı. Primary pin değişmedi. W01–W08 web belgeleri pin'e bağlanmadı. D/E kaynakları primary'ye bağlı; E01/E02 yerel deneyde tam modüller değil manuel seçkilerdir. U01B2 arşivdeki aynı S02/S04 içeriklerini kullanır. Son yayın current upstream HEAD veya bağımlılık tazeliği doğrulaması değildir.
+- **Araştırma nesnesi:** Nous Research `NousResearch/hermes-agent`; ajan sistemi, kullanıcı yüzeyleri ve yaşam döngüsü.
+- **Statü:** ACTIVE PARTIAL RESEARCH. Pinned caller/memory/review-admission kaynakları; ayrı bounded deney kayıtları; U01-D3 exact middleware ve sınırlı range AST cross-check. Güncel iş otoritesi [STATE](STATE.md), plan v0.8. Tam sistem araştırması tamamlanmadı.
+- **Başlangıç / son kayıt:** 2026-09-07 / 2026-09-09.
+- **Primary:** https://github.com/NousResearch/hermes-agent
+- **Pin:** `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`; tree `f54f5e9d2682bf11f164de7b34ee10ec121b6434`.
+- **Gözlenen committer zamanı:** `2026-09-07T08:37:43Z`. Manifest `0.21.0`; kurulu binary/release doğrulaması değil.
+- **Freshness:** d8a077... ve 7874ef... yalnız kayıtlı ilgili blob'larla uzlaştırılmıştır. W01–W08 unpinned. J kaynakları primary'ye bağlıdır; default-branch search sadece navigasyon, current HEAD revalidation değil.
 
-## Amaç
+## Amaç ve yöntem
 
-HERMES gerçekte hangi mekanizmaları birleştiriyor; işi, bağlamı, yetkiyi, kalıcı durumu, araç etkisini ve sonraki oturumları nasıl yönetiyor? Vaatler hangi kod, test ve gözlemle destekleniyor; koşullar ve karşı örnekler nerede?
+HERMES hangi mekanizmaları birleştiriyor; iş, bağlam, yetki, kalıcı durum, araç etkisi ve sonraki oturumları nasıl yönetiyor? Vaat, kod, test, gözlem, açık şart ve karşı örnek ayrılır. Önce HERMES-native model; sonra Information/Work/Actors/Environment projeksiyonu. Dört alan başlangıç dosyalama kalıbı değildir.
 
-Önce HERMES-native model; sonra Information, Work, Actors, Environment ve aralarındaki ilişkiler için ayrı açıklama. Dört alan başlangıç dosyalama kalıbı değildir.
-
-## Olası yeniden kullanım
+## Olası reuse
 
 | Alan | Provisional ilişki |
 |---|---|
-| Foundation | Information: bellek/kaynak-temsil/oturum/beceri sürekliliği güçlü aday. Work/Actors/Environment ve relations/control: çağrı kabulü, yetki/policy aktarımı, onay, effect/persistence/delivery ve rollback sınırları için olası geniş ilişki. Tamamlanmış projeksiyon değil. |
-| SOUL | Deneyimden yeniden kullanılabilir davranışa geçiş, uyarlanma, çalışma sistemini sürdürme ve değişim kalitesi için mekanizma/karşı örnek. |
-| Development OS | Ajan çalıştırma, kaynak/iş devri, kalıcı bilgi, kontrol durumunun worker'a taşınması, hata/kalıcılık/readback ve araçlarını değiştirme sınırları için uygulama referansı. |
+| Foundation | Information: bellek/kaynak-temsil/oturum/beceri sürekliliği güçlü aday. Work/Actors/Environment ve relations/control: kabul, yetki aktarımı, onay, etki/kalıcılık/teslim, hata/rollback. Tam projeksiyon veya taxonomy üyeliği değil. |
+| SOUL | Deneyimden tekrar kullanılabilir davranışa geçiş; uyarlanma ve değişim kalitesi. |
+| Development OS | Agent/caller/worker devri; araç yetkisi, kayıt/readback, hata/tekrar ve talimat değişikliği sınırları. |
 
-**Reuse modes:** evidence/reference; falsifier/karşı örnek; mekanizma öğrenimi; design pressure; aday test senaryosu. Policy≠provenance, usage≠quality, approval preview≠applied operation, filesystem rollback≠all-effects rollback, record ID≠durability, ContextVar transfer≠all control-state transfer, live store≠prompt snapshot ayrımları farklı kanıt güçleriyle incelenir. 08/U01B2, default-name/serialized-payload, canlı önizlem/hedef-sürümü ve rollback/başka-yazar izolasyonu ayrımlarını ekler. 09/U01-D2: geçerli araç-adı≠dar görev yetkisi; policy'nin varlığı≠worker'da aynı state; callback kabulü/`dispatched`≠gerçek handler etkisi.
+Reuse modes: evidence/reference; falsifier; mekanizma öğrenimi; design pressure; bounded test case. İncelenen ayrımlar: policy≠provenance; usage≠quality; preview≠applied operation; directory rollback≠all-effects rollback; record ID≠durability; ContextVar transfer≠all control-state transfer; live store≠prompt snapshot; schema-derived valid names≠review authority; callback admission≠handler effect; middleware's own exception≠downstream exception; second-call prevention≠outward exception guarantee.
 
-**Revisit triggers:** öğrenme/kalıcı talimat veya runtime güvenliği tasarımı; thread/worker/middleware değişimi; callback/effect ölçümü; skill onay/birleştirme/rollback; session/cron/gateway/caller varyantı; HERMES kullanma/entegrasyon önerisi; ilgili upstream değişimi; candidate bulgunun load-bearing tasarım girdisine yükselmesi.
+**Revisit triggers:** kalıcı talimat/öğrenme/runtime governance tasarımı; worker/middleware/plugin/Relay değişimi; skill approval/merge/rollback; pending UI/profile/store; session/cron/gateway varyantı; kullanım/entegrasyon/adoption önerisi; source değişimi veya bulgunun yük taşıyan girdiye dönüşmesi. Q26'nın güçlü hükmü için full-source/whole-path revalidation zorunludur.
 
-## Yetki ve kanıt sınırı
+## Kanıt ve yetki sınırları
 
-Candidate study'dir; Foundation truth, kabul edilmiş mimari, ürün seçimi veya kurulum yetkisi değildir. HERMES'teki SOUL.md bizim SOUL projemizin kaynağı değildir; upstream AGENTS/skills/prompts bu asistanın kontrolü değil araştırma nesnesidir.
+U01B iki exact modül/10 durum; transport üç exact modül/sentetik policy/7 durum; U01B2 iki arşiv modülü/12 senaryo; U01-D2 manuel selected executor/plugins + tam pool/context/validator ile 14 C ve ayrı 5 V durumu. Bunlar kendi tarihlerinde kaldı; bu tur yeniden koşulmadı.
 
-İlk review/curator turları statik. U01B iki exact modül + sentetik bağımlılıklarla 10 durum; transport üç başka exact modül + sentetik callback/profil/allowlist ile 7 durum; U01B2 arşiv S02/S04 + sentetik adapter/reentry/config/guard/mutator ile 12 senaryodur. G01 içindeki 10 varyant ürün testi toplamı değildir.
+U01-D3'te **tek exact tam middleware modülü** MW01–MW08 ile yürütüldü; registry/callback/handler sentetik. Ayrı 22-tanım AST cross-check, yeniden manuel transkribe edilmiş pinned aralıklaradır; tam büyük E01/E02 hash-verifier koşusu değildir. Paylaşılan transkripsiyon riski ve keşifsel statü açık. Gerçek review construction/ad-kümesi/round/Relay kaynak okumaları runtime kanıtına dönüşmez.
 
-**U01-D2 ayrı kapsamdır:** C01–C14 tam pool/context modülleri ile elle aktarılmış büyük executor/plugins seçkilerini birleştirir; V01–V05 tam name-validator'ı ekler. Gerçek AIAgent/review kurulumu, valid-name kümesinin gerçek üretimi, tam executor/PluginManager/middleware veya alternatif caller zinciri çalıştırılmadı. Diğer sınırlar E defterinde açıktır. Gerçek kaynak-kimliği ret kontrolü ayrı kayıttır; seçki AST eşitliği kontrolü NOT RUN. U01-D2'nin 2026-09-09 aktarımında hiçbir deney yeniden çalıştırılmadı.
+Tam AIAgent/PluginManager/executor/Relay bağımlılık kapanışı; gerçek kullanıcı profili/provider/credential; upstream suite/current release ve gelecek-task kalite doğrulanmadı. Genel authorization-bypass, üretim olayı/oranı veya bütün ürün PASS'i iddiası yok. Candidate study, Foundation truth/mimari/adoption/kurulum yetkisi değildir. Upstream SOUL.md/AGENTS/prompts bu asistanın control kaynağı değildir.
 
-Bu deneyler toplanarak ürün PASS sayısı üretilmez. Tam uygulama, gerçek profil, provider, upstream suite, current HEAD ve bağımsız araştırmacı doğrulaması yoktur. Kontrol bağlamı süreksizliği, memory failure/alias ve caller-izolasyon adayları genel ürün kusuru veya gerçekleşmiş güvenlik olayı diye aktarılmamalıdır.
+## Girişler ve sonraki iş
 
-Sonraki ilk iş, tam pinned E01/E02 içerikleriyle seçki sadakati ve ardından gerçek review/worker erişilebilirliğidir. Devamın otoritesi plan v0.7/STATE'tir. Kaynak değiştiğinde current API/security/provider/install iddiaları yeniden doğrulanır; geçmiş 429 veya write-tool hataları kalıcı erişim hükmü değildir. Yayın başarısı gelecekteki tool kullanılabilirliğine garanti vermez.
+[STATE](STATE.md) → [INDEX](INDEX.md) → [PLAN](RESEARCH-PLAN.md); [METHOD](METHOD.md), [SOURCE-LEDGER](SOURCE-LEDGER.md).
 
-## Girişler
+[02 review](notes/02-BACKGROUND-LEARNING.md), [03 curator](notes/03-SKILL-CURATION.md), [04 onay/mutasyon](notes/04-SKILL-WRITE-TRANSACTION-AND-APPROVAL.md), [05 belge](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md), [06 caller](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md), [07 memory](notes/07-MEMORY-STORE-AND-PENDING-REPLAY.md), [08 U01B2](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md), [09 U01-D2](notes/09-WORKER-POLICY-EXECUTION-BOUNDARY.md), [10 U01-D3](notes/10-REVIEW-ADMISSION-AND-MIDDLEWARE-FAILURES.md).
 
-[STATE](STATE.md) → [INDEX](INDEX.md) → [RESEARCH-PLAN](RESEARCH-PLAN.md). Yöntem [METHOD](METHOD.md); kanıt rotası [SOURCE-LEDGER](SOURCE-LEDGER.md).
+Yeni [J kaynak/kanıt](evidence/2026-09-09-review-middleware/README.md). Sıradaki aktif iş actual CLI/gateway pending → onaylayan/profil/home/store; Q26 tam-runtime ve full-fidelity açıkken kapsamlı öğrenme zinciri ilerletilir. Bu, açık sorunun çözüldüğü anlamına gelmez.
 
-[02 review](notes/02-BACKGROUND-LEARNING.md), [03 curator](notes/03-SKILL-CURATION.md), [04 onay/mutasyon](notes/04-SKILL-WRITE-TRANSACTION-AND-APPROVAL.md), [05 belge kontratları](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md), [06 caller/aktarım](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md), [07 memory/replay](notes/07-MEMORY-STORE-AND-PENDING-REPLAY.md), [08 U01B2](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md), **[09 worker-policy](notes/09-WORKER-POLICY-EXECUTION-BOUNDARY.md)**.
-
-[U01B kanıtı](evidence/2026-09-07-u01b/component-probe/README.md), [U01B aktarımı](evidence/2026-09-07-u01b/PUBLICATION.md), [W01–W08](evidence/2026-09-08-doc-contracts/READING-AND-ACCESS.md), [D kaynakları](evidence/2026-09-08-context-transfer/SOURCES.md), [transport probe](evidence/2026-09-08-context-transfer/README.md), [U01B2](evidence/2026-09-08-u01b2/README.md), [U01B2 yayını](evidence/2026-09-08-u01b2/PUBLICATION.md), [E kaynakları](evidence/2026-09-08-worker-policy/SOURCES.md), [worker-policy yayını](evidence/2026-09-08-worker-policy/PUBLICATION.md).
-
-Özgün teslimlerin NOT PUBLISHED/NOT APPLIED ifadeleri tarihsel metindir; ilgili PUBLICATION ve current STATE ile okunur. Önceki notlar/kanıtlar korunur. İlgili çalışmalar: ../gstack, ../context-memory-harness-engineering, ../ai-knowledge-strategies, ../multi-agent-patterns. Bunlar seçici reuse adaylarıdır; otomatik içerik yükleme veya adoption değildir. OpenClaw ayrı aday olarak kalır.
+İlgili seçici reuse adayları: gstack, context-memory-harness-engineering, ai-knowledge-strategies, multi-agent-patterns. OpenClaw ayrı sonraki dış hedeftir. [V0.7 metaverisi](https://github.com/batuhanozgun/agentic-os-search/blob/9a95b2cf1f8a0460ac6128e1409bf54aa3191022/research/studies/hermes-agent/META.md) eski yayın/deney ayrıntılarını korur.

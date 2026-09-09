@@ -1,46 +1,45 @@
 # Hermes Agent — Açık sorular
 
-**2026-09-09 / ACTIVE / plan v0.7.** Sorular üretimde doğrulanmış kusur listesi değildir. H/S/W geçmişi [SOURCE-LEDGER](SOURCE-LEDGER.md); D kaynakları [caller defteri](evidence/2026-09-08-context-transfer/SOURCES.md); E/C/V kayıtları [worker-policy defteri](evidence/2026-09-08-worker-policy/SOURCES.md). Önceki tam metin [v0.6 snapshot](https://github.com/batuhanozgun/agentic-os-search/blob/36f1b7e6ae07da5c1d9d57ff9633d48473c42537/research/studies/hermes-agent/OPEN-QUESTIONS.md) içinde korunur.
+**2026-09-09 / ACTIVE / plan v0.8.** Sorular üretimde doğrulanmış kusur listesi değildir. [Birikimli defter](SOURCE-LEDGER.md), [D caller](evidence/2026-09-08-context-transfer/SOURCES.md), [E/C/V](evidence/2026-09-08-worker-policy/SOURCES.md), [J/MW](evidence/2026-09-09-review-middleware/SOURCES.md). Önceki ayrıntılı soru metni [v0.7 snapshot](https://github.com/batuhanozgun/agentic-os-search/blob/9a95b2cf1f8a0460ac6128e1409bf54aa3191022/research/studies/hermes-agent/OPEN-QUESTIONS.md) içindedir.
 
 | ID | Açık ayrım / mevcut ilerleme | Sonraki kaynak / karşı sınama |
 |---|---|---|
-| Q01 | Review trigger/manual refine/nudge/API aynı mı? | Turn prologue nudge + facade cancel callsite görüldü; finalize/manual/alternate yollar açık. |
-| Q02 | Whitelist actual çağrıda nerede tüketiliyor? | 06 source trace; 09 selected gerçek tüketici/worker ile ilerledi. Tam kurulum ve telafi edici callsite için Q26/Q29. |
-| Q03 | Read/preview/approve/write hedef sürümü aynı mı? | H22/S01–S04 farkı ve U01B2 canlı diff kanıtı; actual fuzzy/locking/replay/UI binding açık. |
-| Q04 | Pending saklama hatasında kullanıcı ne görür? | U01B D05 korunur; actual UI/restart/disk hata dağılımı açık. |
-| Q05 | Proposer origin, insan onayı, apply ve ownership nasıl bağlanır? | D17/D15 payload tabanlı replay; actual UI/profile/skill ownership ve U01B2 default_name yeterliliği açık. |
-| Q06 | Cancellation sonrası eski worker/shared store? | D12 cancel, D04 worker ve D16 lock/reload; actual stop/çok-caller eşzamanlılığı açık. U01B2 araya-giren yazı gerçek thread yarışı değildir. |
-| Q07 | Sonraki oturum/rebuild yeni bilgiyi ne zaman yükler? | D16 live/frozen ve D13/D14 restore/wire; actual invalidation/reload readback'i açık. |
-| Q08 | Aynı/farklı model digest'inde kayıp ve ders kalitesi? | H04 + eval/trajectory; eşdeğerlik/gelecek-task yarar doğrulanmadı. |
-| Q09 | Curator merge/rollback semantik olarak ne korur? | H18/H19, ledger/backup/sync; absorbed_into yeterli oracle değil. |
-| Q10 | Session-search özetleme/raw retrieval farkı? | Actual implementation/schema/test; D14 wire replay arama motorunun kanıtı değil. |
-| Q11 | Terminal/OS/adapter/session izolasyon sınırları? | H13 → backend/gateway/UI; cooperative control sandbox sayılmaz. |
-| Q12 | Büyük açıklanmamış bölgeler yeni mekanizma getiriyor mu? | F01–F12; recursive envanter ve apps/native/compat/eval açık. |
-| Q13 | Boş curator aday kümesi skip literal farkı? | H18 statik aday; test kalanı/kontrollü karşı örnek; default-off ayrımı. |
-| Q14 | Curator bundled/prune/dry-run prompt vs guard? | H16–H20/H05, actual curator dispatch; banner mekanik yasak değil. |
-| Q15 | Backup/report/cron-reference hatasında ne kalır? | Gerçek ledger/backup/cron/restart; statik dal canlı olay değildir. |
-| Q16 | Nested batch operations kısa curator raporuna ne taşır? | H18 + S01/S02 actual trace/report/cron; bu tur kapanmadı. |
-| Q17 | Skill batch exception actual dış caller'da ne olur? | D04/D05/D22 wrapper statik; U01B/U01B2'nin dar exception kanıtı tam dispatch ile bağlanmadı. |
-| Q18 | Ortak approval preview bütün işlemleri temsil ediyor mu? | U01B batch/rewrite ve U01B2 target-version bulguları; her UI için read/preview/apply ayrı. |
-| Q19 | Dizin rollback'i ile ledger/cache/ownership/sync ilişkisi? | Gerçek yan etkiler ve başka-yazar kontrolü; sentetik event listesi gerçek audit/network değil. Sıralama global kilit sayılmaz. |
-| Q20 | Özel memory ile genel registry ortak denetimi paylaşıyor mu? | D03/D04 ortak dış kontrolü gösterdi; local store kontrolsüz varsayımı desteklenmedi. Tam worker policy Q26 açık. |
-| Q21 | Error JSON üretmek telafi de yapıyor mu? | D04/D05/D22 + S02; actual effect/readback/dependency closure açık. D2 hook/approval hataları rollback deneyinin yerine geçmez. |
-| Q22 | Frozen memory ve aynı-ID context revizyonu? | D16 snapshot, D13/D14 cached/wire; compression reload ve gerçek istek gözlemi açık. |
-| Q23 | Command approval olayları ile skill/memory pending aynı mı? | Observer/request/delivery/apply ayrı; D17 actual bütün UI değildir. Selected approve-directive sonucu pending UI'ye genellenmez. |
-| Q24 | Profile/home, DB contention ve local cache tutarlılığı? | Deney profilleri sentetik; gerçek resolver/target/çok-process/store-lock kapsamı açık. |
-| Q25 | Raw/archive/api_content/search/review hangi kanıtı korur? | D14 sidecar/substitution; bütün taşıma/compaction/search eşdeğerliği ve summary failure açık. |
-| Q26 | Review thread whitelist'i worker precheck'inde var mı? | P transport + D2 C/V selected-function evidence. Parent'ta ret, worker'da liste yok; explicit binding ret getirdi. Tam E01/E02 seçki sadakati NOT RUN; ardından gerçek review/ara kontrol/worker erişilebilirliği ilk iş. |
-| Q27 | Memory yazımı başarısızsa canlı store ile disk ayrışıyor mu? | 07/M01 assignment-before-write statik; file/live/snapshot/result ve sonraki reload readback'i NOT RUN. |
-| Q28 | Batch content/new_text alias'ları aynı denetimi alıyor mu? | 07/M02 statik; zararsız sentinel/taklit scanner, sonra actual load-time sınırı ayrı. |
-| Q29 | Gerçek review'un geçerli-ad kümesi dar yetki kümesine eşit mi? | E06 tam modül + sentetik holder V01–V05: ad/JSON reddi çalıştı; geniş kabul whitelist yerine geçmedi. Actual fork/valid-name üretimi ve compensating controls açık. |
-| Q30 | Hangi yürütme işareti gerçekten etkiyi gösteriyor? | D2 C01/C05/C07 ve C12: dispatched callback kabulünü gösterirken handler sayısı sıfır veya yalnız bir olabilir. Tam caller gözleminde callback/policy/handler/effect/persistence ayrı oracle'larla izlenmeli. |
+| Q01 | Review trigger/manual refine/nudge/API aynı mı? | Prologue/cancel/run_review_fork kaynakları var; finalize/manual/alternate yollar açık. |
+| Q02 | Whitelist actual çağrıda nerede tüketiliyor? | 06/09/10 tüketici/kurulum bağı; full runtime Q26. |
+| Q03 | Read/preview/approve/write aynı hedef revizyonu mu? | U01B2 canlı diff; actual fuzzy/locking/replay/UI binding. |
+| Q04 | Pending saklama hatasında kullanıcı ne görür? | Eski U01B kanıtı; actual UI/restart/disk hata dağılımı açık. |
+| Q05 | Proposer origin, insan onayı, apply ve ownership? | Actual CLI/gateway kimliği, home/profil ve live/fresh store ilk aktif kaynak işi; ortak D17/D15 yetmez. |
+| Q06 | Cancellation sonrası eski worker/shared-store? | Kaynakta cancel/lock var; actual stop/çok-caller eşzamanlılığı açık. |
+| Q07 | Sonraki session/rebuild bilgiyi ne zaman yükler? | D16 frozen/live ve D13/D14; actual invalidation/reload readback açık. |
+| Q08 | Aynı/farklı model digest kaybı ve ders kalitesi? | H04 + eval/trajectory; gelecek-task yarar doğrulanmadı. |
+| Q09 | Curator merge/rollback semantik olarak ne korur? | H18/H19, ledger/sync; absorbed_into tek oracle değil. |
+| Q10 | Session-search summary/raw farkı? | Actual arama implementasyonu ve testleri; wire replay kaynakları yeterli değil. |
+| Q11 | Terminal/OS/adapter/session izolasyonu? | Backend/gateway/UI; cooperative policy sandbox sayılmaz. |
+| Q12 | Açılmamış alanlar yeni mekanizma getiriyor mu? | F01–F12, recursive envanter/apps/native/compat/eval. |
+| Q13 | Boş curator aday kümesi skip literal farkı? | H18 static aday; test kalanı ve default-off sınırı. |
+| Q14 | Curator bundled/prune/dry-run prompt vs guard? | Actual curator dispatch; banner mekanik yasak değil. |
+| Q15 | Backup/report/cron-reference hatasında ne kalır? | Ledger/backup/cron/restart; gerçek koşu açık. |
+| Q16 | Nested batch operations curator raporuna ne taşır? | H18/S01/S02 actual report/cron bağı açık. |
+| Q17 | Skill batch exception actual caller'da ne olur? | J07 callback/downstream ayrımı şimdi bounded koşuldu; gerçek skill disk rollback ile entegrasyon hâlâ yok. |
+| Q18 | Ortak preview bütün işlemleri temsil ediyor mu? | U01B/U01B2; her UI için read/preview/apply ayrı. |
+| Q19 | Directory rollback vs ledger/cache/ownership/sync? | Gerçek yan etkiler ve yazar dışlama; sıralama global kilit değil. |
+| Q20 | Özel memory/genel registry ortak denetim? | Ortak dış katman source-backed; full worker policy Q26 açık. |
+| Q21 | Error JSON telafi de yapıyor mu? | J07 error-origin/once davranışı disk telafisinin yerine geçmez. Actual mutator/dispatch/readback açık. |
+| Q22 | Frozen memory ve aynı-ID context revizyonu? | Compression/reload ve gerçek istek görünümü açık. |
+| Q23 | Command approval vs skill/memory pending? | Request/observer/delivery/apply ayrı; actual UI bağlantısı sırada. |
+| Q24 | Profile/home/DB/cache tutarlılığı? | Gerçek profile resolver/store ve caller bağlama; deney registry/profilleri sentetik. |
+| Q25 | Raw/archive/api_content/search/review görünümü? | Sidecar source-backed; tam temsil/compaction eşdeğerliği açık. |
+| Q26 | Review whitelist'i worker'da korunuyor mu? | Eski P/C/V + J03/J04/J05 source trace. 22 manuel-range AST eşleşti; full E01/E02 verifier NOT RUN. Bütün runtime/telafi kontrolleri açık, kaynak-bağımlı ileri doğrulama olarak tutulur. |
+| Q27 | Memory write failure live-store/disk ayrışması? | 07/M01 statik; file/live/snapshot/result/reload readback NOT RUN. |
+| Q28 | Batch content/new_text denetim eşdeğerliği? | 07/M02 statik; zararsız sentinel/taklit scanner sonra actual load-time sınırı. |
+| Q29 | Gerçek review valid names dar izne eşit mi? | J03 parent toolset aktarımı + J04 schema-derived names + ayrı whitelist, standart kurulumda eşitlenmiyor. Tüm later mutations/runtime'lar için hüküm yok. |
+| Q30 | Dispatched/handler/effect işaretleri neyi gösteriyor? | Eski C/V + MW06: ikinci next engellenebilir ama dışarı ilk sonuç dönebilir. Gerçek etki oracle'ı ayrı olmalı. |
+| Q31 | Middleware rolü ile hata sözleşmesi uyumlu mu? | Exact J07 MW02 erken kendi Exception'ında devam; MW03 short-circuit, MW04 downstream error, MW08 BaseException ayrı. Gerçek zorunlu policy eklentileri ve konfigürasyon henüz değerlendirilmedi. |
 
-## Kanıt ve ilerleme sınırı
+## Disposition ve sıra
 
-K01–K09 ilk olarak 05 notunda tasarlanmıştır. K03 transport alt sorusu önce üç-modüllü sentetik-policy probe ile, sonra D2'nin gerçek selected tüketici/worker ve tam name-validator köprüsüyle ilerledi. **Tam AIAgent/PluginManager/executor/profil ve bütün ara kontrollerin koşusu değildir.** K01/K02/K04/K05/K06/K07'de pinned kaynak kesitleri vardır; K08/K09 runtime sonucu yok. Plan v0.7 aşama ayrımlarını taşır.
+Q26/Q29 güçlü full-runtime iddiası kapanmadı. Constructor'ın dar ad-kümesiyle otomatik telafi ettiği açıklaması incelenen standart source yolunda desteklenmiyor; fakat gerçek bütün AIAgent/PluginManager/Relay/executor koşusu yok. Tam E01/E02 byte-hash/verifier NOT RUN; manuel-range cross-check bunu ikame etmez. İki transkripsiyonun ortak hata riski vardır.
 
-D2'nin elle aktarılmış seçkileri tam kaynaklarla otomatik AST eşitliği kontrolünden henüz geçmedi. `verify_excerpts.py` bu yüzden ilk somut kontrol, fakat eşitlik bulunsa bile davranışın gerçek review'da erişilebilirliği ayrıca araştırılır. U01-D2 publication hash kontrolü bu AST veya davranış kontrolünün yerine geçmez.
+V0.7'nin sınırlı ilerleme seçeneği kullanılarak ilk aktif iş Q05/Q23/Q24 actual pending CLI/gateway/profile/store'a geçti. Q26 yeni tam-source/bağımlılık erişimi, ilgili source değişimi veya load-bearing reuse olduğunda yeniden açılır. Aynı eski selected fixture'ların tekrar sayısı yükseltilmez. Bu sıra değişimi bir güvenlik ya da bütün U01 kapanışı değildir.
 
-Q26 ilk sıradadır ama çalışmayı tek bir güvenlik projesine dönüştürmez. Karşılayıcı kontrol veya farklı caller bulunursa çıkarım daraltılır. Q27/Q28 statik aday; üretim sıklığı/sızıntı/genel bellek güvensizliği iddiası yok. D21 provider dashboard helper'ı pending UI kapanışı değildir.
-
-Bir soru ancak kaynak/ref/kanıt sınırıyla notta cevaplanır. Okuma hatası ürün yetersizliği değildir. H22 ve run_agent eski erişim/ilk-okuma işi değildir. U01-D2'nin 14/5 durumları kaydedildi; yeni oturum bunları kayıp veya yapılmamış saymamalı. Tüm U01 ve gelecek-kullanım kapanmadan genel self-improvement verified/absent hükmü verilmez.
+J07 sekiz tanılayıcı durumunda fake registry/callback/handler vardır; tüm Hermes güvenliği/kalitesi ölçülmedi. 22 AST karşılaştırması yürütme senaryosu değildir. K01–K09'un tamamı koşulmuş sayılmaz; M01/M02 ve compression/curator deneyleri NOT RUN. Sayılar ürün PASS toplamı yapılmaz; bütün eski not/kanıtlar korunur.

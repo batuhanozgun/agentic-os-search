@@ -1,54 +1,33 @@
 # Hermes Agent — INDEX
 
-Bu dosya retrieval rotasıdır. Güncel iş/tamamlanma otoritesi [STATE.md](STATE.md), sınıflandırma ve reuse otoritesi [META.md](META.md)'dir.
+Güncel çalışma/tamamlanma otoritesi [STATE](STATE.md); sınıflandırma/reuse otoritesi [META](META.md). Bu dosya retrieval rotasıdır.
 
 | Soru | İlk kaynak |
 |---|---|
-| Neden araştırılıyor, kapsamı nedir? | [00-WHY-THIS-RESEARCH](00-WHY-THIS-RESEARCH.md) |
-| Neredeyiz, sırada ne var? | [STATE](STATE.md) → [RESEARCH-PLAN](RESEARCH-PLAN.md), v0.7 |
-| Dipten yukarı yöntem ve kapanış nasıl işliyor? | [METHOD](METHOD.md) |
-| Hangi kaynak gerçekten okundu veya çalıştırıldı? | [SOURCE-LEDGER](SOURCE-LEDGER.md) → ilgili H/S/W/D/E defteri |
-| Kaynak alanları ve eksik envanter nerede? | [STRUCTURE](inventory/STRUCTURE.md); güncel kaynak kapsamı için deftere dön |
-| İlk keşif neyi değiştirdi? | [01-ORIENTATION](notes/01-ORIENTATION.md) |
-| Deneyimden bellek/beceri değişikliğine geçiş nasıl işliyor? | [02-BACKGROUND-LEARNING](notes/02-BACKGROUND-LEARNING.md) |
-| Beceri bakımı, birleştirme, rapor ve geri alma ne yapıyor? | [03-SKILL-CURATION](notes/03-SKILL-CURATION.md) |
-| Onayda ne gösteriliyor; farklı hatalarda ne geri alınıyor? | [04-SKILL-WRITE-TRANSACTION-AND-APPROVAL](notes/04-SKILL-WRITE-TRANSACTION-AND-APPROVAL.md) |
-| İlk bileşen deneyinin kodu, sonuçları ve sınırları? | [U01B](evidence/2026-09-07-u01b/component-probe/README.md) |
-| İlk sohbet paketi nasıl repo'ya birleştirildi? | [U01B aktarımı](evidence/2026-09-07-u01b/PUBLICATION.md) |
-| Dispatch/bellek/replay için ilk ek belge sözleşmeleri? | [05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md); tarihsel K01–K09 tasarımı |
-| Belge turunda kod neden ilerlememişti? | [W01–W08 / tarihsel erişim](evidence/2026-09-08-doc-contracts/READING-AND-ACCESS.md); current erişim durumu değil |
-| Gerçek caller, ortak kontrol, worker, hata ve sonuç kaydı? | [06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md) |
-| Memory mutator, kilit/reload, snapshot ve pending replay? | [07-MEMORY-STORE-AND-PENDING-REPLAY](notes/07-MEMORY-STORE-AND-PENDING-REPLAY.md) |
-| İlk context/callback/allowlist aktarımı nasıl sınandı? | [Transport probe](evidence/2026-09-08-context-transfer/README.md) → CHALLENGE / harness / RESULT / MANIFEST |
-| Caller turunda hangi pinned modül ne derinlikte incelendi? | [D01–D22 defteri](evidence/2026-09-08-context-transfer/SOURCES.md) |
-| Onay payload'ı hedefi koruyor mu; canlı diff ve rollback sınırları? | [08 U01B2 girişi](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md) → özgün araştırma / RESULT / SPEC / probe |
-| U01B2 ZIP'i yayımlandı mı? | [U01B2 yayın kaydı](evidence/2026-09-08-u01b2/PUBLICATION.md) |
-| Gerçek seçili policy tüketicisi ile worker birlikte nasıl sınandı? | **[09-WORKER-POLICY-EXECUTION-BOUNDARY](notes/09-WORKER-POLICY-EXECUTION-BOUNDARY.md)** → [tam araştırma](evidence/2026-09-08-worker-policy/RESEARCH.md) |
-| Son deneyde tam modül, seçki ve taklit sınırı nedir? | [E01–E07 kaynak defteri](evidence/2026-09-08-worker-policy/SOURCES.md), [README](evidence/2026-09-08-worker-policy/README.md) |
-| 14 ana / 5 ek gözlem ve kimlik ret kontrolü nerede? | [RESULT](evidence/2026-09-08-worker-policy/RESULT.json), [VALIDATION-RESULT](evidence/2026-09-08-worker-policy/VALIDATION-RESULT.json), [IDENTITY-CHECK](evidence/2026-09-08-worker-policy/IDENTITY-CHECK.json) |
-| Son worker-policy ZIP'i repo'ya aktarıldı mı? | [PUBLICATION](evidence/2026-09-08-worker-policy/PUBLICATION.md) → [TRANSFER-CHECK](evidence/2026-09-08-worker-policy/TRANSFER-CHECK.json) |
-| Yeni oturumda ilk teknik kontrol nedir? | STATE → plan §4: tam pinned E01/E02 ile seçki sadakati; ardından gerçek review/worker erişilebilirliği. Aynı 14/5 fixture'ı tekrar üretmek değil. |
-| Hangi sorular hâlâ açık? | [OPEN-QUESTIONS](OPEN-QUESTIONS.md) |
+| Amaç, kapsam, yöntem? | [00-WHY](00-WHY-THIS-RESEARCH.md), [METHOD](METHOD.md) |
+| Neredeyiz, sıradaki yetkili iş? | [STATE](STATE.md) → [PLAN v0.8](RESEARCH-PLAN.md) |
+| Okuma/kaynak/yürütme kapsamı? | [SOURCE-LEDGER](SOURCE-LEDGER.md) → ilgili yerel defter |
+| Kaynak envanteri ve ilk keşif? | [STRUCTURE](inventory/STRUCTURE.md), [01](notes/01-ORIENTATION.md) |
+| Deneyimden memory/skill değişikliğine geçiş? | [02 review](notes/02-BACKGROUND-LEARNING.md) |
+| Beceri bakımı/merge/report/cron/geri alma? | [03 curator](notes/03-SKILL-CURATION.md) |
+| Skill onayı, mutasyon ve normal/istisna rollback? | [04](notes/04-SKILL-WRITE-TRANSACTION-AND-APPROVAL.md) |
+| İlk iki-modül/10-durum deneyi ve yayını? | [U01B](evidence/2026-09-07-u01b/component-probe/README.md), [aktarım](evidence/2026-09-07-u01b/PUBLICATION.md) |
+| İlk unpinned belge sözleşmeleri/K01–K09? | [05](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md), [W defteri](evidence/2026-09-08-doc-contracts/READING-AND-ACCESS.md) |
+| Ordinary caller/worker, ortak kontrol, sonuç kaydı? | [06](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md), [D defteri](evidence/2026-09-08-context-transfer/SOURCES.md) |
+| Memory mutator/kilit/reload/snapshot/pending replay? | [07](notes/07-MEMORY-STORE-AND-PENDING-REPLAY.md) |
+| Önceki ContextVar/callback/sentetik-policy aktarım deneyi? | [Transport probe](evidence/2026-09-08-context-transfer/README.md) |
+| Default-name payload/canlı diff/başka-yazar rollback? | [08](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md), [U01B2 kanıtı](evidence/2026-09-08-u01b2/README.md), [yayın](evidence/2026-09-08-u01b2/PUBLICATION.md) |
+| Gerçek selected whitelist/executor + tam name-validator C/V deneyleri? | [09](notes/09-WORKER-POLICY-EXECUTION-BOUNDARY.md), [worker-policy](evidence/2026-09-08-worker-policy/README.md), [yayın](evidence/2026-09-08-worker-policy/PUBLICATION.md) |
+| Gerçek review constructor/ad-kümesi/round/Relay bağı? | [10](notes/10-REVIEW-ADMISSION-AND-MIDDLEWARE-FAILURES.md) → [araştırma §3–5](evidence/2026-09-09-review-middleware/RESEARCH.md) |
+| Eski seçkiler kaynakla karşılaştırıldı mı? | [RANGE-FIDELITY](evidence/2026-09-09-review-middleware/RANGE-FIDELITY.json): 22 manuel-range AST eşleşmesi; tam-original verifier değil |
+| Gerçek middleware hata ve ikinci-call davranışı? | [MW01–MW08](evidence/2026-09-09-review-middleware/MIDDLEWARE-RESULT.json), [SPEC](evidence/2026-09-09-review-middleware/SPEC.md), [kod](evidence/2026-09-09-review-middleware/middleware_probe.py) |
+| Bu turun kaynak pin/aralık/yerel byte sınırları? | [J defteri](evidence/2026-09-09-review-middleware/SOURCES.md), [erişim](evidence/2026-09-09-review-middleware/ACCESS.md), [yayın](evidence/2026-09-09-review-middleware/PUBLICATION.md) |
+| Açık sorular ve Q26 neden hâlâ açık? | [OPEN-QUESTIONS](OPEN-QUESTIONS.md), [10 araştırması §7–8](evidence/2026-09-09-review-middleware/RESEARCH.md) |
 
-## Sentez katmanları
+## Statü ayrımı ve yeni oturum
 
-```text
-Pinned kaynak                 primary pin korunuyor; caller/memory ve selected worker-policy
-  ↓
-Mekanizma notları              U01 / U01-C / U01B / U01-D / U01-M / U01B2 / U01-D2
-Ayrı bileşen kanıtları         U01B, transport, U01B2; D2 selected-function + name-validator
-Ek belge sözleşmesi           U01-DOC / W01–W08; pin'e eşitlenmedi
-  ↓
-Tam review/worker entegrasyonu D2'nin artık sorusu; manuel excerpt AST kontrolü NOT RUN
-Native alt-sistem sentezleri   henüz yok; notlar tam aile kapanışı değil
-  ↓
-Sistemler arası ilişkiler      yerel bağlantılar; genel sentez yok
-  ↓
-Dört-alan projeksiyonu         henüz yok
-  ↓
-SOUL / Development OS ve CORE henüz yok
-```
+Pinned kaynak → mekanizma notları → sınırlı component/selected-function kanıtları. Native alt-sistem sentezleri, bütün ilişkiler, dört-alan/SOUL/DevOS ve CORE henüz yok. Toplam dosya/test sayısı tamamlanma ölçüsü değildir.
 
-Sayılar tamamlanma veya ürün PASS ölçüsü değildir. U01-C curator kimliği korunur; D2 önceki kaynak notlarını ve transport deneyini ikame etmez. 04'ün S-ID'leri U01B'ye; 02/03'ün H-ID'leri ana deftere; 05'in W-ID'leri belge defterine; 06/07'nin D-ID'leri D defterine; 09'un E/C/V kimlikleri worker-policy paketine bağlanır. U01B2'nin yerel deney kimlikleri bu defterlerle karıştırılmaz.
+U01-D3, eski C/V deneylerini tekrarlamadı. Gerçek review kurulum kaynağı ile middleware çalıştırması farklı statülerdir. `canonical-ranges` tam canonical modül değil, yeni manuel transkripsiyondur. Büyük orijinallerle hash + eski verify_excerpts.py koşusu hâlâ açık; 22 AST eşleşmesi bunu kapatmaz.
 
-Eski notlardaki 'yazılamadı/429/ilk sonraki dosya' ifadeleri kendi tarihsel turunu anlatır. U01B2 ve worker-policy özgün teslimlerindeki NOT PUBLISHED/NOT APPLIED ile eski plan ifadeleri ilgili PUBLICATION dosyalarıyla tarihsel bağlama alınır; current STATE'in yerine geçmez. Worker-policy/REPO-NOTE-09.md evidence içinde tarihsel taslaktır; güncel ve doğru göreli bağlantılı giriş notes/09'dur. Dokuz K kontrolünün tümü çalıştırılmış değildir. Son yayın yeni deney veya tamamlanmış HERMES sistemi değildir.
+İlk aktif iş artık actual pending UI/caller/profil/store'dur. Q26 full integration yeni materyalizasyon/bağımlılık veya yük taşıyan reuse gerektiğinde yeniden açılır; aynı seçili fixture'ları çoğaltma. 09'daki eski ilk-iş listesi bu current STATE/planın yerine geçmez. NOT PUBLISHED/eski erişim ifadeleri ilgili tarihsel tura aittir; paketler repo'da korunur, sohbet ZIP'i current çalışma yeri değildir.

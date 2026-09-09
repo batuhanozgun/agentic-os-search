@@ -1,8 +1,8 @@
 # Hermes Agent — Birikimli kaynak ve yürütme defteri
 
-**Son ek: 2026-09-09 / U01-D2 worker-policy tesliminin canonical yayını.** Birincil pin `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a` değişmedi. Current çalışma otoritesi STATE; defter kanıt/okuma rotasıdır.
+**Son ek: 2026-09-09 / U01-D3 review-admission, range cross-check ve exact middleware deneyi.** Birincil pin `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a` değişmedi. Current çalışma otoritesi STATE; defter kanıt/okuma rotasıdır.
 
-FULL tam kaynak okuması; SELECTED belirtilen kesit/sembol; LISTED yalnız topoloji. Hiçbiri kendi başına execution değildir. Eski tam okumalar veya deneyler yayın turunda yeniden yapılmış sayılmaz. Büyük façade'ların tüm metnine erişim, tüm dependency/compat yüzeyinin araştırma kapanışı değildir. Tam upstream modül kimliği, manuel excerpt kimliği ve çalışma kapsamı ayrı tutulur.
+FULL tam kaynak okuması; SELECTED belirtilen kesit/sembol; LISTED yalnız topoloji. Hiçbiri kendi başına execution değildir. Eski tam okumalar veya deneyler yeni turda yeniden yapılmış sayılmaz. Tam upstream modül kimliği, manuel excerpt/range kimliği ve çalışma kapsamı ayrı tutulur.
 
 ## H-kaynakları — önceki birikimli kayıt korunur
 
@@ -13,7 +13,7 @@ Primary pin'e göre yollar ve kimlikler:
 | H01 | README.md | c05112266746ff99a3326a62c38c33fbc08ecd23 | FULL, ilk + curator |
 | H02 | website/docs/developer-guide/architecture.md | 3640103c3de97ed7c01a3862b76b35371f9d5f06 | FULL, ilk + curator |
 | H03 | website/docs/user-guide/features/memory.md | 0c03f4e8cb897bbfd0af29375d7a245fa5751499 | FULL, ilk tur |
-| H04 | agent/background_review.py | 0e8e76ae235450f3e896a86951409cf82b7cca1e | FULL; caller turu D18 ile yeniden açıldı |
+| H04 | agent/background_review.py | 0e8e76ae235450f3e896a86951409cf82b7cca1e | FULL; caller turu D18, bu tur J03 selected tekrar |
 | H05 | tools/skill_manager_guards.py | 06df3cd695592fd2e582b49ce391d76fd137da3b | FULL, ilk + curator |
 | H06 | tools/skill_provenance.py | 3df9cf143045644310fa7d27a65666c8c23caf95 | FULL; caller turu D19 + dar execution |
 | H07 | tools/write_approval.py | f1e99b46e934595c002c2bc659143fcbc1f9fe8d | FULL; U01B/S04 + dar execution; ayrı U01B2 arşiv okuması/koşusu aşağıda |
@@ -33,7 +33,7 @@ Primary pin'e göre yollar ve kimlikler:
 | H21 | package.json | 406b73b205a32c1ddc7fd1dabfb02250efa5407f | FULL; Node manifest Python release'i değil |
 | H22 | tools/skill_manager_tool.py | 81d64b909b6b482654060b38b63802460b63314b | FULL via U01B/S01; eski orta aralık eksikliği kapanmış |
 
-[U01B aktarım öncesi ayrıntılı defter](https://github.com/batuhanozgun/agentic-os-search/blob/000f691b9a94607c9a8219961b4618eda0f1014f/research/studies/hermes-agent/SOURCE-LEDGER.md), [v0.5 tam defter](https://github.com/batuhanozgun/agentic-os-search/blob/a218acfc20e7ece488709e00a9762166ec970fba/research/studies/hermes-agent/SOURCE-LEDGER.md) ve [bu yayın öncesi defter](https://github.com/batuhanozgun/agentic-os-search/blob/36f1b7e6ae07da5c1d9d57ff9633d48473c42537/research/studies/hermes-agent/SOURCE-LEDGER.md) tarih/ref/aralık ve erişim olaylarını korur. Tarihsel 'yalnız statik', 'H22 eksik' veya 'caller erişilemiyor' ifadeleri current birikimli durum değildir.
+[U01B aktarım öncesi ayrıntılı defter](https://github.com/batuhanozgun/agentic-os-search/blob/000f691b9a94607c9a8219961b4618eda0f1014f/research/studies/hermes-agent/SOURCE-LEDGER.md), [v0.5 tam defter](https://github.com/batuhanozgun/agentic-os-search/blob/a218acfc20e7ece488709e00a9762166ec970fba/research/studies/hermes-agent/SOURCE-LEDGER.md) ve [bu tur öncesi v0.7 defteri](https://github.com/batuhanozgun/agentic-os-search/blob/9a95b2cf1f8a0460ac6128e1409bf54aa3191022/research/studies/hermes-agent/SOURCE-LEDGER.md) tarih/ref/aralık ve erişim olaylarını korur. Tarihsel 'yalnız statik', 'H22 eksik' veya 'caller erişilemiyor' ifadeleri current birikimli durum değildir.
 
 ## U01B S-kaynakları ve ilk dar deney
 
@@ -45,7 +45,7 @@ Primary pin'e göre yollar ve kimlikler:
 - S04 = H07; S05 = H08.
 - S06 = LICENSE, blob `75410e73319c72cd3e991a501c5455eb78f38375`, FULL ve kaynak kopyalarıyla korunmuş.
 
-[Eski probe](evidence/2026-09-07-u01b/component-probe/README.md) → harness/RESULT/stdout/stderr/upstream/lisans. UTC `2026-09-07T09:35:13.772427+00:00`, Python 3.13.5/Linux. İki exact modül + sentetik bağımlılıklar, 10 tanılayıcı durum. Ürün conformance veya bağımsız araştırmacı tekrarı değil. Bu yayın turunda yeniden çalıştırılmadı. [Yayın aktarımı](evidence/2026-09-07-u01b/PUBLICATION.md) deneyden ayrı olaydır.
+[Eski probe](evidence/2026-09-07-u01b/component-probe/README.md) → harness/RESULT/stdout/stderr/upstream/lisans. UTC `2026-09-07T09:35:13.772427+00:00`, Python 3.13.5/Linux. İki exact modül + sentetik bağımlılıklar, 10 tanılayıcı durum. Ürün conformance veya bağımsız araştırmacı tekrarı değil. Bu tur yeniden çalıştırılmadı. [Yayın aktarımı](evidence/2026-09-07-u01b/PUBLICATION.md) deneyden ayrı olaydır.
 
 ## Tree, yöntem ve freshness geçmişi
 
@@ -70,7 +70,7 @@ G01 Gstack METHOD `dc003b3f74115667a05787a847eadb10876784c8`; G02 META `f2ad4987
 | W07 | Session Storage |
 | W08 | Context Compression and Caching |
 
-W gözlemleri commit/blob'a bağlanmadı. H03 ile W04 aynı nesne sayılmaz. Belge turundaki iki `run_agent.py` path 429'u ve container DNS hatası tarihsel erişim sonucudur; o tur yeni caller kodu veya execution yoktu. K01–K09 o tarihte NOT RUN idi; güncel kısmi kaynak/probe durumları RESEARCH-PLAN v0.7'de ayrılır.
+W gözlemleri commit/blob'a bağlanmadı. H03 ile W04 aynı nesne sayılmaz. Belge turundaki iki `run_agent.py` path 429'u ve container DNS hatası tarihsel erişim sonucudur; o tur yeni caller kodu veya execution yoktu. K01–K09 o tarihte NOT RUN idi; güncel kısmi kaynak/probe durumları RESEARCH-PLAN v0.8'de ayrılır.
 
 ## D01–D22 — pinned caller / worker / memory kaynakları
 
@@ -110,8 +110,29 @@ U01B2 ZIP aktarımında 14 manifest girdisi byte/SHA-256 ile kontrol edildi; MAN
 
 Manuel E01/E02 seçkileri added imports/scaffolding ve kendi kimlikleriyle tutulur; bunların SHA-256'sı upstream tam dosya hash'i değildir. `verify_excerpts.py` orijinal tam E01/E02 ile AST kontrolü için hazırdır, fakat o kontrol NOT RUN. Runtime çevresindeki Relay/middleware/lifecycle/guardrail/approval/agent/profile/UI/config taklitleri SOURCES/README/harness'te açık. Tam ordinary/concurrent loop, gerçek review/AIAgent/PluginManager, provider/credential/network ve gerçek zararlı araç yürütülmedi.
 
-**2026-09-09 yayını:** [PUBLICATION](evidence/2026-09-08-worker-policy/PUBLICATION.md) ve [TRANSFER-CHECK](evidence/2026-09-08-worker-policy/TRANSFER-CHECK.json). ZIP CRC ve 25 manifest girdisi doğrulandı; manifest dahil 26 özgün dosyanın Git tree kimliği yerel exact byte'lar ve GitHub readback arasında aynı çıktı: `d6ea71085c402744afbf80b1f9f4553eb97fbdb4`. Bu içerik aktarımıdır; hiçbir eski deney, kaynak AST kontrolü veya current upstream araştırması bu yayında yeniden yapılmadı. NOT PUBLISHED/NOT APPLIED/eski plan metinleri tarihsel teslim olarak korunur.
+**2026-09-09 D2 yayını:** [PUBLICATION](evidence/2026-09-08-worker-policy/PUBLICATION.md) ve [TRANSFER-CHECK](evidence/2026-09-08-worker-policy/TRANSFER-CHECK.json). ZIP CRC ve 25 manifest girdisi doğrulandı; manifest dahil 26 özgün dosyanın Git tree kimliği yerel exact byte'lar ve GitHub readback arasında aynı çıktı: `d6ea71085c402744afbf80b1f9f4553eb97fbdb4`. Bu içerik aktarımıdır; hiçbir eski deney, kaynak AST kontrolü veya current upstream araştırması o yayında yeniden yapılmadı. NOT PUBLISHED/NOT APPLIED/eski plan metinleri tarihsel teslim olarak korunur.
+
+## J01–J08 / U01-D3 — yeni source trace ve exact middleware
+
+[10 giriş](notes/10-REVIEW-ADMISSION-AND-MIDDLEWARE-FAILURES.md) → [J defteri](evidence/2026-09-09-review-middleware/SOURCES.md) → [tam araştırma](evidence/2026-09-09-review-middleware/RESEARCH.md). Ayrıntılı satır aralıkları, source identity ve actual/synthetic ayrımı J defterindedir.
+
+| J-ID | Pinned kaynak / blob | Yeni derinlik |
+|---|---|---|
+| J01 | agent/tool_executor.py — 799199c10f9930da77c01da2324373614b27cb78 | SELECTED tekrar; 15 eski tanımın manuel-range AST cross-check'i. Tam yerel original yok. |
+| J02 | hermes_cli/plugins.py — da8d7e2c68b2346e6ecc15567d755d96085ef767 | SELECTED tekrar; 7 tanım için aynı sınırlı karşılaştırma. |
+| J03 | agent/background_review.py — 0e8e76ae235450f3e896a86951409cf82b7cca1e | SELECTED fork kwargs/build/whitelist/run; eski H04 full okuma yeniden ilk-full sayılmaz. |
+| J04 | agent/agent_init.py — 562dfcc32866840ab9c84244595927239b790bd7 | SELECTED _load_tools/schema-derived valid names ve init/persistence/memory kesitleri. NOT EXECUTED. |
+| J05 | agent/turn_tool_round.py — daa009ac80bba9c2cb7eab5da0babae2cc117be0 | FULL READ validate/filter/persist/dispatch/post-result; NOT EXECUTED. |
+| J06 | agent/relay_tools.py — 44d06a1653b8e52b68cbc972ee539c3949cb2918 | FULL READ managed/unmanaged/callback-error/postprocessing; runtime bağımlılıkları ve koşusu açık. |
+| J07 | hermes_cli/middleware.py — 897e4afc07ba0d78ba928baf39a8573422b648be | FULL READ + 9277 byte tam Git blob doğrulaması + MW01–MW08 EXECUTED. Registry/callback/handler sentetik. |
+| J08 | LICENSE — 75410e73319c72cd3e991a501c5455eb78f38375 | Aynı exact kaynak lisansı korundu. |
+
+**Range cross-check:** [RANGE-FIDELITY](evidence/2026-09-09-review-middleware/RANGE-FIDELITY.json), UTC `2026-09-09T08:13:01.073141+00:00`; 22 eşleşme ve AST değişikliğini yakalayan negatif kontrol. Yeni pinned aralıklar da manuel transkripsiyondur; ortak hata riski vardır. Tam büyük-original hash + eski verify_excerpts.py NOT RUN statüsü değişmedi. Ad-hoc ilk eşitlik SPEC öncesiydi; keşifsel kontrol.
+
+**Middleware koşusu:** [MIDDLEWARE-RESULT](evidence/2026-09-09-review-middleware/MIDDLEWARE-RESULT.json), UTC `2026-09-09T08:12:19.368928+00:00`, Python 3.13.5/Linux. Sekiz durum ve gerçek pre-import bozuk-kaynak ret kontrolü; [kod](evidence/2026-09-09-review-middleware/middleware_probe.py), [SPEC](evidence/2026-09-09-review-middleware/SPEC.md). J07'nin ilk eksik boş satır kimlik hatası importtan önce canonical kuyruğa dönülerek düzeltildi; beklenen hash değiştirilmedi. Eski deneyler tekrarlanmadı; yeni fake registry tüm PluginManager değildir.
+
+**Aktarım:** [MANIFEST](evidence/2026-09-09-review-middleware/MANIFEST.json) 19 içerik girdisi/manifest dahil 20 core dosya; core Git tree `ce3c4892a2286454c04b511b6a29c5e06834725d` yerel bytes ve uzak readback arasında eşleşti. [PUBLICATION](evidence/2026-09-09-review-middleware/PUBLICATION.md) core'dan sonra eklenir. Identity, range fidelity ve product behavior birbirine eşitlenmez.
 
 ## Güncel açık kapsam
 
-Tam seçki sadakati ve gerçek review/ordinary dispatch/ara kontrol entegrasyonu; actual UI/approval/profile; curator nested batch/rapor; ledger/backup/restore/sync; cancellation/shared-store; prompt reload/invalidation; session search/archive; alternatif runtime/provider/backend/delegation/gateway/cron/UI; install/CI/eval/gelecek-task kalite. Kaynak okuması, selected/full yürütme, aktarım bütünlüğü ve tüm ürün doğrulaması ayrı tutulur. Current upstream bu yayınla doğrulanmadı; eski notlar/deneyler korunur, tüm durumlar tek ürün PASS sayısına çevrilmez.
+Tam E01/E02 fidelity ve gerçek review/ordinary dispatch/PluginManager/Relay entegrasyonu ileri doğrulama olarak açık. İlk aktif kaynak işi actual pending CLI/gateway/onaylayan/profil/store; sonra M01/M02, curator nested batch/report, ledger/backup/restore/sync, cancellation/shared-store, prompt reload, search/archive ve F01–F12 kalan alanlar. Sıra gerekçesi v0.8 plan ve 10 §8'dedir. Current upstream ve kurulu release doğrulanmadı; eski notlar/deneyler korunur, bütün sonuçlar tek ürün PASS sayısına çevrilmez.

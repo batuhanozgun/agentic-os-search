@@ -1,63 +1,60 @@
 # Hermes Agent — STATE
 
-**Durum:** ACTIVE RESEARCH / PINNED CALLER-MEMORY ANALYSIS + RECOVERED SOURCE-SELECTED WORKER-POLICY EVIDENCE  
+**Durum:** ACTIVE RESEARCH / REVIEW-ADMISSION SOURCE TRACE + BOUNDED RANGE CROSS-CHECK + EXACT MIDDLEWARE EVIDENCE  
 **Son kayıt tarihi:** 2026-09-09  
 **Kaynak pin:** `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`  
-**Mevcut plan:** [RESEARCH-PLAN.md](RESEARCH-PLAN.md), v0.7.  
-**Araştırma tamamlandı mı?** HAYIR. Son U01-D2 dilimi yayımlandı; tam gerçek çağrı entegrasyonu, öğrenme kalitesi ve genel HERMES sentezi kapanmadı.
+**Mevcut plan:** [RESEARCH-PLAN.md](RESEARCH-PLAN.md), v0.8.  
+**Araştırma tamamlandı mı?** HAYIR. U01-D3 ilerledi; tam review/worker entegrasyonu, öğrenme kalitesi ve genel HERMES sentezi kapanmadı.
 
 ## Yetkilendirilmiş amaç ve sınırlar
 
-Kullanıcı HERMES'i dipten yukarı araştırmayı, kanıtla planı değiştirmeyi ve kalıcı study kaydını yetkilendirdi; 2026-09-08'de devam edip operasyonel sınıra kadar çalışmayı yeniden onayladı. 2026-09-09'daki son talep, biten çalışma dilimini önce repo'ya kaydetmek ve repo'yu sonraki adıma hazır etmektir. Bu tur yayın/süreklilik işidir; yeni HERMES deneyi başlatılmadı. Mevcut araştırma yetkisi sürer; her iç kaynak grubu için yeni izin gerekmez.
+Kullanıcı HERMES'i dipten yukarı araştırmayı, kanıtla planı değiştirmeyi ve kalıcı study kaydını yetkilendirdi. 2026-09-09'da son worker-policy paketinin yayını tamamlandıktan sonra araştırmaya devam etmemizi istedi. Bu tur U01-D3 kaynak/deney çalışmasıdır; her iç kaynak grubu için yeni izin gerekmez. Hedef önce HERMES-native model, sonra Information/Work/Actors/Environment ve SOUL/Development OS değerlendirmesidir.
 
-Hedef önce HERMES-native model, sonra Information/Work/Actors/Environment ve SOUL/Development OS değerlendirmesidir. OpenClaw ayrı sonraki araştırma adayıdır. Kurulum, provider/model çağrısı, hesap/credential kullanımı, Codex görevi, Foundation aktivasyonu, upstream değişikliği veya benimseme bu yetkinin parçası değildir. Zararsız offline bileşen araştırması ile bütün ürünü çalıştırma ayrılır. Yanıtlar arasında otomatik/background araştırma yapılmaz.
+OpenClaw ayrı sonraki araştırma adayıdır. Kurulum, provider/model çağrısı, hesap/credential kullanımı, Codex görevi, Foundation aktivasyonu, upstream değişikliği veya benimseme bu yetkinin parçası değildir. Zararsız offline bileşen araştırması ile bütün ürünü çalıştırma ayrılır. Yanıtlar arasında otomatik/background araştırma yapılmaz.
 
-Kullanıcı Codex'in başka repository kullandığını açıkladı. HERMES çalışma ve yayın durumu bu research repo'sundadır; geçmiş eşzamanlı main değişimleri Codex'e atfedilmez. Uygulama ayarları veya geçmiş araç sunumu farkının nedeni doğrulanmış değildir; bu yayın ayar/izin değişikliği yapmaz.
+Codex başka repository kullanır; bu research main'indeki eşzamanlı değişimler ona atfedilmez. Araç/uygulama ayarları değiştirilmedi; geçmiş araç sunumu farkına teknik neden uydurulmaz. Bu tur yalnız HERMES paketi ve katalogdaki ilgili satır değişir.
 
-## Birikimli çalışma ve geçmişin korunması
+## Birikimli çalışma ve geçmiş
 
-1. İlk keşif pin/tree ve çalışma sınırlarını kurdu; [02 review](notes/02-BACKGROUND-LEARNING.md) conversation snapshot, fork, köken/guard ve pending kesitini kaydetti.
-2. [03 curator](notes/03-SKILL-CURATION.md), beceri bakım politikası, otomatik/LLM yolları, rapor/cron ve rollback sınırlarını ekledi. U01-C kimliği korunur. Tarihsel H22 orta aralık eksikliği current eksik okuma değildir.
-3. U01B, H22/S01 tam okuması ve iki exact modülle 10 sentetik durum üretti. Önce sohbet ZIP'i olarak kalan kanıt mevcut curator çalışması korunarak yayımlandı; v0.4 oldu. [04 notu](notes/04-SKILL-WRITE-TRANSACTION-AND-APPROVAL.md), [deney](evidence/2026-09-07-u01b/component-probe/README.md), [aktarım](evidence/2026-09-07-u01b/PUBLICATION.md).
-4. İlk 2026-09-08 devamında pinned caller isteği iki 429 verdi; sekiz unpinned resmî belge [05 sözleşme notunu](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md) ve K01–K09 planned kontrollerini üretti. V0.5 ve tarihsel durum [a218acfc STATE](https://github.com/batuhanozgun/agentic-os-search/blob/a218acfc20e7ece488709e00a9762166ec970fba/research/studies/hermes-agent/STATE.md) içindedir. O belge turu yeni kod/deney değildi.
-5. Caller turunda pinned Git tree/blob okuması kaynakları getirdi. [06 caller/aktarım](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md) ve [07 bellek/replay](notes/07-MEMORY-STORE-AND-PENDING-REPLAY.md), [D defteri](evidence/2026-09-08-context-transfer/SOURCES.md) ve [üç-modüllü/yedi-durumlu transport kanıtı](evidence/2026-09-08-context-transfer/README.md) eklendi. Plan v0.6; yayın `29ab9b816843bab6f9e5f5b5815590fbac2b1713`.
-6. Ayrı U01B2 ZIP dilimi önceki 06/07/transport kanıtı korunarak yayımlandı: [08 girişi](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md), [özgün kanıt](evidence/2026-09-08-u01b2/README.md), [yayın uzlaştırması](evidence/2026-09-08-u01b2/PUBLICATION.md). Manifest dahil 15 özgün dosya korundu; yeni deney yapılmadı, o yayın v0.6 sırasını değiştirmedi.
-7. Son U01-D2 araştırma dilimi source-selected executor/gerçek whitelist tüketicisini birleştirip 14 ana, tam name-validator eklenmesiyle ayrı 5 tanılayıcı durum ve ayrı gerçek pre-import kimlik ret kontrolü üretti. İlk yayını araç çağrısı hatası nedeniyle ZIP'te kalmıştı. **2026-09-09'da bu teslim repo'ya alındı:** [09 girişi](notes/09-WORKER-POLICY-EXECUTION-BOUNDARY.md), [tam araştırma](evidence/2026-09-08-worker-policy/RESEARCH.md), [yayın](evidence/2026-09-08-worker-policy/PUBLICATION.md). ZIP'in 25 manifest girdisi ve manifest dahil 26 özgün dosyası doğrulandı; GitHub'daki özgün subtree, yerelde dosyalardan hesaplanan Git tree kimliğiyle eşleşti. Eski koşular tekrarlanmadı. Plan v0.7 yalnız yeni kanıtı ve kalan devam sınırını uzlaştırır.
+1. İlk keşif ve [02 review](notes/02-BACKGROUND-LEARNING.md): conversation snapshot/fork, köken, guard ve pending kesitleri.
+2. [03 curator](notes/03-SKILL-CURATION.md): bakım politikası, otomatik/LLM yolları, rapor/cron ve rollback. U01-C kimliği korunur.
+3. U01B: tam skill mutator okuması, iki exact modül/10 sentetik durum ve sonradan canonical yayın. [04](notes/04-SKILL-WRITE-TRANSACTION-AND-APPROVAL.md), [kanıt](evidence/2026-09-07-u01b/component-probe/README.md).
+4. U01-DOC: erişim hatasının yaşandığı turda sekiz unpinned belge ve K01–K09 tasarımları. [05](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md). Bu belge turu kod yürütmesi değildir.
+5. Caller/memory turu: [06](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md), [07](notes/07-MEMORY-STORE-AND-PENDING-REPLAY.md), [D kaynak defteri](evidence/2026-09-08-context-transfer/SOURCES.md), üç exact modül/sentetik policy/7 durum. Yayın `29ab9b816843bab6f9e5f5b5815590fbac2b1713`.
+6. U01B2: ayrı iki-modül/12-senaryo kaydı, [08 girişi](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md) ve [yayın uzlaştırması](evidence/2026-09-08-u01b2/PUBLICATION.md). Önceki çalışmalar ezilmedi; aktarım yeni deney değildi.
+7. U01-D2: [09](notes/09-WORKER-POLICY-EXECUTION-BOUNDARY.md) ve [worker-policy kanıtı](evidence/2026-09-08-worker-policy/README.md). Tam pool/context/name-validator ile manuel seçili executor/plugins; 14 C + ayrı 5 V durumu ve kimlik ret kontrolü. 2026-09-09'da `9a95b2cf1f8a0460ac6128e1409bf54aa3191022` üzerindeki v0.7 yayını sohbet ZIP bağımlılığını kapattı.
+8. **U01-D3, bu tur:** [10 giriş](notes/10-REVIEW-ADMISSION-AND-MIDDLEWARE-FAILURES.md) → [tam araştırma](evidence/2026-09-09-review-middleware/RESEARCH.md) ve [J defteri](evidence/2026-09-09-review-middleware/SOURCES.md). Gerçek review constructor/valid-name/round/Relay kaynak bağı; 22 tanım için sınırlı manuel-range AST cross-check; exact tam middleware modülüyle 8 yeni tanılayıcı durum. Tam büyük kaynak dosyalarıyla eski verifier koşusu yapılamadı; daha dar kontrol onun yerine geçirilmedi.
 
-Önceki 01–08 notları ve eski evidence klasörleri bu yayında değişmez. [Yayın öncesi tam STATE](https://github.com/batuhanozgun/agentic-os-search/blob/36f1b7e6ae07da5c1d9d57ff9633d48473c42537/research/studies/hermes-agent/STATE.md) önceki ayrıntıları korur. Birikimli kaynak otoritesi [SOURCE-LEDGER](SOURCE-LEDGER.md); E/C/V, H/S/W/D/P ve U01B2 kimlikleri kendi defterleriyle yorumlanır.
+[Önceki eksiksiz STATE](https://github.com/batuhanozgun/agentic-os-search/blob/9a95b2cf1f8a0460ac6128e1409bf54aa3191022/research/studies/hermes-agent/STATE.md) tarih/ref ve geçmiş aktarım ayrıntılarını korur. Önceki 01–09 notları, bütün eski evidence klasörleri ve yöntem bu tur değişmez. Kimlikler kendi defterleriyle yorumlanır; test sayıları birleştirilerek ürün PASS sayısı yapılmaz.
 
 ## Kanıtın güncel statüsü
 
-**Pinned kaynak analizi:** Ordinary loop'un ortak kontrolü, worker yerleşimi, ContextVar/callback ile thread-local whitelist'in farklı aktarımı, effect/persistence/delivery sırası; memory lock/reload/final-budget batch/frozen snapshot ve payload tabanlı pending apply kaynakta incelenmiştir. Bu, her caller'ın runtime doğrulaması değildir.
+**Yeni source-backed bağlantı:** Standart review constructor'ına parent toolset'leri aktarılır; _load_tools valid_tool_names'i şemalardan üretir. Daha dar review izni ayrı thread-local whitelist olarak kurulur. İncelenen kurulum/round yolu bu ikisini eşitlemez. Bu, constructor'ın dar ad kümesiyle otomatik telafi edeceği rakip açıklamayı sınırlar; bütün runtime'larda telafi yokluğu değildir. Dangerous-command auto-deny, scope, guardrail ve mutator kontrolleri ayrı kalır.
 
-**Önceki ayrı deneyler:** U01B (iki exact modül/10 durum), transport (üç exact modül/sentetik policy ile 7 durum) ve U01B2 (iki exact arşiv modülü/12 senaryo) kendi tarihleri ve sınırlarıyla korunur. W01–W08, primary pin'e bağlanmamış belgelerdir.
+**Sınırlı kaynak cross-check:** UTC `2026-09-09T08:13:01.073141+00:00`. 15 executor + 7 plugin tanımı, yeniden manuel transkribe edilmiş canonical aralıklarla AST eşitliği verdi; negatif AST değişikliği yakalandı. Büyük E01/E02 tam yerel dosya hash'i doğrulanmadı; eski `verify_excerpts.py` NOT RUN. Ad-hoc ilk eşitlik SPEC'ten önceydi; ortak assistant/transkripsiyon riski ve keşifsel statü korunur.
 
-**U01-D2 — kaydedilmiş yürütme:** C01–C14 UTC `2026-09-08T19:31:50.677314+00:00`; V01–V05 `2026-09-08T19:36:58.555297+00:00`; kimlik ret kontrolü `2026-09-08T19:36:24.270992+00:00`. Python 3.13.5/Linux. Pool/context/name-validator tam kaynakları kimlik doğrulandı; büyük executor/plugins yalnız elle aktarılmış seçili işlevler ve açık sınır taklitleriyle yürütüldü. [E defteri](evidence/2026-09-08-worker-policy/SOURCES.md) bu ayrımı taşır.
+**Yeni yürütme:** UTC `2026-09-09T08:12:19.368928+00:00`, Python 3.13.5/Linux. Tam `hermes_cli/middleware.py`, blob `897e4afc07ba0d78ba928baf39a8573422b648be`, fake registry ve sentetik callback/handler ile MW01–MW08. Erken callback hatasında devam; kısa-devrede sıfır etki; downstream hatada asıl exception; başarılı ilk etki sonrası üst hata/ikinci-next'te ilk sonucun korunması gözlendi. Bozuk kaynak gerçek import guard'ıyla reddedildi. Gerçek worker/PluginManager/Relay/AIAgent çalıştırılmadı.
 
-Seçili zincirde parent whitelist reddederken worker tüketicisi listeyi görmedi; deneysel worker binding ret davranışını geri getirdi. Bağımsız scope/guardrail/lifecycle kontrolleri engellemeyi sürdürdü. Tam name-validator'ın sentetik geniş ad kümesi kabulü dar review yetkisini otomatik uygulamadı; dar ad kümesi ve bozuk JSON erken durdurdu. `dispatched` callback kabul işaretiydi; gerçek etki handler sayısıyla ayrıldı. Tekrar callback girişi bir marker etkisinden sonra reddedildi.
+**Statik kalan:** tool-round persist-before-execute ve post-effect persistence ayrımı; Relay managed/unmanaged ve callback/postprocessing farkı. Yeni DB/Relay koşusu yoktur. Memory M01/M02 statik aday kalır. Önceki U01B/transport/U01B2/C/V deneyleri tekrarlanmadı. W01–W08 unpinned kalır; upstream current HEAD/kurulu release doğrulaması yoktur.
 
-**Hâlâ açık:** Elle aktarılmış tanımların tam orijinallerle AST eşitliği; tam review/AIAgent kurulumu, gerçek valid-name kümesi, tüm executor/plugins/middleware bağımlılıkları ve telafi edici kontrollerle erişilebilirlik. `verify_excerpts.py` tam orijinallere karşı NOT RUN. Memory M01/M02 de statik aday kalır. Bu dar kanıt üretimde genel yetki açığı, gerçekleşmiş olay/olay oranı, bütün ürün PASS'i veya öğrenme kalitesi değildir. Aktarım bütünlüğü davranış doğrulaması değildir.
+## Sıradaki aktif yetkili iş — gerçek pending onayı ve profil/store
 
-## İlk sonraki yetkili iş — U01-D artık boşluğu
+**İlk somut soru:** CLI ve gateway'de `/memory` / `/skills` pending onayını hangi gerçek çağırıcı, hangi onaylayan kimlik, aktif home/profil ve canlı ya da yeni yüklenen store üzerinden uygular? Ortak `hermes_cli/write_approval_commands.py` (D17/H08), `tools/memory_tool.py` (D15) ve skill apply işlevlerinin gerçek UI çağrı noktalarını pinned kaynakta takip et. Dosya adına veya docstring'e bakarak bütün UI zincirini kapanmış sayma.
 
-**İlk somut işlem:** 09 → E kaynak defteri üzerinden E01/E02 tam pinned dosyalarını blob kimlikleriyle yerelde elde et ve mevcut `verify_excerpts.py` ile seçili tanım sadakatini kontrol et. Beklenen blob'lar E01 `799199c10f9930da77c01da2324373614b27cb78`, E02 `da8d7e2c68b2346e6ecc15567d755d96085ef767`. AST eşitliği yalnız extraction kontrolüdür; tam entegrasyon kapanışı sayılmaz.
+Ardından bellek dosyası/canlı nesne/frozen snapshot/gerçek istek görünümünü ve 07/M01–M02'yi zararsız sentinel'larla ayır. 08/U01B2 default_name staging/replay, canlı preview/hedef-sürümü ve rollback/diğer-yazar sorularını ilgili yollara bağla. Sonra ledger/backup/restore/sync, sonraki skill/cache yükleme ve U01-C nested batch/report/cron gelir.
 
-**Ardından ayırıcı soru:** Gerçek review/fork kurulumu → `valid_tool_names` üretimi → ordinary executor/middleware → worker policy tüketicisi sırasında aynı kısıt başka noktada kuruluyor veya uygulanıyor mu? Tam pinned modüller ve zararsız handler ile yürütülebilen parçaları, kalan taklitleri ve gerçek handler girişini ayrı kaydet. Bir ek kontrol bulunursa önceki çıkarımı daralt; baştan bypass sonucu varsayma.
+**Bu sıra değişikliğinin gerekçesi:** U01-D3, standart ad-kümesi oluşumu ve aradaki çağrı/hata halkalarını kaynakla ilerletti. V0.7/METHOD, tek whitelist adayının bütün araştırmayı yutmasını yasaklamıyordu ama açıkça buna karşı sınırlı ilerleme öneriyordu. Bu tur o seçenek uygulanır: açıklanmış kısmi mekanizma korunur, güçlü Q26 iddiası açıkken geniş öğrenme zincirinin sonraki halkasına geçilir. U01-D tamamlandı veya güvenlik açığı kesinleşti denmez.
 
-Bağımlılık kapanışı kurulamıyorsa hangi halka/iddianın açık kaldığını kaydet; bütün ürünü kurmaya/provider çağırmaya sessizce geçme. Aynı selected-function fixture'ı tekrar çoğaltmak bu boşluğu kapatmaz. Mekanizma kaynak ve sınırlarıyla yeterince açıklanınca Q26'nın ileri entegrasyon doğrulamasını açık tutarak daha geniş araştırmaya ilerle; tek konu bütün aileleri yutmasın.
+## Açık tutulan ileri doğrulama / yeniden açma koşulu
 
-Sonraki sıra korunur: actual CLI/gateway pending caller'da onaylayan/profil/store → bellek dosyası/canlı nesne/snapshot/istek ve 07/M01–M02 → ledger/backup/restore/sync → sonraki skill/cache yükleme → U01-C curator nested batch/report/cron. 08/U01B2 default_name staging/replay ve rollback/diğer-yazar ayrımları bu yollara bağlanır. Kaynak bağımlılığı sıra değiştirirse kanıtı plana kaydet.
+Q26 ve Q29'un tam-runtime düzeyi OPEN. E01 `799199c10f9930da77c01da2324373614b27cb78` ve E02 `da8d7e2c68b2346e6ecc15567d755d96085ef767` tam yerel orijinalleri elde edilirse eski `verify_excerpts.py` ile daha güçlü fidelity kontrolü yapılır. Ardından gerçek review/fork, actual valid names, executor/PluginManager/middleware/Relay bağımlılıkları ve zararsız handler birlikte sınanır. Kurulum/provider yetkisi sessizce genişletilmez.
 
-**Başa dönme:** `run_agent.py` erişimi ve H22 orta aralığı artık ilk-okuma engeli değildir. U01-D2 yerel deneyleri ve bu yayın tamamlanmıştır; ilk iş aynı 14/5 durumu yeniden üretmek değildir. Tam upstream HEAD güncellemesi veya kurulu release testi de bu yayın tarafından yapılmış sayılmaz.
+Bu halka, yeni exact materyalizasyon/bağımlılık erişimi sağlandığında, yeni source değişimi olduğunda veya bulgu adoption/tasarım/güvenlik hükmü için yük taşıdığında yeniden açılmalıdır. Aynı eski selected fixture'ları tekrar etmek gerekli yeni kanıtı üretmez. Genel bypass, üretim olayı/oranı veya öğrenme kalitesi iddiası yetkili/kanıtlanmış değildir.
 
-## Hâlâ açık geniş kapsam
+## Açık geniş kapsam ve yeni oturum
 
-Tam alt envanter; alternatif transport/caller/worker; review cancellation ve shared-store eşzamanlılığı; actual pending UI; curator batch/report; skill ledger/backup/sync; model-visible reload/invalidation; gateway/cron/provider/backend/delegation/UI; install/update/CI/eval ve gelecek-task kalite. Native alt-sistem sentezleri, genel ilişkiler, dört-alan projeksiyonu ve CORE henüz yok. Dosya veya test sayısı tamamlanma yüzdesi değildir.
+F01–F12 alt envanter ve bağımlılık kapanışı; alternatif caller/worker/transport; cancellation/shared-store; actual pending UI; curator raporları; ledger/sync; prompt reload; gateway/cron/provider/backend/delegation/UI; install/update/CI/eval ve gelecek-task kalite açık. Native alt-sistem sentezi, genel ilişkiler, dört-alan ve CORE henüz yok.
 
-## Yeni oturum girişi ve güncel yayın anlamı
+Canonical agent bootstrap → research root/studies catalog → META/STATE/INDEX → METHOD ve v0.8 plan → **10 + J SOURCES/RESEARCH + yeni sonuçların sınırları**. Pending çalışması için 07/D17/D15 ve 08'e dön. Q26 yeniden açılırsa 09/E/C/V ve bu turun sınırlı fidelity kaydı birlikte okunur. Eski notlardaki ilk sonraki dosya, NOT PUBLISHED ve eski erişim cümleleri current STATE yerine geçmez; hiçbir eski dosya ilk kez okunacakmış gibi başa alınmaz.
 
-Canonical agent bootstrap → research root/studies catalog → META/STATE/INDEX → METHOD ve plan v0.7 → **09 + worker-policy PUBLICATION + RESEARCH/SOURCES**. Gerekli iddia için 06/07 ve D defterine dön; 08 ve eski kanıtları kendi sınırlarıyla oku.
-
-Worker-policy ve U01B2 teslimlerindeki NOT PUBLISHED/NOT APPLIED/eski main/plan ifadeleri tarihsel kayıttır; güncel durum bu STATE ve ilgili PUBLICATION dosyalarıdır. Yeni oturum sohbet ZIP'ine bağımlı değildir. Kullanıcının elle dosya taşıması gerekmez.
-
-Mandatory control erişimi veya çözülemeyen yetki/state çelişkisinde etkilenen iş durur. Diğer iş hatlarının yetkisi kendi STATE yüzeylerindedir. Bu yayın yalnız HERMES package ve katalog satırını etkiler; Foundation/context/Codex/control/başka study'leri değiştirmez. Bitiş ölçütü METHOD'dur.
+Çözülemeyen mandatory control/authorization/state çelişkisinde etkilenen iş durur. Diğer çalışma hatlarının yetkisi kendi STATE dosyalarındadır. Bitiş ölçütü METHOD; dosya/test sayısı tamamlanma yüzdesi değildir.
