@@ -1,8 +1,8 @@
 # Hermes Agent — Birikimli kaynak ve yürütme defteri
 
-**Son ek: 2026-09-08 / U01B2 tesliminin canonical yayını; U01-D, U01-M ve context-transfer kanıtı korunur.** Birincil pin `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a` değişmedi. Current çalışma otoritesi STATE; defter kanıt/okuma rotasıdır.
+**Son ek: 2026-09-09 / U01-D2 worker-policy tesliminin canonical yayını.** Birincil pin `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a` değişmedi. Current çalışma otoritesi STATE; defter kanıt/okuma rotasıdır.
 
-FULL tam kaynak okuması; SELECTED belirtilen kesit/sembol; LISTED yalnız topoloji. Hiçbiri kendi başına execution değildir. Eski tam okumalar yeni turda yeniden yapılmış sayılmaz. Büyük façade'ların tüm metnine erişim, tüm dependency/compat yüzeyinin araştırma kapanışı değildir; caller turundaki karar taşıyan kesitler D defterinde SELECTED olarak sınırlandırılır.
+FULL tam kaynak okuması; SELECTED belirtilen kesit/sembol; LISTED yalnız topoloji. Hiçbiri kendi başına execution değildir. Eski tam okumalar veya deneyler yayın turunda yeniden yapılmış sayılmaz. Büyük façade'ların tüm metnine erişim, tüm dependency/compat yüzeyinin araştırma kapanışı değildir. Tam upstream modül kimliği, manuel excerpt kimliği ve çalışma kapsamı ayrı tutulur.
 
 ## H-kaynakları — önceki birikimli kayıt korunur
 
@@ -12,7 +12,7 @@ Primary pin'e göre yollar ve kimlikler:
 |---|---|---|---|
 | H01 | README.md | c05112266746ff99a3326a62c38c33fbc08ecd23 | FULL, ilk + curator |
 | H02 | website/docs/developer-guide/architecture.md | 3640103c3de97ed7c01a3862b76b35371f9d5f06 | FULL, ilk + curator |
-| H03 | website/docs/user-guide/features/memory.md | 0c03f4e8cb897bbfd0af29375d7a245fa5751499 | FULL |
+| H03 | website/docs/user-guide/features/memory.md | 0c03f4e8cb897bbfd0af29375d7a245fa5751499 | FULL, ilk tur |
 | H04 | agent/background_review.py | 0e8e76ae235450f3e896a86951409cf82b7cca1e | FULL; caller turu D18 ile yeniden açıldı |
 | H05 | tools/skill_manager_guards.py | 06df3cd695592fd2e582b49ce391d76fd137da3b | FULL, ilk + curator |
 | H06 | tools/skill_provenance.py | 3df9cf143045644310fa7d27a65666c8c23caf95 | FULL; caller turu D19 + dar execution |
@@ -33,7 +33,7 @@ Primary pin'e göre yollar ve kimlikler:
 | H21 | package.json | 406b73b205a32c1ddc7fd1dabfb02250efa5407f | FULL; Node manifest Python release'i değil |
 | H22 | tools/skill_manager_tool.py | 81d64b909b6b482654060b38b63802460b63314b | FULL via U01B/S01; eski orta aralık eksikliği kapanmış |
 
-[U01B aktarım öncesi ayrıntılı defter](https://github.com/batuhanozgun/agentic-os-search/blob/000f691b9a94607c9a8219961b4618eda0f1014f/research/studies/hermes-agent/SOURCE-LEDGER.md) ve [v0.5 tam defter](https://github.com/batuhanozgun/agentic-os-search/blob/a218acfc20e7ece488709e00a9762166ec970fba/research/studies/hermes-agent/SOURCE-LEDGER.md) önceki tarih/ref/aralık ve erişim olaylarını değişmeden korur. Tarihsel 'yalnız statik', 'H22 eksik' veya 'caller erişilemiyor' cümleleri current birikimli durum değildir.
+[U01B aktarım öncesi ayrıntılı defter](https://github.com/batuhanozgun/agentic-os-search/blob/000f691b9a94607c9a8219961b4618eda0f1014f/research/studies/hermes-agent/SOURCE-LEDGER.md), [v0.5 tam defter](https://github.com/batuhanozgun/agentic-os-search/blob/a218acfc20e7ece488709e00a9762166ec970fba/research/studies/hermes-agent/SOURCE-LEDGER.md) ve [bu yayın öncesi defter](https://github.com/batuhanozgun/agentic-os-search/blob/36f1b7e6ae07da5c1d9d57ff9633d48473c42537/research/studies/hermes-agent/SOURCE-LEDGER.md) tarih/ref/aralık ve erişim olaylarını korur. Tarihsel 'yalnız statik', 'H22 eksik' veya 'caller erişilemiyor' ifadeleri current birikimli durum değildir.
 
 ## U01B S-kaynakları ve ilk dar deney
 
@@ -70,7 +70,7 @@ G01 Gstack METHOD `dc003b3f74115667a05787a847eadb10876784c8`; G02 META `f2ad4987
 | W07 | Session Storage |
 | W08 | Context Compression and Caching |
 
-W gözlemleri commit/blob'a bağlanmadı. H03 ile W04 aynı nesne sayılmaz. Belge turundaki iki `run_agent.py` path 429'u ve container DNS hatası tarihsel erişim sonucudur; o tur yeni caller kodu veya execution yoktu. K01–K09 o tarihte NOT RUN idi; güncel kısmi kaynak/probe durumları RESEARCH-PLAN v0.6'da ayrılır.
+W gözlemleri commit/blob'a bağlanmadı. H03 ile W04 aynı nesne sayılmaz. Belge turundaki iki `run_agent.py` path 429'u ve container DNS hatası tarihsel erişim sonucudur; o tur yeni caller kodu veya execution yoktu. K01–K09 o tarihte NOT RUN idi; güncel kısmi kaynak/probe durumları RESEARCH-PLAN v0.7'de ayrılır.
 
 ## D01–D22 — pinned caller / worker / memory kaynakları
 
@@ -80,14 +80,38 @@ Caller turu `a218acfc...` research state'inden başladı. Path isteği yine 429 
 
 [Transport probe](evidence/2026-09-08-context-transfer/README.md): UTC `2026-09-08T15:57:15.365904+00:00`, Python 3.13.5/Linux. Üç exact modül, sentetik callback API/profil marker/allowlist; P01–P07. Gerçek executor/PluginManager/AIAgent/MemoryStore ve profil resolver bu koşuda yoktur. Yedi beklenti matched; product conformance NOT ASSESSED. [Ham sonuç](evidence/2026-09-08-context-transfer/RESULT.json), [harness](evidence/2026-09-08-context-transfer/harness.py), [kimlik manifesti](evidence/2026-09-08-context-transfer/MANIFEST.json).
 
-Güncel açık kapsam: ordinary dispatch entegrasyon sınaması; actual UI/approval/profile; curator nested batch/rapor; ledger/backup/restore/sync; cancellation/shared-store; prompt reload/invalidation; session search/archive; alternatif runtime, provider/backend/delegation/gateway/cron/UI; install/CI/eval/gelecek-task kalite. Kaynak okuması, dar modül yürütmesi, hash bütünlüğü ve tüm ürün doğrulaması ayrı tutulur. Current upstream yeniden doğrulanmadı; geçmiş W ve U01B statüleri değiştirilmedi.
-
 ## U01B2 — ayrı arşiv kaynaklı deney ve sonradan yayın
 
 [08 canonical giriş](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md) → [özgün rapor](evidence/2026-09-08-u01b2/06-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md), [SOURCES.json](evidence/2026-09-08-u01b2/SOURCES.json), [RESULT](evidence/2026-09-08-u01b2/RESULT.json), [SPEC](evidence/2026-09-08-u01b2/SPEC.md), [probe](evidence/2026-09-08-u01b2/probe.py), [yayın](evidence/2026-09-08-u01b2/PUBLICATION.md).
 
-U01B2 çalışma dilimi research `a218acfc...` arşivinden S02 ve S04/H07'yi FULL yeniden okudu; blob'lar sırasıyla `9f38adff284eede4234948f67e99a43752c0926e` ve `f1e99b46e934595c002c2bc659143fcbc1f9fe8d`. Yeni H-ID veya upstream güncellik doğrulaması değildir. Kaynak lisansı aynı `75410e...` blob'udur.
+U01B2 dilimi research `a218acfc...` arşivinden S02 ve S04/H07'yi FULL yeniden okudu; blob'lar `9f38adff284eede4234948f67e99a43752c0926e` ve `f1e99b46e934595c002c2bc659143fcbc1f9fe8d`. Yeni H-ID veya upstream güncellik doğrulaması değildir. Kaynak lisansı aynı `75410e...` blob'udur.
 
 Koşu UTC `2026-09-08T15:48:02.995262+00:00`, Python 3.13.5/Linux; 12 tanılayıcı senaryo, G01 içinde 10 gate varyantı. Gerçek iki modül ile sentetik config/profile-origin/callback/guard/mutator/adapter/reentry. R03 önceki exception sınırının yeni fixture tekrarı; R04 deterministik araya-giren yazı, gerçek thread yarışı değildir. Gerçek production replay, kilitler, UI, ledger/sync veya kalite deneyi yapılmadı. HARNESS-CHECK yalnız değiştirilmiş kaynak kimliğinin execution öncesi reddini sınar.
 
-Teslim ZIP'i bu yayın turunda açıldı; 14 manifest girdisinin byte/SHA-256 kontrolü yapıldı, MANIFEST dahil 15 özgün dosya korundu. Deney veya negatif kontrol yeniden çalıştırılmadı. Publication tabanı `29ab9b816843bab6f9e5f5b5815590fbac2b1713`; D kaynak/transport ilerlemesi aynen korunur. U01B2'nin eski NOT_PUBLISHED ve caller erişimi ifadeleri kendi tarihsel turuna aittir; current STATE değildir. Yerel D01 senaryosu D kaynak defterinin D01'iyle karıştırılmaz.
+U01B2 ZIP aktarımında 14 manifest girdisi byte/SHA-256 ile kontrol edildi; MANIFEST dahil 15 özgün dosya korundu. Deney tekrarlanmadı. İlk hazırlık tabanı `29ab9b816843bab6f9e5f5b5815590fbac2b1713`; eşzamanlı farklı dosya değişimleri yayın kaydında uzlaştırıldı. NOT PUBLISHED/caller erişimi ifadeleri kendi tarihsel turuna aittir. Yerel D01 senaryosu D kaynak defterinin D01'iyle karıştırılmaz.
+
+## E01–E07 / U01-D2 — source-selected worker-policy entegrasyonu
+
+[09 giriş](notes/09-WORKER-POLICY-EXECUTION-BOUNDARY.md) → [tam araştırma](evidence/2026-09-08-worker-policy/RESEARCH.md) → [ayrıntılı E defteri](evidence/2026-09-08-worker-policy/SOURCES.md). Bu tablo eski D kimliklerinin yerine geçmez.
+
+| E-ID | Primary kaynak ve blob | Gerçek derinlik |
+|---|---|---|
+| E01 | agent/tool_executor.py — 799199c10f9930da77c01da2324373614b27cb78 | Blob yanıtı alındı, seçili shared/sequential/worker/commit kaynakları incelendi. Yalnız elle aktarılmış excerpts/tool_executor.selected.py tanımları yürütüldü; tam modül ithali/hash-verified execution değil. |
+| E02 | hermes_cli/plugins.py — da8d7e2c68b2346e6ecc15567d755d96085ef767 | Seçili whitelist/directive kaynakları; yalnız excerpts/plugins.selected.py yürütüldü. Tam PluginManager/discovery değil. |
+| E03 | tools/thread_context.py — d8c37af8f5a529680e81e867177140e41c4c6656 | FULL READ + tam Git blob eşleşmesi + EXECUTED; callback API sentetik. |
+| E04 | tools/daemon_pool.py — 5682a8f6ae103a421c1081b69ee6f9272957acdf | FULL READ + tam Git blob eşleşmesi + EXECUTED; CPython iç API bağımlılığı. |
+| E05 | agent/tool_dispatch_helpers.py — f994ecfab247490695d75211f93f55688166dc6d | Seçili planner/admission/path rezervasyonu/NEVER_PARALLEL incelendi; modül çalıştırılmadı. Harness yalnız kaynak sabitini taşıdı. |
+| E06 | agent/turn_tool_validation.py — db3e89334ebb4302f55357e8063c28f5758becd5 | FULL READ + tam Git blob eşleşmesi + V01–V05'te EXECUTED; holder/message helpers sentetik. |
+| E07 | LICENSE — 75410e73319c72cd3e991a501c5455eb78f38375 | Önceki arşivden alınan lisansın blob kimliği tekrar eşleşti; kaynaklarla korunuyor. |
+
+**İlk koşu:** [RESULT](evidence/2026-09-08-worker-policy/RESULT.json), C01–C14, UTC `2026-09-08T19:31:50.677314+00:00`. **Ek koşu:** [VALIDATION-RESULT](evidence/2026-09-08-worker-policy/VALIDATION-RESULT.json), V01–V05, UTC `2026-09-08T19:36:58.555297+00:00`. Kayıtlı ortam Python 3.13.5/Linux. Tam name-validator eklenmesi bütün review inşasını veya gerçek ad-kümesi üretimini yürütmez.
+
+**Gerçek kimlik ret kontrolü:** [IDENTITY-CHECK](evidence/2026-09-08-worker-policy/IDENTITY-CHECK.json), UTC `2026-09-08T19:36:24.270992+00:00`. Değiştirilmiş geçici kaynak kopyası gerçek harness doğrulayıcısıyla upstream importtan önce reddedildi. İlk RESULT alanındaki basit hash eşitsizliği bundan farklıdır; eski sonuç değiştirilmedi.
+
+Manuel E01/E02 seçkileri added imports/scaffolding ve kendi kimlikleriyle tutulur; bunların SHA-256'sı upstream tam dosya hash'i değildir. `verify_excerpts.py` orijinal tam E01/E02 ile AST kontrolü için hazırdır, fakat o kontrol NOT RUN. Runtime çevresindeki Relay/middleware/lifecycle/guardrail/approval/agent/profile/UI/config taklitleri SOURCES/README/harness'te açık. Tam ordinary/concurrent loop, gerçek review/AIAgent/PluginManager, provider/credential/network ve gerçek zararlı araç yürütülmedi.
+
+**2026-09-09 yayını:** [PUBLICATION](evidence/2026-09-08-worker-policy/PUBLICATION.md) ve [TRANSFER-CHECK](evidence/2026-09-08-worker-policy/TRANSFER-CHECK.json). ZIP CRC ve 25 manifest girdisi doğrulandı; manifest dahil 26 özgün dosyanın Git tree kimliği yerel exact byte'lar ve GitHub readback arasında aynı çıktı: `d6ea71085c402744afbf80b1f9f4553eb97fbdb4`. Bu içerik aktarımıdır; hiçbir eski deney, kaynak AST kontrolü veya current upstream araştırması bu yayında yeniden yapılmadı. NOT PUBLISHED/NOT APPLIED/eski plan metinleri tarihsel teslim olarak korunur.
+
+## Güncel açık kapsam
+
+Tam seçki sadakati ve gerçek review/ordinary dispatch/ara kontrol entegrasyonu; actual UI/approval/profile; curator nested batch/rapor; ledger/backup/restore/sync; cancellation/shared-store; prompt reload/invalidation; session search/archive; alternatif runtime/provider/backend/delegation/gateway/cron/UI; install/CI/eval/gelecek-task kalite. Kaynak okuması, selected/full yürütme, aktarım bütünlüğü ve tüm ürün doğrulaması ayrı tutulur. Current upstream bu yayınla doğrulanmadı; eski notlar/deneyler korunur, tüm durumlar tek ürün PASS sayısına çevrilmez.
