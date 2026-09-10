@@ -1,10 +1,10 @@
 # Hermes Agent — Kaynak ve yürütme rotası
 
-2026-09-10 / plan v0.13. Primary pin `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`; Work STATE'tedir. Aynı turda AP recovery ve sonra yeni M4 araştırma/koşu/sentez ayrılır.
+2026-09-10 / plan v0.14. Primary pin `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`; Work STATE'tedir. U02 general core source incelemesidir, eski deney veya teslim recovery'sinin tekrarı değildir.
 
 ## Korunan geçmiş
 
-[Exact v0.9 defteri](SOURCE-LEDGER-THROUGH-V0.9.md) blob `dbd340e8de555307fea331d34f457b8266b9d127` korunur. [v0.12 defteri](https://github.com/batuhanozgun/agentic-os-search/blob/a14c8152a918a3379b4a0d6d67af9f7aece2f70e/research/studies/hermes-agent/SOURCE-LEDGER.md) AP/önceki aktarım kimliklerini taşır. Eski ID'ler değişmez.
+[Exact v0.9 defteri](SOURCE-LEDGER-THROUGH-V0.9.md), blob `dbd340e8de555307fea331d34f457b8266b9d127`. [V0.13 tam defteri](https://github.com/batuhanozgun/agentic-os-search/blob/c163836d959e3ada2f31afd353bb364671b5fb32/research/studies/hermes-agent/SOURCE-LEDGER.md) önceki AP/M4 kaynak/transfer/koşu ayrıntılarını taşır. Eski ID'ler değişmez.
 
 | Kayıt | Ayrıntılı kaynak rotası |
 |---|---|
@@ -17,22 +17,25 @@
 | M2/N memory/pending | [sources](evidence/2026-09-09-memory-pending/SOURCES.md) |
 | UI/A | [sources](evidence/2026-09-10-ui-profile/SOURCES.md) |
 | M3-S/SA | [sources](evidence/2026-09-10-pending-caller/SOURCES.md) |
-| AP local-UI/AP01–AP06 | [sources](evidence/2026-09-10-ui-profile-approval/original/evidence/SOURCES.md), [publication](evidence/2026-09-10-ui-profile-approval/PUBLICATION.md) |
+| AP | [sources](evidence/2026-09-10-ui-profile-approval/original/evidence/SOURCES.md), [publication](evidence/2026-09-10-ui-profile-approval/PUBLICATION.md) |
+| M4 prompt restore | [sources](evidence/2026-09-10-prompt-restore/SOURCES.md), [RESULT](evidence/2026-09-10-prompt-restore/RESULT.json), [publication](evidence/2026-09-10-prompt-restore/PUBLICATION.md) |
 
-A/SA/AP'nin local ID'leri package ile birlikte kullanılır. Ortak slash_access blob'u üç bağımsız source veya koşu toplamı yapmaz. A semantic mutantı diğerlerine aktarılmaz. AP 15 original tree `afbe1e767ddaf7e570b72197c7300d20d91f21d4` checkpoint a14c815'te kaydedildi; eski deneyler tekrarlanmadı.
+A/SA/AP ayrı ve örtüşen koşulardır, bağımsız doğrulama değildir. AP original15 tree `afbe1e767ddaf7e570b72197c7300d20d91f21d4` önceki recovery'de yayımlandı. M4 UTC `2026-09-10T16:11:51.320434+00:00` V01–V08, beş exact archived M2 modülü + manually selected restore/invalidation functions, fake DB/agent/reduced builder. Full-parent/current-wire ölçümü değildi. M4 core11 transfer tree `8dd2cfd73516926b5bc7d1adf0737556c2d6bf61` önceki yayın kaydıdır; bu tur yeniden doğrulanan HERMES koşusu değildir.
 
-## M4 — yeni source ve execution
+## U02 — genel core source trace
 
-**[M4 tam defteri](evidence/2026-09-10-prompt-restore/SOURCES.md)** → [15](notes/15-MEMORY-PROMPT-RESTORE-BOUNDARIES.md), [RESEARCH](evidence/2026-09-10-prompt-restore/RESEARCH.md).
+**[C01–C18 + reused R01/R02 defteri](evidence/2026-09-10-turn-lifecycle/SOURCES.md)** → [16](notes/16-GENERAL-TURN-CONTEXT-AND-SESSION.md), [RESEARCH](evidence/2026-09-10-turn-lifecycle/RESEARCH.md). C kimlikleri bu paket-local source kimlikleridir; eski worker C senaryolarıyla karıştırılmaz. C01 turn_context, C04 request assembly, C06 per-attempt, C07 call, C09 tool round, C10/C11 text/stop, C16 persistence ve C17 kanban_stop tam okunmuştur; büyük caller/compaction ve bazı fazlar SELECTED sınırlarıyla ayrı kaydedilir.
 
-M4-S01 loop parent `2e88c103275d756cfe8cb0e092b309f5f4406cb2`, selected 500–780/755–900; dört complete restore/identity definition. M4-S02 system_prompt parent `9bd52f03fc7568990f2bf157dc1301f9c81adbbb`, selected 430–750/EOF; iki memory/invalidate definition executed, builder/static-prefix source only. M4-S03 main loop callback/phase bağları stored-response source read. Büyük parent dosyaları locally full-byte verified veya full executed değildir.
+C13 actual admitted-compaction caller: invalidate/reload → real build → byte-equal keep → commit/return. C01/C04 yeni active prompt'u API-message kopyasına taşır. C06/C07 middleware/transport sınırı; final network content/timing açık. Eski M4 V04 artificial sıra actual compression diye promote edilmez.
 
-**Koşu UTC `2026-09-10T16:11:51.320434+00:00`:** [V01–V08 RESULT](evidence/2026-09-10-prompt-restore/RESULT.json), [SPEC](evidence/2026-09-10-prompt-restore/SPEC.md), [probe](evidence/2026-09-10-prompt-restore/probe.py). Beş exact M2 upstream modülü ve setup/helpers tekrar kullanıldı; eski N suite'i değil. Sentetik DB/agent/reduced builder ve belirtilmiş çevre. Endpoint cached-prompt seçimi/disk-live-frozen/fake DB; actual final request değil. İki identity kontrolü ve iki separate comparator mutantı recorded. Local selection hash parent fidelity ispatı değildir.
+C14/C15/C18 gateway lease/generation/cache/history/result/delivery; C16 actual persistence True/False/None ve DB row projection; C12/C17 task timeout/terminal-nudge kaynak köprüleridir. Bütün SQLite/lease/claim/terminal receipt uygulaması açılmış değildir.
 
-Çekirdek 11 dosyanın local/GitHub recursive tree kimliği `8dd2cfd73516926b5bc7d1adf0737556c2d6bf61` eşleşti (`truncated:false`). [MANIFEST](evidence/2026-09-10-prompt-restore/MANIFEST.json), [PUBLICATION](evidence/2026-09-10-prompt-restore/PUBLICATION.md). Transfer, behavior verification'dan ayrıdır.
+**Yürütme:** bu dilimde HERMES modülü/testi/modeli çalıştırılmadı. Doküman link/hash kontrolleri publication-only'dir. Source reader'ın aynı mekanizmaya yeniden ulaşması independent verification değildir. Kritik karşı yol yeni actual source caller'dır, yeni runtime sonuç değil.
 
-## Türetilmiş üst katman ve açık kaynak
+## Sentez, topoloji ve freshness
 
-[Synthesis/01](synthesis/01-LEARNING-AND-CHANGE-PROVISIONAL.md), 02–15 notlarından türetilmiş ilk provisional alt-sistem açıklamasıdır; yeni bağımsız source veya whole-product verdict değildir. [SCOPE-REVIEW](inventory/SCOPE-REVIEW-2026-09-10.md) mevcut kanıt/kapsam değerlendirmesidir.
+[Synthesis/02](synthesis/02-TURN-CONTEXT-AND-SESSION-PROVISIONAL.md) ordinary execution modelidir, [synthesis/01](synthesis/01-LEARNING-AND-CHANGE-PROVISIONAL.md) learning/change modeli korunur. [CORE-COVERAGE](inventory/CORE-COVERAGE-2026-09-10.md) hedefli map'tir; recursive bütün upstream tree veya tüm içerik listesi değildir.
 
-turn_context, request assembly ve sonraki system-prompt isteği 429 nedeniyle tam açılamadı. Saklanmış yanıttan full tail/callsite geri okundu; erişim engelinin etrafından dolaşılmadı. Q07/Q22 actual caller/request, Q26 full originals/worker, W freshness, full profile/scanner/quality açık. Sonraki aktif genel loop/context/session ve geniş topoloji kontrolü bu köprüleri doğru kapsamda geri açar.
+Default-branch search `77e55b4...` ve web docs sadece navigation. Kod iddiaları primary'ye bağlıdır. Yerel raw materialization DNS hatası connector source okumalarının yokluğu değildir. Saklanan response retrieval tutarsız görünen kritik C13 noktaları direct pinned path/range ile yeniden açıldı. Eski 429 kalıcı engel değil; bu gözlem backend root cause veya gelecek tool availability garantisi değildir.
+
+Current Work: kanban kalıcı task/claim/run/terminal receipt; sonra goal/loop/heartbeat ve SessionDB bağları. Full worker Q26/Q29, last-wire/variant Q07/Q22 ve genel F01–F12 açık. Yayın kimlikleri [PUBLICATION](evidence/2026-09-10-turn-lifecycle/PUBLICATION.md) ile bağlanır; transfer davranış doğrulaması değildir.
