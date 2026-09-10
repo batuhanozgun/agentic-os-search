@@ -1,38 +1,35 @@
 # EXP-001 — STATE
 
-**Arşiv durumu:** PARTIAL — görünür diyalog ve yeniden kullanım metinleri `main` üzerinde; özgün eser dosyalarının GitHub aktarımı eksik.  
+**Arşiv durumu:** ARCHIVED — tanımlı görünür diyalog kesimi, yeniden kullanım metinleri ve 32 özgün eser/kaynak dosyası `main` üzerinde. Önceki payload aktarım eksiği kapanmıştır.  
+**Payload doğrulaması:** 32/32 dosya; özgün paket byte'larından yeniden hesaplanan Git içerik/ağaç kimlikleri, GitHub'daki sabitlenmiş yükleme commit'iyle eşleşti. Tam ikili yeniden-indirme/SHA-256 kontrolü ayrıca yapılmadı; yöntem ve sınır aşağıda.  
 **Denemenin statüsü:** Kavramsal prova / sentetik demo / taslak mekanizma modeli. Bağımsız sistem doğrulaması veya mimari kabul değildir.  
-**Yetki:** U018'deki arşivleme talebi, S018 planı ve U019 uygulama/devam onayı.  
-**Kaynak kesimi:** U001–U019 ve S001–S018. Bu arşivleme çalıştırmasının son raporu bu özgün kesime dahil değildir.
+**Yetki:** U018 arşivleme talebi, S018 planı, U019 uygulama/devam onayı; devam konuşmasında kullanıcının dosyaları yüklemesi ve kontrol istemesi.  
+**Kaynak kesimi:** U001–U019 ve S001–S018. Sonraki aktarım konuşmaları özgün diyalog kesimine eklenmiş sayılmaz; yükleme/kapanış olayları checks altında tutulur.
 
 ## Repository'de tamamlanan bölüm
 
-- `agent/` ve `research/` yanında `explorations/` kütüphanesi kuruldu; root README ve research/INDEX çapraz yönlendirmesi eklendi.
-- 19 kullanıcı mesajı ve 18 substantive assistant cevabı, konuşmacı/sıra/kimlikleriyle aktarıldı. [Diyalog INDEX](sources/conversation/INDEX.md).
-- 15 kaynak bağlantılı öğrenme kaydı, 13 evreli düşünce/düzeltme izi, 9 açık soru grubu, konu haritası ve araştırma kaynak yolları yayımlandı.
-- Konsolidasyon, Atlas ve Atlas sonrası yaşayan plan tartışmasının ayrı kesimler olduğu kaydedildi. Eski eserler yeni görüşlerle yeniden yazılmadı.
-- Eser envanteri, altı özgün dosyanın hash/size manifesti, aktarım sınırı ve sonraki devralma hareketi görünür.
+- `agent/` ve `research/` yanında `explorations/` kütüphanesi; root README ve research/INDEX çapraz yönlendirmesi.
+- 19 kullanıcı mesajı ve 18 substantive assistant cevabı, konuşmacı/sıra/kimlikleriyle: [Diyalog INDEX](sources/conversation/INDEX.md).
+- 15 kaynak bağlantılı öğrenme kaydı, 13 evreli düşünce/düzeltme izi, 9 açık soru grubu, konu haritası ve araştırma kaynak yolları.
+- Konsolidasyon, Atlas ve Atlas sonrası yaşayan plan tartışmasının ayrı kesimleri. Eski eserler yeni görüşlerle yeniden yazılmadı.
+- Altı özgün dosya: konsolidasyon Markdown/PDF, Atlas HTML/PDF/ZIP ve özgün PNG çizim; ayrıca kaynak ZIP'inin 26 çıkarılmış üyesi. Toplam 32 dosya, 6.176.086 byte. [Eserler](artifacts/INDEX.md).
 
-## Kaynak sadakati sınırı
+## Yükleme ve içerik kimliği doğrulaması
 
-Bu, modele görünür konuşma metinlerinin assistant tarafından yapılmış kapsamlı aktarımıdır; platformun ham export'u veya bağımsız byte-perfect transcript doğrulaması değildir. Tarihsel citation/sandbox işaretleri korunur; yeni erişim garantisi sayılmaz. Bir aktarım yazım hatası kaynak ifadeye geri çevrildi ve [TRANSCRIPTION-NOTE](checks/TRANSCRIPTION-NOTE.md) içinde kaydedildi.
+Kullanıcı dosyaları `a3987312bbfbb8aa0fbf4ea6fd8a1113d467f415` commit'iyle, beklenen `explorations/EXP-001-soul-calisma-modeli/` yollarına yükledi. Commit'in ebeveyni `26067fc364f9813683aa5c4ebc6435279eeceb8e`; fark yalnız 32 yeni payload dosyasıdır. Var olan konuşma ve araştırma dosyaları bu yüklemeyle değiştirilmedi.
 
-## Yerelde güvenceye alınmış, GitHub'da eksik bölüm
+Önceden hazırlanmış tamamlama ZIP'inin SHA-256 kimliği yeniden doğrulandı: `054983b46aaa6ac33b226445ce194c1125ff89e5a7a1e4bdbc11cb579783a5a2`. İçindeki manifest ve 32 dosyanın boyut/SHA-256/Git blob kimlikleri yerel özgün byte'lardan yeniden hesaplandı. Konsolidasyon ve Atlas alt ağaçları ile çizim blob'u GitHub'dan okunan kimliklerle eşleşti. Ayrıntılar: [PAYLOAD-VERIFICATION](checks/PAYLOAD-VERIFICATION.md).
 
-Altı özgün dosya: konsolidasyon Markdown/PDF, Atlas HTML/PDF/ZIP ve kullanıcının PNG çizimi. Bunlar byte-eşit kopyalandı; 35/51 PDF sayfaları dosyadan sayıldı. ZIP CRC kontrolü geçti; 26 üye güvenli göreli yollarla çıkarıldı. Toplam 32 payload'ın byte'ları yerel **EXP001_Artefakt_Tamamlama_Paketi.zip** içinde korunur.
+Bu, yalnız dosya adı/sayısı kontrolü değildir; yolları, içerikleri ve dosya modlarını bağlayan Git içerik-kimliğine dayalı doğrulamadır. Doğrudan HTTPS adres çözümlemesi bu ortamda başarısız olduğu için tüm remote ikili dosyalar yeniden indirilip ayrı SHA-256 hesaplanmadı. Bu yapılmış gibi sunulmaz. Önceki aktarım planındaki indirme yöntemi yerine kullanılan kimlik denetimi ve kalan sınır açıkça kaydedildi.
 
-**Bu 32 dosyanın GitHub'a aktarımı tamamlanmadı.** SOURCE-MANIFEST'te bu nedenle `github_payload: pending` kalır. Yalnız hash veya burada yazılı yol, remote dosyanın varlığı sayılmaz.
+## Kaynak sadakati ve kanıt sınırı
 
-Tamamlama ZIP'i: 3.416.116 byte, SHA-256 `054983b46aaa6ac33b226445ce194c1125ff89e5a7a1e4bdbc11cb579783a5a2`.
+Görünür diyalog, assistant tarafından yapılmış kapsamlı aktarımdır; platformun ham export'u veya bağımsız byte-perfect transcript doğrulaması değildir. Tarihsel citation/sandbox işaretleri korunur; yeni erişim garantisi sayılmaz. [TRANSCRIPTION-NOTE](checks/TRANSCRIPTION-NOTE.md).
 
-## Doğrulama ve operasyonel sınır
+Arşiv kapanışı, konuşmadaki modelin doğrulanması değildir. Eski Atlas UI testleri yeniden çalıştırılmadı. Tarihsel bütün dış bağlantıların canlılığı veya bütün Markdown fragment'lerinin tarayıcı testi iddia edilmiyor. [ARCHIVE-COVERAGE](checks/ARCHIVE-COVERAGE.md).
 
-GitHub metin yayımlama yolu bu tur yeniden keşfedildi ve kullanıldı; önceki turdaki salt-okuma sınırı geçerli kabul edilmedi. Yayımlanan tree/commit ve seçili kaynak içerikleri yeniden okundu. `917d981... → 55499db...` karşılaştırmasında 37 dosya değişikliği yalnız izinli alanlarda: root README, explorations ve research/INDEX'e dört satır ek. `AGENT.md`, `agent/**`, Foundation ve diğer studies değiştirilmedi. Denetim ayrıntısı [ARCHIVE-COVERAGE](checks/ARCHIVE-COVERAGE.md).
+## Sonraki durum
 
-Büyük yerel payload'ları doğrudan dosya yolu ile alan bir connector eylemi bulunmadı; alternatif yerel ağ yolu host çözümlemesinde başarısız oldu. Büyük dosyalar bozuk veya eksik literal kopyaya dönüştürülmedi. Bu sınıra uygun, hash kontrollü tamamlama paketi hazırlandı.
+Bu aktarım için kullanıcının yeniden dosya/ZIP göndermesi gerekmiyor. Tamamlama ZIP'i artık geçici taşıma aracıdır; esas erişim yolu repository'dir. [PAYLOAD-TRANSFER](checks/PAYLOAD-TRANSFER.md) kapanmış aktarımın tarihçesini ve yeniden denetim yolunu taşır.
 
-## Sonraki yetkili hareket
-
-**Yalnız eksik 32 özgün payload'ı, dosya aktarımı yapabilen Git/GitHub ortamından yayımla; remote readback/hash denetiminden sonra STATE/manifest/coverage kayıtlarını güncelle.** Giriş: [PAYLOAD-TRANSFER](checks/PAYLOAD-TRANSFER.md). Kullanıcıya verilen ZIP'in gerçek byte'ları gerekir; hash'ten veya konuşma özetinden eser yeniden oluşturulmaz.
-
-Ham platform export'u elde edilirse aktarım sadakati ayrıca denetlenebilir; bu artık varmış gibi gösterilmez. Yaşayan plan araştırması, Atlas v0.2, SOUL veya Development OS implementasyonu bu devam işinin parçası değildir.
+Açık fikirler ve araştırma adayları [OPEN-QUESTIONS](reflections/OPEN-QUESTIONS.md) içinde korunur; bunlar otomatik yürütme kuyruğu değildir. Yaşayan plan araştırması, Atlas v0.2, SOUL veya Development OS implementasyonu başlatılmadı. `AGENT.md`, `agent/**`, Foundation ve diğer studies bu kapanışta değiştirilmez.

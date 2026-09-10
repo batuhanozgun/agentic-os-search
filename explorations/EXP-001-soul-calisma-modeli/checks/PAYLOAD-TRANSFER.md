@@ -1,37 +1,34 @@
-# EXP-001 — Özgün eserleri yayımlama devam noktası
+# EXP-001 — Özgün eser aktarımı: kapanmış devam noktası
 
-## Mevcut ayrım
+**Güncel durum: TAMAMLANDI — 32 dosya yayımlandı ve Git içerik kimlikleri doğrulandı.** Kullanıcının yeniden ZIP göndermesi veya aynı klasörleri tekrar yüklemesi gerekmiyor. [STATE](../STATE.md), [PAYLOAD-VERIFICATION](PAYLOAD-VERIFICATION.md).
 
-Diyalog, öğrenme/değişim kayıtları ve retrieval metinleri GitHub `main` üzerinde yayımlanmıştır. Aşağıdaki **32 dosyanın byte içeriği henüz GitHub'da değildir**: altı özgün eser/ek ve kaynak ZIP'inden çıkarılan 26 dosya. SOURCE-MANIFEST'teki `github_payload: pending` bu nedenle korunur. Metin arşivini bu payload'ların tam arşivi sayma.
+## Gerçekleşen devir
 
-Yerel gerçek byte'lar **EXP001_Artefakt_Tamamlama_Paketi.zip** ile kullanıcıya teslim edilir. Bu ZIP tüm diyalogun ikinci bir kopyası değil, repository'deki eksik eser içeriklerini tamamlayan pakettir.
+İlk turda diyalog, öğrenme/değişim kayıtları ve retrieval metinleri yayımlandı; altı özgün eser/ek ve kaynak ZIP'inin 26 üyesi eksik kaldı. Bu nedenle o tarihte PARTIAL hükmü doğruydu.
 
-Beklenen `PAYLOAD-MANIFEST.json` SHA-256:
+Kullanıcı, verilen tamamlama paketinin `repo-overlay/explorations/` klasörünü repository köküne yükledi. `a3987312bbfbb8aa0fbf4ea6fd8a1113d467f415` commit'i yalnız beklenen 32 yeni dosyayı içeriyor. Sonraki assistant turu, bu commit'i sabitleyip özgün paketten yeniden hesaplanan Git kimlikleriyle karşılaştırdı; metadata kapanışı bunun ardından yapılır. Yükleme ile doğrulama/kayıt güncellemesi ayrı olaylardır.
 
-`f694d43923ec28e190f985aa30de6b9eefbe739bd00f0c773695785ee1a9e42c`
+## Taşıma paketinin kimliği
 
-Paket içindeki `repo-overlay/` yolları repository köküne göredir. Toplam payload: **32 dosya, 6.176.086 byte** (ZIP sıkıştırması öncesi). Altı orijinalin bireysel kimliği SOURCE-MANIFEST'te, tüm 32 dosyanın kimliği tamamlama paketindeki manifesttedir. Tekrarlanan HTML/PDF/Markdown, özgün ZIP yapısının bilinçli ve byte-eşit kopyalarıdır; yeni canonical içerik değildir.
+- ZIP: `EXP001_Artefakt_Tamamlama_Paketi.zip`, 3.416.116 byte.
+- ZIP SHA-256: `054983b46aaa6ac33b226445ce194c1125ff89e5a7a1e4bdbc11cb579783a5a2`.
+- İçindeki PAYLOAD-MANIFEST.json SHA-256: `f694d43923ec28e190f985aa30de6b9eefbe739bd00f0c773695785ee1a9e42c`.
+- Payload: 32 dosya, toplam 6.176.086 byte. Tekrarlanan HTML/PDF/Markdown, özgün ZIP yapısının byte-eşit kopyalarıdır; farklı canonical sürümler değildir.
 
-## Bu turdaki aktarım sınırı
+Bu taşıma ZIP'inin kendisini repository'ye ayrıca yüklemek şart değildi. Kalıcı içerik olan 32 dosya beklenen yollarındadır; Atlas'ın özgün kaynak ZIP'i de bu 32 dosyanın içindedir.
 
-GitHub connector'ünün `create_tree → create_commit → update_ref(force=false)` metin yayımlama yolu çalıştı. Yerel dosya yolunu alıp byte içeriğini doğrudan yükleyen eylem bu arayüzde bulunmadı. `create_blob` literal UTF-8/base64 içerik kabul eder; bu, yerel büyük dosyaları güvenilir biçimde aktaran bir dosya-köprü arayüzü değildir. Bu tur büyük payload aktarımı tamamlanmadı.
+## Önceki engel ve korunmuş yöntem sınırı
 
-Container'dan standart HTTPS/Git yolu için ayrıca ağ erişimi denendi; raw GitHub host çözümlemesi `Temporary failure in name resolution` ile başarısız oldu. Yerel gh istemcisi veya kurulmuş GitHub CLI kimlik doğrulaması da gözlenmedi. Connector erişim belirteçleri başka bir yazma kanalına taşınmadı.
+İlk aktarımda `create_tree → create_commit → update_ref(force=false)` metin yolu çalışmış, yerel büyük dosyaları doğrudan alan köprü bulunamamıştı. Yerel standart HTTPS/Git erişimi DNS hatası vermişti. Kimlik bilgileri başka kanala taşınmadı; büyük payload'lar bozuk literal metne dönüştürülmedi.
 
-## Sonraki yetkili yürütücü için sınırlı iş
+Önceki plan tüm dosyaları remote'dan indirerek SHA-256 denetimi öngörüyordu. Kapanışta doğrudan ağın DNS engeli sürdü. Bunun yerine **önceden hazırlanmış manifestteki ve özgün byte'lardan yeniden hesaplanan Git blob/ağaç kimlikleri**, GitHub connector'ünün pinned tree/path kimlikleriyle karşılaştırıldı. 32/32 eşleşme içerik-kimliği denetimidir; yalnız dosya sayısı değildir. Tam binary yeniden-indirme/SHA-256 denetimi yapılmış gibi yazılmadı. Bu yöntemin ayrıntı ve sınırı PAYLOAD-VERIFICATION'dadır.
 
-1. Canonical `AGENT.md`, paket STATE ve bu dosyayı oku. Bu devam işi yalnız arşiv payload'larını yayımlamaktır; Atlas geliştirme veya araştırma başlatma değildir.
-2. Kullanıcının sağladığı aynı manifest hash'li tamamlama ZIP'ini güvenli bir dizine aç. Eksik ZIP'i özet veya hash'ten yeniden üretme.
-3. Güncel `batuhanozgun/agentic-os-search` checkout'unda mevcut değişiklikleri koru. `repo-overlay/` içindeki yalnız manifestteki 32 yolu değerlendir.
-4. Paketteki `tamamla.py <checkout>` varsayılan dry-run yapar. `--apply` yalnız eksik ve kaynak hash'i doğru dosyaları kopyalar; farklı mevcut hedefi veya symlink yolunu reddeder. Otomatik commit/push yapmaz. `--verify` tüm hedeflerin byte eşitliğini kontrol eder.
-5. Gerçek değişiklikleri ve hassas bilgi bulunmadığını gözden geçir. Yalnız bu eser yollarını ve doğrulama sonucu gerektirdiği paket STATE/manifest/checks güncellemelerini commit et; unrelated dosyaları ekleme. Force push kullanma.
-6. Remote HEAD/path/blob varlığını ve indirilen dosyaların SHA-256 değerlerini yeniden doğrula. Yeni remote kanıtı olmadan `pending` veya PARTIAL durumunu kaldırma.
-7. SOURCE-MANIFEST, STATE, WORK-PLAN ve ARCHIVE-COVERAGE'i gerçek sonuca göre güncelle. Görünür diyalog aktarımı yine ham platform export'u olarak adlandırılmayacak.
+İlk aktarım planının tam tarihsel sürümü: `c163836d959e3ada2f31afd353bb364671b5fb32` commit'indeki aynı dosya. Artık o sürümdeki “yeniden yükle” adımları güncel iş kuyruğu değildir.
 
-## Yerel helper doğrulaması
+## Önceki helper kontrolleri
 
-Yalnız kopyalama helper'ı için 9 yerel sentetik kontrol geçti: dry-run yazmaz; eksik verify başarısız; 32 byte-eşit kopya; tam verify; aynı içerikte idempotent tekrar; farklı hedefte yazmadan durma; symlink reddi; yanlış repo origin reddi; bozuk kaynak reddi. Bu testler GitHub yayını, güvenlik sertifikasyonu veya SOUL ajan davranışı değildir.
+Tamamlama paketindeki `tamamla.py <checkout>` dry-run/--apply/--verify kopyalama yardımcısıydı; commit/push yapmıyordu. Önceki 9 yerel kontrol: dry-run yazmama, eksik verify, 32 eşit kopya, tam verify, aynı içerikte idempotence, farklı hedefte durma, symlink reddi, yanlış repo origin reddi, bozuk kaynak reddi. Bu kontroller burada yeniden çalıştırılmış veya GitHub yüklemesini gerçekleştirmiş sayılmaz.
 
-## Tamamlama sonrası
+## Yeniden denetim gerektiğinde
 
-Tamamlama paketinin işi bittiğinde EXP-001'in esas erişim yolu repository olmalıdır; bu sohbetin sandbox bağlantıları veya kişisel hafıza değildir. Ham platform export'u ayrıca elde edilirse kaynak aktarımı onunla karşılaştırılabilir; bu ek kontrol orijinal kaynak dosyalarını sessizce değiştirmemelidir.
+Özgün dosyalar değiştirilmeden SOURCE-MANIFEST ve kaynak ZIP/manifest ile karşılaştırılır. Çelişen bir hash veya eksik yol çıkarsa yalnız ilgili arşiv işi yeniden açılır. Ham platform export'u elde edilirse diyalog sadakati ayrıca denetlenebilir; kaynak mesajlar sessizce düzeltilmez. Yaşayan plan araştırması, Atlas v0.2 ve ürün implementasyonu bu aktarımın devamı değildir.

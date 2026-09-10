@@ -3,8 +3,8 @@
 **Tür:** Kavramsal diyalog + sentetik rol demosu + mekanizma modelleme provası.  
 **Kaynak oturum:** 10 Eylül 2026; kesin mesaj saatleri üretilmemiştir.  
 **Amaç:** Araştırmaların, kullanıcının düşünme yaklaşımının ve LLM'in birlikte nasıl bir SOUL çalışma anlayışı ortaya çıkarabildiğini görmek; sonraki denemeler için ayrıntılı ve geri çağrılabilir kaynak bırakmak.  
-**Arşiv durumu:** [STATE.md](STATE.md) — diyalog ve retrieval yayımlandı; özgün eser payload'larının GitHub aktarımı henüz eksik.  
-**Devam:** [WORK-PLAN.md](WORK-PLAN.md).
+**Arşiv durumu:** [STATE.md](STATE.md) — tanımlı diyalog kesimi, retrieval ve 32 eser/kaynak dosyası yayımlandı; Git içerik kimlikleri doğrulandı.  
+**Aktarım planının kapanışı:** [WORK-PLAN.md](WORK-PLAN.md).
 
 Bu çalışma bitmiş SOUL, onaylanmış mimari, ürün implementasyonu veya bağımsız ajan benchmark'ı değildir. Uygulama ve roman örnekleri çalışma modelini düşünmek için kullanıldı. Konsolidasyon ve Atlas gerçek eserlerdir; onların içindeki ajan hareketleri sentetiktir.
 
@@ -17,14 +17,15 @@ Bu çalışma bitmiş SOUL, onaylanmış mimari, ürün implementasyonu veya ba�
 | Neler öğrendik, hangi sınırlarla? | [LEARNINGS](reflections/LEARNINGS.md) — 15 kaynak bağlantılı kayıt |
 | Hangi düşüncemiz neden değişti? | [EVOLUTION](reflections/EVOLUTION.md) — 13 değişim evresi |
 | Neler hâlâ açık? | [OPEN-QUESTIONS](reflections/OPEN-QUESTIONS.md) — araştırma soruları, yürütme yetkisi değil |
-| Konsolidasyon / Atlas / çizim | [Eser INDEX](artifacts/INDEX.md) → [manifest](SOURCE-MANIFEST.json) ve payload durumu |
+| Konsolidasyon / Atlas / çizim | [Eser INDEX](artifacts/INDEX.md) → özgün dosyalar ve [manifest](SOURCE-MANIFEST.json) |
 | Foundation ve studies dayanakları | [RESEARCH-REFERENCES](sources/RESEARCH-REFERENCES.md) |
-| Arşiv tam mı, ne doğrulandı? | [ARCHIVE-COVERAGE](checks/ARCHIVE-COVERAGE.md), [TRANSCRIPTION-NOTE](checks/TRANSCRIPTION-NOTE.md) |
-| Eksik özgün dosyaları nasıl tamamlarım? | [PAYLOAD-TRANSFER](checks/PAYLOAD-TRANSFER.md) |
+| Arşivin kapsamı ve sadakati | [ARCHIVE-COVERAGE](checks/ARCHIVE-COVERAGE.md), [TRANSCRIPTION-NOTE](checks/TRANSCRIPTION-NOTE.md) |
+| Yüklenen 32 dosya nasıl doğrulandı? | [PAYLOAD-VERIFICATION](checks/PAYLOAD-VERIFICATION.md) |
+| Önceki dosya aktarım eksiğine ne oldu? | [PAYLOAD-TRANSFER](checks/PAYLOAD-TRANSFER.md) — kapanmış aktarım tarihçesi |
 
 ## Kaynak ve eser kesimleri
 
-Görünür diyalog arşivi 19 kullanıcı mesajı (U001–U019) ve ilk 18 substantive assistant cevabını (S001–S018) içerir. U019 bu arşivleme turunun yetkisidir. Bu turdaki araç/log kayıtları özgün deneme diyaloğuna karıştırılmaz. Ham platform export'u değildir; aktarım sınırı sadakat notunda açık kalır.
+Görünür diyalog arşivi 19 kullanıcı mesajı (U001–U019) ve ilk 18 substantive assistant cevabını (S001–S018) içerir. U019 ilk arşivleme turunun yetkisidir. Sonraki aktarım/yükleme olayları checks kayıtlarında tutulur; özgün diyalog kesimine karıştırılmaz. Ham platform export'u değildir; aktarım sınırı sadakat notunda açık kalır.
 
 Konsolidasyon v0.1 uzmanlık sürekliliğine kadar oluşan görüşleri bütünlüklü metne çevirir. Atlas v0.1 sonraki mekanik modelleme konuşmasının eseridir. Atlas sonrası yaşayan katmanlı plan tartışması U016–U017/S016–S017 ve reflection dosyalarında ayrıca korunur; özgün eserlere sonradan işlenmez.
 

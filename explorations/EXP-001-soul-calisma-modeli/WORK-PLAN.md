@@ -1,17 +1,18 @@
 # EXP-001 — Yaşayan aktarım planı
 
-**Güncel durum otoritesi:** [STATE.md](STATE.md). Bu plan toplam işi ve alt görevlerin durumunu görünür tutar. `Bitti` sözcüğü yerel kopyayı, remote yayını ve kaynak sadakatini tek hükme indirmez.
+**Güncel durum otoritesi:** [STATE.md](STATE.md). Bu plan toplam işi ve alt görevlerin durumunu görünür tutar. Yerel kopya, remote yayın, içerik kimliği ve kaynak sadakati tek hükme indirilmez.
 
 ## 1. Kaynakları güvenceye al
 
 | Alt iş | Durum | Not |
 |---|---|---|
-| 1.1 Altı özgün dosyayı bul, byte-eşit koru, hash'le | YEREL TAMAM | SOURCE-MANIFEST altı özgün kimliği taşır. |
-| 1.2 ZIP'i güvenle aç, üyeleri karşılaştır | YEREL TAMAM | CRC sağlam; 26 üye, orijinal ad/göreli yol korunuyor. |
+| 1.1 Altı özgün dosyayı bul, byte-eşit koru, hash'le | TAMAM | SOURCE-MANIFEST altı özgün kimliği taşır; orijinaller değiştirilmedi. |
+| 1.2 ZIP'i güvenle aç, üyeleri karşılaştır | TAMAM | CRC sağlam; 26 üye, orijinal ad/göreli yol korunuyor. |
 | 1.3 U001–U019 görünür kullanıcı metinlerini aktar | MAIN ÜZERİNDE | 19 mesaj; ham platform export'u değil. |
 | 1.4 S001–S018 substantive cevapları aktar | MAIN ÜZERİNDE | 18 ayrı dosya; tarihsel yanlışlar sonradan sessizce düzeltilmedi. |
 | 1.5 Kaynak kesimi ve normalizasyonu açıkla | MAIN ÜZERİNDE | Aktarım hatası düzeltme notu; araç/private içerik dışarıda. |
-| 1.6 Özgün 32 payload'ı remote'a yayımla | **BEKLİYOR** | Dosya aktarım yoluna bağlı; gerçek byte'lar tamamlama ZIP'inde. |
+| 1.6 Özgün 32 payload'ı remote'a yayımla | TAMAM | Kullanıcı yüklemesi: a3987312bbfbb8aa0fbf4ea6fd8a1113d467f415. |
+| 1.7 Yüklemeyi özgün pakete karşı denetle | TAMAM / GİT İÇERİK KİMLİĞİ | 32/32 dosya, sıfır eksik/uyuşmazlık; yöntem sınırı aşağıda. |
 
 ## 2. Düşünce gelişimini işle — MAIN ÜZERİNDE
 
@@ -26,24 +27,28 @@
 3.2 Research root'unda ayrı denemeler kütüphanesine kısa cross-link.  
 3.3 TOPIC-MAP: roman, mimar, kulübe, alet çantası, D-02, C bitmeden başlama ve başka dala not gibi hatırlama ipuçları.  
 3.4 RESEARCH-REFERENCES: tarihsel snapshot/blob ve güncel kaynak yolları.  
-3.5 Sonraki EXP'ler için `builds_on/revises/contrasts_with` ilişkileri; tekrar bağımsız kanıt değildir.
+3.5 Sonraki EXP'ler için builds_on/revises/contrasts_with ilişkileri; tekrar bağımsız kanıt değildir.  
+3.6 Eser INDEX: artık yüklenmiş MD/PDF/HTML/ZIP/PNG ve çıkarılmış kaynaklara doğrudan bağlantılar.
 
 ## 4. Doğrulama — KAPSAMA GÖRE AYRI
 
 | Kontrol | Durum |
 |---|---|
-| 37 görünür kaynak mesajının sıra/kimlik kapsamı | Yayımlanan kaynak dizini ve tree üzerinden denetlendi. |
-| Önemli düğümlerin remote içerik okuması | Kullanıcı metinleri, demo D-02, mesleki standart düzeltmesi ve retrieval girişleri seçici okundu. |
+| 37 görünür kaynak mesajının sıra/kimlik kapsamı | Önceki arşivleme turunda kaynak dizini/tree üzerinden denetlendi. |
+| Önemli kaynak metinlerinin remote okuması | Önceki turda kullanıcı metinleri, D-02 ve mesleki standart düzeltmesi seçici okundu. |
 | Kaynak metninin ham platform export'una byte diff'i | YAPILMADI / export yok. |
-| Yerel altı orijinalin hash, PDF sayımı ve ZIP CRC'si | TAMAM. |
-| Tamamlama helper'ının dar kopyalama kontrolleri | 9 yerel kontrol geçti; remote yayın değildir. |
-| Remote özgün eserlerin byte/hash readback'i | **YAPILMADI / payload eksik.** |
-| İzinli path sınırı | GitHub compare ile yalnız README, explorations ve research/INDEX eki görüldü. |
-| Bütün historical dış URL'lerin ve sandbox linklerinin canlılığı | İddia edilmiyor; tarihsel adresler ve güncel yönlendirme ayrıldı. |
-| Her link fragment'inin tarayıcıda bağımsız testi | YAPILMADI; kimlikli mesaj bağlantıları ve önemli okuma yolları seçici incelendi. |
+| Yerel altı orijinalin hash, PDF sayımı ve ZIP CRC'si | İlk aktarımda tamam; kapanışta taşıma ZIP'i ve 32 payload hash'i yeniden kontrol edildi. |
+| Kopyalama helper'ının kontrolleri | Önceki 9 yerel kontrol; bu tur yeniden çalıştırılmış sayılmaz. |
+| Remote 32 payload'ın yol ve Git içerik/ağaç kimliği | TAMAM; özgün byte'lardan hesaplanan kimlikler pinned GitHub snapshot'ıyla eşit. |
+| Tüm remote ikili dosyaları yeniden indirip SHA-256 hesaplama | YAPILMADI; doğrudan ağda DNS engeli. Bunun yerine Git içerik kimliği doğrulaması uygulandı. |
+| Kimlik denetiminin negatif kontrolleri | 1 byte değişikliği, eksik dosya ve yanlış isim örnekleri uyuşmazlık verdi. |
+| Kullanıcı yüklemesinin kapsamı | Parent→upload compare: yalnız 32 yeni payload, mevcut dosyalarda değişiklik yok. |
+| Bütün tarihsel URL/sandbox linklerinin canlılığı | İddia edilmiyor. |
+| Her Markdown fragment'inin bağımsız tarayıcı testi | YAPILMADI; bütün linkler geçti iddiası yok. |
+| SOUL/Atlas çalışma etkinliği veya yeni UI testi | BU ARŞİV KAPANIŞININ KAPSAMI DIŞINDA. |
 
-## Bir sonraki somut iş
+## Kapanış ve sonraki iş
 
-[PAYLOAD-TRANSFER](checks/PAYLOAD-TRANSFER.md) yolunu izle. Kullanıcının tamamlama ZIP'ini al; sadece manifestteki 32 payload'ı mevcut repository'ye doğrula/kopyala/yayımla; sonra remote içerik kimliklerini doğrula ve metadata'yı gerçek sonuca göre güncelle. Farklı mevcut dosyayı veya unrelated kullanıcı değişikliğini ezme.
+[PAYLOAD-VERIFICATION](checks/PAYLOAD-VERIFICATION.md) yükleme kanıtını ve yöntem sınırını taşır. Önceki 32 dosyayı yeniden yükleme işi kalmadı; kullanıcıdan yeni ZIP beklenmiyor. [PAYLOAD-TRANSFER](checks/PAYLOAD-TRANSFER.md) artık tarihsel aktarım kaydıdır.
 
-Bu adım tamamlanmadan genel arşiv durumunu COMPLETE yapma. Yeni kapsam veya yeni araştırma açma. Aktarım başka turda devam ederse konuşmayı tekrar özetlemek yerine bu exact kaldığı yerden sürdür.
+Planın kaynak arşivleme, eser yayını ve Git içerik-kimliği doğrulaması tamamlandı. Ham platform export'una karşı sadakat, tarihsel tüm bağlantıların canlılığı ve sistem etkinliği bununla doğrulanmış olmadı. Yeni deneme, yaşayan plan araştırması veya Atlas v0.2 ancak ayrı kullanıcı yönüyle başlatılır.
