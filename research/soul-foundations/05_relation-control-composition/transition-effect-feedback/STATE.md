@@ -1,15 +1,15 @@
 # Transition / Effect / Feedback — STATE
 
-**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; BOTH CAUSAL CHILDREN ACCEPTED  
 **Parent accepted:** 2026-09-06  
 **Parent:** `Cross-Ground Composition` — accepted  
 **Cross-Ground Transition / Propagation:** accepted bounded leaf  
 **Cross-Ground Causal Effect / Contribution:** accepted bounded parent  
 **Actual Causal Contribution / Episode Causation:** accepted bounded leaf  
-**Contrastive / Interventional Causal Effect:** bounded leaf / USER EVALUATION PENDING  
-**Cross-Ground Feedback / Adaptation:** recommended next if Contrastive accepted / inactive  
+**Contrastive / Interventional Causal Effect:** accepted bounded leaf 2026-09-10  
+**Cross-Ground Feedback / Adaptation:** recommended next / inactive  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT RESULT EVALUATION ONLY
+**Current authorised interaction:** NEXT TRANSITION-PARENT CHILD SELECTION / PLANNING ONLY
 
 ## Current structure
 
@@ -18,24 +18,31 @@ Transition / Effect / Feedback                         ← accepted parent
 ├─ Cross-Ground Transition / Propagation               ← accepted bounded leaf
 ├─ Cross-Ground Causal Effect / Contribution           ← accepted bounded parent
 │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-│  └─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
-└─ Cross-Ground Feedback / Adaptation                  ← recommended next if accepted / inactive
+│  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
+└─ Cross-Ground Feedback / Adaptation                  ← recommended next / inactive
 ```
 
-## Current Contrastive result
+## Accepted causal completion
+
+The causal parent now has both immediate children bounded and accepted:
 
 ```text
-causal effect identity
-= outcome + target + X vs X' + applicability frame
+Actual Causal Contribution / Episode Causation
+→ what actually contributed to this realized episode/effect?
 
-intended/assigned intervention != realized/received intervention
-source/local effect != target effect
-causal target defined != identifiable/estimated
+Contrastive / Interventional Causal Effect
+→ how would target outcomes differ under X versus X'?
+```
+
+Key boundaries retained:
+
+```text
+actual episode cause != contrastive causal effect
+association != causal effect
+causal target defined != identifiable != estimated != decision-sufficient
 ```
 
 ## Current sequencing recommendation
-
-If the user accepts the current leaf:
 
 > **Cross-Ground Feedback / Adaptation** should be the next substantive child.
 
