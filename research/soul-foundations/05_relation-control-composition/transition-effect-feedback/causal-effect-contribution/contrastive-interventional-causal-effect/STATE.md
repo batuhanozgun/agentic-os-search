@@ -1,25 +1,25 @@
 # Contrastive / Interventional Causal Effect — STATE
 
-**Status:** BOUNDED LEAF / AWAITING USER EVALUATION  
+**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED  
 **Activated:** 2026-09-06  
 **Closed for evaluation:** 2026-09-06  
+**Accepted:** 2026-09-10  
 **Parent:** `Cross-Ground Causal Effect / Contribution` — bounded parent / user-evaluated / accepted 2026-09-06  
 **Accepted sibling:** `Actual Causal Contribution / Episode Causation` — accepted bounded leaf  
-**Transition sibling outside causal parent:** `Cross-Ground Feedback / Adaptation` — recommended next if accepted / inactive  
-**Current phase:** I7 CLOSURE COMPLETE / USER EVALUATION GATE  
+**Transition sibling outside causal parent:** `Cross-Ground Feedback / Adaptation` — recommended next / inactive  
 **I0–I7:** COMPLETE  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT RESULT EVALUATION ONLY
+**Current authorised interaction:** NEXT TRANSITION-PARENT CHILD SELECTION / PLANNING ONLY
 
 ## Protected question
 
 > For a defined target, how would outcome/effect Y differ under exact regime/state/action/exposure X versus comparator X', under the relevant context/time/version, and with what limits on causal identification and generalization?
 
-## Bounded result
+## Accepted bounded result
 
 ```text
 Contrastive / Interventional Causal Effect
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / USER-EVALUATED / ACCEPTED
     ← no immediate child promoted
     ← one target-specific causal-contrast grammar
 ```
@@ -79,13 +79,11 @@ actual episode cause != contrastive/interventional causal effect
 - evidence/identification method;
 - Control effectiveness.
 
-## Next sequencing recommendation
+## Current sequencing recommendation
 
-If the user accepts this result:
+> **Cross-Ground Feedback / Adaptation** is the strongest current next Foundation child.
 
-> **Cross-Ground Feedback / Adaptation** is the strongest current next child.
-
-It is not active.
+It is not active and requires separate substantive activation.
 
 ## Verification status
 
