@@ -8,7 +8,7 @@
 
 Koşu UTC `2026-09-10T16:11:51.320434+00:00`. Beş exact archived M2 modülü + yeni kaynaktan altı manually selected definition, sentetik DB/agent/reduced builder ve açık callback taklitleriyle kullanıldı. V01–V08: başarılı onaydan sonra eski DB prompt'unun seçimi; no-history/null/read-error ve runtime mismatch rebuild; reload/invalidate/explicit persist ayrımı; onaylı silme; writer ve DB arızaları; kontrollü capability-refresh/failure dalları. Sekiz grubun beklentileri eşleşti. Full-source pre-import ve local-selection identity reddi; ayrı always-true/false comparator mutantları yanlış seçime duyarlılığı gösterdi.
 
-Bu transfer yeni bir deneydir; AP arşiv kapanışıyla karıştırılmaz. Eski N/A/SA/AP paketleri yeniden koşulmadı; M2 setup/helper'ı ve fault modeli ortak olduğu için independent corroboration sayılmaz. Selected file hash, tam parent byte fidelity değildir. Full prompt builder, actual SQLite, real Bot Chat probe, UI/cache/compression/request ve provider çalıştırılmadı. V04 invalidate→restore sırası harness tarafından kuruldu; actual compression bug'ı değildir.
+Bu çalışma yeni bir deney içerir; AP arşiv kapanışıyla karıştırılmaz. Dosyaların yayımlanması ise deneyin yeniden yürütülmesi veya ek davranış doğrulaması değildir. Eski N/A/SA/AP paketleri yeniden koşulmadı; M2 setup/helper'ı ve fault modeli ortak olduğu için independent corroboration sayılmaz. Selected file hash, tam parent byte fidelity değildir. Full prompt builder, actual SQLite, real Bot Chat probe, UI/cache/compression/request ve provider çalıştırılmadı. V04 invalidate→restore sırası harness tarafından kuruldu; actual compression bug'ı değildir.
 
 ## Açık halka ve sentez
 
