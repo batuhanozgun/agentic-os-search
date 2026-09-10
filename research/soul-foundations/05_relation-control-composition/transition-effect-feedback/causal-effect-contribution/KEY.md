@@ -1,18 +1,18 @@
 # Cross-Ground Causal Effect / Contribution — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT BOUNDED LEAF / AWAITING USER EVALUATION  
-**Date:** 2026-09-06
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; BOTH IMMEDIATE CAUSAL CHILDREN ACCEPTED  
+**Date:** 2026-09-10
 
 ## Current structure
 
 ```text
 Cross-Ground Causal Effect / Contribution
 ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-└─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
+└─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
 ```
 
-The parent is **not a leaf**. Dedicated child research now supports bounded-leaf results for both immediate children, with the Contrastive result still awaiting user acceptance.
+The parent is **not a leaf**. Both immediate diagnostic children are now bounded and accepted.
 
 ## Parent protected question
 
@@ -40,15 +40,15 @@ causal contribution != responsibility/accountability
 all observed contributors analyzed != causal explanation complete
 ```
 
-## Current child — Contrastive / Interventional Causal Effect
+## Accepted child — Contrastive / Interventional Causal Effect
 
 > For a defined target, how would outcome/effect Y differ under exact regime/state/action/exposure X versus comparator X', under the relevant context/time/version, and with what limits on causal identification and generalization?
 
-Current bounded result:
+Accepted bounded result:
 
 ```text
 Contrastive / Interventional Causal Effect
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / ACCEPTED
     ← no immediate child promoted
 ```
 
@@ -82,11 +82,7 @@ remains sufficient at current Foundation depth for distinguishing governing sema
 
 ## Current sequencing recommendation
 
-If the user accepts the Contrastive leaf:
-
-> **Cross-Ground Feedback / Adaptation**
-
-is the strongest next Transition child.
+> **Cross-Ground Feedback / Adaptation** is the strongest next Transition child.
 
 Do not activate automatically.
 
