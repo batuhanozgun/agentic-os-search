@@ -125,3 +125,7 @@ Preserve these distinctions:
 - implementation state.
 
 Do not collapse them because they appear under the same `research/` root.
+
+## Related library outside research
+
+[explorations/INDEX.md](../explorations/INDEX.md) is the separately authorised **Düşünce ve Model Denemeleri** library at repository root. It preserves conceptual dialogues, synthetic demonstrations, draft models and learning/evolution traces; it is not a fourth research class or agent-control layer. Start at [its catalog](../explorations/CATALOG.md) for selective reuse. The first entry is [EXP-001](../explorations/EXP-001-soul-calisma-modeli/INDEX.md). A recorded hypothesis, repeated idea or model in this library is not thereby a Foundation finding, independently verified result or adopted architecture. Relevant future research can link to an exploration without importing its conclusions as axioms.

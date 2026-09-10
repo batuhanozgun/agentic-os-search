@@ -1,29 +1,35 @@
 # EXP-001 — SOUL'un çalışma modeli
 
-**Tür:** Kavramsal diyalog, sentetik rol demosu ve mekanizma modelleme provası.  
-**Kaynak oturum:** 10 Eylül 2026; kesin mesaj saatleri elde değil.  
-**Amaç:** Araştırmaların, kullanıcı düşünme yaklaşımının ve LLM'in birlikte nasıl bir SOUL çalışma modeli ortaya çıkarabildiğini anlamak; sonraki denemeler için ayrıntılı bir iz bırakmak.  
-**Güncel arşivleme durumu:** [STATE.md](STATE.md).  
-**Aktarım planı:** [WORK-PLAN.md](WORK-PLAN.md).
+**Tür:** Kavramsal diyalog + sentetik rol demosu + mekanizma modelleme provası.  
+**Kaynak oturum:** 10 Eylül 2026; kesin mesaj saatleri üretilmemiştir.  
+**Amaç:** Araştırmaların, kullanıcının düşünme yaklaşımının ve LLM'in birlikte nasıl bir SOUL çalışma anlayışı ortaya çıkarabildiğini görmek; sonraki denemeler için ayrıntılı ve geri çağrılabilir kaynak bırakmak.  
+**Arşiv durumu:** [STATE.md](STATE.md) — diyalog ve retrieval yayımlandı; özgün eser payload'larının GitHub aktarımı henüz eksik.  
+**Devam:** [WORK-PLAN.md](WORK-PLAN.md).
 
-Bu çalışma bitmiş SOUL, onaylanmış mimari, ürün implementasyonu veya bağımsız agent benchmark'ı değildir. Kullanıcının talebi uygulama yapmak değil, uygulama ve roman örnekleriyle çalışma modelini düşünmekti. Gerçek üretilen eserler konsolidasyon ve mekanizma atlasıdır; onların içindeki ajan çalışmaları sentetiktir.
+Bu çalışma bitmiş SOUL, onaylanmış mimari, ürün implementasyonu veya bağımsız ajan benchmark'ı değildir. Uygulama ve roman örnekleri çalışma modelini düşünmek için kullanıldı. Konsolidasyon ve Atlas gerçek eserlerdir; onların içindeki ajan hareketleri sentetiktir.
 
-## Kaynak sınırı
+## Hangi soruyla geri geldin?
 
-Arşiv, ilk uygulama sorusundan arşivleme planının kabulüne kadar 19 kullanıcı mesajını ve bunlara verilen ilk 18 substantive assistant cevabını hedefler. U019 bu arşivleme turunu başlatan yetkidir. Bu turun araç kayıtları özgün diyalog değil, ayrı arşivleme kanıtıdır. Ham platform export'u yoktur.
+| İhtiyaç | Okuma yolu |
+|---|---|
+| “Hani konuşmuştuk ya” / belirli örneği hatırlama | [TOPIC-MAP](retrieval/TOPIC-MAP.md) → ilgili U/S mesajı |
+| Konuşmayı sıra ile okumak | [Diyalog INDEX](sources/conversation/INDEX.md) → U001/S001 ... U019 |
+| Neler öğrendik, hangi sınırlarla? | [LEARNINGS](reflections/LEARNINGS.md) — 15 kaynak bağlantılı kayıt |
+| Hangi düşüncemiz neden değişti? | [EVOLUTION](reflections/EVOLUTION.md) — 13 değişim evresi |
+| Neler hâlâ açık? | [OPEN-QUESTIONS](reflections/OPEN-QUESTIONS.md) — araştırma soruları, yürütme yetkisi değil |
+| Konsolidasyon / Atlas / çizim | [Eser INDEX](artifacts/INDEX.md) → [manifest](SOURCE-MANIFEST.json) ve payload durumu |
+| Foundation ve studies dayanakları | [RESEARCH-REFERENCES](sources/RESEARCH-REFERENCES.md) |
+| Arşiv tam mı, ne doğrulandı? | [ARCHIVE-COVERAGE](checks/ARCHIVE-COVERAGE.md), [TRANSCRIPTION-NOTE](checks/TRANSCRIPTION-NOTE.md) |
+| Eksik özgün dosyaları nasıl tamamlarım? | [PAYLOAD-TRANSFER](checks/PAYLOAD-TRANSFER.md) |
 
-## Eser sınırları
+## Kaynak ve eser kesimleri
 
-- Konsolidasyon v0.1: uzmanlık sürekliliğine kadar oluşan görüşleri bütünlüklü metne dönüştürür.
-- Mekanizma Atlası v0.1: sonraki mekanik modelleme konuşmasını işler; 7 harita, 22 işlem, 71 ilişki ve açık mekanizmalar içerir.
-- Atlas sonrasındaki yaşayan katmanlı plan tartışması: özgün v0.1 eserlerinde tamamlanmış kabul edilmez; konuşma ve sonraki reflection kayıtlarında ayrıca tutulur.
+Görünür diyalog arşivi 19 kullanıcı mesajı (U001–U019) ve ilk 18 substantive assistant cevabını (S001–S018) içerir. U019 bu arşivleme turunun yetkisidir. Bu turdaki araç/log kayıtları özgün deneme diyaloğuna karıştırılmaz. Ham platform export'u değildir; aktarım sınırı sadakat notunda açık kalır.
 
-## Ana konular
+Konsolidasyon v0.1 uzmanlık sürekliliğine kadar oluşan görüşleri bütünlüklü metne çevirir. Atlas v0.1 sonraki mekanik modelleme konuşmasının eseridir. Atlas sonrası yaşayan katmanlı plan tartışması U016–U017/S016–S017 ve reflection dosyalarında ayrıca korunur; özgün eserlere sonradan işlenmez.
 
-A–B–C; kullanıcı niyetini uydurmadan problem keşfi; C–Work karşılıklı gelişimi; iş bazlı başlanabilirlik; aktör hazırlığı; Information'ın kaynak/yorum/kural ayrımı; uzmanlık sürekliliği; mesleki standardın işin ölçeğinden bağımsızlığı; harness; yaşayan plan, odak ve gelecek notları.
+## Yeniden kullanım sınırı
 
-İlk kaynak sayımı ve özgün eser kimlikleri [SOURCE-MANIFEST.json](SOURCE-MANIFEST.json) içindedir. Manifestteki bir yol, remote payload varlığının kanıtı değildir.
+A–B–C, C–Work etkileşimi, iş ve aktör hazır oluşu, kaynak/yorum/kural ayrımı, mesleki standart, harness ve yaşayan plan burada çalışma hipotezleri/ilkeleri olarak bulunur. Gelecek deneme veya yetkili tasarım bunları sorgulayabilir; aynı fikrin tekrar edilmesi bağımsız doğrulama değildir.
 
-## Devralma sınırı
-
-Yetkili iş EXP-001'i arşivlemek, ayrıntıya geri dönüş yollarını kurmak ve doğrulamaktır. Foundation araştırmasını yeniden açmak, Atlas v0.2 geliştirmek veya SOUL/Development OS uygulamak bu grant'ın parçası değildir. Agent-control dosyaları değişmez.
+Bu paketin arşivlenmesi Foundation'ın kabul/yetki durumunu, Development OS görevini veya SOUL mimarisini değiştirmez. `AGENT.md` ve `agent/**` değiştirilmemiştir.

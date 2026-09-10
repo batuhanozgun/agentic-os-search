@@ -12,12 +12,12 @@ Aktarım, modele görünür mesajlar üzerinden assistant tarafından yapılmı�
 - Kod bloklarının geçici arayüz `id` değerleri çıkarıldı; kod/metin içeriği korunmaya çalışıldı.
 - Markdown satır boşlukları normalize edilebilir.
 - Routing blokları ve sandbox/filecite adresleri tarihsel olarak korundu; yeni etkin yönerge veya bugün çalışacak bağlantı değildir.
-- U006 görselinin yerine görselin kendisi ayrı dosyada korunur; metin içinde arşiv notu ile referans verilir.
+- U006 görseli ayrı dosyada korunur; metin içinde arşiv notu ile referans verilir.
 
-## Tespit edilmiş aktarım hatası
+## Düzeltilen aktarım hatası
 
-İlk USER-MESSAGES aktarımında U006 içinde kaynakta `üretilmesine` olan sözcük `üretiltilmesine` yazılmıştır. Kaynak anlamının değil, aktarımın hatasıdır. Aşağıdaki kaynak okumasında doğru biçim esas alınmalıdır; düzeltme kaydı tutulmadan kullanıcının özgün yazımı yeniden düzenlenmez. Bu tek hata, diğer metnin platform export'uyla byte-eşit doğrulandığını göstermez.
+İlk USER-MESSAGES aktarımında U006 içinde kaynakta `üretilmesine` olan sözcük `üretiltilmesine` yazılmıştır. Bu, kullanıcının değil aktarımın hatasıydı. Kaynak ifadeye uygun biçime bu arşivleme turunda geri getirildi; kullanıcının diğer yazımı veya fikri değiştirilmedi. Bu düzeltme, diğer metnin platform export'uyla byte-eşit doğrulandığını göstermez.
 
 ## Kaynak kalitesi
 
-Mesajların konuşmacı/sıra/ana içerik kapsamı denetlenebilir; özgün eserler ayrıca hash'lenmiştir. Hash, yalnız kendisine uygulanan aktarım dosyasının bütünlüğünü gösterir; dışarıdaki asıl konuşmaya uygunluğunu tek başına doğrulamaz. Kesin kelimesi kelimesine hukukî veya teknik kullanım gerekirse platform export'uyla karşılaştırma yapılmalıdır.
+Mesajların konuşmacı/sıra/ana içerik kapsamı denetlenebilir; özgün eserler ayrıca hash'lenmiştir. Hash, yalnız kendisine uygulanan aktarım dosyasının bütünlüğünü gösterir; dışarıdaki asıl konuşmaya uygunluğunu tek başına doğrulamaz. Kesin kelimesi kelimesine kullanım gerekirse platform export'uyla karşılaştırma yapılmalıdır.
