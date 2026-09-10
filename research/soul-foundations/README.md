@@ -196,15 +196,15 @@ all observed contributors analyzed != causal explanation complete
 
 The leaf is effect-centered and configuration-sensitive. Joint causes, alternative sufficient routes, overdetermination, preemption, omission/failure-to-prevent, systemic contributors and control/barrier failures remain overlapping causal profiles rather than child regions.
 
-##### Contrastive / Interventional Causal Effect — bounded leaf / user evaluation pending
+##### Contrastive / Interventional Causal Effect — accepted bounded leaf
 
 > For a defined target, how would outcome/effect Y differ under exact regime/state/action/exposure X versus comparator X', under the relevant context/time/version, and with what limits on causal identification and generalization?
 
-Current bounded result:
+Accepted bounded result:
 
 ```text
 Contrastive / Interventional Causal Effect
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / ACCEPTED
     ← no immediate child promoted
 ```
 
@@ -230,7 +230,7 @@ Transportability/Generalization remains a major profile and strongest reopen tri
 
 Fresh public-web retrieval failed during the dedicated I0→I7 pass; the child reused source-grounded parent external conclusions and current Anthropic/gstack candidate pressure. No fresh dedicated transportability/interference literature review is claimed.
 
-#### Cross-Ground Feedback / Adaptation — recommended next if Contrastive accepted / inactive
+#### Cross-Ground Feedback / Adaptation — recommended next / inactive
 
 > Did observations/results return across ground boundaries to alter later behavior, and did that influence become persistent system change?
 
@@ -242,10 +242,11 @@ one-off response != persistent adaptation
 lesson recorded != learned system
 ```
 
-With both causal children bounded, Feedback can later distinguish:
+With both causal children accepted, Feedback can later distinguish:
 
 ```text
-adaptation occurred
+feedback occurred
+!= adaptation occurred
 != adaptation causally improved target outcomes
 ```
 
@@ -270,8 +271,8 @@ Cross-Ground Composition                        ← accepted
        ├─ Cross-Ground Transition / Propagation     ← accepted bounded leaf
        ├─ Cross-Ground Causal Effect / Contribution ← accepted bounded parent
        │  ├─ Actual Causal Contribution / Episode Causation    ← accepted bounded leaf
-       │  └─ Contrastive / Interventional Causal Effect         ← BOUNDED LEAF / USER EVALUATION PENDING
-       └─ Cross-Ground Feedback / Adaptation        ← recommended next if accepted / inactive
+       │  └─ Contrastive / Interventional Causal Effect         ← accepted bounded leaf
+       └─ Cross-Ground Feedback / Adaptation        ← recommended next / inactive
 ```
 
 No substantive Foundation child is active.
