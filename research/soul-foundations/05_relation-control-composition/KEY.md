@@ -1,8 +1,8 @@
 # Relation / Control / Composition — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; Actual Causal Contribution accepted; Contrastive / Interventional Causal Effect bounded leaf / awaiting user evaluation  
-**Date:** 2026-09-06
+**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; both causal children accepted  
+**Date:** 2026-09-10
 
 ## Shortest current result
 
@@ -19,8 +19,8 @@ Cross-Ground Composition
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
    │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
-   └─ Cross-Ground Feedback / Adaptation           ← recommended next if accepted / inactive
+   │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
+   └─ Cross-Ground Feedback / Adaptation           ← recommended next / inactive
 ```
 
 These are diagnostic research problem regions, not architecture modules or mutually exclusive object/event classes.
@@ -72,7 +72,7 @@ A propagation episode can comprise several exact transition instances with disti
 ```text
 Cross-Ground Causal Effect / Contribution
 ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-└─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
+└─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
 ```
 
 Critical split:
@@ -92,7 +92,7 @@ but-for necessity != universal causal criterion
 causal contribution != responsibility/accountability
 ```
 
-### Current Contrastive Causal Effect
+### Accepted Contrastive Causal Effect
 
 ```text
 causal effect identity
@@ -104,8 +104,6 @@ source/local effect != target effect
 causal target defined != identifiable != estimated != decision-sufficient
 ```
 
-Current bounded result: no immediate child promoted.
-
 ## Remaining Transition sibling
 
 ### Cross-Ground Feedback / Adaptation
@@ -114,11 +112,7 @@ Current bounded result: no immediate child promoted.
 
 ## Current sequencing recommendation
 
-If the current Contrastive result is accepted:
-
-> **Cross-Ground Feedback / Adaptation**
-
-is the strongest next immediate child.
+> **Cross-Ground Feedback / Adaptation** is the strongest next immediate child.
 
 Do not activate automatically.
 
@@ -128,4 +122,4 @@ All closure adversarial passes remain same-model review. Fresh public-web retrie
 
 ## Current gate
 
-Contrastive result evaluation only. No substantive child is active. Architecture, ontology/data model and implementation remain outside current authorization.
+No substantive child is active. Architecture, ontology/data model and implementation remain outside current authorization.
