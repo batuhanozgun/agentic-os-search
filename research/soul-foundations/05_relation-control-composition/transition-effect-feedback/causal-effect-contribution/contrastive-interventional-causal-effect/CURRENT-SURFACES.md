@@ -1,20 +1,20 @@
 # Contrastive / Interventional Causal Effect — CURRENT SURFACES
 
-**Status:** canonical freshness binding at bounded leaf closure / user-evaluation gate  
-**Date:** 2026-09-06  
+**Status:** canonical freshness binding after user-evaluated / accepted bounded-leaf checkpoint  
+**Accepted:** 2026-09-10  
 **Branch:** `main`
 
 ## Current result / routing surfaces
 
 | Role | Path | Bound Git blob SHA |
 |---|---|---|
-| Child state | `STATE.md` | `d0e0060648265b0f881d657aa8272b40395e5dc3` |
-| Child router | `INDEX.md` | `960e74e2e6484f1c20c8eb7604a2c492b8ff8c94` |
+| Child state | `STATE.md` | `2f6a71756953cc0c995ed394bcc80c6b4d6e3ff1` |
+| Child router | `INDEX.md` | `a8c76ec22f3cb7bb06a838f0be26da09de922d3e` |
 | Research plan | `PLAN.md` | `4ae96f8fd08ccbb86a0f1e520193f97a428cae9b` |
-| L0 key | `KEY.md` | `e41e6e8640905621508bdb873a74e2c6c739e64d` |
-| Findings map | `FINDINGS-MAP.md` | `bf4cd856c1b321334fed34221880e027fa99ed80` |
+| L0 key | `KEY.md` | `74b216ae0c07d9e329d566fb548ed971fed45e22` |
+| Findings map | `FINDINGS-MAP.md` | `c1e773563d51f542cc7a400bb4f28ad1f91f41cf` |
 | Integrated synthesis | `synthesis/CONTRASTIVE-INTERVENTIONAL-CAUSAL-EFFECT-SYNTHESIS.md` | `aeea8504af716f6a2e817c43f8d85bb87c141391` |
-| Residual / reopen questions | `OPEN-QUESTIONS.md` | `a15674edba529a843df3b99eb39f6fae0acd24a7` |
+| Residual / reopen questions | `OPEN-QUESTIONS.md` | `406062e7ab66629f5ec9cffd86035acf29f59939` |
 
 ## Completed passes
 
@@ -29,11 +29,11 @@
 | I6 synthesis / immediate-child decision | `I6-SYNTHESIS-CHILD-DECISION.md` | `5bc323ee10e4a6c36b4e356be08495797fb1d6fe` |
 | I7 adversarial closure | `I7-ADVERSARIAL-CLOSURE.md` | `ca0eb2b88d5952bd7da81a1dd7525490e27c48e3` |
 
-## Current bounded result
+## Accepted bounded result
 
 ```text
 Contrastive / Interventional Causal Effect
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / USER-EVALUATED / ACCEPTED
     ← no immediate child promoted
     ← one target-specific causal-contrast grammar
 ```
@@ -72,19 +72,14 @@ source/local causal effect
 
 ## External / candidate holdout note
 
-This child reused source-grounded authoritative conclusions recovered in accepted parent research:
-- Dawid/Musio effects-of-causes versus causes-of-effects distinction;
-- CDC association/confounding/selection pressure;
-- NIST Control-effectiveness pressure.
+This child reused source-grounded authoritative conclusions recovered in accepted parent research and current Anthropic/gstack candidate-study pressure. Fresh public-web retrieval failed repeatedly during the child pass; no fresh dedicated transportability/interference/estimand literature review or new independent external verification is claimed.
 
-Current candidate-study pressure was taken from:
-- Anthropic AI-native SDLC study;
-- gstack study/revalidation.
+## Current sequencing
 
-Fresh public-web retrieval was attempted repeatedly during this child pass and failed technically. Therefore this child does **not** claim a fresh dedicated transportability/interference/estimand literature review or new independent external verification.
+> `Cross-Ground Feedback / Adaptation` is recommended next / inactive.
+
+No substantive Foundation child is active from this package.
 
 ## Verification note
 
-Exact SHA binding establishes repository-view identity/freshness only.
-
-I7 is same-model adversarial review. No independent second-researcher/model replication validates this exact bounded-leaf synthesis. Transportability / Generalization remains the strongest explicit reopen trigger.
+Exact SHA binding establishes repository-view identity/freshness only. I7 is same-model adversarial review; no independent second-researcher/model replication validates the exact bounded-leaf synthesis. Transportability / Generalization remains the strongest explicit reopen trigger.
