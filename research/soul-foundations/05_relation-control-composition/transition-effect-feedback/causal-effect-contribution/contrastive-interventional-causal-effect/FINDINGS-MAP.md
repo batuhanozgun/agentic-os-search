@@ -1,13 +1,13 @@
 # Contrastive / Interventional Causal Effect — Findings Map
 
-**Status:** CURRENT L1 MAP / BOUNDED LEAF RESULT  
-**Date:** 2026-09-06
+**Status:** CURRENT L1 MAP / BOUNDED LEAF / USER-EVALUATED / ACCEPTED  
+**Accepted:** 2026-09-10
 
 ## Result
 
 ```text
 Contrastive / Interventional Causal Effect
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / ACCEPTED
     ← no immediate child promoted
 ```
 
@@ -20,8 +20,6 @@ Recovered:
 - source-grounded parent CDC/NIST/Dawid-Musio pressure;
 - Anthropic/gstack candidate pressure;
 - fresh public-web failure as verification limitation.
-
-Frozen falsifiers include association, intervention identity, assignment/fidelity, average-to-individual, source-to-target, interference, confounding/selection/support, Control-effectiveness and Transportability-child claims.
 
 File: `I0-EVIDENCE-RECOVERY.md`
 
@@ -79,7 +77,7 @@ Established:
 - interference changes regime/target semantics;
 - system/policy effects are first-class causal contrasts;
 - source effect != target effect by identity;
-- transportability is strongest child candidate but currently reduces to target causal claim + evidence/invariance bridge.
+- transportability remains the strongest reopen trigger rather than a promoted child.
 
 File: `I3-CONFOUNDING-SELECTION-INTERFERENCE-HETEROGENEITY.md`
 
@@ -98,8 +96,6 @@ Rejected as immediate-child hierarchies:
 - Static / Dynamic policy;
 - Identified / Partially Identified / Unidentified.
 
-Strongest rival: `Transportability / Generalization`.
-
 File: `I4-RIVAL-INTERNAL-DECOMPOSITIONS.md`
 
 ## I5 — External + candidate holdouts
@@ -115,49 +111,21 @@ Candidate pressure:
 - Anthropic configuration eval / incident→guardrail loops;
 - gstack version/runtime/fidelity/readback distinctions.
 
-No available holdout forced an immediate child.
-
-Transportability remains strongest reopen trigger because dedicated fresh literature could not be reread.
-
 File: `I5-EXTERNAL-CANDIDATE-HOLDOUTS.md`
 
 ## I6 — Synthesis / child decision
 
-Provisional result:
-
-```text
-Contrastive / Interventional Causal Effect
-    ← one target-specific causal-contrast grammar
-    ← no immediate child
-```
-
-Current composition remains sufficient for Control effectiveness:
+Provisional bounded leaf; current composition remained sufficient for Control effectiveness:
 
 ```text
 Control + Contrastive Causal Effect + Standing
 ```
 
-Provisional next frontier: Feedback / Adaptation.
-
 File: `I6-SYNTHESIS-CHILD-DECISION.md`
 
 ## I7 — Adversarial closure
 
-Attacked:
-- Transportability child promotion;
-- Identification child promotion;
-- Interference child promotion;
-- mediation split;
-- Transition/fidelity boundary theft;
-- non-manipulable exposure semantics;
-- average/individual split;
-- Control effectiveness promotion;
-- chronology leakage;
-- estimator-truth collapse;
-- generic-statistics drift;
-- closure validity under failed fresh-web retrieval;
-- causal-parent collapse;
-- Causation promotion to composition sibling.
+Attacked Transportability, Identification, Interference, mediation, Transition/fidelity boundary theft, non-manipulable exposures, average/individual effect, Control effectiveness, chronology leakage, estimator-truth collapse, generic-statistics drift, closure validity under failed fresh-web retrieval, causal-parent collapse and Causation promotion.
 
 All structural attacks failed at current depth.
 
@@ -165,7 +133,7 @@ Final:
 
 ```text
 Contrastive / Interventional Causal Effect
-    ← BOUNDED LEAF
+    ← BOUNDED LEAF / ACCEPTED
 ```
 
 File: `I7-ADVERSARIAL-CLOSURE.md`
@@ -193,4 +161,4 @@ actual episode cause != contrastive/interventional causal effect
 
 ## Current gate
 
-User evaluation only. No Feedback / Adaptation, architecture, ontology/data-model/schema or implementation work is active.
+Accepted result. No substantive Foundation child is active. `Cross-Ground Feedback / Adaptation` is the strongest recommended next child and requires separate activation.
