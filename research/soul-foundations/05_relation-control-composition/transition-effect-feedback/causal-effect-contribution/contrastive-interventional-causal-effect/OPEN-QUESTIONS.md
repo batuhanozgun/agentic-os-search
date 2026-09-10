@@ -1,14 +1,14 @@
 # Contrastive / Interventional Causal Effect — Open Questions / Reopen Triggers
 
-**Status:** bounded residuals after I0→I7 child closure  
-**Date:** 2026-09-06  
+**Status:** accepted bounded leaf residuals after I0→I7 closure  
+**Accepted:** 2026-09-10  
 **Role:** residual uncertainty; NOT an automatic execution queue
 
 ## Current bounded result
 
 ```text
 Contrastive / Interventional Causal Effect
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / USER-EVALUATED / ACCEPTED
     ← no immediate child promoted
 ```
 
@@ -28,7 +28,7 @@ Contrastive / Interventional Causal Effect
 
 ## Parent/integration residuals
 
-12. With both causal children bounded, does Feedback / Adaptation remain one coherent sibling or split into feedback-loop versus persistent adaptation regions?
+12. With both causal children accepted, does Feedback / Adaptation remain one coherent sibling or split into feedback-loop versus persistent adaptation regions?
 13. Can beneficial adaptation be evaluated as `adaptation occurrence + contrastive causal effect + Standing`, or does a new evaluation region appear?
 14. Does Feedback research force transportability/generalization to become more structurally prominent?
 15. Can Control effectiveness remain fully expressed by Control + Contrastive Causal Effect + Standing across materially different domains?
@@ -58,7 +58,7 @@ Do not reopen merely because:
 
 ## Sequencing note
 
-If user evaluation accepts this bounded leaf, the strongest next Foundation research candidate is:
+The strongest next Foundation research candidate is:
 
 > **Cross-Ground Feedback / Adaptation**
 
