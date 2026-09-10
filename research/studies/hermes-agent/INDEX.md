@@ -1,38 +1,29 @@
 # Hermes Agent — INDEX
 
-Current work/completion authority [STATE](STATE.md); classification/reuse [META](META.md); method [METHOD](METHOD.md). This file is the retrieval router, not independent work authority.
+Work/completion [STATE](STATE.md); classification/reuse [META](META.md); yöntem [METHOD](METHOD.md). Current plan v0.12. Bu dosya bağımsız iş otoritesi değildir.
 
-| Soru | İlk kaynak |
+| Soru | Rota |
 |---|---|
-| Amaç/kapsam ve dipten yukarı yöntem? | [00-WHY](00-WHY-THIS-RESEARCH.md), [METHOD](METHOD.md) |
-| Nerede kaldık, sıradaki yetkili iş? | [STATE](STATE.md) → [plan v0.11](RESEARCH-PLAN.md) |
-| Kaynak ve yürütme kayıtları? | [SOURCE-LEDGER](SOURCE-LEDGER.md): UI/A, ayrı M3-S/SA ve exact donmuş v0.9 birikimli defter |
-| İlk envanter/keşif? | [STRUCTURE](inventory/STRUCTURE.md), [01](notes/01-ORIENTATION.md) |
-| Review öğrenmesi, snapshot/fork/köken? | [02](notes/02-BACKGROUND-LEARNING.md) |
-| Curator bakım/merge/report/cron? | [03](notes/03-SKILL-CURATION.md) |
-| Skill onayı/normal ve exception rollback? | [04](notes/04-SKILL-WRITE-TRANSACTION-AND-APPROVAL.md), [U01B](evidence/2026-09-07-u01b/component-probe/README.md) |
-| Unpinned belge kontratları/K01–K09? | [05](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md), [W defteri](evidence/2026-09-08-doc-contracts/READING-AND-ACCESS.md) |
-| Ordinary caller/worker/ortak kontrol/persistence? | [06](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md), [D kaynakları](evidence/2026-09-08-context-transfer/SOURCES.md) |
-| Store/lock/reload/frozen snapshot/pending replay? | [07](notes/07-MEMORY-STORE-AND-PENDING-REPLAY.md) |
-| Önceki sentetik-policy transport deneyi? | [Transport probe](evidence/2026-09-08-context-transfer/README.md) |
-| Default-name payload/canlı diff/başka-yazar rollback? | [08](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md), [U01B2](evidence/2026-09-08-u01b2/README.md) |
-| Selected worker/executor/whitelist ve tam validator? | [09](notes/09-WORKER-POLICY-EXECUTION-BOUNDARY.md), [E/C/V](evidence/2026-09-08-worker-policy/README.md) |
-| Gerçek review kurulum/round/Relay; middleware hataları? | [10](notes/10-REVIEW-ADMISSION-AND-MIDDLEWARE-FAILURES.md), [J/MW](evidence/2026-09-09-review-middleware/README.md) |
-| M2 beş-modül memory failure/alias/pending kanıtı? | [11](notes/11-MEMORY-STATE-AND-PENDING-LIFECYCLE.md), [M2/N](evidence/2026-09-09-memory-pending/README.md) |
-| **Gerçek CLI/gateway onayı hangi store/profil/yetki üzerinden gider?** | **[12](notes/12-UI-PROFILE-AND-APPROVAL-CALLERS.md)** → [UI RESEARCH](evidence/2026-09-10-ui-profile/RESEARCH.md) |
-| UI kaynaklarının path/blob/aralık ve full/selected ayrımı? | [UI01–UI13](evidence/2026-09-10-ui-profile/SOURCES.md) |
-| UI/A komut-izin modülü koşusu? | [A01–A08 RESULT](evidence/2026-09-10-ui-profile/RESULT.json), [SPEC](evidence/2026-09-10-ui-profile/SPEC.md), [kod](evidence/2026-09-10-ui-profile/policy_probe.py) |
-| UI kanıtının yayını ve kimliği? | [UI PUBLICATION](evidence/2026-09-10-ui-profile/PUBLICATION.md), [UI MANIFEST](evidence/2026-09-10-ui-profile/MANIFEST.json) |
-| **ZIP'te kalan ayrı pending-caller teslimi nerede?** | **[13](notes/13-PENDING-CALLER-EVIDENCE-RECONCILIATION.md)** → [M3-S/SA RESEARCH](evidence/2026-09-10-pending-caller/RESEARCH.md), [M3-S SOURCES](evidence/2026-09-10-pending-caller/SOURCES.md) |
-| SA koşusu, profile/config ve chat_type duyarlılığı? | [SA01–SA08](evidence/2026-09-10-pending-caller/POLICY-RESULT.json), [SA SPEC](evidence/2026-09-10-pending-caller/SPEC.md), [SA kodu](evidence/2026-09-10-pending-caller/policy_probe.py) |
-| A ve SA neden ayrı, özgün dosyalar korundu mu? | [Uzlaştırma/PUBLICATION](evidence/2026-09-10-pending-caller/PUBLICATION.md), [TRANSFER-CHECK](evidence/2026-09-10-pending-caller/TRANSFER-CHECK.json) |
-| Stored prompt restore / invalidation / request ilk rotası? | [M3-S araştırma §6–8](evidence/2026-09-10-pending-caller/RESEARCH.md) → STATE/plan Q07/Q22 |
-| Açık sorular ve ileri doğrulama? | [OPEN-QUESTIONS](OPEN-QUESTIONS.md), STATE ve plan |
+| Amaç ve yöntem | [00-WHY](00-WHY-THIS-RESEARCH.md), [METHOD](METHOD.md) |
+| Nerede kaldık / neden bu sonraki adım? | [STATE](STATE.md), [PLAN](RESEARCH-PLAN.md), [kapsam değerlendirmesi](inventory/SCOPE-REVIEW-2026-09-10.md) |
+| İlk topoloji | [STRUCTURE](inventory/STRUCTURE.md), [01](notes/01-ORIENTATION.md) |
+| Review/snapshot/fork | [02](notes/02-BACKGROUND-LEARNING.md) |
+| Curator bakım/report/cron | [03](notes/03-SKILL-CURATION.md) |
+| Skill mutasyon/onay/rollback | [04](notes/04-SKILL-WRITE-TRANSACTION-AND-APPROVAL.md), [08](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md) |
+| Unpinned belge kontratları | [05](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md) |
+| Caller/worker/persistence | [06](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md), [09](notes/09-WORKER-POLICY-EXECUTION-BOUNDARY.md), [10](notes/10-REVIEW-ADMISSION-AND-MIDDLEWARE-FAILURES.md) |
+| Memory/store/lock/frozen/pending | [07](notes/07-MEMORY-STORE-AND-PENDING-REPLAY.md), [11](notes/11-MEMORY-STATE-AND-PENDING-LIFECYCLE.md) |
+| Normal CLI/gateway onay caller/profil/store | [12/UI](notes/12-UI-PROFILE-AND-APPROVAL-CALLERS.md), [13/M3-S-SA](notes/13-PENDING-CALLER-EVIDENCE-RECONCILIATION.md) |
+| Sonradan bulunan üçüncü AP teslimi | [14](notes/14-AP-DELIVERY-RECONCILIATION.md), [arşiv/README](evidence/2026-09-10-ui-profile-approval/README.md) |
+| A, SA, AP neden aynı sonuç değildir? | [AP PUBLICATION](evidence/2026-09-10-ui-profile-approval/PUBLICATION.md) |
+| AP özgün araştırma ve deney | [RESEARCH](evidence/2026-09-10-ui-profile-approval/original/evidence/RESEARCH.md), [SOURCES](evidence/2026-09-10-ui-profile-approval/original/evidence/SOURCES.md), [RESULT](evidence/2026-09-10-ui-profile-approval/original/evidence/ACCESS-RESULT.json), [SPEC](evidence/2026-09-10-ui-profile-approval/original/evidence/SPEC.md) |
+| Bütün kaynak/koşu kimlikleri | [SOURCE-LEDGER](SOURCE-LEDGER.md) → paket defterleri ve exact [v0.9 arşivi](SOURCE-LEDGER-THROUGH-V0.9.md) |
+| Açık sorular | [OPEN-QUESTIONS](OPEN-QUESTIONS.md); prior detailed table Git snapshot'ında korunur |
 
-## Yeni oturumda doğru devam
+## Devam
 
-İlk aktif iş **onaydan sonraki gerçek prompt/prepared-request görünürlüğü**. CLI live/fresh, gateway fresh apply ile cached agent reuse'u ayrı izle. `_restore_or_build_system_prompt`, compression/keep-prompt ve invalidation/rebuild somut rotadır. A01–A08 ve SA01–SA08 ayrı koşular ve farklı senaryolardır; yalnız aynı slash-policy modülünü kullanmaları onları tek sonuç veya bağımsız doğrulama yapmaz. Gerçek UI/profile end-to-end testi değildirler. M2/N ve D3/MW bu yayın turunda tekrar çalıştırılmadı.
+İlk aktif teknik soru Q07/Q22: onaydan store/frozen/stored-cached prompt/prepared request'e. `_restore_or_build_system_prompt`, invalidation/rebuild/compression/keep-prompt ve cache reuse/eviction kaynakla bağlanır. A/SA/AP/N fixture çoğaltmak bu köprüyü kapatmaz. Sonra kanıt statülü geçici alt-sistem sentezi ve geniş topoloji/omission kontrolü.
 
-Q26/Q29 full worker/runtime ve legacy full-original verifier açık. 22 manuel-range AST eşitliği tam-original fidelity değildir. Yeni tam-source/bağımlılık veya load-bearing reuse olmadan aynı selected fixture'ları çoğaltma.
+AP original 12 taslağı current 12 değildir; 14 girişini kullan. `original/` içindeki NOT PUBLISHED/plan v0.9 ve önceki evidence'deki tarihsel next-work ifadeleri current authority değildir. 12/A ve 13/SA aynen korunmuştur; AP bunların yerine geçmez.
 
-Donmuş SOURCE-LEDGER-THROUGH-V0.9, eski notlar ve teslim metinleri kendi tarihsel next-work/access sınırlarını taşır; current STATE/plan yerine geçmez. Pending-caller delivery içindeki özgün 12 taslağı mevcut 12 notu değildir; doğru güncel giriş 13'tür. NOT PUBLISHED/NOT APPLIED ifadeleri pending-caller PUBLICATION ile tarihsel okunur. Eski ve yeni ZIP kanıtları repodadır; tekrar aktarım gerekmez. Native alt-sistem/genel ilişkiler/dört-alan/SOUL/DevOS/CORE tamamlanmadı; dosya/test sayısı tamamlanma veya ürün PASS ölçüsü değildir.
+Q26/Q29 full worker ve full-original legacy verifier açık. Genel HERMES, dört-alan ve CORE tamamlanmadı. [V0.11 tam router](https://github.com/batuhanozgun/agentic-os-search/blob/634ab66f195130d551d58dfc062639e0feec23fa/research/studies/hermes-agent/INDEX.md) eski ayrıntılı yolları da korur.
