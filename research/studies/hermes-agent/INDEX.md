@@ -5,8 +5,8 @@ Current work/completion authority [STATE](STATE.md); classification/reuse [META]
 | Soru | İlk kaynak |
 |---|---|
 | Amaç/kapsam ve dipten yukarı yöntem? | [00-WHY](00-WHY-THIS-RESEARCH.md), [METHOD](METHOD.md) |
-| Nerede kaldık, sıradaki yetkili iş? | [STATE](STATE.md) → [plan v0.10](RESEARCH-PLAN.md) |
-| Kaynak ve yürütme kayıtları? | [SOURCE-LEDGER](SOURCE-LEDGER.md): yeni UI defteri + exact donmuş v0.9 birikimli defter |
+| Nerede kaldık, sıradaki yetkili iş? | [STATE](STATE.md) → [plan v0.11](RESEARCH-PLAN.md) |
+| Kaynak ve yürütme kayıtları? | [SOURCE-LEDGER](SOURCE-LEDGER.md): UI/A, ayrı M3-S/SA ve exact donmuş v0.9 birikimli defter |
 | İlk envanter/keşif? | [STRUCTURE](inventory/STRUCTURE.md), [01](notes/01-ORIENTATION.md) |
 | Review öğrenmesi, snapshot/fork/köken? | [02](notes/02-BACKGROUND-LEARNING.md) |
 | Curator bakım/merge/report/cron? | [03](notes/03-SKILL-CURATION.md) |
@@ -19,16 +19,20 @@ Current work/completion authority [STATE](STATE.md); classification/reuse [META]
 | Selected worker/executor/whitelist ve tam validator? | [09](notes/09-WORKER-POLICY-EXECUTION-BOUNDARY.md), [E/C/V](evidence/2026-09-08-worker-policy/README.md) |
 | Gerçek review kurulum/round/Relay; middleware hataları? | [10](notes/10-REVIEW-ADMISSION-AND-MIDDLEWARE-FAILURES.md), [J/MW](evidence/2026-09-09-review-middleware/README.md) |
 | M2 beş-modül memory failure/alias/pending kanıtı? | [11](notes/11-MEMORY-STATE-AND-PENDING-LIFECYCLE.md), [M2/N](evidence/2026-09-09-memory-pending/README.md) |
-| **Gerçek CLI/gateway onayı hangi store/profil/yetki üzerinden gider?** | **[12](notes/12-UI-PROFILE-AND-APPROVAL-CALLERS.md)** → [RESEARCH](evidence/2026-09-10-ui-profile/RESEARCH.md) |
-| Yeni kaynakların path/blob/aralık ve full/selected ayrımı? | [UI01–UI13](evidence/2026-09-10-ui-profile/SOURCES.md) |
-| Komut-izin modülünün yeni sekiz tanılayıcı koşusu? | [RESULT](evidence/2026-09-10-ui-profile/RESULT.json), [SPEC](evidence/2026-09-10-ui-profile/SPEC.md), [kod](evidence/2026-09-10-ui-profile/policy_probe.py) |
-| Yeni kanıtın yayını ve içerik kimliği? | [PUBLICATION](evidence/2026-09-10-ui-profile/PUBLICATION.md), [MANIFEST](evidence/2026-09-10-ui-profile/MANIFEST.json) |
+| **Gerçek CLI/gateway onayı hangi store/profil/yetki üzerinden gider?** | **[12](notes/12-UI-PROFILE-AND-APPROVAL-CALLERS.md)** → [UI RESEARCH](evidence/2026-09-10-ui-profile/RESEARCH.md) |
+| UI kaynaklarının path/blob/aralık ve full/selected ayrımı? | [UI01–UI13](evidence/2026-09-10-ui-profile/SOURCES.md) |
+| UI/A komut-izin modülü koşusu? | [A01–A08 RESULT](evidence/2026-09-10-ui-profile/RESULT.json), [SPEC](evidence/2026-09-10-ui-profile/SPEC.md), [kod](evidence/2026-09-10-ui-profile/policy_probe.py) |
+| UI kanıtının yayını ve kimliği? | [UI PUBLICATION](evidence/2026-09-10-ui-profile/PUBLICATION.md), [UI MANIFEST](evidence/2026-09-10-ui-profile/MANIFEST.json) |
+| **ZIP'te kalan ayrı pending-caller teslimi nerede?** | **[13](notes/13-PENDING-CALLER-EVIDENCE-RECONCILIATION.md)** → [M3-S/SA RESEARCH](evidence/2026-09-10-pending-caller/RESEARCH.md), [M3-S SOURCES](evidence/2026-09-10-pending-caller/SOURCES.md) |
+| SA koşusu, profile/config ve chat_type duyarlılığı? | [SA01–SA08](evidence/2026-09-10-pending-caller/POLICY-RESULT.json), [SA SPEC](evidence/2026-09-10-pending-caller/SPEC.md), [SA kodu](evidence/2026-09-10-pending-caller/policy_probe.py) |
+| A ve SA neden ayrı, özgün dosyalar korundu mu? | [Uzlaştırma/PUBLICATION](evidence/2026-09-10-pending-caller/PUBLICATION.md), [TRANSFER-CHECK](evidence/2026-09-10-pending-caller/TRANSFER-CHECK.json) |
+| Stored prompt restore / invalidation / request ilk rotası? | [M3-S araştırma §6–8](evidence/2026-09-10-pending-caller/RESEARCH.md) → STATE/plan Q07/Q22 |
 | Açık sorular ve ileri doğrulama? | [OPEN-QUESTIONS](OPEN-QUESTIONS.md), STATE ve plan |
 
 ## Yeni oturumda doğru devam
 
-İlk aktif iş **onaydan sonraki gerçek prompt/prepared-request görünürlüğü**. CLI live/fresh, gateway fresh apply ile cached agent reuse'u ayrı izle. Yeni A01–A08 sadece slash policy modülüdür; UI/profile end-to-end testi değildir. M2/N ve D3/MW bu tur tekrar çalıştırılmadı.
+İlk aktif iş **onaydan sonraki gerçek prompt/prepared-request görünürlüğü**. CLI live/fresh, gateway fresh apply ile cached agent reuse'u ayrı izle. `_restore_or_build_system_prompt`, compression/keep-prompt ve invalidation/rebuild somut rotadır. A01–A08 ve SA01–SA08 ayrı koşular ve farklı senaryolardır; yalnız aynı slash-policy modülünü kullanmaları onları tek sonuç veya bağımsız doğrulama yapmaz. Gerçek UI/profile end-to-end testi değildirler. M2/N ve D3/MW bu yayın turunda tekrar çalıştırılmadı.
 
 Q26/Q29 full worker/runtime ve legacy full-original verifier açık. 22 manuel-range AST eşitliği tam-original fidelity değildir. Yeni tam-source/bağımlılık veya load-bearing reuse olmadan aynı selected fixture'ları çoğaltma.
 
-Donmuş SOURCE-LEDGER-THROUGH-V0.9, eski notlar ve teslim PUBLICATION metinleri kendi tarihsel next-work/access sınırlarını taşır; current STATE/plan yerine geçmez. Eski bütün ZIP kanıtları repodadır, tekrar aktarım gerekmiyor. Native alt-sistem/genel ilişkiler/dört-alan/SOUL/DevOS/CORE tamamlanmadı; dosya/test sayısı tamamlanma veya ürün PASS ölçüsü değildir.
+Donmuş SOURCE-LEDGER-THROUGH-V0.9, eski notlar ve teslim metinleri kendi tarihsel next-work/access sınırlarını taşır; current STATE/plan yerine geçmez. Pending-caller delivery içindeki özgün 12 taslağı mevcut 12 notu değildir; doğru güncel giriş 13'tür. NOT PUBLISHED/NOT APPLIED ifadeleri pending-caller PUBLICATION ile tarihsel okunur. Eski ve yeni ZIP kanıtları repodadır; tekrar aktarım gerekmez. Native alt-sistem/genel ilişkiler/dört-alan/SOUL/DevOS/CORE tamamlanmadı; dosya/test sayısı tamamlanma veya ürün PASS ölçüsü değildir.
