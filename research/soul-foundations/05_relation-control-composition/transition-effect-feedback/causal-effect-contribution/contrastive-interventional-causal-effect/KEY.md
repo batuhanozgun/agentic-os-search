@@ -1,14 +1,14 @@
 # Contrastive / Interventional Causal Effect — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** BOUNDED LEAF RESULT / AWAITING USER EVALUATION  
-**Date:** 2026-09-06
+**Status:** BOUNDED LEAF RESULT / USER-EVALUATED / ACCEPTED  
+**Accepted:** 2026-09-10
 
 ## Shortest current result
 
 ```text
 Contrastive / Interventional Causal Effect
-    ← BOUNDED LEAF
+    ← BOUNDED LEAF / ACCEPTED
     ← no immediate child promoted
     ← one target-specific causal-contrast grammar
 ```
@@ -39,54 +39,29 @@ Contrastive causal-effect claim
 └─ source→target generalization boundary where material
 ```
 
-## Strongest identity rule
+## Strongest rules
 
 ```text
-causal effect identity
-!= intervention/cause label alone
-
 causal effect identity
 = outcome + target + X vs X' + applicability frame
   (+ exact regime/configuration semantics where material)
-```
 
-## Strongest intervention rule
-
-```text
 intended / assigned intervention
 != materialized / received / traversed intervention
 != sustained intervention with required fidelity
-```
 
-Same treatment/control label can hide causally different versions.
-
-## Strongest epistemic rule
-
-```text
 causal target defined
 != identifiable from current evidence
 != estimated
 != estimate correct/precise
 != evidence sufficient for target decision
-```
 
-## Strongest generalization rule
-
-```text
 source/local causal effect
 != target causal effect by identity
-```
 
-Transportability/generalization is retained as a major evidence/invariance profile and strongest reopen trigger, not an immediate child.
-
-## Strongest interference rule
-
-```text
 no observed spillover
 != no interference
 ```
-
-Where one unit/Actor's intervention can affect another's outcome, the causal contrast may need a system/assignment regime rather than independent unit treatment.
 
 ## Control-effectiveness boundary
 
@@ -107,7 +82,7 @@ Control
 + Composite Standing
 ```
 
-is sufficient at current depth.
+remains sufficient at current depth.
 
 ## Actual-causation boundary
 
@@ -134,8 +109,6 @@ Accepted Actual Causation remains a distinct sibling leaf.
 - Control effectiveness.
 
 ## Next sequencing recommendation
-
-If user evaluation accepts this result:
 
 > **Cross-Ground Feedback / Adaptation** is the strongest next Foundation child.
 
