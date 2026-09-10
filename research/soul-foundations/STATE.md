@@ -1,6 +1,6 @@
 # SOUL Foundations — STATE
 
-**Status:** four-ground adequacy accepted; composition parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; Actual Causal Contribution accepted; Contrastive / Interventional Causal Effect bounded leaf / AWAITING USER EVALUATION  
+**Status:** four-ground adequacy accepted; composition parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; Actual Causal Contribution accepted; Contrastive / Interventional Causal Effect accepted  
 **Environment / Operating Reality:** boundedly complete / accepted  
 **Information / Representation:** boundedly complete / accepted  
 **Work:** boundedly complete / accepted  
@@ -14,10 +14,10 @@
 **Cross-Ground Transition / Propagation:** accepted bounded leaf  
 **Cross-Ground Causal Effect / Contribution:** accepted bounded parent  
 **Actual Causal Contribution / Episode Causation:** accepted bounded leaf  
-**Contrastive / Interventional Causal Effect:** bounded leaf / USER EVALUATION PENDING  
-**Cross-Ground Feedback / Adaptation:** recommended next if accepted / inactive  
+**Contrastive / Interventional Causal Effect:** accepted bounded leaf 2026-09-10  
+**Cross-Ground Feedback / Adaptation:** recommended next / inactive  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT RESULT EVALUATION ONLY
+**Current authorised interaction:** NEXT FOUNDATION CHILD SELECTION / PLANNING ONLY
 
 ## Accepted Foundation anchors
 
@@ -35,6 +35,7 @@ Transition / Effect / Feedback                   ← accepted bounded parent
 Cross-Ground Transition / Propagation            ← accepted bounded leaf
 Cross-Ground Causal Effect / Contribution        ← accepted bounded parent
 Actual Causal Contribution / Episode Causation   ← accepted bounded leaf
+Contrastive / Interventional Causal Effect       ← accepted bounded leaf
 ```
 
 ## Current composition state
@@ -48,21 +49,23 @@ Cross-Ground Composition
    ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
    │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
-   └─ Cross-Ground Feedback / Adaptation           ← recommended next if accepted / inactive
+   │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
+   └─ Cross-Ground Feedback / Adaptation           ← recommended next / inactive
 ```
 
-## Current Contrastive result
+## Current accepted causal result
 
-Canonical package:
+Both immediate causal children are bounded and accepted:
 
-`05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/contrastive-interventional-causal-effect/`
+```text
+Actual Causal Contribution / Episode Causation
+→ which contributors actually made this realized episode/effect happen?
 
-Current bounded judgment:
+Contrastive / Interventional Causal Effect
+→ how would target outcomes differ under exact X versus X' regimes?
+```
 
-> Contrastive / Interventional Causal Effect is a bounded leaf with one target-specific causal-contrast grammar and no promoted immediate child.
-
-Strongest rules:
+Accepted Contrastive guardrails include:
 
 ```text
 causal effect identity
@@ -75,15 +78,13 @@ causal target defined != identifiable != estimated != decision-sufficient
 
 ## Current next-frontier recommendation
 
-If the user accepts this result:
-
 > **Cross-Ground Feedback / Adaptation**
 
 This is not active and requires separate substantive activation.
 
 ## Verification status
 
-I7 is same-model adversarial review. Fresh public-web retrieval failed technically during this pass; parent source-grounded external conclusions and current candidate-study pressure were reused. No independent second-researcher/model replication validates the exact synthesis.
+Contrastive I7 is same-model adversarial review. Fresh public-web retrieval failed technically during that pass; parent source-grounded external conclusions and current candidate-study pressure were reused. No independent second-researcher/model replication validates the exact synthesis.
 
 ## Guardrail
 
