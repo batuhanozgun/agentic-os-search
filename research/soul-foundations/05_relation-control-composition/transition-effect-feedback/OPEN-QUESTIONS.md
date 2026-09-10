@@ -1,7 +1,7 @@
 # Transition / Effect / Feedback — Open Questions / Reopen Triggers
 
-**Status:** bounded residuals after accepted parent + accepted Transition / Propagation + accepted Causal parent + accepted Actual Causation + completed Contrastive Causal Effect research  
-**Date:** 2026-09-06  
+**Status:** bounded residuals after accepted parent + accepted Transition / Propagation + accepted Causal parent + both accepted causal children  
+**Date:** 2026-09-10  
 **Role:** residual uncertainty; NOT an automatic execution queue
 
 ## Current bounded structure
@@ -11,8 +11,8 @@ Transition / Effect / Feedback                         ← accepted parent
 ├─ Cross-Ground Transition / Propagation               ← accepted bounded leaf
 ├─ Cross-Ground Causal Effect / Contribution           ← accepted bounded parent
 │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-│  └─ Contrastive / Interventional Causal Effect            ← BOUNDED LEAF / USER EVALUATION PENDING
-└─ Cross-Ground Feedback / Adaptation                  ← recommended next if accepted / inactive
+│  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
+└─ Cross-Ground Feedback / Adaptation                  ← recommended next / inactive
 ```
 
 ## Completed child research
@@ -27,7 +27,7 @@ Covers effect-centered actual-cause grammar, joint/configuration causation, mult
 
 ### Contrastive / Interventional Causal Effect
 
-Dedicated I0→I7 research now covers:
+Accepted I0→I7 research covers:
 - exact target/outcome/contrast grammar;
 - comparator identity;
 - intervention versions and intended/assigned vs realized exposure;
@@ -57,19 +57,18 @@ Narrow residuals/reopen triggers remain package-local.
 
 ## Parent/integration residuals
 
-11. Does user evaluation accept the Contrastive bounded leaf?
-12. Does Feedback/Adaptation preserve the accepted Transition/Causal boundaries?
-13. Can Control effectiveness remain a composition of Control + Contrastive Causal Effect + Standing?
-14. Does Feedback research force Evolution into a separate composition region?
-15. Does fresh transportability/interference literature later reopen Contrastive or the causal parent?
-16. Would independent second-researcher/model replication retain the current structure?
+11. Does Feedback/Adaptation preserve the accepted Transition/Causal boundaries?
+12. Can Control effectiveness remain a composition of Control + Contrastive Causal Effect + Standing?
+13. Does Feedback research force Evolution into a separate composition region?
+14. Does fresh transportability/interference literature later reopen Contrastive or the causal parent?
+15. Would independent second-researcher/model replication retain the current structure?
 
 ## Parent reopen triggers
 
 Reopen the Transition parent if:
 - accepted Transition / Propagation later fails its ground-local boundary;
 - accepted Actual Causation later fails its causal-parent boundary;
-- Contrastive result is rejected or later fails its target/identification boundary;
+- accepted Contrastive Causal Effect later fails its target/identification boundary;
 - Causation becomes independent of effect/change semantics;
 - Feedback/Adaptation cannot be bounded without duplicating Control, Work or Domain Dynamics;
 - Evolution or another candidate develops an independent stable protected question;
@@ -77,8 +76,6 @@ Reopen the Transition parent if:
 - independent replication identifies a superior structure.
 
 ## Current sequencing note
-
-If user evaluation accepts `Contrastive / Interventional Causal Effect`:
 
 > **Cross-Ground Feedback / Adaptation** is the strongest next substantive child and requires separate activation.
 
