@@ -1,38 +1,41 @@
 # Hermes Agent — STATE
 
-**Durum:** ACTIVE PARTIAL RESEARCH / AP RECOVERY + SCOPE CHECKPOINT  
+**Durum:** ACTIVE PARTIAL RESEARCH / SELECTED PROMPT-RESTORE EVIDENCE + FIRST PROVISIONAL SUBSYSTEM SYNTHESIS  
 **Son kayıt:** 2026-09-10  
-**Primary pin:** `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a` (manifest 0.21.0; current release değil).  
-**Plan:** [v0.12](RESEARCH-PLAN.md). **Tamamlandı mı? HAYIR.**
+**Primary:** `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`, manifest 0.21.0; current release doğrulaması değil.  
+**Plan:** [v0.13](RESEARCH-PLAN.md). **Bütün araştırma tamamlandı mı? HAYIR.**
 
-## Güncel yetki ve amaç
+## Yetki ve bu turun kapanan işleri
 
-Kullanıcı derin durum değerlendirmesini kabul edip devamı yetkilendirdi: önce AP teslimini kaybetmeden uzlaştır; kapsam/ara sentez değerlendirmesini kaydet; ardından bounded onay→prompt/prepared-request görünürlüğünü incele ve geçici alt-sistem sentezi oluştur. Bu checkpoint AP arşivini ve kapsam kararını kaydeder; yeni HERMES deneyi henüz yapılmadı.
+Kullanıcı derin durum değerlendirmesini kabul edip devamı yetkilendirdi. Aynı turda iki ayrı ilerleme oldu:
 
-Asıl amaç önce HERMES-native mekanizma/sistem modeli, sonra Information/Work/Actors/Environment ve SOUL/Development OS değerlendirmesidir. Açık soruların tamamı bütün araştırmayı durduran ön koşul değildir. Geniş F01–F12 kapsamı korunur; tek izin/alias kusuru araştırmayı yutmaz.
+1. `a14c8152a918a3379b4a0d6d67af9f7aece2f70e` ile AP'nin 15 özgün dosyası ve [kapsam değerlendirmesi](inventory/SCOPE-REVIEW-2026-09-10.md) yayımlandı, main geri okundu. Bu eski teslimin recovery'sidir; eski deney tekrarı değildir.
+2. Yeni [15/M4](notes/15-MEMORY-PROMPT-RESTORE-BOUNDARIES.md) araştırması ve V01–V08 koşusu, ardından [ilk geçici alt-sistem sentezi](synthesis/01-LEARNING-AND-CHANGE-PROVISIONAL.md) üretildi. Tam model isteği/gerçek UI/compression entegrasyonu kapanmadı.
 
-Yalnız HERMES study ve studies katalogdaki ilgili satır değişebilir. Kurulum, bütün ürün başlatma, provider/model çağrısı, gerçek credential, upstream mutation, Codex görevi, Foundation/control değişimi veya adoption yetkisi yoktur. OpenClaw ayrı adaydır. Codex başka repo kullanır; main hareketleri ona atfedilmez. Yanıtlar arasında otomatik iş yapılmaz; uygulama/izin ayarı değiştirilmez.
+Amaç önce HERMES-native mekanizma/sistem açıklaması, sonra dört alan ve SOUL/Development OS değerlendirmesidir. Yalnız HERMES paketi ve CATALOG HERMES satırı değişebilir. Kurulum, bütün ürünü çalıştırma, provider/model çağrısı, gerçek credential, upstream mutation, Codex görevi, Foundation/control değişimi ve adoption yetkisi yoktur. OpenClaw ayrı aday. Codex başka repo kullanır; main hareketleri ona atfedilmez. Yanıtlar arasında otomatik/background iş ve izin/uygulama ayarı değişikliği yoktur.
 
-## Korunan birikim ve yeni teslim
+## Kalıcı kanıt ve güven sınırı
 
-01–13 notları ve tüm önceki evidence değişmedi. Önceki ayrıntılı [v0.11 STATE](https://github.com/batuhanozgun/agentic-os-search/blob/634ab66f195130d551d58dfc062639e0feec23fa/research/studies/hermes-agent/STATE.md), [INDEX](INDEX.md) ve [kaynak rotası](SOURCE-LEDGER.md) eski U01/U01B/D/D2/D3/M2 statülerine geri götürür.
+01–14 notları, eski evidence paketleri ve exact SOURCE-LEDGER-THROUGH-V0.9 korunur. [Önceki v0.12 STATE](https://github.com/batuhanozgun/agentic-os-search/blob/a14c8152a918a3379b4a0d6d67af9f7aece2f70e/research/studies/hermes-agent/STATE.md), INDEX ve SOURCE-LEDGER geçmişe döndürür.
 
-- **12/UI-A:** sekiz policy senaryosu ve kendi semantic mutantı; gerçek UI source trace, full UI run değil.
-- **13/M3-S-SA:** ayrı sekiz senaryo, profile/config ve chat_type duyarlılığı; kendi kaynak defteri/negatif identity kontrolü.
-- **14/AP:** [özgün 15 dosyanın arşivi](evidence/2026-09-10-ui-profile-approval/README.md), altı eski AP senaryosu. Yerel/uzak original tree `afbe1e767ddaf7e570b72197c7300d20d91f21d4` eşleşti. Yeni koşu değildir.
+A/SA/AP üç ayrı eski kayıttır; aynı slash-policy modülünü ve örtüşen soruları kullanır. Test/negatif kontrol/zamanlar birleşmez; independent corroboration veya ürün PASS toplamı değildir. AP'nin original 12 taslağı/NOT PUBLISHED metinleri tarihsel, current giriş 14'tür. AP bilinen kayıt eksikliği kapandı; daha güçlü bütün geçmişe dair güvence yalnız gerçekten envanteri yapılmış kapsam için kullanılır.
 
-A/SA/AP aynı slash_access.py modülünü kullanır; sonuç/senaryo/negatif kontroller birleştirilmez, bağımsız kanıt veya ürün PASS toplamı sayılmaz. AP'nin eski 12 taslağı/NOT PUBLISHED metni `original/` altında tarihsel; current giriş [14](notes/14-AP-DELIVERY-RECONCILIATION.md). Önceki tüm-teslim güvencesinin AP için eksik olduğu bu kez açıkça uzlaştırıldı.
+**M4 yürütmesi:** UTC `2026-09-10T16:11:51.320434+00:00`. Beş exact archived M2 modülü + altı manually selected prompt definition. Sentetik DB/agent/reduced builder/callback/capability çevresi; actual temporary-file memory/pending etkileri. V01–V08 beklentileri eşleşti; full-source/local-selection identity reddi ve iki comparator mutantı ayrı. Eski N/A/SA/AP suite'leri tekrarlanmadı. Ortak M2 fixture'ı bağımsızlık sağlamaz. Seçki hash'i full-parent byte fidelity değildir.
 
-## Bilinen ve açık ayrımı
+**Bulgu:** Fresh memory snapshot'a rağmen compatible DB stored prompt seçilebildi; unusable stored prompt/no-history/runtime mismatch gibi yollar fresh build'e gitti. Reload/invalidation/DB persist ayrı; delete de aynı görünürlük sınırını taşıdı. V04'ün invalidate→restore sırası harness kontrollüdür, actual compression kusuru değildir. V07 fake DB arızası SQLite sonucu değildir.
 
-Kaynakla bilinen: review/curator/onay farklı geçişler; CLI live/fresh ve gateway fresh store seçimi; admission/canonical command/profile/record ayrımları; mode setter/eviction ile payload approve farklılığı. Eski bounded N kanıtı disk/live/frozen ve hata/cleanup ayrışmasını gösterir. Büyük caller'lar source trace'tir, full runtime yürütme değildir. AP yayını bu kapsamları genişletmez.
+**Açık:** Gerçek CLI/gateway'de stale süre, tam prompt builder, cached-agent reuse/eviction, actual compression/keep-prompt, turn_context/request assembly ve son provider içeriği. Source 429 erişim sınırı bu halkaları kapatmadı; kaynakta mekanizma yokluğu değildir. Yeni döngü source trace'i seçicinin turn_context'e verildiğini ve ayrı request fazlarını gösterir; bunlar yürütülmedi. Q07/Q22 end-to-end OPEN, bounded selector geçişi artık yeni kanıtla açıklanır.
 
-**İlk aktif yetkili iş:** Q07/Q22, onaylanmış içeriğin stored/cached prompt ve hazırlanan isteğe geçişi. `_restore_or_build_system_prompt` → invalidation/rebuild/compression/keep-prompt → cache reuse/eviction kaynakları. Ne anında görünürlük ne sonsuz bayatlık varsayılır. Normal yazım/silme/hata/restore sınırları ve gerçek/sentetik bağımlılıklar ayrı kaydedilir. Çıkış ölçütü [kapsam değerlendirmesi §4](inventory/SCOPE-REVIEW-2026-09-10.md).
+## İlk sonraki aktif yetkili iş
 
-**Ardından yetkili:** kanıt statülü geçici öğrenme/değişim alt-sistem sentezi; ardından geniş kaynak-topoloji kontrolü. Ledger/backup/restore/sync, skill/cache ve curator report/cron köprüleri model ve F01–F12 coverage ile önceliklendirilir. Bütün residual güvenlik soruları kapanana kadar geniş kapsam ertelenmez.
+**Genel turn/context/session çekirdeği ve geniş kaynak-topoloji karşı okuması.** Amaç U01'i daha fazla küçük teste bölmek değil, ilk geçici modelin hangi geniş mekanizmaları dışarıda bıraktığını bulmaktır. Başlangıç: M4-S03 gerçek `run_conversation` → turn_context/request/preflight/compression/session persistence; ilişkili gateway cache yaşam döngüsü. Pinned alt ağaçlar/kritik entrypoints çıkarılır, listelenmiş/read/source-backed/executed/synthesised ayrı tutulur. Birkaç bilinmeyen dosyaya dayanarak bütün aile kapanışı verilmez.
 
-Q26/Q29 full worker/AIAgent/executor/PluginManager/Relay ve E01/E02 tam orijinalleriyle legacy verifier OPEN/NOT RUN. D3 22 manuel-range AST eşleşmesi full-original fidelity değildir. Yeni tam kaynak/bağımlılık erişimi, ilgili değişiklik veya load-bearing reuse yeniden açar. Actual UI fault injection, full profile/auth/hook varyantları, scanner ve gelecek-task fayda açık.
+Q07/Q22'nin kalan prepared-request bağlantısı bu genel çekirdeğin önemli köprüsüdür; terk edilmez veya kapalı ilan edilmez. Erişim izin verdiğinde actual caller order ve request assembly doğrulanır; aynı V/A/N fixture'larını çoğaltmak yeterli değildir. Geçmiş 429 kalıcı erişim yokluğu olarak kullanılmaz, fakat seri tekrar veya kısıt etrafından dolaşma yapılmaz.
 
-## Yeni oturum
+Ardından ledger/backup/restore/sync, skill-cache ve curator nested batch/report/cron; tool/provider/backend/delegation, gateway/scheduler, diğer UI ve install/eval ailelerinin önceliği kapsam haritasıyla belirlenir. Bütün U01 residual'ları kapanana kadar genel kapsam ertelenmez. İlk sentez mevcut üst katmandır; nihai native sistem/CORE/dört-alan veya learning-quality sonucu değildir.
 
-Bootstrap → research/studies routers → META/STATE/INDEX → METHOD/plan v0.12 → [kapsam değerlendirmesi](inventory/SCOPE-REVIEW-2026-09-10.md) → 12/13/14 kaynak/koşu sınırları. Visibility için 07/11/M2 ve M3-S12/S13. Eski next-work/yayın cümleleri güncel STATE'i geçersiz kılmaz. Mandatory control/authority/state çelişkisinde etkilenen iş durur.
+## İleri doğrulama ve cold start
+
+Q26/Q29 full AIAgent/review/worker/executor/PluginManager/Relay ve E01/E02 full-original legacy verifier OPEN/NOT RUN. D3'ün 22 manuel-range AST eşleşmesi full-original fidelity değildir. Yeni tam-source/bağımlılık, ilgili değişiklik veya load-bearing güvenlik/adoption/tasarım hükmü yeniden açar. Full profile/auth/hook/platform, scanner, actual UI fault injection ve gelecek-task fayda da açık.
+
+Bootstrap → research/studies routers → META/STATE/INDEX → METHOD/plan v0.13 → kapsam değerlendirmesi → **synthesis/01 ve 15/M4 SOURCES/RESEARCH/SPEC/RESULT sınırları**. Eski 12/13/14 source ve koşu kimlikleri ayrı; görünürlükte 07/11/M2'ye dön. Yeni dosyaların core local/remote tree'si `8dd2cfd73516926b5bc7d1adf0737556c2d6bf61` eşleşti; bu yalnız transferdir. Final commit/ref readback ayrıca yapılır. Mandatory authority/control/state çelişkisinde etkilenen iş durur.

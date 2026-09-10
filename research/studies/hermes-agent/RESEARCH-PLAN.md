@@ -1,52 +1,50 @@
 # Hermes Agent — Araştırma planı
 
-**v0.12 / 2026-09-10.** AP tesliminin özgün kaydı ve kullanıcı tarafından kabul edilmiş kapsam değerlendirmesi. Yeni teknik deney bu checkpoint'te yok. İş yetkisi [STATE](STATE.md), yöntem/kapanış [METHOD](METHOD.md). [v0.11 tam plan](https://github.com/batuhanozgun/agentic-os-search/blob/634ab66f195130d551d58dfc062639e0feec23fa/research/studies/hermes-agent/RESEARCH-PLAN.md) tarihçeyi korur.
+**v0.13 / 2026-09-10.** AP recovery checkpoint'inden sonra yeni M4 selector araştırması/koşusu ve ilk geçici alt-sistem sentezi. İş otoritesi [STATE](STATE.md), kapanış [METHOD](METHOD.md), sıra gerekçesi [SCOPE-REVIEW](inventory/SCOPE-REVIEW-2026-09-10.md). [v0.12 tam plan](https://github.com/batuhanozgun/agentic-os-search/blob/a14c8152a918a3379b4a0d6d67af9f7aece2f70e/research/studies/hermes-agent/RESEARCH-PLAN.md) korunur.
 
-## Amaç ve karar
+## 1. Araştırma hedefi ve yeni düzey
 
-Önce HERMES-native model, sonra dört alan ve SOUL/Development OS. Primary `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`; W belgeleri unpinned. Not/koşu/yayın sayısı olgunluk ölçüsü değildir. AP, UI/A ve M3-S/SA ayrı arşivlerdir; aynı modül üç bağımsız kanıt kaynağı olmaz.
+Önce HERMES-native mekanizmalar/ilişkiler, sonra Information/Work/Actors/Environment ve SOUL/Development OS. Primary `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`, manifest 0.21.0. W belgeleri unpinned; current release veya kurulu ürün değerlendirmesi değil.
 
-Seçilen sıra: AP arşiv kapanışı → bounded visibility köprüsü → geçici alt-sistem sentezi → geniş topoloji/omission kontrolü. [SCOPE-REVIEW](inventory/SCOPE-REVIEW-2026-09-10.md) alternatifleri, gerekçeyi ve çıkış şartlarını taşır. Genel kapsamı U01'in bütün residual'ları kapanana kadar erteleme.
+A0 pin/yöntem kurulu. A1 topoloji kısmi. B0 öğrenme/onay/bellek mekanizmaları derin fakat tam aile kapanışı yok. **C katmanında ilk provisional learning/change sentezi artık var**; bütün native alt sistemler veya genel ilişkiler tamamlanmadı. Dört-alan/CORE/quality açık. Plan sürümü, not ve test sayısı tamamlanma oranı değildir.
 
-## Aile kapsamı
+## 2. Bu turdaki fark
 
-| ID | Aile | Mevcut düzey / açık iş |
-|---|---|---|
-| F01 | Başlama/araç döngüsü/retry/kesinti | Seçili facade/round/worker/ingress; genel lifecycle tamamlanmadı. |
-| F02 | Context/prompt/schema/compression/cache | Memory/store ve UI source bağı; **ilk iş approval→stored/cached prompt→prepared request**. |
-| F03 | Session/lineage/search/repair | Seçili persist/wire; arama/restore/DB yaşam döngüsü açık. |
-| F04 | Memory/skill/ownership/approval/rollback/sync | En derin kesit; N ve skill bounded probes var. Ledger/sync/reuse köprüleri açık. |
-| F05 | Provider/credential/profile/config | Profile/transport ve supplied config kaynağı; genel resolver/config lifecycle açık. |
-| F06 | Tool/skill/plugin/MCP/authority | Selected worker/middleware ve A/SA/AP; tam Q26 açık. |
-| F07 | Backend/native effect boundary | İlk topoloji ve source referansları; geniş açıklama yok. |
-| F08 | Delegation/cancel/worktree/writers | Seçili cancel/busy/worker; çok-yazar ve lifecycle açık. |
-| F09 | Gateway/auth/session/delivery | Normal onay yolunda derin; bütün platformlar/teslim açık. |
-| F10 | Cron/proaktif iş/queue/restart | Curator referansları; scheduler ve report bağı açık. |
-| F11 | CLI/TUI/desktop/web/API/ACP | Normal CLI/gateway pending; diğer yüzeyler açık. |
-| F12 | Install/update/compat/tests/evals | Dar deneyler; genel dağıtım/eval/kalite açıklaması açık. |
+14/AP: eski altı senaryo ve 15 özgün dosyanın recovery'si; A/SA'dan ayrı, yeni deney değil. M4: beş archived full-module + altı selected definition ile V01–V08; fresh-store/old-stored-prompt, fresh build alternatifleri, delete/fault/reload/persist ayrımları. SPEC ve mutant/identity kontrolleri kaydedildi. Full parent byte fidelity, gerçek UI/SQLite/compression/request/builder/provider yok. **Q07/Q22 yalnız bounded olarak ilerledi; uçtan uca kapanmadı.**
 
-A0 pin/yöntem kurulu; A1 topoloji kısmi. B0 mekanizma notları derin fakat tam aile kapanışı yok. Native alt-sistem/genel ilişkiler/dört-alan/CORE henüz tamamlanmadı. Provisional aileler nihai sistem ontolojisi değildir.
+[15](notes/15-MEMORY-PROMPT-RESTORE-BOUNDARIES.md) → [M4 kaynaklar](evidence/2026-09-10-prompt-restore/SOURCES.md). [Synthesis/01](synthesis/01-LEARNING-AND-CHANGE-PROVISIONAL.md) bu sonucu eski kanıtla bağlar; açık kenarı görünür tutar.
 
-## Şimdiki sınırlı birim: U01-M4 visibility
+## 3. İlk sonraki birim: genel çekirdek ve kapsam karşı okuması
 
-Soru: normal memory approve sonrası mevcut CLI ve cached gateway ajanında hangi görünüm ne zaman değişir?
+Soru: öğrenme/değişim kesitinin dışındaki HERMES, bir işi kabul edip bağlam oluşturma, araç/model aşamalarına taşıma, durumu kalıcılaştırma ve devam/sonlanma işini hangi mekanizmalarla yürütür? Bu açıklama provisional modeli nerede değiştirir?
 
-İlk source `_restore_or_build_system_prompt`; ardından system_prompt invalidation/build ve turn context; cache reuse/eviction ve compression/keep-prompt çağırıcıları. Kaynak caller ilişkisini göstermeden sentetik kodla ürün sonucu çıkarma.
+Önce pinned alt-tree/entrypoint haritası: agent ve genel session/state yüzeyleri; ardından tool/provider/backend/delegation, gateway/cron ve apps/install/eval. Dosya sayısı kota değildir; listelenmiş, okunmuş, kaynakla açıklanmış, koşulmuş ve sentezlenmiş ayrı işaretlenir. İlk envanter STRUCTURE yalnız kök düzeyini taşıyordu; onun yeterliliği varsayılmaz.
 
-Ayrı durumlar: pending payload, kalıcı dosya, live store, frozen snapshot, DB stored prompt, cached prompt, prepared messages/request. Onay-mode config değişimi payload approve değildir. Her-tur reload, koşullu refresh, yeni store+eski DB prompt ve gateway/CLI nesne ömrü rakip açıklamalar olarak sınanır.
+İlk davranış rotası M4-S03'te açılan `run_conversation`: build_turn_context'e verilen restore callback → returned state → iteration/request assembly/preflight/retry → tool/finalizer/persistence. Actual `turn_context`, `turn_request_assembly`, compression/keep-prompt ve gateway cache yollarına erişim sağlanınca eksik görünürlük bağı burada tamamlanır. Kod seçicisi final request sanılmaz; alternative app-server/transport yolu ordinary-loop ile eşdeğer kabul edilmez.
 
-Önce kaynak; ardından mümkünse provider'sız offline ölçüm. Gerçek upstream modül, selected definition ve fake DB/caller ayrılır. Normal yazı/silme/hata/restore örneklerinin hangileri gerçekten yürütüldüyse o kadar iddia edilir. Yanlış durumda kırmızı veren karşı kontrol aranır. Test sayısı kota değildir.
+Beklenen çıktı: genel çekirdeğin provisional davranış haritası; önemli bağımlılık/kontrol/kalıcılık geçişleri; dışarıda bırakılan aileler ve gerekçeler; hangi yeni alt-sistemin en yüksek açıklama değerine sahip olduğuna dair kapsam kararı. Bir seçili yol bütün ürün closure'ı değildir. Salt yeni tree listesi de mekanizma sentezi sayılmaz.
 
-Çıkış: ilgili koşullarda hangi geçişin görünümü yenilediğini açıklayabilmek veya tam engelli halkayı kaydetmek. Full outbound request yakalanamadıysa selected prompt testi onun yerine sunulmaz. Kurulum/credential/provider sınırı genişletilmez.
+## 4. Aile haritası ve ileri köprüler
 
-## Sonraki birimler
+| Aile | Mevcut durum / sonraki bağlantı |
+|---|---|
+| F01 başlama/loop/retry/interrupt | Selected source → **genel çekirdek ilk aktif genişleme**. |
+| F02 prompt/context/schema/compression/cache | M4 stored-prompt seçimi bounded; gerçek request/caller OPEN ve genel çekirdekte yük taşıyor. |
+| F03 session/lineage/search/repair | Persist/wire selected; genel session/restore/search modeli açık. |
+| F04 memory/skill/approval/rollback/sync | Derin notlar + provisional learning/change; ledger/sync/skill reuse köprüleri açık. |
+| F05 provider/credential/profile/config | Selected profile/transport; lifecycle/resolver genişliği açık. |
+| F06 tool/skill/plugin/MCP/authority | Worker/middleware ve ayrı A/SA/AP; Q26 full runtime açık. |
+| F07 backend/native | İlk topoloji; execution/effect sınırları geniş araştırma bekliyor. |
+| F08 delegation/cancel/worktree/writers | Selected cancel/worker; bütün shared-writer/delegation lifecycle açık. |
+| F09 gateway/auth/session/delivery | Normal pending yolu derin; genel teslim ve platform varyantları açık. |
+| F10 cron/proaktif/queue/restart | Curator bağı; scheduler/report/persistence köprüsü açık. |
+| F11 CLI/TUI/apps/API/ACP | CLI/gateway pending seçkileri; diğer surface semantics açık. |
+| F12 install/update/compat/eval | Probes var; genel dağıtım/eval/quality açıklaması açık. |
 
-İlk ara sentez: review/curator önerisi → onay/yetki → değişiklik → görünürlük/reuse → maintenance/rollback; kenarlar kaynak/koşu/çıkarım/açık olarak ayrılır. Bu geçici model mevcut birikimi okunabilir kılar; öğrenme faydasını veya bütün HERMES'i doğrulamaz.
+Ledger/backup/restore/sync → skill/cache → curator nested batch/report/cron hâlâ açıklama köprüleri; geniş kapsam haritasına göre sıralanır. U01'in bütün residual'ları kapanmadan başka ailelere bakılamaz gibi bir kapı yoktur.
 
-Sentezden sonra geniş kaynak-topoloji kontrolü: genel work/context/session çekirdeği; tool/provider/backend/delegation; gateway/cron; apps/install/eval. Hangi eksik aile geçici açıklamayı değiştirebilir? Listeleme ve full-read karıştırılmaz. Ledger/backup/restore/sync → skill-cache → curator nested batch/report/cron köprüleri bu karşı okuma ile bağlanır.
+## 5. Yeniden açma ve durma
 
-Q26/Q29 tam-runtime, actual UI faults, bütün auth/profile/hook ve scanner/kalite ileri doğrulamasıdır. Yeni exact materyalizasyon, source değişimi veya load-bearing kullanım olmadıkça eski A/SA/AP/N/C/V fixture'ları tekrarlayıp bütün çalışmayı bunlara kilitleme. E01/E02 legacy full-original verifier NOT RUN kalır.
+Q26/Q29, full originals/bağımlılık erişimi, source değişimi veya load-bearing adoption/security kararıyla yeniden açılır. E01/E02 legacy verifier NOT RUN; D3 manuel AST ikame değil. M4 full-parent identity ve actual caller/request gap'i de gerekli güçlü hüküm için ayrıca kapanır. Aynı V/N/A/SA/AP/C testlerini çoğaltmak yeni coverage değildir.
 
-## Yayın disiplini
-
-14/AP + original 15 dosya + transfer check yeni; önceki notes/evidence değişmez. Current routers ve katalog aynı checkpoint'i taşır. Non-force main ve content readback gerekir. Bitiş ölçütü METHOD; ayrı AP aktarımı yeni araştırma başarısı diye sayılmaz.
+Erişim hatasında exact açık halka kaydedilir; kaynağın yokluğu veya kalıcı tool kaybı varsayılmaz. Provider/credential/kurulum/upstream/control/Foundation sınırı genişletilmez. Sentezde source, execution, inference ve open edge ayrı tutulur. Bitiş ölçütü METHOD; bu v0.13 bütün HERMES kapanışı değildir.
