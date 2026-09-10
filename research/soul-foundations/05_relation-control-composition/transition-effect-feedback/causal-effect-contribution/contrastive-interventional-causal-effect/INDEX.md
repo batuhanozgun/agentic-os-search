@@ -2,19 +2,19 @@
 
 ## Role
 
-Current router for the completed Contrastive / Interventional Causal Effect Foundation child pass.
+Current router for the completed and accepted Contrastive / Interventional Causal Effect Foundation child pass.
 
-Read `STATE.md` first for bounded result and current authorization.
+Read `STATE.md` first for accepted result and current authorization.
 
 ## Current status
 
-**BOUNDED LEAF — USER EVALUATION PENDING. I0→I7 COMPLETE.**
+**BOUNDED LEAF — USER-EVALUATED / ACCEPTED. I0→I7 COMPLETE.**
 
 No substantive causal child is active from this package.
 
 ## Preferred read order
 
-1. `STATE.md` — bounded result and current gate.
+1. `STATE.md` — accepted bounded result and current gate.
 2. `KEY.md` — shortest current orientation.
 3. `FINDINGS-MAP.md` — targeted result/evidence router.
 4. `synthesis/CONTRASTIVE-INTERVENTIONAL-CAUSAL-EFFECT-SYNTHESIS.md` — integrated result.
@@ -23,13 +23,13 @@ No substantive causal child is active from this package.
 7. I0–I6 only when detailed target/intervention/identification/transport logic is decision-critical.
 8. Parent → `../STATE.md` → `KEY.md` → E6/E7 when parent split is material.
 9. Accepted Actual Causation sibling → `../actual-causal-contribution/STATE.md` → `KEY.md` when actual-vs-contrastive boundary is material.
-10. `CURRENT-SURFACES.md` — exact freshness after closure manifest.
+10. `CURRENT-SURFACES.md` — exact current freshness binding.
 
-## Bounded result
+## Accepted bounded result
 
 ```text
 Contrastive / Interventional Causal Effect
-    ← BOUNDED LEAF / USER EVALUATION PENDING
+    ← BOUNDED LEAF / USER-EVALUATED / ACCEPTED
     ← no immediate child promoted
 ```
 
@@ -48,7 +48,7 @@ actual episode cause != contrastive/interventional effect
 
 ## Next-step orientation
 
-If user evaluation accepts this result, `Cross-Ground Feedback / Adaptation` is the strongest current next child and requires separate substantive activation.
+`Cross-Ground Feedback / Adaptation` is the strongest current next child and requires separate substantive activation.
 
 ## Guardrail
 
