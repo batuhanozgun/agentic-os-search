@@ -2,23 +2,24 @@
 
 ## Role
 
-Current retrieval router for `research/soul-foundations/**`.
-
-Read `STATE.md` first for current authorization.
+Current retrieval router for `research/soul-foundations/**`. Read `STATE.md` first for current authorization.
 
 ## Current stage
 
-**CROSS-GROUND COMPOSITION — TRANSITION PARENT ACCEPTED; FEEDBACK / ADAPTATION BOUNDED PARENT / AWAITING USER EVALUATION.**
+**FEEDBACK / ADAPTATION PARENT ACCEPTED; CROSS-GROUND FEEDBACK / RETURNED INFLUENCE ACTIVE.**
 
-No substantive Foundation child is active.
+The active child is at `05_relation-control-composition/transition-effect-feedback/feedback-adaptation/returned-influence/`.
+
+Read its `STATE.md` → `PLAN.md`; use its result/router files as they are completed. Ancestor manifest refresh is in progress and is not yet a clean-closure certificate.
 
 ## Read routes
 
 | Need | Read first | Then if needed |
 |---|---|---|
 | Current overall state / authorization | `STATE.md` | current composition router |
-| Current Feedback / Adaptation result | `05_relation-control-composition/transition-effect-feedback/feedback-adaptation/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → F7 |
-| Feedback residuals | `.../feedback-adaptation/OPEN-QUESTIONS.md` | parent/sibling/ground surface if reopened |
+| Active Returned Influence work | `05_relation-control-composition/transition-effect-feedback/feedback-adaptation/returned-influence/STATE.md` | `PLAN.md` → completed G-pass files |
+| Accepted Feedback / Adaptation parent | `05_relation-control-composition/transition-effect-feedback/feedback-adaptation/STATE.md` | `KEY.md` → synthesis → F7 |
+| Feedback/Adaptation residuals | `05_relation-control-composition/transition-effect-feedback/feedback-adaptation/OPEN-QUESTIONS.md` | active child or sibling question only within authorization |
 | Accepted Contrastive Causal Effect | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/contrastive-interventional-causal-effect/STATE.md` | `KEY.md` → synthesis/I7 |
 | Accepted Actual Causation | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/actual-causal-contribution/STATE.md` | `KEY.md` → synthesis/A7 |
 | Accepted Causal parent | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/STATE.md` | `KEY.md` → E6/E7 |
@@ -27,31 +28,13 @@ No substantive Foundation child is active.
 | Accepted Control | `05_relation-control-composition/control-constraint/STATE.md` | `KEY.md` → synthesis/K7 |
 | Accepted Composite Standing | `05_relation-control-composition/composite-standing/STATE.md` | `KEY.md` → synthesis/S7 |
 | Accepted Relational Binding | `05_relation-control-composition/relational-binding/STATE.md` | `KEY.md` → synthesis/B7 |
+| Accepted grounds | `03_ground-deepening/grounds/<ground>/STATE.md` | local current route |
 | Candidate studies | `../studies/CATALOG.md` | selected package only when decision-critical |
 
-## Current composition map
+## Current interpretation
 
-```text
-Cross-Ground Composition
-├─ Relational Binding                  ← accepted bounded leaf
-├─ Composite Standing / Qualification ← accepted bounded leaf
-├─ Control / Constraint                ← accepted bounded leaf
-└─ Transition / Effect / Feedback      ← accepted bounded parent
-   ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
-   ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-   │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-   └─ Cross-Ground Feedback / Adaptation           ← BOUNDED PARENT / USER EVALUATION PENDING
-      ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
-      └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
-```
-
-## Current next-step interpretation
-
-Current interaction is evaluation of the Feedback / Adaptation parent result only.
-
-If accepted, `Cross-Ground Feedback / Returned Influence` is the strongest first child and requires separate substantive activation.
+The user's continuation instruction activates only Returned Influence. Its structural outcome is undecided. Persistent Adaptation / Future-Response Change remains inactive, not an automatic next execution step.
 
 ## Guardrail
 
-Architecture, ontology/data model, schema design, implementation and further child research remain unauthorized until separately activated.
+Architecture, ontology/data model, schema design, implementation and agent-control modifications remain outside this authorization.
