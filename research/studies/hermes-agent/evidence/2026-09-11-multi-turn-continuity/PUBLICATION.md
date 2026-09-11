@@ -10,9 +10,15 @@ Tam heartbeat ve lisans kimlikleri primary ile eşleşti. Seçili Kanban dosyas�
 
 ## Main ve eşzamanlı çalışma
 
-İlk main `13e00420d27547998475ac3d1bcd0d4a492f2229` idi. Çalışma sırasında `e335438fb1cf97539c429c585775cd84394eb3b0` oldu; compare yalnız Foundation değişiklikleri gösterdi. Yayın ağacı güncel `67b9af7fb879174a5f3d9997d3e701201575318b` tabanından kurulur. Foundation/control/exploration/context/diğer studies değiştirilmez; yalnız HERMES study ve catalog'un HERMES satırı.
+İlk main `13e00420d27547998475ac3d1bcd0d4a492f2229` idi. Çalışma sırasında `e335438fb1cf97539c429c585775cd84394eb3b0` oldu; compare yalnız Foundation değişiklikleri gösterdi. İlk yayın ağacı `67b9af7fb879174a5f3d9997d3e701201575318b` tabanından kuruldu. Foundation/control/exploration/context/diğer studies değiştirilmez; yalnız HERMES study ve catalog'un HERMES satırı.
 
 Bir blob/tree/commit oluşturmak main yayını değildir. Yayınlayan tur aday diff'i kontrol eder, final main parent'ını yeniden okur, değiştiyse scoped değişiklikleri güncel parent'a bağlar; ref force olmadan ilerletilir. Ardından main, STATE, synthesis/03, sonuç/manifest ve archive blob geri okunur. Gerçek yayın commit'i bu içerik kendi kendisinin commit ID'sini tahmin ederek değil, Git referansı/readback ile kanıtlanır.
+
+### Yayın yolu değişikliği — aynı turdaki somut gözlem
+
+Ana dal Foundation kayıtlarıyla ilerlemeye devam etti. Scope karşılaştırmaları HERMES dışındaki değişiklikleri koruyarak aday ağacın sırasıyla yeni parent'lara bağlandığını gösterdi. `570a02c202832eed0e17f3eb628ea240f3ebc0d6` ve `6c3816d3ec3c095eaa62cd9a9ac3fd83b14e9c87` adayları için iki gerçek `update_ref(force=false)` çağrısı `422 Update is not a fast forward` döndürdü. Bu, bu turda çalışan GitHub yazma aracının eşzamanlı HEAD değişiminde reddedilmesidir; geçmiş `Resource not found` olaylarıyla aynı kök neden olduğu iddia edilmez.
+
+Sınırsız client-side HEAD takibi yerine `research/hermes-u04-20260911-6c3816d` adlı yayın branch'i, son tam aday `6c3816d3ec3c095eaa62cd9a9ac3fd83b14e9c87` üzerinden oluşturuldu. Bu branch için main hedefli pull request ve GitHub'ın anlık server-side merge yolu kullanılacaktır; auto-merge/background işi, force push veya koruma ayarı değişikliği yoktur. PR açılması da tek başına yayın değildir: değişen dosyalar tekrar kontrol edilir, merge çağrısı exact PR head'e bağlanır ve başarı main/content readback ile doğrulanır. PR'nin merge kaydı nihai yayın receipt'idir. Önceki referanssız aday commit'ler ayrı araştırma ilerlemeleri veya başka yayımlanmış sürümler değildir.
 
 ## Devam
 
