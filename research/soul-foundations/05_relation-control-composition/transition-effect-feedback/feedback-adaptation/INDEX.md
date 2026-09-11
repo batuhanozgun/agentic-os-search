@@ -2,40 +2,56 @@
 
 ## Role
 
-Current router for the active Feedback / Adaptation Foundation child pass.
+Current router for the completed Feedback / Adaptation Foundation parent pass.
 
-Read `STATE.md` first for authorization, phase and stop rule.
+Read `STATE.md` first for bounded result and current authorization.
 
 ## Current status
 
-**ACTIVE — F0 canonical/current evidence recovery.**
+**BOUNDED PARENT RESULT — USER EVALUATION PENDING. F0→F7 COMPLETE.**
+
+No immediate child is active.
 
 ## Preferred read order
 
-1. `STATE.md` — protected question, authorization and guardrail.
-2. `PLAN.md` — falsification method and closure criteria.
-3. Accepted parent → `../STATE.md` → `KEY.md` → T6/T7 when parent boundary is material.
-4. Accepted Transition / Propagation → `../transition-propagation/STATE.md` when realized-change prerequisite is material.
-5. Accepted Causal parent and both causal children when influence/effectiveness is material.
-6. Parent residuals → `../OPEN-QUESTIONS.md`.
-7. Candidate studies through catalog → selected META → targeted files only when load-bearing.
-8. F0–F7 artifacts as completed.
-9. `KEY.md`, `FINDINGS-MAP.md`, synthesis and `CURRENT-SURFACES.md` after closure.
+1. `STATE.md` — bounded result and current gate.
+2. `KEY.md` — shortest current synthesis.
+3. `FINDINGS-MAP.md` — pass-by-pass result map.
+4. `synthesis/FEEDBACK-ADAPTATION-SYNTHESIS.md` — integrated result.
+5. `F7-ADVERSARIAL-CLOSURE.md` — strongest attacks and final child structure.
+6. `F6-SYNTHESIS-CHILD-DECISION.md` — promotion logic.
+7. `OPEN-QUESTIONS.md` — bounded residuals/reopen triggers.
+8. F0–F5 only when detailed evidence/boundary logic is decision-critical.
+9. Accepted parent → `../STATE.md` → `KEY.md` → T6/T7 when parent boundary is material.
+10. Candidate studies only through catalog → selected META → targeted files when load-bearing.
+11. `CURRENT-SURFACES.md` for exact freshness after manifest creation.
+
+## Current structure
+
+```text
+Cross-Ground Feedback / Adaptation
+├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
+└─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
+```
 
 ## Research rule
 
-Preserve at minimum:
+Preserve:
 
 ```text
 observation != feedback
 feedback availability != consumption
 consumption != causal influence
-response != adaptation
-persistent adaptation != beneficial adaptation
-lesson/document != learned system
-feedback control != adaptive control by identity
+feedback loop != adaptation
+one-off response != persistent adaptation
+stored lesson != adaptation
+adaptation occurrence != benefit/effectiveness
 ```
+
+## Next sequencing if accepted
+
+`Cross-Ground Feedback / Returned Influence` is the strongest first child but requires separate substantive activation.
 
 ## Guardrail
 
-No architecture, ontology/data-model/schema or implementation work is active.
+No immediate child, architecture, ontology/data-model/schema or implementation work is active.
