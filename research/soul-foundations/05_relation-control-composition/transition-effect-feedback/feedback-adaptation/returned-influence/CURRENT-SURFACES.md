@@ -1,21 +1,17 @@
 # Returned Influence — CURRENT SURFACES
 
-**Status:** bounded-leaf closure / USER EVALUATION PENDING  
+**Status:** user-evaluated / accepted bounded-leaf checkpoint  
 **Date:** 2026-09-11  
 **Branch:** main
-
-## Identity basis
-
-All 16 non-manifest files below were present in the untruncated Git tree `99769ed30d1ce8ab8583c9971aa4eaf4abc60ca5`, recovered through the repository tree at checkpoint `c422afaaf80336613431ba5b488d3eccb7e5f8d4`. That is the pre-manifest content checkpoint, not a claim about later HEAD. The manifest intentionally does not bind itself.
 
 ## Current result and routing files
 
 | Role | Path | Git blob SHA |
 |---|---|---|
-| Authority | `STATE.md` | `3873cebf0a81cda0847ea857045076e4570180e6` |
-| Router | `INDEX.md` | `8b8fd8a57101322fb0c813cfcfdead27bbbe7c1f` |
+| Authority | `STATE.md` | `5295daa575c87a367382e3607cafa251e0df4f96` |
+| Router | `INDEX.md` | `88a4c35052b63d95761f830bbfa326472c09fa03` |
 | Completed plan | `PLAN.md` | `f4ed1d4fe968513d73afbc4853bc613a11de8c70` |
-| L0 result | `KEY.md` | `dd3e126b5393cc721658a8ea543921b172d6e626` |
+| L0 result | `KEY.md` | `c2b2ebed505ef48f70b4530d34bea7972c640c26` |
 | Findings map | `FINDINGS-MAP.md` | `d6558ca0f3e90805d8348e64f65e0d8ccfdbe18b` |
 | Synthesis | `synthesis/RETURNED-INFLUENCE-SYNTHESIS.md` | `12e4df5a735f841273ad885a17a136046dfbf38b` |
 | Residuals | `OPEN-QUESTIONS.md` | `aea9d4a35307f26ac090c87ca3cd507f8c142dfb` |
@@ -34,20 +30,16 @@ All 16 non-manifest files below were present in the untruncated Git tree `99769e
 | G6 | `G6-SYNTHESIS-CHILD-DECISION.md` | `0067e684b7d932eecfefe0e4b79d61df5162099c` |
 | G7 | `G7-ADVERSARIAL-CLOSURE.md` | `0a350fec14e9d09242f8b21e86d777b28483d121` |
 
-## Current result
+## Accepted result
 
 ```text
 Feedback / Adaptation parent            ← accepted
-Returned Influence                      ← bounded leaf / USER EVALUATION PENDING
-Persistent Adaptation                    ← recommended after evaluation / inactive
+Returned Influence                      ← accepted bounded leaf
+Persistent Adaptation                    ← recommended next / inactive
 active substantive work                  ← NONE
 ```
 
-No immediate child was promoted. Current parent wording refinements are explicit in G6 and remain part of this evaluation-pending result.
-
-## Historical inputs versus current outputs
-
-`SOURCE-LEDGER.md` binds the recovered parent/sibling input snapshots. They are not cyclic dependencies on future ancestor manifests. Original F0–F7 are retained as historical parent-pass evidence. Ancestor CURRENT-SURFACES files bind this child manifest after it is created.
+No immediate child was promoted. The accepted result includes G6's narrow parent wording refinements.
 
 ## Verification boundary
 
