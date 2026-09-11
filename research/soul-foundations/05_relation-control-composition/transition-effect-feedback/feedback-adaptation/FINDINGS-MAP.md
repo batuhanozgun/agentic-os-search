@@ -1,144 +1,62 @@
-# Cross-Ground Feedback / Adaptation — Findings Map
+# Feedback / Adaptation — Findings Map
 
-**Status:** CURRENT L1 MAP / BOUNDED PARENT RESULT  
-**Date:** 2026-09-11
+**Document role:** CURRENT_L1 / parent and descendant retrieval  
+**Updated:** 2026-09-11
 
-## Result
+Read `STATE.md` for current evaluation/authorization. The parent is accepted. Returned Influence has a bounded-leaf result awaiting evaluation; Persistent Adaptation is inactive.
+
+## Parent structure
 
 ```text
-Cross-Ground Feedback / Adaptation
-    ← BOUNDED PARENT / USER EVALUATION PENDING
-    ← NOT A LEAF
-
-├─ Cross-Ground Feedback / Returned Influence
+Feedback / Adaptation
+├─ Returned Influence
 └─ Persistent Adaptation / Future-Response Change
 ```
 
-## F0 — Evidence recovery
-Recovered accepted Transition/Causal prerequisites, parent residuals, external WHO/FAA/NIST/NASA/Google pressure and gstack/Anthropic candidate pressure. Initial two-question split emerged.
+These are diagnostic questions, not mutually exclusive event classes.
 
-File: `F0-EVIDENCE-RECOVERY.md`
+## Current Returned Influence results
 
-## F1 — Minimum signature
-Established separate truth conditions:
+| Need | Route |
+|---|---|
+| Compact child result | `returned-influence/KEY.md` |
+| Return/reference boundary versus arbitrary information flow | `returned-influence/G1-RETURN-BOUNDARY-AND-SEMANTIC-CORE.md` |
+| Hold/no-change correction; active coupling versus exact contribution | `returned-influence/G2-OPERATIVE-USE-AND-EVIDENCE.md` |
+| Decision influence versus execution/target effect | G2 §§2,6 |
+| Timing, coupled loops, source lineage and material observation scope | `returned-influence/G3-TIMING-COUPLED-LOOPS-AND-FRAME.md` |
+| Why no child tree | `returned-influence/G4-RIVAL-DECOMPOSITIONS.md` |
+| Fresh primary sources and actual reading limits | `returned-influence/SOURCE-LEDGER.md` → G5 |
+| Narrow parent wording delta | `returned-influence/G6-SYNTHESIS-CHILD-DECISION.md` |
+| Same-model challenge and seven executed synthetic checks | `returned-influence/G7-ADVERSARIAL-CLOSURE.md` |
+| Integrated current child result | `returned-influence/synthesis/RETURNED-INFLUENCE-SYNTHESIS.md` |
 
-```text
-Feedback
-→ returned observation causally influences later behavior
+The new child qualifies the parent's shorthand: unchanged output does not establish absence or presence of feedback; return reference and exact response/effect locus matter. These refinements are pending as part of child evaluation, not already accepted new research.
 
-Adaptation
-→ prior feedback/history durably changes future-response behavior
-```
+## Original parent-pass recovery
 
-Fixed feedback can exist without adaptation; one-time historical feedback can create persistent adaptation.
+F0–F7 remain unchanged historical pass artifacts. Their original evaluation and next-step wording does not override current STATE.
 
-File: `F1-MINIMUM-FEEDBACK-ADAPTATION-SIGNATURE.md`
+| Pass | Original research contribution |
+|---|---|
+| `F0-EVIDENCE-RECOVERY.md` | Accepted prerequisite and external/candidate recovery |
+| `F1-MINIMUM-FEEDBACK-ADAPTATION-SIGNATURE.md` | Initial separation of returned influence and persistent future-response change |
+| `F2-FEEDBACK-USE-PERSISTENCE-ADAPTATION-DISCRIMINATION.md` | Observation without operative response; fixed feedback without adaptation; persistence question |
+| `F3-DELAY-STALENESS-STABILITY-FRAME-AUDIT.md` | Delay, proxy objectives, observation gaps, harmful adaptation and recursive scope |
+| `F4-RIVAL-INTERNAL-DECOMPOSITIONS.md` | Original one-leaf, stages, reactive/adaptive/evolutionary and realization/locus rivals |
+| `F5-EXTERNAL-CANDIDATE-HOLDOUTS.md` | Original WHO/FAA/NIST/NASA/Google and candidate pressure |
+| `F6-SYNTHESIS-CHILD-DECISION.md` | Original two-child promotion judgment |
+| `F7-ADVERSARIAL-CLOSURE.md` | Original attacks against Information/Work/Control/Transition collapse and third-child proposals |
 
-## F2 — Feedback-use / persistence discrimination
-Established:
-- observation without feedback;
-- feedback without adaptation;
-- adaptation without continuous online loop;
-- response vs persistent response-function change;
-- stored lesson and completed improvement Work are insufficient by identity;
-- distinct failure/recovery families.
+Original integrated snapshot: `synthesis/FEEDBACK-ADAPTATION-SYNTHESIS.md`.
 
-File: `F2-FEEDBACK-USE-PERSISTENCE-ADAPTATION-DISCRIMINATION.md`
+## Retained parent boundaries
 
-## F3 — Delay / staleness / stability / frame audit
-Established:
-- feedback can be real but stale;
-- delay can yield overshoot/oscillation;
-- feedback/adaptation occurrence does not imply stability/safety;
-- proxy/local objective improvement can harm global targets;
-- feedback frame blindness;
-- adaptation can entrench a bad frame;
-- recursive/meta-adaptation remains adaptation at current depth.
+Signal storage/exposure is not automatically operative returned influence. Repeated operation of a fixed rule is not automatically persistent adaptation. A completed improvement task or stored lesson does not prove future behavior changed. Occurrence of feedback or adaptation does not establish benefit, stability or safety.
 
-File: `F3-DELAY-STALENESS-STABILITY-FRAME-AUDIT.md`
+The earlier phrase 'independent truth conditions' should be read with the current G6 qualification: the two questions are not coextensive, but an adaptation may depend on historical feedback.
 
-## F4 — Rival decompositions
-Rejected:
-- one-leaf Feedback/Adaptation;
-- Observation/Evaluation/Adaptation;
-- Reactive/Adaptive/Evolutionary;
-- Parameter/Policy/Structural;
-- Corrective/Preventive/Learning;
-- Human/Automated/Hybrid;
-- Local/System/Organizational;
-- Beneficial/Harmful/Neutral;
-- Learning/Forgetting;
-- Feedback/Learning/Self-Modification.
+## Remaining work and verification
 
-Two-child split remained strongest.
+`OPEN-QUESTIONS.md` routes residuals. Persistent Adaptation needs its own authorized pass. No automatic execution follows from this map.
 
-File: `F4-RIVAL-INTERNAL-DECOMPOSITIONS.md`
-
-## F5 — External + candidate holdouts
-WHO, FAA, NIST, NASA and Google SRE each independently pressure the distinction between observation/reporting/assurance and durable behavior/system change. NASA adaptive-control material supplies the cleanest fixed-feedback-vs-adaptation falsifier.
-
-gstack and Anthropic supply agentic-software examples of incident/eval/readback feeding durable test/control/configuration changes without proving benefit automatically.
-
-File: `F5-EXTERNAL-CANDIDATE-HOLDOUTS.md`
-
-## F6 — Child decision
-Promoted provisionally:
-
-```text
-Cross-Ground Feedback / Returned Influence
-Persistent Adaptation / Future-Response Change
-```
-
-No upstream reopen required.
-
-File: `F6-SYNTHESIS-CHILD-DECISION.md`
-
-## F7 — Adversarial closure
-Attacked:
-- Feedback→Information collapse;
-- Feedback→Control collapse;
-- Adaptation→Work collapse;
-- Adaptation→Transition collapse;
-- stages-only model;
-- Learning naming;
-- Evolution third child;
-- Stability third child;
-- beneficial-only adaptation;
-- durable-memory collapse;
-- repeated-response collapse;
-- frame blindness omission;
-- overlap objection;
-- upstream promotion;
-- Causal-Effect collapse.
-
-All structural attacks failed.
-
-Final:
-
-```text
-Cross-Ground Feedback / Adaptation
-├─ Cross-Ground Feedback / Returned Influence
-└─ Persistent Adaptation / Future-Response Change
-```
-
-File: `F7-ADVERSARIAL-CLOSURE.md`
-
-## Strongest non-collapse set
-
-```text
-observation != feedback
-feedback available != consumed
-consumed != causally influential
-feedback loop != adaptation
-one-off response != persistent adaptation
-repeated fixed response != adaptation
-stored lesson != adaptation
-adaptation Work complete != adaptation realized
-adaptation occurred != adaptation beneficial/effective
-local/proxy improvement != global/target improvement
-all observed feedback handled != all material outcomes observed
-```
-
-## Current gate
-
-User evaluation only. No immediate child, architecture, ontology/data-model/schema or implementation work is active.
+Current manifests bind file identity only. F7/G7 remain same-model reviews, not independent replication or deployed SOUL verification.
