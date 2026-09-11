@@ -1,42 +1,52 @@
 # Hermes Agent — STATE
 
-**Durum:** ACTIVE PARTIAL RESEARCH / U03 KANBAN SOURCE RECORD AND RECOVERED DIAGNOSTIC  
-**Son kayıt:** 2026-09-11; özgün U03 kanıtı 2026-09-10.  
+**Durum:** ACTIVE PARTIAL RESEARCH / U04 MULTI-TURN CONTINUATION AND THIRD PROVISIONAL SYNTHESIS  
+**Son kayıt:** 2026-09-11.  
 **Primary:** `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`, manifest 0.21.0; current-release doğrulaması değil.  
-**Plan:** [v0.15](RESEARCH-PLAN.md). **Bütün HERMES araştırması tamamlandı mı? HAYIR.**
+**Plan:** [v0.16](RESEARCH-PLAN.md). **Bütün HERMES araştırması tamamlandı mı? HAYIR.**
 
-## Amaç ve yetki
+## Güncel amaç ve yetki
 
-Önce HERMES-native mekanizma ve sistem açıklaması; daha sonra Information/Work/Actors/Environment ve SOUL/Development OS değerlendirmesi. Kullanıcı genel ajan döngüsünü ve ardından kalıcı iş yönetimini araştırmayı yetkilendirdi. Son mesajı yeniden göndermeyi denemektir: **bu kayıt turu mevcut çalışmanın kurtarılması/yayınıdır, yeni araştırma veya yeni deney değildir.**
+Önce HERMES-native mekanizma/sistem açıklaması, sonra Information/Work/Actors/Environment ve SOUL/Development OS değerlendirmesi. Kullanıcı v0.15 sonrası çok turlu Kanban goal-mode ve goal/loop/heartbeat araştırma planını uygun bulup operasyonel sınıra kadar devamı yetkilendirdi. **U04 yeni kaynak araştırması ve yeni sınırlı deneydir; önceki U03 yayın kurtarmasının tekrar raporu değildir.**
 
-Yalnız `research/studies/hermes-agent/**` ve CATALOG'daki HERMES satırı değişebilir. Kurulum, bütün ürünü çalıştırma, gerçek model/provider/credential kullanımı, upstream mutation, Codex görevi, Foundation/control/architecture/adoption yetkisi yoktur. Codex başka repo kullanır; main hareketleri ona atfedilmez. Yanıtlar arasında otomatik/background iş veya uygulama/izin değişikliği yapılmaz. OpenClaw ayrı adaydır.
+Yalnız `research/studies/hermes-agent/**` ve CATALOG'daki HERMES satırı değişebilir. Bütün ürünü kurma/çalıştırma, model/provider/gerçek credential, upstream mutation, Codex işi, Foundation/control/context/architecture/adoption yetkisi yoktur. Sentetik çevre ile güvenli sınırlı offline deneyler bu araştırma kapsamında kalır. Codex başka repo kullanır; main hareketleri ona atfedilmez. Yanıtlar arasında otomatik/background iş veya uygulama/izin değişikliği yapılmaz. OpenClaw ayrı adaydır.
 
-## Şimdi kayda alınan çalışma
+## Bu tur ne ilerledi?
 
-[17/U03](notes/17-KANBAN-TASK-CLAIM-AND-ACCEPTANCE.md) → [RESEARCH](evidence/2026-09-10-kanban-task/RESEARCH.md), [SOURCES](evidence/2026-09-10-kanban-task/SOURCES.md), [yayın kurtarması](evidence/2026-09-10-kanban-task/PUBLICATION.md).
+[18/U04](notes/18-MULTI-TURN-GOAL-LOOP-AND-HEARTBEAT.md) → [RESEARCH](evidence/2026-09-11-multi-turn-continuity/RESEARCH.md), [SOURCES](evidence/2026-09-11-multi-turn-continuity/SOURCES.md), [SPEC](evidence/2026-09-11-multi-turn-continuity/SPEC.md).
 
-Önceki turda getirilen Kanban kaynakları task/create/dependency/claim/run, normal dispatcher kimliği, complete/block/review, başarısızlık/reclaim ve worker context geçişlerini açmıştı. Ayrı iki Git nesnesi bulunup kurtarıldı: draft README `64533b4183596c3beaee798c4a165cc31a9510f4` ve 15 özgün dosya taşıyan kanıt arşivi `5484ca39caf7ae5a8f6a31b68caeec0f9a44363d`. Bir blob'un varlığı önceki main yayını sayılmaz.
+Actual quiet CLI → Kanban goal helper → expected-run status/block callbacks bağlandı. Judge DONE doğrudan task commit değil, finalize nudge üretir. Terminal worker/review handoff ve superseded ayrı durma nedenleridir. Helper outcome, block callback receipt'i ve process exit-code farklıdır.
 
-K01–K08, kayıtlı zaman `2026-09-10T20:06:13.848575+00:00`: seçili transaction/transition işlevleri ve gerçek geçici SQLite; azaltılmış DDL/açık fixture'lar. [Sonuç özeti](evidence/2026-09-10-kanban-task/RESULT-SUMMARY.json) gezinme içindir; tam ham RESULT.json, iki probe sürümü, seçkiler ve loglar [özgün arşivdedir](evidence/2026-09-10-kanban-task/original-evidence.tar.xz). [Manifest](evidence/2026-09-10-kanban-task/RECOVERY-MANIFEST.json) her dosyanın kimliğini taşır.
+Session GoalManager kontrat/gate/wait/parse-transport counters taşır; Kanban helper bunlarla eşdeğer değildir. Loop'un cadence/tick/marker/until/times kabulü ve heartbeat'in idle recurring istemi ayrı state/driver kullanır. Gateway persisted-loop scan ile memory-only heartbeat watch ayrımı kaynakta görüldü. Settings persistence, live state, driver registration, queued turn ve prepared context eşitlenmedi.
 
-Kurtarmada arşivin byte/Git kimliği, 15 member, kayıtlı input/probe hash'leri ve metadata-only script farkı doğrulandı. Kod parse edildi, **çalıştırılmadı**. Yeni RESEARCH/SOURCES companion'ları kurtarma sırasında hazırlandı; arşivde olmayan eski araştırma metni aynen kurtarılmış gibi sunulmaz. Önceki 'hiç ilerleme yoktu' final açıklaması bu somut kayıtla düzeltilmiştir; altyapı kök nedeni ileri sürülmez.
+**Yeni yürütme:** G01–G10 manuel tam-function Kanban seçkisi + sentetik callbacks; H01–H05 Git kimliği eşleşen TAM heartbeat.py + gerçek geçici SQLite adapter + sentetik saat. 15 grup ve üç sınırlı negatif kontrol beklentilerle eşleşti. Raw koşu `2026-09-11T06:10:29.139368+00:00`. G04 block receipt ayrımı, G06 judge sırasında ownership-loss callback penceresi, H04 live/durable fire ayrışması, H05 iki stale manager'ın atomic claim olmaması gözlendi. Gerçek worker/driver/race/delivery veya ürün güvenlik hükmü değildir.
 
-## Açıklanmış sınır ve açık doğrulama borcu
+[Tam arşiv](evidence/2026-09-11-multi-turn-continuity/diagnostic-evidence.tar.xz) dokuz dosya taşır; [MANIFEST](evidence/2026-09-11-multi-turn-continuity/MANIFEST.json) exact kimliklerdir. [RESULT-SUMMARY](evidence/2026-09-11-multi-turn-continuity/RESULT-SUMMARY.json) yalnız gezinme görünümü; exact gözlem/probe için arşiv açılır. Spec önceden Git blob olarak sabitlendi. Source/fixture/negative-control sınırları arşivde korunur; aynı modelin deneyi bağımsız replication sayılmaz.
 
-Task kimliği birden fazla run boyunca sürer; geç eski-run completion'ı expected ID ile reddedilebilir. Task/run/completed olayı transaction'ı, sonraki child-promotion/cleanup ve caller success'ten ayrıdır. K05 commit öncesi rollback, K06 commit sonrası exception ayrımını kayıtlar. Low-level expected_run_id=None operator yolu, normal worker'ın run ID aktarımıyla aynı koşul değildir. Bunlar semantik iş kalitesi veya uçtan uca üretim güvenliği kanıtı değildir.
+[Üçüncü geçici sentez](synthesis/03-PERSISTENT-WORK-AND-CONTINUATION-PROVISIONAL.md), U02 iç tur ile U03 kalıcı görev ve U04 devam yollarını bağlar. [Yeni kapsam kontrolü](inventory/CONTINUITY-COVERAGE-2026-09-11.md) geniş F01–F12'yi ve açık consumer'ları korur. Bu nihai HERMES CORE/dört-alan/adoption değildir.
 
-Tam upstream parent byte/AST sadakati, gerçek dispatcher/worker process, init/migration, physical cancellation, artifact copy, goal/review judge ve notification delivery OPEN. K seti gerçek full-module koşusu veya bağımsız replication değildir. Aynı sekiz testi tekrar etmek bu boşlukları kapatmaz.
+## Açık kalan kritik bağlantı
 
-01–16 notları, syntheses/01–02 ve önceki evidence değişmeden korunur. [V0.14 STATE](https://github.com/batuhanozgun/agentic-os-search/blob/25b06521083e2a4ddf7b0dbeb9454804796963b6/research/studies/hermes-agent/STATE.md) eski ayrıntıyı taşır. Q07/Q22 normal compaction→API-message source bağı geçerlidir; actual approval-to-wire/timing/all variants açık. Q26/Q29 full-original/full-worker verifier NOT RUN olarak kalır. A/SA/AP/M4 ve diğer eski koşular yeniden sayılmaz. U03 üçüncü tamamlanmış synthesis veya bütün HERMES CORE değildir.
+S02 quiet callback'i history'yi yeniden verir; S08 onu kopyalar. Ancak S10 `agent/turn_facade.py`, `admit_durable_turn_lease` sonucundaki history ile girdiyi değiştirebilir. **Bu nedenle ne same-session → kayıpsız bağlam, ne doğrudan history-loss bug hükmü verildi.** Actual `agent/turn_facade_lease.py` 429 aldı; bu consumer okunamadı. Ek loops aralığı da 429 aldı; var olan okumaların yerine yeni erişim uydurulmadı.
 
-## Sonraki çalışma
+Bir ayarın kaydı ile tekrar ateşlenecek driver, durable awaiting_response ve migration/rebind kabulü açık. Goal/loop/heartbeat best-effort save/migration source yolları universal atomic transfer garantisi değildir. H04 yalnız full heartbeat save sınırını çalıştırdı; actual SessionDB veya rotation failure testi değil.
 
-Bu tur yalnız yayın recovery'sini kapatır. Daha önce yetkilendirilmiş HERMES araştırmasının sıradaki teknik birimi: **Kanban'ın goal-mode worker devamı ve terminal kabulü ile goal/loop/heartbeat'in ayrı süreklilikleri.** `_worker_argv`/quiet CLI kolu, `run_kanban_goal_loop`, `goal_run_status` ve tool'daki `_goal_gate` bağlantıları gerçek primary kaynakta takip edilmeli; yorumlar uygulamanın yerine geçmemeli. Claim-loss/terminal handoff'un devamı durdurma koşulu ile judge'ın anlamsal kalite hükmü ayrılmalı.
+## Korunan önceki kanıt
 
-K seçkilerini güçlü runtime/security/adoption iddiasında kullanmadan önce full-parent sadakat yeniden açılır; bu doğrulama borcu bütün diğer HERMES ailelerini durduran kapı değildir. Actual SessionDB/lease/restore, skill ledger/sync, provider/backend/delegation, scheduler/diğer UI/install/eval genişliği [v0.14 kapsam haritasında](inventory/CORE-COVERAGE-2026-09-10.md) korunur. Her sohbet Kanban task'ı değildir; goal/loop/heartbeat peşinen tek Work modeli sayılmayacak.
+01–17 notları, syntheses/01–02 ve eski evidence değişmeden korunur. [V0.15 STATE](https://github.com/batuhanozgun/agentic-os-search/blob/13e00420d27547998475ac3d1bcd0d4a492f2229/research/studies/hermes-agent/STATE.md) U03/K recovery ayrıntısını taşır. U03 original15 kapanışı tamamdır; eski 'yayımlanmadı/ilerleme yok' ifadeleri tarihsel düzeltilmiş kayıtlardır.
+
+Q07/Q22 normal compaction→API-message source bağı durur; actual wire/timing/all variants açık. Q26/Q29 full-original/full-worker NOT RUN; U03 K full-parent fidelity Q38 açık. U04'te yalnız S05 full-byte kimlik eşleşmesi, eski E/K/goal seçkilerini doğrulamış sayılmaz. A/SA/AP/N/M4/K ve upstream suite'ler yeniden çalıştırılmadı. Gerçek model/goal judge/gate efficacy, profiles, process cancellation, artifact/notification ve gelecek-task kalite açık.
+
+## İlk sonraki yetkili araştırma birimi
+
+**Session-bound devamın actual SessionDB/turn lease/history ve rotation/restart driver'ına bağlanması.** S10'un `admit_durable_turn_lease` çağrısından başla; ilgili current source erişimini yeniden kontrol et, gerekli SessionDB/history refresh/append/restore consumer'ına in. Bir continuation kuyruğa girdiğinde hangi geçmişle hangi session'da yürütüldüğünü, session rotasyonunda devam kaydı/route/manager'ın nasıl yeniden bağlandığını ve in-flight loop/heartbeat durumunun recovery sınırını aç.
+
+Normal yol + bir interruption/rotation/restart karşı yolu yeterli bounded çıkış hedefidir; full product testi gerekmez. Yeni deneyi aynı G/H fakes'i çoğaltmak yerine gerçek consumer/DB geçişine yönelt; source identity ve fixture sınırlarını koru. Erişim kapalıysa repeated retry veya kısıt dolaşma yok; desteklenebilen bağımsız kenarı araştır veya açık boundary ile dur. Claim-loss actual admission, whole-driver dedupe ve semantic quality birbirinin yerine geçmesin.
+
+Daha sonra task cancellation/delegation, scheduler/cron/delivery, provider/backend, skill ledger/sync/quality ve diğer UI/install/eval kapsamı yeni modele göre yeniden seçilir. Tüm eski security residual'larını kapatmak diğer ailelerin araştırılmasının ön koşulu değildir; güçlü reuse/security/adoption hükmü için ilgili borç yeniden açılır.
 
 ## Cold start ve yayın
 
-Bootstrap → research root/studies catalog → META/STATE/INDEX → METHOD/plan → **17/U03 README/RESEARCH/SOURCES/SPEC/RESULT-SUMMARY/PUBLICATION**. Genel mekanizma için synthesis/02 ve 16/U02; exact K iddiası veya reproduction için committed original archive + manifest. Eski chat ZIP'ine ihtiyaç yoktur.
+Bootstrap → research root/studies catalog → META/STATE/INDEX → METHOD/plan v0.16 → **synthesis/03 + 18/U04 RESEARCH/SOURCES/SPEC/RESULT-SUMMARY/PUBLICATION + CONTINUITY-COVERAGE**. Exact G/H iddiası için committed archive/manifest. İç tur için synthesis/02/U02, task transaction için17/U03/K. Sohbet ZIP'ine ihtiyaç yoktur.
 
-Yayın tabanı `25b06521083e2a4ddf7b0dbeb9454804796963b6` kullanılır; daha yeni main varsa yeniden uzlaştırılır. Aradaki Foundation/exploration çalışmaları korunur. Ref non-force ilerletilir; yayın başarısı gerçek main ve içerik geri okumasıyla doğrulanır. Geçici inceleme commit'i `6b448f79...` hiçbir branch'e bağlanmadı ve onun placeholder dosya yolları final ağaca dahil değildir. Dosya/test/plan sürümü tamamlanma oranı değildir.
+İlk head13e0042 iken yayın hazırlığında e335438'e ilerleme görüldü; compare yalnız Foundation değişiklikleri gösterdi ve güncel tree taban alındı. Son yayın non-force ref ve current content readback ile doğrulanır. Blob/tree/commit oluşması tek başına main yayını değildir. Dosya/test/plan sayısı tamamlanma yüzdesi değildir.

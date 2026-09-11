@@ -1,25 +1,26 @@
 # Hermes Agent — Açık sorular
 
-**2026-09-11 / plan v0.15.** Q01–Q37 kimlikleri korunur; Q38–Q39 U03 sınırını ekler. [V0.14 exact Q01–Q37 kayıtları](https://github.com/batuhanozgun/agentic-os-search/blob/25b06521083e2a4ddf7b0dbeb9454804796963b6/research/studies/hermes-agent/OPEN-QUESTIONS.md) unchanged inherited questions için ayrıntılı rotadır. Bu yayın kurtarması eski soruları sessizce kapatmaz. [STATE](STATE.md), [SOURCE-LEDGER](SOURCE-LEDGER.md).
-
-## U03 ile değişen ve yeni sorular
+**2026-09-11 / plan v0.16.** Q01–Q39 korunur; Q40–Q44 yeni U04 sınırlarıdır. [V0.15 exact](https://github.com/batuhanozgun/agentic-os-search/blob/13e00420d27547998475ac3d1bcd0d4a492f2229/research/studies/hermes-agent/OPEN-QUESTIONS.md) → [v0.14 Q01–Q37](https://github.com/batuhanozgun/agentic-os-search/blob/25b06521083e2a4ddf7b0dbeb9454804796963b6/research/studies/hermes-agent/OPEN-QUESTIONS.md). Bunlar ürün kusur listesi veya üretim olayı iddiası değildir.
 
 | ID | Current disposition |
 |---|---|
-| Q12 | U02 normal-core modeli + şimdi U03 kalıcı task kaynak/recorded diagnostic eklendi. Bütün HERMES veya recursive coverage hâlâ açık. |
-| Q34 | PARTIAL ADVANCE: task/create/dependency/claim/run/complete/block/review gerçek source seçkileri ve K01–K08 arşivi kayıtlı. Transactional task/run/event kabulü, tool-name veya rc=0 değil; actual full dispatcher/worker ve semantic acceptance açık. |
-| Q35 | Normal spawn task/run/claim/board kimliklerini taşır; handler expected run ID verir. K03 eski A'nın B'yi kapatmasını seçili consumer'da reddeder. Gerçek process cancellation, tüm caller identity ve gateway/session lease ilişkileri açık. |
-| Q36 | K05 commit öncesi rollback ve K06 commit sonrası exception ayrıldı. Task done, caller success, dependent promotion, artifact durability ve delivery acknowledgement birleştirilmiş değil. |
-| Q37 | FIRST NEXT TECHNICAL BRIDGE: actual Kanban goal loop hangi run-terminal/superseded koşulunda durur; tool goal gate/judge neyi kabul eder? Ardından goal/loop/heartbeat storage/trigger/continuation farkları. Yalnız yorum ve isim yeterli değildir. |
-| Q38 | K seçkilerinin full upstream parent byte/AST sadakati ve init/schema/fixture bağımlılıkları nasıl doğrulanır? Local hashes aktarımı bağlar; source equivalence/whole-runtime ispatı değildir. Güçlü reuse/security kararından önce yeniden açılır. |
-| Q39 | Low-level optional expected_run_id operator yolu ile normal worker proof'u bütün caller'larda nasıl ayrılır? K07 düşük seviyeli sınırı çalıştırır; normal worker'ın ID'yi atladığı veya bütün authorization'ın bozuk olduğu sonucu yok. |
+| Q12 | U02/U03/U04 + üç provisional sentez; whole native CORE ve geniş F01–F12 açık. |
+| Q34 | Task/claim/run/complete/block/review kaynağı + K; şimdi actual quiet goal caller bağlandı. Full dispatcher/OS ve semantic task-quality acceptance açık. |
+| Q35 | Expected run ID actual CLI callback'e bağlı; helper status boundary'de superseded durur. G06 judge sırasında değişimde bir callback daha gösterir, gerçek dış etki değil; lower admission/lease açık. |
+| Q36 | Task commit/caller/result/delivery ayrımı sürer. G04 helper block outcome gerçek block receipt'i değildir; actual wrapper sonucunu/exit-code'u ayrı tüketir. |
+| Q37 | PARTIAL SOURCE + EXECUTION ADVANCE: Kanban goal-mode, session goal, loop, heartbeat ayrı native lifecycle'lar olarak karşılaştırıldı; wait/gate/budget/stop/driver farkları açıklandı. Bütün driver/rotation/restart veya quality hükmü yok. |
+| Q38 | Eski K full-parent byte/AST hâlâ NOT VERIFIED. U04 G seçkisi de manual; yalnız S05 tam heartbeat upstream Git kimliği eşleşti. |
+| Q39 | Normal worker expected ID aktarır; invalid/missing environment ve low-level operator None yolları tüm caller'larda kapanmadı. |
+| Q40 | FIRST NEXT: S10 facade `admit_durable_turn_lease` hangi koşulda history'yi yeniler/değiştirir? Quiet caller listesi, SessionDB transcript ve current session/turn lease nasıl birleşir? turn_facade_lease source429; neither verified-history nor history-loss verdict. |
+| Q41 | Goal/loop/heartbeat child-copy/parent-clear migration, save receipt ve actual SessionDB transaction/recovery ile nasıl korunur? H04 yalnız save sınırı; gerçek migration loss gösterilmedi. |
+| Q42 | Persisted loop awaiting_response ve heartbeat watch/route, restart/rotation ardından hangi driver admission ile recover edilir? H05 local stale managers ≠ actual gateway duplicate event. |
+| Q43 | Run status check → judge → next run callback aralığında ownership loss'u gerçek admission/cancel/worker fence nasıl keser? G05/G06 helper kapsamı; real worker/OS test yok. |
+| Q44 | Goal gate oracle/revision binding ve judge evidence scope ne kadar yeterli? Source prefix-limited last response, optional gates ve HEAD+porcelain fingerprint görülür; semantic quality veya unchanged-dirty-content etkisi yürütülmedi. |
 
-Q01–Q11 ve Q13–Q33'ün v0.14 disposition'ları değişmez. Özellikle Q07/Q22 ordinary compaction→API-message source bağlantısı kurulmuştur fakat final wire/timing/all variants açık; Q26/Q29 full-original/full-worker verifier NOT RUN. Review/skill/ledger/sync/quality ve eski memory/approval sınırları terk edilmedi.
+Diğer eski Q01–Q33 disposition'ları sessizce kapanmaz. Q07/Q22 normal compaction→API-message source-backed ama final wire/timing/variant açık; Q26/Q29 full-original/full-worker NOT RUN. Review/skill/ledger/sync/scanner/quality ve önceki approval/batch/rollback sınırları korunur.
 
-## Recovery ile yeni kanıtı ayır
+## Yöntem ve sonraki sıra
 
-[U03 result summary](evidence/2026-09-10-kanban-task/RESULT-SUMMARY.json) eski kayıtlı koşudan türemiştir; tam snapshots/mutants [original archive](evidence/2026-09-10-kanban-task/original-evidence.tar.xz) içindedir. Bu tur yeni probe çalıştırılmadı. Archived record, transfer identity, source fidelity ve bağımsız behavioral/semantic doğrulama ayrı düzeylerdir.
+[U04 SPEC](evidence/2026-09-11-multi-turn-continuity/SPEC.md) koşudan önce sabitlendi. 15 grup ve 3 negatif kontrol yeni fakat sınırlı kanıt; eski suite rerun veya independent replication değil. Ham gözlem [archive](evidence/2026-09-11-multi-turn-continuity/diagnostic-evidence.tar.xz), gezinme [summary](evidence/2026-09-11-multi-turn-continuity/RESULT-SUMMARY.json). Aynı G/H testlerini çoğaltmak Q40–Q43 consumer/driver boşluğunu kapatmaz.
 
-İlk harness metadata failure'ı kaynak ürün hatası değildir; ilk görünmeyen case sonuçları sayılmaz. Sekiz ana durumda matched ve üç negatif kontrol recorded olsa da full parent/actual app/worker/provider/OS/artifact/judge/delivery eksikleri kapanmaz. Aynı dar suite'i çoğaltmak coverage değildir.
-
-Yayın kurtarması known U03 two-blob kapsamını kapatır; bütün geçmiş sohbet dosyalarının evrensel envanteri yapıldığı iddia edilmez. Kurulum/provider/credential/upstream/control/Foundation/adoption yetkisi değişmedi.
+İlk çalışma Q40, gerekli Q41/Q42 bağı; ardından Q43 ve diğer broad families açıklama değerine göre. Q44 güçlü verification/adoption kullanımında yeniden açılır; whole research'ü yalnız judge/gate ayrıntısına kilitlemez. Source erişimi engelliyse açık kayıt ve yeterli bağımsız kenar, seri retry/kısıt dolaşma değil. Yetki STATE'te sınırlıdır.
