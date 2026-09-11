@@ -1,9 +1,9 @@
 # Transition / Effect / Feedback — STATE
 
-**Status:** accepted bounded parent; Feedback / Adaptation accepted; Returned Influence bounded leaf / USER EVALUATION PENDING  
+**Status:** accepted bounded parent; Transition / Propagation accepted; Causal parent + both causal leaves accepted; Feedback / Adaptation accepted; Returned Influence accepted  
 **Updated:** 2026-09-11  
 **Current authorised substantive activity:** NONE  
-**Current authorised interaction:** RETURNED-INFLUENCE RESULT EVALUATION
+**Current authorised interaction:** NEXT TRANSITION-PARENT CHILD SELECTION / PLANNING ONLY
 
 ## Current structure
 
@@ -14,38 +14,40 @@ Transition / Effect / Feedback                       ← accepted parent
 │  ├─ Actual Causal Contribution / Episode Causation    ← accepted bounded leaf
 │  └─ Contrastive / Interventional Causal Effect        ← accepted bounded leaf
 └─ Cross-Ground Feedback / Adaptation                 ← accepted bounded parent
-   ├─ Cross-Ground Feedback / Returned Influence        ← bounded leaf / USER EVALUATION PENDING
-   └─ Persistent Adaptation / Future-Response Change     ← recommended after evaluation / inactive
+   ├─ Cross-Ground Feedback / Returned Influence        ← accepted bounded leaf
+   └─ Persistent Adaptation / Future-Response Change     ← recommended next / inactive
 ```
 
-## Current result route
+## Accepted Returned Influence result
 
-`feedback-adaptation/returned-influence/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis/G7.
-
-G0–G7 is complete. No immediate Returned Influence child was promoted.
-
-Key child findings:
+G0–G7 completed and user evaluation accepted the bounded leaf. No immediate child was promoted.
 
 ```text
 unchanged output != no feedback
 unchanged output != proof of feedback use
+return path != active coupling != particular-signal contribution
+informed response != executed action != achieved target effect
 any information influence != relevant feedback return
-loop structure != active coupling != particular-signal contribution
-informed decision != executed action != achieved target effect
 ```
 
-The Feedback/Adaptation parent was accepted in the user's continuation instruction. Its two-question structure survives; G6 records narrow wording refinements pending as part of child evaluation. Persistent Adaptation was not activated.
+The accepted Feedback/Adaptation parent remains intact, with the child's narrow wording refinements incorporated into current orientation.
+
+## Current sequencing recommendation
+
+> **Persistent Adaptation / Future-Response Change** is the strongest next substantive child.
+
+It is inactive and requires separate activation in the next session.
 
 ## Retained upstream boundaries
 
-Ground-local dynamics remain Environment-local. Realized transition, actual episode causation, contrastive effect, operative return and persistent future-response change remain distinct questions. Neither feedback nor adaptation occurrence proves benefit or stability.
+Ground-local dynamics remain Environment-local. Realized transition, actual episode causation, contrastive effect, operative returned influence and persistent future-response change remain distinct questions. Neither feedback nor adaptation occurrence proves benefit or stability.
 
 ## Historical and verification scope
 
-T0–T7 and the original parent synthesis/plan are retained original-pass snapshots. Current authorization is carried here and in the current child STATE, not their historical next-step sentences.
+T0–T7 and original parent syntheses remain research snapshots. Current authorization is carried here and in current descendant STATE/INDEX surfaces.
 
-All closure adversarial reviews remain same-model. Fresh returned-influence primary reading and seven toy checks do not retroactively resolve earlier causal literature-access limits or independently verify the Foundation hierarchy.
+All closure adversarial reviews remain same-model. Fresh Returned Influence primary reading and seven toy checks do not independently verify the Foundation hierarchy or live SOUL efficacy.
 
 ## Stop
 
-Return the leaf result for evaluation. Do not automatically begin Persistent Adaptation, further descendants, architecture, ontology/data-model/schema, implementation or agent-control changes.
+Do not automatically begin Persistent Adaptation, further descendants, architecture, ontology/data-model/schema, implementation or agent-control changes.
