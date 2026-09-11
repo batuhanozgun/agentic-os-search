@@ -1,6 +1,6 @@
 # Cross-Ground Feedback / Returned Influence — Research Plan
 
-**Status:** ACTIVE / STRUCTURAL OUTCOME UNDECIDED  
+**Status:** G0–G7 COMPLETE / BOUNDED LEAF / USER EVALUATION PENDING  
 **Date:** 2026-09-11  
 **Parent:** Cross-Ground Feedback / Adaptation  
 **Authorization:** user endorsed the parent interpretation and requested continuation to the operational boundary. This is acceptance of the bounded parent and authorization of the recommended first child, not authorization of Persistent Adaptation, architecture or implementation.
@@ -46,3 +46,9 @@ Use accepted composition-method constraints: diagnostic regions need not be disj
 Initial web reconnaissance reached Kubernetes controllers/autoscaling and a primary education-paper abstract; no completed structural verdict preceded this plan. Subsequent probes are explicit tests, not claimed blind preregistered experiments.
 
 If an unresolved source or structural ambiguity is material, retain an active checkpoint rather than disguising execution debt as an optional reopen trigger. Fresh web access is working in this turn; prior passes' retrieval failures are historical, not a present constraint.
+
+## Completion record
+
+G0–G7 delivered a bounded leaf with no immediate children. The equilibrium/hold counterexample required a visible parent wording correction; return-reference and partial-effect boundaries were also sharpened. Source scope and seven executed synthetic checks are disclosed in the ledger/G7. The completed method does not claim independent model/researcher replication.
+
+Current authority is `STATE.md`; exact repository closure is recorded through `CURRENT-SURFACES.md` and ancestor readback. Persistent Adaptation is recommended after evaluation, not active.
