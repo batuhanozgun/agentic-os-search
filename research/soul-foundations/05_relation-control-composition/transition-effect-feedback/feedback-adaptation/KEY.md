@@ -2,26 +2,23 @@
 
 **Document role:** CURRENT_L0 / parent semantic orientation  
 **Parent status:** accepted bounded parent  
-**Updated:** 2026-09-11  
-**Current descendant authorization/evaluation:** read `STATE.md`, then the named child STATE.
+**Updated:** 2026-09-11
 
 ## Two protected questions
 
 ```text
 Cross-Ground Feedback / Adaptation
-├─ Cross-Ground Feedback / Returned Influence
+├─ Cross-Ground Feedback / Returned Influence          ← accepted bounded leaf
 │  → condition/performance information returns into relevant later response
-└─ Persistent Adaptation / Future-Response Change
+└─ Persistent Adaptation / Future-Response Change      ← recommended next / inactive
    → history produces retained change in future-response behavior
 ```
 
-The parent is not a leaf. A fixed feedback rule can operate without being changed by history. A single historical episode can support persistent adaptation without continuous online recurrence. This establishes distinct, non-coextensive questions; it does not claim that every adaptation is historically independent of all feedback.
+The parent is not a leaf. A fixed feedback rule can operate without being changed by history. A single historical episode can support persistent adaptation without continuous online recurrence. These are distinct, non-coextensive questions; the accepted Returned Influence pass qualifies the earlier overstrong independence wording.
 
-## Returned Influence child result and parent delta
+## Accepted Returned Influence result
 
-The dedicated G0–G7 pass proposes a bounded leaf. Its current evaluation status is authoritative in `returned-influence/STATE.md`.
-
-Its important refinements are:
+Dedicated G0–G7 research closed this child as a bounded leaf with one reference-relative operative-return grammar.
 
 ```text
 unchanged output != no feedback
@@ -33,7 +30,7 @@ any information influence != relevant feedback return
 
 A system may use observations to hold, continue or inhibit unnecessary action. A blind system can show the same output; evidence must distinguish use from coincidence. The return must be relative to an explicit system/pursuit and response locus.
 
-See `returned-influence/G6-SYNTHESIS-CHILD-DECISION.md` for the exact proposed changes. They are child-pass findings, not silently retroactive claims about F0–F7.
+The parent wording refinements discovered in G6 are now accepted with the child: explicit return reference, no visible-change requirement, partial response versus end-to-end effect, and qualified independence language.
 
 ## Persistent Adaptation question
 
@@ -47,7 +44,7 @@ adaptation Work complete != adaptation realized
 adaptation occurred != beneficial/effective adaptation
 ```
 
-Persistence, latent behavior, forgetting, supersession and recursive change require the dedicated sibling investigation. Do not infer that it was completed by parent discovery or the Returned Influence pass.
+Persistence, latent behavior, forgetting, supersession and recursive change require the dedicated sibling investigation.
 
 ## Shared guardrails and interfaces
 
@@ -58,11 +55,13 @@ feedback/adaptation occurrence != stability/safety/benefit
 multiple derivative reports != independent corroboration
 ```
 
-Information owns representations and exposure; Work owns pursuits; Actors/Control retain standing and governing authority; Transition supplies realized change; causal research supports contribution/benefit claims; Standing qualifies adequacy/currentness. Feedback/Adaptation investigates the corresponding returned-influence and persistent-change composition, not replacement grounds.
+Information owns representations and exposure; Work owns pursuits; Actors/Control retain standing and governing authority; Transition supplies realized change; causal research supports contribution/benefit claims; Standing qualifies adequacy/currentness. Feedback/Adaptation investigates returned influence and persistent-change composition, not replacement grounds.
 
-## Historical source route
+## Next frontier
 
-Original F0–F7 and `synthesis/FEEDBACK-ADAPTATION-SYNTHESIS.md` remain parent-pass evidence. Their old frontier wording is historical. Current child details are in the child KEY/map/synthesis/source ledger; current authorization is in STATE.
+> **Persistent Adaptation / Future-Response Change** is the strongest next substantive child.
+
+It is inactive and requires separate activation in the next session.
 
 ## Verification boundary
 
