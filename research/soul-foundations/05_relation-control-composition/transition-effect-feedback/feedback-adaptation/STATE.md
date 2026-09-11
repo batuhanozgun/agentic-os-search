@@ -1,95 +1,66 @@
 # Cross-Ground Feedback / Adaptation — STATE
 
-**Status:** BOUNDED PARENT RESULT / AWAITING USER EVALUATION  
-**Activated:** 2026-09-11  
-**Closed for evaluation:** 2026-09-11  
-**Parent:** `Transition / Effect / Feedback` — bounded parent / user-evaluated / accepted  
-**Accepted siblings:** `Cross-Ground Transition / Propagation`, `Cross-Ground Causal Effect / Contribution`  
-**Current phase:** F7 CLOSURE COMPLETE / USER EVALUATION GATE  
+**Status:** BOUNDED PARENT / USER-ENDORSED / ACCEPTED  
+**Activated / closed for evaluation:** 2026-09-11  
+**Accepted:** 2026-09-11  
+**Parent:** Transition / Effect / Feedback — accepted bounded parent  
+**Accepted siblings:** Cross-Ground Transition / Propagation; Cross-Ground Causal Effect / Contribution  
 **F0–F7:** COMPLETE  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** FEEDBACK / ADAPTATION PARENT RESULT EVALUATION ONLY
+**Current authorised substantive activity:** CROSS-GROUND FEEDBACK / RETURNED INFLUENCE CHILD PASS  
+**Current child phase:** G0–G1
+
+## Authorization transition
+
+Following the parent result and SOUL interpretation, the user endorsed the value of the interpretation and explicitly requested continuation to the operational boundary. This accepts the bounded parent and activates its recommended first child. It does not authorize the Persistent Adaptation sibling or system design.
+
+## Accepted structure
+
+```text
+Cross-Ground Feedback / Adaptation                  ← ACCEPTED BOUNDED PARENT
+├─ Cross-Ground Feedback / Returned Influence         ← ACTIVE
+└─ Persistent Adaptation / Future-Response Change      ← inactive
+```
+
+These are diagnostic research questions, not mutually exclusive event classes.
 
 ## Protected parent question
 
-> When observations/results/outcomes from prior transitions return across accepted-ground boundaries, under what conditions do they actually influence later behavior, and when does that influence become a persistent change in the system's future-response function rather than one-off response, stored information or ordinary ground-local dynamics?
+When observations/results/outcomes return across accepted-ground boundaries, when do they operatively influence later response, and when does history produce persistent change in future-response behavior?
 
-## Bounded result
+## Active child
 
-```text
-Cross-Ground Feedback / Adaptation
-    ← BOUNDEDLY COMPLETE AS PARENT REGION
-    ← NOT A LEAF
-    ← TWO IMMEDIATE DIAGNOSTIC CHILDREN PROMOTED
+`returned-influence/STATE.md` → `PLAN.md`.
 
-├─ Cross-Ground Feedback / Returned Influence
-└─ Persistent Adaptation / Future-Response Change
-```
+Its research tests the parent's shorthand rather than treating it as immutable: in particular, whether operative hold/inhibition can be feedback without a visible before/after action change, and what makes information flow a return rather than merely a forward dependency.
 
-No immediate child is active.
+## Inactive sibling
 
-## Child 1 — Cross-Ground Feedback / Returned Influence
-
-Protected question:
-
-> Did an observation/result from a prior/current realized state return across accepted-ground boundaries to a later consumer and causally influence a subsequent action, decision, control or transition?
-
-Core non-collapse:
+Persistent Adaptation / Future-Response Change asks whether feedback/history produces a durable change in responses to materially comparable future situations, where it is realized and how it is retained.
 
 ```text
-observation != feedback
-signal available != consumed
-consumed != causally influential
-feedback occurred != timely/current enough
-feedback exists != stable/safe
-```
-
-## Child 2 — Persistent Adaptation / Future-Response Change
-
-Protected question:
-
-> Did feedback/history produce a durable change in how the system will respond to future materially comparable situations, and where/how is that changed response realized and retained?
-
-Core non-collapse:
-
-```text
-one-off response != adaptation
-repeated fixed response != adaptation
+one-off response != persistent adaptation
+repeated fixed response != adaptation by identity
 stored lesson != adaptation
 adaptation Work complete != adaptation realized
 persistent adaptation != beneficial/effective adaptation
 ```
 
-## Strongest structural distinction
+## Retained parent boundaries
 
 ```text
-feedback = true, adaptation = false
-```
-
-is possible under a fixed feedback controller.
-
-A one-time feedback/history episode can also create persistent adaptation without a continuously recurring online feedback loop.
-
-## Strongest frame/effect guardrails
-
-```text
+signal exists/delivered/consumed != operative influence established
+feedback loop != persistent adaptation
 all observed signals handled != all material outcomes observed
 local/proxy objective improved != intended/global target improved
 feedback/adaptation occurred != stable/safe/beneficial
 ```
 
-## Next sequencing recommendation
+F0–F7 and the parent synthesis retain the original reasoning. Any child-level refinement must be disclosed in current result surfaces and linked to its evidence, not silently rewritten into the historical passes.
 
-If the user accepts this result:
+## Verification / continuity
 
-> **Cross-Ground Feedback / Returned Influence** is the strongest first immediate-child pass.
+F7 is same-model adversarial review, not independent replication. User acceptance closes the evaluation gate but adds no scientific verification. Root and child activation are being synchronized; previous closure manifests are historical until this transition completes.
 
-It is not active. Do not pre-fix later ordering until that child closes.
+## Stop / guardrail
 
-## Verification status
-
-F7 is same-model adversarial review. WHO, FAA, NIST, NASA and Google SRE supplied external pressure; gstack and Anthropic supplied candidate-system pressure. No external source validates the exact two-child synthesis and no independent second-model/researcher replication has been performed.
-
-## Guardrail
-
-Do not automatically begin either immediate child, architecture, ontology/data-model/schema or implementation.
+Return the active child's bounded result for user evaluation. Do not automatically activate Persistent Adaptation or new descendants. No architecture, ontology/data-model/schema, implementation or agent-control mutation is authorized.
