@@ -1,15 +1,15 @@
 # Transition / Effect / Feedback — STATE
 
-**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; BOTH CAUSAL CHILDREN ACCEPTED; FEEDBACK / ADAPTATION ACTIVE  
+**Status:** BOUNDED PARENT / USER-EVALUATED / ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; BOTH CAUSAL CHILDREN ACCEPTED; FEEDBACK / ADAPTATION BOUNDED PARENT / AWAITING USER EVALUATION  
 **Parent accepted:** 2026-09-06  
 **Parent:** `Cross-Ground Composition` — accepted  
 **Cross-Ground Transition / Propagation:** accepted bounded leaf  
 **Cross-Ground Causal Effect / Contribution:** accepted bounded parent  
 **Actual Causal Contribution / Episode Causation:** accepted bounded leaf  
 **Contrastive / Interventional Causal Effect:** accepted bounded leaf  
-**Cross-Ground Feedback / Adaptation:** ACTIVE F0 FOUNDATION CHILD RESEARCH  
-**Current authorised substantive activity:** CROSS-GROUND FEEDBACK / ADAPTATION CHILD PASS  
-**Current authorised interaction:** RESEARCH TO BOUNDED CLOSURE
+**Cross-Ground Feedback / Adaptation:** BOUNDED PARENT / USER EVALUATION PENDING  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** FEEDBACK / ADAPTATION PARENT RESULT EVALUATION ONLY
 
 ## Current structure
 
@@ -19,13 +19,30 @@ Transition / Effect / Feedback                         ← accepted parent
 ├─ Cross-Ground Causal Effect / Contribution           ← accepted bounded parent
 │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
 │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-└─ Cross-Ground Feedback / Adaptation                  ← ACTIVE F0
+└─ Cross-Ground Feedback / Adaptation                  ← BOUNDED PARENT / USER EVALUATION PENDING
+   ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
+   └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
 ```
 
-## Active protected question
+## Current Feedback / Adaptation result
 
-> When observations/results/outcomes return across accepted-ground boundaries, under what conditions do they actually influence later behavior, and when does that influence become persistent adaptation rather than one-off response, stored information or ordinary local dynamics?
+```text
+observation != feedback
+feedback available != consumed != causally influential
+feedback loop != adaptation
+one-off response != persistent adaptation
+stored lesson != adaptation
+adaptation occurred != adaptation beneficial/effective
+```
+
+## Current sequencing recommendation
+
+If the user accepts the current parent result:
+
+> **Cross-Ground Feedback / Returned Influence** should be the first immediate child.
+
+This recommendation does not activate it.
 
 ## Guardrail
 
-Do not begin architecture, ontology/data-model/schema or implementation.
+Do not automatically begin either immediate child, architecture, ontology/data-model/schema or implementation.
