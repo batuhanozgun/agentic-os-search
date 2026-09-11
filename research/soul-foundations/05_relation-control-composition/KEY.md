@@ -1,8 +1,8 @@
 # Relation / Control / Composition — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; both causal children accepted  
-**Date:** 2026-09-10
+**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal parent + both causal leaves accepted; Feedback / Adaptation bounded parent / awaiting user evaluation  
+**Date:** 2026-09-11
 
 ## Shortest current result
 
@@ -20,35 +20,27 @@ Cross-Ground Composition
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
    │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
    │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-   └─ Cross-Ground Feedback / Adaptation           ← recommended next / inactive
+   └─ Cross-Ground Feedback / Adaptation           ← BOUNDED PARENT / USER EVALUATION PENDING
+      ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
+      └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
 ```
 
-These are diagnostic research problem regions, not architecture modules or mutually exclusive object/event classes.
+These are diagnostic research problem regions, not architecture modules or mutually exclusive event classes.
 
 ## Accepted composition results
 
 ### Relational Binding
-
 > What exact anchors/roles are connected under which applicability frame?
 
 ### Composite Standing / Qualification
-
 > What cross-ground qualification holds because several ground semantics are constitutive of the standing?
 
-```text
-standing holds != assessment supports != decision recognizes != record says
-```
-
 ### Control / Constraint
-
 > How is an exact candidate behavior/transition/effect governed under an applicable basis/objective?
 
-```text
-policy != authority != decision != enforcement != monitoring != compliance
-governed-effect scope != enforcement-point scope
-```
-
 ### Transition / Effect / Feedback
+
+Accepted parent:
 
 ```text
 Transition / Effect / Feedback
@@ -57,7 +49,7 @@ Transition / Effect / Feedback
 └─ Feedback / Adaptation
 ```
 
-Critical boundary:
+Critical routing boundary:
 
 ```text
 ground-local dynamics != cross-ground Transition / Effect / Feedback
@@ -67,59 +59,68 @@ ground-local dynamics != cross-ground Transition / Effect / Feedback
 
 A propagation episode can comprise several exact transition instances with distinct scope/time/failure points.
 
-## Accepted Causal Effect / Contribution parent
+## Accepted Causal Effect / Contribution
 
 ```text
-Cross-Ground Causal Effect / Contribution
-├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-└─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
+Actual Causation
+→ which contributors actually made this realized episode/effect happen?
+
+Contrastive Causal Effect
+→ how would target outcomes differ under X versus X'?
 ```
 
-Critical split:
+Both causal children are accepted bounded leaves.
+
+## Current Feedback / Adaptation result
+
+Dedicated F0→F7 research promotes two immediate diagnostic children:
 
 ```text
-What would X do to Y?
-!=
-Did X cause this observed Y?
+Cross-Ground Feedback / Adaptation
+├─ Cross-Ground Feedback / Returned Influence
+└─ Persistent Adaptation / Future-Response Change
 ```
 
-### Accepted Actual Causation
+Critical distinction:
 
 ```text
-joint causal configuration != independent cause edges
-chronology != actual causation
-but-for necessity != universal causal criterion
-causal contribution != responsibility/accountability
+feedback loop != persistent adaptation
 ```
 
-### Accepted Contrastive Causal Effect
+Strong rules:
 
 ```text
-causal effect identity
-= outcome + target + X vs X' + applicability frame
-
-intended/assigned intervention != realized/received intervention
-average effect != individual effect
-source/local effect != target effect
-causal target defined != identifiable != estimated != decision-sufficient
+observation != feedback
+signal available != consumed != causally influential
+one-off response != adaptation
+repeated fixed response != adaptation
+stored lesson != adaptation
+adaptation Work complete != adaptation realized
+adaptation occurred != adaptation beneficial/effective
 ```
 
-## Remaining Transition sibling
+Frame/effect guardrails:
 
-### Cross-Ground Feedback / Adaptation
-
-> Did observations/results return across ground boundaries to alter later behavior, and did the influence become persistent system change?
+```text
+all observed signals handled != all material outcomes observed
+local/proxy objective improved != intended/global target improved
+feedback/adaptation occurred != stable/safe/beneficial
+```
 
 ## Current sequencing recommendation
 
-> **Cross-Ground Feedback / Adaptation** is the strongest next immediate child.
+If the Feedback / Adaptation parent result is accepted:
+
+> **Cross-Ground Feedback / Returned Influence**
+
+is the strongest first immediate-child pass.
 
 Do not activate automatically.
 
 ## Verification boundary
 
-All closure adversarial passes remain same-model review. Fresh public-web retrieval failed during the Contrastive pass; no independent second-researcher/model replication validates the exact hierarchy.
+All closure adversarial passes remain same-model review. WHO, FAA, NIST, NASA and Google SRE supplied external pressure for Feedback/Adaptation distinctions; gstack and Anthropic supplied candidate-system pressure. No independent second-researcher/model replication validates the exact hierarchy.
 
 ## Current gate
 
-No substantive child is active. Architecture, ontology/data model and implementation remain outside current authorization.
+Feedback / Adaptation parent-result evaluation only. No substantive child, architecture, ontology/data model or implementation work is active.
