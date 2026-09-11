@@ -18,18 +18,10 @@ This README is stable orientation, not dynamic authority.
 ## Research progression
 
 ### `01_verticals/` — independent discovery research
-
-Completed bounded corpora:
-- Records / persistent information;
-- Work;
-- Actors;
-- Technical Work Environment.
+Completed bounded corpora: Records / persistent information; Work; Actors; Technical Work Environment.
 
 ### `02_adequacy/` — first top-level adequacy synthesis
-
-This stage exposed two major level corrections:
-- actual Operating/Domain Reality was missing from the original independent set;
-- Records was too narrow for the broader Information/Representation problem.
+Exposed two major level corrections: actual Operating/Domain Reality was missing; Records was too narrow for Information/Representation.
 
 Working frame became:
 
@@ -43,14 +35,10 @@ Actors / Agency–Participation–Authority
 ```
 
 ### `03_ground-deepening/`
-
 All four grounds were deepened/evaluated and accepted.
 
 ### `04_top-level-adequacy-rerun/`
-
-The four-ground hypothesis was re-run after deepening. No fifth peer ground, required merge/split, wrong-level correction or stronger rival survived.
-
-**Status:** user-evaluated / accepted.
+The four-ground hypothesis survived post-deepening adequacy rerun. **Status: user-evaluated / accepted.**
 
 ---
 
@@ -66,15 +54,11 @@ Cross-Ground Composition
 └─ Transition / Effect / Feedback
 ```
 
-These are **diagnostic research problem regions**, not architecture modules or mutually exclusive event classes.
+These are diagnostic research problem regions, not architecture modules or mutually exclusive event/object classes.
 
 ### Relational Binding — accepted bounded leaf
 
-Core problem:
-
 > What exact anchors are connected, in what typed semantic positions and applicability frame?
-
-Key rules:
 
 ```text
 generic connectivity != semantic binding
@@ -85,49 +69,28 @@ graph reachability != legitimate transitive relation
 
 ### Composite Standing / Qualification — accepted bounded leaf
 
-Core problem:
-
-> What cross-ground qualification cannot be localized to one ground because several accepted-ground semantics are constitutive of what it means or makes it hold?
-
-Critical boundary:
+> What cross-ground qualification irreducibly depends on multiple accepted-ground semantics?
 
 ```text
 ground-local Criterion-Relative Standing
 != cross-ground Composite Standing
-```
 
-Key rules:
-
-```text
 standing holds
 != epistemic assessment
 != decision / recognition
 != recorded status
-
-verified != validated != accepted
-capable != actionable != authorized != technically reachable
 ```
 
 ### Control / Constraint — accepted bounded leaf
 
-Core problem:
-
 > How is an exact candidate behavior, transition, flow or protected effect governed under an applicable basis/objective?
-
-Key distinctions:
 
 ```text
 policy != authority != decision != enforcement != monitoring != compliance
-
-governed-effect / control-objective scope
-!= enforcement-point / monitored-path scope
+control-objective scope != enforcement-point scope
 ```
 
-Therefore one blocked path does not prove the protected effect is controlled end-to-end.
-
 ### Transition / Effect / Feedback — accepted bounded parent
-
-Accepted structure:
 
 ```text
 Transition / Effect / Feedback
@@ -139,118 +102,117 @@ Transition / Effect / Feedback
 Critical routing boundary:
 
 ```text
-ground-local dynamics
-!= cross-ground Transition / Effect / Feedback
+ground-local dynamics != cross-ground Transition / Effect / Feedback
 ```
 
 #### Cross-Ground Transition / Propagation — accepted bounded leaf
 
-Core problem:
+> What exact change became real/effective, for which scope/time, and how fully did it propagate?
 
-> What exact change actually became real/effective across accepted-ground boundaries, for which anchors/scopes/times, and how fully did it propagate or fail to propagate?
-
-Important structural discovery:
-
-> A higher-level propagation episode can comprise several exact transition instances with different local owners, scopes, times and failure points; it need not be one monolithic event.
-
-Frame-blindness guardrail:
+Strong discoveries:
 
 ```text
-all known targets updated
-!= all materially applicable targets known
-!= full propagation established
+requested/approved change != realized change
+local realization != full applicable propagation
+propagation != data replication
+rollback != time reversal
+all known targets updated != all materially applicable targets known
 ```
 
 #### Cross-Ground Causal Effect / Contribution — accepted bounded parent
 
-Accepted structure:
-
 ```text
 Cross-Ground Causal Effect / Contribution
-├─ Actual Causal Contribution / Episode Causation
-└─ Contrastive / Interventional Causal Effect
+├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
+└─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
 ```
 
-The strongest distinction is:
+Critical split:
 
 ```text
-What would X do to Y?
-!=
 Did X cause this observed Y?
+!=
+How would Y differ under X versus X'?
 ```
 
-##### Actual Causal Contribution / Episode Causation — accepted bounded leaf
-
-> In this exact realized episode/effect, which actual events, conditions, omissions, controls, actions or interactions causally contributed to what occurred?
-
-Accepted key rules:
+##### Actual Causal Contribution / Episode Causation
 
 ```text
 chronology != actual cause
-joint causal configuration != collection of independent cause edges
+joint causal configuration != independent cause edges
 but-for necessity != universal causal criterion
 one cause identified != complete causal model
 causal contribution != responsibility/accountability
 all observed contributors analyzed != causal explanation complete
 ```
 
-The leaf is effect-centered and configuration-sensitive. Joint causes, alternative sufficient routes, overdetermination, preemption, omission/failure-to-prevent, systemic contributors and control/barrier failures remain overlapping causal profiles rather than child regions.
-
-##### Contrastive / Interventional Causal Effect — accepted bounded leaf
-
-> For a defined target, how would outcome/effect Y differ under exact regime/state/action/exposure X versus comparator X', under the relevant context/time/version, and with what limits on causal identification and generalization?
-
-Accepted bounded result:
-
-```text
-Contrastive / Interventional Causal Effect
-    ← BOUNDED LEAF / ACCEPTED
-    ← no immediate child promoted
-```
-
-Key rules:
+##### Contrastive / Interventional Causal Effect
 
 ```text
 "X works" != well-formed causal-effect claim
-association != causal effect
-before/after difference != causal effect
+causal effect identity = outcome + target + X vs X' + applicability frame
 intended/assigned intervention != realized/received intervention
-bundle effect != component effect
 average effect != individual effect
 source/local effect != target effect
-no observed spillover != no interference
 causal target defined != identifiable != estimated != decision-sufficient
 Control present/implemented/complied-with != Control causally effective
-actual episode cause != contrastive/interventional causal effect
 ```
 
-The causal-effect target is defined by outcome + target + focal regime + comparator + applicability frame, with intervention versions/fidelity/interference/aggregation/generalization semantics preserved when materially necessary.
+Transportability/Generalization remains the strongest explicit reopen trigger, not a promoted child at current depth.
 
-Transportability/Generalization remains a major profile and strongest reopen trigger, not a promoted immediate child at current depth.
+#### Cross-Ground Feedback / Adaptation — bounded parent / user evaluation pending
 
-Fresh public-web retrieval failed during the dedicated I0→I7 pass; the child reused source-grounded parent external conclusions and current Anthropic/gstack candidate pressure. No fresh dedicated transportability/interference literature review is claimed.
+Dedicated F0→F7 research produced:
 
-#### Cross-Ground Feedback / Adaptation — recommended next / inactive
+```text
+Cross-Ground Feedback / Adaptation
+├─ Cross-Ground Feedback / Returned Influence
+└─ Persistent Adaptation / Future-Response Change
+```
 
-> Did observations/results return across ground boundaries to alter later behavior, and did that influence become persistent system change?
+The parent is **not a leaf**.
+
+##### Cross-Ground Feedback / Returned Influence — discovered / inactive
+
+> Did a realized outcome/state produce a returned signal that reached a later consumer and causally influenced a subsequent action, decision, control or transition?
 
 ```text
 observation != feedback
-feedback signal != feedback consumed
-feedback loop != learning/adaptation
-one-off response != persistent adaptation
-lesson recorded != learned system
+signal available != consumed
+consumed != causally influential
+feedback occurred != current/timely enough
+feedback exists != stable/safe
 ```
 
-With both causal children accepted, Feedback can later distinguish:
+##### Persistent Adaptation / Future-Response Change — discovered / inactive
+
+> Did feedback/history produce a durable change in how the system responds to future materially comparable situations?
 
 ```text
-feedback occurred
-!= adaptation occurred
-!= adaptation causally improved target outcomes
+one-off response != adaptation
+repeated fixed response != adaptation
+stored lesson != adaptation
+adaptation Work complete != adaptation realized
+persistent adaptation != beneficial/effective adaptation
 ```
 
-without using before/after change as causal proof.
+Strongest structural distinction:
+
+```text
+feedback loop != persistent adaptation
+```
+
+A fixed feedback controller can have genuine feedback without adaptation. One historical feedback episode can also create a persistent policy/test/control/configuration change without a continuously recurring online loop.
+
+Frame/effect guardrails:
+
+```text
+all observed signals handled != all material outcomes observed
+local/proxy objective improved != intended/global target improved
+feedback/adaptation occurred != stable/safe/beneficial
+```
+
+External pressure used: WHO patient-safety reporting/learning, FAA SMS/Safety Assurance, NIST CSF 2.0 Improvement, NASA adaptive-control/learning-control, Google SRE postmortem practice, plus gstack and Anthropic candidate studies. No source publishes the exact project synthesis.
 
 ---
 
@@ -272,10 +234,14 @@ Cross-Ground Composition                        ← accepted
        ├─ Cross-Ground Causal Effect / Contribution ← accepted bounded parent
        │  ├─ Actual Causal Contribution / Episode Causation    ← accepted bounded leaf
        │  └─ Contrastive / Interventional Causal Effect         ← accepted bounded leaf
-       └─ Cross-Ground Feedback / Adaptation        ← recommended next / inactive
+       └─ Cross-Ground Feedback / Adaptation        ← BOUNDED PARENT / USER EVALUATION PENDING
+          ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
+          └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
 ```
 
-No substantive Foundation child is active.
+No substantive Foundation child is active at the current evaluation gate.
+
+If the Feedback / Adaptation parent result is accepted, the strongest first child is **Cross-Ground Feedback / Returned Influence**. It requires separate substantive activation.
 
 Architecture, ontology/data model, schema design and implementation remain outside current Foundation authorization.
 
@@ -287,7 +253,7 @@ Canonical candidate-study library: `research/studies/`.
 
 Discovery surface: `research/studies/CATALOG.md`.
 
-Candidate studies may supply external evidence/counterexamples, falsifiers, mechanism references, benchmarks and later implementation learning. They do **not** define Foundation structure merely by being catalogued.
+Candidate studies may supply evidence, falsifiers, mechanisms, benchmarks and implementation learning. They do not define Foundation structure merely by being catalogued.
 
 ---
 
