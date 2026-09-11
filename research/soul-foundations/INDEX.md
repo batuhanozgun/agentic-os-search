@@ -8,7 +8,7 @@ Read `STATE.md` first for current authorization.
 
 ## Current stage
 
-**CROSS-GROUND COMPOSITION — CAUSAL PARENT ACCEPTED; BOTH CAUSAL CHILDREN ACCEPTED; CROSS-GROUND FEEDBACK / ADAPTATION RECOMMENDED NEXT / INACTIVE.**
+**CROSS-GROUND COMPOSITION — TRANSITION PARENT ACCEPTED; FEEDBACK / ADAPTATION BOUNDED PARENT / AWAITING USER EVALUATION.**
 
 No substantive Foundation child is active.
 
@@ -17,8 +17,9 @@ No substantive Foundation child is active.
 | Need | Read first | Then if needed |
 |---|---|---|
 | Current overall state / authorization | `STATE.md` | current composition router |
-| Accepted Contrastive Causal Effect | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/contrastive-interventional-causal-effect/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → I7 |
-| Contrastive residuals | `.../contrastive-interventional-causal-effect/OPEN-QUESTIONS.md` | parent/sibling/ground surface if reopened |
+| Current Feedback / Adaptation result | `05_relation-control-composition/transition-effect-feedback/feedback-adaptation/STATE.md` | `KEY.md` → `FINDINGS-MAP.md` → synthesis → F7 |
+| Feedback residuals | `.../feedback-adaptation/OPEN-QUESTIONS.md` | parent/sibling/ground surface if reopened |
+| Accepted Contrastive Causal Effect | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/contrastive-interventional-causal-effect/STATE.md` | `KEY.md` → synthesis/I7 |
 | Accepted Actual Causation | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/actual-causal-contribution/STATE.md` | `KEY.md` → synthesis/A7 |
 | Accepted Causal parent | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/STATE.md` | `KEY.md` → E6/E7 |
 | Accepted Transition / Propagation | `05_relation-control-composition/transition-effect-feedback/transition-propagation/STATE.md` | `KEY.md` → synthesis/P7 |
@@ -26,8 +27,6 @@ No substantive Foundation child is active.
 | Accepted Control | `05_relation-control-composition/control-constraint/STATE.md` | `KEY.md` → synthesis/K7 |
 | Accepted Composite Standing | `05_relation-control-composition/composite-standing/STATE.md` | `KEY.md` → synthesis/S7 |
 | Accepted Relational Binding | `05_relation-control-composition/relational-binding/STATE.md` | `KEY.md` → synthesis/B7 |
-| Accepted composition parent | `05_relation-control-composition/STATE.md` | `KEY.md` → synthesis/C7 |
-| Accepted grounds | `03_ground-deepening/grounds/<ground>/STATE.md` | local current route |
 | Candidate studies | `../studies/CATALOG.md` | selected package only when decision-critical |
 
 ## Current composition map
@@ -42,12 +41,16 @@ Cross-Ground Composition
    ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
    │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
    │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-   └─ Cross-Ground Feedback / Adaptation           ← recommended next / inactive
+   └─ Cross-Ground Feedback / Adaptation           ← BOUNDED PARENT / USER EVALUATION PENDING
+      ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
+      └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
 ```
 
 ## Current next-step interpretation
 
-`Cross-Ground Feedback / Adaptation` is the strongest current next child and requires separate substantive activation.
+Current interaction is evaluation of the Feedback / Adaptation parent result only.
+
+If accepted, `Cross-Ground Feedback / Returned Influence` is the strongest first child and requires separate substantive activation.
 
 ## Guardrail
 
