@@ -2,29 +2,47 @@
 
 ## Role
 
-Current router for the accepted Transition parent. Read `STATE.md` for authorization.
+Current router for the accepted Transition / Effect / Feedback parent and its immediate-child research.
+
+Read `STATE.md` first for current authorization.
 
 ## Current checkpoint
 
-Feedback / Adaptation parent accepted. Returned Influence G0–G7 completed as a bounded leaf awaiting user evaluation. Persistent Adaptation remains inactive. No substantive child is active.
+**Feedback / Adaptation parent accepted; Returned Influence accepted bounded leaf; Persistent Adaptation recommended next / inactive.**
+
+No substantive Transition-parent child is active.
 
 ## Read order
 
-1. `STATE.md` — current frontier.
-2. `feedback-adaptation/returned-influence/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis/G7 for the current result.
-3. `feedback-adaptation/returned-influence/G6-SYNTHESIS-CHILD-DECISION.md` for the explicit parent wording delta.
-4. `feedback-adaptation/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` for accepted parent structure and remaining sibling.
-5. `feedback-adaptation/OPEN-QUESTIONS.md` and child residuals for targeted reopening.
-6. `causal-effect-contribution/STATE.md` and its Actual/Contrastive child keys when influence attribution or benefit is material.
-7. `transition-propagation/STATE.md` → KEY/synthesis when realized change and currentness are material.
-8. `KEY.md` for stable parent meaning; T0–T7/original synthesis for original parent-pass reasoning.
-9. Candidate studies only via catalog → selected META → targeted source when relevant.
-10. `CURRENT-SURFACES.md` for exact-current identity.
+1. `STATE.md` — current frontier and authorization.
+2. Accepted Returned Influence → `feedback-adaptation/returned-influence/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis/G7.
+3. Accepted Feedback / Adaptation parent → `feedback-adaptation/STATE.md` → `KEY.md` → current map.
+4. `feedback-adaptation/OPEN-QUESTIONS.md` for Persistent Adaptation research questions and reopen triggers.
+5. Accepted causal parent and its two leaves when influence attribution/benefit is material.
+6. Accepted Transition / Propagation when realized-change/currentness is material.
+7. Parent `KEY.md` and original T evidence when parent-boundary logic is material.
+8. Candidate studies only via catalog → selected META → targeted source when relevant.
+9. `CURRENT-SURFACES.md` for exact-current identity.
 
-## Historical boundary
+## Current structure
 
-The original parent plan, T0–T7, original findings map and synthesis are source snapshots of the parent pass. Their historical frontier labels do not override current STATE. Current descendant findings are recovered through the child routes above.
+```text
+Transition / Effect / Feedback                       ← accepted parent
+├─ Cross-Ground Transition / Propagation              ← accepted bounded leaf
+├─ Cross-Ground Causal Effect / Contribution           ← accepted bounded parent
+│  ├─ Actual Causal Contribution / Episode Causation    ← accepted bounded leaf
+│  └─ Contrastive / Interventional Causal Effect        ← accepted bounded leaf
+└─ Cross-Ground Feedback / Adaptation                 ← accepted bounded parent
+   ├─ Cross-Ground Feedback / Returned Influence        ← accepted bounded leaf
+   └─ Persistent Adaptation / Future-Response Change     ← recommended next / inactive
+```
+
+## Next-step orientation
+
+> **Persistent Adaptation / Future-Response Change** is the strongest next substantive Foundation child.
+
+It requires separate substantive activation. No work is active now.
 
 ## Guardrail
 
-Persistent Adaptation is recommended after evaluation and separate activation. No new descendant, architecture, ontology/data-model/schema, implementation or agent-control change is activated by this router.
+No Persistent Adaptation, new descendants, architecture, ontology/data-model/schema, implementation or agent-control work is active.
