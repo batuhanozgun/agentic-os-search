@@ -1,8 +1,48 @@
-# U06 — Yeniden yayın günlüğü
+# U06 — Yayın ve geri okuma makbuzu
 
-**2026-09-11 / Kullanıcının yeni gönderme isteği.** Bu checkpoint yalnız önceki U06 teslimini yayınlar; HERMES araştırması, probe veya model/provider çağrısı yeniden çalıştırılmaz. Güncel çalışma [STATE](../../STATE.md), özgün kanıt [MANIFEST](MANIFEST.json) ve [RESULT](RESULT.json).
+**2026-09-11 / PUBLISHED TO MAIN — CONTENT VERIFIED.** Kullanıcının “tekrar dene göndermeyi” isteğiyle önceki U06 teslimi yayımlandı. Bu tur yeni HERMES araştırması, probe, model/provider çağrısı veya bağımsız tekrar yapılmadı. [STATE](../../STATE.md) artık U06 / v0.19; bütün HERMES araştırması hâlâ ACTIVE PARTIAL RESEARCH. [RESEARCH](RESEARCH.md), [SOURCES](SOURCES.md), [MANIFEST](MANIFEST.json), [RESULT](RESULT.json).
 
-Yayın hazırlığında main yeniden `0a475b5d7c50f47689c72cd31f954f5b2303ced6` olarak okundu. Paket SHA-256 `992494f7508941b17868f4f7d402460f9f1a9b6910fc7282010b04382766a3b9`; 17 aday dosya ve 11 raw arşiv üyesi yerel hash/parse/record kontrollerini geçti. Önceki RESULT/MANIFEST yazısı bu kez kabul edildi; ara tree `f507393b1b5a71e593a1e6d1f994674944215b27`. Tree yaratılması main yayını sayılmaz. Content commit/ref ve geri okuma makbuzu doğrulamadan sonra bu üst bölüme yazılır; aşağıdaki ilk girişim metni tarihsel olarak korunur.
+## Gerçek yayın
+
+- Başlangıç ve ref güncellemesinden hemen önce okunan main: `0a475b5d7c50f47689c72cd31f954f5b2303ced6`.
+- U06 içerik commit’i: **`8779ce350b32d5a1ccee6fa48c31604dd93616cc`**; parent yukarıdaki main.
+- İçerik tree’si: `06514f4f1d377aacc9d1bafc6174b853736965be`.
+- Native compare: ahead_by=1, behind_by=0; merge-base başlangıç commit’i. **17 dosya: 10 yeni, 7 değiştirilmiş; silme/taşıma yok.**
+- `main` ref’i `force=false` ile ilerletildi. Sonrasında gerçek `git/ref/heads/main` yeniden okundu ve içerik commit’ini gösterdiği doğrulandı. Yeni branch, PR veya force push kullanılmadı.
+
+Önceki RESULT/MANIFEST create_tree engeli kullanıcının yeni denemesinde aynı işlem ve özgün içerikle açıldı; dönen ara tree `f507393b1b5a71e593a1e6d1f994674944215b27`. Başarı hükmü buna değil, tamamlanmış content commit + gerçek main ref + aşağıdaki içerik doğrulamasına dayanır. Engelin neden değiştiğine ilişkin teşhis yapılmaz.
+
+Bu makbuz, doğrulanmış içerik yayınının ardından yalnız PUBLICATION.md üzerinde yapılan kayıt güncellemesidir. Kendi gelecek commit kimliğini önceden bildiğini iddia etmez; makbuz commit’inin diff/ref/content geri okuması ayrıca yapılır. Aşağıdaki başarısız girişim metni tarihsel kayıttır, güncel yayın engeli değildir.
+
+## Teslim sadakati ve korunmuş kapsam
+
+Teslim ZIP SHA-256: `992494f7508941b17868f4f7d402460f9f1a9b6910fc7282010b04382766a3b9`. Yerel validator yalnız hash/parse/kayıt bağlarını denetledi; HERMES probe’unu çalıştırmadı. **17 aday dosya ve raw arşivdeki 11 regular üye** manifestleriyle eşleşti; native SPEC/RESULT arşiv kopyalarıyla byte-eşit kaldı.
+
+GitHub native tree/path okumalarındaki 17 dosyanın blob SHA ve byte boyutu, yerelde hesaplanan beklenen eşlemeyle tek tek karşılaştırıldı; tamamı eşleşti. **14 dosya özgün teslimle byte-eşit; yalnız STATE, evidence README ve PUBLICATION yayın durumu için uzlaştırıldı.** Araştırma metni, kaynak defteri, SPEC, RESULT, MANIFEST, raw arşiv, not21 ve kapsam dosyası yeniden yazılmış deney değildir.
+
+CATALOG eski blob `5158f67e0269eaeeebd0b2e89ea5cc6bc1de7677`, yeni blob `8483cbd792542561eef926a83fc66349dcc06a17`. HERMES satırı çıkarıldığında kalan byte’lar aynı; native compare **1 addition / 1 deletion** gösterdi. Diğer adayların satırları ve katalog rehberi değişmedi.
+
+AGENT/agent-control, Foundation, soul-context, explorations, diğer studies, HERMES METHOD, eski notes/01–20, eski evidence ve merkezi syntheses/01–03 değişen yollar arasında yoktur. U04-B original delivery subtree’si tekrar okunarak **`d01c92f7414713300934be3bb4e3d40ac57631b3`** olarak doğrulandı. U04-A README hedefi de native tree’de mevcut. Önceki yayınlar veya testler yeniden yapılacak iş sayılmadı.
+
+## İçerik kimlikleri ve doğrudan geri okuma
+
+| Yüzey | Doğrulanan içerik blob’u | Doğrulama kapsamı |
+|---|---|---|
+| STATE.md | `34a0b9894c6d05fbf5f07e50e127c0b18ab92963` | Main ref ilerledikten sonra immutable content commit’inden tam metin geri okundu; U06/v0.19, yetki, açık doğrulamalar ve cold-start yolu görüldü. |
+| RESULT.json | `4f19133cc84c6a2fa63d8ee9957b90d90a474faa` | Main sonrası tam metin; eski recorded UTC, source/SPEC/probe bağları, L/N kapsamı korundu. |
+| notes/21 | `b03c9303756e3ef6c011990aaee468569e8f6f3f` | İçerik commit’inden tam metin; main’e bağlanan aynı immutable blob. |
+| U06 coverage | `ea2871dc18e7c1b1243308ccbc11d183c48f01b7` | İçerik commit’inden tam metin; açık integration ve broad-work sınırları korundu. |
+| RESEARCH.md | `bd5e7c7eca6ea36de4cd9e6f58c4a9c3c53ce1d8` | Yerel tam okuma + native blob/boyut eşleşmesi; bu yayında uzak tam metnin yeniden okunması iddiası yok. |
+| SOURCES.md | `2827c87b896856c9eb4d48f362727e7cf7e73ca3` | Yerel tam okuma + native blob/boyut eşleşmesi. |
+| SPEC.md | `c727cd9eae94d5b3a4ee3b791c62487b04787785` | Native blob/boyut ve yerel arşiv eşitliği. |
+| MANIFEST.json | `f8f675be0b9963c07f48fdc4fa7100306d36f1f7` | Native blob/boyut, yerel parse ve üye kimlik kontrolü. |
+| diagnostic-evidence.tar.xz | `3cbd1a1d3b452af456af9ec51d32c79a79e043e2` | Native blob/boyut eşleşmesi: 10,212 byte; yerel 11 üye kontrolü. Uzak binary yeniden indirilip çalıştırılmadı. |
+
+Raw RESULT SHA-256 `04663c7528a379c27450ddc2c0d91dd2f5182a751984062aa1af5f1a58e696a0`; archive SHA-256 `2b62b7b919e5cf710601bffff88bf50a058112add94b8b85bfc038c69779f7db`. Hash doğrulaması kaynak/sonuç transferini doğrular; semantik doğruluk, actual SessionDB, gateway host, OS restart, model kalitesi veya bağımsız replication kanıtı değildir.
+
+## Yeni oturum için sonuç
+
+**U06’yı bulmak için eski sohbet ZIP’ine gerek yoktur.** Canonical STATE/INDEX/plan U06’ya, native RESULT/MANIFEST ve ham arşive yönlenir. Eski “yayımlanmadı” ifadeleri aşağıdaki ilk girişim tarihçesine aittir. Sıradaki dar teknik soru startup preclaim/carrier/drain→actual admission/receipt; actual-DB/quiet-history ve diğer açık doğrulamalar kapanmadı. Bu yayın isteği yeni teknik birimi otomatik başlatmadı.
 
 ---
 
