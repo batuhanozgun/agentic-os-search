@@ -1,7 +1,7 @@
 # Transition / Effect / Feedback — Open Questions / Reopen Triggers
 
-**Status:** bounded residuals after accepted parent + accepted Transition / Propagation + accepted Causal parent + both accepted causal children  
-**Date:** 2026-09-10  
+**Status:** bounded residuals after accepted parent + accepted Transition / Propagation + accepted Causal parent + both accepted causal children + completed Feedback / Adaptation parent research  
+**Date:** 2026-09-11  
 **Role:** residual uncertainty; NOT an automatic execution queue
 
 ## Current bounded structure
@@ -12,71 +12,78 @@ Transition / Effect / Feedback                         ← accepted parent
 ├─ Cross-Ground Causal Effect / Contribution           ← accepted bounded parent
 │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
 │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-└─ Cross-Ground Feedback / Adaptation                  ← recommended next / inactive
+└─ Cross-Ground Feedback / Adaptation                  ← BOUNDED PARENT / USER EVALUATION PENDING
+   ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
+   └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
 ```
 
 ## Completed child research
 
 ### Transition / Propagation
-
 Covers realized change, propagation, scope, timing, invalidation/currentness, recovery routing and propagation frame-blindness.
 
-### Actual Causal Contribution / Episode Causation
+### Causal Effect / Contribution
+Both immediate causal children are accepted bounded leaves.
 
-Covers effect-centered actual-cause grammar, joint/configuration causation, multiple sufficient routes, omission, causal depth, evidence/alternative discrimination and responsibility/Control/Standing boundaries.
+### Feedback / Adaptation parent
+Dedicated F0→F7 research covers:
+- observation vs returned feedback;
+- signal availability/consumption/causal influence;
+- fixed feedback versus persistent adaptation;
+- one-off response versus future-response change;
+- durable representation/Work completion versus realized adaptation;
+- delay/staleness/oscillation/stability pressure;
+- proxy/local-vs-global feedback failure;
+- feedback frame blindness;
+- recursive/meta-adaptation;
+- adaptation occurrence versus benefit/effectiveness;
+- two-child discovery.
 
-### Contrastive / Interventional Causal Effect
+Package-local residuals: `feedback-adaptation/OPEN-QUESTIONS.md`.
 
-Accepted I0→I7 research covers:
-- exact target/outcome/contrast grammar;
-- comparator identity;
-- intervention versions and intended/assigned vs realized exposure;
-- bundles/co-interventions/dynamic regimes;
-- confounding/selection/support as identification threats;
-- heterogeneity and average-to-individual boundary;
-- interference/spillover and system-regime effects;
-- source/local vs target effect;
-- transportability/generalization as evidence/invariance profile;
-- Control causal-effectiveness interface;
-- causal target vs identification/estimate/Standing boundary.
+## Current Feedback immediate-child residuals
 
-Narrow residuals/reopen triggers remain package-local.
+### Cross-Ground Feedback / Returned Influence
 
-## Remaining Feedback / Adaptation questions
+1. What evidence establishes that a consumed signal actually changed later behavior?
+2. How should multi-signal/multi-consumer/delayed loops be bounded?
+3. How should stale feedback and currentness route against Standing?
+4. How should oscillation/amplification remain visible without importing full control theory?
+5. How should missing/selected outcomes affect feedback completeness?
 
-1. What exact threshold distinguishes returned observation used once from genuine feedback?
-2. What distinguishes feedback signal availability, consumption and causal influence on later behavior?
-3. What persistence threshold distinguishes repeated response from adaptation/evolution?
-4. Can adaptation occurrence remain distinct from adaptation benefit/effectiveness?
-5. How should delayed/stale feedback, oscillation, overshoot and destabilization route against ground-local dynamics?
-6. When does a permanent eval/test/control count as system learning rather than stored information until behavior changes?
-7. How should causal feedback influence be distinguished from mere temporal sequence?
-8. Can beneficial adaptation be represented as `persistent change + causal effect + Standing` without a new region?
-9. Does adaptation require changed internal policy/model/state, changed Environment, changed Work behavior, or any durable future-response difference?
-10. Does Feedback / Adaptation itself split into feedback-loop and persistent-adaptation children?
+### Persistent Adaptation / Future-Response Change
+
+6. What persistence criterion survives different timescales?
+7. When does latent stored knowledge count only after a future behavior path consumes it?
+8. How should forgetting/reversion/supersession be represented?
+9. How should human/team adaptation be evidenced?
+10. Does Evolution or recursive self-modification become a stable third child under dedicated research?
 
 ## Parent/integration residuals
 
-11. Does Feedback/Adaptation preserve the accepted Transition/Causal boundaries?
-12. Can Control effectiveness remain a composition of Control + Contrastive Causal Effect + Standing?
-13. Does Feedback research force Evolution into a separate composition region?
-14. Does fresh transportability/interference literature later reopen Contrastive or the causal parent?
-15. Would independent second-researcher/model replication retain the current structure?
+11. Does user evaluation accept the Feedback / Adaptation two-child parent result?
+12. Do both promoted Feedback children survive dedicated passes?
+13. Can beneficial adaptation remain `persistent adaptation + Contrastive Causal Effect + Standing`?
+14. Does recursive self-improvement expose a missing Control/Authority region rather than an adaptation split?
+15. Does fresh transportability/interference literature later reopen Contrastive or the causal parent?
+16. Would independent second-researcher/model replication retain the current Transition decomposition?
 
 ## Parent reopen triggers
 
 Reopen the Transition parent if:
 - accepted Transition / Propagation later fails its ground-local boundary;
-- accepted Actual Causation later fails its causal-parent boundary;
-- accepted Contrastive Causal Effect later fails its target/identification boundary;
-- Causation becomes independent of effect/change semantics;
-- Feedback/Adaptation cannot be bounded without duplicating Control, Work or Domain Dynamics;
-- Evolution or another candidate develops an independent stable protected question;
+- accepted causal children later fail their parent boundaries;
+- Feedback / Returned Influence collapses into Information/Control;
+- Persistent Adaptation collapses safely into Work + Transition without decision-critical loss;
+- Evolution becomes a distinct stable protected question;
+- Feedback/Adaptation requires a new Transition sibling;
 - a materially different domain repeatedly breaks the current decomposition;
 - independent replication identifies a superior structure.
 
 ## Current sequencing note
 
-> **Cross-Ground Feedback / Adaptation** is the strongest next substantive child and requires separate activation.
+If user evaluation accepts `Cross-Ground Feedback / Adaptation`:
 
-No Feedback/Adaptation, architecture, ontology/data-model/schema or implementation work is authorized by this note.
+> **Cross-Ground Feedback / Returned Influence** is the strongest first child and requires separate activation.
+
+No immediate-child research, architecture, ontology/data-model/schema or implementation work is authorized by this note.
