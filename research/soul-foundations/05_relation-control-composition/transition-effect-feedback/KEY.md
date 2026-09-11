@@ -1,107 +1,82 @@
 # Transition / Effect / Feedback — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** parent accepted; Transition / Propagation accepted; Causal parent + both causal children accepted; Feedback / Adaptation bounded parent / awaiting user evaluation  
-**Date:** 2026-09-11
+**Updated:** 2026-09-11  
+**Status:** accepted parent; Returned Influence result awaiting evaluation. Read `STATE.md` for current authorization.
 
-## Current structure
+## Research structure
 
 ```text
 Transition / Effect / Feedback
-├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
-├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-│  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-│  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-└─ Cross-Ground Feedback / Adaptation           ← BOUNDED PARENT / USER EVALUATION PENDING
-   ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
-   └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
+├─ Cross-Ground Transition / Propagation
+├─ Cross-Ground Causal Effect / Contribution
+│  ├─ Actual Causal Contribution / Episode Causation
+│  └─ Contrastive / Interventional Causal Effect
+└─ Cross-Ground Feedback / Adaptation
+   ├─ Cross-Ground Feedback / Returned Influence
+   └─ Persistent Adaptation / Future-Response Change
 ```
 
-The Transition parent remains accepted and is **not a leaf**.
+These are diagnostic research questions, not disjoint event classes or implementation components. Ground-local dynamics remain Environment-local.
 
 ## Accepted prerequisites
 
-### Transition / Propagation
+Transition / Propagation asks what exact change became real/effective and how it propagated. It is an accepted bounded leaf.
 
-> What exact change became real/effective and how did it propagate?
+The accepted Causal parent distinguishes actual contributors to one realized episode from target-outcome differences under defined alternatives. Both causal children are accepted bounded leaves. Causal contribution is not responsibility by identity; causal targets are not their estimates or evidence-sufficiency qualifications.
 
-### Causal Effect / Contribution
+## Feedback / Adaptation parent
+
+The two-child parent was user-endorsed and accepted on 2026-09-11. Feedback return and persistent future-response change remain distinct and non-coextensive questions.
+
+Returned Influence now has dedicated G0–G7 research. Persistent Adaptation remains inactive.
+
+## Current Returned Influence result
+
+`feedback-adaptation/returned-influence/KEY.md` → findings map → synthesis/G7.
+
+The bounded-leaf result preserves one reference-relative operative-return grammar, without new immediate children. It explicitly distinguishes:
 
 ```text
-Actual Causation
-→ what actually contributed to this realized episode?
+return path exists
+!= active coupling/use
+!= particular-signal causal contribution
+!= downstream execution/target effect
 
-Contrastive Causal Effect
-→ how would target outcomes differ under X versus X'?
+unchanged output != no feedback
+unchanged output != proof of feedback use
+any information influence != relevant feedback return
 ```
 
-Both causal children are accepted bounded leaves.
+Hold, continuation or inhibition can be an informed response. Visible mutation after each observation is not universally required. Conversely, no-change behavior cannot establish operative use by itself.
 
-## Current Feedback / Adaptation result
+These narrow refinements are part of the child result awaiting user evaluation. Original parent-pass artifacts are retained so the change from earlier shorthand remains visible.
 
-Dedicated F0→F7 research did not close this sibling as a leaf.
+## Persistent Adaptation — remaining inquiry
 
-```text
-Cross-Ground Feedback / Adaptation
-├─ Cross-Ground Feedback / Returned Influence
-└─ Persistent Adaptation / Future-Response Change
-```
-
-Critical distinction:
+The sibling asks whether feedback/history produces a durable difference in future materially comparable responses, where it is realized, and how it is retained, forgotten or superseded.
 
 ```text
-feedback loop != persistent adaptation
-```
-
-### Feedback / Returned Influence
-
-> Did a prior/current outcome produce a returned signal that reached a later consumer and causally influenced a subsequent action, decision, control or transition?
-
-```text
-observation != feedback
-signal available != consumed
-consumed != causally influential
-```
-
-### Persistent Adaptation / Future-Response Change
-
-> Did feedback/history produce a durable change in how the system responds to future materially comparable situations?
-
-```text
-one-off response != adaptation
-repeated fixed response != adaptation
+one-off response != persistent adaptation
 stored lesson != adaptation
-adaptation Work complete != adaptation realized
+improvement Work complete != adaptation realized
+adaptation occurrence != causal benefit
 ```
 
-## Benefit/stability boundary
+Its dedicated pass has not begun. It is the recommended next inquiry after evaluation and separate activation.
+
+## Frame, authority and effectiveness
 
 ```text
-feedback/adaptation occurred
-!= stable/safe
-!= beneficial/effective
+all received signals handled != all material outcomes observed
+influential signal != accurate/authoritative signal
+internal agreement != independent corroboration
+local/proxy improvement != intended/system improvement
+feedback/adaptation occurred != stable/safe/beneficial
 ```
 
-Benefit/effectiveness remains Causal Effect + Standing-facing.
-
-## Frame guardrail
-
-```text
-all observed signals handled
-!= all material outcomes observed
-
-local/proxy objective improved
-!= intended/global target improved
-```
-
-## Current sequencing recommendation
-
-If user evaluation accepts the Feedback / Adaptation parent result:
-
-> **Cross-Ground Feedback / Returned Influence** should be the first immediate-child pass.
-
-Do not activate automatically.
+Control retains governing authority and enforcement semantics; Causal Effect and Standing retain benefit/effectiveness and qualification questions.
 
 ## Verification boundary
 
-F7 is same-model adversarial review. WHO, FAA, NIST, NASA and Google SRE supplied external pressure; gstack and Anthropic supplied candidate-system pressure. No independent second-model/researcher replication validates the exact two-child synthesis.
+All closure adversarial reviews remain same-model. G7 adds fresh primary-source pressure and seven constructed logical checks, not live-agent efficacy or independent replication. Prior causal literature-access limitations are not retroactively resolved.
