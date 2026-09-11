@@ -2,39 +2,40 @@
 
 ## Role
 
-Current router for the accepted parent and its child research. Read `STATE.md` first for authorization and evaluation status.
+Current router for the accepted Feedback / Adaptation parent and its immediate children.
 
-## Current checkpoint
+Read `STATE.md` first for current authorization.
 
-Parent accepted; Returned Influence G0–G7 complete as a bounded leaf awaiting user evaluation; Persistent Adaptation inactive. No substantive child is active.
+## Current status
+
+**PARENT ACCEPTED; RETURNED INFLUENCE ACCEPTED BOUNDED LEAF; PERSISTENT ADAPTATION RECOMMENDED NEXT / INACTIVE.**
+
+No substantive child is active.
 
 ## Preferred read order
 
-1. `STATE.md` — current frontier and stop.
-2. `KEY.md` — parent questions and current child refinement route.
-3. `returned-influence/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → G7 for the current result.
-4. `returned-influence/G6-SYNTHESIS-CHILD-DECISION.md` for the exact parent wording delta.
-5. `FINDINGS-MAP.md` — original parent-pass recovery plus current child results.
-6. `OPEN-QUESTIONS.md` and child residuals for unresolved/reopen questions.
-7. `returned-influence/SOURCE-LEDGER.md` for fresh source scope, partial access and exact input versions.
-8. `synthesis/FEEDBACK-ADAPTATION-SYNTHESIS.md`, F6/F7 and F0–F5 for original parent reasoning when material.
-9. Parent `../STATE.md` and accepted causal/propagation sibling routes as needed.
-10. `CURRENT-SURFACES.md` for exact file identity.
+1. `STATE.md` — current structure, authorization and next responsibility.
+2. Accepted Returned Influence → `returned-influence/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → G7.
+3. Returned Influence residuals → `returned-influence/OPEN-QUESTIONS.md` only when reopen conditions are material.
+4. Parent `KEY.md` / current findings map for accepted two-child semantics.
+5. Original F0–F7 and parent synthesis only for original parent-pass reasoning; their historical frontier labels do not override current state.
+6. Accepted causal children when causal attribution/effectiveness is material.
+7. `CURRENT-SURFACES.md` for exact freshness.
 
-## Historical/current boundary
-
-Original F0–F7, their synthesis and the completed parent PLAN are preserved parent-pass snapshots. Their old pending/next-step sentences do not carry current authorization. The newly refined return-reference, operative-hold and partial-effect distinctions are in the Returned Influence package; do not silently attribute them to the original pass.
-
-## Structure
+## Current structure
 
 ```text
-Cross-Ground Feedback / Adaptation
-├─ Cross-Ground Feedback / Returned Influence
-└─ Persistent Adaptation / Future-Response Change
+Cross-Ground Feedback / Adaptation                  ← accepted bounded parent
+├─ Cross-Ground Feedback / Returned Influence         ← accepted bounded leaf
+└─ Persistent Adaptation / Future-Response Change      ← recommended next / inactive
 ```
 
-Current status for each is in STATE, not inferred from this semantic tree.
+## Next-step orientation
+
+> **Persistent Adaptation / Future-Response Change** is the strongest next substantive Foundation child.
+
+It requires separate activation in a new session. No substantive work is active now.
 
 ## Guardrail
 
-After evaluation, Persistent Adaptation is the current recommended candidate; it is not automatically activated. No architecture, ontology/data-model/schema, implementation or agent-control change is authorized by this router.
+No Persistent Adaptation, new descendants, architecture, ontology/data-model/schema, implementation or agent-control work is active.
