@@ -1,8 +1,8 @@
 # Transition / Effect / Feedback — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** parent accepted; Transition / Propagation accepted; Causal Effect / Contribution accepted; both causal children accepted  
-**Date:** 2026-09-10
+**Status:** parent accepted; Transition / Propagation accepted; Causal parent + both causal children accepted; Feedback / Adaptation bounded parent / awaiting user evaluation  
+**Date:** 2026-09-11
 
 ## Current structure
 
@@ -12,64 +12,96 @@ Transition / Effect / Feedback
 ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
 │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
 │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-└─ Cross-Ground Feedback / Adaptation           ← recommended next / inactive
+└─ Cross-Ground Feedback / Adaptation           ← BOUNDED PARENT / USER EVALUATION PENDING
+   ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
+   └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
 ```
 
-The Transition parent is accepted and is **not a leaf**.
+The Transition parent remains accepted and is **not a leaf**.
 
-## Parent routing boundary
+## Accepted prerequisites
+
+### Transition / Propagation
+
+> What exact change became real/effective and how did it propagate?
+
+### Causal Effect / Contribution
 
 ```text
-ground-local dynamics
-!= cross-ground Transition / Effect / Feedback
+Actual Causation
+→ what actually contributed to this realized episode?
+
+Contrastive Causal Effect
+→ how would target outcomes differ under X versus X'?
 ```
 
-## Accepted Transition / Propagation
+Both causal children are accepted bounded leaves.
 
-> What exact change actually became real/effective across accepted-ground boundaries, for which anchors/scopes/times, and how fully did it propagate or fail to propagate?
+## Current Feedback / Adaptation result
 
-## Accepted Causal parent
-
-Critical split:
+Dedicated F0→F7 research did not close this sibling as a leaf.
 
 ```text
-What would X do to Y?
-!=
-Did X cause this observed Y?
+Cross-Ground Feedback / Adaptation
+├─ Cross-Ground Feedback / Returned Influence
+└─ Persistent Adaptation / Future-Response Change
 ```
 
-### Accepted Actual Causation
+Critical distinction:
 
 ```text
-joint causal configuration != independent cause edges
-chronology != actual causation
-but-for necessity != universal causal criterion
-causal contribution != responsibility/accountability
+feedback loop != persistent adaptation
 ```
 
-### Accepted Contrastive / Interventional Causal Effect
+### Feedback / Returned Influence
+
+> Did a prior/current outcome produce a returned signal that reached a later consumer and causally influenced a subsequent action, decision, control or transition?
 
 ```text
-causal effect identity
-= outcome + target + X vs X' + applicability frame
-
-intended/assigned intervention != realized/received intervention
-average effect != individual effect
-source/local effect != target effect
-causal target defined != identifiable != estimated != decision-sufficient
-Control implemented/complied-with != Control causally effective
+observation != feedback
+signal available != consumed
+consumed != causally influential
 ```
 
-## Remaining sibling — Feedback / Adaptation
+### Persistent Adaptation / Future-Response Change
 
-> Did observations/results return across ground boundaries to alter later behavior, and did that influence become persistent system change?
+> Did feedback/history produce a durable change in how the system responds to future materially comparable situations?
+
+```text
+one-off response != adaptation
+repeated fixed response != adaptation
+stored lesson != adaptation
+adaptation Work complete != adaptation realized
+```
+
+## Benefit/stability boundary
+
+```text
+feedback/adaptation occurred
+!= stable/safe
+!= beneficial/effective
+```
+
+Benefit/effectiveness remains Causal Effect + Standing-facing.
+
+## Frame guardrail
+
+```text
+all observed signals handled
+!= all material outcomes observed
+
+local/proxy objective improved
+!= intended/global target improved
+```
 
 ## Current sequencing recommendation
 
-> **Cross-Ground Feedback / Adaptation** is the strongest next immediate child.
+If user evaluation accepts the Feedback / Adaptation parent result:
+
+> **Cross-Ground Feedback / Returned Influence** should be the first immediate-child pass.
 
 Do not activate automatically.
 
 ## Verification boundary
 
-Transition T7, Transition/Propagation P7, Causal E7, Actual A7 and Contrastive I7 are same-model adversarial reviews. Fresh public-web retrieval failed during the Contrastive pass, and no independent second-researcher/model replication validates the exact current hierarchy.
+F7 is same-model adversarial review. WHO, FAA, NIST, NASA and Google SRE supplied external pressure; gstack and Anthropic supplied candidate-system pressure. No independent second-model/researcher replication validates the exact two-child synthesis.
