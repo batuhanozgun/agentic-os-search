@@ -47,7 +47,7 @@ Cross-Ground Feedback / Adaptation                 ← BOUNDED PARENT / USER EVA
 |---|---|---|
 | Foundation state | `../STATE.md` | `f995b2beacfb2dc55a3cc09e404e629f1c22a27a` |
 | Foundation router | `../INDEX.md` | `28c77a9285d29806e01e8bb40ee4baa29046f92f` |
-| Foundation README orientation | `../README.md` | `f5d5c1649bd1050ddbda800a3ba71266f1b2e1dd` (README may be refreshed after this manifest) |
+| Foundation README orientation | `../README.md` | `e93228ed62590c20898ac14f06b94429945b3967` |
 
 ## Current bounded state
 
