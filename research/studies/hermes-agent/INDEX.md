@@ -1,20 +1,22 @@
 # Hermes Agent — INDEX
 
-Current Work/completion authority [STATE](STATE.md); classification/reuse [META](META.md); method [METHOD](METHOD.md); current plan [v0.17](RESEARCH-PLAN.md). Bu router bağımsız çalışma yetkisi değildir. V0.17 ayrı U04 teslimini uzlaştırır, yeni araştırma/deney değildir.
+Current Work/completion authority [STATE](STATE.md); classification/reuse [META](META.md); method [METHOD](METHOD.md); current plan [v0.18](RESEARCH-PLAN.md). Bu router bağımsız çalışma yetkisi değildir. V0.18 U05 source consumer araştırmasıdır; yeni HERMES execution değildir. U04-A/B yayın kapanışı korunur.
 
 ## Güncel açıklama ve kanıt yolları
 
 | Soru | İlk okuma |
 |---|---|
-| Kalıcı iş, devam kararı ve yeni tur nasıl birleşir? | [synthesis/03](synthesis/03-PERSISTENT-WORK-AND-CONTINUATION-PROVISIONAL.md) → [18/U04-A](notes/18-MULTI-TURN-GOAL-LOOP-AND-HEARTBEAT.md) |
-| Bekleyen 21-durumlu teslim nerede, diğer U04 ile farkı ne? | **[19/U04-B](notes/19-U04-DELIVERY-RECONCILIATION.md)** → [README](evidence/2026-09-11-multiturn/README.md) → [RECONCILIATION](evidence/2026-09-11-multiturn/RECONCILIATION.md) |
+| Devam hangi lease/history ile kabul edilir; rotation/restart'ta nasıl yeniden çalışabilir? | **[20/U05](notes/20-SESSION-LEASE-HISTORY-AND-RECOVERY.md)** → [RESEARCH](evidence/2026-09-11-session-lease-recovery/RESEARCH.md) → [SOURCES](evidence/2026-09-11-session-lease-recovery/SOURCES.md) |
+| U05 neyi çalıştırmadı, sonraki ayırıcı kontrol ne? | [CHECKS-NOT-RUN](evidence/2026-09-11-session-lease-recovery/CHECKS-NOT-RUN.md), [coverage eklemesi](inventory/LEASE-RECOVERY-COVERAGE-2026-09-11.md) |
+| Kalıcı iş, devam kararı ve yeni tur nasıl birleşir? | [synthesis/03](synthesis/03-PERSISTENT-WORK-AND-CONTINUATION-PROVISIONAL.md) → [18/U04-A](notes/18-MULTI-TURN-GOAL-LOOP-AND-HEARTBEAT.md) → **20/U05 source amendment** |
+| Önceden bekleyen 21-durumlu teslim nerede, diğer U04 ile farkı ne? | [19/U04-B](notes/19-U04-DELIVERY-RECONCILIATION.md) → [README](evidence/2026-09-11-multiturn/README.md) → [RECONCILIATION](evidence/2026-09-11-multiturn/RECONCILIATION.md); yayın tamamlanmış iş |
 | A'nın 15 grubu ve tam ham girdileri? | [A SPEC](evidence/2026-09-11-multi-turn-continuity/SPEC.md), [A SOURCES](evidence/2026-09-11-multi-turn-continuity/SOURCES.md), [A raw archive](evidence/2026-09-11-multi-turn-continuity/diagnostic-evidence.tar.xz); [summary](evidence/2026-09-11-multi-turn-continuity/RESULT-SUMMARY.json) yalnız gezinme |
 | B'nin 21 durumu ve tam ham girdileri? | [B SPEC](evidence/2026-09-11-multiturn/delivery/evidence/SPEC.md), [B RESULT](evidence/2026-09-11-multiturn/delivery/evidence/RESULT.json), [B probe](evidence/2026-09-11-multiturn/delivery/evidence/probe.py), [33-file manifest](evidence/2026-09-11-multiturn/DELIVERY-MANIFEST.json) |
 | Bir normal girdi bağlam, yürütme, kayıt ve teslime nasıl dönüşür? | [synthesis/02](synthesis/02-TURN-CONTEXT-AND-SESSION-PROVISIONAL.md) → [16/U02](notes/16-GENERAL-TURN-CONTEXT-AND-SESSION.md) |
 | Kalıcı task/run/claim ve terminal kabul? | [17/U03](notes/17-KANBAN-TASK-CLAIM-AND-ACCEPTANCE.md) → [RESEARCH](evidence/2026-09-10-kanban-task/RESEARCH.md), [SOURCES](evidence/2026-09-10-kanban-task/SOURCES.md) |
 | Öğrenme/değişim bu çekirdekte nasıl yer alır? | [synthesis/01](synthesis/01-LEARNING-AND-CHANGE-PROVISIONAL.md); normal compaction karşı okuması için 02/U02 |
-| Sonraki iş ne? | [STATE](STATE.md) ve [PLAN](RESEARCH-PLAN.md): actual turn facade lease/history/SessionDB, ardından gerekli rotation/restart driver bağı |
-| Bütün sistem tamamlandı mı? | Hayır; [CONTINUITY-COVERAGE](inventory/CONTINUITY-COVERAGE-2026-09-11.md), [CORE-COVERAGE](inventory/CORE-COVERAGE-2026-09-10.md), [OPEN-QUESTIONS](OPEN-QUESTIONS.md) |
+| Sonraki iş ne? | [STATE](STATE.md)/[PLAN](RESEARCH-PLAN.md): actual messages selector/guard/next-history; sonra startup/adapter ve persisted in-flight recovery |
+| Bütün sistem tamamlandı mı? | Hayır; [U05 coverage](inventory/LEASE-RECOVERY-COVERAGE-2026-09-11.md), [CONTINUITY-COVERAGE](inventory/CONTINUITY-COVERAGE-2026-09-11.md), [CORE-COVERAGE](inventory/CORE-COVERAGE-2026-09-10.md), [OPEN-QUESTIONS](OPEN-QUESTIONS.md) |
 
 ## Mekanizma ve tarihsel kayıtlar
 
@@ -39,10 +41,13 @@ Current Work/completion authority [STATE](STATE.md); classification/reuse [META]
 | Kanban task/run/claim/acceptance | [17](notes/17-KANBAN-TASK-CLAIM-AND-ACCEPTANCE.md), [U03 archive](evidence/2026-09-10-kanban-task/original-evidence.tar.xz), [recovery](evidence/2026-09-10-kanban-task/PUBLICATION.md) |
 | U04-A çok turlu kaynak/model | [18](notes/18-MULTI-TURN-GOAL-LOOP-AND-HEARTBEAT.md), [A RESEARCH](evidence/2026-09-11-multi-turn-continuity/RESEARCH.md) |
 | U04-B ayrı teslim yayını | [19](notes/19-U04-DELIVERY-RECONCILIATION.md), [B RESEARCH](evidence/2026-09-11-multiturn/delivery/RESEARCH.md), [B SOURCES](evidence/2026-09-11-multiturn/delivery/SOURCES.md) |
+| U05 session lease/history/recovery | [20](notes/20-SESSION-LEASE-HISTORY-AND-RECOVERY.md), [U05 RESEARCH](evidence/2026-09-11-session-lease-recovery/RESEARCH.md), [U05 SOURCES](evidence/2026-09-11-session-lease-recovery/SOURCES.md) |
 | Kapsam/kanıt rotası | [SCOPE-REVIEW](inventory/SCOPE-REVIEW-2026-09-10.md), [SOURCE-LEDGER](SOURCE-LEDGER.md), [OPEN-QUESTIONS](OPEN-QUESTIONS.md) |
 
 ## Yeni oturum için ayrımlar
 
-U04-A/B etiketleri yalnız iki U04 paketini ayırır; eski UI/A ile karıştırılmaz. B'nin `delivery/repo-updates/` içindeki v0.16, note18, synthesis03 ve Q40–Q45 önerileri historical candidate dosyalardır. Onlar current root dosyalarının yerine uygulanmadı; current soru eşlemesi RECONCILIATION'dadır. Özgün metinlerin “yayımlanmadı” cümlesi tek başına güncel yayın engeli değildir.
+U04-A/B etiketleri yalnız iki U04 paketini ayırır; eski UI/A ile karıştırılmaz. B'nin delivery/repo-updates/ içindeki v0.16, note18, synthesis03 ve Q40–Q45 önerileri historical candidate dosyalardır. Current root dosyalarının yerine uygulanmadı; soru eşlemesi RECONCILIATION'dadır. Özgün metinlerin 'yayımlanmadı' cümlesi tek başına güncel yayın engeli değildir.
 
-Kayıtlar hash/byte düzeyinde korunur; bu yeni davranış deneyi veya independent replication değildir. Tam heartbeat kimliği, seçili Kanban'ın parent sadakatini veya full SessionDB/OS/driver/model doğruluğunu sağlamaz. A:S10 history substitution korunur, actual lower lease açık. Q07/Q22 normal compaction→API-message source bağı, M4 artificial V04 sırasının gerçek compression bug'ı olmadığı sınırı ve Q26/Q29 full-worker/original borcu sürer. Üç merkezi sentez provisional; nihai CORE/dört-alan/adoption yoktur.
+A/B hash/byte kapsamları yeni source okuması veya independent replication değildir. Tam heartbeat kimliği, seçili Kanban'ın parent sadakatini veya full SessionDB/OS/driver/model doğruluğunu sağlamaz. U05, A:S10 history substitution'ı immediate/waited/rotation koşullarına ayırır; eski lower facade engeli açıldı, actual messages consumer'ın devamı açık kaldı. Synthesis/03 bu nedenle 20 ile birlikte okunur.
+
+Q07/Q22 normal compaction→API-message source bağı, M4 artificial V04 sırasının gerçek compression bug'ı olmadığı sınırı ve Q26/Q29 full-worker/original borcu sürer. Üç merkezi sentez provisional; nihai CORE/dört-alan/adoption yoktur. U05 CHECKS-NOT-RUN yapılmış deney değildir.

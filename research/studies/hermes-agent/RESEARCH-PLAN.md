@@ -1,33 +1,39 @@
 # Hermes Agent — Araştırma planı
 
-**v0.17 / 2026-09-11 — U04-A/B publication reconciliation.** Work authority [STATE](STATE.md), yöntem/kapanış [METHOD](METHOD.md). [V0.16 exact plan](https://github.com/batuhanozgun/agentic-os-search/blob/a0585203ca0a2bdd1cc8441aa152d7e4a72128cf/research/studies/hermes-agent/RESEARCH-PLAN.md) korunur. Bu revizyon yeni araştırma veya yeni deney değil, ayrı U04 tesliminin kaydıdır.
+**v0.18 / 2026-09-11 — U05 session lease/history/recovery source study.** Work authority [STATE](STATE.md), yöntem/kapanış [METHOD](METHOD.md). [V0.17 exact plan](https://github.com/batuhanozgun/agentic-os-search/blob/ac3cac0139dbfd6bd86773549c93172abcea4484/research/studies/hermes-agent/RESEARCH-PLAN.md) ve onun tarihsel zinciri korunur. Bu revizyon yeni kaynak araştırmasıdır; yeni HERMES deney koşusu değildir.
 
 ## 1. Hedef ve düzey
 
-Primary `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`, manifest 0.21.0; current release değildir. Önce HERMES-native mekanizmalar/sistem ilişkileri, sonra dört-alan ve SOUL/Development OS. Üç merkezi provisional sentez learning/change, turn/context/session ve persistent work/continuation alanındadır. B'nin paket-local sentezi dördüncü tamamlanmış katman değildir; genel sistem hâlâ kısmi.
+Primary `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`, manifest 0.21.0; current release değildir. Önce HERMES-native mekanizmalar/sistem ilişkileri, sonra dört-alan ve SOUL/Development OS. Üç merkezi provisional sentez learning/change, turn/context/session ve persistent work/continuation alanındadır. B'nin paket-local sentezi veya U05 not20 dördüncü tamamlanmış model değildir; genel sistem hâlâ kısmi.
 
-## 2. Bu revizyonda değişen
+## 2. U05'te yapılan — tekrar iş sayma
 
-[19](notes/19-U04-DELIVERY-RECONCILIATION.md), 33 özgün dosyalı [U04-B teslimini](evidence/2026-09-11-multiturn/README.md) mevcut [U04-A/18](notes/18-MULTI-TURN-GOAL-LOOP-AND-HEARTBEAT.md) ile uzlaştırır. A: 15 grup ve farklı probe/SPEC/raw kimliği. B: 21 durum ve ayrı recorded run. Ortak G/H numaraları yeniden adlandırılmadan package-qualified kullanılır; toplam test/başarı puanı veya bağımsız replication üretilmez.
+[20](notes/20-SESSION-LEASE-HISTORY-AND-RECOVERY.md), [SOURCES](evidence/2026-09-11-session-lease-recovery/SOURCES.md), [RESEARCH](evidence/2026-09-11-session-lease-recovery/RESEARCH.md). Önceki facade-lease source429 açıldı. Actual admission'ın new/immediate/waited ayrımı; real DB root-key claim/refresh/release; quiet caller/prolog history propagation; transitive tip recovery; atomic transcript publication; afterward loop meta save/clear→real set_meta/_execute_write; gateway loop scan/in-flight ve heartbeat watch source bağı araştırıldı.
 
-B:H08/H09 normal/migration-write-fault kaydı Q41'e ek sınırlı girdi, A:S10 facade/history ise Q40'ın korunmuş ilk girişidir. B'nin eski `repo-updates/` dosyaları current authority yerine konmaz; mevcut synthesis/03 ve A evidence değişmez. [Uzlaştırma](evidence/2026-09-11-multiturn/RECONCILIATION.md) eski aday soru numaralarını canonical Q40–Q45'e eşler. Bu yayında hiçbir probe veya model çağrısı çalıştırılmadı.
+Q40, evrensel history reload varsayımından koşullu telafiler ve caller responsibility'ye daraldı. Q41'de actual transcript transaction ile loop-state transfer transaction'ları ayrıldı. Q42'de persisted state ile canlı watcher/route, özellikle awaiting_response gate'i ayrıldı. Bunlar source-inspected sonuçlar; actual source+DB integration veya process-restart reproducer yapılmadı. [NOT RUN kontrol tasarımı](evidence/2026-09-11-session-lease-recovery/CHECKS-NOT-RUN.md) future work'tür.
 
-## 3. İlk sonraki araştırma — v0.16 sırası korunuyor
+U04-A/18 ve U04-B/19 zaten yayımlanmış iki ayrı kayıttır. B'nin 33 özgün dosyası, A/B raw/probe/SPEC kimlikleri ve merkezi syntheses/01–03 değişmedi. Aynı G/H numaraları package-qualified kullanılır; test/başarı puanı veya independent replication çıkarılmaz. B delivery/repo-updates current authority değildir.
 
-**Soru:** Devam istemi hangi actual session lease/history ile kabul edilir; rotation/restart sonrası manager durumu ile canlı route/driver/queue nasıl recover edilir?
+## 3. İlk sonraki bounded consumer birimi
 
-Başlangıç `agent/turn_facade.py::run_conversation` → `agent/turn_facade_lease.py::admit_durable_turn_lease` → gerçek SessionDB/history tüketicileri. A:S10, caller history'sinin admission tarafından değiştirilebildiğini gösterir; simple same-session veya history-loss hükmü verilmez. Ardından gerekli state_meta get/set/save/child-copy/parent-clear ve watcher/in-flight tick recovery yolları bağlanır. B'nin fixture migration kanıtı bu gerçek consumer'ların yerine geçmez.
+**Soru:** Actual DB/history/fence tüketicisi ordinary continuation'ın bağlamını nasıl tamamlar veya reddeder; saved in-flight continuation yeni process/driver'da hangi admission/receipt ile yeniden gerçek işe dönüşür?
 
-Çıktı/durma ölçütü: normal bir continuation'ın history seçimi ve çalışma hakkı; bir interruption/rotation/restart yolunda kalıcı kayıt, live manager, route/driver ve tick'in kabul/red/telafi ilişkileri kaynakla açıklanabilmeli. Sadece saved JSON, helper True, aynı session ID veya test adedi yeterli değildir. Bütün database/OS fault matrisi ön koşul yapılmaz.
+**A — mevcut source frontier:** primary `hermes_state_messages.py` continuation. 1–215 okundu, 210–375 429 ile durdu. Gerçek resolve_resume_session_id/get_messages_as_conversation ve holder-write guard/append/flush çağrıları okunmalı. S01 artık unreadable diye tekrar baştan bir keşif işi yapılmaz; mekanizma U05'ten geri kazanılır, değişim/yük taşıyan ihtiyaç kadar yeniden okunur.
 
-Gerekli offline test gerçek consumer+DB sınırına yönelmeli. Ürün kurulumu, model/provider/credential veya başka repository'ye sessiz genişleme yoktur. 429 yeni turda tekrar kontrol edilir; erişim sürmezse kenar source-blocked kalır, seri retry/kısıt dolaşma yerine bağımsız açıklanabilir kenar seçilir. Aynı G/H/K fixture'larını çoğaltmak driver coverage değildir.
+**B — Q40 ayırıcı trace:** quiet first/next result messages, caller history, admission output, DB rows ve actual next-consumer/request history ayrı gözlenmeli. Immediate/no-rotation, waited reload ve stale-parent recovery karşılaştırılmalı. Bu trace için model taklit edilebilir ama history/admission/DB mekanizmasını taklit edip beklenen sonucu testin üretmesi kabul edilmez. Kaynak/bağımlılıklar yeterli değilse source-only sonuç korunur, fake actual DB diye sunulmaz.
 
-## 4. Geniş kapsam ve yeniden açma
+**C — Q42 driver recovery:** actual gateway/run_startup watcher launch; command/adapter/FIFO acceptance ve completion/abandon; restored loop awaiting_response; heartbeat registration ve rotation watch rebind. Sadece LoopManager yeniden oluşturmak actual process restart değildir. Normal adapter return otomatik 'turn işlendi' receipt'i değildir. Bu consumer'larla gerekli goal/heartbeat migration ve DB/profile kimlikleri Q41 altında bağlanır.
 
-[CONTINUITY-COVERAGE](inventory/CONTINUITY-COVERAGE-2026-09-11.md) ile [U02 broad map](inventory/CORE-COVERAGE-2026-09-10.md) korunur. Q40 ilk, gerekli Q41/Q42 bağları ardından; Q43 lower ownership/cancel, Q44 güçlü verification/revision reuse gerektiğinde yeniden açılır. B'den korunan Q45 loop stop/count/condition ayrımı genel source question'dır.
+**Durma ölçütü:** en az bir normal continuation ve bir interruption/rotation/restart karşı yolunda history, çalışma hakkı, persisted state ve canlı driver'ın kabul/red/telafi ilişkileri açık kaynak/ölçüm kapsamlarıyla açıklanmalı. Sadece saved JSON, helper True, session ID, elapsed time veya test adedi yeterli değildir. Bütün DB/OS fault matrisi ön koşul yapılmaz.
 
-U03/K ve U04 manuel seçkilerin full-parent fidelity borcu ayrı; tam heartbeat hash eşleşmesi onları kapatmaz. Q26/Q29 full-worker/original, Q07/Q22 final wire/timing/variants, actual model quality ve OS/artifact/delivery açık kalır. Provider/backend/delegation, cron/scheduler, diğer UI/install/update/eval, skill-ledger/sync/quality aileleri yeni kanıtla yeniden önceliklenir. Bütün otomasyon Kanban'a veya kalıcı iş yalnız cron'a indirgenmez.
+## 4. Sınırlar ve yön değiştirme
+
+Kaynak erişimi yeni oturumda yeniden değerlendirilebilir; yine 429 varsa seri retry veya kısıt dolaşma yerine açıklanamayan kenar kaydedilir. Ürün kurulumu, model/provider/credential, başka repository, ağ/izin ayarı veya mimari değişimine sessiz genişleme yoktur. Eski G/H/K reduced fixture'larını çoğaltmak driver coverage değildir.
+
+[U05 coverage eklemesi](inventory/LEASE-RECOVERY-COVERAGE-2026-09-11.md), [U04 coverage](inventory/CONTINUITY-COVERAGE-2026-09-11.md) ve [U02 broad map](inventory/CORE-COVERAGE-2026-09-10.md) birlikte kullanılır. U05 source consumer birimi yeterince açıklanınca F01–F12 haritası yeniden önceliklendirilir; araştırma süresiz olarak lease/fault köşesine kapanmaz. Q43 gerçek task-run ownership/cancel/fence; Q44 strong verification/revision reuse; Q45 loop stop/count/condition ayrımı kapsamda kalır.
+
+Q38 selected-parent byte/AST fidelity; Q26/Q29 full-worker/original; Q07/Q22 final wire/timing/variants; actual model-quality ve OS/artifact/delivery açık. Provider/backend/delegation, cron/scheduler, diğer UI/install/update/eval, learning/skill-ledger/sync/quality aileleri korunur. Bütün otomasyon Kanban'a veya kalıcı iş yalnız cron'a indirgenmez.
 
 ## 5. Yayın ve yetki
 
-Bu tur yalnız HERMES study ve HERMES catalog row. Eski evidence/not/syntheses korunur; Foundation/control/context/Codex/upstream/adoption değişmez. 33 özgün B dosyası native Git tree olarak korunur; yeni wrapper/manifest/uzlaştırma ve current entry'ler onu keşfettirir. Güncel main parent korunur, scoped diff karşılaştırılır, ref non-force ilerler, main/content geri okunur. Yeni araştırma, kayıtlı eski koşu ve yayın doğrulaması ayrı raporlanır.
+Yalnız HERMES study ve HERMES catalog row değişir. Eski evidence/not/syntheses, Foundation/control/context/Codex/upstream/adoption değişmez. Yayın öncesi main tekrar okundu ve ac3cac tabanı değişmemişti. Scoped tree/commit hazırlanır, main ref non-force ilerletilir; actual main, içerik ve diff geri okunarak doğrulanır. Kaynak araştırması, tarihsel kayıtlı koşular ve yayın doğrulaması ayrı raporlanır.
