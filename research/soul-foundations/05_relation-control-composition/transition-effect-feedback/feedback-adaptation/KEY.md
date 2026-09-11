@@ -1,124 +1,69 @@
 # Cross-Ground Feedback / Adaptation — KEY
 
-**Document role:** CURRENT_L0  
-**Status:** BOUNDED PARENT RESULT / AWAITING USER EVALUATION  
-**Date:** 2026-09-11
+**Document role:** CURRENT_L0 / parent semantic orientation  
+**Parent status:** accepted bounded parent  
+**Updated:** 2026-09-11  
+**Current descendant authorization/evaluation:** read `STATE.md`, then the named child STATE.
 
-## Shortest current result
+## Two protected questions
 
 ```text
 Cross-Ground Feedback / Adaptation
-    ← BOUNDED PARENT
-    ← NOT A LEAF
-
 ├─ Cross-Ground Feedback / Returned Influence
+│  → condition/performance information returns into relevant later response
 └─ Persistent Adaptation / Future-Response Change
+   → history produces retained change in future-response behavior
 ```
 
-## Parent protected question
+The parent is not a leaf. A fixed feedback rule can operate without being changed by history. A single historical episode can support persistent adaptation without continuous online recurrence. This establishes distinct, non-coextensive questions; it does not claim that every adaptation is historically independent of all feedback.
 
-> When observations/results/outcomes return across accepted-ground boundaries, when do they actually influence later behavior, and when does that influence become a persistent change in the system's future-response function?
+## Returned Influence child result and parent delta
 
-## Child 1 — Cross-Ground Feedback / Returned Influence
+The dedicated G0–G7 pass proposes a bounded leaf. Its current evaluation status is authoritative in `returned-influence/STATE.md`.
 
-> Did a prior/current realized outcome produce a returned signal that reached a later consumer and causally influenced a subsequent action, decision, control or transition?
-
-Strong rules:
+Its important refinements are:
 
 ```text
-observation != feedback
-signal available != consumed
-consumed != causally influential
-feedback occurred != timely/current enough
-feedback exists != stabilizing/safe
+unchanged output != no feedback
+unchanged output != proof of feedback use
+feedback structure != active coupling != particular-signal contribution
+informed response != executed action != achieved target
+any information influence != relevant feedback return
 ```
 
-## Child 2 — Persistent Adaptation / Future-Response Change
+A system may use observations to hold, continue or inhibit unnecessary action. A blind system can show the same output; evidence must distinguish use from coincidence. The return must be relative to an explicit system/pursuit and response locus.
 
-> Did feedback/history produce a durable change in how the system responds to future materially comparable situations?
+See `returned-influence/G6-SYNTHESIS-CHILD-DECISION.md` for the exact proposed changes. They are child-pass findings, not silently retroactive claims about F0–F7.
 
-Strong rules:
+## Persistent Adaptation question
+
+Did feedback/history produce a durable change in responses to materially comparable future situations, where is the change realized, and how is it retained?
 
 ```text
-one-off response != adaptation
-repeated fixed response != adaptation
+one-off response != persistent adaptation
+repeated fixed response != adaptation by identity
 stored lesson != adaptation
 adaptation Work complete != adaptation realized
-persistent adaptation != beneficial/effective adaptation
+adaptation occurred != beneficial/effective adaptation
 ```
 
-## Strongest structural discovery
+Persistence, latent behavior, forgetting, supersession and recursive change require the dedicated sibling investigation. Do not infer that it was completed by parent discovery or the Returned Influence pass.
+
+## Shared guardrails and interfaces
 
 ```text
-feedback = true, adaptation = false
+all observed/received signals handled != all material outcomes observed
+local/proxy improvement != intended/system improvement
+feedback/adaptation occurrence != stability/safety/benefit
+multiple derivative reports != independent corroboration
 ```
 
-is possible: fixed feedback controller.
+Information owns representations and exposure; Work owns pursuits; Actors/Control retain standing and governing authority; Transition supplies realized change; causal research supports contribution/benefit claims; Standing qualifies adequacy/currentness. Feedback/Adaptation investigates the corresponding returned-influence and persistent-change composition, not replacement grounds.
 
-```text
-one historical feedback episode
-→ persistent adaptation = true
-```
+## Historical source route
 
-is also possible: one incident creates a durable future rule/test/control change.
-
-Therefore Feedback and Adaptation have independent truth conditions.
-
-## Strongest frame/stability guardrails
-
-```text
-all observed signals handled
-!= all material outcomes observed
-
-local/proxy objective improved
-!= intended/global target improved
-
-feedback/adaptation occurred
-!= stable
-!= safe
-!= beneficial
-```
-
-## Boundaries
-
-```text
-Information owns signal/representation existence and exposure
-Feedback owns returned causal influence on later behavior
-
-Work owns improvement/corrective pursuits
-Adaptation owns whether history produced persistent future-response change
-
-Control owns governing semantics
-Adaptation owns history→persistent-regime-change relation
-
-Transition owns exact realized changes
-Adaptation is a higher-order persistent temporal pattern
-
-Contrastive Causal Effect owns benefit/effectiveness
-Standing owns criterion-relative adequacy/currentness
-```
-
-## Profiles — not children
-
-- delayed/stale feedback;
-- negative/positive feedback;
-- oscillation/overshoot/stability;
-- proxy/local-vs-global objective;
-- human/automated/hybrid realization;
-- parameter/policy/structural adaptation;
-- local/system/organizational scope;
-- forgetting/reversion;
-- recursive/meta-adaptation;
-- beneficial/harmful/neutral effect.
-
-## Sequencing recommendation
-
-If user evaluation accepts this parent result:
-
-> **Cross-Ground Feedback / Returned Influence** is the strongest first immediate-child pass.
-
-Do not activate automatically.
+Original F0–F7 and `synthesis/FEEDBACK-ADAPTATION-SYNTHESIS.md` remain parent-pass evidence. Their old frontier wording is historical. Current child details are in the child KEY/map/synthesis/source ledger; current authorization is in STATE.
 
 ## Verification boundary
 
-F7 is same-model adversarial review. WHO, FAA, NIST, NASA and Google SRE supplied external pressure; gstack and Anthropic supplied candidate-system pressure. No external source validates the exact two-child synthesis and no independent second-model/researcher replication has been performed.
+Parent F7 and child G7 are same-model reviews. Primary sources provide component-level pressure, not independent replication of the exact SOUL Foundation hierarchy. No architecture or implementation has been adopted here.
