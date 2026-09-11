@@ -1,53 +1,49 @@
 # Hermes Agent — INDEX
 
-Current Work/completion authority [STATE](STATE.md); classification/reuse [META](META.md); method [METHOD](METHOD.md); current plan [v0.18](RESEARCH-PLAN.md). Bu router bağımsız çalışma yetkisi değildir. V0.18 U05 source consumer araştırmasıdır; yeni HERMES execution değildir. U04-A/B yayın kapanışı korunur.
+Current work/completion [STATE](STATE.md), classification/reuse [META](META.md), method [METHOD](METHOD.md), plan [v0.19](RESEARCH-PLAN.md). U06 kaynak + bounded process-local diagnostic; whole-system completion değildir. Eski yayınlar tamamlanmış iş olarak korunur.
 
-## Güncel açıklama ve kanıt yolları
+## Güncel ilerleme ve evidence route
 
-| Soru | İlk okuma |
+| İhtiyaç | Okuma yolu |
 |---|---|
-| Devam hangi lease/history ile kabul edilir; rotation/restart'ta nasıl yeniden çalışabilir? | **[20/U05](notes/20-SESSION-LEASE-HISTORY-AND-RECOVERY.md)** → [RESEARCH](evidence/2026-09-11-session-lease-recovery/RESEARCH.md) → [SOURCES](evidence/2026-09-11-session-lease-recovery/SOURCES.md) |
-| U05 neyi çalıştırmadı, sonraki ayırıcı kontrol ne? | [CHECKS-NOT-RUN](evidence/2026-09-11-session-lease-recovery/CHECKS-NOT-RUN.md), [coverage eklemesi](inventory/LEASE-RECOVERY-COVERAGE-2026-09-11.md) |
-| Kalıcı iş, devam kararı ve yeni tur nasıl birleşir? | [synthesis/03](synthesis/03-PERSISTENT-WORK-AND-CONTINUATION-PROVISIONAL.md) → [18/U04-A](notes/18-MULTI-TURN-GOAL-LOOP-AND-HEARTBEAT.md) → **20/U05 source amendment** |
-| Önceden bekleyen 21-durumlu teslim nerede, diğer U04 ile farkı ne? | [19/U04-B](notes/19-U04-DELIVERY-RECONCILIATION.md) → [README](evidence/2026-09-11-multiturn/README.md) → [RECONCILIATION](evidence/2026-09-11-multiturn/RECONCILIATION.md); yayın tamamlanmış iş |
-| A'nın 15 grubu ve tam ham girdileri? | [A SPEC](evidence/2026-09-11-multi-turn-continuity/SPEC.md), [A SOURCES](evidence/2026-09-11-multi-turn-continuity/SOURCES.md), [A raw archive](evidence/2026-09-11-multi-turn-continuity/diagnostic-evidence.tar.xz); [summary](evidence/2026-09-11-multi-turn-continuity/RESULT-SUMMARY.json) yalnız gezinme |
-| B'nin 21 durumu ve tam ham girdileri? | [B SPEC](evidence/2026-09-11-multiturn/delivery/evidence/SPEC.md), [B RESULT](evidence/2026-09-11-multiturn/delivery/evidence/RESULT.json), [B probe](evidence/2026-09-11-multiturn/delivery/evidence/probe.py), [33-file manifest](evidence/2026-09-11-multiturn/DELIVERY-MANIFEST.json) |
-| Bir normal girdi bağlam, yürütme, kayıt ve teslime nasıl dönüşür? | [synthesis/02](synthesis/02-TURN-CONTEXT-AND-SESSION-PROVISIONAL.md) → [16/U02](notes/16-GENERAL-TURN-CONTEXT-AND-SESSION.md) |
-| Kalıcı task/run/claim ve terminal kabul? | [17/U03](notes/17-KANBAN-TASK-CLAIM-AND-ACCEPTANCE.md) → [RESEARCH](evidence/2026-09-10-kanban-task/RESEARCH.md), [SOURCES](evidence/2026-09-10-kanban-task/SOURCES.md) |
-| Öğrenme/değişim bu çekirdekte nasıl yer alır? | [synthesis/01](synthesis/01-LEARNING-AND-CHANGE-PROVISIONAL.md); normal compaction karşı okuması için 02/U02 |
-| Sonraki iş ne? | [STATE](STATE.md)/[PLAN](RESEARCH-PLAN.md): actual messages selector/guard/next-history; sonra startup/adapter ve persisted in-flight recovery |
-| Bütün sistem tamamlandı mı? | Hayır; [U05 coverage](inventory/LEASE-RECOVERY-COVERAGE-2026-09-11.md), [CONTINUITY-COVERAGE](inventory/CONTINUITY-COVERAGE-2026-09-11.md), [CORE-COVERAGE](inventory/CORE-COVERAGE-2026-09-10.md), [OPEN-QUESTIONS](OPEN-QUESTIONS.md) |
+| Devam hangi history/hak/driver ile gerçek tura dönüşür? | **[21/U06](notes/21-RESUME-ADMISSION-AND-DRIVER-RECOVERY.md)** → [RESEARCH](evidence/2026-09-11-resume-admission/RESEARCH.md) → [SOURCES](evidence/2026-09-11-resume-admission/SOURCES.md) |
+| Gerçek yeni koşu neyi sınadı? | [U06 SPEC](evidence/2026-09-11-resume-admission/SPEC.md) → [tam RESULT](evidence/2026-09-11-resume-admission/RESULT.json) → [MANIFEST/archive](evidence/2026-09-11-resume-admission/MANIFEST.json) → [README/reproduction](evidence/2026-09-11-resume-admission/README.md) |
+| Yayın gerçekleşti mi? | [U06 PUBLICATION](evidence/2026-09-11-resume-admission/PUBLICATION.md); publication test ≠ behavior test |
+| U05'in katkısı ve açık kontrolleri? | [20](notes/20-SESSION-LEASE-HISTORY-AND-RECOVERY.md) → [U05 source/research](evidence/2026-09-11-session-lease-recovery/RESEARCH.md), [CHECKS-NOT-RUN](evidence/2026-09-11-session-lease-recovery/CHECKS-NOT-RUN.md); eski messages429 artık current değil |
+| Kalıcı iş/devamın üst açıklaması? | [synthesis/03](synthesis/03-PERSISTENT-WORK-AND-CONTINUATION-PROVISIONAL.md) → [18/U04-A](notes/18-MULTI-TURN-GOAL-LOOP-AND-HEARTBEAT.md) → **20 + 21 source amendments** |
+| Genel turn/context/session? | [synthesis/02](synthesis/02-TURN-CONTEXT-AND-SESSION-PROVISIONAL.md) → [16](notes/16-GENERAL-TURN-CONTEXT-AND-SESSION.md) |
+| Öğrenme/değişim? | [synthesis/01](synthesis/01-LEARNING-AND-CHANGE-PROVISIONAL.md) → notes02–15; normal compaction counter-reading için 02/U02 |
+| Task/run/claim/acceptance? | [17](notes/17-KANBAN-TASK-CLAIM-AND-ACCEPTANCE.md) → [U03 RESEARCH](evidence/2026-09-10-kanban-task/RESEARCH.md)/[SOURCES](evidence/2026-09-10-kanban-task/SOURCES.md) |
+| U04-A/B aynı çalışma mı? | **[19](notes/19-U04-DELIVERY-RECONCILIATION.md)** → [B README](evidence/2026-09-11-multiturn/README.md) → [RECONCILIATION](evidence/2026-09-11-multiturn/RECONCILIATION.md) → [33-file manifest](evidence/2026-09-11-multiturn/DELIVERY-MANIFEST.json) |
+| A exact raw | [SOURCES](evidence/2026-09-11-multi-turn-continuity/SOURCES.md)/[SPEC](evidence/2026-09-11-multi-turn-continuity/SPEC.md) → [raw archive](evidence/2026-09-11-multi-turn-continuity/diagnostic-evidence.tar.xz); summary yerine raw |
+| B exact raw | [SOURCES](evidence/2026-09-11-multiturn/delivery/SOURCES.md) → [SPEC](evidence/2026-09-11-multiturn/delivery/evidence/SPEC.md) → [RESULT](evidence/2026-09-11-multiturn/delivery/evidence/RESULT.json) → [probe](evidence/2026-09-11-multiturn/delivery/evidence/probe.py) |
+| Sonraki iş / bütünlük | [STATE](STATE.md)/[PLAN](RESEARCH-PLAN.md) → [U06 coverage](inventory/RESUME-ADMISSION-COVERAGE-2026-09-11.md); bütün HERMES hâlâ partial |
 
-## Mekanizma ve tarihsel kayıtlar
+## Önceki notlara seçici erişim
 
 | Alan | Giriş |
 |---|---|
-| Neden/yöntem/topoloji | [00-WHY](00-WHY-THIS-RESEARCH.md), [METHOD](METHOD.md), [STRUCTURE](inventory/STRUCTURE.md), [01](notes/01-ORIENTATION.md) |
-| Review snapshot/fork/ownership | [02](notes/02-BACKGROUND-LEARNING.md) |
-| Curator/maintenance/report/cron | [03](notes/03-SKILL-CURATION.md) |
-| Skill transaction/approval | [04](notes/04-SKILL-WRITE-TRANSACTION-AND-APPROVAL.md), [U01B](evidence/2026-09-07-u01b/component-probe/README.md) |
-| Eski mutable doküman kontratları | [05](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md), [W](evidence/2026-09-08-doc-contracts/READING-AND-ACCESS.md) |
-| Caller/worker/context transfer | [06](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md), [D](evidence/2026-09-08-context-transfer/SOURCES.md) |
+| Amaç/yöntem/topoloji | [00-WHY](00-WHY-THIS-RESEARCH.md), [STRUCTURE](inventory/STRUCTURE.md), [01](notes/01-ORIENTATION.md) |
+| Review snapshot/fork | [02](notes/02-BACKGROUND-LEARNING.md) |
+| Curator/maintenance/cron | [03](notes/03-SKILL-CURATION.md) |
+| Skill transaction/approval | [04](notes/04-SKILL-WRITE-TRANSACTION-AND-APPROVAL.md) |
+| Mutable doc contracts | [05](notes/05-DISPATCH-CONTEXT-AND-REPLAY-CONTRACTS.md) |
+| Caller/worker transfer | [06](notes/06-CALLER-DISPATCH-AND-CONTEXT-TRANSFER.md) |
 | MemoryStore/pending replay | [07](notes/07-MEMORY-STORE-AND-PENDING-REPLAY.md) |
-| Roundtrip/diff/rollback | [08](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md), [U01B2](evidence/2026-09-08-u01b2/README.md) |
-| Selected worker policy/validator | [09](notes/09-WORKER-POLICY-EXECUTION-BOUNDARY.md), [E/C/V](evidence/2026-09-08-worker-policy/README.md) |
-| Review/middleware/manual AST | [10](notes/10-REVIEW-ADMISSION-AND-MIDDLEWARE-FAILURES.md), [J/MW](evidence/2026-09-09-review-middleware/README.md) |
-| Memory/pending state | [11](notes/11-MEMORY-STATE-AND-PENDING-LIFECYCLE.md), [M2/N](evidence/2026-09-09-memory-pending/README.md) |
-| Eski UI/A caller/profile | [12](notes/12-UI-PROFILE-AND-APPROVAL-CALLERS.md), [UI/A](evidence/2026-09-10-ui-profile/SOURCES.md) |
-| SA ayrı pending teslimi | [13](notes/13-PENDING-CALLER-EVIDENCE-RECONCILIATION.md), [M3-S/SA](evidence/2026-09-10-pending-caller/SOURCES.md) |
-| AP ayrı altı-durumlu teslim | [14](notes/14-AP-DELIVERY-RECONCILIATION.md), [AP](evidence/2026-09-10-ui-profile-approval/README.md) |
-| M4 fresh store/stored prompt | [15](notes/15-MEMORY-PROMPT-RESTORE-BOUNDARIES.md), [M4 RESULT](evidence/2026-09-10-prompt-restore/RESULT.json); actual compaction sırası 16/C13 |
-| Genel turn/context/session | [16](notes/16-GENERAL-TURN-CONTEXT-AND-SESSION.md), [U02 RESEARCH](evidence/2026-09-10-turn-lifecycle/RESEARCH.md) |
-| Kanban task/run/claim/acceptance | [17](notes/17-KANBAN-TASK-CLAIM-AND-ACCEPTANCE.md), [U03 archive](evidence/2026-09-10-kanban-task/original-evidence.tar.xz), [recovery](evidence/2026-09-10-kanban-task/PUBLICATION.md) |
-| U04-A çok turlu kaynak/model | [18](notes/18-MULTI-TURN-GOAL-LOOP-AND-HEARTBEAT.md), [A RESEARCH](evidence/2026-09-11-multi-turn-continuity/RESEARCH.md) |
-| U04-B ayrı teslim yayını | [19](notes/19-U04-DELIVERY-RECONCILIATION.md), [B RESEARCH](evidence/2026-09-11-multiturn/delivery/RESEARCH.md), [B SOURCES](evidence/2026-09-11-multiturn/delivery/SOURCES.md) |
-| U05 session lease/history/recovery | [20](notes/20-SESSION-LEASE-HISTORY-AND-RECOVERY.md), [U05 RESEARCH](evidence/2026-09-11-session-lease-recovery/RESEARCH.md), [U05 SOURCES](evidence/2026-09-11-session-lease-recovery/SOURCES.md) |
-| Kapsam/kanıt rotası | [SCOPE-REVIEW](inventory/SCOPE-REVIEW-2026-09-10.md), [SOURCE-LEDGER](SOURCE-LEDGER.md), [OPEN-QUESTIONS](OPEN-QUESTIONS.md) |
+| Roundtrip/diff/rollback | [08](notes/08-APPROVAL-ROUNDTRIP-AND-ROLLBACK-BOUNDARIES.md) |
+| Selected worker policy | [09](notes/09-WORKER-POLICY-EXECUTION-BOUNDARY.md) |
+| Middleware/admission | [10](notes/10-REVIEW-ADMISSION-AND-MIDDLEWARE-FAILURES.md) |
+| Memory/pending state | [11](notes/11-MEMORY-STATE-AND-PENDING-LIFECYCLE.md) |
+| UI/profile caller | [12](notes/12-UI-PROFILE-AND-APPROVAL-CALLERS.md) |
+| SA delivery | [13](notes/13-PENDING-CALLER-EVIDENCE-RECONCILIATION.md) |
+| AP delivery | [14](notes/14-AP-DELIVERY-RECONCILIATION.md) |
+| M4 prompt/restore | [15](notes/15-MEMORY-PROMPT-RESTORE-BOUNDARIES.md) |
+| Kaynak/tüm soru rotası | [SOURCE-LEDGER](SOURCE-LEDGER.md), [OPEN-QUESTIONS](OPEN-QUESTIONS.md) |
 
-## Yeni oturum için ayrımlar
+[V0.18 exact router](https://github.com/batuhanozgun/agentic-os-search/blob/0a475b5d7c50f47689c72cd31f954f5b2303ced6/research/studies/hermes-agent/INDEX.md) eski ayrıntılı evidence kısa yollarını da korur. Eski not/evidence dosyaları taşınmadı veya değişmedi.
 
-U04-A/B etiketleri yalnız iki U04 paketini ayırır; eski UI/A ile karıştırılmaz. B'nin delivery/repo-updates/ içindeki v0.16, note18, synthesis03 ve Q40–Q45 önerileri historical candidate dosyalardır. Current root dosyalarının yerine uygulanmadı; soru eşlemesi RECONCILIATION'dadır. Özgün metinlerin 'yayımlanmadı' cümlesi tek başına güncel yayın engeli değildir.
+## Cold-start uyarıları
 
-A/B hash/byte kapsamları yeni source okuması veya independent replication değildir. Tam heartbeat kimliği, seçili Kanban'ın parent sadakatini veya full SessionDB/OS/driver/model doğruluğunu sağlamaz. U05, A:S10 history substitution'ı immediate/waited/rotation koşullarına ayırır; eski lower facade engeli açıldı, actual messages consumer'ın devamı açık kaldı. Synthesis/03 bu nedenle 20 ile birlikte okunur.
+STATE'teki zorunlu yol current'tır. U04-B delivery/repo-updates historical candidate'dır; eski 'yayımlanmadı' ifadesi current blocker değildir. A/B aynı G/H numaraları eş vaka değildir. U06 L testleri onlara eklenen ürün/bağımsız tekrar skoru değildir. Üç merkezi synthesis 20/21 ile birlikte okunur; final CORE/dört-alan/adoption yok.
 
-Q07/Q22 normal compaction→API-message source bağı, M4 artificial V04 sırasının gerçek compression bug'ı olmadığı sınırı ve Q26/Q29 full-worker/original borcu sürer. Üç merkezi sentez provisional; nihai CORE/dört-alan/adoption yoktur. U05 CHECKS-NOT-RUN yapılmış deney değildir.
+İlk dar sonraki Q42 startup preclaim/carrier/drain→actual admission; Q40 actual-DB/quiet-history validation ayrı açık. Sonraki geniş model adayı cron/scheduler→run→delivery. U05 source429 açılmıştır; actual DB/host testleri yapılmış değildir. Q07/Q22 wire/variants, Q26/Q29 full-worker, Q38 selection fidelity ve quality/delivery sınırları korunur.
