@@ -1,6 +1,6 @@
 # Feedback / Adaptation — Open Questions / Reopen Triggers
 
-**Status:** accepted parent; Returned Influence result awaiting evaluation  
+**Status:** accepted parent; Returned Influence accepted bounded leaf; Persistent Adaptation recommended next / inactive  
 **Updated:** 2026-09-11  
 **Role:** residual uncertainty, not automatic execution authority.
 
@@ -8,15 +8,15 @@
 
 ```text
 Cross-Ground Feedback / Adaptation                  ← accepted parent
-├─ Cross-Ground Feedback / Returned Influence         ← bounded leaf / USER EVALUATION PENDING
-└─ Persistent Adaptation / Future-Response Change      ← recommended after evaluation / inactive
+├─ Cross-Ground Feedback / Returned Influence         ← accepted bounded leaf
+└─ Persistent Adaptation / Future-Response Change      ← recommended next / inactive
 ```
 
-## Returned Influence questions delegated to the child
+## Returned Influence — accepted and delegated
 
-G0–G7 addresses return-reference, delivery/use, active coupling versus exact episode contribution, hold/inhibition without visible change, partial response versus end-to-end effect, timing, coupled consumers, lineage/independence and material observation scope.
+G0–G7 covers return-reference, delivery/use, active coupling versus exact episode contribution, hold/inhibition without visible change, partial response versus end-to-end effect, timing, coupled consumers, lineage/independence and material observation scope.
 
-Remaining uncertainty for opaque consumers, latent/redundant response and difficult coupled-loop boundaries lives in `returned-influence/OPEN-QUESTIONS.md`. G6 makes proposed narrow parent wording corrections explicit. Their acceptance remains part of the current child evaluation.
+Narrow uncertainty for opaque consumers, latent/redundant response and difficult coupled-loop boundaries lives in `returned-influence/OPEN-QUESTIONS.md` as reopen triggers. The G6 parent wording corrections were accepted with the leaf.
 
 ## Persistent Adaptation — dedicated research still required
 
@@ -33,23 +33,18 @@ Remaining uncertainty for opaque consumers, latent/redundant response and diffic
 
 ## Integration residuals
 
-11. Does user evaluation retain the Returned Influence leaf and its parent refinements?
-12. Does dedicated Adaptation preserve the accepted two-question parent?
-13. Can beneficial adaptation remain adaptation occurrence + appropriately scoped causal effect + Standing?
-14. Does recursive self-change expose an authority/control problem rather than a new adaptation child?
-15. Would independent research retain the current structure?
-16. Will a later improvement/generalization claim require fresh transportability/interference source recovery from the accepted Contrastive child's explicit limitations?
+11. Does dedicated Adaptation preserve the accepted two-question parent?
+12. Can beneficial adaptation remain adaptation occurrence + appropriately scoped causal effect + Standing?
+13. Does recursive self-change expose an authority/control problem rather than a new adaptation child?
+14. Would independent research retain the current structure?
+15. Will a later improvement/generalization claim require fresh transportability/interference source recovery from the accepted Contrastive child's explicit limitations?
 
 ## Reopen parent if
 
 Returned Influence loses a defensible return/reference boundary, Adaptation collapses into Work/Transition without diagnostic loss, a material domain repeatedly requires an independent Evolution question, stability cannot remain a dynamic qualification, persistent change cannot be separated from benefit, or an independent analysis supplies a stronger decomposition.
 
-The G hold/return/partial-effect corrections alone do not require a new parent decomposition; they are visible refinements of the first question.
+## Current next step
 
-## Non-reopen conditions
+> **Persistent Adaptation / Future-Response Change** is the strongest next substantive child.
 
-Different biological/organizational/software/mechanical implementations, continuous versus event-driven operation, parameter versus policy changes, human versus automated mediation, delay/nonlinearity, harmful adaptation or different later implementation tools do not by themselves force another child.
-
-## Current stop
-
-Evaluate the Returned Influence result. Persistent Adaptation is the current next recommendation only; no descendant, architecture, ontology/data-model/schema, implementation or agent-control change is automatically authorized.
+It is not active. No descendant, architecture, ontology/data-model/schema, implementation or agent-control change is automatically authorized.
