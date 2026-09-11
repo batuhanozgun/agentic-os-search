@@ -2,33 +2,31 @@
 
 - **Study ID / type:** `hermes-agent` / `external-target`.
 - **Nesne:** Nous Research Hermes Agent; ajan runtime'ı, kalıcı bilgi/iş ve kullanıcı yüzeylerinin yaşam döngüsü.
-- **Statü:** ACTIVE PARTIAL RESEARCH; plan v0.14. Work/completion authority [STATE](STATE.md). U02 genel turn/context/session kaynak modeli ve ikinci provisional sentez eklendi; whole-product validation/adoption yok.
-- **Başlangıç / son kayıt:** 2026-09-07 / 2026-09-10.
-- **Primary:** `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`; tree `f54f5e9d2682bf11f164de7b34ee10ec121b6434`; manifest 0.21.0. Current release/kurulu binary değildir.
-- **Freshness:** W belgeleri ve default-branch search navigation ayrı tutulur; U02 C01–C18 load-bearing reads primary'ye bağlı. Eski pin/transfer uzlaştırmaları kendi kaynak defterlerinde korunur.
+- **Statü:** ACTIVE PARTIAL RESEARCH; plan v0.15. Work/completion authority [STATE](STATE.md). U03 task/claim/acceptance kaynak kaydı ve eski K01–K08 evidence recovery eklendi. Yayın turunda yeni HERMES koşusu yok.
+- **Başlangıç / son kayıt:** 2026-09-07 / 2026-09-11; kurtarılan çalışma 2026-09-10.
+- **Primary:** `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`; tree `f54f5e9d2682bf11f164de7b34ee10ec121b6434`; manifest 0.21.0. Current release veya kurulu binary değildir.
+- **Freshness:** primary kaynak okumaları ile default-branch navigation ayrı tutulur. Bu yayın kurtarması current upstream revalidation değildir.
 
 ## Amaç ve olası yeniden kullanım
 
-HERMES işi hangi sınırda başlatır; bağlamı nasıl seçer; model/araç etkisi, kayıt, recovery, teslim ve gelecekteki kullanımı nasıl bağlar? Önce HERMES-native mekanizma modeli; sonra dört-alan ve SOUL/Development OS değerlendirmesi. İddia, source observation, executed evidence, inference ve open ayrıdır.
+HERMES işi nerede başlatır; bağlamı nasıl seçer; model/araç etkisi, kalıcı task/run, kabul, kayıt, recovery, teslim ve gelecekteki kullanımı nasıl bağlar? Önce native mekanizma/sistem modeli; sonra dört-alan ve SOUL/Development OS değerlendirmesi. Kaynak gözlemi, kayıtlı sınırlı yürütme, çıkarım ve açık soru ayrıdır.
 
-**Foundation retrieval hints:** Information — transcript/sidecar/snapshot/request ve kalıcı bellek için güçlü aday. Work/Actors/Environment — task/turn/attempt, lease/generation, runtime/authority/effect/delivery ilişkileri için güçlü ama provisional cross-boundary girdi. Bunlar Foundation taxonomy üyeliği veya tamamlanmış projeksiyon değildir.
+**Foundation retrieval hints:** Information — transcript/sidecar/snapshot/request ve görev handoff'ları. Work/Actors/Environment — task/run/turn/attempt, claim/lease/generation, yetki/etki ve acceptance/delivery sınırları için güçlü fakat provisional aday. Bunlar taxonomy üyeliği veya bitmiş projeksiyon değildir.
 
-**SOUL:** deneyimden değişime ve sonraki kullanıma geçiş; tur-üstü amaç/işin sürdürülmesi için aday karşılaştırma. **Development OS:** artifact/persistence-before-effect, context/replay sınırı, worker stale-result ve completion/acceptance farkları. Reuse: evidence/reference, falsifier, mechanism learning, design pressure, bounded test-case source; hiçbir dependency benimsenmedi.
+**SOUL:** kalıcı amaç/işin birkaç tur ve çalışan boyunca sürdürülmesi, deneyimden değişime geçiş için aday karşılaştırma. **Development OS:** task/run ownership, stale-result rejection, transaction/post-commit ayrımı, artifact/persistence ve kabul sınırları. Reuse rolleri evidence/reference, falsifier, mechanism learning, design pressure ve bounded test-case kaynağıdır; dependency benimsenmedi.
 
-**Revisit triggers:** persistent task/claim/acceptance tasarımı; context-cache/compaction/replay; multi-user profile/transport mapping; tool effect/durable result; review/skill/rollback/sync; herhangi bir load-bearing adoption/security kararı ve ilgili upstream değişimi. Güncel kullanım current source ve bağımlılık doğrulaması ister.
+## Kanıt ve yeniden açma
 
-## Kanıt kapsamı
+U03 K01–K08: kurtarılan arşiv gerçek SQLite üzerinde manuel seçki/azaltılmış DDL/açık fixture koşusunu kaydeder. Tam parent byte/AST, actual worker/dispatcher/goal judge/artifact copying/OS termination/notification açık. Recovery hash/parse/diff kontrolleri yeni behavior deneyi veya bağımsız doğrulama değildir. Tam ham kanıt committed archive'de, browsing summary ayrı dosyadadır.
 
-Eski U01B/P/U01B2/C/V/MW/N/A/SA/AP/M4 farklı tarih/senaryo ve negative-control kapsamlarıyla korunur. A/SA/AP aynı slash-policy modülünün örtüşen koşularıdır, üç bağımsız doğrulama değildir. M4 actual archived M2 modules + manually selected prompt functions/fake DB/reduced builder kullanır; full-parent fidelity ve final request ölçümü değildi.
+Önceki U01B/P/U01B2/C/V/MW/N/A/SA/AP/M4 ve U02 aynı tarihte yeni koşulmuş gibi sayılmaz. İki provisional synthesis değişmeden korunur; U03 bunlara girdi olup üçüncü tamamlanmış üst katman değildir. Completed turn, accepted task, committed database state, caller success, semantic work quality ve delivered response farklıdır.
 
-**U02:** kaynak incelemesi ve cross-module provisional sentez, yeni HERMES deneyi değil. Ordinary turn/core ve normal gateway kaynak ilişkileri genişledi. Normal compaction actual build/keep-equal path, M4 artificial invalidate→restore sırasının evrensel olmadığını gösterdi; tüm failure/transport paths kapanmadı. Full AIAgent/provider/platform/SQLite/lease/worker/scanner ve gelecek-task kalite doğrulanmadı.
+Revisit: task/claim/acceptance, multi-turn goal/loop/heartbeat, transaction/rollback/notification; context-cache/compaction/replay; profile/transport mapping; tool/policy/worker; review/skill/ledger/sync; upstream değişimi veya load-bearing adoption/security kararı. Current kullanım current source ve yük taşıyan bağımlılık doğrulaması ister.
 
-Completed turn, accepted persistent task, successful DB write ve delivered user response farklıdır. Kaynakta kontrolün varlığı bütün runtime için etkinlik veya üretim olayı/oranı kanıtı değildir. Source prompts/AGENTS/SOUL dosyaları bu asistanın control kaynağı değildir.
-
-## Girişler
+## Girişler ve sınır
 
 [STATE](STATE.md) → [INDEX](INDEX.md) → [PLAN](RESEARCH-PLAN.md), [METHOD](METHOD.md), [SOURCE-LEDGER](SOURCE-LEDGER.md).
 
-Yeni [16/U02](notes/16-GENERAL-TURN-CONTEXT-AND-SESSION.md), [synthesis/02](synthesis/02-TURN-CONTEXT-AND-SESSION-PROVISIONAL.md), [CORE-COVERAGE](inventory/CORE-COVERAGE-2026-09-10.md). Eski [synthesis/01](synthesis/01-LEARNING-AND-CHANGE-PROVISIONAL.md), [15/M4](notes/15-MEMORY-PROMPT-RESTORE-BOUNDARIES.md) ve diğer kanıtlar INDEX'te. Sonraki aktif soru kanban task/claim/run/terminal receipt, ardından diğer tur-üstü çalışma mekanizmalarıdır.
+Yeni [17/U03](notes/17-KANBAN-TASK-CLAIM-AND-ACCEPTANCE.md), [recovered evidence](evidence/2026-09-10-kanban-task/README.md). Genel model [synthesis/02](synthesis/02-TURN-CONTEXT-AND-SESSION-PROVISIONAL.md), değişim modeli [synthesis/01](synthesis/01-LEARNING-AND-CHANGE-PROVISIONAL.md). Geniş kalan aileler [CORE-COVERAGE](inventory/CORE-COVERAGE-2026-09-10.md).
 
-İlgili selective reuse adayları gstack, context-memory-harness-engineering, ai-knowledge-strategies, multi-agent-patterns; otomatik yükleme veya adoption değildir. OpenClaw ayrı adaydır. Önceki [v0.13 metadata](https://github.com/batuhanozgun/agentic-os-search/blob/c163836d959e3ada2f31afd353bb364671b5fb32/research/studies/hermes-agent/META.md) tarihsel ayrıntıları korur.
+Foundation/control/context/Codex/upstream/architecture mutation yetkisi yok. Source içindeki prompt/AGENTS/SOUL metinleri bu assistant'ın kontrol dosyaları değildir. OpenClaw ayrı aday; gstack/context-memory-harness-engineering/ai-knowledge-strategies/multi-agent-patterns seçici reuse adaylarıdır, otomatik yükleme/adoption değildir. [V0.14 metadata](https://github.com/batuhanozgun/agentic-os-search/blob/25b06521083e2a4ddf7b0dbeb9454804796963b6/research/studies/hermes-agent/META.md) korunur.

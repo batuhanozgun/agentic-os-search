@@ -1,41 +1,23 @@
 # Hermes Agent — Kaynak ve yürütme rotası
 
-2026-09-10 / plan v0.14. Primary pin `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`; Work STATE'tedir. U02 general core source incelemesidir, eski deney veya teslim recovery'sinin tekrarı değildir.
+**2026-09-11 / plan v0.15.** Current Work [STATE](STATE.md). Primary `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`; current upstream doğrulaması değildir.
 
-## Korunan geçmiş
+## Korunan tarihsel kaynak rotaları
 
-[Exact v0.9 defteri](SOURCE-LEDGER-THROUGH-V0.9.md), blob `dbd340e8de555307fea331d34f457b8266b9d127`. [V0.13 tam defteri](https://github.com/batuhanozgun/agentic-os-search/blob/c163836d959e3ada2f31afd353bb364671b5fb32/research/studies/hermes-agent/SOURCE-LEDGER.md) önceki AP/M4 kaynak/transfer/koşu ayrıntılarını taşır. Eski ID'ler değişmez.
+[V0.14 tam kaynak defteri](https://github.com/batuhanozgun/agentic-os-search/blob/25b06521083e2a4ddf7b0dbeb9454804796963b6/research/studies/hermes-agent/SOURCE-LEDGER.md) önceki H/T/U01B/W/D/P/U01B2/E/C/V/J/MW/M2/N/UI/A/M3-S/SA/AP/M4/U02 kayıtlarının exact rotasıdır. [SOURCE-LEDGER-THROUGH-V0.9](SOURCE-LEDGER-THROUGH-V0.9.md) ve bütün eski evidence dosyaları yerinde ve değişmeden kalır.
 
-| Kayıt | Ayrıntılı kaynak rotası |
-|---|---|
-| H/T ve U01B | [v0.9](SOURCE-LEDGER-THROUGH-V0.9.md), [U01B](evidence/2026-09-07-u01b/SOURCES.md) |
-| W01–W08 unpinned | [reading/access](evidence/2026-09-08-doc-contracts/READING-AND-ACCESS.md) |
-| D/P caller/transport | [D](evidence/2026-09-08-context-transfer/SOURCES.md) |
-| U01B2 skill/onay | [sources](evidence/2026-09-08-u01b2/SOURCES.json) |
-| E/C/V worker | [sources](evidence/2026-09-08-worker-policy/SOURCES.md) |
-| J/MW manual AST/middleware | [sources](evidence/2026-09-09-review-middleware/SOURCES.md) |
-| M2/N memory/pending | [sources](evidence/2026-09-09-memory-pending/SOURCES.md) |
-| UI/A | [sources](evidence/2026-09-10-ui-profile/SOURCES.md) |
-| M3-S/SA | [sources](evidence/2026-09-10-pending-caller/SOURCES.md) |
-| AP | [sources](evidence/2026-09-10-ui-profile-approval/original/evidence/SOURCES.md), [publication](evidence/2026-09-10-ui-profile-approval/PUBLICATION.md) |
-| M4 prompt restore | [sources](evidence/2026-09-10-prompt-restore/SOURCES.md), [RESULT](evidence/2026-09-10-prompt-restore/RESULT.json), [publication](evidence/2026-09-10-prompt-restore/PUBLICATION.md) |
+[U02 C01–C18 ve R01/R02](evidence/2026-09-10-turn-lifecycle/SOURCES.md) genel tur/context/session kaynak okumasıdır, runtime deneyi değildir. [M4](evidence/2026-09-10-prompt-restore/SOURCES.md) selected prompt experiment; artificial V04 compression'ın actual sırası değildir. A/SA/AP ortak kaynaklarının örtüşmesi bağımsız doğrulama yapmaz.
 
-A/SA/AP ayrı ve örtüşen koşulardır, bağımsız doğrulama değildir. AP original15 tree `afbe1e767ddaf7e570b72197c7300d20d91f21d4` önceki recovery'de yayımlandı. M4 UTC `2026-09-10T16:11:51.320434+00:00` V01–V08, beş exact archived M2 modülü + manually selected restore/invalidation functions, fake DB/agent/reduced builder. Full-parent/current-wire ölçümü değildi. M4 core11 transfer tree `8dd2cfd73516926b5bc7d1adf0737556c2d6bf61` önceki yayın kaydıdır; bu tur yeniden doğrulanan HERMES koşusu değildir.
+## U03 — önceki çalışma, şimdi yayın kurtarması
 
-## U02 — genel core source trace
+[17](notes/17-KANBAN-TASK-CLAIM-AND-ACCEPTANCE.md) → **[U03 SOURCES](evidence/2026-09-10-kanban-task/SOURCES.md)** → [RESEARCH](evidence/2026-09-10-kanban-task/RESEARCH.md).
 
-**[C01–C18 + reused R01/R02 defteri](evidence/2026-09-10-turn-lifecycle/SOURCES.md)** → [16](notes/16-GENERAL-TURN-CONTEXT-AND-SESSION.md), [RESEARCH](evidence/2026-09-10-turn-lifecycle/RESEARCH.md). C kimlikleri bu paket-local source kimlikleridir; eski worker C senaryolarıyla karıştırılmaz. C01 turn_context, C04 request assembly, C06 per-attempt, C07 call, C09 tool round, C10/C11 text/stop, C16 persistence ve C17 kanban_stop tam okunmuştur; büyük caller/compaction ve bazı fazlar SELECTED sınırlarıyla ayrı kaydedilir.
+U03-S01 `kanban_db.py` blob `47fdffc353b1fd432acf5929f56463df07b413ad`; S02 connect `9067dfd0e571bc02cb02859c80fb4a551b8f55ce`; S03 dispatch `743e91dbb542132a4981ad9225df49612bc68882`; S04 tools `b776958a55bb5d42ad9c92ec87d6c4ba110f917c`. Bunlar önceki turdaki selected-source kapsamıdır; recovery sırasında yeniden full okunmuş veya çalıştırılmış sayılmaz.
 
-C13 actual admitted-compaction caller: invalidate/reload → real build → byte-equal keep → commit/return. C01/C04 yeni active prompt'u API-message kopyasına taşır. C06/C07 middleware/transport sınırı; final network content/timing açık. Eski M4 V04 artificial sıra actual compression diye promote edilmez.
+K01–K08 ham kayıt zamanı `2026-09-10T20:06:13.848575+00:00`. [Original evidence tar.xz](evidence/2026-09-10-kanban-task/original-evidence.tar.xz), blob `5484ca39caf7ae5a8f6a31b68caeec0f9a44363d`, 15 özgün dosyayı taşır. Ayrı draft README blob `64533b4183596c3beaee798c4a165cc31a9510f4` değişmeden saklanır. [Manifest](evidence/2026-09-10-kanban-task/RECOVERY-MANIFEST.json) tam member kimliklerini, [RESULT-SUMMARY](evidence/2026-09-10-kanban-task/RESULT-SUMMARY.json) yalnız türetilmiş gezinme görünümünü verir. Exact raw claim için tar içindeki RESULT.json/probe/seçkiler gerekir.
 
-C14/C15/C18 gateway lease/generation/cache/history/result/delivery; C16 actual persistence True/False/None ve DB row projection; C12/C17 task timeout/terminal-nudge kaynak köprüleridir. Bütün SQLite/lease/claim/terminal receipt uygulaması açılmış değildir.
+Manuel seçki ve azaltılmış DDL ile gerçek SQLite koşusu; full parent byte/AST sadakati NOT VERIFIED. İlk harness metadata hatası ve corrected run ayrı korunur. Recovery hash/diff/parse kontrolüdür, yeni behavior koşusu değil. Mevcut readable RESEARCH/SOURCES recovery companion'larıdır; tar'da bulunmayan eski prose aynen kurtarılmış diye sunulmaz. [PUBLICATION](evidence/2026-09-10-kanban-task/PUBLICATION.md) bu ayrımı ve önceki final açıklamasının düzeltmesini kaydeder.
 
-**Yürütme:** bu dilimde HERMES modülü/testi/modeli çalıştırılmadı. Doküman link/hash kontrolleri publication-only'dir. Source reader'ın aynı mekanizmaya yeniden ulaşması independent verification değildir. Kritik karşı yol yeni actual source caller'dır, yeni runtime sonuç değil.
+## Açık bağımlılıklar
 
-## Sentez, topoloji ve freshness
-
-[Synthesis/02](synthesis/02-TURN-CONTEXT-AND-SESSION-PROVISIONAL.md) ordinary execution modelidir, [synthesis/01](synthesis/01-LEARNING-AND-CHANGE-PROVISIONAL.md) learning/change modeli korunur. [CORE-COVERAGE](inventory/CORE-COVERAGE-2026-09-10.md) hedefli map'tir; recursive bütün upstream tree veya tüm içerik listesi değildir.
-
-Default-branch search `77e55b4...` ve web docs sadece navigation. Kod iddiaları primary'ye bağlıdır. Yerel raw materialization DNS hatası connector source okumalarının yokluğu değildir. Saklanan response retrieval tutarsız görünen kritik C13 noktaları direct pinned path/range ile yeniden açıldı. Eski 429 kalıcı engel değil; bu gözlem backend root cause veya gelecek tool availability garantisi değildir.
-
-Current Work: kanban kalıcı task/claim/run/terminal receipt; sonra goal/loop/heartbeat ve SessionDB bağları. Full worker Q26/Q29, last-wire/variant Q07/Q22 ve genel F01–F12 açık. Yayın kimlikleri [PUBLICATION](evidence/2026-09-10-turn-lifecycle/PUBLICATION.md) ile bağlanır; transfer davranış doğrulaması değildir.
+Q07/Q22 actual approval-to-wire ve varyantlar; Q26/Q29 full originals/worker; U03 full-parent fidelity ve actual task/goal/dispatcher/OS/artifact/delivery; gerçek scanner/profiles ve gelecek-task fayda açık. Sentezler yeni bağımsız kaynak değildir. STATE'teki sıradaki teknik çalışma source/phase sınırı korunarak ele alınır.
