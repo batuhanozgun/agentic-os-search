@@ -1,89 +1,55 @@
 # Transition / Effect / Feedback — Open Questions / Reopen Triggers
 
-**Status:** bounded residuals after accepted parent + accepted Transition / Propagation + accepted Causal parent + both accepted causal children + completed Feedback / Adaptation parent research  
-**Date:** 2026-09-11  
-**Role:** residual uncertainty; NOT an automatic execution queue
+**Updated:** 2026-09-11  
+**Role:** residual uncertainty and research routing, not an automatic execution queue.
 
-## Current bounded structure
+## Current frontier
 
-```text
-Transition / Effect / Feedback                         ← accepted parent
-├─ Cross-Ground Transition / Propagation               ← accepted bounded leaf
-├─ Cross-Ground Causal Effect / Contribution           ← accepted bounded parent
-│  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-│  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-└─ Cross-Ground Feedback / Adaptation                  ← BOUNDED PARENT / USER EVALUATION PENDING
-   ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
-   └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
-```
+Transition / Propagation and both causal children are accepted bounded leaves. Feedback / Adaptation is an accepted bounded parent. Returned Influence G0–G7 is complete as a bounded leaf awaiting user evaluation. Persistent Adaptation is recommended after evaluation and remains inactive.
 
-## Completed child research
+## Returned Influence: researched versus still uncertain
 
-### Transition / Propagation
-Covers realized change, propagation, scope, timing, invalidation/currentness, recovery routing and propagation frame-blindness.
+G0–G7 covers return reference, operative use versus delivery/consumption, hold and inhibition, particular-signal versus loop-level claims, decision versus actuation, timing/reordering, joint inputs, coupled loops, evidence lineage and observation-frame coverage. No immediate child was promoted.
 
-### Causal Effect / Contribution
-Both immediate causal children are accepted bounded leaves.
+The narrow corrections to parent wording are explicit in `feedback-adaptation/returned-influence/G6-SYNTHESIS-CHILD-DECISION.md`; they remain part of the evaluation-pending result.
 
-### Feedback / Adaptation parent
-Dedicated F0→F7 research covers:
-- observation vs returned feedback;
-- signal availability/consumption/causal influence;
-- fixed feedback versus persistent adaptation;
-- one-off response versus future-response change;
-- durable representation/Work completion versus realized adaptation;
-- delay/staleness/oscillation/stability pressure;
-- proxy/local-vs-global feedback failure;
-- feedback frame blindness;
-- recursive/meta-adaptation;
-- adaptation occurrence versus benefit/effectiveness;
-- two-child discovery.
+Opaque-consumer evidence, rare response cases and densely coupled-loop limits remain bounded residuals in `feedback-adaptation/returned-influence/OPEN-QUESTIONS.md`. Do not reinterpret lack of a visible change as absence of feedback or a consumed signal as proof of causal contribution.
 
-Package-local residuals: `feedback-adaptation/OPEN-QUESTIONS.md`.
+## Remaining Persistent Adaptation questions
 
-## Current Feedback immediate-child residuals
+1. What persistence criterion survives materially different system timescales?
+2. When does a latent future-response difference exist before the rare triggering case is observed?
+3. How should history-dependent changes be separated from fixed stateful control, ordinary storage or one-off repair?
+4. How do propagation, retention, forgetting, reversion and supersession affect adaptation claims?
+5. How can changes in human/team practice be evidenced without treating training completion as changed behavior?
+6. Does recursive self-modification, population selection or long-run Evolution introduce a distinct protected question?
+7. Can harmful adaptation and proxy optimization remain visible without defining adaptation as benefit?
+8. What links past outcomes/history to the persistent change, rather than merely placing the events in chronological order?
 
-### Cross-Ground Feedback / Returned Influence
+Parent-local route: `feedback-adaptation/OPEN-QUESTIONS.md`.
 
-1. What evidence establishes that a consumed signal actually changed later behavior?
-2. How should multi-signal/multi-consumer/delayed loops be bounded?
-3. How should stale feedback and currentness route against Standing?
-4. How should oscillation/amplification remain visible without importing full control theory?
-5. How should missing/selected outcomes affect feedback completeness?
+## Integration questions
 
-### Persistent Adaptation / Future-Response Change
-
-6. What persistence criterion survives different timescales?
-7. When does latent stored knowledge count only after a future behavior path consumes it?
-8. How should forgetting/reversion/supersession be represented?
-9. How should human/team adaptation be evidenced?
-10. Does Evolution or recursive self-modification become a stable third child under dedicated research?
-
-## Parent/integration residuals
-
-11. Does user evaluation accept the Feedback / Adaptation two-child parent result?
-12. Do both promoted Feedback children survive dedicated passes?
-13. Can beneficial adaptation remain `persistent adaptation + Contrastive Causal Effect + Standing`?
-14. Does recursive self-improvement expose a missing Control/Authority region rather than an adaptation split?
-15. Does fresh transportability/interference literature later reopen Contrastive or the causal parent?
-16. Would independent second-researcher/model replication retain the current Transition decomposition?
+9. Does the user accept the Returned Influence leaf and its wording refinements?
+10. Does dedicated Persistent Adaptation research preserve the accepted two-child Feedback parent?
+11. Can beneficial adaptation remain adaptation occurrence + Contrastive Causal Effect + Standing?
+12. Does recursive self-improvement expose a missing authority/control relation rather than another adaptation kind?
+13. Would fresh transportability/interference literature reopen the accepted Contrastive leaf? That earlier limitation remains unresolved by this feedback pass.
+14. Would an independent researcher/model retain this Transition decomposition?
 
 ## Parent reopen triggers
 
-Reopen the Transition parent if:
-- accepted Transition / Propagation later fails its ground-local boundary;
-- accepted causal children later fail their parent boundaries;
-- Feedback / Returned Influence collapses into Information/Control;
-- Persistent Adaptation collapses safely into Work + Transition without decision-critical loss;
-- Evolution becomes a distinct stable protected question;
-- Feedback/Adaptation requires a new Transition sibling;
-- a materially different domain repeatedly breaks the current decomposition;
-- independent replication identifies a superior structure.
+Reopen only the affected region if:
+- accepted Transition / Propagation fails its ground-local boundary;
+- a causal child fails its parent boundary;
+- Returned Influence is rejected or cannot preserve the return/use distinction without a new protected region;
+- Persistent Adaptation collapses safely into Work + Transition with no decision-critical loss;
+- Evolution or another candidate becomes a distinct stable protected question;
+- Feedback/Adaptation needs a new Transition sibling;
+- materially different domains or independent reconstruction repeatedly break the current structure.
 
-## Current sequencing note
+Different realizations, many signals, delayed loops or harmful outcomes are not sufficient reasons for promotion by themselves.
 
-If user evaluation accepts `Cross-Ground Feedback / Adaptation`:
+## Next responsibility
 
-> **Cross-Ground Feedback / Returned Influence** is the strongest first child and requires separate activation.
-
-No immediate-child research, architecture, ontology/data-model/schema or implementation work is authorized by this note.
+Evaluate Returned Influence first. Persistent Adaptation / Future-Response Change is the recommended next substantive inquiry, not active Work. No architecture, ontology/data-model/schema, implementation or agent-control mutation is authorized by this residual list.
