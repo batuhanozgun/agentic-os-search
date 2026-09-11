@@ -1,51 +1,33 @@
 # Relation / Control / Composition — INDEX
 
-## Role
+## Current authority
 
-Current router for accepted Cross-Ground Composition and current Transition-parent frontier.
+Read `STATE.md` first. Feedback / Adaptation is accepted; Returned Influence G0–G7 is complete as a bounded leaf awaiting user evaluation. No substantive child is active. Persistent Adaptation is recommended after evaluation and remains inactive.
 
-Read `STATE.md` first for status and current authorization.
+## Retrieval routes
 
-## Current status
+| Need | Start | Continue |
+|---|---|---|
+| Current authorization/frontier | `STATE.md` | current descendant STATE |
+| Current Returned Influence result | `transition-effect-feedback/feedback-adaptation/returned-influence/STATE.md` | KEY → FINDINGS-MAP → synthesis/G7 |
+| Parent wording corrections | `transition-effect-feedback/feedback-adaptation/returned-influence/G6-SYNTHESIS-CHILD-DECISION.md` | G1/G2 and original F-pass evidence as needed |
+| Source coverage and limits | `transition-effect-feedback/feedback-adaptation/returned-influence/SOURCE-LEDGER.md` | primary source or G5 |
+| Feedback/Adaptation structure and remaining sibling | `transition-effect-feedback/feedback-adaptation/STATE.md` | KEY → current findings map/residuals |
+| Actual contribution versus contrastive effect | `transition-effect-feedback/causal-effect-contribution/STATE.md` | relevant accepted child |
+| Realized change and propagation | `transition-effect-feedback/transition-propagation/STATE.md` | KEY/synthesis |
+| Governing basis, authority, enforcement | `control-constraint/STATE.md` | KEY/synthesis |
+| Qualification and evidence sufficiency | `composite-standing/STATE.md` | KEY/synthesis |
+| Exact anchors, roles and scope | `relational-binding/STATE.md` | KEY/synthesis |
+| Original composition rationale | `KEY.md` | original parent map/synthesis/C7 |
+| Exact freshness | `CURRENT-SURFACES.md` | bound descendant manifests |
+| Candidate study reuse | `../../studies/CATALOG.md` | selected META → targeted findings → current external source if needed |
 
-**PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; TRANSITION PARENT ACCEPTED; FEEDBACK / ADAPTATION BOUNDED PARENT / AWAITING USER EVALUATION.**
+The candidate catalog route is relative to this package. Candidate findings remain separate from Foundation authority.
 
-No substantive composition child is active.
+## Original-pass versus current material
 
-## Preferred read order
+C0–C7, original PLAN, original FINDINGS-MAP and original synthesis retain the parent-pass evidence. Their historical status/next-step wording does not override current STATE. The same rule applies to original T/F pass artifacts; use current descendant entry routes for subsequent findings.
 
-1. `STATE.md` — current state and guardrail.
-2. Current Feedback result → `transition-effect-feedback/feedback-adaptation/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → F7.
-3. Accepted Causal parent and both causal leaves when causal/effectiveness boundaries are material.
-4. Accepted Transition / Propagation when realized-change boundary is material.
-5. Accepted Control, Standing and Binding only when decision-critical.
-6. Parent result → `KEY.md` → `FINDINGS-MAP.md` → synthesis/C7 when composition-boundary logic is material.
-7. Candidate studies only through catalog → selected META → targeted files.
-8. Current manifests for exact freshness.
+## Next responsibility
 
-## Current composition map
-
-```text
-Cross-Ground Composition
-├─ Relational Binding                  ← accepted bounded leaf
-├─ Composite Standing / Qualification ← accepted bounded leaf
-├─ Control / Constraint                ← accepted bounded leaf
-└─ Transition / Effect / Feedback      ← accepted bounded parent
-   ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
-   ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-   │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-   └─ Cross-Ground Feedback / Adaptation           ← BOUNDED PARENT / USER EVALUATION PENDING
-      ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
-      └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
-```
-
-## Current next-step interpretation
-
-Current interaction is Feedback / Adaptation parent-result evaluation only.
-
-If accepted, `Cross-Ground Feedback / Returned Influence` is the strongest first child and requires separate substantive activation.
-
-## Guardrail
-
-Architecture, ontology/data model, schema design, implementation and further child research remain unauthorized until separately activated.
+User evaluation of Returned Influence, including its disclosed wording refinements. Persistent Adaptation / Future-Response Change requires separate activation. Architecture, ontology/data-model/schema, implementation, new descendants and agent-control changes remain outside authorization.
