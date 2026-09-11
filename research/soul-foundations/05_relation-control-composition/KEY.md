@@ -1,126 +1,72 @@
 # Relation / Control / Composition — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Transition / Propagation accepted; Causal parent + both causal leaves accepted; Feedback / Adaptation bounded parent / awaiting user evaluation  
-**Date:** 2026-09-11
+**Updated:** 2026-09-11  
+**Status:** accepted Composition and Feedback/Adaptation parents; Returned Influence result awaiting evaluation. Current authorization is in `STATE.md`.
 
-## Shortest current result
+## Stable meaning
 
-Systematic cross-ground composition remains a coherent Foundation research problem dependent on the four accepted grounds.
-
-Current bounded structure:
+Cross-ground composition investigates how accepted Environment, Information, Work and Actors semantics bind, qualify, govern and change one another. These are diagnostic research regions, not implementation modules or mutually exclusive event classes.
 
 ```text
 Cross-Ground Composition
-├─ Relational Binding                  ← accepted bounded leaf
-├─ Composite Standing / Qualification ← accepted bounded leaf
-├─ Control / Constraint                ← accepted bounded leaf
-└─ Transition / Effect / Feedback      ← accepted bounded parent
-   ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
-   ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-   │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-   └─ Cross-Ground Feedback / Adaptation           ← BOUNDED PARENT / USER EVALUATION PENDING
-      ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
-      └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
+├─ Relational Binding
+├─ Composite Standing / Qualification
+├─ Control / Constraint
+└─ Transition / Effect / Feedback
+   ├─ Cross-Ground Transition / Propagation
+   ├─ Cross-Ground Causal Effect / Contribution
+   │  ├─ Actual Causal Contribution / Episode Causation
+   │  └─ Contrastive / Interventional Causal Effect
+   └─ Cross-Ground Feedback / Adaptation
+      ├─ Cross-Ground Feedback / Returned Influence
+      └─ Persistent Adaptation / Future-Response Change
 ```
 
-These are diagnostic research problem regions, not architecture modules or mutually exclusive event classes.
+## Accepted anchors
 
-## Accepted composition results
+Binding asks which exact anchors occupy which roles and applicability frames. Generic connectivity is insufficient.
 
-### Relational Binding
-> What exact anchors/roles are connected under which applicability frame?
+Composite Standing asks what cross-ground qualification holds. Actual standing, evidence assessment, decision and recorded status remain distinct. Cross-ground evidence alone does not make ground-local standing composite.
 
-### Composite Standing / Qualification
-> What cross-ground qualification holds because several ground semantics are constitutive of the standing?
+Control asks how an exact behavior/effect is governed under an applicable basis. Policy, authority, decision, enforcement and compliance are not interchangeable. One protected path is not all relevant effect paths.
 
-### Control / Constraint
-> How is an exact candidate behavior/transition/effect governed under an applicable basis/objective?
+Transition / Propagation asks what became real and how it spread. Requested/recorded change is not realized change; known targets need not exhaust material scope.
 
-### Transition / Effect / Feedback
+The Causal parent preserves actual episode contribution versus target-outcome differences under defined alternatives. Both causal children are accepted bounded leaves; their evidence limitations remain explicit.
 
-Accepted parent:
+## Feedback / Adaptation and current descendant
+
+The Feedback/Adaptation two-child parent was accepted on 2026-09-11. G0–G7 has now completed Returned Influence as a bounded leaf for evaluation; Persistent Adaptation remains unresearched/inactive as a dedicated sibling pass.
+
+Current result route:
+
+`transition-effect-feedback/feedback-adaptation/returned-influence/STATE.md` → KEY → map → synthesis/G7.
+
+Strong new distinctions:
 
 ```text
-Transition / Effect / Feedback
-├─ Transition / Propagation
-├─ Causal Effect / Contribution
-└─ Feedback / Adaptation
+unchanged output != no feedback
+unchanged output != proof of feedback use
+return topology != active coupling != particular-signal contribution
+informed decision != executed action != achieved target effect
+any downstream information influence != relevant feedback return
 ```
 
-Critical routing boundary:
+The leaf retains one reference-relative operative-return grammar. Hold, continuation and inhibition can be informed response modes. The parent’s earlier visible-change shorthand and overstrong logical-independence wording are explicitly qualified in G6; these refinements remain part of the pending child result rather than silently rewritten historical evidence.
 
-```text
-ground-local dynamics != cross-ground Transition / Effect / Feedback
-```
+## SOUL-facing interpretation, not adopted design
 
-## Accepted Transition / Propagation
+A causally operative feedback loop can still circulate the same unsupported claim. Internal agreement is not independent corroboration; signal influence does not prove source truth or grant authority to change policy. A justified response can retain an answer rather than revise it for appearance.
 
-A propagation episode can comprise several exact transition instances with distinct scope/time/failure points.
+This supplies criteria for later SOUL reasoning and evaluation, not architecture, self-modification rights or a runtime mechanism.
 
-## Accepted Causal Effect / Contribution
+## Remaining inquiry
 
-```text
-Actual Causation
-→ which contributors actually made this realized episode/effect happen?
+Persistent Adaptation asks whether feedback/history creates a realized, retained future-response difference. Stored lessons and completed improvement Work are insufficient by identity. Adaptation occurrence remains separate from benefit, stability and acceptance.
 
-Contrastive Causal Effect
-→ how would target outcomes differ under X versus X'?
-```
+It is recommended next after Returned Influence evaluation and separate activation. Foundation is not declared complete.
 
-Both causal children are accepted bounded leaves.
+## Verification and history
 
-## Current Feedback / Adaptation result
-
-Dedicated F0→F7 research promotes two immediate diagnostic children:
-
-```text
-Cross-Ground Feedback / Adaptation
-├─ Cross-Ground Feedback / Returned Influence
-└─ Persistent Adaptation / Future-Response Change
-```
-
-Critical distinction:
-
-```text
-feedback loop != persistent adaptation
-```
-
-Strong rules:
-
-```text
-observation != feedback
-signal available != consumed != causally influential
-one-off response != adaptation
-repeated fixed response != adaptation
-stored lesson != adaptation
-adaptation Work complete != adaptation realized
-adaptation occurred != adaptation beneficial/effective
-```
-
-Frame/effect guardrails:
-
-```text
-all observed signals handled != all material outcomes observed
-local/proxy objective improved != intended/global target improved
-feedback/adaptation occurred != stable/safe/beneficial
-```
-
-## Current sequencing recommendation
-
-If the Feedback / Adaptation parent result is accepted:
-
-> **Cross-Ground Feedback / Returned Influence**
-
-is the strongest first immediate-child pass.
-
-Do not activate automatically.
-
-## Verification boundary
-
-All closure adversarial passes remain same-model review. WHO, FAA, NIST, NASA and Google SRE supplied external pressure for Feedback/Adaptation distinctions; gstack and Anthropic supplied candidate-system pressure. No independent second-researcher/model replication validates the exact hierarchy.
-
-## Current gate
-
-Feedback / Adaptation parent-result evaluation only. No substantive child, architecture, ontology/data model or implementation work is active.
+Original C/T/F pass artifacts remain preserved evidence snapshots; their old frontier language does not override current STATE. All adversarial closures remain same-model. Fresh primary-source pressure and seven toy checks supported G at their recorded scope, without live-agent efficacy or independent second-researcher/model replication.
