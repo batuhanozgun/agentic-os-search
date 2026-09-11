@@ -1,66 +1,58 @@
 # Cross-Ground Feedback / Adaptation — STATE
 
-**Status:** BOUNDED PARENT / USER-ENDORSED / ACCEPTED  
-**Activated / closed for evaluation:** 2026-09-11  
-**Accepted:** 2026-09-11  
+**Status:** ACCEPTED BOUNDED PARENT; RETURNED INFLUENCE BOUNDED LEAF / USER EVALUATION PENDING  
+**Parent activated / completed / accepted:** 2026-09-11  
 **Parent:** Transition / Effect / Feedback — accepted bounded parent  
-**Accepted siblings:** Cross-Ground Transition / Propagation; Cross-Ground Causal Effect / Contribution  
 **F0–F7:** COMPLETE  
-**Current authorised substantive activity:** CROSS-GROUND FEEDBACK / RETURNED INFLUENCE CHILD PASS  
-**Current child phase:** G0–G1
+**Returned Influence G0–G7:** COMPLETE  
+**Current authorised substantive activity:** NONE  
+**Current authorised interaction:** RETURNED-INFLUENCE RESULT EVALUATION
 
-## Authorization transition
-
-Following the parent result and SOUL interpretation, the user endorsed the value of the interpretation and explicitly requested continuation to the operational boundary. This accepts the bounded parent and activates its recommended first child. It does not authorize the Persistent Adaptation sibling or system design.
-
-## Accepted structure
+## Current structure
 
 ```text
-Cross-Ground Feedback / Adaptation                  ← ACCEPTED BOUNDED PARENT
-├─ Cross-Ground Feedback / Returned Influence         ← ACTIVE
-└─ Persistent Adaptation / Future-Response Change      ← inactive
+Cross-Ground Feedback / Adaptation                  ← accepted bounded parent
+├─ Cross-Ground Feedback / Returned Influence         ← bounded leaf / USER EVALUATION PENDING
+└─ Persistent Adaptation / Future-Response Change      ← recommended after evaluation / inactive
 ```
 
-These are diagnostic research questions, not mutually exclusive event classes.
+Parent acceptance followed the user's endorsement of the SOUL interpretation and explicit continuation instruction. That authorization activated only Returned Influence. No new child or Persistent Adaptation work is active.
 
-## Protected parent question
+## Protected parent questions
 
-When observations/results/outcomes return across accepted-ground boundaries, when do they operatively influence later response, and when does history produce persistent change in future-response behavior?
+1. How does condition/performance information return into a relevant later response process?
+2. When does feedback/history produce persistent change in responses to materially comparable future situations?
 
-## Active child
+These are distinct, non-coextensive diagnostic questions, not disjoint event classes or automatically independent historical predicates.
 
-`returned-influence/STATE.md` → `PLAN.md`.
+## Current Returned Influence result
 
-Its research tests the parent's shorthand rather than treating it as immutable: in particular, whether operative hold/inhibition can be feedback without a visible before/after action change, and what makes information flow a return rather than merely a forward dependency.
+`returned-influence/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis/G7.
 
-## Inactive sibling
-
-Persistent Adaptation / Future-Response Change asks whether feedback/history produces a durable change in responses to materially comparable future situations, where it is realized and how it is retained.
+One reference-relative operative-return grammar; no immediate children.
 
 ```text
-one-off response != persistent adaptation
-repeated fixed response != adaptation by identity
-stored lesson != adaptation
-adaptation Work complete != adaptation realized
-persistent adaptation != beneficial/effective adaptation
+unchanged output != no feedback
+unchanged output != proof of feedback use
+loop structure != active coupling != particular-signal contribution
+informed response != executed action != achieved target effect
+any information influence != relevant feedback return
 ```
 
-## Retained parent boundaries
+G6 records proposed narrow parent wording refinements for operative hold, explicit return reference, partial response versus end-to-end effect and qualified independence language. They belong to the current child result awaiting evaluation. The accepted two-child parent structure is not reopened.
 
-```text
-signal exists/delivered/consumed != operative influence established
-feedback loop != persistent adaptation
-all observed signals handled != all material outcomes observed
-local/proxy objective improved != intended/global target improved
-feedback/adaptation occurred != stable/safe/beneficial
-```
+## Persistent Adaptation — inactive
 
-F0–F7 and the parent synthesis retain the original reasoning. Any child-level refinement must be disclosed in current result surfaces and linked to its evidence, not silently rewritten into the historical passes.
+The remaining sibling asks what history-dependent future-response change is actually realized and retained, including latent response, forgetting and supersession. Work completion or a stored lesson is not sufficient by identity. Adaptation occurrence remains distinct from causal benefit and acceptance.
 
-## Verification / continuity
+Its ordering should be confirmed from the completed child result, not merely from list position. Returned Influence currently recommends it next, after evaluation and separate activation.
 
-F7 is same-model adversarial review, not independent replication. User acceptance closes the evaluation gate but adds no scientific verification. Root and child activation are being synchronized; previous closure manifests are historical until this transition completes.
+## Historical evidence and current authority
 
-## Stop / guardrail
+Original F0–F7, the original parent synthesis and completed parent PLAN are preserved snapshots of that pass. Their old evaluation/next-step wording does not override this current STATE or the descendant STATE. Current KEY/map/router explicitly point to the child refinements.
 
-Return the active child's bounded result for user evaluation. Do not automatically activate Persistent Adaptation or new descendants. No architecture, ontology/data-model/schema, implementation or agent-control mutation is authorized.
+## Verification and stop
+
+F7/G7 are same-model reviews, not independent replication. Fresh primary reading supported the child distinctions; seven toy checks established only their constructed relationships. No live SOUL/controller efficacy or independent second-researcher/model replication is claimed.
+
+Do not automatically activate Persistent Adaptation, new descendants, architecture, ontology/data-model/schema, implementation or agent-control changes.
