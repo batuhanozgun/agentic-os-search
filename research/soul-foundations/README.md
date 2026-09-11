@@ -1,50 +1,30 @@
 # SOUL Foundations Research
 
-## Purpose
+## Purpose and authority
 
-This package preserves first-principles research into foundational problem regions that may later inform SOUL and Development OS work.
+This package preserves first-principles research that may later inform SOUL and Development OS. It is a research library and continuity surface, not a declared ontology, architecture or implementation plan.
 
-It is a **research library and continuity surface**, not a pre-declared ontology or architecture. Research labels, distinctions, synthesis results and counterexamples do not automatically become SOUL/Development OS design decisions.
-
-For current status and authorization always read:
-
-1. `STATE.md`;
-2. `INDEX.md`.
-
-This README is stable orientation, not dynamic authority.
-
----
+Read `STATE.md` then `INDEX.md` for current authorization. This README is orientation; research findings do not automatically become adopted design decisions.
 
 ## Research progression
 
-### `01_verticals/` — independent discovery research
-Completed bounded corpora: Records / persistent information; Work; Actors; Technical Work Environment.
+### `01_verticals/` — independent discovery
 
-### `02_adequacy/` — first top-level adequacy synthesis
-Exposed two major level corrections: actual Operating/Domain Reality was missing; Records was too narrow for Information/Representation.
+Bounded corpora covered Records/persistent information, Work, Actors and Technical Work Environment.
 
-Working frame became:
+### `02_adequacy/` — first top-level assessment
 
-```text
-Environment / Operating Reality
-Information / Representation
-Work
-Actors / Agency–Participation–Authority
+Research exposed missing actual Operating/Domain Reality and the limits of Records as a name for Information/Representation. The working frame became Environment, Information, Work and Actors plus typed relations/control/transitions.
 
-+ typed relations / control / transitions
-```
+### `03_ground-deepening/` — accepted ground research
 
-### `03_ground-deepening/`
-All four grounds were deepened/evaluated and accepted.
+All four grounds were deepened and user-evaluated/accepted.
 
-### `04_top-level-adequacy-rerun/`
-The four-ground hypothesis survived post-deepening adequacy rerun. **Status: user-evaluated / accepted.**
+### `04_top-level-adequacy-rerun/` — accepted post-deepening assessment
 
----
+The four-ground hypothesis survived bounded omission/rival tests. This did not declare all Foundation work complete.
 
-## `05_relation-control-composition/` — cross-ground composition research
-
-Accepted parent structure:
+### `05_relation-control-composition/` — cross-ground questions
 
 ```text
 Cross-Ground Composition
@@ -52,90 +32,76 @@ Cross-Ground Composition
 ├─ Composite Standing / Qualification
 ├─ Control / Constraint
 └─ Transition / Effect / Feedback
+   ├─ Cross-Ground Transition / Propagation
+   ├─ Cross-Ground Causal Effect / Contribution
+   │  ├─ Actual Causal Contribution / Episode Causation
+   │  └─ Contrastive / Interventional Causal Effect
+   └─ Cross-Ground Feedback / Adaptation
+      ├─ Cross-Ground Feedback / Returned Influence
+      └─ Persistent Adaptation / Future-Response Change
 ```
 
-These are diagnostic research problem regions, not architecture modules or mutually exclusive event/object classes.
+These are diagnostic research regions, not disjoint object/event classes or architecture modules.
+
+## Accepted composition anchors
 
 ### Relational Binding — accepted bounded leaf
 
-> What exact anchors are connected, in what typed semantic positions and applicability frame?
+What exact anchors are connected, in which roles and applicability frame?
 
 ```text
 generic connectivity != semantic binding
 represented binding != actual binding
-actual binding != evidence sufficient to establish binding
+actual binding != evidence sufficient to establish it
 graph reachability != legitimate transitive relation
 ```
 
 ### Composite Standing / Qualification — accepted bounded leaf
 
-> What cross-ground qualification irreducibly depends on multiple accepted-ground semantics?
+What qualification irreducibly depends on several accepted-ground semantics?
 
 ```text
-ground-local Criterion-Relative Standing
-!= cross-ground Composite Standing
-
-standing holds
-!= epistemic assessment
-!= decision / recognition
-!= recorded status
+ground-local Criterion-Relative Standing != Composite Standing
+actual standing != assessment != decision/recognition != recorded status
+verified != validated != accepted
 ```
+
+Cross-ground evidence alone does not make the standing itself cross-ground.
 
 ### Control / Constraint — accepted bounded leaf
 
-> How is an exact candidate behavior, transition, flow or protected effect governed under an applicable basis/objective?
+How is an exact candidate behavior/transition/effect governed under an applicable basis?
 
 ```text
 policy != authority != decision != enforcement != monitoring != compliance
 control-objective scope != enforcement-point scope
 ```
 
+A successfully blocked path does not establish control of every material effect path.
+
 ### Transition / Effect / Feedback — accepted bounded parent
 
-```text
-Transition / Effect / Feedback
-├─ Cross-Ground Transition / Propagation
-├─ Cross-Ground Causal Effect / Contribution
-└─ Cross-Ground Feedback / Adaptation
-```
+Ground-local dynamics remain Environment-local. Composition concerns questions that require the semantics of several accepted grounds.
 
-Critical routing boundary:
+#### Transition / Propagation — accepted bounded leaf
+
+What exact change became real/effective, for which scope/time, and how did it spread?
 
 ```text
-ground-local dynamics != cross-ground Transition / Effect / Feedback
-```
-
-#### Cross-Ground Transition / Propagation — accepted bounded leaf
-
-> What exact change became real/effective, for which scope/time, and how fully did it propagate?
-
-Strong discoveries:
-
-```text
-requested/approved change != realized change
+requested/approved/recorded change != realized change
 local realization != full applicable propagation
 propagation != data replication
 rollback != time reversal
-all known targets updated != all materially applicable targets known
+all known targets updated != all material targets known
 ```
 
-#### Cross-Ground Causal Effect / Contribution — accepted bounded parent
+A propagation episode can contain multiple exact transitions with different scope, time and failure points.
 
-```text
-Cross-Ground Causal Effect / Contribution
-├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-└─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-```
+#### Causal Effect / Contribution — accepted bounded parent
 
-Critical split:
+Both immediate children are accepted bounded leaves.
 
-```text
-Did X cause this observed Y?
-!=
-How would Y differ under X versus X'?
-```
-
-##### Actual Causal Contribution / Episode Causation
+**Actual Causal Contribution / Episode Causation:** which actual contributors made this exact effect occur?
 
 ```text
 chronology != actual cause
@@ -143,144 +109,108 @@ joint causal configuration != independent cause edges
 but-for necessity != universal causal criterion
 one cause identified != complete causal model
 causal contribution != responsibility/accountability
-all observed contributors analyzed != causal explanation complete
+all observed contributors analyzed != explanation complete
 ```
 
-##### Contrastive / Interventional Causal Effect
+**Contrastive / Interventional Causal Effect:** how would target outcomes differ under exact X versus comparator X'?
 
 ```text
 "X works" != well-formed causal-effect claim
-causal effect identity = outcome + target + X vs X' + applicability frame
+causal target = outcome + target + X versus X' + applicability frame
 intended/assigned intervention != realized/received intervention
+bundle effect != component effect
 average effect != individual effect
 source/local effect != target effect
 causal target defined != identifiable != estimated != decision-sufficient
-Control present/implemented/complied-with != Control causally effective
+control implemented/complied-with != causally effective
 ```
 
-Transportability/Generalization remains the strongest explicit reopen trigger, not a promoted child at current depth.
+Transportability/generalization remains an explicit reopen concern. Dedicated causal passes had fresh-literature access limitations; later feedback research did not retroactively resolve them.
 
-#### Cross-Ground Feedback / Adaptation — bounded parent / user evaluation pending
+#### Feedback / Adaptation — accepted bounded parent
 
-Dedicated F0→F7 research produced:
+The parent separates returned influence from persistent future-response change. Its acceptance followed the user's endorsement and continuation instruction on 2026-09-11.
+
+Fixed feedback can operate without adaptation; one historical episode can support later persistent change without a continuously recurring online loop. These questions are distinct and non-coextensive, not necessarily independent historical predicates.
+
+##### Feedback / Returned Influence — bounded leaf, user evaluation pending
+
+Dedicated G0–G7 research asks how realized condition/performance information returns into an applicable response process for a bounded system or continuing pursuit.
+
+Its central correction to earlier visible-change shorthand is:
 
 ```text
-Cross-Ground Feedback / Adaptation
-├─ Cross-Ground Feedback / Returned Influence
-└─ Persistent Adaptation / Future-Response Change
+unchanged output != absence of feedback
+unchanged output != proof of feedback use
 ```
 
-The parent is **not a leaf**.
+An operative process can select hold, continuation or inhibition. A blind process can produce the same visible output, so a no-change result alone proves neither use nor non-use.
 
-##### Cross-Ground Feedback / Returned Influence — discovered / inactive
-
-> Did a realized outcome/state produce a returned signal that reached a later consumer and causally influenced a subsequent action, decision, control or transition?
+Four claim scopes remain separate, without becoming four children:
 
 ```text
-observation != feedback
-signal available != consumed
-consumed != causally influential
-feedback occurred != current/timely enough
-feedback exists != stable/safe
+return structure
+!= active coupling/use
+!= particular-signal/configuration causal contribution
+!= downstream realization/target effect
 ```
 
-##### Persistent Adaptation / Future-Response Change — discovered / inactive
+An informed decision may fail to execute; an executed action may fail to change the intended target. Not every downstream use of information is feedback: the relevant return reference and continuing system/pursuit must be explicit.
 
-> Did feedback/history produce a durable change in how the system responds to future materially comparable situations?
+Further guardrails:
 
 ```text
-one-off response != adaptation
+influential signal != accurate/authoritative signal
+internal agreement != independent corroboration
+all received signals handled != all material outcomes observed
+local/proxy improvement != intended/system improvement
+```
+
+The original F0–F7 artifacts remain preserved. G6 records narrow proposed wording refinements, including the return reference, operative hold, partial actuation and qualified independence language. These refinements are part of the new result awaiting evaluation, not already accepted new research.
+
+Current entry:
+
+`05_relation-control-composition/transition-effect-feedback/feedback-adaptation/returned-influence/STATE.md` → KEY → FINDINGS-MAP → synthesis/G7.
+
+##### Persistent Adaptation / Future-Response Change — recommended after evaluation, inactive
+
+The remaining inquiry asks whether history produces a realized and retained difference in future materially comparable responses, including latent effects, forgetting and supersession.
+
+```text
+one-off response != persistent adaptation
 repeated fixed response != adaptation
 stored lesson != adaptation
-adaptation Work complete != adaptation realized
-persistent adaptation != beneficial/effective adaptation
+improvement Work complete != adaptation realized
+adaptation occurred != beneficial/stable/safe adaptation
 ```
 
-Strongest structural distinction:
+The dedicated sibling pass has not begun. No automatic continuation follows from its relevance.
+
+## Current checkpoint
+
+All four grounds and the Composition, Transition, Causal and Feedback/Adaptation parents are accepted. Returned Influence is a bounded-leaf result awaiting evaluation. Persistent Adaptation remains inactive. No substantive Foundation child is active at this evaluation boundary.
+
+Foundation is not declared complete. Architecture, ontology/data-model/schema, implementation, new descendants and agent-control changes remain outside this closure's authority.
+
+## Research reuse and continuity
+
+Candidate studies live in `research/studies/`; use `research/studies/CATALOG.md` then selected package META and detailed evidence. Candidate relevance is not Foundation membership or adoption authority. Fresh external validation is required when a changing provider/runtime fact becomes load-bearing.
+
+Preferred retrieval:
+
+`STATE → INDEX → current package STATE → KEY → FINDINGS-MAP → synthesis → targeted evidence`.
+
+Original parent plans, pass artifacts, original maps and syntheses are evidence snapshots. Their historical next-step labels do not override current state. Current manifests bind exact content identity and distinguish original inputs from current descendant outputs.
+
+## Verification limits
+
+Fresh primary reading succeeded for the Returned Influence distinctions. Its source ledger identifies reading depth and inaccessible optional full texts. G7 is same-model adversarial review, supplemented by seven executed toy-function counterexamples; those examples were not live SOUL/controller or human-behavior tests.
 
 ```text
-feedback loop != persistent adaptation
-```
-
-A fixed feedback controller can have genuine feedback without adaptation. One historical feedback episode can also create a persistent policy/test/control/configuration change without a continuously recurring online loop.
-
-Frame/effect guardrails:
-
-```text
-all observed signals handled != all material outcomes observed
-local/proxy objective improved != intended/global target improved
-feedback/adaptation occurred != stable/safe/beneficial
-```
-
-External pressure used: WHO patient-safety reporting/learning, FAA SMS/Safety Assurance, NIST CSF 2.0 Improvement, NASA adaptive-control/learning-control, Google SRE postmortem practice, plus gstack and Anthropic candidate studies. No source publishes the exact project synthesis.
-
----
-
-## Current Foundation frontier
-
-```text
-Environment / Operating Reality                 ← accepted
-Information / Representation                    ← accepted
-Work                                             ← accepted
-Actors / Agency–Participation–Authority          ← accepted
-post-deepening top-level adequacy                ← accepted
-
-Cross-Ground Composition                        ← accepted
-    ├─ Relational Binding                       ← accepted bounded leaf
-    ├─ Composite Standing / Qualification       ← accepted bounded leaf
-    ├─ Control / Constraint                     ← accepted bounded leaf
-    └─ Transition / Effect / Feedback           ← accepted bounded parent
-       ├─ Cross-Ground Transition / Propagation     ← accepted bounded leaf
-       ├─ Cross-Ground Causal Effect / Contribution ← accepted bounded parent
-       │  ├─ Actual Causal Contribution / Episode Causation    ← accepted bounded leaf
-       │  └─ Contrastive / Interventional Causal Effect         ← accepted bounded leaf
-       └─ Cross-Ground Feedback / Adaptation        ← BOUNDED PARENT / USER EVALUATION PENDING
-          ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
-          └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
-```
-
-No substantive Foundation child is active at the current evaluation gate.
-
-If the Feedback / Adaptation parent result is accepted, the strongest first child is **Cross-Ground Feedback / Returned Influence**. It requires separate substantive activation.
-
-Architecture, ontology/data model, schema design and implementation remain outside current Foundation authorization.
-
----
-
-## Relationship to candidate studies
-
-Canonical candidate-study library: `research/studies/`.
-
-Discovery surface: `research/studies/CATALOG.md`.
-
-Candidate studies may supply evidence, falsifiers, mechanisms, benchmarks and implementation learning. They do not define Foundation structure merely by being catalogued.
-
----
-
-## Retrieval model
-
-`STATE.md → INDEX.md → current package STATE → KEY → FINDINGS-MAP → synthesis → targeted deep evidence`
-
-Historical material remains useful for audit/reconstruction but does not override current parent authority.
-
----
-
-## Epistemic rules
-
-Keep separate:
-- bounded Foundation research finding;
-- accepted working research hypothesis;
-- candidate-study finding;
-- cross-ground inference;
-- residual/open question;
-- architecture/design decision;
-- implementation state.
-
-Also keep separate:
-
-```text
-same-model adversarial review != independent verification
+same-model review != independent replication
+constructed counterexample != measured live-system efficacy
 exact Git SHA binding != substantive truth verification
+user acceptance != independent validation
 ```
 
-User acceptance closes sequencing/evaluation gates; it does not convert same-model synthesis into independent replication.
+Preserve finding, inference, hypothesis, residual, candidate design, accepted design and implementation state as separate epistemic categories.
