@@ -1,82 +1,54 @@
 # Transition / Effect / Feedback — KEY
 
 **Document role:** CURRENT_L0  
-**Updated:** 2026-09-11  
-**Status:** accepted parent; Returned Influence result awaiting evaluation. Read `STATE.md` for current authorization.
+**Status:** accepted parent; Transition / Propagation accepted; Causal parent + both causal children accepted; Feedback / Adaptation accepted; Returned Influence accepted  
+**Date:** 2026-09-11
 
-## Research structure
+## Current structure
 
 ```text
 Transition / Effect / Feedback
-├─ Cross-Ground Transition / Propagation
-├─ Cross-Ground Causal Effect / Contribution
-│  ├─ Actual Causal Contribution / Episode Causation
-│  └─ Contrastive / Interventional Causal Effect
-└─ Cross-Ground Feedback / Adaptation
-   ├─ Cross-Ground Feedback / Returned Influence
-   └─ Persistent Adaptation / Future-Response Change
+├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
+├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
+│  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
+│  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
+└─ Cross-Ground Feedback / Adaptation           ← accepted bounded parent
+   ├─ Cross-Ground Feedback / Returned Influence          ← accepted bounded leaf
+   └─ Persistent Adaptation / Future-Response Change       ← recommended next / inactive
 ```
 
-These are diagnostic research questions, not disjoint event classes or implementation components. Ground-local dynamics remain Environment-local.
+## Accepted Returned Influence
 
-## Accepted prerequisites
-
-Transition / Propagation asks what exact change became real/effective and how it propagated. It is an accepted bounded leaf.
-
-The accepted Causal parent distinguishes actual contributors to one realized episode from target-outcome differences under defined alternatives. Both causal children are accepted bounded leaves. Causal contribution is not responsibility by identity; causal targets are not their estimates or evidence-sufficiency qualifications.
-
-## Feedback / Adaptation parent
-
-The two-child parent was user-endorsed and accepted on 2026-09-11. Feedback return and persistent future-response change remain distinct and non-coextensive questions.
-
-Returned Influence now has dedicated G0–G7 research. Persistent Adaptation remains inactive.
-
-## Current Returned Influence result
-
-`feedback-adaptation/returned-influence/KEY.md` → findings map → synthesis/G7.
-
-The bounded-leaf result preserves one reference-relative operative-return grammar, without new immediate children. It explicitly distinguishes:
+Dedicated G0→G7 research closed this child as one bounded leaf.
 
 ```text
-return path exists
-!= active coupling/use
-!= particular-signal causal contribution
-!= downstream execution/target effect
-
 unchanged output != no feedback
 unchanged output != proof of feedback use
+return path != active coupling != particular-signal contribution
+informed response != executed action != achieved target
 any information influence != relevant feedback return
 ```
 
-Hold, continuation or inhibition can be an informed response. Visible mutation after each observation is not universally required. Conversely, no-change behavior cannot establish operative use by itself.
+The accepted child refines the Feedback/Adaptation parent's shorthand without changing its two-child structure: returned influence may produce hold/continuation/inhibition rather than visible change, and exact return reference plus response/effect locus must be explicit.
 
-These narrow refinements are part of the child result awaiting user evaluation. Original parent-pass artifacts are retained so the change from earlier shorthand remains visible.
+## Remaining sibling — Persistent Adaptation
 
-## Persistent Adaptation — remaining inquiry
-
-The sibling asks whether feedback/history produces a durable difference in future materially comparable responses, where it is realized, and how it is retained, forgotten or superseded.
+> Did feedback/history produce a durable change in how the system responds to future materially comparable situations, and how is that change realized, retained, forgotten, reverted or superseded?
 
 ```text
 one-off response != persistent adaptation
+repeated fixed response != adaptation
 stored lesson != adaptation
-improvement Work complete != adaptation realized
-adaptation occurrence != causal benefit
+adaptation Work complete != adaptation realized
+adaptation occurred != beneficial/effective adaptation
 ```
 
-Its dedicated pass has not begun. It is the recommended next inquiry after evaluation and separate activation.
+## Current sequencing recommendation
 
-## Frame, authority and effectiveness
+> **Persistent Adaptation / Future-Response Change** is the strongest next substantive child.
 
-```text
-all received signals handled != all material outcomes observed
-influential signal != accurate/authoritative signal
-internal agreement != independent corroboration
-local/proxy improvement != intended/system improvement
-feedback/adaptation occurred != stable/safe/beneficial
-```
-
-Control retains governing authority and enforcement semantics; Causal Effect and Standing retain benefit/effectiveness and qualification questions.
+It is inactive and requires separate activation.
 
 ## Verification boundary
 
-All closure adversarial reviews remain same-model. G7 adds fresh primary-source pressure and seven constructed logical checks, not live-agent efficacy or independent replication. Prior causal literature-access limitations are not retroactively resolved.
+All closure adversarial passes remain same-model review. Returned Influence used fresh primary-source pressure and seven constructed toy checks; neither constitutes independent replication or live SOUL efficacy validation.
