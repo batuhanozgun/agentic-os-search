@@ -1,12 +1,12 @@
 # Cross-Ground Feedback / Returned Influence — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** BOUNDED LEAF / USER EVALUATION PENDING  
+**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED  
 **Date:** 2026-09-11
 
 ## Shortest result
 
-Returned Influence is a bounded diagnostic leaf with one reference-relative operative-return grammar. No immediate child is promoted.
+Returned Influence is an accepted bounded diagnostic leaf with one reference-relative operative-return grammar. No immediate child is promoted.
 
 > For a bounded system or continuing pursuit, did information about its realized condition/performance return into the relevant response process, and what claim about its operative use or effect is actually supported?
 
@@ -49,20 +49,16 @@ feedback operates != beneficial/stable/safe
 feedback operates != persistent adaptation
 ```
 
-This is an operational research distinction, not a ban on calling an unconsumed comment a 'feedback message' in ordinary language.
-
 ## Parent impact
 
-The accepted Feedback/Adaptation two-child structure survives. G6 records narrow wording refinements: explicit return reference, no visible-change requirement, partial response versus end-to-end effect, and qualified independence language. These new refinements are part of the child result awaiting evaluation; original F0–F7 remain historical snapshots.
+The accepted Feedback/Adaptation two-child structure survives. The parent wording refinements discovered here are accepted with this leaf: explicit return reference, no visible-change requirement, partial response versus end-to-end effect, and qualified independence language.
 
 ## Later SOUL interpretation
 
-A system should not mistake frequent revision for learning or internal agreement for external correctness. The valuable question is whether relevant evidence reaches the authorized response path—and whether justified response means change, restraint or further inquiry in that situation. This is a design-evaluation lens, not adopted architecture or a new agent-control rule.
+A system should not mistake frequent revision for learning or internal agreement for external correctness. The valuable question is whether relevant evidence reaches the response path—and whether justified response means change, restraint or further inquiry in that situation. This is a design-evaluation lens, not adopted architecture or a new agent-control rule.
 
 ## Next frontier and limits
 
-Recommended after evaluation: **Persistent Adaptation / Future-Response Change**, inactive.
+> **Persistent Adaptation / Future-Response Change** is recommended next / inactive.
 
 G7 is same-model review. Fresh primary reading supplied counterpressure; seven executed toy checks establish only their constructed relationships. No live-agent efficacy or independent second-researcher/model replication is claimed.
-
-Read `FINDINGS-MAP.md` for depth; `CURRENT-SURFACES.md` for exact file identity after closure.
