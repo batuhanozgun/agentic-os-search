@@ -1,8 +1,16 @@
 # Hermes Agent — Kaynak ve yürütme rotası
 
-**2026-09-11 / plan v0.19.** [STATE](STATE.md) work authority. Primary `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`; current installed ürün değildir. Yeni U06 source study ve bounded process-local execution, eski koşuların tekrarı değildir.
+**2026-09-11 / plan v0.20; U07 yayın checkpoint'i.** [STATE](STATE.md) work authority. Primary `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`; current installed ürün değildir. Yeni U07 source study ve bounded real-SQLite queue execution önceki U06'dan ayrıdır; bu aktarım yeni araştırma/deney değildir. Eski koşular tekrar edilmedi.
 
-## Güncel U06
+## U07 — özgün araştırma ve yayın
+
+[22](notes/22-CRON-SCHEDULING-EXECUTION-AND-DELIVERY.md) → [U07 S01–S08](evidence/2026-09-11-cron-scheduling-delivery/SOURCES.md)/[SOURCES.json](evidence/2026-09-11-cron-scheduling-delivery/SOURCES.json) → [RESEARCH](evidence/2026-09-11-cron-scheduling-delivery/RESEARCH.md). S01 startup selected; S02 scheduler selected; S03 executions full read NOT RUN; S04 provider/S05 jobs/S07 delivery selected; **S06 queue full byte + bounded execution**; S08 MIT reuse.
+
+S06 blob `689fd620d6193003bbd168a0e62770a0d0306ac6`, SHA-256 `62529e31774f414f9cda886505f0db7f291d13f566cc06982c11cba1da005c4b`, 13.837 byte. D01–D06 ve N00–N02; recorded UTC `2026-09-11T14:22:57.364884+00:00`–`2026-09-11T14:22:57.404381+00:00`. Raw RESULT SHA-256 `c53f850cceaad5e84eb800ce88b02c9a4eb227a00d82ee1714aecaefe7b51719`. [SPEC](evidence/2026-09-11-cron-scheduling-delivery/SPEC.md)/[RESULT](evidence/2026-09-11-cron-scheduling-delivery/RESULT.json)/[MANIFEST](evidence/2026-09-11-cron-scheduling-delivery/MANIFEST.json), source/probe/input/log/DB/raw archive. İlk attempt-00 pre-case metadata hatası; yalnız metadata expression düzeltmesi, oracles/SPEC/source sabit. Yeni behavioral run ile artifact kontrolleri ayrı.
+
+Queue None/pending çalıştırıldı; üst delivered classifier bağlantısı source inference. Actual gateway drainer/status consumer, foreign-owner process, SessionDB/history, full host/OS/network/model açık. gateway/run.py 3150–3325 429, seri retry yok. Yeni default-branch `04dd80a...` queued alanları ve drainer yalnız navigation, current revalidation değil. İlk write-action yokluğu tarihsel kayıttır; güncel U07 yayın makbuzu: [PUBLICATION](evidence/2026-09-11-cron-scheduling-delivery/PUBLICATION.md).
+
+## U06 — yayımlanmış tarihsel kaynak ve koşu
 
 [21](notes/21-RESUME-ADMISSION-AND-DRIVER-RECOVERY.md) → **[S01–S12](evidence/2026-09-11-resume-admission/SOURCES.md)** → [RESEARCH](evidence/2026-09-11-resume-admission/RESEARCH.md). S01 actual messages selector/projection/guard, S02 flush/holder/adoption, S03 startup/recovery/redelivery, S04 lifecycle marker, S05 commands, S06 adapter/task, S07 gateway turn, S08 turn runner, S09 inbound, S10 yardımcı navigation, S11 native registry, S12 MIT license. Her ID'nin tam/range/incidental kapsamı local SOURCES'tadır; listed olmak full-read/run değildir.
 
@@ -28,4 +36,6 @@ A/B'nin aynı G/H ID'leri eş vaka değildir; L ile birleştirilmiş başarı sk
 
 ## Açık consumer / next
 
-Q42 startup preclaim/carrier/drain→actual turn admission receipt; Q40 actual DB/quiet history; Q41 migration/profile/fault; Q43 worker/OS/external effect; Q46 ledger/user delivery açıktır. Q07/Q22 wire, Q26/Q29 full worker ve Q38 fidelity korunur. Dar integration kesitinden sonra F10 cron/scheduler geniş native araştırması öne gelir. [U06 PUBLICATION](evidence/2026-09-11-resume-admission/PUBLICATION.md) yalnız repository ref/diff/content doğrulamasıdır.
+U07 ilk yeni consumer: actual cron gateway delivery drainer/profile/transport ve queued/delivered/finished receipt; sonra occurrence/late callback/rearm ve run_job script/agent/context. Q40 actual DB/quiet history, Q42 startup preclaim/carrier/drain/actual admission explicit deferred. Q41 migration, Q43 worker/effect, Q07/Q22 wire, Q26/Q29 full worker, Q38 manual fidelity korunur. U07 queue full byte kimliği onları kapatmaz.
+
+[U06 PUBLICATION](evidence/2026-09-11-resume-admission/PUBLICATION.md) tamamlanmış yayındır; yeni [U07 PUBLICATION](evidence/2026-09-11-cron-scheduling-delivery/PUBLICATION.md) güncel yayın ile ilk yerel teslim sınırını ayrı taşır. HERMES dışında mutation yoktur.
