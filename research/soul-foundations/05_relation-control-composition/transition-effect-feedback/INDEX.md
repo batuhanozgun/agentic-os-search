@@ -8,21 +8,20 @@ Read `STATE.md` first for current authorization.
 
 ## Current status
 
-**PARENT ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; ACTUAL CAUSAL CONTRIBUTION ACCEPTED; CONTRASTIVE / INTERVENTIONAL CAUSAL EFFECT ACCEPTED.**
+**PARENT ACCEPTED; TRANSITION / PROPAGATION ACCEPTED; CAUSAL PARENT ACCEPTED; BOTH CAUSAL CHILDREN ACCEPTED; FEEDBACK / ADAPTATION BOUNDED PARENT / AWAITING USER EVALUATION.**
 
 No substantive Transition-parent child is active.
 
 ## Preferred read order
 
-1. `STATE.md` — accepted parent structure and current guardrail.
-2. Accepted Contrastive result → `causal-effect-contribution/contrastive-interventional-causal-effect/STATE.md` → `KEY.md` → synthesis/I7.
-3. Accepted Actual Causation → `causal-effect-contribution/actual-causal-contribution/STATE.md` → `KEY.md` → synthesis/A7.
-4. Accepted Causal parent → `causal-effect-contribution/STATE.md` → `KEY.md` → E6/E7.
-5. Accepted Transition / Propagation → `transition-propagation/STATE.md` → `KEY.md` → synthesis/P7.
+1. `STATE.md` — accepted parent structure and current gate.
+2. Current Feedback / Adaptation result → `feedback-adaptation/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis → F7.
+3. Feedback residuals → `feedback-adaptation/OPEN-QUESTIONS.md`.
+4. Accepted Causal parent and both causal leaves when influence/effectiveness is material.
+5. Accepted Transition / Propagation when realized-change boundary is material.
 6. Parent `KEY.md` → T6/T7 when promotion/boundary logic is decision-critical.
-7. Parent `OPEN-QUESTIONS.md` for Feedback and parent reopen triggers.
-8. Candidate studies through catalog → selected META → targeted files only when load-bearing.
-9. Current manifests for exact freshness.
+7. Candidate studies through catalog → selected META → targeted files only when load-bearing.
+8. Current manifests for exact freshness.
 
 ## Current structure
 
@@ -32,13 +31,17 @@ Transition / Effect / Feedback
 ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
 │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
 │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-└─ Cross-Ground Feedback / Adaptation           ← recommended next / inactive
+└─ Cross-Ground Feedback / Adaptation           ← BOUNDED PARENT / USER EVALUATION PENDING
+   ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
+   └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
 ```
 
 ## Next-step orientation
 
-`Cross-Ground Feedback / Adaptation` is the strongest next child and requires separate substantive activation.
+Current interaction is Feedback / Adaptation parent-result evaluation only.
+
+If accepted, `Cross-Ground Feedback / Returned Influence` is the strongest first child and requires separate substantive activation.
 
 ## Guardrail
 
-No Feedback / Adaptation, architecture, ontology/data-model/schema or implementation work is active.
+No immediate child, architecture, ontology/data-model/schema or implementation work is active.
