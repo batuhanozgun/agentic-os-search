@@ -1,69 +1,55 @@
-# Relation / Control / Composition — Open Questions / Reopen Triggers
+# Composition — Open Questions / Reopen Triggers
 
-**Status:** bounded residuals after accepted parent + Binding + Standing + Control + Transition parent + Propagation + Causal parent + both accepted causal children + completed Feedback / Adaptation parent research  
-**Date:** 2026-09-11  
-**Role:** residual uncertainty; NOT an automatic execution queue
+**Updated:** 2026-09-11  
+**Role:** bounded residuals, not an execution queue.
 
-## Current bounded structure
+## Current research frontier
 
-```text
-Cross-Ground Composition
-├─ Relational Binding                  ← accepted bounded leaf
-├─ Composite Standing / Qualification ← accepted bounded leaf
-├─ Control / Constraint                ← accepted bounded leaf
-└─ Transition / Effect / Feedback      ← accepted bounded parent
-   ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
-   ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-   │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-   └─ Cross-Ground Feedback / Adaptation           ← BOUNDED PARENT / USER EVALUATION PENDING
-      ├─ Cross-Ground Feedback / Returned Influence          ← discovered / inactive
-      └─ Persistent Adaptation / Future-Response Change       ← discovered / inactive
-```
+Binding, Standing, Control, Transition / Propagation and both causal leaves are accepted. The Composition, Transition, Causal and Feedback/Adaptation parent structures are accepted. Returned Influence G0–G7 is complete as a bounded leaf awaiting evaluation. Persistent Adaptation remains inactive.
 
-## Resolved parent questions delegated to child packages
+Current result and residual route:
 
-Dedicated research now covers:
-- Binding internal split / n-ary semantics → `relational-binding/` accepted bounded leaf;
-- Standing representation/freshness / V&V anchors → `composite-standing/` accepted bounded leaf;
-- Control layers / alternate-path closure → `control-constraint/` accepted bounded leaf;
-- Transition internal structure → `transition-effect-feedback/` accepted bounded parent;
-- realized change / propagation → `transition-effect-feedback/transition-propagation/` accepted bounded leaf;
-- causal question structure → `transition-effect-feedback/causal-effect-contribution/` accepted bounded parent;
-- actual episode causation → `.../actual-causal-contribution/` accepted bounded leaf;
-- contrastive causal effect → `.../contrastive-interventional-causal-effect/` accepted bounded leaf;
-- feedback/adaptation split, delay/stability/frame boundaries and two-child discovery → `transition-effect-feedback/feedback-adaptation/` bounded parent under user evaluation.
+`transition-effect-feedback/feedback-adaptation/returned-influence/STATE.md` → KEY/map/synthesis/G7 and `OPEN-QUESTIONS.md`.
 
-Package-local `OPEN-QUESTIONS.md` files preserve narrower reopen triggers.
+The original parent passes remain evidence snapshots. Current state and descendant results supersede their historical next-step wording, not their recorded evidence.
 
-## Remaining parent-level residual questions
+## Questions resolved or delegated
 
-1. Does user evaluation accept the Feedback / Adaptation two-child result?
-2. Do Returned Influence and Persistent Adaptation survive dedicated child passes?
-3. Does dedicated Adaptation research force Evolution/System Learning into a third child or new composition region?
-4. Can beneficial adaptation remain `adaptation occurrence + Contrastive Causal Effect + Standing`?
-5. Can Control effectiveness remain a composition of Control + Contrastive Causal Effect + Standing across materially different domains?
-6. Does fresh transport/generalization work later reopen Contrastive or the causal parent?
-7. Would independent researcher/model replication retain the four composition regions and full Transition decomposition?
+- Exact/n-ary binding semantics: `relational-binding/`.
+- Cross-ground standing, evidence and recognition: `composite-standing/`.
+- Control layers and alternate effect paths: `control-constraint/`.
+- Realization, propagation and material scope: `transition-effect-feedback/transition-propagation/`.
+- Actual episode and contrastive-effect semantics: `transition-effect-feedback/causal-effect-contribution/` and its two children.
+- Feedback versus persistent adaptation: accepted `transition-effect-feedback/feedback-adaptation/` parent.
+- Return reference, operative use/hold, signal contribution, partial actuation, timing and observation frame: completed `.../feedback-adaptation/returned-influence/`, evaluation pending.
 
-## Parent reopen triggers
+Package-local residuals preserve opaque-consumer evidence limits, coupled-loop complexities and narrower reopen conditions.
 
-Reopen the composition parent if:
-- Transition children become a residual `all dynamics` bucket;
-- accepted Transition / Propagation collapses into ground-local dynamics or exposes a missing sibling;
-- Control cannot remain distinct from Standing/Transition/Causal Effect;
-- accepted causal leaves later fail their parent boundaries;
-- Feedback / Returned Influence collapses into Information/Control without loss;
-- Persistent Adaptation collapses into Work + Transition without loss;
-- Evolution or another family becomes a stable fifth composition region;
-- a child exposes an upstream fifth-ground/adequacy falsifier;
-- materially different domains repeatedly break the current structure;
-- independent review identifies a materially stronger decomposition.
+## Remaining parent-level questions
 
-## Current sequencing note
+1. Does the user accept Returned Influence and the explicit narrow refinements to the parent wording?
+2. Does dedicated Persistent Adaptation preserve the two-child parent, including latent response, stateful control, persistence, forgetting and supersession?
+3. Does Evolution, population selection or recursive self-change expose another first-order region?
+4. Can beneficial adaptation remain adaptation occurrence + Contrastive Causal Effect + Standing?
+5. Does Control + causal result + Standing retain the distinction between enforcement/compliance and causal effectiveness across additional domains?
+6. Can goal, realized effect, evidential support and accepted outcome remain composed without reopening an upstream ground?
+7. Does fresh transportability/interference literature later reopen the accepted Contrastive result? The feedback pass did not conduct that missing dedicated review.
+8. Would an independent researcher/model preserve this composition structure?
 
-If user evaluation accepts `Cross-Ground Feedback / Adaptation`:
+## Reopen triggers
 
-> **Cross-Ground Feedback / Returned Influence** is the strongest first substantive child and requires separate activation.
+Reopen only the minimum affected region if:
+- Transition becomes a residual all-dynamics bucket;
+- an accepted child fails its ground-local or parent boundary;
+- Returned Influence is rejected or cannot preserve its protected return question without a new region;
+- Persistent Adaptation collapses without decision-critical loss into Work and ordinary Transition;
+- Control, Standing and causal effect cannot remain distinct;
+- Evolution, provenance/evidence or another family becomes a stable fifth composition region;
+- a descendant exposes a fifth-ground or adequacy falsifier;
+- materially different domains or independent reconstruction repeatedly favor a stronger decomposition.
 
-No immediate-child research, architecture, ontology/data-model/schema or implementation work is authorized by this note.
+Do not reopen merely for different implementation mechanisms, many interacting signals, alternative causal formalisms or harmful feedback. Preserve those differences as profiles unless the protected question genuinely changes.
+
+## Next responsibility and authorization
+
+Return the G result for evaluation. Persistent Adaptation / Future-Response Change is recommended after evaluation and separate activation. No architecture, ontology/data-model/schema, implementation, new descendants or agent-control changes are authorized by this document.
