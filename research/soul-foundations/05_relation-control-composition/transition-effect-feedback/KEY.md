@@ -1,54 +1,35 @@
 # Transition / Effect / Feedback — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** accepted parent; Transition / Propagation accepted; Causal parent + both causal children accepted; Feedback / Adaptation accepted; Returned Influence accepted  
-**Date:** 2026-09-11
+**Updated:** 2026-09-11  
+**Status:** accepted parent; Persistent Adaptation proposed result awaiting evaluation
 
-## Current structure
+## Accepted questions
 
-```text
-Transition / Effect / Feedback
-├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
-├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-│  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-│  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-└─ Cross-Ground Feedback / Adaptation           ← accepted bounded parent
-   ├─ Cross-Ground Feedback / Returned Influence          ← accepted bounded leaf
-   └─ Persistent Adaptation / Future-Response Change       ← recommended next / inactive
+Transition/Propagation asks what exact cross-ground change was realized and how far it propagated. Causal Effect/Contribution retains distinct actual-episode and contrastive/interventional questions. Feedback/Adaptation retains distinct operative returned-influence and persistent future-response questions.
+
+Returned Influence is accepted. Its strongest correction remains:
+
 ```
-
-## Accepted Returned Influence
-
-Dedicated G0→G7 research closed this child as one bounded leaf.
-
-```text
 unchanged output != no feedback
-unchanged output != proof of feedback use
-return path != active coupling != particular-signal contribution
+unchanged output != proof of use
+return path != active coupling != episode contribution
 informed response != executed action != achieved target
-any information influence != relevant feedback return
 ```
 
-The accepted child refines the Feedback/Adaptation parent's shorthand without changing its two-child structure: returned influence may produce hold/continuation/inhibition rather than visible change, and exact return reference plus response/effect locus must be explicit.
+## Persistent Adaptation — proposed bounded result
 
-## Remaining sibling — Persistent Adaptation
+D0–D7 propose one history-linked retained-response-disposition leaf. It specifies the bearer, history/comparator, response opportunity or trajectory, operative carrier/path, horizon/support and evidence scope.
 
-> Did feedback/history produce a durable change in how the system responds to future materially comparable situations, and how is that change realized, retained, forgotten, reverted or superseded?
-
-```text
-one-off response != persistent adaptation
-repeated fixed response != adaptation
-stored lesson != adaptation
-adaptation Work complete != adaptation realized
-adaptation occurred != beneficial/effective adaptation
+```
+fixed code/weights != fixed effective response regime
+stored lesson != operative retained change established
+historical acquisition != current retention != current expression
+adaptation occurrence != benefit != authority != transfer
 ```
 
-## Current sequencing recommendation
+These child findings and narrow parent wording refinements await user evaluation. No new immediate child or upstream restructuring is proposed. See `feedback-adaptation/persistent-adaptation/D6-SYNTHESIS-CHILD-DECISION.md` for exact status and delta.
 
-> **Persistent Adaptation / Future-Response Change** is the strongest next substantive child.
+## Current gate and verification
 
-It is inactive and requires separate activation.
-
-## Verification boundary
-
-All closure adversarial passes remain same-model review. Returned Influence used fresh primary-source pressure and seven constructed toy checks; neither constitutes independent replication or live SOUL efficacy validation.
+User evaluation, not further substantive research, is next. D7 is same-model review; fifteen constructions and four false-rule rejections test only their defined relationships. No live-system efficacy, actual process restart or independent taxonomy validation occurred. Ground-local dynamics and accepted causal/Control/Standing boundaries remain intact.

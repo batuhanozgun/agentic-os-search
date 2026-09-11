@@ -1,53 +1,35 @@
 # Transition / Effect / Feedback — STATE
 
-**Status:** accepted bounded parent; Transition / Propagation accepted; Causal parent + both causal leaves accepted; Feedback / Adaptation accepted; Returned Influence accepted  
 **Updated:** 2026-09-11  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT TRANSITION-PARENT CHILD SELECTION / PLANNING ONLY
+**Status:** accepted parent and previous descendants; Persistent Adaptation result pending evaluation  
+**Current authorised substantive activity:** NONE after D0–D7 bounded closure  
+**Current authorised interaction:** PERSISTENT ADAPTATION RESULT EVALUATION
 
 ## Current structure
 
-```text
-Transition / Effect / Feedback                       ← accepted parent
-├─ Cross-Ground Transition / Propagation              ← accepted bounded leaf
-├─ Cross-Ground Causal Effect / Contribution           ← accepted bounded parent
-│  ├─ Actual Causal Contribution / Episode Causation    ← accepted bounded leaf
-│  └─ Contrastive / Interventional Causal Effect        ← accepted bounded leaf
-└─ Cross-Ground Feedback / Adaptation                 ← accepted bounded parent
-   ├─ Cross-Ground Feedback / Returned Influence        ← accepted bounded leaf
-   └─ Persistent Adaptation / Future-Response Change     ← recommended next / inactive
+```
+Transition / Effect / Feedback                     [accepted parent]
+├─ Cross-Ground Transition / Propagation            [accepted leaf]
+├─ Cross-Ground Causal Effect / Contribution        [accepted parent]
+│  ├─ Actual Causal Contribution / Episode Causation [accepted leaf]
+│  └─ Contrastive / Interventional Causal Effect     [accepted leaf]
+└─ Cross-Ground Feedback / Adaptation               [accepted parent]
+   ├─ Cross-Ground Feedback / Returned Influence      [accepted leaf]
+   └─ Persistent Adaptation / Future-Response Change   [proposed leaf / evaluation pending]
 ```
 
-## Accepted Returned Influence result
+## Current result
 
-G0–G7 completed and user evaluation accepted the bounded leaf. No immediate child was promoted.
+Persistent Adaptation was explicitly activated by the user after input main `d928ee14b16a277c010a966816fc2c4097944aab`. D0–D7 propose one history-linked retained-response-disposition grammar, no immediate child and narrow parent wording refinements. These are not yet accepted.
 
-```text
-unchanged output != no feedback
-unchanged output != proof of feedback use
-return path != active coupling != particular-signal contribution
-informed response != executed action != achieved target effect
-any information influence != relevant feedback return
-```
+Read `feedback-adaptation/persistent-adaptation/STATE.md` → INDEX/KEY → synthesis/D7. Returned Influence remains accepted, including the correction that unchanged output neither disproves nor proves operative feedback.
 
-The accepted Feedback/Adaptation parent remains intact, with the child's narrow wording refinements incorporated into current orientation.
+## Retained boundaries
 
-## Current sequencing recommendation
+Ground-local dynamics remain Environment-local. Realized transition, actual episode causation, contrastive effect, operative returned influence and retained future-response change are distinct questions. Occurrence does not establish benefit, stability, authority or transfer.
 
-> **Persistent Adaptation / Future-Response Change** is the strongest next substantive child.
+## Next and stop
 
-It is inactive and requires separate activation in the next session.
+User evaluation is next. No successor is active. A later integration/remaining-frontier review is not authorized merely because both Feedback/Adaptation child passes have research results.
 
-## Retained upstream boundaries
-
-Ground-local dynamics remain Environment-local. Realized transition, actual episode causation, contrastive effect, operative returned influence and persistent future-response change remain distinct questions. Neither feedback nor adaptation occurrence proves benefit or stability.
-
-## Historical and verification scope
-
-T0–T7 and original parent syntheses remain research snapshots. Current authorization is carried here and in current descendant STATE/INDEX surfaces.
-
-All closure adversarial reviews remain same-model. Fresh Returned Influence primary reading and seven toy checks do not independently verify the Foundation hierarchy or live SOUL efficacy.
-
-## Stop
-
-Do not automatically begin Persistent Adaptation, further descendants, architecture, ontology/data-model/schema, implementation or agent-control changes.
+Original T/F/G histories remain evidence snapshots. Same-model reviews and constructed checks are not independent replication or live SOUL verification. No architecture, ontology/schema, implementation, new descendant or agent-control work is authorized by this closure.

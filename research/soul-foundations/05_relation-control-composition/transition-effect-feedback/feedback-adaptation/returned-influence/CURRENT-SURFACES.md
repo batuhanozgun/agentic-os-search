@@ -1,23 +1,24 @@
 # Returned Influence — CURRENT SURFACES
 
-**Status:** user-evaluated / accepted bounded-leaf checkpoint  
 **Date:** 2026-09-11  
-**Branch:** main
+**Branch:** main  
+**Status:** accepted bounded leaf; current acceptance presentation repaired
 
-## Current result and routing files
+## Current authority and views
 
 | Role | Path | Git blob SHA |
 |---|---|---|
-| Authority | `STATE.md` | `5295daa575c87a367382e3607cafa251e0df4f96` |
-| Router | `INDEX.md` | `88a4c35052b63d95761f830bbfa326472c09fa03` |
+| Authority | `STATE.md` | `434343afb5a3070a411c60752a95c225748e5c8c` |
+| Router | `INDEX.md` | `1ea6a5e9e22649ea2898e6a729a89d22273a3f45` |
+| L0 | `KEY.md` | `87f935c66126b40c80b4988f146c4bb834ab435d` |
+| Current map | `FINDINGS-MAP.md` | `4c788a83d4cd6a0c5117db3ed712504d178ac320` |
+| Current accepted synthesis | `synthesis/RETURNED-INFLUENCE-SYNTHESIS.md` | `18db34109dc088d2c511ed5f57ce652e9f02f6ea` |
+| Exact original integrated synthesis | `synthesis/HISTORICAL-RETURNED-INFLUENCE-SYNTHESIS.md` | `12e4df5a735f841273ad885a17a136046dfbf38b` |
 | Completed plan | `PLAN.md` | `f4ed1d4fe968513d73afbc4853bc613a11de8c70` |
-| L0 result | `KEY.md` | `c2b2ebed505ef48f70b4530d34bea7972c640c26` |
-| Findings map | `FINDINGS-MAP.md` | `d6558ca0f3e90805d8348e64f65e0d8ccfdbe18b` |
-| Synthesis | `synthesis/RETURNED-INFLUENCE-SYNTHESIS.md` | `12e4df5a735f841273ad885a17a136046dfbf38b` |
 | Residuals | `OPEN-QUESTIONS.md` | `aea9d4a35307f26ac090c87ca3cd507f8c142dfb` |
 | Evidence scope | `SOURCE-LEDGER.md` | `480d5a62438df49333b93f746fb2e4369d82c89d` |
 
-## Completed passes
+## Preserved completed passes
 
 | Pass | Path | Git blob SHA |
 |---|---|---|
@@ -30,17 +31,8 @@
 | G6 | `G6-SYNTHESIS-CHILD-DECISION.md` | `0067e684b7d932eecfefe0e4b79d61df5162099c` |
 | G7 | `G7-ADVERSARIAL-CLOSURE.md` | `0a350fec14e9d09242f8b21e86d777b28483d121` |
 
-## Accepted result
-
-```text
-Feedback / Adaptation parent            ← accepted
-Returned Influence                      ← accepted bounded leaf
-Persistent Adaptation                    ← recommended next / inactive
-active substantive work                  ← NONE
-```
-
-No immediate child was promoted. The accepted result includes G6's narrow parent wording refinements.
+The original synthesis blob is reused unchanged at its explicit historical path. Current views clarify already recorded acceptance and point to the now-completed Persistent Adaptation sibling, whose separate result awaits evaluation. They do not change the accepted G-pass substance or strengthen its evidence.
 
 ## Verification boundary
 
-Git identity establishes which file content was observed, not that its claims are true. Fresh primary sources supplied targeted pressure; G7 is same-model review and the seven toy checks establish their constructed relationships only. No independent model/researcher replication or live SOUL efficacy test occurred.
+Git identity establishes which content is present, not its truth. G7 remains same-model review and seven toy checks establish only their constructed relationships. No independent replication or live SOUL efficacy is claimed. Historical next-step labels do not override current parent/child STATE.

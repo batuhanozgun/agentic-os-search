@@ -1,51 +1,23 @@
 # Relation / Control / Composition — INDEX
 
-## Role
+## Current checkpoint
 
-Current router for accepted Cross-Ground Composition and current Transition-parent frontier.
-
-Read `STATE.md` first for status and current authorization.
-
-## Current status
-
-**PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; TRANSITION PARENT ACCEPTED; RETURNED INFLUENCE ACCEPTED.**
-
-No substantive composition child is active.
+Read STATE.md first. The parent and previously accepted descendants remain accepted. **Persistent Adaptation D0–D7 are complete; the bounded-leaf result awaits user evaluation.** No substantive successor is active.
 
 ## Preferred read order
 
-1. `STATE.md` — current state and guardrail.
-2. Accepted Returned Influence → `transition-effect-feedback/feedback-adaptation/returned-influence/STATE.md` → `KEY.md` → synthesis/G7.
-3. Accepted Feedback / Adaptation parent → `transition-effect-feedback/feedback-adaptation/STATE.md` → `KEY.md`.
-4. `transition-effect-feedback/feedback-adaptation/OPEN-QUESTIONS.md` for Persistent Adaptation research questions.
-5. Accepted causal parent and both causal leaves when causal/effectiveness boundaries are material.
-6. Accepted Transition / Propagation when realized-change boundary is material.
-7. Accepted Control, Standing and Binding only when decision-critical.
-8. Parent result → `KEY.md` → synthesis/C7 when composition-boundary logic is material.
-9. Candidate studies only through catalog → selected META → targeted files.
-10. Current manifests for exact freshness.
+1. `STATE.md` — current authority and frontier.
+2. Current result → `transition-effect-feedback/feedback-adaptation/persistent-adaptation/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/D7.
+3. Proposed parent delta → Persistent Adaptation `D6-SYNTHESIS-CHILD-DECISION.md`.
+4. Accepted Returned Influence → `transition-effect-feedback/feedback-adaptation/returned-influence/STATE.md` → KEY → synthesis/G7.
+5. Accepted Feedback/Adaptation parent → `transition-effect-feedback/feedback-adaptation/STATE.md` → KEY/current map.
+6. Accepted causal parent and causal leaves when occurrence attribution, benefit or transfer is material.
+7. Accepted Transition/Propagation, Control, Standing and Binding when their protected distinctions are decision-critical.
+8. `KEY.md` → original Composition synthesis/C7 only for parent-boundary reasoning.
+9. `OPEN-QUESTIONS.md` and descendant residuals for unresolved conditions, not automatic work.
+10. `CURRENT-SURFACES.md` → child manifests for exact identity.
+11. Candidate studies only through catalog → selected META → targeted source.
 
-## Current composition map
+## Authority boundary
 
-```text
-Cross-Ground Composition
-├─ Relational Binding                  ← accepted bounded leaf
-├─ Composite Standing / Qualification ← accepted bounded leaf
-├─ Control / Constraint                ← accepted bounded leaf
-└─ Transition / Effect / Feedback      ← accepted bounded parent
-   ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
-   ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-   │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-   └─ Cross-Ground Feedback / Adaptation           ← accepted bounded parent
-      ├─ Cross-Ground Feedback / Returned Influence          ← accepted bounded leaf
-      └─ Persistent Adaptation / Future-Response Change       ← recommended next / inactive
-```
-
-## Current next-step interpretation
-
-> **Persistent Adaptation / Future-Response Change** is the strongest next substantive Foundation child and requires separate activation.
-
-## Guardrail
-
-Architecture, ontology/data model, schema design, implementation and further child research remain unauthorized until separately activated.
+The current tree is in STATE. A completed child is not accepted until evaluated. Original parent plans and pass documents retain historical labels; current STATE/INDEX control continuation. Do not infer whole-Foundation completion or architecture/implementation authority.

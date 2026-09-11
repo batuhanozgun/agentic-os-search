@@ -1,41 +1,26 @@
 # Cross-Ground Feedback / Returned Influence — INDEX
 
-## Role and current status
+## Current status
 
-Current router for the completed and accepted G0–G7 child pass.
-
-**BOUNDED LEAF / USER-EVALUATED / ACCEPTED. No immediate child was promoted.**
-
-Read `STATE.md` first. The sibling Persistent Adaptation / Future-Response Change is recommended next / inactive.
+Read STATE.md first. **BOUNDED LEAF / USER-EVALUATED / ACCEPTED.** G0–G7 are complete; no immediate child was promoted. The sibling Persistent Adaptation is now a completed proposed leaf awaiting evaluation, not an unstarted pass.
 
 ## Read route
 
-1. `STATE.md` — accepted result, authorization and stop.
-2. `KEY.md` — compact semantic result and parent correction.
-3. `FINDINGS-MAP.md` — precise question-to-evidence routes.
-4. `synthesis/RETURNED-INFLUENCE-SYNTHESIS.md` — integrated result.
-5. `G7-ADVERSARIAL-CLOSURE.md` — final counter-tests and toy-check limits.
-6. `G6-SYNTHESIS-CHILD-DECISION.md` — parent delta and sequencing judgment.
-7. `OPEN-QUESTIONS.md` — unresolved questions/reopen triggers.
-8. `SOURCE-LEDGER.md` — exact input snapshots, primary sources and actual reading extent.
-9. G0–G5 for targeted recovery; `PLAN.md` for the completed research method.
-10. `CURRENT-SURFACES.md` — exact-current file binding.
+1. `STATE.md` — accepted result and current continuation.
+2. `KEY.md` — compact semantics.
+3. `FINDINGS-MAP.md` — question-to-evidence route.
+4. `synthesis/RETURNED-INFLUENCE-SYNTHESIS.md` — current accepted orientation.
+5. `synthesis/HISTORICAL-RETURNED-INFLUENCE-SYNTHESIS.md` — exact original integrated G-pass synthesis, including historical evaluation language.
+6. `G7-ADVERSARIAL-CLOSURE.md` — counter-tests and seven toy-check limits.
+7. `G6-SYNTHESIS-CHILD-DECISION.md` — original parent delta, accepted under current STATE.
+8. `OPEN-QUESTIONS.md` — unresolved conditions/reopen triggers.
+9. `SOURCE-LEDGER.md` and G0–G5 for precise evidence recovery; PLAN for the completed method.
+10. `CURRENT-SURFACES.md` — exact current binding, including original synthesis identity.
 
 ## Core correction
 
-```text
-unchanged output != no feedback
-unchanged output != proof of feedback use
-```
+Unchanged output neither disproves nor establishes feedback use. Structure, active coupling, episode contribution and downstream effect are distinct claim scopes, not children.
 
-Keep structural coupling, active use, exact episode contribution and downstream effect distinct. Delivery/reading is not self-authenticating proof of use; use is not proof of achieved external effect.
+## Current gate
 
-## Next-step orientation
-
-> **Persistent Adaptation / Future-Response Change** is the strongest next substantive child.
-
-It requires separate activation. No substantive Foundation work is active from this package.
-
-## Guardrail
-
-This result is research, not an adopted SOUL feedback architecture. No new child, Persistent Adaptation, implementation, schema or agent-control mutation is authorized automatically.
+For current work, follow `../STATE.md` → `../persistent-adaptation/STATE.md`. Evaluation of that completed sibling is next. Original G-pass next-step labels are historical; they do not authorize another research phase, architecture or implementation.

@@ -1,33 +1,37 @@
 # Relation / Control / Composition — STATE
 
-**Status:** PARENT ACCEPTED; BINDING ACCEPTED; COMPOSITE STANDING ACCEPTED; CONTROL ACCEPTED; TRANSITION PARENT ACCEPTED; RETURNED INFLUENCE ACCEPTED  
 **Updated:** 2026-09-11  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT FOUNDATION CHILD SELECTION / PLANNING ONLY
+**Status:** accepted parent and previous children; Persistent Adaptation result awaiting evaluation  
+**Current authorised substantive activity:** NONE after bounded D0–D7 closure  
+**Current authorised interaction:** PERSISTENT ADAPTATION RESULT EVALUATION
 
-## Current composition structure
+## Current structure
 
-```text
+```
 Cross-Ground Composition
-├─ Relational Binding                  ← accepted bounded leaf
-├─ Composite Standing / Qualification ← accepted bounded leaf
-├─ Control / Constraint                ← accepted bounded leaf
-└─ Transition / Effect / Feedback      ← accepted bounded parent
-   ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
-   ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-   │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-   └─ Cross-Ground Feedback / Adaptation           ← accepted bounded parent
-      ├─ Cross-Ground Feedback / Returned Influence          ← accepted bounded leaf
-      └─ Persistent Adaptation / Future-Response Change       ← recommended next / inactive
+├─ Relational Binding                         [accepted leaf]
+├─ Composite Standing / Qualification         [accepted leaf]
+├─ Control / Constraint                       [accepted leaf]
+└─ Transition / Effect / Feedback              [accepted parent]
+   ├─ Cross-Ground Transition / Propagation    [accepted leaf]
+   ├─ Cross-Ground Causal Effect / Contribution [accepted parent]
+   │  ├─ Actual Causal Contribution / Episode Causation [accepted leaf]
+   │  └─ Contrastive / Interventional Causal Effect     [accepted leaf]
+   └─ Cross-Ground Feedback / Adaptation       [accepted parent]
+      ├─ Cross-Ground Feedback / Returned Influence     [accepted leaf]
+      └─ Persistent Adaptation / Future-Response Change [proposed leaf / evaluation pending]
 ```
 
-## Current next recommendation
+## Latest work
 
-> **Persistent Adaptation / Future-Response Change**
+The user's explicit activation authorized Persistent Adaptation research and acceptance-label cleanup after the input checkpoint `d928ee14b16a277c010a966816fc2c4097944aab`. D0–D7 are complete. No immediate child is promoted. Parent wording refinements are proposed, not accepted by the assistant.
 
-This is not active and requires separate substantive activation in the next session.
+Entry: `transition-effect-feedback/feedback-adaptation/persistent-adaptation/STATE.md`.
 
-## Current authorization
+## Next responsibility
 
-Selection/planning only. Do not automatically activate Persistent Adaptation, architecture, ontology/data-model/schema, implementation or agent-control changes.
+User evaluation of the new child and its narrow parent refinements. No substantive successor is active. A later integration/remaining-frontier review is only a possible next logical work, not current authorization.
+
+## Boundaries
+
+Prior accepted research remains accepted. Original C/T/F/G pass histories are retained; current state overrides their old sequencing labels. Same-model review and toy checks do not constitute independent taxonomy or live-system verification. No architecture, ontology/schema, implementation, further descendant or agent-control work is authorized by this closure.

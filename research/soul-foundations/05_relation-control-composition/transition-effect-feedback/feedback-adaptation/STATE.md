@@ -1,19 +1,19 @@
 # Cross-Ground Feedback / Adaptation — STATE
 
-**Status:** ACCEPTED BOUNDED PARENT; BOTH CURRENT CHILD RESULTS BOUNDED, RETURNED INFLUENCE ACCEPTED  
-**Parent activated / completed / accepted:** 2026-09-11  
-**Parent:** Transition / Effect / Feedback — accepted bounded parent  
-**F0–F7:** COMPLETE  
-**Returned Influence G0–G7:** COMPLETE / ACCEPTED  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT CHILD SELECTION / PLANNING ONLY
+**Updated:** 2026-09-11  
+**Status:** ACCEPTED BOUNDED PARENT; RETURNED INFLUENCE ACCEPTED; PERSISTENT ADAPTATION RESULT PENDING EVALUATION  
+**F0–F7:** COMPLETE / parent accepted  
+**G0–G7:** COMPLETE / Returned Influence accepted  
+**D0–D7:** COMPLETE / Persistent Adaptation proposed bounded leaf  
+**Current authorised substantive activity:** NONE after bounded closure  
+**Current authorised interaction:** USER EVALUATION OF PERSISTENT ADAPTATION
 
 ## Current structure
 
-```text
-Cross-Ground Feedback / Adaptation                  ← accepted bounded parent
-├─ Cross-Ground Feedback / Returned Influence         ← accepted bounded leaf
-└─ Persistent Adaptation / Future-Response Change      ← recommended next / inactive
+```
+Cross-Ground Feedback / Adaptation                 [accepted parent]
+├─ Cross-Ground Feedback / Returned Influence        [accepted bounded leaf]
+└─ Persistent Adaptation / Future-Response Change     [proposed bounded leaf / evaluation pending]
 ```
 
 ## Accepted parent questions
@@ -21,34 +21,33 @@ Cross-Ground Feedback / Adaptation                  ← accepted bounded parent
 1. How does condition/performance information return into a relevant later response process?
 2. When does feedback/history produce persistent change in responses to materially comparable future situations?
 
-These are distinct, non-coextensive diagnostic questions, not disjoint event classes or automatically independent historical predicates.
+These are distinct, non-coextensive diagnostic questions, not disjoint event classes or universally independent historical predicates.
 
-## Accepted Returned Influence result
+## Accepted Returned Influence
 
-`returned-influence/STATE.md` → `KEY.md` → `FINDINGS-MAP.md` → synthesis/G7.
+The accepted child has one reference-relative operative-return grammar and no immediate children.
 
-One reference-relative operative-return grammar; no immediate children.
-
-```text
+```
 unchanged output != no feedback
 unchanged output != proof of feedback use
 loop structure != active coupling != particular-signal contribution
 informed response != executed action != achieved target effect
-any information influence != relevant feedback return
 ```
 
-The accepted child also refines the parent wording: operative feedback may preserve/hold/inhibit rather than visibly change output; return reference and exact response/effect locus must be explicit; Feedback and Adaptation remain distinct and non-coextensive without claiming universal logical independence.
+The current acceptance map/synthesis view is clarified while raw G0–G7 and the exact original pre-acceptance synthesis are preserved.
 
-## Persistent Adaptation — next / inactive
+## Persistent Adaptation — completed result, not yet accepted
 
-The remaining sibling asks what history-dependent future-response change is actually realized and retained, including latent response, forgetting, reversion and supersession. Work completion or a stored lesson is not sufficient by identity. Adaptation occurrence remains distinct from causal benefit and acceptance.
+The user explicitly activated this sibling after the canonical inspection. D0–D7 propose one history-linked retained-response-disposition leaf. No immediate child is promoted.
 
-> **Persistent Adaptation / Future-Response Change** is the strongest next substantive Foundation research.
+D6 proposes refinements concerning fixed code versus effective regime, latent and trajectory response, persistence horizon/support, acquisition versus current expression, and Evolution scope. These are pending with the child evaluation, not silently accepted parent changes.
 
-It requires separate activation in the next session.
+Read `persistent-adaptation/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/D7.
+
+## Next responsibility
+
+User evaluation of the new child and proposed refinements. No substantive successor is active. A later bounded integration/remaining-frontier review is next logical work only if separately directed; this state does not declare Foundation complete.
 
 ## Verification and stop
 
-F7/G7 are same-model reviews, not independent replication. Fresh primary reading supported the Returned Influence distinctions; seven toy checks established only their constructed relationships. No live SOUL/controller efficacy or independent second-researcher/model replication is claimed.
-
-Do not automatically activate Persistent Adaptation, new descendants, architecture, ontology/data-model/schema, implementation or agent-control changes.
+F7/G7/D7 are same-model reviews. The new pass's primary reading has unequal documented depths; its fifteen constructions and four rejected false rules establish their specified relationships only. No actual process restart, live SOUL efficacy or independent researcher/model replication occurred. No architecture, ontology/schema, implementation, new descendants or agent-control changes are authorized by closure.

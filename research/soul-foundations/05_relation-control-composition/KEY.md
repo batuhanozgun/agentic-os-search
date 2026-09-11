@@ -1,49 +1,36 @@
 # Relation / Control / Composition — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** parent accepted; Binding accepted; Composite Standing accepted; Control accepted; Transition parent accepted; Returned Influence accepted  
-**Date:** 2026-09-11
+**Updated:** 2026-09-11  
+**Status:** accepted Composition; Persistent Adaptation result pending evaluation
 
-## Shortest current result
+## Accepted structure
 
-```text
-Cross-Ground Composition
-├─ Relational Binding                  ← accepted bounded leaf
-├─ Composite Standing / Qualification ← accepted bounded leaf
-├─ Control / Constraint                ← accepted bounded leaf
-└─ Transition / Effect / Feedback      ← accepted bounded parent
-   ├─ Cross-Ground Transition / Propagation        ← accepted bounded leaf
-   ├─ Cross-Ground Causal Effect / Contribution    ← accepted bounded parent
-   │  ├─ Actual Causal Contribution / Episode Causation       ← accepted bounded leaf
-   │  └─ Contrastive / Interventional Causal Effect            ← accepted bounded leaf
-   └─ Cross-Ground Feedback / Adaptation           ← accepted bounded parent
-      ├─ Cross-Ground Feedback / Returned Influence          ← accepted bounded leaf
-      └─ Persistent Adaptation / Future-Response Change       ← recommended next / inactive
+Binding, Composite Standing, Control and Transition/Effect/Feedback remain the four accepted composition regions. Under Transition, Propagation, Causal Effect/Contribution and Feedback/Adaptation remain accepted. Both causal leaves and Returned Influence are accepted.
+
+```
+Feedback / Adaptation                [accepted parent]
+├─ Returned Influence                [accepted leaf]
+└─ Persistent Adaptation              [proposed leaf / evaluation pending]
 ```
 
-These are diagnostic research problem regions, not architecture modules or mutually exclusive event classes.
+These are diagnostic research questions, not architecture modules or mutually exclusive event classes.
 
 ## Accepted Returned Influence refinement
 
-```text
+```
 unchanged output != no feedback
 unchanged output != proof of feedback use
 return path != active coupling != particular-signal contribution
 informed response != executed action != achieved target
 ```
 
-This refinement preserves the accepted Feedback/Adaptation two-child parent.
+## New child result — proposed, not yet accepted
 
-## Current sequencing recommendation
+Persistent Adaptation D0–D7 propose one history-linked retained-response-disposition grammar. The distinctions include effective regime versus code identity, stored carrier versus operative use, acquisition versus current retention/expression, qualified horizon/support, local versus system-wide realization, and occurrence versus benefit/authority/transfer.
 
-> **Persistent Adaptation / Future-Response Change** is the strongest next substantive Foundation child.
+The accepted parent tree is not restructured. Narrow wording refinements and the Evolution scope qualification are submitted in the child D6 for evaluation. Read `transition-effect-feedback/feedback-adaptation/persistent-adaptation/KEY.md` for the compact result.
 
-It is inactive and requires separate activation.
+## Current gate and limits
 
-## Verification boundary
-
-All closure adversarial passes remain same-model review. Fresh primary reading supported Returned Influence component distinctions; no independent second-model/researcher replication validates the exact hierarchy.
-
-## Current gate
-
-No substantive child is active. Architecture, ontology/data model, schema design and implementation remain outside current authorization.
+User evaluation is next; no substantive successor is active. All closure adversarial reviews remain same-model. Current primary reading and constructions do not independently validate the hierarchy or live SOUL efficacy. No whole-Foundation completion, architecture, schema or implementation is authorized.

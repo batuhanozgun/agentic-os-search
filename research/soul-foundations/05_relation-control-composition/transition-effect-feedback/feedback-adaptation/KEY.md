@@ -1,68 +1,50 @@
 # Cross-Ground Feedback / Adaptation — KEY
 
-**Document role:** CURRENT_L0 / parent semantic orientation  
+**Document role:** CURRENT_L0 / parent orientation  
 **Parent status:** accepted bounded parent  
 **Updated:** 2026-09-11
 
 ## Two protected questions
 
-```text
-Cross-Ground Feedback / Adaptation
-├─ Cross-Ground Feedback / Returned Influence          ← accepted bounded leaf
-│  → condition/performance information returns into relevant later response
-└─ Persistent Adaptation / Future-Response Change      ← recommended next / inactive
-   → history produces retained change in future-response behavior
+```
+Feedback / Adaptation
+├─ Returned Influence       [accepted leaf]
+│  condition/performance information returns into a relevant later response
+└─ Persistent Adaptation    [proposed leaf / evaluation pending]
+   history-linked retained change in future-response disposition
 ```
 
-The parent is not a leaf. A fixed feedback rule can operate without being changed by history. A single historical episode can support persistent adaptation without continuous online recurrence. These are distinct, non-coextensive questions; the accepted Returned Influence pass qualifies the earlier overstrong independence wording.
+A feedback rule may operate without being changed by history. A past episode may support persistent change without a continuously recurring online loop. These questions are distinct and non-coextensive; they are not asserted to be disjoint events or universally independent historical predicates.
 
-## Accepted Returned Influence result
+## Accepted Returned Influence correction
 
-Dedicated G0–G7 research closed this child as a bounded leaf with one reference-relative operative-return grammar.
-
-```text
+```
 unchanged output != no feedback
 unchanged output != proof of feedback use
-feedback structure != active coupling != particular-signal contribution
-informed response != executed action != achieved target
+return structure != active coupling != particular-signal contribution
+informed decision != executed action != achieved target
 any information influence != relevant feedback return
 ```
 
-A system may use observations to hold, continue or inhibit unnecessary action. A blind system can show the same output; evidence must distinguish use from coincidence. The return must be relative to an explicit system/pursuit and response locus.
+Return reference, exact response locus, hold/inhibition and evidence of operative use remain explicit. The current acceptance presentation has been repaired without rewriting original G-pass evidence.
 
-The parent wording refinements discovered in G6 are now accepted with the child: explicit return reference, no visible-change requirement, partial response versus end-to-end effect, and qualified independence language.
+## Persistent Adaptation result — proposed
 
-## Persistent Adaptation question
+D0–D7 propose a bounded leaf with one history-linked retained-response-disposition grammar. No immediate child is promoted. The child distinguishes storage, acquired change, current retention, access/expression, all-path realization, benefit, authority and transfer.
 
-Did feedback/history produce a durable change in responses to materially comparable future situations, where is the change realized, and how is it retained?
+Proposed wording refinements include effective regime rather than code/weight identity; conditional and trajectory response rather than difference at every current input; meaningful persistence horizon and support; and no universal reduction of Evolution. Read `persistent-adaptation/D6-SYNTHESIS-CHILD-DECISION.md` for exact pending amendments.
 
-```text
-one-off response != persistent adaptation
-repeated fixed response != adaptation by identity
-stored lesson != adaptation
-adaptation Work complete != adaptation realized
-adaptation occurred != beneficial/effective adaptation
+## Shared accepted boundaries
+
+Information retains representations and exposure; Work retains pursuits; Actors/Control retain standing and authority; Transition retains exact realized change; causal research supports contribution/benefit; Standing qualifies adequacy/currentness. These children do not replace those grounds or select an architecture.
+
 ```
-
-Persistence, latent behavior, forgetting, supersession and recursive change require the dedicated sibling investigation.
-
-## Shared guardrails and interfaces
-
-```text
-all observed/received signals handled != all material outcomes observed
+all received signals handled != all material outcomes observed
 local/proxy improvement != intended/system improvement
-feedback/adaptation occurrence != stability/safety/benefit
+feedback/adaptation occurrence != benefit/safety/stability
 multiple derivative reports != independent corroboration
 ```
 
-Information owns representations and exposure; Work owns pursuits; Actors/Control retain standing and governing authority; Transition supplies realized change; causal research supports contribution/benefit claims; Standing qualifies adequacy/currentness. Feedback/Adaptation investigates returned influence and persistent-change composition, not replacement grounds.
+## Current gate and limits
 
-## Next frontier
-
-> **Persistent Adaptation / Future-Response Change** is the strongest next substantive child.
-
-It is inactive and requires separate activation in the next session.
-
-## Verification boundary
-
-Parent F7 and child G7 are same-model reviews. Primary sources provide component-level pressure, not independent replication of the exact SOUL Foundation hierarchy. No architecture or implementation has been adopted here.
+User evaluation of Persistent Adaptation is next. No substantive successor is active. F7/G7/D7 are same-model reviews; primary sources pressure components, not the exact hierarchy. Toy examples do not establish live-system efficacy or independent replication.
