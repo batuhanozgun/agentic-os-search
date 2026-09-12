@@ -52,6 +52,7 @@ Do not load every study merely because the library exists.
 | Knowledge access / representation / adaptation mechanisms | `ai-knowledge-strategies/META.md` | `STATE.md` → `INDEX.md` / mechanism files |
 | Anthropic AI-native SDLC / agent-native software operating model | `anthropic-ai-native-sdlc-playbook/META.md` | `STATE.md` → `INDEX.md` → playbook research / source ledger / SOUL-DevOS assessment / falsifiers |
 | Context / memory / harness engineering | `context-memory-harness-engineering/META.md` | `STATE.md` → `INDEX.md` / cross-layer synthesis |
+| Harness composition and evidence-driven evolution — video / Meta-Harness, active staged research | `harness-engineering-and-evolution/META.md` | `STATE.md` → `INDEX.md` → source-native map / validity audit / plan / bridge questions |
 | gstack implemented agentic software factory / qualification-control-runtime case | `gstack/META.md` | `CORE.md` → `INDEX.md` → relevant synthesis / revalidation / source ledger |
 | Hermes Agent runtime and learning mechanisms — active, partial research | `hermes-agent/META.md` | `STATE.md` → `INDEX.md` → plan / source ledger / bounded mechanism notes |
 | Multi-agent coordination / control patterns | `multi-agent-patterns/META.md` | assessment / conversation synthesis |
@@ -100,6 +101,7 @@ Completion of a study never authorizes adoption.
 - `context-memory-harness-engineering/`
 - `gstack/`
 - `hands-on-large-language-models/`
+- `harness-engineering-and-evolution/`
 - `hermes-agent/`
 - `multi-agent-patterns/`
 - `public-apis/`
