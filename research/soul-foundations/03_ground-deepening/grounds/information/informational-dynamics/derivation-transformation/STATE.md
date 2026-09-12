@@ -1,49 +1,34 @@
 # Informational Derivation / Transformation — STATE
 
-**Updated / user accepted:** 2026-09-12  
-**Parent status:** BOUNDED THREE-CHILD STRUCTURE / USER-EVALUATED / ACCEPTED  
-**T0–T7:** COMPLETE / accepted with exact T6 refinements  
-**Re-expression R0–R7:** COMPLETE / proposed bounded leaf awaiting evaluation  
-**Current authorized substantive activity:** NONE after bounded Re-expression closure
+**Updated:** 2026-09-12  
+**Parent:** ACCEPTED THREE-CHILD STRUCTURE / T6 refinements accepted  
+**Re-expression:** ACCEPTED BOUNDED LEAF / R6 refinements accepted  
+**Warrant W0–W7:** COMPLETE / PROPOSED LEAF / EVALUATION PENDING  
+**Current authorized substantive activity:** NONE after bounded Warrant closure
 
-## Acceptance and current depth
-
-The user said: “Araştırmanı doğru ve gerekli buluyorum. Değerlendirmemden geçti. Devam et. Operasyonel sınırına kadar çalış.” This accepts the Derivation parent, its three immediate questions and exact T6 refinements and authorizes the recommended first child. It does not pre-accept that child's new result.
+## Current depth
 
 ```
-Derivation / Transformation                 [accepted three-child parent]
-├─ Re-expression / Semantic Transfer        [dedicated result complete; proposed leaf awaiting evaluation]
-├─ Inferential Construction / Claim Warrant [structurally accepted; no dedicated pass; inactive]
+Derivation / Transformation                 [accepted parent]
+├─ Re-expression / Semantic Transfer        [accepted bounded leaf]
+├─ Inferential Construction / Claim Warrant [dedicated result complete; proposed leaf awaiting evaluation]
 └─ Maintained-Information Revision          [structurally accepted; no dedicated pass; inactive]
 ```
 
-Selection/Exposure remains the separately unresearched Dynamics sibling. Parent acceptance is not recursive completion. The full labels and original structural argument remain in T4/T6 and the exact historical synthesis.
+Selection/Exposure remains the separately unresearched Dynamics sibling. Parent acceptance is not recursive completion. The user agreed with Re-expression and continued: “hem fikirim. devam edebilirsin. operasyonel sınırına kadar çalış.” This accepts that leaf and exact R6 refinements and separately activates Warrant. It does not pre-accept the resulting new leaf/W6 proposal.
 
-## Accepted parent distinctions
+## Accepted meaning and preserved source
 
-```
-production history != actual contribution != epistemic warrant
-source fidelity != world truth
-entailed output != information sufficient for intended use
-true conclusion != sound inference from offered premises
-withdrawn support != negated proposition
-one support lost != all alternative support lost
-unchanged positive inputs != unchanged negative dependencies
-new artifact != independent observation
-valid local steps != compatible end-to-end transformation
-proposed revised state != installed state != downstream exposure
-```
+The three parent questions remain transferring protected meaning, licensing a conclusion and revising continuing information. Production history is not warrant; source fidelity is not truth; an entailed result can be task-inadequate; withdrawal is not negation; source count is not independence; local validity is not compatible composition; and a proposed revision is not installed or propagated.
 
-T6's six refinements are accepted. Original T0–T7, PLAN, SOURCE-LEDGER and checks are preserved. The established synthesis path now provides current accepted orientation and points to its exact original predecessor, stored at `synthesis/HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md` with unchanged blob `b415e3cb9744e0b5b79d7091a57840831fde7e61`.
+Re-expression's six R6 refinements are now accepted, including existential recovery versus intended meaning versus actual use, round-trip limits, purpose-sensitive loss and verifier coverage. Its original synthesis is preserved. Original T0–T7, PLAN, SOURCE-LEDGER and checks remain unchanged. The exact historical Derivation synthesis is still `synthesis/HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md`, blob `b415e3cb9744e0b5b79d7091a57840831fde7e61`.
 
-## New child result and next responsibility
+## New Warrant result and next responsibility
 
-Re-expression completed its dedicated R0–R7 pass from input main `b658913dd8148dd9a4850414159f13513904f137`. It proposes one interpreted source-to-derivative leaf, with no immediate child. R6's narrow refinements distinguish possible decoding, intended semantic fidelity and actual use; round-trip identity and intermediate meaning; permitted numerical loss and decision sensitivity; and generated-question checks versus coverage.
+W0–W7 propose one qualified claim–basis support leaf, with strict/probabilistic/defeasible regimes separately retrievable. Conditional validity, target adequacy, uncertainty direction/dependence, causal identification, rebuttal versus undercutting, evidence-selection conditions and action authority are distinguished. Its seven W6 refinements are pending proposals, not automatically accepted parent changes.
 
-These are pending child proposals, not accepted parent changes. Current interaction is user evaluation of that leaf and exact R6 refinements. Entry: `re-expression-semantic-transfer/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/R4/R6/R7.
+Read `inferential-construction-claim-warrant/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/W4/W6/W7. Current interaction is user evaluation of this leaf and exact W6 refinements. Revision is recommended next, inactive; Selection remains separately unresearched. No successor is automatically activated.
 
-Inferential Construction is recommended next, inactive; Revision and Selection remain separately unresearched. No successor, architecture, ontology/schema, implementation or agent-control mutation is automatically authorized.
+## Evidence boundary
 
-## Verification
-
-The original parent and new child reviews remain same-model. Original eight-source/fourteen-case/seven-control evidence is unchanged. New seven-source/fourteen-case/six-control evidence includes native Unicode and JSON examples on synthetic inputs; it is not independent hierarchy validation, live SOUL/LLM efficacy or human translation evidence. Current content identity and acceptance do not change those limits.
+Prior T/R evidence and same-model limits remain unchanged. Warrant used seven primary documents at unequal depths and twelve synthetic cases/eight false-rule controls. No live SOUL/LLM, empirical model validation or independent researcher/model replication occurred. Current identity and acceptance do not strengthen those claims. No architecture, ontology/schema, implementation or agent-control change follows.

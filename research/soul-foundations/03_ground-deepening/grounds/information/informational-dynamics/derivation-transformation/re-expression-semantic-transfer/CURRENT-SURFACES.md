@@ -1,16 +1,19 @@
 # Re-expression / Semantic Transfer — CURRENT SURFACES
 
-**Date:** 2026-09-12  
-**Branch:** main  
-**Status:** proposed bounded leaf; R6 refinements and leaf await user evaluation.
+**Updated:** 2026-09-12  
+**Branch:** main
+**Status:** accepted bounded leaf / exact R6 refinements accepted
 
 | Path | Git blob SHA |
 |---|---|
+| `STATE.md` | `17487add4f887c65d6177679c601506f49e388b6` |
+| `INDEX.md` | `f0d104ea47b05c8a6015b1ddb91d2ff7ee45aa58` |
+| `KEY.md` | `9dce2339810ece4e262eb8f0ce5896b887cc6985` |
+| `FINDINGS-MAP.md` | `622eb3cabba2b577ddbb5867eda8e02aab5b1ef2` |
+| `NEXT-RESEARCH-HANDOFF.md` | `0cacd65383b25fb71099f72e28cbdf835d1e939b` |
+| `synthesis/RE-EXPRESSION-SEMANTIC-TRANSFER-SYNTHESIS.md` | `087527a18719f248477d91ab83a676792347b182` |
+| `synthesis/HISTORICAL-RE-EXPRESSION-SEMANTIC-TRANSFER-SYNTHESIS.md` | `bc9270e451bb0adc5cca32f7c2ab2d85501f8552` |
 | `DEFERRED-RELATIONS.md` | `1a1561b4c9a0995fb9de4e3d1ab9a5d987b2442b` |
-| `FINDINGS-MAP.md` | `d78332364a7ba74b970e5efb8034752002579085` |
-| `INDEX.md` | `efcbb6df6588207d29a30fd32aefaded10f3e2f9` |
-| `KEY.md` | `b5c47589a192f0d8f5642771cf92488c407491e4` |
-| `NEXT-RESEARCH-HANDOFF.md` | `d5f306d763d8cf79989a053f2c3a220c51e91e7d` |
 | `OPEN-QUESTIONS.md` | `1de607f84f2c1ecad3f2e84ad302c841ad2d6d90` |
 | `PLAN.md` | `78071b137ecc155c91c90446cf3e2bad9ac5e7dd` |
 | `R0-CANONICAL-RECOVERY.md` | `c594fe5dcf9aa06aa8a0c55e0ff992b4a6aa52a6` |
@@ -22,14 +25,10 @@
 | `R6-SYNTHESIS-DECISION-AND-PARENT-DELTA.md` | `7031b447ff438ff837a7f9d939e2fde6f6c5aa93` |
 | `R7-ADVERSARIAL-CLOSURE-AND-EXECUTION.md` | `2a3d1eefa2c16e6848cc919d84468a0f4227db1a` |
 | `SOURCE-LEDGER.md` | `58df7db1d34844a56b9870c57f05af05867bc703` |
-| `STATE.md` | `c6dafc38d20ad981c61fd415f4b92f7393ddff4a` |
 | `checks/RESULT.json` | `00cb347fa468505c4c40ae6df2f5017f16ab402a` |
 | `checks/SPEC.md` | `3ce2d321f6e12afd6f96b080126f3d7f038b9e10` |
 | `checks/semantic_transfer_checks.py` | `35845ef0c91175af1727b5d8f5a2c1e051791f48` |
-| `synthesis/RE-EXPRESSION-SEMANTIC-TRANSFER-SYNTHESIS.md` | `bc9270e451bb0adc5cca32f7c2ab2d85501f8552` |
 
-Input checkpoint: `b658913dd8148dd9a4850414159f13513904f137`. The 21-file pre-manifest tree was read back as `cb6bfb19cec79f7a46ea135eeeee48680b9cc043`; a local Git-tree reconstruction from its observed blob identities matches it. PLAN, SPEC, script and RESULT additionally match the original local file bytes. Other research document identities are repository write/read bindings, not an independent local full-source comparison.
+The bounded leaf and six exact R6 refinements are user-accepted. The original synthesis is preserved byte-for-byte under its HISTORICAL path; raw R0–R7, PLAN, SOURCE-LEDGER, checks and residuals are unchanged. Their pass-time pending/inactive labels are historical. Current views retain the detailed evidence routes and do not strengthen the original seven-source/fourteen-case/six-control same-model evidence.
 
-Two repeat executions after the initial passing run produced identical RESULT bytes. Fourteen finite/native cases and six rejected false rules remain same-author fixtures, not live SOUL/LLM, human translation or independent taxonomy validation. The exact reading extent of seven primary documents is recorded in SOURCE-LEDGER.
-
-Derivation's parent, three immediate questions and T6 refinements are accepted. This child's leaf and R6 refinements are not yet accepted. Inferential Construction, Maintained-Information Revision and Selection/Exposure have no dedicated passes and are inactive. This manifest binds content, not successful branch publication, semantic truth or new execution authority.
+The separately executed Warrant pass returns a proposed leaf/W6 result awaiting evaluation. Revision and Selection remain unresearched/inactive; overall Foundation STATE controls authority. Identity and acceptance do not establish live SOUL/LLM efficacy, independent replication or automatic next work.

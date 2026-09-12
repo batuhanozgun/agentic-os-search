@@ -5,13 +5,13 @@
 
 | Path | Git blob SHA |
 |---|---|
-| `STATE.md` | `02365ba47b02fe556bec80669ecc44a809f22212` |
-| `INDEX.md` | `5980545087fa48d6d2e7705ce933a88c63a39751` |
-| `KEY.md` | `545b361ea7f80f9d2f0f53be7d029f5929d8a789` |
-| `FINDINGS-MAP.md` | `071a027b141cbd53d495a6efb3f8535a1d5781eb` |
-| `OPEN-QUESTIONS.md` | `d6a89347b1eeff621b15ad84a1957a248fd27796` |
+| `STATE.md` | `de4da4e76b768b98a31ee8d15b026bcb54e0dcb2` |
+| `INDEX.md` | `50150d6a74742a107d89c523b9e5b8857ff08c9e` |
+| `KEY.md` | `540c0b7e86f90d1bdf9f23c0d0a6e07cd84f4789` |
+| `FINDINGS-MAP.md` | `1e610375a3ee7f4fa39f9c81cf50cff63206432f` |
+| `OPEN-QUESTIONS.md` | `dc42455366ee0eaad1e53237922f456a8ca611eb` |
+| `derivation-transformation/CURRENT-SURFACES.md` | `57a0934cec75b118a797297b387ac91bfc345263` |
 | `formation-acquisition/CURRENT-SURFACES.md` | `377ff00e36dbd89baa938acd8818bfedd4354d9d` |
-| `derivation-transformation/CURRENT-SURFACES.md` | `5852117292b860ada11fbeaab4f948b36d48930a` |
 | `synthesis/INFORMATIONAL-DYNAMICS-SYNTHESIS.md` | `1c3f3f3c12c7f859c63d79e9d65ef0ae91154a93` |
 | `N3-IMMEDIATE-CHILD-DISCOVERY.md` | `83885c0341d94e77ee638d576c56012225642a7a` |
 | `N4-BOUNDARY-ANTI-COLLAPSE.md` | `9faa356544198513fd9e1967127e2d3335af5fc0` |
@@ -21,4 +21,6 @@
 | `EVIDENCE-INVENTORY.md` | `86e858d3030c9248aca27903a9d8c95553045eb7` |
 | `EXTERNAL-SOURCE-LEDGER.md` | `3439f837c8a4b92a93557a81acbd4cfae490f037` |
 
-Dynamics, Formation/F6 and Derivation/T6 are accepted. Re-expression has completed a dedicated proposed-leaf result; its R6 refinements await evaluation. Warrant, Revision and Selection remain unresearched/inactive. Original N/F/T evidence is preserved; closed packages can retain historical external next-step labels, not current overall authority. Identity is not semantic truth, independent replication or recursive completion.
+Dynamics, Formation/F6, Derivation/T6 and Re-expression/R6 are accepted at recorded depths. Warrant has a dedicated proposed-leaf/W6 result awaiting evaluation. Revision and Selection remain unresearched/inactive. Original N/F/T/R evidence is unchanged; old closed-package external continuation labels are historical, not current authority.
+
+File identity, accepted sequencing, independent verification and live efficacy are distinct. No automatic successor or architecture follows, and parent acceptance does not complete descendants.

@@ -1,21 +1,16 @@
-# Informational Dynamics — Open Questions
+# Informational Dynamics — Open Questions and Reopen Triggers
 
 **Updated:** 2026-09-12  
-**Role:** explicit unfinished passes and conditional reopening, not automatic execution.
+**Role:** concrete missing passes and conditional uncertainty, not automatic activation.
 
-## Remaining dedicated work
+## Dedicated frontier
 
-Inferential Construction / Claim Warrant and Maintained-Information Revision remain without dedicated passes under the accepted Derivation parent. Selection/Exposure remains the separately unresearched Dynamics sibling. Re-expression R0–R7 have completed a proposed-leaf result and await evaluation, with their own OPEN-QUESTIONS. Do not merge these distinct statuses.
+Formation/F6, Derivation/T6 and Re-expression/R6 are accepted. Warrant W0–W7 propose a leaf/W6 result awaiting evaluation. Maintained-Information Revision and Selection/Exposure remain separately unresearched and inactive.
 
 ## Preserved parent questions
 
-1. Could a stronger framing merge Formation and Selection without losing source capture versus retrieval diagnosis?
-2. Could new evidence force Revision/Standing Change into a different structural level rather than its accepted placement inside Derivation?
-3. Could non-document, streaming, social or distributed cases require Communication/Distribution or Propagation as a distinct inquiry?
-4. Where do gradual, multimodal or pre-semantic cases place the informational-state boundary?
-5. Does Selection retain its own protected question when embedded within transformation algorithms?
-6. Does the accepted Derivation transfer/warrant/revision split survive its later dedicated passes?
-7. Could the proposed transfer distinction between recoverability and intended interpretation require more than the current narrow R6 wording refinement?
-8. Does independent review expose a forced fit, missing question or stronger organization?
+Could a stronger source/interface framing collapse Formation and Selection without diagnostic loss? Could Revision, communication or propagation expose a different first-order boundary at a broader level? Where do multimodal, gradual or pre-semantic cases place the informational-state boundary? Does Selection stay distinct when embedded in a transformation? Does a deeper child expose boundary theft or a stronger split/merge? Could independent review find a missing recurring inquiry?
 
-The accepted three-question Dynamics parent remains unchanged. Formation/F6 and Derivation/T6 are accepted; Re-expression/R6 are pending. The finite/native checks do not solve unknown semantic oracles, currentness conditions, causal benefit or live-system use. No automatic sibling/descendant, architecture, schema, implementation or agent-control work follows.
+The current Formation/Derivation/Selection structure remains accepted. Revision is an accepted child within Derivation, not thereby a new Dynamics peer. Re-expression's R6 refinements are accepted; Warrant's W6 proposals are pending. Their local residuals and strongest rivals remain recoverable in their OPEN-QUESTIONS/W4/R4 routes.
+
+Do not promote a narrower field's taxonomy because its terminology differs. Earlier evidence/replication limits remain. No automatic successor, architecture, schema or implementation follows.

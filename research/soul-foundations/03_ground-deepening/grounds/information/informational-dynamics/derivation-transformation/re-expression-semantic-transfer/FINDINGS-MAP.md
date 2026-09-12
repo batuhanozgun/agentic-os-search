@@ -1,14 +1,15 @@
 # Re-expression / Semantic Transfer — Findings Map
 
 **Role:** CURRENT_L1  
-**Date:** 2026-09-12  
-**Status:** proposed bounded leaf / evaluation pending.
+**Updated:** 2026-09-12  
+**Status:** bounded leaf and exact R6 refinements accepted.
 
-STATE → KEY → this map → synthesis → exact argument/source/check. A route is not independent validation.
+STATE → KEY → this map → current/exact original synthesis → precise argument/source/check. A route is not independent validation. Original R-pass labels are historical.
 
 | Protected question / finding | Argument route | Evidence / limitation |
 |---|---|---|
-| User acceptance of parent and active child scope | R0; STATE | Current user transition; no self-acceptance of this result |
+| Current acceptance and subsequent Warrant result | STATE; NEXT-RESEARCH-HANDOFF | Re-expression/R6 accepted; Warrant pending evaluation |
+| Original parent acceptance and child activation | R0 | Historical authorized scope, not current execution |
 | What source-to-derivative relation is protected? | R1 §§1–2 | Interpretation and use, not bytes alone |
 | Recoverability versus intended meaning versus actual use | R1 §§1,4; R2 §2 | Inherited criterion; C10/C11; not a cognitive model |
 | Tokens preserved but actor/role relation changed | R1 §2 | C03 symbolic fixture |
@@ -26,8 +27,9 @@ STATE → KEY → this map → synthesis → exact argument/source/check. A rout
 | Runtime, reference and learned-evaluator limits | R3 §§5–6; R5 | S5/S6/S7 at unequal depths |
 | Strongest two-child rival and bounded leaf cost | R4 §§2,9 | Same-model structural judgment; reopenable |
 | Other splits and preserved siblings/grounds | R4 §§3–8 | No automatic medium/mechanism hierarchy |
-| Exact parent wording changes | R6 §2 | Proposed with this leaf, not yet accepted |
+| Exact accepted parent wording changes | R6 §2 | Accepted with this leaf; original text preserved |
 | Executed evidence and limitations | R7; checks/ | Fourteen cases; six same-fixture false rules |
-| Remaining separate research | STATE; NEXT-RESEARCH-HANDOFF | Warrant, Revision, Selection still lack dedicated passes |
+| Exact original integrated argument | synthesis/HISTORICAL-RE-EXPRESSION-SEMANTIC-TRANSFER-SYNTHESIS.md | Original blob preserved byte-for-byte |
+| Remaining separate research | parent STATE; Warrant handoff | Warrant result pending; Revision and Selection unresearched/inactive |
 
-R1–R7 names resolve through INDEX. Do not compress this leaf into a single fidelity score or use the map as the full source. Source fidelity, truth, authority, actual uptake and benefit remain separate claims.
+R1–R7 names resolve through INDEX. Do not compress this leaf into a single fidelity score or use the map as the full source. Source fidelity, truth, authority, actual uptake and benefit remain separate claims. Acceptance and later Warrant research do not strengthen the original verification limits.

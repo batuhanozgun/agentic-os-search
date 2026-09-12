@@ -22,10 +22,10 @@
 | `checks/RESULT.json` | `fed6089400a7e5b209e38ff1efdf00fdad4f4a73` |
 | `checks/frontier_audit.py` | `7789bb4a0f6339bd4c05393f3ba2a4e0dd793b62` |
 | `evidence/INPUT-DYNAMICS-STATE.md` | `df5e44427d3c07eb8fdd312a3fa3594c3a239b2e` |
-| `../STATE.md` | `9e2bd438741b4f37d88f8a307c36865e5ac24766` |
-| `../INDEX.md` | `f378db40f87a3bbe84f73a865ec5f7f6b9b43e99` |
-| `../README.md` | `4bf0e81207bdfdce0f282bb7a302ce72f6a386a2` |
+| `../STATE.md` | `32dafbd1b59a5e00d55d25e3422611aabd17021e` |
+| `../INDEX.md` | `2645e8993c21cf7d521ae52d85a9a2a49a4f1ad0` |
+| `../README.md` | `f8dfcd1012baf30f93660b0d62ee9cd1809b263d` |
 
-The review remains accepted and closed. Its B0–B5, SYNTHESIS, FRONTIER.json and checks are unchanged review-time evidence. External continuation paragraphs in the closed local views preserve later checkpoints, not the live execution frontier; current Foundation authority is explicitly ../STATE.md. They must not restart Formation, revert Derivation's acceptance or erase its newly researched child.
+The review remains accepted and closed. Original B0–B5, SYNTHESIS, FRONTIER.json and checks are unchanged review-time evidence. External continuation paragraphs in the closed local views preserve their later checkpoints, not the live execution frontier; current Foundation authority is ../STATE.md. They must not restart prior work, revert accepted children or erase subsequent progress.
 
-Current global state records accepted Formation and Derivation, Re-expression's new proposed-leaf result awaiting evaluation, and three still-unresearched passes: Inferential Construction, Maintained-Information Revision and Selection/Exposure. This refresh changes only continuation bindings and interpretation of their scope. It neither reruns nor strengthens the original same-model review or bookkeeping tests.
+Current global state records accepted Re-expression/R6, Warrant's dedicated proposed leaf/W6 awaiting evaluation, and two unresearched passes: Maintained-Information Revision and Selection/Exposure. This refresh changes only global continuation bindings. It neither reruns nor strengthens the original same-model review or bookkeeping tests.

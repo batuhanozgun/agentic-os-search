@@ -1,44 +1,44 @@
 # SOUL Foundations — STATE
 
 **Updated:** 2026-09-12  
-**Status:** Derivation parent accepted; Re-expression / Semantic Transfer R0–R7 complete, proposed leaf awaiting evaluation  
-**Current authorized substantive activity:** NONE after bounded Re-expression closure  
-**Current authorized interaction:** RE-EXPRESSION LEAF AND EXACT R6 PARENT-REFINEMENT EVALUATION
+**Status:** Re-expression accepted; Claim Warrant W0–W7 complete, proposed leaf awaiting evaluation  
+**Current authorized substantive activity:** NONE after bounded Warrant closure  
+**Current authorized interaction:** WARRANT LEAF AND EXACT W6 PARENT-REFINEMENT EVALUATION
 
-## Accepted anchors and completion depth
+## Accepted anchors and exact completion depth
 
-Environment, Information, Work and Actors retain their accepted current-depth results. Four-ground adequacy, Composition and its currently promoted descendants, Returned Influence, Persistent Adaptation, the B0–B5 integration review and Formation/F6 remain accepted. The Derivation parent, its three immediate protected questions and exact T6 refinements are now accepted by the user.
+Environment, Information, Work and Actors retain their accepted current-depth results. Four-ground adequacy, Composition and its currently promoted descendants, Returned Influence, Persistent Adaptation, the B0–B5 integration review, Formation/F6 and Derivation/T6 remain accepted. Re-expression's bounded leaf and exact six R6 refinements are now user-accepted.
 
 ```
 Information / Representation                    [accepted parent]
 ├─ Informational State                          [accepted bounded leaf]
-└─ Informational Dynamics                       [accepted three-question parent]
+└─ Informational Dynamics                       [accepted parent]
    ├─ Formation / Acquisition                   [accepted bounded leaf]
    ├─ Derivation / Transformation               [accepted three-child parent]
-   │  ├─ Re-expression / Semantic Transfer       [dedicated result complete; proposed leaf awaiting evaluation]
-   │  ├─ Inferential Construction / Claim Warrant [structurally accepted; no dedicated pass; inactive]
+   │  ├─ Re-expression / Semantic Transfer       [accepted bounded leaf]
+   │  ├─ Inferential Construction / Claim Warrant [dedicated result complete; proposed leaf awaiting evaluation]
    │  └─ Maintained-Information Revision         [structurally accepted; no dedicated pass; inactive]
    └─ Selection / Exposure                      [structurally accepted; no dedicated pass; inactive]
 ```
 
-Parent acceptance is not recursive completion. Re-expression was activated and researched, but its new leaf judgment and R6 refinements are not yet accepted. Warrant, Revision and Selection are three concrete remaining dedicated passes, not merely optional vocabulary.
+Parent acceptance is not recursive completion. Warrant was already a structurally accepted inquiry, but its new leaf judgment and W6 refinements are not yet accepted. Revision and Selection are two concrete missing dedicated passes, not optional vocabulary.
 
-## Latest authorization and completed result
+## Latest authorization and result
 
-The user said: “Araştırmanı doğru ve gerekli buluyorum. Değerlendirmemden geçti. Devam et. Operasyonel sınırına kadar çalış.” This accepts the preceding Derivation result and T6 refinements and activates its recommended first child. Research input was main `b658913dd8148dd9a4850414159f13513904f137`; the intervening post-Derivation changes were confined to HERMES/catalog and were preserved.
+The user said: “hem fikirim. devam edebilirsin. operasyonel sınırına kadar çalış.” This accepts Re-expression and exact R6 refinements and activates its recommended Warrant pass only. Research input was main `595d9ebb24302e271b9f84cc86d0debbd74dc790`; concurrent candidate/HERMES work is preserved.
 
-Re-expression R0–R7 propose one interpreted source-to-derivative transfer leaf. Its most important refinement separates recoverability by some decoder, fidelity under the intended interpretation and actual successful use. Reversibility or a round trip does not by itself establish intermediate meaning. Purpose-relative allowed loss, relation/order/ambiguity, approximate decision margins, compatible composition and verifier coverage remain explicit.
+W0–W7 propose one qualified claim–basis support leaf. Conditional validity is not target applicability or factual establishment. Probability direction, dependence, reference population and joint scope matter. Observational fit need not identify a causal effect. An attack on a support bridge is not necessarily a rebuttal of the conclusion. Evidence-selection conditions, production history, justification and action authority remain separate. No immediate Warrant child is promoted; strict/probabilistic/defeasible routes remain explicit.
 
-Current result: `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/re-expression-semantic-transfer/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/R4/R6/R7.
+Current result: `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/inferential-construction-claim-warrant/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/W4/W6/W7.
 
 ## Next responsibility
 
-User evaluation of the new leaf and exact R6 refinements. Inferential Construction / Claim Warrant is the strongest next recommendation, **inactive**. Re-select after each bounded result; do not precommit a fixed sequence or forget Maintained-Information Revision and Selection/Exposure.
+User evaluation of the proposed Warrant leaf and exact seven W6 refinements. Maintained-Information Revision / Reliance Change is the strongest next recommendation, inactive. Selection/Exposure is the other unresearched Dynamics pass. Re-select after each result; do not precommit a fixed chain or automatically start a successor.
 
-No successor is active. Whole Foundation is not declared complete. Closed packages may preserve historical external continuation labels; they do not override this overall current authority.
+Whole Foundation is not complete. Closed packages may retain historical external continuation labels; they do not override this current overall authority.
 
 ## Evidence and boundaries
 
-Seven primary documents at unequal recorded depths and bounded candidate reuse supplied component pressure. Fourteen finite/native cases and six false-rule controls were executed, including actual Python Unicode/JSON and Node JSON examples with synthetic inputs. Repeat execution reproduced exact RESULT bytes. R7 is same-model review; there was no live SOUL/LLM, human translation, production pipeline or independent researcher/model replication. The inherited decoder condition is reused, not claimed as novel mathematics.
+Seven primary documents at unequal recorded depths and bounded candidate discovery supplied component pressure. Twelve finite cases and eight false-rule controls ran under a pre-execution SPEC; repeat execution reproduced exact RESULT bytes. The author specified models, meanings and distributions. W7 is same-model review, not independent replication, a live SOUL/LLM experiment, empirical calibration or real causal intervention.
 
-The original Derivation synthesis is preserved byte-for-byte behind a current accepted view; raw T0–T7 and all prior research/test history remain unchanged. File identity, user acceptance, semantic validity and live benefit remain different claims. No architecture, ontology/schema, implementation or agent-control change is authorized by closure.
+Re-expression's original synthesis is preserved byte-for-byte behind a current accepted view. Original R/T/N/F and other research/test history remain unchanged. Targeted fresh causal-source reading does not close every earlier verification limitation. File identity, user acceptance, semantic validity and live benefit are different claims. No architecture, ontology/schema, implementation, candidate-study or agent-control change is authorized by closure.

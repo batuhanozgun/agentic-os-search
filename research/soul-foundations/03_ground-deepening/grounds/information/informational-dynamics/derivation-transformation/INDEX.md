@@ -1,19 +1,20 @@
 # Derivation / Transformation — INDEX
 
-Read STATE.md first. The three-child parent and T6 refinements are accepted. The dedicated Re-expression R0–R7 result proposes a bounded leaf and awaits separate user evaluation. Warrant, Revision and Selection remain unresearched/inactive.
+Read STATE.md first. The parent/T6 and Re-expression/R6 are accepted. Warrant W0–W7 propose a bounded leaf and await evaluation. Revision and Selection have no dedicated pass and remain inactive.
 
 | Need | Route |
 |---|---|
-| Current parent acceptance and child completion depth | STATE.md → KEY.md |
-| Current Re-expression result | re-expression-semantic-transfer/STATE.md → INDEX/KEY → FINDINGS-MAP → synthesis |
-| Re-expression strongest rival / exact parent delta / verification | child R4 → R6 → R7 |
-| Parent topic-to-evidence retrieval | FINDINGS-MAP.md |
-| Accepted orientation and exact original synthesis | synthesis/DERIVATION-TRANSFORMATION-SYNTHESIS.md → HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md |
-| Original three-child rather than leaf reasoning | T4-RIVAL-DECOMPOSITIONS-AND-BOUNDARIES.md → T6-SYNTHESIS-CHILD-DECISION.md |
-| Original parent claim contracts and boundary probes | T1–T3 through FINDINGS-MAP |
-| Original executed evidence and sources | T7-ADVERSARIAL-CLOSURE.md; SOURCE-LEDGER.md; checks/ |
-| Unresolved conditions and other grounds | OPEN-QUESTIONS.md; DEFERRED-RELATIONS.md |
-| Executed child handoff/current inactive successor | NEXT-RESEARCH-HANDOFF.md |
-| Original method/recovery and exact current identities | PLAN.md; T0-CANONICAL-RECOVERY.md; CURRENT-SURFACES.md |
+| Current Warrant result | inferential-construction-claim-warrant/STATE.md → INDEX/KEY → FINDINGS-MAP → synthesis |
+| Warrant strongest split / exact refinements / limits | child W4 → W6 → W7 |
+| Accepted Re-expression and exact original evidence | re-expression-semantic-transfer/STATE.md → INDEX → current/exact historical synthesis/R6/R7 |
+| Parent acceptance and compact structure | STATE.md → KEY.md |
+| Parent topic-to-evidence route | FINDINGS-MAP.md |
+| Accepted parent orientation and original synthesis | synthesis/DERIVATION-TRANSFORMATION-SYNTHESIS.md → HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md |
+| Original three-child discovery and parent refinements | T4-RIVAL-DECOMPOSITIONS-AND-BOUNDARIES.md → T6-SYNTHESIS-CHILD-DECISION.md |
+| Original claim, transfer, inference and revision probes | T1–T3 through FINDINGS-MAP |
+| Original sources/checks and limits | SOURCE-LEDGER.md; T7-ADVERSARIAL-CLOSURE.md; checks/ |
+| Remaining dedicated work and conditional reopening | OPEN-QUESTIONS.md; DEFERRED-RELATIONS.md |
+| Current continuation | NEXT-RESEARCH-HANDOFF.md |
+| Exact current identities | CURRENT-SURFACES.md |
 
-Original T-passes retain their checkpoint labels, not current authority. Parent probes did not complete children; the new Re-expression pass does not complete Warrant, Revision or Selection. No automatic successor or implementation follows.
+Original pass labels are historical, not current authority. Parent probes do not complete descendants. Warrant's boundary examples do not complete Revision or Selection. No automatic successor or implementation follows.

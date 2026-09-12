@@ -1,31 +1,22 @@
-# Derivation — Open Questions and Reopen Triggers
+# Derivation — Open Questions and Remaining Dedicated Work
 
 **Updated:** 2026-09-12  
-**Status:** parent and three-child structure accepted; Re-expression result pending evaluation.
+**Role:** concrete frontier separated from conditional evidence/reopening.
 
-## Exact dedicated-work frontier
+## Current dedicated status
 
-Re-expression / Semantic Transfer has completed R0–R7 and proposes a bounded leaf. Its R6 refinements and result await evaluation; see its OPEN-QUESTIONS for exact remaining limits. Inferential Construction / Claim Warrant and Maintained-Information Revision / Reliance Change still lack dedicated passes and are inactive. Selection/Exposure remains the separately unresearched Dynamics sibling.
+Re-expression/R6 are accepted. Warrant W0–W7 propose a bounded leaf and exact W6 refinements, awaiting evaluation. Maintained-Information Revision / Reliance Change remains an accepted question without a dedicated pass; Selection/Exposure remains the separate unresearched Dynamics sibling. Both are inactive.
 
-The parent T1–T3 probes did not complete these children. The new transfer pass does not supply their missing research merely by using boundary examples.
+## Preserved evidence conditions
 
-## Evidence conditions still not universally solved
-
-- A purpose-relative semantic oracle for ambiguous text, images or mixed modalities remains target-specific; recoverability and intended interpretation must not be conflated.
-- The relevant question family, loss tolerance, recipient resources and background assumptions require a justified use frame.
-- Actual input contribution in an opaque agent is not established by a plausible post-hoc argument.
-- Approximate, abductive, probabilistic or generative outputs require domain-appropriate warrant.
-- Negative, aggregate, temporal and external dependencies can determine currentness beyond positive source lists.
-- Revision-policy choice can hide unjustified preference, source reliability assumptions or authority gaps.
-- Corrected representations can require historical-reliance reconstruction.
-- Propagation, actual use, causal effect and benefit require evidence beyond semantic fixtures.
+Purpose-relative semantic oracles, real interpretation/context resources, unknown future question families, opaque actual input contribution, source/model validity, dependence, material defeaters, selection-aware guarantees, scope transfer and appropriate revision policy require target-specific evidence. No finite fixture supplies their real-world values universally.
 
 ## Structural reopening
 
-Reconsider the accepted three-question split if dedicated work collapses transfer and warrant without diagnostic loss; if maintained-state revision is fully explained by another ground plus a simpler informational relation; if children degrade into mechanism categories; or if a stronger omitted question cannot be routed without loss. Shared notation alone is not a merge proof, and independent errors alone do not justify unlimited branching.
+Retain the original parent alternatives: merge transfer and warrant only if their protected outcomes survive without material loss; reconsider Revision if it has no independent informational transition beyond other grounds; reopen if the children become mere mechanism categories; seek a stronger fourth region only if an important recurring outcome cannot be routed. Common notation alone is not a merge proof, and different errors alone do not justify unlimited branching.
 
-Reopen Dynamics minimally if Formation, Derivation and Exposure cease to be separable under an explicit frame. Do not reopen accepted grounds simply because implementations differ. The Re-expression result currently proposes only narrow R6 wording refinements, not upstream restructuring; they are pending.
+Warrant's strongest strict-versus-defeasible rival remains in its W4/OPEN-QUESTIONS; Re-expression's conservation-versus-interpretation rival remains in R4. Do not silently discard them on acceptance. Dynamics may require minimal reopening if Formation/Derivation/Selection cease to be distinguishable under an explicit frame.
 
-## Verification and phase limits
+## Limits
 
-No independent researcher/model replication has validated the hierarchy. User acceptance of the parent does not remove those limits, accept its new child result or authorize all remaining work. No live SOUL/LLM, architecture, ontology/schema or implementation is established here.
+Same-model and original source/test limits remain. User acceptance closes sequencing at the stated scope, not independent verification. Revision is the current strongest next recommendation after Warrant evaluation, not an automatically active pass. No architecture or implementation is authorized here.

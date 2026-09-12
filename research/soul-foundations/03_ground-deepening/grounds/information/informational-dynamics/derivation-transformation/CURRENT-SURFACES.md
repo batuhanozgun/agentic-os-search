@@ -1,19 +1,20 @@
 # Derivation / Transformation — CURRENT SURFACES
 
 **Updated:** 2026-09-12  
-**Branch:** main  
-**Status:** accepted three-child parent/T6; Re-expression result/R6 pending evaluation.
+**Branch:** main
+**Status:** accepted parent/T6 and Re-expression/R6; Warrant/W6 pending
 
 | Path | Git blob SHA |
 |---|---|
-| `STATE.md` | `9e527c616478a26d763ecfebce438ec5b30a9e9d` |
-| `INDEX.md` | `ab44aba8e4b7cd4a20c45e7f5762128a7a05387e` |
-| `KEY.md` | `94a866400a65bf33dcda79c62b68936a7a4de12a` |
-| `FINDINGS-MAP.md` | `dfc1041b96858c2a53a6aee310c00945fa38fa44` |
-| `OPEN-QUESTIONS.md` | `240cd7d7d75f4da43a14331af64f1e0718bcf37e` |
-| `NEXT-RESEARCH-HANDOFF.md` | `c80402b176f4252ab7c9120c3771e6e4ef397bac` |
-| `re-expression-semantic-transfer/CURRENT-SURFACES.md` | `fcd5fee9a91e65b26eaabd45192ee363e9b45693` |
-| `synthesis/DERIVATION-TRANSFORMATION-SYNTHESIS.md` | `8c9d74de1e5b69a87bb19c046e142089aebf7e80` |
+| `STATE.md` | `90931cdb2edb89cde4b7e9e3a6f24b38896826aa` |
+| `INDEX.md` | `c72acc0c6be0d31b3902266dcbf86030e57bf874` |
+| `KEY.md` | `7609e3b41c729ede55ee63431aff7c475d4252b6` |
+| `FINDINGS-MAP.md` | `31170a61116ae554384da62ffe72ae11978b2e07` |
+| `OPEN-QUESTIONS.md` | `e58d77976ad81df61f922e11864491966e57c33e` |
+| `NEXT-RESEARCH-HANDOFF.md` | `eaa52b40163662d0ada111419fec277ec2537664` |
+| `synthesis/DERIVATION-TRANSFORMATION-SYNTHESIS.md` | `030d51fbfdb2509cc76fa10f5eb9bbbe676027ff` |
+| `re-expression-semantic-transfer/CURRENT-SURFACES.md` | `76498cd85f8366f4ad3017cebc9094fb1d4a9597` |
+| `inferential-construction-claim-warrant/CURRENT-SURFACES.md` | `8aaa68255249ad2a17f98e6085b2fac1dc57fa3e` |
 | `synthesis/HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md` | `b415e3cb9744e0b5b79d7091a57840831fde7e61` |
 | `PLAN.md` | `43bd950b3833f74aa743e428727d3d7f68b2b71c` |
 | `SOURCE-LEDGER.md` | `ccc59880f7a033d23d5b92c1154ff78a6244d0a3` |
@@ -30,4 +31,6 @@
 | `checks/derivation_checks.py` | `ea2ce35dfca7a0bf26a8116e27998e9d8575db8c` |
 | `checks/RESULT.json` | `f5acae646e85918d12eb792c11b8b8cf289a512b` |
 
-The exact original synthesis blob is preserved; raw T-pass sources and tests are unchanged. User acceptance does not strengthen their same-model/fixture evidence. Re-expression has a new proposed leaf with no immediate child; its own evidence is separate. Inferential Construction, Maintained-Information Revision and Selection/Exposure remain unresearched/inactive. Content identity does not certify semantic truth, recursive completion or main publication by itself.
+The three-child parent/T6 and Re-expression/R6 are accepted. Warrant W0–W7 propose one leaf and seven W6 refinements awaiting evaluation. Maintained-Information Revision and Selection/Exposure remain separately unresearched/inactive. Parent acceptance is not recursive completion.
+
+The exact original Derivation synthesis, T-passes and tests remain unchanged. Current accepted orientation links the source and child evidence; it is not a substitute for them. Warrant's finite examples and independent source authorship do not independently validate the hierarchy or live behavior. No automatic successor, architecture, implementation or agent-control change follows.

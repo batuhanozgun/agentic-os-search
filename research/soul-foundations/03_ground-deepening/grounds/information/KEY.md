@@ -1,14 +1,10 @@
 # Information / Representation — KEY
 
 **Updated:** 2026-09-12  
-**Role:** CURRENT_L0; intentionally compact, not full evidence.
+**Role:** compact current orientation, not full evidence.
 
-Information concerns mediated states/representations and the dynamics that form, derive, change or expose them, distinct from actual referents, pursuits and attributed parties. State retains reference, applicability, content/form/mode, identity and qualifications. Records is a persistence profile; Context a working representation with selection/exposure and use relations.
+Information concerns mediated states/representations and transitions that form, re-express, derive, revise or expose them, distinct from their actual referents, pursuits and attributed parties. State retains reference, applicability, content/form/mode, identity/equivalence and qualifications. Records is a deep persistence profile; Context is a working representation plus selection/exposure and use relations.
 
-Formation is an accepted leaf. Derivation is now an accepted three-child parent: Re-expression/Semantic Transfer, Inferential Construction/Claim Warrant and Maintained-Information Revision. Selection remains separately unresearched.
+The accepted Dynamics parent protects Formation, Derivation and Selection. Formation/F6 and Derivation/T6 are accepted. Derivation contains Re-expression, Warrant and Revision. Re-expression/R6 are now accepted; possible decoding, intended meaning and actual use differ. Warrant has a new proposed leaf awaiting evaluation; its exact W6 refinements do not automatically become accepted findings.
 
-The first dedicated Derivation child, Re-expression, has completed R0–R7 and proposes one leaf; its result/R6 refinements await evaluation. Warrant and Revision have no dedicated passes. The accepted Derivation result separates carrying meaning, warranting a conclusion and revising maintained information.
-
-The new Re-expression proposal further distinguishes recoverability by some decoder, fidelity under the intended interpretation and actual successful use. Round-trip equality does not establish intermediate meaning. Purpose, allowable loss, relation/order/uncertainty, decision margin, source/decoder dependencies and coverage remain explicit.
-
-These are diagnostic questions, not runtime modules or a mandatory processing order. Parent acceptance, dedicated research, child evaluation and independent verification differ. Current STATE controls authority; Inferential Construction is recommended next, not active. Same-model and bounded native checks are not live SOUL/LLM or independent validation.
+Revision and Selection remain separately unresearched and inactive. Evidence is target-relative; a source label does not establish truth, applicability, independent support or permission to act. Parent acceptance is not recursive completion. Follow STATE → local map/synthesis → precise source for current claims and limits. No automatic architecture or implementation.

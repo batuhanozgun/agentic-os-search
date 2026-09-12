@@ -1,27 +1,18 @@
 # Derivation / Transformation — KEY
 
 **Updated:** 2026-09-12  
-**Role:** CURRENT_L0  
-**Status:** accepted three-child parent; dedicated Re-expression result pending evaluation.
-
-Existing information can be re-expressed, used to warrant a conclusion, or revised as a continuing informational state. The accepted three questions are:
+**Role:** CURRENT_L0; accepted parent/T6 and Re-expression/R6, Warrant result pending.
 
 ```
-Re-expression / Semantic Transfer          What meaning or distinction survives?
-Inferential Construction / Claim Warrant   What conclusion is supported, on what basis?
-Maintained-Information Revision            What is retained, withdrawn or replaced?
+Re-expression / Semantic Transfer          What meaning or distinction survives? [accepted leaf]
+Inferential Construction / Claim Warrant   What conclusion is supported, on what basis? [proposed leaf]
+Maintained-Information Revision            What is retained, withdrawn or replaced? [no dedicated pass]
 ```
 
-Only Re-expression has now received a dedicated pass. It proposes a bounded leaf; that new result and R6 refinements await evaluation. Warrant and Revision remain unresearched/inactive, as does the Dynamics sibling Selection/Exposure.
+Transferring a source faithfully, licensing a conclusion and changing continuing information are distinct protected outcomes, not three obligatory software stages. Source lineage is not warrant; actual truth is not a valid offered inference; an entailed output can be inadequate for a use; withdrawal is not negation; repeated sources do not create independence; local validity does not establish compatible composition.
 
-## Accepted parent correction
+Re-expression/R6 are accepted. Possible decoding, intended meaning and actual use differ. Reversibility does not certify intermediate meaning; legitimate loss, material roles/uncertainty, decision margins and verifier coverage remain explicit.
 
-A true/entailed output can be unsuitable for the task, an actually true conclusion can be unsupported by the offered premises, and a correct new analysis can leave current information unrevised. Source lineage is not warrant. Withdrawal is not negation. Independent evidence is not created by another source label. Local validity is not compatible composition.
+Warrant now proposes one qualified claim-support leaf. Its W6 refinements distinguish conditional validity from target applicability, incomplete search from negation, scoped uncertainty from generic confidence, fit from causal identification, undercutting from rebuttal, selection-aware evidence and epistemic support from action authority. They await evaluation, not automatic parent adoption.
 
-These are accepted research distinctions and T6 refinements, not a workflow or architecture. The exact original synthesis is preserved behind the current synthesis view.
-
-## New pending child refinement
-
-Re-expression adds a proposed distinction between some decoder recovering information, the intended target interpretation being faithful, and actual successful use. Round-trip identity does not establish intermediate meaning. Purpose, allowable loss, roles/order/ambiguity, decision margins and verifier-question coverage remain explicit. Read the child KEY/R6, not this abbreviated view, for the pending claim scope.
-
-Current STATE controls authority. Inferential Construction is recommended next, not active. Same-model review, unequal source depths and constructed/native checks are not independent taxonomy or live-system verification.
+Revision and Selection/Exposure remain separately unresearched/inactive. Same-model review and finite checks are not independent taxonomy or live-system evidence. Current STATE governs continuation; original T/R source evidence is preserved.

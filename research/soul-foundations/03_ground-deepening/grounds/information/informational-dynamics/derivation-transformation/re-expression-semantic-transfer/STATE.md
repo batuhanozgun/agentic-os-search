@@ -1,20 +1,15 @@
 # Representational Re-expression / Semantic Transfer — STATE
 
-**Date:** 2026-09-12  
-**Status:** PROPOSED BOUNDED LEAF / USER EVALUATION PENDING  
-**R0–R7:** COMPLETE  
-**Current authorized substantive activity:** NONE after bounded closure  
-**Current authorized interaction:** LEAF RESULT AND EXACT R6 PARENT-REFINEMENT EVALUATION
+**Updated / user accepted:** 2026-09-12  
+**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED  
+**R0–R7:** COMPLETE / exact R6 refinements accepted  
+**Current substantive work in this package:** NONE
 
-## Authorization
+## Acceptance and protected result
 
-The user said: “Araştırmanı doğru ve gerekli buluyorum. Değerlendirmemden geçti. Devam et. Operasyonel sınırına kadar çalış.” In context this accepts Derivation's parent, three immediate child questions and exact T6 refinements and authorizes its recommended Re-expression pass. Input main was `b658913dd8148dd9a4850414159f13513904f137`. It does not pre-accept this new result or authorize automatic successors.
+The user said: “hem fikirim. devam edebilirsin. operasyonel sınırına kadar çalış.” In context this accepts the delivered Re-expression leaf and exact R6 refinements. It separately activated Inferential Construction / Claim Warrant, not new Re-expression descendants or architecture.
 
-## Proposed result
-
-One interpreted source-to-derivative transfer inquiry; no immediate child promoted.
-
-> Under the intended source and target interpretations, which meanings, relations, alternatives and use-relevant distinctions survive re-expression, which losses or approximations are allowed, and what evidence supports that scoped transfer claim?
+One interpreted source-to-derivative transfer inquiry; no immediate child. Under the intended source/target interpretations, which meanings, relations, alternatives and use-relevant distinctions survive, which losses/approximations are allowed, and what evidence supports that scoped claim?
 
 ```
 recoverable by some decoder != faithful under intended interpretation != actually used correctly
@@ -27,16 +22,16 @@ all generated questions pass != all material questions covered
 faithful transfer != source truth != authority != privacy or benefit
 ```
 
-Purpose, interpretation/background, allowed loss, structure/order, ambiguity/mode, composition and horizon remain separately retrievable facets. R4's strongest conservation/interpretive-realization rival and reversal conditions are explicit. R6 proposes narrow parent refinements; those await evaluation with this leaf. Derivation's already accepted three-child structure is retained.
+The six exact R6 refinements are accepted: recoverability/intended meaning/actual use; round-trip limits; use-sensitive approximation; material relations/order/scope/modality/attribution/alternatives; purpose/recipient/background/horizon; and source/output verification directions with separate question-coverage limits. The strongest conservation/interpretation split and reopen conditions remain in R4, not erased by acceptance.
 
-## Evidence and limits
+## History and current continuation
 
-Seven primary documents at unequal depths; fourteen constructed cases and six rejected faulty rules. Native Unicode/JSON checks actually ran under Python 3.13.5/UCD 15.1.0 and Node v22.16.0. Re-execution reproduced identical results. The inherited fibre criterion is reused, not claimed as new mathematics. R7 is same-model review; no live SOUL/LLM, human translation, production workload or independent replication occurred.
+Original R0–R7, PLAN, SOURCE-LEDGER, checks and residuals remain unchanged pass evidence. The original synthesis is preserved byte-for-byte at `synthesis/HISTORICAL-RE-EXPRESSION-SEMANTIC-TRANSFER-SYNTHESIS.md`, blob `bc9270e451bb0adc5cca32f7c2ab2d85501f8552`. The established synthesis path now carries current acceptance orientation and links that source. Original pending/inactive labels are historical, not current authority.
 
-## Next responsibility and frontier
+Warrant W0–W7 are now complete at `../inferential-construction-claim-warrant/STATE.md`. Its proposed leaf and W6 refinements await separate evaluation. Revision and Selection remain separately unresearched/inactive; follow the parent or Foundation STATE for overall work. Do not rerun this pass or its executed successor handoff.
 
-User evaluation of this result and R6 refinements. Inferential Construction / Claim Warrant is the strongest next recommendation, inactive. Maintained-Information Revision and Selection/Exposure also remain without dedicated passes. No new descendant or sibling is automatically activated. Whole Foundation is not declared complete.
+## Limits and stop
 
-## Retrieval and authority
+The original seven sources were read at unequal depths. Fourteen finite/native cases and six false-rule controls, including local Unicode/JSON behavior, were same-author evidence. R7 remains same-model review, not live SOUL/LLM, human translation, production use or independent replication. Acceptance and subsequent Warrant research do not strengthen those limits.
 
-INDEX → KEY → FINDINGS-MAP → synthesis → exact R-pass/SOURCE-LEDGER/checks. Parent authority is `../STATE.md`; overall Foundation authority is `../../../../../../STATE.md`. CURRENT-SURFACES binds exact content, not semantic truth or publication success by itself. No architecture, ontology/schema, implementation or agent-control mutation is authorized by closure.
+No automatic successor, descendant, architecture, ontology/schema, implementation or agent-control change is authorized here. Overall Foundation is `../../../../../../STATE.md`.

@@ -1,22 +1,20 @@
 # Informational Dynamics — Findings Map
 
 **Updated:** 2026-09-12  
-**Role:** current parent/child retrieval.
+**Role:** current retrieval, not source evidence.
 
-| Need | Route | Current limit |
+| Need | Route | Status / limit |
 |---|---|---|
-| Accepted structure and exact completion depth | STATE | parent acceptance is not recursive completion |
-| Original three-question reasoning | N3 → N4 → N6 → N7 | accepted same-model parent result |
-| Accepted Formation and F6 delta | formation-acquisition/FINDINGS-MAP → synthesis/F6 | source-facing leaf, prior limits retained |
-| Accepted Derivation and T6 delta | derivation-transformation/FINDINGS-MAP → current/original synthesis/T6 | three accepted immediate questions |
-| New dedicated Re-expression | Derivation re-expression-semantic-transfer/FINDINGS-MAP → synthesis | proposed bounded leaf; awaiting evaluation |
-| Recoverable versus intended meaning; loss, order and composition | Re-expression R1–R3/R6 | proposed refinements; native/finite examples |
-| Strongest Re-expression rivals and check limits | Re-expression R4/R7/SOURCE-LEDGER | same-model, no live semantic evaluator |
-| Inferential Construction and Revision | Derivation T1–T4/T6 | no dedicated child passes yet |
-| Selection / Exposure | N3/N4/N7 and original synthesis | no dedicated pass yet |
-| Records/time/history and continued reliance | EVIDENCE-INVENTORY → Records routes; Derivation T3 | original evidence, no universal persistence policy |
-| Revision, communication and propagation boundaries | N4/N6; Derivation T4 | no new fourth Dynamics peer |
-| Exact source and test scopes | package SOURCE-LEDGER/CURRENT-SURFACES | identity is not semantic truth |
-| Unresolved parent falsifiers | OPEN-QUESTIONS | conditional, not an execution queue |
+| Current authorization and completion depth | STATE | parent acceptance not recursive closure |
+| Original three-question Dynamics split | N3 → N4 → N6 → N7 | accepted; original evidence preserved |
+| Source-facing formation | formation-acquisition/FINDINGS-MAP.md | accepted leaf/F6 |
+| Derivation's three protected outcomes | derivation-transformation/FINDINGS-MAP.md → T4/T6 | accepted parent/T6 |
+| Intended semantic transfer | Derivation re-expression-semantic-transfer/STATE.md → map/R6 | accepted leaf/R6 |
+| Conditional/target warrant, uncertainty and defeaters | Derivation inferential-construction-claim-warrant/STATE.md → map/W6 | proposed leaf; evaluation pending |
+| Continuing information revision | Derivation T3/T4; current OPEN-QUESTIONS | dedicated pass still absent |
+| Selection, visibility, omission and ranking | original N3/N4/N7 | dedicated pass still absent |
+| Persistence and temporal history | EVIDENCE-INVENTORY → Records routes | cross-cutting profile |
+| Ground/Composition boundaries | relevant child DEFERRED-RELATIONS | actual reality, authority, qualification and spread not absorbed |
+| Sources, checks and independent-verification limits | local SOURCE-LEDGER/adversarial closure/CURRENT-SURFACES | different claim scopes |
 
-State remains the constituted-result question, Environment actual conditions/support, Work pursuit, and Actors participation/authority. Use current STATE for live authority; original N/T/F histories do not start or complete later work.
+Original N/F/T/R sources and tests are unchanged. Their old next-step labels do not override current STATE. Warrant is not accepted by its own publication; Revision and Selection are not completed by boundary probes.

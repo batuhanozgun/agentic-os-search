@@ -1,12 +1,10 @@
-# Re-expression Entry — Executed Handoff and Current Continuation
+# Derivation — Executed Child Handoffs and Current Continuation
 
 **Updated:** 2026-09-12  
-**Status:** original handoff executed; new Re-expression result awaiting separate evaluation.
+**Status:** parent/T6 and Re-expression/R6 accepted; Warrant result awaiting evaluation.
 
-The original entry contract is preserved at input commit `b658913dd8148dd9a4850414159f13513904f137`, blob `621f0f15576097082fdfff1485081d3008f672c2`. The user accepted Derivation's three-child parent/T6 refinements and authorized the recommended first child. Re-expression R0 records its recovery; R1–R7 contain its dedicated investigation.
+The original first-child Re-expression handoff is preserved in history at blob `621f0f15576097082fdfff1485081d3008f672c2`. That pass was executed and accepted. Its later Warrant handoff, input blob `d5f306d763d8cf79989a053f2c3a220c51e91e7d`, was separately activated by the latest user continuation and executed as W0–W7.
 
-Current route: `re-expression-semantic-transfer/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/R4/R6/R7. Do not restart it as an unexecuted task or self-accept its proposed leaf/refinements.
+Current result: `inferential-construction-claim-warrant/STATE.md` → INDEX/KEY → synthesis/W4/W6/W7. The proposed leaf and exact W6 refinements await evaluation. Do not restart either child as unresearched or pre-accept the new result.
 
-The next recommendation is Inferential Construction / Claim Warrant, inactive. Its recovery contract is `re-expression-semantic-transfer/NEXT-RESEARCH-HANDOFF.md`. Maintained-Information Revision and Selection/Exposure remain separately unresearched. Current overall authority is Foundation STATE; this handoff does not automatically activate a successor.
-
-The original method remains: one active node, genuine rival comparison, exact source extent, no promotion of research hierarchy into architecture, preserved history and a user evaluation gate. No schema, implementation or agent-control mutation follows from this executed handoff.
+The strongest next recommendation is Maintained-Information Revision / Reliance Change. Its inactive recovery contract is in Warrant's NEXT-RESEARCH-HANDOFF.md. Selection/Exposure remains the other missing Dynamics pass. Follow current Foundation STATE for authority; no automatic next pass, architecture, schema, implementation or agent-control change follows.

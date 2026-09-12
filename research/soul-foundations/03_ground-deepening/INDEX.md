@@ -1,17 +1,16 @@
 # Ground Deepening — INDEX
 
-Read ../STATE.md for overall work, then the relevant package STATE. Original ground-level acceptance is not recursive completion.
+Read ../STATE.md for overall authority. Original ground-level acceptance is not recursive completion by label.
 
 | Need | Route |
 |---|---|
-| Current Re-expression result | `grounds/information/informational-dynamics/derivation-transformation/re-expression-semantic-transfer/STATE.md` → INDEX/KEY/synthesis |
-| Accepted Derivation parent and remaining children | `grounds/information/informational-dynamics/derivation-transformation/STATE.md` → INDEX |
-| Accepted Formation | `grounds/information/informational-dynamics/formation-acquisition/STATE.md` → KEY/current and original synthesis |
-| Information and missing Selection | `grounds/information/STATE.md` → INDEX |
-| Accepted Environment | `grounds/environment/STATE.md` → KEY/current routes |
-| Accepted Work | `grounds/work/STATE.md` → KEY/prior corpus |
-| Accepted Actors | `grounds/actors/STATE.md` → KEY/prior corpus |
-| Unchanged method | HIERARCHICAL-DEEPENING-METHOD.md |
+| Current Warrant result | grounds/information/informational-dynamics/derivation-transformation/inferential-construction-claim-warrant/STATE.md → INDEX/KEY/synthesis |
+| Accepted Re-expression and Derivation | Information INDEX → selected package STATE/current and original synthesis |
+| Formation and remaining Revision/Selection frontier | grounds/information/STATE.md → INDEX |
+| Accepted Environment | grounds/environment/STATE.md → current local router |
+| Accepted Work | grounds/work/STATE.md → prior corpus routes |
+| Accepted Actors | grounds/actors/STATE.md → prior corpus routes |
+| Hierarchical method | HIERARCHICAL-DEEPENING-METHOD.md |
 | Current identities | CURRENT-SURFACES.md |
 
-Re-expression R0–R7 propose a leaf pending evaluation. Warrant, Revision and Selection remain separately unresearched. Historical next-step labels do not authorize new work; no architecture or implementation follows automatically.
+Re-expression/R6 are accepted; Warrant/W6 are proposed and await evaluation; Revision and Selection are unresearched/inactive. Historical continuation labels do not grant new authority. No automatic successor or implementation.

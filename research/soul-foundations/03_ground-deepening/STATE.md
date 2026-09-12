@@ -1,14 +1,12 @@
 # Ground Deepening — STATE
 
 **Updated:** 2026-09-12  
-**Original program:** CLOSED / FOUR CURRENT-DEPTH GROUND RESULTS ACCEPTED  
-**Later descendants:** Formation and Derivation accepted; Re-expression proposed leaf awaiting evaluation  
-**Current substantive node:** NONE after bounded Re-expression closure
+**Original four-ground program:** CLOSED / accepted at recorded depths  
+**Later descendants:** Formation, Derivation and Re-expression accepted; Warrant result awaiting evaluation  
+**Current substantive node:** NONE after bounded Warrant closure
 
-The original program evaluated Environment, Information, Work and Actors at their recorded depths. Environment was accepted on 2026-09-04; Information, Work and Actors on 2026-09-05. It did not separately research every named Information descendant.
+The original program evaluated Environment, Information, Work and Actors, not every subsequently promoted Information descendant. Work and Actors' deliberate no-child result is not an unfinished child queue. The later accepted integration review recovered missing Dynamics passes; their dedicated progress remains explicitly routed below.
 
-The accepted integration review restored the missing Dynamics frontier. Formation is now an accepted bounded leaf; Derivation an accepted three-child parent with T6 refinements. Its first dedicated child, Re-expression, has completed R0–R7 and awaits evaluation as a proposed bounded leaf. Inferential Construction, Maintained-Information Revision and Selection/Exposure remain without dedicated passes and inactive. Work and Actors' deliberate no-child result is not an unfinished queue.
+Formation/F6, Derivation/T6 and Re-expression/R6 are accepted. Warrant W0–W7 propose a bounded leaf/W6 result awaiting evaluation. Revision and Selection are two still-unresearched, inactive passes. Current result: `grounds/information/informational-dynamics/derivation-transformation/inferential-construction-claim-warrant/STATE.md` → INDEX/KEY → synthesis/W4/W6/W7.
 
-Current result: `grounds/information/informational-dynamics/derivation-transformation/re-expression-semantic-transfer/STATE.md` → INDEX/KEY → synthesis/R4/R6/R7. Overall authority remains `../STATE.md`.
-
-HIERARCHICAL-DEEPENING-METHOD.md is unchanged: one active node, genuine child discovery, separate activation, bounded closure and preserved history. Original adequacy/composition transitions are not restarted because old plans name them. User evaluation of the new child/refinements is next; no automatic successor, architecture, schema, implementation or agent-control work follows.
+Overall authority is ../STATE.md. The original adequacy/composition transitions and the unchanged HIERARCHICAL-DEEPENING-METHOD.md remain accepted history/method. One node is researched at a time; discovery is not automatic descendant activation. User evaluation of Warrant is next. No architecture, ontology/schema, implementation or agent-control change follows automatically.

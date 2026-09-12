@@ -1,21 +1,22 @@
 # SOUL Foundations — INDEX
 
-Read STATE.md first. Derivation and its three-child structure/T6 refinements are accepted. Re-expression R0–R7 propose a bounded leaf and await user evaluation. Inferential Construction, Maintained-Information Revision and Selection/Exposure remain without dedicated passes and inactive.
+Read STATE.md first. Re-expression/R6 are accepted. Warrant W0–W7 propose one bounded leaf and await user evaluation of that result and W6 refinements. Revision and Selection remain separately unresearched/inactive.
 
 | Need | Entry and deeper route |
 |---|---|
-| Current Re-expression result | `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/re-expression-semantic-transfer/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis |
-| Why a leaf; strongest split; exact proposed refinements | Re-expression R4 → R6 → R7 |
-| Source reading extent and executed tests | Re-expression SOURCE-LEDGER → R5/R7 → checks/SPEC/code/RESULT |
-| Inactive next Inferential Construction entry | Re-expression NEXT-RESEARCH-HANDOFF.md |
-| Accepted Derivation parent and original evidence | `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/STATE.md` → INDEX → current/exact historical synthesis/T4/T6/T7 |
-| Accepted Formation/F6 | sibling formation-acquisition/STATE.md → KEY → current/exact historical synthesis/F6/F7 |
-| Information completion depth and missing Selection | `03_ground-deepening/grounds/information/STATE.md` → Dynamics STATE |
-| Accepted State and original Dynamics reasoning | Information INDEX → State STATE/FINDINGS-MAP; Dynamics N3/N4/N6/N7 |
-| Accepted integration/frontier audit | `06_integration-frontier-review/STATE.md` → original SYNTHESIS/B1/B2/B4 |
-| Accepted Composition and descendants | `05_relation-control-composition/STATE.md` → INDEX → selected child STATE/KEY |
-| Other accepted grounds | `03_ground-deepening/INDEX.md` → selected ground |
-| Accepted four-ground adequacy | `04_top-level-adequacy-rerun/STATE.md` → INDEX |
-| Candidate reuse | `../studies/CATALOG.md` → selected META → relevant evidence |
+| Current Claim Warrant result | 03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/inferential-construction-claim-warrant/STATE.md → INDEX/KEY → map/synthesis |
+| Why leaf, strongest rival, exact parent delta | Warrant W4 → W6 → W7 |
+| Actual primary source and check extent | Warrant SOURCE-LEDGER → W5/W7 → checks/SPEC/code/RESULT |
+| Inactive Revision recovery contract | Warrant NEXT-RESEARCH-HANDOFF.md |
+| Accepted Re-expression/R6 and original argument | sibling re-expression-semantic-transfer/STATE.md → INDEX/current and exact historical synthesis/R6/R7 |
+| Accepted Derivation/T6 | 03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/STATE.md → INDEX/original T3/T4/T6/T7 |
+| Accepted Formation/F6 | Dynamics formation-acquisition/STATE.md → KEY/current and original synthesis/F6 |
+| Information depth and missing Selection | 03_ground-deepening/grounds/information/STATE.md → Dynamics STATE |
+| Accepted State and original Dynamics | Information INDEX → State STATE/map; Dynamics N3/N4/N6/N7 |
+| Accepted integration/frontier review | 06_integration-frontier-review/STATE.md → original SYNTHESIS/B1/B2/B4 |
+| Accepted Composition and descendants | 05_relation-control-composition/STATE.md → INDEX → selected package |
+| Other accepted grounds | 03_ground-deepening/INDEX.md → selected ground |
+| Accepted four-ground adequacy | 04_top-level-adequacy-rerun/STATE.md → INDEX |
+| Candidate reuse | ../studies/CATALOG.md → selected META → relevant evidence |
 
-Current state controls authority. Original pass plans/syntheses and closed-package external next-step labels are historical where superseded. Parent acceptance, a dedicated result, child acceptance and independent verification are different. No automatic sibling/descendant, architecture or implementation follows.
+Current state governs authority. Original pass-time pending/next-step labels and old closed-package external continuations are historical. Dedicated research, parent acceptance, recursive closure and independent verification are distinct. No automatic successor, architecture or implementation.
