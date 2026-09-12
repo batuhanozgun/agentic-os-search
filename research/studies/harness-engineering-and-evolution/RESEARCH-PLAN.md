@@ -1,66 +1,67 @@
-# Research plan — staged assimilation, v0.1
+# Research plan — staged assimilation, v0.2
 
-**Date:** 2026-09-12. Campaign remains ACTIVE. This is a revisable dependency plan, not a promise to finish in a fixed number of turns. Several turns may be required for one unit; a unit may split when its mechanisms differ materially.
+**Updated:** 2026-09-12. Campaign remains ACTIVE. This is a revisable dependency plan, not a fixed number of turns. A unit can span sessions or split when its mechanisms differ. Current authority lives in STATE.
 
-## Research progression
+## Progression
 
-| Unit | Question and work | Exit evidence / status |
+| Unit | Question / work | Current standing and exit |
 |---|---|---|
-| U00 | Identify sources; recover project scope; map each source natively; expose initial validity boundaries | COMPLETE as intake. Note01/Note02, source identities and next question exist. Not full research closure. |
-| U01 | Trace Meta-Harness candidate generation, permitted changes, validation, scoring, history and selection in actual source; distinguish framework from output artifact | NEXT. Exact code/caller/result chain, negative paths, evaluator ownership and paper-to-release correspondence. Split U01-A/B if needed. |
-| U02 | Critically reconstruct all ten video responsibilities and the evolution loop using primary mechanisms, not only labels | PENDING. Every component has function, inputs/outputs, enforcement limits, interaction and counterexample; ambiguous spoken claims checked against original media. Product examples revalidated rather than assumed current. |
-| U03 | Audit three experimental families and comparison claims; recover logs/data/implementations where available | PENDING. Separate classification/OOD, math task/model transfer and coding benchmark discovery; units/budgets/uncertainty/selection leakage resolved or bounded. Primary comparisons with ACE/GEPA and other relevant methods. |
-| U04 | Build source-native operating and change models; compare with selected HERMES/GSTACK and other study evidence | PENDING. At least one normal path and one failure/authority/continuity path for each load-bearing family. Existing studies reopened only at needed evidence, preserving their limits. |
-| U05 | Challenge the model and candidate explanations; design or execute justified bounded probes | PENDING. Holdouts, rivals, regressions, no-change/simpler alternatives; named untested boundaries. Actual execution optional according to claim, never silently assumed. |
-| U06 | Project to current Foundation and separately to SOUL/Development OS | PENDING. Reuse conditions, nontransferable elements, unresolved authority/evaluation decisions and evidence-to-use requirements. No architecture adoption. |
-| U07 | Reverse omission/distortion/freshness audit; compact core and retrieval closure | PENDING. Re-enter source regions not used to build the first model; assess whether closure is justified or which units reopen. |
+| U00 | Identify sources, recover project scope, map each source natively, expose initial validity boundaries | COMPLETE as intake only. Note01/Note02 and original source ledger remain preserved. |
+| U01-A | Trace classification candidate generation, admission, evaluator, saved evidence, result attribution, selection and finalization | COMPLETE as bounded source characterization. Note03/Note04 and exact SOURCES; no upstream execution. The named verification debts are not closed. |
+| U01-B | Trace TerminalBench optimizer, actual execution/result binding and comparison with the separate selected artifact | NEXT. Distinct interface/executor/evaluator/selection paths; normal and negative cases; exact identities. Split optimizer and artifact if necessary. |
+| U02 | Reconstruct all ten video responsibilities and the evolution loop with primary mechanisms | PENDING. Function, inputs/outputs, enforcement limits, interaction and counterexample per responsibility; original audio check for contested wording. No universal ten-layer taxonomy. |
+| U03 | Audit three experimental families and primary comparison claims | PENDING. Classification/OOD, math model/task transfer, coding discovery remain separate. Recover historical runs/settings when available; cost, coverage, exposure and uncertainty explicit. |
+| U04 | Build native operating/change models and compare selected existing-study evidence | PENDING. Source-native synthesis first; selective HERMES/GSTACK and related evidence, with their open limits retained. |
+| U05 | Challenge explanations; design/execute justified bounded probes | PENDING. Rivals, holdouts, regressions, no-change/simpler alternatives. U01-A CHECKS-NOT-RUN is a question queue, not executed evidence. |
+| U06 | Project to current Foundation and separately to SOUL/Development OS | PENDING. Reuse conditions, nontransferable elements, evaluation/authority questions. No architecture adoption. |
+| U07 | Reverse omission/distortion/freshness audit and compact core | PENDING. Re-enter omitted source regions; decide bounded closure or reopen units. No completion percentage based on file/test count. |
 
-U02 and U03 can exchange order or feed U01. U04 does not wait for all HERMES research to finish: use a pinned, bounded result and keep that study's open boundaries. U06 is not the first time SOUL is considered; it is the point at which project-facing conclusions may become more than hypotheses.
+U02/U03 can feed or reorder U01-B. U04 does not require all HERMES research to finish. SOUL is considered throughout as a question source; U06 is when project-facing conclusions receive their dedicated evidence review rather than remaining early hypotheses.
 
-## Immediate U01 source route
+## Immediate U01-B source route
 
 Framework pin: `stanford-iris-lab/meta-harness@0cbc31e97c9e6d24232d1dc754827c02e1ec415c`.
 
-1. `ONBOARDING.md` (external contract, not an instruction to execute onboarding).
-2. `reference_examples/text_classification/README.md` and its actual directory tree; follow `meta_harness.py` and the real proposer/evaluator/interface paths exposed there.
-3. `reference_examples/terminal_bench_2/README.md`, actual tree and search/eval path; determine which evidence represents the paper run and which is cleaned-up reference code.
-4. Compare the discovered-output repository at `57fefdb2ff84af3fd81b69d67814acbe69bd0743`: `pyproject.toml`, `agent.py`, `anthropic_caching.py`, actual `prompt-templates/` contents. Its root README and root tree alone have been read so far.
+1. `reference_examples/terminal_bench_2/SETUP.md` and `pyproject.toml`: intended environment/dependencies and actual configuration surfaces. Do not execute setup.
+2. `meta_harness.py` and the actual `scripts/`, `agents/`, `tests/` and `.claude/` trees. Track proposer receipt, candidate import validation, Harbor command, task subset/trials/model/environment, results and frontier/final evaluation. README and root tree have already been read.
+3. Shared `claude_wrapper.py` has the exact S09 blob already fully read. Reuse the implementation identity, but inspect the TB invocation/allowed tools; caller equivalence is not established by a shared wrapper.
+4. Separate selected artifact at `stanford-iris-lab/meta-harness-tbench2-artifact@57fefdb2ff84af3fd81b69d67814acbe69bd0743`: `pyproject.toml`, `agent.py`, `anthropic_caching.py`, actual prompt templates. Determine environment-bootstrap caller, fallback, truncation, prompt consumption and inherited controls. Its root README/tree alone have been read.
 
-Stop after a coherent source unit; save a caller/symbol map rather than making unverifiable general claims about the full system. Do not run quick starts by default.
+Exact queued trees/blobs: [U01-A SOURCES](evidence/2026-09-12-u01a-classification/SOURCES.md). The optimizer, baseline and selected output are distinct sources. Stop at a coherent source unit; do not let large files or a desire for closure erase a missing producer–consumer boundary.
 
-## Open questions
+## Open questions and scoped progress
 
-| ID | Question | Current route / standing |
+| ID | Question | Current standing |
 |---|---|---|
-| Q01 | What is mutable, what is protected, and is protection mechanical or merely prompted? | U01; open, decisive for safe interpretation of end-to-end search. |
-| Q02 | Can generated code influence the evaluator, oracle, search data, history or score attribution? | U01; open. Separate process is not automatically independent authority. |
-| Q03 | How are candidate code, model/config, task subset, traces and score joined? Can stale results be selected? | U01; open. |
-| Q04 | Which parts of the published framework reconstruct the paper experiment, and which are later examples? | U01/U03; root README explicitly calls it cleaned-up code with limited testing. |
-| Q05 | Does the selected TerminalBench artifact implement the bootstrap/fallback and inherited control paths as described? | U01-B; no code read or execution yet. |
-| Q06 | Are the video's component boundaries useful across work classes, or do they hide cross-cutting responsibilities? | U02/U04; map exists, no universal ten-layer taxonomy accepted. |
-| Q07 | Is improvement caused by diagnostic evidence, extra budget, proposer priors, task-specific tuning or selection effects? | U03/U05; paper ablations are relevant but do not settle all alternatives. |
-| Q08 | How much evidence supports unseen-task and unseen-model transfer, separately for each experiment? | U03; coding has no task holdout; math reporting ambiguity recorded in Note02. |
-| Q09 | What are total proposer/search/evaluation/run-time costs and regression risks? | U03/U05; context and evaluation-count headline metrics are insufficient. |
-| Q10 | What distinguishes a good candidate from an accepted operational change, and who can stop or reverse it? | U04/U06; bridge question, not an implemented SOUL decision. |
-| Q11 | How do stored sources, traces, summaries and memories retain authority, fidelity and relevance when consumed? | U02/U04/U06; use existing Information/knowledge studies selectively. |
-| Q12 | When should a component be removed, a model changed, the objective revised, or no action taken? | U02/U05; counters harness-expansion bias. |
-| Q13 | How does bounded local success survive delegation, session restart, environment drift and actual external effects? | U04/U05; HERMES/GSTACK evidence candidates, not yet fresh comparisons. |
-| Q14 | What source-native mechanism or rival account is missing from the first synthesis? | U07 and each interim reverse pass. |
+| Q01 | What is mutable/protected; which restrictions are mechanical? | Classification caller and imports characterized; cooperation versus protection explicit. Actual host boundary unverified. TB pending. |
+| Q02 | Can candidate/proposer capabilities affect evaluator, data, history or score attribution? | Shared process/filesystem paths and broad proposer tools observed. No tampering or exploit executed. TB pending. |
+| Q03 | How are candidate code, model/config, task coverage, traces and score bound? | Name/path reuse and partial-dataset denominator boundaries found in classification. LLM content cache distinguished. Native probes and historical incidence open. |
+| Q04 | What reconstructs the original paper and what is later reference code? | Offline/API-backed release defaults and proposer prior identified. Historical run/artifact correspondence remains open; do not back-project release defects into paper results. |
+| Q05 | Does the selected TB artifact implement bootstrap/fallback and inherited controls as described? | Still open; output implementation unread. U01-B. |
+| Q06 | Are video component boundaries useful across work classes? | U00 map only; U02/U04. No universal taxonomy accepted. |
+| Q07 | What causes improvement: diagnostic history, extra budget, proposer prior, tuning or selection? | New release-prior/accounting questions; no causal experiment. U03/U05. |
+| Q08 | What supports unseen-task/model transfer in each experiment? | U00 distinctions retained. Partial finalization now adds an exposure question; math reporting and raw paired results still open. |
+| Q09 | What are total search/evaluation/runtime costs and regressions? | Last-prompt character metric and response-cache usage semantics traced. No live cost/quality measurement or total-cost comparison. |
+| Q10 | What separates a good candidate from an accepted operational change? | Classification selection/finalization source characterized; neither is SOUL adoption authority. U04/U06. |
+| Q11 | Do stored sources, traces and summaries retain fidelity, authority and relevance? | Computed-versus-persisted evaluation details and summary-comparator drift identified. Actual proposer evidence consumption/use unmeasured. |
+| Q12 | When remove a component, change the model/objective, or do nothing? | Skill forces proposal work, not acceptance of every proposal. No-change/simpler alternatives remain required counterpoints. |
+| Q13 | How does success survive delegation, restart, environment drift and external effect? | Shared candidate namespace, result reuse and partial-finalization recovery traced in classification. TB and cross-study comparison open. |
+| Q14 | What does the current synthesis omit or distort? | Same-researcher caller/config/test cross-reading performed; no independent audit. U07 reverse-source challenge remains. |
+
+## Validation queue without false closure
+
+[CHECKS-NOT-RUN](evidence/2026-09-12-u01a-classification/CHECKS-NOT-RUN.md) names seven candidate probes: mixed-result partial finalization, stale result identity, incomplete-dataset selection, import-versus-interface admission, diagnostic persistence, multi-call/cache/context measurement and summary comparator. They are not seven tests passed, or even seven tests already implemented.
+
+A local probe needs exact native source and dependency identity, a pre-execution SPEC, independent expected observations and bounded side effects. Historical experiment reconstruction needs historical evidence, not merely a successful current smoke test. Paid model/host experiments and implementation remain outside automatic continuation.
 
 ## Primary-source expansion queue
 
-Do not open everything at once. For a material comparison, first recover the referenced source rather than repeat the paper's characterization:
+Retain the U00 queue and open only the source needed for a named comparison: ACE (`2510.04618`), GEPA (`2507.19457`), Meta Context Engineering (`2601.21557`), MemEvolve (`2512.18746`), AFlow (`2410.10762`), and actual Terminus-KIRA/Harbor/evaluator dependencies. Their presence here is discovery, not reading or endorsement. Resolve whether a limitation belongs to the method, a particular implementation or an unfair comparison before generalizing.
 
-- ACE, arXiv:2510.04618 — comparator for context/memory evolution and feedback compression.
-- GEPA, arXiv:2507.19457 — comparator for trace-based reflective optimisation; test whether claimed restrictions are intrinsic or implementation-specific.
-- Meta Context Engineering, arXiv:2601.21557; MemEvolve, arXiv:2512.18746 — compare what is actually being changed.
-- AFlow, arXiv:2410.10762 — workflow search as a rival decomposition.
-- Terminus-KIRA/Harbor and task evaluator sources — only as the candidate-to-effect chain requires them.
-
-These are discovered dependency candidates, not already-read evidence. A missing exact experiment artifact may be more important than another survey.
+The original math model-holdout/search-size and classification search-budget ambiguities in Note02 remain open. A release default is not a silent repair of an unresolved paper protocol.
 
 ## Revision log
 
-**v0.1, U00:** Sources do not form one ready-made architecture. The video is broad and explicitly provisional; the paper targets code search. Coding search/final evaluation share 89 tasks; the public optimiser release is cleaned up and minimally tested by its own README. Therefore inspect mutability/evaluator/source correspondence first, before expanding a broad feature taxonomy or proposing implementation.
+**v0.1 / U00:** Video and paper are different objects. Prioritize mutability, evaluation separation and paper-to-code correspondence before treating their component lists as an architecture.
 
-Reopen or change order when source code contradicts prose, a mechanism cannot be reproduced from released artifacts, a stronger rival explains improvement, or a new workload invalidates assumed reuse.
+**v0.2 / U01-A:** The classification path is substantial enough to form its own coherent source unit; split U01 into A and B as the original plan allowed. Source evidence changes the initial generic boundary questions into concrete identity/coverage/exposure/representation questions. The explicit incomplete-finalization test prevents describing that path simply as an accidentally omitted guard. Positive seed/dispatch/finalization safeguards remain in the model. Current release defaults/prior prevent assuming historical reproducibility. Advance to the distinct TB source path without requiring every classification runtime debt to be closed first, while preserving each debt and limiting claims accordingly.

@@ -1,36 +1,42 @@
 # Harness Engineering and Evolution — Metadata
 
-- **Study ID:** `harness-engineering-and-evolution`
+- **Study ID:** `harness-engineering-and-evolution`.
 - **Type:** `hybrid`.
-- **Status:** ACTIVE, PARTIAL RESEARCH. U00 source intake / native mapping / initial validity audit complete; deeper mechanism research remains open. [STATE](STATE.md) is current-work authority.
-- **Started:** 2026-09-12. **Plan:** v0.1.
-- **Research objects:** the video *Harness Engineering Masterclass: Technical Deep Dive on how to build Agentic Systems* (`mQfTdNVCOB0`); Lee et al., *Meta-Harness: End-to-End Optimization of Model Harnesses*, arXiv:2603.28052v1; their operational-composition and harness-change questions, tested against relevant primary implementations and selected existing studies.
-- **Main question:** How are the information, tools, state, execution and control surrounding a model composed into a working system, and under what evidence, evaluation and authority conditions can that system's harness be changed?
+- **Status:** ACTIVE / PARTIAL. U00 intake and U01-A classification source characterization complete at bounded depths. No upstream execution or adoption. [STATE](STATE.md) is current-work authority.
+- **Started / updated:** 2026-09-12. **Plan:** v0.2.
+- **Research objects:** the video *Harness Engineering Masterclass: Technical Deep Dive on how to build Agentic Systems* (`mQfTdNVCOB0`); Lee et al., *Meta-Harness: End-to-End Optimization of Model Harnesses*, arXiv:2603.28052v1; operational composition and harness-change mechanisms, tested against primary implementations and selected existing studies.
+- **Main question:** How are information, tools, state, execution and control around a model composed into a working system, and under what evidence, evaluation and authority conditions can its harness be changed?
 
 ## Distinct contribution sought
 
-The existing [context–memory–harness study](../context-memory-harness-engineering/META.md) establishes problem-domain boundaries. This package does not repeat that terminology survey. It studies **composition and change**: source/experience → candidate mechanism → executable configuration → observed result → qualified change. The video supplies a provisional operational map; the paper supplies a specific code-search method and limited experimental evidence. Neither is accepted as a complete SOUL architecture.
+The older [context–memory–harness study](../context-memory-harness-engineering/META.md) concerns problem-domain boundaries. This package studies **composition and change**: source/experience → candidate mechanism → executable configuration → observed result → qualified change. The video supplies a provisional operating map; the paper supplies a specific search method. Neither is a complete SOUL architecture.
 
-## Relevance and reuse
+## Current strongest reuse signals
 
-**Foundation retrieval hints:** Information (selection, representation, diagnostic history); Work (execution, completion, evaluation and change lifecycle); Actors (proposer, executor, evaluator and acceptance authority); Environment (actual capability, tool/runtime boundaries). Composition, Returned Influence and Persistent Adaptation may matter later. These are many-to-many candidate relations, not taxonomy assignments or new Foundation decisions.
+U01-A supplies an actual classification candidate/evaluator/selection source chain and pressure cases for role versus capability, candidate identity versus filename, complete repetitions versus complete task coverage, test completion versus evidence exposure, produced versus persisted diagnostics and metric/cost representation. Its first-party test files were inspected, not run. The native model and qualifications must be reused together: [Note03](notes/03-CLASSIFICATION-CANDIDATE-LIFECYCLE.md) → [Note04](notes/04-CLASSIFICATION-EVIDENCE-BOUNDARIES.md).
 
-**SOUL:** candidate knowledge for forming and adapting work-specific operating systems, deciding what prior research is usable, and separating benchmark improvement from justified deployment.
+**Foundation retrieval hints:** Information (evidence formation, persistence, selection, fidelity, comparison anchors); Work (evaluation/finalization/recovery and candidate lifecycle); Actors (proposer/executor/evaluator responsibility versus effect capability); Environment (shared files, worker/model/cache dependencies). Composition, Returned Influence and Persistent Adaptation may be relevant later. These are provisional many-to-many relations, not taxonomy membership or Foundation acceptance.
 
-**Development OS:** candidate pressure tests for research-to-development handoff, tool/control enforcement, evaluator integrity, trace provenance, continuation and change review. Current DevOS implementation ownership remains outside this study.
+**SOUL:** candidate evidence for forming/adapting work-specific systems and qualifying the feedback used to change them. A score needs scope, identity and interpretation; more recorded information is not automatically better-grounded adaptation.
 
-**Reuse modes:** mechanism reference, design pressure, falsifier, experimental-design input, later architecture-facing comparison. Adoption and implementation are not authorised by this metadata.
+**Development OS:** candidate pressure tests for evaluated-artifact binding, coverage-aware result acceptance, interrupted-test recovery, trace availability and actual tool authority. No DevOS code/control or implementation ownership is changed.
 
-## Limits, freshness and revisit
+**Reuse modes:** mechanism reference, design pressure, falsifier, experimental-design input and later architecture-facing comparison. A limitation/rejected option is useful research too; none of these roles implies adoption.
 
-Paper v1 is the research anchor, not a claim about today's leaderboard. Framework source is pinned to `stanford-iris-lab/meta-harness@0cbc31e97c9e6d24232d1dc754827c02e1ec415c`; output artifact to `stanford-iris-lab/meta-harness-tbench2-artifact@57fefdb2ff84af3fd81b69d67814acbe69bd0743`. Only their root READMEs and root tree metadata were inspected in U00; implementation and benchmark execution were not.
+## Pins, limits and revalidation
 
-Video transcript was recovered through a derivative timestamped service, not native YouTube captions. Fourteen frames from the user-uploaded video were inspected; end-to-end audio/transcript fidelity is open. See [SOURCE-LEDGER](SOURCE-LEDGER.md) and [media identity](evidence/MEDIA-MANIFEST.json).
+Paper v1 remains the historical anchor, not today's leaderboard. Framework pin: `stanford-iris-lab/meta-harness@0cbc31e97c9e6d24232d1dc754827c02e1ec415c`. Selected-output pin: `stanford-iris-lab/meta-harness-tbench2-artifact@57fefdb2ff84af3fd81b69d67814acbe69bd0743`.
 
-Revisit on upstream/model/evaluator changes; promotion into a load-bearing SOUL/DevOS decision; contradictory evidence; transcript ambiguity; new work/risk classes; or findings that invalidate the initial decomposition.
+Classification callers, worker, interface, configuration, wrapper, selected data paths and test sources have now been read at the depths in [U01-A SOURCES](evidence/2026-09-12-u01a-classification/SOURCES.md). TerminalBench reference README/tree and shared-wrapper identity are known, but its optimizer/executor and the selected artifact implementation remain the next unit. Release code is not automatically a reproduction of the paper's original runs.
+
+The video transcript is a derivative representation; fourteen original-video frames do not establish full audio alignment. U00 provenance remains in [SOURCE-LEDGER](SOURCE-LEDGER.md) and [MEDIA-MANIFEST](evidence/MEDIA-MANIFEST.json).
+
+No upstream tests/programs, live models, provider requests, paid benchmarks, host security tests or independent replication were executed. Source counterexamples are not measured historical defects. U01-A is bounded source characterization, not validation closure. Exact unperformed checks: [CHECKS-NOT-RUN](evidence/2026-09-12-u01a-classification/CHECKS-NOT-RUN.md).
+
+Revalidate when upstream/model/evaluator/dependencies change, a finding becomes load-bearing for design, a current-product claim is needed, transcript wording is contested, new work/risk classes arise or contradictory evidence changes the model. Historical pins remain unless an explicit repin/delta decision is recorded.
 
 ## Entry and neighbours
 
-[STATE](STATE.md) → [INDEX](INDEX.md) → [METHOD](METHOD.md) / [PLAN](RESEARCH-PLAN.md). Initial findings: [source map](notes/01-SOURCE-NATIVE-MAP.md), [validity audit](notes/02-INITIAL-VALIDITY-AUDIT.md). Candidate bridge: [BRIDGE-QUESTIONS](BRIDGE-QUESTIONS.md).
+[STATE](STATE.md) → [INDEX](INDEX.md) → [METHOD](METHOD.md) / [PLAN](RESEARCH-PLAN.md). U00: [source map](notes/01-SOURCE-NATIVE-MAP.md), [initial audit](notes/02-INITIAL-VALIDITY-AUDIT.md). U01-A: Note03/Note04 and exact SOURCES. [BRIDGE](BRIDGE-QUESTIONS.md) remains an initial question set, not a completed projection.
 
-Related packages: [gstack](../gstack/META.md), [Hermes](../hermes-agent/META.md), [knowledge strategies](../ai-knowledge-strategies/META.md), [multi-agent patterns](../multi-agent-patterns/META.md), [AI-native SDLC](../anthropic-ai-native-sdlc-playbook/META.md), [roadmap seed](../agentic-ai-systems-roadmap/META.md), [prerequisite discovery](../recursive-prerequisite-discovery/META.md). Relevance does not mean these packages were all substantively reread in U00.
+Relevant neighbours include [gstack](../gstack/META.md), [Hermes](../hermes-agent/META.md), [knowledge strategies](../ai-knowledge-strategies/META.md), [multi-agent patterns](../multi-agent-patterns/META.md), [AI-native SDLC](../anthropic-ai-native-sdlc-playbook/META.md), [roadmap](../agentic-ai-systems-roadmap/META.md) and [prerequisite discovery](../recursive-prerequisite-discovery/META.md). Their relevance does not imply a fresh full reading or completed cross-study synthesis.
