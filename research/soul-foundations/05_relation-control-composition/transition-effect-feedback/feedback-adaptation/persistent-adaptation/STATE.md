@@ -1,54 +1,29 @@
 # Persistent Adaptation / Future-Response Change — STATE
 
-**Date:** 2026-09-11  
-**Status:** PROPOSED BOUNDED LEAF / USER EVALUATION PENDING  
-**D0–D7:** COMPLETE  
-**Current authorised substantive activity:** NONE after this bounded closure  
-**Current authorised interaction:** USER EVALUATION OF THIS CHILD RESULT
+**Updated / user accepted:** 2026-09-12
+**Research date:** 2026-09-11
+**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED
+**D0–D7:** COMPLETE
+**Current substantive work in this package:** NONE
 
-## Activation and scope
+## Acceptance
 
-The user explicitly activated this pass after the canonical repository inspection: “anlaştık. Çalışmaya başla. operasyonel sınırına kadar çalış”. The input main commit was `d928ee14b16a277c010a966816fc2c4097944aab`. Activation authorizes research and continuity work, not acceptance of this result or automatic successors.
+The user accepted the preceding bounded-leaf result and its exact D6 parent wording refinements with “anlaştık. Devam et. Operasyonel sınırına kadar çalış.” The accompanying continuation authorized the separate integration/frontier review, not automatic new descendants or architecture.
 
-## Proposed result
+## Accepted result
 
-```
-Persistent Adaptation / Future-Response Change
-    proposed bounded leaf
-    one history-linked retained-response-disposition grammar
-    no immediate child promoted
-    user evaluation pending
-```
+One history-linked retained-response-disposition grammar; no immediate child promoted. Ask whether relevant experience produced and retained a changed disposition to respond to specified later situations or continuation sequences, where/how it is realized, and what retention/expression scope is actually supported.
 
-Protected question: did relevant experience produce a retained change in a bounded system's disposition to respond to specified later situations or continuation sequences, where/how is it realized and retained, and what scope of retention/expression is actually supported?
+Preserve fixed code versus effective regime, changed bytes versus changed disposition, stored record versus operative retained change, latent response before natural recurrence, historical acquisition versus current retention/expression, local versus all-path scope, and occurrence versus benefit/authority/transfer. Persistence requires meaningful opportunity/horizon/lifecycle/support. Probes can themselves update the target. Broad Evolution is not universally reduced to this leaf.
 
-## Principal refinements
+## Current continuation and history
 
-```
-fixed code/weights != fixed effective response regime
-changed bytes/parameters != changed response disposition
-stored lesson != adaptation established
-no natural recurrence yet != no latent adaptation
-historical acquisition != current retention != current expression
-same present output != same later response distribution/trajectory
-local path change != system-wide persistent change
-adaptation occurrence != benefit != authority != transfer
-```
+The bounded integration/frontier review is complete at `../../../../06_integration-frontier-review/` and awaits separate evaluation. It recommends Formation/Acquisition, inactive. Do not restart D0–D7 or declare whole Foundation complete.
 
-Persistence needs a justified horizon, opportunity class, lifecycle boundary and support conditions. Probe-induced updating must be separated from evidence about the pre-probe target. Broad Evolution is not universally reduced to this leaf.
+D0–D7 and the original pre-acceptance synthesis remain historical evidence. The current synthesis view links its exact preserved predecessor. Current STATE governs acceptance; original pass labels do not reverse it.
 
-## Parent effect
+## Verification
 
-The accepted two-child Feedback/Adaptation parent remains supported. D6 proposes narrow wording refinements; those refinements are pending with this child evaluation. Returned Influence remains accepted. No ground, causal leaf or Composition restructuring is presently proposed.
+The original seven primary-source readings had unequal recorded depths; D7 was same-model review. Fifteen constructions and four rejected false rules established only their stipulated relationships. No actual process restart, live SOUL/LLM efficacy, human/team intervention or independent replication occurred. This review did not rerun or strengthen those tests.
 
-## Evidence and verification
-
-SOURCE-LEDGER records seven primary sources at their actual, unequal reading depths, selected candidate META-only screening and optional access failures. D7 is same-model review. Fifteen executed constructions and four rejected false rules establish their specified relationships only. No actual process restart, live SOUL/LLM efficacy, human/team intervention or independent model/researcher replication occurred.
-
-## Next responsibility and stop
-
-Return for user evaluation of the bounded leaf and proposed parent refinements. No substantive successor is active. After acceptance, a bounded integration/remaining-frontier review may be logical but requires separate direction. Do not declare the whole Foundation complete or start architecture, ontology/schema, implementation, new descendants or agent-control changes.
-
-## Retrieval
-
-INDEX → KEY → FINDINGS-MAP → integrated synthesis → relevant D-pass/SOURCE-LEDGER/checks. CURRENT-SURFACES binds exact file identity, not substantive truth.
+No architecture, ontology/schema, implementation, new child or agent-control mutation is authorized here.

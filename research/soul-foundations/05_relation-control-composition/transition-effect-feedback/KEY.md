@@ -1,35 +1,23 @@
 # Transition / Effect / Feedback — KEY
 
-**Document role:** CURRENT_L0  
-**Updated:** 2026-09-11  
-**Status:** accepted parent; Persistent Adaptation proposed result awaiting evaluation
+**Updated:** 2026-09-12
+**Role:** CURRENT_L0; accepted parent and currently promoted descendants.
 
-## Accepted questions
-
-Transition/Propagation asks what exact cross-ground change was realized and how far it propagated. Causal Effect/Contribution retains distinct actual-episode and contrastive/interventional questions. Feedback/Adaptation retains distinct operative returned-influence and persistent future-response questions.
-
-Returned Influence is accepted. Its strongest correction remains:
+The three immediate questions are realized Transition/Propagation, Causal Effect/Contribution, and Feedback/Adaptation. Causality contains Actual episode contribution and Contrastive X/X' target effect. Feedback/Adaptation contains Returned Influence and Persistent Adaptation, now both accepted.
 
 ```
+change requested != change realized != full propagation
+chronology != actual causation
+actual episode contribution != contrastive target effect
+return path != operative use != particular-signal contribution
+informed decision != executed action != intended effect
 unchanged output != no feedback
-unchanged output != proof of use
-return path != active coupling != episode contribution
-informed response != executed action != achieved target
-```
-
-## Persistent Adaptation — proposed bounded result
-
-D0–D7 propose one history-linked retained-response-disposition leaf. It specifies the bearer, history/comparator, response opportunity or trajectory, operative carrier/path, horizon/support and evidence scope.
-
-```
-fixed code/weights != fixed effective response regime
-stored lesson != operative retained change established
+fixed code != fixed effective response disposition
+stored lesson != retained response change established
 historical acquisition != current retention != current expression
-adaptation occurrence != benefit != authority != transfer
+occurrence != benefit/authority/transfer
 ```
 
-These child findings and narrow parent wording refinements await user evaluation. No new immediate child or upstream restructuring is proposed. See `feedback-adaptation/persistent-adaptation/D6-SYNTHESIS-CHILD-DECISION.md` for exact status and delta.
+Feedback can preserve or inhibit output. Adaptation can be latent, distributional or trajectory-relative and requires a meaningful horizon/support frame. Evolution is not universally reduced to it. These accepted child refinements do not prescribe a controller, schema or runtime.
 
-## Current gate and verification
-
-User evaluation, not further substantive research, is next. D7 is same-model review; fifteen constructions and four false-rule rejections test only their defined relationships. No live-system efficacy, actual process restart or independent taxonomy validation occurred. Ground-local dynamics and accepted causal/Control/Standing boundaries remain intact.
+Current integration/frontier review: `../../06_integration-frontier-review/`. Its findings await evaluation; the next Formation recommendation is inactive. Original evidence and same-model limits remain.

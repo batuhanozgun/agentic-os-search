@@ -1,42 +1,25 @@
 # Composition — CURRENT SURFACES
 
-**Date:** 2026-09-11  
-**Branch:** main  
-**Status:** accepted Composition; Persistent Adaptation proposed bounded leaf awaiting evaluation
+**Date:** 2026-09-12
+**Branch:** main
 
-## Current authority and retrieval
+| Role / path | Git blob SHA |
+|---|---|
+| `INDEX.md` | `1bdbeb5aa04d0375f32cb2ea2594c688081fe585` |
+| `KEY.md` | `f3d73205190e66ca6f0ce1ed4dc112a8d1019f37` |
+| `OPEN-QUESTIONS.md` | `d90c700a84415370b0c8465ce2cd19a75575ef04` |
+| `STATE.md` | `391aac8e1aa3fe757be86bf538247160547cd013` |
+| `../STATE.md` | `6fbb7325739f54bcca51da075ab8251dc3163a2e` |
+| `../INDEX.md` | `8fce71d7d57cd60bdf224bf8233f42e8bf99e4fc` |
+| `../06_integration-frontier-review/CURRENT-SURFACES.md` | `ec1537657e2180bb5723a6f449ddc4f5c8c2e527` |
+| `transition-effect-feedback/CURRENT-SURFACES.md` | `818244c9e4f705768832be2f412532a28c54274c` |
+| `relational-binding/CURRENT-SURFACES.md` | `cd21db93fd96195a474860afdcea5071207c61f6` |
+| `composite-standing/CURRENT-SURFACES.md` | `07b8b01180149a8f87d4b257526926ac2700b63e` |
+| `control-constraint/CURRENT-SURFACES.md` | `df99373883d3741a2b6b42df530e904213036b2c` |
+| `PLAN.md` | `bc866966be4d1410839ea8ae85901c3a4eb7372f` |
+| `FINDINGS-MAP.md` | `b98253dd32aa06ae5761770a4400dc208e15a7b6` |
+| `synthesis/COMPOSITION-PARENT-SYNTHESIS.md` | `f4a36ddaf6a711efd2939a3f423313e5af8c3530` |
 
-| Role | Path | Git blob SHA |
-|---|---|---|
-| Foundation authority | `../STATE.md` | `308c6dd6a98092f16b945f1273c5a81f30dbc84c` |
-| Foundation router | `../INDEX.md` | `ecbff8dfb23b8b0f08ce6404d8840ec0524b189e` |
-| Composition authority | `STATE.md` | `b14f1a4062a5ad87d98bf6b6180505eb7a1705c3` |
-| Composition router | `INDEX.md` | `6db3bb4b015f8a34e4db422408b9cf537b09118a` |
-| Semantic key | `KEY.md` | `cbf654ca99b38df63c0e3387c9eea6367215b10c` |
-| Residuals | `OPEN-QUESTIONS.md` | `2160fb67319b91432134c3b67a186c1f8d18c3a3` |
-| Original parent plan | `PLAN.md` | `bc866966be4d1410839ea8ae85901c3a4eb7372f` |
-| Original parent findings map | `FINDINGS-MAP.md` | `b98253dd32aa06ae5761770a4400dc208e15a7b6` |
-| Original parent synthesis | `synthesis/COMPOSITION-PARENT-SYNTHESIS.md` | `f4a36ddaf6a711efd2939a3f423313e5af8c3530` |
+All currently promoted Composition descendant passes are accepted, including Persistent Adaptation. This is not recursive whole-Foundation completion: three Information child passes remain unresearched. The separately completed integration/frontier review awaits user evaluation. No substantive successor is active.
 
-## Composition child manifests
-
-| Child | Status | Exact manifest |
-|---|---|---|
-| Relational Binding | accepted leaf | `relational-binding/CURRENT-SURFACES.md` @ `cd21db93fd96195a474860afdcea5071207c61f6` |
-| Composite Standing | accepted leaf | `composite-standing/CURRENT-SURFACES.md` @ `07b8b01180149a8f87d4b257526926ac2700b63e` |
-| Control/Constraint | accepted leaf | `control-constraint/CURRENT-SURFACES.md` @ `df99373883d3741a2b6b42df530e904213036b2c` |
-| Transition/Effect/Feedback | accepted parent; latest child result pending evaluation | `transition-effect-feedback/CURRENT-SURFACES.md` @ `2cd7fa24ddfb340cb3a93b6a4d3bb965968723ff` |
-
-## Deepest current frontier
-
-| Package | Status | Exact manifest |
-|---|---|---|
-| Feedback/Adaptation | accepted parent | `transition-effect-feedback/feedback-adaptation/CURRENT-SURFACES.md` @ `e1a384a606d5380caba4379e592c72e284a2068e` |
-| Returned Influence | accepted bounded leaf | `transition-effect-feedback/feedback-adaptation/returned-influence/CURRENT-SURFACES.md` @ `16a9e7c45f0f0d4703a00b7041840e761cad4c7f` |
-| Persistent Adaptation | proposed bounded leaf / user evaluation pending | `transition-effect-feedback/feedback-adaptation/persistent-adaptation/CURRENT-SURFACES.md` @ `1efc6e272c1838ab0e9b582362e6773ebfa97ac2` |
-
-## Verification boundary
-
-This is file-identity and retrieval-continuity binding, not substantive correctness certification. Original C/T/F/G evidence is retained. Current acceptance views are distinct from historical labels. D7 remains same-model review; constructed checks are not actual restart, live efficacy or independent replication.
-
-Next responsibility: user evaluation of Persistent Adaptation and its proposed refinements. No substantive successor, whole-Foundation closure, architecture, schema, implementation or agent-control mutation is authorized by this manifest.
+Original C/T/F/G/D passes and their evidence limits are preserved. Previous manifest `25858254296f911dee5d06fe711a3e7ccbf729e7` is recoverable at input commit `a6c47ef3ff697c2d23c492dcf4ccfa32003040da`. Current identity binds files and retrieval only; it is not independent semantic validation, live efficacy or publication certification. No architecture, schema, implementation or agent-control mutation follows.

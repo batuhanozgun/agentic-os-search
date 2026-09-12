@@ -1,50 +1,19 @@
-# Cross-Ground Feedback / Returned Influence — STATE
+# Returned Influence — STATE
 
-**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED  
-**Activated / accepted:** 2026-09-11  
-**G0–G7:** COMPLETE  
-**Parent:** Cross-Ground Feedback / Adaptation — accepted bounded parent  
-**Sibling:** Persistent Adaptation — completed proposed bounded leaf / user evaluation pending  
-**Current authorised substantive activity in this package:** NONE
+**Updated:** 2026-09-12
+**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED (2026-09-11)
+**G0–G7:** COMPLETE
+**Sibling:** Persistent Adaptation — bounded leaf / user-accepted 2026-09-12
+**Current substantive work in this package:** NONE
 
-## Protected question
+For an explicitly bounded system or continuing pursuit, ask how realized-condition/performance information returns into an applicable response process and what establishes operative use, exact contribution or downstream effect at the intended claim level.
 
-For an explicitly bounded system or continuing pursuit, how does information about its realized condition/performance return into an applicable later response process, and what establishes operative use, particular-episode contribution or downstream effect at the exact claim level of interest?
+One reference-relative operative-return grammar; no immediate child promoted. Unchanged output neither disproves nor proves feedback. Return structure, active coupling, particular-signal/configuration contribution and downstream realization differ. Hold, continuation and inhibition can be operative responses. Joint/redundant signals need not be individually decisive.
 
-## Accepted result
+Signal production/delivery/reading is not operative use; informed response is not executed action or target effect; causal influence is not truth/authority; derivative repetition is not independence; handling all received signals is not complete observation. Feedback occurrence is not benefit/safety/stability or persistent adaptation.
 
-One reference-relative operative-return grammar; no immediate child promoted.
+Raw G0–G7, source ledger and exact original historical synthesis remain unchanged. The accepted G refinements remain explicit reference, no visible-change requirement, exact response/effect locus and qualified independence language.
 
-```
-unchanged output != no feedback
-unchanged output != proof of feedback use
-structure exists != active coupling != particular-signal contribution
-informed response != executed action != achieved target effect
-```
+Current global continuation is evaluation of the integration/frontier review at `../../../../06_integration-frontier-review/`. The D-pass is accepted, not unstarted or awaiting its old evaluation. Formation is recommended next but inactive. No architecture, schema or implementation is authorized.
 
-A loop can select hold, continuation or inhibition. A blind system can show the same output. Joint/redundant signal configurations remain possible; an individual sample need not be decisive.
-
-## Other retained boundaries
-
-```
-any information influence != relevant feedback return
-signal produced/delivered/read != operative use
-causal influence != accurate content != legitimate authority
-derivative repetition != independent corroboration
-all received signals handled != all material outcomes observed
-feedback occurrence != benefit/safety/stability != persistent adaptation
-```
-
-## Acceptance and history
-
-The accepted parent refinements remain explicit return reference, operative hold/no visible-change requirement, exact response-versus-effect locus and qualified independence language. Raw G0–G7 and source evidence remain unchanged.
-
-The stale current-map/synthesis evaluation labels are repaired. The exact original pre-acceptance integrated synthesis is preserved at `synthesis/HISTORICAL-RETURNED-INFLUENCE-SYNTHESIS.md`; the established synthesis path now provides current accepted orientation and links that source. This presentation repair neither reopens nor independently revalidates the accepted result.
-
-## Verification
-
-Fresh primary reading supported the original pass. G7 is same-model review. Seven executed toy checks establish constructed relationships only, not a real controller, agent, estimator or the unique hierarchy. No independent second-researcher/model replication occurred.
-
-## Current continuation
-
-The sibling Persistent Adaptation D0–D7 is complete and awaits user evaluation. Follow parent STATE or `../persistent-adaptation/STATE.md`; do not reactivate it as an unstarted task. No successor, architecture, implementation, schema or agent-control work is authorized here.
+G7 remains same-model review and its seven toy checks remain constructed relationships, not live efficacy or independent taxonomy validation. Acceptance and the latest review do not strengthen those evidence limits.

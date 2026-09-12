@@ -1,55 +1,43 @@
 # SOUL Foundations — STATE
 
-**Updated:** 2026-09-11  
-**Status:** Persistent Adaptation D0–D7 complete; proposed bounded leaf awaiting user evaluation  
-**Current authorised substantive activity:** NONE after this bounded closure  
-**Current authorised interaction:** PERSISTENT ADAPTATION RESULT EVALUATION
+**Updated:** 2026-09-12
+**Status:** Persistent Adaptation accepted; bounded integration/frontier review complete, awaiting user evaluation
+**Current authorized substantive activity:** NONE after the bounded review
+**Current authorized interaction:** INTEGRATION / REMAINING-FRONTIER RESULT EVALUATION
 
-## Accepted Foundation anchors
+## Accepted findings and completion depth
 
-Environment / Operating Reality; Information / Representation; Work; Actors / Agency–Participation–Authority; post-deepening top-level adequacy; Cross-Ground Composition parent; Relational Binding; Composite Standing / Qualification; Control / Constraint; Transition / Effect / Feedback parent; Cross-Ground Transition / Propagation; Cross-Ground Causal Effect / Contribution parent; Actual Causal Contribution / Episode Causation; Contrastive / Interventional Causal Effect; Cross-Ground Feedback / Adaptation parent; Cross-Ground Feedback / Returned Influence.
+Environment, Information, Work and Actors retain their accepted current-depth ground results. The post-deepening adequacy result and Composition parent remain accepted. Binding, Composite Standing, Control, Transition/Propagation, both causal leaves, Returned Influence and Persistent Adaptation have accepted bounded results within the accepted Composition structure.
 
-Persistent Adaptation is a completed research result, **not yet an accepted anchor**.
-
-## Current composition frontier
+**Acceptance of a ground or parent is not recursive completion.** Information Dynamics' three promoted children are explicitly not separately researched:
 
 ```
-Cross-Ground Composition                         [accepted parent]
-├─ Relational Binding                            [accepted bounded leaf]
-├─ Composite Standing / Qualification            [accepted bounded leaf]
-├─ Control / Constraint                          [accepted bounded leaf]
-└─ Transition / Effect / Feedback                 [accepted bounded parent]
-   ├─ Cross-Ground Transition / Propagation       [accepted bounded leaf]
-   ├─ Cross-Ground Causal Effect / Contribution   [accepted bounded parent]
-   │  ├─ Actual Causal Contribution / Episode Causation [accepted leaf]
-   │  └─ Contrastive / Interventional Causal Effect     [accepted leaf]
-   └─ Cross-Ground Feedback / Adaptation          [accepted bounded parent]
-      ├─ Cross-Ground Feedback / Returned Influence     [accepted leaf]
-      └─ Persistent Adaptation / Future-Response Change [proposed leaf / evaluation pending]
+Information / Representation                 [accepted parent result]
+├─ Informational State                       [accepted bounded leaf]
+└─ Informational Dynamics                    [accepted three-child parent]
+   ├─ Formation / Acquisition                [structurally accepted; no dedicated pass]
+   ├─ Derivation / Transformation            [structurally accepted; no dedicated pass]
+   └─ Selection / Exposure                   [structurally accepted; no dedicated pass]
 ```
 
-## Latest authorization and result
+These are real remaining named research passes, not merely optional examples. Work and Actors deliberately have no promoted universal child hierarchy; that is a different case.
 
-After the canonical inspection, the user explicitly activated Persistent Adaptation and the narrow acceptance-label cleanup: “anlaştık. Çalışmaya başla. operasyonel sınırına kadar çalış”. The pass recovered input main `d928ee14b16a277c010a966816fc2c4097944aab` and completed D0–D7.
+## Latest user authorization and completed work
 
-Proposed result: one history-linked retained-response-disposition grammar; no immediate child promoted. Fixed code/weights are not equivalent to a fixed effective response regime; stored lessons, historical acquisition, current retention, expression, benefit, authority and transfer remain distinct. D6 proposes parent wording refinements, pending user evaluation with the child.
+The user said: “anlaştık. Devam et. Operasyonel sınırına kadar çalış.” Following the preceding delivery, this accepts Persistent Adaptation and its exact D6 parent refinements and authorizes the proposed bounded integration/remaining-frontier review.
 
-Canonical result entry:
+That review is complete under `06_integration-frontier-review/`. Its result is separately awaiting evaluation. It found no demonstrated new immediate Composition region, reconciled sixteen original pressure families, and restored the three Information child passes to the global frontier. It did not run those passes or revoke accepted results.
 
-`05_relation-control-composition/transition-effect-feedback/feedback-adaptation/persistent-adaptation/STATE.md`
+## Current result and next responsibility
 
-Returned Influence remains accepted. Its stale current-map/synthesis acceptance labels are clarified without changing raw G0–G7 evidence or weakening its verification limits.
+Read `06_integration-frontier-review/STATE.md` → KEY → SYNTHESIS → B2/B4.
 
-## Next responsibility
+**Next responsibility:** user evaluation of the integration/frontier result.
 
-**User evaluation of Persistent Adaptation's bounded-leaf result and proposed parent refinements.** No substantive successor is active.
+**Strongest next research recommendation:** Informational Formation / Acquisition, followed by re-selection between Derivation and Selection. It is **inactive**. The recommendation is not a universal processing order and not activation authority.
 
-After acceptance, a bounded parent/integration and remaining-frontier review may be the next logical work; it is not automatically authorized. Do not restart the completed D-pass merely because an old parent plan still describes an inactive sibling.
+## Verification and boundaries
 
-## Evidence and verification
+This review is a same-model canonical-source cross-check, not a fresh literature survey or independent replication. The local check verifies an exact source snapshot and rejects four malformed ledger variants; it does not validate SOUL behavior or the taxonomy. Original D/G evidence limits remain unchanged after user acceptance.
 
-Seven primary sources supplied targeted pressure at unequal documented reading depths. D7 is same-model review. Fifteen executed constructions and four rejected false rules establish their specified relationships only; no actual process restart, live SOUL/LLM efficacy, human/team intervention or independent researcher/model replication occurred. Exact file/readback verification concerns publication, not truth.
-
-## Guardrail
-
-Foundation as a whole is not declared complete. This closure does not authorize architecture, ontology/data-model/schema, implementation, new descendants or agent-control changes. Open verification and domain-specific evidence conditions remain open after research completion or user acceptance.
+Foundation as a whole is not declared complete. No new child, architecture, ontology/data-model/schema, implementation or agent-control work is active. Historical parent plans and earlier next-step labels do not override this current authority.

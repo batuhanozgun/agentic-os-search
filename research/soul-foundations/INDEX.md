@@ -1,41 +1,25 @@
 # SOUL Foundations — INDEX
 
-## Authority and current checkpoint
+Read STATE.md first. Persistent Adaptation is accepted. The current integration/frontier review is complete and awaits evaluation. No substantive successor is active.
 
-Read STATE.md first. **Persistent Adaptation / Future-Response Change D0–D7 are complete; the proposed bounded leaf awaits user evaluation.** Returned Influence and the Feedback/Adaptation parent remain accepted. No substantive successor is active.
+## Current routes
 
-## Read routes
+| Need | First route |
+|---|---|
+| Current purpose, authority and next responsibility | STATE.md |
+| Integration result and global frontier | `06_integration-frontier-review/STATE.md` → KEY → SYNTHESIS |
+| Why three Information children remain unresearched | review B2 → `03_ground-deepening/grounds/information/informational-dynamics/STATE.md` → N7 |
+| Next research comparison and inactive handoff | review B4 → NEXT-RESEARCH-HANDOFF.md |
+| Accepted Persistent Adaptation and refinements | `05_relation-control-composition/transition-effect-feedback/feedback-adaptation/persistent-adaptation/STATE.md` → KEY → synthesis → D6/D7 |
+| Accepted Returned Influence | sibling `returned-influence/STATE.md` → KEY → synthesis/G7 |
+| Accepted Composition | `05_relation-control-composition/STATE.md` → INDEX/KEY |
+| Ground results, each at its recorded depth | `03_ground-deepening/grounds/{environment,information,work,actors}/STATE.md` → local router |
+| Earlier four-ground adequacy | `04_top-level-adequacy-rerun/STATE.md` → synthesis/Q6 |
+| Evidence extent / exact identities | review SOURCE-LEDGER and CURRENT-SURFACES; Composition CURRENT-SURFACES |
+| Candidate reuse | `../studies/CATALOG.md` → selected META → relevant evidence; revalidate current external facts |
 
-| Need | Read first | Continue if necessary |
-|---|---|---|
-| Current overall authorization | `STATE.md` | `05_relation-control-composition/STATE.md` |
-| Current Persistent Adaptation result | `05_relation-control-composition/transition-effect-feedback/feedback-adaptation/persistent-adaptation/STATE.md` | INDEX → KEY → FINDINGS-MAP → synthesis → D7 |
-| Proposed parent wording refinements | Persistent Adaptation `D6-SYNTHESIS-CHILD-DECISION.md` | D1–D4; not yet accepted |
-| Persistent Adaptation evidence/limits | Persistent Adaptation `SOURCE-LEDGER.md` | D5/D7/checks or exact primary source |
-| Accepted Returned Influence | `05_relation-control-composition/transition-effect-feedback/feedback-adaptation/returned-influence/STATE.md` | KEY → FINDINGS-MAP → synthesis → G7 |
-| Accepted Feedback/Adaptation parent | `05_relation-control-composition/transition-effect-feedback/feedback-adaptation/STATE.md` | KEY/current map; original F synthesis/F7 only for historical reasoning |
-| Accepted causal parent | `05_relation-control-composition/transition-effect-feedback/causal-effect-contribution/STATE.md` | relevant Actual/Contrastive child STATE and KEY |
-| Accepted Transition/Propagation | `05_relation-control-composition/transition-effect-feedback/transition-propagation/STATE.md` | KEY → synthesis/P7 |
-| Accepted Transition parent | `05_relation-control-composition/transition-effect-feedback/STATE.md` | INDEX/KEY → original T evidence |
-| Accepted Control | `05_relation-control-composition/control-constraint/STATE.md` | KEY → synthesis/K7 |
-| Accepted Composite Standing | `05_relation-control-composition/composite-standing/STATE.md` | KEY → synthesis/S7 |
-| Accepted Binding | `05_relation-control-composition/relational-binding/STATE.md` | KEY → synthesis/B7 |
-| Exact closure identity | `05_relation-control-composition/CURRENT-SURFACES.md` | bound descendant manifests |
-| Candidate research | `../studies/CATALOG.md` | selected META → targeted evidence; revalidate load-bearing external facts |
+## Scope warning
 
-## Current frontier
+`parent accepted` does not mean every child was separately researched. Information Dynamics has three structurally accepted but unresearched children. Work/Actors' deliberate no-child result is not equivalent to that frontier.
 
-```
-Feedback / Adaptation          [accepted parent]
-├─ Returned Influence          [accepted bounded leaf]
-└─ Persistent Adaptation       [proposed bounded leaf / evaluation pending]
-active substantive successor   NONE
-```
-
-## New-session handoff
-
-Cold-start through canonical AGENT.md, then Foundation STATE → INDEX → current child STATE/INDEX. Recover the result and proposed refinements before user evaluation. The next logical integration/remaining-frontier review is separate, not automatically authorized.
-
-## Historical boundary and stop
-
-Original parent plans, pass files and syntheses preserve their checkpoints. Their old evaluation/next-step labels do not override current STATE/INDEX. Research completion is not user acceptance, independent verification, whole-Foundation completion or architecture/implementation authority.
+Original N/Q/C/T/F/G/D passes preserve historical labels. STATE governs current authority; current keys/maps are derived retrieval. The review result is not yet user-accepted and Formation is not active. No architecture or implementation is authorized.

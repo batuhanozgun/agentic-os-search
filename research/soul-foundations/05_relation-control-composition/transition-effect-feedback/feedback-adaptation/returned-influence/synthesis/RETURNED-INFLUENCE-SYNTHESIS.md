@@ -1,60 +1,42 @@
-# Cross-Ground Feedback / Returned Influence — Current Accepted Synthesis
+# Returned Influence — Current Accepted Synthesis
 
-**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED  
-**Updated:** 2026-09-11  
-**Role:** current accepted orientation; original integrated research remains preserved.
+**Updated:** 2026-09-12
+**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED
 
-## Acceptance and exact historical source
+## Exact historical source
 
-The result and G6's narrow parent wording refinements were accepted on 2026-09-11. The former 'USER EVALUATION PENDING' label at this current retrieval path was stale.
-
-The full original integrated G0–G7 synthesis is preserved **byte-for-byte** as [HISTORICAL-RETURNED-INFLUENCE-SYNTHESIS.md](HISTORICAL-RETURNED-INFLUENCE-SYNTHESIS.md), Git blob `12e4df5a735f841273ad885a17a136046dfbf38b`. Its original pending-evaluation and next-step statements describe the pre-acceptance checkpoint, not current authority. Raw G0–G7, PLAN and SOURCE-LEDGER remain unchanged. This current view does not replace that source for detailed reasoning or evidence recovery.
+The full original G0–G7 integrated argument remains byte-for-byte in `HISTORICAL-RETURNED-INFLUENCE-SYNTHESIS.md`, Git blob `12e4df5a735f841273ad885a17a136046dfbf38b`. Its original evaluation/next-step labels describe history. Raw G0–G7, PLAN and SOURCE-LEDGER remain unchanged. This current view does not replace them for detailed evidence or rival arguments.
 
 ## Accepted result
 
-Returned Influence is one bounded diagnostic leaf with a reference-relative operative-return grammar; no immediate child is promoted.
+Returned Influence is one bounded diagnostic leaf with a reference-relative operative-return grammar and no immediate child. For an explicitly bounded system or continuing pursuit, realized-condition/performance information returns into an applicable response process. The inquiry distinguishes an available path, active operative coupling, a particular signal/configuration's contribution and downstream execution/target effect.
 
-For an explicitly bounded system or continuing pursuit, information about realized condition/performance returns into an applicable response process. The inquiry distinguishes existence of a return path, active use, particular episode contribution and achieved downstream effect.
+Operative feedback need not visibly revise the action: hold, continuation or inhibition can be informed responses. A blind system can show the same output. Thus unchanged output proves neither use nor non-use. Joint/redundant inputs need not be individually decisive. An informed decision can fail to actuate or fail to achieve the target.
 
-## Most important correction
+## Grammar and boundaries
 
-```
-unchanged output != absence of feedback
-unchanged output != proof of feedback use
-```
+Bounded system/pursuit + realized source + source-bound signal/assessment + relevant return path/consumer + role/time/version applicability + exact claim level + response locus + downstream boundary where claimed + evidence/alternatives/uncertainty.
 
-An operative loop may hold, continue or inhibit action. A blind system can show the same output. The evidence must distinguish them rather than reward visible revision as such.
-
-## Claim scopes, not children
-
-Structural coupling, operative response use, particular-signal/configuration contribution and downstream actuation/target effect are different claims. A particular sample need not be individually necessary when inputs are joint or redundant. A decision can be informed while execution or the target effect fails.
-
-## Minimum grammar and boundaries
-
-The semantic signature retains bounded system/pursuit, realized source, source-bound signal, return path/consumer, role/time/version applicability, claim level, exact response locus, downstream boundary where claimed, and evidence/alternatives/uncertainty.
-
-A shared actor, scalar error, permanent update, continuously recurring loop or visible action delta is not universally necessary. Physical dynamics remain ground-local when no cross-ground meaning is constitutive.
+No universal scalar error, single/shared actor, continuous loop, permanent update or visible change is required. Ground-local dynamics do not become composite merely because an agent observes them.
 
 ```
 any information influence != relevant feedback return
-signal produced/delivered/read != operative use
+produced/delivered/read != operative use
 informed decision != executed action != achieved target
-influence != true information != legitimate authority
+causal influence != accurate content != legitimate authority
 derivative repetition != independent corroboration
 all received signals handled != all material outcomes observed
 feedback occurrence != benefit/safety/stability != persistent adaptation
 ```
 
-Timing and interacting consumers can change applicability; late arrival need not mean current condition. False or spoofed information may genuinely influence a response without becoming accurate or authoritative. Local message handling does not establish coverage of all important outcomes.
+Late arrival need not mean current condition; multiple consumers can differ in applicability and effect. A false message may genuinely influence action without becoming reliable evidence. Local message handling cannot certify broad outcome coverage.
 
-## Parent impact
+## Parent and continuation
 
-The accepted two-child Feedback/Adaptation structure remains intact. Accepted refinements are explicit return reference, operative hold/no-visible-change requirement, exact response-versus-effect locus, and qualified independence language. Feedback and adaptation are distinct, non-coextensive questions, not universally independent historical predicates or disjoint event classes.
+Accepted G refinements are explicit return reference, no visible-change requirement, exact response/effect locus and qualified independence language. Returned Influence and Persistent Adaptation are distinct, non-coextensive questions, not universally independent historical predicates or disjoint events. The D result and its six refinements are now accepted too.
 
-## Evidence and verification
+Current global continuation is evaluation of `../../../../../06_integration-frontier-review/STATE.md`. Formation/Acquisition is recommended there, inactive. The original synthesis's suggestion to start D is not unexecuted work.
 
-The exact original synthesis, G5/G7 and SOURCE-LEDGER retain the detailed source and rival-decomposition arguments. Fresh primary reading supported component distinctions. G7 is same-model review; seven executed toy relationships are not a live controller/agent test or independent validation of this hierarchy. Acceptance does not change those limits.
+## Verification
 
-## Current continuation
-
-The sibling Persistent Adaptation has now completed D0–D7 and awaits separate user evaluation. Follow `../../persistent-adaptation/STATE.md` or the parent STATE. Do not treat the original synthesis's recommendation to begin that sibling as an unexecuted task. No new research phase, whole-Foundation completion, architecture or implementation is authorized automatically.
+Fresh primary reading supported the original G component distinctions. G7 is same-model review; seven constructed checks are not live controller/agent efficacy or independent validation. They were not rerun in the integration review. Acceptance and presentation updates do not strengthen those limits or authorize architecture/implementation.

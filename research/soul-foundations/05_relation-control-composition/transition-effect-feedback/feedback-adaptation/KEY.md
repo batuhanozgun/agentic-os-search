@@ -1,50 +1,23 @@
-# Cross-Ground Feedback / Adaptation — KEY
+# Feedback / Adaptation — KEY
 
-**Document role:** CURRENT_L0 / parent orientation  
-**Parent status:** accepted bounded parent  
-**Updated:** 2026-09-11
+**Updated:** 2026-09-12
+**Role:** CURRENT_L0; parent and both child results accepted.
 
-## Two protected questions
-
-```
-Feedback / Adaptation
-├─ Returned Influence       [accepted leaf]
-│  condition/performance information returns into a relevant later response
-└─ Persistent Adaptation    [proposed leaf / evaluation pending]
-   history-linked retained change in future-response disposition
-```
-
-A feedback rule may operate without being changed by history. A past episode may support persistent change without a continuously recurring online loop. These questions are distinct and non-coextensive; they are not asserted to be disjoint events or universally independent historical predicates.
-
-## Accepted Returned Influence correction
+Returned Influence protects operative relevant return of realized-condition information. Persistent Adaptation protects history-linked retained change of a bounded system's response disposition. The questions are non-coextensive; one occurrence can involve both.
 
 ```
-unchanged output != no feedback
-unchanged output != proof of feedback use
-return structure != active coupling != particular-signal contribution
-informed decision != executed action != achieved target
-any information influence != relevant feedback return
+no visible revision != no feedback
+no visible revision != proof of feedback use
+return structure != active coupling != exact episode contribution
+response informed != action executed != target effect achieved
+fixed code/weights != fixed effective response regime
+changed bytes != changed response disposition
+stored lesson != retained response change established
+no natural recurrence != no latent disposition
+historical acquisition != current retention != current expression
+adaptation occurrence != benefit != authority != transfer
 ```
 
-Return reference, exact response locus, hold/inhibition and evidence of operative use remain explicit. The current acceptance presentation has been repaired without rewriting original G-pass evidence.
+Persistence must name opportunity/trajectory, meaningful horizon, bearer/lifecycle and support where material. Removing constitutive support asks a different question; a test can itself train the target. The D6 refinements are accepted. They do not absorb all Evolution, prescribe a memory architecture or prove a live system learned.
 
-## Persistent Adaptation result — proposed
-
-D0–D7 propose a bounded leaf with one history-linked retained-response-disposition grammar. No immediate child is promoted. The child distinguishes storage, acquired change, current retention, access/expression, all-path realization, benefit, authority and transfer.
-
-Proposed wording refinements include effective regime rather than code/weight identity; conditional and trajectory response rather than difference at every current input; meaningful persistence horizon and support; and no universal reduction of Evolution. Read `persistent-adaptation/D6-SYNTHESIS-CHILD-DECISION.md` for exact pending amendments.
-
-## Shared accepted boundaries
-
-Information retains representations and exposure; Work retains pursuits; Actors/Control retain standing and authority; Transition retains exact realized change; causal research supports contribution/benefit; Standing qualifies adequacy/currentness. These children do not replace those grounds or select an architecture.
-
-```
-all received signals handled != all material outcomes observed
-local/proxy improvement != intended/system improvement
-feedback/adaptation occurrence != benefit/safety/stability
-multiple derivative reports != independent corroboration
-```
-
-## Current gate and limits
-
-User evaluation of Persistent Adaptation is next. No substantive successor is active. F7/G7/D7 are same-model reviews; primary sources pressure components, not the exact hierarchy. Toy examples do not establish live-system efficacy or independent replication.
+Current global integration/frontier: `../../../06_integration-frontier-review/`. That review awaits evaluation; Formation is recommended but inactive. Original evidence and same-model limits remain.

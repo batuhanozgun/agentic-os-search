@@ -1,38 +1,21 @@
 # Feedback / Adaptation — CURRENT SURFACES
 
-**Date:** 2026-09-11  
-**Branch:** main  
-**Status:** accepted parent; Returned Influence accepted; Persistent Adaptation result pending evaluation
+**Date:** 2026-09-12
+**Branch:** main
 
-## Current authority and retrieval
+| Role / path | Git blob SHA |
+|---|---|
+| `FINDINGS-MAP.md` | `886eccdd4210bea0552a34ee452ed2c4160b5b06` |
+| `INDEX.md` | `51019efe4be435e094cee5271aee57f60a5e81df` |
+| `KEY.md` | `2d0bf29ca46b19c746e24dc1c0b7703b01454634` |
+| `OPEN-QUESTIONS.md` | `d1f91f8aa7cadd68d56ba6fe46c269fcce70bcb9` |
+| `STATE.md` | `49e4a85337e521e48b25133d49d473c83b1454fe` |
+| `persistent-adaptation/CURRENT-SURFACES.md` | `eced5d2b75bc7238a009f17691f6c0db4c3a87bd` |
+| `returned-influence/CURRENT-SURFACES.md` | `2b235f9e820ace1dbe117c7db7bb74faf5b3d934` |
+| `PLAN.md` | `81dc79aee67214a96c787dc443c5c0c846090604` |
+| `synthesis/FEEDBACK-ADAPTATION-SYNTHESIS.md` | `5bb294dace55cc741a131ad59978a8a6cd4a6b87` |
+| `F7-ADVERSARIAL-CLOSURE.md` | `b4750d0f6352cac5a9249e8346188eae3518310a` |
 
-| Role | Path | Git blob SHA |
-|---|---|---|
-| Authority | `STATE.md` | `b0b3357fdab57ba43135a9244ab1fc0f4bd5a596` |
-| Router | `INDEX.md` | `361808966fdff2b2ee42c65c21116c176c15eea9` |
-| Semantic key | `KEY.md` | `b7ae8d91d6089c15ab7e16d34732b9160b186779` |
-| Current findings map | `FINDINGS-MAP.md` | `2084de3f7d6d7258da9c16496c174a57a4420f59` |
-| Residuals | `OPEN-QUESTIONS.md` | `8ecd5267beae0bef239fb72e48e9251c18e68daa` |
-| Original completed plan | `PLAN.md` | `81dc79aee67214a96c787dc443c5c0c846090604` |
-| Original F-pass synthesis | `synthesis/FEEDBACK-ADAPTATION-SYNTHESIS.md` | `5bb294dace55cc741a131ad59978a8a6cd4a6b87` |
+Parent and both immediate child results are accepted; D6 refinements are accepted. Original F0–F7 remain unchanged. Their original file bindings are recoverable at input commit `a6c47ef3ff697c2d23c492dcf4ccfa32003040da`; the prior local manifest was `e1a384a606d5380caba4379e592c72e284a2068e`.
 
-## Child manifests
-
-| Child | Current status | Exact manifest |
-|---|---|---|
-| Returned Influence | accepted bounded leaf | `returned-influence/CURRENT-SURFACES.md` @ `16a9e7c45f0f0d4703a00b7041840e761cad4c7f` |
-| Persistent Adaptation | proposed bounded leaf / user evaluation pending | `persistent-adaptation/CURRENT-SURFACES.md` @ `1efc6e272c1838ab0e9b582362e6773ebfa97ac2` |
-
-## Preserved evidence and accepted sibling inputs
-
-Original F0–F7 remain unchanged historical pass evidence. Returned Influence raw G0–G7 and its exact original integrated synthesis are preserved; current acceptance views are clarified. Persistent Adaptation D0–D7 add a separate result, not automatic acceptance.
-
-Accepted inputs retained:
-
-- Transition/Propagation manifest `../transition-propagation/CURRENT-SURFACES.md` @ `bf27c8c5b630995af0f83f11702f6f1e9b3eb26d`.
-- Causal parent manifest `../causal-effect-contribution/CURRENT-SURFACES.md` @ `0a3e852e513e7b9996068fa0111a13dc7cb97c5e`.
-- Contrastive child manifest `../causal-effect-contribution/contrastive-interventional-causal-effect/CURRENT-SURFACES.md` @ `979294697da69f708f415f6e564e244c1c3fe58c`.
-
-## Current gate and verification
-
-User evaluation of Persistent Adaptation and its proposed parent wording refinements is next. No substantive successor is active. File identity is not truth, acceptance or independent verification. F7/G7/D7 are same-model reviews; toy checks do not establish live-system efficacy. This manifest does not authorize whole-Foundation closure, architecture, implementation or new descendants.
+Current global review: `../../../06_integration-frontier-review/`. It is complete and pending evaluation, not a new active child. Evidence limits remain same-model and target-specific; this content binding proves neither all-domain completion nor live efficacy.

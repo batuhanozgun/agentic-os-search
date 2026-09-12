@@ -1,40 +1,26 @@
 # Persistent Adaptation — Open Questions and Reopen Triggers
 
-**Date:** 2026-09-11  
-**Status:** bounded leaf proposed; user evaluation pending  
+**Updated:** 2026-09-12
+**Status:** accepted bounded leaf
 **Role:** residual uncertainty, not automatic execution authority.
 
 ## Unresolved evidence conditions
 
-1. For opaque consumers, what sufficiently discriminates a retained disposition from an inert record, masking, hidden retraining or output coincidence? This pass supplies claim boundaries, not a universal detector.
-2. Which horizon and opportunity distribution are material for a particular deployment or human/team practice? They require target-specific justification; no universal threshold is adopted.
-3. When probing changes the target, which causal design separates previous acquisition from test-induced acquisition or rehearsal? The semantic problem is identified, not universally solved.
-4. How much evidence supports rare-event, stochastic or long-trajectory response claims under limited sampling?
-5. Which retention supports are ordinary constitutive conditions, and which amount to reacquisition, repair or a new intervention for the exact inquiry?
-6. When several carriers/actors/routes jointly sustain a response, how can contribution and all-path coverage be bounded without assuming single-component necessity?
-7. What constitutes stable bearer identity through substantial member, model, policy or architecture replacement in a specific use case?
-8. How should coupled adaptive systems' interference and source-to-target transfer be evaluated? The targeted S7 reading does not close the broader causal package's open validation limits.
+1. For opaque consumers, what discriminates retained disposition from inert record, masking, hidden retraining or output coincidence? No universal detector is supplied.
+2. Which horizon and opportunity distribution are meaningful for a specified system or practice? No universal threshold is adopted.
+3. When probing changes the target, how can previous acquisition be separated from probe-induced acquisition or rehearsal?
+4. What evidence supports rare-event, stochastic or long-trajectory response under limited sampling?
+5. Which supports are constitutive retention conditions, and which constitute reacquisition, repair or a new intervention?
+6. How can joint/redundant carriers, actors and routes be assessed without assuming individual necessity or complete observation?
+7. What bearer identity persists through major member/model/policy/architecture replacement in the chosen use case?
+8. How should coupled adaptive interference and source-to-target transfer be evaluated? The original targeted reading does not close the broader causal package's evidence limits.
 
 ## Structural reopen triggers
 
-Reopen the leaf if:
+Reopen if an independently recurring acquisition/retention/expression inquiry cannot be preserved by the common grammar; the effective-regime versus transient-state distinction proves unusably arbitrary despite an explicit frame; latent meta-adaptation needs another protected question; cross-ground population/Evolution repeatedly resists the current relation; passive change versus experience-responsive change cannot be separated; independent reconstruction finds a stronger decomposition; or deployment evidence falsifies a semantic assumption rather than exposing only an implementation defect.
 
-- an independently recurring acquisition, retention or expression question cannot be represented by the common history/bearer/response/horizon grammar without material loss;
-- a supported domain case shows that the effective-regime versus transient-state boundary is unusably arbitrary even after the inquiry frame is explicit;
-- latent meta-adaptation cannot be bounded through response trajectories and exposes a genuinely separate protected question;
-- a constitutively cross-ground population/Evolution case repeatedly needs a distinct inquiry beyond the current bearer/selection/retained-response relation;
-- passive change and experience-responsive adaptation cannot be separated without a stronger parent correction;
-- independent reconstruction yields a materially stronger decomposition;
-- empirical deployment evidence falsifies a load-bearing semantic assumption rather than merely exposing an implementation defect.
+Reconsider the parent if Returned Influence and retained future-response change cease to be distinct under a defensible frame, if Adaptation collapses into Work/Transition without loss, or another ground/composition region is required. No such falsifier was established in the original pass or latest bounded integration review.
 
-## Parent/upstream reopen conditions
+## Non-claims and current responsibility
 
-The parent should be reconsidered if Returned Influence and retained future-response change cease to be distinct questions under a defensible frame, if adaptation collapses into Work/Transition without diagnostic loss, or if another ground/composition region is genuinely required. No such structural falsifier was established in this pass.
-
-## Explicit non-claims
-
-No universal memory architecture, retention metric, learning algorithm, organizational-change method, biological Evolution reduction, current-model efficacy claim or independently verified Foundation taxonomy is supplied. An open question is not automatically completion debt for this bounded semantic pass, but cannot be marked solved by user acceptance.
-
-## Current responsibility
-
-User evaluation of the proposed bounded leaf and D6 parent wording refinements. No substantive follow-on research, broad Foundation closure, architecture, implementation or agent-control mutation is active.
+Acceptance supplies no universal memory architecture, metric, algorithm, human/team change method, Evolution reduction, current-model efficacy or independent taxonomy validation. The current integration/frontier review awaits evaluation at `../../../../06_integration-frontier-review/`. Formation is inactive. No architecture, implementation or agent-control work is authorized here.
