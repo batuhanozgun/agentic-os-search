@@ -1,29 +1,29 @@
 # HERMES — Güncel araştırma haritası
 
-**Derived orientation / 2026-09-12 / U09.** Authority [STATE](STATE.md), sıra [PLAN](RESEARCH-PLAN.md), yöntem [METHOD](METHOD.md), kanıt [INDEX](INDEX.md). Bu harita ikinci authority veya dördüncü merkezi synthesis değildir.
+**Derived orientation / 2026-09-12 / U10.** Authority [STATE](STATE.md), sıra [PLAN](RESEARCH-PLAN.md), yöntem [METHOD](METHOD.md), kanıt [INDEX](INDEX.md). Harita ikinci work authority değildir.
 
-## Büyük yön
+## Büyük yön ve ulaşılan model
 
-Kaynak mekanizmaları → doğal alt-sistemler → ilişkileri → çekirdek açıklama → daha sonra dört-alan/SOUL/Development OS aday değeri. Bütün repository'yi kör okumak, tüm testleri çalıştırmak veya bir dalın bütün hata uzayını bitirmek kapanış ölçütü değildir. Büyük ilgili mekanizmalar açıklanmadan final CORE üretilmez.
+Kaynak mekanizmaları → alt-sistemler → ilişkileri → çekirdek açıklama → daha-geç dört-alan/SOUL/Development OS aday değeri. Şu anda mekanizma araştırması + geçici alt-sistem sentezleri aşaması. İlk üç sentez korunuyor; **yeni synthesis04 U07–U10'un scheduled-work zincirini topluyor**. Hiçbiri bütün HERMES için kapanış hükmü değil.
 
 | Hat | Elde olan | Açık kalan |
 |---|---|---|
-| Öğrenme/bellek/beceri | Notes02–15; synthesis01 | Quality, ledger/sync/curator köprüleri ve full worker |
+| Öğrenme/bellek/beceri | Notes02–15; synthesis01 | Quality, ledger/sync/curator ve full worker |
 | Normal tur/bağlam/oturum | Note16/U02; synthesis02 | Bütün interface/backend/wire varyantları |
-| Kalıcı görev ve sahiplik | Note17/U03 | Full dispatcher/OS/quality, selected-parent fidelity |
-| Çok turlu devam | Note18/U04-A, ayrı19/U04-B; synthesis03 | Gerçek tick-turn/semantic acceptance ve tüm driver entegrasyonu |
+| Kalıcı görev/sahiplik | Note17/U03 | Full dispatcher/OS/quality ve selected-parent fidelity |
+| Çok turlu devam | Notes18–19/A-B; synthesis03 | Gerçek tick-turn/semantic acceptance/driver entegrasyonu |
 | History/lease/restart | Notes20–21/U05–U06 | Q40/Q42 actual DB/quiet history/startup admission |
-| Zamanlanmış iş ve teslim | Note22/U07 | Genel run_job/occurrence köprüleri; gerçek external transport |
-| Gerçek drainer/durum/iptal | Note23/U08; **yayını tamamlandı** | Q48/Q50 full-host/status/cancellation/receipt entegrasyonu |
-| Planlanan occurrence ve kabul | **Note24/U09 source-only** | Outbound job+time ile inbound job-only farkı ve finish sonrası claim kaynak izi; gerçek NAS/store/process/clock ölçümleri açık |
-| Geniş kalan aileler | F01–F12 haritası korunur | Provider/backend/delegation, tools/plugins, learning/sync/quality, diğer UI/install/eval |
+| Zamanlanmış iş | Notes22–24/U07–U09: trigger/attempt/queue/drainer/occurrence | Real NAS/store/clock/transport/status/cancel |
+| **Scheduled yürütme ve bilgi** | **Note25/U10:** no_agent/monitor/agent/profile/runtime/context; native selector C01–C06 | Full run_job/first request/DB/script/quality; Q49/Q51/Q52 |
+| **Scheduled-work birleşimi** | **[synthesis04](synthesis/04-SCHEDULED-WORK-AND-CONTEXT-PROVISIONAL.md)** | Provisional; eski runtime borçlarını kapatmaz |
+| Geniş kalan aileler | F01–F12 coverage korunur | Provider/backend/delegation, tool/plugin policy, memory/sync/quality, diğer UI/install/eval |
 
 ## Yakın sıra
 
-**Bu tur izlenen sıra:** U08 publish/readback → Q47 occurrence/admission kaynak birimi → U09 kayıt/geri okuma. Q47 kaynak olarak ilerledi; yeni davranış koşusu yok. **İlk sonraki geniş source Q49:** accepted scheduled snapshot, shared run_job içinde hangi script/no_agent/monitor/agent/model/profile/tools/session/history'ye dönüşüyor?
+**Yapılan:** Q49 kaynak birimi + tek bounded selector diagnostic + scheduled-work ara sentezi. **İlk yeni geniş source Q53:** provider/model/api_mode→actual runtime/backend; history, fallback, cancellation ve resource sahipliği. Normal model transportu ile maddi farklı bir backend karşılaştırılacak; bütün provider kataloğu kör taranmayacak.
 
-Q47'nin gerçek late-callback/store/NAS doğrulaması, Q40/Q42 ve Q48/Q50 ile ayrı açık validation hattıdır. Erteleme kapanış değildir; gerekli source/bağımlılık, yeni karşı kanıt veya güçlü reliability/adoption ihtiyacında yeniden açılır. Aynı küçük testleri çoğaltmak yeni açıklama yerine geçmez.
+Ardından delegation/tool-policy ve kalan aileler yeni kanıta göre sıralanır. Source explanation ile actual-host validation farklı hatlardır: eski Q40/Q42/Q47/Q48/Q50 ve yeni Q49/Q51/Q52 ölçümleri açık tutulur. Aynı küçük testleri çoğaltmak veya bütün cron fault matrisi bitene kadar genişliği durdurmak uygun değil.
 
-## Yayın ve bitirme sınırları
+## Yayın ve kapanış
 
-[U08 makbuzu](evidence/2026-09-12-cron-drain-receipts/PUBLICATION.md) doğrulanmıştır. [U09 makbuzu](evidence/2026-09-12-cron-occurrence-admission/PUBLICATION.md) current ref/content hükmünü taşır. Publication bir davranış deneyi değildir. Bir bounded source biriminin açıklanması, bütün alt-sistemin veya bütün HERMES'in tamamlanması değildir. Eski evidence/notlar ve üç provisional synthesis yerinde kalır; final CORE/dört-alan/adoption yoktur.
+U08/U09 tamamlanmış yayınlar; U10 durumu [PUBLICATION](evidence/2026-09-12-cron-execution-context/PUBLICATION.md). Source/behavior/publication ayrı. Eski evidence/notlar/METHOD ve synthesis01–03 korunur. Yeni 04 bağımsız kanıt veya final CORE/dört-alan/adoption değildir; tamamlanma yüzdesi dosya/test sayısından çıkarılmaz.
