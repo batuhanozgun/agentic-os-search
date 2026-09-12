@@ -1,44 +1,44 @@
 # SOUL Foundations — STATE
 
 **Updated:** 2026-09-12  
-**Status:** Formation accepted; Derivation/Transformation T0–T7 complete, proposed three-child parent awaiting evaluation  
-**Current authorized substantive activity:** NONE after bounded Derivation closure  
-**Current authorized interaction:** DERIVATION PARENT, THREE-CHILD PROPOSAL AND T6 REFINEMENT EVALUATION
+**Status:** Derivation parent accepted; Re-expression / Semantic Transfer R0–R7 complete, proposed leaf awaiting evaluation  
+**Current authorized substantive activity:** NONE after bounded Re-expression closure  
+**Current authorized interaction:** RE-EXPRESSION LEAF AND EXACT R6 PARENT-REFINEMENT EVALUATION
 
 ## Accepted anchors and completion depth
 
-Environment, Information, Work and Actors retain their accepted current-depth results. Four-ground adequacy, Composition and its currently promoted descendants, Returned Influence, Persistent Adaptation and the B0–B5 integration/frontier review remain accepted. Formation/Acquisition's bounded-leaf result and exact F6 refinements are now accepted by the user.
+Environment, Information, Work and Actors retain their accepted current-depth results. Four-ground adequacy, Composition and its currently promoted descendants, Returned Influence, Persistent Adaptation, the B0–B5 integration review and Formation/F6 remain accepted. The Derivation parent, its three immediate protected questions and exact T6 refinements are now accepted by the user.
 
 ```
-Information / Representation                   [accepted parent]
-├─ Informational State                         [accepted bounded leaf]
-└─ Informational Dynamics                      [accepted three-question parent]
-   ├─ Formation / Acquisition                  [accepted bounded leaf]
-   ├─ Derivation / Transformation              [proposed bounded parent; evaluation pending]
-   │  ├─ Re-expression / Semantic Transfer      [proposed child; no dedicated pass; inactive]
-   │  ├─ Inferential Construction / Claim Warrant [proposed child; no dedicated pass; inactive]
-   │  └─ Maintained-Information Revision        [proposed child; no dedicated pass; inactive]
-   └─ Selection / Exposure                     [structurally accepted; no dedicated pass; inactive]
+Information / Representation                    [accepted parent]
+├─ Informational State                          [accepted bounded leaf]
+└─ Informational Dynamics                       [accepted three-question parent]
+   ├─ Formation / Acquisition                   [accepted bounded leaf]
+   ├─ Derivation / Transformation               [accepted three-child parent]
+   │  ├─ Re-expression / Semantic Transfer       [dedicated result complete; proposed leaf awaiting evaluation]
+   │  ├─ Inferential Construction / Claim Warrant [structurally accepted; no dedicated pass; inactive]
+   │  └─ Maintained-Information Revision         [structurally accepted; no dedicated pass; inactive]
+   └─ Selection / Exposure                      [structurally accepted; no dedicated pass; inactive]
 ```
 
-Parent acceptance is not recursive completion. Derivation was already an accepted research region, but this new parent/child structure and T6 refinements are not yet user-accepted. Its T1–T3 probes do not replace dedicated child research.
+Parent acceptance is not recursive completion. Re-expression was activated and researched, but its new leaf judgment and R6 refinements are not yet accepted. Warrant, Revision and Selection are three concrete remaining dedicated passes, not merely optional vocabulary.
 
-## Latest authorization and result
+## Latest authorization and completed result
 
-The user read the Formation evaluation and stated: “Benim açımdan değerlendirmem uygun sonucunu veriyor. Lütfen devam et. Operasyonel sınırına kadar çalış.” This accepts Formation and its F6 refinements and activates the recommended Derivation pass. Research input was main `938359a1c4b0a01dd7bab5f4647e0474872b2078`; its two preceding post-Formation changes affected only HERMES/catalog and were preserved.
+The user said: “Araştırmanı doğru ve gerekli buluyorum. Değerlendirmemden geçti. Devam et. Operasyonel sınırına kadar çalış.” This accepts the preceding Derivation result and T6 refinements and activates its recommended first child. Research input was main `b658913dd8148dd9a4850414159f13513904f137`; the intervening post-Derivation changes were confined to HERMES/catalog and were preserved.
 
-T0–T7 are complete. The result proposes distinct semantic-transfer, inferential-warrant and maintained-information-revision inquiries, after testing a leaf and two-child rivals. Known lineage is not sound inference; entailed output can be insufficient for a task; withdrawal is not negation; joint/alternative/negative dependencies and compatible transformation composition remain explicit.
+Re-expression R0–R7 propose one interpreted source-to-derivative transfer leaf. Its most important refinement separates recoverability by some decoder, fidelity under the intended interpretation and actual successful use. Reversibility or a round trip does not by itself establish intermediate meaning. Purpose-relative allowed loss, relation/order/ambiguity, approximate decision margins, compatible composition and verifier coverage remain explicit.
 
-Result entry: `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/T4/T6/T7.
+Current result: `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/re-expression-semantic-transfer/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/R4/R6/R7.
 
 ## Next responsibility
 
-User evaluation of the proposed Derivation parent, three children and T6 refinements. Representational Re-expression / Semantic Transfer is recommended as the first dedicated child after evaluation, **inactive**. Re-select after its result rather than precommitting a sequence. Selection/Exposure remains separately unresearched; it must not disappear behind proposed grandchildren.
+User evaluation of the new leaf and exact R6 refinements. Inferential Construction / Claim Warrant is the strongest next recommendation, **inactive**. Re-select after each bounded result; do not precommit a fixed sequence or forget Maintained-Information Revision and Selection/Exposure.
 
-No new child or sibling has been automatically activated. Whole Foundation is not declared complete.
+No successor is active. Whole Foundation is not declared complete. Closed packages may preserve historical external continuation labels; they do not override this overall current authority.
 
 ## Evidence and boundaries
 
-Eight primary sources at unequal documented depths and bounded candidate reuse supplied pressure. Fourteen finite cases and seven faulty substitutions were executed, including three native in-memory SQLite cases on synthetic rows. Review remains same-model, not independent researcher/model replication or live SOUL/LLM efficacy. The preservation lemma specializes the inherited Formation criterion; no new mathematical discovery is claimed for it.
+Seven primary documents at unequal recorded depths and bounded candidate reuse supplied component pressure. Fourteen finite/native cases and six false-rule controls were executed, including actual Python Unicode/JSON and Node JSON examples with synthetic inputs. Repeat execution reproduced exact RESULT bytes. R7 is same-model review; there was no live SOUL/LLM, human translation, production pipeline or independent researcher/model replication. The inherited decoder condition is reused, not claimed as novel mathematics.
 
-Original N/B/C/T/F/G/D evidence and accepted results remain preserved. Current state governs acceptance and continuation; historical plans and test snapshots do not. Publication identities concern exact files, not substantive truth. No architecture, ontology/schema, implementation or agent-control modification is authorized by closure.
+The original Derivation synthesis is preserved byte-for-byte behind a current accepted view; raw T0–T7 and all prior research/test history remain unchanged. File identity, user acceptance, semantic validity and live benefit remain different claims. No architecture, ontology/schema, implementation or agent-control change is authorized by closure.

@@ -1,34 +1,31 @@
 # Derivation — Open Questions and Reopen Triggers
 
-**Date:** 2026-09-12  
-**Status:** parent and three-child proposal awaiting evaluation  
-**Role:** distinguishes concrete future passes from conditional evidence or structural uncertainty
+**Updated:** 2026-09-12  
+**Status:** parent and three-child structure accepted; Re-expression result pending evaluation.
 
-## Proposed dedicated child work — not yet active
+## Exact dedicated-work frontier
 
-1. Representational Re-expression / Semantic Transfer: independent investigation of equivalence, purpose-relative loss, abstraction, re-encoding and transfer fidelity across languages/modalities and reference frames.
-2. Inferential Construction / Claim Warrant: independent investigation of premises, rules/models, uncertainty, defeasibility, hypothesis modes and actual versus purported support.
-3. Maintained-Information Revision / Reliance Change: independent investigation of continuing-state changes, retention/withdrawal, conflict, alternative revisions, history and support-sensitive currentness.
+Re-expression / Semantic Transfer has completed R0–R7 and proposes a bounded leaf. Its R6 refinements and result await evaluation; see its OPEN-QUESTIONS for exact remaining limits. Inferential Construction / Claim Warrant and Maintained-Information Revision / Reliance Change still lack dedicated passes and are inactive. Selection/Exposure remains the separately unresearched Dynamics sibling.
 
-These are not finished because T1–T3 probed them. Their promotion remains subject to user evaluation. Selection/Exposure is the already structurally accepted but separately unresearched Dynamics sibling.
+The parent T1–T3 probes did not complete these children. The new transfer pass does not supply their missing research merely by using boundary examples.
 
-## Evidence conditions not universally solved
+## Evidence conditions still not universally solved
 
-- How can a purpose-relative semantic-preservation oracle be established for ambiguous text, images or mixed modalities?
-- Which question family, error tolerance and background assumptions are material for a given Work use?
-- How can actual input contribution be distinguished from a plausible post-hoc derivation in an opaque agent?
-- What warrants approximate, abductive, probabilistic or generative outputs in a particular domain?
-- Which negative, aggregate, temporal or external dependencies belong in a claimed currentness boundary?
-- Which revision policy resolves conflict without hiding unjustified preference, source unreliability or authority gaps?
-- What must remain recoverable when a representation is corrected but historical reliance matters?
-- What target-specific tests establish propagation, operational use, effect or benefit beyond these semantic constructions?
+- A purpose-relative semantic oracle for ambiguous text, images or mixed modalities remains target-specific; recoverability and intended interpretation must not be conflated.
+- The relevant question family, loss tolerance, recipient resources and background assumptions require a justified use frame.
+- Actual input contribution in an opaque agent is not established by a plausible post-hoc argument.
+- Approximate, abductive, probabilistic or generative outputs require domain-appropriate warrant.
+- Negative, aggregate, temporal and external dependencies can determine currentness beyond positive source lists.
+- Revision-policy choice can hide unjustified preference, source reliability assumptions or authority gaps.
+- Corrected representations can require historical-reliance reconstruction.
+- Propagation, actual use, causal effect and benefit require evidence beyond semantic fixtures.
 
-## Structural reopen triggers
+## Structural reopening
 
-Reconsider the proposed split if a dedicated pass collapses transfer and warrant without diagnostic loss, if maintained-state revision is entirely explained by other grounds plus a simpler shared informational relation, if child boundaries repeatedly become mechanism classifications, or if a stronger fourth protected question cannot be routed without loss. A common notation alone is not a merge proof; different errors alone do not justify unlimited branching.
+Reconsider the accepted three-question split if dedicated work collapses transfer and warrant without diagnostic loss; if maintained-state revision is fully explained by another ground plus a simpler informational relation; if children degrade into mechanism categories; or if a stronger omitted question cannot be routed without loss. Shared notation alone is not a merge proof, and independent errors alone do not justify unlimited branching.
 
-Reopen the Dynamics parent minimally if formation, derivation and exposure cease to be separable under an explicit frame. Do not reopen accepted grounds solely because implementations differ.
+Reopen Dynamics minimally if Formation, Derivation and Exposure cease to be separable under an explicit frame. Do not reopen accepted grounds simply because implementations differ. The Re-expression result currently proposes only narrow R6 wording refinements, not upstream restructuring; they are pending.
 
 ## Verification and phase limits
 
-No independent researcher/model has replicated this structure. The finite tests do not solve natural-language correctness, causality, scientific validity or live SOUL behavior. User acceptance would approve the bounded parent result, not remove these limits or authorize all future work.
+No independent researcher/model replication has validated the hierarchy. User acceptance of the parent does not remove those limits, accept its new child result or authorize all remaining work. No live SOUL/LLM, architecture, ontology/schema or implementation is established here.

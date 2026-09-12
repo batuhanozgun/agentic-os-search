@@ -22,8 +22,10 @@
 | `checks/RESULT.json` | `fed6089400a7e5b209e38ff1efdf00fdad4f4a73` |
 | `checks/frontier_audit.py` | `7789bb4a0f6339bd4c05393f3ba2a4e0dd793b62` |
 | `evidence/INPUT-DYNAMICS-STATE.md` | `df5e44427d3c07eb8fdd312a3fa3594c3a239b2e` |
-| `../STATE.md` | `34d56e7d85d6f15aaa214b1d344da3fedb8f7e2d` |
-| `../INDEX.md` | `7a296f4f1a99329368a705f9b8448d52d9282127` |
-| `../README.md` | `d28a1983c64425f1bc129fa0b64a162ec9da64c6` |
+| `../STATE.md` | `9e2bd438741b4f37d88f8a307c36865e5ac24766` |
+| `../INDEX.md` | `f378db40f87a3bbe84f73a865ec5f7f6b9b43e99` |
+| `../README.md` | `4bf0e81207bdfdce0f282bb7a302ce72f6a386a2` |
 
-The review is accepted. Its original B0–B5, SYNTHESIS, FRONTIER.json and checks remain unchanged review-time evidence, not the live frontier. Formation is subsequently accepted; Derivation's three-child parent proposal awaits evaluation; proposed children and Selection are separately unresearched/inactive. These bindings do not rerun or strengthen the original same-model/bookkeeping evidence.
+The review remains accepted and closed. Its B0–B5, SYNTHESIS, FRONTIER.json and checks are unchanged review-time evidence. External continuation paragraphs in the closed local views preserve later checkpoints, not the live execution frontier; current Foundation authority is explicitly ../STATE.md. They must not restart Formation, revert Derivation's acceptance or erase its newly researched child.
+
+Current global state records accepted Formation and Derivation, Re-expression's new proposed-leaf result awaiting evaluation, and three still-unresearched passes: Inferential Construction, Maintained-Information Revision and Selection/Exposure. This refresh changes only continuation bindings and interpretation of their scope. It neither reruns nor strengthens the original same-model review or bookkeeping tests.

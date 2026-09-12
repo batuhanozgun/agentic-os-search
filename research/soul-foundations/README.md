@@ -4,28 +4,28 @@ First-principles research and reusable evidence for later SOUL / Development OS 
 
 ## Current checkpoint — 2026-09-12
 
-Formation/Acquisition is accepted with its F6 refinements. The separately authorized Derivation/Transformation pass has completed T0–T7 and proposes a bounded parent with three protected child questions: Re-expression/Semantic Transfer, Inferential Construction/Claim Warrant and Maintained-Information Revision/Reliance Change. The new structure and T6 refinements await user evaluation.
+Derivation/Transformation's parent, three immediate questions and T6 refinements are user-accepted. The separately authorized Re-expression/Semantic Transfer pass completed R0–R7 and proposes one bounded leaf with narrow R6 refinements. That new result awaits evaluation.
 
-**Whole Foundation is not complete.** None of the three proposed children has a dedicated pass or activation. Selection/Exposure remains a structurally accepted but separately unresearched Dynamics sibling. Re-expression is recommended first after evaluation, not automatically started.
+**Whole Foundation is not complete.** Inferential Construction/Claim Warrant, Maintained-Information Revision/Reliance Change and Selection/Exposure remain three separately unresearched passes. Inferential Construction is the strongest next recommendation, not active.
 
-Current result: `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/`.
+Current result: `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/re-expression-semantic-transfer/`.
 
 ## Research progression and accepted anchors
 
-`01_verticals/` preserves original independent corpora; `02_adequacy/` the original framing; `03_ground-deepening/` accepted ground results and later dedicated descendants; `04_top-level-adequacy-rerun/` accepted four-ground assessment; `05_relation-control-composition/` accepted Composition/descendant results; `06_integration-frontier-review/` accepted integration and completion-depth audit.
+`01_verticals/` preserves original independent corpora; `02_adequacy/` original framing; `03_ground-deepening/` accepted grounds and later dedicated descendants; `04_top-level-adequacy-rerun/` accepted four-ground assessment; `05_relation-control-composition/` accepted Composition/descendant results; `06_integration-frontier-review/` accepted integration and completion-depth audit.
 
 Environment/Operating Reality, Information/Representation, Work and Actors/Agency–Participation–Authority remain the four grounds. Composition retains Binding, Composite Standing, Control and Transition/Effect/Feedback; Transition contains Propagation, Actual/Contrastive causal inquiry and Returned Influence/Persistent Adaptation. These are diagnostic questions, not runtime modules or a mandatory workflow.
 
 ## Preserved distinctions
 
-Actual reality is not its representation. Work completion is not outcome attainment or authorized acceptance. Actor capability, authority, Environment access and effect reach differ. Qualification differs from assessment and recorded label. Policy, decision and enforcement differ. Change is not causal proof. Feedback need not visibly revise action. Stored lessons and changed code do not by themselves prove retained response change.
+Actual reality is not its representation. Work completion is not outcome attainment or authorized acceptance. Actor capability, authority, Environment access and effect reach differ. Qualification, assessment and recorded label differ. Policy, decision and enforcement differ. Change is not causal proof. Feedback need not visibly revise action. Stored lessons and changed code do not by themselves prove retained response change.
 
-Formation's accepted result distinguishes source capture from referent truth, copies from new origins/evidence, record-processing coverage from source coverage, and receipt from reference time. Acquisition need not be model-free or raw-first.
+Formation's accepted result separates capture from referent truth, copies from new origins/evidence, processed records from source coverage, and receipt from reference time. Acquisition need not be model-free or raw-first. Derivation's accepted result separates carrying protected meaning, warranting a conclusion and revising continuing information. Its original evidence remains preserved.
 
-Derivation's new proposal distinguishes transferring protected meaning, warranting a conclusion and revising continuing information. A true/entailed summary can be purpose-inadequate; an actually true conclusion can be unsupported by offered premises; a correct new analysis can leave managed information unrevised. These proposed refinements are not silently adopted architecture or control rules.
+The new Re-expression proposal distinguishes existential recoverability, intended meaning and actual use. Round-trip identity can coexist with wrong intermediate semantics; small numerical error can change a near-threshold decision; valid local steps need aligned original-purpose obligations. Those R6 refinements await evaluation and are not adopted runtime/control rules.
 
-## Retrieval, history and verification
+## Retrieval and verification
 
-Use STATE → INDEX → package STATE → KEY → map/synthesis → exact evidence. Original pass artifacts retain their checkpoint language; current authority controls continuation. B2's three-missing-child snapshot remains historical evidence, not today's frontier.
+Use STATE → INDEX → package STATE → KEY → map/synthesis → exact evidence. Original pass artifacts retain checkpoint language, not present execution authority. Earlier frontier snapshots do not erase later progress or complete remaining descendants.
 
-Parent acceptance, dedicated research, recursive closure, user evaluation and independent verification remain separate. Derivation used eight primary sources at unequal depths and fourteen finite cases/seven faulty substitutions, including three native in-memory SQLite fixtures. This is same-model bounded research, not a live SOUL/LLM or independent taxonomy validation. No architecture, schema, implementation or agent-control mutation is authorized by closure.
+The latest pass used seven primary documents at unequal depths and fourteen finite/native cases with six known-bad controls. Tests included Python normalization/JSON and actual Node parsing on synthetic data. Same-model synthesis and reproducible fixtures are not independent taxonomy validation or live SOUL/LLM/human efficacy. No architecture, schema, implementation or agent-control mutation is authorized by closure.

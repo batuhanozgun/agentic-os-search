@@ -1,20 +1,19 @@
 # Derivation / Transformation — INDEX
 
-Read STATE.md for current authority. T0–T7 are complete. The result is a **proposed bounded parent with three proposed, unresearched, inactive children**, awaiting user evaluation. It is not an accepted leaf or recursively complete node.
+Read STATE.md first. The three-child parent and T6 refinements are accepted. The dedicated Re-expression R0–R7 result proposes a bounded leaf and awaits separate user evaluation. Warrant, Revision and Selection remain unresearched/inactive.
 
 | Need | Route |
 |---|---|
-| Compact result and proposed tree | KEY.md |
-| Question-to-evidence retrieval | FINDINGS-MAP.md |
-| Integrated result | synthesis/DERIVATION-TRANSFORMATION-SYNTHESIS.md |
-| Strongest no-split/two-child alternatives and boundary test | T4-RIVAL-DECOMPOSITIONS-AND-BOUNDARIES.md |
-| Exact structural decision and parent delta | T6-SYNTHESIS-CHILD-DECISION.md |
-| Same-model review and executed checks | T7-ADVERSARIAL-CLOSURE.md → checks/SPEC.md, derivation_checks.py, RESULT.json |
-| Actual external and repository reading | SOURCE-LEDGER.md → T5-PRIMARY-AND-CANDIDATE-PRESSURE.md |
-| Unresolved conditions and structural falsifiers | OPEN-QUESTIONS.md |
-| Other grounds, Formation, Selection, Records and governing authority | DEFERRED-RELATIONS.md |
-| Next possible child, not activation | NEXT-RESEARCH-HANDOFF.md |
-| Method and preflight | PLAN.md; T0-CANONICAL-RECOVERY.md |
-| Exact file binding | CURRENT-SURFACES.md |
+| Current parent acceptance and child completion depth | STATE.md → KEY.md |
+| Current Re-expression result | re-expression-semantic-transfer/STATE.md → INDEX/KEY → FINDINGS-MAP → synthesis |
+| Re-expression strongest rival / exact parent delta / verification | child R4 → R6 → R7 |
+| Parent topic-to-evidence retrieval | FINDINGS-MAP.md |
+| Accepted orientation and exact original synthesis | synthesis/DERIVATION-TRANSFORMATION-SYNTHESIS.md → HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md |
+| Original three-child rather than leaf reasoning | T4-RIVAL-DECOMPOSITIONS-AND-BOUNDARIES.md → T6-SYNTHESIS-CHILD-DECISION.md |
+| Original parent claim contracts and boundary probes | T1–T3 through FINDINGS-MAP |
+| Original executed evidence and sources | T7-ADVERSARIAL-CLOSURE.md; SOURCE-LEDGER.md; checks/ |
+| Unresolved conditions and other grounds | OPEN-QUESTIONS.md; DEFERRED-RELATIONS.md |
+| Executed child handoff/current inactive successor | NEXT-RESEARCH-HANDOFF.md |
+| Original method/recovery and exact current identities | PLAN.md; T0-CANONICAL-RECOVERY.md; CURRENT-SURFACES.md |
 
-T1–T3 deepen this parent enough to discriminate proposed children; they do not count as their dedicated passes. The sibling Selection/Exposure remains unresearched. No automatic execution follows from any route in this index.
+Original T-passes retain their checkpoint labels, not current authority. Parent probes did not complete children; the new Re-expression pass does not complete Warrant, Revision or Selection. No automatic successor or implementation follows.

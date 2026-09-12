@@ -1,21 +1,21 @@
 # SOUL Foundations — INDEX
 
-Read STATE.md first. Formation is accepted with F6 refinements. Derivation T0–T7 are complete and propose a parent with three immediate children, awaiting evaluation. None of those children has a dedicated pass; Selection/Exposure remains separately unresearched. No substantive successor is active.
+Read STATE.md first. Derivation and its three-child structure/T6 refinements are accepted. Re-expression R0–R7 propose a bounded leaf and await user evaluation. Inferential Construction, Maintained-Information Revision and Selection/Exposure remain without dedicated passes and inactive.
 
 | Need | Entry and deeper route |
 |---|---|
-| Current Derivation result and proposed tree | `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis |
-| Why parent rather than leaf; exact proposal and refinements | Derivation T4 → T6 → T7 |
-| Primary sources and executed-check limits | Derivation SOURCE-LEDGER → T5/T7 → checks/SPEC/code/RESULT |
-| Next proposed Re-expression pass, not activation | Derivation NEXT-RESEARCH-HANDOFF.md |
-| Accepted Formation and exact F6 refinements | `03_ground-deepening/grounds/information/informational-dynamics/formation-acquisition/STATE.md` → KEY → current and exact historical synthesis/F6/F7 |
-| Information completion depth / missing Selection | `03_ground-deepening/grounds/information/STATE.md` → Dynamics STATE |
-| Accepted Informational State | State sibling STATE → KEY/FINDINGS-MAP |
-| Original Dynamics parent reasoning | Dynamics INDEX → N3/N4/N6/N7 and original synthesis |
-| Accepted integration/frontier review | `06_integration-frontier-review/STATE.md` → original SYNTHESIS/B1/B2/B4 |
-| Accepted Composition and descendants | `05_relation-control-composition/STATE.md` → INDEX → relevant child STATE/KEY |
+| Current Re-expression result | `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/re-expression-semantic-transfer/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis |
+| Why a leaf; strongest split; exact proposed refinements | Re-expression R4 → R6 → R7 |
+| Source reading extent and executed tests | Re-expression SOURCE-LEDGER → R5/R7 → checks/SPEC/code/RESULT |
+| Inactive next Inferential Construction entry | Re-expression NEXT-RESEARCH-HANDOFF.md |
+| Accepted Derivation parent and original evidence | `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/STATE.md` → INDEX → current/exact historical synthesis/T4/T6/T7 |
+| Accepted Formation/F6 | sibling formation-acquisition/STATE.md → KEY → current/exact historical synthesis/F6/F7 |
+| Information completion depth and missing Selection | `03_ground-deepening/grounds/information/STATE.md` → Dynamics STATE |
+| Accepted State and original Dynamics reasoning | Information INDEX → State STATE/FINDINGS-MAP; Dynamics N3/N4/N6/N7 |
+| Accepted integration/frontier audit | `06_integration-frontier-review/STATE.md` → original SYNTHESIS/B1/B2/B4 |
+| Accepted Composition and descendants | `05_relation-control-composition/STATE.md` → INDEX → selected child STATE/KEY |
 | Other accepted grounds | `03_ground-deepening/INDEX.md` → selected ground |
 | Accepted four-ground adequacy | `04_top-level-adequacy-rerun/STATE.md` → INDEX |
-| Candidate reuse | `../studies/CATALOG.md` → selected META → targeted evidence |
+| Candidate reuse | `../studies/CATALOG.md` → selected META → relevant evidence |
 
-Original pass artifacts preserve their checkpoints. A proposed child is not an accepted leaf; an accepted parent does not complete dedicated descendant work. Current authority and derived retrieval are not substitutes for source evidence. No child/sibling, architecture or implementation is automatically authorized.
+Current state controls authority. Original pass plans/syntheses and closed-package external next-step labels are historical where superseded. Parent acceptance, a dedicated result, child acceptance and independent verification are different. No automatic sibling/descendant, architecture or implementation follows.

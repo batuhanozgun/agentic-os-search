@@ -1,39 +1,30 @@
 # Information / Representation — STATE
 
 **Updated:** 2026-09-12  
-**Parent and immediate structure:** USER-EVALUATED / ACCEPTED  
-**Formation:** ACCEPTED BOUNDED LEAF with F6 refinements  
-**Derivation:** dedicated T0–T7 complete; proposed parent/children awaiting evaluation  
-**Current substantive activity:** NONE after bounded Derivation closure
-
-## Hierarchy and exact completion depth
+**Parent / State / Dynamics:** accepted at their recorded depths  
+**Formation:** accepted bounded leaf with F6 refinements  
+**Derivation:** accepted three-child parent with T6 refinements  
+**Re-expression:** R0–R7 complete; proposed leaf/refinements awaiting evaluation  
+**Current substantive activity:** NONE after bounded closure
 
 ```
-Information / Representation                          [accepted parent]
-├─ Informational State / Representational Constitution [accepted bounded leaf]
-└─ Informational Dynamics / Formation–Transition       [accepted three-question parent]
-   ├─ Formation / Acquisition                         [accepted bounded leaf]
-   ├─ Derivation / Transformation                     [proposed parent; evaluation pending]
-   │  ├─ Re-expression / Semantic Transfer             [proposed; no dedicated pass; inactive]
-   │  ├─ Inferential Construction / Claim Warrant      [proposed; no dedicated pass; inactive]
-   │  └─ Maintained-Information Revision               [proposed; no dedicated pass; inactive]
-   └─ Selection / Exposure                            [structurally accepted; no dedicated pass; inactive]
+Information / Representation                      [accepted parent]
+├─ Informational State                            [accepted bounded leaf]
+└─ Informational Dynamics                          [accepted parent]
+   ├─ Formation / Acquisition                     [accepted bounded leaf]
+   ├─ Derivation / Transformation                 [accepted three-child parent]
+   │  ├─ Re-expression / Semantic Transfer         [dedicated result complete; proposed leaf pending evaluation]
+   │  ├─ Inferential Construction / Claim Warrant [structurally accepted; no dedicated pass; inactive]
+   │  └─ Maintained-Information Revision           [structurally accepted; no dedicated pass; inactive]
+   └─ Selection / Exposure                        [structurally accepted; no dedicated pass; inactive]
 ```
 
-Records remains a deep cross-cutting persistence profile. Context remains a State + Selection/Exposure + use-relation pattern. Neither becomes a new peer by this pass.
+Records remains a deep persistence profile. Context remains State + Selection/Exposure + use relation, not a new peer. Parent acceptance is not recursive completion.
 
-## Latest acceptance and result
+The user's latest positive evaluation accepted Derivation and activated its recommended first child. Re-expression now proposes an interpreted source-to-derivative leaf. Its R6 refinements separate possible decoding, intended meaning and actual use; inverse round-trip success and intermediate fidelity; allowable loss and decision sensitivity; and generated questions from complete coverage. Those new claims await user evaluation, unlike the already accepted T6 refinements.
 
-The user explicitly evaluated Formation as appropriate and requested continuation. Its bounded leaf and exact F6 refinements are accepted. The separately activated Derivation pass now recommends three protected child questions: meaning transfer, inferential warrant and maintained-information revision. The new structure and T6 refinements remain proposals, not accepted findings by assistant authority.
+Current result: `informational-dynamics/derivation-transformation/re-expression-semantic-transfer/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/R4/R6/R7. Inferential Construction is recommended next, inactive; Revision and Selection are also unresearched.
 
-Current result: `informational-dynamics/derivation-transformation/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/T4/T6/T7. Formation's source, novelty, coverage and fidelity-versus-truth distinctions are accepted inputs.
+Actual referent, representation, source authority, evidential role and permission remain distinct. Original Information/Dynamics N-passes, Formation F-passes and Derivation T-passes are preserved; the exact original Derivation synthesis is retained behind its accepted current view. Overall authority is Foundation STATE.
 
-## Boundaries, history and next responsibility
-
-Actual referent, representation, source authority, evidential role and permission remain distinct. Original Information/Dynamics N-passes and Formation F-passes retain their history. Current STATE governs acceptance and work; completed parent research does not complete its descendants.
-
-User evaluation of the Derivation parent, three proposed children and refinements is next. Re-expression is recommended first afterward, inactive. Selection remains separately unresearched. Overall authority is Foundation STATE.
-
-## Verification
-
-Original and current reviews remain same-model. Derivation used eight primary sources at recorded unequal depths and fourteen finite cases/seven faulty substitutions, including three native in-memory SQLite fixtures. No live SOUL/LLM, production workload or independent replication was established. No architecture, schema, implementation or automatic descendant/sibling is active.
+Same-model review and unequal source depths remain. The new fourteen-case/six-control evidence includes native Unicode/JSON examples, not live SOUL/LLM, human translation or independent replication. No automatic sibling/descendant, architecture, ontology/schema, implementation or agent-control change is authorized.

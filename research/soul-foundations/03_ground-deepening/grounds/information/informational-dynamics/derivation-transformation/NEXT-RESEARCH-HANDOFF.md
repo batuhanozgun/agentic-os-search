@@ -1,22 +1,12 @@
-# Next Handoff — Re-expression / Semantic Transfer (Proposed, Inactive)
+# Re-expression Entry — Executed Handoff and Current Continuation
 
-**Date:** 2026-09-12  
-**Status:** recommendation and recovery route only
+**Updated:** 2026-09-12  
+**Status:** original handoff executed; new Re-expression result awaiting separate evaluation.
 
-## Gate
+The original entry contract is preserved at input commit `b658913dd8148dd9a4850414159f13513904f137`, blob `621f0f15576097082fdfff1485081d3008f672c2`. The user accepted Derivation's three-child parent/T6 refinements and authorized the recommended first child. Re-expression R0 records its recovery; R1–R7 contain its dedicated investigation.
 
-Recover Foundation STATE/INDEX and Derivation STATE before acting. The Derivation parent, three-child proposal and T6 refinements await user evaluation. Re-expression is recommended as the first dedicated child afterward; none of the three has been separately researched. Selection/Exposure remains a separate unresearched Dynamics sibling. No activity is authorized by this handoff alone.
+Current route: `re-expression-semantic-transfer/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/R4/R6/R7. Do not restart it as an unexecuted task or self-accept its proposed leaf/refinements.
 
-## Required recovery after explicit activation
+The next recommendation is Inferential Construction / Claim Warrant, inactive. Its recovery contract is `re-expression-semantic-transfer/NEXT-RESEARCH-HANDOFF.md`. Maintained-Information Revision and Selection/Exposure remain separately unresearched. Current overall authority is Foundation STATE; this handoff does not automatically activate a successor.
 
-Read the full current Derivation STATE/INDEX/KEY/synthesis, T4/T6/T7, relevant T1–T3, SOURCE-LEDGER and checks/SPEC. Recover Formation's accepted STATE/KEY/F6 and its inherited record-only criterion when used. Recover Dynamics STATE/INDEX/N3/N4/N6/N7 and the hierarchical method; State sibling STATE/KEY/FINDINGS-MAP. Use Records, Binding, Standing and Propagation source routes when identity, history or continued applicability become load-bearing. Candidate discovery follows catalog → selected META → relevant evidence; changing external claims need fresh primary checks.
-
-Current local paths: parent Derivation is this package; Formation is `../formation-acquisition/`; Dynamics is `../`; State sibling is `../../informational-state/`; hierarchical method is `../../../../HIERARCHICAL-DEEPENING-METHOD.md`; overall Foundation is `../../../../../STATE.md`.
-
-## Starting question, not an answer
-
-What meaning, structure and use-relevant distinctions are preserved, recoded, abstracted or lost when existing information is represented differently? Do not assume literal copying, universal losslessness, text-only semantics, a compression algorithm, or a leaf result. A true/entailed representation may still lack a required distinction. The question family, permitted loss, background interpretation and transfer horizon need justification rather than automatic schema fields.
-
-## Return condition
-
-Complete one dedicated child pass, challenge split/merge rivals, preserve unresolved evidence conditions and publish coherent current state. Return for evaluation before activating another child or Selection. No architecture, ontology/schema, implementation or agent-control changes follow automatically.
+The original method remains: one active node, genuine rival comparison, exact source extent, no promotion of research hierarchy into architecture, preserved history and a user evaluation gate. No schema, implementation or agent-control mutation follows from this executed handoff.

@@ -1,16 +1,17 @@
-# Informational Dynamics / Formation–Transition — INDEX
+# Informational Dynamics — INDEX
 
-Read STATE.md for authority. The parent three-question result and Formation's bounded leaf/F6 refinements are accepted. Derivation T0–T7 propose a three-child parent and await user evaluation. Its proposed children and Selection/Exposure have no dedicated passes and are inactive.
+Read STATE.md for authority. Formation/F6 and Derivation's three-child parent/T6 are accepted. Re-expression R0–R7 propose a leaf and await separate evaluation. Warrant, Revision and Selection remain separately unresearched/inactive.
 
 ## Current routes
 
-- New Derivation result: `derivation-transformation/STATE.md` → INDEX → KEY → FINDINGS-MAP → synthesis → T4/T6/T7.
-- Exact proposal, not activation: Derivation T6 and NEXT-RESEARCH-HANDOFF.md.
-- Accepted Formation: `formation-acquisition/STATE.md` → KEY → current synthesis → exact original synthesis/F6/F7.
-- Selection/Exposure: original parent N3/N4/N6/N7; dedicated research still absent.
+- Re-expression result: `derivation-transformation/re-expression-semantic-transfer/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/R4/R6/R7.
+- Accepted Derivation: `derivation-transformation/STATE.md` → INDEX → current/exact historical synthesis/T4/T6/T7.
+- Accepted Formation: `formation-acquisition/STATE.md` → KEY → current/exact historical synthesis/F6/F7.
+- Remaining Warrant/Revision: Derivation STATE/OPEN-QUESTIONS; no dedicated result yet.
+- Selection: original N3/N4/N6/N7; no dedicated result yet.
 
-## Original parent recovery
+## Original recovery
 
-KEY → FINDINGS-MAP → `synthesis/INFORMATIONAL-DYNAMICS-SYNTHESIS.md` → N7-NODE-CLOSURE.md. Recover N3/N4/N6 for structural arguments and RESEARCH-PLAN/EVIDENCE-INVENTORY/EXTERNAL-SOURCE-LEDGER for method and source routes. OPEN-QUESTIONS and DEFERRED-RELATIONS preserve conditional boundaries.
+KEY → FINDINGS-MAP → `synthesis/INFORMATIONAL-DYNAMICS-SYNTHESIS.md` → N7. N3/N4/N6 preserve original structural reasoning; RESEARCH-PLAN/EVIDENCE-INVENTORY/EXTERNAL-SOURCE-LEDGER preserve method and sources. OPEN-QUESTIONS and DEFERRED-RELATIONS are conditional boundaries, not activation.
 
-Original N-pass labels are historical. Current STATE controls acceptance and execution. State sibling is `../informational-state/`, Information is `../STATE.md`, and CURRENT-SURFACES binds exact identities only. No automatic child, sibling, architecture or implementation.
+Original N-pass labels and superseded closed-package external continuation labels are historical. Current STATE controls authority. State sibling is `../informational-state/`; Information is `../STATE.md`. CURRENT-SURFACES binds exact identities, not independent truth. No automatic successor or implementation.

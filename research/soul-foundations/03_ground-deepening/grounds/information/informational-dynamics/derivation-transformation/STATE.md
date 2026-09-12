@@ -1,33 +1,31 @@
 # Informational Derivation / Transformation — STATE
 
-**Date:** 2026-09-12  
-**Status:** PROPOSED BOUNDED PARENT / USER EVALUATION PENDING  
-**T0–T7:** COMPLETE  
-**Current authorized substantive activity:** NONE after this bounded closure  
-**Current authorized interaction:** DERIVATION PARENT RESULT, THREE-CHILD PROPOSAL AND T6 REFINEMENT EVALUATION
+**Updated / user accepted:** 2026-09-12  
+**Parent status:** BOUNDED THREE-CHILD STRUCTURE / USER-EVALUATED / ACCEPTED  
+**T0–T7:** COMPLETE / accepted with exact T6 refinements  
+**Re-expression R0–R7:** COMPLETE / proposed bounded leaf awaiting evaluation  
+**Current authorized substantive activity:** NONE after bounded Re-expression closure
 
-## Authorization
+## Acceptance and current depth
 
-The user explicitly accepted the Formation result and requested continuation: “Benim açımdan değerlendirmem uygun sonucunu veriyor. Lütfen devam et. Operasyonel sınırına kadar çalış.” This accepted Formation and its F6 refinements and activated the recommended Derivation pass. Input main was `938359a1c4b0a01dd7bab5f4647e0474872b2078`. It did not pre-accept this result or authorize its descendants.
-
-## Proposed bounded result
+The user said: “Araştırmanı doğru ve gerekli buluyorum. Değerlendirmemden geçti. Devam et. Operasyonel sınırına kadar çalış.” This accepts the Derivation parent, its three immediate questions and exact T6 refinements and authorizes the recommended first child. It does not pre-accept that child's new result.
 
 ```
-Informational Derivation / Transformation     proposed bounded parent
-├─ Representational Re-expression / Semantic Transfer   proposed child / no dedicated pass / inactive
-├─ Inferential Construction / Claim Warrant              proposed child / no dedicated pass / inactive
-└─ Maintained-Information Revision / Reliance Change      proposed child / no dedicated pass / inactive
+Derivation / Transformation                 [accepted three-child parent]
+├─ Re-expression / Semantic Transfer        [dedicated result complete; proposed leaf awaiting evaluation]
+├─ Inferential Construction / Claim Warrant [structurally accepted; no dedicated pass; inactive]
+└─ Maintained-Information Revision          [structurally accepted; no dedicated pass; inactive]
 ```
 
-The common parent studies informational transitions from existing states. Transfer of protected meaning, warrant for a conclusion and revision of continuing information have non-interchangeable success conditions. The strongest one-leaf and two-child rivals were examined in T4; the proposed three-question structure is diagnostic, not a pipeline or architecture.
+Selection/Exposure remains the separately unresearched Dynamics sibling. Parent acceptance is not recursive completion. The full labels and original structural argument remain in T4/T6 and the exact historical synthesis.
 
-## Core distinctions
+## Accepted parent distinctions
 
 ```
 production history != actual contribution != epistemic warrant
 source fidelity != world truth
 entailed output != information sufficient for intended use
-true conclusion != sound inference from the offered premises
+true conclusion != sound inference from offered premises
 withdrawn support != negated proposition
 one support lost != all alternative support lost
 unchanged positive inputs != unchanged negative dependencies
@@ -36,16 +34,16 @@ valid local steps != compatible end-to-end transformation
 proposed revised state != installed state != downstream exposure
 ```
 
-T6's wording refinements and this structure await user evaluation. Formation's F6 refinements are already accepted. No previous accepted ground, Composition region or Dynamics sibling is revoked.
+T6's six refinements are accepted. Original T0–T7, PLAN, SOURCE-LEDGER and checks are preserved. The established synthesis path now provides current accepted orientation and points to its exact original predecessor, stored at `synthesis/HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md` with unchanged blob `b415e3cb9744e0b5b79d7091a57840831fde7e61`.
 
-## Remaining frontier and next responsibility
+## New child result and next responsibility
 
-User evaluation of this parent result is next. Representational Re-expression / Semantic Transfer is recommended as the first dedicated child after evaluation, but is inactive and not yet an accepted child result. Re-select after its pass. Selection/Exposure remains the separately unresearched Dynamics sibling; it must not disappear behind the new proposed children.
+Re-expression completed its dedicated R0–R7 pass from input main `b658913dd8148dd9a4850414159f13513904f137`. It proposes one interpreted source-to-derivative leaf, with no immediate child. R6's narrow refinements distinguish possible decoding, intended semantic fidelity and actual use; round-trip identity and intermediate meaning; permitted numerical loss and decision sensitivity; and generated-question checks versus coverage.
 
-## Evidence and limits
+These are pending child proposals, not accepted parent changes. Current interaction is user evaluation of that leaf and exact R6 refinements. Entry: `re-expression-semantic-transfer/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/R4/R6/R7.
 
-Eight primary sources at unequal documented depths; bounded candidate reuse; same-model adversarial review. Fourteen finite cases and seven faulty substitutions ran, including three actual in-memory SQLite cases on synthetic data. No live SOUL/LLM pipeline, human intervention, production database or independent researcher/model replication was tested. The query-preservation argument specializes the inherited Formation F2 result rather than claiming a new discovery.
+Inferential Construction is recommended next, inactive; Revision and Selection remain separately unresearched. No successor, architecture, ontology/schema, implementation or agent-control mutation is automatically authorized.
 
-## Retrieval and stop
+## Verification
 
-INDEX → KEY → FINDINGS-MAP → synthesis → T4/T6/T7 → targeted T-pass/SOURCE-LEDGER/checks. CURRENT-SURFACES binds file identity, not semantic truth. No proposed child, Selection, architecture, ontology/schema, implementation or agent-control modification is automatically authorized.
+The original parent and new child reviews remain same-model. Original eight-source/fourteen-case/seven-control evidence is unchanged. New seven-source/fourteen-case/six-control evidence includes native Unicode and JSON examples on synthetic inputs; it is not independent hierarchy validation, live SOUL/LLM efficacy or human translation evidence. Current content identity and acceptance do not change those limits.
