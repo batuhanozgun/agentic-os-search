@@ -1,14 +1,14 @@
 # Integration / Remaining Frontier — CURRENT SURFACES
 
-**Date:** 2026-09-12  
+**Updated:** 2026-09-12  
 **Branch:** main
 
 | Path | Git blob SHA |
 |---|---|
-| `STATE.md` | `3d547866dcc6fdab447a71bddf5d9b33cdcefa00` |
-| `INDEX.md` | `9868dcb2d70e21bfd0631af845c2a25fa364291c` |
-| `KEY.md` | `7bae0b2b25ced8e718e0bb3d1b9e7b0fcab8735d` |
-| `NEXT-RESEARCH-HANDOFF.md` | `f1f21803e5bdb0b4b4f39ac8624daf51ba8878e0` |
+| `STATE.md` | `abddcfaebc30ec6afe61438c73c7cea205623d41` |
+| `INDEX.md` | `5f645b7a8f7080de96ac3d704e79c962ae9f9730` |
+| `KEY.md` | `30982a46e0bd8ec2bf7726f3c20131806848cfe1` |
+| `NEXT-RESEARCH-HANDOFF.md` | `2fc3ead42897be8de3d9b498385323ef0154bc3e` |
 | `B0-RECOVERY-AND-ACCEPTANCE.md` | `d3f97b17cfd77ae43927b98e44c7a68480ed0d92` |
 | `B1-PARENT-INTEGRATION.md` | `42bc6b604a73187c42013c6f571e1d92e1e0c110` |
 | `B2-COVERAGE-AND-FRONTIER.md` | `21a3da666c6159d19ce1d1a7246ec0d6a64d17c9` |
@@ -22,8 +22,8 @@
 | `checks/RESULT.json` | `fed6089400a7e5b209e38ff1efdf00fdad4f4a73` |
 | `checks/frontier_audit.py` | `7789bb4a0f6339bd4c05393f3ba2a4e0dd793b62` |
 | `evidence/INPUT-DYNAMICS-STATE.md` | `df5e44427d3c07eb8fdd312a3fa3594c3a239b2e` |
-| `../STATE.md` | `a8327f4aabafc0a372f339216a076e69509ee7f0` |
-| `../INDEX.md` | `841231585a974d2673490d6968fd2ce8034f3541` |
-| `../README.md` | `f50cae3f400780ea23a057530d29fcb07ec1117f` |
+| `../STATE.md` | `34d56e7d85d6f15aaa214b1d344da3fedb8f7e2d` |
+| `../INDEX.md` | `7a296f4f1a99329368a705f9b8448d52d9282127` |
+| `../README.md` | `d28a1983c64425f1bc129fa0b64a162ec9da64c6` |
 
-The review is user-accepted. Original B0–B5, SYNTHESIS, FRONTIER.json and checks are preserved review-time evidence; their pending/inactive labels do not override current STATE. Formation has since been separately researched and awaits its own evaluation; Derivation and Selection remain unresearched. Identity binding does not strengthen original same-model or bookkeeping-test evidence.
+The review is accepted. Its original B0–B5, SYNTHESIS, FRONTIER.json and checks remain unchanged review-time evidence, not the live frontier. Formation is subsequently accepted; Derivation's three-child parent proposal awaits evaluation; proposed children and Selection are separately unresearched/inactive. These bindings do not rerun or strengthen the original same-model/bookkeeping evidence.

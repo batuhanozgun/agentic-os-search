@@ -1,16 +1,16 @@
 # Information / Representation — CURRENT SURFACES
 
-**Date:** 2026-09-12  
+**Updated:** 2026-09-12  
 **Branch:** main
 
 | Path | Git blob SHA |
 |---|---|
-| `STATE.md` | `4b9cc82450eebf582a26c8a41688920aefc3a53d` |
-| `INDEX.md` | `382eac5d976fb00fddee3e7e90d848ff8c35ef3f` |
-| `KEY.md` | `5d1b344117fbfed9fb44f8bc9426ba773e8c3691` |
-| `FINDINGS-MAP.md` | `73bba18ebda57c64a6e151f94a1768cd9693298d` |
-| `informational-dynamics/CURRENT-SURFACES.md` | `b6e22a43bd9ee0f93d3c68c7720405339ed40195` |
+| `STATE.md` | `9a8fbd6cd2133069a186fef4cfdce0a07c5c3ea2` |
+| `INDEX.md` | `843cf2ffb0d18dca7d1ad5f26fc8a9841f810cd0` |
+| `KEY.md` | `f857c71cbbe0fea7f1f0363a0cb81cc73b8f3cbf` |
+| `FINDINGS-MAP.md` | `05bccd0c3abb76e3b63a0a15bdb8271c1887ed66` |
+| `informational-dynamics/CURRENT-SURFACES.md` | `67bc363234d3e6311925aa6b15a8072e30ba4265` |
 | `informational-state/CURRENT-SURFACES.md` | `59561ea369ddc233e41b5bb0cbe6c9fafd7a2592` |
 | `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` | `15ab6fc1acac64d8bcf48296c2d15ad8c5a79b99` |
 
-Information and its parent structure remain accepted. Formation has a new proposed result, not automatic acceptance. Two Dynamics siblings still lack dedicated passes. Source/pass history remains available and is not rewritten by current orientation. Content identity is not substantive truth.
+Information and its immediate structure remain accepted. Formation is accepted with its F6 refinements. Derivation has a proposed three-child parent result awaiting evaluation; the three proposed children and Selection remain without dedicated passes and inactive. Original research is preserved. Content identity is not semantic truth, independent replication or recursive completion.

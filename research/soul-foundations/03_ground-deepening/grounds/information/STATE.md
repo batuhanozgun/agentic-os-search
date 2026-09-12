@@ -2,32 +2,38 @@
 
 **Updated:** 2026-09-12  
 **Parent and immediate structure:** USER-EVALUATED / ACCEPTED  
-**Formation dedicated pass:** F0–F7 COMPLETE / PROPOSED LEAF AWAITING EVALUATION  
-**Current substantive activity:** NONE after bounded Formation closure
+**Formation:** ACCEPTED BOUNDED LEAF with F6 refinements  
+**Derivation:** dedicated T0–T7 complete; proposed parent/children awaiting evaluation  
+**Current substantive activity:** NONE after bounded Derivation closure
 
-## Current hierarchy and completion depth
+## Hierarchy and exact completion depth
 
 ```
 Information / Representation                          [accepted parent]
 ├─ Informational State / Representational Constitution [accepted bounded leaf]
-└─ Informational Dynamics / Formation–Transition       [accepted three-child parent]
-   ├─ Informational Formation / Acquisition            [proposed leaf; dedicated result pending evaluation]
-   ├─ Informational Derivation / Transformation        [structurally accepted; no dedicated pass; inactive]
-   └─ Informational Selection / Exposure               [structurally accepted; no dedicated pass; inactive]
+└─ Informational Dynamics / Formation–Transition       [accepted three-question parent]
+   ├─ Formation / Acquisition                         [accepted bounded leaf]
+   ├─ Derivation / Transformation                     [proposed parent; evaluation pending]
+   │  ├─ Re-expression / Semantic Transfer             [proposed; no dedicated pass; inactive]
+   │  ├─ Inferential Construction / Claim Warrant      [proposed; no dedicated pass; inactive]
+   │  └─ Maintained-Information Revision               [proposed; no dedicated pass; inactive]
+   └─ Selection / Exposure                            [structurally accepted; no dedicated pass; inactive]
 ```
 
-Records/Persistent Information remains a deep cross-cutting persistence profile. Context remains a State + Selection/Exposure + use-relation pattern, not a new immediate child.
+Records remains a deep cross-cutting persistence profile. Context remains a State + Selection/Exposure + use-relation pattern. Neither becomes a new peer by this pass.
 
-## Current result
+## Latest acceptance and result
 
-The accepted integration review was followed by explicit user activation of Formation. The dedicated result preserves target/source/result, novelty, source fidelity versus truth, coverage/detectability, mode/model-assisted formation, time and evidence scope. It promotes no immediate child and proposes narrow parent wording refinements in its F6. These are not yet accepted.
+The user explicitly evaluated Formation as appropriate and requested continuation. Its bounded leaf and exact F6 refinements are accepted. The separately activated Derivation pass now recommends three protected child questions: meaning transfer, inferential warrant and maintained-information revision. The new structure and T6 refinements remain proposals, not accepted findings by assistant authority.
 
-Result: `informational-dynamics/formation-acquisition/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/F6/F7.
+Current result: `informational-dynamics/derivation-transformation/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/T4/T6/T7. Formation's source, novelty, coverage and fidelity-versus-truth distinctions are accepted inputs.
 
-## Accepted boundaries and history
+## Boundaries, history and next responsibility
 
-Actual referent, informational representation, source authority, evidential role and governing permission remain distinct. State owns what the representation is; Dynamics protects source-facing formation, state-to-state derivation and use-facing exposure. Original N-pass research and syntheses retain their historical labels and are not new authorization.
+Actual referent, representation, source authority, evidential role and permission remain distinct. Original Information/Dynamics N-passes and Formation F-passes retain their history. Current STATE governs acceptance and work; completed parent research does not complete its descendants.
 
-## Next responsibility and limits
+User evaluation of the Derivation parent, three proposed children and refinements is next. Re-expression is recommended first afterward, inactive. Selection remains separately unresearched. Overall authority is Foundation STATE.
 
-User evaluation of Formation. Derivation is recommended next, Selection remains the other missing pass; neither is activated. Original State/Dynamics reviews and the new Formation F7 remain same-model. Nine targeted primary pages and twelve constructions/five faulty substitutions do not independently verify the hierarchy or a live system. Overall authority is the Foundation STATE. No architecture, schema, implementation or new descendant is active.
+## Verification
+
+Original and current reviews remain same-model. Derivation used eight primary sources at recorded unequal depths and fourteen finite cases/seven faulty substitutions, including three native in-memory SQLite fixtures. No live SOUL/LLM, production workload or independent replication was established. No architecture, schema, implementation or automatic descendant/sibling is active.

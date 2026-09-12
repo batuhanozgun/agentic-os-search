@@ -1,21 +1,19 @@
 # Formation / Acquisition — INDEX
 
-Read STATE.md first. F0–F7 are complete; the proposed bounded leaf and F6 parent refinements await user evaluation. Derivation and Selection remain unresearched/inactive.
+Read STATE.md first. Formation's bounded leaf and exact F6 refinements are **user-evaluated / accepted**. F0–F7 are complete. No immediate child was promoted.
 
 ## Progressive retrieval
 
-1. `KEY.md` — shortest semantic orientation, not the full evidence.
-2. `FINDINGS-MAP.md` — exact question-to-argument and check routes.
-3. `synthesis/FORMATION-ACQUISITION-SYNTHESIS.md` — integrated result.
-4. `F6-SYNTHESIS-CHILD-DECISION.md` — proposed structural decision and exact parent delta.
-5. `F7-ADVERSARIAL-CLOSURE.md` — strongest challenges and verification limits.
-6. `SOURCE-LEDGER.md` — canonical input identities and actual primary-reading depths.
-7. `F1-ORIGIN-BOUNDARY-AND-SEMANTIC-CORE.md`, `F2-COVERAGE-DISTINGUISHABILITY-AND-MISSINGNESS.md`, `F3-FIDELITY-MODE-TIME-AND-OBSERVER-EFFECT.md`, `F4-RIVAL-DECOMPOSITIONS.md` for load-bearing detail.
-8. `OPEN-QUESTIONS.md` for unresolved conditions; not an automatic execution queue.
-9. `checks/SPEC.md` → `formation_checks.py` → `RESULT.json` for the executed constructions.
-10. `DEFERRED-RELATIONS.md` for cross-node interfaces; `NEXT-RESEARCH-HANDOFF.md` for the inactive recommendation.
-11. `CURRENT-SURFACES.md` for exact identity, not substantive truth.
+1. KEY.md — accepted semantic orientation.
+2. FINDINGS-MAP.md — question-to-argument and check routes.
+3. synthesis/FORMATION-ACQUISITION-SYNTHESIS.md — current acceptance view, linking the byte-identical original integrated synthesis.
+4. F6-SYNTHESIS-CHILD-DECISION.md — exact refinements now accepted; original proposal wording is historical.
+5. F7-ADVERSARIAL-CLOSURE.md — challenges and unchanged verification limits.
+6. SOURCE-LEDGER.md — original exact input identities and reading depth.
+7. F1–F4 — source boundary, coverage, fidelity and strongest rivals.
+8. OPEN-QUESTIONS.md — still-open evidence/structural conditions; acceptance does not solve them.
+9. checks/SPEC.md → formation_checks.py → RESULT.json — original executed constructions, not newly rerun here.
+10. DEFERRED-RELATIONS.md — cross-node interfaces; NEXT-RESEARCH-HANDOFF.md — executed handoff/current continuation.
+11. CURRENT-SURFACES.md — exact file identity only.
 
-The parent is `../STATE.md`; Information is `../../STATE.md`; overall authorization is `../../../../../STATE.md` from this package. Use the parent routers if a relative route is uncertain. Original N-pass evidence remains in the parent; original B-review evidence is at Foundation `06_integration-frontier-review/`.
-
-No architecture, implementation, new child or sibling is authorized by this index.
+Derivation T0–T7 are now complete and its proposed parent/children await evaluation at `../derivation-transformation/STATE.md`. Selection remains separately unresearched. Original F-pass labels do not override current STATE. Overall authorization is `../../../../../STATE.md`. No automatic successor, architecture or implementation.

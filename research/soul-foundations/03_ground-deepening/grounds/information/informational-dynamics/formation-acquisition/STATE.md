@@ -1,16 +1,15 @@
 # Informational Formation / Acquisition — STATE
 
-**Date:** 2026-09-12  
-**Status:** PROPOSED BOUNDED LEAF / USER EVALUATION PENDING  
+**Updated / user accepted:** 2026-09-12  
+**Status:** BOUNDED LEAF / USER-EVALUATED / ACCEPTED  
 **F0–F7:** COMPLETE  
-**Current authorized substantive activity:** NONE after this bounded closure  
-**Current authorized interaction:** FORMATION RESULT AND F6 REFINEMENT EVALUATION
+**Current substantive work in this package:** NONE
 
-## Authorization
+## Acceptance and authorization
 
-The user accepted the integration/frontier review and activated its recommended Formation research with: “Güzel önemli bir sonuç çıkmış bu turda. Lütfen devam et. Operasyonel sınırına kadar çalış.” Input main was `4c372138b7d652b1921e96ef9158b32b05c05fc8`. This authorizes the dedicated pass and continuity work, not user acceptance of its result or automatic successors.
+After reading the delivered result, the user explicitly evaluated it as appropriate and requested continuation: “Benim açımdan değerlendirmem uygun sonucunu veriyor. Lütfen devam et. Operasyonel sınırına kadar çalış.” This accepts Formation's bounded-leaf result and its exact F6 parent refinements. It separately activated Derivation/Transformation, not further Formation descendants or architecture.
 
-## Proposed result
+## Accepted result
 
 One source-/reference-relative formation grammar; no immediate child promoted. Ask how a specified representation became instantiated from its source/origin at a bounded locus, what source-to-result relation is established, and what target distinctions its acquisition evidence supports.
 
@@ -24,16 +23,16 @@ receipt time != source-reference time
 source available/acquired != exposed/used
 ```
 
-The strongest source-contact/coverage versus realization rival remains explicit. Its diagnostic facets are preserved, not dismissed as unimportant. F6's narrow parent wording refinements await evaluation with the child. Original accepted N0–N7 are unchanged.
+The accepted F6 refinements are locus-relative firstness/novelty, possible model-mediated interleaving, capture fidelity versus referent truth, distinct kinds of novelty, and separate occurrence/coverage/fidelity/evidence scopes. The source-contact/coverage versus realization rival remains explicit; no child was promoted by that pass.
 
-## Evidence and limits
+## Current continuation and history
 
-Nine primary pages were read at unequal documented depths. Candidate reuse was metadata-level screening. Twelve constructed cases and five faulty substitutions were executed; no live acquisition system, statistical survey, sensor, model or independent second-researcher/model validation occurred. The finite record-only proposition is stated and proved in F2. It does not establish an actual system's observation model. Web reading succeeded; local raw-HTML archive requests failed.
+Derivation/Transformation T0–T7 are now complete at `../derivation-transformation/STATE.md`. That separate result proposes a parent with three immediate children and awaits user evaluation. Selection/Exposure remains separately unresearched. Do not rerun Formation or treat the executed Derivation handoff as an unstarted task.
 
-## Remaining frontier
+Original F0–F7, PLAN, SOURCE-LEDGER, checks and residuals retain their pass-time content. The original integrated synthesis is preserved byte-for-byte at `synthesis/HISTORICAL-FORMATION-ACQUISITION-SYNTHESIS.md`; the established synthesis path now gives current acceptance orientation and links that source. Old pending/next-step wording in preserved artifacts is historical, not current authority.
 
-Derivation/Transformation and Selection/Exposure are still structurally accepted but separately unresearched/inactive. Derivation is recommended next after evaluation because this pass exposes model-mediated acquisition and semantic transformation boundaries. No sibling or descendant is automatically activated.
+## Verification
 
-## Retrieval and stop
+The original nine primary pages had unequal recorded depths. Twelve constructions and five faulty substitutions were executed; F7 was same-model review. No live acquisition pipeline, survey/sensor experiment or independent replication occurred. Its finite record-only criterion does not identify a real system's observation model. Acceptance and the later Derivation pass do not strengthen those evidence limits.
 
-INDEX → KEY → FINDINGS-MAP → synthesis → relevant F-pass/SOURCE-LEDGER/checks. CURRENT-SURFACES binds file identity only. Do not declare the whole Foundation complete, strengthen inherited verification limits, or start architecture, ontology/schema, implementation or agent-control changes.
+No automatic child/sibling, architecture, ontology/schema, implementation or agent-control work is authorized here. Overall Foundation authority remains `../../../../../STATE.md`.

@@ -1,41 +1,31 @@
 # Formation / Acquisition — KEY
 
+**Updated / accepted:** 2026-09-12  
 **Role:** CURRENT_L0  
-**Status:** proposed bounded leaf / user evaluation pending  
-**Date:** 2026-09-12
+**Status:** bounded leaf / user-evaluated / accepted
 
-## Protected question
+## Accepted result
 
-How did this representation become instantiated from its source/origin at this bounded locus, what source-to-result relation is established, and what target alternatives can the available acquisition evidence distinguish?
+One source-/reference-relative formation inquiry; no immediate child. How did a representation become instantiated from its source/origin here, what relationship is established, and what alternatives can its acquisition evidence distinguish?
 
-## Core
-
-Target/source/result roles + acquisition/origination locus + relevant origin and token identities + encounter/procedure/interpretation dependencies + mode + coverage/detectability + time/version + actuality/evidence/alternatives.
-
-A semantic grammar, not a schema, module or universal pipeline.
-
-## Important corrections
+Preserve bounded locus, target/source/result, origin and representation identity, procedure/interpretation, mode, relevant coverage/detectability, time/version, evidence and alternatives. This is a semantic checklist, not a schema.
 
 ```
-new file or copied record != new origin or independent evidence
-faithfully recorded assertion != true assertion
-formed representation != intended result acquired adequately
-model-assisted formation != invalid formation by identity
-all received records handled != all material opportunities observed
-no record != no event without discriminating observation conditions
-same record may leave different target realities compatible
-parser success != semantic fidelity
-source-reference time != production time != receipt time
+formation occurred != intended capture succeeded != referent claim true
+new copy != new origin != independent evidence
+same payload != same source episode
+all records processed != all relevant sources observed
+missing/null/unknown != measured zero
+receipt time != source-reference time
+acquired != exposed != used
 ```
 
-Formation can include computation and observer effects. Generated and copied artifacts remain representations of their actual origin; their existence does not turn them into empirical observations of their referents. Occurrence, capture fidelity, truth, authority and use remain different claims.
+Acquisition need not be raw, passive or prior to reasoning. A correctly acquired forecast is not observation of its future referent. Negative evidence can support absence only under appropriately discriminating observation conditions. The finite record-only criterion is in F2; it does not forbid useful inference or establish an actual detector's coverage.
 
-## Structural decision
+F6's locus/novelty, model-mediated interleaving and occurrence/fidelity/truth/coverage refinements are accepted. Coverage and realization remain separately recoverable facets despite leaf status. Original research and its exact integrated synthesis remain preserved.
 
-No immediate child promoted. Source Contact/Coverage versus Representational Realization is the strongest rival; its distinct diagnostics remain in F2/F3 and FINDINGS-MAP. Reopen if that representation systematically loses a separate recurring inquiry.
+## Continuation and limits
 
-The three-question Dynamics parent survives with narrow wording refinements proposed in F6. Derivation/Transformation and Selection/Exposure remain separately unresearched. Derivation is recommended next, not activated.
+Derivation T0–T7 now propose a three-child parent and await separate evaluation. Selection remains unresearched. Follow parent STATE rather than old pass-time handoff wording.
 
-## Limits
-
-Nine primary pages at unequal reading depths; twelve constructed cases and five faulty substitutions; same-model review only. No live SOUL efficacy, empirical acquisition-quality guarantee or independent taxonomy validation. Current STATE governs acceptance.
+Original F7 is same-model review; twelve constructions and five faulty substitutions were not live-system tests or independent replication. Acceptance does not change those limits. No automatic new research or implementation is authorized here.

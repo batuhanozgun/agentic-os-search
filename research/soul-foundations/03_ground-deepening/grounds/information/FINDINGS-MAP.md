@@ -1,26 +1,28 @@
 # Information / Representation — Findings Map
 
 **Updated:** 2026-09-12  
-**Role:** current retrieval view; accepted parent, Formation result pending evaluation
+**Role:** current retrieval; Formation accepted, Derivation parent/children proposed
 
 | Protected question / result | Route |
 |---|---|
-| Current completion depth and authorization | STATE → Dynamics STATE |
-| Constituted information: reference, content, mode, identity and qualifications | `informational-state/STATE.md` → KEY → FINDINGS-MAP |
-| Accepted three-question Dynamics structure | `informational-dynamics/KEY.md` → original N3/N4/N6/N7 |
-| Dedicated Formation: source/origin to representation | `informational-dynamics/formation-acquisition/STATE.md` → its FINDINGS-MAP/synthesis |
-| Proposed Formation parent wording refinements | Formation F6; not yet accepted |
-| Derivation: existing information to changed state/standing | Parent Dynamics map; dedicated pass still absent |
-| Selection: existing information made visible to a use/consumer | Parent Dynamics map; dedicated pass still absent |
-| Original Information coherence/boundaries | `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` → parent N-passes |
-| Actual reading/verification limits | Relevant package source ledger and adversarial closure |
+| Completion depth and authority | STATE → Dynamics STATE |
+| Reference/content/mode/identity/qualifications | `informational-state/STATE.md` → KEY/FINDINGS-MAP |
+| Accepted three-question Dynamics parent | `informational-dynamics/KEY.md` → original N3/N4/N6/N7 |
+| Accepted Formation and exact F6 refinements | `informational-dynamics/formation-acquisition/STATE.md` → map/current and historical synthesis/F6 |
+| Derivation's proposed parent and three children | `informational-dynamics/derivation-transformation/STATE.md` → map/synthesis/T4/T6 |
+| Transfer sufficiency, inference warrant and revision | Derivation T1–T3 | 
+| Derivation's executed evidence and limits | Derivation T7/SOURCE-LEDGER/checks |
+| Selection/Exposure | Dynamics original N3/N4/N7; dedicated pass still absent |
+| Original Information coherence/boundaries | `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` → original N-passes |
+| Actual reading and verification scope | Relevant package source ledger and adversarial closure |
 
-Records/Persistent Information remains a deep profile across State/Dynamics. Context remains a State + Selection/Exposure + use-relation pattern. Revision, communication, propagation, reconciliation and encoding remain important specializations/composites, not automatically new immediate peers.
+Records remains a deep persistence profile. Context remains State + Selection/Exposure + use relation. Revision is proposed as a child within Derivation, not a fourth Dynamics peer. Communication, propagation, lineage and encoding retain cross-cutting/interface roles.
 
 ```
 representation exists != true != evidence for this target != decision-sufficient
 source authority != factual truth != permission to act
-parent accepted != descendants independently researched
+parent accepted != descendants separately researched
+proposed child != accepted child result
 ```
 
-The latest dedicated result is Formation, proposed as a bounded leaf. Derivation and Selection are unresearched/inactive. The original parent evidence is preserved; this derived map does not replace it or authorize a successor.
+The new Derivation parent/children and T6 refinements await user evaluation. No proposed child has a dedicated pass; Selection remains unresearched/inactive. Original research is preserved and this map does not replace its evidence.

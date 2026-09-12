@@ -1,20 +1,21 @@
 # SOUL Foundations — INDEX
 
-Read STATE.md first. Formation/Acquisition F0–F7 are complete; the proposed leaf and parent wording refinements await evaluation. The integration/frontier review is accepted. Derivation and Selection remain separately unresearched/inactive.
+Read STATE.md first. Formation is accepted with F6 refinements. Derivation T0–T7 are complete and propose a parent with three immediate children, awaiting evaluation. None of those children has a dedicated pass; Selection/Exposure remains separately unresearched. No substantive successor is active.
 
 | Need | Entry and deeper route |
 |---|---|
-| Current Formation result | `03_ground-deepening/grounds/information/informational-dynamics/formation-acquisition/STATE.md` → INDEX → KEY → FINDINGS-MAP → synthesis |
-| Exact Formation parent delta and strongest rivals | Formation F6 → F4/F7 |
-| Formation sources and constructed-check limits | Formation SOURCE-LEDGER → F5/F7 → checks/SPEC/code/RESULT |
-| Next proposed research, not activation | Formation NEXT-RESEARCH-HANDOFF.md |
-| Current Information completion depth | `03_ground-deepening/grounds/information/STATE.md` → INDEX → Dynamics STATE |
-| Accepted Informational State | `03_ground-deepening/grounds/information/informational-state/STATE.md` → KEY/FINDINGS-MAP |
-| Original Dynamics parent reasoning | `03_ground-deepening/grounds/information/informational-dynamics/INDEX.md` → N3/N4/N6/N7 and original synthesis |
-| Accepted integration/frontier review | `06_integration-frontier-review/STATE.md` → KEY → original SYNTHESIS/B1/B2/B4 |
+| Current Derivation result and proposed tree | `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis |
+| Why parent rather than leaf; exact proposal and refinements | Derivation T4 → T6 → T7 |
+| Primary sources and executed-check limits | Derivation SOURCE-LEDGER → T5/T7 → checks/SPEC/code/RESULT |
+| Next proposed Re-expression pass, not activation | Derivation NEXT-RESEARCH-HANDOFF.md |
+| Accepted Formation and exact F6 refinements | `03_ground-deepening/grounds/information/informational-dynamics/formation-acquisition/STATE.md` → KEY → current and exact historical synthesis/F6/F7 |
+| Information completion depth / missing Selection | `03_ground-deepening/grounds/information/STATE.md` → Dynamics STATE |
+| Accepted Informational State | State sibling STATE → KEY/FINDINGS-MAP |
+| Original Dynamics parent reasoning | Dynamics INDEX → N3/N4/N6/N7 and original synthesis |
+| Accepted integration/frontier review | `06_integration-frontier-review/STATE.md` → original SYNTHESIS/B1/B2/B4 |
 | Accepted Composition and descendants | `05_relation-control-composition/STATE.md` → INDEX → relevant child STATE/KEY |
 | Other accepted grounds | `03_ground-deepening/INDEX.md` → selected ground |
 | Accepted four-ground adequacy | `04_top-level-adequacy-rerun/STATE.md` → INDEX |
-| Candidate library | `../studies/CATALOG.md` → selected META → targeted evidence |
+| Candidate reuse | `../studies/CATALOG.md` → selected META → targeted evidence |
 
-Current state and derived orientation are distinct from original pass evidence. An accepted parent or an old complete label does not complete its unresearched descendants. No sibling, new descendant, architecture or implementation is automatically authorized.
+Original pass artifacts preserve their checkpoints. A proposed child is not an accepted leaf; an accepted parent does not complete dedicated descendant work. Current authority and derived retrieval are not substitutes for source evidence. No child/sibling, architecture or implementation is automatically authorized.

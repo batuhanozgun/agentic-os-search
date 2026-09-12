@@ -1,20 +1,20 @@
 # Informational Dynamics / Formation–Transition — KEY
 
 **Updated:** 2026-09-12  
-**Role:** CURRENT_L0; accepted parent with a proposed dedicated Formation result
+**Role:** CURRENT_L0; accepted parent, accepted Formation, proposed Derivation parent
 
-Dynamics protects how informational states become instantiated, are derived/changed, or become visible/available for use.
+Dynamics protects how informational states become instantiated, are derived/changed, or become visible/available for use. Its accepted three-question structure is unchanged.
 
 ```
-Formation / Acquisition       [dedicated result complete; proposed leaf]
-Derivation / Transformation   [unresearched / inactive]
-Selection / Exposure          [unresearched / inactive]
+Formation / Acquisition       [accepted bounded leaf]
+Derivation / Transformation   [three-child parent proposal; evaluation pending]
+Selection / Exposure          [no dedicated pass; inactive]
 ```
 
-Formation asks about the source-to-state relationship; Derivation about state-to-state production/change and semantic effect; Selection about the right existing information becoming available to a use/consumer. A faithful transformation of an incomplete selected set is not the same failure as a distorted transformation of complete inputs.
+Formation's accepted F6 refinements make source/result locus and kinds of novelty explicit, allow model-mediated interleaving and separate occurrence, coverage, fidelity, truth and evidence adequacy. Acquiring a representation does not by itself establish its referent truth or operative use.
 
-Route by protected question and reference frame, not verbs such as copy, retrieve or update. Revision, communication, propagation, reconciliation, persistence and encoding remain profiles/composites/cross-cutting dimensions at the accepted parent level.
+Derivation now proposes Re-expression/Semantic Transfer, Inferential Construction/Claim Warrant and Maintained-Information Revision/Reliance Change. An entailed output may omit information needed for a task; a true conclusion may lack warrant from its offered premises; a sound analysis may leave continuing information unrevised. These are proposed first-order child questions, not completed child research or workflow stages.
 
-Formation F6 proposes sharper locus/novelty and occurrence/fidelity/truth/coverage distinctions and rejects a universal model-free/raw-first interpretation. These refinements await evaluation with the proposed leaf; the original parent research is not silently rewritten.
+Selection remains distinct: complete/appropriate input exposure and correct transformation of supplied inputs can fail independently. Route by protected question and reference frame, not verbs. Lineage, time, uncertainty, communication, propagation and persistence remain cross-cutting or interface concerns at this parent level.
 
-Current STATE governs the gate. Derivation is recommended next, not activated. N6/F7 remain same-model review; primary sources and finite constructions are not independent taxonomy or live-system validation.
+Current STATE governs evaluation and next work. Re-expression is recommended first after acceptance of the Derivation proposal, not activated. Reviews and finite tests do not independently validate the hierarchy or live SOUL behavior.
