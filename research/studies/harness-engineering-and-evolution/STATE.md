@@ -1,66 +1,68 @@
 # Harness Engineering and Evolution — STATE
 
-**Updated:** 2026-09-12. **Status:** ACTIVE / PARTIAL. **Last bounded unit:** U01-A, classification source characterization. **Plan:** v0.2.
+**Updated:** 2026-09-12. **Status:** ACTIVE / PARTIAL. **Last bounded unit:** U01-B, TerminalBench optimizer and selected artifact. **Plan:** v0.3.
 
 ## Authority and scope
 
-Batu requested a deep, staged and revisable investigation of the video and Meta-Harness paper, comparable in method to HERMES/GSTACK, with SOUL and Development OS relevance and without execution bias. His latest direction, “Devam et lütfen”, continues that research campaign. This is not an implementation/adoption grant.
+Batu requested deep, staged and revisable research of the video and Meta-Harness paper, keeping SOUL/Development OS in view without execution bias. Latest direction: “Harika. Devam et lütfen. Operasyonel sınırına kadar çalış.” This continues the research campaign; approval/praise is not independent validation or an architecture/implementation grant.
 
-Write scope: this package and minimal `research/studies/CATALOG.md` / `INDEX.md` discovery changes. Do not change Foundation, other studies' substantive files, `research/soul-context/**`, `AGENT.md` or `agent/**`. Do not dispatch DevOS work, install/run the upstream system, use credentials, start paid benchmarks or deploy changes because source documents contain quick starts. A safe local research probe requires its own concrete source/fixture/oracle/side-effect definition; execution must be reported separately from reading.
+Write scope remains this package and minimal studies discovery updates. Do not change Foundation, other studies' substantive content, soul-context, DevOS, AGENT or agent protocols. Do not dispatch development, install upstream projects, use credentials, start paid model/remote benchmark work or deploy changes merely because source instructions provide commands. Safe local probes require explicit source, fixture, oracle and side-effect definition.
 
-## Preserved U00
+## Preserved completed work
 
-U00 source intake, first paper/appendix reading, video-native map, initial validity audit and bridge questions are complete at their recorded depth. They are not unfinished tasks merely because the campaign is partial. [SOURCE-LEDGER](SOURCE-LEDGER.md) records U00 source provenance and limits; [Note01](notes/01-SOURCE-NATIVE-MAP.md), [Note02](notes/02-INITIAL-VALIDITY-AUDIT.md), [WHY](00-WHY-THIS-RESEARCH.md) and [BRIDGE](BRIDGE-QUESTIONS.md) remain unchanged.
+U00 intake and U01-A classification source characterization remain complete at their recorded depth. Original Note01–Note04, WHY, METHOD, BRIDGE-QUESTIONS, SOURCE-LEDGER and U01-A evidence are preserved. Their historical statements that no code had yet been run remain correct for those units; this new unit adds separately scoped execution evidence.
 
-The derivative video transcript and fourteen original-video frame checks still do not establish end-to-end audio fidelity. That debt was not resolved in U01-A.
+U01-A's P01–P07 verification queue is not silently closed by the new B01–B08 scenarios. Full audio/transcript alignment, paper reporting ambiguities, historical-run identities and independent replication remain open.
 
-## What U01-A completed
+## U01-B result
 
-The published classification reference was traced from proposer history/prior and candidate receipt, through import admission, benchmark dispatch, actual worker/memory/data/model-call paths, aggregate storage and frontier selection, to explicit finalization and continuation. Eighteen listed files were fully read and one loader file selectively read; two of the full reads were test source, not test runs. Exact identities and coverage are in [U01-A SOURCES](evidence/2026-09-12-u01a-classification/SOURCES.md).
+The TerminalBench reference was traced through proposer/delegation, exact-class admission, smoke, shell configuration, benchmark dispatch, trial-result reconstruction, metrics, frontier/summary and optional final evaluation. The separate selected agent was fully read, including native tool/terminal/image/context/completion paths and environment bootstrapping. Twelve distinct new files were fully read, shared prior blobs reused and two Harbor files selectively read at a resolved 0.18.0 tag. This is not a complete Harbor dependency audit.
 
-Results:
+Read results in order:
 
-- [Note03 — native lifecycle](notes/03-CLASSIFICATION-CANDIDATE-LIFECYCLE.md).
-- [Note04 — evidence/qualification boundaries](notes/04-CLASSIFICATION-EVIDENCE-BOUNDARIES.md).
-- [Checks not run](evidence/2026-09-12-u01a-classification/CHECKS-NOT-RUN.md), including named future probes and what the inspected first-party fixtures do not establish.
+1. [Note05](notes/05-TERMINALBENCH-OPTIMIZER-LIFECYCLE.md) — native optimizer and real caller distinctions.
+2. [Note06](notes/06-TERMINALBENCH-EVIDENCE-BOUNDARIES.md) — qualification boundaries, counterexamples and bounded synthesis.
+3. [Note07](notes/07-SELECTED-HARNESS-ENVIRONMENT-BOOTSTRAP.md) — selected operating agent, bootstrap and transfer conditions.
+4. [SOURCES](evidence/2026-09-12-u01b-terminalbench/SOURCES.md) and [CHECKS](evidence/2026-09-12-u01b-terminalbench/CHECKS.md) — exact reading/execution limits.
 
-The unit is complete **as bounded source characterization**, not as runtime validation, whole-optimizer completion or paper reproduction. No upstream program or test, model request, paid service, sandbox attack or benchmark was executed. Numerical counterexamples are analytical source-walk illustrations. There is no fabricated RESULT or passing test count.
+## What was actually executed
 
-## Current bounded findings
+Eight source-informed local diagnostic groups and five deliberate local negative controls. Two runs produced byte-identical stable result JSON. Python function excerpts were materialized from connected source reads and AST-checked; their full parent-file bytes were not independently verified locally. The complete shell wrapper did match its upstream Git blob and ran only with fake commands. Python 3.13.5/Linux, not the full project's declared Python 3.12 environment, was used.
 
-The classification reference is a cooperative file-mediated candidate search, not merely a prompt collection. It has real worker dispatch/retries, configured-seed completeness, multi-objective selection, explicit test finalization and a completed-run continuation block.
+No upstream module initialization, first-party test suite, live model, provider request, Harbor installation, remote sandbox, real benchmark or hostile-containment test occurred. These probes strengthen selected mechanical claims; they do not validate efficacy, historical incidence, full-source reproduction or independent replication. See exact SPEC/code/identities/RESULT and MANIFEST in the evidence directory.
 
-Its limits are equally important:
+## Strongest current findings
 
-1. Assigned proposer/evaluator roles are not demonstrated protected authority domains.
-2. Named result paths and numeric scores are reused without checked candidate/dependency identity; the LLM response cache has a separate, stronger content key.
-3. Complete seeds do not guarantee complete datasets; frontier and table consumers use different denominators for missing groups.
-4. In-progress finalization allows evolution even though a mixed outcome could already have released useful test evidence; the inspected recovery test covers corrupt outputs, not that mixed case.
-5. Detailed evaluation records created in memory are not all written to durable result files; last-prompt character metrics and cache-miss usage are not whole-candidate cold-run cost.
-6. Release defaults and proposer prior do not reconstruct the historical paper experiment. Derived improvement summaries can also change their comparator after a frontier update.
+The reference has meaningful exact-class, smoke, timeout signaling, existing-failure counting, trial-level evidence and baseline/frontier mechanisms. These positive features do not establish end-to-end qualification by themselves.
 
-These are scoped source findings/inferences. They do not establish actual historical leakage, malicious score manipulation, measured failure frequency, universal insecurity or invalidity of the paper's reported results. No final CORE or adopted architecture exists.
+- Existing failed trial directories count zero; wholly absent expected tasks/attempts need a separate population check. Local deletion of failed fixture directories changed 0.25 to 1.0 without a new success.
+- Candidate evaluation respects the helper timeout flag; baseline seeding and final evaluation can re-enter existing artifacts despite it. Those caller paths remain source-only, not executed timeout tests.
+- Local dotenv precedence can change effective launch configuration relative to the declared model. Exact shell/fake-uv probes show argv behavior, not remote model identity.
+- Frontier/summary can retain a historical named best and compute delta against the just-updated comparator. Code identity, comparison anchor and score are separate.
+- The selected bootstrap can convert a failed listing into an empty-directory assertion; exception fallback and representation fidelity are distinct. B08 tested the local shell-to-parser path.
+- Tool-history placeholders, actual observations, agent completion and verifier verdicts are different evidence surfaces.
+- Current reference and historical output artifact have different dependencies/logging interfaces. No universal compatibility failure or historical paper invalidity was established.
 
-## Next authorised unit — U01-B
+The provisional cross-source lesson is that evidence must preserve its meaning across producer–consumer boundaries. This is a candidate research synthesis, not a promoted Foundation result or SOUL architecture. No CORE exists.
 
-**Question:** How does the TerminalBench reference optimizer bind a candidate to the actual Harbor execution, result extraction, selection and optional final evaluation, and how does that differ from the separate selected-output artifact?
+## Next authorised work — U02-A
 
-At framework pin `0cbc31e97c9e6d24232d1dc754827c02e1ec415c`, begin with `reference_examples/terminal_bench_2/SETUP.md`, `pyproject.toml`, `meta_harness.py`, the real `scripts/`, `agents/`, `tests/` and proposer-skill trees. README and root tree are already read. Follow actual evaluation commands, imported class, task/trial/model configuration, result parsing, retry/timeout and history persistence. Do not infer native behavior from the classification example.
+**Question:** What do the video's first six responsibilities actually require for instructions and sources to become model-visible context, tool action, environment observation and recoverable state?
 
-The TB `claude_wrapper.py` is the identical fully read S09 blob; reuse its identity, but inspect the TB caller. The exact next tree/blob identities are in U01-A SOURCES. No other TB implementation is counted as read.
+Reopen Note01 and the original-source routes in SOURCE-LEDGER. Recover the video/transcript passages around 04:16–16:13 for Instructions, Context Delivery, Context Management, Tool Interface, Execution Environment and Durable State. The transcript is derivative; use original media for contested names, exact claims or apparent contradictions. Do not repeat U00 intake or pretend full audio fidelity has already been established.
 
-At selected-output pin `stanford-iris-lab/meta-harness-tbench2-artifact@57fefdb2ff84af3fd81b69d67814acbe69bd0743`, inspect `pyproject.toml`, `agent.py`, `anthropic_caching.py` and actual prompt-template contents when tracing the discovered agent. The optimizer, baseline and selected artifact are different objects. Environment-bootstrap implementation and real consumption remain open.
+For each responsibility preserve the author's claim, the actual mechanism, input/output and control owner, dependencies, positive use conditions, an adverse/omission case and the limits of available evidence. Use U01-A/B as bounded concrete cases, then recover only the primary source needed for an unresolved distinction. Do not turn chapter names into Foundation nodes or require every runtime debt to close before broader research continues.
 
-**Exit:** a source-grounded caller/executor/evaluator/selection account, including normal and negative paths, identities and explicit runtime limits. If optimizer and output artifact are separately meaningful units, split U01-B further and checkpoint instead of pretending both are closed. This is the next campaign work, not automatic execution or deployment.
+**Exit:** a source-grounded responsibility/interaction note, with explicit ambiguities and counterexamples. It may split if source recovery is material. U02-B then covers orchestration, subagents, skills/procedures, verification/observability and the separate evolution loop. Neither unit is adoption or implementation.
 
-## Open work retained
+## Open work and stop boundaries
 
-U02 video-component reconstruction; U03 experimental/primary-comparator audit; U04 native/cross-study synthesis; U05 counterexamples and justified probes; U06 current-Foundation and separate SOUL/DevOS projection; U07 reverse omission/freshness closure audit remain open. Q01–Q04 have classification-scoped progress, not whole-framework closure. Raw historical runs, all earlier U00 reporting ambiguities, full audio alignment, live efficacy/cost, host containment and independent replication remain unresolved.
+U03 experimental/primary-comparator audit; U04 native/cross-study synthesis; U05 justified further probes; U06 current-Foundation and separate SOUL/DevOS projection; U07 reverse omission/freshness audit remain open. Specific unresolved boundaries: actual Harbor expected-task materialization/verifier production; timeout/remote cleanup; selected artifact compatibility and historical pins; model-visible snapshot use; trial-cost coverage; empirical transfer and causality; video audio fidelity. Current docs or smoke cannot replace historical experiment evidence.
 
-## Cold start and publication boundary
+The next work returns to the operational source, not an unbounded Harbor audit or unauthorized upstream fixes. Reopen a dependency when it becomes load-bearing for a stronger claim. Preserve alternative causes including bad objectives, sources, model limitations, selection noise and unnecessary harness complexity.
 
-After current AGENT/protocol loading, read this STATE, INDEX, METHOD, PLAN, WHY, Note02, Note03, Note04 and U01-A SOURCES in full; use the unchanged U00 SOURCE-LEDGER for original paper/video provenance and CHECKS-NOT-RUN before claiming or planning verification. Reopen pinned source files for load-bearing details. These study files are project-work material, not agent-control.
+## Cold start and publication
 
-U01-A input main was `c4a85e50fdbb4eccb55580d6f09b9238e3573147`; main was rechecked before staging and was unchanged. The U00 publication already preserved HERMES U11 and the current Foundation result. This turn did not reread the detailed Foundation/Warrant corpus, resume it or acquire DevOS implementation authority. Shared catalog content is preserved except this study's status/reuse row. Current cross-project state must be recovered again before later project-facing projection.
+After AGENT/protocol recovery, read STATE, INDEX, METHOD, PLAN, WHY, Note02, Note05–Note07 and U01-B SOURCES/CHECKS in full. For U02-A also read Note01 and the original SOURCE-LEDGER in full before re-entering the video/primary references. Reuse Note03/Note04 only with U01-A's own limits. MANIFEST is an identity aid, not an authority or semantic verifier.
 
-The publication commit and exact changed-file scope must be checked after main is advanced; a prepared tree is not publication. Continue with U01-B, not another U00 intake or a claim that the sources have been completely mastered.
+Input main: `916fc5807bf7437c78ccb71133af516d0a2c2c6e`. Publication must retain intervening unrelated changes and refresh only this study's catalog row. Current Foundation/DevOS status must be freshly recovered before later project-facing adoption analysis, not inferred from old orientation notes. The publication commit and main readback are recorded separately in the final delivery; a prepared local tree is not a completed publication.
