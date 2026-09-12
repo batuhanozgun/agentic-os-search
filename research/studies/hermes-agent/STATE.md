@@ -1,5 +1,19 @@
 # Hermes Agent — STATE
 
+## Güncel çalışma checkpoint'i — Q53 / 2026-09-12
+
+**Son yayımlanmış araştırma: U10 / plan v0.23. Yeni çalışma: Q53, başlangıç/preflight; henüz yeni teknik bulgu veya deney yok.** Kullanıcı küçük, repo ile eşzamanlı araştırma dilimleri düzenini onayladı ve “Tamam devam et lütfen” dedi. Bu kayıt o yetkinin kalıcı karşılığıdır; agent-control değişikliği değildir.
+
+Başlangıç main `595d9ebb24302e271b9f84cc86d0debbd74dc790`. U10 makbuzu `b658913dd8148dd9a4850414159f13513904f137` sonrasındaki iki commit Foundation ve ayrı roadmap çalışmasını ilerletmiştir; HERMES/control değişmemiştir. Yeni katalog/diğer çalışma içeriği korunur.
+
+**Sıra:** bu başlangıç kaydını gerçek main'den geri oku → aşağıdaki cold-start'ın Q53 için gerekli eksik kaynak derinliğini tamamla → provider/model seçimi ve gerçek backend kabulü için ilk anlamlı kaynak dilimini araştır → bulgu/kaynak/sınır/sonraki soru ile yayımla ve geri oku → ancak bundan sonra ikinci büyük dilime geç. Yazma kesilirse yalnız eldeki dilimin yayınını çöz; yeni araştırma biriktirme. Küçük metin yayını binary kanıt veya gelecekteki bütün write kabiliyetinin garantisi değildir.
+
+**Çalışma çıkışı:** doğrudan model yolu ile maddi farklı harici/native backend'de model isteği, araç, history/compaction, fallback, cancel ve kaynak ömrünün sahiplerini ayırmak. Full ürün/model/credential/backend çalıştırması yetkilendirilmedi. Tamamlanmış U04–U10, dört provisional sentez ve bütün açık doğrulamalar aşağıdaki statülerini korur. Bu başlangıç kaydı Q53'ü yapılmış saymaz; commit oluşturulması da main/readback yerine geçmez.
+
+---
+
+## Devralınan U10 durumu ve korunmuş kanıt yolu
+
 **U10 / plan v0.23 — CRON EXECUTION AND RECONSTRUCTED CONTEXT.**
 **Statü:** ACTIVE PARTIAL RESEARCH; bütün HERMES tamamlanmadı.
 **Tarih:** 2026-09-12. Araştırma tabanı `938359a1c4b0a01dd7bab5f4647e0474872b2078` (U09 yayın makbuzu). Güncel ref/content yayın hükmü [U10 PUBLICATION](evidence/2026-09-12-cron-execution-context/PUBLICATION.md)'dadır.
