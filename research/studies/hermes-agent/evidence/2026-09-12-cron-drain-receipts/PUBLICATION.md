@@ -1,10 +1,39 @@
 # U08 — Yayın ve geri okuma makbuzu
 
-**2026-09-12 / CONTENT PREPARED — REF/READBACK NOT YET VERIFIED.** Bu başlık gerçek main geri okumasından sonra güncellenecek; tree/blob oluşturmak yayın değildir. [STATE](../../STATE.md), [RESEARCH](RESEARCH.md), [MANIFEST](MANIFEST.json).
+**2026-09-12 / PUBLISHED TO MAIN — CONTENT VERIFIED.** Özgün U08 teslimi main'e yayımlandı. Bu yayın checkpoint'inde yeni HERMES araştırması veya davranış koşusu yapılmadı. [STATE](../../STATE.md) U08 / v0.21; bütün araştırma ACTIVE PARTIAL. [RESEARCH](RESEARCH.md), [SOURCES](SOURCES.md), [MANIFEST](MANIFEST.json), [RESULT](RESULT.json).
 
-Yayın tabanı `4c372138b7d652b1921e96ef9158b32b05c05fc8`. Native compare, U07 yayın makbuzundan iki commit ileri ve yalnız Foundation yollarında değişiklik gösterdi; o değişiklikler korunur. Kullanıcı önce U08 yayınını doğrulamayı, sonra kayıtlı araştırmaya devamı onayladı. Bu checkpoint yeni davranış koşusu değildir.
+## Gerçek yayın
 
-Özgün ZIP SHA-256 `4a1eda333c689efe90f51d34822bb0d2e3daa29f829337d79a83b851ab1de0ca`. Read-only validator 21 aday dosyayı, altı baseline kopyasını, 12 ham arşiv üyesini ve source/SPEC/probe/RESULT/effect bağlarını doğruladı. HERMES probe'u yeniden çalıştırılmadı. Raw manifest/ARTIFACT-CHECKS ve source metinlerindeki local/not-published alanları ilk teknik turun tarihsel kaydıdır; güncel yayın hükmü bu üst bölümdedir.
+İçerik commit'i **`e30f6ee6a027ec247fd3dff6cb28f9a3d7ade1ca`**, parent `4c372138b7d652b1921e96ef9158b32b05c05fc8`, tree `e748b074612e24c055fd258c80e9ba1f56f2e8f2`. Parent, U07'den sonraki iki Foundation commit'ini içerir; bunlar korunur. Native compare ahead_by=1, behind_by=0; **21 yol, 14 yeni ve 7 güncelleme; silme/taşıma yok.** Yalnız HERMES package ve CATALOG Hermes satırı değişti.
+
+Ref güncellemesinden hemen önce main yeniden okunup aynı parent doğrulandı. `update_ref(main, force=false)` sonrasında gerçek `git/ref/heads/main`, yukarıdaki içerik commit'ini döndürdü. Ardından bağlı immutable commit'ten STATE tam metni geri okundu. Bu makbuz yalnız PUBLICATION üzerinde bir sonraki kayıt güncellemesidir; kendi gelecek commit kimliğini tahmin etmez. Onun gerçek main/ref/diff/content kontrolü ayrıca yapılır. Branch/PR veya force push yoktur.
+
+## İçerik ve sadakat doğrulaması
+
+Teslim ZIP SHA-256 `4a1eda333c689efe90f51d34822bb0d2e3daa29f829337d79a83b851ab1de0ca`. Read-only validator 21 aday dosyayı, altı baseline kopyasını, 12 ham arşiv üyesini ve source/SPEC/probe/RESULT/effect bağlarını doğruladı. Hiçbir HERMES probe'u yeniden çalıştırılmadı.
+
+21 dosyanın içerik kimliği yerel hazırlanmış dosyalarla bağlandı: yedi current Hermes girişinin blob/boyutları native directory tree'den; note23 ve coverage tam dosya geri okumalarından; 11 evidence dosyası yerel hesaplanan ve remote bağlı **`6eab7e183ea213693edc466d715f829fe5ec9fed`** alt-ağaç eşitliğinden doğrulandı. CATALOG'un beklenen blob'u `74025c4fef92c79907364f9e31c2a00a79f0de83`, bütün üst ağaçlar yeniden hesaplanıp remote root ile eşleştirilerek bağlandı. Ağacın eşitliği ad/mod/blob kimliklerini kapsar; yalnız dosya varlığı kontrolü değildir.
+
+**11 dosya özgün teslimle byte-eşittir:** araştırma, kaynak defterleri, SPEC, RESULT, MANIFEST, artifact kaydı, raw arşiv, NOT RUN, note23 ve coverage. **10 dosya yalnız yayın/güncel yetki devri için uzlaştırıldı:** current entries/map, CATALOG Hermes satırı, evidence README/PUBLICATION. Aday aktarımda fark edilen note23 ve katalog metin sapmaları main ilerletilmeden özgün/beklenen byte'lara düzeltildi; beklentiler hatalı aktarımı onaylamak için değiştirilmedi.
+
+CATALOG'da HERMES satırı dışındaki byte'lar baseline ile aynı; native compare 1 addition / 1 deletion gösterdi. Foundation, soul-context, AGENT/agent-control, explorations, diğer studies, HERMES METHOD, notes01–22, eski evidence ve synthesis01–03 diff'te yoktur. Synthesis subtree `49d86a6d6c70317c2098b6f9153e8cfe02c4f43d` ve eski evidence subtree kimlikleri korunur.
+
+| Yüzey | Kimlik / gerçek okuma |
+|---|---|
+| STATE | `47b546f9af6ce8b4630e8c6fb226c75c748fe5ca`; main sonrası tam metin geri okuma |
+| Note23 | `063c70da529aca3bf2abc5378a9cfdc8bde3365c`; aynı içerik commit'inden tam metin |
+| Coverage | `d42ad4fd0474c085aa1fc13ad1f8081a6b22ff40`; tam metin |
+| RESULT | `7fa940557140c3c2ea82546caffc906fa65548b6`; 2.840 byte; native/raw eşit ve evidence-tree üzerinden bağlı |
+| RESEARCH | `cbe68154bdf92a32eaec136c9104bd8da8922eb9`; 20.038 byte; yerel tam okuma + tree eşitliği |
+| Raw archive | `1a6bdb8690a1c0cfe7dcadd622148ad0b74939dd`; 11.352 byte, 12 üye; create_blob sonucu da eşleşti |
+
+Raw RESULT SHA-256 `91833c4ae0b9f229a1c82f6edaa4a25bfc9b39ebc061c9e1811dbe32247dbfa0`; arşiv SHA-256 `4160254a832787443c170dc579fbc8eb043aba6915034f60ef2a70a71b9f23e0`. Uzak binary yeniden indirilip çalıştırılmadı. Hash/tree/parse doğrulaması aktarım sadakatidir, semantik doğruluk veya actual gateway/transport/network/SessionDB/model doğrulaması değildir.
+
+## Tarihçe ve devam yetkisi
+
+MANIFEST, ARTIFACT-CHECKS, SOURCES, RESEARCH ve eski STATE tarihçe bölümündeki local/unpublished/NOT PUBLISHED alanları **ilk teknik turun korunmuş kaydıdır**. Güncel U08 yayını bu üst bölümde doğrulanmıştır; eski capability eksikliği artık güncel engel diye kullanılmaz. Write eylemlerinin neden tekrar sunulduğu teşhis edilmez.
+
+Yeni oturum STATE/INDEX → note23 → U08 kaynak/kanıt yolu üzerinden U08'i geri kazanabilir; eski sohbet ZIP'i gerekmez. Önceki U04–U07 yayınları yeniden yapılacak iş değildir. B01–B03 ve N00–N02 yeniden üretilmedi; Q40/Q42/Q48/Q50 dahil açık doğrulamalar kapanmadı. Kullanıcının bu tur onayladığı sırada, yayın ve makbuz doğrulaması sonrası Q47 occurrence/late callback/claim/rearm araştırmasına, ardından Q49 run_job/context'e devam yetkisi vardır. Bu makbuz Q47'nin yapıldığını söylemez.
 
 ---
 
