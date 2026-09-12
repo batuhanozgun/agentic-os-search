@@ -1,65 +1,71 @@
-# Research plan — staged assimilation, v0.3
+# Research plan — staged assimilation, v0.4
 
-**Updated:** 2026-09-12. Campaign ACTIVE/PARTIAL. This is a revisable dependency plan, not a fixed turn count or a requirement to build every conceivable test. STATE controls current authorization.
+**Updated:** 2026-09-13. Campaign ACTIVE/PARTIAL. A revisable dependency plan, not a fixed turn count or a demand for endless tests. STATE controls current authorization.
 
-## Progression and exits
+## Progression
 
-| Unit | Research object | Standing / exit |
+| Unit | Object | Standing and remaining boundary |
 |---|---|---|
-| U00 | Original video/paper source intake, native maps, initial validity audit | Complete at recorded intake depth; full audio fidelity and experimental debts remain. |
-| U01-A | Classification candidate/evaluator/selection lifecycle | Bounded source characterization complete; original P01–P07 not executed. |
-| U01-B | TerminalBench optimizer plus separate selected agent | Bounded source characterization and eight limited diagnostic groups complete; five negative controls discriminated. Full runtime/historical validity not established. Note05–07 + SOURCES/CHECKS. |
-| U02-A | Video responsibilities 1–6: instructions, context delivery/management, tool interface, environment and durable state | NEXT. Source-native mechanism, ownership, transfer/failure boundaries and primary grounding per responsibility; no six-layer taxonomy. |
-| U02-B | Responsibilities 7–10 plus separate evolution loop | Pending. Orchestration, subagents, skills/procedures, verification/observability, and how evidence changes the system. |
-| U03 | Three experimental families and primary comparison claims | Pending. Historical identities, exposure, populations, budgets, uncertainty and source-to-release differences separately resolved or bounded. |
-| U04 | Native operating/change models and selective cross-study comparison | Pending. Preserve normal/failure paths and residual cross-cutting mechanisms; do not wait for all HERMES work to end. |
-| U05 | Rival explanations, holdouts and justified probes | Partially informed by U01-B diagnostics, not complete. No-change/simpler alternatives and actual efficacy/causality remain open. |
-| U06 | Current Foundation and separate SOUL/DevOS projection | Pending. Reuse applicability, nontransferable parts, authority and verification requirements; no automatic adoption. |
-| U07 | Reverse omission/distortion/freshness audit and compact core | Pending. Challenge omitted source regions and decide bounded closure or reopen. |
+| U00 | Original video/paper intake, native maps, initial validity audit | Complete at intake depth; media fidelity and historical experiment debts remain. |
+| U01-A | Classification candidate/evaluator/selection | Source characterization complete; original P01–P07 unrun. |
+| U01-B | TB optimizer and separate selected artifact | Bounded characterization plus eight limited diagnostic groups/five controls; not live/historical validation. |
+| U02-A | Video 1–6: instructions, delivery/management, tool interface, environment, durable state | Complete as source-grounded responsibilities and interactions. Notes08–10; selected primary docs/media checks; no new application execution. |
+| U02-B | Video 7–10 and separate evolution loop | NEXT. Ownership, handoffs, procedures, verdicts and evidence-driven change; normal/adverse paths and primary grounding. |
+| U03 | Three experiment families and primary comparators | Pending. Historical identity/exposure/populations/budgets/uncertainty and release correspondence separately bounded. |
+| U04 | Full native operating/change synthesis and selective study comparison | Pending. U02-A's six-responsibility working model is not this final synthesis. |
+| U05 | Rival explanations and justified probes | Informed by U01-B and U02-A cases, not complete. Actual efficacy/causality and no-change alternatives remain open. |
+| U06 | Current Foundation and separate SOUL/DevOS projection | Pending. Fresh project state and reuse conditions required; no automatic adoption. |
+| U07 | Reverse omission/freshness audit and CORE | Pending. Re-enter omitted regions, evaluate closure or reopen. |
 
-## Immediate U02-A route
+## Immediate U02-B route
 
-Read Note01, original SOURCE-LEDGER and the recorded source representations. Recover the video's approximate 04:16–16:13 passages. Use original media for exact/disputed wording; a third-party transcript and chapter-frame checks do not establish every spoken assertion. Keep unavailable audio evidence explicitly unavailable rather than repairing it from memory.
+Reopen Note01 and original SOURCE-LEDGER, then source passages approximately 16:13–28:00. Preserve the author's four chapters and separate evolution loop: orchestration; subagents; skills/procedures; verification/observability; feedback-driven harness change. Use original media for contested exact claims; a derivative transcript is not an exact audio oracle.
 
-Work in meaning-bearing transfers, not six isolated buzzword summaries: instruction→applicable rule; source→selected context; compaction→retained meaning; schema→admitted action; environment observation→capability claim; stored state→correct continuation. For each, preserve source-native explanation first, then a primary mechanism/positive case, competing explanation or failure, control ownership, and evidence limits.
+First reconstruct what the author actually assigns to each responsibility. Then trace one coherent path: work allocation → delegated execution → result/evidence → verification or escalation → continuation/acceptance → possible change proposal. Record which actor owns unfinished work and which authority can accept or stop it. A well-formed response, a completed subordinate task and a valid decision are not assumed equivalent.
 
-Existing U01-A/B cases are now bounded inputs, not universal facts about all harnesses. Selectively recover relevant context/knowledge study findings and their primary sources when they answer a named question; do not bulk-load the library. No new Foundation taxonomy, architecture or host execution is authorized by this step.
+Select primary dependencies only for unresolved questions. Candidate routes include documented scheduler/checkpoint behavior, actual subagent handoff contracts, a primary skills format, and telemetry/verifier mechanisms. These are discovery directions, not sources already read or a fixed technology stack. Use U01-A/B only within their evidence bounds; use U02-A's replay and context cases to ask better questions, not to predetermine answers.
 
-U02-B remains separately visible: orchestration (16:13), subagents (18:11), skills/procedures (20:30), verification/observability (22:19), evolution loop (~25:14 onward). These are approximate source anchors from U00, not fresh audio-alignment claims.
+For each chapter: native claim, implementation/contract mechanism, inputs/outputs, owner, normal path, adverse path, positive use conditions and limits. The evolution loop additionally needs the target of change, feedback source, evaluator independence/validity, selection and acceptance. It may expose objective/model/source changes or component removal as alternatives to adding harness complexity.
+
+**Exit:** a source-grounded note or coherent split, with ownership/evidence transfers and concrete next work. U03 is the logical following experiment audit, unless a newly decisive source gap justifies reordering. Do not silently start deployment or demand all residual runtime debts close first.
 
 ## Question register
 
-| ID | Question | Current scope and unresolved boundary |
+| ID | Question | Current progress and unresolved boundary |
 |---|---|---|
-| Q01 | What is mutable/protected and mechanically enforced? | Both reference callers/priors read. Exact-class checks differ; cooperative tools are not proven hostile isolation. Real host boundaries open. |
-| Q02 | Can proposed changes affect evaluation/data/history? | Shared source, broad proposer tools, runtime module imports and effective dotenv override characterized. No exploit or historical manipulation demonstrated. |
-| Q03 | How are code, configuration, coverage and score bound? | Classification and TB source paths traced; TB B01–B04/B07 demonstrate selected consumer/config semantics. Actual expected-task materialization, immutable artifacts and historical use open. |
-| Q04 | Which sources reconstruct the original experiments? | Modern reference/old selected output differ; Harbor tag narrowly recovered. Historical run/lock/config/result evidence still missing. |
-| Q05 | How does selected environment bootstrap reach the model? | Full helper/caller read; B05–B06/B08 test local generation/parser. Actual first request, benefit, compatibility and fallback usefulness open. |
-| Q06 | Do video boundaries explain responsibilities without hiding interactions? | U00 map only; U02-A/B next. Do not force ten chapters into a universal stack. |
-| Q07 | What causes improvement? | Source-informed diagnostics do not test efficacy. Proposer prior, budget, environment, baselines, selection and history remain rivals. |
-| Q08 | What supports unseen-task/model transfer? | Three experimental families remain separate. More TB trials on same tasks are not held-out evaluation. Classification exposure and math ambiguities remain open. |
-| Q09 | What are total costs and regression risks? | TB usage and success populations differ mechanically; image/main accounting paths source-read. No real total-spend or quality/cost comparison. |
-| Q10 | What separates candidate selection from accepted system change? | Two optimizer mechanisms characterized. Neither supplies SOUL acceptance authority. U04/U06. |
-| Q11 | Do source/trace/history views retain their meaning? | Partial snapshot, protocol placeholder, persisted comparator and metric populations now concrete cases. Model interpretation and full trace recovery open. |
-| Q12 | When remove machinery, change model/objective, or do nothing? | Novelty/candidate quotas are search priors, not acceptance guarantees. Simpler/no-change alternatives remain in U05. |
-| Q13 | Does useful behavior survive restart/environment/caller changes? | Caller timeout differences, shared names, artifact/dependency versions characterized. Full remote cleanup, restart and effect receipts open. |
-| Q14 | What did the current model omit or distort? | Same-researcher cross-reading and local negative controls only. Later reverse-source/independent challenges remain open. |
+| Q01 | What is mutable/protected and enforced? | U01 callers/priors and U02-A executor-scoped contracts; actual host enforcement unverified. |
+| Q02 | Can a proposed change affect its own evaluation/history? | Shared capabilities and config boundaries characterized. No exploit or historical manipulation demonstrated. |
+| Q03 | How are code/configuration/coverage/score bound? | U01 source and selected B probes; expected-task producer, immutable artifacts and historical use still open. |
+| Q04 | Which source represents the original experiment? | Modern reference, selected artifact and current docs kept distinct; historical run/lock/data records still missing. |
+| Q05 | Does bootstrap reach and help the actual model? | Helper/parser bounded; actual first request, compatibility and net benefit open. U02-A distinguishes observation from capability. |
+| Q06 | Are video responsibility boundaries adequate? | Chapters 1–6 grounded; cycles and shared ownership visible. Chapters 7–10/evolution next; no universal taxonomy accepted. |
+| Q07 | What causes improvement? | No causal efficacy experiment. Model, proposer prior, budget, environment, baselines and selection remain rivals. |
+| Q08 | What supports transfer to unseen work/models? | Three experiment families remain separate; more same-task trials do not establish held-out transfer. Historical ambiguities open. |
+| Q09 | What are cost and regression risks? | U01 accounting differences and U02-A caching/context/durability tradeoffs identified; no live total-cost frontier. |
+| Q10 | What separates selection from accepted change? | Optimizer mechanisms characterized; U02-A separates historical permission from current effect authority. U02-B/U06 still needed. |
+| Q11 | Does evidence retain meaning across views? | U01 cases plus U02-A loading, inclusion, compaction and media discrepancies. Actual model interpretation/fidelity experiments open. |
+| Q12 | When simplify, change model/objective, or do nothing? | Positive small-work alternatives and overhead preserved; no mandatory stack or novelty quota adopted. |
+| Q13 | What survives restart/changed conditions? | Source-grounded checkpoint/replay and effect/receipt/current-authority cases; no new runtime crash/recovery test. |
+| Q14 | What is omitted or distorted? | Same-researcher six-responsibility/revival checks; no independent audit or whole-source closure. U07 remains necessary. |
 
-## Execution policy and remaining probes
+## Evidence and probe discipline
 
-U01-B CHECKS contains actual B01–B08 results and local provenance limitations; U01-A CHECKS-NOT-RUN remains a different historical queue. Do not add their counts as one product score. Source excerpts, full file identities, native module execution, live model success and independent replication are different claims.
+U02-A REVIEW contains analytical cases and proposed discriminating observations, not a new test suite. Its only new execution was media identity/extraction. U01-A P01–P07 and U01-B B01–B08 remain separately scoped; never add those labels into one product confidence score.
 
-Prioritize further probes by decision value: producer-side expected-attempt manifest versus discovered directories; real caller failure-status propagation; snapshot use in the actual request; artifact/dependency compatibility; run-identity replay. A full paid benchmark is not a prerequisite to useful source research and is not automatically authorized. Before any new test define target, exact source, oracle, fixtures, side effects and the confidence it can legitimately add.
+Further probes should target a load-bearing uncertainty: actual instruction/request content; exact/eager/JIT context comparison; constraint retention after compaction; expected evaluation population; real caller timeout handling; effect reconciliation after partial failure; current-authority checks at resumed effects; dependency compatibility. Define exact source, oracle, fixture, side effects and legitimate confidence before running anything. No paid or remote benchmark is automatic.
 
-## Primary-source expansion queue
+## Retained primary experiment/comparator queue
 
-Retain ACE (2510.04618), GEPA (2507.19457), Meta Context Engineering (2601.21557), MemEvolve (2512.18746), AFlow (2410.10762), and needed Terminus-KIRA/Harbor/verifier sources. Their listing is not reading. The math-model holdout/search-size and classification search-budget discrepancies in Note02 remain unresolved. Neither later code defaults nor a smoke success repairs a historical protocol ambiguity.
+ACE (`2510.04618`), GEPA (`2507.19457`), Meta Context Engineering (`2601.21557`), MemEvolve (`2512.18746`), AFlow (`2410.10762`) and needed Terminus-KIRA/Harbor/verifier sources remain candidates, not already-read comparative evidence. The math model-holdout/search-size and classification search-budget discrepancies in Note02 remain unresolved. Current docs, modern defaults or new smoke runs do not repair historical ambiguities.
+
+Before U06, freshly recover Foundation and DevOS authority/state. Existing studies can be reopened selectively through catalog/META/evidence; HERMES need not finish before its bounded results are useful. Reuse metadata never authorizes adoption.
 
 ## Revision log
 
-v0.1/U00: prioritize candidate/evaluator boundaries before an architecture-like component summary.
+v0.1/U00: inspect candidate/evaluator boundaries before treating source chapters as an architecture.
 
-v0.2/U01-A: split classification and TerminalBench source units; preserve concrete identity/coverage/exposure/representation questions and all validation debts.
+v0.2/U01-A: split classification and TB; preserve identity/coverage/exposure/representation questions.
 
-v0.3/U01-B: complete a bounded account of both TB optimizer and selected artifact; add limited source-informed probes rather than treating all observations as executed. Narrow the initial claim that timeouts are excluded after discovering caller-specific re-entry. Verify the apparently inconsistent CLI flag against the pinned dependency rather than declaring a bug. Keep compatibility/historical/runtime questions open. Split U02 into two coherent responsibility groups and return to the video instead of letting dependency defects or local testing consume the entire campaign. Do not demand every implementation debt close before broadening understanding, and do not erase those debts when doing so.
+v0.3/U01-B: characterize optimizer and selected agent, add limited probes, qualify timeout and CLI judgments with actual callers/dependencies; split U02 and return to operational responsibilities rather than unbounded bug hunting.
+
+v0.4/U02-A: complete the first six responsibilities using source-native anchors and selected primary mechanisms. Refine loading versus instruction existence, context computation versus semantic selection, executor scope, and checkpoint versus qualified continuation. Follow changed documentation routes rather than assuming historical page layouts. Keep the author's existing cautions attributed to the author. The six-part explanation is not a final architecture; proceed to coordination, procedures and verification/evolution. No older empirical debt is closed by this documentary analysis.
