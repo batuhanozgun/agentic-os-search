@@ -12,6 +12,7 @@ Foundation relevance below is a retrieval hint only. It does not assign a study 
 
 | Study | Type | Current status | Strongest current reuse signals | Foundation relevance hints | Start |
 |---|---|---|---|---|---|
+| `agentic-ai-systems-roadmap` | hybrid | discussion-open seed; source visual + initial comparative assessment registered; no deep-research campaign authorised | roadmap/coverage falsifier; research-gap discovery; strongest candidate seams are agentic evaluation infrastructure, evaluation–observability–governance control loop, model/runtime execution policy and deployment/resilience semantics; infographic taxonomy not adopted | Information/Work/Actors/Environment: broad provisional hints; relations/control strong; not Foundation taxonomy | `agentic-ai-systems-roadmap/META.md` |
 | `ai-knowledge-strategies` | focused-topic | bounded research complete; related follow-up linked | RAG, Knowledge Graph, Fine-Tuning, CAG, Long Context decision boundaries; knowledge/context mechanism selection; falsifiers and failure modes | Information: strong; Environment/Work/Actors: conditional cross-boundary relevance | `ai-knowledge-strategies/META.md` |
 | `anthropic-ai-native-sdlc-playbook` | external-target | bounded external-target research complete; architecture/adoption not authorised | agent-native software operating model; committed artifact chain; configuration evals; advisory→deterministic control stack; environment-tiered autonomy; transitive agent authority; production feedback/evolution loops | Work: strong; Actors: strong; Information: strong; Environment: strong/conditional; relations/control: strong later-phase relevance | `anthropic-ai-native-sdlc-playbook/META.md` |
 | `context-memory-harness-engineering` | focused-topic | bounded research complete; user evaluation pending in package state | context formation, memory lifecycle, harness/runtime/control, relationship to AI knowledge mechanisms | Information: strong; Environment: strong/conditional; Work & Actors: conditional | `context-memory-harness-engineering/META.md` |
@@ -30,6 +31,7 @@ Likely candidates to inspect first, depending on the exact node/problem:
 
 - `ai-knowledge-strategies`
 - `context-memory-harness-engineering`
+- `agentic-ai-systems-roadmap` when the question is whether retrieval/grounding/eval/version-tracking concerns expose a broader missing operational-evidence research seam; treat its infographic as a prompt, not evidence
 - `hands-on-large-language-models`
 - `gstack` when durable design/spec/review/release artifacts, context selection, memory/learnings, evidence formation, qualification/freshness, cross-stage handoffs or source→observation→standing pipelines are material; start at `gstack/META.md` / `CORE.md` and revalidate upstream again if current behavior beyond its recorded v1.80 checkpoint matters
 - `anthropic-ai-native-sdlc-playbook` when artifact identity/derivation, context/configuration surfaces, policy freshness, exact-target binding or production-observation→representation transitions are material
@@ -43,6 +45,7 @@ Potential candidates:
 
 - `public-apis`
 - `context-memory-harness-engineering`
+- `agentic-ai-systems-roadmap` as a gap/checklist seed for model/runtime policy, production integration, deployment, quotas, scaling and resilience; re-enter stronger studies before treating any item as missing
 - `hands-on-large-language-models` for executable environment/version binding cases
 - `gstack` for persistent browser/runtime capability, host/model/materialization distinctions, tool/install state, guarded actions, CI/runtime validity and production evidence; the study is closed but current upstream must be revalidated beyond its recorded checkpoint when load-bearing
 - `anthropic-ai-native-sdlc-playbook` for sandbox/permission/network/MCP/CI/production-state control examples and repo-state-vs-live-state falsifiers
@@ -52,6 +55,7 @@ Potential candidates:
 Potential candidates:
 
 - `multi-agent-patterns`
+- `agentic-ai-systems-roadmap` only as a discussion/gap prompt around planner–executor, human checkpoints, role coordination, orchestration and how they connect to evaluation/operations; do not duplicate existing coordination research without an unresolved question
 - `gstack` for user approval gates, authority vs effect power, delegation, multi-agent/cross-model dispatch, work admission, review/QA/ship/deploy sequencing, durable handoffs, liveness and recovery
 - `anthropic-ai-native-sdlc-playbook` for real operational producer/reviewer/human-gate patterns, transitive agent authority, tiered autonomy, artifact/gate dependencies and recurring maintenance work
 - `context-memory-harness-engineering`
@@ -67,6 +71,7 @@ Potential candidates:
 - `gstack` — implemented pressure cases for exact binding/provenance, composite readiness/qualification, enforcement-point vs protected-effect scope, realized effect/readback, partial propagation, rollback/restoration and qualification loss at handoff seams
 - `anthropic-ai-native-sdlc-playbook` — policy/configuration/authority/effect and production-feedback control cases
 - `multi-agent-patterns` — coordination/authority/verification topology
+- `agentic-ai-systems-roadmap` — useful falsifier against clean layer ordering: governance, evaluation, observability and runtime policy may be cross-cutting controls rather than downstream components
 
 Candidate-study relevance never changes the active Foundation authorization or acceptance state.
 
@@ -78,6 +83,7 @@ Potential candidates to inspect selectively:
 - `anthropic-ai-native-sdlc-playbook` — managed settings, Hooks, permissions, sandboxing, managed MCP, runtime telemetry, configuration evals, incident loops
 - `context-memory-harness-engineering` — broader context/memory/harness boundaries
 - `multi-agent-patterns` — coordination and verification topology
+- `agentic-ai-systems-roadmap` — seed for checking whether evaluation/observability/model-policy/deployment concerns deserve dedicated research before architecture is fixed
 
 Current project authorization still controls whether such design/architecture work may begin.
 

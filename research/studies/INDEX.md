@@ -48,6 +48,7 @@ Do not load every study merely because the library exists.
 |---|---|---|
 | Scan all known candidate studies | `CATALOG.md` | selected package `META.md` |
 | Understand package creation/metadata rules | `PACKAGE-CONTRACT.md` | root `../INDEX.md` |
+| Visual/practitioner roadmap as a discussion-driven research-gap trigger for agentic systems | `agentic-ai-systems-roadmap/META.md` | `STATE.md` → `INITIAL-ASSESSMENT.md` → `SOURCE-VISUAL.md` / image → related studies |
 | Knowledge access / representation / adaptation mechanisms | `ai-knowledge-strategies/META.md` | `STATE.md` → `INDEX.md` / mechanism files |
 | Anthropic AI-native SDLC / agent-native software operating model | `anthropic-ai-native-sdlc-playbook/META.md` | `STATE.md` → `INDEX.md` → playbook research / source ledger / SOUL-DevOS assessment / falsifiers |
 | Context / memory / harness engineering | `context-memory-harness-engineering/META.md` | `STATE.md` → `INDEX.md` / cross-layer synthesis |
@@ -76,6 +77,8 @@ The `anthropic-ai-native-sdlc-playbook` and `gstack` studies are both broad acro
 
 `gstack` is especially useful as an implemented pressure test for artifact handoffs, qualification/standing, authority vs capability, runtime/environment dependence, verification routing, production transitions and self-development. Its primary corpus is pinned and its closure revalidation only extends through the current-main commit recorded in its `META.md`; later current-state reuse requires another freshness check.
 
+The `agentic-ai-systems-roadmap` study is different: it is deliberately a **discussion/gap-discovery seed**. Its infographic is not accepted evidence or taxonomy. Its strongest current reuse value is to ask whether evaluation/observability/operational-control, model/runtime execution policy or deployment/resilience questions are genuinely missing, merely fragmented across existing packages, or later-phase concerns that should not yet become research programs.
+
 ## Design / architecture interaction
 
 When SOUL or Development OS design/architecture/implementation is later authorised:
@@ -91,6 +94,7 @@ Completion of a study never authorizes adoption.
 
 ## Current package list
 
+- `agentic-ai-systems-roadmap/`
 - `ai-knowledge-strategies/`
 - `anthropic-ai-native-sdlc-playbook/`
 - `context-memory-harness-engineering/`
@@ -99,5 +103,6 @@ Completion of a study never authorizes adoption.
 - `hermes-agent/`
 - `multi-agent-patterns/`
 - `public-apis/`
+- `recursive-prerequisite-discovery/`
 
 The library is expected to grow substantially. `CATALOG.md` should remain a compact discovery surface rather than a second synthesis corpus.
