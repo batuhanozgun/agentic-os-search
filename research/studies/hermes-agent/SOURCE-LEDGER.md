@@ -1,6 +1,14 @@
 # Hermes Agent — Kaynak ve yürütme rotası
 
-**2026-09-11 / plan v0.20; U07 yayın checkpoint'i.** [STATE](STATE.md) work authority. Primary `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`; current installed ürün değildir. Yeni U07 source study ve bounded real-SQLite queue execution önceki U06'dan ayrıdır; bu aktarım yeni araştırma/deney değildir. Eski koşular tekrar edilmedi.
+**2026-09-12 / U08 plan v0.21.** [STATE](STATE.md) work authority; yayın makbuzu [PUBLICATION](evidence/2026-09-12-cron-drain-receipts/PUBLICATION.md). Araştırma başlangıcı U07/v0.20; yayın tabanı `4c372138b7d652b1921e96ef9158b32b05c05fc8`. Bu aktarım yeni deney değildir. Primary `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`; current-version/binary doğrulaması değildir. Eski source ve koşular korunur.
+
+## U08 — actual drainer/CLI source ve bridge diagnostic
+
+[23](notes/23-CRON-DRAIN-RECEIPTS-AND-CANCELLATION.md) → [S01–S08/P01–P02](evidence/2026-09-12-cron-drain-receipts/SOURCES.md)/[SOURCES.json](evidence/2026-09-12-cron-drain-receipts/SOURCES.json) → [RESEARCH](evidence/2026-09-12-cron-drain-receipts/RESEARCH.md). Gateway startup/housekeeping/profile, scheduler drain, live/standalone send, CLI display ve jobs outcome/list selected-source. S07 upstream test full read NOT RUN. Büyük parent full byte/host execution yok.
+
+Yalnız tam `agent/async_utils.py` blob `2bc558fad21eeec736c0283cb7df86304349f222`, 2.049 byte çalıştırıldı. Gerçek asyncio/thread/local file; synthetic transport. B01–B03; N00 identity, N01/N02 fabricated observation-validator controls. Source SHA-256 `9e2dc6964bd826c1cd0a5b756e2031761933d96da76fc4804064121925f04ee7`; exact SPEC/probe/result/runtime/license/raw manifest [burada](evidence/2026-09-12-cron-drain-receipts/MANIFEST.json). Tek run; eski D/L/G/H koşularının tekrarı değil.
+
+B02 True iptalden önce yerel etki; B03 False iptalde terminal error. Actual enclosing send consumer/real network/duplicate/fallback ölçümü NOT RUN. U07 pending+None'ın jobstatus/CLI bağlantısı source inference, birleşik yeni SQL/host testi değil. Default search ref `31d0a2428e9db346d6781da66f5b37ff3e12def2` navigation only; pin yükseltilmedi.
 
 ## U07 — özgün araştırma ve yayın
 
@@ -39,3 +47,5 @@ A/B'nin aynı G/H ID'leri eş vaka değildir; L ile birleştirilmiş başarı sk
 U07 ilk yeni consumer: actual cron gateway delivery drainer/profile/transport ve queued/delivered/finished receipt; sonra occurrence/late callback/rearm ve run_job script/agent/context. Q40 actual DB/quiet history, Q42 startup preclaim/carrier/drain/actual admission explicit deferred. Q41 migration, Q43 worker/effect, Q07/Q22 wire, Q26/Q29 full worker, Q38 manual fidelity korunur. U07 queue full byte kimliği onları kapatmaz.
 
 [U06 PUBLICATION](evidence/2026-09-11-resume-admission/PUBLICATION.md) tamamlanmış yayındır; yeni [U07 PUBLICATION](evidence/2026-09-11-cron-scheduling-delivery/PUBLICATION.md) güncel yayın ile ilk yerel teslim sınırını ayrı taşır. HERMES dışında mutation yoktur.
+
+U08 current next source Q47 occurrence/late callback/claim/rearm, sonra Q49 run_job/context. Yukarıdaki U07 first-consumer cümlesi tarihsel birim sırasıdır. Q48/Q50 residual validation ve bütün eski borçlar NOT RUN olarak korunur.

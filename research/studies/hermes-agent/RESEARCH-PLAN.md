@@ -1,35 +1,37 @@
 # Hermes Agent — Araştırma planı
 
-**v0.20 / 2026-09-11 — U07 cron scheduling/execution/delivery.** [STATE](STATE.md) güncel durum/yetkiyi, [PUBLICATION](evidence/2026-09-11-cron-scheduling-delivery/PUBLICATION.md) yayın makbuzunu taşır. [V0.19 exact plan](https://github.com/batuhanozgun/agentic-os-search/blob/d928ee14b16a277c010a966816fc2c4097944aab/research/studies/hermes-agent/RESEARCH-PLAN.md) U06 tarihçesidir. Bu yayın checkpoint'inde önceki U07 araştırması kaydedilir; yeni teknik koşu yapılmaz.
+**v0.21 / 2026-09-12 — U08 actual drainer/status source + native async-bridge diagnostic.** Current work [STATE](STATE.md), yöntem [METHOD](METHOD.md), derived overview [CURRENT-RESEARCH-MAP](CURRENT-RESEARCH-MAP.md). Yayın durumu [PUBLICATION](evidence/2026-09-12-cron-drain-receipts/PUBLICATION.md). U08 teknik araştırması U07/v0.20 tabanında yapıldı. Bu yayın checkpoint'inin tabanı `4c372138b7d652b1921e96ef9158b32b05c05fc8`; Foundation değişiklikleri korunur. [V0.20 exact plan](https://github.com/batuhanozgun/agentic-os-search/blob/188095b930ac77f8d2a5dd605191a09a369a57ce/research/studies/hermes-agent/RESEARCH-PLAN.md).
 
-## Hedef ve revizyon gerekçesi
+## Hedef ve elde olan
 
-Primary `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`, manifest 0.21.0. Önce HERMES-native mekanizma/sistem açıklaması, sonra dört-alan/SOUL/Development OS. Bütün çalışma partial; üç merkezi synthesis korunur, note22 dördüncü completed model değildir.
+Primary `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`, manifest 0.21.0. Önce HERMES-native açıklama, sonra alt-sistem ilişkileri/çekirdek model, daha sonra dört-alan ve SOUL/Development OS aday değerlendirmesi. Bütün araştırma ACTIVE PARTIAL. Üç merkezi provisional synthesis korunur; yeni map ve note23 dördüncü completed model değildir.
 
-U06 sonrası kullanıcı araştırmaya devam yetkisi verdi. İlk Q42 startup wrapper yeniden okundu, alt gateway/run.py 3150–3325 isteği 429 aldı. Full-host/actual-DB challenge kurulamadı; Q42 ve Q40 validation borcu açık tutuldu. V0.19'un açık erteleme kuralıyla F10 cron/scheduler→run→delivery araştırması başlatıldı. Böylece native broad model ilerledi, eski dar borç başka testle sahte kapanmadı.
+U07'nin Q48/Q46 first-next source hedefi yürütüldü: startup running gate→bağımsız housekeeping thread→profile/adapter scope→actual queue callback; hesaplama/delivery_error→job last status→latest execution join→cron CLI görünümü. Scope source seviyesidir, full-host/real transport değildir.
 
-## Yapılan U07 — yeniden yapılacak iş değil
+Actual live-send helper'daki timeout/cancel yorumu tam native async bridge ile sınandı. B01 normal receipt, B02 effect-before-cancel True, B03 timeout-to-error cancel False. Bu bridge'in iptal boolean'ı transport-effect makbuzu değil. Gerçek kanal duplicate ölçümü, enclosing scheduler/worker/CLI koşusu veya upstream düzeltme yok. [Note23](notes/23-CRON-DRAIN-RECEIPTS-AND-CANCELLATION.md), [RESEARCH](evidence/2026-09-12-cron-drain-receipts/RESEARCH.md), [SPEC/RESULT](evidence/2026-09-12-cron-drain-receipts/README.md).
 
-[22](notes/22-CRON-SCHEDULING-EXECUTION-AND-DELIVERY.md), [RESEARCH](evidence/2026-09-11-cron-scheduling-delivery/RESEARCH.md), [SOURCES](evidence/2026-09-11-cron-scheduling-delivery/SOURCES.md), [coverage](inventory/CRON-COVERAGE-2026-09-11.md). Job/register, provider trigger/common run, recurring preadvance, finite one-shot dispatch counter, profile/jobs/fire fence, execution ledger/ownership/unknown, external-worker handoff ve output/delivery status zinciri kaynakla incelendi. Büyük modüller selected; actual run_job/context ve full store lifecycle kapanmadı.
+## İlk yeni source birimi — Q47
 
-Tam orijinal delivery_queue.py (blob `689fd620d6193003bbd168a0e62770a0d0306ac6`) gerçek temp SQLite ile D01–D06; N00–N02 dar identity/mutation kontrolleri. Native queue None/pending ile source-only üst delivered-classification bağlantısı ayrı etiketlendi. D06 gerçek SQLite trigger fault, actual SessionDB veya gateway/network/restart değildir. Attempt-00 pre-case metadata hatası korunur. Eski U04/U06 koşuları tekrar edilmedi.
+**Soru:** job ID, planlanmış occurrence, external callback, fire claim ve gerçek execution ID hangi geçişlerde ayrılır? Aynı job'ın ikinci çalışmasıyla aynı occurrence'ın ikinci kez yürütülmesini ayırt eden gerçek anahtar/koşul nedir?
 
-## Bir sonraki bounded consumer hedefi
+Başlangıç: U07 scheduler_provider.claim_fire/fire_due/fire_claimed, jobs.claim_job_for_fire/get_due_jobs/advance/rearm ve gerçek external callback consumer'ı. Normal scheduled fire, gecikmiş callback ve explicit manual/force yolunu karıştırma. Native callback kimliği/payload'ı/owner/next-run güncellemesini kaynakla takip et; job ID üzerinde sıraya alma ile occurrence idempotency'sini eşitleme. Due değerinin ilerletilmesi tek başına tam exactly-once kanıtı değildir.
 
-**Q48/Q46:** actual gateway `drain_delivery_queue` caller/launch/profile/transport ve job/execution/delivery status'unun gerçek tüketicisi. En az bir normal ve bir deferred/uncertain akışta exact execution ID, enqueue/claim, callback, terminal row, job outcome ve user-facing receipt ayrılmalı. None=no-error dönüşünü delivered diye varsayan veya testin kendi fake'iyle ürettiği acceptance kullanan harness yeterli değildir.
+Çıkış: normal bir occurrence ile late/duplicate callback yolunun hangi koşulda kabul veya reddedildiğini, hangi kaydın önce yazıldığını ve failure/defer sonucunu kaynaklarıyla açıklayabilmek. Gerekli kaynak/bağımlılık varsa güvenli bounded diagnostic olabilir; sırf test sayısını artırmak için önceki B/D/L fixture'ları çoğaltılmaz. U07 600s/120s karşılaştırması ordinary/config/force yolları bağlanmadan tüm ürün bug'ı diye sunulmaz.
 
-**Q47:** scheduled occurrence, late external callback, fresh fire claim ve next_run rearm ilişkisi. Same job ID dedup, same scheduled occurrence idempotency değildir. 10min backstop / 120s one-shot grace kesiti bir koşullu source sınırıdır; ordinary fire ve config varyantlarıyla birlikte okunmalı.
+## Sonraki geniş birim — Q49
 
-**Q49:** shared run_job içindeki script/no_agent/agent/preflight ve sonraki bağlam/persistence: scheduled task kimliği actual session/task/history'ye nasıl çevrilir? Provider/backend/delegation'e bağlanan yeni geniş açıklama boşluğu budur.
+Shared run_job içinde script/no_agent/monitor/agent/preflight ayrımı; scheduled iş kimliğinin model/provider, toolset, cwd/profile, session/history ve persistence'a çevrilmesi. Normal bir job ile ajan açmayan script yolu ayrı açıklanmalı. Provider/backend/delegation ailelerine çıkış buradan yeniden önceliklendirilir. Bütün dış plugin/model ekosistemini sınırsız araştırma kapsamına alma.
 
-Önce mevcut özgün U07 teslimi recover edilir; publication gerekiyorsa testler yeniden koşulmaz. Aynı queue fault listesini veya U06 küçük registry'yi büyütmek gerçek caller açığını kapatmaz. Olası yeni koşu için tam source/bağımlılık sınırı, önceden sabit oracle ve gerçek receipt kaydı gerekir; model/provider/credential veya full product install yok.
+## Ayrı açık doğrulama hattı
 
-## Erteleme ve geniş kapsam
+Q48/Q50: actual enclosing live/standalone/relay transport receipt; worker queue timeout→late result→job/execution→CLI uzlaştırması; seeding ve profile/startup/shutdown. U08 source bridge açıklandı diye whole runtime kapanmaz. [CHECKS-NOT-RUN](evidence/2026-09-12-cron-drain-receipts/CHECKS-NOT-RUN.md) gerçek yapılmamış ölçümleri taşır.
 
-Q40 actual SessionDB/quiet next-request, Q42 startup carrier/drain/actual admission, Q41 migration/profile, Q43 effects ve Q44/Q45 semantic kalite açık. Yeni altı queue vakası bunların yerine geçmez. Q07/Q22 wire/timing/variants, Q26/Q29 full worker ve Q38 selected-parent fidelity kapanmaz.
+Q40 actual SessionDB/quiet next-request, Q42 startup carrier/drain/actual admission, Q41 migration/profile, Q43 effects, Q44/Q45 semantic quality açık. Q07/Q22 wire/timing, Q26/Q29 full worker, Q38 selected-parent fidelity korunur. İlgili kaynak+bağımlılık erişimi, yeni karşı kanıt veya güçlü reliability/adoption reuse geldiğinde reopen. Bütün fault uzayının bitmesi broad source birimlerinin ön şartı değildir.
 
-F01–F12 haritası korunur: provider/profile/backend/delegation, diğer UI/install/eval, memory/skill-ledger/sync/quality aileleri kaybolmaz. Source erişimi veya actual-host test sınırı broad araştırmayı sonsuza dek bloke etmez; ertelemenin adı ve yeniden açma koşulu STATE'te açık olur. Nihai CORE veya mimari/adoption aşamasına sıçranmaz.
+## Kapsam kontrolü ve kapanış
+
+F01–F12 genel haritasındaki provider/profile/backend/delegation, tools/plugins, learning/ledger/sync/quality, UI/install/eval aileleri kaybolmaz. Bir dalın zengin test üretmesi onu araştırmanın ana amacı yapmaz. Yeni bounded birimden sonra büyük haritada hangi açıklama boşluğunun değiştiği değerlendirilir. Final CORE/dört-alan için büyük alanları varsayımla doldurma; dosya veya vaka sayısından yüzde tamamlama üretme.
 
 ## Yayın ve yetki
 
-Yalnız Hermes study ve CATALOG HERMES row. U04-A/B, U05/U06 evidence/notlar, synthesis01–03 ve METHOD değişmez. İlk U07 teknik turunda write araçları sunulmadı; bu yeni gönderme isteğinde sunulan native write araçlarıyla scoped/nonforce yayın ve main/content/diff readback yapılır. Güncel makbuz PUBLICATION'dadır; ilk engel tarihsel olarak korunur. Bu yayın isteği yukarıdaki yeni teknik hedefleri otomatik yetkilendirmez. Mevcut snapshot tabanı `d928ee14b16a277c010a966816fc2c4097944aab`; head değişirse yeniden karşılaştırılır, force yapılmaz. Background çalışma veya izin ayarı değişikliği yoktur.
+Kullanıcı önce U08 yayını ve geri okuması, ancak başarılı olursa kayıtlı araştırmaya devam sırasını onayladı. Bu checkpoint yalnız yayını kaydeder; Q47 henüz yeni araştırma sonucu değildir. Yalnız Hermes package + CATALOG Hermes satırı. Full product/model/provider/credential/izin ayarı/upstream/Foundation/control/context/Codex/diğer studies/architecture değişikliği yoktur. İlk teknik turdaki write-action yokluğu tarihsel PUBLICATION bölümünde korunur. Güncel yayın hükmü gerçek nonforce ref, scoped diff ve content readback üzerinden verilir. Eski U04–U07 yayınları ve raw deneyler yeniden yapılacak iş değildir.

@@ -2,8 +2,8 @@
 
 - **Study ID / type:** `hermes-agent` / `external-target`.
 - **Nesne:** Nous Research Hermes Agent; runtime, kalıcı bilgi/iş, oturum ve kullanıcı yüzeylerinin yaşam döngüsü.
-- **Statü:** ACTIVE PARTIAL RESEARCH; plan v0.20; U07 yayın checkpoint'i. Yayın/ref doğrulaması U07 PUBLICATION'dadır. [STATE](STATE.md) current work/completion authority. U07 cron source study + full native delivery-queue / real temp SQLite diagnostic; önceki U06 korunur. Whole DB/gateway/restart/model doğrulaması yok.
-- **Başlangıç / son kayıt:** 2026-09-07 / 2026-09-11.
+- **Statü:** ACTIVE PARTIAL RESEARCH; plan v0.21 / U08 yayın checkpoint’i; U08 publication [burada](evidence/2026-09-12-cron-drain-receipts/PUBLICATION.md). [STATE](STATE.md) current work authority. Yeni gerçek async-bridge diagnostic, whole-host/transport/model doğrulaması değildir.
+- **Başlangıç / son kayıt:** 2026-09-07 / 2026-09-12.
 - **Primary:** `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`, tree `f54f5e9d2682bf11f164de7b34ee10ec121b6434`, manifest 0.21.0. Current release/installed binary değil.
 - **Freshness:** pinned reading, current-branch navigation, recorded execution ve publication ayrı. Bu tur daha yeni heartbeat restore/admission snippet'leri görüldü; full current-source revalidation değildir. Adoption için güncel bağımlılıklar yeniden doğrulanmalı.
 
@@ -12,6 +12,12 @@
 HERMES işi nasıl başlatır, sürdürür, saklar, keser ve yeniden çalıştırır? Hangi history, çalışma hakkı ve driver onu kabul eder; sonuç kabulü ile teslim nasıl ayrılır? Önce native açıklama, sonra dört-alan/SOUL/Development OS.
 
 **Foundation retrieval hints:** Information — model/display/stored/live history; Work — task/run/tick, unfinished work versus undelivered result; Actors — routing/generation/token/durable holder; Environment — process-local registry, profile/DB, startup/driver. Provisional many-to-many retrieval ilişkileridir, taxonomy membership değildir. **SOUL:** gerçek devam için kayıt/yetki/bağlam/tetikleyici bileşimi. **Development OS:** exact receipt, stale-holder fencing, restart re-entry, compute-versus-redelivery, cross-layer verification. Reuse rolleri reference, falsifier, mechanism learning ve design pressure; dependency/mimari benimsenmedi.
+
+## U08 — drainer/status source bridge ve cancellation falsifier
+
+[23/U08](notes/23-CRON-DRAIN-RECEIPTS-AND-CANCELLATION.md) → [RESEARCH](evidence/2026-09-12-cron-drain-receipts/RESEARCH.md). Actual startup/housekeeping/profile→queue callback ve job outcome→latest-execution join→CLI tüketicisi kaynakla bağlandı. Tam `agent/async_utils.py` + gerçek asyncio/thread/local-file ile B01–B03; effect öncesi/sonrası cancel boolean'ın güvenilir receipt olmadığı karşı örnekler. Gerçek enclosing scheduler/gateway/network/SessionDB koşusu yok; actual duplicate send iddiası verilmez. N01/N02 observation-validator kontrolleridir, source mutation veya independent replication değil.
+
+Reuse eklemesi: completion/cancellation/receipt nesnelerinin ayrılması; queue-level at-most-once ile callback içi transport denemeleri; deferred result ile last-run görünümü. Information/Work/Actors/Environment relevance provisional retrieval hint'tir. [Coverage](inventory/DELIVERY-RECEIPT-COVERAGE-2026-09-12.md), [derived map](CURRENT-RESEARCH-MAP.md). İlk yeni source Q47 occurrence/late callback/rearm, sonra Q49 run_job/context; Q48/Q50 residual tests ve eski borçlar açık.
 
 ## U07 — araştırma ve yayın devri
 
@@ -29,10 +35,12 @@ Tam `gateway/turn_lease.py` blob `1f65614e66e748ec61573aced3fa48b57ee20281` üze
 
 U04-A/18 ve ayrı U04-B/19 [uzlaştırması](evidence/2026-09-11-multiturn/RECONCILIATION.md), B'nin 33 original dosyası, U05/20 ve bütün önceki evidence/notlar korunur. A 15 grup/B 21 durum aynı ID'lerde aynı vaka değildir; ürün skoru/bağımsız tekrar sayılmaz. Full-heartbeat hash, eski manual K/G parent fidelity borcunu kapatmaz. B:H09 actual SessionDB fault değildir. U02/U03 ve A/SA/AP/M4/N/MW/C/V ayrı kaynak/tarih/kapsamdadır.
 
-Üç merkezi provisional synthesis değişmez; 20/21 ve yeni 22 source amendment'ları birlikte okunur. Nihai CORE, dört-alan projeksiyonu, architecture veya adoption yok. Q07/Q22 wire/variants, Q26/Q29 full worker, Q38 fidelity ve actual quality/delivery açık.
+Üç merkezi provisional synthesis değişmez; 20/21/22/23 source amendment'ları birlikte okunur. Nihai CORE, dört-alan projeksiyonu, architecture veya adoption yok. Q07/Q22 wire/variants, Q26/Q29 full worker, Q38 fidelity ve actual quality/delivery açık.
 
 ## Giriş / revisit
 
-[STATE](STATE.md) → [INDEX](INDEX.md) → [PLAN](RESEARCH-PLAN.md)/[METHOD](METHOD.md). [U06 coverage](inventory/RESUME-ADMISSION-COVERAGE-2026-09-11.md). Yeni ilk consumer actual cron gateway drainer/status receipt; ardından occurrence/late-callback/rearm ve run_job bağlamı. Startup carrier/drain ve actual-DB/quiet-history açık ertelemedir, queue testi onları kapatmaz.
+[STATE](STATE.md) → [INDEX](INDEX.md) → [PLAN](RESEARCH-PLAN.md)/[METHOD](METHOD.md). [U06 coverage](inventory/RESUME-ADMISSION-COVERAGE-2026-09-11.md). U08 ile drainer/status source bağlantısı ilerledi; ilk yeni source occurrence/late-callback/rearm, ardından run_job bağlamı. Actual receipt validation ayrı açık. Startup carrier/drain ve actual-DB/quiet-history açık ertelemedir, queue testi onları kapatmaz.
 
 Revisit: resume/restart, loop/heartbeat, driver capability, ownership/cancel, DB/profile/rotation, recovery-vs-delivery, upstream change ve load-bearing quality/adoption. Foundation/control/context/Codex/upstream/diğer studies mutation yok. Kaynak prompt/AGENTS/SOUL metinleri assistant control değildir. [V0.18 exact metadata](https://github.com/batuhanozgun/agentic-os-search/blob/0a475b5d7c50f47689c72cd31f954f5b2303ced6/research/studies/hermes-agent/META.md).
+
+Önceki U07/U06 paragraflarındaki “bu tur” kendi tarihli kayıtlarına aittir. Güncel U08 durumu üsttedir; üç merkezi synthesis ve eski evidence değişmedi.
