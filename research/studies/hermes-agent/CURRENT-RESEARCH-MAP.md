@@ -1,28 +1,29 @@
 # HERMES — Güncel araştırma haritası
 
-**Derived orientation / 2026-09-12 / U08 yayın checkpoint’i.** Güncel iş/yetki [STATE](STATE.md), sıra [PLAN](RESEARCH-PLAN.md), yöntem [METHOD](METHOD.md), kanıt [INDEX](INDEX.md)'tedir. Bu dosya ikinci authority veya yeni merkezi synthesis değildir; ayrıntıların büyük resmi gizlememesi için kısa erişim haritasıdır. U08 yayın durumu ve ilk başarısız girişim ayrımı [PUBLICATION](evidence/2026-09-12-cron-drain-receipts/PUBLICATION.md)'dadır.
+**Derived orientation / 2026-09-12 / U09.** Authority [STATE](STATE.md), sıra [PLAN](RESEARCH-PLAN.md), yöntem [METHOD](METHOD.md), kanıt [INDEX](INDEX.md). Bu harita ikinci authority veya dördüncü merkezi synthesis değildir.
 
-## Ana yön
+## Büyük yön
 
-Kaynak mekanizmaları → HERMES'in doğal alt-sistem açıklamaları → alt-sistem ilişkileri → bütünlüklü çekirdek açıklama → daha sonra dört-alan ve SOUL/Development OS aday değeri. Kapanış dosya/test sayısı veya tüm olası hataların bitmesiyle ölçülmez. Bilinen büyük açıklama boşlukları varken final CORE üretilmez.
+Kaynak mekanizmaları → doğal alt-sistemler → ilişkileri → çekirdek açıklama → daha sonra dört-alan/SOUL/Development OS aday değeri. Bütün repository'yi kör okumak, tüm testleri çalıştırmak veya bir dalın bütün hata uzayını bitirmek kapanış ölçütü değildir. Büyük ilgili mekanizmalar açıklanmadan final CORE üretilmez.
 
-| Araştırma hattı | Elde olan | Statü / sonraki ihtiyaç |
+| Hat | Elde olan | Açık kalan |
 |---|---|---|
-| Öğrenme, bellek, beceri değişimi | Notes02–15; synthesis01 | Birçok mekanizma derin; actual learning quality, ledger/sync/curator köprüleri ve full worker açık |
-| Bir normal ajan turu | Note16/U02; synthesis02 | Girdi→bağlam→model/tool→kayıt→cevap kaynak modeli; tüm arayüz/backend/wire varyantları değil |
-| Kalıcı görev/sahiplik | Note17/U03 | Task/run/claim/terminal kabul; full dispatcher/OS/quality ve selected-parent fidelity açık |
-| Çok turlu devam | Note18/U04-A, ayrı19/U04-B; synthesis03 | Goal/loop/heartbeat ayrımı; eski iki deney yayını ayrı ve tamamlanmış |
-| Oturum geçmişi/hak/restart | Notes20–21/U05–U06 | Koşullu history, DB/local lease, recovery/driver kaynakları; Q40/Q42 gerçek entegrasyon borcu açık |
-| Zamanlanmış iş | Note22/U07 | Job/trigger/execution/delivery ayrımı; native queue/SQLite diagnostic; bütün cron değil |
-| Gerçek gönderici ve sonuç görünümü | **Note23/U08** | Housekeeping/profile/drain/CLI source bağlı; cancellation ayrımına gerçek bridge karşı örneği. Whole transport/host koşusu değil |
-| Geniş kalan aileler | F01–F12 coverage | Provider/profile/backend/delegation, araç/eklenti, diğer UI, install/update/eval açıklamaları yeniden önceliklendirilecek |
+| Öğrenme/bellek/beceri | Notes02–15; synthesis01 | Quality, ledger/sync/curator köprüleri ve full worker |
+| Normal tur/bağlam/oturum | Note16/U02; synthesis02 | Bütün interface/backend/wire varyantları |
+| Kalıcı görev ve sahiplik | Note17/U03 | Full dispatcher/OS/quality, selected-parent fidelity |
+| Çok turlu devam | Note18/U04-A, ayrı19/U04-B; synthesis03 | Gerçek tick-turn/semantic acceptance ve tüm driver entegrasyonu |
+| History/lease/restart | Notes20–21/U05–U06 | Q40/Q42 actual DB/quiet history/startup admission |
+| Zamanlanmış iş ve teslim | Note22/U07 | Genel run_job/occurrence köprüleri; gerçek external transport |
+| Gerçek drainer/durum/iptal | Note23/U08; **yayını tamamlandı** | Q48/Q50 full-host/status/cancellation/receipt entegrasyonu |
+| Planlanan occurrence ve kabul | **Note24/U09 source-only** | Outbound job+time ile inbound job-only farkı ve finish sonrası claim kaynak izi; gerçek NAS/store/process/clock ölçümleri açık |
+| Geniş kalan aileler | F01–F12 haritası korunur | Provider/backend/delegation, tools/plugins, learning/sync/quality, diğer UI/install/eval |
 
 ## Yakın sıra
 
-**Şimdi kaydedilen:** Q48/Q46 source bridge ve Q50 cancellation karşı örneği. **İlk yeni araştırma birimi:** Q47 — aynı job kimliği, planlanan occurrence ve geç callback nasıl ayrılıyor? **Sonra:** Q49 — zamanlanmış iş hangi script/ajan/model/oturum/bağlama dönüşüyor?
+**Bu tur izlenen sıra:** U08 publish/readback → Q47 occurrence/admission kaynak birimi → U09 kayıt/geri okuma. Q47 kaynak olarak ilerledi; yeni davranış koşusu yok. **İlk sonraki geniş source Q49:** accepted scheduled snapshot, shared run_job içinde hangi script/no_agent/monitor/agent/model/profile/tools/session/history'ye dönüşüyor?
 
-Q40/Q42 ve Q48/Q50 gerçek entegrasyon doğrulamaları ayrı borçtur; açıklanmış kaynak mekanizmasını değersiz yapmaz, güçlü güvenceye de dönüştürmez. Geniş araştırmayı sonsuza kadar aynı test ailesine kilitlemeden, ilgili tam-source/bağımlılık erişimi veya load-bearing reuse gerektiğinde yeniden açılır.
+Q47'nin gerçek late-callback/store/NAS doğrulaması, Q40/Q42 ve Q48/Q50 ile ayrı açık validation hattıdır. Erteleme kapanış değildir; gerekli source/bağımlılık, yeni karşı kanıt veya güçlü reliability/adoption ihtiyacında yeniden açılır. Aynı küçük testleri çoğaltmak yeni açıklama yerine geçmez.
 
-## Üç bitirme düzeyini ayır
+## Yayın ve bitirme sınırları
 
-Bir kaynak biriminin açıklanması, bütün alt sistemin doğrulanması değildir. Bir alt sistem sentezinin oluşması, bütün HERMES araştırmasının kapanışı değildir. Yayının tamamlanması da yeni davranış kanıtı değildir. Üç merkezi sentez provisional olarak korunur; bu map onları tamamlandı diye yeniden etiketlemez.
+[U08 makbuzu](evidence/2026-09-12-cron-drain-receipts/PUBLICATION.md) doğrulanmıştır. [U09 makbuzu](evidence/2026-09-12-cron-occurrence-admission/PUBLICATION.md) current ref/content hükmünü taşır. Publication bir davranış deneyi değildir. Bir bounded source biriminin açıklanması, bütün alt-sistemin veya bütün HERMES'in tamamlanması değildir. Eski evidence/notlar ve üç provisional synthesis yerinde kalır; final CORE/dört-alan/adoption yoktur.

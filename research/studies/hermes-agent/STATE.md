@@ -1,68 +1,55 @@
 # Hermes Agent — STATE
 
-**U08 / plan v0.21 — CRON DRAIN RECEIPTS AND CANCELLATION.**
-**Araştırma başlangıcı:** `188095b930ac77f8d2a5dd605191a09a369a57ce`; orada U07 / v0.20 yayımlıdır.
-**Yayın tabanı:** `4c372138b7d652b1921e96ef9158b32b05c05fc8`; U07 tabanından sonraki iki Foundation commit’i korunur. HERMES/CATALOG/control değişmedi.
-**Araştırma:** ACTIVE PARTIAL RESEARCH; bütün HERMES tamamlanmadı.
-**Tarih:** 2026-09-12. Bu checkpoint özgün U08 tesliminin yayınıdır; yeni deney veya yeni teknik araştırma sonucu değildir. [U08 PUBLICATION](evidence/2026-09-12-cron-drain-receipts/PUBLICATION.md).
-**Primary:** `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`, manifest 0.21.0; current release veya kurulu binary hükmü yok.
+**U09 / plan v0.22 — CRON OCCURRENCE AND FIRE ADMISSION.**
+**Statü:** ACTIVE PARTIAL RESEARCH; bütün HERMES tamamlanmadı.
+**2026-09-12.** U08 yayını tamamlandı ve doğrulandı; ardından Q47 source birimi yürütüldü. U09'un gerçek ref/content yayın hükmü [PUBLICATION](evidence/2026-09-12-cron-occurrence-admission/PUBLICATION.md)'dadır.
+**Primary:** `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`, manifest 0.21.0; current release/kurulu binary değil.
+**U09 tabanı:** `c370cbc88823f7ee4d07aa6c97b75cf509129254`.
 
-## Amaç, güncel yetki ve kapsam
+## Amaç, yetki ve ilk kapının gerçek kapanışı
 
-Kullanıcı U08 yayını ve geri okumasını öncelemeyi; ancak yayın başarılı olursa kayıtlı Q47→Q49 araştırmasına devam etmeyi onayladı. Önceki teknik turun bulguları aşağıda korunur. Bu yayın checkpoint’inde yeni HERMES koşusu yapılmadı. Güncel main/AGENT/STATE, paket manifesti ve kaynak kayıtları geri kazanıldı; native write eylemleri bu denemede sunuldu. Neden değiştiği teşhis edilmez.
+Kullanıcı önce U08'in yayımlanmasını, geri okunmasını, ancak başarıdan sonra kayıtlı araştırmanın sürdürülmesini onayladı. Bu tur native write eylemleri sunuldu; neden değiştikleri teşhis edilmedi. U08 içerik `e30f6ee6a027ec247fd3dff6cb28f9a3d7ade1ca`, yayın makbuzu `c370cbc88823f7ee4d07aa6c97b75cf509129254`. Gerçek main, scoped diff ve içerik geri okuması doğrulandıktan sonra Q47 başlatıldı. U08 artık bekleyen ZIP değildir; önceki unpublished/capability metinleri tarihsel kayıtlardır. [U08 makbuzu](evidence/2026-09-12-cron-drain-receipts/PUBLICATION.md).
 
-Kullanıcı araştırmanın planını değerlendirdikten sonra “devam et araştırmaya, operasyonel sınırına kadar çalış” dedi. U07/v0.20 STATE ve main yeniden repo üzerinden okundu; U07 yayını zaten tamamlanmıştı. Güncel AGENT blob'u değişmedi; aynı konuşmada tam okunmuş R01–R09 uygulandı. Bu yeni çalışma U08'dir, eski U07'yi tekrar göndermek veya eski deneyleri yeniden üretmek değildir.
+U08 yayını, başlangıç main `4c372138b7d652b1921e96ef9158b32b05c05fc8` içindeki iki Foundation commit'ini korudu. Onlar bu tur oluşturulmadı ve herhangi bir aktöre atfedilmedi. U08 kaynak/deneyleri yeniden koşulmadı. U09 yeni kaynak araştırmasıdır; U08 yayın doğrulaması yeni teknik test gibi sayılmaz.
 
-Amaç HERMES'in kendi mekanizmalarını ve alt-sistem ilişkilerini açıklamak, daha sonra çekirdek model ve dört-alan/SOUL/Development OS aday değerlendirmesine ulaşmak. Yalnız `research/studies/hermes-agent/**` ve CATALOG'ın Hermes satırı değişebilir. Foundation, context/Codex, agent-control, diğer studies, upstream kodu, mimari/adoption, izin/ayar, credentials/model/provider veya full ürün kurulumu/çalıştırması kapsam dışıdır. Otomatik/background devam yoktur.
+Amaç önce HERMES-native mekanizma ve sistem açıklaması, sonra ilişkiler/çekirdek model ve daha sonraki dört-alan/SOUL/Development OS aday değerlendirmesidir. Yalnız `research/studies/hermes-agent/**` ve CATALOG Hermes satırı değişebilir. Foundation, context/Codex, agent-control, diğer studies, upstream kodu, mimari/adoption, izin/ayar, credentials/provider/model ve full ürün kurulum/çalıştırması kapsam dışı. Otomatik/background çalışma yoktur.
 
-## U08'de gerçekten yapılan
+## U09 — gerçekten yapılan
 
-[23 — Drainer, receipt ve cancellation](notes/23-CRON-DRAIN-RECEIPTS-AND-CANCELLATION.md) → [RESEARCH](evidence/2026-09-12-cron-drain-receipts/RESEARCH.md) → [SOURCES](evidence/2026-09-12-cron-drain-receipts/SOURCES.md) → [coverage](inventory/DELIVERY-RECEIPT-COVERAGE-2026-09-12.md). [CURRENT-RESEARCH-MAP](CURRENT-RESEARCH-MAP.md) sadece derived orientation'dır, ikinci work authority değildir.
+[24 — Occurrence ve kabul](notes/24-CRON-OCCURRENCE-AND-FIRE-ADMISSION.md) → [RESEARCH](evidence/2026-09-12-cron-occurrence-admission/RESEARCH.md) → [SOURCES](evidence/2026-09-12-cron-occurrence-admission/SOURCES.md). [MAP](CURRENT-RESEARCH-MAP.md) derived orientation, [PLAN](RESEARCH-PLAN.md) sıra, [INDEX](INDEX.md) retrieval içindir; current work authority bu dosyadır.
 
-**Source consumer zinciri:** successful running gateway startup → ayrı housekeeping thread → profile/adapter scope → scheduler.drain_delivery_queue → native queue callback → live/standalone sender. Queue dosyası yokken DB açılmaz. Job outcome→latest-execution join→cron CLI rows/warnings gerçek tüketicileri okundu. U07 pending+None deferral başarılı hesaplama koşulunda job last_status=ok ve CLI ok gösterimine kaynakla bağlandı; bu birleşik host/CLI yolu yeni bir runtime koşusu değildir. Kuyruk, execution ve last-job-summary ayrı durumlardır.
+Kaynak zinciri: Chronos job+fire_at provision/dedup key → hosted dashboard profile/forward → API adapter token/admission → provider claim/execution snapshot → jobs active-owner/runnable/fence → normal finish/claim clear → next-run/re-arm. Built-in due-scan ve explicit manual/force yolları ayrıldı. Gerçek _with_job/load/runnable/fence yardımcıları incelenerek kabuldeki zaman koşulunun varsayılmadığı kontrol edildi.
 
-**Yeni ayırıcı soru:** live send timeout'undan sonra cancel boolean'ı “hiç başlamadı” veya “in-flight/teslim sayılabilir” olarak yorumlanabilir mi? Yalnız tam `agent/async_utils.py` modülü, Git blob `2bc558fad21eeec736c0283cb7df86304349f222`, 2.049 byte, full-byte eşleşmesiyle çalıştırıldı. Gerçek asyncio loop'u, ikinci thread ve fsync edilmiş yerel dosya etkisi; transport coroutine'i sentetik. [SPEC](evidence/2026-09-12-cron-drain-receipts/SPEC.md), [tam RESULT](evidence/2026-09-12-cron-drain-receipts/RESULT.json), [MANIFEST/raw](evidence/2026-09-12-cron-drain-receipts/MANIFEST.json).
+**Yük taşıyan bulgu:** dışarı gönderilen job+zaman anahtarı, dönüşte yalnız job ID'ye daralıyor. Claim, live-owner ve iş durumunu kontrol ediyor; next_run_at <= now veya expected occurrence karşılaştırması bu actual claim yolunda yok. Normal bitiş claim'i temizleyip recurring işi runnable bırakınca geçerli eski tetiklemenin yeni claim alabilmesi koşullu source iziyle açıklanıyor. Wire belgesindeki tamamlanma-sonrası ret genellemesi bu kodla desteklenmiyor. Bu gözlenmiş üretim duplicate veya gerçek ikinci worker/araç etkisi değildir. Dış NAS'ın stale relay/dedup davranışı, canlı claim/terminal/pause retleri ve sonraki worker kontrolleri ayrı sınırdır.
 
-B01 normal receipt/dosya; B02 dosya etkisi önce bağımsız okunmuşken cancel=True ve sonra etki hâlâ var; B03 timeout→terminal RuntimeError sonrası cancel=False ve etki dosyası yok. Böylece boolean'ın transport-phase oracle'ı olması çürütüldü. Actual enclosing _live_send_text, GatewayRunner, queue, network, SessionDB veya gerçek duplicate send çalıştırılmadı. Native fallback'in sonucu koşullu source inference; relay/no-fallback ve olası platform idempotency'si ayrıdır.
+HTTP 202 split provider'da claim dönüşünü bekler; legacy tek-aşama yolunda aynı işaret background fire_due devri olabilir. 200 duplicate, None'a dönüşen farklı ret nedenlerini kapsayabilir. Dashboard 200 gateway_stopped operator-stop nedeniyle retry'ı keser; çalışma/teslim başarısı değildir. Rearm_oneshot aynı job ID'sinde yeni zaman/bütçe kurar, canlı claim üzerine yazmayı reddeder. Built-in due-scan zaman kapısı direct external claim'e otomatik taşınmaz.
 
-**Recorded run:** UTC `2026-09-11T21:12:38.167078+00:00` → `2026-09-11T21:12:38.171479+00:00`; Europe/Istanbul 12 Eylül. Python 3.13.5. Üç ordinary vaka expectation_met; N00 identity, N01/N02 fabricated observation-validator kontrolleri. Bunlar source mutant veya independent replication değildir. Thread join/loop close doğrulandı, audit listesi boş; probe stderr 0 byte. Ham source/spec/probe/result/log/effect/runtime/license bağları saklandı.
+**Yeni execution: YOK.** U09 source-only'dir; gerçek API/store/NAS/token/OS/model, upstream test suite veya eski diagnostic'ler çalıştırılmadı. Test kaynakları mocked provider'larla handler sırasını sınar; gerçek occurrence persistence kanıtı gibi kullanılmadı. Büyük parent full-byte/bağımlılık kurulamadığından kopya/fake kabul mekanizmasıyla sahte runtime kapanışı yapılmadı. [CHECKS-NOT-RUN](evidence/2026-09-12-cron-occurrence-admission/CHECKS-NOT-RUN.md). Source-only birim için RESULT veya ham koşu arşivi uydurulmadı.
 
-## Açık kalan ve yanlış genellenmeyecek olan
+## Açık doğrulamalar ve güncellik
 
-Q48 drainer/status **source hedefi ilerledi**, bütün transport/late-reconciliation doğrulaması kapanmadı. Q46 queue/compute/receipt alanları somut CLI tüketicisine bağlandı; tüm UI/yazarlar taranmadı. Q50 yeni cancellation/effect karşı örneği: actual network duplicate veya hata oranı iddiası değil. Seed/mirror caller'a varsayılan delivery geçebilir, actual DB seed etkisi NOT RUN.
+Q47 SOURCE ADVANCED, gerçek late-callback/store/process/NAS/clock/fault ve re-arm yarışları NOT RUN. Q49 source araştırması henüz yapılmadı. Q40 actual SessionDB/quiet next-request, Q42 startup admission ve Q48/Q50 actual transport/status/cancel/seeding doğrulamaları açık/ertelenmiştir. Q41 migration/profile, Q43 full-worker/effects, Q44/Q45 semantic quality, Q07/Q22 wire, Q26/Q29 full worker ve Q38 manual selected-parent fidelity korunur. Erteleme kapanış değildir.
 
-Q40 actual SessionDB quiet next-request/wire, Q42 startup preclaim/carrier/drain/actual agent admission ertelenmiş doğrulamalardır. Bu tur gateway/run.py'nin başka aralıklarına erişilmiş olması Q42'nin eski exact aralığına veya bütün zincirine yeni doğrulama sağlamaz. Incidental cached-history selector gövdesi okundu, quiet yolu kapanmadı. Q41 migration/profile, Q43 full worker/arbitrary effects, Q44/Q45 semantic kalite ve Q07/Q22/Q26/Q29/Q38 eski sınırlar korunur. [CHECKS-NOT-RUN](evidence/2026-09-12-cron-drain-receipts/CHECKS-NOT-RUN.md) yeni yapılmamış ölçümleri açık taşır.
+Default search daha yeni `a84a2223f82c3d9906fd4a9d778a188774e7a08e` üzerinde occurrence/manual/test pointer'ları verdi. Bunlar navigation/freshness uyarısıdır; current fix revalidation veya pin yükseltmesi yapılmadı. Raw download/urllib DNS sınırı büyük parent materyalizasyonunu engelledi; pinned connector range okumaları ise çalıştı. Source erişimi, runtime ve publication birbirine karıştırılmaz.
 
-## Korunan tamamlanmış yayınlar
+## Korunan araştırma ve yayınlar
 
-U04-A/18 ve U04-B/19 ayrı recorded source/deney paketleridir. B'nin 33 original dosyalı subtree'si `d01c92f7414713300934be3bb4e3d40ac57631b3`, [A/B reconciliation](evidence/2026-09-11-multiturn/RECONCILIATION.md) korunur. A/B eş numaralı vakalar eş değildir; U06 L/U07 D/U08 B ile toplanıp ürün skoru üretilmez. B:H09, U07:D06 ve U08:B02 farklı nesne/deneylerdir.
+Notes01–23, bütün U04–U08 ve daha eski evidence, METHOD, merkezi synthesis01–03 değişmedi. U04-A/18 ve ayrı U04-B/19 eş numaralarda aynı deney değildir; B'nin 33 original dosyalı subtree'si `d01c92f7414713300934be3bb4e3d40ac57631b3` ve [RECONCILIATION](evidence/2026-09-11-multiturn/RECONCILIATION.md) korunur. U05/20, U06/21, U07/22 ve U08/23 bitmiş yayınlardır, yeniden yapılacak işler değildir. Eski G/H/L/D/B sayıları bağımsız replication veya ürün skoru olarak toplanmaz.
 
-U05/20, U06/21 ve U07/22 bütün evidence ve yayınları yerindedir. U07 içerik `56ffbfa608d6734ade1850198350726db0c5d05e`, yayın makbuzu `188095b930ac77f8d2a5dd605191a09a369a57ce`. **U07 yeniden yayın işi yoktur. U08’in güncel yayın hükmü PUBLICATION üst bölümündedir; eski unpublished ifadeler ilk teknik turu kaydeder.** U04–U07 raw/source/test kayıtları, notes01–22, METHOD ve merkezi synthesis01–03 değiştirilmez. Merkezi sentezler provisional; 20/21/22/23 ek notlar birlikte okunur, yeni final CORE/adoption yoktur.
+Üç merkezi synthesis provisional'dır; 20–24 ek notlarla birlikte okunur. Yeni final CORE, dördüncü completed model, Foundation taxonomy veya benimsenmiş architecture yoktur. Önceki current state'in tam metni ve raw kimlikleri [v0.21 exact STATE](https://github.com/batuhanozgun/agentic-os-search/blob/c370cbc88823f7ee4d07aa6c97b75cf509129254/research/studies/hermes-agent/STATE.md)'ten geri kazanılabilir.
 
-## İlk operasyonel ve teknik devam
+## İlk sonraki iş
 
-**Yayın kapısı:** U08 content/ref/diff geri okuması PUBLICATION makbuzunda doğrulanmadan Q47 başlamaz. Doğrulandıktan sonra eski sohbet ZIP'i gerekmez. Eski U07 first-next cümleleri tarihsel sıradır; güncel first-new-source aşağıdadır.
+**Q49 — kabul edilmiş scheduled snapshot shared run_job'da hangi betik/no_agent/monitor/agent yoluna, hangi profile/model/tools/cwd/session/history'ye dönüşüyor?** Normal agent ve ajan açmayan script yolu ayrı kaynak zincirleri olarak izlenir. Q47'nin gerçek-runtime borcunu bitirmek bu yeni geniş açıklamanın ön koşulu değildir; tam kaynak/bağımlılık veya güçlü reliability/adoption ihtiyacı doğunca ayrı doğrulama hattı yeniden açılır.
 
-**İlk yeni source araştırması:** Q47 — scheduled occurrence/late callback/due/fire claim/rearm. Job ID, occurrence ve execution ID ayrımı; normal scheduled, gecikmiş ve explicit manual/force yolları. **Ardından Q49:** run_job içinde script/no_agent/monitor/agent/preflight ve actual context/history/provider bağlantısı. Bu kayıtlı sıranın ilerlemesidir; bütün Q48/Q50 fault uzayını bitirme ön şartı konmaz.
+Provider/backend/delegation, learning/skill-ledger/sync/quality, diğer UI/install/eval aileleri geniş haritada korunur. Araştırma sadece cron hataları aramaya indirgenmez. Current turn yetkisi yayın sonrası kayıtlı araştırmayı sürdürmektir; yeni mimari veya canlı ürün çalışma aşamasına geçiş yetkisi değildir.
 
-Q48/Q50 actual transport/status/seeding/profile deneyleri, gerekli full-source/bağımlılık ve güvenli imkân ya da güçlü reliability/adoption reuse gerektiğinde yeniden açılır. Provider/backend/delegation, learning/ledger/sync/quality, diğer UI/install/eval aileleri geniş haritada durur. Yayın işi yeni teknik deney diye sayılmaz; yeni teknik adım da mimari aşama yetkisi yaratmaz.
+## Cold-start ve kanıt yolu
 
-## Cold-start yolu
+1. Güncel main AGENT ve tetiklenen protokoller → research root/studies catalog → META/STATE/INDEX → METHOD/plan. Aynı konuşmada tam okunmuş kontrol sürümleri değişmediyse geçerlidir; yeni oturum canonical bootstrap yapar.
+2. U08 ve U09 PUBLICATION üst bölümleriyle gerçek yayın durumunu ayır. Eski unpublished metinler güncel engel değildir. U09 note24 + SOURCES/RESEARCH/NOT RUN tam okunur; source T0–T4 bir runtime sonucu değildir.
+3. U08 note23/SOURCES/RESEARCH/coverage, U07 note22/SOURCES/RESEARCH/coverage, U06 note21 ve U05 note20 ilgili kaynak/coverage yolları korunur; eski first-next cümleleri tarihsel sıralarıyla okunur.
+4. U04 ayrımı için note19 + B README/RECONCILIATION/manifest; üst açıklama için synthesis03 + U04-A SOURCES/RESEARCH/CONTINUITY-COVERAGE zorunlu eski yol korunur. Gerektiğinde synthesis01/02 ile genel modeli geri kazan.
+5. Exact eski execution iddiası için ilgili SPEC + tam RESULT + MANIFEST + source/probe/raw arşiv; U08'in B, U07'nin D, U06'nın L ve A/B kimlikleri karıştırılmaz. U09'da execution yoktur. Derived MAP/catalog raw kanıtın yerine geçmez.
 
-1. Güncel main AGENT ve tetiklenen protokoller → research root/studies catalog → current META/STATE/INDEX → METHOD/plan. U08 PUBLICATION üst bölümünü oku; ham manifestteki ilk teslim durumu güncel yayın hükmünün yerine geçmez.
-2. Current publication authority: U07 ve U08 PUBLICATION üst bölümleri. Eski dosyalardaki historical unpublished açıklamalarını güncel engel sayma.
-3. Gerçek yeni araştırma: note23 → U08 SOURCES/RESEARCH/coverage. Exact B koşusu için SPEC + tam RESULT + MANIFEST + arşivdeki source/probe/input/log/effect/runtime. Summary tam raw yerine geçmez.
-4. Önceki source bağını gerektiği derinlikte 22/U07 → 21/U06 → 20/U05 üzerinden geri kazan. Eski canonical full cold-start yolundaki U04 ayrımı için19 + B README/RECONCILIATION/manifest; üst açıklama için synthesis03 + A SOURCES/RESEARCH/CONTINUITY-COVERAGE korunur. Aynı konuşmada tam okunanlar yeni independent evidence değildir.
-5. Genişlik için CURRENT-RESEARCH-MAP ve F01–F12 coverage; exact eski iddia için kendi evidence raw/probe'u. Foundation araştırmasına veya upstream action'a geçilmez.
-
-## Yayın kuralı
-
-Güncel yayın, kullanıcının onayladığı önce yayın→doğrulama→araştırma sırasının ilk adımıdır. Native write bu denemede erişilebilir; yayın geçmişindeki aksi ifadeler ilk teknik turun capability kaydıdır. Ref force=false ilerletilir. Şu aşağıdaki tarihsel paragraflar güncel engel değildir.
-
-### İlk teknik turdan korunmuş kayıt
-
-Bu turn'de write/commit/ref eylemleri sunulmadığı sürece hiçbir repository mutation gerçekleşmiş değildir. Plugin installed/enabled olmak actual write capability değildir; sebep tahmin edilmez. İzin/credential/endpoint dolaşması yapılmaz. Güncel head değişmişse candidate eski ağacı force etmez; baseline SHA ve scoped dosya farkları yeniden değerlendirilir. Başarı ancak real nonforce ref + content/diff readback'tir; yerel hash/parse bunu ikame etmez.
-
-## İlk teknik turun tarihsel head farkı
-
-Kapanış readback'i main'i `a6c47ef3ff697c2d23c492dcf4ccfa32003040da` olarak gösterdi. Native compare, başlangıçtan bir commit ileri/geri farkı0 ve yalnız `research/soul-foundations/**` altında değişiklikler döndürdü. HERMES/CATALOG/control değişen yollar arasında değildi; yeni ref'ten HERMES STATE'in ilk16 satırı tekrar U07/v0.20 ve aynı blob'u verdi. Bu tur o Foundation değişiklikleri yapılmadı ve herhangi bir aktöre atfedilmedi. Yeni baseline dosya kimlikleri geçerli; eski root tree zorlanamaz. U08 hâlâ yayınlanmamıştır.
+Yayın güncel main tabanında scoped commit, nonforce ref ve gerçek main/diff/content geri okumasıyla kapanır. Sonuç U09 PUBLICATION'dadır. Kaynak incelemesinin kaydı, canlı davranış güvencesi değildir.
