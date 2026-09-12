@@ -1,33 +1,22 @@
 # Ground Deepening — STATE
 
-**Status:** COMPLETE / ALL FOUR GROUNDS USER-EVALUATED / ACCEPTED  
-**Created:** 2026-09-02  
-**Plan accepted:** 2026-09-02  
-**Environment completion:** accepted 2026-09-04  
-**Information completion:** accepted 2026-09-05  
-**Work ground evaluation:** accepted 2026-09-05  
-**Actors ground evaluation:** accepted 2026-09-05  
-**Scope:** ground-specific and recursive one-node-at-a-time research-depth completion  
-**Current authorised substantive activity:** NONE IN THIS STAGE  
-**Current phase:** CLOSED / RETURNED TO FOUNDATION PARENT
+**Updated:** 2026-09-12  
+**Original program:** CLOSED / ALL FOUR CURRENT-DEPTH GROUND RESULTS ACCEPTED  
+**Later descendant:** Formation/Acquisition research complete; result awaiting evaluation  
+**Current substantive node:** NONE after bounded closure
 
-## Final accepted ground map from this stage
+## Completion scope
 
-```text
-Environment / Operating Reality                 ← boundedly complete / accepted
-Information / Representation                    ← boundedly complete / accepted
-Work                                             ← boundedly complete / accepted
-Actors / Agency–Participation–Authority          ← boundedly complete / accepted
-```
+The original program evaluated Environment, Information, Work and Actors at their recorded depths. Environment was accepted on 2026-09-04; Information, Work and Actors on 2026-09-05. That does not mean every structurally identified Information child had a dedicated pass.
 
-Environment and Information retain their accepted bounded hierarchies. Work and Actors retain rich multidimensional/relational internal maps without a forced universal immediate-child hierarchy.
+The accepted integration/frontier review recovered the three missing Information Dynamics passes. The latest user continuation separately activated Formation, which now has an F0–F7 proposed bounded-leaf result. Derivation and Selection remain unresearched/inactive. Work and Actors deliberately have no universal promoted child hierarchy; they are not unfinished merely for that reason.
 
-## Stage exit condition
+## Current route
 
-The planned exit condition is satisfied: all four accepted top-level grounds have been individually evaluated under this program.
+Overall authority remains `../STATE.md`. Current result: `grounds/information/informational-dynamics/formation-acquisition/STATE.md` → INDEX/KEY → synthesis/F6/F7.
 
-The next authorized Foundation stage is a separate top-level adequacy rerun under `../04_top-level-adequacy-rerun/`.
+The original program exit and its subsequent adequacy/composition transitions remain historical accepted work. Do not rerun them because their original plans name an earlier next step.
 
-## Guardrail
+## Method and boundaries
 
-This closed stage does not authorize systematic typed relation/control composition, architecture, ontology/data-model work or implementation.
+HIERARCHICAL-DEEPENING-METHOD.md remains the unchanged research method: one active node, immediate-child discovery followed by separate activation, bounded leaf decisions and preserved evidence. The Formation result awaits user evaluation; no automatic sibling, descendant, architecture, schema, implementation or agent-control work follows.

@@ -1,60 +1,21 @@
 # Information / Representation — KEY
 
-**Status:** TOP-LEVEL NODE AND FIRST-LEVEL CHILD STRUCTURE USER-EVALUATED / ACCEPTED  
-**Date:** 2026-09-05  
-**Use:** intentionally lossy orientation; not evidence
+**Updated:** 2026-09-12  
+**Role:** current compact orientation; not the full evidence
 
-## Shortest current result
+Information concerns mediated informational states/representations and the dynamics that form, derive, change or expose them, distinct from their actual referents, pursuits and attributed parties.
 
-A coherent top-level research problem region survives around mediated informational states/representations and the processes/transitions that form, derive, change or expose them, distinct from the actual referent, Work and Actors they may describe.
-
-Accepted bounded tree:
-
-```text
-Information / Representation
-    ├─ Informational State / Representational Constitution
-    │    ↳ bounded leaf / accepted
-    └─ Informational Dynamics / Formation–Transition
-         ├─ Informational Formation / Acquisition
-         ├─ Informational Derivation / Transformation
-         └─ Informational Selection / Exposure
-
-Records / Persistent Information
-    ↳ deep persistence specialization/profile crossing Information
+```
+Information / Representation                  [accepted parent]
+├─ Informational State                        [accepted bounded leaf]
+└─ Informational Dynamics                     [accepted three-child parent]
+   ├─ Formation / Acquisition                 [dedicated result complete; proposed leaf]
+   ├─ Derivation / Transformation             [unresearched / inactive]
+   └─ Selection / Exposure                    [unresearched / inactive]
 ```
 
-The three Dynamics children are structurally accepted as immediate problem regions but have not yet been separately researched.
+State retains reference/applicability, content/form/mode, identity/equivalence and relevant qualifications. Dynamics retains three protected questions, not a mandatory processing order. Records is a persistence profile crossing these regions; Context is a constituted working view plus selection/exposure and use relations. Evidence is target-relative, not an intrinsic source subtype.
 
-## Child 1 — State / Constitution
+The Formation proposal sharpens target/source/result, kind of novelty, coverage and source fidelity versus truth. It allows model-mediated/interleaved formation rather than a universal raw-first stage. Its result and F6 parent refinements await evaluation; see `informational-dynamics/formation-acquisition/KEY.md`.
 
-Question:
-
-> What informational state/result exists, what is it about, what content/form/identity does it carry, and what makes it materially distinct from another informational state?
-
-Current result: bounded leaf at the present Foundation depth.
-
-## Child 2 — Dynamics / Formation–Transition
-
-Question:
-
-> How do informational states become instantiated, derived or changed, and become visible/available to a use or consumer?
-
-Accepted immediate regions:
-
-- Formation / Acquisition;
-- Derivation / Transformation;
-- Selection / Exposure.
-
-Selection / Exposure is distinct because the source can remain unchanged while the visible working set changes.
-
-## Important structural corrections
-
-- `observation / belief / evidence / context / Records` is not a valid peer hierarchy; it mixes processes, states, roles, views and lifecycle conditions.
-- Context is a high-value State + Selection/Exposure + use-relation pattern, not an immediate Information child.
-- Evidence is target-relative, not an intrinsic information subtype.
-- persistence remains a deep specialization/profile rather than a peer child.
-- actual condition, informational representation, source authority, factual truth, evidential role and authorization remain distinct.
-
-## Current authorization
-
-Next-work selection/planning only. No Dynamics child, Work/Actors ground, composition, architecture, ontology or implementation work is active.
+Parent acceptance is not recursive completion. Current STATE controls next work. No automatic sibling, architecture or implementation; same-model and source-specific evidence limits remain.

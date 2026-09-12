@@ -1,27 +1,17 @@
 # Integration / Remaining Frontier — STATE
 
-**Date:** 2026-09-12
-**Status:** BOUNDED REVIEW COMPLETE / USER EVALUATION PENDING
-**B0–B5:** COMPLETE
-**Current authorized substantive activity:** NONE after this bounded review
-**Current authorized interaction:** REVIEW RESULT EVALUATION
+**Updated / user accepted:** 2026-09-12  
+**B0–B5:** COMPLETE / USER-EVALUATED / ACCEPTED  
+**Current substantive work in this package:** NONE
 
-## Authorization and established transition
+## Acceptance and scoped result
 
-The user accepted Persistent Adaptation and the proposed D6 refinements and requested the previously proposed integration/remaining-frontier review. That acceptance is recorded separately from this new review's pending evaluation.
+The user accepted the preceding review with “Güzel önemli bir sonuç çıkmış bu turda. Lütfen devam et. Operasyonel sınırına kadar çalış.” That continuation separately activated the recommended Formation/Acquisition pass.
 
-## Review result
+The accepted review preserved parent/child coherence, reconciled sixteen original pressure families and recovered three Information children that lacked dedicated passes at its input checkpoint. Parent acceptance was not recursive completion. The review's original SYNTHESIS, B0–B5, FRONTIER.json, source ledger and check fixtures remain unchanged historical evidence, including their original pending/inactive wording.
 
-The accepted Composition children integrate without a demonstrated new immediate region. The explicit global frontier contains three promoted but unresearched Information Dynamics children. Parent/audit-stage acceptance is not recursive completion.
+## Subsequent work
 
-## Strongest next recommendation
+Formation has now completed F0–F7; its proposed leaf and F6 refinements await separate evaluation at `../03_ground-deepening/grounds/information/informational-dynamics/formation-acquisition/STATE.md`. Derivation and Selection remain separately unresearched. Current overall authority is `../STATE.md`, not this review's original frontier snapshot.
 
-Informational Formation / Acquisition, then reselect among remaining Information children. It is **inactive**. No new child is authorized automatically.
-
-## Next responsibility
-
-User evaluation of the integration/frontier result and proposed next research. A future session starts from Foundation STATE/INDEX and this package; it must not rerun the accepted D-pass or treat all Foundation as complete.
-
-## Limits
-
-Same-model repository cross-check; no fresh external literature survey, independent replication or live-system efficacy test. Local checks validate bookkeeping only. No architecture, ontology/schema, implementation or agent-control mutation.
+The review is not rerun or independently revalidated by acceptance. Its original same-model and bookkeeping-check limits remain. No architecture, implementation or automatic successor is authorized here.

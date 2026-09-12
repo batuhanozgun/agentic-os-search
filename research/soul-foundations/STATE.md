@@ -1,43 +1,43 @@
 # SOUL Foundations — STATE
 
-**Updated:** 2026-09-12
-**Status:** Persistent Adaptation accepted; bounded integration/frontier review complete, awaiting user evaluation
-**Current authorized substantive activity:** NONE after the bounded review
-**Current authorized interaction:** INTEGRATION / REMAINING-FRONTIER RESULT EVALUATION
+**Updated:** 2026-09-12  
+**Status:** integration/frontier review accepted; Formation/Acquisition F0–F7 complete, awaiting evaluation  
+**Current authorized substantive activity:** NONE after the bounded Formation pass  
+**Current authorized interaction:** FORMATION RESULT AND F6 PARENT-REFINEMENT EVALUATION
 
-## Accepted findings and completion depth
+## Accepted findings and exact completion depth
 
-Environment, Information, Work and Actors retain their accepted current-depth ground results. The post-deepening adequacy result and Composition parent remain accepted. Binding, Composite Standing, Control, Transition/Propagation, both causal leaves, Returned Influence and Persistent Adaptation have accepted bounded results within the accepted Composition structure.
+Environment, Information, Work and Actors retain their accepted current-depth results. Four-ground adequacy, Composition and its currently promoted descendant results, including Returned Influence and Persistent Adaptation, remain accepted. The B0–B5 integration/frontier review is now user-accepted.
 
-**Acceptance of a ground or parent is not recursive completion.** Information Dynamics' three promoted children are explicitly not separately researched:
+Parent acceptance is not recursive completion:
 
 ```
-Information / Representation                 [accepted parent result]
-├─ Informational State                       [accepted bounded leaf]
-└─ Informational Dynamics                    [accepted three-child parent]
-   ├─ Formation / Acquisition                [structurally accepted; no dedicated pass]
-   ├─ Derivation / Transformation            [structurally accepted; no dedicated pass]
-   └─ Selection / Exposure                   [structurally accepted; no dedicated pass]
+Information / Representation              [accepted parent]
+├─ Informational State                    [accepted bounded leaf]
+└─ Informational Dynamics                 [accepted three-child parent]
+   ├─ Formation / Acquisition             [dedicated result complete; proposed leaf awaiting evaluation]
+   ├─ Derivation / Transformation         [structurally accepted; no dedicated pass; inactive]
+   └─ Selection / Exposure                [structurally accepted; no dedicated pass; inactive]
 ```
 
-These are real remaining named research passes, not merely optional examples. Work and Actors deliberately have no promoted universal child hierarchy; that is a different case.
+Formation's existence as a research region was already accepted; its new bounded-leaf result and F6 refinements are not yet accepted. No Formation descendant is promoted.
 
-## Latest user authorization and completed work
+## Latest authorization and completed work
 
-The user said: “anlaştık. Devam et. Operasyonel sınırına kadar çalış.” Following the preceding delivery, this accepts Persistent Adaptation and its exact D6 parent refinements and authorizes the proposed bounded integration/remaining-frontier review.
+The user said: “Güzel önemli bir sonuç çıkmış bu turda. Lütfen devam et. Operasyonel sınırına kadar çalış.” In context this accepts the integration/frontier review and activates its recommended Formation research. The pass followed the explicit handoff from input main `4c372138b7d652b1921e96ef9158b32b05c05fc8` and completed F0–F7.
 
-That review is complete under `06_integration-frontier-review/`. Its result is separately awaiting evaluation. It found no demonstrated new immediate Composition region, reconciled sixteen original pressure families, and restored the three Information child passes to the global frontier. It did not run those passes or revoke accepted results.
+Result entry: `03_ground-deepening/grounds/information/informational-dynamics/formation-acquisition/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/F6/F7.
 
-## Current result and next responsibility
+The proposed result is one source-/reference-relative formation grammar. It separates target/source/result, kinds of novelty, occurrence/fidelity/truth, coverage, model-mediated acquisition, time/mode and record-only distinguishability. Original N/B/C/T/F/G/D research evidence and accepted semantics are preserved; the new F6 wording refinements remain proposals.
 
-Read `06_integration-frontier-review/STATE.md` → KEY → SYNTHESIS → B2/B4.
+## Next responsibility
 
-**Next responsibility:** user evaluation of the integration/frontier result.
+User evaluation of Formation's result and F6 refinements. Derivation/Transformation is the strongest next recommendation, but is inactive; Selection remains the other unresearched sibling. The order is not a universal processing pipeline. No successor is automatically active.
 
-**Strongest next research recommendation:** Informational Formation / Acquisition, followed by re-selection between Derivation and Selection. It is **inactive**. The recommendation is not a universal processing order and not activation authority.
+Current overall work is carried here. Closed packages can preserve their pass-time external continuation labels; those do not supersede this current frontier or create new execution authority.
 
-## Verification and boundaries
+## Evidence and boundaries
 
-This review is a same-model canonical-source cross-check, not a fresh literature survey or independent replication. The local check verifies an exact source snapshot and rejects four malformed ledger variants; it does not validate SOUL behavior or the taxonomy. Original D/G evidence limits remain unchanged after user acceptance.
+Nine primary pages supplied targeted pressure at unequal recorded depths. Twelve finite constructions and five faulty substitutions were executed; F7 is same-model review. No live SOUL acquisition pipeline, empirical sensor/survey experiment or independent replication occurred. Web reading succeeded; complete local raw-HTML snapshots were not obtained.
 
-Foundation as a whole is not declared complete. No new child, architecture, ontology/data-model/schema, implementation or agent-control work is active. Historical parent plans and earlier next-step labels do not override this current authority.
+The whole Foundation is not complete. No architecture, ontology/schema, implementation, new descendant or agent-control change is authorized by this closure. Publication checks establish content identity and retrieval continuity, not substantive truth.

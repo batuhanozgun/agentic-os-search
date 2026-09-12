@@ -1,20 +1,18 @@
 # Integration / Remaining Frontier — KEY
 
-**Date:** 2026-09-12
-**Role:** current compact review result; read STATE for authority.
+**Updated:** 2026-09-12  
+**Status:** USER-EVALUATED / ACCEPTED
 
-Persistent Adaptation and its D6 refinements are accepted. The currently promoted Composition descendant passes are accepted; the integrated protected questions remain coherent under this bounded same-model review.
-
-**Whole Foundation is not complete.** Information Dynamics' Formation/Acquisition, Derivation/Transformation and Selection/Exposure are structurally accepted questions but explicitly lack dedicated child passes.
+The bounded review found the accepted Composition questions coherent and recovered incomplete recursive coverage: Information Dynamics had three structurally accepted but separately unresearched children at the review checkpoint. It reconciled sixteen original pressure families without turning semantic routes into universal mechanisms or deployment evidence.
 
 ```
 parent accepted != child separately researched
 child pass complete != all descendants complete
 accepted != independently verified
-semantic route exists != target-specific evidence obtained
-recommendation != active work
+semantic route != target-specific proof
+recommended work != activated work
 ```
 
-The strongest next candidate is Formation/Acquisition, followed by re-selection rather than an automatic fixed sequence. This review awaits user evaluation; no substantive successor is active.
+That review is now accepted. Its recommended Formation pass has since completed and awaits its own evaluation. Derivation and Selection remain unresearched. Read current Foundation STATE for the live frontier; original B2/FRONTIER.json preserve the review's input/result snapshot.
 
-Read B1 for semantic integration, B2 for exact frontier/coverage, B3 for rivals and verification limits, B4 for next-work comparison, and SOURCE-LEDGER for actual reading extent. No architecture or implementation is adopted.
+B1/B2/B3/B4 and SOURCE-LEDGER retain detailed argument and limits. Acceptance adds no independent replication or live-system validation. No architecture or implementation is adopted.

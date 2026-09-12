@@ -1,57 +1,17 @@
 # Informational Dynamics / Formation–Transition — INDEX
 
-## Role
+Read STATE.md for authority. The parent three-child result remains accepted. Formation has completed its dedicated pass and awaits evaluation; Derivation and Selection remain separately unresearched.
 
-Current retrieval router for the boundedly complete and user-evaluated Informational Dynamics foundation-research node.
+## Current route
 
-For current status and authorization read `STATE.md` first.
+`formation-acquisition/STATE.md` → INDEX → KEY → FINDINGS-MAP → synthesis → F6/F7 → precise argument/source/check.
 
-## Current status
+Formation's NEXT-RESEARCH-HANDOFF recommends Derivation but does not activate it. The child result and parent refinements are separate from already accepted parent structure.
 
-**BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED.**
+## Original parent recovery
 
-No substantive node is active.
+KEY → FINDINGS-MAP → `synthesis/INFORMATIONAL-DYNAMICS-SYNTHESIS.md` → N7-NODE-CLOSURE.md. For structural reasoning recover N3, N4 and N6; for full method use RESEARCH-PLAN, EVIDENCE-INVENTORY and EXTERNAL-SOURCE-LEDGER. OPEN-QUESTIONS and DEFERRED-RELATIONS retain conditional boundaries, not an execution queue.
 
-## Default read order
+Original N-passes keep their then-current labels. Current STATE controls work and acceptance. The accepted State sibling is `../informational-state/`; parent Information is `../STATE.md`. CURRENT-SURFACES binds exact identities only.
 
-1. `STATE.md` — current status, accepted bounded result and authorization.
-2. `KEY.md` — shortest current orientation.
-3. `FINDINGS-MAP.md` — accepted result and topic routing.
-4. `synthesis/INFORMATIONAL-DYNAMICS-SYNTHESIS.md` — integrated research result.
-5. `N7-NODE-CLOSURE.md` — closure basis, residual uncertainty and verification status.
-6. `OPEN-QUESTIONS.md` — reopen/deeper questions; not an execution queue.
-7. `DEFERRED-RELATIONS.md` — intentionally deferred cross-node/cross-ground relations.
-8. `EXTERNAL-SOURCE-LEDGER.md` — external source roles/routes.
-9. Descend to N0–N6 only when the reasoning path, rival decomposition, boundary attack, falsifier or omission audit matters.
-10. `CURRENT-SURFACES.md` — exact current-surface binding.
-
-## Accepted bounded result
-
-```text
-Informational Dynamics / Formation–Transition
-    ├─ Informational Formation / Acquisition
-    ├─ Informational Derivation / Transformation
-    └─ Informational Selection / Exposure
-```
-
-The three children are accepted as immediate bounded problem regions, but none has yet been separately researched or activated.
-
-## Parent / sibling route
-
-Parent Information package: `../`
-
-Accepted sibling: `../informational-state/`
-
-```text
-Information / Representation                    ← boundedly complete / user-evaluated
-    ├─ Informational State / Representational Constitution   ← bounded leaf / user-evaluated
-    └─ Informational Dynamics / Formation–Transition         ← boundedly complete / user-evaluated
-```
-
-## Verification status
-
-External falsifiers plus same-model adversarial N6 support bounded closure. The full node result has not received independent second-researcher/model replication.
-
-## Current gate
-
-Next-work selection/planning only. This router does not authorize a Dynamics child, Work, Actors, composition, architecture, ontology or implementation work.
+No automatic sibling, descendant, architecture or implementation.

@@ -1,34 +1,15 @@
 # Ground Deepening — INDEX
 
-## Role
+Read ../STATE.md for current overall work, then the relevant package STATE. The original four-ground evaluation program is accepted at its recorded depths, not recursively complete by label.
 
-Retrieval router for the completed `03_ground-deepening/` program.
+| Need | Route |
+|---|---|
+| Current Formation result | `grounds/information/informational-dynamics/formation-acquisition/STATE.md` → INDEX/KEY/synthesis |
+| Information and remaining Dynamics frontier | `grounds/information/STATE.md` → INDEX |
+| Accepted Environment | `grounds/environment/STATE.md` → KEY/current routes |
+| Accepted Work | `grounds/work/STATE.md` → KEY/prior corpus routes |
+| Accepted Actors | `grounds/actors/STATE.md` → KEY/prior corpus routes |
+| Hierarchical research method | `HIERARCHICAL-DEEPENING-METHOD.md` |
+| Current identities | `CURRENT-SURFACES.md` |
 
-## Stage status
-
-**COMPLETE / ALL FOUR GROUNDS USER-EVALUATED / ACCEPTED.**
-
-## Final accepted ground status
-
-```text
-Environment / Operating Reality                 ← boundedly complete / accepted
-Information / Representation                    ← boundedly complete / accepted
-Work                                             ← boundedly complete / accepted
-Actors / Agency–Participation–Authority          ← boundedly complete / accepted
-```
-
-## Retrieval routes
-
-- Environment → `grounds/environment/STATE.md` → `KEY.md` → current routes.
-- Information → `grounds/information/STATE.md` → `KEY.md` → current routes.
-- Work → `grounds/work/STATE.md` → `KEY.md` → current audit/prior corpus routes.
-- Actors → `grounds/actors/STATE.md` → `KEY.md` → current audit/prior corpus routes.
-- Exact stage freshness → `CURRENT-SURFACES.md`.
-
-## Next stage
-
-Current Foundation work has moved to:
-
-`../04_top-level-adequacy-rerun/`
-
-This stage does not independently authorize relation/control composition, architecture, ontology/data-model work or implementation.
+Formation has a dedicated result awaiting evaluation; Derivation and Selection remain unresearched/inactive. Prior pass-time references to adequacy as next are historical. No architecture or implementation is authorized here.

@@ -1,94 +1,25 @@
-# Informational Dynamics / Formation–Transition — Findings Map
+# Informational Dynamics — Findings Map
 
-**Document role:** CURRENT_L1  
-**Status:** boundedly complete / user-evaluated / accepted  
-**Date:** 2026-09-05
+**Updated:** 2026-09-12  
+**Role:** current parent/child retrieval; not source evidence
 
-## 1. Node result
+| Need | Route | Status / limit |
+|---|---|---|
+| Current parent and child completion depth | STATE | Parent acceptance is not recursive completion |
+| Original three-child reasoning | N3 → N4 → N6 → N7 | Accepted parent, same-model audit |
+| Formation dedicated findings | `formation-acquisition/FINDINGS-MAP.md` → synthesis | Proposed leaf; evaluation pending |
+| Formation's exact parent delta | Formation F6 | Proposal, not accepted rewrite |
+| Source coverage versus realization/fidelity | Formation F2/F3/F4 | Separately recoverable facets, no immediate child promoted |
+| Record-only distinction proof and examples | Formation F2/checks | Explicit finite-model scope |
+| Derivation/Transformation | Parent N3/N4/N7 and original synthesis | No dedicated child pass yet |
+| Selection/Exposure | Parent N3/N4/N7 and original synthesis | No dedicated child pass yet |
+| Revision/correction/standing change | Original N3/N4/N6 | Specialization/composite, not a fourth peer by label |
+| Communication/propagation/reconciliation | Original N4/N6 | Crosses questions; preserve exact source/use frame |
+| Records/persistence | EVIDENCE-INVENTORY → referenced original Records routes | Deep profile across State and Dynamics |
+| Temporal, identity, lineage and applicability effects | Original N2–N4; relevant Formation facet | Not automatically separate children |
+| Remaining parent falsifiers | OPEN-QUESTIONS | Conditional, not activation |
+| Source depths and exact identities | Original ledgers / Formation SOURCE-LEDGER / CURRENT-SURFACES | Different claims from substantive validity |
 
-Informational Dynamics survives as a coherent Foundation node owning information-formation/change/availability transition semantics that cannot be reduced to State, Work, Actors or Environment without losing failure distinctions.
+State remains the constituted-result inquiry; Work the pursuit; Actors the source/authority/participation positions; Environment the actual condition and support. Formation can overlap derivation/exposure within one procedure without collapsing these protected questions.
 
-## 2. Accepted immediate children
-
-```text
-Informational Dynamics / Formation–Transition
-    ├─ Informational Formation / Acquisition
-    ├─ Informational Derivation / Transformation
-    └─ Informational Selection / Exposure
-```
-
-These three regions are accepted as the current bounded immediate-child structure. They have not yet been separately researched as child passes.
-
-## 3. Formation / Acquisition
-
-Protected question:
-
-> How does a phenomenon, source act, signal, assertion or source resource become a newly instantiated informational state?
-
-Key failures include biased/partial observation, wrong source eligibility, sampling/detectability gaps, capture/parsing corruption and source/procedure/result binding loss.
-
-## 4. Derivation / Transformation
-
-Protected question:
-
-> How do existing informational states produce or change another informational state or standing, and what semantic effect occurs?
-
-Key failures include invalid inference/computation, lossy normalization/translation, aggregation/summary distortion, identity/version confusion, revision/history loss and provenance/lineage loss.
-
-## 5. Selection / Exposure
-
-Protected question:
-
-> Which existing informational states become visible/available to a use or consumer, and what omission/coverage/order/freshness failures arise?
-
-Key failures include source existing but not being retrieved, wrong version/rank dominating, decisive evidence being omitted, stale context being exposed, retrieval miss being mistaken for absence and corrections failing to propagate to consumer-visible views.
-
-## 6. Why Selection / Exposure is distinct
-
-Source information can remain unchanged while the visible working set changes. A faithful transformation of a badly selected set and a bad transformation of a complete selected set require different diagnosis and remedies.
-
-This is also where frame blindness can arise: an agent may have access to a broader source universe yet expose only its own prior context, model knowledge or project-local material.
-
-## 7. Not promoted as immediate children
-
-Revision/correction/retraction/supersession, communication/distribution, propagation/synchronization, conflict/reconciliation/merge, persistence/memory lifecycle and encoding/schema mapping remain specializations, composite patterns or cross-cutting transition dimensions/relations.
-
-## 8. Records / persistence relation
-
-Persistence remains a deep specialization/profile across State and all three Dynamics children: capture/write, migration/update/revision, retrieval/recall, retention/disposition and historical reconstruction obligations.
-
-## 9. Cross-cutting transition dimensions
-
-Retained explicitly:
-
-- trigger/origin;
-- input/output cardinality;
-- semantic effect;
-- identity/version effect;
-- standing/applicability/currentness effect;
-- visibility/availability effect;
-- provenance/lineage;
-- time/order;
-- determinism/reproducibility;
-- reversibility/reconstructability;
-- propagation lag/freshness;
-- source/consumer/authority relation;
-- use-relative relevance.
-
-## 10. Boundary rule
-
-The same operation can touch multiple children. Classify by protected question and reference frame, not by verb.
-
-Example: external retrieval may be Formation relative to the local system/source boundary and Selection relative to the eligible result universe/current context.
-
-## 11. Accepted label refinement
-
-`Informational Dynamics / Formation–Transition` is the accepted current research label. The earlier `Formation–Transformation` wording remains historical pass terminology.
-
-## 12. Verification status
-
-N5 used materially different external sources/traditions. N6 is same-model adversarial review. No independent second-researcher/model replication has been performed.
-
-## 13. Current gate
-
-The node is boundedly complete and user-evaluated/accepted. No child is active. Current interaction is next-work selection/planning only.
+The original parent three-child map is accepted; only Formation has a dedicated result so far, and that new result awaits evaluation. Derivation is recommended next without activation. Do not infer completed Selection from its frequent use as a boundary example.

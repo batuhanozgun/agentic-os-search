@@ -1,18 +1,17 @@
 # Integration / Remaining Frontier — INDEX
 
-Read STATE.md for authority, then KEY.md for orientation.
+Read STATE.md first. B0–B5 are accepted. Their original evidence remains a review-time snapshot, not current execution authority.
 
 | Need | Route |
 |---|---|
-| Integrated result | SYNTHESIS.md |
-| Acceptance and exact review scope | B0-RECOVERY-AND-ACCEPTANCE.md |
-| Child/parent meaning and countercases | B1-PARENT-INTEGRATION.md |
-| Three unfinished Information children and sixteen original pressures | B2-COVERAGE-AND-FRONTIER.md |
-| Strongest rivals and verification limits | B3-ADVERSARIAL-REVIEW.md |
-| Residual types and next-work comparison | B4-RESIDUALS-AND-NEXT-WORK.md |
-| Closure and publication boundary | B5-CLOSURE.md |
-| Reading depth and identities | SOURCE-LEDGER.md |
-| Future Formation entry, only after activation | NEXT-RESEARCH-HANDOFF.md |
-| Mechanical ledger checks | checks/frontier_audit.py; checks/RESULT.json; FRONTIER.json |
+| Current acceptance and later work | STATE.md → ../STATE.md |
+| Compact accepted result | KEY.md |
+| Original integrated argument | SYNTHESIS.md → B1-PARENT-INTEGRATION.md |
+| Original three-missing-child and sixteen-pressure audit | B2-COVERAGE-AND-FRONTIER.md |
+| Original rivals and verification limits | B3-ADVERSARIAL-REVIEW.md |
+| Original next-work comparison | B4-RESIDUALS-AND-NEXT-WORK.md |
+| Review closure, source scope and checks | B5-CLOSURE.md; SOURCE-LEDGER.md; checks/; FRONTIER.json |
+| Executed Formation handoff/current continuation | NEXT-RESEARCH-HANDOFF.md |
+| Current identities | CURRENT-SURFACES.md |
 
-This is an integration/retrieval stage, not a fifth ground, a new Composition child, an architecture decision or a candidate study. Current Foundation authorization remains in ../STATE.md.
+Formation has since been separately researched; its new result awaits evaluation. Derivation and Selection remain unresearched. Original review labels do not erase that progress or activate a new phase. This package is an integration/retrieval review, not a fifth ground or architecture.

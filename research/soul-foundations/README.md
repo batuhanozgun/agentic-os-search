@@ -1,34 +1,29 @@
 # SOUL Foundations Research
 
-This is first-principles research and reusable evidence for later SOUL / Development OS work, not an adopted architecture or ontology. Start at STATE.md then INDEX.md.
+First-principles research and reusable evidence for later SOUL / Development OS work; not an adopted architecture or ontology. Start at STATE.md then INDEX.md.
 
 ## Current checkpoint — 2026-09-12
 
-Persistent Adaptation is user-accepted with its D6 refinements. The bounded parent/integration and remaining-frontier review is complete under `06_integration-frontier-review/` and awaits separate user evaluation.
+The integration/frontier review is accepted. The separately authorized Formation/Acquisition pass completed F0–F7 and proposes one bounded leaf with narrow parent wording refinements. That result awaits user evaluation.
 
-**Whole Foundation is not complete.** Information Dynamics has three structurally accepted questions that have not received dedicated child passes: Formation/Acquisition, Derivation/Transformation and Selection/Exposure. The strongest next candidate is Formation/Acquisition; it remains inactive.
+**Whole Foundation is not complete.** Derivation/Transformation and Selection/Exposure remain structurally accepted but lack dedicated child passes. Derivation is recommended next, not activated.
 
-## Research progression
+Current result: `03_ground-deepening/grounds/information/informational-dynamics/formation-acquisition/`.
 
-- `01_verticals/`: original independent Records, Work, Actors and technical-environment corpora.
-- `02_adequacy/`: original four-ground framing and its limits.
-- `03_ground-deepening/`: accepted ground-level results and audits, at their explicitly recorded depths.
-- `04_top-level-adequacy-rerun/`: accepted bounded four-ground adequacy after deepening.
-- `05_relation-control-composition/`: accepted Composition parent and currently promoted descendant results.
-- `06_integration-frontier-review/`: child/parent coherence, completion-depth recovery, remaining work and next-work comparison.
+## Research progression and accepted anchors
 
-The four ground anchors are Environment/Operating Reality, Information/Representation, Work and Actors/Agency–Participation–Authority. Composition protects Binding, Composite Standing, Control and Transition/Effect/Feedback. Transition contains Propagation, Actual/Contrastive causal inquiry, and Returned Influence/Persistent Adaptation.
+`01_verticals/` preserves original independent corpora; `02_adequacy/` the original framing; `03_ground-deepening/` accepted ground-level results and later dedicated descendants; `04_top-level-adequacy-rerun/` the accepted bounded four-ground assessment; `05_relation-control-composition/` accepted Composition and its promoted descendant results; `06_integration-frontier-review/` the accepted integration and completion-depth audit.
 
-These are diagnostic research questions, not mutually exclusive event classes, runtime components or an obligatory linear workflow.
+Environment/Operating Reality, Information/Representation, Work and Actors/Agency–Participation–Authority remain the four grounds. Composition retains Binding, Composite Standing, Control, and Transition/Effect/Feedback; Transition contains Propagation, Actual/Contrastive causal inquiry and Returned Influence/Persistent Adaptation. These are diagnostic questions, not runtime components or a mandatory linear workflow.
 
 ## Preserved distinctions
 
-Actual reality is not its representation. Work completion is not actual outcome attainment or authorized acceptance. Actor capability, authority, Environment access and effective effect reach are different. Qualification is not its assessment or recorded status. Policy, authority, decision, enforcement and compliance are different. Realized change is not causal proof. Feedback can use information without visibly revising an action. Stored lessons or changed code are not by themselves retained response change. Adaptation occurrence does not prove benefit, legitimate authority or transfer.
+Actual reality is not its representation. Work completion is not outcome attainment or authorized acceptance. Actor capability, authority, Environment access and effect reach differ. Qualification is not its assessment or recorded label. Policy, decision and enforcement differ. Change is not causal proof. Feedback need not visibly revise an action. Stored lessons and changed code do not by themselves establish retained-response change.
 
-Parent acceptance, dedicated child research, recursive closure, user evaluation and independent verification remain separate. The review B2 records the concrete remaining frontier; B4 separates that from target-specific evidence, structural reopen triggers and later design decisions.
+The new Formation proposal additionally distinguishes source capture from target truth, copies from new origins/evidence, processed-record coverage from source coverage, receipt time from reference time, and model-assisted acquisition from a supposed universal raw-first stage. Its detailed status is in its STATE/F6; these are not silently accepted new parent axioms.
 
-## Retrieval and limits
+## Retrieval, history and verification
 
-Use STATE → INDEX → current package STATE → KEY → findings/synthesis → precise evidence. Original pass artifacts remain history, not current authorization. Candidate studies remain separate and do not become Foundation truth automatically.
+Use STATE → INDEX → selected package STATE → KEY → map/synthesis → precise evidence. Original pass artifacts retain their checkpoint language; current authority controls continuation. B2's three-missing-child snapshot is preserved as historical input, while current state now records the executed Formation pass.
 
-The research and latest review retain same-model/researcher limits. Executed logical/bookkeeping checks establish only their specified relationships; they are not live SOUL efficacy or independent taxonomy validation. No architecture, ontology/schema, implementation, new child or agent-control mutation is authorized by the latest closure.
+Parent acceptance, dedicated research, recursive closure, user evaluation and independent verification remain separate. The latest pass used nine primary pages and executed twelve finite constructions with five faulty substitutes. These are same-model research and bounded mechanical evidence, not live SOUL efficacy or independent taxonomy validation. No architecture, schema, implementation or agent-control modification is authorized by closure.

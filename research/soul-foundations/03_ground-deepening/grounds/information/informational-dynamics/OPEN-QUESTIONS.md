@@ -1,31 +1,20 @@
-# Informational Dynamics / Formation–Transition — Open Questions / Reopen Triggers
+# Informational Dynamics — Open Questions and Reopen Triggers
 
-**Status:** bounded residuals after N7 closure  
-**Date:** 2026-09-05  
-**Role:** residual uncertainty; NOT an automatic execution queue
+**Updated:** 2026-09-12  
+**Role:** residual uncertainty and explicit missing passes, not an automatic queue
 
-## Current bounded result
+## Actual remaining dedicated work
 
-```text
-Informational Dynamics / Formation–Transition
-    ├─ Informational Formation / Acquisition
-    ├─ Informational Derivation / Transformation
-    └─ Informational Selection / Exposure
-```
+Derivation/Transformation and Selection/Exposure still lack separate child passes. Formation F0–F7 are complete and await evaluation; its residuals are in `formation-acquisition/OPEN-QUESTIONS.md`. Do not merge these different statuses.
 
-## Reopen questions
+## Preserved parent questions
 
-1. Can Formation and Selection be collapsed under a stronger source/interface framing without losing acquisition-vs-retrieval diagnosis?
-2. Does Revision / Standing Change become a stable fourth child under broader domains than belief/records/scientific correction cases?
-3. Does Communication / Distribution form a stable peer region when non-document, streaming, social or distributed-agent cases are examined more deeply?
-4. Does Propagation / Synchronization deserve first-order status in highly distributed systems where eventual visibility is itself the protected outcome?
-5. Are there multimodal/pre-semantic/signaling cases where `informational state` begins later than the current Formation boundary assumes?
-6. Does Selection / Exposure remain stable when selection is entirely endogenous to a transformation algorithm rather than an explicit retrieval stage?
-7. Does the recommended label `Formation–Transition` remain readable enough for future users, or does a better non-enumerative descriptor emerge?
-8. Can independent review produce a forced-fit case or stable missing child?
+1. Could a stronger source/interface framing collapse Formation and Selection without losing acquisition-versus-retrieval diagnosis?
+2. Could Revision/Standing Change require a stable additional first-order region beyond current specializations?
+3. Could deeper non-document, streaming, social or distributed cases justify Communication/Distribution or Propagation as a separate region?
+4. Where do multimodal, gradual or pre-semantic cases place the informational-state boundary?
+5. Does Selection/Exposure remain a protected question when embedded inside a transformation algorithm?
+6. Does Formation's model-mediated and locus-relative result require more than the narrow wording refinements now proposed?
+7. Does independent review find forced fits, boundary theft, an omitted child or a stronger decomposition?
 
-## Explicit reopen triggers
-
-Reopen the node if later Work/Actors/composition research exposes boundary theft; if independent verification challenges the three-child split; or if a materially different domain repeatedly requires a fourth protected first-order question.
-
-Do not reopen merely because a narrower field has finer mechanism categories.
+The accepted Formation/Derivation/Selection structure is retained; the new F6 wording proposals are not yet accepted. Do not promote a narrower field's mechanism taxonomy merely because its names differ. No architecture, schema, implementation or automatic successor is authorized.
