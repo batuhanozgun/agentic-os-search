@@ -1,8 +1,16 @@
 # Hermes Agent — Kaynak ve yürütme rotası
 
-**2026-09-12 / U10 / plan v0.23.** Current work [STATE](STATE.md). Primary c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a / manifest 0.21.0. Source reading, native diagnostic, sentez ve yayın ayrı statülerdir.
+**2026-09-12 / U11 / plan v0.24.** Current work [STATE](STATE.md). Primary c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a / manifest 0.21.0. Source reading, native diagnostic, sentez ve yayın ayrı statülerdir.
 
-## U10 — Yeni kaynak ve tek bounded koşu
+## U11 — Incremental kaynak çalışması; yeni execution yok
+
+[26](notes/26-RUNTIME-BACKEND-AND-CONTROL-OWNERSHIP.md) → [A RESEARCH](evidence/2026-09-12-runtime-backend/RESEARCH.md)/[S01–S04](evidence/2026-09-12-runtime-backend/SOURCES.md) → [B BACKEND-OWNERSHIP](evidence/2026-09-12-runtime-backend/BACKEND-OWNERSHIP.md)/[S05–S16](evidence/2026-09-12-runtime-backend/BACKEND-SOURCES.md). [NOT RUN](evidence/2026-09-12-runtime-backend/CHECKS-NOT-RUN.md), [PUBLICATION](evidence/2026-09-12-runtime-backend/PUBLICATION.md).
+
+S01 runtime_provider/S02 init selected; S03 turn_facade full; S04 conversation_loop selected. B: native codex_runtime selected; native session/client/projector full; ordinary API caller/helper/run_agent selected; MCP server full; docs selected. Dosya kimliği ve native satır aralıkları kendi kaynak defterlerinde. FULL READ, full-byte materyalizasyon, dependency closure ve execution eşit değildir. Hiçbir yeni SDK/native subprocess/model/DB/API/credential veya upstream test suite koşusu yapılmadı. U11 RESULT veya başarı sayacı yoktur.
+
+Başlangıç checkpoint'i d3a4baeeb7afd97d38588c674c4842f01e87c6f0 ve A e562de82ab4ea33872e55d501c8b59f26b441fa8 main/ref ve içerikten geri okundu; sonra B açıldı. A'nın özgün RESEARCH/SOURCES dosyaları B'de korunur. Source-only iddialar conditional binding/history/control/receipt sınırlarıdır; gerçek yanlış model veya data-loss sonucu değildir. Current first-new-source Q54; Q55/Q56 ve bütün eski residual'lar açık.
+
+## U10 — Korunan kaynak ve tek bounded koşu
 
 [25](notes/25-CRON-EXECUTION-AND-CONTEXT.md) → **[S01–S10](evidence/2026-09-12-cron-execution-context/SOURCES.md)** → [RESEARCH](evidence/2026-09-12-cron-execution-context/RESEARCH.md) / [NOT RUN](evidence/2026-09-12-cron-execution-context/CHECKS-NOT-RUN.md). S01 scheduler selected; S02 prompt full+selector execution; S03 monitor/S04 notepad/S05 script/S06 preflight full-read not-run; S07 agent_init selected; S08 detached teardown full-read not-run; S09 run_agent selected; S10 MIT.
 
@@ -22,6 +30,6 @@ Attempt-00 parse error precedes all cases; original probe/log and exact narrow r
 | U04-A/B | [A SOURCES](evidence/2026-09-11-multi-turn-continuity/SOURCES.md), [B RECONCILIATION](evidence/2026-09-11-multiturn/RECONCILIATION.md)/[33-file manifest](evidence/2026-09-11-multiturn/DELIVERY-MANIFEST.json); exact raw/probe yolu bunlarda |
 | U03/U02 | [Kanban SOURCES](evidence/2026-09-10-kanban-task/SOURCES.md), [Turn SOURCES](evidence/2026-09-10-turn-lifecycle/SOURCES.md) |
 
-Önceki bütün source/hash/date/disposition zinciri [exact v0.22 ledger](https://github.com/batuhanozgun/agentic-os-search/blob/938359a1c4b0a01dd7bab5f4647e0474872b2078/research/studies/hermes-agent/SOURCE-LEDGER.md) ve [through-v0.9](SOURCE-LEDGER-THROUGH-V0.9.md) üzerinden korunur. U04-B 33 original subtree d01c92f7414713300934be3bb4e3d40ac57631b3. A/B/L/D/B/C ID'leri case veya independent replication eşitliği değildir. Eski hiçbir evidence dosyası yeniden yazılmadı.
+Önceki bütün source/hash/date/disposition zinciri [exact U10 ledger](https://github.com/batuhanozgun/agentic-os-search/blob/b658913dd8148dd9a4850414159f13513904f137/research/studies/hermes-agent/SOURCE-LEDGER.md) → exact v0.22 ve [through-v0.9](SOURCE-LEDGER-THROUGH-V0.9.md) üzerinden korunur. U04-B 33 original subtree d01c92f7414713300934be3bb4e3d40ac57631b3. A/B/L/D/B/C ID'leri case veya independent replication eşitliği değildir. Eski hiçbir evidence dosyası yeniden yazılmadı.
 
-Default-branch 28326a6ccd7484f37bbcd19c9f32658c2368b370 pointer'ları ve mutable official cron docs bu tur navigation only; current fix doğrulaması yok. İlk new-source Q53; Q49/Q51/Q52 ve eski validation/fidelity/quality açık. U10 yayın [PUBLICATION](evidence/2026-09-12-cron-execution-context/PUBLICATION.md)'da; hash/link/tar kontrolleri behavior test değildir.
+U10'un default-branch 28326a6ccd7484f37bbcd19c9f32658c2368b370 pointer'ları tarihsel navigation only kaydıdır. U11 yeni default-branch pointer'larını kendi SOURCES dosyaları taşır; current fix doğrulaması veya primary upgrade yok. U10 yayın [PUBLICATION](evidence/2026-09-12-cron-execution-context/PUBLICATION.md)'da; hash/link/tar kontrolleri behavior test değildir.

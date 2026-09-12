@@ -1,37 +1,35 @@
 # Hermes Agent — Araştırma planı
 
-**v0.23 / 2026-09-12 — U10 yayımlı; Q53 başlangıç checkpoint'i etkin.** [STATE](STATE.md) authority; [METHOD](METHOD.md) yöntem; [MAP](CURRENT-RESEARCH-MAP.md) derived büyük resim; [U10 PUBLICATION](evidence/2026-09-12-cron-execution-context/PUBLICATION.md) tamamlanmış yayın. Primary c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a / manifest 0.21.0.
+**v0.24 / 2026-09-12 — U11 runtime/backend sahipliği.** [STATE](STATE.md) yetki/current work, [METHOD](METHOD.md) yöntem, [MAP](CURRENT-RESEARCH-MAP.md) büyük resim, [PUBLICATION](evidence/2026-09-12-runtime-backend/PUBLICATION.md) gerçek yayın. Primary c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a / manifest 0.21.0; current ürün hükmü değil.
 
-## Onaylanan incremental kayıt düzeni
+## Yapılan ve revizyon gerekçesi
 
-Kullanıcı “Tamam devam et lütfen” diyerek önce anlamlı başlangıç kaydı→main geri okuma→küçük araştırma dilimi→yayın/geri okuma sırasını onayladı. Başlangıç ref'i 595d9ebb24302e271b9f84cc86d0debbd74dc790. Bu checkpoint teknik bulgu veya yeni deney değildir; çalışma sırası kaydıdır. U10 kanıtları ve açık sorular değişmez.
+Kullanıcının onayladığı incremental düzen uygulandı: başlangıç kaydı d3a4baeeb7afd97d38588c674c4842f01e87c6f0 main'den geri okundu; Q53-A e562de82ab4ea33872e55d501c8b59f26b441fa8 yayımlanıp geri okundu; sonra B araştırıldı. A seçim→runtime→init→gerçek dispatch; B ordinary model transportu ile native whole-turn backend'de history/tools/fallback/cancel/cleanup ve makbuz sahipliğidir. [Note26](notes/26-RUNTIME-BACKEND-AND-CONTROL-OWNERSHIP.md) iki dilimi birleştirir. A metinleri değişmez; B ayrı dosyalardır.
 
-Q53 iki anlamlı dilimle ilerletilir: (A) provider/model/api_mode çözümleme→istemci→gerçek dispatch ayrımı; (B) doğrudan model yolu ile maddi farklı backend'in history/tools/fallback/cancel/cleanup sahipliği karşılaştırması. A yayımlanıp geri okunmadan B büyütülmez. Tam olmayan bir A kaydı completed Q53 diye etiketlenmez. Kaynak zinciri daha uygun bir bölünme gerektirirse gerekçe kaydedilir. Yazma kesilirse yeni büyük dilim değil, mevcut dilimin yayın devri çözülür.
+Q53'ün bounded source çıkış ölçütü ilerledi: kimin model isteği, araç, history/compaction, fallback ve kaynak ömrünü yönettiği gerçek caller'larla açıklanabilir. Bütün runtime/config/ilk request veya restart doğrulaması tamamlanmadı. Native factory'de HERMES model/system/history alanlarının açık RPC bağı yokluğu, projection ile authoritative thread farkı ve terminal/persistence etiketleri yeni ayırıcı kontroller doğurdu. **Yeni behavioral execution yapılmadı.** Kaynak/full-read etiketleri ayrı SOURCES dosyalarındadır.
 
-## Gerçek ilerleme ve revizyon gerekçesi
+Synthesis02 ordinary-loop ve synthesis04 scheduled-work korunur. U11 onlara ek source amendment'ıdır; final CORE veya beşinci completed model değildir. Araştırma yalnız yeni hata aramak değil, alternatif yürütme sahipliğini native açıklamaya katmaktır.
 
-Kayıtlı Q49, normal agent ile no_agent/script yolları ve monitor/wake gate'leri üzerinden kaynakla ilerledi. Model/preflight/tools/profile/cwd/session/history/persistence consumer'ları açıldı. Yalnız tam native scheduler_prompt.py'nin previous-output selector'ı altı bounded local-file vaka ile çalıştırıldı; model/DB/host koşusu yok. [Note25](notes/25-CRON-EXECUTION-AND-CONTEXT.md) → [RESEARCH/SOURCES](evidence/2026-09-12-cron-execution-context/README.md).
+## İlk yeni geniş kaynak birimi — Q54
 
-U07–U10 artık yalnız ayrı notlar değildir: [synthesis04](synthesis/04-SCHEDULED-WORK-AND-CONTEXT-PROVISIONAL.md) scheduled-work zincirini ve açık kenarları ilk geçici modelde birleştirir. Eski synthesis01–03 korunur. Yeni 04 final/complete CORE değildir. Bu, source→mekanizma→ara-sentez→karşı-okuma yönteminin devamıdır; araştırma konusu veya mimari aşama değişikliği değildir.
+**Soru:** HERMES ordinary tool/delegation kabulü, parent/child yetkisini ve bağlamını hangi gerçek mekanizmalarla kuruyor; sonuç, interrupt ve cleanup kime dönüyor?
 
-U10'un en güçlü yeni ayrımları: fresh agent ile çok-kanallı persistent context; newest output ile useful/confirmed response; detection checkpoint ile successful handling; input workdir ile actual subprocess cwd; operational success ile semantic completion. Bunların bütün failure varyantlarını tüketmek yerine, ortaya çıkan provider/runtime sahipliği boşluğu geniş açıklama değeri nedeniyle öne alınır.
+Başlangıç `run_agent.py::_execute_tool_calls/_dispatch_delegate_task` → `agent/tool_executor.py` ve policy/helper consumer'ları → `tools/delegate_tool.py` gerçek dispatch/child/return yolları. Şema/metadata ile gerçek registration, izin verilen araçlar ile çalıştırma hakkı, parent_agent bağı ile child runtime, background handle ile sonuç kabulü ayrı tutulmalı. Native `hermes_tools_mcp_server.py` stateless yüzeyi karşı sınırdır; bütün Codex plugin/platform katalogları araştırmanın otomatik kapsamı değildir.
 
-## İlk yeni geniş source birimi — Q53
+İlk anlamlı dilim araç kabulü/policy→dispatch; ikinci ancak ilki yayımlandıktan sonra delegation/sonuç/cancel olabilir. Kaynak farklı doğal sınır gerektirirse gerekçe kaydedilir. Çıkış: en az bir ordinary araç ve bir delegation zincirinde yetki/bağlam/kimlik/return/cleanup sahipleri, source-versus-runtime sınırıyla açıklanabilmeli. Constructor veya fake başarılı sonucu gerçek child kabulü sayma. Full product/model/credential veya upstream değişikliği yoktur.
 
-**Soru:** declared provider/model/api_mode, hangi actual runtime/backend tarafından yürütülür; fallback/context/cancellation/resource sahipliği nerede değişir?
+## Incremental kayıt ve yayın kapısı
 
-Başlangıç `hermes_cli/runtime_provider.py::resolve_runtime_provider` → `agent/agent_init.py::_resolve_api_mode/_build_client` → turn/backend dispatch. En az normal doğrudan model yolu ve maddi farklı bir harici/native backend okunmalı. Declared/model-config, effective runtime, gerçek request/backend kabulü ve kalıcı oturum görünümü ayrı tutulmalı. Önceki U02 iç-turn sentezi bu iki yola karşı okunmalı; aynı constructor sınıfı aynı history owner demek değildir.
+Yeni büyük dilimden önce current main/STATE ve kaynak yeterliliği doğrulanır. Her anlamlı dilimde bulgu + kaynak + sınır + sonraki soru birlikte kalıcılaştırılır. Yayımlanmamış bir büyük dilim varken ikincisini biriktirme. Ref/content/scope geri okuması olmadan “kaydedildi” hükmü verme. Yazma kesilirse mevcut dilimin devrini çöz; yeni kapsam açma. Bu çalışma düzeni agent-control mutation değildir.
 
-Çıkış: hangi aktörün model isteğini, araç yürütmesini, history/compaction'ı, stop/cancel'i ve kapanışı yönettiği; fallback'in hangi alanları değiştirip hangilerini koruduğu kaynakla açıklanabilsin. Exact alt sınırlar kayıtlı kalsın. Bütün provider kataloğu, her eklenti veya her platform kombinasyonu bu birimin kapsamı değil. Full product/model/credential/NAS çağrısı yok; yalnız gerekliyse tam source ve önceden sabit oracle ile güvenli diagnostic.
+## Ayrı residual doğrulamalar
 
-## Ayrı residual validation hattı
+Q53 fallback geçiş ortası ve gerçek primary restore; **Q55** native model/system/history binding, fresh/reused/restart ve projection/compaction karşılaştırması; **Q56** terminal event/final text, flush/agent_persisted ve interrupt/process-effect makbuzları. [U11 NOT RUN](evidence/2026-09-12-runtime-backend/CHECKS-NOT-RUN.md). Source branch'i ampirik yanlış-model/data-loss/duplicate kanıtı değildir.
 
-Q49 full accepted→run_job→agent/script/first-request; Q51 gerçek producer→selector→request/quality; Q52 monitor checkpoint→failed downstream→next unchanged tick ve storage races. [U10 NOT RUN](evidence/2026-09-12-cron-execution-context/CHECKS-NOT-RUN.md). Cwd, late DB/teardown, config/preflight/permission ve semantic completion burada residual'dır.
+U10 Q49 full accepted→run_job→script/agent/first-request; Q51 selector→request/quality; Q52 detection checkpoint→successful handling. Q47 late-callback/NAS/store/clock, Q48/Q50 transport/status/cancel/seeding, Q40/Q42 actual DB/quiet-history/startup kabulü; Q41/Q43/Q44/Q45/Q07/Q22/Q26/Q29/Q38 önceki sınırları korur. Full source/bağımlılık erişimi, yeni karşı kanıt veya güçlü reliability/adoption reuse gerektirdiğinde ilgili ölçüm açılır. Bütün fault matrisini bitirmek geniş kaynak araştırmasının ön koşulu değildir.
 
-Q47 late-callback/NAS/store/clock, Q48/Q50 actual transport/status/cancellation/seeding, Q40/Q42 actual SessionDB quiet-history/startup kabulü ve eski Q41/Q43/Q44/Q45/Q07/Q22/Q26/Q29/Q38 aynı statüde açık. Bir alanın tam dependency erişimi, yeni karşı kanıt veya güçlü reliability/adoption kullanım ihtiyacı doğduğunda ilgili ölçüm yeniden açılır. Erteleme kapanış değildir; bütün fault matrix broad araştırmanın ön koşulu yapılmaz.
+## Geniş yön ve yetki
 
-## Geniş kapsam, sonraki sıralama ve yetki
+Native mekanizmalar → alt-sistemler → ilişkiler → çekirdek açıklama → ayrı daha-geç dört-alan/SOUL/Development OS değerlendirmesi. Learning/skill-ledger/sync/quality, alternatif UI/install/update/eval ve diğer backend aileleri kaybolmaz; Q54 sonrası kapsam dengesi yeniden değerlendirilir. Dosya/test sayısı başarı ölçütü değildir.
 
-Q53 sonrası kanıta göre delegation/concurrency ve tool/plugin policy bağları yeniden önceliklendirilir. Learning/skill-ledger/sync/quality, alternatif UI/install/update/eval aileleri kapsam haritasında tutulur. Önce native alt-sistemler ve ilişkiler, sonra çekirdek açıklama, daha sonra ayrı dört-alan/SOUL/Development OS değerlendirmesi. Aşama ve başarı ölçütü dosya/test sayısı değildir.
-
-Yalnız Hermes package + CATALOG Hermes satırı; U04–U10 evidence/notes, METHOD ve synthesis01–04 değişmez. Foundation/control/context/Codex/upstream/diğer studies/architecture/adoption veya izin ayarı değişmez. Güncel main/nonforce/ref-content-diff readback yayın koşuludur. [Önceki exact v0.23 plan](https://github.com/batuhanozgun/agentic-os-search/blob/b658913dd8148dd9a4850414159f13513904f137/research/studies/hermes-agent/RESEARCH-PLAN.md) korunur.
+Yalnız Hermes package + CATALOG Hermes satırı. METHOD, notes01–25, U04–U10 evidence/yayınları ve synthesis01–04 değişmez. Foundation/control/context/Codex/upstream/diğer studies/architecture/adoption ve izin ayarı değişmez. [Exact önceki incremental plan](https://github.com/batuhanozgun/agentic-os-search/blob/e562de82ab4ea33872e55d501c8b59f26b441fa8/research/studies/hermes-agent/RESEARCH-PLAN.md) ve U10 plan zinciri korunur.
