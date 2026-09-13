@@ -1,33 +1,37 @@
 # Hermes Agent — Araştırma metaverisi
 
 - **Study ID/type:** hermes-agent / external-target.
-- **Nesne:** Nous Research Hermes Agent; ajan runtime, kalıcı bilgi/iş, oturum, araç/delegation, kullanıcı yüzeyleri ve değişim yaşamı.
-- **Statü:** ACTIVE PARTIAL; U13 / plan v0.26. [STATE](STATE.md) work authority, [PUBLICATION](evidence/2026-09-13-delegation-reentry/PUBLICATION.md) gerçek yayın, [INDEX](INDEX.md) retrieval.
+- **Nesne:** Nous Research Hermes Agent; ajan runtime, kalıcı bilgi/iş, araç/delegation, kullanıcı yüzeyleri, dağıtım/değişim yaşamı.
+- **Statü:** ACTIVE PARTIAL; U14 / plan v0.27. [STATE](STATE.md) work authority, [PUBLICATION](evidence/2026-09-13-install-update/PUBLICATION.md) actual yayın, [INDEX](INDEX.md) retrieval.
 - **Başlangıç/son çalışma:** 2026-09-07 / 2026-09-13.
-- **Primary:** NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a / manifest0.21.0; current release/installed binary değildir.
+- **Primary:** NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a / manifest0.21.0. Current release/installed binary değil.
 
-## Soru ve kullanım değeri
+## Soru, relevance ve reuse
 
-Önce HERMES-native mekanizma→alt-sistem→ilişki→çekirdek açıklama; ayrı daha-geç dört-alan/SOUL/Development OS aday değerlendirmesi. Dört provisional synthesis ve U11–13 amendment'ları final CORE değildir.
+Önce HERMES-native mekanizma→alt-sistem→ilişki→CORE; ayrı daha-geç dört-alan/SOUL/Development OS aday değerlendirmesi. Dört provisional synthesis ve sonraki source amendment'ları final CORE veya adoption değildir.
 
-U13, child completion'ın actual CLI/TUI tüketicileriyle parent history/run_conversation'a nasıl bağlandığını açar. Pozitif ownership, restore provenance, interim/final ayrımı, queued/scheduled/admitted/completed katmanları ve ack'in hangi eşiği anlattığı reuse sinyalleridir. Aynı result label'ının farklı host'larda aynı makbuz olmadığını somutlaştırır.
+U14, source/package/installed dependency/home/profile/command ile active runtime'ı; code/data/runtime değişimi ile gerçek update makbuzunu ayırır. Install-method authority, pinned-vs-effective identity, lock-first/fallback, phase-specific recovery, supervisor handoff ve unknown/stale/down/partial sınıfları reuse sinyalidir.
 
-**Information:** original task/context, formatted model notification, kısa UI başlığı, snapshot history ve actual use ayrımı. **Work:** input queue kabulü vs scheduled turn/terminal. **Actors:** parent lineage/ownership, active session hakkı ve delivery claimant. **Environment:** process-local state, daemon scheduling, durable ledger ve restart. Bunlar provisional many-to-many retrieval hints; Foundation taxonomy/ontology kararı değildir.
+**Information:** source/manifest/ref, configuration/profile, installed graph, runtime observation ve receipt farklı temsiller. **Work:** installation/update aşamaları ve core/lazy/restart yükümlülükleri; source rollback/data restore farklı acceptance. **Actors:** operator/config grant, image/package manager, updater/helper/supervisor ve yeniden başlayan runtime. **Environment:** interpreter/venv/assets/PATH, shared code vs profile home, process generation, marker/storage permissions. Bunlar provisional many-to-many retrieval hints; Foundation taxonomy üyeliği değildir.
 
-**SOUL:** devredilmiş işin sonucu doğru aktör ve güncel işe gerçekten ne zaman kabul edilir sorusu için reference/falsifier. **Development OS:** no-exception vs explicit refusal, source/selected evidence/actual effect ayrımı, incremental publication ve kanıt-scope örnekleri. Bunlar architecture/dependency/adoption taahhüdü değildir.
+**SOUL adayı:** bir çalışma sisteminin kendi yürütme ve bilgi kaynakları değişirken authority/state/continuation bağını sürdürme soruları. **Development OS adayı:** declared vs effective version, bootstrap/update control state, exact-target readback, phase-dependent fault handling ve report/exit/receipt farkları. Roller reference/falsifier/mechanism learning/design pressure; dependency veya mimari benimsenmedi.
 
 ## Kanıt ve sınır
 
-[Note28](notes/28-DELEGATION-COMPLETION-AND-PARENT-REENTRY.md)→[A source](evidence/2026-09-13-delegation-reentry/RESEARCH.md)/[SOURCES](evidence/2026-09-13-delegation-reentry/SOURCES.md)→[B](evidence/2026-09-13-delegation-reentry/DIAGNOSTIC.md)/[SPEC](evidence/2026-09-13-delegation-reentry/SPEC.md)/[MANIFEST/raw](evidence/2026-09-13-delegation-reentry/MANIFEST.json). Sekiz manuel-function seçkisinde sekiz vaka ve iki sensitivity varyantı bir kayıtlı koşuda çalıştı. Source trace matched ürün PASS değildir; I1/I2 ihlalleri açık etiketlidir.
+[Note29](notes/29-INSTALLATION-UPDATE-AND-ACTIVATION.md)→[A](evidence/2026-09-13-install-update/INSTALL-AND-ACTIVATION.md)/[A SOURCES](evidence/2026-09-13-install-update/INSTALL-SOURCES.md) + [B](evidence/2026-09-13-install-update/UPDATE-AND-RECOVERY.md)/[B SOURCES](evidence/2026-09-13-install-update/UPDATE-SOURCES.md). S01–S14 full/selected metin kapsamı exact ref/blob/aralıklarla kayıtlı.
 
-**Full-parent byte/AST fidelity ve gerçek model/DB/gateway/OS çalışması yok.** Ack callback sayaç, Thread scheduling karşılığı target'ı yürütmez. D02/D03/D04/D07 ack-without-schedule, D05 local-running residue yalnız bu seçki/injected çevrede gözlendi. Gerçek durable delivered, ürün data-loss/deadlock/quality iddiası yok. Aynı pinned heartbeat doğru False tüketimi source karşı örneğidir, yeni koşu değil. [NOT RUN](evidence/2026-09-13-delegation-reentry/CHECKS-NOT-RUN.md).
+**Yeni behavioral execution yok.** Installer/updater/module import/solver/service/DB/OS/model/provider veya test suite çalıştırılmadı; RESULT/PASS yok. Source interleaving ve conditional partial/receipt yorumları actual race/data-loss/yanlış kurulum gözlemi değildir. No full local-byte/dependency closure. [NOT RUN](evidence/2026-09-13-install-update/CHECKS-NOT-RUN.md).
 
-A/SPEC main readback→B execution/publication/readback→coverage sırası uygulandı. Kaynak/gözlem/yayın/araştırma-yön kararı ayrı. Raw archive11 original dosya; eski U04-A/B/U05–U12 kanıtları değiştirilmedi.
+Source/gözlem/yayın birbirinden ayrılır. Initial main U13'ü içeriyordu; U13 tekrar araştırılmadı, final publication makbuzu uzlaştırıldı. U14 opening→A publish/readback→B publish/readback→current routes sırası izlendi. Publication self-review, bağımsız ürün doğrulaması değildir.
 
-## Freshness, revisit ve sıradaki çalışma
+## Korunan previous research
 
-Q57 actual DB/claim expiry/CLI crash/TUI race/first request, messaging adapter/API ve source fidelity açık. Q54, Q55/Q56, U10 Q49/Q51/Q52 ve önceki quality/whole-worker sınırları korunur. Current docs/default-branch navigation primary upgrade veya fix verdict'i değildir. Güçlü reuse/adoption için exact target/config/dependency/runtime yeniden doğrulanmalı.
+U13 [note28](notes/28-DELEGATION-COMPLETION-AND-PARENT-REENTRY.md)→[source](evidence/2026-09-13-delegation-reentry/RESEARCH.md)/[DIAGNOSTIC](evidence/2026-09-13-delegation-reentry/DIAGNOSTIC.md)/[SPEC](evidence/2026-09-13-delegation-reentry/SPEC.md)/[MANIFEST](evidence/2026-09-13-delegation-reentry/MANIFEST.json): manual-selection diagnostic, full-parent fidelity/model/DB/host/OS değil. U14 bunları tekrar koşmadı veya kapatmadı. U12 tool/delegation, U11 runtime, U10 selector ve U04-A/B ayrımı kendi evidence yollarında korunur; eski completed yayınlar bekleyen ZIP değildir.
 
-[Kapsam karşılaştırması](inventory/SCOPE-REVIEW-2026-09-13-U13.md) sonucu **next Q58 install/update/activation**; henüz araştırılmadı. F04 skill-ledger/sync/curator ve F12 eval/quality sonraki yeniden değerlendirme adayları olarak görünür kalır. Artifact existence/load/activation, değişen entrypoint/profile/registry, parent re-entry ve teslim/verifier hedefindeki değişiklikler revisit tetikler.
+## Freshness ve revisit
 
-Giriş STATE→INDEX→METHOD/PLAN; [MAP](CURRENT-RESEARCH-MAP.md) derived. [U12 META](https://github.com/batuhanozgun/agentic-os-search/blob/74c5e3d1dcd260a1841c64dda5fb1d182f7bb299/research/studies/hermes-agent/META.md) ve eski evidence/notes/synthesis doğrudan korunur. Agent-control ve Foundation değişmez.
+Q58'in exact install/build/provenance/dependency/lock/recovery/backup/fleet/receipt/first-request/all-platform sınırları açık. Q54–57, U10Q49/Q51/Q52 ve eski DB/worker/quality/fidelity korunur. Current docs/defaultbranch navigation primary upgrade veya current fix hükmü değildir. Actual adoption/reliability kararı için current exact target/config/dependency/runtime/effect yeniden doğrulanmalıdır.
+
+Revisit: installer/updater/entrypoint/profile/skills-sync değişimi; declared/runtime identity ayrışması; yeni backup/restore/restart kanıtı; lock/probe/receipt oracle değişimi; library/future-task quality sorusu. **Next Q59 library lifecycle** install/update'in actual skill-sync çağrılarını eski learning modeline bağlar; henüz araştırılmadı. Eval/quality ayrı açık alan kalır.
+
+Giriş STATE→INDEX→METHOD/PLAN; [MAP](CURRENT-RESEARCH-MAP.md) derived orientation. [Exact U13 META](https://github.com/batuhanozgun/agentic-os-search/blob/93d6b14438802163ed3f542beded218e14cc51cf/research/studies/hermes-agent/META.md) önceki reuse/kanıt ayrıntısını korur. Foundation/control/diğer çalışmalar değişmez.

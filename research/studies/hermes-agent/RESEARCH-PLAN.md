@@ -1,35 +1,44 @@
 # Hermes Agent — Araştırma planı
 
-**v0.26 / 2026-09-13 — U13 yayımlı; Q58 kurulum/güncelleme kaynak araştırması başlangıcı.** [STATE](STATE.md) work/yetki, [METHOD](METHOD.md) yöntem, [MAP](CURRENT-RESEARCH-MAP.md) görünüm. Primary `c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a` / manifest0.21.0; current ürün hükmü değil.
+**v0.27 / 2026-09-13 — U14 install/update/activation; next Q59 skill-library lifecycle.** [STATE](STATE.md) work/yetki, [METHOD](METHOD.md) yöntem, [MAP](CURRENT-RESEARCH-MAP.md) orientation, [PUBLICATION](evidence/2026-09-13-install-update/PUBLICATION.md) actual yayın. Primaryc4a5deeffa959f8ebc891e02c5bcf767aff1dd2a / manifest0.21.0; current ürün hükmü değil.
 
-## Güncel devir ve başlangıç kapısı
+## Devralınan ve yapılan
 
-Kullanıcının “anladım. plana göre devam et. operasyonel sınırına kadar çalış.” talebi güncel repository planıyla birlikte yorumlandı. İlk main **93d6b14438802163ed3f542beded218e14cc51cf**, sohbetin son U12 açıklamasından ileriydi: U13/Q57 source ve seçki diagnostic zaten yayımlanmıştı. Q57 tekrarlanmadı. Eksik kalan final publication makbuzu **40a7f952f04b893b2dd0ffdb3df551adfca75c4a** ile uzlaştırıldı; actual main/ref, yalnız PUBLICATION değiştiğini gösteren compare ve yeni makbuz bölümü geri okundu. [U13 makbuzu](evidence/2026-09-13-delegation-reentry/PUBLICATION.md).
+İlk actual main93d6b144 eski chatU12'nin ilerisinde U13/Q57'yi taşıyordu. Q57 yeniden yapılmadı; eksik final yayın makbuzu40a7f952 ile yalnız PUB üzerinde uzlaştırıldı. Q58 opening1d65fd3e actual ref/tam plan/scope sonrası A; A c0d64188 actual main/full source notes readback sonrası B; B2ce9310a actual main/four-path/full notes readback sonrası current route/next değerlendirmesi. Ayrıntılı sıra U14 PUBLICATION'da; eski prepared ifadeleri current engel değildir.
 
-AGENT güncel main'den tam okundu; bu conversation'da tam okunmuş R01–R09 değişmeyen canonical sürümleri yeniden uygulandı. U13 STATE/INDEX/META/MAP/PLAN/OPEN-QUESTIONS/SOURCE-LEDGER, note28, A/B araştırması, SOURCES/SPEC/MANIFEST/NOT RUN ve kapsam değerlendirmesi tam geri kazanıldı. Exact eski D/N sonuçları için yeni bağımsız doğrulama iddiası yoktur; raw arşiv yeniden koşulmadı. METHOD ve research root da yeniden tam okundu. U04-A/B, U10–U12 ve dört synthesis değişmeyen aynı-conversation kaynakları/rotalarıyla korunur.
+[Note29](notes/29-INSTALLATION-UPDATE-AND-ACTIVATION.md)→[A install/activation](evidence/2026-09-13-install-update/INSTALL-AND-ACTIVATION.md) + [B update/recovery](evidence/2026-09-13-install-update/UPDATE-AND-RECOVERY.md). Q58'in normal ve farklı refusal/interruption yolları kaynakla bağlandı: source/layout/dependency/shim/profile/command; install authority/backup/Git/change/repair/runtime restart/receipt. Yeni behavioral execution yoktur; full/selected kaynaklar iki defterde, actual installer/update/service veya test koşusu yok.
 
-Bu başlangıç kaydı teknik bulgu değildir. Actual main/ref ve plan geri okunduktan sonra Q58-A başlayacak. **A:** pinned dağıtım/manifest/installer → kaynak ve bağımlılık kimliği → home/config/profile → komut/activation. **B:** yalnız A yayımlanıp geri okunduktan sonra gerçek updater/change/refusal/restart yolu; gerekiyorsa doğal küçük sınırda bölünür. Yayınlanmamış bir büyük dilim varken ikinci dilim açılmaz.
+**Q58 SOURCE ADVANCED, reliability closure değil.** Source ref, distribution metadata, dependency graph, user home/profile, loaded modules ve active runtime tek identity değildir. Positive controls ve fail-open/grace/refusal farklılığı modelin parçasıdır. U14 yeni final CORE veya beşinci merkezi synthesis değil; önceki dört senteze source amendment'tır.
 
-## Q58 — yetkili kaynak sorusu
+## Kapsam değerlendirmesi: neden Q59?
 
-HERMES kaynak/dağıtım paketi ve bağımlılıkları hangi zincirle kurulu komut, home/profile/config ve aktif runtime olur; kurulum/güncelleme bu kimlikleri ve kalıcı kullanıcı durumunu nasıl bağlar?
+[U13 coverage kararı](inventory/SCOPE-REVIEW-2026-09-13-U13.md), execution/delegation/consumer omurgası derinleşirken F12 install/change yaşamı ve F04 skill-library/eval'in geride kaldığını kaydetmişti. U14 F12'nin ilk lifecycle açıklamasını verdi. Bundan sonra yalnız update mutex/probe/fleet fault'larını çoğaltmak, geniş HERMES-native açıklama hedefini yeniden tek dar hatta toplar.
 
-Başlangıç [STRUCTURE](inventory/STRUCTURE.md)'daki pinned root tree `f54f5e9d2682bf11f164de7b34ee10ec121b6434`. README, manifest/entrypoint ve onların gerçekten referans verdiği installer/updater dosyaları açılır; `scripts/` ve `apps/bootstrap-installer/` alternatifleri gerektiğinde. Mutable arama yalnız navigation; sonuçlar exact pin'e bağlanır. En az normal yol ile materially farklı update/refusal/interruption veya desktop/bootstrap yolu karşılaştırılır. Bütün platformlar için kota esaslı tam okuma yoktur.
+U14 kaynaklarında install, startup ve update maintenance'ın bundled/profile becerilerini sync ettiği actual çağıranlar bulundu. Bu nedenle **bir sonraki en değerli geniş bağ F04 library lifecycle'dır**: geçmişte incelenen öğrenme/approval mekanizmasının dosyaları sistem değişirken nasıl saklanıyor, eşitleniyor ve yeniden kullanılıyor? Eval/future-task efficacy yine ayrı açık aday; şimdi sync sonucunu kalite ispatı saymak yerine önce hangi artefaktın gerçekten yeniden kullanıldığı açıklanmalıdır. Bu sıra kalıcı/değişmez son liste değildir; yeni kanıtla revize edilebilir.
 
-Kaynak ref'i, release etiketi, indirilen/kurulan dosya, dependency çözümü, config/profile ve active process eşitlenmez. Yedekleme varlığı tam geri dönüş veya successful activation makbuzu değildir. Bunlar önceden doğru sayılan sonuçlar değil, kaynakla sınanacak ayrımlardır. Çıkış: normal install/activation ve bir değişim yolunda kimlik, etki, korunmuş durum, gerçek consumer ve tamamlanma sınırı kaynakla açıklanabilmeli.
+## İlk sonraki yetkili kaynak işi — Q59
 
-Canlı installer/updater çalıştırma, servis başlatma, gerçek credential/home okuma, ürün/adoption veya upstream patch yoktur. Kaynakları yerelde indirip kimliklerini denetlemek yazılımı kurmak değildir; kaynak okuması davranış deneyi sayılmaz. Gerekirse diagnostic için exact nesne/oracle/çevre ve özgün kanıt ayrı tanımlanır.
+**Soru:** HERMES'in beceri kütüphanesinde dağıtılmış, kullanıcı tarafından düzenlenmiş ve ajan tarafından üretilmiş içerik hangi origin/manifest/ledger kurallarıyla güncellenir, korunur, silinmiş sayılır, geri alınır ve sonraki ajan tarafından keşfedilir?
 
-## Geniş yön ve sonraki değerlendirme
+Başlangıç:
+`install.sh` skill-seeding + `main.py` startup sync + `update_cmd_maint.py` bundled/profile sync → `tools/skills_sync.py` → gerçek manifest/ledger ve skill discovery/read consumer. Önce synthesis01 ve notes02–15'in ilgili evidence/OPEN-Q yollarını geri kazan; eski proposal/approval/rollback araştırmasını tekrar yapılacak iş sanma. Curator'ın archive/restore veya rename/next-use hattı bounded alt birim olarak gerekirse açılır; bütün learning quality aynı tura sığdırılmaz.
 
-[U13 kapsam gerekçesi](inventory/SCOPE-REVIEW-2026-09-13-U13.md) yürütme/devam/zaman/runtime/delegation/consumer omurgasının genişlediğini, F12 kurulum/değişim yaşamının ise henüz benzer açıklaması olmadığını kaydeder. F04 learning çekirdeği derindir; skill-ledger/backup/restore/sync/curator/quality eksikleri silinmez. Q58'in anlamlı birimi yayımlanınca F04 library lifecycle ve F12 eval/quality tekrar tartılır; final CORE veya dört-alan/mimari aşamasına otomatik geçilmez.
+İlk doğal dilim: bir bundled skill'in initial seed→upstream update→local modification/deletion kararları ve bir user/agent-origin karşı yolu. Sonra manifest/ledger/backup/restore ve actual next-discovery ilişkisinin eksik halkası. Herhangi bir missing path için defaultbranch search yalnız navigation; hüküm pinned source'a döner. En az bir normal lifecycle ve materially farklı conflict/deletion/restore karşı yolu yeterli başlangıçtır.
 
-Q57'nin bütün fault matrisini bitirmek yeni aileye geçmenin ön koşulu değildir. Aynı küçük seam'i tekrar tekrar sınamakla geniş HERMES-native açıklama arasındaki denge korunur.
+Çıkış ölçütü: dosya varlığı, manifest membership, origin/owner, change acceptance ve sonraki kullanım arasındaki actual consumer bağlantısı açıklanabilmeli. Sync log'unu quality veya uygulanmış kullanıcı niyeti makbuzu sayma. Tüm skill'leri okumak/dosyaları saymak, native lifecycle açıklamasının yerini tutmaz.
 
-## Korunan residual'lar ve kapsam
+**Q59 bu tur başlamadı.** Yeni oturum önce U14 makbuzu/current main ve mandatory cold-start'ı doğrular, anlamlı opening kaydını yayımlar; sonra ilk kaynak dilimi. Bu source research yetkisidir; kullanıcı skill/config dosyalarını değiştirme, live curator/install/update veya SOUL mimarisi uygulama yetkisi değildir.
 
-Q57 manual parent fidelity, actual DB ack/claim expiry, CLI volatile queue/crash, TUI late scheduling/release/first request, adapter/API ve task-context fidelity açıktır. Q54 policy/child/context/workspace/summary/cancel; Q55 native binding/history; Q56 terminal/persistence/control; U10 Q49 full run_job/Q51 request-quality/Q52 detection-handling; Q40/Q42 DB/quiet/startup; Q47 timing/store; Q48/Q50 transport/cancel ve eski Q07/Q22/Q26/Q29/Q38 quality/fidelity/whole-worker sınırları korunur. Erteleme kapanış değildir; karşı kanıt veya güçlü reuse ilgili doğrulamayı yeniden açar.
+## Korunan residual doğrulamalar
 
-Yalnız `research/studies/hermes-agent/**` ve CATALOG HERMES satırı. METHOD, notes01–28, U04–U13 özgün araştırma/kanıtları ve synthesis01–04 değiştirilmez; U13 publication uzlaştırması ayrı tarihsel kayıt olarak tamamlanmıştır. Foundation, context/Codex, agent-control, diğer studies, upstream, architecture/adoption ve izin/credential ayarları değişmez.
+Q58 actual ref/resolver/lock graph/installer/asset/PATH/custom-home/profile; provenance/detection, update/recovery mutex/fault, backup/snapshot/DB restore, critical imports/probe grace, process identity/health, partial/exit/receipt ve tüm platform parity. [U14 NOT RUN](evidence/2026-09-13-install-update/CHECKS-NOT-RUN.md) planned ölçümlerdir, sonuç değil.
 
-[Exact U13 planı](https://github.com/batuhanozgun/agentic-os-search/blob/93d6b14438802163ed3f542beded218e14cc51cf/research/studies/hermes-agent/RESEARCH-PLAN.md) opening/A/B sırasını ve [U12 planını](https://github.com/batuhanozgun/agentic-os-search/blob/74c5e3d1dcd260a1841c64dda5fb1d182f7bb299/research/studies/hermes-agent/RESEARCH-PLAN.md) korur. Kaynak→mekanizma→alt-sistem→ilişki→CORE→ayrı dört-alan değerlendirmesi; dosya/test sayısı tamamlanma yüzdesi değildir.
+Q57 manual parent fidelity/actual DBclaimackexpiry/CLIqueuecrash/TUIlate scheduling/first request/adapter/source fidelity; Q54 child/tool policy/context/budget/cancel; Q55 native binding/history; Q56 terminal/persistence/control; U10Q49/Q51/Q52; Q40/Q42/Q47/Q48/Q50; eski Q07/Q22/Q26/Q29/Q38 learning/whole-worker/fidelity korunur. New source/reuse/counterevidence gerektiğinde exact residual yeniden açılır; erteleme kapanış değildir. Bütün fault matrisi geniş araştırmanın ön koşulu yapılmaz.
+
+## Incremental kapı ve kapsam
+
+Bir büyük dilimin bulgu+kaynak+sınır+sonraki sorusu main/ref/content/scope olarak doğrulanmadan ikincisi biriktirilmez. Yeni ref öncesi current main kontrol edilir; eşzamanlı Foundation/diğer çalışma korunur; force yoktur. Yayın engelinde yalnız mevcut dilim çözülür.
+
+Yalnız Hermes package + CATALOG HERMES satırı. METHOD, notes01–28, U04–U13 özgün kanıtlar, synthesis01–04 ve U14 A/B original text'leri değişmez. U13 publication uzlaştırması teknik kanıt değişimi değildir. Foundation, context/Codex/control/diğer studies/upstream/adoption/izin ayarı ve canlı ürün değişmez.
+
+[Exact U14 opening](https://github.com/batuhanozgun/agentic-os-search/blob/1d65fd3e701dcd7c3c84b7efebb99666ca9377e0/research/studies/hermes-agent/RESEARCH-PLAN.md)→[U13 planı](https://github.com/batuhanozgun/agentic-os-search/blob/93d6b14438802163ed3f542beded218e14cc51cf/research/studies/hermes-agent/RESEARCH-PLAN.md) eski sıralama ve yetkiyi korur. Yöntem kaynak→mekanizma→alt-sistem→ilişki→CORE→ayrı daha-geç dört-alan değerlendirmesi; dosya/test adedi tamamlanma oranı değildir.
