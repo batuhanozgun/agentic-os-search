@@ -1,41 +1,37 @@
 # Hermes Agent — Açık sorular
 
-**2026-09-13 / U12 / plan v0.25.** Q01–Q56 kimlik ve epistemik sınırları korunur. Q54 source-advanced, Q57 actual detached completion/parent re-entry ilk sonraki dar kaynak sorusudur. [STATE](STATE.md), [U12 A](evidence/2026-09-13-tool-delegation/TOOL-ADMISSION.md), [U12 B](evidence/2026-09-13-tool-delegation/DELEGATION-LIFECYCLE.md), [NOT RUN](evidence/2026-09-13-tool-delegation/CHECKS-NOT-RUN.md), [PUBLICATION](evidence/2026-09-13-tool-delegation/PUBLICATION.md). [Exact U11](https://github.com/batuhanozgun/agentic-os-search/blob/6a9a8c48204102d592780971a212b363ec97bc98/research/studies/hermes-agent/OPEN-QUESTIONS.md) önceki disposition/evidence zincirini korur.
+**2026-09-13 / U13 / plan v0.26.** Q01–Q57 kimlikleri ve eski evidence/disposition korunur; Q58 ilk sonraki geniş kaynak sorusudur. [STATE](STATE.md), [U13 A](evidence/2026-09-13-delegation-reentry/RESEARCH.md), [B](evidence/2026-09-13-delegation-reentry/DIAGNOSTIC.md), [NOT RUN](evidence/2026-09-13-delegation-reentry/CHECKS-NOT-RUN.md), [kapsam gerekçesi](inventory/SCOPE-REVIEW-2026-09-13-U13.md).
 
-| ID | Current disposition |
+## Güncel değişen disposition
+
+| ID | Güncel durum |
 |---|---|
-| Q12 | U02–U12 native açıklamaları; synthesis01–04 korunur. U11 runtime, U12 tool/delegation source amendment'ıdır. Final CORE, dört-alan veya bütün runtime kapanışı değil. |
-| Q34 | U03 task/claim/terminal ve U04/U05 quiet caller. Actual full dispatcher/OS/task-quality acceptance açık; U06 registry ve U10 selector bunların testi değil. |
-| Q35 | Expected run ile terminal/superseded ayrımı; A:G06/B:G10 callback timing. Session lease ayrı nesne; physical cancellation ve full ownership açık. U12 async terminal/worker ayrımı başka kaynak hattıdır. |
-| Q36 | Kanban block callback/durable receipt/exit-code/notification reconciliation açık. Cron/gateway/delegation delivery aynı transaction veya aynı soru değildir. |
-| Q37 | Kanban goal, session goal/loop/heartbeat farklı driver/state/acceptance. U06 source genişlemesi, cron ve U12 delegation modeli bunları eşitlemez; whole runtime/quality açık. |
-| Q38 | U03 K ve U04 manual Kanban selected-parent fidelity NOT VERIFIED. Başka kaynakların tam okunması veya hash'i eski selected-parent borcunu kapatmaz. |
-| Q39 | Missing/invalid run-ID ve None farklı caller'larda nasıl ayrılır? Açık; genel gateway/cron/delegation route buna evrensel yanıt değil. |
-| Q40 | Actual resolve/projection/guard ve gateway load/live-history→agent source ilerledi. U05 quiet no-wait/no-rotation gap koşullu source inference. Actual SessionDB+quiet next-request/wire NOT RUN. U10 previous-output selector ve U11 native mirror farklı nesneler; eski messages429 current blocker değil. |
-| Q41 | Transcript atomic publish vs afterwards manager save/clear; U06 write-adoption/context/lease alias/refusal source. L03 actual DB rotation ve B:H09 actual SessionDB fault değil. Actual migration/profile/receipt/heartbeat rebind açık. |
-| Q42 | DEFERRED NOT CLOSED: startup wrapper carrier'ı bekler; U07 exact gateway/run.py3150–3325 erişimi429. Actual preclaim/drain/agent admission, tick-turn ve process restart yapılmadı. Yeni başka aralıkların okuması bu zinciri doğrulamaz. |
-| Q43 | Actual transcript holder mismatch guard; aynı henüz-reclaimed-olmayan holder expiry sonrası yenilenebilir. Bütün writers/effects bu gate'te değil. L01–L07 process-local; U10–U12 kaynakları real worker/OS fencing yapmaz. |
-| Q44 | Goal gate oracle/revision ve prefix-limited judge scope. Actual effectiveness, dirty-content fingerprint ve model quality açık. |
-| Q45 | Loop marker/until/count/budget farklı stop nedenleri. U10 summary/operational success ve U12 child status/truncated benzer ayrımı gösterir; gerçek semantic/UX acceptance doğrulanmaz. |
-| Q46 | U07 pending+None/unknown; U08 job-outcome→latest-execution join→CLI; U10 output-save→silence gate/source. Tam queue/worker/CLI/live receipt/late reconciliation açık; last-run ok explicit delivered iddiası değildir. U11 native Q56 ve U12 delegation Q57 farklı katmanlar. |
-| Q47 | U09 SOURCE ADVANCED: provision job+time→inbound job-only→real claim/finish/due/manual/rearm. Wire after-finish dedup genellemesi kodla desteklenmiyor; conditional T0–T4 gerçek duplicate/NAS/store/clock/second worker koşusu değil. |
-| Q48 | Actual startup/housekeeping/profile/drainer/queue callback/CLI source bridge ilerledi. Full host/profile/transport/late settlement NOT RUN. Full source/bağımlılık veya load-bearing reuse halinde residual receipt validation açılır. |
-| Q49 | SOURCE ADVANCED / U10: accepted snapshot→body scopes→no_agent/monitor/wake/agent→runtime/tools/session/memory/prompt→result/output/finalization. Tek native selector diagnostic, full run_job/script/model/DB değil. Cwd, late DB, success/cleanup ve permission/quality residual açık. |
-| Q50 | U08 bounded async bridge: B02 cancel=True after local effect, B03 cancel=False after terminal error. Boolean transport-phase oracle değil; live send/network/fallback/duplicate NOT RUN. U12 source cancellation başka target; eski deney yeniden koşulmadı. |
-| Q51 | COMPONENT OBSERVED / U10: context_from latest-mtime, silent/error selection, empty-latest no fallback, 8.000-char prefix ve missing predecessor. C01–C06 native selector/files; gerçek writer→ilk request→quality veya bütün memory kaybı ölçülmedi. |
-| Q52 | SOURCE-ONLY / U10: monitor detection-time hash/snapshot önce; downstream preflight/agent/delivery başarısı sonra. Failed handling→unchanged suppression, partial writes/races/repair actual store/worker ile NOT RUN. C02 monitor persistence deneyi değil. |
-| Q53 | SOURCE ADVANCED / U11-A/B: provider/model/api_mode→init/client→ordinary/native dispatch; ortak admission, history/tools/compaction/fallback/interrupt/cleanup. Full runtime/config/credential/SDK/request/native process ve primary restore yok. U12 child routing source ekidir, actual runtime doğrulaması değildir. |
-| Q54 | SOURCE ADVANCED / U12-A/B: ordinary schema/bridge/policy→executor/read_file/effect/result; gerçek delegation factory→child context/role/budget/runtime→sync/detached result/control/cleanup ve ledger. Full caller/OS/DB/model/quality NOT RUN. Rewrite/path reservation, role-grant/actual toolsets, shared environment, correction/summary fidelity, fallback/cancel residual açık; detached actual parent re-entry Q57. |
-| Q55 | SOURCE-BOUNDED / U11: HERMES declared model/system/history ile native thread/start/turn/start/effective config; fresh/reused/reconstructed session, selective mirror/native compaction. Actual request/model/restore/DB comparison NOT RUN; bütün native bağlamın yokluğu iddiası değil. |
-| Q56 | SOURCE-BOUNDED / U11: native final text at deadline vs turn/completed; projection flush vs agent_persisted/completed; interrupt request vs ceased effect, hard/soft cleanup. Actual host/DB/subprocess/physical effect NOT RUN; data-loss/ongoing-work saha hükmü değil. |
-| Q57 | FIRST NEXT NARROW SOURCE: async-delegation completion→actual host drain→current ownership/claim/ack→parent admission/history. U12 S15 producer/ledger/helpers okundu, actual CLI/gateway/API consumer tamamı açılmadı. Normal/restored/expired/interim-notice ayrımı gerekli; queue.put veya claim helper adı parent tüketimi makbuzu değildir. |
+| Q12 | U02–13 native kaynak açıklamaları ve dört provisional synthesis; final CORE/dört-alan veya full runtime kapanışı değil. U13 real CLI/TUI consumer oku ekledi |
+| Q57 | **SOURCE ADVANCED + BOUNDED MANUAL-SELECTION OBSERVED.** Producer→startup restore→actual CLI/TUI ownership/claim→parent history/run_conversation bağlandı. CLI queue-put ack ve TUI scheduling wrapper ack farklıdır. D02/D03/D04/D07 source False→ack-request; D05 claimNone/local-running residue; D06 exception ve D08 interim karşı yolları. Manual parent-byte/AST fidelity, gerçek DB ack/rowcount/expiry/crash, tüm poller/race/telafi, first model request ve messaging/API açık. Expected trace matched ürün PASS değil. Aynı pinned heartbeat False'u ele alır: product-wide genelleme yok |
+| Q58 | **FIRST NEXT BROAD SOURCE; NOT YET RESEARCHED.** Kaynak/release/dependency→kurulu komut/home/profile/config→etkin runtime→update/activation/preserved state. Root pinned tree/README/manifest→gerçek installer/updater route'u. Normal yol+bir değişim/ret/alternatif yüzey karşılaştırması. Canlı kurulum/update/adoption yetkisi yok |
 
-Q01–Q11 ve Q13–Q33'ün önceki disposition'ları exact U11→U10→v0.22→v0.20→önceki immutable zincirle korunur. Q07/Q22 ordinary compaction→API-message source bağı, final wire/timing/variants açık; Q26/Q29 full-original/full-worker NOT RUN. Skill-ledger/sync/scanner/learning quality ve eski approval/rollback sınırları sürer. Source/disposition kaybolmadan ilgisiz bütün hataları yeniden araştırma zorunluluğu yoktur.
+Q57 yeni belirli residual'ları başka soru ID'si icat etmeden taşır: (a) original whole-parent fidelity, (b) actual ledger+host-acceptance, (c) late scheduling refusal and busy-slot cleanup, (d) volatile queue/crash replay, (e) original per-task context vs formatted notification+actual request. Bunların her biri B'de test edilmiş değildir. U13 NOT RUN gerçek ölçüm sınırlarını verir.
 
-## Kanıt ve yeniden açma
+## Korunan açık alanlar — disposition değişikliği yok
 
-U11/U12'de yeni execution/RESULT yok. Full/selected kaynak okumaları source-only; aynı sınıf, şema, callback veya result şekli aynı kontrol kapsamını kanıtlamaz. [U12 NOT RUN](evidence/2026-09-13-tool-delegation/CHECKS-NOT-RUN.md) gelecekteki gerçek ölçümlerdir, sonuç değildir.
+| ID/alan | Korunan sınır ve exact evidence |
+|---|---|
+| Q34–39 | Task/run/claim/terminal, worker/OS/quality, own-run/None, block-receipt ve manual Kanban parent-fidelity; U03–05. U13 delivery farklı consumer, eski kanıtın tekrarı değil |
+| Q40 | Actual DB/quiet no-wait/no-rotation next-request history; U05 koşullu kaynak çıkarımı ve U06 gateway history. Selector veya notification snapshot bunu kapatmaz |
+| Q41–43 | Rotation/manager save/driver rebinding, startup carrier→actual admission/tick ve bütün writers/effects fencing; U04-B heartbeat adapter veya U06 process-local lease full SessionDB/OS değil |
+| Q44–45 | Goal gate oracle/revision, limited judge, loop marker/count/semantic acceptance. U13 ack/sample test bu quality sorularını ölçmedi |
+| Q46–48 | Cron queue/job-status/actual drainer/late-settlement ve occurrence callback/store/clock/NAS. Last-run ok explicit delivered değildir; current kaynak/fault yeniden doğrulaması gerekebilir |
+| Q49 | U10 accepted snapshot→run_job no_agent/monitor/agent source-advanced, full script/model/DB/cleanup/quality NOT RUN |
+| Q50 | U08 original async bridge: cancel True sonrası local effect ve cancel False sonrası error; gerçek send/network/duplicate değil. U13 selected wrappers başka target |
+| Q51–52 | U10 previous-output selector local files ve monitor detection→handling; writer→wire→quality ve actual store/repair açık |
+| Q53–54 | U11 runtime/ordinary-native ownership, U12 tool/child source-advanced; actual configuration/fallback/child/permission/workspace/budget/cancel/quality residual. Q57'nin açılması bunları kapatmadı |
+| Q55–56 | Native model/system/history/restart binding, projected history, final text/terminal/persistence/physical effect; source-bounded actual runtime NOT RUN |
+| Q07/Q22/Q26/Q29/Q38 ve learning | Request fidelity, full review worker, selected-parent identity, skill-ledger/backup/sync/curator ve future-task quality açık |
 
-U10 [SPEC](evidence/2026-09-12-cron-execution-context/SPEC.md)/[RESULT](evidence/2026-09-12-cron-execution-context/RESULT.json)/[MANIFEST](evidence/2026-09-12-cron-execution-context/MANIFEST.json) altı selector case, identity ve iki source-mutant kontrolüdür; bir başarılı run, bir saklanmış pre-case parse failure. U06 process-local lease; U07 native queue+temp SQLite; U08 native async bridge+synthetic transport; U09 source-only T0–T4 kendi kanıtlarında korunur. Exact iddia INDEX/SOURCE-LEDGER→kendi raw/probe'una döner. U04-A/B eş numaraları ayrı, B'nin33 original dosyası korunur. Publication/hash/link/readback kontrolleri davranış deneyi değildir.
+**Exact önceki Q01–Q56 metni ve bütün evidence/disposition bağlantıları:** [U12 OPEN-QUESTIONS](https://github.com/batuhanozgun/agentic-os-search/blob/74c5e3d1dcd260a1841c64dda5fb1d182f7bb299/research/studies/hermes-agent/OPEN-QUESTIONS.md). Bu immutable kayıt current next için değil, değişmeyen eski soruların ayrıntısı içindir; soru numaraları yeniden kullanılmadı. U01–12 notes/evidence fiziksel yollarında durur. [INDEX](INDEX.md)/[SOURCE-LEDGER](SOURCE-LEDGER.md) doğrudan girişlerdir.
 
-Eski dosyalardaki first-next cümleleri tarihsel sıradır. Current next Q57; ardından kapsam dengesi üzerinden geniş kalan aileler yeniden değerlendirilir. Yeni karşı kanıt, full source/bağımlılık veya reliability/adoption reuse gerektirdiğinde ilgili residual yeniden açılır. Erteleme kapanış değildir; bütün fault uzayı broad araştırmayı bloke etmez. Mimari/adoption aşamasına geçilmez.
+## Kanıt, tazelik ve devam
+
+U13 bir selected-function invocation, sekiz vaka+iki sensitivity kopyasıdır; HERMES suite/product/model/DB koşusu değildir. Raw source/input/probe/RESULT/loglar [MANIFEST](evidence/2026-09-13-delegation-reentry/MANIFEST.json)'te. Önceden yayınlanan SPEC sonradan gevşetilmedi. Aynı numaralı eski U07 D veya U08 B ve U04-A/B vakaları ayrı deneydir; başarı skoru/independent replication toplamı yok.
+
+Q58 yeni geniş açıklama sorusudur; Q57 residual'larını kapatmak ön koşulu yapılmadı. Q58 sonrası F04 library lifecycle ve eval/quality tekrar tartılır. Karşı kanıt, full source/dependencies veya load-bearing reliability/adoption ihtiyacı ilgili eski soruyu tekrar açar. Erteleme kapanış değil; hiçbir candidate finding Foundation veya mimari truth yapılmadı.

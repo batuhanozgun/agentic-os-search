@@ -1,0 +1,11 @@
+# U13 — Incremental publication record
+
+**2026-09-13 / A AND B PUBLISHED/READ BACK; FINAL ROUTES PREPARED, NOT YET VERIFIED.** [STATE](../../STATE.md), [A](RESEARCH.md), [B](DIAGNOSTIC.md), [MANIFEST/raw](MANIFEST.json), [coverage](../../inventory/SCOPE-REVIEW-2026-09-13-U13.md). Final current-surface publication requires its own actual ref/content/scope check; this prepared entry is not that verdict.
+
+Opening PLAN899422ceba05f7b6a577b35baf6a985c317b7cf7 (parent74c5e3d1dcd260a1841c64dda5fb1d182f7bb299) was read from main with a single-file compare. A/SPEC2ef205a9bf13d166c15a630e4320dd73eb190fb2 (root e73b115780a1067d27d2b6c0fb23e87a82e42c34) changed four paths, three added+STATE. Actual main/ref and RESEARCH1–44/45–EOF, SOURCES, SPEC, STATE were fully read before B execution.
+
+B1372287c9b0806c1d0103cc1c9351bcf4dd69b08 (root7e51050a4c4261685f6f77890923fcc0a61ec9da) changed six paths, five additions+STATE, no delete/move. Actual main/ref, DIAGNOSTIC, MANIFEST, RESULT-SUMMARY, README and STATE fully read. Raw archive fetched as base64; the displayed body was truncated, and the metadata tail was separately read. Its committed blob798d00149d800ad52fb604a36dca70e1b384e995 equals local computed/create_blob identity. The complete returned base64 was NOT decoded/rehashed as a second downloaded copy. The original local archive was fully reopened; all11 members match the local files and manifest. No new behavioral rerun during publication.
+
+A RESEARCH86ebef155d20754a806b26ea00fcc3742a7a75b2, SOURCES23b2921458f6be9bdbc83f80db074bd555371dc2, SPECca736ff806d10e940b832b176a045401aeb301ad. B DIAGNOSTIC0928dccd7ff84bd9fc3a2b36b96cb9c28c9c3b65, MANIFESTc141bf6b96518752ccb79432caac3050112521e9, SUMMARYfe929244e2a23b0a3ce2fa182dc9a46480f79d96, READMEe0719297e331679816270e6bce8b799039b39da1, interim STATE08999d67d5cc9b7462af641ae72ce2d16320a38e.
+
+Only after B readback were historical scope/core-coverage/topology and synthesis01 reread to rebalance breadth. Final routes advance U13/v0.26 and next Q58 install/update/activation source research; Q58 has NOT been carried out. Four provisional syntheses and all prior evidence remain. Source/selected diagnostic/transfer/coverage/behavior are distinct. No full Hermes, model, database, gateway or OS-restart validation; full-parent selection fidelity remains open.
