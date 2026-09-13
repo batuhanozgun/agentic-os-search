@@ -1,38 +1,34 @@
 # Hermes Agent — Açık sorular
 
-**2026-09-13 / U14 / plan v0.27.** Q01–Q58 kimlikleri ve eski evidence/disposition korunur; Q59 ilk sonraki geniş kaynak sorusudur. [STATE](STATE.md), [U14 A](evidence/2026-09-13-install-update/INSTALL-AND-ACTIVATION.md), [B](evidence/2026-09-13-install-update/UPDATE-AND-RECOVERY.md), [NOT RUN](evidence/2026-09-13-install-update/CHECKS-NOT-RUN.md), [PLAN](RESEARCH-PLAN.md).
+**2026-09-13 / U15 / plan v0.28.** Q01–Q59 kimlikleri ve önceki evidence/disposition korunur; Q60 ilk sonraki geniş sorudur. [STATE](STATE.md), [U15 A](evidence/2026-09-13-skill-library/SYNC-AND-LOCAL-STATE.md), [B](evidence/2026-09-13-skill-library/ARCHIVE-LEDGER-AND-DISCOVERY.md), [NOT RUN](evidence/2026-09-13-skill-library/CHECKS-NOT-RUN.md), [PLAN](RESEARCH-PLAN.md).
 
 ## Güncel disposition
 
-| ID | Güncel durum |
+| ID | Durum |
 |---|---|
-| Q12 | U02–14 native kaynak açıklamaları ve dört provisional synthesis. U14 install/update/activation yaşamı yeni amendment; final CORE/dört-alan veya full runtime kapanışı değil |
-| Q57 | SOURCE ADVANCED + BOUNDED MANUAL-SELECTION OBSERVED / U13. CLI/TUI ownership/claim/queue/schedule/history bağlandı; selected D/N observations kendi SPEC/RESULT/raw sınırında. Full-parent fidelity, actual ledger ack/rowcount/expiry/crash/worker/request/adapter açık; U14 yeniden koşmadı |
-| Q58 | **SOURCE ADVANCED / U14-A/B, NOT EXECUTED.** Source/build/layout/ref→dependency/shim/profile/command; update admission/backup/Git/repair/restart/fleet/receipt bağlandı. Image/package refusal, staged skipped ve interrupted dependency/fleet karşı yolları. Actual installer/solver/asset/PATH/profile/provenance/mutex/backup/DB/service/OS/first request/full-platform/reliability açık. UpdateLock nonexclusive/fail-open, mixed partial/exit/receipt ve failed-finalization source çıkarımı actual race/yanlış update değil |
-| Q59 | **FIRST NEXT BROAD SOURCE; NOT YET RESEARCHED.** Install/update/startup skill sync→bundled/user/agent-created origin/manifest/ledger→modification/deletion/relocation/restore→actual discovery/use. Curator bounded bağlantı; future-task quality ayrı. Eski synthesis01/notes02–15'in completed proposal/approval/rollback araştırması korunarak gerçek library lifecycle açılacak |
+| Q12 | U02–15 native açıklama ve dört provisional synthesis. Library lifecycle yeni source amendment; final CORE/dört-alan/full runtime değil |
+| Q59 | **SOURCE ADVANCED / U15-A/B, NOT EXECUTED.** Bundled baseline/local modification/deletion/optout/external; maintenance authority/usage/archive/ledger/snapshot; actual list/index/view/use. Remote Hub/org publisher/onay/push/pull/merge, all writers, filesystem/rollback/sidecar/cache/payload/first-request/quality maddi açık. V1 second-sync, reset/backup-collision conditional source inference, actual incident değil |
+| Q60 | **FIRST NEXT BROAD SOURCE; NOT RESEARCHED.** Test/eval config→runner→actual target/tasks→output→oracle/metric→verdict/claim. Deterministic mechanism correctness vs agent task performance vs future-task learning efficacy. Actual pin/fixture/negative/control/scope ve downstream consumer ayrı incelenecek |
 
-Q58 residual'ları yeni ID'lerle çoğaltılmaz: (a) declared/ref vs actual installed graph/runtime, (b) update/recovery/authority mechanisms, (c) crash/marker/backup/replacement, (d) banner/exit/receipt outcome, (e) all-platform/dependency/config coverage. [NOT RUN](evidence/2026-09-13-install-update/CHECKS-NOT-RUN.md) gerçek ölçüm ihtiyacını taşır. Q57 önceki beş residual alanı [exact U13 OPEN-Q](https://github.com/batuhanozgun/agentic-os-search/blob/93d6b14438802163ed3f542beded218e14cc51cf/research/studies/hermes-agent/OPEN-QUESTIONS.md)'de korunur; erteleme kapanış değildir.
+Q59 residual'ları yeni ID'lerle şişirilmez: (a) source/name/baseline/user intent, (b) archive/ledger/whole-tree/sidecar ilişkileri, (c) actual list/load/cache/request fidelity, (d) remote-library authority/sync, (e) behavior/quality. Source unit'in bitmesi bu alanların tamamlandığı anlamına gelmez.
 
-## Korunan açık alanlar — disposition değişikliği yok
+## Korunan açık alanlar
 
-| ID/alan | Korunan sınır ve exact evidence |
+| ID/alan | Korunan sınır |
 |---|---|
-| Q34–39 | Task/run/claim/terminal, worker/OS/quality, own-run/None, block-receipt ve manual Kanban parent-fidelity; U03–05. Yeni update/source başka target |
-| Q40 | Actual DB/quiet no-wait/no-rotation next-request history; U05 koşullu kaynak ve U06 gateway history. Selector/notification/installer bunları kapatmaz |
-| Q41–43 | Rotation/manager save/driver rebinding, startup carrier→actual admission/tick ve bütün writers/effects fencing; U04-B adapter ve U06 process-local lease full SessionDB/OS değil |
-| Q44–45 | Goal gate oracle/revision, limited judge, loop marker/count/semantic acceptance; U14 update probes aynı quality nesnesi değil |
-| Q46–48 | Cron queue/job-status/actual drainer/late-settlement ve occurrence callback/store/clock/NAS. Last-run ok explicit delivered değildir |
-| Q49 | U10 accepted snapshot→run_job no_agent/monitor/agent source-advanced; full script/model/DB/cleanup/quality NOT RUN |
-| Q50 | U08 native async bridge/local effect/error; actual network/duplicate değil. U14 mutex/receipt yeni source target |
-| Q51–52 | U10 output selector/local files ve monitor detection→handling; writer→wire→quality ve actual store/repair açık |
-| Q53–54 | U11 runtime/ordinary-native ownership, U12 tool/child source-advanced; actual config/fallback/child/permission/workspace/budget/cancel/quality açık |
-| Q55–56 | Native model/system/history/restart binding, projected history, final text/terminal/persistence/physical effect; actual runtime NOT RUN |
-| Q07/Q22/Q26/Q29/Q38 ve learning | Request fidelity/full review worker/selected-parent identity/future-task quality; skill-ledger/backup/sync/curator Q59 kapsamında yeni consumer'la açılacak, şimdiden kapanmış değil |
+| Q58 | U14 source-only installation/update/activation; actual installer/solver/assets/profile/provenance/mutex/backup/DB/fleet/receipt/full-platform açık |
+| Q57 | U13 CLI/TUI source + bounded manual-function diagnostic; original parent fidelity, actual DB ack/claim/expiry/crash/worker/first request/adapter açık. Yeni run yok |
+| Q53–56 | U11 runtime and U12 tool/child source; native model/system/history/control/persistence, authority/workspace/budget/cancel ve quality açık |
+| Q49/Q51/Q52 | U10 accepted cron snapshot→run_job/monitor/agent source ve output selector local-files diagnostic; full run_job/request-quality/detection-handling açık |
+| Q46–48/Q50 | Cron queue/drainer/status/occurrence, actual timing/store/NAS/transport ve cancellation. Last-run ok delivered değil; local effect network proof değil |
+| Q40–43 | Actual DB/quiet-history, rotation/manager-save/driver-rebind/startup, full writers/effects fencing. Process-local lease veya manual adapters full SessionDB/OS değil |
+| Q34–39/Q44–45 | Task/run/claim/terminal/worker/None/quality ve goal-loop judge/revision/marker/semantic acceptance; yeni skill-usage sayacı bu ölçümlerin yerine geçmez |
+| Q07/Q22/Q26/Q29/Q38 | Eski learning/request fidelity, full review worker ve selected-parent identity/whole-worker/quality. Q60 bu borçların hepsini kendi kendine kapatmaz |
 
-**Exact önceki Q01–Q56 ve evidence/disposition:** [U12 OPEN-QUESTIONS](https://github.com/batuhanozgun/agentic-os-search/blob/74c5e3d1dcd260a1841c64dda5fb1d182f7bb299/research/studies/hermes-agent/OPEN-QUESTIONS.md). Immutable eski kayıt current next değildir. Fiziksel eski notes/evidence yolları korunur; INDEX/SOURCE-LEDGER doğrudan giriştir.
+[Exact U14 OPEN-QUESTIONS](https://github.com/batuhanozgun/agentic-os-search/blob/c76dfd796996e96824d9860b0735a60a663ed7a0/research/studies/hermes-agent/OPEN-QUESTIONS.md)→U13/U12 bütün önceki soru/evidence/disposition ayrıntısını korur. Immutable eski next current next değildir. Eski fiziksel evidence/notes ve raw arşivler aynı yerde; [INDEX](INDEX.md)/[SOURCE-LEDGER](SOURCE-LEDGER.md) doğrudan rotalardır.
 
-## Kanıt, tazelik ve devam
+## Kanıt ve tekrar açma
 
-U14 source-only; yeni RESULT, module/installer/updater/solver/model/DB/service/OS/suite koşusu yok. Full read local byte/dependency closure değildir. U13 selected diagnostic kendi SPEC/MANIFEST/raw'ında, U10 native selector ve U04-A/B/U06–U08 deneyleri kendi kapsamlarında kalır; tekrar veya independent replication sayılmadı.
+U15 iki dilim source-only; S05/S14 test kodu okunması successful execution değildir. Yeni RESULT/PASS/suite/local diagnostic yok. Full text local-byte/AST/dependency closure değildir; eski deneyler independent replication sayılmadı. [NOT RUN](evidence/2026-09-13-skill-library/CHECKS-NOT-RUN.md) ölçüm ihtiyacıdır, sonuç değil.
 
-Q58'in anlamlı source unit'i ardından kapsam dengesi F04 library lifecycle'a döndü. Q59 henüz araştırılmadı; eval/quality sonraki karşı aday olarak açık. Her fault'u bitirmek broad araştırmanın şartı değildir. Yeni karşı kanıt, actual dependency/source erişimi veya load-bearing reliability/adoption kararı exact residual'ı yeniden açar. Candidate bulgu Foundation veya architecture truth'a yükseltilmez.
+Q60 evaluation ailesine genişleme kararı, U15 actual loaded/reused sayaçlarının efficacy olmadığını ayırır. Remote org/Hub governance Q59'da görünür kalır, sıradan 'küçük ayrıntı' sayılmaz. Her fault kombinasyonu geniş araştırmanın ön koşulu değildir; yeni karşı kanıt veya load-bearing reliability/adoption reuse exact residual'ı yeniden açar. Erteleme kapanış, candidate bulgu Foundation/mimari truth değildir.

@@ -1,32 +1,33 @@
 # HERMES — Güncel araştırma haritası
 
-**Derived orientation / 2026-09-13 / U14.** Authority [STATE](STATE.md), sıra [PLAN](RESEARCH-PLAN.md), yöntem [METHOD](METHOD.md), kanıt [INDEX](INDEX.md). Harita ikinci work authority değildir.
+**Derived orientation / 2026-09-13 / U15.** Authority [STATE](STATE.md), sıra [PLAN](RESEARCH-PLAN.md), yöntem [METHOD](METHOD.md), kanıt [INDEX](INDEX.md). Bu harita ikinci work authority değildir.
 
 ## Büyük yön ve mevcut model
 
-Kaynak mekanizmaları→alt-sistemler→ilişkiler→çekirdek açıklama→ayrı daha-geç dört-alan/SOUL/Development OS aday değeri. Dört provisional synthesis ve U11–14 source amendment'ları var; final CORE yok. Kapsam genişlemesi runtime/quality güven düzeyinin aynı oranda arttığı anlamına gelmez.
+Kaynak mekanizmaları→alt-sistemler→ilişkiler→CORE→ayrı dört-alan/SOUL/Development OS aday değeri. Dört provisional synthesis ve notes26–30 source ekleri var, final CORE yok. Kapsam genişlemesi runtime/quality güven düzeyine eşit değildir.
 
 | Hat | Elde olan | Açık kalan |
 |---|---|---|
-| Öğrenme/bellek/beceri | Notes02–15; synthesis01 | **Next Q59:** library/manifest/ledger/sync/backup/restore/curator→next use; future-task quality |
+| Öğrenme/proposal/approval | Notes02–15; synthesis01 | Full worker/quality ve eski fidelity borçları |
+| **Skill-library lifecycle** | **Note30/U15:** source/local baseline, curation/ledger/rollback, actual list/index/view/use | Q59 remote Hub/org governance; all writers, filesystem/cache/first request ve efficacy |
 | Normal turn/context/session | Note16/U02; synthesis02 | Tüm interface/backend/DB/wire varyantları |
 | Kalıcı task/çok turlu devam | Notes17–19/U03–04; synthesis03 | Actual worker/OS/semantic acceptance, selected-parent fidelity |
 | History/lease/restart | Notes20–21/U05–06 | Actual DB/quiet/startup; Q40/Q42 |
 | Scheduled work/context | Notes22–25/U07–10; synthesis04 | Real store/NAS/clock/transport/first request/quality; Q47–52 |
-| Runtime/backend | Note26/U11 ordinary/native ownership | Native binding/history/terminal/persistence/physical effect; Q55/Q56 |
+| Runtime/backend | Note26/U11 ordinary/native ownership | Native binding/history/terminal/persistence/effect; Q55/Q56 |
 | Tool/delegation | Note27/U12 proposal/policy/child/control | Actual child/OS/DB, summary/correction/fallback/cancel; Q54 |
-| Completion→parent use | Note28/U13 actual CLI/TUI + bounded manual selected diagnostic | Q57 full-parent fidelity/DB/claimexpiry/crash/model/adapter |
-| **Install/update/activation** | **Note29/U14:** build/source/deps/shim/profile, update authority/backup/repair/restart/receipt | Source-only; actual all-platform/installer/solver/DB/mutex/fleet/functional health/receipt |
-| Eval ve diğer host'lar | Kapsamda görünür test/eval/UI aileleri | Evaluation oracle/future-task efficacy, untouched UI/backend/distribution çeşitleri |
+| Completion→parent use | Note28/U13 CLI/TUI+bounded manual selected diagnostic | Q57 full-parent fidelity/DB/claimexpiry/crash/model/adapter |
+| Install/update/activation | Note29/U14 source/deps/shim/profile/recovery/fleet/receipt | Actual all-platform/installer/solver/DB/mutex/health/receipt |
+| **Evaluation/task quality** | Test/eval aileleri görünür; seçili test source okumaları | **Next Q60:** actual runner→target→oracle→verdict→claim/decision; henüz araştırılmadı |
 
-## Yakın sıra ve kapsam dengesi
+## Yakın sıra ve gerekçe
 
-U13 [coverage](inventory/SCOPE-REVIEW-2026-09-13-U13.md) F12 install/change alanına geçişi seçmişti. U14 bunu normal install ve update/refusal/interruption kaynak yollarıyla ilerletti. Yeni geniş bağlantı: update/startup yalnız kodu değil bundled/profile becerilerini de eşitliyor. Bu consumer'dan **Q59 skill-library lifecycle**'a dönmek eski learning mekanizmalarının operational tarafını tamamlamaya yönelir; proposal/approval deneylerini yeniden yapmak değildir.
+U13 [coverage](inventory/SCOPE-REVIEW-2026-09-13-U13.md) sonrası U14 install/change, ardından U15 library lifecycle açıldı. Artık kaydedilmiş/değişmiş/restore edilmiş beceriyi actual yükleme consumer'ına bağlayan yerel açıklama var. Remote shared-library yayımlama/onay/merge hâlâ maddi Q59 açık alanıdır; whole library kapanmış değildir.
 
-**Q59 henüz araştırılmadı.** İlk sonraki kaynak işi origin/manifest/ledger ile user edits/deletions/restore ve next discovery/use bağıdır. Curator bounded follow-on; semantic quality/eval otomatik doğrulanmaz. Her update fault varyantını tüketene kadar aynı seam'de kalınmaz; karşı kanıt veya load-bearing reuse ilgili Q58 residual'ı yeniden açar.
+Sonraki Q60 evaluation seçimi, U15 actual use counter'ın görevin iyileştiğini ölçmediği ayrımından beslenir. Test/eval ile öğrenme/task-quality iddialarının hangi nesnede nasıl doğrulandığını açmak, yalnız local fault örneklerini çoğaltmaktan daha geniş açıklama değeri taşır. Q60 sonucu şimdiden varsayılmaz; sonraki kapsam seçimi kaynaklara göre değişebilir. Nihai CORE hâlâ erken.
 
-## Yayın ve güven sınırı
+## Yayın ve kanıt sınırı
 
-U13 mevcut yayını devralındı ve yalnız stale final receipt uzlaştırıldı; eski diagnostic yeniden koşulmadı. U14 opening→A main/full readback→B main/full readback→current routes. [PUBLICATION](evidence/2026-09-13-install-update/PUBLICATION.md) actual son yayın hükmüdür. Yeni installer/service/model/DB/OS veya upstream suite koşusu yok; source-read/ref/readback behavioral validation değildir.
+Opening2bcdf606→A39bb5929 main/full readback→B666038a7 main/full readback→current routes. [PUBLICATION](evidence/2026-09-13-skill-library/PUBLICATION.md) actual son yayın hükmüdür. U15 yeni behavioral execution/suite/RESULT/PASS içermez; iki test dosyası selected-source-only. Eski U04–U14 evidence/notes/syntheses korunur.
 
-METHOD, notes01–28, U04–U13 özgün evidence, U14-A/B metinleri ve synthesis01–04 korunur. Q58 residual, Q54–57, U10Q49/Q51/Q52 ve eski Q40/Q42/Q47/Q48/Q50 quality/fidelity açık. Dosya/test sayısı tamamlanma yüzdesi değildir; native model henüz son CORE/dört-alan/adoption aşamasında değildir.
+Q59/Q58/Q54–57/U10Q49-Q52 ve eski fidelity/DB/worker/quality borçları açık. Source reading, repo yayın veya dosya sayısı ürün güvenilirliği/araştırma tamamlanma yüzdesi değildir. Candidate bulgu Foundation veya mimari kabulü değildir.
