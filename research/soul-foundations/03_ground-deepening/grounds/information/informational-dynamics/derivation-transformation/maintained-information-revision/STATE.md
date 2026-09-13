@@ -1,15 +1,15 @@
 # Maintained-Information Revision / Reliance Change — STATE
 
 **Date:** 2026-09-13
-**Status:** ACTIVE — canonical recovery completed; new dedicated research starting
-**Current authorization:** one bounded Revision pass under PLAN.md; no child or Selection activation.
+**Status:** ACTIVE / M0–M4 evidence checkpoint
+**Current authorized work:** complete this one bounded Revision pass; M5 synthesis and M6 closure remain.
 
-The user accepted Claim Warrant's bounded leaf and seven W6 refinements after its publication at 793959079cb404d7a31a68f7f47dda77d9a73bec. That transition was absent from canonical state after two failed replies; the latest user explicitly requested canonical recovery and research continuation. This checkpoint records the existing authorization, not a new acceptance of any Revision findings.
+The user accepted Warrant's bounded leaf and seven W6 refinements and explicitly resumed Foundation research after interrupted replies. Entry commit 2a8ff5489e32d8102368ebf11f0f9f286b32863f records the acceptance and activation. Original input main was a8eb04cf4febfbea9789e27ebe2b234e4e4af76f. No new Revision result is accepted.
 
-Input main: a8eb04cf4febfbea9789e27ebe2b234e4e4af76f. Foundation subtree a762bc966e35ae838c7e01d1856f8a293749d894 matches the last Warrant publication. Agent-control is unchanged. The full handoff is ../inferential-construction-claim-warrant/NEXT-RESEARCH-HANDOFF.md at input blob a80f02d65b652ba7ccfa09da9261d02c3b8e2841.
+M0 recovers the canonical context; M1/M2 develop continuing-state, support, target, time and realization distinctions; M3 compares primary pressure and competing structures. M4 records twelve actually executed checks, including four native in-memory SQLite cases and one published-example reperformance. Eight false-rule controls were rejected. The script/spec/result Git identities match the executed local bytes. No live SOUL/LLM or independent Foundation validation occurred.
 
-Recover PLAN.md and the source ledger as it is published. Work remaining in this pass: independent problem inventory, primary-source pressure, executable checks, rival comparison and bounded synthesis. No research conclusion or leaf decision is accepted or completed at this entry checkpoint.
+Leading structural hypothesis: one qualified continuing-information revision relation, with separately retrievable support maintenance, revision-policy, temporal and applicability questions. This remains subject to M5/M6 synthesis and challenge; do not read the checkpoint as final closure.
 
-Claim Warrant, Re-expression and the three-child Derivation parent remain accepted. Selection/Exposure remains separately unresearched/inactive. Parent acceptance is not recursive completion. Whole Foundation is not complete. No architecture, schema, implementation or agent-control changes.
+Next: PLAN → M1/M2/M3/M4 → SOURCE-LEDGER/checks. Complete synthesis, explicit parent delta and rival/omission review; synchronize ancestor views and return for user evaluation. Selection/Exposure remains separately unresearched/inactive. No descendant, architecture, schema, implementation or agent-control change is authorized.
 
-Overall authority: ../../../../../../STATE.md. Pre-checkpoint ancestor/closed-package views retain the earlier evaluation snapshot until final synchronization; they cannot override the explicit current transition in that root STATE.
+Overall authority: ../../../../../../STATE.md. Until final synchronization, its explicit entry transition supersedes older Warrant-pending labels in ancestor/closed-package views. All earlier source/check histories remain unchanged.
