@@ -1,6 +1,12 @@
 # Hermes Agent — Araştırma planı
 
-**v0.25 / 2026-09-13 — U12 tool admission/delegation; sıradaki Q57 parent re-entry.** [STATE](STATE.md) current work/yetki, [METHOD](METHOD.md) yöntem, [MAP](CURRENT-RESEARCH-MAP.md) büyük resim, [PUBLICATION](evidence/2026-09-13-tool-delegation/PUBLICATION.md) gerçek yayın. Primary c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a / manifest0.21.0; current ürün hükmü değil.
+**v0.25 / 2026-09-13 — U12 yayımlı; Q57 başlangıç checkpoint'i.** [STATE](STATE.md) current work/yetki, [METHOD](METHOD.md) yöntem, [MAP](CURRENT-RESEARCH-MAP.md) büyük resim, [PUBLICATION](evidence/2026-09-13-tool-delegation/PUBLICATION.md) tamamlanmış U12 yayını. Primary c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a / manifest0.21.0; current ürün hükmü değil.
+
+## Q57 başlangıç — 2026-09-13
+
+Kullanıcının “Anlaştık. Devam et. Operasyonel sınırına kadar çalış.” yetkisiyle kayıtlı Q57 devralındı. Gerçek main **74c5e3d1dcd260a1841c64dda5fb1d182f7bb299**; U12 yayın makbuzundan sonra ilerlememiştir. Güncel AGENT tekrar getirildi; değişmeyen R01–R09 ve U12 current/source metinlerinin aynı-conversation tam okumaları uygulanır. Research root, METHOD ve synthesis02/04 yeniden geri kazanıldı. U12-A/B ile eski U04-A/B yayınları yeniden yapılacak iş değildir.
+
+Bu başlangıç kaydı yeni teknik bulgu/deney değildir. Actual main/ref ve plan geri okunmadan kapsamlı yeni kaynak dilimi başlamaz. İlk dilim: shared completion producer→gerçek host drain→ownership/claim→parent continuation/admission→ack. Normal olay ile restored/expired/interim event ayrımı korunur. CLI ve gateway/API yolları aynı varsayılmaz. Kaynaklar tek anlamlı consumer zincirinde bağlanabiliyorsa yapay dosya kotasına bölünmez. İlk anlamlı dilim main'e kaydedilip geri okunduktan sonra coverage/map üzerinden geniş kalan ailelerin önceliği değerlendirilir; yayınsız ikinci büyük dilim biriktirilmez.
 
 ## Yapılan ve revizyon gerekçesi
 
@@ -32,4 +38,4 @@ Q53 fallback geçiş ortası/primary restore; Q55 native model/system/history/re
 
 Yeni büyük dilimden önce actual main/STATE ve current yayın makbuzu kontrol edilir. Her anlamlı dilim bulgu+kaynak+sınır+sonraki soru ile kalıcılaştırılır; ref/content/scope geri okumasından önce yayımlandı denmez. Yayın engelinde mevcut dilimin devri çözülür, yeni araştırma biriktirilmez. Bu çalışma düzeni agent-control değişikliği değildir.
 
-Yalnız Hermes package + CATALOG Hermes satırı. METHOD, notes01–26, U04–U11 evidence/yayınlar, synthesis01–04 ve U12-A özgün metinleri değişmez. Foundation/control/context/Codex/upstream/diğer studies/architecture/adoption/izin ayarları değişmez. [Q54 başlangıç planı](https://github.com/batuhanozgun/agentic-os-search/blob/0fd4b597002eb478cd1ed913a588ba44fe70edb3/research/studies/hermes-agent/RESEARCH-PLAN.md) → [exact U11 plan](https://github.com/batuhanozgun/agentic-os-search/blob/6a9a8c48204102d592780971a212b363ec97bc98/research/studies/hermes-agent/RESEARCH-PLAN.md) geçmiş sırayı korur. Araştırma yöntemi kaynak→mekanizma→alt-sistem→ilişki→CORE→ayrı daha-geç dört-alan değerlendirmesidir; dosya/test adedi ilerleme yüzdesi değildir.
+Yalnız Hermes package + CATALOG Hermes satırı. METHOD, notes01–27, U04–U12 evidence/yayınlar ve synthesis01–04 değişmez. Foundation/control/context/Codex/upstream/diğer studies/architecture/adoption/izin ayarları değişmez. [Exact U12 plan](https://github.com/batuhanozgun/agentic-os-search/blob/74c5e3d1dcd260a1841c64dda5fb1d182f7bb299/research/studies/hermes-agent/RESEARCH-PLAN.md) → [Q54 başlangıç planı](https://github.com/batuhanozgun/agentic-os-search/blob/0fd4b597002eb478cd1ed913a588ba44fe70edb3/research/studies/hermes-agent/RESEARCH-PLAN.md) geçmiş sırayı korur. Araştırma yöntemi kaynak→mekanizma→alt-sistem→ilişki→CORE→ayrı daha-geç dört-alan değerlendirmesidir; dosya/test adedi ilerleme yüzdesi değildir.
