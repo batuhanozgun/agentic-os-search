@@ -1,44 +1,35 @@
 # SOUL Foundations — STATE
 
-**Updated:** 2026-09-12  
-**Status:** Re-expression accepted; Claim Warrant W0–W7 complete, proposed leaf awaiting evaluation  
-**Current authorized substantive activity:** NONE after bounded Warrant closure  
-**Current authorized interaction:** WARRANT LEAF AND EXACT W6 PARENT-REFINEMENT EVALUATION
+**Updated:** 2026-09-13
+**Status:** Claim Warrant accepted; Maintained-Information Revision active
+**Current authorized substantive activity:** ONE BOUNDED REVISION RESEARCH PASS
 
-## Accepted anchors and exact completion depth
+## Latest authorization and exact frontier
 
-Environment, Information, Work and Actors retain their accepted current-depth results. Four-ground adequacy, Composition and its currently promoted descendants, Returned Influence, Persistent Adaptation, the B0–B5 integration review, Formation/F6 and Derivation/T6 remain accepted. Re-expression's bounded leaf and exact six R6 refinements are now user-accepted.
+The user positively evaluated the Warrant result and continued: "Benim açımdan uygun bir tur oldu. Devam edebilirsin. Operasyonel sınırına kadar çalışmaya devam et." Two failed replies did not persist that transition. The latest request asks for full relevant canonical recovery and continuation. This records acceptance of Warrant's bounded leaf and seven W6 refinements and activates the recommended Revision pass; it does not pre-accept new findings.
 
 ```
-Information / Representation                    [accepted parent]
-├─ Informational State                          [accepted bounded leaf]
-└─ Informational Dynamics                       [accepted parent]
-   ├─ Formation / Acquisition                   [accepted bounded leaf]
-   ├─ Derivation / Transformation               [accepted three-child parent]
-   │  ├─ Re-expression / Semantic Transfer       [accepted bounded leaf]
-   │  ├─ Inferential Construction / Claim Warrant [dedicated result complete; proposed leaf awaiting evaluation]
-   │  └─ Maintained-Information Revision         [structurally accepted; no dedicated pass; inactive]
-   └─ Selection / Exposure                      [structurally accepted; no dedicated pass; inactive]
+Information [accepted parent]
+├─ Informational State [accepted leaf]
+└─ Informational Dynamics [accepted parent]
+   ├─ Formation / Acquisition [accepted leaf; F6 accepted]
+   ├─ Derivation / Transformation [accepted three-child parent; T6 accepted]
+   │  ├─ Re-expression / Semantic Transfer [accepted leaf; R6 accepted]
+   │  ├─ Inferential Construction / Claim Warrant [accepted leaf; W6 accepted]
+   │  └─ Maintained-Information Revision [ACTIVE; no dedicated result yet]
+   └─ Selection / Exposure [no dedicated pass; inactive]
 ```
 
-Parent acceptance is not recursive completion. Warrant was already a structurally accepted inquiry, but its new leaf judgment and W6 refinements are not yet accepted. Revision and Selection are two concrete missing dedicated passes, not optional vocabulary.
+## Current route and next responsibility
 
-## Latest authorization and result
+`03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md` → PLAN.md.
 
-The user said: “hem fikirim. devam edebilirsin. operasyonel sınırına kadar çalış.” This accepts Re-expression and exact R6 refinements and activates its recommended Warrant pass only. Research input was main `595d9ebb24302e271b9f84cc86d0debbd74dc790`; concurrent candidate/HERMES work is preserved.
+Complete one bounded node pass, publish evidence and coherent current state, then return for evaluation. No Selection, descendants, architecture, schema, implementation or agent-control change is authorized. Revision need not be a leaf; discover rather than assume its structure.
 
-W0–W7 propose one qualified claim–basis support leaf. Conditional validity is not target applicability or factual establishment. Probability direction, dependence, reference population and joint scope matter. Observational fit need not identify a causal effect. An attack on a support bridge is not necessarily a rebuttal of the conclusion. Evidence-selection conditions, production history, justification and action authority remain separate. No immediate Warrant child is promoted; strict/probabilistic/defeasible routes remain explicit.
+## Preserved results and checkpoint scope
 
-Current result: `03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/inferential-construction-claim-warrant/STATE.md` → INDEX/KEY → FINDINGS-MAP → synthesis/W4/W6/W7.
+Environment, Work, Actors, Information, four-ground adequacy, Composition and promoted descendants, Returned Influence, Persistent Adaptation and the integration/frontier review remain accepted at their recorded depths. Original evidence and tests remain unchanged. Parent acceptance does not complete descendants; whole Foundation remains incomplete.
 
-## Next responsibility
+Input main `a8eb04cf4febfbea9789e27ebe2b234e4e4af76f`; Foundation subtree unchanged from Warrant publication. This entry checkpoint supersedes previous evaluation/next-work labels in ancestor and closed-package views. Those derived views and exact manifests will be synchronized at the next publication checkpoint; this root file governs current acceptance and work meanwhile. The new package contains no claim of completed research.
 
-User evaluation of the proposed Warrant leaf and exact seven W6 refinements. Maintained-Information Revision / Reliance Change is the strongest next recommendation, inactive. Selection/Exposure is the other unresearched Dynamics pass. Re-select after each result; do not precommit a fixed chain or automatically start a successor.
-
-Whole Foundation is not complete. Closed packages may retain historical external continuation labels; they do not override this current overall authority.
-
-## Evidence and boundaries
-
-Seven primary documents at unequal recorded depths and bounded candidate discovery supplied component pressure. Twelve finite cases and eight false-rule controls ran under a pre-execution SPEC; repeat execution reproduced exact RESULT bytes. The author specified models, meanings and distributions. W7 is same-model review, not independent replication, a live SOUL/LLM experiment, empirical calibration or real causal intervention.
-
-Re-expression's original synthesis is preserved byte-for-byte behind a current accepted view. Original R/T/N/F and other research/test history remain unchanged. Targeted fresh causal-source reading does not close every earlier verification limitation. File identity, user acceptance, semantic validity and live benefit are different claims. No architecture, ontology/schema, implementation, candidate-study or agent-control change is authorized by closure.
+Warrant's seven-source/twelve-case/eight-control evidence remains same-author/model and bounded. Acceptance does not create independent replication or live SOUL efficacy. Prior failed replies' technical cause remains unverified and is not the current research task.
