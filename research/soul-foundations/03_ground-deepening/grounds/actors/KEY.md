@@ -1,14 +1,14 @@
 # Actors Ground — KEY
 
 **Document role:** CURRENT_L0  
-**Status:** bounded audit result / awaiting user evaluation  
-**Date:** 2026-09-05
+**Status:** bounded audit result / USER-EVALUATED / ACCEPTED  
+**Research acceptance:** 2026-09-05. **Continuity refresh:** 2026-09-14.
 
 ## Shortest current result
 
-The completed independent Actors corpus survives the current four-ground audit.
+The completed independent Actors corpus survives the four-ground audit and is accepted at the recorded Foundation depth.
 
-`Actors / Agency–Participation–Authority` remains a coherent Foundation problem ground around **bearers/positions/parties and the typed relations by which agency, participation, authority/obligation, representation/delegation, attribution/responsibility and collective/non-human standing are distributed across situations, context and time**.
+Actors / Agency–Participation–Authority remains a coherent Foundation problem ground around bearers/positions/parties and the typed relations by which agency, participation, authority/obligation, representation/delegation, attribution/responsibility and collective/non-human standing are distributed across situations, context and time.
 
 No material missing Actors-local first-order family survived the audit.
 
@@ -16,7 +16,7 @@ No material missing Actors-local first-order family survived the audit.
 
 ```text
 Actors / Agency–Participation–Authority
-    ← boundedly sufficient at current Foundation depth
+    ← boundedly sufficient / accepted at current Foundation depth
     ← rich relational / multi-anchor internal problem map
     ← NO universal immediate-child hierarchy promoted
 ```
@@ -25,18 +25,12 @@ The absence of promoted children does not mean Actors is shallow. The prior vert
 
 ## Internal orientation only — not children
 
-- bearer identity / continuity;
-- role / office / position / membership;
-- situation / episode / context / time;
-- participation / decision positions;
-- capability / competence;
-- permission / authority / obligation;
-- representation / delegation / impersonation;
-- action / decision / omission;
-- attribution / responsibility / accountability;
-- shared / collective / corporate agency;
-- non-human operational participation vs normative attribution;
-- semantically relevant non-performing party/stake positions.
+- Bearer identity / continuity; role / office / position / membership.
+- Situation / episode / context / time; participation and decision positions.
+- Capability / competence; permission / authority / obligation.
+- Representation / delegation / impersonation; action / decision / omission.
+- Attribution / responsibility / accountability; shared / collective / corporate agency.
+- Non-human operational participation versus normative attribution; semantically relevant non-performing party/stake positions.
 
 ## Strongest boundary corrections
 
@@ -62,28 +56,20 @@ Work acceptance state
 != authority to accept
 ```
 
-## New agentic holdout result
+## Audit-time agentic holdouts
 
-Anthropic AI-native SDLC, multi-agent patterns and context/memory/harness studies did not expose a new Actors family. They mainly reinforced:
+Anthropic AI-native SDLC, multi-agent patterns and context/memory/harness studies did not expose a new Actors family. They reinforced relational/contextual authority, nested delegation, and the distinctions between hierarchy position and authority/competence/accountability; operational effect power and legitimate authority; runtime enforcement and normative standing; multi-agent topology and collective/corporate Actor; high-discretion AI and legal/moral/accountable bearer.
 
-- relational/contextual authority;
-- nested delegation;
-- hierarchy-position != authority/competence/accountability;
-- operational effect power != legitimate authority;
-- runtime enforcement != normative standing;
-- multi-agent topology != collective/corporate Actor;
-- high-discretion AI != automatic legal/moral/accountable bearer.
+These are preserved audit results, not a current assessment of those external systems.
 
-## Naming warning
+## Naming and verification boundary
 
-`Actors` does **not** mean only active doers and does not imply one Actor primitive. Beneficiaries, affected parties, rights holders, principals, recipients and accountability forums can be relevant typed positions.
+Actors does not mean only active doers or one Actor primitive. Beneficiaries, affected parties, rights holders, principals, recipients and accountability forums can be relevant typed positions.
 
-## Verification boundary
+A5 remains same-model adversarial review. The combined Actors result has not received independent second-researcher/model replication. Acceptance does not strengthen the evidence.
 
-The prior Actors corpus used broad cross-domain sources. This ground audit adds boundary and newer-study falsification, but A5 is same-model adversarial review and the combined Actors result has not received independent second-researcher/model replication.
+## Global continuation
 
-## Current gate
+No Actors research node is active. [Foundation STATE](../../../STATE.md) governs global work and [REPAIR-PUBLICATION](../../../REPAIR-PUBLICATION.md) records maintenance. The earlier user-evaluation-only label is superseded by the acceptance already recorded in local STATE; it does not require a new evaluation.
 
-User evaluation only. No substantive ground is active after closure.
-
-For detail: `FINDINGS-MAP.md` → `synthesis/ACTORS-GROUND-AUDIT-SYNTHESIS.md` → `A6-CLOSURE.md`.
+For detail: `FINDINGS-MAP.md` → `synthesis/ACTORS-GROUND-AUDIT-SYNTHESIS.md` → `A6-CLOSURE.md`. Original research remains unchanged. The earlier key is recoverable at baseline `e800db333ce3fd89a0534c49d872270335a53af2`, blob `e628bd74d546bf834d719c751eded5881fa28488`.
