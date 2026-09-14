@@ -1,29 +1,31 @@
 # Claim Warrant — Findings Map
 
-**Date:** 2026-09-12  
-**Role:** CURRENT_L1; proposed bounded leaf awaiting evaluation.
+**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
+
+**Status:** accepted bounded leaf and seven W6 refinements. Original W-pass labels are historical.
 
 | Question / finding | Exact route | Scope |
 |---|---|---|
-| Acceptance and one active pass | W0; STATE | Re-expression/R6 accepted; Warrant not pre-accepted |
-| Claim mode versus unsupported strengthening | W1 §§1–3 | basis-relative analytical distinction |
-| Production history versus offered valid argument | W1 §1; W3 §6; S6 | historical source pressure; no new LLM experiment |
-| Conditional validity versus premise applicability | W1 §3; W2 §1; C01 | stipulated classical models; target truth not tested |
-| Inconsistency and vacuous entailment | W2 §1; C02 | preserves classical definition, not factual validation |
-| Bounded proof search versus negation | W2 §1; C03 | synchronous finite rule search |
-| Likelihood, posterior and prior sensitivity | W2 §2; C04; S3 | exact synthetic population, not real prevalence |
-| Repeated evidence versus independent evidence | W2 §3; C05 | conditional independence supplied, not discovered |
-| Marginal versus joint conclusion strength | W2 §3; C11 | explicit probability distributions |
-| Observational fit versus causal identification | W2 §4; C06; S4 | two specified structural models only |
-| Compatible/preferred explanation versus uniquely true | W2 §5 | scoped model/candidate comparison |
-| Rebuttal versus undercutting; alternative support | W3 §1; C07; S7 | tiny default relation; not general defeat semantics |
-| Circular versus grounded support | W3 §2; C08 | finite Horn semantics, not a ban on recursive reasoning |
-| Evidence-selection protocol affects support | W3 §3; C09; S2 | exact four-test construction, no empirical error rate |
-| Calibration's reference scope | W3 §4; C10; S5 | finite uniform population, not individual guarantee |
-| Belief versus loss-sensitive action/authority | W3 §5; C12 | stipulated loss tables, no operational permission |
-| Why leaf; strongest strict/defeasible rival | W4 §§2–8 | same-model comparative judgment, reopenable |
-| Source extent and printed-equation issue | W5; SOURCE-LEDGER S4 | source readback not source correctness |
-| Exact parent refinements and inactive next work | W6; NEXT-RESEARCH-HANDOFF | seven proposals; no automatic Revision |
-| Actual checks and failure sensitivity | W7; checks/ | twelve finite cases, eight false-rule controls |
+| Current acceptance | [STATE](STATE.md) → [Foundation STATE](../../../../../../STATE.md) | Warrant/W6 accepted; not pre-acceptance of Revision |
+| Claim mode versus strengthening | W1 §§1–3 | basis-relative distinction |
+| Production versus offered argument | W1 §1; W3 §6; S6 | historical pressure; no new LLM test |
+| Conditional validity versus applicability | W1 §3; W2 §1; C01 | stipulated classical models |
+| Inconsistency and vacuous entailment | W2 §1; C02 | formal definition, not factual validation |
+| Bounded search versus negation | W2 §1; C03 | finite rule search |
+| Likelihood, posterior and prior | W2 §2; C04; S3 | synthetic population |
+| Repeated versus independent evidence | W2 §3; C05 | independence supplied, not discovered |
+| Marginal versus joint strength | W2 §3; C11 | explicit distributions |
+| Fit versus causal identification | W2 §4; C06; S4 | two specified models |
+| Preferred explanation versus uniquely true | W2 §5 | scoped candidate comparison |
+| Rebuttal, undercutting and alternative support | W3 §1; C07; S7 | tiny default relation |
+| Circular versus grounded support | W3 §2; C08 | finite Horn semantics |
+| Evidence selection affects support | W3 §3; C09; S2 | four-test construction |
+| Calibration reference scope | W3 §4; C10; S5 | finite population, not individual guarantee |
+| Belief versus action/authority | W3 §5; C12 | stipulated losses, no permission |
+| Strongest strict/defeasible rival | W4 §§2–8 | same-model judgment, reopenable |
+| Source extent and equation issue | W5; SOURCE-LEDGER S4 | source readback not source correctness |
+| Exact accepted parent delta | [W6](W6-SYNTHESIS-DECISION-AND-PARENT-DELTA.md) | seven refinements; original text unchanged |
+| Actual checks and failure sensitivity | W7; checks/ | twelve cases/eight controls |
+| Unfinished Revision | [Revision map](../maintained-information-revision/FINDINGS-MAP.md) | M0–M4 only; M5/M6 pending |
 
-A leaf is not permission to collapse regime, support, uncertainty, target and authority into one confidence score. Revision and Selection are not completed by their boundary examples here.
+W1–W7 and sources resolve through [INDEX](INDEX.md). A leaf is not a single confidence score. Boundary examples here do not close Revision or Selection.
