@@ -1,14 +1,16 @@
 # Information / Representation — INDEX
 
-Read STATE.md first. The parent, State/Dynamics, Formation/F6, Derivation/T6 and Re-expression/R6 are accepted. Warrant has a dedicated proposed-leaf result awaiting evaluation. Revision and Selection remain separately unresearched/inactive.
+Read [STATE](STATE.md), then [Foundation STATE](../../../STATE.md). Warrant/W6 are accepted. Revision M0–M4 is preserved; M5/M6 pending. Selection remains unresearched/inactive.
 
-1. Current Warrant: `informational-dynamics/derivation-transformation/inferential-construction-claim-warrant/STATE.md` → INDEX/KEY → map/synthesis/W4/W6/W7.
-2. Accepted Re-expression: Derivation `re-expression-semantic-transfer/STATE.md` → current/exact historical synthesis/R6/R7.
-3. Accepted Derivation parent and remaining Revision: `informational-dynamics/derivation-transformation/STATE.md` → INDEX/T3/T4/T6.
-4. Accepted Formation: `informational-dynamics/formation-acquisition/STATE.md` → KEY/current and original synthesis/F6.
-5. Current Dynamics depth and missing Selection: `informational-dynamics/STATE.md` → INDEX/original N3/N4/N6/N7.
-6. Accepted State: `informational-state/STATE.md` → KEY/FINDINGS-MAP → relevant synthesis/evidence.
-7. Original Information coherence: KEY/FINDINGS-MAP → `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` and original N-passes.
-8. Exact current identities: CURRENT-SURFACES.md.
+| Need | Route |
+|---|---|
+| Exact unfinished pass | [Revision INDEX](informational-dynamics/derivation-transformation/maintained-information-revision/INDEX.md) |
+| Accepted claim support and exact W6 | [Warrant INDEX](informational-dynamics/derivation-transformation/inferential-construction-claim-warrant/INDEX.md) |
+| Accepted transfer/R6 and parent/T6 | [Derivation INDEX](informational-dynamics/derivation-transformation/INDEX.md) |
+| Accepted source-facing acquisition/F6 | [Formation INDEX](informational-dynamics/formation-acquisition/INDEX.md) |
+| Dynamics structure and Selection boundary | [Dynamics INDEX](informational-dynamics/INDEX.md) |
+| Accepted informational state | [State STATE](informational-state/STATE.md) → KEY/FINDINGS-MAP |
+| Original Information coherence | [Original top-level synthesis](synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md); pass-time continuation is historical |
+| Topic routes and bindings | [FINDINGS-MAP](FINDINGS-MAP.md); [CURRENT-SURFACES](CURRENT-SURFACES.md) |
 
-Derived routes are not full evidence. Original pending/next-step labels are historical where superseded. A dedicated proposed leaf is not accepted by publication, and parent acceptance does not complete descendants. No automatic successor or implementation.
+Derived routes are not full evidence. This maintenance turn does not resume research or promote Revision's hypothesis. Original pass-time pending labels do not override current acceptance.
