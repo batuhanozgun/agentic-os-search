@@ -1,7 +1,7 @@
 # Informational State / Representational Constitution — KEY
 
-**Status:** bounded node result prepared for user evaluation  
-**Date:** 2026-09-05  
+**Status:** bounded leaf / user-evaluated / accepted for Foundation sequencing  
+**Research date:** 2026-09-05; **maintenance update:** 2026-09-14  
 **Use:** intentionally lossy orientation; not evidence
 
 ## Shortest current result
@@ -12,8 +12,8 @@ Current bounded result:
 
 ```text
 Information / Representation
-    ├─ Informational State / Representational Constitution   ← bounded leaf result
-    └─ Informational Dynamics / Formation–Transformation     ← inactive
+    ├─ Informational State / Representational Constitution   ← accepted bounded leaf
+    └─ Informational Dynamics                               ← separate sibling; follow its current STATE
 
 Records / Persistent Information
     ↳ deep persistence specialization/profile across Information
@@ -86,6 +86,6 @@ Materially different external traditions factor these concerns differently rathe
 - N6 same-model adversarial review completed;
 - independent second-researcher/model replication: **not performed**.
 
-## Current gate
+## Current authority
 
-This result must return for user evaluation. No Informational Dynamics, Work, Actors, composition, architecture, ontology or implementation work is authorised by this result.
+[Local STATE](STATE.md) records the already-completed user evaluation. [Foundation STATE](../../../../STATE.md) governs global work; [Dynamics STATE](../informational-dynamics/STATE.md) gives the sibling's actual progress. Original pass-time evaluation and activation labels are historical, not a new execution queue. This key authorizes no new State child, research continuation, architecture, ontology, implementation or main merge.
