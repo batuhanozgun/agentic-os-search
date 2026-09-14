@@ -1,12 +1,11 @@
 # Informational Dynamics — KEY
 
-**Updated:** 2026-09-12  
-**Role:** CURRENT_L0; accepted parent with a pending dedicated Warrant result.
+**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
 
-Dynamics concerns informational instantiation, derivation/change and availability/exposure. Formation protects the source-to-representation relationship; Derivation protects transfer, warrant and continuing-state revision; Selection protects which existing information reaches a use. Route by protected question and frame, not verbs such as copy, retrieve or update.
+Dynamics concerns informational instantiation, derivation/change and availability/exposure. Formation protects source-to-representation; Derivation protects transfer, warrant and continuing-state revision; Selection protects which existing information reaches a use. Route by protected question and frame, not verbs such as copy, retrieve or update.
 
-Formation/F6, Derivation/T6 and Re-expression/R6 are accepted. Re-expression retains possible recovery versus intended meaning versus actual use and purpose-sensitive transfer limits. Warrant now proposes one claim–basis support leaf; conditional validity, target applicability, uncertainty scope/dependence, defeaters and evidence-selection conditions remain explicit. Its W6 refinements await evaluation.
+Formation/F6, Derivation/T6, Re-expression/R6 and Warrant/W6 are accepted. Re-expression retains possible recovery, intended meaning, actual use and purpose-sensitive transfer limits. Warrant retains qualified claim–basis support: conditional validity, target applicability, uncertainty scope/dependence, defeaters and selection conditions, not one generic score.
 
-Revision and Selection are two concrete separately unresearched/inactive passes. Source lineage, time, uncertainty, communication, propagation, encoding and persistence remain cross-cutting or specialized concerns, not automatic peers. Records remains a deep persistence profile.
+Warrant and its seven W6 refinements are accepted. Revision has a preserved M0–M4 checkpoint; M5/M6 remain incomplete and are paused for this maintenance-only turn. Selection/Exposure remains separately unresearched and inactive. See [Foundation STATE](../../../../STATE.md) and [Revision STATE](derivation-transformation/maintained-information-revision/STATE.md).
 
-Current STATE governs acceptance and execution. A parent being accepted does not complete its descendants. Same-model reviews, primary sources at unequal depths and finite checks are not independent taxonomy or live-system verification. No automatic successor or architecture follows.
+Source lineage, time, uncertainty, communication, propagation, encoding and persistence remain cross-cutting or specialized concerns, not automatic peers. Records remains a deep persistence profile. A parent being accepted does not complete descendants. Source authorship and finite checks are not independent taxonomy or live-system verification.
