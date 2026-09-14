@@ -1,32 +1,32 @@
 # Maintained-Information Revision / Reliance Change — STATE
 
 **Updated:** 2026-09-14
-**Research status:** BOUNDEDLY COMPLETE / PROPOSED LEAF / USER EVALUATION PENDING
-**M0–M6:** research assessment complete; current-view publication/readback recorded separately
+**Research status:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED
+**M0–M6:** complete; bounded publication/readback complete
+**Accepted result:** bounded leaf and seven M5.1–M5.7 refinements
 **Immediate children:** NONE PROMOTED
-**Current substantive activity:** NONE after bounded closure
-**Current interaction:** evaluate Revision leaf and seven M5.1–M5.7 refinements
+**Current substantive work inside this package:** NONE
 
-## Authority and prior state
+## Acceptance and preserved authority
 
-The user explicitly resumed the one bounded Revision pass after accepting the repository repair. Input main was `185669845dc558b76fbcfb0264b413a0afc19adf`; M5-RESUMPTION records the entry, exact recovery extent and challenge plan. Original M0–M4 were already present and were not restarted or rewritten. Warrant's leaf and seven W6 refinements remain accepted; this new result is not pre-accepted.
+The user evaluated the delivered Revision result: “Yerinde bir araştırma, tespitler ve bulgular da çok önemli. Benim açımdan uygun.” The accompanying direction prioritizes any repository duty and then continues research. This accepts the bounded leaf and seven refinements presented for evaluation, at their stated evidence limits. The recommended Selection/Exposure pass is activated separately in Foundation STATE; this closed package does not own the rolling global queue.
 
-## Proposed bounded result
+Input for this acceptance was main `b145444c2d74b6ac4ab93e7280b8e34b7473060f`. [PUBLICATION](PUBLICATION.md) records the already-completed M6 publication. Its evaluation-pending wording and the original M5/M6/synthesis proposal labels describe their pass-time checkpoint, superseded for acceptance by this STATE. Do not repeat M5/M6 or reopen the completed PR #2 repair.
 
-One qualified continuing-information revision relation, with separately retrievable support/withdrawal, alternatives/selection, constraint/policy, future-disposition, temporal/currentness, realization and replay questions. The strongest support-maintenance/successor-selection split remains explicit; M5's bounded comparison does not promote it as an immediate hierarchy or prove it impossible.
+## Accepted bounded result
 
-The seven exact proposed parent refinements are in [M5 decision](M5-SYNTHESIS-DECISION-AND-PARENT-DELTA.md). The result does not replace Derivation's accepted transfer/warrant/revision parent or Dynamics' accepted three-child structure. It introduces no schema, mandatory storage mechanism or universal belief-change policy.
+One qualified continuing-information revision relation, with separately retrievable support/withdrawal, alternatives/selection, constraint/policy, future-disposition, temporal/currentness, realization and replay questions. The strongest support-maintenance/successor-selection split remains explicit and reopenable; acceptance does not prove it impossible.
+
+The exact accepted M5.1–M5.7 are in [M5 decision](M5-SYNTHESIS-DECISION-AND-PARENT-DELTA.md). The result retains Derivation's transfer/warrant/revision parent and Dynamics' Formation/Derivation/Selection structure. No schema, mandatory storage mechanism or universal belief-change policy is adopted.
 
 ## Evidence and limitations
 
-M1/M2 carry the original semantics; M3/M4 retain the original rivals, source pressure and twelve-case/eight-control checkpoint. Fresh M5 primary reading was targeted, not full-paper reading throughout. Five additional finite cases and five same-fixture false-rule controls passed; unchanged repeats reproduced exact results. A later header-only wording correction and fresh reruns are in checks/m5/EXECUTION.md; criteria and test logic did not change.
+Original M1/M2 retain semantics; M3/M4 retain the original twelve-case/eight-control checkpoint. M5 primary reading was targeted, not universally full-paper. Five additional finite cases and five same-fixture false-rule controls passed; unchanged repeats reproduced exact results. The header-only clarification and subsequent execution identities remain in checks/m5/EXECUTION.md. Final publication reperformance is separately recorded, not counted as new experiments.
 
-The fixed-operator case strengthens the earlier future-response distinction. Other added checks separate skeptical alternatives, consistency/entailment, preservation orders and admitted repetition/duplicate delivery. They do not verify the leaf decision, live SOUL/LLM behavior or independent taxonomy correctness. Some source rendering/access failed; P3's dynamic-constraint interpretation tension remains explicitly unresolved.
+The fixed-operator example strengthens the future-response distinction. Other checks distinguish skeptical alternatives, compatibility/entailment, preservation orders and admitted repetition/duplicate delivery. None verifies live SOUL/LLM efficacy, independent taxonomy correctness or a universal update policy. Failed source access/rendering and P3's dynamic-constraint interpretation tension remain open. User acceptance closes the sequencing gate, not these evidence gaps.
 
-## Publication and continuation
+## Retrieval and continuation boundary
 
-Read [INDEX](INDEX.md) → KEY/FINDINGS-MAP → integrated synthesis → exact M1–M5/source/check. [M6](M6-CLOSURE.md) records bounded closure; PUBLICATION records final canonical readback when published. Content identities are in CURRENT-SURFACES. Neither a file's presence nor this status is independent scientific validation.
+[INDEX](INDEX.md) → KEY/FINDINGS-MAP → integrated synthesis → exact M1–M5/source/checks. [OPEN-QUESTIONS](OPEN-QUESTIONS.md) preserves structural reversal and target-specific conditions. Research artifacts retain original proposal/closure wording as history; current acceptance comes from this STATE.
 
-The old M5/M6-pending pause has been superseded by this completed research assessment. Do not resume from M5-RESUMPTION as if no synthesis existed. Original pass-time labels and the completed repair remain historical context, not current work.
-
-[Foundation STATE](../../../../../../STATE.md) governs global authorization. Return for evaluation, not another automatic research pass. [NEXT-RESEARCH-HANDOFF](NEXT-RESEARCH-HANDOFF.md) recommends Selection/Exposure after acceptance and separate activation. Selection remains unresearched/inactive. No new descendant, architecture, implementation or agent-control work follows automatically.
+[NEXT-RESEARCH-HANDOFF](NEXT-RESEARCH-HANDOFF.md) is the now-authorized Selection recovery route, not an instruction to rerun Revision. [Foundation STATE](../../../../../../STATE.md) owns current work and the [Selection STATE](../../selection-exposure/STATE.md) owns that separate pass. No new Revision descendant, architecture, implementation or agent-control work follows from this acceptance.
