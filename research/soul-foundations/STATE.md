@@ -1,18 +1,15 @@
 # SOUL Foundations — STATE
 
 **Updated:** 2026-09-14
-**Maintenance status:** BOUNDED CORE-CONTINUITY REPAIR ACCEPTED / MERGED TO MAIN
-**Publication status:** PR #2 MERGED; CANONICAL MERGE-TREE IDENTITY VERIFIED
-**Current substantive activity:** NONE; RESEARCH REMAINS PAUSED PENDING EXPLICIT CONTINUATION
-**Open research pass:** Maintained-Information Revision, M0–M4 preserved; M5/M6 pending
+**Maintenance:** bounded core-continuity repair accepted / PR #2 merged / publication verified
+**Current substantive activity:** ONE BOUNDED REVISION PASS — M5 RESUMED
+**Research result:** M0–M4 preserved; M5 synthesis and M6 closure not yet complete or accepted
 
-## Current authority and scope
+## Current authority
 
-The user explicitly accepted the bounded repair and authorized merging PR #2: “evet onay veriyorum”. This answers the preceding request to approve this repair scope and its publication to main, not a request to resume research.
+The user explicitly resumed research after the repair: “Harika. Tekrar araştırmaya dönebildik. Devam et lütfen. Operasyonel sınırına kadar çalış.” This supersedes the temporary research pause. It authorizes continuation of the already-open Maintained-Information Revision pass only, not automatic Selection, new descendants, architecture, implementation or agent-control work.
 
-PR #2 was merged on 2026-09-14 at `872a3a7e9b2cef2d24ce8ab5162c99396f015a76`, preserving the reviewed head `be5039e49f47c60b5dad0ed4c605f3f30e605918` and its commit history. Before merge, main remained `e800db333ce3fd89a0534c49d872270335a53af2` and the reviewed head had not moved. The actual merge commit and reviewed head have the same complete Git tree, `cd10eb3f40524a0d100b771960b8f141834059e0`; main and its entry files were read back after merge. Subsequent publication-state bookkeeping does not change the approved research findings.
-
-Warrant's bounded leaf and seven W6 refinements were already accepted, as recorded at entry commit `2a8ff5489e32d8102368ebf11f0f9f286b32863f`. That acceptance and the prior scope for one bounded Revision pass are preserved. Research execution remains paused; maintenance acceptance does not reopen Warrant, pre-accept Revision or activate Selection.
+Input main was `185669845dc558b76fbcfb0264b413a0afc19adf`. [M5 resumption](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/M5-RESUMPTION.md) records recovered sources, the strongest rival and the challenge plan before fresh external reading. Earlier maintenance-only pauses in subordinate views describe their recorded checkpoint; this entry resumes research without retroactively changing original evidence.
 
 ## Exact research frontier
 
@@ -24,28 +21,22 @@ Information [accepted parent]
    ├─ Derivation / Transformation [accepted parent; T6 accepted]
    │  ├─ Re-expression / Semantic Transfer [accepted leaf; R6 accepted]
    │  ├─ Inferential Construction / Claim Warrant [accepted leaf; W6 accepted]
-   │  └─ Maintained-Information Revision [OPEN; M0–M4; M5/M6 pending]
+   │  └─ Maintained-Information Revision [ACTIVE M5; no final result accepted]
    └─ Selection / Exposure [no dedicated pass; inactive]
 ```
 
+Warrant and seven W6 refinements were accepted at entry `2a8ff5489e32d8102368ebf11f0f9f286b32863f`. M0–M4 were published at `e800db333ce3fd89a0534c49d872270335a53af2`. Do not repeat either as unperformed work. The leading Revision leaf hypothesis is not pre-accepted; a split, refined result or honest partial checkpoint remains possible.
+
 ## Current next responsibility
 
-The bounded repair evaluation and PR #2 merge gates are completed. Do not restart uploads, request the same merge approval again, reapply old candidate archives or treat the maintenance branch as the only location of the repair.
+[Revision STATE](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) → INDEX → PLAN and [M5 resumption](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/M5-RESUMPTION.md).
 
-Read [REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) for the executed publication and verification scope. [REPAIR-AUDIT](REPAIR-AUDIT.md) is the unchanged pre-merge assessment that the user accepted; its evaluation-pending and draft-PR wording describes that historical checkpoint, not current authority.
+Complete M5 rival/omission review, bounded synthesis and exact proposed parent refinements. Then complete M6 publication and return for user evaluation if the evidence supports closure; otherwise preserve a precise partial result. No child or sibling is automatically active. Current source-reading depth, test scope, confidence and publication identity must remain separate.
 
-Unchanged descendant manifests and maintenance notes may retain their original review-branch names or pre-merge publication statements. Those statements are scoped to their recorded checkpoints; this current STATE and REPAIR-PUBLICATION carry the actual main-publication status. This does not erase a material local research uncertainty or excuse a newly discovered path/identity defect. Recheck affected dependencies when a later change makes them material.
+## Completed maintenance and preserved history
 
-No further substantive work is active from this approval. Await explicit research continuation rather than turning publication closure into M5 execution.
+PR #2 merged at `872a3a7e9b2cef2d24ce8ab5162c99396f015a76`. The approved head `be5039e49f47c60b5dad0ed4c605f3f30e605918` and merge bind identical complete tree `cd10eb3f40524a0d100b771960b8f141834059e0`. [REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) records publication/readback; [REPAIR-AUDIT](REPAIR-AUDIT.md) preserves the accepted bounded assessment. Their former future-research/pause wording is historical under the new user continuation. Do not restart uploads, reapply old ZIPs or repeat the merge approval.
 
-## Next logical research, not executed here
+Environment, Work, Actors, Information, four-ground adequacy, Composition and promoted descendants, Returned Influence, Persistent Adaptation and integration/frontier review remain accepted at recorded depths. Parent acceptance is not recursive completion; whole Foundation remains incomplete.
 
-[Revision STATE](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) → INDEX → PLAN and its full parent/sibling recovery contract. The first unfinished research stage is M5: rival/omission review, bounded synthesis and precise parent delta. M6 then publishes the research result and returns for evaluation. Revision need not be a leaf. No Selection, descendants, architecture, schema, implementation or agent-control change is authorized by this merge approval.
-
-## Preserved results and limits
-
-Environment, Work, Actors, Information, four-ground adequacy, Composition and promoted descendants, Returned Influence, Persistent Adaptation and the integration/frontier review remain accepted at their recorded depths. Parent acceptance is not recursive completion; whole Foundation remains incomplete.
-
-Original research passes, source ledgers, research plans, historical syntheses and scientific checks remain protected. Repaired current views carry acceptance and navigation; original pass-time proposals and historical upstream bindings are not today's work queue. Source-depth, same-author/model, live-system and independent-verification limits remain.
-
-The maintenance assessment remains a bounded same-assistant review with GitHub readback, not full-checkout automated validation or independent scientific replication. Merge-tree identity establishes publication of the reviewed contents, not their scientific correctness. No scientific test was rerun by merging. Earlier publication blocks still have no verified technical cause.
+Original research passes, plans, source ledgers, historical syntheses and scientific checks remain preserved. Same-author/model, source-depth, empirical and independent-verification limits are not closed by maintenance or resumption. The repair was not exhaustive archival validation. Any newly material local defect must still be checked rather than excused by an old acceptance or hash. No diagnosis of earlier platform blocks is asserted.
