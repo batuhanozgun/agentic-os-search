@@ -1,32 +1,28 @@
 # Formation / Acquisition — Findings Map
 
-**Role:** CURRENT_L1  
-**Status:** bounded leaf / user-evaluated / accepted  
-**Updated:** 2026-09-12
+**Updated:** 2026-09-14. **Status:** bounded leaf/F6 accepted.
 
-STATE → KEY → this map → current synthesis → exact original synthesis/pass/source/check. A route is not independent verification.
-
-| Question / finding | Primary route | Evidence scope |
+| Question / finding | Original route | Evidence scope |
 |---|---|---|
-| Original activation and inputs | F0; SOURCE-LEDGER | Current acceptance/continuation now in STATE |
-| Target, immediate source and formed result | F1 §§1,5; F3 §2 | Original distinction; C1 |
-| Token, receiver, origin, content and evidence novelty | F1 §2; F3 §5 | S6; C5; no independence guarantee |
-| Formation versus Derivation/Exposure | F1 §3; F4 §7 | Accepted N3/N4; C9 |
-| Why raw/model-free-first is not universal | F1 §4; F3 §3 | S1/S4; C11 |
-| Generated forecast versus observed referent | F3 §4 | S4; C10 |
-| Coverage denominators and source frames | F2 §§1,5 | S5/S9; C2 |
-| Record-only distinguishability criterion | F2 §2 | Explicit proof; C3 finite cross-check |
-| Negative evidence and absence | F2 §3 | C12; real detector conditions unmeasured |
-| Missing/null/unknown/zero | F2 §4 | S5; C4; source-contract relative |
-| Parse success versus qualifier fidelity | F3 §1 | C7; not a universal oracle |
-| Source authenticity versus truth | F3 §2 | S7; no cryptographic test |
-| Reference, production and receipt time | F3 §5 | S8; C6 common-clock fixture |
-| Acquisition changes the source | F3 §6 | S2/S5; C8 |
-| Strongest two-child rival and cost of leaf | F4 §2 | Same-model judgment; reopen trigger |
-| Other rival trees and boundary reduction | F4 §§3–7 | No event-class disjointness requirement |
-| Actual original source/candidate reading | F5; SOURCE-LEDGER | Nine targeted primary pages; META screening |
-| Exact parent corrections | F6 | Now user-accepted; raw proposal labels retained |
-| Original executed checks and limits | F7; checks/SPEC.md; RESULT.json | Twelve constructions; five substitutions |
-| Unresolved conditions | OPEN-QUESTIONS | Remain open after acceptance |
+| Activation and inputs | F0; SOURCE-LEDGER | current acceptance in STATE |
+| Target, immediate source and formed result | F1 §§1,5; F3 §2 | C1 |
+| Token/receiver/origin/content/evidence novelty | F1 §2; F3 §5 | S6; C5; no independence guarantee |
+| Formation versus Derivation/Exposure | F1 §3; F4 §7 | accepted N3/N4; C9 |
+| No universal raw/model-free-first | F1 §4; F3 §3 | S1/S4; C11 |
+| Forecast versus observed referent | F3 §4 | S4; C10 |
+| Coverage denominators/source frames | F2 §§1,5 | S5/S9; C2 |
+| Record-only distinguishability | F2 §2 | proof/C3 finite cross-check |
+| Negative evidence and absence | F2 §3 | C12; actual detector unmeasured |
+| Missing/null/unknown/zero | F2 §4 | S5; C4; source-relative |
+| Parse success versus fidelity | F3 §1 | C7; no universal oracle |
+| Authenticity versus truth | F3 §2 | S7; no cryptographic test |
+| Reference/production/receipt time | F3 §5 | S8; C6 common-clock fixture |
+| Acquisition changes source | F3 §6 | S2/S5; C8 |
+| Strongest split and leaf cost | F4 §2 | same-model; reopenable |
+| Other rivals and reduction | F4 §§3–7 | no disjoint-event requirement |
+| Original source/candidate reading | F5; SOURCE-LEDGER | nine targeted pages; META screening |
+| Exact accepted parent corrections | F6 | raw proposal labels are historical |
+| Original executed evidence | F7; checks/ | twelve constructions/five substitutions |
+| Unresolved conditions | OPEN-QUESTIONS | remain open after acceptance |
 
-Derivation now has a separate proposed parent result at `../derivation-transformation/STATE.md`; Selection remains unresearched. The original integrated Formation synthesis is preserved byte-identically, and current STATE governs acceptance and continuation. Do not substitute a generic input-success flag for the separate coverage/fidelity questions.
+F0–F7 resolve through [INDEX](INDEX.md). Original synthesis is byte-identical at [historical synthesis](synthesis/HISTORICAL-FORMATION-ACQUISITION-SYNTHESIS.md). Do not substitute a generic input-success flag for coverage and fidelity. Overall work and authorization: [Foundation STATE](../../../../../STATE.md). This closed package is not a live next-work queue. Its executed handoffs and pass-time pending labels are historical; they cannot restart a completed pass.
