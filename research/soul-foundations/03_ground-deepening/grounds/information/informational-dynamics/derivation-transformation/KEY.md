@@ -1,17 +1,17 @@
 # Derivation / Transformation — KEY
 
-**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
+**Updated:** 2026-09-14. Parent/T6 and Re-expression/R6/Warrant/W6 accepted; Revision leaf/M5 refinements proposed, evaluation pending.
 
 ```text
-Re-expression / Semantic Transfer          What meaning or distinction survives? [accepted leaf/R6]
-Inferential Construction / Claim Warrant   What conclusion is supported, on what basis? [accepted leaf/W6]
-Maintained-Information Revision            What is retained, withdrawn or replaced? [M0–M4 checkpoint; M5/M6 pending]
+Re-expression / Semantic Transfer          Which meaning survives? [accepted]
+Inferential Construction / Claim Warrant   Which conclusion is supported? [accepted]
+Maintained-Information Revision            What continuing information changes? [proposed leaf]
 ```
 
-Faithful transfer, licensing a conclusion and changing continuing information are distinct protected outcomes, not three obligatory software stages. Source lineage is not warrant; truth is not valid offered inference; entailed output can be use-inadequate; withdrawal is not negation; repeated sources do not create independence; local validity does not establish compatible composition.
+These are protected outcomes, not obligatory software stages. Faithful source transfer does not establish truth or offered warrant. Valid inference does not establish that maintained information was revised. Withdrawal is not negation, source count is not independence and local correctness is not compatible composition.
 
-Re-expression/R6 protects possible decoding, intended meaning and actual use; reversibility, loss, material roles/uncertainty, decision margins and verifier coverage remain explicit. Accepted Warrant/W6 distinguishes conditional validity/target applicability, incomplete search/negation, scoped uncertainty, fit/causal identification, undercutting/rebuttal, selected evidence and support/action authority.
+The new Revision synthesis preserves support and selection as separate diagnostic questions inside a proposed bounded leaf. It sharpens input/target, constraint mode and preservation order, future-relevant state, time/currentness, actual installation and replay/authority. The exact seven M5 refinements await evaluation; they are not already accepted parent changes.
 
-Warrant and its seven W6 refinements are accepted. Revision has a preserved M0–M4 checkpoint; M5/M6 remain incomplete and are paused for this maintenance-only turn. Selection/Exposure remains separately unresearched and inactive. See [Foundation STATE](../../../../../STATE.md) and [Revision STATE](maintained-information-revision/STATE.md).
+A state handoff may need more than today's answer, but intentionally revising a policy may legitimately change future behavior. Neither maximal history nor one universal update rule follows. Original T/R/W/M0–M4 evidence remains unchanged; the new five/five checks are finite same-author evidence, not independent or live verification.
 
-Same-model review and finite checks are not independent taxonomy or live-system evidence. Original T/R/W/M source artifacts remain preserved.
+[STATE](STATE.md) → [Revision INDEX](maintained-information-revision/INDEX.md) carries the result and evidence. [Foundation STATE](../../../../../STATE.md) governs evaluation. Selection/Exposure remains separately unresearched/inactive. No automatic successor or implementation.
