@@ -1,22 +1,25 @@
 # Maintained-Information Revision — INDEX
 
-**Checkpoint router, not a completed research publication.** Read [STATE](STATE.md) and [Foundation STATE](../../../../../../STATE.md). M0–M4 are preserved; **M5/M6 pending**. Research execution is paused for the maintenance-only turn.
+Read [STATE](STATE.md), then [Foundation STATE](../../../../../../STATE.md). The bounded research assessment is complete; the proposed leaf and seven M5 refinements await evaluation. No successor is active.
 
 | Need | Exact route |
 |---|---|
-| Research scope, sequence and return condition | [PLAN](PLAN.md) |
-| Entry authority and original recovery extent | [M0](M0-CANONICAL-RECOVERY.md) |
-| Compact checkpoint orientation | [KEY](KEY.md) |
-| Question-to-analysis/check routes | [FINDINGS-MAP](FINDINGS-MAP.md) |
-| Continuing focus, withdrawal targets, support and alternatives | [M1](M1-REVISION-OBJECT-AND-SUPPORT.md) |
-| Time, policy, applicability and actual installation | [M2](M2-TIME-POLICY-AND-REALIZATION.md) |
-| Leading leaf and strongest split/merge rivals | [M3](M3-PRIMARY-PRESSURE-AND-RIVAL-STRUCTURES.md) |
-| Original executed evidence and limitations | [M4](M4-CHECKS-AND-REPERFORMANCE.md) |
-| Actual source reading extent and access limits | [SOURCE-LEDGER](SOURCE-LEDGER.md) |
-| Original check contract, code and result | [SPEC](checks/SPEC.md) → [script](checks/revision_checks.py) → [RESULT](checks/RESULT.json) |
-| Parent/sibling research-continuation full reads | [Warrant recovery contract](../inferential-construction-claim-warrant/NEXT-RESEARCH-HANDOFF.md) |
-| Exact checkpoint identities | [CURRENT-SURFACES](CURRENT-SURFACES.md) |
+| Compact proposed result | [KEY](KEY.md) |
+| Integrated argument | [Synthesis](synthesis/MAINTAINED-INFORMATION-REVISION-SYNTHESIS.md) |
+| Exact seven proposed parent refinements | [M5 decision](M5-SYNTHESIS-DECISION-AND-PARENT-DELTA.md) |
+| Strongest split and omission challenge | [M5 rival review](M5-RIVAL-AND-OMISSION-REVIEW.md) |
+| Original withdrawal/support/alternative analysis | [M1](M1-REVISION-OBJECT-AND-SUPPORT.md) |
+| Original time/policy/applicability/realization analysis | [M2](M2-TIME-POLICY-AND-REALIZATION.md) |
+| Original primary pressure and rival checkpoint | [M3](M3-PRIMARY-PRESSURE-AND-RIVAL-STRUCTURES.md) |
+| Original execution and scope | [M4](M4-CHECKS-AND-REPERFORMANCE.md); [original SPEC](checks/SPEC.md); [original script](checks/revision_checks.py); [original RESULT](checks/RESULT.json) |
+| Fresh source reading, access limits and source tension | [M5 addendum](M5-SOURCE-AND-EXECUTION-ADDENDUM.md) |
+| Five new finite checks / final execution provenance | [M5 SPEC](checks/m5/SPEC.md) → [script](checks/m5/m5_checks.py) → [RESULT](checks/m5/RESULT.json) → [EXECUTION](checks/m5/EXECUTION.md) |
+| Question-to-evidence map | [FINDINGS-MAP](FINDINGS-MAP.md) |
+| Source history and research contract | [SOURCE-LEDGER](SOURCE-LEDGER.md); [PLAN](PLAN.md); [M0](M0-CANONICAL-RECOVERY.md); [M5 resumption](M5-RESUMPTION.md) |
+| Bounded closure and remaining conditions | [M6](M6-CLOSURE.md); [OPEN-QUESTIONS](OPEN-QUESTIONS.md) |
+| Inactive next recommendation | [NEXT-RESEARCH-HANDOFF](NEXT-RESEARCH-HANDOFF.md) |
+| Identities and final readback | [CURRENT-SURFACES](CURRENT-SURFACES.md); PUBLICATION.md |
 
-No M5/M6 or final synthesis file is invented by this router. The leading leaf remains a hypothesis; maintenance does not close research or activate Selection. Original pass artifacts remain unchanged.
+Original M0–M4, PLAN/SOURCE-LEDGER and original checks are unchanged historical evidence. M5 resumption is an executed entry, not today's first unfinished stage. The first M5 execution record predates the header-only clarification; checks/m5/EXECUTION identifies the final script/result without erasing the first runs.
 
-This review-branch increment does not complete the 67-file repair candidate. Older ancestor and closed-package views still need synchronization. The earlier archives were prepared against `e800db333ce3fd89a0534c49d872270335a53af2`; reconcile them with actual branch contents before reuse. Canonical main is unchanged by review-branch publication.
+These routes do not accept the proposed leaf, close independent-verification gaps or activate Selection. Evaluate the result at its stated scope. The prior maintenance ZIP/branch-only pause is not current research authority; PR #2 publication is completed work.
