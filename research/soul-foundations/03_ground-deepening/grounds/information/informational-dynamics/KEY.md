@@ -1,13 +1,13 @@
 # Informational Dynamics — KEY
 
-**Updated:** 2026-09-14. Accepted parent and earlier children; Revision proposed leaf/M5 refinements await evaluation.
+**Updated:** 2026-09-14. Parent and Formation/Derivation dedicated results accepted; Selection parent refinement proposed for evaluation.
 
-Dynamics concerns informational instantiation, derivation/change and availability/exposure. Formation protects source-to-representation; Derivation protects transfer, warrant and continuing-state revision; Selection protects which existing information reaches a use. Route by protected question and frame, not verbs such as copy, retrieve or update.
+Dynamics concerns informational instantiation, derivation/change and availability/exposure. Formation protects source-to-representation; Derivation protects transfer, warrant and continuing-state revision. Route by protected question and frame, not verbs such as copy, retrieve or update.
 
-Formation/F6, Derivation/T6, Re-expression/R6 and Warrant/W6 are accepted. Re-expression retains possible recovery, intended meaning, actual use and purpose-sensitive transfer limits. Warrant retains qualified claim–basis support: conditional validity, target applicability, uncertainty scope/dependence, defeaters and selection conditions, not one generic score.
+Formation/F6, Derivation/T6, Re-expression/R6, Warrant/W6 and Revision/M5.1–M5.7 are accepted. Possible recovery, intended meaning and actual use differ. Claim-basis support is not one generic confidence score. Revision preserves qualified continuing-state change, not a universal latest-wins policy or maximal memory requirement.
 
-Revision now proposes one continuing-information revision relation. Preserve support withdrawal and alternatives, constraint mode and choice policy, future-update state, time/currentness, actual applicability/installation and replay/current authority. These remain distinct questions inside the proposed leaf, not a universal overwrite rule or mandatory storage architecture. The strongest support-maintenance/successor-selection split and seven exact M5 refinements remain subject to evaluation.
+Selection/Exposure now proposes two immediate questions: use-conditioned selection/set adequacy and consumer-relative exposure/availability. Its S5.1–S5.5 distinguish coverage/absence, whole-view feasibility and evolving need, exact/jointly appropriate identity-time, and observed endpoint versus actual use. The rich-leaf rival remains explicit. Neither child is researched or active; publication does not accept the new structure.
 
-See [Foundation STATE](../../../../STATE.md) and [Revision STATE](derivation-transformation/maintained-information-revision/STATE.md) → INDEX/PUBLICATION. The old M0–M4-only/M5-pending checkpoint is superseded by the completed assessment. Selection/Exposure remains separately unresearched and inactive; publication does not authorize that successor.
+Source lineage, time, uncertainty, communication, encoding, propagation and persistence remain cross-cutting or specialized concerns, not automatic peers. Records is a deep persistence profile. Existing information can be made available without a new source observation; exposure still does not prove interpretation, acceptance or action.
 
-Source lineage, time, uncertainty, communication, propagation, encoding and persistence remain cross-cutting or specialized concerns, not automatic peers. Records remains a deep persistence profile. Parent acceptance does not complete descendants. Source authorship and finite checks are not independent taxonomy or live-system verification.
+[STATE](STATE.md) → [Selection INDEX](selection-exposure/INDEX.md) carries the result and [Foundation STATE](../../../../STATE.md) governs evaluation/activation. Finite checks and source authorship are not independent taxonomy or live-system verification. Parent acceptance is not recursive completion. No automatic successor or implementation follows.
