@@ -228,6 +228,6 @@
   ],
   "python": "3.13.5",
   "scope": "Five finite M5 checks and same-fixture false-rule controls; not live or independent taxonomy validation",
-  "script_sha256": "ced15d02d34f93b16ad5ec8215ba5ee8d85da61777c1838785b215e178e30eb6",
+  "script_sha256": "c9dd9b0c164173b743a0f5ade71268919b58486f84b5dd3325107f2cc7807682",
   "spec_sha256": "b8ae998a9795c31e020537943a85389791d0bb558381cb631ab5b561374da6ea"
 }
