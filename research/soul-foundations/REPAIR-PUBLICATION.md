@@ -1,42 +1,48 @@
 # Foundation Repair — Incremental Publication Record
 
-**Date:** 2026-09-14. **Status:** PARTIAL REPAIR; NOT READY TO MERGE.
+**Date:** 2026-09-14.
+**Status:** NAMED UPLOAD BACKLOG PUBLISHED; INTEGRATED CLOSURE AUDIT PENDING; NOT READY TO MERGE.
 **Branch:** `maintenance/foundation-continuity-repair-2026-09-14`.
 **Main baseline:** `e800db333ce3fd89a0534c49d872270335a53af2`.
-**Review:** draft PR #2. Main publication and research continuation remain unperformed.
+**Review:** draft PR #2. Research remains paused; main publication is not performed.
 
-## Inherited and preserved publication
+## Preserved earlier publication
 
-Revision navigation and Warrant acceptance metadata were published at group checkpoints `e57c2da823294d2a847b0ffd0edd49fec2ef0d47` and `830d4fb52e5a071c24d7928f25cf584f825591e6`; their earlier 14/21 binding checks retain their bounded scope. Foundation entries followed through `396ca12750a32586f61bd4a4bd95bc8e79ded4f2`.
+The full preceding handoff is recoverable at `65163f42aa2cbd609740e4bf6b63856d5578e44a`, blob `5ea9d985fb51c192800c9713b140e1756723d70b`. It preserves the earlier small-write sequence, the stale-SHA conflict, the Environment INDEX block, exact reading/verification limits and the then-open upload list.
 
-The inherited continuation already published Derivation parent (`2a54a355ed7c0d5f2f6f086fbd8a008e7cbab4f3`), Dynamics (`802d7b875b9ab160f732efefffa43b0d646b3a2e`), Information (`8e407390de18b5585e58c5737596608cf06433ff`) and Ground Deepening/root entries (`28d3bd696493c3bbc09cc4861e3d11465b163fea`). Its handoff checkpoint was `459d2ce0a5f80afedf46c90b1d3d041ba311a42a`, with 39 changed files and 43 commits relative to main. The previously overlooked Ground Deepening README was included. Do not restart these as unperformed uploads.
+Earlier published groups are not missing work: Revision navigation (`e57c2da823294d2a847b0ffd0edd49fec2ef0d47`), Warrant acceptance views (`830d4fb52e5a071c24d7928f25cf584f825591e6`), Foundation entry (`396ca12750a32586f61bd4a4bd95bc8e79ded4f2`), Derivation parent (`2a54a355ed7c0d5f2f6f086fbd8a008e7cbab4f3`), Dynamics (`802d7b875b9ab160f732efefffa43b0d646b3a2e`), Information (`8e407390de18b5585e58c5737596608cf06433ff`) and Ground Deepening/root entries (`28d3bd696493c3bbc09cc4861e3d11465b163fea`). Formation (`b39fa449831d419fec6c1af0654b70e2ec2b8045`) and Re-expression (`cb28733bf6263a2c096c1e9fc8e88a6d728c270d`) also had their local current-view repairs published.
 
-## Latest published maintenance
+## Latest publication under renewed continuation
 
-Comparison from `459d2ce0...` through `988e174ace159aa5e956dff74fa4af95225aee6a` shows exactly 23 additional single-file commits and 23 maintenance paths:
+Input head was `65163f42...` (62 changed files / 67 commits). The latest user request was to continue sending, not to resume research or merge.
 
-| Group | Published files | Checkpoint / remaining boundary |
+| Completed group | Published scope | Group checkpoint |
 |---|---|---|
-| Formation | STATE, INDEX, KEY, FINDINGS-MAP, executed handoff, current synthesis, manifest | `b39fa449831d419fec6c1af0654b70e2ec2b8045`; 22 manifest entries checked against its GitHub tree |
-| Re-expression | corresponding seven current files | `cb28733bf6263a2c096c1e9fc8e88a6d728c270d`; 22 entries checked against tree at `988e174...` |
-| Composition | STATE, INDEX, KEY, OPEN-QUESTIONS | `df018142eb502da54118e5273a0035e08ba61041`; manifest refresh still pending |
-| Integration/frontier | STATE, INDEX, KEY, executed handoff | `7e36bbe4eb9f82f2baa1dc41f771e26f52586114`; manifest refresh still pending |
-| Environment | STATE only | `988e174...`; index/key/manifest group is incomplete |
+| Environment | INDEX, KEY, newly identified stale README, CURRENT-SURFACES; the prior repaired STATE is preserved | `dd92f9e6eef9f9c3ef94846f5f2ef18ca58d3215` |
+| Work | STATE, INDEX, CURRENT-SURFACES; already-correct KEY and FINDINGS-MAP unchanged | `b7900a9eb641086004f94dbbe02836bad0a55dee` |
+| Actors | INDEX, KEY, FINDINGS-MAP, CURRENT-SURFACES aligned with already-accepted STATE | `3822bef64bf41b82d45de787dec1411d4d218c86` |
+| Derivation → Dynamics → Information → Ground Deepening | Four reverse-reference manifests refreshed after Formation/Re-expression and the other-ground repairs | `d94390d5609e96534f8f6fb33ca5f99c35c911cd` |
+| Integration/frontier and Composition | Their current manifests refreshed; an INDEX/KEY identity transposition was then corrected and propagated to Composition | `dba5a1f0b5f83ee817466417940b8b6e3675a10f` |
 
-Twenty prepared current-view payload hashes matched successful GitHub write receipts. The two newly written manifests used actual published identities. Environment STATE's publication is confirmed by its write receipt and the separate comparison. No original scientific passes, historical syntheses, source ledgers, research plans, scientific tests or agent-control files changed in that comparison. These are publication/identity checks, not complete-checkout or independent semantic verification.
+The first 17 single-file commits changed exactly the 17 named maintenance paths in the input-to-`d94390...` comparison. Two subsequent corrective commits touched only the integration and Composition manifests. At `dba5a1...`, PR metadata reported 75 changed files / 86 commits relative to main. This handoff is a later bookkeeping commit, not part of that count.
 
-## Publication interruption
+The Environment INDEX retry succeeded on the same review branch through the ordinary file-update action after the renewed user request. No safety block was returned in this continuation. This does not identify the cause of prior failures or guarantee future writes.
 
-During initial recovery this handoff changed concurrently: an attempted stale-SHA update received HTTP 409 and made no change. The later handoff was recovered rather than overwritten.
+## Actual verification and correction
 
-After the 23 successful file commits, an Environment INDEX replacement was blocked by the OpenAI tool safety check. It returned no successful commit. The denied write was not retried through another payload or tool. This status record and PR status maintenance do not publish that denied content. Its cause remains unverified; small successful requests do not prove that size or session duration caused earlier blocks.
+Readback was not uniformly clean on the first attempt. The newly written integration manifest had its INDEX and KEY hashes transposed. A separately fetched GitHub tree at `d94390...` exposed the mismatch. Commit `a9114abe2f4dbf9d111ad7a9084c5fb3f72747bd` corrected those two rows; `dba5a1...` refreshed the dependent Composition reference. The corrected integration manifest was read back at `dba5a1...`, blob `a6cd6571e2e2d508fc213a3312fbb6d9f1d39dfa`. The acceptance condition was not relaxed.
 
-## Exact remaining work
+Manual identity comparison covered 7 current Environment-entry bindings, 15 Work-local bindings, 15 Actors-local bindings and 17 integration-local bindings against separately fetched GitHub trees; the final integration comparison includes the correction. Explicitly historical tables were not counted as current bindings. Composition's direct local metadata and the changed reverse-reference values were also inspected; unchanged nested descendant manifests were not recursively certified.
 
-1. Environment: STATE is repaired, but INDEX, KEY and CURRENT-SURFACES retain obsolete September 4 global selection/Information-inactive wording and old STATE binding. The attempted INDEX replacement is unperformed.
-2. Work: STATE still labels a next-ground-selection phase and Actors inactivity; INDEX's global continuation needs clarification. Its KEY and FINDINGS-MAP were fully read and already correctly record acceptance; avoid gratuitous rewrites. Separate historical upstream bindings from live authority in its manifest.
-3. Actors: STATE records acceptance, but INDEX, KEY and FINDINGS-MAP still say evaluation pending. Those files were fully read but not changed. Its manifest also points global work to the old adequacy rerun and carries old upstream bindings. Preserve original A-pass/synthesis evidence and do not reopen the accepted result.
-4. Refresh Composition and integration/frontier manifests. Then repair reverse-reference identities bottom-up: Re-expression → Derivation; Formation/Derivation → Dynamics → Information → Ground Deepening, plus the corrected other-ground manifests. Current ancestor manifests still predate this turn's child updates.
-5. Complete bounded cross-surface/path/identity review and inspect the full PR diff before declaring repair complete. Further audit findings may expand the old candidate inventory; historical hashes must not be silently relabeled current.
+These are bounded readback/identity checks, not automated whole-repository validation. No full checkout, new scientific test execution, live SOUL/LLM experiment or independent research replication occurred. No claim is made that every inherited path, anchor, historical binding or source claim has now been revalidated. Earlier archive PASS_LIMITED results remain inapplicable to this changed branch.
 
-Original M0–M4, W0–W7, F/R and other source histories remain protected. No scientific tests or live SOUL/LLM behavior were run. Earlier archives are drafts against the baseline, not this branch or its validation verdict. Research remains paused: Revision M5/M6 remain open; Selection remains unresearched/inactive. Return for evaluation before any main merge and verify canonical main after a separately authorized future merge.
+## Exact next responsibility: integrated repair closure audit
+
+The previously named upload groups above are published. Do not restart them as missing uploads. The next maintenance work is:
+
+1. Read current root STATE/INDEX and this handoff, then review the complete main-to-branch diff and the actual changed entry surfaces. Check that no accepted result, protected research evidence or authorization boundary was lost while rewriting derived views.
+2. Check current paths and live manifest dependencies against one pinned head. Keep explicitly historical upstream/descendant tables bound to their declared checkpoint rather than treating every old hash as today's expected value. Resolve remaining ambiguous legacy entry labels through the actual local STATE/current router; make only evidence-supported repairs.
+3. Inspect historical-versus-current notices and remaining unmodified entry points, especially preserved descendant manifests and original pass maps/syntheses. Their historical status is not permission to silently misroute a cold start. Additional findings may require small corrective commits; the old 67-file candidate is not an exhaustive inventory.
+4. Publish a bounded closure assessment and any final root/manifest adjustments, then return for user evaluation. Keep the PR draft until that assessment supports readiness. Main merge requires separate authorization and subsequent canonical readback.
+
+Original M0–M4, W0–W7, F/R, A/B/C and other scientific source histories remain protected. Revision M5/M6 are still open; Selection is unresearched/inactive. Upload completion is not research completion, full repository health, independent verification or main publication. No architecture, implementation or agent-control change is authorized by this repair.
