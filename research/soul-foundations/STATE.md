@@ -1,16 +1,17 @@
 # SOUL Foundations — STATE
 
 **Updated:** 2026-09-14
-**Maintenance:** bounded continuity repair accepted / PR #2 merged / publication verified
-**Revision:** bounded leaf and M5.1–M5.7 USER-EVALUATED / ACCEPTED; M0–M6 and publication complete
-**Current substantive activity:** ONE BOUNDED SELECTION / EXPOSURE PASS
-**Current responsibility:** follow Selection STATE/PLAN; publish a coherent result or precise partial checkpoint, then return for evaluation
+**Maintenance:** bounded repair accepted / PR #2 merged / publication verified
+**Revision:** accepted bounded leaf and M5.1–M5.7; M0–M6 and publication complete
+**Selection / Exposure:** bounded parent assessment complete; TWO QUESTIONS AND S5.1–S5.5 PROPOSED FOR EVALUATION
+**Current substantive research activity:** NONE after the bounded parent assessment
+**Current responsibility:** finish/check Selection publication as recorded locally, then evaluate the delivered result; no child active
 
-## Latest authority
+## Latest authority and completed scope
 
-The user evaluated the Revision result as appropriate and directed: “Repo tarafında yapılması gereken bir iş yok gibi anladım mesajını, aksi varsa önce repo ile ilgilen. Yoksa araştırmaya devam edebilirsin.” The prior delivered result submitted the bounded Revision leaf and seven refinements and recommended Selection/Exposure. Together these accept that result and authorize its recommended next pass after repository checks. This is not blanket authority for other nodes, architecture, implementation or agent-control changes.
+The user evaluated Revision as appropriate and authorized further research after any repository duty. This accepted Revision's bounded leaf and seven refinements and activated one Selection/Exposure pass. It did not pre-accept Selection's result or authorize its children. Opening main was `b145444c2d74b6ac4ab93e7280b8e34b7473060f`, with no intervening content since the preceding publication.
 
-Input main was `b145444c2d74b6ac4ab93e7280b8e34b7473060f`; no intervening change appeared in the opening ref check. Revision PUBLICATION had already completed the bounded publication check. The remaining entry duty was to persist this new acceptance/activation, not to redo the repair or the Revision research.
+The pass recovered required parent/sibling/Records evidence, persisted a source-independent inventory, read targeted primary traditions, executed pre-specified finite checks and compared the strongest rich-leaf rival. Selection STATE and PUBLICATION distinguish completed research assessment, actual publication and user acceptance. Do not restart predecessor work or infer a new active node from the old entry plan.
 
 ## Exact research frontier
 
@@ -23,27 +24,25 @@ Information [accepted parent]
    │  ├─ Re-expression / Semantic Transfer [accepted leaf; R6 accepted]
    │  ├─ Inferential Construction / Claim Warrant [accepted leaf; W6 accepted]
    │  └─ Maintained-Information Revision [accepted leaf; M5.1–M5.7 accepted]
-   └─ Selection / Exposure [ACTIVE; structure undecided; no child active]
+   └─ Selection / Exposure [proposed two-question parent; evaluation pending]
+      ├─ Use-Conditioned Selection / Set Adequacy [unresearched; inactive]
+      └─ Consumer-Relative Exposure / Availability [unresearched; inactive]
 ```
 
-## Active route and return condition
+## Result, publication and return
 
-[Selection STATE](03_ground-deepening/grounds/information/informational-dynamics/selection-exposure/STATE.md) → [PLAN](03_ground-deepening/grounds/information/informational-dynamics/selection-exposure/PLAN.md). The plan records full required recovery, live rivals and the order of primary-source challenge and checks. Study one node; a leaf, selection/exposure split or another bounded organization must be earned rather than inherited from the parent shorthand.
+[Selection STATE](03_ground-deepening/grounds/information/informational-dynamics/selection-exposure/STATE.md) → INDEX → S5 synthesis/parent refinements → S4 rival review → exact source/check routes. [Selection PUBLICATION](03_ground-deepening/grounds/information/informational-dynamics/selection-exposure/PUBLICATION.md) owns the final readback and any remaining publication duty. Once that record is complete, this root's publication duty is satisfied rather than becoming another upload queue.
 
-The protected question concerns which existing information becomes eligible, selected and available for a specified consumer/use. Correct acquisition, semantic transfer, warrant, maintained-state revision, action authority and actual consumer use remain distinguishable. No universal relevance metric, top-k mechanism or architecture is preselected.
+The proposed distinction is between need-to-view adequacy and information-to-consumer availability. It is not a mandatory pipeline or architecture. The rich-leaf alternative remains reopenable. S5.1–S5.5 refine the two relations, coverage/absence, constrained/evolving whole-view adequacy, exact/jointly appropriate identity-time and endpoint-versus-use evidence. None is accepted merely by being published.
 
-Publish small completed units and keep the package/ancestor continuation recoverable. Local Selection STATE owns its exact stage and any incomplete duties; this root does not duplicate a changing stage list. Return the bounded result for evaluation before any child/sibling activation. If closure is not supported, preserve the exact unfinished question rather than inventing completeness.
+Return for user evaluation before activating either child. Use-Conditioned Selection / Set Adequacy is the recommended first dedicated child after acceptance and explicit continuation; it has not been researched as a separate node. No automatic sibling, architecture, schema, implementation or agent-control change follows.
 
-## Accepted Revision and preserved evidence
+## Preserved acceptance, history and limits
 
-[Revision STATE](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) records acceptance. Its M5 decision/synthesis, M6 and PUBLICATION retain their original proposal/evaluation-pending language as dated research/publication evidence, not current authority. The strongest support-maintenance/successor-selection rival, source tension and independent/live-verification limits remain open. Acceptance is not additional scientific evidence.
+[Revision STATE](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) records this turn's user acceptance. Its original proposal/synthesis/M6/publication language is a dated checkpoint, not a new approval gate. The support-maintenance/successor-selection rival and source/independent-validation limits remain.
 
-The exact M5.1–M5.7 preserve admitted input/target, withdrawal/support, constraints/choice, future-update state, temporal meaning, actual applicability/realization and replay/current-authority distinctions. Original M0–M4 and M5 checks remain unchanged; separate reperformance does not create new independent experiments.
+Seven finite Selection cases and seven same-fixture controls passed and repeated unchanged. They are not fourteen independent experiments, live model/search validation or a taxonomy oracle. Source reading was selective; the late evolving-need source did not precede those tests. Independent scientific verification and target-specific operating evidence remain open. Original research passes, plans, source histories, historical syntheses and predecessor tests are preserved.
 
-## Completed repair and broader boundaries
+Environment, Work, Actors, four-ground adequacy, Composition and promoted descendants, Returned Influence, Persistent Adaptation and integration/frontier review remain accepted at recorded depths. Parent acceptance is not recursive completion; whole Foundation remains incomplete.
 
-PR #2 merged at `872a3a7e9b2cef2d24ce8ab5162c99396f015a76`; reviewed head and merge shared tree `cd10eb3f40524a0d100b771960b8f141834059e0`. [REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) and [REPAIR-AUDIT](REPAIR-AUDIT.md) preserve completed maintenance, not a pending upload or approval queue. Do not reapply old ZIPs.
-
-Environment, Work, Actors, Information, four-ground adequacy, Composition and promoted descendants, Returned Influence, Persistent Adaptation and integration/frontier review remain accepted at recorded depths. Parent acceptance is not recursive completion; whole Foundation remains incomplete.
-
-Original research passes, plans, source ledgers, historical syntheses and scientific evidence remain protected. Current routers distinguish later acceptance from original pass-time recommendations. Update semantically affected current views and manifests at the coherent publication checkpoint; do not leave acceptance or the new frontier only in chat. No cause of earlier platform failures is newly established.
+[REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) and [REPAIR-AUDIT](REPAIR-AUDIT.md) preserve completed PR #2 maintenance, not pending work. Historical stage/branch labels in preserved pass artifacts do not override current local STATE/INDEX and this root. Actual newly material identity/path/evidence defects still require checking. No technical cause of earlier platform blocks is established by successful publication.
