@@ -1,24 +1,24 @@
 # SOUL Foundations — INDEX
 
-Read [STATE](STATE.md) first. Revision's bounded M0–M6 research assessment is complete: proposed leaf and seven M5 refinements awaiting evaluation. [Revision PUBLICATION](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/PUBLICATION.md) records the exact canonical publication/readback gate. Earlier accepted results and the completed repair remain preserved. Selection is unresearched/inactive.
+Read [STATE](STATE.md) first. Revision's bounded leaf and M5.1–M5.7 are accepted. Selection/Exposure has a bounded parent proposal with two immediate questions and S5.1–S5.5 awaiting evaluation. No proposed child is active. [Selection PUBLICATION](03_ground-deepening/grounds/information/informational-dynamics/selection-exposure/PUBLICATION.md) owns the exact final readback and any remaining publication duty.
 
 | Need | Entry and deeper route |
 |---|---|
-| Current proposed Revision result, evidence and evaluation | [Revision INDEX](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/INDEX.md) |
-| Integrated Revision meaning | [Revision synthesis](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/synthesis/MAINTAINED-INFORMATION-REVISION-SYNTHESIS.md) |
-| Strongest split and exact seven proposed refinements | Revision INDEX → M5 rival review / M5 decision |
-| Publication, actual checks and remaining limits | Revision PUBLICATION → M6 / source addendum / checks/m5/EXECUTION |
-| Accepted Warrant and seven W6 refinements | [Warrant INDEX](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/inferential-construction-claim-warrant/INDEX.md) |
-| Executed Revision entry/source-recovery contract | Warrant NEXT-RESEARCH-HANDOFF; Revision M0/M5-RESUMPTION are historical entry records |
+| Selection result, evidence and evaluation | [Selection INDEX](03_ground-deepening/grounds/information/informational-dynamics/selection-exposure/INDEX.md) |
+| Integrated proposal and five refinements | Selection S5-SYNTHESIS-AND-PARENT-DELTA.md |
+| Strongest rich-leaf rival and boundaries | Selection S4-RIVAL-AND-OMISSION-REVIEW.md |
+| Selection primary reading and actual execution | Selection SOURCE-LEDGER; S2 includes late P7; S3/checks record seven-case execution |
+| Actual research publication/readback | Selection PUBLICATION → S6 and current manifests |
+| Accepted Revision/M5 and original evidence | [Revision INDEX](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/INDEX.md) |
+| Accepted claim support/W6 | [Warrant INDEX](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/inferential-construction-claim-warrant/INDEX.md) |
 | Accepted Re-expression/R6 and Derivation/T6 | [Derivation INDEX](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/INDEX.md) |
-| Accepted Formation/F6 and Dynamics/Selection boundary | [Dynamics INDEX](03_ground-deepening/grounds/information/informational-dynamics/INDEX.md) |
-| Information/State constitution and original structure | [Information INDEX](03_ground-deepening/grounds/information/INDEX.md) |
+| Dynamics depth and Formation/F6 | [Dynamics INDEX](03_ground-deepening/grounds/information/informational-dynamics/INDEX.md) |
+| Information/State constitution | [Information INDEX](03_ground-deepening/grounds/information/INDEX.md) |
 | Accepted integration/frontier review | [Review STATE](06_integration-frontier-review/STATE.md) → original SYNTHESIS/B1/B2/B4 |
 | Accepted Composition and descendants | [Composition STATE](05_relation-control-composition/STATE.md) → INDEX → selected package |
 | Other accepted grounds | [Ground Deepening INDEX](03_ground-deepening/INDEX.md) |
 | Accepted four-ground adequacy | [Adequacy STATE](04_top-level-adequacy-rerun/STATE.md) → INDEX |
-| Executed repair publication and readback | [REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) |
-| Accepted pre-merge assessment and unchecked scope | [REPAIR-AUDIT](REPAIR-AUDIT.md) |
-| Candidate reuse when material | [Studies catalog](../studies/CATALOG.md) → selected META → precise evidence |
+| Completed repair publication and limits | [REPAIR-PUBLICATION](REPAIR-PUBLICATION.md); [REPAIR-AUDIT](REPAIR-AUDIT.md) |
+| Candidate reuse when material | [Studies catalog](../studies/CATALOG.md) → selected META → exact evidence |
 
-Current STATE governs activity. Original pass labels, temporary maintenance pauses, branch-only publication statements and executed M5-resumption instructions retain their historical checkpoints; they do not restart research or repair. New Revision publication does not accept its result. After the bounded publication check, return for evaluation of the leaf and M5.1–M5.7. Selection remains a recommendation requiring subsequent acceptance and separate activation. No architecture, implementation or automatic successor follows.
+Current STATE and the selected package govern authorization and progress. Earlier proposal labels, executed handoffs, maintenance pauses and branch-only publication statements preserve their dated contexts; they do not reopen accepted Revision or the completed repair. Selection's new publication does not accept its result or complete its proposed children. Return for evaluation after its bounded publication check. No automatic successor, architecture or implementation follows.
