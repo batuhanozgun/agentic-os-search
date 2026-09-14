@@ -1,30 +1,19 @@
 # Claim Warrant — Open Conditions and Reopen Triggers
 
-**Date:** 2026-09-12  
-**Role:** bounded residuals, not an automatically authorized work queue.
+**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
 
-## Actual separate research frontier
-
-This Warrant result and W6 refinements await evaluation. Maintained-Information Revision / Reliance Change and Selection/Exposure have not received dedicated passes. Re-expression/R6 are accepted. No Warrant descendant is promoted by this pass.
+Warrant and seven W6 refinements are accepted; no descendant was promoted. Overall work and authorization: [Foundation STATE](../../../../../../STATE.md). This closed package is not a live next-work queue. Its executed handoffs and pass-time pending labels are historical; they cannot restart a completed pass.
 
 ## Target-specific evidence conditions
 
-- Which assumptions, admissible model class, reference population and error guarantee fit an actual SOUL task?
-- How can source dependence and actual input use be established in opaque, multi-actor systems rather than inferred from citations or labels?
-- Which alternatives or defeaters are material, credible and sufficiently investigated for the specific claim?
-- What prevents a convenient prior, comparison class, metric, stopping rule or subgroup from being selected after seeing the desired result?
-- Which evidence can distinguish observationally compatible causal/explanatory alternatives?
-- When is a conditional answer, interval, unresolved result or tentative hypothesis sufficient for the Work and its authorized risk criterion?
-- How should natural-language claim strength be checked without treating a learned judge or explanation trace as an infallible oracle?
+Which assumptions, admissible model class, reference population and error guarantee fit an actual task? How can dependence and actual input use be established in opaque multi-actor systems? Which alternatives/defeaters are credible and sufficiently investigated? What prevents priors, metrics, stopping rules or subgroups being chosen after seeing the desired result? What evidence distinguishes observationally compatible causal/explanatory alternatives? When are a conditional answer, interval or unresolved hypothesis sufficient under the Work's risk criterion? How should natural-language strength be checked without treating a learned judge or explanation trace as infallible?
 
-These require specific targets; the present semantics do not supply their empirical values or choose a universal inference policy.
+These require specific targets; the semantics do not supply empirical values or a universal inference policy.
 
 ## Structural reopening
 
-Reopen the leaf if strict/defeasible or another regime repeatedly hides an autonomous first-order question despite the direct routes; if a stronger split reduces material diagnostic loss without duplicating general grounding/criterion validation; if actual inference-local meaning is stolen by adjacent grounds; or if independent review identifies a recurring unsupported region.
-
-Reopen upstream minimally if Warrant ceases to be separable from semantic transfer or maintained-state revision under an explicit frame. Do not reopen merely because a specialist field has finer algorithms or terminology. Rich internal dimensions are not automatically an unexecuted child queue.
+Reopen if strict/defeasible or another regime hides an autonomous first-order question despite direct routes; if a stronger split reduces diagnostic loss without duplicating general grounding/criterion validation; if inference-local meaning is absorbed by adjacent grounds; or independent review finds a recurring missing region. Reopen upstream minimally if Warrant cannot be separated from transfer or maintained-state revision under an explicit frame. Specialist terminology alone is insufficient; rich dimensions are not an unexecuted child queue.
 
 ## Verification limits
 
-Same-author finite models and same-model review do not constitute independent replication, empirical calibration, real causal discovery, live SOUL efficacy or a universal proof/defeat oracle. Earlier source-specific limits remain at their original scopes. User acceptance would close a sequencing gate, not erase these conditions.
+Same-author finite models and same-model review are not independent replication, empirical calibration, real causal discovery, live SOUL efficacy or a universal proof/defeat oracle. Acceptance closes sequencing at the bounded scope without erasing these conditions. Revision M5/M6 and Selection remain separate research debt.
