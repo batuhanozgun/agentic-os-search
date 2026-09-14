@@ -1,19 +1,20 @@
 # Information / Representation — CURRENT SURFACES
 
-**Updated:** 2026-09-14. **Branch:** main. Current result routing, not new research acceptance.
+**Updated:** 2026-09-14. **Branch:** main.
+**Local status:** Information/State/Dynamics accepted; detailed descendant state is routed through Dynamics.
 
 | Path | Git blob SHA |
 |---|---|
-| `FINDINGS-MAP.md` | `be7c7738779a5ac58781c4a9e52559264514bd2b` |
-| `INDEX.md` | `97d9b14d840fd24e39df8547eb43a95cc69b7db8` |
-| `KEY.md` | `815b6d24c14be6ae784cf71a4268555cc8d77985` |
-| `STATE.md` | `8990029175dbbcaf50c05674be93c2639ce1d334` |
-| `informational-dynamics/CURRENT-SURFACES.md` | `f3d3a7b8e535d537959389a8ad63e62b2da14394` |
+| `FINDINGS-MAP.md` | `26cbaacf76fc90e73989f1d2f4219daa2964c125` |
+| `INDEX.md` | `7cd21aab286533e83a5016c40cccc8a94dbd654d` |
+| `KEY.md` | `de05e63c26e4b2040fb4ae94bdcec0bbf4c2b547` |
+| `STATE.md` | `da435e49ace40040175614c4ef5735bc4aa0f7ee` |
+| `informational-dynamics/CURRENT-SURFACES.md` | `7291d80a8027ce75fc38dfe80b25b97397218b1c` |
 | `informational-state/CURRENT-SURFACES.md` | `18557fec3dac27d4409d83615336f672c1eade9c` |
 | `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` | `15ab6fc1acac64d8bcf48296c2d15ad8c5a79b99` |
 
-Information/State/Dynamics, Formation/F6, Derivation/T6, Re-expression/R6 and Warrant/W6 are accepted. Revision's bounded M0–M6 assessment is complete; its proposed leaf and seven M5 refinements await evaluation. Selection remains unresearched/inactive. Original research, source evidence and the accepted State sibling remain unchanged.
+The Dynamics binding incorporates accepted Revision/M5 and the dedicated Selection/Exposure proposal. The current upper entries preserve accepted local structure and delegate changing descendant stages to their actual local authorities rather than copying a rolling global queue. Original Information/State evidence is unchanged.
 
-The Dynamics binding now incorporates the completed Revision assessment and refreshed Derivation/Warrant current routes. Parent acceptance does not complete descendants. The old M5-pending pause and review-branch publication labels are historical, not a reason to redo research or merge PR #2 again.
+[Foundation STATE](../../../STATE.md) governs authorization. Dynamics STATE and Selection STATE/PUBLICATION carry the current proposal, evaluation and bounded readback. A published proposed hierarchy is not accepted or recursively researched. Historical parent/pass-time stage labels and completed repair records do not reopen earlier work.
 
-[Foundation STATE](../../../STATE.md) owns global authorization. [Revision PUBLICATION](informational-dynamics/derivation-transformation/maintained-information-revision/PUBLICATION.md) records final canonical checks; its evolving receipt is not self-bound. Exact identities do not independently validate the hierarchy, recursively certify every historical record or establish whole-repository health. No new result is accepted or successor activated by this manifest.
+Exact content identities do not independently validate the hierarchy, certify every unchanged descendant/historical record or establish whole-repository health. Evolving publication receipts remain outside the self-binding chain. No new result is accepted or child activated by this manifest.
