@@ -1,12 +1,14 @@
 # Ground Deepening — STATE
 
 **Updated:** 2026-09-14
-**Original four-ground program:** CLOSED / accepted at recorded depths.
-**Later Revision assessment:** M0–M6 complete; proposed bounded leaf and seven M5 refinements awaiting evaluation.
-**Current substantive research:** NONE after bounded assessment; final publication/readback is routed through Revision PUBLICATION.
+**Original four-ground program:** CLOSED / accepted at recorded depths
+**Current substantive activity inside that original program:** NONE
+**Later descendant status:** delegated to the selected ground/package and Foundation STATE
 
-The original program evaluated Environment, Information, Work and Actors, not every subsequently promoted Information descendant. Work and Actors' deliberate no-child results are not unfinished child queues. The accepted integration review recovered missing Dynamics passes.
+The original program evaluated Environment, Information, Work and Actors, not every later promoted descendant. Work and Actors' deliberate no-child results are not unfinished queues. The accepted integration review identified missing dedicated Dynamics research; subsequent passes have their own source, assessment, acceptance and publication records.
 
-Formation/F6, Derivation/T6, Re-expression/R6 and Warrant/W6 are accepted. [Revision STATE](grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) → INDEX carries the new proposed result, not an absent M5 synthesis. [Revision PUBLICATION](grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/PUBLICATION.md) distinguishes canonical publication from research assessment and user acceptance. The leaf and seven refinements are not accepted by publication. Selection/Exposure has no dedicated pass and remains inactive.
+[Foundation STATE](../STATE.md) governs current authorization and the actual return gate. [Information STATE](grounds/information/STATE.md) → [Dynamics STATE](grounds/information/informational-dynamics/STATE.md) gives detailed descendant depth. [Selection STATE](grounds/information/informational-dynamics/selection-exposure/STATE.md) and its PUBLICATION carry that package's exact current result and publication duty. This entry deliberately does not copy a rolling stage list.
 
-Overall authority: [Foundation STATE](../STATE.md). Completed repair and its temporary research pause are historical; do not restart uploads or M5 from those labels. The original adequacy/composition transitions and [hierarchical method](HIERARCHICAL-DEEPENING-METHOD.md) are unchanged. One node is researched at a time; discovery and recommendation do not activate descendants or siblings. No architecture, schema, implementation or agent-control change follows.
+Formation/F6, Derivation/T6 and Re-expression/R6, Warrant/W6, Revision/M5.1–M5.7 are accepted at recorded scopes. Accepted predecessors must not be restarted from preserved proposal labels. A later proposed child map remains unaccepted until its own evaluation; earlier acceptance is not recursive completion.
+
+The original adequacy/composition transitions, [PLAN](PLAN.md) and [hierarchical method](HIERARCHICAL-DEEPENING-METHOD.md) remain preserved. Research one authorized node; discovering questions does not activate them. Original evidence and its source/verification limits are unchanged. Completed repair/PR #2 is not an active upload queue. No architecture, schema, implementation or agent-control change follows automatically.
