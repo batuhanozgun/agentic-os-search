@@ -1,19 +1,19 @@
-# Derivation — Open Questions and Remaining Dedicated Work
+# Derivation — Open Questions
 
-**Updated:** 2026-09-14. Research completion, acceptance and verification remain separate.
+**Updated:** 2026-09-14. Parent/T6 and all three dedicated child results/refinements are accepted; scientific limitations remain.
 
-## Current dedicated status
+## Current local status
 
-Re-expression/R6 and Warrant/W6 are accepted. Revision has completed its bounded M0–M6 assessment; its proposed leaf and seven M5 refinements await user evaluation. [Revision PUBLICATION](maintained-information-revision/PUBLICATION.md) records its publication/readback. Selection/Exposure is now the remaining child question without a dedicated pass, and remains inactive. [Foundation STATE](../../../../../STATE.md) governs authorization.
+Re-expression/R6, Warrant/W6 and Revision/M5.1–M5.7 are accepted. Their bounded research/publication is complete. No local pass or evaluation gate remains open merely because an original research document retains its proposal label. [Foundation STATE](../../../../../STATE.md) and Dynamics STATE own later work; Selection/Exposure is a separate Dynamics inquiry.
 
 ## Preserved evidence conditions
 
-Purpose-relative semantic oracles, real interpretation/context resources, unknown future question families, opaque input contribution, source/model validity, dependence, material defeaters, selection-aware guarantees, scope transfer and appropriate revision policy require target-specific evidence. Finite fixtures do not supply their real-world values universally.
+Purpose-relative semantic oracles, actual interpretation resources, unknown future question families, opaque input contribution, source/model validity, dependence, material defeaters, selection-aware guarantees, scope transfer and appropriate revision policy require target-specific evidence. Finite fixtures do not supply these values universally.
 
 ## Structural reopening
 
-Retain original parent rivals: merge transfer and warrant only if protected outcomes survive without material loss; reconsider Revision if no independent informational transition survives beyond other grounds; reopen if children become mechanism categories; seek a fourth region only if a recurring outcome cannot be routed. Common notation is not a merge proof and different errors do not justify unlimited branching.
+Retain original parent rivals: merge transfer and warrant only if protected outcomes survive without material loss; reconsider Revision if no independent informational transition survives beyond other grounds; reopen if children become mechanism categories; seek a fourth region only for a recurring otherwise-unroutable outcome. Common notation is not a merge proof; different errors do not justify unlimited branches.
 
-Warrant's strict/defeasible rival remains in W4/OPEN-QUESTIONS; Re-expression's conservation/interpretation rival remains in R4. Revision's [M5 rival review](maintained-information-revision/M5-RIVAL-AND-OMISSION-REVIEW.md) strengthens the support-maintenance/successor-selection comparison and preserves correction/world-change, content/reliance and proposal/realization alternatives. Its bounded leaf judgment is proposed, not independently established or user-accepted. Dynamics may need minimal reopening if Formation/Derivation/Selection cease to be distinguishable under an explicit frame.
+Warrant's strict/defeasible rival remains in W4/OPEN-QUESTIONS and Re-expression's conservation/interpretation rival in R4. Revision's [M5 review](maintained-information-revision/M5-RIVAL-AND-OMISSION-REVIEW.md) preserves support maintenance versus successor selection, correction/world-change, content/reliance and proposal/realization alternatives. The leaf is user-accepted, not independently established. Dynamics may need narrow reopening if its three questions cease to be distinguishable under an explicit frame.
 
-[Revision OPEN-QUESTIONS](maintained-information-revision/OPEN-QUESTIONS.md) retains source interpretation, empirical policy and future-state-preservation limits. A finished assessment does not erase them. Next is result evaluation, not automatic Selection or a new Revision child. No architecture or implementation follows.
+[Revision OPEN-QUESTIONS](maintained-information-revision/OPEN-QUESTIONS.md) retains source interpretation, empirical policy and future-state-preservation limits. Acceptance does not erase them or automatically authorize new investigation. This closed package carries no rolling external successor queue. No architecture, implementation or agent-control mutation follows.
