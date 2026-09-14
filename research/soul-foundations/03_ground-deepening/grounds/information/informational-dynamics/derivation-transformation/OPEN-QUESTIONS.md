@@ -1,10 +1,10 @@
 # Derivation — Open Questions and Remaining Dedicated Work
 
-**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
+**Updated:** 2026-09-14. Research completion, acceptance and verification remain separate.
 
 ## Current dedicated status
 
-Warrant and its seven W6 refinements are accepted. Revision has a preserved M0–M4 checkpoint; M5/M6 remain incomplete and are paused for this maintenance-only turn. Selection/Exposure remains separately unresearched and inactive. See [Foundation STATE](../../../../../STATE.md) and [Revision STATE](maintained-information-revision/STATE.md).
+Re-expression/R6 and Warrant/W6 are accepted. Revision has completed its bounded M0–M6 assessment; its proposed leaf and seven M5 refinements await user evaluation. [Revision PUBLICATION](maintained-information-revision/PUBLICATION.md) records its publication/readback. Selection/Exposure is now the remaining child question without a dedicated pass, and remains inactive. [Foundation STATE](../../../../../STATE.md) governs authorization.
 
 ## Preserved evidence conditions
 
@@ -14,6 +14,6 @@ Purpose-relative semantic oracles, real interpretation/context resources, unknow
 
 Retain original parent rivals: merge transfer and warrant only if protected outcomes survive without material loss; reconsider Revision if no independent informational transition survives beyond other grounds; reopen if children become mechanism categories; seek a fourth region only if a recurring outcome cannot be routed. Common notation is not a merge proof and different errors do not justify unlimited branching.
 
-Warrant's strict/defeasible rival remains in W4/OPEN-QUESTIONS; Re-expression's conservation/interpretation rival remains in R4. Revision M3 retains support maintenance/successor selection and correction/world-change rivals for M5. Acceptance of siblings does not decide Revision's structure. Dynamics may need minimal reopening if Formation/Derivation/Selection cease to be distinguishable under an explicit frame.
+Warrant's strict/defeasible rival remains in W4/OPEN-QUESTIONS; Re-expression's conservation/interpretation rival remains in R4. Revision's [M5 rival review](maintained-information-revision/M5-RIVAL-AND-OMISSION-REVIEW.md) strengthens the support-maintenance/successor-selection comparison and preserves correction/world-change, content/reliance and proposal/realization alternatives. Its bounded leaf judgment is proposed, not independently established or user-accepted. Dynamics may need minimal reopening if Formation/Derivation/Selection cease to be distinguishable under an explicit frame.
 
-Same-model and original source/test limits remain. No architecture or implementation is authorized here.
+[Revision OPEN-QUESTIONS](maintained-information-revision/OPEN-QUESTIONS.md) retains source interpretation, empirical policy and future-state-preservation limits. A finished assessment does not erase them. Next is result evaluation, not automatic Selection or a new Revision child. No architecture or implementation follows.
