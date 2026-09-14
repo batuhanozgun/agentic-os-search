@@ -7,8 +7,8 @@
 **Parent:** `Cross-Ground Composition` — accepted  
 **Prior children:** Relational Binding and Composite Standing — bounded leaves / user-evaluated / accepted  
 **K0–K7:** COMPLETE  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY
+**Current authorised substantive activity:** NONE FROM THIS PACKAGE  
+**Maintenance update:** 2026-09-14; accepted research unchanged
 
 ## Protected question
 
@@ -126,13 +126,9 @@ control currentness
 - Monitoring / Compliance / Control Assurance;
 - Preventive / Detective / Mitigating effect profile.
 
-## Next sequencing recommendation
+## Sequencing history — not current work
 
-After acceptance, the strongest current next composition-child candidate remains:
-
-> **Transition / Effect / Feedback**
-
-It is not active.
+The original closure recommended Transition / Effect / Feedback as the next composition child. That recommendation was separately executed; it is not today's unstarted task. [Composition STATE](../STATE.md) records accepted descendant results. [Foundation STATE](../../STATE.md) controls current global work.
 
 ## Verification status
 
@@ -140,12 +136,8 @@ K7 is same-model adversarial review. No independent second-researcher/model repl
 
 User acceptance closes the sequencing/evaluation gate but does not change verification independence.
 
-## Current authorization / return condition
+## Current authorization / historical boundary
 
-**NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY.**
+This package remains closed. Original K0–K7, sources, plan, synthesis and residuals are unchanged. Their sequencing recommendations and local KEY/map shorthand describe the completed Control checkpoint, not current global authority.
 
-Do not automatically begin:
-- Transition / Effect / Feedback;
-- architecture;
-- ontology/data-model/schema work;
-- implementation.
+No new Transition pass, architecture, ontology/data-model/schema work, implementation, Revision M5/M6, Selection or main merge is authorized by this maintenance.
