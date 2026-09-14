@@ -1,22 +1,22 @@
 # Re-expression / Semantic Transfer — Accepted Current Synthesis
 
-**Updated / accepted:** 2026-09-12  
-**Status:** bounded leaf / user-evaluated / exact R6 refinements accepted.
+**Updated:** 2026-09-14. **Accepted:** 2026-09-12.
+**Status:** bounded leaf / exact R6 refinements accepted.
 
 ## Accepted result
 
-One interpreted source-to-derivative transfer inquiry, with no immediate child. Under the intended source and target interpretations, which meanings, relations, alternatives and use-relevant distinctions survive re-expression, which losses/approximations are allowed, and what evidence supports that scoped claim?
+One interpreted source-to-derivative transfer inquiry with no immediate child. Which meanings, relations, alternatives and use-relevant distinctions survive under intended source/target interpretations, what loss is allowed, and what evidence supports the claim?
 
-The result separates recoverability by some decoder, fidelity under the intended interpretation and actual use. A reversible round trip can conceal wrong intermediate meaning. Legitimate abstraction can omit detail, but sufficiency is purpose/recipient/horizon-relative. Relations, order, attribution, conditionality and uncertainty can be material meaning. Small numeric errors can change threshold decisions. Local success needs compatible composition, and passing generated questions does not certify coverage of all necessary source/task questions.
+Recovery by some decoder, intended fidelity and actual use differ. Reversible round trips can conceal wrong intermediate meaning. Abstraction may omit detail, but sufficiency is purpose/recipient/horizon-relative. Relations, order, attribution, conditionality and uncertainty can be material. Small numeric errors can alter threshold decisions. Local success needs compatible composition; generated questions passing is not full source/task coverage.
 
-The exact accepted changes are in `../R6-SYNTHESIS-DECISION-AND-PARENT-DELTA.md`. They refine evidence and scope without restructuring the accepted Derivation parent. The strongest conservation-versus-interpretation split and the cost of a rich leaf remain in R4; acceptance does not erase reopening conditions.
+Exact accepted changes remain in [R6](../R6-SYNTHESIS-DECISION-AND-PARENT-DELTA.md). The conservation/interpretation rival and rich-leaf cost remain in R4. No parent restructuring is implied.
 
 ## Exact original argument
 
-Read `HISTORICAL-RE-EXPRESSION-SEMANTIC-TRANSFER-SYNTHESIS.md` for the full original integrated argument, preserved byte-for-byte with blob `bc9270e451bb0adc5cca32f7c2ab2d85501f8552`. Original R0–R7, SOURCE-LEDGER, PLAN, checks and residuals are unchanged. Their original pending/next-step wording is historical, not current authority. This current orientation is not a replacement for those evidence paths.
+[HISTORICAL-RE-EXPRESSION-SEMANTIC-TRANSFER-SYNTHESIS](HISTORICAL-RE-EXPRESSION-SEMANTIC-TRANSFER-SYNTHESIS.md) preserves the full original argument, blob `bc9270e451bb0adc5cca32f7c2ab2d85501f8552`. R0–R7, SOURCE-LEDGER, PLAN, checks and residuals are unchanged. Original pending/next-step wording is historical, not current authority.
 
-## Subsequent work and verification
+## Continuation and limits
 
-Warrant W0–W7 are complete as a proposed bounded leaf/W6 result, awaiting separate evaluation. Revision and Selection remain separately unresearched/inactive. Follow parent/Foundation STATE for current work.
+Overall work and authorization: [Foundation STATE](../../../../../../../STATE.md). This closed package is not a live next-work queue. Its executed handoffs and pass-time pending labels are historical; they cannot restart a completed pass.
 
-The original seven primary documents were read at unequal depths; fourteen finite/native cases and six false-rule controls were same-author evidence. R7 remains same-model review, not live SOUL/LLM, human translation, production use or independent replication. No new architecture, schema, implementation or automatic successor is authorized here.
+The original seven sources had unequal depths; fourteen cases/six controls are same-author evidence and R7 is same-model review. No live SOUL/LLM, human translation, production use or independent replication follows from acceptance or this repair.
