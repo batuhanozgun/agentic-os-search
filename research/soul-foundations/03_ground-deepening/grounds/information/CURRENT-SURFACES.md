@@ -10,11 +10,11 @@
 | `KEY.md` | `861d6b2f8df4d1cff322f407f69de6cc30882845` |
 | `STATE.md` | `39c0d9ebe0365cac8341df473861581e56d3bedf` |
 | `informational-dynamics/CURRENT-SURFACES.md` | `35efd7ca8c529c40d44feb9615a50a1cd119f9fb` |
-| `informational-state/CURRENT-SURFACES.md` | `59561ea369ddc233e41b5bb0cbe6c9fafd7a2592` |
+| `informational-state/CURRENT-SURFACES.md` | `18557fec3dac27d4409d83615336f672c1eade9c` |
 | `synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md` | `15ab6fc1acac64d8bcf48296c2d15ad8c5a79b99` |
 
 Information/State/Dynamics, Formation/F6, Derivation/T6, Re-expression/R6 and Warrant/W6 are accepted at recorded depths. Revision remains an open M0–M4 checkpoint; M5/M6 are pending and research is paused for maintenance. Selection remains unresearched/inactive.
 
-The Dynamics binding now incorporates the published Formation and Re-expression repairs through its child chain. The original top-level synthesis and evidence are preserved. Parent acceptance does not complete descendants. These identities bind published branch files, not independent semantic verification, recursive checking of every historical manifest or full-repository health.
+The State binding now incorporates its current-acceptance and sequencing repairs; Dynamics incorporates the earlier Formation/Re-expression repairs through its child chain. Original research, synthesis and evidence remain preserved. Parent acceptance does not complete descendants. These identities bind published branch files, not independent semantic verification, recursive checking of every historical manifest or full-repository health.
 
-Foundation STATE and REPAIR-PUBLICATION.md govern continuation and the remaining audit. Canonical main has not been updated by this maintenance publication.
+Foundation STATE and REPAIR-PUBLICATION.md govern continuation and the current audit verdict. Canonical main has not been updated by this maintenance publication.
