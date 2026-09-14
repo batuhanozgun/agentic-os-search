@@ -4,9 +4,11 @@ First-principles research and reusable evidence for later SOUL / Development OS 
 
 ## Current continuity checkpoint — 2026-09-14
 
-Warrant and its seven W6 refinements are accepted. Maintained-Information Revision has a durable M0–M4 checkpoint. **M5 synthesis and M6 research closure remain unfinished.** Repository maintenance and its review do not execute those stages. Selection/Exposure has no dedicated pass and remains inactive. Whole Foundation is not complete.
+The bounded continuity repair is user-accepted and published to canonical main through PR #2, merge `872a3a7e9b2cef2d24ce8ab5162c99396f015a76`. The merge's complete Git tree matches the reviewed head. The former branch-only publication and evaluation gates are completed; research remains paused pending explicit continuation.
 
-Research re-entry route, not current maintenance work: [Revision STATE](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) → INDEX → PLAN → existing analyses and evidence. Warrant need not be repeated or evaluated again. Revision's leading leaf hypothesis is not an accepted result.
+Warrant and its seven W6 refinements are accepted. Maintained-Information Revision has a durable M0–M4 checkpoint. **M5 synthesis and M6 research closure remain unfinished.** Repository maintenance, acceptance and merging do not execute those stages. Selection/Exposure has no dedicated pass and remains inactive. Whole Foundation is not complete.
+
+Research re-entry route, not an active task from the merge approval: [Revision STATE](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) → INDEX → PLAN → existing analyses, evidence and full recovery contract. Warrant need not be repeated or evaluated again. Revision's leading leaf hypothesis is not an accepted result.
 
 ## Progression and accepted anchors
 
@@ -24,6 +26,6 @@ Formation separates capture, source coverage, copies, evidence and reference tim
 
 Use STATE → INDEX → local STATE → KEY → map/synthesis → precise evidence. Original pass artifacts retain checkpoint language; current authority controls continuation. Old integration/frontier snapshots and executed successor recommendations are not today's queue. Accepted results and exact file identities do not add independent replication or live SOUL/LLM efficacy.
 
-[REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) records actual branch publication and final checks. [REPAIR-AUDIT](REPAIR-AUDIT.md) gives the bounded integrated assessment, corrected findings and unchecked scope. The review concerns current continuity and navigation, not every archival reference or the scientific validity of the entire corpus.
+[REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) records the executed main publication and checks. [REPAIR-AUDIT](REPAIR-AUDIT.md) preserves the accepted pre-merge assessment, corrected findings and unchecked scope; its former pending/draft wording is historical. The review concerns current continuity and navigation, not every archival reference or the scientific validity of the entire corpus.
 
-The review branch is not canonical main publication. User evaluation, any separately authorized merge and canonical main readback remain distinct steps; research stays paused until explicitly resumed. No architecture, schema, implementation or agent-control modification is authorized by this maintenance.
+Unchanged descendant files may retain review-branch names and pre-merge publication statements from their recorded checkpoints. STATE and REPAIR-PUBLICATION now carry current publication status; those older labels do not make PR #2 an unfinished task. The maintenance branch was not deleted by this operation. No architecture, schema, implementation, agent-control modification or research resumption is authorized by this merge approval.
