@@ -1,18 +1,17 @@
 # Derivation / Transformation — KEY
 
-**Updated:** 2026-09-12  
-**Role:** CURRENT_L0; accepted parent/T6 and Re-expression/R6, Warrant result pending.
+**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
 
+```text
+Re-expression / Semantic Transfer          What meaning or distinction survives? [accepted leaf/R6]
+Inferential Construction / Claim Warrant   What conclusion is supported, on what basis? [accepted leaf/W6]
+Maintained-Information Revision            What is retained, withdrawn or replaced? [M0–M4 checkpoint; M5/M6 pending]
 ```
-Re-expression / Semantic Transfer          What meaning or distinction survives? [accepted leaf]
-Inferential Construction / Claim Warrant   What conclusion is supported, on what basis? [proposed leaf]
-Maintained-Information Revision            What is retained, withdrawn or replaced? [no dedicated pass]
-```
 
-Transferring a source faithfully, licensing a conclusion and changing continuing information are distinct protected outcomes, not three obligatory software stages. Source lineage is not warrant; actual truth is not a valid offered inference; an entailed output can be inadequate for a use; withdrawal is not negation; repeated sources do not create independence; local validity does not establish compatible composition.
+Faithful transfer, licensing a conclusion and changing continuing information are distinct protected outcomes, not three obligatory software stages. Source lineage is not warrant; truth is not valid offered inference; entailed output can be use-inadequate; withdrawal is not negation; repeated sources do not create independence; local validity does not establish compatible composition.
 
-Re-expression/R6 are accepted. Possible decoding, intended meaning and actual use differ. Reversibility does not certify intermediate meaning; legitimate loss, material roles/uncertainty, decision margins and verifier coverage remain explicit.
+Re-expression/R6 protects possible decoding, intended meaning and actual use; reversibility, loss, material roles/uncertainty, decision margins and verifier coverage remain explicit. Accepted Warrant/W6 distinguishes conditional validity/target applicability, incomplete search/negation, scoped uncertainty, fit/causal identification, undercutting/rebuttal, selected evidence and support/action authority.
 
-Warrant now proposes one qualified claim-support leaf. Its W6 refinements distinguish conditional validity from target applicability, incomplete search from negation, scoped uncertainty from generic confidence, fit from causal identification, undercutting from rebuttal, selection-aware evidence and epistemic support from action authority. They await evaluation, not automatic parent adoption.
+Warrant and its seven W6 refinements are accepted. Revision has a preserved M0–M4 checkpoint; M5/M6 remain incomplete and are paused for this maintenance-only turn. Selection/Exposure remains separately unresearched and inactive. See [Foundation STATE](../../../../../STATE.md) and [Revision STATE](maintained-information-revision/STATE.md).
 
-Revision and Selection/Exposure remain separately unresearched/inactive. Same-model review and finite checks are not independent taxonomy or live-system evidence. Current STATE governs continuation; original T/R source evidence is preserved.
+Same-model review and finite checks are not independent taxonomy or live-system evidence. Original T/R/W/M source artifacts remain preserved.
