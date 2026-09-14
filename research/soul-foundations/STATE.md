@@ -27,9 +27,9 @@ Information [accepted parent]
 
 ## Current next work: finish repository repair
 
-[REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) records the actual published groups, verification scope and remaining maintenance. Revision navigation and Warrant acceptance views are published on this branch. Older ancestor and closed-package views and manifests still need synchronization. This file governs current acceptance and work; stale subordinate labels do not restart completed passes.
+[REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) is the maintenance handoff for actual published groups, exact checkpoints, verification scope and remaining duties. Use its current list rather than keeping another rolling group queue in this root state. Older closed-package continuation views and affected manifests still require maintenance; this branch is not a completed repair.
 
-The next maintenance group is Derivation's current views and manifest, followed by the remaining affected ancestors and closed-package continuations. Reconcile actual branch files with the older candidate archives. Do not inherit obsolete archive publication statements or claim whole-repository health from a local package's successful publication.
+Reconcile actual branch files with the older candidate archives. Do not inherit obsolete archive publication statements or claim whole-repository health from a local package's successful publication. This root state governs current acceptance and work; stale subordinate labels do not restart completed passes. Complete the remaining repair and cross-surface review before returning for evaluation of any main merge.
 
 ## Next logical research, not executed here
 
