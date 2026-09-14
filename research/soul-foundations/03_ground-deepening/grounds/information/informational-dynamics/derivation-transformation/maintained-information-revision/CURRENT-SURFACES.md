@@ -1,16 +1,16 @@
 # Maintained-Information Revision — CURRENT SURFACES
 
 **Updated:** 2026-09-14. **Branch:** main.
-**Status:** bounded research assessment complete; proposed leaf / seven M5 refinements awaiting evaluation.
+**Status:** bounded leaf and M5.1–M5.7 accepted; no active local work.
 
-Paths are relative to this package. The table binds research and current navigation, not independent truth or user acceptance. A final PUBLICATION receipt may be added after cross-surface readback; that evolving receipt and this manifest are deliberately not self-bound.
+Paths are relative to this package. Current acceptance/navigation changed; original research evidence did not. PUBLICATION preserves the completed pre-acceptance publication checkpoint and remains excluded from the evolving hash chain, as does this manifest itself.
 
 | Path | Git blob SHA |
 |---|---|
-| `STATE.md` | `ef67f33737f5d2096e9ac6b8243b70d9a501099e` |
-| `INDEX.md` | `5e1b71cffe457bdfd9c8d24aa6e8b2f0d3b23347` |
-| `KEY.md` | `f66d75bb6d1038e0e6ec7b988a38ee9bc39ae70e` |
-| `FINDINGS-MAP.md` | `da53f55e5a28262779fb79ca5f6a9f897dc4ef87` |
+| `STATE.md` | `f2c03f148df713395d5aad96c93320840fd30c8e` |
+| `INDEX.md` | `fcfd75130766c41b943e7aa5891eb54654960805` |
+| `KEY.md` | `31727dfd7cda30c9ab99e78df258d30057dae585` |
+| `FINDINGS-MAP.md` | `b8fa5a1bf2f6907f79b9189f548aa4abd5389953` |
 | `PLAN.md` | `daff8a042ac6c442a597b70a744462ecb49a73df` |
 | `SOURCE-LEDGER.md` | `f642ebb4d4b5e83b2273acc9c851175d84cdde16` |
 | `M0-CANONICAL-RECOVERY.md` | `ad477c7e0324739137798b5a3249a8ee84ff7e36` |
@@ -23,8 +23,8 @@ Paths are relative to this package. The table binds research and current navigat
 | `M5-SOURCE-AND-EXECUTION-ADDENDUM.md` | `bd42b45dbe9c9cd7fdef1db4fb0479a0ec43ea4e` |
 | `M5-SYNTHESIS-DECISION-AND-PARENT-DELTA.md` | `13d23ff0f67e852f061d66000830b587059117c6` |
 | `M6-CLOSURE.md` | `c7adad318085e18d70df9e33f3d3ad58969762f4` |
-| `OPEN-QUESTIONS.md` | `1989fc56146282e2cae222c392329796d166d557` |
-| `NEXT-RESEARCH-HANDOFF.md` | `9d252fc56c134e2ea8c4ff8a8d61efe88d66e40d` |
+| `OPEN-QUESTIONS.md` | `d9e23388210f6cc7c8cca8153be98ba979e764c4` |
+| `NEXT-RESEARCH-HANDOFF.md` | `27e70acc5202129820cd17e042221e73faf1233e` |
 | `synthesis/MAINTAINED-INFORMATION-REVISION-SYNTHESIS.md` | `1206dfc17dcf722089bd7bd3f5785a1a6127ecd4` |
 | `checks/SPEC.md` | `9b24cb312d2aea6f5638810ba6d710981951e281` |
 | `checks/revision_checks.py` | `965a7d58381b5b24c535ca92c548ea88d3894d60` |
@@ -34,6 +34,6 @@ Paths are relative to this package. The table binds research and current navigat
 | `checks/m5/RESULT.json` | `cb263d1fddff85dc2c12e311e55e0a7b53f6e193` |
 | `checks/m5/EXECUTION.md` | `4d7d2e0f64ad4651dab822ccc6457d86c68989e2` |
 
-Original PLAN, M0–M4, SOURCE-LEDGER and checks retain baseline identities. The first-version M5 script/result in the source addendum are historical after a header-only clarification; EXECUTION gives the final checked identities above. Local root and new-check entries were independently fetched as GitHub trees at `36ee69b0788754acfa9346d10a60ba319f418422`; the unchanged synthesis/original-check identities are also carried by the separately recovered package trees.
+Original PLAN, M0–M6, source ledger, integrated synthesis and check artifacts retain their pre-acceptance identities. Their proposal labels are historical under current STATE. Earlier first-version script/result hashes remain historical under the final EXECUTION record. No new scientific execution occurs in this acceptance update.
 
-No final leaf or parent delta is accepted by this publication. The strongest rival, source-reading limits, same-fixture dependence and lack of live/independent validation remain explicit. Old M5-pending maintenance pauses and the resumption plan are previous checkpoints, not today's next work. [Foundation STATE](../../../../../../STATE.md) governs evaluation. Selection remains inactive. Refresh this table and affected ancestors when a bound file changes.
+The strongest rival, source interpretation/access limits, same-fixture dependence and absence of live/independent validation remain. [Foundation STATE](../../../../../../STATE.md) owns current global work; the receiving Selection package owns its later stages. This closed manifest does not copy a rolling successor queue. Exact identities do not prove source truth, recursive completion or a uniquely correct leaf decision.
