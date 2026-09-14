@@ -1,16 +1,13 @@
 # Formation / Acquisition — KEY
 
-**Updated / accepted:** 2026-09-12  
-**Role:** CURRENT_L0  
-**Status:** bounded leaf / user-evaluated / accepted
+**Updated:** 2026-09-14. **Accepted:** 2026-09-12.
+**Status:** bounded leaf / user-evaluated / accepted.
 
-## Accepted result
+One source-/reference-relative formation inquiry; no immediate child. How did a representation become instantiated from its source/origin here, what relationship is established, and what alternatives can its evidence distinguish?
 
-One source-/reference-relative formation inquiry; no immediate child. How did a representation become instantiated from its source/origin here, what relationship is established, and what alternatives can its acquisition evidence distinguish?
+Preserve locus, target/source/result, origin and representation identity, procedure/interpretation, mode, material coverage/detectability, time/version, evidence and alternatives. These are semantic questions, not schema fields.
 
-Preserve bounded locus, target/source/result, origin and representation identity, procedure/interpretation, mode, relevant coverage/detectability, time/version, evidence and alternatives. This is a semantic checklist, not a schema.
-
-```
+```text
 formation occurred != intended capture succeeded != referent claim true
 new copy != new origin != independent evidence
 same payload != same source episode
@@ -20,12 +17,6 @@ receipt time != source-reference time
 acquired != exposed != used
 ```
 
-Acquisition need not be raw, passive or prior to reasoning. A correctly acquired forecast is not observation of its future referent. Negative evidence can support absence only under appropriately discriminating observation conditions. The finite record-only criterion is in F2; it does not forbid useful inference or establish an actual detector's coverage.
+Acquisition need not be raw, passive or prior to reasoning. An acquired forecast is not observation of its future referent. Absence evidence needs discriminating observation conditions. F2's finite record-only criterion does not forbid useful inference or establish actual detector coverage. F6's locus/novelty, interleaving and occurrence/fidelity/truth/coverage refinements are accepted. Coverage and realization remain separately retrievable.
 
-F6's locus/novelty, model-mediated interleaving and occurrence/fidelity/truth/coverage refinements are accepted. Coverage and realization remain separately recoverable facets despite leaf status. Original research and its exact integrated synthesis remain preserved.
-
-## Continuation and limits
-
-Derivation T0–T7 now propose a three-child parent and await separate evaluation. Selection remains unresearched. Follow parent STATE rather than old pass-time handoff wording.
-
-Original F7 is same-model review; twelve constructions and five faulty substitutions were not live-system tests or independent replication. Acceptance does not change those limits. No automatic new research or implementation is authorized here.
+Overall work and authorization: [Foundation STATE](../../../../../STATE.md). This closed package is not a live next-work queue. Its executed handoffs and pass-time pending labels are historical; they cannot restart a completed pass. Original twelve-construction/five-substitution evidence and same-model F7 are not live tests or independent replication.
