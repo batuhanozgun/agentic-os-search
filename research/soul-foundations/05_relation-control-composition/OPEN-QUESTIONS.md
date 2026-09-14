@@ -1,14 +1,11 @@
 # Composition — Residuals and Reopen Triggers
 
-**Updated:** 2026-09-12
-**Status:** accepted current Composition frontier; not a universal closure certificate.
+**Updated:** 2026-09-14. Accepted current Composition frontier, not universal closure.
 
-The original question whether Persistent Adaptation requires a new immediate region has an accepted bounded answer: no immediate child was promoted, and its D6 refinements are accepted. Do not keep that completed pass in an active queue.
+Persistent Adaptation's bounded no-child result and exact D6 refinements are accepted. Do not keep that completed pass in an active queue.
 
-Retain structural falsifiers: a demonstrated ground-boundary theft; a stronger organizing frame; a recurring cross-ground Evolution question the retained-response grammar cannot preserve; a missing Control/Authority question; or child research that breaks current binding, qualification, causal or transition distinctions.
+Structural falsifiers remain: demonstrated ground-boundary theft; a stronger organizing frame; a recurring cross-ground Evolution question the retained-response grammar cannot preserve; a missing Control/Authority question; or child work that breaks binding, qualification, causal or transition distinctions.
 
-Retain target-specific evidence questions: exact causal identification, transfer/interference, effective all-path control, opaque feedback use, persistence/support horizons and benefit. Independent researcher/model replication remains absent. These are not erased by acceptance.
+Target-specific evidence questions remain: causal identification, transfer/interference, all-path control, opaque feedback use, persistence/support horizons and benefit. Independent researcher/model replication remains absent.
 
-The concrete named global frontier is outside this subtree: Information Dynamics' three dedicated child passes. See `../06_integration-frontier-review/B2-COVERAGE-AND-FRONTIER.md` and B4 for separation of research debt, conditional reopen triggers, evidence gaps and later design.
-
-Current next responsibility is evaluation of the integration/frontier review. Formation is not active; no architecture, schema or implementation is authorized here.
+The original three-child global-frontier analysis is [B2](../06_integration-frontier-review/B2-COVERAGE-AND-FRONTIER.md) and [B4](../06_integration-frontier-review/B4-RESIDUALS-AND-NEXT-WORK.md), preserved review-time evidence. The review has been accepted; neither its old pending label nor that old queue is current work. Overall work and authorization: [Foundation STATE](../STATE.md). This closed package is not a live next-work queue. Its executed handoffs and pass-time pending labels are historical; they cannot restart a completed pass.
