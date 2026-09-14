@@ -1,16 +1,15 @@
 # Informational Dynamics — Open Questions and Reopen Triggers
 
-**Updated:** 2026-09-12  
-**Role:** concrete missing passes and conditional uncertainty, not automatic activation.
+**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
 
 ## Dedicated frontier
 
-Formation/F6, Derivation/T6 and Re-expression/R6 are accepted. Warrant W0–W7 propose a leaf/W6 result awaiting evaluation. Maintained-Information Revision and Selection/Exposure remain separately unresearched and inactive.
+Warrant and its seven W6 refinements are accepted. Revision has a preserved M0–M4 checkpoint; M5/M6 remain incomplete and are paused for this maintenance-only turn. Selection/Exposure remains separately unresearched and inactive. See [Foundation STATE](../../../../STATE.md) and [Revision STATE](derivation-transformation/maintained-information-revision/STATE.md).
 
 ## Preserved parent questions
 
 Could a stronger source/interface framing collapse Formation and Selection without diagnostic loss? Could Revision, communication or propagation expose a different first-order boundary at a broader level? Where do multimodal, gradual or pre-semantic cases place the informational-state boundary? Does Selection stay distinct when embedded in a transformation? Does a deeper child expose boundary theft or a stronger split/merge? Could independent review find a missing recurring inquiry?
 
-The current Formation/Derivation/Selection structure remains accepted. Revision is an accepted child within Derivation, not thereby a new Dynamics peer. Re-expression's R6 refinements are accepted; Warrant's W6 proposals are pending. Their local residuals and strongest rivals remain recoverable in their OPEN-QUESTIONS/W4/R4 routes.
+The Formation/Derivation/Selection structure remains accepted. Revision is an accepted question within Derivation, not a new Dynamics peer or an accepted final leaf. Accepted Re-expression/R6 and Warrant/W6 retain their local residuals and strongest rivals. Revision's M3 retains support-maintenance versus successor-selection and other rival structures for M5.
 
-Do not promote a narrower field's taxonomy because its terminology differs. Earlier evidence/replication limits remain. No automatic successor, architecture, schema or implementation follows.
+Do not promote a narrower taxonomy because its terminology differs. Earlier evidence/replication limits remain. These questions do not automatically activate work, architecture, schema or implementation.

@@ -1,18 +1,16 @@
 # Informational Dynamics — INDEX
 
-Read STATE.md first. Formation/F6, Derivation/T6 and Re-expression/R6 are accepted. Warrant W0–W7 propose a leaf and await evaluation. Revision and Selection remain separately unresearched/inactive.
+Read [STATE](STATE.md) and [Foundation STATE](../../../../STATE.md). Formation/F6, Derivation/T6, Re-expression/R6 and Warrant/W6 are accepted.
 
-## Current routes
+| Need | Route |
+|---|---|
+| Revision's unfinished M5/M6 | [Revision INDEX](derivation-transformation/maintained-information-revision/INDEX.md) |
+| Accepted Warrant/W6 | [Warrant INDEX](derivation-transformation/inferential-construction-claim-warrant/INDEX.md) |
+| Accepted Re-expression/R6 | [Re-expression INDEX](derivation-transformation/re-expression-semantic-transfer/INDEX.md) |
+| Accepted Derivation/T6 | [Derivation INDEX](derivation-transformation/INDEX.md) |
+| Accepted Formation/F6 | [Formation INDEX](formation-acquisition/INDEX.md) |
+| Original Dynamics argument | [Original synthesis](synthesis/INFORMATIONAL-DYNAMICS-SYNTHESIS.md); N3/N4/N6/N7 |
+| State sibling | [State STATE](../informational-state/STATE.md) |
+| Topic routes, residuals and bindings | [FINDINGS-MAP](FINDINGS-MAP.md); [OPEN-QUESTIONS](OPEN-QUESTIONS.md); [CURRENT-SURFACES](CURRENT-SURFACES.md) |
 
-- New Warrant result: `derivation-transformation/inferential-construction-claim-warrant/STATE.md` → INDEX/KEY → map/synthesis/W4/W6/W7.
-- Accepted Re-expression: `derivation-transformation/re-expression-semantic-transfer/STATE.md` → current/exact historical synthesis/R6/R7.
-- Accepted Derivation parent: `derivation-transformation/STATE.md` → INDEX → original T3/T4/T6/T7 and synthesis.
-- Accepted Formation: `formation-acquisition/STATE.md` → KEY → current/exact historical synthesis/F6/F7.
-- Remaining Revision: Derivation STATE/OPEN-QUESTIONS and Warrant's inactive handoff; no dedicated result.
-- Remaining Selection: original N3/N4/N6/N7; no dedicated result.
-
-## Original parent reasoning
-
-KEY → FINDINGS-MAP → `synthesis/INFORMATIONAL-DYNAMICS-SYNTHESIS.md` → N7. N3/N4/N6 preserve the original structural argument; RESEARCH-PLAN/EVIDENCE-INVENTORY/EXTERNAL-SOURCE-LEDGER preserve method and sources. OPEN-QUESTIONS and DEFERRED-RELATIONS are not activation queues.
-
-Original pass labels and superseded closed-package external continuation labels are historical. Current STATE governs authority. State sibling is ../informational-state/; parent Information is ../STATE.md. CURRENT-SURFACES binds identity, not independent truth. No automatic successor or implementation.
+Revision has a real M0–M4 checkpoint, not an absent pass; its final result remains open. Selection has no dedicated pass and remains inactive. Original research artifacts retain pass-time labels, not current authority. No research is resumed by this maintenance turn.

@@ -7,7 +7,8 @@
 **Parent:** `Cross-Ground Composition` — accepted  
 **Current phase:** POST-EVALUATION / CLOSED  
 **B0–B7:** COMPLETE  
-**Current authorised substantive activity:** NONE FROM THIS PACKAGE
+**Current authorised substantive activity:** NONE FROM THIS PACKAGE  
+**Maintenance update:** 2026-09-14; no new research finding
 
 ## Protected question
 
@@ -62,9 +63,11 @@ graph reachability != legitimate transitive relation
 binary representation != proof that relation semantics are inherently binary
 ```
 
-## Sequencing result
+## Sequencing history — not current work
 
-Binding closure exposed Composite Standing / Qualification as the strongest next composition-child candidate. That child has now been separately authorized/activated by the user; this package itself remains closed.
+Binding closure exposed Composite Standing / Qualification as the next composition-child candidate; that entry was separately authorized and executed. This is the historical transition, not today's next-work instruction. [Composition STATE](../STATE.md) gives the accepted parent/descendant results; [Foundation STATE](../../STATE.md) governs current global activity.
+
+Original B0–B7, synthesis, plan, sources and residuals remain unchanged. Their pass-time sequencing language does not reopen or restart completed siblings. Local KEY/map and closure manifests are scoped to Binding's accepted result, not independent global work authority.
 
 ## Verification status
 
@@ -74,4 +77,4 @@ User acceptance closes the Binding sequencing gate; it does not change verificat
 
 ## Guardrail
 
-This package does not authorize architecture, ontology/data-model/schema work or implementation.
+This package does not authorize architecture, ontology/data-model/schema work or implementation. This maintenance performs no new research, Revision M5/M6, Selection or main merge.

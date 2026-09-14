@@ -1,17 +1,17 @@
 # Integration / Remaining Frontier — INDEX
 
-Read STATE.md first. B0–B5 are accepted. Their original evidence is a review-time snapshot, not current execution authority.
+Read [STATE](STATE.md). B0–B5 are accepted. Original evidence is a review-time snapshot, not current work authority.
 
 | Need | Route |
 |---|---|
-| Acceptance and subsequent research | STATE.md → ../STATE.md |
-| Compact accepted result | KEY.md |
-| Original integrated argument | SYNTHESIS.md → B1-PARENT-INTEGRATION.md |
-| Original three-missing-child and sixteen-pressure audit | B2-COVERAGE-AND-FRONTIER.md |
-| Original rivals and verification limits | B3-ADVERSARIAL-REVIEW.md |
-| Original next-work comparison | B4-RESIDUALS-AND-NEXT-WORK.md |
-| Original closure, sources and checks | B5-CLOSURE.md; SOURCE-LEDGER.md; checks/; FRONTIER.json |
-| Executed handoff and current route | NEXT-RESEARCH-HANDOFF.md |
-| Current identities | CURRENT-SURFACES.md |
+| Acceptance and current global authority | [STATE](STATE.md) → [Foundation STATE](../STATE.md) |
+| Accepted result | [KEY](KEY.md) |
+| Original integrated argument | [SYNTHESIS](SYNTHESIS.md) → [B1](B1-PARENT-INTEGRATION.md) |
+| Original three-child/sixteen-pressure audit | [B2](B2-COVERAGE-AND-FRONTIER.md) |
+| Original rivals and limits | [B3](B3-ADVERSARIAL-REVIEW.md) |
+| Original next-work comparison | [B4](B4-RESIDUALS-AND-NEXT-WORK.md) |
+| Original closure, sources and checks | [B5](B5-CLOSURE.md); SOURCE-LEDGER; checks/; FRONTIER.json |
+| Executed handoff | [NEXT-RESEARCH-HANDOFF](NEXT-RESEARCH-HANDOFF.md) |
+| Identities | [CURRENT-SURFACES](CURRENT-SURFACES.md) |
 
-Formation is now accepted; the later Derivation parent/three-child proposal awaits evaluation. Proposed descendants and Selection remain separately unresearched. The live frontier is in Foundation STATE. This is an integration/retrieval review, not a fifth ground or architecture.
+Overall work and authorization: [Foundation STATE](../STATE.md). This closed package is not a live next-work queue. Its executed handoffs and pass-time pending labels are historical; they cannot restart a completed pass. This review is not a fifth ground or architecture.

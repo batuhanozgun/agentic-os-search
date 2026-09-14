@@ -1,19 +1,18 @@
 # Information / Representation — Findings Map
 
-**Updated:** 2026-09-12  
-**Role:** current retrieval; Re-expression accepted, Warrant pending.
+**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
 
 | Protected question | Route |
 |---|---|
-| Completion depth and authority | STATE → Dynamics STATE |
-| Constituted information: reference/content/mode/identity/qualification | informational-state/STATE.md → KEY/FINDINGS-MAP |
-| Original Information and Dynamics structure | original parent synthesis/N-passes; Dynamics N3/N4/N6/N7 |
-| Source-facing Formation/F6 | informational-dynamics/formation-acquisition/STATE.md → map/F6 |
-| Derivation parent/T6 | informational-dynamics/derivation-transformation/STATE.md → map/T4/T6 |
-| Accepted meaning transfer/R6 | Derivation re-expression-semantic-transfer/STATE.md → map/R6 |
-| New Warrant leaf/W6 proposal | Derivation inferential-construction-claim-warrant/STATE.md → map/W6/W7 |
-| Maintained-information revision | Derivation T3/current frontier; dedicated pass absent |
+| Completion depth and authority | [STATE](STATE.md) → [Foundation STATE](../../../STATE.md) |
+| Reference/content/mode/identity/qualification | [State STATE](informational-state/STATE.md) → KEY/FINDINGS-MAP |
+| Original Information and Dynamics structure | [Original synthesis](synthesis/INFORMATION-TOP-LEVEL-SYNTHESIS.md); Dynamics N3/N4/N6/N7 |
+| Source-facing Formation/F6 | [Formation map](informational-dynamics/formation-acquisition/FINDINGS-MAP.md) |
+| Derivation parent/T6 | [Derivation map](informational-dynamics/derivation-transformation/FINDINGS-MAP.md) |
+| Accepted transfer/R6 | [Re-expression map](informational-dynamics/derivation-transformation/re-expression-semantic-transfer/FINDINGS-MAP.md) |
+| Accepted Warrant/W6 | [Warrant map](informational-dynamics/derivation-transformation/inferential-construction-claim-warrant/FINDINGS-MAP.md) |
+| Maintained-information revision | [Revision checkpoint map](informational-dynamics/derivation-transformation/maintained-information-revision/FINDINGS-MAP.md); not a final synthesis |
 | Selection/exposure | Dynamics original N3/N4/N7; dedicated pass absent |
-| Exact source/verification extent | local SOURCE-LEDGER/adversarial closure/CURRENT-SURFACES |
+| Exact identity / deeper evidence | [CURRENT-SURFACES](CURRENT-SURFACES.md) → local source ledgers and checks |
 
-Records and Context remain cross-cutting profiles/patterns, not new peers. Revision remains within Derivation, not a fourth Dynamics child. Representation existence, truth, evidence, decision sufficiency and authority are different claims. Original sources are preserved; current maps do not replace them or authorize successors.
+Records and Context remain profiles/patterns, not new peers. Revision remains within Derivation, not a fourth Dynamics child. Representation, truth, evidence, decision sufficiency and authority are different claims. Maps do not replace sources or authorize successors.

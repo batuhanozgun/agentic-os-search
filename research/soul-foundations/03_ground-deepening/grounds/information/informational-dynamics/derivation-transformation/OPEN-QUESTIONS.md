@@ -1,22 +1,19 @@
 # Derivation — Open Questions and Remaining Dedicated Work
 
-**Updated:** 2026-09-12  
-**Role:** concrete frontier separated from conditional evidence/reopening.
+**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
 
 ## Current dedicated status
 
-Re-expression/R6 are accepted. Warrant W0–W7 propose a bounded leaf and exact W6 refinements, awaiting evaluation. Maintained-Information Revision / Reliance Change remains an accepted question without a dedicated pass; Selection/Exposure remains the separate unresearched Dynamics sibling. Both are inactive.
+Warrant and its seven W6 refinements are accepted. Revision has a preserved M0–M4 checkpoint; M5/M6 remain incomplete and are paused for this maintenance-only turn. Selection/Exposure remains separately unresearched and inactive. See [Foundation STATE](../../../../../STATE.md) and [Revision STATE](maintained-information-revision/STATE.md).
 
 ## Preserved evidence conditions
 
-Purpose-relative semantic oracles, real interpretation/context resources, unknown future question families, opaque actual input contribution, source/model validity, dependence, material defeaters, selection-aware guarantees, scope transfer and appropriate revision policy require target-specific evidence. No finite fixture supplies their real-world values universally.
+Purpose-relative semantic oracles, real interpretation/context resources, unknown future question families, opaque input contribution, source/model validity, dependence, material defeaters, selection-aware guarantees, scope transfer and appropriate revision policy require target-specific evidence. Finite fixtures do not supply their real-world values universally.
 
 ## Structural reopening
 
-Retain the original parent alternatives: merge transfer and warrant only if their protected outcomes survive without material loss; reconsider Revision if it has no independent informational transition beyond other grounds; reopen if the children become mere mechanism categories; seek a stronger fourth region only if an important recurring outcome cannot be routed. Common notation alone is not a merge proof, and different errors alone do not justify unlimited branching.
+Retain original parent rivals: merge transfer and warrant only if protected outcomes survive without material loss; reconsider Revision if no independent informational transition survives beyond other grounds; reopen if children become mechanism categories; seek a fourth region only if a recurring outcome cannot be routed. Common notation is not a merge proof and different errors do not justify unlimited branching.
 
-Warrant's strongest strict-versus-defeasible rival remains in its W4/OPEN-QUESTIONS; Re-expression's conservation-versus-interpretation rival remains in R4. Do not silently discard them on acceptance. Dynamics may require minimal reopening if Formation/Derivation/Selection cease to be distinguishable under an explicit frame.
+Warrant's strict/defeasible rival remains in W4/OPEN-QUESTIONS; Re-expression's conservation/interpretation rival remains in R4. Revision M3 retains support maintenance/successor selection and correction/world-change rivals for M5. Acceptance of siblings does not decide Revision's structure. Dynamics may need minimal reopening if Formation/Derivation/Selection cease to be distinguishable under an explicit frame.
 
-## Limits
-
-Same-model and original source/test limits remain. User acceptance closes sequencing at the stated scope, not independent verification. Revision is the current strongest next recommendation after Warrant evaluation, not an automatically active pass. No architecture or implementation is authorized here.
+Same-model and original source/test limits remain. No architecture or implementation is authorized here.

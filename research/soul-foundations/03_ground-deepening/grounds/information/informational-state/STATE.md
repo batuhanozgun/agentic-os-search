@@ -6,10 +6,9 @@
 **User evaluation / transition acceptance:** 2026-09-05 — user explicitly authorised starting the next research after the bounded State result  
 **Parent:** `Information / Representation` — boundedly complete / user-evaluated  
 **Current phase:** CLOSED / USER-EVALUATED  
-**N0–N6:** COMPLETE  
-**Substantive node active:** NONE  
-**Sibling:** Informational Dynamics / Formation–Transformation — activated separately after this closure  
-**Work / Actors:** inactive
+**N0–N7:** COMPLETE  
+**Substantive activity inside this node:** NONE  
+**Maintenance update:** 2026-09-14; acceptance and original evidence unchanged
 
 ## Current purpose
 
@@ -74,8 +73,10 @@ Reopen if later evidence shows:
 4. later Work/Actors/composition research exposes a forced fit;
 5. independent review identifies a stable missing child or invalid leaf judgment.
 
-## Current authorization
+## Current authorization and historical boundary
 
 This node is closed. It does not authorize any deeper State child.
 
-The separately authorised active sibling is `Informational Dynamics / Formation–Transformation`; see the parent Information and Dynamics package state for current Work authorization.
+[Foundation STATE](../../../../STATE.md) governs current global work; [Information STATE](../STATE.md) and [Dynamics STATE](../informational-dynamics/STATE.md) provide their current results and routes. The earlier sibling-activation and Work/Actors-inactive labels described the September 5 transition, not today's execution queue.
+
+Original N0–N7, research plan, ledgers, evidence and integrated synthesis retain their pass-time content. Their pending-evaluation or next-work language is historical and does not override this accepted status or the live Foundation state. This maintenance neither reruns research nor authorizes Revision M5/M6, Selection, architecture, schema, implementation or a main merge.

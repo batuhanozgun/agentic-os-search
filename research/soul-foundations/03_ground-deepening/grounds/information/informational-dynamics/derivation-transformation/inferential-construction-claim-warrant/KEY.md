@@ -1,12 +1,12 @@
 # Inferential Construction / Claim Warrant — KEY
 
-**Date:** 2026-09-12  
-**Role:** CURRENT_L0  
-**Status:** proposed bounded leaf; user evaluation pending.
+**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
 
-Which qualified conclusion is supported by which premises, rules/models and assumptions for which target, under what alternative/defeater conditions, and what evidence establishes that support? One claim–basis relation; no immediate child promoted.
+**Status:** accepted bounded leaf; seven exact W6 refinements accepted.
 
-```
+Which qualified conclusion is supported by which premises, rules/models and assumptions for which target, under what alternatives/defeaters, and what evidence establishes that support? One claim–basis relation; no immediate child.
+
+```text
 conditional validity != premise/model adequacy != target fact established
 unfinished proof search != non-entailment != proof of negation
 likelihood != posterior; marginal guarantee != subgroup or joint guarantee
@@ -19,8 +19,6 @@ production trace != offered justification != valid inference
 supported belief != preferred action != authority != installed revision
 ```
 
-Strict, probabilistic and defeasible/explanatory regimes remain separate retrieval routes in W2/W3. A numerical score or a source list cannot replace them. A conditional answer, bounded range or explicit hypothesis can be useful without claiming certainty; mere conceivable exceptions do not defeat every conclusion.
+Strict, probabilistic and defeasible/explanatory regimes remain direct W2/W3 routes. A numerical score or source list cannot replace them. Conditional answers, ranges and hypotheses can be useful without certainty; conceivable exceptions do not defeat every conclusion.
 
-W4 retains the strongest strict-versus-defeasible child rival and the cost of a rich leaf. W6's exact refinements await evaluation. Re-expression/R6 are accepted; Revision and Selection remain separately unresearched/inactive.
-
-Seven primary documents at unequal depths; twelve synthetic finite cases and eight false-rule controls; same-model review. No live SOUL/LLM, empirical model validation, independent taxonomy replication or universal confidence calculus. Current STATE governs authority.
+W4 preserves the strongest strict/defeasible rival and rich-leaf cost; W6 preserves the accepted refinements. Original seven-source/twelve-case/eight-control scope and same-model limits remain. Overall work and authorization: [Foundation STATE](../../../../../../STATE.md). This closed package is not a live next-work queue. Its executed handoffs and pass-time pending labels are historical; they cannot restart a completed pass.

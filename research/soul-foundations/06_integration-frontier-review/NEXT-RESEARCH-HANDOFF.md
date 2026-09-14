@@ -1,12 +1,9 @@
-# Formation Entry Handoff — Executed / Subsequent Research
+# Formation Entry Handoff — Executed and Accepted
 
-**Updated:** 2026-09-12  
-**Status:** original handoff executed; current work delegated to Foundation STATE
+**Updated:** 2026-09-14. Historical transition record, not current activation authority.
 
-The original Formation-entry contract is preserved at input commit `4c372138b7d652b1921e96ef9158b32b05c05fc8`, blob `e24a2352a8fa87858664d98d0e10ada701fd5a3f`. That pass was activated, completed and subsequently accepted with its F6 refinements. Do not restart it as an unexecuted task.
+The original Formation-entry contract remains at input commit `4c372138b7d652b1921e96ef9158b32b05c05fc8`, blob `e24a2352a8fa87858664d98d0e10ada701fd5a3f`. Formation was activated, completed and accepted with F6. Later Derivation/T6 was also accepted; do not restart either from this handoff.
 
-The separately activated Derivation/Transformation pass now proposes a bounded three-child parent and awaits user evaluation. Current route: `../STATE.md` → `../03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/STATE.md` → INDEX/KEY → synthesis/T4/T6/T7.
+Historical successor evidence: [Formation STATE](../03_ground-deepening/grounds/information/informational-dynamics/formation-acquisition/STATE.md). Overall work and authorization: [Foundation STATE](../STATE.md). This closed package is not a live next-work queue. Its executed handoffs and pass-time pending labels are historical; they cannot restart a completed pass.
 
-Its proposed children have not received dedicated passes or activation. Selection/Exposure remains separately unresearched. Future entry conditions are in the current result's NEXT-RESEARCH-HANDOFF.md; this historical handoff supplies no new activation authority.
-
-The method remains one active node, discovery without automatic descendant research, source-grounded analysis and explicit evidence limits. No architecture, schema, implementation or agent-control change follows from this document.
+The method remains one active node, no automatic descendant research, source-grounded analysis and explicit evidence limits. This record authorizes no architecture, schema, implementation or agent-control change.
