@@ -1,21 +1,21 @@
 # Informational Dynamics — Findings Map
 
-**Updated:** 2026-09-14. Earlier accepted findings remain; Revision's bounded result and seven M5 refinements await evaluation.
+**Updated:** 2026-09-14. Accepted parent/predecessor depth; Selection's new parent proposal awaits evaluation.
 
 | Need | Route | Status / limit |
 |---|---|---|
-| Authorization and completion depth | [STATE](STATE.md) → [Foundation STATE](../../../../STATE.md) | parent acceptance not recursive closure |
-| Original three-question split | N3 → N4 → N6 → N7 through [INDEX](INDEX.md) | accepted; original evidence preserved |
+| Authorization and completion depth | [STATE](STATE.md) → Foundation STATE | parent acceptance is not recursive closure |
+| Original three-question split | N3/N4/N6/N7 through [INDEX](INDEX.md) | accepted; original missing-child snapshot historical |
 | Source-facing formation | [Formation map](formation-acquisition/FINDINGS-MAP.md) | accepted leaf/F6 |
-| Derivation's three protected outcomes | [Derivation map](derivation-transformation/FINDINGS-MAP.md) | accepted parent/T6 |
+| Three derivation outcomes | [Derivation map](derivation-transformation/FINDINGS-MAP.md) | accepted parent/T6 |
 | Intended semantic transfer | [Re-expression map](derivation-transformation/re-expression-semantic-transfer/FINDINGS-MAP.md) | accepted leaf/R6 |
-| Claim support, uncertainty and defeaters | [Warrant map](derivation-transformation/inferential-construction-claim-warrant/FINDINGS-MAP.md) | accepted leaf/W6 |
-| Continuing information revision | [Revision map](derivation-transformation/maintained-information-revision/FINDINGS-MAP.md) | M0–M6 assessment complete; proposed leaf |
-| Support/choice rival and seven proposed refinements | Revision M5 rival review → M5 decision, through its INDEX | separately retrievable; not accepted parent changes |
-| Revision final publication/readback | [PUBLICATION](derivation-transformation/maintained-information-revision/PUBLICATION.md) | execution, identity and scope separate |
-| Selection, visibility, omission and ranking | original N3/N4/N7 | dedicated pass absent; inactive |
-| Persistence and temporal history | EVIDENCE-INVENTORY → Records routes | cross-cutting profile |
-| Ground/Composition boundaries | relevant child DEFERRED-RELATIONS | actual reality, authority, qualification and spread not absorbed |
-| Exact source/check extent | local source ledgers; [CURRENT-SURFACES](CURRENT-SURFACES.md) | identity not independent verification |
+| Claim support, uncertainty, defeaters | [Warrant map](derivation-transformation/inferential-construction-claim-warrant/FINDINGS-MAP.md) | accepted leaf/W6 |
+| Continuing-state revision | [Revision map](derivation-transformation/maintained-information-revision/FINDINGS-MAP.md) | accepted leaf/M5.1–M5.7 |
+| Selection parent and strongest rich-leaf rival | [Selection map](selection-exposure/FINDINGS-MAP.md) → S4/S5 | two questions and S5.1–S5.5 proposed; children inactive |
+| Need, universe, adequacy, actual availability | Selection S1/S2/S5 | source-informed boundaries, no universal metric |
+| Selection checks and late source pressure | Selection S3/checks; S2 P7 | seven/seven finite; P7 later and untested behaviorally |
+| Persistence and temporal history | EVIDENCE-INVENTORY → Records routes | specialized profile, not a separate peer |
+| Ground/Composition boundaries | child DEFERRED-RELATIONS; Selection S4 §6 | authority, actual use and spread not absorbed |
+| Exact source/check scope | local ledgers; [CURRENT-SURFACES](CURRENT-SURFACES.md) | identity is not independent verification |
 
-Original sources and tests are unchanged. Historical next-step labels do not override current STATE. Warrant acceptance does not pre-accept Revision; Revision publication does not complete or activate Selection. Do not restart existing M5/M6 research from a stale pause record.
+Original evidence remains unchanged. Accepted Revision must not appear pending merely because its original proposal text is preserved. Selection's dedicated parent result does not complete its proposed children or independently verify the hierarchy. Current local/global STATE and the selected package's PUBLICATION govern continuation.
