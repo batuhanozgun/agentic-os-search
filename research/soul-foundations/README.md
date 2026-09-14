@@ -2,13 +2,13 @@
 
 First-principles research and reusable evidence for later SOUL / Development OS work, not an adopted architecture or ontology. Start at [STATE](STATE.md), then [INDEX](INDEX.md).
 
-## Current continuity checkpoint — 2026-09-14
+## Current research checkpoint — 2026-09-14
 
-The bounded continuity repair is user-accepted and published to canonical main through PR #2, merge `872a3a7e9b2cef2d24ce8ab5162c99396f015a76`. The merge's complete Git tree matches the reviewed head. The former branch-only publication and evaluation gates are completed; research remains paused pending explicit continuation.
+The bounded continuity repair is user-accepted and published to canonical main through PR #2, merge `872a3a7e9b2cef2d24ce8ab5162c99396f015a76`. Its complete Git tree matched the reviewed head. Repair and merge approval are completed work.
 
-Warrant and its seven W6 refinements are accepted. Maintained-Information Revision has a durable M0–M4 checkpoint. **M5 synthesis and M6 research closure remain unfinished.** Repository maintenance, acceptance and merging do not execute those stages. Selection/Exposure has no dedicated pass and remains inactive. Whole Foundation is not complete.
+The user subsequently explicitly resumed the one bounded Maintained-Information Revision pass. **M5 synthesis/rival review is now active; M6 closure remains unfinished.** Warrant and its seven W6 refinements are accepted. Revision M0–M4 remain preserved; neither the leading leaf hypothesis nor a new parent refinement is accepted. Selection/Exposure has no dedicated pass and remains inactive. Whole Foundation is not complete.
 
-Research re-entry route, not an active task from the merge approval: [Revision STATE](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) → INDEX → PLAN → existing analyses, evidence and full recovery contract. Warrant need not be repeated or evaluated again. Revision's leading leaf hypothesis is not an accepted result.
+Read [Revision STATE](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) → INDEX → PLAN and [M5 resumption](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/M5-RESUMPTION.md). Recover existing analyses, evidence and the full parent/sibling contract rather than restarting completed work. Return for evaluation after bounded synthesis and coherent publication, or preserve an honest partial checkpoint.
 
 ## Progression and accepted anchors
 
@@ -24,8 +24,8 @@ Formation separates capture, source coverage, copies, evidence and reference tim
 
 ## History, maintenance and evidence
 
-Use STATE → INDEX → local STATE → KEY → map/synthesis → precise evidence. Original pass artifacts retain checkpoint language; current authority controls continuation. Old integration/frontier snapshots and executed successor recommendations are not today's queue. Accepted results and exact file identities do not add independent replication or live SOUL/LLM efficacy.
+Use STATE → INDEX → local STATE → KEY → map/synthesis → precise evidence. Original pass artifacts retain checkpoint language; current authority controls continuation. Old frontier snapshots and executed successor recommendations are not today's queue. Accepted results and exact file identities do not add independent replication or live SOUL/LLM efficacy.
 
-[REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) records the executed main publication and checks. [REPAIR-AUDIT](REPAIR-AUDIT.md) preserves the accepted pre-merge assessment, corrected findings and unchecked scope; its former pending/draft wording is historical. The review concerns current continuity and navigation, not every archival reference or the scientific validity of the entire corpus.
+[REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) records the executed publication and checks. [REPAIR-AUDIT](REPAIR-AUDIT.md) preserves the accepted pre-merge assessment and unchecked scope. Their waiting-for-research-continuation wording is now historical under the user's explicit M5 continuation; the maintenance itself is not reopened.
 
-Unchanged descendant files may retain review-branch names and pre-merge publication statements from their recorded checkpoints. STATE and REPAIR-PUBLICATION now carry current publication status; those older labels do not make PR #2 an unfinished task. The maintenance branch was not deleted by this operation. No architecture, schema, implementation, agent-control modification or research resumption is authorized by this merge approval.
+Unchanged subordinate files may retain review-branch names, pre-merge publication statements and temporary maintenance pauses. Current STATE distinguishes those recorded checkpoints from the live authorization. Real local evidence, path or identity defects still require checking when material. Original research and its limits remain preserved. No automatic Selection, new descendant, architecture, schema, implementation or agent-control modification follows from this one-pass continuation.
