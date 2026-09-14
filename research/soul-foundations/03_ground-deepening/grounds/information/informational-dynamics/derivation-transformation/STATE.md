@@ -2,23 +2,22 @@
 
 **Updated:** 2026-09-14
 **Parent/T6:** accepted three-child structure
-**Re-expression/R6 and Warrant/W6:** accepted bounded leaves and exact refinements
-**Revision:** bounded M0–M6 assessment complete; proposed leaf and seven M5 refinements awaiting evaluation
-**Current substantive activity:** NONE after bounded Revision closure
+**Re-expression/R6, Warrant/W6 and Revision/M5.1–M5.7:** accepted bounded leaves and refinements
+**Current substantive activity inside this package:** NONE
 
 ```text
 Derivation / Transformation [accepted parent]
 ├─ Re-expression / Semantic Transfer [accepted leaf/R6]
 ├─ Inferential Construction / Claim Warrant [accepted leaf/W6]
-└─ Maintained-Information Revision [proposed leaf; evaluation pending]
+└─ Maintained-Information Revision [accepted leaf/M5.1–M5.7]
 ```
 
 Transfer fidelity, offered warrant and continuing-state revision remain distinct protected outcomes, not mandatory software stages. Production history is not warrant; source fidelity is not truth; withdrawal is not negation; alternatives and negative dependencies can matter; local correctness is not compatible end-to-end composition.
 
-Revision's [M5 decision](maintained-information-revision/M5-SYNTHESIS-DECISION-AND-PARENT-DELTA.md) proposes refinements concerning admitted change, withdrawal/support, constraint/choice, future-state preservation, time, realized applicability and replay/current authority. Those proposals are not installed as accepted parent refinements before user evaluation. Its support-maintenance/successor-selection rival remains explicit; no new immediate child is promoted.
+The user accepted the delivered Revision leaf and its seven refinements before authorizing the separate Selection/Exposure pass. [Revision STATE](maintained-information-revision/STATE.md) carries that acceptance; its original M5/M6 proposal labels are historical. [M5 decision](maintained-information-revision/M5-SYNTHESIS-DECISION-AND-PARENT-DELTA.md) retains the exact admitted-input, support, constraint/choice, future-state, temporal, realization and replay distinctions. The support-maintenance/successor-selection rival remains reopenable.
 
-Read [Revision STATE](maintained-information-revision/STATE.md) → INDEX → synthesis/M5/M6. The former M5-pending pause and executed resumption are historical. Do not restart M0–M4, ask for Warrant acceptance again, or mark Revision accepted merely because it was published.
+All three dedicated child passes are complete at their recorded depths. This does not certify every finer inquiry or independently validate their results. Original T0–T7, PLAN, SOURCE-LEDGER, checks and [historical synthesis](synthesis/HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md) are unchanged. Current synthesis routes to those arguments and subsequent accepted refinements; it does not replace them.
 
-The original T0–T7, PLAN, SOURCE-LEDGER, checks and [historical synthesis](synthesis/HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md) remain unchanged. Current synthesis is an orientation linked to that source. Source-depth and same-model limits remain; five new finite checks/five same-fixture controls are not live or independent validation.
+Read [INDEX](INDEX.md) → selected child's current STATE/map/synthesis → precise evidence. Do not repeat Warrant evaluation or Revision M5/M6. Same-author/fixture, source-access and live-system limitations remain. No new scientific test is performed by acceptance bookkeeping.
 
-[Foundation STATE](../../../../../STATE.md) governs current work. Next is evaluation of Revision and M5.1–M5.7. Selection/Exposure remains the separately unresearched Dynamics sibling, recommended after acceptance and separate activation. No automatic descendant, Selection, architecture, implementation or agent-control change follows.
+[Foundation STATE](../../../../../STATE.md) and [Dynamics STATE](../STATE.md) govern current work outside this closed package. Selection/Exposure has its own package and is not a new Derivation child. This file does not carry a rolling successor queue or authorize architecture, implementation or agent-control changes.
