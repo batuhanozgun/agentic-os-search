@@ -1,7 +1,7 @@
 # Informational State / Representational Constitution — Findings Map
 
-**Status:** bounded node result prepared for user evaluation  
-**Date:** 2026-09-05  
+**Status:** bounded leaf / user-evaluated / accepted for Foundation sequencing  
+**Research date:** 2026-09-05; **maintenance update:** 2026-09-14  
 **Warning:** this is a Foundation research map, not architecture/ontology/schema.
 
 ## A. Node result
@@ -229,6 +229,8 @@ The convergence is on **coupled constitution facets**, not one shared taxonomy.
 - external sources → `EXTERNAL-SOURCE-LEDGER.md`
 - integrated synthesis → `synthesis/INFORMATIONAL-STATE-SYNTHESIS.md`
 
-## Q. Current gate
+## Q. Current authority and historical evidence
 
-The bounded result is prepared for user evaluation. No newly discovered child is active, and no sibling/next node is authorised by this result.
+The bounded result has already been accepted for Foundation sequencing, as recorded in [STATE](STATE.md). Sections A–P retain the original research map; its references to later neighboring research describe the original argument, not today's execution queue. N0–N7, the integrated synthesis, sources and evidence are unchanged historical research artifacts.
+
+[Foundation STATE](../../../../STATE.md) governs current work. This map does not reopen State, activate a descendant or sibling, strengthen verification, execute Revision M5/M6 or authorize a main merge.
