@@ -7,8 +7,8 @@
 **Parent:** `Cross-Ground Composition` — accepted  
 **Prior child:** `Relational Binding` — bounded leaf / user-evaluated / accepted  
 **S0–S7:** COMPLETE  
-**Current authorised substantive activity:** NONE  
-**Current authorised interaction:** NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY
+**Current authorised substantive activity:** NONE FROM THIS PACKAGE  
+**Maintenance update:** 2026-09-14; accepted research unchanged
 
 ## Protected question
 
@@ -120,13 +120,9 @@ actual conformity
 != accept/reject decision
 ```
 
-## Next sequencing recommendation
+## Sequencing history — not current work
 
-After acceptance, the strongest current next composition-child candidate remains:
-
-> **Control / Constraint**
-
-It is not active. Re-select remaining order after Control closure rather than pre-fixing Transition.
+The closure recommended Control / Constraint before choosing the remaining order. That recommendation was subsequently executed; it is not an unstarted task. [Composition STATE](../STATE.md) records the current accepted descendant results, and [Foundation STATE](../../STATE.md) governs global work.
 
 ## Verification status
 
@@ -134,13 +130,8 @@ S7 is same-model adversarial review. No independent second-researcher/model repl
 
 User acceptance closes the sequencing/evaluation gate but does not change verification independence.
 
-## Current authorization / return condition
+## Current authorization / historical boundary
 
-**NEXT COMPOSITION-CHILD SELECTION / PLANNING ONLY.**
+This package is closed. Original S0–S7, plan, source arguments, synthesis and residuals remain unchanged. Their closure-time next-child recommendations and local KEY/map shorthand are scoped to that research checkpoint, not today's execution queue.
 
-Do not automatically begin:
-- Control / Constraint;
-- Transition / Effect / Feedback;
-- architecture;
-- ontology/data-model/schema work;
-- implementation.
+No new Control/Transition pass, architecture, ontology/data-model/schema work, implementation, Revision M5/M6, Selection or main merge is authorized by this maintenance.
