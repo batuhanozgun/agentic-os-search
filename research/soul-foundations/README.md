@@ -4,11 +4,13 @@ First-principles research and reusable evidence for later SOUL / Development OS 
 
 ## Current research checkpoint — 2026-09-14
 
-The bounded continuity repair is user-accepted and published to canonical main through PR #2, merge `872a3a7e9b2cef2d24ce8ab5162c99396f015a76`. Its complete Git tree matched the reviewed head. Repair and merge approval are completed work.
+The continuity repair is accepted and published to main through PR #2, merge `872a3a7e9b2cef2d24ce8ab5162c99396f015a76`. Repair and merge approval are completed work.
 
-The user subsequently explicitly resumed the one bounded Maintained-Information Revision pass. **M5 synthesis/rival review is now active; M6 closure remains unfinished.** Warrant and its seven W6 refinements are accepted. Revision M0–M4 remain preserved; neither the leading leaf hypothesis nor a new parent refinement is accepted. Selection/Exposure has no dedicated pass and remains inactive. Whole Foundation is not complete.
+The resumed Maintained-Information Revision pass now has its M5 synthesis/rival review, integrated proposed result and M6 research assessment. **The bounded leaf and seven M5.1–M5.7 refinements await user evaluation.** [Revision PUBLICATION](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/PUBLICATION.md) records canonical publication/readback and any remaining duty. Completed analysis, coherent publication and acceptance are distinct.
 
-Read [Revision STATE](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) → INDEX → PLAN and [M5 resumption](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/M5-RESUMPTION.md). Recover existing analyses, evidence and the full parent/sibling contract rather than restarting completed work. Return for evaluation after bounded synthesis and coherent publication, or preserve an honest partial checkpoint.
+Warrant/W6 remain accepted. Original Revision M0–M4 and the later M5/M6 artifacts are preserved, not analysis to repeat. Selection/Exposure has no dedicated pass and remains inactive. Whole Foundation is not complete.
+
+Read [Revision STATE](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) → INDEX → synthesis / M5 decision / M5 rival review / M6 / exact sources and checks. M5-RESUMPTION is an executed entry record, not today's first unfinished stage. Return for evaluation after the bounded publication check; no successor is automatic.
 
 ## Progression and accepted anchors
 
@@ -16,16 +18,18 @@ Read [Revision STATE](03_ground-deepening/grounds/information/informational-dyna
 
 Environment/Operating Reality, Information/Representation, Work and Actors/Agency–Participation–Authority remain the four grounds. Composition retains Binding, Composite Standing, Control and Transition/Effect/Feedback; Transition includes Propagation, Actual/Contrastive causal inquiry and Returned Influence/Persistent Adaptation. These are research questions, not runtime modules or a mandatory workflow.
 
-## Preserved distinctions
+## Preserved distinctions and new proposal
 
 Actual reality is not its representation. Work completion is not outcome attainment or authorized acceptance. Capability, authority, access and effect reach differ. Qualification differs from assessment/recorded label. Policy, decision and enforcement differ. Change is not causal proof. Feedback need not visibly revise action; stored lessons or changed code do not by themselves prove retained response change.
 
-Formation separates capture, source coverage, copies, evidence and reference time. Derivation separates transfer, warrant and continuing-state revision. Re-expression separates possible recovery, intended meaning and actual use. Accepted Warrant/W6 separates conditional validity, target applicability, scoped uncertainty, causal identification, defeated support, evidence selection and action authority. Exact source arguments remain at their package routes.
+Formation separates capture, source coverage, copies, evidence and reference time. Derivation separates transfer, warrant and continuing-state revision. Re-expression separates possible recovery, intended meaning and actual use. Accepted Warrant/W6 separates conditional validity, target applicability, scoped uncertainty, causal identification, defeated support, evidence selection and action authority.
 
-## History, maintenance and evidence
+Revision's proposed result retains withdrawal/support, alternatives and policy, future-update state, time/currentness, applicability/realization and replay/current authority. Same current answers need not preserve future revision behavior; compatible/minimal changes need not be uniquely required. Support maintenance versus successor selection remains the strongest reopenable split. These proposed refinements are research for evaluation, not adopted architecture or agent-control rules.
 
-Use STATE → INDEX → local STATE → KEY → map/synthesis → precise evidence. Original pass artifacts retain checkpoint language; current authority controls continuation. Old frontier snapshots and executed successor recommendations are not today's queue. Accepted results and exact file identities do not add independent replication or live SOUL/LLM efficacy.
+## History and evidence
 
-[REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) records the executed publication and checks. [REPAIR-AUDIT](REPAIR-AUDIT.md) preserves the accepted pre-merge assessment and unchecked scope. Their waiting-for-research-continuation wording is now historical under the user's explicit M5 continuation; the maintenance itself is not reopened.
+Use STATE → INDEX → local STATE → KEY → map/synthesis → precise evidence. Original pass artifacts retain checkpoint language; current authority controls continuation. Old frontier snapshots and executed successor recommendations are not today's queue.
 
-Unchanged subordinate files may retain review-branch names, pre-merge publication statements and temporary maintenance pauses. Current STATE distinguishes those recorded checkpoints from the live authorization. Real local evidence, path or identity defects still require checking when material. Original research and its limits remain preserved. No automatic Selection, new descendant, architecture, schema, implementation or agent-control modification follows from this one-pass continuation.
+[REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) and [REPAIR-AUDIT](REPAIR-AUDIT.md) preserve completed maintenance and its limits. Their earlier research pause and M5-pending language is historical. Earlier review-branch labels do not make the merged repair unfinished.
+
+Original scientific source and test files are preserved. The original twelve-case/eight-control and later five-case/five-control Revision suites have distinct finite scopes; rerunning the latter adds repeatability evidence, not independent experiments or live SOUL/LLM efficacy. Source reading was targeted and some visual/access and interpretation limits remain open. No automatic Selection, new descendant, architecture, schema, implementation or agent-control modification follows from this publication.
