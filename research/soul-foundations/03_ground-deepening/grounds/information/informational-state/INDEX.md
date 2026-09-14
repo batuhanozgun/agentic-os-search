@@ -4,7 +4,7 @@
 
 Current retrieval router for the boundedly complete, user-evaluated Informational State foundation-research node.
 
-For current status read `STATE.md` first.
+For current status read [STATE](STATE.md) first. Maintenance update: 2026-09-14; no new research result.
 
 ## Current status
 
@@ -17,10 +17,10 @@ This node is closed. No State-internal child was promoted.
 1. `STATE.md` — current status, bounded result and verification boundary.
 2. `KEY.md` — shortest current orientation.
 3. `FINDINGS-MAP.md` — current bounded result and topic routing.
-4. `synthesis/INFORMATIONAL-STATE-SYNTHESIS.md` — integrated node result.
-5. `N7-NODE-CLOSURE.md` — closure basis, residual uncertainty and verification status.
+4. `synthesis/INFORMATIONAL-STATE-SYNTHESIS.md` — original integrated node result; its pass-time evaluation/continuation wording is historical.
+5. `N7-NODE-CLOSURE.md` — original closure basis, residual uncertainty and verification status.
 6. `OPEN-QUESTIONS.md` — residual/reopen questions; not an execution queue.
-7. `CURRENT-SURFACES.md` — exact current-surface binding.
+7. `CURRENT-SURFACES.md` — local file identities and explicitly historical upstream bindings.
 
 ## Bounded result
 
@@ -33,17 +33,11 @@ Internal constitution dimensions remain explicit rather than promoted as child b
 
 ## Parent / sibling route
 
-Parent Information package: `../`
+[Information STATE](../STATE.md) → [Information INDEX](../INDEX.md).
 
-Current sibling result: `../informational-dynamics/`
+[Informational Dynamics STATE](../informational-dynamics/STATE.md) → [Dynamics INDEX](../informational-dynamics/INDEX.md).
 
-```text
-Information / Representation                    ← boundedly complete / user-evaluated
-    ├─ Informational State / Representational Constitution   ← bounded leaf / user-evaluated
-    └─ Informational Dynamics / Formation–Transformation     ← boundedly complete / USER EVALUATION PENDING
-```
-
-Dynamics currently recommends `Formation–Transition` with three proposed children; that sibling result is awaiting user evaluation and none of its children is active.
+The older Dynamics-evaluation gate in this router has been superseded. Do not restart a completed sibling pass or infer that its descendants remain unresearched from September 5 wording. Read [Foundation STATE](../../../../STATE.md) for current global authorization and [REPAIR-PUBLICATION](../../../../REPAIR-PUBLICATION.md) for maintenance progress.
 
 ## Verification status
 
@@ -51,4 +45,4 @@ The State result has external falsifiers plus same-model adversarial N6; it has 
 
 ## Guardrail
 
-This closed node does not authorize any State-internal child, Dynamics child, Work, Actors, composition, architecture, ontology or implementation work. Current authorization is carried by the parent Information / Foundation state surfaces.
+This closed node does not authorize any State-internal child, Dynamics child, Work, Actors, composition, architecture, ontology or implementation work. Current authorization is carried by the parent Information / Foundation state surfaces. Original research and its historical evidence are preserved, not updated to anticipate subsequent acceptance.
