@@ -1,62 +1,27 @@
 # Environment / Operating Reality — Ground Deepening
 
-## Purpose
+**Continuity refresh:** 2026-09-14. Accepted research is unchanged.
 
-This package deepens the user-accepted top-level `Environment / Operating Reality` research ground for later SOUL and Development OS reasoning.
+## Purpose and scope
 
-It is a research package, not an architecture, ontology, schema or implementation package.
+This package deepened the user-accepted Environment / Operating Reality ground for later SOUL and Development OS reasoning. It asks which realized, boundary-relative conditions and dynamics belong to Environment, how they decompose internally, and where their boundaries lie relative to Information, Work and Actors.
 
-## Scope
+It is a research package, not an architecture, ontology, schema or implementation. Its accepted result and promoted descendants are boundedly complete at the recorded Foundation depth; no Environment research node is active.
 
-The package asks what realized, boundary-relative conditions and dynamics constitute a coherent Environment problem ground, how that ground decomposes internally, and where its boundary lies relative to Information, Work and Actors.
+## Accepted hierarchy and retrieval
 
-Only Environment is researched substantively here.
+Read [STATE](STATE.md) → [INDEX](INDEX.md) → [KEY](KEY.md), then the relevant node's findings and source evidence. INDEX and KEY carry the current detailed hierarchy rather than this README duplicating an older tree.
 
-## Prior evidence
+The accepted structure distinguishes Domain Reality (Domain State and Domain Dynamics) from Work Conditions. Domain State distinguishes Domain Structure and Domain Condition, whose accepted children are routed through INDEX. Technical Work Environment remains a deep technical specialization/profile under Work Conditions, not an additional universal child inferred from indentation.
 
-The work reuses but does not blindly inherit:
-- the completed Technical Work Environment corpus;
-- the archived operating-world Environment corpus;
-- the `02_adequacy` Environment hierarchy refinement.
+Earlier refinements from Domain / Effect Reality to Domain Reality and from Domain State / Configuration to Domain State remain part of the research history. This is a problem hierarchy, not mutually exclusive object classes or runtime modules.
 
-## Current research hierarchy
+## Prior evidence and history
 
-Current bounded hierarchy after deeper Domain Reality and Domain State passes:
+The research reused the completed Technical Work Environment corpus, archived operating-world Environment corpus and the original adequacy refinement. Original evidence, plans, syntheses, counterexamples and verification limits are preserved.
 
-```text
-Environment / Operating Reality
-    ├─ Domain Reality
-    │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition
-    │    │    └─ Domain Condition / Status
-    │    └─ Domain Dynamics / Processes
-    └─ Work Conditions / Enabling–Constraining Environment
-         └─ Technical Work Environment
-```
+The former README's earlier hierarchy is recoverable at baseline `e800db333ce3fd89a0534c49d872270335a53af2`, blob `560b0de672f9620f4fa5fbabf915272a675cf61d`. This refresh changes the current entry view, not the original research argument.
 
-Material refinements produced by deeper passes:
-- `Domain / Effect Reality` → `Domain Reality`;
-- `Domain State / Configuration` → `Domain State`;
-- Domain State immediate children → `Domain Structure / Composition` + `Domain Condition / Status`.
+## Global continuation
 
-This is a **research/problem hierarchy**, not a taxonomy of mutually exclusive objects or an architecture/module decomposition.
-
-## Current status and retrieval
-
-Do not infer authorization from this README or from tree indentation.
-
-Read:
-1. `STATE.md` — current Environment epistemic/authorization state;
-2. `INDEX.md` — current route;
-3. `KEY.md` — shortest current hierarchy;
-4. relevant node package for deeper evidence;
-5. `CURRENT-SURFACES.md` — exact freshness binding.
-
-Current deeper node route:
-- `domain-effect/domain-state/`
-
-## Guardrail
-
-Cross-ground relations may be recorded when needed to define Environment's boundary, but Information, Work, Actors and systematic relation/control composition are not researched in parallel in this package.
-
-A closed node does not authorize a discovered child or sibling automatically.
+[Foundation STATE](../../../STATE.md) records current work and authority. [REPAIR-PUBLICATION](../../../REPAIR-PUBLICATION.md) records maintenance publication and its remaining checks. Local completion does not authorize a new ground, descendant, composition phase or implementation. [CURRENT-SURFACES](CURRENT-SURFACES.md) separates current entry identities from retained historical bindings; identity is not independent semantic verification.
