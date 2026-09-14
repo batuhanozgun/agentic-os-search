@@ -1,14 +1,16 @@
 # SOUL Foundations — INDEX
 
-Read [STATE](STATE.md) first. The continuity repair and PR #2 publication are complete. The user has now explicitly resumed the one bounded Revision pass at M5. Warrant/W6 are accepted; M0–M4 are preserved; M5/M6 are not yet complete or accepted. Selection remains unresearched/inactive.
+Read [STATE](STATE.md) first. Revision's bounded M0–M6 research assessment is complete: proposed leaf and seven M5 refinements awaiting evaluation. [Revision PUBLICATION](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/PUBLICATION.md) records the exact canonical publication/readback gate. Earlier accepted results and the completed repair remain preserved. Selection is unresearched/inactive.
 
 | Need | Entry and deeper route |
 |---|---|
-| Current research resumption and challenge plan | [M5 resumption](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/M5-RESUMPTION.md) |
-| Revision checkpoint and unfinished synthesis/closure | [Revision STATE](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) → INDEX → PLAN/M0–M4 |
-| Accepted Warrant and seven W6 refinements | [Warrant STATE](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/inferential-construction-claim-warrant/STATE.md) → INDEX → original synthesis/W4/W6/W7 |
-| Full Revision parent/sibling recovery contract | Warrant NEXT-RESEARCH-HANDOFF.md |
-| Accepted Re-expression/R6 and Derivation/T6 | [Derivation INDEX](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/INDEX.md) → selected child or exact historical parent synthesis |
+| Current proposed Revision result, evidence and evaluation | [Revision INDEX](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/INDEX.md) |
+| Integrated Revision meaning | [Revision synthesis](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/synthesis/MAINTAINED-INFORMATION-REVISION-SYNTHESIS.md) |
+| Strongest split and exact seven proposed refinements | Revision INDEX → M5 rival review / M5 decision |
+| Publication, actual checks and remaining limits | Revision PUBLICATION → M6 / source addendum / checks/m5/EXECUTION |
+| Accepted Warrant and seven W6 refinements | [Warrant INDEX](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/inferential-construction-claim-warrant/INDEX.md) |
+| Executed Revision entry/source-recovery contract | Warrant NEXT-RESEARCH-HANDOFF; Revision M0/M5-RESUMPTION are historical entry records |
+| Accepted Re-expression/R6 and Derivation/T6 | [Derivation INDEX](03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/INDEX.md) |
 | Accepted Formation/F6 and Dynamics/Selection boundary | [Dynamics INDEX](03_ground-deepening/grounds/information/informational-dynamics/INDEX.md) |
 | Information/State constitution and original structure | [Information INDEX](03_ground-deepening/grounds/information/INDEX.md) |
 | Accepted integration/frontier review | [Review STATE](06_integration-frontier-review/STATE.md) → original SYNTHESIS/B1/B2/B4 |
@@ -19,4 +21,4 @@ Read [STATE](STATE.md) first. The continuity repair and PR #2 publication are co
 | Accepted pre-merge assessment and unchecked scope | [REPAIR-AUDIT](REPAIR-AUDIT.md) |
 | Candidate reuse when material | [Studies catalog](../studies/CATALOG.md) → selected META → precise evidence |
 
-Current STATE governs activity. Subordinate maintenance-only pauses and branch-publication statements refer to earlier checkpoints, superseded by the completed merge and explicit research continuation; they do not reopen uploads or revoke this M5 scope. Original research findings and historical input bindings are preserved. No new Revision result, Selection, architecture or implementation is accepted by resuming research. Return for evaluation after bounded M5/M6 publication, or record an honest partial result.
+Current STATE governs activity. Original pass labels, temporary maintenance pauses, branch-only publication statements and executed M5-resumption instructions retain their historical checkpoints; they do not restart research or repair. New Revision publication does not accept its result. After the bounded publication check, return for evaluation of the leaf and M5.1–M5.7. Selection remains a recommendation requiring subsequent acceptance and separate activation. No architecture, implementation or automatic successor follows.
