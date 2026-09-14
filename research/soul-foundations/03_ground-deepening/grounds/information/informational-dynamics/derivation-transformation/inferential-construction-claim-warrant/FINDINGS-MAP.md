@@ -1,8 +1,6 @@
 # Claim Warrant — Findings Map
 
-**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
-
-**Status:** accepted bounded leaf and seven W6 refinements. Original W-pass labels are historical.
+**Updated:** 2026-09-14. Accepted bounded leaf and seven W6 refinements. Original W-pass labels are historical; this update adds no Warrant finding.
 
 | Question / finding | Exact route | Scope |
 |---|---|---|
@@ -26,6 +24,6 @@
 | Source extent and equation issue | W5; SOURCE-LEDGER S4 | source readback not source correctness |
 | Exact accepted parent delta | [W6](W6-SYNTHESIS-DECISION-AND-PARENT-DELTA.md) | seven refinements; original text unchanged |
 | Actual checks and failure sensitivity | W7; checks/ | twelve cases/eight controls |
-| Unfinished Revision | [Revision map](../maintained-information-revision/FINDINGS-MAP.md) | M0–M4 only; M5/M6 pending |
+| Successor's current result | [Revision STATE](../maintained-information-revision/STATE.md) → [Revision map](../maintained-information-revision/FINDINGS-MAP.md) | use its actual result/evaluation scope, not Warrant's old checkpoint |
 
-W1–W7 and sources resolve through [INDEX](INDEX.md). A leaf is not a single confidence score. Boundary examples here do not close Revision or Selection.
+W1–W7 and sources resolve through [INDEX](INDEX.md). A leaf is not a single confidence score. Boundary examples here do not close Revision or Selection; their dedicated progress and authorization belong to their own current package and Foundation STATE.
