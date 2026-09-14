@@ -1,29 +1,27 @@
 # Revision — Open conditions and structural reopening
 
-**Date:** 2026-09-14. Proposed bounded leaf and M5.1–M5.7 await evaluation. These conditions are not an automatically active execution queue.
+**Updated:** 2026-09-14. Bounded leaf and M5.1–M5.7 accepted. These residuals are not an automatically active queue.
 
 ## Structural rival
 
-The strongest alternative separates support/dependency maintenance from successor/commitment selection. Their different errors and remedies are retained. The bounded leaf is preferred because the Revision-local transition obligations remain directly recoverable without an additional hierarchy; a broad successor-selection label would also encompass support-state updates. This organizational judgment is not independently replicated.
+The strongest alternative separates support/dependency maintenance from successor/commitment selection. Their different errors and remedies remain. The bounded leaf retains them as directly recoverable obligations; a broad successor-selection label can also encompass support-state updates. This organizational judgment is not independently replicated.
 
-Reopen if a stable Revision-local protected outcome cannot be routed without semantic loss; if an adequately specified leaf repeatedly hides an autonomous support or policy inquiry; or if a stronger split yields a demonstrated diagnostic benefit rather than merely different terminology or implementation modules. Acceptance does not make these counterconditions disappear.
+Reopen if a stable Revision-local protected outcome cannot be routed without semantic loss; if an adequately specified leaf repeatedly hides an autonomous support or policy inquiry; or if a stronger split demonstrates a diagnostic benefit rather than merely new terminology or modules. Acceptance does not erase these counterconditions.
 
 ## Target-specific evidence
 
-An actual SOUL task still needs evidence for its admitted source/event meaning, support independence and completeness, interpretation, relevant negative dependencies, appropriate revision policy, allowed loss and future observation/input scope. The finite models do not discover these values.
+Actual SOUL work still needs evidence for admitted source/event meaning, support independence/completeness, interpretation, negative dependencies, revision policy, allowed loss and protected future input/observation scope. Finite models do not discover these values.
 
-A state-preserving abstraction must be evaluated against the relevant continuation contract, not just today's answers. Unknown future uses may require retaining recoverable richer sources or reporting the boundary; they do not automatically justify all-history retention. Deliberately changing a policy may legitimately change future behavior.
+State-preserving abstraction must be evaluated against the continuation contract, not just current answers. Unknown future uses may require recoverable richer sources or an explicit boundary, not automatic all-history retention. Deliberate policy revision may legitimately change future behavior.
 
-Unknown dependency/propagation coverage, stale permissions, missing effect receipts, conflict and replay require actual target-specific checks. No real concurrent update, distributed transaction or exactly-once effect guarantee was established here. Restoring an artifact does not restore the world.
+Unknown dependency/propagation coverage, stale permissions, missing effect receipts, conflict and replay need target-specific checks. No real concurrent update, distributed transaction or exactly-once effect guarantee was established. Restoring an artifact does not restore the world.
 
 ## Source and verification limits
 
-P3's dynamic-constraint paragraph creates a tension with its explicitly different consistency/entailment treatments under the literal extension tested in D03. Original page rendering and intended additional semantics were not recovered. Keep this source issue open; do not use the paragraph as a proved enforcement recipe. The static distinction and our explicit countermodel remain narrower, separately supported results.
+P3's dynamic-constraint paragraph remains in tension with its explicit consistency/entailment distinction under the literal D03 extension. Intended additional semantics and relevant page rendering were not recovered. Do not use it as a proved enforcement recipe. The narrower static distinction remains separately supported.
 
-P1–P3 were freshly read at selected depths, not all in full. Some PDF rendering and other source-download attempts failed. Doyle discovery did not become a full source reading. Original M0–M4 source/access limitations remain; current source retrieval is not primary-source endorsement.
+P1–P3 were selectively read; some PDF rendering/download attempts failed. Doyle discovery did not become a full reading. Original M0–M4 limitations remain. Five M5 cases/five controls and the original twelve/eight are same-author bounded evidence, not independent or live SOUL/LLM validation. Acceptance closes only the declared sequencing gate.
 
-Five new finite checks/five controls and the original twelve/eight are same-author bounded evidence. No independent second-researcher/model replication or live SOUL/LLM validation occurred. User evaluation closes only the declared sequencing gate.
+## Successor boundary
 
-## Separate next research
-
-Selection/Exposure still lacks a dedicated pass. Which existing information reaches a consumer, with what eligibility, ranking, coverage and freshness, is not answered merely by correcting the maintained source. It is recommended after evaluation, not activated. No new Revision child, architecture, schema, implementation or agent-control change follows automatically.
+Selection/Exposure is a separate package, not an unfinished test of Revision's algorithms. The original recommendation was executed after this result's acceptance. Read its STATE and Foundation STATE for current progress rather than retaining a copied global queue here. No Revision child, architecture, schema, implementation or agent-control work follows automatically.
