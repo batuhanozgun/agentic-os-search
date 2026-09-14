@@ -1,29 +1,24 @@
 # Informational Derivation / Transformation — STATE
 
-**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
-
-**Parent/T6:** ACCEPTED THREE-CHILD STRUCTURE.
-**Re-expression/R6:** ACCEPTED BOUNDED LEAF.
-**Warrant/W6:** ACCEPTED BOUNDED LEAF / seven refinements accepted.
-**Revision:** OPEN / M0–M4 checkpoint / M5–M6 pending; execution paused for maintenance.
+**Updated:** 2026-09-14
+**Parent/T6:** accepted three-child structure
+**Re-expression/R6 and Warrant/W6:** accepted bounded leaves and exact refinements
+**Revision:** bounded M0–M6 assessment complete; proposed leaf and seven M5 refinements awaiting evaluation
+**Current substantive activity:** NONE after bounded Revision closure
 
 ```text
 Derivation / Transformation [accepted parent]
-├─ Re-expression / Semantic Transfer [accepted leaf]
-├─ Inferential Construction / Claim Warrant [accepted leaf; W6 accepted]
-└─ Maintained-Information Revision [M0–M4 checkpoint; M5/M6 pending]
+├─ Re-expression / Semantic Transfer [accepted leaf/R6]
+├─ Inferential Construction / Claim Warrant [accepted leaf/W6]
+└─ Maintained-Information Revision [proposed leaf; evaluation pending]
 ```
 
-Selection/Exposure remains a separately unresearched, inactive Dynamics sibling. Parent acceptance is not recursive completion. Root entry commit `2a8ff5489e32d8102368ebf11f0f9f286b32863f` records Warrant acceptance and the bounded Revision activation. The latest user request is repository repair, not execution or acceptance of new Revision findings.
+Transfer fidelity, offered warrant and continuing-state revision remain distinct protected outcomes, not mandatory software stages. Production history is not warrant; source fidelity is not truth; withdrawal is not negation; alternatives and negative dependencies can matter; local correctness is not compatible end-to-end composition.
 
-## Accepted meaning and preserved source
+Revision's [M5 decision](maintained-information-revision/M5-SYNTHESIS-DECISION-AND-PARENT-DELTA.md) proposes refinements concerning admitted change, withdrawal/support, constraint/choice, future-state preservation, time, realized applicability and replay/current authority. Those proposals are not installed as accepted parent refinements before user evaluation. Its support-maintenance/successor-selection rival remains explicit; no new immediate child is promoted.
 
-The three questions remain transferring protected meaning, licensing a conclusion and revising continuing information. Production history is not warrant; source fidelity is not truth; an entailed result can be task-inadequate; withdrawal is not negation; source count is not independence; local validity is not compatible composition; proposed revision is not installed or propagated.
+Read [Revision STATE](maintained-information-revision/STATE.md) → INDEX → synthesis/M5/M6. The former M5-pending pause and executed resumption are historical. Do not restart M0–M4, ask for Warrant acceptance again, or mark Revision accepted merely because it was published.
 
-The six R6 and seven W6 refinements remain exact accepted child results at their source routes. Warrant distinguishes conditional validity/target support, incomplete search/negation, scoped uncertainty, causal identification, undercutting/rebuttal, selection-aware evidence and epistemic support/action authority.
+The original T0–T7, PLAN, SOURCE-LEDGER, checks and [historical synthesis](synthesis/HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md) remain unchanged. Current synthesis is an orientation linked to that source. Source-depth and same-model limits remain; five new finite checks/five same-fixture controls are not live or independent validation.
 
-Original T0–T7, PLAN, SOURCE-LEDGER and checks remain unchanged. The exact historical parent synthesis is [HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS](synthesis/HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md), blob `b415e3cb9744e0b5b79d7091a57840831fde7e61`.
-
-## Current continuation and limits
-
-[Foundation STATE](../../../../../STATE.md) → [Revision STATE](maintained-information-revision/STATE.md) → INDEX/PLAN. First unfinished stage: M5, then M6 and user evaluation. A qualified-revision leaf is still a hypothesis; rivals and evidence limits remain open. No Selection or descendant is activated. Original same-author/model, target-specific and live-system limitations are unchanged. No architecture, schema, implementation or agent-control mutation follows.
+[Foundation STATE](../../../../../STATE.md) governs current work. Next is evaluation of Revision and M5.1–M5.7. Selection/Exposure remains the separately unresearched Dynamics sibling, recommended after acceptance and separate activation. No automatic descendant, Selection, architecture, implementation or agent-control change follows.
