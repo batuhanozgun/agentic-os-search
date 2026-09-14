@@ -1,6 +1,6 @@
 # Informational Dynamics — CURRENT SURFACES
 
-**Updated:** 2026-09-14. Partial maintenance publication, not research closure.
+**Updated:** 2026-09-14. Maintenance publication, not research closure.
 **Branch:** `maintenance/foundation-continuity-repair-2026-09-14`.
 
 | Path | Git blob SHA |
@@ -17,10 +17,12 @@
 | `OPEN-QUESTIONS.md` | `13739b6a496930eeaa27991cb686c45b315a65aa` |
 | `RESEARCH-PLAN.md` | `02151a9447242fc611e8e3826c88af3bba35bb74` |
 | `STATE.md` | `90e997e0ba0fb12ae866a62f9aa721daa76fc83f` |
-| `derivation-transformation/CURRENT-SURFACES.md` | `83aa21bcee0b72c0f698150ead58d53964897a13` |
-| `formation-acquisition/CURRENT-SURFACES.md` | `377ff00e36dbd89baa938acd8818bfedd4354d9d` |
+| `derivation-transformation/CURRENT-SURFACES.md` | `c2470ccd96fac9aae83dd52d0fae05f422c55699` |
+| `formation-acquisition/CURRENT-SURFACES.md` | `a6f34fc532c1cfb2b52cb95bfa2d5c88b96d4800` |
 | `synthesis/INFORMATIONAL-DYNAMICS-SYNTHESIS.md` | `1c3f3f3c12c7f859c63d79e9d65ef0ae91154a93` |
 
 Dynamics, Formation/F6, Derivation/T6, Re-expression/R6 and Warrant/W6 are accepted at recorded depths. Revision has an open M0–M4 checkpoint; M5/M6 are pending and paused for maintenance. Selection remains unresearched/inactive.
 
-Original N-pass evidence, plans, ledgers, synthesis and scientific checks are preserved. Closed Formation and Re-expression continuation views still need their separately tracked maintenance; their current file identities are bound here without claiming that their global status wording is already repaired. Foundation REPAIR-PUBLICATION.md governs the remaining maintenance. Identity is not independent verification, complete repository health or main publication.
+The Formation binding now reflects its published closed-package repair; Derivation incorporates the repaired Re-expression manifest. Original N-pass evidence, plans, ledgers, synthesis and scientific checks are preserved. Their pass-time labels are historical, not current execution authority.
+
+Foundation STATE and REPAIR-PUBLICATION.md govern global work and the remaining audit. These exact bindings do not independently verify the research, recursively validate every linked manifest, establish complete repository health or publish to main.
