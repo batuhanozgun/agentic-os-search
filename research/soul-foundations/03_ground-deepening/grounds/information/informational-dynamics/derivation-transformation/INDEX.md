@@ -1,20 +1,17 @@
 # Derivation / Transformation — INDEX
 
-Read STATE.md first. The parent/T6 and Re-expression/R6 are accepted. Warrant W0–W7 propose a bounded leaf and await evaluation. Revision and Selection have no dedicated pass and remain inactive.
+Read [STATE](STATE.md), then [Foundation STATE](../../../../../STATE.md). Parent/T6, Re-expression/R6 and Warrant/W6 are accepted. Revision has a preserved M0–M4 checkpoint; M5/M6 pending. Selection remains unresearched/inactive.
 
 | Need | Route |
 |---|---|
-| Current Warrant result | inferential-construction-claim-warrant/STATE.md → INDEX/KEY → FINDINGS-MAP → synthesis |
-| Warrant strongest split / exact refinements / limits | child W4 → W6 → W7 |
-| Accepted Re-expression and exact original evidence | re-expression-semantic-transfer/STATE.md → INDEX → current/exact historical synthesis/R6/R7 |
-| Parent acceptance and compact structure | STATE.md → KEY.md |
-| Parent topic-to-evidence route | FINDINGS-MAP.md |
-| Accepted parent orientation and original synthesis | synthesis/DERIVATION-TRANSFORMATION-SYNTHESIS.md → HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md |
-| Original three-child discovery and parent refinements | T4-RIVAL-DECOMPOSITIONS-AND-BOUNDARIES.md → T6-SYNTHESIS-CHILD-DECISION.md |
-| Original claim, transfer, inference and revision probes | T1–T3 through FINDINGS-MAP |
-| Original sources/checks and limits | SOURCE-LEDGER.md; T7-ADVERSARIAL-CLOSURE.md; checks/ |
-| Remaining dedicated work and conditional reopening | OPEN-QUESTIONS.md; DEFERRED-RELATIONS.md |
-| Current continuation | NEXT-RESEARCH-HANDOFF.md |
-| Exact current identities | CURRENT-SURFACES.md |
+| Unfinished Revision and full continuation contract | [Revision INDEX](maintained-information-revision/INDEX.md) |
+| Accepted Warrant/W6 | [Warrant INDEX](inferential-construction-claim-warrant/INDEX.md) |
+| Accepted Re-expression/R6 | [Re-expression INDEX](re-expression-semantic-transfer/INDEX.md) |
+| Parent orientation and source | [Current synthesis](synthesis/DERIVATION-TRANSFORMATION-SYNTHESIS.md) → [exact original synthesis](synthesis/HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md) |
+| Original discovery and exact parent refinements | [T4](T4-RIVAL-DECOMPOSITIONS-AND-BOUNDARIES.md) → [T6](T6-SYNTHESIS-CHILD-DECISION.md) |
+| Original transfer, inference and revision probes | [FINDINGS-MAP](FINDINGS-MAP.md) → T1–T3 |
+| Original source/check limits | [SOURCE-LEDGER](SOURCE-LEDGER.md); [T7](T7-ADVERSARIAL-CLOSURE.md); checks/ |
+| Residuals and executed handoffs | [OPEN-QUESTIONS](OPEN-QUESTIONS.md); [NEXT-RESEARCH-HANDOFF](NEXT-RESEARCH-HANDOFF.md) |
+| File identities | [CURRENT-SURFACES](CURRENT-SURFACES.md) |
 
-Original pass labels are historical, not current authority. Parent probes do not complete descendants. Warrant's boundary examples do not complete Revision or Selection. No automatic successor or implementation follows.
+Original pass labels are historical. Parent probes and Warrant boundary examples do not complete Revision or Selection. No automatic successor or implementation.
