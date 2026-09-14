@@ -1,4 +1,4 @@
-"""Bounded M5 checks. Python 3.10+, standard library, no network or repository writes.
+"""Bounded M5 checks. Python 3.10+, standard library, no network or remote repository writes.
 Run directly; writes RESULT.json beside this file, including failures, and exits nonzero.
 Sources and pre-execution expectations are in SPEC.md. Not a hierarchy oracle.
 """
