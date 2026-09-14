@@ -1,6 +1,6 @@
 # Derivation / Transformation — CURRENT SURFACES
 
-**Updated:** 2026-09-14. Partial maintenance publication, not research closure.
+**Updated:** 2026-09-14. Maintenance publication, not research closure.
 **Branch:** `maintenance/foundation-continuity-repair-2026-09-14`.
 
 | Path | Git blob SHA |
@@ -27,12 +27,12 @@
 | `checks/derivation_checks.py` | `ea2ce35dfca7a0bf26a8116e27998e9d8575db8c` |
 | `inferential-construction-claim-warrant/CURRENT-SURFACES.md` | `75f134fc6fa1e01e793571f2b6248fbcccc5744e` |
 | `maintained-information-revision/CURRENT-SURFACES.md` | `cdedfb3df2ad3c1fc64e3e70f0cc72e99631b71d` |
-| `re-expression-semantic-transfer/CURRENT-SURFACES.md` | `76498cd85f8366f4ad3017cebc9094fb1d4a9597` |
+| `re-expression-semantic-transfer/CURRENT-SURFACES.md` | `af07571ad1d344f7278d6954b47a2a68ec6ce11e` |
 | `synthesis/DERIVATION-TRANSFORMATION-SYNTHESIS.md` | `6b8d17fac57bc98b7ce4d59eef0b88babb5baa9b` |
 | `synthesis/HISTORICAL-DERIVATION-TRANSFORMATION-SYNTHESIS.md` | `b415e3cb9744e0b5b79d7091a57840831fde7e61` |
 
 Parent/T6, Re-expression/R6 and Warrant/W6 are accepted. Revision is an open M0–M4 checkpoint with M5/M6 pending; research execution is paused for maintenance. Selection remains unresearched/inactive. No new child result is accepted.
 
-Original T-passes, PLAN, SOURCE-LEDGER, scientific checks and historical synthesis remain bound at their original identities. Current views are navigation and acceptance updates, not replacement evidence or independent validation. The child manifests refer to actual published branch files, not the earlier uncommitted repair archive.
+Original T-passes, PLAN, SOURCE-LEDGER, scientific checks and historical synthesis retain their original identities. The Re-expression manifest binding now reflects its published closed-package continuity repair. Current views are navigation and acceptance updates, not replacement evidence or independent validation.
 
-This manifest does not certify complete repository health or main publication. Other affected packages remain tracked by Foundation REPAIR-PUBLICATION.md; no automatic merge, research continuation or implementation follows.
+The child bindings describe the actual maintenance branch, not the old candidate archive. This manifest does not certify complete repository health, recursive validation of every linked package or main publication. Foundation REPAIR-PUBLICATION.md carries the remaining audit; no automatic merge, research continuation or implementation follows.
