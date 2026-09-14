@@ -1,9 +1,9 @@
 # Information / Representation — STATE
 
-**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
-
+**Updated:** 2026-09-14
 **Parent/State/Dynamics, Formation/F6, Derivation/T6, Re-expression/R6, Warrant/W6:** ACCEPTED at recorded depths.
-**Revision:** OPEN / M0–M4 CHECKPOINT / M5–M6 PENDING; execution paused for maintenance.
+**Revision:** bounded M0–M6 assessment complete; proposed leaf and seven M5 refinements awaiting evaluation.
+**Current substantive activity:** NONE; publication/readback and evaluation are separate from new research.
 
 ```text
 Information / Representation [accepted parent]
@@ -13,12 +13,14 @@ Information / Representation [accepted parent]
    ├─ Derivation / Transformation [accepted three-child parent]
    │  ├─ Re-expression / Semantic Transfer [accepted leaf]
    │  ├─ Inferential Construction / Claim Warrant [accepted leaf; W6 accepted]
-   │  └─ Maintained-Information Revision [M0–M4 checkpoint; M5/M6 pending]
+   │  └─ Maintained-Information Revision [proposed leaf; M5.1–M5.7 evaluation pending]
    └─ Selection / Exposure [no dedicated pass; inactive]
 ```
 
 Records remains a persistence profile across State/Dynamics; Context remains a working representation plus selection/exposure and use relations. Parent acceptance does not recursively complete descendants.
 
-Actual referent, representation, source authority, evidence sufficiency and permission remain distinct. Warrant's exact W6 refinements are accepted, not new proposals awaiting evaluation. Revision's current leading leaf hypothesis and analyses are not yet a final result or accepted parent refinement.
+Actual referent, representation, source authority, evidence sufficiency and permission remain distinct. Warrant's W6 refinements are accepted. Revision now has an integrated proposed result, not merely the earlier M0–M4 checkpoint. Its support-maintenance/successor-selection rival remains open to reversal; its seven proposed refinements do not alter the accepted parent before evaluation.
 
-Current continuation: [Foundation STATE](../../../STATE.md) → [Revision STATE](informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md). No M5/M6 research was performed by this repair; Selection remains a separate unresearched question. Original N/F/T/R/W/M analyses, source histories and tests are preserved. File identity and acceptance do not establish independent replication or live SOUL/LLM efficacy. No automatic architecture or implementation follows.
+Current route: [Foundation STATE](../../../STATE.md) → [Revision STATE](informational-dynamics/derivation-transformation/maintained-information-revision/STATE.md) → INDEX/M5/M6. [Revision PUBLICATION](informational-dynamics/derivation-transformation/maintained-information-revision/PUBLICATION.md) carries the actual canonical readback boundary. After that publication, evaluate the result; do not restart M5 from maintenance-time labels.
+
+Selection remains separately unresearched/inactive, recommended only after evaluation and separate activation. Original N/F/T/R/W/M evidence and scientific files are preserved. File identity, repeat execution and acceptance do not establish independent replication or live SOUL/LLM efficacy. No automatic successor, architecture or implementation follows.
