@@ -16,7 +16,8 @@ Read [STATE](STATE.md). W0–W7 are complete; the bounded leaf and seven W6 refi
 | Exact accepted refinements | [W6](W6-SYNTHESIS-DECISION-AND-PARENT-DELTA.md) |
 | Original executed evidence and audit limits | [W7](W7-ADVERSARIAL-CLOSURE-AND-EXECUTION.md); checks/ |
 | Residuals and interfaces | [OPEN-QUESTIONS](OPEN-QUESTIONS.md); [DEFERRED-RELATIONS](DEFERRED-RELATIONS.md) |
-| Executed Revision entry and full recovery contract | [NEXT-RESEARCH-HANDOFF](NEXT-RESEARCH-HANDOFF.md) |
+| Executed Revision entry and recovery contract | [NEXT-RESEARCH-HANDOFF](NEXT-RESEARCH-HANDOFF.md) |
+| Successor's current result and gate | [Revision STATE](../maintained-information-revision/STATE.md) → INDEX/PUBLICATION |
 | File bindings | [CURRENT-SURFACES](CURRENT-SURFACES.md) |
 
-Overall work and authorization: [Foundation STATE](../../../../../../STATE.md). This closed package is not a live next-work queue. Its executed handoffs and pass-time pending labels are historical; they cannot restart a completed pass. Revision M0–M4 is preserved; M5/M6 is pending, not executed by this maintenance turn. Selection remains unresearched/inactive.
+[Foundation STATE](../../../../../../STATE.md) owns overall work. This closed package does not duplicate Revision's rolling stage queue. Older M0–M4-only/M5-pending wording is superseded by the successor's actual result. Warrant acceptance does not accept later results, complete Selection or authorize a new pass. Original W evidence remains unchanged.
