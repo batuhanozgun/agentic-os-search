@@ -1,22 +1,27 @@
-# Next Handoff — Maintained-Information Revision / Reliance Change (Inactive)
+# Revision Handoff — Entry Executed / M5–M6 Still Open
 
-**Date:** 2026-09-12  
-**Status:** recommendation and recovery route, not activation authority.
+**Continuity checkpoint:** 2026-09-14. Repository maintenance only; no new research finding.
 
-## Gate
+## Authority and exact handoff
 
-Read Foundation STATE/INDEX and current Derivation STATE first. Re-expression/R6 are accepted. Warrant W0–W7 propose one leaf and W6 refinements; those await user evaluation. Revision is the strongest next recommendation, but Selection remains a separately unresearched Dynamics sibling. No successor is authorized by this handoff alone.
+Read [Foundation STATE](../../../../../../STATE.md) first. Warrant and seven W6 refinements are accepted. Revision was activated by `2a8ff5489e32d8102368ebf11f0f9f286b32863f`; its M0–M4 checkpoint was published at `e800db333ce3fd89a0534c49d872270335a53af2`. The original 2026-09-12 inactive handoff remains recoverable at that input commit, blob `a80f02d65b652ba7ccfa09da9261d02c3b8e2841`.
 
-## Required recovery after explicit activation
+The entry has already been executed. Continue from [Revision STATE](../maintained-information-revision/STATE.md) → [INDEX](../maintained-information-revision/INDEX.md) → [PLAN](../maintained-information-revision/PLAN.md), not from a fictitious unstarted pass. The current user turn is maintenance only; M5/M6 are not run here. The earlier bounded research authorization is preserved for a subsequent continuation request.
 
-Read full current Warrant STATE/KEY/synthesis/W3/W4/W6/W7 and SOURCE-LEDGER; Derivation STATE/INDEX/KEY, original integrated synthesis/T3/T4/T6/T7 and source ledger. Recover accepted Re-expression STATE/R6 and relevant transfer/currentness boundaries; Formation STATE/F2/F6; State sibling STATE/KEY/FINDINGS-MAP; current Dynamics STATE/INDEX and original N3/N4/N6/N7; hierarchical method. Recover the current Records CHANGE-TIME-STANDING result and its precise deeper evidence when revision/history claims depend on it. Use accepted Binding/Standing/Control/Propagation/causal routes where authority, actual change or effect claims become material. Candidate catalog → selected META → relevant evidence; unstable external claims need fresh primary checks.
+## Full recovery contract for research continuation
 
-Parent Derivation is `../`; Formation is `../../formation-acquisition/`; State sibling is `../../../informational-state/`; overall Foundation is `../../../../../../STATE.md`. Follow canonical routers rather than guessing a missing filename.
+Recover current Foundation STATE/INDEX and the complete Revision STATE/INDEX/PLAN, M0–M4, SOURCE-LEDGER and checks/SPEC/code/RESULT. A prior session's reading claim is not a fresh full read.
 
-## Starting question
+Read full Warrant STATE/KEY, original synthesis, W3/W4/W6/W7 and SOURCE-LEDGER. Read Derivation STATE/INDEX/KEY, original historical synthesis, T3/T4/T6/T7 and SOURCE-LEDGER. Recover accepted Re-expression STATE/R6 and material transfer/currentness boundaries; Formation STATE/F2/F6; State sibling STATE/KEY/FINDINGS-MAP; current Dynamics STATE/INDEX and original N3/N4/N6/N7; and the hierarchical method.
 
-How does a continuing informational state or reliance designation retain, withdraw, correct or replace content/support under a new basis, while preserving material identity, alternatives, temporal meaning and history? Do not assume latest-wins, deletion-as-negation, one generic update, append-only storage, a universal belief-revision policy, or a leaf result. A defeated reason does not necessarily refute the claim; another support can survive. A supported new conclusion or computed proposal does not establish that the intended revision was applied or propagated.
+For history/revision claims, use Records STATE/INDEX → current CHANGE-TIME-STANDING → precise countercheck/source ledger. For authority, actual change, propagation or causal claims, use accepted Binding/Standing/Control/Propagation/causal routes through Composition INDEX. Candidate catalog → selected META → relevant evidence only when material; unstable external claims require fresh primary checks. These are existing source-depth requirements, not a new research phase.
 
-## Return condition
+Paths: parent Derivation `../`; Formation `../../formation-acquisition/`; State sibling `../../../informational-state/`; Foundation `../../../../../../`. Follow actual routers for deeper filenames rather than guessing.
 
-Complete one bounded dedicated pass, challenge split/merge rivals, preserve uncertainty and source extent, publish coherent current authority and return for evaluation. Do not automatically start Selection, descendants, architecture, schema, implementation or agent-control changes. Whole Foundation is not complete merely because a parent is accepted.
+## Starting question and unfinished work
+
+How does continuing informational state or reliance retain, withdraw, correct or replace content/support under a new basis, preserving material identity, alternatives, temporal meaning and history? Do not assume latest-wins, deletion-as-negation, generic overwrite, append-only storage, a universal revision policy or a leaf result.
+
+M1–M4 already analyze and test these questions. M5 must compare the leading leaf with the strongest support-maintenance/successor-selection rival, audit omissions and derive any precise parent delta. M6 publishes the bounded result, evidence, residuals and coherent current identities, then returns for user evaluation. Preserve an honest partial result if closure is not justified.
+
+Do not activate Selection, descendants, architecture, schema, implementation or agent-control changes. Parent acceptance is not recursive completion, and maintenance success does not strengthen research evidence.
