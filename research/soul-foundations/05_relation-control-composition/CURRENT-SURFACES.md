@@ -18,7 +18,7 @@
 | `PLAN.md` | `bc866966be4d1410839ea8ae85901c3a4eb7372f` |
 | `FINDINGS-MAP.md` | `b98253dd32aa06ae5761770a4400dc208e15a7b6` |
 | `synthesis/COMPOSITION-PARENT-SYNTHESIS.md` | `f4a36ddaf6a711efd2939a3f423313e5af8c3530` |
-| `../06_integration-frontier-review/CURRENT-SURFACES.md` | `335fc2c796fcf999fd056c1b681755265f5ab187` |
+| `../06_integration-frontier-review/CURRENT-SURFACES.md` | `a6cd6571e2e2d508fc213a3312fbb6d9f1d39dfa` |
 
 The four local continuation views and the integration-review manifest are refreshed. Unchanged descendant manifests retain their prior checkpoint scopes; binding their content does not recursively certify their embedded upstream hashes or old external work labels. The parent plan, findings map and synthesis remain original pass artifacts qualified by current STATE and descendant results.
 
