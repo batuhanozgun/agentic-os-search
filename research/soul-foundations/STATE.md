@@ -1,15 +1,15 @@
 # SOUL Foundations — STATE
 
 **Updated:** 2026-09-14
-**Current activity:** INCREMENTAL REPOSITORY REPAIR; RESEARCH PAUSED
-**Publication status:** PARTIAL REVIEW-BRANCH REPAIR; NOT READY TO MERGE
+**Current activity:** REPOSITORY MAINTENANCE CLOSURE / USER REVIEW; RESEARCH PAUSED
+**Publication status:** REVIEW BRANCH ONLY; MAIN MERGE NOT AUTHORIZED OR PERFORMED
 **Open research pass:** Maintained-Information Revision, M0–M4 preserved; M5/M6 pending
 
 ## Current authority and scope
 
-The latest user direction prioritizes repository health and authorizes smaller, separately published repair increments. Work is on `maintenance/foundation-continuity-repair-2026-09-14`, based on main `e800db333ce3fd89a0534c49d872270335a53af2`. This review-branch state does not claim that canonical main has changed. No merge or new research phase is performed by these increments.
+The latest user direction continues the repository repair and its integrated audit. Work is on `maintenance/foundation-continuity-repair-2026-09-14`, based on main `e800db333ce3fd89a0534c49d872270335a53af2`. This review-branch state does not claim that canonical main has changed. A successful upload or a technically mergeable PR is not user acceptance or permission to merge.
 
-Warrant's bounded leaf and seven W6 refinements were already accepted, as recorded at entry commit `2a8ff5489e32d8102368ebf11f0f9f286b32863f`. That acceptance and the prior authorization for one bounded Revision pass are preserved. The maintenance-only direction pauses research execution; it does not reopen Warrant or pre-accept Revision.
+Warrant's bounded leaf and seven W6 refinements were already accepted, as recorded at entry commit `2a8ff5489e32d8102368ebf11f0f9f286b32863f`. That acceptance and the prior authorization for one bounded Revision pass are preserved. The maintenance direction pauses research execution; it does not reopen Warrant or pre-accept Revision.
 
 ## Exact research frontier
 
@@ -25,11 +25,13 @@ Information [accepted parent]
    └─ Selection / Exposure [no dedicated pass; inactive]
 ```
 
-## Current next work: finish repository repair
+## Current next responsibility
 
-[REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) is the maintenance handoff for actual published groups, exact checkpoints, verification scope and remaining duties. Use its current list rather than keeping another rolling group queue in this root state. Older closed-package continuation views and affected manifests still require maintenance; this branch is not a completed repair.
+Read [REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) for the actual publication checkpoint, final readback status and any remaining blocker, then [REPAIR-AUDIT](REPAIR-AUDIT.md) for the bounded assessment and its limits. These maintenance records distinguish completed uploads, corrected audit findings and checks that were not performed. They do not certify every archival path or source claim.
 
-Reconcile actual branch files with the older candidate archives. Do not inherit obsolete archive publication statements or claim whole-repository health from a local package's successful publication. This root state governs current acceptance and work; stale subordinate labels do not restart completed passes. Complete the remaining repair and cross-surface review before returning for evaluation of any main merge.
+Return the completed bounded assessment for user evaluation. Do not restart already published groups as missing uploads, apply the old candidate archives over later commits, or expand maintenance into research. If a new material defect or concurrent branch change is found, reconcile the exact affected scope and record it before claiming readiness.
+
+A main merge and canonical readback require separate user authorization. Research remains paused even if the repair assessment is favorable; accepting maintenance is not accepting a new Revision result.
 
 ## Next logical research, not executed here
 
@@ -39,4 +41,6 @@ Reconcile actual branch files with the older candidate archives. Do not inherit 
 
 Environment, Work, Actors, Information, four-ground adequacy, Composition and promoted descendants, Returned Influence, Persistent Adaptation and the integration/frontier review remain accepted at their recorded depths. Parent acceptance is not recursive completion; whole Foundation remains incomplete.
 
-Original Revision PLAN/M0–M4/SOURCE-LEDGER/checks and original Warrant research/synthesis/checks remain unchanged. Their source-depth, same-author/model, live-system and independent-verification limits remain. Earlier failed replies and publication blocks have no verified technical cause. Review the completed repair and verify actual main after a separately authorized merge before declaring canonical publication complete.
+Original research passes, source ledgers, research plans, historical syntheses and scientific checks remain protected. Repaired current views carry acceptance and navigation; original pass-time proposals and historical upstream bindings are not today's work queue. Source-depth, same-author/model, live-system and independent-verification limits remain.
+
+The maintenance assessment is a bounded same-assistant review with GitHub readback, not full-checkout automated validation or independent scientific replication. Earlier publication blocks have no verified technical cause. Verify actual main after a separately authorized merge before declaring canonical publication complete.
