@@ -1,27 +1,25 @@
 # Selection / Exposure — Open questions and reversal conditions
 
-**Date:** 2026-09-14. Two-question parent and S5.1–S5.5 are proposed, not accepted.
+**Updated:** 2026-09-15. Parent/S5.1–S5.5 accepted; dedicated child research does not erase these conditions.
 
-## Structural conditions
+## Structure
 
-The rich-leaf rival remains credible. Reconsider the split if explicit facet routes retain both adequacy and availability with less duplication and no hidden research duty. Reconsider exposure if its dedicated inquiry reduces entirely to generic Work realization, source Formation or cross-ground Propagation. Conversely, promote a new question only if a materially different case exposes a stable first-order outcome not preserved by the current two-question map.
+The rich-leaf rival remains credible. Reconsider the split if explicit facet routes retain adequacy and availability with less duplication and no hidden inquiry. Reconsider Exposure if its dedicated question reduces entirely to generic Work realization, Formation or Propagation. A third question requires a stable first-order outcome, not merely different terminology.
 
-E06 demonstrates independence in a stipulated finite setting, not superiority of two document branches. S4's distinction between need-to-view fitness and information-to-consumer availability is a same-assistant organizational judgment. It needs continued boundary pressure in dedicated child passes; no universal uniqueness claim survives by default.
+Parent E06 establishes finite independence, not a superior document hierarchy. S4 remains a same-assistant organizational judgment. The open [Use-conditioned child](use-conditioned-selection-set-adequacy/STATE.md) can challenge the promised usefulness of the split; its findings are not automatically accepted parent changes.
 
-## Selection-local unknowns
+## Selection and evidence
 
-An actual task must establish or explicitly bound its information need, candidate universe, source independence, relevance labels, complementary requirements, permissible omissions and budget. The examples do not discover these values. A high recall score against a limited judgment set does not certify coverage of unknown sources. Need evolution and exploratory discovery were source-informed but not behaviorally evaluated here.
+Actual tasks must establish or bound their information need, candidate universe, source independence, relevance, complementary requirements, permitted omissions and budget. Neither known-source recall nor a mathematically optimal selector establishes that all material sources or requirements were discovered. Real utility, risk and interpretation remain target-specific.
 
-No general optimum for relevance/diversity, stopping, uncertainty reduction, query refinement or context length is supplied. Mechanisms and human/model capabilities can change. Concrete adoption needs fresh task-specific tests rather than reuse of historical-model observations as current performance guarantees.
+The child's current checkpoint additionally distinguishes fixed bundles and contingent policies, present decision sufficiency and later uses. Its finite cases do not establish natural-language adequacy, adaptive need discovery or live efficacy. Follow its STATE for exact remaining work rather than treating this list as another execution queue.
 
-## Exposure-local unknowns
+## Exposure
 
-The intended endpoint may require reachable references, actual bytes, a rendered view or inclusion in an invocation. Define which. Unknown paths, recipient identity, access conditions, dependency versions, cache behavior and time can invalidate a stronger exposure claim. Receipt does not establish attention, comprehension, accepted reliance or action.
+Define the endpoint: reachable reference, actual bytes, rendered view or invocation input. Unknown recipient identity, paths, access, versions, caches and timing can defeat a stronger availability claim. Receipt is not attention, comprehension, accepted reliance or action. No real network, permission service or LLM context was exercised in the parent pass; its JSON/ASCII examples are not standard conformance.
 
-No real network, permission service, persistent index, distributed snapshot or LLM context was exercised. Our local serialization and ASCII examples do not establish conformance or semantic completeness. Source availability and output rendering attempts had their recorded access limits.
+## Scope and authority
 
-## Cross-boundary unknowns and authority
+Infeasibility is relative to the allowed candidates, constraints and method family. Changing source creation, access, budget or the goal requires legitimate authority. Historical/restricted views can be correct; maximal freshness, disclosure and retention are not universal obligations.
 
-If an adequate permitted set is infeasible, changing access, budget, source creation or the goal requires its own legitimate decision. The analysis does not grant that authority. Deliberate historical or restricted views can be correct; maximal freshness, disclosure or retention is not universally required.
-
-The parent is submitted for evaluation. No child is active, no new runtime/architecture/schema is adopted, and no agent-control change is authorized. Current work comes from STATE and Foundation STATE, not from treating this residual list as an automatic queue.
+The parent and its original publication are complete; only the use-conditioned child is open. Exposure remains inactive. Acceptance does not resolve source limits or create independent scientific validation. [STATE](STATE.md) and Foundation STATE govern work; no automatic sibling, descendant, architecture, schema, implementation or agent-control mutation.
