@@ -1,6 +1,6 @@
 # Use-conditioned selection — Residuals and reopening
 
-**Date:** 2026-09-15. Proposed bounded leaf and U5.1–U5.6 await evaluation.
+**Updated:** 2026-09-15. Bounded leaf and U5.1–U5.6 accepted; residual evidence and structural limits remain.
 
 ## Structural reversal conditions
 
@@ -22,6 +22,6 @@ Work/Actors/Control retain goal authorization, decision rights, responsibilities
 
 Exposure retains whether specified information is actually available to the intended consumer at the required endpoint. Re-expression retains meaning transfer and interpretation resources. Revision retains continuing-state change; Records retains future recoverability and disposition. A present-use selection verdict does not authorize deletion of unselected research or guarantee indefinite future utility.
 
-## Current gate
+## Current authority
 
-[STATE](STATE.md), [PUBLICATION](PUBLICATION.md) and Foundation STATE govern assessment, actual publication and authorization. After coherent publication return the proposed leaf and six refinements. Only subsequent acceptance and explicit continuation can activate Exposure. No new descendant, architecture, schema, implementation or agent-control change follows from this residual list.
+[STATE](STATE.md) records the user's acceptance and executed sibling handoff. The original [PUBLICATION](PUBLICATION.md) retains its completed publication checkpoint; its former approval gate is historical. [Exposure STATE](../consumer-relative-exposure-availability/STATE.md) owns that sibling's actual result and publication, and [Foundation STATE](../../../../../../STATE.md) governs global work. Do not request U5 acceptance again or infer a later successor from this residual list. No new descendant, architecture, schema, implementation or agent-control change follows.
