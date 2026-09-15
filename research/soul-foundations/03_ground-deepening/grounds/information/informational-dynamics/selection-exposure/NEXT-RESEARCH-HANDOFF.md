@@ -1,19 +1,21 @@
-# Selection / Exposure — Executed first-child handoff
+# Selection / Exposure — Executed child handoffs and next gate
 
-**Updated:** 2026-09-15. Parent/S5.1–S5.5 accepted; first-child handoff executed.
+**Updated:** 2026-09-15. Parent/S5 and use-conditioned leaf/U5 accepted. Both child-entry handoffs have been executed; no successor is active.
 
-The user accepted the parent and authorized Use-Conditioned Selection / Set Adequacy. Its [STATE](use-conditioned-selection-set-adequacy/STATE.md) → INDEX owns the current assessment, publication and evaluation. Do not request parent approval again, recreate the child or repeat completed units from an old entry checkpoint. The child now has its own inactive NEXT-RESEARCH-HANDOFF; that recommendation is not activation of Exposure.
+The use-conditioned U0–U6 result and six refinements were accepted by the user. The user then authorized Exposure. [Exposure STATE](consumer-relative-exposure-availability/STATE.md) → INDEX/PUBLICATION owns its proposed result, actual readback and evaluation gate. Do not request prior approvals, recreate either child or repeat completed research from a preserved checkpoint label.
 
-## Original recovery contract
+## Recovery contract retained
 
-The original entry required Foundation/parent STATE/INDEX and full parent PLAN/S1–S6/SOURCE-LEDGER/OPEN-QUESTIONS/SPEC/script/results unless literal unchanged canonical full reads were already available. S2 contains late P7 pressure, S3 execution and S4 the strongest parent rivals. A short handoff is not the evidence.
+Recover current Foundation, Dynamics, parent and relevant child STATE/INDEX in full. Original parent PLAN/S1–S6/SOURCE-LEDGER/OPEN-QUESTIONS/SPEC/script/results remain the parent evidence when not already available as literal unchanged full canonical reads. S2 contains late P7 pressure, S3 execution and S4 the strongest parent rivals. The children have separate source/check records; a short handoff is not their evidence.
 
-Relevant inherited boundaries remain in Dynamics N3/N4/N6/N7, Formation F2/F4/F6, State KEY/map, accepted Revision M5 and current Records ORGANISATION-RETRIEVAL. Retrieve them at the source depth material to the actual next question. Candidate catalog/META is screening, not authority or an adopted study taxonomy.
+Relevant inherited boundaries remain in Dynamics N3/N4/N6/N7, Formation F2/F4/F6, State KEY/map, accepted Revision M5 and current Records ORGANISATION-RETRIEVAL. Retrieve original material at the source depth required by the actual question. Candidate catalog/META screens possible contributions, not taxonomy authority or architecture adoption.
 
-The first child has completed its U4–U6 bounded assessment and proposes a leaf/six refinements. Its original U4-unfinished records are history. Read the child PUBLICATION for actual readback and STATE for evaluation. Completing analysis does not accept the result; later successor authority must come from the user and current Foundation STATE.
+## Exact next boundary
 
-## Preserved protected scope
+Exposure's leaf/E5.1–E5.5 await user evaluation after its bounded publication. [Exposure NEXT-RESEARCH-HANDOFF](consumer-relative-exposure-availability/NEXT-RESEARCH-HANDOFF.md) recommends a focused parent/subtree integration and completion-depth review only after acceptance and explicit continuation. It specifies recovery of prior integration/frontier evidence and accepted child refinements. That review has not been performed or activated by this synchronization.
 
-Distinguish need from proxy, known candidates from intended universe, relevance from use-specific adequacy, fixed-bundle feasibility from a larger strategy family, and evolving inquiry from goal substitution. Current selection is not future disposition. Conditional findings can be useful later without every document entering every active context.
+## Protected scope
 
-Availability, interpretation, claim warrant, actor behavior and authority remain separate. No universal utility metric, context size, top-k, graph, embedding system, Exposure pass, architecture, implementation or agent-control change follows automatically.
+Preserve need/proxy, candidate/universe, relevance/adequacy, fixed-bundle/contingent-policy and inquiry/goal distinctions. Current selection is not future disposition. Conditional findings can be valuable later without the whole archive entering each task.
+
+For availability, preserve target/consumer/mode, temporal and actionable conditions, observation scope, retained views and representation support. Availability, semantic fidelity, understanding, claim warrant, actor behavior and authority remain separate. No universal utility metric, context size, top-k, graph, embedding system, architecture, implementation or agent-control change follows automatically. Whole Foundation completion is not implied by these two child assessments.
