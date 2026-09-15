@@ -1,49 +1,51 @@
 # Harness Engineering and Evolution — STATE
 
-**Updated:** 2026-09-15. **Status:** ACTIVE / PARTIAL. **Last bounded unit:** U02-B, video responsibilities 7–10 and separate evolution loop. **Plan:** v0.5.
+**Updated:** 2026-09-15. **Status:** ACTIVE / PARTIAL. **Last bounded unit:** U03-A, classification experiment/comparator audit. **Plan:** v0.6. U03 as a whole remains incomplete.
 
 ## Authority and scope
 
-Batu requested deep, staged, revisable research of the video and Meta-Harness paper, keeping SOUL/Development OS in view without execution bias. The earlier continuation grant remains. After approving The Carbon Layer collection and being advised to continue this existing video, Batu supplied its MP4 and English SRT in this conversation. This resumes the known U02-B path; it is not independent scientific verification, a second-video selection or an adoption grant.
+Batu requested deep, staged, revisable research of the video and separate Meta-Harness paper, keeping SOUL/Development OS in view without execution bias. After U02-B was returned, Batu explicitly authorized: “başlayabilirsin U03'e.” The first bounded family selected was classification. This authorization is not scientific verification, a second-video selection or adoption.
 
-Write scope: this package, minimal studies discovery updates, and the authorized channel collection's affected continuity records. The collection routes to this package; it does not take over this study's state. Do not change Foundation, other studies' substantive research, soul-context, DevOS, explorations, AGENT or agent protocols. No development dispatch, installation, credentials, paid provider/benchmark work or deployment follows from source examples. Safe probes require their own exact source, fixture, oracle and side-effect boundaries.
+Write scope remains this package, minimal studies discovery updates and the authorized channel collection's affected continuity. The collection routes here; it does not own this campaign's completion. Do not change Foundation, other studies' substantive research, soul-context, DevOS, explorations, AGENT or agent protocols. No development dispatch, installation, credentials, paid provider/benchmark work or deployment follows from source examples. Safe probes require exact source, fixture, oracle and side-effect boundaries.
 
-## Preserved results and limits
+## Preserved work and limits
 
-U00 intake, U01-A classification characterization, U01-B TerminalBench optimizer/selected-agent characterization and U02-A responsibilities 1–6 remain complete at their recorded depths. Original Notes01–10, WHY, METHOD, BRIDGE, source/media ledgers and prior evidence are preserved.
+U00 intake, U01-A classification source characterization, U01-B TerminalBench optimizer/selected-artifact characterization and U02-A/B video responsibilities remain complete at their recorded depths. Original Notes01–12, WHY, METHOD, BRIDGE, source/media ledgers and earlier evidence are preserved.
 
-U01-A P01–P07 remain unexecuted. U01-B's eight diagnostic groups and five negative controls retain their source-excerpt/fake-command limitations; none was rerun or upgraded. Full-parent-file verification, first-party suites, live models, remote environments, historical experiments, transfer and independent replication remain open.
+U01-A P01–P07 remain unexecuted. U01-B's eight diagnostic groups and five negative controls retain their copied-source/fake-command limits; none was rerun or upgraded. Full-parent-file verification, first-party suites, live models, historical experiment reconstruction, transfer and independent replication remain open.
 
-U02-A's instruction loading, delivered context, tool/executor and durable-replay findings remain documentary/analytical. Its twelve selected media frames and documentation reads are not runtime tests. Historical permission versus current effect authority remains an analytical distinction, not a demonstrated upstream defect.
+U02-A/B are documentary/analytical responsibility studies, not new agent/hook/skill/evaluator/sandbox tests. Notes08–12 cover ten video responsibilities and a separate evolution loop. U02-B's 714-cue SRT read and thirteen selected MP4 frames do not establish continuous viewing, native caption provenance, elementary-stream equivalence or full audio alignment. The MP4/SRT were supplied in this conversation but are not repository-persisted bytes.
 
-## U02-B result
+## U03-A result
 
-Read [Note11](notes/11-ORCHESTRATION-DELEGATION-AND-PROCEDURES.md) and [Note12](notes/12-VERIFICATION-OBSERVABILITY-AND-QUALIFIED-EVOLUTION.md), with [SOURCES](evidence/2026-09-15-u02b-coordination/SOURCES.md), [REVIEW](evidence/2026-09-15-u02b-coordination/REVIEW-AND-LIMITS.md) and [MEDIA](evidence/2026-09-15-u02b-coordination/MEDIA-READING.json).
+Read [Note13](notes/13-CLASSIFICATION-EXPERIMENT-AND-COMPARATOR-AUDIT.md), [SOURCES](evidence/2026-09-15-u03a-classification/SOURCES.md), [REVIEW](evidence/2026-09-15-u03a-classification/REVIEW-AND-LIMITS.md) and [ARITHMETIC](evidence/2026-09-15-u03a-classification/ARITHMETIC.json).
 
-The remaining responsibilities now have native purpose, ownership/transfer, primary grounding, useful conditions and adverse cases. The unit distinguishes lifecycle timing from effect control, manager/delegate from conversation handoff, actual worker context from assumed specialization, procedure from outcome evidence, trace from causal diagnosis, and candidate repair from accepted change. One analytical path connects delegated repair work, exact-artifact checks, failed integration and a possible maintained lesson.
+The unit separates selected-harness test quality, optimizer search outcomes and transfer/causal claims. Reported classification gains remain positive but comparator- and task-dependent. The large additional-context reduction is relative to ACE, not every simpler baseline. OOD evaluation includes losses and a tied best result. Search-set outcomes and candidate counts are not independent repeated experiments.
 
-The final diagnostic slide is preserved as a hypothesis generator rather than a unique symptom-to-cause mapping. Its wording differs in strength from the surrounding subtitles. The companion article's grouping of evolution also differs from the video's separate loop. The author's own cautions are attributed to the author, not claimed as new discoveries.
+Selected primary reads recover MCE's learned skills/executable context and GEPA's trace-based reflection, preventing their reduction to static or scalar-only baselines. Native MCE LawBench micro-F1 differs from the exact-correctness accuracy path in the pinned release; historical within-table metric correspondence still requires evidence. Paper/project-page budget, unit-label and family-wide call-count discrepancies are preserved, not silently repaired.
 
-All 714 newly supplied SRT cues were read. Thirteen selected MP4 frames were inspected; the input was hashed/probed. The muxed MP4 differs from the old video-only file, and no elementary-stream equivalence was tested. The new SRT is a user-supplied representation with unverified caption provenance. The old confidence-table discrepancy remains. No continuous video viewing or full audio alignment is claimed.
+The local Python script recomputes descriptive differences, context ratios and win/tie/loss counts from manually transcribed, visually checked Tables 2 and 5. It does not validate the underlying experiment. No upstream program, model call, provider, benchmark, new video processing or independent replication ran in U03-A. No p-values or confidence intervals were manufactured from aggregate percentages.
 
-Eight primary technical/engineering pages and one publisher companion page were consulted at unequal recorded depths. No new application/agent, hook, handoff, skill runner, evaluator, sandbox or network-effect experiment occurred. Local execution was media/SRT processing only. Analytical cases are not passing tests.
+External `stanford-iris-lab/meta-harness` main was rechecked and still matched `0cbc31e97c9e6d24232d1dc754827c02e1ec415c`. Selected release files and its agents directory were inspected; historical selected-classifier/adapter/run identities, raw samples and paired predictions were not recovered. This is a bounded recovery limit, not a claim that those artifacts do not exist anywhere.
 
 ## Completion boundary
 
-Notes08–12 now cover the ten responsibilities and separate evolution loop at their recorded evidence depths. That is not whole-video audiovisual verification, full native/cross-study synthesis, campaign closure or a SOUL architecture. No final CORE exists. Original media and SRT are available in this conversation but are not repository-persisted bytes; later exact-source work must recover real files, not assume old local paths still exist.
+U03-A is complete as a bounded documentary/comparator audit with descriptive arithmetic. Classification's historical efficacy, exact experiment reproduction, total cost, statistical uncertainty and causal attribution are not independently established. U03-B math and U03-C coding remain open. No final CORE, full U04 synthesis, U06 project assessment or architecture adoption exists.
 
-## Next authorised campaign work — U03
+The new evidence does not supersede prior media, code, host, historical, timeout/cleanup, expected-task/verifier, first-request compatibility or replay uncertainties. Stronger current-use claims require exact source and environment revalidation.
 
-**Question:** Which claims about harness improvement are supported by the historically reported experiments, and what remains uncertain when paper, modern reference code, selected artifact and current documentation are kept separate?
+## Next authorised U03 unit — U03-B, math retrieval
 
-Recover Note02, the paper v1 and original ledger first; then use the plan to choose a bounded experimental family and necessary primary comparators. Preserve historical task/data/configuration/budget identities, search versus final evaluation, uncertainty, cost and transfer limits. Existing summaries are not substitutes for load-bearing source details. No paid benchmark or broad runtime installation is automatic.
+**Question:** What do the reported math results establish when search exposure, retrieval corpus, comparison method, model identity and evaluation aggregation are kept separate?
 
-**Next-return boundary:** the current U02-B result is ready to return to Batu. U03 is the campaign's next work, not work executed in this turn. A later video is not automatically blocked until every empirical unknown in this hybrid study is closed; neither may this study be called complete to advance the queue.
+Recover WHY, Note02, SOURCE-LEDGER and paper `2603.28052v1` §§4.2, B.2, C.2–C.3 and Appendix D. Inspect the relevant tables/figures directly. Resolve or preserve the 250-versus-88 search-size descriptions and five-evaluated-versus-four-unseen model distinction. Trace the reported corpus construction/decontamination, 200-problem evaluation, three samples per problem, selected retrieval policy and comparisons against no retrieval, random, BM25 and dense retrieval. Do not substitute modern defaults or a new smoke run for historical evidence.
 
-U04 full synthesis, U05 justified probes, U06 fresh-Foundation and separate SOUL/DevOS projection, and U07 reverse omission/freshness audit/CORE remain open. Specific historical, timeout/cleanup, expected-task/verifier, first-request compatibility, cost/causality, audio-fidelity and actual-context/replay uncertainties remain recoverable in the prior notes and plan.
+Follow exact implementation/comparator sources only when they resolve a named uncertainty. Preserve missing raw records and do not infer significance from rounded averages. U03-C then treats coding's reused benchmark, repeated trials, selected artifact and historical leaderboard separately. The subdivision is revisable, not a required fixed number of turns.
+
+**Return boundary:** U03-A's result is ready to return to Batu. U03-B/C were not executed by this turn. The user's U03 grant remains; it does not authorize silently entering U04 or implementation. A later unrelated video need not wait for every empirical unknown, but changing the queue must not mark this study complete.
 
 ## Cold start and publication
 
-After current agent-control recovery, fully read STATE, INDEX, METHOD and RESEARCH-PLAN. For U03 recover WHY, Note02 and SOURCE-LEDGER in full, then the selected unit's exact sources/evidence. Read Notes11–12 and U02-B SOURCES/REVIEW before relying on this unit's detailed conclusions. Re-enter U01 evidence when making detailed code or execution claims. Before U06, freshly recover actual project/Foundation/DevOS authority and context.
+After current agent-control recovery, fully read STATE, INDEX, METHOD and RESEARCH-PLAN. For U03-B recover WHY, Note02 and SOURCE-LEDGER in full, then the exact math sources. Read Note13 and its SOURCES/REVIEW before making detailed classification claims; re-enter U01 evidence for detailed implementation/diagnostic claims. Before U06 freshly recover actual Foundation and SOUL/DevOS state and authority.
 
-Input main was `2a5bfe9109b9d36295d7665e0495af263e88c73c`; it remained unchanged at the pre-publication refresh. This update preserves prior research files and changes only this package, its channel continuity and affected catalog rows. Actual bounded diff, non-force main advancement and entry-file readback are required publication evidence; a prepared tree is not publication.
+Input main was `22e9ff43e3e09c2bb8ec7017fe8037a39cf2156e`. Publication must preserve all unrelated work, refresh shared discovery content and main, advance without force and verify the bounded diff and canonical entry files. Prepared trees, arithmetic success and this STATE text are not publication receipts.

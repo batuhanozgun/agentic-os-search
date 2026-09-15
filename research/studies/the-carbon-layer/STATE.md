@@ -1,35 +1,37 @@
 # The Carbon Layer — STATE
 
-**Updated:** 2026-09-15. **Collection status:** ACTIVE / LINKED FIRST-VIDEO CONTINUATION. Collection setup is published; the existing video's U02-B has now been investigated in its canonical home. Whole video/campaign completion is not implied.
+**Updated:** 2026-09-15. **Collection status:** ACTIVE / LINKED FIRST-VIDEO CAMPAIGN. Setup and U02-B were published. Batu then authorized U03, and the linked campaign completed its first bounded experimental family, U03-A classification. Whole video/campaign completion is not implied.
 
 ## Purpose and current authorization
 
-Batu approved one studies collection, a subfolder per video and source-first research that accumulates ideas and possible mechanisms for SOUL/Development OS. Setup was published at `2a5bfe9109b9d36295d7665e0495af263e88c73c`.
+Batu approved one studies collection, a subfolder per video and source-first research that accumulates ideas and possible mechanisms for SOUL/Development OS. Setup was published at `2a5bfe9109b9d36295d7665e0495af263e88c73c`; U02-B at `22e9ff43e3e09c2bb8ec7017fe8037a39cf2156e`.
 
-After being advised that `mQfTdNVCOB0` was incomplete and asked to upload it for U02-B continuation, Batu supplied its MP4 and English SRT. This resolves the first continuation choice in that context. It does not select a second video, authorize an all-channel campaign or grant implementation/adoption.
+The requested MP4/SRT upload selected continuation of `mQfTdNVCOB0`. After the U02-B result, Batu explicitly said “başlayabilirsin U03'e.” This authorizes the linked paper/video campaign's experimental audit, not a second video, all-channel research, implementation or adoption.
 
 ## One canonical research home
 
-[Harness study STATE](../harness-engineering-and-evolution/STATE.md) remains the sole authority for its work, completion and next unit. The [video routing record](videos/mQfTdNVCOB0-harness-engineering/RESEARCH-ROUTE.md) is an alias, not copied research or a second completion state.
+[Harness study STATE](../harness-engineering-and-evolution/STATE.md) remains the sole authority for its work, completion and next unit. The [video routing record](videos/mQfTdNVCOB0-harness-engineering/RESEARCH-ROUTE.md) is an alias, not a second research state.
 
-The setup recommendation is no longer an unmade first-video choice: continuation occurred. At this dated checkpoint, U02-B covers orchestration, subagents, skills/procedures, verification/observability and the separate evolution loop. [Note11](../harness-engineering-and-evolution/notes/11-ORCHESTRATION-DELEGATION-AND-PROCEDURES.md) and [Note12](../harness-engineering-and-evolution/notes/12-VERIFICATION-OBSERVABILITY-AND-QUALIFIED-EVOLUTION.md) hold the result. Refresh the owning STATE before further work; this paragraph is derived discovery, not authority.
+U02-B's coordination/procedure/evidence/evolution result remains in [Note11](../harness-engineering-and-evolution/notes/11-ORCHESTRATION-DELEGATION-AND-PROCEDURES.md) and [Note12](../harness-engineering-and-evolution/notes/12-VERIFICATION-OBSERVABILITY-AND-QUALIFIED-EVOLUTION.md).
+
+U03-A's [Note13](../harness-engineering-and-evolution/notes/13-CLASSIFICATION-EXPERIMENT-AND-COMPARATOR-AUDIT.md) now audits the separate Meta-Harness paper's classification evidence, comparator mechanisms, transfer and measurement limits. It includes descriptive arithmetic, not new agent experiments. This is a derived checkpoint: refresh the owning STATE before continuation.
 
 ## Source availability and fidelity
 
-The MP4 and SRT are now available in this conversation. Their names, byte counts, hashes, actual reading and selected frame coverage are in [U02-B SOURCES](../harness-engineering-and-evolution/evidence/2026-09-15-u02b-coordination/SOURCES.md) and its media record. The setup's access failure remains historical; it must not be presented as a current absence of the uploaded files.
+MP4/SRT input identities and actual earlier reading/visual coverage remain in [U02-B SOURCES](../harness-engineering-and-evolution/evidence/2026-09-15-u02b-coordination/SOURCES.md). The setup's access failure is historical, not a current claim that the supplied files are absent. Original media are conversation assets, not repository-persisted bytes; hashes do not recover them.
 
-Original media and captions are not committed to the repository. A future session must recover actual files when exact source wording or images matter. Full SRT reading is not full audio alignment, and the muxed MP4 is not the old video-only byte identity. No external transcription upload or blanket binary archive was authorized or performed.
+U03-A did not newly inspect or align video/audio. Its exact paper versions, selected source-code functions, arithmetic inputs and limitations are in [U03-A SOURCES](../harness-engineering-and-evolution/evidence/2026-09-15-u03a-classification/SOURCES.md). The paper, companion article, video, source release and historical experiment are distinct objects.
 
 ## Next responsibility and boundaries
 
-Return the bounded U02-B findings and remaining scope to Batu. The linked campaign remains active/partial, with U03 next under its own plan; full synthesis, project projection and closure remain open. This turn did not execute U03.
+Return U03-A's bounded result to Batu. The owning campaign remains active/partial; next is U03-B math retrieval, with U03-C coding and full synthesis/project projection/closure still open. U03-B/C were not performed in this turn. The collection does not override the owning plan or expand the U03 grant to later phases.
 
-No second video has been supplied or selected. Its later intake may be queued or researched under its own bounded question without duplicating this study. Do not require every open empirical question in the hybrid paper/video campaign to close before an unrelated video; do not mark the older work complete merely to change topics.
+No second video is supplied or selected. A later unrelated video need not await every empirical debt in this hybrid study, but changing the queue must not falsely close the old work.
 
-Current writing is limited to the linked research package, affected collection continuity and minimal parent catalog changes. Foundation, other studies' substantive research, soul-context, DevOS, explorations and agent-control are unchanged. No runtime installation, paid execution, deployment or implementation follows from source examples.
+Writes remain limited to the linked package, affected collection continuity and minimal parent catalog changes. Foundation, other studies' substantive research, soul-context, DevOS, explorations and agent-control are unchanged. No runtime installation, paid execution, deployment or implementation follows from source examples.
 
 ## Cold start
 
-After current agent-control recovery, fully read this STATE, [META](META.md), [INDEX](INDEX.md), [METHOD](METHOD.md), [VIDEO-CATALOG](VIDEO-CATALOG.md) and historical setup [SOURCE-MAP](SOURCE-MAP.md). The latter describes setup, not later media reading.
+After current agent-control recovery, fully read this STATE, [META](META.md), [INDEX](INDEX.md), [METHOD](METHOD.md), [VIDEO-CATALOG](VIDEO-CATALOG.md) and historical setup [SOURCE-MAP](SOURCE-MAP.md). Follow [RESEARCH-ROUTE](videos/mQfTdNVCOB0-harness-engineering/RESEARCH-ROUTE.md) and the owning STATE/INDEX/METHOD/PLAN plus unit-specific sources.
 
-For the existing video follow [RESEARCH-ROUTE](videos/mQfTdNVCOB0-harness-engineering/RESEARCH-ROUTE.md) and the owning STATE/INDEX/METHOD/PLAN plus unit-specific sources. Before consequential project-facing assessment, recover current Foundation and SOUL/DevOS context. Collection, video unit, hybrid campaign, cross-video synthesis, user evaluation and adoption remain separate statuses.
+Before consequential project-facing assessment, recover current Foundation and SOUL/DevOS context. Collection, source-video treatment, experimental family, hybrid campaign, cross-video synthesis, user evaluation and adoption remain separate statuses.
