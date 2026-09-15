@@ -1,32 +1,33 @@
 # Selection / Exposure — STATE
 
-**Updated:** 2026-09-14
-**Research assessment:** BOUNDEDLY COMPLETE / PROPOSED TWO-QUESTION PARENT
-**Exact refinements:** S5.1–S5.5, USER EVALUATION PENDING
-**Current substantive research activity:** NONE after parent assessment
-**Current duty:** bounded S6 publication/readback, then user evaluation; actual status in PUBLICATION
-**Input main:** `b145444c2d74b6ac4ab93e7280b8e34b7473060f`
+**Updated:** 2026-09-15
+**Parent research:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED
+**Accepted refinements:** S5.1–S5.5
+**Parent publication:** complete; original receipt in PUBLICATION
+**Current research:** one dedicated child, Use-Conditioned Selection / Set Adequacy
 
-## Authority and protected result
+## Acceptance and current responsibility
 
-The user accepted Revision's bounded leaf and M5.1–M5.7 and authorized the recommended Selection/Exposure research after repository checks. That permitted one dedicated parent pass, not automatic children or pre-acceptance. The prior repair/merge and Revision publication remain completed work.
+After the delivered parent result the user said “Benim açımdan uygun araştırma” and “Devam edebilirsin araştırmaya.” This accepts the two-question parent and five S5 refinements at their stated limits and activates the recommended first child. The user also emphasized making accumulated Foundation knowledge useful at the time of later SOUL decisions, without presuming that every finding is used or immediately consumed.
 
 ```text
-Selection / Exposure [proposed parent; evaluation pending]
-├─ Use-Conditioned Selection / Set Adequacy [unresearched; inactive]
+Selection / Exposure [accepted parent; S5.1–S5.5]
+├─ Use-Conditioned Selection / Set Adequacy [ACTIVE; structure open]
 └─ Consumer-Relative Exposure / Availability [unresearched; inactive]
 ```
 
-Selection relates an inquiry/need and admissible candidates to a use-fit selected view. Exposure relates specified information to consumer-relative availability at the required endpoint. This is not a mandatory choose-then-send pipeline. S4 preserves the strongest rich-leaf alternative, the generic-realization objection, boundary costs and reversal conditions. The child proposal is not a universal or independently verified taxonomy.
+Follow [active child STATE](use-conditioned-selection-set-adequacy/STATE.md) → PLAN and its subsequent evidence/checkpoint. This parent does not duplicate the child's rolling stage queue. Its own S1–S6 pass and publication are completed work; do not request the same parent approval again.
 
-## Completed assessment and evidence
+## Preserved result and boundaries
 
-PLAN/S1 preceded fresh external reading. SOURCE-LEDGER records P1–P6 selective primary reads. S2 adds late P7 evolving-need pressure; it does not turn static tests into adaptive-search evidence. S3 records seven finite cases and seven same-fixture false rules, first-run success, unchanged repeat and matching published identities. S4/S5/S6 complete the bounded structural assessment, five exact proposed refinements and return gate.
+Selection relates an inquiry/need and admissible candidates to a use-fit selected view. Exposure relates specified information to consumer-relative availability at the required endpoint. The accepted pair is not a mandatory choose-then-send pipeline or two software services. S4 preserves the strongest rich-leaf alternative, generic-realization objection, costs and reversal conditions. Dedicated child research can challenge the split rather than treating acceptance as a uniqueness proof.
 
-No live LLM/search, real network/permission service, actual concurrency, complete standard conformance or independent researcher/model validation occurred. Source rendering/download limitations and same-author/fixture dependence remain. Tests constrain examples, not hierarchy correctness. Original predecessor research and agent-control are unchanged.
+S5.1–S5.5 retain separate adequacy/availability, claim-relative coverage and absence, constrained whole-view sufficiency and evolving needs, material identity/version/time compatibility, and endpoint evidence distinct from interpretation or use. The earlier Dynamics three-question parent remains intact.
 
-## Retrieval and next boundary
+## Evidence and history
 
-[INDEX](INDEX.md) → KEY/FINDINGS-MAP → S5/S4 → precise S1/S2/source/checks. [PUBLICATION](PUBLICATION.md) owns the actual final synchronization/readback status; a file's presence alone does not discharge that duty. [OPEN-QUESTIONS](OPEN-QUESTIONS.md) preserves local unknowns. The initial active/undecided plan is an executed entry checkpoint, not work to restart.
+PLAN/S1 preceded external inquiry; SOURCE-LEDGER records selective P1–P6 reading; S2 adds P7 after test execution. Seven finite cases and seven same-fixture false rules passed and repeated unchanged. S3 records that scope. No live LLM/search, real permission/network service, concurrency, full standard conformance or independent researcher/model validation occurred. Acceptance does not strengthen these claims.
 
-After publication, return this proposal for evaluation. [NEXT-RESEARCH-HANDOFF](NEXT-RESEARCH-HANDOFF.md) recommends the use-conditioned selection question only after acceptance and separate continuation. [Foundation STATE](../../../../../STATE.md) governs global work. No child, sibling, architecture, schema, implementation or agent-control change follows automatically.
+Original S1–S6, PLAN, SOURCE-LEDGER, checks and PUBLICATION retain their dated proposal/evaluation language as historical evidence. Current acceptance and continuation come from this STATE and [Foundation STATE](../../../../../STATE.md), not those past gates. Current maps and affected manifest dependencies are synchronized at coherent publication checkpoints.
+
+No Exposure child, new descendant, architecture, schema, implementation or agent-control change is authorized automatically. Whole Foundation is not complete.
