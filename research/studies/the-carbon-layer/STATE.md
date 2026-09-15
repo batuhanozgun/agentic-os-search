@@ -1,47 +1,35 @@
 # The Carbon Layer — STATE
 
-**Updated:** 2026-09-15. **Collection status:** READY FOR VIDEO SELECTION / CONTINUATION. This is repository preparation, not completed video research.
+**Updated:** 2026-09-15. **Collection status:** ACTIVE / LINKED FIRST-VIDEO CONTINUATION. Collection setup is published; the existing video's U02-B has now been investigated in its canonical home. Whole video/campaign completion is not implied.
 
-## Purpose and latest authorization
+## Purpose and current authorization
 
-Batu proposed one collection under studies, a subfolder per video, and source-first investigation that accumulates ideas and possible mechanisms for SOUL. After the preliminary discussion, Batu approved the proposed structure and requested: prepare the repository, report whether the already-studied `mQfTdNVCOB0` is complete, and advise whether to continue it or receive a second video.
+Batu approved one studies collection, a subfolder per video and source-first research that accumulates ideas and possible mechanisms for SOUL/Development OS. Setup was published at `2a5bfe9109b9d36295d7665e0495af263e88c73c`.
 
-The authorized delivery for this turn is collection preparation and that status/sequencing answer. Do not silently turn preparation into a new deep-research unit, an all-channel campaign, or a decision that the existing study is complete. Batu selects/supplies videos; the assistant conducts authorized research and records its actual extent.
+After being advised that `mQfTdNVCOB0` was incomplete and asked to upload it for U02-B continuation, Batu supplied its MP4 and English SRT. This resolves the first continuation choice in that context. It does not select a second video, authorize an all-channel campaign or grant implementation/adoption.
 
-## Prepared structure and boundaries
+## One canonical research home
 
-The collection has metadata, a state/router, a study-local method, a video catalog, a bounded source map and a cross-video synthesis entrypoint. The existing video has an identity/routing subfolder, not a second research package with competing current state. New video findings and assessment files are created when real work warrants them, not as empty completion-looking templates.
+[Harness study STATE](../harness-engineering-and-evolution/STATE.md) remains the sole authority for its work, completion and next unit. The [video routing record](videos/mQfTdNVCOB0-harness-engineering/RESEARCH-ROUTE.md) is an alias, not copied research or a second completion state.
 
-Write scope for preparation: this collection and minimal additions to `research/studies/INDEX.md` and `CATALOG.md`. Existing research, Foundation, soul-context, Development OS, explorations and agent-control remain unchanged. No install, external media upload, paid execution, deployment or implementation is authorized by the source examples.
+The setup recommendation is no longer an unmade first-video choice: continuation occurred. At this dated checkpoint, U02-B covers orchestration, subagents, skills/procedures, verification/observability and the separate evolution loop. [Note11](../harness-engineering-and-evolution/notes/11-ORCHESTRATION-DELEGATION-AND-PROCEDURES.md) and [Note12](../harness-engineering-and-evolution/notes/12-VERIFICATION-OBSERVABILITY-AND-QUALIFIED-EVOLUTION.md) hold the result. Refresh the owning STATE before further work; this paragraph is derived discovery, not authority.
 
-## Existing video: derived checkpoint, not replacement authority
+## Source availability and fidelity
 
-Canonical research: [harness-engineering-and-evolution/STATE](../harness-engineering-and-evolution/STATE.md). Checked at repository commit `bfbaff60a86bc9fc65c5b74287a4f11ebe74c49b`; its STATE blob was `244bd01f86eba9fceb8baedb359ceb79a92c9bc1`. The subsequent pre-publication commit `9d547f3897eed085ad910c9fd6fb3b976d9e70ea` changed only an unrelated Foundation publication record.
+The MP4 and SRT are now available in this conversation. Their names, byte counts, hashes, actual reading and selected frame coverage are in [U02-B SOURCES](../harness-engineering-and-evolution/evidence/2026-09-15-u02b-coordination/SOURCES.md) and its media record. The setup's access failure remains historical; it must not be presented as a current absence of the uploaded files.
 
-At that checkpoint the linked campaign is **ACTIVE / PARTIAL**, plan v0.4. U00 intake, U01-A/B bounded paper/code work and U02-A's first six video responsibilities have recorded results. The next authorized unit in that package is **U02-B**: orchestration, subagents, skills/procedures, verification/observability and the separate evolution loop. Later experimental/comparator audit, full synthesis, selective further probes, current-Foundation/separate SOUL–DevOS projection and reverse closure/CORE remain open.
+Original media and captions are not committed to the repository. A future session must recover actual files when exact source wording or images matter. Full SRT reading is not full audio alignment, and the muxed MP4 is not the old video-only byte identity. No external transcription upload or blanket binary archive was authorized or performed.
 
-These statements describe that package's recorded work, not a new validation of its findings. Refresh its STATE before continuation; do not update its standing from this collection's catalog or treat it as newly unfinished work that must be redone.
+## Next responsibility and boundaries
 
-## Next responsibility and sequencing
+Return the bounded U02-B findings and remaining scope to Batu. The linked campaign remains active/partial, with U03 next under its own plan; full synthesis, project projection and closure remain open. This turn did not execute U03.
 
-**Now:** return the preparation result and the incomplete-study answer to Batu. No second video has been supplied/selected in this collection.
+No second video has been supplied or selected. Its later intake may be queued or researched under its own bounded question without duplicating this study. Do not require every open empirical question in the hybrid paper/video campaign to close before an unrelated video; do not mark the older work complete merely to change topics.
 
-**Recommendation, not a new sequencing authorization:** continue `mQfTdNVCOB0` from the linked package's U02-B rather than start it again or skip it as completed. The recommendation does not pause, revoke or expand that package's existing authorization. It does not make the whole paper/benchmark campaign a mandatory prerequisite for every unrelated future video.
-
-A second video can be registered as queued when supplied. Receiving it is distinct from starting its research. If Batu chooses that route, preserve the older study's actual open state and use the new video's own bounded plan.
-
-For continuing the existing video, original-media recovery is material: the old ledger says uploaded MP4/WebM files were not committed, and a former `/mnt/data` path is not persistent evidence. No original video/audio file was present in this setup session. Direct YouTube retrieval also failed here. Requesting the original `mQfTdNVCOB0` media in this conversation is the practical continuation path; do not ask for a second copy if a usable upload is subsequently present. A companion article may assist but does not close the audio-fidelity gap.
+Current writing is limited to the linked research package, affected collection continuity and minimal parent catalog changes. Foundation, other studies' substantive research, soul-context, DevOS, explorations and agent-control are unchanged. No runtime installation, paid execution, deployment or implementation follows from source examples.
 
 ## Cold start
 
-After current agent-control recovery, fully read this STATE, [META](META.md), [INDEX](INDEX.md), [METHOD](METHOD.md), [VIDEO-CATALOG](VIDEO-CATALOG.md) and [SOURCE-MAP](SOURCE-MAP.md).
+After current agent-control recovery, fully read this STATE, [META](META.md), [INDEX](INDEX.md), [METHOD](METHOD.md), [VIDEO-CATALOG](VIDEO-CATALOG.md) and historical setup [SOURCE-MAP](SOURCE-MAP.md). The latter describes setup, not later media reading.
 
-For the linked video, follow its [RESEARCH-ROUTE](videos/mQfTdNVCOB0-harness-engineering/RESEARCH-ROUTE.md), then its actual canonical STATE/INDEX/METHOD/RESEARCH-PLAN and the mandatory unit-specific source/evidence route. Setup's status read is not the full U02-B preflight or original-media reading.
-
-For a new video, establish ID, source availability, overlap, purpose and next authorized unit before creating findings. Before a substantive project-facing assessment, recover then-current Foundation and SOUL/DevOS context; this setup does not freeze their present states.
-
-## Completion distinction
-
-Collection setup is sufficient when the files and studies discovery routes are reachable on main, the existing research route resolves, and the bounded diff/readback preserves unrelated work. Git history and actual publication readback establish that, not this sentence alone.
-
-Video completion, linked hybrid-campaign completion, cross-video synthesis, user evaluation and implementation adoption are separate states. None is implied by collection readiness.
+For the existing video follow [RESEARCH-ROUTE](videos/mQfTdNVCOB0-harness-engineering/RESEARCH-ROUTE.md) and the owning STATE/INDEX/METHOD/PLAN plus unit-specific sources. Before consequential project-facing assessment, recover current Foundation and SOUL/DevOS context. Collection, video unit, hybrid campaign, cross-video synthesis, user evaluation and adoption remain separate statuses.

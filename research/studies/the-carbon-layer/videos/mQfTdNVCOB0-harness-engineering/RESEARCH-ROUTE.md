@@ -2,26 +2,28 @@
 
 ## Do not restart or duplicate
 
-The canonical research home is:
+Canonical research home: `research/studies/harness-engineering-and-evolution/`.
 
-`research/studies/harness-engineering-and-evolution/`
-
-This folder is a channel-level alias. It has no independent research STATE and contains no copied findings or evidence. Creating the channel collection does not move, close, pause or reset the existing study.
+This folder is a channel-level alias. It has no independent research STATE or copied findings/evidence. Collection creation did not move, close, pause or reset the study.
 
 ## Recovery path
 
-Read current [STATE](../../../harness-engineering-and-evolution/STATE.md), [INDEX](../../../harness-engineering-and-evolution/INDEX.md), [METHOD](../../../harness-engineering-and-evolution/METHOD.md) and [RESEARCH-PLAN](../../../harness-engineering-and-evolution/RESEARCH-PLAN.md) in full after canonical agent-control recovery.
+After canonical agent-control recovery, fully read current [STATE](../../../harness-engineering-and-evolution/STATE.md), [INDEX](../../../harness-engineering-and-evolution/INDEX.md), [METHOD](../../../harness-engineering-and-evolution/METHOD.md) and [RESEARCH-PLAN](../../../harness-engineering-and-evolution/RESEARCH-PLAN.md). Follow their unit-specific requirements rather than treating this alias as a replacement.
 
-Use the [original SOURCE-LEDGER](../../../harness-engineering-and-evolution/SOURCE-LEDGER.md) for video, derivative transcript and separate paper/code identities. Follow the current STATE's mandatory unit-specific reads rather than relying on this routing summary.
+Use [SOURCE-LEDGER](../../../harness-engineering-and-evolution/SOURCE-LEDGER.md) for original video, derivative transcript and separate paper/code identities. The [U02-B source record](../../../harness-engineering-and-evolution/evidence/2026-09-15-u02b-coordination/SOURCES.md) adds the newly supplied muxed MP4 and SRT, actual reading/visual coverage and scoped primary sources.
 
-At the 2026-09-15 setup checkpoint, the package is ACTIVE/PARTIAL, with U02-A complete at its recorded depth and **U02-B next**. U02-B addresses orchestration, subagents, skills/procedures, verification/observability and the separate evolution loop, approximately 16:13–28:00 in the native map. Those are approximate existing anchors, not newly audio-aligned timestamps. Its required Note01, Note08–10 and source/review evidence must be recovered before substantive continuation. Later synthesis, experiment/comparator work, project projection and closure remain governed by the linked plan.
+## Dated continuation checkpoint
 
-A changed canonical STATE supersedes this dated checkpoint. Do not interpret the checkpoint as a new authorization or as a reason to repeat a subsequently completed unit.
+At collection setup, U02-A was complete at its recorded depth and U02-B was next. Batu then supplied the requested MP4/SRT, and the 2026-09-15 U02-B unit investigated orchestration, subagents, skills/procedures, verification/observability, separate evolution and the final diagnostic slide.
+
+Read [Note11](../../../harness-engineering-and-evolution/notes/11-ORCHESTRATION-DELEGATION-AND-PROCEDURES.md), [Note12](../../../harness-engineering-and-evolution/notes/12-VERIFICATION-OBSERVABILITY-AND-QUALIFIED-EVOLUTION.md) and [REVIEW](../../../harness-engineering-and-evolution/evidence/2026-09-15-u02b-coordination/REVIEW-AND-LIMITS.md). At this checkpoint the owning campaign remains ACTIVE/PARTIAL, with U03 next and synthesis/project projection/closure still open.
+
+A changed canonical STATE supersedes this checkpoint. Do not repeat a subsequently completed unit or promote partial source coverage into full campaign completion.
 
 ## Required distinctions
 
-The video is not the entire hybrid campaign. The Stanford Meta-Harness paper (`2603.28052v1`) is a separately identified source, not this video or an artifact made identical by a shared phrase. Channel-level synthesis can cite bounded findings from the campaign, but cannot silently re-scope or certify its completion.
+The video is not the entire hybrid campaign. Stanford's Meta-Harness paper (`2603.28052v1`) is a separate source. Shared terminology does not make another channel artifact the same work.
 
-The old MP4/WebM uploads were not committed and no original media was present in this setup session. Recover actual media or request the video again when needed for continuation; a prior local path is not enough. The publisher's companion article was reachable, but is not substituted for missing audio/video evidence.
+Original uploads remain conversation assets, not repository-persisted bytes. Their hashes identify them but do not recover them. Full SRT reading and thirteen selected frames do not establish full audio alignment or live system behavior. Recover actual media when the claim requires it; do not request another copy while a usable current upload is already present.
 
-The collection recommends continuing this existing research before beginning another video. That is a recommendation awaiting Batu's next selection, not a universal dependency between videos or a revocation of the older package's existing research grant.
+No second video has been selected. Its later research does not have a universal prerequisite that every empirical debt in this hybrid campaign first be eliminated; the old work must nevertheless retain its true open state.

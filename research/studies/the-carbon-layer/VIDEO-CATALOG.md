@@ -1,19 +1,17 @@
 # The Carbon Layer — Video catalog
 
-**Observation:** 2026-09-15. A derived, deliberately partial inventory of identified/selected videos. It is not the full channel upload list and not video completion authority.
+**Updated:** 2026-09-15. Derived, deliberately partial inventory of identified/selected videos. Not the full upload list or completion authority.
 
 | Video ID / identity | Publication order/date | Collection research order | Registration and source state | Research route |
 |---|---|---|---|---|
-| `mQfTdNVCOB0` — Harness Engineering Masterclass: Technical Deep Dive on how to build Agentic Systems | YouTube upload date/order unverified; do not substitute the companion article's issue/date | Already under research before collection creation; recommended first continuation, not a newly imposed order | LINKED EXISTING RESEARCH; active/partial at checked snapshot. Original media not committed or available in this setup session; direct YouTube access failed. Companion article reachable. | [video META](videos/mQfTdNVCOB0-harness-engineering/META.md) → [research route](videos/mQfTdNVCOB0-harness-engineering/RESEARCH-ROUTE.md) → canonical package STATE |
+| `mQfTdNVCOB0` — Harness Engineering Masterclass: Technical Deep Dive on how to build Agentic Systems | YouTube upload date/order unverified; do not substitute companion article metadata | Existing research; first continuation selected by the requested MP4/SRT upload | LINKED EXISTING RESEARCH. U02-B now recorded at bounded documentary/selected-visual depth; campaign active/partial. MP4 and SRT supplied in this conversation, identities/coverage in U02-B evidence; originals not committed, full audio alignment open. | [video META](videos/mQfTdNVCOB0-harness-engineering/META.md) → [research route](videos/mQfTdNVCOB0-harness-engineering/RESEARCH-ROUTE.md) → canonical package STATE |
 
 ## Next intake
 
-No second video ID has been supplied or selected. Do not manufacture its title, sequence or folder. Batu can provide a source for registration without that alone being reported as completed or already-started research.
+No second video ID has been supplied or selected. Do not manufacture its title, sequence or folder. Receiving a later source for registration does not by itself establish completed research. The linked campaign's next unit remains governed by its STATE, not this dated row.
 
-The publisher's homepage exposes further topic leads: memory, sandboxing, skills, context management, coding-agent construction, harness improvement, evaluation and multi-agent coordination/evidence. These are homepage-level discovery hints, not individually verified video identities or research findings. Source/reading limits are in [SOURCE-MAP](SOURCE-MAP.md).
+The publisher's homepage topic leads remain discovery hints, not verified video identities or research findings. Initial discovery extent: [SOURCE-MAP](SOURCE-MAP.md). Actual continuation media/primary reads: [U02-B SOURCES](../harness-engineering-and-evolution/evidence/2026-09-15-u02b-coordination/SOURCES.md).
 
 ## Maintenance
 
-Add a video row only after its identity is known. Record publication metadata and research order separately. Point to the owning STATE rather than maintaining a second authoritative completion record. Refresh a derived checkpoint when it is used; preserve source dates and do not convert an old observation into current external truth.
-
-The parent studies catalog indexes this collection as a unit. Its separately existing harness study remains separately discoverable; the overlap is intentional routing, not two independent pieces of evidence.
+Add a row after identity is known. Keep publication order and research order separate. Point to the owning STATE, refresh a derived checkpoint before use and preserve historical source dates. The parent catalog indexes this collection and the separately existing harness study intentionally; the overlap is routing, not independent evidence.
