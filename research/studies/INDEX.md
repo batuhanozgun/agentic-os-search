@@ -48,6 +48,7 @@ Do not load every study merely because the library exists.
 |---|---|---|
 | Scan all known candidate studies | `CATALOG.md` | selected package `META.md` |
 | Understand package creation/metadata rules | `PACKAGE-CONTRACT.md` | root `../INDEX.md` |
+| The Carbon Layer video collection and existing-video continuation | `the-carbon-layer/META.md` | `STATE.md` → `VIDEO-CATALOG.md` → video research route; `mQfTdNVCOB0` stays in its existing harness study |
 | Visual/practitioner roadmap as a discussion-driven research-gap trigger for agentic systems | `agentic-ai-systems-roadmap/META.md` | `STATE.md` → `INITIAL-ASSESSMENT.md` → `SOURCE-VISUAL.md` / image → related studies |
 | Knowledge access / representation / adaptation mechanisms | `ai-knowledge-strategies/META.md` | `STATE.md` → `INDEX.md` / mechanism files |
 | Anthropic AI-native SDLC / agent-native software operating model | `anthropic-ai-native-sdlc-playbook/META.md` | `STATE.md` → `INDEX.md` → playbook research / source ledger / SOUL-DevOS assessment / falsifiers |
@@ -106,5 +107,6 @@ Completion of a study never authorizes adoption.
 - `multi-agent-patterns/`
 - `public-apis/`
 - `recursive-prerequisite-discovery/`
+- `the-carbon-layer/`
 
 The library is expected to grow substantially. `CATALOG.md` should remain a compact discovery surface rather than a second synthesis corpus.
