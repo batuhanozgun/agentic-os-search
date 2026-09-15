@@ -4,11 +4,11 @@
 
 ```text
 Selection / Exposure [accepted parent]
-├─ Use-Conditioned Selection / Set Adequacy       [open dedicated research]
-└─ Consumer-Relative Exposure / Availability     [unresearched; inactive]
+├─ Use-Conditioned Selection / Set Adequacy [dedicated result and evaluation in child STATE]
+└─ Consumer-Relative Exposure / Availability [unresearched; inactive]
 ```
 
-Selection asks which existing resources/parts/order supply the inquiry's needed view. Exposure asks which specified information is actually reachable or present for a consumer at the required endpoint. The active child's STATE owns progress; this is not a two-service architecture or a universal choose-then-send sequence.
+Selection asks which existing resources, parts or ordered/contingent views serve the inquiry's need. Exposure asks which specified information is reachable or present for a consumer at the required endpoint. Child STATE owns its result and evaluation, not this compact parent orientation. This is not a two-service architecture or a universal choose-then-send sequence.
 
 ```text
 information need != query proxy
@@ -22,8 +22,8 @@ planned bundle != budgeted exposed bundle
 availability != demonstrated interpretation, acceptance or action
 ```
 
-The strong alternative remains one rich leaf with separately routed adequacy and availability facets. S4's same-assistant organizational judgment retains explicit costs and reversal conditions; acceptance does not make the split universally unique. S5.1–S5.5 are accepted, not awaiting the same evaluation again.
+The strong alternative remains one rich leaf with separately routed adequacy and availability facets. S4's same-assistant judgment retains costs and reversal conditions; acceptance is not universal uniqueness. S5.1–S5.5 are accepted. New child refinements are not accepted by this key.
 
-Original seven finite parent cases and seven same-fixture controls retain their original scope. P7's evolving-search argument remains later source pressure, not a tested adaptive system. New child checks and findings are separate and must not be counted as independent parent replication.
+The original seven parent cases and controls keep their recorded scope. The use-conditioned child now compares action, rationale, support coverage and exploratory needs, with separate original/new check records. They are not independent parent replication or proof of actual actor reasoning.
 
-[STATE](STATE.md) → [INDEX](INDEX.md) exposes the current child and original S5/S4/S2/S3 evidence. [Foundation STATE](../../../../../STATE.md) governs global activity. Original proposal labels are historical. No automatic Exposure, descendant, architecture or implementation.
+[STATE](STATE.md) → [INDEX](INDEX.md) exposes the child result and original parent evidence. [Foundation STATE](../../../../../STATE.md) governs global activity. Original proposal and active-entry labels are historical. No automatic Exposure, descendant, architecture or implementation.
