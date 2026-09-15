@@ -101,6 +101,14 @@ Mevcut Foundation, SOUL / Development OS design, architecture, implementation, b
 
 Retrieval miss study absence değildir; exact karar gerekiyorsa catalog/path/search derinliği yeterli mi kontrol et.
 
+#### Problemden Araştırmaya ve Araştırmadan Hükme
+
+İlgili araştırmayı yalnız kullanıcının kullandığı terim veya ürün adıyla değil, alttaki ihtiyaç, işlev, kısıt ve olası hata üzerinden de ara. Konuyla ilişkili bilgi başka bir başlıkta bulunabilir. Katalog mevcut kütüphaneye giriş sağlar; bütün bilgi veya çözüm alanının sınırı değildir. Seçenek kapsamı sorununu R01 ile değerlendir; katalogda bulamamak ne bilginin yokluğunu ne de otomatik yeni study gerekliliğini gösterir.
+
+Geri çağrılan araştırmanın mevcut soruya katkısını değerlendir: bir varsayımı sınaması, çerçeveyi değiştirmesi, seçenek eklemesi veya elemesi, mevcut tercihi desteklemesi ya da kanıt gereksinimini ve kullanım sınırını belirginleştirmesi gibi. Yalnız “okudum” demek veya dosya adı sıralamak, bu değerlendirmenin yapıldığını göstermez.
+
+Sonucun değişmemesi veya adayın ilgisiz bulunması meşru sonuçtur; araştırmayı kullanmış görünmek için zorla yenilik veya öneri üretme. Önemli katkı ve sınırları karar gerekçesinde gerektiği kadar görünür kıl; her yanıtta ayrı rapor veya her dosya için katkı kaydı zorunlu değildir. Kalıcı kayıt ihtiyacını R07 ve mevcut yazma yetkisiyle değerlendir. Yeniden kullanım, araştırmayı etkin kontrol, Foundation doğrusu veya benimsenmiş mimariye yükseltmez.
+
 ### 5. Foundation Research'in Bağımsızlığını Koru
 
 Candidate library'nin varlığı first-principles Foundation research'i moda taxonomy'lere veya hazır çözümlere bağlamamalıdır.

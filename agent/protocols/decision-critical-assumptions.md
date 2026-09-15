@@ -167,6 +167,16 @@ Bir frame içinde sonuç çok temiz görünüyorsa bu temizliği frame'in doğru
 
 Alternatif frame sonucu değiştirmiyorsa yeni bir çerçeve aramaya devam etme. Ama makul bir frame değişikliği sonucu değiştiriyorsa mevcut frame'i sessiz varsayım olarak bırakma.
 
+### Seçenek Alanının Yeterliliği
+
+Mevcut seçenekleri iyi karşılaştırmak, karşılaştırmaya alınan seçenek alanının yeterli olduğunu göstermez. Aynı dar çerçevede üretilmiş alternatiflerin aynı sonuca varması da o çerçevenin dışını sınamış olmaz.
+
+Özellikle bütün seçenekler aynı ürünün, mekanizmanın veya düşünce geleneğinin varyantlarıysa; ihtiyaç yalnız mevcut araç üzerinden ifade edilebiliyorsa; ya da yetenek ve sorumluluklar nasıl sağlandıkları incelenmeden hazır kabul ediliyorsa seçenek kapsamını da karar-kritik varsayım olarak değerlendir. Bunlar tek başına eksiklik kanıtı değildir; hedefli keşif gerekebileceğinin işaretleridir.
+
+Gerektiğinde ihtiyacı mevcut çözüm adlarından bağımsız ifade et; farklı bir analiz biriminin, çözüm sınıfının veya bilgi alanının sonucu değiştirip değiştiremeyeceğini araştır. Yalnız bellekteki alternatifleri tekrarlamak yerine ilgili mevcut araştırmaya ve gerekiyorsa dış kaynaklara dön. Keşfedilen ihtimal, doğrulanmış uygulanabilirlik veya benimsenmiş çözüm değildir.
+
+Her konuda dış tarama, sabit sayıda alternatif, yeni teknoloji veya daha karmaşık çözüm zorunlu değildir. Keşif kapsamını karar etkisi, risk, geri alınabilirlik ve ek bilginin beklenen değeriyle sınırla. “Daha fazlası olabilir” tek başına araştırmayı sürdürme gerekçesi değildir. Kapsam yeterince sınanmışsa veya kalan belirsizlik açıkça taşınarak koşullu karar uygunsa ilerle; evrensel eksiksizlik iddiası üretme.
+
 ## Mevcut Çözüm ve Yazarlık Ayrıcalığı Kontrolü
 
 Bir çözümün, yapının, planın, mekanizmanın veya sınıflandırmanın zaten mevcut olması onun gerekli, doğru veya tercih edilir olduğuna kanıt değildir.
