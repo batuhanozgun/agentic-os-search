@@ -1,32 +1,33 @@
 # Selection / Exposure — STATE
 
 **Updated:** 2026-09-15
-**Parent research:** BOUNDEDLY COMPLETE / USER-EVALUATED / ACCEPTED
-**Accepted refinements:** S5.1–S5.5
-**Parent publication:** complete; original receipt in PUBLICATION
-**Child assessment:** Use-Conditioned Selection proposes a leaf and U5.1–U5.6; evaluation pending
-**Current substantive research:** NONE after the child assessment; Exposure inactive
+**Parent:** accepted bounded two-question result and S5.1–S5.5; original publication complete
+**Use-conditioned selection:** accepted bounded leaf and U5.1–U5.6; publication complete
+**Exposure:** bounded leaf and E5.1–E5.5 proposed for evaluation
+**Current substantive research:** none after Exposure assessment
 
-## Acceptance and current responsibility
+## Latest authority and route
 
-The user accepted this two-question parent and five S5 refinements, then authorized the use-conditioned child. The latest continuation completed that child's U4–U6 assessment; it did not pre-accept the result or activate Exposure. The user emphasized future decision-time usefulness and the relationship between information and actor reasoning. These are research-use concerns, not proof of actual actor behavior.
+The user accepted the delivered use-conditioned result and explicitly continued its recommended Exposure sibling. That gate is discharged. Exposure's E0–E6 research now exists; its proposed leaf and five refinements have not been accepted. No successor or integration review is active.
 
 ```text
 Selection / Exposure [accepted parent; S5.1–S5.5]
-├─ Use-Conditioned Selection / Set Adequacy [proposed leaf; U5.1–U5.6 evaluation pending]
-└─ Consumer-Relative Exposure / Availability [unresearched; inactive]
+├─ Use-Conditioned Selection / Set Adequacy [accepted leaf; U5.1–U5.6]
+└─ Consumer-Relative Exposure / Availability [proposed leaf; E5.1–E5.5 evaluation pending]
 ```
 
-Follow [child STATE](use-conditioned-selection-set-adequacy/STATE.md) → INDEX/U5/U4 and its [PUBLICATION](use-conditioned-selection-set-adequacy/PUBLICATION.md) for actual readback. Research assessment, coherent publication and user acceptance are distinct. Original U0–U3 and U4 entry labels do not restart completed work. This parent's original approval and publication remain discharged.
+[Exposure STATE](consumer-relative-exposure-availability/STATE.md) → INDEX → E5/E4 and exact evidence. [Exposure PUBLICATION](consumer-relative-exposure-availability/PUBLICATION.md) owns final synchronization/readback. Once complete, return its result for evaluation; do not treat that receipt as another upload queue. [Foundation STATE](../../../../../STATE.md) owns global authorization.
 
-## Preserved result and new proposal
+## Protected results and limits
 
-Selection relates an inquiry/need and admissible candidates to a use-fit view. Exposure relates specified information to consumer-relative availability. The pair is not a mandatory pipeline or two software services. S4 preserves the strong rich-leaf rival and reversal conditions; child research can challenge it.
+Selection relates an inquiry/need and admissible alternatives to a use-fit view or permitted contingent reading strategy. Exposure relates specified information to consumer-relative availability. The accepted pair is not a mandatory pipeline or two services. S4's rich-leaf rival and reversal conditions remain challengeable.
 
-Accepted S5.1–S5.5 preserve adequacy/availability, claim-relative coverage and absence, constrained whole-view sufficiency and evolving needs, material identity/version/time compatibility, and endpoint evidence distinct from use. The child's six U5 refinements extend use/criterion fidelity, rationale/audit obligations, quantifier-sensitive coverage, joint value, contingent/evolving inquiry and future reuse/actor-use boundaries. They are proposals, not accepted parent changes.
+Accepted S5.1–S5.5 preserve adequacy/availability, scoped coverage/absence, constrained whole-view sufficiency and evolving need, identity/version/time compatibility, and endpoint evidence distinct from use. Accepted U5.1–U5.6 sharpen use/criterion fidelity; action/rationale/audit obligations; quantifier-sensitive evidence; joint/contextual value; contingent reading versus changing need; and future recoverability versus actual actor use.
 
-## Evidence and history
+Exposure's E5.1–E5.5 are proposals: exact target/consumer/mode; temporal and actionable conditions; endpoint/time-scoped evidence; source change versus retained views; and representation support distinct from understanding or coordination. Its opportunity/presentation rival remains explicit. Publication does not accept these refinements or pre-approve a later parent synthesis.
 
-Original S1–S6, PLAN, SOURCE-LEDGER, checks and parent PUBLICATION remain unchanged historical evidence. The seven parent cases are not rerun by the child's work. The child separately preserves six original cases and three U4 cases; same-fixture controls and repeated runs do not create independent samples. Actual U4 SQLite execution is local, not a production provenance or actor test. Source depth and lack of live/independent verification remain explicit.
+## Preserved history and return boundary
 
-[Foundation STATE](../../../../../STATE.md) governs authorization. Return the child's leaf/six refinements after its publication check. Only subsequent acceptance and continuation can activate Exposure. No new descendant, architecture, schema, implementation or agent-control change follows automatically; whole Foundation remains incomplete.
+Original S1–S6, PLAN, SOURCE-LEDGER, parent PUBLICATION and checks remain dated evidence. Their older proposal labels are historical. The accepted use-conditioned package retains U0–U6, source and test histories; no predecessor tests were rerun by this synchronization. Exposure has its own six-case suite, source scopes and publication record. Finite counts, same-fixture controls and repeats do not provide independent samples, live actor efficacy or a taxonomy oracle.
+
+The user's future decision-time reuse objective is preserved through applicability, contrary cases and exact evidence routes; it neither requires all-history context nor guarantees that every finding will be used. A focused integration/completion-depth review is only a recommendation after Exposure acceptance and explicit continuation. No architecture, implementation, new descendant or agent-control mutation follows automatically. Whole Foundation is not complete.
