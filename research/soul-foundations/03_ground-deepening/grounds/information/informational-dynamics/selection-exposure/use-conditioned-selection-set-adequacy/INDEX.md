@@ -1,19 +1,25 @@
 # Use-Conditioned Selection / Set Adequacy — INDEX
 
-Read [STATE](STATE.md). U0–U3 form an open research checkpoint, not a closed leaf or child map. U4 is the first unfinished research stage. The parent/S5 refinements are accepted; Exposure remains inactive.
+Read [STATE](STATE.md). The bounded leaf and six U5 refinements await evaluation. No descendant or Exposure sibling is active. [PUBLICATION](PUBLICATION.md) records actual U6 readback; its original checkpoint is historical after final publication.
 
-| Need | Route |
+| Need | Exact route |
 |---|---|
-| Which result may matter for a later decision or inquiry? | [FINDINGS-MAP](FINDINGS-MAP.md), including applicability and limits |
-| Exact use-relative decision criterion and proof | [U2](U2-DECISION-SUFFICIENCY-AND-ADAPTIVE-SELECTION.md) §§2–3 |
-| Complementarity, contextual value and adaptive selection | U2 §§4–5; K04–K06 |
-| Present selection versus future retention | U2 §6; accepted Revision/Records routes in PLAN |
-| Why structure is not closed yet | U2 §7; [STATE](STATE.md) exact continuation |
-| Pre-source inventory and rival questions | [U1](U1-USE-CONTRACT-AND-INDEPENDENT-QUESTIONS.md) |
-| Primary reading and discovery limits | [SOURCE-LEDGER](SOURCE-LEDGER.md) |
-| Actual execution and exact identities | [U3](U3-EXECUTION-AND-CHECKPOINT-LIMITS.md) |
-| Reperform bounded checks | [SPEC](checks/SPEC.md) → [script](checks/adequacy_checks.py) → [RESULT](checks/RESULT.json) |
-| Entry authority, recovery and sequence | [PLAN](PLAN.md); entry labels are historical after this checkpoint |
-| Checkpoint publication | [CURRENT-SURFACES](CURRENT-SURFACES.md); [PUBLICATION](PUBLICATION.md) |
+| Compact proposed result | [KEY](KEY.md) |
+| Integrated meaning and six exact refinements | [U5 synthesis](U5-SYNTHESIS-AND-PARENT-DELTA.md) |
+| Why a leaf; strongest rivals and non-decision uses | [U4 review](U4-NONDECISION-USES-AND-RIVAL-REVIEW.md) |
+| Reuse question, applicability and evidence limits | [FINDINGS-MAP](FINDINGS-MAP.md) |
+| Exact finite decision criterion, baseline and regret | [U2](U2-DECISION-SUFFICIENCY-AND-ADAPTIVE-SELECTION.md) §§2–3 |
+| Joint/contextual value and fixed-target adaptive reading | U2 §§4–5; original K04–K06 |
+| Present selection versus future retention | U2 §6; U5 §§6–7 |
+| Action/rationale, witness coverage and test certification | U4 §§2–4; new N01–N03 |
+| Original source-independent inventory | [U1](U1-USE-CONTRACT-AND-INDEPENDENT-QUESTIONS.md) |
+| Original P1–P3 scope and six-case execution | [SOURCE-LEDGER](SOURCE-LEDGER.md); [U3](U3-EXECUTION-AND-CHECKPOINT-LIMITS.md) |
+| New P4–P6 reading and three-case execution | [U4 addendum](U4-SOURCE-AND-EXECUTION-ADDENDUM.md) |
+| Original finite suite | [SPEC](checks/SPEC.md) → [script](checks/adequacy_checks.py) → [RESULT](checks/RESULT.json) |
+| New non-decision-use suite | [U4 SPEC](checks/u4/SPEC.md) → [script](checks/u4/nondecision_checks.py) → [RESULT](checks/u4/RESULT.json) |
+| Entry and resumption provenance | [PLAN](PLAN.md); [U4-RESUMPTION](U4-RESUMPTION.md) |
+| Bounded assessment and remaining uncertainty | [U6](U6-CLOSURE.md); [OPEN-QUESTIONS](OPEN-QUESTIONS.md) |
+| Inactive next recommendation | [NEXT-RESEARCH-HANDOFF](NEXT-RESEARCH-HANDOFF.md) |
+| Exact identities and final publication | [CURRENT-SURFACES](CURRENT-SURFACES.md); [PUBLICATION](PUBLICATION.md) |
 
-Use a finding with its declared question, state/decision model, counterexample and evidence limit. A correct finite result is not proof that the modeled assumptions hold for SOUL. No result here establishes a universal information utility score or requires selecting all retained knowledge. Parent [INDEX](../INDEX.md) and Foundation STATE retain their distinct authority.
+Original U1–U3, PLAN, SOURCE-LEDGER and K-suite retain their checkpoint language and identities. Their U4-unfinished wording does not override current STATE. Neither the mathematical criteria nor the new finite examples certify real source truth, actual actor behavior or hierarchy uniqueness. Use the actual source-reading and execution scope, not source count or green results alone. [Parent INDEX](../INDEX.md) and Foundation STATE preserve accepted parent authority; the present child is not accepted merely through publication.
