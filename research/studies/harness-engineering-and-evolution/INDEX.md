@@ -4,7 +4,10 @@ Current authority: [STATE](STATE.md). Reuse metadata: [META](META.md). Method: [
 
 | Need | Route |
 |---|---|
-| Current U03-C result, three-family status and next-phase boundary | STATE → [PLAN](RESEARCH-PLAN.md) |
+| Current U04 synthesis, limits and next U05 boundary | STATE → [PLAN](RESEARCH-PLAN.md) |
+| Integrated source-native work/change explanation | [Note16](notes/16-OPERATING-ARRANGEMENT-AND-QUALIFIED-CHANGE-SYNTHESIS.md) |
+| Selective GSTACK/HERMES comparison and research-library use | [Note17](notes/17-CROSS-STUDY-COMPARISON-AND-RESEARCH-REUSE.md) |
+| U04 actual reading, provenance and reverse review | [SOURCES](evidence/2026-09-16-u04-synthesis/SOURCES.md) → [REVIEW](evidence/2026-09-16-u04-synthesis/REVIEW-AND-LIMITS.md) |
 | Purpose and initial hypotheses | [WHY](00-WHY-THIS-RESEARCH.md) → [BRIDGE](BRIDGE-QUESTIONS.md) |
 | Original paper/video identities | [SOURCE-LEDGER](SOURCE-LEDGER.md) → [original media manifest](evidence/MEDIA-MANIFEST.json) |
 | Video-native chapter map | [Note01](notes/01-SOURCE-NATIVE-MAP.md) |
@@ -36,6 +39,6 @@ Current authority: [STATE](STATE.md). Reuse metadata: [META](META.md). Method: [
 | Recompute historical coding differences and separate demo arithmetic | [DATA](evidence/2026-09-16-u03c-coding/REPORTED-DATA.json) → [script](evidence/2026-09-16-u03c-coding/audit_reported_numbers.py) → [ARITHMETIC](evidence/2026-09-16-u03c-coding/ARITHMETIC.json) |
 | Channel-level discovery without duplicate research | [The Carbon Layer](../the-carbon-layer/INDEX.md) |
 
-Earlier notes/evidence retain their historical scopes. U01-B has limited excerpt/fake-command diagnostics. U02-A/B add source-grounded responsibilities and selected media checks. U03-A/B/C add documentary/comparator audits and descriptive arithmetic, not benchmark runs. Reading, source tracing, local calculation, historical reproduction, live efficacy and accepted use remain distinct.
+Earlier notes/evidence retain their historical scopes. U01-B has limited excerpt/fake-command diagnostics. U02-A/B add source-grounded responsibilities and selected media checks. U03-A/B/C add documentary/comparator audits and descriptive arithmetic. U04 adds analytical synthesis and two bounded primary code/test re-entries, not new runtime tests. Reading, source tracing, local calculation, historical reproduction, live efficacy and accepted use remain distinct.
 
-No final CORE or adopted architecture exists. Notes08–12 cover ten video responsibilities and a separate loop; Notes13–15 cover the three experimental families at bounded depths. U04 synthesis and U05–U07 remain open. Return U03-C before the next phase; re-enter exact sources for detailed or current claims.
+Notes16–17 are the U04 synthesis, not final CORE or adopted architecture. U05 justified probes, U06 current-project projection and U07 closure remain open. The owning STATE resolves the phase-return boundary. Re-enter exact sources for detailed or current claims rather than using a synthesis as a replacement for its evidence.
