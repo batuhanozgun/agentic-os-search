@@ -5,15 +5,16 @@
 | Video identity | Publication date/order | Research order and scope | Recorded checkpoint | Canonical dossier |
 |---|---|---|---|---|
 | `mQfTdNVCOB0` — Harness Engineering Masterclass: Technical Deep Dive on how to build Agentic Systems | Unverified; do not substitute companion metadata | First selected video. Includes its complementary Meta-Harness paper/code inquiry; former alias `harness-engineering-and-evolution` | OPEN/PARTIAL. U00–U04 results at recorded depths; seventeen notes preserved. U05–U07 still open here, not another study. Full audio/empirical limits remain. | [META](videos/mQfTdNVCOB0-harness-engineering/META.md) → [STATE](videos/mQfTdNVCOB0-harness-engineering/STATE.md) → [INDEX](videos/mQfTdNVCOB0-harness-engineering/INDEX.md) |
+| `-01_NB4SbBY` — AI Agent Sandboxing: Layers, Tradeoffs, and Blast Radius | Unverified; companion July2026/No.03 is not YouTube metadata | Second selected video, MP4 and English SRT supplied. Five isolation mechanisms, common file-read example, policy/tool/credential boundaries and limited primary checks | FIRST SOURCE INVESTIGATION COMPLETE / REVIEW READY. Full859-cue text,20 selected frames; no full audio alignment, runtime security test or adopted design. User evaluation next. | [META](videos/-01_NB4SbBY-agent-sandboxing/META.md) → [STATE](videos/-01_NB4SbBY-agent-sandboxing/STATE.md) → [INDEX](videos/-01_NB4SbBY-agent-sandboxing/INDEX.md) |
 
-## Next intake
+## Current selection and next intake
 
-No second video ID/title has been supplied or selected. The collection is ready for the user's next source. That does not imply research has started or that the first dossier is complete.
+The second video is selected and its bounded findings are ready for user evaluation. No third source has been supplied or selected. The [collection STATE](STATE.md) owns sequencing; child STATE files own their real progress and limits.
 
-The [collection STATE](STATE.md) selects the next work; the first video's U05 is merely its own next logical phase. A later video does not generally require every remaining first-video question to close. Actual dependencies must be assessed once the next source/question is known.
+First-video U05 remains its own next logical phase, not a prerequisite for the second or an automatic channel continuation. Second-video audio/runtime unknowns likewise do not create an automatic product-testing campaign. Revisit a material uncertainty when a concrete question makes it necessary.
 
 ## Discovery and preservation
 
-[Original setup map](SOURCE-MAP.md) preserves initial discovery limits. The [migration record](MIGRATION-2026-09-16.md) binds former and current paths. Video/source identities and all original evidence are in the dossier's SOURCE-LEDGER and INDEX.
+[Original setup map](SOURCE-MAP.md) preserves initial discovery limits. The [migration record](MIGRATION-2026-09-16.md) binds former and current paths. Each video's SOURCE or SOURCE-LEDGER records its own identities and actual coverage. Research order does not establish publication order.
 
-Add a new row only when source identity is known. Keep publication order, chosen research order, actual coverage, remaining work and acceptance/adoption distinct. A paper is not another video, and a comparison with GSTACK/HERMES is not cross-video completion.
+Add rows only for known selected sources. Keep reading, visual coverage, empirical verification, remaining work and adoption distinct. A complementary paper is not another video; a source comparison or the author's cross-reference is not automatically completed cross-video research.

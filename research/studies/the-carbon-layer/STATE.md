@@ -1,53 +1,54 @@
 # The Carbon Layer — STATE
 
-**Updated:** 2026-09-16. **Collection status:** ACTIVE / VIDEO-BY-VIDEO COLLECTION. **Current task:** organizational repair COMPLETE; ready for next video/source selection. **Research checkpoint:** first video has delivered results through U04 at recorded depths; no second source selected.
+**Updated:** 2026-09-16. **Collection status:** ACTIVE / VIDEO-BY-VIDEO COLLECTION. **Selected source:** second video `-01_NB4SbBY`, supplied as MP4 and English SRT. Its first source investigation is REVIEW READY at recorded documentary/visual depths. The first dossier remains OPEN/PARTIAL after U04; its remaining work is not resumed.
 
 ## Purpose and latest direction
 
-Batu's goal is to investigate selected channel videos one by one, keeping the source-native content and possible SOUL/Development OS value recoverable, then build cross-video understanding where supported.
+Batu's goal is to investigate selected channel videos one by one, preserving their source-native explanations and possible SOUL/Development OS value, then build cross-video understanding when supported.
 
-The latest user request identifies a structural ambiguity: the first video's research was stored as a sibling `harness-engineering-and-evolution` package while the collection contained only a link to it. Calling the remaining work another research line further obscured ownership. Batu explicitly authorizes putting that relationship and the repository records in order.
+After the hierarchy repair, Batu said “ikinci videoyu gönderdim” and supplied *AI Agent Sandboxing: Layers, Tradeoffs, and Blast Radius*. That selects the second source for investigation and durable registration. It does not select the first video's U05, authorize sandbox installation or grant a production change.
 
-The corrected model is **collection → video dossier → its video, complementary sources, findings, evidence and open work**. A complementary paper is a separate source, not automatically a separate study. Current organization is not inferred from old folder names or previous assistant wording.
+The corrected model remains **collection → video dossier → its video, complementary sources, findings, evidence and open work**. A complementary paper or reference is a separate source, not automatically a separate study. The historical `harness-engineering-and-evolution` name is only an alias of the first child; it is not another active work owner.
 
 ## Canonical ownership
 
 | Concern | Sole authoritative surface |
 |---|---|
-| Which channel video/source is selected, priorities and sequencing | This collection STATE |
-| What the first video dossier contains, has completed and leaves open | [Video STATE](videos/mQfTdNVCOB0-harness-engineering/STATE.md) |
-| First-video findings and evidence | [Video INDEX](videos/mQfTdNVCOB0-harness-engineering/INDEX.md) → notes/evidence |
-| Collection discovery | [VIDEO-CATALOG](VIDEO-CATALOG.md), derived from video records |
-| Genuine cross-video findings | [syntheses INDEX](syntheses/INDEX.md); none yet |
+| Selected video, priorities and sequencing | This collection STATE |
+| Second video's progress, source limits and next local responsibility | [Second-video STATE](videos/-01_NB4SbBY-agent-sandboxing/STATE.md) |
+| First video's progress and still-open U05–U07 | [First-video STATE](videos/mQfTdNVCOB0-harness-engineering/STATE.md) |
+| Findings and evidence | The selected video's INDEX → research/evidence |
+| Collection discovery | [VIDEO-CATALOG](VIDEO-CATALOG.md), derived from child records |
+| Genuine cross-video synthesis | [syntheses INDEX](syntheses/INDEX.md); none produced yet |
 
-The first-video folder is the actual canonical home, not an alias. The old sibling directory contains only migration pointers; it has no independent work state, findings or research queue. Do not continue or register it as another study. [Migration record](MIGRATION-2026-09-16.md).
+## Second-video checkpoint — derived, not duplicated authority
 
-## First-video checkpoint — derived, not duplicated authority
+The dossier is [videos/-01_NB4SbBY-agent-sandboxing](videos/-01_NB4SbBY-agent-sandboxing/INDEX.md). Its first source investigation covers the five isolation approaches, common file-read example, approval ergonomics, process tree, filesystem/network, tools and credential boundaries. The complete supplied SRT (859 cues), twenty selected frames and limited primary-document checks inform the result. Continuous viewing, full audio alignment, installed-runtime security and equal-condition performance testing are not established.
 
-`mQfTdNVCOB0` is the first selected video. Its original source-native/video inquiry, complementary Meta-Harness implementation and experiment audits, and U04 synthesis remain together. All seventeen notes and existing evidence are preserved.
+[RESEARCH](videos/-01_NB4SbBY-agent-sandboxing/RESEARCH.md) preserves the source's explanation and separately labels technical checks and visual/text discrepancies. [ASSESSMENT](videos/-01_NB4SbBY-agent-sandboxing/SOUL-DEVOS-ASSESSMENT.md) gives preliminary project-relevance questions, not a fresh audit of current Foundation or Development OS implementation. [SOURCE](videos/-01_NB4SbBY-agent-sandboxing/SOURCE.md) and [REVIEW](videos/-01_NB4SbBY-agent-sandboxing/evidence/REVIEW-AND-LIMITS.md) control exact coverage and limits.
 
-The dossier is OPEN/PARTIAL. U05 justified probes, U06 fresh current-project assessment and U07 reverse review/CORE remain open **in that same dossier**. The video has substantial completed research; it has not been declared wholly complete, independently replicated or adopted. Use its STATE for detailed boundaries.
+## First-video checkpoint — preserved
 
-The paper is not the video transcript or proof of every video claim. GSTACK/HERMES comparisons are source inputs, not other channel-video completions. Full audio alignment and recorded experimental uncertainties remain open.
+`mQfTdNVCOB0` remains the first selected video and retains its original video inquiry, complementary Meta-Harness paper/code audits and U04 synthesis. All seventeen notes and existing evidence remain in its own dossier without changes from second-video intake.
 
-## Next responsibility and selection boundary
+U05 justified probes, U06 fresh current-project assessment and U07 reverse review/CORE remain open there. Neither selecting another video nor this second source's completed first-pass investigation completes those phases. The first dossier is not renamed another research line or made an automatic prerequisite for the second.
 
-The hierarchy repair was published at `dc98ff60e01d9c19761fca597fe82a6888aaa676` and checked through actual main readback, the bounded diff and preserved Git object identities. See [publication verification](MIGRATION-VERIFICATION.md). Do not restart the repair or infer a new U05 grant from this completed organizational task.
+## Current return and next selection
 
-The collection is now ready for the user's next video/source selection. **No second video ID/title has been supplied, so no second folder or research is fabricated.** The assistant's earlier suggestion to proceed is not a claim that a source has already been selected.
+Return the second video's source-grounded findings and limits to Batu. The next responsibility is **user evaluation / a specific follow-up question or new video selection**, not an automatically launched product benchmark or another technical unit. The completed first investigation is distinct from full audiovisual or live security validation.
 
-A generic channel continuation must follow this collection's selection state, not automatically resume the first video's remaining U05. Explicit continuation of the first video follows its local recovery path. Moving to another video leaves all first-video residuals open; it does not rename them as another study or close them.
+No third video has been supplied or selected. A generic channel continuation follows this selection state; it does not silently reopen the first video's U05. A consequential design or verification task requires its own actual workload, scope and authority. Additional audio or runtime questions are conditional follow-ups, not an endlessly expanding barrier to the next source.
 
-There is no general prerequisite that every test, project assessment or whole-dossier closure be finished before the next video. A real dependency must be stated for the selected video's actual question. Depth is bounded by the source question and user goal, not by an indefinitely expanding chain of interesting adjacent work.
+## Preservation and source limits
 
-## Source and action limits
+The organizational repair is complete: migration `dc98ff60e01d9c19761fca597fe82a6888aaa676`, verification/state receipt `f400197913e437ff083c65072451b5f6fea8615d`. See [migration](MIGRATION-2026-09-16.md) and [verification](MIGRATION-VERIFICATION.md). Do not repeat it. Old main-branch deep links use the recorded prefix mapping; old commit-pinned links remain historical.
 
-Supplied MP4/SRT files were found in this conversation's local environment during repair. They remain conversation assets, not committed media or guaranteed future-session files. Their identities/coverage are in the video's SOURCE-LEDGER and U02 evidence. No new video/audio processing or source-content research occurred during reorganization.
+Original media are noncommitted conversation assets, not guaranteed future-session files. The second source's local hashes/metadata and selected visual coverage are recorded; no full transcript or video archive was republished. Source code examples and quick starts did not authorize execution. No sandbox, kernel policy, model/provider, benchmark, installer or exploit ran.
 
-No empirical confidence, completion or adoption changes follow from migration. No model/provider/benchmark/installer was run. Agent-control, Foundation, SOUL context, other studies' substantive work, explorations and Development OS authority are unchanged.
+Write scope is the second dossier, affected collection entry surfaces and minimal parent-catalog discovery. First-video files, Foundation, SOUL context, other studies, publications, explorations and agent-control remain unchanged.
 
 ## Cold start
 
-After agent-control recovery, read this STATE, [META](META.md), [INDEX](INDEX.md), [METHOD](METHOD.md) and [VIDEO-CATALOG](VIDEO-CATALOG.md). Read [MIGRATION](MIGRATION-2026-09-16.md) when resolving old paths or earlier chat references. SOURCE-MAP is a historical setup record, not current hierarchy authority.
+After current agent-control recovery, fully read this STATE, [META](META.md), [INDEX](INDEX.md), [METHOD](METHOD.md) and [VIDEO-CATALOG](VIDEO-CATALOG.md). Enter the selected second video's STATE/META/INDEX/METHOD/PLAN/SOURCE and question-specific findings. Do not recover a live media file from an old path or hash without checking its actual presence.
 
-Enter only the selected video's local STATE/INDEX/METHOD/PLAN and its unit-specific sources. Do not bulk-load the entire channel or recreate first-video work from chat memory. For consequential SOUL/Development OS projection, recover then-current project/Foundation authority separately.
+Read migration material only for old-path/ownership questions. SOURCE-MAP remains a historical channel-setup record. Before consequential SOUL/Development OS projection, separately recover then-current project/Foundation authority. Do not bulk-load every video or alter first-video research merely because it is related.
