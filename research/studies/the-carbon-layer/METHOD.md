@@ -1,55 +1,65 @@
 # The Carbon Layer — Research method
 
-**Version:** 0.1, 2026-09-15. Collection-local project method, not agent-control. The existing linked harness study retains its own method and authorization.
+**Version:** 0.2, 2026-09-16. Collection-local project method, not agent-control. This revision repairs ownership and sequencing; it does not change previous research findings or their evidence strength.
 
 ## 1. Purpose before filing
 
-The objective is to understand the sources and investigate what they make newly thinkable or usable for SOUL and Development OS, not to accumulate summaries or adopt a publisher's stack. Useful outcomes include a mechanism, a distinction, a question, an evaluation method, a simpler alternative or a reason not to use something.
+Understand selected videos and investigate what they make newly thinkable or usable for SOUL and Development OS. Useful outcomes include a mechanism, distinction, question, evaluation method, simpler alternative or reason not to use something. The goal is not to maximize summaries, tests, file count or adoption of a publisher's stack.
 
-Each video starts with a bounded question and its own native structure. Early project-relevance hypotheses are allowed; they do not force Information/Work/Actors/Environment boxes onto the source or preselect the conclusion.
+Each video starts with a bounded question and its native structure. Project relevance hypotheses may guide inquiry without forcing Foundation categories onto the source. The first video's already extensive plan is not a required template for later videos.
 
 ## 2. Intake and source identity
 
-Record the case-sensitive video ID, observed title/channel, URL, observation date, verified publication date if available, actual input files and access limits. An article's date or issue number is not the video upload date. Keep channel publication order separate from Batu's research order. Do not infer a complete channel inventory from a website index or search results.
+Record the exact case-sensitive video ID, observed title/channel, URL, observation date, verified publication date where available, actual input files and access limits. Publication order and the user's research order are separate. A website list or search result is not a complete channel inventory; article metadata is not video publication metadata.
 
-Separate original video/audio, native captions, third-party transcript, companion article, slides, code, paper and our notes. A readable article or transcript is not proof that the video was watched or exactly represented. For supplied files record names, sizes/hashes and recoverability when needed. A local upload may be unavailable in a later conversation; do not mark it repository-persisted without a real durable path. No external transcription upload or blanket binary archiving follows from setup authorization.
+Keep distinct: video/audio, native captions, third-party transcript, companion article, slides, paper, code and our notes. Source identity is not research ownership: multiple separately identified sources can belong to one video dossier. Their shared relevance does not imply common authorship or independent confirmation.
 
-Use timestamped coverage and explicit reading statuses. Visual sampling, full text reading, audio alignment, source-code inspection, local execution and independent validation are distinct. Preserve unknown names/claims rather than silently repairing them into exact quotations.
+For supplied files, record identity, coverage and recovery limits. Local uploaded bytes are not durable repository storage. Selected frames, full subtitle reading, audio alignment, source-code reading, local execution and independent validation support different claims. Do not silently repair a disputed representation into an exact quotation or upload media to another service without appropriate authority.
 
 ## 3. Iterative investigation
 
-Use revisable, meaningful units rather than a fixed number of sessions or files:
+1. Recover the source-native problem, explanation, mechanism, examples, benefits and limitations, including the author's own cautions and actual coverage.
+2. Investigate inputs, outputs, roles, prerequisites, positive conditions and failure paths. Follow primary references when they resolve a material uncertainty; not every link becomes another campaign.
+3. Separate author claims, observations, inferences, hypotheses, executed results and adopted decisions. Keep simpler/no-change alternatives and limits of transfer visible.
+4. Produce a bounded synthesis, then separately evaluate potential SOUL/Development OS relevance at the authorized depth. Fresh current-project recovery is needed for consequential projection.
+5. Challenge omitted material and meaningful alternatives; record remaining questions and the return condition.
 
-1. **Source-native account:** recover the problem, intended benefit, explanation, mechanism, examples, limitations and the author's own cautions. Identify what has actually been read/viewed and what remains.
-2. **Question and mechanism inquiry:** trace relevant inputs, outputs, actors, prerequisites and behavior; investigate positive use conditions as well as adverse cases. Follow primary dependencies when they resolve a material uncertainty. Do not turn every source link into a new campaign.
-3. **Evidence and alternatives:** distinguish author claim, observation, inference, hypothesis, executed result and adopted decision. Consider simpler/no-change alternatives and reasons the proposed mechanism might not transfer. Repeat statements across a video, article and slides are one provenance family, not independent confirmations.
-4. **Bounded synthesis and projection:** produce a coherent account, then separately ask what SOUL and Development OS might learn or use, under which conditions and with what unresolved evidence. Reopen current project/Foundation surfaces before consequential projection.
-5. **Reverse review and next unit:** challenge the synthesis against omitted material or a meaningful alternative; update coverage, open questions and next responsibility. Reopen or narrow a result when evidence requires it.
+Units may split, merge or reorder with justification. Preserve completed work and failed hypotheses. The needed depth follows the source question and legitimate decision need, not a compulsory number of sessions or layers.
 
-The plan can split, merge or reorder units after new evidence. Preserve completed work and unresolved limits. Research proceeds from the source, not from a predetermined list of fashionable mechanisms or mandatory control layers.
+## 4. Collection → video → supporting inquiry
 
-## 4. One source, one canonical research home
+The actual hierarchy is `the-carbon-layer/videos/<video-id>-<topic>/`. Each selected video has one canonical dossier containing its findings and necessary complementary-source research. Do not create a parallel standalone study merely because the inquiry includes a paper, code or experiments.
 
-Every selected video has a folder for identity and discovery. If research already exists elsewhere, link to it instead of moving or cloning it for cosmetic consistency. A routing record owns the link, not the linked package's state, method, findings or closure.
+The first video's former `harness-engineering-and-evolution` sibling was explicitly migrated into `videos/mQfTdNVCOB0-harness-engineering/`. Its original identity/history, notes, evidence and open U05–U07 responsibilities remain together. The old sibling contains only migration navigation, not duplicated work authority. See [MIGRATION](MIGRATION-2026-09-16.md).
 
-`mQfTdNVCOB0` is the initial example: its research home also covers the Stanford Meta-Harness paper. Do not equate that paper with another artifact merely sharing the phrase meta-harness. The channel collection does not change the linked campaign's scope or completion criteria.
+Other studies may be referenced without copying their findings or changing their state. If a future inquiry truly needs an independent study, make the research-object, scope, ownership and source relationship explicit before separating it. No such separation is inferred from the word complementary or from an existing directory.
 
-## 5. Cross-video accumulation
+## 5. Progress and queue are different responsibilities
 
-Create syntheses only when there is an actual cross-source question and adequate investigated material. Compare agreements, revisions, contradictions, missing conditions and nontransferable parts. Link exact video findings and the evidence depth that supports the comparison. Do not assemble article headlines into a completed synthesis.
+Collection STATE owns channel selection, priorities and sequencing. Video STATE owns actual research progress, residuals and local authorization. VIDEO-CATALOG is a derived view, not a second authority.
 
-Keep the source's position separate from our cross-video inference. Reuse the same video through references rather than manufacturing an additional independent study. Let some questions remain cross-cutting instead of forcing them under one Foundation branch.
+At a return point, distinguish what has been learned about the video, which source claims remain uncertain, what further work is optional or decision-critical, and whether the channel should continue this dossier or select another video. A useful next phase inside one dossier is not automatically the best or authorized next channel task.
 
-## 6. Evidence, experiments and bounded completion
+Selecting another video neither completes nor relocates the first video's remaining work. Conversely, an open first-video question is not a prerequisite for every later video. Evaluate an actual dependency against the new video's question. Do not replace a video-by-video goal with an indefinitely expanding implementation or benchmark inquiry.
 
-An executable illustration is not automatically production evidence. Before any warranted probe, identify the claim, exact source/runtime, fixture, oracle, expected failure signals, side effects and confidence limit. Paid runs, credentials, installations and external effects need their own authorization. Documentary research and unrun proposals must never become a passing-test count.
+## 6. Evidence and bounded completion
 
-A bounded video investigation may be proposed complete when its material source regions are accounted for, central mechanisms and use conditions are recoverable, consequential claims are supported or explicitly unresolved, important alternatives are addressed, project-facing implications retain their limits, and the source-to-finding route remains usable. Preserve inaccessible or uncertain material rather than claiming whole-source coverage.
+Before any justified probe, identify the target claim, exact source/dependencies, fixtures, oracle, controls, side effects and confidence boundary. Source examples are not permission for paid runs, credentials, installations or external effects. A test proposal, source read and passing run are different records.
 
-A video's bounded assimilation and a larger hybrid campaign's completion are different. The existing study's open experiments, synthesis and closure remain governed by its own STATE/METHOD/PLAN. Do not invent a rule that every empirical uncertainty must be eliminated before another unrelated video can be studied; do not label incomplete work complete merely to advance the queue.
+A bounded video investigation can be proposed complete when material source regions are accounted for, central mechanisms and conditions are recoverable, consequential claims are supported or explicitly unresolved, alternatives are addressed and project-facing implications retain their limits. Do not claim complete media coverage or empirical validation without corresponding work.
 
-## 7. Publication and continuation
+The first dossier currently has substantial completed units but remains OPEN/PARTIAL. U05–U07 have not been performed. Changing the folder or queue cannot upgrade that status. Prior evidence ledgers retain their historical scopes even when later STATE changes.
 
-Write only substantive files needed now. Maintain the selected video's actual state and the derived video catalog; update collection STATE when scope, authorization or sequencing changes. Keep recommended next work separate from chosen/authorized next work. User agreement is direction, not independent scientific verification.
+## 7. Cross-video accumulation
 
-Use an additive bounded commit, current shared indexes and non-force main advancement. Refresh/rebase the delta if another research line publishes concurrently; do not restore stale shared files. Verify the actual changed paths and canonical entrypoints after publication. A prepared tree, local file or successful API response alone is not confirmed end-to-end publication.
+Create a cross-video synthesis only for a real question supported by separately investigated video material. Compare complementary mechanisms, contradictions, changes and exclusions with exact finding/evidence routes. One video's paper/code audit or GSTACK/HERMES comparison is not already a multi-video synthesis.
+
+Keep source positions separate from our inference. The same source reached through two indexes is not independent evidence. Some questions stay cross-cutting rather than being forced into one Foundation branch.
+
+## 8. Publication and continuation
+
+Write only useful current surfaces. Update video STATE when its progress/authorization changes; update collection STATE when selection or sequencing changes; update derived indexes/catalogs only where affected. Keep recommended and selected work distinct.
+
+For migrations, preserve original findings and evidence rather than rewriting them for appearance. Repair current routes, provide explicit legacy-path recovery and retain immutable publication/source identities. Historical paths inside old evidence describe that old run or publication and need not be falsified into today's path.
+
+Build a bounded commit over current main, preserve unrelated research, advance without force, inspect the actual diff and read back canonical entrypoints. A prepared tree or a successful write response alone is not verified publication. Do not turn a repository correction into new substantive research or an agent-control change.
