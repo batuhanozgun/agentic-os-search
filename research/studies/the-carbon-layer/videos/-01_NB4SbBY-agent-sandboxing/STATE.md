@@ -1,6 +1,6 @@
 # İkinci video — STATE
 
-**2026-09-16. Video:** `-01_NB4SbBY`. **Statü:** İLK KAYNAK İNCELEMESİ TAMAM / KULLANICI DEĞERLENDİRMESİNE HAZIR. Canlı güvenlik doğrulaması veya nihai mimari onayı değildir. **Geçerli seçili çalışma:** kanalın ikinci videosu; ilk videonun U05'i değil.
+**2026-09-16. Video:** `-01_NB4SbBY`. **Statü:** İLK KAYNAK İNCELEMESİ TAMAM / KULLANICI UYGUNLUK DEĞERLENDİRMESİ ALINDI. Canlı güvenlik doğrulaması veya nihai mimari onayı değildir. **Kanal seçimi:** üçüncü video `PxuMqeIqCEo`; bu dosyada yeni araştırma seçilmedi.
 
 ## Amaç, yetki ve sahiplik
 
@@ -23,9 +23,11 @@ Ses–altyazı sadakati, native caption provenance ve YouTube yayın tarihi doğ
 
 Bunlar kaynak temelli açıklamayı geçersiz saydırmaz; daha güçlü uygulama/güvenlik iddialarını sınırlar. Üçüncü videodan önce tamamlanacak otomatik bir test listesi değildir. Yapılandırma önerisi veya ürün seçimi istendiğinde ilgili belirsizlik için ayrı kapsam gerekir.
 
-## Şimdiki dönüş noktası
+## Kullanıcı değerlendirmesi ve güncel devam
 
-İkinci videonun ne anlattığını, SOUL için düşündürdüklerini ve kaynağın sınırlarını Batu'ya sun. **Sonraki beklenen adım bu bulguların kullanıcı değerlendirmesi / yeni yön veya kaynak seçimidir.** Ürün araştırması, kurulum, üçüncü video ya da ilk videonun kalan işi kendiliğinden başlamaz.
+2026-09-16'da Batu, “uygun araştırman, repodan baktım. üçüncü video'yu gönderiyorum.” dedi. İkinci videonun mevcut kaynak incelemesini repodan okuyup uygun bulduğunu kaydettik. Bu değerlendirme önceki read/run kapsamını, kaynak iddialarının kesinliğini veya sandbox güvenlik statüsünü değiştirmez. Yeni bir test veya bilimsel doğrulama yapılmadı.
+
+Kanalın seçili işi üçüncü video `PxuMqeIqCEo` oldu. İkinci videoda yeni teknik çalışma seçilmedi; koşullu doğrulamalar burada kalır. Eski araştırma/kanıt metinlerindeki kullanıcıya dönüş cümleleri yayımlandıkları aşamayı anlatır; güncel değerlendirme ve sıra bu STATE ve collection STATE ile çözülür.
 
 Daha derin teknik bir soru seçilirse [PLAN](RESEARCH-PLAN.md) içindeki koşullu yollar kullanılır. Sadece bir sonraki katman veya başka kaynak ilginç göründüğü için kampanya genişletilmez. İlk kaynak incelemesinin tamamlandığı ile bütün sesin/ürünlerin doğrulandığı birbirine karıştırılmaz.
 
@@ -33,4 +35,4 @@ Daha derin teknik bir soru seçilirse [PLAN](RESEARCH-PLAN.md) içindeki koşull
 
 Önce güncel agent-control ve collection STATE/METHOD/VIDEO-CATALOG; sonra bu STATE, META, INDEX, METHOD, PLAN ve SOURCE. Soruya göre RESEARCH/ASSESSMENT/REVIEW'e in. Gönderilmiş medya byte'ları gerekiyorsa o oturumda gerçekten mevcut olup olmadığını kontrol et; hash'lerden veya eski mutlak yoldan dosyayı var sayma.
 
-Yazma kapsamı yeni video dosyası, etkilenen collection girişleri ve derived studies catalog'dur. İlk video, Foundation, diğer studies, soul-context, publications ve agent-control değişmez. Girdi main `cbeb6085a39981d0ed6bb3f34b1d43311908dd34`; yayın doğrulaması gerçek diff ve main readback gerektirir, hazırlanmış tree tek başına yayın değildir.
+İlk araştırma yayını `0e797706ec68b9c7e687b2c671c4524c028c89e1`, girdi main `cbeb6085a39981d0ed6bb3f34b1d43311908dd34` idi. Bu sonraki güncelleme yalnız kullanıcı-değerlendirme ve devam girişlerine ilişkindir; RESEARCH, ASSESSMENT, SOURCE ve evidence içerikleri korunur. İlk video, Foundation, diğer studies, soul-context, publications ve agent-control değişmez. Yayın doğrulaması gerçek diff ve main readback gerektirir, hazırlanmış tree tek başına yayın değildir.
