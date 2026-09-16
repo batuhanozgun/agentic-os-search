@@ -2,8 +2,8 @@
 
 - **Study ID / title:** the-carbon-layer / The Carbon Layer video research collection.
 - **Study type:** hybrid collection: a defined external channel corpus plus bounded, source-triggered mechanism inquiries. Individual video units retain their research object/type; the collection is not a universal agent taxonomy.
-- **Status:** active linked first-video campaign; U02-B preserved and U03-A classification audit recorded in the existing harness study. [STATE](STATE.md) owns collection work, not the linked campaign's completion. No second video selected.
-- **Created / updated:** 2026-09-15.
+- **Status:** active linked first-video campaign; U02-B preserved and U03-A/B classification/math audits recorded in the existing harness study. [STATE](STATE.md) owns collection work, not the linked campaign's completion. No second video selected.
+- **Created:** 2026-09-15. **Updated:** 2026-09-16.
 - **External targets:** https://www.youtube.com/@TheCarbonLayer and https://www.thecarbonlayer.com/ . Initial identity/retrieval limits: [SOURCE-MAP](SOURCE-MAP.md).
 - **Research object:** user-selected videos, separately identified companion articles, slides, code and necessary primary references; later bounded synthesis across studied units.
 - **Primary question:** What do these sources actually explain, what mechanisms or alternatives survive investigation, and what could improve understanding or later decisions for SOUL and Development OS?
@@ -26,7 +26,7 @@ Candidate research is not adopted architecture, a Foundation decision, an implem
 
 Revalidate current APIs, versions, availability and performance/security claims before load-bearing use. Companion text is not an exact audio transcript. Full subtitle reading, selected visual sampling and full audio alignment are distinct. U02-B's uploaded originals remain conversation assets rather than repository-persisted media. No complete channel inventory, upload-date verification, cross-video synthesis or full-video/campaign completion is claimed.
 
-U03-A adds source/comparator and measurement qualifications to the linked paper inquiry; its local arithmetic is not a reproduction of the reported experiments. Historical run/adapter identities and stronger efficacy claims remain separately open.
+U03-A/B add source/comparator, consumer/population and measurement qualifications to the linked paper inquiry; their local arithmetic is not a reproduction of reported experiments. Historical run/adapter/corpus/scorer identities and stronger efficacy claims remain separately open.
 
 ## Entrypoints and linked work
 

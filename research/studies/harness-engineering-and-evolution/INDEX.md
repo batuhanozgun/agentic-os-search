@@ -4,7 +4,7 @@ Current authority: [STATE](STATE.md). Reuse metadata: [META](META.md). Method: [
 
 | Need | Route |
 |---|---|
-| Current U03-A result, next U03-B and scope | STATE → [PLAN](RESEARCH-PLAN.md) |
+| Current U03-B result, next U03-C and scope | STATE → [PLAN](RESEARCH-PLAN.md) |
 | Purpose and initial hypotheses | [WHY](00-WHY-THIS-RESEARCH.md) → [BRIDGE](BRIDGE-QUESTIONS.md) |
 | Original paper/video identities | [SOURCE-LEDGER](SOURCE-LEDGER.md) → [original media manifest](evidence/MEDIA-MANIFEST.json) |
 | Video-native chapter map | [Note01](notes/01-SOURCE-NATIVE-MAP.md) |
@@ -27,9 +27,12 @@ Current authority: [STATE](STATE.md). Reuse metadata: [META](META.md). Method: [
 | U02-B coverage, source disagreements and analytical limits | [REVIEW](evidence/2026-09-15-u02b-coordination/REVIEW-AND-LIMITS.md) |
 | Classification experiment, transfer and comparator audit | [Note13](notes/13-CLASSIFICATION-EXPERIMENT-AND-COMPARATOR-AUDIT.md) |
 | U03-A exact source versions and unresolved evidence | [SOURCES](evidence/2026-09-15-u03a-classification/SOURCES.md) → [REVIEW](evidence/2026-09-15-u03a-classification/REVIEW-AND-LIMITS.md) |
-| Recompute published-cell comparisons, not experiments | [DATA](evidence/2026-09-15-u03a-classification/REPORTED-DATA.json) → [script](evidence/2026-09-15-u03a-classification/audit_reported_numbers.py) → [ARITHMETIC](evidence/2026-09-15-u03a-classification/ARITHMETIC.json) |
+| Recompute classification table comparisons, not experiments | [DATA](evidence/2026-09-15-u03a-classification/REPORTED-DATA.json) → [script](evidence/2026-09-15-u03a-classification/audit_reported_numbers.py) → [ARITHMETIC](evidence/2026-09-15-u03a-classification/ARITHMETIC.json) |
+| Math policy, corpus, transfer and grading identity | [Note14](notes/14-MATH-RETRIEVAL-EXPERIMENT-AUDIT.md) |
+| U03-B native sources, recovery and unresolved evidence | [SOURCES](evidence/2026-09-16-u03b-math/SOURCES.md) → [REVIEW](evidence/2026-09-16-u03b-math/REVIEW-AND-LIMITS.md) |
+| Recompute five-model/four-model math comparisons | [DATA](evidence/2026-09-16-u03b-math/REPORTED-DATA.json) → [script](evidence/2026-09-16-u03b-math/audit_reported_numbers.py) → [ARITHMETIC](evidence/2026-09-16-u03b-math/ARITHMETIC.json) |
 | Channel-level discovery without duplicate research | [The Carbon Layer](../the-carbon-layer/INDEX.md) |
 
-Earlier notes/evidence retain their historical scopes. U01-B has limited excerpt/fake-command diagnostics. U02-A/B add source-grounded responsibility analyses and selected media checks. U03-A adds a documentary/comparator audit and descriptive arithmetic, not a benchmark run. Reading, source tracing, local calculation, historical reproduction, live efficacy and accepted use remain distinct.
+Earlier notes/evidence retain their historical scopes. U01-B has limited excerpt/fake-command diagnostics. U02-A/B add source-grounded responsibility analyses and selected media checks. U03-A/B add documentary/comparator audits and descriptive arithmetic, not benchmark runs. Reading, source tracing, local calculation, historical reproduction, live efficacy and accepted use remain distinct.
 
-No final CORE or adopted architecture exists. Notes08–12 cover ten video responsibilities and a separate loop; Note13 covers the first experimental family. U03-B/C, U04 synthesis and U06 current-project assessment remain open. Re-enter exact sources for detailed or current claims.
+No final CORE or adopted architecture exists. Notes08–12 cover ten video responsibilities and a separate loop; Notes13–14 cover classification and math experimental families. U03-C coding, U04 synthesis and U06 current-project assessment remain open. Re-enter exact sources for detailed or current claims.
