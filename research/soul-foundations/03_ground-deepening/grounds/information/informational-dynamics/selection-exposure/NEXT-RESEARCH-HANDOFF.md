@@ -1,21 +1,17 @@
-# Selection / Exposure — Executed child handoffs and next gate
+# Selection / Exposure — Executed handoffs and current return
 
-**Updated:** 2026-09-15. Parent/S5 and use-conditioned leaf/U5 accepted. Both child-entry handoffs have been executed; no successor is active.
+**Updated:** 2026-09-16. Parent/S5, U5 and E5 accepted. Both child passes and the recommended focused integration handoff have been executed.
 
-The use-conditioned U0–U6 result and six refinements were accepted by the user. The user then authorized Exposure. [Exposure STATE](consumer-relative-exposure-availability/STATE.md) → INDEX/PUBLICATION owns its proposed result, actual readback and evaluation gate. Do not request prior approvals, recreate either child or repeat completed research from a preserved checkpoint label.
+The U result was accepted before Exposure was authorized. Exposure's complete result/publication was then presented; the user's contextual acceptance and continuation authorized the focused [Selection/Dynamics review](../../../../../07_selection-dynamics-integration-review/STATE.md). Its PLAN preserves the exact authority. Do not recreate either child, rerun old checkpoints or request their prior approvals.
 
 ## Recovery contract retained
 
-Recover current Foundation, Dynamics, parent and relevant child STATE/INDEX in full. Original parent PLAN/S1–S6/SOURCE-LEDGER/OPEN-QUESTIONS/SPEC/script/results remain the parent evidence when not already available as literal unchanged full canonical reads. S2 contains late P7 pressure, S3 execution and S4 the strongest parent rivals. The children have separate source/check records; a short handoff is not their evidence.
+Current Foundation, Dynamics, parent and relevant child STATE/INDEX govern acceptance and depth. Original parent PLAN/S1–S6/source/checks remain the parent evidence; S2 has late P7, S3 execution and S4 rivals. Child ledgers and scientific suites retain separate scope. Source/contract claims need the actual evidence, not this short handoff.
 
-Relevant inherited boundaries remain in Dynamics N3/N4/N6/N7, Formation F2/F4/F6, State KEY/map, accepted Revision M5 and current Records ORGANISATION-RETRIEVAL. Retrieve original material at the source depth required by the actual question. Candidate catalog/META screens possible contributions, not taxonomy authority or architecture adoption.
+Inherited boundaries remain in Dynamics N3/N4/N6/N7, Formation F2/F4/F6, State, accepted Revision M5 and Records. Candidate CATALOG/META screens contributions, not architecture authority. The focused review's source ledger states which originals were actually recovered and which unchanged literal same-conversation reads were reused.
 
-## Exact next boundary
+## Current next boundary
 
-Exposure's leaf/E5.1–E5.5 await user evaluation after its bounded publication. [Exposure NEXT-RESEARCH-HANDOFF](consumer-relative-exposure-availability/NEXT-RESEARCH-HANDOFF.md) recommends a focused parent/subtree integration and completion-depth review only after acceptance and explicit continuation. It specifies recovery of prior integration/frontier evidence and accepted child refinements. That review has not been performed or activated by this synchronization.
+[Review INDEX](../../../../../07_selection-dynamics-integration-review/INDEX.md) → SYNTHESIS/COMPLETION-DEPTH/PUBLICATION owns the new joint result, I1–I5, actual publication and evaluation gate. That review recommends a bounded Foundation-wide sufficiency/omission/reuse assessment only after its own evaluation and explicit continuation. This closed Selection package does not own a separate rolling queue.
 
-## Protected scope
-
-Preserve need/proxy, candidate/universe, relevance/adequacy, fixed-bundle/contingent-policy and inquiry/goal distinctions. Current selection is not future disposition. Conditional findings can be valuable later without the whole archive entering each task.
-
-For availability, preserve target/consumer/mode, temporal and actionable conditions, observation scope, retained views and representation support. Availability, semantic fidelity, understanding, claim warrant, actor behavior and authority remain separate. No universal utility metric, context size, top-k, graph, embedding system, architecture, implementation or agent-control change follows automatically. Whole Foundation completion is not implied by these two child assessments.
+Preserve need/proxy, universe/candidates, relevance/adequacy, fixed-bundle/contingent-policy, inquiry/goal, present selection/future disposition, exact endpoint, actionable time, retained view and representation-support distinctions. Availability, fidelity, understanding, warrant, actual behavior and authority remain separate. No universal metric, context size, graph, memory system, architecture, implementation or agent-control mutation follows. Whole Foundation completion is not implied by child acceptance.

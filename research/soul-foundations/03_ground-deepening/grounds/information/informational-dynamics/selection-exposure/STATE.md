@@ -1,33 +1,34 @@
 # Selection / Exposure — STATE
 
-**Updated:** 2026-09-15
-**Parent:** accepted bounded two-question result and S5.1–S5.5; original publication complete
-**Use-conditioned selection:** accepted bounded leaf and U5.1–U5.6; publication complete
-**Exposure:** bounded leaf and E5.1–E5.5 proposed for evaluation
-**Current substantive research:** none after Exposure assessment
+**Updated:** 2026-09-16
+**Parent/S5.1–S5.5:** accepted; original publication complete
+**Use-conditioned leaf/U5.1–U5.6:** accepted; publication complete
+**Exposure leaf/E5.1–E5.5:** contextually accepted; original publication complete
+**Current local substantive research:** none
+**Subsequent focused integration review:** bounded assessment complete; separate I1–I5 evaluation pending
 
-## Latest authority and route
+## Authority and current route
 
-The user accepted the delivered use-conditioned result and explicitly continued its recommended Exposure sibling. That gate is discharged. Exposure's E0–E6 research now exists; its proposed leaf and five refinements have not been accepted. No successor or integration review is active.
+The user's continuation after the Exposure delivery accepts E5 in context and authorizes the focused Selection/Dynamics review; its PLAN preserves the exact quote. It does not pre-accept that new review or authorize another successor.
 
 ```text
-Selection / Exposure [accepted parent; S5.1–S5.5]
-├─ Use-Conditioned Selection / Set Adequacy [accepted leaf; U5.1–U5.6]
-└─ Consumer-Relative Exposure / Availability [proposed leaf; E5.1–E5.5 evaluation pending]
+Selection / Exposure [accepted parent]
+├─ Use-Conditioned Selection / Set Adequacy [accepted bounded leaf]
+└─ Consumer-Relative Exposure / Availability [contextually accepted bounded leaf]
 ```
 
-[Exposure STATE](consumer-relative-exposure-availability/STATE.md) → INDEX → E5/E4 and exact evidence. [Exposure PUBLICATION](consumer-relative-exposure-availability/PUBLICATION.md) owns final synchronization/readback. Once complete, return its result for evaluation; do not treat that receipt as another upload queue. [Foundation STATE](../../../../../STATE.md) owns global authorization.
+[Review STATE](../../../../../07_selection-dynamics-integration-review/STATE.md) → INDEX/SYNTHESIS/COMPLETION-DEPTH owns the joint result. Its PUBLICATION owns actual new readback. [Foundation STATE](../../../../../STATE.md) owns overall authorization. This closed parent does not duplicate a rolling next-stage queue.
 
-## Protected results and limits
+## Protected results
 
-Selection relates an inquiry/need and admissible alternatives to a use-fit view or permitted contingent reading strategy. Exposure relates specified information to consumer-relative availability. The accepted pair is not a mandatory pipeline or two services. S4's rich-leaf rival and reversal conditions remain challengeable.
+Selection relates a need/inquiry and admissible alternatives to a use-fit view or permitted contingent strategy. Exposure relates specified information to consumer-relative availability. These are not mandatory software stages. S4's rich-leaf rival remains reopenable.
 
-Accepted S5.1–S5.5 preserve adequacy/availability, scoped coverage/absence, constrained whole-view sufficiency and evolving need, identity/version/time compatibility, and endpoint evidence distinct from use. Accepted U5.1–U5.6 sharpen use/criterion fidelity; action/rationale/audit obligations; quantifier-sensitive evidence; joint/contextual value; contingent reading versus changing need; and future recoverability versus actual actor use.
+Accepted S5 preserves adequacy/availability, coverage/absence, whole-view sufficiency and evolving need, compatible identity/version/time, and endpoint evidence distinct from use. U5 sharpens criterion fidelity; action/rationale/audit; quantifier-sensitive evidence; joint/contextual value; contingent reading versus changing need; and future reuse distinct from demonstrated behavior. E5 qualifies exact target/consumer/mode; temporal/actionable conditions; scoped evidence; retained views; and supported representation distinct from understanding or coordination. E4's opportunity/presentation rival remains explicit.
 
-Exposure's E5.1–E5.5 are proposals: exact target/consumer/mode; temporal and actionable conditions; endpoint/time-scoped evidence; source change versus retained views; and representation support distinct from understanding or coordination. Its opportunity/presentation rival remains explicit. Publication does not accept these refinements or pre-approve a later parent synthesis.
+Proposed review I1–I5 concern their compatible common witness, actual consumer history, use-relative substitutes/side information, temporal/authority scope and completion-depth status. These are not accepted parent refinements merely because the original child results are accepted.
 
-## Preserved history and return boundary
+## History and limits
 
-Original S1–S6, PLAN, SOURCE-LEDGER, parent PUBLICATION and checks remain dated evidence. Their older proposal labels are historical. The accepted use-conditioned package retains U0–U6, source and test histories; no predecessor tests were rerun by this synchronization. Exposure has its own six-case suite, source scopes and publication record. Finite counts, same-fixture controls and repeats do not provide independent samples, live actor efficacy or a taxonomy oracle.
+Original PLAN/S1–S6/SOURCE-LEDGER/PUBLICATION/checks and U/E scientific histories remain unchanged. Former proposal or unfinished-stage labels are historical under current local STATE. Source reading, finite tests, repetition and user acceptance retain separate scopes; neither counts nor green checks supply a taxonomy oracle or live actor efficacy. No prior suite was rerun by this update.
 
-The user's future decision-time reuse objective is preserved through applicability, contrary cases and exact evidence routes; it neither requires all-history context nor guarantees that every finding will be used. A focused integration/completion-depth review is only a recommendation after Exposure acceptance and explicit continuation. No architecture, implementation, new descendant or agent-control mutation follows automatically. Whole Foundation is not complete.
+The research library supports later use with applicability, contrary cases and evidence routes, not all-history context or guaranteed use of every finding. The recommended subsequent Foundation-wide review remains inactive pending evaluation/continuation. Whole Foundation is not declared complete; no architecture, implementation or agent-control work follows automatically.
