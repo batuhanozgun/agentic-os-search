@@ -1,24 +1,21 @@
 # Relation / Control / Composition — FINDINGS MAP
 
-**Document role:** CURRENT_L1  
-**Status:** bounded parent result / awaiting user evaluation  
-**Date:** 2026-09-05
+**Updated:** 2026-09-16. Retrieval clarification; accepted research unchanged.
+**Role:** preserved parent-pass argument map with current navigation, not a live successor queue.
+
+Current [STATE](STATE.md) and [INDEX](INDEX.md) record the accepted parent and promoted descendants. The numbered map below describes the 2026-09-05 parent research, before dedicated child work. Its original pending header and Binding-next recommendation are preserved at `1328c29d70fef51a6895e81f95c58348b7b1829f`, blob `b98253dd32aa06ae5761770a4400dc208e15a7b6`. They do not reopen acceptance or authorize work now. [Foundation STATE](../STATE.md) governs global activity.
 
 ## 1. Does a distinct cross-ground composition problem exist?
 
-Yes.
+Yes. Many load-bearing cases cannot be owned by Environment, Information, Work or Actors alone without semantic theft.
 
-Many load-bearing cases cannot be owned by Environment, Information, Work or Actors alone without semantic theft.
-
-Route: `C0-EVIDENCE-RECOVERY.md` → `C3-MULTI-GROUND-COMPOSITES.md`.
+Original route: `C0-EVIDENCE-RECOVERY.md` → `C3-MULTI-GROUND-COMPOSITES.md`.
 
 ## 2. Are pairwise relations enough?
 
-No.
+The six pairwise probes expose boundaries, but pairwise-only composition hides additional anchors/criteria for actionability, verification/validation/acceptance, attainment, governance and accountability.
 
-The six pairwise probes are valuable for boundary discovery, but pairwise-only composition fails on actionability/effective power, verification/validation/acceptance, goal attainment, governance/enforcement and accountability.
-
-Route: `C2-PAIRWISE-PROBES.md`.
+Original route: `C2-PAIRWISE-PROBES.md`.
 
 ## 3. What immediate research regions survived?
 
@@ -30,122 +27,60 @@ Cross-Ground Composition
 └─ Transition / Effect / Feedback
 ```
 
-Route: `C1-SEMANTIC-KIND-DISCRIMINATION.md` → `C6-PARENT-SYNTHESIS-CHILD-DISCOVERY.md`.
+Original route: `C1-SEMANTIC-KIND-DISCRIMINATION.md` → `C6-PARENT-SYNTHESIS-CHILD-DISCOVERY.md`. Current nested causal/feedback results are reached through INDEX; this parent map is not their replacement.
 
-## 4. Why Relational Binding?
+## 4. Relational Binding
 
-It protects endpoint/role/direction/scope/time semantics and prevents generic `related-to` collapse.
+Endpoint, semantic role, direction, scope/reference and time prevent generic related-to collapse. Wrong anchor/role/direction/reference can invalidate a relation even when an edge exists.
 
-Distinct failures: wrong anchor, role, direction, reference, scope, time or inferred relation.
+## 5. Composite Standing / Qualification
 
-## 5. Why Composite Standing / Qualification?
+Cross-ground qualifications require their material anchors/criteria rather than one intrinsic status. Current child evidence additionally distinguishes actual qualification from an assessment or recorded label. Not every qualification is composite.
 
-Statuses such as `actionable`, `verified`, `validated`, `accepted`, `goal attained` and `evidence sufficient` depend on several anchors/criteria and cannot safely be one local status.
+## 6. Control / Constraint
 
-Distinct failures: missing criterion/authority/target/evidence, stale evaluation, one prerequisite treated as sufficient.
+Governing semantics preserve policy, authority, decision, obligation, enforcement and observed compliance as different claims. Current Control results also distinguish enforcement-point scope from protected-effect coverage. INDEX → Control STATE and original K evidence.
 
-## 6. Why Control / Constraint?
+## 7. Transition / Effect / Feedback
 
-Control asks what is permitted, required, blocked, gated or escalated, and separates policy, authority, decision, obligation, technical enforcement and observed compliance.
+Static connections do not settle realized changes, propagation, causal claims or operative response. Sequence is not causation; intended effect is not realized effect. Current descendant depth lives in Transition STATE/INDEX rather than this original parent shorthand.
 
-Critical rule:
+## 8. Not mutually exclusive event classes
 
-```text
-policy text != authority != decision != enforcement != compliance
-```
+One episode can involve all four regions under different protected questions. The original `C7-ADVERSARIAL-CLOSURE.md` preserves the parent comparison; it is not a software architecture.
 
-## 7. Why Transition / Effect / Feedback?
+## 9. Provenance / Evidence as a fifth immediate child?
 
-Static relations do not explain change propagation, actual effects, observation formation, standing changes or feedback/evolution loops.
+Original answer: not forced. Source/derivation/attribution require Binding; sufficiency/currentness involve Standing; evidence gates involve Control; generation/invalidation involve Transition. This is cross-cutting pressure, not permission to equate lineage with warrant.
 
-Critical rule:
+## 10. Causation as a fifth immediate child?
 
-```text
-sequence != causation
-intended effect != realized effect
-```
+Original parent answer: not required at that depth. Later Transition deepening separately produced Causal Effect/Contribution and Actual/Contrastive children. Not a peer here never meant no dedicated causal inquiry anywhere. Current route: INDEX → Transition → Causal Effect/Contribution.
 
-## 8. Are these mutually exclusive classes?
+## 11. Governance / Goal / Verification / Actionability
 
-No.
+The parent treated them as important multi-ground patterns spanning the regions, not automatic peers. Original route: `C3-MULTI-GROUND-COMPOSITES.md`. This does not select a universal criterion, governance system or actionability algorithm.
 
-They are diagnostic research regions. One verification episode can involve all four while each region asks a different protected question and has different failure modes.
+## 12. Original external holdouts
 
-Route: C6 → `C7-ADVERSARIAL-CLOSURE.md`.
+`C5-EXTERNAL-CANDIDATE-HOLDOUTS.md` preserves W3C PROV, NIST ABAC, NASA verification/validation and selected agentic-study pressures. These are parent-pass source claims with their own reading limits, not fresh external revalidation by this map.
 
-## 9. Did Provenance / Evidence require a fifth child?
+## 13. Rival organizing frames
 
-No.
+Original `C4-RIVAL-ORGANIZING-FRAMES.md` compares pairwise-only, generic graph/state/relation/transition, descriptive/normative, semantic-family, control-loop, goal-centered and influence frames. Current 08 RIVALS-AND-REUSE distinguishes useful alternative entries from claims that the existing research tree is uniquely necessary.
 
-- source/derivation/attribution → Binding;
-- evidential sufficiency/currentness → Composite Standing;
-- evidence gates → Control;
-- generation/derivation/invalidation → Transition.
+## 14. Top-level consequence
 
-It remains mandatory cross-cutting pressure.
+The parent did not force a fifth ground. Its diagnostic regions compose the accepted grounds rather than replacing their local meanings.
 
-## 10. Did Causation require a fifth child?
+## 15. Historical sequencing
 
-Not at current parent depth.
+The parent recommended Binding first, with later order to be reconsidered. That transition and the promoted descendants were executed and accepted. Do not restart Binding or any original approval from this section.
 
-Causation is concentrated in Binding + Transition/Effect with evidential qualification. Reopen if later Transition deepening cannot preserve it cleanly.
+## 16. Verification
 
-## 11. Did Governance / Goal / Verification / Actionability become children?
+Original C7 and later integration remain same-assistant reviews; no independent researcher/model validates the exact hierarchy. Sources and tests retain their own scope. A map is neither primary evidence nor a taxonomy oracle.
 
-No.
+## 17. Current return boundary
 
-They are high-value multi-ground composite patterns that span several immediate regions.
-
-Route: `C3-MULTI-GROUND-COMPOSITES.md`.
-
-## 12. What did external holdouts add?
-
-- W3C PROV reinforced specific bindings and transition/event distinctions rather than one generic relation.
-- NIST ABAC provided a strong multi-anchor authorization standing/control counterexample to Actor-intrinsic permission.
-- NASA systems V&V reinforced verified vs validated distinctions across requirements, evidence, stakeholders and intended environment.
-- Anthropic, multi-agent and context/memory/harness candidate studies reinforced layered control, transitive effect power, coordination and runtime-vs-information distinctions.
-
-Route: `C5-EXTERNAL-CANDIDATE-HOLDOUTS.md`.
-
-## 13. Did serious rival frames win?
-
-No.
-
-Rejected as parent structures:
-- pairwise matrix only;
-- flat typed graph;
-- generic State / Relation / Transition;
-- Descriptive vs Normative only;
-- semantic-family taxonomy (provenance/authority/causation/etc.);
-- universal control-loop frame;
-- goal/commitment-centered frame;
-- universal Influence relation.
-
-Route: `C4-RIVAL-ORGANIZING-FRAMES.md`.
-
-## 14. Did top-level adequacy reopen?
-
-No.
-
-The four recommended regions are composition semantics dependent on the accepted grounds, not new peer grounds.
-
-## 15. What should be researched first if accepted?
-
-**Relational Binding.**
-
-Precise anchor/role semantics are prerequisites for reliable standing/control/transition analysis.
-
-C7 corrected the stronger sequencing claim: the order of Composite Standing, Control and Transition should be re-evaluated after Binding rather than fixed now.
-
-## 16. Verification status
-
-- source-backed and cross-domain pressured;
-- C7 same-model adversarial review;
-- exact four-region synthesis has no independent second-researcher/model replication;
-- no external standard validates the exact project decomposition.
-
-## 17. Closure
-
-Parent result: boundedly complete for user evaluation.
-
-No child is active.
+Composition is accepted at its recorded promoted depth, with no local node active. Foundation STATE owns current evaluation/next work; the 08 whole-Foundation result is a separate proposed closure. This map clarification changes no original numbered research, source ledger or scientific program, and activates no architecture or implementation.

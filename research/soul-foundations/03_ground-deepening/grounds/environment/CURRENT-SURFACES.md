@@ -1,11 +1,11 @@
 # Environment / Operating Reality — CURRENT SURFACES
 
-**Continuity refresh:** 2026-09-14. **Research acceptance:** 2026-09-04.
-**Publication branch:** `maintenance/foundation-continuity-repair-2026-09-14`.
+**Updated:** 2026-09-16. Narrow current-map clarification; research acceptance remains 2026-09-04.
+**Publication:** main after the 08 review's actual update/readback; see Foundation STATE and 08 PUBLICATION.
 
 ## Current package-entry bindings
 
-Paths are relative to this package. These identities describe the maintenance branch, not a completed main publication.
+Paths are relative. The changed map identity was separately read at candidate `e51dfb000fb105b696d1d9ecb23c1668b235f026`; unchanged local identities retain the preceding manifest's scope.
 
 | Path | Git blob SHA |
 |---|---|
@@ -13,13 +13,13 @@ Paths are relative to this package. These identities describe the maintenance br
 | `INDEX.md` | `50aa8fab763ee71051feab44f016d219911df542` |
 | `KEY.md` | `355dd7e8da4922121118da409a7e01fbecc8bad7` |
 | `README.md` | `139b064879de4e2efda74a3a6d34e249746d8c86` |
-| `FINDINGS-MAP.md` | `1663b27201c4396dfc68c6942b8988b48d1d98e1` |
+| `FINDINGS-MAP.md` | `faa8e197ca866ed64fd9b42c9e203b2cffdd66a5` |
 | `OPEN-QUESTIONS.md` | `38453a3c341bc269fa4a861ca5941ebc7ab3e79c` |
 | `DEFERRED-RELATIONS.md` | `57e69d2d2607e0028478aaec662a6244f67d0a42` |
 
 ## Retained deeper-checkpoint bindings
 
-The following bindings were recorded in the September 4 completion manifest, preserved at baseline `e800db333ce3fd89a0534c49d872270335a53af2`, blob `7505697056168353cbe4a42fef3be4fe3ab98f9d`. They remain historical recovery routes, not a claim that this maintenance recursively refreshed all descendant state or upstream hashes. Reopen the target's actual content when using it. Its old external next-work labels do not override Foundation STATE.
+These identities retain the September 4 completion checkpoint, not current recursive validation. Original record: baseline `e800db333ce3fd89a0534c49d872270335a53af2`, manifest blob `7505697056168353cbe4a42fef3be4fe3ab98f9d`. Read actual local STATE/source when needed; historical external successor labels do not override Foundation STATE.
 
 | Node | Recorded manifest path | Recorded Git blob SHA |
 |---|---|---|
@@ -33,10 +33,8 @@ The following bindings were recorded in the September 4 completion manifest, pre
 | Domain Dynamics | `domain-effect/domain-dynamics/CURRENT-SURFACES.md` | `cd4c1dbbd23ac73227ed3765df3c514a54b707ef` |
 | Earlier completion review | `completion-review/CURRENT-SURFACES.md` | `447f3e79b2b7e38b51c37665d0b8e1490c125889` |
 
-Work Conditions and its original evidence remain routed through `work-conditions/`. No new child or research finding is introduced.
+Work Conditions and original evidence remain routed through `work-conditions/`. No new finding or child is introduced. The preceding maintenance manifest, including its then-branch wording, is preserved at input `1328c29d70fef51a6895e81f95c58348b7b1829f`, blob `386c33450d683ca80299c482af3d1213c4b27261`; its repair publication is already complete.
 
-## Status and authority
+## Authority and limits
 
-Environment and its currently promoted descendants remain boundedly accepted; no Environment research node is active. The former Information-inactive/next-ground-selection text described a superseded checkpoint. Current global authority is [Foundation STATE](../../../STATE.md), and maintenance status is [REPAIR-PUBLICATION](../../../REPAIR-PUBLICATION.md).
-
-Content identity, research acceptance, recursive validation and main publication are separate claims. This refresh adds no scientific test execution, independent research validation or architecture authority.
+Environment and its promoted descendants remain accepted; no local node is active. [Foundation STATE](../../../STATE.md) owns the new whole-Foundation assessment and evaluation. The map no longer advertises the early Structure/Condition-discovery checkpoint as current. This identity refresh neither reruns science nor independently validates all source/descendant claims. PUBLICATION under the 08 review owns actual main readback; identity alone does not establish it.

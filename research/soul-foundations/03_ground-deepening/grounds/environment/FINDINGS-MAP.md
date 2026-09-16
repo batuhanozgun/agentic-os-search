@@ -1,99 +1,63 @@
 # Environment / Operating Reality — FINDINGS MAP
 
-**Status:** parent bounded/user-evaluated; Domain State, Domain Dynamics and Work Conditions user-evaluated
+**Updated:** 2026-09-16. Current retrieval clarification only; accepted research unchanged.
+**Standing:** Environment and its currently promoted descendants accepted at the recorded Foundation depth; no local research active.
 
-> **Pass-artifact provenance:** Focused findings, plans, source ledgers and completion audits may preserve labels/status current during their producing passes. Current hierarchy, authorization and epistemic status come from `STATE.md`, `KEY.md`, this router and `CURRENT-SURFACES.md`; older labels and pass-time active/candidate wording are not current authorization.
+The prior map at `1328c29d70fef51a6895e81f95c58348b7b1829f`, blob `1663b27201c4396dfc68c6942b8988b48d1d98e1`, still displayed Structure/Condition as discovered/inactive. That was an early-child checkpoint, not missing research. Current hierarchy/acceptance comes from [STATE](STATE.md) and [INDEX](INDEX.md); [Foundation STATE](../../../STATE.md) owns global work. Original focused findings, plans, sources and audits retain their pass-time arguments.
 
-## Fast route
+## Fast routes
 
-- current shortest Environment view → `KEY.md`
-- current Environment state/authorization → `STATE.md`
-- parent integrated synthesis → `synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`
-- parent completion audit/source recovery → `synthesis/COMPLETENESS-OMISSION-CHECK.md` / `evidence/SOURCE-LEDGER.md`
-- Domain Reality → `domain-effect/STATE.md` / `KEY.md` / `FINDINGS-MAP.md`
-- Domain State → `domain-effect/domain-state/STATE.md` / `KEY.md` / `FINDINGS-MAP.md`
-- Domain Dynamics → `domain-effect/domain-dynamics/STATE.md` / `KEY.md` / `FINDINGS-MAP.md`
-- Work Conditions → `work-conditions/STATE.md` / `KEY.md` / `FINDINGS-MAP.md`
-- exact local freshness → `CURRENT-SURFACES.md`
+- Shortest current hierarchy: `KEY.md`; current status: `STATE.md`.
+- Parent argument: `synthesis/ENVIRONMENT-GROUND-SYNTHESIS.md`, with subsequent-refinement notice.
+- Original omission/source scope: `synthesis/COMPLETENESS-OMISSION-CHECK.md` / `evidence/SOURCE-LEDGER.md`.
+- Domain Reality: `domain-effect/STATE.md` → KEY / FINDINGS-MAP.
+- Domain State: `domain-effect/domain-state/STATE.md` → KEY / FINDINGS-MAP.
+- Domain Dynamics: `domain-effect/domain-dynamics/STATE.md` → KEY / FINDINGS-MAP.
+- Work Conditions: `work-conditions/STATE.md` → KEY / FINDINGS-MAP.
+- Scoped identities: `CURRENT-SURFACES.md`.
 
-## Parent-ground findings
+## Preserved parent question routes
 
-| Question | Read |
+| Question | Original finding |
 |---|---|
 | What evidence/falsifiers existed before the parent pass? | `findings/01-evidence-inventory-and-starting-falsifiers.md` |
-| Can the broad parent avoid `everything relevant`? | `findings/02-parent-boundary-and-reference-frame.md` |
-| Why two parent roles and why was support too narrow? | `findings/03-domain-effect-vs-execution-condition-roles.md` |
+| Can the broad parent avoid everything relevant? | `findings/02-parent-boundary-and-reference-frame.md` |
+| Why two roles, and why was support too narrow? | `findings/03-domain-effect-vs-execution-condition-roles.md` |
 | Why separate actual state from specification/observation/model? | `findings/04-realized-state-dynamics-and-observability.md` |
 | How do resources/constraints/actionability/effects fit? | `findings/05-actionability-resources-constraints-and-effects.md` |
-| Do nontechnical conditions create another parent branch? | `findings/06-nontechnical-conditions-and-boundary-leak.md` |
-| How do nesting/boundary/role switching work? | `findings/07-nesting-role-switching-and-environment-identity.md` |
-| Which parent rivals/names were tested? | `findings/08-rival-decomposition-and-naming-challenge.md` |
-| Did cross-domain parent holdouts force a missing branch? | `findings/09-cross-domain-holdouts-and-omission.md` |
+| Do nontechnical conditions require another parent branch? | `findings/06-nontechnical-conditions-and-boundary-leak.md` |
+| How do nesting, role switching and identity work? | `findings/07-nesting-role-switching-and-environment-identity.md` |
+| Which rivals/names were tested? | `findings/08-rival-decomposition-and-naming-challenge.md` |
+| What did cross-domain holdouts challenge? | `findings/09-cross-domain-holdouts-and-omission.md` |
 | What is the parent problem map? | `findings/10-environment-problem-map-and-failure-surfaces.md` |
 
-## Current hierarchy after deeper branch research
+## Current accepted hierarchy
 
 ```text
 Environment / Operating Reality
-    ├─ Domain Reality
-    │    ├─ Domain State
-    │    │    ├─ Domain Structure / Composition   ← discovered; inactive
-    │    │    └─ Domain Condition / Status        ← discovered; inactive
-    │    └─ Domain Dynamics                       ← bounded leaf; user-evaluated
-    └─ Work Conditions                            ← bounded leaf; user-evaluated
-         ↳ Technical Work Environment             ← deep technical specialization/profile
+├─ Domain Reality
+│  ├─ Domain State
+│  │  ├─ Domain Structure
+│  │  │  ├─ Constituent Composition
+│  │  │  └─ Relational Organization
+│  │  └─ Domain Condition
+│  │     ├─ Realized Characteristics
+│  │     └─ Criterion-Relative Standing
+│  └─ Domain Dynamics [bounded leaf]
+└─ Work Conditions [bounded leaf]
+   ↳ Technical Work Environment [deep specialization/profile]
 ```
 
-### Domain Reality / State / Dynamics
+All promoted descendants above have the accepted scopes recorded in STATE. This map does not newly revalidate their primary literature. Leaf-internal terms remain in local maps/syntheses rather than becoming children by name.
 
-Detailed routes live under `domain-effect/`.
+Earlier names Domain/Effect Reality, Domain State/Configuration, Domain Dynamics/Processes and Work Conditions/Enabling–Constraining Environment retain their original historical contexts. Their subsequent refinements are not evidence that the old passes were never completed. Work Conditions is a Work-relative role over realized circumstances, not a second kind of reality; the technical profile is not a universal immediate child.
 
-Current corrections retained:
-- `Domain / Effect Reality` → `Domain Reality`;
-- `Domain State / Configuration` → `Domain State`;
-- State children = Structure/Composition + Condition/Status;
-- `Domain Dynamics / Processes` → `Domain Dynamics`;
-- Domain Dynamics is a bounded leaf;
-- State and Dynamics user evaluations accepted 2026-09-03.
+## Non-collapse and reuse
 
-### Work Conditions result
+Environment is not everything outside, everything relevant or generic Context. Domain Reality is not every target of Work. Work Conditions does not own Work lifecycle or Actor capability/authority. Actual conditions differ from observations, models, specifications and records. Resource existence, access, availability and sufficiency differ. Work closure does not prove the actual result, and actual change does not prove causal attribution.
 
-Detailed route:
-`work-conditions/FINDINGS-MAP.md`
+Use a concrete question to select the relevant domain/work-condition branch, then its current map, substantive finding and source/audit. The same object can play different roles under different focal Work. Participation in an environmental condition does not transfer another ground's meaning into Environment.
 
-Key corrections:
-- `Work Conditions / Enabling–Constraining Environment` → `Work Conditions`;
-- Work Conditions is a Work-relative analytical role over realized circumstances, not a second kind of reality;
-- no universal immediate child survived deeper falsification;
-- bounded leaf at current universal foundation depth;
-- Technical Work Environment retained as a deep technical specialization/profile, not a demonstrated universal immediate child;
-- user evaluation accepted 2026-09-03.
+## Current authority and limits
 
-## Strong non-collapse rules
-
-- Environment ≠ everything outside / everything relevant / Context.
-- Domain Reality ≠ every target of Work.
-- Work Conditions ≠ a second kind of reality.
-- Work Conditions ≠ Work internal lifecycle/state.
-- Work Conditions ≠ Actor capability/authority.
-- actual State/Dynamics/Work Condition ≠ observation/model/specification/Record.
-- resource exists ≠ accessible ≠ available ≠ sufficient.
-- Work Condition ≠ full actionability.
-- Domain Reality role ≠ Work Conditions role by object identity.
-- Work closure ≠ actual resulting condition.
-- actual change ≠ causal effect attribution.
-
-## Progressive retrieval
-
-Parent:
-`KEY → FINDINGS-MAP → ENVIRONMENT-GROUND-SYNTHESIS → focused finding → audit/source ledger`
-
-Domain Reality:
-`domain-effect/STATE → KEY → FINDINGS-MAP → deeper current child`
-
-Work Conditions:
-`work-conditions/STATE → KEY → FINDINGS-MAP → WORK-CONDITIONS-SYNTHESIS → audit/source ledger`
-
-## Guardrail
-
-No substantive node is active. Current authorised work is selection/planning of one next research node. User evaluation does not automatically authorize Structure, Condition, Information, Work, Actors or another node.
+No Environment node is active. Global activity and the 08 completion proposal are in Foundation STATE. Original research and its same-model/source limitations are unchanged; this clarification performs no scientific test or architecture decision. It repairs a misleading current-looking hierarchy/queue, not the original scientific arguments. Historical deeper bindings in CURRENT-SURFACES remain separately scoped.
