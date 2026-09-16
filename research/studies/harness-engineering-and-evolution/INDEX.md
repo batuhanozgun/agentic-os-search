@@ -4,7 +4,7 @@ Current authority: [STATE](STATE.md). Reuse metadata: [META](META.md). Method: [
 
 | Need | Route |
 |---|---|
-| Current U03-B result, next U03-C and scope | STATE → [PLAN](RESEARCH-PLAN.md) |
+| Current U03-C result, three-family status and next-phase boundary | STATE → [PLAN](RESEARCH-PLAN.md) |
 | Purpose and initial hypotheses | [WHY](00-WHY-THIS-RESEARCH.md) → [BRIDGE](BRIDGE-QUESTIONS.md) |
 | Original paper/video identities | [SOURCE-LEDGER](SOURCE-LEDGER.md) → [original media manifest](evidence/MEDIA-MANIFEST.json) |
 | Video-native chapter map | [Note01](notes/01-SOURCE-NATIVE-MAP.md) |
@@ -31,8 +31,11 @@ Current authority: [STATE](STATE.md). Reuse metadata: [META](META.md). Method: [
 | Math policy, corpus, transfer and grading identity | [Note14](notes/14-MATH-RETRIEVAL-EXPERIMENT-AUDIT.md) |
 | U03-B native sources, recovery and unresolved evidence | [SOURCES](evidence/2026-09-16-u03b-math/SOURCES.md) → [REVIEW](evidence/2026-09-16-u03b-math/REVIEW-AND-LIMITS.md) |
 | Recompute five-model/four-model math comparisons | [DATA](evidence/2026-09-16-u03b-math/REPORTED-DATA.json) → [script](evidence/2026-09-16-u03b-math/audit_reported_numbers.py) → [ARITHMETIC](evidence/2026-09-16-u03b-math/ARITHMETIC.json) |
+| Coding run identity, preparation, comparator and task-verifier chain | [Note15](notes/15-CODING-EXPERIMENT-AND-COMPARATOR-AUDIT.md) |
+| U03-C source pins, actual coverage and review/correction | [SOURCES](evidence/2026-09-16-u03c-coding/SOURCES.md) → [REVIEW](evidence/2026-09-16-u03c-coding/REVIEW-AND-LIMITS.md) |
+| Recompute historical coding differences and separate demo arithmetic | [DATA](evidence/2026-09-16-u03c-coding/REPORTED-DATA.json) → [script](evidence/2026-09-16-u03c-coding/audit_reported_numbers.py) → [ARITHMETIC](evidence/2026-09-16-u03c-coding/ARITHMETIC.json) |
 | Channel-level discovery without duplicate research | [The Carbon Layer](../the-carbon-layer/INDEX.md) |
 
-Earlier notes/evidence retain their historical scopes. U01-B has limited excerpt/fake-command diagnostics. U02-A/B add source-grounded responsibility analyses and selected media checks. U03-A/B add documentary/comparator audits and descriptive arithmetic, not benchmark runs. Reading, source tracing, local calculation, historical reproduction, live efficacy and accepted use remain distinct.
+Earlier notes/evidence retain their historical scopes. U01-B has limited excerpt/fake-command diagnostics. U02-A/B add source-grounded responsibilities and selected media checks. U03-A/B/C add documentary/comparator audits and descriptive arithmetic, not benchmark runs. Reading, source tracing, local calculation, historical reproduction, live efficacy and accepted use remain distinct.
 
-No final CORE or adopted architecture exists. Notes08–12 cover ten video responsibilities and a separate loop; Notes13–14 cover classification and math experimental families. U03-C coding, U04 synthesis and U06 current-project assessment remain open. Re-enter exact sources for detailed or current claims.
+No final CORE or adopted architecture exists. Notes08–12 cover ten video responsibilities and a separate loop; Notes13–15 cover the three experimental families at bounded depths. U04 synthesis and U05–U07 remain open. Return U03-C before the next phase; re-enter exact sources for detailed or current claims.

@@ -8,22 +8,22 @@ This folder is a channel-level alias. It has no independent research STATE or co
 
 ## Recovery path
 
-After canonical agent-control recovery, fully read current [STATE](../../../harness-engineering-and-evolution/STATE.md), [INDEX](../../../harness-engineering-and-evolution/INDEX.md), [METHOD](../../../harness-engineering-and-evolution/METHOD.md) and [RESEARCH-PLAN](../../../harness-engineering-and-evolution/RESEARCH-PLAN.md). Follow their unit-specific requirements rather than treating this alias as a replacement.
+After canonical agent-control recovery, fully read current [STATE](../../../harness-engineering-and-evolution/STATE.md), [INDEX](../../../harness-engineering-and-evolution/INDEX.md), [METHOD](../../../harness-engineering-and-evolution/METHOD.md) and [RESEARCH-PLAN](../../../harness-engineering-and-evolution/RESEARCH-PLAN.md). Follow unit-specific requirements rather than treating this alias as a replacement.
 
-Use [SOURCE-LEDGER](../../../harness-engineering-and-evolution/SOURCE-LEDGER.md) for original video, derivative transcript and separate paper/code identities. [U02-B SOURCES](../../../harness-engineering-and-evolution/evidence/2026-09-15-u02b-coordination/SOURCES.md) records MP4/SRT and actual reading/visual coverage. [U03-A SOURCES](../../../harness-engineering-and-evolution/evidence/2026-09-15-u03a-classification/SOURCES.md) and [U03-B SOURCES](../../../harness-engineering-and-evolution/evidence/2026-09-16-u03b-math/SOURCES.md) separately record paper/comparator reading and arithmetic.
+Use [SOURCE-LEDGER](../../../harness-engineering-and-evolution/SOURCE-LEDGER.md) for original video, derivative transcript and separate paper/code identities. [U02-B SOURCES](../../../harness-engineering-and-evolution/evidence/2026-09-15-u02b-coordination/SOURCES.md) records MP4/SRT and actual coverage. U03 evidence is separate: [classification](../../../harness-engineering-and-evolution/evidence/2026-09-15-u03a-classification/SOURCES.md), [math](../../../harness-engineering-and-evolution/evidence/2026-09-16-u03b-math/SOURCES.md), [coding](../../../harness-engineering-and-evolution/evidence/2026-09-16-u03c-coding/SOURCES.md).
 
 ## Dated continuation checkpoint — 2026-09-16
 
-At setup U02-A was complete and U02-B next. Batu supplied MP4/SRT; U02-B investigated the remaining responsibilities and separate evolution. Those results remain in [Note11](../../../harness-engineering-and-evolution/notes/11-ORCHESTRATION-DELEGATION-AND-PROCEDURES.md) and [Note12](../../../harness-engineering-and-evolution/notes/12-VERIFICATION-OBSERVABILITY-AND-QUALIFIED-EVOLUTION.md).
+At setup U02-A was complete and U02-B next. Batu supplied MP4/SRT; U02-B investigated the remaining responsibilities and separate evolution. Those results remain in Notes11–12 of the canonical package, with earlier responsibilities in Notes08–10.
 
-Batu authorized U03 and subsequently clarified that the plan should remain unchanged. [Note13](../../../harness-engineering-and-evolution/notes/13-CLASSIFICATION-EXPERIMENT-AND-COMPARATOR-AUDIT.md) completes classification's bounded audit; [Note14](../../../harness-engineering-and-evolution/notes/14-MATH-RETRIEVAL-EXPERIMENT-AUDIT.md) completes math's documentary/arithmetic unit. Neither is an independent replication. At this checkpoint the campaign remains ACTIVE/PARTIAL with U03-C coding next and later synthesis/project projection/closure open.
+Batu authorized U03 and retained the sequence after clarifying its meaning and the video/paper connection. Notes13–15 now provide classification, math and coding documentary/comparator audits and descriptive arithmetic, not independent replication. [Note15](../../../harness-engineering-and-evolution/notes/15-CODING-EXPERIMENT-AND-COMPARATOR-AUDIT.md) adds run identity, inherited environment preparation and a task-verifier chain.
 
-A changed canonical STATE supersedes this checkpoint. Do not repeat a subsequently completed unit or promote partial coverage into full campaign completion.
+The campaign remains ACTIVE/PARTIAL. Return U03-C; U04 synthesis is next logical phase after subsequent user direction, not already performed. Later probes, project projection and closure remain open. A changed canonical STATE supersedes this checkpoint; do not repeat a subsequently completed unit.
 
 ## Required distinctions
 
-The video is not the entire hybrid campaign. Stanford's Meta-Harness paper (`2603.28052v1`) is separate. Shared terminology does not make another channel artifact the same work. U03-A/B's arithmetic and source reads are not additional video viewing or audio verification.
+The video's improvement-loop idea and the paper's specific proposal/evaluation mechanism are related but not identical. The paper is not the video transcript or proof of every responsibility. U03 source reads and arithmetic are not additional video viewing or audio verification. Shared terminology does not make another channel artifact the same work.
 
 Original uploads remain conversation assets, not repository-persisted bytes. Hashes identify but do not recover them. Full SRT reading and selected frames do not establish full audio alignment or live behavior. Recover actual media when required; do not request another copy while a usable upload is present.
 
-No second video is selected. Its later research does not universally require every empirical debt in this campaign to be eliminated; the old work must nevertheless retain its true open state.
+No second video is selected. Its later research does not universally require every empirical debt here to be eliminated; the existing study must nevertheless retain its true open state.

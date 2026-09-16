@@ -1,55 +1,47 @@
 # Harness Engineering and Evolution — STATE
 
-**Updated:** 2026-09-16. **Status:** ACTIVE / PARTIAL. **Last bounded unit:** U03-B, math/retrieval experiment audit. **Plan:** v0.7. U03 as a whole remains incomplete; coding is next.
+**Updated:** 2026-09-16. **Status:** ACTIVE / PARTIAL. **Last bounded unit:** U03-C, coding experiment/comparator audit. **Plan:** v0.8. The three U03 families have bounded documentary audits; historical experimental replication and the wider campaign are not complete.
 
 ## Authority and scope
 
-Batu requested deep, staged, revisable research of the video and separate Meta-Harness paper, keeping SOUL/Development OS in view without execution bias. After U02-B, Batu authorized U03. After asking what the unit codes meant, Batu clarified: “planını bozma ... devam et lütfen.” This preserves the planned sequence; the clarification was not a pause, restart, scope change or request to move to a second video. The present unit continues from classification to math, not from documentary research to implementation.
+Batu requested deep, staged, revisable research of the video and separate Meta-Harness paper, keeping SOUL/Development OS in view without execution bias. U03 was explicitly authorized. After clarifying the video/paper connection, Batu said “Aa anladım, çok kritikmiş. Anlaştık, devam et lütfen konuya.” This continues the planned coding unit, not implementation, adoption or a second video.
 
-Write scope remains this package, minimal studies discovery updates and the authorized channel collection's affected continuity. The collection routes here; it does not own this campaign's completion. Do not change Foundation, other studies' substantive research, soul-context, DevOS, explorations, AGENT or agent protocols. No development dispatch, installation, credentials, paid provider/benchmark work or deployment follows from source examples. Safe probes require exact source, fixture, oracle and side-effect boundaries.
+Write scope remains this package, minimal studies discovery updates and the authorized channel collection's affected continuity. The collection routes here; it does not own this campaign's completion. Do not change Foundation, other studies' substantive research, soul-context, DevOS, explorations, AGENT or agent protocols. Source commands do not authorize installation, credentials, paid execution, remote benchmarks, deployment or development dispatch. Safe probes need exact source, fixture, oracle and side-effect boundaries.
 
 ## Preserved work and limits
 
-U00 intake, U01-A classification source characterization, U01-B TerminalBench optimizer/selected-artifact characterization, U02-A/B video responsibilities and U03-A classification experiment/comparator audit remain complete at their recorded depths. Notes01–13, WHY, METHOD, BRIDGE, original source/media ledgers and all prior evidence are preserved.
+U00 intake, U01-A classification source characterization, U01-B TerminalBench optimizer/selected-artifact characterization, U02-A/B video responsibilities and U03-A/B classification/math audits remain complete at their recorded depths. Notes01–14, WHY, METHOD, BRIDGE, source/media ledgers and prior evidence are preserved.
 
-U01-A P01–P07 remain unexecuted. U01-B's eight diagnostic groups and five negative controls retain their copied-source/fake-command limits; none was rerun or upgraded. Full-parent-file verification, first-party suites, live models, historical experiment reconstruction, transfer and independent replication remain open.
+U01-A P01–P07 remain unexecuted. U01-B's eight diagnostic groups and five controls retain copied-source/fake-command limits; none was rerun or upgraded. Whole-module verification, first-party suites, host/containment, timeout/cleanup, expected-task materialization, actual first-request content, compatibility, historical reconstruction and independent replication remain open.
 
-U02-A/B remain documentary/analytical responsibility studies, not new agent/hook/skill/evaluator/sandbox tests. Their ten video responsibilities and separate evolution loop, 714-cue supplied SRT read and selected MP4 frames do not establish continuous viewing, native caption provenance or full audio alignment. Supplied media are not repository-persisted bytes. No new video processing occurred in U03-A/B.
+U02-A/B remain documentary/analytical responsibility studies. Their ten chapters and separate evolution loop, full supplied SRT read and selected frames do not establish continuous viewing, native-caption provenance or full audio alignment. Original media are conversation assets, not repository-persisted bytes. No new media processing occurred in U03.
 
-U03-A's positive but heterogeneous classification results, native comparator descriptions, metric/call/unit distinctions and descriptive arithmetic remain in Note13 and its evidence. Historical adapters, sample identities, paired outputs, independent search repeats and total costs remain unrecovered. The current unit does not validate those experiments by analogy.
+U03-A preserves classification gains/regressions, native comparator mechanisms, metric/call/unit distinctions and arithmetic. U03-B preserves math policy, corpus/grader identity, task-versus-model exposure and comparator-sensitive transfer. Neither supplies raw historical lineage, paired results, independent search repeats, total cost or live efficacy. See Notes13–14 and their evidence for exact limits; coding does not validate them by analogy.
 
-## U03-B result
+## U03-C result
 
-Read [Note14](notes/14-MATH-RETRIEVAL-EXPERIMENT-AUDIT.md), [SOURCES](evidence/2026-09-16-u03b-math/SOURCES.md), [REVIEW](evidence/2026-09-16-u03b-math/REVIEW-AND-LIMITS.md) and [ARITHMETIC](evidence/2026-09-16-u03b-math/ARITHMETIC.json).
+Read [Note15](notes/15-CODING-EXPERIMENT-AND-COMPARATOR-AUDIT.md), [SOURCES](evidence/2026-09-16-u03c-coding/SOURCES.md), [REVIEW](evidence/2026-09-16-u03c-coding/REVIEW-AND-LIMITS.md) and [ARITHMETIC](evidence/2026-09-16-u03c-coding/ARITHMETIC.json).
 
-The math unit recovers the reported four-route lexical retrieval program, search/task/model exposure, corpus-to-prompt restrictions and mixed evaluation. Native IMO-Bench scoring and OpenMathReasoning/NuminaMath metadata clarify what a source record or success measure can establish. A cited adaptive-retrieval study supplies a different timing/abstention alternative, not a direct performance comparison.
+The unit separates the earlier selected 19-task webpage demonstration, Appendix A's process narrative and the final 89-task table. It attributes the highlighted environment-preparation change separately from inherited KIRA machinery. Positive historical Table 7 differences versus KIRA are +1.7 points for Opus and +3.9 for Haiku, not controlled causal effects. Search and final use the same 89 tasks; extra attempts do not establish new-task transfer. Current KIRA metadata cannot replace the historical comparator.
 
-From Table 6's rounded cells, the selected program gains 4.66 percentage points over no retrieval across five models. Against dense k=5 it gains 0.70 across all five but differs by −0.10 on the four models explicitly not used during harness search. The search solver's difference is +3.9. The positive no-retrieval transfer survives; these small comparator-dependent differences do not establish statistical significance, overfitting or universal superiority.
+A pinned path-tracing task supplies a concrete request → test code → reward-writing chain. The worker completion checklist and external task test are different surfaces. Test-body/comment differences and output-proxy scope are recorded without claiming exploitation, all-task verifier validity or historical execution. The task commit was recovered through the renamed repository, not inferred from a broken URL.
 
-Five evaluated versus four not used for search, 250 versus 88 search-problem descriptions, exact proof/pass@1 correspondence, source-quality/difficulty provenance, eligible corpus counts, sample aggregation and historical artifacts remain unresolved. Reported filtering is not a new contamination audit; a native benchmark's grader is not automatically the exact grader used in this experiment.
-
-Only a local standard-library script over manually transcribed, visually checked Tables 6/10/11 was executed. Its three fixed arithmetic checks and three rejected malformed inputs test bookkeeping, not model efficacy. No retriever, provider, model, proof grader, dataset transformation, upstream benchmark or independent replication was run. No confidence interval or p-value was inferred from rounded aggregate cells.
-
-External framework main was rechecked and still matched `0cbc31e97c9e6d24232d1dc754827c02e1ec415c`. Its README and explicit root/reference/experimental entry listings did not recover the historical math code or run records. This is a bounded recovery limit, not proof of absence elsewhere.
+Only a study-authored standard-library arithmetic script ran. Its first run stopped on a mistyped expected sum; that oracle was corrected after an integer-tenths cross-check, then two runs produced identical outputs. Source percentages and experimental criteria were not altered. Three fixed arithmetic checks and four rejected inputs test this bookkeeping only. No upstream program, task solver, compiler, pytest, container, model or benchmark ran. No significance or confidence interval was inferred.
 
 ## Completion boundary
 
-U03-B is complete at documentary/arithmetic depth. It does not close historical efficacy, exact reproduction, total cost, causal component attribution, statistical uncertainty or all-source contamination. U03-C coding and U04–U07 remain open. There is no final CORE, accepted architecture, current-project implementation assessment or adoption grant.
+U03-C is complete at documentary/arithmetic depth. All three planned U03 families now have bounded audits in Notes13–15, not a whole-source synthesis, replicated empirical finding or adopted mechanism. The positive discoveries remain useful with their original identity, cost, causality, measurement and transfer qualifications. There is no final CORE or current-project implementation assessment.
 
-No older media, code, host, historical, timeout/cleanup, expected-task/verifier, first-request compatibility or replay uncertainty is closed. Stronger current-use claims require exact source and environment revalidation.
+## Next responsibility and phase boundary
 
-## Next authorised U03 unit — U03-C, coding experiments
+**Now:** return U03-C's result and the completed-three-family status to Batu. Do not silently start U04 in this turn.
 
-**Question:** What do the coding results establish when the search benchmark, repeated trials, selected artifact, inherited baseline and historical comparison conditions are kept distinct?
+**Next logical phase:** U04, full source-native operating/change synthesis and selective cross-study comparison. The planned question is how the video's operational responsibilities connect to proposal, evidence, evaluation, selection and possible accepted change, while retaining the three experiment families' non-equivalent evidence. Do not create an architecture by mapping every source box into Foundation.
 
-Recover WHY, Note02, SOURCE-LEDGER, Notes05–07 and U01-B SOURCES/CHECKS at their actual scopes. Reopen paper `2603.28052v1` §4.3, Appendix A and B.3, including relevant figures/tables, and the pinned selected-artifact README. Trace the 89 reused search/final-evaluation tasks, trial/aggregation and model distinctions, candidate lineage and the environment-bootstrap change relative to inherited Terminus-KIRA machinery. Separate same-task repeatability from unseen-task transfer, historical leaderboard entries from controlled equal-condition comparisons, proposer diagnoses from causal evidence and benchmark score from acceptance authority.
-
-Re-enter exact source/code/evaluator or comparator paths only for named uncertainties. Preserve U01-B's copied-excerpt/fake-command limitations and do not count a new smoke run as historical reproduction. No paid benchmark, model call, installation or deployment is automatic. The known pins remain unless a justified source/version delta is recorded.
-
-**Return boundary:** return the present U03-B result to Batu. U03-C was not executed in this turn. U03 authorization remains, but neither a completed family nor the next logical step silently authorizes U04 or implementation. A later unrelated video need not wait for every empirical unknown; changing the queue must not falsely close this study.
+**Next authorized action after this return:** await subsequent user direction before starting the new synthesis phase. This is a normal phase-return boundary, not cancellation of the wider plan or a demand for all empirical unknowns to be closed. U05 justified probes, U06 fresh-Foundation/separate SOUL–DevOS projection and U07 reverse audit/CORE remain open. A later unrelated video need not wait for every empirical debt; none has been selected.
 
 ## Cold start and publication
 
-After current agent-control recovery, fully read STATE, INDEX, METHOD and RESEARCH-PLAN. For U03-C recover the WHY/Note02/SOURCE-LEDGER and coding-specific routes above in full before load-bearing use. Read Note14 and its SOURCES/REVIEW before making detailed math claims; Note13 and its evidence before detailed classification claims. Before U06 freshly recover actual Foundation and SOUL/DevOS state and authority.
+After current agent-control recovery, fully read STATE, INDEX, METHOD and RESEARCH-PLAN. For U04 after authorization, recover WHY, BRIDGE, Note01 and Notes08–15 in full, including the U02/U03 source/review qualifications; descend into U01 notes/evidence or exact external sources when their detailed mechanisms are load-bearing. Do not bulk-load every neighbouring study. Before U06 freshly recover actual Foundation and SOUL/DevOS authority/state.
 
-Input main was `21d3c02c31c9f0f489d749dd04b8361abbf73a17`. Publication must preserve unrelated work, refresh shared discovery/main, advance without force and verify the bounded diff, entry files and arithmetic artifact identities. Prepared trees, a passing local calculation and this STATE text are not publication receipts.
+Input main was `871250e157bf04d03241b6c2b33f4b888bbdbde7`. Publication must preserve unrelated work, refresh shared discovery/main, advance without force and verify the bounded diff, entry files and new source/arithmetic identities. A prepared tree or a passing calculation is not a publication receipt.
