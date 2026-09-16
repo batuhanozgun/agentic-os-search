@@ -1,55 +1,34 @@
 # SOUL Foundations — STATE
 
 **Updated:** 2026-09-16
-**Maintenance:** accepted bounded repair / PR #2 merged / research publications complete
-**Latest accepted result:** Selection/Dynamics integration review and I1–I5, explicitly user-evaluated as appropriate
-**Current interaction:** clarify the role of Foundation, studies and explorations in later target-specific construction
-**Current substantive research:** none
-**Next logical research:** Foundation-wide sufficiency, omission and reuse assessment
-**Next authorized research:** none from this message; explicit continuation has not been given
+**Latest accepted research:** Selection/Dynamics integration review and I1–I5
+**Research-use understanding:** owner confirmed the preceding clarification
+**Current authorized work:** Foundation-wide sufficiency, omission and reuse assessment
+**Active entry:** [08 review PLAN](08_foundation-sufficiency-reuse-review/PLAN.md)
+**Whole-Foundation completion:** not yet assessed/accepted at this checkpoint
 
-## Latest authority and purpose discussion
+## Latest authority
 
-After the completed integration review was delivered, the user said: “Öncelik araştırma tarafına benim değerledirmem; uygun.” This accepts the bounded review and its I1–I5 result at the delivered limits. It does not increase verification independence. The remainder of the message requests skeptical clarification of the research-to-design relationship; it is not an instruction to start the next research pass, design Development OS, change a target repository or modify agent-control.
+After explicitly accepting the 07 review, the owner confirmed the research-use explanation and asked to continue: “Süper, tamam aynı bakış açısıyla çalışıyoruz. şimdi foundation tarafındaki araştıraya devam edelim mi?” In context this confirms the understanding recorded in [RESEARCH-USE-ALIGNMENT](RESEARCH-USE-ALIGNMENT.md) and authorizes the already recommended bounded Foundation-wide assessment. It does not pre-accept that assessment or authorize target design, implementation or agent-control changes.
 
-[RESEARCH-USE-ALIGNMENT](RESEARCH-USE-ALIGNMENT.md) records the owner's question and the assistant's proposed clarification. The owner's intent is to use Foundation as a technology-noncommitted basis, specialize it to the target and draw on studies/explorations rather than build from Foundation alone. The assistant's precise formulation and qualifications remain unconfirmed by the owner; do not turn that formulation into an approved statement or architecture decision. This note is project context, not an agent-control protocol.
+The clarification's original unconfirmed wording describes its publication checkpoint; this current owner confirmation supersedes it. Its canonical text/entry synchronization will be completed with the review publication. The intended purpose is a substantive, revisable research basis used alongside target goals/constraints, studies, provisional explorations, additional specialist inquiry and actual target evidence. It is not a Foundation-only construction recipe or a branch-to-component mapping.
 
-Existing canonical library roles already distinguish foundational findings, candidate studies, provisional explorations and design decisions. Structural coverage is not technical/operational sufficiency; Foundation is not four mandatory services, and its branches are not fields that must all receive a mechanism. Actual target purposes, constraints, specialist inquiry and target evidence remain necessary when material. The four-ground frame remains bounded and reopenable, not a proof about every conceivable structure.
+## Active review and stop
 
-## Accepted research frontier
+The [08 PLAN](08_foundation-sufficiency-reuse-review/PLAN.md), published at `7423db99adcd9c5c7c35d2ea89740e0410126635`, fixes the completion criteria and six integrated analytical challenge families before fresh external reading and case assessment. Recover its required source depth, compare materially different cases and rivals, distinguish named research debt from target-specific and independent-verification limits, and assess research retrieval usability.
 
-```text
-Information [accepted parent]
-├─ Informational State [accepted bounded leaf]
-└─ Informational Dynamics [accepted parent]
-   ├─ Formation / Acquisition [accepted bounded leaf; F6]
-   ├─ Derivation / Transformation [accepted parent; T6]
-   │  ├─ Re-expression / Semantic Transfer [accepted bounded leaf; R6]
-   │  ├─ Inferential Construction / Claim Warrant [accepted bounded leaf; W6]
-   │  └─ Maintained-Information Revision [accepted bounded leaf; M5.1–M5.7]
-   └─ Selection / Exposure [accepted parent; S5.1–S5.5]
-      ├─ Use-Conditioned Selection / Set Adequacy [accepted bounded leaf; U5.1–U5.6]
-      └─ Consumer-Relative Exposure / Availability [contextually accepted bounded leaf; E5.1–E5.5]
-```
+Return either a supported current-purpose completion proposal with limits/reopening conditions or a concrete blocking missing inquiry. Do not invent an endless review chain. No new child or subsequent design/implementation phase follows automatically. The present root/index/manifest chain is being updated; prior exact-current bindings for changed files remain the earlier checkpoint until final synchronization, not validation of this work-in-progress.
 
-Environment, Work, Actors, four-ground adequacy and Composition/current promoted descendants retain their accepted scopes. The accepted integration review reconciles the earlier three named missing Dynamics passes with dedicated results and subsequent child acceptance. No unresearched promoted Information child was identified in that recovered chain. This is not universal exhaustion or a fresh full audit of all other ground/source evidence. Whole Foundation is not yet declared complete.
+## Accepted research preserved
 
-## Current result and original evidence
+Environment, Work, Actors, four-ground adequacy and Composition/current promoted descendants retain their accepted depths. Information has accepted State and Dynamics results; Dynamics has Formation, Derivation (Re-expression, Warrant, Revision) and Selection (Use-Conditioned Adequacy, Consumer-Relative Exposure), with all currently promoted dedicated passes accepted. The accepted 07 review reconciles the earlier three named Dynamics debts. That reconciliation is not yet the whole-Foundation sufficiency verdict.
 
-[Review STATE](07_selection-dynamics-integration-review/STATE.md) → [INDEX](07_selection-dynamics-integration-review/INDEX.md) → SYNTHESIS / RIVAL-AND-BOUNDARY-REVIEW / COMPLETION-DEPTH → exact sources/checks. I1–I5 qualify a common adequate/available witness; actual consumer/history scope; use-relative substitutes and established side information; representation/time/current-authority compatibility; and separate research-depth, acceptance, publication and evidence status. The accepted two Selection children and three Dynamics questions remain; strongest rivals remain reopenable.
+[07 STATE](07_selection-dynamics-integration-review/STATE.md) → INDEX/SYNTHESIS/COMPLETION-DEPTH preserves I1–I5, common qualified witnesses, consumer/history scope, substitutions/side information, temporal/authority compatibility and distinct completion/evidence statuses. [07 PUBLICATION](07_selection-dynamics-integration-review/PUBLICATION.md) records its completed original publication. Its former proposal labels are historical, not a repeated approval or upload duty.
 
-[Review PUBLICATION](07_selection-dynamics-integration-review/PUBLICATION.md) records the completed original publication through `f071df1b65a9196a057765ea7dec579f2d5e4f09`. Original review analyses, ledgers, tests and receipt retain their pass-time wording. Their earlier pending-evaluation labels, and earlier parent views describing that checkpoint, are superseded for current review acceptance by Review STATE and this STATE. They are not a new approval/upload queue. The present update records acceptance and discussion, not another scientific review or reperformance.
+## Boundaries and evidence
 
-## Next boundary
+Which findings matter and at what depth remain use-dependent. Preserve applicability, contrary cases and exact evidence routes. Neither every finding's future use nor all-history context is required. Suitable available information is not understanding, authority, competence or benefit.
 
-The accepted review recommends a bounded Foundation-wide sufficiency, omission and reuse assessment. Its distinct question concerns whether the now-deepened Information findings integrate with the other grounds and Composition as a reusable research basis. The current purpose discussion must not be mistaken for execution of that assessment. Its acceptance prerequisite is discharged; explicit research continuation is still required.
+Original scientific tests, source-depth limits and same-assistant verification limits remain. No new execution or whole-corpus revalidation follows merely from this entry update. Original plans/numbered analyses/source histories/receipts are preserved. The accepted repair/PR #2 and earlier research publications are complete; do not reapply ZIPs or repeat completed work. Real material current-route defects can be corrected narrowly within this review.
 
-That later assessment should either justify current-purpose completion with explicit limits/reopening conditions or name a concrete missing inquiry. It should not become an indefinite review treadmill or seek to prove that Foundation alone is an implementation recipe. No successor node, architecture, schema, implementation or agent-control work is active.
-
-## Knowledge purpose and preserved limits
-
-Which findings matter, how much and when depend on the use. Preserve applicability, contrary cases and source/evidence limits. Neither using every finding nor loading all history is required. Suitable available information does not establish understanding, authority, competence or benefit. Studies and explorations are selective inputs with different evidence statuses, not adopted mechanisms or the limit of future knowledge discovery.
-
-The review's four finite constructions/five same-fixture false-rule witnesses and unchanged repeat remain limited evidence. J3's 1215 comparisons are one supplied finite population; J2/J4 share a fixture. No live SOUL/LLM, database concurrency test, independent researcher/model validation or exhaustive archival audit occurred. No scientific test is executed by this acceptance/discussion update.
-
-Exposure's original publication, Revision, Selection, U5 and accepted repair/PR #2 are completed history. [REPAIR-PUBLICATION](REPAIR-PUBLICATION.md) and [REPAIR-AUDIT](REPAIR-AUDIT.md) preserve merge `872a3a7e9b2cef2d24ce8ab5162c99396f015a76`. Do not reapply old ZIPs or rewrite historical science. Newly material path/evidence defects remain checkable. Studies, explorations, target implementation repositories and agent-control are unchanged by this acceptance record.
+Studies, explorations, target implementation repositories and agent-control are outside mutation scope. [INDEX](INDEX.md) retains prior evidence routes while the active entry above governs current work.
