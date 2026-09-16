@@ -1,6 +1,6 @@
 # The Carbon Layer — STATE
 
-**Updated:** 2026-09-16. **Collection status:** ACTIVE / VIDEO-BY-VIDEO COLLECTION. **Current task:** repair repository hierarchy and continuity. **Research checkpoint:** first video has delivered results through U04 at recorded depths; no second source selected.
+**Updated:** 2026-09-16. **Collection status:** ACTIVE / VIDEO-BY-VIDEO COLLECTION. **Current task:** organizational repair COMPLETE; ready for next video/source selection. **Research checkpoint:** first video has delivered results through U04 at recorded depths; no second source selected.
 
 ## Purpose and latest direction
 
@@ -32,9 +32,9 @@ The paper is not the video transcript or proof of every video claim. GSTACK/HERM
 
 ## Next responsibility and selection boundary
 
-Complete and verify this organizational repair; do not start U05 or new substantive research as part of it.
+The hierarchy repair was published at `dc98ff60e01d9c19761fca597fe82a6888aaa676` and checked through actual main readback, the bounded diff and preserved Git object identities. See [publication verification](MIGRATION-VERIFICATION.md). Do not restart the repair or infer a new U05 grant from this completed organizational task.
 
-After the repair the collection is ready for the user's next video/source selection. **No second video ID/title has been supplied, so no second folder or research is fabricated.** The assistant's earlier suggestion to proceed is not a claim that a source has already been selected.
+The collection is now ready for the user's next video/source selection. **No second video ID/title has been supplied, so no second folder or research is fabricated.** The assistant's earlier suggestion to proceed is not a claim that a source has already been selected.
 
 A generic channel continuation must follow this collection's selection state, not automatically resume the first video's remaining U05. Explicit continuation of the first video follows its local recovery path. Moving to another video leaves all first-video residuals open; it does not rename them as another study or close them.
 

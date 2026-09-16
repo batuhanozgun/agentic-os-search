@@ -1,6 +1,6 @@
 # The Carbon Layer / mQfTdNVCOB0 — STATE
 
-**Updated:** 2026-09-16. **Research status:** OPEN / PARTIAL, checkpoint after U04. **Current action:** repository hierarchy and continuity repair only. **Last research result:** U04 source-native operating/change synthesis and selective comparison. **Plan:** v1.0 organizational revision; no research unit added or completed by this migration.
+**Updated:** 2026-09-16. **Research status:** OPEN / PARTIAL, checkpoint after U04. **Current action:** no new research phase selected; organizational repair completed. **Last research result:** U04 source-native operating/change synthesis and selective comparison. **Plan:** v1.0 organizational revision; no research unit added or completed by this migration.
 
 ## Identity, parent and authority
 
@@ -53,4 +53,4 @@ For channel work, start with [collection STATE](../../STATE.md), [METHOD](../../
 
 For U05 after an explicit continuation choice, fully recover Notes16–17 and U04 SOURCES/REVIEW. For the preparation candidate, recover Notes05–07, U01-B SOURCES/CHECKS/SPEC and the exact pinned parent source/dependencies before defining or executing a probe. Keep request construction separate from live benefit and historical efficacy. For U06, freshly recover actual Foundation/SOUL/DevOS authority and context. Do not restart completed work.
 
-The [migration record](../../MIGRATION-2026-09-16.md) binds old/new paths and preserved Git object identities. Its publication verification is separate from research validation.
+The [migration record](../../MIGRATION-2026-09-16.md) binds old/new paths and preserved Git object identities. Migration commit `dc98ff60e01d9c19761fca597fe82a6888aaa676` was published to main and read back. [Publication verification](../../MIGRATION-VERIFICATION.md) concerns preservation and routing, not research validation.
