@@ -19,7 +19,8 @@ Start with [STATE](STATE.md) for current work, authorization and publication. Th
 | Actual reading/execution | [SOURCE-LEDGER](SOURCE-LEDGER.md) → per-unit ledgers |
 | Research history | [RESEARCH-LOG](RESEARCH-LOG.md), latest U03-B |
 | Method decisions and observed effects | [METHOD-REVIEW](METHOD-REVIEW.md), latest MR05 |
-| Publication, byte checks and readbacks | [PUBLICATION](PUBLICATION.md) |
+| Current publication, byte checks and readbacks | [U03-B receipt](PUBLICATION-U03-B.md) |
+| Preserved publication history through U03-A | [PUBLICATION](PUBLICATION.md) |
 
 ## Progressive retrieval
 
@@ -27,10 +28,12 @@ Start with [STATE](STATE.md) for current work, authorization and publication. Th
 
 Follow the mandatory small entry reads in STATE and growing logs by unit. Reopen exact code when a summary drops a necessary input, caller, condition or output boundary. Source-derived rollback/locator/resume cases are not E03 observations. E01/E02 are historical, not new corroboration to rerun by default.
 
+U03-B uses a separate publication receipt to avoid rewriting the entire older receipt history. The older PUBLICATION file remains unchanged; current-versus-historical retrieval is explicit here and in STATE. No other logs were migrated and no duplicate current publication authority is created.
+
 ## Preserved and future work
 
 U00, U01-A/B, U02-A and U03-A remain completed bounded deliveries. U03-B supplies another bounded runtime trace and E03, not whole-system completion. P1/full topology, memory, learning, wider security/evaluation, other control paths and integrated native explanation remain open.
 
 U04-A opens memory/handoff storage, scope, review and consumption. Its first paths are discovery leads requiring pinned body reads. Do not presume that memory resumes a worker, that a saved handoff has been accepted, or that a retrieved record is behavioral authority. Q04e retains deeper runtime acceptance/recovery; Q03b/c and Q04b/c retain prior limitations. No final CORE, architecture/adoption or independently validated research method exists.
 
-Authority: STATE work; META reuse; PLAN sequence; QUESTIONS evidence; ledgers reading; notes explanation; logs history; METHOD-REVIEW method effects; PUBLICATION actual publication. These are project-work material, not agent-control.
+Authority: STATE work; META reuse; PLAN sequence; QUESTIONS evidence; ledgers reading; notes explanation; logs history; METHOD-REVIEW method effects; named publication receipts actual publication. These are project-work material, not agent-control.
