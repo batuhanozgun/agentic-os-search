@@ -2,21 +2,25 @@
 
 First-principles research and reusable evidence for later SOUL / Development OS work, not an adopted architecture or ontology. Start at [STATE](STATE.md), then [INDEX](INDEX.md).
 
-## Current orientation — 2026-09-16
+## Current orientation — 2026-09-17
 
-The owner accepted the Selection/Dynamics integration review/I1–I5 and confirmed the research-use understanding. The subsequent [Foundation-wide review](08_foundation-sufficiency-reuse-review/STATE.md) now proposes **sufficient completion for the confirmed Foundation-research purpose**. This new closure proposal awaits owner evaluation after its actual publication. No next design/implementation phase or new research node is active.
+The original Foundation-wide review is complete and published. After discussing its proposal and a hypothetical mathematics question-bank case, the owner expressed support for moving on and asked for the assistant's judgment. The assistant recommends stopping general/vertical Foundation deepening at its current-purpose sufficient point. No further generic research pass is proposed; no target-specific phase is activated.
 
-Read [08 INDEX](08_foundation-sufficiency-reuse-review/INDEX.md) → SYNTHESIS / CASE-AUDIT / RIVALS-AND-REUSE / COMPLETION-AND-RESIDUALS. [08 PUBLICATION](08_foundation-sufficiency-reuse-review/PUBLICATION.md) records actual readback. The six integrated families are analytical contrasts, not six experiments or a universal completeness proof.
+Read [DISCUSSION-HANDOFF](08_foundation-sufficiency-reuse-review/DISCUSSION-HANDOFF.md) for the exact statement, the output-to-production correction and evidence limits. Support in direction is not recorded as an unconditional acceptance of every scientific claim or a build grant. The old September 16 pending-evaluation checkpoint alone no longer describes the conversation's current position.
+
+The question-bank exercise first underexamined the production system. The owner exposed that omission; the assistant withdrew its early example closure and extended the discussion. Available research does not guarantee that an actor will discover and apply the relevant perspective. This is a candidate future design concern, not an adopted checklist, harness or other mechanism.
+
+For the original argument, read [08 INDEX](08_foundation-sufficiency-reuse-review/INDEX.md) → SYNTHESIS / CASE-AUDIT / RIVALS-AND-REUSE / COMPLETION-AND-RESIDUALS. [08 PUBLICATION](08_foundation-sufficiency-reuse-review/PUBLICATION.md) preserves the original completed publication. Its six analytical families are distinct from the later conversational exercise.
 
 ## What Foundation is for
 
-[RESEARCH-USE-ALIGNMENT](RESEARCH-USE-ALIGNMENT.md) records the now-confirmed understanding: a substantive, technology-noncommitted and revisable knowledge basis, used alongside target-specific goals/constraints, selected studies, provisional explorations, further specialist research and actual target evidence. Foundation alone is not an implementation recipe. A branch does not require a module, service, agent or database field.
+[RESEARCH-USE-ALIGNMENT](RESEARCH-USE-ALIGNMENT.md) records the owner-confirmed understanding: a substantive, technology-noncommitted and revisable knowledge basis, used alongside target-specific goals/constraints, selected studies, provisional explorations, further specialist research and actual target evidence. Foundation alone is not an implementation recipe. A branch does not require a module, service, agent or database field.
 
-Which findings matter and how much to read depend on the use. [REUSE](08_foundation-sufficiency-reuse-review/REUSE.md) provides concrete question-first routes. Preserve applicability, contrary cases and evidence limits rather than placing every result in every context. A system may have plural purposes and distributed authority; a focal question is not proof that every participant shares one objective.
+Which findings matter and how much to read depend on the use. [REUSE](08_foundation-sufficiency-reuse-review/REUSE.md) provides question-first routes. Preserve applicability, contrary cases and evidence limits rather than placing every result in every context. A system may have plural purposes and distributed authority; a focal question is not proof that every participant shares one objective.
 
 ## Research progression and retained structure
 
-`01_verticals` preserves independent corpora; `02_adequacy` the initial framing; `03_ground-deepening` the grounds and dedicated descendants; `04_top-level-adequacy-rerun` the accepted post-deepening assessment; `05_relation-control-composition` cross-ground questions; `06_integration-frontier-review` discovered the historical missing Dynamics passes; `07_selection-dynamics-integration-review` reconciled those debts and qualified the Selection join; `08_foundation-sufficiency-reuse-review` supplies the present whole-Foundation assessment.
+`01_verticals` preserves independent corpora; `02_adequacy` the initial framing; `03_ground-deepening` the grounds and dedicated descendants; `04_top-level-adequacy-rerun` the accepted post-deepening assessment; `05_relation-control-composition` cross-ground questions; `06_integration-frontier-review` discovered the historical missing Dynamics passes; `07_selection-dynamics-integration-review` reconciled those debts and qualified the Selection join; `08_foundation-sufficiency-reuse-review` supplies the whole-Foundation assessment and a separately labelled later discussion handoff.
 
 Environment/Operating Reality, Information/Representation, Work and Actors/Agency–Participation–Authority remain four grounds. Environment retains Domain Reality and Work Conditions and its researched descendants; Technical Work Environment is a specialization. Information retains State/Dynamics; Formation, Derivation and Selection have dedicated results. Derivation contains Re-expression, Warrant and Revision; Selection contains Use-Conditioned Adequacy and Consumer-Relative Exposure. Records is a profile across Information.
 
@@ -32,10 +36,10 @@ Selection separates need-to-view adequacy from information-to-consumer availabil
 
 E5 qualifies target/consumer/mode, actionable temporal access, observations, retained views and supported representation without claiming understanding. I1–I5 require a common compatible witness, actual consumer/history scope, legitimate substitutes and established side information. Different actors' information or authority cannot be silently pooled.
 
-## History, closure and limits
+## History, continuation and limits
 
-Use current STATE/INDEX to distinguish accepted research from the new proposed global closure. Historical analyses, source ledgers, scientific tests and receipts remain preserved. Narrow secondary-map/continuation clarifications in 08 do not restart those passes. Already-delegating upper entries need not copy each new stage.
+Current STATE distinguishes the original completion proposal, later owner-supported direction, assistant assessment and unselected next phase. Earlier pending labels in original analyses and receipts are historical, not a reason to repeat completed delivery. Numbered research, source ledgers, scientific tests and prior receipts remain preserved.
 
-The accepted repair/PR #2 and prior publications are complete; see [REPAIR-PUBLICATION](REPAIR-PUBLICATION.md). Do not reapply old ZIPs or repeat approvals. The 08 verdict is bounded same-assistant analysis with selected primary pressure, not independent replication, a full archival audit or live human/LLM/production validation. No old scientific suite was rerun in 08.
+The accepted repair/PR #2 and prior publications are complete; see [REPAIR-PUBLICATION](REPAIR-PUBLICATION.md). Do not reapply old ZIPs. Neither the original 08 cases nor the later question-bank dialogue supply independent replication, a full archival audit or live human/LLM/production validation. No old scientific suite was rerun by this continuity update.
 
-After owner evaluation, a target-specific inquiry or a concrete named reopening may be selected. No extra generic review is owed merely because uncertainty remains. A current-purpose completion judgment can coexist with further learning and specialist engineering; it does not authorize architecture, implementation or agent-control changes automatically.
+The next logical work is a separately selected target-specific inquiry. A concrete omission, invalidated premise, forced fit or lost distinction can reopen the relevant Foundation result; a fifth ground is not the only possible correction. No extra generic review is owed merely because uncertainty remains. No architecture, implementation or agent-control change follows automatically.
