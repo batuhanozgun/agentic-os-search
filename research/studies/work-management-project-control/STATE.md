@@ -8,88 +8,59 @@ User authorization on 2026-09-17: plan the research program, process candidate r
 
 ## Current status
 
-**ACTIVE / U01–U06 BOUNDED-COMPLETE; U07 GAS TOWN NEXT**
+**ACTIVE / U01–U08 COMPLETE; U09 ERPNext GAP UNIT NEXT**
 
-OpenProject provides the classical project/work-package baseline; Flowable provides durable process/case/decision execution; Beads provides an agent-native dependency/frontier/claim model; OpenSpec provides an artifact-DAG/living-plan model; Spec Kit provides spec-driven decomposition plus an implement→converge loop; Leantime adds strategy/goal/milestone/program alignment. The next unit is Gas Town.
+The first wave is complete and synthesized in `08-CROSS-UNIT-SYNTHESIS.md`. One material gap remains from the user's original SAP-PS-like framing: enterprise resource/cost/accounting/operational integration. ERPNext is activated as the only immediate U09 second-wave target to cover that gap.
 
-## Completed
+## Completed units
 
-### U00 — Program framing and method setup
+- **U00 — Method/program setup** — COMPLETE
+- **U01 — OpenProject** — BOUNDED-COMPLETE (`../openproject/`)
+- **U02 — Flowable** — BOUNDED-COMPLETE (`../flowable/`)
+- **U03 — Beads** — BOUNDED-COMPLETE (`../beads/`)
+- **U04 — OpenSpec** — BOUNDED-COMPLETE (`../openspec/`)
+- **U05 — GitHub Spec Kit** — BOUNDED-COMPLETE (`../spec-kit/`)
+- **U06 — Leantime** — BOUNDED-COMPLETE (`../leantime/`)
+- **U07 — Gas Town** — BOUNDED-COMPLETE (`../gastown/`)
+- **U08 — Cross-unit synthesis and gap assessment** — COMPLETE (`08-CROSS-UNIT-SYNTHESIS.md`)
 
-- bounded research object defined: large-work / project-control methodology rather than “pick a project-management product”;
-- common comparison matrix defined in `METHOD.md`;
-- first-wave targets selected to maximize methodological diversity rather than feature-count repetition;
-- sequence and revision rules recorded in `PLAN.md`.
+## First-wave synthesis result
 
-### U01 — OpenProject — BOUNDED-COMPLETE
-Package: `../openproject/`.
+Six mechanism families are now source-bounded:
 
-Core contribution: classical work-package hierarchy/relations/scheduling/workflow/portfolio baseline.
+1. classical project/schedule control;
+2. durable process/case/decision execution;
+3. dependency-DAG/actionable-frontier control;
+4. artifact-dependency/living-plan control;
+5. spec-driven procedural decomposition/convergence;
+6. multi-agent orchestration/execution control.
 
-### U02 — Flowable — BOUNDED-COMPLETE
-Package: `../flowable/`.
+Leantime also adds the strategy→goal→milestone→delivery alignment axis.
 
-Core contribution: durable process/case/decision execution, wait states, migration, retry/cancel/compensation distinctions.
+The first wave rejects the shortcut “large-work management = task tracking + dependencies.” It shows multiple independent standings and control surfaces: intent, representation, readiness, execution, actor authority/liveness, verification, integration and outcome.
 
-### U03 — Beads — BOUNDED-COMPLETE
-Package: `../beads/`.
+## U09 gap decision
 
-Core contribution: computed actionable frontier, typed graph control, CAS claim, liveness lease and dead-worker recovery.
+### Activated: ERPNext
 
-### U04 — OpenSpec — BOUNDED-COMPLETE
-Package: `../openspec/`.
+Reason: enterprise project control remains under-covered, specifically the binding of project/task structure to:
 
-Core contribution: artifact dependency graph, living plan, planning/apply/completion separation, archive reconciliation.
+- people/resource/time records;
+- timesheets;
+- expenses/costing;
+- procurement/material/business operations where applicable;
+- billing/revenue/accounting;
+- budget/financial standing;
+- operational transactions outside the project tracker itself.
 
-### U05 — GitHub Spec Kit — BOUNDED-COMPLETE
-Package: `../spec-kit/`.
+### Not activated now
 
-Core contribution: spec-driven staged decomposition, reviewer-owned requirement gates, bounded session execution and implement→converge remediation loop.
+- **Camunda:** Flowable already covers the process/case/decision family for this bounded program.
+- **Plane / Redmine / Taiga:** issue/agile work control is sufficiently represented for current open questions by OpenProject, Leantime and Beads.
+- **Huly:** unified communication/document workspace is not the demonstrated gap.
+- **TASKS.md/minimal queue:** existing Beads + Wayfinder + recursive-prerequisite research is sufficient for the current bounded comparison.
 
-### U06 — Leantime — BOUNDED-COMPLETE
-Package: `../leantime/`.
-
-Source-bounded findings at `Leantime/leantime@056835f1c29cf1f587415e6c45ddaf8d69f8d24c`:
-
-- goals/metrics, milestones, tickets/tasks, sprints and project/program/strategy containers are distinct work/control objects;
-- goal standing (`on track / at risk / miss`) differs from task lifecycle standing (`new / blocked / in progress / waiting for approval / done`);
-- goals maintain explicit start/current/target metric values and history;
-- goal↔milestone traceability is an explicit many-to-many `tracked_by` relation;
-- milestone progress is separately derived from delivery work, so delivery completion and objective attainment remain distinct;
-- project-custom task labels map to smaller semantic status categories for cross-project aggregation;
-- roadmap/milestone, sprint and program groupings are orthogonal planning/aggregation surfaces;
-- plugin-backed resource allocation remains outside this unit's load-bearing findings pending paired-plugin validation.
-
-See `../leantime/FINDINGS.md` and `../leantime/SOURCE-LEDGER.md`.
-
-## First-wave unit queue
-
-1. **U01 — OpenProject** — **COMPLETE**
-2. **U02 — Flowable** — **COMPLETE**
-3. **U03 — Beads** — **COMPLETE**
-4. **U04 — OpenSpec** — **COMPLETE**
-5. **U05 — Spec Kit** — **COMPLETE**
-6. **U06 — Leantime** — **COMPLETE**
-7. **U07 — Gas Town** — **NEXT** — multi-agent work allocation, persistent work state and large-scale coordination.
-8. **U08 — Cross-unit synthesis** — compare mechanism families without forcing a winner or universal ontology.
-9. **U09 — Gap-driven second wave** — only if first-wave synthesis exposes missing coverage.
-10. **U10 — Bounded closure / evaluation checkpoint**.
-
-## Conditional second-wave candidates
-
-Not yet activated as full units; activate only for a demonstrated coverage gap:
-
-- ERPNext — enterprise/ERP project, resource, cost and operational integration;
-- Camunda — process orchestration and human/system task execution;
-- Plane — modern issue/cycle/triage model and agent-access surface;
-- Redmine — mature issue relation/subtask/workflow baseline;
-- Taiga — Scrum/Kanban/agile work-state baseline;
-- Huly — unified project/document/communication workspace;
-- TASKS.md or another minimal file-native agent queue — minimum viable shared-work representation.
-
-## Method learning after U01–U06
-
-Eighteen distinctions are now load-bearing:
+## Load-bearing method distinctions after U01–U08
 
 1. relation identity ≠ control effect;
 2. recorded state ≠ executed transition;
@@ -108,27 +79,32 @@ Eighteen distinctions are now load-bearing:
 15. delivery progress ≠ objective/outcome progress;
 16. execution lifecycle standing ≠ strategic trajectory standing;
 17. strategic traceability relation ≠ ownership/dependency relation;
-18. reasoning/support artifacts (risk/retro/canvas) ≠ task-state controls unless explicitly wired.
+18. reasoning/support artifacts ≠ task-state controls unless explicitly wired;
+19. work substrate ≠ orchestration substrate;
+20. actor identity ≠ runtime session;
+21. logical readiness ≠ dispatch admissibility under capacity;
+22. work state ≠ scheduling/execution-attempt state;
+23. worker completion ≠ aggregate completion ≠ integrated/verified standing;
+24. event-driven transition ≠ reconciled derived state;
+25. relation meaning / control effect / enforcement point must be recorded separately;
+26. completion signal ≠ verified effect ≠ desired outcome.
 
-Later units should preserve these distinctions rather than normalizing every system into task/status/dependency.
-
-## Unit completion contract
-
-Before a unit can be marked source-bounded complete:
-
-1. current upstream target and default branch/release are revalidated;
-2. a concrete ref/version/date is recorded;
-3. the target's own ontology is recovered before mapping it to our terms;
-4. evidence covers the relevant method dimensions, not only README feature claims;
-5. state/dependency/ownership/change/recovery semantics are distinguished where present;
-6. “what this does not establish” is written explicitly;
-7. relevant existing studies are compared selectively, not projected onto the target;
-8. package/catalog state is updated before moving to the next unit.
+These are research distinctions, not a proposed SOUL or Development OS schema.
 
 ## Current next action
 
-Begin **U07 Gas Town**. Recover the native work and actor topology: Mayor/rigs/polecats/convoys or current equivalents, how work is represented/allocated/claimed, what persists across agents, how parallelism and completion are coordinated, how failures/abandoned workers are recovered, what provenance/attribution exists, and where Gas Town delegates work-state semantics to Beads rather than owning them. Preserve the Beads/Gas Town boundary explicitly.
+Begin **U09 ERPNext**. Recover its native Project/Task/Timesheet/cost/billing/resource relationships before mapping them to SAP-PS-like concepts. Focus on what project records actually control or aggregate, what accounting/operational transactions merely reference projects/tasks, how costing/billing is derived, how time and people are represented, and which enterprise control concepts remain absent even after ERPNext.
+
+## Closure condition
+
+After U09, perform U10 bounded closure/evaluation:
+
+- update parent synthesis/gap conclusion if ERPNext changes it;
+- decide whether any material gap still justifies another target;
+- update `META.md`, `PLAN.md`, `INDEX.md`, root `CATALOG.md` / `INDEX.md`;
+- mark the parent review-ready/bounded-complete if fresh-session recovery is coherent;
+- do not make SOUL/Development OS architecture or adoption decisions.
 
 ## Fresh-session recovery
 
-Read `META.md` → this `STATE.md` → `METHOD.md` → `PLAN.md`; open completed target packages only when comparison requires them. Resume the first unfinished unit above.
+Read `META.md` → this `STATE.md` → `METHOD.md` → `PLAN.md` → `08-CROSS-UNIT-SYNTHESIS.md`. Then execute U09 ERPNext only. Completed target packages are opened selectively when comparison requires them.
