@@ -118,3 +118,37 @@ From main: full Note 02, full U01-B source ledger, full STATE before this final 
 | Library index | `b09efbde4a0f1dc7ba01c6ed66b29e09d4e0344e` |
 
 No ECC installer, test, host/model, new local probe, actual cache or registry tarball was run/read as runtime evidence in U01-B. The large recursive response was not a fully reviewed inventory. Source-level channel/materialization findings are published; ownership-helper closure and actual host consumption remain open. U02-A is the next bounded source question, not already completed work. The subsequent STATE wording update records this completed publication without adding scientific evidence.
+
+## U02-A — 2026-09-17 — Published ownership/checkpoint/projection source study
+
+Current study remains ACTIVE/PARTIAL; METHOD 0.1, PLAN 0.4; next U03-A is not started. This receipt records repository publication and bounded self-review, not new ECC execution.
+
+| Published artifact | Actual commit |
+|---|---|
+| U02-A source ledger | `81cb96382401507855de5e31c71e5a7211c8fe07` |
+| Note 03 | `8193ab44ac72911e223181ecc5444a655da497fb` |
+| Package INDEX | `2195f262b21ebe0571a3819cb004c0d11dd62e3c` |
+| META | `540375ffcc3e657a31a3898026eac0050e940531` |
+| PLAN 0.4 | `2c82c41200adb7038b344101358f9788fa0af263` |
+| QUESTIONS | `a7a0e904f73ed168c93ef635bd1cebf43582cbc7` |
+| RESEARCH-LOG | `c2a62d72aeb1219534fccbb2f009e922659db830` |
+| METHOD-REVIEW / MR03 | `4c0f63588152b352ef9aef3449c0ab1e70bb9253` |
+| SOURCE-LEDGER | `1d0f85649750d900f27dd61447b3835e52c6ae47` |
+| Shared ECC catalog row | `8f6516f59d5aa5d387de99f8a49e00a810b69771` |
+| Shared ECC route | `6b482713275d1d4c2954bb4a0f9a1216bc7cd55c` |
+
+All were direct contents-API writes on main. A stale CATALOG update at blob `88be5ac...` was rejected with 409; no stale content was applied. The current catalog was recovered in full at `5cd1303...`, including the other work-management studies' closure changes, before the successful ECC update. No force, new branch or new PR was used in U02-A. Prior PR #3 is already merged, not pending work.
+
+### Checks completed before this receipt
+
+- Main Note 03 was read through 1–70 and 71–EOF, same blob `06077976b0ba350adc0b07e35f6e4c3f3f680703`.
+- Main U02-A source ledger was read in full, blob `9ddb1fa9606e3f1a72bcd1eb3efcbeea29ea7fcb`.
+- PLAN 0.4 lines 1–65 were read back, blob `3196144f08bf3adb3204b88ed1915350032a5d73`: completed U02-A, exact U03-A next sources, P1 partial and Q03b/Q03c limits present. This is selected readback, not a claim that every updated file was fully reread.
+- Compare `ab15db506a841720d75cb81c3dec536e55350251...6b482713275d1d4c2954bb4a0f9a1216bc7cd55c` showed the nine changed ECC core paths and concurrent other-study/library changes. ECC METHOD-REVIEW, RESEARCH-LOG and SOURCE-LEDGER had respectively 14/16/8 additions and zero deletions. METHOD, WHY and earlier evidence were not changed.
+- Exact commit patches for the two shared updates were read. Library INDEX changed only its ECC route. CATALOG changed only the ECC row semantically, plus removal of its final newline; no other catalog entry was altered by the successful ECC commit. Concurrent ERPNext, Superpowers and work-management changes in the larger comparison are not ECC work.
+
+The following STATE-only closure update records current work and publication; this receipt does not self-reference its own commit or claim a future readback already occurred. No owner upload/merge is required for the published artifacts.
+
+### Scientific and operational limits
+
+S48/S50 tests were inspected, NOT RUN. Q03b is an unexecuted source-derived interrupted-guided-retry counter-path, not an observed incident. No ECC installer/helper, host, model, database or new local probe was executed. P1 remains incomplete; full repair/uninstall, merged-JSON ownership and crash/concurrent-writer validation remain open. No automated full link/semantic suite or independent cold-start trial was performed. These publication checks preserve access and bounded consistency, not general methodology or runtime efficacy.
