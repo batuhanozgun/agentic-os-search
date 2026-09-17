@@ -8,9 +8,9 @@ User authorization on 2026-09-17: plan the research program, process candidate r
 
 ## Current status
 
-**ACTIVE / U01–U05 BOUNDED-COMPLETE; U06 LEANTIME NEXT**
+**ACTIVE / U01–U06 BOUNDED-COMPLETE; U07 GAS TOWN NEXT**
 
-OpenProject provides the classical project/work-package baseline; Flowable provides durable process/case/decision execution; Beads provides an agent-native dependency/frontier/claim model; OpenSpec provides an artifact-DAG/living-plan model; Spec Kit provides spec-driven decomposition plus an implement→converge loop. The next unit is Leantime.
+OpenProject provides the classical project/work-package baseline; Flowable provides durable process/case/decision execution; Beads provides an agent-native dependency/frontier/claim model; OpenSpec provides an artifact-DAG/living-plan model; Spec Kit provides spec-driven decomposition plus an implement→converge loop; Leantime adds strategy/goal/milestone/program alignment. The next unit is Gas Town.
 
 ## Completed
 
@@ -44,17 +44,23 @@ Core contribution: artifact dependency graph, living plan, planning/apply/comple
 ### U05 — GitHub Spec Kit — BOUNDED-COMPLETE
 Package: `../spec-kit/`.
 
-Source-bounded findings at `github/spec-kit@0ced2885af4b90266c11feb598c7425cdc706aea`:
+Core contribution: spec-driven staged decomposition, reviewer-owned requirement gates, bounded session execution and implement→converge remediation loop.
 
-- SDD separates constitution, spec, plan, tasks, code and convergence remediation work;
-- task generation uses Setup → Foundational → independent user-story phases → Polish, with explicit task IDs and parallel markers;
-- reviewer-owned requirements-quality checklists are semantically distinct from implementation task completion;
-- large work can be implemented in bounded per-session slices while the whole plan remains durable;
-- analyze sends defects back to the upstream artifact that owns them;
-- converge compares realized state to intent and appends traceable remediation tasks instead of rewriting previous work;
-- implement→converge repeats until the agent reports a fixed point, but that report is not an independent correctness oracle.
+### U06 — Leantime — BOUNDED-COMPLETE
+Package: `../leantime/`.
 
-See `../spec-kit/FINDINGS.md` and `../spec-kit/SOURCE-LEDGER.md`.
+Source-bounded findings at `Leantime/leantime@056835f1c29cf1f587415e6c45ddaf8d69f8d24c`:
+
+- goals/metrics, milestones, tickets/tasks, sprints and project/program/strategy containers are distinct work/control objects;
+- goal standing (`on track / at risk / miss`) differs from task lifecycle standing (`new / blocked / in progress / waiting for approval / done`);
+- goals maintain explicit start/current/target metric values and history;
+- goal↔milestone traceability is an explicit many-to-many `tracked_by` relation;
+- milestone progress is separately derived from delivery work, so delivery completion and objective attainment remain distinct;
+- project-custom task labels map to smaller semantic status categories for cross-project aggregation;
+- roadmap/milestone, sprint and program groupings are orthogonal planning/aggregation surfaces;
+- plugin-backed resource allocation remains outside this unit's load-bearing findings pending paired-plugin validation.
+
+See `../leantime/FINDINGS.md` and `../leantime/SOURCE-LEDGER.md`.
 
 ## First-wave unit queue
 
@@ -63,8 +69,8 @@ See `../spec-kit/FINDINGS.md` and `../spec-kit/SOURCE-LEDGER.md`.
 3. **U03 — Beads** — **COMPLETE**
 4. **U04 — OpenSpec** — **COMPLETE**
 5. **U05 — Spec Kit** — **COMPLETE**
-6. **U06 — Leantime** — **NEXT** — strategy/goals → milestones/projects/tasks → execution and retrospective surfaces.
-7. **U07 — Gas Town** — multi-agent work allocation, persistent work state and large-scale coordination.
+6. **U06 — Leantime** — **COMPLETE**
+7. **U07 — Gas Town** — **NEXT** — multi-agent work allocation, persistent work state and large-scale coordination.
 8. **U08 — Cross-unit synthesis** — compare mechanism families without forcing a winner or universal ontology.
 9. **U09 — Gap-driven second wave** — only if first-wave synthesis exposes missing coverage.
 10. **U10 — Bounded closure / evaluation checkpoint**.
@@ -81,9 +87,9 @@ Not yet activated as full units; activate only for a demonstrated coverage gap:
 - Huly — unified project/document/communication workspace;
 - TASKS.md or another minimal file-native agent queue — minimum viable shared-work representation.
 
-## Method learning after U01–U05
+## Method learning after U01–U06
 
-Fourteen distinctions are now load-bearing:
+Eighteen distinctions are now load-bearing:
 
 1. relation identity ≠ control effect;
 2. recorded state ≠ executed transition;
@@ -98,7 +104,11 @@ Fourteen distinctions are now load-bearing:
 11. whole-plan state ≠ current-session admitted work slice;
 12. requirements-quality approval ≠ implementation task completion;
 13. source-directed repair ≠ arbitrary downstream patching;
-14. initial-plan completion ≠ convergence with realized state.
+14. initial-plan completion ≠ convergence with realized state;
+15. delivery progress ≠ objective/outcome progress;
+16. execution lifecycle standing ≠ strategic trajectory standing;
+17. strategic traceability relation ≠ ownership/dependency relation;
+18. reasoning/support artifacts (risk/retro/canvas) ≠ task-state controls unless explicitly wired.
 
 Later units should preserve these distinctions rather than normalizing every system into task/status/dependency.
 
@@ -117,7 +127,7 @@ Before a unit can be marked source-bounded complete:
 
 ## Current next action
 
-Begin **U06 Leantime**. Recover how strategy/goals connect to projects, milestones, tasks and execution; how task dependencies and status are represented; how milestones/roadmaps/risks/retrospectives feed planning; whether higher-level goal progress is derived or manually asserted; and what happens when strategy or scope changes. Focus on concepts absent from agent-native systems: objective alignment, milestones, risk and organizational planning.
+Begin **U07 Gas Town**. Recover the native work and actor topology: Mayor/rigs/polecats/convoys or current equivalents, how work is represented/allocated/claimed, what persists across agents, how parallelism and completion are coordinated, how failures/abandoned workers are recovered, what provenance/attribution exists, and where Gas Town delegates work-state semantics to Beads rather than owning them. Preserve the Beads/Gas Town boundary explicitly.
 
 ## Fresh-session recovery
 
