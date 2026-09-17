@@ -1,33 +1,35 @@
 # ECC — INDEX
 
-Start with [STATE](STATE.md) for current work, authority and publication. This is a retrieval index, not a second work-state authority.
+Start with [STATE](STATE.md) for current work, authority and publication. This index routes retrieval; it does not own a second work state.
 
 | Need | Entry |
 |---|---|
 | Purpose and provisional initial assumptions | [WHY](00-WHY-THIS-RESEARCH.md) |
-| Target, pin, current reuse and limits | [META](META.md) |
-| Current ownership/checkpoint/projection explanation | [Note 03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md) → [U02-A sources](evidence/U02-A-SOURCES.md) |
-| Installation channels and materialization | [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md) → [U01-B sources](evidence/U01-B-SOURCES.md); bridge scope refined by Note 03 §4 |
-| Earlier surfaces/Codex hook/cache-checker result | [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md) |
-| Existing local execution, not rerun | [E01](evidence/u01-a-cache-probe/README.md) → plan/runner/raw results |
-| Remaining source/distribution frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B discovery](inventory/U01-B-DISCOVERY.md); U02-A state-store metadata delta in its source ledger |
-| Research discipline and sequencing | [METHOD](METHOD.md), [PLAN](PLAN.md) |
-| Bounded answers and open residuals | [QUESTIONS](QUESTIONS.md), particularly Q03a/Q03b/Q03c and next Q04 |
-| Actual source/test/execution coverage | [SOURCE-LEDGER](SOURCE-LEDGER.md) → unit source ledgers |
-| Work transitions | [RESEARCH-LOG](RESEARCH-LOG.md) |
-| Method decisions and effects | [METHOD-REVIEW](METHOD-REVIEW.md), latest MR03 |
-| Real publication and readbacks | [PUBLICATION](PUBLICATION.md) |
+| Target, pin, reuse and limits | [META](META.md) |
+| Work-card/session records versus actual control | [Note 04](notes/04-WORK-SESSION-RECORDS-AND-CONTROL.md) → [U03-A sources](evidence/U03-A-SOURCES.md) |
+| Exact new claim/move local experiment | [E02](evidence/u03-a-work-item-probe/README.md) → plan/runner/raw results; unchanged helper plus store double, not real board/SQLite/agent |
+| Ownership/checkpoints/projection | [Note 03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md) → [U02-A sources](evidence/U02-A-SOURCES.md) |
+| Installation channels/materialization | [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md) → [U01-B sources](evidence/U01-B-SOURCES.md); bridge scope refined in Note 03 §4 |
+| Earlier source surfaces/Codex cache falsifier | [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md) |
+| Original cache experiment, not rerun | [E01](evidence/u01-a-cache-probe/README.md) |
+| Remaining source/distribution frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md); U02-A/U03-A ledgers add bounded subtree observations |
+| Research discipline and sequence | [METHOD](METHOD.md), [PLAN](PLAN.md) |
+| Bounded answers and residuals | [QUESTIONS](QUESTIONS.md); Q04a–d plus preserved Q03b/c |
+| Actual read/test/execution coverage | [SOURCE-LEDGER](SOURCE-LEDGER.md) → unit ledgers |
+| Work transitions and decisions | [RESEARCH-LOG](RESEARCH-LOG.md), latest U03-A |
+| Method decisions and observed effects | [METHOD-REVIEW](METHOD-REVIEW.md), latest MR04 |
+| Real publication/readback/concurrency | [PUBLICATION](PUBLICATION.md) |
 
 ## Progressive retrieval
 
-`library CATALOG → META → STATE → active question/plan → bounded note → exact pinned source`.
+`library CATALOG → META → STATE → active question/plan → bounded note → exact source`.
 
-Read the small current-entry files in full as STATE specifies; follow growing logs/ledgers by unit. Reopen the actual source when a summary drops an operation, caller, failure or evidence boundary. U02-A's source-derived retry counter-path is not a new executed incident.
+Read current small entry files in full as STATE specifies. Growing logs and ledgers are followed by unit. Reopen exact producer/consumer source whenever summaries omit a necessary condition. An old local probe is not new corroboration; a source-derived sync or retry scenario is not an executed incident.
 
-## Existing and future work
+## Preserved and future work
 
-U00, U01-A, U01-B and U02-A are distinct bounded deliveries. U02-A adds source/test-source evidence, not another runtime test. P1/full topology remains partial; the five-file state-store directory listing does not close it. No final CORE, integrated system model, installation, adoption or independently validated research method exists.
+U00, U01-A/B, U02-A and U03-A are distinct bounded deliveries, not completed coverage of every major ECC family. E02 is the only new local execution in U03-A. P1/full topology, live consumers and integrated system explanation remain open. The five state-store bodies are read across units; wider scripts/tests/Rust/native Workflow and generated/domain regions are not thereby complete.
 
-Next U03-A investigates Work/session records and actual control; it is not already performed. Installation residuals remain in QUESTIONS and must be reopened when load-bearing, not silently forgotten or used to justify exhausting every installer before other families.
+U03-B is next: real worktree/session launch, status/handoff, acceptance and recovery. Do not infer from local-card limitations that no runtime control exists elsewhere. Q04b/c and Q03b/c have explicit re-entry triggers rather than becoming an endless prerequisite campaign. No final CORE, architecture/adoption or independently validated method is claimed.
 
-STATE owns current work; META reuse; PLAN sequence; QUESTIONS epistemic status; source ledgers coverage; notes explanations; chronological logs historical changes; METHOD-REVIEW method effects; PUBLICATION repository publication. These are project-work material, not agent-control.
+STATE owns work; META reuse; PLAN sequence; QUESTIONS evidence status; ledgers coverage; notes explanations; chronological logs history; METHOD-REVIEW method effects; PUBLICATION publication evidence. All are project-work material, not agent-control.
