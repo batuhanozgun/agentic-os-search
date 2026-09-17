@@ -1,58 +1,57 @@
 # ECC — STATE
 
 **Updated:** 2026-09-17
-**Current checkpoint:** U02-A — ownership, partial-write checkpoints and derived health
-**Work status:** U02-A COMPLETE / PUBLISHED. New source/note files, current metadata/plan/questions, chronological records and ECC discovery routes reached main. [PUBLICATION](PUBLICATION.md), latest U02-A section, records actual commits, readbacks and concurrency limits. No owner upload or merge is pending.
-**Study status:** ACTIVE / PARTIAL. P1/full topology and live host/consumer closure remain incomplete.
-**Method / plan:** 0.1 / 0.4
+**Current checkpoint:** U03-A — Work/session records and control boundaries
+**Work status:** U03-A COMPLETE / PUBLISHED. Note 04, source ledger and E02 were merged through PR #4; metadata/plan/questions, chronological records and ECC catalog/index routes were updated on main. [PUBLICATION](PUBLICATION.md), latest U03-A section, records actual commits, completed readbacks, byte checks and concurrency limits. No owner upload or merge is pending.
+**Study status:** ACTIVE / PARTIAL. P1/full topology and the broader runtime, memory, learning, security/evaluation and integrated system explanation remain incomplete.
+**Method / plan:** 0.1 / 0.5
 **Pinned target:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`
 
 ## Latest authorized goal
 
-The user said 'anlaştık. devam et.' after U01-B. This continued the source-grounded ECC study and its repository-centred research/method record. It did not authorize installation, upstream reporting, architecture or independent acceptance of each claim.
+The user asked for a qualitative plan/progress assessment, then said 'Harika, hakimsin plana. devam et lütfen araştırmaya.' This continued the source-grounded ECC study and repository-centred method record. It did not change the end goal, authorize installation/architecture, accept every inference as verified, or close the overall study.
 
-U00, U01-A and U01-B are prior completed deliveries. U02-A now completes one bounded ownership/checkpoint/projection investigation. Do not repeat the setup or treat earlier published evidence as missing upload work.
+U00, U01-A/B and U02-A remain prior completed deliveries. U03-A now completes the first bounded Work/session record investigation. Earlier 'complete' labels refer to units, not exhaustive ECC understanding.
 
-- **Current result:** [Note 03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md), [U02-A sources](evidence/U02-A-SOURCES.md), MR03 and the U02-A work log.
-- **Next authorized source unit:** U03-A / Q04 — Work/session record producers and actual consumers/control. It is selected but NOT STARTED. [PLAN](PLAN.md) gives first sources and return condition.
-- **Open residuals:** Q03b interrupted guided-retry counter-path, unexecuted; Q03c full lifecycle/JSON/crash/concurrency questions; P1 discovery debt. These are not silently closed when other families advance.
-- **Not authorized:** real ECC installation; user home/config/cache mutation; credential or paid-model/API use; upstream issues/PRs/patches; SOUL/Development OS design/implementation; agent-control changes. Safe isolated fixture research is distinguishable from installation, but none was run in U02-A.
+- **Current result:** [Note 04](notes/04-WORK-SESSION-RECORDS-AND-CONTROL.md), [U03-A sources](evidence/U03-A-SOURCES.md), [E02](evidence/u03-a-work-item-probe/README.md), MR04 and U03-A research log.
+- **Next authorized source unit:** U03-B / Q04d — actual worktree/session launch, worker/task/status/handoff production, acceptance and recovery. Selected, NOT STARTED; [PLAN](PLAN.md) gives the exact entry and return condition.
+- **Open residuals:** Q04b snapshot/SQLite ingestion and other consumers; Q04c imported field authority and limited-list closure; Q03b interrupted guided Kimi retry, unexecuted; Q03c full lifecycle/durability; P1 discovery. They do not silently close when the study advances.
+- **Not authorized:** real ECC installation; user home/config/cache mutation; credential or paid-model/API use; upstream issues/PRs/patches; SOUL/Development OS design/implementation; agent-control changes. Isolated fixtures are distinguishable from installation; E02 was such a bounded local experiment.
 
-## Load-bearing results and evidence level
+## Load-bearing results and evidence levels
 
-1. **Common versus guided policy:** common copy-file guards skip existing unrecorded destinations but leave recorded-managed destinations updateable. Guided Kimi adds operation-identity/current-digest checks. A user edit to a managed file is not universally preserved across entrypoints.
-2. **Identical bytes do not confer ownership:** guided preflight may accept an initially identical copy, while common apply preserves it without recording ownership. A complete batch result can include skipped unowned destinations.
-3. **Producer-scope correction:** despite the Claude-migration helper name, its non-Claude branch also prepares bridge state for nonempty managed plans. Note 03 §4 refines Note 02 §5 without erasing the earlier read boundary.
-4. **Checkpoint versus effect:** caught-failure handling can preserve prior unwritten digests and missing pending operations while excluding new unowned collisions. A bridge operation is not proof its effect completed. A retry target list is not proof the next guided preflight will admit the intermediate state.
-5. **Separate visibility:** canonical installation JSON, database projection and current managed-file health have different scopes. Reconciliation operates on discovered identities; projection/cleanup warnings and unverified health are not completed host readiness.
+1. **Prior evidence retained:** installation channels differ; common/guided ownership policies differ; a bridge can include pending operations. E01's cache falsifier and Q03b's unexecuted retry prediction remain distinct. No repeat of E01 occurred.
+2. **Local Work mutation:** cards can be upserted, assigned, closed and moved locally. A session foreign key is structural linkage, not proof of live execution. Status strings and owner labels alone do not establish a transition policy, authority, lease or running agent.
+3. **E02 observed helper semantics:** automatic pickup can select an unassigned blocked nonterminal card; explicit claim can reassign an owned running card; done-card claim refuses with zero writes; lane movement can reopen while retaining owner/session; priority is chosen inside the returned latest-100 window. The six criteria were fixed after source reading and before execution. Only unchanged S59 plus an in-memory store double ran; no SQL/FK/auth/concurrency/provider/host test.
+4. **Source-import boundary:** GitHub sync constructs owner from author and can overwrite local assignment/progress fields. Its limited open-item result is used to close absent previously imported records within a separately bounded repo/producer-scoped local sweep. A still-open item outside the fetched window is a source-derived counter-path, not an executed incident.
+5. **Session producer/reader seam:** under normal dependency loading, the adapter persistence helper's default factory/no-recognized-writer path records canonical snapshots to JSON; the sessions CLI queries a separate SQLite row contract. Explicit injected writers can bridge it. This establishes a specific default-path mismatch, not global absence of session integration.
+6. **Readiness scope:** stored active/running/idle rows and report timestamps are not live process/freshness checks. Snapshot health mappings and status attention summaries have distinct predicates. Optional status exit code is a real signal, but no downstream enforcement was audited.
 
-These are SOURCE OBSERVATION / TEST SOURCE INSPECTED / qualified INFERENCE. Relevant upstream test files were fully read, NOT RUN. Q03b's two-file failed-install/second guided-run prediction is explicitly unexecuted; no production incident or universal retry failure is claimed. Full doctor/repair/uninstall implementation is not closed by selected lifecycle lines 1–480.
-
-No new ECC helper, installer, host, model, database, upstream test or local probe was executed. U01-A E01 is retained historical local evidence, not rerun or counted twice. General safety, crash durability, live-agent efficacy and method superiority remain unestablished.
+All non-E02 mechanism results are SOURCE OBSERVATION or bounded INFERENCE. Session-adapter test source S67 was fully read, NOT RUN. No real database, provider CLI, agent session, remote sync, credentials or task-quality experiment was used. Actual worktree launch/control has not been inspected; do not infer that all ECC execution control is absent or broken.
 
 ## Method, scope and responsibilities
 
-METHOD stays 0.1; PLAN 0.4 selects Work/session control after the bounded ownership slice. MR03 records a genuine caller contrast, correction obtained by opening the producer, usable bounded subtree discovery and maintenance overhead. It does not claim independent cold-start or quantified method effectiveness.
+METHOD remains 0.1; PLAN 0.5 and MR04 record the move from installation to Work/session and the selection of actual runtime inquiry next. Producer/reader contracts were recovered rather than assuming shared names imply integration. A local exact-helper probe was proportionate to pickup questions; its result was not generalized to a live queue. Record/publication overhead remains visible; neither source volume nor criteria count proves method superiority.
 
-Batu owns purpose/scope and material project-phase changes. The assistant owns authorized reading, source-bound synthesis, justified in-study sequencing and accurate publication/handoff. One active main unit; residual questions have explicit triggers rather than expanding invisibly.
+Batu owns purpose/scope and material phase changes. The assistant owns authorized reading, source-bound synthesis, justified within-study sequencing and verifiable publication/handoff. One active main unit. Residual questions have re-entry triggers rather than growing into silently authorized new campaigns.
 
-Write scope remains `research/studies/ecc/**` and ECC status/retrieval entries in `research/studies/CATALOG.md` / `INDEX.md`. Other studies, Foundation, soul-context, explorations, external target and control files are preserved. The larger main comparison includes other sessions' work; those changes are not attributed to ECC.
+Write only `research/studies/ecc/**` and ECC status/retrieval entries in shared `research/studies/CATALOG.md` / `INDEX.md`. Preserve other studies, Foundation, soul-context, explorations, upstream and control files. Own-repository PR #4 was publication plumbing and is merged; no upstream issue was filed.
 
 ## Cold-start / same-conversation recovery
 
 After canonical control bootstrap:
 
-1. Full read STATE, [INDEX](INDEX.md), [META](META.md), [WHY](00-WHY-THIS-RESEARCH.md), [METHOD](METHOD.md), [PLAN](PLAN.md) and [QUESTIONS](QUESTIONS.md).
-2. Full read Note 03 and U02-A source ledger; recover SOURCE-LEDGER's latest entry, U02-A in RESEARCH-LOG, MR03 in METHOD-REVIEW and the latest U02-A PUBLICATION receipt. Historical earlier entries are not competing current authority.
-3. For U03-A, preserve Q03b/Q03c as limitations, not a fresh obligatory installer campaign. Reopen exact pinned caller/producer source whenever the summary loses a necessary condition. Note 02/01 and E01 raw artifacts are retrieved only when their exact claims matter.
-4. For discovery, retain original STRUCTURE/TREE-FRONTIER and U01-B delta. U02-A's ledger contains the five-file state-store listing and exact unread-file identities. Metadata presence is not body reading; no complete recursive corpus is claimed.
+1. Full read STATE, [INDEX](INDEX.md), [META](META.md), [WHY](00-WHY-THIS-RESEARCH.md), [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md).
+2. Full read Note 04 and U03-A source ledger. Read E02 README/plan/results when its exact claim is needed; do not rerun or count it as independent evidence. Recover latest SOURCE-LEDGER entry, U03-A RESEARCH-LOG, MR04 METHOD-REVIEW and U03-A PUBLICATION receipt.
+3. Preserve Q03b/c and Q04b/c as limitations with triggers, not obligatory new installation/board campaigns. Reopen exact pinned sources when a summary drops necessary conditions. Previous Note 01–03/E01 are progressive retrieval, not mandatory repeat experiments.
+4. Discovery uses original STRUCTURE/TREE-FRONTIER and U01-B delta plus U02-A/U03-A unit ledgers. Five state-store bodies are read across units; direct tests children are discovered but not recursively read. Wider runtime/Rust/native Workflow/generated/domain regions remain open.
 
-Briefly state the recovered active question/scope before new source work. Missing mandatory/current context stops affected work rather than inviting guessed continuation. Prior PR #3 is merged; no pending merge or upload follows from it.
+Briefly state the recovered active question/scope before new work. Missing mandatory/current context stops affected work rather than inviting guessed continuation. Same-conversation re-entry is not an independent fresh-session trial.
 
-## Exact next entry and environment
+## Exact next source and environment
 
-At the unchanged target pin, begin `scripts/sessions-cli.js`, `scripts/work-items.js`, and `scripts/lib/state-store/queries.js` (blob `0225f476182ab68c77285d1e2f398637b7c20bbc`). The first two were discovered through the dispatcher; the third through the current state-store listing. Their bodies are not counted read in U02-A. Follow actual producer/consumer/schema/test dependencies and distinguish local Node records from Rust ecc2 state.
+At the unchanged pin, begin `scripts/orchestrate-worktrees.js`, `scripts/lib/orchestration-session.js` and `scripts/orchestration-status.js`. The first was discovered in inspected fixtures, the second is the actual dmux adapter import, and the third is search-discovered. Follow genuine helpers and tests through effects, status/handoff consumers and acceptance/recovery. Control-pane server, GitHub-epic coordination and Rust ecc2 are distinct potential paths; local card claiming is not their assumed shared contract.
 
-GitHub connector reads/writes worked. Auxiliary container-side acquisition failed at DNS; no full local checkout or live host capability is established. Earlier offline capability does not establish a new experiment. No current-version claim beyond the research pin is implied.
+GitHub connector reads/writes worked. Direct container raw retrieval failed at DNS. Only E02's exact dependency-free helper was materialized locally; no full checkout exists. Node v22.16.0 local execution succeeded, not proof of current provider/host capability. Default-branch searches returned another ref, but load-bearing bodies were fetched at the research pin; no silent repin or latest-version verdict.
 
-Foundation/project-facing synthesis stays later and requires then-current canonical context. This source study does not activate a design or implementation phase.
+Foundation/project-facing synthesis stays later and requires then-current canonical context. Current candidate findings do not activate architecture, adoption or implementation.
