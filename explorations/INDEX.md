@@ -10,7 +10,11 @@ Burada kullanıcı ile assistant'ın araştırmaları ve kendi düşüncelerini 
 
 Yeni paket düzeni: [PACKAGE-CONTRACT.md](PACKAGE-CONTRACT.md).
 
-İlk paket: [EXP-001-soul-calisma-modeli](EXP-001-soul-calisma-modeli/INDEX.md).
+İlk paket: [EXP-001 — SOUL'un çalışma modeli](EXP-001-soul-calisma-modeli/INDEX.md).
+
+İkinci paket: [EXP-002 — SOUL'un baz yapısı ve ortak entelektüel tabanı](EXP-002-soul-baz-yapi-ve-entelektuel-taban/INDEX.md).
+
+Birlikte tam okuma: [EXP-001 → EXP-002](EXP-002-soul-baz-yapi-ve-entelektuel-taban/retrieval/CUMULATIVE-READING.md). Bu yol iki diyaloğun toplam 74 kaynak mesajını kendi sıralarıyla okutur; konsolidasyonlar kaynakların yerine geçmez. Eserlerin tam incelenmesi, diyalog tam okumasından ayrı belirtilir.
 
 ## Sınırlar
 
@@ -23,6 +27,8 @@ Yeni paket düzeni: [PACKAGE-CONTRACT.md](PACKAGE-CONTRACT.md).
 
 ## Yeniden kullanım
 
-Bir sonraki deneme, hangi önceki kayıttan neyi devraldığını ve neyi yeniden sorguladığını belirtir. Araştırma ihtiyacı doğarsa araştırma ayrı yetkilendirme ve kendi paketinde yürür. Mimari benimseme de ayrı karardır.
+Bir sonraki deneme, hangi önceki kayıttan neyi devraldığını ve neyi yeniden sorguladığını belirtir. EXP-002'nin [devir haritası](EXP-002-soul-baz-yapi-ve-entelektuel-taban/sources/PREDECESSOR-EXP001.md), EXP-001 ile bu ilişkiyi kaynak seviyesinde kurar.
+
+Araştırma ihtiyacı doğarsa araştırma ayrı yetkilendirme ve kendi paketinde yürür. Mimari benimseme de ayrı karardır. Denemelerin topluca okunması Development OS hazırlığını besleyebilir; bu okuma tek başına kurulum veya yeni araştırma yetkisi değildir. Gerçek geçişte güncel proje/target state'i ayrıca ele alınır.
 
 Bu dosya kütüphanenin okuma ve kayıt semantiğini açıklar; yeni agent-control protokolü değildir.
