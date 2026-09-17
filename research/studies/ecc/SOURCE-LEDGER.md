@@ -37,7 +37,7 @@ Aşağıdakiler SOUL Research main üzerinden U00'da FULL READ edildi. Bunlar EC
 |---|---|
 | [gstack METHOD](../gstack/METHOD.md) | `dc003b3f74115667a05787a847eadb10876784c8`; mechanism units, provenance graph, native-before-projection, closure challenge |
 | [Hermes METHOD](../hermes-agent/METHOD.md) | `f4b3b25183e7402bf2921f9ca0818e7c5c5aee19`; entrypoint/consumer closure, variation, interruption/publication discipline |
-| [Superpowers METHOD](../superpowers/METHOD.md) | `95f684306f923e733dbb51f4ceedaff885394e950b`; instruction→implementation→host→effectiveness distinctions |
+| [Superpowers METHOD](../superpowers/METHOD.md) | `95f684306f92373dbb51f4ceedaff885394e950b`; instruction→implementation→host→effectiveness distinctions |
 | [Foundation STATE](../../soul-foundations/STATE.md) | `6d1c3db664bb154546cb6c0bf5edc6da5275dcf8`; 2026-09-17 sufficient-stop/reuse direction, no target design activation |
 | [Foundation discussion handoff](../../soul-foundations/08_foundation-sufficiency-reuse-review/DISCUSSION-HANDOFF.md) | `e95cf01635d328ae4d5db414ba5a9c4d70a42fb7`; production-perspective omission and later correction; analytical, not live experiment |
 | [Foundation REUSE](../../soul-foundations/08_foundation-sufficiency-reuse-review/REUSE.md) | `b92c29d85055c70536392c0804a7a621efc9caff`; question-first retrieval; historical pending language is superseded by current STATE |
