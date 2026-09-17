@@ -91,7 +91,7 @@ Candidate-study relevance never changes the active Foundation authorization or a
 
 ### If later design / architecture work concerns agent-runtime governance
 
-Potential candidates:
+Potential candidates to inspect selectively:
 
 - `gstack` — implemented workflow/runtime/eval/security/memory/install/ship mechanisms; read `META.md`, `CORE.md`, relevant synthesis and freshness revalidation before load-bearing reuse
 - `anthropic-ai-native-sdlc-playbook` — managed settings, Hooks, permissions, sandboxing, managed MCP, runtime telemetry, configuration evals, incident loops
