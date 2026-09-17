@@ -8,9 +8,9 @@ User authorization on 2026-09-17: plan the research program, process candidate r
 
 ## Current status
 
-**ACTIVE / U01 OPENPROJECT BOUNDED-COMPLETE; U02 FLOWABLE NEXT**
+**ACTIVE / U01 OPENPROJECT + U02 FLOWABLE BOUNDED-COMPLETE; U03 BEADS NEXT**
 
-The program framing and common comparison method are established. OpenProject has been completed as the first classical project-control baseline at pinned ref `f531cc348d6920dd6d02f9b395f90878db57b3d3`. The next research unit is Flowable.
+The common comparison method is established. OpenProject provides the classical project/work-package baseline; Flowable provides the durable process/case/decision execution contrast. The next unit is Beads.
 
 ## Completed
 
@@ -27,7 +27,7 @@ The program framing and common comparison method are established. OpenProject ha
 
 Durable external-target package: `../openproject/`.
 
-Source-bounded findings established at `opf/openproject@f531cc348d6920dd6d02f9b395f90878db57b3d3`:
+Source-bounded findings at `opf/openproject@f531cc348d6920dd6d02f9b395f90878db57b3d3`:
 
 - WorkPackage is the main operational work object and separates type, status, author, assignee, responsible actor, schedule and history surfaces.
 - Parent/child decomposition is distinct from ordinary work-package relations.
@@ -39,11 +39,28 @@ Source-bounded findings established at `opf/openproject@f531cc348d6920dd6d02f9b3
 
 See `../openproject/FINDINGS.md` and `../openproject/SOURCE-LEDGER.md`.
 
+### U02 — Flowable — BOUNDED-COMPLETE
+
+Durable external-target package: `../flowable/`.
+
+Source-bounded findings at `flowable/flowable-engine@42aa81de65ce48572577c1826ba5d16135347aff`:
+
+- BPMN process instances follow executable sequence/event structure and persist at wait states; human/system activities can share one runtime.
+- Human tasks support candidate pool → claim → assignee → complete semantics.
+- CMMN case work uses a distinct plan-item lifecycle (`available`, `enabled`, `active`, suspended/terminal states) with sentry criteria and manual/required/repetition controls.
+- “conditions satisfied” and “work actively started” are distinct when manual activation is in effect.
+- DMN keeps repeatable decision policy separable from flow and can be called from BPMN.
+- Already-running work does not silently adopt a changed model: process/case instance migration maps durable runtime state to a new definition.
+- Reopen/retry/migrate/suspend/cancel/terminate/compensate are not interchangeable forms of “go back.”
+- Durable timers/async jobs/retry-dead-letter behavior make Flowable execution-coupled rather than tracker-only.
+
+See `../flowable/FINDINGS.md` and `../flowable/SOURCE-LEDGER.md`.
+
 ## First-wave unit queue
 
 1. **U01 — OpenProject** — **COMPLETE** — classical project/work-package baseline.
-2. **U02 — Flowable** — **NEXT** — BPMN / CMMN / DMN; predefined process versus adaptive case work versus explicit decision logic.
-3. **U03 — Beads** — agent-native dependency graph, blockers and ready frontier.
+2. **U02 — Flowable** — **COMPLETE** — durable process/case/decision execution baseline.
+3. **U03 — Beads** — **NEXT** — agent-native dependency graph, blockers and ready frontier.
 4. **U04 — OpenSpec** — artifact/work dependency graph and progressive spec-driven enablement.
 5. **U05 — Spec Kit** — specification → plan → tasks → implementation/convergence loop.
 6. **U06 — Leantime** — strategy/goals → milestones/projects/tasks → execution and retrospective surfaces.
@@ -64,13 +81,15 @@ Not yet activated as full units; activate only for a demonstrated coverage gap:
 - Huly — unified project/document/communication workspace;
 - TASKS.md or another minimal file-native agent queue — minimum viable shared-work representation.
 
-## Method learning after U01
+## Method learning after U01–U02
 
-The initial comparison matrix survives U01, but one distinction is now explicitly load-bearing for later units:
+The initial comparison matrix survives, with three distinctions now explicitly load-bearing:
 
-**relation identity ≠ control effect.**
+1. **relation identity ≠ control effect.** A hierarchy, schedule dependency, closure blocker and semantic relation may all connect work objects while governing different effects.
+2. **recorded state ≠ executed transition.** A tracker can describe state; an execution engine can persist and causally advance/wait/retry the work itself.
+3. **backtracking is a family, not one transition.** Reopen, migrate, retry, suspend, cancel, terminate and compensate have different causal/epistemic meanings and recovery guarantees.
 
-OpenProject shows that hierarchy, semantic relation, scheduling dependency and closure blocking can be represented as different edge families, and even a temporal relation may remain present while manual scheduling disables its date-control effect. Later units should therefore record both the relation and the effect/enforcement semantics.
+Later units should preserve these distinctions rather than normalizing every system into task/status/dependency.
 
 ## Unit completion contract
 
@@ -87,7 +106,7 @@ Before a unit can be marked source-bounded complete:
 
 ## Current next action
 
-Begin **U02 Flowable**. First recover the native boundary between BPMN process instances, CMMN cases/case plans and DMN decisions before mapping any of them onto “project/task/workflow” vocabulary. Pay particular attention to adaptive work, human tasks, wait/event states, cancellation/termination/compensation and persisted engine state.
+Begin **U03 Beads**. Recover its native issue/dependency model, how `ready` is derived, what blockers and parent/child mean, how claim/ownership and status work, how graph state is persisted/synchronized, and what happens under reopen/dependency changes/multi-agent concurrency. Compare selectively against `recursive-prerequisite-discovery`, but do not assume its “prerequisite” model and Beads dependencies are semantically identical.
 
 ## Fresh-session recovery
 
@@ -97,6 +116,6 @@ A new session should read:
 2. this `STATE.md`
 3. `METHOD.md`
 4. `PLAN.md`
-5. completed target package(s), beginning with `../openproject/META.md`, only when comparison requires them.
+5. completed target package(s) only when comparison requires them: `../openproject/`, `../flowable/`.
 
 Then resume the first unfinished unit listed above. Do not infer completion from files merely existing.
