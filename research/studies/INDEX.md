@@ -114,6 +114,7 @@ Completion of a study never authorizes adoption.
 - `i-have-adhd/`
 - `mattpocock-skills/`
 - `multi-agent-patterns/`
+- `openviking/`
 - `public-apis/`
 - `recursive-prerequisite-discovery/`
 - `superpowers/`
