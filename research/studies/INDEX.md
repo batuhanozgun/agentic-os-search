@@ -56,6 +56,7 @@ Do not load every study merely because the library exists.
 | Anthropic AI-native SDLC / agent-native software operating model | `anthropic-ai-native-sdlc-playbook/META.md` | `STATE.md` → `INDEX.md` → playbook research / source ledger / SOUL-DevOS assessment / falsifiers |
 | Context / memory / harness engineering | `context-memory-harness-engineering/META.md` | `STATE.md` → `INDEX.md` / cross-layer synthesis |
 | Harness composition/evolution — first Carbon Layer video and complementary Meta-Harness research | `the-carbon-layer/videos/mQfTdNVCOB0-harness-engineering/META.md` | local STATE → INDEX → source/evidence/plan; same dossier, historical alias `harness-engineering-and-evolution` |
+| ECC shared assets, host adaptation and operator-system boundaries; adaptive method case — method/plan prepared | `ecc/META.md` | `STATE.md` → `METHOD.md` / `PLAN.md` → `QUESTIONS.md` / `SOURCE-LEDGER.md`; method evolution in `METHOD-REVIEW.md` |
 | gstack implemented agentic software factory / qualification-control-runtime case | `gstack/META.md` | `CORE.md` → `INDEX.md` → relevant synthesis / revalidation / source ledger |
 | Hermes Agent runtime and learning mechanisms — active, partial research | `hermes-agent/META.md` | `STATE.md` → `INDEX.md` → plan / source ledger / bounded mechanism notes |
 | Superpowers portable development skills and host-conditioned workflow — active, partial research | `superpowers/META.md` | `STATE.md` → `METHOD.md` / `PLAN.md` → `SOURCE-LEDGER.md` / bounded mechanism notes |
@@ -103,6 +104,7 @@ Completion of a study never authorizes adoption.
 - `ai-knowledge-strategies/`
 - `anthropic-ai-native-sdlc-playbook/`
 - `context-memory-harness-engineering/`
+- `ecc/`
 - `gstack/`
 - `hands-on-large-language-models/`
 - `hermes-agent/`
