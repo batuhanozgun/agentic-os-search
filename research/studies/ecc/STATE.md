@@ -2,7 +2,7 @@
 
 **Updated:** 2026-09-17
 **Current checkpoint:** U04-A — memory scope, recall and authority
-**Work status:** U04-A substantive source slice COMPLETE; repository publication/readback IN PROGRESS. Do not treat a prepared tree or this status alone as a verified main publication. Complete the scoped publication checks and receipt before beginning U05-A.
+**Work status:** U04-A COMPLETE / PUBLISHED. Eight ECC-local files merged through own-repository PR #6; shared ECC catalog/route updates and the publication receipt reached main. [PUBLICATION-U04-A](PUBLICATION-U04-A.md) records actual commits, readbacks and maintenance limits. No owner upload or merge is pending.
 **Study status:** ACTIVE / PARTIAL; P1, learning, wider security/evaluation/controllers and integrated explanation remain open.
 **Method / plan:** 0.1 / 0.7
 **Target pin:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`, unchanged.
@@ -23,7 +23,7 @@ Current result: [Note 06](notes/06-MEMORY-SCOPE-RECALL-AND-AUTHORITY.md), [U04-A
 
 ## Next work and retained limitations
 
-After publication closure, **U05-A / Q06** is the next authorized source unit, NOT STARTED: observation→instinct/procedural candidate→promotion→actual loading/use. Start the pinned continuous-learning-v2 skill and spec, then discover/follow the real subtree and consumers as PLAN specifies.
+**U05-A / Q06** is the next authorized source unit, NOT STARTED: observation→instinct/procedural candidate→promotion→actual loading/use. Start the pinned continuous-learning-v2 skill and spec, then discover/follow the real subtree and consumers as PLAN specifies.
 
 Q05b preserves terminal diagnostic/current-status and conflict/duplicate/composition validation. Q05c preserves real host uptake, governed-artifact acceptance, ECC2 memory projection, automatic capture/resume and hostile-process/cross-machine guarantees. Q03b/c, Q04b/c/e and the original P1 frontier remain open. A later claim that depends on them must reopen them; advancing families does not solve them.
 
@@ -31,12 +31,14 @@ Write scope: only research/studies/ecc/** and ECC's row/route in shared CATALOG/
 
 ## Current versus historical records
 
-U04-A research log and MR06 continue in ROUND-U04-A.md. U04-A source coverage is in evidence/U04-A-SOURCES.md. RESEARCH-LOG.md, METHOD-REVIEW.md and SOURCE-LEDGER.md remain unchanged history through U03-B, not competing current records. This extends the previous separate-receipt approach without migrating old content. INDEX routes all units. U03-B's separate receipt and older PUBLICATION.md remain historical; the U04-A receipt will name actual publication checks, not anticipated success.
+U04-A research log and MR06 continue in ROUND-U04-A.md. U04-A source coverage is in evidence/U04-A-SOURCES.md. RESEARCH-LOG.md, METHOD-REVIEW.md and SOURCE-LEDGER.md remain unchanged history through U03-B, not competing current records. This extends the previous separate-receipt approach without migrating old content. INDEX routes all units. Current publication is [PUBLICATION-U04-A](PUBLICATION-U04-A.md); U03-B's receipt and older PUBLICATION.md remain historical.
+
+This unit avoided rewriting the old histories, but shared CATALOG still required whole-file replacement. Two unintended unrelated wording changes were detected and restored; the receipt records the actual failure/repair and final net one-row scope. No general reduction of all maintenance risk is claimed.
 
 ## Recovery
 
-After canonical control bootstrap, full read STATE, INDEX, META, WHY, METHOD, PLAN and QUESTIONS. Then read Note 06, U04-A source ledger and ROUND-U04-A/MR06, plus the actual current publication receipt once recorded here. Retain prior evidence through progressive retrieval, reopening exact source when necessary; do not rerun experiments to recreate progress. This same-conversation recovery is not independent cold-start verification.
+After canonical control bootstrap, full read STATE, INDEX, META, WHY, METHOD, PLAN and QUESTIONS. Then read Note 06, U04-A source ledger, ROUND-U04-A/MR06 and PUBLICATION-U04-A. Retain prior evidence through progressive retrieval, reopening exact source when necessary; do not rerun experiments to recreate progress. This same-conversation recovery is not independent cold-start verification.
 
 The original STRUCTURE/TREE-FRONTIER and unit ledgers retain topology limits. U04-A maps a memory path, not a full recursive corpus. Confirm next-learning source paths at the pin; earlier screening is not full technical research.
 
-GitHub connector works. Auxiliary container raw retrieval failed at DNS, so no new checkout or runtime capability was established. Publication base is a46cb2fc4df1f59110000a91e0a82b673ebe5d8d; the prior comparison showed only a concurrent Superpowers note outside ECC. No force update is authorized or needed. Final receipt/readback is still an operational obligation at this checkpoint.
+GitHub connector works. Auxiliary container raw retrieval failed at DNS, so no new checkout or runtime capability was established. Publication base was a46cb2fc4df1f59110000a91e0a82b673ebe5d8d; own-repository PR #6 merged expected head at 7ad0a868923a6b14a6521708fa92a22b8ea1c2ba without force. Concurrent Superpowers changes were preserved, not attributed to ECC. Publication is closed for this bounded unit; U05-A remains next, not already performed.
