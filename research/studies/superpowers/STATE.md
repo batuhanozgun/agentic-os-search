@@ -1,56 +1,58 @@
 # Superpowers Study — Current State
 
-Updated: 2026-09-17 after U03. **Package status: ACTIVE / PARTIAL.** This file owns study work, authorization and completion. META owns reuse/classification; PLAN owns provisional sequencing; INDEX/CATALOG are derived retrieval surfaces.
+Updated: 2026-09-17 after U04. **Package status: ACTIVE / PARTIAL.** This file owns work, authorization and completion. META owns classification/reuse; PLAN owns provisional sequencing; INDEX/CATALOG are derived retrieval surfaces.
 
-## Current purpose and authorization
+## Purpose, authorization and return condition
 
-The user authorised detailed Superpowers research under studies using a methodology analogous to gstack, reviewed successive rounds as suitable and explicitly requested continuation. The phase remains source recovery, mechanism analysis, proportionate safe local checks, synthesis and durable handoff. Approval of a round does not pre-approve later findings or demonstrate product effectiveness.
+The user authorised detailed research of obra/superpowers under studies with an explicit gstack-like methodology and requested continued research after successive rounds. The purpose is a source-grounded explanation and reusable candidate evidence for later SOUL / Development OS work. Approval of a round does not establish product efficacy or pre-approve subsequent conclusions.
 
-No installation in a user's host, upstream modification/issue, credentialed/paid live-agent campaign, adoption of upstream instructions as agent-control, or Foundation / SOUL / Development OS architecture change is authorised. The target's broad controller-ruling instructions are research objects, not additional authority for this assistant.
+The current phase remains source recovery, mechanism analysis, proportionate safe local checks, synthesis and persistent handoff. No installation in the user's host, upstream issue/modification, paid or credentialed live-agent campaign, activation of upstream instructions as agent-control, or Foundation / SOUL / Development OS architecture change is authorised. Source instructions are research objects, not additional authority for this assistant.
 
-The user owns research-direction/adoption decisions. The assistant owns bounded research and this package's necessary continuity/discovery maintenance. A bounded result plus recoverable handoff is the return condition; no background task is scheduled.
+The user owns direction and adoption decisions. The assistant owns bounded research and necessary package/discovery maintenance. Return after a meaningful bounded result and usable handoff. No background task is scheduled.
 
-## Source identity
+## Corpus and retrieval identities
 
-Primary corpus remains `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`; root tree `21219529a4e224bcb27baf8816b039c8bf7c6673`; manifest context 6.3.0. Initial main observation: 2026-09-17. Later U01-B/U02/U03 work did not repin or create new upstream-HEAD verdicts.
+Primary corpus remains `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`; root tree `21219529a4e224bcb27baf8816b039c8bf7c6673`; inspected manifest context 6.3.0. Initial main observation: 2026-09-17. U01-B through U04 did not repin or produce new upstream-HEAD verdicts.
 
-Source register is now additive:
+The source register is additive:
 
-- [SOURCE-LEDGER.md](SOURCE-LEDGER.md): preserved S00–S36/E01–E06 through U02.
-- [SOURCE-LEDGER-U03.md](SOURCE-LEDGER-U03.md): S37–S43/E07–E08 and current U03 execution/coverage additions.
+- [SOURCE-LEDGER.md](SOURCE-LEDGER.md): S00–S36/E01–E06 through U02, preserved.
+- [SOURCE-LEDGER-U03.md](SOURCE-LEDGER-U03.md): S37–S43/E07–E08, preserved.
+- [SOURCE-LEDGER-U04.md](SOURCE-LEDGER-U04.md): S44–S54/E09–E10 and new execution boundaries.
 
-Read the two as successive volumes, not competing authorities. The old S34 not-executed statement describes U02; S34 was executed in U03 with explicit OUTFILE. METHOD remains v0.1; PLAN is v0.4. This representation change does not weaken evidence standards or reset previous full reads.
+Read them as chronological volumes, not competing authorities. Earlier source-only statements remain historical; U04 newly ran S54, not the earlier suites. METHOD remains v0.1 unchanged; PLAN is now v0.5. No evidence criterion was weakened to obtain a passing result.
 
-## Completed versus open
+## Completed, current and open work
 
 | Work | Current state |
 |---|---|
-| Placement/method recovery | Completed initially; gstack supplies method precedent, not an imported architecture or runtime verdict. |
-| U00 orientation | Root/14-skill catalogue and selected subtrees; progressive, not whole-repository recursive reading. |
-| U01-A | Bounded shell source/local experiment complete; original note and evidence unchanged, not rerun. |
-| U01-B | Bounded selected-host delivery/cache/continuity complete; original note and evidence unchanged, not rerun. |
-| U01 overall | Bounded selected-source model complete, not all-host qualification or model efficacy. |
-| U02 | Bounded approval/plan/workspace source/helper complete; F13–F19 and E05/E06 preserved, not rerun. |
-| U03 | BOUNDED SOURCE / LOCAL-HELPER COMPLETE: seven new full files, F20–F27, actor/packet/acceptance model, exact review-package and literal verbal-predicate probes. Not a live multi-agent review. |
-| U04 | NEXT: testing, debugging, received-review handling and verification-before-completion; target code/test/result binding. |
-| U05–U08 | Delivery/retention, skill evolution/evaluation, remaining runtime/distribution and whole-system synthesis remain open. No CORE, four-ground projection or completed cross-study comparison exists. |
+| Placement/method recovery | Completed initially. gstack supplied method precedent, not an imported architecture or current-runtime verdict. |
+| U00 orientation | Root/14-skill catalogue and selected subtrees. Twelve SKILL bodies fully read after U04, but not whole-repository coverage or twelve qualified subsystems. |
+| U01-A | Bounded shell source/local experiment complete; original note/evidence unchanged, not rerun. |
+| U01-B / U01 overall | Bounded selected-host delivery/cache/continuity model complete; not all-host qualification or model efficacy. Original evidence preserved. |
+| U02 | Bounded approval/plan/workspace source/helper complete; F13–F19/E05–E06 retained, not rerun. |
+| U03 | Bounded delegation/review/acceptance source/helper complete; F20–F27/E07–E08 retained, not rerun. |
+| U04 | BOUNDED SOURCE / DIAGNOSTIC-HELPER COMPLETE: eleven new full files, F28–F35, exact helper checks and one selected first-party fixture execution. Not a live model/workflow evaluation. |
+| U05 | NEXT: final delivery, current tested/resulting state, human choice, cleanup ownership and retained decisions/evidence. |
+| U06–U08 | Skill authoring/evaluation, remaining supporting runtime/distribution, native whole-system synthesis and project-facing projection remain open. No CORE, four-ground projection, completed cross-study comparison or whole-study closure exists. |
 
-## Established observations and limits
+## Established findings and limits
 
-Earlier results remain bounded: U01 separates procedure delivery from actual use; U02 establishes ledger-based work recovery with path/revision/materialization constraints. Previous failed health criteria remain failures. Their successful probes are not host/model certificates.
+Earlier findings remain intact: U01 separates procedure delivery from actual use; U02 establishes ledger-based recovery with identity/revision/materialization boundaries; U03 distinguishes one reviewer/two verdicts, report versus accepted/parked completion, and caller-bound review ranges. Their local failed criteria remain failures. No previous synthetic probe is promoted into host/model qualification.
 
-U03 adds:
+U04 adds the following bounded findings:
 
-- One task reviewer returns spec-compliance and code-quality verdicts. Scoped re-review and broad final review are separate stages, not proof of two independent task-review actors.
-- DONE initiates review. Unverifiable requirements return to the controller for resolution before task completion. Same brief/globals and reused test reports remain shared evidence dependencies.
-- SDD has explicit fix-loop escalation and a five-round cap. Completion can be review-clean or include parked findings with recorded rulings. A cap or disposition does not prove the defect was fixed.
-- Reports preserve attempted work across resumption/fresh-worker escalation; ledgers retain rounds and rulings. Final human visibility/cleanup durability remains U05 and is not guaranteed by code history alone.
-- Independent-domain parallel dispatch has a no-shared-state/no-dependency precondition; serial SDD implementation has a different scope. No automatic conflict isolation or live parallelism was verified.
-- Exact review-package execution confirmed correct multi-commit and fix-range packets, missing-plan/bad-ref rejection, and caller-bound range coverage. A valid narrower range omitted an earlier task file; a fixed-commit packet was unchanged by dirty/staged/untracked working state. These describe the chosen evidence surface, not a broken Git helper or an observed stale-test acceptance.
-- The literal Test-7 description predicate rejected a constructed current by-file answer and accepted an obsolete direct-paste answer. Both oracle-health criteria failed. No model produced the replies; the upstream suite was not run, and no CI failure is claimed.
-- Generic/specialized instructions retain scope and authority seams: HEAD~1 versus recorded BASE, human versus controller plan-conflict decisions, no-unfixed-Important versus cap-based parked completion, and generic final-template inputs versus SDD package/ledger handoff.
+- TDD's expected RED–GREEN sequence is distinct from a test's error sensitivity, independently derived expectation and coverage. The supporting reference names the particular break and real behavior being tested. Its mutation check is mental, not an executed mutation-testing engine.
+- Debugging follows reproduction, data/config propagation, working-example comparison, an explicit hypothesis and a minimal change. Three failed fixes are an escalation rule, not independent proof of an architectural cause. Historical rates, test counts and impossibility claims remain target claims.
+- Entry/business/environment checks and diagnostic logging have different functions. Multiple layers do not by themselves establish independent or complete protection.
+- Condition waiting reads actual state/events, but a type/count match is not automatically bound to the current operation. The source provides a custom-predicate/call-ID example. That TypeScript example was not executed.
+- Receiving review requires technical/context evaluation before implementation. Human/controller/child roles and general versus specialized stop/ruling instructions must remain distinguished.
+- Verification is claim-specific: lint is not build, passing tests are not all requirements, an edit is not an observed fix, and an agent's DONE is not accepted completion.
+- Generic verification calls for current-message execution, while task/re-review templates reuse implementer test evidence. Attributing an existing report is not a new execution claim; focused full commands are not necessarily full-suite reruns. These distinctions partly reconcile wording, but a universal source-defined composition/invalidation rule was not found in the inspected files.
+- The exact find-polluter helper searches sequentially for a requested filesystem side effect. It suppresses launcher status/output; no matches, all-skipped work and failed launcher attempts can reach the same final all-tests-clean wording. Earlier stdout exposes zero/skipping in two cases, so the complete output is not claimed to conceal all limitations.
+- One exact first-party fixture file ran successfully: exit 0, five PASS assertion lines. It uses stub npm and verifies matching/output behavior. The separate study runner collected seven cases: four expected mechanism/scope observations and three failed study-defined claim-scope criteria. Neither is an overall product score.
 
-E07/E08: nine cases; seven expected helper/scope/control observations, two failed oracle-alignment criteria, no other failures. A descriptive PASS is not task acceptance or product efficacy. Fresh reviewer context and source self-review are not independent replication.
+No real agent interpretation, accepted stale test report, production incident, independent reviewer result or general development-effectiveness claim was observed. Mere freshness is not a substitute for the right test/target; evidence age alone does not prove invalidity when its relevant dependencies are unchanged.
 
 ## Cold-start — required full reads for substantive continuation
 
@@ -60,77 +62,91 @@ After current AGENT bootstrap and applicable protocols:
 2. [META.md](META.md).
 3. [METHOD.md](METHOD.md).
 4. [PLAN.md](PLAN.md).
-5. [SOURCE-LEDGER.md](SOURCE-LEDGER.md), through U02.
-6. [SOURCE-LEDGER-U03.md](SOURCE-LEDGER-U03.md), the additive current volume.
-7. [U03 delegation/review/acceptance note](notes/U03-delegation-review-and-acceptance.md).
+5. [SOURCE-LEDGER.md](SOURCE-LEDGER.md).
+6. [SOURCE-LEDGER-U03.md](SOURCE-LEDGER-U03.md).
+7. [SOURCE-LEDGER-U04.md](SOURCE-LEDGER-U04.md).
+8. [U04 testing/diagnosis/verification note](notes/U04-testing-diagnosis-and-verification.md).
 
-Use [INDEX.md](INDEX.md) for claim-directed re-entry. Read older mechanism notes when their findings are load-bearing; their old next-action lines are historical checkpoints. Current continuation comes from this STATE.
+Use [INDEX.md](INDEX.md) for claim-directed re-entry. Recover older notes/source when their findings are load-bearing; their old next-action sentences are historical checkpoints, not current authority. Preserve prior completed readings rather than restarting from README summaries.
 
-When challenging or reusing an experiment, read its full runner, actual output and exact pinned upstream source. Saved evidence is not newly observed current-host behavior. Preserve already completed reads and prior results; do not redo earlier units from README summaries.
+When challenging or reusing an experiment, read its full runner, output and exact pinned source. Saved results are not newly observed current-host behavior. A first-party fixture execution is not a live project/model test.
 
-## Next logical and authorised work — U04
+## Next logical and authorised work — U05
 
-Fully read at the existing pin:
+Fully read `skills/finishing-a-development-branch/SKILL.md` at the existing pin and follow its actual references. Re-enter SDD's final review, residual rulings/disclosure and scratch cleanup; using-git-worktrees; and relevant host-reference ownership/detached-state clauses where needed.
 
-- `skills/test-driven-development/SKILL.md` and its actual referenced test guidance;
-- `skills/systematic-debugging/SKILL.md` and load-bearing supporting techniques;
-- `skills/receiving-code-review/SKILL.md`;
-- `skills/verification-before-completion/SKILL.md`.
+Trace:
 
-Confirm supporting filenames through the pinned tree. Trace:
+`accepted or parked work → current tests and code state → human merge/PR/keep choice → actual Git result → cleanup and surviving evidence`.
 
-`intended behavior → expected result/oracle → actual test/failure → recorded evidence → correction → current verification/completion claim`.
+Preserve these distinctions:
 
-Reconcile U03's reuse of implementer test evidence with any fresh-verification requirements. Separate code/commit identity, dirty working state, environment, test inputs, command/output, expected results and later changes. Read selected tests when they genuinely discriminate an important claim; a new local experiment is not obligatory for every prose mechanism.
+- a proposed delivery action versus an authorised action versus its verified effect;
+- clean review versus completion with recorded residual findings;
+- pre-merge tests versus tests of the resulting merged state;
+- agent-created versus externally managed worktrees and cleanup ownership;
+- code history versus ignored reports, rulings, review evidence and their human-facing handoff.
 
-U05 retains final delivery, parked-finding discharge and durable retention. U06 retains broader behavioral drill/skill-evaluation coverage. Do not turn missing host/model evidence into an unlimited product-testing campaign or silently adopt the target's procedures.
+Examine failed tests, conflicts, changed branches, detached states, unrelated edits and explicit destructive-action handling at source-appropriate depth. A safe local fixture is optional if it resolves a consequential uncertainty; real shared-branch push/merge, user-host installation, upstream reporting and credentialed execution remain outside this research request.
+
+U06 retains skill-authoring/pressure/drill/evaluation mechanisms; U07 retains runtime/distribution; U08 retains full composition and project-facing projection. No adjacent architecture or adoption phase follows automatically.
 
 ## Open questions and residual routing
 
-Q01–Q03 have bounded selected-source delivery answers with actual host events/namespaces/model following unverified. Q04 now has a bounded role/packet/acceptance answer, not observed actor behavior. Q05 retains approval/revision-sensitive standing limits. Q06 remains broader evaluation; Q07/Q08 remain runtime/omission closure.
+Q01–Q03 retain selected-source delivery answers with live host events/namespaces/following unverified. Q04 has a bounded role/packet/acceptance model, not observed actor behavior. Q05 preserves approval/revision-sensitive standing limits. Q06 is broader evaluation; Q07/Q08 are runtime/omission closure.
 
-Q09–Q12 preserve module/session invalidation, marker validity, Hermes alias/path and distribution-document seams. Q13–Q17 preserve scope/ruling authority, plan/spec revision rebinding, controller context transfer, ignored-evidence retention and selected-target/range checks.
+Q09–Q12 preserve module/session invalidation, marker validity, Hermes aliases and distribution seams. Q13–Q17 preserve scope/ruling authority, plan/spec rebinding, controller context transfer, ignored-evidence retention and selected artifact/range checks.
 
-U03 adds:
+U03 residuals:
 
-- Q18 → U04: binding of reported tests to reviewed code/environment and subsequent changes.
-- Q19 → U05: discharge/persistence of deferred or parked findings before delivery.
-- Q20 → U04/U08: generic/specialized authority and review-rule composition; actual invocation remains untested.
-- Q21 → U06: current-contract alignment of recall predicates and separate behavioral drill evidence.
-- Q22 → U04/U08: preservation of global constraints in scoped re-review without a dedicated template placeholder.
+- Q18: U04 explains claim-specific fresh/reused evidence, but actual test-to-code/environment binding remains unverified.
+- Q19: U05 owns discharge/persistence of deferred or parked findings before delivery.
+- Q20: U04 adds generic/specialized testing, diagnosis and feedback composition seams; U08 must retain actor/stage boundaries.
+- Q21: one diagnostic fixture now executed; recall/drill and skill-efficacy evaluation remain U06.
+- Q22: global constraints in scoped re-review remain open; no automatic recovery mechanism was established here.
 
-These questions create no upstream-mutation or architecture authority.
+U04 additions:
 
-## Environment and evidence
+- Q23: preserving no candidates, skipped work, failed launch and completed negative observation as distinct downstream states.
+- Q24: which freshness/reuse rule applies to which actor, claim and stage when several skills apply.
+- Q25: binding a waited-for event/condition to the current operation rather than an earlier occurrence.
 
-Connected GitHub read/write and local Git/Bash/Python are available. U03 used a newly transferred, exact 1,469-byte S34 script. Only its explicit-OUTFILE path was executed. The verbal check ran a literal grep predicate; S42/S43 files were source-read, not executed as suites. Two direct official Git documentation pages were retrieved for endpoint/reachability semantics, not product validation.
+These questions confer no upstream-mutation or architecture authority.
 
-Linux, Python 3.13.5, Git 2.47.3, Bash 5.2.37; synthetic repositories/commits with isolated HOME/Git configuration, no remotes, credentials or installation; temporary directories removed. No real coding-agent/model, live reviewer, Windows wrapper, upstream suite or CI verdict was produced. No full clone/archive was attempted or obtained in this round. Older local experiment files were not present in this container; their canonical records were preserved, not claimed as reruns.
+## Available environment and execution evidence
 
-GitHub readback matched actual local E07/E08 blobs:
+Connected GitHub reads/writes and local Python/Bash are available. U04 transferred and Git-hash-verified exact S53 (1,986 bytes) and S54 (2,609 bytes). The study runner checks both identities before copying them into temporary fixtures. No full clone/archive was acquired this round.
 
-- runner: `a1982668d06c8cf22783af60bfb5430839eb1b5c`;
-- output: `48ba0976e661c74fe20f9232836fcc2dc2debb19`.
+Actual local environment: Linux, Python 3.13.5, Bash 5.2.37. Isolated HOME, bounded subprocesses and automatically removed temporary files. Test execution used controlled npm stubs only; no real npm/project suite, dependencies, credentials, network calls, Windows execution, host/model session or installation occurred.
 
-Transfer identity is not independent validation of interpretation, reviewer quality or task effectiveness.
+A public-web open of the pinned target failed; search yielded mirrors/forks that were discarded. No substitute revision or mirror supports the findings. Connected GitHub supplied all target evidence.
+
+Published/local E09/E10 identities match:
+
+- runner `evidence/U04-diagnostic-probes.py`: Git blob `37ca1fe7d2ee6c0390e51f9eb56b281a26138eee`, 8,740 bytes;
+- output `evidence/U04-diagnostic-probes-results.json`: Git blob `875f03b27e53b8a6013f2facbace833fd7478cb9`, 7,543 bytes.
+
+The selected first-party fixture exit 0/five assertions and the study's three failed criteria coexist because they test different claims. Transfer identity verifies bytes, not independent interpretation or general effectiveness. Earlier E01–E08 results remain preserved and were not rerun.
 
 ## Publication checkpoint
 
-**U03 findings, evidence, source supplement, plan, metadata, package router and catalog update are published in main. This STATE records the handoff to U04.** Research remains ACTIVE / PARTIAL.
+**U04 findings, evidence, source supplement, plan, metadata, package router and catalog are published in main. This STATE closes the handoff to U05.** Research remains ACTIVE / PARTIAL.
 
-Four files were added: U03 note, runner, output and source-ledger supplement. Four package files were updated: PLAN, META, INDEX and this STATE. The shared CATALOG's only substantive change is Superpowers' discovery row; commit-level review also detected removal of the terminal newline, a formatting-only difference. No other catalog wording or study status changed. METHOD, the original SOURCE-LEDGER, all earlier notes/evidence, shared library INDEX, Foundation, agent-control, other study package content and external repositories were not written by this round.
+Four package files were added: U04 note, runner, actual output and source-ledger supplement. Four package files were updated: PLAN, META, INDEX and this STATE. METHOD, the two prior source-ledger volumes, earlier notes/evidence, shared library INDEX, Foundation, agent-control, other study package content and external repositories were not written by this round. The net CATALOG change is the Superpowers row only.
 
 Publication anchors before this STATE edit:
 
-- note: `8d73afd353cb74f82d650938fa36d9aad040163b`;
-- runner: `9c76934a2254fbf3ed541c0202bd222eaf6f8727`;
-- actual output: `be410115d763f36bfc7797e71b3169a74dc971a7`;
-- source supplement: `d859b9c0bda4dc5471d2bef9a9c638c5e5412318`;
-- plan: `9dd57461c052372c56bcfdb4d3542ea4f42c6b7f`;
-- metadata: `042e1892b137194e5dc2805b0940abbcdf351ea8`;
-- package index: `1f6fdf23beeb0ae29178e1eaf5775cd9ccd24697`;
-- catalog: `59ce1f787995e5b818abbbdf2b43d9e576d047e4`.
+- note: `f85a9daa621344d1ef7501f30390631cf6cc7bd2`;
+- runner: `6d992a91c5230d24462dd342dd0ae18d6c859f5f`;
+- actual output: `69f9bb02c106a33f05e28705e7c9202c1ed3f55a`;
+- source supplement: `f0ddeb25617d78598eab1c1939d10cdd295e9724`;
+- plan: `1dd1c9d67ef729a6da08b44b8be75469f4af41d9`;
+- metadata: `5d274507ff6c3b1940408863c19185787a4503b7`;
+- package index: `5d8c28934258125a0fa66780fb70c1252feb1e9d`;
+- catalog final: `951719886fac384d63bd5ae759504bfbc7b85dda`.
 
-The U03 note was re-read through EOF after publication; experiment identities/results and the complete catalog commit patch were checked. Those checks establish transfer, bounded-content and scope consistency, not independent research validation. Broader interleaved main activity must not be attributed to this study. No branch merge or manual upload is pending.
+**Publication correction:** the first catalog transfer accidentally added the word retrieval to an unrelated ECC relevance field. Commit review detected it; the subsequent catalog edit restored the exact original wording. This was an assistant transfer error, not an authorised ECC change. The comparison from pre-catalog `5d8c28934258125a0fa66780fb70c1252feb1e9d` through `951719886fac384d63bd5ae759504bfbc7b85dda` contains only CATALOG with one added/one removed line. Concurrent study entries and status changes remain preserved.
 
-Previous publication history, including U02's repaired catalog transfer errors, remains recoverable in the immutable prior [STATE at 7152f590](https://github.com/batuhanozgun/agentic-os-search/blob/7152f590205bf7b628716ed064418cbaad4e57c2/research/studies/superpowers/STATE.md). This is a historical record, not current authority. Earlier notes and evidence remain unchanged at their current paths.
+The U04 note was re-read through EOF after publication; runner/output Git identities matched the actual local files; the catalog patch and net scope were checked. These establish publication/transfer and bounded-content consistency, not independent research validation. No branch merge or manual upload is pending. Interleaved main activity must not be attributed to this study.
+
+Prior state/publication history remains available in [the immutable U03 STATE](https://github.com/batuhanozgun/agentic-os-search/blob/d88dcd5cd1499b9649a0f075655266093f9f142a/research/studies/superpowers/STATE.md), which is history, not current authority.
