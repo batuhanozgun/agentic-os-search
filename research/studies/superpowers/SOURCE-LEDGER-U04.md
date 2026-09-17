@@ -26,7 +26,7 @@ S44–S46/S48 add four SKILL bodies to the previous eight: **12 of the observed 
 
 ## Bounded tree reads
 
-- Debugging tree `ab83fc82f82582e047d96fc516bac9bc03095ee0`, recursive within that subtree: eleven entries. CREATION-LOG and academic/pressure scenario files were listed, not read; defer their evaluation meaning to U06. Seven active skill/support/helper files were read here.
+- Debugging tree `ab83fc82f82582e047d96fc516bac9bc03095ee0`, recursive within that subtree: eleven entries. CREATION-LOG and academic/pressure scenario files were listed, not read; defer their evaluation meaning to U06. Six active skill/support/helper files were read here (S48–S53); five historical/evaluation files remain unread. This corrects the initial per-subtree count of seven; the eleven-file S44–S54 register is unchanged.
 - Debugging test tree `a3c96b50d5786b1d51d746eaadac058df0b11eef`: one file, S54.
 
 A directory listing is navigation, not content reading or evidence of passing behavior.
