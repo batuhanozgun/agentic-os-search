@@ -2,40 +2,44 @@
 
 - **Study ID/type:** ecc / external-target.
 - **Research object:** affaan-m/ECC: reusable procedural assets, installation/adaptation, work and knowledge lifecycles, runtime/control/evaluation and actual delivery boundaries.
-- **Status:** ACTIVE / PARTIAL. U01-A source/local slice published; U01-B bounded source route comparison complete. Current publication and authority: [STATE](STATE.md). Whole P1 discovery is not complete.
-- **Primary question:** What working system does ECC actually create, with which dependencies/limits; what survives or changes across execution surfaces?
-- **Secondary deliverable:** a reusable research-method case preserving decisions, revisions, costs and actual effects; not an already-validated best method.
+- **Status:** ACTIVE / PARTIAL. U00, U01-A and U01-B are published; U02-A adds a bounded ownership/checkpoint/projection source investigation. Current publication and authority: [STATE](STATE.md). P1/full topology remains incomplete.
+- **Primary question:** What working system does ECC actually create, with which dependencies and limits; what survives or changes across execution surfaces?
+- **Secondary deliverable:** a reusable research-method case preserving decisions, revisions, costs and observed effects; not an already-validated best method.
 
 ## Source binding
 
-External target: https://github.com/affaan-m/ECC . Primary pin: `8321021c54d670126ce3b2969d5deb880b4b0c2a`, originally direct-ref verified 2026-09-17. Manifest context `ecc-universal` 2.2.1 is not distributed-binary or installed-cache verification. No repin in U01-B.
+External target: https://github.com/affaan-m/ECC . Primary pin: `8321021c54d670126ce3b2969d5deb880b4b0c2a`, originally direct-ref verified 2026-09-17. No repin in U02-A. Manifest context `ecc-universal` 2.2.1 is not verification of a distributed binary or installed cache.
 
-[SOURCE-LEDGER](SOURCE-LEDGER.md), [U01-A sources](evidence/U01-A-SOURCES.md) and [U01-B sources](evidence/U01-B-SOURCES.md) preserve per-unit coverage. Current official OpenAI host docs are separate selected contract checks, not part of the pinned ECC code or a live host test.
+[SOURCE-LEDGER](SOURCE-LEDGER.md) routes [U01-A](evidence/U01-A-SOURCES.md), [U01-B](evidence/U01-B-SOURCES.md) and [U02-A](evidence/U02-A-SOURCES.md) coverage. Earlier current official host-document checks are separate temporal surfaces, not part of the ECC pin or live host evidence.
 
 ## Current bounded reuse signals
 
-**U01-A:** separate Node/npm, Rust and native-workflow surfaces; specific native Codex SessionStart projection versus broad instruction-backed documentation; exact-source local cache checker misses an absent hooks reference while detecting absent MCP. E01 is preserved and was not rerun.
+**U01-A:** separate Node/npm, Rust and native-workflow surfaces; specific Codex SessionStart projection versus broad instruction-backed documentation; a local exact-source cache checker misses an absent hooks reference while detecting absent MCP. E01 is retained, not rerun.
 
-**U01-B:** native Codex, manifest-driven home and legacy sync are different delivery/ownership paths. Selection labels need not be leaf payloads; target/dependency filtering and adapter mapping matter. Applied content may be transformed and separately digested. Multi-harness preview does not create a global transaction; partial results are explicit. Registration, persisted install-state, derived health, host trust and effective use are different predicates. A memory skill can require a separately available CLI runtime.
+**U01-B:** native Codex, manifest-driven home and legacy sync have different delivery/ownership paths. Selection, target/dependency resolution, transformation, applied/skipped operations and recorded installed content differ. Multi-harness preflight is not a global transaction; registration, derived health, trust and runtime prerequisites are distinct.
 
-No new ECC execution occurred in U01-B. These are source observations and bounded inferences, not installed-system safety or efficacy results. Next U02-A follows ownership/state and partial application with a Kimi contrast.
+**U02-A:** common copy-file ownership guards and guided Kimi's identity/digest preflight are materially different policies. Identical bytes need not confer ownership; an already-managed user edit can remain updateable by the ordinary path. A nonempty non-Claude managed plan also receives bridge-state handling despite the helper's Claude-migration name. Checkpoints preserve old unwritten digests and can retain pending missing operations; they are not completed-effect journals. Canonical JSON, scoped database reconciliation and current file-health inspection are separate.
+
+[Note 03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md) preserves an **unexecuted source-derived** interrupted-guided-retry counter-path. It is not a new observed incident or proof that every retry fails. Relevant upstream test sources were read, not run. No new ECC execution occurred in U01-B or U02-A. Full repair/uninstall, merged-JSON ownership, crash/concurrent-writer guarantees and host efficacy remain open.
+
+Next U03-A studies Work/session record producers and actual consumers rather than exhausting installation variants.
 
 ## Potential relevance — provisional, many-to-many
 
-**Information:** source/installed identity, transformed representations, record/projection freshness and verification scope. **Work:** request/resolution/application, partial completion, retry and handoff. **Actors:** supplier/installer/provider/user authority and host trust. **Environment:** runtime prerequisites, target roots, provider-specific delivery and capability limits. These are retrieval hints, not Foundation taxonomy membership.
+**Information:** source/installed identity, transformed representations, historical digests, record validity versus actual effects, scoped projection freshness. **Work:** request/resolution/application, partial effects, retry selection versus admission and handoff. **Actors:** supplier/installer/provider/user authority and consent. **Environment:** target roots, containment, runtime prerequisites and delivery-channel differences. These are retrieval hints, not Foundation taxonomy membership.
 
-**SOUL:** a candidate case for constructing, adapting and governing working systems. Installing an asset pack is not equivalent to discovering needs and generating a suitable system.
+**SOUL:** candidate case for constructing, adapting and governing working systems without mistaking installed assets, a management label or visible state for realized capability. It does not demonstrate autonomous needs discovery or system generation.
 
-**Development OS:** source/materialization/readback, ownership and partial-state recovery; comparison of guidance, executable control and consumer effects; negative/falsifier cases for overbroad readiness labels.
+**Development OS:** ownership qualification by operation/channel, partial-state recovery, validation scope and producer→record→consumer tracing. Potential falsifiers and reference mechanisms, not adopted architecture.
 
-**Reuse modes:** evidence/reference, implementation-learning, candidate mechanism, falsifier, design pressure, evaluation-case source, negative option and methodology case.
+**Reuse modes:** evidence/reference, implementation-learning, candidate mechanism, falsifier, design pressure, evaluation-case source, negative/limited option and methodology case.
 
 ## Freshness, re-entry and authority
 
-Revalidate affected host/plugin APIs, package/release content, installation/ownership guards, memory/learning writers, security claims and verifier oracles before load-bearing current use. Dated roadmap issues are not automatically current defects. A copied file, ready registration or passing local fixture is not proof of beneficial agent behavior.
+Revalidate affected source, install channel, ownership/repair policy, projection consumer, host contract and test oracle before load-bearing current use. Dated issues are not current defects. Structural validity or digest equality is not human authorization or beneficial agent behavior.
 
-Start [STATE](STATE.md) → [INDEX](INDEX.md) → relevant note/source. Current result [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md); retained counterexample [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md). Method v0.1 and plan v0.3; method case in [METHOD-REVIEW](METHOD-REVIEW.md), not independently validated.
+Start [STATE](STATE.md) → [INDEX](INDEX.md) → active question and bounded note → exact sources. METHOD remains 0.1; PLAN is 0.4. [METHOD-REVIEW](METHOD-REVIEW.md) records MR03's producer-scope correction and consumer contrast, not independent method validation.
 
-This candidate study is not agent-control, Foundation truth, accepted architecture, product adoption or installation authority. ECC AGENTS/skills/rules are research objects, not our assistant-control sources.
+This study is not agent-control, Foundation truth, accepted architecture, product adoption or installation authority. ECC AGENTS/skills/rules remain research objects.
 
-Related studies, selectively: [gstack](../gstack/META.md), [Hermes](../hermes-agent/META.md), [Superpowers](../superpowers/META.md), [context/memory/harness](../context-memory-harness-engineering/META.md), [Anthropic SDLC](../anthropic-ai-native-sdlc-playbook/META.md), [The Carbon Layer](../the-carbon-layer/META.md). Shared terminology is not equivalent scope or independent corroboration.
+Related studies, selectively and at the later appropriate phase: [gstack](../gstack/META.md), [Hermes](../hermes-agent/META.md), [Superpowers](../superpowers/META.md), [context/memory/harness](../context-memory-harness-engineering/META.md), [Anthropic SDLC](../anthropic-ai-native-sdlc-playbook/META.md), [The Carbon Layer](../the-carbon-layer/META.md). Shared terminology is not equivalent scope or independent corroboration.
