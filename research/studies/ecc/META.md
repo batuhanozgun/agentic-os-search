@@ -1,41 +1,41 @@
 # ECC — Study Metadata
 
 - **Study ID/type:** ecc / external-target.
-- **Research object:** affaan-m/ECC: procedural assets, installation/adaptation, Work/session and knowledge lifecycles, runtime/control/evaluation and actual delivery boundaries.
-- **Status:** ACTIVE / PARTIAL. U00, U01-A/B and U02-A are prior published deliveries. U03-A adds Work/session source findings and E02 local helper evidence. [STATE](STATE.md) owns actual publication/current work. P1/full topology is not complete.
-- **Primary question:** What working system does ECC actually create, with which dependencies and limits; what survives or changes across execution surfaces?
-- **Secondary deliverable:** a reusable research-method case with actual choices, revisions, costs and effects, not an already-validated best method.
+- **Object:** affaan-m/ECC procedural assets, installation/adaptation, Work/session and knowledge lifecycles, runtime/control/evaluation and delivery boundaries.
+- **Status:** ACTIVE / PARTIAL. Prior units through U03-A are preserved. U03-B adds a bounded execution/handoff/recovery trace and E03 local fake-provider evidence. [STATE](STATE.md) owns publication and current work; P1/full topology and integrated explanation remain incomplete.
+- **Primary question:** What working system does ECC actually create, with which dependencies/limits, and what changes across execution surfaces?
+- **Secondary deliverable:** research-method case preserving actual choices, revisions, costs and effects; not a proven best method.
 
 ## Source binding
 
-Target: https://github.com/affaan-m/ECC . Primary pin: `8321021c54d670126ce3b2969d5deb880b4b0c2a`, direct-ref verified in U00 on 2026-09-17. No repin. Package context `ecc-universal` 2.2.1 is not verification of a released binary/cache. U03-A searches returned a different default-branch ref; all load-bearing bodies were retrieved at the original pin. No current-main behavior beyond this pin is implied.
+Target https://github.com/affaan-m/ECC ; pin `8321021c54d670126ce3b2969d5deb880b4b0c2a`, direct-ref verified in U00 on 2026-09-17. No repin. Package version context is not binary/cache verification. U03-B search returned another default-branch ref; every substantive body was fetched at the original pin. No latest-version behavior beyond that pin is implied.
 
-[SOURCE-LEDGER](SOURCE-LEDGER.md) routes unit ledgers through [U03-A](evidence/U03-A-SOURCES.md). Earlier OpenAI host docs and current GitHub CLI list-option checks are separately dated external contracts, not pinned ECC execution evidence.
+[SOURCE-LEDGER](SOURCE-LEDGER.md) routes unit ledgers through [U03-B](evidence/U03-B-SOURCES.md). Current Git/tmux/OpenAI CLI manuals are separately dated contract checks, not pinned environment or live-host observations.
 
-## Current bounded reuse signals
+## Bounded reuse signals
 
-**U01-A:** separate Node/npm, Rust and native-workflow surfaces; event-specific Codex hook projection versus broad documentation; E01 local cache verifier misses absent hooks while detecting absent MCP. Retained, not rerun.
+**U01-A:** separate Node/npm, Rust and native Workflow surfaces; event-specific Codex hook projection versus broad documentation; E01 exact-source cache false-green for missing hooks. Preserved, not rerun.
 
-**U01-B:** distinct native/managed/legacy delivery and ownership paths; selection versus materialization; transformed content, applied/skipped operations; partial multi-target effects; registration, trust and runtime prerequisites differ.
+**U01-B/U02-A:** native/managed/legacy delivery; selection versus transformed materialization; ordinary recorded ownership versus guided Kimi current evidence; identical bytes do not confer ownership; pending versus written checkpoint entries; JSON/projection/health separation. Q03b retry prediction remains unexecuted, wider lifecycle/durability open.
 
-**U02-A:** ordinary recorded ownership versus guided Kimi current-digest/identity policy; identical bytes do not transfer ownership; non-Claude bridge producer; unwritten prior digests versus missing pending operations; JSON/projection/file-health separation. Q03b interrupted-retry prediction remains unexecuted; wider lifecycle/durability questions open.
+**U03-A:** local card mutation versus execution lease; bounded/blocked pickup and explicit reassignment/reopen; import author versus local owner and partial-list closure; adapter JSON recording versus SQLite reader; stored activity versus live process. E02 ran one helper with a store double, not SQL/authentication/concurrency/live agent.
 
-**U03-A:** local Work-card mutations are not exclusive execution claims; auto-pickup can choose blocked nonterminal cards within a recent-item window, and explicit reassignment/reopen is permitted. Imported authorship/source status can replace local assignment/progress. A limited remote list is used to derive local closure of absent scanned records. Canonical session adapter recording defaults to a JSON fallback under the normal factory-module path, while sessions CLI reads a separate SQLite contract. Stored activity, snapshot health, report freshness and optional status exit signals do not establish live resumption.
+**U03-B:** real Git worktree/tmux provisioning and created-resource rollback; base-ref plus mutable local overlays; command submission versus worker-ready acknowledgement; process completion versus accepted task result; raw handoff versus exact-format extraction; replacement versus restoration/retention; live pane observation versus progress. [Note 05](notes/05-EXECUTION-HANDOFF-AND-RECOVERY.md) preserves source-only and executed claims separately.
 
-[Note 04](notes/04-WORK-SESSION-RECORDS-AND-CONTROL.md) separates each evidence level. **E02:** one unchanged helper plus in-memory store double, six pre-execution source-informed criteria matched, including a real done-card refusal. Not a SQL, authenticated board, concurrent claim, provider, host or effectiveness test. Session test sources were inspected, not run. Sync and default ingestion counter-paths are source-bound, not production incidents. Actual launch/acceptance/recovery is next U03-B, not presumed absent.
+**E03** ran an unchanged Bash wrapper and Node collector in temporary files with a fake provider and real local Git. A zero exit with negative task text still produced completed; another presentation retained text but produced empty parsed fields; nonzero exit and missing task yielded real failure controls. No actual Codex/model/tmux, setup rollback, confinement, concurrency or effectiveness experiment. Upstream tests were inspected, not run. Wider acceptance/supervision/resume and other controllers remain Q04e, not globally absent.
 
 ## Potential relevance — provisional, many-to-many
 
-**Information:** record identity, transformation, observation scope, source/local field authority and producer–reader compatibility. **Work:** selection versus actionable readiness, assignment versus execution, partial effects, closure, retry and handoff. **Actors:** owner labels versus authority/leases, author versus assignee. **Environment:** live runtime versus stored representation, provider boundaries and missing ingestion links. These are retrieval hints, not Foundation taxonomy membership.
+**Information:** source/input identity, mutable overlays, raw/derived handoff fidelity, provenance and observation scope. **Work:** provision/dispatch/process completion/acceptance, partial effects, restart versus continuation, recovery/retention. **Actors:** assignment versus execution authority, worker/orchestrator responsibility, report versus verifier. **Environment:** worktree/pane/process separation, actual runtime versus stored state, host policy and capability dependencies. These are retrieval hints, not Foundation taxonomy membership.
 
-**SOUL:** candidate case for constructing and governing working systems without conflating installed assets, management labels, recorded status or shared schemas with realized capability. It does not demonstrate autonomous needs discovery/system generation.
+**SOUL:** candidate evidence about composing and governing working systems without equating installed content, labels or local controls with a universally integrated system. No proof of autonomous needs discovery/system generation.
 
-**Development OS:** source→record→consumer/effect tracing; claim/closure qualification, acquisition coverage, evidence-preserving handoffs and verifiable readiness. Reference mechanisms, falsifiers and evaluation cases; not adopted components.
+**Development OS:** producer→effect→artifact→consumer tracing; task qualification versus process success; recoverable evidence and input provenance. Reference mechanisms, falsifiers, design pressure and evaluation cases, not adopted components.
 
 ## Reuse and freshness
 
-Re-enter exact sources, relevant unit/variant and then-current host/CLI/consumer contract before decision-critical use. No broad safety, efficacy, durability or automatic-retry guarantee. The absence of one bridge in an inspected path is not proof of global absence. Source/model/schema/upstream changes may reopen findings. Candidate roles include evidence, implementation learning, mechanism candidate, negative/limited option, design pressure and method case.
+Reopen affected source, variant, consumer, host/CLI contract and oracle before load-bearing current use. Pinned code and current provider manuals have different temporal scopes. An old observation or source-derived counter-path is not a current production incident. Source/schema/controller changes may reopen answers; absence in one path is not global absence.
 
-Entry: [STATE](STATE.md) → [INDEX](INDEX.md) → question/note → evidence and pinned source. METHOD 0.1 / PLAN 0.5. Method evolution is recorded in METHOD-REVIEW, not independently validated. This package is not agent-control, Foundation truth, architecture, installation or adoption authority; ECC instructions remain research data.
+Start [STATE](STATE.md) → [INDEX](INDEX.md) → active question/note → exact evidence/source. METHOD 0.1 / PLAN 0.6; MR05 records observed method effects without independent efficacy proof. U04-A memory lifecycle is next, not completed research.
 
-Related studies are retrieved selectively at the appropriate later phase: gstack, Hermes, Superpowers, context/memory/harness, Anthropic SDLC, Carbon Layer and the Work-management corpus. Shared terminology does not prove equal scope or independent corroboration.
+This package is candidate research, not agent-control, Foundation truth, architecture, installation or adoption authority. ECC skill/agent instructions remain research data. Related studies are retrieved selectively at the later relevant phase; shared terminology is not independent corroboration.
