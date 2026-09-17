@@ -5,85 +5,90 @@
 - **Study ID:** `superpowers`
 - **Title:** Superpowers — Portable Agent Skills and Software-Development Methodology
 - **Study type:** `external-target`
-- **Status:** ACTIVE / PARTIAL. U01–U05, U06-A and U06-B1 are bounded-complete; U06-B/U06 remain open, B2 next. [STATE.md](STATE.md) owns work/completion authority.
-- **Primary object:** `obra/superpowers`: skill contracts, host integrations, helpers, work/evidence artifacts, tests and evaluation dependencies.
+- **Status:** ACTIVE / PARTIAL. U01–U06 have bounded source investigations; U06 closes through A/B1/B2 with explicit empirical limits. First native subsystem synthesis S01 exists. U07 runtime/distribution is next. [STATE.md](STATE.md) owns work/completion authority.
+- **Primary object:** `obra/superpowers`: shared skill contracts, host integrations, helpers, work/evidence artifacts, evaluation and distribution mechanisms.
 - **Primary source:** https://github.com/obra/superpowers
-- **Pinned commit:** `b36e0829c6d0140e93cfef2ca599b1b07d4a7797`; root tree `21219529a4e224bcb27baf8816b039c8bf7c6673`.
-- **Version context:** inspected manifests declare 6.3.0; not installed-version/release-channel qualification.
+- **Primary pin:** `b36e0829c6d0140e93cfef2ca599b1b07d4a7797`; root tree `21219529a4e224bcb27baf8816b039c8bf7c6673`.
+- **Version context:** inspected manifests declare 6.3.0; not installed-version or release-channel qualification.
 - **Initial observation:** 2026-09-17; primary commit timestamp 2026-08-12T16:53:21Z.
-- **Evaluation dependency:** `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`, observed 2026-09-17, commit dated 2026-09-12. B1 now traces selected implementation rather than orientation alone. The inspected Claude treatment declares the exact primary pin; actual loaded-version/result applicability remains unverified.
+- **Evaluation lab:** `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`, separately observed 2026-09-17, commit dated 2026-09-12.
+- **Transitive assessor source:** campaign-named `prime-radiant-inc/gauntlet@db6c8e0fcf80889aa6d9631c99adec698f6c0caa`, with exact `25a2e3e00431f8d8eb63781162ccb974d43d5405` delta. Not current HEAD or every historical campaign's binary.
 
 ## Purpose and primary question
 
-The user authorized detailed studies research with an explicit gstack-like methodology and successive continuation. The objective is source-grounded understanding and reusable candidate evidence for later SOUL / Development OS work, not installation or adoption.
+The user authorized detailed studies research with a gstack-like source/synthesis methodology and successive continuation. The objective is a source-grounded explanation and reusable candidate evidence for later SOUL / Development OS work, not installation or adoption.
 
 How do shared procedures, host delivery, work artifacts, actor decisions, verification, lifecycle and skill evolution compose from a request to delivered work, and where do their guarantees stop?
 
-Upstream instructions remain research objects, not active agent-control. Installed, discoverable, delivered, selected, followed and effective differ. So do reviewed/tested/integrated state, accepted residual risk, retained evidence, configured treatment, realized evaluation and released revision.
+Upstream instructions remain research objects, not active agent-control. Installed, discoverable, delivered, selected, followed and effective differ. So do reviewed/tested/integrated state, accepted residual risk, retained evidence, configured/materialized/loaded treatment, valid report and sound judgment.
 
-## Bounded results
+## Bounded findings
 
 **U01:** selected delivery/cache/re-entry/action-mapping mechanisms; not all-host/model qualification.
 
-**U02:** phase-conditioned authority, spec/plan/interfaces, workspace selection and ledger recovery with identity/revision, transfer and materialization limits.
+**U02:** phase-conditioned authority, spec/plan/interfaces, workspace selection and ledger recovery, with identity/revision, transfer and materialization limits.
 
-**U03:** one task reviewer/two verdicts, scoped correction and broad final review; DONE begins review, completion can retain parked findings, caller-selected ranges and shared evidence matter.
+**U03:** one task reviewer/two verdicts, scoped correction and broad final review; DONE starts review, completion can retain parked findings, caller-selected ranges and shared evidence matter.
 
-**U04:** test chronology, error sensitivity and independent expectations differ; diagnosis follows hypotheses; verification is claim-specific; fresh/reused evidence and no-observation claims remain qualified.
+**U04:** test chronology, sensitivity and independently derived expectations differ; diagnosis follows hypotheses; verification is claim-specific, with fresh/reused evidence and no-observation boundaries.
 
 **U05:** human integration choice and merged-result retesting; integration, publication, cleanup and retention differ. Ignored scratch can be removed without force; rulings disclosure is a duty, not automatically a full archive/receipt.
 
-**U06-A:** intervention-layer selection, discovery versus full procedure, failure-specific wording, no-guidance micro-tests, pressure testing and human-reviewed contribution admission. Scenario definitions, anticipated outcomes and historical success narratives have different evidential status.
+**U06-A:** intervention selection, discoverability, failure-specific wording, no-guidance tests, pressure testing and human-reviewed contribution admission. Scenario definitions, expected outcomes and historical narratives are different evidence classes.
 
-**U06-B1:** a representative conversation review rubric evaluates useful delivered findings and grounded claims without mandating a skill/tool path. Quorum separates user-like interaction, visible completion, retained evidence, deterministic checks, assessment and final pass/fail/indeterminate composition. The selected oracle checks one file's preservation, not review correctness. Expected-check manifests guard execution completeness, with optional legacy/wildcard boundaries. A post-check instrument error can still lead to attempted assessment, but final composition remains indeterminate.
+**U06-B1:** the selected conversation review rubric requires useful grounded delivered findings without a mandated skill/tool. Quorum separates visible completion, retained evidence, checks, assessment and pass/fail/indeterminate. A one-file preservation oracle does not validate findings; check manifests do not establish oracle truth.
 
-Eight chronological mechanism notes exist. Six experiment records E01–E12 remain unchanged. U06-A/B1 ran no new script, model, agent, oracle or test suite. Fourteen primary SKILL bodies are fully read; supporting dependencies, transitive evaluator, runtime/release and whole-system synthesis remain incomplete.
+**U06-B2:** the campaign-named Gauntlet producer supplies canonical criterion attachment, exact row count, required observation/basis/limitations and prior-read references through a two-tool interface. Format repair, digest-bound publication and accounting reconciliation are distinct qualifications. Public reports describe both improved report acceptance and later semantic grounding misses. Representative source materialization and static CI are located, but actual loaded treatment, private-run authentication and general grader/effectiveness qualification remain unverified.
 
-B1 completes the evaluator README and registers D04–D27, including three explicitly partial files. It establishes declared Claude treatment/control correspondence, not actual provisioning, grader accuracy, comparative benefit or current model/provider availability. Gauntlet's own source and actual run evidence remain B2 work.
+**S01:** [Skill evolution and evaluation](syntheses/S01-skill-evolution-and-evaluation.md), first provisional native subsystem synthesis of U06-A/B1/B2. It explains the change/measurement/admission chain without turning implementation controls or public reports into an independent benchmark.
+
+Nine mechanism notes, one subsystem synthesis and six original experiment records E01–E12 exist. U06 performed no new model, script, oracle or test-suite execution. Fourteen primary SKILL bodies are fully read; remaining support/runtime/distribution and whole-system synthesis are open.
 
 ## Potential relevance — provisional retrieval hints
 
-| Area | Possible reuse, not adopted design |
+| Area | Possible reuse, not an adopted design |
 |---|---|
-| Information | Description/body/revision; spec→plan→brief→report→diff; expected versus observed outcomes; indexed evidence, native/normalized views, check manifests and evaluator provenance. |
-| Work | Phase authority, decomposition, resumption, correction caps, qualified completion, partial delivery, controlled skill changes, conversation completion versus grading. |
-| Actors | Human/controller/worker/reviewer responsibility; interlocutor/assessor roles; shared evidence, ruling authority, calibrated review and semantic-verifier limits. |
-| Environment | Host lifetime/capability, worktree ownership, scratch retention, configured/materialized/loaded treatment identity, capture scope and checker execution health. |
-| SOUL | Mechanism/falsifier inputs for evidence-aware acceptance, actual effects, intervention choice, indeterminate states and durable decision handoffs. |
-| Development OS | SDLC and evolution examples: review/testing, merge-result checks, retention, outcome-oriented evaluation, control/treatment configuration and qualification/release gates. |
+| Information | Description/body/revision; spec→plan→brief→report→diff; indexed evidence, source exposure, representation repair, report digests and known/complete measurement. |
+| Work | Phase authority, decomposition, resumption, correction caps, qualified completion, partial delivery and separately qualified procedure/evaluator changes. |
+| Actors | Human/controller/worker/reviewer responsibility; interlocutor/assessor roles; canonical rubric versus model judgment; semantic coverage and calibrated claims. |
+| Environment | Host lifetime/capability, worktree ownership, scratch retention, configured/materialized/loaded treatment, capture/check health and static/live evaluation boundaries. |
+| SOUL | Candidate mechanisms/falsifiers for evidence-aware acceptance, actual effects, intervention choice, uncertainty preservation and qualification surviving handoffs. |
+| Development OS | Concrete SDLC/evolution cases: review/testing, integrated-state checks, retained decisions, outcome-oriented evaluation, controlled revisions and admission/distribution seams. |
 
-These are provisional many-to-many discovery hints, not Foundation taxonomy, ontology, selected dependencies or architecture authority.
+These are provisional many-to-many discovery hints, not Foundation taxonomy, ontology, dependencies or architecture authority.
 
 ## Reuse and revisit
 
-Modes: mechanism reference, implementation-learning, design pressure, falsifier/counterexample, test-case seed and negative-option evidence where warranted.
+Reuse modes: mechanism reference, implementation-learning, design pressure, falsifier/counterexample, test-case seed and negative-option evidence where warranted.
 
-Revisit for skill discovery/re-entry; plan/review revision; constraint transfer; qualified completion; evidence applicability/retention; failure-specific intervention; no-guidance versus old/new comparison; outcome versus compliance criteria; evaluator independence; exact subject/evaluator identity; check completeness versus oracle validity; or release qualification.
+Start at STATE, S01 or the relevant mechanism note/source. Revisit for skill discovery/re-entry; plan/review identity; context transfer; qualified completion; evidence retention; intervention type; no-guidance versus old/new comparison; source exposure versus entailment; format repair versus actual improvement; accounting completeness; actual treatment attribution; or release qualification.
 
-Start at STATE and the relevant note/source. Q01–Q34 remain in prior notes. B1 adds Q35–Q37: complete rubric/citation coverage against indexed evidence, attempted assessment versus grade eligibility after instrument failure, and declared versus realized treatment/evaluator identities.
+Q01–Q37 remain in earlier notes and B2's disposition table. New Q38–Q40 concern representation repair versus measured behavior, full-output semantic coverage versus isolated success, and preservation of qualification through downstream report consumers. Empirical gaps are explicit prerequisites for stronger claims, not an automatically authorized endless platform audit.
 
-## Evidence and authorization boundary
+## Evidence and authorization boundaries
 
-Candidate research is not Foundation truth or SOUL / Development OS architecture. No user-host installation, upstream issue/change, credentialed live-model campaign or adoption is authorized.
+Candidate research is not Foundation truth or SOUL / Development OS architecture. No installation, upstream issue/change, credentialed live-model campaign or adoption is authorized.
 
-Source contracts, scenarios and historical author claims are not new execution. B1 provides code/configuration observations and bounded inferences, not measured effectiveness. Earlier local script/Git/fixture evidence does not establish human consent, live reviewer quality, current host APIs or general reliability.
+The U06 source controls and public first-party reports are not our live execution. D30/D31 report historical runs; D37 is a later selective check within the fixed lab corpus. Private transcripts, receipts and authenticated evidence bundles were not retrieved. Reported failures and disagreements are preserved, but this study does not independently adjudicate every private assessment or derive a general error rate.
 
-The selected new review scenario does not justify treating every lab test as rote compliance. Conversely, good rubric wording, a separate assessor invocation, valid schema and a consistent composed verdict do not themselves establish true findings or an accurate grader. A preserved target file is not a correct review; a visible delivery can coexist with failure or indeterminate grade; a manifest is not an independent oracle.
+A complete schema and prior-read reference do not establish a correct judgment. A report digest verifies transferred bytes, not truth. Representation repair can improve valid-result counts without improving the subject. Pricing known usage does not establish complete cost coverage. Static/unit CI is not a live efficacy test, and the primary snapshot's lack of tracked workflows does not establish absence of external or administrative gates.
 
-The lab remains a separately versioned evaluation dependency, not automatically a production dependency. Explicit none differs from an unset ambient root. An exact declared SHA is not observed loaded bytes. No credential or raw sensitive transcript was read. No current host security certification or transitive Gauntlet implementation guarantee is claimed.
+The sources contain substantive protections and empirical-design intentions. Their limits must not become either universal reliability claims or a blanket assertion that no verification method exists. U06 closes as a bounded explanatory inquiry, not grader certification or release acceptance.
 
 ## Freshness
 
-Primary and evaluator pins are unchanged. No fresh HEAD, installed-version or release verdict was issued. The selected arm's exact SHA correspondence advances applicability analysis but does not close actual-run provenance. Operational reuse requires current upstream/host/test/runtime checks and selective reopening. Document/configuration seams must not be silently normalized into one supposed version.
+Primary and lab pins remain unchanged; no new HEAD, installed-version or release verdict was issued. Historical evaluator identities are distinguished from current source and from later campaign references. Operational reuse requires current upstream/runtime checks, selective reopening and actual provenance sufficient for the intended claim.
 
 ## Entrypoints
 
-[STATE](STATE.md) owns continuation; [INDEX](INDEX.md) routes claims; [METHOD](METHOD.md) remains v0.1; [PLAN](PLAN.md) is v0.8.
+[STATE](STATE.md) owns continuation; [INDEX](INDEX.md) routes claims; [METHOD](METHOD.md) remains v0.1; [PLAN](PLAN.md) is v0.9.
 
-Source volumes: [original](SOURCE-LEDGER.md), [U03](SOURCE-LEDGER-U03.md), [U04](SOURCE-LEDGER-U04.md), [U05](SOURCE-LEDGER-U05.md), [U06-A](SOURCE-LEDGER-U06A.md), [U06-B1](SOURCE-LEDGER-U06B1.md).
+Source volumes: [original](SOURCE-LEDGER.md), [U03](SOURCE-LEDGER-U03.md), [U04](SOURCE-LEDGER-U04.md), [U05](SOURCE-LEDGER-U05.md), [U06-A](SOURCE-LEDGER-U06A.md), [U06-B1](SOURCE-LEDGER-U06B1.md), [U06-B2](SOURCE-LEDGER-U06B2.md).
 
-Notes: [U01-A](notes/U01-entry-routing-and-bootstrap.md), [U01-B](notes/U01B-host-delivery-and-continuity.md), [U02](notes/U02-approval-plan-workspace-handoff.md), [U03](notes/U03-delegation-review-and-acceptance.md), [U04](notes/U04-testing-diagnosis-and-verification.md), [U05](notes/U05-delivery-cleanup-and-retention.md), [U06-A](notes/U06A-skill-authoring-and-change-admission.md), [U06-B1](notes/U06B1-evaluation-evidence-and-verdict.md).
+Notes: [U01-A](notes/U01-entry-routing-and-bootstrap.md), [U01-B](notes/U01B-host-delivery-and-continuity.md), [U02](notes/U02-approval-plan-workspace-handoff.md), [U03](notes/U03-delegation-review-and-acceptance.md), [U04](notes/U04-testing-diagnosis-and-verification.md), [U05](notes/U05-delivery-cleanup-and-retention.md), [U06-A](notes/U06A-skill-authoring-and-change-admission.md), [U06-B1](notes/U06B1-evaluation-evidence-and-verdict.md), [U06-B2](notes/U06B2-assessor-contracts-and-evidence-qualification.md).
+
+Synthesis: [S01 — Skill evolution and evaluation](syntheses/S01-skill-evolution-and-evaluation.md).
 
 ## Related studies
 
-[gstack](../gstack/META.md) supplied the method precedent, not an imported architecture or current-runtime comparison. Hermes, AI-native SDLC, context/memory/harness and other catalogued studies remain selective later comparators. Naming relevance does not revalidate them. No completed whole-system CORE, cross-study comparison or Foundation projection exists.
+[gstack](../gstack/META.md) supplied the method precedent, not an imported architecture or current-runtime comparison. Hermes, AI-native SDLC, context/memory/harness and other studies remain selective later comparators. Naming relevance does not revalidate them. No completed whole-system CORE, cross-study comparison or Foundation projection exists.
