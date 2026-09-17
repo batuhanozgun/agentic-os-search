@@ -65,3 +65,11 @@ No live host/model, installation, registry tarball, upstream full-suite or effec
 New direct `.agents` and `.agents/plugins` discovery is in [U01-B-DISCOVERY](inventory/U01-B-DISCOVERY.md). The large recursive-tree response was not recovered as a completely reviewed inventory. It does not close P1 or mark unexpanded subtrees read.
 
 **No new ECC execution in this unit:** no installer, upstream test, local probe, actual cache/host or model/effectiveness run. U01-A E01 is historical preserved evidence, not new corroboration. W01/W02 describe the current provider contract rather than validate ECC's pinned host-version claim. Current pin and candidate/adoption boundaries are unchanged.
+
+## U02-A — 2026-09-17 current update
+
+[U02-A-SOURCES](evidence/U02-A-SOURCES.md) adds S45–S55: ownership, canonical state, projection and bridge producer; actual Kimi adapter and store facade; two full test-source reads and selected lifecycle 1–480. [Note 03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md) binds the ordinary/guided distinction, non-Claude bridge correction, partial-record semantics and scoped health result.
+
+S55 is a full five-file state-store directory listing. Index/projection bodies were read; queries/migrations/schema were only discovered. It is not the full recursive inventory. S51's remaining doctor/repair/uninstall implementation remains unread.
+
+**No new ECC execution.** S48/S50 are inspected assertions, not passing tests. Q03b's two-file interrupted-guided-retry path is source-derived and unexecuted. E01 remains previous local evidence, not repeated. No installer, host, model, database or new probe was run. The pin and authority boundaries are unchanged; no supplementary failed/irrelevant web result supports a claim.
