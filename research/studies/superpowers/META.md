@@ -5,90 +5,80 @@
 - **Study ID:** `superpowers`
 - **Title:** Superpowers — Portable Agent Skills and Software-Development Methodology
 - **Study type:** `external-target`
-- **Status:** ACTIVE / PARTIAL; U01–U04 bounded source investigations complete; U05 delivery/lifecycle next. [STATE.md](STATE.md) owns current work/completion authority.
-- **Research object:** `obra/superpowers`, including skill contracts, integration code, supporting tools, work artifacts, tests and evaluation dependencies.
+- **Status:** ACTIVE / PARTIAL; U01–U05 bounded source investigations complete; U06 skill authoring/evaluation next. [STATE.md](STATE.md) owns work and completion authority.
+- **Research object:** `obra/superpowers`: skill contracts, host integrations, helpers, work/evidence artifacts, tests and evaluation dependencies.
 - **Canonical target:** https://github.com/obra/superpowers
 - **Observed branch:** `main`
 - **Pinned commit:** `b36e0829c6d0140e93cfef2ca599b1b07d4a7797`
 - **Root tree:** `21219529a4e224bcb27baf8816b039c8bf7c6673`
-- **Version context:** inspected manifests declare `6.3.0`; not an installed-version or release-channel claim.
-- **Observation date:** 2026-09-17
-- **Commit timestamp:** 2026-08-12T16:53:21Z from Git commit metadata.
+- **Version context:** inspected manifests declare `6.3.0`; not installed-version/release-channel qualification.
+- **Initial observation:** 2026-09-17; recorded commit timestamp 2026-08-12T16:53:21Z.
 
-## Purpose
+## Purpose and primary question
 
-The user authorised detailed research under studies with a gstack-like explicit methodology and requested continuation after successive rounds. The objective is a source-grounded explanation with reusable findings and limits for later SOUL / Development OS work. Approval of a round does not establish product efficacy or pre-approve later conclusions.
+The user authorised detailed studies research with an explicit gstack-like methodology and successive continuation. The objective is a source-grounded explanation and reusable candidate evidence for later SOUL / Development OS work. Approval of a round is not product validation or pre-approval of later findings.
 
-This is a defined implementation of agent-facing procedures and host delivery machinery, not a reading catalogue. Its instructions are research objects, not active agent-control or additional authority for this assistant.
+How do shared procedures, host delivery, work artifacts, actor decisions, verification and lifecycle controls compose from request to delivered work, and where do their guarantees stop?
 
-**Primary question:** How does Superpowers turn a request into skill selection, bounded work, human decisions, implementation, review, verification and delivery; which parts are instructions, which executable, and which depend on host/model behavior?
-
-Distinguish installed/discoverable/delivered/selected/followed/effective; source/module/session/message lifetimes; spec/plan/revision/workspace/task identity; and produced evidence, accepted work and retained residual risk.
+Upstream instructions are research objects, not active agent-control. Installed/discoverable/delivered/selected/followed/effective remain distinct, as do plan path/revision, reviewed/tested/merged/published state, acceptance and retained evidence.
 
 ## Current bounded results
 
-**U01:** selected shell, native-description, declared-context/session-start and OpenCode/Pi/Hermes delivery arrangements; differing cache/re-entry/failure and tool-mapping semantics. Not full supported-host qualification.
+**U01:** selected shell/native/declarative and OpenCode/Pi/Hermes delivery paths; cache/re-entry/failure and action-mapping distinctions. Not complete host qualification.
 
-**U02:** phase-conditioned authority, spec/plan/global/interface contracts, host-owned workspace selection and ledger recovery. Plan path is not revision; saved plan is not necessarily materialized in a new worktree; the controller transfers globals and rulings.
+**U02:** phase/route-conditioned authority; spec/plan/globals/interfaces; worktree selection; ledger recovery; plan identity, requirement transfer and materialisation limits.
 
-**U03:** one task reviewer/two verdicts, scoped re-review and broad final review; DONE initiates review, unresolved coverage returns to the controller, and completion can include parked findings. Parallel and serial workflows have different scope assumptions. Generic/specialized authority and range seams remain.
+**U03:** one task reviewer with two verdicts, scoped corrections and broad final review. DONE begins review; acceptance can retain parked findings. Caller-selected ranges and shared evidence dependencies matter.
 
-**U04:** test chronology differs from error sensitivity and oracle validity; diagnosis follows evidence but escalation counts are not causal proofs; waiting needs a relevant event predicate; review feedback is evaluated before action; verification is claim-specific. Generic same-message freshness and specialized report reuse lack a fully specified composition rule. A diagnostic helper's no-observation outcome is weaker than a completed clean scan.
+**U04:** test chronology, sensitivity and independent expectations differ; diagnosis follows hypotheses/evidence; event predicates require relevant scope; verification is claim-specific. Generic freshness and specialised report reuse retain a composition question. Diagnostic no-observation outcomes are weaker than completed clean scans.
 
-Five chronological mechanism notes and five local experiment records now exist (U01-A, U01-B, U02, U03, U04). Prior probes and failed criteria remain unchanged. U04 adds an exact diagnostic-helper investigation: seven study cases, four expected mechanism/scope observations and three failed claim-scope criteria. Its exact first-party fixture file also ran successfully with five assertions. That file substitutes npm; no real project tests or live agents were run.
+**U05:** human integration choice, result-level retesting and protective cleanup rules; integration, remote publication, worktree/branch cleanup and evidence retention are different outcomes. Path-based ownership is a convention. Ignored scratch can be removed without force; copying rulings is a disclosure duty, not automatically a complete evidence archive or receipt. Keeping a worktree does not guarantee an earlier-removed inner workspace survives.
+
+Six chronological mechanism notes and six experiment records exist. Earlier results and failed criteria remain unchanged. U05 adds seven synthetic Git cases: six expected observations and one failed stronger retention inference. Only S32 is an exact upstream script execution; the remaining commands are study-instantiated Git primitives, not an agent enacting the finishing skill. The sole remote was local filesystem storage inside the fixture; no network push or forge PR occurred.
+
+U04's selected first-party diagnostic fixture execution remains distinct from source-only tests. S56/S57 add native-preference/output and source-policy evaluation leads; neither was run this turn. Thirteen of fourteen SKILL bodies are fully read, not thirteen qualified subsystems.
 
 ## Potential relevance — provisional retrieval hints
 
 | Area | Possible reuse, not an adopted design |
 |---|---|
-| Information | Description/body/marker and cached revision; spec→plan→brief→report→diff; expected versus observed results, evidence freshness and scope-preserving summaries. |
-| Work | Phase/route authority, task decomposition, ledger resumption, diagnostic loops, fix caps, qualified completion and unresolved findings. |
-| Actors | Human/controller/implementer/reviewer responsibilities; shared evidence dependencies; feedback/ruling authority and actor-specific fresh/reused verification. |
-| Environment | Host lifetimes/tool availability, Git working state, scratch retention, test-launcher availability, event scope and relevant observation conditions. |
-| SOUL | Candidate mechanisms and falsifiers for evidence-aware acceptance, task identity, bounded authority, actual effects and decision continuity. |
-| Development OS | Concrete SDLC examples for testing/oracle discipline, diagnosis, review packets, correction, plan/workspace handoff and later delivery/evaluation comparison. |
+| Information | Source/body/marker/revision; spec→plan→brief→report→diff; evidence applicability, ignored records, disclosure and archive scope. |
+| Work | Phase authority, decomposition, ledger resumption, diagnostic/fix loops, qualified completion, integration and partial lifecycle outcomes. |
+| Actors | Human/controller/worker/reviewer decisions; shared evidence, rulings, workspace provenance and cleanup authority. |
+| Environment | Host lifetimes/capabilities, Git working state, merged state, local/remote refs, worktree/branch constraints and scratch retention. |
+| SOUL | Candidate mechanisms and falsifiers for accepted work identity, bounded authority, realised effects, evidence-aware decisions and durable handoffs. |
+| Development OS | Concrete SDLC comparison cases: approval, delegation/review, testing/diagnosis, merge-result verification, PR iteration, cleanup and later skill evolution. |
 
-Relevance is many-to-many and provisional, not Foundation taxonomy membership, ontology, selected dependencies or architecture authority.
+These are provisional many-to-many discovery hints, not Foundation taxonomy, ontology, chosen dependencies or architecture authority.
 
-## Reuse modes and revisit triggers
+## Reuse and revisit
 
-Mechanism reference; implementation-learning; design pressure; counterexample/falsifier; evaluation/test-case seed; negative-option evidence when warranted.
+Reuse modes: mechanism reference, implementation-learning, design pressure, falsifier/counterexample, test-case seed and negative-option evidence where warranted.
 
-Revisit for skill discovery/re-entry, plan revision, requirement transfer, review independence, tested/reviewed object identity, qualified completion, evidence reuse, diagnostic no-result handling, event-target binding or retained rulings. Start at STATE and the relevant note/source, not this metadata alone.
+Revisit for procedure discovery/re-entry; plan revision; requirement transfer; reviewer independence; tested/reviewed/integrated object identity; parked completion; evidence reuse; diagnostic no-result handling; event-target matching; retained rulings; cleanup ownership; ignored-artifact preservation; or partial publication. Start at STATE and the relevant note/source rather than this metadata alone.
 
-Q09–Q17 preserve host/module/marker/namespace, distribution, approval/ruling, revision, transfer and retention questions. Q18–Q22 preserve test-run binding, final discharge of parked findings, generic/specialized composition, recall/drill evaluation and globals in re-review. U04 adds Q23–Q25: no candidates/skipped/failed execution versus negative observation; actor/claim/stage-specific freshness; and current-operation binding of wait conditions.
+Q09–Q25 preserve earlier host, identity, authority, transfer, review/evaluation, freshness and event-scope questions. U05 Q26–Q29 add real cleanup provenance, preservation/receipt before deletion, partial delivery reporting and release of a branch in a retained host worktree. Q16/Q19 have bounded disclosure/retention answers, not a live archival or residual-acceptance guarantee.
 
-## Epistemic and authorization boundary
+## Evidence and authorisation boundary
 
-Candidate research is not Foundation truth or SOUL / Development OS architecture. No user-host installation, upstream change/issue, credentialed live-model campaign or adoption is authorised.
+Candidate research is not Foundation truth or SOUL / Development OS architecture. No user-host installation, upstream issue/change, credentialed live-model campaign or adoption is authorised.
 
-Local script/fixture observations do not demonstrate model obedience, reviewer judgment, development quality, actual consent handling, Windows behavior or end-to-end reliability. U04's first-party fixture execution is explicitly distinguished from earlier source-only test files and from a repository-wide suite. Historical performance/statistical claims in documentation remain target claims. Mental mutation instructions are not executed mutation evidence.
+Local script/Git/fixture observations do not establish actual human consent, agent compliance, reviewer judgment, production quality, current host APIs or end-to-end reliability. A retained test report is not a fresh execution; a parked finding is not fixed; a merged commit is not every uncommitted artifact; a clean ordinary Git status is not an archive certificate. Historical performance claims remain target claims.
 
-One reviewer/two criteria is not two independent paths; parked is not fixed; a fresh run does not automatically use the right oracle; no detected target artifact does not establish tests ran successfully. Failed synthetic criteria are not production incidents. Source-reading completion is not product qualification.
+The source does provide human choice, merged-result retesting, non-force protections and explicit rulings disclosure. Their limits must not become a false blanket claim that no protection or continuity exists. U05's retention failure tests a stronger inference, not an invented upstream promise to keep all scratch forever.
 
-## Freshness and revalidation
+## Freshness
 
-The corpus remains pinned. U01-B through U04 did not repin or produce new upstream-HEAD verdicts. Before operational reuse, inspect current upstream and relevant host/test/runtime versions and reopen changed load-bearing sources. Stable paths need not identify stable revisions; valid commit ranges need not cover the intended task; old evidence may remain applicable only if its relevant dependencies still match.
-
-External evaluation repositories require their own identity and coverage records. Current adoption remains separately authorised.
+Claims remain pinned. U01-B through U05 did not repin or issue new upstream-HEAD verdicts. Operational reuse requires current upstream/host/test/runtime checks and selective reopening of changed sources. External evaluation repositories need separate pins. New sessions, stable paths, recent outputs and valid Git ranges are not automatic continuity/coverage guarantees.
 
 ## Entrypoints
 
-- [STATE.md](STATE.md) — work authority, cold-start and next action.
-- [INDEX.md](INDEX.md) — claim-directed retrieval.
-- [METHOD.md](METHOD.md) — unchanged method v0.1.
-- [PLAN.md](PLAN.md) — v0.5 sequencing and evidence-led revisions.
-- [SOURCE-LEDGER.md](SOURCE-LEDGER.md) — preserved S00–S36/E01–E06.
-- [SOURCE-LEDGER-U03.md](SOURCE-LEDGER-U03.md) — S37–S43/E07–E08.
-- [SOURCE-LEDGER-U04.md](SOURCE-LEDGER-U04.md) — S44–S54/E09–E10.
-- [U01-A](notes/U01-entry-routing-and-bootstrap.md) — entry/shell.
-- [U01-B](notes/U01B-host-delivery-and-continuity.md) — host delivery/cache.
-- [U02](notes/U02-approval-plan-workspace-handoff.md) — approval/plan/workspace.
-- [U03](notes/U03-delegation-review-and-acceptance.md) — delegation/review/acceptance.
-- [U04](notes/U04-testing-diagnosis-and-verification.md) — testing/diagnosis/claim validity.
+[STATE](STATE.md) owns continuation; [INDEX](INDEX.md) routes claims; [METHOD](METHOD.md) remains v0.1; [PLAN](PLAN.md) is v0.6.
+
+Source volumes: [original](SOURCE-LEDGER.md), [U03](SOURCE-LEDGER-U03.md), [U04](SOURCE-LEDGER-U04.md), [U05](SOURCE-LEDGER-U05.md).
+
+Mechanism notes: [U01-A](notes/U01-entry-routing-and-bootstrap.md), [U01-B](notes/U01B-host-delivery-and-continuity.md), [U02](notes/U02-approval-plan-workspace-handoff.md), [U03](notes/U03-delegation-review-and-acceptance.md), [U04](notes/U04-testing-diagnosis-and-verification.md), [U05](notes/U05-delivery-cleanup-and-retention.md).
 
 ## Related studies
 
-[gstack](../gstack/META.md) supplied the method precedent, not an imported architecture. Its METHOD/META were read initially; no current-runtime comparison was performed.
-
-Hermes Agent, AI-native SDLC, context/memory/harness and other catalogued studies are later comparison candidates. Reading an adapter or naming relevance does not revalidate them. Selective canonical recovery precedes cross-study conclusions. Whole-system CORE and Foundation projection do not yet exist.
+[gstack](../gstack/META.md) supplied methodology, not an imported architecture or current-runtime comparison. Hermes, AI-native SDLC, context/memory/harness and other catalogued studies remain selective later comparators. Naming relevance does not revalidate them. No whole-system CORE, completed cross-study comparison or Foundation projection exists yet.
