@@ -18,7 +18,7 @@
 | Initial surfaces/cache verifier | [Note01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md), [E01](evidence/u01-a-cache-probe/README.md) |
 | Preserved master histories through U03-B | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later rounds/sources continue separately |
 | Topology frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md), subsequent unit ledgers |
-| Current publication | STATE names U05-B receipt after actual checks |
+| Current publication and maintenance outcome | [PUBLICATION-U05-B](PUBLICATION-U05-B.md), including MR08 maintenance addendum; STATE owns final work status |
 | Previous publication | [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
 
 ## Progressive retrieval and limits
