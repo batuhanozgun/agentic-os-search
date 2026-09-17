@@ -2,7 +2,7 @@
 
 ACTIVE / PARTIAL **external-target candidate study**, not Foundation authority or an adopted stack.
 
-**Continue from [STATE.md](STATE.md)** and its full cold-start path. U01–U05 have bounded source investigations: entry/delivery; approval/work handoff; delegation/review; testing/diagnosis; delivery/cleanup/retention. **U06 skill authoring/evaluation is next.** Corpus: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Operational reuse needs revalidation.
+**Continue from [STATE.md](STATE.md)** and its full cold-start path. U01–U05 and U06-A have bounded source investigations. **U06-B evaluation implementation is next; U06 overall remains open.** Primary corpus: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Separately pinned eval dependency: `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`, orientation only. Do not transfer its newer descriptions to the primary target without compatibility checks.
 
 ## Package routes
 
@@ -16,12 +16,14 @@ ACTIVE / PARTIAL **external-target candidate study**, not Foundation authority o
 | U03 sources/execution | [SOURCE-LEDGER-U03.md](SOURCE-LEDGER-U03.md) |
 | U04 sources/execution | [SOURCE-LEDGER-U04.md](SOURCE-LEDGER-U04.md) |
 | U05 sources/execution and lifecycle boundaries | [SOURCE-LEDGER-U05.md](SOURCE-LEDGER-U05.md) |
+| U06-A sources, external dependency pin and exact partial-read limits | [SOURCE-LEDGER-U06A.md](SOURCE-LEDGER-U06A.md) |
 | Request classification, procedural scope, shell bootstrap | [U01-A](notes/U01-entry-routing-and-bootstrap.md) |
 | Host delivery, cache and procedure/work recovery | [U01-B](notes/U01B-host-delivery-and-continuity.md) |
 | Approval/ruling, plan/workspace identity and brief handoff | [U02](notes/U02-approval-plan-workspace-handoff.md) |
 | Actor/reviewer packets, fix/park/complete and evidence range | [U03](notes/U03-delegation-review-and-acceptance.md) |
 | Tests/oracles, diagnosis, feedback and verification claims | [U04](notes/U04-testing-diagnosis-and-verification.md) |
 | Human integration choice, merged result, cleanup ownership and surviving evidence | [U05](notes/U05-delivery-cleanup-and-retention.md) |
+| Intervention forms, authoring/control experiments, pressure criteria and contribution admission | [U06-A](notes/U06A-skill-authoring-and-change-admission.md) |
 
 ## Evidence routes
 
@@ -33,6 +35,8 @@ ACTIVE / PARTIAL **external-target candidate study**, not Foundation authority o
 | Review-range/description predicate | [U03 runner](evidence/U03-review-probes.py) / [output](evidence/U03-review-probes-results.json) |
 | Diagnostic observation versus final claim | [U04 runner](evidence/U04-diagnostic-probes.py) / [output](evidence/U04-diagnostic-probes-results.json) |
 | Integration/cleanup/retention; local-only detached push | [U05 runner](evidence/U05-lifecycle-probes.py) / [output](evidence/U05-lifecycle-probes-results.json) |
+
+U06-A is source-only. There is no new experiment, model response, pass rate or execution record. Historical scenario documents are not new test results.
 
 ## Claim-directed re-entry
 
@@ -54,7 +58,7 @@ ACTIVE / PARTIAL **external-target candidate study**, not Foundation authority o
 | All work is parallel, or parallel rules universally conflict | U03 F24: independent-domain dispatch versus serial SDD. |
 | Generated packet covers whole task/current worktree | U03 F25/E07/E08: caller-selected commit endpoints. |
 | Existing test measures current rule | U03 F26; U05 F42: predicate/source-policy scope. |
-| Generic/specialised skills compose automatically | U03 F27; U04 F28/F29/F31/F33; U05 F41. |
+| Generic/specialised skills compose automatically | U03 F27; U04 F28/F29/F31/F33; U05 F41; U06-A F44/F46. |
 | Test-first or one RED–GREEN proves adequate coverage | U04 F28/S44/S47: chronology, sensitivity and oracle validity differ. |
 | Three failed fixes prove architectural cause | U04 F29: escalation rule, not independent causal evidence. |
 | Waited-for event belongs to current operation | U04 F30/S51/S52/Q25: type/count versus bound predicate. |
@@ -72,15 +76,22 @@ ACTIVE / PARTIAL **external-target candidate study**, not Foundation authority o
 | Non-force removal protects all only-copy records | U05 F40/E12: ordinary untracked note protected; ignored SDD ledger removed. |
 | PR/keep guarantees all SDD evidence survives | U05 F41: inner scratch and outer worktree have separate lifecycles. |
 | Code history contains every ruling/report | U05 F40–F41/Q27: committed code, disclosed decisions and detailed evidence differ. |
-| Source-policy/native-preference tests prove lifecycle ownership | U05 F42/S56/S57; U06 evaluation remains next. |
+| Source-policy/native-preference tests prove lifecycle ownership | U05 F42/S56/S57; evaluator implementation remains U06-B. |
+| Every failure calls for another skill or stricter prohibition | U06-A F43/F45: intervention layer and failure type matter. |
+| Description guidance is the format specification or the full procedure | U06-A F44/S58/X07: distinct authorities/roles; historical review anecdote is not current topology. |
+| No-guidance benefit proves a new revision beats the old one | U06-A F43/F46/Q30: different comparison and confounders. |
+| Pressure compliance proves useful general task performance | U06-A F46/Q31/Q32: criterion, observable and outcome differ. |
+| A worked campaign/creation log is raw current execution evidence | U06-A F47/S64–S69: design, expected result and historical narrative differ. |
+| A completed PR template proves actual review or release | U06-A F48/Q34: admission contract versus realized enforcement. |
+| External current evals automatically qualify this primary pin | U06-A F49/D01–D03/Q33: separately versioned dependency, README partial, compatibility open. |
 
 ## Synthesis and evidence status
 
-Six chronological notes and six local experiment records exist. No CORE, Foundation projection, completed cross-study comparison or whole-study closure. Thirteen fully read SKILL bodies do not establish thirteen qualified subsystems.
+Seven chronological notes and six local experiment records exist. All fourteen observed SKILL bodies are fully read, but their supporting dependencies, evaluator implementation, runtime/release and whole-system explanation remain incomplete. No CORE, Foundation projection, completed cross-study comparison or whole-study closure exists.
 
-U05: six expected observations and one failed stronger retention criterion. Exact S32 and study-selected Git command sequences are distinct. One temporary local bare remote was used; no network push, forge PR, live agent or user decision was exercised. U04's selected first-party fixture pass remains scoped; all source-only suites remain source-only.
+U06-A has twelve new primary full-file reads and no new behavioral execution. The external lab's metadata/root tree and README lines 1–165 are orientation, not implementation or results validation. The primary corpus was not repinned. Earlier E01–E12 and failed criteria remain unchanged.
 
-Four chronological source-ledger volumes preserve prior identities and observations. Historical next-action lines in old notes are checkpoints; current authority is STATE. Earlier unexecuted statuses change only when a later volume explicitly records execution of that specific source.
+Five chronological source-ledger volumes preserve identities and observations. Historical next-action lines are checkpoints; current authority is STATE. Earlier unexecuted statuses change only when a later volume records actual execution of the named source.
 
 ## Library navigation
 
