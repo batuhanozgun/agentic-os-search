@@ -104,6 +104,7 @@ Completion of a study never authorizes adoption.
 - `ai-knowledge-strategies/`
 - `anthropic-ai-native-sdlc-playbook/`
 - `context-memory-harness-engineering/`
+- `deepseek-harness/`
 - `ecc/`
 - `gstack/`
 - `hands-on-large-language-models/`
