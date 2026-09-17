@@ -152,3 +152,39 @@ The following STATE-only closure update records current work and publication; th
 ### Scientific and operational limits
 
 S48/S50 tests were inspected, NOT RUN. Q03b is an unexecuted source-derived interrupted-guided-retry counter-path, not an observed incident. No ECC installer/helper, host, model, database or new local probe was executed. P1 remains incomplete; full repair/uninstall, merged-JSON ownership and crash/concurrent-writer validation remain open. No automated full link/semantic suite or independent cold-start trial was performed. These publication checks preserve access and bounded consistency, not general methodology or runtime efficacy.
+
+## U03-A — 2026-09-17 — Published Work/session source study and E02
+
+Study remains ACTIVE/PARTIAL. METHOD 0.1, PLAN 0.5; next U03-B is selected, not started. This receipt records publication and bounded self-review. E02 is new local helper evidence; no live board/SQLite/provider/agent experiment is implied.
+
+| Publication | Actual commit / action |
+|---|---|
+| Six new note/source/E02 files | `bdfe933425c6fd56cdb3aaf85774e0c39267df50` |
+| Main integration | PR #4, merge `b111300ec519a8cf784f5fd3fe04646e6b353b5a` |
+| PLAN 0.5 | `e17551ee15bd763e0bcb0ebb5dcf761493effe59` |
+| QUESTIONS | `8473704d2891d25327918a09a097d3a378bce17e` |
+| META | `cd0720b92d9fc3b01a0a0093dbaf85ac8464234e` |
+| Package INDEX | `828cbce0a55d7ccb963e66d44fc4c370ed14da88` |
+| RESEARCH-LOG | `d6d00a63f67976b8de667890b8803237e7815670` |
+| MR04 | `eb5c1c89e636eeef0d1d9a13e6b6fe442c629384` |
+| SOURCE-LEDGER | `e749405d1eb6c82fbbf3f342a9316e9aed141774` |
+| ECC catalog row | `b4e6a8058d235e91cba6c8b629bebe1d21b48d31` |
+| ECC library route | `6a8ef6075f45d4e748d8a74b89f533a9721404d2` |
+
+### Concurrency and scope checks
+
+Initial input/staging parent was `2e6455b0967235ae59bc0d36182fbc8b7762c5e6`. Non-force update of the six-file commit was rejected with 422. Fresh main was `dbb5271d8109c2f7fb95c6cb1872b884329b8f64`; exact compare showed concurrent Superpowers/catalog edits, no ECC edits. Branch `research/ecc-u03a-20260917` preserved the prepared commit. PR #4's changed-file list was inspected: exactly the six new ECC files, no deletions. GitHub merged it with the expected head SHA. This is own-repository publication, not upstream reporting or an independent reviewer verdict; no owner merge is pending.
+
+Compare `b111300...6a8ef607` showed nine commits and nine changed paths: seven ECC current/chronological files plus one-line replacements in shared CATALOG/INDEX. METHOD-REVIEW and RESEARCH-LOG each had 16 additions/zero deletions; SOURCE-LEDGER had 8 additions/zero deletions. Earlier findings/raw E01, METHOD, WHY, Foundation/control and other studies were not changed by this continuation batch. The concurrent work before merge is not attributed to ECC.
+
+### Readbacks and exact bytes actually checked
+
+Main Note 04 was read in contiguous ranges 1–85 and 86–EOF, blob `64c49aa5f2319c7506fc5cbcf5f9497242f1cd9d`. Main U03-A source ledger was fully read, blob `f6835186e966632bed5326f65167e394bbb72e14`. Main raw E02 RESULTS was fully read and matches local blob `48b4a5e6f3bd4b399731937947ab51c25e4937da`. Main PLAN 0.5 was read through EOF, blob `0525aa107f5cbbfa800c2abc1d13861821b44dc8`.
+
+Before merge, the prepared probe-directory metadata was checked against local Git blobs: plan `f85e0407f0fa558bc2f6f1f1854e02412b8e7bfb`, runner `70b085de4e53ca56952cd223d6ee55125c233165`, results `48b4a5e6f3bd4b399731937947ab51c25e4937da`. All matched. The expected-head merge preserved that source commit. This byte check is not another test run. Local plan SHA-256 was separately rechecked after execution against the pre-execution file; the original plan/command/results remain in the E02 dossier.
+
+The following STATE-only update closes current work/publication and is then read back. This receipt does not claim that future read already happened or embed its own future commit hash. Not every updated file received a full post-write reread; the checks above and the exact diff scope are the actual performed checks.
+
+### Scientific limits and next boundary
+
+E02 runs only unchanged S59 with an in-memory store double. Six criteria matches include a real refusal, not six product-safety passes. S67's tests were inspected, NOT RUN. GitHub sync closure, import overwrite and default snapshot/SQLite integration findings remain source-bound; there was no remote sync or real database/host run. SQL/FK, authentication, concurrent claims, live dispatch/resume and efficacy are not tested. P1 and Q03b/c/Q04b/c remain open; U03-B will inspect actual runtime control. No automated full link/semantic suite or independent cold-start/method comparison was performed.
