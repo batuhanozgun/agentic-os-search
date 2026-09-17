@@ -73,3 +73,11 @@ New direct `.agents` and `.agents/plugins` discovery is in [U01-B-DISCOVERY](inv
 S55 is a full five-file state-store directory listing. Index/projection bodies were read; queries/migrations/schema were only discovered. It is not the full recursive inventory. S51's remaining doctor/repair/uninstall implementation remains unread.
 
 **No new ECC execution.** S48/S50 are inspected assertions, not passing tests. Q03b's two-file interrupted-guided-retry path is source-derived and unexecuted. E01 remains previous local evidence, not repeated. No installer, host, model, database or new probe was run. The pin and authority boundaries are unchanged; no supplementary failed/irrelevant web result supports a claim.
+
+## U03-A — 2026-09-17 current update
+
+[U03-A-SOURCES](evidence/U03-A-SOURCES.md) adds S56–S69 and separate current GitHub CLI contract checks W03/W04. [Note 04](notes/04-WORK-SESSION-RECORDS-AND-CONTROL.md) maps local card writes, claim/move policy, limited GitHub import, snapshot normalization/fallback, SQLite session/query/schema/migrations and status signalling. S67 session-adapter test source was fully read, NOT RUN; launcher/collector/server and other ingestion consumers remain open.
+
+**New local execution E02:** exact S59 helper blob verified and exercised against an in-memory store double, with six source-informed criteria fixed before execution. [Plan/runner/raw results](evidence/u03-a-work-item-probe/README.md) preserve blocked pickup, reassignment, done refusal, reopening and bounded selection. Criteria matches are not product-safety passes. No SQL, real board, provider, concurrent claim, authentication, live agent or task-quality test. Sync/ingestion counter-paths remain source-bound. E01 was not rerun.
+
+All five state-store file bodies are now read across U02-A/U03-A. A complete direct tests listing adds bounded topology metadata; its children are not recursively read. P1 remains partial. Search results at another default-branch ref were used only for path discovery; every load-bearing body was retrieved at the unchanged research pin. No silent repin or current-version generalization.
