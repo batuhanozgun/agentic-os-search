@@ -37,7 +37,7 @@ Aşağıdakiler SOUL Research main üzerinden U00'da FULL READ edildi. Bunlar EC
 |---|---|
 | [gstack METHOD](../gstack/METHOD.md) | `dc003b3f74115667a05787a847eadb10876784c8`; mechanism units, provenance graph, native-before-projection, closure challenge |
 | [Hermes METHOD](../hermes-agent/METHOD.md) | `f4b3b25183e7402bf2921f9ca0818e7c5c5aee19`; entrypoint/consumer closure, variation, interruption/publication discipline |
-| [Superpowers METHOD](../superpowers/METHOD.md) | `95f684306f92373dbb51f4ceedaff885394e950b`; instruction→implementation→host→effectiveness distinctions |
+| [Superpowers METHOD](../superpowers/METHOD.md) | `95f684306f923e733dbb51f4ceedaff885394e950b`; instruction→implementation→host→effectiveness distinctions |
 | [Foundation STATE](../../soul-foundations/STATE.md) | `6d1c3db664bb154546cb6c0bf5edc6da5275dcf8`; 2026-09-17 sufficient-stop/reuse direction, no target design activation |
 | [Foundation discussion handoff](../../soul-foundations/08_foundation-sufficiency-reuse-review/DISCUSSION-HANDOFF.md) | `e95cf01635d328ae4d5db414ba5a9c4d70a42fb7`; production-perspective omission and later correction; analytical, not live experiment |
 | [Foundation REUSE](../../soul-foundations/08_foundation-sufficiency-reuse-review/REUSE.md) | `b92c29d85055c70536392c0804a7a621efc9caff`; question-first retrieval; historical pending language is superseded by current STATE |
@@ -81,3 +81,11 @@ S55 is a full five-file state-store directory listing. Index/projection bodies w
 **New local execution E02:** exact S59 helper blob verified and exercised against an in-memory store double, with six source-informed criteria fixed before execution. [Plan/runner/raw results](evidence/u03-a-work-item-probe/README.md) preserve blocked pickup, reassignment, done refusal, reopening and bounded selection. Criteria matches are not product-safety passes. No SQL, real board, provider, concurrent claim, authentication, live agent or task-quality test. Sync/ingestion counter-paths remain source-bound. E01 was not rerun.
 
 All five state-store file bodies are now read across U02-A/U03-A. A complete direct tests listing adds bounded topology metadata; its children are not recursively read. P1 remains partial. Search results at another default-branch ref were used only for path discovery; every load-bearing body was retrieved at the unchanged research pin. No silent repin or current-version generalization.
+
+## U03-B — 2026-09-17 current update
+
+[U03-B-SOURCES](evidence/U03-B-SOURCES.md) adds S70–S76 and selected current primary Git/tmux/OpenAI contracts W05–W07. Full reads connect launcher, worktree/tmux provision/rollback, worker wrapper, artifact collector and status consumer; documented workflow and upstream orchestrator-test source were inspected. [Note 05](notes/05-EXECUTION-HANDOFF-AND-RECOVERY.md) binds source claims and executed observations separately.
+
+**New local execution E03:** exact S74 Bash wrapper and S72 Node collector, Git-blob verified, with a deterministic fake provider in a temporary Git repository. Five pre-execution criteria matched; raw output and plan identity are in [E03](evidence/u03-b-worker-probe/README.md). No real Codex/model/tmux, rollback, isolation, concurrency or efficacy run. S76 assertions were read, not run; E01/E02 were not rerun. Source-derived retention/locator/liveness paths are not newly executed incidents.
+
+This unit extends runtime-family understanding, not whole-tree inventory. Mutable searches returned another ref; bodies remain pinned. Memory-family paths were discovered only and require pinned reads in U04-A. Prior P1 and Q03b/c/Q04b/c/e limits remain; external manuals do not validate the actual named profile or deployed environment.
