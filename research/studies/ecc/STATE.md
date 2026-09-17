@@ -2,7 +2,7 @@
 
 **Updated:** 2026-09-17
 **Current checkpoint:** U01-A — source/distribution surfaces and Codex cache-verifier slice
-**Work status:** U01-A source/local work COMPLETE; evidence and continuation package being published together. Publication/readback receipt: [PUBLICATION](PUBLICATION.md).
+**Work status:** U01-A COMPLETE / PUBLISHED. Source/evidence package and ECC catalog/index updates reached main; note, plan, state, MR01, raw artifacts and discovery routes were read back, with probe blob identities matched to local files. [PUBLICATION](PUBLICATION.md) records exact commits, concurrency and verification limits.
 **Study status:** ACTIVE / PARTIAL. U01 overall remains PARTIAL; full recursive inventory and install/consumer closure are not complete.
 **Method / plan:** v0.1 / v0.2
 **Pinned target:** affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a
@@ -46,7 +46,7 @@ After canonical control bootstrap:
 3. Read the U01-A entry in [RESEARCH-LOG](RESEARCH-LOG.md), MR01 in [METHOD-REVIEW](METHOD-REVIEW.md), and the latest [PUBLICATION](PUBLICATION.md) receipt. Use E01 raw plan/runner/results before an exact test claim; do not infer validity from its short summary.
 4. Use [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv) and the exact pinned sources for U01-B. Recover deeper sources when a summary drops the required boundary.
 
-Return a brief orientation before new source work. Do not repeat U00 or label U01-A a completed ECC study. A missing mandatory/current surface stops the affected work; no guessed continuation.
+Return a brief orientation before new source work. Do not repeat U00 or label U01-A a completed ECC study. A missing mandatory/current surface stops the affected work; no guessed continuation. The rejected/unreferenced commit in PUBLICATION is not pending upload/merge work; other sessions' candidate and Superpowers changes were preserved.
 
 ## Environment and next starting point
 
