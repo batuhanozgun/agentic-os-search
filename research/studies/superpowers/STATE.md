@@ -1,93 +1,111 @@
 # Superpowers Study — Current State
 
-Updated: 2026-09-17. **Package status: ACTIVE / PARTIAL.** This file is authoritative for study work, authorization and completion. META owns classification/reuse semantics; PLAN owns provisional unit scope; INDEX and the library CATALOG are retrieval surfaces.
+Updated: 2026-09-17 after U01-B. **Package status: ACTIVE / PARTIAL.** This file owns study work, authorization and completion. META owns classification/reuse; PLAN owns provisional units; INDEX/CATALOG are retrieval surfaces.
 
 ## Current purpose and authorization
 
-The user authorised a detailed investigation of `obra/superpowers` under `research/studies/`, using an explicit methodology analogous to the gstack study. The current phase is **research**: source recovery, mechanism analysis, proportionate safe local checks, synthesis and durable handoff.
+The user authorised detailed research of `obra/superpowers` under studies with a methodology analogous to gstack. The first research round was reviewed as suitable and continuation explicitly requested. This is research: source recovery, mechanism analysis, proportionate safe local checks, synthesis and durable handoff. That review does not pre-approve every later finding or close the study.
 
-This does not authorise installing Superpowers in a user's host, changing upstream code, publishing issues, running credentialed/paid live-agent evaluations, adopting its instructions as agent-control, or altering Foundation / SOUL / Development OS architecture.
+No installation in the user's host, upstream change/issue, paid or credentialed live-agent evaluation, adoption of upstream instructions as agent-control, or Foundation / SOUL / Development OS architecture change is authorised here.
 
-The user owns changes of research direction and adoption/implementation decisions. The assistant owns source-grounded analysis and maintenance of this study and its necessary library discovery entries within that request.
+The user owns research-direction and adoption decisions. The assistant owns bounded research and maintenance of this package and necessary library discovery entries within that request.
 
 ## Source identity
 
-Primary corpus: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`.
-
-Observed main on 2026-09-17; root tree `21219529a4e224bcb27baf8816b039c8bf7c6673`; Codex manifest version `6.3.0`. SOURCE-LEDGER owns detailed read/blob/freshness records. Do not replace the pin with current main silently.
+Primary corpus remains `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`; root tree `21219529a4e224bcb27baf8816b039c8bf7c6673`; inspected manifest context 6.3.0. Initial main observation was on 2026-09-17. U01-B did not repin or issue a new current-HEAD verdict. SOURCE-LEDGER owns paths, blobs and coverage.
 
 ## Completed versus open
 
-| Work | State |
+| Work | Current state |
 |---|---|
-| Research placement and methodology recovery | Completed for this round: research/studies routers and contract, gstack META and METHOD read fully. No gstack runtime comparison performed. |
-| U00 initial orientation | Completed at root/skill-directory level: target pinned, 14 skill directories catalogued, source families and gaps recorded. Recursive inventory remains progressive, not complete. |
-| U01-A shell-bootstrap source/local slice | Bounded complete: bootstrap instruction, selected configuration/code, Codex manifest contrast and one upstream test oracle inspected; exact script locally probed. |
-| U01 overall | PARTIAL. Wrapper, selected other adapters, tool mappings, remaining porting guide and discovery/invocation/compaction chain remain open. |
-| U02 entry-classification seed | Brainstorming SKILL fully read; three-path and approval findings recorded. Plan/worktree/implementation handoffs not yet investigated. |
-| U03–U08 | Not yet investigated. No subsystem synthesis, four-ground projection, CORE or whole-study closure exists. |
+| Placement/method recovery | Completed first round; gstack method precedent retained, not its architecture or runtime verdicts. |
+| U00 orientation | Initial root/14-skill catalogue retained; U01-B expanded selected adapter/test trees. Recursive coverage remains progressive. |
+| U01-A shell-bootstrap slice | Bounded source/local-script complete; original note, runner and results preserved unchanged. No rerun this round. |
+| U01-B selected-host delivery/continuity | Bounded source/local-callback complete: remaining porting guide plus 17 full file reads; host matrix; re-entry/cache/mapping/failure distinctions; actual exact OpenCode-module probes. |
+| U01 overall | BOUNDED SOURCE MODEL COMPLETE for selected materially distinct mechanisms. Not all-host/runtime qualification; remaining specific distribution/evaluation and host-contract questions retain limits below. |
+| U02 intent/approval/planning | NEXT. Brainstorming contract fully read in first round; spec/plan/workspace and execution-entry handoffs not yet investigated. |
+| U03–U08 | Not yet investigated as units. No whole-system CORE, four-ground projection or whole-study closure exists. |
+
+METHOD remains v0.1. PLAN is v0.2 with an evidence-led revision record. This round changes sequence/understanding, not the evidence standard or research/adoption boundary.
 
 ## Established observations and limits
 
-The first note records six bounded findings, not six universally verified product claims:
+U01-A retains its six bounded findings: three request paths; scoped bootstrap contract; host-conditioned shell versus Codex path; four local output checks; two failed missing/empty health criteria; narrower first-party hook-test assertions. Those tests were not a live-host/model evaluation.
 
-- The actual brainstorming contract has spike/bounded/architectural paths, not one compulsory written-spec/plan sequence for every task.
-- The bootstrap's procedural rules include a specific-task subagent exception and user-instruction precedence.
-- The selected shell hook and Codex manifest do not share one startup-hook configuration.
-- Four local output/fixture-fidelity cases passed for the exact hook blob.
-- Missing and empty synthetic bootstrap files still produced exit 0 and nonempty JSON envelopes; both failed an explicitly study-defined readiness criterion.
-- The inspected first-party hook test source has narrower assertions than semantic readiness or model-behavior assurance. It was not run.
+U01-B adds:
 
-The local negative control rejected a deliberately wrong event. This does not establish independent review, complete oracle coverage, real-host startup, model obedience, software-development effectiveness or production impact.
+- Shared procedure content does not imply identical delivery or operational semantics. The note's matrix covers shell, native-description, includes/declarative session-start, OpenCode, Pi and Hermes mechanisms at their actual evidence layers.
+- OpenCode and Pi cache assembled bootstrap at module scope; their session/message re-entry mechanisms differ. Hermes builds it at registration and injects only on first-turn calls. Real-host module/session lifecycle is not established.
+- Tool mappings can change role selection, context isolation and task-tracking/fallback, not merely tool spelling. Current host API/namespace compatibility is unverified.
+- Eight local mechanism checks reproduced configuration, delivery, dedup and cache/refresh behavior in the exact OpenCode module.
+- Two study-defined semantic-health criteria failed: a generic-marker mention alone suppressed delivery; empty source still produced an already-loaded wrapper. These are bounded synthetic observations, not production incidents.
+- One marker-only negative control was rejected by a fixture-body oracle. No independent reviewer or complete oracle qualification is claimed.
+- The inspected OpenCode/Pi test files were read, not run. They concern wiring/cache/callback behavior, not actual model compliance or development effectiveness.
+- Restoring procedure content does not, in these inspected entry functions, establish the current task's accepted spec, approval, review standing or plan position. Whether later workflow artifacts provide that recovery is U02/U03, not a repository-wide absence claim.
 
 ## Cold-start — required full reads for substantive continuation
 
 After the current AGENT bootstrap and applicable protocols:
 
-1. This STATE.md.
+1. This STATE.
 2. [META.md](META.md).
 3. [METHOD.md](METHOD.md).
 4. [PLAN.md](PLAN.md).
 5. [SOURCE-LEDGER.md](SOURCE-LEDGER.md).
-6. [notes/U01-entry-routing-and-bootstrap.md](notes/U01-entry-routing-and-bootstrap.md).
+6. [U01-B host-delivery/continuity note](notes/U01B-host-delivery-and-continuity.md).
 
-When using or challenging the local experiment, additionally read [the runner](evidence/U01-hook-probes.py) and [actual output](evidence/U01-hook-probes-results.json), then recover the exact pinned upstream hook. Do not equate a saved test result with current-host verification.
+Re-enter [U01-A](notes/U01-entry-routing-and-bootstrap.md) when using its three-path, procedural-scope or hook-health findings; U02 should recover the actual pinned brainstorming contract rather than rely on the README sketch. The old U01-A next-action sentence is its historical checkpoint, not current authority.
 
-Use [INDEX.md](INDEX.md) for selective source/topic navigation. Existing full reads and bounded completed work must be preserved, not silently reset to unseen.
+When using/challenging an experiment, additionally read its full runner and actual output, and recover the exact upstream source at the recorded blob. U01-A and U01-B have separate evidence files. Saved results do not prove current-host behavior. Use [INDEX.md](INDEX.md) for selective routes and preserve completed work rather than marking it unseen.
 
 ## Next work
 
-**Next logical work:** U01-B: complete the entry/delivery/selection model across materially distinct host mechanisms, then investigate U02's approval/artifact handoffs.
+**Next logical work: U02 — intent, approval, planning and workspace handoff.**
 
-**Next authorised work:** the same bounded research continuation under the user's study request. Start by reading the porting guide from line 311 onward; inspect its named live wrapper, adapter and tool-reference sources at the pinned commit. Confirm paths through the pinned tree when uncertain. Build a source/evidence-level matrix for startup, discovery, full-body invocation, tool mapping and compaction/restart.
+**Next authorised work:** the same bounded research continuation. Start with pinned `skills/brainstorming/SKILL.md`, then fully read `skills/writing-plans/SKILL.md` and `skills/using-git-worktrees/SKILL.md`; follow actual helper/template references and relevant execution-entry/plan-review sources. Trace:
 
-No background task has been scheduled. A subsequent research turn resumes here. A new architecture or implementation phase requires separate authority.
+`request/classification → human intent/approval → spec/plan identity → workspace → admitted task`.
 
-## Open questions
+Preserve spike/bounded/architectural branches. Examine changed scope/artifacts, pre-existing worktrees, dirty baseline, detached HEAD and missing-plan cases at source-appropriate depth. Determine which steps instruct the agent, which code enforces, and what must be recovered after an interruption. Broader child-agent execution/review is U03/U04.
 
-Q01–Q08 are defined in the U01 note. Priority: actual delivery versus description-based discovery; host-specific tool mappings; post-compaction behavior; subagent rule/context handoff; classification/approval binding; behavioral evaluation coverage; optional visual runtime; omitted source families.
+Do not turn the unresolved host limits into an unlimited live-product campaign before advancing to source-based U02. A subsequent research turn resumes here; no background task is scheduled.
 
-Whole-study completion is not pending a ceremonial acceptance test. Source-based units can close with explicit live-execution boundaries; behavioral/effectiveness claims cannot be closed without appropriate evidence.
+## Open questions and residual routing
 
-## Available environment and constraints
+Q01–Q03 have bounded selected-source answers in U01-B; live event delivery, discovery, invocation, namespaces and model following remain unverified. Q04/Q05 (child contracts and approval/artifact binding) drive U02/U03. Q06 (evaluation coverage) remains U04/U06 despite two more test-file reads. Q07/Q08 (visual runtime and omitted source families) remain U07/closure.
 
-Connected GitHub reads/writes are available. A full archive attempt through the local container failed at DNS resolution; no full repository clone/archive was obtained. One script was transferred from connector output and its exact Git blob hash verified before execution in Linux temporary fixtures.
+U01-B adds Q09 module versus session reload/invalidation; Q10 marker versus valid/current procedure; Q11 Hermes bootstrap/reference aliases and fallback paths; Q12 documentation/distribution path mismatches. Reopen only when relevant; none grants upstream mutation or architecture authority.
 
-No real Claude/Codex/Cursor/Hermes/Pi/OpenCode host session, Windows wrapper, credentialed model call, plugin installation or upstream test suite was run. Do not infer that any of those capabilities are configured for this study.
+## Environment and evidence
+
+Connected GitHub read/write works. Raw-source/container DNS and public web access attempts failed; no full clone/archive was obtained. The exact OpenCode module was transferred through connector output, Git-hash verified and executed under Node v22.16.0/Linux x64 with synthetic temporary files and manually called callbacks.
+
+No real coding-agent host/model session, Windows wrapper run, credentialed call, plugin installation or upstream full suite was run. Pi and Hermes adapters were source-inspected only. A fresh ES-module import in the experiment is not a host-session restart test.
+
+E03/E04 published/local identities match:
+
+- `evidence/U01B-opencode-probes.mjs`: `6a99be598bac4d60943c816857124c907882c089`;
+- `evidence/U01B-opencode-probes-results.json`: `fae46fb808c5814fc7039f874f7d9aae5e5b34f3`.
+
+These verify transfer fidelity, not research independence or real-host effectiveness.
 
 ## Publication checkpoint
 
-**First-round publication is complete in `main`; the research itself remains ACTIVE / PARTIAL.** Nine package files are present, and the library CATALOG and INDEX contain the Superpowers discovery/continuation routes.
+**U01-B findings, evidence, ledger, plan, metadata, package router and catalog row have been published in main; this STATE edit records the completed handoff.** Research remains ACTIVE / PARTIAL, with U02 next.
 
-The publication comparison from pre-study commit `9c634542a6d7c4f47580cc209b5d438f6594bc81` through registration commit `e3af9d9fc40391ebb31b2a8972fd5e1b7994d52f` reports exactly nine added package files plus two modified library indexes. CATALOG changed by one added line; the library INDEX changed by two added lines; neither removed existing content. This subsequent STATE-only edit closes the intermediate publication checkpoint without changing research findings or authorization.
+This round added three package files (U01-B note, runner, output), updated five package files (SOURCE-LEDGER, PLAN, META, INDEX, STATE), and changed only Superpowers' row in the shared CATALOG. METHOD, U01-A files, shared library INDEX, Foundation, agent-control, other study packages and external repositories were not written by this round.
 
-GitHub readback confirmed the package INDEX, METHOD and STATE, and both shared discovery routes. Published experiment files match the actual local files by Git blob identity:
+Publication anchors before this final STATE edit:
 
-- runner: `9ca0b43739e69c930d1241601bb61b7ef1872ff1`;
-- results: `0a21d98568b71a7c1d99385b9d8ae88611ebed78`.
+- note `209841118460db96ecff3d5e795cad3ea1a41cd5`;
+- runner `4bda37d7f1cd90db90cbee5a3ac9ce9c864b68d4`;
+- actual output `988f71102d4fe4429e48427b40096055e52bb1bd`;
+- ledger `dec4d11fb89081bbdce240151c99980eb3fbd8b6`;
+- plan `ef08d2f58aed378fc01a508e8409ba9ba4347372`;
+- metadata `19bd2bcd83b5aeec8612cc0d9660ece1fc6bf001`;
+- package index `d082603f204215990ae4f3e514cfcf1aad9f6554`;
+- catalog `f7484e219fe36700f630357ac701db5846dc416b`.
 
-These checks establish publication/transfer integrity and bounded change scope, not independent validation of the research interpretation or real-host behavior. No pending branch, manual upload or unrecorded research continuation is required to recover this first round. Resume with U01-B.
+The first catalog write was rejected by SHA concurrency protection. The current file was re-read; concurrently added context-mode/mattpocock-skills entries and all existing rows were preserved. Readback of the successful catalog commit shows exactly one replaced line, the Superpowers row. Interleaved repository activity means a broad pre-round→post-round diff must not be attributed wholly to this study.
 
-## Protected scope
-
-Only this new package and the necessary `research/studies/CATALOG.md` / `INDEX.md` discovery surfaces are in the publishing scope. Foundation, agent-control, other study content, Development OS repositories and upstream Superpowers remain unchanged by this investigation.
+GitHub readback confirmed the new note's entry/matrix and both experiment identities/results. This is publication and bounded-content verification, not independent research validation. No manual upload or pending branch is required.
