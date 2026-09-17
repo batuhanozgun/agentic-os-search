@@ -2,7 +2,7 @@
 
 **Updated:** 2026-09-17
 **Current checkpoint:** U05-A — observation, instincts and behavioral context
-**Work status:** U05-A substantive source slice COMPLETE; repository publication/readback IN PROGRESS. Finish the scoped main integration, discovery updates and publication receipt before starting U05-B. A prepared tree is not a published result.
+**Work status:** U05-A COMPLETE / PUBLISHED. Eight ECC-local files merged through own-repository PR #8; the ECC catalog row and publication receipt reached main. [PUBLICATION-U05-A](PUBLICATION-U05-A.md) records actual commits, completed readbacks and scope limits. The shared library INDEX already routes generically and was preserved. No owner upload or merge is pending.
 **Study status:** ACTIVE / PARTIAL. P1, learning-quality qualification, wider security/evaluation/controllers and integrated system explanation remain open.
 **Method / plan:** 0.1 / 0.8
 **Target pin:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`, unchanged.
@@ -24,7 +24,7 @@ Current result: [Note07](notes/07-OBSERVATION-INSTINCTS-AND-BEHAVIORAL-CONTEXT.m
 
 ## Next work, responsibility and limits
 
-After publication closure, **U05-B / Q06c** is the next authorized source unit, NOT STARTED: skill-run outcomes → health/amendment → evaluation evidence → accepted change/use. Begin the pinned S108 skill-improvement files, actual skill-run-tracker import, and retained session-inspect caller. Do not assume they govern the Python instinct path merely because both concern learning.
+**U05-B / Q06c** is the next authorized source unit, NOT STARTED: skill-run outcomes → health/amendment → evaluation evidence → accepted change/use. Begin the pinned S108 skill-improvement files, actual skill-run-tracker import, and retained session-inspect caller. Do not assume they govern the Python instinct path merely because both concern learning.
 
 Q06b retains sampling/archival, partial writes, semantic corroboration, confidence validity, trigger/identity fidelity and evolved-materialization questions. Prior Q03b/c, Q04b/c/e, Q05b/c and P1 remain open with their PLAN/QUESTIONS triggers. Moving to another family does not resolve them.
 
@@ -34,10 +34,10 @@ No real ECC installation, user-home/config/cache mutation, credentials/real mode
 
 ## Recovery and record routing
 
-After canonical control bootstrap, fully read STATE, INDEX, META, WHY, METHOD, PLAN and QUESTIONS. Then fully read Note07, U05-A source ledger and ROUND-U05-A/MR07; recover the current publication receipt after it is registered here. Reopen exact producer/consumer sources when a derived view drops a load-bearing condition.
+After canonical control bootstrap, fully read STATE, INDEX, META, WHY, METHOD, PLAN and QUESTIONS. Then fully read Note07, U05-A source ledger and ROUND-U05-A/MR07, plus [PUBLICATION-U05-A](PUBLICATION-U05-A.md). Reopen exact producer/consumer sources when a derived view drops a load-bearing condition.
 
 Per-unit rounds/sources continue through U05-A. Old RESEARCH-LOG, METHOD-REVIEW and SOURCE-LEDGER remain unchanged history through U03-B; ROUND-U04-A and its source/receipt preserve U04-A. Do not treat historical next-work labels as current authority or repeat old experiments as new corroboration.
 
 S91 adds complete bounded continuous-learning-v2 subtree metadata, not all body/dependency coverage. S108 confirms a four-file next-unit directory without reading those bodies. Original STRUCTURE/TREE-FRONTIER, U01-B delta and subsequent ledgers retain P1 obligations, including Rust/native-workflow/other controllers. Final native/project-facing synthesis remains later and needs then-current canonical context.
 
-GitHub connector reads work. Auxiliary raw acquisition failed at DNS and created no checkout; no new runtime capability was demonstrated. Search paths came from a different default ref but substantive bodies remained pinned. Before publication, main 80499d8ef74f6123b44882fef0a4656b93f8d871 had only other-study/catalog changes since the previous ECC closure. Publication remains an explicit unfinished operational step until actual checks and receipt close it.
+GitHub connector reads/writes worked. Auxiliary raw acquisition failed at DNS and created no checkout; no new runtime capability was demonstrated. Search paths came from a different default ref but substantive bodies remained pinned. Publication used parent 80499d8ef74f6123b44882fef0a4656b93f8d871 and expected-head PR #8 merge fe5de7f3593d60f9248a02c4005ba5ade0a97ddd without force. Exact scope/readbacks are in the receipt; old histories and other studies were preserved. Publication is closed for this bounded unit; U05-B remains selected, not already performed.
