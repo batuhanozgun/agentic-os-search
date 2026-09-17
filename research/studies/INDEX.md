@@ -65,7 +65,7 @@ Do not load every study merely because the library exists.
 | Anthropic AI-native SDLC / agent-native software operating model | `anthropic-ai-native-sdlc-playbook/META.md` | `STATE.md` → `INDEX.md` → playbook research / source ledger / SOUL-DevOS assessment / falsifiers |
 | Context / memory / harness engineering | `context-memory-harness-engineering/META.md` | `STATE.md` → `INDEX.md` / cross-layer synthesis |
 | Harness composition/evolution — first Carbon Layer video and complementary Meta-Harness research | `the-carbon-layer/videos/mQfTdNVCOB0-harness-engineering/META.md` | local STATE → INDEX → source/evidence/plan; same dossier, historical alias `harness-engineering-and-evolution` |
-| ECC runtime provisioning, handoff evidence and recovery — active partial | `ecc/META.md` | `STATE.md` → `notes/05-EXECUTION-HANDOFF-AND-RECOVERY.md` / `evidence/U03-B-SOURCES.md`; E03 fake-provider probe, prior findings and next memory inquiry via package router |
+| ECC portable assets, Work/runtime, memory and authority boundaries — active partial | `ecc/META.md` | package `STATE.md` → `INDEX.md` → relevant bounded note/source ledger; exact execution and open integration limits remain package-local |
 | gstack implemented agentic software factory / qualification-control-runtime case | `gstack/META.md` | `CORE.md` → `INDEX.md` → relevant synthesis / revalidation / source ledger |
 | Hermes Agent runtime and learning mechanisms — active, partial research | `hermes-agent/META.md` | `STATE.md` → `INDEX.md` → plan / source ledger / bounded mechanism notes |
 | Superpowers portable development skills and host-conditioned workflow — active, partial research | `superpowers/META.md` | `STATE.md` → `METHOD.md` / `PLAN.md` → `SOURCE-LEDGER.md` / bounded mechanism notes |
