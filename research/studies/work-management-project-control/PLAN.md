@@ -15,96 +15,90 @@ Outputs:
 - `INDEX.md`
 - root catalog/index discovery updates
 
-## U01 — OpenProject — classical project-control baseline
+## U01 — OpenProject — COMPLETE
+
+Classical project/work-package baseline: hierarchy, typed relations, scheduling, workflow authority, reopen/history and project/program/portfolio composition.
+
+Target package: `../openproject/`
+
+## U02 — Flowable — COMPLETE
+
+Durable process, adaptive case and decision control: BPMN/CMMN/DMN, wait states, human/system tasks, retries, migration, cancellation and compensation.
+
+Target package: `../flowable/`
+
+## U03 — Beads — COMPLETE
+
+Dependency graph / actionable frontier: ready-work derivation, typed edges, atomic claims, leases/liveness, reopen/reblocking and distributed persistence.
+
+Target package: `../beads/`
+
+## U04 — OpenSpec — COMPLETE
+
+Artifact enablement graph: artifact dependencies, planning readiness, apply readiness, living tasks and archive/current-spec transitions.
+
+Target package: `../openspec/`
+
+## U05 — GitHub Spec Kit — COMPLETE
+
+Spec-driven decomposition/convergence: constitution/spec/plan/tasks/implement/converge, optional quality gates and remediation work.
+
+Target package: `../spec-kit/`
+
+## U06 — Leantime — COMPLETE
+
+Strategy-to-execution chain: goals, programs/projects, milestones, tasks, roadmap and delivery-versus-outcome progress.
+
+Target package: `../leantime/`
+
+## U07 — Gas Town — COMPLETE
+
+Multi-agent execution/coordination: durable work substrate versus orchestration substrate, actor identity/session, capacity/admission, recovery, convoys and integration/verification.
+
+Target package: `../gastown/`
+
+## U08 — Cross-unit synthesis — COMPLETE
+
+Output: `08-CROSS-UNIT-SYNTHESIS.md`
+
+Result: first wave was sufficiently diverse to reject a universal task model, but exposed one material enterprise integration gap.
+
+## U09 — ERPNext enterprise gap unit — COMPLETE
 
 Purpose:
 
-- establish a mature baseline for project, work package, hierarchy/WBS, relations, schedules, milestones and status;
-- distinguish work representation from scheduling/control;
-- inspect reopen/change/history semantics rather than only board/Gantt UI.
+- test how Project/Task structure binds to time, costing/billing, sales, purchasing, stock/material and accounting transactions;
+- distinguish project hierarchy from transaction attribution;
+- distinguish delivery progress from financial/operational standing;
+- answer the original SAP-PS-like gap without claiming SAP equivalence.
 
-Expected output: separate `openproject` external-target package with pinned source and bounded findings, plus parent-state update.
+Outputs:
 
-## U02 — Flowable — process, case and decision control
+- `../erpnext/META.md`
+- `../erpnext/FINDINGS.md`
+- `../erpnext/SOURCE-LEDGER.md`
+- `09-ERPNEXT-GAP-CLOSURE.md`
 
-Purpose:
+## U10 — Bounded closure — COMPLETE
 
-- separate predefined workflow (BPMN), adaptive/knowledge work (CMMN) and explicit decision logic (DMN);
-- inspect execution semantics, human/system tasks, wait states, events, compensation/cancellation and case-plan evolution;
-- test whether “project plan” is the wrong abstraction for some work.
+Output: `10-CLOSURE-EVALUATION.md`
 
-## U03 — Beads — dependency graph / actionable frontier
+Closure standing: **BOUNDED-COMPLETE / REVIEW-READY**.
 
-Purpose:
+No repository is automatically active after U10.
 
-- inspect issue/dependency graph, blockers, ready work, claim/ownership and distributed persistence;
-- compare derived readiness with status-column task management;
-- connect selectively to `recursive-prerequisite-discovery` without assuming conceptual equivalence.
+## Deferred targets — not active work
 
-## U04 — OpenSpec — artifact enablement graph
+Revisit only when a new material gap appears:
 
-Purpose:
+- ERP/SAP-oriented targets for resource leveling, earned value, commitment control or settlement;
+- Camunda for a later process-orchestration question not covered by Flowable;
+- Plane / Redmine / Taiga for narrower issue/agile workflow questions;
+- Huly for unified work + communication/document workspace questions;
+- TASKS.md/minimal queues for a minimal-substrate question.
 
-- inspect artifact dependencies, generation readiness and custom workflow schemas;
-- distinguish “dependency as gate” from “dependency as enablement” where source supports it;
-- test artifact-production graphs as work-control substrate.
+Deferred does not mean rejected.
 
-## U05 — Spec Kit — specification-to-convergence lifecycle
+## Re-entry rule
 
-Purpose:
-
-- inspect specification, planning, task generation, implementation and convergence/revision loops;
-- identify what persists, what is regenerated and how plan/task drift is handled;
-- compare planned decomposition with progressive discovery.
-
-## U06 — Leantime — strategy-to-execution chain
-
-Purpose:
-
-- inspect goals/strategy, projects, milestones, tasks, dependencies, risks and retrospectives;
-- recover how high-level intent remains connected to execution state;
-- add organizational/project-management concepts missing from agent-native systems.
-
-## U07 — Gas Town — multi-agent work coordination
-
-Purpose:
-
-- inspect persistent work state, actor roles, allocation/claim, parallel work, convoys or equivalent coordination primitives;
-- distinguish coordination substrate from task representation;
-- inspect provenance/recovery and failure behavior for multiple agents.
-
-## U08 — Cross-unit synthesis
-
-Produce a mechanism-oriented synthesis across first-wave units:
-
-- common primitives;
-- irreducible differences;
-- where tree, DAG, state machine, case plan and artifact graph models break down;
-- how readiness, authority, verification, reversal and recovery differ;
-- which questions remain unanswered for SOUL / Development OS.
-
-Do **not** rank products or propose architecture unless separately authorised.
-
-## U09 — Gap-driven second wave
-
-Activate only to cover a demonstrated missing dimension. Candidate pool:
-
-- ERPNext — ERP/project/resource/cost integration;
-- Camunda — durable process orchestration and human/system execution;
-- Plane — issue/cycle/triage plus agent access;
-- Redmine — mature issue/workflow/relations baseline;
-- Taiga — agile Scrum/Kanban semantics;
-- Huly — project + docs + communication unified workspace;
-- TASKS.md / similar — minimal file-native human/agent queue.
-
-A candidate enters U09 only with an explicit gap statement such as “first wave does not cover resource-cost control” or “no minimal baseline exists.”
-
-## U10 — Bounded closure
-
-Closure requires:
-
-- every activated unit has a recoverable source ref/date and epistemic boundary;
-- common dimensions are compared without silently normalizing incompatible terms;
-- gaps and non-findings are explicit;
-- parent `STATE.md` records whether the package is review-ready, bounded-complete or still open;
-- no Foundation/architecture adoption is inferred from research completion.
+A future extension begins by stating the **missing mechanism or unresolved question**, not by choosing another popular project-management product. Update `STATE.md` and this plan before activating a new unit.
