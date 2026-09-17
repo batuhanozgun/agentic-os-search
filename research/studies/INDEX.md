@@ -50,15 +50,22 @@ Do not load every study merely because the library exists.
 |---|---|---|
 | Scan all known candidate studies | `CATALOG.md` | selected package `META.md` |
 | Understand package creation/metadata rules | `PACKAGE-CONTRACT.md` | root `../INDEX.md` |
-| Work management / project control methodology across classical PM, workflow/case, dependency-graph, spec/artifact and agent-native systems — active sequential program | `work-management-project-control/META.md` | `STATE.md` → `METHOD.md` / `PLAN.md` → completed target packages beginning with `openproject/` |
-| OpenProject classical project/work-package control baseline — U01 bounded complete | `openproject/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
+| Work management / project control methodology across classical PM, workflow/case, dependency-graph, spec/artifact, agent-native and ERP systems — bounded complete | `work-management-project-control/META.md` | `STATE.md` → `10-CLOSURE-EVALUATION.md` → relevant completed target package only |
+| OpenProject classical project/work-package control | `openproject/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
+| Flowable durable process/case/decision execution | `flowable/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
+| Beads dependency graph / ready frontier / claims / liveness | `beads/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
+| OpenSpec artifact dependency / living-plan control | `openspec/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
+| GitHub Spec Kit spec-driven decomposition / convergence | `spec-kit/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
+| Leantime strategy-to-execution alignment | `leantime/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
+| Gas Town multi-agent orchestration / recovery / integration | `gastown/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
+| ERPNext project links to time/cost/billing/material/accounting evidence | `erpnext/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
 | The Carbon Layer video collection and video selection | `the-carbon-layer/META.md` | collection STATE → VIDEO-CATALOG → selected video's local STATE/INDEX |
 | Visual/practitioner roadmap as a discussion-driven research-gap trigger for agentic systems | `agentic-ai-systems-roadmap/META.md` | `STATE.md` → `INITIAL-ASSESSMENT.md` → `SOURCE-VISUAL.md` / image → related studies |
 | Knowledge access / representation / adaptation mechanisms | `ai-knowledge-strategies/META.md` | `STATE.md` → `INDEX.md` / mechanism files |
 | Anthropic AI-native SDLC / agent-native software operating model | `anthropic-ai-native-sdlc-playbook/META.md` | `STATE.md` → `INDEX.md` → playbook research / source ledger / SOUL-DevOS assessment / falsifiers |
 | Context / memory / harness engineering | `context-memory-harness-engineering/META.md` | `STATE.md` → `INDEX.md` / cross-layer synthesis |
 | Harness composition/evolution — first Carbon Layer video and complementary Meta-Harness research | `the-carbon-layer/videos/mQfTdNVCOB0-harness-engineering/META.md` | local STATE → INDEX → source/evidence/plan; same dossier, historical alias `harness-engineering-and-evolution` |
-| ECC installation channels/materialization and bounded readiness — active partial; U02-A ownership/recovery next | `ecc/META.md` | `STATE.md` → `notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md` → `evidence/U01-B-SOURCES.md` / `inventory/U01-B-DISCOVERY.md`; prior E01 preserved, MR02 method check |
+| ECC installation channels/materialization and bounded readiness — active partial | `ecc/META.md` | `STATE.md` → current bounded notes/evidence per package router |
 | gstack implemented agentic software factory / qualification-control-runtime case | `gstack/META.md` | `CORE.md` → `INDEX.md` → relevant synthesis / revalidation / source ledger |
 | Hermes Agent runtime and learning mechanisms — active, partial research | `hermes-agent/META.md` | `STATE.md` → `INDEX.md` → plan / source ledger / bounded mechanism notes |
 | Superpowers portable development skills and host-conditioned workflow — active, partial research | `superpowers/META.md` | `STATE.md` → `METHOD.md` / `PLAN.md` → `SOURCE-LEDGER.md` / bounded mechanism notes |
@@ -80,6 +87,8 @@ Use studies as applicable for:
 - benchmark/test-case ideas.
 
 Do not infer from a relevance tag that a study belongs inside a Foundation node.
+
+The `work-management-project-control` study is a bounded comparative corpus, not a new Foundation taxonomy. Its external-target packages preserve incompatible native semantics rather than normalizing them into one universal task model.
 
 The `anthropic-ai-native-sdlc-playbook` and `gstack` studies are both broad across Work, Actors, Information and Environment because their external targets concern end-to-end software operating models. That breadth is a retrieval property, **not** a reason to use either study as a Foundation taxonomy.
 
@@ -106,20 +115,27 @@ Completion of a study never authorizes adoption.
 - `ai-knowledge-strategies/`
 - `ai-memory/`
 - `anthropic-ai-native-sdlc-playbook/`
+- `beads/`
 - `context-memory-harness-engineering/`
 - `context-mode/`
 - `deepseek-harness/`
 - `ecc/`
+- `erpnext/`
+- `flowable/`
+- `gastown/`
 - `gstack/`
 - `hands-on-large-language-models/`
 - `hermes-agent/`
 - `i-have-adhd/`
+- `leantime/`
 - `mattpocock-skills/`
 - `multi-agent-patterns/`
 - `openproject/`
+- `openspec/`
 - `openviking/`
 - `public-apis/`
 - `recursive-prerequisite-discovery/`
+- `spec-kit/`
 - `superpowers/`
 - `the-carbon-layer/` — includes `videos/mQfTdNVCOB0-harness-engineering/`; the retired sibling is navigation only.
 - `work-management-project-control/`
