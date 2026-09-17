@@ -15,7 +15,8 @@
 | Initial surfaces/cache verifier | [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md), [E01](evidence/u01-a-cache-probe/README.md) |
 | Historical source/work/method records through U03-B | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); U04-A continues in its files above |
 | Topology frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md), subsequent unit ledgers |
-| Publication | STATE identifies the current receipt after publication verification; [U03-B receipt](PUBLICATION-U03-B.md) and [older receipts](PUBLICATION.md) remain historical |
+| Current publication | [U04-A receipt](PUBLICATION-U04-A.md); STATE owns final work status |
+| Historical publication | [U03-B receipt](PUBLICATION-U03-B.md), [older receipts](PUBLICATION.md) |
 
 ## Progressive retrieval and record continuity
 
