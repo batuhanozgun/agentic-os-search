@@ -2,7 +2,7 @@
 
 ACTIVE / PARTIAL **external-target candidate study**, not Foundation authority or an adopted stack.
 
-**Continue from [STATE.md](STATE.md)** and its full cold-start path. U01–U05 and U06-A have bounded source investigations. **U06-B evaluation implementation is next; U06 overall remains open.** Primary corpus: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Separately pinned eval dependency: `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`, orientation only. Do not transfer its newer descriptions to the primary target without compatibility checks.
+**Continue from [STATE.md](STATE.md)** and its full cold-start path. U01–U05, U06-A and U06-B1 have bounded source investigations. **U06-B2 is next; U06-B and U06 overall remain open.** Primary corpus: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Evaluation dependency: `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`. B1 traces selected code and a declared matching treatment, not realized-run efficacy or transitive grader qualification.
 
 ## Package routes
 
@@ -16,14 +16,16 @@ ACTIVE / PARTIAL **external-target candidate study**, not Foundation authority o
 | U03 sources/execution | [SOURCE-LEDGER-U03.md](SOURCE-LEDGER-U03.md) |
 | U04 sources/execution | [SOURCE-LEDGER-U04.md](SOURCE-LEDGER-U04.md) |
 | U05 sources/execution and lifecycle boundaries | [SOURCE-LEDGER-U05.md](SOURCE-LEDGER-U05.md) |
-| U06-A sources, external dependency pin and exact partial-read limits | [SOURCE-LEDGER-U06A.md](SOURCE-LEDGER-U06A.md) |
+| U06-A authoring sources and initial evaluator pin | [SOURCE-LEDGER-U06A.md](SOURCE-LEDGER-U06A.md) |
+| U06-B1 evaluator source paths, blobs and full/partial coverage | [SOURCE-LEDGER-U06B1.md](SOURCE-LEDGER-U06B1.md) |
 | Request classification, procedural scope, shell bootstrap | [U01-A](notes/U01-entry-routing-and-bootstrap.md) |
 | Host delivery, cache and procedure/work recovery | [U01-B](notes/U01B-host-delivery-and-continuity.md) |
 | Approval/ruling, plan/workspace identity and brief handoff | [U02](notes/U02-approval-plan-workspace-handoff.md) |
 | Actor/reviewer packets, fix/park/complete and evidence range | [U03](notes/U03-delegation-review-and-acceptance.md) |
 | Tests/oracles, diagnosis, feedback and verification claims | [U04](notes/U04-testing-diagnosis-and-verification.md) |
 | Human integration choice, merged result, cleanup ownership and surviving evidence | [U05](notes/U05-delivery-cleanup-and-retention.md) |
-| Intervention forms, authoring/control experiments, pressure criteria and contribution admission | [U06-A](notes/U06A-skill-authoring-and-change-admission.md) |
+| Intervention forms, authoring controls, pressure criteria and contribution admission | [U06-A](notes/U06A-skill-authoring-and-change-admission.md) |
+| Outcome-oriented review scenario, stock/treatment, projected roles, capture/checks and verdict composition | [U06-B1](notes/U06B1-evaluation-evidence-and-verdict.md) |
 
 ## Evidence routes
 
@@ -36,7 +38,7 @@ ACTIVE / PARTIAL **external-target candidate study**, not Foundation authority o
 | Diagnostic observation versus final claim | [U04 runner](evidence/U04-diagnostic-probes.py) / [output](evidence/U04-diagnostic-probes-results.json) |
 | Integration/cleanup/retention; local-only detached push | [U05 runner](evidence/U05-lifecycle-probes.py) / [output](evidence/U05-lifecycle-probes-results.json) |
 
-U06-A is source-only. There is no new experiment, model response, pass rate or execution record. Historical scenario documents are not new test results.
+U06-A and U06-B1 are source-only. No new experiment, model response, oracle execution, pass rate or live scenario result exists. Historical scenarios and configured comparison arms are not newly observed results.
 
 ## Claim-directed re-entry
 
@@ -76,22 +78,32 @@ U06-A is source-only. There is no new experiment, model response, pass rate or e
 | Non-force removal protects all only-copy records | U05 F40/E12: ordinary untracked note protected; ignored SDD ledger removed. |
 | PR/keep guarantees all SDD evidence survives | U05 F41: inner scratch and outer worktree have separate lifecycles. |
 | Code history contains every ruling/report | U05 F40–F41/Q27: committed code, disclosed decisions and detailed evidence differ. |
-| Source-policy/native-preference tests prove lifecycle ownership | U05 F42/S56/S57; evaluator implementation remains U06-B. |
+| Source-policy/native-preference tests prove lifecycle ownership | U05 F42/S56/S57; evaluator qualification remains U06-B2. |
 | Every failure calls for another skill or stricter prohibition | U06-A F43/F45: intervention layer and failure type matter. |
-| Description guidance is the format specification or the full procedure | U06-A F44/S58/X07: distinct authorities/roles; historical review anecdote is not current topology. |
-| No-guidance benefit proves a new revision beats the old one | U06-A F43/F46/Q30: different comparison and confounders. |
-| Pressure compliance proves useful general task performance | U06-A F46/Q31/Q32: criterion, observable and outcome differ. |
+| Description guidance is the format specification or the full procedure | U06-A F44/S58/X07: distinct authorities/roles; historical anecdote is not current topology. |
+| No-guidance benefit proves a new revision beats the old one | U06-A F43/F46/Q30; B1 F50 provides a declared stock/treatment pair, not old/new evidence. |
+| Every lab scenario rewards prescribed skill obedience | U06-A F46 and B1 F51/D11: the selected conversation review requires useful grounded delivery, no particular skill/tool. |
 | A worked campaign/creation log is raw current execution evidence | U06-A F47/S64–S69: design, expected result and historical narrative differ. |
-| A completed PR template proves actual review or release | U06-A F48/Q34: admission contract versus realized enforcement. |
-| External current evals automatically qualify this primary pin | U06-A F49/D01–D03/Q33: separately versioned dependency, README partial, compatibility open. |
+| A completed PR template proves actual review or release | U06-A F48/Q34: admission duty versus realized enforcement. |
+| Newer eval lab has no correspondence to the primary pin | B1 F50/D15: exact declared b36e0829 treatment found; actual use remains unverified. |
+| An unset root is a stock/no-treatment configuration | B1 F50/D17: explicit none, explicit root and ambient legacy are different states. |
+| Deterministic review oracle validates review findings | B1 F51/D13: one-file preservation only; findings go to assessor. |
+| Separate roles mean independent models or verified isolation | B1 F52/D19/D20/D27: different inputs/processes, shared grader configuration; transitive tools/history not yet audited. |
+| Visible delivery means a passing run | B1 F53/F55: endpoint is preserved even when final grade fails or is indeterminate. |
+| Evidence index is a complete immutable history | B1 F53/D23: selected snapshot, exclusions and downstream check effects matter. |
+| Manifest agreement proves oracle correctness | B1 F54/D22/D25: execution completeness relative to derived expectations; wildcard/legacy boundaries. |
+| Every pass has independent deterministic post-checks | B1 F54/D09: zero-check pass is explicitly possible. |
+| Checker crash prevents any assessment attempt | B1 F56/D08/D19: code can invoke assessor but final error remains indeterminate. |
+| A consistent composed result proves an accurate grader | B1 F55/Q35: producer, complete rubric/citations and actual evidence remain B2. |
+| A configured SHA proves actual loaded treatment | B1 F50/F57/Q37: materialization/provenance still open. |
 
 ## Synthesis and evidence status
 
-Seven chronological notes and six local experiment records exist. All fourteen observed SKILL bodies are fully read, but their supporting dependencies, evaluator implementation, runtime/release and whole-system explanation remain incomplete. No CORE, Foundation projection, completed cross-study comparison or whole-study closure exists.
+Eight chronological notes and six local experiment records exist. Fourteen primary SKILL bodies are fully read; their supporting dependencies, transitive evaluator, runtime/release and whole-system explanation remain incomplete. No CORE, Foundation projection, completed cross-study comparison or whole-study closure exists.
 
-U06-A has twelve new primary full-file reads and no new behavioral execution. The external lab's metadata/root tree and README lines 1–165 are orientation, not implementation or results validation. The primary corpus was not repinned. Earlier E01–E12 and failed criteria remain unchanged.
+U06-B1 completes D02 README and follows selected evaluation code, registering D04–D27 with explicit partial ranges. It does not execute a model, oracle or suite, qualify Gauntlet judgments, or establish an improvement over stock. Earlier E01–E12 and failed criteria remain unchanged.
 
-Five chronological source-ledger volumes preserve identities and observations. Historical next-action lines are checkpoints; current authority is STATE. Earlier unexecuted statuses change only when a later volume records actual execution of the named source.
+Six chronological source-ledger volumes preserve identities and observations. Historical next-action lines are checkpoints; current authority is STATE. Earlier unexecuted statuses change only when a later volume records actual execution of the named source.
 
 ## Library navigation
 
