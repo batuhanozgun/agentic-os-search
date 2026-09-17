@@ -8,9 +8,9 @@ User authorization on 2026-09-17: plan the research program, process candidate r
 
 ## Current status
 
-**ACTIVE / U01 OPENPROJECT + U02 FLOWABLE BOUNDED-COMPLETE; U03 BEADS NEXT**
+**ACTIVE / U01 OPENPROJECT + U02 FLOWABLE + U03 BEADS BOUNDED-COMPLETE; U04 OPENSPEC NEXT**
 
-The common comparison method is established. OpenProject provides the classical project/work-package baseline; Flowable provides the durable process/case/decision execution contrast. The next unit is Beads.
+The common comparison method is established. OpenProject provides the classical project/work-package baseline; Flowable provides durable process/case/decision execution; Beads provides an agent-native dependency/frontier/claim model. The next unit is OpenSpec.
 
 ## Completed
 
@@ -56,12 +56,28 @@ Source-bounded findings at `flowable/flowable-engine@42aa81de65ce48572577c1826ba
 
 See `../flowable/FINDINGS.md` and `../flowable/SOURCE-LEDGER.md`.
 
+### U03 — Beads — BOUNDED-COMPLETE
+
+Durable external-target package: `../beads/`.
+
+Source-bounded findings at `gastownhall/beads@71c4cd08b9991e7ba4e53822769c78337e0f4ee4`:
+
+- Ready work is derived from status category, blocked projection, defer timing, hierarchy/dependencies and filters; open is not synonymous with actionable.
+- Current source has richer readiness-affecting dependency semantics than the repository's simplified dependency guide; source wins over stale/derived docs.
+- `discovered-from` preserves work emergence/provenance without automatically imposing prerequisite semantics.
+- Claim is a compare-and-swap allocation transition, and claim-ready computes/selects/claims within one transaction.
+- A liveness lease/heartbeat is separate from durable assignment; stale claims can be reclaimed after dead-worker failure.
+- Reopen of a done-category issue recomputes derived blocked standing across affected graph neighbors, so backtracking can re-block downstream work.
+- Dolt is the durable source of truth/sync substrate; JSONL is derived interchange/view material.
+
+See `../beads/FINDINGS.md` and `../beads/SOURCE-LEDGER.md`.
+
 ## First-wave unit queue
 
 1. **U01 — OpenProject** — **COMPLETE** — classical project/work-package baseline.
 2. **U02 — Flowable** — **COMPLETE** — durable process/case/decision execution baseline.
-3. **U03 — Beads** — **NEXT** — agent-native dependency graph, blockers and ready frontier.
-4. **U04 — OpenSpec** — artifact/work dependency graph and progressive spec-driven enablement.
+3. **U03 — Beads** — **COMPLETE** — agent-native dependency graph, ready frontier and recoverable claim baseline.
+4. **U04 — OpenSpec** — **NEXT** — artifact/work dependency graph and progressive spec-driven enablement.
 5. **U05 — Spec Kit** — specification → plan → tasks → implementation/convergence loop.
 6. **U06 — Leantime** — strategy/goals → milestones/projects/tasks → execution and retrospective surfaces.
 7. **U07 — Gas Town** — multi-agent work allocation, persistent work state and large-scale coordination.
@@ -81,13 +97,16 @@ Not yet activated as full units; activate only for a demonstrated coverage gap:
 - Huly — unified project/document/communication workspace;
 - TASKS.md or another minimal file-native agent queue — minimum viable shared-work representation.
 
-## Method learning after U01–U02
+## Method learning after U01–U03
 
-The initial comparison matrix survives, with three distinctions now explicitly load-bearing:
+The initial comparison matrix survives, with six distinctions now explicitly load-bearing:
 
 1. **relation identity ≠ control effect.** A hierarchy, schedule dependency, closure blocker and semantic relation may all connect work objects while governing different effects.
 2. **recorded state ≠ executed transition.** A tracker can describe state; an execution engine can persist and causally advance/wait/retry the work itself.
 3. **backtracking is a family, not one transition.** Reopen, migrate, retry, suspend, cancel, terminate and compensate have different causal/epistemic meanings and recovery guarantees.
+4. **lifecycle status ≠ derived actionable standing.** Open work can still be non-actionable under graph, defer or policy constraints.
+5. **claim/assignment ≠ holder liveness.** Durable ownership needs a separate abandonment/recovery policy when actors can disappear.
+6. **work-discovery provenance ≠ prerequisite relation.** Newly discovered work may be relevant without blocking the work that revealed it.
 
 Later units should preserve these distinctions rather than normalizing every system into task/status/dependency.
 
@@ -106,7 +125,7 @@ Before a unit can be marked source-bounded complete:
 
 ## Current next action
 
-Begin **U03 Beads**. Recover its native issue/dependency model, how `ready` is derived, what blockers and parent/child mean, how claim/ownership and status work, how graph state is persisted/synchronized, and what happens under reopen/dependency changes/multi-agent concurrency. Compare selectively against `recursive-prerequisite-discovery`, but do not assume its “prerequisite” model and Beads dependencies are semantically identical.
+Begin **U04 OpenSpec**. Recover its native artifact/change/workflow model, especially how artifact dependencies determine what can be produced next, whether readiness means “dependencies exist” or “work is authorized,” how custom schemas alter the graph, how changes/revisions/archive work, and where artifact completeness differs from implementation completion. Compare to Beads only where graph/readiness semantics genuinely align.
 
 ## Fresh-session recovery
 
@@ -116,6 +135,6 @@ A new session should read:
 2. this `STATE.md`
 3. `METHOD.md`
 4. `PLAN.md`
-5. completed target package(s) only when comparison requires them: `../openproject/`, `../flowable/`.
+5. completed target package(s) only when comparison requires them: `../openproject/`, `../flowable/`, `../beads/`.
 
 Then resume the first unfinished unit listed above. Do not infer completion from files merely existing.
