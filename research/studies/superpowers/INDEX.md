@@ -2,37 +2,43 @@
 
 This is an ACTIVE / PARTIAL **external-target candidate study**, not Foundation authority or an adopted development stack.
 
-**For continuation start at [STATE.md](STATE.md)** and follow its cold-start reads. U01-A/B provide a bounded entry/delivery model; **U02 approval/artifact handoff is next**. The primary target remains `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`; current operational reuse requires freshness checks.
+**For continuation start at [STATE.md](STATE.md)** and follow its cold-start reads. U01 provides a bounded entry/delivery model; U02 provides approval/plan/workspace handoffs; **U03 execution/delegation/review is next**. Primary target remains `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`; current operational reuse needs freshness checks.
 
 ## Package routes
 
 | Need | Entry |
 |---|---|
-| Purpose, authority, completed/open work and next action | [STATE.md](STATE.md) |
-| Research object, reuse relevance and limits | [META.md](META.md) |
-| Method and evidence/completion criteria | [METHOD.md](METHOD.md) |
-| Provisional units, next sequence and revision record | [PLAN.md](PLAN.md) |
-| Exact source paths/blobs, read/execution coverage, progressive topology | [SOURCE-LEDGER.md](SOURCE-LEDGER.md) |
-| Three-path request classification; procedural scope; shell bootstrap/readiness | [U01-A note](notes/U01-entry-routing-and-bootstrap.md) |
-| Host delivery/invocation matrix, module/session cache lifetime, compaction and work-recovery distinction | [U01-B note](notes/U01B-host-delivery-and-continuity.md) |
-| Retained exact-script local probes | [U01-A runner](evidence/U01-hook-probes.py) and [actual output](evidence/U01-hook-probes-results.json) |
-| Exact OpenCode-module callback probes | [U01-B runner](evidence/U01B-opencode-probes.mjs) and [actual output](evidence/U01B-opencode-probes-results.json) |
+| Purpose, authority, completed/open work, next action | [STATE.md](STATE.md) |
+| Research object, reuse and boundaries | [META.md](META.md) |
+| Evidence/completion criteria and synthesis method | [METHOD.md](METHOD.md) |
+| Provisional units, next sequence, revision/reflection record | [PLAN.md](PLAN.md) |
+| Source paths/blobs, read/execution coverage, topology | [SOURCE-LEDGER.md](SOURCE-LEDGER.md) |
+| Three-path classification, procedural scope, shell bootstrap | [U01-A note](notes/U01-entry-routing-and-bootstrap.md) |
+| Host delivery, cache lifetime, compaction and procedure/work recovery | [U01-B note](notes/U01B-host-delivery-and-continuity.md) |
+| Approval/ruling authority, spec/plan/workspace identity, ledger and task-brief handoff | [U02 note](notes/U02-approval-plan-workspace-handoff.md) |
+| Exact shell-script local probes | [U01-A runner](evidence/U01-hook-probes.py) / [output](evidence/U01-hook-probes-results.json) |
+| Exact OpenCode callback probes | [U01-B runner](evidence/U01B-opencode-probes.mjs) / [output](evidence/U01B-opencode-probes-results.json) |
+| Plan/workspace/task extraction and selected-path local probes | [U02 runner](evidence/U02-handoff-probes.py) / [output](evidence/U02-handoff-probes-results.json) |
 
 ## Claim-directed re-entry
 
-- **Every task uses a written design and plan:** U01-A F01 / S10. Three paths have different artifacts. U02 has not yet traced their full handoffs.
-- **Mandatory wording technically constrains every actor:** U01-A F02 / S04. Scope, precedence and child contracts differ; U03 remains open.
-- **Shared skills imply identical host behavior:** U01-B F07/F10 and the host matrix. Delivery, invocation and action mapping have different mechanisms and guarantees.
-- **Successful output means usable bootstrap:** U01-A F04–F06 and U01-B E03/E04. Transport, semantic readiness and model behavior are separate.
-- **A bootstrap marker proves valid current instructions:** U01-B experiment and F08/F11. Marker-only suppression and cached revisions are bounded counterexamples.
-- **A fresh session necessarily reloads the source:** U01-B F08 / Q09. Module identity, session events and file revision are different lifetimes.
-- **Re-injecting procedures restores the current task:** U01-B F12. Work artifacts and accepted state must be investigated in U02/U03; no repository-wide absence is claimed.
+- **Every task has a written spec and plan:** U01-A F01 / U02 F13–F14 / S10. Three paths differ.
+- **Mandatory wording technically constrains every actor:** U01-A F02 and U02 F13. Procedural scope, phase/route authority and executable controls differ.
+- **Shared skills imply identical host behavior:** U01-B F07/F10 and its matrix.
+- **Successful output or marker means valid current bootstrap:** U01-A F04–F06 and U01-B F08/E03/E04. Output, usable content, revision and model behavior are separate.
+- **A fresh session necessarily reloads source:** U01-B F08/Q09. Module, session and file lifetimes differ.
+- **No work recovery exists:** U02 F16 qualifies that conclusion. SDD does use a ledger/artifacts; U01 F12 concerned entry functions only.
+- **Per-plan directories prove disjoint plan identity:** U02 F16/E05/E06. Distinct basenames separate; identical basenames across different paths collide in one worktree.
+- **Same plan path means current completion is still valid:** U02 F16/Q14. Helper-level revision invalidation is not established; no live stale-completion acceptance was observed.
+- **A task brief automatically carries all requirements:** U02 F17. Extraction omits plan-level globals/Spec; controller context transfer remains load-bearing.
+- **A saved plan is already available to an isolated executor:** U02 F18 and the uncommitted/committed worktree controls.
+- **A passed ignore check qualifies the chosen directory:** U02 F19. The displayed OR predicate can accept the unselected alternative instead.
 
 ## Synthesis status
 
-U01 has a bounded source-level delivery model with explicit live-execution limits. No whole-system CORE, four-ground projection or whole-study closure exists. The two mechanism notes are not a final architecture.
+Three bounded mechanism notes exist. No whole-system CORE, four-ground projection, completed cross-study comparison or whole-study closure has been published. U03 source reads performed for U02 are preserved in the ledger; unread reviewer/parallel/finishing dependencies must not be treated as covered.
 
-The original U01-A note intentionally records its historical partial checkpoint. Current completion/next work comes from STATE and this router, not the old note's final next-action sentence.
+Historical next-action sentences in U01-A/B belong to their publication checkpoints. Current work/authority comes from STATE, not the last line of an old note.
 
 ## Library navigation
 
@@ -40,4 +46,4 @@ The original U01-A note intentionally records its historical partial checkpoint.
 - [Candidate-library index](../INDEX.md)
 - [gstack methodology precedent](../gstack/METHOD.md)
 
-Upstream instructions remain research objects; this package does not activate them as agent-control.
+Upstream instructions remain research objects, not active agent-control.
