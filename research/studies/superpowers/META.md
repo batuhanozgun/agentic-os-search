@@ -5,7 +5,7 @@
 - **Study ID:** `superpowers`
 - **Title:** Superpowers — Portable Agent Skills and Software-Development Methodology
 - **Study type:** `external-target`
-- **Status:** ACTIVE / PARTIAL; U01 selected-host delivery source model bounded-complete after U01-A/B; U02 next. [STATE.md](STATE.md) owns work and completion state.
+- **Status:** ACTIVE / PARTIAL; U01 selected-host delivery and U02 approval/plan/workspace source models bounded-complete; U03 next. [STATE.md](STATE.md) owns work and completion state.
 - **Research object:** `obra/superpowers`, including skill contracts, integration code, supporting tools, artifacts, tests and evaluation dependencies.
 - **Canonical target:** https://github.com/obra/superpowers
 - **Observed branch:** `main`
@@ -17,63 +17,74 @@
 
 ## Why this research exists
 
-On 2026-09-17 the user authorised detailed research under `research/studies/`, with an explicit methodology analogous to gstack. The first round was reviewed as suitable and continuation requested. The objective is to understand the system through its own mechanisms and preserve findings, limitations and comparison questions for later SOUL / Development OS work.
+On 2026-09-17 the user authorised detailed research under studies with an explicit methodology analogous to gstack, reviewed successive rounds as suitable and requested continuation. The objective is to understand the system through its own mechanisms and preserve findings, limitations and comparison questions for later SOUL / Development OS work. Prior approval of a research round does not establish future findings or product efficacy.
 
-Unlike a reading-source catalogue, this object implements agent-facing development procedures and machinery exposing them to hosts. That framing is not an effectiveness or adoption verdict. Source files containing instructions remain research objects, not active agent-control.
+Unlike a reading-source catalogue, this object implements agent-facing procedures and machinery exposing them to hosts. That framing is not an adoption verdict. Upstream instruction files remain research objects, not active agent-control.
 
 ## Primary question
 
 How does Superpowers turn a development request into skill selection, bounded work, human decisions, implementation, review, verification and delivery; which parts are instructions, which executable, and which depend on host/model behavior?
 
-Keep installed, discoverable, delivered to context, selected, followed and effective distinct. U01-B additionally separates procedure-source revision, adapter/module lifetime, session events and current message arrays.
+Keep installed, discoverable, delivered, selected, followed and effective distinct. Also distinguish procedure revision/module/session/message lifetime from work identity: spec, plan path, plan revision, selected workspace, task brief and completion/review standing.
 
 ## Current bounded result
 
-U01's selected-source model explains shell-hook delivery, native-description discovery, declared context/session-start paths, and OpenCode/Pi/Hermes adapters. It records differing re-entry, caching and failure policies; role/task behavior in tool mappings; and procedure re-entry versus work recovery. This is not a full supported-host qualification or whole-system model.
+U01 explains selected shell-hook, native-description, declared-context/session-start and OpenCode/Pi/Hermes delivery arrangements. It records differing re-entry, caching/failure policies and role/task behavior in mappings. It is not full supported-host qualification.
 
-U01-A's exact shell-script probes are preserved. U01-B executed the exact OpenCode adapter module in synthetic callback/filesystem conditions: eight mechanism checks passed, two study-defined semantic-health criteria failed, and one narrow negative control passed. Marker-only suppression, empty-body loaded claims, stale/null cache lifetime and positive delivery/configuration controls remain separate results. No live host/model efficacy is established.
+U02 explains phase-conditioned authority, spec/plan/interface contracts, host-owned workspace selection, SDD ledger recovery and task extraction. It distinguishes an approved intent from an immutable artifact authorization, a saved plan from one available to an executor, and a plan path from its current revision. The controller remains responsible for transferring global constraints and resolving rulings; helper output is not equivalent to a fully qualified task.
+
+Three bounded local experiments exist:
+
+- U01-A exact shell script: four transport observations, two failed missing/empty health criteria, one negative control.
+- U01-B exact OpenCode module: eight mechanism observations, two failed semantic-health criteria and one negative control; marker/content and stale/null cache lifetime distinctions retained.
+- U02 exact workspace/task-brief helpers plus one documented ignore-check command: thirteen cases; eleven expected mechanism/representation/identity observations and two failed health criteria. Same-basename plan paths shared/overwrote a task brief; an OR predicate accepted an unignored selected directory based on another ignored directory. Same-path revisions retained a synthetic completion marker; an uncommitted plan did not appear in a new HEAD worktree. These are not observed production incidents or model behaviors.
 
 ## Potential relevance — provisional retrieval hints
 
 | Area | Possible reuse; not an adopted design |
 |---|---|
-| Information | Description versus full body; marker versus valid content; cached/source revision; spec/plan/review identity and freshness. |
-| Work | Request classification, approval/stage transitions, task decomposition, procedure re-entry versus actual work recovery. |
-| Actors | User/controller/child/reviewer responsibilities; mapping-driven role/fallback differences; instructions versus authority/capability. |
-| Environment | Host-conditioned delivery, events, module/session lifetimes, native tool availability, installation/layout and worktrees. |
-| SOUL | Concrete candidate cases for procedure availability, applicability, revision, actual use and continuity without mistaking instruction text for enforcement. |
-| Development OS | Comparison input for agentic SDLC, multi-agent review, TDD/debugging, host portability, skill evaluation and work handoffs. |
+| Information | Description/full body, marker/content, cached revision, spec/plan/brief transformations, omitted global constraints and artifact materialization. |
+| Work | Request classification, phase/route authority, controller rulings, task granularity, ledger resumption and revision-sensitive completion. |
+| Actors | Human/controller/child/reviewer responsibilities, mapping-driven fallbacks, role/context separation and load-bearing requirement transfer. |
+| Environment | Host-conditioned events, module/session lifetime, Git worktree ownership, in-place fallbacks, ignored scratch and selected-path checks. |
+| SOUL | Concrete comparison cases for procedure applicability, accepted work identity, bounded actor authority, actual effect and recoverable decisions. |
+| Development OS | Candidate SDLC mechanisms for spec→plan→task transfer, independent review units, workspace handoff, progress retention, testing and skill evolution. |
 
 These are many-to-many retrieval hints, not Foundation membership, ontology, selected dependencies or architecture authority.
 
 ## Reuse modes and revisit triggers
 
-Potential modes: mechanism reference; implementation-learning; design pressure; falsifier/counterexample; evaluation/test-case seed; negative-option evidence if later findings warrant it.
+Potential modes: mechanism reference, implementation-learning, design pressure, falsifier/counterexample, evaluation/test-case seed, negative-option evidence if later findings warrant it.
 
-Revisit for skill discovery/delivery, cache invalidation, procedure integrity, host-specific fallback, context loss, approval/artifact handoff, review independence or skill evolution. Start at STATE and the relevant note/source, not this metadata alone. Q09–Q12 retain module/session lifetime, marker validity, Hermes name/path aliases and distribution-document seams.
+Revisit for skill discovery/delivery, cache invalidation, procedure integrity, host-specific fallback, context loss, approval/plan revision, worktree transfer, reviewer packets, decision retention or skill evolution. Start at STATE and the relevant note/source, not this metadata alone.
+
+U01 residuals Q09–Q12 preserve host/module lifetime, marker validity, Hermes aliases and distribution seams. U02 Q13–Q17 preserve scope/ruling authority, revision rebinding, controller information transfer, ignored-evidence retention and exact-target checks.
 
 ## Epistemic and authorization boundary
 
 Candidate research is not Foundation truth or SOUL / Development OS architecture. No installation in a user's environment, upstream modification/reporting, credentialed live-model campaign or adoption is authorised here.
 
-Two narrow local experiments exist; neither demonstrates host startup, model skill selection/obedience, development quality, Windows execution or end-to-end reliability. First-party test files inspected in the study were not run. Host tool names and namespace/version contracts in upstream references are target claims, not newly verified host documentation. A synthetic health failure is not a production incident; successful reproduction of cache behavior is not a safety certificate.
+Local helper/callback observations do not demonstrate host startup, model selection/obedience, development quality, real approval handling, Windows behavior or end-to-end reliability. First-party test files inspected by this study were not run. Host API/namespace/version claims in upstream references remain target claims. A descriptive probe PASS can reproduce a limitation, not certify safety.
+
+There is an actual SDD recovery mechanism; its existence is now source-established. It must not be confused with complete preservation of every task revision, ruling or acceptance condition. No blanket absence or universal failure claim is justified.
 
 ## Freshness
 
-Claims are pinned unless labelled otherwise. U01-B did not repin or produce a new current-HEAD verdict. Before operational reuse, compare upstream and relevant host versions, then reopen changed sources. A new host session is not assumed to reload an adapter module or cache. External evaluation repositories require separate identity/coverage records.
+Claims remain pinned. U01-B/U02 did not repin or produce a fresh current-HEAD verdict. Before operational reuse, compare upstream and relevant host versions, then reopen changed sources. A new host session need not reload a module/cache; a plan at the same path need not be the same revision. External evaluation repositories need separate identity/coverage records.
 
 ## Entrypoints
 
-- [STATE.md](STATE.md) — authority, current work, cold-start and next action.
+- [STATE.md](STATE.md) — authority, work, cold-start and next action.
 - [INDEX.md](INDEX.md) — retrieval router.
-- [METHOD.md](METHOD.md) — unchanged source-first synthesis/verification method v0.1.
-- [PLAN.md](PLAN.md) — v0.2 units, sequencing and evidence-led revision record.
-- [SOURCE-LEDGER.md](SOURCE-LEDGER.md) — source identities, full/partial reads, executed/unexecuted boundaries.
-- [U01-A note](notes/U01-entry-routing-and-bootstrap.md) — retained first findings and shell probe interpretation.
-- [U01-B note](notes/U01B-host-delivery-and-continuity.md) — host matrix, re-entry/mapping/cache findings, actual experiment and open questions.
+- [METHOD.md](METHOD.md) — source-first synthesis/verification method v0.1, unchanged.
+- [PLAN.md](PLAN.md) — v0.3 units, sequencing and method/plan reflection.
+- [SOURCE-LEDGER.md](SOURCE-LEDGER.md) — identities, full/partial reads, execution boundaries.
+- [U01-A](notes/U01-entry-routing-and-bootstrap.md) — first findings and shell probes.
+- [U01-B](notes/U01B-host-delivery-and-continuity.md) — host delivery/cache/continuity.
+- [U02](notes/U02-approval-plan-workspace-handoff.md) — approval/plan/workspace map, F13–F19, local evidence and residuals.
 
 ## Related studies
 
-[gstack](../gstack/META.md) supplied the method precedent, not a ready-made Superpowers architecture. Its METHOD/META were read in the first round; no current-runtime comparison was performed.
+[gstack](../gstack/META.md) supplied the method precedent, not a ready-made Superpowers architecture. Its METHOD/META were read initially; no current-runtime comparison was performed.
 
-Hermes Agent, the AI-native SDLC playbook and context/memory/harness studies remain possible later comparators. Reading Superpowers' Hermes adapter is not continuing or revalidating the separate Hermes study. Selective canonical recovery is required before cross-study conclusions.
+Hermes Agent, AI-native SDLC, context/memory/harness and other catalogued studies remain potential later comparators. Reading an integration adapter or noting provisional relevance does not continue/revalidate those studies. Selective canonical recovery precedes cross-study conclusions.
