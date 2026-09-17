@@ -102,6 +102,7 @@ Completion of a study never authorizes adoption.
 
 - `agentic-ai-systems-roadmap/`
 - `ai-knowledge-strategies/`
+- `ai-memory/`
 - `anthropic-ai-native-sdlc-playbook/`
 - `context-memory-harness-engineering/`
 - `context-mode/`
