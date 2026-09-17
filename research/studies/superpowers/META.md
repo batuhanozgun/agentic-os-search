@@ -5,72 +5,75 @@
 - **Study ID:** `superpowers`
 - **Title:** Superpowers — Portable Agent Skills and Software-Development Methodology
 - **Study type:** `external-target`
-- **Status:** ACTIVE / PARTIAL; initial orientation and bounded bootstrap investigation. [STATE.md](STATE.md) owns current work and completion state.
-- **Research object:** `obra/superpowers`, including its skill contracts, integration code, supporting tools, artifacts, tests and evaluation dependencies.
+- **Status:** ACTIVE / PARTIAL; U01 selected-host delivery source model bounded-complete after U01-A/B; U02 next. [STATE.md](STATE.md) owns work and completion state.
+- **Research object:** `obra/superpowers`, including skill contracts, integration code, supporting tools, artifacts, tests and evaluation dependencies.
 - **Canonical target:** https://github.com/obra/superpowers
 - **Observed branch:** `main`
 - **Pinned commit:** `b36e0829c6d0140e93cfef2ca599b1b07d4a7797`
 - **Root tree:** `21219529a4e224bcb27baf8816b039c8bf7c6673`
-- **Version context:** `.codex-plugin/plugin.json` declares `6.3.0`; this is a manifest observation, not a release-availability or installed-version claim.
+- **Version context:** inspected manifests declare `6.3.0`; not an installed-version or release-channel claim.
 - **Observation date:** 2026-09-17
-- **Commit timestamp:** 2026-08-12T16:53:21Z, from Git commit metadata.
+- **Commit timestamp:** 2026-08-12T16:53:21Z from Git commit metadata.
 
 ## Why this research exists
 
-On 2026-09-17 the user authorised a detailed study under `research/studies/`, with an explicit methodology analogous to the gstack investigation. The objective is to understand the external system through its own mechanisms, then preserve reusable findings, limitations and comparison questions for later SOUL / Development OS work.
+On 2026-09-17 the user authorised detailed research under `research/studies/`, with an explicit methodology analogous to gstack. The first round was reviewed as suitable and continuation requested. The objective is to understand the system through its own mechanisms and preserve findings, limitations and comparison questions for later SOUL / Development OS work.
 
-The object is not a catalogue of alternative reading sources like `build-your-own-x`. It is a specific implementation of agent-facing development procedures and the machinery that exposes those procedures to different hosts. This framing remains subject to source challenge; it is not a verdict that the implementation is effective or should be adopted.
+Unlike a reading-source catalogue, this object implements agent-facing development procedures and machinery exposing them to hosts. That framing is not an effectiveness or adoption verdict. Source files containing instructions remain research objects, not active agent-control.
 
 ## Primary question
 
-How does Superpowers turn a development request into skill selection, bounded work, human decisions, implementation, review, verification and delivery; which parts are procedural instructions, which are executable mechanisms, and which depend on the host or model actually behaving as expected?
+How does Superpowers turn a development request into skill selection, bounded work, human decisions, implementation, review, verification and delivery; which parts are instructions, which executable, and which depend on host/model behavior?
 
-The study must distinguish:
+Keep installed, discoverable, delivered to context, selected, followed and effective distinct. U01-B additionally separates procedure-source revision, adapter/module lifetime, session events and current message arrays.
 
-`installed → discoverable → delivered to context → selected → followed → effective`.
+## Current bounded result
 
-These are different claims, not interchangeable success states.
+U01's selected-source model explains shell-hook delivery, native-description discovery, declared context/session-start paths, and OpenCode/Pi/Hermes adapters. It records differing re-entry, caching and failure policies; role/task behavior in tool mappings; and procedure re-entry versus work recovery. This is not a full supported-host qualification or whole-system model.
+
+U01-A's exact shell-script probes are preserved. U01-B executed the exact OpenCode adapter module in synthetic callback/filesystem conditions: eight mechanism checks passed, two study-defined semantic-health criteria failed, and one narrow negative control passed. Marker-only suppression, empty-body loaded claims, stale/null cache lifetime and positive delivery/configuration controls remain separate results. No live host/model efficacy is established.
 
 ## Potential relevance — provisional retrieval hints
 
 | Area | Possible reuse; not an adopted design |
 |---|---|
-| Information | Skill descriptions versus full bodies; context delivery; specifications/plans/review evidence; source and artifact freshness. |
-| Work | Request classification, stage transitions, approval, task decomposition, completion and return-to-work paths. |
-| Actors | User/controller/implementer/reviewer responsibilities; delegation context; instructions versus authority and capabilities. |
-| Environment | Host-specific loading/tool mappings; worktrees; shell/runtime availability; installation and optional visual tooling. |
-| SOUL | Candidate mechanisms and counterexamples for choosing and maintaining work procedures without confusing an instruction with an enforced constraint. |
-| Development OS | A concrete comparison case for agentic SDLC, multi-agent review, TDD/debugging, workflow portability and skill development/evaluation. |
+| Information | Description versus full body; marker versus valid content; cached/source revision; spec/plan/review identity and freshness. |
+| Work | Request classification, approval/stage transitions, task decomposition, procedure re-entry versus actual work recovery. |
+| Actors | User/controller/child/reviewer responsibilities; mapping-driven role/fallback differences; instructions versus authority/capability. |
+| Environment | Host-conditioned delivery, events, module/session lifetimes, native tool availability, installation/layout and worktrees. |
+| SOUL | Concrete candidate cases for procedure availability, applicability, revision, actual use and continuity without mistaking instruction text for enforcement. |
+| Development OS | Comparison input for agentic SDLC, multi-agent review, TDD/debugging, host portability, skill evaluation and work handoffs. |
 
-These are many-to-many relevance hints. They do not assign Foundation nodes, establish ontology, select dependencies or authorize architecture changes.
+These are many-to-many retrieval hints, not Foundation membership, ontology, selected dependencies or architecture authority.
 
 ## Reuse modes and revisit triggers
 
-Potential modes: source-grounded mechanism reference; implementation-learning; design pressure; counterexample/falsifier; evaluation/test-case seed; rejected-option evidence if later findings warrant it.
+Potential modes: mechanism reference; implementation-learning; design pressure; falsifier/counterexample; evaluation/test-case seed; negative-option evidence if later findings warrant it.
 
-Revisit when a question concerns procedural agent control, skill discovery, development handoffs, review independence, verification validity, environment-dependent workflow execution, or skill evolution. Read the package's current STATE and the relevant source evidence, not only this metadata.
+Revisit for skill discovery/delivery, cache invalidation, procedure integrity, host-specific fallback, context loss, approval/artifact handoff, review independence or skill evolution. Start at STATE and the relevant note/source, not this metadata alone. Q09–Q12 retain module/session lifetime, marker validity, Hermes name/path aliases and distribution-document seams.
 
 ## Epistemic and authorization boundary
 
-This is candidate research, not Foundation truth or SOUL / Development OS architecture. Studying upstream instructions does not activate them as our agent-control rules. No installation, upstream modification, live model campaign or adoption has been authorised by this study request.
+Candidate research is not Foundation truth or SOUL / Development OS architecture. No installation in a user's environment, upstream modification/reporting, credentialed live-model campaign or adoption is authorised here.
 
-The first round includes source inspection and narrowly scoped local probes of one byte-verified hook script in synthetic temporary fixtures. It does not demonstrate real host startup, model skill selection, obedience, development quality, Windows behavior, or end-to-end reliability. Research completion and product qualification remain different judgments.
+Two narrow local experiments exist; neither demonstrates host startup, model skill selection/obedience, development quality, Windows execution or end-to-end reliability. First-party test files inspected in the study were not run. Host tool names and namespace/version contracts in upstream references are target claims, not newly verified host documentation. A synthetic health failure is not a production incident; successful reproduction of cache behavior is not a safety certificate.
 
 ## Freshness
 
-Claims are bound to the pinned commit unless explicitly identified otherwise. Before current operational reuse, compare upstream HEAD and relevant host versions, then re-read changed load-bearing sources. Do not silently mix a future README, release note or integration with this corpus. External evaluation repositories, if later needed, require their own version pin and evidence boundary.
+Claims are pinned unless labelled otherwise. U01-B did not repin or produce a new current-HEAD verdict. Before operational reuse, compare upstream and relevant host versions, then reopen changed sources. A new host session is not assumed to reload an adapter module or cache. External evaluation repositories require separate identity/coverage records.
 
 ## Entrypoints
 
 - [STATE.md](STATE.md) — authority, current work, cold-start and next action.
 - [INDEX.md](INDEX.md) — retrieval router.
-- [METHOD.md](METHOD.md) — source-first synthesis and verification method.
-- [PLAN.md](PLAN.md) — provisional investigation units and completion criteria.
-- [SOURCE-LEDGER.md](SOURCE-LEDGER.md) — inspected sources, topology and coverage limits.
-- [notes/U01-entry-routing-and-bootstrap.md](notes/U01-entry-routing-and-bootstrap.md) — first bounded findings and local probe interpretation.
+- [METHOD.md](METHOD.md) — unchanged source-first synthesis/verification method v0.1.
+- [PLAN.md](PLAN.md) — v0.2 units, sequencing and evidence-led revision record.
+- [SOURCE-LEDGER.md](SOURCE-LEDGER.md) — source identities, full/partial reads, executed/unexecuted boundaries.
+- [U01-A note](notes/U01-entry-routing-and-bootstrap.md) — retained first findings and shell probe interpretation.
+- [U01-B note](notes/U01B-host-delivery-and-continuity.md) — host matrix, re-entry/mapping/cache findings, actual experiment and open questions.
 
 ## Related studies
 
-[gstack](../gstack/META.md) supplies the research-method precedent: semantic synthesis with source backreferences, not a ready-made Superpowers architecture. Its METHOD and META were read for this round; no current gstack behavior comparison was performed.
+[gstack](../gstack/META.md) supplied the method precedent, not a ready-made Superpowers architecture. Its METHOD/META were read in the first round; no current-runtime comparison was performed.
 
-Hermes Agent, the AI-native SDLC playbook and context/memory/harness studies are possible later comparators. They were not substantively revalidated in this round. Selective recovery is required before using their findings as evidence.
+Hermes Agent, the AI-native SDLC playbook and context/memory/harness studies remain possible later comparators. Reading Superpowers' Hermes adapter is not continuing or revalidating the separate Hermes study. Selective canonical recovery is required before cross-study conclusions.
