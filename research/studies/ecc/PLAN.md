@@ -1,74 +1,75 @@
 # ECC — Adaptive Research Plan
 
-**Version:** 0.4 / 2026-09-17. Current authority [STATE](STATE.md); method remains [0.1](METHOD.md). This is a revisable sequence, not a calendar, file quota or completion percentage.
+**Version:** 0.5 / 2026-09-17. Authority [STATE](STATE.md); [METHOD](METHOD.md) remains 0.1. A revisable research sequence, not a calendar, file quota or completion percentage.
 
 ## Current revision
 
-U02-A completes a bounded source/test-source explanation of common managed ownership, the guided Kimi contrast, partial-write checkpoints and derived health. It does not complete every installation lifecycle or establish executed recovery. [Note 03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md) and MR03 preserve the result, correction to the earlier bridge scope and unexecuted retry counter-path.
+U03-A completes a bounded Work/session record and consumer study: local card mutations, pickup rules, source-import authority, session normalization/recording versus SQLite reading, and status signalling. [Note 04](notes/04-WORK-SESSION-RECORDS-AND-CONTROL.md), [sources](evidence/U03-A-SOURCES.md) and [E02](evidence/u03-a-work-item-probe/README.md) preserve different evidence levels. Six exact-helper criteria matched in a store-double probe; this is not a real queue, database, host or efficacy result.
 
-Next U03-A / Q04 leaves installation family B for Work/session records and control. This follows actual discovered session/work-item entrypoints and the newly inventoried state-store query file. Installation residuals remain explicit and reopen when load-bearing; they do not become a requirement to exhaust all adapters before understanding other ECC families.
+The next unit U03-B follows actual worktree/session dispatch, handoff and recovery. Finding local record limitations does not establish that ECC has no execution control elsewhere. We must inspect that execution path rather than turn this study into an exhaustive board/sync defect campaign. Q04b/Q04c and installation Q03b/Q03c stay open with re-entry triggers.
 
-P1/full topology remains PARTIAL. A five-file state-store listing is bounded inventory progress, not a completed recursive corpus. Earlier plans remain historical in Git.
+The user's qualitative progress question did not authorize closure or change the research objective. P1 and the major remaining families are still partial/uninvestigated; local depth is not whole-system understanding.
 
-## Phase map retained
+## Phase map
 
 | Phase | Work/output | Current standing and exit/reopen condition |
 |---|---|---|
-| P0 — Method/work foundation | Purpose, method, plan, registries, cold-start | U00 complete/published; not pending setup |
-| P1 — ECC-native discovery | Tree, manifests, distribution/runtime/host boundaries | PARTIAL. Explain or explicitly bound major families before final synthesis; metadata discovery is not content reading |
-| P2 — Mechanism slices | Question, load-bearing sources, contrary path and calibrated evidence | Active. Preserve entry/implementation/consumer/effect distinctions and incomplete dependencies |
-| P3 — Subsystem/seam synthesis | Native explanations and actual relationships | Iterates with P2; component presence is not integration |
-| P4 — Project-facing comparison | Then-current Foundation/project state and selected studies | Same-level comparison and target evidence; no automatic adoption |
-| P5 — CORE and closure challenge | Reverse inventory/holdout challenge | Known material unexplained regions block closure; do not waive P1 retrospectively |
-| P6 — Method case | Actual decisions, failures, overhead and subsequent effects | Fed throughout; same-assistant observation is not independent efficacy proof |
+| P0 — Method/work foundation | Purpose, method, registries, cold-start | U00 complete; not pending setup |
+| P1 — Native discovery | Tree, manifests, distribution/runtime/host boundaries | PARTIAL. Account for all major families before final synthesis; acquisition is not reading |
+| P2 — Mechanism slices | Question, producer/consumer sources, counter-path and calibrated evidence | Active; current completed slice U03-A, next U03-B |
+| P3 — Subsystem/seam synthesis | Native explanations and actual relationships | Iterates after relevant evidence; shared names/schemas are not integration |
+| P4 — Project-facing comparison | Then-current Foundation/project state and selected studies | Same-level comparison, alternatives and target evidence; no automatic adoption |
+| P5 — CORE and closure challenge | Reverse inventory/holdout audit | Known material unexplained regions block closure; no retrospective waiver of P1 |
+| P6 — Method case | Actual choices, failures, costs and subsequent effects | Fed throughout; same-assistant observations are not independent efficacy proof |
 
-P1/P2 may interleave. Bounded subtree retrieval replaces unproductive giant-response retries without declaring the full-tree objective satisfied.
+P1/P2 may interleave. Prefer bounded subtree acquisition to repeating unconsumable giant responses, without declaring full-tree coverage complete.
 
-## Candidate families
+## Candidate families retained
 
-A identity/corpus/distribution; B installation/ownership/portability; C work/agent/session coordination; D memory; E learning/skill evolution; F security/governance/supply chain; G evaluation/health/observability/economics. These remain provisional research families, not a final ECC architecture. Generated/domain assets, tests and UI material are treated according to their actual role.
+A identity/corpus/distribution; B installation/ownership/portability; C work/agent/session coordination; D memory; E learning/skill evolution; F security/governance/supply chain; G evaluation/health/observability/economics. These are provisional, not a final ECC architecture. Generated/domain assets, UI, tests and external integrations receive role-sensitive discovery.
 
 ## Completed bounded units
 
-- **U01-A:** [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md), initial map and E01 cache-checker falsifier. Source/local evidence; no actual host. E01 is not rerun or counted again.
-- **U01-B:** [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md) and [sources](evidence/U01-B-SOURCES.md): distinct native/managed/legacy channels, selection/materialization, Kimi preflight and partial application. Source only. Its bridge-scope boundary is refined in Note 03 §4, not silently rewritten.
-- **U02-A:** [Note 03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md) and [sources](evidence/U02-A-SOURCES.md): updateable recorded ownership versus guided current-digest checks; identical-but-unowned preservation; non-Claude bridge producer; old unwritten digests, missing pending operations and scoped projection/health. Upstream tests inspected, NOT RUN; no new ECC execution.
+- **U01-A:** [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md), initial source map and E01 cache-verifier falsifier. Source/local evidence; no host. Not rerun.
+- **U01-B:** [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md), distinct native/managed/legacy channels and materialization. Source only; its bridge-scope wording is refined in Note 03 §4.
+- **U02-A:** [Note 03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md), common/guided ownership, non-Claude bridge producer, pending versus written operations and scoped projection. Tests inspected, not run; Q03b retry remains unexecuted.
+- **U03-A:** [Note 04](notes/04-WORK-SESSION-RECORDS-AND-CONTROL.md), S56–S69 and E02. Local claim/move policy, source-import field replacement/limited-list closure, default snapshot fallback versus SQLite reader, stored activity and optional readiness exit signal. E02 exercises only S59; the sync/fallback integration findings are source-bound.
 
-Q03a is bounded-answered. Q03 remains partial through Q03b/Q03c. No full installer, atomic crash recovery, safe coexistence or host-effectiveness conclusion follows.
+Q04a receives a bounded answer. Q04 overall is PARTIAL. No full execution system, universal retry, concurrency, security or agent-effectiveness verdict follows.
 
-## U03-A — next authorized source unit; NOT STARTED
+## U03-B — next authorized source unit; NOT STARTED
 
-**Question:** Q04. Which session and work-item records actually organize work, and which merely describe or display it? How do production, persistence, relationships and consumption connect to a real continuation or control action?
+**Question:** Q04d. How does an ECC plan become concrete worktrees, worker instructions, process actions, status/handoff artifacts and accepted outcomes? Which observations cause continuation, waiting, interruption or recovery, rather than merely displaying state?
 
-**Why next:** U02-A traced installation state into a broader Node store. We must not project installation-record semantics onto session/work state without reading its distinct producers and consumers. This question advances ECC's system explanation more than another installer variant.
+**Why next:** U03-A separated card updates and snapshots from execution. The missing bridge must be investigated in real launch/collection/control paths; we should neither assume integration nor infer its global absence from one query path.
 
-**First exact source paths at the unchanged pin:**
+**First discovered pinned sources:**
 
-1. `scripts/sessions-cli.js` — already discovered through the main dispatcher; read full and identify actual query/control calls.
-2. `scripts/work-items.js` — already discovered through the dispatcher; distinguish manual/upstream work references, local mutations and external effects without executing them.
-3. `scripts/lib/state-store/queries.js` — discovered blob `0225f476182ab68c77285d1e2f398637b7c20bbc`; read necessary session/work relations and consumers, recording selected versus full coverage honestly.
-4. Follow actual imports/writers to the related schema, migrations, event/session producers and tests. The state-store directory inventory is in the U02-A source ledger. Do not infer body coverage from filename presence.
+1. `scripts/orchestrate-worktrees.js` — discovered in inspected test fixtures; open the actual launcher, not only its name.
+2. `scripts/lib/orchestration-session.js` — actual S62 import; trace status/task/handoff and runtime observations.
+3. `scripts/orchestration-status.js` — search-discovered consumer; re-fetch at the research pin before relying on it.
+4. Follow exact helpers, scripts, schema and tests to the effect/acceptance boundary. `scripts/lib/control-pane/server.js` and GitHub-epic coordination are separate potential consumers, not automatically part of the same claim/lease protocol. Keep Rust ecc2 distinct.
 
-**Required distinctions:** task/work item versus session versus worker; source reference versus execution state; stored status versus authority to act; command/query/display versus mutation; current versus historical state; local Node store versus Rust ecc2 state; persistence versus resumability; accepted work versus reported outcome. A status label must be bound to its producer and reader before being treated as a control.
+**Required distinctions:** plan versus accepted work; worker identity versus process/session identity; generated instructions versus followed instructions; status/handoff report versus verified outcome; source artifact versus live runtime; query versus dispatch/stop/resume; restart versus continuation; local board ownership versus any real lease/admission mechanism.
 
-**Return condition:** one bounded producer→record→consumer trace and one relevant negative/interruption/stale-state path; identify where actual control starts or where a display-only boundary stops the claim. Publish note, exact source/test scope, affected question/discovery state, MR03 next-effect check and the next concrete research question. A full ECC orchestration implementation or live agent experiment is not required for this source slice.
+**Return condition:** one source-grounded plan→worker/process→artifact→consumer trace with a material negative/interruption/stale-state path. Identify the actual control point and its limits. Publish note, source/test/execution scope, affected questions/frontier, MR04 effect check and exact next question. A full live-agent campaign or complete orchestration implementation is not required for a bounded source result.
 
-**Authority:** source research and proportionate safe temporary-fixture work only. No real ECC setup, user-home mutation, credential/model/API call, upstream issue/patch, Foundation/control mutation, SOUL/Development OS architecture or implementation. A public API command in source is an object to inspect, not permission to execute it.
+**Authority:** source research and proportionate isolated fixtures. No real installation, user-home/config/cache change, credential/model/paid-provider call, upstream issue/patch, Foundation/control mutation or SOUL/Development OS implementation. Source commands are analysis objects, not permission to execute their external effects.
 
-## Installation residuals and reopening
+## Residuals and reopening
 
-**Q03b — OPEN:** the source-derived two-file interrupted guided Kimi retry case. A bridge can retain a missing operation without a digest while guided ownership admission expects existence and digest. No failed-install/second-run experiment was performed. Reopen when asserting transparent same-command retry or when a later mechanism depends on it; inspect exact fixture and supported recovery route before stronger conclusions.
+**Q03b — OPEN:** interrupted guided Kimi two-copy retry prediction. Missing undigested bridge operation versus guided ownership admission; unexecuted. Reopen for transparent retry claims or dependent mechanisms.
 
-**Q03c — DEFERRED:** full repair/uninstall, merged-JSON ownership granularity, abrupt termination, cross-store/concurrent-writer guarantees and broader legacy comparison. Reopen before adoption or any claim requiring those properties. S51 install-lifecycle is selected-read only; upstream assertions do not close its whole implementation.
+**Q03c — DEFERRED:** full repair/uninstall, merged-JSON ownership, abrupt termination, concurrent/cross-store durability and legacy comparison. Reopen before adoption or any stronger guarantee. Earlier lifecycle coverage was selected 1–480 only.
 
-These residuals are not erased or marked solved. They may remain bounded limitations while other families advance.
+**Q04b — OPEN:** default canonical snapshot recording versus actual SQLite ingestion/other consumers. No global absence claim; re-enter when requiring a unified live session history or resume.
 
-## Discovery debt
+**Q04c — OPEN:** GitHub import field authority and limited-list closure. Source counter-path only; revisit before using imported closure/owner to control scheduling, acceptance, deletion or completion.
 
-Keep the original root frontier and U01-B delta. U02-A directly listed state-store's five files; index/projection were fully read, queries/migrations/schema only discovered. Full README, broad scripts/tests/schemas, generated mirrors, Rust ecc2, native Workflow pilot and external integrations remain subject to role-sensitive discovery and deeper source recovery.
+**Q04d — ACTIVE NEXT:** actual process/worker/acceptance/recovery paths in U03-B. No evidence yet that local card mutations are execution leases.
 
-No final native synthesis closes while a known material family remains unexplained. Newly discovered behavior may reopen Q01 or change these candidate families.
+## Discovery and revision discipline
 
-## Revision discipline
+Keep original STRUCTURE/TREE-FRONTIER and U01-B delta. U03-A adds a full direct tests listing; state-store's five file bodies are now read across two units, not its whole dependency/test/runtime closure. Full README, wider scripts/tests/schemas, generated mirrors, Rust ecc2, native Workflow and external integrations remain discovery obligations. Search returned another default-branch ref; this study did not repin.
 
-Change sequence/scope here, evidence/reading discipline in METHOD only when necessary. Preserve stable question IDs, historical results and actual evidence classes. Record trigger, alternatives, decision, expected/observed effect and limits in METHOD-REVIEW/RESEARCH-LOG. Study completion does not authorize adoption.
+Sequence/scope changes belong here; evidence/reading discipline changes belong in METHOD only when needed. Preserve stable question IDs, historical results and evidence classes. METHOD-REVIEW/RESEARCH-LOG record reason and actual effects; study completion never authorizes adoption.
