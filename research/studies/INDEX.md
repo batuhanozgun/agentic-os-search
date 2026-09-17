@@ -110,6 +110,7 @@ Completion of a study never authorizes adoption.
 - `gstack/`
 - `hands-on-large-language-models/`
 - `hermes-agent/`
+- `i-have-adhd/`
 - `mattpocock-skills/`
 - `multi-agent-patterns/`
 - `public-apis/`
