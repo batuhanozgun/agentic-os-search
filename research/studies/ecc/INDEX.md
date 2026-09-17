@@ -1,35 +1,36 @@
 # ECC — INDEX
 
-Start with [STATE](STATE.md) for current work, authority and publication. This index routes retrieval; it does not own a second work state.
+Start with [STATE](STATE.md) for current work, authorization and publication. This index routes retrieval; it is not a second work-state authority.
 
 | Need | Entry |
 |---|---|
-| Purpose and provisional initial assumptions | [WHY](00-WHY-THIS-RESEARCH.md) |
-| Target, pin, reuse and limits | [META](META.md) |
-| Work-card/session records versus actual control | [Note 04](notes/04-WORK-SESSION-RECORDS-AND-CONTROL.md) → [U03-A sources](evidence/U03-A-SOURCES.md) |
-| Exact new claim/move local experiment | [E02](evidence/u03-a-work-item-probe/README.md) → plan/runner/raw results; unchanged helper plus store double, not real board/SQLite/agent |
-| Ownership/checkpoints/projection | [Note 03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md) → [U02-A sources](evidence/U02-A-SOURCES.md) |
-| Installation channels/materialization | [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md) → [U01-B sources](evidence/U01-B-SOURCES.md); bridge scope refined in Note 03 §4 |
-| Earlier source surfaces/Codex cache falsifier | [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md) |
-| Original cache experiment, not rerun | [E01](evidence/u01-a-cache-probe/README.md) |
-| Remaining source/distribution frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md); U02-A/U03-A ledgers add bounded subtree observations |
-| Research discipline and sequence | [METHOD](METHOD.md), [PLAN](PLAN.md) |
-| Bounded answers and residuals | [QUESTIONS](QUESTIONS.md); Q04a–d plus preserved Q03b/c |
-| Actual read/test/execution coverage | [SOURCE-LEDGER](SOURCE-LEDGER.md) → unit ledgers |
-| Work transitions and decisions | [RESEARCH-LOG](RESEARCH-LOG.md), latest U03-A |
-| Method decisions and observed effects | [METHOD-REVIEW](METHOD-REVIEW.md), latest MR04 |
-| Real publication/readback/concurrency | [PUBLICATION](PUBLICATION.md) |
+| Purpose and initial alternatives | [WHY](00-WHY-THIS-RESEARCH.md) |
+| Pin, classification, reuse and limits | [META](META.md) |
+| Actual runtime provision/dispatch, handoff and recovery | [Note 05](notes/05-EXECUTION-HANDOFF-AND-RECOVERY.md) → [U03-B sources](evidence/U03-B-SOURCES.md) |
+| Exact wrapper/collector experiment | [E03](evidence/u03-b-worker-probe/README.md) → plan/runner/raw results; fake provider, not real Codex/tmux/model |
+| Local card/session records and control boundaries | [Note 04](notes/04-WORK-SESSION-RECORDS-AND-CONTROL.md) → [U03-A sources](evidence/U03-A-SOURCES.md) |
+| Earlier claim/move helper experiment | [E02](evidence/u03-a-work-item-probe/README.md); store double, not real board/SQL/concurrency |
+| Ownership, checkpoints and projection | [Note 03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md) → [U02-A sources](evidence/U02-A-SOURCES.md) |
+| Installation/materialization channels | [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md) → [U01-B sources](evidence/U01-B-SOURCES.md); bridge scope refined by Note 03 |
+| Initial source surfaces and cache falsifier | [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md), [E01](evidence/u01-a-cache-probe/README.md) |
+| Remaining topology frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md), later unit-ledger discoveries |
+| Method and sequence | [METHOD](METHOD.md), [PLAN](PLAN.md) |
+| Evidence status and re-entry triggers | [QUESTIONS](QUESTIONS.md); Q04d/e, next Q05 and preserved Q03b/c/Q04b/c |
+| Actual reading/execution | [SOURCE-LEDGER](SOURCE-LEDGER.md) → per-unit ledgers |
+| Research history | [RESEARCH-LOG](RESEARCH-LOG.md), latest U03-B |
+| Method decisions and observed effects | [METHOD-REVIEW](METHOD-REVIEW.md), latest MR05 |
+| Publication, byte checks and readbacks | [PUBLICATION](PUBLICATION.md) |
 
 ## Progressive retrieval
 
-`library CATALOG → META → STATE → active question/plan → bounded note → exact source`.
+`library CATALOG → META → STATE → question/plan → note → exact source/evidence`.
 
-Read current small entry files in full as STATE specifies. Growing logs and ledgers are followed by unit. Reopen exact producer/consumer source whenever summaries omit a necessary condition. An old local probe is not new corroboration; a source-derived sync or retry scenario is not an executed incident.
+Follow the mandatory small entry reads in STATE and growing logs by unit. Reopen exact code when a summary drops a necessary input, caller, condition or output boundary. Source-derived rollback/locator/resume cases are not E03 observations. E01/E02 are historical, not new corroboration to rerun by default.
 
 ## Preserved and future work
 
-U00, U01-A/B, U02-A and U03-A are distinct bounded deliveries, not completed coverage of every major ECC family. E02 is the only new local execution in U03-A. P1/full topology, live consumers and integrated system explanation remain open. The five state-store bodies are read across units; wider scripts/tests/Rust/native Workflow and generated/domain regions are not thereby complete.
+U00, U01-A/B, U02-A and U03-A remain completed bounded deliveries. U03-B supplies another bounded runtime trace and E03, not whole-system completion. P1/full topology, memory, learning, wider security/evaluation, other control paths and integrated native explanation remain open.
 
-U03-B is next: real worktree/session launch, status/handoff, acceptance and recovery. Do not infer from local-card limitations that no runtime control exists elsewhere. Q04b/c and Q03b/c have explicit re-entry triggers rather than becoming an endless prerequisite campaign. No final CORE, architecture/adoption or independently validated method is claimed.
+U04-A opens memory/handoff storage, scope, review and consumption. Its first paths are discovery leads requiring pinned body reads. Do not presume that memory resumes a worker, that a saved handoff has been accepted, or that a retrieved record is behavioral authority. Q04e retains deeper runtime acceptance/recovery; Q03b/c and Q04b/c retain prior limitations. No final CORE, architecture/adoption or independently validated research method exists.
 
-STATE owns work; META reuse; PLAN sequence; QUESTIONS evidence status; ledgers coverage; notes explanations; chronological logs history; METHOD-REVIEW method effects; PUBLICATION publication evidence. All are project-work material, not agent-control.
+Authority: STATE work; META reuse; PLAN sequence; QUESTIONS evidence; ledgers reading; notes explanation; logs history; METHOD-REVIEW method effects; PUBLICATION actual publication. These are project-work material, not agent-control.
