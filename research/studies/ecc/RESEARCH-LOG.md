@@ -53,3 +53,19 @@ Template alanları gereksiz tekrar için değil, yeni oturumun doğru işi devra
 **Operational boundary:** direct container-side GitHub acquisition failed at DNS; connector reads worked. Offline Python/Node execution succeeded. No full checkout exists. Evidence files contain raw transient paths as historical output, not future locations. Tool-response truncation was not upgraded to full reading.
 
 **Continuation:** U01-B starts with pinned install-modules.json, install-components.json and scripts/install-apply.js, then actual marketplace discovery through the .agents tree. Trace native plugin source/cache versus managed sync and preserve the other runtime/distribution families. U02 is selected only after that evidence. Existing E01 is not a new experiment to count again on re-entry. Actual commit/diff/readback details follow in [PUBLICATION](PUBLICATION.md).
+
+## U01-B — 2026-09-17 — Installation channels and materialization
+
+**Authorization/input:** user 'güzel. devam et lütfen.'; recovered current U01-A publication/authority, sources, map, questions and handoff. Same conversation, not an independent cold-start. Publication staging base `afe8710cd9f95264611de6c8be1bc93c3cef844c`; subsequent actual commit/readbacks go in PUBLICATION.
+
+**Actual sources:** [S26–S44/W01–W02](evidence/U01-B-SOURCES.md). Read both install manifests and the source route through guided/ordinary entry, native Codex reconciliation, managed plan/adapter/resolver/apply, Kimi preflight and legacy shell sync. The legacy executor facade was selected-read only; imported ownership/merge/projection helpers are not full-read by implication. Current official host docs were selected contract checks outside the pin. No ECC test, code, host, installer or new local probe was executed. E01 was retained, not repeated.
+
+**Bounded result:** [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md). A harness label does not identify its installation channel. Native registration/provenance, managed materialization/state and legacy sync have distinct boundaries. Named components do not always select leaf payloads. Transformation and filtering separate planned source from installed content. Multi-target preflight is followed by sequential apply and an explicit partial result, not a global rollback transaction. Registration, health projection, trust and separately required CLI capability must not be collapsed.
+
+**Research change:** Q01b bounded-answered for the route comparison; Q01 overall remains PARTIAL. Q03a identifies the next ownership/recovery mechanism. The failed/partial child's internal effects still require its own evidence; the coordinator's completed list is not a complete mutation journal. No whole-system defect or safety verdict was produced.
+
+**Method/plan:** METHOD 0.1 retained; PLAN 0.3. MR02 evaluates MR01's requested next-unit check: the source inquiry expanded beyond the Codex false-green into Kimi, selection, transformation and partial-state semantics. The original broader discovery is not declared complete; its remaining frontier is explicitly carried while U02-A follows a concrete discovered dependency.
+
+**Operational limit:** recursive-tree response was acquired but too large to recover as a fully reviewed inventory; source metadata acquisition is not content reading. Direct container acquisition again failed at DNS; no checkout was established. [Discovery delta](inventory/U01-B-DISCOVERY.md) updates only named `.agents` entries and preserves old frontier material.
+
+**Next:** U02-A begins at install/ownership-guard.js, install-state.js and install-state-store-sync.js, then actual callers/tests, with Kimi as a non-Codex consumer contrast. Deliver bounded ownership/partial-recovery evidence, not all installer variants or an installation. No background work or architecture transition is implied.

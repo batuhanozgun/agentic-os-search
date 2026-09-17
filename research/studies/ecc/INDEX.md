@@ -1,30 +1,33 @@
 # ECC — INDEX
 
-Current work/authority: [STATE](STATE.md). This index routes retrieval; it is not a second work-state authority.
+Start with [STATE](STATE.md) for current work, authority and publication boundary. This index routes retrieval; it is not a second work-state authority.
 
 | Need | Entry |
 |---|---|
-| Purpose, initial rivals, what is not assumed | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
-| Method and adaptive sequencing | [METHOD](METHOD.md), [PLAN](PLAN.md) |
-| Open questions and bounded dispositions | [QUESTIONS](QUESTIONS.md) |
-| Current bounded result: surfaces, Codex projection, cache-verifier limit | [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) |
-| Initial source/execution map and remaining tree frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv) |
-| Exact source/read coverage | [SOURCE-LEDGER](SOURCE-LEDGER.md) → [U01-A sources](evidence/U01-A-SOURCES.md) |
-| Actual local cache-checker execution | [Probe README](evidence/u01-a-cache-probe/README.md) → plan / runner / raw results |
-| Round-by-round work and continuation | [RESEARCH-LOG](RESEARCH-LOG.md) |
-| Method decisions and observed effects | [METHOD-REVIEW](METHOD-REVIEW.md), current MR01 |
-| Actual publication/readback status | [PUBLICATION](PUBLICATION.md) |
+| Why ECC; which initial assumptions remain provisional? | [WHY](00-WHY-THIS-RESEARCH.md) |
+| Target, pinned version, reuse signals and limits | [META](META.md) |
+| Current installation-channel/materialization explanation | [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md) → [U01-B sources](evidence/U01-B-SOURCES.md) |
+| Earlier surfaces/Codex hook/cache-checker finding | [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md) |
+| Exact existing local cache probe | [E01 README](evidence/u01-a-cache-probe/README.md) → plan/runner/raw results; not rerun in U01-B |
+| Source tree/distribution map and remaining frontier | [U01-B discovery](inventory/U01-B-DISCOVERY.md) + [STRUCTURE](inventory/STRUCTURE.md) + [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv) |
+| Research/evidence discipline | [METHOD](METHOD.md) |
+| Phase map, remaining discovery and next U02-A | [PLAN](PLAN.md) |
+| Answered/open/reopened questions | [QUESTIONS](QUESTIONS.md) |
+| What was actually read or executed? | [SOURCE-LEDGER](SOURCE-LEDGER.md) → per-unit ledgers |
+| Research progression and handoffs | [RESEARCH-LOG](RESEARCH-LOG.md), latest U01-B entry |
+| Method decisions and observed effects | [METHOD-REVIEW](METHOD-REVIEW.md), latest MR02 |
+| Actual publication, diff/readback and concurrency | [PUBLICATION](PUBLICATION.md) |
 
-## Re-entry
+## Progressive retrieval
 
-`library CATALOG → META → STATE → current Q/PLAN → bounded note → exact source/evidence`.
+`library CATALOG → META → STATE → active question/plan → relevant note → exact pinned source`.
 
-For U01-B, STATE names full current-entry reads, Note 01 and STRUCTURE, then the relevant source/evidence. Read raw probe artifacts before claiming what was tested. Logs and ledgers may grow; recover their current entry and the relevant prior decisions rather than loading the entire library by default.
+STATE names the mandatory small cold-start surfaces. Growing logs and ledgers are followed by unit, with deeper recovery whenever a summary omits a necessary condition. Reading source filenames is not full source reading; response acquisition is not complete inventory coverage.
 
-## Existing versus future results
+## Preserved versus future results
 
-U00 methodology/package and U01-A orientation/local probe exist. The broad U01 inventory remains partial. There is no final native subsystem model, CORE, full cross-study assessment, installed system or validated method-generalisation result. Create those only when supported; do not treat planned files as completed research.
+U00 and U01-A remain completed historical work. U01-B supplies a bounded source comparison, not the final ECC system model. P1's broader recursive discovery remains open; the U01-A TSV is supplemented only for named entries by U01-B-DISCOVERY. Do not infer completion for unexpanded subtrees.
 
-## Ownership of facts
+U02-A is next research, not an existing result. CORE, subsystem syntheses and the final project-facing/method-case outputs are created only when supported. No empty future-result files or artificial completion percentages are needed.
 
-STATE owns current work/authority; META classification/reuse; PLAN sequencing; QUESTIONS question status; SOURCE-LEDGER and unit source records read/identity coverage; notes bounded explanations; raw evidence actual observations; RESEARCH-LOG historical transitions; METHOD-REVIEW method choices/effects. Publication receipts record what reached GitHub, not runtime effectiveness.
+Authority: STATE work; META classification/reuse; PLAN sequence; QUESTIONS evidence state; SOURCE-LEDGER coverage; RESEARCH-LOG chronology; METHOD-REVIEW method decisions; PUBLICATION actual publication evidence. None of these work files replaces agent-control.

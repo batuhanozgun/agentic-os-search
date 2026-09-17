@@ -1,61 +1,66 @@
 # ECC — Adaptive Research Plan
 
-**Version:** 0.2 / 2026-09-17. Current authority [STATE](STATE.md); method remains [v0.1](METHOD.md). This is not a fixed calendar, file quota or percentage-completion model.
+**Version:** 0.3 / 2026-09-17. Authority [STATE](STATE.md); method [v0.1](METHOD.md). This is a revisable research sequence, not a fixed calendar, file quota or completion percentage.
 
-## Current revision
+## Current revision and retained scope
 
-U00's U01 is split into **U01-A, completed bounded slice**, and **U01-B, next authorised source work**. The first map found separate delivery/runtime surfaces, a Codex support-label contradiction and a cache-verifier coverage gap. A narrow temporary-fixture falsifier was performed before trying to synthesize the full system. [MR01](METHOD-REVIEW.md) records why and what actually changed.
+U01-A is published. U01-B has completed a bounded installation-channel/materialization comparison with source evidence only. Its first planned return condition is met; the larger P1/full-recursive discovery objective is not. [MR02](METHOD-REVIEW.md) records the decision to proceed to a well-defined mechanism while carrying, rather than silently dropping, the remaining inventory obligations.
 
-This split does not declare the planned full recursive inventory finished or waive missing coverage. Root/direct-child discovery and full file reading remain different measures. The initial seven candidate families remain provisional; they are not replaced with a final topology by one counterexample.
+The next unit is U02-A. It is selected from observed dependencies in U01-B, not merely from an attractive component name. No final native model, cross-host equivalence or full topology closure is asserted. Old v0.1/v0.2 plans remain in Git history and are not current authority.
 
-## Phase map retained from v0.1
+## Phase map
 
-| Phase | Work/output | Exit/reopen condition |
+| Phase | Work/output | Exit/reopen condition / current standing |
 |---|---|---|
-| P0 — Method/work foundation | U00 purpose, method, plan, registries, cold-start, method-review | Completed/published at U00; not pending setup |
-| P1 — ECC-native discovery | Source tree, manifests, distribution/runtime/host boundaries and first mechanism choice | Load-bearing families/dependencies visible; unexplained regions and exact reading frontier explicit; currently PARTIAL |
-| P2 — Mechanism slices | Bounded question, complete load-bearing sources, note, counter-path and appropriate evidence | Entry/implementation/consumer/effect distinction recoverable; unresolved links remain open |
-| P3 — Subsystem/seam synthesis | Native subsystem explanations and actual transitions/dead-ends/loops | Component presence is not integration; reopen sources for seams; iterate with P2 |
-| P4 — Project-facing comparison | Then-current Foundation/project state and selected studies | Same-level comparison, negative options and target evidence requirements; no adoption |
-| P5 — Core/closure challenge | CORE plus reverse inventory/holdout challenge | Return to P1–P3 for a material unexplained region; do not lower closure criteria after seeing results |
-| P6 — Method case synthesis | Real decisions, failures, overhead and subsequent effects | Separate transferable method from ECC-specific additions and unproven effectiveness |
+| P0 — Method/work foundation | Purpose, method, plan, registries and cold-start | U00 complete; not pending setup |
+| P1 — ECC-native discovery | Root/subtree topology, manifest/distribution/runtime/host boundaries | PARTIAL. Root and selected child metadata plus channel map exist; full recursive inventory and several major families remain open |
+| P2 — Mechanism slices | Bounded question + load-bearing sources + counter-path + calibrated evidence | Active. Entry/implementation/consumer/effect and unclosed dependencies must be explicit |
+| P3 — Subsystem/seam synthesis | Native explanations and real transitions/dead-ends/loops | Only after relevant mechanisms support them; component presence is not integration |
+| P4 — Project-facing comparison | Then-current Foundation/project context and selected studies | Same-level comparison, negative options and missing target evidence; no automatic adoption |
+| P5 — Core and closure challenge | CORE plus reverse inventory/holdout audit | Known material unexplained regions block closure; no retrospective waiver of P1 |
+| P6 — Method case | Actual choices, failures, overhead and subsequent effects | Fed throughout; independent efficacy not inferred from same-assistant review |
 
-P3 and P6 are fed throughout; they are not only end-of-study tasks. A research-phase continuation does not authorize installation, external publication or project architecture.
+P1/P2 can interleave. The original full-tree objective is not converted into a prerequisite that demands repeated unproductive large-response calls before any mechanism work. It remains a visible coverage task and final-closure obligation. Use bounded subtree discovery where the single recursive response cannot be reliably consumed.
 
-## Candidate research families
+## Candidate families retained
 
-A identity/corpus/distribution; B installation/ownership/portability; C work/agent/session coordination; D memory; E learning/skill evolution; F security/governance/supply chain; G evaluation/health/observability/economics. They may split/merge when source evidence changes the model. Domain skills, translations, UI/assets and tests are not automatically irrelevant; their role must be justified.
+A identity/corpus/distribution; B installation/ownership/portability; C work/agent/session coordination; D memory; E learning/skill evolution; F security/governance/supply chain; G evaluation/health/observability/economics. These are provisional research families, not ECC's accepted final architecture. Generated mirrors, domain skills, UI/assets and tests require role-sensitive sampling or deeper reading, not automatic dismissal.
 
-## U01-A — completed slice, not all of U01
+## Completed bounded units
 
-Question Q01 with narrow Q02/Q03/Q08 intersections. Actual outputs:
+**U01-A:** [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md), root map and E01 missing-hook cache-verifier falsifier. Source/local evidence; no actual host. Preserve the exact original result and do not count a reread as replication.
 
-- [STRUCTURE](inventory/STRUCTURE.md) and [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv): full root non-recursive and four selected direct-child listings; remaining subtrees explicit.
-- [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md): Node/npm versus Rust versus native Workflow pilot boundaries; event-specific Codex projection contradicting the broad shared-doc label.
-- [E01](evidence/u01-a-cache-probe/README.md): exact-source local cache-checker probe. Missing hook not detected; missing MCP detected. This is not a live host validation or installed-cache incident.
-- [Sources](evidence/U01-A-SOURCES.md), revised questions and method/work records.
+**U01-B:** [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md) and [sources](evidence/U01-B-SOURCES.md). Three Codex installation paths; selector/module/target/application differences; managed transformations/installed-state; Kimi preflight and sequential multi-harness partial result; readiness versus trust/runtime prerequisite. No new execution. [Discovery delta](inventory/U01-B-DISCOVERY.md) records the newly expanded `.agents` route and unconsumed recursive response.
 
-No full recursive corpus, native host test, hook-body closure, install ownership analysis or final subsystem synthesis was completed.
+Q01b is bounded-answered for that comparison. Q01 overall remains partial. Deeper ownership, helper correctness, runtime consumers and broad topology are not closed by U01-B.
 
-## U01-B — next authorised source unit
+## U02-A — next authorized bounded mechanism
 
-**Question:** Q01b; dependencies for Q02/Q03. **Purpose:** establish the actual source→selection→materialization→consumer paths before deciding what one install/support label means.
+**Question:** Q03a, with Q08 and Q01/P1 dependencies. When requested installation, previously recorded ownership, actual file bytes and a derived health record diverge, what can ECC legitimately update, skip, retain, retry or remove?
 
-**First exact reads at the pin:**
+**Why next:** U01-B exposed multiple ownership authorities and partial-effect paths. Without following the ownership/state guards, installed-state summaries could be mistaken for safe current authority. The Kimi guided path is a non-Codex contrast and reduces single-host anchoring.
 
-1. `manifests/install-modules.json` (blob `884c7d39d867dd882ba097bcaab9dd2696ed1a5e`) and `manifests/install-components.json` (blob `8a6205bbd8387ae69a671690e8f3d0f4b776d301`) in full.
-2. `scripts/install-apply.js`, following its real selected/native/legacy dispatch rather than assuming all routes use the same executor.
-3. `.agents` tree `0b6fef700821049a86f9cef4b83d4fd06e371bdc` and relevant plugin trees to discover actual marketplace bindings; do not guess a marketplace path.
-4. Relevant `scripts/lib`, hooks, schema and test subtrees from TREE-FRONTIER. Resolve outstanding generated/distribution boundaries, including Node control pane, Rust and the workflow pilot at the required depth.
+**First discovered source paths at the pin:**
 
-**Focal seam to preserve:** native Codex plugin source/cache versus legacy managed sync; plugin registration versus file presence versus hook trust/activation. The verified missing-hook case is an existing result, not a test to silently rerun and count twice. For deeper SessionStart conclusions, read `session-start.js` and helper/host-contract dependencies; the wrapper read is insufficient.
+1. `scripts/lib/install/ownership-guard.js` — current/unmanaged file guards and preserved unwritten operations.
+2. `scripts/lib/install-state.js` — record contract, validation and persistence.
+3. `scripts/lib/install-state-store-sync.js` — authoritative state versus derived health projection.
+4. Re-enter `scripts/lib/install/apply.js` and `scripts/lib/multi-harness-setup.js` at the actual call/write boundary; inspect the corresponding tests found through source/tree search.
 
-**Return condition:** updated source/distribution map and reading frontier; one source-bound route comparison; Q01a/Q01b disposition; a justified exact U02 question/first source; method effect check and published continuation. If the broader topology still cannot be closed, preserve U01 as partial rather than compressing away missing regions.
+These paths are observed imports, not claims that their bodies or tests have already been read. Legacy `scripts/codex/legacy-sync-state.js` is a comparison dependency when needed, not an instruction to expand into every installer.
 
-## Selection and revision policy
+**Required distinctions:** recorded ownership versus present ownership evidence; content identity versus authorization; previous/new/unwritten files; target/path identity; transformations; interruption/checkpoint failure; warning versus rejected transition; authoritative persisted state versus derived visibility. Do not assume one transaction spans all files/harnesses.
 
-Select subsequent C/D/E/F/G work by impact on the primary explanation, dependency unlocking, critical contradiction and available evidence/cost. One current main unit; park side questions with revisit triggers. Do not let the Codex counterexample turn the study into an unbounded defect hunt or a universal host-testing campaign.
+**Evidence strategy:** follow at least one success and one changed/unowned/partial-write path in source. Inspect relevant test assertions, fixtures and gaps. A narrow temporary-fixture probe is optional only if it separates a consequential uncertainty and can be safely isolated; source inspection is not to be relabelled execution. No real install/host/config/API activity is authorized.
 
-Change sequence/scope in PLAN, reading/evidence/synthesis discipline in METHOD. Record trigger, prior assumption, alternatives, choice, affected results, expected effect and subsequent observed effect in METHOD-REVIEW/RESEARCH-LOG. No gratuitous method-version increase for a plan split. Preserve old IDs and findings when questions split or reopen.
+**Return condition:** one traceable ownership/recovery note, explicit answered/open boundaries, source/test status, updated affected questions and discovery frontier, MR02 next-unit effect check, exact next question and verified publication. No mandatory new bug, no forced whole-system closure.
 
-U00 v0.1 remains in Git history at commit `07bdb0cb6f89d2d0c13e806cb5cc190a3c05d1de`; it is historical, not a competing current plan. Different external products, paid/live experiments, installation and architecture/implementation require a separate scope/capability/authority check.
+## Discovery debt and re-entry triggers
+
+The full recursive metadata inventory remains unfinished; complete it through bounded subtrees or another verified acquisition surface when available. Keep Node/npm, Rust ecc2, native Workflow pilot and separate external integrations visible. Before a final native synthesis, account for major scripts/lib, tests, schemas, generated/domain surfaces and runtime consumers, not only installation.
+
+If U02-A requires another unexpanded dependency, record and inspect it. If a newly discovered family changes the model, reopen Q01 rather than fitting it into the first seven labels. After the ownership slice, choose among Work/session, memory, learning, security and evaluation by dependency/decision value; do not exhaust every installer variant before leaving family B.
+
+## Revision discipline
+
+Change sequence/scope here; change reading/evidence discipline in METHOD only when genuinely necessary. Preserve old question IDs and findings; record evidence, prior assumption, alternatives, choice, affected conclusions and observed/expected effect in METHOD-REVIEW/RESEARCH-LOG. Study relevance is not design/installation/adoption authority.
