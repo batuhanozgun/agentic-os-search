@@ -1,11 +1,11 @@
 # ECC — Question Register
 
-**Updated:** 2026-09-17 after U05-A. Evidence state here; STATE owns authorization and publication. Source answers do not establish live-agent or learning efficacy.
+**Updated:** 2026-09-17 after U05-B. Evidence state here; STATE owns authorization/publication. E04 is local original-helper evidence, not live-agent efficacy.
 
 | ID / state | Question / bounded answer | Evidence and remaining obligation |
 |---|---|---|
-| Q01 PARTIAL | What constitutes ECC rather than one shipped runtime? | Asset/distribution/installation/work/memory/learning paths now distinguished; native whole-system explanation open |
-| Q01a PARTIAL | Native topology | Original frontier and unit ledgers; S91 bounded learning subtree fully listed, not all bodies or full P1 |
+| Q01 PARTIAL | What constitutes ECC rather than one shipped runtime? | Asset/distribution/installation/work/memory/learning paths distinguished; native whole-system explanation open |
+| Q01a PARTIAL | Native topology | Original frontier and unit ledgers; S91 learning and S116 skill-evolution subtrees listed, not all bodies or full P1 |
 | Q01b BOUNDED — U01-B | Distinct native/managed/legacy delivery | Note02/S26–S44; not installed-system equivalence |
 | Q02 PARTIAL | Shared content versus actual cross-host behavior | Hook/channel/caller/root/consumer distinctions; U05 direct context versus generated-skill materialization; full host use open |
 | Q03 PARTIAL | Ownership/materialization across change/failure | Q03a–c |
@@ -22,21 +22,24 @@
 | Q05a BOUNDED — U04-A | Save/scope/recall and CLI/MCP policy | S77–S88; fixed unreviewed trust, active status separate; no new execution |
 | Q05b OPEN | Completeness/current-status presentation, conflict/duplicate/composition qualification | Core diagnostics can be dropped by terminal view; direct history access differs from active recall; source-derived |
 | Q05c OPEN | Real host uptake, governed review, ECC2 projection, capture/resume and stronger isolation/replication | Not established by saving, routing metadata or example conformance |
-| Q06 PARTIAL, decomposed — U05-A | How does observation become retained useful behavior? | Note07 establishes a procedural path into context, not benefit; Q06a–c |
+| Q06 PARTIAL | How does observation become retained useful behavior? | Notes07/08 separate context injection, invocation telemetry and outcome scaffolds; no demonstrated closed-loop benefit |
 | Q06a BOUNDED — U05-A | Capture/analyzer/instinct management/direct context contract | S89–S107; observer default off, selective evidence, current-result marker, scope/evolve differences, actual SessionStart action summary. No execution |
 | Q06b OPEN, source-derived | Are analyzed/archived sets, semantic evidence, scope and applicability preserved? | Note07 §§2–7: tail versus entire live archive, partial writes, same-ID/import corroboration, confidence metadata, trigger/ID/evidence omission, project/directory and evolved/learned boundaries. No incident/effectiveness claims |
-| Q06c NEXT — U05-B | What outcome/evaluation evidence qualifies a skill amendment and later use? | S108 four-file pinned discovery; actual tracker import S106 and prior session-inspect S60. Bodies/gates not yet investigated; do not assume integration with instincts |
-| Q07 OPEN | Which security controls protect which effects? | Bounded ownership/vault/observer checks; allowedTools is not exclusive capability confinement. Wider server/runtime/AgentShield threat/control work remains |
-| Q08 PARTIAL | What do success/health/completion/confidence labels measure? | E01–E03 retained; Note06; Note07 distinguishes process+marker from learned-rule validity, recurrence/metadata from calibrated probability/usefulness |
-| Q09 DEFERRED | Project-facing reuse, redundancy, incompatibility and insufficiency | Then-current Foundation and selective studies later. User Information cue retained, not ontology/adoption |
-| Q10 PARTIAL — MR07 | Does the method preserve focus, fidelity and continuity? | Direct producer→consumer tracing found behavioral context rather than assuming memory semantics. Per-unit retrieval worked in same conversation; no independent efficacy/cold-start comparison |
+| Q06c PARTIAL, decomposed — U05-B | What outcome/evaluation evidence qualifies a skill amendment and later use? | Q06c1 bounded; Q06c2 retains operational acceptance and causal evidence |
+| Q06c1 BOUNDED — U05-B | Invocation producer, two health meanings, proposal/evaluator and actual reporting/mutation boundary | Note08/S109–S122; E04 confirms minimum/filter gates and duplicate/unmatched/single-failure counterexamples; only three original helpers executed |
+| Q06c2 OPEN | Connected independent outcome oracle, unique/comparable/version-bound runs, actual admission/deployment/use and bridge to instincts | Traced CLI reports JSON, separate snapshot/rollback has no evaluator dependency; no global absence claim or operational trial |
+| Q07 OPEN | Which security controls protect which effects? | Earlier bounded ownership/vault/observer checks; broader family still open |
+| Q07a NEXT — U06-A | Configuration mutation prevention/admission versus advisory controls | Start discovered config-protection registration/runner/flags; body not yet read. Real allowed/denied/skip and authority boundaries |
+| Q08 PARTIAL | What do success/health/completion/confidence labels measure? | E01–E04; Note08 distinguishes invocation success, failure counts, non-declining trend and positive rate recommendation from accepted task quality |
+| Q09 DEFERRED | Project-facing reuse, redundancy, incompatibility and insufficiency | Then-current Foundation/selective studies later; joint general evaluation deferred to research completion; Information cue is not adoption |
+| Q10 PARTIAL — MR08 | Does the method preserve focus, fidelity and continuity? | Actual import/caller tracing separated feedback contracts; E04 used predeclared controls and preserved raw output; no independent method/cold-start efficacy proof |
 
 ## Competing interpretations retained
 
-Local personalization can legitimately use heuristic frequency/confidence and operator overrides without claiming universal truth. Current-output completion binding is valuable even when it cannot validate semantic learning. Direct context injection is a real integration point, not proof of model obedience. A lost trigger in one view is not proof that every consumer misapplies the action. A same-ID match may denote the same pattern, but that semantic agreement is not enforced by the examined auto-promotion predicate. Other evaluation/control mechanisms remain possible and are the next source question.
+Invocation telemetry can be useful without measuring task success. A rate-comparison scaffold can assist an independently controlled experiment without itself establishing comparable tasks. A one-failure proposal can be appropriate exploratory guidance, but its stock repeated-evidence rationale is not validated by that fact. The explicit count and amendment filter are real controls; E04 must not be summarized as no controls exist. Versioning can recover bytes without certifying better behavior.
 
-Previous alternatives remain: flexible boards need not be leases; archival context need not be governed authority; created-resource rollback need not restore prior work; a local view's omission does not imply global absence. Claims stay tied to actual entrypoints and evidence classes.
+Prior alternatives remain: local personalization may use heuristic confidence; source-bound completion is not semantic learning validation; direct context delivery is not model obedience; flexible cards need not be leases; archival context need not be governed authority; one missing bridge does not prove global absence. Keep original source/evidence classes.
 
 ## Transitions and reopening
 
-U05-A bounds Q06a, opens Q06b and selects Q06c instead of closing learning as a whole. S104 tests inspected, not run; no E04; no repeat E01–E03. Old notes and histories are preserved. Source/consumer/oracle changes or stronger dependent claims reopen the affected answer. Listed residuals are not resolved, and more files read is not a completion metric.
+U05-B bounds Q06c1, retains Q06c2 and selects Q07a instead of closing all learning/evaluation. E04 is new local evidence for its three functions only; S120 tests inspected, not run. E01–E03 and U04/U05-A evidence were not rerun. P1 and material residuals remain open. Changed source/consumer/oracle or stronger dependent claims reopen the affected answer. More files or tests are not a completion metric.

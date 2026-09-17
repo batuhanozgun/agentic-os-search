@@ -1,72 +1,54 @@
 # ECC — Adaptive Research Plan
 
-**Version:** 0.8 / 2026-09-17. Authority [STATE](STATE.md). METHOD stays 0.1. This is a revisable sequence, not a calendar, file quota or completion percentage.
+**Version:** 0.9 / 2026-09-17. STATE owns work/publication; METHOD stays 0.1. This is a revisable research sequence, not a completion percentage.
 
-## Current revision
+## Current revision and discussion agreement
 
-U05-A completes the first bounded continuous-learning capture/instinct/context trace. [Note07](notes/07-OBSERVATION-INSTINCTS-AND-BEHAVIORAL-CONTEXT.md), [sources](evidence/U05-A-SOURCES.md) and [MR07](ROUND-U05-A.md) distinguish evidence capture, model-authored procedural candidates, completion gating, scope promotion, template generation and actual context injection. No new execution occurred. User's Information association is a reuse cue, not a switch into Foundation work.
+U05-B completes a bounded trace of automatic invocation telemetry, the separate improvement-observation scaffold, report/proposal/evaluator semantics and versioning boundaries. [Note08](notes/08-SKILL-OUTCOMES-EVALUATION-AND-CHANGE.md), [sources](evidence/U05-B-SOURCES.md), [E04](evidence/u05-b-evaluation-probe/README.md), [MR08](ROUND-U05-B.md). E04 ran original helpers with synthetic records; other components remain source-only.
 
-The next unit U05-B qualifies the separate skill-improvement/outcome path. It may supply further controls or only scaffolds; neither integration nor its absence is assumed. Q06a is bounded, Q06b retains unresolved cases, Q06c is next. Prior installation/work/memory limits and P1 remain open.
+The comprehensive joint evaluation with Batu is deferred until research completion. Intermediate research/method checks and native synthesis continue; a material scope/purpose/authority decision returns earlier. This does not lower the completion criteria, force a favorable verdict or authorize architecture.
 
 ## Phase map
 
 | Phase | Work | Current standing / exit or reopening condition |
 |---|---|---|
-| P0 Method/work foundation | Purpose, method, registries and cold-start | U00 complete; no repeat setup |
-| P1 Native discovery | Topology, manifests, distribution/runtime boundaries | PARTIAL; S91 small subtree complete as metadata only; all material families must be accounted for before closure |
-| P2 Mechanism slices | Question → producer/consumer → counter-path → calibrated explanation | Active, completed U05-A; next U05-B after publication closure |
-| P3 Subsystem/seam synthesis | ECC-native explanations and actual connections | Iterative; shared words/schema do not establish integration |
-| P4 Project-facing comparison | Then-current Foundation/project context and selected studies | Not yet final; no automatic adoption or ontology mapping |
-| P5 CORE/closure challenge | Reverse inventory and holdout check | Material unexplained regions prevent closure; no retroactive waiver of P1 |
-| P6 Method case | Actual decisions, errors, costs and later effects | Continues per unit; same-assistant experience is not independent efficacy proof |
+| P0 | Method/work foundation | U00 complete; do not repeat setup |
+| P1 | Native discovery | PARTIAL; original frontier and unit ledgers; S116 is six-file metadata, not whole corpus |
+| P2 | Mechanism slices | Active; U05-B bounded complete, U06-A next after publication closure |
+| P3 | Subsystem/seam synthesis | Iterative; real callers/records rather than shared names; prepare whole explanation before joint evaluation |
+| P4 | Project-facing comparison | Then-current Foundation/project and selected studies; comprehensive joint discussion after completed research |
+| P5 | CORE/closure challenge | Material unexplained families block closure; reverse-inventory/holdout check required |
+| P6 | Method case | Actual choices/errors/costs/effects; no independent efficacy claim |
 
-Candidate families stay provisional: A identity/distribution, B installation/ownership/portability, C work/agent/session, D memory, E learning/skill evolution, F security/governance/supply chain, G evaluation/health/observability/economics. Generated/domain assets, UI and integrations require role-sensitive coverage. Source breadth has advanced; the complete system model is not finished.
+Candidate families remain provisional: identity/distribution; installation/ownership/portability; work/agent/session; memory; learning/skill evolution; security/governance/supply chain; evaluation/health/observability/economics. Rust ecc2, native Workflow, UI/integrations, generated/domain assets and broader source/test/mirror domains require role-sensitive accounting. No family is complete merely because one unit bears its name.
 
 ## Completed bounded work
 
-- U01-A: initial surfaces and E01 cache falsifier; not a complete inventory or host test.
-- U01-B: native/managed/legacy materialization; bridge interpretation later refined by U02-A.
-- U02-A: caller-specific ownership, checkpoints and projection; Q03b retry prediction unexecuted.
-- U03-A: cards/import/session-store/readiness; E02 exact helper with store double, not a live queue.
-- U03-B: real provision/dispatch source and E03 wrapper/collector with fake provider; no tmux/model/rollback execution.
-- U04-A: memory storage/scope/recall/governance and CLI/MCP views; no new execution.
-- U05-A: selected capture, optional analyzer, descriptor-bound completion, promotion/evolution and SessionStart instinct injection; S89–S108, no new execution.
+U01-A source surfaces/cache E01; U01-B delivery/materialization; U02-A ownership/checkpoints/projection; U03-A work/session records E02; U03-B worktree/tmux source and wrapper/collector E03; U04-A memory lifecycle; U05-A observation/instinct/context; U05-B skill outcome/health/proposal/evaluation and E04. INDEX links all notes and evidence.
 
-Notes/evidence are linked from INDEX. Unit completion never means exhaustive family or ECC completion.
+E01 cache, E02 helper/store double, E03 fake-provider wrapper/collector and E04 synthetic original evaluator are distinct local evidence. No live-agent effectiveness verdict or whole-system acceptance exists. U04/U05-A source-only findings were not silently reclassified by E04.
 
-## U05-B — next authorized source unit, NOT STARTED
+## U06-A — next authorized source unit, NOT STARTED
 
-**Question Q06c:** What constitutes a skill-run outcome and valid improvement evidence; how do health, amendment and evaluation lead to a material change and later use? Are these controls connected to U05-A's instincts/evolved artifacts or a separate mechanism?
+**Question Q07a:** Which current configuration/repository changes are actually blocked, allowed or merely flagged by ECC's governance hooks, and on what authority/evidence? Where do runtime checks differ from retrospective scans or model instructions?
 
-**Why next:** U05-A shows an operational route into behavior-facing context without a task-quality oracle in that path. Before making a broader claim about ECC's learning safeguards, inspect its actual skill-outcome/evaluation mechanisms rather than collecting more shell edge cases or assuming no evaluation exists.
+**Why next:** U05-B located real but bounded evaluation predicates without an automatic connected admission path. Security/governance is still a major unexamined family. Open a concrete effect boundary rather than continuing into every dashboard/helper or declaring ECC globally ungoverned.
 
-**First pinned sources:**
+**First pinned paths:** scripts/hooks/config-protection.js, its hooks/hooks.json registration and run-with-flags.js / scripts/lib/hook-flags.js. These paths are already discovered; config-protection body is not yet read. gateguard-fact-force.js is a second candidate if required to explain the same mutation boundary. Discover security-scan/AgentShield material only as the source trace warrants, preserving external-service and installed-host boundaries.
 
-1. `scripts/hooks/skill-run-tracker.js` — actual S106 import; open producer body, not just its name.
-2. `scripts/lib/skill-improvement/observations.js`, `health.js`, `amendify.js`, `evaluate.js` — all four confirmed at pin in S108, bodies not yet read.
-3. `scripts/session-inspect.js` — retained S60 caller; reopen exact relevant commands and their actual downstream effect.
-4. Follow genuine dependencies/tests into the acceptance/update boundary. `tests/lib/skill-improvement.test.js` and skill-evolution tests are discovery leads, not passing evidence. Keep separate schemes separate unless code establishes a bridge.
+**Required distinctions:** instruction versus host hook versus OS/process enforcement; parse/selection failure versus intentional skip; configuration source versus actor authority; full/partial input and path/command coverage; approval claim versus verified authorization; audit finding versus prevention; fail-open/fail-closed relative to the actual effect; changed bytes versus admitted/used configuration.
 
-**Required distinctions:** observation versus verified outcome; failure reason versus proximate/root cause; count/rate versus relevant task quality; amendment proposal versus applied change; evaluation plan/scaffold versus executed oracle; human review instruction versus enforced admission; version/hash binding versus current usefulness; generated/evolved versus installed/loaded/followed.
+**Return condition:** one source-grounded producer/caller/check/effect trace, an allowed baseline and a material refusal/skip/adverse path. State what is actually enforced and what would require a host/adversarial test. Proportionate isolated fixtures may be used; real installation, credentials, provider calls or operational scans of user state are not authorized.
 
-**Return condition:** a bounded outcome producer→health/amendment→evaluation→actual consumer/effect trace, including one material adverse or missing-evidence path. State which control actually gates a change and what remains unexamined. Publish note, exact evidence scope, questions and MR07 effect check. A real paid-model/agent campaign is not required or authorized.
+## Residuals and reopening
 
-**Authority:** source research and proportionate isolated fixtures only. No real installation, user state, credentials/provider calls, upstream patch, Foundation/control change or SOUL/Development OS implementation.
+- Q03b: interrupted guided Kimi retry source prediction; transparent-retry claims require exact test. Q03c: full repair/uninstall, merged JSON, abrupt/concurrent/cross-store/legacy durability remain deferred.
+- Q04b/c/e: snapshot/SQLite ingestion, imported field authority/limited-list closure, acceptance/supervision/resume/addressing/retention. Reopen for dependent integration guarantees.
+- Q05b/c: completeness/current-status views, stale/conflicting/duplicate recall; real host uptake, governed review, ECC2 projection, capture/resume and stronger isolation/replication.
+- Q06b: analyzed/archive scope, partial writes/retry, independent semantic corroboration, confidence/applicability, project identity and evolved-artifact loading.
+- Q06c1: bounded U05-B producer/report/proposal/evaluation/mutation distinction, E04 limits. Q06c2: independent task oracle, comparable/unique/version-bound experiments, actual proposal admission/deployment/use and integration with instincts remain open. Source predicates are not production incident frequency.
+- Q07 broader family and Q08 wider evaluation/economics remain open. The normal health path was read; rich dashboard and all other evaluators were not.
 
-## Residual questions and reopening triggers
+## Recording and revision
 
-Q03b OPEN: interrupted guided Kimi retry prediction; reopen before transparent retry claims. Q03c DEFERRED: full lifecycle/merged JSON/crash/concurrency; reopen before stronger durability or adoption.
-
-Q04b OPEN: canonical snapshot→SQLite and other ingestion. Q04c OPEN: imported field authority/limited-list closure. Q04e OPEN: deeper supervision/acceptance/resume/retention and locator identity. Reopen when a claimed work/memory/learning integration depends on them.
-
-Q05b OPEN: terminal diagnostics/status, stale/conflicting/duplicate recall and composition tests. Q05c OPEN: native host uptake, governed-artifact review, ECC2 projection, capture/resume and cross-machine/hostile-process guarantees. Memory source study did not close these.
-
-Q06b OPEN: analyzed subset versus processed archive; partial instinct writes versus input retry; ID/frequency/confidence versus semantic/independent corroboration; directory/project identity and trigger/evidence preservation; explicit evolved-artifact loading bridges. Reopen before claiming complete learning coverage, safe cross-project generalization, reliable application or end-to-end autonomous learning.
-
-Q06c ACTIVE NEXT: skill-outcome/improvement qualification in U05-B. Broader F/G work follows the evidence; no premature universal security/efficacy verdict.
-
-## Discovery and revision discipline
-
-Use original frontier plus per-unit ledgers; S91 is one fully enumerated small subtree with unread helper/test bodies, not full P1. S108 is only directory discovery. Whole README, wider source/test/schema/mirror domains, Rust ecc2, native Workflow and alternate controllers still require accounting before closure.
-
-Sequence changes belong here, source/verification discipline changes in METHOD only when material. Preserve stable IDs, old evidence and explicit no-execution boundaries. ROUND-U05-A/MR07 records the rationale and observed effect; current publication remains STATE-owned.
+Current round/source ledgers are per-unit. Keep old histories, notes and experiments unchanged unless a specifically justified correction is needed; no rewrite merely to advance a status. Sequence changes live here, evidence discipline changes in METHOD only when substantive. MR08 records E04's predeclared controls and exact artifact preservation. Current publication is STATE-owned. Completion must satisfy METHOD; joint discussion is not a substitute for research validation.

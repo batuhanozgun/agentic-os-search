@@ -1,43 +1,43 @@
 # ECC — STATE
 
 **Updated:** 2026-09-17
-**Current checkpoint:** U05-A — observation, instincts and behavioral context
-**Work status:** U05-A COMPLETE / PUBLISHED. Eight ECC-local files merged through own-repository PR #8; the ECC catalog row and publication receipt reached main. [PUBLICATION-U05-A](PUBLICATION-U05-A.md) records actual commits, completed readbacks and scope limits. The shared library INDEX already routes generically and was preserved. No owner upload or merge is pending.
-**Study status:** ACTIVE / PARTIAL. P1, learning-quality qualification, wider security/evaluation/controllers and integrated system explanation remain open.
-**Method / plan:** 0.1 / 0.8
+**Current checkpoint:** U05-B — skill outcomes, evaluation and change
+**Work status:** U05-B substantive slice COMPLETE; publication/readback IN PROGRESS. Finish expected-head integration, ECC discovery update and actual publication receipt before starting U06-A. A prepared tree is not main publication.
+**Study status:** ACTIVE / PARTIAL; P1, wider security/evaluation/controllers and integrated explanation remain open.
+**Method / plan:** 0.1 / 0.9
 **Target pin:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`, unchanged.
 
-## Purpose, authorization and current result
+## Purpose, user agreement and current result
 
-The user associated U04-A with Foundation's Information concerns and authorized continuation. Preserve that as a future reuse cue, not a Foundation mapping, new architecture or acceptance of every claim. Current work remains source-grounded ECC research with repository-centred continuity and method evaluation.
+User agreed to defer the comprehensive joint evaluation until ECC research completion, then authorized continuation. Intermediate research validation, method review and source-grounded synthesis continue. Return sooner only for a material purpose/scope/authority choice; do not turn an interesting finding into premature Foundation/SOUL architecture discussion.
 
-Current result: [Note07](notes/07-OBSERVATION-INSTINCTS-AND-BEHAVIORAL-CONTEXT.md), [U05-A sources](evidence/U05-A-SOURCES.md), [ROUND-U05-A / MR07](ROUND-U05-A.md). Prior units U00, U01-A/B, U02-A, U03-A/B and U04-A remain completed bounded deliveries; they are not whole-system completion.
+Current result: [Note08](notes/08-SKILL-OUTCOMES-EVALUATION-AND-CHANGE.md), [U05-B sources](evidence/U05-B-SOURCES.md), [ROUND-U05-B / MR08](ROUND-U05-B.md), [E04](evidence/u05-b-evaluation-probe/README.md). U00–U05-A and E01–E03 remain historical bounded deliveries, not whole-system completion.
 
-- Capture is selected tool evidence, distinct from optional observer analysis. The pinned default observer is disabled. Inline analyzer instructions are not simply observer.md executed verbatim.
-- The observer's archive gate requires this invocation's exact completion record plus successful exit, with descriptor-bound output. That is stronger than process-only success, but is not independent verification of a learned rule.
-- Tail-sampled analysis and whole-live-file archival have different scope; retained input after failure and already-written instincts are separate partial effects. These are source-derived, unexecuted paths.
-- Specific and auto-selected global promotion, structural evolution and context injection have different predicates. Auto promotion counts same-ID project instances, including inherited records, without a semantic/evidence-independence or documented domain-list check in that function.
-- Personal/inherited instincts can enter SessionStart additionalContext without evolve or global promotion. Confidence/location/stack ranking and a cap select the view; its action summary omits trigger, ID and evidence. This is a real source path into context, not an observed model behavior change.
-- Default homunculus evolved artifacts and the separate agent-data skills/learned reader are different locations. Other bridges and quality controls are not globally declared absent.
+- Automatic Skill invocation telemetry writes skill-evolution records; session-inspect improvement commands read a different project observation contract. No automatic adapter or quality gate for U05-A instincts was established.
+- The hook records best-effort invocation success/failure, not independently accepted task success. Actual wrapper run-export invocation is present; absence of standalone main is not a broken registered route.
+- Rolling health's non-declining label differs from improvement health's failure-count policy. Current version display is not proof the measured runs used those bytes.
+- A proposal is a templated Markdown fragment, not an applied or causally demonstrated repair. E04 confirms a single failure can produce the repeated-failures rationale.
+- E04 confirms real minimum-count, selector, regression and tie gates, but duplicate observation IDs and unmatched tasks can still produce promote-amendment. Mixed amendments are pooled unless selected. The evaluator reports a recommendation; it does not run a skill or apply its patch.
+- Separate snapshot/rollback/provenance helpers exist; the traced recommendation caller does not enforce a result-bound change admission or actual later use.
 
-**Evidence:** SOURCE OBSERVATION / TEST SOURCE INSPECTED / qualified INFERENCE. No new ECC code/test/hook/observer/model or local probe ran; no E04. S104's archive test was fully inspected, not executed. E01–E03 were not rerun. Current official host docs qualify interface meanings, not an actual deployment or efficacy result.
+**Evidence:** S109–S122 source/test-source inspection; E04 LOCAL EXECUTION of three original helpers with synthetic records and exact blob checks. No target stubs or new dependency installs; 9/9 predeclared expectations characterize predicates, not product efficacy. Upstream tests, tracker, full CLI, host/model, dashboard and versioning were not executed. E01–E03 were not rerun.
 
-## Next work, responsibility and limits
+## Next authorized work and residuals
 
-**U05-B / Q06c** is the next authorized source unit, NOT STARTED: skill-run outcomes → health/amendment → evaluation evidence → accepted change/use. Begin the pinned S108 skill-improvement files, actual skill-run-tracker import, and retained session-inspect caller. Do not assume they govern the Python instinct path merely because both concern learning.
+After publication closure, **U06-A / Q07a**, NOT STARTED: examine security/governance at an actual configuration-mutation boundary. Start pinned scripts/hooks/config-protection.js and the already-discovered hooks/hooks.json registration / run-with-flags.js / hook-flags dependency; use gateguard-fact-force.js as a second candidate only where it changes the effect boundary. Distinguish an active block from an advisory scan, profile-based skip, operator override and technical filesystem authority. Select one coherent trace rather than auditing every security feature at once.
 
-Q06b retains sampling/archival, partial writes, semantic corroboration, confidence validity, trigger/identity fidelity and evolved-materialization questions. Prior Q03b/c, Q04b/c/e, Q05b/c and P1 remain open with their PLAN/QUESTIONS triggers. Moving to another family does not resolve them.
+Q06c1 is bounded-answered; Q06c2 keeps independent task oracles, version-bound experiments, actual amendment admission/deployment/use and bridges to instincts open. Q06b retains sampling/archival, partial writes, semantic corroboration, confidence/applicability and materialization. Q03b/c, Q04b/c/e, Q05b/c and P1 remain as in PLAN/QUESTIONS. Advancing to security does not resolve them.
 
-Batu owns purpose and material phase changes. The assistant owns authorized source research, calibrated findings, within-study sequencing and verifiable publication. Write only research/studies/ecc/** plus ECC's row/route in shared CATALOG/INDEX. Preserve other studies, Foundation, soul-context, explorations, upstream and control files.
+Batu owns purpose and material phase changes. Assistant owns authorized research, calibrated findings, within-study sequencing and verifiable continuity. Write only research/studies/ecc/** plus ECC's row/route in shared CATALOG/INDEX. Preserve other studies, Foundation, soul-context, explorations, upstream and agent-control.
 
-No real ECC installation, user-home/config/cache mutation, credentials/real model/provider call, upstream issue/patch, Foundation/control mutation or SOUL/Development OS design/implementation is authorized. Proportionate isolated fixtures remain distinct from installation but were not needed in U05-A.
+No real installation, user-home/config/cache change, credentials/provider/model calls, upstream report/patch, Foundation/control change or SOUL/Development OS design/implementation is authorized. Proportionate isolated fixtures are authorized; E04 remained data-only.
 
 ## Recovery and record routing
 
-After canonical control bootstrap, fully read STATE, INDEX, META, WHY, METHOD, PLAN and QUESTIONS. Then fully read Note07, U05-A source ledger and ROUND-U05-A/MR07, plus [PUBLICATION-U05-A](PUBLICATION-U05-A.md). Reopen exact producer/consumer sources when a derived view drops a load-bearing condition.
+After canonical bootstrap, fully read STATE, INDEX, META, WHY, METHOD, PLAN and QUESTIONS. Then Note08, U05-B sources, ROUND-U05-B/MR08, E04 README/PLAN and the current publication receipt once registered here. Exact result is losslessly compressed stdout; README carries hash/decompression instructions. Do not rerun E04 merely to recover current progress.
 
-Per-unit rounds/sources continue through U05-A. Old RESEARCH-LOG, METHOD-REVIEW and SOURCE-LEDGER remain unchanged history through U03-B; ROUND-U04-A and its source/receipt preserve U04-A. Do not treat historical next-work labels as current authority or repeat old experiments as new corroboration.
+Old RESEARCH-LOG, METHOD-REVIEW and SOURCE-LEDGER are preserved history through U03-B. U04-A/U05-A and this unit continue in separate rounds/sources/receipts. INDEX retains their routes and original evidence classes. The user's Information association remains a future reuse cue, not Foundation membership or adopted design.
 
-S91 adds complete bounded continuous-learning-v2 subtree metadata, not all body/dependency coverage. S108 confirms a four-file next-unit directory without reading those bodies. Original STRUCTURE/TREE-FRONTIER, U01-B delta and subsequent ledgers retain P1 obligations, including Rust/native-workflow/other controllers. Final native/project-facing synthesis remains later and needs then-current canonical context.
+S116 adds six-file skill-evolution directory metadata; dashboard/index and broad source families are still unexamined. P1 requires material-family accounting, later native synthesis and a reverse-inventory challenge. This unit is not general research closure.
 
-GitHub connector reads/writes worked. Auxiliary raw acquisition failed at DNS and created no checkout; no new runtime capability was demonstrated. Search paths came from a different default ref but substantive bodies remained pinned. Publication used parent 80499d8ef74f6123b44882fef0a4656b93f8d871 and expected-head PR #8 merge fe5de7f3593d60f9248a02c4005ba5ade0a97ddd without force. Exact scope/readbacks are in the receipt; old histories and other studies were preserved. Publication is closed for this bounded unit; U05-B remains selected, not already performed.
+GitHub connector works. Raw-network acquisition failed at DNS; three execution sources were recovered from connector text and byte-verified instead. This is a partial local source fixture, not a full installed ECC checkout. Publication parent is 8bdcce7af6228cbad7eae03d5c5e01074e65289b; comparison from the previous ECC closure showed only concurrent Superpowers/catalog changes. Final scope/readback/receipt remain pending at this checkpoint.
