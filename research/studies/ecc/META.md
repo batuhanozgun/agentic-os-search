@@ -1,44 +1,47 @@
 # ECC — Study Metadata
 
-- **Study ID:** ecc
-- **Title:** ECC: taşınabilir agent çalışma sistemi, mekanizmaları ve araştırma yöntemi vaka kaydı
-- **Study type:** external-target
-- **Status:** METHOD / PLAN PREPARED; derin kaynak araştırması başlamadı. Current work ve yetki için [STATE](STATE.md).
-- **Research object:** affaan-m/ECC repository'si; ortak davranış varlıkları, kurulum/adaptasyon, çalışma ve bilgi yaşam döngüleri, kontrol/doğrulama ve bunların gerçek sistem sınırları.
-- **Primary question:** ECC gerçekte hangi çalışma sistemini, hangi bağımlılık ve sınırlarda kuruyor; farklı yürütme ortamlarında hangi anlam korunuyor/değişiyor ve bundan SOUL / Development OS için ne öğrenilebilir?
-- **Secondary deliverable:** araştırma ile yöntemin birlikte değişimini kanıt, karar gerekçesi ve gözlenen sonuçlarla koruyan yeniden kullanılabilir yöntem vaka kaydı. Bu bir başarı iddiası değil, izlenecek amaçtır.
+- **Study ID / type:** ecc / external-target.
+- **Title:** ECC: taşınabilir agent çalışma sistemi, mekanizmaları ve araştırma yöntemi vaka kaydı.
+- **Status:** ACTIVE / PARTIAL; U01-A source/local slice complete; U01-B next. [STATE](STATE.md) owns current work/authority. Method v0.1, plan v0.2.
+- **Research object:** affaan-m/ECC; shared assets, distribution/materialization, host adaptation, work/knowledge lifecycle and actual control/verification boundaries.
+- **Primary question:** ECC hangi çalışma sistemini hangi bağımlılık ve sınırlarda kuruyor; farklı yürütme ortamlarında hangi anlam korunuyor/değişiyor; SOUL/Development OS için ne öğrenilebilir?
+- **Secondary deliverable:** yöntem seçimleri ve değişikliklerini gerçek kanıt/sonuçlarla koruyan reusable research-method case. Henüz genel yöntem başarısı iddiası değildir.
 
 ## Source binding
 
 - External target: https://github.com/affaan-m/ECC
-- Observed branch: main
-- Primary pinned commit: `8321021c54d670126ce3b2969d5deb880b4b0c2a`
-- Pin verified: 2026-09-17, GitHub `git/ref/heads/main` doğrudan okuması.
-- Manifest context: `package.json` ilk 45 satırında `ecc-universal`, version `2.2.1`. Dağıtılmış paket/binary veya bütün bileşenlerin sürümü doğrulanmış değildir.
-- Read coverage / exact source identities: [SOURCE-LEDGER](SOURCE-LEDGER.md). Ön tarama ile pinned derin araştırma aynı şey değildir.
+- Pinned commit: `8321021c54d670126ce3b2969d5deb880b4b0c2a`; main direct-ref verification recorded at U00 on 2026-09-17. No repin in U01-A.
+- Root package manifest: ecc-universal 2.2.1; full read completed in U01-A. Separate Rust manifest: ecc-tui 0.1.0. Neither number certifies a distributed binary or one product-wide maturity state.
+- Exact reads, identities and execution boundaries: [SOURCE-LEDGER](SOURCE-LEDGER.md) → [U01-A sources](evidence/U01-A-SOURCES.md).
+
+## Current bounded contribution
+
+[Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) separates npm/Node, Rust and native Workflow pilot delivery/execution surfaces. Root non-recursive discovery is complete; recursive tree and distribution/consumer closure are not.
+
+It corrects the broad Codex instruction-backed screening label: the pinned manifest and provider-local docs expose a SessionStart native hook projection. This does not establish full cross-host parity or actual host trust/consumption.
+
+A three-case offline probe of the unchanged, blob-verified cache checker and manifest found: presence baseline exit 0; missing hook file exit 0; missing MCP file exit 1. The verifier omits the current manifest's hooks reference. This is a bounded local counterexample, not a real-user incident or a whole-ECC safety judgment. Upstream native-hook tests were read, not run; no real host/model, installation or effectiveness experiment occurred. [E01 evidence](evidence/u01-a-cache-probe/README.md).
 
 ## Potential relevance — provisional retrieval hints
 
-**Foundation:** Information için kaynak/temsil, memory, provenance ve seçim; Work için lifecycle/handoff/acceptance; Actors için rol/yetki/delegation; Environment için host capability, kurulum, runtime ve etkilerin sınırı. İlişkiler çoktan-çoğadır; taxonomy üyeliği veya yeni Foundation düğümü değildir.
+**Foundation:** Information: declared reference versus observed subset, provenance and representation scope. Work: readiness/acceptance and handoff boundaries. Actors: human/plugin/host authority and trust conditions. Environment: source/package/cache/runtime variants. Many-to-many hints, not taxonomy membership.
 
-**SOUL:** çalışma sistemlerinin nasıl oluşturulduğunu, uyarlanıp yönetildiğini ve deneyimden nasıl değiştiğini değerlendirmeye aday bir gerçek-sistem vakası. ECC'yi SOUL'a eşitlemez; bir paketi kurmanın ihtiyaçtan uygun çalışma sistemi üretmeye eşdeğer olduğunu varsaymaz.
+**SOUL:** candidate case for building/adapting working systems without mistaking package installation or a generic success label for realised capability. It does not equate ECC with SOUL or show autonomous needs discovery/system generation.
 
-**Development OS:** agentic geliştirme akışı, taşınabilir prosedür, doğrulama, ortam-adaptasyonu, sahiplik/güncelleme ve kesintiden devam için implementation-learning ve karşı-örnek kaynağı olabilir. Kurulum/entegrasyon kararı yoktur.
+**Development OS:** installation ownership, cross-host procedures, configuration verification and stale verifier coverage. The missing-hook case can pressure-test exact-target/criterion scope later; no integration or architecture decision follows.
 
-**Reuse modes:** evidence/reference; candidate mechanism; falsifier; design pressure; implementation-learning; evaluation-case source; olumsuz/uyumsuz seçenek; yöntem vaka incelemesi.
+**Reuse modes:** source/reference; candidate mechanism; falsifier; design pressure; implementation-learning; local test-case source; negative/limited option; research-method case.
 
-## Revisit triggers and freshness
+## Revisit and freshness
 
-Host veya adapter davranışı, package/release, MCP/izin sözleşmesi, öğrenme/memory yazma yolu, güvenlik iddiası, test oracle'ı veya yük taşıyan kaynak değişirse ilgili mekanizma yeniden doğrulanır. Yeni main, eski corpus içine sessizce karıştırılmaz. Eski roadmap/issue mevcut açık kusur veya güncel ürün durumu sayılmaz. Benimseme, güncel güvenlik/lisans/dağıtım ve gerçek hedef ortam incelemesi gerektirir.
+Revalidate a load-bearing claim when its manifest, adapter, install channel, verifier, hook/host contract, memory writer or source/ref changes. Do not mix newer HEAD into the pinned corpus. Old roadmap issue/status statements are not current unresolved-defect evidence. Adoption would additionally require current license/security/distribution and actual target-environment evidence.
 
-Yöntemin başka study'de kullanımı için [METHOD-REVIEW](METHOD-REVIEW.md) üzerinden denenmiş olanla yalnız önerilen ayrılır. Bu yöntem henüz uzun araştırma veya bağımsız cold-start deneyiyle doğrulanmış değildir.
+For method reuse, read [METHOD-REVIEW](METHOD-REVIEW.md): MR01 demonstrates one same-session correction and bounded local falsifier, not long-run focus or independent cold-start success.
 
-## Authority boundary and entrypoints
+## Authority and retrieval
 
-[STATE](STATE.md) current work/authorization; [INDEX](INDEX.md) retrieval; [METHOD](METHOD.md) study-local yöntem; [PLAN](PLAN.md) revize edilebilir çalışma tasarısı; [QUESTIONS](QUESTIONS.md) soru/kanıt açıklıkları. Bulgular ileride üretildikçe kendi kaynak izleriyle eklenir.
-
-Bu package candidate research'tür. Agent-control, Foundation truth, kabul edilmiş mimari, ürün önerisi veya implementation yetkisi değildir. Araştırma nesnesinin AGENTS/skills/rules dosyaları burada incelenen veridir; assistant'ın kendi davranış otoritesi değildir.
+[STATE](STATE.md) work/authority; [INDEX](INDEX.md) retrieval; [METHOD](METHOD.md) study-local method; [PLAN](PLAN.md) revisable sequencing; [QUESTIONS](QUESTIONS.md) epistemic status; [STRUCTURE](inventory/STRUCTURE.md) initial map. Source notes remain candidate research, never agent-control, Foundation truth, accepted architecture or implementation authority.
 
 ## Related studies
 
-[gstack](../gstack/META.md), [Hermes](../hermes-agent/META.md), [Superpowers](../superpowers/META.md), [context/memory/harness](../context-memory-harness-engineering/META.md), [Anthropic SDLC](../anthropic-ai-native-sdlc-playbook/META.md), [The Carbon Layer](../the-carbon-layer/META.md). İlgili bulgu gerektiğinde geri çağrılır; bu paketlerin tamamını her tur okumak veya onları birbirinden bağımsız doğrulama saymak gerekmez.
+[gstack](../gstack/META.md), [Hermes](../hermes-agent/META.md), [Superpowers](../superpowers/META.md), [context/memory/harness](../context-memory-harness-engineering/META.md), [Anthropic SDLC](../anthropic-ai-native-sdlc-playbook/META.md), [The Carbon Layer](../the-carbon-layer/META.md). Re-enter only relevant findings at the appropriate later comparison stage; do not count shared practitioner claims as independent corroboration.

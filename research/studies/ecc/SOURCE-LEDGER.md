@@ -47,3 +47,13 @@ Research root INDEX, studies INDEX/CATALOG/PACKAGE-CONTRACT were recovered in th
 ## Ledger growth rule
 
 For each later source: stable ID; exact repo/ref/path/blob when available; date; full/selected/truncated and exact range; related Q/unit/note; target-claim versus implementation versus execution class; dependency/revalidation condition. Directory coverage and reading coverage stay separate. Upstream diff adds a separately labelled revalidation record and affected-claim links.
+
+## U01-A — 2026-09-17 current update
+
+The sections above preserve U00's pass-time reading state. Current additions and completed reads are in [U01-A-SOURCES](evidence/U01-A-SOURCES.md); do not interpret the earlier 'no execution' statement as today's state.
+
+S03 package.json was now fully read in three contiguous ranges with the same blob identity. S04–S25 add root/selected direct-child discovery and source/provider/wrapper/checker reads. Root non-recursive discovery is complete; the full recursive tree is not. [STRUCTURE](inventory/STRUCTURE.md) and [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv) preserve that limit. The root README remains selected-read only, lines 180–360 in this unit.
+
+S16 native-hook test was inspected in full, NOT RUN. E01 is a separate, newly executed offline three-case cache-checker probe using exact S13/S25 source bytes. C0/C1/C2 exited 0/0/1; the missing-hook case is a false-green under the broad all-reference claim, not three successful product validations. [Raw probe evidence and reproducer](evidence/u01-a-cache-probe/README.md).
+
+No live host/model, installation, registry tarball, upstream full-suite or effectiveness execution was performed. The inspected source supports an event-specific Codex hook projection but not full parity or host admission/consumption. No repin occurred; later use must still check dependency freshness as appropriate.

@@ -1,59 +1,61 @@
 # ECC — Adaptive Research Plan
 
-**Version:** 0.1 / 2026-09-17. Bu bir takvim veya sabit tur sayısı değildir. Current authorization [STATE](STATE.md), açık soru statüleri [QUESTIONS](QUESTIONS.md), yöntem değişimleri [METHOD-REVIEW](METHOD-REVIEW.md).
+**Version:** 0.2 / 2026-09-17. Current authority [STATE](STATE.md); method remains [v0.1](METHOD.md). This is not a fixed calendar, file quota or percentage-completion model.
 
-## Aşama haritası
+## Current revision
 
-| Faz | İş ve beklenen çıktı | Çıkış / geri açılma ölçütü |
+U00's U01 is split into **U01-A, completed bounded slice**, and **U01-B, next authorised source work**. The first map found separate delivery/runtime surfaces, a Codex support-label contradiction and a cache-verifier coverage gap. A narrow temporary-fixture falsifier was performed before trying to synthesize the full system. [MR01](METHOD-REVIEW.md) records why and what actually changed.
+
+This split does not declare the planned full recursive inventory finished or waive missing coverage. Root/direct-child discovery and full file reading remain different measures. The initial seven candidate families remain provisional; they are not replaced with a final topology by one counterexample.
+
+## Phase map retained from v0.1
+
+| Phase | Work/output | Exit/reopen condition |
 |---|---|---|
-| P0 — Yöntem ve çalışma zemini | U00: amaç, yöntem, plan, soru/kaynak kayıtları, cold-start ve yöntem değerlendirme izi | Paket ve keşif yolları yayımlanıp geri okunur; kullanıcıya bu teslimat döner. ECC araştırması tamamlandı denmez. |
-| P1 — ECC-native keşif | Exact tree/manifest/distribution haritası; source/generated/adapter/runtime/test/docs ayrımı; ilk mekanizma seçimi | İlgili büyük aileler ve bağımlılık sınırları görünür; önceki yedi başlık doğrulanır veya değiştirilir. Belirsiz sınır yeni soru olur. |
-| P2 — Mekanizma dilimleri | Her birim bir soru + tam yük taşıyan kaynaklar + bounded not + karşı yol | Giriş/uygulama/consumer/etki ayrımı ve kanıt sınırı açıklanır. Kapanmayan halka explicit open kalır; birim bölünebilir. |
-| P3 — Alt-sistem ve seam sentezi | Yeterince araştırılmış mekanizmalarla native alt-sistem açıklamaları; actual geçişler, dead-end ve döngüler | İki bileşenin ayrı ayrı varlığı entegrasyon sayılmaz. Handoff/control/persistence sınırları kaynağa dönerek açıklanır. P2 ile yinelemeli. |
-| P4 — Proje-facing karşılaştırma | Güncel Foundation/project state + seçili study bulguları; Information/Work/Actors/Environment ve cross-boundary aday katkılar | Aynı analiz düzeyinde kıyas, uyumsuz/negatif seçenekler ve actual target evidence ihtiyacı görünür. Adopted architecture yok. |
-| P5 — Çekirdek ve closure challenge | CORE, native sistem modeli, kapsam/tazelik/falsifier incelemesi | Ters inventory/holdout kontrolü anlamlı yeni açıklık bulursa P1–P3'e dön. Önceden sabitlenmiş completion ölçütü karşılanmadan kapanma yok. |
-| P6 — Yöntem vaka sentezi | Gerçek değişiklik tarihçesi, yararlı/başarısız örnekler, continuity ve doğrulama sınırları | İyi yazılmış yöntem ile gözlenmiş yarar ayrılır. Başka study'ye aktarılabilir çekirdek ve ECC'ye özgü ekler ayrılır. |
+| P0 — Method/work foundation | U00 purpose, method, plan, registries, cold-start, method-review | Completed/published at U00; not pending setup |
+| P1 — ECC-native discovery | Source tree, manifests, distribution/runtime/host boundaries and first mechanism choice | Load-bearing families/dependencies visible; unexplained regions and exact reading frontier explicit; currently PARTIAL |
+| P2 — Mechanism slices | Bounded question, complete load-bearing sources, note, counter-path and appropriate evidence | Entry/implementation/consumer/effect distinction recoverable; unresolved links remain open |
+| P3 — Subsystem/seam synthesis | Native subsystem explanations and actual transitions/dead-ends/loops | Component presence is not integration; reopen sources for seams; iterate with P2 |
+| P4 — Project-facing comparison | Then-current Foundation/project state and selected studies | Same-level comparison, negative options and target evidence requirements; no adoption |
+| P5 — Core/closure challenge | CORE plus reverse inventory/holdout challenge | Return to P1–P3 for a material unexplained region; do not lower closure criteria after seeing results |
+| P6 — Method case synthesis | Real decisions, failures, overhead and subsequent effects | Separate transferable method from ECC-specific additions and unproven effectiveness |
 
-P6 yalnız sona bırakılmaz: METHOD-REVIEW her maddi turda beslenir. P3 de tüm dosyalar bitince başlayacak tek geçiş değildir. Bu fazlar ihtiyaç oldukça döngü kurar, kapsam genişlemesi otomatik yetki üretmez.
+P3 and P6 are fed throughout; they are not only end-of-study tasks. A research-phase continuation does not authorize installation, external publication or project architecture.
 
-## Başlangıç araştırma aileleri — hipotez, nihai mimari değil
+## Candidate research families
 
-| Aday aile | Soru bağlantısı | İlk araştırma amacı |
-|---|---|---|
-| A — Kimlik, corpus, dağıtım ve sistem sınırı | Q01 | Repo, package, shared varlık, adapter, ayrı runtime ve dış ürün ayrımı |
-| B — Kurulum / sahiplik / portability | Q02–Q03 | Authoritative source→kurulu dosya→host consumption; gerçek kontrol eşdeğerliği |
-| C — İş / agent / session / coordination | Q04 | Request→plan→worker→output→review→handoff; snapshot ile actual control ayrımı |
-| D — Memory ve knowledge lifecycle | Q05 | Scope, kaynak, kabul, recall, güncellik, consumer ve active work state |
-| E — Learning / skill evolution | Q06 | Gözlem→aday pattern→skill→promotion→gerçek yeniden kullanım ve fayda |
-| F — Security / governance / supply chain | Q07 | Korunan etki, enforcement noktası, sınırın kapsamı ve failure yolları |
-| G — Eval / health / observability / economics | Q08 | Neyi ölçtüğü, oracle/kapsam ve ölçümün işe/karara bağlanması |
+A identity/corpus/distribution; B installation/ownership/portability; C work/agent/session coordination; D memory; E learning/skill evolution; F security/governance/supply chain; G evaluation/health/observability/economics. They may split/merge when source evidence changes the model. Domain skills, translations, UI/assets and tests are not automatically irrelevant; their role must be justified.
 
-Bu aileler risk/bağımlılık keşfine göre bölünür veya birleşir; sınıflanmayan kritik bir bölge 'misc' içine gömülmez. Domain skill'leri varsayılan olarak kapsam dışı değildir: ortak mekanizmayı değiştirmeyenler gerekçeli örneklenir, yeni davranış taşıyanlar ayrıntılı incelenir.
+## U01-A — completed slice, not all of U01
 
-## İlk devam birimi — U01
+Question Q01 with narrow Q02/Q03/Q08 intersections. Actual outputs:
 
-**Question:** Q01; Q02/Q03 için dependency discovery.
+- [STRUCTURE](inventory/STRUCTURE.md) and [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv): full root non-recursive and four selected direct-child listings; remaining subtrees explicit.
+- [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md): Node/npm versus Rust versus native Workflow pilot boundaries; event-specific Codex projection contradicting the broad shared-doc label.
+- [E01](evidence/u01-a-cache-probe/README.md): exact-source local cache-checker probe. Missing hook not detected; missing MCP detected. This is not a live host validation or installed-cache incident.
+- [Sources](evidence/U01-A-SOURCES.md), revised questions and method/work records.
 
-**Purpose:** ECC'nin kendisini nasıl sunduğundan bağımsız olarak hangi varlıkların paketlendiğini, nereye kurulduğunu, kim tarafından tüketildiğini ve hangi runtime/ürün sınırlarına dayandığını belirlemek.
+No full recursive corpus, native host test, hook-body closure, install ownership analysis or final subsystem synthesis was completed.
 
-**Start sources at pinned ref:** gerçek recursive git tree (truncated bayrağı/coverage kontrolü); README; package.json ve VERSION; install manifests; root AGENTS.md araştırma verisi olarak; docs/architecture/cross-harness.md ve harness-adapter-compliance.md. Bunların gösterdiği gerçek entrypoint'lere inilir. Yol önerisi gerçek dosya mevcudiyeti veya okunduğu iddiası değildir; tree ile doğrulanır.
+## U01-B — next authorised source unit
 
-**Activities:**
+**Question:** Q01b; dependencies for Q02/Q03. **Purpose:** establish the actual source→selection→materialization→consumer paths before deciding what one install/support label means.
 
-1. Full tree keşif manifesti; aynı dosyanın kopyaları/çevirileri ve gerçek kaynak sahipliği. Tree'yi indirmek tam repository okumak değildir.
-2. Manifest/README/architecture support veya release statüleri arasındaki olası farkları kaydet; kod çözümlemeden birini otomatik doğru seçme.
-3. Native ailelerin ilk haritasını kur; operator/runtime/hosted ürün sınırlarını ayrıca tut.
-4. Bir sonraki birim için tek anlamlı source→install/materialization→host discovery dilimi seç; neden yüksek bilgi değeri taşıdığını yaz. Tipik aday aynı varlığın iki host'taki tüketim yoludur, fakat U01 başka blocker gösterebilir.
-5. U00 yöntem varsayımlarına dön: portability ankrajı veya gereksiz kayıt yükü oluştu mu; somut bulguyla gerekirse planı değiştir.
+**First exact reads at the pin:**
 
-**Return condition:** inventory/STRUCTURE.md veya eşdeğer bounded harita; source coverage; ilk orientation notu; Q01 disposition; revize edilmiş bir sonraki exact soru/ilk kaynak; tur kaydı ve repo readback. U01 tüm mekanizmaları veya canlı davranışı kapatmaz.
+1. `manifests/install-modules.json` (blob `884c7d39d867dd882ba097bcaab9dd2696ed1a5e`) and `manifests/install-components.json` (blob `8a6205bbd8387ae69a671690e8f3d0f4b776d301`) in full.
+2. `scripts/install-apply.js`, following its real selected/native/legacy dispatch rather than assuming all routes use the same executor.
+3. `.agents` tree `0b6fef700821049a86f9cef4b83d4fd06e371bdc` and relevant plugin trees to discover actual marketplace bindings; do not guess a marketplace path.
+4. Relevant `scripts/lib`, hooks, schema and test subtrees from TREE-FRONTIER. Resolve outstanding generated/distribution boundaries, including Node control pane, Rust and the workflow pilot at the required depth.
 
-## Sonraki birim seçim kuralı
+**Focal seam to preserve:** native Codex plugin source/cache versus legacy managed sync; plugin registration versus file presence versus hook trust/activation. The verified missing-hook case is an existing result, not a test to silently rerun and count twice. For deeper SessionStart conclusions, read `session-start.js` and helper/host-contract dependencies; the wrapper read is insufficient.
 
-Varsayılan sıra: A → B'nin temsili bir dilimi → C/D/E/F/G'den bağımlılık ve karar değerine göre seçilen soru. Öncelik; ana açıklamayı değiştirme, başka birimi açma, kritik çelişki, güvenlik/etki ve erişim maliyetiyle gerekçelendirilir. Bütün learning'i, bütün host'ları veya bütün testleri önce bitirme zorunluluğu yoktur.
+**Return condition:** updated source/distribution map and reading frontier; one source-bound route comparison; Q01a/Q01b disposition; a justified exact U02 question/first source; method effect check and published continuation. If the broader topology still cannot be closed, preserve U01 as partial rather than compressing away missing regions.
 
-## Revizyon ve scope sınırı
+## Selection and revision policy
 
-Yeni family, farklı host semantiği, docs/code çelişkisi, yetersiz oracle, taze upstream değişimi, gereksiz tekrar veya kullanıcı yönü revizyon tetikleyebilir. PLAN sürümü + ilgili soru + gerekçe/log birlikte güncellenir. Method değişmediyse salt sıra değişikliğine yeni method sürümü verilmez. METHOD-REVIEW gerçek etkiyi sonraki birimde kontrol eder.
+Select subsequent C/D/E/F/G work by impact on the primary explanation, dependency unlocking, critical contradiction and available evidence/cost. One current main unit; park side questions with revisit triggers. Do not let the Codex counterexample turn the study into an unbounded defect hunt or a universal host-testing campaign.
 
-Bağımsız dış ürün/repo, ücretli veya gerçek ortamlı deney ayrı iş olarak önerilir; ECC bağlantısı tek başına yetki değildir. Yeni substantive turda amaç, kapsam ve current authority yeniden kontrol edilir.
+Change sequence/scope in PLAN, reading/evidence/synthesis discipline in METHOD. Record trigger, prior assumption, alternatives, choice, affected results, expected effect and subsequent observed effect in METHOD-REVIEW/RESEARCH-LOG. No gratuitous method-version increase for a plan split. Preserve old IDs and findings when questions split or reopen.
+
+U00 v0.1 remains in Git history at commit `07bdb0cb6f89d2d0c13e806cb5cc190a3c05d1de`; it is historical, not a competing current plan. Different external products, paid/live experiments, installation and architecture/implementation require a separate scope/capability/authority check.

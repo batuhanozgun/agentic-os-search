@@ -1,30 +1,30 @@
 # ECC — INDEX
 
-Current work ve yetki için önce [STATE](STATE.md). Bu index keşif yoludur; çalışma durumunun ikinci otoritesi değildir.
+Current work/authority: [STATE](STATE.md). This index routes retrieval; it is not a second work-state authority.
 
-| Gereksinim | Giriş |
+| Need | Entry |
 |---|---|
-| ECC'yi neden araştırıyoruz; neyi varsaymıyoruz? | [00-WHY-THIS-RESEARCH](00-WHY-THIS-RESEARCH.md) |
-| Nesne, sürüm, aday değer ve kullanım sınırları | [META](META.md) |
-| Nasıl araştırılacak; kanıt ve sentez nasıl korunacak? | [METHOD](METHOD.md) |
-| Aşamalar, çıkış ölçütleri, ilk devam birimi | [PLAN](PLAN.md) |
-| Açık sorular, rakip açıklamalar ve ayırt edici kanıt | [QUESTIONS](QUESTIONS.md) |
-| Gerçekte hangi kaynak ne derinlikte okundu? | [SOURCE-LEDGER](SOURCE-LEDGER.md) |
-| Turlar arasında bulgu/iş değişimi ve devam izi | [RESEARCH-LOG](RESEARCH-LOG.md) |
-| Yöntem neye göre değişti; işe yaradığı gösterildi mi? | [METHOD-REVIEW](METHOD-REVIEW.md) |
+| Purpose, initial rivals, what is not assumed | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
+| Method and adaptive sequencing | [METHOD](METHOD.md), [PLAN](PLAN.md) |
+| Open questions and bounded dispositions | [QUESTIONS](QUESTIONS.md) |
+| Current bounded result: surfaces, Codex projection, cache-verifier limit | [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) |
+| Initial source/execution map and remaining tree frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv) |
+| Exact source/read coverage | [SOURCE-LEDGER](SOURCE-LEDGER.md) → [U01-A sources](evidence/U01-A-SOURCES.md) |
+| Actual local cache-checker execution | [Probe README](evidence/u01-a-cache-probe/README.md) → plan / runner / raw results |
+| Round-by-round work and continuation | [RESEARCH-LOG](RESEARCH-LOG.md) |
+| Method decisions and observed effects | [METHOD-REVIEW](METHOD-REVIEW.md), current MR01 |
+| Actual publication/readback status | [PUBLICATION](PUBLICATION.md) |
 
-## Progressive retrieval
+## Re-entry
 
-`library CATALOG → META → STATE → aktif soru/plan → ilgili mekanizma notu → pinned kaynak`
+`library CATALOG → META → STATE → current Q/PLAN → bounded note → exact source/evidence`.
 
-Cold-start için tam okunacak küçük giriş dosyaları STATE'te sayılıdır. Büyüyen log, ledger ve notların tamamı her tur yeniden okunmaz. Buna karşılık soru/kanıt sınırı bir özette korunamıyorsa ilgili kaynak tam veya gereken exact aralıkla geri açılır.
+For U01-B, STATE names full current-entry reads, Note 01 and STRUCTURE, then the relevant source/evidence. Read raw probe artifacts before claiming what was tested. Logs and ledgers may grow; recover their current entry and the relevant prior decisions rather than loading the entire library by default.
 
-## Future artifacts are not existing results
+## Existing versus future results
 
-U01 gerekirse `inventory/STRUCTURE.md` ve dosya/kaynak manifestini üretir. Sonraki birimler ihtiyaç oldukça `notes/`, `syntheses/`, `evidence/` ve `revalidation/` yollarını oluşturur. CORE, proje-facing assessment ve yöntem vaka sentezi yalnız içerikleri hazır olduğunda eklenir. Şimdiden boş sonuç dosyaları veya sahte tamamlanma yüzdeleri yoktur.
+U00 methodology/package and U01-A orientation/local probe exist. The broad U01 inventory remains partial. There is no final native subsystem model, CORE, full cross-study assessment, installed system or validated method-generalisation result. Create those only when supported; do not treat planned files as completed research.
 
-Yayın tamamlandığında `PUBLICATION.md` commit/dosya kapsamı ve geri-okuma kontrollerini kaydeder. Dosya varlığı gerçek host davranışının veya bağımsız fresh-session başarısının kanıtı değildir.
+## Ownership of facts
 
-## Authority separation
-
-STATE current work; META sınıflandırma/reuse; PLAN tasarlanan işler; QUESTIONS soru statüsü; SOURCE-LEDGER kaynak kapsamı; RESEARCH-LOG tarihsel tur kayıtları; METHOD-REVIEW yöntem kararları ve etkileri. Bir alanın gerçeği değiştiğinde onun sahibi güncellenir, diğer dosyalardaki türetilmiş yönlendirmeler tutarlılık açısından kontrol edilir.
+STATE owns current work/authority; META classification/reuse; PLAN sequencing; QUESTIONS question status; SOURCE-LEDGER and unit source records read/identity coverage; notes bounded explanations; raw evidence actual observations; RESEARCH-LOG historical transitions; METHOD-REVIEW method choices/effects. Publication receipts record what reached GitHub, not runtime effectiveness.

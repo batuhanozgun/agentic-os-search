@@ -1,54 +1,57 @@
 # ECC — STATE
 
 **Updated:** 2026-09-17
-**Current unit:** U00 — araştırma yöntemi, uyarlanabilir plan ve kalıcı çalışma paketi
-**Work status:** U00 COMPLETE / PUBLISHED; yöntem/plan ve katalog/index yolları main'e yayımlandı, temel girişler ve diff kapsamı geri kontrol edildi. Yöntem/plan kullanıcı değerlendirmesine sunuluyor. [PUBLICATION](PUBLICATION.md) exact commit, eşzamanlılık ve doğrulama sınırlarını taşır.
-**Study status:** METHOD / PLAN PREPARED; U01 ve derin kaynak araştırması NOT STARTED
-**Method / plan:** v0.1 / v0.1
+**Current checkpoint:** U01-A — source/distribution surfaces and Codex cache-verifier slice
+**Work status:** U01-A source/local work COMPLETE; evidence and continuation package being published together. Publication/readback receipt: [PUBLICATION](PUBLICATION.md).
+**Study status:** ACTIVE / PARTIAL. U01 overall remains PARTIAL; full recursive inventory and install/consumer closure are not complete.
+**Method / plan:** v0.1 / v0.2
 **Pinned target:** affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a
 
-## Latest authorized goal
+## Latest authorized goal and phase
 
-Kullanıcı ECC'nin studies'e alınmasını uygun karşıladı; repo merkezli, turlar/oturumlar boyunca odağını koruyan bir disiplin istedi. Bu tur için açık teslimat: önce metodolojiyi ve değişebilir planı kurmak, araştırma ile yöntemin gelişimini gelecekte kullanılabilir bir örnek olarak repoya yansıtmak.
+After receiving U00, the user said 'harika. devam edebilirsin.' This authorizes continuing the source-grounded ECC study under the proposed discipline; it is not independent acceptance of every technical claim. U00 methodology/package publication is complete and must not be repeated as pending setup.
 
-Bu çalışma yalnız bir planın konuşmada sunulmasıyla kapanmaz; package ve keşif yolları yayımlanmalı ve geri okunmalıdır. Ancak plan hazırlığından derin ECC incelemesine bu tur sessizce geçilmez.
+Current purpose: explain ECC's actual mechanisms and system/dependency limits, with a separate evidence-based record of how the research method evolves. The user expects repository-centred continuity, not chat-only results.
 
-- **Next logical work:** U01 — pinned corpus sınırı, dağıtım/yürütme haritası ve ilk mekanizma diliminin seçimi.
-- **Next authorized work after this delivery:** kullanıcının yönteme geri bildirimi veya devam yönü; bir sonraki açık devam isteği mevcut sınırlar içinde U01'e giriş olur.
-- **Not authorized:** ECC kurulumu, kullanıcı ortamı/config değişikliği, credential/ücretli model kullanımı, upstream mutation, SOUL/Development OS tasarım veya implementasyonu, agent-control değişikliği.
+- **Completed this turn:** U01-A root surface map, selected source/caller tracing, a host-label correction and a three-case local cache-checker probe.
+- **Next authorized research unit:** U01-B — installation/materialization and marketplace source binding, remaining relevant discovery, then selection of U02. See [PLAN](PLAN.md).
+- **Not authorized:** real ECC installation; user home/config/cache mutation; credential or paid model use; upstream issues/PRs/patches; SOUL/Development OS design/implementation; agent-control changes. Narrow offline temporary-fixture research is distinguished from installation.
 
-## What is established, and what is not
+## Load-bearing results and limits
 
-Established: exact upstream main ref'i ve seçili kaynak kimlikleri doğrulandı; önceki studies yöntemleri okundu; kaynak-temelli ve iki-döngülü yöntem/plan oluşturuldu. [SOURCE-LEDGER](SOURCE-LEDGER.md) okuma kapsamını taşır.
+[Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) is the current bounded result; [U01-A sources](evidence/U01-A-SOURCES.md) records exact read/execution scope.
 
-Open: ECC-native sistem ayrıştırması, gerçek entrypoint/call graph, adapter eşdeğerliği, kurulum sahipliği, uçtan uca çalışma, memory/learning, güvenlik ve etkililik. Ön taramadaki olumlu değerlendirme bunları kanıtlamaz. Yeni ECC runtime testi, live-host/model koşusu veya kurulum yapılmadı.
+1. Full root non-recursive listing and selected child trees separate shared assets, npm/Node dispatch, Rust ecc2 and native Workflow pilot surfaces. Actual registry tarball/cache materialization and a full recursive inventory remain open.
+2. Shared architecture text's Codex instruction-backed label conflicts with the current manifest/provider-local SessionStart projection. The source supports this event-specific hook path, not full host parity or demonstrated host trust/consumption.
+3. Exact, blob-verified cache-checker and plugin-manifest bytes were tested offline with synthetic caches. C0 all referenced targets present: exit 0. C1 only hook absent: exit 0. C2 only MCP absent: exit 1. This demonstrates omitted-hook-reference coverage in that checker, not a live user incident or whole-system safety verdict.
 
-Yöntem v0.1 önerilmiş/yerel olarak değerlendirilmiştir; odağı koruduğu veya cold-start davranışını güvenceye aldığı henüz gösterilmemiştir. [METHOD-REVIEW](METHOD-REVIEW.md) bu ayrımı korur.
+The upstream native-hook test was read, NOT run. No actual Codex/Claude session, hook-body execution, full upstream suite or effectiveness study occurred. The local probe used dummy target contents and a synthetic version-only package.json. SOURCE OBSERVATION, TARGET CLAIM, LOCAL EXECUTION and INFERENCE remain distinct.
 
-## Canonical responsibilities
+## Method and plan state
 
-Batu amaç, kapsam, kullanıcı değerlendirmesi ve maddi aşama değişikliğinin sahibi. Assistant mevcut yetki içinde kaynak okuma, analitik sentez, yöntem/plan revizyon gerekçesi ve doğru yayın/devralma kaydından sorumlu. Plan sıralaması veya soru bölme/birleştirme gerekçeli biçimde uyarlanabilir; bu, yeni bir proje aşamasını kendiliğinden yetkilendirmez.
+METHOD stays v0.1. PLAN v0.2 splits U01-A/U01-B because the first source map exposed materially different delivery surfaces and a source/verifier contradiction worth a bounded falsifier before broader synthesis. Full-tree discovery has not been silently declared complete or waived. [MR01](METHOD-REVIEW.md#mr01--2026-09-17--u01-a) records observed correction, overhead and remaining method-efficacy uncertainty. This is same-session work, not an independent cold-start validation.
 
-Yazma alanı `research/studies/ecc/**` ve yalnız ECC'yi keşfettiren `research/studies/CATALOG.md` / `INDEX.md` ekleridir. Diğer studies, Foundation, soul-context, explorations ve control dosyaları korunur.
+## Responsibilities and write boundary
 
-## Cold-start — full entry reads, then selective source recovery
+Batu owns goal/scope and material phase changes. Assistant owns authorised reading, source-bound synthesis, justified in-study sequencing and verifiable repository continuity. One active main research unit; dependent branches are explicit, not hidden scope expansion.
 
-Canonical AGENT/protocol bootstrap sonrasında:
+Write scope: `research/studies/ecc/**` plus ECC discovery/status edits in `research/studies/CATALOG.md` and `INDEX.md`. Preserve other studies, Foundation, soul-context, explorations, target repositories and control files.
 
-1. Bu [STATE](STATE.md), [INDEX](INDEX.md), [META](META.md), [00-WHY-THIS-RESEARCH](00-WHY-THIS-RESEARCH.md).
-2. Güncel [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md).
-3. [SOURCE-LEDGER](SOURCE-LEDGER.md) entry/freshness kısmı ve seçilen birimin kayıtları; U00'da dosya küçüktür, tamamı okunur.
-4. [RESEARCH-LOG](RESEARCH-LOG.md) son birim ve [METHOD-REVIEW](METHOD-REVIEW.md) güncel yöntem değişiklikleri. U00'da ikisi tam okunur; büyüdüğünde son durumdan ilgili eski karara geri gidilir.
-5. İlgili mekanizma notu, alt-sentez ve yük taşıyan pinned kaynaklar. Özet exact iddiayı taşımıyorsa asıl kaynağa dönülür. [PUBLICATION](PUBLICATION.md) gerçek yayın/geri-okuma durumunu ve korunmuş eşzamanlı Superpowers güncellemesini gösterir; eski unreferenced commit bekleyen upload/merge işi değildir.
+## Cold-start
 
-Yeni oturum kısa biçimde devralınan soru, kapsam/yetki, son bulgu ve açıklığı belirtir; kullanıcıdan projeyi yeniden anlatması istenmez. Mandatory giriş erişimi/tutarlılığı eksikse etkilenen işe devam edilmez.
+After canonical control bootstrap:
 
-## First continuation boundary
+1. Full read [STATE](STATE.md), [INDEX](INDEX.md), [META](META.md), [WHY](00-WHY-THIS-RESEARCH.md), [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md).
+2. Read [SOURCE-LEDGER](SOURCE-LEDGER.md)'s current update and [U01-A sources](evidence/U01-A-SOURCES.md); read [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) and [STRUCTURE](inventory/STRUCTURE.md) in full for U01-B.
+3. Read the U01-A entry in [RESEARCH-LOG](RESEARCH-LOG.md), MR01 in [METHOD-REVIEW](METHOD-REVIEW.md), and the latest [PUBLICATION](PUBLICATION.md) receipt. Use E01 raw plan/runner/results before an exact test claim; do not infer validity from its short summary.
+4. Use [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv) and the exact pinned sources for U01-B. Recover deeper sources when a summary drops the required boundary.
 
-U01 yalnız dış hedefin sınırını ve doğal ailelerini kuracak; ilk önce mevcut yedi ön-tarama başlığını doğrulamaya çalışmayacak. Tam tree/manifest/distribution keşfinden sonra bir source→materialization→host consumption dilimi seçilecek. PLAN'daki sıra bağlayıcı takvim değildir. U01 dönüşü envanter, bounded orientation bulgusu, kaynak kapsamı ve revize edilmiş sıradaki birimdir; tüm repo anlaşılmış sayılmaz.
+Return a brief orientation before new source work. Do not repeat U00 or label U01-A a completed ECC study. A missing mandatory/current surface stops the affected work; no guessed continuation.
 
-## Current environment and project context
+## Environment and next starting point
 
-GitHub bağlantısıyla canonical okuma ve repo nesnesi/yayın araçları kullanılabilir. Bu tur container'dan doğrudan GitHub'a yardımcı erişim denemesi DNS çözümlemesinde başarısız oldu; bu GitHub connector'ın başarısızlığı değildir. Yerel ECC checkout/runtime hazır varsayılmaz; gelecekte gerekiyorsa capability tekrar kontrol edilir.
+GitHub connector provides canonical source and publication access. Container-side GitHub DNS failed again; no full checkout exists. Offline Python 3.13.5 / Node v22.16.0 could execute the isolated checker. Re-check capabilities before any different experiment; no live host capability is assumed.
 
-Foundation'ın 2026-09-17 STATE'i genel derinleştirmede yeterli durma noktasını, somut hedefte seçici kullanım ve yeniden açılabilirliği kaydeder; bu ECC çalışması Foundation veya Development OS'u devralmaz. Geç projeksiyonda o günün durumu yeniden okunur.
+First U01-B reads: pinned install-modules.json, install-components.json and scripts/install-apply.js; discover actual marketplace files via `.agents` tree `0b6fef700821049a86f9cef4b83d4fd06e371bdc`. Preserve the Node/Rust/native-workflow boundaries while tracing source→materialization→consumer. U02 is not yet chosen as an accepted full mechanism unit.
+
+Foundation/project-facing projection stays later and requires then-current canonical context. The unchanged Foundation context recovered at U00 is not a licence to design or implement a system now.
