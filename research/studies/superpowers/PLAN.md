@@ -1,4 +1,4 @@
-# Superpowers Study — Plan v0.9
+# Superpowers Study — Plan v0.10
 
 Date: 2026-09-17. [METHOD.md](METHOD.md) remains v0.1. [STATE.md](STATE.md) owns current work, authorization and completion.
 
@@ -6,74 +6,65 @@ Date: 2026-09-17. [METHOD.md](METHOD.md) remains v0.1. [STATE.md](STATE.md) owns
 
 How do shared skill instructions, host delivery, work artifacts, actor decisions, verification, lifecycle and skill evolution compose into Superpowers' development methodology, and where do their guarantees stop?
 
-Units are provisional questions, not a final architecture. A unit can span turns. File counts, a fixed number of experiments and an informal progress percentage are not completion criteria.
+Units are provisional questions, not a final architecture. File counts, fixed experiment totals and an informal progress percentage are not completion criteria.
 
 ## Investigation units
 
-| Unit | Main surfaces | Current bounded status |
-|---|---|---|
-| U00 — Corpus/orientation | Primary source families, manifests, helpers/tests/docs | Fourteen observed SKILL bodies fully read. Supporting/runtime/distribution coverage remains incomplete; not a recursive whole-repository reading claim. |
-| U01 — Entry/host delivery | Bootstrap, discovery, adapters and re-entry | Bounded selected-source/local model complete after U01-A/B; not all-host/model qualification. |
-| U02 — Intent/work handoff | Brainstorming, planning, workspace and artifact identity | Bounded source/helper complete; F13–F19/E05–E06 preserved. |
-| U03 — Execution/delegation | SDD, inline/parallel work, review and acceptance | Bounded source/helper complete; F20–F27/E07–E08 preserved. |
-| U04 — Evidence/correction | TDD, diagnosis, review feedback and verification | Bounded source/helper complete; F28–F35/E09–E10 preserved. |
-| U05 — Delivery/lifecycle | Human choice, integrated result, cleanup and retained evidence | Bounded source/local Git-primitive complete; F36–F42/E11–E12 preserved. No live consent or forge integration. |
-| U06-A — Skill authoring/admission | Writing-skills, references, contributor duties, historical pressure material | Bounded source complete; F43–F49; no new execution. |
-| U06-B1 — Conversation evidence/verdict | Representative review scenario, paired configurations, projected roles, capture/checks/composer | Bounded source complete; F50–F57; no live grading validation. |
-| U06-B2 — Assessor and qualification | Campaign-named Gauntlet producer, completion/accounting, source materialization, public experiment records and CI scope | BOUNDED SOURCE / PUBLISHED-RECORD COMPLETE; F58–F64. U06's selected inquiry closes with explicit empirical limitations, not grader certification. |
-| S01 — First subsystem synthesis | Skill evolution and evaluation | Published provisional native synthesis of A/B1/B2. Not whole-system CORE or Foundation projection. |
-| U07 — Runtime/distribution | Visual companion, supporting tools/references, remaining adapters, installation/update/packaging | NEXT. Return to the primary pinned corpus; close load-bearing runtime/materialization and distribution seams. |
-| U08 — Composition/projection/closure | Remaining native subsystem and cross-system explanations, current Foundation/selective comparators | Build remaining syntheses → whole-system model → project-facing projection → CORE → reverse-source/freshness challenge. Still open. |
+| Unit | Current bounded status |
+|---|---|
+| U00 — Corpus/orientation | Fourteen original SKILL bodies fully read; remaining supporting/distribution coverage open. Not a recursive whole-repository reading claim. |
+| U01 — Entry/host delivery | Selected-source/local model complete after U01-A/B; not all-host/model qualification. |
+| U02 — Intent/work handoff | Bounded source/helper complete; F13–F19/E05–E06 preserved. |
+| U03 — Execution/delegation | Bounded source/helper complete; F20–F27/E07–E08 preserved. |
+| U04 — Evidence/correction | Bounded source/diagnostic-helper complete; F28–F35/E09–E10 preserved. |
+| U05 — Delivery/lifecycle | Bounded source/local Git-primitive complete; F36–F42/E11–E12 preserved. No live consent or forge integration. |
+| U06-A/B1/B2 — Skill evolution/evaluation | Bounded source and attributed public-record inquiry complete; F43–F64. No new U06 execution, grader certification or general efficacy conclusion. |
+| S01 — First subsystem synthesis | Provisional native skill-evolution/evaluation synthesis published. Not CORE or Foundation projection. |
+| U07-A — Visual runtime | BOUNDED SOURCE / MOCKED-CLIENT COMPLETE; F65–F72, S71–S78, E13/E14. Consent, display, access, interaction, reconnect and retention explained. No actual browser/server/host qualification. |
+| U07-B — Distribution and remaining supports | NEXT: package/sync/version scripts, remaining adapters/install/update paths, copied authoring reference and graph support. U07 overall remains OPEN. |
+| U08 — Composition/projection/closure | Remaining native syntheses → whole-system model → current project-facing projection → CORE → omission/freshness challenge. Still OPEN. |
 
 ## Preserved evidence and identities
 
-Primary remains `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Lab remains `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`. No new HEAD or installed-version verdict was issued.
+Primary remains `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Evaluation lab remains `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`. Campaign-named Gauntlet source remains `db6c8e0fcf80889aa6d9631c99adec698f6c0caa`, with separately recorded `25a2e3e00431f8d8eb63781162ccb974d43d5405` delta. No new HEAD, installed-version or release verdict.
 
-U06-B2 adds the historical Gauntlet pin `db6c8e0fcf80889aa6d9631c99adec698f6c0caa`, selected from a reported run, and the exact later `25a2e3e00431f8d8eb63781162ccb974d43d5405` delta. Later public notes cite other runtime revisions; those are not silently treated as inspected implementations.
+Ten mechanism notes, one provisional synthesis and seven local experiment records now exist. E01–E12 and earlier notes/source volumes remain unchanged. E13/E14 is one new exact-helper mocked-client experiment, not another live scenario. All nine expected observations were obtained; two stronger criteria remain unmet. Reported U06 experiments remain attributed claims rather than our measurements.
 
-Nine mechanism notes, one provisional subsystem synthesis and six original experiment records now exist. E01–E12 and all earlier notes/source volumes remain unchanged. U06-A/B1/B2 ran no new script, model, oracle or test suite. Public experiment counts are attributed reports, not our measured performance. Prior failed criteria remain failures at their original scope.
+## U06 disposition remains unchanged
 
-## U06 closure and residual disposition
+U06 explains authoring, comparison intent, representative preparation/evidence, assessor report production, validation/repair, publication/accounting and inference limits. Actual loaded treatment, all capture/adapters, private-run authentication, semantic calibration and administrative release admission remain conditions for stronger claims, not an automatically continuing evaluator audit. See [B2](notes/U06B2-assessor-contracts-and-evidence-qualification.md) and [S01](syntheses/S01-skill-evolution-and-evaluation.md).
 
-The selected source chain now covers authoring, comparison intent, representative evidence routing, report production, validation/recovery, publication/accounting and final qualification boundaries. It is sufficient for a bounded explanation and explicit refusal to infer general effectiveness. A complete evaluator-platform audit is not needed for that result.
+## U07-A result and split rationale
 
-| Previously open item | Current disposition |
-|---|---|
-| Gauntlet producer identity and contract | Source answer at a campaign-named revision, with a checked narrow subsequent delta. No universal version claim. |
-| Rubric/citation/completion/accounting guards | Concrete producer/consumer mechanisms explained; truth and semantic coverage remain separate. |
-| Declared/materialized/loaded subject | Representative snapshot/materializer located. Actual loaded treatment and all capture/adapter paths remain unverified applicability prerequisites for stronger empirical claims. |
-| Published run evidence and disagreements | Two public records read fully and a later record selectively. Private authenticated bundles were not accessed; no independent replication. |
-| CI and real release acceptance | Evals static workflow and primary tracked workflow absence established at their pins. Actual administrative enforcement unverified; packaging/update realization remains U07. |
-| Provider/campaign/normalizer depth | Reopen selectively only when needed for a stronger claim, adoption or a new contradiction. Not an automatic endless continuation queue. |
+The five-file companion runtime and its guide form a coherent consent-to-shutdown mechanism. They are now fully source-read, and the client was exercised with explicit fake-environment limits. Distribution/version changes involve different inputs and consumers; separating U07-B avoids calling those newly listed scripts investigated. Whole-study closure criteria are unchanged.
 
-This is research-scope closure, not relaxation of a test criterion or promotion of an indeterminate result to pass. The explicit limitations remain available in B2 and [S01](syntheses/S01-skill-evolution-and-evaluation.md).
+Preserve the distinctions between optional dialogue support and approval, key possession and authority, reconnection and restored work, click and selected state, producer output and designated persistence file, and mockup retention and full interaction history. The helper's explicit API/persistence field mismatch is source/client evidence; cross-session false approval and real event loss were not observed.
 
-## Next concrete sequence — U07
+## Next concrete sequence — U07-B
 
-1. Recover STATE's cold-start, B2's final dispositions and S01. Preserve completed U01–U06 findings rather than restarting from README descriptions.
-2. Re-enter the pinned brainstorming skill and confirm its actual visual-companion support paths from the tree. Follow consent → startup → server/client communication → generated/displayed content → recorded interaction → exit/retention. Distinguish source instructions, executable helpers and actual host behavior.
-3. Inspect remaining adapters and distribution paths by source references: installation, update, manifests, package boundaries, runtime dependencies and transformed/materialized files. Keep guide claims separate from actual scripts and consumer behavior. Do not install on the user's host.
-4. Close material supporting-source omissions, including writing-skills' copied vendor reference, graph conventions and renderer when they affect the source model. Read the copied document as a pinned project artifact, not automatically current vendor policy. Revalidate external claims only where consequential.
-5. Trace actual release/update mechanisms present in the primary corpus, carrying U06's distinction between contribution duties, static CI, live evaluation and realized release. Do not invent branch protection or administrative acceptance from source absence.
-6. Use a safe bounded local check only if it separates a material uncertainty. Do not create experiments as ceremony or treat source-defined behavior as executed evidence. Preserve source identities and incomplete coverage explicitly.
-7. Publish a bounded U07 mechanism result and update the remaining source-coverage map. Then determine whether the remaining native syntheses can be produced without a known decision-critical missing family.
+1. Follow current STATE's cold-start; recover U07-A and its source/evidence limits. Do not rerun U01–U06 or open another evaluator audit by default.
+2. Read the root scripts listed in U07-A: `scripts/package-codex-plugin.sh`, `scripts/sync-to-codex-plugin.sh`, `scripts/bump-version.sh`, and `scripts/lint-shell.sh` only to relevant dependency depth. Follow manifests, source selection/transformation, destination safeguards, version consistency, generated records and actual publication commands. These script bodies are not yet read.
+3. Inspect remaining integration/install/update paths from the pinned tree and documents, including Devin and the earlier Antigravity guide/source seam. Distinguish installed files, discovery, bootstrap, host runtime and effective model use. Do not install on the user's host or publish upstream.
+4. Read load-bearing authoring supports: copied `anthropic-best-practices.md`, `graphviz-conventions.dot`, `render-graphs.js`, and any genuinely needed reviewer/reference dependency. A vendor copy is a pinned artifact, not current vendor policy. Mark selective historical reading honestly.
+5. Carry U06's static-CI/admission/efficacy boundaries into release materialization and U07-A's runtime/data-lifetime boundaries into package consumers. No administrative gate or complete release chain is inferred from a checklist.
+6. Use safe local probes only when they separate a material uncertainty. Source-only closure remains valid with explicit limits; no ceremonial experiments or all-host qualification are required.
+7. Publish a bounded distribution result and an updated source-coverage/omission map. Only then determine whether the remaining native syntheses have a known decision-critical missing family.
 
-U08 remains authorized research synthesis, not implementation or adoption. Before project-facing projection, recover then-current Foundation and relevant comparator sources; do not import stale taxonomies or compare a procedure pack with a full runtime without adjusting scope.
+U08 remains research synthesis, not architecture implementation. Before project-facing projection recover then-current Foundation and relevant comparator evidence. Do not import a stale taxonomy or compare a procedure pack to an entire runtime without adjusting scope.
 
 ## Method and plan evolution
 
-Earlier evolution is retained in [the immutable v0.8 plan](https://github.com/batuhanozgun/agentic-os-search/blob/ce4ff8208c19641cd9b1bde27493d298a172ba4d/research/studies/superpowers/PLAN.md). METHOD v0.1 and whole-study closure criteria are unchanged.
+Earlier v0.9 and its prior-history links remain at [the immutable U06-B2 plan](https://github.com/batuhanozgun/agentic-os-search/blob/8a215c5e587e51f865c6c5be0b60065a0691cbb2/research/studies/superpowers/PLAN.md). METHOD v0.1 and bounded-completion criteria are unchanged.
 
-### v0.9 — U06-B2 and first synthesis
+### v0.10 — U07-A visual lifecycle
 
-- Follow the assessor producer rather than trusting the consumer's schema: exact criterion rows, canonical text by position, prior-read references and a two-tool interface have concrete implementations, but do not establish semantic entailment.
-- Separate changes to the measured procedure from changes to the measuring instrument. Representation repair can improve accepted-result counts without improving subject behavior.
-- Distinguish report decision, published completion, result-byte integrity, completed logical history and full usage coverage. A priced subtotal does not qualify unknown usage as observed.
-- Use public negative evidence and later records to constrain stronger conclusions. Full-output semantic misses and isolated-case successes do not identify context length as their cause or establish an error rate.
-- Advance declared source correspondence to representative materialization without overstating actual loaded treatment, ignored-input closure or all-harness capture.
-- Close U06 with a native synthesis and explicit residual dispositions. Return to primary runtime/distribution instead of recursively auditing every transitive evaluator dependency.
-- Preserve the distinction between source findings, first-party reported experiments and our own observations. No E-series experiment or new efficacy/progress score was created.
+- Complete a consent/display/access/event/recovery/retention source chain instead of counting newly listed distribution files as progress.
+- Add exact-helper mocked-browser observations for event schema, multiselect, queues and reconnection. Keep server consequences source-derived and two unmet criteria explicit.
+- Preserve the native design: terminal dialogue is primary and visual clicks are supporting evidence, not an automatic approval authority.
+- Distinguish same endpoint/key from the new launcher-created session directory, and retained mockups from event/log history.
+- Read first-party helper tests beyond their introductory comments; they include mocked browser behavior as well as string/pure checks, but were not run here.
+- Split remaining U07-B by its actual distribution/support mechanism, not an arbitrary file quota. No new completion percentage or efficacy score.
 
 ## Return condition and protected scope
 
-Return after a meaningful bounded result and usable canonical handoff. Only this package and necessary library discovery entries may change. Foundation, other studies, Development OS, agent-control and external repositories remain protected. No installation, paid/live campaign, key acquisition, upstream report or architecture/adoption phase is authorized by this plan. No background work is scheduled.
+Return after a meaningful bounded result and usable canonical handoff. Only this package and necessary library discovery entries may change. Foundation, other studies, Development OS, agent-control and upstream repositories remain protected. No user-host installation, paid/live campaign, credentials, upstream report or adoption is authorized. No background work is scheduled.
