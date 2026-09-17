@@ -50,6 +50,8 @@ Do not load every study merely because the library exists.
 |---|---|---|
 | Scan all known candidate studies | `CATALOG.md` | selected package `META.md` |
 | Understand package creation/metadata rules | `PACKAGE-CONTRACT.md` | root `../INDEX.md` |
+| Work management / project control methodology across classical PM, workflow/case, dependency-graph, spec/artifact and agent-native systems — active sequential program | `work-management-project-control/META.md` | `STATE.md` → `METHOD.md` / `PLAN.md` → completed target packages beginning with `openproject/` |
+| OpenProject classical project/work-package control baseline — U01 bounded complete | `openproject/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
 | The Carbon Layer video collection and video selection | `the-carbon-layer/META.md` | collection STATE → VIDEO-CATALOG → selected video's local STATE/INDEX |
 | Visual/practitioner roadmap as a discussion-driven research-gap trigger for agentic systems | `agentic-ai-systems-roadmap/META.md` | `STATE.md` → `INITIAL-ASSESSMENT.md` → `SOURCE-VISUAL.md` / image → related studies |
 | Knowledge access / representation / adaptation mechanisms | `ai-knowledge-strategies/META.md` | `STATE.md` → `INDEX.md` / mechanism files |
@@ -114,10 +116,12 @@ Completion of a study never authorizes adoption.
 - `i-have-adhd/`
 - `mattpocock-skills/`
 - `multi-agent-patterns/`
+- `openproject/`
 - `openviking/`
 - `public-apis/`
 - `recursive-prerequisite-discovery/`
 - `superpowers/`
 - `the-carbon-layer/` — includes `videos/mQfTdNVCOB0-harness-engineering/`; the retired sibling is navigation only.
+- `work-management-project-control/`
 
 The library is expected to grow substantially. `CATALOG.md` should remain a compact discovery surface rather than a second synthesis corpus.
