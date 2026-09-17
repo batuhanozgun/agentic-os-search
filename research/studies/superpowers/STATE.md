@@ -77,7 +77,16 @@ No real Claude/Codex/Cursor/Hermes/Pi/OpenCode host session, Windows wrapper, cr
 
 ## Publication checkpoint
 
-Package creation is in progress in `main`. The methodology, plan, source ledger, first note and experiment files have been written. Package INDEX and library CATALOG/INDEX registration/readback remain to be completed in this publishing sequence. Do not mistake this intermediate checkpoint for completed library registration.
+**First-round publication is complete in `main`; the research itself remains ACTIVE / PARTIAL.** Nine package files are present, and the library CATALOG and INDEX contain the Superpowers discovery/continuation routes.
+
+The publication comparison from pre-study commit `9c634542a6d7c4f47580cc209b5d438f6594bc81` through registration commit `e3af9d9fc40391ebb31b2a8972fd5e1b7994d52f` reports exactly nine added package files plus two modified library indexes. CATALOG changed by one added line; the library INDEX changed by two added lines; neither removed existing content. This subsequent STATE-only edit closes the intermediate publication checkpoint without changing research findings or authorization.
+
+GitHub readback confirmed the package INDEX, METHOD and STATE, and both shared discovery routes. Published experiment files match the actual local files by Git blob identity:
+
+- runner: `9ca0b43739e69c930d1241601bb61b7ef1872ff1`;
+- results: `0a21d98568b71a7c1d99385b9d8ae88611ebed78`.
+
+These checks establish publication/transfer integrity and bounded change scope, not independent validation of the research interpretation or real-host behavior. No pending branch, manual upload or unrecorded research continuation is required to recover this first round. Resume with U01-B.
 
 ## Protected scope
 
