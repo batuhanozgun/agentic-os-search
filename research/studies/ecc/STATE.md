@@ -2,7 +2,7 @@
 
 **Updated:** 2026-09-17
 **Current checkpoint:** U01-B — installation channels and materialization
-**Work status:** U01-B bounded source work COMPLETE; new findings and continuation are prepared for publication. Verify actual publication/readback through PUBLICATION; preparing this text is not a publication receipt.
+**Work status:** U01-B COMPLETE / PUBLISHED. PR #3 merged the source/evidence package into main; ECC catalog/index routes were updated, and Note 02, source ledger, STATE and PLAN plus shared routes were read back. [PUBLICATION](PUBLICATION.md) records actual commits, concurrency handling and verification limits. No owner upload or merge is pending.
 **Study status:** ACTIVE / PARTIAL. P1 / overall U01 discovery remains PARTIAL; full recursive inventory and host/consumer closure are not complete.
 **Method / plan:** v0.1 / v0.3
 **Pinned target:** affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a
