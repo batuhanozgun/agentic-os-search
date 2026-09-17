@@ -8,9 +8,9 @@ User authorization on 2026-09-17: plan the research program, process candidate r
 
 ## Current status
 
-**ACTIVE / U01 OPENPROJECT + U02 FLOWABLE + U03 BEADS BOUNDED-COMPLETE; U04 OPENSPEC NEXT**
+**ACTIVE / U01–U04 BOUNDED-COMPLETE; U05 SPEC KIT NEXT**
 
-The common comparison method is established. OpenProject provides the classical project/work-package baseline; Flowable provides durable process/case/decision execution; Beads provides an agent-native dependency/frontier/claim model. The next unit is OpenSpec.
+OpenProject provides the classical project/work-package baseline; Flowable provides durable process/case/decision execution; Beads provides an agent-native dependency/frontier/claim model; OpenSpec provides an artifact-dependency/living-plan model. The next unit is GitHub Spec Kit.
 
 ## Completed
 
@@ -27,58 +27,58 @@ The common comparison method is established. OpenProject provides the classical 
 
 Durable external-target package: `../openproject/`.
 
-Source-bounded findings at `opf/openproject@f531cc348d6920dd6d02f9b395f90878db57b3d3`:
-
-- WorkPackage is the main operational work object and separates type, status, author, assignee, responsible actor, schedule and history surfaces.
-- Parent/child decomposition is distinct from ordinary work-package relations.
-- Relation types carry different control effects: temporal predecessor/successor, closure blocker, duplicate propagation and non-enforcing semantic relations are not one generic dependency.
-- Manual versus automatic scheduling separates relation existence from active schedule enforcement.
-- Status transition authority is configurable by work-package type × role, with author/assignee-specific additions; reverse transitions/reopen are normal when configured.
-- Project / Program / Portfolio composition separates operational execution from strategic visibility/coordination.
-- No single canonical “ready frontier” was found in this slice; readiness/control is distributed across workflow, blockers and schedule constraints.
-
-See `../openproject/FINDINGS.md` and `../openproject/SOURCE-LEDGER.md`.
+Key source-bounded findings:
+- WorkPackage separates lifecycle, type, assignment/responsibility, schedule and history.
+- hierarchy, temporal dependency, closure blocking and semantic relations are distinct mechanisms;
+- manual/automatic scheduling separates relation existence from active control;
+- type×role workflow controls allowed state transitions and reopening;
+- Project/Program/Portfolio distinguish operational and strategic aggregation.
 
 ### U02 — Flowable — BOUNDED-COMPLETE
 
 Durable external-target package: `../flowable/`.
 
-Source-bounded findings at `flowable/flowable-engine@42aa81de65ce48572577c1826ba5d16135347aff`:
-
-- BPMN process instances follow executable sequence/event structure and persist at wait states; human/system activities can share one runtime.
-- Human tasks support candidate pool → claim → assignee → complete semantics.
-- CMMN case work uses a distinct plan-item lifecycle (`available`, `enabled`, `active`, suspended/terminal states) with sentry criteria and manual/required/repetition controls.
-- “conditions satisfied” and “work actively started” are distinct when manual activation is in effect.
-- DMN keeps repeatable decision policy separable from flow and can be called from BPMN.
-- Already-running work does not silently adopt a changed model: process/case instance migration maps durable runtime state to a new definition.
-- Reopen/retry/migrate/suspend/cancel/terminate/compensate are not interchangeable forms of “go back.”
-- Durable timers/async jobs/retry-dead-letter behavior make Flowable execution-coupled rather than tracker-only.
-
-See `../flowable/FINDINGS.md` and `../flowable/SOURCE-LEDGER.md`.
+Key source-bounded findings:
+- BPMN durable process execution persists at waits and composes human/system activity;
+- CMMN exposes condition/event/manual-activation case control with a richer plan-item lifecycle;
+- DMN separates repeatable decision policy from execution flow;
+- migration/retry/suspend/cancel/terminate/compensate are different forms of revision/recovery;
+- recorded state and engine-executed transition are distinct categories.
 
 ### U03 — Beads — BOUNDED-COMPLETE
 
 Durable external-target package: `../beads/`.
 
-Source-bounded findings at `gastownhall/beads@71c4cd08b9991e7ba4e53822769c78337e0f4ee4`:
+Key source-bounded findings:
+- actionable ready work is derived rather than synonymous with open status;
+- source has richer readiness-affecting dependency semantics than simplified repo documentation;
+- discovery provenance is distinct from prerequisite blocking;
+- claim is race-safe and separate liveness lease/heartbeat supports dead-worker recovery;
+- reopen recomputes downstream blocking; durable graph state lives in Dolt.
 
-- Ready work is derived from status category, blocked projection, defer timing, hierarchy/dependencies and filters; open is not synonymous with actionable.
-- Current source has richer readiness-affecting dependency semantics than the repository's simplified dependency guide; source wins over stale/derived docs.
-- `discovered-from` preserves work emergence/provenance without automatically imposing prerequisite semantics.
-- Claim is a compare-and-swap allocation transition, and claim-ready computes/selects/claims within one transaction.
-- A liveness lease/heartbeat is separate from durable assignment; stale claims can be reclaimed after dead-worker failure.
-- Reopen of a done-category issue recomputes derived blocked standing across affected graph neighbors, so backtracking can re-block downstream work.
-- Dolt is the durable source of truth/sync substrate; JSONL is derived interchange/view material.
+### U04 — OpenSpec — BOUNDED-COMPLETE
 
-See `../beads/FINDINGS.md` and `../beads/SOURCE-LEDGER.md`.
+Durable external-target package: `../openspec/`.
+
+Source-bounded findings at `Fission-AI/OpenSpec@bae58cf61479986431bb798acbe5a688a591c18c`:
+
+- a change is represented through differentiated planning artifacts, not one task record;
+- workflow schemas define a validated artifact DAG; artifact readiness means planning dependencies are materialized;
+- `apply.requires` creates a separate implementation-readiness boundary, and tracked tasks create blocked/ready/all-done apply progress;
+- artifact `done` is primarily materialization/file-existence, not semantic acceptance;
+- proposal/spec/design/tasks remain editable during implementation; tasks are a living checklist;
+- code/artifact drift is explicitly reconciled before archive, where proposed deltas can become current-spec truth;
+- the work method/schema is configurable and distinct from a change instance.
+
+See `../openspec/FINDINGS.md` and `../openspec/SOURCE-LEDGER.md`.
 
 ## First-wave unit queue
 
-1. **U01 — OpenProject** — **COMPLETE** — classical project/work-package baseline.
-2. **U02 — Flowable** — **COMPLETE** — durable process/case/decision execution baseline.
-3. **U03 — Beads** — **COMPLETE** — agent-native dependency graph, ready frontier and recoverable claim baseline.
-4. **U04 — OpenSpec** — **NEXT** — artifact/work dependency graph and progressive spec-driven enablement.
-5. **U05 — Spec Kit** — specification → plan → tasks → implementation/convergence loop.
+1. **U01 — OpenProject** — **COMPLETE**
+2. **U02 — Flowable** — **COMPLETE**
+3. **U03 — Beads** — **COMPLETE**
+4. **U04 — OpenSpec** — **COMPLETE**
+5. **U05 — Spec Kit** — **NEXT** — specification → plan → tasks → implementation/convergence loop.
 6. **U06 — Leantime** — strategy/goals → milestones/projects/tasks → execution and retrospective surfaces.
 7. **U07 — Gas Town** — multi-agent work allocation, persistent work state and large-scale coordination.
 8. **U08 — Cross-unit synthesis** — compare mechanism families without forcing a winner or universal ontology.
@@ -97,16 +97,20 @@ Not yet activated as full units; activate only for a demonstrated coverage gap:
 - Huly — unified project/document/communication workspace;
 - TASKS.md or another minimal file-native agent queue — minimum viable shared-work representation.
 
-## Method learning after U01–U03
+## Method learning after U01–U04
 
-The initial comparison matrix survives, with six distinctions now explicitly load-bearing:
+Ten distinctions are now load-bearing:
 
-1. **relation identity ≠ control effect.** A hierarchy, schedule dependency, closure blocker and semantic relation may all connect work objects while governing different effects.
-2. **recorded state ≠ executed transition.** A tracker can describe state; an execution engine can persist and causally advance/wait/retry the work itself.
-3. **backtracking is a family, not one transition.** Reopen, migrate, retry, suspend, cancel, terminate and compensate have different causal/epistemic meanings and recovery guarantees.
-4. **lifecycle status ≠ derived actionable standing.** Open work can still be non-actionable under graph, defer or policy constraints.
-5. **claim/assignment ≠ holder liveness.** Durable ownership needs a separate abandonment/recovery policy when actors can disappear.
-6. **work-discovery provenance ≠ prerequisite relation.** Newly discovered work may be relevant without blocking the work that revealed it.
+1. **relation identity ≠ control effect**;
+2. **recorded state ≠ executed transition**;
+3. **backtracking is a family, not one transition**;
+4. **lifecycle status ≠ derived actionable standing**;
+5. **claim/assignment ≠ holder liveness**;
+6. **work-discovery provenance ≠ prerequisite relation**;
+7. **work item ≠ work artifact**;
+8. **materialized artifact ≠ semantically accepted/current artifact**;
+9. **planning readiness ≠ implementation readiness ≠ implementation completion**;
+10. **work method/schema can be an explicit object distinct from the work instance**.
 
 Later units should preserve these distinctions rather than normalizing every system into task/status/dependency.
 
@@ -125,7 +129,7 @@ Before a unit can be marked source-bounded complete:
 
 ## Current next action
 
-Begin **U04 OpenSpec**. Recover its native artifact/change/workflow model, especially how artifact dependencies determine what can be produced next, whether readiness means “dependencies exist” or “work is authorized,” how custom schemas alter the graph, how changes/revisions/archive work, and where artifact completeness differs from implementation completion. Compare to Beads only where graph/readiness semantics genuinely align.
+Begin **U05 GitHub Spec Kit**. Recover its native specification-driven lifecycle, constitution/spec/plan/tasks boundaries, how tasks are generated and grouped, how implementation discovers or reconciles missed work, what “convergence” means in current source/docs, and whether phase sequencing is enforced, advisory or agent-procedural. Contrast with OpenSpec without adopting either project's self-comparison claims.
 
 ## Fresh-session recovery
 
@@ -135,6 +139,6 @@ A new session should read:
 2. this `STATE.md`
 3. `METHOD.md`
 4. `PLAN.md`
-5. completed target package(s) only when comparison requires them: `../openproject/`, `../flowable/`, `../beads/`.
+5. completed target package(s) only when comparison requires them: `../openproject/`, `../flowable/`, `../beads/`, `../openspec/`.
 
 Then resume the first unfinished unit listed above. Do not infer completion from files merely existing.
