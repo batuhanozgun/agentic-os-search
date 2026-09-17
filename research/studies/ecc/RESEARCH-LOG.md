@@ -69,3 +69,19 @@ Template alanları gereksiz tekrar için değil, yeni oturumun doğru işi devra
 **Operational limit:** recursive-tree response was acquired but too large to recover as a fully reviewed inventory; source metadata acquisition is not content reading. Direct container acquisition again failed at DNS; no checkout was established. [Discovery delta](inventory/U01-B-DISCOVERY.md) updates only named `.agents` entries and preserves old frontier material.
 
 **Next:** U02-A begins at install/ownership-guard.js, install-state.js and install-state-store-sync.js, then actual callers/tests, with Kimi as a non-Codex consumer contrast. Deliver bounded ownership/partial-recovery evidence, not all installer variants or an installation. No background work or architecture transition is implied.
+
+## U02-A — 2026-09-17 — Ownership, checkpoints and projection
+
+**Authorization/input:** user 'anlaştık. devam et.'; current U01-B and its published boundaries recovered through canonical files. The source study continued without installation or architecture authority. The main snapshot immediately before publication was `ab15db506a841720d75cb81c3dec536e55350251`; other study work is preserved.
+
+**Actual work:** [S45–S55](evidence/U02-A-SOURCES.md). Full reads of ownership/state/projection helpers, the bridge-state producer, actual Kimi adapter, store facade and two relevant test files; lifecycle source selected 1–480 only. A five-file state-store directory listing supplies bounded discovery progress. No new ECC helper, installer, test, host, database, model or local probe was executed; E01 was not rerun.
+
+**Result:** [Note 03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md). Common recorded ownership and guided Kimi's identity/live-digest admission differ. Identical bytes do not automatically transfer ownership. The non-Claude branch also produces bridge state, refining Note 02's outer-engine migration framing. Caught-failure handling retains previous unwritten digests, excludes new unowned collisions and can retain missing pending operations. Canonical JSON, projection and scoped current-file health are separate.
+
+**Open boundary:** Q03b records a source-derived, unexecuted two-file interrupted-guided-retry counter-path; retry selection does not guarantee admission. Full repair/uninstall, merged-JSON ownership and abrupt/concurrent persistence remain Q03c. Do not count assertions as passing tests or this counter-path as a production incident.
+
+**Method/plan:** METHOD 0.1 retained; PLAN 0.4. MR03 evaluates MR02: the actual producer corrected a scope assumption, Kimi provided a substantive consumer contrast and bounded discovery avoided a giant-response loop. Record overhead is real but not quantified; no comparative method-efficacy claim.
+
+**Publication:** new source ledger and Note 03 were checkpointed directly on main before continuity updates, rather than held for one large final batch. Actual commits, changed paths and readbacks are in PUBLICATION. Direct GitHub connector worked; auxiliary container DNS and web retrieval supplied no new source evidence.
+
+**Next:** U03-A / Q04, Work/session production→record→consumer/control. Begin sessions-cli.js, work-items.js and state-store/queries.js, follow actual dependencies and preserve Node/Rust separation. Installation residuals reopen when needed, not as an endless prerequisite. P1 remains partial; U03-A has not started.
