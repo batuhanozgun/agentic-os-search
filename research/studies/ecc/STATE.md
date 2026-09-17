@@ -2,7 +2,7 @@
 
 **Updated:** 2026-09-17
 **Current unit:** U00 — araştırma yöntemi, uyarlanabilir plan ve kalıcı çalışma paketi
-**Work status:** U00 içerik hazırlığı tamamlandı; yöntem/plan kullanıcı değerlendirmesine sunuluyor. Bu durumun kalıcı yayını main üzerindeki dosyalar ve yayın kaydıyla kontrol edilir.
+**Work status:** U00 COMPLETE / PUBLISHED; yöntem/plan ve katalog/index yolları main'e yayımlandı, temel girişler ve diff kapsamı geri kontrol edildi. Yöntem/plan kullanıcı değerlendirmesine sunuluyor. [PUBLICATION](PUBLICATION.md) exact commit, eşzamanlılık ve doğrulama sınırlarını taşır.
 **Study status:** METHOD / PLAN PREPARED; U01 ve derin kaynak araştırması NOT STARTED
 **Method / plan:** v0.1 / v0.1
 **Pinned target:** affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a
@@ -39,7 +39,7 @@ Canonical AGENT/protocol bootstrap sonrasında:
 2. Güncel [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md).
 3. [SOURCE-LEDGER](SOURCE-LEDGER.md) entry/freshness kısmı ve seçilen birimin kayıtları; U00'da dosya küçüktür, tamamı okunur.
 4. [RESEARCH-LOG](RESEARCH-LOG.md) son birim ve [METHOD-REVIEW](METHOD-REVIEW.md) güncel yöntem değişiklikleri. U00'da ikisi tam okunur; büyüdüğünde son durumdan ilgili eski karara geri gidilir.
-5. İlgili mekanizma notu, alt-sentez ve yük taşıyan pinned kaynaklar. Özet exact iddiayı taşımıyorsa asıl kaynağa dönülür. Varsa PUBLICATION.md gerçek yayın/geri-okuma durumunu gösterir.
+5. İlgili mekanizma notu, alt-sentez ve yük taşıyan pinned kaynaklar. Özet exact iddiayı taşımıyorsa asıl kaynağa dönülür. [PUBLICATION](PUBLICATION.md) gerçek yayın/geri-okuma durumunu ve korunmuş eşzamanlı Superpowers güncellemesini gösterir; eski unreferenced commit bekleyen upload/merge işi değildir.
 
 Yeni oturum kısa biçimde devralınan soru, kapsam/yetki, son bulgu ve açıklığı belirtir; kullanıcıdan projeyi yeniden anlatması istenmez. Mandatory giriş erişimi/tutarlılığı eksikse etkilenen işe devam edilmez.
 
