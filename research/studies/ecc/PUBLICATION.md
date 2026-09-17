@@ -84,3 +84,37 @@ Main readbacks performed: complete Note 01, STATE before final publication-wordi
 E01 observed the unchanged checker against three synthetic caches, not a Codex session or real installed cache. The missing-hook challenge was a false-green; it is not three passing product tests. Upstream native-hook tests were read but not run. No full recursive inventory, registry tarball, hook-body/host execution, independent cold-start or method-effectiveness experiment was completed. No full automatic link/semantic suite was run. Source-bound notes, exact raw artifacts and explicit U01-B continuation are durable; future understanding and behavioural benefit remain separate claims.
 
 This receipt records known published commits and completed checks; it does not self-reference its own future commit hash. A following STATE-only update closes the publication wording without advancing the study to U01-B.
+
+## U01-B — 2026-09-17 — Published source channel/materialization study
+
+Earlier receipts remain historical. U01-B is a bounded source result, P1 inventory stays PARTIAL, METHOD remains 0.1 and PLAN is 0.3. No new ECC execution occurred.
+
+| Publication | Actual commit / action | Scope |
+|---|---|---|
+| Prepared ECC change | `d637cac34df94bbb0b3b43382614a37b1ba20a89` | 11 ECC-local paths: 3 new note/source/discovery files, 8 updated current/chronological files |
+| Main integration | PR #3; merge `ca843d3e02de43b3d448e054138d229ad8f0a0d3` | GitHub returned merged=true; expected PR head was checked |
+| Catalog status | `cdb1a13a7c24f39b8ee7e086da6031578673e93e` | One ECC row replaced |
+| Library route | `8dcd51f0db04a69d33804032446150d9bdae847b` | One ECC route replaced |
+
+### Actual publication adaptation
+
+Staging began from `afe8710cd9f95264611de6c8be1bc93c3cef844c`. Main advanced through other studies. Exact compares showed no ECC edits, so only prepared ECC subtree `bf17b681f779fda0b1d1e5a8e0baba3fa5d25767` was reattached to current trees. Direct non-force updates of `6bb28ab6420200b1dcdb40e91a15d9a359e6cedd` and then `d637cac34df94bbb0b3b43382614a37b1ba20a89` were rejected with non-fast-forward 422 as main advanced again.
+
+Rather than force stale state or continue an unbounded retry loop, branch `research/ecc-u01b-20260917` was created at the prepared commit. PR #3's actual changed filenames were checked: exactly the 11 ECC paths. It was then merged immediately using the expected head SHA. The branch is a merged publication artifact, not pending owner upload/approval. The unused first commit is not a missing result. This is a publication-workflow adaptation within the authorized repository scope, not upstream reporting or a new research phase.
+
+Compare `dd3b19010c4ebdc2d12a3b7b33ce7826852808f6...d637cac34df94bbb0b3b43382614a37b1ba20a89` confirmed exactly 11 ECC paths. METHOD-REVIEW, RESEARCH-LOG and SOURCE-LEDGER had additions only, zero deletions; METHOD, WHY, U01-A note/evidence and original frontier were preserved. Compare merge `ca843d3...8dcd51f` showed one-line replacement each in CATALOG/INDEX and concurrent spec-kit/work-management changes. Those other changes were preserved and are not ECC work.
+
+### Readbacks actually completed
+
+From main: full Note 02, full U01-B source ledger, full STATE before this final publication-wording update, and full PLAN v0.3. Shared CATALOG lines18–23 and INDEX lines55–68 were read back and carry U01-B → U02-A plus the explicit partial/no-execution boundary. These are access/content checks and bounded same-assistant consistency review, not an independent fresh-session trial or a full automated link/semantic suite.
+
+| Readback | Git blob |
+|---|---|
+| Note 02 | `786514f0fc6cd4287b1a1197eb32ac5c4081ffc8` |
+| U01-B sources | `271b53c98fad2b25232c5aaf73571cba56f27745` |
+| PLAN v0.3 | `4278fb3047c4ae95486375281270bd2c2e8a035e` |
+| STATE before final publication wording | `ffada0905df3a2d063ef092ff8e8328fe98a2e9e` |
+| Catalog | `47008f1bd8e83a3441780d8c8178d3ba20bf2e69` |
+| Library index | `b09efbde4a0f1dc7ba01c6ed66b29e09d4e0344e` |
+
+No ECC installer, test, host/model, new local probe, actual cache or registry tarball was run/read as runtime evidence in U01-B. The large recursive response was not a fully reviewed inventory. Source-level channel/materialization findings are published; ownership-helper closure and actual host consumption remain open. U02-A is the next bounded source question, not already completed work. The subsequent STATE wording update records this completed publication without adding scientific evidence.
