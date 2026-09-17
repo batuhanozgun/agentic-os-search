@@ -1,44 +1,43 @@
 # ECC — STATE
 
 **Updated:** 2026-09-17
-**Current checkpoint:** U04-A — memory scope, recall and authority
-**Work status:** U04-A COMPLETE / PUBLISHED. Eight ECC-local files merged through own-repository PR #6; shared ECC catalog/route updates and the publication receipt reached main. [PUBLICATION-U04-A](PUBLICATION-U04-A.md) records actual commits, readbacks and maintenance limits. No owner upload or merge is pending.
-**Study status:** ACTIVE / PARTIAL; P1, learning, wider security/evaluation/controllers and integrated explanation remain open.
-**Method / plan:** 0.1 / 0.7
+**Current checkpoint:** U05-A — observation, instincts and behavioral context
+**Work status:** U05-A substantive source slice COMPLETE; repository publication/readback IN PROGRESS. Finish the scoped main integration, discovery updates and publication receipt before starting U05-B. A prepared tree is not a published result.
+**Study status:** ACTIVE / PARTIAL. P1, learning-quality qualification, wider security/evaluation/controllers and integrated system explanation remain open.
+**Method / plan:** 0.1 / 0.8
 **Target pin:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`, unchanged.
 
-## Purpose, authority and current result
+## Purpose, authorization and current result
 
-User 'önemli noktadasın. devam et lüfen.' continued the source-grounded ECC study and repository-centred method record. No installation, real model/provider use, architecture, upstream reporting or whole-study closure was authorized.
+The user associated U04-A with Foundation's Information concerns and authorized continuation. Preserve that as a future reuse cue, not a Foundation mapping, new architecture or acceptance of every claim. Current work remains source-grounded ECC research with repository-centred continuity and method evaluation.
 
-Current result: [Note 06](notes/06-MEMORY-SCOPE-RECALL-AND-AUTHORITY.md), [U04-A source ledger](evidence/U04-A-SOURCES.md), [U04-A round and MR06](ROUND-U04-A.md). Prior units U00/U01-A/B/U02-A/U03-A/B and E01–E03 remain historical completed deliveries.
+Current result: [Note07](notes/07-OBSERVATION-INSTINCTS-AND-BEHAVIORAL-CONTEXT.md), [U05-A sources](evidence/U05-A-SOURCES.md), [ROUND-U05-A / MR07](ROUND-U05-A.md). Prior units U00, U01-A/B, U02-A, U03-A/B and U04-A remain completed bounded deliveries; they are not whole-system completion.
 
-- Memory v1 is file-based context, not the earlier Work/session store. Content kind, fixed unreviewed trust and active/rejected/superseded status differ; governed acceptance is outside the vault.
-- CLI and MCP share core functions but differ in identity/target/user-scope control and result presentation. Server-stamped harness identity is not a human identity provider or hostile same-user isolation.
-- Direct ID lookup refuses truncated/invalid selected-scope scans before claiming absence or uniqueness. Partial search carries diagnostics internally/JSON/MCP, but plain CLI search omits them. Plain direct-read also omits status. These are source findings, not new executed incidents.
-- Links do not automatically supersede earlier memory; historical reads intentionally differ from active search. Lexical relevance and timestamps do not certify current truth.
-- The example source/catalog verifier is separate from core storage/recall. Example server identities/restart parity do not establish native agent use or resumed work.
+- Capture is selected tool evidence, distinct from optional observer analysis. The pinned default observer is disabled. Inline analyzer instructions are not simply observer.md executed verbatim.
+- The observer's archive gate requires this invocation's exact completion record plus successful exit, with descriptor-bound output. That is stronger than process-only success, but is not independent verification of a learned rule.
+- Tail-sampled analysis and whole-live-file archival have different scope; retained input after failure and already-written instincts are separate partial effects. These are source-derived, unexecuted paths.
+- Specific and auto-selected global promotion, structural evolution and context injection have different predicates. Auto promotion counts same-ID project instances, including inherited records, without a semantic/evidence-independence or documented domain-list check in that function.
+- Personal/inherited instincts can enter SessionStart additionalContext without evolve or global promotion. Confidence/location/stack ranking and a cap select the view; its action summary omits trigger, ID and evidence. This is a real source path into context, not an observed model behavior change.
+- Default homunculus evolved artifacts and the separate agent-data skills/learned reader are different locations. Other bridges and quality controls are not globally declared absent.
 
-**Evidence class:** SOURCE OBSERVATION / TEST SOURCE INSPECTED / qualified INFERENCE. S77–S88 fully read. No memory CLI, MCP process, example, test, model or new probe ran; no E04. E01/E02/E03 were not rerun. No verified product efficacy, general security or independent method effectiveness is claimed.
+**Evidence:** SOURCE OBSERVATION / TEST SOURCE INSPECTED / qualified INFERENCE. No new ECC code/test/hook/observer/model or local probe ran; no E04. S104's archive test was fully inspected, not executed. E01–E03 were not rerun. Current official host docs qualify interface meanings, not an actual deployment or efficacy result.
 
-## Next work and retained limitations
+## Next work, responsibility and limits
 
-**U05-A / Q06** is the next authorized source unit, NOT STARTED: observation→instinct/procedural candidate→promotion→actual loading/use. Start the pinned continuous-learning-v2 skill and spec, then discover/follow the real subtree and consumers as PLAN specifies.
+After publication closure, **U05-B / Q06c** is the next authorized source unit, NOT STARTED: skill-run outcomes → health/amendment → evaluation evidence → accepted change/use. Begin the pinned S108 skill-improvement files, actual skill-run-tracker import, and retained session-inspect caller. Do not assume they govern the Python instinct path merely because both concern learning.
 
-Q05b preserves terminal diagnostic/current-status and conflict/duplicate/composition validation. Q05c preserves real host uptake, governed-artifact acceptance, ECC2 memory projection, automatic capture/resume and hostile-process/cross-machine guarantees. Q03b/c, Q04b/c/e and the original P1 frontier remain open. A later claim that depends on them must reopen them; advancing families does not solve them.
+Q06b retains sampling/archival, partial writes, semantic corroboration, confidence validity, trigger/identity fidelity and evolved-materialization questions. Prior Q03b/c, Q04b/c/e, Q05b/c and P1 remain open with their PLAN/QUESTIONS triggers. Moving to another family does not resolve them.
 
-Write scope: only research/studies/ecc/** and ECC's row/route in shared CATALOG/INDEX. Preserve other studies, Foundation, soul-context, explorations, upstream and agent-control. Batu owns purpose and material phase changes; assistant owns authorized research, calibrated claims, within-study sequencing and verifiable continuity.
+Batu owns purpose and material phase changes. The assistant owns authorized source research, calibrated findings, within-study sequencing and verifiable publication. Write only research/studies/ecc/** plus ECC's row/route in shared CATALOG/INDEX. Preserve other studies, Foundation, soul-context, explorations, upstream and control files.
 
-## Current versus historical records
+No real ECC installation, user-home/config/cache mutation, credentials/real model/provider call, upstream issue/patch, Foundation/control mutation or SOUL/Development OS design/implementation is authorized. Proportionate isolated fixtures remain distinct from installation but were not needed in U05-A.
 
-U04-A research log and MR06 continue in ROUND-U04-A.md. U04-A source coverage is in evidence/U04-A-SOURCES.md. RESEARCH-LOG.md, METHOD-REVIEW.md and SOURCE-LEDGER.md remain unchanged history through U03-B, not competing current records. This extends the previous separate-receipt approach without migrating old content. INDEX routes all units. Current publication is [PUBLICATION-U04-A](PUBLICATION-U04-A.md); U03-B's receipt and older PUBLICATION.md remain historical.
+## Recovery and record routing
 
-This unit avoided rewriting the old histories, but shared CATALOG still required whole-file replacement. Two unintended unrelated wording changes were detected and restored; the receipt records the actual failure/repair and final net one-row scope. No general reduction of all maintenance risk is claimed.
+After canonical control bootstrap, fully read STATE, INDEX, META, WHY, METHOD, PLAN and QUESTIONS. Then fully read Note07, U05-A source ledger and ROUND-U05-A/MR07; recover the current publication receipt after it is registered here. Reopen exact producer/consumer sources when a derived view drops a load-bearing condition.
 
-## Recovery
+Per-unit rounds/sources continue through U05-A. Old RESEARCH-LOG, METHOD-REVIEW and SOURCE-LEDGER remain unchanged history through U03-B; ROUND-U04-A and its source/receipt preserve U04-A. Do not treat historical next-work labels as current authority or repeat old experiments as new corroboration.
 
-After canonical control bootstrap, full read STATE, INDEX, META, WHY, METHOD, PLAN and QUESTIONS. Then read Note 06, U04-A source ledger, ROUND-U04-A/MR06 and PUBLICATION-U04-A. Retain prior evidence through progressive retrieval, reopening exact source when necessary; do not rerun experiments to recreate progress. This same-conversation recovery is not independent cold-start verification.
+S91 adds complete bounded continuous-learning-v2 subtree metadata, not all body/dependency coverage. S108 confirms a four-file next-unit directory without reading those bodies. Original STRUCTURE/TREE-FRONTIER, U01-B delta and subsequent ledgers retain P1 obligations, including Rust/native-workflow/other controllers. Final native/project-facing synthesis remains later and needs then-current canonical context.
 
-The original STRUCTURE/TREE-FRONTIER and unit ledgers retain topology limits. U04-A maps a memory path, not a full recursive corpus. Confirm next-learning source paths at the pin; earlier screening is not full technical research.
-
-GitHub connector works. Auxiliary container raw retrieval failed at DNS, so no new checkout or runtime capability was established. Publication base was a46cb2fc4df1f59110000a91e0a82b673ebe5d8d; own-repository PR #6 merged expected head at 7ad0a868923a6b14a6521708fa92a22b8ea1c2ba without force. Concurrent Superpowers changes were preserved, not attributed to ECC. Publication is closed for this bounded unit; U05-A remains next, not already performed.
+GitHub connector reads work. Auxiliary raw acquisition failed at DNS and created no checkout; no new runtime capability was demonstrated. Search paths came from a different default ref but substantive bodies remained pinned. Before publication, main 80499d8ef74f6123b44882fef0a4656b93f8d871 had only other-study/catalog changes since the previous ECC closure. Publication remains an explicit unfinished operational step until actual checks and receipt close it.
