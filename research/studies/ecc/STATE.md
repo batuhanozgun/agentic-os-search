@@ -1,57 +1,58 @@
 # ECC — STATE
 
 **Updated:** 2026-09-17
-**Current checkpoint:** U01-A — source/distribution surfaces and Codex cache-verifier slice
-**Work status:** U01-A COMPLETE / PUBLISHED. Source/evidence package and ECC catalog/index updates reached main; note, plan, state, MR01, raw artifacts and discovery routes were read back, with probe blob identities matched to local files. [PUBLICATION](PUBLICATION.md) records exact commits, concurrency and verification limits.
-**Study status:** ACTIVE / PARTIAL. U01 overall remains PARTIAL; full recursive inventory and install/consumer closure are not complete.
-**Method / plan:** v0.1 / v0.2
+**Current checkpoint:** U01-B — installation channels and materialization
+**Work status:** U01-B bounded source work COMPLETE; new findings and continuation are prepared for publication. Verify actual publication/readback through PUBLICATION; preparing this text is not a publication receipt.
+**Study status:** ACTIVE / PARTIAL. P1 / overall U01 discovery remains PARTIAL; full recursive inventory and host/consumer closure are not complete.
+**Method / plan:** v0.1 / v0.3
 **Pinned target:** affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a
 
 ## Latest authorized goal and phase
 
-After receiving U00, the user said 'harika. devam edebilirsin.' This authorizes continuing the source-grounded ECC study under the proposed discipline; it is not independent acceptance of every technical claim. U00 methodology/package publication is complete and must not be repeated as pending setup.
+The user continued after U01-A with 'güzel. devam et lütfen.' This extends the source-grounded ECC study under the established repository-centred discipline. The purpose is to explain ECC's actual mechanisms, dependencies and limits, while recording and evaluating the research method's evolution. Approval to continue is not independent verification of findings.
 
-Current purpose: explain ECC's actual mechanisms and system/dependency limits, with a separate evidence-based record of how the research method evolves. The user expects repository-centred continuity, not chat-only results.
+U00 is completed setup; U01-A is published source/local research; neither is pending work to repeat. This turn completed U01-B's bounded channel comparison, not every item in the broader discovery program.
 
-- **Completed this turn:** U01-A root surface map, selected source/caller tracing, a host-label correction and a three-case local cache-checker probe.
-- **Next authorized research unit:** U01-B — installation/materialization and marketplace source binding, remaining relevant discovery, then selection of U02. See [PLAN](PLAN.md).
-- **Not authorized:** real ECC installation; user home/config/cache mutation; credential or paid model use; upstream issues/PRs/patches; SOUL/Development OS design/implementation; agent-control changes. Narrow offline temporary-fixture research is distinguished from installation.
+- **Current result:** [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md), [U01-B sources](evidence/U01-B-SOURCES.md), [discovery delta](inventory/U01-B-DISCOVERY.md).
+- **Next authorized unit:** U02-A — managed ownership and partial-application recovery, using the Kimi guided path as a non-Codex contrast. PLAN gives the exact question and return condition.
+- **Remaining discovery:** P1 stays open with its known subtree and cross-runtime boundaries. Advancing a bounded mechanism is not declaring the full inventory complete.
+- **Not authorized:** real ECC installation; user home/config/cache mutation; credential/paid-model use; upstream issues/PRs/patches; SOUL/Development OS design or implementation; agent-control changes. Safe temporary-fixture research remains distinguishable from installation, but this turn did not run any such ECC experiment.
 
 ## Load-bearing results and limits
 
-[Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) is the current bounded result; [U01-A sources](evidence/U01-A-SOURCES.md) records exact read/execution scope.
+1. **U01-A retained:** distinct Node/npm, Rust and native-workflow source surfaces; broad Codex instruction-backed documentation conflicts with the event-specific SessionStart projection. E01's local cache checker accepted an absent hook while rejecting an absent MCP file. This is previous evidence, not rerun in U01-B.
+2. **U01-B source result:** native Codex plugin reconciliation, the manifest-driven Codex home adapter and legacy shell sync are different delivery/lifecycle paths. A harness-wide label does not identify selection, placement, ownership or readiness semantics.
+3. **U01-B source result:** user-facing components can resolve at different granularity; target/dependency filtering and adapter mapping intervene before file operations. Applied/skipped operations and installed digests are distinct from the requested plan. Content may be transformed on installation.
+4. **U01-B source result:** guided multi-harness application is sequential and explicitly returns partial/failed/completed status. Preflight is not a global rollback transaction; the failing child may have internal effects not enumerated by the coordinator's completed list.
+5. **Bounded readiness:** native installed/enabled registration, managed file/state materialization, derived health projection, hook trust and actual use are separate checks. The memory-skill module explicitly requires a separately available CLI runtime.
 
-1. Full root non-recursive listing and selected child trees separate shared assets, npm/Node dispatch, Rust ecc2 and native Workflow pilot surfaces. Actual registry tarball/cache materialization and a full recursive inventory remain open.
-2. Shared architecture text's Codex instruction-backed label conflicts with the current manifest/provider-local SessionStart projection. The source supports this event-specific hook path, not full host parity or demonstrated host trust/consumption.
-3. Exact, blob-verified cache-checker and plugin-manifest bytes were tested offline with synthetic caches. C0 all referenced targets present: exit 0. C1 only hook absent: exit 0. C2 only MCP absent: exit 1. This demonstrates omitted-hook-reference coverage in that checker, not a live user incident or whole-system safety verdict.
-
-The upstream native-hook test was read, NOT run. No actual Codex/Claude session, hook-body execution, full upstream suite or effectiveness study occurred. The local probe used dummy target contents and a synthetic version-only package.json. SOURCE OBSERVATION, TARGET CLAIM, LOCAL EXECUTION and INFERENCE remain distinct.
+No ECC code/test/installer, actual host, model or new local probe was executed in U01-B. W01/W02 are selected current official host-contract checks, not proof about the exact host version mentioned by ECC. No registry tarball/cache was inspected. Ownership guards/state projection/legacy recovery helpers and host consumption remain open. The full recursive response was display-limited, not a completed inventory.
 
 ## Method and plan state
 
-METHOD stays v0.1. PLAN v0.2 splits U01-A/U01-B because the first source map exposed materially different delivery surfaces and a source/verifier contradiction worth a bounded falsifier before broader synthesis. Full-tree discovery has not been silently declared complete or waived. [MR01](METHOD-REVIEW.md#mr01--2026-09-17--u01-a) records observed correction, overhead and remaining method-efficacy uncertainty. This is same-session work, not an independent cold-start validation.
+METHOD remains v0.1. PLAN v0.3 records U01-B's result, keeps P1 open, and selects a concrete U02-A instead of repeatedly restarting a broad inventory. MR02 in METHOD-REVIEW records the observed effect of MR01's next-unit check: the study expanded into selection, transformation, Kimi preflight, partial application and runtime prerequisites without rerunning E01. This is same-assistant evidence of a bounded correction, not proof of superior methodology or independent cold-start comprehension.
 
-## Responsibilities and write boundary
+## Responsibilities and write scope
 
-Batu owns goal/scope and material phase changes. Assistant owns authorised reading, source-bound synthesis, justified in-study sequencing and verifiable repository continuity. One active main research unit; dependent branches are explicit, not hidden scope expansion.
+Batu owns purpose/scope and material project-phase changes. The assistant owns authorized source reading, calibrated synthesis, justified within-study sequencing and verifiable repository continuity. One active main unit; parallel questions are recorded with re-entry triggers, not treated as silently authorized new studies.
 
-Write scope: `research/studies/ecc/**` plus ECC discovery/status edits in `research/studies/CATALOG.md` and `INDEX.md`. Preserve other studies, Foundation, soul-context, explorations, target repositories and control files.
+Write only `research/studies/ecc/**` and the ECC discovery/status entries in `research/studies/CATALOG.md` / `INDEX.md`. Preserve other studies, Foundation, soul-context, explorations, target repositories and control files.
 
 ## Cold-start
 
 After canonical control bootstrap:
 
-1. Full read [STATE](STATE.md), [INDEX](INDEX.md), [META](META.md), [WHY](00-WHY-THIS-RESEARCH.md), [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md).
-2. Read [SOURCE-LEDGER](SOURCE-LEDGER.md)'s current update and [U01-A sources](evidence/U01-A-SOURCES.md); read [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) and [STRUCTURE](inventory/STRUCTURE.md) in full for U01-B.
-3. Read the U01-A entry in [RESEARCH-LOG](RESEARCH-LOG.md), MR01 in [METHOD-REVIEW](METHOD-REVIEW.md), and the latest [PUBLICATION](PUBLICATION.md) receipt. Use E01 raw plan/runner/results before an exact test claim; do not infer validity from its short summary.
-4. Use [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv) and the exact pinned sources for U01-B. Recover deeper sources when a summary drops the required boundary.
+1. Full read STATE, [INDEX](INDEX.md), [META](META.md), [WHY](00-WHY-THIS-RESEARCH.md), [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md).
+2. Read SOURCE-LEDGER's latest unit entry and [U01-B sources](evidence/U01-B-SOURCES.md), [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md), [U01-B discovery](inventory/U01-B-DISCOVERY.md) in full. Recover [STRUCTURE](inventory/STRUCTURE.md)/[TREE-FRONTIER](inventory/TREE-FRONTIER.tsv) for remaining topology work.
+3. Read the U01-B entry of RESEARCH-LOG, MR02 in METHOD-REVIEW, and latest PUBLICATION receipt. Older U00/U01-A records are historical, not competing current work.
+4. Recover [Note 01](notes/01-SURFACES-AND-CODEX-CACHE.md) and its raw E01 evidence only when its exact claim matters. Do not repeat/count it as new. Re-enter pinned sources wherever a summary cannot preserve a needed condition.
 
-Return a brief orientation before new source work. Do not repeat U00 or label U01-A a completed ECC study. A missing mandatory/current surface stops the affected work; no guessed continuation. The rejected/unreferenced commit in PUBLICATION is not pending upload/merge work; other sessions' candidate and Superpowers changes were preserved.
+Give a brief orientation before new work. Missing mandatory/current control or work context stops affected work rather than inviting guessed continuation.
 
-## Environment and next starting point
+## Exact next starting point and environment
 
-GitHub connector provides canonical source and publication access. Container-side GitHub DNS failed again; no full checkout exists. Offline Python 3.13.5 / Node v22.16.0 could execute the isolated checker. Re-check capabilities before any different experiment; no live host capability is assumed.
+U02-A starts with discovered imports `scripts/lib/install/ownership-guard.js`, `scripts/lib/install-state.js`, `scripts/lib/install-state-store-sync.js`, and the relevant apply/multi-harness callers. Use Kimi's managed preflight as the consumer contrast. Discover corresponding tests rather than inventing filenames. Separate present ownership, author intent, content identity, partial writes and derived visibility; do not equate a hash with permission or benefit.
 
-First U01-B reads: pinned install-modules.json, install-components.json and scripts/install-apply.js; discover actual marketplace files via `.agents` tree `0b6fef700821049a86f9cef4b83d4fd06e371bdc`. Preserve the Node/Rust/native-workflow boundaries while tracing source→materialization→consumer. U02 is not yet chosen as an accepted full mechanism unit.
+GitHub connector source/publication access worked. Container-side GitHub acquisition failed at DNS; no complete local checkout is established. Prior offline Node/Python capability does not prove current host availability. U01-B made no ECC execution claim. P1 discovery can proceed through bounded subtrees alongside necessary mechanism dependencies; source acquisition must not be mistaken for source reading.
 
-Foundation/project-facing projection stays later and requires then-current canonical context. The unchanged Foundation context recovered at U00 is not a licence to design or implement a system now.
+Foundation/project-facing projection stays later and requires then-current canonical context. This study does not activate design or implementation.

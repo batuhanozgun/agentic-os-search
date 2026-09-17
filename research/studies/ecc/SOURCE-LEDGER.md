@@ -57,3 +57,11 @@ S03 package.json was now fully read in three contiguous ranges with the same blo
 S16 native-hook test was inspected in full, NOT RUN. E01 is a separate, newly executed offline three-case cache-checker probe using exact S13/S25 source bytes. C0/C1/C2 exited 0/0/1; the missing-hook case is a false-green under the broad all-reference claim, not three successful product validations. [Raw probe evidence and reproducer](evidence/u01-a-cache-probe/README.md).
 
 No live host/model, installation, registry tarball, upstream full-suite or effectiveness execution was performed. The inspected source supports an event-specific Codex hook projection but not full parity or host admission/consumption. No repin occurred; later use must still check dependency freshness as appropriate.
+
+## U01-B — 2026-09-17 current update
+
+[U01-B-SOURCES](evidence/U01-B-SOURCES.md) adds S26–S44 and separately dated W01/W02 official host-contract checks. Both install manifests, actual native/managed/legacy routing and the common apply path were read; the executor facade is selected-only and imported helpers remain explicit dependencies. [Note 02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md) binds each conclusion to these sources.
+
+New direct `.agents` and `.agents/plugins` discovery is in [U01-B-DISCOVERY](inventory/U01-B-DISCOVERY.md). The large recursive-tree response was not recovered as a completely reviewed inventory. It does not close P1 or mark unexpanded subtrees read.
+
+**No new ECC execution in this unit:** no installer, upstream test, local probe, actual cache/host or model/effectiveness run. U01-A E01 is historical preserved evidence, not new corroboration. W01/W02 describe the current provider contract rather than validate ECC's pinned host-version claim. Current pin and candidate/adoption boundaries are unchanged.
