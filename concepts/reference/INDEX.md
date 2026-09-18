@@ -4,7 +4,7 @@ Bu alan, **“Biz bu ifadeyi şu bağlamda şu anlamda kullanıyoruz”** biçim
 
 ## Kabul edilmiş kayıtlar
 
-Henüz ACCEPTED ortak kavram kaydı yoktur. İlk 10 terim için [working local reference v0.1](../synthesis/CORE-TERMS-WORKING-v0.1.md) hazırlanmıştır; bu kayıt Agent, Model, LLM, Actor, Role, Run, Session, Workflow, Tool ve Harness için batch-level çalışma tanımları taşır fakat henüz bu dizine kabul edilmiş kayıt olarak terfi etmemiştir. Güncel çalışma ve yetki [STATE](../STATE.md)'tedir.
+Henüz ACCEPTED ortak kavram kaydı yoktur. Güncel [working local reference v0.2](../synthesis/CORE-TERMS-WORKING-v0.2.md) ilk iki batch'teki 20 terimi birlikte taşır; accepted değildir ve çakışma çıktıkça değişebilir. Önceki v0.1 tarihsel snapshot'tır. Güncel çalışma ve yetki [STATE](../STATE.md)'tedir.
 
 ## Bir kaydın neyi açıklaması gerekir?
 
