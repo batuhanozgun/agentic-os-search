@@ -2,7 +2,7 @@
 
 ACTIVE / PARTIAL **external-target candidate study**, not Foundation authority or an adopted stack.
 
-**Continue from [STATE.md](STATE.md)** and its full cold-start path. U01–U07 have bounded investigations; **U08-A native composition is now available as [S05 — Native whole-system model](syntheses/S05-native-system-model.md)**, with subsystem views S01–S04. **U08-B current project-facing research is next.** CORE and final omission/freshness closure remain open.
+**Continue from [STATE.md](STATE.md)** and its full cold-start path. U01–U07 have bounded investigations; **U08-A native composition is available as [S05 — Native whole-system model](syntheses/S05-native-system-model.md)**, with subsystem views S01–S04. **U08-B project-facing research is now available as [S06](syntheses/S06-project-facing-contribution-and-comparison.md). U08-C CORE and final omission/freshness challenge are next.** Whole-study closure remains open.
 
 Primary: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Lab: `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`. B2 binds Gauntlet to campaign-named `db6c8e0f…`, with the exact `25a2e3e…` delta. Public reports, source controls, local helper cases and their syntheses are not independent live efficacy evidence.
 
@@ -15,8 +15,9 @@ Primary: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Lab: `prim
 | Request classification, agreement, plan/context handoff and semantic coordination | [S03](syntheses/S03-intent-planning-and-context-handoff.md) |
 | Implementation, evidence, review/disposition and actual delivery | [S04](syntheses/S04-execution-verification-and-delivery.md) |
 | Procedure development, evaluation and admission | [S01](syntheses/S01-skill-evolution-and-evaluation.md), preserved |
+| Current project-facing contribution, selective comparisons and situated evidence still needed | [S06](syntheses/S06-project-facing-contribution-and-comparison.md) |
 
-These are overlapping derived views. Follow their mechanism and source links when an exception, empirical limit or exact claim matters. No current Foundation projection or CORE is implied by their existence.
+These are overlapping derived views. Follow their mechanism and source links when an exception, empirical limit or exact claim matters. S06 is candidate research interpretation, not Foundation adoption, a current product ranking or CORE.
 
 ## Package routes
 
@@ -36,6 +37,7 @@ These are overlapping derived views. Follow their mechanism and source links whe
 | U07-A visual runtime sources and exact-helper local observations | [SOURCE-LEDGER-U07A.md](SOURCE-LEDGER-U07A.md) |
 | U07-B assembly/version/integration/support sources and local version cases | [SOURCE-LEDGER-U07B.md](SOURCE-LEDGER-U07B.md) |
 | U08-A synthesis recovery, direct re-entry and qualified I01/I02 discussion | [SOURCE-LEDGER-U08A.md](SOURCE-LEDGER-U08A.md) |
+| U08-B current project/Foundation, comparator records and direct gstack re-entry | [SOURCE-LEDGER-U08B.md](SOURCE-LEDGER-U08B.md) |
 | Request classification, procedural scope, shell bootstrap | [U01-A](notes/U01-entry-routing-and-bootstrap.md) |
 | Host delivery, cache and procedure/work recovery | [U01-B](notes/U01B-host-delivery-and-continuity.md) |
 | Approval/ruling, plan/workspace identity and brief handoff | [U02](notes/U02-approval-plan-workspace-handoff.md) |
@@ -62,7 +64,7 @@ These are overlapping derived views. Follow their mechanism and source links whe
 | Exact helper with fake DOM/transport: event schema, multiselect and recovery | [U07-A runner](evidence/U07A-companion-client-probes.mjs) / [output](evidence/U07A-companion-client-probes-results.json) |
 | Exact version helper: JSON-only check/audit/mutation and inventory scope | [U07-B runner](evidence/U07B-version-probes.py) / [output](evidence/U07B-version-probes-results.json) |
 
-U06-A/B1/B2 performed no new execution. D30/D31/D37 are attributed public reports, not our experiments. U07-A adds E13/E14: nine expected observations and two unmet stronger criteria; no browser, server, model or upstream suite. U07-B adds E15/E16: eight expected observations and two unmet stronger criteria; no production YAML layout, packaging/sync, release or host. Earlier failures remain preserved. U08-A adds no experiment, rerun or new F-series result; I01/I02 are qualified participant reports, not performance measurements.
+U06-A/B1/B2 performed no new execution. D30/D31/D37 are attributed public reports, not our experiments. U07-A adds E13/E14: nine expected observations and two unmet stronger criteria; no browser, server, model or upstream suite. U07-B adds E15/E16: eight expected observations and two unmet stronger criteria; no production YAML layout, packaging/sync, release or host. Earlier failures remain preserved. U08-A/B add no experiment, rerun or new F-series implementation result; I01/I02 are qualified participant reports and PC1–PC7 are comparative interpretations, not performance measurements.
 
 ## Claim-directed re-entry
 
@@ -157,15 +159,21 @@ U06-A/B1/B2 performed no new execution. D30/D31/D37 are attributed public report
 | Controller merely schedules already-complete task information | S03 §3; S05 §4; U02 F17 and U03 F21: semantic selection and cross-task coverage remain load-bearing. |
 | Every apparent difference is a contradiction, or all overlaps are resolved | S05 §6 composition register; Q13/Q20/Q24 retain unresolved boundaries. |
 | Less preparation ceremony proves less context or better outcomes | S03 §6; S05 §8; I01/I02 qualification in U08-A register. |
-| Native synthesis is independent validation or finished Foundation projection | S05 §§1/9/10 and STATE: derived source model, U08-B/C still open. |
+| Native synthesis is independent validation or finished Foundation projection | S05 §§1/9/10; S06 and STATE: native and project-facing derived views, not independent validation; U08-C still open. |
+| All selected tasks passing proves every necessary pursuit was discovered | S06 PC2; Foundation Work and production-perspective discussion via U08-B P07/P13. |
+| Adequate information somewhere plus an available brief is enough | S06 PC3; accepted I1–I3 through U08-B P17: common consumer/use witness and established side information. |
+| Named roles or available tools establish legitimate authority | S06 PC4; Actors P16 and preserved Q13/Q20/Q24. |
+| A stored method or use counter proves learning or improved outcomes | S06 PC7 and Hermes C08; S01; Composition P20. |
+| Skill procedures, library lifecycle and a durable execution engine are equivalent | S06 §9: selected gstack/Hermes/Flowable functions and explicit evidence/scope differences. |
+| Projection requires copying a workflow or reopening generic Foundation | S06 §§2/10/11; P06/P10: candidate contribution, no adoption or independently proven completeness. |
 
 ## Synthesis and coverage status
 
-Eleven chronological mechanism notes, four native subsystem syntheses, one native whole-system model and eight original local experiments exist. Fourteen primary SKILL bodies and selected runtime/distribution/support families are read. U08-A provides bounded native composition; current project-facing projection, CORE and final closure remain open. No adopted architecture exists.
+Eleven chronological mechanism notes, four native subsystem syntheses, one native whole-system model, one project-facing synthesis and eight original local experiments exist. Fourteen primary SKILL bodies and selected runtime/distribution/support families are read. U08-A/B provide bounded native composition and project-facing research; CORE and final closure remain open. No adopted architecture exists.
 
-U08-A re-entered six already registered primary files and fully recovered the load-bearing research notes. Its new I01/I02 participant reports are qualified and carry no authenticated run or measured effect. No old experiment was rerun, and no new F-series implementation result was created. U07-B's historical/test omission disposition and all prior empirical limits remain effective.
+U08-A re-entered six already registered primary files and fully recovered the load-bearing research notes. Its new I01/I02 participant reports are qualified and carry no authenticated run or measured effect. U08-B recovered current project/Foundation and selected comparator findings; direct gstack source re-entry is separate from a current-product qualification. No old experiment was rerun, and no new F-series implementation result was created. U07-B's historical/test omission disposition and all prior empirical limits remain effective.
 
-Ten chronological source-register volumes preserve identities and observations. Historical next-action lines are checkpoints; current authority is STATE. Earlier unexecuted statuses change only when a later volume records actual execution of the named source.
+Eleven chronological source-register volumes preserve identities and observations. Historical next-action lines are checkpoints; current authority is STATE. Earlier unexecuted statuses change only when a later volume records actual execution of the named source.
 
 ## Library navigation
 
