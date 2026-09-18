@@ -8,6 +8,14 @@
 **Unchanged target:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 **Publication obligations:** no material output awaits user upload or merge. No branch/PR was created. Final net changes are ECC-local plus only the ECC catalogue row; intermediate catalogue errors and their corrections are explicitly recorded in the receipt.
 
+## Publication retry verified — 2026-09-18
+
+Batu's retry request was reconciled against main `fc8aa2983e986d7b65c07c4558a364949efd1fc3`: U09-A closure and entry alignment were already complete. The [receipt's retry verification](PUBLICATION-U09-A3.md#retry-verification-and-local-packet-disposition--2026-09-18) was then written through the connected GitHub update action in commit `fbeecdca3150a4f19bc8ae6b2a12a399f3dea9f3`, returning blob `94d72428c46f9809e36fc6aa9ab58a5fa9c09fd6`, equal to the prepared candidate. Its added section was read back through EOF; the commit comparison showed only that receipt, +21/-0. The complete pre-edit receipt and STATE bytes had first been matched to their canonical Git-blob hashes.
+
+The prior `ECC_U09_A3_Unpublished_Checkpoint.zip` is historical local correspondence, not a pending upload or replacement patch. Its contents and manifest were checked against the canonical research; no material unmatched finding was identified. Its reading ranges are not merged into the source ledger. The repository is sufficient for research continuation without the archive. Earlier chat and local-draft statements that publication remained pending are superseded by the verified main closure, while their pass-time access limitations remain historical facts rather than an explanation of who published earlier commits.
+
+This retry adds only publication reconciliation to the existing receipt and this STATE. It does not change Note15, source evidence, MR16, PLAN, QUESTIONS, META, INDEX, CATALOG or any other study, and starts no new research or experiment. U09-A remains COMPLETE/PUBLISHED; U09-B/Q04g2 remains next authorized and NOT STARTED. No user upload, branch or merge action is required.
+
 ## Current result and evidence boundary
 
 The original U09-A source criterion is mapped to evidence in Note15 section10: actual command/configuration/record/launch, output-to-TUI consumer and effectful observer, stop/resume/resource continuity, then schema/writer/dependency-bound attempt ownership and failure/restart paths. It was not weakened or replaced with a test count. Explaining a mechanism's missing guarantees can complete a source question without certifying the target.
