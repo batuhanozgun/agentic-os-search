@@ -4,7 +4,7 @@
 **Başlangıç main:** `a605ee34b45b68d9d2aece5bc815a602f4676081`.
 **Başlangıç ağacı:** `3ed74c3514c05fb377d78c54ed605af7adaf26cb`.
 **Çalışma branch'i:** `maintenance/concepts-connected-inquiry-20260918`.
-**Yayın durumu:** ADAY; bu sürümde main birleşimi ve yayın sonrası geri doğrulama henüz tamamlanmadı. Gerçek sonuç bu kayda ve [STATE](../STATE.md)'e işlenecek.
+**Yayın durumu:** MAIN ÜZERİNDE YAYIMLANDI; PR #20 birleşti. Gerçek yayın kimlikleri, kapsam ve geri okuma kanıtı §7'dedir. Bu kapanış kaydı ve [STATE](../STATE.md) gerçekleşmiş yayını bildirir; yeni kavram araştırması başlatmaz.
 
 ## 1. Amaç, yetki ve değişiklik gerekçesi
 
@@ -64,14 +64,14 @@ Aşağıdaki dosyaların tamamı konuşmada tam canonical okumayla yüklendi; g�
 | `agent/protocols/decision-critical-assumptions.md` | Komşunun gerçekten gerekli olması ve alternatif kapsam değerlendirmesiyle uyumlu. |
 | `agent/protocols/user-independent-reasoning.md` | Önceki assistant örneğini/onay baskısını kanıt saymama ile uyumlu. |
 | `agent/protocols/goal-method-end-to-end-validation.md` | Kullanıcı amacı ve mevcut bakım turu sınırı korunuyor; yeni mimari faz açılmıyor. |
-| `agent/protocols/verification-independence.md` | Belge/diff kontrolü davranışsal veya bağımsız bilimsel doğrulama yapılmıyor. |
+| `agent/protocols/verification-independence.md` | Belge/diff kontrolü davranışsal veya bağımsız bilimsel doğrulama sayılmıyor. |
 | `agent/protocols/source-view-fidelity.md` | Kaynak gözlemi, özet, sohbet örneği ve yerel kullanım ayrımı korunuyor. |
 | `agent/protocols/causal-depth-root-cause-validation.md` | Belge değişikliğinin gelecekteki bütün drift'i çözdüğü iddia edilmiyor. |
 | `agent/protocols/work-system-continuity.md` | Güncel odak/yetki ve sonraki sorumluluk STATE'te. |
 | `agent/protocols/canonical-work-preflight.md` | Yeni oturum METHOD ve ilgili çalışma yolunu tam geri kazanır; yeni kontrol protokolü gerekmiyor. |
 | `agent/protocols/candidate-research-library.md` | Concepts için yerleştirme/geri çağırma istisnası mevcut; çalışma kendi METHOD'una yönlenir. Genel sözlük veya ikinci study gerekmiyor. |
 
-## 6. Yayın öncesi kontrol hedefleri
+## 6. Yayın öncesinde belirlenen kontrol hedefleri
 
 Beklenen delta: **12 mevcut dosya değişikliği + bu tek yeni kayıt = 13 yol.** Concepts dışında yalnız README ve studies INDEX. U01, SETUP, AGENT/agent, Foundation/soul-context, study paketleri, explorations ve publications içerikleri korunmalı.
 
@@ -81,6 +81,25 @@ Manuel devam senaryoları: U01'i tekrar araştırma sanmamak; Model/Role'u otoma
 
 ## 7. Gerçekleşen yayın ve geri doğrulama
 
-Bu aday sürümde tamamlanmadı. PR/merge kimliği, exact head/base kontrolü, korunmuş blob'lar, gerekli geri okumalar ve varsa düzeltilen kapsam farkları gerçekleşince buraya işlenecek. Kendi gelecek commit kimliği tahmin edilmeyecek.
+| Yayın nesnesi | Gerçek kimlik |
+|---|---|
+| PR | [#20](https://github.com/batuhanozgun/agentic-os-search/pull/20) |
+| Birleşme öncesi main / base | `a605ee34b45b68d9d2aece5bc815a602f4676081` |
+| Son incelenen ve merge çağrısına bağlanan head | `70ab7a108ce925cd962c75af931175e6f4d717b4` |
+| Gerçek main merge commit'i | `1865e12027efeb323d0d79f978a232bd79fe4de5` |
+
+Normal PR merge başarılı oldu; force veya başka oturumun branch'ine yazma yapılmadı. Yayına yakın base/head tekrar okundu; base başlangıç main olarak kaldı. GitHub'ın geçici merge hesaplaması sonrasında doğrudan PR yanıtı `mergeable=true`, `mergeable_state=clean` verdi. Önizleme merge SHA'ları yayın receipt'i sayılmadı. Son branch head'i ile gerçek merge commit'i karşılaştırması **sıfır dosya farkı** gösterdi.
+
+**Kapsam:** PR değişen dosya listesi ve başlangıç main → son head karşılaştırması tam 13 yolu gösterdi: on mevcut concepts dosyası, README, studies INDEX ve bir yeni uyum kaydı. Başka silme, taşıma, kontrol veya araştırma paketi değişikliği yok. README patch'i yalnız bir paragraf ekini; PURPOSE patch'i yalnız U01 sonrası gerekçenin sona eklenmesini; PLAN patch'i yeni çalışma bölümünü ve tarihsel P0 başlık ayrımını gösterdi. Eski P0 kapsam ve yayın adımlarının gövdesi korundu.
+
+**Yayın öncesi yakalanıp düzeltilen fark:** Studies INDEX'in ilk tam-metin aktarımında ilgisiz `agentic-ai-systems-roadmap` açıklaması kısalmıştı. Dosya patch'i bu ikinci değişikliği ortaya çıkardı; eski ifade `70ab7a1...` commit'inde aynen geri kondu. Son patch yeniden alındığında yalnız concepts açıklamasındaki tek paragraf değişikliği kaldı. Bu hata main'e yayımlanmadı; aktarım kontrolünün bulgusu olarak korunuyor.
+
+**Main geri okumaları:** METHOD, 1–55 ve 56–son satır aralıklarıyla tam geri okundu; blob `1855a28639f1cee586c288bda02cc50d9b6cb3a9`. Concepts INDEX, STATE ve bu kontrol kaydının yayın-adayı gövdeleri de main üzerinden tam okundu. INDEX/STATE/METHOD birbirini ve mevcut Agent BRIEF/U01 yolunu gösteriyor; aday yayın ifadeleri bu kapanışla gerçekleşen sonuca güncelleniyor. Diğer dosyaların bütünü main'den yeniden okunmuş sayılmıyor; incelenen branch ile merge arasındaki sıfır-delta karşılaştırması aktarım korunumunu destekliyor.
+
+**Korunan kanıt kimlikleri:** Main'den U01 ve SETUP-VERIFICATION için ilk-satır/metadata okumaları yapıldı; SHA'ları sırasıyla `22f04d1c120afa91781f680af32bf3b5944c3d30` ve `dafe403877eec4b9a6d430a8054bfe1c0f942a11` olarak aynı kaldı. Bunlar yayın sonrası yeni tam içerik okuması değil, önceki tam okumaya bağlı kimlik doğrulamasıdır.
+
+**Devam yolu incelemesi:** §6'daki senaryolar yeni yöntem, STATE ve giriş belgeleri üzerinde self-review olarak değerlendirildi. Önceki araştırmanın korunması, örneklerin kabul edilmemesi, komşuya gerekçeli iniş/dönüş ve yeterli zeminde erken aday aynı çalışma akışında bulunabiliyor. İç bağlantılar mevcut bilinen dosya yolları ve yayımlanan uyum kaydıyla kontrol edildi; bütün repository üzerinde otomatik link tarayıcısı veya bağımsız fresh-session deneyi çalıştırılmadı.
+
+Bu kapanış yalnız bu kontrol kaydı ile STATE'in yayın/durma durumunu günceller. Kendi gelecek commit kimliğini tahmin etmez; gerçek kapanış commit'leri Git geçmişinden bulunur. Kullanıcının elle upload veya merge yapması gerekmiyor. Çalışma branch'i bekleyen yayın veya alternatif current state değildir; genel branch temizliği yapılmadı.
 
 Başarı iddiası dosya uyumu, izlenebilirlik, kapsam ve erişimle sınırlı tutulur. Referansların gelecekte her tur doğru kullanılacağı veya anlam karmaşasının sıfırlanacağı garanti edilmez.
