@@ -134,6 +134,7 @@ Completion of a study never authorizes adoption.
 - `hermes-agent/`
 - `i-have-adhd/`
 - `leantime/`
+- `llm-wiki/`
 - `mattpocock-skills/`
 - `multi-agent-patterns/`
 - `openproject/`
