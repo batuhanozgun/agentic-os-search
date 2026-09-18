@@ -1,11 +1,11 @@
 # Core Terms — Working Local Reference v0.2
 
 **Tarih:** 2026-09-18.  
-**Statü:** WORKING LOCAL REFERENCE / EVOLVING; tek tek terim onayı beklenmez.  
+**Statü:** SUPERSEDED WORKING SNAPSHOT; ilk 20 terimin tarihsel v0.2 görünümü.  
 **Kapsam:** İlk iki batch, toplam 20 bağlı terim. Evrensel sözlük, nihai ontoloji veya SOUL mimarisi değildir.  
 **Dayanak:** [U03 batch 1](../research/U03-CORE-TERMS-BATCH1.md), [U04 batch 2](../research/U04-CORE-TERMS-BATCH2.md), Agent U01/U02 ve mevcut Context/Memory/Harness study.
 
-Bu sürüm v0.1'i supersede eder. Önceki dosya tarihsel snapshot olarak korunur. Tanımlar gerçek kullanım, yeni kaynak ve sonraki komşu batch'lerde çakışma çıktıkça birlikte fine-tune edilir.
+Bu sürüm v0.1'i supersede etmiş tarihsel snapshot'tır. Güncel working reference [v0.3](CORE-TERMS-WORKING-v0.3.md)'tür.
 
 ## 20 çalışma tanımı
 
@@ -162,4 +162,4 @@ Context
 
 State, Work state, Environment, Workspace, Sandbox, Policy, Guardrail, Verification, Observability, Persistence.
 
-Bu liste sonraki batch seed'idir; sabit sıra değildir.
+Bu liste U05 batch'inde işlendi. Güncel devam için v0.3 ve STATE'e dön.
