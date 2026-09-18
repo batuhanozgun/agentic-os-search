@@ -1,28 +1,35 @@
 # Concepts — Güncel Durum
 
-**Tarih:** 2026-09-18. **Durum:** dosya sadeleştirmesi tamamlandı; kavram araştırması molada. Uzak branch ref'lerinin silinmesi açık kaldı. Yeni terim araştırması açılmadı.
+**Tarih:** 2026-09-18. **Durum:** dosya ve branch temizliği tamamlandı. Bakım engeli kalmadı; kavram çalışmasına mevcut taslağı somut kullanımlarda sağlamlaştırarak dönülecek. Bu tur durum ve devam planı açıklanır; yeni kaynak araştırması veya tanım değişikliği yapılmadı.
 
-## Son kullanıcı yönü ve yapılan düzenleme
+## Son kullanıcı yönü
 
-Kullanıcı, mola değerlendirmesinden sonra `concepts/` içindeki dosya/klasör tekrarlarının ve main–branch belirsizliğinin giderilmesini istedi. Bu yetki yöntem ve kayıt düzenini sadeleştirmeyi kapsar; mevcut taslak tanımların kabulü veya SOUL tasarım kararı değildir.
+Kullanıcı dokuz eski concepts branch'ini temizlediğini bildirdi; kalan repository kayıtlarının güncellenmesini, ardından kavram çalışmasında ne elde edildiğinin ve bunlarla nasıl ilerlenmesinin planlandığının açıklanmasını istedi. Bu yön, yeni onlu üretme veya SOUL tasarlama yetkisi değildir. Çalışma tanımlarını seçme ve gerektiğinde birlikte düzeltme sorumluluğu assistant'ta kalır; tek tek teknik onay kuyruğuna dönülmez.
 
-Çalışma yüzeyi altı düz dosyaya indirildi: [INDEX](INDEX.md), [METHOD](METHOD.md), bu STATE, [WORKING](WORKING.md), [SOURCES](SOURCES.md), [HISTORY](HISTORY.md). Eski 23 dosyanın tamamı sabit bir önceki commit üzerinden geri bulunabilir. Ayrıntı ve branch incelemesi HISTORY'dedir; burada tanım ve harita kopyası tutulmaz.
+## Repository durumu
 
-## Bilinen durum
+Güncel çalışma alanı `main`; concepts altındaki altı dosya korunuyor: [INDEX](INDEX.md), [METHOD](METHOD.md), bu STATE, [WORKING](WORKING.md), [SOURCES](SOURCES.md), [HISTORY](HISTORY.md).
 
-- WORKING, önceki v0.4'ün 40 numaralı maddesini ve Task alt kullanımını devralan **incelenecek taslaktır**; 40 kesinleşmiş anlam veya kullanıcının tek tek kabulü değildir.
-- Kaynak gözlemleri, yerel tercihler ve sınanmamış iddialar SOURCES üzerinden ayrılır. Bu bakım dış kaynakların yeniden doğrulaması değildir.
-- Bütün concepts branch uçlarının inceleme tabanı olan `4d849afc2e8b6ef6173957e0923606290912da1e` main geçmişinde bulunduğu doğrulandı. Main dışında kalmış concepts commit'i ve açık PR saptanmadı.
-- **Uzak branch adlarının fiziksel silinmesi tamamlanmadı:** bağlı arayüz bu işlemi sağlamıyor. Dokuz eski branch HISTORY'de listelenir; yeni branch açılmadı. Başka araştırmaların branch'lerine dokunulmadı.
+2026-09-18 branch listesi yeniden okundu: main ve başka çalışmalara ait on branch var; silinmesi istenen dokuz concepts branch'inin hiçbiri yok. Diğer branch adları/uçları önceki kontrolle aynı; açık PR listesi boş. Kullanıcının silme işlemi doğrulandı, assistant silmiş gibi kaydedilmedi. Ayrıntı ve silme öncesi main'e dahil olma kanıtı HISTORY'dedir.
 
-## Devam noktası
+Eski 23 dosya sabit Git geçmişinden erişilebilir. Yeni branch, klasör veya sürüm dosyası açılmadı. Bu kapanış yalnız STATE ve HISTORY'yi günceller; yöntem, taslak, kaynak notları ve başka araştırmalar değişmez.
 
-Yeni bir onlu liste üretme. Kullanıcı kavram çalışmasını yeniden sürdürdüğünde mevcut taslağı şu somut kullanımlar üzerinde incele: “Agent'ın modelini değiştirelim”, “Aynı agent yeni oturumda devam etsin”, “İşi bitirdi; yayımlayabilir.” Bunlar henüz yapılmış testler değildir ve yeni bir SOUL mimarisi kurmak için kullanılmaz.
+## Elimizde ne var?
 
-Assistant, tanım ve ilişki seçimlerini kendisi gerekçelendirip düzeltebilir. Belirsizliği çözmek için bütün komşu alanların araştırılmasını veya her terimin kullanıcı tarafından onaylanmasını bekleme. Yalnız somut kullanımın gösterdiği eksikliği aç; kaynağa geri dön; aynı cümleyi yeniden açıkla.
+WORKING, 40 numaralı madde ve Task alt kullanımından oluşan ilk bağlı anlam taslağıdır. Birlikte kullanım haritası ve karışabilecek anlamlara ilişkin ilk ayrımlar vardır. Bunlar hazır bir mimari, bütün maddeleri eşit güçte doğrulanmış sözlük veya kullanıcının tek tek benimsediği tanımlar değildir.
 
-**Bu turun dönüş koşulu:** sadeleşmiş main içeriğini, korunan geçmişi, gerçek kontrolleri ve tamamlanamayan branch silme işini kullanıcıya bildirmek. Bu bakımda söz konusu kullanım incelemeleri yapılmadı; yeni çalışma veya kabul edilmiş tanım üretilmedi.
+SOURCES eski kaynak kayıtlarına geri dönüşü, kaynak gözlemi ile yerel tercih arasındaki farkı ve kanıt eksiklerini taşır. Özellikle U03–U06'nın URL/tarih listeleri tek başına bütün okuma iddialarını doğrulamaz. Mevcut tanımlar araştırma girdisidir; sıfırdan başlanmaz, yanlış veya eksik olan kısım gerekçeyle düzeltilir.
 
-## Yayın sınırı
+## Devam planı
 
-Bu kayıt yalnız bulunduğu `main` sürümü için günceldir. Yayın, eski main'i parent alan tek commit'in force kullanılmadan ilerletilmesiyle yapılır; eşzamanlı değişiklik varsa önce uzlaştırılır. Kendi commit kimliği tahmin edilmez. Gerçek commit ve kapsam Git geçmişinden geri bulunur. Kontrol kapsamı HISTORY'de tutulur.
+İlk incelemede “Agent'ın modelini değiştirelim” ve “Aynı agent yeni oturumda devam etsin” cümlelerini birlikte ele al. Agent–Model/LLM–yapılandırma–Role/Identity–Run/Session çevresinde neyin değiştiğini ve neyin aynı kaldığını açıkla. Model/ürün/sağlayıcı veya hazır/özelleştirilmiş kullanım ayrımı bu açıklamayı etkiliyorsa gerektiği kadar aç; bunların her biri için ayrı tam araştırma başlatma.
+
+Ardından veya ilk inceleme gerektiriyorsa “İşi bitirdi; yayımlayabilir” örneğiyle Work state–Completion–Verification–Authority/Permission ilişkisini sınayabilirsin. Örnekler henüz uygulanmış test değildir; değişmez sıra veya yeni paket kotası da değildir.
+
+Her incelemede gerekli kaynak dayanağına dön; kaynak kullanımı ile seçilen yerel anlamı ayır; ilgili tanımları ve okları aynı WORKING dosyasında düzelt; bir karşı örnekte yeniden dene. Gerçekten açıklama sağlayan yeni terim eklenebilir, gereksiz ayrım kaldırılabilir. Başarı terim sayısının artması değil, aynı somut anlatımın daha az varsayımla anlaşılmasıdır.
+
+**Sonraki kavram turunun yeterli çıktısı:** seçilen bağlı küme için kaynak dayanağı belirtilmiş kullanım, anlaşılır ilişki haritası, örnek/karşı örnek sonucu ve değişen/açık kalan sınırlar. Bütün 40 maddeyi bitirmeyi veya kullanıcıdan her tanımı onaylamasını bekleme. Anlam yeterince açıklanabildiğinde başka gerçek kullanım ihtiyacına geç.
+
+## Bu turun kapanış sınırı
+
+Branch doğrulaması ve kayıt güncellemesi tamamlanıp kullanıcıya mevcut kazanım ve devam planı sunulur. Bu planın açıklanması örneklerin sınandığı, kaynakların yeniden doğrulandığı veya tanımların kesinleştiği anlamına gelmez. Sonraki çalışma yukarıdaki somut kullanımdan devam eder; repository hazırlığı tekrar edilmez.
