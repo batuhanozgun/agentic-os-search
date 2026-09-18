@@ -1,43 +1,31 @@
 # ECC — STATE
 
-**Updated:** 2026-09-17
-**Current checkpoint:** U05-B — skill outcomes, evaluation and change
-**Work status:** U05-B COMPLETE / PUBLISHED. Twelve ECC-local files merged through own-repository PR #10; the repaired ECC catalog row and publication receipt reached main. [PUBLICATION-U05-B](PUBLICATION-U05-B.md) records actual commits, readbacks, E04 identities and the MR08 maintenance addendum. No owner upload or merge is pending.
-**Study status:** ACTIVE / PARTIAL; P1, wider security/evaluation/controllers and integrated explanation remain open.
-**Method / plan:** 0.1 / 0.9
-**Target pin:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`, unchanged.
+**Updated:** 2026-09-18
+**Checkpoint:** U06-A — configuration protection and enforcement
+**Work status:** U06-A substantive slice and E05 COMPLETE; publication/readback IN PROGRESS. Close scoped integration, exact evidence identities, ECC catalog row and publication receipt before starting U06-B. Prepared blobs/trees are not main publication.
+**Study:** ACTIVE / PARTIAL. **METHOD / PLAN:** 0.1 / 0.10.
+**Unchanged target:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 
-## Purpose, user agreement and current result
+## Purpose and current result
 
-User agreed to defer the comprehensive joint evaluation until ECC research completion, then authorized continuation. Intermediate research validation, method review and source-grounded synthesis continue. Return sooner only for a material purpose/scope/authority choice; do not turn an interesting finding into premature Foundation/SOUL architecture discussion.
+Source-grounded ECC research with repository-centred continuity and method evaluation. The comprehensive joint discussion with Batu is deferred until research completion; intermediate validation/synthesis continues. Material purpose/scope/authority changes return earlier. The user's Information association remains a reuse cue, not adopted Foundation taxonomy or design.
 
-Current result: [Note08](notes/08-SKILL-OUTCOMES-EVALUATION-AND-CHANGE.md), [U05-B sources](evidence/U05-B-SOURCES.md), [ROUND-U05-B / MR08](ROUND-U05-B.md), [E04](evidence/u05-b-evaluation-probe/README.md). U00–U05-A and E01–E03 remain historical bounded deliveries, not whole-system completion.
+Current: [Note09](notes/09-CONFIGURATION-PROTECTION-AND-ENFORCEMENT.md), [U06-A sources](evidence/U06-A-SOURCES.md), [MR09](ROUND-U06-A.md), [E05](evidence/u06-a-config-probe/README.md). U00–U05-B and E01–E04 remain completed bounded deliveries, not whole-system completion.
 
-- Automatic Skill invocation telemetry writes skill-evolution records; session-inspect improvement commands read a different project observation contract. No automatic adapter or quality gate for U05-A instincts was established.
-- The hook records best-effort invocation success/failure, not independently accepted task success. Actual wrapper run-export invocation is present; absence of standalone main is not a broken registered route.
-- Rolling health's non-declining label differs from improvement health's failure-count policy. Current version display is not proof the measured runs used those bytes.
-- A proposal is a templated Markdown fragment, not an applied or causally demonstrated repair. E04 confirms a single failure can produce the repeated-failures rationale.
-- E04 confirms real minimum-count, selector, regression and tie gates, but duplicate observation IDs and unmatched tasks can still produce promote-amendment. Mixed amendments are pooled unless selected. The evaluator reports a recommendation; it does not run a skill or apply its patch.
-- Separate snapshot/rollback/provenance helpers exist; the traced recommendation caller does not enforce a result-bound change admission or actual later use.
+Config protection targets selected existing linter/formatter names, not every configuration or write path. Identical/strengthening writes can be blocked; absent files and pyproject.toml have legitimate exemptions. Effective profile/disable/dry-run selection differs from the guard and host decisions. Truncated input blocks, but ordinary malformed input and a wrapper-caught invalid path can yield zero. E05 also records a non-protected alias resolving to the same protected file with zero; no actual write was performed. Normal block propagation exists; bootstrap/host errors, other gates and authority remain separate.
 
-**Evidence:** S109–S122 source/test-source inspection; E04 LOCAL EXECUTION of three original helpers with synthetic records and exact blob checks. No target stubs or new dependency installs; 9/9 predeclared expectations characterize predicates, not product efficacy. Upstream tests, tracker, full CLI, host/model, dashboard and versioning were not executed. E01–E03 were not rerun.
+**Evidence:** S123–S129 plus retained S122; source/test-source and E05 LOCAL EXECUTION of four exact modules, synthetic temporary filesystem. Fifteen expectations matched; not a whole-security verdict. No upstream suite, actual tool write, bootstrap/host/model, scanner, install or user state mutation. Earlier experiments were not rerun.
 
-## Next authorized work and residuals
+## Next authorized work
 
-**U06-A / Q07a**, NOT STARTED: examine security/governance at an actual configuration-mutation boundary. Start pinned scripts/hooks/config-protection.js and the already-discovered hooks/hooks.json registration / run-with-flags.js / hook-flags dependency; use gateguard-fact-force.js as a second candidate only where it changes the effect boundary. Distinguish an active block from an advisory scan, profile-based skip, operator override and technical filesystem authority. Select one coherent trace rather than auditing every security feature at once.
+After publication closure, **U06-B / Q07b**, NOT STARTED: the separate GateGuard fact-forcing gate. Fully recover scripts/hooks/gateguard-fact-force.js (S128 only 1–240 read), follow its actual run/state/evidence/expiry/exception path and necessary dependencies, and validate registration/runner boundaries. Ask what actually releases a refusal and what binds that release to the current target/instruction. Do not assume its introductory effectiveness claims or conflate it with config-protection. Plan gives return condition.
 
-Q06c1 is bounded-answered; Q06c2 keeps independent task oracles, version-bound experiments, actual amendment admission/deployment/use and bridges to instincts open. Q06b retains sampling/archival, partial writes, semantic corroboration, confidence/applicability and materialization. Q03b/c, Q04b/c/e, Q05b/c and P1 remain as in PLAN/QUESTIONS. Advancing to security does not resolve them.
+Q07a1 bounded; Q07a2 open for real host effect, alias/other writers/races, authenticated exceptions, bootstrap/failure and cross-host coverage. Q03b/c, Q04b/c/e, Q05b/c, Q06b/c2 and P1 remain open. Wider security/AgentShield/evaluation/controllers, native synthesis and reverse-inventory challenge remain required; moving units does not close them.
 
-Batu owns purpose and material phase changes. Assistant owns authorized research, calibrated findings, within-study sequencing and verifiable continuity. Write only research/studies/ecc/** plus ECC's row/route in shared CATALOG/INDEX. Preserve other studies, Foundation, soul-context, explorations, upstream and agent-control.
+## Authority and recovery
 
-No real installation, user-home/config/cache change, credentials/provider/model calls, upstream report/patch, Foundation/control change or SOUL/Development OS design/implementation is authorized. Proportionate isolated fixtures are authorized; E04 remained data-only.
+Batu owns purpose/material phase decisions. Assistant owns authorized source research, proportionate isolated fixtures, sequencing and verifiable publication. Writes: research/studies/ecc/** plus only ECC discovery row/route in shared CATALOG/INDEX. Preserve other studies, Foundation, soul-context, explorations, upstream and agent-control. No real installation, user-home/config/cache changes, credentials/provider/model calls, upstream report/patch or SOUL/Development OS implementation.
 
-## Recovery and record routing
+After canonical control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then Note09, U06-A sources, ROUND-U06-A, E05 README/PLAN and current receipt once registered. Reopen exact sources/raw output when a derived view is insufficient; do not rerun experiments to recreate progress. Old master histories through U03-B and later per-unit rounds/sources/receipts remain recoverable from INDEX. This re-entry is not an independent fresh-session test.
 
-After canonical bootstrap, fully read STATE, INDEX, META, WHY, METHOD, PLAN and QUESTIONS. Then Note08, U05-B sources, ROUND-U05-B/MR08, E04 README/PLAN and [PUBLICATION-U05-B](PUBLICATION-U05-B.md), including its maintenance addendum. Exact result is losslessly compressed stdout; README carries hash/decompression instructions. Do not rerun E04 merely to recover current progress.
-
-Old RESEARCH-LOG, METHOD-REVIEW and SOURCE-LEDGER are preserved history through U03-B. U04-A/U05-A and this unit continue in separate rounds/sources/receipts. INDEX retains their routes and original evidence classes. The user's Information association remains a future reuse cue, not Foundation membership or adopted design.
-
-S116 adds six-file skill-evolution directory metadata; dashboard/index and broad source families are still unexamined. P1 requires material-family accounting, later native synthesis and a reverse-inventory challenge. This unit is not general research closure.
-
-GitHub connector works. Raw-network acquisition failed at DNS; three execution sources were recovered from connector text and byte-verified instead. This is a partial local source fixture, not a full installed ECC checkout. Publication used parent 8bdcce7af6228cbad7eae03d5c5e01074e65289b and expected-head PR #10 merge bbbfe5ae8da65eeca52d50d9a4dbe3f21cc9dfae. Catalog transcription errors were repaired; a byte-verified staged blob and net diff established one ECC row before final non-force advancement at 9addefafbdec3af0d21717cfacd61acbb5f4cc59. The receipt preserves this maintenance failure and bounded prevention, not a flawless-publication claim. U05-B publication is closed; U06-A remains selected, not already performed.
+Connector reads/writes are the publication route. Auxiliary raw download failed at DNS; exact connector bytes supplied E05. Current publication base ffb89901ed362da43f0c1a7685d28b1ba9bcf19a is unchanged from U05-B closure. Catalog base was byte-verified before a mechanical row replacement. Actual commit/scope/readback closure belongs in the receipt, not an assumed successful future action.

@@ -1,33 +1,27 @@
 # ECC — Study Metadata
 
-- **Study ID/type:** ecc / external-target.
-- **Object:** affaan-m/ECC procedural assets, installation/adaptation, work/session, memory/learning, runtime/control/evaluation and delivery boundaries.
-- **Status:** ACTIVE / PARTIAL. U05-B adds skill-outcome/evaluation/change findings and E04; prior units preserved. STATE owns current work/publication. Overall topology and integrated explanation remain unfinished.
-- **Primary question:** What working system does ECC create, through which actual mechanisms, dependencies and cross-surface differences?
-- **Secondary output:** research-method case with choices, errors, costs and observed effects; not a proven best method.
+- **ID/type:** ecc / external-target.
+- **Object:** affaan-m/ECC procedural assets, distribution/installation, work/runtime, memory/learning, evaluation and governance mechanisms.
+- **Status:** ACTIVE / PARTIAL; U06-A adds bounded config-guard source findings and E05. STATE owns work/publication. Whole topology and integrated explanation remain unfinished.
+- **Primary question:** What working system does ECC actually create, with which dependencies, differences and limits?
+- **Secondary output:** Research-method case with real decisions/errors/costs/effects, not a proven best method.
 
-## Source binding and retrieval
+## Source and retrieval
 
-Target https://github.com/affaan-m/ECC ; unchanged pin `8321021c54d670126ce3b2969d5deb880b4b0c2a`. Default-branch searches supply paths, not repinned evidence. [U05-B sources](evidence/U05-B-SOURCES.md) continue S109–S122. W12/W13 revisit current official host contracts separately from target/deployment identity.
+Unchanged pin `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`. [Target](https://github.com/affaan-m/ECC). Default-branch searches are discovery only. Current source ledger S123–S129 plus reused S122; W14 is a separate current official host contract.
 
-Start STATE → INDEX → bounded question/note → exact source/evidence. Current [Note08](notes/08-SKILL-OUTCOMES-EVALUATION-AND-CHANGE.md), [E04](evidence/u05-b-evaluation-probe/README.md) and [MR08](ROUND-U05-B.md). Old master histories stop at U03-B; later rounds/ledgers/receipts remain separate and linked.
+STATE → INDEX → question/note → exact source/evidence. Current [Note09](notes/09-CONFIGURATION-PROTECTION-AND-ENFORCEMENT.md), [E05](evidence/u06-a-config-probe/README.md), [MR09](ROUND-U06-A.md). Prior notes and experiments remain retained, not superseded merely by this checkpoint.
 
-## Current reuse signals
+## Bounded reuse signals
 
-Installation/ownership: distinct delivery channels, transformed materialization, caller-specific ownership, partial checkpoints and projection; E01 cache falsifier. Work/runtime: assignment versus lease, import scope, snapshots/readers, actual worktree/tmux source, completion/acceptance, handoff extraction and recovery; E02/E03 retain their doubles/fake-provider limits.
+Prior work: native/managed/legacy installation and ownership; work records versus execution/acceptance and recovery; unreviewed memory versus governed use; observation/instinct/context fidelity; invocation telemetry versus outcome evaluation, proposal versus admitted material change. E01–E04 preserve their original fixture/host limits.
 
-Memory: fixed-unreviewed context versus active status and governed acceptance, scope/root/CLI/MCP policy, incomplete lookup versus partial recall and terminal information loss; no new runtime evidence for these U04 findings.
+U06-A: guard activation versus decision versus host effect; selected filename/existence protection rather than semantic rule weakening; legitimate new-file/mixed-purpose exceptions; alias identity; malformed versus truncated input; operator configuration precedence versus authenticated exception. E05 records original-runner decisions with temporary files, including real blocks, skips and adverse cases. No actual proposed tool write, live host/model, external scanner or general security validation.
 
-Instinct learning: selected observation, optional analyzer, current-result marker, scope/evolution differences, same-ID recurrence versus independent corroboration, direct SessionStart action injection and lost applicability/evidence context; U05-A remains source-only.
+## Provisional relevance and authority
 
-**U05-B:** automatic invocation telemetry versus distinct improvement observations; stored labels versus verified task outcomes; non-declining health versus absolute failure health; report version versus measured content; a templated proposal versus a demonstrated repair; count/rate/selector gates versus unique/comparable/version-bound evaluation; recommendation versus actual change admission; separate provenance/snapshot/rollback helpers.
+Information: reliable evidence and diagnostic meaning at a decision boundary. Work: preservation of acceptance criteria, legitimate exceptions and current action. Actors: configuration authorship, approval and responsibility distinct from an environment value. Environment: hook/runtime/path/selector boundaries versus OS enforcement. Many-to-many retrieval hints, not Foundation taxonomy.
 
-E04 executes only three exact original improvement helpers with synthetic records, no target stubs. Positive and rejection controls plus duplicate/unmatched/mixed-amendment/single-failure cases characterize predicates, not learned-skill efficacy. Upstream tests, actual tracker/CLI/host, dashboards and versioning were not run. No automatic quality gate for U05-A instincts or repository-wide absence of other controls is established.
+SOUL/Development OS: concrete cases for constructing and governing a working system without equating a control's existence, zero return or path label with valid authority/protection. The Information cue and comprehensive joint evaluation remain for later completed-research synthesis, not present architecture/adoption.
 
-## Provisional relevance and use boundaries
-
-Information: provenance, evidence/metric meaning, observation identity, result/view fidelity and applicability. Work: comparability and acceptance of improvements, proposal versus effect. Actors: caller-supplied labels, independent judgment and approval responsibility. Environment: runtime event, storage/consumer separation, exact version and installed-use context. These are many-to-many retrieval hints, not Foundation taxonomy.
-
-SOUL/Development OS reuse: concrete cases for governing information-to-behavior and measuring actual improvement, without equating instrumentation, positive metrics or recoverable bytes with accepted effective behavior. The user's Information association remains a reuse cue. Comprehensive joint evaluation is deferred until research completion; no architecture/adoption is authorized.
-
-Before load-bearing current reuse, reopen affected pin, caller, host/configuration, oracle and residual. Q03b/c, Q04b/c/e, Q05b/c, Q06b/c2 and P1 retain important limits. METHOD 0.1 / PLAN 0.9. U06-A security/governance is next, not already investigated. This package is candidate research, not control rules, Foundation truth or implementation authority.
+Revalidate exact target, caller/host/configuration, threat model and material residual before current decision-critical reuse. Q03–Q06 residuals, Q07a2, wider Q07/Q08 and P1 remain. U06-B fact-forcing is next, not yet investigated beyond a selected prefix. METHOD 0.1 / PLAN 0.10. This package is candidate research, not agent-control or implementation authority.
