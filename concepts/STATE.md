@@ -100,9 +100,15 @@ Bu liste sonraki 10 terim için olası seed'dir; zorunlu sıra değildir. Sonrak
 
 ## Yayın durumu
 
-Bu tur için çalışma branch'i `research/concepts-core-terms-batch1-20260918`.
+**Yayın:** [PR #23](https://github.com/batuhanozgun/agentic-os-search/pull/23); branch `research/concepts-core-terms-batch1-20260918`; exact head `625b60f76990060bda84b0738eaf772ad7d6f89a`; main merge commit `8fffaf9dd1eb360e258e317495121084ce98a869`.
 
-Yeni U03 araştırması ve working reference v0.1 oluşturuldu; research/synthesis/reference routing, Agent BRIEF, envanter ve bu STATE yeni batch'e bağlandı. Main yayını ve geri doğrulama tamamlanmadan branch canonical yayın sayılmaz.
+Branch oluşturulduktan sonra main beş ECC recovery commit'iyle ilerledi; bu değişikliklerin hiçbiri concepts yollarıyla çakışmadı. PR merge öncesi `mergeable=true` idi. Merge çağrısı exact head'e bağlandı ve başarılı oldu.
+
+Merge öncesi güncel main `502bc3cf4b15b901ec3b096f59397de231521e98` → merge commit karşılaştırması yalnız dokuz concepts yolunu gösterdi: iki yeni dosya ve yedi yönlendirme/state güncellemesi. Böylece eşzamanlı ECC katkıları main tabanında korunurken bu batch yalnız kendi alanını değiştirdi.
+
+Merge commit'inden U03, working reference ve STATE geri okundu. Working reference hâlâ ACCEPTED değildir; `reference/INDEX.md` bunu yalnız candidate olarak gösterir. Bu kontroller aktarım/kapsam/continuity kanıtıdır; tanımların evrensel doğruluğunun veya gelecekteki iletişim başarısının bağımsız doğrulaması değildir.
+
+Çalışma branch'i artık bekleyen canonical yayın değildir; kullanıcıdan tek tek 10 terim onayı istenmez. Sonraki kullanım/batch, bu v0.1'i çalışma zemini olarak alıp çakışma çıktıkça fine-tune eder.
 
 ## Korunan geçmiş
 
