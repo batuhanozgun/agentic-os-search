@@ -97,9 +97,13 @@ Bunlar zorunlu sıra değildir; v0.2 haritasında en fazla ayrım temizleyecek k
 
 ## Yayın durumu
 
-Bu tur için çalışma branch'i `research/concepts-core-terms-batch2-20260918`.
+**Yayın:** [PR #24](https://github.com/batuhanozgun/agentic-os-search/pull/24); branch `research/concepts-core-terms-batch2-20260918`; exact head `7e452b0c9d8f81f1069fbe4bbaf8938f6e7346ab`; main merge commit `6198fa8195bbf56a83568b093f9bf23df2878140`.
 
-U04 ve working v0.2 oluşturuldu; research/synthesis/reference routing, envanter ve STATE v0.2'ye bağlanıyor. Main yayını ve geri doğrulama tamamlanmadan branch canonical yayın sayılmaz.
+Sekiz concepts yolu değişti: yeni U04 ve working v0.2; v0.1 historical snapshot işareti; research/synthesis/reference index, envanter ve bu STATE. Agent-control, Foundation, studies paketleri ve explorations değişmedi.
+
+PR merge öncesi `mergeable=true` idi. Exact head'e bağlı normal merge başarılı oldu; head → merge karşılaştırması sıfır dosya farkı verdi. Working v0.2 ve U04 main üzerinden yayımlandı.
+
+Bu yayın tanımların evrensel doğruluğunu veya ileride hiç değişmeyeceğini kanıtlamaz. v0.2 evolving working reference olarak kullanılacak ve sonraki batch/gerçek kullanım çakışmalarıyla fine-tune edilecektir. ACCEPTED reference hâlâ yoktur.
 
 ## Korunan geçmiş
 
