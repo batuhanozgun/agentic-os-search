@@ -1,6 +1,6 @@
 # Superpowers Study — Current State
 
-**Updated:** 2026-09-18 after U08-C. **Research: BOUNDED-COMPLETE / REVIEW-READY. Owner evaluation: PENDING. Active substantive research: NONE.** CORE and the final source/omission/freshness challenge are complete at the stated research scope. Publication is verified on main through PR #16; the receipt is below.
+**Updated:** 2026-09-18 after owner evaluation. **Research: BOUNDED-COMPLETE / USER-EVALUATED / ACCEPTED. Active substantive research: NONE.** CORE and the final source/omission/freshness challenge are complete at the stated research scope. The owner has accepted the bounded research result and conversation-purpose closure; no further owner evaluation is pending. The U08-C publication is verified on main through PR #16; its receipt is below.
 
 STATE owns work, authorization, acceptance and publication. META owns classification/reuse; INDEX/CATALOG are derived retrieval. A source-grounded explanation is not a live-product certificate or adopted architecture.
 
@@ -9,6 +9,20 @@ STATE owns work, authorization, acceptance and publication. META owns classifica
 The user authorized detailed obra/superpowers research under studies, with a gstack-like methodology and successive continuation. The result is an inspectable native explanation, qualified project-facing contribution and recoverable mechanism/evidence corpus for later SOUL / Development OS work.
 
 Completed research does not authorize installation, credentials, paid/live-model campaigns, upstream issues/changes, target implementation or Foundation/SOUL/Development OS architecture adoption. Target instructions remain research objects. The user owns research direction and acceptance. No background work or automatic follow-on study is scheduled.
+
+## Owner evaluation and session closure — 2026-09-18
+
+After the completed U08-C result was presented, the owner wrote:
+
+> çok iyi çalıştın. hem araştırma anlamında hem de araştırmanın bulgularını tüm reponun amacına hizmet edecek anlamda çok iyi yorumladın. benden beklediğin bir şey yoksa (superpowers özelinde) bu konuşmanın amacına ulaştığını düşünüyorum. diğer araştırmalar diğer oturumlarda devam edecek.
+>
+> Repoyla ilgili superpowers kapsamında bir işin yoksa oturumu sonlandıracağım.
+
+In context, this is positive owner evaluation of the bounded research and its project-facing interpretation, together with permission to close this conversation once any remaining Superpowers repository housekeeping is complete. The actual pre-update STATE still named owner evaluation as the next responsibility; PR #16 was independently retrieved as merged, and the post-publication comparison showed no intervening changes to this study. The remaining task was recording this acceptance, not another research pass or a new request for approval.
+
+Acceptance concerns the research deliverable and its stated purpose. It does not establish that the owner read every source file, independently replicated the findings, resolved Q01–Q47, certified product efficacy or adopted a mechanism. CORE, CLOSURE-AUDIT and original source records retain their producing-checkpoint wording about pending evaluation; this STATE supplies the later acceptance without rewriting those research artifacts.
+
+This maintenance starts from research main `c5342f8b4c2b7ee471b9da8078d6fc7c371c0531` and changes only STATE/META/INDEX/PLAN and the Superpowers CATALOG row. METHOD and PLAN versions remain v0.1/v0.14: this is acceptance/continuity maintenance, not new research or a changed completion standard. Other research continues in its own sessions under its own current authority. No additional input, manual transfer or follow-on task is requested from the owner by this package.
 
 ## Compact result
 
@@ -37,7 +51,7 @@ METHOD remains v0.1; PLAN is v0.14. Original F01–F79, Q01–Q47, S01–S06 and
 | S05 / U08-A | Native whole-system composition. |
 | S06 / U08-B | Qualified project-facing contribution and selected comparator use. |
 | CORE / U08-C | Compact result plus final omission/freshness and closure assessment. |
-| Owner acceptance | Pending; not implied by approval of earlier research rounds. |
+| Owner acceptance | Accepted on 2026-09-18 after the U08-C result; exact message and bounded interpretation above. |
 | Installation / adoption / live efficacy qualification | Not performed or activated. |
 
 [CLOSURE-AUDIT](CLOSURE-AUDIT.md) applies the unchanged method: load-bearing families, traceable syntheses, native explanation, project relevance, explicit residuals and reverse-source challenge. No known decision-critical missing family remains for this explanatory purpose. Same-assistant checking is not independent replication or a numerical saturation measurement.
@@ -65,7 +79,7 @@ The prior long cold-start chain served an active research continuation. Closure 
 
 ## Next responsibility
 
-**Next:** owner evaluation of the bounded result. No automatic substantive continuation, live campaign, installation, architecture phase, new study or Foundation restart.
+**Next:** none within the accepted Superpowers study. Owner evaluation is complete; this conversation may close after the acceptance record is published. No automatic substantive continuation, live campaign, installation, architecture phase, new study or Foundation restart. Other research remains in its own sessions and is not redirected by this closure.
 
 A later explicit task may identify a concrete omitted family, invalidate a premise, require changed-source revalidation or seek stronger empirical evidence. Reopen that scope with its own question and authority rather than restarting the entire campaign.
 
