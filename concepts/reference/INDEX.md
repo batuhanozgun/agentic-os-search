@@ -4,7 +4,7 @@ Bu alan, **“Biz bu ifadeyi şu bağlamda şu anlamda kullanıyoruz”** biçim
 
 ## Kabul edilmiş kayıtlar
 
-Henüz kabul edilmiş ortak kavram kaydı yoktur. Agent veya komşu kavramlar bu yöntem uyarlamasıyla tanımlanmış olmadı. Güncel çalışma ve yetki [STATE](../STATE.md)'tedir. Gerçek kabul kayıtları oluştukça bu dizine eklenir; yöntem onayı, örnek açıklama veya boş dosya kabul sayılmaz.
+Henüz ACCEPTED ortak kavram kaydı yoktur. İlk 10 terim için [working local reference v0.1](../synthesis/CORE-TERMS-WORKING-v0.1.md) hazırlanmıştır; bu kayıt Agent, Model, LLM, Actor, Role, Run, Session, Workflow, Tool ve Harness için batch-level çalışma tanımları taşır fakat henüz bu dizine kabul edilmiş kayıt olarak terfi etmemiştir. Güncel çalışma ve yetki [STATE](../STATE.md)'tedir.
 
 ## Bir kaydın neyi açıklaması gerekir?
 
