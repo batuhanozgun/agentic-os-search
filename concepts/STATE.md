@@ -1,9 +1,9 @@
 # Concepts — Güncel Durum
 
 **Kayıt tarihi:** 2026-09-18.
-**Mevcut iş:** Kullanıcının onayladığı bağlantılı kavram inceleme biçimini repository'ye uyarlamak; yeni terim araştırması değil.
-**Yöntem:** [METHOD v0.2](METHOD.md) ve [esnek PLAN v0.2](PLAN.md); üç kayıt düzeyi korunuyor, global terim kuyruğu kaldırılıyor.
-**Yöntem yayını:** ÇALIŞMA BRANCH'İNDE ADAY; main birleşimi ve yayın sonrası geri doğrulama henüz tamamlanmadı.
+**Mevcut iş:** Yöntem uyarlaması, main yayını ve aşağıda belirtilen kontroller TAMAMLANDI; sonucu kullanıcıya sunma/dönüş noktası. Yeni terim araştırması başlamadı.
+**Yöntem:** [METHOD v0.2](METHOD.md) ve [esnek PLAN v0.2](PLAN.md); üç kayıt düzeyi korunuyor, global terim kuyruğu yerine bağlantılı inceleme kullanılıyor.
+**Yöntem yayını:** MAIN ÜZERİNDE YAYIMLANDI; PR #20, merge commit `1865e12027efeb323d0d79f978a232bd79fe4de5`. Yayın sonrası geri okumalar ve kapsam kontrolü aşağıda kayıtlıdır.
 **Korunan araştırma:** [Agent U01](research/agent/U01-SOURCE-USES.md), main üzerinde yayımlanmış ilk sınırlı kaynak incelemesi. Bu bakım turunda yeni kaynak bulgusu eklenmedi.
 **Kabul edilmiş ortak anlam:** Yok. Yöntem onayı, Agent veya komşu terim tanımının kabulü değildir.
 
@@ -21,7 +21,7 @@ U01 sonrasında kullanıcı, bir terim araştırılırken ortaya çıkan terim v
 |---|---|
 | P0 hazırlık | TAMAMLANDI; tarihsel yayın korunuyor. |
 | U01 kaynak incelemesi | YAYIMLANDI / İLK SINIRLI DİLİM; bütün Agent literatürünün tamamlandığı iddiası yok. |
-| Bağlantılı çalışma yöntemi | Kullanıcı yönüyle v0.2'ye uyarlandı; yayın adayı. |
+| Bağlantılı çalışma yöntemi | Kullanıcı yönüyle v0.2'ye uyarlandı; main yayını ve belirtilen kontroller tamamlandı. |
 | Envanterdeki komşular | Kaynaklı soru/keşif kaydı; araştırılmış veya zorunlu önkoşul listesi değil. |
 | Agent için hangi komşuya girileceği | Henüz seçilmedi; mevcut anlam sorusuna etkisiyle değerlendirilecek. |
 | Yeni sentez / referans adayı | Bu tur oluşturulmadı. Sohbetteki örnek tanım benimsenmedi. |
@@ -36,19 +36,22 @@ Güncel AGENT ve gereken protokoller → [INDEX](INDEX.md) → bu STATE → [PUR
 
 **Sıradaki mantıklı kavram işi:** U01'deki ayrımları ve kökeni ayrılmış bağlantıları birlikte değerlendirmek; gerekiyorsa belirli komşu soruya sınırlı inmek, zemin yeterliyse yerel kullanım adayı önermek. Ne otomatik U02 taraması ne de hemen Agent tanımı kabulü seçildi. “Agent oluşturmak” U01'in açık aday sorularından biridir; tek zorunlu sonraki iş değildir.
 
-**Şu andaki yetkili kapanış işi:** Yöntem uyarlamasının yayınını ve gerçek kontrollerini tamamlayıp kullanıcıya dönmek. Sonraki kavram çalışması kullanıcı devam yönüyle açılır. Böyle bir devamda gerekli komşu incelemesi, karşılaştırma ve aday önerme aynı işin adımları olabilir; her küçük adımda ayrı faz onayı istenmez. Bir yerel anlamın kabulü ise belirli açıklamaya verilen açık kullanıcı değerlendirmesini gerektirir.
+**Mevcut dönüş ve sonraki yetki:** Yöntem uyarlamasının yayını ve belirtilen kontroller tamamlandı; bu turun sonucu kullanıcıya sunulur. Sonraki kavram çalışması kullanıcı devam yönüyle açılır. Böyle bir devamda gerekli komşu incelemesi, karşılaştırma ve aday önerme aynı işin adımları olabilir; her küçük adımda ayrı faz onayı istenmez. Bir yerel anlamın kabulü ise belirli açıklamaya verilen açık kullanıcı değerlendirmesini gerektirir. Tamamlanmış yöntem düzenlemesi veya yayın işi tekrar yapılacak iş değildir.
 
 P0'ı, U01'i veya önceki sohbetin geçici örneklerini yanlış statüyle devralma. Envanter bir checklist değildir. “Yöntem uygun” ifadesi örnek Agent tanımını, “zorunlu komşular” listesini, hazır/özel ikiliğini veya model/ürün adı örneklerini doğrulamaz. U01 ve SETUP-VERIFICATION içindeki tarihli durum/sonraki-iş anlatımları bu güncel STATE'i geçersiz kılmaz.
 
 ## v0.2 değişiklik ve yayın kaydı
 
-**İncelenen main:** `a605ee34b45b68d9d2aece5bc815a602f4676081`.
+**İncelenen main / yayın base'i:** `a605ee34b45b68d9d2aece5bc815a602f4676081`.
 **Çalışma branch'i:** `maintenance/concepts-connected-inquiry-20260918`.
-**Ayrıntılı kapsam / kontrol:** [METHOD-ALIGNMENT-2026-09-18](checks/METHOD-ALIGNMENT-2026-09-18.md).
+**Yayın:** [PR #20](https://github.com/batuhanozgun/agentic-os-search/pull/20); exact head `70ab7a108ce925cd962c75af931175e6f4d717b4`; normal main merge `1865e12027efeb323d0d79f978a232bd79fe4de5`.
+**Ayrıntılı kapsam / gerçekleşen kontroller:** [METHOD-ALIGNMENT-2026-09-18](checks/METHOD-ALIGNMENT-2026-09-18.md).
 
-Concepts içindeki mevcut 12 dosya ve programın kontrol/giriş bağlantıları değerlendirildi. On concepts dosyası güncelleniyor; U01 ve tarihsel SETUP-VERIFICATION korunuyor. Kök README ile studies INDEX'te yalnız concepts açıklaması değişiyor; bir uyum/kontrol kaydı ekleniyor. İlgili olup değişmeden bırakılan dosyaların gerekçeleri aynı kayıtta bulunur. Araştırma içerikleri ve agent-control değişmiyor.
+Concepts içindeki mevcut 12 dosya ve programın kontrol/giriş bağlantıları değerlendirildi. On concepts dosyası güncellendi; U01 ve tarihsel SETUP-VERIFICATION korundu. Kök README ile studies INDEX'te yalnız concepts açıklaması değişti; bir uyum/kontrol kaydı eklendi. İlgili olup değişmeden bırakılan dosyaların gerekçeleri aynı kayıtta bulunur. Araştırma içerikleri ve agent-control değişmedi.
 
-Branch'te hazırlanmış olmak main yayını değildir. Gerçek PR, merge kimliği ve yayın sonrası geri okuma tamamlanınca bu bölüm ile kontrol kaydı gerçekleşen sonuca güncellenecek. Yerel anlamın iletişimde işe yaradığına dair bağımsız davranış deneyi yapılmadı.
+PR dosya listesi ve base → son head karşılaştırması 13 yol kapsamını doğruladı. Ortak dosyaların patch'leri incelendi; studies INDEX'teki ilgisiz aktarım farkı yayın öncesinde geri alındı ve son patch yalnız amaçlanan paragrafı gösterdi. Exact head'e bağlı merge başarılı oldu; head → merge karşılaştırması sıfır dosya farkı verdi. Main'den METHOD, concepts INDEX, STATE ve uyum kaydı tam geri okundu; U01 ve SETUP'un blob kimlikleri değişmedi. Okuma derinliği ve diğer kontrol sınırları uyum kaydında ayrıdır.
+
+Bu kayıt gerçekleşmiş yayının kapanışıdır; yeni araştırma veya terim kabulü değildir. Çalışma branch'i bekleyen yayın ya da alternatif current state değildir. Kullanıcının elle upload veya merge yapması gerekmiyor. Kontroller dosya uyumu, kapsam, aktarım ve devam yoluyla sınırlıdır; yerel anlamın iletişimde işe yaradığına dair bağımsız davranış deneyi yapılmadı.
 
 ## Korunan U01 yayın geçmişi
 
