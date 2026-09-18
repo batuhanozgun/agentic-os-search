@@ -1,8 +1,8 @@
 # Superpowers Study — Index
 
-**BOUNDED-COMPLETE / REVIEW-READY; owner evaluation pending.** Read [STATE](STATE.md) for current authority and actual publication. No substantive research, installation or architecture task is automatically active.
+**BOUNDED-COMPLETE / USER-EVALUATED / ACCEPTED on 2026-09-18.** Read [STATE](STATE.md) for the owner acceptance record, current authority and actual publication. No further owner evaluation or substantive research is pending; installation or architecture work is not activated.
 
-Start with [CORE](CORE.md) for the compact result and [CLOSURE-AUDIT](CLOSURE-AUDIT.md) for its scope, final challenge and residuals. The primary main ref was revalidated unchanged on 2026-09-18 at `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797` (manifest context 6.3.0). This is not installed-host, release-channel or general efficacy qualification.
+Start with [CORE](CORE.md) for the compact result and [CLOSURE-AUDIT](CLOSURE-AUDIT.md) for its scope, final challenge and residuals. Their pending-evaluation wording belongs to the pre-acceptance checkpoint; current acceptance is recorded in STATE. The primary main ref was revalidated unchanged on 2026-09-18 at `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797` (manifest context 6.3.0). This is not installed-host, release-channel or general efficacy qualification.
 
 The complete earlier [claim-by-claim re-entry map](https://github.com/batuhanozgun/agentic-os-search/blob/7d312c9e6dd26ec8393b5f4d94e99950775b16bf/research/studies/superpowers/INDEX.md#claim-directed-re-entry) remains available unchanged at the U08-B snapshot. Use its source routes, not its historical U08-C-next status. Closure changes the entry to selective reuse; it does not delete the underlying notes, evidence or detailed map.
 

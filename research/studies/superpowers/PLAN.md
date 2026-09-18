@@ -1,12 +1,12 @@
 # Superpowers Study — Plan v0.14
 
-**Date:** 2026-09-18. [METHOD](METHOD.md) remains v0.1. [STATE](STATE.md) owns actual publication, work and owner evaluation.
+**Date:** 2026-09-18. [METHOD](METHOD.md) remains v0.1. [STATE](STATE.md) owns actual publication, work and owner evaluation. Acceptance maintenance on 2026-09-18 does not change the research-plan version or completion standard.
 
 ## Purpose and current disposition
 
 Explain how skill instructions, hosts, artifacts, actors, verification, lifecycle, evolution and distribution compose into Superpowers; identify the limits; make the results reusable for later SOUL / Development OS work.
 
-**The bounded source-research campaign is complete and ready for owner evaluation.** No next substantive investigation is automatically active. This is not installation, adoption, a general effectiveness verdict or a new target-development phase.
+**The bounded source-research campaign is complete, user-evaluated and accepted.** The owner accepted the research and its project-facing interpretation after the U08-C result; the exact message and scope are in STATE. No next substantive investigation is automatically active. This is not installation, adoption, a general effectiveness verdict or a new target-development phase.
 
 ## Completed sequence
 
@@ -49,7 +49,7 @@ No original failed criterion was relabeled as a pass. No source was silently rep
 
 ## Next logical work versus next authorized work
 
-**Next responsibility:** return the completed bounded result for owner evaluation. The owner may accept it, identify a concrete missing question or choose a specific reuse task.
+**Next responsibility:** none within this accepted research campaign. Owner evaluation is complete; no additional Superpowers approval is requested. The conversation may close after the acceptance/continuity record is published. Other research remains in its own sessions under its own current authority.
 
 **Automatically active substantive work:** none. Do not begin installation, integration, architecture, target implementation, another study, a new evaluator campaign or generic Foundation deepening from this closure.
 
@@ -70,4 +70,4 @@ The complete earlier sequence and v0.13 plan remain at [the U08-B publication](h
 
 ## Preservation boundary
 
-New CORE/audit/register and current package/discovery surfaces are the closure write set. METHOD, S01–S06, previous notes/registers/experiments, Foundation, context/Codex, other studies, concepts/explorations, agent-control and external repositories remain unchanged. No background work is scheduled.
+The owner-acceptance maintenance changes only STATE/META/INDEX/PLAN and the Superpowers catalog row. The U08-C CORE/audit/register, METHOD, S01–S06, previous notes/registers/experiments, Foundation, context/Codex, other studies, concepts/explorations, agent-control and external repositories remain unchanged. No background work is scheduled.
