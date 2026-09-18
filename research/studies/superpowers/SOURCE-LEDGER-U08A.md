@@ -40,7 +40,7 @@ Paths below are at the unchanged primary commit. These files already had S-serie
 
 | ID | Path / blob | Actual U08-A reading and purpose |
 |---|---|---|
-| S04 | `skills/using-superpowers/SKILL.md` / `7ab2eb678f649c8befb94512359ee0b6e9a9a9a9a4` | FULL; actual blob is `7ab2eb678f649c8befb94512359ee0b6e9a9a9a4`. User priority, specific-task subagent exception, process-skill selection and platform references. |
+| S04 | `skills/using-superpowers/SKILL.md` / `7ab2eb678f649c8befb94512359ee0b6e9a9a9a4` | FULL; user priority, specific-task subagent exception, process-skill selection and platform references. |
 | S28 | `skills/writing-plans/SKILL.md` / `f74605bfa9af7a3fb7e4ad7f17750a86a9b0d728` | FULL; testable task boundary, globals/interfaces, step granularity, self-review and execution choice. |
 | S30 | `skills/subagent-driven-development/SKILL.md` / `aac35b91c07af15eca580a205eb0c894b86e87c8` | FULL, 1–190, 191–370, 371–EOF; controller authority, recovery, exact dispatch/review inputs, serial/batched implementation, cap/final-wave and disclosure. |
 | S31 | `skills/executing-plans/SKILL.md` / `b51d97d2cc4c2ecc5eabecf27e499aa8c933efac` | FULL; alternate stop/clarify route, subagent redirect and all-tasks execution. No fixed batch size inferred from description. |
