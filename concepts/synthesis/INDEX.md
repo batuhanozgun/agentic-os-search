@@ -6,13 +6,13 @@ Bu alan ilgili kullanımları, işlevleri ve ilişki sorularını karşılaştı
 
 | Konu | Kayıt | Statü |
 |---|---|---|
-| İlk 20 bağlı terim | [CORE-TERMS-WORKING-v0.2](CORE-TERMS-WORKING-v0.2.md) | Evolving working local reference; U03 + U04 batch'leriyle çakışma kontrolü yapılmış, accepted değil. |
+| İlk 30 bağlı terim | [CORE-TERMS-WORKING-v0.3](CORE-TERMS-WORKING-v0.3.md) | Evolving working local reference; U03 + U04 + U05 batch'leriyle çakışma kontrolü yapılmış, accepted değil. |
 
-[v0.1](CORE-TERMS-WORKING-v0.1.md) ilk 10 terimin tarihsel snapshot'ıdır ve v0.2 tarafından supersede edilmiştir. [Agent boundary adayı](AGENT-BOUNDARY-CANDIDATE-v0.1.md) daha eski ara sentez olarak korunur.
+[v0.2](CORE-TERMS-WORKING-v0.2.md) ilk 20 terimin, [v0.1](CORE-TERMS-WORKING-v0.1.md) ilk 10 terimin tarihsel snapshot'ıdır. [Agent boundary adayı](AGENT-BOUNDARY-CANDIDATE-v0.1.md) daha eski ara sentez olarak korunur.
 
-v0.2 Agent, Model, LLM, Actor, Role, Run, Session, Workflow, Tool, Harness yanında Runtime, Context, Memory, Identity, Capability, Authority, Permission, Orchestration, Handoff ve Subagent kavramlarını aynı ilişki sistemi içinde taşır.
+v0.3 Work–Environment–control hattını State, Work state, Environment, Workspace, Sandbox, Policy, Guardrail, Verification, Observability ve Persistence ile genişletir.
 
-Amaç tek tek terim onayı toplamak değil; yeni kavramlar eskileri zorladıkça aynı reference yüzeyini fine-tune etmektir.
+Amaç tek tek terim onayı toplamak değil; yeni kavramlar eskileri zorladıkça aynı working reference'ı fine-tune etmektir.
 
 ## Kayıt ve kabul sınırı
 
