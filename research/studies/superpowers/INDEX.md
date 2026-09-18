@@ -2,9 +2,9 @@
 
 ACTIVE / PARTIAL **external-target candidate study**, not Foundation authority or an adopted stack.
 
-**Continue from [STATE.md](STATE.md)** and its full cold-start path. U01–U06 and U07-A have bounded investigations. **U07-B distribution and remaining support files are next; U07 overall remains open.** The first native subsystem synthesis is [S01 — Skill evolution and evaluation](syntheses/S01-skill-evolution-and-evaluation.md); the whole-system explanation and CORE remain open.
+**Continue from [STATE.md](STATE.md)** and its full cold-start path. U01–U07 have bounded investigations; U07 closes through its visual and distribution units with explicit empirical limits. **U08 native synthesis is next.** The first native subsystem synthesis is [S01 — Skill evolution and evaluation](syntheses/S01-skill-evolution-and-evaluation.md); the whole-system explanation, project-facing projection and CORE remain open.
 
-Primary: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Lab: `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`. B2 binds Gauntlet to campaign-named `db6c8e0f…`, with the exact `25a2e3e…` delta. Public reports, source controls and U07-A's mocked client are not independent live efficacy evidence.
+Primary: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Lab: `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`. B2 binds Gauntlet to campaign-named `db6c8e0f…`, with the exact `25a2e3e…` delta. Public reports, source controls and local helper cases are not independent live efficacy evidence.
 
 ## Package routes
 
@@ -22,6 +22,7 @@ Primary: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Lab: `prim
 | U06-B1 evaluator code paths and exact full/partial coverage | [SOURCE-LEDGER-U06B1.md](SOURCE-LEDGER-U06B1.md) |
 | U06-B2 assessor pins, public records and qualification boundaries | [SOURCE-LEDGER-U06B2.md](SOURCE-LEDGER-U06B2.md) |
 | U07-A visual runtime sources and exact-helper local observations | [SOURCE-LEDGER-U07A.md](SOURCE-LEDGER-U07A.md) |
+| U07-B assembly/version/integration/support sources and local version cases | [SOURCE-LEDGER-U07B.md](SOURCE-LEDGER-U07B.md) |
 | Request classification, procedural scope, shell bootstrap | [U01-A](notes/U01-entry-routing-and-bootstrap.md) |
 | Host delivery, cache and procedure/work recovery | [U01-B](notes/U01B-host-delivery-and-continuity.md) |
 | Approval/ruling, plan/workspace identity and brief handoff | [U02](notes/U02-approval-plan-workspace-handoff.md) |
@@ -32,6 +33,7 @@ Primary: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Lab: `prim
 | Outcome-oriented review, projected roles, capture/checks and verdict | [U06-B1](notes/U06B1-evaluation-evidence-and-verdict.md) |
 | Canonical criterion/read contracts, repair/publication, semantic counterexamples and CI scope | [U06-B2](notes/U06B2-assessor-contracts-and-evidence-qualification.md) |
 | Optional visual channel, authentication, interaction identity, recovery and retention | [U07-A](notes/U07A-visual-companion-lifecycle.md) |
+| Archive/sync provenance, version modes, installation/activation and coverage disposition | [U07-B](notes/U07B-distribution-versioning-and-support.md) |
 | Native procedure-change/evaluation/admission subsystem | [S01](syntheses/S01-skill-evolution-and-evaluation.md) |
 
 ## Evidence routes
@@ -45,8 +47,9 @@ Primary: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Lab: `prim
 | Diagnostic observation versus final claim | [U04 runner](evidence/U04-diagnostic-probes.py) / [output](evidence/U04-diagnostic-probes-results.json) |
 | Integration/cleanup/retention; local-only detached push | [U05 runner](evidence/U05-lifecycle-probes.py) / [output](evidence/U05-lifecycle-probes-results.json) |
 | Exact helper with fake DOM/transport: event schema, multiselect and recovery | [U07-A runner](evidence/U07A-companion-client-probes.mjs) / [output](evidence/U07A-companion-client-probes-results.json) |
+| Exact version helper: JSON-only check/audit/mutation and inventory scope | [U07-B runner](evidence/U07B-version-probes.py) / [output](evidence/U07B-version-probes-results.json) |
 
-U06-A/B1/B2 performed no new execution. D30/D31/D37 are attributed public reports, not our experiments. U07-A adds E13/E14: nine expected observations and two unmet stronger criteria; no browser, server, model or upstream suite. Earlier failures remain preserved.
+U06-A/B1/B2 performed no new execution. D30/D31/D37 are attributed public reports, not our experiments. U07-A adds E13/E14: nine expected observations and two unmet stronger criteria; no browser, server, model or upstream suite. U07-B adds E15/E16: eight expected observations and two unmet stronger criteria; no production YAML layout, packaging/sync, release or host. Earlier failures remain preserved.
 
 ## Claim-directed re-entry
 
@@ -124,14 +127,27 @@ U06-A/B1/B2 performed no new execution. D30/D31/D37 are attributed public report
 | All project-dir sessions survive stop regardless of location | U07-A F70/S75: lexical /tmp cleanup condition, not original launch flag. |
 | Local companion guarantees an offline page | U07-A F71: optional remote branding and agent-authored resources; no network observation. |
 | Helper test header describes all its actual test scope | U07-A F72/S77: later mocked browser state-machine tests also exist, not run here. |
+| Every distribution contains the same root files | U07-B F73/S79/S80: positive archive selection versus legacy root exclusions; nested skill helpers retained. |
+| Primary SHA alone determines the assembled package | U07-B F74/F75: external metadata, working state, destination overlay and builder inputs. |
+| Present prior-package metadata is current and authoritative | U07-B F74: file/count checks, not publisher or semantic qualification. |
+| Dirty permission means archive includes working edits | U07-B F73/F74/S79: archive still uses the selected ref. |
+| A sync permalink identifies its entire working payload | U07-B F75/S80: dirty/non-main allowance, nonignored extras and destination metadata. |
+| Dry-run means no preparation or external interaction | U07-B F75: auth/clone/preview preparation precedes no-apply return; not executed here. |
+| Audit success proves declared versions agree | U07-B F76/E15 C02: check fails while advisory audit exits zero. |
+| Bump success proves every declared file was updated | U07-B F76/E15 C03: missing-middle file skipped; explicit criterion unmet. |
+| Failed bump means no file changed | U07-B F76/E15 C04/C05: missing-last partial writes versus malformed-file preflight preservation. |
+| Post-bump all-clear proves no old undeclared manifest | U07-B F76/E15 C06/C07: current-string scan, not exhaustive inventory. |
+| Restart always acquires and activates new guidance | U07-B F77/S88–S90 plus U01-B: package cache, module and session lifetimes differ. |
+| All supported hosts require a custom bootstrap injector | U07-B F77/S84/S93 and S08 appendix: native discovery must be separated from universal guide prose. |
+| A depicted workflow or reviewer template is a mandatory executed process | U07-B F79/S96–S99 and S10: rendering/reference availability versus actual call path. |
 
 ## Synthesis and coverage status
 
-Ten chronological mechanism notes, one provisional native subsystem synthesis and seven local experiment records exist. Fourteen primary SKILL bodies are fully read; distribution/remaining supports, other native syntheses, whole-system explanation and project-facing projection remain open. No CORE or adopted architecture exists.
+Eleven chronological mechanism notes, one provisional native subsystem synthesis and eight local experiment records exist. Fourteen primary SKILL bodies and selected runtime/distribution/support families are read. Remaining native syntheses, whole-system explanation, project-facing projection and CORE are still open; no adopted architecture exists.
 
-U07-A adds S71–S78 and E13/E14. The companion's five runtime file bodies are fully read; only the exact client helper was executed with fake dependencies. Package/sync/version scripts and remaining supports were listed, not read. Earlier partial files and U06 public-report limits retain their scope.
+U07-B adds S79–S102 and E15/E16. Only the version helper was newly executed, against JSON-only fixtures. Archive/sync and upstream tests remain source-only. Historical files and every test have not been recursively covered. See U07-B's explicit coverage/omission disposition before broader claims.
 
-Eight chronological source-ledger volumes preserve identities and observations. Historical next-action lines are checkpoints; current authority is STATE. Earlier unexecuted statuses change only when a later volume records actual execution of the named source.
+Nine chronological source-ledger volumes preserve identities and observations. Historical next-action lines are checkpoints; current authority is STATE. Earlier unexecuted statuses change only when a later volume records actual execution of the named source.
 
 ## Library navigation
 
