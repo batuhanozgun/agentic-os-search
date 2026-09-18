@@ -1,118 +1,108 @@
 # Concepts — Güncel Durum
 
 **Kayıt tarihi:** 2026-09-18.  
-**Mevcut iş:** İlk 10 bağlı terim batch'i tamamlandı; working local reference v0.1 hazırlandı. Bu turdaki dönüş noktası batch sonucunu kullanıcıya sunmaktır.  
-**Yöntem:** [METHOD v0.2](METHOD.md) — tek terim kapanışı yerine bağlantılı batch ve çakışma üzerinden fine-tune.  
-**Mevcut araştırma:** Agent [U01](research/agent/U01-SOURCE-USES.md), [U02](research/agent/U02-AGENT-MODEL-BOUNDARY.md), ardından [Core Terms U03](research/U03-CORE-TERMS-BATCH1.md).  
-**Aktif working reference:** [CORE-TERMS-WORKING-v0.1](synthesis/CORE-TERMS-WORKING-v0.1.md).  
-**ACCEPTED reference:** Henüz yok; working batch kullanıcıya sunulduktan ve yön/itiraz görüldükten sonra statü ayrıca güncellenir.
+**Mevcut iş:** İkinci 10-terim batch'i tamamlandı; toplam 20 terim için working local reference v0.2 hazırlandı. Bu turun dönüş noktası sonucu kullanıcıya sunmaktır.  
+**Yöntem:** [METHOD v0.2](METHOD.md) — bağlantılı batch + ilişki haritası + çakışma üzerinden fine-tune.  
+**Mevcut araştırma:** [U03 batch 1](research/U03-CORE-TERMS-BATCH1.md) + [U04 batch 2](research/U04-CORE-TERMS-BATCH2.md); Agent U01/U02 gerektiğinde ayrıntılı kaynak geçmişidir.  
+**Aktif working reference:** [CORE-TERMS-WORKING-v0.2](synthesis/CORE-TERMS-WORKING-v0.2.md).  
+**ACCEPTED reference:** Henüz yok; tek tek terim onayı beklenmez.
 
-## Bu turda oturtulan ilk 10 terim
+## Working reference kapsamı — 20 terim
 
-1. Agent
-2. Model
-3. LLM
-4. Actor
-5. Role
-6. Run
-7. Session
-8. Workflow
-9. Tool
-10. Harness
+### Batch 1
+Agent; Model; LLM; Actor; Role; Run; Session; Workflow; Tool; Harness.
 
-Bu terimler tek tek bağımsız sözlük maddeleri olarak değil, birbirlerini ayıracak şekilde tek ilişki sistemi içinde çalışıldı.
+### Batch 2
+Runtime; Context; Memory; Identity; Capability; Authority; Permission; Orchestration; Handoff; Subagent.
 
-## Çalışan temel ilişkiler
+## v0.2'nin en önemli yeni sınırları
+
+- **Harness ≠ Runtime** — Harness geniş operating/control substrate; Runtime execution machinery.
+- **Context ≠ Session ≠ Memory** — current visible working set / continuity container / cross-time retained knowledge-state.
+- **Capability ≠ Authority ≠ Permission** — yapabilme / meşru-yetkili scope / spesifik action-resource izni.
+- **Workflow ≠ Orchestration ≠ Runtime** — yapı / execution-time coordination / fiili execution machinery.
+- **Agent ≠ Actor ≠ Role ≠ Identity** — AI execution unit / Work participant / expected function / distinguishing continuity-reference.
+- **Subagent is-a Agent** ama ilişkisel statüdür.
+- **Handoff ≠ Subagent** — biri control/responsibility transfer, diğeri Agent'ın decomposition içindeki ilişkisel konumu.
+
+## Güncel birlikte kullanım haritası
 
 ```text
-LLM is-a Model
+Model
+└── LLM
 
-Agent uses Model
-Agent executes-as Run
-Agent may-call Tool
-Agent may-be Actor when bound to Work
+Harness
+├── contains/configures → Runtime
+│   ├── executes → Agent / Workflow
+│   ├── creates/manages → Run
+│   ├── dispatches → Tool
+│   ├── performs → Handoff
+│   └── applies → Permission controls
+├── manages → Context / Memory plumbing
+├── may enforce → Authority / Permission
+└── provides → Orchestration / Verification / Observability surfaces
 
-Actor assumes Role
+Agent
+├── uses → Model / LLM
+├── may-call → Tool
+├── executes-as → Run
+├── may-be → Actor
+└── may delegate-to → Subagent
 
-Workflow coordinates steps / Actors / Agents / Tools
-Run is one bounded execution of Agent or Workflow
-Session preserves continuity across Runs
+Subagent
+└── is-a → Agent
 
-Harness operates/controls the surrounding execution system
+Actor
+├── assumes → Role
+├── identified-by → Identity
+├── has → Capability
+└── exercises-within → Authority
+    └── maps-to → Permissions
+
+Workflow
+└── executed/coordinated-by → Orchestration
+    ├── coordinates → Agents / Subagents / Actors / Tools
+    └── may use → Handoff
+
+Session
+└── preserves continuity across → Runs
+
+Memory
+└── may feed → Context
+
+Context
+← assembled from — current input / Session / Memory / Tool results
 ```
-
-## Current working definitions — kısa görünüm
-
-- **Agent:** Model/LLM etrafında yapılandırılmış, yürütmede en az bazı seçimleri modelin yaptığı AI yürütme birimi.
-- **Model:** Inference sırasında girdiden çıktı üreten learned computational component; Agent'ın kullandığı temel model capability.
-- **LLM:** Dil understanding/generation odaklı Model türü; repo kullanımında LLM ⊂ Model.
-- **Actor:** Belirli Work bağlamında sorumluluk, yetki veya fiili katkı üstlenen yürütücü/katılımcı.
-- **Role:** Actor'dan beklenen görev/sorumluluk ve gerektiğinde authority/permission sınırlarını tarif eden atanabilir işlevsel konum.
-- **Run:** Agent veya Workflow'un tek bounded yürütme olayı.
-- **Session:** Birden fazla Run/etkileşim arasında history/state continuity taşıyan konteyner.
-- **Workflow:** Adım, koşul, Actor/Agent ve Tool'ların koordinasyon düzeni.
-- **Tool:** Model/Agent'ın bilgi edinmek, hesaplama yapmak veya eylem gerçekleştirmek için çağırdığı capability/interface.
-- **Harness:** Model/Agent'ların güvenilir, sınırlı ve devam ettirilebilir Work'e dönüşmesini sağlayan model-dışı işletim/kontrol zemini.
-
-Tam tanımlar ve sınırlar [working batch](synthesis/CORE-TERMS-WORKING-v0.1.md)'tedir.
-
-## Çakışma düzeltmeleri
-
-Bu batch aşağıdaki eşitlemeleri bilinçli olarak reddeder:
-
-- Agent = Model
-- Agent = Actor
-- Agent = Role
-- Agent = Run
-- Run = Session
-- Workflow = Agent
-- Tool = Agent
-- Harness = Agent
-- Harness = Workflow
-- Model = LLM
-
-Bunlar evrensel ontoloji iddiaları değildir; repo içi iletişimde kaygan zemini azaltan çalışma ayrımlarıdır.
 
 ## Yeni oturumda devam yolu
 
-Güncel AGENT ve gereken protokoller → [INDEX](INDEX.md) → bu STATE → [METHOD](METHOD.md) → [U03](research/U03-CORE-TERMS-BATCH1.md) → [CORE-TERMS-WORKING-v0.1](synthesis/CORE-TERMS-WORKING-v0.1.md).
+Güncel AGENT ve gereken protokoller → [INDEX](INDEX.md) → bu STATE → [METHOD](METHOD.md) → [working v0.2](synthesis/CORE-TERMS-WORKING-v0.2.md). Ayrıntılı kanıt gerekirse [U04](research/U04-CORE-TERMS-BATCH2.md) → [U03](research/U03-CORE-TERMS-BATCH1.md) → Agent U01/U02.
 
-U01/U02, Agent'ın ayrıntılı kaynak geçmişi gerektiğinde geri açılır; her oturumda tamamını tekrar okumak zorunlu değildir.
+Yeni oturum bu 20 terimi tek tek kullanıcıya sormaz. v0.2'yi working map olarak kullanır ve yalnız yeni batch/gerçek kullanım çakışması olduğunda ilgili sınırları yeniden açar.
 
-Yeni oturum tek tek bu 10 terim için kullanıcı onayı istemez. Batch'i working reference olarak kullanır; gerçek kullanımda çakışma, ambiguity veya yeni kaynak baskısı çıkarsa ilgili terim(ler) birlikte fine-tune edilir.
+## Sonraki batch için doğal adaylar
 
-## Sonraki batch için keşif adayları
+- State
+- Work state
+- Environment
+- Workspace
+- Sandbox
+- Policy
+- Guardrail
+- Verification
+- Observability
+- Persistence
 
-U03 doğal olarak şu güçlü komşuları açtı:
-
-- Runtime
-- Context
-- Memory
-- Identity
-- Capability
-- Authority
-- Permission
-- Orchestration
-- Handoff
-- Subagent
-
-Bu liste sonraki 10 terim için olası seed'dir; zorunlu sıra değildir. Sonraki turda en çok çakışma/boşluk temizleyecek bağlantılardan batch seçilebilir.
+Bunlar zorunlu sıra değildir; v0.2 haritasında en fazla ayrım temizleyecek kombinasyon seçilir.
 
 ## Yayın durumu
 
-**Yayın:** [PR #23](https://github.com/batuhanozgun/agentic-os-search/pull/23); branch `research/concepts-core-terms-batch1-20260918`; exact head `625b60f76990060bda84b0738eaf772ad7d6f89a`; main merge commit `8fffaf9dd1eb360e258e317495121084ce98a869`.
+Bu tur için çalışma branch'i `research/concepts-core-terms-batch2-20260918`.
 
-Branch oluşturulduktan sonra main beş ECC recovery commit'iyle ilerledi; bu değişikliklerin hiçbiri concepts yollarıyla çakışmadı. PR merge öncesi `mergeable=true` idi. Merge çağrısı exact head'e bağlandı ve başarılı oldu.
-
-Merge öncesi güncel main `502bc3cf4b15b901ec3b096f59397de231521e98` → merge commit karşılaştırması yalnız dokuz concepts yolunu gösterdi: iki yeni dosya ve yedi yönlendirme/state güncellemesi. Böylece eşzamanlı ECC katkıları main tabanında korunurken bu batch yalnız kendi alanını değiştirdi.
-
-Merge commit'inden U03, working reference ve STATE geri okundu. Working reference hâlâ ACCEPTED değildir; `reference/INDEX.md` bunu yalnız candidate olarak gösterir. Bu kontroller aktarım/kapsam/continuity kanıtıdır; tanımların evrensel doğruluğunun veya gelecekteki iletişim başarısının bağımsız doğrulaması değildir.
-
-Çalışma branch'i artık bekleyen canonical yayın değildir; kullanıcıdan tek tek 10 terim onayı istenmez. Sonraki kullanım/batch, bu v0.1'i çalışma zemini olarak alıp çakışma çıktıkça fine-tune eder.
+U04 ve working v0.2 oluşturuldu; research/synthesis/reference routing, envanter ve STATE v0.2'ye bağlanıyor. Main yayını ve geri doğrulama tamamlanmadan branch canonical yayın sayılmaz.
 
 ## Korunan geçmiş
 
-- v0.2 yöntem uyarlaması PR #20 ile main'e yayımlandı.
-- Agent U01/U02 ve ilk Agent boundary adayı PR #19/#21 geçmişinde korunur.
-- [AGENT-BOUNDARY-CANDIDATE-v0.1](synthesis/AGENT-BOUNDARY-CANDIDATE-v0.1.md) artık active candidate değil, U03 batch'ine giden tarihsel ara sentezdir.
-- P0 ve yöntem doğrulama kayıtları kendi checks dosyalarında korunur.
+- v0.1 ilk 10 terimin tarihsel snapshot'ı olarak korunur.
+- Agent boundary adayı daha eski ara sentezdir.
+- v0.2 yöntem, P0 ve yayın doğrulama geçmişleri checks/STATE kayıtlarında korunur.
