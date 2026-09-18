@@ -61,3 +61,24 @@ This continuation did not mechanically reconstruct and hash-match the full local
 After this receipt is actually read back, STATE should mark U09-A's bounded source inquiry COMPLETE/PUBLISHED, link the receipt and identify U09-B/Q04g2 as next authorized/NOT STARTED. It should remove publication checking from current work while retaining Q04g1c and the broader unfinished ECC families. Source completion is not full runtime certification, and no separate source question should be silently reintroduced solely because a live experiment was not run.
 
 No branch, PR, user upload or user merge task is pending for this pass. Same-assistant source interpretation and publication checks remain separate from independent validation. Earlier publication receipts keep their pass-time wording; the final STATE, not their historical frontier, determines current work.
+
+## Retry verification and local-packet disposition — 2026-09-18
+
+Batu asked to retry publication so the repository would not lag behind the research. This retry found main already at `fc8aa2983e986d7b65c07c4558a364949efd1fc3`, whose final STATE marks U09-A COMPLETE/PUBLISHED and U09-B NOT STARTED. The preceding conversation's publication-pending view is superseded by this observed commit, not a reason to recreate Note15 or reopen completed source work. This turn is publication reconciliation only; no new research family or experiment was started.
+
+### Checks performed before this appendix
+
+- Fresh AGENT matched the same-conversation control version. Compare `097a074...` to `fc8aa298...` returned ahead14/behind0 and exactly ten net paths: nine ECC-local paths plus CATALOG. No agent-control, other study package, Foundation, concepts or earlier experiment path changed in that comparison.
+- Current STATE, INDEX, META, PLAN0.17, QUESTIONS, final MR16 and this receipt were read in full. STATE's pre-retry blob is `ec5caa9891aa645cf152839fe5d3709877b6e1de`; this receipt's pre-retry blob is `4ae4d98dfd7c23d6557bd2ddaf958df32ce62b97`. The current-versus-historical hierarchy is coherent: source closure is complete, stronger Q04g1c claims remain open, and Node U09-B is not started.
+- Compare `31d2c30...` to `fc8aa298...` showed no change to the previously fully read Note15 or A3 source ledger. Their Git identities remain those recorded above. This preservation check is not a claim of new upstream-source reading or independent corroboration.
+- The catalogue's current ECC row was read at lines24–31, with blob `a7e279c365bc9a07cffe0f5ddb8783b65b6ed141`. The separate `0f4552e...` to `94e029a...` comparison again returned only CATALOG, +1/-1. Current package entries and the catalogue agree; the historical intermediate errors above are not erased. No catalogue rewrite is needed in this retry.
+
+### Local ZIP is historical correspondence, not pending research
+
+The provided `ECC_U09_A3_Unpublished_Checkpoint.zip` was inspected without executing any research code. Its seven members were read; ZIP CRC checking found no corrupt member, and all six file entries in its manifest matched their byte counts, SHA-256 and Git-blob hashes. The archive is 20,400 bytes, SHA-256 `ddc3d12d43f2d47083dcd921b2e1fc3eb842786dcf0ce950428638379d542935`.
+
+Its main-reconciliation record stops at an earlier publication-pending STATE. The substantive local ownership explanation is represented in canonical Note15; no material unmatched finding was identified in this comparison. The local reading ledger and canonical ledger have different recorded ranges and must not be pooled or substituted for one another. The withdrawn addition patch stays withdrawn. Historical local drafts are not imported as duplicate canonical notes, and the archive is not required for continuing the research from the repository.
+
+The packet records that its observed tool surface lacked write actions and does not claim to have issued the earlier writes. This retry verifies repository contents and commit succession; it does not independently identify which execution published those earlier commits or rewrite their existing historical accounts. A fresh auxiliary raw-byte download again failed at DNS; connected GitHub reads succeeded. That download failure is not evidence of a GitHub write outage or revoked repository permissions.
+
+For this retry, the complete local copies of the receipt and STATE were hash-matched to their fetched canonical Git blobs before preparing append-only updates. Only this receipt and STATE require a reconciliation annotation; Note15, source ledgers, MR16, PLAN, QUESTIONS, META, INDEX, CATALOG and all earlier evidence are preserved. Actual update/readback identities belong to the subsequent STATE annotation and connector results, not an assumed future success here. These remain same-assistant publication checks, not a new behavior experiment or independent research verification.
