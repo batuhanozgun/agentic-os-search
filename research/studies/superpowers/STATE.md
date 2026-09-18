@@ -1,6 +1,6 @@
 # Superpowers Study — Current State
 
-**Updated:** 2026-09-18 after U08-C. **Research: BOUNDED-COMPLETE / REVIEW-READY. Owner evaluation: PENDING. Active substantive research: NONE.** CORE and the final source/omission/freshness challenge are complete at the stated research scope. Publication status is recorded below; a staging branch is not canonical publication.
+**Updated:** 2026-09-18 after U08-C. **Research: BOUNDED-COMPLETE / REVIEW-READY. Owner evaluation: PENDING. Active substantive research: NONE.** CORE and the final source/omission/freshness challenge are complete at the stated research scope. Publication is verified on main through PR #16; the receipt is below.
 
 STATE owns work, authorization, acceptance and publication. META owns classification/reuse; INDEX/CATALOG are derived retrieval. A source-grounded explanation is not a live-product certificate or adopted architecture.
 
@@ -71,8 +71,12 @@ A later explicit task may identify a concrete omitted family, invalidate a premi
 
 ## Publication checkpoint
 
-This closure unit is staged on `research/superpowers-u08c-closure-20260918` from actual main `7d312c9e6dd26ec8393b5f4d94e99950775b16bf`, the U08-B publication. Intended scope: three new files (CORE, CLOSURE-AUDIT, SOURCE-LEDGER-U08C), four package updates (STATE/META/PLAN/INDEX) and only the Superpowers catalog row. Canonical availability requires the reviewed merge and main readback; their actual receipt will replace this preparation paragraph.
+**Published on main through PR #16**, merge commit `f5a45da206e0f64daadf9636a4181a76dec031f6`, expected head `c0cb2ef7599eefce929d0be463f4764a3291d4b4`. Actual first parent `7d312c9e6dd26ec8393b5f4d94e99950775b16bf` was checked from the Git commit object. First-parent-to-merge comparison confirms exactly eight paths: CORE, CLOSURE-AUDIT and SOURCE-LEDGER-U08C added; STATE/META/PLAN/INDEX updated; one Superpowers-only catalog-row change. No manual transfer or merge is pending. The staging branch `research/superpowers-u08c-closure-20260918` is historical, not alternate current authority.
 
-METHOD, S01–S06, older notes/registers/experiments, shared studies INDEX, Foundation, context/Codex, comparators, other studies, concepts/explorations, agent-control and external targets remain outside the write set. Transfer checks establish placement/scope, not research truth.
+The catalog's accidental unrelated wording was restored before merge; the complete original and corrective patches plus the net one-added/one-removed-row comparison establish the final scope. The draft STATE identity line was cleaned to retain only the actual assessor delta. INDEX now links all notes/registers/experiments and preserves the detailed earlier claim map through its immutable U08-B reference; this is a retrieval change, not deletion of evidence.
+
+Full addition readbacks through EOF: CORE `0986da960a4b3db5d1e09894c2abfd6d6ca114be`; CLOSURE-AUDIT `b6178fdc2817eaf93c447434a014ca971a972348`; SOURCE-LEDGER-U08C `fbca2a3b8ac21cc9849216682c95649bd969263f`. Main STATE was read back fully at blob `cd2ba82229d2e9b52c4858c179b6f0b5486bb285` before this publication-only checkpoint update. Transfer checks establish placement and scope, not independent research truth or efficacy.
+
+METHOD, S01–S06, older notes/registers/experiments, shared studies INDEX, Foundation, context/Codex, comparators, other studies, concepts/explorations, agent-control and external targets remain outside the write set.
 
 Prior full active state: [immutable U08-B STATE](https://github.com/batuhanozgun/agentic-os-search/blob/7d312c9e6dd26ec8393b5f4d94e99950775b16bf/research/studies/superpowers/STATE.md). Its next-U08-C and preparation labels are historical after this closure's publication.
