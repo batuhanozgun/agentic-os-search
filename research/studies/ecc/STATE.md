@@ -2,7 +2,7 @@
 
 **Updated:** 2026-09-18
 **Checkpoint:** U07-A — material-family coverage and breadth return
-**Work status:** U07-A bounded source/map/selection work COMPLETE; entry/discovery reconciliation and publication checks IN PROGRESS. Finish META/INDEX/QUESTIONS/catalogue and actual readbacks/receipt before starting U08-A. Earlier U06-C publication is closed under [its receipt](PUBLICATION-U06-C.md).
+**Work status:** U07-A COMPLETE / PUBLISHED as a bounded map/selection checkpoint. Source, map, round and entry/discovery updates reached main through 095cf7dc50bf7e6b50c1ebfc4a78373c90e8daca; the exact nine-path scope and one-row catalogue change were checked. Map/source/PLAN readbacks completed. [PUBLICATION-U07-A](PUBLICATION-U07-A.md) records actual sequential commits, checks and limits. No user upload or merge is pending. Earlier U06-C publication remains closed under [its receipt](PUBLICATION-U06-C.md).
 **Study:** ACTIVE / PARTIAL. **METHOD / PLAN:** 0.1 / 0.13.
 **Unchanged target:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 
@@ -23,7 +23,7 @@ Current: [U07-A family map](inventory/U07-A-FAMILY-MAP.md), [sources](evidence/U
 
 ## Next authorized work
 
-After U07-A publication closure, **U08-A / Q04f**, NOT STARTED: Plan Canvas artifact → human feedback → durable session/queue → consumer and continuation. First full sources: `scripts/lib/plan-canvas/sessions.js`, `scripts/lib/plan-canvas/server.js`, actual skill/caller/registered hook paths. S163 client is already full-read; helper presence is not its lifecycle proof.
+**U08-A / Q04f**, NOT STARTED: Plan Canvas artifact → human feedback → durable session/queue → consumer and continuation. First full sources: `scripts/lib/plan-canvas/sessions.js`, `scripts/lib/plan-canvas/server.js`, actual skill/caller/registered hook paths. S163 client is already full-read; helper presence is not its lifecycle proof.
 
 Return with a coherent normal feedback path and a material interruption/revision/ended-session contrast. Distinguish arrival, delivery/consumption, valid approval and action; no real user plan/browser/account or provider/model. Do not exhaust UI details. Following priorities: Rust/operator control, separate evaluation frameworks, procedural/host/provider composition, release/scanner/observability and the final coverage challenge. PLAN owns revisable details.
 
@@ -33,9 +33,9 @@ Q01a's first-tier map is bounded; full descendant/mirror/representativeness rema
 
 Batu owns purpose/material phase choices. Assistant owns authorized research, proportionate isolated fixtures, sequencing, repository organization and verifiable publication. Writes: research/studies/ecc/** plus only ECC discovery row/route in shared CATALOG/INDEX. Preserve other studies, concepts, Foundation, soul-context, explorations, upstream and agent-control. No actual installation, user-home/config/cache change, credentials/provider/model calls, upstream report/patch or SOUL/Development OS implementation.
 
-After canonical control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then the U07-A family map, source ledger, ROUND-U07-A and the current publication receipt once linked. Reopen original mechanism notes before making stronger synthesis claims; ledgers establish reading coverage, not new behavior. Do not rerun experiments to recover progress. Historical master records, inventories, Notes01–11 and later unit receipts remain routed through INDEX.
+After canonical control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then the U07-A family map, source ledger, ROUND-U07-A and [PUBLICATION-U07-A](PUBLICATION-U07-A.md), including its evidence-language and maintenance limits. Reopen original mechanism notes before making stronger synthesis claims; ledgers establish reading coverage, not new behavior. Do not rerun experiments to recover progress. Historical master records, inventories, Notes01–11 and later unit receipts remain routed through INDEX.
 
-The previous U07-A attempt stopped at a read-only tool surface without new target findings. This turn's actual resumption record reached main as aba0b7da37e3548ecb5e80ee989ecd53342b621e. Current connected writes succeeded; auxiliary raw-network acquisition still failed at DNS. No complete local checkout exists. Concurrent work outside ECC was preserved. This is same-assistant recovery, not an independent fresh-session test. Actual final publication checks remain to be recorded.
+The previous U07-A attempt stopped at a read-only tool surface without new target findings. This turn's actual resumption record reached main as aba0b7da37e3548ecb5e80ee989ecd53342b621e. Current connected writes succeeded; auxiliary raw-network acquisition still failed at DNS. No complete local checkout exists. Concurrent work outside ECC was preserved. This is same-assistant recovery, not an independent fresh-session test. The publication receipt distinguishes completed readbacks from unchecked surfaces.
 
 ## Conversation/repository reconciliation — preserved 2026-09-18
 
