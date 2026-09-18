@@ -1,58 +1,91 @@
-# Kavram Çalışması — Yöntem v0.1
+# Kavram Çalışması — Yöntem v0.2
 
-Bu belge yalnız `concepts/` çalışma programının araştırma ve değerlendirme yöntemidir. Genel assistant protokolü veya nihai kavram şeması değildir. Güncel yetki [STATE](STATE.md), amaç [PURPOSE](PURPOSE.md), aşamalar [PLAN](PLAN.md) içindedir.
+**Tarih:** 2026-09-18. Bu belge yalnız `concepts/` çalışma programının yöntemidir. Güncel iş/yetki [STATE](STATE.md), amaç ve kullanıcı yönü [PURPOSE](PURPOSE.md), yürütme planı [PLAN](PLAN.md)'dedir. Agent-control veya nihai kavram şeması değildir.
 
-## 1. Seviye — Tekil terim araştırması
+## Amaç ve çalışma birimi
 
-Bir terime odaklan. Araştırma birimi bir sözcüğün tek doğru tanımı değil, ilgili bağlamlarda izlenebilir kullanımlarıdır. Bir sözcük birden fazla anlam taşıyabilir; farklı adlar aynı ya da benzer kavramlara işaret edebilir. Bu ilişkileri peşinen kabul etme.
+Amaç terim listesini tüketmek veya dünyanın tek doğru tanımını bulmak değil; kaynaklarla bağlantılı, karşılıklı anlaşılmış ve yeni oturumlarda geri bulunabilir yerel kullanımlar oluşturmaktır: **“Biz bu ifadeyi, şu bağlamda, şu anlamda kullanıyoruz.”**
 
-Her çalışmada soruya göre şu bilgileri geri bulunabilir tut:
+Başlangıç bir terim, ifade, somut cümle veya anlam uyuşmazlığı olabilir. Çalışma birimi gerektiğinde bunun etrafındaki küçük bağlantılı kavram kümesidir. Bir terimi bütün komşularından bağımsız bitirme veya bütün terimleri bitirdikten sonra referansa geçme zorunluluğu yoktur. Kaynaklar farklılaşabilir; her terimin her kaynakta farklı olduğu da peşinen varsayılmaz.
 
-- Araştırma sorusu, kapsamı ve incelenmeyen anlam alanları.
-- Kaynak, yazar/kurum, alan, tarih/sürüm ve ilgili bölüm; gerçek okuma derinliği.
-- Kaynağın doğrudan tanımı varsa o tanım; kullanımdan çıkarılan yorum varsa açıkça yorum.
-- Somut örnek, karşı örnek ve kaynakta zorunlu sayılan özelliklerle yalnız sık rastlanan özellikler arasındaki fark.
-- Aynı sözcüğün başka kullanımları, yakın adlar, belirsizlikler ve komşu terimlere bağımlılıklar.
-- Ne öğrendiğimiz, neyi kanıtlamadığımız ve hangi yeni bilginin sonucu değiştireceği.
+## Üç kayıt düzeyi; tek yönlü üç büyük faz değil
 
-Önce mevcut research/studies ve ilgili explorations içinde gereksinime göre dayanak ara; özet veya META'yı ayrıntılı kanıt yerine kullanma. Eski çalışmalar kopyalanmaz veya baştan yapılmaz. Soruyu karşılamayan kısmı araştır; kaynak veya güncel ürün davranışı yük taşıyorsa birincil kaynağa dön.
+| Yüzey | Ne taşır? | Neye dönüşmez? |
+|---|---|---|
+| `research/` | Kaynak kullanımı, örnekler, karşı örnekler, okuma sınırı ve ortaya çıkan sorular. | Kaynağın sözü kendiliğinden bizim tercihimiz olmaz. |
+| `synthesis/` | İlgili kullanımların/işlevlerin karşılaştırılması, gerekçeli ilişki yorumları ve ortak kullanıma yönelik aday açıklamalar. | Sentez veya aday, kabul edilmiş referans değildir. |
+| `reference/` | Belirli kapsamı ve açık karşılıklı değerlendirmesi kayıtlı yerel kullanımlar. | Evrensel tanım, kaynak düzeltmesi veya SOUL mimarisi değildir. |
 
-Kaynaklar ilgili gelenekleri yeterince temsil etmeli: gerektiğinde yerleşik akademik çalışma, standardın özgün metni, ürünün kendi belgeleri veya gerçek uygulama. Çok sayıda sayfanın aynı kaynağı tekrarlaması bağımsız destek değildir. Pazarlama adı, gerçek teknik sözleşme ve gündelik kullanım farklı olabilir. Sayfa sayısı veya sabit kaynak kotası kapanış ölçütü değildir.
+Bu ayrımlar aynı küçük çalışma döngüsünde korunabilir. Her adımda ayrı dosya, her bağlantıda yeni paket, her geçişte ayrı oturum gerekmez. Ayrı kayıt gerektiğinde mevcut yüzeyden bağlantı verilir; aynı bulgu veya current state bağımsız kopyalarla yönetilmez.
 
-Bir komşu kavram gerektiğinde yalnız gereken derinliği aç. Diğer terimin tam araştırmasını sessizce üstlenme; çözülemeyen bağımlılığı ve etkisini kaydet. SOUL'un varsayılan yapısını tanımın ölçütü yapma.
+## İşleyiş: odak → keşif → gerekli ayrımlar → ortak kullanım
 
-Dossier için başlangıçta BRIEF yeterlidir. Araştırma başladığında gerçek kaynak ve bulguları taşıyan dosyalar ihtiyaca göre eklenir. Yerel STATE ileride açılırsa ayrıntılı işin otoritesi orada, program STATE'i ise kapsamlar arası yönlendirmede kalır; aynı durum iki yerde bağımsız yönetilmez.
+### 1. Açık anlam sorusundan başla
 
-## 2. Seviye — Birlikte değerlendirme
+Güncel STATE ve eldeki çalışmayı geri kazan. Hangi cümlede neyin karışabileceğini belirt: nesne mi, işlev mi, kapsam mı, teknik ad mı, belirli yürütme mi? Araştırmayı SOUL'un henüz seçilmemiş yapısından veya hazır bir kelime ağacından türetme.
 
-Yeterli kaynak zemini olan sınırlı bir kavram kümesini karşılaştır. Bütün envanterin tamamlanmasını bekleme; yalnız bu karşılaştırmayı taşıyacak derinliğin mevcut olup olmadığına bak.
+İlgili mevcut araştırma varsa katalog → seçilen META/STATE/INDEX → gereken bulgu/kaynak yolunu kullan. Geçmiş diyalog, bizim neyi kastetmiş olabileceğimize dayanak olabilir; dış dünyanın tanımı için kanıt değildir. Mevcut sonuçları sırf yeni oturum açıldı diye yeniden üretme.
 
-Eşanlamlılık, benzerlik, tür, parça, kullanım, gerçekleştirme, temsil ve belirli bir yürütme gibi olası ilişkiler aynı değildir. Bunlar soru örnekleridir; peşinen benimsenmiş ilişki taksonomisi değildir. Farklı kaynakların farklı sınırlar çizmesi korunabilir. Sentez, zorunlu tek hiyerarşi veya daha kısa özet üretmek değildir.
+### 2. Kaynakları ve ortaya çıkan bağlantıları birlikte incele
 
-Karşılaştırmanın exact kaynak/araştırma bağlantılarını, kayıp ayrımları, alternatif okumaları ve kapsam sınırlarını koru. Yetersizlik çıkarsa ilgili tekil araştırmaya geri dön; eski sonucu sessizce yeniden yazma. Kaynağa sadakat, o kaynağın doğru olduğunu tek başına kanıtlamaz.
+Soruyu aydınlatacak ilgili gelenek ve uygulamalara başvur. Gerektiğinde akademik birincil kaynak, standardın özgün metni, ürün belgesi veya gerçek uygulama kullan. Aynı kaynağı tekrar eden sayfalar bağımsız destek değildir. Sabit kaynak sayısı veya tur kotası yoktur; ilk tur sonunda mutlaka tanım kabul etme zorunluluğu da yoktur.
 
-## 3. Seviye — Ortak referans
+Terim araştırılırken başka terimler, işlevler, ayrımlar ve ilişki soruları çıkabilir. Bunları peşinen bileşen, tür veya zorunlu bağımlılık sayma. Örneğin bir işlevin görülmesi onun ayrı bir agent, servis ya da dosya olması gerektiğini göstermez. Gerekirse henüz isim koymadan açık bir cümleyle tarif et.
 
-Assistant önce kaynaklı açıklamayı, alternatif kullanımları ve tercih gerekçesini görünür kılar. Kullanıcıyla somut cümle/örnek üzerinden aynı şeyin konuşulduğu değerlendirilir. Referans kabulü için belirli tanım/kapsam ve ona verilen açık kullanıcı değerlendirmesi kaydedilir; sessizlik, genel memnuniyet, plan onayı veya tekrar kullanım kabul sayılmaz. Bu bir doğruluk oylaması değildir: kaynak hakkındaki iddia kanıta, ortak ifade tercihi gerekçeli karşılıklı değerlendirmeye dayanır.
+Bir bağlantıyı kısa biçimde geri bulunabilir tut: **nerede karşılaşıldı; neyi ayırmaya yarıyor; mevcut anlam sorusuna etkisi ne; hangi statüde?** Yeni isim keşfetmek, araştırılmış kavram veya kabul edilmiş karşılık üretmek değildir.
 
-Bir kaydın gerektirdiği kadar bilgi tutulur: tercih edilen ifade ve anlam/kapsam; örnek ve karıştırılmaması gereken kullanım; kaynak/sentez dayanakları; açık kalanlar; assistant önerisi ve kullanıcının hangi açıklamayı değerlendirdiği; kabul/değişiklik tarihi. Sabit puanlama veya ağır kayıt sistemi başlangıçta kurulmaz.
+### 3. Komşuyu gerektiği kadar aç; asıl soruya dön
 
-Sonuç tek anlamı seçmek, anlamı belirten nitelemeler kullanmak, ifadeyi kendi anlatımımızda tercih etmemek veya kararı açık bırakmak olabilir. Sadece birlikte değerlendirilmiş kayıtlar reference dizininde kabul edilmiş olarak gösterilir. Araştırma taslağı üçüncü seviyeye sırf dosyası bulunduğu için terfi etmez.
+Şunu değerlendir: **“Bu ayrımı çözmeden şu anda aynı şeyi konuşabilir veya kapsamı açık bir yerel kullanım önerebilir miyiz?”**
 
-## Kaynakla ve geçmişle birlikte okuma
+- Cevap hayırsa ya da sonuç açısından maddi belirsizlik varsa komşuyu belirli bir soruyla aç. Neyi çözmek için açıldığını ve hangi soruya dönüleceğini kaybetme.
+- Ayrım yararlı ama şu an engel değilse, neden ertelendiği ve ne zaman geri çağrılacağıyla gündemde tut.
+- İfade yalnız kaynağa özgü API/sınıf/ürün adıysa onu özgün bağlamında koru; sırf karşılaşıldı diye genel referans maddesi yapma.
 
-Ortak referans bugünkü açıklamamızı taşır; eski kaynakta aynı kelimenin geçtiği her yere otomatik uygulanmaz. Eşleme ilgili belge/bölüm/sürümle gerekçelendirilir; tam, kısmi, daha dar/geniş veya çözülememiş ilişki açık kalabilir. Alıntı, kod/API adı ve özgün dosya adı korunur. Anlam farkı ile gerçek araştırma hatası ayrılır; hata yeni sözlükle örtülmez.
+Bunlar iş yönlendirme seçenekleridir, değişmez kavram sınıfları değildir. Aynı ifade farklı sorularda farklı önem taşıyabilir. Önceki assistant'ın “zorunlu komşu” dediği listeye ayrıcalık verme; gerekliliği mevcut soruda gerekçelendir.
 
-Ad değişikliği ile anlam değişikliği ayrıdır. Anlam değişirse önceki açıklama ve etkilediği kayıtlar gösterilir. Kabul edilmiş kayıt da yeni kanıtla yeniden açılabilir. Kullanıcı veya assistant tek başına eski kabulün anlamını değiştirip aynı adla sürdüremez.
+Dairesel bağımlılık görünürse bütün düğümleri sırayla bitirmeye çalışma. Küçük kümeyi birlikte açıkla; ayrılabilen kısmı değerlendir, kalan sınırı görünür bırak. Bir komşunun tam araştırmasını sessizce yeni ana işe dönüştürme.
 
-## Araştırma ve konuşmayı durdurmama sınırı
+### 4. Yeterli zeminde erken aday üret ve birlikte değerlendir
 
-Bir terimin henüz ortak tanımı yoksa onu kullanmak yasak değildir. Gerekli yerde geçici anlamı açıkla; karar taşıyan belirsizliği gizleme. Her konuşmada bütün corpus'u okumak veya her kelime için onay istemek amaç dışıdır. Okuma, ilgili anlam farkına ve karar etkisine göre seçilir.
+Araştırılabilir başka soru bulunması tek başına devam gerekçesi değildir. Somut kullanım farkları görünürse, önerilecek anlamın kapsamı açıklanabiliyorsa ve kalan belirsizlik açık sınır/niteleme ile taşınabiliyorsa yerel referans adayını tartışmaya getir. Yeterlilik yalnız başlık sayısıyla veya “bir tur yaptık” diye ilan edilmez.
 
-Her anlamlı tur sonunda mevcut yetki içinde sonucu, açık soruyu ve sıradaki sorumluluğu doğru statüyle koru. Sonraki seviye mantıklı görünse de mevcut aşamanın yetkisini otomatik genişletmez.
+Adayı kaynak kullanımlarından ayır. Bir varsayılan anlam, birden çok nitelenmiş anlam, başka bir ifade tercihi veya şimdilik açık bırakma mümkün sonuçlardır. Belirsizliği azaltmak için her şeye yeni ad verme; sıradan açıklayıcı bir cümle yeterliyse onu kullan.
 
-## Değerlendirme ve yöntem değişimi
+Kullanıcıyla somut bir cümle/örnek üzerinden aynı nesne ve kapsamın konuşulduğunu değerlendir. Gerekli komşu kavramlar da aynı görüşmede ele alınabilir; önce Agent tamamen bitsin, sonra Model başlasın gibi bir sıra dayatılmaz. Ortak anlamda anlaşmak, önerilen sistemi beğenmek veya tasarımını onaylamakla aynı şey değildir.
 
-Başarıyı dosya/terim sayısı, kuralın okunması veya iki tarafın aynı cümleyi tekrarlamasıyla ölçme. Farklı bir somut örnekte anlam farkının fark edilmesi, kaynak kullanımının bozulmaması ve onay/retin açık bir öneriye bağlanması yararlı işaretlerdir. Aynı assistant'ın yeniden okuması bağımsız deney değildir. Gerçek kullanım etkinliği ölçülmediyse bunu açık tut.
+### 5. Kabul edilen kapsamı kaydet; kaynağı yeniden adlandırma
 
-Yöntem v0.1 çalışma başlangıcıdır. Yeni ihtiyaçta değişikliğin nedenini, beklenen yararını ve önceki çalışmaya etkisini kaydet; genel amaç veya kabul sınırı değişiyorsa kullanıcı yönüne dön. Başlangıçta yeni bir terminoloji kontrol protokolü kurulmaz.
+Kabul edilmiş kayıt için belirli açıklama/kapsam, kaynak ve sentez dayanakları, assistant'ın gerekçeli önerisi ve kullanıcının **o açıklamaya yönelik** açık değerlendirmesi bulunmalıdır. Yönteme onay, genel memnuniyet, sessizlik veya bir kelimenin tekrar kullanılması tanım kabulü değildir. Kısmi uzlaşmada yalnız üzerinde anlaşılan kısım kabul edilmiş gösterilir.
+
+Yerel tercihle dış dünyaya ilişkin teknik hata doğrulanmış olmaz. Örneğin bir sistem ile onun kullandığı şeyin aynı olduğu iddiası, yalnız o kelimeyi tercih ettiğimiz için doğru sayılmaz. Kaynağa aykırılık varsa kapsamı/nitelemeyi düzelt veya iddiayı yeniden araştır.
+
+Kaydın gerektirdiği kadar bilgi tut: anlam ve kullanım bağlamı; neyi kapsamadığı; somut örnek; önemli komşu ayrımları; kaynaklara eşleme; açık kalanlar; tam öneri/değerlendirme bağı ve değişiklik tarihi. Ağır şema veya puanlama zorunlu değildir. Aday açıklama `synthesis/` içinde veya ilgili çalışma belgesinde aday olarak kalabilir; `reference/INDEX.md` kabul durumunu açıkça ayırır.
+
+### 6. Kullanımda sınayıp gerekirse yerel olarak yeniden aç
+
+Kendi açıklamalarımızda ilgili kabul edilmiş kullanım referans alınır. Dış kaynağı aktarırken kaynağın kendi anlamı korunur; farklıysa ilişki, ilgili belge/bölüm/sürüm üzerinden açıklanır. Kod/API adı, alıntı ve özgün dosya adı değiştirilmez. Eşleme daha geniş/dar, kısmi veya çözülememiş olabilir; her kaynak aynı anlama zorlanmaz.
+
+Yeni kaynağın yalnız başka bir sözcük kullanması otomatik yeniden araştırma veya kabul değişikliği gerektirmez. Yeni kanıt ya da somut kullanım, mevcut referansın yanıltıcı olduğunu, önemli bir ayrımı gizlediğini veya iki tarafı farklı sonuçlara götürdüğünü gösteriyorsa etkilenen kısmı yeniden aç. Önceki anlamı, değişiklik nedenini ve etkilenen bağlantıları koru; geçmiş belgeleri sessizce bugünkü anlama çevirme.
+
+Bir referansın bulunması fiilen doğru kullanıldığını kanıtlamaz. Her tur bütün corpus'u yüklemek yerine ilgili anlamı ve gerektiğinde kaynağını geri çağır. Referansı olmayan kelime yasak değildir; önemli belirsizliği açıklayarak konuşmaya devam edilebilir.
+
+## Kanıt ve kayıt disiplini
+
+Kaynak kaydı; yazar/kurum, tarih/sürüm, bölüm ve gerçek okuma derinliğini; doğrudan tanım ile kullanım yorumunu; zorunlu görülen nitelik ile örnek/sık rastlanan niteliği; somut örnek/karşı örneği ve araştırılmayan sınırı ayırır. Kaynağa sadakat kaynağın doğruluğu veya sistemin etkililiği değildir. Güncel ürün davranışı yük taşıyorsa birincil kaynak yeniden doğrulanır.
+
+Kökenleri karıştırma: doğrudan dış kaynak gözlemi, mevcut study bulgusu, eski diyalog kullanımı, yeni kullanıcı örneği, assistant çıkarımı ve kabul edilmiş yerel tercih ayrı statülerdir. Gündem kaydı kaynak araştırmasının yerine geçmez. Keşfedilen bağlantının adlandırma mı, benzerlik mi, parça mı, kullanım mı, gerçekleştirme mi olduğu ayrıca gerekçelendirilir; bunlar peşinen bir ilişki taksonomisi değildir.
+
+## Yetki, durma ve oturumlar arası devam
+
+Bu programın olağan araştırma/değerlendirme devamı yetkilendirildiğinde, gereken komşuya sınırlı inmek, karşılaştırmak ve aday önermek aynı işin adımları olabilir; her küçük adım için ayrı onay istenmez. Buna karşılık yerel kullanımın kabulü görünür kullanıcı değerlendirmesi ister. Yeni ana araştırma programı, SOUL/Development OS tasarımı, implementasyon ve agent-control değişikliği otomatik devam değildir. Mevcut turun daha dar sınırı STATE'te korunur.
+
+Anlamlı bir ara sonuçta kullanıcıya dön. Uygun olduğunda referans adayı getir; yeterli değilse yalnız hangi somut belirsizliğin bunu engellediğini ve hedefli sonraki soruyu göster. “Başka kaynak var” veya “bütün komşular bitmedi” tek başına erteleme nedeni değildir.
+
+Tur sonu STATE; mevcut odak, kullanılan sonuç, açık anlam sorusu, gerekiyorsa komşuya iniş/dönüş noktası, öneri/kabul ayrımı ve sonraki yetkili sorumluluğu taşır. Ayrıntıyı kendi kaydına bağlar; her düzeyi STATE'e kopyalamaz. Envanter iş sırası değildir. Yeni oturum bu durumu devralır; kendiliğinden daha fazla kaynak taramaya veya önceki örnek tanımı benimsemeye başlamaz.
+
+## Yöntemin değerlendirilmesi ve değişikliği
+
+Başarı ölçütü terim/dosya sayısı değil; yeni bir somut örnekte anlam farkını fark edebilmek, kaynağı bozmadan anlatabilmek ve değerlendirmeyi aynı öneriye bağlayabilmektir. Aynı assistant'ın tekrar okuması bağımsız davranış deneyi değildir; ölçülmemiş iletişim başarısı garanti edilmez.
+
+v0.2, U01 sonrasındaki kullanıcı düzeltmesini işler: tekil terim kuyruğu yerine gerekçeli bağlantılı inceleme, ihtiyaca göre komşu derinliği ve yeterli zeminde erken yerel referans. Üç kayıt düzeyi, kaynak sadakati, karşılıklı kabul ve tasarım sınırı korunur. Önceki örnek Agent tanımı, model adları ve komşu öncelikleri benimsenmedi. Değişiklik kapsamı ve gerçek kontroller [uyum kaydında](checks/METHOD-ALIGNMENT-2026-09-18.md) tutulur.
