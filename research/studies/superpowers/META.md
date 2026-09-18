@@ -4,7 +4,7 @@
 
 - **Study ID / type:** `superpowers` / `external-target`.
 - **Title:** Superpowers — Portable Agent Skills and Software-Development Methodology.
-- **Status:** **BOUNDED-COMPLETE / REVIEW-READY.** U01–U07 mechanisms, U08-A native composition, U08-B project-facing research and U08-C CORE/closure challenge are complete at their stated scopes. Owner evaluation is pending. [STATE](STATE.md) owns actual publication, current work and acceptance.
+- **Status:** **BOUNDED-COMPLETE / USER-EVALUATED / ACCEPTED.** U01–U07 mechanisms, U08-A native composition, U08-B project-facing research and U08-C CORE/closure challenge are complete at their stated scopes. Owner evaluation was completed on 2026-09-18; the bounded research result and conversation-purpose closure are accepted. [STATE](STATE.md) owns the exact acceptance record, actual publication and current work.
 - **Primary object:** skill/role contracts, host integrations, helpers, work/evidence artifacts, optional visual runtime, method evolution and distribution.
 - **Primary source/pin:** `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`; tree `21219529a4e224bcb27baf8816b039c8bf7c6673`; inspected manifests6.3.0.
 - **Dates:** first observed2026-09-17; primary commit2026-08-12; closure/source revalidation2026-09-18.
@@ -69,6 +69,6 @@ Reopen a named decision-critical omission, changed source, invalidated premise o
 
 ## Current entry and next responsibility
 
-[STATE](STATE.md) → [CORE](CORE.md) → selected [INDEX](INDEX.md) route; consult [CLOSURE-AUDIT](CLOSURE-AUDIT.md) before interpreting completion. METHOD remains v0.1; PLAN is v0.14. The current result is ready for owner evaluation. No substantive research task remains automatically active.
+[STATE](STATE.md) → [CORE](CORE.md) → selected [INDEX](INDEX.md) route; consult [CLOSURE-AUDIT](CLOSURE-AUDIT.md) before interpreting completion. METHOD remains v0.1; PLAN is v0.14. Owner evaluation is complete; no further Superpowers input or substantive research task is pending. Other studies continue separately. This acceptance does not upgrade evidence strength or adopt the product; original research documents preserve their pre-evaluation checkpoint wording under current STATE.
 
 Prior metadata and its detailed progression remain at [the U08-B publication](https://github.com/batuhanozgun/agentic-os-search/blob/7d312c9e6dd26ec8393b5f4d94e99950775b16bf/research/studies/superpowers/META.md); older notes, registers, syntheses and experiments were not rewritten.
