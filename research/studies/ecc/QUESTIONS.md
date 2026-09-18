@@ -1,6 +1,6 @@
 # ECC — Question Register
 
-**Updated:** 2026-09-18 after U06-A. STATE owns authorization/publication. This register tracks epistemic state; previous notes/evidence remain authoritative for their bounded findings.
+**Updated:** 2026-09-18 after U06-B. STATE owns authorization/publication. Source answers do not establish live security or efficacy. Previous notes/evidence retain their bounded authority.
 
 | ID / standing | Question / bounded result | Remaining obligation |
 |---|---|---|
@@ -28,17 +28,22 @@
 | Q06c PARTIAL | Outcome evidence for skill improvement | Q06c1/c2 |
 | Q06c1 BOUNDED U05-B | Producer/health/proposal/evaluator/mutation | E04 original helper predicates, not causal effectiveness |
 | Q06c2 OPEN | Independent oracle and accepted change/use | Unique/comparable/version-bound runs, actual admission/deployment and instinct bridge |
-| Q07 PARTIAL | Which security controls govern which effects? | U06-A opens one guard, not whole security |
+| Q07 PARTIAL | Which security controls govern which effects? | Notes09/10 cover distinct guards, not whole security |
 | Q07a PARTIAL, decomposed U06-A | Configuration protection and admission | Q07a1/a2 |
 | Q07a1 BOUNDED U06-A | Actual config guard/selector/runner decision | Note09/S123–S129/E05: path/existence control, legitimate exemptions, malformed/truncated and profile contrasts |
 | Q07a2 OPEN | End-to-end protection and authority | Live tool effect, aliases/other writers/races, authenticated exceptions, bootstrap/failure/timeout and cross-host composition; no effective alias-write claim |
-| Q07b NEXT U06-B | Fact-forcing: demanded investigation versus accepted current evidence | S128 only 1–240; full gate/state/dependencies and release/expiry binding must be read |
-| Q08 PARTIAL | Meaning of success/health/confidence/block/no-objection | E01–E05; zero at one hook is not final permission or validated task outcome |
+| Q07b PARTIAL, decomposed U06-B | Fact-forcing versus accepted current evidence | Q07b1/b2; no external GateGuard study or general efficacy finding |
+| Q07b1 BOUNDED U06-B | Investigation request, marker/retry/expiry/exemption and actual delivery contracts | Note10/S130–S140: mark-before-deny; key not facts; inactivity not per-target freshness; conditional context-over-deny output in actual Bash combiner. Source only |
+| Q07b2 OPEN | Fact uptake, current applicability and composed enforcement | Live behavior/benefit, full classifier/input/platform, concurrent state, source-bound release and actual host consequences. Selected retry tests omit intervening facts and bypass real Bash dispatcher |
+| Q07c NEXT U06-C | Governance event → persistence → consumer → authority/effect | S140 only 1–110; distinguish approval-requested label from real decision and enforcement; wider scanner/control inventory remains |
+| Q08 PARTIAL | Meaning of success/health/confidence/block/no-objection | E01–E05 and Note10; exit zero may carry structured deny, while missing decision is not final permission |
 | Q09 DEFERRED | Whole-study project-facing evaluation | Then-current Foundation and selected studies; joint discussion after completed research |
-| Q10 PARTIAL MR09 | Focus/fidelity/continuity of method | Original-runner contrast and pre-publication byte checks; no independent method efficacy |
+| Q10 PARTIAL MR10 | Focus/fidelity/continuity of method | Full gate/caller tracing changed the account; same-conversation recovery preserved two E05 sets; no independent method efficacy |
 
 ## Interpretations and reopening
 
-Coarse local config protection can be useful without being a universal adversarial boundary. First-time creation and mixed-purpose-file exclusions can be legitimate. A blocked strengthening edit shows content-insensitive policy, not malicious intent. A zero guard result can mean an unprotected path, deliberate skip, malformed input or a caught error; it is not an authority certificate. E05 records decisions without applying actual edits. Other controls remain possible; S128's descriptive prefix is not evidence of its implemented release logic.
+Fact-specific interruption can help a cooperative agent without technically validating the requested work. A stored first-touch marker is useful for avoiding repeated prompts without being a certificate of investigation. Session activity preserves continuity but does not prove old facts remain applicable. A source-derived loss of structured denial in one conditional combiner is not a live exploit or absence of other host controls. Explicit exemptions and anti-loop behavior can be legitimate trade-offs.
 
-Prior alternatives remain: heuristic personalization, flexible task cards, archival memory, invocation telemetry, comparison scaffolds and reversible snapshots may have bounded legitimate roles without proving independent acceptance or effectiveness. Source/host/oracle/authority changes reopen dependent findings. No residual is closed merely by moving to another family. E01–E04 are not rerun or reclassified by E05. Full P1 and integrated synthesis remain required.
+Prior alternatives remain: coarse config protection, heuristic personalization, flexible task cards, archival memory, invocation telemetry, comparison scaffolds and reversible snapshots may have bounded roles without proving accepted effective behavior. Source/host/oracle/authority changes reopen dependent findings. No residual closes merely by changing research family.
+
+U06-B bounds Q07b1, keeps Q07b2 open and selects Q07c. No E06, upstream test execution or repeat E01–E05. The two historical E05 sets remain distinct under their reconciliation, not a pooled security score. Full P1 and integrated synthesis remain required.
