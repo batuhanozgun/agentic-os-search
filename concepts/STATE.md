@@ -1,35 +1,33 @@
 # Concepts — Güncel Durum
 
-**Tarih:** 2026-09-18. **Durum:** Model değiştirme ve yeni oturumda devam üzerine ilk sınırlı birlikte-kullanım incelemesi tamamlandı. Güncel yerel tercihler WORKING'de; gerçekten okunan belge bölümleri SOURCES'ta. Bütün kavramların kapanışı veya canlı sistem doğrulaması değildir.
+**Tarih:** 2026-09-18. **Durum:** “İşi bitirdi; sonucu yayımlayabilir” incelemesi tamamlandı ve önceki model/oturum kümesine bağlandı. Kaynaklı yerel kullanım düzeltmeleri WORKING'de, gerçek okuma kapsamı SOURCES'ta. Yoğun başlangıç çalışmasının bütünü bitmiş veya bütün maddeler doğrulanmış değildir.
 
 ## Amaç ve son yetki
 
-Amaç kaynaklarla bağlantılı ortak konuşma zemini kurmak; terim sayısı büyütmek veya SOUL mimarisi tasarlamak değildir. Kullanıcının “Tamam. devam et.” yönü, önceki plandaki model değişimi ve oturumda devam örneklerini incelemeyi açtı. Çalışma tanımlarını seçip gerekçeli düzeltme sorumluluğu assistant'tadır; tek tek terim onayı kuyruğu yoktur.
+Amaç, araştırmalarda kullanabileceğimiz yeterince kararlı ortak konuşma zemini kurmak. Kullanıcının “anlaştık devam et lütfen” yönü, önceki değerlendirmedeki tamamlanma/yayım örneğini ve kümeleri birleştirme yönünü sürdürür. Çalışma tercihlerini assistant seçip gerekçeyle düzeltir; tek tek kullanıcı onayı kuyruğu, yeni onlu terim kotası veya SOUL mimarisi yoktur.
 
-## Bu turda ne değişti?
+## Devralınan ve bu tur değişen sonuç
 
-[WORKING](WORKING.md#model-degisimi-ve-devam) içinde aynı tanım/yapılandırma, aynı kimlik, aynı rol, aynı Session ve aynı Run ayrı iddialar olarak açıklandı. Model seçimi değişirken katılımcı kimliğinin hangi anlamda korunabileceği; yeni Session'a iş bilgisi aktarımı ile askıdaki Run'ın sürdürülmesinin farklı olduğu ele alındı.
+[Model değişimi ve devam](WORKING.md#model-degisimi-ve-devam) incelemesi korunur: aynı kimlik, tanım, model, rol, Run ve Session farklı iddialardır. Tekrar araştırılmadı.
 
-Run'ın herhangi bir durma noktasında zorunlu bittiği ifadesi düzeltildi. Session'ın tek Agent veya zorunlu kalıcılık anlamına gelmediği açıklandı. Context'in modele sunulan bilgi ile yerel kod verisi ayrımı geri getirildi. Agent/Model/LLM/Actor/Role/Identity ve Tool/Runtime ifadeleri bu küme için sadeleştirildi; kalan numaralı taslaklar yerlerinde korunuyor, topluca doğrulanmış sayılmıyor.
+[Tamamlanma ve yayımlama](WORKING.md#tamamlanma-ve-yayim) bu kez işin kapsamını, tamamlama koşulunu, kanıt/sürüm bağını ve yayımlama yetkisini birlikte açıklıyor. Completion artık yalnız kapalı statüsü veya ilerlemenin durması değildir; doğrulama ve teslim kapsam gerektiriyorsa tamamlanmanın koşulu olabilir. Verification/Validation zorunlu ardışık aşamalar değildir. Somut erişim izni iş yetkisini; yetki fiili olanağı; onay gerçekleşmiş yayımı kendiliğinden göstermez.
 
-[SOURCES](SOURCES.md#model-degisimi-ve-devam-2026-09-18) bu tur gerçekten açılan OpenAI Agents SDK, Anthropic örüntü yazısı ve Claude Code belge bölümlerini; gözlem, yerel yorum ve sınırlarıyla taşır. Önceki U03–U06 kayıtlarının tamamı bu okumayla onarılmış değildir.
+Capability, Authority, Permission, Work state, Verification, Readiness, Completion, Validation ve Evidence açıklamaları bu kullanıma göre düzeltildi. Önceki örnek gövdesi korundu; diğer taslaklar topluca olgunlaştırılmış sayılmaz. Bir model/oturum değişiminden sonra yeni çıktının eski kanıt ve izinle karıştırılmaması iki kümenin ortak bağlantısı oldu.
 
-## Gerçek sonuç ve açık sınır
+[SOURCES](SOURCES.md#tamamlanma-ve-yayim-2026-09-18) bu tur açılan OpenAI SDK, NIST sözlük, Scrum Guide 2020 ve GitHub belge bölümlerini ve mevcut Work Management kapanışının sınırlı yeniden kullanımını taşır. Belge karşılaştırması ve varsayımsal durum incelemesi yapıldı; canlı agent, deployment, güvenlik veya bağımsız kullanıcı-anlama deneyi yapılmadı. Eski U03–U06'nın bütün kaynak iddiaları onarılmış değildir.
 
-İki başlangıç cümlesi artık hangi şeyin değiştiği veya sürdürüldüğü belirtilerek açıklanabiliyor. Kaynaklardaki farklı yaşam döngüleri tek şemaya zorlanmadı. Örnek/karşı örnekler metin ve belge karşılaştırmasıdır; SDK çalıştırması, model geçiş performansı, bağımsız reviewer veya kullanıcı-anlama deneyi yapılmadı.
+## Sonraki anlamlı çalışma ve yeterlilik sınırı
 
-Kimlik devamının bütün ürünlerde nasıl sağlanacağı, her modelin ikame edilebilirliği, uzun işin devam bilgisinin tam şeması ve evrensel agency eşiği açık. Bunlar otomatik yeni araştırma kuyruğu değil, ilgili kullanımda gerektiğinde açılacak sınırlar. Bir sonraki tur bu tamamlanmış dar incelemeyi baştan tekrarlamaz.
+Olağan kavram devamı yeniden yetkilendirildiğinde, yeni onlu yerine mevcut bir dış kaynak bölümünü bu çalışma diliyle açıkla ve özgün anlamla geri karşılaştır. Çekirdek inceleme şu soruları taşısın: farklı kaynak terimleri doğru eşlendi mi; kaynakta olmayan mimari/özdeşlik varsayıldı mı; niteleme gerektiren önemli sınır kayboldu mu? Somut karşılaştırma önemli eksik çıkarmıyorsa yeni kavram aramayı bırakıp eldeki çekirdeği olağan araştırmalarda başvuru olarak kullanmaya yönel.
 
-## Devam noktası
+Henüz böyle bir bütünlüklü dış-kaynak aktarım incelemesi tamamlanmadı. Kaynak bölümünün seçimi ihtiyaç üzerinden yapılır; bütün studies kütüphanesi veya kırk maddeyi yeniden taramak gerekmez. Çok sayıda yeni tanım olmadan açıklayabiliyor, kaynak anlamını koruyor ve açık sınırı kısa nitelemelerle taşıyabiliyorsak başlangıç için yeterli olabilir. Bu, evrensel kapanış veya kullanıcı adına toplu kabul değildir.
 
-Sonraki olağan kavram devamında önce bu sonucu devral; ardından “İşi bitirdi; sonucu yayımlayabilir” cümlesiyle Work state–Completion–Verification–Authority/Permission ilişkisini gerektiği kadar incele. Bu örneği henüz sınanmış sayma. Başka somut kullanıcı ihtiyacı yönü değiştirebilir; yeni onlu liste veya bütün taslağı yeniden kurma zorunluluğu yok.
-
-Tanımın açık kalan genel sorularını tamamen kapatmayı beklemeden kullanılabilir yerel anlamla ilerle. Kaynak farklı bir sözcük kullanırsa onu yeniden adlandırma; eşlemeyi ve kapsamı açıkla. Düzeltmeler aynı WORKING/SOURCES dosyalarına, mevcut iş STATE'e işlenir.
+Bu turdaki dar örnekleri sırf yeni oturum açıldı diye tekrarlama. Anlamlı yeni çelişki çıkarsa etkilenen kısmı yeniden aç; maddi değişiklik yoksa bütün doğrulamayı yeniden yapmayı zorunlu kılma.
 
 ## Repository ve kapanış
 
-Altı dosyalı düz yapı ve `main` tek güncel çalışma alanı olarak korunur. Önceki branch temizliği [HISTORY](HISTORY.md)'de tamamlanmış kayıttır; bu tur yeniden bakım veya yeni branch açılmaz. Değişiklik kapsamı yalnız WORKING, SOURCES ve bu STATE'tir; INDEX, METHOD, HISTORY ve diğer araştırmalar korunur.
+Güncel çalışma alanı main; altı dosyalı düz yapı korunur. Yalnız WORKING, SOURCES ve bu STATE güncellenir; yeni dosya/branch veya başka araştırma değişikliği yoktur. INDEX/METHOD yönü bu devamı zaten taşır; HISTORY bakım kaydı olarak korunur.
 
-Başlangıç main `4a2c5f7b5ad887b7da5946953b94576ed53105ed`. Yayın aynı parent üstünde hazırlanan üç dosyalık commit'in force kullanılmadan ilerletilmesi ve main geri okumasıyla kontrol edilir; gerçek commit kimliği Git geçmişinden bulunur. Bu kontrol kavram doğruluğu değil aktarım/kapsam kontrolüdür.
+Yayın tabanı `2a598bc881ecace8d5f2c36c2aeb626ada578778`. Dosyaların tam gövdeleri geri kazanılıp WORKING/SOURCES yerel kopyalarının Git blob kimlikleri eşleştirildi. Değişiklik yayından önce kapsam ve içerik açısından, sonra main'den geri okuma/kimlikle denetlenir. Force kullanılmaz; main ilerlerse etkilenen içerik uzlaştırılır. Bu aktarım denetimi kavramların doğruluğu veya iletişim başarısı kanıtı değildir; gerçekleşen commit Git geçmişindedir.
 
-**Bu turun dönüş koşulu:** kaynaklı bulgular, yerel tanım düzeltmeleri, iki cümlenin yeni açıklaması, karşı örneklerin sonucu ve açık sınırlar kullanıcıya sunulur. Bunun ardından otomatik yeni araştırma dalına geçilmez.
+**Dönüş koşulu:** Cümlenin yeni açıklaması, önemli tanım/ilişki düzeltmeleri, karşı örnekler ve kaynak sınırları kullanıcıya sunulur. Sonraki dış-kaynak karşılaştırması tamamlanmış gibi kaydedilmez; bu turun ardından kendiliğinden yeni araştırma dalı açılmaz.
