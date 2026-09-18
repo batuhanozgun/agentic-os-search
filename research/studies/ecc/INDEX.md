@@ -4,6 +4,7 @@
 
 | Need | Entry |
 |---|---|
+| Rust ECC2 command/record/runner/stop/resume/daemon — first slice, PARTIAL | [Note13](notes/13-RUST-SESSION-LIFECYCLE-FIRST-SLICE.md) → [U09-A sources](evidence/U09-A-SOURCES.md), [MR14](ROUND-U09-A.md); PLAN retains store/worktree/observer closure |
 | Plan Canvas feedback/review/continuation | [Note12](notes/12-PLAN-CANVAS-FEEDBACK-AND-CONTINUATION.md) → [U08-A sources](evidence/U08-A-SOURCES.md), [MR13](ROUND-U08-A.md) |
 | Historical U08-A interruption and excluded E06 evidence | [Recovery record](RECOVERY-U08-A-20260918.md) → [quarantine/checks](evidence/u08-a-recovery/README.md), [recovery publication](PUBLICATION-U08-A-RECOVERY.md) |
 | Purpose, pin and reuse | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
@@ -23,9 +24,9 @@
 | Initial surfaces/cache | [Note01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md), [E01](evidence/u01-a-cache-probe/README.md) |
 | Older master histories through U03-B | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later unit records continue separately |
 | Historical inventory/frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md); U07-A adds dispositions |
-| Current publication | STATE links the actual receipt after its checks; source completion and reachable publication remain separate |
-| Earlier publication | [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
+| Current publication | STATE links the actual receipt after its checks; publication of a first slice is not whole-unit research completion |
+| Earlier publication | [U08-A](PUBLICATION-U08-A.md), [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
 
-U08-A now has a bounded source answer; its historical E06 outcomes remain unverified. The recovery records and objects are retained, not rewritten to look like completed experimental evidence. No new target run or replacement experiment occurred in the closing continuation.
+U08-A has a bounded published source answer; its historical E06 outcomes remain unverified. Recovery records and objects are retained, not rewritten to look like completed experimental evidence. No replacement experiment occurred.
 
-U09-A's Rust ECC2 lifecycle question is selected in PLAN and activated only after STATE publication closure. Separate Plan Canvas/Rust/operator/native workflow/evaluation paths must not inherit older helper conclusions. Comprehensive joint evaluation remains after research completion. No new synthesis or CORE is claimed. META owns reuse, STATE work, PLAN sequence, QUESTIONS research questions, ledgers source coverage, rounds method history and recovery/receipts publication evidence; none is agent-control.
+U09-A is IN PROGRESS with a first source slice; do not mistake the published note for full lifecycle/observer/ownership closure. Separate Plan Canvas/Rust/operator/native workflow/evaluation paths must not inherit older helper conclusions. Comprehensive joint evaluation remains after research completion. No new whole-system synthesis or CORE is claimed. META owns reuse, STATE work, PLAN sequence, QUESTIONS research questions, ledgers source coverage, rounds method history and recovery/receipts publication evidence; none is agent-control.
