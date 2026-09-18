@@ -23,7 +23,7 @@ The controller preserves task meaning, context, interfaces, review ranges and qu
 - **Primary:** `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`; root `21219529a4e224bcb27baf8816b039c8bf7c6673`; manifest context6.3.0. First observation2026-09-17; primary commit2026-08-12T16:53:21Z.
 - **U08-C direct main check:** on2026-09-18 the connected GitHub main ref returned the same full primary commit. No primary-main delta or repin. This is not every release channel, installed bytes, dev or future-main qualification.
 - **Lab:** `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`; original selected-source/public-record scope retained.
-- **Historical assessor:** `prime-radiant-inc/gauntlet@db6c8e0fcf80889aa6d9631c99adec698f6c0caa`; separate `25a2e3e00431f8d8eb63762ccb974d43d5405` is NOT the recorded delta. The exact retained delta is `25a2e3e00431f8d8eb63781162ccb974d43d5405`.
+- **Historical assessor:** `prime-radiant-inc/gauntlet@db6c8e0fcf80889aa6d9631c99adec698f6c0caa`; separate delta `25a2e3e00431f8d8eb63781162ccb974d43d5405`.
 - **S06 project/comparator context:** research snapshot `7291b0ee112db55a365a6ba4c87a37e4dad66605`. No new Development OS implementation audit or comparator-currentness claim.
 
 METHOD remains v0.1; PLAN is v0.14. Original F01–F79, Q01–Q47, S01–S06 and E01–E16 are unchanged. Final LC1/LC2 are source-directed compression clarifications, not new empirical findings.
