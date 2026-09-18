@@ -1,6 +1,8 @@
 # U08-A — Quarantined interrupted-publication objects
 
-**Status:** NOT VALIDATED EXPERIMENT EVIDENCE. See [recovery diagnosis](../../RECOVERY-U08-A-20260918.md) and [check results](CHECK-RESULTS.json). These exact stored bytes are retained for provenance, not approved as research results or executable inputs.
+**Status:** NOT VALIDATED EXPERIMENT EVIDENCE. See [recovery diagnosis](../../RECOVERY-U08-A-20260918.md), [check results](CHECK-RESULTS.json), and [actual publication receipt](../../PUBLICATION-U08-A-RECOVERY.md). The recovery reached main through PR #22 / merge 1a2aa91b04fc1d2ad06e0007c2a48a7f409ddfc5. This closes the repository correspondence repair, not U08-A research or E06 evidence recovery.
+
+These exact stored bytes are retained for provenance, not approved as research results or executable inputs.
 
 | Stored object | Actual check |
 |---|---|
