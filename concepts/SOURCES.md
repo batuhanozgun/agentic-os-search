@@ -1,6 +1,91 @@
 # Kavram Çalışması — Kaynak Notları
 
-Bu dosya taslaktan kanıta geri dönüş yoludur; yeni bir kaynak araştırması değildir. **2026-09-18 sadeleştirmesinde dış kaynaklar tekrar okunmadı.** Aşağıdaki U01–U06 bağlantıları, bakım öncesi main commit'ine sabitlenmiş tarihsel araştırma kayıtlarıdır. Önceki “canlı belgeler okundu” ifadeleri bu bakımın doğrulaması sayılmaz.
+Bu dosya taslaktan kanıta geri dönüş yoludur. **2026-09-18 sadeleştirmesinde dış kaynaklar tekrar okunmadı.** Aşağıdaki ilk bölüm, sonraki kullanım incelemesinde gerçekten açılan birincil belge bölümlerini kaydeder. U01–U06 ise bakım öncesi main commit'ine sabitlenmiş tarihsel kayıtlardır; onların bütün okuma iddiaları geriye dönük doğrulanmış sayılmaz.
+
+<a id="model-degisimi-ve-devam-2026-09-18"></a>
+## Model değişimi ve devam — 2026-09-18
+
+**Soru:** “Agent'ın modelini değiştirelim” ve “Aynı agent yeni oturumda devam etsin” cümlelerinde yapılandırma, model, kimlik ve yürütmenin hangi sınırları ayrılmalı?
+
+**Yöntem ve kapsam:** Aşağıdaki canlı HTML belge bölümleri web üzerinden açılıp okundu. Sayfa bütünü, kaynak kod, kurulu paket veya ürün davranışı çalıştırılarak doğrulanmadı. Tarih erişim tarihidir; sayfaların tamamının değişmez snapshot'ı ya da tüm iddiaların en yeni paket sürümünde sınandığı anlamına gelmez. Aynı kurumun sayfaları bağımsız deneyler olarak sayılmadı. Güncel ürün isimlerini sıralamak veya model önermek bu çalışmanın konusu değildir.
+
+### OA-Agent — OpenAI Agents SDK, Agents
+
+**Kaynak/bölüm:** https://openai.github.io/openai-agents-python/agents/ — giriş, Basic configuration, Cloning/copying agents.
+
+**Gözlem:** Belgede Agent'ın ad, talimat, model ve araç gibi yapılandırma alanları ayrı; çalışma tanımının kopyalanması da ayrı işlem olarak yer alıyor.
+
+**Katkı/sınır:** Tanım/yapılandırma ile tek çalışma ve kimliği ayırmak için uygulama örneği. SDK nesnesi bütün agent kullanımlarının ontolojisi değildir; kopyalamanın iş kimliğini nasıl belirleyeceği bizim yerel yorumumuzdur.
+
+### OA-Run — OpenAI Agents SDK, Running agents
+
+**Kaynak/bölüm:** https://openai.github.io/openai-agents-python/running_agents/ — The agent loop; Run config / Model, provider, and session defaults; State and conversation management / Conversations/chat threads.
+
+**Gözlem:** RunConfig, tanımı değiştirmeden çalıştırma düzeyinde model seçimini etkileyebilir. Döngü model çıktısını işler, araçları yürütür veya hedef Agent'ı değiştirir. Bir mantıksal konuşma turu birden fazla Agent içerebilir.
+
+**Katkı/sınır:** Model seçimi ile tanım değişikliğini, modelin araç isteği ile yürütmeyi ve Run ile Agent sayısını eşitlemiyoruz. Çalışabilirlik/performance testi yapılmadı.
+
+### OA-Session — OpenAI Agents SDK, Sessions overview
+
+**Kaynak/bölüm:** https://openai.github.io/openai-agents-python/sessions/ — Operational patterns: Memory persistence, Multiple sessions, Session sharing; geçmiş ile yeni girdinin birleştirilmesi açıklaması.
+
+**Gözlem:** Aynı Agent tanımı farklı oturumlarda, farklı Agent'lar ortak oturumda kullanılabiliyor. Bellek içi ve dosya tabanlı depolama ayrılıyor; geçmiş çağrı girdisine hazırlanıyor.
+
+**Katkı/sınır:** Session=Agent ve Session=zorunlu kalıcılık eşitliklerine somut karşı örnekler. Ortak oturumun erişim açısından her durumda uygun olduğunu veya bütün bilgilerin aktarıldığını göstermez.
+
+### OA-Resume — OpenAI Agents SDK, Human-in-the-loop
+
+**Kaynak/bölüm:** https://openai.github.io/openai-agents-python/human_in_the_loop/ — giriş, Example: pause, approve, resume; Long-running approvals; Versioning pending tasks.
+
+**Gözlem:** Askıdaki Run, RunState üzerinden saklanıp başka süreçte geri yüklenebilir. Belge bekleyen işler için tanım/SDK sürüm eşlemesini, model/prompt/araç değişikliklerindeki uyumsuzluk riskini belirtir.
+
+**Katkı/sınır:** Duraklama veya çağrı dönüşü mantıksal Run'ın zorunlu bitişi değildir. Eski konuşma mesajları ile yürütmenin bütün devam durumu aynı sayılmaz. Gösterilen onay akışı bütün ürünlerde geçerli bir kurtarma garantisi değildir.
+
+### OA-Model — OpenAI Agents SDK, Models
+
+**Kaynak/bölüm:** https://openai.github.io/openai-agents-python/models/ — Mixing models in one workflow; Mixing models across providers; ilgili model/provider arayüz açıklamaları.
+
+**Gözlem:** Model adı, ModelProvider çözümlemesi ve Model arayüzü ayrı seçeneklerdir. Sağlayıcılar arasında araç/girdi/çıktı desteği farklılaşabilir.
+
+**Katkı/sınır:** Öğrenilmiş model, SDK erişim nesnesi ve servis birbirinin yerine kullanılmaz. Model değiştirme olanağından sınırsız ikame edilebilirlik çıkmaz. Tüm sağlayıcıların envanteri veya belirli model geçişi araştırılmadı.
+
+### OA-Context — OpenAI Agents SDK, Context management
+
+**Kaynak/bölüm:** https://openai.github.io/openai-agents-python/context/ — giriş, Local context, Agent/LLM context.
+
+**Gözlem:** Kodun kullandığı context nesnesi modele otomatik gönderilmez. Modelin göreceği bilgi talimat, girdi veya araç sonucu gibi yollardan sunulur.
+
+**Katkı/sınır:** Context maddesindeki kayıp kapsam geri getirildi. Depoda bulunma, uygulamanın erişebilmesi ve modelin o çağrıda görmesi farklı şeylerdir. Genel bellek yönetimi bu okumayla tamamlanmadı.
+
+### AN-Patterns — Anthropic, Building effective agents
+
+**Kaynak/bölüm:** https://www.anthropic.com/engineering/building-effective-agents — ilk yayın 2024-12-19; bu erişimde What are agents?, Routing, Orchestrator-workers, Evaluator-optimizer, Agents bölümleri.
+
+**Gözlem:** Yazarlar modelin süreci yönlendirmesini öne çıkarırken bazı model kararları içeren örüntüleri workflow diye adlandırıyor. Çevreden sonuç alıp ilerlemeyi yeniden değerlendirme açıklanıyor.
+
+**Katkı/sınır:** Agent çalışma tercihimiz için davranış dayanağı; her model kararı veya her döngü genel Agent testi yapılmadı. Sayfa güncellenmiş bir canlı metindir, değişmemiş 2024 arşivi değildir. SDK adlandırmasıyla tek standarda indirgenmez.
+
+### CC-Agents — Claude Code, Create custom subagents
+
+**Kaynak/bölüm:** https://code.claude.com/docs/en/sub-agents — giriş/Built-in subagents; Write subagent files; Supported frontmatter fields; Choose a model; Enable persistent memory; Resume subagents.
+
+**Gözlem:** Yeniden kullanılabilir dosya tanımı, model seçimi ve belirli çağrı ayrılıyor. Yeni çağrı ile mevcut agent kimliğine devam farklı işlemler; bazı devamlar aynı kimlikle yeni Run olarak tarif ediliyor. Oturumlar arası bellek de ayrı yapılandırılabiliyor.
+
+**Katkı/sınır:** Hazır/özelleştirilmiş tanımın yeni model eğitimiyle eşit olmadığını ve “resume”un ürünler arasında aynı yaşam döngüsünü göstermediğini örnekliyor. Bu ürünün tüm agent türlerinin devamını veya ChatGPT oturumlarını temsil etmiyor. Özelliklerin kurulu sürümde çalışması denenmedi.
+
+### CC-Models — Claude Code, Model configuration
+
+**Kaynak/bölüm:** https://code.claude.com/docs/en/model-config — Available models ve Model aliases.
+
+**Gözlem:** Üründeki model seçim alanı takma ad veya sağlayıcıya özgü seçim değeri alabiliyor; alias çözümlemesi zaman/sağlayıcıyla değişebiliyor.
+
+**Katkı/sınır:** Ürün, seçim etiketi ve gerçek model sürümünün ayrı konuşulması gerekiyor. Bu okuma eski konuşmadaki bütün örnek model adlarını doğrulamıyor; güncel model önerisi veya fiyat/kabiliyet araştırması değil.
+
+### Yerel sonuç ve karşı örneklerin statüsü
+
+[WORKING'deki kullanım incelemesi](WORKING.md#model-degisimi-ve-devam), yukarıdaki belge örneklerinden hareketle aynı tanım, aynı kimlik, aynı rol, aynı oturum ve aynı Run'ı ayrı iddialar olarak ele alır. Kimliğin hangi değişikliklerde korunacağı yerel izleme tercihidir; belgelerden evrensel özdeşlik ölçütü çıkarılmadı.
+
+Aynı tanımdan iki ayrı katılımcı, ortak oturum kullanan iki Agent, boş yeni oturum ve duraklatılıp sürdürülen yürütme örnekleri metin üzerinde karşılaştırıldı. Bunlar çalıştırılmış entegrasyon testleri değildir. Önceki “bütün terimler oturdu” sonucu yenilenmedi; bu tur yalnız iki başlangıç cümlesini açıklayacak sınırlı yerel düzeltme yaptı.
 
 ## Devralınan kayıtlar ve kapsamları
 
@@ -17,7 +102,7 @@ U03–U06'nın URL/tarih listeleri, her cümle için teyit edilmiş okuma/kanıt
 
 ## U01'deki kaynak çeşitliliğine kısa dönüş
 
-Aşağıdakiler **U01'in eski okuma kaydının özeti**dir; bu tur yeniden gözlem değildir. Tam bölüm ve sınırlar yukarıdaki U01 bağlantısındadır.
+Aşağıdakiler **U01'in eski okuma kaydının özeti**dir; bu tur yeniden gözlem değildir. Tam bölüm ve sınırlar yukarıdaki U01 bağlantısındadır. AN-Patterns ve OA-Agent/OA-Run için bu turun seçici tekrar okuması yukarıda ayrıca kayıtlıdır.
 
 | Kaynak | U01'in kaydettiği ayrım | Eski okuma sınırı |
 |---|---|---|
