@@ -1,70 +1,58 @@
 # Concepts — Güncel Durum
 
 **Kayıt tarihi:** 2026-09-18.
-**Mevcut iş:** Yöntem uyarlaması, main yayını ve aşağıda belirtilen kontroller TAMAMLANDI; sonucu kullanıcıya sunma/dönüş noktası. Yeni terim araştırması başlamadı.
-**Yöntem:** [METHOD v0.2](METHOD.md) ve [esnek PLAN v0.2](PLAN.md); üç kayıt düzeyi korunuyor, global terim kuyruğu yerine bağlantılı inceleme kullanılıyor.
-**Yöntem yayını:** MAIN ÜZERİNDE YAYIMLANDI; PR #20, merge commit `1865e12027efeb323d0d79f978a232bd79fe4de5`. Yayın sonrası geri okumalar ve kapsam kontrolü aşağıda kayıtlıdır.
-**Korunan araştırma:** [Agent U01](research/agent/U01-SOURCE-USES.md), main üzerinde yayımlanmış ilk sınırlı kaynak incelemesi. Bu bakım turunda yeni kaynak bulgusu eklenmedi.
-**Kabul edilmiş ortak anlam:** Yok. Yöntem onayı, Agent veya komşu terim tanımının kabulü değildir.
+**Mevcut iş:** Agent bağlantılı kavram incelemesi; U02 kaynak sınırı ve ilk yerel kullanım adayı hazırlandı. Bu turdaki dönüş noktası kullanıcı değerlendirmesidir.
+**Yöntem:** [METHOD v0.2](METHOD.md) ve [esnek PLAN v0.2](PLAN.md).
+**Mevcut araştırma:** [U01](research/agent/U01-SOURCE-USES.md) + [U02](research/agent/U02-AGENT-MODEL-BOUNDARY.md).
+**Aktif sentez/adayı:** [Agent çekirdek sınırlar ve yerel kullanım adayı v0.1](synthesis/AGENT-BOUNDARY-CANDIDATE-v0.1.md) — **KABUL EDİLMEDİ**.
+**Kabul edilmiş ortak anlam:** Yok.
 
-## Amaç ve son kullanıcı yetkisi
+## Amaç ve güncel yetki
 
-Amaç, kaynaklarla bağlantılı fakat kapsamı bize ait ortak kullanımlarla iletişimde aynı nesneyi konuşabilmektir. SOUL'un henüz seçilmemiş yapısı tanımın ölçütü değildir. Kaynakların kullanımını kendi tercihimize göre değiştirmeyiz.
+Amaç, kaynaklarla bağlantılı fakat kapsamı bize ait ortak kullanımlarla iletişimde aynı nesneyi konuşabilmektir. Kullanıcı yöntem bakımından sonra “hadi şimdi çalışmaya devam edelim” diyerek olağan kavram araştırması/değerlendirme devamını açtı.
 
-U01 sonrasında kullanıcı, bir terim araştırılırken ortaya çıkan terim ve işlevleri gerektiği kadar birlikte irdeleyip kararlaştıran, katı olmayan bir çalışma istedi. “Agent budur” yerine “biz agent terimini bu anlama gelecek şekilde kullanıyoruz” hedefini belirtti. Son talebi, önce çalışma biçimini oturtmak ve repository dosyalarının uygunluğunu inceleyip gerekenleri düzeltmek oldu. Seçili özgün ifadeler ve yorum/kabul sınırı [PURPOSE](PURPOSE.md)'tedir.
-
-**Bu turun yetkisi:** Yöntem uyumu incelemesi, gereken repository düzenlemesi, kapsam/bağlantı/yayın kontrolü ve sonucu kullanıcıya sunmak. Yeni dış kaynak araştırması, belirli ortak tanımın kabulü, SOUL/Development OS tasarımı veya implementasyon değil. Kontrol protokollerini değiştirmeyi gerektiren bir routing açığı saptanmadı; mevcut preflight ve concepts yönlendirmeleri kullanılıyor.
+Bu tur Agent için gerçekten yük taşıyan ilk komşu olarak Model/LLM ayrımını, onunla birlikte run ve workflow sınırını sınırlı biçimde araştırdı. Yeni SOUL/Development OS tasarımı, implementasyon veya agent-control değişikliği yapılmadı.
 
 ## Durum ayrımları
 
 | İş/sonuç | Durum |
 |---|---|
-| P0 hazırlık | TAMAMLANDI; tarihsel yayın korunuyor. |
-| U01 kaynak incelemesi | YAYIMLANDI / İLK SINIRLI DİLİM; bütün Agent literatürünün tamamlandığı iddiası yok. |
-| Bağlantılı çalışma yöntemi | Kullanıcı yönüyle v0.2'ye uyarlandı; main yayını ve belirtilen kontroller tamamlandı. |
-| Envanterdeki komşular | Kaynaklı soru/keşif kaydı; araştırılmış veya zorunlu önkoşul listesi değil. |
-| Agent için hangi komşuya girileceği | Henüz seçilmedi; mevcut anlam sorusuna etkisiyle değerlendirilecek. |
-| Yeni sentez / referans adayı | Bu tur oluşturulmadı. Sohbetteki örnek tanım benimsenmedi. |
-| Kabul edilmiş yerel referans | Yok; belirli kapsam için açık karşılıklı değerlendirme gerekiyor. |
-| SOUL/Development OS kararı | Bu programdan doğan mimari/uygulama kararı yok. |
+| P0 hazırlık ve v0.2 yöntem | TAMAMLANDI / main üzerinde. |
+| Agent U01 | YAYIMLANDI; farklı kaynak kullanımlarının ilk sınırlı haritası. |
+| Agent U02 | HAZIR / yayın adayı; Model/LLM, run ve workflow sınırları. |
+| Model/LLM ≠ Agent sınırı | Kaynaklarla güçlü biçimde desteklenen sentez girdisi; henüz ortak reference kaydı değil. |
+| Agent yapılandırması ≠ belirli run | OpenAI SDK sözleşmesinde somut; yerel referans adayı içinde öneriliyor. |
+| Workflow ↔ Agent | Source-dependent; evrensel çizgi seçilmedi. |
+| Tool/action capability | Tek başına gerekli/yeterli Agent ölçütü olarak desteklenmedi. |
+| Agent yerel kullanım adayı | İki seçenekli v0.1 hazır; kullanıcı değerlendirmesi bekliyor. |
+| Actor/Role, hazır/custom, model family/product | Açık ama şu anda zorunlu önkoşul seçilmedi. |
+| Kabul edilmiş yerel referans | Yok. |
 
 ## Yeni oturumda devam yolu
 
-Güncel AGENT ve gereken protokoller → [INDEX](INDEX.md) → bu STATE → [PURPOSE](PURPOSE.md) → [METHOD](METHOD.md) → [PLAN](PLAN.md) → ilgili [envanter/keşif kaydı](TERM-INVENTORY.md) → [Agent BRIEF](research/agent/BRIEF.md) → [U01](research/agent/U01-SOURCE-USES.md). Aktif aday veya kabul edilmiş referans ileride oluşursa ilgili kayda da inilir.
+Güncel AGENT ve gereken protokoller → [INDEX](INDEX.md) → bu STATE → [METHOD](METHOD.md) → [Agent BRIEF](research/agent/BRIEF.md) → [U01](research/agent/U01-SOURCE-USES.md) → [U02](research/agent/U02-AGENT-MODEL-BOUNDARY.md) → [aktif aday](synthesis/AGENT-BOUNDARY-CANDIDATE-v0.1.md).
 
-**Devralınacak açık soru:** Agent dediğimizde aynı şeyi konuşabilmek için eldeki hangi ayrımı açıklığa kavuşturmamız gerekiyor? U01 ve kullanıcının somut cümlesi üzerinden bu soru ele alınır. Bir komşuya inilirse neden açıldığı ve hangi soruya dönüleceği korunur. Şu anda aktif komşu araştırması/iniş noktası yoktur.
+**Devralınacak exact değerlendirme:** Repo ve konuşmalarda çıplak Agent kelimesi:
+- geniş “yapılandırılmış AI yürütme birimi”ni mi,
+- yoksa daha dar “model-yönlendirmeli yürütme birimi”ni mi
+anlatsın?
 
-**Sıradaki mantıklı kavram işi:** U01'deki ayrımları ve kökeni ayrılmış bağlantıları birlikte değerlendirmek; gerekiyorsa belirli komşu soruya sınırlı inmek, zemin yeterliyse yerel kullanım adayı önermek. Ne otomatik U02 taraması ne de hemen Agent tanımı kabulü seçildi. “Agent oluşturmak” U01'in açık aday sorularından biridir; tek zorunlu sonraki iş değildir.
+Assistant şu anda daha dar ikinci adayı daha işlevsel buluyor; bu kabul veya kullanıcı tercihi değildir.
 
-**Mevcut dönüş ve sonraki yetki:** Yöntem uyarlamasının yayını ve belirtilen kontroller tamamlandı; bu turun sonucu kullanıcıya sunulur. Sonraki kavram çalışması kullanıcı devam yönüyle açılır. Böyle bir devamda gerekli komşu incelemesi, karşılaştırma ve aday önerme aynı işin adımları olabilir; her küçük adımda ayrı faz onayı istenmez. Bir yerel anlamın kabulü ise belirli açıklamaya verilen açık kullanıcı değerlendirmesini gerektirir. Tamamlanmış yöntem düzenlemesi veya yayın işi tekrar yapılacak iş değildir.
+Kullanıcı kısmi değerlendirme yapabilir: örneğin yalnız “model Agent değildir” ve “Agent/run ayrıdır” sınırlarını kabul edip pozitif Agent tanımını açık bırakabilir.
 
-P0'ı, U01'i veya önceki sohbetin geçici örneklerini yanlış statüyle devralma. Envanter bir checklist değildir. “Yöntem uygun” ifadesi örnek Agent tanımını, “zorunlu komşular” listesini, hazır/özel ikiliğini veya model/ürün adı örneklerini doğrulamaz. U01 ve SETUP-VERIFICATION içindeki tarihli durum/sonraki-iş anlatımları bu güncel STATE'i geçersiz kılmaz.
+## Sonraki araştırmayı ne tetikler?
 
-## v0.2 değişiklik ve yayın kaydı
+Actor/Role, hazır/custom Agent veya Model family/product/provider araştırmaları yalnız kullanıcı değerlendirmesinde Agent adayını maddi biçimde etkileyen bir belirsizlik olarak ortaya çıkarsa açılır. Açılması halinde neden açıldığı ve Agent sorusuna dönüş noktası korunur.
 
-**İncelenen main / yayın base'i:** `a605ee34b45b68d9d2aece5bc815a602f4676081`.
-**Çalışma branch'i:** `maintenance/concepts-connected-inquiry-20260918`.
-**Yayın:** [PR #20](https://github.com/batuhanozgun/agentic-os-search/pull/20); exact head `70ab7a108ce925cd962c75af931175e6f4d717b4`; normal main merge `1865e12027efeb323d0d79f978a232bd79fe4de5`.
-**Ayrıntılı kapsam / gerçekleşen kontroller:** [METHOD-ALIGNMENT-2026-09-18](checks/METHOD-ALIGNMENT-2026-09-18.md).
+Daha fazla kaynak bulunabilmesi tek başına U03 araştırma emri değildir.
 
-Concepts içindeki mevcut 12 dosya ve programın kontrol/giriş bağlantıları değerlendirildi. On concepts dosyası güncellendi; U01 ve tarihsel SETUP-VERIFICATION korundu. Kök README ile studies INDEX'te yalnız concepts açıklaması değişti; bir uyum/kontrol kaydı eklendi. İlgili olup değişmeden bırakılan dosyaların gerekçeleri aynı kayıtta bulunur. Araştırma içerikleri ve agent-control değişmedi.
+## Yayın durumu
 
-PR dosya listesi ve base → son head karşılaştırması 13 yol kapsamını doğruladı. Ortak dosyaların patch'leri incelendi; studies INDEX'teki ilgisiz aktarım farkı yayın öncesinde geri alındı ve son patch yalnız amaçlanan paragrafı gösterdi. Exact head'e bağlı merge başarılı oldu; head → merge karşılaştırması sıfır dosya farkı verdi. Main'den METHOD, concepts INDEX, STATE ve uyum kaydı tam geri okundu; U01 ve SETUP'un blob kimlikleri değişmedi. Okuma derinliği ve diğer kontrol sınırları uyum kaydında ayrıdır.
+Bu tur için çalışma branch'i: `research/concepts-agent-boundaries-20260918`.
 
-Bu kayıt gerçekleşmiş yayının kapanışıdır; yeni araştırma veya terim kabulü değildir. Çalışma branch'i bekleyen yayın ya da alternatif current state değildir. Kullanıcının elle upload veya merge yapması gerekmiyor. Kontroller dosya uyumu, kapsam, aktarım ve devam yoluyla sınırlıdır; yerel anlamın iletişimde işe yaradığına dair bağımsız davranış deneyi yapılmadı.
+Yeni U02 ve sentez adayı ile BRIEF, research INDEX, synthesis INDEX, TERM-INVENTORY ve bu STATE güncellenmektedir. Main yayını ve geri okuma tamamlanmadan branch durumu canonical yayın sayılmaz. Yayın receipt'i tamamlandıktan sonra bu bölüm gerçekleşen sonuca güncellenecektir.
 
-## Korunan U01 yayın geçmişi
+## Korunan geçmiş
 
-U01 araştırması 2026-09-18'de kullanıcının açık Agent araştırma yönüyle başladı; P0 yetkisinden otomatik geçiş yapılmadı. Başlangıç okumaları main `0743feae8728faebb48982ec22c447b06f2a0eaa` üzerinden, yayın tabanı `a3c208905560e0f998c0af019b235825a276969e` üzerinden yürütüldü; eşzamanlı ECC `ROUND-U08-A.md` eki korundu.
-
-[PR #19](https://github.com/batuhanozgun/agentic-os-search/pull/19), `research/concepts-agent-u01-20260918` branch'i, exact head `75179c8fd73411a0be8c5ac2b379ec47197c5afb`, merge commit `2a3eeb1fe0853b408d07c1fbd83828e33439efbf`; yayın kapanışı `a605ee34b45b68d9d2aece5bc815a602f4676081`. U01 blob'u `22f04d1c120afa91781f680af32bf3b5944c3d30` idi ve bu yöntem uyarlamasında korunur.
-
-O tur yalnız U01, STATE, Agent BRIEF, research INDEX ve TERM-INVENTORY değişti. PR diff'i ve main geri okumaları yapıldı; head ile merge arasında dosya farkı yoktu. Bu kontroller kaynak doğruluğunun bağımsız testi değildi. U01'in kendi okuma ve kanıt sınırları dosyasında kalır; yöntem değişimi yeni bulgu üretmez.
-
-## Korunan P0 yayın geçmişi
-
-P0 hazırlığı [PR #12](https://github.com/batuhanozgun/agentic-os-search/pull/12), merge commit `ed01a591059ea8f8dd17dc5622eb314f92d2c3d9` ile main üzerinde yayımlandı. [PLAN](PLAN.md)'daki tarihsel 11 yeni dosya ve 7 sınırlı mevcut dosya değişikliği tamamlandı. Agent-control içinde yalnız `agent/protocols/candidate-research-library.md` yerleştirme/geri çağırma eki değişmişti; bu tur kontrol dosyası değiştirilmedi.
-
-Hazırlık branch'i `setup/concepts-reference-20260918`, `3d93615ae51e4e85cd509e49f65b4c2afbad07c0` main sürümünden açılmıştı. Çalışırken main ECC U06-B ile `34ebc13e87fc7f42f882472eced2a576bb4d27a1` oldu. PR #12, bu güncellemeyi koruyarak exact head `bb19c2f9d77d85dcb05ba0d97a14792cbf1031e6` üzerinden birleşti. Hazırlık branch'i bekleyen kurulum işi veya alternatif current state değildir.
-
-[SETUP-VERIFICATION](checks/SETUP-VERIFICATION.md) yalnız P0'ın tarihli yayın/geri okuma kanıtını taşır; sonraki araştırmanın veya gelecekteki iletişim başarısının doğrulaması değildir. Genel branch temizliği, başka oturumun branch'ine yazma, force push veya repository koruma ayarı değişikliği bu tur kapsamı değildir.
+v0.2 yöntem uyarlaması PR #20 ile main'e yayımlandı. U01'in ve önceki P0 doğrulama kayıtlarının tarihsel kimlikleri kendi dosyalarında korunur; bu tur onları yeniden yazmaz.
