@@ -6,6 +6,12 @@ Define the minimum durable semantics for packages under `research/studies/**` so
 
 This contract governs package shape and metadata only. It does not make candidate studies authoritative for SOUL Foundations, architecture or implementation.
 
+## Separately authorised concepts programme
+
+The owner-authorised term-use research → synthesis → shared-reference programme lives under [`concepts/`](../../concepts/INDEX.md), using its own [STATE](../../concepts/STATE.md) and [METHOD](../../concepts/METHOD.md). Its dossiers are not duplicate candidate-study packages: this contract does not require a second META, CATALOG row or copy under studies solely for that programme.
+
+This exception does not relocate existing studies or reclassify an ordinary focused-topic study merely because it concerns a concept. Source research remains in its existing package and can be linked at the needed depth. Common-use acceptance is not study validation, Foundation adoption or architecture authority.
+
 ## Required package surface
 
 Every durable candidate study must contain:

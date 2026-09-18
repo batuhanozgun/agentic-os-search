@@ -67,6 +67,8 @@ A new durable research package belongs under `research/studies/<slug>/` when it 
 - bounded SOUL project-context reconstruction/current transition context (`soul-context`), nor
 - current first-principles Foundation research (`soul-foundations`).
 
+The separately owner-authorised concept-use and shared-reference programme is an explicit exception to this default: it lives under [`concepts/`](../concepts/INDEX.md), with its own STATE and METHOD. This does not move existing studies or reclassify every conceptual/mechanism inquiry. See the dedicated route below.
+
 Do not classify a study as "external" merely because it uses external sources. Classification is based on the **research object**:
 
 - `focused-topic` — concept/problem/mechanism/method/pattern/technical area;
@@ -84,6 +86,7 @@ Do not classify a study as "external" merely because it uses external sources. C
 | Understand candidate-library semantics | `studies/INDEX.md` | `studies/PACKAGE-CONTRACT.md` |
 | Create a new focused/external/hybrid study | `studies/PACKAGE-CONTRACT.md` | create package `META.md` and update `CATALOG.md` |
 | Architecture/design/implementation wants prior research | current project/Foundation state first | `studies/CATALOG.md` → selected studies only |
+| Term meanings, cross-source usage or shared conversational reference | [`concepts/INDEX.md`](../concepts/INDEX.md) | `concepts/STATE.md` → relevant research/synthesis/reference; do not assume a shared definition already exists |
 
 ## Authority boundaries
 
@@ -129,3 +132,5 @@ Do not collapse them because they appear under the same `research/` root.
 ## Related library outside research
 
 [explorations/INDEX.md](../explorations/INDEX.md) is the separately authorised **Düşünce ve Model Denemeleri** library at repository root. It preserves conceptual dialogues, synthetic demonstrations, draft models and learning/evolution traces; it is not a fourth research class or agent-control layer. Start at [its catalog](../explorations/CATALOG.md) for selective reuse. The first entry is [EXP-001](../explorations/EXP-001-soul-calisma-modeli/INDEX.md). A recorded hypothesis, repeated idea or model in this library is not thereby a Foundation finding, independently verified result or adopted architecture. Relevant future research can link to an exploration without importing its conclusions as axioms.
+
+[concepts/INDEX.md](../concepts/INDEX.md) is the separately authorised **Kavram Araştırmaları ve Ortak Referans** programme. It distinguishes source-use research, cross-concept synthesis and jointly considered local usage. Existing research remains in place and is cited at the necessary source depth. This programme is not another Foundation ground, architecture authority or agent-control layer. A reference choice does not rewrite a source or certify a mechanism. Do not create duplicate study packages or catalogue rows solely for this programme.

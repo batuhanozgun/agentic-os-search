@@ -28,6 +28,14 @@ Bir candidate study'nin mevcut olması onun Foundation altında bir düğüm, SO
 
 Yeni bir durable araştırma bu iki özel sınıfa açıkça ait değilse, aksi ayrıca kararlaştırılmadıkça `research/studies/**` altında candidate study olarak konumlandırılır.
 
+### Ayrı yetkilendirilmiş kavram programı — yerleştirme ve geri çağırma istisnası
+
+Kullanıcının ayrıca yetkilendirdiği terim kullanımı araştırması → kavramlar arası değerlendirme → ortak iletişim referansı programı repository kökündeki `concepts/**` alanında tutulur. İlgili soruda `README.md → concepts/INDEX.md → concepts/STATE.md` yoluyla programın amacını, yöntemini, güncel iş/yetkisini ve gereken araştırma/sentez/referans derinliğini geri kazan. Hazırlık veya öneri, kabul edilmiş ortak anlam gibi okunmaz.
+
+Bu programın tekil dosyalarını sırf konu/kavram araştırması oldukları için candidate study sayıp `research/studies/**` altına taşıma; ikinci META, study satırı veya kaynak kopyası oluşturma. Bu dar istisna, sıradan teknik/mekanizma araştırmalarını yeniden sınıflandırmaz. Mevcut studies yerinde kalır; kavram programı gerektiğinde CATALOG → META → ayrıntılı bulgu/kaynak yolunu kullanır. Yerel source-use kayıtları ve ortak kullanım kararları birbirinden ayrı korunur.
+
+Bu ek yalnız yerleştirme ve geri çağırmayı düzenler. `concepts/**` proje çalışma malzemesidir; agent-control, Foundation veya mimari otoritesi değildir. Genel sözlük dışı kelime yasağı, her tur bütün referansı yükleme yükümlülüğü veya kaynak anlamını ortak tercihle değiştirme yetkisi getirmez. Aşağıdaki candidate-study paket kuralları bu özel program için duplicate kayıt zorunluluğu üretmez; gerçek candidate studies için aynen geçerlidir.
+
 ## Study Type Ayrımı
 
 Candidate study'nin türünü kullanılan kaynakların dış/iç oluşuna göre değil, **araştırma nesnesine** göre belirle:

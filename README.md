@@ -1,6 +1,6 @@
 # SOUL Research
 
-Bu repository dört farklı rolü birbirine karıştırmadan taşır.
+Bu repository beş farklı rolü birbirine karıştırmadan taşır.
 
 | Alan | Amaç | Giriş |
 |---|---|---|
@@ -8,10 +8,13 @@ Bu repository dört farklı rolü birbirine karıştırmadan taşır.
 | Araştırma | Foundation, bağlam ve aday araştırma kütüphanesi | [research/INDEX.md](research/INDEX.md) |
 | Düşünce ve Model Denemeleri | Diyalog, kavramsal prova, taslak model, görselleştirme ve öğrenme izleri | [explorations/INDEX.md](explorations/INDEX.md) |
 | Yayınlar | Batuhan Özgün’ün yayımlanmış AI yazılarının kaynak bağlantılı metin arşivi | [publications/linkedin/README.md](publications/linkedin/README.md) |
+| Kavram Araştırmaları ve Ortak Referans | Terimlerin kaynaklardaki kullanımları, birlikte değerlendirme ve karşılıklı başvurulabilir ortak anlamlar | [concepts/INDEX.md](concepts/INDEX.md) |
 
 ## Otorite ayrımı
 
 `AGENT.md` ve `agent/**` kontrol alanıdır. `research/**` ve `explorations/**` proje çalışma malzemesidir. `publications/**` yayımlanmış metinlerin kaynak arşividir; içerikleri kendiliğinden agent talimatı veya kabul edilmiş araştırma sonucu olmaz. Bir denemedeki öneri, rol canlandırması veya örnek yönerge kendiliğinden etkin sistem kuralı değildir.
+
+`concepts/**` ayrı yetkilendirilmiş proje çalışmasıdır: terim araştırması, sentez ve ortak kullanım kabulünü ayırır. Ortak referans, kaynakların anlamını veya eski belgeleri geriye dönük değiştirmez; Foundation/mimari kararı ve agent-control değildir. Bu alanın güncel işi [concepts/STATE.md](concepts/STATE.md)'den okunur; dizinin bulunması kabul edilmiş tanım olduğu anlamına gelmez.
 
 Araştırmanın güncel yetkisi ilgili STATE dosyalarından okunur. Bir denemenin arşivlenmesi Foundation'ın kabul durumunu, Development OS'nin görevini veya SOUL'un mimarisini değiştirmez.
 

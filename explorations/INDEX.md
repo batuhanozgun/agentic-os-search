@@ -32,3 +32,9 @@ Bir sonraki deneme, hangi önceki kayıttan neyi devraldığını ve neyi yenide
 Araştırma ihtiyacı doğarsa araştırma ayrı yetkilendirme ve kendi paketinde yürür. Mimari benimseme de ayrı karardır. Denemelerin topluca okunması Development OS hazırlığını besleyebilir; bu okuma tek başına kurulum veya yeni araştırma yetkisi değildir. Gerçek geçişte güncel proje/target state'i ayrıca ele alınır.
 
 Bu dosya kütüphanenin okuma ve kayıt semantiğini açıklar; yeni agent-control protokolü değildir.
+
+## Kavram çalışmasına geçiş
+
+Terimlerin farklı kaynaklardaki anlamlarını ve ortak konuşma kullanımını araştırmak için ayrı yetkilendirilmiş [concepts/INDEX.md](../concepts/INDEX.md) alanına girilir; güncel iş ve kabul durumu [concepts/STATE.md](../concepts/STATE.md)'dedir. Bu program yeni EXP paketi değildir.
+
+EXP-001/EXP-002'nin özgün diyalogları, geçici terimleri ve nitelendirmeleri değişmeden kalır. Yeni referans eski kullanımları otomatik olarak yeniden yorumlamaz; gerektiğinde kaynak/bölüm ilişkisiyle farkı açıklar. Exploration'daki örnek, bugünkü ortak tanım veya uygulama kararı değildir.

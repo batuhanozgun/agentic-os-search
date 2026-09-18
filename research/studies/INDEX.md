@@ -18,6 +18,12 @@ Candidate studies are classified by research object:
 
 A study can use external sources without being an `external-target` study.
 
+## Separate concept-use programme
+
+For term meanings across sources, comparisons between those uses and a jointly considered conversational reference, use [`concepts/INDEX.md`](../../concepts/INDEX.md) → [`concepts/STATE.md`](../../concepts/STATE.md). That owner-authorised programme has its own three-stage method; it is not another candidate study to duplicate here.
+
+Technical/mechanism studies, including existing context/memory/harness research, remain in this library. Concepts work selectively cites their exact findings and sources rather than moving or rewriting them. An ordinary study is not reclassified merely because it discusses a concept. Reference acceptance does not change a study's findings, current work, source meaning or authority.
+
 ## Migration note
 
 On 2026-09-04 the existing candidate packages were moved from direct `research/<package>/` paths into `research/studies/<package>/` while their substantive research blobs were preserved by SHA where no content change was required.
@@ -56,7 +62,6 @@ Do not load every study merely because the library exists.
 | Beads dependency graph / ready frontier / claims / liveness | `beads/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
 | OpenSpec artifact dependency / living-plan control | `openspec/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
 | GitHub Spec Kit spec-driven decomposition / convergence | `spec-kit/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
-| Leantime strategy-to-execution alignment | `leantime/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
 | Gas Town multi-agent orchestration / recovery / integration | `gastown/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
 | ERPNext project links to time/cost/billing/material/accounting evidence | `erpnext/META.md` | `FINDINGS.md` → `SOURCE-LEDGER.md` |
 | The Carbon Layer video collection and video selection | `the-carbon-layer/META.md` | collection STATE → VIDEO-CATALOG → selected video's local STATE/INDEX |
@@ -94,7 +99,7 @@ The `anthropic-ai-native-sdlc-playbook` and `gstack` studies are both broad acro
 
 `gstack` is especially useful as an implemented pressure test for artifact handoffs, qualification/standing, authority vs capability, runtime/environment dependence, verification routing, production transitions and self-development. Its primary corpus is pinned and its closure revalidation only extends through the current-main commit recorded in its `META.md`; later current-state reuse requires another freshness check.
 
-The `agentic-ai-systems-roadmap` study is different: it is deliberately a **discussion/gap-discovery seed**. Its infographic is not accepted evidence or taxonomy. Its strongest current reuse value is to ask whether evaluation/observability/operational-control, model/runtime execution policy or deployment/resilience questions are genuinely missing, merely fragmented across existing packages, or later-phase concerns that should not yet become research programs.
+The `agentic-ai-systems-roadmap` study is different: it is deliberately a **discussion/gap-discovery seed**. Its infographic is not accepted evidence or taxonomy. Its strongest current reuse value is to ask whether evaluation/observability/operational-control, model/runtime execution policy and deployment/resilience questions are genuinely missing, merely fragmented across existing packages, or later-phase concerns that should not yet become research programs.
 
 ## Design / architecture interaction
 
