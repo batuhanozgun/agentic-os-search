@@ -2,9 +2,21 @@
 
 ACTIVE / PARTIAL **external-target candidate study**, not Foundation authority or an adopted stack.
 
-**Continue from [STATE.md](STATE.md)** and its full cold-start path. U01–U07 have bounded investigations; U07 closes through its visual and distribution units with explicit empirical limits. **U08 native synthesis is next.** The first native subsystem synthesis is [S01 — Skill evolution and evaluation](syntheses/S01-skill-evolution-and-evaluation.md); the whole-system explanation, project-facing projection and CORE remain open.
+**Continue from [STATE.md](STATE.md)** and its full cold-start path. U01–U07 have bounded investigations; **U08-A native composition is now available as [S05 — Native whole-system model](syntheses/S05-native-system-model.md)**, with subsystem views S01–S04. **U08-B current project-facing research is next.** CORE and final omission/freshness closure remain open.
 
-Primary: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Lab: `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`. B2 binds Gauntlet to campaign-named `db6c8e0f…`, with the exact `25a2e3e…` delta. Public reports, source controls and local helper cases are not independent live efficacy evidence.
+Primary: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Lab: `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`. B2 binds Gauntlet to campaign-named `db6c8e0f…`, with the exact `25a2e3e…` delta. Public reports, source controls, local helper cases and their syntheses are not independent live efficacy evidence.
+
+## Native synthesis routes
+
+| Need | Entry |
+|---|---|
+| Whole-system explanation, connected work/evolution loops and composition boundaries | [S05](syntheses/S05-native-system-model.md) |
+| Shared guidance, host/runtime/activation and distribution | [S02](syntheses/S02-availability-runtime-and-distribution.md) |
+| Request classification, agreement, plan/context handoff and semantic coordination | [S03](syntheses/S03-intent-planning-and-context-handoff.md) |
+| Implementation, evidence, review/disposition and actual delivery | [S04](syntheses/S04-execution-verification-and-delivery.md) |
+| Procedure development, evaluation and admission | [S01](syntheses/S01-skill-evolution-and-evaluation.md), preserved |
+
+These are overlapping derived views. Follow their mechanism and source links when an exception, empirical limit or exact claim matters. No current Foundation projection or CORE is implied by their existence.
 
 ## Package routes
 
@@ -23,6 +35,7 @@ Primary: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Lab: `prim
 | U06-B2 assessor pins, public records and qualification boundaries | [SOURCE-LEDGER-U06B2.md](SOURCE-LEDGER-U06B2.md) |
 | U07-A visual runtime sources and exact-helper local observations | [SOURCE-LEDGER-U07A.md](SOURCE-LEDGER-U07A.md) |
 | U07-B assembly/version/integration/support sources and local version cases | [SOURCE-LEDGER-U07B.md](SOURCE-LEDGER-U07B.md) |
+| U08-A synthesis recovery, direct re-entry and qualified I01/I02 discussion | [SOURCE-LEDGER-U08A.md](SOURCE-LEDGER-U08A.md) |
 | Request classification, procedural scope, shell bootstrap | [U01-A](notes/U01-entry-routing-and-bootstrap.md) |
 | Host delivery, cache and procedure/work recovery | [U01-B](notes/U01B-host-delivery-and-continuity.md) |
 | Approval/ruling, plan/workspace identity and brief handoff | [U02](notes/U02-approval-plan-workspace-handoff.md) |
@@ -49,7 +62,7 @@ Primary: `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. Lab: `prim
 | Exact helper with fake DOM/transport: event schema, multiselect and recovery | [U07-A runner](evidence/U07A-companion-client-probes.mjs) / [output](evidence/U07A-companion-client-probes-results.json) |
 | Exact version helper: JSON-only check/audit/mutation and inventory scope | [U07-B runner](evidence/U07B-version-probes.py) / [output](evidence/U07B-version-probes-results.json) |
 
-U06-A/B1/B2 performed no new execution. D30/D31/D37 are attributed public reports, not our experiments. U07-A adds E13/E14: nine expected observations and two unmet stronger criteria; no browser, server, model or upstream suite. U07-B adds E15/E16: eight expected observations and two unmet stronger criteria; no production YAML layout, packaging/sync, release or host. Earlier failures remain preserved.
+U06-A/B1/B2 performed no new execution. D30/D31/D37 are attributed public reports, not our experiments. U07-A adds E13/E14: nine expected observations and two unmet stronger criteria; no browser, server, model or upstream suite. U07-B adds E15/E16: eight expected observations and two unmet stronger criteria; no production YAML layout, packaging/sync, release or host. Earlier failures remain preserved. U08-A adds no experiment, rerun or new F-series result; I01/I02 are qualified participant reports, not performance measurements.
 
 ## Claim-directed re-entry
 
@@ -140,14 +153,19 @@ U06-A/B1/B2 performed no new execution. D30/D31/D37 are attributed public report
 | Restart always acquires and activates new guidance | U07-B F77/S88–S90 plus U01-B: package cache, module and session lifetimes differ. |
 | All supported hosts require a custom bootstrap injector | U07-B F77/S84/S93 and S08 appendix: native discovery must be separated from universal guide prose. |
 | A depicted workflow or reviewer template is a mandatory executed process | U07-B F79/S96–S99 and S10: rendering/reference availability versus actual call path. |
+| Superpowers is only prompts, a complete autonomous runtime, or one linear SDLC | S05 §§2–3, then S01–S04 and their sources. |
+| Controller merely schedules already-complete task information | S03 §3; S05 §4; U02 F17 and U03 F21: semantic selection and cross-task coverage remain load-bearing. |
+| Every apparent difference is a contradiction, or all overlaps are resolved | S05 §6 composition register; Q13/Q20/Q24 retain unresolved boundaries. |
+| Less preparation ceremony proves less context or better outcomes | S03 §6; S05 §8; I01/I02 qualification in U08-A register. |
+| Native synthesis is independent validation or finished Foundation projection | S05 §§1/9/10 and STATE: derived source model, U08-B/C still open. |
 
 ## Synthesis and coverage status
 
-Eleven chronological mechanism notes, one provisional native subsystem synthesis and eight local experiment records exist. Fourteen primary SKILL bodies and selected runtime/distribution/support families are read. Remaining native syntheses, whole-system explanation, project-facing projection and CORE are still open; no adopted architecture exists.
+Eleven chronological mechanism notes, four native subsystem syntheses, one native whole-system model and eight original local experiments exist. Fourteen primary SKILL bodies and selected runtime/distribution/support families are read. U08-A provides bounded native composition; current project-facing projection, CORE and final closure remain open. No adopted architecture exists.
 
-U07-B adds S79–S102 and E15/E16. Only the version helper was newly executed, against JSON-only fixtures. Archive/sync and upstream tests remain source-only. Historical files and every test have not been recursively covered. See U07-B's explicit coverage/omission disposition before broader claims.
+U08-A re-entered six already registered primary files and fully recovered the load-bearing research notes. Its new I01/I02 participant reports are qualified and carry no authenticated run or measured effect. No old experiment was rerun, and no new F-series implementation result was created. U07-B's historical/test omission disposition and all prior empirical limits remain effective.
 
-Nine chronological source-ledger volumes preserve identities and observations. Historical next-action lines are checkpoints; current authority is STATE. Earlier unexecuted statuses change only when a later volume records actual execution of the named source.
+Ten chronological source-register volumes preserve identities and observations. Historical next-action lines are checkpoints; current authority is STATE. Earlier unexecuted statuses change only when a later volume records actual execution of the named source.
 
 ## Library navigation
 
