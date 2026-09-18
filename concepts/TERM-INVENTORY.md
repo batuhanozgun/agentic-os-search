@@ -22,6 +22,8 @@ G8: [Core Terms U03](research/U03-CORE-TERMS-BATCH1.md) ve [working local refere
 
 G9: [Core Terms U04](research/U04-CORE-TERMS-BATCH2.md) ve [working local reference v0.2](synthesis/CORE-TERMS-WORKING-v0.2.md); Runtime, Context, Memory, Identity, Capability, Authority, Permission, Orchestration, Handoff ve Subagent'i ekleyen ikinci batch.
 
+G10: [Core Terms U05](research/U05-CORE-TERMS-BATCH3.md) ve [working local reference v0.3](synthesis/CORE-TERMS-WORKING-v0.3.md); State, Work state, Environment, Workspace, Sandbox, Policy, Guardrail, Verification, Observability ve Persistence'i ekleyen üçüncü batch.
+
 ## Başlangıç odağı ve devralınan bağlantılar
 
 **Agent** başlangıç terimiydi; çalışma artık tek-terim odağından ilk bağlantılı batch'e ilerledi: [U01](research/agent/U01-SOURCE-USES.md) → [U02](research/agent/U02-AGENT-MODEL-BOUNDARY.md) → [U03](research/U03-CORE-TERMS-BATCH1.md) → [10-terim working reference](synthesis/CORE-TERMS-WORKING-v0.1.md). Kabul edilmiş ortak referans hâlâ yoktur.
@@ -37,7 +39,7 @@ G9: [Core Terms U04](research/U04-CORE-TERMS-BATCH2.md) ve [working local refere
 | Hazır/custom agent | G6; yöntem örneği ve eski konuşma kökeni. | İki temel Agent türü olduğu veya tanımın parçası olduğu kabul edilmedi. |
 | Model family / ürün / provider | G6 + G7'de provider ayrımının bir kısmı göründü. | Endüstri-geneli ürün/family şeması araştırılmadı. |
 
-Bu tablo çalışma sırası değildir. İlk iki batch toplam 20 terimi aynı working map üzerinde oturttu. Sonraki batch mevcut v0.2'de en fazla çakışma/boşluk temizleyecek kavramlardan seçilir.
+Bu tablo çalışma sırası değildir. İlk üç batch toplam 30 terimi aynı working map üzerinde oturttu. Sonraki batch mevcut v0.3'te en fazla çakışma/boşluk temizleyecek kavramlardan seçilir.
 
 ## Korunan başlangıç grupları
 
