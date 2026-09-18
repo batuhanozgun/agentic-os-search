@@ -1,8 +1,8 @@
 # Agent — Çekirdek Sınırlar ve Yerel Kullanım Adayı v0.1
 
-**Tarih:** 2026-09-18. **Statü:** SYNTHESIS / REFERENCE CANDIDATE; **KABUL EDİLMEDİ.**
+**Tarih:** 2026-09-18. **Statü:** HISTORICAL INTERMEDIATE SYNTHESIS; **KABUL EDİLMEDİ / ACTIVE CANDIDATE DEĞİL.**
 **Dayanak:** [U01](../research/agent/U01-SOURCE-USES.md) + [U02](../research/agent/U02-AGENT-MODEL-BOUNDARY.md) + yalnız konuşma kökeni için [EXP-002 TERMS](../../explorations/EXP-002-soul-baz-yapi-ve-entelektuel-taban/reflections/TERMS.md).
-Bu belge evrensel Agent tanımı, SOUL tasarımı veya framework sözleşmesi değildir.
+Bu belge evrensel Agent tanımı, SOUL tasarımı veya framework sözleşmesi değildir. A/B ayrımı daha sonra [ilk 10-terim batch'inde](CORE-TERMS-WORKING-v0.1.md) diğer kavramlarla birlikte çalışılarak dar/model-yönlendirmeli seçenek yönünde working tanıma dönüştürüldü; tarihsel gerekçe için korunur.
 
 ## 1. Şu anda hangi problemi çözebiliyoruz?
 

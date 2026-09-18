@@ -18,9 +18,11 @@ G6: U01 sonrası yöntem konuşmasındaki kullanıcı örnekleri ve assistant a�
 
 G7: [Agent U02](research/agent/U02-AGENT-MODEL-BOUNDARY.md); Model/LLM, run ve workflow sınırları için hedefli kaynak incelemesi.
 
+G8: [Core Terms U03](research/U03-CORE-TERMS-BATCH1.md) ve [working local reference v0.1](synthesis/CORE-TERMS-WORKING-v0.1.md); ilk 10 bağlı terim için batch çalışması.
+
 ## Başlangıç odağı ve devralınan bağlantılar
 
-**Agent** başlangıç terimidir; [BRIEF](research/agent/BRIEF.md) → [U01](research/agent/U01-SOURCE-USES.md) → [U02](research/agent/U02-AGENT-MODEL-BOUNDARY.md) → [ilk yerel kullanım adayı](synthesis/AGENT-BOUNDARY-CANDIDATE-v0.1.md). Kabul edilmiş ortak tanım hâlâ yoktur.
+**Agent** başlangıç terimiydi; çalışma artık tek-terim odağından ilk bağlantılı batch'e ilerledi: [U01](research/agent/U01-SOURCE-USES.md) → [U02](research/agent/U02-AGENT-MODEL-BOUNDARY.md) → [U03](research/U03-CORE-TERMS-BATCH1.md) → [10-terim working reference](synthesis/CORE-TERMS-WORKING-v0.1.md). Kabul edilmiş ortak referans hâlâ yoktur.
 
 | Bağlantı / soru | Köken ve güncel statü | Bu kayıt neyi kararlaştırmıyor? |
 |---|---|---|
@@ -33,7 +35,7 @@ G7: [Agent U02](research/agent/U02-AGENT-MODEL-BOUNDARY.md); Model/LLM, run ve w
 | Hazır/custom agent | G6; yöntem örneği ve eski konuşma kökeni. | İki temel Agent türü olduğu veya tanımın parçası olduğu kabul edilmedi. |
 | Model family / ürün / provider | G6 + G7'de provider ayrımının bir kısmı göründü. | Endüstri-geneli ürün/family şeması araştırılmadı. |
 
-Bu tablo çalışma sırası değildir. Agent için ilk yerel aday artık [synthesis](synthesis/AGENT-BOUNDARY-CANDIDATE-v0.1.md)'te kullanıcı değerlendirmesine hazırdır. Bir sonraki komşu ancak bu adayın kapsamını maddi biçimde değiştirecekse açılır.
+Bu tablo çalışma sırası değildir. İlk batch Agent etrafındaki dokuz komşuyu birlikte oturttu. Bir sonraki batch, mevcut tanımlarda en fazla çakışma/boşluk temizleyecek kavramlardan seçilir; tek terimin peşinde kapanış aranmaz.
 
 ## Korunan başlangıç grupları
 
