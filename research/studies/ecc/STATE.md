@@ -1,46 +1,46 @@
 # ECC — STATE
 
 **Updated:** 2026-09-18
-**Checkpoint:** U06-C — governance events, persistence and decision boundaries
-**Work status:** U06-C COMPLETE / PUBLISHED. Research commit 0aa0f952ef8d950b4d8fe3170b15746498146427 merged through PR #13 as 4d34f141a41f5418f65f17ee81549e91d5b388ed; main Note11/source/PLAN/STATE readbacks completed. [PUBLICATION-U06-C](PUBLICATION-U06-C.md) records scope, concurrent-work preservation and maintenance checks. No owner upload or merge is pending.
-**Study:** ACTIVE / PARTIAL. **METHOD / PLAN:** 0.1 / 0.12.
+**Checkpoint:** U07-A — material-family coverage and breadth return
+**Work status:** U07-A bounded source/map/selection work COMPLETE; entry/discovery reconciliation and publication checks IN PROGRESS. Finish META/INDEX/QUESTIONS/catalogue and actual readbacks/receipt before starting U08-A. Earlier U06-C publication is closed under [its receipt](PUBLICATION-U06-C.md).
+**Study:** ACTIVE / PARTIAL. **METHOD / PLAN:** 0.1 / 0.13.
 **Unchanged target:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 
 ## Purpose and current result
 
-Source-grounded ECC research with repository-centred continuity and method evaluation. Comprehensive joint evaluation with Batu remains after completed research; intermediate validation and native synthesis continue. Material purpose/scope/authority decisions return earlier. Information/Foundation relevance is a reuse cue, not adopted taxonomy or design.
+Source-grounded ECC research with repository-centred continuity and method evaluation. Comprehensive joint evaluation with Batu remains after completed research; intermediate checks and scoped native synthesis continue. Material purpose/scope/authority decisions return earlier. Information/Foundation relevance is a reuse cue, not adopted taxonomy or design.
 
-Current: [Note11](notes/11-GOVERNANCE-EVENTS-PERSISTENCE-AND-DECISION.md), [U06-C sources](evidence/U06-C-SOURCES.md), [MR11](ROUND-U06-C.md). U00–U06-B and E01–E05 remain preserved bounded deliveries, not whole-study completion.
+Current: [U07-A family map](inventory/U07-A-FAMILY-MAP.md), [sources](evidence/U07-A-SOURCES.md), [MR12](ROUND-U07-A.md). Prior Notes01–11, units U00–U06-C and original experiments remain preserved, not whole-study completion.
 
-- The optional capture hook emits classified JSON events to stderr despite a header claiming database writes. Its complete path does not insert into the state store or request/await an actor's approval.
-- A separate schema-validated governance insert/update, persistent store and status consumer genuinely exist. No automatic capture-stream-to-store connection was established in the traced callers; no repository-wide absence claim follows.
-- Documented host input fields differ from the hook's string tool_output and environment-based session/phase sources. Missing translation has conditional output/correlation consequences, not an observed universal host failure.
-- Pending means resolved_at is null. The count includes all pending database rows independently of the limited detail list. Same-ID upsert and a resolution marker do not authenticate an approval or make the log immutable.
-- Status can report attention and optionally return exit 2, but does not itself implement an approval/resume workflow. Zero pending rows does not establish capture coverage or a safe world; human/Markdown summaries omit payload detail retained in JSON.
-- Event minimization, schema/FK constraints and private/atomic persistence are meaningful controls with their own limits. Embedded AgentShield guidance and separate scanner code remain distinct.
+- Root-directory dispositions and selected actual entry bodies now expose responsibility gaps outside salient security hooks. P1 remains partial at recursive/semantic/mirror coverage; this is not the final omission challenge.
+- Plan Canvas has an actual artifact open/await client; queue, revision binding and decision consumers remain unexamined. It is not the governance logger's automatic ingestion bridge.
+- ECC2's documented lifecycle and paired-seed evaluator were already visible in U01-A. They are revived research priorities, not newly added source features or verified Rust behavior.
+- Node eval-harness CLI/index/gate code explicitly disables candidate execution for missing verified isolation. Static/protocol/offline receipt surfaces are separate from a functioning contained evaluator.
+- The native review pilot preserves failed dimensions, failed verifiers and uncertain refutations as blocking results in source. Host conformance, reviewer truth and outer human approval remain distinct; the README's simpler uncertainty wording does not override the code.
+- Generated OpenCode build, initial gitagent export, Python llm-abstraction and optional external interfaces are distinct distribution/dependency paths. No all-host parity or new external-product study is inferred.
 
-**Evidence:** S141–S151 and retained registration/wrapper sources; SOURCE OBSERVATION / TEST SOURCE INSPECTION / qualified INFERENCE. No new experiment or E06; no target code, database, scanner, model, actual tool operation, installation or user state was executed. E01–E05 were not rerun or pooled.
+**Evidence:** S152–S172, explicit S10/S12/S23 re-entry and recovered prior ledgers. Source/body/metadata/target-claim/inference distinctions retained. No new target execution, upstream test, model, server, database, scanner, installation or E06. E01–E05 were not rerun or pooled.
 
 ## Next authorized work
 
-**U07-A / Q01a**, NOT STARTED: return to material-family discovery and coverage accounting. Recover the pinned topology, original inventory/frontier and per-unit ledgers. Explicitly account for ecc2, native workflows/controllers, procedural assets, UI/integrations and scanner/release/evaluation surfaces rather than continuing indefinitely through adjacent hooks.
+After U07-A publication closure, **U08-A / Q04f**, NOT STARTED: Plan Canvas artifact → human feedback → durable session/queue → consumer and continuation. First full sources: `scripts/lib/plan-canvas/sessions.js`, `scripts/lib/plan-canvas/server.js`, actual skill/caller/registered hook paths. S163 client is already full-read; helper presence is not its lifecycle proof.
 
-Return with a source-linked family/coverage map, consequential omissions and a justified next mechanism sequence. Form native synthesis candidates only where existing evidence supports them; do not declare CORE or whole-study completion. Start inventory/STRUCTURE.md, inventory/TREE-FRONTIER.tsv, current PLAN/INDEX and pinned repository directory/tree metadata; read actual family entry files as needed. S150 SECURITY.md supplies separate scanner/distribution pointers, not verified AgentShield behavior.
+Return with a coherent normal feedback path and a material interruption/revision/ended-session contrast. Distinguish arrival, delivery/consumption, valid approval and action; no real user plan/browser/account or provider/model. Do not exhaust UI details. Following priorities: Rust/operator control, separate evaluation frameworks, procedural/host/provider composition, release/scanner/observability and the final coverage challenge. PLAN owns revisable details.
 
-Q07c1 bounded; Q07c2 retains a connected collector, native event fidelity, authenticated approval/resolution, ingestion coverage and actual effect. Q07a2/Q07b2, older Q03b/c, Q04b/c/e, Q05b/c, Q06b/c2 and P1 remain open. U06-C does not complete the security family.
+Q01a's first-tier map is bounded; full descendant/mirror/representativeness remains open. Q04f/Q04g and Q06d identify revived/new frontiers. Q03b/c, Q04b/c/e, Q05b/c, Q06b/c2 and Q07a2/b2/c2 remain open. A new family does not erase old findings or prove absent integrations.
 
 ## Authority and recovery
 
-Batu owns purpose/material phase choices. Assistant owns authorized research, proportionate isolated fixtures, sequencing, repository organization and verified publication. Writes: research/studies/ecc/** plus only ECC discovery row/route in shared CATALOG/INDEX. Preserve other studies, concepts, Foundation, soul-context, explorations, upstream and agent-control. No real installation, user-home/config/cache changes, credentials/provider/model calls, upstream report/patch or SOUL/Development OS implementation.
+Batu owns purpose/material phase choices. Assistant owns authorized research, proportionate isolated fixtures, sequencing, repository organization and verifiable publication. Writes: research/studies/ecc/** plus only ECC discovery row/route in shared CATALOG/INDEX. Preserve other studies, concepts, Foundation, soul-context, explorations, upstream and agent-control. No actual installation, user-home/config/cache change, credentials/provider/model calls, upstream report/patch or SOUL/Development OS implementation.
 
-After current control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then Note11, U06-C sources, ROUND-U06-C and [PUBLICATION-U06-C](PUBLICATION-U06-C.md), including its maintenance addendum. Reopen exact sources when the current claim requires them. Do not rerun experiments to recover progress. The old master histories through U03-B and later unit records remain recoverable through INDEX.
+After canonical control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then the U07-A family map, source ledger, ROUND-U07-A and the current publication receipt once linked. Reopen original mechanism notes before making stronger synthesis claims; ledgers establish reading coverage, not new behavior. Do not rerun experiments to recover progress. Historical master records, inventories, Notes01–11 and later unit receipts remain routed through INDEX.
 
-Fresh controls and package entries were recovered. Concurrent main work added a separate concepts programme and another candidate; it is not ECC work to overwrite or duplicate. Publication started from f922b49d92df26578e74a42e37f9b97133854b73; PR #13 preserved later shared-file additions, and the post-merge comparison against 4b757a72fc4b5564eb11a68fdd0dace831d0b2ec confirmed the nine-path ECC scope. Auxiliary raw download failed at DNS; connected reads/writes are available. This is same-assistant recovery, not an independent cold-start test.
+The previous U07-A attempt stopped at a read-only tool surface without new target findings. This turn's actual resumption record reached main as aba0b7da37e3548ecb5e80ee989ecd53342b621e. Current connected writes succeeded; auxiliary raw-network acquisition still failed at DNS. No complete local checkout exists. Concurrent work outside ECC was preserved. This is same-assistant recovery, not an independent fresh-session test. Actual final publication checks remain to be recorded.
 
 ## Conversation/repository reconciliation — preserved 2026-09-18
 
 Branch creation, cleanup and merge timing are assistant-managed operational details. The required outcome is correspondence between discussion, durable evidence and current/next work, not a branch-count target or a mandatory merge every round. An outstanding branch is acceptable only while its location, status, dependencies and recovery route remain explicit. Material unrecorded work takes priority over further research.
 
-Two distinct historical records share the label E05: the existing main-path Node driver has 15 cases; the conversation ZIP's Python driver has 16 different/overlapping cases. The original conversation evidence is preserved in [the reconciliation record](evidence/u06-a-conversation-record/README.md). Read it alongside [main-path E05](evidence/u06-a-config-probe/README.md); do not overwrite either, pool case IDs or call them independent replication. Current Note09 remains its bounded explanation.
+Two distinct historical records share the label E05: the existing main-path Node driver has 15 cases; the conversation ZIP's Python driver has 16 different/overlapping cases. The original conversation evidence is preserved in [the reconciliation record](evidence/u06-a-conversation-record/README.md). Read it alongside [main-path E05](evidence/u06-a-config-probe/README.md); do not overwrite either, pool case IDs or call them independent replication. Note09 retains its bounded explanation.
 
-The old ZIP's pending-publication STATE/application instructions are historical and must not be replayed over current main. U06-A publication and that targeted maintenance are closed; U06-B is also published under [its receipt](PUBLICATION-U06-B.md). Neither is work to repeat. U06-C introduces no substituted E05 identity or new E06. No owner upload or merge task is created.
+The old ZIP's pending-publication STATE/application instructions are historical and must not be replayed over current main. U06-A reconciliation, U06-B and U06-C publications are closed, not work to repeat. U07-A creates no substituted E05 identity or new E06. No user upload/merge task is created.
