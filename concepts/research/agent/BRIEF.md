@@ -1,6 +1,6 @@
 # Agent — Çalışma Kapsamı ve Dönüş Sorusu
 
-**Statü:** [U01](U01-SOURCE-USES.md) ilk kaynak kullanımları ve [U02](U02-AGENT-MODEL-BOUNDARY.md) Model/LLM–run–workflow sınırları hazırlandı. İlk yerel kullanım adayı [Agent çekirdek sınırlar sentezinde](../../synthesis/AGENT-BOUNDARY-CANDIDATE-v0.1.md) bulunuyor; **kabul edilmiş değildir**. Güncel odak, yetki ve yayın durumu [program STATE](../../STATE.md)'dedir.
+**Statü:** Agent U01/U02 araştırmaları tamamlandı ve Agent artık tek başına aktif karar yüzeyi değildir. Agent'ın working tanımı [ilk 10-terim batch'inde](../../synthesis/CORE-TERMS-WORKING-v0.1.md) Model, LLM, Actor, Role, Run, Session, Workflow, Tool ve Harness ile birlikte yer alır; **kabul edilmiş değildir**. Güncel odak [program STATE](../../STATE.md)'dedir.
 
 ## Ana soru
 
@@ -18,16 +18,13 @@ Amaç “Agent'ın evrensel doğru tanımı”nı seçmek veya SOUL'da hangi age
 - tool kullanabilmek tek başına genel Agent sınırı değildir;
 - workflow/Agent çizgisi kaynaklara göre değişebilir ve source-local etiket korunmalıdır.
 
-Böylece artık bütün komşuları bitirmeden ilk yerel kullanım adayı tartışılabilir. Aktif değerlendirme [AGENT-BOUNDARY-CANDIDATE-v0.1](../../synthesis/AGENT-BOUNDARY-CANDIDATE-v0.1.md)'dedir.
+Bu iki araştırma ilk batch'in zeminidir. Önceki [AGENT-BOUNDARY-CANDIDATE-v0.1](../../synthesis/AGENT-BOUNDARY-CANDIDATE-v0.1.md) ara sentez olarak korunur; aktif working tanım [CORE-TERMS-WORKING-v0.1](../../synthesis/CORE-TERMS-WORKING-v0.1.md)'dedir.
 
-## Değerlendirilmesi gereken somut nokta
+## Batch içinde seçilen çalışma tanımı
 
-Aday iki kapsamı ayırır:
+U03 batch'i, önceki A/B ayrımından daha dar seçeneği working tanım olarak aldı: Agent, bir Model/LLM etrafında yapılandırılmış ve yürütmede en az bazı seçimleri modelin yaptığı AI yürütme birimidir.
 
-1. **Geniş:** yapılandırılmış AI yürütme birimi.
-2. **Daha dar:** bir model/LLM etrafında yapılandırılmış ve yürütmede en az bazı seçimleri modele bırakan AI yürütme birimi.
-
-Assistant şu anda ikinci adayı daha işlevsel buluyor; bu bir repository kabulü değildir. Kullanıcı kısmi olarak yalnız “model Agent değildir” veya “Agent/run ayrıdır” gibi sınırları kabul edip pozitif tanımı açık da bırakabilir.
+Bu seçim accepted reference değil; Actor/Role, Run/Session, Workflow/Tool ve Harness ile çakışma kontrolü yapılabilen çalışma tanımıdır. Yeni çakışma çıkarsa fine-tune edilir.
 
 ## Henüz zorunlu olmayan komşular
 
@@ -49,6 +46,6 @@ U01 ve U02'nin kaynakları kendi dosyalarında tutulur. Güncel model/ürün dav
 
 ## Dönüş ve kabul sınırı
 
-Açık soru kalması tek başına daha fazla araştırma emri değildir. Şu anda anlamlı dönüş noktası ilk yerel Agent adayının kullanıcı tarafından değerlendirilmesidir. Belirli açıklama/kapsama açık kullanıcı değerlendirmesi olmadan reference kaydı oluşturulmaz.
+Açık soru kalması tek başına daha fazla araştırma emri değildir. Agent için sıradaki iş artık tek-terim onayı değil; batch düzeyinde gerçek kullanım ve komşu tanımlarla çakışma görürsek ilgili sınırı düzeltmektir.
 
 Kaynak araştırması, sentez adayı, kabul edilmiş yerel kullanım ve SOUL/Development OS tasarımı ayrı statülerdir. [METHOD](../../METHOD.md) işleyişi, STATE mevcut turun sınırını taşır.
