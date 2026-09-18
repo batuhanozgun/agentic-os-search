@@ -1,46 +1,39 @@
 # ECC — STATE
 
-**Updated:** 2026-09-18
-**Checkpoint:** U07-A — material-family coverage and breadth return
-**Work status:** U07-A COMPLETE / PUBLISHED as a bounded map/selection checkpoint. Source, map, round and entry/discovery updates reached main through 095cf7dc50bf7e6b50c1ebfc4a78373c90e8daca; the exact nine-path scope and one-row catalogue change were checked. Map/source/PLAN readbacks completed. [PUBLICATION-U07-A](PUBLICATION-U07-A.md) records actual sequential commits, checks and limits. No user upload or merge is pending. Earlier U06-C publication remains closed under [its receipt](PUBLICATION-U06-C.md).
-**Study:** ACTIVE / PARTIAL. **METHOD / PLAN:** 0.1 / 0.13.
+**Updated:** 2026-09-18 — U08-A interrupted-publication recovery.
+**Current work:** U08-A / Q04f IN PROGRESS. Source reading began; final research note/source ledger and verified experiment publication are NOT complete. E06 is reported in the interrupted turn, but its outcomes are NOT VERIFIED and must not support findings. This replaces the stale U08-A NOT STARTED label.
+**Last completed research checkpoint:** U07-A, published through `0743feae8728faebb48982ec22c447b06f2a0eaa`; [receipt](PUBLICATION-U07-A.md), [family map](inventory/U07-A-FAMILY-MAP.md), [sources](evidence/U07-A-SOURCES.md). All earlier notes and original evidence remain preserved.
+**Study:** ACTIVE / PARTIAL. **METHOD / research PLAN:** 0.1 / 0.13; recovery is a maintenance clarification, not a new research sequence or lowered closure criterion.
 **Unchanged target:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 
-## Purpose and current result
+## Current recovery and evidence standing
 
-Source-grounded ECC research with repository-centred continuity and method evaluation. Comprehensive joint evaluation with Batu remains after completed research; intermediate checks and scoped native synthesis continue. Material purpose/scope/authority decisions return earlier. Information/Foundation relevance is a reuse cue, not adopted taxonomy or design.
+Read [RECOVERY-U08-A-20260918](RECOVERY-U08-A-20260918.md) and [quarantine/checks](evidence/u08-a-recovery/README.md) before continuing. The initial [ROUND-U08-A](ROUND-U08-A.md) is historical progress, not a completed unit.
 
-Current: [U07-A family map](inventory/U07-A-FAMILY-MAP.md), [sources](evidence/U07-A-SOURCES.md), [MR12](ROUND-U07-A.md). Prior Notes01–11, units U00–U06-C and original experiments remain preserved, not whole-study completion.
+The preceding turn published only the initial round within ECC and created two unattached binary objects. Its current STATE was not advanced. During recovery, the exact objects were attached without rewriting bytes. One Git-hash-matched object fails gzip decompression; the other is preserved but not fully integrity-validated. The old local E06 originals are not available in this turn's runtime. A parseable plan in a damaged prefix does not recover full outcomes or certify the run. There is no new E06 execution or new passing evidence.
 
-- Root-directory dispositions and selected actual entry bodies now expose responsibility gaps outside salient security hooks. P1 remains partial at recursive/semantic/mirror coverage; this is not the final omission challenge.
-- Plan Canvas has an actual artifact open/await client; queue, revision binding and decision consumers remain unexamined. It is not the governance logger's automatic ingestion bridge.
-- ECC2's documented lifecycle and paired-seed evaluator were already visible in U01-A. They are revived research priorities, not newly added source features or verified Rust behavior.
-- Node eval-harness CLI/index/gate code explicitly disables candidate execution for missing verified isolation. Static/protocol/offline receipt surfaces are separate from a functioning contained evaluator.
-- The native review pilot preserves failed dimensions, failed verifiers and uncertain refutations as blocking results in source. Host conformance, reviewer truth and outer human approval remain distinct; the README's simpler uncertainty wording does not override the code.
-- Generated OpenCode build, initial gitagent export, Python llm-abstraction and optional external interfaces are distinct distribution/dependency paths. No all-host parity or new external-product study is inferred.
+Do not claim the whole repository is broken, a service outage was diagnosed, or all research was lost. The observed failure is confined to U08-A evidence/publication handling; concurrent concepts work is outside this repair. Do not replay old ZIP instructions or mistake a created blob for a published file.
 
-**Evidence:** S152–S172, explicit S10/S12/S23 re-entry and recovered prior ledgers. Source/body/metadata/target-claim/inference distinctions retained. No new target execution, upstream test, model, server, database, scanner, installation or E06. E01–E05 were not rerun or pooled.
+## Purpose and authority
 
-## Next authorized work
+Source-grounded ECC research with repository-centred continuity and method evaluation. Comprehensive joint evaluation with Batu remains after completed research; intermediate checks and scoped native synthesis continue. Information/Foundation relevance is a reuse cue, not adopted taxonomy or design. The U07-A map is first-tier coverage, not complete descendant/mirror/semantic coverage or CORE.
 
-**U08-A / Q04f**, NOT STARTED: Plan Canvas artifact → human feedback → durable session/queue → consumer and continuation. First full sources: `scripts/lib/plan-canvas/sessions.js`, `scripts/lib/plan-canvas/server.js`, actual skill/caller/registered hook paths. S163 client is already full-read; helper presence is not its lifecycle proof.
+Batu owns purpose/material phase choices. The assistant owns authorized research, proportionate isolated fixtures, sequencing, repository organization and verifiable publication. Writes stay under research/studies/ecc/** plus only semantically necessary ECC discovery changes in shared CATALOG/INDEX. Preserve other studies, concepts, Foundation, soul-context, explorations, upstream and agent-control. No user-home/config/cache mutation, installation, credentials/provider/model calls, upstream report/patch, or SOUL/Development OS implementation is authorized.
 
-Return with a coherent normal feedback path and a material interruption/revision/ended-session contrast. Distinguish arrival, delivery/consumption, valid approval and action; no real user plan/browser/account or provider/model. Do not exhaust UI details. Following priorities: Rust/operator control, separate evaluation frameworks, procedural/host/provider composition, release/scanner/observability and the final coverage challenge. PLAN owns revisable details.
+## Next authorized action — complete this unit, not a new family
 
-Q01a's first-tier map is bounded; full descendant/mirror/representativeness remains open. Q04f/Q04g and Q06d identify revived/new frontiers. Q03b/c, Q04b/c/e, Q05b/c, Q06b/c2 and Q07a2/b2/c2 remain open. A new family does not erase old findings or prove absent integrations.
+Complete U08-A's source-grounded artifact → feedback → persistent queue → consumer/continuation explanation. The recovery record lists exact already-read source paths and identities. Reopen load-bearing bodies as needed, publish the ordinary research note and source ledger, and distinguish source predicates from unverified E06 outcomes. A source-only closure is allowed under METHOD if adequate; do not rerun an experiment just to recover progress. If a fresh discriminating experiment becomes necessary, give it a separate recovery-run identity and retain historical E06 as unverified rather than substituting results.
 
-## Authority and recovery
+Return with the normal feedback path and a material revision/interruption/ended-session contrast; preserve arrival/delivery/acknowledgment/valid approval/action distinctions. No real user plan, browser/account, provider or model. Do not exhaust UI details or move to Rust/operator work before U08-A's coherent publication closes.
 
-Batu owns purpose/material phase choices. Assistant owns authorized research, proportionate isolated fixtures, sequencing, repository organization and verifiable publication. Writes: research/studies/ecc/** plus only ECC discovery row/route in shared CATALOG/INDEX. Preserve other studies, concepts, Foundation, soul-context, explorations, upstream and agent-control. No actual installation, user-home/config/cache change, credentials/provider/model calls, upstream report/patch or SOUL/Development OS implementation.
+The broader PLAN remains: Rust/operator control; separate Rust/Node evaluation paths; representative procedural/host/provider composition; release/scanner/observability; scoped synthesis and final omission challenge. Q01a2, Q03b/c, Q04b/c/e/g/h, Q05b/c, Q06b/c2/d and Q07a2/b2/c2/d remain open. U08-A source progress does not close them.
 
-After canonical control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then the U07-A family map, source ledger, ROUND-U07-A and [PUBLICATION-U07-A](PUBLICATION-U07-A.md), including its evidence-language and maintenance limits. Reopen original mechanism notes before making stronger synthesis claims; ledgers establish reading coverage, not new behavior. Do not rerun experiments to recover progress. Historical master records, inventories, Notes01–11 and later unit receipts remain routed through INDEX.
+## Recovery path for the next session
 
-The previous U07-A attempt stopped at a read-only tool surface without new target findings. This turn's actual resumption record reached main as aba0b7da37e3548ecb5e80ee989ecd53342b621e. Current connected writes succeeded; auxiliary raw-network acquisition still failed at DNS. No complete local checkout exists. Concurrent work outside ECC was preserved. This is same-assistant recovery, not an independent fresh-session test. The publication receipt distinguishes completed readbacks from unchecked surfaces.
+After canonical control bootstrap, fully read STATE → INDEX → META/WHY/METHOD/PLAN/QUESTIONS, then this recovery record, its checks, ROUND-U08-A and the U07-A family map/source ledger/receipt. Historical Notes01–11, master ledgers, all rounds and receipts remain routed by INDEX. A prior tool transcript can inform retrieval but does not replace canonical current work. The recovery record is not a completed Note12 or an experiment receipt.
 
-## Conversation/repository reconciliation — preserved 2026-09-18
+Publication identities and actual readbacks belong in the recovery publication receipt when recorded. No user upload or merge chore is delegated. Branch count and immediate merge timing are not the success criterion; current work, evidence status and recovery route must be unambiguous.
 
-Branch creation, cleanup and merge timing are assistant-managed operational details. The required outcome is correspondence between discussion, durable evidence and current/next work, not a branch-count target or a mandatory merge every round. An outstanding branch is acceptable only while its location, status, dependencies and recovery route remain explicit. Material unrecorded work takes priority over further research.
+## Historical E05 reconciliation — unchanged
 
-Two distinct historical records share the label E05: the existing main-path Node driver has 15 cases; the conversation ZIP's Python driver has 16 different/overlapping cases. The original conversation evidence is preserved in [the reconciliation record](evidence/u06-a-conversation-record/README.md). Read it alongside [main-path E05](evidence/u06-a-config-probe/README.md); do not overwrite either, pool case IDs or call them independent replication. Note09 retains its bounded explanation.
-
-The old ZIP's pending-publication STATE/application instructions are historical and must not be replayed over current main. U06-A reconciliation, U06-B and U06-C publications are closed, not work to repeat. U07-A creates no substituted E05 identity or new E06. No user upload/merge task is created.
+Two distinct historical records share E05: the main-path Node driver has 15 cases; the conversation ZIP's Python driver has 16 different/overlapping cases. Preserve [the reconciliation](evidence/u06-a-conversation-record/README.md) alongside [main-path E05](evidence/u06-a-config-probe/README.md). Do not pool, overwrite or call them independent replication. The old ZIP's pending-publication instructions are historical. U06-A reconciliation and U06-B/C/U07-A publications are closed, not work to repeat.
