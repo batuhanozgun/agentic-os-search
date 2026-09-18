@@ -1,11 +1,13 @@
-# Seviye 1 — Terim Araştırmaları
+# Seviye 1 — Kaynak ve Kavram İncelemesi
 
-Amaç, ilgili kaynakların neye hangi adı verdiğini, farklı kullanımları ve sınırlarını araştırmaktır. Doğru görünen tek tanımı seçerek başlamaz. Bu dizin teknik studies paketlerini taşımaz; mevcut araştırmaya exact bağlantıyla başvurur.
+Amaç, ilgili kaynakların neye hangi adı verdiğini, farklı kullanımları, işlevleri ve sınırları incelemektir. Bir terimden başlanabilir; anlamını etkileyen komşular gerektiği kadar aynı çalışma içinde açılabilir. Bu dizin bitirilecek tekil terim kuyruğu veya teknik studies kopyası değildir.
 
-| Konu | Giriş | Kayıt türü |
+| Çalışma | Giriş | Kayıt türü |
 |---|---|---|
-| Agent | [agent/BRIEF.md](agent/BRIEF.md) → [U01 kaynak kullanımları](agent/U01-SOURCE-USES.md) | Kapsam brief'i ve ilk sınırlı kaynak incelemesi; ortak tanım veya kabul edilmiş referans değil. |
+| Agent başlangıç incelemesi | [BRIEF](agent/BRIEF.md) → [U01 kaynak kullanımları](agent/U01-SOURCE-USES.md) | U01 korunmuş ilk kaynak incelemesi; bağlantılar ve sonraki soru güncel yöntemle değerlendirilir. Ortak tanım değildir. |
 
-Güncel etkinlik ve yetki [program STATE](../STATE.md)'den alınır. Diğer terimler [envanterde](../TERM-INVENTORY.md) durur; henüz boş araştırma paketleri açılmamıştır.
+Bir komşunun adı geçmesi araştırmasının tamamlandığını veya ayrı paket gerektirdiğini göstermez. Kaynak gözlemi, araştırmada açılan soru, eski diyalog ve yeni kullanıcı örneği ayrı kökenlerle tutulur. Mevcut studies'den alınan dayanaklar kendi yerine bağlanır; gereksiz tekrar araştırma yapılmaz.
 
-[Yöntem](../METHOD.md), [amaç](../PURPOSE.md) ve [plan](../PLAN.md) bu çalışmaların sınırlarını taşır. Bir araştırma dosyasının varlığı seviye 2 sentezi veya seviye 3 ortak kullanım kabulü değildir. [Ana giriş](../INDEX.md).
+Güncel etkinlik, odak ve yetki [STATE](../STATE.md)'tedir. Başlangıç terimleri ve keşif bağlantıları [envanterde](../TERM-INVENTORY.md) tutulur; çalışma sırası değildir. Gerekli ayrım için komşuya girildiyse asıl soruya dönüş noktası kaybolmaz.
+
+Yeterli kaynak zemini oluştuğunda [birlikte değerlendirme ve adaylara](../synthesis/INDEX.md) geçilebilir; diğer bütün terimler beklenmez. Aday ya da kaynak gözlemi kendiliğinden [kabul edilmiş referans](../reference/INDEX.md) olmaz. [Yöntem](../METHOD.md), [amaç](../PURPOSE.md), [plan](../PLAN.md), [ana giriş](../INDEX.md).
