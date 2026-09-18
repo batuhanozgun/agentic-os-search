@@ -1,42 +1,29 @@
-# Kavram Araştırmaları ve Ortak Referans
+# Kavram Çalışması
 
-`concepts/`, aynı sözcükle farklı şeyler konuştuğumuzda bunu fark etmek ve kaynaklarla bağlantılı yerel kullanımlar geliştirmek içindir: **“Biz bu ifadeyi şu kapsamda kullanıyoruz.”** Evrensel sözlük, nihai ontoloji, SOUL mimarisi veya agent-control katmanı değildir.
+Amaç, aynı sözcükle farklı şeyler konuşmamızı önleyen, dış kaynaklarla bağlantılı bir ortak anlam zemini kurmaktır: **“Biz bu ifadeyi şu kapsamda kullanıyoruz.”** Evrensel sözlük veya SOUL tasarımı oluşturulmuyor.
 
-Bir terimden veya somut anlam sorusundan başlanır; araştırmada çıkan terimler, işlevler ve ilişki soruları gerektiği kadar birlikte incelenir. Yeterli zeminde ortak kullanım adayı değerlendirilir. Bütün terimleri önce araştırıp en sonunda referans oluşturma, tek bir terimi komşularından bağımsız kapatma veya her yeni kaynakla yön değiştirme zorunluluğu yoktur.
+## Nereden devam edilir?
 
-## Yeni oturumda giriş
+Güncel `main` üzerindeki [AGENT.md](../AGENT.md) ve gereken protokoller → bu giriş → [STATE.md](STATE.md) → [METHOD.md](METHOD.md) → gerektiği kadar [WORKING.md](WORKING.md) ve [SOURCES.md](SOURCES.md).
 
-Güncel [AGENT.md](../AGENT.md) ve gereken kontrol protokollerinden sonra:
+| Dosya | Tek sorumluluğu |
+|---|---|
+| [STATE.md](STATE.md) | Şu anki iş, yetki, durma ve devam noktası. |
+| [METHOD.md](METHOD.md) | Bağlı kavramları somut kullanım üzerinden inceleme ve düzeltme yöntemi. |
+| [WORKING.md](WORKING.md) | Tek çalışma taslağı: devralınan anlamlar, ilişki haritası ve açık sorunlar. |
+| [SOURCES.md](SOURCES.md) | Kaynak kayıtlarına dönüş; kanıtın kapsamı ve eksikleri. |
+| [HISTORY.md](HISTORY.md) | Önceki dosyaların sabit Git geçmişi, sadeleştirme ve branch durumu. |
 
-1. [STATE.md](STATE.md): mevcut odak, iş/yetki, yayın ve durma sınırı.
-2. [PURPOSE.md](PURPOSE.md): amaç ve U01 sonrası kullanıcı düzeltmesi.
-3. [METHOD.md](METHOD.md): bağlantılı inceleme, yeterlilik, kaynak sadakati ve karşılıklı kullanım kabulü.
-4. [PLAN.md](PLAN.md): esnek çalışma hareketleri; tarihsel P0 hazırlığı güncel iş değildir.
-5. [TERM-INVENTORY.md](TERM-INVENTORY.md): ilgili başlangıç/keşif kaydı; zorunlu araştırma sırası değildir.
-6. STATE'in gösterdiği çalışma: Agent için [BRIEF](research/agent/BRIEF.md) ve [U01](research/agent/U01-SOURCE-USES.md); varsa ilgili sentez/aday/referans kaydı.
+Bu dosyayla birlikte toplam altı dosya var. Ayrı araştırma/sentez/referans klasörleri ve her tur açılan sürüm dosyaları yok. **Kaynak gözlemi, assistant'ın çalışma tercihi ve kullanıcının açık değerlendirmesi yine ayrı statülerdir; bu ayrım ayrı klasör gerektirmez.**
 
-Current entry/method dosyalarını tam, kaynak ve eski araştırmayı sorunun gerektirdiği derinlikte oku. Sonra mevcut soruya dön: ne zaten araştırılmış, hangi ayrım açık, komşuya neden girilecek, hangi aday veya kapsam gerçekten kabul edilmiş? Aynı araştırmayı veya P0 kurulumunu yeniden başlatma.
+## Çalışmanın yönü
 
-Bu INDEX ikinci bir STATE değildir. Bir sonraki işin aday gösterilmesi tek başına yürütme yetkisi, yöntemin kabulü de terim tanımının kabulü değildir.
+Bir terime takılıp kalmadan bağlı kavramlarla ilerlenir; fakat yeni kelime bulunması yeni paket açma gerekçesi değildir. Önce mevcut tanımların aynı somut cümlede ne söylediğine bakılır. Gerçek bir boşluk veya çelişki çıkarsa gereken kaynak ve komşu kavram açılır, sonra o cümleye dönülür. Terim sayısı ve dosya sayısı başarı ölçütü değildir.
 
-## Üç kayıt düzeyi, bağlantılı çalışma döngüsü
+Çalışma tanımlarını seçme, gerekçelendirme ve gerektiğinde birlikte düzeltme yükü assistant'tadır. Kullanıcıdan her kelime için teknik tercih veya tek tek onay istenmez. Bununla birlikte, taslakların tamamı kullanıcı tarafından benimsenmiş gibi gösterilmez.
 
-| Düzey | Giriş | Görevi |
-|---|---|---|
-| 1 — Kaynak ve kavram incelemesi | [research/INDEX.md](research/INDEX.md) | Kaynak kullanımları, örnekler, karşılaşılan komşular ve açık sınırlar. |
-| 2 — Birlikte değerlendirme ve adaylar | [synthesis/INDEX.md](synthesis/INDEX.md) | İlgili anlam/işlev/ilişki ayrımlarını gerekçelendirmek; yerel kullanım adaylarını tartışmak. |
-| 3 — Ortak referans | [reference/INDEX.md](reference/INDEX.md) | Açık kapsamı ve karşılıklı değerlendirmesi kayıtlı yerel kullanımlara başvurmak. |
+## Sınırlar
 
-Düzeyler epistemik rollerdir; tek yönlü büyük fazlar, üç özetleme basamağı veya kavramların parça hiyerarşisi değildir. Aynı küçük bağlantılı kümede ileri/geri çalışılabilir. Her keşfedilen kelime için ayrı dosya veya yeni ad oluşturulmaz.
+[Studies](../research/studies/INDEX.md) teknik araştırmayı, [explorations](../explorations/INDEX.md) geçmiş konuşmaları korur; buraya kopyalanmaz. Yerel kullanım dış kaynağın anlamını değiştirmez. Bu alan Foundation, SOUL/Development OS mimarisi veya agent-control otoritesi değildir.
 
-## Diğer alanlarla ilişki
-
-[Research](../research/INDEX.md) ve [studies kataloğu](../research/studies/CATALOG.md) kendi teknik araştırmalarını korur. Buraya taşınmaz; gereken bulgu ve kaynağa bağlantı verilir. [Explorations](../explorations/INDEX.md) geçmiş diyalog ve geçici kullanımları korur; bugünkü anlam geçmiş metne sessizce uygulanmaz. [Repository girişi](../README.md) alanların rollerini ayırır.
-
-İlgili soruda [EXP-002 terim notları](../explorations/EXP-002-soul-baz-yapi-ve-entelektuel-taban/reflections/TERMS.md), [Context/Memory/Harness META](../research/studies/context-memory-harness-engineering/META.md) ve [iş yönetimi METHOD](../research/studies/work-management-project-control/METHOD.md) seçici başlangıç yollarıdır. Bu bağlantılar tanım kabulü, güncel dış kaynak doğrulaması veya her oturumda hepsini okuma zorunluluğu değildir.
-
-## Yayın ve tarihsel kayıt
-
-Güncel yayın STATE'te, v0.2 yöntem uyarlamasının dosya bazlı kapsamı ve gerçek kontrolleri [METHOD-ALIGNMENT](checks/METHOD-ALIGNMENT-2026-09-18.md)'dedir. [SETUP-VERIFICATION](checks/SETUP-VERIFICATION.md) yalnız tamamlanmış P0 hazırlığının tarihli kanıtıdır; sonraki araştırmanın yokluğunu veya bugünkü çalışma durumunu bildirmez.
-
-Bu alanın yöntem belgeleri yetkilendirilmiş proje çalışmasını tarif eder. Assistant davranış kurallarının canonical kaynağı AGENT ve agent/ olarak kalır.
+Güncel iş yalnız STATE'ten alınır. Geçmiş sürümlerdeki “sonraki on terim” listeleri iş sırası değildir. Eski concepts branch'leri de alternatif güncel çalışma alanı değildir; doğrulanmış durumları HISTORY'dedir.

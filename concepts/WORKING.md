@@ -1,13 +1,20 @@
-# Core Terms — Working Local Reference v0.4
+# Kavram Çalışması — Tek Çalışma Taslağı
 
-**Tarih:** 2026-09-18.  
-**Statü:** WORKING LOCAL REFERENCE / EVOLVING; tek tek terim onayı beklenmez.  
-**Kapsam:** Dört batch, toplam 40 bağlı terim. Evrensel sözlük, nihai ontoloji veya SOUL mimarisi değildir.  
-**Dayanak:** U03–U06 batch araştırmaları, Agent U01/U02 ve ilgili studies/birincil kaynaklar.
+**Durum:** İNCELENECEK TASLAK. Kullanıcının tek tek benimsediği kavramlar listesi değildir. Evrensel tanım veya SOUL mimarisi değildir.
 
-Bu sürüm v0.3'ü supersede eder. Önceki sürümler tarihsel snapshot olarak korunur. Working map yeni kaynak, gerçek kullanım ve yeni çakışmalar çıktıkça fine-tune edilir.
+Bu dosya önceki [v0.4 kaydının](https://github.com/batuhanozgun/agentic-os-search/blob/4d849afc2e8b6ef6173957e0923606290912da1e/concepts/synthesis/CORE-TERMS-WORKING-v0.4.md) 40 numaralı maddesini, Task alt kullanımını, haritasını ve kısa ayrım notlarını devralır. Bu bakımda yeni tanım seçilmedi. Eski ifadeler aktarılırken kaybolmasın diye gövdeleri korundu; doğrulukları veya kaynak yeterlilikleri onaylanmış olmadı. Karışık Türkçe/İngilizce açıklamalar da sonraki somut kullanım incelemesinde sadeleştirilecek taslak metindir.
 
-## 40 çalışma tanımı — kısa görünüm
+Güncel iş [STATE](STATE.md), yöntem [METHOD](METHOD.md), dayanak ve okuma sınırı [SOURCES](SOURCES.md)'dedir. İleride bu dosya yerinde güncellenir; her tur yeni sürüm dosyası açılmaz.
+
+## Önce dikkate alınacak sınırlar
+
+- Agent için “bazı yürütme seçimleri” eşiği hâlâ belirsizdir. Model–ürün–model ailesi–sağlayıcı ve hazır/özelleştirilmiş agent örnekleri bu taslakla çözülmüş sayılmaz.
+- Context'in modelin gördüğü bilgi ile local/runtime context ayrımı önceki ayrıntıda vardı; kısa tanım bütün context kullanımlarına genellenmemelidir. SOURCES, U04 kaydına döndürür.
+- Work birçok açıklamada kullanılıyor fakat burada ayrı bir çalışma tanımı yok. Bu kullanım üzerinden Foundation anlamı veya zorunlu veri modeli varsayılmaz.
+- Harita bütün maddeleri eksiksiz kapsamıyor. Oklar zorunlu mimari veya karşılıklı dışlayan sınıflar değildir. “Farklı kavram” ile “aynı varlığın farklı açıları olamaz” eşitlenmez.
+- Kaynak okuma iddialarının bir kısmı yeniden kontrol gerektirir. Ayrım listeleri gerçek kullanım testi değildir; “kırk terim oturdu” sonucu çıkarılmaz.
+
+## Devralınan tanımlar
 
 ### Execution / Actor / Information / Control çekirdeği
 
@@ -59,7 +66,7 @@ Bu sürüm v0.3'ü supersede eder. Önceki sürümler tarihsel snapshot olarak k
 39. **Evaluation** — Model/Agent/System/result/process'i criteria/tasks/rubric/metric/benchmark altında sistematik ölçüp performance/quality/capability/risk judgment üretme.
 40. **Evidence** — claim/standing/decision/Verification/Validation/Evaluation sonucunu destekleyen veya sınırlandıran traceable information/observation/artefact/test result/record.
 
-## Güncel ilişki haritası
+## Devralınan ilişki haritası
 
 ```text
 Intent
@@ -136,17 +143,6 @@ Agent ─may-be→ Actor
 - **Evaluation:** criteria altında performans/quality/capability/risk judgment.
 - **Evidence:** bu judgment/claim'leri dayandırdığımız traceable ground.
 
-## v0.3'ten değişenler
+## Değişiklik kaydı
 
-- Work state artık Work item/dependency/readiness/completion/evidence ilişkileriyle daha somut hale geldi.
-- Verification, Validation ve Evaluation ayrıldı.
-- Observability → Evidence → Verification/Evaluation hattı kuruldu.
-- Goal ile Completion birbirinden açık ayrıldı.
-- Plan current truth değil, revize edilebilir proposed route olarak konumlandı.
-- “Task” yerine local umbrella olarak “Work item” tercih edildi; source-local Task semantics korunuyor.
-
-## Sonraki güçlü kavramlar
-
-Outcome, Success criterion, Requirement, Constraint, Acceptance criterion, Metric, Benchmark, Oracle, Review, Approval.
-
-Bu liste sonraki batch seed'idir; sabit sıra değildir.
+2026-09-18 sadeleştirmesi: v0.4'ün tanım, ilişki haritası ve ayrım gövdeleri buraya aktarıldı. Sürüm/kabul iddiaları ve otomatik sonraki-onlu yönlendirmesi devralınmadı. Kapsam uyarıları eklendi. Kaynak araştırması, tanım kabulü veya kullanım testi yapılmadı. Özgün sürümler ve ayrıntılı gerekçeler [HISTORY](HISTORY.md)'den geri bulunur.
