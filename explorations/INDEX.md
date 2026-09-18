@@ -14,7 +14,9 @@ Yeni paket düzeni: [PACKAGE-CONTRACT.md](PACKAGE-CONTRACT.md).
 
 İkinci paket: [EXP-002 — SOUL'un baz yapısı ve ortak entelektüel tabanı](EXP-002-soul-baz-yapi-ve-entelektuel-taban/INDEX.md).
 
-Birlikte tam okuma: [EXP-001 → EXP-002](EXP-002-soul-baz-yapi-ve-entelektuel-taban/retrieval/CUMULATIVE-READING.md). Bu yol iki diyaloğun toplam 74 kaynak mesajını kendi sıralarıyla okutur; konsolidasyonlar kaynakların yerine geçmez. Eserlerin tam incelenmesi, diyalog tam okumasından ayrı belirtilir.
+Üçüncü paket: [EXP-003 — Ek hafıza ve araştırma temelli güvenilirlik](EXP-003-ek-hafiza-ve-arastirma-temelli-guvenilirlik/INDEX.md). İşlem–nesne–mekanizma ayrımları, seçici erişim, Foundation/studies kullanımı ve daha sağlam yapı hedefi; gerçekleşmiş mimari/üstünlük değil. Önceki ölçülmemiş puanlar ayrı nitelendirmelerle korunur.
+
+Birlikte tam okuma: [EXP-001 → EXP-002 → EXP-003](EXP-003-ek-hafiza-ve-arastirma-temelli-guvenilirlik/retrieval/CUMULATIVE-READING.md). Üç diyaloğun toplam 95 kaynak mesajını kendi sıralarıyla okutur; konsolidasyonlar kaynakların yerine geçmez. Önceki [iki-deneme yolu](EXP-002-soul-baz-yapi-ve-entelektuel-taban/retrieval/CUMULATIVE-READING.md) 74 mesajlık kapsamıyla korunur. Eserlerin tam incelenmesi, diyalog tam okumasından ayrı belirtilir.
 
 ## Sınırlar
 
@@ -27,7 +29,7 @@ Birlikte tam okuma: [EXP-001 → EXP-002](EXP-002-soul-baz-yapi-ve-entelektuel-t
 
 ## Yeniden kullanım
 
-Bir sonraki deneme, hangi önceki kayıttan neyi devraldığını ve neyi yeniden sorguladığını belirtir. EXP-002'nin [devir haritası](EXP-002-soul-baz-yapi-ve-entelektuel-taban/sources/PREDECESSOR-EXP001.md), EXP-001 ile bu ilişkiyi kaynak seviyesinde kurar.
+Bir sonraki deneme, hangi önceki kayıttan neyi devraldığını ve neyi yeniden sorguladığını belirtir. EXP-002'nin [devir haritası](EXP-002-soul-baz-yapi-ve-entelektuel-taban/sources/PREDECESSOR-EXP001.md), EXP-001 ile bu ilişkiyi kaynak seviyesinde kurar. EXP-003'ün [öncül kaydı](EXP-003-ek-hafiza-ve-arastirma-temelli-guvenilirlik/sources/PREDECESSORS.md) uzmanlık sürekliliği ve ortak entelektüel taban ile ek hafıza konuşmasını bağlar; gerçek okuma derinliğini ayrıca belirtir.
 
 Araştırma ihtiyacı doğarsa araştırma ayrı yetkilendirme ve kendi paketinde yürür. Mimari benimseme de ayrı karardır. Denemelerin topluca okunması Development OS hazırlığını besleyebilir; bu okuma tek başına kurulum veya yeni araştırma yetkisi değildir. Gerçek geçişte güncel proje/target state'i ayrıca ele alınır.
 
@@ -37,4 +39,4 @@ Bu dosya kütüphanenin okuma ve kayıt semantiğini açıklar; yeni agent-contr
 
 Terimlerin farklı kaynaklardaki anlamlarını ve ortak konuşma kullanımını araştırmak için ayrı yetkilendirilmiş [concepts/INDEX.md](../concepts/INDEX.md) alanına girilir; güncel iş ve kabul durumu [concepts/STATE.md](../concepts/STATE.md)'dedir. Bu program yeni EXP paketi değildir.
 
-EXP-001/EXP-002'nin özgün diyalogları, geçici terimleri ve nitelendirmeleri değişmeden kalır. Yeni referans eski kullanımları otomatik olarak yeniden yorumlamaz; gerektiğinde kaynak/bölüm ilişkisiyle farkı açıklar. Exploration'daki örnek, bugünkü ortak tanım veya uygulama kararı değildir.
+EXP-001/EXP-002/EXP-003'ün özgün diyalogları, geçici terimleri ve nitelendirmeleri kaynak olarak kalır. Yeni referans eski kullanımları otomatik olarak yeniden yorumlamaz; gerektiğinde kaynak/bölüm ilişkisiyle farkı açıklar. Exploration'daki örnek, bugünkü ortak tanım veya uygulama kararı değildir.
