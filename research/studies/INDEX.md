@@ -20,7 +20,7 @@ A study can use external sources without being an `external-target` study.
 
 ## Separate concept-use programme
 
-For term meanings across sources, comparisons between those uses and a jointly considered conversational reference, use [`concepts/INDEX.md`](../../concepts/INDEX.md) → [`concepts/STATE.md`](../../concepts/STATE.md). That owner-authorised programme has its own three-stage method; it is not another candidate study to duplicate here.
+For term meanings across sources, comparisons between those uses and a jointly considered conversational reference, use [`concepts/INDEX.md`](../../concepts/INDEX.md) → [`concepts/STATE.md`](../../concepts/STATE.md). That owner-authorised programme uses an iterative method: a seed meaning-question can open necessary neighbouring concepts and lead to a scoped local-reference proposal without completing the entire inventory. Its three record levels distinguish evidence, comparison and accepted use, not a mandatory global phase sequence; it is not another candidate study to duplicate here.
 
 Technical/mechanism studies, including existing context/memory/harness research, remain in this library. Concepts work selectively cites their exact findings and sources rather than moving or rewriting them. An ordinary study is not reclassified merely because it discusses a concept. Reference acceptance does not change a study's findings, current work, source meaning or authority.
 

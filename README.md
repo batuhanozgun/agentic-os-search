@@ -16,6 +16,8 @@ Bu repository beş farklı rolü birbirine karıştırmadan taşır.
 
 `concepts/**` ayrı yetkilendirilmiş proje çalışmasıdır: terim araştırması, sentez ve ortak kullanım kabulünü ayırır. Ortak referans, kaynakların anlamını veya eski belgeleri geriye dönük değiştirmez; Foundation/mimari kararı ve agent-control değildir. Bu alanın güncel işi [concepts/STATE.md](concepts/STATE.md)'den okunur; dizinin bulunması kabul edilmiş tanım olduğu anlamına gelmez.
 
+Kavram çalışması bir terim veya anlam sorusundan hareket eder; karşılaşılan komşu terim ve işlevleri gerektiği kadar birlikte inceler ve yeterli zeminde yerel kullanım adayı değerlendirir. Üç kayıt düzeyi bütün envanterin sırayla bitirileceği fazlar değildir. İşleyiş [concepts/METHOD.md](concepts/METHOD.md)'dedir; yönteme onay belirli bir tanımı kabul etmez.
+
 Araştırmanın güncel yetkisi ilgili STATE dosyalarından okunur. Bir denemenin arşivlenmesi Foundation'ın kabul durumunu, Development OS'nin görevini veya SOUL'un mimarisini değiştirmez.
 
 ## İlk deneme

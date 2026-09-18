@@ -1,13 +1,27 @@
 # Seviye 3 — Ortak Referans
 
-**Başlangıç durumu:** Bu hazırlıkta kabul edilmiş ortak kavram kaydı yoktur. Agent veya diğer terimler henüz burada tanımlanmış değildir.
+Bu alan, **“Biz bu ifadeyi şu bağlamda şu anlamda kullanıyoruz”** biçimindeki, kaynaklarla bağlantılı ve karşılıklı değerlendirilmiş yerel kullanım kayıtlarına giriş sağlar. Evrensel sözlük, zorunlu sözcük listesi, SOUL mimarisi veya assistant davranış protokolü değildir.
 
-Bu alan araştırma ve karşılıklı değerlendirme sonrasında, konuşmada hangi anlamı kastettiğimizi sorgularken başvurabileceğimiz kayıtları taşır. Evrensel sözlük, SOUL mimarisi, zorunlu sözcük listesi veya assistant davranış protokolü değildir.
+## Kabul edilmiş kayıtlar
 
-Bir kayıt kabul edilmiş olarak gösterilmeden önce belirli açıklama/kapsam, kaynak ve sentez dayanakları, assistant'ın gerekçesi ve kullanıcının o açıklamaya dair açık değerlendirmesi görünür olmalıdır. Hazırlık planına onay, terim onayı değildir. Kaynakların ne söylediği ortak tercih yoluyla değiştirilemez.
+Henüz kabul edilmiş ortak kavram kaydı yoktur. Agent veya komşu kavramlar bu yöntem uyarlamasıyla tanımlanmış olmadı. Güncel çalışma ve yetki [STATE](../STATE.md)'tedir. Gerçek kabul kayıtları oluştukça bu dizine eklenir; yöntem onayı, örnek açıklama veya boş dosya kabul sayılmaz.
 
-Kayıt, gerektiği ölçüde tercih edilen ifadeyi, kapsamını, örnek/karşı örneğini, başka kullanımlarla farkını, açık kalanları ve değişiklik geçmişini taşır. Birden fazla anlamı niteleyerek kullanmak veya ortak tercihi açık bırakmak mümkün sonuçlardır. Eski metinler bugünkü tanımla yeniden yazılmaz; ilgili kaynak/bölüm/sürüm ilişkisi korunur.
+## Bir kaydın neyi açıklaması gerekir?
 
-Buradaki anlamlar da sorgulanabilir. Yeni kanıt veya somut örnek bir tanımı değiştirmeyi gerektirebilir; değişiklik ve önceki kullanım görünür tutulur. Henüz kaydı olmayan bir terimi konuşmak yasak değildir.
+Kayıt gerektiği ölçüde anlamı ve kullanım bağlamını, önemli kapsam dışını, somut örneği, karıştırılabilecek komşu anlamları, kaynak/sentez dayanaklarını, açık kalanları ve değişiklik geçmişini taşır. Tek varsayılan anlam zorunlu değildir; nitelemeli birkaç kullanım veya yalnız belirli bağlam için kısmi uzlaşma seçilebilir.
 
-Gerçek kayıtlar birlikte değerlendirildikçe bu dizine eklenir. Gündem [TERM-INVENTORY](../TERM-INVENTORY.md), güncel iş [STATE](../STATE.md), yöntem [METHOD](../METHOD.md), ana giriş [INDEX](../INDEX.md)'dedir.
+Kabul için belirli açıklama/kapsam, assistant'ın gerekçeli önerisi ve kullanıcının o açıklamaya dair açık değerlendirmesi görünür olmalıdır. Birbiriyle bağlı birkaç kavram aynı görüşmede kararlaştırılabilir; bütün envanterin tamamlanması beklenmez. Adaylar [synthesis](../synthesis/INDEX.md)'te veya ilgili çalışma belgesinde aday olarak kalır. Tartışılan anlam, kabul edilen kapsam ve henüz çözülemeyen kısım birbirine karıştırılmaz.
+
+## Kaynakları okurken
+
+Kendi açıklamamızda ilgili yerel referansa başvururuz. Dış kaynaktaki anlamı aktarırken kaynak kendi bağlamında korunur. Gerekli yerde hangi belge/bölüm/sürümün yerel kullanımla hangi açıdan örtüştüğü veya ayrıldığı belirtilir. Kaynak, bizim tercihimize uymadığı için yeniden adlandırılmaz; özgün kod/API adı ve alıntı değişmez.
+
+Yerel bir kelime tercihi dış dünya hakkındaki yanlış teknik iddiayı doğru yapmaz. Ortak referans geçmiş studies, explorations veya yayımlanmış metinleri geriye dönük yeniden yazmaz; ortak anlam, araştırma doğrulaması ve mimari kabul farklı şeylerdir.
+
+## Değişiklik ve gerçek kullanım
+
+Yeni kaynak yalnız farklı bir ad kullanıyorsa mevcut referans kendiliğinden bozulmuş sayılmaz. Yeni kanıt veya somut örnek yerel kullanımın önemli bir ayrımı kaybettirdiğini gösteriyorsa ilgili kısım yeniden değerlendirilir. Önceki kapsam, değişiklik gerekçesi ve etkilenen bağlantılar korunur; anlam tek taraflı ve sessizce değiştirilmez.
+
+Kabul edilmiş referansın bulunması iletişim başarısını garanti etmez. İlgili soruda geri çağrılması ve yeni örnekte anlam ayrımını koruyabilmesi gerekir. Her tur bütün referansı okumak veya henüz kaydı olmayan kelimeyi yasaklamak amaç dışıdır.
+
+[İşleyiş](../METHOD.md), [amaç](../PURPOSE.md), [gündem/keşif kaydı](../TERM-INVENTORY.md), [ana giriş](../INDEX.md).

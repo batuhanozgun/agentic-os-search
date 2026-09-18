@@ -1,21 +1,41 @@
-# Concepts — Aşamalı Çalışma ve Hazırlık Planı
+# Concepts — Esnek Çalışma Planı
 
-**Sürüm:** 0.1 — 2026-09-18. Güncel iş/yetki [STATE](STATE.md)'dedir. Plan, listelenen bütün işleri başlatma yetkisi değildir.
+**Sürüm:** 0.2 — 2026-09-18. Güncel iş/yetki [STATE](STATE.md), işleyiş [METHOD](METHOD.md), amaç [PURPOSE](PURPOSE.md)'dedir. Bu plan envanterdeki bütün işleri başlatma veya bir terimin anlamını kabul etme yetkisi değildir.
 
-## Aşamalar
+## İlerleme modeli
 
-| Aşama | Amaç | Dönüş/durma koşulu |
+Bir terimden veya somut anlam sorusundan başlanır. Kaynak incelemesinde ortaya çıkan terim, işlev ve ilişki sorularından yalnız mevcut anlaşmayı maddi biçimde etkileyenler gerektiği kadar açılır. Yeterli zemin oluştuğunda ortak kullanım adayı değerlendirilir; tüm envanter veya bütün komşu araştırmalar beklenmez. Aynı küçük döngüde birden fazla bağlı kavram ele alınabilir.
+
+| Çalışma hareketi | Ne zaman anlamlı? | Nerede durulur / nereye dönülür? |
 |---|---|---|
-| P0 — Repository hazırlığı | Amaç, yöntem, envanter, üç seviye, kök bağlantıları ve yeni oturum devam yolunu kurmak. | Onaylı kapsamın yayını ve geri okuması; kullanıcıya sonucu bildirip durmak. |
-| P1 — İlk tekil araştırma | Kullanıcının yeni devam yönüyle Agent BRIEF üzerinden farklı kullanımları araştırmak. | Kaynaklı, sınırlı bir sonuç ve açık sorular; tek cümlelik tanıma zorlamadan kullanıcıya dönmek. |
-| P2 — Sonraki tekil araştırmalar | Envanter ve ortaya çıkan gerçek bağımlılıklardan sıradaki sınırlı soruyu seçmek. | Her çalışmanın kendi sorusu ve anlamlı değerlendirme noktası. |
-| P3 — Sınırlı sentezler | Yeterli zemini oluşan ilgili kullanımları karşılaştırmak. | Ayrım ve ilişkiler gerekçeli; açık eksikler tekil araştırmaya geri bağlanmış. |
-| P4 — Ortak referans | Kaynaklı açıklama ve karşılıklı değerlendirmeyle kapsamlı kullanım kararı. | Exact açıklama ve açık kullanıcı değerlendirmesi korunmuş; anlaşılmayan kısım zorla kapatılmamış. |
-| P5 — Kullanımda gözden geçirme | Referansın iletişime katkısını ve eksiklerini değerlendirmek. | Gerekli yerel düzeltme; yeni protokol veya bütünsel yeniden tasarım otomatik değil. |
+| Mevcut odağı geri kazanmak | Yeni oturum veya çalışma devrinde. | STATE'teki açık soru, mevcut kanıt ve yetki anlaşılınca; eski hazırlığı/araştırmayı tekrarlamadan. |
+| Kaynak kullanımlarını incelemek | Anlamı ayıracak kanıt eksikse. | Somut fark ve sınırlar görünür olduğunda; daha çok kaynak bulunabildiği için sürdürmeden. |
+| Bağlantıyı açmak | Bir komşu terim/işlev/ilişki mevcut anlam kararını gerçekten etkiliyorsa. | Gerekli ayrım anlaşılınca asıl soruya dönmek; tüm komşu alanı bitirmeyi şart koşmadan. |
+| Birlikte açıklamak ve aday önermek | Mevcut kanıtla kapsamlı bir yerel kullanım anlatılabiliyorsa. | Somut örnek üzerinde karşılıklı değerlendirme; engel varsa yalnız o hedefli soruya geri dönüş. |
+| Yerel kullanımı kaydetmek | Belirli açıklama/kapsama açık kullanıcı değerlendirmesi varsa. | Kabul edilen kısmı referansa geçirmek; açık kısmı veya yönteme verilen onayı tanım kabulü saymadan. |
+| Kullanımda gözden geçirmek | Yeni örnek/kanıt önemli bir anlam kaybını gösteriyorsa. | Yalnız etkilenen kaydı ve ilişkilerini yeniden değerlendirmek; her yeni kaynakla bütün sistemi açmadan. |
 
-P2/P3/P4 tüm envanterin seri tamamlanmasını gerektirmez; yeterli zemini olan küçük kümelerle ilerleyebilir. Henüz bilinmeyen ilişki zorla çizilmez. Önceki SOUL-merkezli konuşma incelemesi P1 araştırmasının yerine geçmez.
+Bunlar sabit kapılar veya bir kez geçilecek büyük fazlar değildir. `research/`, `synthesis/`, `reference/` ayrımı kayıtların epistemik rolünü korur; çalışmanın doğrusal sırayla yapılmasını dayatmaz. Bağlantılı inceleme bir grafik veritabanı, zorunlu ağaç, düğüm şeması veya ağır iş takip sistemi kurma kararı değildir.
 
-## P0 — Onaylanan yazma kapsamı
+## Güncel uygulama sınırı
+
+Bu yöntem uyarlaması kapsamında mevcut dosyalar denetlenir, gerekli yönlendirme/durum değişiklikleri yayımlanır ve kullanıcıya dönülür. U01 korunur. Yeni dış kaynak araştırması, referans tanımı veya SOUL/Development OS tasarımı bu bakım turunun işi değildir.
+
+Sonraki kavram devamında [Agent BRIEF](research/agent/BRIEF.md) ve U01 üzerinden açık anlam sorusu ele alınabilir. “Agent oluşturmak”, “LLM/model” veya başka bir komşu peşinen sıradaki zorunlu araştırma değildir; önce mevcut soruya katkısı değerlendirilir. Bütün adayların öncelikleri [STATE](STATE.md)'ten bağımsız biçimde bu planda yönetilmez.
+
+Yöntem değişiminin dosya bazlı kapsamı, korunacak kayıtlar ve gerçek kontroller [uyum kaydında](checks/METHOD-ALIGNMENT-2026-09-18.md)'dır. Önceki P0 hazırlığı tamamlanmıştır; aşağıdaki bölüm yalnız tarihsel planı korur.
+
+## Yeni çalışmalar için yayın disiplini
+
+Güncel main'den kendi sınırlı çalışma branch'ini kullan; aşağıdaki eski hazırlık branch'ini veya başka oturumun branch'ini yeniden çalışma alanı sayma. Değişiklikten önce ilgili dosyanın tam gövdesini ve kimliğini geri kazan. Yalnız gerekli içeriği değiştir; değiştirmeden bıraktığın ilgili dosyanın gerekçesini de denetimde göster.
+
+Yayına yakın main ilerlemesini kontrol et. Eski bütün dosyayı yeni katkıların üzerine yazma; çakışma varsa etkilenen yayını durdurup uzlaştır. Dosya ve bölüm kapsamını incele; yayın head'ine bağlı normal PR birleşimi veya güvenli non-force yol kullan. Main'den içerik/kimlik ve giriş bağlantılarını geri doğrula. Gerçek yayın sonucunu STATE ve ilgili kontrol kaydına işle; branch'te hazırlanmış olmayı main yayını sayma.
+
+Bu disiplin bütün repository için kilit, genel branch temizliği, otomatik arka plan işi veya diğer oturumların henüz yayımlamadığı işlerinin doğrulaması değildir.
+
+## Tarihsel P0 — Onaylanan hazırlık kapsamı
+
+Aşağıdaki 11 yeni / 7 mevcut dosyalı kapsam ve eski yayın adımları v0.1 hazırlığına aittir. Tamamlanmış işin kaydıdır; bugünkü yapılacaklar veya kullanılacak branch değildir. P1–P5'in eski faz numaraları yeni bir küresel yürütme sırası olarak sürdürülmez. Gerçek P0 yayını [SETUP-VERIFICATION](checks/SETUP-VERIFICATION.md)'dadır.
 
 ### Yeni 11 dosya
 
@@ -45,7 +65,7 @@ P2/P3/P4 tüm envanterin seri tamamlanmasını gerektirmez; yeterli zemini olan 
 
 Silme/taşıma yok. AGENT.md ve diğer protokoller, Foundation/soul-context, bütün study paketleri, EXP-001/EXP-002 ve publications içerikleri korunur. Hedef SOUL/Development OS repository'lerine yazılmaz. Başka terimler için boş paket, kabul edilmiş tanım veya sözde araştırma sonucu açılmaz.
 
-## Eşzamanlı çalışma ve yayın
+### P0'ın tarihsel eşzamanlı çalışma ve yayın adımları
 
 Başlangıç main: `3d93615ae51e4e85cd509e49f65b4c2afbad07c0`. Hazırlık branch'i: `setup/concepts-reference-20260918`. Başlangıç değeri sonraki main'in güncel olduğu iddiası değildir.
 
@@ -59,7 +79,7 @@ Başlangıç main: `3d93615ae51e4e85cd509e49f65b4c2afbad07c0`. Hazırlık branch
 
 Bu plan diğer oturumlarda kilit oluşturmaz veya onların henüz yayımlamadığı işleri görünür yapmaz. Repository koruma ayarı, genel koordinasyon sistemi, otomatik merge ve eski branch temizliği bu yetkinin dışında.
 
-## P0 kabul kontrolü
+### P0'ın tarihsel kabul kontrolü
 
 Giriş bağlantıları mevcut dosyalara ulaşmalı; yöntem/plan/durum çelişmemeli; concepts ikinci studies deposuna dönüşmemeli; araştırma/sentez/kabul edilmiş referans başlangıçta yok olarak kalmalı. Yeni oturum yalnız giriş yoluyla amaç, mevcut iş, ilk soru ve durma sınırını bulabilmeli.
 
