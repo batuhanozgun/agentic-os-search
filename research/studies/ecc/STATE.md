@@ -2,7 +2,7 @@
 
 **Updated:** 2026-09-18
 **Checkpoint:** U06-C — governance events, persistence and decision boundaries
-**Work status:** U06-C substantive source slice COMPLETE; publication/readback IN PROGRESS. Finish scoped integration, catalogue refresh and actual receipt before starting U07-A. Prepared objects are not published work.
+**Work status:** U06-C COMPLETE / PUBLISHED. Research commit 0aa0f952ef8d950b4d8fe3170b15746498146427 merged through PR #13 as 4d34f141a41f5418f65f17ee81549e91d5b388ed; main Note11/source/PLAN/STATE readbacks completed. [PUBLICATION-U06-C](PUBLICATION-U06-C.md) records scope, concurrent-work preservation and maintenance checks. No owner upload or merge is pending.
 **Study:** ACTIVE / PARTIAL. **METHOD / PLAN:** 0.1 / 0.12.
 **Unchanged target:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 
@@ -23,7 +23,7 @@ Current: [Note11](notes/11-GOVERNANCE-EVENTS-PERSISTENCE-AND-DECISION.md), [U06-
 
 ## Next authorized work
 
-After publication closure, **U07-A / Q01a**, NOT STARTED: return to material-family discovery and coverage accounting. Recover the pinned topology, original inventory/frontier and per-unit ledgers. Explicitly account for ecc2, native workflows/controllers, procedural assets, UI/integrations and scanner/release/evaluation surfaces rather than continuing indefinitely through adjacent hooks.
+**U07-A / Q01a**, NOT STARTED: return to material-family discovery and coverage accounting. Recover the pinned topology, original inventory/frontier and per-unit ledgers. Explicitly account for ecc2, native workflows/controllers, procedural assets, UI/integrations and scanner/release/evaluation surfaces rather than continuing indefinitely through adjacent hooks.
 
 Return with a source-linked family/coverage map, consequential omissions and a justified next mechanism sequence. Form native synthesis candidates only where existing evidence supports them; do not declare CORE or whole-study completion. Start inventory/STRUCTURE.md, inventory/TREE-FRONTIER.tsv, current PLAN/INDEX and pinned repository directory/tree metadata; read actual family entry files as needed. S150 SECURITY.md supplies separate scanner/distribution pointers, not verified AgentShield behavior.
 
@@ -33,9 +33,9 @@ Q07c1 bounded; Q07c2 retains a connected collector, native event fidelity, authe
 
 Batu owns purpose/material phase choices. Assistant owns authorized research, proportionate isolated fixtures, sequencing, repository organization and verified publication. Writes: research/studies/ecc/** plus only ECC discovery row/route in shared CATALOG/INDEX. Preserve other studies, concepts, Foundation, soul-context, explorations, upstream and agent-control. No real installation, user-home/config/cache changes, credentials/provider/model calls, upstream report/patch or SOUL/Development OS implementation.
 
-After current control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then Note11, U06-C sources, ROUND-U06-C and current publication receipt once linked. Reopen exact sources when the current claim requires them. Do not rerun experiments to recover progress. The old master histories through U03-B and later unit records remain recoverable through INDEX.
+After current control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then Note11, U06-C sources, ROUND-U06-C and [PUBLICATION-U06-C](PUBLICATION-U06-C.md), including its maintenance addendum. Reopen exact sources when the current claim requires them. Do not rerun experiments to recover progress. The old master histories through U03-B and later unit records remain recoverable through INDEX.
 
-Fresh controls and package entries were recovered. Concurrent main work added a separate concepts programme and another candidate; it is not ECC work to overwrite or duplicate. Publication preparation starts at f922b49d92df26578e74a42e37f9b97133854b73 and must recheck head/scope before advancing. Auxiliary raw download failed at DNS; connected reads/writes are available. This is same-assistant recovery, not an independent cold-start test.
+Fresh controls and package entries were recovered. Concurrent main work added a separate concepts programme and another candidate; it is not ECC work to overwrite or duplicate. Publication started from f922b49d92df26578e74a42e37f9b97133854b73; PR #13 preserved later shared-file additions, and the post-merge comparison against 4b757a72fc4b5564eb11a68fdd0dace831d0b2ec confirmed the nine-path ECC scope. Auxiliary raw download failed at DNS; connected reads/writes are available. This is same-assistant recovery, not an independent cold-start test.
 
 ## Conversation/repository reconciliation — preserved 2026-09-18
 
