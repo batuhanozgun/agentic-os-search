@@ -19,7 +19,7 @@ Bu tur Agent için gerçekten yük taşıyan ilk komşu olarak Model/LLM ayrım�
 |---|---|
 | P0 hazırlık ve v0.2 yöntem | TAMAMLANDI / main üzerinde. |
 | Agent U01 | YAYIMLANDI; farklı kaynak kullanımlarının ilk sınırlı haritası. |
-| Agent U02 | HAZIR / yayın adayı; Model/LLM, run ve workflow sınırları. |
+| Agent U02 | YAYIMLANDI; Model/LLM, run ve workflow sınırları için hedefli bağlantılı inceleme. |
 | Model/LLM ≠ Agent sınırı | Kaynaklarla güçlü biçimde desteklenen sentez girdisi; henüz ortak reference kaydı değil. |
 | Agent yapılandırması ≠ belirli run | OpenAI SDK sözleşmesinde somut; yerel referans adayı içinde öneriliyor. |
 | Workflow ↔ Agent | Source-dependent; evrensel çizgi seçilmedi. |
@@ -49,9 +49,11 @@ Daha fazla kaynak bulunabilmesi tek başına U03 araştırma emri değildir.
 
 ## Yayın durumu
 
-Bu tur için çalışma branch'i: `research/concepts-agent-boundaries-20260918`.
+**Yayın:** [PR #21](https://github.com/batuhanozgun/agentic-os-search/pull/21); çalışma branch'i `research/concepts-agent-boundaries-20260918`; exact head `2442ab22cf4e1ea873917ccc85a84bed063aa2e4`; main merge commit `73899e7b6901493bfbdbabdeb5fda20c9276726e`.
 
-Yeni U02 ve sentez adayı ile BRIEF, research INDEX, synthesis INDEX, TERM-INVENTORY ve bu STATE güncellenmektedir. Main yayını ve geri okuma tamamlanmadan branch durumu canonical yayın sayılmaz. Yayın receipt'i tamamlandıktan sonra bu bölüm gerçekleşen sonuca güncellenecektir.
+Yedi yol değişti: yeni U02 ve Agent sentez adayı; BRIEF, research INDEX, synthesis INDEX, TERM-INVENTORY ve bu STATE. Agent-control, Foundation, studies paketleri ve reference kayıtları değişmedi. PR diff'i incelendi; merge öncesi PR `mergeable=true` idi. Exact head'e bağlı normal merge başarılı oldu ve head → merge karşılaştırması sıfır dosya farkı verdi.
+
+Main'den U02, sentez adayı ve STATE geri okundu. Bu yayın kaynakların doğruluğunu bağımsız yeniden üretmez; araştırma kaydı ve continuity aktarımını doğrular. Çalışma branch'i artık bekleyen canonical yayın değildir. Kabul edilmiş reference hâlâ yoktur; sıradaki iş kullanıcı değerlendirmesidir.
 
 ## Korunan geçmiş
 
