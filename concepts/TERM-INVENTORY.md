@@ -1,6 +1,6 @@
-# Başlangıç Terim Gündemi
+# Terim Gündemi ve Keşif Bağlantıları
 
-**Durum:** araştırma gündemi; tanım, eşanlamlılık listesi, kavram hiyerarşisi veya eksiksiz repository taraması değildir. Listede olmak terimin benimsenmesi veya karşılığında bileşen kurulması anlamına gelmez. Güncel iş [STATE](STATE.md)'dedir.
+**Durum:** başlangıç gündemi ve kaynaklı keşif yönlendirmesi; tanım, eşanlamlılık listesi, zorunlu araştırma sırası, kavram hiyerarşisi veya eksiksiz repository taraması değildir. Listede olmak terimin benimsenmesi veya karşılığında bileşen kurulması anlamına gelmez. Güncel odak, yetki ve sıradaki iş yalnız [STATE](STATE.md)'tedir.
 
 ## Köken
 
@@ -12,9 +12,28 @@ G3: [Context/Memory/Harness araştırması](../research/studies/context-memory-h
 
 G4: Bu programı hazırlayan mevcut konuşmada assistant'ın önerdiği başlangıç listesi; kullanıcı yolu uygun buldu. Bu kökeni eski kaynağa yanlış atfetme.
 
-## Öncelikli başlangıç
+G5: [Agent U01](research/agent/U01-SOURCE-USES.md); ilk sınırlı kaynak incelemesi. Buradaki bağlantı kaydı onun bulgularını yeniden araştırmaz veya yeni bir sentez yapmaz.
 
-**Agent** ilk araştırma konusudur; [BRIEF](research/agent/BRIEF.md) → [U01 kaynak kullanımları](research/agent/U01-SOURCE-USES.md). Araştırma başlamıştır; kabul edilmiş ortak tanım yoktur. Güncel durum STATE'tedir. Aşağıdaki satırlar yalnız gezinme gruplarıdır. Aynı satırda olmak eşdeğerlik, eş-seviye veya parça ilişkisi kurmaz.
+G6: U01 sonrası yöntem konuşmasındaki kullanıcı örnekleri ve assistant açıklamaları; [PURPOSE](PURPOSE.md) kökeni ve kabul sınırını taşır. Bu örnekler dış kaynak bulgusu, doğrulanmış ürün adı veya kabul edilmiş tanım değildir.
+
+## Başlangıç odağı ve devralınan bağlantılar
+
+**Agent** başlangıç terimidir; [BRIEF](research/agent/BRIEF.md) → [U01](research/agent/U01-SOURCE-USES.md). U01 korunur; kabul edilmiş ortak tanım yoktur. Yeni oturum bu kaydı otomatik “Agent U02'ye başla” veya “bütün komşuları sırayla bitir” komutu olarak okumaz.
+
+| Bağlantı / soru | Köken ve okuma yolu | Bu kayıt neyi kararlaştırmıyor? |
+|---|---|---|
+| Çevrede eyleme, hedef ve özerklik anlatımları | G5, U01 S1–S2. | Bunların yerel Agent kullanımımız için gerekli/yeterli koşullarını belirlemiyor. |
+| LLM/model, kullanılan araç/talimat ve bütün sistem arasındaki ayrım | G5, U01 S3–S5. | Agent'ın zorunlu bileşen listesini veya Model'in kabul edilmiş anlamını kurmuyor. |
+| Workflow, süreç kontrolü, döngü ve orkestrasyon adları | G5, U01 S3/S6; dinamik kontrol sınırı açık. | Her döngüyü Agent veya her workflow'u Agent dışı ilan etmiyor. |
+| Yapılandırma ile çalıştırma; `Agent(...)`, `Runner` ve run | G5, U01 S5 ve açık sorular. | Ürün/session/instance/identity ayrımlarını kapatmıyor; `Runner`ı genel referans maddesi yapmıyor. |
+| Actor, role, identity ve belirli yürütme ilişkileri | G1/G2; G5'te açık sorular olarak anılır. | U01'in bunların tam dış kaynak araştırmasını yaptığı veya hepsinin zorunlu önkoşul olduğu iddiası yok. |
+| “Hazır/özel agent” ve model/LLM/ürün/aile adı ayrımı | G6'daki yöntem örnekleri; gereken eski bağlam G2 üzerinden bulunur. | Hazır–özel ikiliğinin eksiksiz seçenek alanı, verilen adların doğrulanmış ürün bilgisi veya yerel tercih olduğu iddiası yok. |
+
+Bu tablo bir komşuluk keşif kaydıdır; yeni kaynak araştırması, bağımlılık kararı veya seçilmiş öncelik değildir. Aynı soru birden fazla kökenden beslenebilir. Devamda yalnız güncel anlam sorusunu etkileyen bağlantı gerekçelendirilerek açılır; yararlı ama engel olmayan konu ertelenebilir, kaynağa özgü ad kendi bağlamında kalabilir. Karşılaşılan işlev için hemen yeni terim veya ayrı paket üretmek gerekmez.
+
+## Korunan başlangıç grupları
+
+Aşağıdaki satırlar yalnız gezinme gruplarıdır. Aynı satırda olmak eşdeğerlik, eş-seviye veya parça ilişkisi kurmaz.
 
 | Gezinme grubu | Terimler | Köken |
 |---|---|---|
@@ -52,4 +71,6 @@ SOUL, Development OS, Baz SOUL, System Formation / Work-System Synthesis, SOUL-n
 
 ## Güncelleme sınırı
 
-Yeni terim için önce neden gerekli olduğu ve hangi kullanımda karşılaşıldığı yazılır. Araştırma sorusu büyüyorsa kapsam/güncel yetki değerlendirilir. Eksik karşılık, mevcut tanıma zorlama veya otomatik paket açma gerekçesi değildir. Envanter sırası bütün araştırmalar için zorunlu yürütme sırası değildir.
+Yeni terim/işlev/ilişki sorusu için nerede karşılaşıldığı, hangi anlam ayrımını etkilediği ve ne statüde olduğu kısa biçimde yazılır. Mevcut odak için engel olduğu, ertelendiği veya kaynak-yerel tutulduğu gerekçelendirilir; bunlar değişmez kavram sınıfları değildir. Güncel iniş/dönüş noktası ve yetki STATE'te, ayrıntılı kanıt kendi çalışma belgesinde kalır.
+
+Eksik karşılık, mevcut tanıma zorlama veya otomatik paket açma gerekçesi değildir. Envanter büyüklüğü başarı ölçütü olmaz. İlgili küçük kümede yeterli zemin oluşursa bütün envanteri beklemeden ortak kullanım adayı [METHOD](METHOD.md) uyarınca tartışılabilir.
