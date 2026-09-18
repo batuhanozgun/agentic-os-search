@@ -1,6 +1,6 @@
 # Agent — İlk Araştırma İçin Kapsam Hazırlığı
 
-**Statü:** BRIEF ONLY / RESEARCH NOT STARTED. Agent tanımı, sonuç veya ortak kullanım kararı içermez. Güncel yetki ve başlangıç kapısı [program STATE](../../STATE.md)'dedir.
+**Statü:** KAPSAM BRIEF'İ KORUNUYOR; araştırma 2026-09-18'de başladı. Bu dosya Agent tanımı, sonuç veya ortak kullanım kararı içermez. İlk kaynaklı dilim [U01-SOURCE-USES](U01-SOURCE-USES.md); güncel iş ve yayın durumu [program STATE](../../STATE.md)'dedir.
 
 ## Ana soru
 

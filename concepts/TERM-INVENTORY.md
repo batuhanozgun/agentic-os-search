@@ -14,7 +14,7 @@ G4: Bu programı hazırlayan mevcut konuşmada assistant'ın önerdiği başlang
 
 ## Öncelikli başlangıç
 
-**Agent** ilk araştırma adayıdır; [BRIEF](research/agent/BRIEF.md). Henüz araştırması veya kabul edilmiş tanımı yoktur. Aşağıdaki satırlar yalnız gezinme gruplarıdır. Aynı satırda olmak eşdeğerlik, eş-seviye veya parça ilişkisi kurmaz.
+**Agent** ilk araştırma konusudur; [BRIEF](research/agent/BRIEF.md) → [U01 kaynak kullanımları](research/agent/U01-SOURCE-USES.md). Araştırma başlamıştır; kabul edilmiş ortak tanım yoktur. Güncel durum STATE'tedir. Aşağıdaki satırlar yalnız gezinme gruplarıdır. Aynı satırda olmak eşdeğerlik, eş-seviye veya parça ilişkisi kurmaz.
 
 | Gezinme grubu | Terimler | Köken |
 |---|---|---|
