@@ -8,6 +8,10 @@ This catalog is **not** the source of truth for a study's detailed findings or c
 
 Foundation relevance below is a retrieval hint only. It does not assign a study to the Foundation taxonomy.
 
+## Related programme outside this catalogue
+
+For term-use research, cross-concept comparisons or shared conversational meanings, enter [`concepts/INDEX.md`](../../concepts/INDEX.md) → [`concepts/STATE.md`](../../concepts/STATE.md). This is a separately authorised programme, not an additional study row. Existing studies remain here and are selectively referenced; their findings and statuses are not rewritten by a common-use choice. Preparation does not imply accepted definitions.
+
 ## Catalog
 
 | Study | Type | Current status | Strongest current reuse signals | Foundation relevance hints | Start |
