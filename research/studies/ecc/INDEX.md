@@ -18,7 +18,7 @@
 | Initial surfaces/cache | [Note01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md), [E01](evidence/u01-a-cache-probe/README.md) |
 | Older master histories through U03-B | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later per-unit records continue separately |
 | Inventory/frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md), subsequent unit ledgers |
-| Current publication | STATE names U06-A receipt after actual checks |
+| Current publication | [U06-A receipt and maintenance outcome](PUBLICATION-U06-A.md); STATE owns current standing |
 | Prior publication | [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
 
 E05 stores full exact input/output in XZ; its readable table is a derived view. It does not execute an actual Write/Edit, whole plugin bootstrap, native host or other security hooks. E01–E04 are not rerun for continuity. Source-only limits retain their epistemic class.

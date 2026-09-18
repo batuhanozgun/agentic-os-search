@@ -2,7 +2,7 @@
 
 **Updated:** 2026-09-18
 **Checkpoint:** U06-A — configuration protection and enforcement
-**Work status:** U06-A substantive slice and E05 COMPLETE; publication/readback IN PROGRESS. Close scoped integration, exact evidence identities, ECC catalog row and publication receipt before starting U06-B. Prepared blobs/trees are not main publication.
+**Work status:** U06-A COMPLETE / PUBLISHED. Research commit `9ddb3663e3ce85a6b9df62b590619e9ef735a7ba` reached main by non-force fast-forward; main result/evidence readbacks completed. [PUBLICATION-U06-A](PUBLICATION-U06-A.md) records exact scope, checks and pre-publication corrections. No owner upload or merge is pending.
 **Study:** ACTIVE / PARTIAL. **METHOD / PLAN:** 0.1 / 0.10.
 **Unchanged target:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 
@@ -18,7 +18,7 @@ Config protection targets selected existing linter/formatter names, not every co
 
 ## Next authorized work
 
-After publication closure, **U06-B / Q07b**, NOT STARTED: the separate GateGuard fact-forcing gate. Fully recover scripts/hooks/gateguard-fact-force.js (S128 only 1–240 read), follow its actual run/state/evidence/expiry/exception path and necessary dependencies, and validate registration/runner boundaries. Ask what actually releases a refusal and what binds that release to the current target/instruction. Do not assume its introductory effectiveness claims or conflate it with config-protection. Plan gives return condition.
+**U06-B / Q07b**, NOT STARTED: the separate GateGuard fact-forcing gate. Fully recover scripts/hooks/gateguard-fact-force.js (S128 only 1–240 read), follow its actual run/state/evidence/expiry/exception path and necessary dependencies, and validate registration/runner boundaries. Ask what actually releases a refusal and what binds that release to the current target/instruction. Do not assume its introductory effectiveness claims or conflate it with config-protection. Plan gives return condition.
 
 Q07a1 bounded; Q07a2 open for real host effect, alias/other writers/races, authenticated exceptions, bootstrap/failure and cross-host coverage. Q03b/c, Q04b/c/e, Q05b/c, Q06b/c2 and P1 remain open. Wider security/AgentShield/evaluation/controllers, native synthesis and reverse-inventory challenge remain required; moving units does not close them.
 
@@ -26,6 +26,6 @@ Q07a1 bounded; Q07a2 open for real host effect, alias/other writers/races, authe
 
 Batu owns purpose/material phase decisions. Assistant owns authorized source research, proportionate isolated fixtures, sequencing and verifiable publication. Writes: research/studies/ecc/** plus only ECC discovery row/route in shared CATALOG/INDEX. Preserve other studies, Foundation, soul-context, explorations, upstream and agent-control. No real installation, user-home/config/cache changes, credentials/provider/model calls, upstream report/patch or SOUL/Development OS implementation.
 
-After canonical control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then Note09, U06-A sources, ROUND-U06-A, E05 README/PLAN and current receipt once registered. Reopen exact sources/raw output when a derived view is insufficient; do not rerun experiments to recreate progress. Old master histories through U03-B and later per-unit rounds/sources/receipts remain recoverable from INDEX. This re-entry is not an independent fresh-session test.
+After canonical control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then Note09, U06-A sources, ROUND-U06-A, E05 README/PLAN and [PUBLICATION-U06-A](PUBLICATION-U06-A.md), including its maintenance addendum. Reopen exact sources/raw output when a derived view is insufficient; do not rerun experiments to recreate progress. Old master histories through U03-B and later per-unit rounds/sources/receipts remain recoverable from INDEX. This re-entry is not an independent fresh-session test.
 
-Connector reads/writes are the publication route. Auxiliary raw download failed at DNS; exact connector bytes supplied E05. Current publication base ffb89901ed362da43f0c1a7685d28b1ba9bcf19a is unchanged from U05-B closure. Catalog base was byte-verified before a mechanical row replacement. Actual commit/scope/readback closure belongs in the receipt, not an assumed successful future action.
+Connector reads/writes are the publication route. Auxiliary raw download failed at DNS; exact connector bytes supplied E05. Publication preserved parent ffb89901ed362da43f0c1a7685d28b1ba9bcf19a and changed exactly twelve ECC paths plus one catalog row in the research commit. Mismatched catalog candidates were rejected before main; the exact expected blob and detached scope were verified before non-force advancement. The receipt distinguishes actual readbacks from unchecked surfaces. U06-A is closed as a bounded delivery; U06-B is next, not already performed.
