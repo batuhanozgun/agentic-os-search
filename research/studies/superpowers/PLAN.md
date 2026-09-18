@@ -1,74 +1,73 @@
-# Superpowers Study — Plan v0.13
+# Superpowers Study — Plan v0.14
 
-Date: 2026-09-18. [METHOD.md](METHOD.md) remains v0.1. [STATE.md](STATE.md) owns current work, authorization and completion.
+**Date:** 2026-09-18. [METHOD](METHOD.md) remains v0.1. [STATE](STATE.md) owns actual publication, work and owner evaluation.
 
-## Main question
+## Purpose and current disposition
 
-How do shared skill instructions, host delivery, work artifacts, actor decisions, verification, lifecycle, skill evolution and distribution compose into Superpowers' development methodology; where do their guarantees stop; and what can this research contribute to later SOUL / Development OS work?
+Explain how skill instructions, hosts, artifacts, actors, verification, lifecycle, evolution and distribution compose into Superpowers; identify the limits; make the results reusable for later SOUL / Development OS work.
 
-Units are explanatory questions, not architecture components. File counts, experiment totals and the earlier approximate percentage are not completion criteria.
+**The bounded source-research campaign is complete and ready for owner evaluation.** No next substantive investigation is automatically active. This is not installation, adoption, a general effectiveness verdict or a new target-development phase.
 
-## Investigation status
+## Completed sequence
 
-| Unit | Bounded status |
+| Unit | Delivered bounded result |
 |---|---|
-| U00 — Corpus | Fourteen original SKILL bodies and selected supporting/runtime/distribution families read. Not every historical file/test or all live consumers. |
-| U01-A/B — Entry/host delivery | Selected source and exact local-script/module inquiry complete; not all-host qualification. |
-| U02 — Intent/work handoff | Source/helper investigation complete; approval, identity, globals, materialization and workspace limits preserved. |
-| U03 — Delegation/review | Source/helper investigation complete; one task reviewer/two verdicts, correction/adjudication and range limits preserved. |
-| U04 — Testing/diagnosis | Source/local helper investigation complete; chronology, oracle, applicability and no-observation distinctions preserved. |
-| U05 — Delivery/lifecycle | Source/local Git-primitive investigation complete; human integration, merged-result checks, partial effects and retention limits preserved. |
-| U06-A/B1/B2 — Skill evolution/evaluation | Source/attributed-public-record investigation complete; not grader certification or our live campaign. |
-| U07-A/B — Runtime/distribution | Source/mocked-client/JSON-helper investigation complete; no real server/browser, archive/sync, release or host qualification. |
-| U08-A — Native composition | Complete bounded deliverable: S01–S04 subsystem views and S05 native whole-system explanation. |
-| U08-B — Project-facing research | BOUNDED-COMPLETE: S06, current Foundation/context recovery and selected recorded gstack/Hermes/Flowable comparisons. No Foundation or architecture change. |
-| U08-C — CORE and closure challenge | NEXT / OPEN: compact result, reverse-source/omission and selective freshness checks, then explicit closure evaluation. |
+| U00 | Corpus/orientation; fourteen skill bodies and selected supporting families, not exhaustive history/tests. |
+| U01-A/B | Entry, selected host delivery and continuity; exact local script/module observations. |
+| U02 | Intent, plan, workspace and task/context handoff; identity/revision/materialization limits. |
+| U03 | Delegation, scoped review, correction and acceptance; actual range/description-predicate probes. |
+| U04 | Test chronology/oracle/applicability, diagnosis and verification; diagnostic helper observations. |
+| U05 | Human integration, merged-state verification and cleanup/retention; synthetic Git observations. |
+| U06-A/B1/B2 | Authoring and evaluation source/public-report chain; no live campaign or grader certification. |
+| U07-A/B | Visual/runtime and distribution/versioning/supports; mocked-client/JSON-helper observations. |
+| U08-A | S01–S04 subsystem views and S05 native whole-system model. |
+| U08-B | S06 project-facing contribution; current-at-recovery Foundation and scoped comparator use. |
+| U08-C | CORE, reverse-source/omission challenge, exact primary-main revalidation and closure evaluation. |
 
-## Evidence and identity preservation
+Full detail and source identities remain in the original notes/registers; this table does not increase their evidence strength.
 
-Primary remains `obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797`. The separately pinned lab remains `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`. Historical Gauntlet remains `db6c8e0fcf80889aa6d9631c99adec698f6c0caa`, with the exact later `25a2e3e00431f8d8eb63781162ccb974d43d5405` delta separate. No silent repin or new installed-version verdict.
+## U08-C actual work
 
-Eleven mechanism notes, S01–S05 native syntheses/model, S06 project-facing interpretation, eleven chronological source-register volumes and eight original local experiment records E01–E16 are available after publication. U08-A/B ran no experiments. PC1–PC7 are derived projection conclusions, not new F-series implementation findings. Public reports, archived experiments and same-agent synthesis remain distinct evidence classes.
+1. Recovered current state, method, plan, source registers and S01–S06 at the necessary full-text depth.
+2. Condensed the supported native and project-facing model without replacing it with a feature list or a universal pipeline.
+3. Re-read the complete root and immediate skill catalogues; a truncated recursive response was not treated as full inventory.
+4. Challenged less-central routes directly: parallel dispatch, received review, three-path brainstorming and finishing; retained full SDD/reviewer/verification contracts from this conversation.
+5. Inspected the root AGENTS symlink payload and selected release-note lines1–120. The release summary did not replace detailed stop/cleanup conditions.
+6. Qualified public issue2202 separately, including its research-scope note and unavailable comment collection; no incident reproduction or proposed fix adoption.
+7. Read actual upstream main: it is still b36e0829, the primary pin. No primary-main delta required reopening; channels, installations and external evaluator currentness remain outside that check.
+8. Applied unchanged METHOD §9 and recorded bounded completion with unresolved empirical/rule-composition limits. Published result and actual transfer are recorded in STATE.
 
-## What U08-B established
+There is no new product experiment, E identifier, test-success percentage or performance estimate. LC1/LC2 are source-directed compression clarifications, not independent causal validation.
 
-[S06](syntheses/S06-project-facing-contribution-and-comparison.md) connects the native source model to then-current project research at `7291b0ee112db55a365a6ba4c87a37e4dad66605`:
+## Closure and retained residuals
 
-- SOUL's goal of forming suitable working systems is broader than one development methodology; Development OS has more direct SDLC reuse opportunities.
-- Given-task coverage is not discovery of every necessary pursuit/prerequisite.
-- A sufficient view somewhere and an available brief somewhere do not establish the designated actor's common adequate/available basis; compact handoffs can still work with established complementary context.
-- Role, capability, legitimate decision authority and acceptance remain separate.
-- Clean versus parked completion, observed evidence, actual effect and retained decisions should not be compressed into one green state.
-- Recovery/portability depend on realized source, artifact, consumer and activation paths.
-- Stored guidance, counted use, valid report, retained behavior change and useful outcome are different claims.
+[CLOSURE-AUDIT](CLOSURE-AUDIT.md) evaluates each unchanged completion obligation. The native model, project contribution and traceable lower evidence are present; no known decision-critical omitted family remains for the stated explanatory purpose.
 
-The comparison uses recorded pins and evidence, not today's product ranking. gstack's conditional plan consumer was directly re-read at its study pin; Hermes' detailed library evidence and Flowable's bounded findings were reused without new upstream/runtime qualification. Their current research status was preserved. No new first-order Foundation region was established by these selected cases; this is not independent proof of completeness or an excuse to suppress later concrete gaps.
+Q13 scope/reapproval, Q20 authority composition, Q24 fresh/reused evidence and Q47 process/context/outcome trade-offs remain explicit, along with all Q01–Q47 routes and original experiment limits. Actual host loading, private-run provenance, grader calibration, all-channel release admission and production retention remain prerequisites for stronger claims, not unfinished universal source-audit tasks.
 
-Q13 scope/reapproval, Q20 authority composition, Q24 fresh/reused evidence and Q47 preparation/context/quality trade-offs remain explicit. S06's target-evidence table is a reuse aid, not an automatically admitted work queue.
+No original failed criterion was relabeled as a pass. No source was silently repinned. Same-assistant source challenge remains distinguishable from independent verification.
 
-## Next concrete sequence — U08-C
+## Next logical work versus next authorized work
 
-1. Recover STATE's required full context, especially S01–S06 and the U08-A/B source registers. The project-facing research is completed, not the next unit to repeat.
-2. Draft CORE from supported lower syntheses. Preserve the native definition, distinct work/method-change loops, route-conditioned authority, actual controller responsibilities and qualified evidence/effects. Do not repackage Foundation as a Superpowers-derived schema.
-3. Reverse-check the compact account against the source catalogue, original counterexamples and less-central families. Ask whether bounded/spike paths, native discovery, optional visual support, distribution inputs, diagnosis, lifecycle and external evaluation still have an adequate place. Follow exact source when compression hides a material exception.
-4. Distinguish a source omission from an unexecuted stronger empirical claim. Historical material and tests remain selectively reopenable; no arbitrary file quota or unlimited platform audit is required. Preserve known failed criteria.
-5. Perform a selective freshness check of the actual primary source/ref and relevant changed files. Compare to the pinned corpus; record unchanged/changed boundaries explicitly. Do not silently adopt newer code, reopen every comparator or reinterpret an old result as a current production claim. If exact access/coverage is insufficient, narrow the freshness conclusion honestly.
-6. Evaluate METHOD's bounded closure criteria: supported native explanation, traceable lower evidence, project-facing contribution, unresolved-boundary disposition and no known decision-critical omitted family for the stated purpose. Same-assistant review is not independent validation. A material new omission reopens its own bounded inquiry rather than receiving a ceremonial pass.
-7. Publish CORE and the actual closure/challenge record with coherent STATE/META/INDEX/CATALOG. Return the substantive result and limits to the user. Study closure never grants architecture/adoption or installation authority.
+**Next responsibility:** return the completed bounded result for owner evaluation. The owner may accept it, identify a concrete missing question or choose a specific reuse task.
 
-## Method and plan evolution
+**Automatically active substantive work:** none. Do not begin installation, integration, architecture, target implementation, another study, a new evaluator campaign or generic Foundation deepening from this closure.
 
-The complete v0.12 checkpoint is preserved at [the immutable U08-A plan](https://github.com/batuhanozgun/agentic-os-search/blob/7291b0ee112db55a365a6ba4c87a37e4dad66605/research/studies/superpowers/PLAN.md). Earlier history remains linked there. METHOD v0.1 and its bounded-completion standard are unchanged.
+A later explicit task may reopen the exact mechanism/source it depends on. Recover current target goals and authority, relevant lower evidence and technical freshness before deciding what to reuse. The catalog is a retrieval route, not an adoption decision.
 
-### v0.13 — Qualified project-facing reuse
+## Method/plan evolution
 
-- Recover current Foundation acceptance and post-review discussion, rather than importing old pending labels from historical syntheses.
-- Use substantive Work, Actors, Information integration, Environment and Composition results at question-relevant depth; do not merely label findings with four ground names.
-- Retain the owner's production-perspective correction as a real application limit, not evidence of a successfully completed initial example.
-- Add a non-skill execution-engine comparator to avoid treating all continuity as agent memory or all control as prompts; compare mechanisms and scope rather than total features.
-- Distinguish research-plan v0.28 from Hermes product manifest0.21.0 and recorded gstack revalidation from a fresh current-product claim.
-- Produce one project-facing synthesis and an additive provenance register. No new experiment was necessary for this interpretive unit.
+The complete earlier sequence and v0.13 plan remain at [the U08-B publication](https://github.com/batuhanozgun/agentic-os-search/blob/7d312c9e6dd26ec8393b5f4d94e99950775b16bf/research/studies/superpowers/PLAN.md). METHOD v0.1 and its success criteria remain unchanged.
 
-## Return condition and protected scope
+### v0.14 — Close the explanation, preserve stronger-claim conditions
 
-Return after a meaningful bounded result and usable canonical handoff. Only this study and necessary discovery entries may change. Foundation, context/Codex, other studies, concepts/explorations, Development OS, agent-control and upstream repositories remain protected. No user-host installation, paid/live campaign, credentials, upstream report or architecture/adoption is authorized. No background work is scheduled.
+- Complete the compact result and final reverse-source check rather than opening every remaining test/history file.
+- Keep SDD's restrictions route-specific and preserve the full stop contract against abbreviated release prose.
+- Distinguish direct source evidence from an incident report with incomplete discussion recovery.
+- Revalidate the primary main identity without replacing the historical evidence graph.
+- Change retrieval from an active continuation queue to selective closed-study reuse; keep all original source/claim paths recoverable.
+- Record research completion and owner acceptance separately.
+
+## Preservation boundary
+
+New CORE/audit/register and current package/discovery surfaces are the closure write set. METHOD, S01–S06, previous notes/registers/experiments, Foundation, context/Codex, other studies, concepts/explorations, agent-control and external repositories remain unchanged. No background work is scheduled.
