@@ -2,89 +2,90 @@
 
 ## Identity and authority
 
-- **Study ID:** `superpowers`
-- **Title:** Superpowers — Portable Agent Skills and Software-Development Methodology
-- **Study type:** `external-target`
-- **Status:** ACTIVE / PARTIAL. U01–U07 have bounded investigations; U08-A native composition is complete at synthesis scope. Four subsystem views S01–S04 and native whole-system model S05 exist. U08-B current project-facing research is next; CORE/final closure remain open. [STATE.md](STATE.md) owns work/completion authority.
-- **Primary object:** `obra/superpowers`: shared skill contracts, host integrations, helpers, work/evidence artifacts, evaluation and distribution mechanisms.
+- **Study ID / type:** `superpowers` / `external-target`.
+- **Title:** Superpowers — Portable Agent Skills and Software-Development Methodology.
+- **Status:** ACTIVE / PARTIAL. U01–U07 bounded investigations, U08-A native composition and U08-B project-facing research are complete at their stated scopes. **U08-C CORE and final omission/freshness challenge are next.** [STATE](STATE.md) owns completion and publication.
+- **Primary object:** `obra/superpowers`: skill/role contracts, host integrations, helpers, work/evidence artifacts, optional visual runtime, method evolution and distribution.
 - **Primary source:** https://github.com/obra/superpowers
-- **Primary pin:** `b36e0829c6d0140e93cfef2ca599b1b07d4a7797`; root tree `21219529a4e224bcb27baf8816b039c8bf7c6673`.
-- **Version context:** inspected manifests declare 6.3.0; not installed-version or release-channel qualification.
-- **Initial observation:** 2026-09-17; primary commit timestamp 2026-08-12T16:53:21Z. Latest bounded research observation: 2026-09-18.
-- **Evaluation lab:** `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`, separately observed 2026-09-17, commit dated 2026-09-12.
-- **Historical assessor source:** campaign-named `prime-radiant-inc/gauntlet@db6c8e0fcf80889aa6d9631c99adec698f6c0caa`, with exact `25a2e3e00431f8d8eb63781162ccb974d43d5405` delta. Not current HEAD or every campaign's binary. U08-A did not reopen these external implementations.
+- **Primary pin:** `b36e0829c6d0140e93cfef2ca599b1b07d4a7797`; tree `21219529a4e224bcb27baf8816b039c8bf7c6673`; inspected manifests6.3.0.
+- **Dates:** initially observed 2026-09-17; primary commit 2026-08-12T16:53:21Z; latest bounded research 2026-09-18.
+- **Lab:** `prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b`, separately observed9/17, commit9/12.
+- **Historical assessor:** `prime-radiant-inc/gauntlet@db6c8e0fcf80889aa6d9631c99adec698f6c0caa`, with exact `25a2e3e00431f8d8eb63781162ccb974d43d5405` delta separate. Not a current binary or every campaign's evaluator.
+- **U08-B project basis:** research-repository `7291b0ee112db55a365a6ba4c87a37e4dad66605`; current-at-recovery Foundation/context and selected comparator records. Not an audit of Development OS implementation.
 
-## Purpose and primary question
+## Purpose and native result
 
-The user authorized detailed studies research with a gstack-like source/synthesis methodology and successive continuation. The objective is source-grounded explanation and reusable candidate evidence for later SOUL / Development OS work, not installation or adoption.
+The user authorized detailed research with a gstack-like source/synthesis method and successive continuation. The objective is a source-grounded explanation and reusable candidate evidence for later SOUL / Development OS work, not installation or adoption.
 
-How do shared procedures, host delivery, work artifacts, actor decisions, verification, lifecycle, skill evolution and distribution compose from a request to delivered work, and where do their guarantees stop?
+[S05](syntheses/S05-native-system-model.md) describes a portable development methodology expressed through skill/role contracts, interpreted by host-provided agents and tools, supported by real adapters/file/Git helpers and an optional visual runtime. A separate method-development/evaluation/admission process can change future guidance. It is neither only prompts, a complete autonomous runtime nor one universal linear SDLC.
 
-The native explanation is now [S05](syntheses/S05-native-system-model.md): a portable development methodology expressed through skill/role contracts, interpreted by host-provided agents/tools and supported by concrete adapters/helpers and an optional visual runtime. Method development/evaluation is a separate connected process. This is neither only prompts nor a complete autonomous operating runtime or one universal linear SDLC.
+The coordinator performs semantic integration, not only scheduling: it selects relevant context, globals/interfaces and prior decisions, retains review ranges, resolves coverage gaps and carries qualified dispositions. This is a source-grounded responsibility account, not a measured universal cause of success or failure.
 
-Upstream instructions remain research objects, not active agent-control. Installed, discoverable, delivered, selected, followed and effective differ. So do reviewed/tested/integrated state, accepted residual risk, retained evidence, configured/materialized/loaded treatment, valid report and sound judgment. Visual access, selected state and approval differ; source revision, channel-specific artifact and active session also differ.
+## Research layers and bounded findings
 
-## Native synthesis routes
-
-| View | Principal contribution | Entry |
-|---|---|---|
-| Skill evolution/evaluation | Failure-specific intervention; comparison, observation, assessor validity, qualification and admission | [S01](syntheses/S01-skill-evolution-and-evaluation.md), preserved |
-| Availability/runtime/distribution | Host-conditioned delivery, multiple source/activation lifetimes, assembly inputs and supporting runtime | [S02](syntheses/S02-availability-runtime-and-distribution.md) |
-| Intent/planning/context | Scaled agreement, spec/plan/interfaces, semantic coordination and recoverable handoff | [S03](syntheses/S03-intent-planning-and-context-handoff.md) |
-| Execution/verification/delivery | Production versus review/disposition, test validity, correction, human integration and surviving records | [S04](syntheses/S04-execution-verification-and-delivery.md) |
-| Whole-system composition | Two linked loops, actor/stage authority, scope-resolved and unresolved seams, qualification across consumers | [S05](syntheses/S05-native-system-model.md) |
-
-These are overlapping derived views, not independent corroboration or adopted architectural components. Eleven mechanism notes, four subsystem syntheses, one native whole model, ten source-register volumes and eight original local experiments E01–E16 exist. U08-A added no experiment or new F-series implementation result.
-
-## Bounded findings retained
-
-**U01–U02:** selected delivery/cache/re-entry and action mapping; three request paths; phase-conditioned authority; spec/plan/interfaces, workspace and ledger recovery with identity/revision/materialization limits.
-
-**U03–U05:** one task reviewer/two verdicts, scoped correction and broad final review; DONE versus accepted/parked completion; test chronology, oracle and applicability; evidence-led diagnosis; human integration and merged-result retest; distinct cleanup, disclosure and evidence retention. Earlier helper/Git observations remain at their exact local scope.
-
-**U06:** failure-specific authoring and admission; outcome-oriented review without mandatory skill/tool; projected roles, indexed evidence and pass/fail/indeterminate; canonical criterion/read-before-cite controls; format repair, digest-bound publication and accounting qualifications. Public reports include semantic misses despite valid representations. Actual loaded treatment, private-run authentication, calibration and general efficacy remain unverified.
-
-**U07:** optional consent-gated visual support, access/file/process checks and event/selection/approval distinctions; source/client field mismatch and multi-select/recovery limits. Selected-ref archive differs from working-copy/destination-overlay sync. Exact JSON-only version-helper cases distinguish strict checking, advisory audit, skipped/missing inputs and partial writes. Real browser/server, package assembly/sync, release and host behavior were not qualified.
-
-**U08-A:** native model preserves the controller's semantic coordination role and two connected work/method-change loops. It resolves some apparent tensions by scope while retaining Q13/Q20/Q24. A fully read public issue and follow-up distinguish reported main-context pressure from bad-work claims; no transcript or causal comparison was supplied. The derived insight is that process weight, context isolation, verification effort and authority are different dimensions, not that one route has proven superiority.
-
-## Potential relevance — provisional retrieval hints
-
-| Area | Possible reuse, not an adopted design |
+| Layer | Recoverable contribution |
 |---|---|
-| Information | Description/body/revision; spec→plan→brief→report→diff; context selection and shared omission; source exposure, repair/digests and known/complete measurement; event and composite artifact provenance. |
-| Work | Phase authority, testable decomposition, resumption, correction caps, qualified completion and partial delivery; separate work and method-change loops. |
-| Actors | Human/controller/worker/reviewer responsibilities; semantic coordination; authority versus judgment; visual feedback, admission and source/destination ownership. |
-| Environment | Host/module/session lifetime, worktree ownership, retention and materialization; access/process controls; channel-specific assembly, caches and activation. |
-| SOUL | Candidate mechanisms and falsifiers for goal/evidence/authority continuity, appropriate intervention, uncertainty preservation and qualification surviving handoffs. |
-| Development OS | Concrete SDLC cases covering planning, delegation, review/testing, correction, integration, retained decisions and controlled method evolution/distribution. |
+| U01 | Host-conditioned discovery/delivery, invocation, cache and re-entry; procedure recovery differs from current-work recovery. |
+| U02 | Three request routes, phase authority, spec/plan/interfaces, workspaces and ledger recovery; identity/revision/materialization and context-transfer limits. |
+| U03 | One task reviewer/two verdicts, scoped corrections, serial/batched SDD versus independent-domain parallelism; clean versus parked completion and caller-selected ranges. |
+| U04 | Test chronology, sensitivity, independent expectations and applicability; hypothesis-led diagnosis, feedback validation and fresh/reused evidence boundaries. |
+| U05 | Human integration choice, merged-result retest, partial delivery and cleanup; committed code, disclosed rulings and detailed evidence have separate retention. |
+| U06-A/B1/B2 | Failure-specific intervention selection; outcome-oriented evaluation; indexed evidence, canonical criteria/read-before-cite, representation repair, publication/accounting and semantic qualification limits. |
+| U07-A/B | Optional visual dialogue support, access/process controls, event/selection/approval and retention; source/channel/artifact/activation distinctions; strict check versus advisory audit and partial mutation. |
+| S01–S04 | Four native subsystem views. |
+| S05 | Native whole-system explanation and resolved/unresolved composition register. |
+| S06 / U08-B | Qualified Foundation/project-facing contribution and recorded gstack/Hermes/Flowable comparison. Not a new Foundation result or product ranking. |
 
-These are many-to-many discovery hints, not current Foundation taxonomy, ontology relations, dependencies or architecture authority. U08-A did not freshly recover Foundation or comparator research; actual project-facing assessment remains U08-B.
+Eleven mechanism notes, four subsystem syntheses, one native whole model, one project-facing synthesis, eleven source-register volumes and eight original local experiments E01–E16 exist after publication. U08-A/B added no experiment or F-series implementation finding. Syntheses are dependent views, not additional independent evidence.
 
-## Reuse and revisit
+## Project-facing relevance — now investigated, still provisional
 
-Start at STATE for continuation or S05 for the native model, then follow S01–S04 and the relevant mechanism/source. Reuse modes include mechanism reference, implementation-learning, design pressure, falsifier/counterexample, test-case seed and negative-option evidence.
+[S06](syntheses/S06-project-facing-contribution-and-comparison.md) and [its source/reuse register](SOURCE-LEDGER-U08B.md) explain the actual contribution and target-evidence limits.
 
-Revisit for discovery/re-entry, plan/review identity, context transfer, qualified completion, retention, intervention choice, comparison design, semantic entailment, accounting completeness, treatment attribution, event binding, artifact-input provenance, validation modes or active-session updates. Q01–Q46 remain in prior notes; U08-A adds Q47 on process/context/verification/authority trade-offs. These questions do not authorize automatic experiments or fixes.
+| Area | Candidate reuse contribution |
+|---|---|
+| Information | Common adequate/available consumer view; task brief versus globals; established side information; source/revision/scope and qualifications surviving derived reports. |
+| Work | Given-task coverage versus necessary-pursuit discovery; route-specific decomposition, correction/adjudication, qualified completion and meta-work. |
+| Actors | Performer/reviewer/coordinator/human roles versus capability, legitimate authority, acceptance and responsibility; non-performing parties must not disappear. |
+| Environment | Situated actionability; installed files versus host/module/session activation; resource/access/sufficiency and actual effects. |
+| Composition | Exact binding, standing, realized effect control/propagation and feedback/adaptation; a recorded or accepted transition is not every downstream result. |
+| SOUL | Mechanism/countercase input for forming an appropriate working system, rather than treating one software method as the general product architecture. |
+| Development OS | More direct SDLC references for context handoff, review/testing, integration/retention and controlled method changes, subject to actual target requirements. |
 
-## Evidence and authorization boundaries
+These are many-to-many research relations, not Foundation taxonomy membership, ontology, dependencies or architecture authority. Selected cases did not establish a new first-order Foundation region; this does not prove exhaustive or independent adequacy.
 
-Candidate research is not Foundation truth or SOUL / Development OS architecture. No user-host installation, upstream issue/change, paid/credentialed live-model campaign or adoption is authorized.
+## Comparators and scope
 
-Eight original experiments have narrow exact-helper, mocked-client or synthetic Git/JSON scopes. U06's public first-party reports are not our live evaluations; private transcripts/receipts were not authenticated. I01/I02 are mutable participant reports without a supporting transcript, not a demonstrated performance regression. The external host-policy claim is not current independently verified guidance.
+U08-B recovered gstack's recorded v1.79 corpus and v1.80 revalidation context, with direct pinned plan-completion source re-entry; Hermes' active/partial manifest0.21.0 library lifecycle study; and Flowable's pinned durable process/case/migration findings. It did not resume their research programs or certify current products. Hermes research-plan v0.28 is not its product version. Differences in scope, maturity and evidence prevent a performance ranking or automatic integration recommendation.
 
-Synthesis does not upgrade these inputs. A complete schema and read reference do not prove sound judgment; a digest binds bytes, not truth. A source SHA need not identify external metadata or dirty working content. A successful diagnostic need not qualify every intended effect; a failed action need not roll back previous effects. A clean task, a parked task, a passing test and authorized publication are different standings.
+The comparison adds alternatives: conditional delivery qualification, procedure-library custody/visibility and engine-owned modeled transitions. These remain candidate mechanisms, not choices already made for SOUL.
 
-The source has meaningful protections and trade-offs. Their boundaries must not become blanket unreliability or universal guarantees. Native source composition is complete as a bounded explanation; empirical effectiveness, exact loaded provenance, administrative admission and actual cross-skill interpretation remain qualified.
+## Reuse and revisit triggers
 
-## Freshness and continuation
+Reuse modes: mechanism reference, implementation-learning, design pressure, falsifier/counterexample, comparison frame and validation-obligation discovery.
 
-Primary and lab pins remain unchanged; no fresh HEAD, installed-version or release verdict. Copied vendor/platform guidance remains source data unless separately revalidated. Operational reuse requires current sources/runtime and provenance sufficient for the intended claim.
+Re-enter for task discovery/coverage; worker/reviewer context; authority versus effect reach; evidence object/freshness; qualified completion; record retention; method/instrument changes; actual loaded treatment; visual-event binding; artifact/metadata provenance; or source-to-active-session updates. S06's question/contribution/missing-target-evidence table supports selective retrieval, not mandatory additional infrastructure.
 
-[STATE](STATE.md) owns continuation; [INDEX](INDEX.md) routes sources, notes and experiments; [METHOD](METHOD.md) remains v0.1; [PLAN](PLAN.md) is v0.12. [SOURCE-LEDGER-U08A](SOURCE-LEDGER-U08A.md) adds synthesis provenance and I01/I02 qualification without replacing older registers.
+Q01–Q47 remain in their original notes and S05; preserve especially Q13 scope/reapproval, Q20 generic/specialized authority, Q24 fresh versus reused verification and Q47 process-weight/context/outcome trade-offs. Empirical gaps are prerequisites for stronger claims, not automatically admitted endless audits.
 
-Next: current Foundation/project and selective comparator recovery for U08-B, followed by CORE and final omission/freshness challenge. No completed project-facing comparison, CORE or adopted architecture exists.
+## Evidence and authorization limits
 
-## Related studies
+No user-host installation, credentialed/paid live-model campaign, upstream issue/change, target implementation or architecture adoption is authorized. Target instructions remain research objects, not active agent-control.
 
-[gstack](../gstack/META.md) supplied the method precedent, not an imported architecture or current-runtime comparison. Hermes, AI-native SDLC, context/memory/harness and other studies remain selective comparators. Their names are retrieval leads, not newly validated facts or authorization to adopt them.
+Original local experiments are narrow, source-informed fixtures; successful collection is not product success and their failed stronger criteria remain unchanged. Public evaluator reports and issue2203 are attributed records, not authenticated private-run replication. No general Superpowers efficacy, grader calibration, all-host isolation or automatic release acceptance was established. Valid schema, read reference and digest do not establish semantic truth; visible/persisted use does not establish benefit.
+
+U08-B uses accepted Foundation research without upgrading its same-assistant verification status. The production-perspective correction is a conversational omission, not a new quantitative experiment. Selected comparator findings retain original source/test limitations; no current product ranking, live engine/host behavior or Development OS implementation status is inferred.
+
+## Freshness and entrypoints
+
+No new Superpowers HEAD, installed-version or release verdict was issued in U08-B. Revalidate current external facts and target authority before operational/adoption reuse. Project context is dated and bound, not a rolling duplicate of another repository's authority.
+
+- [STATE](STATE.md): current/next work and actual publication.
+- [INDEX](INDEX.md): mechanism, evidence and claim-directed routes.
+- [METHOD](METHOD.md): v0.1, unchanged.
+- [PLAN](PLAN.md): v0.13, U08-C next.
+- [S05](syntheses/S05-native-system-model.md): native model.
+- [S06](syntheses/S06-project-facing-contribution-and-comparison.md): investigated project-facing contribution.
+- [U08-B register](SOURCE-LEDGER-U08B.md): current project/comparator inputs and direct external re-entry; earlier source volumes remain linked from STATE/INDEX.
+
+CORE and final closure remain open. The complete previous metadata is preserved at [the U08-A checkpoint](https://github.com/batuhanozgun/agentic-os-search/blob/7291b0ee112db55a365a6ba4c87a37e4dad66605/research/studies/superpowers/META.md). No earlier note, source register, experiment, native synthesis or comparator is rewritten by this update.
