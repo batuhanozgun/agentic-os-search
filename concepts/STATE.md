@@ -1,5 +1,23 @@
 # Concepts — Güncel Durum
 
+## Güncel mola ve yön değerlendirmesi — 2026-09-18
+
+**Güncel durum:** YENİ TERİM / BATCH GENİŞLEMESİ DURDURULDU. Kullanıcı, konuşmanın ve repository'nin yeniden okunmasını, konunun toparlanmasını ve yönün ortaya konmasını istedi; drift riski uyarısı yaptı.
+
+**Son kullanıcı yönü:** “Burada bir mola ver, şimdi konuşmayı baştan sona tam okuma yap, repoyu da oku. Konuyu toparlaman ve yönü ortaya koyman lazım. drift yapmaya başlamak üzeresin.”
+
+Bu yön, aşağıdaki son yayın kaydının ve diğer girişlerdeki sonraki-batch adaylarının önündedir. Outcome ile başlayan liste otomatik sıradaki iş değildir. Mevcut 40 maddelik v0.4 korunur; bütün maddelerin kaynak doğrulaması ve birlikte kullanım sınaması tamamlanmış sayılmaz. Yeni terim, v0.5, kabul edilmiş referans veya SOUL/Development OS kararı bu mola kaydıyla üretilmez.
+
+**Bu turun kapsamı:** Amaç/yöntem/çıktı tutarlılığını incelemek ve kullanıcıya gerekçeli yön değerlendirmesi sunmak. İncelenen yayın tabanı `b750e4a020114b7a158b37d98513f3fa0f6b6535`; concepts altındaki 23 dosya tam geri okundu. Bu, bütün Foundation/studies corpus'unun veya geçmişte anılan bütün dış kaynakların yeniden doğrulandığı anlamına gelmez.
+
+**Assistant'ın değerlendirme yönü; yeni uygulama planı kabulü değil:** Bağlı kavramlarla ilerleme korunmalı; terim sayısını büyütmek yerine mevcut anlamların somut kullanımları ve kaynakla ilişkisi sınanmalı. Güncel yönlendirmelerin eski v0.1'e dönmesi, yöntem/planın son kullanıcı iş devrini tam taşımaması, kısa tanımlarda kapsam kaybı ve ayrım listelerinin gerçek çakışma testi gibi sunulması gözden geçirilmelidir. Son batch'lerdeki canlı-kaynak okuma iddiaları yalnız URL/tarih kaydından doğrulanmış kabul edilmemelidir.
+
+Kullanıcı daha önce çalışma tanımlarını assistant'ın seçip ilişkili kavramlarla ilerlerken düzeltmesini istedi; bu mola tek tek terim onayı döngüsüne dönüş gerekçesi değildir. Sonraki sorumluluk, yön değerlendirmesini ele almaktır; yeni bir 10'luya kendiliğinden geçmek değildir. Bu kayıt yalnız güncel durdurma ve değerlendirme sınırını korur; yöntem, tanımlar ve eski araştırma gövdeleri bu tur yeniden yazılmaz.
+
+## Mola öncesindeki son yayın kaydı
+
+Aşağıdaki bölüm v0.4 yayınının tarihsel durumunu korur; yeni devam yetkisi değildir.
+
 **Kayıt tarihi:** 2026-09-18.  
 **Mevcut iş:** Dördüncü 10-terim batch'i tamamlandı; toplam 40 terim için working local reference v0.4 hazırlandı. Bu turun dönüş noktası sonucu kullanıcıya sunmaktır.  
 **Yöntem:** [METHOD v0.2](METHOD.md) — bağlantılı batch + ilişki haritası + çakışma üzerinden fine-tune.  
