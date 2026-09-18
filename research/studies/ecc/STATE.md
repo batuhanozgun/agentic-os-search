@@ -2,7 +2,7 @@
 
 **Updated:** 2026-09-18
 **Checkpoint:** U06-B — fact-forcing, retained checks and decision composition
-**Work status:** U06-B substantive source slice COMPLETE; publication/readback IN PROGRESS. Finish scoped integration, current discovery entry and actual receipt/readbacks before starting U06-C. A prepared tree is not a published result.
+**Work status:** U06-B COMPLETE / PUBLISHED. Research commit `84d857a910098055b3e43811babfceb8215ef359` reached main by non-force fast-forward; main Note10/source/PLAN/STATE readbacks completed. [PUBLICATION-U06-B](PUBLICATION-U06-B.md) records exact scope, checks and the pre-publication catalog correction. No owner upload or merge is pending.
 **Study:** ACTIVE / PARTIAL. **METHOD / PLAN:** 0.1 / 0.11.
 **Unchanged target:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 
@@ -32,7 +32,7 @@ Q07b1 bounded; Q07b2 open for facts actually supplied/used, benefit, current-tar
 
 Batu owns purpose/material phase choices. Assistant owns authorized research, proportionate isolated fixtures, sequencing, repository organization and verifiable publication. Writes: research/studies/ecc/** plus only ECC discovery row/route in shared CATALOG/INDEX. Preserve other studies, Foundation, soul-context, explorations, upstream and agent-control. No real installation, user-home/config/cache change, credentials/provider/model calls, upstream report/patch or SOUL/Development OS implementation.
 
-After current control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then Note10, U06-B sources, ROUND-U06-B and current publication receipt when linked. Recover the U06-A reconciliation below when referring to E05; do not rerun experiments to recover progress. Old master histories through U03-B and subsequent unit notes/sources/rounds/receipts retain their identities.
+After current control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then Note10, U06-B sources, ROUND-U06-B and [PUBLICATION-U06-B](PUBLICATION-U06-B.md), including its maintenance addendum. Recover the U06-A reconciliation below when referring to E05; do not rerun experiments to recover progress. Old master histories through U03-B and subsequent unit notes/sources/rounds/receipts retain their identities.
 
 At entry, main equalled continuity commit `3d93615ae51e4e85cd509e49f65b4c2afbad07c0`; prior required full same-conversation sources/control remained available. This is not an independent cold-start experiment. Auxiliary raw download failed at DNS; connector reading remained available. Publication checks and scope, not prepared object creation, determine final published standing.
 
