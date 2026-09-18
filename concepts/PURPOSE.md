@@ -46,3 +46,31 @@ Bir açıklamadaki terim sonucu değiştiriyorsa, kaynaktaki anlamı, burada kas
 - Araştırma/sentez/ortak kullanım kabulünü, bilimsel doğrulama veya işlem yetkisiyle eşitlemek.
 
 Bu alanın yöntemi değiştirilebilir. Yeni kanıt veya açıklayıcı karşı örnek mevcut anlamı sorgulatabilir. Değişen anlam ve önceki kullanım görünür kalır; sessiz anlam değişikliği yapılmaz.
+
+## U01 sonrası yöntem netleştirmesi — 2026-09-18
+
+Aşağıdaki seçili ifadeler bu oturumdaki kullanıcı mesajlarından alınmıştır. Önceki hazırlık yönünü silmez; nasıl uygulanacağını daraltıp netleştirir.
+
+> “araştırmaların bizi ordan oraya savurmasına izin vermeyelim.”
+
+> “planı uygulayacağız diye bataklıkta çabalamayalım.”
+
+> “Yani ben planı çok katı olsun istemiyorum ama anlamlı bir şekilde terimi irdeleyerek, terimi irdelerken farklı terimleri de bulmuşken / karşımıza çıkmışken irdeleyip kararlaştırdığımız bir yapıda götürelim diye düşünmüştüm.”
+
+> “Agent budur demeyeceğiz, biz agent terimini bu anlama gelecek şekilde kullanıyoruz diyeceğiz.”
+
+> “bu diyeceğimiz şey de dünyadan kopuk olmasın diye araştırıp karar vermeye çalışıyoruz.”
+
+Assistant'ın bağlantılı inceleme ve gerektiği kadar komşu araştırma açıklamasından sonra kullanıcı şu yönü verdi:
+
+> “evet bu daha benim bahsettiğim çalışma yapısına benziyor.”
+
+> “Önce çalışma şeklimizi oturtalım ki, her turda ya da yeni konuşmada aynı bakış açısı ile çalışabil. Repoyu düzenlemen lazım ama atlama hiçbir dosyayı.”
+
+> “Önce repodaki dosyaların bu yapıya uygun olması gerekiyor, daha doğrusu uygun olup olmadığına bak, gerekli ise yeniden yaz ya da düzelt.”
+
+**Assistant konsolidasyonu:** Bir terimden başlanabilir; karşılaşılan terim, işlev ve ilişki soruları mevcut anlam ihtiyacına göre birlikte incelenir. Tekil terim kuyruğu veya tüm alanın kapanmasını bekleyen global araştırma fazı kurulmaz. Yeterli kaynak zemini oluştuğunda erken yerel kullanım adayı tartışılır. Kaynak gözlemi, karşılaştırma ve karşılıklı kullanım kabulü yine ayrı kalır. Bir turda her şeyin bitmesi de şart değildir.
+
+**Kabulün kapsamı:** Kullanıcı çalışma biçiminin repository'ye uygulanmasını yetkilendirdi. Sohbetteki temsili Agent tanımını, “zorunlu komşular” listesini, belirli bir kavram ağacını veya “hazır/özel agent” ayrımını kabul etmedi. Model/ürün adı örnekleri doğrulanmış güncel ürün bilgisi değildir. Kullanıcının terim çeşitliliğine ilişkin genel ifadesi evrensel bir araştırma bulgusu olarak kaydedilmez.
+
+Bu tur yöntem, plan, durum ve giriş yollarının uyarlanmasıdır; yeni kaynak araştırması ya da ortak Agent tanımının kurulması değildir. U01 kaynak kaydı korunur. Sonraki kavram çalışması için güncel yöntem [METHOD](METHOD.md), devam sorumluluğu [STATE](STATE.md), dosya bazlı uyum ve kontrol kaydı [buradadır](checks/METHOD-ALIGNMENT-2026-09-18.md).
