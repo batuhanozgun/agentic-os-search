@@ -4,7 +4,7 @@ Bu alan, **“Biz bu ifadeyi şu bağlamda şu anlamda kullanıyoruz”** biçim
 
 ## Kabul edilmiş kayıtlar
 
-Henüz ACCEPTED ortak kavram kaydı yoktur. Güncel [working local reference v0.3](../synthesis/CORE-TERMS-WORKING-v0.3.md) ilk üç batch'teki 30 terimi birlikte taşır; accepted değildir ve çakışma çıktıkça değişebilir. v0.1/v0.2 tarihsel snapshot'lardır. Güncel çalışma ve yetki [STATE](../STATE.md)'tedir.
+Henüz ACCEPTED ortak kavram kaydı yoktur. Güncel [working local reference v0.4](../synthesis/CORE-TERMS-WORKING-v0.4.md) ilk dört batch'teki 40 terimi birlikte taşır; accepted değildir ve çakışma çıktıkça değişebilir. v0.1–v0.3 tarihsel snapshot'lardır. Güncel çalışma ve yetki [STATE](../STATE.md)'tedir.
 
 ## Bir kaydın neyi açıklaması gerekir?
 

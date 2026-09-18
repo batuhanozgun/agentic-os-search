@@ -1,11 +1,11 @@
 # Core Terms — Working Local Reference v0.3
 
 **Tarih:** 2026-09-18.  
-**Statü:** WORKING LOCAL REFERENCE / EVOLVING; tek tek terim onayı beklenmez.  
+**Statü:** SUPERSEDED WORKING SNAPSHOT; ilk 30 terimin tarihsel v0.3 görünümü.  
 **Kapsam:** Üç batch, toplam 30 bağlı terim. Evrensel sözlük, nihai ontoloji veya SOUL mimarisi değildir.  
 **Dayanak:** [U03](../research/U03-CORE-TERMS-BATCH1.md), [U04](../research/U04-CORE-TERMS-BATCH2.md), [U05](../research/U05-CORE-TERMS-BATCH3.md), Agent U01/U02 ve ilgili studies.
 
-Bu sürüm v0.2'yi supersede eder. Önceki sürümler tarihsel snapshot olarak korunur. Working map yeni kaynak/gerçek kullanım/çakışma çıktıkça birlikte fine-tune edilir.
+Bu sürüm v0.2'yi supersede etmiş tarihsel snapshot'tır. Güncel working reference [v0.4](CORE-TERMS-WORKING-v0.4.md)'tür.
 
 ## 30 çalışma tanımı
 
@@ -201,4 +201,4 @@ Harness
 
 Goal, Intent, Plan, Task/Work item, Dependency, Readiness, Completion, Validation, Evaluation, Evidence.
 
-Bu liste sonraki batch seed'idir; sabit sıra değildir.
+Bu liste U06 batch'inde işlendi. Güncel devam için v0.4 ve STATE'e dön.
