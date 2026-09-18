@@ -2,7 +2,7 @@
 
 **Kayıt tarihi:** 2026-09-18.
 **Faz:** P1 / seviye 1; Agent araştırması başladı. U01 ilk sınırlı dilim hazır; araştırmanın bütünü tamamlanmadı.
-**U01 yayın durumu:** YAYIN ADAYI; main birleşimi ve yayın sonrası geri okuma henüz kaydedilmedi. P0 hazırlığının tamamlanmış yayını ayrı ve korunuyor.
+**U01 yayın durumu:** MAIN ÜZERİNDE YAYIMLANDI; PR #19 birleşti, U01 ve STATE geri okundu. Yayın kimlikleri ve kontrol sınırları aşağıdadır. P0 hazırlığının tamamlanmış yayını ayrı ve korunuyor.
 **Mevcut araştırma çıktısı:** [Agent U01 — kaynak kullanımları](research/agent/U01-SOURCE-USES.md).
 **Dönüş noktası:** İlk kaynaklı kullanımları, somut farkları ve açık soruları kullanıcıya sunmak; ortak tanım veya tasarıma geçmemek.
 
@@ -36,15 +36,21 @@ P0'ı veya U01'deki ilk kaynak taramasını yapılmamış iş sanma. U01'de kayn
 
 **Sıradaki mantıklı araştırma:** U01'in açık bıraktığı “Agent oluşturmak” ifadesini yapılandırma, çalıştırma ve daha kalıcı yürütme birimi ayrımlarıyla birkaç somut kaynak üzerinden derinleştirmek. S3'teki dinamik workflow/Agent kontrol sınırı da açık kalır; bütün komşu terimler aynı anda açılmaz.
 
-**Şu andaki yetkili kapanış işi:** U01'i yayımlayıp gerçek geri okumayı kaydetmek ve sonucu kullanıcıya döndürmek. Bu dönüşten sonraki yeni dilim kullanıcı devam yönüyle açılır; burada aday gösterilmesi yeni aşama yetkisi değildir.
+**Mevcut dönüş işi:** Yayın ve geri okuma tamamlandı; U01 sonucunu kullanıcıya sunmak. Bu dönüşten sonraki yeni dilim kullanıcı devam yönüyle açılır; burada aday gösterilmesi yeni aşama yetkisi değildir. Ortak tanım veya tasarım yetkisi yoktur.
 
 Kullanıcı araştırma yönünü ve ortak kullanım değerlendirmesini taşır; assistant yetkili araştırmayı, kaynak doğruluğunu, kayıt ve yayın tutarlılığını yürütür. Seviye 3 için belirli açıklama/kapsam, assistant'ın gerekçeli önerisi ve kullanıcının o açıklamaya dair açık değerlendirmesi görünür olmalıdır. Genel memnuniyet veya plan onayı terim kabulüne çevrilmez.
 
-## U01 kapsamı ve yayın hazırlığı
+## U01 kapsamı ve gerçekleşen yayın
 
-Kontrol ve proje başlangıç okumaları main `0743feae8728faebb48982ec22c447b06f2a0eaa` üzerinden yapıldı. Yayın hazırlığında main `a3c208905560e0f998c0af019b235825a276969e` oldu; karşılaştırma yalnız ECC `ROUND-U08-A.md` ekini gösterdi. U01 bu güncel tabanı korur.
+Kontrol ve proje başlangıç okumaları main `0743feae8728faebb48982ec22c447b06f2a0eaa` üzerinden yapıldı. Yayın hazırlığında main `a3c208905560e0f998c0af019b235825a276969e` oldu; karşılaştırma yalnız ECC `ROUND-U08-A.md` ekini gösterdi. U01 bu güncel tabanı korudu.
 
-Yazma kapsamı beş yoldur: yeni `concepts/research/agent/U01-SOURCE-USES.md`; mevcut Agent BRIEF, seviye 1 INDEX, TERM-INVENTORY ve bu STATE. BRIEF kapsamı ve envanter listesi yeniden yazılmaz; yalnız araştırmaya giriş/durum bağlantıları güncellenir. Agent-control, Foundation, studies, explorations, publications, ortak referans ve sentez dosyaları değiştirilmez. Main yayını ile ilgili gerçekleşen kontrol aşağıda ayrıca güncellenecek; branch'te bulunmak main yayını değildir.
+Yazma kapsamı beş yoldur: yeni `concepts/research/agent/U01-SOURCE-USES.md`; mevcut Agent BRIEF, seviye 1 INDEX, TERM-INVENTORY ve bu STATE. BRIEF kapsamı ve envanter listesi yeniden yazılmadı; bu üç giriş/envanter dosyasında yalnız birer giriş/durum satırı değişti. Agent-control, Foundation, studies, explorations, publications, ortak referans ve sentez dosyaları değiştirilmedi.
+
+**Yayın:** [PR #19](https://github.com/batuhanozgun/agentic-os-search/pull/19), çalışma branch'i `research/concepts-agent-u01-20260918`, exact head `75179c8fd73411a0be8c5ac2b379ec47197c5afb`, main merge commit `2a3eeb1fe0853b408d07c1fbd83828e33439efbf`. Normal merge kullanıldı; force veya başka oturumun branch'ine yazma yok. Branch artık bekleyen araştırma yayını veya alternatif current state değildir; main canonical kaynaktır.
+
+**Gerçekleşen kontroller:** PR diff'i tam okunarak beş yol kapsamı, mevcut üç küçük dosyada tek-satır değişimi ve yeni kaynak kaydı kontrol edildi. Merge öncesi PR head/base yeniden okundu. Yayın head'i ile merge commit'i karşılaştırması sıfır dosya farkı verdi; incelenen içerik ve eşzamanlı ECC tabanı korundu. Main üzerinden U01'in 1–48 ve 49–92 satırları ile STATE tam geri okundu; U01 blob kimliği `22f04d1c120afa91781f680af32bf3b5944c3d30`. Yeni devam bağlantıları yayımlanan U01'e yöneliyor. Bu kayıt, gerçekleşmiş yayını STATE'e işleyen kapanıştır; yeni araştırma sonucu eklemez.
+
+Bunlar kapsam, içerik aktarımı ve çalışma sürekliliği kontrolleridir; bağımsız bilimsel doğrulama, kod yürütme testi, bütün repository için link taraması veya gelecekteki iletişim kalitesinin kanıtı değildir. Kullanıcının elle upload veya merge yapması gerekmiyor.
 
 ## Korunan P0 yayın geçmişi
 
