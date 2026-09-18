@@ -1,63 +1,66 @@
 # ECC — Adaptive Research Plan
 
-**Version:** 0.13 / 2026-09-18. **Maintenance clarification:** interrupted U08-A publication recovered as IN PROGRESS, not NOT STARTED or COMPLETE. STATE owns work/publication; METHOD 0.1 retained. Research sequence and closure criteria are unchanged. See [recovery record](RECOVERY-U08-A-20260918.md).
+**Version:** 0.14 / 2026-09-18. STATE owns current work/publication; METHOD 0.1 retained. This revision closes the Plan Canvas source question and selects the next family. It does not validate historical E06 or lower completion criteria.
 
 ## Current revision
 
-U07-A completes a bounded breadth checkpoint: [material-family map](inventory/U07-A-FAMILY-MAP.md), [S152–S172 and re-entry sources](evidence/U07-A-SOURCES.md), [MR12](ROUND-U07-A.md). Root-directory dispositions and concrete entry paths expose human review, Rust/operator control, separate evaluation frameworks, model/provider, generated distribution and release/observability gaps. P1's complete recursive/semantic coverage and final reverse-inventory challenge remain open.
+U08-A supplies [Note12](notes/12-PLAN-CANVAS-FEEDBACK-AND-CONTINUATION.md), [source ledger](evidence/U08-A-SOURCES.md) and [MR13](ROUND-U08-A.md): artifact → browser input → persisted queue → HTTP/Stop consumer → procedure-defined continuation, with revision, interruption, ended-session discovery and output-projection contrasts. Source-only closure is distinct from recovery of the old experiment. [The recovery diagnosis](RECOVERY-U08-A-20260918.md), quarantined objects and checks remain unchanged; E06 outcomes cannot support claims.
 
-U08-A source inquiry started, but final note/ledger and verified experiment publication did not close. The current prerequisite is coherent source-grounded U08-A publication with the old E06 outcomes excluded as unverified. The recovery record preserves exact available sources and quarantined objects. A source-only unit can close its bounded source question; any necessary new experiment must be separately identified, never substituted for historical E06.
-
-Comprehensive joint evaluation remains after completed research; intermediate checks and native synthesis continue. Branch/merge timing is assistant-managed. Recoverable correspondence matters, not branch count or immediate per-round merge. Do not lower closure criteria to reach the discussion sooner.
+The [U07-A family map](inventory/U07-A-FAMILY-MAP.md) remains the breadth authority. No new complete recursive inventory, mirror audit, native synthesis or CORE is claimed. Comprehensive joint evaluation stays after completed research; internal quality checks and scoped synthesis continue. Branch/merge timing is assistant-managed; recoverable correspondence, not immediate merge or branch count, is the objective.
 
 ## Phase map
 
 | Phase | Current standing / obligation |
 |---|---|
 | P0 Method/work foundation | U00 complete; no repeat setup |
-| P1 Native discovery | U07-A first-tier material-family accounting complete; descendants/mirrors/representativeness remain PARTIAL |
-| P2 Mechanism slices | U01-A/B, U02-A, U03-A/B, U04-A, U05-A/B, U06-A/B/C bounded complete; U08-A IN PROGRESS, publication/evidence recovery recorded |
-| P3 Subsystems/relations | Scoped synthesis candidates in the family map; actual producer/consumer links, not common labels. No whole-system synthesis claimed |
+| P1 Native discovery | First-tier family accounting; descendants/mirrors/representativeness PARTIAL |
+| P2 Mechanism slices | Earlier bounded units retained; U08-A source explanation complete subject to STATE publication closure; U09-A selected next |
+| P3 Subsystems/relations | Scoped synthesis candidates in U07-A map, not completed whole-system synthesis |
 | P4 Project comparison | Then-current Foundation/project and selected studies; joint discussion after research completion |
-| P5 CORE/closure challenge | Consequential unexplained families and reverse-inventory/holdout checks still required |
-| P6 Method case | MR12 observed a changed source-grounded next selection; MR13 research-effect assessment unfinished; publication failure is recorded, not hidden |
+| P5 CORE/closure challenge | Consequential unexplained families and reverse-inventory/holdout checks remain |
+| P6 Method case | MR13 separates recovered source work from unusable experiment evidence and records publication cost; no independent method efficacy |
 
-The family map owns detailed coverage dispositions. Do not duplicate it as a second authoritative source list. Its root accounting is not a final semantic taxonomy or exhaustive runtime audit.
+## U08-A disposition
 
-## U08-A — current authorized unit, IN PROGRESS
+Q04f1 is bounded by the implemented feedback route. Actual controls include input normalization, conditional disk retention, user-end reopening refusal, async hook forwarding and expiring presence. The claim that all feedback is losslessly delivered and authoritatively accepted is not established. Q04f2 preserves exact-revision/actor binding, acknowledged consumption, ended-session discovery, Stop projection and live-host/parallel-consumer questions.
 
-**Question Q04f:** How does Plan Canvas connect a particular artifact to human feedback, a retained review session and the agent's next action? Which conditions distinguish message arrival, delivery, consumption, valid approval and actual continuation?
+The source unit does not require another experiment just to replace lost progress. Any future necessary run needs a separate identity and must leave the original E06 history untouched. The new source note and ledger, not the recovery diagnosis, carry the research result. Close their reachable publication/readbacks before activating the following family.
 
-**Why selected:** U06-C established that a governance event label does not itself contact an approving actor. S163 supplies a separate actual open/await client. This is a concrete alternative responsibility, not another neighboring event hook. It can clarify Work/Information continuity without inferring approval from a UI label.
+## U09-A — next selected unit, NOT STARTED
 
-**Source trail at the unchanged pin:** sessions.js (799cf4b364860ce3400abada964b6d6e5f8b6c49), server.js (11b44062a3c11d03bc5756a91aa7f7999e8e9e2f), the actual skill/commands and pending/session hooks were read in the interrupted turn. See the recovery source table for identities and full-versus-selected coverage. S163 client was fully read in U07-A. SDK/UI/Markdown remain bounded by actual load-bearing needs, not automatic full-body coverage.
+**Question Q04g1:** How does ECC2 turn a command and stored session record into an actual running, stopped or resumed process? What survives a daemon/server interruption, and which observation justifies a lifecycle transition?
 
-**Required distinctions:** artifact path versus current revision; feedback text versus accepted decision; human/agent/session identity; pending versus consumed/acknowledged; session end versus abandoned work; waiting/timeout/restart versus lossless continuation; transport/projection versus authoritative approval; local review functionality versus cross-host enforcement.
+**Why next:** The family map revived a distinct Rust controller that cannot inherit conclusions from Node work-item helpers, tmux orchestration, Plan Canvas or the governance logger. Another round of canvas detail would not answer that missing central responsibility.
 
-**Return condition:** one coherent artifact → human-input route → persistence/queue → client/agent consumer trace, plus a material interruption/revision/ended-session contrast. No real user's plan, browser/account, installation, provider, credentials or model. A source-only unit can close source predicates while leaving live conformance/efficacy open. Do not redesign or exhaust the UI. Close final note/ledger and verified publication before the following family.
+**Start at the unchanged pin:** re-enter `ecc2/README.md` only for declared scope, then fully read `ecc2/src/main.rs` and follow its actual session/daemon/store/worktree imports. The previously listed `ecc2/src` tree is `6e722551d08805adce0760184f5835e7e4de4ef8` (S156); expand necessary child trees rather than guessing module filenames. `scripts/control-pane.js` (S12) and the Node control-pane tree (S160) are consumer leads, not proof of a connected controller.
 
-**Method check:** did the family map reduce rediscovery and preserve consumer/approval distinctions? Does the unit return to the broader frontier? Treat the interrupted opaque-evidence transfer as an observed maintenance failure; it does not validate or invalidate the unrecorded E06 outcomes.
+**Trace:** admission/configuration → session identity and durable record → process/worktree creation → observation/status → stop or resume. Read an actual caller and a relevant failure/restart counterpart. Follow the Node bridge only if it materially carries a claimed Rust control/observation; otherwise retain it as U09-B candidate rather than exhausting both systems in one unit.
 
-## Following priorities — revisable, not fixed turn commitments
+**Required distinctions:** stored identity versus live process; launch attempt versus ready worker; stop request versus termination; resume command versus recovered work/context; durable row versus current authority; operator view versus effectful command. Let Rust's source distinctions revise this framing; do not impose Plan Canvas's data model.
 
-1. Rust ECC2 lifecycle/store/daemon and Node control-pane state/actions: actual session control and data-source relations. The README's alpha/registry account is not the implementation verdict.
-2. Separate evaluation paths: Rust paired-seed registry versus Node capsule/replay/receipt and deliberately unavailable execution. Read code and actual admission/use; do not transplant E04 results across them.
-3. Representative procedural/native workflow and host/provider composition: connect S167 to actual caller/outer human decisions, account for generated OpenCode assets, Python LLM layer and important host variants.
-4. Release/packed-artifact gates, external scanner boundaries, operational readiness/cost and remaining inventory omissions. Return to actual responsibilities, not only easily tested parser cases.
-5. Build scoped native syntheses from their original notes, challenge against remaining descendants and broad documents, then compose CORE and bounded project-facing comparison. The final joint discussion follows completed research.
+**Return condition:** one coherent lifecycle explanation and an important restart/failure contrast, with exact sources and open dependency boundaries. Split a genuinely large source family without claiming global runtime completion. No installation, real host/model, provider, credentials or user state. Local fixtures only if a discriminating question justifies them; no automatic experiment quota.
 
-A new load-bearing dependency can change this sequence without erasing residuals. No automatic independent AgentShield/AURA audit or architecture/implementation phase is authorized by a pointer.
+**Method check:** does the breadth map make source selection concrete, and does following actual callers avoid both facade-only conclusions and unbounded helper expansion? Keep readable research checkpoints and explicit current STATE instead of another opaque artifact-transfer bottleneck.
+
+## Following priorities — revisable
+
+1. Remaining Node operator/control-pane data/action bridge after the bounded Rust lifecycle.
+2. Separate evaluation paths: Rust paired-seed registry versus Node capsule/replay/receipt and deliberately unavailable execution. Trace evidence producer, admitted change and actual use; do not transplant E04 findings.
+3. Representative procedural/native workflow and host/provider composition: caller/outer human gates, generated OpenCode assets, Python LLM layer and material host variants.
+4. Release/packed-artifact qualification, external scanner boundaries, operational readiness/cost and remaining inventory omissions.
+5. Scoped native syntheses from original notes; challenge with unread descendants and broad documents; then CORE and bounded project-facing comparison. Joint discussion follows research completion.
+
+No automatic independent AgentShield/AURA audit or architecture/implementation phase is authorized by a source pointer.
 
 ## Residuals and reopening
 
-- Q01a: U07-A bounds first-tier dispositions/selection, not complete recursive/mirror/body coverage or closure challenge.
-- Q03b/c: interrupted Kimi retry, repair/uninstall/merged JSON, abrupt/concurrent/cross-store/legacy durability; reopen before stronger recovery/adoption claims.
-- Q04b/c/e: snapshot/SQLite ingestion; imported-role/limited-list closure; acceptance, supervision, resumption/addressing/valuable-output retention. Q04f Plan Canvas is current and unfinished; Q04g Rust/operator connections remain open.
-- Q05b/c: completeness/status/conflict/duplicate recall; actual uptake/governed review/ECC2 projection/capture and stronger isolation/replication.
-- Q06b/c2: analyzed/archive sets and partial writes; independent semantic/confidence/applicability and loading; unique/comparable/version-bound task evidence and actual amendment admission/use. Q06d records distinct Rust/Node evaluation families, not a closed improvement loop.
-- Q07a2: actual config-guard effect, alternate writers/aliases/races, authenticated exceptions, bootstrap/failure/timeout and cross-host composition.
-- Q07b2: actual fact uptake/benefit, current-target binding, full classifier/input/platform/concurrency and composed-host results. Conditional output loss remains unexecuted.
-- Q07c1 bounded U06-C. Q07c2: connected collector/host-field adaptation, authenticated approval/resolution, actual action coupling and coverage/freshness of telemetry. Plan Canvas is not automatically its missing importer.
-- Wider Q07/Q08, external scanning, release/economics and whole native composition remain open. S138/S139 remain partial. S150 is a pinned policy document, not verified scanner/runtime support.
+- Q01a2: representative recursive/body/mirror coverage and final omission challenge.
+- Q03b/c: interrupted Kimi retry; repair/uninstall/merged JSON; abrupt/concurrent/cross-store/legacy durability.
+- Q04b/c/e: snapshot/SQLite ingestion, imported roles/limited-list closure, supervision/acceptance/resumption and valuable-output retention.
+- Q04f2: Plan Canvas exact review/actor/acknowledgment and stronger continuity claims. Q04g1/g2: Rust lifecycle and Node operator relations. Q04h: native review caller/outer gates/host validity.
+- Q05b/c: completeness/status/conflict/duplicate recall; actual uptake/governed review/ECC2 projection and stronger isolation/replication.
+- Q06b/c2/d: observation/archive scope, semantic independence/applicability, unique/comparable/version-bound outcomes and actual change admission; distinct Rust/Node evaluation families.
+- Q07a2/b2/c2/d: real guard effects/authority, fact uptake/current-target binding, collector/decision/action coupling, scanner/release boundaries. S138/S139 remain partial; S150 is a policy source, not verified scanner behavior.
+- Q08: success/health/presence/confidence meanings remain producer/consumer-specific. Q09 whole-study evaluation is deferred, not forgotten.
 
-E01–E05 keep their scopes and both E05 sets remain separately qualified. U06-B/C and U07-A created no E06. Historical E06 is now an interrupted U08-A evidence record with unverified outcomes; this repair does not create a replacement run. Earlier notes/inventories/ledgers remain intact. STATE owns current authorization and publication.
+E01–E05 retain original scopes and both E05 histories remain separate. Historical E06 is preserved as unverified interrupted evidence. This continuation adds no E07, replacement E06, target run or recovered pass count. All earlier notes/inventories/ledgers remain intact. Only actual publication checks can advance STATE from pending to published.

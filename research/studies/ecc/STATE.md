@@ -1,39 +1,35 @@
 # ECC — STATE
 
-**Updated:** 2026-09-18 — U08-A interrupted-publication recovery.
-**Current work:** U08-A / Q04f IN PROGRESS. Source reading began; final research note/source ledger and verified experiment publication are NOT complete. E06 is reported in the interrupted turn, but its outcomes are NOT VERIFIED and must not support findings. This replaces the stale U08-A NOT STARTED label.
-**Last completed research checkpoint:** U07-A, published through `0743feae8728faebb48982ec22c447b06f2a0eaa`; [receipt](PUBLICATION-U07-A.md), [family map](inventory/U07-A-FAMILY-MAP.md), [sources](evidence/U07-A-SOURCES.md). All earlier notes and original evidence remain preserved.
-**Study:** ACTIVE / PARTIAL. **METHOD / research PLAN:** 0.1 / 0.13; recovery is a maintenance clarification, not a new research sequence or lowered closure criterion.
+**Updated:** 2026-09-18 — U08-A source completion after interrupted evidence publication.
+**Current work:** U08-A / Q04f source explanation COMPLETE; publication/readback closure IN PROGRESS on `research/ecc-u08a-source-20260918`. Note12 and U08-A source ledger reached main as `3dbf8161383889651968bfd3e17383e530065858` and `b5f77dee59a437c66880ccc2f6fafbf0003a5c4b`; entry/discovery changes are staged separately. Do not declare final publication until merge/readbacks are verified.
+**Last completed published research checkpoint:** U07-A through `0743feae8728faebb48982ec22c447b06f2a0eaa`, [receipt](PUBLICATION-U07-A.md).
+**Study:** ACTIVE / PARTIAL. **METHOD / PLAN:** 0.1 / 0.14.
 **Unchanged target:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 
-## Current recovery and evidence standing
+## Current result and evidence boundary
 
-Read [RECOVERY-U08-A-20260918](RECOVERY-U08-A-20260918.md) and [quarantine/checks](evidence/u08-a-recovery/README.md) before continuing. The initial [ROUND-U08-A](ROUND-U08-A.md) is historical progress, not a completed unit.
+[Note12](notes/12-PLAN-CANVAS-FEEDBACK-AND-CONTINUATION.md), [U08-A sources](evidence/U08-A-SOURCES.md), [MR13](ROUND-U08-A.md). The actual artifact/browser/HTTP/queue/client/procedure route is explained, including revision, interruption and ended-session contrasts. Useful persistence, reopen refusal, asynchronous hook forwarding and expiring presence are retained. Path identity, drain, pending summaries, bounded Stop text and presence are not stronger revision/authority/acknowledgment guarantees.
 
-The preceding turn published only the initial round within ECC and created two unattached binary objects. Its current STATE was not advanced. During recovery, the exact objects were attached without rewriting bytes. One Git-hash-matched object fails gzip decompression; the other is preserved but not fully integrity-validated. The old local E06 originals are not available in this turn's runtime. A parseable plan in a damaged prefix does not recover full outcomes or certify the run. There is no new E06 execution or new passing evidence.
-
-Do not claim the whole repository is broken, a service outage was diagnosed, or all research was lost. The observed failure is confined to U08-A evidence/publication handling; concurrent concepts work is outside this repair. Do not replay old ZIP instructions or mistake a created blob for a published file.
+This is source evidence and conditional inference, not a new target execution. Historical E06 remains unverified/excluded. [Recovery diagnosis](RECOVERY-U08-A-20260918.md), [quarantined objects/checks](evidence/u08-a-recovery/README.md) and [recovery publication](PUBLICATION-U08-A-RECOVERY.md) are unchanged. Source closure does not certify, recover or replace that experiment. No new experiment was run to manufacture recovered progress.
 
 ## Purpose and authority
 
-Source-grounded ECC research with repository-centred continuity and method evaluation. Comprehensive joint evaluation with Batu remains after completed research; intermediate checks and scoped native synthesis continue. Information/Foundation relevance is a reuse cue, not adopted taxonomy or design. The U07-A map is first-tier coverage, not complete descendant/mirror/semantic coverage or CORE.
+Source-grounded ECC research with repository-centred continuity and method evaluation. Comprehensive joint evaluation with Batu remains after completed research; intermediate checks and scoped native synthesis continue. Information/Foundation relevance is a reuse cue, not adopted taxonomy or design. The [U07-A family map](inventory/U07-A-FAMILY-MAP.md) is first-tier coverage, not complete recursive/mirror/semantic coverage or CORE.
 
-Batu owns purpose/material phase choices. The assistant owns authorized research, proportionate isolated fixtures, sequencing, repository organization and verifiable publication. Writes stay under research/studies/ecc/** plus only semantically necessary ECC discovery changes in shared CATALOG/INDEX. Preserve other studies, concepts, Foundation, soul-context, explorations, upstream and agent-control. No user-home/config/cache mutation, installation, credentials/provider/model calls, upstream report/patch, or SOUL/Development OS implementation is authorized.
+Batu owns purpose/material phase choices. Assistant owns authorized research, proportionate isolated fixtures, sequencing, repository organization and verifiable publication. Writes stay under research/studies/ecc/** plus only ECC discovery changes in shared CATALOG/INDEX. Preserve other studies, concepts, Foundation, soul-context, explorations, upstream and agent-control. No user-home/config/cache mutation, installation, credentials/provider/model calls, upstream report/patch or SOUL/Development OS implementation.
 
-## Next authorized action — complete this unit, not a new family
+## Next selected work — activate after publication closes
 
-Complete U08-A's source-grounded artifact → feedback → persistent queue → consumer/continuation explanation. The recovery record lists exact already-read source paths and identities. Reopen load-bearing bodies as needed, publish the ordinary research note and source ledger, and distinguish source predicates from unverified E06 outcomes. A source-only closure is allowed under METHOD if adequate; do not rerun an experiment just to recover progress. If a fresh discriminating experiment becomes necessary, give it a separate recovery-run identity and retain historical E06 as unverified rather than substituting results.
+**U09-A / Q04g1**, NOT STARTED: Rust ECC2 command → stored session → actual process → stop/resume, with a material restart/failure contrast. Start with `ecc2/src/main.rs` and its actual session/daemon/store/worktree imports; use S156's pinned source tree to resolve paths. The README supplies target claims, not proof. Follow the Node control-pane bridge only if a load-bearing consumer requires it; otherwise keep Q04g2 separate.
 
-Return with the normal feedback path and a material revision/interruption/ended-session contrast; preserve arrival/delivery/acknowledgment/valid approval/action distinctions. No real user plan, browser/account, provider or model. Do not exhaust UI details or move to Rust/operator work before U08-A's coherent publication closes.
+PLAN owns detailed return conditions. No automatic live runtime/model campaign. Q04f2 retains stronger canvas questions; Q01a2, Q03b/c, Q04b/c/e/g2/h, Q05b/c, Q06b/c2/d and Q07a2/b2/c2/d remain open. Broader evaluation, procedure/host/provider, release/scanner/observability, synthesis and final omission work remain. This unit does not finish ECC.
 
-The broader PLAN remains: Rust/operator control; separate Rust/Node evaluation paths; representative procedural/host/provider composition; release/scanner/observability; scoped synthesis and final omission challenge. Q01a2, Q03b/c, Q04b/c/e/g/h, Q05b/c, Q06b/c2/d and Q07a2/b2/c2/d remain open. U08-A source progress does not close them.
+## Recovery path
 
-## Recovery path for the next session
+After canonical bootstrap, recover STATE → INDEX → META/WHY/METHOD/PLAN/QUESTIONS, then Note12, U08-A sources and MR13, the recovery diagnosis/checks/receipt, and U07-A family map/ledger/receipt at their required depth. Reopen original mechanism notes before stronger synthesis; a ledger establishes coverage, not a new behavior result. Do not repeat old experiments merely to recover context. The final U08-A publication receipt will record actual checks; it must not be confused with the older recovery receipt.
 
-After canonical control bootstrap, fully read STATE → INDEX → META/WHY/METHOD/PLAN/QUESTIONS, then this recovery record, its checks, ROUND-U08-A and the U07-A family map/source ledger/receipt. Historical Notes01–11, master ledgers, all rounds and receipts remain routed by INDEX. A prior tool transcript can inform retrieval but does not replace canonical current work. The recovery record is not a completed Note12 or an experiment receipt.
+Branch/merge timing is assistant-managed. Recoverable correspondence, not branch count, is required. Material unpublished work takes priority over new research. The current branch's entry changes must be reconciled with main before Rust work starts. No user upload or merge task is delegated.
 
-Publication identities and actual readbacks belong in the recovery publication receipt when recorded. No user upload or merge chore is delegated. Branch count and immediate merge timing are not the success criterion; current work, evidence status and recovery route must be unambiguous.
+## Historical evidence — preserve
 
-## Historical E05 reconciliation — unchanged
-
-Two distinct historical records share E05: the main-path Node driver has 15 cases; the conversation ZIP's Python driver has 16 different/overlapping cases. Preserve [the reconciliation](evidence/u06-a-conversation-record/README.md) alongside [main-path E05](evidence/u06-a-config-probe/README.md). Do not pool, overwrite or call them independent replication. The old ZIP's pending-publication instructions are historical. U06-A reconciliation and U06-B/C/U07-A publications are closed, not work to repeat.
+Both E05 histories remain separate: [conversation reconciliation](evidence/u06-a-conversation-record/README.md) and [main-path E05](evidence/u06-a-config-probe/README.md). Do not pool or overwrite. Historical E06 objects remain quarantined; the original binary failure's cause was not established. Old ZIP/pending-publication instructions are historical and must not overwrite current state. Earlier notes, inventories and evidence are preserved.

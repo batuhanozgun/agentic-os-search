@@ -1,6 +1,6 @@
 # ECC — Question Register
 
-**Updated:** 2026-09-18 after U07-A. STATE owns authorization/publication. Source answers and metadata maps do not establish live security or efficacy. Original notes/evidence retain their bounded authority.
+**Updated:** 2026-09-18 after U08-A source completion. STATE owns authorization/publication. Source answers and metadata maps do not establish live security or efficacy. Historical E06 outcomes are unverified and excluded; original notes/evidence retain their bounded authority.
 
 | ID / standing | Question / bounded result | Remaining obligation |
 |---|---|---|
@@ -20,8 +20,12 @@
 | Q04c OPEN | Import author/assignee and limited-list closure | Source-derived; no remote sync or incident evidence |
 | Q04d BOUNDED U03-B | Worktree/tmux/wrapper/artifact/collector | E03 fake provider; no actual tmux/model/rollback |
 | Q04e OPEN | Supervision/acceptance/resumption | Addressing, valuable-output retention and alternate controllers |
-| Q04f NEXT U08-A | Plan Canvas artifact → human feedback → session/queue → consumer | S163 client fully read; S159 server/store/callers not. Establish revision/identity, pending/consumption/end/recovery and approval boundary |
-| Q04g OPEN | Rust ECC2 and Node operator control | S10/S12 re-entry and S156/S160 metadata; actual lifecycle/store/daemon/action/bridge bodies still required |
+| Q04f PARTIAL, decomposed U08-A | Plan Canvas artifact → human feedback → session/queue → consumer | Q04f1/f2; source answer is not historical E06 recovery |
+| Q04f1 BOUNDED U08-A | Normal review channel plus revision/interruption/end contrasts | Note12/S173–S184 and S163/S122 re-entry: actual queue/await/procedure; no new execution |
+| Q04f2 OPEN | Exact revision/actor binding and acknowledged complete consumption | Pre-response drain, ended-session discovery, Stop projection, presence/metadata scope; actual host, parallel-process and user/model outcomes remain untested |
+| Q04g PARTIAL, decomposed | Rust ECC2 and Node operator control | Q04g1/g2; S10/S12/S156/S160 are entry evidence, not implementation closure |
+| Q04g1 NEXT U09-A | Rust command → session/store → actual process → stop/resume | Read main.rs and actual session/daemon/worktree dependencies; normal and restart/failure path |
+| Q04g2 OPEN | Node control-pane relationship to Rust and other stores | Actual server/state/actions/message consumers; labels and database paths do not establish shared control |
 | Q04h PARTIAL U07-A | Native review pilot and outer workflow | S167 source preserves incomplete/unverified/uncertain blockers. Actual caller, human gate, host schema/conformance and effectiveness remain open |
 | Q05 PARTIAL | Memory storage versus acceptance/use | Separate vault, not active Work state |
 | Q05a BOUNDED U04-A | Save/scope/recall/CLI/MCP | Fixed unreviewed trust; no new runtime evidence |
@@ -43,16 +47,16 @@
 | Q07b2 OPEN | Fact uptake, current applicability and composed enforcement | Live behavior/benefit, full classifier/input/platform, concurrent state, source-bound release and actual host consequences. Selected tests omit facts and real Bash dispatcher |
 | Q07c PARTIAL, decomposed U06-C | Governance event → persistence → consumer → authority/effect | Q07c1/c2; two concrete paths, not a demonstrated approval loop |
 | Q07c1 BOUNDED U06-C | Classification/emission, explicit SQL insertion/resolution, pending/status | Note11/S141–S151: stderr not table write; conditional field mismatch; mutable upsert; total/list distinction; optional exit signal. Source only |
-| Q07c2 OPEN | Actual collector, valid resolution and governed effect | Native payload/phase/session fidelity; capture coverage/freshness; authenticated decision; action admission/resume. Plan Canvas is a separate path, not an assumed importer |
+| Q07c2 OPEN | Actual collector, valid resolution and governed effect | Native payload/phase/session fidelity; capture coverage/freshness; authenticated decision; action admission/resume. Plan Canvas is a separate feedback path, not an established importer |
 | Q07d OPEN | Scanner, release and distribution gates | S150/S153/S161 source boundaries and workflow metadata, not release artifacts, actual CI, scanner efficacy or approval receipts |
-| Q08 PARTIAL | Meaning of success/health/confidence/block/no-objection | Original evidence and new distinct evaluation/review/readiness families; no universal metric interpretation |
+| Q08 PARTIAL | Meaning of success/health/confidence/block/no-objection | Original evidence and distinct evaluation/review/readiness families; U08-A adds accepted-shape versus decision and session-presence versus message receipt |
 | Q09 DEFERRED | Whole-study project-facing evaluation | Then-current Foundation and selected studies; joint discussion after completed research |
-| Q10 PARTIAL MR12 | Focus/fidelity/continuity of method | Breadth return revived unpursued branches and selected human review; no independent method efficacy or final inventory validation |
+| Q10 PARTIAL MR13 | Focus/fidelity/continuity of method | Source closure recovered without invalid E06; readable checkpoints and bounded return to Rust family. Publication failure/cost retained; no independent method efficacy |
 
 ## Interpretations and reopening
 
-Older bounded results remain intact, but one Node evaluator, logger or worker path is not the whole ECC system. An unavailable candidate executor can be a deliberately enforced limit. A native review can preserve uncertainty without proving its model judgments true. A documented paired-seed evaluator must be read in code before adoption or comparison. An actual feedback client is not by itself lossless delivery or authenticated approval. Metadata coverage is not semantic completeness.
+Older bounded results remain intact. One Node evaluator, logger or worker path is not the whole ECC system. An unavailable executor can be a deliberate control. A native review can preserve uncertainty without proving model judgments true. A documented paired evaluator needs code reading. Plan Canvas now has a traced feedback route, but a delivered-looking message and an approve field are not independently verified uptake or exact-revision authorization.
 
-Prior alternatives remain: event logging, cached first-touch prompts, heuristic learning, flexible task cards, archival memory, invocation telemetry and reversible snapshots can have useful bounded roles. No repository-wide absence, universal security failure or closed effective learning loop follows. Source/host/oracle/authority changes reopen dependent findings.
+Prior benign alternatives remain: event logging, first-touch prompts, heuristic learning, flexible task cards, archival memory, invocation telemetry, reversible snapshots and cooperative local review can have useful bounded roles. No universal security failure, repository-wide absence or closed effective learning loop follows. Source/host/oracle/authority changes reopen dependent findings.
 
-U07-A bounds Q01a1 and selects Q04f/U08-A. Q01a2, older residuals and the material families in the map remain open. No E06, new upstream test execution or E01–E05 rerun. Both historical E05 sets remain separately qualified. Scoped synthesis candidates are identified, not published as completed syntheses; integrated CORE and final project discussion remain later work.
+U08-A bounds Q04f1 and selects Q04g1/U09-A after actual publication closure. Q04f2 and the broader family map remain open. No target execution or E01–E05 rerun occurred in this continuation. Historical E06 stays quarantined/unverified, not silently replaced or pooled. Scoped synthesis candidates remain candidates; integrated CORE and final joint evaluation are later work.
