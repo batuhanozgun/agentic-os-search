@@ -4,11 +4,13 @@
 
 | Need | Entry |
 |---|---|
-| Rust ECC2 command/record/runner/stop/resume/daemon — first slice, PARTIAL | [Note13](notes/13-RUST-SESSION-LIFECYCLE-FIRST-SLICE.md) → [U09-A sources](evidence/U09-A-SOURCES.md), [MR14](ROUND-U09-A.md); PLAN retains store/worktree/observer closure |
+| Rust storage/observer/worktree continuity — bounded U09-A2 slice | [Note14](notes/14-STORE-OBSERVER-AND-WORKTREE-CONTINUITY.md) → [sources](evidence/U09-A2-SOURCES.md), [E07](evidence/u09-a2-sql-git-probe/README.md), [MR15](ROUND-U09-A2.md) |
+| Rust command/record/runner/stop/resume/daemon — first slice | [Note13](notes/13-RUST-SESSION-LIFECYCLE-FIRST-SLICE.md) → [U09-A sources](evidence/U09-A-SOURCES.md), [MR14](ROUND-U09-A.md); parent lifecycle ownership remains open |
+| Current Rust ownership continuation | [PLAN](PLAN.md) Q04g1b → existing S187/S188/S189/S190 functions; do not restart closed output/observer work |
 | Plan Canvas feedback/review/continuation | [Note12](notes/12-PLAN-CANVAS-FEEDBACK-AND-CONTINUATION.md) → [U08-A sources](evidence/U08-A-SOURCES.md), [MR13](ROUND-U08-A.md) |
 | Historical U08-A interruption and excluded E06 evidence | [Recovery record](RECOVERY-U08-A-20260918.md) → [quarantine/checks](evidence/u08-a-recovery/README.md), [recovery publication](PUBLICATION-U08-A-RECOVERY.md) |
 | Purpose, pin and reuse | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
-| Current material-family coverage | [U07-A family map](inventory/U07-A-FAMILY-MAP.md) → [sources](evidence/U07-A-SOURCES.md), [MR12](ROUND-U07-A.md) |
+| Material-family coverage | [U07-A family map](inventory/U07-A-FAMILY-MAP.md) → [sources](evidence/U07-A-SOURCES.md), [MR12](ROUND-U07-A.md) |
 | Sequence and questions | [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md) |
 | Governance events/persistence/decision | [Note11](notes/11-GOVERNANCE-EVENTS-PERSISTENCE-AND-DECISION.md) → [U06-C sources](evidence/U06-C-SOURCES.md), [MR11](ROUND-U06-C.md) |
 | Fact-forcing/state/composition | [Note10](notes/10-FACT-FORCING-STATE-AND-DECISION-COMPOSITION.md) → [U06-B sources](evidence/U06-B-SOURCES.md), [MR10](ROUND-U06-B.md) |
@@ -24,9 +26,9 @@
 | Initial surfaces/cache | [Note01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md), [E01](evidence/u01-a-cache-probe/README.md) |
 | Older master histories through U03-B | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later unit records continue separately |
 | Historical inventory/frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md); U07-A adds dispositions |
-| Current publication | STATE links the actual receipt after its checks; publication of a first slice is not whole-unit research completion |
-| Earlier publication | [U08-A](PUBLICATION-U08-A.md), [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
+| Current publication | STATE links the actual receipt after checks; publication of a slice is not whole-unit completion |
+| Earlier publication | [U09-A first slice](PUBLICATION-U09-A.md), [U08-A](PUBLICATION-U08-A.md), [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
 
-U08-A has a bounded published source answer; its historical E06 outcomes remain unverified. Recovery records and objects are retained, not rewritten to look like completed experimental evidence. No replacement experiment occurred.
+U09-A remains IN PROGRESS at execution-attempt ownership despite usable Notes13–14. E07 is a source-derived SQLite/Git fixture, not a Rust build or native host observation. U08-A remains bounded/published; historical E06 remains unverified/excluded and its objects are unchanged. Both E05 histories are preserved.
 
-U09-A is IN PROGRESS with a first source slice; do not mistake the published note for full lifecycle/observer/ownership closure. Separate Plan Canvas/Rust/operator/native workflow/evaluation paths must not inherit older helper conclusions. Comprehensive joint evaluation remains after research completion. No new whole-system synthesis or CORE is claimed. META owns reuse, STATE work, PLAN sequence, QUESTIONS research questions, ledgers source coverage, rounds method history and recovery/receipts publication evidence; none is agent-control.
+Separate Plan Canvas/Rust/Node operator/native workflow/evaluation paths must not inherit another helper's conclusions. Comprehensive joint evaluation remains after completed research; no whole-system synthesis or CORE is claimed. META owns reuse, STATE work, PLAN sequence, QUESTIONS research questions, ledgers source coverage, rounds method history and receipts publication correspondence; none is agent-control.
