@@ -1,19 +1,35 @@
 # U07-A — Breadth return and MR12
 
-**Date:** 2026-09-18. **Standing:** IN PROGRESS; no new mechanism result or completed inventory is claimed by this entry. METHOD 0.1 / currently published PLAN 0.12. STATE remains the current-work authority until this unit closes.
+**Date:** 2026-09-18. **Substantive standing:** bounded map/selection COMPLETE; STATE owns publication and next-work activation. METHOD 0.1 retained; PLAN 0.12 → 0.13. [Family map](inventory/U07-A-FAMILY-MAP.md), [source ledger](evidence/U07-A-SOURCES.md). No target execution or E06.
 
 ## Authorized resumption and access
 
-Batu authorized continuation after the previous access interruption: `anladım devam edebilirsin.` The prior turn recovered package context but did not start new target research or publish a new unit. On resumption the GitHub tool surface again exposes file creation/update. This record is a substantive continuity write, not a test artifact or a claim that later publication already succeeded.
+Batu authorized continuation after the access interruption: `anladım devam edebilirsin.` The previous turn recovered context but did not start new target research. File creation succeeded this turn as `aba0b7da37e3548ecb5e80ee989ecd53342b621e`, placing an explicitly IN PROGRESS resumption record on main. The present update preserves that history while adding the actual result; it does not pretend the earlier entry already contained these findings.
 
-Fresh AGENT and STATE were read. The nine current protocol identities match their fully read same-conversation versions; required package/last-unit/inventory bodies remain available. Comparing the prior ECC closure `219d483bf79d3c80d7e5f1d1a0772296ce717828` with main showed concurrent changes outside the ECC package, including Superpowers, explorations and candidate-library additions. They are not ECC work to overwrite. U06-C and both historical E05 records remain unchanged.
+Fresh AGENT/STATE and nine protocol identities were checked against fully read same-conversation versions. Prior mandatory package/last-unit/inventory bodies remained available. Comparison with the old ECC closure showed only concurrent work outside ECC. No other study, concepts, Foundation, exploration or agent-control content became this unit's mutation scope. Both historical E05 identities remain separate.
 
-## Unit question and return condition
+## MR12 — observed effect of MR11's breadth return
 
-Recover pinned topology and relate it to the prior unit ledgers. Identify consequential unexamined responsibilities, actual distribution/runtime/external boundaries, generated or mirrored areas, and a justified next mechanism sequence. Use family entry sources to challenge the map; a path listing is not source-body coverage. Do not turn this into another adjacent hook investigation or prematurely declare CORE/whole-study completion.
+The return to the pinned root and actual scripts/library trees changed which questions are next. Plan Canvas's real client open/await/feedback handling is a different path from the governance event logger. The Rust control surface and its documented paired-seed evaluator are not the Node work-card and skill-improvement helpers. Those ECC2/workflow README sources were already read in U01-A: the effect is revival of a known but unpursued branch, not a claim that every useful pointer was just discovered.
 
-The expected effect from MR11 is improved visibility outside salient security hooks. This entry does not yet claim that effect occurred. No target code, test, scanner, provider, installation or user-state mutation has run. No E06 is created.
+New full source reads added two important contrasts. The Node eval-harness public execution paths explicitly refuse because a verified isolation backend is missing. The native review script preserves failed dimensions, failed verifiers and low-confidence refutations as blocking outcomes. A critical hook-focused account would miss these different design choices. Neither source property proves installed-host effect, truth of model judgments or efficacy.
 
-## Publication scope
+The review README's introductory uncertainty wording differs from the full code; the map preserves the code's actual predicate rather than restating the simpler narrative. Generated OpenCode build and Python/export manifests add concrete distribution boundaries. External AURA/AgentShield roles are retained without turning the study into an unrequested external-service audit.
 
-ECC-local records and only the ECC row/route in shared discovery files. Use current exact contents and SHA-aware or staged writes; preserve all other studies, concepts, Foundation, explorations and agent-control. Record actual findings, limits, maintenance outcome and final publication/readbacks here or in the linked unit receipt when available. Comprehensive joint evaluation remains after completed research.
+## Alternatives, costs and remaining limits
+
+Alternatives were another adjacent security-hook deep dive, an exhaustive all-file reading pass, or a role-sensitive map with selected full entry bodies and explicit unexpanded descendants. The selected approach serves the current return condition: all root-directory names have dispositions; important responsibility gaps and a justified next sequence are visible. It does not complete recursive semantic coverage or the final reverse-inventory challenge.
+
+Metadata retrieval itself was not mistaken for source reading. Long root/scripts/lib responses required a second response-resource read to reach the complete closing array and truncated:false. A direct-network acquisition failed again at DNS; no whole checkout was obtained. Rebuilding every large tree manually would add transport cost without finishing semantic coverage, so the durable artifact links exact tree identities and records bounded expansion rather than inventing a complete manifest.
+
+No new experiment was needed for a breadth selection. No previous run was repeated to manufacture progress. This is same-assistant research and recovery, not independent methodology efficacy. The observed benefit is a changed, source-grounded next-work selection and avoidance of whole-system overgeneralization; costs remain extensive re-entry and multi-file maintenance.
+
+## Continuation and method evaluation
+
+U08-A is selected: Plan Canvas artifact → feedback → consumer, including a material interruption/revision/ended-session contrast. Open the actual sessions/server and required caller bodies; client wording about durable feedback is not sufficient evidence. Following priorities are Rust/operator control, the separate evaluation families, representative procedural/host/provider composition, and release/scanner/observability closure.
+
+Existing notes can support provisional scoped syntheses, but no new synthesis document or CORE is claimed here. METHOD remains 0.1 because its original source/consumer/role-sensitive coverage discipline supported the change. PLAN changes sequence and visibility, not closure criteria.
+
+Next effect check: does the Plan Canvas unit establish actual feedback production and consumption, preserve the distinction between arrival and authorized approval, and return to the broader queue rather than becoming an unlimited UI audit? Do map links reduce rediscovery without letting metadata stand in for source evidence?
+
+Publication remains ECC-local plus its catalogue row. Actual commits/readbacks and maintenance limitations belong in PUBLICATION-U07-A after checks. The joint comprehensive evaluation remains after completed research; no user upload/merge chore is delegated.
