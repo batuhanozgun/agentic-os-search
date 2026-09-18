@@ -1,13 +1,13 @@
 # Concepts — Güncel Durum
 
 **Kayıt tarihi:** 2026-09-18.  
-**Mevcut iş:** Üçüncü 10-terim batch'i tamamlandı; toplam 30 terim için working local reference v0.3 hazırlandı. Bu turun dönüş noktası sonucu kullanıcıya sunmaktır.  
+**Mevcut iş:** Dördüncü 10-terim batch'i tamamlandı; toplam 40 terim için working local reference v0.4 hazırlandı. Bu turun dönüş noktası sonucu kullanıcıya sunmaktır.  
 **Yöntem:** [METHOD v0.2](METHOD.md) — bağlantılı batch + ilişki haritası + çakışma üzerinden fine-tune.  
-**Mevcut araştırma:** [U03 batch 1](research/U03-CORE-TERMS-BATCH1.md) + [U04 batch 2](research/U04-CORE-TERMS-BATCH2.md) + [U05 batch 3](research/U05-CORE-TERMS-BATCH3.md).  
-**Aktif working reference:** [CORE-TERMS-WORKING-v0.3](synthesis/CORE-TERMS-WORKING-v0.3.md).  
+**Mevcut araştırma:** [U03](research/U03-CORE-TERMS-BATCH1.md) + [U04](research/U04-CORE-TERMS-BATCH2.md) + [U05](research/U05-CORE-TERMS-BATCH3.md) + [U06](research/U06-CORE-TERMS-BATCH4.md).  
+**Aktif working reference:** [CORE-TERMS-WORKING-v0.4](synthesis/CORE-TERMS-WORKING-v0.4.md).  
 **ACCEPTED reference:** Henüz yok; tek tek terim onayı beklenmez.
 
-## Working reference kapsamı — 30 terim
+## Working reference kapsamı — 40 terim
 
 ### Batch 1
 Agent; Model; LLM; Actor; Role; Run; Session; Workflow; Tool; Harness.
@@ -18,110 +18,95 @@ Runtime; Context; Memory; Identity; Capability; Authority; Permission; Orchestra
 ### Batch 3
 State; Work state; Environment; Workspace; Sandbox; Policy; Guardrail; Verification; Observability; Persistence.
 
-## v0.3'ün en önemli yeni sınırları
+### Batch 4
+Intent; Goal; Plan; Task / Work item; Dependency; Readiness; Completion; Validation; Evaluation; Evidence.
 
-- **State ≠ status ≠ Memory** — State current condition representation; status yalnız bir alan olabilir; Memory cross-time knowledge/state lifecycle.
-- **Work state ≠ Session history ≠ RunState** — Work continuation/control truth'u, conversation continuity veya tek execution snapshot'ına indirgenmez.
-- **Environment ≠ Workspace ≠ Sandbox** — geniş çalışma koşulları/kaynakları / Work materyal alanı / controlled execution boundary.
-- **Policy ≠ Guardrail ≠ Sandbox** — rule/expectation / execution-time semantic check-control / capability-resource containment.
-- **Verification ≠ Observability** — doğruluk/uygunluk değerlendirmesi / ne olduğunu görünür kılma.
-- **Persistence ≠ Memory ≠ Session** — boundary ötesinde saklanabilme / retained knowledge-state / continuity container.
+## v0.4'ün en önemli yeni sınırları
 
-## Güncel birlikte kullanım haritası
+- **Intent ≠ Goal ≠ Plan** — amaçlanan yön / explicit target / proposed route.
+- **Work item ≠ Run** — yönetilen Work birimi / tek execution olayı.
+- **Dependency ≠ hierarchy ≠ generic relation** — control/validity/timing/closure etkisi olan typed relation.
+- **Readiness ≠ priority ≠ open status** — belirli next action için derived admissibility/actionability standing.
+- **Completion ≠ Verification ≠ Validation** — lifecycle closure / specified claim doğrulama / intended-use ve Goal uygunluğu.
+- **Evaluation ≠ Verification ≠ Validation** — systematic performance/quality/risk assessment ayrı eksen.
+- **Evidence ≠ truth ≠ Observability** — traceable ground / conclusion değil / observability evidence üretebilir.
+
+## Güncel Work-success hattı
 
 ```text
-                         ┌────────── Policy ──────────┐
-                         │                            │
-                         ▼                            ▼
-Authority ───────► Permissions                 Guardrails
-    ▲                    │                          │
-    │                    ▼                          ▼
-Actor ─assumes→ Role   Runtime ◄────────────── Sandbox
-  │                     │  ▲                      ▲
-  │                     │  │                      │
-  │                     │  └── operates in ── Environment
-  │                     │
-  │                     ├── executes → Agent / Workflow
-  │                     ├── creates/manages → Run
-  │                     ├── dispatches → Tool
-  │                     └── performs → Handoff
-  │
-  ├── identified-by → Identity
-  └── has → Capability
-                  ▲
-                  └── depends on → Model / Tool / Runtime / Environment
+Intent
+└── clarified-as → Goal
+      ├── guides → Plan
+      ├── target-for → Validation
+      └── measured/judged-by → Evaluation
 
-Model
-└── LLM
+Plan
+├── decomposes → Work items
+├── proposes → Dependencies / sequencing / Actors
+└── revised-by → Evidence / State / discovered Work
 
-Agent
-├── uses → Model
-├── may-call → Tool
-├── may-be → Actor
-└── may delegate-to → Subagent
-                         └── is-a → Agent
+Work item
+├── may depend-on → Work item / Artefact / Decision / external condition
+├── has-derived → Readiness
+├── progresses-through → Work state
+└── may reach → Completion
+                    │
+                    ├── may trigger → Verification
+                    └── does NOT imply → Goal achievement / Validation
 
-Workflow
-└── coordinated-by → Orchestration
-      └── coordinates → Agents / Actors / Tools / Handoffs
+Observability ─produces→ Evidence
+Evidence
+├── supports/challenges → Verification
+├── supports/challenges → Validation
+└── feeds → Evaluation
 
-State
-├── specialization → Work state
-├── may persist via → Persistence
-└── selected portion may enter → Context
-
-Session ─preserves→ continuity across Runs
-Memory ─may feed→ Context
-Work state ─persists across→ Runs / Sessions / Actors
-
-Environment
-├── contains/supports → Workspace
-└── may contain → Sandbox
-
-Workspace ─holds→ artefacts / outputs / persisted Work state
-
-Observability ─provides evidence/events→ Verification
-Verification ─qualifies→ claims / completion / effects
-
-Harness
-└── configures/connects → Runtime / Context / Memory / Policy controls /
-                         Sandbox / Orchestration / Verification /
-                         Observability / Persistence surfaces
+Verification ─asks→ specified claim/requirement satisfied?
+Validation ─asks→ intended use / Goal / need satisfied?
+Evaluation ─asks→ how well / under what criteria / at what risk?
 ```
+
+## Büyük haritayla birleşim
+
+Bu yeni Work-success hattı v0.3'teki execution/control/state haritasına bağlanır:
+
+- Plan ve Work items → Work state içinde current standing üretir.
+- Dependency → Readiness'i etkiler.
+- Readiness → Orchestration/Runtime admission kararlarını etkileyebilir.
+- Actor/Authority/Permission → hangi Work item'ın kim tarafından hangi koşulla yürütülebileceğini etkiler.
+- Environment/Capability → dispatch/readiness'i etkileyebilir.
+- Completion → Verification veya Validation'ın yerine geçmez.
+- Observability → Evidence üretir; Evidence → Verification/Validation/Evaluation besler.
+- Persistence → Plan/Work state/Evidence'in session/run sınırlarını aşmasını sağlar.
 
 ## Yeni oturumda devam yolu
 
-Güncel AGENT ve gereken protokoller → [INDEX](INDEX.md) → bu STATE → [METHOD](METHOD.md) → [working v0.3](synthesis/CORE-TERMS-WORKING-v0.3.md). Ayrıntılı kanıt gerekirse [U05](research/U05-CORE-TERMS-BATCH3.md) → U04 → U03 → Agent U01/U02.
+Güncel AGENT ve gereken protokoller → [INDEX](INDEX.md) → bu STATE → [METHOD](METHOD.md) → [working v0.4](synthesis/CORE-TERMS-WORKING-v0.4.md). Ayrıntılı kanıt gerekirse U06 → U05 → U04 → U03 → Agent U01/U02.
 
-Yeni oturum bu 30 terimi tek tek kullanıcıya sormaz. v0.3'ü working map olarak kullanır ve yalnız yeni batch/gerçek kullanım çakışması olduğunda ilgili sınırları yeniden açar.
+Yeni oturum bu 40 terimi tek tek kullanıcıya sormaz. v0.4'ü working map olarak kullanır ve yalnız yeni batch/gerçek kullanım çakışması olduğunda ilgili sınırları yeniden açar.
 
 ## Sonraki batch için doğal adaylar
 
-- Goal
-- Intent
-- Plan
-- Task / Work item
-- Dependency
-- Readiness
-- Completion
-- Validation
-- Evaluation
-- Evidence
+- Outcome
+- Success criterion
+- Requirement
+- Constraint
+- Acceptance criterion
+- Metric
+- Benchmark
+- Oracle
+- Review
+- Approval
 
-Bunlar zorunlu sıra değildir; v0.3 haritasında en fazla ayrım temizleyecek kombinasyon seçilir.
+Bunlar zorunlu sıra değildir; v0.4 haritasında en fazla ayrım temizleyecek kombinasyon seçilir.
 
 ## Yayın durumu
 
-**Yayın:** [PR #25](https://github.com/batuhanozgun/agentic-os-search/pull/25); branch `research/concepts-core-terms-batch3-20260918`; exact head `168c2939396633eaa2ca7d05a56c421625754638`; main merge commit `b6777121faec84dd042d5ee287bcc7c97d73b130`.
+Bu tur için çalışma branch'i `research/concepts-core-terms-batch4-20260918`.
 
-Sekiz concepts yolu değişti: yeni U05 ve working v0.3; v0.2 historical snapshot işareti; research/synthesis/reference index, envanter ve bu STATE. Agent-control, Foundation, studies paketleri ve explorations değişmedi.
-
-PR merge öncesi `mergeable=true` idi. Exact head'e bağlı normal merge başarılı oldu; head → merge karşılaştırması sıfır dosya farkı verdi. Working v0.3 ve U05 main üzerinden yayımlandı.
-
-Bu yayın tanımların evrensel doğruluğunu veya ileride hiç değişmeyeceğini kanıtlamaz. v0.3 evolving working reference olarak kullanılacak ve sonraki batch/gerçek kullanım çakışmalarıyla fine-tune edilecektir. ACCEPTED reference hâlâ yoktur.
+U06 ve working v0.4 oluşturuldu; research/synthesis/reference routing, envanter ve STATE v0.4'e bağlanıyor. Main yayını ve geri doğrulama tamamlanmadan branch canonical yayın sayılmaz.
 
 ## Korunan geçmiş
 
-- v0.1 ve v0.2 tarihsel snapshots olarak korunur.
+- v0.1–v0.3 tarihsel snapshots olarak korunur.
 - Agent boundary adayı daha eski ara sentezdir.
 - v0.2 yöntem, P0 ve yayın doğrulama geçmişleri checks/STATE kayıtlarında korunur.
