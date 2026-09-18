@@ -2,6 +2,14 @@
 
 **Tarih:** 2026-09-18. Bu kayıt yeni araştırma veya terim kabulü değildir. Güncel iş [STATE](STATE.md)'tedir.
 
+## Branch temizliği kapanışı — 2026-09-18
+
+**TAMAMLANDI.** Kullanıcı dokuz eski concepts branch'ini GitHub'dan sildiğini bildirdi. Ardından repository'nin branch listesi doğrudan yeniden okundu: 11 ref kaldı; main ve başka çalışmalara ait on branch. Aşağıdaki tarihsel tabloda yer alan dokuz concepts branch adı artık listede yok. Diğer on branch'in adları ve uç commit'leri önceki kayıtla aynı. Açık PR listesi de boş döndü. Gözlem sırasında main `c6bc9b17fd999fe296bab9a5ba7cd778b9a72b3f` idi; bu, altı dosyalı sadeleştirmeyi yayımlayan commit'tir.
+
+Bu kontrol branch adlarının kaldırıldığını doğrular; silme işlemini assistant yapmadı. Eski uçların main geçmişinde bulunduğu silme öncesinde ayrıca kontrol edilmişti. Sabit geçmiş bağlantıları branch adlarına bağlı değildir. Concepts için bekleyen branch temizliği kalmadı; yeni branch veya dosya açılmadı. Diğer araştırmaların içeriklerine/ref'lerine müdahale edilmedi.
+
+Bu kapanışta INDEX, STATE, METHOD, WORKING, SOURCES ve HISTORY'nin güncel gövdeleri okundu. Yalnız bu kayıt ile STATE'in bakım/devam bilgisi güncellenir. Tanımlar, harita ve kaynak notları yeniden yazılmaz; dış kaynak doğrulaması veya somut kullanım sınaması yapılmış sayılmaz.
+
 ## Neden sadeleştirildi?
 
 İletişimde ortak anlam kurma amacı, önce tek terim kapanışına, ardından her tur yeni onlu ve yeni sürüm üretimine kaydı. Kullanıcı önce molayı, ardından main ve branch'leri dikkate alan gerçek repository temizliğini istedi. Güncel tercih: az sayıda dosya, tek çalışma taslağı, somut kullanımda ortaya çıkan çakışmaya göre gerekçeli düzeltme. Tek tek kullanıcı onayı kuyruğuna dönülmez.
@@ -48,7 +56,7 @@ Yeni düz yapı: INDEX, STATE, METHOD, WORKING, SOURCES, HISTORY. Yirmi eski yol
 
 WORKING'e aktarılan v0.4 kaynağının blob kimliği `464b9419d6f30bc6195b3b2924b4fb7562bb8112` ve boyutu 9.326 bayttır. Yerel baseline bu kimlikle eşleştirildi. Tanım, harita ve kısa ayrım gövdeleri korunur; eski “oturdu” yorumu, sürüm çoğaltma ve sonraki-onlu yönü güncel talimat olarak taşınmaz. Eski daha ayrıntılı nitelemeler SOURCES üzerinden geri bulunur.
 
-## Branch incelemesi — fiziksel silme ayrı iş
+## Branch incelemesi — silme öncesi tarihsel kayıt
 
 Branch listesi 20 ref gösterdi: main, dokuz concepts branch'i ve diğer çalışmalara ait on branch. Dokuz concepts branch'i için ayrı ayrı `base=main`, `head=branch` karşılaştırması yapıldı. Taban her çağrıda yukarıdaki main commit'i kaldı. Hepsinde `status=behind`, `ahead_by=0`, değişen dosya listesi boş ve merge-base ilgili branch ucu çıktı. Böylece bu uçların main geçmişinde bulunduğu doğrulandı. Açık PR listesi boş döndü.
 
@@ -64,11 +72,11 @@ Branch listesi 20 ref gösterdi: main, dokuz concepts branch'i ve diğer çalı�
 | `research/concepts-core-terms-batch3-20260918` | `168c2939396633eaa2ca7d05a56c421625754638` | 0 / 14 |
 | `research/concepts-core-terms-batch4-20260918` | `9e74c91930f057d694761e99ea7083216f7e6831` | 0 / 4 |
 
-**Sonuç:** Bu branch'lerde main'e alınmayı bekleyen concepts commit'i yoktur. Güncel çalışma alanı main'dir; eski branch'lerden devam edilmez.
+**Silme öncesi sonuç:** Bu branch'lerde main'e alınmayı bekleyen concepts commit'i yoktu. Güncel çalışma alanı main'dir; eski branch'lerden devam edilmez.
 
-**Tamamlanmayan kısım:** Uzak branch ref'leri silinmedi. Kullanılan GitHub bağlantısının keşfedilen işlemleri dosya silmeye izin veriyor, branch/ref silme işlemi sunmuyor. Ek bağlantı araması kullanılabilir ayrı bir GitHub silme yolu sağlamadı. Yerel git'in GitHub'a erişimi de DNS hatasıyla sonuçlandı. Silme yapılmış gibi yazılmıyor; branch'ler yeniden adlandırılmadı veya sahte bir kapanış commit'iyle değiştirilmedi. Bu düzenleme için yeni branch açılmadı.
+**Önceki turdaki erişim sınırı — artık açık iş değil:** Uzak branch ref'leri assistant tarafından silinemedi. Kullanılan GitHub bağlantısının keşfedilen işlemleri dosya silmeye izin veriyor, branch/ref silme işlemi sunmuyordu. Ek bağlantı araması kullanılabilir ayrı bir GitHub silme yolu sağlamadı. Yerel git'in GitHub'a erişimi de DNS hatasıyla sonuçlandı. Branch'ler yeniden adlandırılmadı veya sahte bir kapanış commit'iyle değiştirilmedi. Bu düzenleme için yeni branch açılmadı.
 
-Bu dokuz eski ref, yalnız uçları hâlâ tabloda yazan kimliklerse ve yeni açık PR/çalışma eklenmemişse silinmeye hazırdır. Sonradan değişen branch için kontrol yenilenmelidir. ECC, Foundation ve Hermes branch'leri temizliğin kapsamında değildir; içeriklerine veya ref'lerine yazılmadı.
+Silme öncesi koşul, uçların tabloda yazan kimliklerde kalması ve yeni açık PR/çalışma eklenmemesiydi. Kullanıcının sonraki silme işlemi yukarıdaki kapanış bölümünde doğrulanır; bu tablo artık yapılacaklar listesi değildir. ECC, Foundation ve Hermes branch'leri temizliğin kapsamında değildir; içeriklerine veya ref'lerine yazılmadı.
 
 ## İnceleme ve kontrol kapsamı
 
