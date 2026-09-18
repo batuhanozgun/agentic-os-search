@@ -101,7 +101,7 @@ The `anthropic-ai-native-sdlc-playbook` and `gstack` studies are both broad acro
 
 `gstack` is especially useful as an implemented pressure test for artifact handoffs, qualification/standing, authority vs capability, runtime/environment dependence, verification routing, production transitions and self-development. Its primary corpus is pinned and its closure revalidation only extends through the current-main commit recorded in its `META.md`; later current-state reuse requires another freshness check.
 
-The `agentic-ai-systems-roadmap` study is different: it is deliberately a **discussion/gap-discovery seed**. Its infographic is not accepted evidence or taxonomy. Its strongest current reuse value is to ask whether evaluation/observability/model-policy/deployment concerns are genuinely missing, merely fragmented across existing packages, or later-phase concerns that should not yet become research programs.
+The `agentic-ai-systems-roadmap` study is different: it is deliberately a **discussion/gap-discovery seed**. Its infographic is not accepted evidence or taxonomy. Its strongest current reuse value is to ask whether evaluation/observability/operational-control, model/runtime execution policy or deployment/resilience questions are genuinely missing, merely fragmented across existing packages, or later-phase concerns that should not yet become research programs.
 
 ## Design / architecture interaction
 
