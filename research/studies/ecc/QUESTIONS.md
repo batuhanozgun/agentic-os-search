@@ -1,11 +1,11 @@
 # ECC — Question Register
 
-**Updated:** 2026-09-18 after U06-B. STATE owns authorization/publication. Source answers do not establish live security or efficacy. Previous notes/evidence retain their bounded authority.
+**Updated:** 2026-09-18 after U06-C. STATE owns authorization/publication. Source answers do not establish live security or efficacy. Previous notes/evidence retain their bounded authority.
 
 | ID / standing | Question / bounded result | Remaining obligation |
 |---|---|---|
 | Q01 PARTIAL | What working system constitutes ECC? | Whole native system explanation and material-family accounting |
-| Q01a PARTIAL | Native topology | Original frontier and per-unit discovery; no complete P1 |
+| Q01a PARTIAL / NEXT U07-A | Native topology and material-family coverage | Reconcile pinned inventory with unit ledgers; expose consequential omissions and choose next mechanism/synthesis sequence |
 | Q01b BOUNDED U01-B | Distinct native/managed/legacy delivery | Not installed-system equivalence |
 | Q02 PARTIAL | Shared content versus cross-host behavior | Actual discovery, selected/executed paths and full host use |
 | Q03 PARTIAL | Ownership/materialization across failure/change | Q03a–c |
@@ -28,22 +28,24 @@
 | Q06c PARTIAL | Outcome evidence for skill improvement | Q06c1/c2 |
 | Q06c1 BOUNDED U05-B | Producer/health/proposal/evaluator/mutation | E04 original helper predicates, not causal effectiveness |
 | Q06c2 OPEN | Independent oracle and accepted change/use | Unique/comparable/version-bound runs, actual admission/deployment and instinct bridge |
-| Q07 PARTIAL | Which security controls govern which effects? | Notes09/10 cover distinct guards, not whole security |
+| Q07 PARTIAL | Which security controls govern which effects? | Notes09–11 cover distinct guards and event/report paths, not whole security |
 | Q07a PARTIAL, decomposed U06-A | Configuration protection and admission | Q07a1/a2 |
 | Q07a1 BOUNDED U06-A | Actual config guard/selector/runner decision | Note09/S123–S129/E05: path/existence control, legitimate exemptions, malformed/truncated and profile contrasts |
 | Q07a2 OPEN | End-to-end protection and authority | Live tool effect, aliases/other writers/races, authenticated exceptions, bootstrap/failure/timeout and cross-host composition; no effective alias-write claim |
 | Q07b PARTIAL, decomposed U06-B | Fact-forcing versus accepted current evidence | Q07b1/b2; no external GateGuard study or general efficacy finding |
 | Q07b1 BOUNDED U06-B | Investigation request, marker/retry/expiry/exemption and actual delivery contracts | Note10/S130–S140: mark-before-deny; key not facts; inactivity not per-target freshness; conditional context-over-deny output in actual Bash combiner. Source only |
 | Q07b2 OPEN | Fact uptake, current applicability and composed enforcement | Live behavior/benefit, full classifier/input/platform, concurrent state, source-bound release and actual host consequences. Selected retry tests omit intervening facts and bypass real Bash dispatcher |
-| Q07c NEXT U06-C | Governance event → persistence → consumer → authority/effect | S140 only 1–110; distinguish approval-requested label from real decision and enforcement; wider scanner/control inventory remains |
-| Q08 PARTIAL | Meaning of success/health/confidence/block/no-objection | E01–E05 and Note10; exit zero may carry structured deny, while missing decision is not final permission |
+| Q07c PARTIAL, decomposed U06-C | Governance event → persistence → consumer → authority/effect | Q07c1/c2; two concrete paths, not a demonstrated approval loop |
+| Q07c1 BOUNDED U06-C | Classification/emission, explicit SQL insertion/resolution, pending/status consumer | Note11/S141–S151: stderr not table write; conditional field mismatch; mutable upsert; total/list distinction; optional exit signal. Source only |
+| Q07c2 OPEN | Actual collector, valid resolution and governed effect | Native payload/phase/session fidelity; capture coverage/freshness; authenticated request/approval/resolution; action admission/resume and wider consumer connections |
+| Q08 PARTIAL | Meaning of success/health/confidence/block/no-objection | E01–E05 and Notes10/11; structured deny, event label, empty pending count and attention exit are distinct claims |
 | Q09 DEFERRED | Whole-study project-facing evaluation | Then-current Foundation and selected studies; joint discussion after completed research |
-| Q10 PARTIAL MR10 | Focus/fidelity/continuity of method | Full gate/caller tracing changed the account; same-conversation recovery preserved two E05 sets; no independent method efficacy |
+| Q10 PARTIAL MR11 | Focus/fidelity/continuity of method | Actual capture/writer/consumer traced; test-seeded storage not assumed to close ingestion; breadth-return effect not yet observed |
 
 ## Interpretations and reopening
 
-Fact-specific interruption can help a cooperative agent without technically validating the requested work. A stored first-touch marker is useful for avoiding repeated prompts without being a certificate of investigation. Session activity preserves continuity but does not prove old facts remain applicable. A source-derived loss of structured denial in one conditional combiner is not a live exploit or absence of other host controls. Explicit exemptions and anti-loop behavior can be legitimate trade-offs.
+An event logger can be useful without being an approval gate. The database implements real shape/FK/persistence controls, but a mutable resolution marker is not an authenticated decision. Counting every pending row while limiting display is a genuine safeguard; zero recorded concerns still does not establish observation coverage. Current host-field mismatches are conditional source findings, not an assertion that every deployment lacks an adapter. The source search is not a global absence proof.
 
-Prior alternatives remain: coarse config protection, heuristic personalization, flexible task cards, archival memory, invocation telemetry, comparison scaffolds and reversible snapshots may have bounded roles without proving accepted effective behavior. Source/host/oracle/authority changes reopen dependent findings. No residual closes merely by changing research family.
+Prior alternatives remain: fact-specific interruptions can help cooperative agents; cached first-touch state can reduce repetition without certifying investigation; coarse config guards, heuristic learning, flexible task cards, archival memory, invocation telemetry and reversible snapshots have bounded roles. Conditional output loss in one combiner is not a universal exploit. All previous source/host/oracle/authority limits remain reopenable.
 
-U06-B bounds Q07b1, keeps Q07b2 open and selects Q07c. No E06, upstream test execution or repeat E01–E05. The two historical E05 sets remain distinct under their reconciliation, not a pooled security score. Full P1 and integrated synthesis remain required.
+U06-C bounds Q07c1, retains Q07c2 and selects Q01a/U07-A for breadth. No E06, new test execution or E01–E05 rerun. Both historical E05 sets remain distinct under the reconciliation. The pinned whole-system inventory and integrated synthesis remain required; changing units does not resolve outstanding mechanisms.

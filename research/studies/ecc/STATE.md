@@ -1,40 +1,41 @@
 # ECC — STATE
 
 **Updated:** 2026-09-18
-**Checkpoint:** U06-B — fact-forcing, retained checks and decision composition
-**Work status:** U06-B COMPLETE / PUBLISHED. Research commit `84d857a910098055b3e43811babfceb8215ef359` reached main by non-force fast-forward; main Note10/source/PLAN/STATE readbacks completed. [PUBLICATION-U06-B](PUBLICATION-U06-B.md) records exact scope, checks and the pre-publication catalog correction. No owner upload or merge is pending.
-**Study:** ACTIVE / PARTIAL. **METHOD / PLAN:** 0.1 / 0.11.
+**Checkpoint:** U06-C — governance events, persistence and decision boundaries
+**Work status:** U06-C substantive source slice COMPLETE; publication/readback IN PROGRESS. Finish scoped integration, catalogue refresh and actual receipt before starting U07-A. Prepared objects are not published work.
+**Study:** ACTIVE / PARTIAL. **METHOD / PLAN:** 0.1 / 0.12.
 **Unchanged target:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 
 ## Purpose and current result
 
-Source-grounded ECC research with repository-centred continuity and method evaluation. Comprehensive joint evaluation with Batu remains after completed research; intermediate validation/synthesis continues. Material purpose/scope/authority decisions return earlier. Information/Foundation relevance remains a reuse cue, not adopted taxonomy or design.
+Source-grounded ECC research with repository-centred continuity and method evaluation. Comprehensive joint evaluation with Batu remains after completed research; intermediate validation and native synthesis continue. Material purpose/scope/authority decisions return earlier. Information/Foundation relevance is a reuse cue, not adopted taxonomy or design.
 
-Current: [Note10](notes/10-FACT-FORCING-STATE-AND-DECISION-COMPOSITION.md), [U06-B sources](evidence/U06-B-SOURCES.md), [MR10](ROUND-U06-B.md). Prior U00–U06-A deliveries and E01–E05 remain preserved, not whole-study completion.
+Current: [Note11](notes/11-GOVERNANCE-EVENTS-PERSISTENCE-AND-DECISION.md), [U06-C sources](evidence/U06-C-SOURCES.md), [MR11](ROUND-U06-C.md). U00–U06-B and E01–E05 remain preserved bounded deliveries, not whole-study completion.
 
-- GateGuard requests concrete investigation and can emit an actual structured refusal. The retained marker is written before that refusal; later release checks a key, not presented/validated facts. Selected retry tests supply no intervening investigation.
-- File, destructive-command and routine-shell keys have different scopes. Retained markers are not bound to current contents, instruction or task. Expiry is session inactivity; successful use can refresh it.
-- Settings/path/subagent exemptions and unpersistable-state warning paths are real policy choices. The file-subagent path assumes rather than verifies a parent's investigation; destructive shell follows a distinct path.
-- Exit zero can carry JSON deny. The direct wrapper and actual Bash dispatcher differ: under accumulated additionalContext, the dispatcher's final output can omit a later zero-exit GateGuard refusal. A real strict-profile reminder supplies context. This is a conditional source trace, not a live bypass or whole-ECC security verdict.
-- Concrete shell parsing exists; PowerShell and unrelated checker bodies remain partial. The included skill's two-task improvement claims were not independently validated.
+- The optional capture hook emits classified JSON events to stderr despite a header claiming database writes. Its complete path does not insert into the state store or request/await an actor's approval.
+- A separate schema-validated governance insert/update, persistent store and status consumer genuinely exist. No automatic capture-stream-to-store connection was established in the traced callers; no repository-wide absence claim follows.
+- Documented host input fields differ from the hook's string tool_output and environment-based session/phase sources. Missing translation has conditional output/correlation consequences, not an observed universal host failure.
+- Pending means resolved_at is null. The count includes all pending database rows independently of the limited detail list. Same-ID upsert and a resolution marker do not authenticate an approval or make the log immutable.
+- Status can report attention and optionally return exit 2, but does not itself implement an approval/resume workflow. Zero pending rows does not establish capture coverage or a safe world; human/Markdown summaries omit payload detail retained in JSON.
+- Event minimization, schema/FK constraints and private/atomic persistence are meaningful controls with their own limits. Embedded AgentShield guidance and separate scanner code remain distinct.
 
-**Evidence:** S130–S140 plus retained wrapper/manifest sources; SOURCE OBSERVATION / selected TEST SOURCE INSPECTION / qualified INFERENCE. No new ECC execution, test, probe or E06. No model, installation, real proposed action, scanner or user configuration change. E01–E05 were not rerun.
+**Evidence:** S141–S151 and retained registration/wrapper sources; SOURCE OBSERVATION / TEST SOURCE INSPECTION / qualified INFERENCE. No new experiment or E06; no target code, database, scanner, model, actual tool operation, installation or user state was executed. E01–E05 were not rerun or pooled.
 
 ## Next authorized work
 
-**U06-C / Q07c**, NOT STARTED: governance event production → persistence → actual consumer/effect. Start the pinned `scripts/hooks/governance-capture.js` in full (S140 is only 1–110), its real state-store writer and governance CLI/report/control callers discovered from that code. Distinguish classification, approval requested, authenticated approval, audit visibility and enforcement. Follow scanner/AgentShield links only where actual sources connect them; do not assume a shared word proves integration.
+After publication closure, **U07-A / Q01a**, NOT STARTED: return to material-family discovery and coverage accounting. Recover the pinned topology, original inventory/frontier and per-unit ledgers. Explicitly account for ecc2, native workflows/controllers, procedural assets, UI/integrations and scanner/release/evaluation surfaces rather than continuing indefinitely through adjacent hooks.
 
-Return with one bounded event-to-consumer trace, a normal case and a material missing/partial/denied-evidence contrast; source-only completion is allowed. Then reconnect to remaining control/scanner families and P1/native synthesis rather than indefinitely extending parser cases.
+Return with a source-linked family/coverage map, consequential omissions and a justified next mechanism sequence. Form native synthesis candidates only where existing evidence supports them; do not declare CORE or whole-study completion. Start inventory/STRUCTURE.md, inventory/TREE-FRONTIER.tsv, current PLAN/INDEX and pinned repository directory/tree metadata; read actual family entry files as needed. S150 SECURITY.md supplies separate scanner/distribution pointers, not verified AgentShield behavior.
 
-Q07b1 bounded; Q07b2 open for facts actually supplied/used, benefit, current-target binding, complete classifier/input/platform/concurrency and composed-host effects. Q07a2 and older Q03b/c, Q04b/c/e, Q05b/c, Q06b/c2 and P1 remain open. Moving units does not resolve them.
+Q07c1 bounded; Q07c2 retains a connected collector, native event fidelity, authenticated approval/resolution, ingestion coverage and actual effect. Q07a2/Q07b2, older Q03b/c, Q04b/c/e, Q05b/c, Q06b/c2 and P1 remain open. U06-C does not complete the security family.
 
 ## Authority and recovery
 
-Batu owns purpose/material phase choices. Assistant owns authorized research, proportionate isolated fixtures, sequencing, repository organization and verifiable publication. Writes: research/studies/ecc/** plus only ECC discovery row/route in shared CATALOG/INDEX. Preserve other studies, Foundation, soul-context, explorations, upstream and agent-control. No real installation, user-home/config/cache change, credentials/provider/model calls, upstream report/patch or SOUL/Development OS implementation.
+Batu owns purpose/material phase choices. Assistant owns authorized research, proportionate isolated fixtures, sequencing, repository organization and verified publication. Writes: research/studies/ecc/** plus only ECC discovery row/route in shared CATALOG/INDEX. Preserve other studies, concepts, Foundation, soul-context, explorations, upstream and agent-control. No real installation, user-home/config/cache changes, credentials/provider/model calls, upstream report/patch or SOUL/Development OS implementation.
 
-After current control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then Note10, U06-B sources, ROUND-U06-B and [PUBLICATION-U06-B](PUBLICATION-U06-B.md), including its maintenance addendum. Recover the U06-A reconciliation below when referring to E05; do not rerun experiments to recover progress. Old master histories through U03-B and subsequent unit notes/sources/rounds/receipts retain their identities.
+After current control bootstrap, fully read STATE/INDEX/META/WHY/METHOD/PLAN/QUESTIONS, then Note11, U06-C sources, ROUND-U06-C and current publication receipt once linked. Reopen exact sources when the current claim requires them. Do not rerun experiments to recover progress. The old master histories through U03-B and later unit records remain recoverable through INDEX.
 
-At entry, main equalled continuity commit `3d93615ae51e4e85cd509e49f65b4c2afbad07c0`; prior required full same-conversation sources/control remained available. This is not an independent cold-start experiment. Auxiliary raw download failed at DNS; connector reading remained available. Publication checks and scope, not prepared object creation, determine final published standing.
+Fresh controls and package entries were recovered. Concurrent main work added a separate concepts programme and another candidate; it is not ECC work to overwrite or duplicate. Publication preparation starts at f922b49d92df26578e74a42e37f9b97133854b73 and must recheck head/scope before advancing. Auxiliary raw download failed at DNS; connected reads/writes are available. This is same-assistant recovery, not an independent cold-start test.
 
 ## Conversation/repository reconciliation — preserved 2026-09-18
 
@@ -42,4 +43,4 @@ Branch creation, cleanup and merge timing are assistant-managed operational deta
 
 Two distinct historical records share the label E05: the existing main-path Node driver has 15 cases; the conversation ZIP's Python driver has 16 different/overlapping cases. The original conversation evidence is preserved in [the reconciliation record](evidence/u06-a-conversation-record/README.md). Read it alongside [main-path E05](evidence/u06-a-config-probe/README.md); do not overwrite either, pool case IDs or call them independent replication. Current Note09 remains its bounded explanation.
 
-The old ZIP's pending-publication STATE/application instructions are historical and must not be replayed over current main. U06-A publication and that targeted maintenance are already closed; neither is new research to repeat. U06-B introduces no new experiment or substituted E05 identity. No owner upload or merge task is created.
+The old ZIP's pending-publication STATE/application instructions are historical and must not be replayed over current main. U06-A publication and that targeted maintenance are closed; U06-B is also published under [its receipt](PUBLICATION-U06-B.md). Neither is work to repeat. U06-C introduces no substituted E05 identity or new E06. No owner upload or merge task is created.
