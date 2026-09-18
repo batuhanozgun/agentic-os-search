@@ -9,9 +9,10 @@ Amaç, ilgili kaynakların neye hangi adı verdiğini, farklı kullanımları, i
 | İlk 10 bağlı terim batch'i | [U03](U03-CORE-TERMS-BATCH1.md) | Agent, Model, LLM, Actor, Role, Run, Session, Workflow, Tool ve Harness için bağlantılı kaynak/çakışma incelemesi. |
 | İkinci 10 bağlı terim batch'i | [U04](U04-CORE-TERMS-BATCH2.md) | Runtime, Context, Memory, Identity, Capability, Authority, Permission, Orchestration, Handoff ve Subagent için bağlantılı inceleme. |
 | Üçüncü 10 bağlı terim batch'i | [U05](U05-CORE-TERMS-BATCH3.md) | State, Work state, Environment, Workspace, Sandbox, Policy, Guardrail, Verification, Observability ve Persistence için bağlantılı inceleme. |
+| Dördüncü 10 bağlı terim batch'i | [U06](U06-CORE-TERMS-BATCH4.md) | Goal, Intent, Plan, Task/Work item, Dependency, Readiness, Completion, Validation, Evaluation ve Evidence için bağlantılı inceleme. |
 
 Bir komşunun adı geçmesi araştırmasının tamamlandığını veya ayrı paket gerektirdiğini göstermez. Kaynak gözlemi, araştırmada açılan soru, eski diyalog ve yeni kullanıcı örneği ayrı kökenlerle tutulur. Mevcut studies'den alınan dayanaklar kendi yerine bağlanır; gereksiz tekrar araştırma yapılmaz.
 
 Güncel etkinlik, odak ve yetki [STATE](../STATE.md)'tedir. Başlangıç terimleri ve keşif bağlantıları [envanterde](../TERM-INVENTORY.md) tutulur; çalışma sırası değildir. Gerekli ayrım için komşuya girildiyse asıl soruya dönüş noktası kaybolmaz.
 
-U03 + U04 + U05 bağlantılı incelemeleri, ilk 30 terimi bir araya getiren [working local reference v0.3](../synthesis/CORE-TERMS-WORKING-v0.3.md)'ü üretir. Bu aday veya kaynak gözlemi kendiliğinden [kabul edilmiş referans](../reference/INDEX.md) olmaz. [Yöntem](../METHOD.md), [amaç](../PURPOSE.md), [plan](../PLAN.md), [ana giriş](../INDEX.md).
+U03 + U04 + U05 + U06 bağlantılı incelemeleri, ilk 40 terimi bir araya getiren [working local reference v0.4](../synthesis/CORE-TERMS-WORKING-v0.4.md)'ü üretir. Bu aday veya kaynak gözlemi kendiliğinden [kabul edilmiş referans](../reference/INDEX.md) olmaz. [Yöntem](../METHOD.md), [amaç](../PURPOSE.md), [plan](../PLAN.md), [ana giriş](../INDEX.md).
