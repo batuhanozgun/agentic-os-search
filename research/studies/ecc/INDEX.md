@@ -4,11 +4,12 @@
 
 | Need | Entry |
 |---|---|
+| Node operator/store/action/message bridge and target binding | [Note16](notes/16-NODE-OPERATOR-BRIDGE-AND-TARGET-BINDING.md) → [U09-B sources](evidence/U09-B-SOURCES.md), [MR17](ROUND-U09-B.md); bounded source answer, no new execution |
+| Next Rust evaluation/admission/use | [PLAN](PLAN.md) U10-A/Q06d1 → harness_eval.rs and actual main/store consumers; NOT STARTED until STATE activation |
 | Rust attempt ownership/revocation and bounded lifecycle closure | [Note15](notes/15-EXECUTION-ATTEMPT-OWNERSHIP-AND-REVOCATION.md) → [A3 sources](evidence/U09-A3-SOURCES.md), [MR16](ROUND-U09-A3.md); source schedules are not executed incidents |
-| Next Node operator/store/action bridge | [PLAN](PLAN.md) U09-B/Q04g2 → S12 control-pane CLI and S160 tree; NOT STARTED until STATE activation |
 | Rust storage/observer/worktree continuity | [Note14](notes/14-STORE-OBSERVER-AND-WORKTREE-CONTINUITY.md) → [A2 sources](evidence/U09-A2-SOURCES.md), [E07](evidence/u09-a2-sql-git-probe/README.md), [MR15](ROUND-U09-A2.md) |
 | Rust command/record/runner/stop/resume/daemon | [Note13](notes/13-RUST-SESSION-LIFECYCLE-FIRST-SLICE.md) → [first Rust sources](evidence/U09-A-SOURCES.md), [MR14](ROUND-U09-A.md) |
-| Stronger Rust runtime/host claims | [QUESTIONS](QUESTIONS.md) Q04g1c; not secretly validated by bounded Q04g1 closure |
+| Stronger runtime/host/target/recipient and operator-algorithm claims | [QUESTIONS](QUESTIONS.md) Q04g1c/Q04g2b; not certified by source closure |
 | Plan Canvas feedback/review/continuation | [Note12](notes/12-PLAN-CANVAS-FEEDBACK-AND-CONTINUATION.md) → [U08-A sources](evidence/U08-A-SOURCES.md), [MR13](ROUND-U08-A.md) |
 | Historical U08-A interruption and excluded E06 | [Recovery record](RECOVERY-U08-A-20260918.md) → [quarantine/checks](evidence/u08-a-recovery/README.md), [recovery publication](PUBLICATION-U08-A-RECOVERY.md) |
 | Purpose, pin and reuse | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
@@ -29,8 +30,8 @@
 | Older master histories through U03-B | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later unit ledgers/rounds continue separately |
 | Historical inventory/frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md); U07-A adds dispositions |
 | Current publication | STATE links the actual receipt after checks; source completion and publication completion remain distinct |
-| Earlier publication | [U09-A2](PUBLICATION-U09-A2.md), [U09-A first slice](PUBLICATION-U09-A.md), [U08-A](PUBLICATION-U08-A.md), [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
+| Earlier publication | [U09-A3/retry](PUBLICATION-U09-A3.md), [U09-A2](PUBLICATION-U09-A2.md), [U09-A first slice](PUBLICATION-U09-A.md), [U08-A](PUBLICATION-U08-A.md), [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
 
-Notes13–15 meet the bounded Rust lifecycle source criterion; they do not certify full ECC2, running hosts, attempt isolation or native model continuation. Q04g1c preserves stronger residuals. Node Q04g2 and Rust scheduling/evaluation/comms remain distinct frontiers. Source-derived schedules are not a new experiment; E07 is only the earlier SQL/Git fixture. U08-A stays published, E06 unverified/excluded and both E05 histories separate.
+Note16 answers the bounded Node bridge question; Notes13–15 retain the bounded Rust lifecycle answer. They do not certify every host, active target, message recipient, proximity algorithm or native model continuation. Q04g1c/Q04g2b preserve stronger residuals. Rust/Node evaluation and broad orchestration remain separate frontiers. Source schedules and contract comparisons are not E08; E07 is only its earlier SQL/Git fixture. U08-A stays published, E06 excluded and both E05 histories separate.
 
 Comprehensive joint evaluation remains after completed research; no whole-system synthesis or CORE is claimed. META owns reuse, STATE current work, PLAN sequence, QUESTIONS research obligations, ledgers source coverage, rounds method history and receipts publication correspondence. These are project-work surfaces, not agent-control.
