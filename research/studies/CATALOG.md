@@ -16,6 +16,7 @@ For term-use research, cross-concept comparisons or shared conversational meanin
 
 | Study | Type | Current status | Strongest current reuse signals | Foundation relevance hints | Start |
 |---|---|---|---|---|---|
+| `agent-memory-providers` | focused-topic | PLANNED / RESEARCH NOT STARTED; paired MongoDB talk + Memorizz qualification only; no pinned research corpus, runtime validation or adoption | memory-provider/persistence-substrate contract; provider vs memory-management/runtime boundary; scope/isolation, retrieval/degradation, retention/deletion, database/file/index trade-offs; MongoDB as initial case, not conclusion | Information: very strong provisional; Environment: strong; Work/Actors/control: strong/conditional; not Foundation taxonomy | `agent-memory-providers/META.md` |
 | `agentic-ai-systems-roadmap` | hybrid | discussion-open seed; source visual + initial comparative assessment registered; no deep-research campaign authorised | roadmap/coverage falsifier; research-gap discovery; strongest candidate seams are agentic evaluation infrastructure, evaluation–observability–governance control loop, model/runtime execution policy and deployment/resilience semantics; infographic taxonomy not adopted | Information/Work/Actors/Environment: broad provisional hints; relations/control strong; not Foundation taxonomy | `agentic-ai-systems-roadmap/META.md` |
 | `ai-knowledge-strategies` | focused-topic | bounded research complete; related follow-up linked | RAG, Knowledge Graph, Fine-Tuning, CAG, Long Context decision boundaries; knowledge/context mechanism selection; falsifiers and failure modes | Information: strong; Environment/Work/Actors: conditional cross-boundary relevance | `ai-knowledge-strategies/META.md` |
 | `ai-memory` | external-target | PLANNED / RESEARCH NOT STARTED; preliminary qualification only; no pinned research corpus; no benchmark/adoption validation | file-first canonical memory with derived indexes; automatic lifecycle capture; cross-agent/machine handoffs and managed workstreams; multi-user ownership/audit; retention/forgetting; optional consolidation/auto-improvement; reproducible first-party retrieval eval surface | Information: very strong provisional; Work/Actors/Environment/control: strong/conditional; not Foundation taxonomy | `ai-memory/META.md` |
@@ -57,6 +58,7 @@ The Carbon Layer collection and its named children are a hierarchy, not independ
 
 Likely candidates to inspect first, depending on the exact node/problem:
 
+- `agent-memory-providers` for the provider/persistence-substrate boundary, MongoDB/Memorizz seed corpus, scoped retrieval/degradation and storage-vs-management questions; planned only, no findings yet
 - `ai-knowledge-strategies`
 - `context-memory-harness-engineering`
 - `agentic-ai-systems-roadmap` when the question is whether retrieval/grounding/eval/version-tracking concerns expose a broader missing operational-evidence research seam; treat its infographic as a prompt, not evidence
