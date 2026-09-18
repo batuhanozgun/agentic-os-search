@@ -1,11 +1,11 @@
 # Core Terms — Working Local Reference v0.1
 
 **Tarih:** 2026-09-18.  
-**Statü:** WORKING LOCAL REFERENCE CANDIDATE / BATCH-LEVEL REVIEW PENDING.  
+**Statü:** SUPERSEDED WORKING SNAPSHOT; ilk 10 terimin tarihsel v0.1 görünümü.  
 **Kapsam:** İlk 10 bağlı terim. Evrensel sözlük veya SOUL mimarisi değildir.  
 **Dayanak:** [U03 linked research](../research/U03-CORE-TERMS-BATCH1.md), Agent [U01](../research/agent/U01-SOURCE-USES.md), [U02](../research/agent/U02-AGENT-MODEL-BOUNDARY.md), mevcut Harness study ve seçili birincil kaynaklar.
 
-Bu dosya tek tek terim onayı istemek yerine, birbirini taşıyan ilk çalışma sözlüğünü bir bütün olarak test etmek için hazırlanmıştır.
+Bu dosya ilk 10 terimin çalışma snapshot'ıdır. Güncel working reference [v0.2](CORE-TERMS-WORKING-v0.2.md)'dir.
 
 ## İlk 10 çalışma tanımı
 
@@ -104,4 +104,4 @@ Harness operates/controls the surrounding execution system
 
 Bu batch, assistant tarafından araştırma ve çakışma kontrolüyle oluşturulmuş **çalışan v0.1 yerel referans adayıdır**. Kullanıcının tek tek terim değerlendirmesi beklenmez. Sonraki batch'ler ve gerçek kullanım çakışmaları bu tanımları fine-tune edebilir.
 
-Henüz `reference/INDEX.md` altında ACCEPTED kayıt değildir; batch düzeyinde kullanıcı yönü/itirazı sonrasında uygun statüye geçirilebilir.
+Bu snapshot ACCEPTED değildir; güncel kullanım için v0.2'ye dön.
