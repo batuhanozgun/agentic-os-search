@@ -69,6 +69,7 @@ Do not load every study merely because the library exists.
 | Visual/practitioner roadmap as a discussion-driven research-gap trigger for agentic systems | `agentic-ai-systems-roadmap/META.md` | `STATE.md` → `INITIAL-ASSESSMENT.md` → `SOURCE-VISUAL.md` / image → related studies |
 | Knowledge access / representation / adaptation mechanisms | `ai-knowledge-strategies/META.md` | `STATE.md` → `INDEX.md` / mechanism files |
 | Anthropic AI-native SDLC / agent-native software operating model | `anthropic-ai-native-sdlc-playbook/META.md` | `STATE.md` → `INDEX.md` → playbook research / source ledger / SOUL-DevOS assessment / falsifiers |
+| Agent memory provider / persistence substrate boundary — planned | `agent-memory-providers/META.md` | paired MongoDB talk + Memorizz seed corpus; detailed research not started |
 | Context / memory / harness engineering | `context-memory-harness-engineering/META.md` | `STATE.md` → `INDEX.md` / cross-layer synthesis |
 | Harness composition/evolution — first Carbon Layer video and complementary Meta-Harness research | `the-carbon-layer/videos/mQfTdNVCOB0-harness-engineering/META.md` | local STATE → INDEX → source/evidence/plan; same dossier, historical alias `harness-engineering-and-evolution` |
 | ECC portable assets, Work/runtime, memory and authority boundaries — active partial | `ecc/META.md` | package `STATE.md` → `INDEX.md` → relevant bounded note/source ledger; exact execution and open integration limits remain package-local |
@@ -117,6 +118,7 @@ Completion of a study never authorizes adoption.
 
 ## Current package list
 
+- `agent-memory-providers/`
 - `agentic-ai-systems-roadmap/`
 - `ai-knowledge-strategies/`
 - `ai-memory/`
