@@ -4,7 +4,7 @@ Amaç, ilgili kaynakların neye hangi adı verdiğini, farklı kullanımları ve
 
 | Konu | Giriş | Kayıt türü |
 |---|---|---|
-| Agent | [agent/BRIEF.md](agent/BRIEF.md) | İlk araştırma kapsam hazırlığı; bulgu veya kabul edilmiş tanım değil. |
+| Agent | [agent/BRIEF.md](agent/BRIEF.md) → [U01 kaynak kullanımları](agent/U01-SOURCE-USES.md) | Kapsam brief'i ve ilk sınırlı kaynak incelemesi; ortak tanım veya kabul edilmiş referans değil. |
 
 Güncel etkinlik ve yetki [program STATE](../STATE.md)'den alınır. Diğer terimler [envanterde](../TERM-INVENTORY.md) durur; henüz boş araştırma paketleri açılmamıştır.
 
