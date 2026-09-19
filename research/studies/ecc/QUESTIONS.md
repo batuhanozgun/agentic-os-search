@@ -1,6 +1,6 @@
 # ECC — Question Register
 
-**Updated:** 2026-09-18 after U09-B. STATE owns publication and activation. Source answers, derived views and limited fixtures do not establish live security or efficacy. Historical E06 remains unverified/excluded; E07 retains its separate SQL/Git evidence identity. No new experiment in U09-B.
+**Updated:** 2026-09-19 after U10-A. STATE owns publication and activation. Source answers, derived views and limited fixtures do not establish live security or efficacy. Historical E06 remains unverified/excluded; E07 retains its separate SQL/Git evidence identity. No new experiment in U10-A.
 
 | ID / standing | Question / bounded result | Remaining obligation |
 |---|---|---|
@@ -36,15 +36,17 @@
 | Q05a BOUNDED U04-A | Save/scope/recall/CLI/MCP | Fixed unreviewed trust; no new runtime evidence |
 | Q05b OPEN | Completeness/current-status/conflicting recall | Terminal diagnostics, duplicates, stale records, composition; Note16 distinguishes bounded Node recall from a separate Rust action, not semantic quality |
 | Q05c OPEN | Actual memory uptake/governed review | ECC2 projection, capture/resume and stronger isolation/replication; snapshot or sent message is not full memory uptake |
-| Q06 PARTIAL | Retained useful behavior | Notes07–08 do not establish a closed beneficial loop |
+| Q06 PARTIAL | Retained useful behavior | Notes07–08 and the bounded registry in Note17 do not establish a closed beneficial live-learning loop |
 | Q06a BOUNDED U05-A | Capture/analyzer/instinct/context | Selected evidence, optional analyzer, marker/scope/evolve differences; source-only |
 | Q06b OPEN | Sample/archive, meaning and applicability | Partial writes, semantic independence, confidence, trigger/ID/evidence fidelity, identity and evolved loading |
 | Q06c PARTIAL | Outcome evidence for skill improvement | Q06c1/c2 |
 | Q06c1 BOUNDED U05-B | Producer/health/proposal/evaluator/mutation | E04 original helper predicates, not causal effectiveness |
 | Q06c2 OPEN | Independent oracle and accepted change/use | Unique/comparable/version-bound runs, actual admission/deployment and instinct bridge |
-| Q06d PARTIAL, decomposed | Separate Rust registry and Node offline evaluation | Q06d1/d2; incidental CLI/schema readings do not close either framework |
-| Q06d1 NEXT U10-A | Rust candidate/evaluator/health/admission/audit → actual active-config consumer | Full harness_eval.rs then real main/store callers; score provenance, rejected/stale/invalid inputs and actual use; no automatic live benchmark |
-| Q06d2 OPEN | Node capsule/replay/receipt and unavailable execution | S164–S166 entry refusal retained; deeper producer/receipt/promotion and containment semantics not inherited from Rust or E04 |
+| Q06d PARTIAL, decomposed | Separate Rust registry and Node offline evaluation | Q06d1 source answer; stronger Q06d1b and separate Q06d2 remain |
+| Q06d1 BOUNDED SOURCE COMPLETE U10-A | Rust candidate/evidence/comparison/health/admission/audit → actual use boundary | Note17 meets original return condition; Q06d1a/b separate mechanism answer from stronger empirical/deployment claims |
+| Q06d1a BOUNDED U10-A | Recorded-evidence registry, transactional admission and built-in use | S218/S219–S220 plus main/store/manager re-entry: canonical references, supplied score pairs/policy, candidate-keyed health, expected-baseline update/reversal/audit; normal config/profile worker path does not apply registry candidate. No new execution |
+| Q06d1b OPEN | Stronger validity, authority, durability and runtime adoption | Score/reference provenance and statistical validity; criteria/seed preregistration; independent health; custom evaluators/consumers; privileged tamper; concurrent promotion/crash/callback effects; crate/build correspondence and actual deployment |
+| Q06d2 NEXT U10-B | Node capsule/replay/receipt and deliberately unavailable execution | S164/S165/S158 actual CLI/tree → capsule/replay/receipt consumers; S166 refusal retained. Do not inherit Rust or E04 conclusions or implement a live executor |
 | Q07 PARTIAL | Which security controls govern which effects? | Notes09–11 are bounded mechanisms, not whole security |
 | Q07a PARTIAL, decomposed U06-A | Configuration protection and admission | Q07a1/a2 |
 | Q07a1 BOUNDED U06-A | Actual config guard/selector/runner decision | Note09/S123–S129/E05: path/existence control, exemptions, malformed/truncated and profile contrasts |
@@ -56,16 +58,18 @@
 | Q07c1 BOUNDED U06-C | Classification/emission, explicit SQL insertion/resolution, pending/status | Note11/S141–S151: stderr not table write; field mismatch, mutable upsert, total/list distinction and optional exit signal; source only |
 | Q07c2 OPEN | Actual collector, valid resolution and governed effect | Native payload/phase/session fidelity, capture freshness, authenticated decision and action admission/resume. Plan Canvas is separate; TUI/Node projections are not approval authority |
 | Q07d OPEN | Scanner, release and distribution gates | S150/S153/S161 source boundaries/workflow metadata, not release artifacts, actual CI, scanner efficacy or approval receipts |
-| Q08 PARTIAL | Meaning of success/health/progress/confidence/block/no-objection | Prior distinctions retained; Note16 adds zero-exit versus observed-target effect, constructed argv versus admitted message, sampled view versus complete state, advisory/send count versus recipient action |
+| Q08 PARTIAL | Meaning of success/health/progress/confidence/block/no-objection | Prior distinctions retained; Note17 adds saved criteria versus preregistration, health integrity versus independent measurement, processed comparison versus promotion, registry reversal versus runtime rollback and active slot versus deployment |
 | Q09 DEFERRED | Whole-study project-facing evaluation | Then-current Foundation and selected studies; joint discussion after completed research |
-| Q10 PARTIAL MR17 | Focus/fidelity/continuity of method | Actual consumer contradicts producer-only fake-runner confidence; source-range location cost retained, no independent efficacy or new experiment |
+| Q10 PARTIAL MR18 | Focus/fidelity/continuity of method | Actual predicates/use and explicit feature limits distinguish intended registry scope from missing promised control; monolithic-source location cost retained, no independent efficacy or new experiment |
 
 ## Interpretations and reopening
 
 One Node evaluator, logger, worker or Rust store does not represent all ECC. An unavailable executor can be deliberate protection. Native review preserves uncertainty without proving its judgments. Queued work, local logs, archival memory, heuristic learning, derived boards and cooperative review may be useful without satisfying stronger authority/acceptance guarantees.
 
-Notes13–15 preserve real state guards and source-level ownership boundaries. Note16 adds actual Node bridges without assuming one unified controller: selected card-store mutation is not a worker launch; snapshot configuration need not reach Rust actions; graph sync invokes policy checks; a conflict-message producer omits the consumer-required file. Valid query construction is a counterpart, not proof of recipient uptake. All these findings are source-bound, not observed live failures or rates.
+Notes13–15 preserve real state guards and source-level ownership boundaries. Note16 adds actual Node bridges without assuming one unified controller: selected card-store mutation is not a worker launch; snapshot configuration need not reach Rust actions; graph sync invokes policy checks; a conflict-message producer omits the consumer-required file. Valid query construction is a counterpart, not proof of recipient uptake. These findings are source-bound, not observed live failures or rates.
 
-Q04g1c and Q04g2b retain stronger uncertainty without making every live experiment an endless source-closure prerequisite. New producer/consumer/version/schema/host/configuration or authority evidence can reopen dependent findings. Broad orchestration, deep operator algorithms and evaluation remain separate frontiers.
+Note17 explains a different, deliberately bounded registry. Its canonicalization, current-baseline predicate, transaction, rejection/reversal and health-audit checks are useful mechanisms. They do not authenticate supplied measurements, prove independence/preregistration or deploy the active candidate. The actual config/profile launcher and documented registry-only scope support the use boundary; a default-branch search miss is not a universal absence proof. Inspected SQLite tests are not executed experiments.
 
-After actual U09-B publication closure continue U10-A/Q06d1, not another reading of the answered operator bridge. Do not pool E07 with older experiments or call source schedules E08 results. U08-A/U09-A stay published, E06 excluded, both E05 histories distinct. Whole-system synthesis/CORE and final joint evaluation remain later work.
+Q04g1c, Q04g2b and Q06d1b retain stronger uncertainty without making every live experiment an endless source-closure prerequisite. New producer/consumer/version/schema/host/configuration or authority evidence can reopen dependent findings. Broad orchestration, deep operator algorithms and the separate Node evidence framework remain distinct frontiers.
+
+After actual U10-A publication closure continue U10-B/Q06d2, not another reading of the answered registry. Do not pool E07 with older experiments or call source schedules E08 results. U08-A/U09-A/U09-B stay published, E06 excluded, both E05 histories distinct. Whole-system synthesis/CORE and final joint evaluation remain later work.
