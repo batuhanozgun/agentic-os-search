@@ -18,11 +18,13 @@ Candidate studies are classified by research object:
 
 A study can use external sources without being an `external-target` study.
 
-## Separate concept-use programme
+## Separate term-extraction and shared-reference programme
 
-For term meanings across sources, comparisons between those uses and a jointly considered conversational reference, use [`concepts/INDEX.md`](../../concepts/INDEX.md) → [`concepts/STATE.md`](../../concepts/STATE.md). That owner-authorised programme uses an iterative method: a seed meaning-question can open necessary neighbouring concepts and lead to a scoped local-reference proposal without completing the entire inventory. Its three record levels distinguish evidence, comparison and accepted use, not a mandatory global phase sequence; it is not another candidate study to duplicate here.
+The programme restarted on 2026-09-19 is reached through [`concepts/INDEX.md`](../../concepts/INDEX.md), whose full cold-start route recovers current STATE, purpose, source user request, draft method and plan. Former concepts decisions and method are not a continuation point.
 
-Technical/mechanism studies, including existing context/memory/harness research, remain in this library. Concepts work selectively cites their exact findings and sources rather than moving or rewriting them. An ordinary study is not reclassified merely because it discusses a concept. Reference acceptance does not change a study's findings, current work, source meaning or authority.
+Its first phase fully reads each studies research package in its own context and extracts term/jargon uses into a separate concepts area for that research. Only after all scoped extraction is complete are the outputs read together for a distinct shared-reference assessment. A seed term does not authorise early cross-study normalisation or accepted local definitions. Two conversation-only method pilots and their evaluations precede durable serial extraction; preparation is not evidence that those pilots have occurred. Current authorisation and actual progress belong to concepts/STATE.md.
+
+Technical/mechanism studies remain in this library. Their source-native terminology, earlier research commentary and the new extractor's interpretations must remain distinguishable. Concepts does not relocate or rewrite source research, duplicate studies in this catalogue, change package completion or grant Foundation/architecture authority. A common-use decision cannot change what a source originally meant.
 
 ## Migration note
 
@@ -48,7 +50,7 @@ relevant finding / synthesis / assessment / evidence
 authoritative current external source when decision-critical
 ```
 
-Do not load every study merely because the library exists.
+Do not load every study merely because the library exists. The explicitly authorised concepts extraction is a different work mode: full coverage is accumulated across research packages and turns, not replaced by this selective-reuse flow or loaded wholesale every turn.
 
 ## Current routes
 
