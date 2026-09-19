@@ -4,8 +4,9 @@
 
 | Need | Entry |
 |---|---|
-| Scheduled work, UTC timing, admission and retry/removal boundaries | [Note20](notes/20-SCHEDULED-WORK-ADMISSION-AND-RETRY.md) → [U11-B sources](evidence/U11-B-SOURCES.md), [MR21](ROUND-U11-B.md); source analysis, no E09 or live recurring task |
-| Next remote intake, target/authority and dispatch/result semantics | [PLAN](PLAN.md) U11-C/Q04e2 → actual main server/CLI, manager and store; NOT STARTED until STATE activation |
+| Remote intake, authority/target, delegate reuse and dispatch/result | [Note21](notes/21-REMOTE-INTAKE-DISPATCH-AND-RESULT-BOUNDARIES.md) → [U11-C sources](evidence/U11-C-SOURCES.md), [MR22](ROUND-U11-C.md); source analysis, no E09/live endpoint |
+| Next unread-handoff/backlog coordination and actual acknowledgement | [PLAN](PLAN.md) U11-D/Q04e3 → manager drain/dispatch/rebalance, daemon coordination, store unread/mark-read and actual downstream consumer; NOT STARTED until STATE activation |
+| Scheduled work, UTC timing, admission and retry/removal boundaries | [Note20](notes/20-SCHEDULED-WORK-ADMISSION-AND-RETRY.md) → [U11-B sources](evidence/U11-B-SOURCES.md), [MR21](ROUND-U11-B.md) |
 | Native review caller, finding composition and outer human decisions | [Note19](notes/19-NATIVE-REVIEW-CALLER-AND-DECISION-BOUNDARIES.md) → [U11-A sources](evidence/U11-A-SOURCES.md), [MR20](ROUND-U11-A.md) |
 | E08 adapted review-flow run, precheck and complete raw data | [E08 README](evidence/u11-a-review-flow-probe/README.md) → PRECHECK, probe and four lossless encoded parts; not native Workflow/model evidence |
 | Node offline capsules, replay, receipt scope and report-only grouping | [Note18](notes/18-OFFLINE-CAPSULES-REPLAY-AND-RECEIPT-SCOPE.md) → [U10-B sources](evidence/U10-B-SOURCES.md), [MR19](ROUND-U10-B.md) |
@@ -14,7 +15,7 @@
 | Rust attempt ownership/revocation and bounded lifecycle closure | [Note15](notes/15-EXECUTION-ATTEMPT-OWNERSHIP-AND-REVOCATION.md) → [A3 sources](evidence/U09-A3-SOURCES.md), [MR16](ROUND-U09-A3.md) |
 | Rust storage/observer/worktree continuity | [Note14](notes/14-STORE-OBSERVER-AND-WORKTREE-CONTINUITY.md) → [A2 sources](evidence/U09-A2-SOURCES.md), [E07](evidence/u09-a2-sql-git-probe/README.md), [MR15](ROUND-U09-A2.md) |
 | Rust command/record/runner/stop/resume/daemon | [Note13](notes/13-RUST-SESSION-LIFECYCLE-FIRST-SLICE.md) → [first Rust sources](evidence/U09-A-SOURCES.md), [MR14](ROUND-U09-A.md) |
-| Stronger schedule, runtime, target, consent, witness and deployment claims | [QUESTIONS](QUESTIONS.md) Q04e1b/Q04g1c/Q04g2b/Q04h2/Q06d1b/Q06d2b; not certified by source closure |
+| Stronger remote/schedule/runtime/target/consent/witness/deployment claims | [QUESTIONS](QUESTIONS.md) Q04e1b/e2b, Q04g1c/Q04g2b/Q04h2/Q06d1b/Q06d2b; not certified by source closure |
 | Plan Canvas feedback/review/continuation | [Note12](notes/12-PLAN-CANVAS-FEEDBACK-AND-CONTINUATION.md) → [U08-A sources](evidence/U08-A-SOURCES.md), [MR13](ROUND-U08-A.md) |
 | Historical U08-A interruption and excluded E06 | [Recovery record](RECOVERY-U08-A-20260918.md) → [quarantine/checks](evidence/u08-a-recovery/README.md), [recovery publication](PUBLICATION-U08-A-RECOVERY.md) |
 | Purpose, pin and reuse | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
@@ -34,9 +35,9 @@
 | Initial surfaces/cache | [Note01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md), [E01](evidence/u01-a-cache-probe/README.md) |
 | Older master histories through U03-B | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later unit ledgers/rounds continue separately |
 | Historical inventory/frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md); U07-A adds dispositions |
-| Current publication | STATE links the actual receipt after checks; source completion and publication completion are distinct |
-| Earlier publication | [U11-A](PUBLICATION-U11-A.md), [U10-B](PUBLICATION-U10-B.md), [U10-A](PUBLICATION-U10-A.md), [U09-B](PUBLICATION-U09-B.md), [U09-A3/retry](PUBLICATION-U09-A3.md), [U09-A2](PUBLICATION-U09-A2.md), [U09-A first slice](PUBLICATION-U09-A.md), [U08-A](PUBLICATION-U08-A.md), [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
+| Current publication | STATE links the actual receipt after checks; source and publication completion are distinct |
+| Earlier publication | [U11-B](PUBLICATION-U11-B.md), [U11-A](PUBLICATION-U11-A.md), [U10-B](PUBLICATION-U10-B.md), [U10-A](PUBLICATION-U10-A.md), [U09-B](PUBLICATION-U09-B.md), [U09-A3/retry](PUBLICATION-U09-A3.md), [U09-A2](PUBLICATION-U09-A2.md), [U09-A first slice](PUBLICATION-U09-A.md), [U08-A](PUBLICATION-U08-A.md), [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
 
-Note20 answers one scheduled-work producer/consumer question, not all orchestration. Its conditional finite-exhaustion, batch-failure and competing-dispatch paths are not E09 results. Earlier Notes13–19 retain their evidence classes; E08 is one adapted review-flow run, E06 excluded and both E05 histories separate. A due instruction, admitted session, live process, accepted result and durable occurrence record are distinct.
+Note21 answers remote intake/routing/operator outcomes, not all receiver coordination or live security. Its target-deletion, profile-reuse and read/route/acknowledgement examples are conditional source paths, not E09 results. Accepted request, selected receiver, effective constraints, stored handoff and completed work remain distinct. Earlier Notes13–20 retain original evidence; E08 is one adapted run, E06 excluded and both E05 histories separate.
 
-META owns reuse, STATE current work, PLAN sequencing, QUESTIONS obligations, ledgers source coverage, rounds method history and receipts publication correspondence. Remote/delegation, host/provider/release work, native synthesis/CORE and joint evaluation remain unfinished. These are project-work files, not agent-control.
+META owns reuse, STATE current work, PLAN sequencing, QUESTIONS obligations, ledgers source coverage, rounds method history and receipts publication correspondence. Backlog/team/template, host/provider/release, native synthesis/CORE and joint evaluation remain unfinished. These are project-work files, not agent-control.
