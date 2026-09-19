@@ -1,6 +1,6 @@
 # ECC — Question Register
 
-**Updated:** 2026-09-19 after U11-E. STATE owns publication and activation. Note23 is source analysis; no E09 or new target execution. E08 remains one adapted review-flow run, E06 excluded, E04/E07 and both E05 histories separate. Source answers do not establish live security or efficacy. Original notes/ledgers own detailed evidence; this register owns open obligations.
+**Updated:** 2026-09-19 after U12-A. STATE owns publication and activation. Note24 is source analysis with dated primary host-contract checks; no E09 or new target execution. E08 remains one adapted review-flow run, E06 excluded, E04/E07 and both E05 histories separate. Source answers do not establish live security or efficacy. Original notes/ledgers own detailed evidence; this register owns open obligations.
 
 | ID / standing | Question / bounded result | Remaining obligation |
 |---|---|---|
@@ -10,7 +10,10 @@
 | Q01a2 OPEN | Representative recursive/body/mirror coverage and reverse-inventory challenge | Exact generator/caller roles; unexplained descendants and broad-document holdout before closure |
 | Q01b BOUNDED U01-B | Distinct native/managed/legacy delivery | Not installed-system equivalence |
 | Q02 PARTIAL | Shared content versus cross-host behavior | Actual discovery/selection/execution, generated OpenCode, Python/provider/export and full host use |
-| Q02a NEXT U12-A | Effective profile/harness → actual argv/env/text → native/configured consumer | Selection/persistence versus supported control, text projection and enforcement; meaningful built-in/configured contrast. NOT STARTED until STATE activation |
+| Q02a BOUNDED SOURCE COMPLETE U12-A | Effective profile/harness → argv/env/text → native/configured consumer | Note24 meets original criterion; a1/a2 preserve source answer versus actual host guarantees |
+| Q02a1 BOUNDED U12-A | Native flags, task projection, configured replacement and separate ECC controls | Preapproval vs tool availability; fixed Codex sandbox vs plan text; runner flag presence vs capability; sampled token/global budget vs profile USD; malformed JSON vs empty restrictions; env labels vs runtime identity. Tests inspected only |
+| Q02a2 OPEN | Stronger host policy, identity, compatibility and effectiveness | Installed binary/API/config/flag correspondence; effective tools/policy; arbitrary aliases/custom mappings; inherited environment/credentials and plugin activation; corrupted/migrated profiles; metric capture/freshness, overshoot/stale-state/termination; prompt obedience and accepted outcomes |
+| Q02b NEXT U12-B | OpenCode source/build/output → package/discovery → plugin event/tool consumer | Real generator/source/entry and downstream behavior; normal plus build/load/callback failure/continuation; generated vs installed vs active. NOT STARTED until STATE activation |
 | Q03 PARTIAL | Ownership/materialization across failure/change | Q03a–c |
 | Q03a BOUNDED U02-A | Caller-specific ownership/checkpoint/projection | No universal edit/crash guarantee |
 | Q03b OPEN | Interrupted guided Kimi two-copy retry | Unexecuted missing/undigested pending-operation rejection prediction |
@@ -75,16 +78,16 @@
 | Q07c1 BOUNDED U06-C | Emission/SQL insertion/resolution/pending/status | Note11/S141–S151: stderr/table, field mismatch, mutable upsert, total/list and optional exit signal |
 | Q07c2 OPEN | Actual collector, valid resolution and governed effect | Native payload/phase/session fidelity, fresh capture, authenticated decision and action admission/resume. Plan Canvas, TUI/Node, receipts and review verdicts do not independently authenticate approval |
 | Q07d OPEN | Scanner, release and distribution gates | S150/S153/S161 are source/policy/workflow metadata, not release artifacts, actual CI, scanner efficacy or approval receipts; harness-audit remains a lead; package listing is not pack execution |
-| Q08 PARTIAL | Meanings of success/health/progress/confidence/block/no-objection | Producer-specific meanings retained; Note23 adds resolved/admitted/ready/completed, explicit/default, anchor/dependency and per-session/template-run distinctions |
+| Q08 PARTIAL | Meanings of success/health/progress/confidence/block/no-objection | Producer-specific meanings retained; Note24 adds preapproval/availability, instruction/control, configured replacement, decoded-empty/explicit-empty, sampled/pre-spend and label/identity distinctions |
 | Q09 DEFERRED | Whole-study project-facing evaluation | Then-current Foundation and selected studies; joint discussion after completed research |
-| Q10 PARTIAL MR24 | Focus/fidelity/continuity of method | Full resolver vs effect boundary, explicit default/profile countercase and conditional late prefix failure; test definitions vs execution; source/retrieval/publication costs retained |
+| Q10 PARTIAL MR25 | Focus/fidelity/continuity of method | Actual host semantics and budget caller, positive controls and translation limits; command-oracle boundaries; dated docs vs installed conformance; source/retrieval/publication costs retained |
 
 ## Interpretation and reopening
 
-One Node or Rust path does not represent all ECC. Useful records, memory, templates, proposals, boards and cooperative reviews need not satisfy stronger authority/acceptance contracts. Original notes/evidence, not condensed table descriptions, carry their full explanations and qualifications. The full preceding register is preserved at [input version](https://github.com/batuhanozgun/agentic-os-search/blob/5ca412349b4f7e2b370771156a65f4bc224b710c/research/studies/ecc/QUESTIONS.md); all prior IDs and open obligations remain represented here.
+One Node or Rust path does not represent all ECC. Useful records, memory, templates, proposals, boards and cooperative reviews need not satisfy stronger authority/acceptance contracts. Original notes/evidence, not condensed table descriptions, carry their full explanations and qualifications. The full preceding register is preserved at [input version](https://github.com/batuhanozgun/agentic-os-search/blob/d95f548d53564856c20562dd7d9e629b09dbbf81/research/studies/ecc/QUESTIONS.md); all prior IDs and open obligations remain represented here.
 
-Note23 adds all-step textual/profile resolution before per-step admission. Its empty-prefix counterpart preserves successful earlier admission; its explicit-agent counterpart changes default-profile selection. Neither is a live incident. Current-directory variables/anchors are not actual environment/policy inheritance. Capacity checks, validation and local cleanup remain real. Profile enforcement is the distinct Q02a consumer inquiry, not a claim closed by this template study.
+Note23's explicit-default/profile and late-prefix counterparts remain source conditions, not live incidents. Note24 closes the separate profile/command consumer question without declaring host enforcement complete: some fields become native flags, others text or independently sampled ECC controls. Configured mappings replace the native recipe. Normal JSON serialization is valid; malformed stored lists can decode empty. Current external contracts explain flag meaning, not a tested binary or deployment.
 
 Previous Note20 finite recurrence, Note21 target deletion/profile reuse, Note22 repetition/cooloff, E08 proof loss and other findings retain their original source/conditional/executed classes. Stronger runtime campaigns are not silently prerequisites for every bounded source answer; changed source, caller, version, config, host or authority can reopen the dependent claim.
 
-After U11-E publication, continue U12-A/Q02a through actual command construction and native/configured profile projection. Do not restart completed template/backlog/intake/scheduling/lifecycle/review/evaluation slices. Generated hosts/providers, release/audit, native synthesis/CORE and final omissions/evaluation remain unfinished. No new implementation or adoption authority.
+After U12-A publication, continue U12-B/Q02b through generated OpenCode source/build/distribution and actual plugin consumer. Do not restart completed profile/template/backlog/intake/scheduling/lifecycle/review/evaluation slices. Python/providers, other host variants, release/audit, native synthesis/CORE and final omissions/evaluation remain unfinished. No new implementation or adoption authority.
