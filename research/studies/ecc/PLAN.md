@@ -1,80 +1,76 @@
 # ECC — Adaptive Research Plan
 
-**Version:** 0.20 / 2026-09-19. METHOD 0.1 retained. STATE owns actual work/publication. U10-B's bounded source return condition is met by Note18; finish publication before U11-A begins. This is not live evaluation, automatic promotion, full ECC coverage or implementation. [MR19](ROUND-U10-B.md) records the method result.
+**Version:** 0.21 / 2026-09-19. METHOD 0.1 retained. STATE owns actual work/publication. U11-A's bounded return condition is met by Note19 plus the limited E08 discriminator; close publication before U11-B begins. This is not live review, full orchestration, architecture or ECC completion. [MR20](ROUND-U11-A.md) records the method decision and costs.
 
 ## Current result and phase map
 
-[Note18](notes/18-OFFLINE-CAPSULES-REPLAY-AND-RECEIPT-SCOPE.md) and [U10-B sources](evidence/U10-B-SOURCES.md) join the Node event/capsule, fixture replay, receipt verification, report grouping and actual caller/refusal paths. The ten immediate implementation files are covered, but the larger evaluation ecosystem and all tests are not. The result distinguishes record integrity from truth/completeness, replayed response from restored effect, optional verification from a generic ok result, and descriptive counts from outcome evidence. Candidate execution remains deliberately unavailable; trusted record-mode tool calls are a different route.
+[Note19](notes/19-NATIVE-REVIEW-CALLER-AND-DECISION-BOUNDARIES.md) and [U11-A sources](evidence/U11-A-SOURCES.md) join the interpreted command and representative operation/pipeline, native review script, outer human gate and source/host delivery boundaries. [E08](evidence/u11-a-review-flow-probe/README.md) is one adapted local run with supplied responses, not a native Workflow or independent review benchmark. It demonstrates merge-time loss of a stronger finding's proof despite individually schema-valid inputs, with reverse-order/different-key controls and preserved null/error/uncertainty guards.
 
-[Note17](notes/17-RUST-EVALUATION-REGISTRY-AND-USE.md) preserves U10-A's recorded-score registry and transactional admission/use boundary. [Note16](notes/16-NODE-OPERATOR-BRIDGE-AND-TARGET-BINDING.md) and Notes13–15 preserve the completed Node operator bridge and Rust lifecycle. These are different mechanisms; their findings and stronger residuals are not transferred by similar names. U08-A remains published, E06 excluded, E04/E07 unchanged and both E05 histories separate. No new execution/E08 occurred in U10-B.
+The result also distinguishes safe numeric input from repository identity; selected dimensions from required coverage; reviewer verdict from recomputed aggregate verdict; low-confidence true from epistemically confirmed; and returned APPROVE from revision-bound human commit approval. The traditional pipeline and separate native command are not assumed automatically integrated. Current host documentation narrows host questions but is not installed-version or complete SDK proof.
 
-The [U07-A family map](inventory/U07-A-FAMILY-MAP.md) remains breadth authority. It was reread to select the next still-open family; historical next-unit labels are not current instructions. Full recursive/mirror coverage, native syntheses and CORE remain unfinished.
+Earlier [Note18](notes/18-OFFLINE-CAPSULES-REPLAY-AND-RECEIPT-SCOPE.md), [Note17](notes/17-RUST-EVALUATION-REGISTRY-AND-USE.md), [Note16](notes/16-NODE-OPERATOR-BRIDGE-AND-TARGET-BINDING.md) and Notes13–15 preserve different mechanisms. E06 remains excluded; E04/E07 and both E05 histories retain their original evidence classes. E08 does not replace or pool them.
 
-| Phase | Current standing / obligation |
+The [U07-A family map](inventory/U07-A-FAMILY-MAP.md) remains breadth authority; historical next labels are not current work. Full recursive/mirror accounting, native syntheses and CORE remain unfinished.
+
+| Phase | Standing / remaining responsibility |
 |---|---|
-| P0 Method/work foundation | Complete; no repeat setup |
-| P1 Native discovery | First-tier accounting complete at its scope; descendants/mirrors/representativeness PARTIAL |
-| P2 Mechanism slices | U10-B bounded source answer, publication via STATE; U11-A selected next; earlier completed results preserved |
-| P3 Subsystems/relations | Candidate groupings only, not completed whole-system synthesis |
+| P0 Work/method foundation | Complete; no repeat setup |
+| P1 Native discovery | First-tier accounting at its bounded scope; descendants/mirrors/representativeness PARTIAL |
+| P2 Mechanism slices | U11-A bounded answer; publication via STATE; U11-B selected next; prior answered units preserved |
+| P3 Subsystems/relations | Candidate groupings, not whole-system synthesis |
 | P4 Project comparison | Then-current Foundation/project and selected studies; joint discussion after completed research |
-| P5 CORE/closure challenge | Material families plus reverse-inventory/holdout checks remain |
-| P6 Method case | MR19 shows parameter-sensitive verification and actual consumer closure; no independent methodology efficacy claim |
+| P5 CORE/closure challenge | Material unexplained families plus reverse-inventory/holdout checks remain |
+| P6 Method case | MR20 records a preregistered information-flow discriminator, source-order limits and actual publication correction; no independent methodology efficacy claim |
 
 ## Preserved dispositions
 
-U09-A joins command/session/process/observer/resources and ownership to failure/restart, with useful guards/signals and conditional stale-writer/cancellation boundaries. Q04g1c retains stronger actual OS/host/attempt isolation, built dependency and native-context claims. No new live race experiment is implied.
+U09-A joins command/session/process/observer/resources and ownership to failure/restart. Q04g1c retains actual OS/host/attempt isolation, built-dependency and native-context claims. U09-B joins Node observation/card stores and independently configured Rust actions, graph-sync policy effects and advisory/message paths. Q04g2b preserves stronger target/recipient/algorithm/journal/timeout/concurrency and complete connector/recall claims.
 
-U09-B joins selected observation/card stores and independently configured Rust actions, graph-sync policy effects, advisory/message paths and the pinned missing-file conflict-message mismatch. Q04g2b retains target/recipient/algorithm/journal/timeout/concurrency claims, unread visualization bodies and full connector/recall semantics.
+U10-A explains a deliberately bounded recorded-score registry with transactional admission. Q06d1b retains provenance/preregistration/statistics, independent health/adoption, custom consumers, privileged tamper and concurrent promotion/crash/build validity. U10-B joins local journal/fixture/receipt/grouping producers and consumers while preserving deliberately unavailable candidate execution. Q06d2b retains capture/freshness/witness/privacy/custom-tool/concurrency/crash/actual-use limits. No earlier source answer is reopened merely because stronger empirical claims remain open.
 
-U10-A explains a deliberately bounded recorded-evidence registry, not autonomous measurement or runtime deployment. Q06d1b retains external score/reference provenance, preregistration/statistics, independent health/adoption, custom consumers, privileged tamper and concurrent promotion/crash/build validity. Its full source modules and declared rusqlite contract do not certify those stronger claims.
+## U11-A disposition — bounded native-review answer
 
-## U10-B disposition — bounded source answer
+**Q04h1:** Request/caller → selected review → finding composition → verifier/aggregate → main-conversation decision and continuation boundary is explained. Exact source bodies and the dated host contract separate an executable review segment from its interpreted outer process. The original U11-A return condition is not replaced with a fixture count.
 
-**Q06d2a:** Note18 meets the original capsule/replay/receipt-to-use return condition with actual producers, persistence, verifier options, refusal and failure counterparts. The example records an unavailable gate yet legitimately builds a capsule receipt; utility success is not candidate success.
+Positive controls include safe-argument instructions, nonempty/path-element checks, source schemas, explicit failed-dimension retention, uncertain/unavailable blockers and the no-silent-fallback command contract. E08 supplies controlled examples showing those paths, not live obedience or real security efficacy.
 
-Positive controls include strict scalar/identity/hash validation; cooperative append with disk reread, short-write handling and fsync; refusal to heal a partial tail or guess a stale lock; fixture replay without live fallback and SE3/4 refusal; exact-checkpoint and saved-projection comparison; optional supplied signature/artifact/gate checks; deduplicated selected reports with conflicting-checkpoint refusal. The distinctions are scoped, not a blanket failure verdict.
+The merge retains the first finding's claim fields while raising severity. One adapted run shows the stronger proof can disappear and a deliberately proof-sensitive fixture verifier can then return a different aggregate outcome. All38 non-null supplied replies were schema-valid. This is information-flow evidence, not an actual missed vulnerability, a native parallel-order test or independent trials. Complete raw inputs/prompts/schemas/replies/outcomes and the precheck are retained.
 
-Standalone chain validity cannot detect every complete trailing-entry removal without an expected checkpoint. A receipt carries such an expectation but does not force all optional witnesses. Replay returns stored responses keyed by tool/args, not an environment restoration or version/freshness proof. Record effects can precede fixture/event failure. Grouping counts declared records and never scores their outcomes. These are source observations/inferences and inspected tests, not executed incidents.
+**Q04h2 remains open:** exact repository/revision and human-consent binding; actual Workflow API/schema/parallel/permission semantics and installed discovery; semantic dedup and reviewer calibration; all needed language/security coverage; actual repair/re-review, commit enforcement and cross-session recovery. The npm file-list omission is a source-selection observation, not a packed-artifact failure. Other operation wrappers and host-specific behavior remain unclosed. No upstream test suite, native Workflow/model, gh PR execution, installation or corrective patch ran.
 
-**Q06d2b remains open:** complete/authoritative capture; actual caller/tool/environment version and temporal binding; raw fixture privacy; independent witness/key authority; async/custom implementations; concurrent create/export and crash recovery; hostile filesystem/privileged replacement; live adoption and outcome evidence. Unread canonical/envelope/security test bodies, full example input bodies and packaging/host integration remain recorded omissions. The separately referenced deterministic audit engine is not completed by reading its command/agent descriptions.
+## U11-B — next selected unit, NOT STARTED
 
-No original target test, model/provider, installation, live server, new fixture, candidate executor or corrective implementation ran. Existing E04/E07 and excluded E06 are not reused as this unit's execution evidence. Stronger residuals do not become endless prerequisites for closing the answered source question.
+**Q04e1:** How does a persistent Rust schedule become due work and an admitted session/runner, and how are launch outcomes, next-run state, retry or duplicate risks represented?
 
-## U11-A — next selected unit, NOT STARTED
+**Why next:** Basic lifecycle and the review segment now have bounded answers. The family map still leaves scheduling/delegation/remote controllers unexplained. A scheduled-work producer has a different authority and persistence boundary from a manually issued Start or a report-only review. More merge fixtures would not close that responsibility.
 
-**Q04h:** How does the native orchestration review pilot receive an actual work request, qualify review findings, connect to an outer human decision, and preserve unresolved work across error or recovery?
+**Entry at unchanged pin:** S189 `ecc2/src/session/daemon.rs`, blob `e62ea0ae88d71027b1627d916b3d8e6d32b37cf4`; recover its actual loop and scheduled dispatch references. Follow only the needed complete functions into S187 manager (`515235760adb242fe3b4bd1e8481c8b78aee5cc4`), S190 store (`f71bb3640991f9d471e2ab98dad54dff4d346721`) and S186 main (`7c516684c178d050bc36d96d0481f812e9c48c07`). Earlier exact coverage remains in U09-A/A2/A3 ledgers; do not re-read monolithic files blindly or promote incidental schema exposure into completed scheduling research.
 
-**Why next:** The family map still identifies shared procedures/native workflow composition as a core unexplained responsibility. U07-A read the review script's internal predicates, but did not close its caller, host contract, outer plan/commit gates or end-to-end use. More offline receipt fixtures would not answer that question.
+**Trace:** schedule creation/configuration → persisted timing/working-directory/profile → due selection → session admission/launch → schedule advancement and operator-visible result. Establish which writes/effects share ownership or a transaction. Inspect a material failure/restart/competing-dispatch counterpart and relevant tests. Keep schedule time, admitted work, live process and accepted task result distinct.
 
-**Entry at unchanged pin:** re-enter S23 `workflows/README.md` (db58b5a398f1f4ef651baa360af6d46034568ad4) and S167 `workflows/orch-review.workflow.js` (3fd502da40d77c46c28e0ed8b6845bb0072393ef). Recover their actual pipeline/command/config/host references. Do not assume a conventional Node executable, guess an installation path, or treat earlier source-reading as native-engine conformance. Use prior U07-A sources for exact prior scope, not an alternative truth source.
+**Return condition:** one coherent source-grounded scheduled-work-to-session explanation with an important failure/continuation contrast and exact unresolved boundaries. Split remote-request routing/delegation into later work if it is genuinely separate; do not turn this into all orchestration at once. Use the completed lifecycle as a scoped dependency, not newly discovered work.
 
-**Trace:** request/artifact identity → caller/host capability → review dimension/agent selection → finding/dedup/verifier → final verdict → actual consumer/human gate → follow-up or retry. Determine whether an outer gate is executable enforcement, host-mediated procedure or a documentation promise. Preserve the script's existing incomplete/unverified/uncertain blockers and investigate their producer/consumer meaning instead of recounting them as new discoveries.
+No live recurring task, provider/model, credential, installation, user environment change, upstream patch or SOUL implementation. A fixture remains optional for a real discriminator, not a quota. Finish U11-A publication before activation.
 
-**Counterpart:** follow failed review dimensions, an uncertain/refuted finding, missing host/caller evidence or a stale/revised artifact through the same path. Check whether review completion, no blockers, human acceptance and delivery are distinct. Read complete load-bearing functions and the relevant tests/host primary contract where material; do not demand an unauthorized live model campaign.
+## Following priorities — revisable
 
-**Return condition:** one coherent source-grounded native review/caller/outer-decision explanation, a material failure/uncertainty/continuation contrast and explicit runtime/host/authority boundaries. Split genuinely separate orchestration mechanisms if necessary. No product-code remediation, host installation, provider/model, credential, upstream mutation or SOUL architecture. Fixtures optional only for an actual discriminator.
+1. Material remote/delegation and multi-agent workflow variants, including other operation first-move/acceptance differences where consequential.
+2. Host/provider composition: generated OpenCode assets, Python LLM layer and materially different configured runners; source/materialization/discovery/use.
+3. Release/packed artifacts, scanner boundaries, deterministic audit/observability/readiness, resource costs and remaining omissions. U11-A's package-selection observation is a later targeted check, not a demand to install now.
+4. Native syntheses from original notes, challenged by unread descendants and broad documents; then CORE and bounded project-facing comparison. Whole-study joint evaluation follows completed research.
 
-**Method check:** does this explain how a procedure participates in the working system rather than merely list specialist agents or rescore an audit? Publication of U10-B must close before activation.
+Research sequencing remains assistant-managed within the authorised study. A pointer does not activate an independent external-product audit or an implementation phase.
 
-## Following priorities — revisable, not automatically activated
-
-1. Material Rust scheduling/delegation/remote and representative multi-agent workflow variants; lifecycle and review closure are not complete orchestration coverage.
-2. Host/provider composition: generated OpenCode assets, Python LLM layer and materially distinct configured runners; source/materialization/discovery/use.
-3. Release/packed artifacts, external scanner boundaries, deterministic audit/observability/readiness, resource costs and remaining source omissions.
-4. Native syntheses grounded in original notes, challenged by unread descendants and broad documents; then CORE and bounded project-facing comparison. Joint evaluation follows completed research.
-
-No independent external-product audit or implementation phase follows merely from a pointer. Research sequencing and branch/merge timing remain assistant-managed under current authority.
-
-## Residuals and reopening
+## Residual register and reopening
 
 - Q01a2: recursive/body/mirror and final omission challenge.
 - Q03b/c: interrupted Kimi retry; repair/uninstall/merged JSON; abrupt/concurrent/cross-store/legacy durability.
-- Q04b/c/e: ingestion, import authority/list completeness, supervision, valuable-work preservation, acceptance and distinct controllers.
-- Q04f2: Plan Canvas review/actor/acknowledgment and live uptake. Q04g1c/Q04g2b: stronger Rust/operator validity. Q04h: native review and outer control.
+- Q04b/c/e: ingestion, import authority/list completeness, scheduled/remote/delegated work, supervision, accepted results and preserved valuable work.
+- Q04f2: Plan Canvas review/actor/acknowledgement and actual uptake. Q04g1c/Q04g2b: stronger Rust/operator validity. Q04h2: stronger native review/outer decision validity.
 - Q05b/c: temporal/conflicting/duplicate recall, actual memory uptake/governed review and isolation/replication.
-- Q06b/c2/d1b/d2b: observation/outcome/criteria validity, distinct evaluation mechanisms, witness and runtime-use boundaries.
-- Q07a2/b2/c2/d: guard effect/authority, fact uptake, collector/decision/action coupling and scanner/release boundaries. S138/S139 remain partial; S150 is policy, not verified scanner behavior.
-- Q08: producer-specific success/health/progress/confidence and now verified-prefix versus complete history, optional versus required checks, replayed response versus effect, grouped records versus outcomes.
-- Q09: deferred whole-study evaluation. Q10/MR19: actual research choices/results/costs, not independent proof.
+- Q06b/c2/d1b/d2b: observation/outcome/criteria validity, separate evaluation families, witness and runtime adoption.
+- Q07a2/b2/c2/d: guard effect/authority, fact uptake, collector/decision/action coupling and scanner/release. S138/S139 remain partial; S150 is policy, not external-scanner efficacy.
+- Q08: producer-specific meanings, including selected-complete versus complete-enough review, stronger severity versus preserved proof, aggregate approval versus reviewer votes/human consent and confirmed-count versus calibrated evidence.
+- Q09: deferred whole-study evaluation. Q10/MR20: observed method choices/results/costs and corrected transmission error, not independent proof.
 
-Changes outside ECC, including the concepts reset and intentionally retained links, remain outside this unit's authority. Exact source/publication history is preserved in ledgers/receipts and prior PLAN revisions. Only actual readbacks and scope checks close publication; source completion does not complete the whole study.
+Only actual readbacks and scope checks close publication. Concurrent concepts/control/shared-routing updates are preserved; they do not redefine ECC source meanings or authorise unrelated edits. Earlier plans remain in history and original notes/evidence remain untouched.
