@@ -1,6 +1,6 @@
 # Concepts — Amaç ve çalışma çerçevesi
 
-Tarih: 2026-09-19. Bu dosya ORIGIN.md içindeki yeni kullanıcı talebinin amaç bakımından konsolidasyonudur. Eski concepts programından devralınmış yöntem veya tanım değildir. Proje çalışma malzemesidir; assistant davranışının kontrol kaynağı AGENT.md ve tetiklenen agent protokolleridir. Güncel iş/yetki STATE.md, denenecek yöntem METHOD.md içindedir.
+Tarih: 2026-09-19. Bu dosya ORIGIN.md içindeki yeni kullanıcı talebinin amaç bakımından konsolidasyonudur. Eski concepts programından devralınmış yöntem veya tanım değildir. Proje çalışma malzemesidir; assistant davranışının kontrol kaynağı AGENT.md ve tetiklenen agent protokolleridir. Güncel iş/yetki STATE.md, çalışma yöntemi METHOD.md içindedir.
 
 ## Neden var?
 
@@ -54,10 +54,10 @@ Eski concepts listesinin, sınıflandırmasının, kabulünün veya yönteminin 
 
 Studies'in özgün araştırması, Foundation, explorations ve yayın arşivleri bu yeni beklentiye uydurulmak için yeniden yazılmaz. Araştırmalarda geçen concepts sözcüğü veya dış kaynağın aynı adlı dosyası silinecek artık değildir. Başka çalışmanın current STATE'i, bu çıkarımın okuma durumu değildir.
 
-## Yöntem ve yetki statüsü
+## Yöntem, tarihsel hazırlık ve güncel yetki
 
-Amaç/bakış açısı kullanıcı tarafından onaylandı; ayrıntılı yöntem henüz iki denemeyle sınanmadı. Son kullanıcı mesajı yeni oturumlar için hazırlık dosyalarının yazılmasını yetkilendirdi. Bu, iki denemeyi atlama veya başarılı sayma yetkisi değildir.
+Amaç/bakış açısı kullanıcı tarafından onaylandı. ORIGIN/U05, o tarihte yeni oturumlar için hazırlık dosyalarının yazılmasını yetkilendirdi; iki denemeyi atlama veya başarılı sayma yetkisi değildi. ORIGIN ve SETUP-REVIEW içindeki denemeler henüz yapılmadı ifadeleri hazırlık anının kaydıdır, bugünkü çalışma durumu değildir. Sonraki deneme, değerlendirme, sürüm ve yetki geçişleri STATE ve METHOD/PLAN'dan alınır.
 
-Sıra: ilk araştırmada konuşma içi deneme → yöntem değerlendirmesi/revizyon kararı → farklı ikinci araştırmada konuşma içi deneme → yeniden değerlendirme → kalıcı seri çıkarım düzeninin kesinleştirilmesi → bütün araştırmalardan çıkarım → bütün çıkarımlardan ortak değerlendirme.
+Korunan sıra: ilk araştırmada konuşma içi deneme → yöntem değerlendirmesi → farklı ikinci araştırmada konuşma içi deneme → yeniden değerlendirme → kalıcı seri çıkarım düzeni → bütün araştırmalardan çıkarım → bütün çıkarımlardan ortak değerlendirme.
 
-Denemelerde içerik sohbet içinde gösterilir; henüz kalıcı TERMS dosyaları oluşturulmaz. Repo hazırlığının varlığı, terim envanterinin veya ortak referansın başladığı anlamına gelmez. Ayrıntılı aşama durumu yalnız STATE.md'den alınır.
+Pilotların özgün içerikleri sohbet içinde gösterilir. Kalıcı araştırma bazlı kayıtlar, pilot sonuçları ve ilgili kaynak sürümleri kontrol edilerek seri çıkarım aşamasında oluşturulur. Hazırlığın veya pilot kapanışının varlığı, kalıcı terim envanterinin ya da ortak referansın tamamlandığı anlamına gelmez. Ayrıntılı aşama durumu yalnız STATE.md'den alınır.
