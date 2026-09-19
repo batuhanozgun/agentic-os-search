@@ -4,8 +4,9 @@
 
 | Need | Entry |
 |---|---|
-| Backlog forwarding, rebalancing, persistent cooloff and real consumption | [Note22](notes/22-BACKLOG-COORDINATION-AND-CONSUMPTION.md) → [U11-D sources](evidence/U11-D-SOURCES.md), [MR23](ROUND-U11-D.md); source analysis, no E09/live daemon |
-| Next template resolution, launch order, anchor and partial failure | [PLAN](PLAN.md) U11-E/Q04e4 → config resolver/interpolation, manager launch, actual Template CLI and tests; NOT STARTED until STATE activation |
+| Template resolution, profile/default selection, admission/anchor and partial failure | [Note23](notes/23-TEMPLATE-RESOLUTION-AND-LAUNCH-COMPOSITION.md) → [U11-E sources](evidence/U11-E-SOURCES.md), [MR24](ROUND-U11-E.md); source analysis, no E09/live launch |
+| Next effective execution profile and actual harness command/consumer | [PLAN](PLAN.md) U12-A/Q02a → manager command builders, config profile/runner, native flags versus text and host contract; NOT STARTED until STATE activation |
+| Backlog forwarding, rebalancing, persistent cooloff and real consumption | [Note22](notes/22-BACKLOG-COORDINATION-AND-CONSUMPTION.md) → [U11-D sources](evidence/U11-D-SOURCES.md), [MR23](ROUND-U11-D.md) |
 | Remote intake, target/authority, delegate reuse and dispatch/result | [Note21](notes/21-REMOTE-INTAKE-DISPATCH-AND-RESULT-BOUNDARIES.md) → [U11-C sources](evidence/U11-C-SOURCES.md), [MR22](ROUND-U11-C.md) |
 | Scheduled work, UTC timing, admission and retry/removal | [Note20](notes/20-SCHEDULED-WORK-ADMISSION-AND-RETRY.md) → [U11-B sources](evidence/U11-B-SOURCES.md), [MR21](ROUND-U11-B.md) |
 | Native review caller, findings and outer human decisions | [Note19](notes/19-NATIVE-REVIEW-CALLER-AND-DECISION-BOUNDARIES.md) → [U11-A sources](evidence/U11-A-SOURCES.md), [MR20](ROUND-U11-A.md) |
@@ -16,7 +17,7 @@
 | Rust attempt ownership/revocation and lifecycle closure | [Note15](notes/15-EXECUTION-ATTEMPT-OWNERSHIP-AND-REVOCATION.md) → [A3 sources](evidence/U09-A3-SOURCES.md), [MR16](ROUND-U09-A3.md) |
 | Rust storage/observer/worktree continuity | [Note14](notes/14-STORE-OBSERVER-AND-WORKTREE-CONTINUITY.md) → [A2 sources](evidence/U09-A2-SOURCES.md), [E07](evidence/u09-a2-sql-git-probe/README.md), [MR15](ROUND-U09-A2.md) |
 | Rust command/record/runner/stop/resume/daemon | [Note13](notes/13-RUST-SESSION-LIFECYCLE-FIRST-SLICE.md) → [first Rust sources](evidence/U09-A-SOURCES.md), [MR14](ROUND-U09-A.md) |
-| Stronger backlog/remote/schedule/runtime/target/consent/witness claims | [QUESTIONS](QUESTIONS.md) Q04e1b/e2b/e3b, Q04g1c/Q04g2b/Q04h2/Q06d1b/Q06d2b; not certified by source closure |
+| Stronger template/backlog/remote/schedule/runtime/target/consent/witness claims | [QUESTIONS](QUESTIONS.md) Q04e1b/e2b/e3b/e4b, Q04g1c/Q04g2b/Q04h2/Q06d1b/Q06d2b; not certified by source closure |
 | Plan Canvas feedback/review/continuation | [Note12](notes/12-PLAN-CANVAS-FEEDBACK-AND-CONTINUATION.md) → [U08-A sources](evidence/U08-A-SOURCES.md), [MR13](ROUND-U08-A.md) |
 | Historical U08-A interruption and excluded E06 | [Recovery](RECOVERY-U08-A-20260918.md) → [quarantine/checks](evidence/u08-a-recovery/README.md), [recovery publication](PUBLICATION-U08-A-RECOVERY.md) |
 | Purpose, fixed target and reuse | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
@@ -37,8 +38,8 @@
 | Older master histories through U03-B | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later unit ledgers/rounds continue separately |
 | Historical inventory/frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md); U07-A adds dispositions |
 | Current publication | STATE links the actual receipt after checks; source and publication completion are distinct |
-| Earlier publication | [U11-C](PUBLICATION-U11-C.md), [U11-B](PUBLICATION-U11-B.md), [U11-A](PUBLICATION-U11-A.md), [U10-B](PUBLICATION-U10-B.md), [U10-A](PUBLICATION-U10-A.md), [U09-B](PUBLICATION-U09-B.md), [U09-A3/retry](PUBLICATION-U09-A3.md), [U09-A2](PUBLICATION-U09-A2.md), [U09-A first slice](PUBLICATION-U09-A.md), [U08-A](PUBLICATION-U08-A.md), [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
+| Earlier publication | [U11-D](PUBLICATION-U11-D.md), [U11-C](PUBLICATION-U11-C.md), [U11-B](PUBLICATION-U11-B.md), [U11-A](PUBLICATION-U11-A.md), [U10-B](PUBLICATION-U10-B.md), [U10-A](PUBLICATION-U10-A.md), [U09-B](PUBLICATION-U09-B.md), [U09-A3/retry](PUBLICATION-U09-A3.md), [U09-A2](PUBLICATION-U09-A2.md), [U09-A first slice](PUBLICATION-U09-A.md), [U08-A](PUBLICATION-U08-A.md), [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
 
-Note22 answers the backlog/control/consumer source question, not all host ingestion or accepted work. Its repetition, changed-capacity and persistent-cooloff examples are conditional paths, not E09 results. Automatic daemon distribution is off by default. Read markers, routing counters, fresh capacity, historical inhibition and qualified output remain distinct. Earlier notes and experiments preserve their evidence classes.
+Note23 answers the template parser/resolver/admission/outcome question. Explicit-default, source-directory, capacity and later-step failure cases are source conditions, not E09 results. Profile selection is distinct from the next host-enforcement inquiry. Earlier notes retain their evidence classes; no completed slice is silently reopened.
 
-META owns reuse, STATE current work, PLAN sequencing, QUESTIONS obligations, ledgers source coverage, rounds method history and receipts publication correspondence. Templates, host/provider/release, native synthesis/CORE and joint evaluation remain unfinished. These are project-work files, not agent-control.
+META owns reuse, STATE current work, PLAN sequencing, QUESTIONS obligations, ledgers coverage, rounds method history and receipts publication correspondence. Host/provider/release, native synthesis/CORE, omission checks and joint evaluation remain unfinished. These are project-work files, not agent-control.
