@@ -184,8 +184,8 @@ Typically re-check before load-bearing adoption when conclusions depend on:
 - current APIs/providers;
 - repository HEAD/version;
 - pricing/free tier;
-- security/privacy behavior;
 - current license/terms;
+- security/privacy behavior;
 - rapidly changing model/library capabilities;
 - current benchmark results;
 - current standards/spec versions.
