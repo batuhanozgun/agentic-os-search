@@ -4,19 +4,19 @@ Tarih: 2026-09-19. Program: araştırma bazında terim/jargon kullanımlarının
 
 ## Durum
 
-**PREPARED / PILOT-1-BOUNDED-COMPLETE / B2-REVIEW-COMPLETE / PILOT-2-ACTIVE / READING-32-OF-52 / EXTRACTION-PARTIAL / METHOD-v0.2-DRAFT.**
+**PREPARED / PILOT-1-BOUNDED-COMPLETE / B2-REVIEW-COMPLETE / PILOT-2-ACTIVE / READING-39-OF-52 / EXTRACTION-PARTIAL / METHOD-v0.2-DRAFT.**
 
-İlk pilot ve B2 değerlendirmesi tamamlanmıştır; yeniden yapılacak iş değildir. Superpowers ikinci konuşma içi pilotunda P2-T1'de 15 dosya tam okunmuştu. Kullanıcının sonraki “tamam. devam et.” talebiyle P2-T2'de 17 farklı dosyanın tam okuması eklendi: U02–U05 mekanizma notları, ilgili üç ek kaynak kaydı, dört betik/sonuç çifti ve S03/S04 sentezleri. Kümülatif okuma 32/52; okunmamış 20 dosya aşağıda listelenir. Sayılar eşit ağırlıklı ilerleme yüzdesi veya tamamlanmış kullanım envanteri değildir.
+İlk pilot ve B2 değerlendirmesi tamamlanmıştır; yeniden yapılacak iş değildir. Superpowers ikinci konuşma içi pilotunda P2-T1'de 15, P2-T2'de 17 farklı dosya tam okunmuştu. Kullanıcının sonraki “güzel devam et.” talebiyle P2-T3'te U06-A/B1/B2 notları, bunların üç kaynak kaydı ve S01 sentezi tam okundu. Bu yedi yeni Markdown dosyasıyla kümülatif okuma 39/52; okunmamış 13 dosya aşağıda listelenir. Sayılar eşit ağırlıklı ilerleme yüzdesi veya tamamlanmış kullanım envanteri değildir.
 
-Kullanım çıktılarının taşıyıcısı görünür P2-T1/P2-T2 konuşma yanıtlarıdır; bu STATE terim arşivi veya yanıt teslim/alım makbuzu değildir. P2-T2, önceki giriş/host-delivery görünümünü onay, plan, görev bağlamı, görevlendirme, inceleme, doğrulama, entegrasyon ve kayıtların korunması kullanımlarıyla genişletir. İkinci pilotun bütünsel kapsam kontrolü ve B4 değerlendirmesi yapılmadı. METHOD ve PLAN v0.2-draft olarak korunur; yeni TERMS/READING dosyası veya kalıcı ortak referans yoktur.
+Kullanım çıktılarının taşıyıcısı görünür P2-T1/P2-T2/P2-T3 konuşma yanıtlarıdır; bu STATE terim arşivi veya yanıt teslim/alım makbuzu değildir. P2-T3, yöntem yazımı, karşılaştırma, değerlendirme rolleri, kanıt aktarımı, rapor/hüküm, yayın ve değişiklik kabulü kullanımlarını ekler. İkinci pilotun bütünsel kapsam kontrolü ve B4 değerlendirmesi yapılmadı. METHOD ve PLAN v0.2-draft olarak korunur; yeni TERMS/READING dosyası veya ortak referans yoktur.
 
 | İş | Durum |
 |---|---|
 | Amaç, kaynak talep ve iki risk | ORIGIN/CHARTER'da korunuyor; değişmedi. |
 | Repo hazırlığı | Tamamlandı; SETUP-REVIEW tarihsel kontrol kapsamı geçerli. |
 | B1 / ilk pilot ve B2 / ilk yöntem değerlendirmesi | Tamamlandı; kaynak-kapsamlı kapanış ve v0.2 dersleri korunur. |
-| B3 / Superpowers ikinci pilot | Aktif; 52 dosyalık envanter, 32 tam okuma ve konuşma içi kısmi kullanım/ilişki dökümü. |
-| B3 kalan okuma ve çıkarım kontrolü | 20 dosya henüz okunmadı; paket genelinde kaynak tarafından döküme kapanış kontrolü yapılmadı. |
+| B3 / Superpowers ikinci pilot | Aktif; 52 dosyalık envanter, 39 tam okuma ve konuşma içi kısmi kullanım/ilişki dökümü. |
+| B3 kalan okuma ve çıkarım kontrolü | 13 dosya henüz okunmadı; paket genelinde kaynak tarafından döküme kapanış kontrolü yapılmadı. |
 | B4 / ikinci yöntem değerlendirmesi | Başlamadı; B3 sonrasında. |
 | Kalıcı seri çıkarım | Başlamadı; iki pilot ve değerlendirmelerinden sonra. |
 | Bütün çıkarımlardan ortak referans | Başlamadı; kabul edilmiş ortak tanım yok. |
@@ -35,121 +35,105 @@ Araştırma paketinin kendi METHOD/PLAN/STATE dosyaları bu pilot için okunan p
 
 Kaynak amaç/yetki ORIGIN/U01–U05, sonraki devam talepleri ve bağımsız derin terim araştırmasına kaymama açıklamasıdır. B1 → B2 → B3 → B4 sırası yetkilidir; aynı amacı tekrar onaylatmak gerekmez. Maddi amaç/aşama/kapsam değişikliği ayrıca değerlendirilir.
 
-P2-T1 ve P2-T2'nin repo yazma kapsamı yalnız concepts/STATE.md'dir. METHOD/PLAN/CHARTER/ORIGIN/INDEX/SETUP-REVIEW, AGENT ve protokoller, özgün studies paketleri ve onların META/STATE/INDEX'leri, Foundation, explorations ve publications değiştirilmez. Yeni dosya, branch, kalıcı terim envanteri veya ortak referans oluşturulmaz. Eşzamanlı ECC ve katalog değişiklikleri korunur.
+P2-T1, P2-T2 ve P2-T3'ün repo yazma kapsamı yalnız concepts/STATE.md'dir. METHOD/PLAN/CHARTER/ORIGIN/INDEX/SETUP-REVIEW, AGENT ve protokoller, özgün studies paketleri ve onların META/STATE/INDEX'leri, Foundation, explorations ve publications değiştirilmez. Yeni dosya, branch, kalıcı terim envanteri veya ortak referans oluşturulmaz. Diğer araştırmaların ve katalogun değişiklikleri korunur.
 
 Superpowers araştırmasının kendi durumu 2026-09-18'den itibaren BOUNDED-COMPLETE / USER-EVALUATED / ACCEPTED'dır. Concepts pilotu bunu yeniden açmaz veya kabulünü değiştirmez. Eski mekanizma notlarındaki ACTIVE/PARTIAL ve sentezlerdeki eski değerlendirme/next ifadeleri üretildikleri checkpoint'e aittir; current study STATE üstündedir. Ürünün benimsenmesi, kaynakların tüm iddialarının doğrulanması ve bu terim çıkarımının tamamlanması ayrı konulardır.
 
-## Korunan ilk pilot ve önceki checkpoint
+## Korunan ilk pilot ve önceki checkpoint'ler
 
 B1, context-memory-harness-engineering paketinin sekiz Markdown dosyası üzerinde kaynak snapshot'ı ac64fb9223cfa797e7eaabcdcbbf8bac3cc3ef0a ile tamamlandı. P1-T1 ilk döküm, P1-T2 ilişki eki, P1-T3 ekler/düzeltmeler ve B2 değerlendirmesidir. Faaliyet/nesne, tekil kayıt/sistem, farklı handoff kullanımları ve tasarım amacı/garanti ayrımları korunur; açık kaynak gerilimleri ortak ontolojik karar haline getirilmedi.
 
 İlk pilotun ayrıntılı dosya SHA'ları, okuma aralıkları, kapanış gerekçesi ve yayın kayıtları [P1 kapanış STATE'inde](https://github.com/batuhanozgun/agentic-os-search/blob/53c29b54a355742960f466a06a5d9bba0a42f412/concepts/STATE.md) korunur. Bu tarihsel kayıt B1'i tekrar aktif yapmaz. METHOD §7 ve PLAN/R3 yöntemdeki dersleri taşır. Aynı veride öğrenilmiş v0.2 değişiklikleri bağımsız doğrulanmış yöntem sayılmaz.
 
-P2-T1'in ayrıntılı 15 dosyalık SHA/aralık kaydı, giriş/host-delivery yorum sınırları ve o tarihteki 37 dosyalık kalan liste [P2-T1 STATE checkpoint'inde](https://github.com/batuhanozgun/agentic-os-search/blob/68c02081be7edae5dc4f53555ed748cd8b874903/concepts/STATE.md) korunur. O checkpoint'in 15/52 ve next-U02 durumu tarihseldir; aşağıdaki kümülatif durum geçerlidir. Eski kayda bağlantı, yeni aktörün bu dosyaları zaten okumuş olduğu anlamına gelmez.
+P2-T1'in ayrıntılı 15 dosyalık SHA/aralık kaydı ve ilk yorum sınırları [P2-T1 STATE checkpoint'inde](https://github.com/batuhanozgun/agentic-os-search/blob/68c02081be7edae5dc4f53555ed748cd8b874903/concepts/STATE.md) korunur. P2-T2'nin 17 yeni dosyalık SHA/aralık tablosu, kümülatif önceki okuma listesi ve onay–görev–inceleme–teslim yorumları [P2-T2 STATE checkpoint'inde](https://github.com/batuhanozgun/agentic-os-search/blob/e04f54822ecfbff2504f5772e44cbdf963edb0ac/concepts/STATE.md) korunur. Eski 15/52, 32/52 ve next-U02/U06 durumları tarihseldir; aşağıdaki kümülatif durum geçerlidir. Bağlantı, yeni aktörün bu kaynakları zaten okumuş olduğu anlamına gelmez.
 
 ## P2 kaynak bağlama ve gerçek envanter
 
 Repository: batuhanozgun/agentic-os-search. Araştırma paketi: research/studies/superpowers/.
 
-- P2 okuma snapshot'ı: **75bc6787844e9b1a8fed76ff5cfa4ca8ce63d847**, P2-T1 başlangıcında gözlenen main; P2-T2 okumaları da bu ref'e bağlıdır.
+- P2 okuma snapshot'ı: **75bc6787844e9b1a8fed76ff5cfa4ca8ce63d847**, P2-T1 başlangıcında gözlenen main; P2-T2/P2-T3 okumaları da bu ref'e bağlıdır.
 - Paket tree SHA: **56c19a5e2c0deb7b0f5164aac818ed2ba98baf12**.
 - Alt ağaçlar: notes cc9611a59f65ec1175fd99885c01a6efebc202ed; syntheses bfb0603d70683e512df789bfa52c929caa67d9ea; evidence 7a5af9c7cf94551a42102bcfd9e2ddd36434cd9a.
 - Toplam 52 dosya: 36 Markdown, 8 betik, 8 JSON. Bu ağaçlarda başka alt dosya/binary ek yok.
 
 | Grup | Envanter | Kümülatif tam okuma | Kalan |
 |---|---:|---:|---:|
-| Kök giriş/yöntem/plan/kaynak kayıtları | 19 | 11 | 8 |
-| notes | 11 | 6 | 5 |
-| syntheses | 6 | 3 | 3 |
+| Kök giriş/yöntem/plan/kaynak kayıtları | 19 | 14 | 5 |
+| notes | 11 | 9 | 2 |
+| syntheses | 6 | 4 | 2 |
 | evidence: betik ve sonuçlar | 16 | 12 | 4 |
-| Toplam | 52 | 32 | 20 |
+| Toplam | 52 | 39 | 13 |
 
-P2-T1'de ilk kesilmiş contents yanıtıyla envanter kapatılmadı; sabit commit'in kök → research → studies → superpowers zinciri, paket kökü ve üç alt ağaç tam kontrol edildi. Envanter içeriğin okunmuş olması değildir. P2-T2 başlangıç ve yayın öncesi karşılaştırmalarında bu pakette değişiklik görünmedi; okuma eski kaynakla yeni kaynak karıştırılmadan sürdü.
+P2-T1'de ilk kesilmiş contents yanıtıyla envanter kapatılmadı; sabit commit'in kök → research → studies → superpowers zinciri, paket kökü ve üç alt ağaç tam kontrol edildi. Envanter içeriğin okunmuş olması değildir. P2-T2 ve P2-T3'te kaynak sürümüne bağlı okuma sürdürüldü; yeni kaynaklar eski kayıtların içine sessizce karıştırılmadı.
 
-Bu research snapshot'ı, araştırmanın incelediği dış ürün pininden farklıdır: obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797, manifest bağlamı 6.3.0. Dış ürünün bugünkü main'i, kurulu dosyaları veya güncel host API'leri bu pilotta yeniden doğrulanmadı. Lab/assessor pinleri de araştırma içindeki atıf kimlikleridir; onların yeni araştırmasına başlanmadı.
+Bu research snapshot'ı, araştırmanın incelediği dış ürün ve değerlendirme kaynaklarından farklıdır. Ana ürün obra/superpowers@b36e0829c6d0140e93cfef2ca599b1b07d4a7797; lab prime-radiant-inc/superpowers-evals@e64684cd1fa270c464ac797747e45bbe8d127e8b; araştırmada kaynak olarak incelenen tarihsel assessor prime-radiant-inc/gauntlet@db6c8e0fcf80889aa6d9631c99adec698f6c0caa ve ayrıca kaydedilmiş 25a2e3e00431f8d8eb63781162ccb974d43d5405 farkıdır. P2-T3 bu dış depoların içeriğini veya bugünkü HEAD'lerini yeniden incelemedi. Bunlar araştırma içindeki atıf kimlikleridir, yeni teknik güncellik veya etkin sürüm sertifikası değil.
 
-## P2-T1'den devralınan 15 tam okuma
+## P2-T3 — Yeni tam okunan yedi dosya
 
-Aşağıdaki yollar paket tabanına göredir; tam SHA/aralıklar yukarıdaki immutable P2-T1 checkpoint'indedir.
-
-- Kök: STATE.md; META.md; INDEX.md; CORE.md; CLOSURE-AUDIT.md; METHOD.md; PLAN.md; SOURCE-LEDGER.md.
-- Notlar: notes/U01-entry-routing-and-bootstrap.md; notes/U01B-host-delivery-and-continuity.md.
-- Sentez: syntheses/S02-availability-runtime-and-distribution.md.
-- Kanıt: evidence/U01-hook-probes.py; evidence/U01-hook-probes-results.json; evidence/U01B-opencode-probes.mjs; evidence/U01B-opencode-probes-results.json.
-
-Bunlar aynı konuşmadaki önceki tam okumalardır; P2-T2'de yeniden okunmuş 15 dosya veya yeni deney sayılmaz. SOURCE-LEDGER'ın S28–S36 kayıtları U02 okumalarının atıf bağlamı olarak kullanıldı. Kaynak kaydındaki upstream FULL statüsü, P2 actor'ının bütün dış dosyaları ayrıca okuduğu anlamına gelmez.
-
-## P2-T2 — Yeni tam okunan 17 dosya
-
-Aşağıdaki yollar research/studies/superpowers/ tabanına göredir. EOF, dosya sonunun görüldüğünü belirtir; parantezdeki son istek sınırı gerçek satır sayısı değildir. Tam yanıt, içerik kesilmeden dosya sonunun görüldüğü tek dosya yanıtıdır.
+Yollar research/studies/superpowers/ tabanına göredir. EOF dosya sonunun görüldüğünü belirtir; istek üst sınırı gerçek satır sayısı değildir. Boş kuyruk yanıtları da dosya sınırı kontrolü için kaydedilmiştir.
 
 | Dosya | Blob SHA | Gerçek okuma |
 |---|---|---|
-| notes/U02-approval-plan-workspace-handoff.md | 20568d3bfe398e7e0ff43abf2cb29e84925834ae | 1–105, 106–EOF (istek 240'a kadar). |
-| evidence/U02-handoff-probes.py | 5cf7d9dd25ade628743a3250158486c8349a6fb5 | 1–150, 151–EOF (330). |
-| evidence/U02-handoff-probes-results.json | c95be67a743b7e8526e9fe30a2198117aee61d50 | Tam yanıt. |
-| notes/U03-delegation-review-and-acceptance.md | 4dfe415cf35386650a30fa7104e5537355276977 | 1–100, 101–EOF (230). |
-| SOURCE-LEDGER-U03.md | 76075ba19f8012d9d2b582887a22c9edf2362d2d | Tam yanıt. |
-| evidence/U03-review-probes.py | a1982668d06c8cf22783af60bfb5430839eb1b5c | 1–140, 141–EOF (280). |
-| evidence/U03-review-probes-results.json | 48ba0976e661c74fe20f9232836fcc2dc2debb19 | Tam yanıt. |
-| syntheses/S03-intent-planning-and-context-handoff.md | f69f5c99aefa2a6a13b4233ae49afd73dc2ce0ca | Tam yanıt. |
-| notes/U04-testing-diagnosis-and-verification.md | 975d935ad98634624537571e77e38e4ec5268ee7 | 1–100, 101–EOF (240). |
-| SOURCE-LEDGER-U04.md | 113f818cbc47a28105b00a0d5578b73567a18be6 | Tam yanıt. |
-| evidence/U04-diagnostic-probes.py | 37ca1fe7d2ee6c0390e51f9eb56b281a26138eee | Tam yanıt. |
-| evidence/U04-diagnostic-probes-results.json | 875f03b27e53b8a6013f2facbace833fd7478cb9 | Tam yanıt. |
-| notes/U05-delivery-cleanup-and-retention.md | d3e797780ffb14781361194e5d82799033f14b49 | 1–105, 106–EOF (240). |
-| SOURCE-LEDGER-U05.md | 3066325dda3a9d6f10b4181863ea642ece5eb59f | Tam yanıt. |
-| evidence/U05-lifecycle-probes.py | a59ca7af17737f64fa8ed54c214b77ceecd522a5 | 1–135, 136–EOF (330). |
-| evidence/U05-lifecycle-probes-results.json | 565da2eaf7aa293eea5663dce74436c71bb7595b | 1–210, 211–EOF (600). |
-| syntheses/S04-execution-verification-and-delivery.md | 54c77cc04e9d7f88900918f8ee63dd07dadb0e54 | 1–85, 86–EOF (220). |
+| notes/U06A-skill-authoring-and-change-admission.md | 469dbea119e410a11c2130bb94ff4e90ed34a7fc | 1–85, 86–EOF (istek 210'a kadar). |
+| SOURCE-LEDGER-U06A.md | 3122010a6494f5a8d9b98a8d1a1edc39594a3aa9 | 1–95 ile içerik sonu; 96–180 isteği boş döndü. |
+| notes/U06B1-evaluation-evidence-and-verdict.md | 54418ac55a5129cde6f0ee1ddf0c471f361a6a1d | 1–80, 81–EOF (200). |
+| SOURCE-LEDGER-U06B1.md | 90e75d48a02e02c7a6aa55e6b3a8123469dfb690 | 1–85 ile içerik sonu; 86–170 isteği boş döndü. |
+| notes/U06B2-assessor-contracts-and-evidence-qualification.md | adb00736fc90b481568a73288c81ce6929ad1f1a | 1–85, 86–EOF (210). |
+| SOURCE-LEDGER-U06B2.md | 1e315c6bb3575a0f299d9c5d322fe5c60452c0b5 | 1–80, 81–EOF (180); son yayın/handoff cümlesi kuyrukta tamamlandı. |
+| syntheses/S01-skill-evolution-and-evaluation.md | df93d7bcd127f3d31e82ab8dcc80b9668b0c7231 | 1–95 ile içerik sonu; 96–180 isteği boş döndü. |
 
-Bu tur 9 Markdown, 4 betik ve 4 sonuç dosyası okundu. Hiçbiri çalıştırılmadı. Tarihsel deneyde exact upstream script çalıştırılması, araştırmacının seçtiği Git komut dizisi, mock/stub kullanımı ve kaydedilmiş sonuç ayrı sınırlardır. P2-T2'nin yaptığı, mevcut not/betik/sonuç karşılaştırmasıdır; eski deneylerin tekrar-performansı veya bağımsız araştırma değildir.
+Yedi dosyanın hepsi mevcut araştırma paketinin Markdown belgeleridir. U06 notlarının geçmişte yaptığı dış kaynak/code/rapor okumaları bu pilotun yeni okumaları sayılmaz. Kaynak kayıtlarındaki FULL/PARTIAL ve source-only/public-report sınıfları korundu. Tarihsel raporun bulunduğu depo snapshot'ı, raporda anılan gerçek deney sürümüyle aynı şey değildir. Özel ham sonuçlar, gizli kriter dosyaları, model çağrıları veya bağımlılık depolarının yeni incelemesi yoktur. Yeni betik/deney çalıştırılmadı.
 
-## Henüz okunmamış 20 dosya
+P2-T1/P2-T2'nin önceki 32 tam okuması, bu konuşmadaki gerçek kaynak metinleri ve yukarıdaki immutable tablolarla devralındı; bu tur tekrar edilmiş 32 okuma gibi sunulmaz. P2-T1/P2-T2 görünür kullanım dökümleri erişilebilirdi ve yeni yorumlarla birlikte değerlendirildi.
+
+## Henüz okunmamış 13 dosya
 
 Aynı paket tabanına göre tam kalan liste:
 
-**Kök kaynak kayıtları — 8:** SOURCE-LEDGER-U06A.md; SOURCE-LEDGER-U06B1.md; SOURCE-LEDGER-U06B2.md; SOURCE-LEDGER-U07A.md; SOURCE-LEDGER-U07B.md; SOURCE-LEDGER-U08A.md; SOURCE-LEDGER-U08B.md; SOURCE-LEDGER-U08C.md.
+**Kök kaynak kayıtları — 5:** SOURCE-LEDGER-U07A.md; SOURCE-LEDGER-U07B.md; SOURCE-LEDGER-U08A.md; SOURCE-LEDGER-U08B.md; SOURCE-LEDGER-U08C.md.
 
-**Mekanizma notları — 5:** notes/U06A-skill-authoring-and-change-admission.md; notes/U06B1-evaluation-evidence-and-verdict.md; notes/U06B2-assessor-contracts-and-evidence-qualification.md; notes/U07A-visual-companion-lifecycle.md; notes/U07B-distribution-versioning-and-support.md.
+**Mekanizma notları — 2:** notes/U07A-visual-companion-lifecycle.md; notes/U07B-distribution-versioning-and-support.md.
 
-**Sentezler — 3:** syntheses/S01-skill-evolution-and-evaluation.md; syntheses/S05-native-system-model.md; syntheses/S06-project-facing-contribution-and-comparison.md.
+**Sentezler — 2:** syntheses/S05-native-system-model.md; syntheses/S06-project-facing-contribution-and-comparison.md.
 
 **Deney betikleri/sonuçları — 4:** evidence/U07A-companion-client-probes.mjs; evidence/U07A-companion-client-probes-results.json; evidence/U07B-version-probes.py; evidence/U07B-version-probes-results.json.
 
-Kalan liste okuma hesabıdır; bu dosyaların kullanım envanteri değildir. S03/S04'ün okunması U08-A kaynak kaydının, S02/S03'teki görsel/dağıtım atıfları da U07 notlarının okunmuş olması değildir. O bölümler kendi ayrıntılarıyla tamamlanır; şimdiki sentez tekrarı bağımsız destek sayılmaz.
+Kalan liste okuma hesabıdır; bu dosyaların kullanım envanteri değildir. Önceki S02/S03/CORE okumaları U07 ve U08 kayıtlarının yerine geçmez. S01'in okunması, atıf yaptığı dış lab/assessor'un yeniden incelendiği anlamına gelmez.
 
-## P2-T2 — Yorum ve kapsam kontrolünün devri
+## P2-T3 — Yorum ve kapsam kontrolünün devri
 
-Bu bölüm terim envanterinin yerine geçmez; sonraki turda korunacak maddi açıklıkları kaydeder. Bağlamlı kayıtların kendisi P2-T2 görünür yanıtındadır.
+Bu bölüm terim envanterinin yerine geçmez; sonraki turda korunacak maddi açıklıkları kaydeder. Bağlamlı kayıtların kendisi P2-T3 görünür yanıtındadır.
 
-- P2-T1'in approval/controller/implementer/reviewer/qualified-completion ilk görünümü U02/U03 ayrıntılarıyla genişletildi. Onay, SDD controller hükmü, görev kabulü ve insanın entegrasyon seçimi aynı karar değildir. Rol talimatı yetkiyi mekanik olarak uygulayan runtime kanıtı sayılmaz.
-- Planın görevi ve adım ayrımı, ortak kısıt ve interfaces aktarımı, task-brief ile tam dispatch bağlamının farklılığı kaynakta görüldüğü şekilde korunur. Doğru metin çıkarımı, bütün gerekli bilginin ilgili aktöre taşındığını göstermeyebilir; bunu helper'ın üstlenmediği görevi yerine getirmemesi diye ürün kusuruna çevirmeyiz.
-- Git worktree, SDD'nin iç geçici dizini, plan basename/path/revision ve tamamlanma kaydı ayrı göndermelerdir. P2-T1'deki genel work-recovery açıklaması artık bu kayıt ve kimlik sınırlarıyla okunur; giriş mekanizmasında iş kurtarmanın görülmemesi bütün sistemde yokluk değildir.
-- DONE ve kaygı/blokaj durumları, iki reviewer hükmü, diff üzerinden doğrulanamayan gereksinim, fix/re-review, deferred/parked ve complete farklı durumlardır. Beş tur sınırı doğruluk kanıtı değildir. Final review ve entegrasyon yetkisi de görev kabulüne indirgenmez.
-- Review-package, caller'ın verdiği BASE/HEAD aralığını taşır; görev kapsamını kendisi keşfetmez. Kayıtlı commit aralığı ile test edilen çalışma kopyası ve bütün görev aynı nesne sayılmaz. Araştırma runner'ı ve kaydedilmiş sonuç bu ayrımı gösteren tarihsel girdiler olarak okundu.
-- Test chronology, ilgili hataya duyarlılık/oracle ve mevcut sonuca uygulanabilirlik ayrılır. Mental mutation, çalıştırılmış mutation motoru değildir. Diagnosis girişimi ile SDD review turunun sayıları aynı ölçü birimi yapılmaz. Generic fresh-run ile specialized reused-evidence gerilimi çözüldü ilan edilmez.
-- clean, PASS ve exit status hangi nesne ve ölçütü niteledikleriyle okunur. Diagnostic helper'ın belirli bir hedef yan etkisini bulamaması, testlerin çalıştığını veya geçtiğini tek başına göstermez. Tam stdout'taki sıfır/skip açıklamaları da korunur; yalnız son satırdan bütün çıktı görünmez hata diye sunulmaz.
-- İş kabulü, merge, push, PR, keep/discard, inner-scratch/outer-worktree/branch cleanup ve karar/kanıt saklama aynı başarı durumu değildir. Tarihsel Git fixture'larının sonuçları canlı ürün olayı veya yeni koşu sayılmaz. Geçici scratch'in bütün baytlarını arşivleme upstream garantisi uydurulmaz; açık karar aktarma yükümlülüğü de yok sayılmaz.
-- Q13, Q20, Q24 ve diğer kaynak-içi actor/stage/precedence sınırları açık araştırma sonuçlarıdır. Kaynakta çözülmemiş olmaları ilk aşamada bağımsız genel kavram veya ürün araştırması başlatma borcu değildir. Okunmamış 20 dosya ise gerçek kalan iştir.
+- Ana ürünün skill yazım/admission dili, ayrı lab'ın senaryo/ölçüm dili ve tarihsel assessor'un rapor/yayın dili aynı araştırmada birlikte geçer. Hepsi Superpowers'ın son kullanıcı runtime'ının alt sistemi diye toplanmaz. Drill/Quorum ad farkı tek başına kanıtlanmış bir yeniden adlandırma veya sürümler arası eşdeğerlik değildir.
+- SP02/SP04'ün skill ve description kullanımı ayrıntılandı: yeniden kullanılabilir yöntem ile tekil oturum hikâyesi; keşif için ne zaman yükleneceği açıklaması ile prosedür gövdesi ayrılır. Yazım rehberindeki eski iki-inceleme anekdotu SP33'ün mevcut tek reviewer/iki verdict kaydını değiştirmez. Bunlar önceki doğru ayrımların genişletilmesidir; sırf revizyon görünmesi için hata üretilmedi.
+- Yasak, olumlu çıktı tarifi, zorunlu alan ve koşullu kural farklı sorunlara karşı önerilen biçimlerdir. Meta-testing ve basınç senaryoları kaynakta talimat/uyaran/geri bildirim olarak bulunur; gözlenmiş doğru davranış, geçerli nedensel teşhis veya genel yarar kanıtı sayılmaz.
+- No-guidance karşılaştırması ile eski/yeni skill sürümü karşılaştırması ayrı sorulara cevap verir. Stock/treatment tanımı, açık none/root/unspecified durumları ve hazırlanmış kaynak kimliği; gerçekten modele ulaşan etkin talimatın veya nedensel faydanın gözlemiyle aynı değildir.
+- Seçili conversation-code-review senaryosu belirli skill/tool kullanımını zorunlu tutmaz; teslim edilmiş, dayanaklı inceleme sonucunu hedefler. U06'nın tamamı prosedürel uyum testi diye nitelenmez. Bu sınır, önceki akademik/pressure örneklerine ilişkin ihtiyatı bütün lab'a ihraç etmeyi önler.
+- Subject, user-like interlocutor ve assessor mantıksal rollerdir; ayrı girdiler veya süreçler farklı/bağımsız model garantisi değildir. Brief ile private rubric ayrımı, tam sistem erişim yalıtımı gibi sunulmaz.
+- Görünür konuşma sonu, capture/trajectory/output görünümü, evidence index, check kaydı, assessor raporu ve composed verdict ayrı nesne/durumlardır. Check-manifest uyumu ilgili betikte beklenen kayıtların yürütülmesini sınar; bağımsız oracle doğruluğu değildir. Önkoşul veya araç hatasının indeterminate'a üstün gelmesi, bütün negatif alt kayıtların silindiği anlamına gelmez.
+- Assessor'un her ayrıştırılmış ölçüt için satır istemesi, ölçüt metnini konuma bağlaması ve önceki çağrıda görünmüş kaynak şartı somut kontrol anlatımlarıdır. Kaynağın gerçekten hükmü desteklemesi ve bütün yük taşıyan anlamın kapsanması ayrı kalır. Read-before-cite ile okunmuş kaynaktan doğru çıkarım aynı iddia değildir.
+- Format repair mevcut model-yazımı satırları kabul edilen yapıya geri taşır; fail'i pass'e çevirmek veya coding-agent davranışını iyileştirmek diye anlatılmaz. Native criteria ile sonradan onarılan temsil ve sınırlı strict-schema yolu ayrılır. Sonuç kabul oranı artışı tek başına kullanıcı işinin iyileştiği anlamına gelmez.
+- Result digest/completion marker, mantıksal-fiziksel istek muhasebesi, reportEligible ve maliyet kapsamının complete olması farklı niteliklerdir. Bilinen alt toplam tam maliyet değildir; bilinmeyen sıfır olmaz. Bunlar kaynakta açıklanan kayıt/kullanım ayrımlarıdır; bu pilot maliyet ölçmedi.
+- Kamuya açık geçmiş raporların biçim onarımı ve semantik karşı örnekleri araştırmanın aktardığı raporlardır. Özel ham kanıt doğrulanmadı; sayılar yeni deney veya genel hata oranı yapılmadı. Dar/izole örnekte başarıdan büyük bağlamın nedensel etkisi çıkarılmadı.
+- Yöntem geliştirme, değerlendirme ve katkı/yayım kabulü üç bağlantılı süreç olarak korunur. Statik CI, koşunun işletimsel tamamlanması, değerlendirme kalibrasyonu ve maintainer/release kararı tek başarı durumuna indirgenmez. Katkı kontrol listesinin varlığı otomatik yönetimsel enforcement kanıtı değildir.
 
-V0.2 yöntemi bu tur değiştirilmedi. Kaynak rolü, açıklama statüsü, niteleyici ve kullanım/ilişki beraberliği yeni bölümlerde uygulandı. Paket çapında son kaynak-kapsam kontrolü ve B4 henüz yapılmadığından yöntem genel olarak doğrulandı veya ikinci pilot kapandı denmez. Araştırma notları, kaynak kayıtları ve deney çiftleri aynı kanıt zincirinin bağımlı yüzeyleridir.
+V0.2 yöntemi değiştirilmedi. Bu turun kaynak bölümleri, tabloları ve kaynak kayıtları yeni dökümle karşılaştırıldı; bu, bütün 52 dosyanın son kapsam kontrolü veya bağımsız araştırma doğrulaması değildir. U06'nın açık genel kavram/ürün soruları yeni araştırma kuyruğuna çevrilmedi. 13 okunmamış dosya ise gerçek kalan iştir. Kaynak notlarının, kaynak kayıtlarının ve S01'in birbirini tekrar etmesi bağımsız destek oluşturmaz.
 
 ## Current work ve next authorised work
 
-**Tamamlanan:** hazırlık; B1/B2; B3 için 52 dosyalık kaynak-sürümlü envanter; P2-T1'in 15 ve P2-T2'nin 17 yeni tam okuması; bu okumalar sırasında konuşmaya taşınan kısmi kullanım/ilişki kayıtları. P2-T1'in next-U02 ve 37 dosya kaldı ifadeleri tarihseldir.
+**Tamamlanan:** hazırlık; B1/B2; B3 için 52 dosyalık kaynak-sürümlü envanter; P2-T1'in 15, P2-T2'nin 17 ve P2-T3'ün yedi yeni tam okuması; bu okumalarla birlikte konuşmaya taşınan kısmi kullanım/ilişki kayıtları. Önceki checkpoint'lerdeki next-U06 ve 20 dosya kaldı ifadeleri tarihseldir.
 
-**Sıradaki yetkili iş hâlâ B3:** mevcut görünür P2-T1/P2-T2 kayıtlarını ve bu okuma hesabını geri kazan. Önce notes/U06A-skill-authoring-and-change-admission.md ile SOURCE-LEDGER-U06A.md; ardından U06B1/U06B2 notları ve kendi kaynak kayıtları; sonra syntheses/S01-skill-evolution-and-evaluation.md. Amaç, yöntemin yazılması/değiştirilmesi, değerlendirme kanıtı, hüküm ve kabul kullanımlarını bu araştırmadan çıkarmaktır; yeni eval kampanyası yürütmek veya dış lab/assessor'u baştan araştırmak değildir.
+**Sıradaki yetkili iş hâlâ B3:** görünür P2-T1/P2-T2/P2-T3 kayıtlarını ve bu okuma hesabını geri kazan. Önce notes/U07A-visual-companion-lifecycle.md, SOURCE-LEDGER-U07A.md, evidence/U07A-companion-client-probes.mjs ve sonuç JSON'unu tam oku. Sonra U07B notu/kaynak kaydı ve version-probes.py/sonuç JSON'u; ardından S05/S06 ve U08-A/B/C kaynak kayıtları tamamlanır. Amaç, görsel yardımcı, dağıtım/sürüm/etkinleştirme ve son sentezlerin kullanım/ilişkilerini çıkarmaktır; canlı browser/server, paketleme, kurulum, deney veya dış kaynak kampanyası yürütmek değildir.
 
-Sonra U07A/U07B notları, kaynak kayıtları ve dört betik/sonuç; S05/S06 ve U08-A/B/C kaynak kayıtları tamamlanır. Gerektiğinde sıra, kaynak ilişkisi ve operasyonel sınırla ayarlanabilir; dosya atlanmaz. Tam okuma birden fazla tura yayılabilir. Kullanım çıkarımı okumayla birlikte yürür; paket bitince hafızadan liste kurulmaz. Paket sonunda kaynak bölüm/liste/tablo/örneklerinden döküme kapsam kontrolü ve maddi düzeltmeler yapılır, ardından B4 değerlendirmesi gelir.
+Gerektiğinde sıra kaynak ilişkisi ve operasyonel sınırla ayarlanabilir; dosya atlanmaz. Tam okuma birden fazla tura yayılabilir. Kullanım çıkarımı okumayla birlikte yürür; paket bitince hafızadan liste kurulmaz. Paket sonunda kaynak bölüm/liste/tablo/örneklerinden bütün görünür döküme kapsam kontrolü ve maddi düzeltmeler yapılır; ardından B4 değerlendirmesi gelir.
 
-B3 veya B4 tamamlanmadan kalıcı seri çıkarım; bütün araştırmaların çıkarımı bitmeden ortak referans başlamaz. Yetkili sırayı devam ettirmek için aynı amacı tekrar onaylatmak gerekmez. U02–U05 notlarının tarihsel next talimatları aktif araştırma görevi olarak uygulanmaz.
+B3 veya B4 tamamlanmadan kalıcı seri çıkarım; bütün araştırmaların çıkarımı bitmeden ortak referans başlamaz. Yetkili sırayı devam ettirmek için aynı amacı tekrar onaylatmak gerekmez. U06 notları ve S01'in tarihsel next/eksik-deney talimatları aktif yeni araştırma işi sayılmaz.
 
 ## Yeni oturum ve pilot çıktılarının devralınması
 
 AGENT ve tetiklenen protokoller → concepts/INDEX → bu STATE → CHARTER → ORIGIN → METHOD → PLAN → SETUP-REVIEW → P2'nin mevcut görünür yanıtları → kaynak paketin current STATE/META/INDEX ve gereken sabit-ref dosyalar.
 
-Yeni oturumda zorunlu girişler tam okunur. Aynı konuşmadaki tam ve değişmemiş okumalar mekanik biçimde tekrarlanmaz. Görünür P2-T1/P2-T2 yanıtlarına gerçekten erişilebiliyorsa tamamı okunur; yalnız STATE özeti veya okuma sayısı yerine konmaz. Erişilemiyorsa gerekli kullanımlar kaynak snapshot'ından yeniden çıkarılır ve yeniden üretim olduğu belirtilir; yeni aktör önceki aktörün okuma kaydını kendi okuması saymaz. Pilotun chat-only sınırı sessiz yeni TERMS arşiviyle aşılmaz.
+Yeni oturumda zorunlu girişler tam okunur. Aynı konuşmadaki tam ve değişmemiş okumalar mekanik biçimde tekrarlanmaz. Görünür P2-T1/P2-T2/P2-T3 yanıtlarına gerçekten erişilebiliyorsa tamamı okunur; yalnız STATE özeti veya okuma sayısı yerine konmaz. Erişilemiyorsa gerekli kullanımlar kaynak snapshot'ından yeniden çıkarılır ve yeniden üretim olduğu belirtilir; yeni aktör önceki aktörün okuma kaydını kendi okuması saymaz. Pilotun chat-only sınırı sessiz yeni TERMS arşiviyle aşılmaz.
 
 B1 sırf eski sohbet görünmüyor diye tekrar aktif sayılmaz. İlk pilot terimleri yeniden kullanılacak veya kalıcılaştırılacaksa P1-T1/T2/T3 görünür kayıtlarına ve sabit kaynaklarına geri dönülür. Bu STATE yanıtın teslim/alım makbuzu değildir.
 
@@ -159,8 +143,8 @@ B1 sırf eski sohbet görünmüyor diye tekrar aktif sayılmaz. İlk pilot terim
 
 P1 kapanışı 53c29b54a355742960f466a06a5d9bba0a42f412; METHOD v0.2 commit'i 839e760a2e306e0011826501f4580b841ecc2f04; PLAN v0.2 commit'i 67351f0808dd8175d3297f03258d49379a23ad56. Önceki hazırlık ve ilk pilot ayrıntıları bu kaynaklardan ve SETUP-REVIEW'den geri kazanılır.
 
-P2-T1 STATE yayını 68c02081be7edae5dc4f53555ed748cd8b874903'te tam geri okundu; gerçek parent bd73155e5f252f520f0d2274eeefba232985ec84 ile karşılaştırma yalnız concepts/STATE.md değişikliğini gösterdi.
+P2-T1 STATE yayını 68c02081be7edae5dc4f53555ed748cd8b874903'te tam geri okundu; gerçek parent bd73155e5f252f520f0d2274eeefba232985ec84 ile karşılaştırma yalnız concepts/STATE.md değişikliğini gösterdi. P2-T2 yayını e04f54822ecfbff2504f5772e44cbdf963edb0ac da tam geri okundu; gerçek parent ab3da7f3113f7303664c17f091923c97bc84016c ile karşılaştırma yalnız STATE değişikliğini gösterdi.
 
-P2-T2'de AGENT güncel main'den tam tekrar okundu. R01–R09 ve concepts girişlerinin aynı konuşmada tam okunmuş içerikleri geçerliydi; karşılaştırmada değişmemiştiler. Güncel concepts STATE 1–100 isteğinin sonundaki araç kesilmesi 90–EOF örtüşmesiyle tamamlandı. Bu tur kaynak dosyalarının tümü sabit P2 ref'inden getirildi. Başlangıçta P2-T1 checkpoint'inden main'e fark yalnız ECC/katalog tarafındaydı. Yayın öncesi P2 snapshot→main karşılaştırmasında Superpowers, protokoller ve METHOD/PLAN değişmemişti; concepts STATE farkı mevcut P2-T1 yayınıydı. Yazma öncesi gözlenen main ref'i ab3da7f3113f7303664c17f091923c97bc84016c.
+P2-T3'te AGENT güncel main'den tam tekrar okundu; blob aea3dd845e0f0bbcfb34465edb23782e99f95c80. R01–R09 ve concepts girişlerinin aynı konuşmada tam okunmuş, değişmemiş içerikleri geçerliydi. Güncel STATE 1–70, 71–145, 146–EOF aralıklarıyla tam geri kazanıldı. Başlangıç ve yayın öncesi e04f548→main karşılaştırmalarının ikisi de identical/0 fark döndürdü. Bu tur bütün yedi kaynak dosyası sabit P2 ref'inden getirildi. Önceki turdan sonra kaynak veya kontrol değişimi yoktu; mevcut kaynak kimlikleri korunur.
 
-Bu tur yalnız STATE'e mevcut blob kimliğiyle kontrollü güncelleme yapılır; yayın sonrasında dosya tam geri okunur ve kendi commitinin gerçek parent→commit farkı kontrol edilir. Bu kontroller kalıcı yerleşim ve kapsamı doğrular; araştırma doğruluğu, host davranışı veya drift'in önlenmesini bağımsız olarak kanıtlamaz. Yeni dış kaynak araştırması, canlı deney, kurulum, credential kullanımı veya upstream yazma yapılmadı.
+Bu tur yalnız STATE'e mevcut blob c96457878d0262b3db62b3f9023d9a02d24e1fa7 üzerinden kontrollü güncelleme yapılır. Yayın sonrasında tam dosya geri okunur ve kendi commitinin gerçek parent→commit farkı kontrol edilir. Bu kontroller kalıcı yerleşim ve kapsam içindir; araştırma doğruluğu, değerlendirme etkinliği veya drift'in önlenmesini bağımsız olarak kanıtlamaz. Yeni dış kaynak araştırması, canlı deney, kurulum, credential kullanımı, yeni dosya/branch veya upstream yazma yoktur.
