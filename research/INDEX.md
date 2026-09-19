@@ -67,7 +67,7 @@ A new durable research package belongs under `research/studies/<slug>/` when it 
 - bounded SOUL project-context reconstruction/current transition context (`soul-context`), nor
 - current first-principles Foundation research (`soul-foundations`).
 
-The separately owner-authorised concept-use and shared-reference programme is an explicit exception to this default: it lives under [`concepts/`](../concepts/INDEX.md), with its own STATE and METHOD. This does not move existing studies or reclassify every conceptual/mechanism inquiry. See the dedicated route below.
+The separately owner-authorised programme restarted on 2026-09-19 lives under [`concepts/`](../concepts/INDEX.md). It first extracts term/jargon uses through full reading of each studies research package in its own context; only after all scoped extraction is complete does it read the outputs together for a shared-reference assessment. It is not an ordinary new study, a continuation of the former concepts method or authority to move existing studies. Current phase and preparation/pilot boundaries live in `concepts/STATE.md`.
 
 Do not classify a study as "external" merely because it uses external sources. Classification is based on the **research object**:
 
@@ -86,7 +86,7 @@ Do not classify a study as "external" merely because it uses external sources. C
 | Understand candidate-library semantics | `studies/INDEX.md` | `studies/PACKAGE-CONTRACT.md` |
 | Create a new focused/external/hybrid study | `studies/PACKAGE-CONTRACT.md` | create package `META.md` and update `CATALOG.md` |
 | Architecture/design/implementation wants prior research | current project/Foundation state first | `studies/CATALOG.md` → selected studies only |
-| Term meanings, cross-source usage or shared conversational reference | [`concepts/INDEX.md`](../concepts/INDEX.md) | `concepts/STATE.md` → relevant research/synthesis/reference; do not assume a shared definition already exists |
+| Restarted term extraction or later shared-reference work | [`concepts/INDEX.md`](../concepts/INDEX.md) | full cold-start route → `concepts/STATE.md` and purpose/source/method/plan → authorised phase; no inherited definitions or early cross-study normalisation |
 
 ## Authority boundaries
 
@@ -106,6 +106,8 @@ Do not require a future session to read every study. Use progressive retrieval:
 `CATALOG → selected META → package STATE/INDEX → relevant finding → authoritative/current external source when decision-critical`.
 
 A catalog miss is not proof that no relevant study exists; search package names/content when the decision is material and catalog coverage may be stale.
+
+This selective-reuse default does not replace the explicitly authorised full-corpus reading in the concepts extraction programme. That work is deliberately sequenced across packages and turns, with file-level coverage and source/version tracking; it does not require blindly loading the entire library into every session.
 
 ## Current candidate studies
 
@@ -133,4 +135,4 @@ Do not collapse them because they appear under the same `research/` root.
 
 [explorations/INDEX.md](../explorations/INDEX.md) is the separately authorised **Düşünce ve Model Denemeleri** library at repository root. It preserves conceptual dialogues, synthetic demonstrations, draft models and learning/evolution traces; it is not a fourth research class or agent-control layer. Start at [its catalog](../explorations/CATALOG.md) for selective reuse. The first entry is [EXP-001](../explorations/EXP-001-soul-calisma-modeli/INDEX.md). A recorded hypothesis, repeated idea or model in this library is not thereby a Foundation finding, independently verified result or adopted architecture. Relevant future research can link to an exploration without importing its conclusions as axioms.
 
-[concepts/INDEX.md](../concepts/INDEX.md) is the separately authorised **Kavram Araştırmaları ve Ortak Referans** programme. It distinguishes source-use research, cross-concept synthesis and jointly considered local usage. Existing research remains in place and is cited at the necessary source depth. This programme is not another Foundation ground, architecture authority or agent-control layer. A reference choice does not rewrite a source or certify a mechanism. Do not create duplicate study packages or catalogue rows solely for this programme.
+[concepts/INDEX.md](../concepts/INDEX.md) is the separately authorised **Araştırma Bazında Terim Çıkarımı ve Ortak Referans** programme. Its new purpose and two interpretation/shared-understanding risks are preserved in `concepts/CHARTER.md`, with source user messages in `concepts/ORIGIN.md`. The extraction phase preserves source use, prior research commentary and new interpretation separately; later local-reference acceptance does not rewrite those sources. This programme is not another Foundation ground, architecture authority or agent-control layer. Do not create duplicate study packages or catalogue rows solely for it. Former concepts decisions are not current entry points; preparation and method pilots are not completed extraction or accepted definitions.
