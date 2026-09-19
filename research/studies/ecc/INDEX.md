@@ -4,17 +4,18 @@
 
 | Need | Entry |
 |---|---|
-| Rust recorded evaluation, transactional admission and actual use boundary | [Note17](notes/17-RUST-EVALUATION-REGISTRY-AND-USE.md) → [U10-A sources](evidence/U10-A-SOURCES.md), [MR18](ROUND-U10-A.md); source answer, no live benchmark/deployment |
-| Next Node capsule/replay/receipt framework | [PLAN](PLAN.md) U10-B/Q06d2 → S164/S165 CLI/index and S158 tree; preserve S166 execution refusal; NOT STARTED until STATE activation |
-| Node operator/store/action/message bridge and target binding | [Note16](notes/16-NODE-OPERATOR-BRIDGE-AND-TARGET-BINDING.md) → [U09-B sources](evidence/U09-B-SOURCES.md), [MR17](ROUND-U09-B.md); bounded source answer, no new execution |
-| Rust attempt ownership/revocation and bounded lifecycle closure | [Note15](notes/15-EXECUTION-ATTEMPT-OWNERSHIP-AND-REVOCATION.md) → [A3 sources](evidence/U09-A3-SOURCES.md), [MR16](ROUND-U09-A3.md); source schedules are not executed incidents |
+| Node offline capsules, replay, receipt scope and report-only grouping | [Note18](notes/18-OFFLINE-CAPSULES-REPLAY-AND-RECEIPT-SCOPE.md) → [U10-B sources](evidence/U10-B-SOURCES.md), [MR19](ROUND-U10-B.md); source answer, no executed test/candidate |
+| Next native review caller and outer human decision | [PLAN](PLAN.md) U11-A/Q04h → S23 workflows README / S167 native pilot; NOT STARTED until STATE activation |
+| Rust recorded evaluation, transactional admission and actual use boundary | [Note17](notes/17-RUST-EVALUATION-REGISTRY-AND-USE.md) → [U10-A sources](evidence/U10-A-SOURCES.md), [MR18](ROUND-U10-A.md); no live benchmark/deployment |
+| Node operator/store/action/message bridge and target binding | [Note16](notes/16-NODE-OPERATOR-BRIDGE-AND-TARGET-BINDING.md) → [U09-B sources](evidence/U09-B-SOURCES.md), [MR17](ROUND-U09-B.md) |
+| Rust attempt ownership/revocation and bounded lifecycle closure | [Note15](notes/15-EXECUTION-ATTEMPT-OWNERSHIP-AND-REVOCATION.md) → [A3 sources](evidence/U09-A3-SOURCES.md), [MR16](ROUND-U09-A3.md); source schedules, not incidents |
 | Rust storage/observer/worktree continuity | [Note14](notes/14-STORE-OBSERVER-AND-WORKTREE-CONTINUITY.md) → [A2 sources](evidence/U09-A2-SOURCES.md), [E07](evidence/u09-a2-sql-git-probe/README.md), [MR15](ROUND-U09-A2.md) |
 | Rust command/record/runner/stop/resume/daemon | [Note13](notes/13-RUST-SESSION-LIFECYCLE-FIRST-SLICE.md) → [first Rust sources](evidence/U09-A-SOURCES.md), [MR14](ROUND-U09-A.md) |
-| Stronger runtime, target/recipient/algorithm and registry-evidence/deployment claims | [QUESTIONS](QUESTIONS.md) Q04g1c/Q04g2b/Q06d1b; not certified by source closure |
+| Stronger runtime, target, evidence, witness and deployment claims | [QUESTIONS](QUESTIONS.md) Q04g1c/Q04g2b/Q06d1b/Q06d2b; not certified by source closure |
 | Plan Canvas feedback/review/continuation | [Note12](notes/12-PLAN-CANVAS-FEEDBACK-AND-CONTINUATION.md) → [U08-A sources](evidence/U08-A-SOURCES.md), [MR13](ROUND-U08-A.md) |
 | Historical U08-A interruption and excluded E06 | [Recovery record](RECOVERY-U08-A-20260918.md) → [quarantine/checks](evidence/u08-a-recovery/README.md), [recovery publication](PUBLICATION-U08-A-RECOVERY.md) |
 | Purpose, pin and reuse | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
-| Material-family coverage | [U07-A map](inventory/U07-A-FAMILY-MAP.md) → [sources](evidence/U07-A-SOURCES.md), [MR12](ROUND-U07-A.md) |
+| Material-family coverage and native review entry | [U07-A map](inventory/U07-A-FAMILY-MAP.md) → [sources](evidence/U07-A-SOURCES.md), [MR12](ROUND-U07-A.md); pass-time next labels are historical |
 | Sequence and questions | [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md) |
 | Governance events/persistence/decision | [Note11](notes/11-GOVERNANCE-EVENTS-PERSISTENCE-AND-DECISION.md) → [U06-C sources](evidence/U06-C-SOURCES.md), [MR11](ROUND-U06-C.md) |
 | Fact-forcing/state/composition | [Note10](notes/10-FACT-FORCING-STATE-AND-DECISION-COMPOSITION.md) → [U06-B sources](evidence/U06-B-SOURCES.md), [MR10](ROUND-U06-B.md) |
@@ -30,9 +31,9 @@
 | Initial surfaces/cache | [Note01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md), [E01](evidence/u01-a-cache-probe/README.md) |
 | Older master histories through U03-B | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later unit ledgers/rounds continue separately |
 | Historical inventory/frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md); U07-A adds dispositions |
-| Current publication | STATE links the actual receipt after checks; source completion and publication completion remain distinct |
-| Earlier publication | [U09-B](PUBLICATION-U09-B.md), [U09-A3/retry](PUBLICATION-U09-A3.md), [U09-A2](PUBLICATION-U09-A2.md), [U09-A first slice](PUBLICATION-U09-A.md), [U08-A](PUBLICATION-U08-A.md), [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
+| Current publication | STATE links the actual receipt after checks; source completion and publication completion are distinct |
+| Earlier publication | [U10-A](PUBLICATION-U10-A.md), [U09-B](PUBLICATION-U09-B.md), [U09-A3/retry](PUBLICATION-U09-A3.md), [U09-A2](PUBLICATION-U09-A2.md), [U09-A first slice](PUBLICATION-U09-A.md), [U08-A](PUBLICATION-U08-A.md), [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
 
-Note17 answers the recorded-evidence-to-registry/use question with source-level rejection, health and audit boundaries; it is not a live trial or automatic deployment loop. Note16 and Notes13–15 preserve the Node bridge and Rust lifecycle answers. Stronger Q04g1c/Q04g2b/Q06d1b claims remain open. Separate Node evaluation and broad orchestration are not completed. No source comparison is an E08 result; E04/E07 retain their own evidence, E06 stays excluded and both E05 histories separate.
+Note18 answers the offline evidence/consumer question, not a live evaluator or deployment loop. Note17 and earlier Node/Rust bridges retain their independent scopes. A valid record prefix, full witnessed history, restored effect, authenticated witness, task success and adopted behavior are distinct. The explicitly refused gate is not enabled by a receipt or a test. No source comparison is E08; E04/E07 retain their original limits, E06 excluded and both E05 histories separate.
 
-Comprehensive joint evaluation remains after completed research; no whole-system synthesis or CORE is claimed. META owns reuse, STATE current work, PLAN sequence, QUESTIONS research obligations, ledgers source coverage, rounds method history and receipts publication correspondence. These are project-work surfaces, not agent-control.
+META owns reuse, STATE current work, PLAN sequencing, QUESTIONS obligations, ledgers source coverage, rounds method history and receipts publication correspondence. Native synthesis/CORE, broader orchestration/hosts/releases and joint comprehensive evaluation remain unfinished. These are research-work files, not agent-control.
