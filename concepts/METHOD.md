@@ -1,6 +1,6 @@
 # Concepts — Çalışma yöntemi
 
-Sürüm: v0.1-draft, 2026-09-19. Statü: iki konuşma içi denemede sınanacak taslak; doğrulanmış yöntem değil. Amaç CHARTER.md, kaynak talep ORIGIN.md, güncel aşama/yetki STATE.md, yürütme sırası PLAN.md içindedir. Bu proje yöntemidir; agent-control kaynağı AGENT.md ve tetiklenen protokollerdir.
+Sürüm: v0.2-draft, 2026-09-19. Statü: ilk pilot değerlendirmesiyle açıklığa kavuşturulmuş taslak; revizyon ikinci pilotta sınanacak, genel olarak doğrulanmış yöntem değil. Amaç CHARTER.md, kaynak talep ORIGIN.md, güncel aşama/yetki STATE.md, yürütme sırası PLAN.md içindedir. Bu proje yöntemidir; agent-control kaynağı AGENT.md ve tetiklenen protokollerdir.
 
 ## 1. Çalışmanın birimi ve kapsamı
 
@@ -86,3 +86,29 @@ Bütün araştırmalar için ikinci aşama giriş kontrolü: kapsam sürümü a�
 İkinci aşamada bütün çıkarımlar tam okunur; hangi anlamların ayrılacağı, hangi adların kullanılacağı ve nerede ortak kapsam kurulabileceği değerlendirilir. Örnek, karşı örnek, kapsam dışı durum, komşu kavram ve bağlama bağlı kullanım sınanır. Basitleştirme önemli ayrımları gizleyemez. Kullanıcıya gerekli somut ayrımlar açıklanır; onayı teknik uzman testi sayılmaz. Öneri, sınanmış açıklama, yerel kabul ve hâlâ açık durum ayrı kaydedilir.
 
 İkinci aşamanın ayrıntılı kayıt şeması ilk aşama çıktıları oluşmadan dondurulmaz. Kaynak anlamı hiçbir yerel kabul nedeniyle değiştirilmez; mimari ve uygulama kararı ayrıca yetki/kanıt gerektirir.
+
+## 7. İlk pilotun B2 değerlendirmesi — v0.2 açıklıkları
+
+Bu bölüm ilk pilotun P1-T1/P1-T2/P1-T3 konuşma çıktıları ve kaynak taraflı kontrolünden doğmuştur. Sonradan açıklığa kavuşturulan kayıt yöntemi aynı veride bağımsız doğrulanmış sayılmaz. İlk pilotun kapanışı §5'in önceki koşulları ve kaynakla sınırlı çıkarım amacı üzerinden verilir; bu ek eksikleri gizleyen yeni bir başarı eşiği değildir.
+
+### Kullanım ile ilişki düzenini birlikte korumak
+
+Terim dökümü, araştırmanın kendi ayrımlarını ve ilişkilerini görünmez bırakmamalı. Kaynağın ortaya koyduğu ilişki düzeni kısa bir eşlik eden görünümde, kullanım kayıtlarına ve kaynak noktalarına bağlı tutulur. Bir konu araştırmasının ilişki çerçevesi zorunlu ürün mimarisi değildir; bir ürün araştırması da önceki pilotun şemasına zorlanmaz. Bu görünüm ayrı kalıcı dosya zorunluluğu veya erken araştırmalar-arası sentez yaratmaz.
+
+### Kaynak rolü, açıklama statüsü ve niteleyiciler
+
+Söyleyen/katman ile açıklamanın kesinliği ayrı izlenir. Önceki pilotun A/R gibi birleşik gösterimleri, dış kaynağa atfedilen kısım ile araştırma yazarının genişletmesini ayırmayı gerektirebilir. Yeni açıklama çıkarıcının bağlamsal yorumuyken doğrudan kaynak tanımı gibi yazılmaz. Kaynak yalnız ad sayıyorsa bu da kaydedilebilir; ayrıntılı tanım yokluğu görünür kalır.
+
+Aynı satırda birkaç ad göstermek onların eş anlamlı olduğuna karar vermek değildir. Ayrı işlem veya farklı anlam oldukları kayboluyorsa satır/kullanım ayrılır. Faaliyet, tasarlanan nesne, tekil kayıt ve daha geniş düzen arasında aynı etiketin kullanımı özellikle korunur. Kaynaktaki olasılık, koşul, amaç ve doğrulanmış sonuç ayrımları özetlemede kaybolmaz; bir tasarımın amaçladığı güvenilirlik gözlenmiş başarı gibi sunulmaz.
+
+### Kaynak taraflı kapsam kontrolü ve durma sınırı
+
+Tam okumadan sonra kaynak bölüm, tablo, liste, örnek ve kaynak kayıtlarından döküme geri gidilir. Her ilgili bölümün karşılığı; mevcut kullanım, yeni/ayrılan kullanım, aynı kullanımın tekrarı, yalnız adı geçen kullanım veya açıklayıcı kaynak/örnek metadatası olarak hesabı verilir. Bu bir doğal-dil sözcüklerinin tamamına tanım üretme veya her örnek değerini bağımsız kavramlaştırma işi değildir. Ayrı kayıt gerekmeyen örnek değerleri ve kaynak adları, taşıdıkları teknik ayrım kaybolmadan bağlamında korunur. Bulunan maddi aktarım hataları ve eksikler kapanmadan sonraki pakete geçilmez.
+
+Bir sonraki okuma yalnız terim hakkındaki genel bilgiyi artıracak, mevcut araştırmadaki kullanımın aktarımını değiştirmeyecekse ilk aşamaya eklenmez. Kaynağın tanımlamadığı/belirsiz bıraktığı kullanımı bu statüsüyle kaydetmek geçerli sonuçtur; bunu sırf belirsizlik var diye derin araştırma borcuna çevirme. Aynı biçimde kaynakta açıkça açıklanan bir şeyi atlamayı bu ilkeyle mazur gösterme.
+
+Kapanış, incelenen dosya/sürüm kapsamında bağlamlı aktarımın yeterliliği hükmüdür; sektörün bütün kavramlarının çözümü veya hatasız/evrensel eksiksizlik sertifikası değildir. Sonradan somut atlama veya anlam bozulması bulunursa ilgili kayıt yeniden açılır; soyut biçimde daha fazlası olabilir diye bütün paketi sürekli açık tutma.
+
+### Denemeler arasında taşınacak sınama
+
+İkinci pilot v0.2-draft'ı farklı araştırma düzeninde sınar. Özellikle atıf–yorum ayrımı, aynı adın farklı kullanımını koruma, kaynak-içi ilişki görünümü, dosya kapsamı ve kapanış sınırı gözlenir. İlk pilotun iyi görünen çıktısı ikinci pilotun başarı kanıtı değildir. Gerçek yeni-oturum deneyi ve bağımsız aktör incelemesi yapılmış sayılmaz. Pilot içerikleri hâlâ konuşmada kalır; mevcut durum/yöntem kayıtlarını güncellemek kalıcı terim envanteri başlatmaz.
