@@ -10,7 +10,7 @@ Foundation relevance below is a retrieval hint only. It does not assign a study 
 
 ## Related programme outside this catalogue
 
-For term-use research, cross-concept comparisons or shared conversational meanings, enter [`concepts/INDEX.md`](../../concepts/INDEX.md) → [`concepts/STATE.md`](../../concepts/STATE.md). This is a separately authorised programme, not an additional study row. Existing studies remain here and are selectively referenced; their findings and statuses are not rewritten by a common-use choice. Preparation does not imply accepted definitions.
+The term-extraction and shared-reference programme restarted on 2026-09-19 is reached through [`concepts/INDEX.md`](../../concepts/INDEX.md) and its full cold-start route. Current phase, authority and uncompleted work belong to [`concepts/STATE.md`](../../concepts/STATE.md). First, each studies research package is fully read and its term/jargon uses are extracted in its own context; only after all scoped extraction is complete are the outputs read together for shared-reference assessment. Preparation and two conversation-only method pilots are distinct from completed extraction or accepted definitions. This programme is not an additional study row. Existing research, source meaning, findings and statuses remain unchanged; the former concepts method is not a continuation point.
 
 ## Catalog
 
