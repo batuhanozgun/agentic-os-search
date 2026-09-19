@@ -1,28 +1,28 @@
 # Concepts — Hazırlık ve yürütme planları
 
-Sürüm: v0.2-draft, 2026-09-19. Amaç onaylı; ayrıntılı yöntem pilotlarla sınanır. Güncel tamamlanma/yetki yalnız STATE.md'dedir. Bu plan eski concepts çalışmasının devamı değildir. Kaynak yetki ORIGIN.md/U01–U05 ve sonraki devam/kapsam açıklamaları; gerekçe CHARTER.md.
+Sürüm: v0.3-working, 2026-09-19. B1/B2 ve B3/B4 tamamlandı; seri çıkarım hazırlığı sıradadır. Güncel tamamlanma/yetki yalnız STATE.md'dedir. Bu plan eski concepts çalışmasının devamı değildir. Kaynak yetki ORIGIN.md/U01–U05 ve sonraki devam/kapsam açıklamaları; gerekçe CHARTER.md. İki pilotun tamamlanması ortak terim tanımı, bağımsız yöntem doğrulaması veya mimari kabul değildir.
 
 ## Plan A — Repo hazırlığı
 
-Bu bölüm hazırlanmış düzenin plan kaydıdır; tekrar yürütme talimatı değildir. Gerçek durum ve yeniden açmayı gerektiren değişiklik varsa STATE.md'den alınır.
+Bu bölüm hazırlanmış düzenin tarihsel plan kaydıdır; tekrar yürütme talimatı değildir. Gerçek durum ve yeniden açmayı gerektiren değişiklik varsa STATE.md'den alınır.
 
 ### A1. Yeni başlangıcı ve kapsamı kaydet
 
-ORIGIN.md kaynak kullanıcı mesajlarını, CHARTER.md amaç ve iki riskin nedenlerini taşır. METHOD.md ve bu plan taslak statüsünde kalır. STATE.md hazır olanla yapılmamış işi ayırır; INDEX.md yeni oturum girişidir.
+ORIGIN.md kaynak kullanıcı mesajlarını, CHARTER.md amaç ve iki riskin nedenlerini taşır. Hazırlıkta METHOD.md ve bu plan taslak statüsündeydi. STATE.md hazır olanla yapılmamış işi ayırır; INDEX.md yeni oturum girişidir.
 
-Son kullanıcı talebiyle hazırlık şimdi kalıcılaştırılır. Bu, ilk taslaktaki bütün yazıları denemeler sonrasına bırakma sırasının yalnız hazırlık bakımından değişmesidir; iki deneme, yöntem değerlendirmeleri ve seri çıkarımın daha sonra başlaması korunur. Hazırlık yazma yetkisi, yapılmamış denemeyi tamamlandı işaretleme yetkisi değildir.
+U05 talebiyle hazırlığın pilotlardan önce kalıcılaştırılması yetkilendirildi. Bu, ilk taslaktaki bütün yazıları denemeler sonrasına bırakma sırasının yalnız hazırlık bakımından değişmesiydi; iki deneme, yöntem değerlendirmeleri ve seri çıkarımın daha sonra başlaması korundu. Hazırlık yazma yetkisi, yapılmamış denemeyi tamamlandı işaretleme yetkisi değildi.
 
 ### A2. Eski etkin yönlendirmeleri kaldır
 
-Değişiklik kapsamı: README.md; research/INDEX.md; research/studies/INDEX.md; research/studies/CATALOG.md; research/studies/PACKAGE-CONTRACT.md içindeki concepts bölümleri. Araştırma satırları, bulguları, mevcut araştırma yetkileri ve paket durumları bu nedenle değiştirilmez.
+Hazırlık değişiklik kapsamı: README.md; research/INDEX.md; research/studies/INDEX.md; research/studies/CATALOG.md; research/studies/PACKAGE-CONTRACT.md içindeki concepts bölümleri. Araştırma satırları, bulguları, mevcut araştırma yetkileri ve paket durumları bu nedenle değiştirilmez.
 
-Kontrol değişikliği yalnız concepts için: AGENT.md'de R09 sorusunun bu ayrı programı açıkça kapsaması; agent/protocols/candidate-research-library.md içindeki concepts istisnasının yeni aşama sırası, iki riskin görünürlüğü ve giriş okumalarıyla uyumlandırılması. Genel candidate-study kuralları ve R01–R08 korunur. Kontrol dosyaları değiştikten sonra canonical sürümleri yeniden okunur.
+Kontrol değişikliği yalnız concepts için yapılmıştı: AGENT.md'de R09 sorusunun bu ayrı programı açıkça kapsaması; agent/protocols/candidate-research-library.md içindeki concepts istisnasının yeni aşama sırası, iki riskin görünürlüğü ve giriş okumalarıyla uyumlandırılması. Genel candidate-study kuralları ve R01–R08 korundu. Bu tarihsel kayıt yeni kontrol mutation'ı yetkilendirmez.
 
 Eski concepts dosyaları geri getirilmez. Araştırmalardaki aynı adlı dış dosyalar veya sözcükler topluca silinmez. Tarihsel konuşma/kanıt kayıtları, zaten tarihsel statüleri korunarak bırakılır; güncel yöntemin kaynağı sayılmaz. Başlangıç taraması ve koruma sınırı SETUP-REVIEW.md'de raporlanır.
 
 ### A3. Yayın ve devralma kontrolü
 
-Mevcut main üzerinde SHA kontrollü, sınırlı dosya güncellemeleri kullanılır; yeni branch veya geçmişi yeniden yazma yoktur. Eşzamanlı değişiklik varsa son içerik geri kazanılmadan üstüne yazılmaz. Yeni çalışma dosyaları önce, onları gösteren router'lar sonra yayınlanır. Kesinti varsa STATE hazırlığı tamamlandı göstermez.
+Mevcut main üzerinde SHA kontrollü, sınırlı dosya güncellemeleri kullanılır; yeni branch veya geçmişi yeniden yazma yoktur. Eşzamanlı değişiklik varsa son içerik geri kazanılmadan üstüne yazılmaz. Yeni çalışma dosyaları giriş yönlendirmelerinden önce yayınlanır. Kesinti varsa STATE hazırlığı tamamlandı göstermez.
 
 Son karşılaştırmada yalnız izin verilen dosyaların değiştiği; eski etkin yöntem parçalarının kaldırıldığı; yeni bağlantıların çözüldüğü; amaç/taslak/yetki/durum ayrımlarının tutarlı olduğu kontrol edilir. Bu inceleme statik ve aynı assistant tarafından yapılan bir kontroldür; gerçek yeni-oturum davranış başarısı veya bağımsız doğrulama değildir.
 
@@ -30,40 +30,51 @@ Son karşılaştırmada yalnız izin verilen dosyaların değiştiği; eski etki
 
 | Adım | Yapılacak iş | Çıkış koşulu |
 |---|---|---|
-| B1 — İlk deneme | research/studies/context-memory-harness-engineering araştırmasının güncel dosya envanterini çıkar; paket girişlerini ve tüm araştırma dosyalarını oku; kullanımları sohbet içinde göster. | Dosya/temsil kapsamı açık; kullanım ve yorum izleri görünür; pilot tamamlanma iddiası kapsamı aşmıyor. |
-| B2 — İlk değerlendirme | Şema, kaynak atfı, belirsizlik, okuma devamı, eski-yeni yorum ilişkisi ve kullanıcıya açıklanabilirliği değerlendir. | Ne değişti/ne korunuyor ve neden belli; başarısız ölçütler silinmemiş. |
-| B3 — İkinci deneme | research/studies/superpowers araştırmasında revize yöntemi aynı disiplinle, yine sohbet içinde uygula. | İlk pilota göre farklı korpusta sınama; sentez tekrarları bağımsız destek sayılmıyor; gereken tüm okumalar tamamlanmış. |
-| B4 — İkinci değerlendirme | Yöntemi yeniden değerlendir, gerekli değişiklikleri yap; kalıcı çıkarım dosya düzenini kesinleştir. | İki pilotun gerçek sonucu ve yöntem değişiklikleri erişilebilir; görülmeyen pilot veya sonraki değişmiş yöntem doğrulanmış sayılmıyor. |
-| B5 — Seri çıkarım hazırlığı | Studies'in gerçek paket/dosya envanterini tamamla; koleksiyon/alt çalışma/taşınma ilişkilerini kaydet; kaynak sürümü ve güncelleme takibini kur. | Katalogla yetinilmeyen kapsama ve net sıraya sahip başlangıç. |
-| B6 — Araştırma bazında çıkarım | Her araştırmayı tam okuyarak concepts/studies/<araştırma-yolu>/ içinde kullanımları ve okuma/yorum değişimlerini kaydet. | Tüm paketler hesaba katılmış; kaynaklar, okumalar, belirsizlikler ve delta kontrolleri açık. |
-| B7 — Küresel geçiş kontrolü | Yeni/değişmiş/okunamamış kapsamı kontrol et; bütün çıkarımların birlikte okunmaya hazır olup olmadığını değerlendir. | METHOD §5 koşulları karşılanmış; tamamlanmamış kapsam sessizce kapatılmamış. |
-| B8 — Ortak değerlendirme | Concepts çıkarımlarının tamamını oku; anlamları/sınırları ayır; gerekirse alt kavram ve ad öner; örnek/karşı örnekle yerel ortak anlayışı sınayarak referans üret. | Kaynak kullanımından ayrı, gerekçeli ve sınırları açık yerel referans; çözülmeyen ayrımlar görünür. |
+| B1 — İlk deneme | research/studies/context-memory-harness-engineering araştırmasının gerçek dosya envanteri ve tam okuması; kullanımları sohbet içinde gösterme. | Dosya/temsil kapsamı açık; kullanım ve yorum izleri görünür; kapanış kapsamı aşmıyor. |
+| B2 — İlk değerlendirme | Şema, kaynak atfı, belirsizlik, okuma devamı, eski-yeni yorum ilişkisi ve kullanıcıya açıklanabilirliği değerlendirme. | Ne değişti/ne korunuyor ve neden belli; başarısız ölçütler silinmemiş. |
+| B3 — İkinci deneme | research/studies/superpowers araştırmasında yöntemi aynı disiplinle, sohbet içinde uygulama. | Farklı korpusta sınama; gereken tüm okumalar ve kaynak tarafından kullanım kapsamı kontrolü tamamlanmış. |
+| B4 — İkinci değerlendirme | Yöntemi yeniden değerlendirme, gerekli değişiklikler ve kalıcı çıkarım düzeni kararı. | Gerçek pilot sonuçları ve yöntem dersleri devralınabilir; sonraki değişmiş yöntem geriye dönük bağımsız doğrulanmış sayılmıyor. |
+| B5 — Seri çıkarım hazırlığı | Studies'in gerçek paket/dosya envanteri, koleksiyon/alt çalışma/taşınma ilişkileri ve güncelleme takibi; concepts/SCOPE.md oluşturma. | Katalogla yetinilmeyen kaynak-sürümlü kapsam ve net sıra. |
+| B6 — Araştırma bazında çıkarım | Her araştırmayı tam okuyarak concepts/studies/<araştırma-yolu>/ içinde kullanımları ve okuma/yorum değişimlerini kaydetme. | Tüm paketler hesaba katılmış; kaynaklar, okumalar, belirsizlikler ve delta kontrolleri açık. |
+| B7 — Küresel geçiş kontrolü | Yeni/değişmiş/okunamamış kapsamı kontrol etme; bütün çıkarımların ortak okumaya hazır olup olmadığını değerlendirme. | METHOD §5 koşulları karşılanmış; tamamlanmamış kapsam sessizce kapatılmamış. |
+| B8 — Ortak değerlendirme | Bütün concepts çıkarımlarını okuma; anlam/sınırları ayırma, gerekirse alt kavram ve ad önerme; örnek/karşı örnekle referansı sınama. | Kaynak kullanımından ayrı, gerekçeli ve sınırları açık yerel referans; çözülmeyen ayrımlar görünür. |
 
-B1/B3 paket seçimleri bu konuşmadaki taslakta önerildi ve çalışma sırası olarak benimsendi; kaynakların tanımlarının doğru kabulü değildir. Pilot sırasında daha uygun bir yöntem veya kapsam ihtiyacı ortaya çıkarsa gerekçeli revizyon mümkündür; iki farklı araştırmada sınama sessizce atlanmaz.
+B1/B3 paket seçimleri bu konuşmada çalışma sırası olarak benimsendi; kaynakların tanımlarının doğru kabulü değildir. Her iki pilot kendi kaynak kapsamıyla kapandı; bu, diğer araştırmaların çıkarımına veya ortak sözlüğe ilişkin tamamlanma değildir.
 
-## Pilotların yürütme sınırı
+## Pilotların statüsü ve aktarım sınırı
 
-Pilot bir tura sığmak zorunda değildir. Tamamlanmadan sıradaki pilota geçilmez; yalnız küçük bir örnek gösterip bütün araştırmada yöntem sınandı denmez. Pilot terim çıktıları sohbet içinde kalır; hazırlık dosyalarının oluşturulması kalıcı TERMS üretimini başlatmaz.
+Pilotlar tek tura zorlanmadı. İlk pilot sekiz dosyada P1-T1–T3, ikinci pilot 52 dosyada P2-T1–T5 boyunca yürütüldü. İkinci pilotun son turu yeni bir ürün araştırması değil, kaynak tarafından döküme kontrol, ekler ve B4 değerlendirmesidir. Ayrıntılı okuma ve yayın kayıtları STATE'in değişmez checkpoint bağlantılarındadır.
 
-Mevcut STATE/PLAN/METHOD yüzeylerine durum ve yöntem değişikliği kaydetmek, pilot kullanım envanterini doğrulanmış kalıcı referansa yükseltmek değildir. Yeni oturuma geçilirse görünür pilot sonucu erişilebilir değilken hafızadan devam/tamamlanma üretilmez: gerekli kaynak ve sonuç yeniden geri kazanılır; gerekirse ilgili okuma tekrarlanır. Kalıcı seri çıkarıma aktarım, pilot kayıtlarının yeniden kaynağa karşı kontrolünden sonra olur.
+Pilotların özgün terim çıktıları sohbet içinde kalır. Mevcut STATE/PLAN/METHOD yüzeylerine durum ve yöntem değişikliği kaydetmek, kalıcı TERMS üretimini başlatmaz. Yeni oturumda görünür sonuç erişilemiyorsa STATE özetinden terim listesi uydurulmaz; gereken içerik sabit kaynaktan yeniden çıkarılır ve bu yeniden üretim olarak belirtilir.
 
-İki pilot farklı çalışma düzenlerini sınar; iki çalışmadan ortak terim tanımları üretme aşaması değildir. B8 bütün çalışmaların çıkarımı bitmeden başlayamaz. B8'in ayrıntılı kayıt düzeni şimdiden dondurulmaz.
+Kalıcı aktarım B6'da kaynak sürümü ve bütün pilot ek/düzeltmeleriyle birlikte kontrol edilerek yapılır. Erişilebilir, değişmemiş ve gerçekten okunmuş içerik sırf yeni aşamaya geçildi diye mekanik olarak yeniden araştırılmaz. Aktarım yapılmadan kalıcı dosya var veya seri çıkarım tamamlandı denmez.
 
-## Taslak değerlendirme ölçütleri
+İki pilot farklı çalışma düzenlerini sınadı; iki çalışmadan ortak terim tanımları üretmedi. B8 bütün kapsamın çıkarımı ve B7 bitmeden başlayamaz. B8'in ayrıntılı kayıt düzeni şimdiden dondurulmaz.
 
-Kaynak tarafındaki okumadan çıkarıma geri kontrol: atlanan jargon/kullanım; özgün anlamın yorumla karışması; eşit olmayan anlamların birleştirilmesi; aynı kaynağın tekrarının bağımsız delil sayılması; değişen yorumun eski kayıtlara yayılmaması; kullanıcıya basitleştirirken ayrım kaybı; yeni oturumda belirsizlik veya devam noktası kaybı. Terim sayısı tek başına başarı değildir.
+## B5'in somut işi ve kalıcı düzen
 
-Bu ölçütler sonucu kolaylaştırmak için sonradan sessizce değiştirilmez. Pilot bulguları yöntem revizyonu için kullanılabilir; aynı veri, revize yöntemin bağımsız doğrulaması sayılmaz.
+1. Güncel research/studies/ ağacını ve katalogu birlikte kontrol et. Her fiziksel dosya, paket ve iç içe çalışma kapsam hesabına girer; klasör adına bakarak bağımsız araştırma varsayılmaz.
+2. concepts/SCOPE.md içinde kaynak ref'i, paket yollarını, koleksiyon/alt çalışma/taşınma ilişkilerini, kendi araştırma durumlarını ve concepts çıkarım durumlarını ayrı kaydet. Planlı araştırma, mevcut dosya okuması ve bitmiş dış yapı bilgisi aynı durum değildir.
+3. Pilot kaynak sürümleri ile yeni main arasındaki ilgili değişiklikleri çıkar. Yeni/değişmiş içerik pilotların eski kayıtlarına sessizce eklenmez; hangi kayıtların yeniden değerlendirilmesi gerektiği belirlenir.
+4. İş sırasını kaynak ilişkileri ve mevcut kapsamla belirle. Salt popüler terim veya hazır ürün listesi başlangıç filtresi yapılmaz. B5'in envanteri henüz B6'nın bütün paketlerinin tam okuması sayılmaz.
+5. B6'da her paket için READING.md ve TERMS.md oluştur. READING dosya/sürüm/okuma/kapsam kontrolünü; TERMS kullanım/sınır/kaynak/yorum değişimini ve kısa ilişki görünümünü taşır. Büyürse parçalar giriş dosyasına bağlı bölünür. Global STATE bu kayıtları tekrarlamaz; aktif iş ve devam yolunu gösterir.
 
-## B2'den ikinci pilota taşınan yöntem açıklıkları
+Bu yerleşim kararı B4 sonucudur; SCOPE veya araştırma bazlı dosyalar B4 turunda oluşturulmadı. B5/B6 mevcut kullanıcı planının yetkili devamıdır; aynı amacın tekrar onaylatılması gerekmez. Maddi amaç/kapsam/aşama değişikliği ayrıca değerlendirilir. Genel tanım araştırması, dış ürün kurulumu, canlı deney, mimari/adoption ve kontrol katmanı değişikliği bu yetkiye dahil değildir.
 
-METHOD v0.2-draft §7, ilk pilotta gözlenen eksik aktarım/yoğunlaştırma sorunlarını ve kullanıcının kaynakla sınırlı derinlik açıklamasını taşır. B3'te kaynak rolü ile yeni yorumun ayrılığı, aynı adın farklı kullanımı, niteleyiciler, kullanım–ilişki beraberliği ve kaynak taraflı kapsam hesabı özellikle sınanır. Kaynağın yalnız adını verdiği şey, bağımsız genel tanım araştırmasına çevrilmez; kaynakta gerçekten açıklanmış bir kullanım da atlanmaz.
+## Değerlendirme ölçütleri ve B4 sonucu
 
-B1/B2 kapanışı, bütün concepts çalışmasının veya yöntemin genel doğrulanması değildir. İlk paket başka araştırmalara hazır kavram şeması olarak taşınmaz. B3'ün gerçek dosya envanteri, current META/STATE/INDEX ve gerekli okumaları yeniden kendi kaynağından kurulur. Eski Superpowers META okuması ikinci pilotun yapılmış olması anlamına gelmez. Yeni terim dosyası, kalıcı seri çıkarım veya ortak referans aşaması bu ekle başlamaz.
+Değişmeyen ölçütler: kaynak tarafındaki okumadan çıkarıma geri kontrol; atlanan jargon/kullanım; özgün anlamın yorumla karışması; eşit olmayan anlamların birleştirilmesi; aynı kaynağın tekrarının bağımsız delil sayılması; değişen yorumun ilgili kayıtlara yayılmaması; basitleştirmede ayrım kaybı; yeni oturumda belirsizlik veya devam noktası kaybı. Terim sayısı tek başına başarı değildir.
+
+P2-T5, ana ilişki düzenini korurken bazı kapsam açıklıklarını ve daha az görünür teknik adları ekledi. Bootstrap istisnası, hook/registration ayrımı ve SDD'ye özgü alt aktör kuralı ilgili aktör/rota sınırıyla korundu. Dosya/alan adı, ürün/bağımlılık adı, araştırma dili ve yalnız adlandırılmış fakat genel tanımı verilmemiş kullanımlar ayrı ele alındı. Bu, bütün kavramların çözüldüğü iddiası değildir.
+
+METHOD §8 dört uygulama açıklığını taşır: kaynak rolü ile ifade niteliği; farklı kullanımların ayrı adreslenmesi; etiketin nitelediği nesne/koşul; yalnız adı geçen içeriğin kapsam hesabı. V0.3-working seri çıkarımda kullanılacak başlangıçtır; aynı pilotlar onu bağımsız doğrulamış sayılmaz. Yeni bir üçüncü pilot veya evrensel ontoloji çalışması açılmadı.
+
+Sohbet içi kayıtlar çok turlu ve parçalıydı; bu pilotların bilinçli sınırıydı. Seri aşamada kaynakla bağlı kalıcı kullanım dosyaları ve yerel okuma kaydı seçilmesinin nedeni bu devralma yükünü azaltmaktır. Dosya yerleşimi gerçek yeni-oturum başarısı, insan teknik incelemesi veya drift'in ortadan kalktığına dair deney yerine geçmez.
 
 ## Revizyon kaydı
 
 - R0, 2026-09-19: U01 sonrası iki taslak plan ve iki farklı araştırmada konuşma içi deneme sırası.
 - R1, 2026-09-19: U04 sonrası yorum izi/okuma izi ayrımı, iki nedenin her tur görünürlüğü ve kullanıcının teknik oracle olmaması gereksinimleri.
-- R2, 2026-09-19: U05 ile repo hazırlığı şimdi yetkili; yöntem taslak, pilotlar bekliyor. Eski etkin yönlendirmeler kaldırılarak yeni oturum yolu kuruluyor. Bu kayıtlar konuşma konsolidasyonudur; gerçekleştirilmiş pilot bulgusu değildir.
-- R3, 2026-09-19: P1-T3/B2 ile ilk pilotun kaynak-içi ekleri, farklı kullanım/nesne ayrımları ve niteleyici düzeltmesi değerlendirildi. METHOD v0.2-draft'a kullanım–ilişki beraberliği, ayrı kaynak/yorum statüleri, kaynak bölümünden döküme kapsam hesabı ve kaynakla sınırlı durma ölçütünün uygulama açıklıkları eklendi. Aşama sırası değişmedi; revizyon ikinci pilotta sınanacak, ilk veride bağımsız doğrulanmış sayılmıyor.
+- R2, 2026-09-19: U05 ile repo hazırlığı pilotlardan önce yetkilendirildi; o checkpoint'te yöntem taslak, pilotlar bekliyordu. Eski etkin yönlendirmeler kaldırıldı. Bu tarihsel durum yeni next değildir.
+- R3, 2026-09-19: P1-T3/B2 ile kullanım–ilişki beraberliği, kaynak/yorum statüleri, niteleyiciler, kaynak tarafından kapsam hesabı ve kaynakla sınırlı durma ölçütü v0.2-draft'a eklendi.
+- R4, 2026-09-19: P2-T5/B4 ile ikinci pilotun 52 dosyalık kaynak kapsamı kontrolü kapatıldı; METHOD v0.3-working ve kalıcı SCOPE/READING/TERMS düzeni seçildi. B5 sıradadır; kalıcı terim envanteri ve ortak referans başlamadı. Bu karar, yöntem değişikliklerinin bağımsız doğrulandığı veya kullanıcı tarafından ayrıca teknik olarak onaylandığı iddiası değildir.
