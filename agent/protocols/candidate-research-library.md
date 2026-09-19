@@ -28,13 +28,24 @@ Bir candidate study'nin mevcut olması onun Foundation altında bir düğüm, SO
 
 Yeni bir durable araştırma bu iki özel sınıfa açıkça ait değilse, aksi ayrıca kararlaştırılmadıkça `research/studies/**` altında candidate study olarak konumlandırılır.
 
-### Ayrı yetkilendirilmiş kavram programı — yerleştirme ve geri çağırma istisnası
+### Ayrı yetkilendirilmiş concepts çalışması — 2026-09-19 yeni başlangıç
 
-Kullanıcının ayrıca yetkilendirdiği terim kullanımı araştırması → kavramlar arası değerlendirme → ortak iletişim referansı programı repository kökündeki `concepts/**` alanında tutulur. İlgili soruda `README.md → concepts/INDEX.md → concepts/STATE.md` yoluyla programın amacını, yöntemini, güncel iş/yetkisini ve gereken araştırma/sentez/referans derinliğini geri kazan. Hazırlık veya öneri, kabul edilmiş ortak anlam gibi okunmaz.
+Bu bölüm, kullanıcının ayrıca yetkilendirdiği araştırma bazında terim/jargon çıkarımı ve daha sonraki ortak referans çalışmasına özgüdür. Eski concepts programının yöntem, tanım, sınıflandırma veya ilerleme kararlarını yeni çalışmanın başlangıcı sayma. Güncel amaç ve yetkiyi `README.md → concepts/INDEX.md → concepts/STATE.md` yoluyla geri kazan. Yeni oturumda INDEX'in belirttiği CHARTER, ORIGIN, METHOD, PLAN ve SETUP-REVIEW dosyalarını tam oku; eski sohbet hafızası bu okumaların yerine geçmez. Bunlar proje kaynakları/durumu/yöntemidir, bağımsız agent-control dosyaları değildir.
 
-Bu programın tekil dosyalarını sırf konu/kavram araştırması oldukları için candidate study sayıp `research/studies/**` altına taşıma; ikinci META, study satırı veya kaynak kopyası oluşturma. Bu dar istisna, sıradan teknik/mekanizma araştırmalarını yeniden sınıflandırmaz. Mevcut studies yerinde kalır; kavram programı gerektiğinde CATALOG → META → ayrıntılı bulgu/kaynak yolunu kullanır. Yerel source-use kayıtları ve ortak kullanım kararları birbirinden ayrı korunur.
+Yetkilendirilmiş iki aşamayı koru: önce research/studies altındaki her araştırmayı kendi bağlamında tam okuyarak kullanım çıkarımı; bütün kapsamın çıkarımı tamamlandıktan sonra çıktıların tamamını okuyarak ortak değerlendirme. İlk aşamayı genel terim araştırmasına veya erken ortak tanım kabulüne dönüştürme. Mevcut pilot ve hazırlık sınırlarını STATE'den al; hazırlık yazımı yapılmamış iki konuşma içi pilotu tamamlanmış sayma veya yöntem sınamasını atlama yetkisi değildir. Seri çıkarımda araştırma bazlı ayrı kayıtlar concepts/studies altında tutulur; gerçek dosya/sürüm kapsamı izlenir. Bu özel tam-okuma işi, aşağıdaki genel seçici-reuse akışıyla daraltılmaz; bütün korpus her oturuma birden yüklenmek zorunda değildir.
 
-Bu ek yalnız yerleştirme ve geri çağırmayı düzenler. `concepts/**` proje çalışma malzemesidir; agent-control, Foundation veya mimari otoritesi değildir. Genel sözlük dışı kelime yasağı, her tur bütün referansı yükleme yükümlülüğü veya kaynak anlamını ortak tercihle değiştirme yetkisi getirmez. Aşağıdaki candidate-study paket kuralları bu özel program için duplicate kayıt zorunluluğu üretmez; gerçek candidate studies için aynen geçerlidir.
+Her concepts çalışma turunda, routing bloğuna ek olarak nihai cevapta veya başka kalıcı görünür mesajda aşağıdaki iki neden kısa ve açık biçimde hatırlatılmalıdır:
+
+1. Kullanıcı assistant'ın okuma anındaki anlam seçimlerini denetleyemiyor; bu nedenle önemli yorum, dayanak, belirsizlik ve değişiklik görünür/izlenebilir olmalı.
+2. Ortak sözcükler ortak anlamı garanti etmiyor; kullanıcı onayı, kaynağın kullanımı ve assistant yorumu teknik doğruluk bakımından ayrı tutulmalı. Kullanıcı teknik uzman oracle değildir.
+
+O turda maddi yorum değişimi veya belirsizlik oluştuysa somut karşılığını göster. Hatırlatmayı gerçek kontrolün yerine koyma, sorun veya değişiklik uydurma. Görünür gerekçe özeti yeterlidir; ham düşünce dökümü gerekmez. Aynı terimi aynı anlamda kullandığımızı kullanıcının sessizliği veya onayından çıkarma; karar için gereken ayrımı anlaşılır ve somut biçimde açıkla.
+
+Kaynağın açık ifadesi, önceki araştırma yazarının yorumu ve yeni extractor yorumu ayrı tutulur. Okuma izi ile yorum izi aynı değildir. Yeni kanıt önceki yorumu değiştiriyorsa kısa gerekçeyi ve etkilenen kayıtları izle; eski kaydı sessizce düzeltip ona dayanan başka kayıtları yanlış bırakma. Önceki assistant yazarlığı veya kaynak otoritesi yoruma epistemik ayrıcalık vermez. Kullanıcının verdiği açıklayıcı örnekleri başlangıç terim listesi yapma. Kullanıcıdaki karışıklığı sektörün mutlaka tutarsız olduğuna kanıt sayma. Kavramları ayırırken zorunlu tek hiyerarşi, atomik parça şeması veya tamamen ayrık kategoriler dayatma.
+
+Bu programın dosyalarını candidate study diye research/studies altına taşıma; ikinci META, CATALOG satırı veya kaynak kopyası oluşturma. Mevcut studies ve onların current authority'si korunur. Yerel referans kabulü kaynak anlamını, araştırma bulgusunu, Foundation'ı veya mimariyi değiştirmez. Tarihsel metni yeni yönlendirme sanma; fakat özgün kaynakları sırf içinde concepts sözcüğü var diye silme veya yeni anlayışa uydurma.
+
+Bu concepts-özel disiplin, genel sözlük dışı kelime yasağı, her konuda tüm araştırmaları okuma zorunluluğu, kaynakları geriye dönük düzeltme yetkisi veya mimari/adoption izni getirmez. Aşağıdaki candidate-study paket kuralları gerçek studies için aynen geçerlidir; bu program için duplicate kayıt zorunluluğu oluşturmaz. Güncel kullanıcının daha sonraki amaç/yetki değişiklikleri R03/R07/R08 altında ayrıca değerlendirilir; ORIGIN içindeki tarihsel talep tek başına yeni yetki üretmez.
 
 ## Study Type Ayrımı
 
@@ -103,7 +114,7 @@ Mevcut Foundation, SOUL / Development OS design, architecture, implementation, b
 1. önce `research/studies/CATALOG.md` ile adayları daralt;
 2. yalnız ilgili adayların `META.md` dosyalarını oku;
 3. gerekiyorsa package `STATE.md` / `INDEX.md` üzerinden ilgili finding/evidence'e in;
-4. load-bearing claim güncel dış olguya bağlıysa canonical external source'u yeniden doğrula;
+4. load-bearing claim güncel dış olguya bağlıysa canonical external source'a dön;
 5. candidate study'yi mevcut Foundation/current project authority ile birlikte değerlendir;
 6. ilgisiz yüzlerce study'yi körlemesine context'e yükleme.
 
