@@ -1,6 +1,6 @@
 # ECC — Question Register
 
-**Updated:** 2026-09-19 after U11-B. STATE owns publication and activation. Note20 is source analysis; no E09 or new target execution. E08 retains its one adapted review-flow run, E06 remains excluded, E04/E07 and both E05 histories stay separate. Source answers do not establish live security or efficacy.
+**Updated:** 2026-09-19 after U11-C. STATE owns publication and activation. Note21 is source analysis; no E09 or new target execution. E08 retains its one adapted review-flow run, E06 remains excluded, E04/E07 and both E05 histories stay separate. Source answers do not establish live security or efficacy.
 
 | ID / standing | Question / bounded result | Remaining obligation |
 |---|---|---|
@@ -19,11 +19,14 @@
 | Q04b OPEN | Snapshot/SQLite/other ingestion | Explicit writers may bridge; no global absence claim |
 | Q04c OPEN | Import author/assignee and limited-list closure | Source-derived; no remote sync or incident evidence |
 | Q04d BOUNDED U03-B | Worktree/tmux/wrapper/artifact/collector | E03 fake provider; no actual tmux/model/rollback |
-| Q04e PARTIAL, decomposed | Supervision/acceptance/resumption across distinct paths | Scheduling source answer does not complete remote/delegation, addressing, supervision, accepted results or valuable-output retention |
+| Q04e PARTIAL, decomposed | Supervision/acceptance/resumption across distinct paths | Schedule and remote source answers do not complete backlog/team/template control, actual uptake, accepted results or valuable-output retention |
 | Q04e1 BOUNDED SOURCE COMPLETE U11-B | Persistent Rust schedule → due decision → admitted session/runner → schedule advancement | Note20 meets original source criterion; e1a/e1b separate mechanism answer from stronger runtime/authority claims |
 | Q04e1a BOUNDED U11-B | Actual CLI/daemon/timing/queue/store/observer chain | U11B sources: pass-time UTC recurrence, batch vs capacity, queued vs live work, finite exhaustion after admission, separate by-id acknowledgement, batch error/duplicate/removal boundaries; tests inspected only |
 | Q04e1b OPEN | Stronger schedule timing, occurrence ownership and acceptance | Live timing/restart, malformed/migrated rows, filesystem/config/binary correspondence, multi-dispatch isolation, terminal schedules, cancellation, backoff/fairness, durable occurrence/session/result binding and task acceptance |
-| Q04e2 NEXT U11-C | Remote intake → authorized target → stored request → assignment/session → status/result/retry | Actual CLI/HTTP producer and auth/input/target checks; targeted vs top-level routing; failed vs saturated requests; recipient/observer consumer. NOT STARTED until STATE activation |
+| Q04e2 BOUNDED SOURCE COMPLETE U11-C | Remote intake → target/authority → request → assignment/session → status/result/retry | Note21 meets original source criterion through actual HTTP/CLI/store/dispatcher/operator paths; e2a/e2b preserve answer versus stronger guarantees |
+| Q04e2a BOUNDED U11-C | Token/input checks, target lifecycle, delegate reuse and durable dispatch outcomes | U11C sources: acceptance not execution; pre-auth resource use; deletion-to-null/top-level branch; profile/priority propagation limits; failed exclusion vs deferred pending; result identity vs worker acknowledgement. Source only, no E09 |
+| Q04e2b OPEN | Stronger remote authority, delivery and acceptance | Installed HTTP/TLS/proxy/resource behavior; actor/grant/token/target/revision binding; migrated schema; idempotency/concurrency; profile/environment compatibility; full tests and authenticated per-request worker acknowledgement/outcome |
+| Q04e3 NEXT U11-D | Unread handoff/backlog → team routing/rebalancing → acknowledgement/actual consumer | Selected frontier and pressure signals, source read/write ordering, retry/forwarding versus uptake/accepted work; actual recipient/operator path. NOT STARTED until STATE activation |
 | Q04f PARTIAL, decomposed U08-A | Plan Canvas artifact → feedback → session/queue → consumer | Q04f1/f2; source answer is not historical E06 recovery |
 | Q04f1 BOUNDED U08-A | Normal review route plus revision/interruption/end contrasts | Note12/S173–S184 and S163/S122 re-entry; source only |
 | Q04f2 OPEN | Exact revision/actor binding and acknowledged complete consumption | Pre-response drain, ended-session discovery, Stop projection, presence/metadata; actual host, parallel processes and user/model outcomes untested |
@@ -66,9 +69,9 @@
 | Q07c1 BOUNDED U06-C | Classification/emission, explicit SQL insertion/resolution, pending/status | Note11/S141–S151: stderr not table write; field mismatch, mutable upsert, total/list distinction and optional exit signal; source only |
 | Q07c2 OPEN | Actual collector, valid resolution and governed effect | Native payload/phase/session fidelity, capture freshness, authenticated decision and action admission/resume. Plan Canvas is separate; TUI/Node projections, offline receipts and native-review verdicts do not by themselves authenticate approval |
 | Q07d OPEN | Scanner, release and distribution gates | S150/S153/S161 source boundaries/workflow metadata, not release artifacts, actual CI, scanner efficacy or approval receipts; deterministic harness-audit remains a lead; U11-A's declared package-selection boundary is not a pack test |
-| Q08 PARTIAL | Meaning of success/health/progress/confidence/block/no-objection | Prior distinctions retained; Note20 adds batch vs concurrent capacity, last_run_at vs live/completed work, future removal vs revocation, pass error vs rollback and transient outcome vs durable occurrence binding |
+| Q08 PARTIAL | Meaning of success/health/progress/confidence/block/no-objection | Prior distinctions retained; Note21 adds accepted/dispatched/acknowledged work, absent/deleted target, validated/effective profile, request/message priority and failed/deferred continuation |
 | Q09 DEFERRED | Whole-study project-facing evaluation | Then-current Foundation and selected studies; joint discussion after completed research |
-| Q10 PARTIAL MR21 | Focus/fidelity/continuity of method | Source ordering and finite-exhaustion counterpart; no unnecessary fixture; monolithic-source location cost persists; publication correspondence is not independent method efficacy |
+| Q10 PARTIAL MR22 | Focus/fidelity/continuity of method | Schema/mapper/consumer meaning and source-specific failure contrasts; no unnecessary live fixture; retrieval limitations retained; publication correspondence is not independent method efficacy |
 
 ## Interpretations and reopening
 
@@ -76,8 +79,10 @@ One Node evaluator, logger, worker or Rust store does not represent all ECC. An 
 
 Notes13–15 preserve state guards and conditional ownership limits. Note16 joins Node/Rust targets without assuming one controller. Note17 explains transactional recorded-score admission, not independent trials/deployment. Note18 explains record integrity, optional witnesses and response replay, not complete truthful observation. Note19 separates interpreted outer procedure, native review and host runtime; E08 tests information flow under supplied responses, not real model quality. Their original evidence classes remain unchanged.
 
-Note20 adds a distinct recurring producer. Creation's future-time check, ordered due selection, worktree queue and surfaced errors are real. They do not make admission and schedule acknowledgement atomic, turn a batch limit into a live-session cap or bind a completed task to an occurrence. Finite exhaustion, earlier-row blockage, competing snapshots and removal-after-selection are conditional source paths, not executed incidents. The ordinary scheduling test was inspected, not run.
+Note20 adds recurring admission. Creation's future-time check, ordered due selection, worktree queue and surfaced errors are real, not atomic occurrence acknowledgement or completed work. Finite exhaustion, earlier-row blockage, competing snapshots and removal-after-selection remain conditional source paths, not executed incidents.
 
-Q04e1b/Q04g1c/Q04g2b/Q04h2/Q06d1b/Q06d2b preserve stronger claims without making every live campaign a prerequisite for bounded source closure. New caller/SQL/timing/version/configuration/host/authority evidence can reopen findings. Remaining remote/delegation, host/provider and release/audit families are not complete.
+Note21 adds remote intake through routing and operator results. Token/input checks and durable result/error linkage are real. SET NULL preserves referential integrity but can erase the distinction between never-targeted and target-deleted before routing. Delegate reuse does not reapply a requested profile; Normal handoff priority is different from remote queue priority. Per-item failures can be isolated while route/acknowledgement and actual uptake remain unclosed. No live endpoint/security/model experiment occurred.
 
-After U11-B publication closes, continue U11-C/Q04e2 from actual remote intake/CLI/server through request persistence, targeted/top-level dispatch and result/failure consumers. Do not restart answered lifecycle, review, scheduling or evaluation. E08 remains one adapted run, E06 excluded, both E05 histories separate. Native synthesis/CORE and joint evaluation remain later work.
+Q04e1b/e2b, Q04g1c/Q04g2b/Q04h2/Q06d1b/Q06d2b preserve stronger claims without making every live campaign a prerequisite for bounded source closure. Changed caller/SQL/version/configuration/host/authority evidence can reopen findings. Remaining backlog/delegation, host/provider and release/audit families are not complete.
+
+After U11-C publication closes, continue U11-D/Q04e3 from unread-handoff/backlog and coordination to actual consumer/acknowledgement. Do not restart answered intake, scheduling, lifecycle, review or evaluation. E08 remains one adapted run, E06 excluded, both E05 histories separate. Native synthesis/CORE and joint evaluation remain later work.
