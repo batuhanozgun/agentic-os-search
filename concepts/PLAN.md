@@ -1,8 +1,10 @@
 # Concepts — Hazırlık ve yürütme planları
 
-Sürüm: v0.1-draft, 2026-09-19. Amaç onaylı; yöntem denemeleri yapılmadı. Güncel tamamlanma/yetki yalnız STATE.md'dedir. Bu plan eski concepts çalışmasının devamı değildir. Kaynak yetki ORIGIN.md/U01–U05; gerekçe CHARTER.md.
+Sürüm: v0.2-draft, 2026-09-19. Amaç onaylı; ayrıntılı yöntem pilotlarla sınanır. Güncel tamamlanma/yetki yalnız STATE.md'dedir. Bu plan eski concepts çalışmasının devamı değildir. Kaynak yetki ORIGIN.md/U01–U05 ve sonraki devam/kapsam açıklamaları; gerekçe CHARTER.md.
 
 ## Plan A — Repo hazırlığı
+
+Bu bölüm hazırlanmış düzenin plan kaydıdır; tekrar yürütme talimatı değildir. Gerçek durum ve yeniden açmayı gerektiren değişiklik varsa STATE.md'den alınır.
 
 ### A1. Yeni başlangıcı ve kapsamı kaydet
 
@@ -53,8 +55,15 @@ Kaynak tarafındaki okumadan çıkarıma geri kontrol: atlanan jargon/kullanım;
 
 Bu ölçütler sonucu kolaylaştırmak için sonradan sessizce değiştirilmez. Pilot bulguları yöntem revizyonu için kullanılabilir; aynı veri, revize yöntemin bağımsız doğrulaması sayılmaz.
 
+## B2'den ikinci pilota taşınan yöntem açıklıkları
+
+METHOD v0.2-draft §7, ilk pilotta gözlenen eksik aktarım/yoğunlaştırma sorunlarını ve kullanıcının kaynakla sınırlı derinlik açıklamasını taşır. B3'te kaynak rolü ile yeni yorumun ayrılığı, aynı adın farklı kullanımı, niteleyiciler, kullanım–ilişki beraberliği ve kaynak taraflı kapsam hesabı özellikle sınanır. Kaynağın yalnız adını verdiği şey, bağımsız genel tanım araştırmasına çevrilmez; kaynakta gerçekten açıklanmış bir kullanım da atlanmaz.
+
+B1/B2 kapanışı, bütün concepts çalışmasının veya yöntemin genel doğrulanması değildir. İlk paket başka araştırmalara hazır kavram şeması olarak taşınmaz. B3'ün gerçek dosya envanteri, current META/STATE/INDEX ve gerekli okumaları yeniden kendi kaynağından kurulur. Eski Superpowers META okuması ikinci pilotun yapılmış olması anlamına gelmez. Yeni terim dosyası, kalıcı seri çıkarım veya ortak referans aşaması bu ekle başlamaz.
+
 ## Revizyon kaydı
 
 - R0, 2026-09-19: U01 sonrası iki taslak plan ve iki farklı araştırmada konuşma içi deneme sırası.
 - R1, 2026-09-19: U04 sonrası yorum izi/okuma izi ayrımı, iki nedenin her tur görünürlüğü ve kullanıcının teknik oracle olmaması gereksinimleri.
 - R2, 2026-09-19: U05 ile repo hazırlığı şimdi yetkili; yöntem taslak, pilotlar bekliyor. Eski etkin yönlendirmeler kaldırılarak yeni oturum yolu kuruluyor. Bu kayıtlar konuşma konsolidasyonudur; gerçekleştirilmiş pilot bulgusu değildir.
+- R3, 2026-09-19: P1-T3/B2 ile ilk pilotun kaynak-içi ekleri, farklı kullanım/nesne ayrımları ve niteleyici düzeltmesi değerlendirildi. METHOD v0.2-draft'a kullanım–ilişki beraberliği, ayrı kaynak/yorum statüleri, kaynak bölümünden döküme kapsam hesabı ve kaynakla sınırlı durma ölçütünün uygulama açıklıkları eklendi. Aşama sırası değişmedi; revizyon ikinci pilotta sınanacak, ilk veride bağımsız doğrulanmış sayılmıyor.
