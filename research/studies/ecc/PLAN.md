@@ -1,53 +1,61 @@
 # ECC — Adaptive Research Plan
 
-**Version:** 0.25 / 2026-09-19. METHOD0.1 retained. STATE owns current work/publication. Note23 meets U11-E's bounded source return condition; publication must close before U12-A begins. No new target execution, E09, architecture, adoption or whole-ECC completion. [MR24](ROUND-U11-E.md) records actual method/costs.
+**Version:** 0.26 / 2026-09-19. METHOD0.1 retained. STATE owns current work/publication. Note24 meets U12-A's bounded source return condition; publication must close before U12-B begins. No new target execution, E09, architecture, adoption or whole-ECC completion. [MR25](ROUND-U12-A.md) records actual method and costs.
 
 ## Current result and phase map
 
-[Note23](notes/23-TEMPLATE-RESOLUTION-AND-LAUNCH-COMPOSITION.md) and [U11-E sources](evidence/U11-E-SOURCES.md) join the Template CLI/parser, variables, complete resolver, profile precedence, session/worktree capacity, ordered admission, anchor/handoff and outcome/retry. All-step resolution is not all-or-nothing execution; observed capacity is not a reservation; an anchor is not an execution prerequisite or inherited policy. Explicit agent presence can skip the global profile. A later worktree-prefix error can leave an earlier admission. These are source findings/conditional counterparts, not observed live incidents.
+[Note24](notes/24-EXECUTION-PROFILES-AND-HARNESS-CONSUMERS.md) and [U12-A sources](evidence/U12-A-SOURCES.md) join selection, stored profiles, actual command builders, native/text/environment translation, sampled budget control and the runtime/host boundary. The same profile shape does not establish portable enforcement. Native controls and useful advisory fallback are retained alongside configured-runner replacement, malformed-list decoding and identity/freshness limits.
 
 | Phase | Standing / responsibility |
 |---|---|
 | P0 Work/method foundation | Complete; do not restart setup |
-| P1 Native discovery | First-tier dispositions complete at their recorded scope; descendant/mirror/representativeness partial |
-| P2 Mechanism slices | U11-E bounded answer; publication via STATE; U12-A selected next |
+| P1 Native discovery | First-tier dispositions complete at recorded scope; descendant/mirror/representativeness partial |
+| P2 Mechanism slices | U12-A bounded answer; publication via STATE; U12-B selected next |
 | P3 Subsystems/relations | Candidate groupings; native whole-system synthesis unfinished |
 | P4 Project comparison | Then-current Foundation/project and selected studies; joint discussion after completed research |
 | P5 CORE/closure challenge | Material-family accounting, reverse-inventory and broad-document holdout remain |
-| P6 Method case | MR24 distinguishes pre-effect validation from partial admission and follows default selection into the actual queue; no independent method-efficacy claim |
+| P6 Method case | MR25 follows representations to their actual consumers and control callers; no independent method-efficacy claim |
 
-[U07-A family map](inventory/U07-A-FAMILY-MAP.md) owns breadth. Its historical next labels do not supersede STATE. Notes13–22 remain completed scoped dependencies, not work to repeat. E06 stays excluded, E08 one adapted review-flow run, E04/E07 and both E05 histories separate.
+The [U07-A family map](inventory/U07-A-FAMILY-MAP.md), fully revisited in U12-A, owns breadth. Historical next labels do not supersede STATE. Notes13–23 and earlier work remain completed scoped dependencies, not work to repeat. E06 stays excluded, E08 one adapted review-flow run, E04/E07 and both E05 histories separate.
 
-## U11-E disposition — Q04e4
+## Preserved U11-E disposition
 
-**Q04e4a answered:** template/source/variables → validation/resolution → capacity → ordered new-session admission → anchor/handoff → outcome and retry. Useful protections include nonempty key/value parsing, all-step missing-variable/named-profile checks, profile-cycle detection, accounting for existing Pending/Running/Idle/Stale rows, per-session cleanup and retained records.
+Q04e4a remains answered by Note23: template/source/variables → complete resolution → capacity → ordered new-session admission → anchor/handoff → outcome and retry. All-step validation and existing-session accounting are real. Explicit-agent presence can skip the default profile; anchors/text do not import source policy or actual directory. Admission order is not predecessor acceptance. The later empty-prefix counterpart preserves an earlier admitted step; retries create afresh rather than resume a template checkpoint.
 
-The source session supplies text/grouping/anchor, not its working-directory/revision/profile snapshot. Explicit variable text can override generated defaults without changing the real directory. Step or template agent presence changes whether a global profile is applied; a profile's own agent can override the separate agent argument. Successful profile selection is not host enforcement.
+Q04e4b retains live readiness/completion, concurrent reservations, crash/retry/idempotency, run provenance, arbitrary/migrated configuration/interpolation intent, target/revision/policy and accepted multi-step outcomes. Nothing in U12-A retroactively executes or certifies that template path.
 
-A queued worktree is admitted work, not readiness. Steps are admitted in sequence without waiting for preceding output/acceptance. The common anchor is not a workflow DAG. Later admission/handoff failure returns an error without template-wide rollback or partial-result return. The source countercase is a successful no-worktree first step followed by a worktree step rejected for an empty normalized branch prefix, with worktree capacity available. Retrying is fresh creation, not resume from a saved template checkpoint.
+## U12-A disposition — Q02a
 
-**Q04e4b remains open:** live readiness/completion, concurrent reservations, crash/retry/idempotency, template-run provenance, arbitrary/migrated configuration and literal/nested interpolation intent, exact target/revision/policy correspondence and accepted multi-step results. Config/CLI tests were read, not run. No template-suite-wide absence/coverage claim or new E09.
+**Q02a1 answered:** stored/configured profile → effective harness/program → actual argv/environment/task text → native/configured consumer and separate ECC budget control. Positive mechanisms include resolved profile persistence, supported native flags, argument separation, explicit unsupported-program/blank-program errors, preservation of unmapped intent as text and the real token/global-budget pause path.
 
-## U12-A — next selected unit, NOT STARTED
+Claude tool preapproval is not exclusive tool availability. The Codex branch's fixed workspace-write flag is not changed by a plan permission directive in task text. OpenCode/Gemini have separate native permission mechanisms not automatically used by these profile fields. A configured runner replaces the built-in recipe, even under a known harness key; flag presence is not tested capability. Host documentation is dated external contract evidence, not installed-version or native execution evidence.
 
-**Q02a:** How is an effective execution profile translated into the actual chosen harness command, and which fields become native controls, environment/text instructions, ignored settings or separately enforced runtime limits?
+Profile token limits and global cost/token limits are checked against recorded metrics by actual callers; a per-profile dollar field is not checked by that same enforcer. Native output capture is not the full monitor. Malformed stored list JSON becomes an empty vector, unlike the normal valid writer. Configured environment labels can diverge from the explicit runtime writer id; plugin-marker discovery does not establish activation.
 
-**Why next:** U11-E closes template composition but deliberately stops at selecting/persisting a profile. A related configured-runner test expects unsupported fields in task text. Neither proves enforcement. This is the next distinct producer/consumer boundary in the existing host-composition responsibility, not a live security campaign or repeated template study.
+**Q02a2 remains open:** exact binary/API/config/flag correspondence, effective host policy/tools, custom aliases/mappings, inherited environment/credentials, plugin discovery/use, malformed/migrated profiles, metric capture/freshness, overshoot/stale-state/termination, prompt obedience and accepted output. Command tests were inspected, NOT RUN; argv expectations are not a host parser or policy test. No new E09 or corrective implementation.
 
-**Entry at the fixed pin:** S187 manager.rs agent_program within2300–2360, run_session2385–2430, build_agent_command and configured-runner/profile projection helpers in the earlier selected2990–3680 region. Follow complete bodies, not the whole range by assumption. S195 config/mod.rs profile/runner types1–140, profile resolution/apply and defaults; S191 session/mod.rs harness selection/aliases and profile type. Recover actual per-harness command builder and its caller. Related tests appear in manager.rs around4300–4760, with the unsupported-profile projection test fully read in U11-E. Tests are discovery aids, not a completed U12-A answer.
+## U12-B — next selected unit, NOT STARTED
 
-**Trace:** source/config/stored profile → effective harness/program → argv/env/task text → runtime consumer → meaningful native-versus-configured variation → unsupported field/error/fallback → observed or claimed effect. Distinguish intended restrictions, represented settings, host admission and enforced limits. Re-enter exact official host documentation only where the claim depends on that external contract; installed binary/version remains separate.
+**Q02b:** How do OpenCode-specific source assets become generated/distributed files and an active host plugin, and which actual event/tool consumer implements the advertised behavior?
 
-**Counterpart and return condition:** one coherent source-grounded explanation of at least a meaningful built-in/configured contrast and its unsupported-field or failure behavior, preserving authority, environment and actual-use limits. A test/fixture is optional only if it discriminates the load-bearing uncertainty. Do not assume a custom runner is malicious or that instruction-only projection is universally useless. Do not generalize one harness's controls to all hosts.
+**Why next:** The Rust OpenCode command recipe answers invocation, not the separately generated host adaptation. The U07-A map and S169 preserve this material unclosed family. Follow one coherent source-to-active behavior rather than assuming every host directory is an equivalent copied skill set. This is a continuation of existing host-composition research, not authorization to install or run agents.
 
-No live host/model/provider, credentials, installation, endpoint, user environment mutation, upstream issue/patch or SOUL implementation. Close U11-E publication first. Source closure may retain stronger host-effectiveness claims without pretending they were tested.
+**Entry at unchanged pin:** S169 scripts/build-opencode.js (blob73610cd387316cfd9421ff5b36cf695afa857710); recover .opencode direct tree, package and TypeScript configuration/source entry, then the actual dist references in package/install/plugin loading. Read complete load-bearing generators and consumers. The historical dist-removal/compiler observation is a location lead, not a completed runtime explanation.
+
+**Trace:** authored source and config → build/preconditions/output selection → package or installation path → host discovery/load → event/tool hook → emitted result or effect → failure/rebuild/update/next invocation. Distinguish source existence, generated output, shipped artifact, discovered plugin, registered callback and exercised behavior. Preserve any separate Markdown/JSON/TypeScript roles rather than force a single source hierarchy.
+
+**Counterpart:** missing compiler/build failure, stale or omitted generated entry, unsupported host event/API or a callback's explicit failure/fallback. Select the material contrast shown by sources, not every hypothetical deployment problem. Follow an actual caller and downstream consumer; no fake-host fixture merely to inflate test evidence.
+
+**Return condition:** one coherent generated-host mechanism explanation with a meaningful normal and failure/continuation contrast and explicit distribution/host-version/use limits. Broader OpenCode features can be split if independently material. A fixture is optional only for a real discriminator. Finish U12-A publication first.
+
+No live host/model/provider, credentials, installation, endpoint, user environment mutation, upstream issue/patch or SOUL implementation. Stronger host-effectiveness claims may remain open without blocking bounded source closure.
 
 ## Following priorities — not activated by listing
 
-Other materially distinct procedures and unresolved native family coverage; generated OpenCode/other host assets and Python provider layer; release/packed artifacts, scanner and deterministic audit/observability/readiness/resource costs; native syntheses from original notes, reverse-inventory/holdout challenge, CORE and then bounded project comparison. U11-A's package-list observation remains distinct from a pack test. Whole-study joint evaluation follows completion.
+Other materially distinct procedures and unresolved native families; Python LLM/provider layer and other host adaptations; release/packed artifacts, scanner and deterministic audit/observability/readiness/resource costs; native syntheses from original notes, reverse-inventory/holdout challenge, CORE and bounded project comparison. A package-list observation is not a pack test. Whole-study joint evaluation follows completion.
 
 ## Preserved residuals and history
 
-QUESTIONS owns Q01a2 recursive/mirror/omissions; Q02 host composition; Q03b/c interrupted Kimi/repair/uninstall/merged-JSON/durability; Q04b/c ingestion/import; Q04e1b/e2b/e3b/e4b scheduler/remote/backlog/template stronger claims; Q04f2 Plan Canvas; Q04g1c/g2b lifecycle/operator; Q04h2 native review; Q05b/c recall/governed uptake; Q06b/c2/d1b/d2b learning/evaluation; Q07a2/b2/c2/d guards/collector/authority/effect/scanner/release; Q08 meanings; Q09 deferred evaluation; Q10 method. S138/S139 remain partial and S150 remains policy, not scanner efficacy.
+QUESTIONS retains Q01a2 recursive/mirror/omissions; Q02 host composition with Q02a2 and next Q02b; Q03b/c Kimi/repair/uninstall/merged-JSON/durability; Q04b/c ingestion/import; Q04e1b/e2b/e3b/e4b scheduler/remote/backlog/template; Q04f2 Plan Canvas; Q04g1c/g2b lifecycle/operator; Q04h2 native review; Q05b/c recall/governed uptake; Q06b/c2/d1b/d2b learning/evaluation; Q07a2/b2/c2/d guards/collector/authority/effect/scanner/release; Q08 producer meanings; Q09 deferred evaluation; Q10 method. S138/S139 remain partial and S150 remains policy, not scanner efficacy.
 
-Prior complete PLAN0.24: [input version](https://github.com/batuhanozgun/agentic-os-search/blob/5ca412349b4f7e2b370771156a65f4bc224b710c/research/studies/ecc/PLAN.md). Earlier notes/evidence and correction histories remain unchanged. This plan is sequencing, not an alternative findings authority. Only actual readbacks/diff checks close publication. Preserve concurrent unrelated work and agent-control.
+Prior complete PLAN0.25: [input version](https://github.com/batuhanozgun/agentic-os-search/blob/d95f548d53564856c20562dd7d9e629b09dbbf81/research/studies/ecc/PLAN.md). Original notes/evidence and correction histories are unchanged. Only actual readbacks/diff checks close publication; this plan is sequencing, not an alternative findings authority. Preserve concurrent unrelated work and agent-control.
