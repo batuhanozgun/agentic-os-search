@@ -1,6 +1,6 @@
 # Context / Memory / Harness — Bağlamlı kullanım kayıtları
 
-**Durum: KISMİ KALICI KAYIT — context ve D2 bellek bölümleri.** 2026-09-19, B6-T2. P1 konuşma pilotu daha önce kapanmıştır; kalıcı paketin tamamlandığı anlamına gelmez. Bu dosya context kayıtlarını ve parçalara giriş yolunu taşır. **Bellek kayıtlarını [TERMS-MEMORY.md](TERMS-MEMORY.md) üzerinden ayrıca tam oku:** D2'nin kaynak kontrollü yeniden üretimidir, eski pilot yanıtının birebir kopyası değildir. Güncel dosya/kapsam hesabı [READING.md](READING.md) içindedir. Yöntem [v0.3-working](../../METHOD.md); global kapsam [SCOPE.md](../../SCOPE.md).
+**Durum: KISMİ KALICI KAYIT — context, D2 bellek ve D3 harness bölümleri.** 2026-09-19, B6-T3. P1 konuşma pilotu daha önce kapanmıştır; kalıcı paketin tamamlandığı anlamına gelmez. Bu dosya context kayıtlarını ve parçalara giriş yolunu taşır. **[TERMS-MEMORY.md](TERMS-MEMORY.md) ve [TERMS-HARNESS.md](TERMS-HARNESS.md) ayrıca tam okunur.** Bellek parçası D2'nin kaynak kontrollü yeniden üretimidir; harness parçası bu tur görünür P1 kayıtlarıyla ve D3 ile karşılaştırılmıştır. Güncel dosya/kapsam hesabı [READING.md](READING.md) içindedir. Yöntem [v0.3-working](../../METHOD.md); global kapsam [SCOPE.md](../../SCOPE.md).
 
 ## Amaç ve kaynak sınırı
 
@@ -24,8 +24,8 @@ Kullanıcı okuma sırasındaki anlam seçimlerini denetleyemediğinden önemli 
 |---|---|---|
 | D0 | [00-WHY-THIS-RESEARCH.md](https://github.com/batuhanozgun/agentic-os-search/blob/ac64fb9223cfa797e7eaabcdcbbf8bac3cc3ef0a/research/studies/context-memory-harness-engineering/00-WHY-THIS-RESEARCH.md) | B6-T1 tam geri okuma; amaç, başlangıç hipotezleri, kapsam ve kaynak rolleri. |
 | D1 | [01-CONTEXT-ENGINEERING.md](https://github.com/batuhanozgun/agentic-os-search/blob/ac64fb9223cfa797e7eaabcdcbbf8bac3cc3ef0a/research/studies/context-memory-harness-engineering/01-CONTEXT-ENGINEERING.md) | B6-T1 tam geri okuma; aşağıdaki context kayıtlarının ana kaynağı. |
-| D2 | [02-AGENT-MEMORY-ENGINEERING.md](https://github.com/batuhanozgun/agentic-os-search/blob/ac64fb9223cfa797e7eaabcdcbbf8bac3cc3ef0a/research/studies/context-memory-harness-engineering/02-AGENT-MEMORY-ENGINEERING.md) | B6-T2 tam geri okuma ve kaynak tarafından kapsam kontrolü; [bellek parçası](TERMS-MEMORY.md). Özgün pilot satırları görünmediği için kaynak kontrollü yeniden üretim. |
-| D3 | [03-HARNESS-ENGINEERING.md](https://github.com/batuhanozgun/agentic-os-search/blob/ac64fb9223cfa797e7eaabcdcbbf8bac3cc3ef0a/research/studies/context-memory-harness-engineering/03-HARNESS-ENGINEERING.md) | P1'de okundu; harness kayıtlarının kalıcı kontrol/aktarımı bekliyor. |
+| D2 | [02-AGENT-MEMORY-ENGINEERING.md](https://github.com/batuhanozgun/agentic-os-search/blob/ac64fb9223cfa797e7eaabcdcbbf8bac3cc3ef0a/research/studies/context-memory-harness-engineering/02-AGENT-MEMORY-ENGINEERING.md) | B6-T2 tam geri okuma ve kaynak tarafından kapsam kontrolü; [bellek parçası](TERMS-MEMORY.md). O turun görünümünde özgün pilot satırları bulunmadığı için kaynak kontrollü yeniden üretim. |
+| D3 | [03-HARNESS-ENGINEERING.md](https://github.com/batuhanozgun/agentic-os-search/blob/ac64fb9223cfa797e7eaabcdcbbf8bac3cc3ef0a/research/studies/context-memory-harness-engineering/03-HARNESS-ENGINEERING.md) | B6-T3 tam geri okuma, görünür P1 harness kayıtlarıyla ve kaynak §1–31 ile karşılaştırma; [harness parçası](TERMS-HARNESS.md). |
 | D4 | [04-CROSS-LAYER-SYNTHESIS.md](https://github.com/batuhanozgun/agentic-os-search/blob/ac64fb9223cfa797e7eaabcdcbbf8bac3cc3ef0a/research/studies/context-memory-harness-engineering/04-CROSS-LAYER-SYNTHESIS.md) | P1'de okundu; paket-geneli ilişki ve mekanizma kayıtlarının aktarımı bekliyor. |
 
 D1'in kendi S1'i Anthropic context-engineering yazısı, S2'si OpenAI harness-engineering yazısı, S3'ü SWE-agent çalışması, S4'ü önceki ai-knowledge-strategies paketidir. Bunlar D1 §24'ün atıf kimlikleridir; diğer dosyaların aynı numaralarıyla veya pilot kullanım kimlikleriyle karıştırılmaz. D0 §12 ayrı bir kaynak listesi taşır.
@@ -134,14 +134,20 @@ D1 §18'in Candidate SOUL context gate'i bir karar çerçevesi önerisidir; SOUL
 
 **Korunan maddi sınırlar:** K01'in atfedilen dar tanımı ile K02'nin araştırma genişletmesi; kaynak bilgi ile türetilmiş görünüm; araç arayüzü ile araç sonucu; retrieval doğruluğu ile context doğruluğu; mevcut bağlam hacmi ile işte etkili kullanım; bilgi düzeni ile runtime uygulaması. Source confidence ifadeleri yeni doğrulama sonucuna yükseltilmedi.
 
-**B6-T1 sonunda henüz aktarılmamış olanlar:** K03–K08, M01–M28, H01–H27, G01–G06, X01–X03 ve P1'in paket-geneli ilişki kayıtları. Bu tarihsel liste bugünkü D2 içeriğini yok saymaz; B6-T2'nin yeniden üretim ve eski kimlik sınırı aşağıdadır. Özellikle K07'nin amaç/sağlanmış özellik düzeltmesi, K08'in tekil bellek kaydı, H17'nin bellekten bağlama aktarımı ve canonical state/bellek kapsam gerilimi takip edilir.
+**B6-T1 sonunda henüz aktarılmamış olanlar:** K03–K08, M01–M28, H01–H27, G01–G06, X01–X03 ve P1'in paket-geneli ilişki kayıtları. Bu tarihsel liste bugünkü D2/D3 kayıtlarını yok saymaz; sonraki turların erişim ve aktarım sınırları aşağıdadır.
 
-## 8. B6-T2 — Bellek parçası ve güncel devam
+## 8. B6-T2 — Bellek parçası ve tarihsel erişim sınırı
 
 [TERMS-MEMORY.md](TERMS-MEMORY.md), D2'nin otuz bölümünün tam okumasına ve kaynak tarafından kapsam kontrolüne dayanır. Sistem/yaşam döngüsü, disiplin ve tekil kayıt; yazma/yönetme/okuma; zaman ve metadata alanları; ilgili mekanizmalar; on bir değerlendirme sorusu; sekiz aday proje sınıfı; bellekten bağlama aktarım ve koşullu işletim ilişkileri kaydedildi. D2'nin dış atıfları ve önceki araştırmacı yorumları yeni teknik doğrulama yapılmış gibi sunulmadı.
 
-**Kimlik ve erişim sınırı:** P1'in özgün bellek dökümü bu turun erişilebilir görünümünde yok. Yeni içerik sabit kaynaktan yeniden üretildi ve D2-* adresleri aldı. K03/K04/K08, M01–M28 veya H17 ile özgün satır düzeyinde eşleşme tahmin edilmedi; bu eski adresler referans olarak korunur. K08'in tekil kayıt konusu ile H17'nin bilgi/metadata devri konusu D2-U04 ve D2-U36'da kaynaktan yeniden işlendi; bu konu bağlantısı birebir pilot aktarımı iddiası değildir. Kaynak belirsizliği ile eski yanıtın erişim sınırı ayrı tutulur.
+**B6-T2'nin kimlik ve erişim sınırı:** O turun kaydı, P1'in özgün bellek dökümünün erişilebilir görünümünde bulunmadığını belirtir. İçerik sabit kaynaktan yeniden üretildi ve D2-* adresleri aldı. K03/K04/K08, M01–M28 veya H17 ile özgün satır düzeyinde eşleşme tahmin edilmedi; bu eski adresler referans olarak korunur. K08'in tekil kayıt konusu ile H17'nin bilgi/metadata devri konusu D2-U04 ve D2-U36'da kaynaktan yeniden işlendi; bu konu bağlantısı birebir pilot aktarımı iddiası değildir. Kaynak belirsizliği ile eski yanıtın erişim sınırı ayrı tutulur. B6-T3 bu tarihsel kaydı veya bellek kullanım gövdesini değiştirmez.
 
 C07/C14/C27 ve context değerlendirme kayıtları değiştirilmedi; D2'nin ilişkili kullanımları ayrı kaynak noktalarıyla eklendi. D2'nin internal/external memory genişliği ile parametrik uyarlama ayrımı, canonical state'in kalıcılık/otorite gerilimi ve kullanım yolundan çıkarma/türetilmiş kopya silme ayrımı bellek parçasında açık. Bunlar erken ortak kavram kararı değildir.
 
-**Sıradaki:** D3 harness, ardından D4 paket-geneli mekanizma/proje/ilişki kayıtları. K07 amaç/sağlanmış özellik ayrımı ile X02 tarihli Development OS kullanımı özellikle korunacak. Bütün sekiz kaynaktan kalıcı kayda son kapsam ve güncel delta kontrolü yapılmadan paket kapanmaz. D2'nin kaydı tamamdır; bütün pilotun birebir arşivi, tüm CMH aktarımı veya ortak referans tamamlanmış değildir.
+## 9. B6-T3 — Harness parçası ve güncel devam
+
+[TERMS-HARNESS.md](TERMS-HARNESS.md), D3'ün §1–31 tam okuması, bu tur görünür P1-T1/P1-T3 harness dökümleri ve kaynak tarafından kapsam kontrolüyle üretildi. K05–K07 ve H01–H27 üst adresleri korunur; faaliyet/nesne, amaç/sağlanmış özellik, farklı handoff ve rollback kullanımları alt adreslerle görünürdür. Kaynağın dokuz aday sorumluluk alanı, on hata başlığı ve yedi değerlendirme sorusu zorunlu mimari veya yapılmış test olarak sunulmaz.
+
+H17 D2-U36'ya kaynak-içi konu bağlantısıdır; bütün bellek pilot kimliklerinin eşlendiği anlamına gelmez. H22.c cache identity/invalidation eski satırın D4'e bağlı kısmıdır ve henüz tamamlanmamıştır. Yeni parça, D3'ün tarihli proje karşılaştırmalarını ve kaynak rollerini korur; context veya bellek gövdelerinin üstüne ortak tanım yazmaz.
+
+**Sıradaki:** D4 paket-geneli mekanizma/proje/ilişki kayıtları, H22.c'nin kaynak kontrolü, G01–G06/X01–X03 ve P1-T2 ilişki eklerinin değerlendirilmesi. Ardından D0–D4 ve META/STATE/INDEX'ten bütün kalıcı parçalara son kapsam ve güncel delta kontrolü. D3 kaydı tamamdır; bütün CMH paketinin kalıcı kapanışı veya ortak referans tamamlanmış değildir.
