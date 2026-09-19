@@ -87,7 +87,7 @@ N01B'nin dört ayrı ömrü: **kaynak dosya sürümü → yüklenmiş/kaydedilmi
 
 Üç yol, yazılı plan → SDD gibi tek çizgiyi bütün isteklere yaymayı engeller. N01'in U02'ye bıraktığı görev/plan/çalışma alanı ilişkileri burada tamamlanmış değildir. CORE'un bunları özetlemesi, detay kaynağın kalıcı aktarımının yerine geçmez.
 
-## 6. İlk pilot kapanışında eklenen adresler
+## 6. P2 pilotunun kapanışında eklenen adresler
 
 | Pilot adresi / özgün ifade | Kaynak bağlamındaki kullanım | Dayanak |
 |---|---|---|
