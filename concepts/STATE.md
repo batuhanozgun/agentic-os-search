@@ -4,23 +4,22 @@ Tarih: 2026-09-19. Program: araştırma bazında terim/jargon kullanımlarının
 
 ## Durum
 
-**PREPARED / PILOT-1-ACTIVE / PACKAGE-FULL-READ / EXTRACTION-PARTIAL / METHOD-DRAFT.**
+**PREPARED / PILOT-1-BOUNDED-COMPLETE / B2-REVIEW-COMPLETE / METHOD-v0.2-DRAFT / PILOT-2-NEXT.**
 
-Repo hazırlığı tamamlandı; tekrar yapılacak iş değildir. Kullanıcının hazırlık kapanışından sonraki “Anlaştık. Devam et.” mesajıyla PLAN/B1'in ilk konuşma içi turu yürütüldü. `context-memory-harness-engineering` paketinin gerçek dosya envanteri çıkarıldı ve sekiz mevcut Markdown dosyasının tamamı okundu. Bu, bağlantı verilen bütün dış kaynakların veya başka araştırma paketlerinin okunduğu anlamına gelmez. İlk bağlamlı kullanım dökümünün taşıyıcısı bu sohbetin P1-T1 cevabıdır; kalıcı terim dosyası oluşturulmadı. Tam okuma tamamlandı, fakat kullanım dökümünün eksiksizlik kontrolü ve pilot kapanışı tamamlanmadı.
+İlk pilot, `context-memory-harness-engineering` paketinin aşağıdaki sekiz dosyalık sürümü üzerinde kaynak-kapsamlı yöntem denemesi olarak kapandı. P1-T1 tam okuma ve ilk kullanım dökümünü, P1-T2 yönelim kontrolü ile paket-içi ilişkileri, P1-T3 kaynak tarafından döküme geri kontrolü, ek kullanımları/niteleyici düzeltmesini ve B2 yöntem değerlendirmesini taşır. Bu kapanış, kaynakların bütün teknik iddialarının doğrulanması, sektördeki terimlerin çözümü veya hatasız sözcük-bazlı envanter sertifikası değildir. Somut aktarım eksiği sonradan bulunursa ilgili kayıt yeniden açılır.
 
-P1-T2'de kullanıcının derin terim araştırmasına kaymama uyarısı açısından yönelim kontrol edildi; ardından paketin kendi ilişki örgüsünün kaynak-içi kontrolü sürdürüldü. Yeni genel tanım araştırması, ortak referans veya pilot kapanışı yapılmadı. Ayrıntı sondaki P1-T2 kaydındadır.
+Pilot kullanım çıktıları konuşma içindedir; yeni TERMS/READING dosyası veya kalıcı terim envanteri oluşturulmadı. Repo yalnız mevcut METHOD/PLAN/STATE üzerinden yöntem ve devam durumunu taşır. Yöntem v0.2-draft hâlâ taslaktır; ilk pilotta keşfedilen açıklıklar ikinci pilotta sınanacak, aynı veri bağımsız doğrulama sayılmayacaktır.
 
 | İş | Durum |
 |---|---|
-| Amaç/yetki/kısıtların ve iki riskin korunması | ORIGIN ve CHARTER'da; değişmedi. |
-| Repo hazırlığı ve eski etkin yönlendirmelerin temizliği | Tamamlandı; SETUP-REVIEW kapsam ve sınırları geçerli. |
-| İki taslak plan ve yöntem | v0.1-draft; METHOD ve PLAN bu tur değiştirilmedi. |
-| Birinci pilot: gerçek paket envanteri ve tam okuma | Sekiz dosyanın tamamı okundu; aşağıdaki kaynak sürümüyle sınırlı. |
-| Birinci pilot: bağlamlı kullanım çıkarımı | İlk konuşma içi döküm ve P1-T2 paket-içi ilişki kontrolü; toplam kullanım-bazlı kapsam kontrolü açık. |
-| Birinci pilotun tamamlanması ve B2 yöntem değerlendirmesi | Tamamlanmadı; okuma bitişi pilot kapanışı değildir. |
-| İkinci pilot / superpowers | Başlamadı; B1 ve B2'den sonra. |
-| Kalıcı araştırma bazlı terim envanterleri | Yok; oluşturulmadı. |
-| Bütün çıkarımlardan ortak tanım/referans | Başlamadı; kabul edilmiş ortak tanım yok. |
+| Amaç, kaynak talep ve iki risk | ORIGIN/CHARTER'da korunuyor; değişmedi. |
+| Repo hazırlığı | Tamamlandı; SETUP-REVIEW tarihsel kontrol kapsamı geçerli. |
+| B1 / birinci pilot | Sekiz dosyalık kaynak kapsamı içinde tamamlandı; P1-T1 + P1-T2 + P1-T3 birlikte çıktı. |
+| B2 / ilk yöntem değerlendirmesi | Tamamlandı; sonuç METHOD §7 ve PLAN revizyon R3'te. |
+| B3 / ikinci pilot — superpowers | Başlamadı; sıradaki yetkili iş. |
+| B4 / ikinci değerlendirme | B3 sonrasında. |
+| Kalıcı seri çıkarım | Başlamadı; iki pilot ve değerlendirmelerinden sonra. |
+| Bütün çıkarımlardan ortak referans | Başlamadı; kabul edilmiş ortak tanım yok. |
 
 ## Amaç ve korunacak ayrımlar
 
@@ -28,25 +27,21 @@ P1-T2'de kullanıcının derin terim araştırmasına kaymama uyarısı açısı
 
 Okuma anındaki anlam seçimlerini kullanıcı denetleyemiyor; önemli yorum/dayanak/belirsizlik/değişim görünür olmalı. Aynı terimle aynı anlamı kastettiğimiz varsayılamaz; kullanıcı onayı, kaynak ifadesi ve assistant yorumu teknik doğruluk bakımından ayrı tutulmalı. Her concepts turunda bu iki neden kısa ve açık biçimde hatırlatılır; somut maddi fark varsa belirtilir.
 
-## Yetki ve sınırlar
+Derinlik sınırı: incelenen araştırmanın kullanım ve ilişki düzenini mümkün olduğunca sadık çıkarmak. Kaynağın açıklamadığı bir genel kavramı ayrıca araştırıp çözmek kapanış koşulu değildir. Açıklanmamış anlamı doğru statüyle kaydetmek ile okunmamış dosya veya atlanmış açıklamayı bırakmak aynı şey değildir. Kullanıcının son kapsam açıklaması kaliteyi düşürme veya ilk pilotu denetimsiz kapatma talebi olarak alınmadı.
 
-Kaynak amaç/yetki: ORIGIN.md/U01–U05 ve hazırlık kapanışından sonraki devam talebi. Pilot çıktıları konuşmada gösterilir; hazırlığın veya tam okumanın tamamlanması kalıcı TERMS envanteri ya da erken ortak referans oluşturma izni değildir. Mevcut durum/yöntem kayıtlarının güncellenmesi onaylı plan içindedir.
+## Yetki ve yazma sınırı
 
-Hazırlığın tarihsel yazma kapsamı: concepts altında yedi dosya; README.md; research/INDEX.md; research/studies/INDEX.md, CATALOG.md, PACKAGE-CONTRACT.md içindeki concepts bölümleri; AGENT.md R09 tetikleyicisi ve agent/protocols/candidate-research-library.md içindeki concepts bölümü. Bu önceki sınırlı değişiklikler sonraki turlara genel agent-control mutation yetkisi vermez. AGENT Mutation Rule geçerlidir.
+Kaynak amaç/yetki: ORIGIN/U01–U05, hazırlık sonrası devam talepleri ve terimlerin bağımsız derin araştırmasına kaymama açıklaması. B1 → B2 → B3 → B4 sırası yürütülür; aynı amacı yeniden onaylatmak gerekmez. Maddi amaç/aşama/kapsam değişikliği ayrıca değerlendirilir.
 
-P1-T1 ve P1-T2 turlarının repo yazma kapsamı yalnız bu STATE dosyasıdır. Foundation, özgün studies paketleri ve onların META/STATE/INDEX'i, explorations, publications, kontrol dosyaları ve diğer concepts dosyaları değiştirilmez. Yeni dosya, branch, kalıcı TERMS/READING kaydı veya ortak tanım oluşturulmaz. Kaynak paketinin kendi araştırma tamamlanma/onay durumu bu pilotla değişmez.
+P1-T1/P1-T2 yalnız STATE'i güncelledi. P1-T3/B2 yalnız mevcut concepts/METHOD.md, PLAN.md ve STATE.md'yi günceller. Yeni dosya, branch, TERMS/READING, ortak tanım veya seri çıkarım başlatılmaz. Foundation, studies paketleri ve kendi META/STATE/INDEX'leri, explorations, publications, AGENT ve agent protokolleri bu pilotta değiştirilmez. Eşzamanlı ECC çalışmasının değişiklikleri korunur.
 
-Batu amaç ve maddi aşama/kapsam değişikliği sahibidir. Assistant onaylı kapsamda kaynağa dayalı, belirsizlikleri korunan kullanım çıkarımını, yöntem değerlendirmesini ve izlenebilir yayını yürütür; kullanıcıyı teknik uzman verifier olarak kullanmaz. Mimari/uygulama/adoption kararı bu çalışmanın yetkisi değildir.
+Batu amaç ve maddi aşama/kapsam değişikliği sahibidir. Assistant kaynak-kapsamlı çıkarım, yöntem değerlendirmesi ve izlenebilir yayını yürütür; kullanıcıyı teknik uzman verifier olarak kullanmaz. Kaynak paketinin araştırma kabul durumu, ürün/mimari/adoption veya genel agent-control yetkisi bu pilotla değişmez.
 
-## P1-T1 — Gerçek okuma kapsamı
+## Kaynak envanteri ve gerçekten okunan kapsam
 
-Repository: `batuhanozgun/agentic-os-search`.
+Repository: `batuhanozgun/agentic-os-search`. Pilot kaynak snapshot'ı: `ac64fb9223cfa797e7eaabcdcbbf8bac3cc3ef0a`. Paket dizininde sekiz Markdown dosyası; alt dizin/binary ek yok. Tam okuma P1-T1'de aynı konuşmada yapıldı; aşağıdaki kimlikler ve bitişik aralıklar korunur. Aralıkların son istek üst sınırı dosyanın gerçek satır sayısı değildir.
 
-Okuma snapshot'ı: `ac64fb9223cfa797e7eaabcdcbbf8bac3cc3ef0a` (tur başlangıcındaki main). Kontroller ve hazırlık girişleri aynı konuşmada tam okunmuş sürümlerdi; AGENT ve bu STATE güncel main'den tekrar tam okundu. Başlangıç main hazırlık kapanışıyla aynıydı. Pilot dosyaları aşağıdaki sabit ref üzerinden getirildi; yazma öncesi compare sonucu main ile snapshot arasında fark olmadığını gösterdi.
-
-Paket dizininin GitHub contents envanteri sekiz dosya döndürdü; alt dizin veya binary ek yoktu. Uzun belgeler aşağıdaki bitişik aralıklarla getirildi; final parça dosya sonuna kadar okundu. Aralık üst sınırını dosyanın gerçek satır sayısı gibi yorumlama.
-
-| Paket içi dosya | Blob SHA | Gerçek okuma |
+| Paket içi dosya | Blob SHA | P1-T1 tam okuma |
 |---|---|---|
 | META.md | 55e8d5abe294e9c9b4ae0cd121c1cea3a74b7007 | Tam dosya. |
 | STATE.md | 298c0b1c6af6523a1da6b9bb0be018c5579573b2 | Tam dosya. |
@@ -57,55 +52,56 @@ Paket dizininin GitHub contents envanteri sekiz dosya döndürdü; alt dizin vey
 | 03-HARNESS-ENGINEERING.md | 53f3cbcfbc934155553c9ae6c4ff931126b00876 | 1–200, 201–400, 401–600, 601–820, 821–EOF; son istek üst sınırı 1040. |
 | 04-CROSS-LAYER-SYNTHESIS.md | 293ca01ac04952417d9d56b3c79c5f195dd6da35 | 1–200, 201–400, 401–600, 601–820, 821–EOF; son istek üst sınırı 1040. |
 
-Kaynak belgelerin araştırma tarihi 2026-09-03; META daha sonraki kütüphane yerleştirmesini yansıtabilir. Belgelerdeki eski `research/<paket>/` yol yazımları güncel studies yolu üzerinden çözüldü; kaynak dosyalar düzeltilmedi. Dış kaynak bağlantılarının varlığı, kaynakların bu tur yeniden açıldığı/teyit edildiği anlamına gelmez. `ai-knowledge-strategies` ayrı paket olarak bu pilotun sekiz dosyasına eklenmedi; ona yapılan atıflar aktarılan önceki araştırma olarak tutuldu. Kod, benchmark, ürün veya canlı sistem çalıştırılmadı.
+Araştırma belgelerinin tarihi 2026-09-03'tür. Eski research/<paket>/ yol yazımları güncel studies konumundan çözüldü; özgün belgeler değiştirilmedi. Dış makaleler, SDK belgeleri ve ai-knowledge-strategies bu pilotta ayrıca tam okunmuş veya güncel teknik doğruluğu teyit edilmiş sayılmaz. Dış kaynak atıfları aktarılmış kullanım statüsündedir. Kod, benchmark veya canlı ürün çalıştırılmadı.
 
-## P1-T1 — Yorum ve yöntem kontrolünün açık noktaları
+P1-T2'de 04 dosyasının 1–125, 201–400, 401–448 aralıkları ilişki kontrolü için yeniden okundu. P1-T3'te aynı konuşmada erişilebilir P1-T1/P1-T2 çıktıları ve önceki tam kaynak okumaları birlikte değerlendirildi; özellikle aşağıdaki bölümler sabit ref'ten yeniden getirildi:
 
-Bu bölüm terim envanteri veya ortak tanım değildir; sonraki turun hangi yorum/coverage sorunlarını devralacağını kaydeder.
+| Dosya | P1-T3 yeniden okuma aralıkları | Kontrolün rolü |
+|---|---|---|
+| 00 | 60–180, 361–EOF (istek 560'a kadar) | Başlangıç haritası, terim olgunluğu iddialarının atfı, kaynak adları ve roller. |
+| 01 | 105–360, 361–570 | Kaynak sınıfları, retrieval/assembly seçenekleri, niteleyiciler, güvenlik ve değerlendirme boyutları. |
+| 02 | 45–300, 405–705, 821–EOF (istek 1040'a kadar) | Yazma/temsil/güncelleme seçenekleri, zaman alanları, tekil kayıt kullanımı, metadata devri, ölçütler ve kaynak adları. |
+| 03 | 26–210, 230–400, 445–645 | Tasarım amacı niteleyicisi, alt mekanizmalar, kontrol/aktör rolleri, hata ve değerlendirme grupları. |
+| 04 | 625–780 | Karar soruları, mekanizma/sorumluluk ayrımı ve anti-pattern adları; önceki ilişki okumalarıyla birlikte. |
 
-- Birincil kaynağa atfedilen kullanım, önceki araştırmanın genişletilmiş çalışma tanımı ve bu pilotun açıklaması ayrı tutuldu. Asıl kaynak bu tur okunmadığında atıf birinci-el doğrulama gibi gösterilmedi; kaynak belgenin kendi “high confidence” etiketleri extractor güveni olarak devralınmadı.
-- Aynı etiketin mühendislik faaliyeti, çalışma zamanı nesnesi veya daha geniş operasyonel düzen için kullanılması dikkat gerektiriyor. Özellikle 03 §2 ile §31 arasındaki kapsam/nesne farkı sonraki kontrolde korunmalı; tek bir temiz tanıma indirgenmemeli.
-- 02 §3'teki geniş iç/dış bellek kapsamı, §13'teki parametric adaptation ayrımı ve §5.5/§6/§21–22'deki canonical state konumu aynı sınıflandırma eksenine zorlanmamalı. Bunlar bu turda çözülmüş ontolojik çelişki veya yeni ortak karar değildir.
-- Paket içindeki tarihli Development OS kullanımı, o tarihteki repository-control yaklaşımına da gönderme yapıyor. Bu anlatım bugünkü Development OS ürününün kurulmuş olduğu iddiasına çevrilmemeli.
-- 01/02/03'teki kullanım ile 04 ve giriş dosyalarındaki tekrarı bağımsız kanıt olarak sayma. Aynı ifadeyi yeniden görmek yeni bir bağımsız doğrulama değildir.
-- Genel adlar, yalnız listelenmiş alt mekanizmalar, örneklerde geçen API/alan adları ve source-ledger içindeki adlandırmalar henüz kullanım-bazlı eksiksizlik bakımından bütünüyle kapatılmadı. Okuma 8/8 olsa da konuşmadaki ilk döküm tüm terimlerin eksiksiz envanteri olarak sunulmaz.
+Bu satırlar yeni bir tam-paket okuması iddiası değil, aynı konuşmadaki tam okuma üzerine kaynak taraflı kontroldür. Snapshot'tan yayın öncesi `6f248ca8b42914a1c3a0a50904a72736bd5373d8` main'ine compare, bu pilotun kaynak dosyalarında değişiklik olmadığını gösterdi; farklar concepts/STATE ve ECC çalışmasıyla sınırlıydı. AGENT ve current STATE yeniden okundu; aynı konuşmada tam okunmuş, değişmemiş R01–R09/CHARTER/ORIGIN/INDEX/SETUP bağlamı korundu. METHOD/PLAN güncel main'den tekrar tam okundu.
+
+## P1-T3 — Kapanışın gerekçesi ve sınırı
+
+P1-T1'in ana kullanım kayıtları ve P1-T2'nin kaynak-içi ilişkileri, kaynak başlıkları/listeleri/örnekleriyle karşılaştırıldı. İlk dökümde yalnız sayılan mekanizmalar, niteleyiciler, metadata ve değerlendirme adları bağlamlarıyla tamamlandı. Tekil kayıt, faaliyet, bütün sistem veya aktarım arayüzü gibi farklı göndermeler ayrı tutuldu. Kaynak adları, örnek değerleri ve yalnız soru/listede geçen adlar ayrıntılı tanımmış gibi doldurulmadı.
+
+Kapanış yanıtının önemli değişiklikleri: önceki K07 açıklaması kaynakta kullanılan güvenilir/bounded/recoverable tasarım amacı niteleyicilerine yaklaştırılır; amaç doğrulanmış davranış sayılmaz. K03'ün yaşam döngüsü kullanımı korunurken kaynaktaki tekil memory kaydı kullanımı ayrıca görünür kılınır. H05/H06 dışında D2 §23'teki bilgi/metadata aktarımı anlamındaki handoff ayrıca ayrılır. Bu kontrol notu terim envanteri değildir; asıl kullanım kayıtları P1-T3 konuşma yanıtındadır.
+
+Kaynak-içi gerilimler açık sonuç olarak korunur: harness faaliyeti/nesnesi kapsamı; iç/dış/parametrik bellek sınırı; canonical state'in kalıcılık ve otorite açısından farklı konumu; tarihli Development OS adının bugünkü ürün durumuna taşınmaması. Bunlar çözülmüş ontolojik kararlar değildir ve bağımsız terim araştırmasına geçme gerekçesi yapılmaz.
+
+B1 kapanışı için önceki METHOD §5 esas alındı: envanter/tam okuma görünür; kaynak sürümü sabit ve değişiklik kontrolü yapılmış; kullanım/ilişki kayıtları kaynaklarına bağlı; bulunan maddi aktarım eksikleri ve niteleyici farkı açıklanmış; okunamamış paket dosyası yok; kaynakta açıklanmayan anlamlar tanımlanmamış olarak korunuyor. Birinci pilot için açık kalan somut aktarım işi bırakılmadı. Bu, bütün sözcükler için tanım bulunduğu veya aynı assistant'ın kontrolünün bütün olası hataları dışladığı iddiası değildir.
+
+## B2 — İlk yöntem değerlendirmesi
+
+Tam okuma, araştırma-bazlı sınır, kaynak–yorum ayrımı, yorum değişimi izi ve iki aşama sırası korundu. Yöntem denemesi kaynak tarafına dönüşün gerçekten ek/ayrılmış kullanım ve niteleyici farkı yakaladığını gösterdi; kontrol sadece önceki metni onaylama değildi. Ancak bu aynı assistant'ın source-side cross-check'idir; bağımsız aktör veya formal recall benchmark'ı değildir.
+
+V0.2-draft açıklıkları METHOD §7'dedir: kullanım ve ilişki görünümünün birlikte tutulması; konuşan/kaynak rolü ile yeni açıklamanın statüsünün ayrılması; faaliyetin nesneyle ve tasarım amacının garantiyle karışmaması; kaynak bölümünden döküme sonlu kapsam hesabı; kaynak belirsizliğinin yeni genel araştırma borcu olmaması. PLAN/R3 ikinci pilotun bu açıklıkları sınamasını taşır. Revize yöntem aynı ilk pilot tarafından geriye dönük bağımsız doğrulanmış sayılmaz.
+
+Açık sınırlar: gerçek yeni-oturum davranış testi yapılmadı; pilot çıktıları chat-only olduğundan bağımsız yeni oturumda erişim ayrıca doğrulanmalı; dış kaynakların teknik doğruluğu bu çalışmanın sonucu değil. Kullanıcının olumlu değerlendirmesi bunların yerine kullanılmadı. Yeni dosya şeması veya kavram ontolojisi dondurulmadı.
 
 ## Current work ve next authorised work
 
-**Tamamlanan:** hazırlık; ilk pilot için gerçek sekiz dosyalık envanter; bu snapshot'taki tam paket okuması; konuşma içi ilk kullanım dökümüne dayanak olan bağlam ve önemli kapsam ayrımlarının çıkarılması; P1-T2 yönelim denetimi ve kaynak-içi ilişki kontrolü.
+**Tamamlanan:** repo hazırlığı; ilk kaynak-kapsamlı pilot B1 ve ilk yöntem değerlendirmesi B2. Eski P1-T1/P1-T2 checkpoint'lerindeki B1-açık ve B2-yapılmadı durumları tarihseldir; bu STATE'in güncel durumunu ikame etmez.
 
-**Sıradaki yetkili iş hâlâ PLAN/B1:** P1-T1 konuşma dökümünü geri kazan ve kaynak tarafındaki bölüm/listelerden başlayarak kullanım-bazlı kapsama kontrolü yap. Özellikle 00 başlangıç kaynakları/haritası, 01 §5/§6–17, 02 §4–5/§8/§18/§22–23/§29, 03 §4/§10/§20–21/§30 ve 04 §10–12/§20'deki adlandırmaları döküme karşı sınayarak atlanan veya fazla birleştirilen kullanımları tamamla. Yalnız mevcut dökümü tekrar okuyup eksiksiz ilan etme. Yeni anlam gerekirse kaynağa dön; sözlük bilgisinden boşluk doldurma.
+**Sıradaki yetkili iş PLAN/B3:** `research/studies/superpowers` üzerinde ikinci konuşma içi pilot. Güncel main/dosya envanteri ve paketin current META/STATE/INDEX'inden başla; gerekli kaynakları tam okumayla devral. İlk pilotun terim listesini veya ilişki şemasını Superpowers'a zorla uygulama. Yöntem v0.2-draft sınanır; kaynağın kendi kullanımları ve ilişkileri çıkarılır. Önceki hazırlıkta Superpowers META'sının görülmesi B3 okuması/tamamlanması sayılmaz.
 
-Bu devam maddesi, her adlandırmaya eksiksiz genel tanım bulma görevi değildir. P1-T2'de kontrol edilen paket-içi ilişkileri ve açıklanmış kaynak belirsizliklerini yeniden çözülmesi gereken araştırma sorunlarına dönüştürme. Sonraki kaynak kontrolü kaydı düzeltmek veya atlanmış kullanımı eklemek içindir; yalnız kavram hakkında genel bilgiyi genişletecek çalışma bu ilk aşamaya eklenmez. Kaynakta tanımı verilmemiş veya belirsiz bırakılmış kullanım, bu statüsü ve bağlamı doğru kaydedildiğinde açık çıktı olabilir; tek başına paket kapanışını engellemez. Okunmamış materyal veya hatalı/eksik aktarım ise bununla aynı şey değildir.
+B3 tam okuma ve çıkarım için turlara yayılabilir. Sonra B4, kalıcı düzenin kesinleştirilmesi ve B5–B7 seri çıkarım işleri gelir. B8 ortak referans, bütün araştırmaların çıkarımı bitmeden başlamaz. Bu kapanış turunda B3 başlatılmadı; yeni kapsam veya mimari işi yoktur.
 
-B1 kapanışında gerçek kapsam, açık anlam belirsizlikleri ve gerekli düzeltmeler ayrılacak. Sonra B2 yöntem değerlendirmesi/revizyon kararı; ardından superpowers üzerinde B3 ikinci pilot ve B4 değerlendirmesi gelecek. Bu sırayı yürütmek için amacı yeniden onaylatmak gerekmez. İki pilot tamamlanmadan seri çıkarım, bütün araştırmaların çıkarımı bitmeden ortak tanım aşaması başlamaz.
+## Konuşma çıktısının devralma sınırı
 
-## Konuşma içi pilotun devralma sınırı
+Pilotun kullanım kayıtlarının taşıyıcısı P1-T1, P1-T2 ve P1-T3 görünür yanıtlarıdır. Bu STATE bir terim arşivi veya yanıt teslim/alım makbuzu değildir. Yeni oturum bu üç çıktıya erişebiliyorsa tamamını okur; yalnız buradaki özeti onların yerine koymaz. Erişilemiyorsa hafızadan liste/tanım yeniden kurulmaz. İlk pilotun belgelenmiş yöntem dersleriyle B3'e geçilebilir; ancak ilk pilot terimlerini yeniden kullanmak veya kalıcı seri kayda almak gerekirse sabit kaynaklardan yeniden kaynak-kontrollü çıkarım yapılır ve bunun yeniden üretim olduğu belirtilir. B1 sırf önceki sohbet görünmüyor diye yapılmamış sayılmaz; önceki aktörün okuması da yeni aktörün okuması sayılmaz.
 
-Pilot kullanım kayıtları repo içinde değildir. P1-T1 görünür cevabı ve P1-T2 paket-içi ilişki eki erişilebiliyorsa tamamı okunur; yalnız STATE'teki bu özet veya kayıt adedi bunların yerine geçmez. Görünür cevabın erişilebilir olduğu ayrıca kontrol edilir; STATE'in onu anması cevabın teslim/alım doğrulaması değildir.
+Yeni oturum yolu: AGENT ve tetiklenen protokoller → concepts/INDEX → bu STATE → CHARTER → ORIGIN → METHOD → PLAN → SETUP-REVIEW → B3'ün güncel araştırma girişleri ve gerçek dosya envanteri. Bunlar yeni oturumda tam okunur. Aynı konuşmada değişmemiş tam okumalar mekanik olarak tekrarlanmaz. Zorunlu kaynak/kontrol erişilemezse eksik bilgi uydurulmaz.
 
-Yeni oturum konuşma dökümüne erişemiyorsa onu hafızadan yeniden oluşturma veya kullanım listesi tamamlanmış kabul etme. Sabit kaynak ref ve yukarıdaki dosyalardan gerekli okumayı/çıkarımı yeniden yap; bunun yeniden üretim olduğunu açık tut. Daha önceki actor'ın tam okuma kaydı, yeni actor'ın kaynakları gerçekten gördüğü anlamına gelmez. Pilotun chat-only sınırını aşarak sessizce yeni TERMS arşivi oluşturma.
+## Yayın ve önceki checkpoint'ler
 
-## Yeni oturum yolu
+Hazırlık başlangıcı `c7e5d02a5be15b4b938c2796e3c274b04aa4bca4`; hazırlık incelemesi `0ab0a7759fba6c680cd4ab0cae5ba21d001b4be6`; hazırlık kapanışı/pilot kaynak ref'i `ac64fb9223cfa797e7eaabcdcbbf8bac3cc3ef0a`. SETUP-REVIEW'in kapsam dışı iki satır düzeltmesi ve statik kontrol sınırı korunur.
 
-AGENT.md ve tetiklenen protokoller → concepts/INDEX.md → bu STATE → CHARTER.md → ORIGIN.md → METHOD.md → PLAN.md → SETUP-REVIEW.md → mevcut pilotun görünür P1-T1/P1-T2 çıktıları ve gerekli kaynak dosyaları.
+P1-T1 STATE checkpoint'i `6031f8c5a044ebbbe2959b8483e432535f631171`; P1-T2 `ca8be1b5f3fad60905a13ef8556d26af01b6643d`. Ayrıntılı eski ilerleme/yönelim kayıtları bu commitlerdeki concepts/STATE.md'den geri alınabilir; tarihsel aşama yetkisi değildir. Bu kapanış mevcut kaynak envanterini ve açık epistemik sınırları yukarıda korur.
 
-Bu giriş dosyaları yeni oturumda tam okunur. Aynı oturumda tam okunmuş ve değişmemiş içeriklerin yeniden okunması mekanik zorunluluk değildir; maddi değişiklikte canonical içerik geri kazanılır. Önce main ile okuma snapshot'ı arasındaki ilgili dosya değişimini kontrol et; eski kullanımları yeni sürüme sessizce yükseltme. Arşivlenmiş eski concepts kararları devam noktası değildir. Zorunlu kontrol veya gerekli kaynak erişilemiyorsa eksik bilgi uydurulmaz.
-
-## Yayın ve doğrulama bağlamı
-
-Hazırlık başlangıcı: c7e5d02a5be15b4b938c2796e3c274b04aa4bca4. Hazırlık statik incelemesi: 0ab0a7759fba6c680cd4ab0cae5ba21d001b4be6; hazırlık STATE kapanışı / bu pilotun okuma snapshot'ı: ac64fb9223cfa797e7eaabcdcbbf8bac3cc3ef0a. Hazırlığın iki kapsam dışı satır düzeltmesi ve kontrol sınırları SETUP-REVIEW'de korunur.
-
-P1-T1'de paket içeriği kaynak üzerinden okundu, ancak external factual revalidation, bağımsız aktör incelemesi, tam extraction-coverage testi veya yeni-oturum davranış deneyi yapılmadı. P1-T1 STATE yayını 6031f8c5a044ebbbe2959b8483e432535f631171 commitinde geri okundu ve karşılaştırmada yalnız STATE değişikliği görüldü. METHOD v0.1-draft henüz doğrulanmış yöntem değildir.
-
-## P1-T2 — Yönelim denetimi ve kaynak-içi devam
-
-Kullanıcı, çalışmanın her terime derin araştırma açmaya dönüşmemesini; incelenen araştırmanın ortaya koyduğu yapının mümkün olduğunca görünür kılınıp sonraki araştırmaya geçilmesini istedi. Bunu kaliteyi azaltma, sıradaki kapsam kontrolünü iptal etme veya pilotu hemen kapatma talebi olarak sunmadı; risk yoksa devam, varsa önce konuşma istedi.
-
-Tur başlangıcında main, P1-T1'in 6031f8c5a044ebbbe2959b8483e432535f631171 commitine göre değişmemişti. AGENT güncel içerikle yeniden okundu; aynı konuşmada tam yüklenmiş protokoller geçerliydi. METHOD, PLAN, CHARTER ve STATE güncel sabit ref üzerinden tam tekrar okundu. Önceki görünür P1-T1 dökümüyle karşılaştırıldı. Sonuç: bağımsız genel terim araştırmasını gerektiren bir hüküm veya P1-T1'de böyle bir dış araştırma genişlemesi saptanmadı. METHOD §1/§3 kullanımı araştırma bağlamına bağlı tutuyor; §5 anlam belirsizliğini okuma eksiğinden ayırıyor. Genel muhakeme kontrolleri bu yetkili kapsamın yerine geçmez. Bu inceleme gelecekteki drift'in imkânsız olduğunu göstermez.
-
-Kalan B1 kontrolü bu sınırla sürdürüldü: aynı araştırmanın 04-CROSS-LAYER-SYNTHESIS.md dosyası 1–125, 201–400 ve 401–448 satırları kaynak tarafından yeniden kontrol edildi; blob 293ca01ac04952417d9d56b3c79c5f195dd6da35, P1-T1 ile aynı. Diğer bölümlerin aynı konuşmadaki tam okuması korunuyor; bu tur yeni tam-paket okuması iddia edilmiyor. P1-T2 konuşma eki, paketin ayrım ve ilişkilerini bir arada gösterir; yeni bağımsız teknik bulgu, kabul edilmiş mimari veya araştırmalar arası ortak tanım değildir. Terim/ilişki kayıtları bu STATE içine taşınmadı.
-
-Önemli yorum açıklığı: kaynakta birlikte kullanılan nesne, faaliyet ve sorumlulukların ilişkisini görünür kılmak derin terim araştırması değildir. Kaynağın kendi anlam sınırını aşan çözülmemiş genel tanım sorusu, sadık aktarımın tamamlanması için zorunlu iş haline getirilmez. Eksik kaynak aktarımı ile kaynağın açıklamadığı anlam birbirine karıştırılmaz. P1-T1'in kapsam kontrolü sürüyor; ne bütün envanter ne ilk pilot bu uyarı nedeniyle tamamlandı sayıldı.
-
-Yalnız STATE güncellenir; METHOD/PLAN/CHARTER, protokoller ve studies dosyaları değiştirilmez. Kalıcı TERMS/READING veya yeni branch yoktur. Yayın sonrasında değişiklik farkı ve bu devam kaydı geri okunarak kontrol edilir. İkinci pilot başlamadı; B2 henüz yapılmadı.
+P1-T3 yayın öncesi main checkpoint'i `6f248ca8b42914a1c3a0a50904a72736bd5373d8`; eşzamanlı ECC değişiklikleri korunur. METHOD v0.2 commit'i `839e760a2e306e0011826501f4580b841ecc2f04`; PLAN v0.2 commit'i `67351f0808dd8175d3297f03258d49379a23ad56`. Bu STATE yayını onları takip eder. Yayın doğrulaması dosyaların geri okunması ve kendi commitlerinin fark/kapsam kontrolüdür; gerçek yeni-oturum veya bağımsız araştırma doğrulaması değildir.
