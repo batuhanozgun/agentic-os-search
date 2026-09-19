@@ -53,7 +53,7 @@ Bu listeler D2'nin kendi seçenek dilini kaydeder; uygulanmış veri modeli değ
 
 | Kimlik / özgün ifade | Bu bağlamdaki karşılık | Kaynak / sınır |
 |---|---|---|
-| D2-U13 — Episodic memory | Belirli geçmiş etkileşim, yürüyüş veya olayın bilgisi. | D2 §5.1; Reflexion'ın episodic buffer kullanımı S6'ya atıf. API 401/token scope cümlesi açıklayıcı örnek, gerçek bu-tur gözlemi değil. |
+| D2-U13 — Episodic memory | Belirli geçmiş etkileşim, eylem/gözlem dizisi (trajectory) veya olayın bilgisi. | D2 §5.1; Reflexion'ın episodic buffer kullanımı S6'ya atıf. API 401/token scope cümlesi açıklayıcı örnek, gerçek bu-tur gözlemi değil. |
 | D2-U14 — Semantic / fact memory | Tekil olaydan soyutlanmış, daha genel bilgi. | D2 §5.2: araştırma sınıflaması. Bir cümlenin fact olarak yazılması doğruluğunu kendiliğinden sağlamaz. |
 | D2-U15 — Procedural / workflow memory | Bir işin nasıl yapılacağına ilişkin bilgi. | D2 §5.3; workflow knowledge/environment gotchas S7'ye atıf. Örnek release sırası genel veya bize verilmiş talimat değil. |
 | D2-U16 — Working/session state | Mevcut işin ilerleme, plan, bekleyen çağrı, hesap notu ve geçici hipotezleri. | D2 §5.4. Kalıcılık süresi uzun dönem olgu belleğinden farklı olabilir; long-term belleğe otomatik terfi yok. |
@@ -88,7 +88,7 @@ Bu alanlar D2 §8 ve §23'ün listelerindendir. Açıklamalar alan adlarının o
 | D2-U23 — CAG / prompt cache / KV cache | .a CAG, .b prompt cache, .c KV cache: araştırmada tekrarlanan hesaplama/bağlamın yeniden kullanımıyla ilişkilendirilen adlar. KV cache için model/prefix/runtime kimliğine bağlılık ve invalidation ihtiyacı belirtilir. | §11, §26/F-MEM-08; önceki CAG araştırması. Kaynak bunları bu bölümde ayrıntılı karşılaştırmaz; eş anlamlı ilan edilmez. Persistent computational state, semantic fact store veya source authority ile aynı değil. |
 | D2-U24 — Long Context | Aynı inference bölümü içindeki geniş mevcut çalışma kümesi. | §12, §26/F-MEM-09. Zaman içindeki survival/update/read problemiyle karşılaştırılır; büyük pencere kalıcı bellek yaşam döngüsünün tamamı değil. |
 | D2-U25 — Virtual context / hierarchical memory | Sınırlı hızlı bağlam ile daha büyük harici bellek arasında veri hareketiyle bağlam sınırını yönetme. | §12 ve §29/S4, MemGPT'ye atıf. İşletim sistemi benzetmesi kesin uygulama reçetesi değil. |
-| D2-U26 — Parametric memory / Fine-Tuning / parametric adaptation | .a model ağırlıklarına ilişkin memory adlandırması; .b ağırlıkları değiştiren fine-tuning; .c memory-like persistence sağlayabilen parametrik uyarlama. | §13. Araştırmanın operational bellek yaşam döngüsüyle ayırdığı yüzey; internal/external geniş §3 tanımıyla kapsam farkı §10'da ayrıca açık tutulur. |
+| D2-U26 — Parametric memory / Fine-Tuning / parametric adaptation | .a model ağırlıklarına ilişkin memory adlandırması; .b ağırlıkları değiştiren fine-tuning; .c memory-like persistence sağlayabilen parametrik uyarlama. | D2 §13. Araştırmanın operational bellek yaşam döngüsüyle ayırdığı yüzey; internal/external geniş D2 §3 tanımıyla kapsam farkı bu kullanım dosyasının §10'unda ayrıca açık tutulur. |
 | D2-U27 — External memory | Kaynak kimliği taşıyabilen, incelenebilen, sürümlenebilen, güncellenebilen/silinebilen harici içerik. | §13: karşılaştırmalı araştırma anlatımı. Özellikle olabilir niteleyicisi korunur; her harici deponun bu özellikleri sağladığı doğrulanmıyor. |
 | D2-U28 — Reflection memory / verbal reflection | Gözlem veya görev geri bildiriminden model yorumu yoluyla türetilip saklanan düşünsel ders/yansıtma. | §14, §4.4, §29/S2/S6. Fayda açıklaması dış çalışmalara atıf; yanlış nedensel ders, aşırı genelleme, self-assessment ve tekrar güçlenme riskleri araştırma değerlendirmesi. |
 
@@ -149,10 +149,10 @@ Aşağıdaki tablo D2'nin araştırma çerçevesini aktarır. Sütunlardaki high
 | D2-P04 — Session scratch | Geçici/kısa ömürlü | low | accidental promotion |
 | D2-P05 — Agent reflection | Faydalıysa türetilmiş kalıcı not | low until verified | self-reinforcement |
 | D2-P06 — Tool/environment gotcha | Aday öğrenilmiş prosedür | medium after validation | obsolete workaround |
-| D2-P07 — User/project stable preference | Kapsamlı/sınırlandırılmış bellek | context-dependent | privacy/staleness |
+| D2-P07 — User/project stable preference | İlgili kişi/proje kapsamıyla sınırlandırılmış bellek | context-dependent | privacy/staleness |
 | D2-P08 — Historical state | Arşiv | historical only | current contamination |
 
-D2-P07'de scoped memory, çok kapsamlı bellek değil, ilgili kişi/proje kapsamıyla sınırlandırılmış bellek anlamında aktarılır. P02'de accepted bir kararın kaynak tarafından kabul edilmiş olarak nitelenmesi, bu concepts kaydının karar verdiği anlamına gelmez.
+D2-P07'nin özgün ifadesi scoped memory'dir; kapsamın genişliğini değil, ilgili kişi/proje ile sınırlandırılmasını anlatır. P02'de accepted bir kararın kaynak tarafından kabul edilmiş olarak nitelenmesi, bu concepts kaydının karar verdiği anlamına gelmez.
 
 ## 9. Adlandırılmış fakat genel tanımı kurulmamış kullanımlar
 
@@ -198,6 +198,8 @@ D2 §20–22'nin SOUL/Development OS ifadeleri aday proje rolleri ve tarihli rep
 ## 11. Değişiklik ve tamamlanma sınırı
 
 B6-T1 context kayıtları yeniden numaralanmadı veya ortak tanıma çevrilmedi. Bu dosya D2'den yeni kalıcı kaynak kontrollü çıkarımdır. Kaynak noktaları, atıf/araştırma/yeni yorum ayrımı; tekil kayıt, zaman alanları, doğrulama dili, koşullu proje sınıfları ve iki handoff kullanımı açıklaştırıldı. Önceki pilotta not edilmiş tekil memory, canonical-state gerilimi ve bilgi/metadata devri burada kaynaktan yeniden ele alındı; özgün pilot satırlarını aynen aktardığımız söylenmiyor.
+
+**Yayın geri okumasındaki sınırlı düzeltme:** U13'ün trajectory karşılığı eylem/gözlem dizisi olarak açıklaştırıldı; P07'de scoped memory için kapsam genişliğini çağrıştırabilecek ifade yerine kişi/proje ile sınırlandırılma yazıldı; U26'daki yerel §10 atfı D2 §10 ile karışmayacak biçimde belirtildi. Eski kaynak anlamı veya kayıt kimlikleri değiştirilmedi; bu bir bağımsız doğrulama değil, aktarım açıklığı kontrolüdür.
 
 **Tamamlanan:** D2'nin bu sürümündeki §1–30 kullanım/ilişki dökümü ve kaynak tarafından kapsam kontrolü. **Tamamlanmayan:** bütün CMH paketinin kalıcı aktarımı, D3/D4 ve paket-geneli son kontrol; eski pilot kimliklerine birebir eşleştirme; bütün studies çıkarımı veya ortak tanımlar. Kaynağın tanımlamadığı genel anlamı açık bırakmak okuma eksikliği değildir.
 
