@@ -114,7 +114,7 @@ Mevcut Foundation, SOUL / Development OS design, architecture, implementation, b
 1. önce `research/studies/CATALOG.md` ile adayları daralt;
 2. yalnız ilgili adayların `META.md` dosyalarını oku;
 3. gerekiyorsa package `STATE.md` / `INDEX.md` üzerinden ilgili finding/evidence'e in;
-4. load-bearing claim güncel dış olguya bağlıysa canonical external source'a dön;
+4. load-bearing claim güncel dış olguya bağlıysa canonical external source'u yeniden doğrula;
 5. candidate study'yi mevcut Foundation/current project authority ile birlikte değerlendir;
 6. ilgisiz yüzlerce study'yi körlemesine context'e yükleme.
 
