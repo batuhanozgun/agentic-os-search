@@ -148,7 +148,7 @@ Protocol:
 
 ### R09 — Candidate Research Library Continuity and Reuse
 
-**Could this turn create, update or classify a candidate study outside `research/soul-context/**` and `research/soul-foundations/**`, or could current Foundation/design/architecture/implementation work materially benefit from previously catalogued candidate studies?**
+**Could this turn concern the separately authorised concepts term-extraction/shared-reference programme, create, update or classify a candidate study outside `research/soul-context/**` and `research/soul-foundations/**`, or could current Foundation/design/architecture/implementation work materially benefit from previously catalogued candidate studies?**
 
 Protocol:
 
