@@ -8,9 +8,9 @@ This contract governs package shape and metadata only. It does not make candidat
 
 ## Separately authorised concepts programme
 
-The owner-authorised term-use research → synthesis → shared-reference programme lives under [`concepts/`](../../concepts/INDEX.md), using its own [STATE](../../concepts/STATE.md) and [METHOD](../../concepts/METHOD.md). Its dossiers are not duplicate candidate-study packages: this contract does not require a second META, CATALOG row or copy under studies solely for that programme.
+The programme restarted on 2026-09-19 lives under [`concepts/`](../../concepts/INDEX.md). Its own [STATE](../../concepts/STATE.md) preserves current authority and phase; [CHARTER](../../concepts/CHARTER.md), [METHOD](../../concepts/METHOD.md) and [PLAN](../../concepts/PLAN.md) preserve purpose, provisional method and sequencing. First, every scoped studies research package is fully read and its term/jargon uses extracted in its own context. Only after all extraction is complete are the outputs read together for shared-reference assessment. The former concepts method is not a continuation point; preparation and conversation-only method pilots do not imply completed extraction or accepted meanings.
 
-This exception does not relocate existing studies or reclassify an ordinary focused-topic study merely because it concerns a concept. Source research remains in its existing package and can be linked at the needed depth. Common-use acceptance is not study validation, Foundation adoption or architecture authority.
+Its research-specific extraction records are not duplicate candidate-study packages: this contract does not require a second META, CATALOG row or copy under studies solely for that programme. This exception does not relocate existing studies or reclassify an ordinary focused-topic study merely because it concerns a concept. Source research remains in its existing package; source use, prior research commentary and new interpretation stay distinguishable. Common-use acceptance is not study validation, Foundation adoption or architecture authority.
 
 ## Required package surface
 
@@ -184,8 +184,8 @@ Typically re-check before load-bearing adoption when conclusions depend on:
 - current APIs/providers;
 - repository HEAD/version;
 - pricing/free tier;
-- current license/terms;
 - security/privacy behavior;
+- current license/terms;
 - rapidly changing model/library capabilities;
 - current benchmark results;
 - current standards/spec versions.
