@@ -1,6 +1,6 @@
 # Concepts — Hazırlık ve yürütme planları
 
-Sürüm: v0.3-working, 2026-09-19. B1/B2 ve B3/B4 tamamlandı; seri çıkarım hazırlığı sıradadır. Güncel tamamlanma/yetki yalnız STATE.md'dedir. Bu plan eski concepts çalışmasının devamı değildir. Kaynak yetki ORIGIN.md/U01–U05 ve sonraki devam/kapsam açıklamaları; gerekçe CHARTER.md. İki pilotun tamamlanması ortak terim tanımı, bağımsız yöntem doğrulaması veya mimari kabul değildir.
+Sürüm: v0.3-working, 2026-09-19. B1/B2 ve B3/B4 tamamlandı; B5 kapsam kaydı oluşturuldu ve B6 kalıcı aktarımı başladı. Güncel tamamlanma/yetki yalnız STATE.md'dedir. Bu plan eski concepts çalışmasının devamı değildir. Kaynak yetki ORIGIN.md/U01–U05 ve sonraki devam/kapsam açıklamaları; gerekçe CHARTER.md. İki pilotun tamamlanması ortak terim tanımı, bağımsız yöntem doğrulaması veya mimari kabul değildir.
 
 ## Plan A — Repo hazırlığı
 
@@ -78,3 +78,4 @@ Sohbet içi kayıtlar çok turlu ve parçalıydı; bu pilotların bilinçli sın
 - R2, 2026-09-19: U05 ile repo hazırlığı pilotlardan önce yetkilendirildi; o checkpoint'te yöntem taslak, pilotlar bekliyordu. Eski etkin yönlendirmeler kaldırıldı. Bu tarihsel durum yeni next değildir.
 - R3, 2026-09-19: P1-T3/B2 ile kullanım–ilişki beraberliği, kaynak/yorum statüleri, niteleyiciler, kaynak tarafından kapsam hesabı ve kaynakla sınırlı durma ölçütü v0.2-draft'a eklendi.
 - R4, 2026-09-19: P2-T5/B4 ile ikinci pilotun 52 dosyalık kaynak kapsamı kontrolü kapatıldı; METHOD v0.3-working ve kalıcı SCOPE/READING/TERMS düzeni seçildi. B5 sıradadır; kalıcı terim envanteri ve ortak referans başlamadı. Bu karar, yöntem değişikliklerinin bağımsız doğrulandığı veya kullanıcı tarafından ayrıca teknik olarak onaylandığı iddiası değildir.
+- R5, 2026-09-19, yürütme kaydı: SCOPE/S1 gerçek studies kök ve alt paket ağaçlarıyla kaynak evrenini/sahipliğini bağladı; dosyaların eksiksiz yaprak envanteri her yerel READING'de açılır. B5 kapsam ve sıra hazırlığı teslim edildi. B6-T1 ilk pilotun context bölümünü kaynak kontrolüyle TERMS'e, sekiz dosyalık kapsamı ve açık aktarımı READING'e kaydetti. Yöntem v0.3-working değişmedi; kalıcı ilk paket hâlâ kısmi, diğer seri paketler ve B7/B8 bekliyor. Ayrıntılı current state global STATE ve yerel READING'dedir.
