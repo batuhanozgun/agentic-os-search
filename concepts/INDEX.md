@@ -12,20 +12,29 @@ Bu alan 2026-09-19 konuşmasıyla sıfırdan başlatıldı. Eski concepts listes
 4. [METHOD.md](METHOD.md) — okuma/çıkarım/yorum izleme yöntemi, pilot değerlendirmeleri ve aşama geçiş koşulları.
 5. [PLAN.md](PLAN.md) — repo hazırlığı ile yürütmenin ayrı planları; pilotlar, kalıcı düzen ve seri çıkarım sırası.
 6. [SETUP-REVIEW.md](SETUP-REVIEW.md) — hazırlığın tarihsel kontrol kapsamı, korunmuş alanlar ve doğrulama sınırları.
+7. [SCOPE.md](SCOPE.md) — kaynak-sürümlü seri kapsam, paket/alt çalışma/taşınma ilişkileri, sıra ve değişiklik takibi.
 
-Sonraki araştırma ve gerekli kaynak derinliği STATE'den seçilir. İlgili study'nin güncel META/STATE/INDEX'i ve gerçek dosya envanteri devralınır. Katalog veya eski sohbet özeti tam araştırma okuması sayılmaz.
+Sonra STATE'in gösterdiği etkin paketin READING.md ve TERMS.md dosyalarını tam oku. İlgili study'nin güncel META/STATE/INDEX'i, gerçek dosya envanteri ve gereken kaynak derinliği devralınır. Katalog, çalışma özeti veya dosya sayısı tam araştırma okuması sayılmaz. Aynı konuşmada tam ve değişmemiş kaynakları mekanik tekrarlama; yeni oturumda gerekli gerçek içerikleri geri kazan.
 
 ## Rolleri karıştırma
 
-ORIGIN kaynak taleptir; CHARTER amaç konsolidasyonudur; METHOD çalışma yöntemi ve değerlendirme kaydıdır; PLAN aşama sırasıdır; STATE current authority'dir; SETUP-REVIEW tarihsel hazırlık kontrolüdür. Hiçbiri ortak kabul edilmiş terim tanımı veya mimari kararı değildir. Bu alan project-work layer'dır, agent-control değildir.
+ORIGIN kaynak taleptir; CHARTER amaç konsolidasyonudur; METHOD çalışma yöntemi ve değerlendirme kaydıdır; PLAN aşama sırasıdır; STATE global current authority'dir; SCOPE kaynak evreni ve sahipliktir; SETUP-REVIEW tarihsel hazırlık kontrolüdür. Yerel READING paket okuma/aktarım durumunu, TERMS ise kullanımları taşır. Hiçbiri ortak kabul edilmiş terim tanımı veya mimari kararı değildir. Bu alan project-work layer'dır, agent-control değildir.
 
-Güncel durum yalnız STATE'den alınır. Bir dosyanın veya yöntem sürümünün varlığı, bütün seri çıkarımın yapıldığı, yöntemin bağımsız doğrulandığı veya ortak referansın oluştuğu anlamına gelmez. ORIGIN/SETUP-REVIEW içindeki pilotlar henüz başlamadı ifadeleri hazırlık checkpoint'ini anlatır; bugünkü next değildir.
+Global güncel iş STATE'den alınır. Bir dosyanın veya yöntem sürümünün varlığı, bütün seri çıkarımın yapıldığı, yöntemin bağımsız doğrulandığı veya ortak referansın oluştuğu anlamına gelmez. ORIGIN/SETUP-REVIEW içindeki pilotlar henüz başlamadı ifadeleri hazırlık checkpoint'ini anlatır; bugünkü next değildir. SCOPE'un başlangıç durumları da yerel current READING'nin yerine geçmez.
 
-## Seri kayıtların yerleşimi
+## Mevcut seri kayıtlar
 
-B4'te kararlaştırılan yerler: global kapsam için concepts/SCOPE.md; araştırma bazında concepts/studies/<araştırma-yolu>/READING.md ve TERMS.md. SCOPE paket/alt çalışma/sürüm hesabını; READING gerçek okumayı ve kaynak tarafından kapsam kontrolünü; TERMS bağlamlı kullanımları, ilişki görünümünü ve yorum değişikliklerini taşır. Büyük kayıtlar girişleri korunarak bölünebilir.
+[SCOPE.md](SCOPE.md) artık oluşturulmuştur. Kaynak ağacı ve bütün kapsamın sahipliği burada; her paketin yaprak dosyaları kendi READING envanterinde açılır. Global kapsamı bilmek bütün dosyaları okumuş olmak değildir.
 
-Bunlar B5/B6'da gerektikçe oluşturulacak yerlerdir; bu paragraf onların zaten var olduğunu göstermez. Pilotların özgün içerikleri konuşmadadır. Kalıcı aktarımda görünür çıktılar ve bütün ek/düzeltmeler kaynak sürümüne karşı kontrol edilir; erişilemeyen eski yanıt STATE özetinden uydurulmaz. Pilot kapanışını yeniden bütün araştırmayı başlatma nedeni yapma; gereken kaynak/çıktı recovery'sini METHOD ve STATE'e göre yürüt.
+| Paket | Yerel durum ve kaynak hesabı | Bağlamlı kullanımlar |
+|---|---|---|
+| context-memory-harness-engineering | [READING.md](studies/context-memory-harness-engineering/READING.md) | [TERMS.md](studies/context-memory-harness-engineering/TERMS.md) |
+
+Bu tablo yalnız gerçekten oluşturulmuş kayıtları gösterir; paketin tamamlandığı anlamına gelmez. Kalıcı kayıtları henüz oluşturulmamış paketlerin sırası SCOPE'dadır. Kapanış veya kısmi durum ilgili READING'den alınır.
+
+B4'te kararlaştırılan yerleşim korunur: concepts/studies/<araştırma-yolu>/READING.md ve TERMS.md. READING gerçek okumayı ve kaynak tarafından kapsam kontrolünü; TERMS bağlamlı kullanımları, ilişki görünümünü ve yorum değişikliklerini taşır. Büyük kayıtlar girişleri korunarak bölünebilir.
+
+Pilotların özgün içerikleri konuşmadadır. Kalıcı aktarımda görünür çıktılar ve bütün ek/düzeltmeler kaynak sürümüne karşı kontrol edilir; erişilemeyen eski yanıt STATE özetinden uydurulmaz. Pilot kapanışını yeniden bütün araştırmayı başlatma nedeni yapma; gereken kaynak/çıktı recovery'sini METHOD ve yerel READING'ye göre yürüt.
 
 ## İki çalışma riski
 
