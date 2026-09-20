@@ -1,6 +1,6 @@
 # gstack — Okuma ve kalıcı çıkarım durumu
 
-2026-09-20, **B6-T14 / SOURCE-READ-COMPLETE / DURABLE-EXTRACTION-ACTIVE**.
+2026-09-20, **B6-T14 / SOURCE-READ-COMPLETE / DURABLE-EXTRACTION-COMPLETE / PACKAGE-COMPLETE**.
 
 Bu dosya `research/studies/gstack/` paketinin concepts programı açısından gerçek kaynak/okuma hesabını taşır. Kaynak araştırmanın kendi bounded-complete durumu ile concepts çıkarım durumu ayrıdır.
 
@@ -133,8 +133,10 @@ Concepts açısından kapanış ancak:
 
 olduğunda verilir.
 
-B6-T14 source reading bu eşiği karşılıyor; TERMS parçalarının publication/readback/diff kontrolünden sonra package durable-complete olarak işaretlenir.
+B6-T14 source reading ve TERMS aktarımı bu eşiği karşılıyor. Beş linked TERMS parçası ve ana TERMS main'e yayımlandı; readback ile dosyaların varlığı/kimliği ve package linkage kontrol edildi. Global INDEX/STATE kapanışı sonrasında gstack durable-complete olarak devralınır.
 
 ## 9. Devralma
 
-Bu tur tamamlandığında normal seri devam `research/studies/hermes-agent/` paketidir. gstack yalnız durable-complete source olarak geri çağrılır; later upstream current-state claim için pinned package yerine revalidation gerekir.
+Normal seri devam `research/studies/hermes-agent/` paketidir. gstack yalnız durable-complete source olarak geri çağrılır; later upstream current-state claim için pinned package yerine fresh revalidation gerekir.
+
+Publication checkpoints: READING create `70a88ca3d28a59ef24632217e7beb8c24218bfc4`; WORK-DELIVERY `f5496deeadcb0c8f5d2d4a293e1fc30703b94807`; RUNTIME-CONTROL `b3e8e994c83c3c6da9b8dcec525a995d48193c58`; EVIDENCE-CONTINUITY `782a2647adbd36121221377f6d8868b34ec19ce4`; COORDINATION-PORTABILITY `ac6038bd16d4c52b461da3dab6a3cb4eebaa81ec`; SYSTEM `f4e9d8d748c424d719e9e5dcdce13bd7a9b58d47`; TERMS entry `2a127d4333c22e27cf1712089b48247e0bcc35cd`.
