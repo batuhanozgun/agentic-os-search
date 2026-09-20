@@ -81,6 +81,7 @@ Do not load every study merely because the library exists. The explicitly author
 | gstack implemented agentic software factory / qualification-control-runtime case | `gstack/META.md` | `CORE.md` → `INDEX.md` → relevant synthesis / revalidation / source ledger |
 | Hermes Agent runtime and learning mechanisms — active, partial research | `hermes-agent/META.md` | `STATE.md` → `INDEX.md` → plan / source ledger / bounded mechanism notes |
 | Superpowers portable development skills and host-conditioned workflow — active, partial research | `superpowers/META.md` | `STATE.md` → `METHOD.md` / `PLAN.md` → `SOURCE-LEDGER.md` / bounded mechanism notes |
+| Ponytail minimal-implementation / reuse-first coding discipline — planned | `ponytail/META.md` | decision ladder, portable skill/plugin delivery and first-party benchmarks; detailed research not started |
 | Multi-agent coordination / control patterns | `multi-agent-patterns/META.md` | assessment / conversation synthesis |
 | Hands-On LLM repository as evidence/reference corpus | `hands-on-large-language-models/META.md` | repository research → SOUL/DevOS assessment |
 | Public/free API discovery catalogue | `public-apis/META.md` | `RESEARCH.md` → current upstream repository/docs |
@@ -150,6 +151,7 @@ Completion of a study never authorizes adoption.
 - `openproject/`
 - `openspec/`
 - `openviking/`
+- `ponytail/`
 - `public-apis/`
 - `recursive-prerequisite-discovery/`
 - `spec-kit/`
