@@ -75,7 +75,7 @@ Göreli bağlantılar current dosyayı açar; exact içerik aynı yolun yukarıd
 |---|---|---|
 | ECC-TL36 — template max_parallel_sessions check | Mevcut sayılan session'ları limitten düşüp bütün step sayısını kalan kapasiteyle karşılaştıran kontrol. Scheduler'ın yalnız due-batch limit kullanımıyla aynı değildir. | N23 §4; LE capacity / K/Y |
 | ECC-TL37 — counted session population | Pending, Running, Idle ve Stale kayıtlarının kapasite hesabına girmesi. Yalnız live process sayısı veya bütün completed görev nüfusu değildir. | N23 §4; LE capacity / K |
-| ECC-TL38 — remaining slots / whole-template refusal | Gözlenen boş slot sayısı bütün step'lere yetmiyorsa yeni loop başlamadan ret. Sıralı normal caller için gerçek korumadır; daha sonra slotların rezerve edildiği anlamına gelmez. | N23 §4, §6; LE capacity / K/Y |
+| ECC-TL38 — remaining slots | Limitten mevcut sayılan session'lar düşülerek elde edilen gözlenmiş boş slot sayısı. Bir miktardır; yetersizliğinde bütün template'i reddetme işlemi TL74, reservation sınırı TL39'dadır. | N23 §4; LE capacity / K/Y |
 | ECC-TL39 — observed capacity versus reservation | Read/check ile sonraki session insert'leri arasındaki sahiplik ayrımı. İki caller aynı boşluğu görebilir; lower queue bu kontrolü multi-caller claim'e çevirmiyor. Koşullu karşı-örnektir, oversubscription testi değildir. | N23 §4; LE capacity / Y/K |
 | ECC-TL40 — source anchor in capacity | Önceden var olan source session'ın sayılan nüfusa girdiği durumda kapasiteyi tüketmesi. Anchor kullanmak otomatik ücretsiz slot veya dışsal bir kimlik demek değildir. | N23 §4; LE capacity / K/Y |
 | ECC-TL41 — worktree capacity | Session-budget kontrolünden ayrı çalışma ortamı kapasitesi. Session slot'u olması hemen worktree, ready harness veya sırayla tamamlanma sağlamaz. | N23 §4; LE capacity / K/Y |
@@ -92,7 +92,7 @@ Göreli bağlantılar current dosyayı açar; exact içerik aynı yolun yukarıd
 | ECC-TL47 — direct new-session creation | Template'in step'leri assignment/delegate reuse selector'ından geçirmeden yeni session olarak oluşturması. Anchor etiketi o başka selector'ın ownership veya seçim kontrollerini bu yola eklemez. | N23 §5; LE binding / K/Y |
 | ECC-TL48 — task through launch path | Yeni child'ın görev metnini initial launch yolundan alması. Ek handoff kaydının actual consumption/acknowledgement'ı değildir. | N23 §5; LE binding; BC20 / K/Y |
 | ECC-TL49 — additional template handoff | Launch girdisinden ayrı oluşturulan mesaj/ilişki kaydı. Optional backlog controller ile etkileşimi BC21–BC26'nın enabled-automation/consumer sınırlarıyla okunur; her template'in tekrar iş ürettiği söylenmez. | N23 §5; LE binding; N22 bağlantısı / K/Y |
-| ECC-TL50 — predecessor completion/acceptance | Sonraki step'ten önce önceki işin bitişini/output'unu/kabulünü kontrol etme sorusu. İncelenen loop bunu admission wait'ine eklemiyor; yeni workflow dependency mekanizması benimsenmedi. | N23 §5; LE binding / Y/K |
+| ECC-TL50 — predecessor completion | Sonraki step'ten önce önceki process'in bitmesini bekleme sorusu. İncelenen loop admission dönüşünü bekler, process bitişini değil. Biten işin çıktısının kabul edilmesi TL73'te ayrı tutulur. | N23 §5; LE binding / Y/K |
 | ECC-TL51 — output-dependent variable | Önceki step sonucuyla sonraki girdiyi üretme sorusu. Task substitution baştan tamamlandığından bu path içinde launch sonrası predecessor output'una bağlı yeniden substitution gösterilmez. | N23 §2, §5; LE binding / Y/K |
 | ECC-TL52 — planner/reviewer step names | Kaynak fixture'ındaki rol açıklayıcı adlar. Reviewer adının bulunması planner'ın accepted plan'ını bekleyen mekanik gate kurmaz. | N23 §1, §5, §7; LE CFGTEST / T/Y |
 
@@ -127,7 +127,7 @@ Göreli bağlantılar current dosyayı açar; exact içerik aynı yolun yukarıd
 
 ## 9. Kaynak tarafından kapsam kontrolü
 
-N23 §1 → TL01–TL04/TL03/TL52/TL67; §2 → TL05–TL26/TL51; §3 → TL27–TL35; §4 → TL36–TL43; §5 → TL43–TL52; §6 → TL20/TL53–TL66; §7 → TL67–TL71; §8 → ilişki görünümü ve açık sınırlar. Aynı kullanıma birkaç kaynak noktası yeni kavram veya bağımsız kanıt değildir.
+N23 §1 → TL01–TL04/TL52/TL67; §2 → TL05–TL26/TL51; §3 → TL27–TL35; §4 → TL36–TL43/TL74; §5 → TL43–TL52/TL73; §6 → TL20/TL53–TL66; §7 → TL67–TL71; §8 → ilişki görünümü ve açık sınırlar. LE U11E-W'nin dependency-sync warning karşılığı TL72'dir. Aynı kullanıma birkaç kaynak noktası yeni kavram veya bağımsız kanıt değildir.
 
 LE'nin actual-source/full/selected/incidental/retained/test ayrımları, joined mechanism, regex sözleşmesi ve retrieval sınırları tam okundu. ME yöntem ve discriminator seçimini; PE yayın karşılığını ve reddedilmiş aday/concurrency tarihini taşır. Bunlar aynı ürün iddiasına dört bağımsız destek değildir. Tarihsel catalogue text-emission hataları target mekanizma hatası veya bu turun yayın arızası sayılmadı; eski rejected Git objects yeni branch/merge işi değildir.
 
@@ -135,19 +135,31 @@ Kaynak testlerinin planner/reviewer örneği bir fixture olarak korundu. Örnek 
 
 ## 10. İlişki, karşılıklar ve yorum izi
 
-Ana kaynak akışı: **TL04–TL13 caller/map/context → TL14–TL26 bütün step çözümlemesi → TL27–TL35 profile selection → TL36–TL42 kapasite → TL43 ordered admission → TL44–TL49 anchor/handoff → TL53–TL54 summary**. TL58–TL66, etkiler başladıktan sonraki hata ve retry sınırını taşır. Bu görünüm evrensel workflow mimarisi değildir.
+Kaynak akışı iki düzeyi ayırır: **caller/map/context (TL04–TL13) → loop öncesi bütün-template hazırlığı ve kapasite kontrolleri (TL14–TL26, TL30, TL36–TL40, TL74) → her step için profil seçimi / admission / anchor-handoff (TL27–TL35, TL41–TL49) → başarılı toplu summary (TL53–TL54)**. Global default profilin önceden çözülmesi, her step'in loop içindeki effective profil seçimiyle aynı işlem değildir; hazırlık grubundaki her işlemin kendi arasındaki satır sırası bu özetle ilan edilmez. TL58–TL66, etkiler başladıktan sonraki hata ve retry sınırını taşır. Bu görünüm evrensel workflow mimarisi değildir.
 
 **Olumlu güvenceler ayrı korundu:** unknown template/empty list/recognized missing variable reddi; isimli profile doğrulama ve cycle kontrolü; bütün step'lerin önceden çözülmesi; mevcut session'ları düşen gerçek kapasite kontrolü; explicit profile seçimi; Pending worktree retention; individual cleanup girişimi; alttaki session/profile/message/log kayıtlarının varlığı. Daha güçlü accepted multi-step outcome yokluğu, yeniden kullanılabilir setup işlevini değersiz veya başarısız vaat saymak için kullanılmadı.
 
-**Önceki kayıtlarla sınır:** SC28 scheduler'ın batch limit'idir; TL36 gerçekten mevcut sayılan session'ları düşer. Template'in bu olumlu kapasite kontrolü yine TL39'un concurrency reservation'ı değildir. RD39/RD40 delegate reuse, TL47 direct creation ile aynı işlem değildir. RD38 valid-name/effective-policy ayrımı TL35 ile ilişkilidir, fakat TL31'in explicit-agent/default-profile seçimi ayrı kaynak predicate'idir. N55/N56 insan plan/commit onayı TL50'deki bulunmayan predecessor gate'inin yerine geçmez.
+**Önceki kayıtlarla sınır:** SC28 scheduler'ın batch limit'idir; TL36 gerçekten mevcut sayılan session'ları düşer. Template'in bu olumlu kapasite kontrolü yine TL39'un concurrency reservation'ı değildir. RD39/RD40 delegate reuse, TL47 direct creation ile aynı işlem değildir. RD38 valid-name/effective-policy ayrımı TL35 ile ilişkilidir, fakat TL31'in explicit-agent/default-profile seçimi ayrı kaynak predicate'idir. N55/N56 insan plan/commit onayı TL73'teki bulunmayan predecessor-output gate'inin yerine geçmez.
 
 BC20/BC21 launch input ve companion handoff ayrımı TL48/TL49'da korunur. BC22 repeated forwarding yalnız kendi enabled automation/consumer koşullarıyla geçerlidir; template'in zorunlu davranışı diye genellenmez. SC53, RD29 ve TL55 farklı kalıcı ilişki kapsamlarıdır: remote result_session_id gerçekten vardır; bundan immutable template-run id çıkarılmaz. O serisinin response replay'i, TL65 fresh creation retry değildir.
 
 **Maddi anlam seçimleri:** explicit default agent ile alanı boş bırakmak eşitlenmedi; cwd metni gerçek çalışma dizini yapılmadı; all-step validation all-effect atomicity'ye çevrilmedi; common anchor predecessor dependency sayılmadı. Nested interpolation örneğinin inherited/direct çağrı farkı korundu, genel recursive-template semantics üretilmedi. İlk kaynak karşılaştırmasında önceki TERMS'i yeniden yazmayı gerektiren maddi çelişki saptanmadı. Bu hüküm hatasız/evrensel extraction garantisi değildir; somut source delta veya atlama bulunursa ilgili kayıt yeniden ele alınır.
 
+### İlk source/readback kontrolünün düzeltmesi
+
+İlk yayın **a7fbf6a67dfba609c6651c619c2346b6bd067f99** ilişki özetinde profile selection'ı kapasite ve admission'dan önce tek bir faz gibi gösteriyordu. N23 §3 ve LE profiles, global default hazırlığı ile step başına loop içi seçimi ayırır; ilişki görünümü buna göre düzeltildi. TL27–TL35'in kendi kullanım metinleri zaten bu ayrımı taşıyordu ve değiştirilmedi; TL20/TL36–TL43 ile ilişki kontrol edildi.
+
+Aynı karşılaştırmada TL38'de slot miktarı ile ret işlemi, TL50'de process bitişi ile çıktı kabulü ayrı adreslenmediği için ayrıldı: TL38 miktar/TL74 ret; TL50 completion/TL73 accepted predecessor output. İlişkili TL36/TL39/TL43/TL51/TL52/TL59/TL60 ve N55/N56 yönlendirmesi kontrol edildi. LE U11E-W'deki yalnız uyarı veren dependency-sync sonucu ilk dökümde adreslenmemişti; TL72 eklendi. Kaynak araştırma veya önceki TERMS değişmedi. Bunlar extractor aktarım/kapsam düzeltmeleridir, yeni ürün bulguları değildir.
+
+| ID / özgün ifade | Bu araştırmadaki karşılık ve sınır | Dayanak / rol |
+|---|---|---|
+| ECC-TL72 — dependency-sync warning | Worktree başarıyla oluşturulduktan sonraki dependency-sync failure'ın warning-only ele alınması. Worktree creation başarısı bütün dependency hazırlığının başarılı olduğu anlamına gelmez; branch-prefix refusal ile aynı error sınıfı değildir. | LE exact sources, U11E-W / K/Y |
+| ECC-TL73 — accepted predecessor output | Önceki step çıktısını inceleyip kabul ölçütüyle sonraki step'e dayanak yapma sorusu. Process bitişi TL50'den ayrıdır; incelenen loop böyle bir acceptance testi/output binding yapmıyor. | N23 §5; LE binding / Y/K |
+| ECC-TL74 — insufficient-slot refusal | Gözlenen remaining slots bütün template step'lerine yetmediğinde loop öncesi ret işlemi. Miktarın kendisi TL38'dir; gerçek pre-effect koruma reservation veya bütün concurrency koşullarının kontrolü değildir. | N23 §4, §6; LE capacity / K/Y |
+
 ## 11. Kapanış ve açık sınır
 
-**ECC-TL01–TL71**, 71 adreslenebilir kaynak-bağlı kullanım kaydıdır; bağımsız kavram, deney veya ilerleme yüzdesi değildir. Bu dört dosyanın aktarımı U11-E'yi kapsar. U11-A–D'nin korunmuş aktarımıyla birlikte C5b/U11 source-family dilimi tamamlanabilir; final readback ve current READING/TERMS/STATE ayrıca kapanır. Bu dosya tek başına package-wide C6 veya ECC research closure değildir.
+**ECC-TL01–TL74**, 74 adreslenebilir kaynak-bağlı kullanım kaydıdır; bağımsız kavram, deney veya ilerleme yüzdesi değildir. Bu dört dosyanın aktarımı U11-E'yi kapsar. U11-A–D'nin korunmuş aktarımıyla birlikte C5b/U11 source-family dilimi tamamlanabilir; final readback ve current READING/TERMS/STATE ayrıca kapanır. Bu dosya tek başına package-wide C6 veya ECC research closure değildir.
 
 Q04e4b; host/process readiness/completion, concurrent reservation, crash/retry/idempotency, immutable template-run provenance, arbitrary/migrated configuration, literal/nested interpolation intent, repository/revision/policy correspondence ve accepted multi-step outcomes bakımından açık kalır. Bunlar otomatik yeni Concepts deney borcu veya benimsenmiş SOUL gereksinimi değildir. Yeni template/Rust/SQL/worker/model/provider/test/installation/upstream işlemi yapılmadı; önceki evidence sınıfları ve E06 exclusion korundu.
 
