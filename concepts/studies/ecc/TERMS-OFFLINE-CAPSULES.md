@@ -23,7 +23,7 @@ Kaynak bağlantıları okunabilir current yollardır; kesin içerik için aynı 
 |---|---|---|
 | ECC-O01 — local evidence utilities | Seçilmiş olay/yanıt kayıtlarını koruyan, inceleyen, replay/receipt/report üreten Node yardımcıları. Canlı aday performansını ölçen veya registry seçimini aktive eden Rust mekanizması değildir. | N18 §1; MB actual trace / Y/B |
 | ECC-O02 — event envelope | Kimlik, sequence, timestamp, declared effect class, predecessor hash ve izinli payload taşıyan typed kayıt zarfı. Kayıt şeklinin geçerliliği olayın doğru raporlandığını kanıtlamaz. | N18 §2; LB S222 / K/Y |
-| ECC-O03 — capsule / journal | Tek global sequence ve hash bağlantısı taşıyan NDJSON olay günlüğü ile metadata/projection yardımcıları. Bağımsız olay kaynakları, çalışma ortamı veya tam transcript diye okunmaz. | N18 §1–2; LB S223 / K/Y |
+| ECC-O03 — capsule | Metadata ve journal'ı birlikte yöneten, projection/export işlemleri olan yerel kanıt paketi. İçindeki sıralı journal'ın kendisiyle veya bir çalışma ortamıyla aynı nesne değildir; journal ayrı ECC-O69 kaydındadır. | N18 §1–5; LB S223 / K/Y |
 | ECC-O04 — plan lineage | Günlük girdisine verilen beş lineage etiketinden plan. Kaynak burada etiketi adlandırır; evrensel plan nesnesi şeması veya bağımsız event stream tanımlamaz. | N18 §2; LB S222 / K, adlandırılmış |
 | ECC-O05 — attempt lineage | Aynı günlükteki attempt etiketi. Rust execution-attempt sahiplik nesnesiyle aynı sözleşme kabul edilmez. | N18 §2; LB S222 / K, adlandırılmış |
 | ECC-O06 — interaction lineage | Aynı günlükteki interaction etiketi. Etiketin varlığı bütün etkileşimlerin otomatik yakalandığı anlamına gelmez. | N18 §2, §6; LB journal/replay / K/Y |
@@ -68,7 +68,7 @@ Kaynak bağlantıları okunabilir current yollardır; kesin içerik için aynı 
 | ECC-O35 — SE3 replay refusal | Maximum yükseltilse bile declared SE3 tool için replay reddi. Kaynakta bu sınıfın genel etkisel tanımı burada yeniden kurulmadı. | N18 §6; LB S224 / K |
 | ECC-O36 — SE4 replay refusal | Maximum yükseltilse bile declared SE4 tool için ayrı replay reddi. SE3 ile aynı sınıf olduğu kabul edilmez; yalnız aynı ret predicate'i kapsamındadır. | N18 §6; LB S224 / K |
 | ECC-O37 — replayed response / original effect | Eski ok yanıtını döndürmek, o yanıtın ilk üretildiği dosya/DB/worktree/remote etkiyi yeniden yaratmak değildir. Etkiyi tekrar ateşlememek ile environment restoration ayrılır. | N18 §6; MB / Y |
-| ECC-O38 — re-record overwrite | Aynı fixture key'i yeniden record ederek eski yanıtın üzerine yazma. Versioned immutable history veya tekrarlı örneklem mantığı değildir. | N18 §6 identity/freshness; LB S224 / K |
+| ECC-O38 — re-record overwrite | Aynı fixture key'i yeniden record ederek eski yanıtın üzerine yazma. Versioned immutable history veya tekrarlı örneklem mantığı değildir. | N18 §6; LB S224 / K |
 | ECC-O39 — onCall | Örneğin capsule append'e bağladığı event callback'i. Unknown tool/missing fixture/implementation/storage error callback'ten önce olabilir; effect, saved fixture ve capsule ack tek atomic transaction değildir. | N18 §6 event gaps; LB S224/S229 / K/Y |
 | ECC-O40 — fixture privacy boundary | Raw response fixture'larının envelope allowlist/canary filtresinden ayrı saklanması. Capsule payload kontrolü fixture içeriğine taşınmaz; export'tan dışlanmak güvenli içerik sertifikası değildir. | N18 §6; LB S224 / K/Y |
 
@@ -112,7 +112,7 @@ Kaynak bağlantıları okunabilir current yollardır; kesin içerik için aynı 
 
 ## 7. Kaynak tarafından kapsam kontrolü
 
-N18 §1 → O01/O50/O58; §2 → O02–O14; §3 → O15–O21/O28/O68; §4 → O22–O25; §5 → O26–O28/O63; §6 ve alt başlığı → O29–O40/O64; §7 → O41–O50/O68; §8 → O51–O57; §9 → O50/O58–O67; §10 → aşağıdaki açık sınır. LB exact identities, body/test coverage, producer-consumer binding ve external-contract sınırlarını korur. MB/PB yöntem ve yayın tarihidir, bağımsız product evidence değildir.
+N18 §1 → O01/O50/O58; §2 → O02–O14/O69; §3 → O15–O21/O28/O68; §4 → O22–O25/O69; §5 → O03/O26–O28/O63; §6 ve alt başlığı → O29–O40/O64; §7 → O41–O50/O68; §8 → O51–O57; §9 → O50/O58–O67; §10 → aşağıdaki açık sınır. LB exact identities, body/test coverage, producer-consumer binding ve external-contract sınırlarını korur. MB/PB yöntem ve yayın tarihidir, bağımsız product evidence değildir.
 
 Dosya/API adları, NDJSON/UTF-8/SHA-256/Ed25519 gibi teknik adlar bağlamda korunur; burada genel teknoloji tanımı araştırılmaz. Five lineage labels ve SE sınıfları için kaynakta olmayan anlamlar eklenmedi. Optional signature/artifact/gate kontrolünün istenmediği durum ile istendiği halde başarısız olması ayrıldı.
 
@@ -123,6 +123,14 @@ Dosya/API adları, NDJSON/UTF-8/SHA-256/Ed25519 gibi teknik adlar bağlamda koru
 - ECC-E01–E50 Rust registry, ECC-L35–L57 skill evaluator ve bu Node evidence utility ailesi birbirine eşitlenmedi. Aynı evaluation sözcüğü aynı producer, oracle veya consumer demek değildir.
 - Replay yanıtının korunması, worktree/resource identity'nin korunması değildir; ECC-R98–R101 ile kurulabilen bağlantı karşılaştırma işaretidir, ortak mimari kararı değildir.
 - Maddi doğrulama açıklığı: generic ok yerine hangi zorunlu ve optional witness kontrollerinin gerçekten yapıldığı korunmalıdır. Bu, kaynağın açık API kapsamıdır; kullanıcı onayı veya extractor açıklığı eksik witness'ın yerine geçmez.
+
+### C5a ilk readback düzeltmesi — capsule ile journal
+
+İlk yayın `4f002b274c7542c1861c392282e8fbc90195f464` içinde O03, capsule/journal adlarını tek kullanım gibi birleştirdi. N18 §2, §4 ve §5 ile karşılaştırma bu kısaltmanın package ile içindeki stream ayrımını gizlediğini gösterdi. O03 yalnız capsule'a daraltıldı; journal O69 olarak ayrı adreslendi. O22 metadata-bound okuma, O26 projection, O27 export ve O41/O42 receipt kayıtları bu ayrımla kontrol edildi; bunlar zaten ayrı nesne/işlemleri tarif ettiğinden metinleri değiştirilmedi. Kaynak veya eski C4 kayıtları bu düzeltme için yeniden yazılmadı.
+
+| ID / özgün ifade | Bu bağlamdaki karşılık ve sınır | Dayanak / rol |
+|---|---|---|
+| ECC-O69 — journal | Capsule içindeki journal.ndjson: beş lineage etiketinin tek global sequence, predecessor hash ve entry hash zincirinde tutulduğu kayıt stream'i. Metadata, projection, receipt veya bütün capsule paketiyle aynı nesne değildir. | N18 §2–5; LB S222/S223 / K |
 
 ## 9. Kapanış sınırı
 
