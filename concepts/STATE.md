@@ -1,10 +1,10 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-20, **B6-T15-H5**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
+2026-09-20, **B6-T16-C1**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
 
 ## 1. Güncel durum
 
-**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-DURABLE-COMPLETE / AI-KNOWLEDGE-STRATEGIES-DURABLE-COMPLETE / MULTI-AGENT-PATTERNS-DURABLE-COMPLETE / ANTHROPIC-AI-NATIVE-SDLC-DURABLE-COMPLETE / GSTACK-DURABLE-COMPLETE / HERMES-DURABLE-COMPLETE / METHOD-v0.3-WORKING / POST-S1-ADDITIONS-PENDING-ACCOUNT.**
+**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-DURABLE-COMPLETE / AI-KNOWLEDGE-STRATEGIES-DURABLE-COMPLETE / MULTI-AGENT-PATTERNS-DURABLE-COMPLETE / ANTHROPIC-AI-NATIVE-SDLC-DURABLE-COMPLETE / GSTACK-DURABLE-COMPLETE / HERMES-DURABLE-COMPLETE / ECC-PARTIAL / METHOD-v0.3-WORKING / POST-S1-ADDITIONS-PENDING-ACCOUNT.**
 
 Hermes concepts aktarımı beş durable parçayla tamamlandı:
 - H1 — U01/U02 + early evidence;
@@ -46,7 +46,7 @@ Bu, Hermes source-study'nin bittiği anlamına gelmez. Source-study current STAT
 | B6 — gstack | Durable-complete. |
 | B6 — Hermes Agent concepts | **Durable-complete / package-complete.** |
 | Hermes source-study | **ACTIVE PARTIAL; Q60 NOT RESEARCHED.** |
-| B6 — sıradaki paket | **ECC**. |
+| B6 — ECC concepts | **ACTIVE / PARTIAL; C1–C6 bounded checkpoints.** |
 | S1 sonrası additions | agentmemory, claude-swap, cli-continues, ponytail final scope/B7 öncesi account edilecek. |
 | B7/B8 | Not started. |
 
@@ -54,25 +54,29 @@ Bu package sayısı progress percentage değildir; post-S1 additions current sco
 
 ## 2. Etkin giriş ve sıradaki yetkili iş
 
-Hermes artık current concepts work değildir. Gerekirse [studies/hermes-agent/READING.md](studies/hermes-agent/READING.md), [studies/hermes-agent/TERMS.md](studies/hermes-agent/TERMS.md) ve beş linked TERMS part birlikte durable source olarak geri çağrılır.
+**Current work B6-T16-C1: ECC U01–U02 closure.**
 
-**Sıradaki yetkili iş B6-T16:** `research/studies/ecc/` package'ine canonical preflight ile gir:
-- current main ve actual ECC package tree/file envanterini sabitle;
-- ECC META/STATE/INDEX/METHOD/cold-start yolunu recover et;
-- source-study current/historical status ile concepts extraction status'u ayır;
-- bütün package source files'i tam oku;
-- terim/jargon/kavramsal ayrımları ECC araştırmasının kendi kullanımında çıkar;
-- önceki Hermes/gstack/Superpowers kavramlarını başlangıç ontology'si olarak dayatma;
-- `concepts/studies/ecc/READING.md` ve `TERMS.md` (gerekirse linked parts) oluştur.
+ECC package 159 source file taşır; timeout riskini azaltmak için concepts extraction altı bounded checkpoint'e bölündü:
 
-Hermes ancak:
-- source-study tree delta,
-- concrete transfer omission,
-- H5 qualifier/accounting hatası
+1. **C1 — U01–U02:** surfaces / installation / ownership — CURRENT.
+2. **C2 — U03–U04:** work / execution / memory.
+3. **C3 — U05–U06:** learning / evaluation / governance.
+4. **C4 — U07–U09:** material-family / Plan Canvas / Rust-session-operator-runtime.
+5. **C5 — U10–U12:** evaluation / workflow-distribution / profiles / OpenCode / Python provider family.
+6. **C6 — package-wide reconciliation/final closure.**
 
-bulunursa concepts delta olarak yeniden açılır.
+Interrupted large turn'da C1–C3 main mechanism notes and source-ledgers full-read edildi ve üç linked term draft yayımlandı. **C1/C2/C3 henüz complete değildir.** Exact next yalnız C1 closure:
+- U01/U02 ROUND + PUBLICATION records;
+- relevant historical/master-ledger binding;
+- E01 role/readback reconciliation;
+- TERMS-SURFACES-INSTALLATION source-to-record coverage check;
+- C1 durable checkpoint.
 
-B7/B8 shared terminology aşaması hâlâ yetkili next değildir.
+Aynı turda C2'ye geçilmez.
+
+ECC source-study kendi açısından **ACTIVE / PARTIAL**, completed through U12-C / plan 0.29; U13-A/Q07d1 NOT STARTED. Concepts work U13-A research'ünü başlatmaz.
+
+Hermes durable-complete kalır. B7/B8 shared terminology hâlâ başlamaz.
 
 ## 3. Amaç, derinlik ve iki risk
 
