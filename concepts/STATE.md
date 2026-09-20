@@ -1,89 +1,97 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-19, **B6-T6**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
+2026-09-20, **B6-T7**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
 
 ## 1. Güncel durum
 
-**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-ENTRY-AND-U02-U03-RECORDED / SUPERPOWERS-PARTIAL / METHOD-v0.3-WORKING.**
+**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-ENTRY-THROUGH-U05-RECORDED / SUPERPOWERS-PARTIAL / METHOD-v0.3-WORKING.**
 
-Kullanıcının “güzel. devam et lütfen.” talebiyle Superpowers'ın onay, plan, çalışma alanı, görev aktarımı, görevlendirme, inceleme ve nitelendirilmiş kabul kullanımları kalıcılaştırıldı. Sekiz ek araştırma dosyası tamamen geri okundu; görünür P2-T1/T2/T5 kayıtları, sonraki kapsam düzeltmeleri ve kaynakları karşılaştırıldı. **B6 için toplam 23/52 kaynak dosyası geri kazanılmıştır; 29 dosyanın B6 geri kazanımı/aktarımı ve paket son kontrolü bekliyor.** Okunmuş sentezlerin başka gruplara dayanan atıfları otomatik kapanmış sayılmadı.
+Kullanıcının “anladım devam et lütfen.” talebiyle Superpowers'ın test, teşhis, doğrulama, teslim, temizlik ve kayıt koruma kullanımları kalıcılaştırıldı. Dokuz ek araştırma dosyası tamamen okundu; P2-T2/P2-T5'in görünür kayıtları ve kapanış düzeltmeleri kaynaklarla karşılaştırıldı. **B6 için toplam 32/52 kaynak geri kazanıldı; 20 dosyanın B6 geri kazanımı/aktarımı ve paket son kontrolü bekliyor.** Bu sayı iş yüzdesi değildir. Tam okunan sentezin bütün dış/çapraz atıfları otomatik tamamlanmış sayılmaz.
 
 | İş | Güncel durum |
 |---|---|
 | Amaç, iki risk ve başlangıç hazırlığı | Tamamlandı; ORIGIN/SETUP-REVIEW tarihsel kaynak olarak korunur. |
 | B1/B2 ve B3/B4 | İki konuşma pilotu ve yöntem değerlendirmeleri tamam; yeni pilot açılmadı. |
-| B5 | SCOPE/S1 kaynak evreni, sahiplik, sıra ve delta ilkeleri teslim edildi. |
+| B5 | SCOPE/S1 kapsam, sahiplik, sıra ve delta ilkeleri teslim edildi. |
 | B6 — CMH | Sekiz dosyalık kaynakta kalıcı çıkarım/kapanış tamam; bu tur değişmedi. |
-| B6 — Superpowers | Aktif/kısmi. Giriş ile U02/U03 grupları kayıtlı; U04 sırada. |
+| B6 — Superpowers | Aktif/kısmi. Giriş, U02/U03 ve U04/U05 grupları kayıtlı; U06 sırada. |
 | B6 — Diğer S1 birimleri | Kalıcı çıkarımları kapanmadı; başlangıç sırası SCOPE'da. |
 | B7/B8 | Bütün kapsam/delta kontrolü ve ortak referans değerlendirmesi başlamadı. |
 
-S1'in 33 biriminden yalnız CMH'nin kalıcı kapsamı kapanmıştır. Birimler eş büyüklükte değildir; paket veya dosya sayısından iş yüzdesi çıkarılmaz. Kaynak araştırmanın kabulü, P2 pilotunun kapanışı ve kalıcı aktarımın tamamlanması ayrı durumlardır.
+S1'in 33 biriminden yalnız CMH kalıcı kapsamı kapanmıştır. Kaynak Superpowers araştırmasının kabulü, P2 pilotunun kapanışı ve kalıcı aktarımın tamamlanması ayrı durumlardır.
 
-## 2. Etkin kayıtlar ve sıradaki yetkili iş
+## 2. Etkin giriş ve sıradaki yetkili iş
 
-Etkin paket **Superpowers**. [READING.md](studies/superpowers/READING.md), [TERMS.md](studies/superpowers/TERMS.md), [TERMS-ENTRY.md](studies/superpowers/TERMS-ENTRY.md) ve [TERMS-WORK.md](studies/superpowers/TERMS-WORK.md) birlikte tam okunur. Yerel kapsam/okuma ve bölüm kontrolü READING'de; global kaynak evreni ve sıra [SCOPE.md](SCOPE.md)'dedir.
+Etkin paket **Superpowers**. [READING.md](studies/superpowers/READING.md), [TERMS.md](studies/superpowers/TERMS.md) ve mevcut üç parça birlikte tam okunur: [ENTRY](studies/superpowers/TERMS-ENTRY.md), [WORK](studies/superpowers/TERMS-WORK.md), [VERIFICATION-DELIVERY](studies/superpowers/TERMS-VERIFICATION-DELIVERY.md). Gerçek dosya/okuma/bölüm hesabı READING'de; global kaynak evreni ve sıra [SCOPE.md](SCOPE.md)'dedir.
 
-**Sıradaki yetkili iş B6-T7:** sabit araştırma ref'indeki `research/studies/superpowers/notes/U04-testing-diagnosis-and-verification.md`, `SOURCE-LEDGER-U04.md`, `evidence/U04-diagnostic-probes.py` ve sonuç JSON'unu tam geri kazan. P2-T2/P2-T5'in SP62–SP71/SP171–SP173 kayıtlarını test kronolojisi, ölçüt/oracle, kanıtın güncel nesneye uygulanabilirliği ve clean/exit niteleyicileriyle karşılaştırarak kalıcılaştır. Ardından U05 teslim/entegrasyon/temizlik/koruma notu, kaynak kaydı ve betik/sonuçları gelir: SP72–SP79/SP174, koşullu no-force kuralı ve karar bildirimi/ayrıntılı kanıt saklama ayrımı korunur. S04 sentezi alt kaynaklarla birlikte bağlanır. Gerçek kapasiteye göre bölünebilir; somut devam noktası yerel READING'ye yazılır.
+**Sıradaki yetkili iş B6-T8:** sabit araştırma ref'indeki U06-A/B1/B2 kullanımlarını kalıcılaştır. Gerekli tam kaynaklar:
 
-U02/U03 ve ilk giriş grubu yeniden yapılacak araştırma değildir. ENTRY'nin B6-T5 tarihli U02-next/erken rol görünümü ifadeleri tarihsel checkpoint'tir; ana TERMS, güncel karşılığı WORK'e bağlar. Yeni parça SP28'in aşama/nesneye bağlı onay kullanımlarını ve SP24'ün iş kurtarma ilişkisini genişletir. Kaynak talimatlarını mevcut assistant için etkin kontrol sayma; özel/genel talimatların bütün birleşimini çözmüş gibi yazma.
+- `research/studies/superpowers/notes/U06A-skill-authoring-and-change-admission.md`, `notes/U06B1-evaluation-evidence-and-verdict.md`, `notes/U06B2-assessor-contracts-and-evidence-qualification.md`;
+- aynı pakette `SOURCE-LEDGER-U06A.md`, `SOURCE-LEDGER-U06B1.md`, `SOURCE-LEDGER-U06B2.md`;
+- `syntheses/S01-skill-evolution-and-evaluation.md`.
 
-Bu iş yeni Superpowers araştırması, üçüncü yöntem pilotu, kurulum, canlı host/model/ürün testi, dış literatür kampanyası veya ortak tanım üretimi değildir. Kaynak değişirse etkilenen delta açık işlenir. Gerçekten tam erişilebilir ve değişmemiş içerik sırf yeni tur diye mekanik tekrarlanmaz; gereken gerçek metin görünmüyorsa sabit kaynaktan geri kazanılır.
+P2-T3/P2-T5'in SP80–SP121/SP179 ve eski SP02/SP04'ün yazım açıklıklarını kaynakla karşılaştır. Ana yöntem, ayrı değerlendirme deposu ve tarihsel assessor kaynak/sürümleri birbirine karışmasın. Yönlendirmesiz kontrol, önceki sürümle karşılaştırma, rapor biçimi, hüküm doğruluğu, sonuç yayını ve yöntem değişikliğinin kabulü kendi nesneleriyle korunsun. Bu talimat yeni bir değerlendirme laboratuvarı veya canlı model kampanyası başlatmaz. Kapasiteye göre bölünürse gerçek son nokta yerel READING'de kaydedilir.
 
-P2'nin ilgili özgün yanıtları bu tur görünürdü. İleride görünmezse METHOD §8'in kaynak kontrollü yeniden üretimi kullanılır; STATE özetinden SP anlamı/eşleşmesi uydurulmaz. Bütün gruplar ve paket-geneli kapsam/delta kontrolü kapanmadan sonraki seri paket ai-knowledge-strategies'e geçilmez. B7/B8 bütün seri kapsamdan önce başlamaz.
+U04/U05 grubu kapanmıştır; tekrar yöntem pilotu veya yeni araştırma yapılmaz. Sonra U07, S05/S06/U08 ve paket-geneli kaynak/delta kontrolü gelir. Bütün Superpowers aktarımı kapanmadan ai-knowledge-strategies'e, bütün seri kapsam ve maddi delta hesabı kapanmadan B7/B8'e geçilmez.
+
+ENTRY/WORK içindeki eski U02/U04/U05-next sözleri tarihsel üretim checkpoint'leridir. Ana TERMS yeni parçayı ve güncel sırayı gösterir. Kaynak araştırmaların eski next cümleleri veya ürün talimatları mevcut assistant'a yeni yetki vermez.
 
 ## 3. Amaç, derinlik ve iki risk
 
-İlk aşama, research/studies araştırmalarının tamamından kendi bağlamlarında kullanım ve ilişki çıkarımıdır. İkinci aşama bütün çıkarımların tam okunup ortak referans için değerlendirilmesidir. Hazır sözlük, ilk pilotun/CMH'nin şeması veya kullanıcının açıklayıcı örnekleri sonraki paketlere başlangıç ontolojisi yapılmaz. Kaynakta tanım bulunması veya concepts'e yazılması ortak kabul değildir.
+İlk aşama research/studies araştırmalarını tam okuyarak her birinin kendi bağlamında kullanım ve ilişkileri çıkarmaktır. İkinci aşama bütün çıkarımları tam okuyup ortak referansı değerlendirmektir. Hazır sözlük, ilk pilot/CMH şeması veya kullanıcının açıklayıcı örnekleri başlangıç ontolojisi değildir. Kaynakta tanım bulunması ve concepts'e yazılması ortak kabul anlamına gelmez.
 
-Her concepts turunda iki neden kısa ve görünür tutulur: kullanıcı okuma anındaki anlam seçimlerini denetleyemiyor; önemli yorum/dayanak/belirsizlik/değişiklik izlenebilir olmalı. Ortak sözcükler aynı anlamı garanti etmiyor; kullanıcı onayı, kaynak kullanımı ve assistant yorumu teknik doğruluğun yerine geçmemeli. Kullanıcı teknik uzman oracle değildir. Ham düşünce dökümü değil, denetlenebilir sonuç ve kısa gerekçe yeterlidir.
+Her concepts turunda iki neden kısa ve görünür tutulur: kullanıcı okuma anındaki anlam seçimlerini denetleyemiyor; önemli yorum/dayanak/belirsizlik/değişiklik izlenebilir olmalı. Ortak sözcükler aynı anlamı garanti etmiyor; kullanıcı onayı, kaynak kullanımı ve assistant yorumu teknik doğruluk yerine geçmemeli. Kullanıcı teknik uzman oracle değildir. Ham düşünce dökümü değil, denetlenebilir sonuç ve kısa gerekçe yeterlidir.
 
-Kaynağın tanımlamadığı genel anlamı açık bırakmak geçerli çıktıdır; okunmamış dosya veya atlanmış açıklama gerçek eksiktir. Yalnız genel kavram bilgisini artıracak, mevcut aktarımı değiştirmeyecek okuma bu aşamaya eklenmez. Ürün talimatı, kod gözleminin aktarımı, araştırmacı deneyi/ölçütü, geçmiş rapor, sentez ve yeni açıklama ayrılır. Tekrar bağımsız kanıt değildir. Eski kaynak next/deney/protokol cümleleri yeni çalışma yetkisi değildir.
+Kaynağın genel tanım vermediği kullanımı açık bırakmak geçerli çıktıdır; okunmamış dosya veya atlanmış açıklama gerçek eksiktir. Yalnız genel bilgiyi artıracak ve mevcut aktarımı değiştirmeyecek okuma bu aşamaya eklenmez. Kaynak yazarının soruları yeni literatür/ürün/deney borcu olmaz. Ürün talimatı, kod gözlemi aktarımı, yerel deney/ölçüt, geçmiş rapor, sentez ve yeni açıklama ayrılır. Tekrar bağımsız kanıt değildir.
 
-## 4. B6-T6 gerçek okuma ve aktarım sonucu
+P2'nin ilgili özgün yanıtları bu tur görünürdü. İleride görünmezse METHOD §8'in kaynak kontrollü yeniden üretimi uygulanır; STATE özetinden SP anlamı/eşleşme uydurulmaz. Gerçekten tam erişilebilir ve değişmemiş içerik sırf yeni tur diye mekanik tekrar edilmez; eksik gerçek kontrol/kaynak içeriği canonical yoldan geri kazanılır.
 
-Sabit Superpowers araştırma ref'i **75bc6787844e9b1a8fed76ff5cfa4ca8ce63d847**, paket tree **56c19a5e2c0deb7b0f5164aac818ed2ba98baf12**. Önceki turun 52 yapraklı manifesti korunur: 19 kök dosya, 11 not, 6 sentez, 16 betik/sonuç. B6-T6'nın sekiz ek tam geri okuması: U02 ve U03 notları, SOURCE-LEDGER-U03, U02/U03'ün dört betik/sonuç dosyası ve S03 sentezi. Gerçek satır aralıkları ve blob kimlikleri READING'de. Bunlar dış ürünün sekiz yeni kaynağı veya sekiz deney koşusu değildir.
+## 4. B6-T7 gerçek çalışma ve kapanan grup
 
-L0, CORE, CLOSURE-AUDIT, önceki giriş kayıtları ve görünür P2 metinleri aynı konuşmada mevcuttu. Eksik gerçek control/proje-giriş içerikleri canonical okumalarla geri kazanıldı; bunlar araştırma korpusunun dosya sayısına eklenmedi. Yeni araştırma betiği, Git örnek deneyi, reviewer/model veya upstream suite çalıştırılmadı.
+Superpowers araştırma ref'i **75bc6787844e9b1a8fed76ff5cfa4ca8ce63d847**, paket tree **56c19a5e2c0deb7b0f5164aac818ed2ba98baf12**. Önceki 52 yapraklı manifest ve blob'lar korunur. Dokuz yeni tam kaynak okuması: U04/U05 notları; L04/L05 kayıtları; bu iki birimin dört betik/sonuç dosyası; S04 sentezi. Gerçek satır aralıkları ve karşılıklar yerel READING'dedir. Kontrol/proje girişlerinin recovery'si bu sayaca eklenmedi.
 
-WORK, SP30–SP34/SP39–SP61/SP167–SP170'i; SP28'in yeni onay bağlarını ve kaynakta bulunan yerel ek adresleri taşır. Kaynak tarafından N02 §1–11, N03 §1–11, ilgili L0/L03 kayıtları, E05/E07 betik/sonuç alanları ve S03'ün ilgili bölümleri kontrol edildi. U02/U03'te açıklanmış kullanım için bu kontrolde açık aktarım eksiği kalmadı. S03'ün U05/U07/U08 kaynaklarına dayanan ekleri sonraki gruplara bağlı; sentezin tam okuması bunları tamamlamaz.
+Yeni parça SP62–SP79/SP171–SP174 ile kaynakta bulunan yerel ekleri taşır. N04 ve N05'in onar bölümü, kaynak kayıtları, bütün vaka/alanlar ve S04'ün ilişkileri kaynak tarafından karşılaştırıldı. Bu grubun açıklanmış kullanımlarında kontrol sonunda açık aktarım eksiği bırakılmadı. S03'ün U05 ilişkisi bağlandı; S02/S03/S04'ün U07/U08 ve bütünsel atıfları hâlâ ilgili sonraki kaynak grubuna bağlıdır. Sentez tekrarı bağımsız destek değildir.
 
-Korunan maddi ayrımlar: spec/plan; task/step; worktree/scratch; plan adı/yolu/sürümü/tamamlanma; brief ile yeterli görev bağlamı; rapor ile kabul; tek reviewer/iki hüküm; read-only talimat/teknik izin; diff kapsamı ile bütün görev; committed diff ile mevcut çalışma kopyası; düzeltme denemesi ile ADDRESSED; deferred/parked ve qualified completion; context isolation ile ortak kaynak bağımsızlığı. SDD'nin no-child talimatı bütün paralel rotalara genişletilmedi; dört durma sınıfı kısaltılmadı.
+Korunan ayrımlar: test-first geçmişi / ilgili yanlışı ayırt etme / mevcut nesneye uygulanabilirlik; mental mutation / çalıştırılabilir motor; occurrence / belirli yeni işlem; source-string / yürütülmüş çıktı assertion'ı; test başarısızlığı / başlatıcı hatası / yan etki bulunmaması; incelenmiş commit / test edilmiş worktree / merged result / hedef ref / PR; inner scratch / outer worktree / dal temizliği; karar bildirimi / ayrıntılı kanıt arşivi. Koşullu no-force koruması bütün kayıtların kalacağı garantisine genişletilmedi; kaynağın gerçek koruma yükümlülükleri de silinmedi.
 
-Kaynağın helper gözlemleri canlı aktör hatası yapılmadı. U02'nin 13 vakasındaki 11 belirtilmiş gözlem ve iki sağlık başarısızlığı; U03'ün dokuz vakasındaki yedi gözlem/kontrol ve iki sözlü-oracle sağlık başarısızlığı, ölçüt ve olumlu/olumsuz kontrolleriyle korundu. Sayılar genel ürün başarısı veya bu tur yapılmış deney değildir. Q13/Q20/Q24 ve diğer kaynak bileşim/kimlik sınırları çözülmüş ilan edilmedi. Aynı assistant'ın kaynak/pilot karşılaştırması bağımsız doğrulama veya sıfır atlama garantisi değildir.
+U04'ün yedi kayıtlı vakası ve first-party fixture sonucu; U05'in yedi sentetik Git vakası kendi kapsamlarıyla aktarıldı. Yeni betik/ürün/model/host koşusu yapılmadı. Fixture'ın temizlememe kararı gerçek agent uyumu sayılmadı. Q20/Q24 ve Q26–29 gibi kaynak bileşim/saklama sınırları çözülmüş ilan edilmedi. Genel teknik doğruluk veya sıfır atlama garantisi verilmez.
+
+Yayın geri okumasında iki kendi kayıt hatam düzeltildi: ilk akış adımındaki kabul edilmiş görev ifadesi sonuç kabulüyle karışmasın diye yürütmeye alınmış görev olarak değişti; WORK'te olmayan SP70 atfı gerçek WORK §4/SP33 → yeni parça/SP70 bağlantısıyla değişti. Ana TERMS aynı ayrımı taşır. Kaynak veya önceki ENTRY/WORK gövdesi bu nedenle yeniden yazılmadı.
 
 ## 5. Yetki ve yazma kapsamı
 
-Kaynak yetki ORIGIN/U01–U05, sonraki devam talepleri ve kaynakla sınırlı derinlik açıklamasıdır. Aynı amaç tekrar onaylatılmaz; maddi amaç/kapsam/aşama değişikliği ayrıca değerlendirilir.
+Yetki ORIGIN/U01–U05, sonraki devam talepleri ve kaynakla sınırlı derinlik açıklamasıdır. Aynı amacı tekrar onaylatmak gerekmez; maddi amaç/kapsam/aşama değişikliği ayrıca değerlendirilir.
 
-B6-T6 dört yolu değiştirir: yeni `concepts/studies/superpowers/TERMS-WORK.md`; mevcut `TERMS.md`, `READING.md` ve bu `concepts/STATE.md`. Global INDEX zaten gerçek Superpowers TERMS/READING'ine bağlıdır; yeni parça ana TERMS üzerinden bulunur. ENTRY, INDEX, METHOD/PLAN/SCOPE, CHARTER/ORIGIN/SETUP-REVIEW, CMH'nin kapanmış dosyaları, AGENT/protokoller, özgün studies ve Foundation değiştirilmedi. Yeni branch, duplicate study/META/CATALOG kaydı veya benimsenmiş mimari yoktur.
+B6-T7 dört yolu değiştirir: yeni `concepts/studies/superpowers/TERMS-VERIFICATION-DELIVERY.md`; mevcut `TERMS.md`, `READING.md` ve bu `concepts/STATE.md`. Global INDEX zaten doğru TERMS/READING girişine bağlıdır; yeni parça ana TERMS'ten bulunur. ENTRY/WORK, INDEX, METHOD/PLAN/SCOPE, CHARTER/ORIGIN/SETUP-REVIEW, CMH, özgün studies ve agent-control bu iş adına değişmedi. Yeni branch, duplicate study/META/CATALOG kaydı, ürün kurulumu veya mimari/adoption yoktur.
 
-Kaynak Superpowers user-evaluated/accepted kalır. CMH kaynak araştırmasının evaluation-pending durumu da kapanmış concepts kullanım kaydıyla aynı statü değildir. Bu iş başka oturumun ECC araştırmasını veya onun yetkisini yönetmez.
+Kaynak Superpowers user-evaluated/accepted kalır. CMH kaynak araştırmasının kendi kabul durumu concepts kapanışıyla yeniden verilmez. Bu iş diğer oturumun ECC araştırmasını yönetmez.
 
-## 6. Eşzamanlı delta ve değişmez devam kayıtları
+## 6. Delta ve değişmez devam kayıtları
 
-SCOPE/S1 ref'i **9b46155e904560c90b89e657f3d0d4e00e2e46cf**, studies tree **f51a44bf86ca25a0025f248e5116faae1ed3933a**. Bütün ağaç kapsamda: 29 kök araştırma, Carbon koleksiyonu, üç video çocuğu; destek ve taşınma kayıtları ile medya temsil sınırları da korunur. En özel önek dosyanın çıkarım sahibidir. SCOPE başlangıç tablosu ikinci güncel durum kopyası değildir.
+SCOPE/S1 ref'i **9b46155e904560c90b89e657f3d0d4e00e2e46cf**, studies tree **f51a44bf86ca25a0025f248e5116faae1ed3933a**. 29 kök araştırma, Carbon koleksiyonu ve üç video; destek/taşınma kayıtları ve medya temsil sınırları korunur. En özel kaynak öneki çıkarım sahibidir. SCOPE başlangıç tablosu güncel yerel durum yerine geçmez.
 
-Bu turun başlangıcı **4b8c87486cebf0b80cac5dba39699e72e09ccc2f**, önceki concepts kapanışı **11709624149ae45c5f5f421c5b8930d0e13d859d** ardından yalnız ECC/ROUND-U12-B.md farkını taşıyordu. Bu STATE öncesi gözlenen main **9ade5e5465a12f11e55bb8743b7db09e79edec30**. Başlangıçtan bu commit'e compare yedi commit/yedi yol gösterdi: üç yerel concepts dosyamız; eşzamanlı CATALOG, ECC/STATE ve yeni ECC/PUBLICATION-U12-B1.md, ECC/ROUND-U12-B2.md. Superpowers kaynakları ve kontrol dosyaları değişmedi. Bu kontrol anındaki delta sonrakilerle karıştırılmaz.
+B6-T7 başlangıcı **1bdd7066bff2eadcddc0237c926f7f1daef1f376**. Önceki concepts kapanışı **e3db570dc2fc1c18fdefcc3b4b1c4485e0b3d2ed** ardından 13 commit/11 yol yalnız ECC ve CATALOG'u değiştirmişti. Yeni ECC PUBLICATION-U12-B2, ROUND-U12-C, evidence/U12-B2-SOURCES ve notes/26 kayıtları dahil ayrıntı yerel READING'dedir. Superpowers/control/concepts başlangıç farkı yoktu.
 
-ECC/katalog değişiklikleri geri alınmadı veya S1'e sessizce karıştırılmadı. Önceki turlarda kaydedilmiş farklar da geçerlidir. ECC paketi başında S1'den güncel kaynağa tam fark ve B7'de bütün studies ağacı yeniden kontrol edilir.
+Bu STATE öncesi gözlenen main **f18fc9b53f6508f663139c1400d1cd08596c8685**. Başlangıçtan karşılaştırma altı commit/beş yol gösterdi: üç yerel concepts dosyamız ve eşzamanlı ECC/evidence/u12-c-python-flow-probe/ altında `E09.zip.b64` ile `PRECHECK.md`. Bunlar korunmuştur; içeriklerini bu concepts turunda araştırmış saymıyoruz. Kaynak Superpowers veya kontrol dosyaları değişmedi. Bu kontrol anından sonraki fark ayrıca değerlendirilir.
+
+S1-sonrası eski deltalar silinmedi; ECC paketi başında ve B7'de tam fark geri kazanılacak. Diğer oturumun çalışması üstüne yazılmaz.
 
 | Değişmez kayıt | Korunan kapsam |
 |---|---|
-| [P1 kapanışı](https://github.com/batuhanozgun/agentic-os-search/blob/53c29b54a355742960f466a06a5d9bba0a42f412/concepts/STATE.md) | Sekiz dosyalı konuşma pilotu/B2. |
-| [P2/B4 kapanışı](https://github.com/batuhanozgun/agentic-os-search/blob/29b07b6529618f9a654d44a86e3ed6b05b8b40f9/concepts/STATE.md) | 52 kaynak ve pilot checkpoint'leri; v0.3 kararı. |
-| [B5/B6-T1](https://github.com/batuhanozgun/agentic-os-search/blob/d5c337386a9ff1d44a96b803b066df79550d4331/concepts/STATE.md) | S1 kapsam/sahiplik ve ilk kalıcı context kaydı. |
-| [CMH yerel kapanışı](https://github.com/batuhanozgun/agentic-os-search/blob/fec71a529fabca9133567375891bfe658154cdea/concepts/studies/context-memory-harness-engineering/READING.md) | Sekiz kaynak, dört kullanım parçası, kimlik eşleştirmesi ve kapanış. |
-| [CMH global kapanışı](https://github.com/batuhanozgun/agentic-os-search/blob/382cda3e653d802f461bad745f59bbea39bdbaa7/concepts/STATE.md) | Önceki B6-T2/T3 bağlantıları ve o andaki delta. |
-| [Superpowers B6-T5](https://github.com/batuhanozgun/agentic-os-search/blob/11709624149ae45c5f5f421c5b8930d0e13d859d/concepts/STATE.md) | İlk giriş grubu, 15 okuma, yayınlar ve önceki ECC farkları. |
-| [Superpowers B6-T6 yerel kayıt](https://github.com/batuhanozgun/agentic-os-search/blob/d34605f570906a674f53b9372f6cad7b66013f2c/concepts/studies/superpowers/READING.md) | 52 dosyanın güncel hesabı; sekiz ek tam okuma, U02/U03 kapsam kontrolü ve U04 devamı. |
+| [P1 kapanışı](https://github.com/batuhanozgun/agentic-os-search/blob/53c29b54a355742960f466a06a5d9bba0a42f412/concepts/STATE.md) | Sekiz kaynaklı ilk pilot/B2. |
+| [P2/B4 kapanışı](https://github.com/batuhanozgun/agentic-os-search/blob/29b07b6529618f9a654d44a86e3ed6b05b8b40f9/concepts/STATE.md) | 52 kaynak, pilot checkpoint'leri ve v0.3 kararı. |
+| [B5/B6-T1](https://github.com/batuhanozgun/agentic-os-search/blob/d5c337386a9ff1d44a96b803b066df79550d4331/concepts/STATE.md) | S1 ve ilk kalıcı context kaydı. |
+| [CMH kapanışı](https://github.com/batuhanozgun/agentic-os-search/blob/382cda3e653d802f461bad745f59bbea39bdbaa7/concepts/STATE.md) | Sekiz kaynaklı tamamlanmış ilk paket, önceki bellek/harness kayıtları ve delta bağlantıları. |
+| [Superpowers B6-T5](https://github.com/batuhanozgun/agentic-os-search/blob/11709624149ae45c5f5f421c5b8930d0e13d859d/concepts/STATE.md) | Giriş grubu, 15 okuma ve önceki yayın/delta. |
+| [Superpowers B6-T6](https://github.com/batuhanozgun/agentic-os-search/blob/e3db570dc2fc1c18fdefcc3b4b1c4485e0b3d2ed/concepts/STATE.md) | U02/U03, toplam 23 okuma ve bütün eski checkpoint bağlantıları. |
+| [Superpowers B6-T7 yerel kayıt](https://github.com/batuhanozgun/agentic-os-search/blob/f18fc9b53f6508f663139c1400d1cd08596c8685/concepts/studies/superpowers/READING.md) | 52 dosyanın güncel hesabı; dokuz ek okuma, U04/U05 kapsam kontrolü ve U06 devamı. |
 
-Checkpoint'lerin eski next veya dosyalar yok cümleleri güncel yetki değildir. CMH'ye dayanılacaksa kendi TERMS ve bütün bağlı parçaları okunur; sırf yeni paket sürüyor diye yeniden araştırılmaz.
+Eski checkpoint next'leri current değildir. CMH sonucuna dayanılacaksa kendi TERMS ve bağlı parçalar tam okunur; sırf yeni paket sürüyor diye yeniden araştırılmaz.
 
 ## 7. Yayın kontrolleri ve yeni oturum
 
-İçerik commitleri: WORK **9cd3fb1953f4ac0a193e0c27303cf52304476dc8**; ana TERMS **5ec168217125fd0ac00855ab25dc1aa6cc1e2f95**; READING **d34605f570906a674f53b9372f6cad7b66013f2c**. Üçü yayımlanan sürümlerinden tamamen geri okundu: WORK'te ilk 1–65 görünümü kesildi, 55–105 ve 106–EOF ile eksik aralık tamamlandı; TERMS 1–46/47–EOF; READING 1–88/89–EOF. Ana TERMS'in mevcut genel kullanım satırları korunur; yeni grup ve tarihsel/güncel devam bağları eklendi. ENTRY değişen dosya değildir. Büyük TERMS diff görünümünün kesilen kısmı tam patch incelemesi sayılmadı; dosyanın gerçek tam içerik geri okuması ayrı yapılmıştır.
+Yeni parça ilk commit'i **4debc7de14ca525af259652f8bba9aa625e16b61**; tam geri okuma 1–45/46–95/96–EOF. Düzeltme **d6534a45d5ed41126cbbe9b7b5e22b0dbe0a0700**: GitHub'ın ilk JSON içeriğindeki tam patch, iki değişen paragraf ve ek düzeltme notunu gösterdi; tekrarlanan wrapper'ın kesilmesi başka dosya okuması sayılmadı. Değişen son bölüm canonical dosyadan 124–EOF tekrar okundu. Ana TERMS **5c880abd150fed0e349f20662e79baca21964877**, 1–48/49–EOF tam geri okundu. READING **f18fc9b53f6508f663139c1400d1cd08596c8685**, 1–85/86–140/141–EOF tam geri okundu.
 
-Bu STATE önceki blob **4e03662ba6a7f450607365974ffe076bc0160652** üzerine yazılır. Kendi henüz bilinmeyen commit'i veya yapılmamış geri okuma sonucu burada uydurulmaz. Yayından sonra bu dosyanın tam geri okuması, gerçek parent/commit kapsamı ve main'e yerleşim kontrol edilir. Kontroller yayın/aktarım/devam tutarlılığı içindir; ürün etkinliği veya gerçek yeni-oturum davranış deneyi değildir.
+Bu STATE önceki blob **3c8e3134c72712e4078aaa8bfd1371bb768d7e80** üzerine yazılır. Kendi bilinmeyen commit'i veya yapılmamış son geri okuma sonucu burada uydurulmaz. Yayın sonrasında tam geri okuma, gerçek parent/commit kapsamı ve main'e yerleşim kontrol edilir. Kontrol kaynak aktarımı ve devam tutarlılığı içindir; bağımsız kavram doğrulaması veya gerçek yeni-oturum davranış testi değildir.
 
-Yeni oturum: AGENT ve tetiklenen protokoller → concepts/INDEX'in zorunlu STATE/CHARTER/ORIGIN/METHOD/PLAN/SETUP-REVIEW/SCOPE okumaları → etkin Superpowers READING → TERMS ve iki mevcut bağlı parça → §2'deki U04 kaynakları. Aynı konuşmada tam ve değişmemiş kaynaklar mekanik tekrarlanmaz; eksik zorunlu kontrol veya kaynak tahmin edilmez. U02/U03 aktarımı kapanmış, kalan paket açık olarak devralınır.
+Yeni oturum: AGENT/tetiklenen protokoller → concepts/INDEX'in zorunlu STATE/CHARTER/ORIGIN/METHOD/PLAN/SETUP-REVIEW/SCOPE okumaları → etkin Superpowers READING → TERMS ve üç mevcut parça → §2'deki U06 kaynakları. Eksik zorunlu dosya tahmin edilmez. U04/U05 kapanmış, paket kısmi olarak devralınır.
