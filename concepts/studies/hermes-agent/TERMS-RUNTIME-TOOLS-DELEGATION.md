@@ -1,6 +1,6 @@
 # Hermes Agent — Runtime, tools and delegation terms
 
-2026-09-20, **B6-T15 / PARTIAL DURABLE TRANSFER**. TERMS.md'nin bağlı parçasıdır. Kaynak: notes 26–28, U11–U13 evidence ve related source-study records.
+2026-09-20, **B6-T15-H5 / DURABLE TRANSFER COMPLETE / PACKAGE-COMPLETE**. TERMS.md'nin bağlı parçasıdır. Kaynak: notes 26–28, U11–U13 evidence ve related source-study records.
 
 ## 1. Runtime selection and execution ownership
 
