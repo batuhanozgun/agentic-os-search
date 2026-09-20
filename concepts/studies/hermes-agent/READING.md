@@ -263,6 +263,30 @@ U06 RESULT, process-local registry'nin same-SID mutual exclusion, wait/timeout, 
 
 Bunlar next tranche'de range-by-range tamamlanır. Tool truncation'ı “read complete” diye yorumlanmaz.
 
+## 7C. Evidence direct-read — U04-A/U05/U06 truncation closure
+
+Previous output truncation was not treated as completion. The following eight files were then read individually/with bounded ranges and are now counted as FULL:
+
+- U04-A `RESEARCH.md`
+- U05 `RESEARCH.md`
+- U05 `SOURCES.md`
+- U05 `CHECKS-NOT-RUN.md`
+- U05 `PUBLICATION.md`
+- U06 `RESEARCH.md`
+- U06 `SOURCES.md`
+- U06 `SPEC.md`
+
+This adds eight to the conservative 76-file checkpoint: **84/314**.
+
+Key source-bound clarifications preserved:
+- U05 durable DB lease, process-local/gateway lease, task-run ownership and history selection are different objects/controls.
+- Immediate admission does not necessarily reload DB history; waited admission and compression recovery are conditional repair routes, not universal history refresh.
+- Persisted loop state and a live driver/watch are separate; heartbeat persistence and watch registration have different restart semantics.
+- U06 separates routing key, resolved session ID, process-local TurnLeaseToken, durable DB holder, active-turn marker, loop awaiting_response and delivery obligation.
+- Process-local registry serialization does not imply cross-process/durable serialization: two independent registry instances can admit the same SID in the bounded L07 run.
+- Startup resume/recomputation and redelivery of already-produced output are separate recovery obligations.
+- Publication/checkpoint files prove transfer/readback, not behavioral product conformance.
+
 ## 8. Şu ana kadar source-backed bağlam aileleri
 
 İlk durable TERMS parçaları şu current evidence coverage'e dayanabilir:
@@ -324,10 +348,9 @@ Devamda:
 **B6-T15 devam ediyor; Hermes package kapanmadı.**
 
 Exact next evidence tranche:
-1. truncated U04-A/U05/U06 large evidence texts'i küçük aralıklarla tamamla;
-2. U01/U02 evidence research/source/diagnostic families;
-3. remaining raw/result/source-copy inventory reconciliation;
-4. current Terms parts'in source-to-record coverage check;
-5. yalnız bundan sonra Hermes PACKAGE-COMPLETE kararı.
+1. U01/U02 evidence research/source/diagnostic families;
+2. remaining raw/result/source-copy inventory reconciliation;
+3. current Terms parts'in source-to-record coverage check;
+4. yalnız bundan sonra Hermes PACKAGE-COMPLETE kararı.
 
 Normal next study (ECC) bu Hermes package kapanmadan başlamaz.
