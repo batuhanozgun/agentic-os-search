@@ -1,6 +1,6 @@
 # Hermes Agent — Learning, skills and memory terms
 
-2026-09-20, **B6-T15 / PARTIAL DURABLE TRANSFER**. TERMS.md'nin bağlı parçasıdır. Kaynak: notes 02–15/30, synthesis/01, U15 evidence ve önceki published learning/curator records.
+2026-09-20, **B6-T15-H5 / DURABLE TRANSFER COMPLETE / PACKAGE-COMPLETE**. TERMS.md'nin bağlı parçasıdır. Kaynak: notes 02–15/30, synthesis/01, U15 evidence ve önceki published learning/curator records.
 
 ## 1. Learning and proposal lifecycle
 
