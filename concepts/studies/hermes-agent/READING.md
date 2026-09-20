@@ -1,6 +1,6 @@
 # Hermes Agent — Okuma ve kalıcı çıkarım durumu
 
-2026-09-20, **B6-T15 / DURABLE-TRANSFER-ACTIVE / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T15-H1 / H1-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
 
 Bu dosya `research/studies/hermes-agent/` paketinin concepts programı açısından gerçek okuma/coverage hesabını taşır. Hermes source-study kendi açısından **ACTIVE PARTIAL RESEARCH** durumundadır; concepts extractor bu research'i sürdürme yetkisi almış sayılmaz. Bu çalışma, mevcut package'i olduğu haliyle kaynak kabul eder ve kaynakta tamamlanmış/açık alanları birlikte taşır.
 
@@ -287,6 +287,60 @@ Key source-bound clarifications preserved:
 - Startup resume/recomputation and redelivery of already-produced output are separate recovery obligations.
 - Publication/checkpoint files prove transfer/readback, not behavioral product conformance.
 
+## 7D. H1 durable checkpoint — U01/U02 ve erken evidence kapanışı
+
+Hermes concepts aktarımı beş parçaya bölündü. **H1 yalnız U01/U02 + erken evidence ailesini kapatır; Hermes package'i bütünüyle kapatmaz.**
+
+H1 kapanışında:
+- U01 approval/memory/pending/worker-policy/review-middleware/UI-profile/prompt-restore ailelerinin human-authored README/RESEARCH/SOURCES/SPEC/PUBLICATION/HANDOFF metinleri direct-read edildi;
+- load-bearing raw observations direct-read edildi: worker-policy RESULT/VALIDATION, middleware RESULT/range-fidelity, memory/pending RESULT, slash-policy A/SA/AP results, prompt-restore RESULT, early component/context-transfer/U01B2 results;
+- U02 turn-lifecycle research/source/publication/manifest yüzeyi direct-read edildi;
+- duplicate source blobs (ör. repeated LICENSE, slash_access.py, write_approval.py, empty stderr) bağımsız semantic evidence sayılmadı;
+- probe/harness Python files, stdout/stderr, repeated upstream source copies ve binary/archive taşıyıcıları ancak claim identity/oracle/manifest rolü gerektiği ölçüde account edildi; sırf path sayısını 314'e tamamlamak için yeni kavram kanıtı gibi okunmadı.
+
+H1 source-to-TERMS kontrolü iki somut eksik buldu ve kapattı:
+
+1. **Memory / prompt / approval visibility refinement**
+   - stored system prompt;
+   - prompt compatibility;
+   - prompt restore / invalidation / rebuild;
+   - approval mode vs specific payload approval;
+   - pending namespace / proposer origin;
+   - apply success vs cleanup success;
+   - routed runtime home vs transport authorization home;
+   - pending apply → store/snapshot → prompt → prepared request visibility chain.
+   Bunlar `TERMS-LEARNING-SKILLS-MEMORY.md` içinde HA-L72–HA-L85 olarak kalıcılaştırıldı.
+
+2. **Worker/slash-policy/middleware refinement**
+   - advertised/valid tool names vs review whitelist;
+   - thread-local whitelist vs worker binding;
+   - name acceptance vs later policy admission;
+   - middleware `next_call`, short-circuit, pre-next self-failure, downstream failure, saved result and duplicate-next guard;
+   - ingress authorization vs slash-command access;
+   - canonical command-family granularity;
+   - idle/busy command distinction;
+   - transport profile vs runtime profile;
+   - CLI live-store caller vs gateway fresh-store caller.
+   Bunlar `TERMS-RUNTIME-TOOLS-DELEGATION.md` içinde HA-R101–HA-R120 olarak kalıcılaştırıldı.
+
+H1'de previous Hermes interpretations'i tersine çeviren bir source finding çıkmadı. Bunun yerine qualifier'lar sıkılaştı:
+- valid tool name ≠ authorized dispatch;
+- approval-mode toggle ≠ approve/apply;
+- mutation landed ≠ pending cleanup succeeded;
+- fresh MemoryStore ≠ fresh model-visible prompt;
+- transport admission identity ≠ routed data/profile home;
+- same slash command family ≠ per-subcommand authority;
+- middleware callback failure ≠ always fail-closed veya always fail-open.
+
+**H1-DURABLE-COMPLETE** bu erken family'lerin concepts aktarımı içindir. Full Hermes evidence closure, source-study Q60 veya product validation değildir.
+
+Beş parçalı devam planı:
+- **H1:** U01/U02 + erken evidence — COMPLETE.
+- **H2:** U03–U06 persistent work / continuation.
+- **H3:** U07–U10 scheduled work / cron.
+- **H4:** U11–U15 runtime / tools / delegation / install / skill library.
+- **H5:** package-wide raw-role reconciliation, TERMS cross-check, delta/final closure.
+
 ## 8. Şu ana kadar source-backed bağlam aileleri
 
 İlk durable TERMS parçaları şu current evidence coverage'e dayanabilir:
@@ -345,12 +399,13 @@ Devamda:
 
 ## 12. Devam noktası
 
-**B6-T15 devam ediyor; Hermes package kapanmadı.**
+**B6-T15-H1 kapandı; Hermes package hâlâ PARTIAL.**
 
-Exact next evidence tranche:
-1. U01/U02 evidence research/source/diagnostic families;
-2. remaining raw/result/source-copy inventory reconciliation;
-3. current Terms parts'in source-to-record coverage check;
-4. yalnız bundan sonra Hermes PACKAGE-COMPLETE kararı.
+Sıradaki exact work **H2 — U03–U06 persistent work / continuation**:
+1. U03 task/run/claim evidence'in remaining raw/result/source-copy role reconciliation'ı;
+2. U04 multi-turn A/B evidence ve delivery package reconciliation;
+3. U05 session lease/history/recovery source-only family;
+4. U06 resume admission/process-local lease family;
+5. H2 source-to-TERMS coverage check ve durable checkpoint.
 
-Normal next study (ECC) bu Hermes package kapanmadan başlamaz.
+H2 sırasında U07+ cron veya U11+ runtime/skill family'lerine geçilmez; bunlar H3/H4'ün işi. H5'e kadar Hermes PACKAGE-COMPLETE kararı verilmez. Normal next study (ECC) Hermes H5 kapanmadan başlamaz.
