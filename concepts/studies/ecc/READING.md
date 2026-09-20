@@ -1,345 +1,100 @@
 # ECC — Okuma ve kalıcı çıkarım durumu
 
-2026-09-20, **B6-T16-C4 / C1-C2-C3-C4-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
+2026-09-20 · **B6-T17-C5a / U10-A–U10-B TRANSFER-COMPLETE / C5-PARTIAL / PACKAGE-PARTIAL**.
 
-Bu dosya `research/studies/ecc/` paketinin concepts programı açısından gerçek okuma/coverage hesabını taşır. ECC source-study kendi açısından **ACTIVE / PARTIAL** durumundadır; current research next U13-A/Q07d1 **NOT STARTED**. Concepts extractor bu next-work talimatını assistant authority yapmaz; current repository package'ini kaynak olarak okur.
+Bu dosya Concepts okuma ve devam durumudur. [TERMS.md](TERMS.md) kullanım girişidir; [global STATE](../../STATE.md) programın güncel işini taşır. ECC source-study kendi açısından ACTIVE/PARTIAL, U12-C / plan 0.29'a kadar yayımlanmış ve U13-A/Q07d1 NOT STARTED durumundadır. Concepts, source-study'nin next araştırmasını başlatmaz.
 
-## 1. Kaynak kimliği ve boundary
+## 1. Kaynak kimliği ve korunmuş geçmiş
 
-- Repository: `batuhanozgun/agentic-os-search`
-- B6-T16 başlangıç main: **4af0ba7b35152f47e59032c96357ba1269b6e7b1**
-- Source package: `research/studies/ecc/`
-- Study type: `external-target`
-- Pinned upstream: `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`
-- Source-study status: **ACTIVE / PARTIAL**
-- Source-study completed through: **U12-C / plan 0.29**
-- Source-study next: **U13-A / Q07d1 — NOT STARTED**
-- Concepts status: **B6-T16-C4 durable through U09 / package partial**
-- Foundation / SOUL / Development OS adoption: none.
+- Research repository: batuhanozgun/agentic-os-search.
+- C5a giriş main/snapshot: **753a4c6696740664d359a293ee8d300a45ade6d8**.
+- Kaynak paket: research/studies/ecc/.
+- Bu snapshot'ın ECC package tree kimliği: **b6df4013a0f8275da82d6f27a2cd354201c5c70b**; bağlı GitHub studies-tree girdisinden alındı.
+- Research target: **affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a**. Research repository snapshot'ı ile upstream pin aynı nesne değildir.
+- Yöntem: Concepts v0.3-working; global kapsam S1 ve açık post-S1 delta hesabı korunur.
 
-## 2. Gerçek package inventory
+**C1–C4 ayrıntılı okuma/kapanış kaydı bu dosyanın [değişmez önceki sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/753a4c6696740664d359a293ee8d300a45ade6d8/concepts/studies/ecc/READING.md) korunur** (blob a027c7cb71f06de5355fcb4783f9a0a88d581c0c). O sürüm C5a sırasında 1–110, 111–225, 226–EOF aralıklarıyla tam geri okundu. Tarihsel ayrıntı current-next ile karışmasın diye burada ikinci kez kopyalanmıyor; önceki kaynak listeleri, C1–C4 refinements, evidence istisnaları ve açık işler geçerliliğini korur. C6 package-wide reconciliation bu tarihsel kaydı da tam devralır; yalnız bu özetle kapanmaz.
 
-Current main'deki ECC package:
-- root files: **60**
-- `notes/`: **27**
-- `evidence/`: **68**
-- `inventory/`: **4**
-- total: **159 files**
+Önceki inventory hesabı 60 root + 27 notes + 68 evidence + 4 inventory = 159 dosyadır. Bu tur bağımsız, baştan sona yeni bir 159-yaprak census yapılmadı. Yukarıdaki tree kimliği kaynak evrenini, aşağıdaki tablo ise bu turun gerçek sekiz-dosya okumasını bağlar. Dosya sayısı semantik tamlık veya ilerleme yüzdesi değildir.
 
-Bu toplam semantic concept sayısı değildir.
+## 2. Güncel partition ve çıktılar
 
-## 3. ECC concepts partition plan
+| Bölüm | Concepts durumu | Kullanım kaydı |
+|---|---|---|
+| C1 — U01–U02 | Durable-complete, korunur | TERMS-SURFACES-INSTALLATION.md; ECC-S01–S56 |
+| C2 — U03–U04 | Durable-complete, korunur | TERMS-WORK-EXECUTION-MEMORY.md; ECC-W01–W89 |
+| C3 — U05–U06 | Durable-complete, korunur | TERMS-LEARNING-GOVERNANCE.md; ECC-L01–L104 |
+| C4 — U07–U09 | Durable-complete, korunur | TERMS-REVIEW-RUNTIME-OPERATOR.md; ECC-R01–R176 |
+| C5a — U10-A/U10-B | Bu tur source-local transfer complete | E01–E50 ve O01–O69; aşağıdaki iki dosya |
+| C5b — U11-A–U11-E | Sırada; Concepts aktarımı başlamadı | İlk giriş Note19/U11-A |
+| C5c — U12-A/B1/B2/C | Bekliyor | Profiles/OpenCode/Python |
+| C6 — package-wide reconciliation | Bekliyor | Kalan history/inventory/evidence, cross-TERMS ve delta |
 
-ECC package 159 dosya olduğu için concepts aktarımı altı bounded checkpoint'e bölündü:
+C5a/b/c yalnız mevcut C5'in yürütme dilimleridir; yeni araştırma programı, kapsam dışlama veya yöntem geçişi değildir. **C5 bütünü ve ECC Concepts paketi tamamlanmadı.**
 
-1. **C1 — U01–U02:** surfaces / installation / ownership.
-2. **C2 — U03–U04:** work / execution / memory.
-3. **C3 — U05–U06:** learning / evaluation / governance.
-4. **C4 — U07–U09:** material-family map / Plan Canvas / Rust-session-operator-runtime.
-5. **C5 — U10–U12:** evaluation / workflow-distribution / profiles / OpenCode / Python provider family.
-6. **C6 — package-wide closure:** rounds/publications/method-history/inventory/remaining evidence roles, cross-TERMS, source delta and final closure.
+Yeni dosyalar:
+- [TERMS-EVALUATION-REGISTRY.md](TERMS-EVALUATION-REGISTRY.md): 50 adreslenebilir kullanım kaydı.
+- [TERMS-OFFLINE-CAPSULES.md](TERMS-OFFLINE-CAPSULES.md): düzeltme sonrası 69 adreslenebilir kullanım kaydı.
 
-Bu partition source-study planı değildir; yalnız concepts continuity planıdır.
+Toplam 119 yeni kullanım satırı, 119 bağımsız kavram veya kanıt demek değildir. Parent/cross-reference tekrarları yeni definition sayılmaz. Önceki C1–C4 kullanım dosyaları bu tur değiştirilmedi.
 
-Current progress:
-- **C1 U01–U02 DURABLE-COMPLETE.**
-- **C2 U03–U04 DURABLE-COMPLETE.**
-- **C3 U05–U06 DURABLE-COMPLETE.**
-- **C4 U07–U09 DURABLE-COMPLETE.**
-- Four linked term files exist and C1–C4 are now closed.
-- exact next: **C5 U10–U12**. C5 bu checkpoint'te başlatılmadı.
+## 3. C5a exact okuma manifesti
 
-## 4. C1–C4 için şu ana kadar doğrudan okunan current source files
+Aşağıdaki yollar research/studies/ecc/ tabanına göredir ve §1'deki snapshot'a bağlıdır. FULL bu research dosyasının tamamıdır; içinde atıf yapılan upstream dosyaların bu tur yeniden okunması değildir.
 
-### Package control / purpose
-- `STATE.md`
-- `META.md`
-- `INDEX.md`
-- `METHOD.md`
-- `PLAN.md`
-- `00-WHY-THIS-RESEARCH.md`
+| Yol | Git blob | Gerçek okuma |
+|---|---|---|
+| notes/17-RUST-EVALUATION-REGISTRY-AND-USE.md | f7b0101fa995e136e07a42515e4c47900fae3aea | FULL; 1–85 + 86–EOF |
+| evidence/U10-A-SOURCES.md | 1196baf186518d978222585e97feac38eac196bb | FULL |
+| ROUND-U10-A.md | bef1db911120e428f5f9037952fd6d43deaa5af9 | FULL |
+| PUBLICATION-U10-A.md | 165a7cfd6078224b0ad65e724999c58974205319 | FULL |
+| notes/18-OFFLINE-CAPSULES-REPLAY-AND-RECEIPT-SCOPE.md | d0372662e450a2021e637c5b11bd461f2a3e283f | FULL; 1–80 + 81–EOF |
+| evidence/U10-B-SOURCES.md | 5e3d6a06eea2989c40b641f0153341c63ee7640c | FULL |
+| ROUND-U10-B.md | 9f762ee370604778572593de0a27f089f3b18973 | FULL |
+| PUBLICATION-U10-B.md | b3e69fec21917f42c1b9d47ff140d3758bd17a03 | FULL |
 
-### U01–U06 notes — 11/11 FULL
-- notes/01 SURFACES-AND-CODEX-CACHE
-- notes/02 INSTALLATION-CHANNELS-AND-MATERIALIZATION
-- notes/03 OWNERSHIP-CHECKPOINTS-AND-PROJECTION
-- notes/04 WORK-SESSION-RECORDS-AND-CONTROL
-- notes/05 EXECUTION-HANDOFF-AND-RECOVERY
-- notes/06 MEMORY-SCOPE-RECALL-AND-AUTHORITY
-- notes/07 OBSERVATION-INSTINCTS-AND-BEHAVIORAL-CONTEXT
-- notes/08 SKILL-OUTCOMES-EVALUATION-AND-CHANGE
-- notes/09 CONFIGURATION-PROTECTION-AND-ENFORCEMENT
-- notes/10 FACT-FORCING-STATE-AND-DECISION-COMPOSITION
-- notes/11 GOVERNANCE-EVENTS-PERSISTENCE-AND-DECISION
+Aynı konuşmanın değişmemiş Concepts INDEX/CHARTER/ORIGIN/METHOD/PLAN/SETUP-REVIEW/SCOPE ve ECC META/STATE/INDEX okumaları korundu; giriş main önceki kapanışla aynıydı. AGENT yeniden alındı ve aynı router kimliği doğrulandı; R06 canonical tam metni bu tur ayrıca yüklendi. Control dosyaları research korpusuna dahil edilmedi.
 
-### U01–U06 source ledgers — 11/11 FULL
-- evidence/U01-A-SOURCES.md
-- evidence/U01-B-SOURCES.md
-- evidence/U02-A-SOURCES.md
-- evidence/U03-A-SOURCES.md
-- evidence/U03-B-SOURCES.md
-- evidence/U04-A-SOURCES.md
-- evidence/U05-A-SOURCES.md
-- evidence/U05-B-SOURCES.md
-- evidence/U06-A-SOURCES.md
-- evidence/U06-B-SOURCES.md
-- evidence/U06-C-SOURCES.md
+## 4. Source-to-record kontrolü ve epistemik roller
 
-### Bounded execution / recovery surfaces read
-- u01-a-cache-probe: README, PROBE-PLAN, RESULTS
-- u03-a-work-item-probe: README, PROBE-PLAN, RESULTS
-- u03-b-worker-probe: README, PROBE-PLAN, RESULTS
-- u05-b-evaluation-probe: README, PLAN; compressed exact result role recorded by source package
-- u06-a-config-probe: README, PLAN; compressed exact result role recorded by source package
-- u06-a-conversation-record: README; historical E05 identity reconciliation
+Her yeni kullanım satırı research note'un bölümüne ve gerektiğinde ledger kaynak kimliğine bağlandı. K/B/Y/T/P anahtarları hedef koddan raporlanmış kullanım, hedef belge beyanı, araştırmacı yorumu, incelenmiş test tasarımı ve yorumlanacak procedure'ü ayırır. Türkçe açıklamalar extractor paraphrase'idir; hedefin doğrudan alıntısı veya bağımsız doğrulama değildir.
 
-E04/E05 compressed raw results were not text-read through the connector; their exact-byte/hash/role and derived observations are accounted through README/source-ledger/current note. Binary/compressed carrier ≠ unread semantic omission.
+N17'nin §1–11 ve N18'in §1–10 kapsamı yeni dosyaların source-side coverage bölümlerinden kullanım satırlarına geri eşlendi. Ledger/round/publication içerikleri atıf, kanıt sınıfı ve tarihsel yayın standing'ini kontrol eder; aynı mekanizmaya dört bağımsız destek sayılmaz. Upstream test, örnek, Rust/Node/SQLite kodu veya model/provider çalıştırılmadı; yeni E08 yoktur. E04/E07 ve iki E05 geçmişi kendi scope'larını, E06 NOT VERIFIED/EXCLUDED durumunu korur.
 
-## 5. C1–C4 source roles
+Maddi ayrımlar:
+- Rust registry'nin expected-baseline koşulu ve transaction'ı, U09 session-state writer'larından farklıdır; önceki eleştiri otomatik taşınmadı.
+- Candidate hash referans dizgelerini bağlar; referent truth/freshness doğrulanmış değildir.
+- Distinct seed keys independent trials, saved policy preregistration değildir.
+- Health callback ve snapshot aynı supplied health map'inden gelebilir; correspondence bağımsız health ölçümü değildir.
+- Registry promotion/reversal, çalışan harness'ın rollout/rollback'i değildir.
+- Standalone hash-chain geçerliliği tam tarih kanıtı değildir; retained receipt belirli checkpoint beklentisini ekler.
+- Replay response'u tekrar verir; önceki effect/environment'ı geri kurmaz.
+- Receipt generic ok sonucu yalnız gerçekten istenmiş optional witness kontrolleriyle yorumlanır.
+- Disabled untrusted candidate gate, trusted record-mode implementation'ın çalışmadığı anlamına gelmez.
+- Report-only counts, task outcome veya promotion sinyali değildir.
 
-- **TARGET CLAIM / instruction contract:** architecture docs, skills, guides.
-- **SOURCE OBSERVATION:** pinned code/config/schema.
-- **TEST SOURCE INSPECTED:** upstream tests read but not executed.
-- **LOCAL EXECUTION:** E01–E05 bounded fixture runs at recorded scope.
-- **INFERENCE / counter-path:** code-composition result not newly executed.
-- **Publication/recovery record:** transfer/history integrity, not behavior evidence.
+## 5. Maddi düzeltme ve yayılım kontrolü
 
-Same assistant repeated checks are not independent replication.
+İlk Node TERMS yayını O03'te capsule/journal'ı birleştirdi. N18 §2/§4/§5 ve ilk readback bunu ortaya çıkardı. **O03 capsule'a daraltıldı, O69 journal olarak ayrıldı.** İlk yayın ve kısa gerekçe aynı dosyanın §8'inde korunur. O22/O26/O27/O41/O42 kayıtlarının metadata, projection, export ve receipt kapsamları kontrol edildi; bu kayıtların anlamını değiştirmek gerekmedi. Kaynak araştırmaya veya önceki C4 dosyasına müdahale edilmedi.
 
-## 6. C1–C4 contextual term drafts
+Correction commit diff'i O03, coverage eşlemesi ve yeni açıklama/O69'u gösterdi. Aynı diff'te O38'in locator'ı N18 §6 identity/freshness'tan N18 §6'ya kısalmıştı; aynı S224 ve aynı bölüm korunur, kullanım metni değişmez. Bu yüzden yalnız tek satır değiştiği veya kusursuz byte-preserving patch yapıldığı iddia edilmez.
 
-Current linked inventory drafts:
-- [TERMS-SURFACES-INSTALLATION.md](TERMS-SURFACES-INSTALLATION.md)
-- [TERMS-WORK-EXECUTION-MEMORY.md](TERMS-WORK-EXECUTION-MEMORY.md)
-- [TERMS-LEARNING-GOVERNANCE.md](TERMS-LEARNING-GOVERNANCE.md)
-- [TERMS-REVIEW-RUNTIME-OPERATOR.md](TERMS-REVIEW-RUNTIME-OPERATOR.md)
-- [TERMS.md](TERMS.md) — package entry and cross-links.
+R09 evaluation-registry işareti E serisiyle; R10/R11 capsule/static-inspection işaretleri O serisiyle ayrıntılanır. R11, O60'ın helper/public-gate ayrımıyla okunur. Bu çapraz-kayıt yolları ortak tanım kabulü değildir.
 
-File grouping is for readability; one file ≠ one term.
+## 6. Gerçek yayın ve kontrol sınırı
 
-## 7. Current strongest interpretation boundaries
+- Rust TERMS ilk yayın: **153114995173de76a95772ed259eb982336bdbc4**, blob **b51c42d25ab984cbed81b79f02ff51c42be5a011**.
+- Node TERMS ilk yayın: **4f002b274c7542c1861c392282e8fbc90195f464**, ilk blob **7ee111b756cab889fcf2567b1b6bfcd21d95e42e**.
+- Node capsule/journal düzeltmesi: **3e4005d047b592eea06ed110681b51ccc8cce773**, düzeltilmiş blob **241a78f5fd420d3b8f14cee8bb40ed2deae6ead5**.
 
-- repository/package/plugin/cache/install/runtime are distinct objects;
-- provider registration ≠ cached-content completeness ≠ hook trust/invocation ≠ task benefit;
-- requested component ≠ resolved module ≠ planned operation ≠ applied operation ≠ owned installed content;
-- structurally valid install state ≠ completed installation;
-- checkpoint/retry hint ≠ retry admission;
-- task record ≠ run/worker ≠ accepted outcome;
-- process exit/status ≠ handoff semantics ≠ work acceptance;
-- stored memory ≠ reviewed/governed knowledge ≠ model-use;
-- observation ≠ analyzed learning ≠ promoted instinct ≠ injected context ≠ behavioral benefit;
-- skill invocation outcome ≠ task quality;
-- proposal/recommendation ≠ admitted mutation ≠ validated improvement;
-- guard decision ≠ host enforcement ≠ authorized effect;
-- first-touch marker ≠ verified investigation;
-- governance event ≠ persisted governance record ≠ approval decision ≠ enforced effect;
-- review session identity ≠ artifact revision identity;
-- feedback drain ≠ consumer acknowledgment ≠ acted decision;
-- session id ≠ execution attempt;
-- heartbeat/process exit/state legality ≠ useful progress/accepted work/effect provenance;
-- operator view can be effectful; display ≠ passive observation;
-- filesystem path ≠ Git worktree/resource identity;
-- same-id resume ≠ native-context restoration;
-- displayed database ≠ commanded database;
-- message command success ≠ actual consumer admission ≠ recipient uptake.
+Rust TERMS 1–80 görünümünün kesilen kuyruğu 75–EOF ile tamamlandı; Node ilk metni 1–60/61–105/106–EOF olarak tam geri okundu. Düzeltmenin gerçek diff'i de okundu. ID aralıkları ve source-point/relative-path ilişkileri bu görülen kayıtlardan kontrol edildi; otomatik tüm-repo ID/link suite'i veya bağımsız aktör incelemesi yapılmadı. Yardımcı raw indirmesi ConnectionError ile başarısız oldu; bağlı GitHub okumaları/yazmaları sürdü. Yerel tam-byte download/hash-match başarısı iddia edilmez.
 
-## 7A. C1 durable checkpoint — U01–U02 surfaces / installation / ownership
+Bu dosya ve güncel router/STATE yazımları sonraki checkpoint işlemleridir; kendi gelecekteki commit kimliği veya henüz yapılmamış readback sonucu uydurulmaz. Final current-ref/diff/readback, turun kapanışında kontrol edilir. Bu statik correspondence kontrolü araştırmanın teknik doğruluğunu bağımsız doğrulamaz.
 
-C1 exact source families:
-- U01-A Note01 + U01-A source ledger + E01 plan/result/readme;
-- U01-B Note02 + U01-B source ledger;
-- U02-A Note03 + U02-A source ledger;
-- inventory/STRUCTURE, TREE-FRONTIER and U01-B-DISCOVERY;
-- PUBLICATION U01-A/U01-B/U02-A sections;
-- METHOD-REVIEW MR01/MR02/MR03;
-- RESEARCH-LOG U01-A/U01-B/U02-A sections;
-- SOURCE-LEDGER U01-A/U01-B/U02-A sections.
+## 7. Exact next ve açık sınır
 
-Publication/history files were **selected-read at the exact C1 sections**, not falsely labelled whole-file FULL. Their role is chronology/scope/readback, not new behavior evidence.
+**B6-T17-C5b / ilk U11-A:** research/studies/ecc/notes/19-NATIVE-REVIEW-CALLER-AND-DECISION-BOUNDARIES.md → evidence/U11-A-SOURCES.md → ROUND-U11-A.md → PUBLICATION-U11-A.md; bağlı E08 kaydı kendi adapted-run kapsamıyla devralınır. Bu tur Note19/E08 içeriği okunmuş veya Concepts'e aktarılmış sayılmadı. Sonra U11-B–E; ardından U12-A/B1/B2/C. Kaynak/sürüm deltası girişte kontrol edilir; U10 sırf yeni tur diye yeniden yapılmaz.
 
-C1 source-to-TERMS check found three concrete omissions and closed them:
-- **ECC-S54 install profile**;
-- **ECC-S55 hook profile**;
-- **ECC-S56 source/runtime version binding**.
+C6 için halen açık: notes19–27'nin C5 aktarımı, U11–U12 ledgers/rounds/receipts ve bağlı evidence; önceki tarihsel READING'deki master-history/inventory/remaining-evidence hesabı; package-wide source-to-TERMS, ID/role ve kaynak delta kontrolü. Daha önce açıklanmış fakat canlı doğrulaması açık Q06d1b/Q06d2b source soruları otomatik yeni Concepts deney borcu değildir.
 
-C1 term inventory now runs **ECC-S01–ECC-S56**. No duplicate/gap is intended; final package-wide ID validation remains C6.
-
-C1 strongest closure boundaries:
-- root/source family map is partial discovery, not complete ECC topology;
-- harness name is not install-channel identity;
-- install profile, hook profile, plugin enablement, hook trust and runtime/source version are separate dimensions;
-- research pin does not force provider marketplace/runtime to install that pin;
-- provider registration/readback is narrower than cache-content/hook/task readiness;
-- planned/applied/owned/projected/healthy states are distinct;
-- bridge/checkpoint can preserve recovery information without proving completed effects or retry admission;
-- E01 is a bounded checker false-green observation, not a live Codex/product failure rate;
-- U01/U02 publication and same-assistant method review do not upgrade source/test/local-execution evidence class.
-
-**C1-DURABLE-COMPLETE** means U01–U02 contextual transfer is closed at the current source package. It does not close U01/U02 residual research questions, P1 inventory debt or ECC source-study.
-
-## 7B. C2 durable checkpoint — U03–U04 work / execution / memory
-
-C2 exact source families:
-- U03-A Note04 + U03-A source ledger + E02 README/plan/result;
-- U03-B Note05 + U03-B source ledger + E03 README/plan/result;
-- U04-A Note06 + U04-A source ledger;
-- PUBLICATION.md U03-A section;
-- PUBLICATION-U03-B.md;
-- PUBLICATION-U04-A.md;
-- METHOD-REVIEW MR04/MR05;
-- RESEARCH-LOG U03-A/U03-B sections;
-- SOURCE-LEDGER U03-A/U03-B sections;
-- ROUND-U04-A including MR06.
-
-History/publication files were read at exact relevant sections or as bounded standalone unit files. Publication/readback evidence is chronology/integrity, not runtime evidence.
-
-C2 source-to-TERMS check found and closed eleven source-local omissions:
-- **ECC-W79** inspection persistence side effect;
-- **ECC-W80** worker input identity;
-- **ECC-W81** coordination-dir preservation vs content preservation;
-- **ECC-W82** rollback resource scope vs produced value;
-- **ECC-W83** worker enumeration set;
-- **ECC-W84** observation-failure collapse;
-- **ECC-W85** status timestamp vs heartbeat;
-- **ECC-W86** session locator identity;
-- **ECC-W87** user-scope two-stage opt-in;
-- **ECC-W88** memory read status projection;
-- **ECC-W89** doctor ok vs process exit.
-
-C2 term inventory now runs **ECC-W01–ECC-W89**.
-
-C2 strongest boundaries:
-- work item/status/owner/session link are records, not exclusive live execution authority;
-- bounded candidate retrieval is not complete remote truth;
-- adapter session snapshot, fallback history and SQLite session rows are different persistence contracts;
-- inspection itself can create a fallback recording;
-- base ref is insufficient as exact worker-input identity when overlays and rendered launchers matter;
-- command dispatch, process completion, raw handoff, parsed representation and accepted outcome are distinct;
-- created-resource rollback can conflict with preserving newly valuable output;
-- keeping a coordination directory does not preserve its prior files;
-- empty pane list can represent observation failure, not only no session;
-- timestamp-derived stale health is not a heartbeat;
-- memory storage/trust/status/scope/target, review/governance and actual consumer use remain distinct;
-- structured memory views can retain qualifiers that plain CLI views omit;
-- doctor/process success is not a healthy-vault certificate.
-
-**C2-DURABLE-COMPLETE** means U03–U04 contextual transfer is closed at the current source package. It does not close Q04b/c/e, Q05b/c, product runtime integration or ECC source-study.
-
-## 7C. C3 durable checkpoint — U05–U06 learning / evaluation / governance
-
-C3 exact source families:
-- U05-A Note07 + U05-A source ledger;
-- U05-B Note08 + U05-B source ledger + E04 README/PLAN;
-- U06-A Note09 + U06-A source ledger + E05 main README/PLAN;
-- U06-B Note10 + U06-B source ledger;
-- U06-C Note11 + U06-C source ledger;
-- ROUND-U05-A / PUBLICATION-U05-A;
-- ROUND-U05-B / PUBLICATION-U05-B;
-- ROUND-U06-A / PUBLICATION-U06-A;
-- ROUND-U06-B / PUBLICATION-U06-B;
-- ROUND-U06-C / PUBLICATION-U06-C;
-- u06-a-conversation-record README for the historical dual-E05 evidence identity reconciliation.
-
-C3 evidence lineage preserves **two different historical E05 records**:
-- main-path Node `probe.cjs`, 15 cases;
-- conversation-bundle Python `probe.py`, 16 cases.
-They share target blobs but case IDs/driver/results are not pooled into one larger validation score and are not treated as independent replications merely because drivers differ.
-
-Publication/round files confirm chronology, evidence identity, scope/readback and maintenance failures. They do not upgrade source/local-execution evidence into independent product validation.
-
-C3 source-to-TERMS check added:
-- **ECC-L99** location-derived instinct scope;
-- **ECC-L100** analyzed set vs archived set;
-- **ECC-L101** current version label;
-- **ECC-L102** governance host-field adaptation;
-- **ECC-L103** governance event correlation identity;
-- **ECC-L104** governance data minimization.
-
-C3 term inventory now runs **ECC-L01–ECC-L104**.
-
-C3 strongest boundaries:
-- observation capture can exist without analysis;
-- analyzer completion marker is an invocation-boundary receipt, not semantic learning validity;
-- analyzed observations and archived observations need not be the same set;
-- same-ID/multi-project promotion is not semantic agreement or independent evidence;
-- generated evolved artifacts and learned-skill discovery paths are distinct;
-- SessionStart context can inject compressed instinct action while dropping trigger/evidence/ID;
-- skill invocation telemetry, improvement observations and instinct evidence are separate contracts;
-- skill health labels are criterion-specific and can produce non-intuitive “healthy/non-declining” views under no-data or constant-failure cases;
-- amendment recommendation and success-rate delta are not independent causal efficacy proof;
-- version label/snapshot is not a content-bound experiment identity;
-- config-protection object-name guard, GateGuard first-touch marker and governance capture are distinct control families;
-- first-touch denial does not verify that investigation occurred;
-- zero-exit structured deny can still be a host refusal, while internal output composition can conditionally drop that deny representation;
-- governance event classification, stderr transport, database persistence, pending standing, resolution and enforced effect are separate transitions;
-- capture field/correlation/data-minimization choices constrain what later consumers can infer;
-- zero pending rows is not evidence of complete capture/clean system.
-
-**C3-DURABLE-COMPLETE** means U05–U06 contextual transfer is closed at the current source package. It does not close Q06c2, Q07a2/b2/c2, scanner/deployment controls, host efficacy or ECC source-study.
-
-## 7D. C4 durable checkpoint — U07–U09 material / review / runtime / operator
-
-C4 exact source families:
-- U07-A family map + U07-A source ledger + MR12 + PUBLICATION-U07-A;
-- U08-A Note12 + U08-A source ledger + MR13 + PUBLICATION-U08-A;
-- U08-A interrupted-publication recovery diagnosis + recovery README/CHECK-RESULTS + recovery publication receipt; quarantined binary carriers role-accounted, not behavior evidence;
-- U09-A Note13 + source ledger + MR14 + first-slice publication receipt;
-- U09-A2 Note14 + source ledger + MR15 + PUBLICATION-U09-A2 + E07 README/PROBE-PLAN/RESULTS/runner;
-- U09-A3 Note15 + source ledger + MR16 + PUBLICATION-U09-A3;
-- U09-B Note16 + source ledger + MR17 + PUBLICATION-U09-B.
-
-C4 source roles preserve:
-- U07 family-map metadata and selected/full source reading as breadth evidence, not full implementation coverage;
-- U08 Plan Canvas source/test inspection as source evidence; historical E06 outcomes remain **NOT VERIFIED / EXCLUDED**;
-- U09 Rust/Node source predicates and conditional schedules as source-derived counter-paths, not observed incidents;
-- E07 as one bounded source-derived SQLite/Git local execution, not compiled Rust/ECC/Tokio/live-host validation;
-- Tokio version-bound source contract in U09-A3 as dependency evidence, not installed binary conformance;
-- publication/recovery/readback records as continuity/integrity evidence, not independent behavior evidence.
-
-C4 source-to-TERMS transfer created [TERMS-REVIEW-RUNTIME-OPERATOR.md](TERMS-REVIEW-RUNTIME-OPERATOR.md), with **ECC-R01–ECC-R176**. Mechanical ID check: 176 unique IDs, R01–R176 gap-free, duplicate ID 0. This is addressability checking, not semantic validation.
-
-C4 strongest closure boundaries:
-- material family is an overlapping research/accounting family, not a subsystem declaration;
-- review session path identity does not bind an immutable artifact revision or authenticated reviewer;
-- queued/persisted/drained feedback, client receipt, model uptake, decision acceptance and action are separate transitions;
-- session id, wrapper pid, harness pid and execution attempt are distinct identities;
-- heartbeat, process exit, state legality and board percentages carry narrower meanings than useful progress or accepted work;
-- TUI/operator observation can itself trigger activation/enforcement, so observed view and controlling actor roles can overlap;
-- retained working-directory path does not preserve Git worktree/resource identity;
-- same-id resume is fresh ECC execution under retained record identity, not established native model-context restoration;
-- attempt ownership/fencing is not supplied merely by session-level state validation; source-derived stale-attempt schedules remain conditional, not empirical incidents;
-- Node control-pane display target, Rust subprocess target and selected executable can diverge unless separately bound;
-- work-item mutation, advisory projection, attempted message delivery, actual consumer admission and recipient uptake are different contracts;
-- producer test-double acceptance does not prove the pinned consumer admits the same argv;
-- stored binary-object identity, decompression integrity, reachable file publication and research-result validity are separate evidence properties.
-
-**C4-DURABLE-COMPLETE** means U07–U09 contextual transfer is closed at the current source package and declared evidence scopes. It does not close Q04f2/Q04g1c/Q04g2b, live host/runtime validation, ECC source-study, U10–U12 or package-wide C6 reconciliation.
-
-## 8. Explicit open boundary
-
-ECC concepts package **PACKAGE-COMPLETE değildir**.
-
-C1, C2, C3 ve C4 kapandı. Package-wide açık alanlar:
-- notes 17–27;
-- U10–U12 source ledgers;
-- U10–U12 relevant rounds/publication receipts;
-- METHOD-REVIEW / QUESTIONS / SOURCE-LEDGER / RESEARCH-LOG full package reconciliation;
-- inventory files;
-- remaining nested evidence;
-- package-wide duplicate/role/source-to-TERMS closure.
-
-## 9. Devam
-
-**Sıradaki concepts work B6-T17-C5:** yalnız U10–U12.
-
-C5 scope:
-- U10-A/U10-B evaluation registry + offline capsule/replay/receipt families;
-- U11-A–U11-E review, scheduling, intake, backlog and template/workflow-distribution families;
-- U12-A profiles, U12-B OpenCode installation/loading/tool-result families, U12-C Python provider/tool-roundtrip family;
-- exact notes/source-ledgers/round/publication and bounded evidence;
-- C5-linked term inventory creation/refinement;
-- C5 durable checkpoint.
-
-Bu C4 checkpoint'inde C5 source extraction başlatılmadı.
-
-ECC source-study'nin U13-A next research işi concepts next değildir. U13-A yapılmaz. B7/B8 shared terminology başlamaz.
+Her Concepts turunun iki riski sürer: Batu okuma anındaki anlam seçimlerini denetleyemediği için önemli yorum/dayanak/değişiklik görünür olmalıdır; aynı sözcük ortak anlamı garanti etmez ve kullanıcı onayı teknik oracle değildir. Kaynak kullanımı, araştırmacı yorumu ve extractor yorumu birbirinin yerine geçmez. Ortak B7/B8, Foundation/SOUL/Development OS ve source-study U13-A bu checkpoint'in işi değildir.
