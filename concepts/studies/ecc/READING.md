@@ -1,6 +1,6 @@
 # ECC — Okuma ve kalıcı çıkarım durumu
 
-2026-09-20, **B6-T16-C1 / DURABLE-TRANSFER-ACTIVE / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T16-C1 / C1-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
 
 Bu dosya `research/studies/ecc/` paketinin concepts programı açısından gerçek okuma/coverage hesabını taşır. ECC source-study kendi açısından **ACTIVE / PARTIAL** durumundadır; current research next U13-A/Q07d1 **NOT STARTED**. Concepts extractor bu next-work talimatını assistant authority yapmaz; current repository package'ini kaynak olarak okur.
 
@@ -42,10 +42,10 @@ ECC package 159 dosya olduğu için concepts aktarımı altı bounded checkpoint
 Bu partition source-study planı değildir; yalnız concepts continuity planıdır.
 
 Current progress:
-- C1–C3 main mechanism notes and source-ledgers were already full-read in the interrupted large turn.
-- Three linked term drafts exist and align with C1–C3.
-- **C1/C2/C3 henüz complete değildir**: own round/publication/history reconciliation and source-to-TERMS closure still required.
-- exact next: **C1 closure only**. C2'ye aynı turda geçilmez.
+- **C1 U01–U02 DURABLE-COMPLETE.**
+- C2/C3 main mechanism notes and source-ledgers were already full-read in the interrupted large turn, but their own round/publication/history reconciliation is still open.
+- Three linked term files exist; only SURFACES-INSTALLATION is closed.
+- exact next: **C2 closure only**. C3'e aynı turda geçilmez.
 
 ## 4. C1–C3 için şu ana kadar doğrudan okunan current source files
 
@@ -131,11 +131,45 @@ File grouping is for readability; one file ≠ one term.
 - first-touch marker ≠ verified investigation;
 - governance event ≠ persisted governance record ≠ approval decision ≠ enforced effect.
 
+## 7A. C1 durable checkpoint — U01–U02 surfaces / installation / ownership
+
+C1 exact source families:
+- U01-A Note01 + U01-A source ledger + E01 plan/result/readme;
+- U01-B Note02 + U01-B source ledger;
+- U02-A Note03 + U02-A source ledger;
+- inventory/STRUCTURE, TREE-FRONTIER and U01-B-DISCOVERY;
+- PUBLICATION U01-A/U01-B/U02-A sections;
+- METHOD-REVIEW MR01/MR02/MR03;
+- RESEARCH-LOG U01-A/U01-B/U02-A sections;
+- SOURCE-LEDGER U01-A/U01-B/U02-A sections.
+
+Publication/history files were **selected-read at the exact C1 sections**, not falsely labelled whole-file FULL. Their role is chronology/scope/readback, not new behavior evidence.
+
+C1 source-to-TERMS check found three concrete omissions and closed them:
+- **ECC-S54 install profile**;
+- **ECC-S55 hook profile**;
+- **ECC-S56 source/runtime version binding**.
+
+C1 term inventory now runs **ECC-S01–ECC-S56**. No duplicate/gap is intended; final package-wide ID validation remains C6.
+
+C1 strongest closure boundaries:
+- root/source family map is partial discovery, not complete ECC topology;
+- harness name is not install-channel identity;
+- install profile, hook profile, plugin enablement, hook trust and runtime/source version are separate dimensions;
+- research pin does not force provider marketplace/runtime to install that pin;
+- provider registration/readback is narrower than cache-content/hook/task readiness;
+- planned/applied/owned/projected/healthy states are distinct;
+- bridge/checkpoint can preserve recovery information without proving completed effects or retry admission;
+- E01 is a bounded checker false-green observation, not a live Codex/product failure rate;
+- U01/U02 publication and same-assistant method review do not upgrade source/test/local-execution evidence class.
+
+**C1-DURABLE-COMPLETE** means U01–U02 contextual transfer is closed at the current source package. It does not close U01/U02 residual research questions, P1 inventory debt or ECC source-study.
+
 ## 8. Explicit open boundary
 
 ECC concepts package **PACKAGE-COMPLETE değildir**.
 
-C1–C3 mekanizma/source-ledger okumaları ilerledi, fakat bu checkpoint'ler henüz closure almamıştır. Özellikle:
+C1 kapandı. C2/C3 mechanism/source-ledger okumaları ilerledi fakat kendi closure'ları henüz yok. Package-wide açık alanlar:
 - notes 12–27;
 - U07–U12 source ledgers;
 - relevant rounds/publication receipts;
@@ -146,15 +180,14 @@ C1–C3 mekanizma/source-ledger okumaları ilerledi, fakat bu checkpoint'ler hen
 
 ## 9. Devam
 
-**Sıradaki concepts work B6-T16-C1:** yalnız U01–U02 closure.
+**Sıradaki concepts work B6-T16-C2:** yalnız U03–U04 closure.
 
-C1 exact scope:
-- U01/U02 ROUND ve PUBLICATION records;
-- ilgili historical/master ledger bağları gerektiği ölçüde;
-- E01 role/readback reconciliation;
-- TERMS-SURFACES-INSTALLATION source-to-record coverage check;
-- C1 durable checkpoint.
+C2 exact scope:
+- U03-A/U03-B/U04-A ROUND/publication/history reconciliation;
+- E02/E03 role/readback reconciliation;
+- TERMS-WORK-EXECUTION-MEMORY source-to-record coverage check;
+- C2 durable checkpoint.
 
-Aynı turda C2'ye geçilmez.
+Aynı turda C3'e geçilmez.
 
 ECC source-study'nin U13-A next research işi concepts next değildir. U13-A yapılmaz. B7/B8 shared terminology başlamaz.
