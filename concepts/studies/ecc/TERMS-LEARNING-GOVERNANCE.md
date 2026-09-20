@@ -1,6 +1,6 @@
 # ECC — Learning, evaluation and governance terms
 
-2026-09-20, **B6-T16-E1 / DURABLE E1 TRANSFER**. [TERMS.md](TERMS.md)'nin linked parçasıdır. Bu dosya U05–U06 source package kullanımını taşır.
+2026-09-20, **B6-T16-C3 / DURABLE-COMPLETE / C3-COMPLETE**. [TERMS.md](TERMS.md)'nin linked parçasıdır. Bu dosya U05–U06 source package kullanımını taşır.
 
 ## 1. Observation and instinct lifecycle
 
@@ -135,7 +135,18 @@
 | ECC-L97 — governance attention | Pending count'un readiness/status attention aggregate'ına katkısı. | Actual prior effect blocked/resumed değil. |
 | ECC-L98 — zero pending | This database'de unresolved row yok. | Capture enabled/complete/clean system proof değil. |
 
-## 8. E1 non-collapse
+## 8. C3 closure refinements
+
+| ID / ifade | ECC araştırmasındaki kullanım | Sınır |
+|---|---|---|
+| ECC-L99 — location-derived instinct scope | Instinct'in effective project/global/personal scope'unun yalnız frontmatter field'dan değil, okunduğu directory/namespace'ten de türetilmesi. | scope: global yazmak tek başına global materialization değildir. |
+| ECC-L100 — analyzed set vs archived set | Observer tail-sample ile analyze edilen observations kümesi ile success sonrası archive'a taşınan whole live file'ın aynı olmak zorunda olmaması. | Archived = analyzed/learned evidence guarantee değil. |
+| ECC-L101 — current version label | Skill health/versioning yüzeyinde gösterilen current version number/snapshot-derived label. | O health window'daki bütün runs'ın aynı bytes/version ile üretildiği content identity değildir. |
+| ECC-L102 — governance host-field adaptation | Capture hook'un session/phase/output bilgisini environment ve tool_output gibi selected fields'ten alması; current host contract'taki session_id/tool_response ile doğrudan eşleşmemesi. | Her installed host'ta fidelity failure olduğu kanıtlanmaz; adapter/environment bridge olabilir. |
+| ECC-L103 — governance event correlation identity | Pre/post captures'ın random event IDs ile ayrı records üretebilmesi ve inspected object'te tool_use_id gibi exact operation correlation key bulunmaması. | Same command events'in kesin duplicate incident olduğu anlamına gelmez; higher-level reconciler olabilir. |
+| ECC-L104 — governance data minimization | Event payload'ın matched secret/full command yerine category, restricted command name, fingerprint ve bounded path gibi dar representation taşıması. | Original tool input/output'un başka yerde yok edildiği, anonymity veya complete privacy guarantee değildir. |
+
+## 9. C3 non-collapse
 
 - observation ≠ learning;
 - learning ≠ promotion;
