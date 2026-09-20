@@ -57,11 +57,11 @@ Rol anahtarı: **K** araştırmacının pinned koddan raporladığı kullanım/p
 |---|---|---|
 | ECC-N19 — quality dimension | Betiğin her durumda seçtiği correctness/quality inceleme ekseni; kayıtta review:quality çağrısı. Her gerekli uzmanlık kapsamını taşımaz. | N19 §3; D options/labels / K/D |
 | ECC-N20 — language dimension | Tanınan language için eklenen specialist ekseni; E08'de lang:typescript. Bir eksen bir bağımsız model veya bağımsız delil kaynağı değildir. | N19 §3; D options/labels / K/D/Y |
-| ECC-N21 — security trigger / dimension | Diff/path metnindeki lexical predicate ile eklenen security review. auth path kontrolü seçim kuralını gösterir, semantic güvenlik recall/precision ölçmez. | N19 §3; D security_path_selects_extra_dimension / K/D/Y |
+| ECC-N21 — security trigger | Diff/path metnindeki lexical seçim predicate'i. Seçtiği security dimension ayrı N76 kaydındadır; auth path kontrolü kuralı gösterir, semantic güvenlik recall/precision ölçmez. | N19 §3; D security_path_selects_extra_dimension / K/D/Y |
 | ECC-N22 — selected-dimension coverage | Çalıştırılmak üzere seçilmiş eksenlerin kapsaması. Gerçek değişiklik için gerekli bütün eksenlerin seçilmiş olmasıyla eşit değildir. | N19 §3; LA host/selection / Y |
 | ECC-N23 — failedDimensions | Null/rejected selected reviewer sonuçlarının dimension/error kayıtları. Blocking finding dizisinden ayrıdır; findings boşken de aggregate ret yaratabilir. | N19 §5; D reviewer_null/reviewer_rejection / K/D |
 | ECC-N24 — incomplete | Seçilen review eksenlerindeki failure'lardan türetilen sonuç bayrağı. False olması tüm gerekli eksenlerin incelendiğini veya verifiers'ın tamamlandığını kanıtlamaz. | N19 §3, §5; D verifier_null / K/D/Y |
-| ECC-N25 — finding | title, severity, file, evidence ve opsiyonel line/proof/fix taşıyan review kaydı. Kayıt, gerçek ve doğrulanmış defect ile aynı şey değildir. | N19 §3–4; D Review schema / K/D/Y |
+| ECC-N25 — finding | title, severity, file ve evidence alanları; opsiyonel line/fix ve severity'ye göre koşullu zorunlu proof taşıyan review kaydı. Kayıt, gerçek ve doğrulanmış defect ile aynı şey değildir. | N19 §3–4; D Review schema / K/D/Y |
 | ECC-N26 — severity | CRITICAL/HIGH/MEDIUM/LOW önem etiketi; birleşmede daha sıkı etiket korunur. Fiilî impact ölçümü veya proof'un korunduğu anlamına gelmez. | N19 §3–4; D Review schema, merge cases / K/D |
 | ECC-N27 — evidence | Finding içindeki offending snippet/exact-location string'i; yakalanan şema minLength=1 ister. Metin eşliği semantic issue kimliği değildir. | N19 §3–4; D Review schema / K/D/Y |
 | ECC-N28 — proof | HIGH/CRITICAL için şemanın varlığını istediği string alanı. Yakalanan şemada nonempty/impact doğrulaması yoktur; talimatın somut kanıt istemesi ayrı katmandır. | N19 §3; D Review schema/prompts / K/P/D |
@@ -73,7 +73,7 @@ Rol anahtarı: **K** araştırmacının pinned koddan raporladığı kullanım/p
 |---|---|---|
 | ECC-N30 — dedup key | Ordinary evidence-based yolda file + normalized evidence anahtarı. Line numarasını içermemesi aynı snippet'in farklı yerlerini birleştirebilir; semantic aynı sorun kanıtı değildir. | N19 §4; LA finding composition; D same_snippet_different_locations / K/D/Y |
 | ECC-N31 — normalized evidence | Whitespace collapse ve lowercase ile elde edilen eşleştirme metni. Kaynak anlamının veya sorun kimliğinin doğrulanması değildir. | N19 §4; LA S167 / K/Y |
-| ECC-N32 — dimension / dimensions | Finding'in geldiği ilk eksen alanı ve birleşmede tutulan eksenlerin listesi. Birleşmiş listede birden çok ad bulunması her destekleyici iddianın ayrı korunduğunu göstermez. | N19 §4; D merge outcomes / K/D |
+| ECC-N32 — dimension | Finding'in geldiği ilk ekseni taşıyan tekil alan. Birleşmiş kaynak eksenlerinin dimensions listesi ayrı N77 kaydındadır; iki alan aynı nesne değildir. | N19 §4; D merge outcomes / K/D |
 | ECC-N33 — severity promotion during merge | Aynı anahtarda daha ağır severity'ye yükseltme. U10 registry promotion veya beceri değişikliği kabulü değildir; burada finding alanı değişir. | N19 §4; D medium_then_critical_same_evidence / K/D/Y |
 | ECC-N34 — first-finding field retention | Birleşmede ilk title/proof/fix/location gibi diğer alanların korunması. Sonraki ağır bulgunun gerekçesi seçilmez veya birleştirilmez. | N19 §4; D ordered merge cases / K/D |
 | ECC-N35 — proof-preservation boundary | Ayrı ayrı şemaya uygun iki bulgu birleşirken ağır bulgunun proof'unun kaybolabilmesi. E08'de gözlenen bilgi aktarımı sorunudur; gerçek vulnerability miss iddiası değildir. | N19 §4; EP criteria3/4; D ordered merge cases / D/Y |
@@ -135,7 +135,7 @@ Rol anahtarı: **K** araştırmacının pinned koddan raporladığı kullanım/p
 
 ## 9. Kaynak tarafından kapsam kontrolü
 
-N19 §1 → N01–N08; §2 → N09–N18; §3 → N19–N29/N40–N41; §4 → N30–N38/N67–N72; §5 → N23–N24/N43–N52; §6 → N39–N50/N54; §7 → N55–N63; §8 → N64–N66; §9 → N67–N75 ve aşağıdaki açık sınırlar. LA actual reading/producer-consumer/dates/evidence sınırları, MA araştırma seçimi ve PA yayın düzeltmeleri tam okundu; bunlar birbirinden bağımsız product evidence sayılmadı.
+N19 §1 → N01–N08; §2 → N09–N18; §3 → N19–N29/N40–N41/N76; §4 → N30–N38/N67–N72/N77; §5 → N23–N24/N43–N52; §6 → N39–N50/N54; §7 → N55–N63; §8 → N64–N66; §9 → N67–N75 ve aşağıdaki açık sınırlar. LA actual reading/producer-consumer/dates/evidence sınırları, MA araştırma seçimi ve PA yayın düzeltmeleri tam okundu; bunlar birbirinden bağımsız product evidence sayılmadı.
 
 E08'in yedi dosyasının gerçek directory listesi alındı. README, PRECHECK ve probe tam okundu. Dört part'ın yereldeki tam baytları Git blob kimlikleriyle eşleşti; ordered decode 101725 bayt ve ER'deki SHA-256 ile eşleşti. D'nin metadata ve 18 senaryosunun girdileri, bütün replies/errors/logs/outcomes okundu. Tekrarlanan içerikler kaybolmadan 8 farklı prompt, 2 farklı schema ve 6 farklı schema-hariç call-options temsili okunup scenario/call bağlantıları kontrol edildi. schema_check içindeki 38 kayıt okundu; mevcut yanıtlarla Draft7 yeniden kontrolünde 38/38 valid bulundu. Bu read-only content/schema kontrolü yeni E08 koşusu değildir. İlk geniş ekran çıktısında görünmeyen başlık/ilk üç senaryo ve schema kuyruğu daha küçük gösterimlerle tamamlandı; ilk truncated görünüm tam okuma sayılmadı.
 
@@ -151,8 +151,17 @@ E08 kaydı ile N19 arasında bu tur maddi sonuç çelişkisi saptanmadı. İki a
 
 U10'un registry promotion, Node receipt verification ve tool-response replay kullanımları burada severity promotion, verifier çağrısı veya host prefix replay ile eş anlamlı yapılmadı. Kaynaklar arası olası karşılaştırma işaretleri ortak referans veya mimari kabul değildir.
 
+### İlk readback sonrası kayıt ayrımı
+
+İlk yayın 091d7c932da64c474b678dbe249e5785a8bbb520 içinde N21 seçim predicate'i ile seçilen ekseni, N32 ise tekil kaynak alanı ile birleşmiş listeyi aynı ID altında taşıyordu. Anlamlar açıklanmış olsa da ayrı adreslenmiyordu. N21 yalnız trigger'a, N32 yalnız dimension alanına daraltıldı; N76 ve N77 eklendi. N25'te proof'un koşula bağlı zorunluluğu aynı satırda açıklaştırıldı; N28 zaten bu koşulu taşıyordu. N19/N20/N22/N30/N33–N38 ve bölüm-kayıt eşlemesi kontrol edildi; başka kullanım anlamının değişmesi gerekmedi. Bu extractor kayıt düzeltmesidir; yeni ECC bulgusu veya kaynak değişikliği değildir.
+
+| ID / özgün ifade | Bu araştırmadaki karşılık ve sınır | Dayanak / rol |
+|---|---|---|
+| ECC-N76 — security dimension | N21 predicate'i eşleştiğinde seçilen security review ekseni; E08'de review:security ve ecc:security-reviewer çağrı etiketi. Seçim kuralının kendisi değildir ve fiilî security coverage'ı doğrulamaz. | N19 §3; D security_path_selects_extra_dimension options / K/D |
+| ECC-N77 — dimensions | Birleşmiş finding'in kaynak eksenlerini tutan liste/birleşim. Tekil dimension alanından ayrıdır; tüm kaynak title/proof/fix/location içeriklerini birleştiren kanıt deposu değildir. | N19 §4; D ordered merge outcomes / K/D |
+
 ## 11. Kapanış sınırı
 
-U11-A'nın dört araştırma dosyası ve E08'in yedi mevcut dosyasından source-local aktarım yapılmıştır. Yayın/readback ve local/global current durum ayrıca kapatılır; bu metin kendi sonraki commit'ini veya henüz yapılmamış kontrolü iddia etmez. 75 ID, 75 bağımsız kavram/kanıt veya ilerleme yüzdesi değildir.
+U11-A'nın dört araştırma dosyası ve E08'in yedi mevcut dosyasından source-local aktarım yapılmıştır. Yayın/readback ve local/global current durum ayrıca kapatılır; bu metin kendi sonraki commit'ini veya henüz yapılmamış kontrolü iddia etmez. 77 ID, 77 bağımsız kavram/kanıt veya ilerleme yüzdesi değildir.
 
 Q04h2'nin exact repo/revision/consent, host/API/schema/parallel/permission, installed discovery/pack, semantic dedup/reviewer calibration, gerekli review coverage, live remediation/commit enforcement/cross-session recovery soruları çözülmedi. Kaynağın tanımladığı sınırı korumak, otomatik yeni Concepts deney borcu üretmez. Upstream test, native Workflow, agent/model/provider, gh/PR seçimi, installation, Git commit veya remediation çalıştırılmadı. E04/E07 ve iki E05 geçmişi korunur, E06 excluded kalır. Sıradaki Concepts kaynak ailesi U11-B'dir; U11-B–E/C5c/C6/B7/B8 bu dosyayla yapılmış sayılmaz.
