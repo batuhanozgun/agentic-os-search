@@ -149,3 +149,29 @@ Hermes current research şu zinciri ayrı tutar:
 - completion persisted != parent used it;
 - fresh context != independent verifier;
 - same AIAgent facade != same backend/history/tool owner.
+
+
+## 8. Review policy, middleware and gateway admission refinements
+
+| ID / ifade | Hermes araştırmasındaki kullanım | Sınır |
+|---|---|---|
+| HA-R101 — advertised / valid tool-name set | Agent tool definitions/schema'lardan türetilen name set; generic turn validation tool adını bununla tanır. | Review-specific dispatch authorization değildir. |
+| HA-R102 — review tool whitelist | Background review için memory/skill/read/search/extras gibi narrower allowed dispatch set'i. | Parent advertised set ile inspected path'te aynı object değil. |
+| HA-R103 — thread-local whitelist | Review thread'inde plugin policy consumer'ın okuduğu per-thread dispatch policy state. | ContextVars propagation ile otomatik worker transfer guarantee değil. |
+| HA-R104 — worker policy binding | Worker execution thread'inde narrower whitelist'i explicit olarak yeniden kurma intervention/requirement. | U01-D2 bounded diagnostic; whole product enforcement theorem değil. |
+| HA-R105 — name acceptance vs policy admission | Tool name validator'ın OK demesi ile later review whitelist/guardrail/lifecycle/approval gates'in allow etmesinin ayrı stages olması. | “Valid” = “authorized” değil. |
+| HA-R106 — middleware next_call | Execution middleware callback'in downstream chain/handler'a tek-use continuation capability'si. | Handler effect receipt değil. |
+| HA-R107 — middleware short-circuit | Callback'in next_call yapmadan own result dönüp downstream handler effect'ini sıfırda tutması. | Generic policy semantics callback role'a bağlı. |
+| HA-R108 — middleware self-failure before next | Ordinary Exception türündeki callback failure'ın warning ile skip edilip downstream execution'ın devam edebilmesi. | Mandatory authorization callback için fail-closed guarantee değil; BaseException branch farklı. |
+| HA-R109 — downstream exception | Handler/inner next failure'ın original exception olarak outer'a taşınması. | Middleware's own post-next failure ile aynı değil. |
+| HA-R110 — saved downstream result | next_call başarıyla result/effect ürettikten sonra outer middleware hata verse bile first successful result'in korunabilmesi. | Actual external effect atomicity/rollback guarantee değil. |
+| HA-R111 — duplicate next-call guard | Aynı middleware callback'in downstream execution'ı ikinci kez çağırmasının local single-use guard ile engellenmesi. | Exception mutlaka top-level'e çıkar demek değil; observed wrapper warning + first result preserve edebilir. |
+| HA-R112 — ingress authorization | Normal external gateway message'ın source/user admission kontrolü. | Slash command authorization ile aynı gate değil. |
+| HA-R113 — slash-command access | Admitted external user'ın canonical command family'yi çalıştırıp çalıştıramayacağına dair DM/group policy. | Pending subcommand/record bazında fine-grained permission değil. |
+| HA-R114 — canonical command name | Access policy'nin memory/skills/help gibi normalized command family identifier'ı. | Literal “memory approve” policy unit'i actual caller path'te değil. |
+| HA-R115 — command-family granularity | memory izninin builtin policy düzeyinde pending/list/approve/mode gibi subactions'a tek tek ayrılmaması. | Optional hooks/other layers daha dar control ekleyebilir. |
+| HA-R116 — idle command | /memory ve /skills gibi normal no-active-turn command dispatch table'ında yer alan command family. | Mid-run plain handler değil. |
+| HA-R117 — busy-session command refusal | Same active session running iken normal memory/skills command'ın mid-turn dispatch'e alınmaması. | Same profile/process üzerindeki bütün writers'a global lock değil. |
+| HA-R118 — transport profile vs runtime profile | Message'i admitting adapter/authorization scope'u ile routed execution/data home'unun farklı semantic roles olması. | Profile label tek başına auth object değil. |
+| HA-R119 — live-store caller | CLI'nın mevcut agent MemoryStore varsa common pending apply'e onu vermesi. | Disk/frozen prompt freshness guarantee değil. |
+| HA-R120 — fresh-store caller | Gateway memory approval handler'ın each call load_on_disk_store ile fresh store vermesi. | Cached resident agent memory/prompt automatically refreshed demek değil. |
