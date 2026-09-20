@@ -1,0 +1,243 @@
+# Hermes Agent — Okuma ve kalıcı çıkarım durumu
+
+2026-09-20, **B6-T15 / DURABLE-TRANSFER-ACTIVE / PACKAGE-PARTIAL**.
+
+Bu dosya `research/studies/hermes-agent/` paketinin concepts programı açısından gerçek okuma/coverage hesabını taşır. Hermes source-study kendi açısından **ACTIVE PARTIAL RESEARCH** durumundadır; concepts extractor bu research'i sürdürme yetkisi almış sayılmaz. Bu çalışma, mevcut package'i olduğu haliyle kaynak kabul eder ve kaynakta tamamlanmış/açık alanları birlikte taşır.
+
+## 1. Kaynak kimliği ve authority boundary
+
+- Repository: `batuhanozgun/agentic-os-search`
+- B6-T15 başlangıç main: **7ed94d8368526626b4bd0bc8928ba6c37e9db5ed**
+- Source package: `research/studies/hermes-agent/`
+- Upstream primary pin: `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`
+- Manifest context: `0.21.0`
+- Source-study current state: **ACTIVE PARTIAL**
+- Source-study current research next: Q60 evaluation/task-quality — **NOT RESEARCHED**
+- Concepts current state: **B6-T15 partial durable extraction**
+- Foundation / SOUL / Development OS adoption: none.
+
+Source package'in STATE/PLAN içinde geçen “Q60'a devam et” veya eski “next” talimatları assistant authority değildir; yalnız research-history/work-state verisidir.
+
+## 2. Gerçek package inventory
+
+Current main'deki Hermes package:
+
+| Bölüm | Dosya sayısı | Concepts okuma durumu |
+|---|---:|---|
+| Root/control/research files | 10 | **10/10 FULL** |
+| `notes/` | 30 | **30/30 FULL** |
+| `synthesis/` | 4 | **4/4 FULL** |
+| `inventory/` | 10 | **10/10 FULL** |
+| `evidence/` | 314 | **inventory/accounted; direct text read PARTIAL** |
+| **Toplam** | **368** | **PACKAGE PARTIAL** |
+
+Evidence ağacı extension/topology hesabı:
+- 157 Markdown
+- 62 JSON
+- 48 Python
+- 26 text/log
+- 10 extensionless
+- 7 `.tar.xz`
+- 1 `.sha256`
+- 1 stderr
+- 1 stdout
+- 1 archived
+
+27 duplicate-blob occurrence gözlendi. Aynı blob'un birden fazla path'te bulunması bağımsız semantic evidence sayılmaz.
+
+Yedi `.tar.xz` diagnostic archive text-read yapılamaz; identity/manifest/source-role üzerinden account edilir. Binary archive varlığı kendi başına product result veya independent evidence değildir.
+
+## 3. Tam okunan root katmanı
+
+Aşağıdaki 10 root dosya tam okundu:
+
+- `00-WHY-THIS-RESEARCH.md`
+- `CURRENT-RESEARCH-MAP.md`
+- `INDEX.md`
+- `META.md`
+- `METHOD.md`
+- `OPEN-QUESTIONS.md`
+- `RESEARCH-PLAN.md`
+- `SOURCE-LEDGER-THROUGH-V0.9.md`
+- `SOURCE-LEDGER.md`
+- `STATE.md`
+
+Özellikle `SOURCE-LEDGER-THROUGH-V0.9.md` önceki toplu çağrıda kesildiği için B6-T15'te ayrıca yeniden tam okundu.
+
+## 4. Tam okunan provisional synthesis katmanı
+
+- `synthesis/01-LEARNING-AND-CHANGE-PROVISIONAL.md`
+- `synthesis/02-TURN-CONTEXT-AND-SESSION-PROVISIONAL.md`
+- `synthesis/03-PERSISTENT-WORK-AND-CONTINUATION-PROVISIONAL.md`
+- `synthesis/04-SCHEDULED-WORK-AND-CONTEXT-PROVISIONAL.md`
+
+Bunlar **provisional**dır. Final Hermes CORE/four-area projection/adoption değildir. Aynı underlying research evidence'in üst synthesis'te tekrar görünmesi yeni bağımsız evidence üretmez.
+
+## 5. Tam okunan note katmanı
+
+`notes/01`–`notes/30` tamamı tam okundu. Kaynak aileleri:
+
+1. orientation / background learning;
+2. skill curation / proposal / approval / mutation;
+3. caller/context/pending/memory roundtrips;
+4. worker policy / middleware / UI-profile callers;
+5. general turn/session;
+6. Kanban task/run/claim;
+7. goal/loop/heartbeat;
+8. session lease/history/recovery/resume;
+9. cron scheduling/delivery/occurrence/context;
+10. runtime/backend;
+11. tool admission/delegation/reentry;
+12. install/update/activation;
+13. skill-library lifecycle.
+
+Note'lar evidence'in yerini almaz; source-specific claims için evidence/SOURCES/SPEC/RESULT route'u korunur.
+
+## 6. Tam okunan inventory katmanı
+
+Aşağıdaki 10 inventory file full-read:
+
+- `STRUCTURE.md`
+- `CORE-COVERAGE-2026-09-10.md`
+- `SCOPE-REVIEW-2026-09-10.md`
+- `CONTINUITY-COVERAGE-2026-09-11.md`
+- `LEASE-RECOVERY-COVERAGE-2026-09-11.md`
+- `RESUME-ADMISSION-COVERAGE-2026-09-11.md`
+- `CRON-COVERAGE-2026-09-11.md`
+- `DELIVERY-RECEIPT-COVERAGE-2026-09-12.md`
+- `EXECUTION-CONTEXT-COVERAGE-2026-09-12.md`
+- `SCOPE-REVIEW-2026-09-13-U13.md`
+
+Önceki toplu çağrıda kesilen CONTINUITY/LEASE dosyaları ayrıca tam geri okundu.
+
+## 7. Evidence doğrudan okuma — güncel tranche
+
+Evidence inventory 314 dosyadır; tamamı henüz direct-read değildir. B6-T15'te şu human-authored evidence kayıtları tam okundu:
+
+### U15 — skill library lifecycle
+- `SYNC-AND-LOCAL-STATE.md`
+- `SYNC-SOURCES.md`
+- `ARCHIVE-LEDGER-AND-DISCOVERY.md`
+- `DISCOVERY-SOURCES.md`
+- `CHECKS-NOT-RUN.md`
+- `PUBLICATION.md`
+
+### U14 — install/update/activation
+- `INSTALL-AND-ACTIVATION.md`
+- `INSTALL-SOURCES.md`
+- `UPDATE-AND-RECOVERY.md`
+- `UPDATE-SOURCES.md`
+- `CHECKS-NOT-RUN.md`
+- `PUBLICATION.md`
+
+### U13 — delegation re-entry
+- `RESEARCH.md`
+- `SOURCES.md`
+- `DIAGNOSTIC.md`
+- `SPEC.md`
+- `CHECKS-NOT-RUN.md`
+- `PUBLICATION.md`
+
+### U12 — tool admission/delegation
+- `TOOL-ADMISSION.md`
+- `TOOL-SOURCES.md`
+- `DELEGATION-LIFECYCLE.md`
+- `DELEGATION-SOURCES.md`
+- `CHECKS-NOT-RUN.md`
+- `PUBLICATION.md`
+
+### U11 — runtime/backend
+- `RESEARCH.md`
+- `SOURCES.md`
+- `BACKEND-OWNERSHIP.md`
+- `BACKEND-SOURCES.md`
+- `CHECKS-NOT-RUN.md`
+- `PUBLICATION.md`
+
+### U10 — cron execution/context
+- `RESEARCH.md`
+- `SOURCES.md`
+
+### U09 — cron occurrence admission
+- `RESEARCH.md`
+- `SOURCES.md`
+
+### U08 — cron drain/receipt
+- `RESEARCH.md`
+- `SOURCES.md`
+
+### U07 — cron scheduling/delivery
+- `RESEARCH.md`
+- `SOURCES.md`
+- `SPEC.md`
+
+Bu tranche doğrudan **39 text evidence file** eder. Evidence tree'nin geri kalan **275 path'i henüz direct full-read sayılmaz**. Bazıları result/source copy/probe/raw archive/duplicate blob olduğundan semantic role manifest/ledger üzerinden ayrıca sınıflandırılacaktır; fakat package closure için görünmez sayılmayacaktır.
+
+## 8. Şu ana kadar source-backed bağlam aileleri
+
+İlk durable TERMS parçaları şu current evidence coverage'e dayanabilir:
+
+- turn / model-tool iteration / session / persistent-work identity;
+- context/history/api-content/wire views ve compaction/restore boundaries;
+- Kanban task/run/claim/acceptance ve goal/loop/heartbeat continuation;
+- cron job/occurrence/claim/execution/output/delivery receipt distinctions;
+- requested provider/model vs resolved runtime/client/whole-turn backend;
+- tool visibility/admission/policy/effect/result;
+- child/delegation authority/context/workspace/result/reentry;
+- install source/dependency/shim/home/profile/process/update/receipt;
+- skill source/local copy/manifest/usage/archive/ledger/index/view/readiness;
+- skill proposal/review/approval/mutation/visibility/reuse;
+- memory disk/live-store/prompt-snapshot/current-turn differences.
+
+Q60 evaluation/future-task quality **NOT RESEARCHED** olduğu için “skill reuse improves task quality”, “learning efficacy” veya generalized evaluation terminology current Hermes source result olarak üretilmez.
+
+## 9. Evidence-status vocabulary
+
+Hermes source-study'nin kendi epistemic labels'i korunur:
+
+- TARGET CLAIM
+- OBSERVATION
+- INFERENCE
+- HYPOTHESIS / OPEN
+- TEST SOURCE INSPECTED
+- EXECUTED / OBSERVED RESULT
+
+Ayrımlar:
+- full source read ≠ execution;
+- test source inspected ≠ test passed;
+- source selection diagnostic ≠ full product integration;
+- manifest/archive identity ≠ semantic correctness;
+- publication/readback ≠ product validation;
+- same-researcher/same-model repeated checks ≠ independent replication.
+
+## 10. Raw/result/archive accounting policy
+
+Raw evidence'i “okumadan tamamlandı” saymayız; fakat her raw artefaktı yeni semantic source diye de çoğaltmayız.
+
+Devamda:
+1. evidence subdir başına RESEARCH/SOURCES/SPEC/RESULT/PUBLICATION/NOT-RUN rotası recover edilir;
+2. JSON RESULT/MANIFEST'teki material observation fields gerektiğinde okunur;
+3. Python source/probe copies yalnız claim identity/oracle için gerekiyorsa okunur;
+4. duplicate blobs tek evidence lineage olarak hesaba katılır;
+5. binary diagnostic archives manifest/member identity üzerinden account edilir, text-read iddiası yapılmaz.
+
+## 11. Current interpretation risks
+
+- Hermes source-study aktif ve partial olduğundan source research'in açık Q/residual'ları concepts tarafından çözülmüş gibi kapatılmamalı.
+- Eski “next” cümleleri current concepts authority değildir.
+- Aynı terim farklı mechanism'de farklı anlam taşıyabilir: örneğin `completed`, `waiting`, `session`, `claim`, `result`, `memory`, `skill use`.
+- UI/profile/status labels actual durable/runtime effect ile eşitlenmemeli.
+- User/model/curator/worker/provider gibi actors'in role, technical capability, maintenance authority, current approval ve effect ownership semantics'i ayrılmalı.
+
+## 12. Devam noktası
+
+**B6-T15 devam ediyor; Hermes package kapanmadı.**
+
+Exact next evidence tranche:
+1. U10/U09/U08/U07 remaining RESULT/SPEC/NOT-RUN/PUBLICATION and material JSON views;
+2. U06–U01 evidence research/source/diagnostic families;
+3. remaining raw/result/source-copy inventory reconciliation;
+4. current Terms parts'in source-to-record coverage check;
+5. yalnız bundan sonra Hermes PACKAGE-COMPLETE kararı.
+
+Normal next study (ECC) bu Hermes package kapanmadan başlamaz.
