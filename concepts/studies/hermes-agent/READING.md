@@ -1,6 +1,6 @@
 # Hermes Agent — Okuma ve kalıcı çıkarım durumu
 
-2026-09-20, **B6-T15-H2 / H1-H2-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T15-H3 / H1-H2-H3-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
 
 Bu dosya `research/studies/hermes-agent/` paketinin concepts programı açısından gerçek okuma/coverage hesabını taşır. Hermes source-study kendi açısından **ACTIVE PARTIAL RESEARCH** durumundadır; concepts extractor bu research'i sürdürme yetkisi almış sayılmaz. Bu çalışma, mevcut package'i olduğu haliyle kaynak kabul eder ve kaynakta tamamlanmış/açık alanları birlikte taşır.
 
@@ -426,6 +426,82 @@ Beş parçalı plan:
 - H4 — U11–U15 runtime/tools/delegation/install/skill-library — pending.
 - H5 — package-wide raw-role reconciliation + cross-TERMS + final delta/closure — pending.
 
+## 7F. H3 durable checkpoint — U07–U10 scheduled work / cron
+
+**H3 yalnız U07–U10 scheduled-work family'lerini kapatır; Hermes package hâlâ PARTIAL.**
+
+H3 exact scope:
+- U07 `2026-09-11-cron-scheduling-delivery`;
+- U08 `2026-09-12-cron-drain-receipts`;
+- U09 `2026-09-12-cron-occurrence-admission`;
+- U10 `2026-09-12-cron-execution-context`.
+
+Recursive H3 subtree:
+- **36 path / 36 unique blob**;
+- U07: 10;
+- U08: 11;
+- U09: 5;
+- U10: 10.
+
+H3 closure:
+- **33/36 path direct-read**;
+- **3/36 path role-accounted binary diagnostic archive**: U07, U08 ve U10 `.tar.xz`;
+- archive contents/manifests/source identities ayrı MANIFEST/PUBLICATION records üzerinden account edildi; binary archives text-read diye etiketlenmedi;
+- U09 source-only birimdir; RESULT/archive yokluğu missing evidence değil, study design'ıdır.
+
+Bu H3 turunda daha önce açık kalan dört semantic/provenance file direct-read edildi:
+- U08 `README.md`;
+- U08 `SOURCES.json`;
+- U09 `README.md`;
+- U10 `README.md`.
+
+Önceki direct reads ile birlikte H3'ün RESEARCH/SOURCES/SPEC/RESULT/MANIFEST/ARTIFACT-CHECKS/CHECKS-NOT-RUN/PUBLICATION surfaces'i kapanmıştır.
+
+### H3 source-to-TERMS refinement
+
+`TERMS-WORK-CONTINUATION-SCHEDULING.md` HA-W111–HA-W128 eklendi:
+- provisioned occurrence identity;
+- inbound admission key;
+- occurrence identity narrowing;
+- active claim protection vs historical occurrence memory;
+- late callback;
+- duplicate response label;
+- scheduled snapshot;
+- execution-context channels;
+- fresh cron conversation;
+- script-only execution;
+- wakeAgent gate;
+- script working directory;
+- monitor detection-time checkpoint;
+- execution-context selection quality;
+- operational cron success;
+- teardown deferral;
+- occurrence acceptance vs execution completion.
+
+Strongest H3 non-collapse rules:
+- job ≠ occurrence ≠ claim ≠ execution;
+- outward job+fire_at identity ≠ inbound job-only admission predicate;
+- active claim prevents concurrent owner overlap ≠ historical occurrence dedup memory;
+- HTTP accepted/duplicate labels ≠ exact execution/result/delivery receipt;
+- fresh cron agent ≠ prior conversation resumed;
+- context_from/notepad/memory/prefill/project context are separate continuity channels;
+- newest output ≠ last successful/meaningful context;
+- monitor detection checkpoint ≠ change handled successfully;
+- no_agent/wake gate ≠ no external effect;
+- caller return/timeout ≠ worker physically stopped;
+- output saved ≠ delivered ≠ user accepted.
+
+Global conservative direct-read evidence count is now **201/314 path**. Remaining **113 path** H4–H5'te family/role bazında reconcile edilir; semantic source count değildir.
+
+**H3-DURABLE-COMPLETE** source-bounded concepts transfer statüsüdür. U09 late-callback path source-only; U07/U08/U10 diagnostics bounded; no live NAS/provider/full scheduler/model product validation.
+
+Beş parçalı plan:
+- H1 — COMPLETE.
+- H2 — COMPLETE.
+- **H3 — COMPLETE.**
+- H4 — U11–U15 runtime / tools / delegation / install / skill library — NEXT.
+- H5 — package-wide raw-role reconciliation + cross-TERMS + final delta/closure — pending.
+
 ## 8. Şu ana kadar source-backed bağlam aileleri
 
 İlk durable TERMS parçaları şu current evidence coverage'e dayanabilir:
@@ -484,14 +560,15 @@ Devamda:
 
 ## 12. Devam noktası
 
-**B6-T15-H2 kapandı; Hermes package hâlâ PARTIAL.**
+**B6-T15-H3 kapandı; Hermes package hâlâ PARTIAL.**
 
-Sıradaki exact work **H3 — U07–U10 scheduled work / cron**:
-1. U07 scheduling/delivery;
-2. U08 drain/receipt;
-3. U09 occurrence admission;
-4. U10 execution/context;
-5. remaining raw/result/archive role reconciliation for only these families;
-6. H3 source-to-TERMS coverage check ve durable checkpoint.
+Sıradaki exact work **H4 — U11–U15 runtime / tools / delegation / install / skill library**:
+1. U11 runtime/backend;
+2. U12 tool admission/delegation;
+3. U13 delegation re-entry;
+4. U14 install/update/activation;
+5. U15 skill-library lifecycle;
+6. yalnız bu family'lerin remaining raw/result/archive role reconciliation;
+7. H4 source-to-TERMS coverage check ve durable checkpoint.
 
-H3 sırasında U11+ runtime/skill family'lerine geçilmez; onlar H4'ün işi. H5'e kadar Hermes PACKAGE-COMPLETE kararı verilmez. ECC Hermes H5 kapanmadan başlamaz.
+H4 sırasında package-wide final closure yapılmaz; bu H5'in işi. ECC Hermes H5 kapanmadan başlamaz.
