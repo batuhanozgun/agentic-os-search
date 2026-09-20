@@ -215,6 +215,54 @@ Bu tranche mevcut TERMS-WORK-CONTINUATION-SCHEDULING ayrımlarını güçlendird
 
 Publication/readback kayıtları research transfer authority'sidir; product behavior validation veya independent replication değildir.
 
+## 7B. Evidence doğrudan okuma — U03/U04/U06 continuation checkpoint
+
+Cron tranche sonrasında **17 additional unique file** güvenle full-read olarak sayıldı; connector-output truncation görülen büyük dosyalar full-read sayılmadı.
+
+### U03 — Kanban task/run/claim
+Full-read:
+- `RESEARCH.md`
+- `SOURCES.md`
+- `SPEC.md`
+- `RESULT-SUMMARY.json`
+- `PUBLICATION.md`
+- `RECOVERY-MANIFEST.json`
+
+Bu set mevcut task/run/claim ayrımlarını güçlendirdi: task identity, run attempt, current claim/owner, process exit, DB completion, post-commit callbacks ve semantic acceptance ayrı. K06 özellikle caller exception ile durable completion'ın aynı şey olmadığını source-selected SQLite evidence ile ayırır. Raw RESULT binary archive içinde account edilir; derived summary raw detail'in yerine geçmez.
+
+### U04-B — separate multi-turn delivery reconciliation
+Full-read:
+- `README.md`
+- `RECONCILIATION.md`
+- `DELIVERY-MANIFEST.json`
+
+A/B aynı U04 adı altında farklı recorded runs'dır; same G/H IDs same experiment değildir. B package local synthesis central synthesis/03'ün yerine geçmez ve bağımsız replication sayılmaz.
+
+### U04-A — multi-turn continuity
+Full-read:
+- `SOURCES.md`
+- `SPEC.md`
+- `RESULT-SUMMARY.json`
+- `MANIFEST.json`
+- `PUBLICATION.md`
+
+`RESEARCH.md` large connector output'ta kesildiği için **henüz full-read sayılmadı**; smaller-range continuation gerektirir.
+
+### U06 — process-local resume lease
+Full-read:
+- `RESULT.json`
+- `MANIFEST.json`
+- `PUBLICATION.md`
+
+U06 RESULT, process-local registry'nin same-SID mutual exclusion, wait/timeout, parent-child shared lease, rebind conflict, stale token rejection, cancelled waiter cleanup ve separate registries limitation'ını bounded olarak kaydeder. Actual SessionDB/gateway/model/OS restart çalıştırılmadı.
+
+### Kesilen / henüz full sayılmayanlar
+- U04-A `RESEARCH.md`
+- U05 `RESEARCH.md`, `SOURCES.md`, `CHECKS-NOT-RUN.md`, `PUBLICATION.md`
+- U06 `RESEARCH.md`, `SOURCES.md`, `SPEC.md`
+
+Bunlar next tranche'de range-by-range tamamlanır. Tool truncation'ı “read complete” diye yorumlanmaz.
+
 ## 8. Şu ana kadar source-backed bağlam aileleri
 
 İlk durable TERMS parçaları şu current evidence coverage'e dayanabilir:
@@ -276,9 +324,10 @@ Devamda:
 **B6-T15 devam ediyor; Hermes package kapanmadı.**
 
 Exact next evidence tranche:
-1. U06–U01 evidence research/source/diagnostic families;
-2. remaining raw/result/source-copy inventory reconciliation;
-3. current Terms parts'in source-to-record coverage check;
-4. yalnız bundan sonra Hermes PACKAGE-COMPLETE kararı.
+1. truncated U04-A/U05/U06 large evidence texts'i küçük aralıklarla tamamla;
+2. U01/U02 evidence research/source/diagnostic families;
+3. remaining raw/result/source-copy inventory reconciliation;
+4. current Terms parts'in source-to-record coverage check;
+5. yalnız bundan sonra Hermes PACKAGE-COMPLETE kararı.
 
 Normal next study (ECC) bu Hermes package kapanmadan başlamaz.
