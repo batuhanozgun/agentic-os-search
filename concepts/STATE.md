@@ -165,6 +165,7 @@ H1 continuation commits:
 - runtime/policy terms refinement: **2b75750d15c6d5c712b896d451d32b35b0a860de**
 - H1 READING closure: **87c3491fedddeea43fdf3ae0e8e2d578d38269df**
 - H1 TERMS status/count update: **e41d3b85ea7a274103d491ed1ac5c67a03a6a9ba**
+- H1 READING explicit 187/314 count fix: **b24f8b7194df957715ed9d9fd4239d354cf23172**
 
 These commits imply H1 closure only, not Hermes package closure. Source package remains untouched.
 
