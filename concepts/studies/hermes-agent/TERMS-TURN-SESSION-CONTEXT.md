@@ -91,3 +91,26 @@ Hermes source current coverage şu ayrımları tekrar tekrar taşır:
 - ordinary HERMES history ≠ native app-server authoritative thread.
 
 Q55 native model/system/history→wire binding ve process-restart native-thread continuity current source-study'de açık residual olarak kalır.
+
+
+## 7. H2 lease, history and recovery refinements
+
+| ID / ifade | Hermes araştırmasındaki kullanım | Sınır |
+|---|---|---|
+| HA-T48 — routing key | Incoming/session lookup için kullanılan external/local route identity. | Resolved durable session ID ile aynı olmak zorunda değil. |
+| HA-T49 — resolved session ID | Routing/profile/history lookup sonrası exact persistent conversation identity. | Process-local lease token veya task/run ID değil. |
+| HA-T50 — TurnLeaseToken | Process-local registry'de one admitted turn ownership'ını temsil eden ephemeral token. | Durable cross-process lease receipt değil. |
+| HA-T51 — process-local turn registry | Same process içindeki concurrent same-SID turn admission'ı serialize eden registry. | Separate process/registry instances arasında mutual exclusion sağlamaz. |
+| HA-T52 — durable DB holder / lease | Session store/DB düzeyinde turn/work ownership veya holder state. | Process-local registry ile aynı object değil. |
+| HA-T53 — immediate admission | Current lease/history conditions uygunsa wait etmeden new turn hakkı verme. | History'nin fresh reload edildiği guarantee değil. |
+| HA-T54 — waited admission | Existing owner/turn release'ini bekledikten sonra admission alma. | Old live worker'ın resurrect edilmesi değil. |
+| HA-T55 — history refresh on admission | Admission path'in persisted history'yi current turn snapshot'a yeniden bağlaması/reload etmesi. | Every immediate-admission path'te zorunlu değil. |
+| HA-T56 — active-turn marker | Session/runtime üzerinde currently active turn presence/ownership göstergesi. | Durable lease veya delivery obligation'ın synonym'i değil. |
+| HA-T57 — awaiting-response loop state | Persisted/session state'te prior turn/output sonrası response/delivery/reentry bekleyen condition. | Turn lease ownership ile aynı değil. |
+| HA-T58 — delivery obligation | Already-produced output/completion'ın correct session/consumer'a yeniden sunulması gereken recovery obligation. | Work recomputation ile aynı değil. |
+| HA-T59 — startup recomputation | Restart sonrası unfinished work/turn'ü yeniden compute/continue etme obligation. | Already-produced result redelivery'sinden ayrı. |
+| HA-T60 — restart recovery split | State reload, lease recovery, driver/watch reactivation, recomputation ve redelivery'nin ayrı recovery stages olması. | “Session restored” tek başına hepsini kapsamaz. |
+| HA-T61 — separate-registry concurrency gap | İki independent process-local lease registry'nin same SID'i ayrı ayrı admit edebilmesi. | U06 L07 bounded diagnostic; actual multi-process production collision rate değil. |
+| HA-T62 — stale lease token | Ownership generation/rebind sonrası artık current holder olmayan token. | Token object exists = valid authority değil. |
+| HA-T63 — lease rebind | Current SID ownership'ını new holder/token'a explicit taşıma attempt'i. | Prior effects/work automatically cancelled değil. |
+| HA-T64 — cancelled waiter cleanup | Lease bekleyen admission'ın cancel olması sonrası queue/registry residue bırakmama lifecycle. | Durable task cancellation veya model request cancellation değil. |
