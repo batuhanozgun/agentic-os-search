@@ -30,6 +30,7 @@ Global güncel iş STATE'den alınır. Bir dosyanın veya yöntem sürümünün 
 |---|---|---|
 | context-memory-harness-engineering | [READING.md](studies/context-memory-harness-engineering/READING.md) | [TERMS.md](studies/context-memory-harness-engineering/TERMS.md) |
 | superpowers | [READING.md](studies/superpowers/READING.md) | [TERMS.md](studies/superpowers/TERMS.md) |
+| ai-knowledge-strategies | [READING.md](studies/ai-knowledge-strategies/READING.md) | [TERMS.md](studies/ai-knowledge-strategies/TERMS.md) |
 
 Bu tablo yalnız gerçekten oluşturulmuş kayıtları gösterir; paketin tamamlandığı anlamına gelmez. Kalıcı kayıtları henüz oluşturulmamış paketlerin sırası SCOPE'dadır. Kapanış veya kısmi durum ilgili READING'den alınır.
 
