@@ -97,6 +97,21 @@
 | HA-L69 — disk state != prompt state | Persistent content'in current prompt snapshot'a hangi selection/cache/version ile girdiğinin ayrı olması. | synthesis/notes. |
 | HA-L70 — prompt-visible memory | Current model request'e actual selected memory representation'ın eklenmesi. | Memory was relevant/used correctly guarantee değil. |
 | HA-L71 — DB prompt / cache / prepared request | Memory'nin farklı derived/runtime views'i. | Birbirinin synonym'i değil. |
+| HA-L72 — stored system prompt | Session DB'de persisted full system-message representation; compatible ise fresh MemoryStore snapshot build'i yerine restore edilebilir. | U01-M4. Current memory file/version ile otomatik eşit değil. |
+| HA-L73 — prompt compatibility | Stored prompt'un model/provider/platform/cwd gibi runtime identity fields ile current run'a reuse edilebilir sayılması. | U01-M4. Memory freshness bu inspected comparator'ın bir dimension'ı değil. |
+| HA-L74 — prompt restore | Compatible persisted system prompt'u current agent cache'e geri bağlama path'i. | Fresh prompt rebuild değil. |
+| HA-L75 — prompt invalidation | Cached system/static prompt'u clear edip memory store'u diskten reload etme operation'ı. | DB-stored full prompt'u kendi başına rewrite etmez. |
+| HA-L76 — prompt rebuild / persist | Current memory snapshot + prompt parts'tan yeni full prompt üretip selected persistence path'e yazma. | Invalidation veya memory approval ile aynı transition değil. |
+| HA-L77 — approval mode | Future writes'in staged/pending gate'e girip girmeyeceğini belirleyen configuration state. | Existing pending proposal'ın approve/apply transition'ı değil. |
+| HA-L78 — payload approval / approve <id> | Specific pending record'un replay/application için human-command transition'ı. | Approval-mode setter/cache eviction path'iyle aynı değil. |
+| HA-L79 — pending namespace | Active Hermes home altında subsystem+ID ile stored pending mutation records. | Per-user ownership relation bu record schema'da intrinsic değil. |
+| HA-L80 — proposer origin | Pending record'daki foreground/background_review gibi provenance. | Human proposer/approver identity değil. |
+| HA-L81 — apply success vs cleanup success | Mutation effect'in landed olması ile pending record'un queue'dan unlink/discard edilmesinin ayrı standing'leri. | U01-M2 N11; Approved count queue-empty receipt değil. |
+| HA-L82 — staged applicability | Proposal'ın pending olarak serializable/stageable olması. | Later target/schema/operation validation pass guarantee değil; invalid batch stage edilebilir. |
+| HA-L83 — routed profile home | Gateway/CLI work'in memory/pending/config filesystem namespace'inin context-scoped Hermes home'u. | Transport authorization home ile aynı role değil. |
+| HA-L84 — transport authorization home | Primary multiplex ingress'te user/source authorization için preserved admitting-transport home. | Runtime data target/profile home ile aynı değil. |
+| HA-L85 — prompt-use visibility chain | pending apply → persistent file → live store/snapshot → prompt restore/rebuild/cache → prepared request → actual wire/model use. | Earlier stage success later visibility receipt değildir. |
+
 
 ## 6. Learning/change lifecycle relation
 
