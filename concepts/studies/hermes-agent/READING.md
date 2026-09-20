@@ -1,6 +1,6 @@
 # Hermes Agent — Okuma ve kalıcı çıkarım durumu
 
-2026-09-20, **B6-T15-H4 / H1-H2-H3-H4-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T15-H5 / DURABLE-EXTRACTION-COMPLETE / PACKAGE-COMPLETE**.
 
 Bu dosya `research/studies/hermes-agent/` paketinin concepts programı açısından gerçek okuma/coverage hesabını taşır. Hermes source-study kendi açısından **ACTIVE PARTIAL RESEARCH** durumundadır; concepts extractor bu research'i sürdürme yetkisi almış sayılmaz. Bu çalışma, mevcut package'i olduğu haliyle kaynak kabul eder ve kaynakta tamamlanmış/açık alanları birlikte taşır.
 
@@ -586,6 +586,95 @@ Beş parçalı plan:
 - **H4 — COMPLETE.**
 - H5 — package-wide raw-role reconciliation + cross-TERMS + final delta/closure — NEXT.
 
+## 7H. H5 final closure — package-wide evidence and TERMS reconciliation
+
+H5 yeni Hermes source araştırması yapmadı; mevcut package'in concepts kapanışını doğruladı.
+
+### Evidence accounting
+
+Current evidence tree:
+- **314/314 path accounted**;
+- **204/314 path direct-read** semantic/provenance/result coverage;
+- **110/314 path role/lineage-accounted** support artifacts.
+
+Role-accounted remainder yeni semantic evidence değildir. Başlıca roller:
+- diagnostic/probe/harness/verification Python code;
+- pinned upstream source copies ve manually selected source excerpts;
+- stdout/stderr/log files;
+- binary diagnostic archives;
+- LICENSE/NOTICE/hash files;
+- manifest/access/transfer/identity/package-check/input records;
+- historical prepared-not-published repo-update drafts.
+
+JSON cross-check:
+- **19/19 RESULT-family JSON** direct-read semantic result surface;
+- remaining non-result JSON manifest/source/transfer/access/identity/integrity/provenance roles taşır;
+- artifact-integrity veya publication record davranış doğrulaması sayılmaz.
+
+Evidence tree toplam extension/topology:
+- 157 Markdown;
+- 62 JSON;
+- 48 Python;
+- 26 text/log;
+- 10 extensionless;
+- 7 tar.xz;
+- 1 sha256;
+- 1 stderr;
+- 1 stdout;
+- 1 archived.
+
+Nine duplicate-blob groups / 36 duplicate-path occurrences bağımsız evidence sayılmadı.
+
+### Package-wide TERMS reconciliation
+
+Linked contextual inventory:
+- TURN/SESSION/CONTEXT: **64** ID, HA-T01–HA-T64;
+- WORK/CONTINUATION/SCHEDULING: **128** ID, HA-W01–HA-W128;
+- LEARNING/SKILLS/MEMORY: **85** ID, HA-L01–HA-L85;
+- RUNTIME/TOOLS/DELEGATION: **120** ID, HA-R01–HA-R120;
+- INSTALL/LIBRARY: **75** ID, HA-I01–HA-I75.
+
+Toplam linked: **472**; duplicate ID **0**; bütün prefix dizileri kesintisiz. Ana TERMS ayrıca HA-P01–HA-P16 package-level expressions taşır. Toplam addressable contextual record: **488**.
+
+H1–H4 source-to-TERMS checks sonunda açık semantic omission kalmadı. H4'te yeni ID üretilmemesi de explicit result'tur: U11–U15 existing term groups source-native distinctions'i zaten kapsıyordu.
+
+### Source/delta boundary
+
+B6-T15 concepts başlangıç main'i **7ed94d8368526626b4bd0bc8928ba6c37e9db5ed**. H5 source-delta compare:
+- `research/studies/hermes-agent/**` change: **0**;
+- evidence tree current SHA: `c4713f0f8a9f194950cd8bf5e0f1bb8743807597`;
+- notes tree: `cefb52a694c6e73c9bbf019836d3dfe3a36970bc`;
+- synthesis tree: `66ecd5f8f060fdfce9df272cbe3f530eff4ed70d`;
+- inventory tree: `195cabdd0a74fa675e42af7020db3b12ef91187a`.
+
+Bu nedenle concepts extraction aynı current source package üzerinde tamamlandı; concurrent source mutation ile karışmadı.
+
+### Source-study boundary
+
+Hermes'in kendi current STATE/META'sı hâlâ:
+- **ACTIVE PARTIAL RESEARCH**;
+- U15 / plan v0.28;
+- Q60 evaluation/task-quality **NOT RESEARCHED**;
+- final native CORE / adoption / whole-product validation yok.
+
+**Concepts PACKAGE-COMPLETE bu source-study'nin complete olduğu anlamına gelmez.** Anlamı: current repository'de mevcut Hermes research package'inin bağlamlı terim/kullanım aktarımı source-bounded olarak tamamlandı. Future source-study extension veya concrete omission yeni delta olarak yeniden açabilir.
+
+### H5 judgment
+
+Closure conditions passed:
+- root/control 10/10 FULL;
+- notes 30/30 FULL;
+- provisional synthesis 4/4 FULL;
+- inventory 10/10 FULL;
+- evidence 314/314 accounted;
+- load-bearing RESULT semantics direct-read;
+- raw/support/archive roles reconciled;
+- linked TERMS cross-check complete;
+- source-study/open-residual boundaries preserved;
+- no concrete transfer omission remains.
+
+**Hermes Agent concepts extraction: DURABLE-COMPLETE / PACKAGE-COMPLETE.**
+
 ## 8. Şu ana kadar source-backed bağlam aileleri
 
 İlk durable TERMS parçaları şu current evidence coverage'e dayanabilir:
@@ -644,15 +733,22 @@ Devamda:
 
 ## 12. Devam noktası
 
-**B6-T15-H4 kapandı; Hermes package hâlâ PARTIAL.**
+**Hermes Agent concepts package kapandı.**
 
-Sıradaki exact work **H5 — Hermes package final closure**:
-1. remaining 110 evidence path'i role-based inventory ile sınıflandır;
-2. duplicate/source-copy/probe/log/archive/stale-publication records'i lineage olarak reconcile et;
-3. direct semantic source gerektiren fakat atlanmış path kalmış mı kontrol et;
-4. bütün Hermes TERMS parts'i package-wide source-to-record coverage açısından birlikte kontrol et;
-5. current research tree delta / source-study ACTIVE-PARTIAL boundary'yi doğrula;
-6. yalnız bu kontroller geçerse Hermes PACKAGE-COMPLETE concepts kararı ver;
-7. global STATE'i ECC'ye geçir.
+Normal seri sonraki paket: `research/studies/ecc/`.
 
-H5 source-study Q60 araştırmasını yapmaz, Hermes product experiment çalıştırmaz ve shared cross-study vocabulary üretmez.
+Yeni oturum/tur:
+1. current main + concepts STATE/INDEX;
+2. ECC package canonical preflight;
+3. actual ECC tree + META/STATE/INDEX/cold-start recovery;
+4. source-study status ile concepts status'u ayır;
+5. study-by-study contextual extraction'a devam et.
+
+Hermes yeniden current work yapılmaz. Yalnız:
+- source-study tree değişirse,
+- somut transfer omission bulunursa,
+- H5 closure hesabında yanlış path/qualifier ortaya çıkarsa
+
+delta olarak yeniden açılır.
+
+B7/B8 shared terminology aşaması hâlâ başlamaz; ECC ve sıradaki studies serial extraction devam eder.
