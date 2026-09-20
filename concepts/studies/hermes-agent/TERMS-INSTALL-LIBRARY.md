@@ -1,6 +1,6 @@
 # Hermes Agent — Installation, update and library lifecycle terms
 
-2026-09-20, **B6-T15 / PARTIAL DURABLE TRANSFER**. TERMS.md'nin bağlı parçasıdır. Kaynak: notes 29–30, U14–U15 evidence.
+2026-09-20, **B6-T15-H5 / DURABLE TRANSFER COMPLETE / PACKAGE-COMPLETE**. TERMS.md'nin bağlı parçasıdır. Kaynak: notes 29–30, U14–U15 evidence.
 
 ## 1. Installation identity and materialization
 
