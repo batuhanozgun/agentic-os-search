@@ -1,6 +1,6 @@
 # Hermes Agent — Bağlamlı kullanım kayıtları
 
-2026-09-20, **B6-T15 / KALICI-AKTARIM-KISMİ / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T15-H1 / H1-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
 
 Bu dosya research/studies/hermes-agent/ araştırmasının concepts girişidir. Hermes source-study **ACTIVE PARTIAL** durumundadır ve 368 dosyalık büyük bir package'dir. Concepts extraction da bu nedenle çok turludur. Mevcut kayıtlar final package closure veya ortak sözlük değildir.
 
@@ -140,19 +140,19 @@ B6-T15 current durable checkpoint:
 - provisional syntheses 4/4 FULL;
 - inventory 10/10 FULL;
 - evidence tree 314 paths accounted;
-- direct full-read evidence text: **39/314 paths** at the READING checkpoint;
-- remaining evidence paths: **275**, including older U01–U06 research/source/diagnostic families, remaining U07–U10 result/publication views, JSON/probe/source-copy files, duplicates and 7 binary archives.
+- direct full-read evidence text: **187/314 paths** at the H1 checkpoint;
+- **H1 U01/U02 semantic/provenance evidence family closed**; remaining **127 paths** are handled in H2–H5 by family and role rather than treated as 127 independent semantic sources.
 
 Bu sayılar semantic concept count değildir.
 
 ## 8. Explicit open boundary
 
-Hermes package **PACKAGE-COMPLETE değildir**.
+Hermes package **PACKAGE-COMPLETE değildir**. H1 complete olsa da H2–H5 açıktır.
 
 Özellikle:
 - Q60 evaluation/future-task quality not researched;
 - source-study'nin Q55/Q56, DB/transport/quality/fidelity residual'ları açık;
-- concepts evidence direct-read/reconciliation U01–U10'a doğru devam etmeli;
-- raw/RESULT/MANIFEST/source-copy/duplicate/archive roles account edilmeden final closure verilmemeli.
+- H2 U03–U06, H3 U07–U10, H4 U11–U15 family closures tamamlanmalı;
+- H5 package-wide raw/RESULT/MANIFEST/source-copy/duplicate/archive role reconciliation ve cross-TERMS check tamamlanmalı.
 
 Sonraki study'ye bu package kapanmadan geçilmez.
