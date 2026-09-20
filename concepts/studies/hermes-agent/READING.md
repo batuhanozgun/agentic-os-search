@@ -291,6 +291,8 @@ Key source-bound clarifications preserved:
 
 Hermes concepts aktarımı beş parçaya bölündü. **H1 yalnız U01/U02 + erken evidence ailesini kapatır; Hermes package'i bütünüyle kapatmaz.**
 
+H1 sonunda conservative direct-full-read hesabı **187/314 evidence path**; remaining **127 path** H2–H5'te family/role bazında reconcile edilir. Bu sayaç semantic evidence count değildir.
+
 H1 kapanışında:
 - U01 approval/memory/pending/worker-policy/review-middleware/UI-profile/prompt-restore ailelerinin human-authored README/RESEARCH/SOURCES/SPEC/PUBLICATION/HANDOFF metinleri direct-read edildi;
 - load-bearing raw observations direct-read edildi: worker-policy RESULT/VALIDATION, middleware RESULT/range-fidelity, memory/pending RESULT, slash-policy A/SA/AP results, prompt-restore RESULT, early component/context-transfer/U01B2 results;
