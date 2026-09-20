@@ -1,51 +1,72 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-20, **B6-T14**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
+2026-09-20, **B6-T15**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
 
 ## 1. Güncel durum
 
-**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-DURABLE-COMPLETE / AI-KNOWLEDGE-STRATEGIES-DURABLE-COMPLETE / MULTI-AGENT-PATTERNS-DURABLE-COMPLETE / ANTHROPIC-AI-NATIVE-SDLC-DURABLE-COMPLETE / GSTACK-DURABLE-COMPLETE / METHOD-v0.3-WORKING / POST-S1-ADDITIONS-PENDING-ACCOUNT.**
+**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-DURABLE-COMPLETE / AI-KNOWLEDGE-STRATEGIES-DURABLE-COMPLETE / MULTI-AGENT-PATTERNS-DURABLE-COMPLETE / ANTHROPIC-AI-NATIVE-SDLC-DURABLE-COMPLETE / GSTACK-DURABLE-COMPLETE / HERMES-PARTIAL / METHOD-v0.3-WORKING / POST-S1-ADDITIONS-PENDING-ACCOUNT.**
 
-Kullanıcının “tamam. devam et lütfen.” talebiyle `research/studies/gstack/` package'i canonical preflight'tan geçirildi. Kök kayıtlar, inventory, later revalidation ve on dört synthesis dahil **23/23 source file tam okundu**; büyük iki synthesis'te tool truncation görülen aralıklar ayrı overlapping reads ile tamamlandı. Package'in bağlamlı kullanım envanteri ana TERMS + beş linked topic part olarak kalıcılaştırıldı.
+Kullanıcının “sıradaki araştırma ile devam et.” talebiyle `research/studies/hermes-agent/` package'ine girildi. Hermes source-study kendi açısından **ACTIVE PARTIAL**; concepts çalışması bunu kaynak korpusu olarak okuyor, source-study'nin Q60 continuation talimatını assistant authority yapmıyor.
+
+Hermes current package gerçek recursive tree hesabı **368 file**:
+- root 10;
+- notes 30;
+- provisional syntheses 4;
+- inventory 10;
+- evidence 314.
+
+B6-T15 checkpoint:
+- root **10/10 FULL**;
+- notes **30/30 FULL**;
+- synthesis **4/4 FULL**;
+- inventory **10/10 FULL**;
+- evidence tree **314/314 inventory-accounted**;
+- direct-full-read evidence text at checkpoint **39/314 path**;
+- evidence direct-reading/reconciliation continues; **PACKAGE-COMPLETE verilmedi**.
+
+Hermes için partial durable records oluşturuldu: READING, ana TERMS ve beş linked TERMS parçası. Q60 evaluation/future-task quality kaynak araştırmasında **NOT RESEARCHED** olduğu için concepts tarafı skill/learning efficacy sonucu üretmiyor.
 
 | İş | Güncel durum |
 |---|---|
-| Amaç, iki risk, başlangıç hazırlığı | Tamamlandı; ORIGIN/SETUP-REVIEW tarihsel kaynak. |
-| B1/B2 ve B3/B4 | İki konuşma pilotu ve yöntem değerlendirmeleri tamam. |
-| B5 | SCOPE/S1 başlangıç kapsamı ve delta ilkeleri teslim edildi. |
 | B6 — CMH | Durable-complete. |
 | B6 — Superpowers | Durable-complete. |
 | B6 — AI Knowledge Strategies | Durable-complete. |
 | B6 — Multi-Agent Patterns | Durable-complete. |
 | B6 — Anthropic AI-Native SDLC | Durable-complete. |
-| B6 — gstack | **Durable-complete; 23/23 source file, READING + ana TERMS + beş linked TERMS parçası.** |
-| B6 — sıradaki paket | **hermes-agent**; concepts çıkarımı henüz başlamadı. |
-| B6 — diğer S1 birimleri | Başlangıç sırası SCOPE'da; kalıcı çıkarımları kapanmadı. |
-| S1 sonrası eklenen kaynaklar | agentmemory, claude-swap, cli-continues ve ponytail bilinen kapsam deltalarıdır; final scope/B7 öncesi hesapta işlenecekler. |
-| B7/B8 | Küresel geçiş kontrolü ve ortak referans değerlendirmesi başlamadı. |
+| B6 — gstack | Durable-complete. |
+| B6 — Hermes Agent | **ACTIVE / PARTIAL; durable checkpoint published.** |
+| Hermes source evidence | 314 paths accounted; older evidence/direct raw reconciliation remains. |
+| Hermes source-study Q60 | NOT RESEARCHED; concepts does not invent it. |
+| B6 — next study | Hermes kapanmadan başlamaz. SCOPE'da sonraki package ECC'dir. |
+| S1 sonrası additions | agentmemory, claude-swap, cli-continues, ponytail final scope/B7 öncesi account edilecek. |
+| B7/B8 | Not started. |
 
-S1 başlangıcından **CMH, Superpowers, AI Knowledge Strategies, Multi-Agent Patterns, Anthropic AI-Native SDLC ve gstack** kalıcı çıkarım bakımından kapanmıştır. Bu paket sayısı ilerleme yüzdesi değildir ve post-S1 additions'ı içermez.
+Bu package sayısı progress percentage değildir; post-S1 additions current scope totaline henüz reconcil edilmiş değildir.
 
 ## 2. Etkin giriş ve sıradaki yetkili iş
 
-gstack artık current partial work değildir. Geri çağrılacaksa [READING.md](studies/gstack/READING.md), [TERMS.md](studies/gstack/TERMS.md) ve ana TERMS'in bağladığı beş parça birlikte okunur:
+**Current work B6-T15 Hermes Agent extraction'dır.** Hermes yeniden preflight gerektirmeden local continuation [studies/hermes-agent/READING.md](studies/hermes-agent/READING.md) → [studies/hermes-agent/TERMS.md](studies/hermes-agent/TERMS.md) üzerinden sürdürülür.
 
-- WORK-DELIVERY;
-- RUNTIME-CONTROL;
-- EVIDENCE-CONTINUITY;
-- COORDINATION-PORTABILITY;
-- SYSTEM.
+Exact next:
+1. U10 remaining SPEC/RESULT/MANIFEST/CHECKS/PUBLICATION material views;
+2. U09 remaining CHECKS/PUBLICATION;
+3. U08 SPEC/RESULT/MANIFEST/CHECKS/PUBLICATION;
+4. U07 RESULT/MANIFEST/CHECKS/PUBLICATION;
+5. U06→U01 research/source/diagnostic families;
+6. remaining JSON/Python/source-copy/duplicate/binary archive role reconciliation;
+7. source-to-TERMS coverage check;
+8. only then Hermes PACKAGE-COMPLETE judgment.
 
-**Sıradaki yetkili iş B6-T15:** `research/studies/hermes-agent/` package'ine canonical preflight ile gir:
-- current main ve gerçek package tree/file envanterini sabitle;
-- package STATE/META/INDEX ve kendi cold-start/research-plan yolunu tam recover et;
-- source-study current status ile concepts extraction status'u ayır;
-- package'in bütün source files'ini tam oku; mevcut Hermes research devam talimatlarını current assistant authority sanma;
-- terim/jargon/kavramsal ayrımları Hermes araştırmasının kendi kullanımında çıkar;
-- package büyüklüğüne göre `concepts/studies/hermes-agent/READING.md`, `TERMS.md` ve gerekirse linked TERMS parts oluştur;
-- gstack/Superpowers/CMH gibi önceki package'lerin terim sınırlarını Hermes'e başlangıç ontology'si olarak dayatma.
+Current linked term groups:
+- TURN-SESSION-CONTEXT;
+- WORK-CONTINUATION-SCHEDULING;
+- LEARNING-SKILLS-MEMORY;
+- RUNTIME-TOOLS-DELEGATION;
+- INSTALL-LIBRARY.
 
-B7/B8 ortak referans aşaması hâlâ yetkili next değildir. S1 sonrası eklenmiş study yolları bütün seri ve delta kontrolünden dışlanamaz.
+Hermes source-study STATE/PLAN içindeki “Q60 next” current concepts work değildir. Concepts extraction existing package'i okur; source-study research'i extend etmez.
+
+ECC veya daha sonraki study, Hermes closure olmadan başlamaz. B7/B8 hâlâ yetkili next değildir.
 
 ## 3. Amaç, derinlik ve iki risk
 
@@ -57,90 +78,84 @@ Kaynağın genel tanım vermediği kullanımı açık bırakmak geçerli çıkt�
 
 P2'nin önceki gruplarındaki özgün satırlar kalıcı aktarım sırasında erişilebilir olduğu ölçüde kullanıldı; B6-T10'da tarihsel SP150–SP160 satır metni güvenilir biçimde recover edilemedi. METHOD §8 uygulanarak sabit kaynaktan U08-R regeneration yapıldı; STATE/summary'den birebir SP anlamı uydurulmadı. Tam ve değişmemiş gerçek içerik sırf yeni tur diye mekanik tekrarlanmaz; eksik zorunlu kontrol veya kaynak canonical yoldan geri kazanılır.
 
-## 4. B6-T14 gerçek çalışma ve gstack kapanışı
+## 4. B6-T15 gerçek çalışma — Hermes partial checkpoint
 
-B6-T14 başlangıç main'i **45b2f57a0ca5b3845b0db6b729b39582a58196cb** idi. Source package 23 files: 7 root records, inventory/STRUCTURE, one v1.80 revalidation record and 14 syntheses.
+B6-T15 başlangıç main'i **7ed94d8368526626b4bd0bc8928ba6c37e9db5ed** idi; başlangıç compare clean idi.
 
-Pinned source identity `garrytan/gstack@0d1bd5616c0ef096bb7ccee336f63c60ee408618` / v1.79.0.0 korunur. Later `c24121663732644c56280474a1720475dbe53127` / v1.80.0.0 read is bounded revalidation, silent repin değildir.
+Source-study pinned upstream:
+`NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`, manifest 0.21.0.
 
-Kalıcı records:
-- `concepts/studies/gstack/READING.md`;
-- `concepts/studies/gstack/TERMS.md`;
-- `TERMS-WORK-DELIVERY.md`;
-- `TERMS-RUNTIME-CONTROL.md`;
-- `TERMS-EVIDENCE-CONTINUITY.md`;
-- `TERMS-COORDINATION-PORTABILITY.md`;
-- `TERMS-SYSTEM.md`.
+Package recursive inventory 368 files. Evidence subtree 314 files; extension/topology ve duplicate-blob hesabı yapıldı. 7 tar.xz binary diagnostic archive text-read sayılmadı; manifest/identity/member role üzerinden account edilecek. Duplicate blobs independent semantic support sayılmaz.
 
-Ana source-native/result distinctions:
-- gstack = artifact-mediated, qualification-driven software-development operating-system prior art; SOUL architecture değil;
-- candidate intent / admitted Work / performed Work / qualification / authorized progression / realized target state ayrı;
-- current qualification type historical ceremony provenance'den ayrı;
-- review, QA, ship, merge, deploy, live health, rollback/restoration ayrı standings;
-- browser persistent runtime evidence ve runtime authority/resource scopes ayrı;
-- careful/freeze/guard preventive controls, one-way doors decision authority, CSO detective security ayrı control families;
-- fresh context/model diversity/independent verification aynı değil;
-- memory plural: checkpoint, local learning, typed brain cache, trust/ingest policy farklı semantics;
-- stale GBrain qualifier'ın planning view'da kaybolması strong source→view negative finding;
-- test exists/selected/executed/oracle valid/finalized/independent standings ayrı; green derived view;
-- host/model/adaptation/install/runtime/behavioral-validation standings ayrı; “supported host” binary değil;
-- source→generated→installed→running→release propagation tek update marker'a collapse edilmez;
-- command/transition attempt ≠ realized state; authoritative readback recurring control;
-- feedback/recommendation ≠ Work admission;
-- native Qualified Transition Loop: situation binding → evidence → standing → authority/control → bounded effect → realized-state readback → invalidation → continuation/recovery/adaptation.
+Current direct evidence read includes U15 skill library, U14 install/update, U13 delegation-reentry, U12 tool/delegation, U11 runtime/backend and material U10–U07 scheduled-work research/source records. Bounded diagnostics ile source-only claims ayrı tutulur.
 
-v1.80 revalidation exact `/freeze` state-root fail-open defect'ini fixed olarak düzeltir; broader scope/host limits ve diğer qualification seam findings korunur. Concepts records current defect ile historical fixed defect'i karıştırmaz.
+Partial concepts files:
+- `concepts/studies/hermes-agent/READING.md`;
+- `TERMS.md`;
+- `TERMS-TURN-SESSION-CONTEXT.md`;
+- `TERMS-WORK-CONTINUATION-SCHEDULING.md`;
+- `TERMS-LEARNING-SKILLS-MEMORY.md`;
+- `TERMS-RUNTIME-TOOLS-DELEGATION.md`;
+- `TERMS-INSTALL-LIBRARY.md`.
 
-Closure-audit holdouts (iOS, scrape→skillify, health/benchmark, artifact-output) ayrı first-order semantic subsystem üretmedi; mevcut mechanism families'i compose eden verticals/views olarak tutuldu.
+Current source-local distinctions include:
+- persistent work/session/turn/iteration/provider attempt identities;
+- task/run/claim and goal/loop/heartbeat distinctions;
+- cron job/occurrence/claim/execution/output/delivery distinctions;
+- stored transcript/api_content/wire/native-thread views;
+- requested provider/model vs resolved runtime/client/whole-turn backend;
+- tool visible/proposed/admitted/effect/result/persistence;
+- child construction/context/workspace/result/logical-terminal/physical-close;
+- completion record/queue/claim/ack/parent re-entry;
+- source/dependency/shim/home/profile/live-process update states;
+- learning candidate/proposal/approval/mutation/visibility/use/efficacy;
+- bundled/local/manifest/usage/suppression/archive/ledger/index/view/readiness skill states.
 
-Source-side coverage 23/23 full-read ve bütün native/cross-system/projection/closure/revalidation families TERMS parçalarına bağlıdır. Concrete transfer omission bulunmadı. Bu same-assistant source extraction'dır; independent validation veya shared cross-study vocabulary değildir.
+Bounded executions are not promoted into product-wide verdicts. Example: U08 async diagnostic shows Future.cancel boolean is not an effect receipt; U13 selected diagnostic shows specific caller seams where scheduling refusal can still reach ack request. These retain their exact diagnostic scope.
+
+Hermes final CORE, generalized architecture, product reliability score, task-quality efficacy and shared terminology remain absent.
 
 ## 5. Yetki ve yazma kapsamı
 
-B6-T14 mevcut seri çıkarım yetkisi içindedir; gstack source study'yi yeniden açmak, Foundation mutation, architecture adoption veya upstream implementation değildir.
+B6-T15 only concepts-layer extraction. It does not:
+- continue Hermes Q60 source research;
+- run Hermes/provider/DB/gateway/install/update/product experiments;
+- modify research/studies/hermes-agent;
+- mutate Foundation/SOUL/Development OS;
+- infer current upstream product truth beyond pinned source-study records.
 
-Bu tur concepts katmanında:
-- yeni gstack READING;
-- yeni ana TERMS;
-- beş yeni linked TERMS parçası;
-- `concepts/INDEX.md`;
-- bu `concepts/STATE.md`
+Concepts writes this checkpoint:
+- Hermes READING;
+- Hermes TERMS main;
+- five linked Hermes TERMS files;
+- concepts INDEX partial row;
+- this concepts STATE.
 
-değişir.
-
-Özgün `research/studies/gstack/**`, diğer studies, önceki durable package records, METHOD/PLAN/SCOPE/CHARTER/ORIGIN/SETUP-REVIEW, Foundation ve agent-control bu iş adına değiştirilmedi.
+Prior durable packages, global METHOD/PLAN/SCOPE/CHARTER/ORIGIN/SETUP-REVIEW and agent-control remain unchanged.
 
 ## 6. Değişen korpus ve değişmez devam kayıtları
 
-SCOPE/S1 başlangıç ref'i ve post-S1 delta ilkeleri değişmedi. Bilinen yeni study yolları `agentmemory`, `claude-swap`, `cli-continues`, `ponytail` olarak açık kalır; final tree-delta hesabında işlenecekler.
+Known post-S1 additions remain pending: agentmemory, claude-swap, cli-continues, ponytail.
 
-B6-T14 concepts publication checkpoints:
-- gstack READING create: **70a88ca3d28a59ef24632217e7beb8c24218bfc4**
-- WORK-DELIVERY: **f5496deeadcb0c8f5d2d4a293e1fc30703b94807**
-- RUNTIME-CONTROL: **b3e8e994c83c3c6da9b8dcec525a995d48193c58**
-- EVIDENCE-CONTINUITY: **782a2647adbd36121221377f6d8868b34ec19ce4**
-- COORDINATION-PORTABILITY: **ac6038bd16d4c52b461da3dab6a3cb4eebaa81ec**
-- SYSTEM: **f4e9d8d748c424d719e9e5dcdce13bd7a9b58d47**
-- TERMS entry: **2a127d4333c22e27cf1712089b48247e0bcc35cd**
-- READING closure update: **7629f4094a64fe7122bd47ce953aab465f53d14e**
-- INDEX update: **3cf64c372775409c0f3b1804e54e5c3b0006e13a**
+Hermes publication checkpoints so far:
+- READING create: **20c3b14dca266c86d4f1ffae96434ccf0f79dff4**
+- TURN-SESSION-CONTEXT: **f3239b592111d702cae2f2b5a8535e53329a03eb**
+- WORK-CONTINUATION-SCHEDULING: **6b8d9ed4c1a1c2b83731c539712fe1a37fdeb22c**
+- LEARNING-SKILLS-MEMORY: **fc37c66b304f35ac342d9148797ba75e53e4bc02**
+- RUNTIME-TOOLS-DELEGATION: **7268910564226471dd578f09756ba8ca33b7e07f**
+- INSTALL-LIBRARY: **72190968b9c90b23b87c4ff383cc9790b179bbef**
+- TERMS main: **00f84b41b5529f9c32d694fe52106b025ce07058**
+- INDEX partial entry: **e6c51baed2ccd036c83d58ae4a516f1a6d9832c9**
 
-Source package files bu concepts writes tarafından değiştirilmedi. Later load-bearing gstack/current-product use, pinned v1.79 package ve bounded v1.80 revalidation'dan daha fresh upstream check gerektirebilir.
+These commits do not imply Hermes closure. Source package remains untouched.
 
-| Değişmez kayıt | Korunan kapsam |
-|---|---|
-| CMH durable closure | ilk durable package. |
-| Superpowers B6-T10 closure | 52/52 source package. |
-| AI Knowledge Strategies B6-T11 closure | 9/9 source package. |
-| Multi-Agent Patterns B6-T12 closure | 3/3 source package. |
-| Anthropic AI-Native SDLC B6-T13 closure | 8/8 source package. |
-| gstack B6-T14 READING | 23/23 source accounting, pinned/revalidation boundary ve linked TERMS layout. |
-
-Eski package next/action cümleleri chronological research history'dir; current concepts next work global STATE'den alınır.
+Previous gstack closure and earlier package closures remain immutable continuation records. Old Hermes publication records are research chronology, not current concepts next-work authority.
 
 ## 7. Yayın kontrolü ve yeni oturum
 
-gstack READING, ana TERMS ve beş linked part main'den readback edilerek file identity, group linkage ve source coverage kontrolü yapıldı. INDEX'in gstack row'u durable path'lere bağlandı. Bu STATE kendi henüz bilinmeyen commit'ini uydurmaz; yazımdan sonra actual diff ve main placement ayrıca doğrulanır.
+After this STATE write, actual main/diff/readback must confirm the checkpoint. Hermes local READING remains the authoritative extraction-progress surface; global STATE only routes current work.
 
-Yeni oturum cold-start: AGENT + triggered protocols → concepts/INDEX zorunlu dosyaları → bu STATE → **hermes-agent package preflight**. gstack yalnız durable-complete source olarak gerektiğinde geri çağrılır. B7/B8 hâlâ ileriki aşamadır.
+New-session cold-start: AGENT + triggered protocols → concepts/INDEX required files → this STATE → Hermes READING/TERMS → continue evidence from exact next tranche. Do not restart Hermes source research or jump to ECC.
+
+Two concepts risks remain explicit: interpretation decisions must remain traceable because user cannot steer every read; shared words such as session, memory, skill, completed, claim, result, agent are not assumed to mean what they meant in prior studies.
 
