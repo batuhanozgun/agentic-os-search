@@ -1,6 +1,6 @@
 # ECC — Okuma ve kalıcı çıkarım durumu
 
-2026-09-20, **B6-T16-C3 / C1-C2-C3-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T16-C4 / C1-C2-C3-C4-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
 
 Bu dosya `research/studies/ecc/` paketinin concepts programı açısından gerçek okuma/coverage hesabını taşır. ECC source-study kendi açısından **ACTIVE / PARTIAL** durumundadır; current research next U13-A/Q07d1 **NOT STARTED**. Concepts extractor bu next-work talimatını assistant authority yapmaz; current repository package'ini kaynak olarak okur.
 
@@ -14,7 +14,7 @@ Bu dosya `research/studies/ecc/` paketinin concepts programı açısından gerç
 - Source-study status: **ACTIVE / PARTIAL**
 - Source-study completed through: **U12-C / plan 0.29**
 - Source-study next: **U13-A / Q07d1 — NOT STARTED**
-- Concepts status: **B6-T16-E1 partial durable extraction**
+- Concepts status: **B6-T16-C4 durable through U09 / package partial**
 - Foundation / SOUL / Development OS adoption: none.
 
 ## 2. Gerçek package inventory
@@ -45,10 +45,11 @@ Current progress:
 - **C1 U01–U02 DURABLE-COMPLETE.**
 - **C2 U03–U04 DURABLE-COMPLETE.**
 - **C3 U05–U06 DURABLE-COMPLETE.**
-- Three linked term files exist and C1–C3 are now closed.
-- exact next: **C4 U07–U09**. C5'e aynı turda geçilmez.
+- **C4 U07–U09 DURABLE-COMPLETE.**
+- Four linked term files exist and C1–C4 are now closed.
+- exact next: **C5 U10–U12**. C5 bu checkpoint'te başlatılmadı.
 
-## 4. C1–C3 için şu ana kadar doğrudan okunan current source files
+## 4. C1–C4 için şu ana kadar doğrudan okunan current source files
 
 ### Package control / purpose
 - `STATE.md`
@@ -94,7 +95,7 @@ Current progress:
 
 E04/E05 compressed raw results were not text-read through the connector; their exact-byte/hash/role and derived observations are accounted through README/source-ledger/current note. Binary/compressed carrier ≠ unread semantic omission.
 
-## 5. C1–C3 source roles
+## 5. C1–C4 source roles
 
 - **TARGET CLAIM / instruction contract:** architecture docs, skills, guides.
 - **SOURCE OBSERVATION:** pinned code/config/schema.
@@ -105,12 +106,13 @@ E04/E05 compressed raw results were not text-read through the connector; their e
 
 Same assistant repeated checks are not independent replication.
 
-## 6. C1–C3 contextual term drafts
+## 6. C1–C4 contextual term drafts
 
 Current linked inventory drafts:
 - [TERMS-SURFACES-INSTALLATION.md](TERMS-SURFACES-INSTALLATION.md)
 - [TERMS-WORK-EXECUTION-MEMORY.md](TERMS-WORK-EXECUTION-MEMORY.md)
 - [TERMS-LEARNING-GOVERNANCE.md](TERMS-LEARNING-GOVERNANCE.md)
+- [TERMS-REVIEW-RUNTIME-OPERATOR.md](TERMS-REVIEW-RUNTIME-OPERATOR.md)
 - [TERMS.md](TERMS.md) — package entry and cross-links.
 
 File grouping is for readability; one file ≠ one term.
@@ -130,7 +132,16 @@ File grouping is for readability; one file ≠ one term.
 - proposal/recommendation ≠ admitted mutation ≠ validated improvement;
 - guard decision ≠ host enforcement ≠ authorized effect;
 - first-touch marker ≠ verified investigation;
-- governance event ≠ persisted governance record ≠ approval decision ≠ enforced effect.
+- governance event ≠ persisted governance record ≠ approval decision ≠ enforced effect;
+- review session identity ≠ artifact revision identity;
+- feedback drain ≠ consumer acknowledgment ≠ acted decision;
+- session id ≠ execution attempt;
+- heartbeat/process exit/state legality ≠ useful progress/accepted work/effect provenance;
+- operator view can be effectful; display ≠ passive observation;
+- filesystem path ≠ Git worktree/resource identity;
+- same-id resume ≠ native-context restoration;
+- displayed database ≠ commanded database;
+- message command success ≠ actual consumer admission ≠ recipient uptake.
 
 ## 7A. C1 durable checkpoint — U01–U02 surfaces / installation / ownership
 
@@ -266,14 +277,52 @@ C3 strongest boundaries:
 
 **C3-DURABLE-COMPLETE** means U05–U06 contextual transfer is closed at the current source package. It does not close Q06c2, Q07a2/b2/c2, scanner/deployment controls, host efficacy or ECC source-study.
 
+## 7D. C4 durable checkpoint — U07–U09 material / review / runtime / operator
+
+C4 exact source families:
+- U07-A family map + U07-A source ledger + MR12 + PUBLICATION-U07-A;
+- U08-A Note12 + U08-A source ledger + MR13 + PUBLICATION-U08-A;
+- U08-A interrupted-publication recovery diagnosis + recovery README/CHECK-RESULTS + recovery publication receipt; quarantined binary carriers role-accounted, not behavior evidence;
+- U09-A Note13 + source ledger + MR14 + first-slice publication receipt;
+- U09-A2 Note14 + source ledger + MR15 + PUBLICATION-U09-A2 + E07 README/PROBE-PLAN/RESULTS/runner;
+- U09-A3 Note15 + source ledger + MR16 + PUBLICATION-U09-A3;
+- U09-B Note16 + source ledger + MR17 + PUBLICATION-U09-B.
+
+C4 source roles preserve:
+- U07 family-map metadata and selected/full source reading as breadth evidence, not full implementation coverage;
+- U08 Plan Canvas source/test inspection as source evidence; historical E06 outcomes remain **NOT VERIFIED / EXCLUDED**;
+- U09 Rust/Node source predicates and conditional schedules as source-derived counter-paths, not observed incidents;
+- E07 as one bounded source-derived SQLite/Git local execution, not compiled Rust/ECC/Tokio/live-host validation;
+- Tokio version-bound source contract in U09-A3 as dependency evidence, not installed binary conformance;
+- publication/recovery/readback records as continuity/integrity evidence, not independent behavior evidence.
+
+C4 source-to-TERMS transfer created [TERMS-REVIEW-RUNTIME-OPERATOR.md](TERMS-REVIEW-RUNTIME-OPERATOR.md), with **ECC-R01–ECC-R176**. Mechanical ID check: 176 unique IDs, R01–R176 gap-free, duplicate ID 0. This is addressability checking, not semantic validation.
+
+C4 strongest closure boundaries:
+- material family is an overlapping research/accounting family, not a subsystem declaration;
+- review session path identity does not bind an immutable artifact revision or authenticated reviewer;
+- queued/persisted/drained feedback, client receipt, model uptake, decision acceptance and action are separate transitions;
+- session id, wrapper pid, harness pid and execution attempt are distinct identities;
+- heartbeat, process exit, state legality and board percentages carry narrower meanings than useful progress or accepted work;
+- TUI/operator observation can itself trigger activation/enforcement, so observed view and controlling actor roles can overlap;
+- retained working-directory path does not preserve Git worktree/resource identity;
+- same-id resume is fresh ECC execution under retained record identity, not established native model-context restoration;
+- attempt ownership/fencing is not supplied merely by session-level state validation; source-derived stale-attempt schedules remain conditional, not empirical incidents;
+- Node control-pane display target, Rust subprocess target and selected executable can diverge unless separately bound;
+- work-item mutation, advisory projection, attempted message delivery, actual consumer admission and recipient uptake are different contracts;
+- producer test-double acceptance does not prove the pinned consumer admits the same argv;
+- stored binary-object identity, decompression integrity, reachable file publication and research-result validity are separate evidence properties.
+
+**C4-DURABLE-COMPLETE** means U07–U09 contextual transfer is closed at the current source package and declared evidence scopes. It does not close Q04f2/Q04g1c/Q04g2b, live host/runtime validation, ECC source-study, U10–U12 or package-wide C6 reconciliation.
+
 ## 8. Explicit open boundary
 
 ECC concepts package **PACKAGE-COMPLETE değildir**.
 
-C1, C2 ve C3 kapandı. Package-wide açık alanlar:
-- notes 12–27;
-- U07–U12 source ledgers;
-- relevant rounds/publication receipts;
+C1, C2, C3 ve C4 kapandı. Package-wide açık alanlar:
+- notes 17–27;
+- U10–U12 source ledgers;
+- U10–U12 relevant rounds/publication receipts;
 - METHOD-REVIEW / QUESTIONS / SOURCE-LEDGER / RESEARCH-LOG full package reconciliation;
 - inventory files;
 - remaining nested evidence;
@@ -281,16 +330,16 @@ C1, C2 ve C3 kapandı. Package-wide açık alanlar:
 
 ## 9. Devam
 
-**Sıradaki concepts work B6-T16-C4:** yalnız U07–U09.
+**Sıradaki concepts work B6-T17-C5:** yalnız U10–U12.
 
-C4 exact scope:
-- U07-A material-family accounting / reverse frontier;
-- U08-A Plan Canvas / related mechanism family;
-- U09-A/A2/A3/B Rust/session/operator/runtime families;
+C5 scope:
+- U10-A/U10-B evaluation registry + offline capsule/replay/receipt families;
+- U11-A–U11-E review, scheduling, intake, backlog and template/workflow-distribution families;
+- U12-A profiles, U12-B OpenCode installation/loading/tool-result families, U12-C Python provider/tool-roundtrip family;
 - exact notes/source-ledgers/round/publication and bounded evidence;
-- C4-linked term inventory creation or refinement;
-- C4 durable checkpoint.
+- C5-linked term inventory creation/refinement;
+- C5 durable checkpoint.
 
-Aynı turda C5'e geçilmez.
+Bu C4 checkpoint'inde C5 source extraction başlatılmadı.
 
 ECC source-study'nin U13-A next research işi concepts next değildir. U13-A yapılmaz. B7/B8 shared terminology başlamaz.
