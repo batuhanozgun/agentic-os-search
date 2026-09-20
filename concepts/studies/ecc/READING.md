@@ -1,6 +1,6 @@
 # ECC — Okuma ve kalıcı çıkarım durumu
 
-2026-09-20, **B6-T16-C1 / C1-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T16-C2 / C1-C2-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
 
 Bu dosya `research/studies/ecc/` paketinin concepts programı açısından gerçek okuma/coverage hesabını taşır. ECC source-study kendi açısından **ACTIVE / PARTIAL** durumundadır; current research next U13-A/Q07d1 **NOT STARTED**. Concepts extractor bu next-work talimatını assistant authority yapmaz; current repository package'ini kaynak olarak okur.
 
@@ -43,9 +43,10 @@ Bu partition source-study planı değildir; yalnız concepts continuity planıd�
 
 Current progress:
 - **C1 U01–U02 DURABLE-COMPLETE.**
-- C2/C3 main mechanism notes and source-ledgers were already full-read in the interrupted large turn, but their own round/publication/history reconciliation is still open.
-- Three linked term files exist; only SURFACES-INSTALLATION is closed.
-- exact next: **C2 closure only**. C3'e aynı turda geçilmez.
+- **C2 U03–U04 DURABLE-COMPLETE.**
+- C3 main mechanism notes/source-ledgers were already full-read in the interrupted large turn; its round/publication/history reconciliation is still open.
+- Three linked term files exist; SURFACES-INSTALLATION and WORK-EXECUTION-MEMORY are closed.
+- exact next: **C3 closure only**. C4'e aynı turda geçilmez.
 
 ## 4. C1–C3 için şu ana kadar doğrudan okunan current source files
 
@@ -165,11 +166,59 @@ C1 strongest closure boundaries:
 
 **C1-DURABLE-COMPLETE** means U01–U02 contextual transfer is closed at the current source package. It does not close U01/U02 residual research questions, P1 inventory debt or ECC source-study.
 
+## 7B. C2 durable checkpoint — U03–U04 work / execution / memory
+
+C2 exact source families:
+- U03-A Note04 + U03-A source ledger + E02 README/plan/result;
+- U03-B Note05 + U03-B source ledger + E03 README/plan/result;
+- U04-A Note06 + U04-A source ledger;
+- PUBLICATION.md U03-A section;
+- PUBLICATION-U03-B.md;
+- PUBLICATION-U04-A.md;
+- METHOD-REVIEW MR04/MR05;
+- RESEARCH-LOG U03-A/U03-B sections;
+- SOURCE-LEDGER U03-A/U03-B sections;
+- ROUND-U04-A including MR06.
+
+History/publication files were read at exact relevant sections or as bounded standalone unit files. Publication/readback evidence is chronology/integrity, not runtime evidence.
+
+C2 source-to-TERMS check found and closed eleven source-local omissions:
+- **ECC-W79** inspection persistence side effect;
+- **ECC-W80** worker input identity;
+- **ECC-W81** coordination-dir preservation vs content preservation;
+- **ECC-W82** rollback resource scope vs produced value;
+- **ECC-W83** worker enumeration set;
+- **ECC-W84** observation-failure collapse;
+- **ECC-W85** status timestamp vs heartbeat;
+- **ECC-W86** session locator identity;
+- **ECC-W87** user-scope two-stage opt-in;
+- **ECC-W88** memory read status projection;
+- **ECC-W89** doctor ok vs process exit.
+
+C2 term inventory now runs **ECC-W01–ECC-W89**.
+
+C2 strongest boundaries:
+- work item/status/owner/session link are records, not exclusive live execution authority;
+- bounded candidate retrieval is not complete remote truth;
+- adapter session snapshot, fallback history and SQLite session rows are different persistence contracts;
+- inspection itself can create a fallback recording;
+- base ref is insufficient as exact worker-input identity when overlays and rendered launchers matter;
+- command dispatch, process completion, raw handoff, parsed representation and accepted outcome are distinct;
+- created-resource rollback can conflict with preserving newly valuable output;
+- keeping a coordination directory does not preserve its prior files;
+- empty pane list can represent observation failure, not only no session;
+- timestamp-derived stale health is not a heartbeat;
+- memory storage/trust/status/scope/target, review/governance and actual consumer use remain distinct;
+- structured memory views can retain qualifiers that plain CLI views omit;
+- doctor/process success is not a healthy-vault certificate.
+
+**C2-DURABLE-COMPLETE** means U03–U04 contextual transfer is closed at the current source package. It does not close Q04b/c/e, Q05b/c, product runtime integration or ECC source-study.
+
 ## 8. Explicit open boundary
 
 ECC concepts package **PACKAGE-COMPLETE değildir**.
 
-C1 kapandı. C2/C3 mechanism/source-ledger okumaları ilerledi fakat kendi closure'ları henüz yok. Package-wide açık alanlar:
+C1 ve C2 kapandı. C3 mechanism/source-ledger okumaları ilerledi fakat kendi closure'u henüz yok. Package-wide açık alanlar:
 - notes 12–27;
 - U07–U12 source ledgers;
 - relevant rounds/publication receipts;
@@ -180,14 +229,14 @@ C1 kapandı. C2/C3 mechanism/source-ledger okumaları ilerledi fakat kendi closu
 
 ## 9. Devam
 
-**Sıradaki concepts work B6-T16-C2:** yalnız U03–U04 closure.
+**Sıradaki concepts work B6-T16-C3:** yalnız U05–U06 closure.
 
-C2 exact scope:
-- U03-A/U03-B/U04-A ROUND/publication/history reconciliation;
-- E02/E03 role/readback reconciliation;
-- TERMS-WORK-EXECUTION-MEMORY source-to-record coverage check;
-- C2 durable checkpoint.
+C3 exact scope:
+- U05-A/U05-B/U06-A/U06-B/U06-C ROUND/publication/history reconciliation;
+- E04/E05 role/readback + historical E05 dual-identity reconciliation;
+- TERMS-LEARNING-GOVERNANCE source-to-record coverage check;
+- C3 durable checkpoint.
 
-Aynı turda C3'e geçilmez.
+Aynı turda C4'e geçilmez.
 
 ECC source-study'nin U13-A next research işi concepts next değildir. U13-A yapılmaz. B7/B8 shared terminology başlamaz.
