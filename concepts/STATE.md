@@ -1,12 +1,12 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-20, **B6-T15-H3**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
+2026-09-20, **B6-T15-H4**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
 
 ## 1. Güncel durum
 
-**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-DURABLE-COMPLETE / AI-KNOWLEDGE-STRATEGIES-DURABLE-COMPLETE / MULTI-AGENT-PATTERNS-DURABLE-COMPLETE / ANTHROPIC-AI-NATIVE-SDLC-DURABLE-COMPLETE / GSTACK-DURABLE-COMPLETE / HERMES-H1-H2-H3-DURABLE-COMPLETE / HERMES-PARTIAL / METHOD-v0.3-WORKING / POST-S1-ADDITIONS-PENDING-ACCOUNT.**
+**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-DURABLE-COMPLETE / AI-KNOWLEDGE-STRATEGIES-DURABLE-COMPLETE / MULTI-AGENT-PATTERNS-DURABLE-COMPLETE / ANTHROPIC-AI-NATIVE-SDLC-DURABLE-COMPLETE / GSTACK-DURABLE-COMPLETE / HERMES-H1-H2-H3-H4-DURABLE-COMPLETE / HERMES-PARTIAL / METHOD-v0.3-WORKING / POST-S1-ADDITIONS-PENDING-ACCOUNT.**
 
-Hermes concepts aktarımı package büyüklüğü nedeniyle beş durable parçaya bölündü. **H1, H2 ve H3 durable kapanışları tamamlandı.** Hermes source-study kendi açısından hâlâ **ACTIVE PARTIAL**; concepts extractor mevcut package'i kaynak olarak okuyor, source-study'nin Q60 continuation talimatını assistant authority yapmıyor.
+Hermes concepts aktarımı package büyüklüğü nedeniyle beş durable parçaya bölündü. **H1, H2, H3 ve H4 durable kapanışları tamamlandı.** Hermes source-study kendi açısından hâlâ **ACTIVE PARTIAL**; concepts extractor mevcut package'i kaynak olarak okuyor, source-study'nin Q60 continuation talimatını assistant authority yapmıyor.
 
 Hermes current package recursive tree hesabı **368 file**:
 - root 10;
@@ -15,17 +15,18 @@ Hermes current package recursive tree hesabı **368 file**:
 - inventory 10;
 - evidence 314.
 
-H3 checkpoint:
+H4 checkpoint:
 - root **10/10 FULL**;
 - notes **30/30 FULL**;
 - synthesis **4/4 FULL**;
 - inventory **10/10 FULL**;
 - evidence tree **314/314 inventory-accounted**;
-- direct-full-read evidence text **201/314 path**;
+- direct-full-read evidence text **204/314 path**;
 - H1 U01/U02 **DURABLE-COMPLETE**;
 - H2 U03–U06 **65/65 path accounted / DURABLE-COMPLETE**;
 - H3 U07–U10 **36/36 path accounted / DURABLE-COMPLETE**;
-- remaining **113 paths** H4–H5'te family/role bazında reconcile edilir; path count bağımsız semantic evidence sayısı değildir;
+- H4 U11–U15 **34/34 path accounted / DURABLE-COMPLETE**;
+- remaining **110 paths** H5'te package-wide role/lineage reconciliation için değerlendirilir;
 - Hermes **PACKAGE-COMPLETE değildir**.
 
 H1 source-to-TERMS check iki gerçek boşluğu kapattı:
@@ -43,7 +44,8 @@ H1 source-to-TERMS check iki gerçek boşluğu kapattı:
 | B6 — Hermes H1 | **Durable-complete.** |
 | B6 — Hermes H2 | **Durable-complete.** |
 | B6 — Hermes H3 | **Durable-complete.** |
-| B6 — Hermes package | **ACTIVE / PARTIAL; H4–H5 open.** |
+| B6 — Hermes H4 | **Durable-complete.** |
+| B6 — Hermes package | **ACTIVE / PARTIAL; only H5 open.** |
 | Hermes source-study Q60 | NOT RESEARCHED; concepts does not invent it. |
 | B6 — next study | Hermes H5 kapanmadan başlamaz. SCOPE'da sonraki package ECC'dir. |
 | S1 sonrası additions | agentmemory, claude-swap, cli-continues, ponytail final scope/B7 öncesi account edilecek. |
@@ -53,26 +55,25 @@ Bu package sayısı progress percentage değildir; post-S1 additions current sco
 
 ## 2. Etkin giriş ve sıradaki yetkili iş
 
-**Current work B6-T15-H4 Hermes Agent extraction'dır.** H1/H2/H3 yeniden yapılmaz. Local continuation [studies/hermes-agent/READING.md](studies/hermes-agent/READING.md) → [studies/hermes-agent/TERMS.md](studies/hermes-agent/TERMS.md) üzerinden sürdürülür.
+**Current work B6-T15-H5 Hermes Agent final closure'dır.** H1/H2/H3/H4 yeniden yapılmaz. Local continuation [studies/hermes-agent/READING.md](studies/hermes-agent/READING.md) → [studies/hermes-agent/TERMS.md](studies/hermes-agent/TERMS.md) üzerinden sürdürülür.
 
 Beş parçalı Hermes planı:
 1. **H1 — U01/U02 + early evidence:** COMPLETE.
 2. **H2 — U03–U06 persistent work / continuation:** COMPLETE.
 3. **H3 — U07–U10 scheduled work / cron:** COMPLETE.
-4. **H4 — U11–U15 runtime / tools / delegation / install / skill library:** NEXT.
-5. **H5 — package-wide raw-role reconciliation + cross-TERMS + final delta/closure:** pending.
+4. **H4 — U11–U15 runtime / tools / delegation / install / skill library:** COMPLETE.
+5. **H5 — package-wide raw-role reconciliation + cross-TERMS + final delta/closure:** NEXT.
 
-H4 exact scope:
-- U11 runtime/backend;
-- U12 tool admission/delegation;
-- U13 delegation re-entry;
-- U14 install/update/activation;
-- U15 skill-library lifecycle;
-- yalnız bu family'lerin remaining raw/result/archive role reconciliation;
-- H4 source-to-TERMS coverage check;
-- durable H4 checkpoint.
+H5 exact scope:
+- remaining 110 evidence path'in package-wide role/lineage reconciliation'ı;
+- duplicate/source-copy/probe/log/archive/stale-publication classifications;
+- atlanmış semantic source path kalıp kalmadığının kontrolü;
+- all Hermes TERMS parts package-wide source-to-record coverage check;
+- current source tree/delta ve source-study ACTIVE-PARTIAL boundary confirmation;
+- only then Hermes PACKAGE-COMPLETE concepts judgment;
+- closure passes ise global STATE'i ECC package preflight'ına geçir.
 
-H4 package-wide final closure yapmaz; H5 raw-role/cross-TERMS/delta/final closure turudur. H5'e kadar Hermes PACKAGE-COMPLETE verilmez.
+H5 source-study Q60 araştırması yapmaz, Hermes product experiment çalıştırmaz ve B8 shared terminology sentezine geçmez.
 
 Current linked term groups:
 - TURN-SESSION-CONTEXT;
@@ -152,6 +153,16 @@ H3 durable closure:
 
 H3 strongest boundary: outward scheduled occurrence identity, inbound acceptance key, active claim, execution attempt, output, delivery receipt ve future continuity context ayrı lifecycle objects'dir.
 
+H4 durable closure:
+- H4 subtree **34 path / 34 unique blob**;
+- **33/34** semantic/provenance/result path direct-read;
+- **1/34** U13 binary diagnostic archive role-accounted;
+- U13 README/MANIFEST/RESULT-SUMMARY direct-read ile archive/raw-result lineage closed;
+- U11/U12/U14/U15 prior full evidence reads reconfirmed by current path inventory;
+- source-to-TERMS coverage check **no concrete omission** found, so no new IDs were manufactured.
+
+H4 strongest boundary: runtime selection/client/backend ownership, tool proposal/admission/effect/result, delegation construction/completion/re-entry, install/update/materialization/fleet, skill source/local/manifest/discovery/readiness are distinct mechanisms and standings.
+
 ## 5. Yetki ve yazma kapsamı
 
 B6-T15 only concepts-layer extraction. It does not:
@@ -198,6 +209,8 @@ H1 continuation commits:
 - H3 scheduled-work terms refinement: **71f375cc940c1c81c14ca7934acca21ac3d87c4e**
 - H3 READING closure: **28a0ae4f4a1b1ef35bb7cf7364f5152fde953ae1**
 - H3 TERMS status/count update: **2cabb582fa37e0fbdef557f04c26aa9b8b6e97ea**
+- H4 READING closure: **813877c02dacaef05a64082127b899930fccc69d**
+- H4 TERMS status/count update: **a1aec4cf36e09e7fff162065a5b622083cd52924**
 
 These commits imply H1 closure only, not Hermes package closure. Source package remains untouched.
 
@@ -207,7 +220,7 @@ Previous gstack closure and earlier package closures remain immutable continuati
 
 After this STATE write, actual main/diff/readback must confirm the H1 checkpoint. Hermes local READING remains the authoritative extraction-progress surface; global STATE routes only the next partition.
 
-New-session cold-start: AGENT + triggered protocols → concepts/INDEX required files → this STATE → Hermes READING/TERMS → **H4 U11–U15**. Do not redo H1/H2/H3, restart Hermes source research, jump to H5, or start ECC.
+New-session cold-start: AGENT + triggered protocols → concepts/INDEX required files → this STATE → Hermes READING/TERMS → **H5 final Hermes closure**. Do not redo H1–H4, restart Hermes source research, or start ECC before H5 judgment.
 
 Two concepts risks remain explicit: interpretation decisions must remain traceable because user cannot steer every read; shared words such as session, memory, skill, completed, claim, result, agent are not assumed to mean what they meant in prior studies.
 
