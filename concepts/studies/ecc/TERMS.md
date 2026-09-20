@@ -1,14 +1,14 @@
 # ECC — Bağlamlı kullanım kayıtları
 
-2026-09-20, **B6-T16-C1 / KALICI-AKTARIM-KISMİ / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T16-C1 / C1-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
 
 Bu dosya `research/studies/ecc/` concepts girişidir. ECC source-study kendi açısından **ACTIVE / PARTIAL**; U12-C'ye kadar published, U13-A/Q07d1 not started. Concepts çalışması source-study research'ini sürdürmez.
 
 Gerçek okuma/coverage: [READING.md](READING.md).
 
-## 1. Current linked term drafts
+## 1. Current linked term groups
 
-- [TERMS-SURFACES-INSTALLATION.md](TERMS-SURFACES-INSTALLATION.md) — U01–U02.
+- [TERMS-SURFACES-INSTALLATION.md](TERMS-SURFACES-INSTALLATION.md) — U01–U02 — **C1 COMPLETE**.
 - [TERMS-WORK-EXECUTION-MEMORY.md](TERMS-WORK-EXECUTION-MEMORY.md) — U03–U04.
 - [TERMS-LEARNING-GOVERNANCE.md](TERMS-LEARNING-GOVERNANCE.md) — U05–U06.
 
@@ -31,6 +31,6 @@ Bunlar source-local contextual inventories'dir; global ortak sözlük değildir.
 
 ## 3. Current status
 
-C1–C3 mechanism notes/source ledgers were read and linked drafts written, but **no C1/C2/C3 closure is claimed yet**. Exact next: C1 U01–U02 round/publication reconciliation and coverage check.
+**C1 U01–U02 durable-complete.** C2/C3 main note/source-ledger reads exist but their own closure is still open. Exact next: **C2 U03–U04 closure**.
 
 ECC package **PACKAGE-COMPLETE değildir**. C4–C6 untouched by concepts closure.
