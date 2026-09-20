@@ -1,10 +1,10 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-20, **B6-T16-C3**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
+2026-09-20, **B6-T16-C4**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
 
 ## 1. Güncel durum
 
-**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-DURABLE-COMPLETE / AI-KNOWLEDGE-STRATEGIES-DURABLE-COMPLETE / MULTI-AGENT-PATTERNS-DURABLE-COMPLETE / ANTHROPIC-AI-NATIVE-SDLC-DURABLE-COMPLETE / GSTACK-DURABLE-COMPLETE / HERMES-DURABLE-COMPLETE / ECC-C1-C2-DURABLE-COMPLETE / ECC-PARTIAL / METHOD-v0.3-WORKING / POST-S1-ADDITIONS-PENDING-ACCOUNT.**
+**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-DURABLE-COMPLETE / AI-KNOWLEDGE-STRATEGIES-DURABLE-COMPLETE / MULTI-AGENT-PATTERNS-DURABLE-COMPLETE / ANTHROPIC-AI-NATIVE-SDLC-DURABLE-COMPLETE / GSTACK-DURABLE-COMPLETE / HERMES-DURABLE-COMPLETE / ECC-C1-C2-C3-DURABLE-COMPLETE / ECC-PARTIAL / METHOD-v0.3-WORKING / POST-S1-ADDITIONS-PENDING-ACCOUNT.**
 
 Hermes concepts aktarımı beş durable parçayla tamamlandı:
 - H1 — U01/U02 + early evidence;
@@ -48,7 +48,8 @@ Bu, Hermes source-study'nin bittiği anlamına gelmez. Source-study current STAT
 | Hermes source-study | **ACTIVE PARTIAL; Q60 NOT RESEARCHED.** |
 | B6 — ECC C1 | **Durable-complete.** |
 | B6 — ECC C2 | **Durable-complete.** |
-| B6 — ECC concepts | **ACTIVE / PARTIAL; C3–C6 open.** |
+| B6 — ECC C3 | **Durable-complete.** |
+| B6 — ECC concepts | **ACTIVE / PARTIAL; C4–C6 open.** |
 | S1 sonrası additions | agentmemory, claude-swap, cli-continues, ponytail final scope/B7 öncesi account edilecek. |
 | B7/B8 | Not started. |
 
@@ -56,32 +57,33 @@ Bu package sayısı progress percentage değildir; post-S1 additions current sco
 
 ## 2. Etkin giriş ve sıradaki yetkili iş
 
-**Current work B6-T16-C3: ECC U05–U06 closure.**
+**Current work B6-T16-C4: ECC U07–U09.**
 
 ECC concepts partition:
 1. **C1 — U01–U02 surfaces / installation / ownership:** COMPLETE.
 2. **C2 — U03–U04 work / execution / memory:** COMPLETE.
-3. **C3 — U05–U06 learning / evaluation / governance:** CURRENT.
-4. **C4 — U07–U09:** pending.
+3. **C3 — U05–U06 learning / evaluation / governance:** COMPLETE.
+4. **C4 — U07–U09 material-family / Plan Canvas / Rust-session-operator-runtime:** CURRENT.
 5. **C5 — U10–U12:** pending.
 6. **C6 — package-wide reconciliation/final closure:** pending.
 
-C2 durable closure includes:
-- U03-A/U03-B/U04-A notes and source ledgers;
-- E02/E03 bounded execution evidence;
-- U03-A publication section, standalone U03-B/U04-A receipts;
-- MR04/MR05 and ROUND-U04-A/MR06;
-- U03-A/U03-B RESEARCH-LOG + SOURCE-LEDGER sections;
-- TERMS-WORK-EXECUTION-MEMORY source-to-record check;
-- ECC-W79–ECC-W89 refinements for inspection side effects, worker identity, rollback/content preservation, observation/locator and Memory Vault view/health boundaries.
+C3 durable closure includes:
+- U05-A/U05-B/U06-A/U06-B/U06-C notes and source ledgers;
+- E04/E05 bounded execution evidence at their recorded scope;
+- ROUND/PUBLICATION records for U05-A/B and U06-A/B/C;
+- historical dual-E05 reconciliation: Node 15-case and Python 16-case records remain distinct, not pooled;
+- TERMS-LEARNING-GOVERNANCE source-to-record check;
+- ECC-L99–ECC-L104 refinements for location-derived scope, analyzed-vs-archived set, version-label identity, host-field adaptation, event correlation and data minimization.
 
-**C3 exact scope:**
-- U05-A/U05-B/U06-A/U06-B/U06-C ROUND/publication/history reconciliation;
-- E04/E05 role/readback and historical dual-E05 identity reconciliation;
-- TERMS-LEARNING-GOVERNANCE source-to-record coverage check;
-- C3 durable checkpoint.
+**C4 exact scope:**
+- U07-A material-family accounting and reverse frontier;
+- U08-A Plan Canvas / continuation family;
+- U09-A / U09-A2 / U09-A3 / U09-B Rust/session/operator/runtime families;
+- exact notes/source-ledgers/round/publication and bounded evidence;
+- C4-linked term inventory creation/refinement;
+- C4 durable checkpoint.
 
-Aynı turda C4'e geçilmez.
+Aynı turda C5'e geçilmez.
 
 ECC source-study kendi açısından **ACTIVE / PARTIAL**, completed through U12-C / plan 0.29; U13-A/Q07d1 NOT STARTED. Concepts work U13-A research'ünü başlatmaz.
 
