@@ -1,14 +1,12 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-20, **B6-T13**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
+2026-09-20, **B6-T14**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
 
 ## 1. Güncel durum
 
-**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-DURABLE-COMPLETE / AI-KNOWLEDGE-STRATEGIES-DURABLE-COMPLETE / MULTI-AGENT-PATTERNS-DURABLE-COMPLETE / ANTHROPIC-AI-NATIVE-SDLC-DURABLE-COMPLETE / METHOD-v0.3-WORKING / POST-S1-ADDITIONS-PENDING-ACCOUNT.**
+**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-DURABLE-COMPLETE / AI-KNOWLEDGE-STRATEGIES-DURABLE-COMPLETE / MULTI-AGENT-PATTERNS-DURABLE-COMPLETE / ANTHROPIC-AI-NATIVE-SDLC-DURABLE-COMPLETE / GSTACK-DURABLE-COMPLETE / METHOD-v0.3-WORKING / POST-S1-ADDITIONS-PENDING-ACCOUNT.**
 
-Kullanıcının “devam et.” talebiyle `research/studies/anthropic-ai-native-sdlc-playbook/` package'i canonical preflight'tan geçirildi, sekiz source file tam okundu ve bağlamlı kullanım envanteri kalıcılaştırıldı. **Concepts açısından 8/8 package source file full-read ve durable extraction complete durumundadır.**
-
-Kaynak study kendi açısından **BOUNDED COMPLETE / CANDIDATE STUDY**; architecture/Foundation adoption yetkisi yok. B6-T13 concepts kapanışı bu source-study completion'dan ayrı durumdur.
+Kullanıcının “tamam. devam et lütfen.” talebiyle `research/studies/gstack/` package'i canonical preflight'tan geçirildi. Kök kayıtlar, inventory, later revalidation ve on dört synthesis dahil **23/23 source file tam okundu**; büyük iki synthesis'te tool truncation görülen aralıklar ayrı overlapping reads ile tamamlandı. Package'in bağlamlı kullanım envanteri ana TERMS + beş linked topic part olarak kalıcılaştırıldı.
 
 | İş | Güncel durum |
 |---|---|
@@ -19,26 +17,33 @@ Kaynak study kendi açısından **BOUNDED COMPLETE / CANDIDATE STUDY**; architec
 | B6 — Superpowers | Durable-complete. |
 | B6 — AI Knowledge Strategies | Durable-complete. |
 | B6 — Multi-Agent Patterns | Durable-complete. |
-| B6 — Anthropic AI-Native SDLC | **Durable-complete; 8/8 source file, READING + TERMS.** |
-| B6 — sıradaki paket | **gstack**; concepts çıkarımı henüz başlamadı. |
+| B6 — Anthropic AI-Native SDLC | Durable-complete. |
+| B6 — gstack | **Durable-complete; 23/23 source file, READING + ana TERMS + beş linked TERMS parçası.** |
+| B6 — sıradaki paket | **hermes-agent**; concepts çıkarımı henüz başlamadı. |
 | B6 — diğer S1 birimleri | Başlangıç sırası SCOPE'da; kalıcı çıkarımları kapanmadı. |
 | S1 sonrası eklenen kaynaklar | agentmemory, claude-swap, cli-continues ve ponytail bilinen kapsam deltalarıdır; final scope/B7 öncesi hesapta işlenecekler. |
 | B7/B8 | Küresel geçiş kontrolü ve ortak referans değerlendirmesi başlamadı. |
 
-S1 başlangıcından **CMH, Superpowers, AI Knowledge Strategies, Multi-Agent Patterns ve Anthropic AI-Native SDLC Playbook** kalıcı çıkarım bakımından kapanmıştır. Bu paket sayısı ilerleme yüzdesi değildir ve post-S1 additions'ı içermez.
+S1 başlangıcından **CMH, Superpowers, AI Knowledge Strategies, Multi-Agent Patterns, Anthropic AI-Native SDLC ve gstack** kalıcı çıkarım bakımından kapanmıştır. Bu paket sayısı ilerleme yüzdesi değildir ve post-S1 additions'ı içermez.
 
 ## 2. Etkin giriş ve sıradaki yetkili iş
 
-Anthropic AI-Native SDLC Playbook artık current partial work değildir. Gerekirse [READING.md](studies/anthropic-ai-native-sdlc-playbook/READING.md) ve [TERMS.md](studies/anthropic-ai-native-sdlc-playbook/TERMS.md) birlikte okunur; package yeniden araştırılmaz.
+gstack artık current partial work değildir. Geri çağrılacaksa [READING.md](studies/gstack/READING.md), [TERMS.md](studies/gstack/TERMS.md) ve ana TERMS'in bağladığı beş parça birlikte okunur:
 
-**Sıradaki yetkili iş B6-T14:** `research/studies/gstack/` package'ine canonical preflight ile gir:
+- WORK-DELIVERY;
+- RUNTIME-CONTROL;
+- EVIDENCE-CONTINUITY;
+- COORDINATION-PORTABILITY;
+- SYSTEM.
+
+**Sıradaki yetkili iş B6-T15:** `research/studies/hermes-agent/` package'ine canonical preflight ile gir:
 - current main ve gerçek package tree/file envanterini sabitle;
-- META/STATE/INDEX ve package-local cold-start/authority yolunu recover et;
-- kaynak study'nin current/historical durumunu concepts extraction durumundan ayır;
-- bütün package source files'i tam oku;
-- terim/jargon/kavramsal ayrımları kaynağın kendi kullanımında çıkar;
-- gerekirse `concepts/studies/gstack/READING.md` ve `TERMS.md` oluştur veya package büyüklüğü gerektirirse linked TERMS parçaları kullan;
-- önceki package'lerin artifact/control/verification/harness/agent/workflow kavramlarını başlangıç ontology'si olarak dayatma.
+- package STATE/META/INDEX ve kendi cold-start/research-plan yolunu tam recover et;
+- source-study current status ile concepts extraction status'u ayır;
+- package'in bütün source files'ini tam oku; mevcut Hermes research devam talimatlarını current assistant authority sanma;
+- terim/jargon/kavramsal ayrımları Hermes araştırmasının kendi kullanımında çıkar;
+- package büyüklüğüne göre `concepts/studies/hermes-agent/READING.md`, `TERMS.md` ve gerekirse linked TERMS parts oluştur;
+- gstack/Superpowers/CMH gibi önceki package'lerin terim sınırlarını Hermes'e başlangıç ontology'si olarak dayatma.
 
 B7/B8 ortak referans aşaması hâlâ yetkili next değildir. S1 sonrası eklenmiş study yolları bütün seri ve delta kontrolünden dışlanamaz.
 
@@ -52,81 +57,90 @@ Kaynağın genel tanım vermediği kullanımı açık bırakmak geçerli çıkt�
 
 P2'nin önceki gruplarındaki özgün satırlar kalıcı aktarım sırasında erişilebilir olduğu ölçüde kullanıldı; B6-T10'da tarihsel SP150–SP160 satır metni güvenilir biçimde recover edilemedi. METHOD §8 uygulanarak sabit kaynaktan U08-R regeneration yapıldı; STATE/summary'den birebir SP anlamı uydurulmadı. Tam ve değişmemiş gerçek içerik sırf yeni tur diye mekanik tekrarlanmaz; eksik zorunlu kontrol veya kaynak canonical yoldan geri kazanılır.
 
-## 4. B6-T13 gerçek çalışma ve Anthropic AI-Native SDLC kapanışı
+## 4. B6-T14 gerçek çalışma ve gstack kapanışı
 
-B6-T13 başlangıç main'i **c5f69f165c50f9bc36dd9b665a8236deba3c6784** idi. Source package current main'de sekiz dosyadan oluşuyordu:
+B6-T14 başlangıç main'i **45b2f57a0ca5b3845b0db6b729b39582a58196cb** idi. Source package 23 files: 7 root records, inventory/STRUCTURE, one v1.80 revalidation record and 14 syntheses.
 
-- `META.md`;
-- `STATE.md`;
-- `INDEX.md`;
-- `00-WHY-THIS-RESEARCH.md`;
-- `01-PLAYBOOK-RESEARCH.md`;
-- `02-SOURCE-LINK-LEDGER.md`;
-- `03-SOUL-DEVELOPMENT-OS-ASSESSMENT.md`;
-- `04-FALSIFIERS-LIMITATIONS-OPEN-QUESTIONS.md`.
+Pinned source identity `garrytan/gstack@0d1bd5616c0ef096bb7ccee336f63c60ee408618` / v1.79.0.0 korunur. Later `c24121663732644c56280474a1720475dbe53127` / v1.80.0.0 read is bounded revalidation, silent repin değildir.
 
-Sekiz dosyanın tamamı B6-T13'te full-read edildi. Kaynak package external-target/candidate study olarak bounded complete; exact product claims later load-bearing kullanımda revalidate edilmelidir.
+Kalıcı records:
+- `concepts/studies/gstack/READING.md`;
+- `concepts/studies/gstack/TERMS.md`;
+- `TERMS-WORK-DELIVERY.md`;
+- `TERMS-RUNTIME-CONTROL.md`;
+- `TERMS-EVIDENCE-CONTINUITY.md`;
+- `TERMS-COORDINATION-PORTABILITY.md`;
+- `TERMS-SYSTEM.md`.
 
-Yeni kalıcı kayıtlar:
-- `concepts/studies/anthropic-ai-native-sdlc-playbook/READING.md`;
-- `concepts/studies/anthropic-ai-native-sdlc-playbook/TERMS.md`.
+Ana source-native/result distinctions:
+- gstack = artifact-mediated, qualification-driven software-development operating-system prior art; SOUL architecture değil;
+- candidate intent / admitted Work / performed Work / qualification / authorized progression / realized target state ayrı;
+- current qualification type historical ceremony provenance'den ayrı;
+- review, QA, ship, merge, deploy, live health, rollback/restoration ayrı standings;
+- browser persistent runtime evidence ve runtime authority/resource scopes ayrı;
+- careful/freeze/guard preventive controls, one-way doors decision authority, CSO detective security ayrı control families;
+- fresh context/model diversity/independent verification aynı değil;
+- memory plural: checkpoint, local learning, typed brain cache, trust/ingest policy farklı semantics;
+- stale GBrain qualifier'ın planning view'da kaybolması strong source→view negative finding;
+- test exists/selected/executed/oracle valid/finalized/independent standings ayrı; green derived view;
+- host/model/adaptation/install/runtime/behavioral-validation standings ayrı; “supported host” binary değil;
+- source→generated→installed→running→release propagation tek update marker'a collapse edilmez;
+- command/transition attempt ≠ realized state; authoritative readback recurring control;
+- feedback/recommendation ≠ Work admission;
+- native Qualified Transition Loop: situation binding → evidence → standing → authority/control → bounded effect → realized-state readback → invalidation → continuation/recovery/adaptation.
 
-TERMS şu kaynak-native/research-synthesis ayrımlarını korur:
-- six-stage SDLC software-domain organizing frame; universal Work ontology değil;
-- committed artifact chain continuity sağlar ama semantic fidelity/approval/verification guarantee değil;
-- `intent.md`, `spec.md`, ex-ante `plan.md`, revised/as-built state ve exact artifact identity ayrı;
-- `CLAUDE.md`/memory/rules/Skills model-visible guidance; Hooks/permissions/sandbox/settings/identity/network/gates daha mekanik control layers;
-- Hook veya named tool control alternate paths kapanmadan complete boundary değil;
-- producer self-feedback, fresh verifier, PR review, deterministic evidence ve human approval ayrı surfaces;
-- protected red→green test strong bounded evidence; universal semantic proof değil;
-- agent configuration ayrı regression/eval target olabilir;
-- autonomy actor/action/environment/risk/evidence/gate relation'ı olarak kullanılır;
-- direct permission ile effective/transitive authority ayrı;
-- repo/declared state ile live operating reality ayrı;
-- telemetry evidence infrastructure; assurance/correctness değil;
-- incident→intent→fix→eval/config change evolution loop'u bounded operational pattern;
-- Anthropic first-party operational claims independent efficacy evidence olarak promote edilmez;
-- Atlas/Port counterexamples problem evidence olarak tutulur, vendor remedy adoption'a çevrilmez.
+v1.80 revalidation exact `/freeze` state-root fail-open defect'ini fixed olarak düzeltir; broader scope/host limits ve diğer qualification seam findings korunur. Concepts records current defect ile historical fixed defect'i karıştırmaz.
 
-Source-side coverage kontrolünde 8/8 file ve package'in primary/playbook/ledger/assessment/falsifier surfaces'i kalıcı TERMS'e bağlandı; unread source file veya somut aktarım borcu kalmadı. Kapanış same-assistant source extraction'dır; product certification veya architecture adoption değildir.
+Closure-audit holdouts (iOS, scrape→skillify, health/benchmark, artifact-output) ayrı first-order semantic subsystem üretmedi; mevcut mechanism families'i compose eden verticals/views olarak tutuldu.
+
+Source-side coverage 23/23 full-read ve bütün native/cross-system/projection/closure/revalidation families TERMS parçalarına bağlıdır. Concrete transfer omission bulunmadı. Bu same-assistant source extraction'dır; independent validation veya shared cross-study vocabulary değildir.
 
 ## 5. Yetki ve yazma kapsamı
 
-B6-T13 mevcut seri çıkarım yetkisi içindedir; yeni research phase, Foundation synthesis veya architecture work değildir.
+B6-T14 mevcut seri çıkarım yetkisi içindedir; gstack source study'yi yeniden açmak, Foundation mutation, architecture adoption veya upstream implementation değildir.
 
-Bu tur dört concepts yolu değişir:
-- yeni `concepts/studies/anthropic-ai-native-sdlc-playbook/READING.md`;
-- yeni `concepts/studies/anthropic-ai-native-sdlc-playbook/TERMS.md`;
-- `concepts/INDEX.md` — durable package kaydı eklendi;
-- bu `concepts/STATE.md`.
+Bu tur concepts katmanında:
+- yeni gstack READING;
+- yeni ana TERMS;
+- beş yeni linked TERMS parçası;
+- `concepts/INDEX.md`;
+- bu `concepts/STATE.md`
 
-Özgün `research/studies/anthropic-ai-native-sdlc-playbook/**`, diğer studies, önceki durable package kayıtları, METHOD/PLAN/SCOPE/CHARTER/ORIGIN/SETUP-REVIEW, Foundation ve agent-control bu iş adına değiştirilmez.
+değişir.
+
+Özgün `research/studies/gstack/**`, diğer studies, önceki durable package records, METHOD/PLAN/SCOPE/CHARTER/ORIGIN/SETUP-REVIEW, Foundation ve agent-control bu iş adına değiştirilmedi.
 
 ## 6. Değişen korpus ve değişmez devam kayıtları
 
-SCOPE/S1 başlangıç ref'i ve post-S1 delta ilkeleri değişmedi. Bilinen yeni study yolları `agentmemory`, `claude-swap`, `cli-continues`, `ponytail` olarak açık kalır; yeni yollar eklenirse final tree-delta hesabına aynı ilkeyle dahil edilir.
+SCOPE/S1 başlangıç ref'i ve post-S1 delta ilkeleri değişmedi. Bilinen yeni study yolları `agentmemory`, `claude-swap`, `cli-continues`, `ponytail` olarak açık kalır; final tree-delta hesabında işlenecekler.
 
-B6-T13 başlangıcından bu STATE öncesine kadar yapılan writes concepts katmanıyla sınırlıdır:
-- Anthropic SDLC READING create commit **456f17d3f36276b4849d82c023a2cd5755fa2389**;
-- Anthropic SDLC TERMS create commit **706ae2ed8932985e710e80bdeabd2a51a519e026**;
-- concepts INDEX update commit **d708aa185e8476826d4787e3eefc632b2b4071a4**.
+B6-T14 concepts publication checkpoints:
+- gstack READING create: **70a88ca3d28a59ef24632217e7beb8c24218bfc4**
+- WORK-DELIVERY: **f5496deeadcb0c8f5d2d4a293e1fc30703b94807**
+- RUNTIME-CONTROL: **b3e8e994c83c3c6da9b8dcec525a995d48193c58**
+- EVIDENCE-CONTINUITY: **782a2647adbd36121221377f6d8868b34ec19ce4**
+- COORDINATION-PORTABILITY: **ac6038bd16d4c52b461da3dab6a3cb4eebaa81ec**
+- SYSTEM: **f4e9d8d748c424d719e9e5dcdce13bd7a9b58d47**
+- TERMS entry: **2a127d4333c22e27cf1712089b48247e0bcc35cd**
+- READING closure update: **7629f4094a64fe7122bd47ce953aab465f53d14e**
+- INDEX update: **3cf64c372775409c0f3b1804e54e5c3b0006e13a**
 
-Source package blob identities yerel READING'de korunur. Time-sensitive Claude/Anthropic capability/settings/telemetry/product claims later exact comparison/adoption öncesinde current official source'tan revalidate edilmelidir.
+Source package files bu concepts writes tarafından değiştirilmedi. Later load-bearing gstack/current-product use, pinned v1.79 package ve bounded v1.80 revalidation'dan daha fresh upstream check gerektirebilir.
 
 | Değişmez kayıt | Korunan kapsam |
 |---|---|
-| P1/P2 pilot checkpoints | METHOD v0.3'e gelen yöntem kanıtı. |
-| CMH durable closure | İlk kalıcı package. |
-| Superpowers B6-T10 durable closure | 52/52 source package. |
-| AI Knowledge Strategies B6-T11 durable closure | 9/9 source package. |
-| Multi-Agent Patterns B6-T12 durable closure | 3/3 source package. |
-| Anthropic AI-Native SDLC B6-T13 READING | 8/8 current package source account, revalidation ve candidate-study boundary. |
+| CMH durable closure | ilk durable package. |
+| Superpowers B6-T10 closure | 52/52 source package. |
+| AI Knowledge Strategies B6-T11 closure | 9/9 source package. |
+| Multi-Agent Patterns B6-T12 closure | 3/3 source package. |
+| Anthropic AI-Native SDLC B6-T13 closure | 8/8 source package. |
+| gstack B6-T14 READING | 23/23 source accounting, pinned/revalidation boundary ve linked TERMS layout. |
 
-Eski package handoff/“next” cümleleri chronological research history'dir; current concepts next work global STATE'den alınır.
+Eski package next/action cümleleri chronological research history'dir; current concepts next work global STATE'den alınır.
 
 ## 7. Yayın kontrolü ve yeni oturum
 
-Yeni READING ve TERMS main'den geri okunup içerik/bağlantı/kapanış tutarlılığı kontrol edilir; INDEX'in yeni satırı gerçekten durable path'lere yönlenmelidir. Bu STATE kendi henüz bilinmeyen commit'ini uydurmaz. Yayından sonra actual diff ve main placement kontrolü yapılır.
+gstack READING, ana TERMS ve beş linked part main'den readback edilerek file identity, group linkage ve source coverage kontrolü yapıldı. INDEX'in gstack row'u durable path'lere bağlandı. Bu STATE kendi henüz bilinmeyen commit'ini uydurmaz; yazımdan sonra actual diff ve main placement ayrıca doğrulanır.
 
-Yeni oturum cold-start: AGENT + triggered protocols → concepts/INDEX zorunlu dosyaları → bu STATE → **gstack package preflight**. Anthropic AI-Native SDLC Playbook yalnız durable-complete source olarak gerektiğinde geri çağrılır. B7/B8 hâlâ ileriki aşamadır.
+Yeni oturum cold-start: AGENT + triggered protocols → concepts/INDEX zorunlu dosyaları → bu STATE → **hermes-agent package preflight**. gstack yalnız durable-complete source olarak gerektiğinde geri çağrılır. B7/B8 hâlâ ileriki aşamadır.
 
