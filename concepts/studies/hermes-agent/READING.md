@@ -173,6 +173,48 @@ Evidence inventory 314 dosyadır; tamamı henüz direct-read değildir. B6-T15't
 
 Bu tranche doğrudan **39 text evidence file** eder. Evidence tree'nin geri kalan **275 path'i henüz direct full-read sayılmaz**. Bazıları result/source copy/probe/raw archive/duplicate blob olduğundan semantic role manifest/ledger üzerinden ayrıca sınıflandırılacaktır; fakat package closure için görünmez sayılmayacaktır.
 
+## 7A. Evidence doğrudan okuma — cron reconciliation tranche
+
+B6-T15 continuation'da önceki 39 direct-read evidence file'a **20 unique file** eklendi:
+
+### U10 — cron execution/context
+- `SPEC.md`
+- `RESULT.json`
+- `MANIFEST.json`
+- `ARTIFACT-CHECKS.json`
+- `CHECKS-NOT-RUN.md`
+- `PUBLICATION.md`
+
+### U09 — cron occurrence admission
+- `CHECKS-NOT-RUN.md`
+- `PUBLICATION.md`
+
+U09 source-only birimdir; RESULT/archive yokluğu eksik publication değil, source-unit tasarımıdır.
+
+### U08 — cron drain/receipts
+- `SPEC.md`
+- `RESULT.json`
+- `MANIFEST.json`
+- `ARTIFACT-CHECKS.json`
+- `CHECKS-NOT-RUN.md`
+- `PUBLICATION.md`
+
+### U07 — cron scheduling/delivery
+- `RESULT.json`
+- `MANIFEST.json`
+- `ARTIFACT-CHECKS.json`
+- `PUBLICATION.md`
+- `README.md`
+- `SOURCES.json`
+
+Bu tranche mevcut TERMS-WORK-CONTINUATION-SCHEDULING ayrımlarını güçlendirdi; yeni contradictory meaning bulunmadı. Özellikle:
+- U10 native selector run'ı newest-mtime seçiminin success/semantic-quality aware olmadığını, silent/empty/error docs ve 8k Prompt-first truncation davranışını bounded olarak gözledi; full scheduler/model request çalıştırılmadı.
+- U08 actual async bridge diagnostic'te `cancel()==True` effect başlamadı anlamına gelmedi; local effect cancel öncesi gerçekleşebildi. `cancel()==False` da success receipt olmadı; terminal error gözlendi. Enclosing scheduler/transport çalıştırılmadı.
+- U07 temp SQLite queue diagnostic pending/delivering/delivered/failed/unknown/tombstone lifecycle'larını exact execution identity altında gözledi; send callback sentetiktir, gateway/network/SessionDB değildir.
+- U09 late-callback/claim/rearm konusu source-only kaldı; real store/NAS/provider execution yapılmadı.
+
+Publication/readback kayıtları research transfer authority'sidir; product behavior validation veya independent replication değildir.
+
 ## 8. Şu ana kadar source-backed bağlam aileleri
 
 İlk durable TERMS parçaları şu current evidence coverage'e dayanabilir:
@@ -234,10 +276,9 @@ Devamda:
 **B6-T15 devam ediyor; Hermes package kapanmadı.**
 
 Exact next evidence tranche:
-1. U10/U09/U08/U07 remaining RESULT/SPEC/NOT-RUN/PUBLICATION and material JSON views;
-2. U06–U01 evidence research/source/diagnostic families;
-3. remaining raw/result/source-copy inventory reconciliation;
-4. current Terms parts'in source-to-record coverage check;
-5. yalnız bundan sonra Hermes PACKAGE-COMPLETE kararı.
+1. U06–U01 evidence research/source/diagnostic families;
+2. remaining raw/result/source-copy inventory reconciliation;
+3. current Terms parts'in source-to-record coverage check;
+4. yalnız bundan sonra Hermes PACKAGE-COMPLETE kararı.
 
 Normal next study (ECC) bu Hermes package kapanmadan başlamaz.
