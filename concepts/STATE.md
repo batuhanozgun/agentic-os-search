@@ -21,8 +21,8 @@ B6-T15 checkpoint:
 - synthesis **4/4 FULL**;
 - inventory **10/10 FULL**;
 - evidence tree **314/314 inventory-accounted**;
-- direct-full-read evidence text at checkpoint **39/314 path**;
-- evidence direct-reading/reconciliation continues; **PACKAGE-COMPLETE verilmedi**.
+- direct-full-read evidence text at checkpoint **76/314 path**;
+- evidence direct-reading/reconciliation continues; U07–U10 cron reconciliation is closed, U03 and parts of U04/U06 advanced; **PACKAGE-COMPLETE verilmedi**.
 
 Hermes için partial durable records oluşturuldu: READING, ana TERMS ve beş linked TERMS parçası. Q60 evaluation/future-task quality kaynak araştırmasında **NOT RESEARCHED** olduğu için concepts tarafı skill/learning efficacy sonucu üretmiyor.
 
@@ -48,14 +48,11 @@ Bu package sayısı progress percentage değildir; post-S1 additions current sco
 **Current work B6-T15 Hermes Agent extraction'dır.** Hermes yeniden preflight gerektirmeden local continuation [studies/hermes-agent/READING.md](studies/hermes-agent/READING.md) → [studies/hermes-agent/TERMS.md](studies/hermes-agent/TERMS.md) üzerinden sürdürülür.
 
 Exact next:
-1. U10 remaining SPEC/RESULT/MANIFEST/CHECKS/PUBLICATION material views;
-2. U09 remaining CHECKS/PUBLICATION;
-3. U08 SPEC/RESULT/MANIFEST/CHECKS/PUBLICATION;
-4. U07 RESULT/MANIFEST/CHECKS/PUBLICATION;
-5. U06→U01 research/source/diagnostic families;
-6. remaining JSON/Python/source-copy/duplicate/binary archive role reconciliation;
-7. source-to-TERMS coverage check;
-8. only then Hermes PACKAGE-COMPLETE judgment.
+1. truncated U04-A/U05/U06 large evidence texts'i smaller-range reads ile tamamla;
+2. U01/U02 evidence research/source/diagnostic families;
+3. remaining JSON/Python/source-copy/duplicate/binary archive role reconciliation;
+4. source-to-TERMS coverage check;
+5. only then Hermes PACKAGE-COMPLETE judgment.
 
 Current linked term groups:
 - TURN-SESSION-CONTEXT;
