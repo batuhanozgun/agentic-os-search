@@ -1,6 +1,6 @@
 # Hermes Agent — Turn, session and context terms
 
-2026-09-20, **B6-T15 / PARTIAL DURABLE TRANSFER**. [TERMS.md](TERMS.md)'nin bağlı parçasıdır. Kaynak: Hermes notes 05–16, synthesis/02 ve related evidence/coverage.
+2026-09-20, **B6-T15-H5 / DURABLE TRANSFER COMPLETE / PACKAGE-COMPLETE**. [TERMS.md](TERMS.md)'nin bağlı parçasıdır. Kaynak: Hermes notes 05–16, synthesis/02 ve related evidence/coverage.
 
 ## 1. Lifecycle identities
 
