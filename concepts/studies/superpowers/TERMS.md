@@ -1,8 +1,8 @@
 # Superpowers — Bağlamlı kullanım kayıtları
 
-2026-09-20, **B6-T9 / KALICI-AKTARIM-KISMİ**. Giriş, plan/görevlendirme/inceleme, test/doğrulama/teslim, U06 skill yazımı/değerlendirme ve U07 görsel yardımcı/dağıtım grupları kayıtlıdır. **[TERMS-ENTRY.md](TERMS-ENTRY.md), [TERMS-WORK.md](TERMS-WORK.md), [TERMS-VERIFICATION-DELIVERY.md](TERMS-VERIFICATION-DELIVERY.md), [TERMS-EVOLUTION-EVALUATION.md](TERMS-EVOLUTION-EVALUATION.md) ve [TERMS-RUNTIME-DISTRIBUTION.md](TERMS-RUNTIME-DISTRIBUTION.md) bu dosyayla birlikte tam okunur.** Gerçek 52 dosyalık kapsam, okumalar ve devam noktası [READING.md](READING.md)'dedir. Yöntem [v0.3-working](../../METHOD.md); global kapsam [S1](../../SCOPE.md); güncel çalışma yetkisi [concepts/STATE.md](../../STATE.md).
+2026-09-20, **B6-T10 / KALICI-AKTARIM-TAMAM / PACKAGE-COMPLETE**. Giriş, plan/görevlendirme/inceleme, test/doğrulama/teslim, skill yazımı/değerlendirme, görsel yardımcı/dağıtım ve bütünsel/proje-karşılaştırmalı sentez grupları kayıtlıdır. **[TERMS-ENTRY.md](TERMS-ENTRY.md), [TERMS-WORK.md](TERMS-WORK.md), [TERMS-VERIFICATION-DELIVERY.md](TERMS-VERIFICATION-DELIVERY.md), [TERMS-EVOLUTION-EVALUATION.md](TERMS-EVOLUTION-EVALUATION.md), [TERMS-RUNTIME-DISTRIBUTION.md](TERMS-RUNTIME-DISTRIBUTION.md) ve [TERMS-SYSTEM-PROJECTION.md](TERMS-SYSTEM-PROJECTION.md) bu dosyayla birlikte tam okunur.** Gerçek 52 dosyalık kapsam ve kapanış [READING.md](READING.md)'dedir. Yöntem [v0.3-working](../../METHOD.md); global kapsam [S1](../../SCOPE.md); güncel çalışma yetkisi [concepts/STATE.md](../../STATE.md).
 
-Bu dosya araştırmanın terimleri ne için kullandığını kaydeder. Terimin genel doğrusu, güncel ürün rehberi, kurulmuş sistem, benimsenmiş mimari veya bütün araştırmaların ortak sözlüğü değildir. CMH'nin kapanmış çıkarımı yeniden açılmadı; onun şeması bu pakete dayatılmadı. ENTRY/WORK/VERIFICATION-DELIVERY/EVOLUTION-EVALUATION içindeki önceki next ifadeleri tarihsel checkpoint'lerdir. Güncel karşılıklar §4/§10 ve bağlı parçalardadır; eski kullanım gövdeleri sırf tarihsel durum cümlelerini silmek için yeniden yazılmadı. ENTRY/SP02 ve SP04'ün yazım ayrıntıları EVOLUTION-EVALUATION §2'de, U07'ye bırakılan erişim/dağıtım ayrımları yeni RUNTIME-DISTRIBUTION parçasındadır.
+Bu dosya araştırmanın terimleri ne için kullandığını kaydeder. Terimin genel doğrusu, güncel ürün rehberi, kurulmuş sistem, benimsenmiş mimari veya bütün araştırmaların ortak sözlüğü değildir. CMH'nin kapanmış çıkarımı yeniden açılmadı; onun şeması bu pakete dayatılmadı. ENTRY/WORK/VERIFICATION-DELIVERY/EVOLUTION-EVALUATION içindeki önceki next ifadeleri tarihsel checkpoint'lerdir. Güncel karşılıklar §4/§11 ve bağlı parçalardadır; eski kullanım gövdeleri sırf tarihsel durum cümlelerini silmek için yeniden yazılmadı. ENTRY/SP02 ve SP04'ün yazım ayrıntıları EVOLUTION-EVALUATION §2'de, U07'ye bırakılan erişim/dağıtım ayrımları yeni RUNTIME-DISTRIBUTION parçasındadır.
 
 ## 1. Kaynak ve aktarım kimlikleri
 
@@ -53,10 +53,10 @@ CLOSURE-AUDIT §3–4 ve CORE §3/§7'nin route-specific alt aktör kuralı ve d
 | Test, teşhis, doğrulama ve teslim/koruma | [TERMS-VERIFICATION-DELIVERY.md](TERMS-VERIFICATION-DELIVERY.md): SP62–SP79, SP171–SP174 ve yerel ekler. B6-T7 kaydı korunuyor. |
 | Skill yazımı, değerlendirme ve kabul | [TERMS-EVOLUTION-EVALUATION.md](TERMS-EVOLUTION-EVALUATION.md): SP80–SP121/SP179; SP02/SP04 yazım bağları ve U06 ekleri. B6-T8 kaydı korunuyor. |
 | Görsel yardımcı ve dağıtım | [TERMS-RUNTIME-DISTRIBUTION.md](TERMS-RUNTIME-DISTRIBUTION.md): SP122–SP149/SP175–SP176, SP28.visual ve U07 ekleri. İki not, iki kaynak kaydı ve dört betik/sonuç B6-T9'da karşılaştırıldı. |
-| Araştırmanın bütün/kanıt dili | Bu dosya: SP01 ve SP177a–c/SP178a–c. Kök belgelerin bütünsel/proje açıklamaları son grupla kapanacak. |
-| Bütünsel ve proje-karşılaştırmalı sentez | SP150–SP160 ve diğer kayıtların ek kaynak ilişkileri; S05/S06/U08 kayıtları ve paket kapanışı sırada. |
+| Araştırmanın bütün/kanıt dili | Bu dosya: SP01 ve SP177a–c/SP178a–c. Kök belgelerin araştırma/kanıt statüsü burada korunur. |
+| Bütünsel ve proje-karşılaştırmalı sentez | [TERMS-SYSTEM-PROJECTION.md](TERMS-SYSTEM-PROJECTION.md): tarihsel SP150–SP160 grubu kaynak-kontrollü regeneration ile U08-R01–R23 olarak karşılanır; exact legacy-row eşleşmesi iddia edilmez. S05/S06/U08-A/B/C B6-T10'da tam okundu. |
 
-B6-T5'te 15, T6'da sekiz, T7'de dokuz, T8'de yedi, T9'da sekiz ek kaynak tam geri kazanıldı: **47/52**. Diğer **beş** dosyanın B6 geri kazanımı/aktarımı ve paket son kontrolü bekliyor. S02/S03'ün bu tur tam yeniden erişimi, zaten T5/T6 olan satırları ikinci kez artırmaz. S01–S04'ün U07'ye dayanan dağıtım/görsel/version-helper/support bağları yeni parçayla karşılandı; U08 kaynak hesapları, S05/S06 ve paket-geneli denetim henüz tamamlanmadı. Tam okuma bütün atıfların bağımsız doğrulanması değildir.
+B6-T5'te 15, T6'da sekiz, T7'de dokuz, T8'de yedi, T9'da sekiz ve T10'da beş kaynak tam geri kazanıldı: **52/52**. Envanterde B6 geri kazanımı bekleyen dosya kalmadı. S05/S06/U08-A/B/C bütünsel/proje dilini ve kapanış provenance'ını tamamlar; onların başka studies/Foundation'a atıfları o korpusların concepts çıkarımı değildir. Tam okuma ve aynı-assistant kaynak kontrolü bağımsız doğrulama anlamına gelmez.
 
 ## 5. Kaynak-içi ilişki görünümü
 
@@ -96,10 +96,32 @@ Korunan önemli ayrımlar: müdahale/kurala ekleme; uyarıcı/beklenen/gözlenmi
 
 SP110'un sınırlı araç-dispatch mekanizması WORK/SP33.d'nin yalnız talimat düzeyindeki read-only yüzeyiyle birleştirilmedi. SP112'nin sağlayıcı-yolu/sürüm koşulu korundu. Bu, bütün read-only sistemler için yeni bir kategori kararı değil; kaynak bağlamlarının ayrılmasıdır. Olumlu kontroller ve raporlanmış karşı örnekler birlikte tutuldu. Genel etkinlik, hata oranı veya özel raporlarda yeni kök neden çıkarılmadı. [B6-T8 yerel checkpoint](https://github.com/batuhanozgun/agentic-os-search/blob/825d3195d09ef2ea7a1739c8809c698fe2c4e158/concepts/studies/superpowers/READING.md) yedi okuma ve U06 bölüm hesabını korur; eski U07-next cümlesi tarihsel kalır.
 
-## 10. B6-T9 — Güncel aktarım ve devam
+## 10. B6-T9 — Korunan aktarım kaydı
 
 P2-T4/T5'in SP122–SP149/SP175–SP176 kayıtları U07-A/B, iki kaynak kaydı ve dört deney dosyasıyla karşılaştırıldı. SP28.visual; process marker/watchdog; session/project scope; event/selected state; source/channel/artifact/activation ve audit/check/mutation ayrımları yeni parçada kayıtlı. Kayıtlı client ve JSON-only deneyler yeniden çalıştırılmadı. Renderer'ın süreç yürütmediği, şablon varlığının rol çağrısı olmadığı ve kopya yazım rehberinin güncel vendor politikası sayılmadığı korundu.
 
 Yeni koşul açıklıkları occupied-port/explicit-token, lexical tmp cleanup, default choice/value ve full-history/last-click ayrımlarıdır. Önceki ana kullanımı tersine çeviren bir fark saptanmadı. S02/S03 tam yeniden erişildi; S01/S04'ün mevcut gerçek metinleriyle U07 bağlantıları kontrol edildi. Sentezler bu nedenle yeni bağımsız destek veya yeni dosya sayısı yapılmadı.
 
-**Sıradaki iş S05/S06 ile üç U08 kaynak kaydı; ardından bütün kalıcı dökümün kaynak/pilot karşılaştırması ve paket delta kontrolüdür.** Beş kaynak ve son kontrol tamamlanmadan Superpowers kapanmaz. Yöntem v0.3-working kaldı; bu aynı-assistant kaynak/aktarım kontrolüdür, bağımsız doğrulama veya ortak referans kabulü değildir.
+**Bu T9 kaydı U07 kapanış checkpoint'idir.** S05/S06/U08 ve paket-geneli kapanış B6-T10'da tamamlanmıştır; buradaki eski next cümlesi güncel yetki değildir.
+
+
+## 11. B6-T10 — Bütünsel aktarım ve paket kapanışı
+
+S05/S06 ile SOURCE-LEDGER-U08A/B/C tam okundu. Bunların ürün-native mekanizma açıklamalarıyla araştırmacı sentez/proje-reuse dili birbirinden ayrıldı. S05'in native whole-system model, development-work loop, method-change loop, composition register, stage/action-dependent authority ve handoff qualification dili; S06'nın selected-task/pursuit coverage, common adequate-and-available view, side information, authority/capability ve adaptation dili [TERMS-SYSTEM-PROJECTION.md](TERMS-SYSTEM-PROJECTION.md)'de kaynak-kontrollü olarak kaydedildi.
+
+Tarihsel P2 grubunun SP150–SP160 aralığı biliniyor fakat özgün satır metni durable repoda bulunmadı. METHOD §8 gereği eski kimliklere hafızadan birebir anlam atanmadı. U08-R01–R23 kaynak-regeneration adresleri oluşturuldu; exact legacy correspondence açıkça **unknown/not asserted** kaldı. Bu, pilot kapsamını yok saymak veya kaynakta bulunmayan anlam üretmek yerine kullanılan kontrollü fallback'tir.
+
+Paket-geneli adres hesabı:
+- SP01 ve araştırma/kanıt dili: bu ana dosya;
+- SP02–29/SP35–38/SP161–166: ENTRY;
+- SP30–34/SP39–61/SP167–170: WORK;
+- SP62–79/SP171–174: VERIFICATION-DELIVERY;
+- SP80–121/SP179: EVOLUTION-EVALUATION;
+- SP122–149/SP175–176: RUNTIME-DISTRIBUTION;
+- tarihsel SP150–160 grubu: SYSTEM-PROJECTION üzerinden kaynak-kontrollü regeneration.
+
+Bu adresleme kavram sayısı veya ortak ontology değildir. Aynı terimin birden çok bağlamı alt adreslerle korunabilir.
+
+Kaynak taraflı final kontrolde 52/52 package dosyasının okuma statüsü açıklanmış, bütün kaynak grupları kalıcı kayıtlara bağlanmış ve bu tur başlangıcında sabit Superpowers package tree'sinin current main ile değişmediği doğrulanmıştır. Önceki T5–T9 coverage tabloları, deney kayıtları ve düzeltmeler korunur. Somut açık aktarım eksiği bulunmadı. Kaynağın açık soruları, dış bağımlılıklarının kısmi okumaları ve ürün etkinliği sınırları belirsizlik olarak kalabilir; bunlar bu ilk-aşama çıkarımını sınırsız genel araştırmaya dönüştürmez.
+
+Bu nedenle **Superpowers için B6 kalıcı bağlamlı kullanım çıkarımı kapanmıştır.** Kapanış, incelenen araştırma paketinin kullanım/ilişki aktarımı içindir; güncel upstream ürün sertifikası, bağımsız doğrulama, bütün AI terminolojisi için tanım veya Development OS/SOUL mimari kararı değildir. Sonradan somut atlama ya da anlam bozulması bulunursa ilgili kayıt yeniden açılabilir.
