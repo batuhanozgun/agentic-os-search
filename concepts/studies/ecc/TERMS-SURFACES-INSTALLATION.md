@@ -1,6 +1,6 @@
 # ECC — Surfaces, installation and ownership terms
 
-2026-09-20, **B6-T16-E1 / DURABLE E1 TRANSFER**. [TERMS.md](TERMS.md)'nin linked parçasıdır. Bu dosya U01–U02 source package kullanımını taşır; evrensel installation/host taxonomy değildir.
+2026-09-20, **B6-T16-C1 / DURABLE-COMPLETE / C1-COMPLETE**. [TERMS.md](TERMS.md)'nin linked parçasıdır. Bu dosya U01–U02 source package kullanımını taşır; evrensel installation/host taxonomy değildir.
 
 ## 1. Repository and distribution surfaces
 
@@ -80,7 +80,13 @@
 | ECC-S52 — capability readiness | Required runtime/package/tool actually usable standing. | Skill installed/file exists ile aynı değil. |
 | ECC-S53 — source→selected→materialized→visible→admitted→effective | U01/U02 boyunca tekrar eden staged interpretation chain. | Mandatory universal lifecycle değil; source-grounded distinction. |
 
-## 6. E1 boundaries
+## 6. C1 closure refinements
+
+| ECC-S54 — install profile | minimal/standard/strict gibi install-time module/capability selection context'i. | Hook profile veya host trust policy ile aynı değil. |
+| ECC-S55 — hook profile | Hook runner/registration'ın hangi hooks'u activate ettiği profile dimension. | Install profile aynı isimleri kullansa bile identical selector/capability set olduğu kanıtlanmaz. |
+| ECC-S56 — source/runtime version binding | Research pin, installer/provider lifecycle source, installed cache/runtime ve current host version'ın ayrı kimlikler olarak tutulması. | Research pin tek başına actual installed/runtime version'ı belirlemez. |
+
+## 7. C1 boundaries
 
 Özellikle:
 - source available ≠ selected;
