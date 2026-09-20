@@ -1,10 +1,10 @@
 # ECC — Bağlamlı kullanım kayıtları
 
-2026-09-20, **B6-T17-C5b / C1-C2-C3-C4-DURABLE-COMPLETE / U10-TRANSFER-COMPLETE / U11-A-B-C-TRANSFER-COMPLETE / C5b-PARTIAL / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T17-C5b / C1-C2-C3-C4-DURABLE-COMPLETE / U10-TRANSFER-COMPLETE / U11-A-B-C-D-TRANSFER-COMPLETE / C5b-PARTIAL / PACKAGE-PARTIAL**.
 
 Bu dosya `research/studies/ecc/` concepts girişidir. ECC source-study kendi açısından **ACTIVE / PARTIAL**; U12-C'ye kadar published, U13-A/Q07d1 not started. Concepts çalışması source-study research'ini sürdürmez.
 
-Gerçek okuma/coverage: [READING.md](READING.md). C1–C4 ayrıntılı geçmiş, C5a ve C5b/U11-A–C exact dosya/sürüm manifestleri oradan geri kazanılır.
+Gerçek okuma/coverage: [READING.md](READING.md). C1–C4 ayrıntılı geçmiş, C5a ve C5b/U11-A–D exact dosya/sürüm manifestleri oradan geri kazanılır.
 
 ## 1. Current linked term groups
 
@@ -17,8 +17,9 @@ Gerçek okuma/coverage: [READING.md](READING.md). C1–C4 ayrıntılı geçmiş,
 - [TERMS-NATIVE-REVIEW.md](TERMS-NATIVE-REVIEW.md) — U11-A — **TRANSFER COMPLETE / C5b PARTIAL**, ECC-N01–N77.
 - [TERMS-SCHEDULED-WORK.md](TERMS-SCHEDULED-WORK.md) — U11-B — **TRANSFER COMPLETE / C5b PARTIAL**, ECC-SC01–SC61.
 - [TERMS-REMOTE-REQUESTS.md](TERMS-REMOTE-REQUESTS.md) — U11-C — **TRANSFER COMPLETE / C5b PARTIAL**, ECC-RD01–RD70.
+- [TERMS-BACKLOG-COORDINATION.md](TERMS-BACKLOG-COORDINATION.md) — U11-D — **TRANSFER COMPLETE / C5b PARTIAL**, ECC-BC01–BC70.
 
-Bunlar source-local contextual inventories'dir; global ortak sözlük değildir. C5a'nın iki dosyası 119, U11-A dosyası 77, U11-B dosyası 61, U11-C dosyası 70 adreslenebilir kullanım satırı taşır. Bu sayılar kavram, bağımsız kanıt veya ilerleme yüzdesi değildir.
+Bunlar source-local contextual inventories'dir; global ortak sözlük değildir. C5a'nın iki dosyası 119, U11-A dosyası 77, U11-B dosyası 61, U11-C dosyası 70 ve U11-D dosyası 70 adreslenebilir kullanım satırı taşır. Bu sayılar kavram, bağımsız kanıt veya ilerleme yüzdesi değildir.
 
 ## 2. Package-level expressions
 
@@ -37,9 +38,9 @@ Bunlar source-local contextual inventories'dir; global ortak sözlük değildir.
 
 ## 3. Current status ve devam
 
-**C1–C4, C5a/U10-A–U10-B ve C5b/U11-A–U11-C source-local aktarımı tamamlandı.** Exact next: **B6-T17-C5b / U11-D**, ardından U11-E. U12-A/B1/B2/C ve package-wide C6 daha sonra gelir.
+**C1–C4, C5a/U10-A–U10-B ve C5b/U11-A–U11-D source-local aktarımı tamamlandı.** Exact next: **B6-T17-C5b / U11-E**. Ardından C5c/U12-A/B1/B2/C ve package-wide C6 gelir.
 
-ECC package **PACKAGE-COMPLETE değildir**. C5'in U11-D–U12 bölümü ve C6 açık; B7/B8 başlamadı. C5a/b/c mevcut C5'in yürütme dilimleri, yeni araştırma kapsamı değildir.
+ECC package **PACKAGE-COMPLETE değildir**. C5'in U11-E–U12 bölümü ve C6 açık; B7/B8 başlamadı. C5a/b/c mevcut C5'in yürütme dilimleri, yeni araştırma kapsamı değildir.
 
 ## 4. İlişki ve düzeltme girişleri
 
@@ -59,4 +60,8 @@ K/B/Y/T/P, N dosyasındaki H/D/F ve SC dosyasındaki K/Y/T/H source-role anahtar
 
 U11-C'nin RD kayıtları **HTTP acceptance / dispatch / completion**, **requested target / lead / receiver**, **never-targeted / disappeared-target**, **valid profile name / reused effective policy** ayrımlarını ekler. RD29 kalıcı result_session_id ilişkisi taşır; SC53–SC54 scheduler sınırı buraya aynen aktarılmaz. RD56 per-request failure isolation, SC44 first-error davranışından farklıdır. RD50 DeferredSaturated current outcome'dur, request Pending kalır; RD49 Failed aynı retry yoluna girmez. RD64 read marker, RD66 per-request completion değildir.
 
-RD dosyası kaynak §1–10 ve K/Y/T/H rolleriyle bağlıdır. Eski kayıtları değiştirmeyi gerektiren maddi çelişki bu tur saptanmadı; aynı isimlerden eş anlamlılık üretilmedi. Yeni endpoint/test/deney yapılmadı. Ayrıntılı eski okuma/yayın geçmişi READING'nin immutable bağlantılarında korunur; current-next yalnız yukarıdaki U11-D'dir.
+RD dosyası kaynak §1–10 ve K/Y/T/H rolleriyle bağlıdır. U11-C turunda eski kayıtları değiştirmeyi gerektiren maddi çelişki saptanmadı; aynı isimlerden eş anlamlılık üretilmedi. Yeni endpoint/test/deney yapılmadı. Ayrıntılı eski okuma/yayın geçmişi READING'nin immutable bağlantılarında korunur; U11-C'nin o tarihteki next'i U11-D artık tamamlanmış aktarımdır.
+
+U11-D'nin BC kayıtları **mesaj yönlendirme / task decomposition / accepted result**, **launch arguments / companion unread handoff**, **drain routing guard / rebalancer destination check**, **all-unread / task-handoff load**, **persistent cooloff / timed backoff**, **current capacity / old controller history** ayrımlarını ekler. BC04 otomatik dağıtımın default false sınırını; BC22 koşullu tekrar-forwarding'i taşır. BC45/BC47/BC48 birlikte süre dolmasını değil kalıcı koşulla dispatch'in atlanmasını anlatır.
+
+RD64/65'in tüketim işaretleri BC62/63 ve BC11/18/27 ile ayrıntılanır. Inbox'ta gösterilen sınırlı küme ile read işaretlenen bütün incoming unread kümesi farklıdır. RD56 remote hata izolasyonu BC40 backlog first-error yoluna taşınmaz; RD50 request Pending ile BC17 handoff unread aynı kalıcı nesne değildir. Yeni BC dosyası note §1–8, ledger/test ve publication rollerine bağlıdır. Önceki TERMS dosyaları bu tur değiştirilmedi; yeni daemon/SQL/model/test çalıştırılmadı. Exact next yalnız **U11-E**'dir.
