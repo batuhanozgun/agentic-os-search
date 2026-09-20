@@ -1,6 +1,6 @@
 # Hermes Agent — Okuma ve kalıcı çıkarım durumu
 
-2026-09-20, **B6-T15-H1 / H1-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T15-H2 / H1-H2-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
 
 Bu dosya `research/studies/hermes-agent/` paketinin concepts programı açısından gerçek okuma/coverage hesabını taşır. Hermes source-study kendi açısından **ACTIVE PARTIAL RESEARCH** durumundadır; concepts extractor bu research'i sürdürme yetkisi almış sayılmaz. Bu çalışma, mevcut package'i olduğu haliyle kaynak kabul eder ve kaynakta tamamlanmış/açık alanları birlikte taşır.
 
@@ -343,6 +343,89 @@ Beş parçalı devam planı:
 - **H4:** U11–U15 runtime / tools / delegation / install / skill library.
 - **H5:** package-wide raw-role reconciliation, TERMS cross-check, delta/final closure.
 
+## 7E. H2 durable checkpoint — U03–U06 persistent work / continuation
+
+**H2 yalnız U03–U06 family'lerini kapatır; Hermes package hâlâ PARTIAL.**
+
+H2 exact scope:
+- U03 `2026-09-10-kanban-task`;
+- U04-A `2026-09-11-multi-turn-continuity`;
+- U04-B `2026-09-11-multiturn`;
+- U05 `2026-09-11-session-lease-recovery`;
+- U06 `2026-09-11-resume-admission`.
+
+Recursive H2 subtree hesabı:
+- **65 unique path / 65 unique blob**;
+- 39 Markdown;
+- 11 JSON;
+- 6 Python;
+- 3 `.tar.xz`;
+- 2 text;
+- 1 sha256 manifest;
+- 1 stderr;
+- 1 stdout;
+- 1 archived license;
+- H2 içinde duplicate blob yok.
+
+H2 closure hesabı:
+- **45/65 path direct semantic/provenance/result read**;
+- **20/65 path role-accounted**: diagnostic archives, probe/prepare/validate code, stdout/stderr, exact/full or manual-selected source copies, candidate repo-update drafts, hash/catalog artifacts.
+- Üç binary diagnostic archive text-read sayılmadı; U03 RECOVERY-MANIFEST, U04-A MANIFEST ve U06 MANIFEST/archive identity/member roles üzerinden account edildi.
+- U04-B candidate `repo-updates/*` current authority değildir. Publication manifestte historical prepared-not-published candidate olarak tutulur; current STATE/PLAN/META/QUESTIONS ile byte-equal olmadığı görüldü ve bir candidate note path current aynı path'te yoktur. Bu yüzden duplicate canonical content diye sayılmadı.
+- U04-B actual semantic payload `RESEARCH/SOURCES/SYNTHESIS/ADVERSARIAL/COVERAGE/REPRODUCTION/SPEC/RESULT` ve publication/reconciliation records direct-read edildi.
+- U04-B `RESULT.json` G01–G12/H01–H09 + negative controls direct-read edildi; 21 matched diagnostic case product PASS skoru değildir.
+
+H2 source-to-TERMS kontrolü iki linked part'ta refinement üretti:
+
+### Persistent Work / Continuation
+`TERMS-WORK-CONTINUATION-SCHEDULING.md` HA-W96–HA-W110:
+- expected run ID;
+- review handoff;
+- superseded run;
+- loop outcome vs durable transition receipt;
+- block attempt vs block acceptance;
+- finalize request;
+- ownership recheck gap;
+- Kanban WAIT-as-continue vs session WAIT barrier;
+- persistent manager state vs live reactivation;
+- manager-state migration / acknowledgement gap;
+- claim heartbeat vs session heartbeat.
+
+### Turn / Session / Recovery
+`TERMS-TURN-SESSION-CONTEXT.md` HA-T48–HA-T64:
+- routing key vs resolved session ID;
+- process-local TurnLeaseToken vs durable DB holder;
+- process-local registry vs cross-process admission;
+- immediate vs waited admission;
+- history refresh on admission;
+- active-turn marker / awaiting-response / delivery obligation;
+- startup recomputation vs result redelivery;
+- restart recovery split;
+- stale token / lease rebind / cancelled waiter cleanup.
+
+H2 strongest non-collapse rules:
+- task identity ≠ run authority;
+- judge verdict ≠ durable task acceptance;
+- loop outcome ≠ DB/store transition receipt;
+- review handoff ≠ task completion;
+- ownership loss ≠ physical execution/effect instantaneously stopped;
+- manager state persisted ≠ live watcher/driver reactivated;
+- migration helper success ≠ child record durably present;
+- same session ID ≠ same current history;
+- process-local lease serialization ≠ durable/cross-process serialization;
+- state restore ≠ recomputation ≠ redelivery.
+
+Global conservative direct-read evidence count is now **197/314 path**. Remaining **117 path** H3–H5'te family/role bazında reconcile edilir; semantic source count değildir.
+
+**H2-DURABLE-COMPLETE** source-bounded concepts transfer statüsüdür. Actual product reliability, Q60 efficacy, current upstream, independent replication veya Hermes package closure değildir.
+
+Beş parçalı plan:
+- H1 — COMPLETE.
+- **H2 — COMPLETE.**
+- H3 — U07–U10 scheduled work / cron — NEXT.
+- H4 — U11–U15 runtime/tools/delegation/install/skill-library — pending.
+- H5 — package-wide raw-role reconciliation + cross-TERMS + final delta/closure — pending.
+
 ## 8. Şu ana kadar source-backed bağlam aileleri
 
 İlk durable TERMS parçaları şu current evidence coverage'e dayanabilir:
@@ -401,13 +484,14 @@ Devamda:
 
 ## 12. Devam noktası
 
-**B6-T15-H1 kapandı; Hermes package hâlâ PARTIAL.**
+**B6-T15-H2 kapandı; Hermes package hâlâ PARTIAL.**
 
-Sıradaki exact work **H2 — U03–U06 persistent work / continuation**:
-1. U03 task/run/claim evidence'in remaining raw/result/source-copy role reconciliation'ı;
-2. U04 multi-turn A/B evidence ve delivery package reconciliation;
-3. U05 session lease/history/recovery source-only family;
-4. U06 resume admission/process-local lease family;
-5. H2 source-to-TERMS coverage check ve durable checkpoint.
+Sıradaki exact work **H3 — U07–U10 scheduled work / cron**:
+1. U07 scheduling/delivery;
+2. U08 drain/receipt;
+3. U09 occurrence admission;
+4. U10 execution/context;
+5. remaining raw/result/archive role reconciliation for only these families;
+6. H3 source-to-TERMS coverage check ve durable checkpoint.
 
-H2 sırasında U07+ cron veya U11+ runtime/skill family'lerine geçilmez; bunlar H3/H4'ün işi. H5'e kadar Hermes PACKAGE-COMPLETE kararı verilmez. Normal next study (ECC) Hermes H5 kapanmadan başlamaz.
+H3 sırasında U11+ runtime/skill family'lerine geçilmez; onlar H4'ün işi. H5'e kadar Hermes PACKAGE-COMPLETE kararı verilmez. ECC Hermes H5 kapanmadan başlamaz.
