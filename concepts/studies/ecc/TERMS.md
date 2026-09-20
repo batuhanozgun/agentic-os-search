@@ -1,10 +1,10 @@
 # ECC — Bağlamlı kullanım kayıtları
 
-2026-09-20, **B6-T17-C5b / C1-C2-C3-C4-DURABLE-COMPLETE / U10-TRANSFER-COMPLETE / U11-A-TRANSFER-COMPLETE / C5b-PARTIAL / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T17-C5b / C1-C2-C3-C4-DURABLE-COMPLETE / U10-TRANSFER-COMPLETE / U11-A-B-TRANSFER-COMPLETE / C5b-PARTIAL / PACKAGE-PARTIAL**.
 
 Bu dosya `research/studies/ecc/` concepts girişidir. ECC source-study kendi açısından **ACTIVE / PARTIAL**; U12-C'ye kadar published, U13-A/Q07d1 not started. Concepts çalışması source-study research'ini sürdürmez.
 
-Gerçek okuma/coverage: [READING.md](READING.md). C1–C4 ayrıntılı geçmiş, C5a ve C5b/U11-A exact dosya/sürüm manifestleri oradan geri kazanılır.
+Gerçek okuma/coverage: [READING.md](READING.md). C1–C4 ayrıntılı geçmiş, C5a ve C5b/U11-A–B exact dosya/sürüm manifestleri oradan geri kazanılır.
 
 ## 1. Current linked term groups
 
@@ -15,8 +15,9 @@ Gerçek okuma/coverage: [READING.md](READING.md). C1–C4 ayrıntılı geçmiş,
 - [TERMS-EVALUATION-REGISTRY.md](TERMS-EVALUATION-REGISTRY.md) — U10-A — **C5a TRANSFER COMPLETE**, ECC-E01–E50.
 - [TERMS-OFFLINE-CAPSULES.md](TERMS-OFFLINE-CAPSULES.md) — U10-B — **C5a TRANSFER COMPLETE**, ECC-O01–O69.
 - [TERMS-NATIVE-REVIEW.md](TERMS-NATIVE-REVIEW.md) — U11-A — **TRANSFER COMPLETE / C5b PARTIAL**, ECC-N01–N77.
+- [TERMS-SCHEDULED-WORK.md](TERMS-SCHEDULED-WORK.md) — U11-B — **TRANSFER COMPLETE / C5b PARTIAL**, ECC-SC01–SC61.
 
-Bunlar source-local contextual inventories'dir; global ortak sözlük değildir. C5a'nın iki dosyası 119, U11-A'nın yeni dosyası 77 adreslenebilir kullanım satırı taşır. Bu sayılar kavram, bağımsız kanıt veya ilerleme yüzdesi değildir.
+Bunlar source-local contextual inventories'dir; global ortak sözlük değildir. C5a'nın iki dosyası 119, U11-A dosyası 77, U11-B dosyası 61 adreslenebilir kullanım satırı taşır. Bu sayılar kavram, bağımsız kanıt veya ilerleme yüzdesi değildir.
 
 ## 2. Package-level expressions
 
@@ -35,9 +36,9 @@ Bunlar source-local contextual inventories'dir; global ortak sözlük değildir.
 
 ## 3. Current status ve devam
 
-**C1–C4, C5a/U10-A–U10-B ve C5b/U11-A source-local aktarımı tamamlandı.** Exact next: **B6-T17-C5b / U11-B**, ardından U11-C–E. U12-A/B1/B2/C ve package-wide C6 daha sonra gelir.
+**C1–C4, C5a/U10-A–U10-B ve C5b/U11-A–U11-B source-local aktarımı tamamlandı.** Exact next: **B6-T17-C5b / U11-C**, ardından U11-D–E. U12-A/B1/B2/C ve package-wide C6 daha sonra gelir.
 
-ECC package **PACKAGE-COMPLETE değildir**. C5'in U11-B–U12 bölümü ve C6 açık; B7/B8 başlamadı. C5a/b/c mevcut C5'in yürütme dilimleri, yeni araştırma kapsamı değildir.
+ECC package **PACKAGE-COMPLETE değildir**. C5'in U11-C–U12 bölümü ve C6 açık; B7/B8 başlamadı. C5a/b/c mevcut C5'in yürütme dilimleri, yeni araştırma kapsamı değildir.
 
 ## 4. İlişki ve düzeltme girişleri
 
@@ -47,6 +48,10 @@ R10 capsule ve R11 kısa static-gate anlatımı O serisiyle birlikte okunur: **O
 
 R13–R18'in erken native-review işaretleri N serisiyle ayrıntılanır. **R16 genel durdurucu standing; N23 failedDimensions; N48 typed blocking findings** farklı kapsamları taşır. Reviewer failure sonucu, finding dizisi boşken de aggregate CHANGES_REQUESTED olabilir. Reviewer verdict N39, aggregate APPROVE N50, dış insan onayları N55/N56 birbirinin yerine kullanılmaz. Confirmed N46 güçlü doğruluk sertifikası değildir.
 
-Yeni N dosyasının ilk readback ayrımı: **N21 trigger / N76 security dimension; N32 dimension / N77 dimensions listesi**. N25'te proof'un koşullu zorunluluğu açıklaştırıldı. İlk sürüm/gerekçe/etki kontrolü TERMS-NATIVE-REVIEW §10'da kalır. Source-study veya önceki TERMS bu ayrım için yeniden yazılmadı.
+N dosyasının ilk readback ayrımı: **N21 trigger / N76 security dimension; N32 dimension / N77 dimensions listesi**. N25'te proof'un koşullu zorunluluğu açıklaştırıldı. İlk sürüm/gerekçe/etki kontrolü TERMS-NATIVE-REVIEW §10'da kalır. Source-study veya önceki TERMS bu ayrım için yeniden yazılmadı.
 
-K/B/Y/T/P ve N dosyasındaki H/D/F source-role anahtarları, note bölüm referansları ve pinned repository snapshot'ı yorumun nereden geldiğini taşır. Upstream kod/testlerin eski araştırmada okunması veya dosyaya kaynak kimliği yazılması bu Concepts turunda yeniden çalıştırıldıkları/okundukları anlamına gelmez. E08 raw verisinin read-only recovery/schema kontrolü yeni native Workflow/model deneyi değildir.
+SC dosyası recurring instruction/occurrence/session/admission ayrımını ekler. **SC21 last_run_at captured pass time; SC28 daemon batch limit; SC33 queue admission; SC49 removal; SC51 revocation** aynı başarı/otorite hükmünü taşımaz. E30–E32 registry transaction'ı SC38 schedule writer'ın kontrolü gibi gösterilmez; R125–R127 eski-attempt finalizer'ı SC46 competing due snapshots ile aynı hata yolu sayılmaz.
+
+U11-B ilk readback açıklığı: **SC47 finite schedule / SC61 terminal schedule handling** ayrı adreslendi; SC02'de due olmanın gerçek execution olmadığı netleştirildi. Gerekçe ve etki kontrolü TERMS-SCHEDULED-WORK §8'de korunur. Source study, R/E/N veya diğer eski kullanım dosyaları değiştirilmedi.
+
+K/B/Y/T/P, N dosyasındaki H/D/F ve SC dosyasındaki K/Y/T/H source-role anahtarları, note bölüm referansları ve pinned repository snapshot'ı yorumun nereden geldiğini taşır. Upstream kod/testlerin eski araştırmada okunması veya dosyaya kaynak kimliği yazılması bu Concepts turunda yeniden çalıştırıldıkları/okundukları anlamına gelmez. U11-A'daki E08 raw verisinin read-only recovery/schema kontrolü yeni native Workflow/model deneyi değildi; U11-B'de yeni deney veya eski E08/E07 yeniden koşusu yoktur.
