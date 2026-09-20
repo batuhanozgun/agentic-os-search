@@ -33,6 +33,7 @@ Global güncel iş STATE'den alınır. Bir dosyanın veya yöntem sürümünün 
 | ai-knowledge-strategies | [READING.md](studies/ai-knowledge-strategies/READING.md) | [TERMS.md](studies/ai-knowledge-strategies/TERMS.md) |
 | multi-agent-patterns | [READING.md](studies/multi-agent-patterns/READING.md) | [TERMS.md](studies/multi-agent-patterns/TERMS.md) |
 | anthropic-ai-native-sdlc-playbook | [READING.md](studies/anthropic-ai-native-sdlc-playbook/READING.md) | [TERMS.md](studies/anthropic-ai-native-sdlc-playbook/TERMS.md) |
+| gstack | [READING.md](studies/gstack/READING.md) | [TERMS.md](studies/gstack/TERMS.md) |
 
 Bu tablo yalnız gerçekten oluşturulmuş kayıtları gösterir; paketin tamamlandığı anlamına gelmez. Kalıcı kayıtları henüz oluşturulmamış paketlerin sırası SCOPE'dadır. Kapanış veya kısmi durum ilgili READING'den alınır.
 
