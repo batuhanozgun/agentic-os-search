@@ -1,267 +1,87 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-20, **B6-T17-C5**. Bu dosya araştırma bazlı terim/jargon çıkarımının global amaç, yetki, güncel iş ve devam kaynağıdır. Kaynak araştırmaların STATE dosyaları veya yerel READING/kullanım kayıtlarının yerine geçmez.
+2026-09-20 · **B6-T17-C5a tamamlandı; sıradaki iş B6-T17-C5b / ECC U11-A**.
 
-## 1. Güncel durum
+Bu dosya global current-purpose/authorization/next-work yüzeyidir. Ayrıntılı ECC okuma durumu [yerel READING](studies/ecc/READING.md), kullanım kayıtları [TERMS](studies/ecc/TERMS.md) içindedir. Source-study STATE'leri Concepts next-work authority değildir.
 
-**PILOTS-AND-B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / CMH-DURABLE-COMPLETE / SUPERPOWERS-DURABLE-COMPLETE / AI-KNOWLEDGE-STRATEGIES-DURABLE-COMPLETE / MULTI-AGENT-PATTERNS-DURABLE-COMPLETE / ANTHROPIC-AI-NATIVE-SDLC-DURABLE-COMPLETE / GSTACK-DURABLE-COMPLETE / HERMES-DURABLE-COMPLETE / ECC-C1-C2-C3-C4-DURABLE-COMPLETE / ECC-PARTIAL / METHOD-v0.3-WORKING / POST-S1-ADDITIONS-PENDING-ACCOUNT.**
+## 1. Amaç ve güncel aşama
 
-Hermes concepts aktarımı beş durable parçayla tamamlandı:
-- H1 — U01/U02 + early evidence;
-- H2 — U03–U06 persistent work / continuation;
-- H3 — U07–U10 scheduled work / cron;
-- H4 — U11–U15 runtime/tools/delegation/install/skill-library;
-- H5 — package-wide raw-role reconciliation + cross-TERMS + final source delta/closure.
+**PILOTS/B2/B4-COMPLETE / B5-SCOPE-S1-DELIVERED / B6-SERIAL-EXTRACTION-ACTIVE / ECC-C1–C4-DURABLE-COMPLETE / ECC-C5a-U10-DURABLE-COMPLETE / ECC-C5-PARTIAL / ECC-PACKAGE-PARTIAL / METHOD-v0.3-WORKING / B7-B8-NOT-STARTED.**
 
-Hermes current package:
-- root/control 10/10 FULL;
-- notes 30/30 FULL;
-- provisional syntheses 4/4 FULL;
-- inventory 10/10 FULL;
-- evidence 314/314 accounted;
-- direct-read evidence 204/314;
-- support/lineage role-accounted 110/314;
-- RESULT-family JSON 19/19 direct-read;
-- linked contextual term IDs 472;
-- package-level IDs 16;
-- total addressable contextual records **488**;
-- duplicate term ID 0; linked prefix sequences gap-free;
-- B6-T15 source delta under `research/studies/hermes-agent/**`: **0**.
+İlk aşama research/studies araştırmalarını kendi bağlamlarında tam okuyup kullanım/ilişkilerini çıkarmaktır. Bütün ilgili çıkarımlar ve kapsam/delta hesabı bitmeden ortak terim değerlendirmesine geçilmez. Bu iş genel sözlük araştırması, source-study'nin yeni teknik deneyleri, Foundation doğrusu veya SOUL/Development OS mimari kararı değildir.
 
-**Hermes concepts package: DURABLE-COMPLETE / PACKAGE-COMPLETE.**
+Yeni oturum girişi değişmedi: AGENT ve tetiklenen protokoller → [INDEX](INDEX.md)'in STATE/CHARTER/ORIGIN/METHOD/PLAN/SETUP-REVIEW/SCOPE tam okuma yolu → etkin paketin READING/TERMS → gereken kaynak derinliği. Aynı konuşmada tam ve değişmemiş kaynaklar mekanik tekrar edilmez. Eski reset/pilot hazırlık kayıtları current-next sayılmaz.
 
-Bu, Hermes source-study'nin bittiği anlamına gelmez. Source-study current STATE/META:
-- **ACTIVE PARTIAL RESEARCH**;
-- U15 / plan v0.28;
-- Q60 evaluation/task-quality **NOT RESEARCHED**;
-- final native CORE / product validation / adoption yok.
+## 2. Program ve paketlerin durumu
 
 | İş | Güncel durum |
 |---|---|
-| B6 — CMH | Durable-complete. |
-| B6 — Superpowers | Durable-complete. |
-| B6 — AI Knowledge Strategies | Durable-complete. |
-| B6 — Multi-Agent Patterns | Durable-complete. |
-| B6 — Anthropic AI-Native SDLC | Durable-complete. |
-| B6 — gstack | Durable-complete. |
-| B6 — Hermes Agent concepts | **Durable-complete / package-complete.** |
-| Hermes source-study | **ACTIVE PARTIAL; Q60 NOT RESEARCHED.** |
-| B6 — ECC C1 | **Durable-complete.** |
-| B6 — ECC C2 | **Durable-complete.** |
-| B6 — ECC C3 | **Durable-complete.** |
-| B6 — ECC C4 | **Durable-complete.** |
-| B6 — ECC concepts | **ACTIVE / PARTIAL; C5–C6 open.** |
-| S1 sonrası additions | agentmemory, claude-swap, cli-continues, ponytail final scope/B7 öncesi account edilecek. |
-| B7/B8 | Not started. |
+| CMH, Superpowers, AI Knowledge Strategies | Concepts durable-complete; korunur |
+| Multi-Agent Patterns, Anthropic AI-Native SDLC, gstack | Concepts durable-complete; korunur |
+| Hermes Agent Concepts | H1–H5 durable-complete / package-complete; korunur |
+| Hermes source-study | ACTIVE PARTIAL; Q60 NOT RESEARCHED; Concepts bunu araştırmaz |
+| ECC Concepts C1–C4 | U01–U09 durable-complete; korunur |
+| ECC Concepts C5a | U10-A/U10-B bağlamlı aktarım tamamlandı ve main'e yazıldı |
+| ECC Concepts C5b | U11-A–U11-E sırada; ilk exact next U11-A |
+| ECC Concepts C5c | U12-A/B1/B2/C bekliyor |
+| ECC Concepts C6 | Package-wide reconciliation/final closure bekliyor |
+| ECC source-study | ACTIVE/PARTIAL; U12-C / plan 0.29'a kadar yayımlanmış; U13-A/Q07d1 NOT STARTED |
+| S1 sonrası additions | agentmemory, claude-swap, cli-continues, ponytail B7 öncesi scope hesabına alınacak |
+| B7/B8 | Başlamadı |
 
-Bu package sayısı progress percentage değildir; post-S1 additions current scope totaline henüz reconcil edilmiş değildir.
+C5a/b/c, mevcut C5'in kaynak-ailelerine göre yürütme dilimleridir. Yeni phase, kaynak dışlama veya sabit tur sayısı kararı değildir. Paket sayıları ilerleme yüzdesi sayılmaz; post-S1 kapsam hâlâ reconcile edilmemiştir.
 
-## 2. Etkin giriş ve sıradaki yetkili iş
+## 3. Bu turun gerçek sonucu — C5a / U10
 
-**Current work B6-T17-C5: ECC U10–U12.**
+Giriş main: **753a4c6696740664d359a293ee8d300a45ade6d8**. ECC source package tree: **b6df4013a0f8275da82d6f27a2cd354201c5c70b**. Araştırma upstream pin'i **affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a** olarak korundu.
 
-ECC concepts partition:
-1. **C1 — U01–U02 surfaces / installation / ownership:** COMPLETE.
-2. **C2 — U03–U04 work / execution / memory:** COMPLETE.
-3. **C3 — U05–U06 learning / evaluation / governance:** COMPLETE.
-4. **C4 — U07–U09 material-family / Plan Canvas / Rust-session-operator-runtime:** COMPLETE.
-5. **C5 — U10–U12 evaluation / workflow-distribution / profiles / OpenCode / Python provider:** CURRENT.
-6. **C6 — package-wide reconciliation/final closure:** pending.
+Tam okunan sekiz research dosyası: Note17, U10-A source ledger, ROUND-U10-A, PUBLICATION-U10-A; Note18, U10-B source ledger, ROUND-U10-B, PUBLICATION-U10-B. Exact path/blob/read-range manifesti yerel READING'dedir. Bu okumalar upstream kod/test/SDK'nin bu tur yeniden okunması veya çalıştırılması değildir.
 
-C4 durable closure includes:
-- U07-A material-family map, source ledger, MR12 and publication receipt;
-- U08-A Plan Canvas Note12/source ledger/MR13/publication plus interrupted-publication recovery integrity records; historical E06 outcomes remain excluded;
-- U09-A/A2/A3 Notes13–15, exact source ledgers, MR14–MR16 and publication receipts;
-- U09-B Note16, source ledger, MR17 and publication receipt;
-- E07 README/PROBE-PLAN/RESULTS/runner at its bounded SQLite/Git evidence scope;
-- TERMS-REVIEW-RUNTIME-OPERATOR source-to-record transfer;
-- **ECC-R01–ECC-R176**, mechanically gap-free and duplicate-free at this checkpoint.
+İki yeni kalıcı çıktı:
+- [TERMS-EVALUATION-REGISTRY.md](studies/ecc/TERMS-EVALUATION-REGISTRY.md): **ECC-E01–E50**, 50 kullanım satırı.
+- [TERMS-OFFLINE-CAPSULES.md](studies/ecc/TERMS-OFFLINE-CAPSULES.md): **ECC-O01–O69**, 69 kullanım satırı.
 
-C4 strongest preserved distinctions include review-session vs revision identity; feedback persistence/drain vs acknowledgment/acceptance; session vs execution-attempt identity; heartbeat/process-exit/state-legality vs useful progress/accepted work/provenance; operator observation vs effectful control; path vs worktree/resource identity; same-id resume vs native-context restoration; displayed vs commanded database; advisory/message intent vs consumer admission/recipient uptake. Source-derived counter-paths remain distinct from observed incidents.
+Toplam 119 source-local adreslenebilir kullanım satırı vardır; bağımsız kavram/kanıt sayısı değildir. Kaynak notunun bölümüne ve ledger kimliğine atıf, söyleyen/ifade rolü ve açıklamanın sınırı her kayıtta korunur. Kaynak tarafından bölüm-kayıt eşlemesi iki dosyada ayrı bulunur.
 
-**C5 exact scope:**
-- U10-A/U10-B Rust evaluation registry + Node offline capsule/replay/receipt;
-- U11-A–U11-E native review, scheduling, remote intake, backlog coordination and template/workflow-distribution;
-- U12-A execution profiles;
-- U12-B OpenCode generated entry/installation/loading/tool-result boundaries;
-- U12-C Python provider selection/tool round-trips;
-- exact notes/source-ledgers/round/publication and bounded evidence;
-- C5-linked term inventory creation/refinement;
-- C5 durable checkpoint.
+Önemli anlam sınırları:
+- Rust registry'nin conditional pointer update/transaction kontrolü, önceki session-state writer'ına eşitlenmedi.
+- Promotion/rollback burada registry seçimi/geri alma olabilir; runtime rollout ve gerçek yarar ayrı sorulardır.
+- Distinct seed labels bağımsız deneme, saved criteria preregistration değildir.
+- Health snapshot ile callback aynı assertion'a dayanabilir; integrity/correspondence bağımsız sağlık ölçümü değildir.
+- Capsule bütünlüğü, tarihin eksiksizliği veya kayıtlı görevin başarısı değildir.
+- Replay yanıtı korur; önceki environment/effect'i kendiliğinden geri kurmaz.
+- Receipt generic ok sonucu artifact/signature/gate kontrollerinin hangilerinin gerçekten istendiğiyle sınırlıdır.
+- Disabled candidate gate, trusted record-mode tool implementation'ının çalışmadığı anlamına gelmez.
 
-C5 bu C4 turunda **başlatılmadı**; yeni current/next olarak kaydedildi.
+**Somut extractor düzeltmesi:** İlk O03 capsule/journal'ı birleştirdi. Source-side/readback kontrolü sonrasında O03 yalnız capsule, O69 journal olarak ayrıldı. İlk sürüm, gerekçe ve O22/O26/O27/O41/O42 etki kontrolü Node TERMS §8'de kayıtlıdır. Önceki C4 source/use kayıtları veya araştırma bulguları bu nedenle yeniden yazılmadı. R10/R11 için ayrıntılı capsule/static-inspection karşılığı O serisine bağlandı; ortak tanım ilan edilmedi.
 
-ECC source-study kendi açısından **ACTIVE / PARTIAL**, completed through U12-C / plan 0.29; U13-A/Q07d1 NOT STARTED. Concepts work U13-A research'ünü başlatmaz.
+## 4. Exact next — C5b / önce U11-A
 
-Hermes durable-complete kalır. B7/B8 shared terminology başlamaz.
+İlk dosya: **research/studies/ecc/notes/19-NATIVE-REVIEW-CALLER-AND-DECISION-BOUNDARIES.md**.
 
-## 3. Amaç, derinlik ve iki risk
+Ardından U11-A-SOURCES, ROUND-U11-A, PUBLICATION-U11-A ve ilişkili E08 evidence kaydı gerçek source-study kapsamıyla devralınır. E08'in adapted-run statüsü native Workflow/model çalıştırmasıyla karıştırılmaz. Bu tur Note19/E08 içeriği okunmuş veya Concepts'e aktarılmış sayılmaz.
 
-İlk aşama research/studies araştırmalarını tam okuyarak her birinin kendi bağlamında kullanım ve ilişkilerini çıkarmaktır. İkinci aşama bütün çıkarımları tam okuyup ortak referansı değerlendirmektir. İlk pilotun/CMH'nin şeması, hazır sözlük veya kullanıcının açıklayıcı örnekleri sonraki paketlere başlangıç ontolojisi yapılmaz. Kaynakta tanım bulunması veya concepts'e yazılması ortak kabul değildir.
+U11-B scheduling, U11-C remote intake, U11-D backlog coordination, U11-E template/launch composition aynı C5b hattında sonraki işlerdir. U12 profiles/OpenCode/Python C5c'dir. Kaynak/sürüm değişiklikleri girişte kontrol edilir; yalnız özet veya önceki verdict yeni kaynak okumasının yerine geçmez. U10-A/B sırf yeni tur diye tekrar yapılmaz.
 
-Her concepts turunda iki neden kısa ve görünür tutulur: kullanıcı okuma anındaki anlam seçimlerini denetleyemiyor; önemli yorum/dayanak/belirsizlik/değişiklik izlenebilir olmalı. Ortak sözcükler aynı anlamı garanti etmiyor; kullanıcı onayı, kaynak kullanımı ve assistant yorumu teknik doğruluk yerine geçmemeli. Kullanıcı teknik uzman oracle değildir; ham düşünce değil, denetlenebilir sonuç ve kısa gerekçe gerekir.
+C5 tamamlandıktan sonra C6; kalan root history/inventory/evidence hesapları, bütün ECC TERMS, kaynak değişimleri ve nihai package coverage kontrolünü yapar. ECC'den sonraki paket work-management-project-control'dür; SCOPE sırası korunur. B7 tamamlanmadan B8 ortak referans başlamaz.
 
-Kaynağın genel tanım vermediği kullanımı açık bırakmak geçerli çıktıdır; okunmamış dosya veya atlanmış açıklama gerçek eksiktir. Yalnız genel bilgiyi artıracak ve mevcut aktarımı değiştirmeyecek okuma eklenmez. Açık kaynak soruları kendiliğinden yeni deney/literatür borcu olmaz. Talimat, kod anlatımı, geçmiş yerel deney, dış yazar raporu, sentez ve yeni yorum ayrılır; tekrar bağımsız destek değildir.
+## 5. İki risk ve yetki sınırı
 
-P2'nin önceki gruplarındaki özgün satırlar kalıcı aktarım sırasında erişilebilir olduğu ölçüde kullanıldı; B6-T10'da tarihsel SP150–SP160 satır metni güvenilir biçimde recover edilemedi. METHOD §8 uygulanarak sabit kaynaktan U08-R regeneration yapıldı; STATE/summary'den birebir SP anlamı uydurulmadı. Tam ve değişmemiş gerçek içerik sırf yeni tur diye mekanik tekrarlanmaz; eksik zorunlu kontrol veya kaynak canonical yoldan geri kazanılır.
+Batu okuma anındaki anlam seçimlerini denetleyemiyor; bu nedenle önemli yorum, dayanak, belirsizlik ve değişiklik denetlenebilir kayıtta görünür olmalıdır. Aynı sözcük ortak anlamı garanti etmez: kaynak kullanımı, eski araştırmacı yorumu, extractor yorumu ve kullanıcı onayı ayrı tutulur; kullanıcı teknik uzman oracle değildir. Bu turdaki somut karşılık capsule/journal düzeltmesi ve aynı promotion/verification sözcüklerinin ayrı mekanizma kapsamlarıdır.
 
-## 4. B6-T15-H1–H5 gerçek çalışma — Hermes concepts package closure
+Kaynakta açıklanmayan etiket genel bilgiyle doldurulmaz; kaynakta açık ayrımın atlanması da belirsizlik bahanesiyle kapatılmaz. C5a'nın Q06d1b/Q06d2b gibi daha güçlü doğrulama soruları araştırılmış sayılmaz ve otomatik yeni Concepts deney borcu değildir. E04/E07 ve iki E05 geçmişi korunur, E06 NOT VERIFIED/EXCLUDED kalır. Yeni fixture, upstream test, model/provider, installation, DB/runtime, release veya upstream mutation yapılmadı.
 
-B6-T15 başlangıç main'i **7ed94d8368526626b4bd0bc8928ba6c37e9db5ed** idi. Source-study pinned upstream `NousResearch/hermes-agent@c4a5deeffa959f8ebc891e02c5bcf767aff1dd2a`, manifest 0.21.0.
+Yazma kapsamı yalnız ilgili Concepts kullanım/READING/TERMS/global STATE dosyalarıdır. Agent-control, Foundation, studies source packages, CATALOG, diğer Concepts paketleri, explorations ve publications bu işin mutation scope'u değildir.
 
-Package recursive inventory: **368 file**:
-- root 10;
-- notes 30;
-- synthesis 4;
-- inventory 10;
-- evidence 314.
+## 6. Korunmuş devam geçmişi ve yayın kanıtı
 
-Evidence tree:
-- 157 Markdown;
-- 62 JSON;
-- 48 Python;
-- 26 text/log;
-- 10 extensionless;
-- 7 tar.xz;
-- 1 sha256;
-- 1 stderr;
-- 1 stdout;
-- 1 archived.
+Önceki uzun Hermes H1–H5/C4 kapanış anlatıları ve bütün commit listeleri [753a4c6 checkpoint'indeki önceki STATE'in tam içeriğinde](https://github.com/batuhanozgun/agentic-os-search/blob/753a4c6696740664d359a293ee8d300a45ade6d8/concepts/STATE.md) korunur (blob 0a9d147c5c8a206964ea99e5e199d76e211b0a98). Güncel dosyada yalnız current authority ve gerektiğinde geri dönüş yolu tutulur; tarihsel içeriğin artık current-next olmadığı açıktır. Eski package-local kullanım kayıtları yerinde kalır. ECC C1–C4 ayrıntılı READING kaydının değişmez bağlantısı yeni yerel READING'dedir; C6 bunu tam recover eder.
 
-Evidence tree **287 unique blob**, 9 duplicate-blob group ve 36 duplicate-path occurrence içerir. Byte-equal repeats independent semantic support sayılmadı.
+Gerçek bu-tur checkpoints:
+- Rust TERMS: **153114995173de76a95772ed259eb982336bdbc4**.
+- Node TERMS ilk yayın: **4f002b274c7542c1861c392282e8fbc90195f464**.
+- Capsule/journal düzeltmesi: **3e4005d047b592eea06ed110681b51ccc8cce773**.
+- Yerel READING: **be6f1bb3bf4d4719057c7460a96ee15a77f249e6**.
+- TERMS router: **4207f22ea393af9d620f79d95fbe00c90f507d70**.
 
-Final evidence accounting:
-- **204/314 direct-read** semantic/provenance/result path;
-- **110/314 role/lineage-accounted** support path;
-- **19/19 RESULT-family JSON direct-read**;
-- remaining support paths probe/harness/verification code, source copies/selections, logs, archives, licenses/notices, manifests/access/transfer/identity/package-check/input ve stale publication drafts olarak sınıflandırıldı;
-- binary archives text-read diye gösterilmedi;
-- publication/integrity evidence product behavior evidence'a yükseltilmedi.
-
-H1 refinements:
-- HA-L72–HA-L85 memory/prompt/approval visibility;
-- HA-R101–HA-R120 worker/slash-policy/middleware/admission.
-
-H2 refinements:
-- HA-W96–HA-W110 run/handoff/outcome/receipt/reactivation;
-- HA-T48–HA-T64 routing/session/lease/history/recovery.
-
-H3 refinements:
-- HA-W111–HA-W128 occurrence/admission/context continuity.
-
-H4 source-to-TERMS check concrete omission bulmadı; existing U11–U15 records yeterliydi. Yeni ID sırf tur gereği üretilmedi.
-
-H5 package-wide TERMS check:
-- HA-T01–HA-T64 = 64;
-- HA-W01–HA-W128 = 128;
-- HA-L01–HA-L85 = 85;
-- HA-R01–HA-R120 = 120;
-- HA-I01–HA-I75 = 75;
-- linked total 472;
-- HA-P01–HA-P16 = 16;
-- grand total **488**;
-- duplicate ID 0; all linked numeric sequences complete.
-
-Source-delta compare, B6-T15 başlangıcından H5 current main'e kadar `research/studies/hermes-agent/**` altında **0 değişiklik** gösterdi. Current evidence/notes/synthesis/inventory tree SHAs READING H5'te kayıtlıdır.
-
-Source-study boundary preserved:
-- ACTIVE PARTIAL;
-- Q60 NOT RESEARCHED;
-- open Q/residual'lar concepts tarafından çözülmedi;
-- current upstream/product truth veya task-quality efficacy çıkarılmadı.
-
-Bu nedenle Hermes concepts closure, **current repository source package'inin source-bounded contextual terminology transfer closure'ıdır**; Hermes research/program/product closure değildir.
-
-## 4A. B6-T16-C4 gerçek çalışma — ECC U07–U09 durable checkpoint
-
-B6-T16-C4, ECC'nin current pinned research package'inden U07–U09 kullanımını Concepts katmanına kalıcılaştırdı.
-
-Okunan/hesabı verilen exact families:
-- U07-A material-family map / breadth disposition;
-- U08-A Plan Canvas producer→queue→consumer/continuation chain ve recovery integrity records;
-- U09-A first lifecycle slice;
-- U09-A2 store/observer/worktree continuation + E07;
-- U09-A3 execution-attempt ownership/revocation;
-- U09-B Node operator bridge/target binding.
-
-Kalıcı yeni file:
-- concepts/studies/ecc/TERMS-REVIEW-RUNTIME-OPERATOR.md
-- term IDs: **ECC-R01–ECC-R176**
-- mechanical sequence check: 176 unique; R01–R176 complete; duplicate 0.
-
-C4 evidence discipline:
-- U07 tree/listing metadata full body semantics sayılmadı;
-- Plan Canvas historical E06 resultleri **NOT VERIFIED / EXCLUDED** kaldı; recovery objects yalnız provenance/integrity yüzeyi;
-- E07 bir source-derived SQLite/Git fixture; Rust/ECC/Tokio/live-host integration sayılmadı;
-- U09 conditional schedules observed production incidents diye yükseltilmedi;
-- same-assistant publication/readback independent verification sayılmadı;
-- Tokio dependency source version-bound contract olarak kullanıldı, installed binary conformance sayılmadı.
-
-C4 material interpretation change değil, ayrım keskinleşmesi üretti: “operator” source-local olarak yalnız passive UI değildir; Rust TUI selected paths'te activation/enforcement çağırır. Ayrıca session-state legality ile execution-attempt provenance'ın ayrı sorular olduğu U09-A3 ile açık hale geldi. Bu ayrımlar önceki C1–C3 kayıtlarının anlamını geriye dönük değiştirmedi.
-
-C4 publication checkpoints:
-- C4 linked TERMS creation: **f51fb905e96d42df7ad8c4ffb34e801d9e4707cb**
-- C4 local READING closure: **c708cf9ec560ea80d5d3a79f419a9a2c0146e89d**
-- ECC TERMS router update: **8014118a614406a487f242bc0302dc1d0625f7e8**
-
-Bu checkpoint C5'i yürütmedi. ECC source-study U13-A research'ünü de başlatmadı. C5 ve C6 Concepts'te; source-study ise kendi STATE'ine göre ACTIVE/PARTIAL kalır.
-
-## 5. Yetki ve yazma kapsamı
-
-B6-T15-H1–H5 ve B6-T16-C4 yalnız concepts-layer extraction/closure'dır. Yapılmayanlar:
-- Hermes Q60 source research'i sürdürmek;
-- ECC U13-A source research'ünü başlatmak;
-- provider/DB/gateway/install/update/model/product experiment çalıştırmak;
-- `research/studies/hermes-agent/**` değiştirmek;
-- Foundation/SOUL/Development OS mutation/adoption yapmak;
-- pinned source'u current upstream truth saymak;
-- B7/B8 cross-study vocabulary synthesis'e başlamak.
-
-Concepts tarafında kalıcı Hermes files:
-- READING;
-- TERMS main;
-- TURN-SESSION-CONTEXT;
-- WORK-CONTINUATION-SCHEDULING;
-- LEARNING-SKILLS-MEMORY;
-- RUNTIME-TOOLS-DELEGATION;
-- INSTALL-LIBRARY;
-- INDEX router;
-- global STATE.
-
-Önceki durable packages, METHOD/PLAN/SCOPE/CHARTER/ORIGIN/SETUP-REVIEW ve agent-control değişmedi.
-
-## 6. Değişen korpus ve değişmez devam kayıtları
-
-Known post-S1 additions remain pending: agentmemory, claude-swap, cli-continues, ponytail.
-
-Hermes önemli concepts checkpoints:
-- initial READING: **20c3b14dca266c86d4f1ffae96434ccf0f79dff4**
-- initial TERMS: **00f84b41b5529f9c32d694fe52106b025ce07058**
-- H1 memory refinement: **f3b01688bbd547b21975981cd0af6bc879113096**
-- H1 runtime refinement: **2b75750d15c6d5c712b896d451d32b35b0a860de**
-- H2 work refinement: **6a2e911ab496ee98b6dfc18377b604c612a837b5**
-- H2 turn/recovery refinement: **7e4c55708291431459beba0fc2674826c80528a3**
-- H3 scheduling refinement: **71f375cc940c1c81c14ca7934acca21ac3d87c4e**
-- H4 READING closure: **813877c02dacaef05a64082127b899930fccc69d**
-- H4 TERMS checkpoint: **a1aec4cf36e09e7fff162065a5b622083cd52924**
-- linked TERMS final statuses: **acf113e07c39d25820224d655747c4cf0ac4fe19**, **40cd406a30e504f301d4485369ea7ffa8eb6f988**, **2638b17a1978864fa14270c7d15cfb0abec1d2a8**, **13caac9bdff58c3d6eaa73b6b3543eaeadd4c63f**, **a0e2f7058de5725b88cbd1a4e589a887d1909f6b**
-- H5 READING final closure: **d83e9cf08901da25f7a6a32c5d7c8a55c4aa9d26**
-- H5 TERMS final closure: **07f1f1fa9a7b86a3a3a5f665b953dac5e8518a7c**
-
-Bu STATE kendi commit kimliğini önceden uydurmaz. Source package H1–H5 boyunca untouched kaldı.
-
-Previous gstack and earlier package closures remain immutable continuation records. Old Hermes research publication files remain chronology/evidence, not current concepts authority.
-
-## 7. Yayın kontrolü ve yeni oturum
-
-Bu STATE yazımından sonra actual main/ref/readback ve diff kontrolü ECC C4 checkpoint'ini doğrulamalıdır. ECC READING ve TERMS package-local durable authority'dir.
-
-Yeni oturum cold-start:
-AGENT + triggered protocols → concepts/INDEX required files → this STATE → **ECC package preflight**.
-
-Hermes'i veya ECC C4'ü yeniden current work yapma. Hermes source-study'nin Q60 ve ECC source-study'nin U13-A next-work metinleri concepts next-work değildir.
-
-Exact next Concepts work: **B6-T17-C5 / ECC U10–U12**.
-
-B7/B8 başlamadı. İki concepts riski devam eder: interpretation decisions traceable kalmalı; shared words farklı studies arasında otomatik aynı anlama getirilmemeli.
-
+Yeni TERMS metinleri tam source aralıklarıyla geri okundu; Node düzeltmesinin gerçek diff'i ayrıca incelendi. Otomatik bütün-repository ID/link testi veya bağımsız aktör doğrulaması iddiası yoktur. Raw yardımcı indirme başarısızlığı source okuma/yazmayı durdurmadı; GitHub connector çalıştı. Son main/ref/diff ve güncel dosya readback kontrolü bu STATE yayınından sonra yapılır; bu dosya kendi gelecekteki hash'ini veya henüz yapılmamış kontrolü uydurmaz. Kaynak-kayıt/readback kontrolü bilimsel veya ürün düzeyi bağımsız doğrulama değildir.
