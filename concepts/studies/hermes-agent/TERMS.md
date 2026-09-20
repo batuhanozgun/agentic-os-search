@@ -1,6 +1,6 @@
 # Hermes Agent — Bağlamlı kullanım kayıtları
 
-2026-09-20, **B6-T15-H4 / H1-H2-H3-H4-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T15-H5 / KALICI-AKTARIM-TAMAM / PACKAGE-COMPLETE**.
 
 Bu dosya research/studies/hermes-agent/ araştırmasının concepts girişidir. Hermes source-study **ACTIVE PARTIAL** durumundadır ve 368 dosyalık büyük bir package'dir. Concepts extraction da bu nedenle çok turludur. Mevcut kayıtlar final package closure veya ortak sözlük değildir.
 
@@ -140,19 +140,34 @@ B6-T15 current durable checkpoint:
 - provisional syntheses 4/4 FULL;
 - inventory 10/10 FULL;
 - evidence tree 314 paths accounted;
-- direct full-read evidence text: **204/314 paths** at the H4 checkpoint;
-- **H1 U01/U02, H2 U03–U06, H3 U07–U10 and H4 U11–U15 families are durable-complete**; remaining **110 paths** are handled in H5 by role/lineage rather than treated as independent semantic sources.
+- direct full-read evidence text: **204/314 paths**; remaining **110/314** support/lineage role-accounted;
+- **H1–H4 family extraction durable-complete; H5 role/lineage reconciliation complete; evidence 314/314 accounted.**
 
 Bu sayılar semantic concept count değildir.
 
-## 8. Explicit open boundary
+## 8. Final source boundary
 
-Hermes package **PACKAGE-COMPLETE değildir**. H1–H4 complete; yalnız H5 final closure açıktır.
+Hermes concepts package **PACKAGE-COMPLETE**.
 
-Özellikle:
-- Q60 evaluation/future-task quality not researched;
-- source-study'nin Q55/Q56, DB/transport/quality/fidelity residual'ları açık;
-- H5 package-wide role reconciliation, cross-TERMS coverage ve final delta/closure tamamlanmalı;
-- H5 package-wide raw/RESULT/MANIFEST/source-copy/duplicate/archive role reconciliation ve cross-TERMS check tamamlanmalı.
+H5 package-wide closure:
+- 314/314 evidence path accounted;
+- 204 direct-read semantic/provenance/result paths;
+- 110 support/lineage role-accounted paths;
+- 19/19 RESULT-family JSON direct-read;
+- five linked term files = 472 contextual IDs; duplicate/gap yok;
+- HA-P01–HA-P16 ile toplam addressable contextual record = **488**;
+- current Hermes source tree B6-T15 boyunca değişmedi;
+- concrete transfer omission kalmadı.
 
-Sonraki study'ye bu package kapanmadan geçilmez.
+Source-study'nin kendisi ise **ACTIVE PARTIAL**:
+- Q60 evaluation/future-task quality **NOT RESEARCHED**;
+- Q55/Q56 ile DB/transport/quality/fidelity residual'ları açık;
+- final Hermes native CORE/adoption/product reliability verdict'i yok.
+
+Bu nedenle:
+- skill reuse/task efficacy hakkında yeni sonuç üretilmez;
+- açık research questions concepts tarafından kapanmış sayılmaz;
+- pinned source current upstream/product truth'a yükseltilmez;
+- future Hermes source delta yeni concepts delta gerektirir.
+
+Normal serial extraction next: **ECC**. B7/B8 shared terminology synthesis hâlâ başlamaz.
