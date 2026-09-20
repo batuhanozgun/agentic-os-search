@@ -171,3 +171,27 @@ Hermes scheduled-work research şu zinciri ayrı tutar:
 | HA-W108 — manager-state migration | Session rotation/continuation sırasında parent key'den child/new-session key'e goal/loop/heartbeat state taşıma attempt'i. | Helper success boolean = child record durably present guarantee değil. |
 | HA-W109 — migration acknowledgement gap | Migration helper'ın success döndürmesi ile child record'un durable readback'inin ayrılabilmesi. | U04 heartbeat H09 bounded fault; all managers/product failure hükmü değil. |
 | HA-W110 — claim heartbeat vs session heartbeat | Kanban claim ownership refresh ile recurring session heartbeat prompt'unun farklı object/effect families olması. | Ortak “heartbeat” kelimesi aynı mechanism anlamına gelmez. |
+
+
+## 10. H3 scheduled-work / cron refinements
+
+| ID / ifade | Hermes araştırmasındaki kullanım | Sınır |
+|---|---|---|
+| HA-W111 — provisioned occurrence identity | External scheduler'a job_id + fire_at ile kaydedilen planned occurrence identity. | Persistent job veya later execution ID değil. |
+| HA-W112 — inbound admission key | Gateway/provider claim path'inde actual acceptance decision'a taşınan identity set'i. | U09 pinned path'te fire_at her hopta admission predicate olarak korunmuyor. |
+| HA-W113 — occurrence identity narrowing | Outward job+time identity'nin inbound path'te job-only acceptance'a daralması. | Source-only finding; actual duplicate occurrence observed değil. |
+| HA-W114 — active claim protection | Hâlâ canlı fire_claim varken overlapping execution admission'ını engelleyen current-owner control. | Completed historical occurrence memory/idempotency ile aynı değil. |
+| HA-W115 — historical occurrence memory | Daha önceki exact scheduled occurrence'ın already-consumed olduğuna dair persistent identity/standing. | Current active claim bunu otomatik sağlamaz. |
+| HA-W116 — late callback | Prior planned occurrence'a ait callback'in original execution tamamlandıktan sonra gelmesi. | U09'da source-derived scenario; live NAS/provider run yapılmadı. |
+| HA-W117 — duplicate response label | HTTP/provider path'in claim_fire None gibi birçok ret nedenini “duplicate” etiketiyle sunabilmesi. | Exact same occurrence previously executed receipt'i değil. |
+| HA-W118 — scheduled snapshot | Admission sonrası execution body'ye taşınan current job/config/owner/execution state görünümü. | Persistent job definition'ın kendisi veya immutable occurrence object değil. |
+| HA-W119 — execution context channels | Current prompt, context_from, notepad, prefill, built-in memory, external memory ve project/SOUL context gibi fresh run'a bilgi sağlayan ayrı channels. | Previous conversation transcript replay'i değildir. |
+| HA-W120 — fresh cron conversation | Normal agent cron path'inde new agent/session ile başlayan execution conversation. | Persistent job continuity yok demek değil; continuity other channels üzerinden gelebilir. |
+| HA-W121 — script-only execution | no_agent/script branch'inde AIAgent/model turn açılmadan result üreten scheduled path. | Script'in external effect üretmediği anlamına gelmez. |
+| HA-W122 — wakeAgent gate | Script/monitor output'unun exact boolean wakeAgent:false contract'iyle model turn'ünü açmama control. | Scheduler occurrence/execution oluşmadı demek değil. |
+| HA-W123 — script working directory | no_agent/monitor/pre-run script'in subprocess cwd seçimi. | Agent workdir ile her branch'te aynı değil. |
+| HA-W124 — monitor detection-time checkpoint | Observed source hash/snapshot'ının downstream agent handling tamamlanmadan önce kaydedilebilmesi. | “Change handled successfully” receipt'i değil. |
+| HA-W125 — execution-context selection quality | Which prior output/context channel is selected and injected into fresh execution. | mtime/newest selection semantic relevance/success-aware guarantee değil. |
+| HA-W126 — operational cron success | Scheduler'ın nonfailed usable output/fallback ile success path'e ilerlemesi. | User goal semantic completion/acceptance ile aynı değil. |
+| HA-W127 — execution teardown deferral | Caller timeout/return sonrası worker Future hâlâ running ise agent/SessionDB cleanup'ın Future completion'a ertelenmesi. | Caller returned = worker/effects stopped değildir. |
+| HA-W128 — occurrence acceptance vs execution completion | Callback/admission 2xx/claim success ile execution, output, delivery ve user-visible outcome'un ayrı lifecycle stages olması. | HTTP accepted = scheduled work complete değil. |
