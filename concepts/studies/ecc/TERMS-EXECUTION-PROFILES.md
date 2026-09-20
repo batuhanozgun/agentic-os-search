@@ -61,7 +61,7 @@ Göreli bağlantılar current dosyayı açar; exact içerik yukarıdaki snapshot
 | ECC-EP26 — workspace-write recipe | Pinned Codex builder'ın sabit sandbox seçimi. Tarihli host dokümanındaki read-only seçimiyle aynı değildir; EP25'in yanında bulunması canlı yazma eylemi gözlemi sayılmaz. | N24 §2–3; LA native semantics / K/H/Y |
 | ECC-EP27 — native add-dir | Tarihli Codex sözleşmesinde ana workspace yanında writable directories'i genişleten seçenek. Sadece context metadatası veya ek bağlam cümlesi olarak okunmaz. | N24 §3; LA W-U12A-CODEX / H/K/Y |
 | ECC-EP28 — Additional context dirs text | Fallback renderer'ın dizinleri doğal dil içinde taşıması. Aynı path'in native erişim seçeneği olarak verilmesiyle aynı işlem veya yetki etkisi değildir. | N24 §3; LA native translation/semantics / K/Y |
-| ECC-EP29 — host-native permission surfaces | Araştırmanın tarihli OpenCode permission configuration ve Gemini approval-mode/policy atıfları. Ayrı host'ların ayrı kontrol yüzeyleridir; ECC adapter'ında aktarılmamaları host'ta güvenlik mekanizması yokluğu değildir. | N24 §3; LA W-U12A-OPENCODE/GEMINI / H/Y |
+| ECC-EP29 — OpenCode permission configuration | Araştırmanın tarihli OpenCode native permission configuration atfı; allow/ask/deny anlamlarıyla ayrı host kontrol yüzeyi. ECC adapter'ındaki eksik aktarım bu host kontrolünün yokluğu değildir; Gemini yüzeyi EP84'tedir. | N24 §3; LA W-U12A-OPENCODE / H/Y |
 
 ## 5. Configured runner ve eşleme sözleşmesi
 
@@ -70,7 +70,7 @@ Göreli bağlantılar current dosyayı açar; exact içerik yukarıdaki snapshot
 | ECC-EP30 — harness_runners | Program seçimi ve command construction'da built-in dallardan önce bakılan configured eşleme alanı. Aynı known harness key'i olsa da configured yol seçilebilir. | N24 §4; LA configured replacement / K |
 | ECC-EP31 — configured recipe replacement | Configured entry'nin native tarifi genişletmek yerine tamamen değiştirmesi. Yalnız executable replacement veya önceki sandbox argümanlarını otomatik devralma değildir. | N24 §4; LA M/CFG / K/Y |
 | ECC-EP32 — unknown-harness extension | Configured entry sayesinde unknown harness için program/komut sağlanabilmesi. Gerçek bir extension point'tir; executable readiness veya capability negotiation değildir. | N24 §4; LA M/T / K/Y |
-| ECC-EP33 — program / base_args | Configured komutun ayrı program ve başlangıç argüman girdileri. program=codex, base_args=[exec] örneği built-in workspace-write seçeneğini kendiliğinden almaz; bu iki girdi aynı alan değildir. | N24 §4; LA configured replacement / K/Y |
+| ECC-EP33 — program | Configured runner'ın çalıştırılacak program girdisi. program=codex seçmek tek başına built-in command recipe veya onun sandbox argümanlarını devralmaz; ayrı başlangıç argümanları EP83'tedir. | N24 §4; LA configured replacement / K/Y |
 | ECC-EP34 — mapping-presence support | Optional field flag ayarının mevcut olmasından support çıkarılması. Executable'ın o seçeneği desteklediğini sorgulama veya version negotiation değildir. | N24 §4; LA configured replacement / K/Y |
 | ECC-EP35 — absent-flag fallback | Native flag eşlemesi yoksa desteklenmeyen alanın task text'te korunması. Alanı doğrudan düşürmek veya native enforcement sağlamak değildir. | N24 §4; LA M/TEST / K/Y |
 | ECC-EP36 — incorrect or empty-but-present flag | Flag mevcut sayıldığı için text fallback'i bastırıp geçersiz veya farklı yorumlanmış argv oluşturabilen girdi. Host reddedebilir; sessiz kabul veya privilege escalation varsayılmaz. | N24 §4; LA configured replacement / Y/K, koşullu |
@@ -143,9 +143,9 @@ Göreli bağlantılar current dosyayı açar; exact içerik yukarıdaki snapshot
 
 ## 10. Kaynak tarafından kapsam kontrolü
 
-N24 §1 → EP01–EP12; §2 → EP13–EP20/EP43–EP44; §3 → EP21–EP29; §4 → EP30–EP42; §5 → EP43–EP59; §6 → EP60–EP65; §7 → EP66–EP77; §8 → EP78–EP82 ve aşağıdaki ilişki/açık sınırlar. LA'nın table/producer-consumer/dış sözleşme/test/retrieval kapsamı ayrıca okundu. Özellikle command fixture'larının gerçek host çağrısı olmadığı, TUI/CLI consumer'larının gerçekten bulunduğu ve test arama eksiklerinin yokluk kanıtı olmadığı korundu.
+N24 §1 → EP01–EP12; §2 → EP13–EP20/EP43–EP44; §3 → EP21–EP29/EP84; §4 → EP30–EP42/EP83; §5 → EP43–EP59; §6 → EP60–EP65; §7 → EP66–EP77; §8 → EP78–EP82 ve aşağıdaki ilişki/açık sınırlar. LA'nın table/producer-consumer/dış sözleşme/test/retrieval kapsamı ayrıca okundu. Özellikle command fixture'larının gerçek host çağrısı olmadığı, TUI/CLI consumer'larının gerçekten bulunduğu ve test arama eksiklerinin yokluk kanıtı olmadığı korundu.
 
-Kayıtlar doğal dilde geçen her sözcüğe tanım üretmez. Print/exec/run/prompt-mode, no-color/title, directory/package-manager etiketleri ve Cursor örneği ilgili recipe/discovery/test bağlamlarında korunur; bağımsız ürün sözlüğüne çevrilmez. Marker file adları, field spelling'leri veya genel izin öncelikleri kaynakta açıklanmayan ayrıntılarla doldurulmadı. EP29'un iki host kontrolü aynı mekanizma; EP33'ün program ve base_args girdileri aynı alan ilan edilmez.
+Kayıtlar doğal dilde geçen her sözcüğe tanım üretmez. Print/exec/run/prompt-mode, no-color/title, directory/package-manager etiketleri ve Cursor örneği ilgili recipe/discovery/test bağlamlarında korunur; bağımsız ürün sözlüğüne çevrilmez. Marker file adları, field spelling'leri veya genel izin öncelikleri kaynakta açıklanmayan ayrıntılarla doldurulmadı. OpenCode ve Gemini'nin farklı kontrol yüzeyleri EP29/EP84; runner'ın program ve başlangıç argüman girdileri EP33/EP83 ile ayrı adreslenir.
 
 MA'nın yöntem seçimi, LA'nın önceki kaynak kapsamı ve PA'nın yayın karşılığı aynı iddiaya bağımsız destekler değildir. PA'da ilk catalogue adayının scope-clean oluşu o tarihsel yayın sonucudur; önceki text-emission hatalarının evrensel çözümü veya bu turun yayın başarısı diye aktarılmaz. Eski concurrent Concepts değişiklikleri bugünkü kaynak araştırma yetkisi değildir. Bu unit yeni deney içermiyor; E08/E07 veya sonraki Python E09 burada host/profile deneyi sayılmaz.
 
@@ -161,9 +161,18 @@ TL37 template capacity hesabında Stale'i sayar; EP52/EP58 bütçe pause hedefle
 
 Bu tur önceki kullanım dosyalarını yeniden yazmayı gerektiren maddi çelişki saptanmadı. Yeni kaynak, önceki selection/enforcement işaretlerini kapsamları içinde ayrıntılandırır. Koşullu malformed-list, custom-flag ve environment-label karşılıkları gözlenmiş exploit veya gerçek yetkisiz aksiyon olarak sunulmadı. Metinsel intent korunması, native mapping, extension point, normal serialization, program refusal ve gerçek bütçe caller'ları olumlu mekanizmalar olarak görünür kalır.
 
+### İlk source/readback kontrolü sonrası adresleme düzeltmesi
+
+İlk yayın **f1dc83651f57fcdaff1074cd0339717624d58fdb**, EP29'da iki ayrı host'un izin yüzeyini, EP33'te program ve base_args girdilerini aynı kullanım adresinde taşıyordu. Metin farklarını açıklıyordu; fakat ayrı adresleri yoktu. N24 §3–4 ve LA'nın dated-contract/configured-replacement bölümleriyle karşılaştırıldı: EP29 OpenCode'a, EP33 program'a daraltıldı; EP84 Gemini, EP83 base_args olarak eklendi. §10'daki ortak olumsuz yükleme dayanan sıkıştırılmış cümle de açık adreslerle değiştirildi. EP16/EP17/EP30–EP36/EP74/EP81 ve kaynak eşlemesi kontrol edildi; bu kayıtların açıklamalarını değiştirmek gerekmedi. Önceki TERMS veya source-study değiştirilmedi. Bu, extractor kayıt düzeltmesidir; yeni host bulgusu değildir.
+
+| ID / özgün ifade | Bu araştırmadaki karşılık ve sınır | Dayanak / rol |
+|---|---|---|
+| ECC-EP83 — base_args | Configured runner için başlangıç argümanları. program=codex ile [exec] verilmesi, ayrıca yazılmamış built-in sandbox seçeneğini devralmaz; program seçiminin kendisi EP33'tür. | N24 §4; LA configured replacement / K/Y |
+| ECC-EP84 — Gemini approval-mode/policy surface | Araştırmanın tarihli Gemini approval-mode ve policy-engine atıfları. Host'un kendi kontrol yüzeyidir; ECC'nin text fallback'i bu policy'nin yüklenmesi veya uygulanması değildir. OpenCode configuration EP29'da ayrı tutulur. | N24 §3; LA W-U12A-GEMINI / H/Y |
+
 ## 12. Kapanış ve açık sınır
 
-**ECC-EP01–EP82**, 82 adreslenebilir kullanım kaydıdır; bağımsız kavram, kanıt veya başarı yüzdesi değildir. U12-A'nın dört araştırma dosyasından bağlamlı aktarım yapıldı. Yayın/readback ve local/global current durum ayrı kapatılır; dosya tek başına C5c/C5/C6/ECC completion değildir.
+**ECC-EP01–EP84**, 84 adreslenebilir kullanım kaydıdır; bağımsız kavram, kanıt veya başarı yüzdesi değildir. U12-A'nın dört araştırma dosyasından bağlamlı aktarım yapıldı. Yayın/readback ve local/global current durum ayrı kapatılır; dosya tek başına C5c/C5/C6/ECC completion değildir.
 
 Q02a2'nin installed binary/API/config/flag correspondence, effective host tools/policy, arbitrary aliases/mappings, parent environment ve plugin activation, malformed/migrated state, metric freshness/overshoot/Stale/termination, actual prompt obedience ve accepted output sınırları açık kalır. Bunlar yeni Concepts deney borcu veya benimsenmiş SOUL gereksinimi değildir. Yeni build/test/fixture, host/model/provider, credential, installation, live runtime veya upstream mutation yapılmadı. E06 excluded; önceki deneyler ve iki E05 geçmişi ayrı kapsamlarıyla korunur.
 
