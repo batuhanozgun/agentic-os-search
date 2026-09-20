@@ -35,6 +35,7 @@ Global güncel iş STATE'den alınır. Bir dosyanın veya yöntem sürümünün 
 | anthropic-ai-native-sdlc-playbook | [READING.md](studies/anthropic-ai-native-sdlc-playbook/READING.md) | [TERMS.md](studies/anthropic-ai-native-sdlc-playbook/TERMS.md) |
 | gstack | [READING.md](studies/gstack/READING.md) | [TERMS.md](studies/gstack/TERMS.md) |
 | hermes-agent | [READING.md](studies/hermes-agent/READING.md) | [TERMS.md](studies/hermes-agent/TERMS.md) |
+| ecc | [READING.md](studies/ecc/READING.md) | [TERMS.md](studies/ecc/TERMS.md) |
 
 Bu tablo yalnız gerçekten oluşturulmuş kayıtları gösterir; paketin tamamlandığı anlamına gelmez. Kalıcı kayıtları henüz oluşturulmamış paketlerin sırası SCOPE'dadır. Kapanış veya kısmi durum ilgili READING'den alınır.
 
