@@ -1,6 +1,6 @@
 # ECC — Work, execution and memory terms
 
-2026-09-20, **B6-T16-E1 / DURABLE E1 TRANSFER**. [TERMS.md](TERMS.md)'nin linked parçasıdır. Bu dosya U03–U04 source package kullanımını taşır.
+2026-09-20, **B6-T16-C2 / DURABLE-COMPLETE / C2-COMPLETE**. [TERMS.md](TERMS.md)'nin linked parçasıdır. Bu dosya U03–U04 source package kullanımını taşır.
 
 ## 1. Work/session records
 
@@ -105,7 +105,23 @@
 | ECC-W77 — evidence verifier example | Example envelope'i separate host-owned catalog/digest/context against checking. | Core save/recall automatic safeguard değil. |
 | ECC-W78 — doctor | Vault structural/scan/link/duplicate health report. | Truth/task readiness certificate değil. |
 
-## 6. E1 non-collapse
+## 6. C2 closure refinements
+
+| ID / ifade | ECC araştırmasındaki kullanım | Sınır |
+|---|---|---|
+| ECC-W79 — inspection persistence side effect | Session inspection/default adapter path'in explicit --write olmasa bile fallback latest/history recording yazabilmesi. | Inspection = pure read-only demek değil; SQLite session ingestion da değil. |
+| ECC-W80 — worker input identity | baseRef + seed overlay bytes + rendered launcher/task/config birlikte actual worker input'u belirler. | Base Git ref tek başına immutable execution identity değildir. |
+| ECC-W81 — coordination-dir preservation vs content preservation | Pre-existing coordination directory kaldırılmasa bile materializePlan içindeki task/status/handoff files yeniden yazılabilir. | Directory survived = previous artifacts survived unchanged değil. |
+| ECC-W82 — rollback resource scope vs produced value | Setup rollback attempt-created worktrees/session/branches'i temizleyebilir; worker'a command gittiyse yeni useful output oluşmuş olabilir. | Created-resource cleanup = accepted/valuable work preservation değil. |
+| ECC-W83 — worker enumeration set | Collector, task/status/handoff file bulunan directories'i worker olarak discover eder. | Current plan'ın expected worker set'iyle reconciliation guarantee değil. |
+| ECC-W84 — observation-failure collapse | tmux missing/nonzero list-panes sonucu empty pane list'e dönüşebilir. | Empty pane list = definitely no session/workers değil. |
+| ECC-W85 — status timestamp vs heartbeat | Wrapper status Updated yalnız selected lifecycle transitions'ta yazılır. | Periodic liveness heartbeat değil; stale heuristic long-running worker'ı yanlış yorumlayabilir. |
+| ECC-W86 — session locator identity | Launcher slug/session/root üretimi ile collector plan/name-only lookup rules farklı adresleme yolları taşıyabilir. | Benzer session name/path = same coordination artifacts guarantee değil. |
+| ECC-W87 — user-scope two-stage opt-in | MCP user memory için server-level opt-in + per-call explicit user-scope request gerekir. | Opt-in user scope'u default recall'a eklemez veya authenticated user identity sağlamaz. |
+| ECC-W88 — memory read status projection | Structured/JSON read record status'u taşırken plain terminal read status'u göstermeyebilir. | Status core object'ta yok demek değil; view-level omission. |
+| ECC-W89 — doctor ok vs process exit | Doctor structural health result'ında ok=false mümkünken ordinary CLI success path issue-specific nonzero exit üretmeyebilir. | Process exit 0 = healthy vault değil. |
+
+## 7. C2 non-collapse
 
 - card/status/owner ≠ running worker;
 - claim ≠ exclusive lease;
