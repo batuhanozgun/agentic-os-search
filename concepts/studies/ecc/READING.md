@@ -1,6 +1,6 @@
 # ECC — Okuma ve kalıcı çıkarım durumu
 
-2026-09-20, **B6-T16-E1 / DURABLE-TRANSFER-ACTIVE / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T16-C1 / DURABLE-TRANSFER-ACTIVE / PACKAGE-PARTIAL**.
 
 Bu dosya `research/studies/ecc/` paketinin concepts programı açısından gerçek okuma/coverage hesabını taşır. ECC source-study kendi açısından **ACTIVE / PARTIAL** durumundadır; current research next U13-A/Q07d1 **NOT STARTED**. Concepts extractor bu next-work talimatını assistant authority yapmaz; current repository package'ini kaynak olarak okur.
 
@@ -30,16 +30,24 @@ Bu toplam semantic concept sayısı değildir.
 
 ## 3. ECC concepts partition plan
 
-Hermes deneyimindeki timeout riskini tekrarlamamak için ECC aktarımı dört durable checkpoint'e bölündü:
+ECC package 159 dosya olduğu için concepts aktarımı altı bounded checkpoint'e bölündü:
 
-1. **E1 — U01–U06:** surfaces/install/ownership, work/execution/memory, learning/governance.
-2. **E2 — U07–U09:** material-family map, Plan Canvas, Rust/session/operator/runtime.
-3. **E3 — U10–U12:** evaluation, workflow/distribution, profiles/OpenCode/Python providers.
-4. **E4 — package-wide reconciliation:** publications/rounds/method-history/inventory/remaining evidence roles, cross-TERMS, source delta and final closure.
+1. **C1 — U01–U02:** surfaces / installation / ownership.
+2. **C2 — U03–U04:** work / execution / memory.
+3. **C3 — U05–U06:** learning / evaluation / governance.
+4. **C4 — U07–U09:** material-family map / Plan Canvas / Rust-session-operator-runtime.
+5. **C5 — U10–U12:** evaluation / workflow-distribution / profiles / OpenCode / Python provider family.
+6. **C6 — package-wide closure:** rounds/publications/method-history/inventory/remaining evidence roles, cross-TERMS, source delta and final closure.
 
-Bu partition source-study research planı değildir; concepts extraction continuity planıdır.
+Bu partition source-study planı değildir; yalnız concepts continuity planıdır.
 
-## 4. E1 doğrudan okunan current source files
+Current progress:
+- C1–C3 main mechanism notes and source-ledgers were already full-read in the interrupted large turn.
+- Three linked term drafts exist and align with C1–C3.
+- **C1/C2/C3 henüz complete değildir**: own round/publication/history reconciliation and source-to-TERMS closure still required.
+- exact next: **C1 closure only**. C2'ye aynı turda geçilmez.
+
+## 4. C1–C3 için şu ana kadar doğrudan okunan current source files
 
 ### Package control / purpose
 - `STATE.md`
@@ -85,7 +93,7 @@ Bu partition source-study research planı değildir; concepts extraction continu
 
 E04/E05 compressed raw results were not text-read through the connector; their exact-byte/hash/role and derived observations are accounted through README/source-ledger/current note. Binary/compressed carrier ≠ unread semantic omission.
 
-## 5. E1 source roles
+## 5. C1–C3 source roles
 
 - **TARGET CLAIM / instruction contract:** architecture docs, skills, guides.
 - **SOURCE OBSERVATION:** pinned code/config/schema.
@@ -96,9 +104,9 @@ E04/E05 compressed raw results were not text-read through the connector; their e
 
 Same assistant repeated checks are not independent replication.
 
-## 6. E1 contextual term groups
+## 6. C1–C3 contextual term drafts
 
-E1 durable inventory is split into:
+Current linked inventory drafts:
 - [TERMS-SURFACES-INSTALLATION.md](TERMS-SURFACES-INSTALLATION.md)
 - [TERMS-WORK-EXECUTION-MEMORY.md](TERMS-WORK-EXECUTION-MEMORY.md)
 - [TERMS-LEARNING-GOVERNANCE.md](TERMS-LEARNING-GOVERNANCE.md)
@@ -106,7 +114,7 @@ E1 durable inventory is split into:
 
 File grouping is for readability; one file ≠ one term.
 
-## 7. E1 strongest interpretation boundaries
+## 7. Current strongest interpretation boundaries
 
 - repository/package/plugin/cache/install/runtime are distinct objects;
 - provider registration ≠ cached-content completeness ≠ hook trust/invocation ≠ task benefit;
@@ -127,7 +135,7 @@ File grouping is for readability; one file ≠ one term.
 
 ECC concepts package **PACKAGE-COMPLETE değildir**.
 
-E1 yalnız U01–U06 contextual extraction'ını kapatır. Aşağıdakiler henüz E1 kapsamında full-read/closed değildir:
+C1–C3 mekanizma/source-ledger okumaları ilerledi, fakat bu checkpoint'ler henüz closure almamıştır. Özellikle:
 - notes 12–27;
 - U07–U12 source ledgers;
 - relevant rounds/publication receipts;
@@ -138,8 +146,15 @@ E1 yalnız U01–U06 contextual extraction'ını kapatır. Aşağıdakiler henü
 
 ## 9. Devam
 
-**Sıradaki concepts work B6-T16-E2:** U07–U09.
+**Sıradaki concepts work B6-T16-C1:** yalnız U01–U02 closure.
 
-ECC source-study'nin U13-A next research işi concepts next değildir. U13-A yapılmaz.
+C1 exact scope:
+- U01/U02 ROUND ve PUBLICATION records;
+- ilgili historical/master ledger bağları gerektiği ölçüde;
+- E01 role/readback reconciliation;
+- TERMS-SURFACES-INSTALLATION source-to-record coverage check;
+- C1 durable checkpoint.
 
-E2 başlamadan current main ve this READING geri okunur. B7/B8 shared terminology başlamaz.
+Aynı turda C2'ye geçilmez.
+
+ECC source-study'nin U13-A next research işi concepts next değildir. U13-A yapılmaz. B7/B8 shared terminology başlamaz.
