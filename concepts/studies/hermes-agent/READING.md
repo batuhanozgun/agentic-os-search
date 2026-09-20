@@ -1,6 +1,6 @@
 # Hermes Agent — Okuma ve kalıcı çıkarım durumu
 
-2026-09-20, **B6-T15-H3 / H1-H2-H3-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
+2026-09-20, **B6-T15-H4 / H1-H2-H3-H4-DURABLE-COMPLETE / PACKAGE-PARTIAL**.
 
 Bu dosya `research/studies/hermes-agent/` paketinin concepts programı açısından gerçek okuma/coverage hesabını taşır. Hermes source-study kendi açısından **ACTIVE PARTIAL RESEARCH** durumundadır; concepts extractor bu research'i sürdürme yetkisi almış sayılmaz. Bu çalışma, mevcut package'i olduğu haliyle kaynak kabul eder ve kaynakta tamamlanmış/açık alanları birlikte taşır.
 
@@ -502,6 +502,90 @@ Beş parçalı plan:
 - H4 — U11–U15 runtime / tools / delegation / install / skill library — NEXT.
 - H5 — package-wide raw-role reconciliation + cross-TERMS + final delta/closure — pending.
 
+## 7G. H4 durable checkpoint — U11–U15 runtime/tools/delegation/install/skill-library
+
+**H4 yalnız U11–U15 family'lerini kapatır; Hermes package hâlâ PARTIAL.**
+
+H4 exact scope:
+- U11 `2026-09-12-runtime-backend`;
+- U12 `2026-09-13-tool-delegation`;
+- U13 `2026-09-13-delegation-reentry`;
+- U14 `2026-09-13-install-update`;
+- U15 `2026-09-13-skill-library`.
+
+Recursive H4 subtree:
+- **34 path / 34 unique blob**;
+- U11: 6;
+- U12: 6;
+- U13: 10;
+- U14: 6;
+- U15: 6.
+
+H4 closure:
+- **33/34 path direct-read**;
+- **1/34 path role-accounted binary diagnostic archive**: U13 `diagnostic-evidence.tar.xz`;
+- U13 archive MANIFEST 11 member identity, raw RESULT hash, source selections, logs/probe roles ve full-parent-fidelity limitation'ını taşır;
+- archive text-read olarak etiketlenmedi.
+
+Bu H4 turunda açık kalan üç U13 surface direct-read edildi:
+- `README.md`;
+- `MANIFEST.json`;
+- `RESULT-SUMMARY.json`.
+
+Önceki B6-T15 reads ile U11/U12/U14/U15 bütün human-authored evidence files ve U13 RESEARCH/SOURCES/SPEC/DIAGNOSTIC/CHECKS/PUBLICATION zaten direct-read durumundaydı.
+
+### H4 source-to-TERMS coverage check
+
+**Yeni term ID gerektiren somut boşluk bulunmadı.** Existing linked terms zaten source-native distinctions'i kapsıyor:
+
+`TERMS-RUNTIME-TOOLS-DELEGATION.md`
+- requested/resolved/effective runtime;
+- transport vs whole-turn backend ownership;
+- ordinary API vs native app-server path;
+- runtime snapshot/fallback/retirement;
+- tool registry/visibility/availability/proposal/validation/admission/effect/result/persistence;
+- middleware/final-argument/guardrail/dispatch-once/batch-plan;
+- child construction/role/toolset/context/session/workspace;
+- sync/detached delegation;
+- logical terminal vs physical close;
+- durable completion/queue/claim/token/ack/release/retry/drop/parent re-entry;
+- U13 ack-without-schedule, claim-local-slot residue, exception compensation, scheduling refusal ve interim empty-token distinctions.
+
+`TERMS-INSTALL-LIBRARY.md`
+- install source/HEAD/dependencies/shim/home/profile/bootstrap;
+- update admission/source transition/lock/recovery;
+- backup/data/process recovery separation;
+- markers/pending obligations;
+- loaded module graph/fleet/restart/readback;
+- banner/exit/receipt divergence;
+- bundled/local/manifest baseline/sync;
+- usage/suppression/archive/ledger/discovery/index/view/readiness skill-library states.
+
+U15 source ayrıca `TERMS-LEARNING-SKILLS-MEMORY.md` içindeki skill source/local/manifest/usage/archive/ledger/discovery/load/use/efficacy distinctions ile örtüşür. Bu cross-link yeni ortak terminology sentezi değildir; aynı Hermes package içindeki iki source-natural grouping'in overlap'ıdır.
+
+H4 strongest non-collapse:
+- requested provider/model ≠ resolved runtime ≠ constructed client ≠ actual transport/whole-turn owner;
+- same AIAgent facade ≠ same history/tool/compaction owner;
+- tool visible ≠ accepted name ≠ policy-admitted ≠ handler effect ≠ persisted result;
+- fresh child context ≠ environment isolation;
+- detached child completed ≠ completion delivered/admitted into parent turn;
+- ack requested ≠ new parent turn scheduled;
+- install source advanced ≠ dependencies materialized ≠ process reloaded ≠ fleet current;
+- update receipt/banner/exit code ≠ one atomic success state;
+- bundled source ≠ local skill ≠ manifest baseline ≠ usage/curator authority;
+- skill viewed/loaded ≠ procedure followed ≠ task improved.
+
+Global conservative direct-read evidence count is now **204/314 path**. Remaining **110 path** H5'te package-wide role reconciliation/final coverage için değerlendirilir; independent semantic evidence count değildir.
+
+**H4-DURABLE-COMPLETE** source-bounded concepts transfer statüsüdür. U11–U15 source-study residuals, current product truth, Q60 efficacy ve independent verification kapanmış sayılmaz.
+
+Beş parçalı plan:
+- H1 — COMPLETE.
+- H2 — COMPLETE.
+- H3 — COMPLETE.
+- **H4 — COMPLETE.**
+- H5 — package-wide raw-role reconciliation + cross-TERMS + final delta/closure — NEXT.
+
 ## 8. Şu ana kadar source-backed bağlam aileleri
 
 İlk durable TERMS parçaları şu current evidence coverage'e dayanabilir:
@@ -560,15 +644,15 @@ Devamda:
 
 ## 12. Devam noktası
 
-**B6-T15-H3 kapandı; Hermes package hâlâ PARTIAL.**
+**B6-T15-H4 kapandı; Hermes package hâlâ PARTIAL.**
 
-Sıradaki exact work **H4 — U11–U15 runtime / tools / delegation / install / skill library**:
-1. U11 runtime/backend;
-2. U12 tool admission/delegation;
-3. U13 delegation re-entry;
-4. U14 install/update/activation;
-5. U15 skill-library lifecycle;
-6. yalnız bu family'lerin remaining raw/result/archive role reconciliation;
-7. H4 source-to-TERMS coverage check ve durable checkpoint.
+Sıradaki exact work **H5 — Hermes package final closure**:
+1. remaining 110 evidence path'i role-based inventory ile sınıflandır;
+2. duplicate/source-copy/probe/log/archive/stale-publication records'i lineage olarak reconcile et;
+3. direct semantic source gerektiren fakat atlanmış path kalmış mı kontrol et;
+4. bütün Hermes TERMS parts'i package-wide source-to-record coverage açısından birlikte kontrol et;
+5. current research tree delta / source-study ACTIVE-PARTIAL boundary'yi doğrula;
+6. yalnız bu kontroller geçerse Hermes PACKAGE-COMPLETE concepts kararı ver;
+7. global STATE'i ECC'ye geçir.
 
-H4 sırasında package-wide final closure yapılmaz; bu H5'in işi. ECC Hermes H5 kapanmadan başlamaz.
+H5 source-study Q60 araştırmasını yapmaz, Hermes product experiment çalıştırmaz ve shared cross-study vocabulary üretmez.
