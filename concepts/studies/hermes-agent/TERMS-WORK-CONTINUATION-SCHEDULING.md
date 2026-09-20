@@ -150,3 +150,24 @@ Hermes scheduled-work research şu zinciri ayrı tutar:
 - cancellation result != physical effect receipt;
 - newest output != best prior context;
 - fresh cron agent != old conversation resumed.
+
+
+## 9. H2 persistent-work / multi-turn refinements
+
+| ID / ifade | Hermes araştırmasındaki kullanım | Sınır |
+|---|---|---|
+| HA-W96 — expected run ID | Task mutation/status read'in exact execution attempt'e bağlanmasını sağlayan expected_run_id predicate. | Task ID tek başına current execution authority değildir. |
+| HA-W97 — review handoff | Current worker run'ın review_requested terminaliyle own execution'ı kapatıp same task üzerinde successor/reviewer run'a geçiş. | Task done veya old worker'ın new run authority'si değil. |
+| HA-W98 — superseded run | Same durable task current başka run'a geçmişken prior run'ın continuation hakkını kaybetmiş standing'i. | Prior work erased/failed demek değil. |
+| HA-W99 — loop outcome | Multi-turn helper'ın completed_by_worker/review_requested/blocked/stopped gibi local return classification'ı. | Durable task/run DB state'iyle aynı receipt değil. |
+| HA-W100 — durable transition receipt | complete/block/review/claim gibi requested transition'ın task/run store'da gerçekten accepted/read-back edilmiş olması. | Callback return text veya loop outcome tek başına yeterli değil. |
+| HA-W101 — block attempt vs block acceptance | Loop'un block callback'i çağırması ile task/run store'un blocked standing'e gerçekten geçmesi. | U04 G08/G09'da local blocked outcome persistent running ile coexist etti. |
+| HA-W102 — finalize request | Judge done verdict'inden sonra worker'a kanban_complete/review/block transition'ı üretmesini isteyen continuation prompt. | Judge done = task done değildir. |
+| HA-W103 — ownership recheck gap | Ownership/status check ile next turn/effect arasında state değişebilen zaman aralığı. | U04 G10 bounded harmless-turn finding; product-wide race incidence değil. |
+| HA-W104 — WAIT-as-continue | Kanban goal-loop'ta wait verdict'inin yeni continuation turn'e dönüştürülmesi. | Session GoalManager WAIT barrier semantics'iyle aynı değil. |
+| HA-W105 — WAIT barrier | Session goal mechanism'inde pid/process/time condition çözülene kadar judge/turn tüketimini durduran persisted waiting state. | Kanban wait semantics'i değil. |
+| HA-W106 — persistent manager state | goal:/loop:/heartbeat:session records'ında saklanan definition/status/counters/timing state. | Live watcher/host reactivation guarantee değil. |
+| HA-W107 — live reactivation | Persisted manager state'in host watcher/queue/route tarafından yeniden runnable continuation opportunity'ye dönüştürülmesi. | State load veya migration alone değil. |
+| HA-W108 — manager-state migration | Session rotation/continuation sırasında parent key'den child/new-session key'e goal/loop/heartbeat state taşıma attempt'i. | Helper success boolean = child record durably present guarantee değil. |
+| HA-W109 — migration acknowledgement gap | Migration helper'ın success döndürmesi ile child record'un durable readback'inin ayrılabilmesi. | U04 heartbeat H09 bounded fault; all managers/product failure hükmü değil. |
+| HA-W110 — claim heartbeat vs session heartbeat | Kanban claim ownership refresh ile recurring session heartbeat prompt'unun farklı object/effect families olması. | Ortak “heartbeat” kelimesi aynı mechanism anlamına gelmez. |
