@@ -1,6 +1,6 @@
 # Hermes Agent — Persistent work, continuation and scheduling terms
 
-2026-09-20, **B6-T15 / PARTIAL DURABLE TRANSFER**. TERMS.md'nin bağlı parçasıdır. Kaynak: Hermes notes 17–25, synthesis/03–04 ve U07–U10 evidence.
+2026-09-20, **B6-T15-H5 / DURABLE TRANSFER COMPLETE / PACKAGE-COMPLETE**. TERMS.md'nin bağlı parçasıdır. Kaynak: Hermes notes 17–25, synthesis/03–04 ve U07–U10 evidence.
 
 ## 1. Persistent task and run identities
 
