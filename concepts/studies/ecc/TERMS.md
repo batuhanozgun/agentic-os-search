@@ -1,10 +1,10 @@
 # ECC — Bağlamlı kullanım kayıtları
 
-2026-09-20, **B6-T17-C5c / C1-C2-C3-C4-DURABLE-COMPLETE / U10-TRANSFER-COMPLETE / U11-A-B-C-D-E-TRANSFER-COMPLETE / C5b-COMPLETE / U12-A-TRANSFER-COMPLETE / C5c-PARTIAL / C5-PARTIAL / PACKAGE-PARTIAL**.
+2026-09-21, **B6-T17-C5c / C1-C2-C3-C4-DURABLE-COMPLETE / U10-TRANSFER-COMPLETE / U11-A-B-C-D-E-TRANSFER-COMPLETE / C5b-COMPLETE / U12-A-B1-TRANSFER-COMPLETE / C5c-PARTIAL / C5-PARTIAL / PACKAGE-PARTIAL**.
 
 Bu dosya `research/studies/ecc/` concepts girişidir. ECC source-study kendi açısından **ACTIVE / PARTIAL**; U12-C'ye kadar published, U13-A/Q07d1 not started. Concepts çalışması source-study research'ini sürdürmez.
 
-Gerçek okuma/coverage: [READING.md](READING.md). C1–C4 ayrıntılı geçmiş, C5a/C5b ve U12-A exact dosya/sürüm manifestleri oradan geri kazanılır.
+Gerçek okuma/coverage: [READING.md](READING.md). C1–C4 ayrıntılı geçmiş, C5a/C5b ve U12-A/B1 exact dosya/sürüm manifestleri oradan geri kazanılır.
 
 ## 1. Current linked term groups
 
@@ -20,8 +20,9 @@ Gerçek okuma/coverage: [READING.md](READING.md). C1–C4 ayrıntılı geçmiş,
 - [TERMS-BACKLOG-COORDINATION.md](TERMS-BACKLOG-COORDINATION.md) — U11-D — **TRANSFER COMPLETE**, ECC-BC01–BC70.
 - [TERMS-TEMPLATE-LAUNCH.md](TERMS-TEMPLATE-LAUNCH.md) — U11-E — **TRANSFER COMPLETE**, ECC-TL01–TL74.
 - [TERMS-EXECUTION-PROFILES.md](TERMS-EXECUTION-PROFILES.md) — U12-A — **TRANSFER COMPLETE / C5c PARTIAL**, ECC-EP01–EP84.
+- [TERMS-OPENCODE-CALLBACKS.md](TERMS-OPENCODE-CALLBACKS.md) — U12-B1 — **TRANSFER COMPLETE / C5c PARTIAL**, ECC-OC01–OC92.
 
-Bunlar source-local contextual inventories'dir; global ortak sözlük değildir. C5a'nın iki dosyası 119, U11-A dosyası 77, U11-B dosyası 61, U11-C dosyası 70, U11-D dosyası 70, U11-E dosyası 74 ve U12-A dosyası 84 adreslenebilir kullanım satırı taşır. Bu sayılar kavram, bağımsız kanıt veya ilerleme yüzdesi değildir. Bağlı eski dosyalardaki C5b-PARTIAL ifadeleri kendi yayın checkpoint'lerini anlatır; güncel dilim durumu bu giriş ve READING'dedir.
+Bunlar source-local contextual inventories'dir; global ortak sözlük değildir. C5a'nın iki dosyası 119, U11-A dosyası 77, U11-B dosyası 61, U11-C dosyası 70, U11-D dosyası 70, U11-E dosyası 74, U12-A dosyası 84 ve U12-B1 dosyası 92 adreslenebilir kullanım satırı taşır. Bu sayılar kavram, bağımsız kanıt veya ilerleme yüzdesi değildir. Bağlı eski dosyalardaki C5b-PARTIAL ifadeleri kendi yayın checkpoint'lerini anlatır; güncel dilim durumu bu giriş ve READING'dedir.
 
 ## 2. Package-level expressions
 
@@ -40,9 +41,9 @@ Bunlar source-local contextual inventories'dir; global ortak sözlük değildir.
 
 ## 3. Current status ve devam
 
-**C1–C4, C5a/U10-A–U10-B, C5b/U11-A–U11-E ve C5c/U12-A source-local aktarımı tamamlandı.** Exact next: **B6-T17-C5c / U12-B1**, ardından U12-B2, U12-C ve package-wide C6.
+**C1–C4, C5a/U10-A–U10-B, C5b/U11-A–U11-E ve C5c/U12-A–U12-B1 source-local aktarımı tamamlandı.** Exact next: **B6-T17-C5c / U12-B2**, ardından U12-C ve package-wide C6.
 
-ECC package **PACKAGE-COMPLETE değildir**. C5c'nin U12-B1/B2/C bölümü ve C6 açık; B7/B8 başlamadı. C5a/b/c mevcut C5'in yürütme dilimleri, yeni araştırma kapsamı değildir. Bir source-family aktarımının kapanışı paket geneli kaynak/ID/coverage reconciliation veya source-study closure sayılmaz.
+ECC package **PACKAGE-COMPLETE değildir**. C5c'nin U12-B2/C bölümü ve C6 açık; B7/B8 başlamadı. C5a/b/c mevcut C5'in yürütme dilimleri, yeni araştırma kapsamı değildir. Bir source-family aktarımının kapanışı paket geneli kaynak/ID/coverage reconciliation veya source-study closure sayılmaz.
 
 ## 4. İlişki ve düzeltme girişleri
 
@@ -74,4 +75,8 @@ TL ilk aktarımının ilişki özeti düzeltildi: global default hazırlığı i
 
 U12-A'nın EP kayıtları **profile representation / effective host enforcement**, **preapproval / tool availability**, **native option / task text**, **configured replacement / additive customization**, **profile token budget / global USD / per-profile USD**, **sampled control / pre-spend admission**, **decoded-empty / explicit-empty** ve **environment label / runtime identity** ayrımlarını ekler. EP44/EP47/EP50–EP51 gerçek ayrı token-control tüketicisini korur; EP43'ün profil dolar tavanı aynı ECC kontrolüne taşınmaz. EP09 agent=None, session'daki EP08 harness seçimi kaybı değildir.
 
-EP ilk aktarımında birleşik adresler ayrıldı: **EP29 OpenCode / EP84 Gemini permission; EP33 program / EP83 base_args**. Gerekçe ve ilgili kayıt kontrolü TERMS-EXECUTION-PROFILES §11'dedir. TL37'nin Stale kapasite nüfusu EP58'in stop nüfusuna eşitlenmez; RD reuse yolu bu aktarım sayesinde yeni profil uygulaması kazanmaz. Önceki TERMS ve source-study değişmedi. Dated host sözleşmeleri 2026-09-19 kaynak atfıdır; bu tur yeni host/web/test doğrulaması yapılmadı. Exact next **C5c/U12-B1**'dir.
+EP ilk aktarımında birleşik adresler ayrıldı: **EP29 OpenCode / EP84 Gemini permission; EP33 program / EP83 base_args**. Gerekçe ve ilgili kayıt kontrolü TERMS-EXECUTION-PROFILES §11'dedir. TL37'nin Stale kapasite nüfusu EP58'in stop nüfusuna eşitlenmez; RD reuse yolu bu aktarım sayesinde yeni profil uygulaması kazanmaz. Önceki TERMS ve source-study değişmedi. Dated host sözleşmeleri 2026-09-19 kaynak atfıdır; U12-A turunda yeni host/web/test doğrulaması yapılmadı. O checkpoint'in next'i U12-B1 bu tur aktarılmıştır.
+
+U12-B1'in OC kayıtları **callback return / mutable supplied output**, **event name / subscription**, **before output.args / after input.args**, **direct test oracle / actual host dispatcher**, **custom-tool return / lifecycle callback return**, **tracked map / complete session history** ve **path precheck / transitive payload completeness** ayrımlarını taşır. OC21/OC24'te replacement dönüşü atılırken OC58/OC59 tool dönüşü tüketilir; bir yoldaki kopukluk bütün plugin'e genellenmez. EP16'nın Rust argv tarifi bu başka executable plugin ailesinin yerine geçmez.
+
+OC kayıtları ECC pin'i, lock-etiketine göre seçilmiş host v1.4.3/877be7e, root/nested dependency bağlamları ve ayrı indexed07756cee gözlemini tek kurulum yapmaz. MR26'nın terk edilmiş static-import şüphesi OC75'te tarihsel yorum değişimi olarak taşınır. Yeni dosyada yalnız OC25/OC55 type ifadeleri Markdown code-span ile korundu; anlam/ID değişmedi. Önceki kullanım dosyaları değiştirilmedi. N25'in U12-B PARTIAL ifadesi tarihsel B1 sınırıdır; current source-study'nin yayımlanmış B2 çıktısı Concepts'te sıradadır. Exact next **C5c/U12-B2**; yeni host/build/test çalıştırılmadı.
