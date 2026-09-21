@@ -1,38 +1,23 @@
-# EXP-004 — Arşivleme çalışma planı
+# EXP-004 — Arşiv onarımı çalışma planı
 
-**Durum:** CLOSED — source preservation, derived archive, router updates, main publication ve readback tamamlandı.
+**Durum:** SOURCE-AND-ROUTES-REPAIRED / PUBLICATION-CHECK-PENDING. Önceki CLOSED teknik yayını kaynak sadakatiyle karıştırmıştı; bu onarım onları ayırır.
 
-## Amaç
+## Yetki ve kapsam
 
-Bu konuşmanın kaynak diyalogunu, research kullanımını ve stress-test sırasında değişen modeli sonraki fresh session'ın recover edebileceği biçimde exploration kütüphanesine aktarmak.
+[U016](sources/conversation/USER-MESSAGES.md#u016) yeni kavramsal testten önce bilinen repository eksikliğini onarma yönüdür. EXP-004 ve onu bulduran iki explorations giriş dosyası kapsamdadır. Foundation, studies, concepts, önceki EXP kaynakları, agent-control ve target uygulama değişmez.
 
-## Tamamlanan kapsam
+## Tamamlanan içerik işleri
 
-1. Görünür substantive kaynak kesimi U001–U014 / S001–S013.
-2. Kaynak sırası ve aktarım sınırı.
-3. Önceki EXP-001/002/003 ile türetim ilişkisi.
-4. Foundation ve studies kullanım yolları.
-5. Konsolidasyon.
-6. Kaynak bağlı learnings / evolution / terms / qualifications / open questions.
-7. Topic map ve cumulative reading.
-8. Kütüphane INDEX/CATALOG güncellemesi.
-9. Source manifest ile 14 source blob kimliğinin kaydı.
-10. PR #29 merge ve main readback.
+- Eski yoğunlaştırılmış S001–S013 ve manifest aynı Git içerik kimlikleriyle ayrı tarihsel dizinde korundu; eski PUBLICATION ayrı tarihsel dosyaya alındı.
+- Görünür özgün S001–S013 yeniden kısaltılmadan aktarıldı. U001–U014 korundu; S014, U015/S015 ve U016 eklendi.
+- 31 mesaj/16 dosyalı manifest ve kaynak sırası oluşturuldu; byte ve kimlik hesabı gözlenen ağaçla eşleştirildi.
+- Kaynak/özet ayrımı, tarihsel citation anahtarı, U016 çerçeve açıklaması, kapsam ve okuma yolları düzeltildi.
+- Seçili tam uzaktan okuma: USER-MESSAGES, S001, S013, S015. Bu bütün dosyaların ikinci tam okuması veya platform-export karşılaştırması değildir.
 
-## Dışarıda
+## Yayın ve kapanış
 
-- hidden chain-of-thought;
-- system/developer talimatları;
-- raw tool responses / temporary credentials;
-- Foundation veya study metinlerinin gereksiz kopyaları;
-- gerçek matematik/eğitim domain araştırması;
-- SOUL/Development OS architecture adoption;
-- implementation/prototype.
+Main'in eşzamanlı değişikliklerini koruyarak yalnız yetkili farkı yayımla; kaynak/tree kimliklerini, kritik giriş metinlerini ve etkilenen yolları main'den yeniden kontrol et. [PUBLICATION](checks/PUBLICATION.md) gerçek sonucu taşır. Bu dosya o sonuç gözlenmeden CLOSED sayılmaz.
 
-## Return condition
+## Kavramsal devam
 
-**Karşılandı.** Paket main üzerinde yayımlanmış, kaynak ve türetilmiş yüzeyler bulunabilir, kütüphane router'ları güncel ve publication/readback sınırı kayıtlıdır.
-
-## Sonraki iş
-
-Bu archive planının kendi içinde next substantive work'ü yoktur. Sonraki exploration turu kullanıcı yönüyle Feedback / Learning / Persistent Adaptation veya başka bir bounded stress question üzerinden açılabilir.
+T09 bu onarım turunda açılmaz. Kullanıcının genel devam yönü korunur; son içerik T08, son anlam açıklaması U016'dır. Bu plan SOUL mimari benimsemesini veya bir araç seçimini yetkilendirmez.

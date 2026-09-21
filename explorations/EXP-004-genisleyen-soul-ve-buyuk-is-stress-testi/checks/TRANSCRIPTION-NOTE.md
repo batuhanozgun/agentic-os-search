@@ -1,28 +1,25 @@
-# EXP-004 — Kaynak aktarımı ve sadakat sınırı
+# EXP-004 — Görünür kaynak aktarımı ve sınırları
 
-**Kaynak:** 20–21 Eylül 2026 bu conversation'da modele görünür 14 kullanıcı mesajı ve 13 substantive assistant yanıtı. Platformun ham export'u veya bağımsız message-ID/timestamp servisi sağlanmadı.
+**21 Eylül 2026 onarımı.** Bu belge güncel kaynak aktarımını tanımlar; önceki yanlış tamlık açıklamasının yerine geçer. Hatanın ilk teşhisi [FIDELITY-20260921](FIDELITY-20260921.md), onarım işlemi [REPAIR-20260921](REPAIR-20260921.md), yayın [PUBLICATION](PUBLICATION.md) içindedir.
 
-## Yapılan aktarım
+## Kaynak ve kesim
 
-Mesajlar local U001–U014 ve S001–S013 kimlikleriyle adreslenir. User ve assistant substantive mesajları ayrı dosyalarda korunur; [conversation INDEX](../sources/conversation/INDEX.md) sıra verir. U014 repository kayıt yetkisiyle biter.
+Kaynak, mevcut konuşmada modele görünür kullanıcı mesajları ve kalıcı assistant cevaplarıdır. Ham platform export'u, bağımsız message-ID servisi veya tam UI/tool log'u sağlanmadı. U001–U016 ve S001–S015, kaynak sırasını korumak için verilen paket-içi kimliklerdir: 31 mesaj, 16 dosya. Gelecekteki S016 bu kesime eklenmez.
 
-Assistant'ın tool çalışmaları arasındaki progress/commentary mesajları ve tekrar routing disclosure'ları source dialogue'un ana substantive yanıtları olarak ayrı mesaj kimliği almaz. Kalıcı final/substantive cevap gövdeleri korunur. Bu seçim exact UI message-count export'u değildir; exploration'ın karar/model evrimini taşıyan substantive kesimdir.
+S001–S013'ün önceki versiyonları kısaltma/yeniden ifade ve kaynak-sonrası yorum içeriyordu. Bu yalnız sunum farkı değildi. Onarımda özgün görünür cevaplar yeniden özetlenmeden aktarıldı. İlk kısaltmalar [ayrı tarihsel dizinde](../artifacts/condensed-before-repair/README.md) aynı Git içerik kimlikleriyle korunur. S014'teki önceki yanlış tamlık iddiası da tarihsel kaynak olarak aynen saklanır; S015 bunu açıkça düzeltir.
 
-## İddia edilmeyenler
+## Sunum işlemleri
 
-- byte-perfect platform export;
-- UI whitespace/code-block-id eşitliği;
-- bağımsız transcription verification;
-- hidden chain-of-thought aktarımı;
-- raw tool-response veya connector log archive;
-- dış kaynak claim'lerinin bu arşiv turunda yeniden doğrulanması.
+Arşiv başlığı/açıklaması gövdeden ayrıdır. BEGIN/END VISIBLE MESSAGE işaretleri aktarım sınırını gösterir; özgün konuşmanın parçası değildir. Kod bloklarının UI `id` değerleri çıkarıldı; satır sonları, son boşluklar ve boş satır düzeni normalize edilebilir. Gövde paragrafları, listeler, tablolar, örnekler ve tarihsel routing blokları korunur. Eski teknik/genel iddialar bugünkü yorumla yeniden yazılmaz.
+
+S015'teki citation işaretleri tarihsel metin olarak korunur; başka ortamda otomatik çalışacağı varsayılmaz. [CITATION-KEY](../sources/CITATION-KEY.md) bunları sabit repository kaynaklarına bağlar. Dış atıflar bu onarımda yeniden araştırılmadı.
 
 ## Bilerek dışarıda bırakılanlar
 
-System/developer talimatları, gizli reasoning, ham tool cevapları, connector şemaları, temporary tokens/credentials, ilgisiz profil içeriği ve U014 sonrasındaki publication/transfer konuşması kaynak kesimine dahil değildir.
+Sistem/developer yönergeleri, gizli muhakeme, araç keşif kodları, ham araç cevapları, geçici erişim token'ları, ilgisiz kişisel bağlam ve progress günlüğü dahil değildir. Kaynak gövdelerindeki routing çıktıları geçmiş konuşmadır, etkin agent-control değildir. Bu sınır kaynak cevabı kısaltma izni değildir.
 
-## Kaynak ile türev ayrımı
+## Gerçek güvence sınırı
 
-CONSOLIDATION, LEARNINGS, EVOLUTION, TERMS, QUALIFICATIONS, OPEN-QUESTIONS ve retrieval dosyaları arşivleme sırasında üretilen türetilmiş görünümlerdir. Kullanıcının geçmişte bu dosyaların bütün ifadelerini ayrı ayrı kabul ettiği varsayılmaz.
+Aktarım ve görünür kaynak karşılaştırması aynı assistant tarafından yapıldı; bağımsız transkripsiyon veya platform-export ile otomatik kelime/bayt eşitliği deneyi değildir. Bütün gövdeler yazım sırasında görünür asıldan aktarıldı. Uzaktan ikinci tam içerik okuması seçili USER-MESSAGES, S001, S013 ve S015'te yapıldı; bütün dosyaların ikinci tam okuması iddia edilmez. Bütün kaynak dosyalarının Git kimlikleri ve boyutları ayrıca gözlendi.
 
-Tarihsel routing blokları source assistant cevaplarında bulunsa bile etkin agent-control değildir; current behavior canonical AGENT/agent control layer'dan gelir.
+Dosya hash'i aktarılmış dosyanın kimliğini bağlar; cümlenin doğruluğunu, kaynakla anlamsal eşitliğini veya gelecekte doğru kullanılacağını tek başına kanıtlamaz. Bu ayrım kapanışta korunur.
