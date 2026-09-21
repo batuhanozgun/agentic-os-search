@@ -1,173 +1,165 @@
 # MS01 — SOUL Çalışma Sistemi Taslağı v0.1
 
-**Tarih:** 2026-09-21. **Checkpoint:** A — bütünleşik başlangıç taslağı ve soru-bankası yürüyüşü. **Statü:** PROVISIONAL MECHANISM DRAFT / PARTIAL SYNTHESIS. Bu metin bir yapı önerisidir; kurulmuş sistem, çalıştırılmış simülasyon, nihai mimari kabulü veya yeni T16 değildir. Romanın aynı kurgu üzerinde tam yürüyüşü ve son birleşim değerlendirmesi henüz yapılmadı.
+**2026-09-21 / Checkpoint B / PROVISIONAL MECHANISM DRAFT — REVIEW READY.** İlk yapı, iki senaryonun kurgusal yürüyüşü ve sınırlı birleşim değerlendirmesi tamamlanmış taslak olarak sunulur. Bu; kabul edilmiş mimari, gerçekleştirilmiş SOUL, çalıştırılmış simülasyon veya canlı model/okur/öğrenci yeterliği değildir. EXP-004'ün kullanıcı değerlendirmesi ve mimari/implementasyon kararları ayrıdır.
 
-**Başlangıç main:** `0dd58080eeea4ee8c7eaaaef0902d02fce825edc`. Kullanıcının «Anladım. Peki nasıl ilerleyeceksin bundan sonra?» sorusuna verilen MS01 planından sonra «anlaştık. devam et.» yönü bu taslağı başlatır. Yetki, EXP-004 içinde kavramsal mekanizma sentezi ve kaydıdır; gerçek ürün, model deneyi, Foundation/studies/concepts/agent-control değişikliği değildir.
+**Bu checkpoint'in başlangıcı:** `a0f3ab5f450b28d908a5a89d15a626637e322bfe`. Kullanıcının «peki izliyorum ve okuyorum seni. devam et.» yönü, roman yürüyüşüyle aynı taslağı geliştirme ve birleşim değerlendirmesine devam eder. Yazma yalnız EXP-004'tedir. Önceki [Checkpoint A taslağı](https://github.com/batuhanozgun/agentic-os-search/blob/a0f3ab5f450b28d908a5a89d15a626637e322bfe/explorations/EXP-004-genisleyen-soul-ve-buyuk-is-stress-testi/artifacts/MS01-SOUL-WORKING-SYSTEM-DRAFT.md) tam olarak Git'te korunur; aşağıdaki yeniden düzenleme önceki kaynak veya araştırmayı değiştirmez.
 
-**Birlikte okunacaklar:** [Soru-bankası yürüyüşü](MS01-QUESTION-BANK-WALKTHROUGH.md), [kapsama, açık mekanizmalar ve kaynak defteri](MS01-COVERAGE-AND-OPEN-MECHANISMS.md). [RV01](../reflections/RV01-DIRECTION-REVIEW-AND-MECHANISM-TARGET.md) dönüşün gerekçesi; [SY01](SY01-CROSS-SCENARIO-WORK-SYSTEM-SYNTHESIS.md) sorumluluk zemini. Önceki kaynaklar bu taslakla yeniden yazılmaz.
+**Birlikte okunacaklar:** [Soru-bankası yürüyüşü — A](MS01-QUESTION-BANK-WALKTHROUGH.md), [roman yürüyüşü — B](MS01-NOVEL-WALKTHROUGH.md), [kapsama, birleşim ve kaynak defteri](MS01-COVERAGE-AND-OPEN-MECHANISMS.md). [RV01](../reflections/RV01-DIRECTION-REVIEW-AND-MECHANISM-TARGET.md) taslakla kapanış hedefini; [SY01](SY01-CROSS-SCENARIO-WORK-SYSTEM-SYNTHESIS.md) sorumluluk zeminini taşır. Bank dosyasının romanı sonraki iş gösteren ifadeleri Checkpoint A tarihidir, bugünkü kuyruk değildir.
 
-## 1. Birinci tercih: muhakeme ile yürütmenin birlikte kurulduğu SOUL
+## 1. Taslağın seçtiği düzen
 
-Bu taslak için **modelin yönlendirdiği, durum ve etki sınırlarının yürütme koduyla korunduğu hibrit düzeni** tercih ediyorum. Sadece uzun talimatla çalışan tek sohbeti de, bütün olası işi baştan tarif eden sabit workflow'u da başlangıç modeli seçmiyorum.
+**P1 — Hibrit gerçekleştirme.** Model; amaç yorumunu, keşfi, yöntem ve kaynak seçimini, alan üretimini ve anlamsal değerlendirmeyi yapar. Host Runtime; model/araç çağrısını, aktör kimliğini, verilmiş izinleri, kayıt sürümlerini, kaynak ayırmasını ve tanımlı durum/etki sınırlarını kodla işletir. Salt prompt sistemi veya bütün olası işi baştan kilitleyen statik workflow seçilmedi. Host kontrolü anlamsal doğruluğun yerine geçmez; insan katkısı ancak gerçekten mevcut rol ve yetkisiyle plana girer.
 
-Model, amaç yorumunu, ihtiyaç/yöntem önerisini, kaynak seçimini ve alan üretimini yapar. Yürütme kodu kimlik, sürüm, ayrılmış kaynak, tanımlı izin ve kayıt geçişlerini denetler. Anlamsal kaliteyi bu koddan beklemeyiz. İnsan katkısı ancak gerçekten mevcut rol ve yetkisiyle plana girer. Böylece «SOUL düşünür» ile «hook kontrol eder» arasındaki iş bölümü açık olur.
+**P2 — Mission başına tek mantıksal commit yolu.** Paralel aktörler candidate çıktı ve karar önerisi üretebilir. Ortak current state'e geçiş ise tek mantıksal commit sınırında uzlaştırılır. Bu tek LLM, tek owner, tek makine veya seri üretim zorunluluğu değildir. Farklı aktörlerin yetkili kararları aynı kurulum yolundan geçebilir. Çok-yazarlı federatif düzen alternatif olarak kalır; bu ilk taslakta bağımsız ortak yazımlar yerine açık uzlaştırma seçildi. Darboğaz, failover ve cross-mission kaynak ortaklığı G03/G05'te açıktır.
 
-Ortak kararların kayda geçirilmesi için **mission başına tek mantıksal commit otoritesi** seçiyorum. Birden fazla aktör paralel ürün/öneri hazırlayabilir; ancak shared current state'i birbirinden habersiz değiştiremez. Bu, tek LLM, tek makine, tek thread veya bütün görevlerin sırayla yapılması değildir. İlerideki dağıtık karşılığı ayrı tasarım ister. Şimdilik amaç, yarışan karar ve sonuçları anlaşılır bir kabul sınırında uzlaştırmaktır.
+**P3 — Birlikte uygulanabilir konfigürasyon.** Aktör, yöntem, kaynak ve araç ayrı ayrı mevcut diye bir Work hazır sayılmaz. Bunların aynı izinli çalışma yolunda birleşmesi gerekir.
 
-Alternatif olarak çok-yazarlı federatif karar düzeni mümkün; fakat ilk taslakta ortak yetki/sürüm uzlaştırmasını her aktöre dağıtmak yerine bu tek mantıksal sınırı seçiyorum. Bedeli bu sınırın darboğaz veya arıza noktası olabilmesidir. Devralma ve eski yürütücüden gelen geç yazımlar K7'de ele alınır; ölçek üstünlüğü iddia edilmez.
+**P4 — Başlatma, sonuç kabulü ve etki ayrı sınırlar.** Start kontrolü bütün sonraki etkiler için açık çek değildir. İş sürerken dayanak değişebilir.
 
-## 2. İlk işi kim başlatıyor? Bootstrap zemini
+**P5 — Yöntem kütüphanesi ile etkin yöntem ayrı.** Retrieve edilmiş ders, kaynağa bağlı adaydır. Belirli Work için seçimi veya ortak baz davranışa geçişi ayrıca yetkili seçim/değişikliktir.
 
-SOUL, henüz kendisinin oluşturacağı agent'lara ihtiyaç duymadan başlamak zorundadır. Bunun için bazda önceden hazırlanmış şu bileşim varsayılır:
+B'deki ek tercihler: **P6** Work kipi/etkisine bağlı giriş; **P7** bileşik eser kimliği ve tasarım/uygulama/teslim ayrımı; **P8** kaynak-bağlı, süren okuma/inceleme; **P9** tekil yöntem değil birlikte işleyen konfigürasyonun değerlendirilmesi. Ayrıntılar aşağıdadır.
 
-| Başlangıç taşıyıcısı | İlk görevde fiilen yaptığı iş | Varsayım / açık sınır |
+## 2. İlk işi kim başlatır? Baz SOUL
+
+| Başlangıç taşıyıcısı | İlk görevde yaptığı iş | Önceden sağlanması gereken sınır |
 |---|---|---|
-| **Host Runtime** | Kullanıcı girdisini alır; model çağrısını, araç isteklerini, kayıt işlemlerini ve yeniden giriş olayını yürütür. | Çalışan host ve aşağıdaki kontrol yolları önceden sağlanmış olmalı. Prompt bunları yoktan oluşturmaz. |
-| **Bootstrap Actor B0** | Genel amaçlı modelin ilk çalışma rolü; talebi yorumlar, sınırlı kaynak incelemesini ve ilk Work önerisini üretir. | Alan uzmanlığı veya güvenilir açık-uçlu keşif otomatik verilmiş değildir. G01/G02 açıkları bu kapasiteye bağlıdır. |
-| **Working State erişimi** | Mission, Work, kaynak ve kararları kayıt kimliği/sürümüyle okur; yetkili geçişleri kalıcılaştırır. | Kalıcılık, atomik yerel geçiş ve erişim ayrımı hostun sağlayacağı gerçek kabiliyetlerdir; bu tur kurulmadı. |
-| **Başlangıç yöntemleri ve araç bağları** | Talep oluşturma, kaynak edinme, soru açma, sonuç bildirme ve tekrar giriş için sınırlı yöntemler; izinli kaynak okuma ve taslak yazma imkânı. | Arama, dosya erişimi veya hesap aracı kullanılabilirliği ayrı doğrulanır. Katalog girdisi çalışan bağlantı değildir. |
-| **Owner/Operator yetki girdisi** | Keşif kapsamını, kaynak/bütçe sınırını, değiştirilemez koşulları ve karar delegasyonunu verir. | Amaç sahibi, teknik eksikleri sürekli tamamlayan görünmez araştırmacı değildir. Mevcut yetki yoksa B0 bunu kendisi üretemez. |
+| **Host Runtime** | Kullanıcı girdisi, model/araç çağrısı, kayıt işlemleri ve yeniden giriş olayını işletir. | Çalışan host ve gerçek kontrol yolları; talimat bunları yoktan kurmaz. |
+| **Bootstrap Actor B0** | Genel amaçlı modelin ilk çalışma rolü; talebi yorumlar, sınırlı kaynak incelemesi ve ilk Work önerisini üretir. | Genel model kabiliyeti bütün alanlarda uzmanlık veya ipucusuz keşif garantisi değildir. |
+| **Working State erişimi** | Mission, Work, kaynak, Run ve kararları kimlik/sürümle korur. | İzinli kalıcılık, gerekli atomik yerel geçiş ve gerçek geri okuma imkânı. |
+| **Başlangıç yöntemleri ve araç bağları** | Amaç oluşturma, izinli kaynak edinme, soru açma, sonuç bildirme ve yeniden giriş için sınırlı yöntemler. | Katalogda bulunma, erişim/çalışırlık değildir. |
+| **Owner/Operator yetkisi** | Keşif kapsamı, bütçe, değiştirilemez sınırlar ve karar delegasyonu. | Amaç sahibi gizli teknik işçi yapılmaz; verilmemiş yetki B0 tarafından üretilemez. |
 
-Bu bileşim gelecekte Development OS'un hazırlayıp değerlendireceği başlangıç adayıdır; Development OS'un bugün var olan uygulaması hakkında bir tespit değil. SOUL'un baz çekirdeğini yaratma işi, kullanıcı mission'ının içinde açıklanmadan varsayılan sonsuz bootstrap zincirine sokulmaz.
+İlk Mission-formation Work'ü henüz bulunmayan Mission Contract'tan değil **başlangıç yetkisinden** başlar. Bu yetki taslak ve sınırlı incelemeye izin verebilir; yayın, yeni hesap/credential veya ortak politika değişimine izin vermeyebilir. Gerekli erişim/kapasite yoksa ilgili iş `unavailable` kalır; hayalî aktör planlanmaz.
 
-İlk `Mission formation` işi için izin, henüz tamamlanmamış Mission Contract'tan değil, **başlangıç yetki kapsamından** gelir. B0 dar keşif yapabilir ve amaç taslağı üretebilir; bu izin yayın, yeni dış hesap, sınırsız araç veya yeni ortak politika yetkisi değildir. Kalıcı kayıt ya da gerekli kaynak erişimi yoksa ilgili devam iddiası `unavailable` kalır; hayalî kapasite planlanmaz.
+Bu bazın geliştirilmesi gelecekte Development OS'un işi olacaktır. SOUL'un bütün bazını aynı kullanıcı mission'ı içinde zaten hazırmış gibi varsayıp sonsuz bootstrap döngüsü kurmuyoruz. B0'ın başlangıç muhakemesi G01/G04'te ayrıca sınanacak kapasitedir.
 
-## 3. Baz ve işe özgü genişleme aynı düzen içinde
+## 3. İşe özgü genişleme: Working Configuration
 
-Baz SOUL'da genel koordinasyon, bağlam oluşturma, kontrollü yürütme, kayıt ve yeniden giriş yöntemleri bulunur. Yeni mission'da bunun üzerine **Working Configuration** kurulur: seçilen rol örnekleri, gerçek araç bağlantıları, alan yöntemleri, değerlendirme görevleri, kaynaklar ve bu işin karar sınırları.
+Bir mission, bazın üzerinde rol örnekleri, yöntem sürümleri, araç bağlantıları, kaynaklar, değerlendirme Work'leri ve karar/etki sınırlarından oluşan **Working Configuration** kurar. B0 başlangıçta birden çok rolü taşıyabilir; yeni katılım ancak ihtiyaç ve yeterlik dayanağıyla bağlanır.
 
-B0 başlangıçta hem amaç oluşturma hem keşif rolünü taşıyabilir. İşin ihtiyacı gerekçelendirince ayrı araştırmacı, üretici veya inceleyici rolü bağlanabilir. Yeni rol, rol talimatı + gerçek model/insan/program taşıyıcısı + uygun bağlam + araç/etki kapsamı + ilgili yeterlik dayanağı birleşimidir. Yeni bir isim modelin eğitimini değiştirmez.
+Yeni rol = talimat + gerçek model/insan/program taşıyıcısı + uygun context + araç/etki kapsamı + ilgili yeterlik dayanağı. Rol adı model eğitimi değildir. Yeni araç/yöntem katılırken K3 context, K6 etki/kabul ve K7 recovery yollarının kapsamı da genişler; sadece registry satırı eklenmez. Gerekli kapsam sağlanamıyorsa etkiyle devreye alınmaz, izinli inceleme kullanımı ayrı kalabilir.
 
-Yeni yetenek sadece bir role eklenmez: kayıt kimliği, bağlam yolu, etki kontrolü, sonuç kabulü ve recovery kapsamı da aynı genişlemeye katılır. Bitmiş görevde gereksiz rol kapatılabilir; rolün kapanması Work, kanıt ve gerekli geçmişi silmez. Bir görevin yerel yöntemi ortak baz davranışını kendiliğinden değiştirmez.
+İş bittiğinde rol kapanabilir; Work ve gerekli kanıt/geçmiş silinmez. Yerel ders baz davranışına otomatik geçmez. Mevcut yeterli yöntem varsa yeni parça eklememek veya iki aynı işlevi birleştirmek geçerli sonuçtur.
 
-## 4. Kayıtlar: çalışan parça değil, parçaların ortak dayanağı
+## 4. Ortak kayıtlar ve türleri
 
-Aşağıdaki adlar yerel taslak sözlüğüdür; fiziksel tablo veya her işte ayrı dosya zorunluluğu değildir. Bir kayıtta birden fazla rol tutulabilir. Görünür gerekçeler karar dayanağı özetleridir; özel model düşünce dökümü değildir.
+Bunlar yerel taslak adlarıdır, zorunlu ayrı tablolar/dosyalar veya Concepts tanımları değildir. Karar gerekçesi görünür dayanak özeti taşır, özel model düşünce dökümü değildir.
 
-| Kayıt | Koruduğu ayrım / kim yazar? |
+| Kayıt | Taşıdığı içerik ve yazma yolu |
 |---|---|
-| **Mission Contract** | Kaynak kullanıcı amacı, B0 yorumu, kapsam, kabul ve delegasyon. B0 önerir; yetki kapsamındaki owner/karar yolu etkinleştirir. |
-| **Work Model** | İhtiyaç/koşullar, henüz çözülmemiş sorular, yöntem alternatifleri, gerçek Work'ler, bağımlılıklar ve ana karara dönüş bağları. K1/K2 öneri ve kararlarıyla değişir. Plan bunun yaşayan bir görünümüdür, yürütmenin kendisi değildir. |
-| **Work** | Hedef çıktı/etki, kabul yükü, sorumlu, başlangıç koşulları, açıklar ve `return_to`. Açık soru otomatik blocker değildir; engellediği karar/etki ayrıca belirtilir. |
-| **Artifact / Source Record** | Asıl içerik veya konumu; kimlik/sürüm, referans zamanı, kaynak türü, erişim ve provisional/current gibi kullanıma ilişkin nitelikler. Özet asıl kaynak değildir. |
-| **Qualification Case** | Belirli iddia + nesne/sürüm + kullanım + ölçüt + yöntem + kaynak/kanıt + inceleyen + sonuç/belirsizlik. İnceleme sonucu ile yetkili kabul ayrı tutulur. |
-| **Decision / Authority Grant** | Yetkili karar ve sınırlı etki izni; karar sahibi, nesne/kapsam ve dayanak. Modelin bir metinde «onaylandı» demesi bu kaydı üretmez. |
-| **Run / Effect Record** | Work'ün gerçek denemesi; aktör/claim, başlangıç dayanakları, sunulan context, çağrı/etki kimliği, gözlenen sonuç ve belirsiz etki. `Run returned` Work kabulü değildir. |
-| **Context Package** | Work sorusu, aktör, yöntem ve gerçek çağrıya sunulacak kaynak/sürüm/status bileşimi; seçilen ve eksik kalan kapsam. Yalnız paket hazırlanması değil, hostun sunduğu içerik ayrıca bağlanır. |
-| **Method Entry / Working Configuration** | Kaynak-bağlı yöntem adayı, uygunluk/uygunsuzluk koşulları; ayrıca belirli işte seçilmiş etkin sürüm/roller/araçlar. Kütüphane ile etkin yapılandırma aynı değildir. |
-| **Change Proposal / Event Journal** | Önerilen değişiklik ile kabul/uygulama ayrımı; geçiş olayının üreticisi ve ilgili kimlikler. Günlük tüm gerçek dünyanın eksiksiz olay kaydı veya otomatik event-sourcing kararı değildir. |
+| **Mission Contract** | Kaynak amaç, yorum, kapsam, kabul şartları, delegasyon; K1 önerir, yetkili karar etkinleştirir. |
+| **Work Model / Work** | İhtiyaç, yöntem, açık soru, iş, başlangıç/kapanış şartları, sorumlu, kaynak ve `return_to`; K1/K2 önerir, K6 yetkili geçişleri kaydeder. Plan yaşayan bir görünüm, yürütme değil. |
+| **Artifact / Source Record** | Asıl içerik/konum, kimlik/sürüm, kaynak türü, zaman, erişim ve candidate/current/withdrawn gibi kapsamlı statü; özet source değildir. |
+| **Qualification Case — QC** | İddia, nesne/sürüm/birleşim, kullanım, ölçüt, yöntem, kanıt, inceleyen ve belirsizlik; K5 değerlendirir. QC geçerliliği ile yetkili kabul ayrıdır. |
+| **Decision / Authority Grant** | Karar sahibi, scope, hedef, dayanak, delegasyon ve yeniden açma koşulu; modelin «onaylandı» cümlesi grant yaratmaz. |
+| **Run / Effect Record** | Work denemesi, claim dönemi, aktör, başlangıç basis'i, fiilen sunulan context, işlem/etki kimliği ve gözlenen/bilinmeyen sonuç. Run dönmesi Work kabulü değildir. |
+| **Context Package** | İş sorusu, aktör, yöntem, kaynak/sürüm/statü ve eksik kapsam; gerçek model isteği/ek okumalar Run'a bağlanır. |
+| **Method Entry / Working Configuration** | Kaynağa bağlı yöntem adayı ve uygunluk/uygunsuzluk koşulu; ayrıca belirli işte seçilmiş etkin bileşim. Library etkin talimat değildir. |
+| **Change Proposal / Event Journal** | Önerilen değişiklik, karar, kurulum ve geçiş kaynağı; günlük bütün gerçek dünyanın eksiksiz tarihi veya zorunlu event-sourcing seçimi değildir. |
 
-Asıl metinler kaynak deposunda kalabilir; bütün eseri yapılandırılmış graph'a çevirmek gerekmiyor. Bilinen `requires`, `uses`, `supports`, `supersedes`, `discovered_from`, `return_to` ilişkileri farklı amaçlarla tutulur. Örneğin keşfin kökeni, keşfedilen işin eski işi engellediği anlamına gelmez. Keşfedilmemiş bağı grafın tamamlığıyla bulmuş saymayız.
+Bilinen `requires`, `uses`, `supports`, `supersedes`, `discovered_from`, `return_to` ilişkilerinin rolleri farklıdır. Keşfedilen işin kökeni, onun önceki işi otomatik engellediği anlamına gelmez. Bilinen graf, bilinmeyen ilişkiyi keşfetmiş sayılmaz.
 
-## 5. Çalışan parçalar ve mekanizma sözleşmeleri
+### B'de eklenen bileşik ve alana özgü görünümler
 
-RV01'in sekizli iskeleti burada kayıtlar ve çalışan işlevler olarak ayrıldı. Method Selector, aktör/yöntem/araç ortak uygulanabilirliği nedeniyle K4'e bağlandı; Method Library kayıt yüzeyidir. Bunlar yedi zorunlu servis değildir. K1–K5 aynı modelin farklı çağrılarında kısmen birleşebilir; K6'nın mekanik yaptırımı yalnız talimata indirgenemez.
+**Assembly Snapshot**, sıralı parça/revision'ları, bağlı tasarım ve bilinen eksikleriyle bileşik Artifact'tır. Sadece her dosyanın `latest` sürümünü toplamaz. QC ve teslim belirli bir birleşimi hedefler. **Design Baseline**, seçilmiş amaç/tasarım kararlarını; **Delivery Baseline**, teslim için kabul edilmiş birleşimi gösterir. Aralarındaki revizyon işleri açık kalabilir; tek `current` bayrağı hepsinin aynı olduğunu iddia etmez.
+
+Romanda **Narrative Ledger**, olay dünyası, karakter inancı, anlatıcı ifadesi, kaynak metin ve planlanan ilişkiyi kaynak/zaman/sürümle ayıran seçici görünüm; **Scene Brief**, Work/Context'in alan biçimi; **Reading Pass**, sıralı okuma konumu, kaynak kapsamı, görünür gözlem/yorum ve açık soruların devam kaydı; **Revision Package**, Change Proposal'ın etkilenen ve korunacak içerikle ayrıntısıdır. Bunlar ek servis veya her cümleyi formal graph'a çevirme talebi değildir.
+
+## 5. Çalışan parçalar: K1–K7
 
 ### K1 — Mission Interpreter / Discovery Driver
 
-**Tetik:** yeni talep; maddi yeni bulgu; amaç–sonuç bağına itiraz. **Taşıyıcı:** B0 veya atanmış araştırma rolü, ilgili alan kaynaklarıyla model muhakemesi.
+**Tetik/girdi:** yeni talep, maddi bulgu veya amaç–sonuç itirazı; kaynak amaç, mevcut Work Model, ilgili alan kaynakları ve gerçek kullanım koşulları. **Taşıyıcı:** B0/araştırma rolü ve model muhakemesi.
 
-Talebi kaynak metinle bağlar; yorum ve yetkili koşulları ayırır. Amaçlanan sonucu üretim, kullanım ve değişim içinde izler. Mevcut planın açıklamadığı koşulları soru olarak açar. Bir soru doğduğunda rakip açıklamaları ayıracak izinli kaynak incelemesini veya üretim denemesini seçer. Çıktısı `need candidate`, `inquiry Work`, `frame-change proposal` veya gerekçeli `no change` olabilir.
+Amaçlanan sonuca hangi üretim/kullanım adımlarıyla gidileceğini kurar; bu açıklamadaki desteksiz koşulları araştırılacak soruya çevirir. Sonuç `need candidate`, inquiry Work, frame-change proposal veya gerekçeli no-change olabilir. Inquiry; hangi kararı beslediği, neyin o kararı değiştireceği, izinli kaynak yolu ve dönüş noktasıyla kurulur. Kaynak yeni bir soru da açabilir; mevcut anahtar sözcükler keşfin sınırı yapılmaz.
 
-Keşif Work'ü «araştır» diye açık uçlu bırakılmaz: hangi ana kararı beslediği, neyin öğrenilmesinin kararı değiştireceği, eldeki kaynak yolu ve bu incelemeden dönüş noktası yazılır. İlgili kaynak ilk çerçevenin dışındaki ihtiyacı gösterebilir; yalnız mevcut anahtar sözcüklerle kontrol listesi doldurmak yeterli sayılmaz. Bu işlem anlamlı soruyu her seferinde bulduğu kanıtlanmış algoritma değildir; fakat görevi adı konmuş tek sihirli karara bırakmak yerine hangi girdilerle hangi ara ürünlerin üretileceğini belirler.
-
-**Yetki:** öneri/inceleme kendi grant'i içinde; kullanıcı amacını veya ortak kontrolü kendiliğinden değiştiremez. **Hata:** yanlış alan varsayımı, zayıf kaynak, aynı çerçeveye kapanma. K5 iddiaya uygun inceleme yapar; çözülmeyen açık G01'de kalır.
+Yetkisi inceleme/öneri scope'udur; kullanıcı amacını kendisi değiştiremez. Yanlış çerçeve, yetersiz alan bilgisi ve ortak körlük K5 incelemesi/alternatif kaynakla zorlanır. Bunlar G01'in güvenilir keşif kapasitesini otomatik çözmez.
 
 ### K2 — Work Coordinator
 
-**Tetik:** yeni/sonuçlanmış Work, karar veya kaynak değişikliği, kapasite geri dönüşü, yeniden giriş. **Taşıyıcı:** durumdan aday çıkaran kod + öncelik/method muhakemesi.
+**Tetik/girdi:** Work sonucu, karar/kaynak/kapasite değişimi veya re-entry; Work Model, açıklar, kaynak ve teslimat koşulları. **Taşıyıcı:** aday çıkaran kod + öncelik/yöntem muhakemesi.
 
-Önce Work Model'den açık ve engelli işleri ayırır. Bilinen koşullara göre aday frontier çıkarır. K4 ile aktör, bilgi, ortam ve yetki aynı yolda birleştiğinde gerçekten başlatılabilir aday olur. Öncelik; sonraki anlamlı teslimat, kritik bağımlılık, keşfin karar katkısı ve gerçek kaynak sınırına göre seçilir; tek uydurma fayda puanı kullanılmaz.
+Open, blocked ve koşullu frontier'ı ayırır. K4 ve K3 ile aynı aktör-bilgi-ortam-yetki yolunda hazırlanabilen işi seçer. Öncelik sonraki anlamlı teslimat, kritik bağımlılık, inquiry'nin karar katkısı ve gerçek maliyetle gerekçelendirilir; tek uydurma utility puanı yoktur. K6, revision/claim/rezervasyonu korunan yerel geçişte denetler. Paylaşılan rezervasyonlar mission sınırını aşıyorsa gerçek ortak otorite gerekir; burada varsayılmaz.
 
-Seçimden sonra K6, Work revision'ını ve kaynak ayırmasını aynı yerel geçişte kontrol edip claim verir. İki aktörün aynı işi sahiplenmesi salt iki liste güncellemesiyle çözülmez. Keşif sonucu geldiğinde `return_to` kararını yeniden değerlendirir; yeni ilginç soru otomatik ana hedef haline gelmez. Başarılı iş dilimi, yetkili bütün hedefle ilişkisi korunarak ilerler.
-
-**Yetki:** atanmış kapsamda dispatch/hold/reopen önerileri; kabul koşulunu gevşetmez. **Hata:** kayıtlı ama gerçek olmayan readiness, kaynak açlığı, sonsuz keşif. Sınırlı inquiry dönüşü ve K6 gerçek koşul kontrolü bu hata yollarının bir kısmını hedefler; G01/G05 açıktır.
+Keşif sonucu `return_to` kararına döner. Açık soru yalnız gerçekten etkilediği karar/etkiyi engeller. Uygun bağımsız dilim ancak kapsam/yetki ve ortak kaynak şartlarıyla ilerler. Sonsuz keşif, aç kalma ve ucuz işlerin asıl teslimatı ertelemesi G05'tir. Tamamlandı statüsü kullanıcı amacının gerçekleşmesi değildir.
 
 ### K3 — Context Builder
 
-**Tetik:** bir Work için çağrı kurulması, inceleme bulgusu veya yeniden giriş. **Taşıyıcı:** kaynak erişim/kesit araçları + seçim yapan model.
+**Tetik/girdi:** çağrı kurma, yeni inceleme sorusu veya devam; Work sorusu, mode, aktör, yöntem ve kaynak/sürüm bağları. **Taşıyıcı:** erişim/kesit araçları + model seçimi.
 
-Mission'ın ilgili kısıtını, Work sorusunu, yöntem kapsamını ve kaynak/sürüm bağlarını birlikte alır. İstenen hükmü taşıyan kaynakları seçer; kimlik, izin ve sürüm tutarlılığını mekanik kontrol eder. Özet bir ilişkiyi göstermiyorsa ilişkili asıl pasajları getirir. Alan rolü eksik ilişki bildirirse yeni okuma Work'üyle tekrar kurar. Sonuç Context Package'tır; gerçek model isteğine konulan paket/ek okumalar Run'a bağlanır.
+İlgili amaç, gerçek kaynak, yakın asıl içerik ve önceki kayıtları kullanım için birleştirir. Kimlik/erişim/sürüm mekanik denetlenir; içeriğin yeterliği model/alan incelemesidir. Özet ilişkiyi taşımıyorsa asıl pasajları ve gerekli çevreyi getirir. Seçilen kaynak listesi ile fiilen sunulan context ayrı bağlanır. İçeriğin görünmesi anlama değildir.
 
-Uzun kaynaklarda okunan kapsam ve açık sorular taşınır; gerektiğinde önceki pasajlara geri dönülür. Yalnız iki bilinen pasajı aramak genel eser okumasının yerine geçmez. Hangi ilişkili pasajın gerektiğini bulmak G02'nin bilişsel yüküdür.
-
-**Yetki:** izin verilen bilgi görünümü. Plan–metin incelemesiyle yalnız metnin sunduğunu inceleme farklı paketlerdir. Önceden finali görmüş aktöre «unut» demek izolasyon değildir. **Hata:** doğru kaynağın yanlış görünümü, atlanan statü, karışık sürüm; okuma izi anlamayı kanıtlamaz.
+Uzun eserde Reading Pass kaynak boyunca ilerler; konum/kapsam ve kaynak-bağlı açık sorular tutulur. Bir soruda önceki–sonraki ilgili pasajlar birlikte getirilir. Geniş edebî hüküm seçilmiş alıntı toplamından çıkarılmaz. Plan-aware ve text-grounded kipler farklı görünüm kurar. Önce finali görmüş aktöre «unut» demek izolasyon değildir; host bellek/araç yollarının uygun scope'u gerekir. G02/G04 açık kalır.
 
 ### K4 — Capability Binder / Method Selector
 
-**Tetik:** yeni Work veya yeni yeterlik/araç ihtiyacı. **Taşıyıcı:** rol/yöntem kataloğu + uygulanabilirlik incelemesi + host erişim kontrolü.
+**Tetik/girdi:** yeni Work, beceri/araç açığı veya yöntem çatışması; gerçek capability erişimi, yöntem kataloğu, yeterlik kanıtı ve grant. **Taşıyıcı:** registry + muhakeme + host erişim kontrolleri.
 
-Work'ün ne yapmayı ve neyi göstermeyi gerektirdiğini çıkarır. Mevcut aktörle, başka yöntemle, araç desteğiyle veya gerçekten sağlanmış insan katkısıyla karşılamayı karşılaştırır. Yöntem kaydını emir değil aday girdi olarak kullanır. Seçim, uygunluk koşulu ve dayanağıyla Working Configuration'a bağlanır; kapsam dışı veya belirsiz seçim dar deneme/qualification Work'ü gerektirebilir.
+Mevcut aktör, başka yöntem, araç desteği veya gerçekten mevcut insan katkısını karşılaştırır. Seçim gerekçesi ve sınırı Working Configuration'a bağlanır. Yeterlik zayıfsa gerekli küçük qualification Work'ü açılır: fiilî uygulama ve iddiaya uygun ayrı değerlendirme; salt skill yükleme sayısı değil. Tek küçük başarı geniş uzmanlık değildir. Uygulanabilir bileşim yoksa bağımlı etki bekler; kullanıcıya yalnız gerekli seçenek/maliyet/yetki kararı taşınır.
 
-Yeterlik iddiası zayıfsa üretimden önce gerekli olan küçük, karşılaştırılabilir bir işi K5'e verir: uygulama + ayrı değerlendirme; sadece skill okuma sayısı değil. Tek başarılı örnek geniş uzmanlık sertifikası değildir. Hiçbir uygulanabilir seçenek yoksa bağımlı etki `capability unavailable` olarak bekler. Kullanıcıya seçenek/maliyet/karar ihtiyacı taşınabilir; ondan gizlice teknik çözüm üretmesi beklenmez.
-
-Çelişen yöntemlerde önce farklı kullanım/sürüm/amaç olup olmadığını ayırır. Gerçek çatışmada geçerli üst yükümlülüğü korur; bir yöntem daha ucuz diye zorunlu kontrolü kaldıramaz. Eşdeğer işlevli kontroller birleştirilebilir, fakat gerekli hata kapsamasının kaybolmadığı ayrıca değerlendirilir. Çözülmeyen yöntem seçimi ilgili Work'ü bekletir veya değişiklik önerisine gider; bütün kütüphane her çağrıya yüklenmez.
+Çelişen yöntemlerde önce amaç/kullanım/sürüm ayrımı yapılır. Bir görevde anlamlı olan yöntemi başka görevde kullanmamak geçerlidir. Gerçek ortak çatışmada geçerli yükümlülük korunur; değişiklik yetkili scope'ta önerilir. Örneğin devir notunu kısaltma, karar-kritik statüyü silme izni değildir; kısa source locator + statüyle taşıma denenebilir. Eşdeğer kontroller ancak gerekli işlevin kaybolmadığı gerekçeyle birleştirilir. G06, hem doğru uygulama hem doğru seçme/kullanmama ve birlikte etki yükünü taşır.
 
 ### K5 — Domain Workbench
 
-**Tetik:** atanmış araştırma, üretim, inceleme, revizyon veya bütünleştirme Work'ü. **Taşıyıcı:** bağlanmış model/insan/program ve alan yöntemi.
+**Tetik/girdi:** atanmış üretim, araştırma, inceleme, revizyon veya bütünleştirme Work'ü; seçilmiş yöntem, domain context ve exact çalışma nesnesi. **Taşıyıcı:** bağlanmış model/insan/program ve alan yöntemi.
 
-Soru-bankasında kaynaklardan kapsam çıkarma, amaca göre soru üretme, bağımsız çözüm türetme, dil/uygunluk incelemesi ve program bütünleştirmesi farklı işlerdir. Örneğin üretici hedef beceri, verilen koşullar, soru metni ve çözüm taslağı üretir; çözüm inceleyicisi gerektiğinde hazır cevap anahtarı verilmeden çözer; hesap aracı aritmetiği kontrol edebilir. Bu araç pedagojik yeterliği ölçmez. Bütünleştirme rolü grup sonuçlarını programın ihtiyacıyla karşılaştırır ve eksik kalan Work'ü önerir.
+Bankada soru/çözüm üretimi, hazır çözüm verilmeden yeniden çözme, hesap kontrolü, dil/uygunluk incelemesi ve program bütünleştirmesi farklı işlerdir. Hesap aracı pedagojik oracle değildir. Romanda yaşayan plan ve sahne brief'iyle prose üretimi, kaynak boyunca okuma, bilgi/karakter ilişkisini değerlendirme, gerekçeli alternatif yazım ve bütünsel editoryal inceleme vardır. Alan yöntemi bankadan aynen kopyalanmaz.
 
-Roman için aynı yer, yazım denemesi, anlatı sırasıyla okuma, karakter bilgi ilişkisi incelemesi, yerel revizyon ve bütünsel editoryal Work taşıyacaktır. Yöntemler soru-bankasından kopyalanmaz. Tam roman yürüyüşü sonraki MS01 checkpoint'idir.
+Çıktıları Artifact candidate, QC, sorun/yeni inquiry veya `need more context` olabilir. Prose'da beliren fikir otomatik kanon değildir; plan sapması izinli yeni yaratıcı aday veya gerçek ihlal olabilir. Seçimi kaynak amaç ve yetkiyle ayırır. Gerekli yerlerde kalite, tutarlılık, amaç ve tercih farklı iddialardır; başka rol/model adı bağımsızlık değildir.
 
-Çıktı `Artifact candidate`, `Qualification Case`, `problem/inquiry candidate` veya `need more context` olabilir. Değerlendiren rol kanıtı/yorumunu bildirir; bağlayıcı karar sadece verilmiş yetkiyle alınır. Farklı rol/model adı bağımsızlık sağlamaz. Genel kod denetimi, alan kaynakları, ayrı çözüm yolu veya gerçek insan görüşü hangi iddiayı taşıyorsa o kapsamda kullanılır.
+Bütünleştirme Work'ü exact Assembly Snapshot'a bakar. Yerel QC'ler kullanılır fakat bütünün ilişkileri, eksikleri ve etkileşimleri ayrıca incelenir. Eleştirinin kaygısı ile önerilen patch ayrıdır. Verilmiş yaratıcı takdirde gerekçeli seçim yapılabilir; evrensel estetik skor veya zorunlu oybirliği yoktur. Gerçek okur/öğrenci etkisi gerekiyorsa uygun ayrı kanıt gerekir; model rol oyunu bu kanıtı yaratmaz.
 
 ### K6 — Run Controller / State Committer / Effect Broker
 
-**Taşıyıcı:** host tarafında deterministik yürütme; anlamsal kararı modelden ayıran geçiş sınırı. **Tetik:** iş başlatma, etki isteği, sonuç/karar kabulü.
+**Tetik/girdi:** start, effect, result-admission ve ortak karar/kurulum; host-bound aktör kimliği, grant, Work mode/revision, claim dönemi, context/konfigürasyon ve ilgili basis. **Taşıyıcı:** host kodu; anlam incelemesi K5'te kalır.
 
-K6, kimliği host tarafından bağlanan aktörün grant'ini, Work/claim'i, kaynak/karar sürümlerini ve gerekli Qualification Case bağlantılarını kontrol eder. Model kendi kimliğini veya grant'ini serbest metinle genişletemez. Değerlendirme sonucu ile yetkili Decision'ı ayrı kaydeder. Kayıt tipinin doğru olması içeriğin doğru olduğunu göstermez; K5'in anlamsal hatası G04 olarak kalır.
-
-Aşağıdaki kontrol noktaları **SOUL taslağının hosttan bağımsız adlarıdır**, gerçek bir ürün API'si değildir:
-
-| Kontrol noktası | Çağıran / girdi | Sonuç |
+| Kontrol noktası | Çağıran ve yapılan iş | Ret/bekleme veya başarı sonucu |
 |---|---|---|
-| `before_work_start` | Dispatcher; Work revision, aktör, yöntem, context ve kaynak rezervasyonu | Claim + Run oluştur veya açık ret/bekleme nedeni dön. |
-| `before_effect` | Araç adaptörü; hedef, işlem, payload revision, grant ve gerekli karar dayanağı | Tam bu etkiye izin ver; yetersiz/uyumsuz durumda çağrıyı gerçekleştirme. |
-| `before_result_admission` | Sonuç kabul yolu; Run, başlangıç dayanakları, yeni artifact/QC/karar | Adayı kaydet; güncel kabul için uyumu denetle; gerekirse yeniden incelemeye ayır. |
-| `after_state_change` | Başarılı State Committer; değişen kimlik/sürüm ve geçiş türü | İlgili readiness/context/qualification projeksiyonlarını yeniden incelemeye işaretle. |
-| `on_resume` | Host yeniden giriş veya liveness olayı | K7 uzlaştırmasını tamamlamadan ilgili belirsiz etkili işi yeniden dispatch etme. |
+| `before_work_start` | Dispatcher; Work kipine uygun yetki/bilgi/aktör/rezervasyon ve revision denetimi. | Claim + Run veya gerekçeli ret. Keşif, nihai ürün QC'si eksik diye otomatik bloklanmaz. |
+| `before_effect` | Araç adaptörü; exact hedef/işlem/payload, grant ve gerekli karar/QC. | Tam bu etkiyi geçir veya çağırma. Dış etki öncesi niyet/operation kimliği kaydedilir. |
+| `before_result_admission` | Sonuç yolu; Run basis'i, candidate artifact/QC, amaç ve birleşim. | Candidate korunur; current/committed kullanım için uygun karar ve güncellik yoksa yeniden inceleme. |
+| `after_state_change` | Başarılı yerel State Committer; değişen kimlikler ve geçiş. | İlgili readiness/context/QC kullanımlarını yeniden incelemeye işaretle. |
+| `on_resume` | Host re-entry/liveness olayı. | K7 uzlaştırması; bilinmeyen etkili işi kör yeniden dispatch etme. |
 
-Her model token'ında global kontrol yapılmaz. Yöntem içinde izinli yerel draft işlemleri paketlenebilir; ortak kabul, erişim genişletme ve dış etki sınırları atlanamaz olmalıdır. Bu atlanamazlık **taslağın uygulama yüküdür**, şu anda verilmiş güvence değildir.
+Hook adları hosttan bağımsız taslak etiketleridir. Hook mekanizmayı çağırır; modelin anlamsal hükmünü doğru yapmaz. Her token/sözcükte global onay yoktur: izinli yerel draft işlemleri paketlenebilir. Ortak kabul, erişim genişletme ve haricî etkilerin kontrol yolunu atlamaması gerçek host mühendisliğinin G03 yüküdür.
 
-Worker'lara doğrudan kontrolü aşan ortak yazma/yayın credential'ı verilirse Effect Broker yalnız tavsiye katmanına düşer. Bu nedenle araç bağlama, sadece isim kaydı değil gerçek kapsamlandırma ve çağrı yolları incelemesi içerir. Yeni araç veya dolaylı araç zinciri bu sınırı koruyamıyorsa o etkiyle devreye alınmaz; izinli inceleme kapasitesi ayrı kalabilir.
+Worker doğrudan ortak yazma/yayın credential'ı taşıyıp bu yolu aşabiliyorsa broker yaptırım değildir. Dolaylı araç zincirleri de admission'da incelenir. Model serbest metinle kendi kimliğini veya grant'ini genişletemez. Rol atamak yetki üstlenmek değildir.
 
-Yerel commit, gözlenen temel revision ve ilgili karar/bağımlılık revision'ları hâlâ uyumluysa uygulanır. Sadece yazılan dosyanın değişmemesi yeterli değildir. Etkisiz kalan değişiklikler için eski içerik yeniden kullanılabilir; uyumluluğu anlamsal olarak kurulamıyorsa aday açık kalır. Bu taslakta şart denetimi ile yerel yazım aynı korunan işlem içinde düşünülür.
+Yerel yazım ve guard aynı korunan işlemde düşünülür. Kontrol yalnız yazılan nesnenin revision'ı değil, maddi karar/kaynak bağımlılıkları ve gerektiğinde assembly'dir. Her metin değişiminde bütün QC'ler kör iptal edilmez; kapsamı uygun bağımsız destek korunabilir, anlamsal uyumluluk bilinmiyorsa yeniden inceleme gerekir.
 
-Dış sistemle tek atomik işlem garantisi varsayılmaz. İşlemden önce intention/operation kimliği tutulur; destekleniyorsa koşullu yazım ve aynı etkiyi çoğaltmayan çağrı kullanılır. Zaman aşımı `effect unknown` üretir; kör retry değil hedef durumun okunması gerekir. Haricî sistem bu imkânları vermiyorsa grant, gözlem ve tekrar sınırı o sağlayıcıya göre daraltılır; evrensel exactly-once iddiası yoktur.
+Dış sistemle tek atomik işlem yoktur. Sağlanabiliyorsa operation identity, koşullu/idempotent çağrı ve hedef readback kullanılır. Timeout `effect unknown`dur; başarısızlık veya etkisizlik diye kesinlenmez. Sağlayıcı bu destekleri vermiyorsa tekrar ve etki sınırı daraltılır. Yerel exactly-once kayıt veya claim, haricî exactly-once etki garantisi değildir.
 
 ### K7 — Change & Recovery Manager
 
-**Tetik:** kaynak/ölçüt/yöntem değişimi; itiraz; kayıp aktör; host yeniden girişi. **Taşıyıcı:** kayıt/gözlem araçları + etkiyi inceleyen model/rol + K6 geçişleri.
+**Tetik/girdi:** kaynak, kriter, yöntem veya tasarım değişimi; itiraz, kayıp aktör ve re-entry; kayıtlı basis, history, claim ve gerçek ortam gözlemi. **Taşıyıcı:** kayıt araçları + etkiyi inceleyen model/rol + K6.
 
-Değişiklikte bilinen `uses/supports/requires` bağlarını takip eder; etki adayı olan Work ve hükümleri işaretler. Yeni iddiayı doğrudan gerçek yapmaz. Eksik anlamsal ilişkiler için K1/K5'e etki incelemesi açar. Etkilenmiş dayanakla kabul edilmiş hükmün gelecekteki kullanımını daraltır; bağımsız destek ve geçerli eski materyali korur. Eski kanıt tarihsel koşullarıyla tutulur.
+Bilinen destek/kullanım bağlarını takip edip etki adaylarını işaretler. K1/K5, kaydedilmemiş ilişki ve yeni Work'leri kaynakla araştırır; graph traversal eksiksiz keşif değildir. Destek çekilmesi ters sonucun kabulü değildir; alternatif geçerli destek ve eski doğru materyal korunur. Eski türetilmiş sonuç başka özette bağımsız öncül olarak geri dönmemelidir.
 
-Yeni aday karar beklerken zedelenmiş eski güvenceyi geçerli saymaz. Yetki içinde bağımlı dış etki bekler; diğer yararlı işler ortak kaynak koşullarıyla devam edebilir. Kabul edilmiş yeni configuration mevcut Run'lara otomatik sızmaz: uygun olanlar eski bağlamda sınırlı tamamlanır, bazıları yeniden bağlanır, bazıları durdurulur. Geç gelen sonuç `before_result_admission` yolunda tekrar değerlendirilir.
+Revision Package, temel birleşim, hedef tasarım, etkilenen/korunan parçalar, yeni işler ve yeniden QC kapsamını bağlar. Yeni yön seçimi metni değiştirmez. Current tasarım ilerlerken manuscript revizyonu açık kalabilir; teslim başka exact baseline'a bağlıdır. Yeni adayın onaysız olması, zedelenmiş eski güvenceyi düzeltmez; ilgili etki bekletilebilir, diğer yararlı işler kaynak sınırlarıyla sürebilir.
 
-Recovery'de yeni B0 önce Mission/current karar, Work, Run/claim, son etki kayıtları ve pending Work'ü okur. Liveness kaybı işin etkisiz kaldığını göstermez. Bilinmeyen etkiyi gözlemlemeden aynı iş yinelenmez. Yerel claim dönemi değiştirilerek eski aktörün sonraki ortak yazımı reddedilir; haricî etki zaten oluşmuşsa silinmez. Yeniden giriş bağlamı bu uzlaştırmadan türetilir, sohbetin kaldığı cümlenin kör devamı değildir.
+Eski Run'ların bazıları bağlı eski konfigürasyonda sınırlı bitebilir, bazıları yeniden bağlanır veya durdurulur; geç sonuçlar K6'da uzlaştırılır. Recovery'de yeni B0 canonical Mission/Work/Run/karar, pending işler ve etki kaydına döner. Liveness kaybı etkisizlik kanıtı değildir. Claim dönemi değiştirilerek eski aktörün geç ortak yazımı reddedilir; önceden gerçekleşmiş dış etki ortadan kalkmaz.
 
-K6'nın değişiklik olayı tek keşif kaynağı değildir: dış kaynak sessiz değişebilir. İlgili kullanımdan önce tazelik okuması, izinli kaynak gözlemi veya tanımlı periyodik Work gerekir. Zamanlayıcı kullanılacaksa gerçek host kabiliyeti olmalıdır; bu not arka planda izleme başlatmaz.
+Reading Pass yeniden kurulurken actual kapsam/konum bilinmiyorsa okunmuş varsayılmaz. Gerekli yeniden okuma yapılır; eski birleşimin incelemesi yenisini otomatik desteklemez. Dış kaynak sessiz değişebileceği için journal tek tazelik kaynağı değildir: ilgili kullanımdan önce kaynak kontrolü, gerçek hostta tanımlı gözlem veya yetkili periyodik Work gerekir. Bu not background iş başlatmaz.
 
-## 6. Bütünün çalışması: ortak dispatch çevrimi
+## 6. Bütünün hareketi
 
-1. Host bir talep, sonuç, değişiklik veya yeniden giriş olayı alır; olayın kimliği/kaynağı korunur.
-2. K1/K7 gereken yorum/uzlaştırmayı üretir. K2 bu sonuçtan bir sonraki anlamlı Work adayını seçer; sırf yeni soru var diye yeni ana program açmaz.
-3. K4 yöntem/aktör/araç bileşimini bağlar; K3 gerekli context'i kurar. Eksik yetenek veya bağlam, hazır iş gibi sunulmaz.
-4. K6 start denetimi ve claim yapar. K5 alan işini yürütür; araç etkileri K6 üzerinden geçer.
-5. Sonuç, kanıt ve yeni soru ayrı kaydedilir. K6 sonuç dayanağını uzlaştırır; gerektiğinde K5 inceleme, yetkili Decision ve K7 revizyon yolu işler.
-6. K2 `return_to` sorusuna veya teslimat kararına döner. Yetkili sonuç dilimi kabul edilip hedefte gözlenirse o dilim kapanır; yıllık mission ve kullanım etkisi ayrıca açık olabilir.
+Host yeni talep/sonuç/değişiklik alır → K1/K7 yorum veya uzlaştırma üretir → K2 next Work ve dönüş kararını seçer → K4 gerçek bileşimi, K3 context'i kurar → K6 start/claim denetler → K5 üretir/inceler → K6 candidate, karar ve etkiyi doğru statüyle bağlar → K2 ana karara veya teslimat/bütünleştirme işine döner.
 
-Bu çevrim tek donmuş phase sırası değildir. Alan üretimi yeni ihtiyacı açabilir; birden fazla izinli Run paralel olabilir. Ancak ortak durum ve etki değişikliklerinin kimliği, yetkisi ve kabul yolu belirli kalır.
+Bu tek yönlü phase zinciri değildir. Üretim yeni bilgi ve yaratıcı tasarım doğurabilir. İzinli Run'lar paralel olabilir. Kontrol koşulları keşif yazımını durdurmadan ortak değişiklik ve dış etkileri sınırlar. K1 ve K5 birbirinden kopuk yönetim/iş dünyaları değildir; alan işi çalışma anlayışını da değiştirebilir.
 
-## 7. Bu checkpoint'te taslak tercihleri ve neyin seçilmediği
+**Romanın getirdiği fark:** tasarım kararı → metinde gerçekleştirme → exact assembly üzerinde ortak inceleme → o assembly'nin yetkili teslimi ayrı hareketlerdir. **Bankanın koruduğu sınır:** küçük iç dilim kabulü yıllık programı veya öğrenci sonucunu tamamlamaz. İkisi aynı kayıt/koordinasyon/etki omurgasını kullanır; aynı alan yöntemi veya tek değerlendirme ölçütünü kullanmaz.
 
-**P1:** Model yönlendirmesi + host yaptırımı; salt prompt veya tam statik süreç değil. **P2:** Mission başına tek mantıksal commit sınırı; paralel aday üretimi serbest. **P3:** Aktör/yöntem/context ayrı ayrı var diye hazırlık kabul edilmiyor; Run için birlikte bağlanıyor. **P4:** Başlangıç, sonuç kabulü ve dış etki ayrı kontrol noktaları; tek start hook yeterli değil. **P5:** Yöntem kütüphanesi pasif/advisory kaynak; etkin configuration'a geçiş kayıtlı seçim/değişiklik gerektiriyor.
+## 7. Sadeleştirme ve açık sınırlar
 
-Belirli model, framework, veritabanı, mesaj kuyruğu, hook API'si, ayrı agent sayısı, dağıtım topolojisi veya evrensel ontology seçilmedi. Bunların ertelenmesi yukarıdaki mekanizma tercihlerini silmez. Yerel prosedürler somutlaştırıldı; keşif, alan üretimi ve değerlendirme yeterliği bu isimlerle kazanılmış sayılmadı.
+K1–K7 işlev kimlikleridir, yedi zorunlu ayrı process/agent değildir. İlk kurulumda K1/K2/K4'ün muhakemesi B0'daki farklı görevler; K3 seçim/erişim araçları; K5 üretim/inceleme çağrıları; K6 host kodu; K7 olayla çağrılan uzlaştırma Work'leri olarak gerçekleşebilir. Gereksiz sürekli çalışan supervisor veya evrensel policy arbiter eklenmedi. Farklı epistemik görev gerektiğinde bağlamlar ayrılır; aynı modelin tekrar çağrılması bağımsızlık sertifikası değildir.
 
-## 8. Devam ve kapanış
+Assembly, Reading Pass, Scene Brief ve Narrative Ledger için ayrı motor gerekçelendirilmedi. Bunlar mevcut Artifact/Work/Run/Context/Decision ilişkilerinin daha yeterli kullanımlarıdır. Baştan bütün romanı formalize etme, her karaktere agent, her sahneye insan onayı, tek büyük hafıza veya her yeni derse yeni global kontrol seçilmedi.
 
-[Soru-bankası yürüyüşü](MS01-QUESTION-BANK-WALKTHROUGH.md) bu taslağı belirli Work/Run/kaynak/karar kimlikleriyle işletir; kontrol noktalarının neyi değiştirdiğini gösterir. [Kapsama kaydı](MS01-COVERAGE-AND-OPEN-MECHANISMS.md), T1–T15/DQ01–DQ04 karşılıklarını ve G01–G07 açıklarını korur.
+G01 keşif; G02 context/anlamsal etki; G03 host sınırı/recovery; G04 yeterlik/oracle; G05 yararlı ilerleme/kapasite; G06 yöntem birleşimi/aktarım; G07 gerçek uzun-eser üretim ve bütünsel değerlendirme açıkları [kapsama kaydında](MS01-COVERAGE-AND-OPEN-MECHANISMS.md) mekanizmalara ve sınanacak iddialara bağlıdır. Özellikle G01/G02/G04 yalnız kodlama işi değildir; bilişsel yöntem ve alan yeterliği yükleri açıkça kalır.
 
-Bu ilk MS01 teslimatı ayrı ayrı yeni DQ makaleleri değil, aynı taslağın başlangıcıdır. Sonraki bounded iş romanın aynı mekanizmalar üzerindeki yürüyüşüdür; değişmesi gereken parça veya sözleşme MS01'de güncellenir. Roman ve birleşim değerlendirmesi tamamlanmadan MS01 v0.1/EXP-004 kapanmış sayılmaz. Öte yandan gerçek runtime ve bütün bilişsel yeterlik deneyleri kavramsal taslağın tamamlanmasıyla karıştırılmaz.
+## 8. Teslimatın statüsü ve devam sınırı
+
+Checkpoint B, roman yürüyüşünü ve iki senaryonun sınırlı birleşim/sadeleştirme incelemesini ekleyerek **MS01 v0.1 kavramsal taslak teslimatını değerlendirmeye hazır** hale getirir. Bu self-review'dur; bağımsız değerlendirme veya işlevsel test değildir. Prose örnekleri, hazır bağımsız holdout değildir. Gerçek tam roman, yıllık banka ve runtime sonuçları yoktur.
+
+EXP-004'ün adlandırılmış yapı ve mekanizma çıkarma işi bu taslakla somut bir değerlendirme noktasına ulaşmıştır; kullanıcı kabulü ve nihai kapanış ayrı kaydedilir. Yeni DQ05, yeni research kampanyası, ürün seçimi veya implementasyon varsayılan sonraki iş değildir. Sonraki iş bu taslağın kullanıcı değerlendirmesi veya adı konmuş bir mekanizma açığına yönelik açık yetkili düzeltmedir.
