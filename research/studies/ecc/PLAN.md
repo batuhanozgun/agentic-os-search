@@ -1,55 +1,65 @@
 # ECC — Adaptive Research Plan
 
-**Version:** 0.34 / 2026-09-21. METHOD 0.1 retained. STATE owns actual work/publication. [Note32](notes/32-USAGE-COST-CONTEXT-AND-RESOURCE-CONTROL.md) answers U14-C's bounded usage/cost/context producer-to-consumer source question. [Sources](evidence/U14-C-SOURCES.md), [MR33](ROUND-U14-C.md). No target script/test/import, Rust build, live host/model, billing query, installation or E10 ran. Whole-ECC synthesis/CORE and joint evaluation remain unfinished.
+**Version:** 0.35 / 2026-09-21. **METHOD:** 0.1 retained. STATE owns actual activation/publication. [Note33](notes/33-NATIVE-SYSTEM-ASSEMBLY-AND-RESEARCH-FRONTIER.md) and [coverage reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md) answer U15-A/Q01a3's provisional native-system assembly question. [Sources](evidence/U15-A-SOURCES.md), [MR34](ROUND-U15-A.md). No new target execution, test, installation, live host/model/service or E10. Final CORE and whole-study evaluation remain unfinished.
 
-## Phase map and authority
+## Phase map
 
-| Phase | Standing / responsibility |
+| Phase | Current standing |
 |---|---|
 | P0 Work/method foundation | Complete; do not restart setup |
-| P1 Native discovery | First-tier dispositions exist; representative recursive/mirror and final omission checks remain |
-| P2 Mechanism slices | U14-A/B/C bounded source answers; other material variants and genuinely unread families must be reconciled before more slices are selected |
-| P3 Subsystems/relations | Native whole-system synthesis unfinished; next U15-A assembles a provisional responsibility/relationship map from original evidence |
-| P4 Project comparison | Then-current Foundation/project and selected studies; joint discussion after completed research |
-| P5 CORE/closure challenge | Material-family accounting, reverse inventory and broad-document holdout remain |
-| P6 Method case | MR33 compares one cumulative producer with different real consumers, separates observation age from shared-file activity and returns to breadth rather than endless helper expansion |
+| P1 Native discovery | Original43-root dispositions retained; selected subtrees refreshed. Full representative recursive/mirror and final omission challenge remain |
+| P2 Mechanism slices | Notes01–32 retain their bounded answers and evidence. Next U15-B follows a genuine delivery/integration source gap, not another repetition of an answered source question |
+| P3 Subsystems/relations | First provisional native responsibility/relationship assembly in Note33. Not final system synthesis or CORE; remaining source can revise it |
+| P4 Project comparison | Then-current Foundation/project and selected studies; whole-study discussion with Batu after completed research |
+| P5 CORE/closure challenge | Reverse inventory, broad-document challenge, material omissions and final consolidation remain |
+| P6 Method case | MR34 records original-note recovery, positive countercontrols and source-gap/empirical-residual separation. Benefit in the next unit is not yet observed |
 
-Fixed target remains affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a. [U07-A family map](inventory/U07-A-FAMILY-MAP.md) is the prior breadth checkpoint, not a current completion claim. Original Notes01–31, ledgers and experiments remain scoped evidence. E06 is excluded; both E05 histories and E04/E07/E08/E09 limits are unchanged. No earlier experiment validates U14-C.
+Fixed target remains `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`. The historical U07-A map is preserved; the U15-A reconciliation extends it. Original notes, ledgers, experiments and corrections remain at their scopes. E06 remains excluded, both E05 histories distinct, and E04/E07/E08/E09 are not universal runtime validation.
 
-## U14-C disposition — Q08c
+## U15-A disposition — Q01a3
 
-**Original criterion:** actual usage/context observation → parsing/estimate/model identity → record/session/time → aggregation/dedup/missingness → warning/budget decision → real operator/stop consumer → repeated/restarted/rotated/changed input. A useful coherent chain and material counterparts are now explained.
+**Original return criterion:** assemble a provisional source-linked native responsibility/relationship map, reconcile completed mechanisms versus genuine source gaps versus stronger empirical claims, and select a justified next source question. This criterion is met by Note33, the12-family reconciliation and exact reading ledger.
 
-Six implementation/helper files and three test files were fully read, alongside the statusline setup example and selected hook/Rust code. The retained original dispatcher/TUI/CLI/data-home bodies supply actual consumption and selection. Tests were NOT RUN. Official Claude hook/statusline references are dated contract comparators, not installed identity, current pricing or billing evidence.
+Notes01–30 were freshly reread in full; Notes31–32 retain complete immediately preceding readings at unchanged identities. U07-A map/ledger and STRUCTURE/TREE-FRONTIER were recovered. Complete bounded metadata for ecc2/src, scripts/lib and integrations was refreshed, with truncated-display recovery. Selected manager/daemon source locates the real configured merge/rebase path; the harness-audit prefix locates a different scorecard. Neither is a completed new mechanism inquiry.
 
-The cost writer emits cumulative snapshots and deduplicates repeated transcript message IDs. JavaScript honors that cumulative contract by selecting the last matching row; Rust sums all rows, then replaces stored totals. With matched IDs/paths, cumulative3 then7 becomes7 in the bridge and10 in Rust. That difference can reach an actual configured hard-budget stop predicate. One-row inputs, a genuine delta producer and the correct JavaScript consumer constrain the conclusion; no operational overcharge/early-stop incident was observed.
+The provisional picture is selectively connected guidance, distribution, work/routing, execution, feedback, knowledge, evaluation and controls. It is neither merely prompts nor one uniform task/session/authority/acceptance engine. TUI can act; registry transactions and capsule locks have real narrower guarantees; same-archive publication is a genuine control for ECC's package. ECC maintenance and user-deliverable qualification are different objects. Working connections, procedural obligations, missing traced links and semantic mismatches remain separate.
 
-Missing measurements can produce new zero-filled cost rows; other missing inputs leave stale Rust values. JSON-first resource identity differs from the environment-first tool tracker, while writer/reader paths remain independently resolved. The estimator prices all accumulated usage with the last known model; an optional fresh cache overrides cost without recording its source or accounting period. The built-in statusline is not that cache writer, and native cost itself is documented as an estimate.
+Q01a2 is NOT closed. No exhaustive recursive body/mirror audit, independent holdout, installed guarantee, final CORE, architecture/adoption or completion percentage follows. Original source findings were not promoted to fresh runtime evidence by being combined.
 
-Context freshness uses a shared bridge activity clock rather than an observation clock. A tool can refresh the clock while retaining an old percentage; unique-temp replacement does not isolate concurrent read-modify-write. Actual model-facing warnings have useful severity/tier/option controls but are neither acknowledged delivery nor a spending reservation. The Rust stopping controller has another purpose and population. Source comparisons do not certify live behavior or effective limits.
+## U15-B / Q04i — next selected source inquiry, NOT STARTED
 
-**Q08c2 OPEN:** installed schema/cadence/path/identity; model/rate/cache and billing provenance; cumulative snapshot ordering/replay; read/rotation/concurrency/durability; full field freshness and warning delivery; actual stopping/overshoot and accepted outcomes. Named unexpanded variants remain source obligations where load-bearing; not every empirical residual requires repeating a completed source slice.
+**Question:** How does a candidate worktree become eligible for integration, what Git change is actually made, and how are outcome, cleanup and retry related to the specific candidate/base and any review or acceptance evidence?
 
-## U15-A / Q01a3 — next selected research checkpoint, NOT STARTED
+**Why next:** execution has been explained but its consequential delivery step remains unassembled. The daemon actually calls an auto-merge wrapper; when enabled it reaches merge_ready_worktrees/process_merge_queue. This is an implemented responsibility, not a hypothetical desired feature. Both assuming no acceptance control and assuming ready-to-merge means accepted task success would be premature.
 
-**Question:** What native working-system picture do the completed mechanism slices now support, and which materially distinct source responsibilities still prevent a bounded whole-ECC explanation?
+**Fixed-pin entry points:**
 
-**Why now:** the U07-A breadth map predates the joined review/runtime/evaluation/coordination/host/provider/release/scanner/observability work. The selected U14 chain is now answered. Continuing to open adjacent helpers without reconciling their contribution risks replacing the original system question with a perpetual code audit. Premature whole-study closure would be equally unjustified.
+- `ecc2/src/session/daemon.rs`: run loop, maybe_auto_merge_ready_worktrees and recorder, adjacent auto-prune caller. U15-A read1–205/290–430; full prune/test behavior remains outside that reading.
+- `ecc2/src/session/manager.rs`: build_merge_queue, merge_session_worktree, rebase_session_worktree, process_merge_queue and actual manual/automatic callers. U15-A read1830–2020: merge_ready_worktrees/process_merge_queue complete, adjacent one-pass function partial.
+- `ecc2/src/worktree/mod.rs`: actual readiness, branch/base resolution, merge/rebase and cleanup helpers reached from those functions.
+- Relevant `session/store.rs`, `main.rs` and `tui/dashboard.rs` methods/arms for persisted outcomes, queue views and user commands, plus exact tests. Follow symbols rather than loading every large file indiscriminately.
 
-**Inputs:** recover U07-A-FAMILY-MAP, STRUCTURE/TREE-FRONTIER and unit discovery/source ledgers; use INDEX/QUESTIONS to route, then reread original notes and source bodies when a synthesis relies on their conditions. Refresh selected pinned subtree inventories where needed. The target pin does not silently change. Metadata and search hits are navigation, not substitute evidence or full-read credit.
+**Trace:** candidate branch/base/revision → admission/readiness/review/queue predicate → Git operation → stored/result status → cleanup/prune → retry, changed base or partial failure. Keep process completion, clean/conflict-free Git state, semantic review, human authority and accepted deliverable distinct. These are questions, not presumed defects.
 
-**Work:** reconcile each previously identified material family with completed bounded findings, genuinely unread implementations/callers and stronger unperformed runtime claims. Identify distinct roles and actual connections, including where similar names hide separate controllers/stores. Produce a provisional source-linked responsibility/relationship map and a justified sequence for remaining source work. Preserve positive mechanisms and countercases. Assess why any deferred family is material rather than using file count or novelty as priority.
+**Return criterion:** one coherent useful qualification-to-integration source path, its normal protections and one material changed/failed/partial counterpart; explain actual downstream result consumption and preserve precise evidence limits. Split a genuinely unread dependency when needed. Do not require a live repository merge or model run for bounded source closure, and do not manufacture a test count. Optional harmless isolated checks require original source identity and criteria recorded before execution.
 
-**Return criterion:** a usable native-system assembly checkpoint, an explicit coverage/obligation reconciliation and a concrete next source question with original-source entry points. If critical dependencies remain unread, mark them as such. This is not final CORE, a completed recursive/mirror/holdout audit, architecture/adoption, universal effectiveness or a completion percentage. Q01a2 and the eventual closure challenge remain separate.
+No upstream mutation, real project merge/rebase, credentials, live provider/host, installation or deployment is authorized by this research unit. Findings/evidence precede entry/receipt/final STATE closure.
 
-This is authorized consolidation and sequencing inside the ongoing ECC research, not a transition to SOUL/Development OS design. No live provider/spend, installation, registry/workflow, upstream remediation or release is authorized. Whole-study evaluation with Batu still follows completed research.
+## Remaining revisable sequence
 
-## Preserved programme and publication discipline
+The detailed G1–G6 questions, concrete entries, relevance and return boundaries are in the [reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md). Only G1/U15-B is selected next. Later groups are provisional internal sequencing, not fixed turn counts:
 
-Notes30–31/Q08a/b remain source-complete with a2/b2 residuals. Notes28–29 preserve release/scanner mechanisms and Q07d2/d4. Note27/E09 and Notes25–26 retain Python/OpenCode source/local boundaries; profiles/templates/backlog/intake/schedules/review/runtime/memory/learning/governance keep their original evidence and questions.
+1. Knowledge/graph/connector representation and actual context/recipient selection, preserving the separate Vault and existing Node/Rust bridges.
+2. Remaining install update/repair/removal and consequential host/procedure/generator variants.
+3. Separate configuration scorecard and optional external-interface/alternate-dashboard roles, bounded at actual ECC-to-provider responsibilities.
+4. Reverse inventory and broad-document challenge; revise provisional synthesis, prepare CORE and perform the authorized whole-study project-facing evaluation.
 
-QUESTIONS preserves Q01a2; Q02a2/b3/c2; Q03b/c; Q04b/c/e1b/e2b/e3b/e4b/f2/g1c/g2b/h2; Q05b/c; Q06b/c2/d1b/d2b; Q07a2/b2/c2/d2/d4; Q08a2/b2/c2; Q09/Q10. U15-A/Q01a3 is an additional assembly obligation, not removal of any of these. Other host/procedure/integration variants, resource boundaries, native syntheses, reverse-inventory/holdout and final comparison remain.
+Do not turn every unrun compatibility or effectiveness test into another mandatory source unit. Conversely, do not disguise a genuinely unexamined caller/algorithm as merely empirical uncertainty. Repeated/generated files require role and material-variant reasoning, not blind exclusion or complete semantic testing of every skill. Independent external-product audits and SOUL implementation remain outside current authority.
 
-Publish findings/evidence before final entry/receipt/STATE closure, use fresh blob/parent identities, inspect actual diffs and readbacks, and never force main. Preserve other studies and concurrent concepts/explorations. No named branch/PR or user upload/merge task is required.
+## Preserved obligations and publication
 
-[Complete preceding PLAN0.33](https://github.com/batuhanozgun/agentic-os-search/blob/3a317aac2f6d0df13c9b049f6d0dd2fb62f33da8/research/studies/ecc/PLAN.md) preserves U14-C's original criterion and earlier detailed dispositions. Original notes, ledgers, experiments, METHOD/WHY and inventory are unchanged.
+QUESTIONS retains Q01a2; Q02a2/b3/c2; Q03b/c; Q04b/c/e1b/e2b/e3b/e4b/f2/g1c/g2b/h2; Q05b/c; Q06b/c2/d1b/d2b; Q07a2/b2/c2/d2/d4; Q08a2/b2/c2; Q09/Q10. Q04i names the newly selected existing delivery responsibility; it does not erase these. Some residuals include named source variants as well as stronger empirical claims, separated in the coverage table.
+
+Writes stay ECC-local plus necessary ECC discovery. Use current blob/parent identities, inspect actual diffs/readbacks and never force main. Preserve concurrent work, original evidence and agent-control. No named branch/PR or user upload/merge task is required. API acceptance alone is not semantic verification; same-assistant readback is not independent research validation.
+
+[Complete preceding PLAN0.34](https://github.com/batuhanozgun/agentic-os-search/blob/352c89e029edcd990e341f4498f3da1e2274727b/research/studies/ecc/PLAN.md) preserves U15-A's original criterion and earlier dispositions. Current STATE determines when publication is verified and U15-B becomes active.
