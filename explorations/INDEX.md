@@ -16,7 +16,9 @@ Yeni paket düzeni: [PACKAGE-CONTRACT.md](PACKAGE-CONTRACT.md).
 
 Üçüncü paket: [EXP-003 — Ek hafıza ve araştırma temelli güvenilirlik](EXP-003-ek-hafiza-ve-arastirma-temelli-guvenilirlik/INDEX.md). İşlem–nesne–mekanizma ayrımları, seçici erişim, Foundation/studies kullanımı ve daha sağlam yapı hedefi; gerçekleşmiş mimari/üstünlük değil. Önceki ölçülmemiş puanlar ayrı nitelendirmelerle korunur.
 
-Birlikte tam okuma: [EXP-001 → EXP-002 → EXP-003](EXP-003-ek-hafiza-ve-arastirma-temelli-guvenilirlik/retrieval/CUMULATIVE-READING.md). Üç diyaloğun toplam 95 kaynak mesajını kendi sıralarıyla okutur; konsolidasyonlar kaynakların yerine geçmez. Önceki [iki-deneme yolu](EXP-002-soul-baz-yapi-ve-entelektuel-taban/retrieval/CUMULATIVE-READING.md) 74 mesajlık kapsamıyla korunur. Eserlerin tam incelenmesi, diyalog tam okumasından ayrı belirtilir.
+Dördüncü paket: [EXP-004 — Genişleyen SOUL ve büyük-iş stress testi](EXP-004-genisleyen-soul-ve-buyuk-is-stress-testi/INDEX.md). Büyük Work altında Mission/Work discovery, role→Actor, context/memory, Environment/execution, qualification/acceptance ve continuity/recovery ayrımlarını sentetik vaka üzerinde zorlar; `Run / Execution Attempt` ve `Qualification Case` candidate runtime objects, kabul edilmiş mimari değildir.
+
+Birlikte tam okuma: [EXP-001 → EXP-002 → EXP-003 → EXP-004](EXP-004-genisleyen-soul-ve-buyuk-is-stress-testi/retrieval/CUMULATIVE-READING.md). Dört diyaloğun toplam 122 substantive kaynak mesajını kendi sıralarıyla okutur; konsolidasyonlar kaynakların yerine geçmez. Önceki [üç-deneme yolu](EXP-003-ek-hafiza-ve-arastirma-temelli-guvenilirlik/retrieval/CUMULATIVE-READING.md) 95 mesajlık, [iki-deneme yolu](EXP-002-soul-baz-yapi-ve-entelektuel-taban/retrieval/CUMULATIVE-READING.md) 74 mesajlık kapsamıyla korunur. Eserlerin tam incelenmesi, diyalog tam okumasından ayrı belirtilir.
 
 ## Sınırlar
 
@@ -29,7 +31,7 @@ Birlikte tam okuma: [EXP-001 → EXP-002 → EXP-003](EXP-003-ek-hafiza-ve-arast
 
 ## Yeniden kullanım
 
-Bir sonraki deneme, hangi önceki kayıttan neyi devraldığını ve neyi yeniden sorguladığını belirtir. EXP-002'nin [devir haritası](EXP-002-soul-baz-yapi-ve-entelektuel-taban/sources/PREDECESSOR-EXP001.md), EXP-001 ile bu ilişkiyi kaynak seviyesinde kurar. EXP-003'ün [öncül kaydı](EXP-003-ek-hafiza-ve-arastirma-temelli-guvenilirlik/sources/PREDECESSORS.md) uzmanlık sürekliliği ve ortak entelektüel taban ile ek hafıza konuşmasını bağlar; gerçek okuma derinliğini ayrıca belirtir.
+Bir sonraki deneme, hangi önceki kayıttan neyi devraldığını ve neyi yeniden sorguladığını belirtir. EXP-002'nin [devir haritası](EXP-002-soul-baz-yapi-ve-entelektuel-taban/sources/PREDECESSOR-EXP001.md), EXP-001 ile bu ilişkiyi kaynak seviyesinde kurar. EXP-003'ün [öncül kaydı](EXP-003-ek-hafiza-ve-arastirma-temelli-guvenilirlik/sources/PREDECESSORS.md) uzmanlık sürekliliği ve ortak entelektüel taban ile ek hafıza konuşmasını bağlar; gerçek okuma derinliğini ayrıca belirtir. EXP-004'ün [öncül kaydı](EXP-004-genisleyen-soul-ve-buyuk-is-stress-testi/sources/PREDECESSORS.md) bu zinciri büyük-iş çalışma sistemi stress testine taşır.
 
 Araştırma ihtiyacı doğarsa araştırma ayrı yetkilendirme ve kendi paketinde yürür. Mimari benimseme de ayrı karardır. Denemelerin topluca okunması Development OS hazırlığını besleyebilir; bu okuma tek başına kurulum veya yeni araştırma yetkisi değildir. Gerçek geçişte güncel proje/target state'i ayrıca ele alınır.
 
