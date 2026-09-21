@@ -1,54 +1,65 @@
 # EXP-004 — STATE
 
-**Durum:** ARCHIVED / MAIN ÜZERİNDE YAYIMLANDI; source, synthesis, reflection, retrieval ve library-router yüzeyleri mevcut.  
-**Kaynak tarih:** 20–21 Eylül 2026; tekil mesaj saatleri üretilmedi.  
-**Kaynak kesimi:** U001–U014 ve S001–S013: 27 substantive mesaj. U014 arşivleme yetkisidir.  
-**Tür:** Kavramsal exploration + sentetik büyük-iş stress testi; gerçek SOUL runtime deneyi değildir.  
-**Yayın:** PR #29, merge `46ab3ff5993683c6124d7786533529e0f6147914`. Ayrıntı: [PUBLICATION](checks/PUBLICATION.md).  
-**Yetki:** Kullanıcının konuşmayı exploration adayı olarak başlatması, stress testini sürdürme yönleri ve U014 “anlaştık. yaz” repository kayıt yetkisi.
+**Güncelleme:** 2026-09-21; T08 devamı ve arşiv sadakati nitelendirmesi.
+**Yayın durumu:** Önceki paket main üzerinde; özgün assistant yanıtlarının eksiksiz aktarımı tamamlanmış sayılmaz. [Kaynak sadakati düzeltmesi](checks/FIDELITY-20260921.md).
+**Güncel exploration:** [T08 — Geri bildirim ve kontrollü uyarlama](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md) kavramsal devam notu. Canlı deney veya mimari kabul değil.
+**Eski kaynak kesimi:** U001–U014 ve S001–S013 toplam 27 mesajı adresler. Kullanıcı metin aktarımı ve yoğunlaştırılmış assistant görünümleri birlikte bulunmaktadır; 27 eksiksiz kaynak gövdesi değildir.
+**Kaynak tarih:** 20–21 Eylül 2026; tekil mesaj saatleri üretilmedi.
+**Önceki yayın:** PR #29, merge `46ab3ff5993683c6124d7786533529e0f6147914`; PR #30 kapanışı `882e0dfd271bd8c284df59f81c882a66a88f9933`. Yayın kanıtı kaynak sadakati kanıtı değildir.
 
-## Amaç
+## Amaç ve güncel yetki
 
 Foundation ve studies birikimini kullanarak, büyük bir işi yapabilmesi için SOUL'un çalışma sisteminde hangi gerçekliklerin, ilişkilerin ve yaşam-döngüsü fonksiyonlarının korunması gerektiğini düşünmek; hazır modül listesini doğrulamak değil, modeli kırmaya çalışmak.
 
-## Kaynak sınırı
+U014 önceki kesimin repository kayıt yetkisidir. Daha sonraki kullanıcı mesajı, telefondan katıldığını belirterek kaldığımız yerden devam edilmesini istedi. Bu yeni yön T08 kavramsal denemesini ve küçük süreklilik kaydını kapsar; Codex/Development OS uygulaması, yeni research campaign veya agent-control değişikliği değildir. Telefondan katılım çalışma kapsamını değiştirmez.
 
-Kaynak mesajlar [sources/conversation](sources/conversation/INDEX.md) altında görünür substantive conversation kesimi olarak korunur. Bu ham platform export'u, gizli muhakeme veya tool log'u değildir. SOURCE-MANIFEST 14 source dosyasını repository blob kimlikleriyle bağlar; hash claim doğruluğunu kanıtlamaz. Ayrıntı: [TRANSCRIPTION-NOTE](checks/TRANSCRIPTION-NOTE.md).
+## Kaynak sadakati — önceki kapanışa düzeltme
+
+Önceki STATE, WORK-PLAN ve yayın yanıtı assistant kaynaklarının tam korunduğunu gereğinden güçlü sundu. S001–S013 kayıtlarında kısaltma/yeniden ifade ve yer yer kaynak sonrası yorum vardır. Özellikle S013'ün sonundaki U014 yetkisine atıf özgün S013'ün bir parçası değildir. Ayrıntı [FIDELITY-20260921](checks/FIDELITY-20260921.md).
+
+Eski kaynak gövdeleri, manifest ve tarihsel yayın kayıtları değiştirilmedi. Tam özgün cevapların yeniden aktarımı bu tur yapılmadı; açık arşiv işi olarak kalır. Kütüphane ve eski cumulative yönlendirmelerdeki 122 mesaj sayısı tam-metne-sadakat güvencesi değildir. Bu düzeltme o eski tamlık ifadelerini nitelendirir; teknik main yayınını geri almaz.
+
+Bu konuşmanın özgün görünür diyaloğu ile kaynak araştırma, T08 devamında doğrudan kullanılabildi. T08 notu da açıkça türetilmiş çalışma kaydıdır; kaynak mesaj transkripti veya eski U/S sayımına ek değildir.
 
 ## Güncel çalışma hipotezi
 
 1. SOUL ile kurduğu çalışma sistemi arasında zorunlu sert sınır bulunmayabilir.
-2. Baz SOUL, Work'ün gerektirdiği Actors, Information, Environment, control, verification, recovery ve diğer organları ekleyerek genişleyebilir.
-3. Büyük işte “ilk iş” çoğu zaman object work değil; Mission qualification, required-condition discovery, Work discovery ve system formation gibi meta-work olabilir.
+2. Baz SOUL, işin gerektirdiği aktör, bilgi, araç ve kontrollerle çalışma düzenini yeniden yapılandırabilir. Bu yalnız sürekli büyüme değildir; sadeleştirme ve zararlı değişikliği geri alma da adaydır.
+3. Büyük işte ilk Work, Mission qualification, required-condition discovery ve çalışma sistemini hazırlama olabilir. Bunların hepsini zorunlu tek meta-work sınıfına indirmiyoruz.
 4. Work baştan tamamen bilinen task tree değildir; execution ve observation sırasında yeni Work keşfedilebilir.
-5. Foundation'ın Work / Actors / Information / Environment ve Binding / Standing / Control / Transition ayrımları bu stress kesiminde yeni first-order ground gerektirmeden ihtiyaçları taşıdı.
-6. Bu durum aynı-model sentetik stress testidir; mimari adoption veya Foundation completeness kanıtı değildir.
+5. Work / Actors / Information / Environment ve Composition ayrımları vaka açıklamasına yardımcı oldu. Bir olayın bu başlıklara yerleştirilebilmesi, uygulama yeterliliği veya Foundation doğrulaması değildir.
+6. Denemeler aynı assistant'ın kavramsal karşıörnekleridir; gerçek SOUL runtime'ı, model öğrenmesi veya bağımsız tekrar değildir.
 
-## Stress-test checkpoint'leri
+## Önceki T1–T7 checkpoint'leri
 
-- **T1 — Mission:** raw request ≠ qualified Mission; Mission beşinci ground olmaktan çok Work/Actors/Information/Environment + Composition üzerinden oluşan composite qualified state adayı.
-- **T2 — Work:** Need/Condition ≠ Work ≠ Action; plan ≠ actual Work; Work progressive discovery taşır; ready ≠ priority ≠ selected ≠ assigned ≠ claimed ≠ executing.
-- **T3 — Actors:** role ≠ Actor; capability ≠ competence ≠ authority; Work demand → capability requirement → role → Actor; organization Actors + Composition ile temsil edilebilir.
-- **T4 — Information/Context:** system Information ≠ Actor context; memory ≠ context ≠ canonical Work state; adequacy consumer/Work-relative composite standing.
-- **T5 — Environment/Execution:** tool exists ≠ capability materialized ≠ Actor access ≠ authority; Work ≠ execution attempt; tool success ≠ realized effect; partial/unknown effect ve readback/reconciliation gerekir.
-- **T6 — Verification/Acceptance:** Work complete ≠ verified ≠ accepted ≠ integrated ≠ Mission achieved; verifier Actor identity bağımsızlık sağlamaz; qualification claim/criterion/object/revision-specific.
-- **T7 — Continuity/Recovery:** Actor state ≠ Run state ≠ Work state; handoff derived view; persistence ≠ continuity; reality reconciliation, invalidation, change impact ve re-entry gerekir.
+- **T1 — Mission:** raw request ≠ qualified Mission; amaç çerçevesi diğer alanlarla ilişkili composite adaydır. Bu, ayrı runtime nesnesi gereksiz demek değildir.
+- **T2 — Work:** Need/Condition ≠ Work ≠ Action; plan ≠ actual Work; discovery sürer; readiness, priority, assignment ve execution ayrı değerlendirilir.
+- **T3 — Actors:** role ≠ Actor; capability, competence ve authority ayrılır. Görev talebinden rol düzeni türetme adayı; zorunlu task→agent eşliği yok.
+- **T4 — Information/Context:** system Information ≠ Actor context; kalıcılık, yeterlilik, erişim ve kullanım ayrı sorulardır.
+- **T5 — Environment/Execution:** tool katalogu ≠ kullanılabilir yetenek; Work ≠ Run; çağrı cevabı ≠ gerçek etki; partial/unknown effect durumları korunur.
+- **T6 — Verification/Acceptance:** tamamlanma, kanıt desteği, kabul, entegrasyon ve hedef etkisi ayrılır; değerlendirme nesne/iddia/kriter/sürüme bağlıdır.
+- **T7 — Continuity/Recovery:** Actor, Run ve Work durumu aynı değildir; kayıt, geçerli devam ve gerçek ortam uzlaştırması farklı koşullardır.
 
-## Aday runtime/work nesneleri — adopted değil
+## T08 — Yeni sonuç ve sınırı
 
-- `Run / Execution Attempt` — Work identity'den ayrı gerçek yürütme denemesi ve effect standing'i.
-- `Qualification Case` — object/revision + claim + criterion + evidence + oracle/method + verifier + result/currentness + varsa recognition/decision.
-- `Re-entry Context` — canonical current state ve relevant history'den belirli Actor/Work için türetilen consumer view; source of truth değil.
-- Need/Condition graph, Work graph ve Artifact/Information graph ayrımı — tek task graph'ın yeterli olmadığına dair güçlü model baskısı; nihai graph architecture değil.
+Kayıtlı ders, geri bildirimin fiilen kullanılması, kalıcı tepki değişimi ve gösterilmiş fayda ayrı iddialardır. Feedback bazen mevcut davranışın sürdürülmesine yol açabilir. Kalıcı değişim kötü de olabilir; occurrence, benefit, authority ve transfer eşitlenmez.
 
-## Repository etkisi ve doğrulama
+Sentetik vakada kaynak/sürüm/kabul nitelikleri bir devir özetinde kaybolur. Yerel sonucu düzeltmek ile aktarım yöntemini değiştirmek ayrılır. Önerilen yöntem değişikliği kendi amacı, kapsamı, yetkisi, karşılaştırmalı sınaması, aktif tüketici yolu ve geri dönüş koşuluyla Work olarak ele alınır. Yeni zorunlu Learning Agent veya learning-service mimarisi kabul edilmedi.
 
-PR #29 exact head `2ed6255f391d71b6be4d3a4b16cf35b703c8a110` ile merge edildi. Başlangıç main `25c2e6615990c4ad9a8acdd508ae5a6acab95b5d`; merge `46ab3ff5993683c6124d7786533529e0f6147914`. Compare yalnız 34 exploration yolu gösterdi: yeni EXP-004 paketi + `explorations/INDEX.md` + `explorations/CATALOG.md`.
+Eski/adayı ayırt eden hata vakaları yanında doğru durumda gereksiz engelleme, farklı vaka, yeni aktör/oturum, destekli kalıcılık ve maliyet sınanmalıdır. Yöntemi sınayan değerlendirme ölçütünü kolaylaştırmak iyileşme sayılmaz. Testler bu tur çalıştırılmadı.
 
-Main readback'te package INDEX, STATE, SOURCE-MANIFEST, conversation INDEX, USER-MESSAGES, S013, CONSOLIDATION ve library INDEX/CATALOG açıldı. User source blob `202b4476b1c6b86a6a12e15e86588b9aacb8e174`; S013 blob `0160921f0fb5999165d0ad6543675e01581c331f`; manifest bunları aynı kimliklerle taşıyor. Bu transfer/readback semantic bağımsız doğrulama değildir.
+Göreve özgü kazanım, yeniden kullanılabilir aday bilgi ve baz SOUL'un ortak davranışına kabul ayrı statülerdir. Yazılmış yöntem ile aktif yöntem farklı olabilir; eski oturumun sürümü, geçiş ve rollback etkisi ayrıca değerlendirilir. Geri alma geçmiş dış etkileri otomatik silmez.
 
-Foundation, studies, concepts ve agent-control bu arşiv tarafından değiştirilmedi. Önceki EXP-001/002/003 kaynakları yeniden yazılmadı.
+## Aday çalışma nesneleri — adopted değil
 
-## Sonraki sınır
+Run / Execution Attempt ve Qualification Case önceki adaylıklarını korur. Re-entry Context türetilmiş görünüm adıdır. Need/Condition, Work ve Artifact ilişkilerini ayırmak üç ayrı fiziksel graph şartı değildir. T08 yeni primitive ilan etmek yerine mevcut iş/kayıt/kanıt/yetki düzeninin yöntem değişimini taşıyıp taşıyamayacağını sorar.
 
-Bu checkpoint'ten sonra aynı conversation devam edecekse doğal stress alanı Feedback / Learning / Persistent Adaptation'tır. Ardından domain-overfit'i sınamak için farklı bir büyük-iş vakası düşünülebilir. Bunlar repository kaydıyla otomatik yetkilendirilmiş yeni çalışma değildir; kullanıcı yönü gerekir.
+## Bu turun repository etkisi
+
+T08 continuation ve kaynak sadakati notu eklendi; STATE/INDEX bu yeni duruma yönlendirilir. Önceki U/S gövdeleri, Foundation, studies, concepts ve agent-control değiştirilmedi. T08 için tam konuşma arşivi veya bağımsız doğrulama iddiası yoktur. Önceki teknik yayın ayrıntıları [PUBLICATION](checks/PUBLICATION.md) içinde tarihsel kapsamıyla korunur.
+
+## Sonraki sorumluluklar
+
+**Kavramsal doğal devam:** eşzamanlı işler/aktörler farklı yöntem değişiklikleri önerdiğinde ortak kaynak, sürüm ve yetki çatışmasının yönetimi. Ardından farklı büyük alan karşı-testi düşünülebilir. Bu not bunları çalıştırmaz veya uygulama izni vermez.
+
+**Açık arşiv sorumluluğu:** S001–S013'ün eksiksiz özgün cevap aktarımı; kaynak ve özet görünümlerinin ayrılması; eski tamlık etiketlerinin ve ilgili yönlendirmelerin bütünsel düzeltilmesi. Mevcut nitelendirme, bu onarımın tamamlandığı anlamına gelmez. Eksiksiz tarihsel kaynak kullanımı gerektiren bir işte yoğunlaştırılmış kayıtlar yeterli sayılmamalıdır.
