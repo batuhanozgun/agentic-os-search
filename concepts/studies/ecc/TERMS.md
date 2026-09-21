@@ -1,8 +1,8 @@
 # ECC — Bağlamlı kullanım kayıtları
 
-2026-09-21 · **B6-T17-C5c / C1–C4-DURABLE-COMPLETE / C5a-COMPLETE / C5b-COMPLETE / U12-A–B2-TRANSFER-COMPLETE / C5c-PARTIAL / PACKAGE-PARTIAL**.
+2026-09-21 · **B6 / C1–C4-DURABLE-COMPLETE / C5a-COMPLETE / C5b-COMPLETE / C5c-U12-COMPLETE / C5-U10–U12-COMPLETE / PACKAGE-PARTIAL / C6-NEXT**.
 
-Bu dosya research/studies/ecc/ Concepts kullanım girişidir. Gerçek dosya/sürüm ve okuma kapsamı [READING.md](READING.md), güncel program yetkisi [global STATE](../../STATE.md) içindedir. ECC source-study ayrı ACTIVE/PARTIAL çalışmadır: son tamamlanmış inquiry U12-C, bu tur görülen source STATE ise **U13-A IN PROGRESS**. Concepts kaynak araştırmasını yürütmez; eşzamanlı source delta READING §5'te açık tutulur.
+Bu dosya research/studies/ecc/ Concepts kullanım girişidir. Gerçek dosya/sürüm ve okuma kapsamı [READING.md](READING.md), program yetkisi [global STATE](../../STATE.md) içindedir. ECC source-study ayrı ACTIVE/PARTIAL çalışmadır; son gözlenen kaynak STATE U13-A'yı complete ve U13-B'yi in progress gösteriyordu. Güncel source yetkisi kendi STATE'inden alınır; Concepts kaynak araştırmasını yürütmez. Yeni U13 materyali READING §6/C6 delta hesabındadır.
 
 ## 1. Bağlı kullanım dosyaları
 
@@ -21,9 +21,10 @@ Bu dosya research/studies/ecc/ Concepts kullanım girişidir. Gerçek dosya/sür
 | U11-E / C5b | [TERMS-TEMPLATE-LAUNCH.md](TERMS-TEMPLATE-LAUNCH.md), TL01–TL74 | Complete |
 | U12-A / C5c | [TERMS-EXECUTION-PROFILES.md](TERMS-EXECUTION-PROFILES.md), EP01–EP84 | Complete |
 | U12-B1 / C5c | [TERMS-OPENCODE-CALLBACKS.md](TERMS-OPENCODE-CALLBACKS.md), OC01–OC92 | Complete |
-| U12-B2 / C5c | [TERMS-OPENCODE-INSTALLATION.md](TERMS-OPENCODE-INSTALLATION.md), OD01–OD91 | Bu tur complete; U12-B combined transfer complete |
+| U12-B2 / C5c | [TERMS-OPENCODE-INSTALLATION.md](TERMS-OPENCODE-INSTALLATION.md), OD01–OD91 | Complete |
+| U12-C / C5c | [TERMS-PYTHON-PROVIDERS-AND-TOOLS.md](TERMS-PYTHON-PROVIDERS-AND-TOOLS.md), PY01–PY108 | Bu tur complete; C5c/C5 kaynak-aile aktarımı kapandı |
 
-Bütün kimlikler ECC- öneki taşır. Bunlar kullanım adresleridir; bağımsız kavram, kanıt veya ilerleme yüzdesi değildir. Bağlı dosyalardaki tarihsel PARTIAL/next ifadeleri kendi checkpoint'lerine aittir. Current aktarım durumu burada ve READING'dedir. B1'in tarihsel dağıtım açıklığı B2 ile bağlanmıştır; eski source anlamı değiştirilmemiştir.
+Bütün kimlikler ECC- öneki taşır. Bunlar kullanım adresleridir; bağımsız kavram, kanıt veya ilerleme yüzdesi değildir. Bağlı dosyalardaki tarihsel PARTIAL/next ifadeleri kendi checkpoint'lerine aittir. Current aktarım durumu burada ve READING'dedir. Bu tablo paket-geneli C6 coverage hükmü değildir.
 
 ## 2. Package-level expressions — korunur
 
@@ -42,28 +43,42 @@ Bütün kimlikler ECC- öneki taşır. Bunlar kullanım adresleridir; bağımsı
 
 ## 3. Current-next ve kapanış sınırı
 
-C1–C4, C5a, C5b ve C5c'nin U12-A/B1/B2 aktarımı tamamlandı. **Exact next: B6-T17-C5c / U12-C — Note27 ve mevcut E09 kanıtı.** Bu tur U12-C gövdesi veya raw E09 okunmadı. Sonra C6 gelir; C5c/C5/ECC Concepts paketi tamamlanmış değildir.
+**U12-C aktarımı, mevcut E09'un read-only ham kayıt incelemesiyle tamamlandı. C1–C4 ile başlangıçta tanımlanmış C5/U10–U12 kaynak-aileleri complete. Exact next: ECC C6 — paket geneli reconciliation. ECC Concepts paketi PARTIAL.**
 
-C6; READING'deki altı tam tarihsel manifest + current kayıt, bütün ECC TERMS, kalan history/inventory/evidence ve **eşzamanlı U13-A source delta** hesabını devralır. Yeni source ROUND/STATE ve devamında oluşan dosyalar sırf eski C1–C5 planında adı yok diye dışlanmaz. Bu, yeni source research başlatma yetkisi değildir. B7 geçmeden B8 ortak referans başlamaz; ECC sonrası seri paket work-management-project-control'dür.
+C6, READING'deki **yedi tam tarihsel manifest + current kayıt**, bütün ECC TERMS, kalan root/master-history/inventory/evidence ve **eşzamanlı U13-A/U13-B/sonraki source delta** hesabını devralır. Yeni kaynaklar eski C1–C5 planında adı yok diye dışlanmaz. Önce fresh canonical source state ve tam current file manifest alınır; eski 159-file baseline current census sayılamaz. Bu, ECC teknik araştırmasına veya B8 ortak kavram kabulüne geçiş değildir.
+
+B7 geçmeden B8 başlamaz. ECC package closure sonrasında seri sıradaki paket work-management-project-control'dür. Post-S1 agentmemory/claude-swap/cli-continues/ponytail kapsamı B7 öncesi ayrıca hesaplanır.
 
 ## 4. Önceki ilişki ve düzeltmelerin tam kaydı
 
-U12-B1 kapanışına kadarki geniş ilişki yönlendirmeleri [5852459 TERMS'in tam sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/5852459c9dc273f3b7aa2911978883424cd5aca7/concepts/studies/ecc/TERMS.md), blob **c4f11c6b2e076b25b8f2e1d021e9ac9a8e652ccd**, korunur. Bu değişmez tam dosya C6 girdisidir; güncel next olarak okunmaz. Önceki tüm kullanım dosyaları ve onların yorum/düzeltme bölümleri yerinde, değişmeden durur.
+U12-B1 kapanışına kadarki geniş ilişki yönlendirmeleri [5852459 TERMS'in tam sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/5852459c9dc273f3b7aa2911978883424cd5aca7/concepts/studies/ecc/TERMS.md), blob **c4f11c6b2e076b25b8f2e1d021e9ac9a8e652ccd**, korunur. B2 kapanışındaki tam router da [592b11b TERMS](https://github.com/batuhanozgun/agentic-os-search/blob/592b11bd726fd39e84e53098507cf5b1a60d92e3/concepts/studies/ecc/TERMS.md), blob **853822149439da418dc4f48d3b008f2221182458** olarak korunur. Bunlar C6 girdileridir; tarihsel next ifadeleri bugünkü işi belirlemez. Önceki tüm kullanım dosyaları ve yorum/düzeltme bölümleri yerinde, değişmeden durur.
 
-Önemli geri çağırma noktaları: O03 capsule/O69 journal; N21 trigger/N76 security dimension ve N32/N77 kaynak eksenleri; SC47 finite schedule/SC61 terminal handling; TL38 slots/TL74 refusal, TL50 completion/TL73 accepted output ve TL72 warning; EP29/EP84 host izinleri ve EP33/EP83 program/base_args. Bunların kaynak gerekçesi ve etki hesabı ilgili TERMS dosyasındadır. OC25/OC55 code-span düzeltmesi biçimseldir; MR26'nın static-import şüphesini bırakması ise OC75'te tarihsel araştırmacı değişimidir.
+Geri çağırma noktaları: O03 capsule/O69 journal; N21 trigger/N76 security dimension ve N32/N77 kaynak eksenleri; SC47 finite schedule/SC61 terminal handling; TL38 slots/TL74 refusal, TL50 completion/TL73 accepted output ve TL72 warning; EP29/EP84 host izinleri ve EP33/EP83 program/base_args. Kaynak gerekçeleri ve etki hesapları ilgili TERMS dosyalarındadır. OC25/OC55 code-span düzeltmesi biçimseldir; MR26'nın static-import şüphesini bırakması OC75'te tarihsel araştırmacı değişimidir.
 
-Aynı sözcükten ortak mekanizma türetilmez: skill/Rust/Node evaluation; session-state/registry transaction; scheduler/remote/backlog error continuation; template creation/delegate reuse; profile selection/native/text/control enforcement kendi consumer ve evidence kapsamlarıyla kalır. Bu kısa router, tam önceki ilişki kaydının veya source kanıtın yerine geçmez.
+Aynı sözcükten ortak mekanizma türetilmez: skill/Rust/Node evaluation; session-state/registry transaction; scheduler/remote/backlog error continuation; template creation/delegate reuse; profile selection/native/text/control enforcement kendi consumer ve evidence kapsamlarında kalır. Bu router tam ilişki kaydı veya source evidence yerine geçmez.
 
-## 5. U12-B2'nin yeni ilişkileri
+## 5. U12-B2 ilişkileri — korunur
 
-OD kayıtları **package contents/selected entry**, **compiled payload/source-plugin route**, **recorded consent/classifier coverage**, **file-origin/export identity**, **trusted-root/canonical-legacy role**, **successful write/surviving payload**, **inventory/command/report/query/scan** ayrımlarını taşır.
+OD kayıtları package contents/selected entry, compiled payload/source-plugin route, recorded consent/classifier coverage, file-origin/export identity, trusted-root/canonical-legacy role, successful write/surviving payload ve inventory/command/report/query/scan ayrımlarını taşır.
 
 OC82–OC87 preparation helper'ının çağrılma sorusu OD13'te actual registry caller'a bağlandı; yine transitive import veya callback uyumu sertifikası değildir. OC88–OC92 materializer/package açıklıkları OD01–OD25 ile tamamlanır. OC07 barrel, OD35–OD38 ayrı-origin factory ilişkisiyle birlikte okunur. OC46'nın çalışan after-hook'u, declined consent kapsamında kalabilen plugin ve duplicate-origin örnekleri için anlamlı conditional consumer'dır; OC21/OC24 replacement-output bulgusu değişmez.
 
-OC11'in dependency-analyzer registration işareti OD61–OD69/OD91 ile implementation/output anlamına kavuşur. Plugin map'inin iki kaydı, bütün sekiz doğrudan tool/barrel kataloğuyla aynı küme değildir. OD70–OD72 command recommendation, OD73–OD75 mevcut report comparison, OD76 gerçek Git query implementation ve OD80 bounded scan olarak ayrı tutulur. Default sıfır, ölçülmüş sıfır değildir; OD78 hata-boşluğu OD79 clean hükmünü daraltır.
+OC11'in dependency-analyzer registration işareti OD61–OD69/OD91 ile implementation/output anlamına kavuşur. Plugin map'inin iki kaydı bütün sekiz doğrudan tool/barrel kataloğuyla aynı küme değildir. OD70–OD72 command recommendation, OD73–OD75 mevcut report comparison, OD76 gerçek Git query implementation ve OD80 bounded scan olarak ayrı tutulur. Default sıfır ölçülmüş sıfır değildir; OD78 hata-boşluğu OD79 clean hükmünü daraltır.
 
-OD17 materialization filtresi ile OD90 .npmignore, OD65 success:true ile OD91 öneri metni taslakta ayrı adreslendi. Eski yayımlanmış TERMS'i değiştirmeyi gerektiren maddi çelişki saptanmadı; yeni OD dosyası ilk remote yayından önce bu açıklıkları içeriyordu. B1/B2 ve installed/current version sınıfları karıştırılmadı; Q02b3/Q03c açık. Yeni host/build/test/installation/deney yapılmadı.
+OD17 materialization filtresi ile OD90 .npmignore, OD65 success:true ile OD91 öneri metni ilk remote yayından önce ayrı adreslenmişti. O tur eski TERMS'i değiştiren maddi düzeltme veya yeni host/build/installation/deney yapılmamıştı. B1/B2/installed/current sınıfları ayrı; Q02b3/Q03c açık kalır.
 
-## 6. İki risk
+## 6. U12-C'nin yeni kullanım ve ilişki sınırları
 
-Batu okuma anındaki anlam seçimlerini denetleyemediğinden dayanak, yorum, belirsizlik ve maddi değişim izlenebilir olmalıdır. Ortak sözcükler ortak anlamı garanti etmez; kaynak kullanımı, araştırmacı/extractor açıklaması ve kullanıcı onayı teknik doğruluk bakımından ayrı kalır. Bu tur consent kapsamı, lifecycle rolü ve başarı metninin kanıt sınıfı somut ayrım noktalarıdır.
+PY01–PY21 selector/provider/model yollarını ayırır. PY14 saved LLM_MODEL, PY20 input.model veya PY21 provider default'un yerine geçmez. PY34/PY37 optional prompt/template yardımcıları, PY05/PY06 gerçek generate/loop caller'larının zorunlu adımları değildir.
+
+PY42 ilk-request tool-definition conversion, PY43 response normalization ve PY52–PY59 next-request history conversion farklı sorumluluklardır. Yerel normal tool round trip PY72, native SDK/API acceptance'ı kanıtlamaz. PY60 registry, PY62 advertised list, PY65/PY66 schema/strict beyanı ve PY67 Python invocation ayrı kabul yüzeyleridir; PY64 unknown-name refusal gerçek olumlu kontrol olarak kalır.
+
+PY74 iteration limit, son effect'i engelleyen bir sınır değildir: PY75'te araç etkisi oluşur, PY76'da loop sentetik limit çıktısı verir. PY78 sonradan provider exception ve PY79 fresh retry, durable/idempotent continuation değildir. PY81 text/id retention ile PY82 structural error field kaybı birlikte korunur; bütün hata bilgisinin yokluğu söylenmez.
+
+Ham E09'dan görülen PY66 strict:true yerel executor şema kontrolü; PY83 accepted scripted result gerçek iş kabulü; PY80 no_internal_retry ise bütün SDK davranışı olarak okunmadı. PY103 sekiz predeclared karşılığın tek run'da uyuşmasıdır; bağımsız sekiz doğrulama veya ürün başarı oranı değildir. PY101/PY102 iki-field checker/corrected fixture, API deneyi değildir.
+
+PY19/PY106 normalization/refusal, PY31/PY107 ModelInfo/list_models ve PY47/PY108 global/CN ilk yayın öncesi ayrı adreslendi. Önceki TERMS dosyalarını değiştirmeyi gerektiren maddi çelişki saptanmadı. Kaynak bağlantıları, sekiz vaka hesabı ve açıklama rolleri yeni dosyanın §12–§13'ündedir. E09 carrier recovery, byte/CRC/member kontrolü ve ham içerik okuması yeni target execution sayılmaz; Q02c2'nin installed/remote/authority/recovery/accepted-outcome sınırları açıktır.
+
+## 7. İki risk
+
+Batu okuma anındaki anlam seçimlerini denetleyemediğinden dayanak, yorum, belirsizlik ve maddi değişim izlenebilir olmalıdır. Ortak sözcükler ortak anlamı garanti etmez; kaynak kullanımı, araştırmacı/extractor açıklaması ve kullanıcı onayı teknik doğruluk bakımından ayrı kalır. U12-C'deki somut ayrım, recorded preference/consumed field ile strict/accepted/retry etiketlerinin actual consumer kapsamlarıdır. B8 ortak tanım veya mimari kabulü yapılmadı.
