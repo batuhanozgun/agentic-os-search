@@ -1,12 +1,12 @@
 # EXP-004 — Genişleyen SOUL ve büyük-iş stress testi
 
-Önce [STATE](STATE.md) okunur. **Güncel odak: T15 — editoryal anlaşmazlık, gerekçeli seçim ve kapanış.** [T15](continuations/T15-NOVEL-EDITORIAL-DISAGREEMENT-AND-CHOICE.md) olgusal itiraz, yorum/okur-etkisi tahmini, yaratıcı tercih, müdahale ve karar yetkisini ayırır; gerçek roman/ajan veya okur deneyi değildir. Okuma kapsamı [T14](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md), anlamsal revizyon [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md), ilk yazılabilir Work [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md)'de korunur. Bilinen kaynak onarımı main'de kapalı; [PUBLICATION](checks/PUBLICATION.md) o tarihsel onarımın yayın kaydıdır.
+Önce [STATE](STATE.md) okunur. **Güncel odak: SY01 — iki senaryodan çalışma sistemi sorumluluklarına ara sentez.** [SY01](artifacts/SY01-CROSS-SCENARIO-WORK-SYSTEM-SYNTHESIS.md), T1–T15'in ortak sorumluluklarını, alana özgü yöntemlerini ve açık kapasite/kanıt yüklerini Development OS, SOUL ve kullanıcı işiyle ilişkilendirir. Yeni test veya kabul edilmiş mimari değildir. Son kavramsal test [T15](continuations/T15-NOVEL-EDITORIAL-DISAGREEMENT-AND-CHOICE.md), okuma kapsamı [T14](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md), anlamsal revizyon [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md), ilk yazılabilir Work [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md)'de korunur. Bilinen kaynak onarımı main'de kapalı; [PUBLICATION](checks/PUBLICATION.md) o tarihsel onarımın yayın kaydıdır.
 
 ## Kaynak, özet ve tarih
 
 [Kaynak diyalog](sources/conversation/INDEX.md): U001–U016/S001–S015, **31 görünür mesajlık korunmuş kesim**. S001–S013 özgün görünür yanıtlardan kısaltılmadan aktarılmıştır. Eski yoğunlaştırmalar [ayrı tarihsel dizinde](artifacts/condensed-before-repair/README.md) aynı Git kimlikleriyle durur. S014 önceki yanlış tamlık bildirimini, S015 açıklamasını taşır. [Aktarım sınırı](checks/TRANSCRIPTION-NOTE.md), [manifest](SOURCE-MANIFEST.json), [onarım](checks/REPAIR-20260921.md) farklı güvence türleridir.
 
-[T1–T7 konsolidasyonu](artifacts/CONSOLIDATION.md) tarihsel türevdir. [T08](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md) ile [tam S015](sources/conversation/assistant/S015.md) aynı belge değildir. U016 [kaynak mesaj](sources/conversation/USER-MESSAGES.md#u016) ve [çerçeve notu](reflections/FRAME-CLARIFICATION-20260921.md) ile bulunur. T09–T15 ve SC02 notları kaynak arşivi sayısını artırmaz; assistant tam konuşma aktarımı diye okunmaz. SC02 kullanıcı mesajını ayrı alıntı olarak korur.
+[T1–T7 konsolidasyonu](artifacts/CONSOLIDATION.md) tarihsel türevdir. [T08](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md) ile [tam S015](sources/conversation/assistant/S015.md) aynı belge değildir. U016 [kaynak mesaj](sources/conversation/USER-MESSAGES.md#u016) ve [çerçeve notu](reflections/FRAME-CLARIFICATION-20260921.md) ile bulunur. T09–T15, SC02 ve SY01 notları kaynak arşivi sayısını artırmaz; assistant tam konuşma aktarımı diye okunmaz. SC02 kullanıcı mesajını ayrı alıntı olarak korur. SY01, eski CONSOLIDATION'ın yerine kaynak olarak geçirilmez; yeni tarihli ara yorumdur.
 
 ## Amaç ve modelin evrimi
 
@@ -44,17 +44,26 @@ Tek çağrıya sığmama evrensel model sınırı sayılmadı; sınırlı çalı
 
 Mikro-parçalar gerçek uzun romanın tamamını veya okur tepkisini temsil etmez. Her yeni fikir otomatik canon, her değişiklik tümünü-yeniden-yazma gereği, her çelişkisizlik edebî başarı değildir.
 
+## SY01 — Ortak sorumluluk, farklı yöntem ve açık kapasite
+
+[SY01](artifacts/SY01-CROSS-SCENARIO-WORK-SYSTEM-SYNTHESIS.md), sekiz geçici sorumluluk grubu ile iki senaryoyu ilişkilendirir. İşin takibi işin konusunu anlamak değildir; role/record/control düzeni alan yetkinliğini kendiliğinden sağlamaz. İhtiyaç, temsil, mekanizma adayı, gerçek kapasite ve gösterilmiş sonuç ayrıdır.
+
+Kullanıcı işindeki sonuç → SOUL'un gerekeni fark edip karşılama kapasitesi → Development OS'un bunu geliştirme/doğrulama sorumluluğu ilişkisi kurulur; üç yazılım katmanı veya otomatik başarı aktarımı değildir. Ortak yükümlülükler farklı alanlarda farklı yöntemlerle karşılanabilir.
+
+Work-first zorunlu zaman sırası değildir; koşullu frontier gerçek aktör/bilgi/ortam/yetkiyle değerlendirilir. Plan gerçek yürütme değildir ama ilgili kabul ve bağlar üzerinden denetim etkisi taşıyabilir. Her keşif meta-work değildir; faaliyet hangi nesneyi değiştirdiğine göre ele alınır. Yeni yorumlar eski kaynakları yeniden yazmaz.
+
 ## Nereden devam edilir?
 
-STATE → T15 → gerektiğinde T14/T13/T12/SC02. Yeterlilik/kapanış T11, kapsama T10, ortak değişim T09, yöntem uyarlaması S015/T08 ve örnek sınırları U016'dadır. Karar açısından önemli önceki ifadede tam kaynağa dönülür; özet kaynak yerine geçmez.
+STATE → SY01 → sorunun gerektirdiği T1–T15 kaynağı. Son roman testi T15'tir. Yeterlilik/kapanış T11, kapsama T10, ortak değişim T09, yöntem uyarlaması S015/T08 ve örnek sınırları U016'dadır. Karar açısından önemli önceki ifadede tam kaynağa dönülür; özet kaynak yerine geçmez.
 
-Sonraki mantıklı çalışma, T1–T15'in iki senaryodaki ortak sorumluluklarını, alana özgü yöntemlerini ve hâlâ mekanizması/kanıtı açık ihtiyaçlarını başlangıçtaki SOUL çalışma-yapısı sorusuna geri bağlayan sınırlı ara sentezdir. Bu sentez henüz yapılmadı. T15 gerçek roman tamamlanması veya mimari kabulü değildir; sonraki aşama kullanıcı yönüyle açılır.
+Ara sentez bu tur tamamlandı; yeni T16, mekanizma araştırması veya mimari kabulü yapılmadı. Sonraki mantıklı dar soru, henüz işaret edilmemiş gereksinim/yetkinlik eksikliğinin keşfi ve karşılanabildiğinin gerekçelendirilmesidir. Yeni aşama sonraki kullanıcı yönü ve kapsamıyla ele alınır.
 
 ## Okuma yolları
 
 | İhtiyaç | Yol |
 |---|---|
 | Güncel durum/yetki | [STATE](STATE.md) |
+| İki senaryonun ara sentezi: sorumluluk/kapasite/kanıt ve üç düzey | [SY01](artifacts/SY01-CROSS-SCENARIO-WORK-SYSTEM-SYNTHESIS.md) |
 | Editoryal görüş ayrılığı: tespit, tercih, yetki ve kapanış | [T15](continuations/T15-NOVEL-EDITORIAL-DISAGREEMENT-AND-CHOICE.md) |
 | Uzun eseri okuma: bölüm/ilişki kapsaması, özet ve ortak bağlam | [T14](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md) |
 | Büyük yaratıcı değişiklik: anlamsal etki, koruma ve revizyon | [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md) |
@@ -77,4 +86,4 @@ Sonraki mantıklı çalışma, T1–T15'in iki senaryodaki ortak sorumlulukları
 
 ## Yetki ve koruma
 
-Run / Execution Attempt, Qualification Case ve Re-entry Context aday ayrımlardır, zorunlu service/schema değildir. Metareasoning/RPD, Re3/DOC, counterfactual rewriting, FABLES, NoLiMa ve LLM-judge referansları algoritma benimsemesi veya bugünkü model performansı iddiası değildir. Mesleki editörlük rehberi evrensel estetik oracle değildir. Kaynak arşivi/manifest, önceki eserler, onarım kanıtı, Foundation, studies, concepts, agent-control, önceki EXP ve target implementation bu devamda değiştirilmez.
+Run / Execution Attempt, Qualification Case ve Re-entry Context aday ayrımlardır, zorunlu service/schema değildir. Metareasoning/RPD, Re3/DOC, counterfactual rewriting, FABLES, NoLiMa ve LLM-judge referansları algoritma benimsemesi veya bugünkü model performansı iddiası değildir. Mesleki editörlük rehberi evrensel estetik oracle değildir. SY01 de zorunlu modül, tek ekip veya uygulanmış sistem tarifi değildir. Kaynak arşivi/manifest, önceki eserler, onarım kanıtı, Foundation, studies, concepts, agent-control, önceki EXP ve target implementation bu devamda değiştirilmez.

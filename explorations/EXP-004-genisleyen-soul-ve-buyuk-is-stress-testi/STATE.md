@@ -1,18 +1,19 @@
 # EXP-004 — STATE
 
-**Güncelleme:** 2026-09-21, T15 editoryal anlaşmazlık, gerekçeli seçim ve kapanış.
+**Güncelleme:** 2026-09-21, SY01 iki senaryo üzerinden çalışma sistemi sorumlulukları ara sentezi.
 **Arşiv:** REPAIRED / MAIN-PUBLISHED. Önceki kaynak-kısaltma/yönlendirme eksikliği o kapsamda kapalıdır; platform export'u veya bağımsız transkripsiyon doğrulaması iddiası yok.
 **Arşiv yayını:** PR #31; merge `b949fe66454a1943ac9c99827e79f68f962658be`, kapanış `e372ed7558b0b0ebbf388c864b0733382d1418ba`. [PUBLICATION](checks/PUBLICATION.md) onarımın tarihsel kontrol kaydıdır; sonraki devamların yayını değildir.
-**Güncel kavramsal çalışma:** [T15 — Roman: editoryal anlaşmazlık, gerekçeli seçim ve kapanış](continuations/T15-NOVEL-EDITORIAL-DISAGREEMENT-AND-CHOICE.md). Olgusal itiraz, yorum/okur-etkisi tahmini, yaratıcı tercih, müdahale ve karar yetkisi ayrıldı. Gerçek roman, ayrı editör ajanları veya okur deneyi yapılmadı.
-**Önceki roman çalışmaları:** [T14](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md), yayın `2d0ac0a650f9f5055ea254b620c7518e78e7fb46`; [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md), yayın `eaa125ef37090f06e65b829d32e1acd22e7c9406`; [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), yayın `4794cf71c27c1d12d02034bc8891423647618570`; senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). T1–T15 konuşma içi kavramsal/sentetik denemelerdir.
-**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T15 ve SC02 notları bu sayımı genişletmez; assistant kaynak transkripti değildir.
+**Güncel kavramsal çalışma:** [SY01 — İki senaryodan çalışma sistemi sorumluluklarına](artifacts/SY01-CROSS-SCENARIO-WORK-SYSTEM-SYNTHESIS.md). T1–T15, ortak sorumluluklar, alana özgü yöntemler ve açık kapasite/kanıt yükleri üzerinden Development OS, SOUL ve kullanıcı işiyle ilişkilendirildi. Yeni test veya mimari kabulü yoktur.
+**Son kavramsal test:** [T15 — Roman: editoryal anlaşmazlık, gerekçeli seçim ve kapanış](continuations/T15-NOVEL-EDITORIAL-DISAGREEMENT-AND-CHOICE.md), yayın `9ce108652e7383ef6a0390fd5272193925cf6fb5`. Olgusal itiraz, yorum/okur-etkisi tahmini, yaratıcı tercih, müdahale ve karar yetkisi ayrıldı. Gerçek roman, ayrı editör ajanları veya okur deneyi yapılmadı.
+**Önceki roman çalışmaları:** [T14](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md), yayın `2d0ac0a650f9f5055ea254b620c7518e78e7fb46`; [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md), yayın `eaa125ef37090f06e65b829d32e1acd22e7c9406`; [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), yayın `4794cf71c27c1d12d02034bc8891423647618570`; senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). T1–T15 konuşma içi kavramsal/sentetik denemelerdir; SY01 yeni test sayılmaz.
+**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T15, SC02 ve SY01 notları bu sayımı genişletmez; assistant kaynak transkripti değildir.
 **Önceki teknik yayınlar:** PR #29 `46ab3ff5993683c6124d7786533529e0f6147914`; PR #30 `882e0dfd271bd8c284df59f81c882a66a88f9933`. Bunlar eski tamlık iddiasını doğrulamıyordu.
 
 ## Amaç ve yetki
 
 Foundation/studies birikimiyle SOUL'un büyük, uzun, çok aktörlü ve baştan tamamen bilinmeyen bir iş için ihtiyaç duyacağı çalışma düzenini sorgulamak. Örnekler otomatik modül, yöntem, kavram tanımı veya mimari kararı değildir.
 
-U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09–T11 yapıldı. Roman SC02'de alternatiflerle değerlendirilip öncelikli ikinci senaryo önerisi oldu; sonraki onaylarla T12–T14 ele alındı. Güncel «güzel, devam et.» yönü T15 kavramsal devamını yetkilendirir. Gerçek roman üretimi, yayıncılık girişimi, SOUL/Development OS kurulumu veya agent-control değişikliği yoktur. Olumlu kullanıcı değerlendirmesi modele veya yeni yaratıcı fikre doğruluk/üstünlük kanıtı değildir.
+U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09–T11 yapıldı. Roman SC02'de alternatiflerle değerlendirilip öncelikli ikinci senaryo önerisi oldu; sonraki onaylarla T12–T15 ele alındı. Kullanıcının Development OS, SOUL ve kullanıcı işi bakımından katkıyı vurgulamasının ardından gelen «devam et lütfen» yönü, önerilmiş SY01 ara sentezini yetkilendirir. Gerçek roman üretimi, yayıncılık girişimi, SOUL/Development OS kurulumu veya agent-control değişikliği yoktur. Olumlu kullanıcı değerlendirmesi modele veya yeni yaratıcı fikre doğruluk/üstünlük kanıtı değildir.
 
 ## Korunmuş kaynak onarımı
 
@@ -100,12 +101,24 @@ Karar, gerçek uygulama, değerlendirme ve teslim ayrı. Seçilmeyen tercih çü
 
 Foundation Composite Standing STATE, Multi-Agent Patterns'ın seçili tarihsel değerlendirmesi, Editors Canada 2024 HTML bölümleri ve Zheng ve diğerlerinin 2023 LLM-judge yazısının ilgili metni kullanıldı. Mesleki rehber estetik oracle, eski model verisi bugünkü performans, eski target mimarisi current yetki yapılmadı. Yeni Decision Agent veya evrensel puanlama sistemi seçilmedi.
 
+## SY01 — İki senaryonun ara sentezi
+
+[SY01](artifacts/SY01-CROSS-SCENARIO-WORK-SYSTEM-SYNTHESIS.md), T1–T15'i sekiz geçici sorumluluk grubunda toplar: amaç/kapsam/takdir; ihtiyaç ve Work keşfi; işin konusu/bilgi/bağlam; yeterli yetkinlik ve ortam; ortak koşullarla yürütme; değerlendirme/seçim/teslim; süreklilik/değişim/onarım; çalışma düzenini kontrollü geliştirme. Bu sekiz-modüllü architecture veya yeni Foundation hiyerarşisi değildir.
+
+İşin takibi ile işin konusunu anlama ayrılır. Sorumluluk, temsil, mekanizma adayı, gerçek kapasite ve gösterilmiş sonuç birbirine yükseltilmez. Ortak yükümlülük her alanda aynı yöntemi gerektirmez; soru-bankası tümüyle nesnel, roman tümüyle öznel diye ayrılmadı.
+
+Kullanıcı işinde gerekli sonuç, SOUL'un bunu fark edip karşılayacak kapasitesi ve Development OS'un ileride o kapasiteyi geliştirme/doğrulama yükü ayrı ilişkilendirildi. Bunlar birbirinden kopuk üç yazılım katmanı değildir; başarı bir düzeyden diğerine otomatik aktarılmaz. Gerçek target-repository uygulama durumu bu tur araştırılmadı.
+
+Üç söyleyiş inceltildi: Work-first zorunlu zaman sırası değil; aktör/bilgi/ortamla karşılıklı keşif var. Aktör/ortam doğrulanmamış frontier koşullu adaydır. Plan gerçek Work değildir ama kabul/bağlar üzerinden denetim etkisi taşıyabilir. Her keşif meta-work değildir; nesnesine göre kullanıcı işinin doğrudan parçası olabilir. Eski kaynaklar bu yeni yorumla yeniden yazılmaz.
+
+En belirgin açık kapasite, işaret edilmemiş yük taşıyan ihtiyacı/ilişkiyi fark etmek ve gereken yeterliği gerçekten sağlamaktır. Karşıörnekleri açıklamak bunu başarmak değildir. Bu tur yeni canlı deney, gerçek roman, başarı ölçümü veya T16 yapılmadı. Yeni dış araştırma yok; mevcut kaynaklar seçici yeniden kullanıldı, tam okuma sınırları SY01'de kayıtlıdır.
+
 ## Repository etkisi
 
-T15 başlangıç main `2d0ac0a650f9f5055ea254b620c7518e78e7fb46`'tır. Dar değişiklik: T15 notu, bu STATE, paket INDEX ve explorations INDEX/CATALOG. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T14, SC02, Foundation, studies, concepts, önceki EXP ve agent-control değişmez.
+SY01 başlangıç main `9ce108652e7383ef6a0390fd5272193925cf6fb5`'tir. Dar değişiklik: SY01 notu, bu STATE ve paket INDEX. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T15, SC02, eski CONSOLIDATION, Foundation, studies, concepts, önceki EXP ve agent-control değişmez. Kütüphane INDEX/CATALOG'daki T1–T15 sayımı ve paket girişine yönlendirme geçerlidir; SY01 bu paketin current STATE/INDEX'inden bulunur.
 
 Bu metin kendi gelecekteki commit'ini veya yapılmamış readback'i ilan etmez. Git ref/diff ve uzak içerik kontrolü yayın sonrasında ayrı yapılır. Teknik transfer, kavramsal yeterlilik veya bağımsız doğrulama değildir.
 
 ## Sonraki sorumluluk
 
-T15 gerekçeli editoryal seçim/kapanış sorusunu bounded biçimde ele aldı; gerçek roman kalitesi veya otomatik karar yöntemi doğrulanmadı. Sonraki mantıklı çalışma, iki senaryonun T1–T15 kazanımlarını ilk «SOUL nasıl bir çalışma yapısı kurmalı?» sorusuna geri bağlayan sınırlı ara sentezdir: ortak sorumluluklar, alana özgü yöntemler, temsil ayrımları ve hâlâ mekanizması/kanıtı açık ihtiyaçlar. Bu sentez henüz yapılmadı; sonraki kullanıcı yönüyle ele alınabilir. Basım/dağıtım/reklam, canlı okur deneyi veya ürün/uygulama yetkisi oluşmaz.
+SY01'in sınırlı sentez çıktısı kullanıcıya döndürülür; T1–T15'in yeni bir mimari veya yeterlik sertifikası olmadığı korunur. Sonraki mantıklı dar soru, SOUL'un henüz işaret edilmemiş bir gereksinimi/yetkinlik eksikliğini nasıl keşfedeceği ve onu karşılayabildiğini neye dayanarak kabul edeceğidir. Bu soru burada yeni test veya mekanizma araştırması olarak işletilmedi; sonraki kullanıcı yönü ve kapsamıyla ele alınabilir. Basım/dağıtım/reklam, canlı okur deneyi veya ürün/uygulama yetkisi oluşmaz.
