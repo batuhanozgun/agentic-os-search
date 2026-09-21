@@ -1,16 +1,16 @@
 # EXP-004 — STATE
 
-**Güncelleme:** 2026-09-21, MS01 Checkpoint B.
-**Güncel durum:** **MS01 — SOUL Çalışma Sistemi Taslağı v0.1 / PROVISIONAL DRAFT, REVIEW READY.** İsimli mekanizmalar, soru-bankası ve roman yürüyüşleri, eski testlerin karşılıkları ve sınırlı birleşim/sadeleştirme incelemesi hazırdır. EXP-004'ün taslakla kapanışı kullanıcı değerlendirmesini bekler; mimari veya gerçekleştirilmiş SOUL yeterliği kabul edilmedi.
-**Güncel yetki:** Kullanıcının A teslimatından sonra verdiği «peki izliyorum ve okuyorum seni. devam et.» yönü, roman yürüyüşü ve aynı MS01 üzerinde gerekli değişiklik/birleşim incelemesini yetkilendirir. Yeni ürün, gerçek roman/öğrenci/okur deneyi, model/provider koşusu veya implementasyon değildir.
-**Paket:** [MS01 ana taslak](artifacts/MS01-SOUL-WORKING-SYSTEM-DRAFT.md), [banka yürüyüşü — A](artifacts/MS01-QUESTION-BANK-WALKTHROUGH.md), [roman yürüyüşü — B](artifacts/MS01-NOVEL-WALKTHROUGH.md), [kapsama/birleşim/açıklar/kaynaklar](artifacts/MS01-COVERAGE-AND-OPEN-MECHANISMS.md).
-**Sonraki sorumluluk:** Bu taslağın kullanıcı değerlendirmesi; varsa adı konmuş mekanizma düzeltmesi. Otomatik yeni DQ05, yeni test kampanyası veya implementasyon yoktur.
+**Güncelleme:** 2026-09-21, MS01 araştırma–mekanizma eşlemesi / Açıklama C.
+**Güncel durum:** **MS01 — SOUL Çalışma Sistemi Taslağı v0.1 / PROVISIONAL DRAFT, REVIEW READY; araştırma-beslemeli somut bileşim açıklandı.** Checkpoint B'de isimli mekanizmalar, iki senaryo ve birleşim incelemesi hazırdı. Kullanıcının sonraki değerlendirme yönüyle, hangi araştırmanın hangi mekanizmasının bu örnekte hangi amaç ve çıktı için kullanıldığı ayrı eşlemeye bağlandı. EXP-004'ün taslakla kapanışı kullanıcı değerlendirmesini bekler; mimari veya gerçekleştirilmiş SOUL yeterliği kabul edilmedi.
+**Güncel yetki:** Kullanıcı Foundation/studies yapılarının bu örnek SOUL'da nasıl kullanıldığını, doğrudan örnekler üzerinden açıklamayı istedi. Hedef nihai SOUL'u seçmek değil, EXP-004'e özgü somut yapıyı ve araştırma bağlantılarını görünür kılmaktır. Yeni ürün, gerçek roman/öğrenci/okur deneyi, model/provider koşusu veya implementasyon değildir.
+**Paket:** [Araştırma→mekanizma ve somut bileşim](artifacts/MS01-RESEARCH-TO-MECHANISM-MAP.md), [MS01 ana taslak — B](artifacts/MS01-SOUL-WORKING-SYSTEM-DRAFT.md), [banka yürüyüşü — A](artifacts/MS01-QUESTION-BANK-WALKTHROUGH.md), [roman yürüyüşü — B](artifacts/MS01-NOVEL-WALKTHROUGH.md), [kapsama/birleşim/açıklar/kaynaklar — B](artifacts/MS01-COVERAGE-AND-OPEN-MECHANISMS.md).
+**Sonraki sorumluluk:** Araştırma bağlarıyla açıklanmış bu somut taslağın kullanıcı değerlendirmesi; varsa adı konmuş mekanizma düzeltmesi. Otomatik yeni DQ05, genel karşılaştırma kampanyası veya implementasyon yoktur.
 
 ## 1. Amaç ve sınır
 
 EXP-004, Foundation/studies birikimiyle SOUL'un büyük, uzun, çok aktörlü ve baştan tam bilinmeyen bir işi nasıl üstleneceğini düşünür. Kullanıcının drift itirazı ve [RV01](reflections/RV01-DIRECTION-REVIEW-AND-MECHANISM-TARGET.md) sonucunda kapanış çıktısı yalnız dikkat maddeleri değil, adlandırılmış parçaları ve işleyişi bulunan bir SOUL taslağı olarak belirginleştirildi.
 
-B'de bu çıktı bir değerlendirme adayına ulaştı. Bu assistant'ın sınırlı self-review hükmüdür; kullanıcı onayı, bağımsız doğrulama veya nihai mimari kabulü değildir. Taslak adları Concepts ortak tanımı veya Foundation ground'larının servis listesi değildir. Gerçek SOUL/Development OS, roman, yıllık soru-bankası veya canlı model/okur/öğrenci deneyi yapılmadı. Yazma yalnız EXP-004'tedir; Foundation, studies, concepts, diğer EXP'ler ve agent-control korunur.
+B'de bu çıktı bir değerlendirme adayına ulaştı; C araştırma–mekanizma bağlantısını ve somut bileşimi açıklar. Bunlar assistant'ın sınırlı self-review ve kaynak karşılaştırmasıdır; kullanıcı onayı, bağımsız doğrulama veya nihai mimari kabulü değildir. Taslak adları Concepts ortak tanımı veya Foundation ground'larının servis listesi değildir. Gerçek SOUL/Development OS, roman, yıllık soru-bankası veya canlı model/okur/öğrenci deneyi yapılmadı. Yazma yalnız EXP-004'tedir; Foundation, studies, concepts, diğer EXP'ler ve agent-control korunur.
 
 ## 2. MS01 A'dan B'ye somut durum
 
@@ -24,7 +24,17 @@ Roman yürüyüşü ilk keşif sahnesini, yazımdan doğan aday fikri, A/B motiv
 
 Banka yürüyüşü Checkpoint A olarak değişmeden kaldı; iç örnek dilim ile yıllık hedef ve öğrenci sonucu ayrımı sürer. O dosyanın «roman sonraki iş» cümleleri tarihsel A yönüdür. Güncel kuyruk bu STATE ve MS01 B tarafından belirlenir.
 
-İki senaryonun sınırlı birleşim/sadeleştirme incelemesi ve T1–T15/DQ01–DQ04 karşılıkları kapsam dosyasında güncellendi. G01 keşif, G02 context/anlamsal etki, G03 gerçek host/etki/recovery, G04 qualification, G05 ilerleme/kapasite, G06 yöntem birleşimi/transfer, G07 gerçek uzun-eser üretme/değerlendirme yeterliği açık kalır. G07'nin kurgusal yürüyüş alt-işi tamamlanması gerçek kapasite açığını kapatmaz.
+İki senaryonun sınırlı birleşim/sadeleştirme incelemesi ve T1–T15/DQ01–DQ04 karşılıkları kapsam dosyasında bulunur. G01 keşif, G02 context/anlamsal etki, G03 gerçek host/etki/recovery, G04 qualification, G05 ilerleme/kapasite, G06 yöntem birleşimi/transfer, G07 gerçek uzun-eser üretme/değerlendirme yeterliği açık kalır. G07'nin kurgusal yürüyüş alt-işinin tamamlanması gerçek kapasite açığını kapatmaz.
+
+## 2A. Açıklama C — araştırmadan bu SOUL'a
+
+Yeni [eşleme](artifacts/MS01-RESEARCH-TO-MECHANISM-MAP.md) dokuz kullanım hattını somutlaştırır: RPD inquiry/return_to; Beads kalıcı iş/frontier/claim; Superpowers controller/task brief/review/ledger; OpenSpec proposed/current/yaşayan plan; gstack qualification/teslim ile araç öncesi hook; Hermes kısa skill indeksi/seçilmiş yükleme; Context/Memory/Harness ve Re3/DOC üretim bağlamı; Leantime hedef/teslimat ayrımı. Her hatta kaynak mekanizma, K1–K7 karşılığı, amaç/çıktı, uyarlama ve taşınmayan özellik ayrıdır.
+
+Foundation girdileri, Work/Actors/Environment, Information/Selection, Binding/Standing, Revision ve Transition/Persistent Adaptation üzerinden hangi somut kayıt ve geçişin anlamını değiştirdikleriyle açıklanır. Araştırma dalı servis sayılmaz. Assembly Snapshot, Reading Pass, B0/grant ve ortak commit gibi yerel bağlantılar tek bir üründen kopyalanmış veya bilimsel olarak yeni bulunmuş sayılmaz.
+
+Somut okuma için host/ortak yazıcı, B0 koordinatör, ayrı üretim–inceleme bağlamları, kalıcı çalışma/kaynak deposu, indeksli yöntemler ve gerçek owner katkısı bir örnek bileşim olarak verildi. Belirli ürün/model/DB veya evrensel agent sayısı seçilmedi. Hermes indeks→tam yükleme ve gstack PreToolUse bağlantıları bu tur primary kaynakla daha açık eşleştirildi; bu ayrıntıların geçmişte aynı açıklıkta kurulduğu iddia edilmez.
+
+Gas Town Hook'u aktöre bağlı iş kuyruğu, MS01 before_effect hook'u çağrı öncesi müdahale noktasıdır; isim benzerliğiyle aynı sayılmadı. Gas Town topolojisi alınmadı. Beads ready ile OpenSpec artifact ready da ayrı tutuldu. Yeni T16, DQ05 veya A/B yürüyüşlerini tekrar çalıştırma yoktur; bu kaynak haritası gizli implementasyon kararı değildir.
 
 ## 3. Korunan birikim ve kaynak statüsü
 
@@ -36,14 +46,14 @@ Arşiv onarımı kapalıdır: PR #31, merge `b949fe66454a1943ac9c99827e79f68f962
 
 ## 4. Yayın ve kanıt sınırı
 
-MS01 A yayını `a0f3ab5f450b28d908a5a89d15a626637e322bfe`, B'nin başlangıcıdır. RV01 yayını `0dd58080eeea4ee8c7eaaaef0902d02fce825edc`. Önceki ana yayınlar: SY01 `000786d1f7742ac87937017ac9cea18a5e329865`; DQ01 `06dcefc2f192cb0cd4eb216d3f3194c2bfa48269`; DQ02 `3a9359a8bdf75203358dcda5b2fcdb2fb3eac3ef`; DQ03 `97627337ad622b715f3a9c562d62bb11ecda5d31`; DQ04 `49029c8ed9027745850627a529290e079c1f09a4`.
+MS01 A yayını `a0f3ab5f450b28d908a5a89d15a626637e322bfe`; B yayını `397a00042171eee39e38ad2b27d4ba72894d4043`, C'nin başlangıcıdır. RV01 yayını `0dd58080eeea4ee8c7eaaaef0902d02fce825edc`. Önceki ana yayınlar: SY01 `000786d1f7742ac87937017ac9cea18a5e329865`; DQ01 `06dcefc2f192cb0cd4eb216d3f3194c2bfa48269`; DQ02 `3a9359a8bdf75203358dcda5b2fcdb2fb3eac3ef`; DQ03 `97627337ad622b715f3a9c562d62bb11ecda5d31`; DQ04 `49029c8ed9027745850627a529290e079c1f09a4`.
 
-B yazma kapsamı yeni roman yürüyüşü, mevcut ana taslak/kapsam dosyası ve bu STATE/INDEX'tir. [A STATE](https://github.com/batuhanozgun/agentic-os-search/blob/a0f3ab5f450b28d908a5a89d15a626637e322bfe/explorations/EXP-004-genisleyen-soul-ve-buyuk-is-stress-testi/STATE.md) ve önceki uzun girişler kendi immutable ref'lerinden korunur. Önceki kaynak ve araştırmalar yeniden yazılmadı.
+B'nin ana taslağı, roman/kapsam dosyaları ve banka A korunur. C yazma kapsamı yeni araştırma–mekanizma eşlemesi ile bu STATE/INDEX'tir. [B STATE](https://github.com/batuhanozgun/agentic-os-search/blob/397a00042171eee39e38ad2b27d4ba72894d4043/explorations/EXP-004-genisleyen-soul-ve-buyuk-is-stress-testi/STATE.md), [A STATE](https://github.com/batuhanozgun/agentic-os-search/blob/a0f3ab5f450b28d908a5a89d15a626637e322bfe/explorations/EXP-004-genisleyen-soul-ve-buyuk-is-stress-testi/STATE.md) ve önceki uzun girişler kendi immutable ref'lerinden korunur. Önceki kaynak ve araştırmalar yeniden yazılmadı.
 
-B'de T12–T15 tam; Context/Memory/Harness META/STATE tam ve synthesis seçici; Re3/DOC primary HTML method bölümleri dar okundu. Gerçek okuma ve kaynak katkıları MS01 kapsam dosyasındadır. Hiçbir model/runtime/DB/hook/test suite çalıştırılmadı. Bu STATE gelecekteki commit/readback başarısını önceden ilan etmez; publication kontrolleri teknik güvence, içerik doğruluğu veya yeterlik kanıtı değildir.
+C'de ilgili repository bulguları ve gstack/Superpowers/Hermes'in dar primary kaynakları geri açıldı; Re3/DOC HTML yöntem metni yeniden karşılaştırıldı. Tam/seçici okuma sınırları yeni eşleme §7'de; A/B'nin önceki okumaları kendi kayıtlarında. Hiçbir model/runtime/DB/hook/test suite çalıştırılmadı. Bu STATE gelecekteki commit/readback başarısını önceden ilan etmez; yayın kontrolleri teknik güvence, içerik doğruluğu veya yeterlik kanıtı değildir.
 
 ## 5. Yeniden giriş ve dönüş noktası
 
-Yeni devralış: **STATE → INDEX → RV01 → MS01 ana taslak → banka A → roman B → kapsama/birleşim/açıklar**. Mevcut araştırma birikiminin ilk devralışında SY01 ve DQ01–DQ04'ün tam okuma rotası korunur. Aynı konuşmada tam okunmuş değişmemiş kaynaklar yeniden okunmuş gibi raporlanmadan kullanılabilir. Karar-kritik noktada asıl T/kaynak ve research primary yüzeyine dönülür.
+Yeni devralış: **STATE → INDEX → RV01 → MS01 ana taslak → araştırma–mekanizma eşlemesi → banka A → roman B → kapsama/birleşim/açıklar**. Mevcut araştırma birikiminin ilk devralışında SY01 ve DQ01–DQ04'ün tam okuma rotası korunur. Aynı konuşmada tam okunmuş değişmemiş kaynaklar yeniden okunmuş gibi raporlanmadan kullanılabilir. Karar-kritik noktada asıl T/kaynak ve research primary yüzeyine dönülür.
 
-Bu checkpoint'te yetkili taslak teslimatı kullanıcıya döndürülür. EXP-004'ün taslakla kapanışı için kullanıcı değerlendirmesi beklenir. Kalan canlı/bilişsel deney yükleri gizlenmez ama sırf onlar açık diye sonsuz soyut araştırmaya dönülmez. Sonraki yetkili iş kullanıcının değerlendirmesi veya yeni yönüyle belirlenir; taslak metni kendiliğinden uygulama talimatı değildir.
+Bu tur kaynak bağlarıyla somutlaştırılan taslak kullanıcıya döndürülür. EXP-004'ün taslakla kapanışı için kullanıcı değerlendirmesi beklenir; son mesaj nihai mimari veya önceki taslağın tüm iddiaları için kabul yapılmaz. Kalan canlı/bilişsel deney yükleri gizlenmez ama sırf onlar açık diye sonsuz soyut araştırmaya dönülmez. Sonraki yetkili iş kullanıcının değerlendirmesi veya yeni yönüyle belirlenir; taslak metni kendiliğinden uygulama talimatı değildir.
