@@ -1,57 +1,51 @@
 # ECC — Adaptive Research Plan
 
-**Version:** 0.32 / 2026-09-21. METHOD 0.1 retained. STATE owns actual work/publication. [Note30](notes/30-READINESS-PREDICATES-AND-OPERATOR-PROJECTIONS.md) answers U14-A's bounded readiness-producer/consumer source question. No target command/test, live GitHub/Linear/host/model probe, installation, workflow or E10. [MR31](ROUND-U14-A.md) records scope and method. Whole-ECC synthesis/CORE and joint evaluation remain unfinished.
+**Version:** 0.33 / 2026-09-21. METHOD0.1 retained. STATE owns actual work/publication. [Note31](notes/31-TOOL-ACTIVITY-INGESTION-AND-RISK-USE.md) answers U14-B's bounded capture-to-consumer source question. No hook/test/import, Rust build, live host/model, installation or E10 ran. [MR32](ROUND-U14-B.md) records method and limits. Whole-ECC native synthesis/CORE and joint evaluation remain unfinished.
 
-## Current result and phase map
-
-[U14-A sources](evidence/U14-A-SOURCES.md) cover four implementation bodies, three test files, the actual root test runner and the native observability document. Previously read package/CI/release consumers retain their exact scopes. Target remains affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a. Primary gh/Node documentation supplies narrow dated contracts, not installed-version or live-count evidence. Indexed 2b6e839 is discovery only.
+## Phase map and authority
 
 | Phase | Standing / responsibility |
 |---|---|
 | P0 Work/method foundation | Complete; do not restart setup |
-| P1 Native discovery | First-tier dispositions at recorded scope; recursive/mirror/representative omissions remain |
-| P2 Mechanism slices | U14-A bounded source answer; U14-B actual tool telemetry/risk chain selected next after publication |
-| P3 Subsystems/relations | Native whole-system synthesis unfinished; candidate groupings are not completed syntheses |
+| P1 Native discovery | First-tier dispositions exist; representative recursive/mirror and omission checks remain |
+| P2 Mechanism slices | U14-B source answer; U14-C usage/cost/context producers and resource-control consumption selected next after publication |
+| P3 Subsystems/relations | Native whole-system synthesis unfinished; proposed groupings are not completed syntheses |
 | P4 Project comparison | Then-current Foundation/project and selected studies; joint discussion after completed research |
 | P5 CORE/closure challenge | Material-family accounting, reverse inventory and broad-document holdout remain |
-| P6 Method case | MR31 distinguishes capability inventory, observed sample, projected verdict and actual consumers without discarding real CI/authority controls |
+| P6 Method case | MR32 joins source selection, event identity, replay, attempted-vs-successful import and actual downstream controls |
 
-[U07-A family map](inventory/U07-A-FAMILY-MAP.md), freshly reread, owns breadth rather than current sequence. Notes01–29 and all experiment records retain their separate scopes. E06 remains excluded; E08 one adapted run; E04/E07 and both E05 histories remain distinct; E09 is one original-module scripted-provider run with eight cases, not telemetry or readiness execution.
+Fixed target remains affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a. The [U07-A family map](inventory/U07-A-FAMILY-MAP.md) owns breadth, not current next-work authority. Notes01–30, original ledgers and experiment histories remain scoped evidence. E06 remains excluded; distinct E05 histories and E04/E07/E08/E09 limits are unchanged. No prior experiment validates U14-B.
 
-## U14-A disposition — Q08a
+## U14-B disposition — Q08b
 
-**Original criterion:** operational question/configuration → actual data/probe → scope/age/missingness → checks/aggregation → readiness representation → operator/executable consumer → failure/update/recheck. Useful normal paths and material projection/coverage counterparts are now explained.
+**Original criterion:** tool event/input → capture/filter/path/session/time → JSONL/persistence → ingestion cursor/dedup/error → risk/store → actual query/operator/control consumer → rotation/retry/missing/changed input. One useful joined path and material counterparts are now explained.
 
-The native observability gate deliberately checks local source/document surfaces. Its ten predicates total21 points; all are required for ready. Marker existence is not functioning telemetry. Negative ready does not itself set the normal CLI exit status, but an actual upstream test asserts the current-repository JSON verdict and the root suite/CI propagate test failure. That positive consumer prevents an overbroad claim that readiness never gates anything.
+[Sources](evidence/U14-B-SOURCES.md) connect native PostToolUse registration, profile/flag dispatch, tracker and agent-data resolver to StateStore ingestion, risk scoring, stored queries, TUI timeline and separate conflict enforcement. The importer is in StateStore; prior manager-ingestion wording was an imprecise entry hint. Normal Rust launch supplies environment session IDs, and row-ID uniqueness provides real replay protection for the same written row.
 
-The operator dashboard actually invokes platform-audit, yet its observability completion row checks only package mapping and doc marker, not the gate's result or even that script's existence. Several current labels derive from historical text rather than fresh external observations. Platform aggregation retains GitHub errors; the Markdown overview re-derives some Current labels from fallback-zero counts without the error flag and uses different, hard-coded thresholds. Detailed requirements and dashboardReady still preserve failure. Skips/unavailable Git are warnings under the platform's fail-only predicate. No false publication approval is inferred: publicationReady is hard-coded false, and several objective rows have no terminal branch. A renderer fixture with ready=true does not show builder reachability.
+The documented native payload and pinned tracker differ in output field, native-call ID and duration handling. Writer data-home and reader DB-parent paths are independently resolved. The importer counts valid unique rows in the current JSONL rather than cumulative stored history: absent input leaves old counters, present empty input can zero them, and files_changed includes read paths. Successful session deletion can leave an old JSONL event whose later insertion fails foreign-key enforcement, stopping import after possible earlier writes. TUI caches the new signature before import and can skip retries on unchanged input; its post-error control policy differs from the CLI helper.
 
-PR/issue counts use returned rows; documented gh defaults cap these at30. Default maximum20 remains conservative for a saturated result; raised thresholds and conflict sampling have different limits. Discussion queries explicitly sample100 discussions/comments20, with total/sample metadata not used as downstream completeness gate. Fresh report time and a later HEAD query do not bind historical/working-tree/live inputs to one atomic observation; write occurs after inspection. No target execution or E10 occurred.
+Risk uses the sanitized/truncated summary; its suggested action is not a pre-action enforcement path here. Typed file activity separately feeds real session pausing and incident/message records. Input sanitation does not automatically cover raw Git-derived previews. Timeline population and timestamp parsing can further limit visible history. Useful controls and meaningful exceptions remain; these are source/dated-contract results, not observed incidents or privacy/safety certification.
 
-**Q08a2 OPEN:** installed gh/Node/API conformance, live population coverage, evidence freshness/identity/authority, renderer/threshold consistency, concurrent and post-write observations, external consumers, operational efficacy and accepted task outcomes. The report source answer does not close real metric production.
+**Q08b2 OPEN:** installed host/schema/path correspondence; full population and original-event identity; end-to-end sanitation; read/rotation/deletion/retry/race/durability behavior; complete graph/other-producer composition; risk calibration, latency and accepted outcomes. No need to rerun completed source work merely to restate stronger empirical limitations.
 
-## Preserved prior dispositions
+## U14-C / Q08c — next selected source inquiry, NOT STARTED
 
-Note29/Q07d3 distinguishes finite IOC matching, source-link reports and independent registry audits. Q07d4 retains installed selection/read/layout/error behavior, current content/threat validity, rule/artifact/authority association and measured safety. Note28/Q07d1 preserves genuine same-archive lifecycle/publish checks and separate actor/shared-pointer/provenance limits; Q07d2 remains stronger release evidence.
+**Question:** Which usage, token, cost and context observations actually drive resource warnings or stopping, and how do identity, estimation, repeat capture, missingness and time affect those decisions?
 
-Note27/Q02c and E09 remain Python source/local evidence, not installed SDK/API/model. Notes25–26/Q02b remain OpenCode source/build/install/loader/callback/tool findings with versioned comparator limits; Q02b3 and Q03c remain. Profiles, templates, backlog/intake/schedules, review, runtime and evaluation retain their original positive mechanisms, conditions and empirical residuals. This plan does not replace original evidence.
+**Why next:** observability/resource control is an existing unclosed family. Note24 identified budget enforcers; Note31 follows tool activity but does not measure token/cost or explain its producer. The dispatcher contains separate metrics/context hooks, while the Stop configuration identifies cost-tracker. Following those sources is more useful than expanding tool-risk work into a universal security audit.
 
-## U14-B / Q08b — next selected source inquiry, NOT STARTED
+**Entries at the fixed pin:** scripts/hooks/cost-tracker.js, scripts/hooks/ecc-metrics-bridge.js and scripts/hooks/ecc-context-monitor.js. Recover actual hook/host fields, transcript or metric helpers, storage paths, tests and callers. Follow costs.jsonl → StateStore::sync_cost_tracker_metrics and the already identified budget/warning consumers where actually connected. Do not assume every similarly named metric stream shares this path. Producer bodies have NOT been read by U14-B; importer/enforcer selected readings are retained context only.
 
-**Question:** How does an actual tool event become a recorded observation and risk assessment; which identity, timing, completeness and error semantics survive capture, ingestion, storage and later use?
+**Trace:** source usage/context observation → parsing/estimate/provider or model identity → record/session/time → aggregation/dedup/missingness → warning/budget predicate → actual operator/stop consumer → repeat/restart/rotation/changed input. Distinguish cumulative snapshots from incremental deltas, price estimate from billed spend, quota from sampled post-hoc enforcement, and context usage from useful retained knowledge. These are questions, not predetermined defects.
 
-**Why next:** the U07-A map retains observability/resource responsibilities, and O-GATE now points concretely at the hook JSONL and Rust risk ledger. Reading the reporting predicates cannot explain whether those signals are truly captured or used. Follow one actual telemetry chain rather than extending readiness prose or opening a universal monitoring audit.
+**Return criterion:** a coherent useful producer-to-resource-decision chain and a material repeated/missing/changed-input or estimation counterpart, with source/test/execution standing and real positive controls. Split genuinely unfinished source dependencies if necessary. A proportionate isolated fixture is optional only with original-source identity and preregistered discriminating criteria; no live spend or host validation campaign is required for bounded source closure.
 
-**Entries at the fixed pin:** scripts/hooks/session-activity-tracker.js and ecc2/src/observability/mod.rs; follow their real hook selectors/callers, metrics/tool-usage.jsonl, session manager sync_tool_activity_metrics, store insert_tool_log/query_tool_logs and actual query/operator consumers. Earlier manager/store readings remain prior context, not a newly completed end-to-end telemetry inquiry. Establish module boundaries before inferring all risk/budget controls share one producer.
+No credentials, live provider/model/registry/workflow, installation/user-home mutation, upstream remediation, release or architecture/adoption is authorized. Preserve the canonical repo; record findings/evidence before final entry/receipt/STATE closure, verify actual diffs/readbacks and never force main.
 
-**Trace:** tool event/input → capture/filter/path/session/time → JSONL/persistence → ingestion cursor/dedup/error handling → risk assessment/store → query/status or control consumer → rotation/retry/missing/changed input. Distinguish requested tool, completed effect, captured event, classified risk, observed usage and authorized/accepted outcome.
+## Preserved source dispositions and remaining programme
 
-**Return criterion:** one coherent actual capture-to-consumer chain and a material missing/duplicate/stale/failed-ingestion counterpart with useful controls and exact evidence limits. Source work can close without a live host/model or universal detection benchmark. Split genuinely unread dependencies if needed. Optional harmless fixtures require a meaningful discriminator and recorded criteria before execution.
+Note30/Q08a answers local prerequisite versus platform observation versus operator projection, retaining the real JSON-assertion/suite/CI consumer and conservative publication boundary. Q08a2 remains stronger live/identity/renderer evidence. Notes28–29 preserve release and scanner source closure with Q07d2/d4 residuals. Note27/E09 and Notes25–26 remain Python/OpenCode source/local studies, not installed conformance. Profiles/templates/backlog/intake/schedule/review/runtime/memory/learning/governance retain their original evidence and questions.
 
-No credentials, live model/provider/registry/workflow, installation/user-home mutation, upstream remediation, release or architecture/adoption is authorized. Broader cost/resource mechanisms are followed only when load-bearing; otherwise they remain explicit subsequent work.
+QUESTIONS preserves Q01a2; Q02a2/b3/c2; Q03b/c; Q04b/c/e1b/e2b/e3b/e4b/f2/g1c/g2b/h2; Q05b/c; Q06b/c2/d1b/d2b; Q07a2/b2/c2/d2/d4; Q08 meanings/a2/b2/c; Q09/Q10. Other material host/procedure/integration variants, resource questions beyond the selected unit, native syntheses, reverse-inventory/holdout, CORE and project comparison remain. File/turn counts do not establish completeness. Joint whole-study evaluation with Batu follows completed research.
 
-## Following priorities and residuals
-
-Other materially different host/procedure/integration variants, remaining external scanner/resource questions, native syntheses from original evidence, reverse-inventory/holdout, CORE and bounded project comparison remain. Note/file/test counts do not establish completion. Whole-study evaluation with Batu follows completed research.
-
-QUESTIONS preserves all original IDs and obligations: Q01a2; Q02a2/b3/c2; Q03b/c; Q04b/c/e1b/e2b/e3b/e4b/f2/g1c/g2b/h2; Q05b/c; Q06b/c2/d1b/d2b; Q07a2/b2/c2/d2/d4; Q08 meanings and a2/b; Q09/Q10. S138/S139 remain partial and S150 is policy, not scanner efficacy. The [full preceding PLAN0.31](https://github.com/batuhanozgun/agentic-os-search/blob/41f6603677ccbe81bb6a467d1bc39f0965794e06/research/studies/ecc/PLAN.md) preserves the original U14-A criterion and earlier detail. Original notes, ledgers, experiments, METHOD/WHY and inventory are unchanged. Preserve concurrent work and never force a stale main update.
+[Complete preceding PLAN0.32](https://github.com/batuhanozgun/agentic-os-search/blob/25e237ee63ad16dd5fa78509ad044ad324b92a3c/research/studies/ecc/PLAN.md) preserves U14-B's original criterion and previous detailed dispositions. Original notes, ledgers, experiments, METHOD/WHY and inventory were not rewritten. Current sequencing is internal research authority, not a new design phase.
