@@ -1,8 +1,8 @@
 # ECC — Bağlamlı kullanım kayıtları
 
-2026-09-21 · **B6 / C1–C4-DURABLE-COMPLETE / C5a-COMPLETE / C5b-COMPLETE / C5c-U12-COMPLETE / C5-U10–U12-COMPLETE / PACKAGE-PARTIAL / C6-NEXT**.
+2026-09-21 · **B6 / C1–C5-SOURCE-FAMILY-TRANSFER-COMPLETE / C6a-CENSUS-COMPLETE / C6-ACTIVE-PARTIAL / PACKAGE-PARTIAL**.
 
-Bu dosya research/studies/ecc/ Concepts kullanım girişidir. Gerçek dosya/sürüm ve okuma kapsamı [READING.md](READING.md), program yetkisi [global STATE](../../STATE.md) içindedir. ECC source-study ayrı ACTIVE/PARTIAL çalışmadır; son gözlenen kaynak STATE U13-A'yı complete ve U13-B'yi in progress gösteriyordu. Güncel source yetkisi kendi STATE'inden alınır; Concepts kaynak araştırmasını yürütmez. Yeni U13 materyali READING §6/C6 delta hesabındadır.
+Bu dosya research/studies/ecc/ Concepts kullanım girişidir. Gerçek dosya/sürüm ve okuma kapsamı [READING.md](READING.md), program yetkisi [global STATE](../../STATE.md) içindedir. ECC source-study ayrı ACTIVE/PARTIAL çalışmadır; C6 girişinde U13-B complete, daha sonraki 23e1b437 source STATE'inde U14-A in progress gözlendi. Güncel source yetkisi kendi STATE'inden alınır; Concepts kaynak araştırmasını yürütmez. [C6-RECONCILIATION.md](C6-RECONCILIATION.md) ve [yaprak manifesti](C6-SOURCE-MANIFEST.tsv) tarihsel okuma kapsamını ve açık deltayı taşır.
 
 ## 1. Bağlı kullanım dosyaları
 
@@ -22,9 +22,9 @@ Bu dosya research/studies/ecc/ Concepts kullanım girişidir. Gerçek dosya/sür
 | U12-A / C5c | [TERMS-EXECUTION-PROFILES.md](TERMS-EXECUTION-PROFILES.md), EP01–EP84 | Complete |
 | U12-B1 / C5c | [TERMS-OPENCODE-CALLBACKS.md](TERMS-OPENCODE-CALLBACKS.md), OC01–OC92 | Complete |
 | U12-B2 / C5c | [TERMS-OPENCODE-INSTALLATION.md](TERMS-OPENCODE-INSTALLATION.md), OD01–OD91 | Complete |
-| U12-C / C5c | [TERMS-PYTHON-PROVIDERS-AND-TOOLS.md](TERMS-PYTHON-PROVIDERS-AND-TOOLS.md), PY01–PY108 | Bu tur complete; C5c/C5 kaynak-aile aktarımı kapandı |
+| U12-C / C5c | [TERMS-PYTHON-PROVIDERS-AND-TOOLS.md](TERMS-PYTHON-PROVIDERS-AND-TOOLS.md), PY01–PY108 | Önceki tur complete; C5c/C5 kaynak-aile aktarımı kapandı |
 
-Bütün kimlikler ECC- öneki taşır. Bunlar kullanım adresleridir; bağımsız kavram, kanıt veya ilerleme yüzdesi değildir. Bağlı dosyalardaki tarihsel PARTIAL/next ifadeleri kendi checkpoint'lerine aittir. Current aktarım durumu burada ve READING'dedir. Bu tablo paket-geneli C6 coverage hükmü değildir.
+Bütün kimlikler ECC- öneki taşır. Bunlar kullanım adresleridir; bağımsız kavram, kanıt veya ilerleme yüzdesi değildir. Bağlı dosyalardaki tarihsel PARTIAL/next ifadeleri kendi checkpoint'lerine aittir. Current aktarım durumu burada ve READING'dedir. Bu tablo paket-geneli C6 coverage hükmü değildir. **Complete, önceki kaynak-aile aktarımının kendi bildirilmiş kapsamıdır; her erken betik ve sıkıştırılmış ham dosya FULL okunmuş demek değildir.** Somut C6 açıkları §8'de ve reconciliation kaydındadır.
 
 ## 2. Package-level expressions — korunur
 
@@ -43,9 +43,9 @@ Bütün kimlikler ECC- öneki taşır. Bunlar kullanım adresleridir; bağımsı
 
 ## 3. Current-next ve kapanış sınırı
 
-**U12-C aktarımı, mevcut E09'un read-only ham kayıt incelemesiyle tamamlandı. C1–C4 ile başlangıçta tanımlanmış C5/U10–U12 kaynak-aileleri complete. Exact next: ECC C6 — paket geneli reconciliation. ECC Concepts paketi PARTIAL.**
+**U12-C aktarımı, mevcut E09'un read-only ham kayıt incelemesiyle önceki tur tamamlandı. C1–C5 source-family kayıtları korunur. C6a census ve tarihsel okuma-dayanağı hesabı tamamlandı; C6 ACTIVE/PARTIAL. Exact next: C6b — erken E01/E02/E03 betiklerinin tam okuması ve mevcut plan/sonuç/kullanımlarla karşılaştırma. ECC Concepts paketi PARTIAL.**
 
-C6, READING'deki **yedi tam tarihsel manifest + current kayıt**, bütün ECC TERMS, kalan root/master-history/inventory/evidence ve **eşzamanlı U13-A/U13-B/sonraki source delta** hesabını devralır. Yeni kaynaklar eski C1–C5 planında adı yok diye dışlanmaz. Önce fresh canonical source state ve tam current file manifest alınır; eski 159-file baseline current census sayılamaz. Bu, ECC teknik araştırmasına veya B8 ortak kavram kabulüne geçiş değildir.
+C6'nın 41f6603 snapshot manifesti 167 kaynak dosyasını adresler; bu bütün gövdelerin okunması veya bütün TERMS'in semantik doğrulaması değildir. H1–H8 tam tarihsel kayıtlar, kalan root/master-history/inventory/evidence ve U13/U14/sonraki source delta reconciliation dosyasında bağlıdır. Yeni kaynaklar eski C1–C5 planında yok diye dışlanmaz. Bir sonraki iş yalnız census tekrarı değil, §8'deki somut içerik açıklarının kapatılmasıdır. Yeni ECC teknik araştırması veya B8 ortak kavram kabulü yapılmaz.
 
 B7 geçmeden B8 başlamaz. ECC package closure sonrasında seri sıradaki paket work-management-project-control'dür. Post-S1 agentmemory/claude-swap/cli-continues/ponytail kapsamı B7 öncesi ayrıca hesaplanır.
 
@@ -82,3 +82,9 @@ PY19/PY106 normalization/refusal, PY31/PY107 ModelInfo/list_models ve PY47/PY108
 ## 7. İki risk
 
 Batu okuma anındaki anlam seçimlerini denetleyemediğinden dayanak, yorum, belirsizlik ve maddi değişim izlenebilir olmalıdır. Ortak sözcükler ortak anlamı garanti etmez; kaynak kullanımı, araştırmacı/extractor açıklaması ve kullanıcı onayı teknik doğruluk bakımından ayrı kalır. U12-C'deki somut ayrım, recorded preference/consumed field ile strict/accepted/retry etiketlerinin actual consumer kapsamlarıdır. B8 ortak tanım veya mimari kabulü yapılmadı.
+
+## 8. C6a kapsam açıklığı — kullanım metinleri değiştirilmedi
+
+[C6-RECONCILIATION §4](C6-RECONCILIATION.md#4-somut-okuma-açıkları-ve-yorum-düzeltmesi) beş erken probe driver için FULL kayıt açığını, üç compressed E04/E05 taşıyıcısının decoded kapsamını ve dört selected master-history dosyasını ayrı gösterir. E06 quarantine nesneleri davranış kanıtı olarak excluded kalır; Node/Python E05 kayıtları birleştirilmez. Bunlar öncelikle **okuma ve package-closure açıklıklarıdır**, mevcut bütün terimlerin yanlışlığı sonucu değildir.
+
+Bu tur yeni kullanım kimliği eklenmedi ve 15 bağlı TERMS dosyası değiştirilmedi. S/W/L'nin ilgili early-evidence karşılıkları sonraki gövde okumalarında denetlenecek; kaynak kapsamı ve önemli anlam değişikliği bulunursa ilişkili kayıtlar birlikte güncellenecek. Bütün dosyaların ID/atıf/rol/ilişki kontrolü henüz C6-complete değildir. Bu router'ın önceki tam sürümü [597a7b1 TERMS](https://github.com/batuhanozgun/agentic-os-search/blob/597a7b1ac0949c6505ce6227c6d4f4d1a46d4c5b/concepts/studies/ecc/TERMS.md), blob **493213cacc7b4943f6bd0ccdcc4b8d984b7ade31**, olarak korunur.
