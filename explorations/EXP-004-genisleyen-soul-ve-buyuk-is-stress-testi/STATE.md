@@ -1,9 +1,10 @@
 # EXP-004 — STATE
 
-**Durum:** ARCHIVE PREPARED / publication checkpoint bu paket yayınlandıktan sonra checks/PUBLICATION.md ile kapanacak.  
+**Durum:** ARCHIVED / MAIN ÜZERİNDE YAYIMLANDI; source, synthesis, reflection, retrieval ve library-router yüzeyleri mevcut.  
 **Kaynak tarih:** 20–21 Eylül 2026; tekil mesaj saatleri üretilmedi.  
 **Kaynak kesimi:** U001–U014 ve S001–S013: 27 substantive mesaj. U014 arşivleme yetkisidir.  
 **Tür:** Kavramsal exploration + sentetik büyük-iş stress testi; gerçek SOUL runtime deneyi değildir.  
+**Yayın:** PR #29, merge `46ab3ff5993683c6124d7786533529e0f6147914`. Ayrıntı: [PUBLICATION](checks/PUBLICATION.md).  
 **Yetki:** Kullanıcının konuşmayı exploration adayı olarak başlatması, stress testini sürdürme yönleri ve U014 “anlaştık. yaz” repository kayıt yetkisi.
 
 ## Amaç
@@ -12,7 +13,7 @@ Foundation ve studies birikimini kullanarak, büyük bir işi yapabilmesi için 
 
 ## Kaynak sınırı
 
-Kaynak mesajlar [sources/conversation](sources/conversation/INDEX.md) altında görünür konuşma kesimi olarak korunur. Bu ham platform export'u, gizli muhakeme veya araç günlüğü değildir. Kullanıcı-visible progress/routing yüzeyleri substantive kaynak yanıtların yerine ayrı mesajlar olarak arşivlenmez; kaynak assistant dosyaları kalıcı substantive cevapları taşır. Ayrıntı: [TRANSCRIPTION-NOTE](checks/TRANSCRIPTION-NOTE.md).
+Kaynak mesajlar [sources/conversation](sources/conversation/INDEX.md) altında görünür substantive conversation kesimi olarak korunur. Bu ham platform export'u, gizli muhakeme veya tool log'u değildir. SOURCE-MANIFEST 14 source dosyasını repository blob kimlikleriyle bağlar; hash claim doğruluğunu kanıtlamaz. Ayrıntı: [TRANSCRIPTION-NOTE](checks/TRANSCRIPTION-NOTE.md).
 
 ## Güncel çalışma hipotezi
 
@@ -40,9 +41,13 @@ Kaynak mesajlar [sources/conversation](sources/conversation/INDEX.md) altında g
 - `Re-entry Context` — canonical current state ve relevant history'den belirli Actor/Work için türetilen consumer view; source of truth değil.
 - Need/Condition graph, Work graph ve Artifact/Information graph ayrımı — tek task graph'ın yeterli olmadığına dair güçlü model baskısı; nihai graph architecture değil.
 
-## Repository etkisi
+## Repository etkisi ve doğrulama
 
-Bu arşiv Foundation, studies, concepts ve agent-control'u değiştirmez. Önceki EXP-001/002/003 kaynakları yeniden yazılmaz. Kütüphane INDEX/CATALOG yeni EXP-004'e yönlendirilir. Publication kapanışı merge/readback sonrası güncellenir.
+PR #29 exact head `2ed6255f391d71b6be4d3a4b16cf35b703c8a110` ile merge edildi. Başlangıç main `25c2e6615990c4ad9a8acdd508ae5a6acab95b5d`; merge `46ab3ff5993683c6124d7786533529e0f6147914`. Compare yalnız 34 exploration yolu gösterdi: yeni EXP-004 paketi + `explorations/INDEX.md` + `explorations/CATALOG.md`.
+
+Main readback'te package INDEX, STATE, SOURCE-MANIFEST, conversation INDEX, USER-MESSAGES, S013, CONSOLIDATION ve library INDEX/CATALOG açıldı. User source blob `202b4476b1c6b86a6a12e15e86588b9aacb8e174`; S013 blob `0160921f0fb5999165d0ad6543675e01581c331f`; manifest bunları aynı kimliklerle taşıyor. Bu transfer/readback semantic bağımsız doğrulama değildir.
+
+Foundation, studies, concepts ve agent-control bu arşiv tarafından değiştirilmedi. Önceki EXP-001/002/003 kaynakları yeniden yazılmadı.
 
 ## Sonraki sınır
 
