@@ -1,52 +1,56 @@
 # EXP-004 — STATE
 
-**Güncelleme:** 2026-09-21, T10 yeni katılım ve kontrol kapsamı devamı.
-**Arşiv:** REPAIRED / MAIN-PUBLISHED. Bilinen kaynak-kısaltma/yönlendirme eksikliği önceki kapsamda kapatıldı; platform-export veya bağımsız transkripsiyon doğrulaması iddiası yok.
-**Arşiv yayını:** PR #31; merge `b949fe66454a1943ac9c99827e79f68f962658be`, kapanış `e372ed7558b0b0ebbf388c864b0733382d1418ba`. [Onarım yayın/kontrol kaydı](checks/PUBLICATION.md) o tarihsel kapsamı taşır; devam notlarının yayınının yerine geçmez.
-**Güncel kavramsal çalışma:** [T10 — Yeni katılım, etki yolları ve denetim kapsamı](continuations/T10-EXTENSION-ADMISSION-AND-CONTROL-COVERAGE.md). T1–T10 konuşma içi kavramsal/sentetik denemelerdir; canlı sistem testi değildir.
-**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09/T10 türetilmiş notlardır; bu sayımı genişletmez.
-**Önceki yayın:** PR #29 `46ab3ff5993683c6124d7786533529e0f6147914`; PR #30 `882e0dfd271bd8c284df59f81c882a66a88f9933`. Teknik yayın önceki tamlık iddiasını doğrulamıyordu.
+**Güncelleme:** 2026-09-21, T11 kanıt yeterliliği ve sınırlı ilerleme.
+**Arşiv:** REPAIRED / MAIN-PUBLISHED. Önceki kaynak-kısaltma/yönlendirme eksikliği o kapsamda kapalıdır; platform export'u veya bağımsız transkripsiyon doğrulaması iddiası yok.
+**Arşiv yayını:** PR #31; merge `b949fe66454a1943ac9c99827e79f68f962658be`, kapanış `e372ed7558b0b0ebbf388c864b0733382d1418ba`. [PUBLICATION](checks/PUBLICATION.md) onarımın tarihsel kontrol kaydıdır; sonraki devamların yayını değildir.
+**Güncel kavramsal çalışma:** [T11 — Kanıt yeterliliği, araştırmayı sınırlama ve ilerleyebilme](continuations/T11-EVIDENCE-SUFFICIENCY-AND-BOUNDED-PROGRESS.md). T1–T11 konuşma içi kavramsal/sentetik denemelerdir; gerçek SOUL/ajan deneyi değildir.
+**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T11 notları bu sayımı genişletmez; kaynak transkripti değildir.
+**Önceki teknik yayınlar:** PR #29 `46ab3ff5993683c6124d7786533529e0f6147914`; PR #30 `882e0dfd271bd8c284df59f81c882a66a88f9933`. Bunlar eski tamlık iddiasını doğrulamıyordu.
 
-## Amaç ve son kullanıcı yönü
+## Amaç ve yetki
 
-Foundation/studies birikimiyle SOUL'un büyük, uzun, çok aktörlü ve baştan tamamen bilinmeyen iş için ihtiyaç duyacağı çalışma düzenini sorgulamak; örnekleri otomatik modül/mimari kararına çevirmemek.
+Foundation/studies birikimiyle SOUL'un büyük, uzun, çok aktörlü ve baştan tamamen bilinmeyen bir iş için ihtiyaç duyacağı çalışma düzenini sorgulamak. Örnekler otomatik modül, yöntem, kavram tanımı veya mimari kararı değildir.
 
-U014 kaynak kayıt yetkisi, U015 T08 devamı, U016 öncelikle arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki «Harika. Devam et kaldığın yerden.» yönüyle T09 yapıldı. Güncel «Test bizi çok titiz bir yapıya doğru götürüyor, bu çok iyi. Devam et lütfen.» mesajı T10 kavramsal devamını yetkilendirir. Olumlu değerlendirme kontrol sayısını artırmaya teknik kanıt değildir. Bu tur uygulama, yeni SOUL/Development OS kurulumu veya agent-control değişikliği yetkilendirilmedi.
+U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09 ve T10 yapıldı. Güncel «Anladım. Devam et» mesajı T10'da açık bırakılan kanıt yeterliliği/bitirebilme karşı-testini yetkilendirir. Bu tur gerçek SOUL/Development OS kurulumu, yeni araştırma kampanyası veya agent-control değişikliği yoktur.
 
 ## Korunmuş kaynak onarımı
 
-İlk S001–S013 özetlenmiş/yeniden ifade edilmişti; S013'e U014 sonrası yorum eklenmişti. Bunlar [tarihsel görünüm dizininde](artifacts/condensed-before-repair/README.md) aynı Git alt-ağaç kimliğiyle korunur. Güncel kaynak yollarına görünür özgün yanıtlar kısaltılmadan yeniden aktarıldı. S014 önceki yanlış tamlık bildirimi, S015 tam T08 cevabı, U016 onarım kaynağıdır. Sonraki onarım cevabı ve devam turları eski kesimde değildir.
+İlk S001–S013 yoğunlaştırılmış/yeniden ifade edilmişti; S013'e sonraki kullanıcı kararına atıf eklenmişti. Bu eski görünümler [tarihsel dizinde](artifacts/condensed-before-repair/README.md) aynı Git kimlikleriyle korunur. Güncel kaynak yollarına görünür özgün yanıtlar kısaltılmadan yeniden aktarıldı. S014 eski yanlış tamlık bildirimi, S015 tam T08 cevabı, U016 onarım kaynağıdır. Sonraki onarım cevabı ve devam turları eski kesimin dışındadır.
 
-Kaynak payload ref'i `f1e93a9f052fb98b3f2e28e987233f3b51193534`; assistant tree `ba3111b97927ebb231947b2a500eee1d534a5a16`; kullanıcı blob'u `1866f243b3771a2d0152bc6b20f67c1a7f3f80c3`; arşiv başlıkları dahil 182.486 byte. Bunlar kimlik/transfer göstergeleridir; doğal dil doğruluğu veya bağımsız transkripsiyon oracle'ı değildir. [Aktarım sınırı](checks/TRANSCRIPTION-NOTE.md), [onarım kontrolleri](checks/REPAIR-20260921.md). Bu tur kaynaklar/manifest/onarım kanıtı değişmedi.
+Kaynak payload ref'i `f1e93a9f052fb98b3f2e28e987233f3b51193534`; assistant tree `ba3111b97927ebb231947b2a500eee1d534a5a16`; kullanıcı blob'u `1866f243b3771a2d0152bc6b20f67c1a7f3f80c3`; arşiv başlıkları dahil 182.486 byte. Bunlar kimlik/transfer göstergeleridir, bağımsız doğal-dil sadakati kanıtı değildir. [Aktarım sınırı](checks/TRANSCRIPTION-NOTE.md), [onarım kontrolleri](checks/REPAIR-20260921.md). Bu tur kaynaklar/manifest/onarım kanıtı değişmez.
 
-## T1–T9'dan devir — hipotez, mimari değil
+## T1–T10'dan devir — hipotez, mimari değil
 
-T1: ham talep ve yeterince belirlenmiş Mission ayrı. T2: ihtiyaç/koşul, Work, plan ve eylem ayrılır; iş keşfi sürer. T3: rol/aktör/capability/competence/authority ayrılır. T4: bilgi varlığı, uygun/erişilebilir bağlam ve kullanım farklıdır. T5: araç kataloğu/kullanılabilir yetenek/Run/gerçek etki ayrı. T6: tamamlanma, kanıt, kabul, entegrasyon ve amaç etkisi aynı değildir. T7: Actor/Run/Work sürekliliği ile kayıt/güncellik/gerçek ortam uzlaştırması ayrılır.
+T1 ham talep/Mission; T2 ihtiyaç-koşul/Work/plan/eylem ve sürekli keşif; T3 rol/aktör/capability/competence/authority; T4 bilgi/bağlam/kullanım; T5 araç/Run/gerçek etki; T6 tamamlanma/kanıt/kabul/entegrasyon/amaç etkisi; T7 kayıt, Actor/Run/Work sürekliliği ve gerçek durumla uzlaştırma ayrımlarını açtı.
 
-[T1–T7 konsolidasyonu](artifacts/CONSOLIDATION.md) ve ilgili reflection'lar tarihsel türetilmiş eserlerdir. Güncel devamı tek başlarına belirlemezler. Geniş başlıklarda temsil edebilmek uygulama yeterliliği veya bağımsız Foundation doğrulaması değildir.
+[T1–T7 konsolidasyonu](artifacts/CONSOLIDATION.md) ve reflection'lar kendi checkpoint'lerinin tarihsel türevleridir. Geniş kategorilere yerleştirebilmek uygulama yeterliliği veya bağımsız Foundation doğrulaması değildir.
 
-[T08](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md) / [S015](sources/conversation/assistant/S015.md): ders kaydı, geri bildirim kullanımı, kalıcı tepki değişimi, fayda, yetki ve transfer ayrı. Yöntem değişimi de kapsam/kanıt/yetki/aktif kullanım/geri dönüş koşullarıyla Work olabilir; deney yapılmadı.
+[T08](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md) / [S015](sources/conversation/assistant/S015.md): ders kaydı, fiilî geri bildirim, kalıcı değişim, fayda, yetki ve transfer ayrı. Yöntem değişimi de kanıtı/etki yolu/geri dönüşü olan Work olabilir.
 
-[U016](sources/conversation/USER-MESSAGES.md#u016) yeni işlevlerle mevcut işlevlerin yeni aktör/kaynakları kapsamasını birlikte düşündüğünü açıklar. Dikey/yatay, iki dosya ve klasör örnektir; branch çağrışımı araç önerisi değildir. [FRAME-CLARIFICATION](reflections/FRAME-CLARIFICATION-20260921.md) kaynak/yorum sınırlarını korur.
+[U016](sources/conversation/USER-MESSAGES.md#u016) yeni işlevlerle mevcut işlevlerin yeni katılımı kapsamasını birlikte düşünür. Dikey/yatay, iki dosya ve klasör açıklayıcı örneklerdir; branch çağrışımı araç seçimi değildir. [FRAME-CLARIFICATION](reflections/FRAME-CLARIFICATION-20260921.md) kaynak/yorum sınırını korur.
 
-[T09](continuations/T09-CONCURRENT-CHANGE-AND-SHARED-CONSTRAINTS.md): birbirinin kalmasını varsayan iki denetim aynı anda kaldırılabilir. Yerel PASS'lerin toplamı ortak uygunluk değildir. 60 dakika kapasiteye karşı 40+35 dakika iş tekil hazırlık ile ortak taahhüdü ayırır. Kabulün dayanak duruma bağlanması ve aktif geçişte boşluk bırakmama tasarım baskısıdır. Bu, merkezi her-şeyi-kilitleyen sistem veya canlı güvence sonucu değildir. T09 yayını `7de46ddbae29366cb4338b41f57d844a611a43d8`; tarihsel kaynak ve sınamalar kendi notunda korunur.
+[T09](continuations/T09-CONCURRENT-CHANGE-AND-SHARED-CONSTRAINTS.md): tekil uygunluk ortak uygunluk değildir; tekil hazırlık ortak kapasite taahhüdü değildir; güvenli uçlar güvenli geçişi garanti etmez. T09 yayını `7de46ddbae29366cb4338b41f57d844a611a43d8`.
 
-## T10 — Yeni sonuç ve sınır
+[T10](continuations/T10-EXTENSION-ADMISSION-AND-CONTROL-COVERAGE.md): yeni yol eski kontrol bozulmadan kapsam dışına çıkabilir. Yetenek oluşturma/etkilere kabul, yükümlülük/kontrol tekniği, doğrudan/dolaylı etki, gerekli/uygulanmış/gözlenmiş kapsam ayrılır. Kritik etki beklerken gerçekten sınırlanmış yararlı işler sürebilir. T10 yayını `42ee649f9dfb0809f76555f70b4694297a5e8a8c`. C10 karşı durumları çalıştırılmış deney değildir.
 
-Yeni görsel düzenleme aktörü/aracı doğrudan yayın yolu eklediğinde eski kontrol hiç bozulmadan kapsam dışında kalabilir. Bir parçanın görevini yapabilmesi, ortak düzene ilgili yükümlülükleriyle kabul edildiğini göstermez. Yükümlülük yeni çıktıya uygulanabilir; eski kontrol tekniği yeni biçime yeterli olmayabilir. Mevcut uygun güvence yeniden kullanılabilir; kör kontrol kopyası zorunlu değildir.
+## T11 — Yeni katkı ve sınırı
 
-Doğrudan araç yetkisi, dolaylı başka aktör/servis üzerinden etki ve meşru delegasyon ayrılır. Aktörün varlığı veya bağlı araç, otomatik geniş yetki değildir. Yeni katılımın iş/rol/veri/çıktı/sürüm/etki yolu için uygun kabul kapsamı düşünülür. Taslak üretimi gibi gerçekten sınırlanmış işler canlı etki yetkisi açılmadan yürüyebilir.
+[T11](continuations/T11-EVIDENCE-SUFFICIENCY-AND-BOUNDED-PROGRESS.md) kontrol/araştırma yüzünden teslim edememeyi karşı-test yapar. Kurulu vakada, ilk kullanım için bağımsız yararlı kademeli teslimat önceden izinlidir; 40 metin sorusu o dilimin gerekli şartlarını karşılar, 10 ek görselin güvencesi açık kalır. Uygun dilim ilerleyebilir; görseller ve yıllık program tamamlandı sayılmaz. Görsel zorunluysa veya bölme yetkisi yoksa aynı karar çıkmaz.
 
-Gerekli kapsama, fiilî uygulama ve gözlem/sınama kanıtı üç ayrı soru. Yalnız eski yolun izlerini saymak tüm etki yollarını ölçmez. Normal işlem kadar ilgili retry/bakım/yeniden başlatma yolları da dikkate alınır; bilinmeyen kapsam açık tutulur. Kontrol arızası sessiz bypass veya bütün sistemi durdurma ikilemi değildir; kritik etki sınırlandırılırken uygun güvenli işler sürebilir.
+Açık soru her karar için blocker değildir; hedefin gereği ile seçilmiş yöntemin gereği, bugünkü koşulla gelecekteki ihtiyaç ayrılır. Kanıt yeterliliği belirli sonraki etki/kullanım/sürüm içindir; en iyi yöntemi bulmuş olma veya kusursuzluk iddiası değildir. Aynı-kör incelemenin tekrarı kanıt üretmez; kritik karşı kanıt ise yorgunluk/bütçe nedeniyle bastırılamaz.
 
-C10-1–8 karşı durumları tasarlanmış, uygulamada çalıştırılmamıştır. Foundation Control ve SDLC candidate study seçici geri çağrıldı; Anthropic'in birinci taraf dolaylı-aktör örneği, Saltzer–Schroeder'in erişim-koruma ilkeleri ve MCP token-passthrough sınırı dar birincil kaynak okumasıyla kullanıldı. Yeni servis/şema, protokol seçimi, gerçek güvenlik sertifikası veya bağımsız SOUL doğrulaması yok.
+Ek araştırmanın karar/güvence katkısı ile gecikme/kaynak/fırsat maliyeti birlikte düşünülür. Kesin olasılık veya skor uydurulmaz, zorunlu yetki/kabul şartı tek fayda puanına eritilmez. Tek araştırma adımıyla sınırlı bakmak da yetersiz olabilir; tamamlayıcı sınırlı araştırma dizisi değerli olabilir. Metareasoning maliyeti ikinci sonsuz süreç haline getirilmez.
 
-## Repository etkisi ve yayın sınırı
+Araştırmayı durdurmak, bütçede kesilmek, eseri kabul etmek ve işi başarıyla bitirmek ayrı sonuçlardır. Yerel kapanışın kapsamı/dayanağı/kalan belirsizliği ve yeniden açma koşulları korunabilir. Bekleyen işler sorumlusu ve geri dönüş koşuluyla açık kalır. Her yeni oturum kapalı işleri yeniden açmaz; maddi yeni kanıt açabilir.
 
-Başlangıç main: `7de46ddbae29366cb4338b41f57d844a611a43d8`. Dar değişiklik: T10 notu, STATE, paket INDEX ve iki explorations kütüphane girişi. T1–T9 eserleri, tam kaynak kesimi, manifest, onarım kayıtları, Foundation, studies, concepts, agent-control ve önceki EXP kaynakları korunur.
+C11-1–8 tasarlanmış karşı durumlardır; gerçek model veya runtime'da çalıştırılmadı. RPD repository değerlendirmesi ve Foundation REUSE seçici kullanıldı. Callaway ve diğerlerinin 2018 metareasoning yazısı HTML §§2.1–2.2 ve Horvitz abstract'ı dar dış dayanak olarak okundu. RPD asıl ekleri yeniden edinilmedi; BMPS/yeni mekanizma/ürün veya architecture adoption yoktur.
 
-Bu dosya kendi gelecekteki commit'ini/yapılmamış uzak kontrolü ilan etmez. Yayın sonrası exact ref/diff ve kritik içerik readback ayrı yapılır; teknik yayın conceptual efficacy kanıtı değildir. Yeni not tam konuşma aktarımı sayılmaz.
+## Repository etkisi
+
+Başlangıç main `42ee649f9dfb0809f76555f70b4694297a5e8a8c`. Yalnız T11 notu, bu STATE, paket INDEX ve explorations INDEX/CATALOG değişir. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T10 eserleri, Foundation, studies, concepts, önceki EXP ve agent-control değişmez.
+
+Bu metin kendi gelecekteki commit'ini veya yapılmamış readback'i ilan etmez. Git ref/diff ve uzak içerik kontrolü yayın sonrasında ayrı yapılır. Teknik transfer, kavramsal yeterlilik veya bağımsız doğrulama değildir.
 
 ## Sonraki sorumluluk
 
-Arşiv onarımı kapalı, T10 bu kavramsal turda ele alındı. Bir sonraki doğal karşı-test: gerekli kontrolleri korurken araştırma/denetim yükü yüzünden işin bitirilememesi; kanıt yeterliliği, öncelik, zaman/bütçe, bekleme ve karar kapatma koşulları. Bu test burada yapılmadı. Daha sonra farklı büyük-domain karşı testi açık kalır. Mevcut kullanıcı yönü ve kanıt tekrar değerlendirilmeden uygulama/ürün seçimine geçilmez.
+Arşiv onarımı kapalıdır. T11 aynı büyük-iş modelinde bounded yeterlilik/ilerleme sorusunu ele aldı; tam SOUL planlama problemi çözülmedi. Doğal sonraki karşı-test, modeli farklı bir büyük iş alanına taşıyarak soru-bankası örneğine özgü varsayımları sınamaktır. Bu tur başka alan seçilip çalıştırılmadı. Kullanıcının sonraki yönü ve gerekli kaynaklarla devam edilir; uygulama/ürün seçimi yetkisi kendiliğinden oluşmaz.
