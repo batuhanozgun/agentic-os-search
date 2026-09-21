@@ -1,18 +1,18 @@
 # EXP-004 — STATE
 
-**Güncelleme:** 2026-09-21, T14 romanın okuma kapsamı ve ortak değerlendirme bağlamı.
+**Güncelleme:** 2026-09-21, T15 editoryal anlaşmazlık, gerekçeli seçim ve kapanış.
 **Arşiv:** REPAIRED / MAIN-PUBLISHED. Önceki kaynak-kısaltma/yönlendirme eksikliği o kapsamda kapalıdır; platform export'u veya bağımsız transkripsiyon doğrulaması iddiası yok.
 **Arşiv yayını:** PR #31; merge `b949fe66454a1943ac9c99827e79f68f962658be`, kapanış `e372ed7558b0b0ebbf388c864b0733382d1418ba`. [PUBLICATION](checks/PUBLICATION.md) onarımın tarihsel kontrol kaydıdır; sonraki devamların yayını değildir.
-**Güncel kavramsal çalışma:** [T14 — Roman: okuma kapsamı, ortak bağlam ve bütünsel değerlendirme](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md). Kaynakların ayrı okunması ile belirli hüküm için birlikte değerlendirilmesi ayrıldı. Gerçek uzun roman/çok-ajan veya okur deneyi yapılmadı.
-**Önceki roman çalışmaları:** [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md), yayın `eaa125ef37090f06e65b829d32e1acd22e7c9406`; [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), yayın `4794cf71c27c1d12d02034bc8891423647618570`; senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). T1–T14 konuşma içi kavramsal/sentetik denemelerdir.
-**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T14 ve SC02 notları bu sayımı genişletmez; assistant kaynak transkripti değildir.
+**Güncel kavramsal çalışma:** [T15 — Roman: editoryal anlaşmazlık, gerekçeli seçim ve kapanış](continuations/T15-NOVEL-EDITORIAL-DISAGREEMENT-AND-CHOICE.md). Olgusal itiraz, yorum/okur-etkisi tahmini, yaratıcı tercih, müdahale ve karar yetkisi ayrıldı. Gerçek roman, ayrı editör ajanları veya okur deneyi yapılmadı.
+**Önceki roman çalışmaları:** [T14](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md), yayın `2d0ac0a650f9f5055ea254b620c7518e78e7fb46`; [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md), yayın `eaa125ef37090f06e65b829d32e1acd22e7c9406`; [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), yayın `4794cf71c27c1d12d02034bc8891423647618570`; senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). T1–T15 konuşma içi kavramsal/sentetik denemelerdir.
+**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T15 ve SC02 notları bu sayımı genişletmez; assistant kaynak transkripti değildir.
 **Önceki teknik yayınlar:** PR #29 `46ab3ff5993683c6124d7786533529e0f6147914`; PR #30 `882e0dfd271bd8c284df59f81c882a66a88f9933`. Bunlar eski tamlık iddiasını doğrulamıyordu.
 
 ## Amaç ve yetki
 
 Foundation/studies birikimiyle SOUL'un büyük, uzun, çok aktörlü ve baştan tamamen bilinmeyen bir iş için ihtiyaç duyacağı çalışma düzenini sorgulamak. Örnekler otomatik modül, yöntem, kavram tanımı veya mimari kararı değildir.
 
-U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09–T11 yapıldı. Roman SC02'de alternatiflerle değerlendirilip öncelikli ikinci senaryo önerisi oldu; sonraki onaylarla T12–T13 ele alındı. Güncel «çok iyi! devam et.» yönü T14 kavramsal devamını yetkilendirir. Gerçek roman üretimi, yayıncılık girişimi, SOUL/Development OS kurulumu veya agent-control değişikliği yoktur. Olumlu kullanıcı değerlendirmesi modele veya yeni yaratıcı fikre doğruluk/üstünlük kanıtı değildir.
+U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09–T11 yapıldı. Roman SC02'de alternatiflerle değerlendirilip öncelikli ikinci senaryo önerisi oldu; sonraki onaylarla T12–T14 ele alındı. Güncel «güzel, devam et.» yönü T15 kavramsal devamını yetkilendirir. Gerçek roman üretimi, yayıncılık girişimi, SOUL/Development OS kurulumu veya agent-control değişikliği yoktur. Olumlu kullanıcı değerlendirmesi modele veya yeni yaratıcı fikre doğruluk/üstünlük kanıtı değildir.
 
 ## Korunmuş kaynak onarımı
 
@@ -88,12 +88,24 @@ Aday okuma düzeni; nesne/sürüm kapsamı, kaynak boyunca okuma, açık sorular
 
 Foundation Use-Conditioned Selection U5'in kabul edilmiş sınırları ve Context/Memory/Harness STATE seçici kullanıldı. FABLES 2024 v2 ve NoLiMa 2025 v3 abstract/kayıtları dar dış dayanak oldu; model sıralaması veya roman ölçeği başarısı çıkarılmadı. C14-1–10 tasarlanmış karşı durumlardır; gerçek runtime/okur deneyinde çalıştırılmadı.
 
+## T15 — Editoryal anlaşmazlık, seçim ve kapanış
+
+[T15](continuations/T15-NOVEL-EDITORIAL-DISAGREEMENT-AND-CHOICE.md), aynı sahneyi inceleyen açıklık/örtüklük yönlü eleştirileri karşılaştırır. Kaynak/sürüm farkı, yorum veya okur-etkisi öngörüsü, yaratıcı değer ve karar yetkisi ayrıdır; karma itirazlar tek sınıfa zorlanmaz. Doğru tespit, önerilen müdahalenin doğru veya tek çözüm olduğunu göstermez.
+
+Çoğunluk otomatik bağımsız kanıt veya kullanıcı tercihi değildir. Skor/ağırlık seçimleri ve zorunlu sınırlar görünür tutulur; uzlaşma veya bütün itirazları sıfırlama amaç değildir. Kapsam içi yaratıcı takdir verilmişse her karar kullanıcıya geri havale edilmez; verilmemiş yetki sessizce varsayılmaz.
+
+Yerel fixture, ilişkisel dönüşümün görünür olmasını ve ahlaki hükmün açık bırakılabilmesini varsayar. Derya'nın belgeyi teslim ederken müdahaleden geri çekildiği küçük pasaj, denenecek revizyon yönüdür; tüm B yönü veya roman benimsenmedi. Açıklık eleştirisinin kaygısı korunur, uzun açıklama reçetesi zorunlu sayılmaz. Başka yaratıcı sözleşmede seçim değişebilir.
+
+Karar, gerçek uygulama, değerlendirme ve teslim ayrı. Seçilmeyen tercih çürütülmüş sayılmaz; geçerli itirazın sınırı ve yeniden açma koşulu korunabilir. Aynı itirazın tekrarı otomatik yeni kanıt değildir; maddi karşı kanıt eski kapanıştan muaf tutulmaz. C15-1–12 tasarlanmış karşı durumlardır; ayrı ajan/okur deneyinde çalıştırılmadı.
+
+Foundation Composite Standing STATE, Multi-Agent Patterns'ın seçili tarihsel değerlendirmesi, Editors Canada 2024 HTML bölümleri ve Zheng ve diğerlerinin 2023 LLM-judge yazısının ilgili metni kullanıldı. Mesleki rehber estetik oracle, eski model verisi bugünkü performans, eski target mimarisi current yetki yapılmadı. Yeni Decision Agent veya evrensel puanlama sistemi seçilmedi.
+
 ## Repository etkisi
 
-T14 başlangıç main `eaa125ef37090f06e65b829d32e1acd22e7c9406`'tır. Dar değişiklik: T14 notu, bu STATE, paket INDEX ve explorations INDEX/CATALOG. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T13, SC02, Foundation, studies, concepts, önceki EXP ve agent-control değişmez.
+T15 başlangıç main `2d0ac0a650f9f5055ea254b620c7518e78e7fb46`'tır. Dar değişiklik: T15 notu, bu STATE, paket INDEX ve explorations INDEX/CATALOG. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T14, SC02, Foundation, studies, concepts, önceki EXP ve agent-control değişmez.
 
 Bu metin kendi gelecekteki commit'ini veya yapılmamış readback'i ilan etmez. Git ref/diff ve uzak içerik kontrolü yayın sonrasında ayrı yapılır. Teknik transfer, kavramsal yeterlilik veya bağımsız doğrulama değildir.
 
 ## Sonraki sorumluluk
 
-T14, sınırlı çalışma bağlamlarından bütünsel hükme geçişin dayanak yükünü ele aldı; gerçek uzun-roman değerlendirme yöntemi doğrulanmadı. Olası T15 sorusu, kaynaklara dayalı fakat farklı yaratıcı tercihleri savunan editoryal değerlendirmeler çatıştığında gerekçeli seçim ve kapanışın nasıl yapılacağıdır. T15 henüz işletilmedi. Basım/dağıtım/reklam, canlı okur deneyi veya ürün/uygulama yetkisi oluşmaz.
+T15 gerekçeli editoryal seçim/kapanış sorusunu bounded biçimde ele aldı; gerçek roman kalitesi veya otomatik karar yöntemi doğrulanmadı. Sonraki mantıklı çalışma, iki senaryonun T1–T15 kazanımlarını ilk «SOUL nasıl bir çalışma yapısı kurmalı?» sorusuna geri bağlayan sınırlı ara sentezdir: ortak sorumluluklar, alana özgü yöntemler, temsil ayrımları ve hâlâ mekanizması/kanıtı açık ihtiyaçlar. Bu sentez henüz yapılmadı; sonraki kullanıcı yönüyle ele alınabilir. Basım/dağıtım/reklam, canlı okur deneyi veya ürün/uygulama yetkisi oluşmaz.
