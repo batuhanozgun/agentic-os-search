@@ -1,18 +1,18 @@
 # EXP-004 — STATE
 
-**Güncelleme:** 2026-09-21, T13 romanın anlamsal revizyonu ve değişiklik etkisi.
+**Güncelleme:** 2026-09-21, T14 romanın okuma kapsamı ve ortak değerlendirme bağlamı.
 **Arşiv:** REPAIRED / MAIN-PUBLISHED. Önceki kaynak-kısaltma/yönlendirme eksikliği o kapsamda kapalıdır; platform export'u veya bağımsız transkripsiyon doğrulaması iddiası yok.
 **Arşiv yayını:** PR #31; merge `b949fe66454a1943ac9c99827e79f68f962658be`, kapanış `e372ed7558b0b0ebbf388c864b0733382d1418ba`. [PUBLICATION](checks/PUBLICATION.md) onarımın tarihsel kontrol kaydıdır; sonraki devamların yayını değildir.
-**Güncel kavramsal çalışma:** [T13 — Roman: anlamsal revizyon ve değişiklik etkisi](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md). Büyük yaratıcı değişiklik, mikro-metin karşıörnekleriyle incelendi. Gerçek roman/çok-ajan veya okur deneyi yapılmadı.
-**Önceki roman başlangıcı:** [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), yayın `4794cf71c27c1d12d02034bc8891423647618570`; senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). T1–T13 konuşma içi kavramsal/sentetik denemelerdir.
-**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T13 ve SC02 notları bu sayımı genişletmez; assistant kaynak transkripti değildir.
+**Güncel kavramsal çalışma:** [T14 — Roman: okuma kapsamı, ortak bağlam ve bütünsel değerlendirme](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md). Kaynakların ayrı okunması ile belirli hüküm için birlikte değerlendirilmesi ayrıldı. Gerçek uzun roman/çok-ajan veya okur deneyi yapılmadı.
+**Önceki roman çalışmaları:** [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md), yayın `eaa125ef37090f06e65b829d32e1acd22e7c9406`; [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), yayın `4794cf71c27c1d12d02034bc8891423647618570`; senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). T1–T14 konuşma içi kavramsal/sentetik denemelerdir.
+**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T14 ve SC02 notları bu sayımı genişletmez; assistant kaynak transkripti değildir.
 **Önceki teknik yayınlar:** PR #29 `46ab3ff5993683c6124d7786533529e0f6147914`; PR #30 `882e0dfd271bd8c284df59f81c882a66a88f9933`. Bunlar eski tamlık iddiasını doğrulamıyordu.
 
 ## Amaç ve yetki
 
 Foundation/studies birikimiyle SOUL'un büyük, uzun, çok aktörlü ve baştan tamamen bilinmeyen bir iş için ihtiyaç duyacağı çalışma düzenini sorgulamak. Örnekler otomatik modül, yöntem, kavram tanımı veya mimari kararı değildir.
 
-U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09–T11 yapıldı. Roman SC02'de alternatiflerle değerlendirilip öncelikli ikinci senaryo önerisi oldu; sonraki onayla T12 ele alındı. Güncel «güzel bir test olacak belli ki şimdiden derin düşünme konuları çıktı. Devam et lütfen.» yönü T13 kavramsal devamını yetkilendirir. Gerçek roman üretimi, yayıncılık girişimi, SOUL/Development OS kurulumu veya agent-control değişikliği yoktur. Olumlu kullanıcı değerlendirmesi modele veya yeni yaratıcı fikre doğruluk/üstünlük kanıtı değildir.
+U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09–T11 yapıldı. Roman SC02'de alternatiflerle değerlendirilip öncelikli ikinci senaryo önerisi oldu; sonraki onaylarla T12–T13 ele alındı. Güncel «çok iyi! devam et.» yönü T14 kavramsal devamını yetkilendirir. Gerçek roman üretimi, yayıncılık girişimi, SOUL/Development OS kurulumu veya agent-control değişikliği yoktur. Olumlu kullanıcı değerlendirmesi modele veya yeni yaratıcı fikre doğruluk/üstünlük kanıtı değildir.
 
 ## Korunmuş kaynak onarımı
 
@@ -78,12 +78,22 @@ Aday yönü incelemeye alma, revizyon yönünü benimseme, metnin fiilen değiş
 
 C13-1–10 tasarlanmış karşı durumlardır. Foundation Revision M5, OpenSpec'in pin'e bağlı bulguları, Qin ve diğerlerinin 2019 counterfactual rewriting abstract'ı ve Kukkonen'in Plot maddesi seçici dayanak oldu. Asıl roman, canlı sistem, okur deneyi veya yeni mimari yoktur; mikro-parçalardan roman ölçeği yeterliliği çıkarılmadı.
 
+## T14 — Okuma kapsamı ve ortak değerlendirme bağlamı
+
+[T14](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md), bir mektubu Derya'nın okuduğu V+ ile yalnız Selin'in gördüğü V− varyantlarının aynı kaba özete dönüşebildiğini gösterir. Derya'nın sonraki inanç değişimini gerekçelendirme sorusu bu farkı gerektirir. Başka aktarım olmadığı küçük fixture koşuludur; görülmemiş romanda yokluk iddiası değildir. B yönü hâlâ koşullu adaydır.
+
+Bölümlerin ayrı ayrı okunması, karar için gereken ilişkilerin birlikte değerlendirilmesi değildir. Yeterli özet kullanılabilir; yetersiz görünümde kaynağa dönülür. Anlatı sırası, karakter inancı, anlatıcı iddiası, okura açılan metin ve yorum ayrılır. Okura gösterilen bilgi gerçek okur öğrenmesi sayılmaz. Kaynak konumu ve okuma izi anlama kanıtı değildir.
+
+Aday okuma düzeni; nesne/sürüm kapsamı, kaynak boyunca okuma, açık soruların taşınması, gerektiğinde ilişkili pasajların birlikte görülmesi ve geniş iddialar için bütünsel geri dönüşü içerir. Bunlar zorunlu modül, her tur tam okuma veya bütün sahne çiftlerini karşılaştırma talebi değildir. Kısmi/özet/karışık sürüm incelemesi tam-eser kabulüne yükseltilmez.
+
+Foundation Use-Conditioned Selection U5'in kabul edilmiş sınırları ve Context/Memory/Harness STATE seçici kullanıldı. FABLES 2024 v2 ve NoLiMa 2025 v3 abstract/kayıtları dar dış dayanak oldu; model sıralaması veya roman ölçeği başarısı çıkarılmadı. C14-1–10 tasarlanmış karşı durumlardır; gerçek runtime/okur deneyinde çalıştırılmadı.
+
 ## Repository etkisi
 
-T13 başlangıç main `4794cf71c27c1d12d02034bc8891423647618570`'tır. Dar değişiklik: T13 notu, bu STATE, paket INDEX ve explorations INDEX/CATALOG. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T12, SC02, Foundation, studies, concepts, önceki EXP ve agent-control değişmez. INDEX'in önceki SC02 ağırlıklı devam satırı güncel T13 yoluna alınır.
+T14 başlangıç main `eaa125ef37090f06e65b829d32e1acd22e7c9406`'tır. Dar değişiklik: T14 notu, bu STATE, paket INDEX ve explorations INDEX/CATALOG. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T13, SC02, Foundation, studies, concepts, önceki EXP ve agent-control değişmez.
 
 Bu metin kendi gelecekteki commit'ini veya yapılmamış readback'i ilan etmez. Git ref/diff ve uzak içerik kontrolü yayın sonrasında ayrı yapılır. Teknik transfer, kavramsal yeterlilik veya bağımsız doğrulama değildir.
 
 ## Sonraki sorumluluk
 
-T13, büyük revizyonun anlamsal etki ve koruma sorununu bounded biçimde ele aldı; tüm roman yazımı veya B'nin bütünsel üstünlüğü çözülmedi. Sonraki doğal soru, uzun metni sınırlı çalışma bağlamlarında okurken revizyon kapsamını ve bütünlüğü yalnız özetlerle yetinmeden nasıl denetleyeceğimizdir. T14 burada işletilmedi. Basım/dağıtım/reklam veya ürün/uygulama yetkisi oluşmaz.
+T14, sınırlı çalışma bağlamlarından bütünsel hükme geçişin dayanak yükünü ele aldı; gerçek uzun-roman değerlendirme yöntemi doğrulanmadı. Olası T15 sorusu, kaynaklara dayalı fakat farklı yaratıcı tercihleri savunan editoryal değerlendirmeler çatıştığında gerekçeli seçim ve kapanışın nasıl yapılacağıdır. T15 henüz işletilmedi. Basım/dağıtım/reklam, canlı okur deneyi veya ürün/uygulama yetkisi oluşmaz.

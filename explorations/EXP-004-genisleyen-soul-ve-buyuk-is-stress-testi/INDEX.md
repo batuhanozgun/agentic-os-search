@@ -1,12 +1,12 @@
 # EXP-004 — Genişleyen SOUL ve büyük-iş stress testi
 
-Önce [STATE](STATE.md) okunur. **Güncel odak: T13 — romanın anlamsal revizyonu ve değişiklik etkisi.** [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md) T12'yi büyük bir yaratıcı değişikliğin mikro-metin karşıörnekleriyle sürdürür; gerçek roman/ajan veya okur deneyi değildir. Senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md)'de, ilk yazılabilir Work [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md)'de korunur. Bilinen kaynak onarımı main'de kapalı; [PUBLICATION](checks/PUBLICATION.md) o tarihsel onarımın yayın kaydıdır.
+Önce [STATE](STATE.md) okunur. **Güncel odak: T14 — romanın okuma kapsamı ve ortak değerlendirme bağlamı.** [T14](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md) kaynakların ayrı okunması ile ilgili ilişkilerin birlikte değerlendirilmesini ayırır; gerçek uzun roman/ajan veya okur deneyi değildir. Anlamsal revizyon [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md), ilk yazılabilir Work [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md)'de korunur. Bilinen kaynak onarımı main'de kapalı; [PUBLICATION](checks/PUBLICATION.md) o tarihsel onarımın yayın kaydıdır.
 
 ## Kaynak, özet ve tarih
 
 [Kaynak diyalog](sources/conversation/INDEX.md): U001–U016/S001–S015, **31 görünür mesajlık korunmuş kesim**. S001–S013 özgün görünür yanıtlardan kısaltılmadan aktarılmıştır. Eski yoğunlaştırmalar [ayrı tarihsel dizinde](artifacts/condensed-before-repair/README.md) aynı Git kimlikleriyle durur. S014 önceki yanlış tamlık bildirimini, S015 açıklamasını taşır. [Aktarım sınırı](checks/TRANSCRIPTION-NOTE.md), [manifest](SOURCE-MANIFEST.json), [onarım](checks/REPAIR-20260921.md) farklı güvence türleridir.
 
-[T1–T7 konsolidasyonu](artifacts/CONSOLIDATION.md) tarihsel türevdir. [T08](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md) ile [tam S015](sources/conversation/assistant/S015.md) aynı belge değildir. U016 [kaynak mesaj](sources/conversation/USER-MESSAGES.md#u016) ve [çerçeve notu](reflections/FRAME-CLARIFICATION-20260921.md) ile bulunur. T09–T13 ve SC02 notları kaynak arşivi sayısını artırmaz; assistant tam konuşma aktarımı diye okunmaz. SC02 kullanıcı mesajını ayrı alıntı olarak korur.
+[T1–T7 konsolidasyonu](artifacts/CONSOLIDATION.md) tarihsel türevdir. [T08](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md) ile [tam S015](sources/conversation/assistant/S015.md) aynı belge değildir. U016 [kaynak mesaj](sources/conversation/USER-MESSAGES.md#u016) ve [çerçeve notu](reflections/FRAME-CLARIFICATION-20260921.md) ile bulunur. T09–T14 ve SC02 notları kaynak arşivi sayısını artırmaz; assistant tam konuşma aktarımı diye okunmaz. SC02 kullanıcı mesajını ayrı alıntı olarak korur.
 
 ## Amaç ve modelin evrimi
 
@@ -32,25 +32,28 @@ Kullanıcı yazılım dışı ve bütünsel akıl yürütme gerektiren roman ada
 
 Tek çağrıya sığmama evrensel model sınırı sayılmadı; sınırlı çalışma bağlamı ileride deney koşulu olabilir. Hazırlık bütün romanı önceden dondurmak değildir. Her bölüme ayrı ajan, tek evrensel yazar akışı, kesin kelime sayısı veya fiziksel veri yapısı seçilmedi. Romanın metin-odaklı sınırı korunur; fiziksel işletim ve bağımsız dış aktörleri kapsayan başka bir vaka ileride gerekebilir.
 
-## Roman senaryosunda T12 ve T13
+## Roman senaryosunda T12–T14
 
 [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md): creative/story state, plan ve manuscript ayrılır; exploratory draft final manuscript veya canon değildir. Provisional, committed, rejected/superseded, deliberately unresolved, character-belief ve reader-exposure statülerinin karışması creative drift üretebilir. İlk yazılabilir Work bir exploratory scene/probe olabilir; her zaman Chapter 1 değildir. Context gerektiğinde asıl prose'u geri getirir.
 
 [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md): değişiklik etkisi kelime/dosya listesi değil, parçaların dayanağı ve birlikte ürettikleri anlamla ilgilidir. Derya'nın susmasının A/B gerekçeleri karşılaştırılır; B daha iyi sayılmaz. Aynı davranış korunabilir, açık olay bildirimi çelişebilir, hiç yazılmamış gerekçe yeni Work gerektirebilir. Doğru açıklama çok erken verilirse tutarlılık artarken amaçlanan etki bozulabilir. İçeriğin aynı kalması eski editoryal hükmün aynı bağlamda geçerli olduğunu göstermez.
 
-Bu tur mikro-parçalar üzerinden etki/koruma ve aday revizyon sorumluluğu açıldı; romanın üçte biri gerçekten yazılmış veya bütünü incelenmiş sayılmaz. Her yeni fikir otomatik canon, her değişiklik tümünü-yeniden-yazma gereği, her çelişkisizlik edebî başarı değildir.
+[T14](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md): aynı kaba özet, Derya'nın mektubu gördüğü/görmediği farkı kaybedebilir. Bölüm kapsaması ilişki değerlendirmesi değildir. Kaynak/sürüm, anlatı boyunca okuma, açık sorular ve gerektiğinde ilişkili asıl pasajların birlikte görülmesi korunur. Uygun özet kullanılabilir; her tur tam okuma veya zorunlu graph/üst-ajan önerilmez. Okura açılan metin gerçek okur bilgisi değildir; okuma izi anlama kanıtı değildir.
+
+Mikro-parçalar gerçek uzun romanın tamamını veya okur tepkisini temsil etmez. Her yeni fikir otomatik canon, her değişiklik tümünü-yeniden-yazma gereği, her çelişkisizlik edebî başarı değildir.
 
 ## Nereden devam edilir?
 
-STATE → T13 → gerektiğinde T12/SC02. Yeterlilik/kapanış T11, kapsama T10, ortak değişim T09, yöntem uyarlaması S015/T08 ve örnek sınırları U016'dadır. Karar açısından önemli önceki ifadede tam kaynağa dönülür; özet kaynak yerine geçmez.
+STATE → T14 → gerektiğinde T13/T12/SC02. Yeterlilik/kapanış T11, kapsama T10, ortak değişim T09, yöntem uyarlaması S015/T08 ve örnek sınırları U016'dadır. Karar açısından önemli önceki ifadede tam kaynağa dönülür; özet kaynak yerine geçmez.
 
-Sonraki doğal soru, uzun eserin revizyon kapsamının sınırlı çalışma bağlamlarında ve gerçek kaynak metne dönerek nasıl denetleneceğidir. T14 henüz işletilmedi. T13 B adayını üstün roman olarak kabul etmez; gerçek roman üretimi veya yayıncılık yoktur.
+Olası sonraki T15 sorusu, farklı yaratıcı tercihleri savunan kaynak-bağlı editoryal değerlendirmeler arasında gerekçeli seçim ve kapanıştır. T15 henüz işletilmedi. B adayının üstünlüğü, gerçek roman üretimi veya okur deneyi kabul edilmiş değildir.
 
 ## Okuma yolları
 
 | İhtiyaç | Yol |
 |---|---|
 | Güncel durum/yetki | [STATE](STATE.md) |
+| Uzun eseri okuma: bölüm/ilişki kapsaması, özet ve ortak bağlam | [T14](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md) |
 | Büyük yaratıcı değişiklik: anlamsal etki, koruma ve revizyon | [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md) |
 | Roman: ilk yazılabilir Work, canon/provisional/draft ayrımları | [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md) |
 | İkinci senaryo seçimi: roman, alternatifler ve sınırlar | [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md) |
@@ -71,4 +74,4 @@ Sonraki doğal soru, uzun eserin revizyon kapsamının sınırlı çalışma ba�
 
 ## Yetki ve koruma
 
-Run / Execution Attempt, Qualification Case ve Re-entry Context aday ayrımlardır, zorunlu service/schema değildir. Metareasoning/RPD, Re3/DOC veya counterfactual rewriting referansları algoritma benimsemesi değildir. Kaynak arşivi/manifest, önceki eserler, onarım kanıtı, Foundation, studies, concepts, agent-control, önceki EXP ve target implementation bu devamda değiştirilmez.
+Run / Execution Attempt, Qualification Case ve Re-entry Context aday ayrımlardır, zorunlu service/schema değildir. Metareasoning/RPD, Re3/DOC, counterfactual rewriting, FABLES ve NoLiMa referansları algoritma benimsemesi veya bugünkü model performansı iddiası değildir. Kaynak arşivi/manifest, önceki eserler, onarım kanıtı, Foundation, studies, concepts, agent-control, önceki EXP ve target implementation bu devamda değiştirilmez.
