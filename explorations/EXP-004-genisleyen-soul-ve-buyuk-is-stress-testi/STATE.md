@@ -1,10 +1,10 @@
 # EXP-004 — STATE
 
-**Güncelleme:** 2026-09-21, T11 sonrası ikinci senaryo değerlendirmesi.
+**Güncelleme:** 2026-09-21, T12 roman oluşumu ve ilk yazılabilir Work.
 **Arşiv:** REPAIRED / MAIN-PUBLISHED. Önceki kaynak-kısaltma/yönlendirme eksikliği o kapsamda kapalıdır; platform export'u veya bağımsız transkripsiyon doğrulaması iddiası yok.
 **Arşiv yayını:** PR #31; merge `b949fe66454a1943ac9c99827e79f68f962658be`, kapanış `e372ed7558b0b0ebbf388c864b0733382d1418ba`. [PUBLICATION](checks/PUBLICATION.md) onarımın tarihsel kontrol kaydıdır; sonraki devamların yayını değildir.
-**Güncel odak:** [SC02 — Roman senaryosu değerlendirmesi](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). Roman öncelikli assistant önerisidir; kullanıcı önerisinin otomatik kabulü değildir. İkinci vaka/T12 henüz işletilmedi.
-**Son tamamlanan kavramsal test:** [T11 — Kanıt yeterliliği, araştırmayı sınırlama ve ilerleyebilme](continuations/T11-EVIDENCE-SUFFICIENCY-AND-BOUNDED-PROGRESS.md), yayın `9316a7bbf669c2fa9d648cbe3db0af17bf051e3e`. T1–T11 konuşma içi kavramsal/sentetik denemelerdir; gerçek SOUL/ajan deneyi değildir.
+**Güncel kavramsal çalışma:** [T12 — Roman: oluşum, yaratıcı durum ve ilk yazılabilir Work](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md). İkinci büyük senaryo roman üzerinde işletilmeye başlandı; gerçek roman/ajan deneyi değildir.
+**Önceki senaryo seçimi:** [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). T1–T12 konuşma içi kavramsal/sentetik denemelerdir.
 **Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T11 ve SC02 notları bu sayımı genişletmez; assistant kaynak transkripti değildir.
 **Önceki teknik yayınlar:** PR #29 `46ab3ff5993683c6124d7786533529e0f6147914`; PR #30 `882e0dfd271bd8c284df59f81c882a66a88f9933`. Bunlar eski tamlık iddiasını doğrulamıyordu.
 
@@ -12,7 +12,7 @@
 
 Foundation/studies birikimiyle SOUL'un büyük, uzun, çok aktörlü ve baştan tamamen bilinmeyen bir iş için ihtiyaç duyacağı çalışma düzenini sorgulamak. Örnekler otomatik modül, yöntem, kavram tanımı veya mimari kararı değildir.
 
-U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09–T11 yapıldı. En son kullanıcı yazılım dışı, akıl yürütme ve baştan sona bütünsel takip gerektiren alternatif olarak roman önerdi; otomatik kabul etmememi açıkça istedi. Güncel aşama senaryo uygunluğunu değerlendirmek ve öneriyi gerekçelendirmektir. Gerçek roman yazımı, ayrıntılı ikinci testin yürütülmesi, yayıncılık girişimi, SOUL/Development OS kurulumu veya agent-control değişikliği bu tur yapılmadı.
+U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09–T11 yapıldı. Roman SC02'de alternatiflerle değerlendirilip öncelikli ikinci senaryo önerisi oldu. Kullanıcının «anlaştık. devam et lütfen.» yönü T12'nin ilk gerçek roman stress testini yetkilendirdi. Gerçek roman üretimi, yayıncılık girişimi, SOUL/Development OS kurulumu veya agent-control değişikliği bu tur yapılmadı.
 
 ## Korunmuş kaynak onarımı
 
@@ -54,12 +54,24 @@ Kullanıcının 'tek oturuma sığmayacak' ifadesi bütün güncel modellere dai
 
 EXP-001'in roman/yaşayan plan izi seçici geri çağrıldı. Re3, DOC ve Lost in the Middle abstract'ları ile Kukkonen'in Plot maddesinin ilgili bölümleri dar dış kaynak olarak kullanıldı; tam roman ölçeğinde etkinlik, güncel bütün modellerin performansı veya yöntem üstünlüğü iddia edilmedi. Ayrıntılı kaynak/okuma sınırları SC02'dedir. SC02 içinde son kullanıcı mesajının ayrı kaynak alıntısı bulunur; bu, korunmuş arşivin veya assistant transkriptinin genişletildiği anlamına gelmez.
 
+## T12 — Yeni katkı ve sınırı
+
+[T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), yaratıcı hazırlık ile yazmaya başlama eşiğini sınar. Hazırlığın bütün romanı kilitlemesi veya ham brief'ten doğrudan Chapter 1 üretimine geçilmesi iki uç risk olarak ayrıldı.
+
+Roman Information'ında kullanıcı yaratıcı sınırı, committed story state, provisional design hypothesis, deliberately unresolved, undecided, character belief/knowledge, reader exposure ve draft text'in aynı statü olmadığı görüldü. Bunlar yeni zorunlu schema/servis değildir; yaratıcı continuity için non-collapse baskılarıdır.
+
+İlk Work'ün nihai bölüm olmak zorunda olmadığı; decision-critical yaratıcı belirsizliği sınayan exploratory scene/probe olabileceği ortaya çıktı. Exploratory draft → observation → candidate decision → accept/reject/open → committed state akışı adaydır; yazılan fikir sırf metinde bulundu diye kanonlaşmaz. Rejected/superseded olasılıkların sonraki özet/context'te current fact'e dönüşmesi ayrıca failure mode'dur.
+
+Creative/story state, narrative/work plan ve manuscript ayrıldı. Plan değişikliği prose'un değiştiğini, prose'daki character/reader state'inin world truth olduğunu göstermez. Working context gerektiğinde asıl prose'a dönmelidir; özet voice/ima/ritim için source yerine geçmeyebilir.
+
+C12-1–8 sentetik karşı durumlardır; canlı model/roman testinde çalıştırılmadı. Yeni Foundation ground veya roman-özel zorunlu mimari kabul edilmedi.
+
 ## Repository etkisi
 
-T11 yayını `9316a7bbf669c2fa9d648cbe3db0af17bf051e3e` bu turun başlangıç main'idir. SC02 notu, bu STATE ve paket INDEX'i değişir. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T11 eserleri, Foundation, studies, concepts, önceki EXP ve agent-control değişmez. Kütüphane girişlerindeki T1–T11 sayısı hâlâ doğru; güncel senaryo değerlendirmesi bu paketten bulunur.
+T12 başlangıç main `72658a7e02358494447d878a1d5bf63331246cac`'tır. Dar değişiklik: T12 notu, bu STATE, paket INDEX ve explorations INDEX/CATALOG. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T11, SC02, Foundation, studies, concepts, önceki EXP ve agent-control değişmez.
 
 Bu metin kendi gelecekteki commit'ini veya yapılmamış readback'i ilan etmez. Git ref/diff ve uzak içerik kontrolü yayın sonrasında ayrı yapılır. Teknik transfer, kavramsal yeterlilik veya bağımsız doğrulama değildir.
 
 ## Sonraki sorumluluk
 
-Senaryo değerlendirmesi kullanıcıya döndürülür; roman öncelikli öneridir, ayrıntılı ikinci test veya roman üretimi bu tur başlatılmadı. Kullanıcı bu yönde devam ederse ilk soru, yaratıcı amaç ve yeterli başlangıç hazırlığı kurulurken keşif alanının nasıl korunacağıdır. Olay örgüsü, bölüm/kelime sayısı, bakış açısı, editoryal örgüt ve nihai teslimat sınırı henüz bağlayıcı seçilmedi. Basım/dağıtım/reklam otomatik kapsama eklenmez. Sonraki yön ayrıca değerlendirilir; ürün/uygulama yetkisi oluşmaz.
+T12 ilk yazılabilir Work'e kadar roman senaryosunu işledi. Doğal sonraki stress noktası, romanın önemli kısmı yazıldıktan sonra geç keşfedilen büyük bir motivasyon/olay değişikliğinin geçmiş metne ve bütünsel anlamına etkisini bulmak ve revise etmektir. T13 burada yapılmadı. Basım/dağıtım/reklam otomatik kapsama eklenmez; ürün/uygulama yetkisi oluşmaz.
