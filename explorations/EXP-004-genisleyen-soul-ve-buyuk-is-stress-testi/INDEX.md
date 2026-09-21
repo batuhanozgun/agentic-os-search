@@ -1,53 +1,46 @@
 # EXP-004 — Genişleyen SOUL ve büyük-iş stress testi
 
-**Güncel durum:** Önce [STATE](STATE.md) okunur. T1–T7'den sonra [T08 — Geri bildirim ve kontrollü uyarlama](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md) türetilmiş devam notu eklendi; canlı sistem testi veya mimari kabul değildir.
+Önce [STATE](STATE.md) okunur. **T1–T8 kavramsal çalışma; U016'nın önceliği arşiv onarımıdır.** Kaynak içerik onarılmıştır; main yayınının gerçek durumu [PUBLICATION](checks/PUBLICATION.md) ve STATE'te ayrı tutulur. Bu paket gerçek SOUL runtime'ı veya benimsenmiş mimari değildir.
 
-**Kaynak sadakati düzeltmesi — 2026-09-21:** Önceki arşiv, 14 kullanıcı mesajını ve 13 assistant yanıtına adreslenmiş yoğunlaştırılmış görünümleri taşır. Assistant kayıtları eksiksiz özgün cevaplar değildir; yalnız whitespace/UI farkı söz konusu değildir. [FIDELITY-20260921](checks/FIDELITY-20260921.md) eski tam-kaynak/tam-okuma ifadelerini nitelendirir. Tam özgün aktarımın onarımı açıktır. Başarılı main yayını kaynak sadakatini kanıtlamaz.
+## Kaynak, özet ve tarih
 
-**Tür:** Kavramsal diyalog + araştırma yeniden-kullanımı + sentetik büyük-iş stress testi.
-**İlk kaynak oturum:** 20–21 Eylül 2026; tekil mesaj saatleri üretilmez.
-**İlk adreslenen kesim:** U001–U014 ve S001–S013: 27 mesaj referansı. T08 bu eski kesime kaynak mesaj olarak eklenmedi.
-**Önceki denemeler:** [EXP-001](../EXP-001-soul-calisma-modeli/INDEX.md) → [EXP-002](../EXP-002-soul-baz-yapi-ve-entelektuel-taban/INDEX.md) → [EXP-003](../EXP-003-ek-hafiza-ve-arastirma-temelli-guvenilirlik/INDEX.md).
+[Kaynak diyalog](sources/conversation/INDEX.md): U001–U016/S001–S015, **31 görünür mesaj**. S001–S013 artık özgün görünür yanıtlardan kısaltılmadan aktarılmıştır. Önceki yoğunlaştırılmış versiyonlar [ayrı tarihsel dizinde](artifacts/condensed-before-repair/README.md) aynı içerik kimlikleriyle korunur. S014 önceki yanlış tamlık bildirimini, S015 bunun açıklamasını taşır. [Aktarım sınırı](checks/TRANSCRIPTION-NOTE.md), [manifest](SOURCE-MANIFEST.json) ve [onarım kaydı](checks/REPAIR-20260921.md) farklı güvence türleridir.
 
-## Bu denemenin konusu
+[T1–T7 konsolidasyonu](artifacts/CONSOLIDATION.md) tarihsel türetilmiş eserdir. [T08 devam notu](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md), [tam S015 cevabıyla](sources/conversation/assistant/S015.md) aynı belge değildir. Son kullanıcı açıklaması [U016](sources/conversation/USER-MESSAGES.md#u016) ve ayrı [çerçeve notu](reflections/FRAME-CLARIFICATION-20260921.md) üzerinden bulunur.
 
-Kullanıcı, Foundation ve studies birikimini kullanarak SOUL'un büyük, uzun soluklu ve baştan tamamen bilinmeyen bir işi yapmak için nasıl bir çalışma yapısına ihtiyaç duyacağını düşünmek istedi. Başlangıçta agent'lar, roller, ortadaki iş, iş akışı/plan ve memory adayları vardı. Bu beşli doğrudan mimariye çevrilmedi; Work / Actors / Information / Environment ile Composition ayrımları ve candidate studies'teki mekanizma/karşıörnekler kullanıldı.
+## Amaç ve modelin evrimi
 
-Sentetik vaka bir eğitim yılı boyunca kullanılacak kapsamlı bir 4. sınıf matematik soru bankasını üretme, yayımlama ve sürdürme programıdır. Amaç eğitim ürünü tasarlamak değil, çalışma sisteminin ihtiyaçlarını zorlamaktır. Ülke, gerçek müfredat, mevzuat veya gerçek kullanıcı grubu seçilmedi.
+Başlangıçta agent, rol, iş, plan/workflow ve memory üzerinden büyük bir çalışma sistemi düşünülüyordu. Work/Actors/Information/Environment ve Composition araştırmalarıyla görev keşfi, hazırlık, gerçek etki, doğrulama, kabul ve devam ayrımları görünür oldu. Bu başlıklar bir yazılım modül listesi veya final ontoloji değildir.
 
-## Modelin evrimi
+SOUL'un oluşturduğu düzenle zorunlu olarak kopmadığı; işe göre yeni yetenekler ve aktörler eklerken mevcut sorumluluklarının yeni alanları da kapsayabileceği bir hipotez gelişti. U016, “büyüme”nin yalnız daha fazla parça anlamında düşünülmediğini açıklar. Dikey/yatay, iki dosya ve klasör ifadeleri açıklayıcı örneklerdir; fiziksel şema veya zorunlu araç kararı değildir. T08'in sadeleştirme/geri alma ihtimali bunlarla çatışan bir kullanıcı yasağı gibi okunmaz.
 
-İlk arşiv kesiminde, SOUL ile oluşturduğu çalışma sistemi arasında zorunlu sert ayrım kurmak yerine baz SOUL'un işe göre genişlemesi hipotezi ortaya çıktı. T08 bunu yalnız boyut artışı olarak değil; göreve uygun yeniden yapılandırma, sadeleştirme ve gerektiğinde geri alma olarak inceltir.
+Sentetik vaka, bir eğitim yılı boyunca kullanılacak 4. sınıf matematik soru bankasını üretme, yayımlama ve sürdürmedir. Gerçek ülke, müfredat, eğitimsel etkinlik veya mevzuat araştırması yapılmadı. Her vaka bir başlığa yerleştirilebildi diye Foundation'ın ya da bir implementasyonun yeterliliği kanıtlanmış değildir.
 
-Work / Actors / Information / Environment ile Binding / Standing / Control / Transition, düşünme ve ilişki kurma zemini olarak kullanılır. Her birinin ayrı yazılım modülü olması gerektiği sonucuna varılmadı. Bir vakayı bu başlıklarla tarif etmek, Foundation'ın veya oluşacak sistemin yeterliliğini doğrulamaz.
+## Nereden devam edilir?
 
-Mission qualification, ihtiyaç/önkoşul keşfi, Work admission/readiness, role/Actor, context, Environment, Run, evidence/qualification, acceptance, integration, recovery ve adaptation ilişkili sorumluluklar olarak ele alınır. Tek zorunlu linear pipeline kabul edilmedi.
+Güncel amaç/yetki için STATE; T08 için S015 ve gerekiyorsa türetilmiş devam notu; son anlam düzeltmesi için U016 okunur. Önceki bir iddia karar açısından önemliyse kaynak S001–S013'e dönülür; konsolidasyon veya eski kısaltma onun yerine geçmez.
 
-## Güncel T08 sorusu
-
-Bir hatayı düzeltmek ile gelecekte o hata sınıfına verilen tepkiyi kalıcı değiştirmek farklıdır. Kaydedilmiş ders, aktif yöntem, korunmuş davranış değişimi, fayda, yetki ve başka işe aktarım ayrı değerlendirilir. T08, yöntemin de kapsamı, kanıtı, uygulanma yolu ve geri dönüşü olan Work olarak ele alınabileceğini sınar. Yeni zorunlu Learning Agent veya learning-service mimarisi kabul etmez.
+T08, olay kaydı, geri bildirimin kullanılması, kalıcı davranış değişimi, fayda, yetki ve başka işe aktarımı ayırır. Yöntem değişikliğinin kaydedilmesiyle aktif tüketicilere uygulanması eşitlenmez. Doğal sonraki soru eşzamanlı işlerin yöntem/kaynak/sürüm/yetki çatışmalarıdır; bu onarım turunda o test başlatılmadı.
 
 ## Okuma yolları
 
 | İhtiyaç | Yol |
 |---|---|
-| Güncel devam ve yetki | [STATE](STATE.md) |
-| Test 8 ve kanıt sınırı | [T08](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md) |
-| İlk arşivin tamlık sorunu | [FIDELITY-20260921](checks/FIDELITY-20260921.md) |
-| İlk 27 mesaj referansının sırası ve arşiv görünümleri | [Diyalog INDEX](sources/conversation/INDEX.md); assistant metinleri yoğunlaştırılmıştır |
-| T1–T7'nin bütünlüklü tarihsel modeli | [CONSOLIDATION](artifacts/CONSOLIDATION.md) |
-| Önceki kazanımlar ve görüş değişimi | [LEARNINGS](reflections/LEARNINGS.md), [EVOLUTION](reflections/EVOLUTION.md) |
-| Yerel geçici terimler | [TERMS](reflections/TERMS.md); Concepts kabulü değil |
-| Önceki epistemik nitelendirmeler | [QUALIFICATIONS](reflections/QUALIFICATIONS.md), sonraki kaynak düzeltmesi FIDELITY-20260921 |
-| Açık model soruları | [OPEN-QUESTIONS](reflections/OPEN-QUESTIONS.md) |
-| Konu ve örnek bulma | [TOPIC-MAP](retrieval/TOPIC-MAP.md) |
-| Önceki denemelerle sıralı erişim | [CUMULATIVE-READING](retrieval/CUMULATIVE-READING.md); eski 122/tam-okuma dili kaynak sadakati notuyla sınırlıdır |
-| Araştırma kullanım yolları | [RESEARCH-REFERENCES](sources/RESEARCH-REFERENCES.md); T08 kendi ek dayanaklarını taşır |
-| İlk teknik yayın | [PUBLICATION](checks/PUBLICATION.md); kaynak aktarımının eksiksizliğini kanıtlamaz |
-| Önceki aktarım/kapsam açıklamaları | [TRANSCRIPTION-NOTE](checks/TRANSCRIPTION-NOTE.md), [ARCHIVE-COVERAGE](checks/ARCHIVE-COVERAGE.md); sonraki FIDELITY notu ile birlikte |
+| Güncel durum ve yetki | [STATE](STATE.md) |
+| Kaynak sırası ve tüm görünür gövdeler | [Diyalog INDEX](sources/conversation/INDEX.md) |
+| Kaynak aktarımının sınırı | [TRANSCRIPTION-NOTE](checks/TRANSCRIPTION-NOTE.md), [ARCHIVE-COVERAGE](checks/ARCHIVE-COVERAGE.md) |
+| İlk hata ve gerçek onarım | [FIDELITY](checks/FIDELITY-20260921.md), [REPAIR](checks/REPAIR-20260921.md) |
+| T1–T7'nin tarihsel sentezi | [CONSOLIDATION](artifacts/CONSOLIDATION.md) |
+| T1–T7 kazanım/görüş/terim kayıtları | [LEARNINGS](reflections/LEARNINGS.md), [EVOLUTION](reflections/EVOLUTION.md), [TERMS](reflections/TERMS.md) |
+| T08 | [S015](sources/conversation/assistant/S015.md), [devam notu](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md) |
+| Yatay/dikey genişleme ve branch çağrışımı | [U016](sources/conversation/USER-MESSAGES.md#u016), [FRAME-CLARIFICATION](reflections/FRAME-CLARIFICATION-20260921.md) |
+| Kanıt sınırları ve açık model soruları | [QUALIFICATIONS](reflections/QUALIFICATIONS.md), [OPEN-QUESTIONS](reflections/OPEN-QUESTIONS.md) |
+| Konu/örnek bulma | [TOPIC-MAP](retrieval/TOPIC-MAP.md) |
+| Dört denemeyi sıralı okuma | [CUMULATIVE-READING](retrieval/CUMULATIVE-READING.md); 126 adreslenen mesaj, paketlerin sınırları korunur |
+| Önceki denemelerden devir | [PREDECESSORS](sources/PREDECESSORS.md) |
+| Araştırma yolları / tarihsel citation'lar | [RESEARCH-REFERENCES](sources/RESEARCH-REFERENCES.md), [CITATION-KEY](sources/CITATION-KEY.md) |
+| Güncel yayın ve eski teknik yayın | [PUBLICATION](checks/PUBLICATION.md), [HISTORICAL-PUBLICATION](checks/HISTORICAL-PUBLICATION-PR29-30.md) |
 
-## Sınırlar ve sonraki kullanım
+## Yetki ve koruma
 
-Bu çalışma SOUL mimarisini kabul etmedi; Development OS veya gerçek ajan çalıştırmadı. Run / Execution Attempt, Qualification Case ve Re-entry Context aday çalışma ayrımlarıdır, zorunlu schema/service değildir. Mevcut araştırma teknik gerekçe/karşıörnek sağlayabilir; kaynakların sayısı veya aynı assistant'ın tekrar onayı bağımsız kanıt oluşturmaz.
-
-T08 sonrası doğal karşı-test eşzamanlı işlerin yöntem, kaynak, sürüm ve yetki çatışmasıdır. Ayrıca önceki assistant metinlerinin eksiksiz özgün aktarımı açık arşiv işi olarak kalır. Bunların güncel sorumlulukları STATE'de ayrıdır; uygulama aşamasına kendiliğinden geçilmez.
+Run / Execution Attempt, Qualification Case ve Re-entry Context aday çalışma ayrımlarıdır, zorunlu service/schema değildir. Branch çağrışımı araç seçimi değildir. U016'nın onarım yetkisi Foundation, studies, concepts, önceki EXP kaynakları, agent-control veya target implementation değişikliği olarak kullanılmaz.

@@ -1,20 +1,23 @@
 # EXP-004 — Arşiv onarımı çalışma planı
 
-**Durum: REOPENED / SOURCE-FIDELITY-REPAIR-IN-PROGRESS.** Önceki CLOSED yalnız teknik yayını kapatmış, kaynak sadakatini gereğinden güçlü sunmuştur. [Onarım kaydı](checks/REPAIR-20260921.md).
+**Durum:** SOURCE-AND-ROUTES-REPAIRED / PUBLICATION-CHECK-PENDING. Önceki CLOSED teknik yayını kaynak sadakatiyle karıştırmıştı; bu onarım onları ayırır.
 
-## Yetki ve durma sınırı
+## Yetki ve kapsam
 
-U016, yeni kavramsal testten önce repository eksiklerini onarma yönüdür. Bu tur yeni stress testi, SOUL mimarisi veya Development OS uygulaması yapılmaz.
+[U016](sources/conversation/USER-MESSAGES.md#u016) yeni kavramsal testten önce bilinen repository eksikliğini onarma yönüdür. EXP-004 ve onu bulduran iki explorations giriş dosyası kapsamdadır. Foundation, studies, concepts, önceki EXP kaynakları, agent-control ve target uygulama değişmez.
 
-## İş sırası
+## Tamamlanan içerik işleri
 
-1. İlk yoğunlaştırılmış S001–S013 ve eski manifesti açık tarihsel görünüm konumunda koru.
-2. Görünür özgün S001–S013 yanıtlarını kısaltmadan aktar.
-3. Yayın cevabı S014, U015/S015 T08 devamı ve U016 açıklamasını kaynak sırasına ekle.
-4. Kaynak metin, türetilmiş eser, kullanıcı örneği ve mimari kabul ayrımını koruyan güncel STATE/INDEX/manifest/okuma yollarını düzelt.
-5. Paket içi bağlantıları, mesaj kapsamını, kaynak sonlarını ve korunan tarihsel kimlikleri kontrol et.
-6. Yalnız yetkili değişiklikleri main'e yayımla; yayın kimliği ve karşılaştırmayla kapsamı geri doğrula.
+- Eski yoğunlaştırılmış S001–S013 ve manifest aynı Git içerik kimlikleriyle ayrı tarihsel dizinde korundu; eski PUBLICATION ayrı tarihsel dosyaya alındı.
+- Görünür özgün S001–S013 yeniden kısaltılmadan aktarıldı. U001–U014 korundu; S014, U015/S015 ve U016 eklendi.
+- 31 mesaj/16 dosyalı manifest ve kaynak sırası oluşturuldu; byte ve kimlik hesabı gözlenen ağaçla eşleştirildi.
+- Kaynak/özet ayrımı, tarihsel citation anahtarı, U016 çerçeve açıklaması, kapsam ve okuma yolları düzeltildi.
+- Seçili tam uzaktan okuma: USER-MESSAGES, S001, S013, S015. Bu bütün dosyaların ikinci tam okuması veya platform-export karşılaştırması değildir.
 
-## Kapanış ölçütü
+## Yayın ve kapanış
 
-Özgün görünür gövdeler kaynak yollarında bulunur; eski yoğunlaştırmalar kaynak diye yönlendirilmez; kapsam ve manifest gerçek dosyalarla eşleşir; yeni kullanıcı açıklamaları karar gibi kabul edilmez; main yayını ve kontrol sınırları kayıtlı olur. Henüz bu ölçüt karşılandı denmez.
+Main'in eşzamanlı değişikliklerini koruyarak yalnız yetkili farkı yayımla; kaynak/tree kimliklerini, kritik giriş metinlerini ve etkilenen yolları main'den yeniden kontrol et. [PUBLICATION](checks/PUBLICATION.md) gerçek sonucu taşır. Bu dosya o sonuç gözlenmeden CLOSED sayılmaz.
+
+## Kavramsal devam
+
+T09 bu onarım turunda açılmaz. Kullanıcının genel devam yönü korunur; son içerik T08, son anlam açıklaması U016'dır. Bu plan SOUL mimari benimsemesini veya bir araç seçimini yetkilendirmez.

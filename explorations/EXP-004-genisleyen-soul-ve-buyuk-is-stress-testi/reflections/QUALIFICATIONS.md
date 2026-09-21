@@ -1,6 +1,6 @@
 # EXP-004 — Nitelendirmeler ve kanıt sınırları
 
-Bu dosya arşivleme sırasında yapılan epistemik kontrolü taşır. Özgün U/S kaynakları değiştirilmez.
+Bu dosya kaynak-sonrası değerlendirmedir. Özgün kaynakta söylenenler bugünkü yorumla yeniden yazılmaz. Q13 ve Q14, U016 onarımıyla güncellendi; Q15–Q16 yeni açıklamanın sınırıdır. T1–T7 konsolidasyonu ve diğer ilk reflection'lar tarihsel türevdir; güncel devam STATE'dedir.
 
 ## Q01 — “Foundation kırılmadı”
 
@@ -8,7 +8,7 @@ Stress test boyunca Work / Actors / Information / Environment + Composition ayr�
 
 ## Q02 — “SOUL işe göre genişliyor”
 
-Kullanıcının U010 farkındalığı ve sonraki Information/Environment/verification/recovery testleri bu hipotezi destekleyen kavramsal uyum gösterdi. Gerçek SOUL runtime veya implementasyon yoktur. “Baz SOUL + expanded SOUL” mimari kararı değildir.
+Kullanıcının U010 farkındalığı ve sonraki Information/Environment/verification/recovery testleri bu hipotezi destekleyen kavramsal uyum gösterdi. Gerçek SOUL runtime veya implementasyon yoktur. “Baz SOUL + expanded SOUL” mimari kararı değildir. U016'nın açıklaması Q15 ve FRAME-CLARIFICATION ile ayrıca korunur; eski cümle tek başına sınırsız büyüme hedefi yapılmaz.
 
 ## Q03 — Matematik soru bankası
 
@@ -50,10 +50,18 @@ gstack, Superpowers, work-management-project-control, Beads, OpenSpec, recursive
 
 Bu, kullanıcı gözlemi ve konuşmanın nitel değerlendirmesidir. Repo katkısının ölçülmüş benchmark'ı değildir. Güçlü değer, daha önce araştırılmış non-collapse ayrımları ve failure modes'u hızlıca geri çağırabilmesidir.
 
-## Q13 — Source fidelity
+## Q13 — Kaynak sadakati ve onarım
 
-Kaynak konuşma modele görünür metinden manual transcription'dır; byte-perfect platform export değildir. UI code-block IDs ve whitespace presentation farklı olabilir. Tool/progress commentary ayrı source message olarak arşivlenmez; substantive final cevaplar korunur.
+İlk arşivdeki sorun yalnız UI/whitespace farkı değildi: S001–S013 kısaltılmış, yeniden ifade edilmiş ve yer yer sonradan yorum eklenmişti. Eski Q13 bunu eksik nitelendirmişti. U016 onarımında tam görünür gövdeler kaynak yollarına aktarıldı; eski yoğunlaştırmalar [ayrı tarihsel dizinde](../artifacts/condensed-before-repair/README.md) korundu. [TRANSCRIPTION-NOTE](../checks/TRANSCRIPTION-NOTE.md) ve [REPAIR](../checks/REPAIR-20260921.md) güncel kapsamı taşır. Manual aktarım platform export'u veya bağımsız transkripsiyon doğrulaması değildir. Yayın/kimlik kontrolü doğal-dil doğruluğunu kanıtlamaz.
 
 ## Q14 — Mimari/uygulama yetkisi
 
-U014 repository arşiv yetkisidir. SOUL architecture adoption, Development OS implementation, yeni research campaign veya agent-control mutation yetkisi değildir.
+U014 repository arşiv yetkisiydi; U015 kavramsal devamı, U016 önce arşiv onarımını istedi. Hiçbiri SOUL architecture adoption, Development OS implementation, yeni research campaign veya agent-control mutation yetkisi değildir. Bu onarım turunda T09 yapılmadı.
+
+## Q15 — Kullanıcı açıklaması bağlayıcı teknik şema değil
+
+U016, yeni işlevlerle mevcut işlevlerin kapsamının genişlemesini birlikte düşündüğünü belirtir. “Dikey/yatay”, iki dosya ve yeni klasör örnekleri kullanıcı niyetini açıklayan yerel anlatımlardır; mekanizma, ölçekleme standardı veya filesystem kısıtı değildir. [FRAME-CLARIFICATION](FRAME-CLARIFICATION-20260921.md) açıklamayı ayrı tutar. Pozitif kullanıcı değerlendirmesi teknik doğrulama veya belirsiz her tasarım seçiminin onayı sayılmaz.
+
+## Q16 — Branch çağrışımı seçim değil
+
+Kullanıcı bunu açıkça yöntem/araç önermeden söyledi. Git/GitHub veya branch/merge düzeneği SOUL için seçilmiş değildir. Bu onarımın Git dalıyla yapılması da analojiyi benimseme kanıtı değildir. Yeni bir araç araştırması veya mimari testi başlatılmadı.
