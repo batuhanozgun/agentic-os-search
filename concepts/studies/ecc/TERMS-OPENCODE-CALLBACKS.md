@@ -54,7 +54,7 @@ N25'in U12-B PARTIAL ifadesi **B1'in tarihsel source checkpoint'i** içindir. G�
 | ECC-OC22 — callback input | Host'un callback'e ilk argüman olarak verdiği nesne. İkinci output nesnesinden ayrıdır; before/after için aynı args konumu varsayılmaz. | N25 §2, §4; LB1 H1-TYPES / V |
 | ECC-OC23 — mutable callback output | Callback'in host'a etkisini taşıması için alanlarını değiştirdiği supplied ikinci nesne. Yeni nesne döndürmek bu nesneyi değiştirmiş sayılmaz. | N25 §2; LB1 H1-DISPATCH/TYPES / V/Y |
 | ECC-OC24 — returned replacement object | ECC handler'ın kurup döndürdüğü env/context/approval nesnesi. Çağrı başarıyla bitse bile OC21 bu replacement'ı tüketmez; tüm host davranışı yok olmuş sayılmaz. | N25 §2; LB1 HOOKS/H1-DISPATCH / K/V/Y |
-| ECC-OC25 — Promise<void> hook contract | Karşılaştırılan host arayüzünde ilgili handler'ların dönüş sözleşmesi. Local broad typing veya plugin factory'nin bütünüyle aynı imza değildir. | N25 §2, §5; LB1 H1-TYPES / V |
+| ECC-OC25 — `Promise<void>` hook contract | Karşılaştırılan host arayüzünde ilgili handler'ların dönüş sözleşmesi. Local broad typing veya plugin factory'nin bütünüyle aynı imza değildir. | N25 §2, §5; LB1 H1-TYPES / V |
 | ECC-OC26 — shell.env returned map | ECC shell.env handler'ının döndürdüğü environment map. Host'un supplied output.env alanına yazılmasıyla aynı işlem değildir. | N25 §2; LB1 HOOKS / K/Y |
 | ECC-OC27 — output.env | Host'un başlangıçta env:{} olarak verdiği mutable alan. shell.env'den dönen bağımsız map otomatik olarak buraya birleşmez. | N25 §2; LB1 H1-DISPATCH/SHELL / V |
 | ECC-OC28 — Bash shellEnv consumer | Trigger sonucu extra.env alanını environment'a birleştiren gerçek downstream consumer. ECC-specific eklerin gelmemesi default environment'ın yokluğu değildir. | N25 §2; LB1 H1-SHELL / V/Y |
@@ -94,7 +94,7 @@ N25'in U12-B PARTIAL ifadesi **B1'in tarihsel source checkpoint'i** içindir. G�
 | ECC-OC52 — missing-store test design | Generated helper dizinini yeniden adlandırıp plugin init ve seçilmiş handler'ların çağrılabilirliğini sınayan test. Kurulu host/module cache recovery deneyi değildir; bu tur uygulanmadı. | N25 §5; LB1 HOOKTEST / T |
 | ECC-OC53 — explicit-dist build test | Generated dosyayı explicit path ile import edip default export, hook ve tool şekillerini kontrol eden test. Bare package resolution veya gerçek host dispatch testi değildir; koşulmadı. | N25 §5, §7; LB1 BUILDTEST / T/Y |
 | ECC-OC54 — npm dry-run path assertions | Build testinin paket yol beklentileri. Araştırmada test tanımı görülmüştür; npm pack/dry-run bu tur veya source inquiry'de yapılmış değildir. | LB1 BUILDTEST; MB1 verification; PB1 standing / T/Y |
-| ECC-OC55 — Promise<Record<string,unknown>> | ECC factory'nin geniş yerel dönüş tipi. Bu tip içinde strict compilation, SDK Plugin/Hooks uyumunu kanıtlamaz. | N25 §5; LB1 HOOKS/test limits / K/Y |
+| ECC-OC55 — `Promise<Record<string,unknown>>` | ECC factory'nin geniş yerel dönüş tipi. Bu tip içinde strict compilation, SDK Plugin/Hooks uyumunu kanıtlamaz. | N25 §5; LB1 HOOKS/test limits / K/Y |
 | ECC-OC56 — SDK Plugin factory contract | Host SDK'sının plugin factory için yayımladığı sözleşme. ECC'nin geniş Record dönüş açıklamasıyla aynı type constraint değildir. | N25 §5; LB1 H1-TYPES / V/Y |
 | ECC-OC57 — Hooks shape | Factory'nin döndürdüğü hook map'i için host arayüzü. Factory ile aynı nesne değildir; anahtar/handler sözleşmelerinin local property-existence kontrolünden ayrıldığı yüzeydir. | N25 §2, §5; LB1 H1-TYPES / V/Y |
 
