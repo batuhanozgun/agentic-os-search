@@ -1,83 +1,71 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-21 · **U12-C aktarımı ve başlangıçtaki ECC C5/U10–U12 dilimi tamamlandı; exact next ECC C6**.
+2026-09-21 · **ECC C6 ACTIVE/PARTIAL; C6a envanter ve okuma-dayanağı uzlaştırması tamamlandı. Exact next: C6b erken deney betikleri ve ham kanıt okuması.**
 
-Bu dosya programın amaç, yetki ve current/next işini taşır. ECC'nin dosya/sürüm/okuma hesabı [READING](studies/ecc/READING.md), kullanımları [TERMS](studies/ecc/TERMS.md) içindedir. Kaynak ECC araştırmasının current işi Concepts rotası değildir.
+Bu dosya amaç, yetki ve current/next işi taşır. Ayrıntılı ECC hesabı [READING](studies/ecc/READING.md) → [C6-RECONCILIATION](studies/ecc/C6-RECONCILIATION.md) ve [167 satırlı kaynak manifesti](studies/ecc/C6-SOURCE-MANIFEST.tsv); kullanımlar [TERMS](studies/ecc/TERMS.md) içindedir. Kaynak ECC araştırmasının current işi Concepts rotası değildir.
 
-## 1. Amaç ve yön
+## 1. Amaç ve aşama
 
-**B6-SERIAL-EXTRACTION-ACTIVE / ECC-C1–C4-COMPLETE / ECC-C5a-COMPLETE / ECC-C5b-COMPLETE / ECC-C5c-COMPLETE / ECC-C5-U10–U12-COMPLETE / ECC-PACKAGE-PARTIAL / ECC-C6-NEXT / METHOD-v0.3-WORKING / B7-B8-NOT-STARTED.**
+**B6-SERIAL-EXTRACTION-ACTIVE / ECC-C1–C5-SOURCE-FAMILY-TRANSFER-COMPLETE / C6a-CENSUS-COMPLETE / ECC-C6-ACTIVE-PARTIAL / ECC-PACKAGE-PARTIAL / METHOD-v0.3-WORKING / B7-B8-NOT-STARTED.**
 
-Amaç, research/studies araştırmalarını kendi bağlamlarında tam okuyarak terim/kullanım ve ilişkilerini çıkarmak; bütün kapsam ve delta hesabından sonra ayrı ortak değerlendirmeyle Development OS/SOUL konuşmalarında ne kastedildiğini belirginleştiren referans üretmektir. Şimdiki çalışma genel terim araştırması, ürün yeniden değerlendirmesi, Foundation doğrusu veya SOUL mimarisi değildir. Kullanım sayısı kavram sayısı veya ilerleme yüzdesi değildir.
+Önce research/studies araştırmalarındaki kullanımları, kaynak bağlamı ve ilişkileriyle tam okumadan çıkarmak; bütün kapsam ve delta kontrolünden sonra ayrı ortak değerlendirmeyle Development OS/SOUL konuşmalarında ne kastedildiğini belirginleştirmek. Şimdiki iş genel terim araştırması, ürün testi, Foundation doğrusu veya mimari kabul değildir. Kullanım/dosya adedi başarı yüzdesi sayılmaz.
 
-Giriş: AGENT ve gereken protokoller → [INDEX](INDEX.md)'in STATE/CHARTER/ORIGIN/METHOD/PLAN/SETUP-REVIEW/SCOPE tam okuma yolu → etkin paketin READING/TERMS → gereken kaynak derinliği. Tarihsel hazırlık/pilot/next ifadeleri current authority değildir. Aynı konuşmada gerçekten tam ve değişmemiş içerik korunabilir; erişilemeyen canonical içerik hafızadan oluşturulmaz.
+Canonical giriş: AGENT ve gereken protokoller → [INDEX](INDEX.md)'in STATE/CHARTER/ORIGIN/METHOD/PLAN/SETUP-REVIEW/SCOPE tam okuma yolu → etkin paketin READING/TERMS ve gereken kaynak derinliği. Aynı konuşmada gerçekten tam/değişmemiş içerik korunabilir; özet veya tarihsel next ifadesi güncel yetki yerine geçmez.
 
-## 2. Program durumu
+## 2. Korunan program durumu
 
 | İş | Durum |
 |---|---|
-| Pilotlar, B2/B4, B5-SCOPE-S1 | Tamamlandı; v0.3-working korunur |
+| Pilotlar, B2/B4, B5-SCOPE-S1 | Tamamlandı; METHOD v0.3-working korunur |
 | CMH, Superpowers, AI Knowledge Strategies | Concepts durable-complete; korunur |
 | Multi-Agent Patterns, Anthropic AI-Native SDLC, gstack | Concepts durable-complete; korunur |
 | Hermes Concepts | H1–H5/package-complete; korunur |
 | Hermes source-study | Önceki kayıt ACTIVE/PARTIAL, Q60 NOT RESEARCHED; bu tur yeniden araştırılmadı |
-| ECC C1–C4 / U01–U09 | Complete; korunur |
-| ECC C5a / U10 ve C5b / U11-A–E | Complete; korunur |
-| ECC C5c / U12-A/B1/B2 | Complete; korunur |
-| ECC C5c / U12-C | Bu tur Note27/bağlı metinler/E09 aktarımı tamamlandı |
-| ECC C5 / ilk U10–U12 kaynak-aile dilimi | Complete; C5a/b/c yürütme dilimleri kapandı |
-| ECC C6 / package reconciliation | Exact next; current manifest ve bütün okuma/yorum/evidence/delta hesabı yapılacak |
-| ECC source-study | Ayrı ACTIVE/PARTIAL; c0fd473'te U13-A published, 3eac1c12'de U13-B IN PROGRESS gözlendi |
-| Post-S1 additions | agentmemory, claude-swap, cli-continues, ponytail B7 öncesi hesaba katılacak |
+| ECC C1–C4 / U01–U09 | Önceki source-family aktarımı korunur; erken gövde/ham içerik açıkları C6'dadır |
+| ECC C5a/b/c / U10–U12 | Aktarım complete; E/O/N/SC/RD/BC/TL/EP/OC/OD/PY kayıtları korunur |
+| ECC C6a | Snapshot census, baseline delta ve geçmiş okuma-dayanağı hesabı bu tur tamamlandı |
+| ECC C6b | Exact next; erken E01/E02/E03 betikleri ile başlar; yeni deney değildir |
+| ECC C6 tamamı | İçerik recovery, root/inventory, yeni kaynak aktarımı, bütün TERMS ve final delta kontrolü açık |
+| ECC source-study | Ayrı ACTIVE/PARTIAL; census'ta U13-B published, 23e1b437'de U14-A IN PROGRESS gözlendi |
+| Post-S1 eklemeler | agentmemory, claude-swap, cli-continues, ponytail B7 öncesi kapsam hesabında |
 | B7/B8 | Başlamadı |
 
-**C5 complete, ECC Concepts package complete değildir.** Root/master history, inventory/evidence ve eşzamanlı yeni kaynakların paket geneli hesabı C6'da durur. C5'e adını vermeyen U13 materyali sessiz kapsam dışı yapılmaz. Araştırmanın kendi tamamlanması da ayrı bir hükümdür.
+C6a/b reconciliation'ın yürütme dilimleridir; yeni program veya sabit tur sayısı değildir. **C1–C5 family-complete, her ham dosya FULL ve ECC package-complete aynı hüküm değildir.**
 
-## 3. Bu turun actual sonucu — yön tazeleme ve U12-C
+## 3. Bu turun gerçek sonucu
 
-Kullanıcının yönü tazeleme isteği üzerine README ve Concepts INDEX/CHARTER/ORIGIN/METHOD/PLAN/SETUP-REVIEW/SCOPE full canonical okundu; kesilen METHOD/SCOPE aralıkları tamamlandı. STATE/yerel READING/TERMS yazı öncesi full geri okundu. Amaç, ilk aşama birimi ve B7→B8 sınırı değişmedi. AGENT fresh aynı blob'du; R01–R09 LOAD, R06 full yeniden alındı, diğer protokollerin aynı konuşmadaki tam/değişmemiş sürümleri korundu. Kontrol materyali research corpus yapılmadı.
+Giriş **41f6603677ccbe81bb6a467d1bc39f0965794e06**. Önceki Concepts yayını 597a7b1'den fark yalnız source STATE idi; Concepts/control korunuyordu. Fresh AGENT aynı **aea3dd845e0f0bbcfb34465edb23782e99f95c80**; tüm R01–R09 LOAD ve aynı konuşmadaki tam/değişmemiş protokol/mandatory Concepts içerikleri uygulandı. Source STATE/META/INDEX census snapshot'ından FULL okundu. Kontrol materyali research corpus yapılmadı.
 
-Aktarım snapshot'ı **c0fd473bd3d39ff69371261c1de93afe0af8ad9c**. U12-C'nin **altı repository metni + düzeltilmiş E09 carrier'ı** tam okundu: Note27, U12-C-SOURCES, ROUND-U12-C, PUBLICATION-U12-C, E09 README/PRECHECK ve E09.zip.b64. ZIP'in **beş üyesi** ayrıca tam okundu: probe.py, results.json, MANIFEST.json, exit-code.txt, boş stderr.txt. Exact ref/blob/okuma aralıkları ve hashler yerel READING §3–§4'tedir.
+C6 kaynak ağacı **167 dosya: 64 root + 29 notes + 70 evidence + 4 inventory**. Baseline159'a göre **8 yeni, 5 değişmiş, 154 aynı, 0 silinmiş**. Bütün path/blob'lar yeni TSV'de; current 15 tree ve baseline kimliği yerel yeniden hesaplamayla eşleşti. Eksik-yaprak/yanlış-blob negatif örnekleri eşleşmedi. Bunlar metadata aktarım kontrolleridir; 167 gövdeyi okumak veya bütün terimleri doğrulamak değildir.
 
-E09 taşıyıcısı/ZIP/üye hashleri ve CRC kayıtlarla eşleşti. Kayıtlı sekiz vakanın PRECHECK/betik/sonuç ilişkisi ve JSON iç tutarlılığı kontrol edildi. **Probe veya target modules yeniden çalıştırılmadı; SDK/API/model/provider çağrısı yapılmadı.** E09, 2026-09-20 tarihli tek original-types/executor run'ı ve scripted provider/list-only effects olarak kaldı. Sekiz vaka bağımsız sekiz deney değildir; archive readback deneyin bilimsel doğrulaması sayılmaz.
+H1–H8 tam okuma kayıtları birlikte devralındı: beş tarihsel READING yeniden FULL, son iki tarihsel ve girişteki current READING aynı konuşmadaki tam/değişmez içerikten korundu. Exact ref/blob/aralıklar C6 rapor §3'tedir. Eski büyük manifestler kısa özetle kaybedilmedi.
 
-Yeni çıktı [TERMS-PYTHON-PROVIDERS-AND-TOOLS.md](studies/ecc/TERMS-PYTHON-PROVIDERS-AND-TOOLS.md), **ECC-PY01–PY108**. N27 bölüm-kayıt ve E09 vaka-kayıt hesabı §12, ilişki/yorum izi §13'tedir. Kaynak beyanı, araştırmacı yorumu, versioned/datestamped contract, inspected test ve recorded experiment ayrı tutuldu.
+**Somut açıklıklar:** beş erken deney betiği için açık FULL kayıt eksik; üç E04/E05 compressed taşıyıcı önceki kayıtta README/not/kimlik üzerinden ele alınmış, decoded tam okuma değil; dört master-history dosyası selected kapsamıyla kalmış. Current PLAN/QUESTIONS değişmiş; inventory ve bütün 15 TERMS paket kontrolü de açık. Bunların isimlerini tespit etmek gövdelerini okumuş sayılmaz.
 
-Öne çıkan sınırlar: saved provider/model ile consumed selection; tanım/response conversion ile sonraki history conversion; registry membership ile talebe özel authority; schema/strict etiketi ile Python invocation; iteration limit ile effect-free stop; error diagnostic ile structural error field; fresh retry ile durable attempt continuation. Gerçek normal round-trip, unknown-name refusal ve diagnostic retention olumlu karşılıkları korundu.
+Önceki family sonuçlarını toptan yanlış ilan etmedim veya eski kaynakları yeniden yazmadım. C6 kapanışını taşıyacak okuma dayanağını daralttım ve hedefli recovery işi olarak kaydettim. E06 quarantine/excluded ile kullanılabilir ham E04/E05 inceleme açığı eşitlenmedi; iki E05 ayrı kaldı. E07/E08/E09'un açıkça kaydedilmiş betik/raw okumaları silinmedi. Bu tur yeni terim kimliği veya target execution yok; mevcut 15 TERMS değişmedi.
 
-Ham E09'daki strict:true, accepted scripted result ve no_internal_retry ifadeleri sırasıyla yerel schema enforcement, gerçek iş kabulü veya bütün SDK'larda retry yokluğu sayılmadı. İlk yayın öncesi normalization/refusal, ModelInfo/list_models ve global/CN ayrımları PY19/PY106, PY31/PY107, PY47/PY108 ile ayrı adreslendi. Önceki TERMS'i değiştirmeyi gerektiren maddi çelişki saptanmadı; kaynak araştırma yeniden yazılmadı.
+## 4. Eşzamanlı kaynak delta'sı
 
-## 4. Eşzamanlı kaynak değişimi
+Manifest açıkça **41f6603 census snapshot'ıdır**, daha sonraki main'in son hali değildir. Yayın öncesi **23e1b437bd255342edff8d61d0246f1e66444fb2** ref'inde ayrı ECC işi **ROUND-U14-A.md ve evidence/U14-A-SOURCES.md eklemiş, source STATE'i değiştirmişti**. Yeni STATE FULL okundu, blob **a032f8b892b81171054ffbcae58538299d60f3a7**; U14-A IN PROGRESS/son completed U13-B. Yeni U14 gövdeleri Concepts'te okunmadı.
 
-Önceki Concepts checkpoint **592b11b → c0fd473** altı commit farkı, kaynak ECC'nin U13-A kapanışı/girişleri ve catalogue ile sınırlıydı; Concepts/control değişmedi. Source STATE/META/INDEX c0fd473'te full okundu: U13-A COMPLETE/PUBLISHED, U13-B sonraki kaynak işiydi.
+U13-A/B'nin census'taki sekiz dosyası ve census sonrası U14/diğer kaynak değişimleri C6 kuyruğundadır. Bunlar eski C1–C5 planında yok diye dışlanmaz. Sonraki tur census ref'inden fresh main'e deltayı alır, fakat her tur yalnız yeniden sayım yapıp gerekli içerik okumasını ertelemez. Kaynak teknik araştırmasını yürütmek, durdurmak veya dosyalarını Concepts adına düzeltmek bu işin yetkisi değildir.
 
-Bu tur ayrı source research U13-B'yi de açtı. Gözlenen karşılaştırmada PLAN/STATE değişikliği ve **ROUND-U13-B.md, evidence/U13-B-SOURCES.md, notes/29-SUPPLY-CHAIN-SCAN-COVERAGE-AND-ADVISORY-FRESHNESS.md** ekleri vardı. **3eac1c12fab41e17f41a93088d5f135542010f01** ref'indeki source STATE full okundu, blob **81ee321e41d746118a7b94ae196995b28c72ead3**, U13-B IN PROGRESS. Bu tarihli/as-of gözlemdir; C6 girişinde tekrar güncel durum alınır. Note28/29 ve U13 içerikleri bu tur Concepts'e aktarılmış sayılmaz.
+## 5. Exact next — C6b
 
-U12-C'nin fixed metin/kanıt kaynağı bu değişimlerde değişmedi. Ayrı araştırmanın çıktılarına dokunulmadı veya bu Concepts turuna mal edilmedi. Eski 159-file baseline artık current census değildir. C6 hem U13-A'yı hem o sırada mevcut U13-B/sonraki delta'yı gerçek manifestle hesaplar; bitirmeyi kolaylaştırmak için dışlama yapmaz.
+**İlk dosya:** research/studies/ecc/evidence/u01-a-cache-probe/run-cache-probe.py; census blob **589c9a31634df43fe96fc9f92c3e105b4ea4b163**. Ardından evidence/u03-a-work-item-probe/run-probe.js ve evidence/u03-b-worker-probe/run-probe.py. FULL gövde okumaları, ilgili mevcut plan/sonuç ve S/W kullanım kayıtlarıyla kaynak taraflı karşılaştırma yapılır. **Betikleri yeniden çalıştırma.**
 
-## 5. Exact next — ECC C6 paket reconciliation
+Sonra E04/E05 probe.cjs ve üç sıkıştırılmış R taşıyıcısını exact-byte/read-only recovery ile incele; salt özetten raw içerik oluşturma. Gerekli erişim sınırı çıkarsa açık taşı ve full-complete işaretleme. İki E05 tarihini ve E06 exclusion'ı koru.
 
-İlk eylem: **fresh main ve research/studies/ecc/STATE–META–INDEX → current ECC tree/yaprak manifesti → korunmuş baseline ve actual okuma kayıtlarıyla delta karşılaştırması**.
+C6'nın daha sonraki somut yükümlülükleri C6 rapor §4/§7 ve TSV kodlarında: dört selected history, current PLAN/QUESTIONS, dört inventory; U13 ve census sonrası delta aktarımı; 15 TERMS + router'ın source/atıf/rol/ID/ilişki/maddi düzeltme etkisi; final fresh inventory. Paket ancak bu scoped corpus hesabı karşılandığında version-qualified kapanır. Bugün **C6a complete, C6b NOT STARTED, C6/package PARTIAL**.
 
-Ardından yerel READING'deki **yedi tam tarihsel READING + current**, TERMS router'ının korunan tam ilişki kayıtları ve bütün ECC TERMS devralınır. Kalan root/master-history/inventory/evidence içerikleri ile yeni/değişmiş kaynakların hesabı verilir. Gereken mevcut araştırma aktarımı Concepts'te yapılır; source study'nin next technical research görevi yürütülmez. Kaynak-kayıt kapsamı, atıf/rol/ID/ilişki ve maddi düzeltme etkileri kontrol edilir. Ancak actual scoped corpus hesabı karşılandığında version-qualified ECC Concepts package closure verilir.
+ECC tamamlandıktan sonra sıradaki paket **work-management-project-control**. B7 tamamlanmadan B8 ortak referans başlamaz. Kaynak araştırmasının stronger runtime/authority/acceptance residual'ları otomatik yeni Concepts deneyi veya benimsenmiş SOUL gereksinimi değildir.
 
-Bu tur C6 yürütülmedi; source delta keşfi ve devam kaydı C6 kapanışı değildir. Tek current özetten veya eski dosya sayısından paket kapanmaz. C6 yeni genel sözlük veya mimari aşaması da değildir. ECC sonrası sıra **work-management-project-control**; B7 geçmeden B8 ortak referans başlamaz.
+## 6. Koruma, tarih ve yayın
 
-## 6. Riskler ve yazma sınırı
+Önceki U12-C sonucu ve tam geçmiş [597a7b1 STATE](https://github.com/batuhanozgun/agentic-os-search/blob/597a7b1ac0949c6505ce6227c6d4f4d1a46d4c5b/concepts/STATE.md), blob **0fb48c228ff6acc3bcf4dce98443a8af28ee5a7c**, içinde korunur. Yerel READING C6 raporundaki sekiz tam tarihsel manifesti ve önceki U12-C raw recovery hesabını bağlar. Tarihsel next/gelecek-readback ifadeleri yeni publication-repair işi değildir.
 
-Batu okuma anındaki anlam seçimlerini denetleyemediğinden önemli dayanak/yorum/belirsizlik/değişim görünür olmalıdır. Ortak sözcükler ortak anlamı garanti etmez; kaynak kullanımı, araştırmacı/extractor açıklaması ve kullanıcı onayı teknik doğruluk bakımından ayrı kalır. Bu turun somut örnekleri strict, accepted ve retry etiketlerinin actual consumer kapsamlarıdır.
+Actual checkpoints: TSV **908036f154c639cb0a6b24e5197c3d76fd06cc83**, blob **92d319d2863b3838b53ea326484e7dff65960864**; C6 rapor **476683b0fb95cc3bf5aeaf1fe6a1b05d65b621c3**, FULL readback blob **525733dbef7d4409b3ddb7c477b68cd852ed9c27**; READING **7a4e258b18ce8410af1ce55fcc983ba8f7698af5**, blob **55872549b7f5d910497c58d9c69550be783fb361**; TERMS router **ad4a8515d0ec2c7d6628ea48bedf09387bc18b9c**, blob **0acc3d16473855bffb8b9fd39d1eb05675eb66ac**. Final current-ref/diff ve entry readback bu STATE yazısından sonra yapılır; gelecekteki self-hash veya yapılmamış başarı uydurulmaz.
 
-Yazma ilgili Concepts kullanım dosyası, yerel READING/TERMS ve global STATE ile sınırlıdır. Agent-control, Foundation, kaynak studies, CATALOG, diğer Concepts paketleri, explorations ve publications bu çalışma tarafından değiştirilmez. Branch silme sorusu ayrı önceki kontroldü; bu tur branch silinmedi. Yeni target build/test/install, provider/model/credential, canlı runtime veya upstream mutation yapılmadı. Yerel arşiv/metin/ID/hash işleri read-only recovery ve yayın idaresidir.
+Yazma yalnız Concepts census/reconciliation ve gerekli girişlerdedir. Source research, agent-control, Foundation, diğer Concepts/studies, catalogue, explorations ve publications bu çalışma tarafından değiştirilmez. Current-parent SHA-aware contents writes bağımsız kaynak ilerlemesini korur; force update, yeni branch/PR, branch deletion, target deney/kod/kurulum/provider/model/release yoktur. Yerel metadata/hash kontrolü ürün doğrulaması değildir.
 
-E06 NOT VERIFIED/EXCLUDED; iki E05 geçmişi ve E04/E07/E08/E09 ayrı kapsamlarında kalır. Q02c2 ve diğer teknik residual'lar otomatik yeni Concepts deneyi veya benimsenmiş SOUL gereksinimi değildir.
-
-## 7. Korunmuş tarih ve yayın
-
-Önceki U12-B2 sonucu ve bütün daha eski state zinciri [592b11b STATE'in tam sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/592b11bd726fd39e84e53098507cf5b1a60d92e3/concepts/STATE.md), blob **5a8cc034c58117ff43dd26a6bdd44acbb213904f**, korunur. READING yedi tam tarihsel snapshot'ı açıkça listeler; eski TERMS ve yorum/düzeltme izleri yerinde kalır. Güncel STATE ayrıntılı okuma günlüğünün ikinci kopyası değildir.
-
-Actual publication checkpoints:
-- Yeni PY TERMS: **1ff40ee8ee957ab0a4926dd2f649e651f859c257**, blob **65a50600cd696d63566ef4b8dc07c58c3d55839d**; prepared 37679 bytes/228 lines remote kimlikle eşleşti, 108 sıralı unique kayıt ve full remote readback yapıldı.
-- Yerel READING: **c771e4c0879314e48eedc393aaf33c7a04045fe1**, blob **3c165169f9daa9f2deebf8e0631d8437f4032c9e**.
-- TERMS router: **6ca27ee534eb4429db2718f0790b85e7e8fba395**, blob **493213cacc7b4943f6bd0ccdcc4b8d984b7ade31**.
-
-Bu STATE yazısından sonra final compare/ref ve güncel girişlerin readback'i yapılır; kendi gelecekteki hash veya henüz yapılmamış kontrol uydurulmaz. Eşzamanlı source değişimleri bulunan toplam commit aralığı yalnız Concepts diye raporlanmaz. Same-assistant source-to-record/byte/readback kontrolleri temsil ve yayın tutarlılığıdır; bağımsız teknik veya ürün doğrulaması değildir.
+Batu okuma anındaki anlam seçimlerini denetleyemediği için bu kapsam düzeltmesi açık ve izlenebilirdir. Ortak sözcükler ortak anlamı garanti etmez; complete/read/verified yalnız ilgili nesne ve kapsamla geçerlidir. Kaynak kullanımı, araştırmacı/extractor yorumu ve kullanıcı onayı teknik doğruluk bakımından ayrı tutulur. Same-assistant kaynak-kayıt/readback kontrolü bağımsız doğrulama değildir.
