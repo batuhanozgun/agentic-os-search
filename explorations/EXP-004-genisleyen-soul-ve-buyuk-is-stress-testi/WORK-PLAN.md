@@ -1,38 +1,20 @@
-# EXP-004 — Arşivleme çalışma planı
+# EXP-004 — Arşiv onarımı çalışma planı
 
-**Durum:** CLOSED — source preservation, derived archive, router updates, main publication ve readback tamamlandı.
+**Durum: REOPENED / SOURCE-FIDELITY-REPAIR-IN-PROGRESS.** Önceki CLOSED yalnız teknik yayını kapatmış, kaynak sadakatini gereğinden güçlü sunmuştur. [Onarım kaydı](checks/REPAIR-20260921.md).
 
-## Amaç
+## Yetki ve durma sınırı
 
-Bu konuşmanın kaynak diyalogunu, research kullanımını ve stress-test sırasında değişen modeli sonraki fresh session'ın recover edebileceği biçimde exploration kütüphanesine aktarmak.
+U016, yeni kavramsal testten önce repository eksiklerini onarma yönüdür. Bu tur yeni stress testi, SOUL mimarisi veya Development OS uygulaması yapılmaz.
 
-## Tamamlanan kapsam
+## İş sırası
 
-1. Görünür substantive kaynak kesimi U001–U014 / S001–S013.
-2. Kaynak sırası ve aktarım sınırı.
-3. Önceki EXP-001/002/003 ile türetim ilişkisi.
-4. Foundation ve studies kullanım yolları.
-5. Konsolidasyon.
-6. Kaynak bağlı learnings / evolution / terms / qualifications / open questions.
-7. Topic map ve cumulative reading.
-8. Kütüphane INDEX/CATALOG güncellemesi.
-9. Source manifest ile 14 source blob kimliğinin kaydı.
-10. PR #29 merge ve main readback.
+1. İlk yoğunlaştırılmış S001–S013 ve eski manifesti açık tarihsel görünüm konumunda koru.
+2. Görünür özgün S001–S013 yanıtlarını kısaltmadan aktar.
+3. Yayın cevabı S014, U015/S015 T08 devamı ve U016 açıklamasını kaynak sırasına ekle.
+4. Kaynak metin, türetilmiş eser, kullanıcı örneği ve mimari kabul ayrımını koruyan güncel STATE/INDEX/manifest/okuma yollarını düzelt.
+5. Paket içi bağlantıları, mesaj kapsamını, kaynak sonlarını ve korunan tarihsel kimlikleri kontrol et.
+6. Yalnız yetkili değişiklikleri main'e yayımla; yayın kimliği ve karşılaştırmayla kapsamı geri doğrula.
 
-## Dışarıda
+## Kapanış ölçütü
 
-- hidden chain-of-thought;
-- system/developer talimatları;
-- raw tool responses / temporary credentials;
-- Foundation veya study metinlerinin gereksiz kopyaları;
-- gerçek matematik/eğitim domain araştırması;
-- SOUL/Development OS architecture adoption;
-- implementation/prototype.
-
-## Return condition
-
-**Karşılandı.** Paket main üzerinde yayımlanmış, kaynak ve türetilmiş yüzeyler bulunabilir, kütüphane router'ları güncel ve publication/readback sınırı kayıtlıdır.
-
-## Sonraki iş
-
-Bu archive planının kendi içinde next substantive work'ü yoktur. Sonraki exploration turu kullanıcı yönüyle Feedback / Learning / Persistent Adaptation veya başka bir bounded stress question üzerinden açılabilir.
+Özgün görünür gövdeler kaynak yollarında bulunur; eski yoğunlaştırmalar kaynak diye yönlendirilmez; kapsam ve manifest gerçek dosyalarla eşleşir; yeni kullanıcı açıklamaları karar gibi kabul edilmez; main yayını ve kontrol sınırları kayıtlı olur. Henüz bu ölçüt karşılandı denmez.
