@@ -1,17 +1,18 @@
 # EXP-004 — STATE
 
-**Güncelleme:** 2026-09-21, T11 kanıt yeterliliği ve sınırlı ilerleme.
+**Güncelleme:** 2026-09-21, T11 sonrası ikinci senaryo değerlendirmesi.
 **Arşiv:** REPAIRED / MAIN-PUBLISHED. Önceki kaynak-kısaltma/yönlendirme eksikliği o kapsamda kapalıdır; platform export'u veya bağımsız transkripsiyon doğrulaması iddiası yok.
 **Arşiv yayını:** PR #31; merge `b949fe66454a1943ac9c99827e79f68f962658be`, kapanış `e372ed7558b0b0ebbf388c864b0733382d1418ba`. [PUBLICATION](checks/PUBLICATION.md) onarımın tarihsel kontrol kaydıdır; sonraki devamların yayını değildir.
-**Güncel kavramsal çalışma:** [T11 — Kanıt yeterliliği, araştırmayı sınırlama ve ilerleyebilme](continuations/T11-EVIDENCE-SUFFICIENCY-AND-BOUNDED-PROGRESS.md). T1–T11 konuşma içi kavramsal/sentetik denemelerdir; gerçek SOUL/ajan deneyi değildir.
-**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T11 notları bu sayımı genişletmez; kaynak transkripti değildir.
+**Güncel odak:** [SC02 — Roman senaryosu değerlendirmesi](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). Roman öncelikli assistant önerisidir; kullanıcı önerisinin otomatik kabulü değildir. İkinci vaka/T12 henüz işletilmedi.
+**Son tamamlanan kavramsal test:** [T11 — Kanıt yeterliliği, araştırmayı sınırlama ve ilerleyebilme](continuations/T11-EVIDENCE-SUFFICIENCY-AND-BOUNDED-PROGRESS.md), yayın `9316a7bbf669c2fa9d648cbe3db0af17bf051e3e`. T1–T11 konuşma içi kavramsal/sentetik denemelerdir; gerçek SOUL/ajan deneyi değildir.
+**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T11 ve SC02 notları bu sayımı genişletmez; assistant kaynak transkripti değildir.
 **Önceki teknik yayınlar:** PR #29 `46ab3ff5993683c6124d7786533529e0f6147914`; PR #30 `882e0dfd271bd8c284df59f81c882a66a88f9933`. Bunlar eski tamlık iddiasını doğrulamıyordu.
 
 ## Amaç ve yetki
 
 Foundation/studies birikimiyle SOUL'un büyük, uzun, çok aktörlü ve baştan tamamen bilinmeyen bir iş için ihtiyaç duyacağı çalışma düzenini sorgulamak. Örnekler otomatik modül, yöntem, kavram tanımı veya mimari kararı değildir.
 
-U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09 ve T10 yapıldı. Güncel «Anladım. Devam et» mesajı T10'da açık bırakılan kanıt yeterliliği/bitirebilme karşı-testini yetkilendirir. Bu tur gerçek SOUL/Development OS kurulumu, yeni araştırma kampanyası veya agent-control değişikliği yoktur.
+U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09–T11 yapıldı. En son kullanıcı yazılım dışı, akıl yürütme ve baştan sona bütünsel takip gerektiren alternatif olarak roman önerdi; otomatik kabul etmememi açıkça istedi. Güncel aşama senaryo uygunluğunu değerlendirmek ve öneriyi gerekçelendirmektir. Gerçek roman yazımı, ayrıntılı ikinci testin yürütülmesi, yayıncılık girişimi, SOUL/Development OS kurulumu veya agent-control değişikliği bu tur yapılmadı.
 
 ## Korunmuş kaynak onarımı
 
@@ -45,12 +46,20 @@ Araştırmayı durdurmak, bütçede kesilmek, eseri kabul etmek ve işi başarı
 
 C11-1–8 tasarlanmış karşı durumlardır; gerçek model veya runtime'da çalıştırılmadı. RPD repository değerlendirmesi ve Foundation REUSE seçici kullanıldı. Callaway ve diğerlerinin 2018 metareasoning yazısı HTML §§2.1–2.2 ve Horvitz abstract'ı dar dış dayanak olarak okundu. RPD asıl ekleri yeniden edinilmedi; BMPS/yeni mekanizma/ürün veya architecture adoption yoktur.
 
+## SC02 — İkinci senaryo değerlendirmesi
+
+[SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md), romanı araştırma kitabı ve müze sergisi alternatifleriyle nitel olarak karşılaştırır. Öncelikli öneri romandır: uzun bağlam yanında parça-bütün niteliği, kurmaca olay/karakter inancı/anlatıcı/okur ayrımı, yaratıcı keşif, geriye etkili yeniden yazım ve editoryal/okur değerlendirmesi için güçlü adaydır. Fiziksel etki ve bağımsız dış aktör kapsamını tek başına sınamaz; bütün SOUL için yeterlilik testi değildir.
+
+Kullanıcının 'tek oturuma sığmayacak' ifadesi bütün güncel modellere dair teknik olgu yapılmaz. Sınırlı çalışma bağlamı bir deney koşulu olabilir; kaynağa geri erişim ve bütünsel değerlendirme açık kalır. Hazırlık, bütün yaratıcı kararları baştan kilitleme değildir. Her karakter/bölüm için ajan veya tek yazarlık mimarisi seçilmez. Yaratıcı belirsizliği düzeltilecek hata sanmak ile gerçek hatayı belirsizlik diye korumak iki ayrı failure adayıdır.
+
+EXP-001'in roman/yaşayan plan izi seçici geri çağrıldı. Re3, DOC ve Lost in the Middle abstract'ları ile Kukkonen'in Plot maddesinin ilgili bölümleri dar dış kaynak olarak kullanıldı; tam roman ölçeğinde etkinlik, güncel bütün modellerin performansı veya yöntem üstünlüğü iddia edilmedi. Ayrıntılı kaynak/okuma sınırları SC02'dedir. SC02 içinde son kullanıcı mesajının ayrı kaynak alıntısı bulunur; bu, korunmuş arşivin veya assistant transkriptinin genişletildiği anlamına gelmez.
+
 ## Repository etkisi
 
-Başlangıç main `42ee649f9dfb0809f76555f70b4694297a5e8a8c`. Yalnız T11 notu, bu STATE, paket INDEX ve explorations INDEX/CATALOG değişir. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T10 eserleri, Foundation, studies, concepts, önceki EXP ve agent-control değişmez.
+T11 yayını `9316a7bbf669c2fa9d648cbe3db0af17bf051e3e` bu turun başlangıç main'idir. SC02 notu, bu STATE ve paket INDEX'i değişir. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T11 eserleri, Foundation, studies, concepts, önceki EXP ve agent-control değişmez. Kütüphane girişlerindeki T1–T11 sayısı hâlâ doğru; güncel senaryo değerlendirmesi bu paketten bulunur.
 
 Bu metin kendi gelecekteki commit'ini veya yapılmamış readback'i ilan etmez. Git ref/diff ve uzak içerik kontrolü yayın sonrasında ayrı yapılır. Teknik transfer, kavramsal yeterlilik veya bağımsız doğrulama değildir.
 
 ## Sonraki sorumluluk
 
-Arşiv onarımı kapalıdır. T11 aynı büyük-iş modelinde bounded yeterlilik/ilerleme sorusunu ele aldı; tam SOUL planlama problemi çözülmedi. Doğal sonraki karşı-test, modeli farklı bir büyük iş alanına taşıyarak soru-bankası örneğine özgü varsayımları sınamaktır. Bu tur başka alan seçilip çalıştırılmadı. Kullanıcının sonraki yönü ve gerekli kaynaklarla devam edilir; uygulama/ürün seçimi yetkisi kendiliğinden oluşmaz.
+Senaryo değerlendirmesi kullanıcıya döndürülür; roman öncelikli öneridir, ayrıntılı ikinci test veya roman üretimi bu tur başlatılmadı. Kullanıcı bu yönde devam ederse ilk soru, yaratıcı amaç ve yeterli başlangıç hazırlığı kurulurken keşif alanının nasıl korunacağıdır. Olay örgüsü, bölüm/kelime sayısı, bakış açısı, editoryal örgüt ve nihai teslimat sınırı henüz bağlayıcı seçilmedi. Basım/dağıtım/reklam otomatik kapsama eklenmez. Sonraki yön ayrıca değerlendirilir; ürün/uygulama yetkisi oluşmaz.
