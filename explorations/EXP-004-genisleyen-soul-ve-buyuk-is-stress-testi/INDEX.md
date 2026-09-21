@@ -1,107 +1,53 @@
 # EXP-004 — Genişleyen SOUL ve büyük-iş stress testi
 
-**Tür:** Kavramsal diyalog + araştırma yeniden-kullanımı + sentetik büyük-iş stress testi.  
-**Kaynak oturum:** 20–21 Eylül 2026; tekil mesaj saatleri üretilmez.  
-**Kaynak kesimi:** U001–U014 ve S001–S013: 27 substantive kaynak mesaj. U014 repository'ye kayıt yetkisidir.  
-**Önceki denemeler:** [EXP-001](../EXP-001-soul-calisma-modeli/INDEX.md) → [EXP-002](../EXP-002-soul-baz-yapi-ve-entelektuel-taban/INDEX.md) → [EXP-003](../EXP-003-ek-hafiza-ve-arastirma-temelli-guvenilirlik/INDEX.md).  
-**Arşiv durumu:** [STATE](STATE.md).
+**Güncel durum:** Önce [STATE](STATE.md) okunur. T1–T7'den sonra [T08 — Geri bildirim ve kontrollü uyarlama](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md) türetilmiş devam notu eklendi; canlı sistem testi veya mimari kabul değildir.
+
+**Kaynak sadakati düzeltmesi — 2026-09-21:** Önceki arşiv, 14 kullanıcı mesajını ve 13 assistant yanıtına adreslenmiş yoğunlaştırılmış görünümleri taşır. Assistant kayıtları eksiksiz özgün cevaplar değildir; yalnız whitespace/UI farkı söz konusu değildir. [FIDELITY-20260921](checks/FIDELITY-20260921.md) eski tam-kaynak/tam-okuma ifadelerini nitelendirir. Tam özgün aktarımın onarımı açıktır. Başarılı main yayını kaynak sadakatini kanıtlamaz.
+
+**Tür:** Kavramsal diyalog + araştırma yeniden-kullanımı + sentetik büyük-iş stress testi.
+**İlk kaynak oturum:** 20–21 Eylül 2026; tekil mesaj saatleri üretilmez.
+**İlk adreslenen kesim:** U001–U014 ve S001–S013: 27 mesaj referansı. T08 bu eski kesime kaynak mesaj olarak eklenmedi.
+**Önceki denemeler:** [EXP-001](../EXP-001-soul-calisma-modeli/INDEX.md) → [EXP-002](../EXP-002-soul-baz-yapi-ve-entelektuel-taban/INDEX.md) → [EXP-003](../EXP-003-ek-hafiza-ve-arastirma-temelli-guvenilirlik/INDEX.md).
 
 ## Bu denemenin konusu
 
-Kullanıcı, Foundation ve studies birikimini kullanarak SOUL'un büyük, uzun soluklı ve baştan tamamen bilinmeyen bir işi yapmak için nasıl bir çalışma yapısına ihtiyaç duyacağını düşünmek istedi. Başlangıçta agent'lar, roller, ortadaki iş, iş akışı/plan ve memory adayları vardı. Konuşma boyunca bu beşli doğrudan mimariye çevrilmedi; Foundation'ın Work / Actors / Information / Environment ground'ları ve Composition sonuçları ile candidate studies'teki mekanizma/failure-mode'lar kullanılarak model art arda stress-test edildi.
+Kullanıcı, Foundation ve studies birikimini kullanarak SOUL'un büyük, uzun soluklu ve baştan tamamen bilinmeyen bir işi yapmak için nasıl bir çalışma yapısına ihtiyaç duyacağını düşünmek istedi. Başlangıçta agent'lar, roller, ortadaki iş, iş akışı/plan ve memory adayları vardı. Bu beşli doğrudan mimariye çevrilmedi; Work / Actors / Information / Environment ile Composition ayrımları ve candidate studies'teki mekanizma/karşıörnekler kullanıldı.
 
-Sentetik test nesnesi, bir eğitim yılı boyunca kullanılacak kapsamlı bir 4. sınıf matematik soru bankasını üretme, yayımlama ve sürdürülebilir biçimde işletme gibi büyük bir programdır. Amaç eğitim ürünü tasarlamak değil, SOUL çalışma modelini kırmaya çalışmaktır. Ülke, gerçek müfredat, mevzuat veya gerçek kullanıcı grubu seçilmedi; dış domain iddiaları bu denemenin bulgusu değildir.
+Sentetik vaka bir eğitim yılı boyunca kullanılacak kapsamlı bir 4. sınıf matematik soru bankasını üretme, yayımlama ve sürdürme programıdır. Amaç eğitim ürünü tasarlamak değil, çalışma sisteminin ihtiyaçlarını zorlamaktır. Ülke, gerçek müfredat, mevzuat veya gerçek kullanıcı grubu seçilmedi.
 
-## En kısa güncel model
+## Modelin evrimi
 
-Konuşmanın sonunda güçlü çalışma hipotezi şuna dönüştü:
+İlk arşiv kesiminde, SOUL ile oluşturduğu çalışma sistemi arasında zorunlu sert ayrım kurmak yerine baz SOUL'un işe göre genişlemesi hipotezi ortaya çıktı. T08 bunu yalnız boyut artışı olarak değil; göreve uygun yeniden yapılandırma, sadeleştirme ve gerektiğinde geri alma olarak inceltir.
 
-```text
-BASE SOUL
-   │
-   │ Mission ve Work ile karşılaşır
-   │ Work keşfeder / admit eder
-   │ Actors, Information ve Environment düzenini oluşturur
-   │ Binding / Standing / Control / Transition ilişkilerini kurar
-   │ verification / recovery / adaptation organları ekler
-   ▼
-EXPANDED SOUL / WORKING SYSTEM
-   │
-   └─ iş ilerledikçe yeniden genişler, daralır veya yeniden yapılandırılır
-```
+Work / Actors / Information / Environment ile Binding / Standing / Control / Transition, düşünme ve ilişki kurma zemini olarak kullanılır. Her birinin ayrı yazılım modülü olması gerektiği sonucuna varılmadı. Bir vakayı bu başlıklarla tarif etmek, Foundation'ın veya oluşacak sistemin yeterliliğini doğrulamaz.
 
-SOUL ile “SOUL'un ürettiği sistem” sözlü olarak ayrılabilir; fakat bu deneme kesiminde aralarında zorunlu sert bir kopuş kurulmadı. Baz SOUL'un işi yapmak için kendi çalışma organizmasını genişletmesi daha güçlü hipotez haline geldi.
+Mission qualification, ihtiyaç/önkoşul keşfi, Work admission/readiness, role/Actor, context, Environment, Run, evidence/qualification, acceptance, integration, recovery ve adaptation ilişkili sorumluluklar olarak ele alınır. Tek zorunlu linear pipeline kabul edilmedi.
 
-Foundation düzeyindeki mevcut ayrımlar stress test boyunca kırılmadı:
+## Güncel T08 sorusu
 
-```text
-Work
-Actors
-Information
-Environment
+Bir hatayı düzeltmek ile gelecekte o hata sınıfına verilen tepkiyi kalıcı değiştirmek farklıdır. Kaydedilmiş ders, aktif yöntem, korunmuş davranış değişimi, fayda, yetki ve başka işe aktarım ayrı değerlendirilir. T08, yöntemin de kapsamı, kanıtı, uygulanma yolu ve geri dönüşü olan Work olarak ele alınabileceğini sınar. Yeni zorunlu Learning Agent veya learning-service mimarisi kabul etmez.
 
-+
-
-Binding
-Standing / Qualification
-Control / Constraint
-Transition / Effect / Feedback
-```
-
-Bu sonuç yeni Foundation doğrulaması değildir; aynı assistant'ın sentetik vakada mevcut araştırmayı kullanarak yaptığı kavramsal stress testidir.
-
-## Test boyunca belirginleşen yaşam döngüsü
-
-```text
-Intent
-→ Mission qualification
-→ Need / required-condition discovery
-→ Work discovery
-→ Work formation / admission
-→ readiness / actionable frontier
-→ capability / role / Actor formation
-→ Actor-specific context formation
-→ Environment/capability materialization
-→ execution attempt
-→ realized-effect readback
-→ evidence formation
-→ qualification / verification
-→ acceptance / progression
-→ integration / delivery
-→ outcome observation
-→ Mission standing
-→ new Work / recovery / adaptation
-↺
-```
-
-Bu evreler zorunlu tek bir linear pipeline veya ayrı software modülleri değildir. Aynı çalışma farklı yollar izleyebilir; bazı evreler paralel, iç içe veya tekrar eden Work olabilir.
-
-## Hangi okuma için geldin?
+## Okuma yolları
 
 | İhtiyaç | Yol |
 |---|---|
-| Konuşmayı baştan sona okumak | [Diyalog INDEX](sources/conversation/INDEX.md) → U001/S001 … U014 |
-| Bütünlüklü model ve stress-test özeti | [CONSOLIDATION](artifacts/CONSOLIDATION.md) |
-| Kaynak bağlı kazanımlar | [LEARNINGS](reflections/LEARNINGS.md) |
-| Görüş nasıl değişti? | [EVOLUTION](reflections/EVOLUTION.md) |
-| Terimler bu konuşmada hangi geçici anlamda kullanıldı? | [TERMS](reflections/TERMS.md) |
-| Güçlü ifadelerin sınırları | [QUALIFICATIONS](reflections/QUALIFICATIONS.md) |
-| Açık kalan sorular | [OPEN-QUESTIONS](reflections/OPEN-QUESTIONS.md) |
-| “Mission composite miydi / actionable frontier / Run / Qualification Case / persistence ≠ continuity” gibi hattı bulmak | [TOPIC-MAP](retrieval/TOPIC-MAP.md) |
-| Önceki denemelerle birlikte okumak | [CUMULATIVE-READING](retrieval/CUMULATIVE-READING.md) |
-| Foundation / studies yeniden-kullanımı | [RESEARCH-REFERENCES](sources/RESEARCH-REFERENCES.md) |
-| Aktarım ve arşiv sınırı | [TRANSCRIPTION-NOTE](checks/TRANSCRIPTION-NOTE.md), [ARCHIVE-COVERAGE](checks/ARCHIVE-COVERAGE.md) |
+| Güncel devam ve yetki | [STATE](STATE.md) |
+| Test 8 ve kanıt sınırı | [T08](continuations/T08-FEEDBACK-AND-CONTROLLED-ADAPTATION.md) |
+| İlk arşivin tamlık sorunu | [FIDELITY-20260921](checks/FIDELITY-20260921.md) |
+| İlk 27 mesaj referansının sırası ve arşiv görünümleri | [Diyalog INDEX](sources/conversation/INDEX.md); assistant metinleri yoğunlaştırılmıştır |
+| T1–T7'nin bütünlüklü tarihsel modeli | [CONSOLIDATION](artifacts/CONSOLIDATION.md) |
+| Önceki kazanımlar ve görüş değişimi | [LEARNINGS](reflections/LEARNINGS.md), [EVOLUTION](reflections/EVOLUTION.md) |
+| Yerel geçici terimler | [TERMS](reflections/TERMS.md); Concepts kabulü değil |
+| Önceki epistemik nitelendirmeler | [QUALIFICATIONS](reflections/QUALIFICATIONS.md), sonraki kaynak düzeltmesi FIDELITY-20260921 |
+| Açık model soruları | [OPEN-QUESTIONS](reflections/OPEN-QUESTIONS.md) |
+| Konu ve örnek bulma | [TOPIC-MAP](retrieval/TOPIC-MAP.md) |
+| Önceki denemelerle sıralı erişim | [CUMULATIVE-READING](retrieval/CUMULATIVE-READING.md); eski 122/tam-okuma dili kaynak sadakati notuyla sınırlıdır |
+| Araştırma kullanım yolları | [RESEARCH-REFERENCES](sources/RESEARCH-REFERENCES.md); T08 kendi ek dayanaklarını taşır |
+| İlk teknik yayın | [PUBLICATION](checks/PUBLICATION.md); kaynak aktarımının eksiksizliğini kanıtlamaz |
+| Önceki aktarım/kapsam açıklamaları | [TRANSCRIPTION-NOTE](checks/TRANSCRIPTION-NOTE.md), [ARCHIVE-COVERAGE](checks/ARCHIVE-COVERAGE.md); sonraki FIDELITY notu ile birlikte |
 
-## Yanlış devralınmaması gerekenler
+## Sınırlar ve sonraki kullanım
 
-- Bu konuşma SOUL mimarisini kabul etmedi ve Development OS implementasyonu başlatmadı.
-- Matematik soru bankası gerçek ürün planı, eğitim araştırması veya domain recommendation değildir.
-- “Baz SOUL işe göre genişler” güçlü bir çalışma hipotezidir; ürün/runtime kanıtı değildir.
-- `Run / Execution Attempt` ve `Qualification Case` stress testinden çıkan aday runtime/work nesneleridir; kabul edilmiş schema/primitive değildir.
-- Need/Condition, Work, plan, role, Actor, context, memory, readiness, verification ve acceptance ayrımları bu denemede yararlı oldu; bunların tek evrensel veri modeli olduğu kanıtlanmadı.
-- Foundation'ın dört ground + Composition yapısının bu sentetik testte kırılmaması exhaustive adequacy veya bağımsız doğrulama değildir.
-- Repository araştırmaları bu denemeye mekanizma ve counterexample sağladı; study'nin varlığı o mekanizmanın SOUL'a benimsenmesi anlamına gelmez.
+Bu çalışma SOUL mimarisini kabul etmedi; Development OS veya gerçek ajan çalıştırmadı. Run / Execution Attempt, Qualification Case ve Re-entry Context aday çalışma ayrımlarıdır, zorunlu schema/service değildir. Mevcut araştırma teknik gerekçe/karşıörnek sağlayabilir; kaynakların sayısı veya aynı assistant'ın tekrar onayı bağımsız kanıt oluşturmaz.
 
-## Sonraki kullanım
-
-Bu paket, bir sonraki exploration turunun aynı noktadan devam etmesini sağlar. Doğal sonraki stress hattı Feedback / Learning / Persistent Adaptation ve ardından farklı bir büyük-domain karşı testi olabilir. Bunlar otomatik next authorised work değildir. Gerçek mimari/Development OS geçişinde ilgili target repository state'i ve güncel kullanıcı yetkisi ayrıca recover edilir.
+T08 sonrası doğal karşı-test eşzamanlı işlerin yöntem, kaynak, sürüm ve yetki çatışmasıdır. Ayrıca önceki assistant metinlerinin eksiksiz özgün aktarımı açık arşiv işi olarak kalır. Bunların güncel sorumlulukları STATE'de ayrıdır; uygulama aşamasına kendiliğinden geçilmez.
