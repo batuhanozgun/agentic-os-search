@@ -1,7 +1,8 @@
 # EXP-004 — STATE
 
-**Güncelleme:** 2026-09-21, U016 kaynak-sadakati onarımı.
-**Arşiv:** SOURCE-CONTENT-REPAIRED / PUBLICATION-PENDING. Onarılan içerik çalışma dalında; main kapanışı henüz ilan edilmez.
+**Güncelleme:** 2026-09-21, U016 kaynak-sadakati onarımı ve yayın kapanışı.
+**Arşiv:** REPAIRED / MAIN-PUBLISHED. Bilinen kaynak-kısaltma ve yönlendirme eksikliği bu kapsamda kapatıldı. Platform-export veya bağımsız transkripsiyon doğrulaması iddiası yoktur.
+**Yayın:** PR #31; merge `b949fe66454a1943ac9c99827e79f68f962658be`. [Gerçek yayın/kontrol kaydı](checks/PUBLICATION.md).
 **Kavramsal çalışma:** T1–T8 yapıldı; hepsi konuşma içi sentetik deneme. T09 bu tur başlatılmadı.
 **Kaynak:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json).
 **Önceki yayın:** PR #29 `46ab3ff5993683c6124d7786533529e0f6147914`; PR #30 `882e0dfd271bd8c284df59f81c882a66a88f9933`. Bu teknik yayınlar önceki tamlık iddiasını doğrulamıyordu.
@@ -10,7 +11,7 @@
 
 Foundation ve studies birikimini kullanarak SOUL'un büyük, uzun, çok aktörlü ve baştan tamamen bilinmeyen iş için ihtiyaç duyacağı çalışma düzenini sorgulamak; örnekleri otomatik modül/mimari kararına çevirmemek.
 
-U014 önceki kesimi kaydetme yetkisiydi. U015 aynı kavramsal çalışmayı sürdürdü ve T08 oluştu. [U016](sources/conversation/USER-MESSAGES.md#u016) eksik varsa önce repository'yi düzeltmeyi istedi; kavramsal devam yönü bu onarımdan sonra korunur. Bu tur yeni test, dış araştırma kampanyası, SOUL/Development OS kurulumu veya kontrol dosyası değişikliği yapılmaz.
+U014 önceki kesimi kaydetme yetkisiydi. U015 aynı kavramsal çalışmayı sürdürdü ve T08 oluştu. [U016](sources/conversation/USER-MESSAGES.md#u016) eksik varsa önce repository'yi düzeltmeyi istedi; kavramsal devam yönü bu onarımdan sonra korunur. Bu tur yeni test, dış araştırma kampanyası, SOUL/Development OS kurulumu veya kontrol dosyası değişikliği yapılmadı.
 
 ## Kaynak onarımının gerçek durumu
 
@@ -30,8 +31,12 @@ T1: ham talep ve yeterince belirlenmiş Mission farklı. T2: ihtiyaç/koşul, Wo
 
 U016 “büyüme”yi yalnız ek parça sayısı değil; yeni işlevlerle birlikte mevcut işlevlerin yeni aktör ve kaynakları kapsaması olarak açıkladı. İki dosya/klasör/dikey-yatay ifadeleri örnektir, literal şema değildir. Branch çağrışımı açıkça yöntem/araç önerisi olarak verilmedi. [FRAME-CLARIFICATION](reflections/FRAME-CLARIFICATION-20260921.md) bu kaynak ve yorum sınırlarını korur; kullanıcının teknik oracle olduğunu veya bu sözcüklerin mimariyi seçtiğini varsaymaz.
 
+## Yayın ve kapsam
+
+PR #31, exact head `ade5055d3bce16c988f658b15d0a4cc7545530d0` ile birleştirildi. Gerçek ilk parent başlangıç main `fb488942ddbd951f3ce5887c1acdab2c3aac8bc6`; merge tree `4551c2022c13bceab8947468e4dc3bf2d6620e60`, yayımlanan head ağacıyla aynıdır. Ön karşılaştırma 50 yetkili yol gösterdi: EXP-004 ve iki explorations girişi. T1–T7 konsolidasyonu, T08 türetilmiş notu, Foundation, studies, concepts, önceki EXP kaynakları ve agent-control değişmedi.
+
+Main'den manifest, STATE, INDEX, kaynak INDEX, U016 çerçeve notu ve kütüphane CATALOG yeniden okundu. Kaynak metin aktarımı ile Git transfer kontrolünün sınırı PUBLICATION/REPAIR'de kayıtlıdır. Onarım için kullanıcıdan upload veya merge beklenmiyor. Çalışma dalı alternatif current state değildir.
+
 ## Sonraki sorumluluk
 
-Bu turun işi kaynak/kapsam/yönlendirme onarımını main'e güvenli yayımlayıp doğrulamaktır. Ayrı çalışma dalı `repair/exp-004-source-fidelity-20260921`; başlangıç main `fb488942ddbd951f3ce5887c1acdab2c3aac8bc6`. Gerçek yayın [PUBLICATION](checks/PUBLICATION.md) ile kapatılır.
-
-Onarım sonrasında aynı kavramsal çalışma T08 ve U016'dan devralınabilir. Doğal karşı-test eşzamanlı işlerin yöntem, kaynak, sürüm ve yetki çatışmalarıdır; branch benzetmesi o testi Git çözümüne sabitlemez. Yeni uygulama veya başka hedef repository'sini devralma yetkisi yoktur.
+Bilinen arşiv onarımı kapalıdır. Aynı kavramsal çalışma T08 ve U016'dan devralınabilir; eski arşivleme işi veya T1–T8 tekrar yapılacak iş sayılmaz. Doğal karşı-test eşzamanlı işlerin yöntem, kaynak, sürüm ve yetki çatışmalarıdır; branch benzetmesi o testi Git çözümüne sabitlemez. Bu tur T09 yapılmadı. Yeni uygulama veya başka hedef repository'sini devralma yetkisi yoktur.
