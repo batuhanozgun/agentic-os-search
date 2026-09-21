@@ -1,57 +1,82 @@
 # ECC — INDEX
 
-[STATE](STATE.md) owns current work/publication. This is a retrieval router, not a second status authority. Original notes and ledgers own evidence; META owns reuse, PLAN sequence, QUESTIONS obligations and rounds method history.
+[STATE](STATE.md) owns current work and publication. This file routes retrieval, not completion authority. Original notes and their unit ledgers own evidence; META owns reuse, PLAN sequence, QUESTIONS obligations and rounds method history. Higher synthesis does not strengthen an original evidence class.
+
+## Current system-level entry
 
 | Need | Entry |
 |---|---|
-| Usage/cost/context evidence and actual resource decisions | [Note32](notes/32-USAGE-COST-CONTEXT-AND-RESOURCE-CONTROL.md) → [U14-C sources](evidence/U14-C-SOURCES.md), [MR33](ROUND-U14-C.md); source/contracts and inspected tests, no execution/E10 |
-| Next native-system assembly and breadth reconciliation | [PLAN](PLAN.md) U15-A/Q01a3 → U07-A map, original notes/ledgers and pinned frontiers; provisional responsibility/relationship map and remaining source sequence, NOT STARTED until STATE activation |
-| Actual tool capture, replay, risk and timeline/conflict use | [Note31](notes/31-TOOL-ACTIVITY-INGESTION-AND-RISK-USE.md) → [U14-B sources](evidence/U14-B-SOURCES.md), [MR32](ROUND-U14-B.md); source/contracts and inspected tests, no target execution/E10 |
-| Readiness predicates, actual platform probes, projections and consumers | [Note30](notes/30-READINESS-PREDICATES-AND-OPERATOR-PROJECTIONS.md) → [U14-A sources](evidence/U14-A-SOURCES.md), [MR31](ROUND-U14-A.md); no target execution/E10 |
-| Supply-chain scanner coverage, advisory freshness and actual consumers | [Note29](notes/29-SUPPLY-CHAIN-SCAN-COVERAGE-AND-ADVISORY-FRESHNESS.md) → [U13-B sources](evidence/U13-B-SOURCES.md), [MR30](ROUND-U13-B.md); no scan/refresh/E10 |
-| Release document/actor/artifact qualification and continuation | [Note28](notes/28-RELEASE-QUALIFICATION-AND-ARTIFACT-BINDING.md) → [U13-A sources](evidence/U13-A-SOURCES.md), [MR29](ROUND-U13-A.md); no live release |
-| Python selection, provider options, tool wire format and continuation | [Note27](notes/27-PYTHON-PROVIDER-SELECTION-AND-TOOL-ROUNDTRIPS.md) → [U12-C sources](evidence/U12-C-SOURCES.md), [MR28](ROUND-U12-C.md); source/contracts plus E09, not SDK/API/model validation |
-| E09 original-module local experiment and raw record | [README](evidence/u12-c-python-flow-probe/README.md) → [PRECHECK](evidence/u12-c-python-flow-probe/PRECHECK.md), [corrected encoded bundle](evidence/u12-c-python-flow-probe/E09.zip.b64); one run/eight cases, scripted provider/in-memory effects |
-| OpenCode package/install/loader, consent, cleanup and tool results | [Note26](notes/26-OPENCODE-INSTALLATION-LOADING-AND-TOOL-RESULTS.md) → [U12-B2 sources](evidence/U12-B2-SOURCES.md), [MR27](ROUND-U12-B2.md); jointly with Note25 answers original U12-B source criterion |
-| OpenCode callback/event/output contracts and useful tool path | [Note25](notes/25-OPENCODE-CALLBACK-CONTRACTS-AND-GENERATED-ENTRY.md) → [U12-B1 sources](evidence/U12-B1-SOURCES.md), [MR26](ROUND-U12-B.md); historical checkpoint, not installed-host validation |
-| Profiles, native flags, text projection, runners and budgets | [Note24](notes/24-EXECUTION-PROFILES-AND-HARNESS-CONSUMERS.md) → [U12-A sources](evidence/U12-A-SOURCES.md), [MR25](ROUND-U12-A.md) |
-| Templates, profile/default selection, admission/anchor and partial failure | [Note23](notes/23-TEMPLATE-RESOLUTION-AND-LAUNCH-COMPOSITION.md) → [U11-E sources](evidence/U11-E-SOURCES.md), [MR24](ROUND-U11-E.md) |
-| Backlog forwarding, rebalancing, cooloff and consumption | [Note22](notes/22-BACKLOG-COORDINATION-AND-CONSUMPTION.md) → [U11-D sources](evidence/U11-D-SOURCES.md), [MR23](ROUND-U11-D.md) |
-| Remote intake, target/authority, reuse and dispatch | [Note21](notes/21-REMOTE-INTAKE-DISPATCH-AND-RESULT-BOUNDARIES.md) → [U11-C sources](evidence/U11-C-SOURCES.md), [MR22](ROUND-U11-C.md) |
-| Scheduled work, UTC timing, admission and retry/removal | [Note20](notes/20-SCHEDULED-WORK-ADMISSION-AND-RETRY.md) → [U11-B sources](evidence/U11-B-SOURCES.md), [MR21](ROUND-U11-B.md) |
-| Native review caller, findings and outer human decisions | [Note19](notes/19-NATIVE-REVIEW-CALLER-AND-DECISION-BOUNDARIES.md) → [U11-A sources](evidence/U11-A-SOURCES.md), [MR20](ROUND-U11-A.md) |
-| E08 adapted review-flow run and complete raw data | [README](evidence/u11-a-review-flow-probe/README.md) → PRECHECK, probe and four lossless encoded parts; not native Workflow/model evidence |
-| Offline capsules/replay/receipt/report | [Note18](notes/18-OFFLINE-CAPSULES-REPLAY-AND-RECEIPT-SCOPE.md) → [U10-B sources](evidence/U10-B-SOURCES.md), [MR19](ROUND-U10-B.md) |
-| Rust recorded evaluation, transactional admission and use | [Note17](notes/17-RUST-EVALUATION-REGISTRY-AND-USE.md) → [U10-A sources](evidence/U10-A-SOURCES.md), [MR18](ROUND-U10-A.md) |
-| Node operator/store/action/message target binding | [Note16](notes/16-NODE-OPERATOR-BRIDGE-AND-TARGET-BINDING.md) → [U09-B sources](evidence/U09-B-SOURCES.md), [MR17](ROUND-U09-B.md) |
-| Rust attempt ownership/revocation and lifecycle closure | [Note15](notes/15-EXECUTION-ATTEMPT-OWNERSHIP-AND-REVOCATION.md) → [A3 sources](evidence/U09-A3-SOURCES.md), [MR16](ROUND-U09-A3.md) |
-| Rust storage/observer/worktree continuity | [Note14](notes/14-STORE-OBSERVER-AND-WORKTREE-CONTINUITY.md) → [A2 sources](evidence/U09-A2-SOURCES.md), [E07](evidence/u09-a2-sql-git-probe/README.md), [MR15](ROUND-U09-A2.md) |
-| Rust command/record/runner/stop/resume/daemon | [Note13](notes/13-RUST-SESSION-LIFECYCLE-FIRST-SLICE.md) → [U09-A sources](evidence/U09-A-SOURCES.md), [MR14](ROUND-U09-A.md) |
-| Stronger resource/telemetry/readiness/scanner/release/host claims | [QUESTIONS](QUESTIONS.md) Q08c2/b2/a2, Q07d2/d4, Q02a2/b3/c2, Q04e1b/e2b/e3b/e4b, Q04g1c/g2b, Q04h2, Q06d1b/d2b; Q03c broader installer recovery. Source/local answers do not certify these |
-| Plan Canvas feedback/review/continuation | [Note12](notes/12-PLAN-CANVAS-FEEDBACK-AND-CONTINUATION.md) → [U08-A sources](evidence/U08-A-SOURCES.md), [MR13](ROUND-U08-A.md) |
-| Historical interruption and excluded E06 | [Recovery](RECOVERY-U08-A-20260918.md) → [quarantine/checks](evidence/u08-a-recovery/README.md), [recovery publication](PUBLICATION-U08-A-RECOVERY.md) |
-| Purpose, fixed target and reuse | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
-| Material-family coverage | [U07-A map](inventory/U07-A-FAMILY-MAP.md) → [sources](evidence/U07-A-SOURCES.md), [MR12](ROUND-U07-A.md); historical next labels are not current |
-| Sequence and questions | [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md) |
-| Governance events/persistence/decision | [Note11](notes/11-GOVERNANCE-EVENTS-PERSISTENCE-AND-DECISION.md) → [U06-C sources](evidence/U06-C-SOURCES.md), [MR11](ROUND-U06-C.md) |
-| Fact-forcing/state/composition | [Note10](notes/10-FACT-FORCING-STATE-AND-DECISION-COMPOSITION.md) → [U06-B sources](evidence/U06-B-SOURCES.md), [MR10](ROUND-U06-B.md) |
-| Configuration protection | [Note09](notes/09-CONFIGURATION-PROTECTION-AND-ENFORCEMENT.md) → [U06-A sources](evidence/U06-A-SOURCES.md), [MR09](ROUND-U06-A.md) |
-| E05 distinct histories | [Main-path E05](evidence/u06-a-config-probe/README.md), [conversation/repository reconciliation](evidence/u06-a-conversation-record/README.md); do not pool/overwrite |
-| Skill outcomes/evaluation/change | [Note08](notes/08-SKILL-OUTCOMES-EVALUATION-AND-CHANGE.md) → [U05-B sources](evidence/U05-B-SOURCES.md), [E04](evidence/u05-b-evaluation-probe/README.md), [MR08](ROUND-U05-B.md) |
-| Observation/instinct/context | [Note07](notes/07-OBSERVATION-INSTINCTS-AND-BEHAVIORAL-CONTEXT.md) → [U05-A sources](evidence/U05-A-SOURCES.md), [MR07](ROUND-U05-A.md) |
-| Memory/recall/authority | [Note06](notes/06-MEMORY-SCOPE-RECALL-AND-AUTHORITY.md) → [U04-A sources](evidence/U04-A-SOURCES.md), [MR06](ROUND-U04-A.md) |
-| Runtime/handoff/recovery | [Note05](notes/05-EXECUTION-HANDOFF-AND-RECOVERY.md) → [U03-B sources](evidence/U03-B-SOURCES.md), [E03](evidence/u03-b-worker-probe/README.md) |
-| Work/session records | [Note04](notes/04-WORK-SESSION-RECORDS-AND-CONTROL.md) → [U03-A sources](evidence/U03-A-SOURCES.md), [E02](evidence/u03-a-work-item-probe/README.md) |
-| Ownership/checkpoints/projection | [Note03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md) → [U02-A sources](evidence/U02-A-SOURCES.md) |
-| Installation/materialization | [Note02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md) → [U01-B sources](evidence/U01-B-SOURCES.md) |
-| Initial surfaces/cache | [Note01](notes/01-SURFACES-AND-CODEX-CACHE.md) → [U01-A sources](evidence/U01-A-SOURCES.md), [E01](evidence/u01-a-cache-probe/README.md) |
-| Older master histories through U03-B | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later unit ledgers/rounds continue separately |
-| Historical inventory/frontier | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B delta](inventory/U01-B-DISCOVERY.md); U07-A adds dispositions |
-| Current publication | STATE links the actual receipt after checks; source and publication completion are distinct |
-| Earlier publication | [U14-B](PUBLICATION-U14-B.md), [U14-A](PUBLICATION-U14-A.md), [U13-B](PUBLICATION-U13-B.md), [U13-A](PUBLICATION-U13-A.md), [U12-C](PUBLICATION-U12-C.md), [U12-B2](PUBLICATION-U12-B2.md), [U12-B1](PUBLICATION-U12-B1.md), [U12-A](PUBLICATION-U12-A.md), [U11-E](PUBLICATION-U11-E.md), [U11-D](PUBLICATION-U11-D.md), [U11-C](PUBLICATION-U11-C.md), [U11-B](PUBLICATION-U11-B.md), [U11-A](PUBLICATION-U11-A.md), [U10-B](PUBLICATION-U10-B.md), [U10-A](PUBLICATION-U10-A.md), [U09-B](PUBLICATION-U09-B.md), [U09-A3/retry](PUBLICATION-U09-A3.md), [U09-A2](PUBLICATION-U09-A2.md), [U09-A first slice](PUBLICATION-U09-A.md), [U08-A](PUBLICATION-U08-A.md), [U07-A](PUBLICATION-U07-A.md), [U06-C](PUBLICATION-U06-C.md), [U06-B](PUBLICATION-U06-B.md), [U06-A](PUBLICATION-U06-A.md), [U05-B](PUBLICATION-U05-B.md), [U05-A](PUBLICATION-U05-A.md), [U04-A](PUBLICATION-U04-A.md), [U03-B](PUBLICATION-U03-B.md), [older](PUBLICATION.md) |
+| What working system does the research now support? | [Note33 — provisional native assembly](notes/33-NATIVE-SYSTEM-ASSEMBLY-AND-RESEARCH-FRONTIER.md) → [U15-A exact sources](evidence/U15-A-SOURCES.md), [MR34](ROUND-U15-A.md) |
+| Which original families are explained, unread or empirically unverified? | [U15-A coverage reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md) → original [U07-A map](inventory/U07-A-FAMILY-MAP.md) and [ledger](evidence/U07-A-SOURCES.md) |
+| Next selected delivery/integration question | [PLAN0.35](PLAN.md) U15-B/Q04i → Rust daemon/manager merge queue, worktree helpers, store and CLI/TUI consumers. Full mechanism inquiry NOT STARTED until STATE activation; limited preparation is in U15-A sources |
+| Remaining variants and stronger claims | [QUESTIONS](QUESTIONS.md) and reconciliation G1–G6. A genuine unread source responsibility is not merely an unrun runtime test; neither is every unrun test mandatory source work |
 
-Note32 distinguishes cumulative usage from increments, estimates from billed cost, context observation age from shared activity and warning advice from actual budget stopping. JavaScript last-row reading is a working control; Rust SUM consumes a different contract. Identity/path/missingness/model attribution and concurrent replacement qualify the results. Q08c2 preserves stronger evidence. Tests were inspected only; no E10 or live spend.
+## Original mechanism notes
 
-Notes30–31 retain readiness/telemetry findings, Notes28–29 release/scanner mechanisms and all earlier notes their original boundaries. Original experiments and correction histories remain unchanged. [Pre-U14-C INDEX](https://github.com/batuhanozgun/agentic-os-search/blob/3a317aac2f6d0df13c9b049f6d0dd2fb62f33da8/research/studies/ecc/INDEX.md) preserves preceding full wording.
+Each note links its original source ledger and round. Follow those links for exact upstream pin/blob/range, test-definition versus execution scope and corrections.
 
-Next U15-A reconciles original evidence into a provisional native-system picture; it is not started and not final CORE or complete omission/holdout work. Remaining material variants, stronger empirical claims and whole-study evaluation remain. These are project-work files, not agent-control.
+| Need | Original evidence entry |
+|---|---|
+| Initial surfaces and Codex cache predicate | [Note01](notes/01-SURFACES-AND-CODEX-CACHE.md) |
+| Native/managed/legacy materialization | [Note02](notes/02-INSTALLATION-CHANNELS-AND-MATERIALIZATION.md) |
+| Caller-specific ownership, checkpoints and projection | [Note03](notes/03-OWNERSHIP-CHECKPOINTS-AND-PROJECTION.md); refines the preceding broad checkpoint account |
+| Cards, claims, movement and session records | [Note04](notes/04-WORK-SESSION-RECORDS-AND-CONTROL.md) |
+| tmux/worktree worker, handoff and recovery | [Note05](notes/05-EXECUTION-HANDOFF-AND-RECOVERY.md) |
+| Vault scope, recall and authority | [Note06](notes/06-MEMORY-SCOPE-RECALL-AND-AUTHORITY.md) |
+| Observation, instinct generation and behavioral context | [Note07](notes/07-OBSERVATION-INSTINCTS-AND-BEHAVIORAL-CONTEXT.md) |
+| Skill outcome, evaluation and mutation | [Note08](notes/08-SKILL-OUTCOMES-EVALUATION-AND-CHANGE.md) |
+| Configuration guard and selection/enforcement | [Note09](notes/09-CONFIGURATION-PROTECTION-AND-ENFORCEMENT.md) |
+| Fact-forcing state and composed decisions | [Note10](notes/10-FACT-FORCING-STATE-AND-DECISION-COMPOSITION.md) |
+| Governance emission, persistence and resolution | [Note11](notes/11-GOVERNANCE-EVENTS-PERSISTENCE-AND-DECISION.md) |
+| Plan Canvas artifact/feedback/caller continuation | [Note12](notes/12-PLAN-CANVAS-FEEDBACK-AND-CONTINUATION.md) |
+| Rust command, record, runner, stop and resume | [Note13](notes/13-RUST-SESSION-LIFECYCLE-FIRST-SLICE.md) |
+| Rust storage, effectful observer and worktree continuity | [Note14](notes/14-STORE-OBSERVER-AND-WORKTREE-CONTINUITY.md) |
+| Rust attempt ownership/revocation and bounded lifecycle closure | [Note15](notes/15-EXECUTION-ATTEMPT-OWNERSHIP-AND-REVOCATION.md); resolves the source continuation from Notes13–14 |
+| Node operator/store/action/message target binding | [Note16](notes/16-NODE-OPERATOR-BRIDGE-AND-TARGET-BINDING.md) |
+| Rust recorded evaluation registry and actual use | [Note17](notes/17-RUST-EVALUATION-REGISTRY-AND-USE.md) |
+| Capsule, replay, receipt and refused candidate execution | [Note18](notes/18-OFFLINE-CAPSULES-REPLAY-AND-RECEIPT-SCOPE.md) |
+| Native review, its caller and outer human decisions | [Note19](notes/19-NATIVE-REVIEW-CALLER-AND-DECISION-BOUNDARIES.md) |
+| Schedule timing, work admission and retry | [Note20](notes/20-SCHEDULED-WORK-ADMISSION-AND-RETRY.md) |
+| Remote intake, target/profile/routing and result | [Note21](notes/21-REMOTE-INTAKE-DISPATCH-AND-RESULT-BOUNDARIES.md) |
+| Backlog forwarding, rebalancing, cooloff and consumption | [Note22](notes/22-BACKLOG-COORDINATION-AND-CONSUMPTION.md) |
+| Template resolution, admission and launch composition | [Note23](notes/23-TEMPLATE-RESOLUTION-AND-LAUNCH-COMPOSITION.md) |
+| Profiles, native flags, fallback text and configured runners | [Note24](notes/24-EXECUTION-PROFILES-AND-HARNESS-CONSUMERS.md) |
+| OpenCode callback/event/output contracts | [Note25](notes/25-OPENCODE-CALLBACK-CONTRACTS-AND-GENERATED-ENTRY.md) |
+| OpenCode installation, actual loading, consent/cleanup and tools | [Note26](notes/26-OPENCODE-INSTALLATION-LOADING-AND-TOOL-RESULTS.md); with Note25 closes the original bounded OpenCode inquiry |
+| Python selection, provider requests and tool round trips | [Note27](notes/27-PYTHON-PROVIDER-SELECTION-AND-TOOL-ROUNDTRIPS.md) |
+| ECC release qualification and exact archive binding | [Note28](notes/28-RELEASE-QUALIFICATION-AND-ARTIFACT-BINDING.md) |
+| Supply-chain scan population and advisory freshness | [Note29](notes/29-SUPPLY-CHAIN-SCAN-COVERAGE-AND-ADVISORY-FRESHNESS.md) |
+| Readiness predicates and operator projections | [Note30](notes/30-READINESS-PREDICATES-AND-OPERATOR-PROJECTIONS.md) |
+| Actual tool capture, ingestion, risk and timeline/control use | [Note31](notes/31-TOOL-ACTIVITY-INGESTION-AND-RISK-USE.md) |
+| Usage/cost/context and warning/stopping consumers | [Note32](notes/32-USAGE-COST-CONTEXT-AND-RESOURCE-CONTROL.md) |
+
+## Experiment identities and recovery
+
+| Need | Entry and boundary |
+|---|---|
+| E01 cache predicate | [Original bundle](evidence/u01-a-cache-probe/README.md); presence checking, not installed host |
+| E02 work-item behavior | [Original bundle](evidence/u03-a-work-item-probe/README.md); store double, not SQL/authentication/concurrency |
+| E03 worker and collector | [Original bundle](evidence/u03-b-worker-probe/README.md); fake provider, not actual model or full tmux deployment |
+| E04 outcome helper | [Original bundle](evidence/u05-b-evaluation-probe/README.md); stipulated evidence, not causal improvement |
+| E05 distinct histories | [Main-path bundle](evidence/u06-a-config-probe/README.md) and [conversation/repository reconciliation](evidence/u06-a-conversation-record/README.md); do not pool or overwrite |
+| Excluded E06 and interruption | [Recovery](RECOVERY-U08-A-20260918.md) → [quarantine/checks](evidence/u08-a-recovery/README.md), [recovery receipt](PUBLICATION-U08-A-RECOVERY.md) |
+| E07 SQL/Git checks | [Original bundle](evidence/u09-a2-sql-git-probe/README.md); not Rust integration |
+| E08 review-flow check | [Original bundle](evidence/u11-a-review-flow-probe/README.md); PRECHECK and lossless encoded records, adapted flow not native/model evaluation |
+| E09 Python flow | [Original bundle](evidence/u12-c-python-flow-probe/README.md) → [PRECHECK](evidence/u12-c-python-flow-probe/PRECHECK.md), [corrected encoded bundle](evidence/u12-c-python-flow-probe/E09.zip.b64); original modules/scripted provider, not SDK/API execution |
+
+U15-A adds no experiment or rerun. Note synthesis is not independent corroboration of any of these results. Historical U09-A3 local ZIP is not an upload obligation; its canonical source/publication history remains with Note15 and [receipt](PUBLICATION-U09-A3.md).
+
+## Purpose, method, inventory and publication
+
+| Need | Entry |
+|---|---|
+| Purpose and reuse boundary | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
+| Method and sequence | [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md) |
+| Current consolidation method history | [MR34](ROUND-U15-A.md); earlier rounds remain with their original notes |
+| Original discovery records | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B discovery](inventory/U01-B-DISCOVERY.md), [U07-A map](inventory/U07-A-FAMILY-MAP.md) |
+| Early master histories | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later unit ledgers/rounds continue them |
+| Current publication | STATE links the receipt after actual checks; source/synthesis completion and verified publication are different |
+| Preceding publication | [U14-C receipt](PUBLICATION-U14-C.md), [U14-B receipt](PUBLICATION-U14-B.md), [U14-A receipt](PUBLICATION-U14-A.md) |
+| Complete earlier routing/publication list | [Pre-U15-A INDEX](https://github.com/batuhanozgun/agentic-os-search/blob/352c89e029edcd990e341f4498f3da1e2274727b/research/studies/ecc/INDEX.md); original publication files are unchanged |
+
+Note33 is a provisional assembly, not final CORE or Foundation/architecture authority. The reconciliation retains all twelve original families and separates material source gaps from stronger empirical claims. The next selected integration question has a real caller but is not source-complete. Original evidence, corrections and all open obligations remain recoverable. These are project-work files, not agent-control.
