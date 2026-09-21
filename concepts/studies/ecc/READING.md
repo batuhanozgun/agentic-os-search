@@ -1,30 +1,33 @@
 # ECC — Okuma ve kalıcı çıkarım durumu
 
-2026-09-20 · **B6-T17-C5c / U12-A TRANSFER-COMPLETE / C5c-PARTIAL / C5-PARTIAL / PACKAGE-PARTIAL**.
+2026-09-21 · **B6-T17-C5c / U12-A–B1 TRANSFER-COMPLETE / C5c-PARTIAL / C5-PARTIAL / PACKAGE-PARTIAL**.
 
-Bu dosya Concepts okuma ve devam durumudur. [TERMS.md](TERMS.md) kullanımları, [global STATE](../../STATE.md) programın current/next işini taşır. ECC source-study ACTIVE/PARTIAL; U12-C / plan 0.29'a kadar yayımlanmış ve U13-A/Q07d1 NOT STARTED. Concepts onun yeni araştırmasını başlatmaz. Bu checkpoint U12-A kullanım aktarımıdır; U12-B1/B2/C ve C6 kapanışı değildir.
+Bu dosya Concepts okuma/aktarım durumudur. [TERMS.md](TERMS.md) kullanımları, [global STATE](../../STATE.md) programın current/next işini taşır. ECC source-study ACTIVE/PARTIAL; U12-C / plan 0.29'a kadar yayımlanmış ve U13-A/Q07d1 NOT STARTED. Concepts onun yeni araştırmasını başlatmaz. Bu checkpoint U12-B1 aktarımıdır; U12-B2/C ve C6 kapanışı değildir.
 
 ## 1. Kaynak kimliği ve korunmuş tam geçmiş
 
 - Research repository: batuhanozgun/agentic-os-search.
-- U12-A giriş main/snapshot: **df7b81a8f0bdb045d7307e63fdf306d0eaf9e843**; önceki U11-E final kapanışıyla compare-identical.
+- U12-B1 giriş main/snapshot: **25c2e6615990c4ad9a8acdd508ae5a6acab95b5d**; U12-A final kapanışıyla compare-identical.
 - Kaynak paket: research/studies/ecc/.
-- Korunan ECC package tree: **b6df4013a0f8275da82d6f27a2cd354201c5c70b**. Girişte intervening repository değişikliği yoktu; yeni whole-package census yapılmadı.
-- Ayrı upstream research pin: **affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a**. Research snapshot'ı, upstream pin ve installed runtime farklı nesnelerdir.
+- Korunan ECC package tree: **b6df4013a0f8275da82d6f27a2cd354201c5c70b**. Giriş ve yayın öncesi karşılaştırmalarında kaynak paket değişmedi; yeni whole-package census yapılmadı.
+- Ayrı ECC research pin: **affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a**.
+- Kaynak araştırmanın host karşılaştırması: **anomalyco/opencode v1.4.3 / 877be7e8e04142cd8fbebcb5e6c4b9617bf28cce**. Nested lock etiketiyle seçilmiş kaynak sürümüdür; registry bytes, installed binary veya latest değildir.
+- Ayrı indexed observation: **07756cee15788a54506031462794ad645719b028**. ECC pin'i veya current release yerine geçmez.
 - Concepts METHOD v0.3-working, SCOPE S1 ve açık post-S1 delta hesabı korunur.
 
-Önceki exact manifestler, yorum düzeltmeleri, evidence istisnaları ve yayın kayıtları aşağıdaki **tam değişmez dosyalarda** korunur. Bunlar yalnız özet veya yeni current-next değildir:
+Önceki exact manifestler, yorum düzeltmeleri, evidence istisnaları ve yayın kayıtları aşağıdaki **tam değişmez dosyalarda** korunur; özetle veya yeni current-next ile değiştirilmez:
 
 | Kapsam | Değişmez tam READING | Git blob |
 |---|---|---|
 | C1–C4 / U01–U09 | [753a4c6](https://github.com/batuhanozgun/agentic-os-search/blob/753a4c6696740664d359a293ee8d300a45ade6d8/concepts/studies/ecc/READING.md) | a027c7cb71f06de5355fcb4783f9a0a88d581c0c |
 | C5a/U10, U11-A/E08 ve U11-B | [f0d9ae3](https://github.com/batuhanozgun/agentic-os-search/blob/f0d9ae31062459cf7b2cd982eaf484cbdfc336e8/concepts/studies/ecc/READING.md) | 0c740a10a604774ce8c1df4a967a419de69c6ca5 |
-| U11-C ve U11-D exact manifestleri, source-to-record ve yayın ayrıntıları | [eb7754b](https://github.com/batuhanozgun/agentic-os-search/blob/eb7754b34953b57b9c1aeb92ef4885993ded7ca2/concepts/studies/ecc/READING.md) | 8b1ebc35fd4c5c2e20a9395f9f45f9599428b3a8 |
-| U11-E exact manifesti, ilk aktarım/düzeltmeler ve C5b kapanışı | [df7b81a](https://github.com/batuhanozgun/agentic-os-search/blob/df7b81a8f0bdb045d7307e63fdf306d0eaf9e843/concepts/studies/ecc/READING.md) | 08a3ea459fb34170d0ee356620b22f0f739526c9 |
+| U11-C/D exact manifestleri ve yayın ayrıntıları | [eb7754b](https://github.com/batuhanozgun/agentic-os-search/blob/eb7754b34953b57b9c1aeb92ef4885993ded7ca2/concepts/studies/ecc/READING.md) | 8b1ebc35fd4c5c2e20a9395f9f45f9599428b3a8 |
+| U11-E manifesti, aktarım düzeltmeleri ve C5b kapanışı | [df7b81a](https://github.com/batuhanozgun/agentic-os-search/blob/df7b81a8f0bdb045d7307e63fdf306d0eaf9e843/concepts/studies/ecc/READING.md) | 08a3ea459fb34170d0ee356620b22f0f739526c9 |
+| U12-A manifesti, EP kayıt ayrımları ve yayın kontrolü | [25c2e66](https://github.com/batuhanozgun/agentic-os-search/blob/25c2e6615990c4ad9a8acdd508ae5a6acab95b5d/concepts/studies/ecc/READING.md) | 5ac000dab5f3372d9617549f3702c43e193008d2 |
 
-Df7b81a içeriği önceki turda tam geri okunmuştu; yeni giriş identical ve bu dosya güncellemesi aynı blob'a SHA kontrollüdür. Bu tur bütün tarih yeniden okunmuş sayılmaz. C6, bu dört tam tarihsel kaydı ve current dosyayı birlikte devralır; scope/role/ID hesabını yalnız current tablodan kapatmaz. U11-E'nin TL38/TL74, TL50/TL73 ve TL72 düzeltmeleri kendi TERMS §10'unda da korunur. Önceki TERMS ve kaynak dosyaları bu tur değiştirilmedi.
+Son satır bu dosyanın girişteki tam sürümüdür; aynı konuşmada tam okunmuş içerik ve girişteki identical karşılaştırma korunur. Bu tur bütün geçmiş yeniden okunmuş sayılmaz. C6 **beş tam tarihsel READING ve current dosyayı**, ilgili TERMS ve actual source inventory ile birlikte devralır. Tarihsel next/PARTIAL ifadeleri bugünkü authority değildir. Önceki TERMS ve kaynak dosyaları değiştirilmedi.
 
-Önceki inventory hesabı 60 root + 27 notes + 68 evidence + 4 inventory = 159 dosyadır. Bu sayı bu tur yeniden sayılmadı; semantik tamlık veya ilerleme yüzdesi değildir.
+Önceki inventory hesabı 60 root + 27 notes + 68 evidence + 4 inventory = 159 dosyadır. Bu sayı bu tur yeniden sayılmadı; semantik tamlık veya ilerleme yüzdesi değildir. Concepts/ECC directory discovery yanıtı kesildi; tam directory census veya yokluk kanıtı sayılmadı.
 
 ## 2. Güncel partition
 
@@ -39,59 +42,61 @@ Df7b81a içeriği önceki turda tam geri okunmuştu; yeni giriş identical ve bu
 | C5b — U11-B | Transfer complete; korunur | TERMS-SCHEDULED-WORK.md; SC01–SC61 |
 | C5b — U11-C | Transfer complete; korunur | TERMS-REMOTE-REQUESTS.md; RD01–RD70 |
 | C5b — U11-D | Transfer complete; korunur | TERMS-BACKLOG-COORDINATION.md; BC01–BC70 |
-| C5b — U11-E | Transfer complete; korunur; C5b complete | TERMS-TEMPLATE-LAUNCH.md; TL01–TL74 |
-| C5c — U12-A | Bu tur transfer complete | TERMS-EXECUTION-PROFILES.md; EP01–EP84 |
-| C5c — U12-B1/B2 | Sırada; ilk Note25 | Generated OpenCode entry ve installation/loading/tool-result |
+| C5b — U11-E | Transfer complete; C5b complete | TERMS-TEMPLATE-LAUNCH.md; TL01–TL74 |
+| C5c — U12-A | Transfer complete; korunur | TERMS-EXECUTION-PROFILES.md; EP01–EP84 |
+| C5c — U12-B1 | Bu tur transfer complete | TERMS-OPENCODE-CALLBACKS.md; OC01–OC92 |
+| C5c — U12-B2 | Sıradaki exact next; gövdesi okunmadı | Note26 installation/loading/tool-result |
 | C5c — U12-C | Bekliyor | Python/provider/tool-roundtrip ve E09 |
 | C6 — package-wide reconciliation | Bekliyor | History/inventory/evidence, bütün TERMS ve source delta |
 
-Bütün kimlikler ECC- öneki taşır. C5a/b/c mevcut C5'in yürütme dilimleridir; yeni phase veya kapsam dışlama kararı değildir. **C5b complete korunur; C5c, C5, ECC Concepts paketi ve ECC source-study tamamlanmadı.** Bu tur U12-B1/B2/C gövde okuması başlamadı.
+Bütün kullanım kimlikleri ECC- öneki taşır. C5a/b/c mevcut C5'in yürütme dilimleridir; yeni phase veya kapsam dışlama kararı değildir. **C5b complete korunur; C5c, C5 ve ECC Concepts paketi tamamlanmadı.** U12-B1'in source dosyalarındaki U12-B PARTIAL tarihsel checkpoint'i current source-study'ye geri taşınmaz: source-study Notes25–26'yı yayımlamıştır, Concepts ise B2'yi henüz aktarmadı.
 
-## 3. U12-A gerçek okuma manifesti
+## 3. U12-B1 gerçek okuma manifesti
 
-Aşağıdaki yollar research/studies/ecc/ tabanında, §1 giriş snapshot'ına bağlıdır. FULL bu araştırma dosyasının tamamıdır; içinde atfedilen upstream kaynakların bu tur okunması/çalıştırılması değildir.
+Yollar research/studies/ecc/ tabanında, §1 giriş snapshot'ına bağlıdır. FULL bu research dosyasının tamamıdır; atfedilen upstream kaynakların bu tur okunması veya çalıştırılması değildir.
 
 | Yol | Git blob | Gerçek okuma |
 |---|---|---|
-| notes/24-EXECUTION-PROFILES-AND-HARNESS-CONSUMERS.md | 2d228fca57f5fcdc8bbbce955fcde4a4a03b42f9 | FULL; 1–65 ve 66–140 isteğiyle EOF |
-| evidence/U12-A-SOURCES.md | befcad04dfc6f00d2210b0f9c67a43239b6925ce | FULL; 1–70 isteğiyle EOF |
-| ROUND-U12-A.md | baca22dc3226d07f42e7a50bd4a4dd15e7669ee2 | FULL; 1–110 isteğiyle EOF |
-| PUBLICATION-U12-A.md | 0d53d1a221414ee75ee8405c44870fbb71f93abf | FULL; 1–115 isteğiyle EOF |
+| notes/25-OPENCODE-CALLBACK-CONTRACTS-AND-GENERATED-ENTRY.md | 2d2bed97f3189db10e5ac6665086c69e3d0f6367 | FULL; 1–85 isteği EOF'a ulaştı |
+| evidence/U12-B1-SOURCES.md | 377906978b712c37381ab91586cd6f1c99e292d3 | FULL; 1–95 isteği EOF'a ulaştı |
+| ROUND-U12-B.md | ef7630af230b2117013d31f84df41feae87a8239 | FULL; 1–130 isteği EOF'a ulaştı |
+| PUBLICATION-U12-B1.md | 744d87b284f3aa177bff67b76c12fb814ed0bd7b | FULL; 1–130 isteği EOF'a ulaştı |
 
-U12-A source-only inquiry'dir. Dated host/process sözleşmeleri araştırmanın **2026-09-19** tarihli atıflarıdır; güncel installed binary/API/host behavior doğrulaması değildir. Upstream command tests araştırmada incelenmiş fakat koşulmamıştır; bu Concepts turunda test gövdeleri ayrıca yeniden okunmadı. Ayrı raw run veya E09 burada varmış gibi üretilmedi. E08/E07 ve sonraki Python E09 profile/host deneyine dönüştürülmedi.
+Bu inquiry yeni deney içermez. Hook/build testleri araştırmada incelenmiş tanımlardır; Concepts'te yeni compiler, npm pack, host/model, fixture veya target execution yapılmadı. Araştırmanın versioned host incelemesi ve dated W-B1-DOC atfı yeni current product doğrulaması değildir. E08/E07 ve sonraki Python E09 bu plugin'in deneyine çevrilmedi.
 
-**Preflight:** AGENT fresh tam okundu ve aynı aea3dd845e0f0bbcfb34465edb23782e99f95c80 kimliğindeydi. R01–R09'un, Concepts INDEX/STATE/CHARTER/ORIGIN/METHOD/PLAN/SETUP-REVIEW/SCOPE, yerel READING/TERMS ve ECC META/STATE/INDEX'in aynı konuşmadaki tam canonical içerikleri korundu. Giriş compare-identical olduğundan değişmemiş dosyalar mekanik tekrar edilmedi. Bu yeni oturum deneyi veya önceki okumaların bağımsız doğrulaması değildir. Control materyali kullanım korpusuna katılmadı.
+**Preflight:** AGENT fresh tam okundu; aea3dd845e0f0bbcfb34465edb23782e99f95c80 değişmedi. R01, R02 ve R03 tam canonical içerikleri yeniden geri kazanıldı; R01 1–140/141–310, R03 1–165/166–400 ile EOF'a tamamlandı. R04–R09'un ve mandatory Concepts INDEX/STATE/CHARTER/ORIGIN/METHOD/PLAN/SETUP-REVIEW/SCOPE, local READING/TERMS ve ECC META/STATE/INDEX'in aynı konuşmadaki tam içerikleri korundu. Başlangıç main identical olduğundan değişmemiş dosyalar mekanik tekrarlanmadı. Control dosyaları kullanım korpusuna katılmadı.
 
-## 4. Kaynak–kayıt kontrolü ve yorum izi
+## 4. Kaynak–kayıt ve yorum kontrolü
 
-Yeni [TERMS-EXECUTION-PROFILES.md](TERMS-EXECUTION-PROFILES.md) **ECC-EP01–EP84** kullanımını N24 §1–8 ve LA kaynak/consumer/test/dış sözleşme kapsamıyla bağlar. K/Y/T/H rolleri code-report, eski araştırmacı yorumu, inspected test ve dated external contract'ı ayırır. Türkçe açıklamalar extractor paraphrase'idir. Kaynak tarafından bölüm-kayıt eşlemesi TERMS §10, ilişki ve düzeltme izi §11'dedir.
+Yeni [TERMS-OPENCODE-CALLBACKS.md](TERMS-OPENCODE-CALLBACKS.md) **ECC-OC01–OC92** kayıtlarını N25 §1–8 ve ledger/round/receipt kapsamıyla bağlar. K/V/B/Y/T/H; ECC kod raporu, versioned host sözleşmesi, hedef beyanı, araştırmacı yorumu, incelenmiş test ve tarihli dokümanı ayırır. Türkçe metinler extractor paraphrase'idir. Kaynak tarafından bölüm-kayıt eşlemesi TERMS §9, ilişki/yorum izi §10'dadır.
 
-Başlıca ayrımlar: resolved profile/stored session harness/execution identity; native argument/task text/host enforcement; allowed-tools preapproval/tools availability; configured recipe replacement/additive customization; native flag presence/actual support; per-profile tokens/global USD/per-profile USD; sampled recorded-usage check/pre-spend admission; malformed decoded-empty/explicit-empty; shared environment label/explicit runtime session_id; marker discovery/active capability.
+Başlıca ayrımlar: plugin entry/catalog installation; root/nested/indexed/source/installed identity; callback invocation/consumed output; returned replacement/mutable supplied output; event name/event subscription; before output.args/after input.args; direct test oracle/host dispatcher; custom-tool return/lifecycle callback return; tracked map/complete per-session history; optional feature failure/global module startup; preparation path checks/transitive payload completeness.
 
-Olumlu mekanizmalar korundu: scalar/list/prompt composition, effective harness'ın session'da saklanması, worker'ın stored profile okuması, native mapping, unsupported intent'in text'te korunması, configured extension, normal JSON serialization, program refusal ve gerçek TUI/CLI bütçe caller'ları. Native token flag yokluğu alanın tüketilmediği sonucu yapılmadı; gerçek ECC enforcer da her profilin dolar tavanını uyguluyormuş gibi gösterilmedi.
+Olumlu yollar da korundu: default plugin-only export, gerçek after-hook args ve tool return consumer, lazy optional-store import/guard/retry fırsatı ve missing/system-error ayrımı. Callback uyumsuzluğu total memory loss, permission bypass veya bütünüyle işlevsiz plugin hükmüne yükseltilmedi. Permission gözlemi ilgili trigger invocation kapsamındadır; host'un her permission call-site'ı araştırılmış sayılmaz.
 
-**İlk aktarımın düzeltmesi:** EP29 iki ayrı host izin yüzeyini, EP33 program/base_args girdilerini tek kullanım adresinde taşıyordu. N24 §3–4/LA üzerinden EP29 OpenCode, EP84 Gemini; EP33 program, EP83 base_args olarak ayrıldı. Kaynak eşlemesi ve sıkıştırılmış açıklama düzeltildi. EP16/EP17/EP30–EP36/EP74/EP81 etki kontrolü yapıldı; diğer açıklamalar değişmedi. İlk yayın f1dc836 ve gerekçe TERMS §11'de korunur. Bu bir extractor adresleme düzeltmesidir; yeni host bulgusu değildir.
+İki önemli yorum sınırı ayrıca işlendi. Birincisi, B1'den B2'ye kalan source work yalnız daha güçlü canlı doğrulama eksiği diye sınıflandırılmadı; mevcut B2 çıktısı bir sonraki Concepts aktarımıdır. İkincisi, MR26'nın lazy/type-only import okumasından sonra terk ettiği static-import şüphesi OC75'te tarihsel araştırmacı değişimi olarak tutuldu; bu turun kendi keşfi/düzeltmesi diye sunulmadı. Önceki TERMS'i yeniden yazmayı gerektiren maddi çelişki saptanmadı.
 
-Önceki TL35 selection/persistence işareti yeni EP kayıtlarına bağlanır, fakat Q02a2 enforcement açık kalır. TL37'nin Stale'i kapasitede sayması, EP58'in stop hedeflerinden dışlamasıyla aynı nüfus değildir. RD reuse'a yeni profil uygulaması eklenmiş sayılmaz; R88 effectful observer ve R95/R96 stop/cleanup kapsamı korunur. Önceki kullanım dosyalarını yeniden yazmayı gerektiren maddi çelişki saptanmadı.
+Yeni dosyada iki TypeScript type ifadesine Markdown code-span eklendi; bu biçim korumasıdır, anlam veya kullanım-ID değişimi değildir. İlk/final bytes ve actual diff aşağıda ayrılır. Kullanıcı anlam seçimlerini okuma anında denetleyemediği için önemli dayanak ve yorum sınırları görünürdür; aynı sözcük ortak anlamı garanti etmez, kaynak/araştırmacı/extractor/kullanıcı onayı teknik doğruluk bakımından ayrı kalır.
 
-İki riskin somut karşılığı: Batu okuma anındaki anlam seçimlerini denetleyemediği için dayanak/yorum/düzeltme izlenebilir olmalı; aynı sözcük ortak anlam veya teknik doğruluk sağlamaz. Kaynak kullanımı, araştırmacı/extractor yorumu ve kullanıcı onayı birbirinin doğrulaması değildir.
+## 5. Gerçek yayın, byte kontrolü ve eşzamanlı çalışma
 
-## 5. Gerçek yayın ve kontrol kapsamı
+- İlk TERMS commit: **4517b5431d2ee5070d6a4dd8cca50e14ae8564d0**. Local prepared file **31,292 bytes / 181 lines**, Git blob **98feb0302d61ce513850d16186a95570464c0ec5**; remote fetch aynı blob'u verdi.
+- Markdown type-spelling düzeltmesi: **f9291e2041e24aabf00c804c56824aaf8b042631**. Prepared final **31,296 bytes**, Git blob **25abf0599f129c3c3d0af22d28fe145814fc3180**; update ve final fetch bu kimlikle eşleşti. Actual diff yalnız OC25 ve OC55'e code-span ekledi.
+- Okuma karşılığı: initial 1–60; final 61–125 ve 126–205 üzerinden EOF; ilk aralıktaki OC25 değişimi actual diff ile ayrıca görüldü. Full final prepared content ve remote blob equality birlikte kontrol edildi; farklı revizyon aralıkları tek ham fetch gibi sunulmaz.
+- Local mekanik kontrol **92 sıralı/unique kayıt, OC01–OC92 gap yok, duplicate yok**, her kullanım satırında üç kolon ve final newline gösterdi. Type ifadelerinin yerel Markdown yorumuna bakıldı. Bu kontroller target test veya bağımsız semantik doğrulama değildir.
 
-- İlk TERMS commit: **f1dc83651f57fcdaff1074cd0339717624d58fdb**, blob **a9004bb9370d57a25aff3a6aff7d01a805ee71dd**.
-- İlk içerik tam readback: **1–68 / 69–124 / 125–220 üzerinden EOF**.
-- Adresleme düzeltmesi: **ee91f06721ac5774d596a22bf62556fe3fad0ea7**, blob **480a8decc41d1f11dea5d83b4d46124b46086b32**.
-- Düzeltmenin tam actual diff alanı okundu: EP29/EP33, kaynak mapping, açıklama, correction izi/EP83/EP84 ve 82→84 sayımı. Araç yanıtının daha sonraki yinelenen patch/metadata bölümü kesildi; tamamı görülen ilk diff alanı kesilmedi. Başka kullanım satırı değişmedi.
-- Df7b81a→main entry yazıları öncesi karşılaştırması **iki commit ve yalnız yeni TERMS dosyasını** gösterdi. Önceki kaynak/control/entry dosyalarında intervening değişiklik bulunmadı.
+Byte equality yalnız bu yeni TERMS'in hazırlanmış ve yayımlanmış içeriği içindir; source files'ın yerel raw download edildiği veya tüm repo hash/link suite'i çalıştığı iddia edilmez. Eski erişim hataları bu turun hatası değildir.
 
-Bu READING/router/global STATE güncellemelerinin final main/ref/diff/readback kontrolü kapanışta yapılır; metin kendi gelecekteki hash'ini veya henüz yapılmamış kontrolü uydurmaz. Aynı-assistant source-to-record/diff/readback kontrolü yayın/temsil tutarlılığıdır; bağımsız host veya kavram doğrulaması değildir. Otomatik tüm-repo ID/link suite'i, local full-byte/hash equality, yeni target/code/test execution veya bağımsız aktör kontrolü yapılmadı. Bu tur raw download denenmedi; tarihsel erişim hataları güncel hata sayılmadı.
+Giriş25c2e66→main karşılaştırması entry yazılarından önce **42 commit** gösterdi: bu turun iki yeni-TERMS commit'i ve bağımsız explorations değişimleri. EXP-004 paketi ile explorations INDEX/CATALOG değişimleri korunur; bu Concepts çalışmasına mal edilmez. Control, source ECC ve üç current Concepts entry dosyası o karşılaştırmada değişmemişti. Ref okuması **f9291e2041e24aabf00c804c56824aaf8b042631** verdi; eşzamanlı çalışmalar bu commit'in geçmişine dahil olduğundan eski köke force dönüş yapılmaz. Contents/SHA kontrollü devam yalnız yetkili Concepts entry'lerini değiştirir.
+
+Bu READING/router/global STATE yazılarından sonra final ref/diff ve current-entry readback ayrıca yapılır. Bu metin kendi gelecekteki hash'ini veya henüz yapılmamış kontrolü uydurmaz. Fresh-session devralma kontrolü mevcut canonical yönlendirmelerin aynı-assistant kontrolüdür; bağımsız oturum deneyi değildir.
 
 ## 6. Exact next ve açık kapsam
 
-**B6-T17-C5c / ilk U12-B1:** research/studies/ecc/notes/25-OPENCODE-CALLBACK-CONTRACTS-AND-GENERATED-ENTRY.md → evidence/U12-B1-SOURCES.md → ROUND-U12-B.md → PUBLICATION-U12-B1.md. Ardından **U12-B2:** notes/26-OPENCODE-INSTALLATION-LOADING-AND-TOOL-RESULTS.md ve U12-B2 source/round/publication kayıtları. Yol/ayrım önceki tam source INDEX'ten gelir; bu tur bu gövdeler okunmadı.
+**B6-T17-C5c / U12-B2:** research/studies/ecc/notes/26-OPENCODE-INSTALLATION-LOADING-AND-TOOL-RESULTS.md → evidence/U12-B2-SOURCES.md → ROUND-U12-B2.md → PUBLICATION-U12-B2.md. Gerekli bağlı evidence aynı kaynak kapsamıyla okunur. Bu tur Note26 gövdesi okunmadı; yol mevcut source INDEX'ten bilinir.
 
-Amaç generated entry, callback/event/output, package/install/load ve tool-result kullanımlarını mevcut araştırmadan çıkarmaktır; build, installation veya canlı OpenCode testi başlatmak değildir. Rust OpenCode argv tarifi EP16 bu ayrı plugin ailesini kapatmaz. Sonra U12-C/Python ve E09'un mevcut kanıtı gelir.
+Amaç mevcut araştırmadaki root/nested/package identity, managed install/config rewriting, host loader, materialized imports ve tool-result kullanımlarını çıkarmaktır. Build, installation veya yeni host/model testi değildir. Ardından U12-C/Python ve mevcut E09 gelir.
 
-C5c tamamlanınca C6, §1'deki **dört tam tarihsel READING ve current dosya**, kalan master-history/inventory/evidence, bütün ECC TERMS, source delta ve paket geneli source-to-record/ID/role tutarlılığını kapsar. C5b veya U12-A kapanışı C6 yerine geçmez. Post-S1 additions agentmemory, claude-swap, cli-continues, ponytail B7 öncesi global kapsam hesabında kalır; ECC sonrası paket work-management-project-control'dür.
+C5c bitince C6, §1'deki **beş tam tarihsel READING ve current dosya**, bütün ECC TERMS, kalan master-history/inventory/evidence, source delta ve paket geneli source-to-record/ID/role hesabını yapar. B1 closure bu işi veya B2'yi yerine getirmez. Post-S1 additions agentmemory, claude-swap, cli-continues, ponytail B7 öncesi global kapsam hesabında kalır; ECC sonrası paket work-management-project-control'dür.
 
-Q02a2 ve önceki güçlü runtime/authority/acceptance soruları Concepts tarafından çözülmedi ve otomatik yeni deney borcu değildir. E06 excluded; iki E05 geçmişi ve E04/E07/E08/E09 kendi scope'larında korunur. B7/B8, Foundation/SOUL/Development OS mimarisi ve source-study U13-A bu checkpoint'in işi değildir.
+Q02b3 ve önceki güçlü runtime/authority/acceptance soruları Concepts tarafından çözülmedi veya otomatik deney borcu yapılmadı. E06 excluded; iki E05 geçmişi ve E04/E07/E08/E09 ayrı scope'larında korunur. B7/B8, Foundation/SOUL/Development OS mimarisi ve source-study U13-A bu checkpoint'in işi değildir.
