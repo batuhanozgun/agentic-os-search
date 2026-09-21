@@ -1,30 +1,31 @@
 # ECC — Bağlamlı kullanım kayıtları
 
-2026-09-21, **B6-T17-C5c / C1-C2-C3-C4-DURABLE-COMPLETE / U10-TRANSFER-COMPLETE / U11-A-B-C-D-E-TRANSFER-COMPLETE / C5b-COMPLETE / U12-A-B1-TRANSFER-COMPLETE / C5c-PARTIAL / C5-PARTIAL / PACKAGE-PARTIAL**.
+2026-09-21 · **B6-T17-C5c / C1–C4-DURABLE-COMPLETE / C5a-COMPLETE / C5b-COMPLETE / U12-A–B2-TRANSFER-COMPLETE / C5c-PARTIAL / PACKAGE-PARTIAL**.
 
-Bu dosya `research/studies/ecc/` concepts girişidir. ECC source-study kendi açısından **ACTIVE / PARTIAL**; U12-C'ye kadar published, U13-A/Q07d1 not started. Concepts çalışması source-study research'ini sürdürmez.
+Bu dosya research/studies/ecc/ Concepts kullanım girişidir. Gerçek dosya/sürüm ve okuma kapsamı [READING.md](READING.md), güncel program yetkisi [global STATE](../../STATE.md) içindedir. ECC source-study ayrı ACTIVE/PARTIAL çalışmadır: son tamamlanmış inquiry U12-C, bu tur görülen source STATE ise **U13-A IN PROGRESS**. Concepts kaynak araştırmasını yürütmez; eşzamanlı source delta READING §5'te açık tutulur.
 
-Gerçek okuma/coverage: [READING.md](READING.md). C1–C4 ayrıntılı geçmiş, C5a/C5b ve U12-A/B1 exact dosya/sürüm manifestleri oradan geri kazanılır.
+## 1. Bağlı kullanım dosyaları
 
-## 1. Current linked term groups
+| Kaynak ailesi | Bağlamlı kullanım kaydı | Aktarım durumu |
+|---|---|---|
+| U01–U02 / C1 | [TERMS-SURFACES-INSTALLATION.md](TERMS-SURFACES-INSTALLATION.md), S01–S56 | Complete |
+| U03–U04 / C2 | [TERMS-WORK-EXECUTION-MEMORY.md](TERMS-WORK-EXECUTION-MEMORY.md), W01–W89 | Complete |
+| U05–U06 / C3 | [TERMS-LEARNING-GOVERNANCE.md](TERMS-LEARNING-GOVERNANCE.md), L01–L104 | Complete |
+| U07–U09 / C4 | [TERMS-REVIEW-RUNTIME-OPERATOR.md](TERMS-REVIEW-RUNTIME-OPERATOR.md), R01–R176 | Complete |
+| U10-A / C5a | [TERMS-EVALUATION-REGISTRY.md](TERMS-EVALUATION-REGISTRY.md), E01–E50 | Complete |
+| U10-B / C5a | [TERMS-OFFLINE-CAPSULES.md](TERMS-OFFLINE-CAPSULES.md), O01–O69 | Complete |
+| U11-A / C5b | [TERMS-NATIVE-REVIEW.md](TERMS-NATIVE-REVIEW.md), N01–N77 | Complete |
+| U11-B / C5b | [TERMS-SCHEDULED-WORK.md](TERMS-SCHEDULED-WORK.md), SC01–SC61 | Complete |
+| U11-C / C5b | [TERMS-REMOTE-REQUESTS.md](TERMS-REMOTE-REQUESTS.md), RD01–RD70 | Complete |
+| U11-D / C5b | [TERMS-BACKLOG-COORDINATION.md](TERMS-BACKLOG-COORDINATION.md), BC01–BC70 | Complete |
+| U11-E / C5b | [TERMS-TEMPLATE-LAUNCH.md](TERMS-TEMPLATE-LAUNCH.md), TL01–TL74 | Complete |
+| U12-A / C5c | [TERMS-EXECUTION-PROFILES.md](TERMS-EXECUTION-PROFILES.md), EP01–EP84 | Complete |
+| U12-B1 / C5c | [TERMS-OPENCODE-CALLBACKS.md](TERMS-OPENCODE-CALLBACKS.md), OC01–OC92 | Complete |
+| U12-B2 / C5c | [TERMS-OPENCODE-INSTALLATION.md](TERMS-OPENCODE-INSTALLATION.md), OD01–OD91 | Bu tur complete; U12-B combined transfer complete |
 
-- [TERMS-SURFACES-INSTALLATION.md](TERMS-SURFACES-INSTALLATION.md) — U01–U02 — **C1 COMPLETE**.
-- [TERMS-WORK-EXECUTION-MEMORY.md](TERMS-WORK-EXECUTION-MEMORY.md) — U03–U04 — **C2 COMPLETE**.
-- [TERMS-LEARNING-GOVERNANCE.md](TERMS-LEARNING-GOVERNANCE.md) — U05–U06 — **C3 COMPLETE**.
-- [TERMS-REVIEW-RUNTIME-OPERATOR.md](TERMS-REVIEW-RUNTIME-OPERATOR.md) — U07–U09 — **C4 COMPLETE**.
-- [TERMS-EVALUATION-REGISTRY.md](TERMS-EVALUATION-REGISTRY.md) — U10-A — **C5a TRANSFER COMPLETE**, ECC-E01–E50.
-- [TERMS-OFFLINE-CAPSULES.md](TERMS-OFFLINE-CAPSULES.md) — U10-B — **C5a TRANSFER COMPLETE**, ECC-O01–O69.
-- [TERMS-NATIVE-REVIEW.md](TERMS-NATIVE-REVIEW.md) — U11-A — **TRANSFER COMPLETE**, ECC-N01–N77.
-- [TERMS-SCHEDULED-WORK.md](TERMS-SCHEDULED-WORK.md) — U11-B — **TRANSFER COMPLETE**, ECC-SC01–SC61.
-- [TERMS-REMOTE-REQUESTS.md](TERMS-REMOTE-REQUESTS.md) — U11-C — **TRANSFER COMPLETE**, ECC-RD01–RD70.
-- [TERMS-BACKLOG-COORDINATION.md](TERMS-BACKLOG-COORDINATION.md) — U11-D — **TRANSFER COMPLETE**, ECC-BC01–BC70.
-- [TERMS-TEMPLATE-LAUNCH.md](TERMS-TEMPLATE-LAUNCH.md) — U11-E — **TRANSFER COMPLETE**, ECC-TL01–TL74.
-- [TERMS-EXECUTION-PROFILES.md](TERMS-EXECUTION-PROFILES.md) — U12-A — **TRANSFER COMPLETE / C5c PARTIAL**, ECC-EP01–EP84.
-- [TERMS-OPENCODE-CALLBACKS.md](TERMS-OPENCODE-CALLBACKS.md) — U12-B1 — **TRANSFER COMPLETE / C5c PARTIAL**, ECC-OC01–OC92.
+Bütün kimlikler ECC- öneki taşır. Bunlar kullanım adresleridir; bağımsız kavram, kanıt veya ilerleme yüzdesi değildir. Bağlı dosyalardaki tarihsel PARTIAL/next ifadeleri kendi checkpoint'lerine aittir. Current aktarım durumu burada ve READING'dedir. B1'in tarihsel dağıtım açıklığı B2 ile bağlanmıştır; eski source anlamı değiştirilmemiştir.
 
-Bunlar source-local contextual inventories'dir; global ortak sözlük değildir. C5a'nın iki dosyası 119, U11-A dosyası 77, U11-B dosyası 61, U11-C dosyası 70, U11-D dosyası 70, U11-E dosyası 74, U12-A dosyası 84 ve U12-B1 dosyası 92 adreslenebilir kullanım satırı taşır. Bu sayılar kavram, bağımsız kanıt veya ilerleme yüzdesi değildir. Bağlı eski dosyalardaki C5b-PARTIAL ifadeleri kendi yayın checkpoint'lerini anlatır; güncel dilim durumu bu giriş ve READING'dedir.
-
-## 2. Package-level expressions
+## 2. Package-level expressions — korunur
 
 | ID / ifade | ECC araştırmasındaki kullanım | Sınır |
 |---|---|---|
@@ -39,44 +40,30 @@ Bunlar source-local contextual inventories'dir; global ortak sözlük değildir.
 | ECC-P09 — recorded ≠ accepted | Stored/report state ile governance/work acceptance ayrımı. | Every record untrusted demek değil. |
 | ECC-P10 — test-green ≠ valid oracle | Passing/expected test result'in measured claim'e uygun oracle olma gereği. | Tests useless demek değil. |
 
-## 3. Current status ve devam
+## 3. Current-next ve kapanış sınırı
 
-**C1–C4, C5a/U10-A–U10-B, C5b/U11-A–U11-E ve C5c/U12-A–U12-B1 source-local aktarımı tamamlandı.** Exact next: **B6-T17-C5c / U12-B2**, ardından U12-C ve package-wide C6.
+C1–C4, C5a, C5b ve C5c'nin U12-A/B1/B2 aktarımı tamamlandı. **Exact next: B6-T17-C5c / U12-C — Note27 ve mevcut E09 kanıtı.** Bu tur U12-C gövdesi veya raw E09 okunmadı. Sonra C6 gelir; C5c/C5/ECC Concepts paketi tamamlanmış değildir.
 
-ECC package **PACKAGE-COMPLETE değildir**. C5c'nin U12-B2/C bölümü ve C6 açık; B7/B8 başlamadı. C5a/b/c mevcut C5'in yürütme dilimleri, yeni araştırma kapsamı değildir. Bir source-family aktarımının kapanışı paket geneli kaynak/ID/coverage reconciliation veya source-study closure sayılmaz.
+C6; READING'deki altı tam tarihsel manifest + current kayıt, bütün ECC TERMS, kalan history/inventory/evidence ve **eşzamanlı U13-A source delta** hesabını devralır. Yeni source ROUND/STATE ve devamında oluşan dosyalar sırf eski C1–C5 planında adı yok diye dışlanmaz. Bu, yeni source research başlatma yetkisi değildir. B7 geçmeden B8 ortak referans başlamaz; ECC sonrası seri paket work-management-project-control'dür.
 
-## 4. İlişki ve düzeltme girişleri
+## 4. Önceki ilişki ve düzeltmelerin tam kaydı
 
-R09'un evaluation-registry işareti E serisiyle ayrıntılanır. L35–L57 skill evaluator, E serisi Rust recorded evaluator ve O serisi Node utility aynı evaluation/promotion mekanizması sayılmaz. R74/R75/R107/R125–R127 session-state bulguları E30–E32'nin gerçek conditional update/transaction kontrolünü geçersiz saymak için kullanılmaz.
+U12-B1 kapanışına kadarki geniş ilişki yönlendirmeleri [5852459 TERMS'in tam sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/5852459c9dc273f3b7aa2911978883424cd5aca7/concepts/studies/ecc/TERMS.md), blob **c4f11c6b2e076b25b8f2e1d021e9ac9a8e652ccd**, korunur. Bu değişmez tam dosya C6 girdisidir; güncel next olarak okunmaz. Önceki tüm kullanım dosyaları ve onların yorum/düzeltme bölümleri yerinde, değişmeden durur.
 
-R10 capsule ve R11 kısa static-gate anlatımı O serisiyle birlikte okunur: **O60 statik helper/inspection; O58/O59 public execution refusal**. Public gate'in açık olduğu çıkarılmaz. İlk yeni Node dökümündeki capsule/journal birleştirmesi düzeltildi: **O03 capsule, O69 journal**. Düzeltme ve etkilenmiş kayıt kontrolü aynı dosyanın §8'inde görünürdür.
+Önemli geri çağırma noktaları: O03 capsule/O69 journal; N21 trigger/N76 security dimension ve N32/N77 kaynak eksenleri; SC47 finite schedule/SC61 terminal handling; TL38 slots/TL74 refusal, TL50 completion/TL73 accepted output ve TL72 warning; EP29/EP84 host izinleri ve EP33/EP83 program/base_args. Bunların kaynak gerekçesi ve etki hesabı ilgili TERMS dosyasındadır. OC25/OC55 code-span düzeltmesi biçimseldir; MR26'nın static-import şüphesini bırakması ise OC75'te tarihsel araştırmacı değişimidir.
 
-R13–R18'in erken native-review işaretleri N serisiyle ayrıntılanır. **R16 genel durdurucu standing; N23 failedDimensions; N48 typed blocking findings** farklı kapsamları taşır. Reviewer failure sonucu, finding dizisi boşken de aggregate CHANGES_REQUESTED olabilir. Reviewer verdict N39, aggregate APPROVE N50, dış insan onayları N55/N56 birbirinin yerine kullanılmaz. Confirmed N46 güçlü doğruluk sertifikası değildir.
+Aynı sözcükten ortak mekanizma türetilmez: skill/Rust/Node evaluation; session-state/registry transaction; scheduler/remote/backlog error continuation; template creation/delegate reuse; profile selection/native/text/control enforcement kendi consumer ve evidence kapsamlarıyla kalır. Bu kısa router, tam önceki ilişki kaydının veya source kanıtın yerine geçmez.
 
-N dosyasının ilk readback ayrımı: **N21 trigger / N76 security dimension; N32 dimension / N77 dimensions listesi**. N25'te proof'un koşullu zorunluluğu açıklaştırıldı. İlk sürüm/gerekçe/etki kontrolü TERMS-NATIVE-REVIEW §10'da kalır. Source-study veya önceki TERMS bu ayrım için yeniden yazılmadı.
+## 5. U12-B2'nin yeni ilişkileri
 
-SC dosyası recurring instruction/occurrence/session/admission ayrımını ekler. **SC21 last_run_at captured pass time; SC28 daemon batch limit; SC33 queue admission; SC49 removal; SC51 revocation** aynı başarı/otorite hükmünü taşımaz. E30–E32 registry transaction'ı SC38 schedule writer'ın kontrolü gibi gösterilmez; R125–R127 eski-attempt finalizer'ı SC46 competing due snapshots ile aynı hata yolu sayılmaz.
+OD kayıtları **package contents/selected entry**, **compiled payload/source-plugin route**, **recorded consent/classifier coverage**, **file-origin/export identity**, **trusted-root/canonical-legacy role**, **successful write/surviving payload**, **inventory/command/report/query/scan** ayrımlarını taşır.
 
-U11-B ilk readback açıklığı: **SC47 finite schedule / SC61 terminal schedule handling** ayrı adreslendi; SC02'de due olmanın gerçek execution olmadığı netleştirildi. Gerekçe ve etki kontrolü TERMS-SCHEDULED-WORK §8'de korunur. Source study, R/E/N veya diğer eski kullanım dosyaları değiştirilmedi.
+OC82–OC87 preparation helper'ının çağrılma sorusu OD13'te actual registry caller'a bağlandı; yine transitive import veya callback uyumu sertifikası değildir. OC88–OC92 materializer/package açıklıkları OD01–OD25 ile tamamlanır. OC07 barrel, OD35–OD38 ayrı-origin factory ilişkisiyle birlikte okunur. OC46'nın çalışan after-hook'u, declined consent kapsamında kalabilen plugin ve duplicate-origin örnekleri için anlamlı conditional consumer'dır; OC21/OC24 replacement-output bulgusu değişmez.
 
-K/B/Y/T/P, N dosyasındaki H/D/F ve SC dosyasındaki K/Y/T/H source-role anahtarları, note bölüm referansları ve pinned repository snapshot'ı yorumun nereden geldiğini taşır. Upstream kod/testlerin eski araştırmada okunması veya dosyaya kaynak kimliği yazılması bu Concepts turunda yeniden çalıştırıldıkları/okundukları anlamına gelmez. U11-A'daki E08 raw verisinin read-only recovery/schema kontrolü yeni native Workflow/model deneyi değildi; U11-B'de yeni deney veya eski E08/E07 yeniden koşusu yoktur.
+OC11'in dependency-analyzer registration işareti OD61–OD69/OD91 ile implementation/output anlamına kavuşur. Plugin map'inin iki kaydı, bütün sekiz doğrudan tool/barrel kataloğuyla aynı küme değildir. OD70–OD72 command recommendation, OD73–OD75 mevcut report comparison, OD76 gerçek Git query implementation ve OD80 bounded scan olarak ayrı tutulur. Default sıfır, ölçülmüş sıfır değildir; OD78 hata-boşluğu OD79 clean hükmünü daraltır.
 
-U11-C'nin RD kayıtları **HTTP acceptance / dispatch / completion**, **requested target / lead / receiver**, **never-targeted / disappeared-target**, **valid profile name / reused effective policy** ayrımlarını ekler. RD29 kalıcı result_session_id ilişkisi taşır; SC53–SC54 scheduler sınırı buraya aynen aktarılmaz. RD56 per-request failure isolation, SC44 first-error davranışından farklıdır. RD50 DeferredSaturated current outcome'dur, request Pending kalır; RD49 Failed aynı retry yoluna girmez. RD64 read marker, RD66 per-request completion değildir.
+OD17 materialization filtresi ile OD90 .npmignore, OD65 success:true ile OD91 öneri metni taslakta ayrı adreslendi. Eski yayımlanmış TERMS'i değiştirmeyi gerektiren maddi çelişki saptanmadı; yeni OD dosyası ilk remote yayından önce bu açıklıkları içeriyordu. B1/B2 ve installed/current version sınıfları karıştırılmadı; Q02b3/Q03c açık. Yeni host/build/test/installation/deney yapılmadı.
 
-RD dosyası kaynak §1–10 ve K/Y/T/H rolleriyle bağlıdır. U11-C turunda eski kayıtları değiştirmeyi gerektiren maddi çelişki saptanmadı; aynı isimlerden eş anlamlılık üretilmedi. Yeni endpoint/test/deney yapılmadı. Ayrıntılı eski okuma/yayın geçmişi READING'nin immutable bağlantılarında korunur; U11-C'nin o tarihteki next'i U11-D artık tamamlanmış aktarımdır.
+## 6. İki risk
 
-U11-D'nin BC kayıtları **mesaj yönlendirme / task decomposition / accepted result**, **launch arguments / companion unread handoff**, **drain routing guard / rebalancer destination check**, **all-unread / task-handoff load**, **persistent cooloff / timed backoff**, **current capacity / old controller history** ayrımlarını ekler. BC04 otomatik dağıtımın default false sınırını; BC22 koşullu tekrar-forwarding'i taşır. BC45/BC47/BC48 birlikte süre dolmasını değil kalıcı koşulla dispatch'in atlanmasını anlatır.
-
-RD64/65'in tüketim işaretleri BC62/63 ve BC11/18/27 ile ayrıntılanır. Inbox'ta gösterilen sınırlı küme ile read işaretlenen bütün incoming unread kümesi farklıdır. RD56 remote hata izolasyonu BC40 backlog first-error yoluna taşınmaz; RD50 request Pending ile BC17 handoff unread aynı kalıcı nesne değildir. BC dosyası note §1–8, ledger/test ve publication rollerine bağlıdır. Önceki TERMS dosyaları U11-D turunda değiştirilmedi; yeni daemon/SQL/model/test çalıştırılmadı. O checkpoint'in next'i U11-E daha sonra tamamlandı.
-
-U11-E'nin TL kayıtları **text variable / actual environment**, **explicit default agent / omission**, **all-step resolution / all-effect atomicity**, **observed slots / reserved capacity**, **ordered admission / predecessor completion / accepted output**, **common anchor / dependency edges**, **fresh retry / resume checkpoint** ayrımlarını taşır. TL36 mevcut session'ları gerçekten düşer; SC28'in yalnız batch limit kullanımına eşitlenmez. TL47 yeni session yaratır, RD reuse yolu değildir. TL48/TL49, BC20/BC21'in launch-input/companion-message ayrımını korur.
-
-TL ilk aktarımının ilişki özeti düzeltildi: global default hazırlığı ile her step'in loop içi profil seçimi ayrı gösterildi. **TL38 miktar / TL74 ret; TL50 process completion / TL73 accepted predecessor output** ayrı adreslendi; ledger'daki dependency-sync warning TL72 eklendi. İlk sürüm/gerekçe/etki kontrolü TERMS-TEMPLATE-LAUNCH §10'dadır. Önceki kullanım dosyaları veya source-study değiştirilmedi. TL35 profilin seçilip saklanmasını anlatır; U12-A bunun ayrı consumer kaynak aktarımı olarak şimdi tamamlandı, gerçek host enforcement hâlâ Q02a2 sınırındadır.
-
-U12-A'nın EP kayıtları **profile representation / effective host enforcement**, **preapproval / tool availability**, **native option / task text**, **configured replacement / additive customization**, **profile token budget / global USD / per-profile USD**, **sampled control / pre-spend admission**, **decoded-empty / explicit-empty** ve **environment label / runtime identity** ayrımlarını ekler. EP44/EP47/EP50–EP51 gerçek ayrı token-control tüketicisini korur; EP43'ün profil dolar tavanı aynı ECC kontrolüne taşınmaz. EP09 agent=None, session'daki EP08 harness seçimi kaybı değildir.
-
-EP ilk aktarımında birleşik adresler ayrıldı: **EP29 OpenCode / EP84 Gemini permission; EP33 program / EP83 base_args**. Gerekçe ve ilgili kayıt kontrolü TERMS-EXECUTION-PROFILES §11'dedir. TL37'nin Stale kapasite nüfusu EP58'in stop nüfusuna eşitlenmez; RD reuse yolu bu aktarım sayesinde yeni profil uygulaması kazanmaz. Önceki TERMS ve source-study değişmedi. Dated host sözleşmeleri 2026-09-19 kaynak atfıdır; U12-A turunda yeni host/web/test doğrulaması yapılmadı. O checkpoint'in next'i U12-B1 bu tur aktarılmıştır.
-
-U12-B1'in OC kayıtları **callback return / mutable supplied output**, **event name / subscription**, **before output.args / after input.args**, **direct test oracle / actual host dispatcher**, **custom-tool return / lifecycle callback return**, **tracked map / complete session history** ve **path precheck / transitive payload completeness** ayrımlarını taşır. OC21/OC24'te replacement dönüşü atılırken OC58/OC59 tool dönüşü tüketilir; bir yoldaki kopukluk bütün plugin'e genellenmez. EP16'nın Rust argv tarifi bu başka executable plugin ailesinin yerine geçmez.
-
-OC kayıtları ECC pin'i, lock-etiketine göre seçilmiş host v1.4.3/877be7e, root/nested dependency bağlamları ve ayrı indexed07756cee gözlemini tek kurulum yapmaz. MR26'nın terk edilmiş static-import şüphesi OC75'te tarihsel yorum değişimi olarak taşınır. Yeni dosyada yalnız OC25/OC55 type ifadeleri Markdown code-span ile korundu; anlam/ID değişmedi. Önceki kullanım dosyaları değiştirilmedi. N25'in U12-B PARTIAL ifadesi tarihsel B1 sınırıdır; current source-study'nin yayımlanmış B2 çıktısı Concepts'te sıradadır. Exact next **C5c/U12-B2**; yeni host/build/test çalıştırılmadı.
+Batu okuma anındaki anlam seçimlerini denetleyemediğinden dayanak, yorum, belirsizlik ve maddi değişim izlenebilir olmalıdır. Ortak sözcükler ortak anlamı garanti etmez; kaynak kullanımı, araştırmacı/extractor açıklaması ve kullanıcı onayı teknik doğruluk bakımından ayrı kalır. Bu tur consent kapsamı, lifecycle rolü ve başarı metninin kanıt sınıfı somut ayrım noktalarıdır.
