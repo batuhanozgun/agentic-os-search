@@ -1,13 +1,14 @@
 # EXP-004 — STATE
 
-**Güncelleme:** 2026-09-21, DQ01 işaret edilmemiş ihtiyaç keşfi ve yetkinlik gerekçelendirmesi.
+**Güncelleme:** 2026-09-21, DQ02 keşif yöntemi seçimi ve ortak körlükler.
 **Arşiv:** REPAIRED / MAIN-PUBLISHED. Önceki kaynak-kısaltma/yönlendirme eksikliği o kapsamda kapalıdır; platform export'u veya bağımsız transkripsiyon doğrulaması iddiası yok.
 **Arşiv yayını:** PR #31; merge `b949fe66454a1943ac9c99827e79f68f962658be`, kapanış `e372ed7558b0b0ebbf388c864b0733382d1418ba`. [PUBLICATION](checks/PUBLICATION.md) onarımın tarihsel kontrol kaydıdır; sonraki devamların yayını değildir.
-**Güncel kavramsal çalışma:** [DQ01 — İşaret edilmemiş ihtiyacın keşfi ve yetkinliğin gerekçelendirilmesi](continuations/DQ01-UNSIGNALED-NEED-DISCOVERY-AND-CAPABILITY-QUALIFICATION.md). SY01'in açık sorusu sınırlı kavramsal düzeyde ilerletildi. İhtiyaç adayı/gerekli koşul, eksik sonuç/yetkinlik açığı, denenebilir aday/kullanım-bağlı kapasite desteği/somut sonuç kabulü ayrıldı. Bu çalışma hipotezidir; T16 koşusu, gerçek kapasite kanıtı veya mimari kabulü değildir.
+**Güncel kavramsal çalışma:** [DQ02 — Keşif yöntemini seçmek ve ortak körlükleri sınamak](continuations/DQ02-DISCOVERY-METHOD-SELECTION-AND-COMMON-BLIND-SPOTS.md). DQ01'in açık sorusu Foundation ve seçili studies sonuçlarıyla karşılaştırıldı. Soru açan keşif/ayırt edici inceleme, uygulanabilir bilgi yolu, yöntem edinimi/gerçek kullanım ve gizli kusur/gizli kabul kuralı ayrımları inceltildi. Çalışma hipotezidir; T16 koşusu, gerçek kapasite kanıtı veya mimari kabulü değildir.
+**Önceki kavramsal devam:** [DQ01 — İşaret edilmemiş ihtiyacın keşfi ve yetkinliğin gerekçelendirilmesi](continuations/DQ01-UNSIGNALED-NEED-DISCOVERY-AND-CAPABILITY-QUALIFICATION.md), yayın `06dcefc2f192cb0cd4eb216d3f3194c2bfa48269`. İhtiyaç adayı/gerekli koşul, eksik sonuç/yetkinlik açığı, denenebilir aday/kullanım-bağlı kapasite desteği/somut sonuç kabulü ayrıldı. Tamamlanan kavramsal çıktı yeniden yapılacak iş değildir; uygulamada açık kapasite sürer.
 **Tamamlanmış ara sentez:** [SY01 — İki senaryodan çalışma sistemi sorumluluklarına](artifacts/SY01-CROSS-SCENARIO-WORK-SYSTEM-SYNTHESIS.md), yayın `000786d1f7742ac87937017ac9cea18a5e329865`. T1–T15, ortak sorumluluklar, alana özgü yöntemler ve açık kapasite/kanıt yükleri üzerinden Development OS, SOUL ve kullanıcı işiyle ilişkilendirildi. SY01 yeniden yapılacak iş değildir.
 **Son kavramsal test:** [T15 — Roman: editoryal anlaşmazlık, gerekçeli seçim ve kapanış](continuations/T15-NOVEL-EDITORIAL-DISAGREEMENT-AND-CHOICE.md), yayın `9ce108652e7383ef6a0390fd5272193925cf6fb5`. Olgusal itiraz, yorum/okur-etkisi tahmini, yaratıcı tercih, müdahale ve karar yetkisi ayrıldı. Gerçek roman, ayrı editör ajanları veya okur deneyi yapılmadı.
-**Önceki roman çalışmaları:** [T14](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md), yayın `2d0ac0a650f9f5055ea254b620c7518e78e7fb46`; [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md), yayın `eaa125ef37090f06e65b829d32e1acd22e7c9406`; [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), yayın `4794cf71c27c1d12d02034bc8891423647618570`; senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). T1–T15 konuşma içi kavramsal/sentetik denemelerdir; SY01 ve DQ01 yeni T testi sayılmaz.
-**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T15, SC02, SY01 ve DQ01 notları bu sayımı genişletmez; assistant kaynak transkripti değildir.
+**Önceki roman çalışmaları:** [T14](continuations/T14-NOVEL-READING-COVERAGE-AND-JOINT-CONTEXT.md), yayın `2d0ac0a650f9f5055ea254b620c7518e78e7fb46`; [T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md), yayın `eaa125ef37090f06e65b829d32e1acd22e7c9406`; [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), yayın `4794cf71c27c1d12d02034bc8891423647618570`; senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). T1–T15 konuşma içi kavramsal/sentetik denemelerdir; SY01, DQ01 ve DQ02 yeni T testi sayılmaz.
+**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T15, SC02, SY01, DQ01 ve DQ02 notları bu sayımı genişletmez; assistant kaynak transkripti değildir.
 **Önceki teknik yayınlar:** PR #29 `46ab3ff5993683c6124d7786533529e0f6147914`; PR #30 `882e0dfd271bd8c284df59f81c882a66a88f9933`. Bunlar eski tamlık iddiasını doğrulamıyordu.
 
 ## Amaç ve yetki
@@ -17,6 +18,8 @@ Foundation/studies birikimiyle SOUL'un büyük, uzun, çok aktörlü ve baştan 
 U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09–T11 yapıldı. Roman SC02'de alternatiflerle değerlendirilip öncelikli ikinci senaryo önerisi oldu; sonraki onaylarla T12–T15 ele alındı. Kullanıcının Development OS, SOUL ve kullanıcı işi bakımından katkıyı vurgulamasının ardından gelen «devam et lütfen» yönü, önerilmiş SY01 ara sentezini yetkilendirdi. Gerçek roman üretimi, yayıncılık girişimi, SOUL/Development OS kurulumu veya agent-control değişikliği yoktur. Olumlu kullanıcı değerlendirmesi modele veya yeni yaratıcı fikre doğruluk/üstünlük kanıtı değildir.
 
 DQ01 için yeni kullanıcı yönü, güncel main ve zorunlu protokoller üzerinden devralmayı; SY01 sonrasındaki işaret edilmemiş gereksinim/yetkinlik açığı sorusunu kavramsal olarak sürdürmeyi; önemli sonuçları yalnız EXP-004 içinde korumayı açıkça yetkilendirdi. Güncel state önceki devirle uyumlu bulundu. Foundation, studies, concepts ve agent-control yazma kapsamı dışındadır. Keşif algoritması benimseme, canlı değerlendirme kampanyası veya implementasyon yetkisi oluşmaz.
+
+DQ01 sonrasında kullanıcı araştırma kullanımını sordu. Önceki doğrudan kullanımın EXP-004 ve seçici RPD ağırlıklı olduğu açıklandı. Ardından gelen çalışma devamı DQ02'nin kaynak-beslemeli kavramsal karşılaştırmasını yetkilendirir; Foundation/studies'i değiştirme veya gerçek deney/implementasyon izni değildir. Önceki dar kullanımın bağlam dolmasından kaynaklandığı doğrulanmış neden sayılmaz. Bu paragraf yetki özetidir, kaynak arşivine eklenmiş transkript değildir.
 
 ## Korunmuş kaynak onarımı
 
@@ -130,16 +133,28 @@ Baz SOUL'un bütün alanları bilmesi varsayılmaz; fakat araştırılacak soruy
 
 DQ01 çalışma hipotezidir; yeni T16 veya canlı deney değildir. STATE/INDEX/SY01 ve kaynak kullanıcı mesajları tam; S008/S009, T10/T11/T14 ve RPD assessment ilgili derinlikte seçici okundu. RPD'nin özgün ekleri yeniden edinilmedi; assessment kaynak yerine geçirilmedi. NASA resmî HTML §4.1/§5.4 dar dış dayanak olarak kullanıldı; el kitabı yöntemi, mimari veya yeterlik sertifikası benimsenmedi. Ayrıntılı okuma ve iddia sınırları DQ01 §10'dadır.
 
+## DQ02 — Yöntem seçimi, uygulanabilir inceleme ve ortak körlük
+
+[DQ02](continuations/DQ02-DISCOVERY-METHOD-SELECTION-AND-COMMON-BLIND-SPOTS.md) DQ01'in sonraki sorusunu kavramsal olarak ilerletir. Henüz soru açan keşifle belirgin rakipleri ayıran inceleme farklı olabilir; birbiri arasında dönüş vardır. Yöntem, hangi belirsizliği/ilişki alanını açabileceği, hangi bulgunun hangi kararı değiştireceği ve gerçek aktör-bilgi-ortam-yetki koşullarıyla birlikte değerlendirilir. Yeterli kaynak ve yöntem ayrı ayrı var diye uygulanabilir ortak inceleme oluşmaz.
+
+Foundation Formation F2 ile Selection/Dynamics I1–I4 doğrudan; Work Management METHOD/U10, gstack eval sentezi ve Hermes Note30 seçici yeniden kullanıldı. gstack structural floor testi kendi pin'inde tam, Hermes skill_view wrapper'ı kendi pin'inde seçici yeniden açıldı. Structural kontrol ve yükleme/kullanım sayacı davranış yeterliği değildir. Hiçbir runtime veya model deneyi çalıştırılmadı; current upstream iddiası yoktur.
+
+Romanın plan–metin uyumu, yalnız metnin sunduğu dayanak ve gerçek okur etkisi için farklı inceleme yolları karşılaştırıldı. Bunlar sabit üç ajan veya bir yeni kabul edilmiş yaratıcı yön değildir. Farklı model/rol tek başına hata bağımsızlığı sağlamaz; aynı modelle farklı inceleme de otomatik değersiz değildir. Huang/Wu 2024 abstract'ları bu iki aşırı hükme dar karşı baskı sağladı; yöntem üstünlüğü veya 2026 model performansı çıkarılmadı.
+
+Gizli kusuru keşfetmek, erişilebilir amaç/kaynaklardan çıkarılamayan gizli kabul kuralını tahmin etmek değildir. Sağlam/alışılmadık çözümleri korumak, belirsizliği doğru taşımak ve gereksiz keşfi sınırlamak da değerlendirme yüküdür. Anthropic'in 2026 eval rehberi sınırlı kaynak karşılaştırmasıdır; örnekler bağımsız holdout, T16 veya canlı deney değildir.
+
+Yöntem seçimi bir sonraki meşru inceleme ve karara bağlanabilir; bu evrensel algoritma veya otomatik yeterlik değildir. İlk uygun bakışı seçme, gerçek koşullarda gerçekleştirme, yeni bulguyu üst karara taşıma ve durmayı kalibre etme kapasitesi açıktır. DQ02 §12 tam/seçici okumaları, özgün kaynaklara dönüşü ve sınırları kaydeder. Daha geniş kaynak kullanımı tek başına SOUL/asistan keşif başarısı kanıtı sayılmaz.
+
 ## Repository etkisi
 
-SY01 başlangıç main `9ce108652e7383ef6a0390fd5272193925cf6fb5`, yayını `000786d1f7742ac87937017ac9cea18a5e329865`'tir; o tur SY01 notu, STATE ve INDEX değişti. DQ01 başlangıcı bu yayın commit'idir. DQ01'in dar değişikliği yeni DQ01 notu ile bu STATE ve paket INDEX'tir.
+SY01 başlangıç main `9ce108652e7383ef6a0390fd5272193925cf6fb5`, yayını `000786d1f7742ac87937017ac9cea18a5e329865`'tir; o tur SY01 notu, STATE ve INDEX değişti. DQ01 bu yayından başladı, `06dcefc2f192cb0cd4eb216d3f3194c2bfa48269` ile yayımlandı. DQ02 başlangıcı DQ01 yayın commit'idir; dar değişiklik yeni DQ02 notu ile bu STATE ve paket INDEX'tir.
 
-Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T15, SC02, SY01, eski CONSOLIDATION, Foundation, studies, concepts, önceki EXP ve agent-control değişmez. Kütüphane INDEX/CATALOG'daki T1–T15 sayımı ve paket girişine yönlendirme geçerlidir; SY01 ve DQ01 bu paketin current STATE/INDEX'inden bulunur. 31 kaynak mesajı ve 126 kümülatif kaynak adresi artmaz.
+Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T15, SC02, SY01, DQ01, eski CONSOLIDATION, Foundation, studies, concepts, önceki EXP ve agent-control değişmez. Kütüphane INDEX/CATALOG'daki T1–T15 sayımı ve paket girişine yönlendirme geçerlidir; SY01, DQ01 ve DQ02 bu paketin current STATE/INDEX'inden bulunur. 31 kaynak mesajı ve 126 kümülatif kaynak adresi artmaz.
 
 Bu metin kendi gelecekteki commit'ini veya yapılmamış readback'i ilan etmez. Git ref/diff ve uzak içerik kontrolü yayın sonrasında ayrı yapılır. Teknik transfer, kavramsal yeterlilik veya bağımsız doğrulama değildir.
 
 ## Sonraki sorumluluk
 
-DQ01'in sınırlı kavramsal çıktısı kullanıcıya döndürülür; T1–T15/SY01 yeniden yapılacak iş değildir. İşaret edilmemiş ihtiyacı keşfetme ve karşılayabilme sorusu kavramsal olarak inceltildi, uygulamada çözülmüş sayılmaz.
+DQ02'nin sınırlı kaynak-beslemeli kavramsal karşılaştırması kullanıcıya döndürülür. T1–T15, SY01 ve DQ01 yeniden yapılacak iş değildir; yöntem seçimi ve keşif kapasitesi uygulamada çözülmüş sayılmaz.
 
-Sonraki mantıklı dar soru: SOUL, bir alanda yeterliği henüz belirsizken hangi keşif ve değerlendirme yaklaşımını seçer; seçtiği yaklaşımların aynı körlüğü paylaşmasını, mevcut imkânlar ve makul maliyet altında nasıl sınar? Bu soru yeni mekanizma karşılaştırması veya canlı deney olarak başlatılmadı. Sonraki yetkili iş yeni kullanıcı yönü/kapsamıyla belirlenir; basım/dağıtım/reklam, canlı okur deneyi, mimari kabulü veya ürün/uygulama yetkisi oluşmaz.
+Sonraki mantıklı dar kavramsal soru: yeni keşif başlangıçtaki iş anlayışını, başarı ölçütünü veya seçilmiş yöntemi yanlış gösterirse SOUL neyi yeniden açmalı; geçerli işleri koruyarak hangi kararı, kimin yetkisiyle yeniden ele almalı? T13'ün eser içi revizyonu ve T15'in tercih ayrımı tekrar edilmeyecek; üst iş/başarı çerçevesinin değişmesi ile yerel onarım farkı hedeflenecek. Sonraki yetkili iş güncel kullanıcı yönü/kapsamıyla belirlenir; yeni deney kampanyası, basım/dağıtım/reklam, canlı okur deneyi, mimari kabulü veya ürün/uygulama yetkisi oluşmaz.
