@@ -1,18 +1,18 @@
 # EXP-004 — STATE
 
-**Güncelleme:** 2026-09-21, T12 roman oluşumu ve ilk yazılabilir Work.
+**Güncelleme:** 2026-09-21, T13 romanın anlamsal revizyonu ve değişiklik etkisi.
 **Arşiv:** REPAIRED / MAIN-PUBLISHED. Önceki kaynak-kısaltma/yönlendirme eksikliği o kapsamda kapalıdır; platform export'u veya bağımsız transkripsiyon doğrulaması iddiası yok.
 **Arşiv yayını:** PR #31; merge `b949fe66454a1943ac9c99827e79f68f962658be`, kapanış `e372ed7558b0b0ebbf388c864b0733382d1418ba`. [PUBLICATION](checks/PUBLICATION.md) onarımın tarihsel kontrol kaydıdır; sonraki devamların yayını değildir.
-**Güncel kavramsal çalışma:** [T12 — Roman: oluşum, yaratıcı durum ve ilk yazılabilir Work](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md). İkinci büyük senaryo roman üzerinde işletilmeye başlandı; gerçek roman/ajan deneyi değildir.
-**Önceki senaryo seçimi:** [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). T1–T12 konuşma içi kavramsal/sentetik denemelerdir.
-**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T11 ve SC02 notları bu sayımı genişletmez; assistant kaynak transkripti değildir.
+**Güncel kavramsal çalışma:** [T13 — Roman: anlamsal revizyon ve değişiklik etkisi](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md). Büyük yaratıcı değişiklik, mikro-metin karşıörnekleriyle incelendi. Gerçek roman/çok-ajan veya okur deneyi yapılmadı.
+**Önceki roman başlangıcı:** [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), yayın `4794cf71c27c1d12d02034bc8891423647618570`; senaryo seçimi [SC02](continuations/SC02-NOVEL-SCENARIO-ASSESSMENT.md). T1–T13 konuşma içi kavramsal/sentetik denemelerdir.
+**Korunmuş kaynak kesimi:** U001–U016 / S001–S015; 31 görünür mesaj, 16 kaynak dosyası. [Diyalog](sources/conversation/INDEX.md), [manifest](SOURCE-MANIFEST.json). T09–T13 ve SC02 notları bu sayımı genişletmez; assistant kaynak transkripti değildir.
 **Önceki teknik yayınlar:** PR #29 `46ab3ff5993683c6124d7786533529e0f6147914`; PR #30 `882e0dfd271bd8c284df59f81c882a66a88f9933`. Bunlar eski tamlık iddiasını doğrulamıyordu.
 
 ## Amaç ve yetki
 
 Foundation/studies birikimiyle SOUL'un büyük, uzun, çok aktörlü ve baştan tamamen bilinmeyen bir iş için ihtiyaç duyacağı çalışma düzenini sorgulamak. Örnekler otomatik modül, yöntem, kavram tanımı veya mimari kararı değildir.
 
-U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09–T11 yapıldı. Roman SC02'de alternatiflerle değerlendirilip öncelikli ikinci senaryo önerisi oldu. Kullanıcının «anlaştık. devam et lütfen.» yönü T12'nin ilk gerçek roman stress testini yetkilendirdi. Gerçek roman üretimi, yayıncılık girişimi, SOUL/Development OS kurulumu veya agent-control değişikliği bu tur yapılmadı.
+U014 arşiv yetkisi, U015 T08 devamı, U016 önce arşiv onarımı ve büyüme/branch açıklamasıydı. Onarım kapandı. Sonraki devam yönleriyle T09–T11 yapıldı. Roman SC02'de alternatiflerle değerlendirilip öncelikli ikinci senaryo önerisi oldu; sonraki onayla T12 ele alındı. Güncel «güzel bir test olacak belli ki şimdiden derin düşünme konuları çıktı. Devam et lütfen.» yönü T13 kavramsal devamını yetkilendirir. Gerçek roman üretimi, yayıncılık girişimi, SOUL/Development OS kurulumu veya agent-control değişikliği yoktur. Olumlu kullanıcı değerlendirmesi modele veya yeni yaratıcı fikre doğruluk/üstünlük kanıtı değildir.
 
 ## Korunmuş kaynak onarımı
 
@@ -54,7 +54,7 @@ Kullanıcının 'tek oturuma sığmayacak' ifadesi bütün güncel modellere dai
 
 EXP-001'in roman/yaşayan plan izi seçici geri çağrıldı. Re3, DOC ve Lost in the Middle abstract'ları ile Kukkonen'in Plot maddesinin ilgili bölümleri dar dış kaynak olarak kullanıldı; tam roman ölçeğinde etkinlik, güncel bütün modellerin performansı veya yöntem üstünlüğü iddia edilmedi. Ayrıntılı kaynak/okuma sınırları SC02'dedir. SC02 içinde son kullanıcı mesajının ayrı kaynak alıntısı bulunur; bu, korunmuş arşivin veya assistant transkriptinin genişletildiği anlamına gelmez.
 
-## T12 — Yeni katkı ve sınırı
+## T12 — Romanın ilk yazılabilir işi
 
 [T12](continuations/T12-NOVEL-FORMATION-AND-FIRST-WRITABLE-WORK.md), yaratıcı hazırlık ile yazmaya başlama eşiğini sınar. Hazırlığın bütün romanı kilitlemesi veya ham brief'ten doğrudan Chapter 1 üretimine geçilmesi iki uç risk olarak ayrıldı.
 
@@ -66,12 +66,24 @@ Creative/story state, narrative/work plan ve manuscript ayrıldı. Plan değişi
 
 C12-1–8 sentetik karşı durumlardır; canlı model/roman testinde çalıştırılmadı. Yeni Foundation ground veya roman-özel zorunlu mimari kabul edilmedi.
 
+## T13 — Yeni katkı ve açık sınır
+
+[T13](continuations/T13-NOVEL-SEMANTIC-REVISION-AND-IMPACT.md), Derya'nın kendi suçunu sakladığı A yönüyle Selin'i korumak için sustuğu B adayını karşılaştırır. B, Derya'nın Selin'e ilişkin inancını gerçek olayla eşitlemez. Yeni aday daha iyi veya benimsenmiş sayılmadı; gerçek romanın üçte birinin mevcut olduğu iddiası yoktur.
+
+Kurulan P02 defteri saklama davranışı iki motivasyonla da uyumlu olabilir; gerekçe değişince metin otomatik silinmez. P04 güvenilir açık olay bildirimi B ile çelişir. P07, Derya adı geçmeden şüpheyi doğuracak olanak/gerekçe sorununu açabilir. Yeni motivasyonu hazırlayan ilişki hiç yazılmamışsa yeni Work doğar. Etki haritası mevcut dosya/ad listesinden ibaret değildir.
+
+Tutarlılık, gerekçelendirme ve bütünsel edebî etki ayrı: erken açıklama çelişkiyi giderirken sırrı bozabilir. Aynı metnin kullanım/tema bağlamı değiştiğinde önceki editoryal hüküm otomatik güncel değildir. Geçerli etkilenmemiş içerik/kanıt korunabilir; minimum kelime değişimi veya toptan yeniden yazım zorunlu kural değildir.
+
+Aday yönü incelemeye alma, revizyon yönünü benimseme, metnin fiilen değişmesi ve bütünsel kabul ayrı tutulur. Eski/yeni plan-özet-metin karışımı kontrol edilir; bütün bağımsız işler otomatik durmaz. Yazar açıklamasını bilen okuma, yalnız metinden edinilen okur izlenimini ölçmüş sayılmaz.
+
+C13-1–10 tasarlanmış karşı durumlardır. Foundation Revision M5, OpenSpec'in pin'e bağlı bulguları, Qin ve diğerlerinin 2019 counterfactual rewriting abstract'ı ve Kukkonen'in Plot maddesi seçici dayanak oldu. Asıl roman, canlı sistem, okur deneyi veya yeni mimari yoktur; mikro-parçalardan roman ölçeği yeterliliği çıkarılmadı.
+
 ## Repository etkisi
 
-T12 başlangıç main `72658a7e02358494447d878a1d5bf63331246cac`'tır. Dar değişiklik: T12 notu, bu STATE, paket INDEX ve explorations INDEX/CATALOG. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T11, SC02, Foundation, studies, concepts, önceki EXP ve agent-control değişmez.
+T13 başlangıç main `4794cf71c27c1d12d02034bc8891423647618570`'tır. Dar değişiklik: T13 notu, bu STATE, paket INDEX ve explorations INDEX/CATALOG. Korunmuş kaynaklar/manifest, onarım kayıtları, T1–T12, SC02, Foundation, studies, concepts, önceki EXP ve agent-control değişmez. INDEX'in önceki SC02 ağırlıklı devam satırı güncel T13 yoluna alınır.
 
 Bu metin kendi gelecekteki commit'ini veya yapılmamış readback'i ilan etmez. Git ref/diff ve uzak içerik kontrolü yayın sonrasında ayrı yapılır. Teknik transfer, kavramsal yeterlilik veya bağımsız doğrulama değildir.
 
 ## Sonraki sorumluluk
 
-T12 ilk yazılabilir Work'e kadar roman senaryosunu işledi. Doğal sonraki stress noktası, romanın önemli kısmı yazıldıktan sonra geç keşfedilen büyük bir motivasyon/olay değişikliğinin geçmiş metne ve bütünsel anlamına etkisini bulmak ve revise etmektir. T13 burada yapılmadı. Basım/dağıtım/reklam otomatik kapsama eklenmez; ürün/uygulama yetkisi oluşmaz.
+T13, büyük revizyonun anlamsal etki ve koruma sorununu bounded biçimde ele aldı; tüm roman yazımı veya B'nin bütünsel üstünlüğü çözülmedi. Sonraki doğal soru, uzun metni sınırlı çalışma bağlamlarında okurken revizyon kapsamını ve bütünlüğü yalnız özetlerle yetinmeden nasıl denetleyeceğimizdir. T14 burada işletilmedi. Basım/dağıtım/reklam veya ürün/uygulama yetkisi oluşmaz.
