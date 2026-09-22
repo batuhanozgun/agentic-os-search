@@ -1,27 +1,45 @@
 # U15-B — Worktree integration and merge qualification / MR35
 
-**2026-09-22 · IN PROGRESS.** METHOD0.1; incoming PLAN0.35. Fixed target `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`. STATE owns activation and publication.
+**2026-09-22 · bounded Q04i source answer.** METHOD0.1 retained; PLAN0.35→0.36. Fixed ECC target `8321021c54d670126ce3b2969d5deb880b4b0c2a`. STATE owns publication and current activation. No target execution, upstream test, live merge/rebase/deletion, host/model, installation or E10.
 
-## Question and return criterion, before new mechanism analysis
+## Authorized question and takeover
 
-Batu requests continuation after the U15-A publication recheck. Explain candidate/base/revision → readiness/review/queue predicate → Git effect → outcome/persistence → cleanup/prune → changed-base, retry or partial failure. Return a coherent useful source chain, normal controls and a material changed/failed counterpart, including actual CLI/TUI or daemon consumption. Do not assume merge-ready is semantic task acceptance, or infer that no acceptance mechanism exists from earlier process-lifecycle findings.
+Batu requested continuation after the U15-A publication recheck. The [opening at6ac92c48](https://github.com/batuhanozgun/agentic-os-search/blob/6ac92c489e6eba07427e396602b7c494e487cdcd/research/studies/ecc/ROUND-U15-B.md) fixed this source criterion before the new analysis: candidate/base/revision→readiness/review/queue→Git effect→result/persistence→cleanup/prune→changed/failed retry, with useful normal controls and a material counterpart through an actual consumer. The opening was reread fully as9e199388da32ac5e3ac23a8058a9b9927acc1af6 before this result update.
 
-This is the existing G1/Q04i source responsibility selected by Note33 and the twelve-family reconciliation, not architecture, remediation or a new external study. Full mechanism research was not performed in U15-A; its manager1830–2020 and daemon1–205/290–430 readings are limited preparation. Source closure does not require a live merge campaign. No experiment is predeclared by opening this round.
+Fresh AGENT aea3dd845e0f0bbcfb34465edb23782e99f95c80 and all nine route decisions were recovered. R01/R02 were freshly read through EOF; full same-conversation R03–R09 remained applicable. Fresh STATE54b319058621e3b37ca8b830aa5f5729ec80558b and main comparison confirmed6cb345a8692cf73ace2bec184f6bb70aa2e4a2ad unchanged. U15-A was complete, not repair work. WHY and METHOD were freshly recovered, including METHOD82–109 after an empty out-of-range read. Current entry/assembly material retained its recorded same-conversation scope.
 
-## Preflight and continuity
+Opening6ac92c48 and activation47e6005dda3fe6037e1702a70522119beeda2959 established U15-B. No live project integration or new architecture phase followed from that authority. The target pin and prior experiments remained unchanged.
 
-Fresh AGENT main blob `aea3dd845e0f0bbcfb34465edb23782e99f95c80` was fully fetched. All nine routes apply; R01 and R02 were freshly read through EOF, while full same-conversation R03–R09 remain available. Fresh STATE blob `54b319058621e3b37ca8b830aa5f5729ec80558b` and main comparison confirmed `6cb345a8692cf73ace2bec184f6bb70aa2e4a2ad` unchanged. U15-A is complete/published; no repair is required. WHY and METHOD were freshly recovered, including METHOD's display-truncated tail; an out-of-range recovery request returned empty and was not mistaken for complete content.
+## Actual source inquiry and result
 
-Current INDEX, META, PLAN0.35, QUESTIONS, Note33, coverage, U15-A sources/MR34/receipt retain their complete or explicitly recorded same-conversation readings at unchanged identities. The latest user continuation activates the already selected research question. Original mechanism notes remain primary for their detailed conditions; Note33 is provisional synthesis, not a stronger evidence class.
+[Note34](notes/34-WORKTREE-INTEGRATION-AND-RETENTION-BOUNDARIES.md) and [the ledger](evidence/U15-B-SOURCES.md) join manager qualification, real Git preview/merge/rebase/removal, configured daemon composition, store clearing/summary and CLI/result consumers. Relevant target tests were inspected, including success, conflict, rebase abort, stopped-session integration and positive retention. No test was run.
 
-## Evidence and action boundaries
+The source adds a real integration relationship to Note33. It also preserves a narrower responsibility: merge eligibility is not independent task acceptance. Repeated candidate/base checks, active/dirty/conflict refusal, queue reconstruction and rebase abort are useful controls. They do not establish exact reviewed revisions, full transactionality or authenticated approval. Bulk keep-worktree selects a different controller rather than merely suppressing deletion.
 
-Follow actual functions at the immutable target, recording blob identities and read ranges. Inspect relevant tests without crediting unrun assertions as observations. Separate target procedures, source predicates, dependency semantics and conditional inferences. Re-enter original notes only where their conditions matter. Use primary Git documentation for load-bearing command semantics; do not infer current installed behavior from a dated source pin.
+The most important discriminator came after the apparently protective result. A failed rebase leaves a candidate attached; a dirty candidate is skipped by merging. The actual daemon then invokes pruning under different predicates. Auto-merge is opt-in while that prune wrapper is not gated by its flag; zero default retention applies no delay; merged/clean/accepted status is not a prune condition; Stale is protected by merge but not by prune. Conditional downstream removal therefore remains possible even when the local merge/rebase guard works as intended.
 
-No real project merge/rebase, user filesystem/home/config mutation, install, provider/model/spend, credentials, live server/workflow/registry/release, upstream patch/issue, Foundation/concepts or agent-control changes. A future harmless isolated discriminator would require exact recovered source, a separately recorded pre-execution criterion and honest scope; none is authorized as already executed here. E06 stays excluded; both E05 histories and E07/E08/E09 remain unchanged.
+This did not require manufacturing a model failure or executing destructive code. The producer, both successive controllers and the removal commands are present in source. The target's retained-candidate tests stop before the second controller. Their value for the narrower contract is preserved rather than described as useless or falsely reported as failed.
 
-Writes remain `research/studies/ecc/**` plus the necessary ECC catalogue row. Use fresh identities and actual diffs/readbacks, preserve concurrent changes and never force main. No named branch/PR or user upload/merge obligation is introduced. Publish a bounded checkpoint rather than claiming unperformed closure if a load-bearing dependency cannot be recovered.
+## Method change and limits
 
-## Method question
+U15-A's consequence-based move from metrics to integration now has an observed research contribution: a previously missing executable delivery edge and its relationship with downstream retention are explained. This is not proof of an independently superior research method, product failure frequency or successful real-world recovery. The same assistant selected, read and interpreted the sources.
 
-U15-A changed selection from adjacent metrics to delivery/integration. Test whether this actually adds a missing system relationship and changes the provisional explanation. Until the source is traced, its benefit remains NOT YET OBSERVED. A new defect is not required for success; finding a correctly bounded useful qualification mechanism is equally informative.
+The proximal causes are different selection predicates and operation ordering, not a generic claim that ECC lacks safety. A positive retention interval and retained active states are countercontrols; normal successful merge/cleanup is useful. Global claims about all installations, source completeness, all Git behavior or total irrecoverable loss are not justified. Native Git/outer actor controls can add conditions and were not presumed absent.
+
+Locating symbols in large files caused extra selected reads in graph/profile/patch code. Their exact ranges are recorded as incidental exposure, not new mechanism closures. In particular, exact queue-priority internals, detailed TUI actions/renderers and the separate draft-PR route remain outside the present conclusions. The actual CLI and daemon suffice for the declared consumer criterion. No blanket full-file/full-suite audit is claimed.
+
+Mutable search hits pointed atbf70150e; load-bearing bodies were fetched at8321021. A raw-source acquisition attempt failed DNS and yielded no original source. No reconstruction was run. Dated official Git documentation supplies command semantics, not an installed-binary fingerprint.
+
+## Verification and publication progress
+
+Note34 was created at0f3a8dff292ed153c42e5281ffd74e031e1a4bbf. The ledger followed at3fcba72d72dcee91b75018b33a73ef1e132ea22c. At that checkpoint, Note34 was read fully in1–80/81–190 through EOF asda418bc4742410da0b7742a39bb2687ff2fb76fd; ledger1–60/61–160 through EOF as7304dc0ff03804d5f3440cfb37b484a25186430f. No substantive correction was required by those readbacks.
+
+PLAN0.35 was freshly reread before updating to0.36 atf70882505d2128cba80727184a4b8335437c9a59. Remaining entry/catalogue/receipt/STATE checks are recorded by the publication receipt when actually completed; this chronological record does not preclaim them. Same-assistant readback establishes correspondence, not independent scientific verification.
+
+## Standing, next work and preservation
+
+Q04i1 meets the unchanged bounded source criterion. Q04i2 retains stronger installed/ref/authority/concurrency/cleanup/recovery/acceptance claims and justified source variants. No whole-study closure, CORE, architecture or remediation follows. Original Note33/U15-A coverage are historical/provisional and are extended through current entries plus Note34, not silently rewritten.
+
+After verified publication, select existing G2 as U15-C/Q05d: connector/checkpoint/import→graph/knowledge→retrieval and actual context/recipient selection. Main's incidentally exposed connector functions are leads, not completed U15-C. The other G3–G6 obligations and original question IDs remain.
+
+Writes stay ECC-local plus the necessary ECC catalogue row. Preserve original notes/evidence, METHOD/WHY/historical inventory, other studies/concepts/explorations/Foundation and agent-control. No credentials, provider spend, installation, user-home/config mutation, upstream action or real project merge/rebase is authorized. Never force main or overwrite concurrent work. No named branch/PR or user upload/merge task is required. E06 exclusion, distinct E05 histories and E04/E07/E08/E09 scopes/corrections remain unchanged.
