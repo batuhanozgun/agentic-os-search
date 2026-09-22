@@ -1,47 +1,38 @@
 # EXP-005 — Arşivleme çalışma planı
 
-**Başlangıç:** 2026-09-22. **İş:** Bu konuşmayı ders niteliğinde explorations'a almak. **Durum:** Kaynak aktarımı ve işleme sürüyor; henüz tam arşiv/yayın iddiası yok.
+**Başlangıç/kapanış:** 2026-09-22. **İş:** Bu konuşmayı ders niteliğinde explorations'a almak. **Durum:** ARŞİVLEME TAMAMLANDI; kaynak sınırları açık tutularak main'e yayımlandı. Aşağıdaki iş sırası başlangıç planıdır; eski emir kipleri yeni iş başlatmaz.
 
 ## Yetki ve sınır
 
-Kullanıcının bu konuşmadaki son talebi: “Bu konuşmayı EXP-005 olarak ders niteliğinde repoya alır mısın? Konunun ortada kaldığının farkındayım ama explorations klasörü zaten deneyimleri kayıt altına almak amacıyla var.”
+Kullanıcının talebi: “Bu konuşmayı EXP-005 olarak ders niteliğinde repoya alır mısın? Konunun ortada kaldığının farkındayım ama explorations klasörü zaten deneyimleri kayıt altına almak amacıyla var.” [Kaynak U048](sources/conversation/10-PROTOKOL-DEGERLENDIRMESI-VE-ARSIV-TALEBI.md#U048).
 
-Bu yetki yalnız arşivleme, kaynak/yorum ayrımı, keşif bağlantıları ve bunların Research repository'sinde yayımlanması içindir. Daha önce iptal edilen DEVOS02-NEED-DISCOVERY-20260922 çalışmasını yeniden başlatmaz. DevOS repository'sine, PR #1'e, başka branch'lara, yerel Codex'e veya kontrol dosyalarına müdahale edilmez. Araştırma sorusunun açık olması arşivlemeyi engellemez; arşivin tamamlanması araştırmanın çözüldüğü anlamına gelmez.
+Bu yetki yalnız arşivleme, kaynak/yorum ayrımı, keşif bağlantıları ve bunların Research repository'sinde yayımlanması içindi. Daha önce iptal edilen DEVOS02-NEED-DISCOVERY-20260922 çalışmasını yeniden başlatmaz. DevOS repository'sine, PR #1'e, yerel Codex'e veya kontrol dosyalarına müdahale edilmedi. Araştırma sorusunun açık olması arşivlemeyi engellemedi; arşivin tamamlanması araştırmanın çözüldüğü anlamına gelmez.
 
 ## Başlangıç ve yazıcı
 
 - Repository: `batuhanozgun/agentic-os-search`.
-- Başlangıç main: `4d8b8b1aba963d5503676bdcb73b7d68b40045d7`.
-- Başlangıç tree: `b8cf6a4398d6fa0dba8c31ffa7bc171d231f7f41`.
+- Başlangıç main: `4d8b8b1aba963d5503676bdcb73b7d68b40045d7`; tree: `b8cf6a4398d6fa0dba8c31ffa7bc171d231f7f41`.
 - Çalışma branch'i: `archive/exp-005-ihtiyac-kesfi-dersleri-20260922`.
-- Tek yazıcı: Bu arşiv talebini yürüten ChatGPT oturumu. Ayrı native değerlendirici görevlendirilmedi; inceleme self-review ve deterministik arşiv denetimi olarak etiketlenecek.
-- Mevcut `explorations/INDEX.md`, `CATALOG.md`, `PACKAGE-CONTRACT.md` ve EXP-004 STATE'i okundu. EXP-005 başlangıç dizininde bulunmuyordu. Önceki dört EXP'nin tam kaynaklarını yeniden okuduğumuz iddia edilmeyecek.
-- Aynı konuşmada tam görünür R01–R09 protokolleri uygulama dayanağıdır; protokoller bu pakete araştırma bulgusu veya yeni etkin talimat olarak kopyalanmayacak.
+- İlk plan commit'i: `5d35479cde91f87dfe803fde7125dda4db72aae7`; kaynak aktarımından önce yazıldı.
+- Tek yazıcı: Bu arşiv talebini yürüten ChatGPT oturumu. Ayrı native değerlendirici görevlendirilmedi; inceleme self-review ve sınırlı deterministik kimlik/metadata denetimidir.
+- `explorations/INDEX.md`, `CATALOG.md`, `PACKAGE-CONTRACT.md` ve EXP-004 STATE'i okundu. EXP-005 başlangıç dizininde bulunmuyordu. Önceki dört EXP'nin tam kaynakları bu tur yeniden okunmuş sayılmaz.
+- Aynı konuşmada tam görünür R01–R09 protokolleri uygulama dayanağıydı; kontrol metinleri bu pakete araştırma bulgusu veya yeni etkin talimat olarak kopyalanmadı.
 
-## Kesin yazma kapsamı
+## Gerçek yazma kapsamı
 
-Bu paketin `INDEX.md`, `STATE.md`, `WORK-PLAN.md`, `SOURCE-MANIFEST.json`; `sources/conversation/` altında sıralı kaynak aktarımı ve INDEX; `sources/ORIGIN-AND-ATTACHMENTS.md`; `artifacts/DEVOS02-NEED-DISCOVERY-20260922.md`; `reflections/LESSONS-AND-OPEN-QUESTIONS.md`; `retrieval/TOPIC-MAP.md` ve `CUMULATIVE-READING.md`; `checks/ARCHIVE-REVIEW.md`. Kütüphane keşfi için yalnız `explorations/INDEX.md` ve `explorations/CATALOG.md` güncellenecek. Önceki paketler ve agent-control değiştirilmez.
+Bu pakette 21 dosya: INDEX/STATE/WORK-PLAN/SOURCE-MANIFEST; sources/conversation altında on kaynak dosyası ve INDEX; sources/ORIGIN-AND-ATTACHMENTS; özgün görev eseri; dersler; iki retrieval dosyası; ARCHIVE-REVIEW. Kütüphane keşfi için ayrıca yalnız `explorations/INDEX.md` ve `explorations/CATALOG.md` güncellendi. Önceki paketler ve agent-control değiştirilmedi.
 
-## İş sırası
+## Başlangıçtaki iş sırası ve gerçekleşen sonuç
 
-1. Görünür konuşmayı başlangıç görseli/kapsam sorusundan iptal, protokol değerlendirmesi ve arşiv talebine kadar konuşmacı ve sıra kimlikleriyle koru. Özet, tam aktarım ve kaynakta erişilemeyen kesimleri açıkça ayır. Sistem/developer mesajları, gizli muhakeme ve token içeren araç yanıtları aktarılmaz.
-2. Gerçekten mevcut görev belgesini değiştirmeden koru. Görsellerin mevcut byte kimliğini ve arşivdeki temsil düzeyini belirt. İçeriği olmayan bir bağlantıyı okunmuş kaynak sayma.
-3. Konunun kavramsal değerini, hatalı/geri çekilen teşhisleri, uygulama girişimini, kullanıcı müdahalelerini, sınırlı deney sonucunu ve iptali ayrı kaydet. Önceki assistant öz değerlendirmesini otomatik doğru kabul etme.
-4. Kaynak mesajlarına bağlı dersler ve açık sorular üret; yeni yöntem, ürün, mimari veya uygulama kararı üretme. Başka araştırma programı başlatma.
-5. İndeks/manifest/link/kimlik/kapsam ve hassas içerik kontrolleri; kritik iddialarda kaynak karşılaştırması. Gerçek bağımsız doğrulama ile self-review ayrılır.
-6. Yalnız bu kapsamı güncel main ile uzlaştırarak yayımla; exact uzak geri okuma ve değişen dosya kontrolüyle teslim et. Başka çalışmaların yeni commit'leri geri alınmaz. Force push ve tarih silme yoktur.
+1. Görünür konuşmayı başlangıç görseli/kapsam sorusundan iptal, protokol değerlendirmesi ve arşiv talebine kadar konuşmacı/sıra kimlikleriyle korumak → **95 mesaj, on sıralı dosya.** Eksik araç kesimleri, gizli muhakeme ve platform export'u uydurulmadı.
+2. Görev belgesini değiştirmeden, görselleri temsil sınırıyla korumak → **Özgün MD blob eşitliği doğrulandı.** PNG asılları ayrı teslim ZIP'inde, metin envanteri/hash'leri Git'te; binary Git arşivi iddiası yok.
+3. Kavramsal değer, geri çekilen teşhis, uygulama girişimi, kullanıcı müdahaleleri, sınırlı deney sonucu ve iptali ayırmak → **Kaynak bağlı dersler yazıldı.** Önceki assistant öz değerlendirmesi otomatik doğru kabul edilmedi.
+4. Açık sorular ve keşif bağlantıları üretmek → **Topic map, cumulative reading ve kütüphane INDEX/CATALOG eklendi.** Yeni araştırma programı/mimari kararı verilmedi.
+5. Kimlik/sayım/kapsam ve kritik iddiaları denetlemek → **Gerçek kontroller ve sınırları ARCHIVE-REVIEW'de.** Self-review bağımsız doğrulama sayılmadı.
+6. Güncel main ile uzlaştırıp yayımlamak → **Research PR #33 normal merge; yayın `5e1b991866a7930448a0bd2f5ac58715776fedf1`.** Candidate/merge exact karşılaştırması sıfır dosya farkı, ardından uzak STATE/tree geri okuması.
 
-## Arşiv kabul ölçütleri
+## Kapanış ve devir
 
-- Konuşmanın yalnız son özrü değil, başlangıç sorusu ve bütün önemli yön değişimleri geri bulunabilir.
-- Kullanıcının sözleri, assistant önerileri ve kullanıcı tarafından aktarılan Codex raporları karıştırılmaz.
-- “Yeni motor eksik”, “RPD yeterli”, “küçük değişiklik faydasız”, “Cloud uygun değil”, “hiç plan yoktu” gibi hükümler kanıt sınırları ve karşı açıklamalarıyla korunur.
-- Plan belgesinin varlığı saklanır; planın fiilen uygulanmış/hazırlığın doğrulanmış olduğu varsayılmaz.
-- Dört vakalık sonuç bütün problem için yeterlik veya etkisizlik kanıtı sayılmaz. Shell erişimi, hizmetin yayın yolu, local commit ve remote içerik ayrı kalır.
-- Son kullanıcı iptali açık ve bulunabilir; eski devam mesajları etkin talimat değildir.
-- Kaynak aktarımının türü, eksikleri ve bağımsız doğrulanmayan unsurları STATE ve kaynak notunda görünürdür.
-- Kütüphane girişleri pakete yönlendirir; payload gelmeden tamamlandı denmez.
+Arşiv planı kapandı. Kaynak ve ders payload'ı main'dedir; bu son durum kayıtları source manifestinin byte'larını değiştirmez. Son makbuz commit'i Git geçmişi ve nihai teslimden bulunur. Ayrıntı [STATE](STATE.md) ve [ARCHIVE-REVIEW](checks/ARCHIVE-REVIEW.md)'dedir.
 
-## Durma ve devir
-
-Şimdiki sonraki işlem kaynak aktarımıdır. Arşiv yayımlanıp geri okunduğunda bu kayıt işi kapanır. DevOS geliştirme, yeni deney ve Research erişimi onarımı bu işin devamı değildir. Arşivin dersleri henüz kullanıcı tarafından ayrı değerlendirilmiş veya kontrol değişikliği olarak benimsenmiş sayılmaz.
+**Yeni yetkili iş yok.** DevOS geliştirme, yeni deney ve Research erişimi onarımı bu işin devamı değildir. Dersler ayrıca kullanıcı tarafından teknik olarak değerlendirilmiş veya kontrol değişikliği olarak benimsenmiş sayılmaz. Tek yazıcı içerik sorumluluğunu bıraktı; bu makbuzların son geri okuması ve kullanıcı teslimi dışında kalan iş yoktur.
