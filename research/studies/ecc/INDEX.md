@@ -7,13 +7,14 @@
 | Need | Entry |
 |---|---|
 | What working system does the research now support? | [Note33 — provisional native assembly](notes/33-NATIVE-SYSTEM-ASSEMBLY-AND-RESEARCH-FRONTIER.md) → [U15-A exact sources](evidence/U15-A-SOURCES.md), [MR34](ROUND-U15-A.md) |
-| Latest maintenance relationship | [Note37](notes/37-MANAGED-MAINTENANCE-OWNERSHIP-AND-PREVIEW.md) → [U16-A1 sources](evidence/U16-A1-SOURCES.md), [MR38](ROUND-U16-A.md). Common doctor/repair/update/uninstall, ownership/digest and preview consumers; source-only |
+| Latest shared-configuration and legacy relationship | [Note38](notes/38-SHARED-CONFIGURATION-OWNERSHIP-AND-LEGACY-RECOVERY.md) → [U16-A2 sources](evidence/U16-A2-SOURCES.md), [MR39](ROUND-U16-A2.md). Event/payload/snapshot/marker ownership, actual lock/retry and later maintenance; source-only |
+| Common maintenance relationship | [Note37](notes/37-MANAGED-MAINTENANCE-OWNERSHIP-AND-PREVIEW.md) → [U16-A1 sources](evidence/U16-A1-SOURCES.md), [MR38](ROUND-U16-A.md). Common doctor/repair/update/uninstall, ownership/digest and preview consumers; source-only |
 | Node information/proximity consumer | [Note36](notes/36-NODE-RECALL-PROXIMITY-AND-ADVISORY-CONSUMERS.md) → [U15-C2 sources](evidence/U15-C2-SOURCES.md), [MR37](ROUND-U15-C2.md). Distinct recall, code-dependency proximity, display and attempted delivery; source-only |
 | Rust knowledge-to-use relationship | [Note35](notes/35-CONNECTOR-GRAPH-RECALL-AND-RECIPIENT-USE.md) → [U15-C1 sources](evidence/U15-C1-SOURCES.md), [MR36](ROUND-U15-C.md). Actual eligible delegate choice, not installed retrieval efficacy or model uptake |
 | Integration and retention | [Note34](notes/34-WORKTREE-INTEGRATION-AND-RETENTION-BOUNDARIES.md) → [U15-B sources](evidence/U15-B-SOURCES.md), [MR35](ROUND-U15-B.md). Actual CLI/daemon/Git/store chain; conditional downstream cleanup, not an executed incident |
-| Which original families are explained, unread or empirically unverified? | [U15-A coverage reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md) → original [U07-A map](inventory/U07-A-FAMILY-MAP.md). G1 answered by Note34; G2 by35–36; G3 partly answered by37. Historical next labels are not activation authority |
-| Next selected maintenance question | [PLAN0.39](PLAN.md) U16-A2/Q03c2 → Note37/ledger → shared settings/hooks/JSON ownership and the separate legacy Codex cleanup. NOT STARTED |
-| Remaining variants and stronger claims | [QUESTIONS](QUESTIONS.md), current PLAN and reconciliation G3–G6; Q03b/c2/c3, Q05d3/Q05b/c and prior residuals remain. A genuine unread implementation is not merely an unrun test; neither is every unrun test mandatory source work |
+| Which original families are explained, unread or empirically unverified? | [U15-A coverage reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md) → original [U07-A map](inventory/U07-A-FAMILY-MAP.md). G1 answered by34; G2 by35–36; G3 by37–38 at bounded source scope. Historical next labels are not activation authority |
+| Next selected procedure/host variant question | [PLAN0.40](PLAN.md) U17-A/G4 → historical family/root frontier and original ledgers → representative authored guidance and actual manifest/generator/loader. NOT STARTED |
+| Remaining variants and stronger claims | [QUESTIONS](QUESTIONS.md), PLAN and reconciliation G4–G6; Q03b/c3, Q05d3/Q05b/c and prior residuals remain. G3 closure does not certify every parser/host or undo contract |
 
 ## Original mechanism notes
 
@@ -57,6 +58,7 @@ Each note links its original source ledger and round. Follow those links for exa
 | Connector import, graph identity/retention, recall and actual recipient choice | [Note35](notes/35-CONNECTOR-GRAPH-RECALL-AND-RECIPIENT-USE.md); Rust C1 answer, not model-uptake certification |
 | Node recall, code-proximity acquisition, advice and actual consuming views | [Note36](notes/36-NODE-RECALL-PROXIMITY-AND-ADVISORY-CONSUMERS.md); with Note35 closes bounded G2, not installed coordination efficacy |
 | Common managed maintenance, ownership, digest and preview propagation | [Note37](notes/37-MANAGED-MAINTENANCE-OWNERSHIP-AND-PREVIEW.md); A1 source answer, not all shared-config/legacy or installed safety |
+| Shared hooks/settings, MCP payload and legacy restoration/removal | [Note38](notes/38-SHARED-CONFIGURATION-OWNERSHIP-AND-LEGACY-RECOVERY.md); A2 with37 closes bounded G3, not all-host maintenance guarantees |
 
 ## Experiment identities and recovery
 
@@ -72,7 +74,7 @@ Each note links its original source ledger and round. Follow those links for exa
 | E08 review-flow check | [Original bundle](evidence/u11-a-review-flow-probe/README.md); PRECHECK and lossless encoded records, adapted flow not native/model evaluation |
 | E09 Python flow | [Original bundle](evidence/u12-c-python-flow-probe/README.md) → [PRECHECK](evidence/u12-c-python-flow-probe/PRECHECK.md), [corrected encoded bundle](evidence/u12-c-python-flow-probe/E09.zip.b64); original modules/scripted provider, not SDK/API execution |
 
-U15-C1/C2 and U16-A1 add no experiment or rerun. Source composition is not independent corroboration. Historical U09-A3 local ZIP is not an upload obligation; its canonical history remains with Note15 and [receipt](PUBLICATION-U09-A3.md).
+U15-C1/C2 and U16-A1/A2 add no experiment or rerun. Source composition is not independent corroboration. Historical U09-A3 local ZIP is not an upload obligation; its canonical history remains with Note15 and [receipt](PUBLICATION-U09-A3.md).
 
 ## Purpose, method, inventory and publication
 
@@ -80,11 +82,11 @@ U15-C1/C2 and U16-A1 add no experiment or rerun. Source composition is not indep
 |---|---|
 | Purpose and reuse boundary | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
 | Method and sequence | [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md) |
-| Current method history | [MR38](ROUND-U16-A.md); prior [MR37](ROUND-U15-C2.md), [MR36](ROUND-U15-C.md), [MR35](ROUND-U15-B.md), [MR34](ROUND-U15-A.md); earlier rounds remain with original notes |
+| Current method history | [MR39](ROUND-U16-A2.md); prior [MR38](ROUND-U16-A.md), [MR37](ROUND-U15-C2.md), [MR36](ROUND-U15-C.md), [MR35](ROUND-U15-B.md), [MR34](ROUND-U15-A.md); earlier rounds remain with original notes |
 | Original discovery records | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B discovery](inventory/U01-B-DISCOVERY.md), [U07-A map](inventory/U07-A-FAMILY-MAP.md) |
 | Early master histories | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later unit ledgers/rounds continue them |
 | Current publication | STATE links the receipt after actual checks; source completion and verified publication are different |
-| Preceding publication | [U15-C2 receipt](PUBLICATION-U15-C2.md), [U15-C1 receipt](PUBLICATION-U15-C1.md), [U15-B receipt](PUBLICATION-U15-B.md), [U15-A receipt](PUBLICATION-U15-A.md), [U14-C receipt](PUBLICATION-U14-C.md), [U14-B receipt](PUBLICATION-U14-B.md), [U14-A receipt](PUBLICATION-U14-A.md) |
-| Complete earlier routing/publication list | [Pre-U16 INDEX](https://github.com/batuhanozgun/agentic-os-search/blob/836d8e71f075b8395e59f2e72ec48a6d1d151ec5/research/studies/ecc/INDEX.md); original publication files are unchanged |
+| Preceding publication | [U16-A1 receipt](PUBLICATION-U16-A1.md), [U15-C2 receipt](PUBLICATION-U15-C2.md), [U15-C1 receipt](PUBLICATION-U15-C1.md), [U15-B receipt](PUBLICATION-U15-B.md), [U15-A receipt](PUBLICATION-U15-A.md), [U14-C receipt](PUBLICATION-U14-C.md), [U14-B receipt](PUBLICATION-U14-B.md), [U14-A receipt](PUBLICATION-U14-A.md) |
+| Complete earlier routing/publication list | [Pre-A2 INDEX](https://github.com/batuhanozgun/agentic-os-search/blob/05e049da9af0fff6dcc4073042c9e99fe9f9e427/research/studies/ecc/INDEX.md); original publication files are unchanged |
 
-Note33 remains provisional assembly, not final CORE or Foundation/architecture authority. Notes34–37 add bounded integration/retention, information-use and common maintenance. G3 remains partial for specialized configuration/legacy consumers; Q03c3 and earlier stronger obligations remain. PLAN/QUESTIONS select A2 before remaining variants and closure work. Original evidence, corrections and open obligations remain recoverable. These are project-work files, not agent-control.
+Note33 remains provisional assembly, not final CORE or Foundation/architecture authority. Notes34–38 add bounded integration/retention, information-use and common/shared/legacy maintenance. Q03b/c3 and all earlier stronger/material obligations remain. PLAN/QUESTIONS select G4 before later interfaces and closure work. Original evidence, corrections and open obligations remain recoverable. These are project-work files, not agent-control.
