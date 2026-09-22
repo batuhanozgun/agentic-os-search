@@ -7,9 +7,10 @@
 | Need | Entry |
 |---|---|
 | What working system does the research now support? | [Note33 — provisional native assembly](notes/33-NATIVE-SYSTEM-ASSEMBLY-AND-RESEARCH-FRONTIER.md) → [U15-A exact sources](evidence/U15-A-SOURCES.md), [MR34](ROUND-U15-A.md) |
-| Which original families are explained, unread or empirically unverified? | [U15-A coverage reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md) → original [U07-A map](inventory/U07-A-FAMILY-MAP.md) and [ledger](evidence/U07-A-SOURCES.md) |
-| Next selected delivery/integration question | [PLAN0.35](PLAN.md) U15-B/Q04i → Rust daemon/manager merge queue, worktree helpers, store and CLI/TUI consumers. Full mechanism inquiry NOT STARTED until STATE activation; limited preparation is in U15-A sources |
-| Remaining variants and stronger claims | [QUESTIONS](QUESTIONS.md) and reconciliation G1–G6. A genuine unread source responsibility is not merely an unrun runtime test; neither is every unrun test mandatory source work |
+| Latest integration/retention relationship | [Note34](notes/34-WORKTREE-INTEGRATION-AND-RETENTION-BOUNDARIES.md) → [U15-B sources](evidence/U15-B-SOURCES.md), [MR35](ROUND-U15-B.md). Actual CLI/daemon/Git/store chain; conditional downstream cleanup, not an executed incident |
+| Which original families are explained, unread or empirically unverified? | [U15-A coverage reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md) → original [U07-A map](inventory/U07-A-FAMILY-MAP.md). Its G1-next labels are historical; Note34 and current PLAN record G1's bounded answer |
+| Next selected knowledge/connector-to-use question | [PLAN0.36](PLAN.md) U15-C/Q05d → Rust connector/checkpoint/graph/recall and actual recipient/context consumer. Full inquiry NOT STARTED until STATE activation; incidental source exposure is in the U15-B ledger |
+| Remaining variants and stronger claims | [QUESTIONS](QUESTIONS.md), current PLAN and reconciliation G2–G6. A genuine unread source responsibility is not merely an unrun runtime test; neither is every unrun test mandatory source work |
 
 ## Original mechanism notes
 
@@ -49,6 +50,7 @@ Each note links its original source ledger and round. Follow those links for exa
 | Readiness predicates and operator projections | [Note30](notes/30-READINESS-PREDICATES-AND-OPERATOR-PROJECTIONS.md) |
 | Actual tool capture, ingestion, risk and timeline/control use | [Note31](notes/31-TOOL-ACTIVITY-INGESTION-AND-RISK-USE.md) |
 | Usage/cost/context and warning/stopping consumers | [Note32](notes/32-USAGE-COST-CONTEXT-AND-RESOURCE-CONTROL.md) |
+| Worktree qualification, actual integration and downstream retention | [Note34](notes/34-WORKTREE-INTEGRATION-AND-RETENTION-BOUNDARIES.md); extends the previously open integration edge in Note33 |
 
 ## Experiment identities and recovery
 
@@ -64,7 +66,7 @@ Each note links its original source ledger and round. Follow those links for exa
 | E08 review-flow check | [Original bundle](evidence/u11-a-review-flow-probe/README.md); PRECHECK and lossless encoded records, adapted flow not native/model evaluation |
 | E09 Python flow | [Original bundle](evidence/u12-c-python-flow-probe/README.md) → [PRECHECK](evidence/u12-c-python-flow-probe/PRECHECK.md), [corrected encoded bundle](evidence/u12-c-python-flow-probe/E09.zip.b64); original modules/scripted provider, not SDK/API execution |
 
-U15-A adds no experiment or rerun. Note synthesis is not independent corroboration of any of these results. Historical U09-A3 local ZIP is not an upload obligation; its canonical source/publication history remains with Note15 and [receipt](PUBLICATION-U09-A3.md).
+U15-B adds no experiment or rerun. Source composition is not independent corroboration of earlier results. Historical U09-A3 local ZIP is not an upload obligation; its canonical source/publication history remains with Note15 and [receipt](PUBLICATION-U09-A3.md).
 
 ## Purpose, method, inventory and publication
 
@@ -72,11 +74,11 @@ U15-A adds no experiment or rerun. Note synthesis is not independent corroborati
 |---|---|
 | Purpose and reuse boundary | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
 | Method and sequence | [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md) |
-| Current consolidation method history | [MR34](ROUND-U15-A.md); earlier rounds remain with their original notes |
+| Current method history | [MR35](ROUND-U15-B.md); prior consolidation [MR34](ROUND-U15-A.md); earlier rounds remain with original notes |
 | Original discovery records | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B discovery](inventory/U01-B-DISCOVERY.md), [U07-A map](inventory/U07-A-FAMILY-MAP.md) |
 | Early master histories | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later unit ledgers/rounds continue them |
 | Current publication | STATE links the receipt after actual checks; source/synthesis completion and verified publication are different |
-| Preceding publication | [U14-C receipt](PUBLICATION-U14-C.md), [U14-B receipt](PUBLICATION-U14-B.md), [U14-A receipt](PUBLICATION-U14-A.md) |
-| Complete earlier routing/publication list | [Pre-U15-A INDEX](https://github.com/batuhanozgun/agentic-os-search/blob/352c89e029edcd990e341f4498f3da1e2274727b/research/studies/ecc/INDEX.md); original publication files are unchanged |
+| Preceding publication | [U15-A receipt](PUBLICATION-U15-A.md), [U14-C receipt](PUBLICATION-U14-C.md), [U14-B receipt](PUBLICATION-U14-B.md), [U14-A receipt](PUBLICATION-U14-A.md) |
+| Complete earlier routing/publication list | [Pre-U15-B INDEX](https://github.com/batuhanozgun/agentic-os-search/blob/6cb345a8692cf73ace2bec184f6bb70aa2e4a2ad/research/studies/ecc/INDEX.md); original publication files are unchanged |
 
-Note33 is a provisional assembly, not final CORE or Foundation/architecture authority. The reconciliation retains all twelve original families and separates material source gaps from stronger empirical claims. The next selected integration question has a real caller but is not source-complete. Original evidence, corrections and all open obligations remain recoverable. These are project-work files, not agent-control.
+Note33 remains provisional assembly, not final CORE or Foundation/architecture authority. Note34 explains the selected integration/retention path without certifying every TUI/priority/remote-delivery variant or actual safe operation. Current PLAN/QUESTIONS route remaining knowledge, lifecycle, host/procedure and closure work. Original evidence, corrections and all open obligations remain recoverable. These are project-work files, not agent-control.
