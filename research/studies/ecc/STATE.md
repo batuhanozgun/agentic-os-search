@@ -1,27 +1,49 @@
 # ECC — STATE
 
-**Updated:** 2026-09-22. **Current:** U17-A / G4, authored guidance → host adaptation/selection → actor procedure and continuation, **IN PROGRESS**. [MR40](ROUND-U17-A.md), opening `394a177f7c1a2e4a36c2d0e65d750046d4b64f07`.
-**Last completed:** U16-A2/Note38 and bounded parent U16-A/G3 through Notes37–38, COMPLETE/PUBLISHED. [Note38](notes/38-SHARED-CONFIGURATION-OWNERSHIP-AND-LEGACY-RECOVERY.md), [ledger](evidence/U16-A2-SOURCES.md), [receipt](PUBLICATION-U16-A2.md). No publication repair remains.
-**Study:** ACTIVE/PARTIAL; Note33 provisional, final CORE/joint evaluation unfinished. **METHOD/PLAN:** 0.1/0.40. **Fixed target:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
+**Updated:** 2026-09-22 — U17-A/G4 representative guidance inquiry **SOURCE/LOCAL RESEARCH COMPLETE; ECC-LOCAL RESULT WRITTEN AND CHECKED; CATALOGUE PUBLICATION STEP BLOCKED/PENDING**.
+**Latest result:** [Note39](notes/39-GUIDANCE-ADAPTATION-AND-PROCEDURAL-HANDOFFS.md), [exact sources](evidence/U17-A-SOURCES.md), [MR40](ROUND-U17-A.md), [publication/recovery receipt](PUBLICATION-U17-A.md).
+**Current responsibility:** preserve completed research and resolve the single pending CATALOG ECC-row alignment only when the tool permits it; do not bypass the safety block, rerun E10 or repeat completed research.
+**Next research:** U18-A/G5/Q06e, separate harness-audit scorecard and actual command/optimizer consumers, **NOT STARTED**. Publication alignment precedes this new unit.
+**Study:** ACTIVE/PARTIAL. Note33 remains provisional; Q01a2/G6 reverse inventory, final CORE and joint evaluation unfinished. **METHOD/PLAN:**0.1/0.41. **Fixed ECC:**8321021c54d670126ce3b2969d5deb880b4b0c2a.
 
-## Current authority and return condition
+## Recovered interruption and evidence
 
-Batu asks to continue ECC. Existing G4/Q01a2/Q02 asks how authored operating guidance reaches the method selected by a host/actor and what materially different procedural or generated-host path changes responsibility, authority, context or continuation. Follow source → derivation/mirror → discovery/selection → actor instructions/tools → artifact/state handoff → next consumer → changed/missing/partial continuation. Return one justified representative relationship and consequential variant with useful mechanisms and exact limits; reconcile remaining source obligations. Do not equate generated text, discovered metadata and model obedience.
+The failed turn left main8e6f6547e0b600dba6015046097c459dbc2af16d with MR40 opening, activation STATE, E10 PRECHECK and an encoded archive. Compared with last fully closed publication aebd7b105b739ae38e805052780ed51c3c515836, these were exactly four ECC-local paths/commits; no Note39, source ledger or closure existed. This continuation recovered them rather than assuming the task had completed.
 
-Entry recovery: full historical U15-A reconciliation from the prior turn; fresh U07-A family map, TREE-FRONTIER and original SOURCE-LEDGER1–110. Fixed scripts metadata identifies `scripts/gemini-adapt-agents.js` as a concrete generator candidate. Read it with its actual source, host declaration, representative procedure and relevant consumers/tests before choosing the bounded result. The scripts listing is clipped discovery, not complete body or recursive coverage. Native review and common/shared maintenance remain explained contrasts.
+The original local E10 ZIP was valid:8821 bytes, SHA256d16d24c6b04a17f98d8a62513342170921e05930b883470f123e6d3d4e16888d, all six member CRCs good. The full repo base64 text matched remote blob3b92e3eb9111b10416de99fd88591607e6dea582 yet decoded to a bad archive. It remains unchanged and explicitly disqualified for direct decoding.
 
-## Preservation and later responsibilities
+The [E10 README](evidence/u17-a-guidance-adapter-probe/README.md), [guarded restoration helper](evidence/u17-a-guidance-adapter-probe/restore_e10.py) and [recovery check](evidence/u17-a-guidance-adapter-probe/recovery-check.json) provide a repository-only route to the exact original ZIP. The read-back helper matched locally and was executed as an archive-only check; exact output and changed-input rejection were observed. There is no user upload or merge task. This confirmed transfer defect does not establish the cause of ChatGPT's thinking-failed error.
 
-Notes34,35–36,37–38 retain bounded G1 integration, G2 information-use and G3 maintenance answers. Q03b/c3 and all prior stronger identity/authority/concurrency/durability/uptake/outcome questions remain. No existing source finding is upgraded by this new unit. EXP-004 remains closed and is not ECC's correctness oracle.
+E10 remains one original seven-case campaign after PRECHECK7217bce94845a71f07de8d98e066fffe91566def. C5 is its predeclared second-call control. No target rerun, new fixture, changed criterion or deleted adverse case occurred in this continuation. Sources and complete harness/results were recovered; hash/CRC identity is not independent scientific replication. No live host/model/service, upstream test suite, installation, credential or private-data operation occurred.
 
-After the selected G4 relationship, reassess remaining material host/procedure/mirror roles. G5 retains harness-audit/optimizer and optional external-interface/alternate-dashboard roles. G6 retains reverse inventory, broad-document omission challenge, revised synthesis/CORE and joint evaluation. No turn quotas or completion percentage; do not turn every unrun test into mandatory source work or hide a necessary unread implementation as mere empirical uncertainty.
+## Current bounded answer
 
-## Continuity and publication
+Note39 distinguishes Gemini's declared baseline instruction installation from optional agent metadata conversion; authored PRD/plan/TDD/PR handoffs from a deterministic state machine; and inline planning from four-role parallel dev-team reasoning. Positive mapping/deduplication, inline fallback, assumption-labelled requirements, coding confirmation, plan-as-data handling, task/branch-linked RED/GREEN reporting and prompt-carried trust boundaries remain in the account.
 
-Input main `aebd7b105b739ae38e805052780ed51c3c515836` compared identical before work. [Complete pre-U17 STATE](https://github.com/batuhanozgun/agentic-os-search/blob/aebd7b105b739ae38e805052780ed51c3c515836/research/studies/ecc/STATE.md) preserves U16-A2 publication checks and previous history. This activation supersedes NOT STARTED labels until result alignment; it does not retract completed maintenance.
+E10 locally records recognized LF list transformation and stable output, alongside CRLF/plain-file compatible labels, retained unknown/model fields and a malformed transformed block-list rejected by PyYAML. It also records a missing-directory error. This does not measure Gemini loader acceptance, remote model/tool availability or instruction obedience.
 
-Recovery: canonical bootstrap → STATE → INDEX/META/WHY/METHOD/PLAN/QUESTIONS → MR40 → exact original sources. Publish findings/evidence before aligned entries/receipt/final STATE and inspect actual diffs/readbacks. Auxiliary raw-source acquisition failed DNS; no target execution resulted. No optional experiment is yet declared.
+Procedural source counterparts remain conditional: in-progress can precede approval; next-pending selection does not specify full unfinished-milestone reconciliation; a path does not pin a requirement revision; PR creation/reporting is not accepted delivery; shared summaries do not yield independent evidence merely through different role labels. The dated host no-nesting contract makes execution location consequential without asserting that ECC installs the team skill in that restricted location.
 
-Writes stay ECC-local plus necessary ECC discovery. Preserve original notes/ledgers/experiments, historical inventories, METHOD/WHY, other studies, concepts, explorations, Foundation, soul-context and agent-control. No real user-home/config/data mutation, credentials, live provider/spend, installation, service/workflow/release, upstream change, actual project merge/deletion or SOUL implementation. Optional isolated probes require exact original sources and prior criteria. Never force main or overwrite concurrent work; no named branch/PR or user upload/merge task.
+U17's chosen G4 representative return condition is met. Broader Q01a2/G6 generator/host/domain/rule/context/mirror dispositions remain open. Q02d1 carries the bounded result; Q02d2 stronger active-host/actor/semantic/effectiveness claims. G1–G3 remain answered at original scopes; previous residuals, E06 exclusion and all earlier experiment distinctions are preserved. No SOUL architecture is adopted or inferred from these results.
 
-E06 exclusion, distinct E05 histories and E04/E07/E08/E09 scopes/corrections remain unchanged. No new test/host efficacy or universal portability is preclaimed.
+## Exact publication status
+
+Note39 full readback1–70/71–180 through EOF:66be1644abd8467b674c26398589a2b5d441aa19. Ledger full readback4984702264f948334b3da675a0ba2f7df54358ed. MR40/PLAN/META/INDEX full readbacks match their write-return blobs; QUESTIONS had full fresh pre-write and complete primary post-write diff inspection, not a full post-write reread. All original numbered note and experiment entry routes remain. The [receipt](PUBLICATION-U17-A.md), commit3af7f9cb4c47813b819608d930c8008f74f15270, was fully read back as1c23db1256b2eaf225193d67c762b15fddc4c5ae.
+
+One detached-catalogue create_tree call was blocked by the tool safety check because the request's safety status could not be determined. It returned no tree SHA or commit. No alternate write route was used. Subsequent main comparison was identical to4d7cfdeeba7c76ecab176f93fb89b9f5bc92244d; the CATALOG row remains at U16-A2, blob9b0237d38d4f26eb394c1b6bc1f90b163616a842. **Do not say the whole publication is closed or the catalogue is current.** The package STATE/INDEX/META/PLAN/QUESTIONS correctly recover the new result despite this derived-row lag.
+
+The receipt records the intended ECC-row semantics. A later permitted publication attempt must reread the current catalogue, preserve unrelated contents, inspect the real candidate diff and use non-force updates. The blocked draft was not validated and is not a reusable canonical whole-file payload. No attempt should bypass the safety control. This is a tool-limited publication obligation, not missing source research or missing original evidence.
+
+Comparison aebd7b10→4d7cfdee showed ahead14/behind0 and13 paths, all ECC-local. Prior Notes01–38, old evidence, inventory, METHOD/WHY, other studies/concepts/explorations/EXP-004/Foundation and agent-control were unchanged in that interval. Receipt and this STATE are subsequent ECC-local writes. This STATE's own readback/final comparison follow writing; they do not turn the blocked catalogue action into success. No branch/PR/force operation was used.
+
+## Next source question after publication alignment
+
+U18-A/G5/Q06e: what does scripts/harness-audit.js measure, how are inputs/thresholds aggregated, and how does its actual command/optimizer consumer use the report? Start from U15-A G5 and exact source imports/callers/tests; do not reuse the Rust registry or capsule verdict as this scorecard's explanation. Trace inspection→score/recommendation→next actor/change→reassessment and missing/stale input. Return useful mechanism, consequential counterpart and limits, not a live optimization benchmark. Engine/caller discovery remains unstarted.
+
+Other G5 optional interfaces/AURA and alternate dashboards, then G6 reverse inventory/broad-document challenge, revised CORE and joint evaluation remain. These are revisable responsibilities rather than turn quotas. A genuine unread dependency is not merely an unrun test; a stronger unrun test does not automatically reopen explained source.
+
+## Authority and cold start
+
+Recovery: fresh canonical bootstrap as required → this STATE → INDEX/META/WHY/METHOD/PLAN/QUESTIONS → Note39/ledger/MR40/receipt and E10 README/guarded recovery → original sources as needed. [Pre-U17 complete STATE](https://github.com/batuhanozgun/agentic-os-search/blob/aebd7b105b739ae38e805052780ed51c3c515836/research/studies/ecc/STATE.md) preserves earlier publication history.
+
+Writes remain research/studies/ecc plus necessary permitted ECC discovery. No upstream fix/issue, actual user-home/configuration mutation, credentials, provider spend, live registry/service/release, real project merge/deletion or SOUL implementation. Never force main or overwrite concurrent work. EXP-004 remains closed and is not ECC's acceptance oracle. No whole-study completion percentage, universal safety or final architecture is claimed.
