@@ -21,7 +21,7 @@ Başlangıç main: `4d8b8b1aba963d5503676bdcb73b7d68b40045d7`. Paket ve keşif d
 | Yönlendirme | Kaynak/konu/kümülatif okuma bağlantıları yazılan dosya yolları ve Git tree'siyle içerik incelemesinde karşılaştırıldı; EXP-004 kümülatif yolunun varlığı doğrudan okundu | Bağımsız crawler veya bütün tarihsel dış URL'lerin güncellik kontrolü yapılmadı |
 | Kaynak–yorum ayrımı | U006/U007 ve özgün sözleşme ile A045/A047 karşılaştırıldı: plan/izin vardı; fiilî hazırlık ayrı. U033'ün dört-vaka sonucu genel yeterliğe yükseltilmedi | Aynı-assistant yorum; teknik derslerin kullanıcı tarafından ayrıca kabulü değil |
 | Hassas içerik | Kaynak aktarımında credential değerleri, sistem/developer metinleri ve gizli muhakeme alınmadı; cihaz hostname'i maskelendi | Tarihsel görevlerde yalnız değişken adı ve repo/çalışma yolu korunur |
-| Değişiklik kapsamı | `4d8b8b1… → 6a5a821e…` GitHub compare sonucu yalnız EXP-005 altında 20 yeni dosya ve explorations INDEX/CATALOG'da eklemeler gösterdi; önceki dosyalarda silme yok | Bu denetim kaydı bundan sonra eklenen 21. paket dosyasıdır; yayın öncesi son diff ayrıca kontrol edilir |
+| Değişiklik kapsamı | `4d8b8b1… → 6a5a821e…` GitHub compare sonucu yalnız EXP-005 altında 20 yeni dosya ve explorations INDEX/CATALOG'da eklemeler gösterdi; önceki dosyalarda silme yok | Bu denetim kaydı 21. paket dosyasıdır. Son arşiv PR'si toplam 23 dosya, 5289 eklenen satır, sıfır silinen satır bildirdi |
 
 Kaynak gövdeleri için ayrıca container'a otomatik indirme yolu denendi; DNS erişimi sağlanamadı. Bu girişim başarılı indirme, yerel tam-corpus lint veya otomatik full-byte transcription testi diye sunulmaz. GitHub connector okumaları ve kimlik karşılaştırmaları kullanıldı. Kaynak kapsamı ve normalizasyon [ORIGIN](../sources/ORIGIN-AND-ATTACHMENTS.md)'de açık tutulur.
 
@@ -39,6 +39,14 @@ Kaynak gövdeleri için ayrıca container'a otomatik indirme yolu denendi; DNS e
 
 Tam platform export'u, bağımsız transkripsiyon denetimi, tam Codex native çalışma günlükleri veya bütün önceki EXP kaynaklarının yeniden okuması yoktur. Görsellerin Git metin temsili, özgün görüntü dosyasına eşdeğer değildir. Tarihsel dış bağlantılar güncel kullanım rehberi olarak yeniden doğrulanmadı. Bu sınırlar yalnız burada değil paket STATE/INDEX ve kaynak notunda da görünürdür.
 
-## 5. Yayın durumu
+## 5. Gerçek yayın ve kapanış
 
-Bu kayıt yazılırken paket çalışma branch'indedir; main yayını henüz doğrulanmış sayılmaz. Sonraki işlem yalnız arşiv PR'si/normal merge, exact ref readback ve bu kayıt/STATE/WORK-PLAN'ın gerçekleşmiş sonuca göre kapanışıdır. Başka geliştirme işi açılmaz.
+- Research arşiv PR'si: **[#33](https://github.com/batuhanozgun/agentic-os-search/pull/33)**. DevOS PR #1'e müdahale değildir.
+- İncelenen head: **`e46e0f9187c51d362b34114dbb416980f64d133b`**. Başlangıç main yeniden okundu ve değişmemişti; head sabitlenerek normal merge yapıldı.
+- Merge yanıtı: `merged=true`, **`5e1b991866a7930448a0bd2f5ac58715776fedf1`**.
+- Merge sonrasında exact commit tree'si ve STATE doğrudan geri okundu. `e46e0f9… → 5e1b991…` GitHub compare sonucu **sıfır dosya farkı** verdi; arşiv payload'ı değişmeden main'e ulaştı.
+- Ardından STATE makbuzu `cbab3788e5ea57bf339f18e5e52130e8ebef3ad6`, WORK-PLAN kapanışı `63d9de911eda0cb3a9135bc163e326897ee3cf1b` ile kaydedildi. Bu son checks makbuzu kendi henüz oluşmamış hash'ini içine yazmaz; exact sürümü Git geçmişinden/nihai teslimden bulunur.
+
+Kapanış kayıtları yalnız bu üç durum/denetim yüzeyini değiştirir; on kaynak dosyası, özgün görev eseri, dersler, manifest ve kütüphane bağlantıları aynı kalır. Son commit'teki üç kapanış kaydı ve main ref'i teslimden önce ayrıca geri okunur; geçmiş makbuzlar yeni kaynak iddiası oluşturmaz.
+
+**Sonuç:** Arşivleme işi belirtilen kaynak kapsamıyla tamamlandı. Geliştirme hattı iptal, araştırma sorusu açık, yeni yetkili çalışma yok. İçerik yazıcılığı bırakıldı; bu makbuzların geri okuması ve kullanıcıya teslim dışında iş veya gözetimsiz süreç başlatılmadı.
