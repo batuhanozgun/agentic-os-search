@@ -21,7 +21,7 @@ MR41 openingf2a46411af5a59871b53e781b528c5c4d1616640 preceded U18 inquiry. Its f
 | META | f3cf5d703675f5e0aab03ef1530c229735a32c49 | Full readback atc1296154, blob0c9f8f29100fb34af12934b0c14751592b473b03 |
 | INDEX | 4f39ef4c86ecab884d25f75f28385bcfaaad2dcf | Full readback atc1296154, blobca966c1fb77a961ddd41a69a69ea1a2a7059b634; original numbered notes/experiment routes retained,40 added |
 | QUESTIONS | c12961541ff2e432e1567c6ebc163350567eb55b | Fresh complete input1–67/68–200 through EOF; complete primary post-write diff inspected. Returned blob21aa505fa13d9123c2a27d6c27dac4a35d10c67a; no complete post-write reread claimed |
-| Catalogue | 967268edcf58c323571f77fcee76f4023ed78679 | Complete candidate diff only ECC+1/-1; current-parent check, non-force publication, fresh main row31 readback blobb f93cb8835bb5787fa75118ff2241d1300574329 (remove the separating space: bf93cb8835bb5787fa75118ff2241d1300574329) |
+| Catalogue | 967268edcf58c323571f77fcee76f4023ed78679 | Complete candidate diff only ECC+1/-1; current-parent check, non-force publication, fresh main row31 readback blob bf93cb8835bb5787fa75118ff2241d1300574329 |
 
 PLAN/META/INDEX input contents and blobs were available from full same-conversation reads at unchanged identities, not freshly fetched complete copies immediately before writing. Updates used expected old blobs. QUESTIONS was freshly fully read and its diff preserves all unrelated question rows, adding Q02e/Q06e1/e2 and revising Q06e/Q10/header/interpretation/Q01a3. The checked entries agree on METHOD0.1/PLAN0.42, bounded U18-A/Q06e completion, stronger e2, U18-B/AURA NOT STARTED and unfinished G5/G6/CORE/joint evaluation.
 
