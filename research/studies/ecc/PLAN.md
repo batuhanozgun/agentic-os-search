@@ -1,6 +1,6 @@
 # ECC — Adaptive Research Plan
 
-**Version:** 0.38 / 2026-09-22. **METHOD:** 0.1 retained. STATE owns activation/publication. [Note36](notes/36-NODE-RECALL-PROXIMITY-AND-ADVISORY-CONSUMERS.md), [sources](evidence/U15-C2-SOURCES.md) and [MR37](ROUND-U15-C2.md) answer U15-C2/Q05d2. Together with Note35, parent U15-C/G2 has a bounded source-to-use answer. [Note33](notes/33-NATIVE-SYSTEM-ASSEMBLY-AND-RESEARCH-FRONTIER.md) remains provisional assembly, extended by Notes34–36, not final CORE.
+**Version:** 0.39 / 2026-09-22. **METHOD:** 0.1 retained. STATE owns activation/publication. [Note37](notes/37-MANAGED-MAINTENANCE-OWNERSHIP-AND-PREVIEW.md), [sources](evidence/U16-A1-SOURCES.md) and [MR38](ROUND-U16-A.md) answer U16-A1/Q03c1's common maintenance/public-command slice. Parent G3/Q03c remains PARTIAL for shared configuration and legacy ownership. Note33 remains provisional assembly, extended by Notes34–37, not final CORE.
 
 ## Phase map
 
@@ -8,46 +8,46 @@
 |---|---|
 | P0 Work/method foundation | Complete; do not restart setup |
 | P1 Native discovery | Original43-root dispositions retained; representative recursive/mirror and final omission challenge remain |
-| P2 Mechanism slices | Notes01–32/34–36 retain bounded source/local answers. Rust knowledge and separate Node recall/proximity consumers are explained; G3 installation lifecycle is next |
-| P3 Subsystems/relations | Note33 gains integration/retention, knowledge-to-routing and distinct code-proximity/advisory edges without rewriting original evidence |
+| P2 Mechanism slices | Notes01–32/34–37 retain bounded source/local answers. Common maintenance is explained; specialized G3 consumers remain |
+| P3 Subsystems/relations | Integration/retention, distinct information/advisory consumers and maintenance ownership extend Note33 without rewriting original evidence |
 | P4 Project comparison | Conversation-only stocktaking/EXP-004 comparison did not complete whole-study evaluation or authorize architecture |
 | P5 CORE/closure challenge | Reverse inventory, broad-document challenge, material omissions and final consolidation remain |
-| P6 Method case | MR37 follows population/coordinate/qualifier transformations through actual consumers; same-assistant explanatory progress, not independent efficacy |
+| P6 Method case | MR38 follows ownership/digest/preview across different writers and actual downstream effects; same-assistant progress, not independent efficacy |
 
-Fixed target remains `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`. U15-C2 adds no target test/build/execution, Node/Git probe, live host/model/service, user-data import, installation or E10. Prior experiments, distinct E05 histories and E06 exclusion remain unchanged. Source-derived cases are not observed incidents or performance rates.
+Fixed target remains `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`. No U16-A1 target test/build/installation/repair/uninstall/update, local Git/Node probe, live host/model, user-data access or E10 occurred. Prior experiments, distinct E05 histories and E06 exclusion remain unchanged. Conditional source counterparts are not observed incidents.
 
-## U15-C / Q05d — bounded source answer through C1 and C2
+## U16-A / G3 / Q03c — original criterion and bounded split
 
-**Original criterion:** source/path/session defaults→parsing/import/checkpoint→identity/evidence→query/projection→actual use→changed/missing/partial retry; explain useful behavior, a material counterpart and exact limits. Separate load-bearing consumers were split, not treated as one algorithm.
+**Original question:** command/target selection→desired versus recorded ownership/configuration→actual file/content inspection→plan/mutation→receipt/state→doctor/readback→source updates, user edits, interruption and retry. Explain a useful coherent maintenance lifecycle, positive controls and a consequential counterpart; split a genuinely distinct responsibility rather than require every live host/durability test.
 
-**C1 / Q05d1 / Note35:** Rust connectors feed graph entities/observations; explicit recall and a narrower session-associated matcher are actual consumers. Matching can change eligible delegate choice and create a handoff. Signature/cursor/validity, shared identity/attribution, retention/searchability and pinned-duplicate append semantics remain bounded source findings. They do not establish model uptake or trustworthy-current knowledge.
+**A1 / Q03c1 / Note37:** the full general lifecycle and actual public doctor/repair/update/uninstall/root callers meet the common source criterion. Recorded digest health differs from current-source equivalence. Regenerated repair can reintroduce a previously skipped user-owned copy, including no-byte-change ownership; its bridge can also change the preservation digest before repair succeeds. Global prefix dry-run is not consumed by repair/update as it is by uninstall. Positive ordinary ownership guards, no-follow/root/identity checks, changed-copy retention and partial exits remain.
 
-**C2 / Q05d2 / Note36:** Node reads bounded global populations and scores knowledge locally; its browser can attach an any-pinned qualifier to another, newest observation. A separate proximity path uses committed worktree diffs and a touched-file source-import graph, not the persisted knowledge graph. New-side coordinates, shared-source revisions and missing acquisition affect the heuristic. Risk, 2D/3D position, right-of-way, advice, attempted delivery and actual coordination remain separate. Positive matching, direct-edge/overlap signals, whole-file fallback and explicit advisory limits are preserved.
+The same source explains recorded-versus-regenerated plan selection, no-op source metadata preservation, sequential checkout/reinstall, partial state and result boundaries. One full ownership test and selected complete lifecycle tests were inspected, not run. Findings are conditional source paths, not executed loss, unapproved installation, or whole-platform security.
 
-All four direct proximity implementation files and the actual selected producers/consumers were read; two representative test files were inspected, not run. Note16's known sink/target boundaries remain original evidence. The current criterion is met without certifying every renderer, coordination-inventory internal, parser variant, installed dependency or model behavior. Such material source variants remain in the broader frontier; Q05d3/Q05b/c and previous obligations retain stronger identity/currentness/privacy/concurrency/durability/uptake/efficacy questions.
+**Why G3 remains partial:** specialized shared settings/hook reconciliation, actual merge/backup payload ownership and legacy Codex cleanup use different helpers. Their calls are visible, but those consumers cannot inherit the ordinary-copy contract. A2 is a real source obligation, not merely stronger runtime verification. Q03c3 retains installed/authority/concurrency/crash/durability/outcome claims; Q03b's guided Kimi retry remains separate.
 
-## U16-A / Q03c — next selected G3 source inquiry, NOT STARTED
+## U16-A2 / Q03c2 — next selected, NOT STARTED
 
-**Question:** how do public update, doctor, repair and uninstall operations determine the intended installed state, compare it with actual files, apply a change and preserve user work or recover from partial failure?
+**Question:** how are ECC-owned portions of shared configuration identified, merged, revised and removed without treating the entire user file as an owned copy? How does the separate legacy Codex ownership/marker cleanup decide what can be removed or retained?
 
-**Why now:** G3 was already a genuine source gap in the U15-A reconciliation. Earlier materialization and OpenCode loading/cleanup plus the release lifecycle driver do not automatically explain the underlying general maintenance path. This completes a different responsibility rather than repeating another knowledge helper.
+**Exact entries at the pin:** Note37/its ledger → `scripts/lib/install/claude-settings.js`, actual callers in install/apply and install-lifecycle, their hook-consent and hooks-config helpers; `scripts/lib/mcp-config.js` when following selected payload filtering; `scripts/lib/codex-legacy-sync.js` via the public uninstaller. These paths are discovered imports/callers, not already fully examined implementations. Recover their actual dependent writers, state formats and tests before drawing conclusions. Do not assume an unused generic render-template branch is a deployed producer.
 
-**Entry route:** original Notes02–03 with their ledgers; relevant Note26 installation/cleanup and Note28 lifecycle-test context; then fixed-pin `scripts/lib/install-lifecycle.js`, public callers found through its imports/exports, `scripts/lib/install/` and `scripts/lib/install-targets/` where those actual sources lead. The historical map's shorter install/install-targets names are locators, not proof of every directory or function. Recover exact paths at the pin before treating them as read.
+**Trace:** source/recorded managed IDs or payload/backup→user's current file→merge/replacement/removal rule→lock/write/checkpoint→recorded authority→subsequent repair/uninstall/host-relevant result→changed or partial retry. Distinguish ordinary copy ownership from ownership of individual hook entries, JSON keys, arrays or marker sections. Check whether filtered installed content and later recorded-payload consumers refer to the same intended object; this is a question, not a preclaimed defect.
 
-**Trace:** command/target selection→desired versus recorded ownership/configuration→actual file/content inspection→plan and mutation→receipt/state→doctor/readback→interruption, source update, user modification and retry. Distinguish detecting drift, repairing an asset, accepting ownership, preserving a local edit and removing installation. A successful process or unchanged receipt is not automatically a reconciled live environment.
+**Return criterion:** a coherent source-grounded shared-configuration lifecycle and separate legacy removal boundary, useful controls, material counterpart and exact limits, sufficient to reassess G3. Split another genuinely necessary responsibility only with a clear reason. No real home/config/credential changes, live plugin execution or exhaustive platform campaign. Optional safe execution requires exact original source and criteria before running; none has been performed.
 
-**Return criterion:** explain one coherent useful maintenance lifecycle through its actual consumers, with normal protections and a consequential modification/failure counterpart. Split a materially distinct branch if needed. Do not require live user-home mutation, credential access, all host combinations or exhaustive durability tests. No target installation or maintenance action has been performed; optional safe execution requires exact source and criteria first.
+## Earlier closure and remaining sequence
 
-## Remaining sequence and preserved boundaries
+Notes35–36 keep U15-C/G2 bounded source completion: Rust import/recall/recipient selection, distinct Node recall and source-code proximity/advisory consumers. Q05b/c/d3 and prior stronger/material variants remain. Note34 retains G1 integration/retention. Original U15-A reconciliation stays historical; its prior next labels are not current authority.
 
-The U15-A reconciliation remains historical. G1 is answered by Note34; G2 now by Notes35–36. G3 is next. G4–G6 remain revisable responsibility groups: consequential procedure/host/generator variants; separate scorecard and optional external-interface/alternate-dashboard roles; reverse inventory and broad-document challenge, revised synthesis/CORE and joint project-facing evaluation.
+After G3 reassess G4–G6: consequential procedure/host/generator variants; scorecard and optional external-interface/alternate-dashboard roles; reverse inventory and broad-document challenge, revised synthesis/CORE and eventual joint project evaluation. These are revisable source responsibilities, not turn quotas.
 
-Read deeper source when it changes an important explanation. Do not turn every unrun live test into mandatory source work, or hide a genuinely unread implementation as only empirical uncertainty. Repeated/generated sources need role/variant justification rather than automatic omission. No automatic external-product audit, SOUL design/adoption or implementation follows.
+Read deeper source when it changes the explanation. Do not make every unrun test mandatory research or hide a genuinely unread mechanism as empirical uncertainty. Repeated/generated sources need role/variant justification. No automatic external-product audit, SOUL architecture/adoption or implementation follows.
 
-QUESTIONS preserves Q01a2; Q02a2/b3/c2; Q03b/c; Q04b/c/e1b/e2b/e3b/e4b/f2/g1c/g2b/h2/i2; Q05b/c/d3; Q06b/c2/d1b/d2b; Q07a2/b2/c2/d2/d4; Q08a2/b2/c2; Q09/Q10. Bounded source closure does not strengthen prior evidence.
+QUESTIONS preserves Q01a2; Q02a2/b3/c2; Q03b and Q03c1/c2/c3; Q04b/c/e1b/e2b/e3b/e4b/f2/g1c/g2b/h2/i2; Q05b/c/d3; Q06b/c2/d1b/d2b; Q07a2/b2/c2/d2/d4; Q08a2/b2/c2; Q09/Q10. Source synthesis does not strengthen prior evidence.
 
 ## Publication and recovery
 
-Writes remain ECC-local plus necessary ECC discovery, with current identities, actual diffs/readbacks and non-force updates. Preserve Notes01–35, original ledgers/experiments, historical inventory, METHOD/WHY, other studies/concepts/explorations/Foundation and agent-control. No named branch/PR or user upload/merge obligation. Findings/evidence precede entries/receipt/final STATE; API success alone is not scientific validation.
+Writes remain ECC-local plus necessary ECC discovery; current identities, actual diffs/readbacks, non-force updates and concurrent-work preservation are required. Original Notes01–36, ledgers/experiments, historical inventory, METHOD/WHY, other studies/concepts/explorations/Foundation and agent-control remain unchanged. No named branch/PR or user upload/merge task. Findings/evidence precede aligned entries/receipt/final STATE. API success and self-readback are not independent scientific validation.
 
-[Complete PLAN0.37](https://github.com/batuhanozgun/agentic-os-search/blob/b6ac4fcaad7e552d9b42ab299837c5ae2851d3ff/research/studies/ecc/PLAN.md) preserves the selected C2 criterion and C1 disposition. STATE determines verified publication and later activation; U16-A remains NOT STARTED. The comparison pause did not reopen EXP-004 or change the research corpus.
+[Complete PLAN0.38](https://github.com/batuhanozgun/agentic-os-search/blob/836d8e71f075b8395e59f2e72ec48a6d1d151ec5/research/studies/ecc/PLAN.md) preserves the original U16-A criterion and preceding G2 closure. STATE owns actual publication; A2 is NOT STARTED. The exploration comparison pause did not reopen EXP-004 or change ECC's corpus.
