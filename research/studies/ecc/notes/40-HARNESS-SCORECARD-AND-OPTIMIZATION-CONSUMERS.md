@@ -17,7 +17,7 @@ The CLI accepts explicit root and scope, otherwise AUDIT_ROOT/current directory 
 | Mode/scope | Actual checked population |
 |---|---|
 | Repository mode, repo scope | Seven core categories plus GitHub Integration; file counts, presence, selected text patterns and one exact command-mirror comparison. Maximum80 points at this pin |
-| Consumer mode, repo scope | Project-local context/configuration/test/eval/security markers, discoverable ECC installation and GitHub files. No Cost Efficiency checks; maximum37 before optional provider categories |
+| Consumer mode, repo scope | Project-local context/configuration/test/eval/security markers, discoverable ECC installation and GitHub files. No Cost Efficiency checks; maximum39 before optional provider categories |
 | Consumer mode, agents/skills/commands scope | A single shared project-overrides predicate worth3 points; not an inventory of the named surface |
 | Consumer mode with provider marker | Each detected Vercel/Netlify/Cloudflare/Fly category adds its own10-point denominator and marker/script/env/workflow-text checks |
 
