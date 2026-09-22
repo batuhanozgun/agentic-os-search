@@ -1,6 +1,6 @@
 # ECC — Adaptive Research Plan
 
-**Version:** 0.36 / 2026-09-22. **METHOD:** 0.1 retained. STATE owns activation/publication. [Note34](notes/34-WORKTREE-INTEGRATION-AND-RETENTION-BOUNDARIES.md), [sources](evidence/U15-B-SOURCES.md) and [MR35](ROUND-U15-B.md) answer U15-B/Q04i's bounded integration/retention question. [Note33](notes/33-NATIVE-SYSTEM-ASSEMBLY-AND-RESEARCH-FRONTIER.md) remains the provisional system model; the [twelve-family reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md) is its historical coverage baseline. Final CORE and whole-study evaluation remain unfinished.
+**Version:** 0.37 / 2026-09-22. **METHOD:** 0.1 retained. STATE owns activation/publication. [Note35](notes/35-CONNECTOR-GRAPH-RECALL-AND-RECIPIENT-USE.md), [sources](evidence/U15-C1-SOURCES.md) and [MR36](ROUND-U15-C.md) answer U15-C1/Q05d1's bounded Rust information-to-use question. Parent U15-C/G2 remains PARTIAL for a distinct Node consumer. [Note33](notes/33-NATIVE-SYSTEM-ASSEMBLY-AND-RESEARCH-FRONTIER.md) remains provisional assembly, extended by Notes34–35, not final CORE.
 
 ## Phase map
 
@@ -8,57 +8,46 @@
 |---|---|
 | P0 Work/method foundation | Complete; do not restart setup |
 | P1 Native discovery | Original43-root dispositions retained; representative recursive/mirror and final omission challenge remain |
-| P2 Mechanism slices | Notes01–32 and34 retain bounded source/local answers. The local worktree integration path is now explained; G2 knowledge/connector-to-use is next |
-| P3 Subsystems/relations | Note33 provisional assembly is extended, not retrospectively rewritten, by Note34's integration and downstream-retention relationship |
-| P4 Project comparison | Then-current Foundation/project and selected studies; whole-study discussion with Batu after completed research |
+| P2 Mechanism slices | Notes01–32/34/35 retain bounded source/local answers. Rust connector/graph/recall/assignment is explained; distinct Node recall/proximity remains |
+| P3 Subsystems/relations | Note33 gains actual integration/retention and knowledge-to-routing edges through later notes, without rewriting original evidence |
+| P4 Project comparison | Conversation-only stocktaking/EXP-004 comparison did not complete the eventual whole-study evaluation or authorize architecture |
 | P5 CORE/closure challenge | Reverse inventory, broad-document challenge, material omissions and final consolidation remain |
-| P6 Method case | MR35 records the observed research benefit of G1: actual integration plus a downstream controller that changes retained-work standing. Not independent method-efficacy or runtime validation |
+| P6 Method case | MR36 follows storage to consequential use and separates consumer contracts; same-assistant source progress, not independent efficacy |
 
-Fixed target remains `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`. No new target execution, test, real merge/rebase/deletion, live host/model, installation or E10 occurred in U15-B. E06 remains excluded; both E05 histories and E04/E07/E08/E09 retain their original scopes. Source-derived scenarios are not production incidents.
+Fixed target remains `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`. No new target execution, test, Rust/SQLite probe, live host/model, user-data import, installation or E10 occurred. E06 remains excluded; distinct E05 histories and E04/E07/E08/E09 retain original scopes. Source-derived scenarios are not production incidents.
 
-## U15-B / Q04i — bounded source answer
+## U15-C / Q05d — original criterion and split
 
-**Unchanged return criterion:** explain candidate/base/revision → readiness/review/queue → Git operation → result/persistence → cleanup/prune → changed-base, retry or partial failure; show useful normal controls and a material counterpart through an actual consumer. Note34 meets this through the manager, Git helpers, config, store, CLI and daemon.
+**Original question:** how does local retained information become graph/knowledge and influence recall, supplied context or recipient selection? Trace source/path/session defaults→parsing/import/checkpoint→identity/evidence→query/projection→actual use→changed/missing/partial retry. Return a coherent useful chain, normal protections, a material counterpart and exact limits. A genuine separate consumer may be split; no live benchmark was required.
 
-The source supplies real local integration: inactive-state/dirty/conflict admission, repeated base/candidate checks, iterative queue reconstruction, selective rebase with abort on failure, optional cleanup and structured results. Mechanical mergeability does not certify task success or authenticated review. Failed/Stopped sessions can be eligible; external Git/actor controls are not presumed absent.
+**U15-C1 / Q05d1:** the Rust chain meets this criterion. Configured JSONL/Markdown/dotenv sources feed entity/observation records. Graph CLI consumes recall; a separate entity-only match influences eligible delegate choice and a real handoff. Team/harness/state/backlog checks are positive controls. Information affecting the selected recipient does not mean the handoff includes matched source material or that a model used it.
 
-The significant cross-boundary finding is merge/rebase retention versus subsequent daemon pruning. Auto-merge is opt-in; the following prune wrapper is not gated by that flag. Default retention zero applies no delay. Prune does not require clean, conflict-free, merged or accepted work and uses a narrower protected-state set than merge. A candidate retained after a failed rebase or skipped as dirty can therefore be removed later in the same reached cycle, under the stated conditions. This is source composition, not an executed data-loss claim.
+The source answer distinguishes unchanged-file caching from offset resumption and validity-complete import; globally shared entity keys from per-session attribution; retained/pinned information from preselected searchable fields; recall scoring from actual assignment scoring. The pinned-duplicate insert→compact→new-id query can return an error after earlier entity effects. No such failure or misrouting was executed. Representative store tests were inspected, not run; complete/partial scopes are in the ledger.
 
-Keep-worktree changes the bulk control path as well as cleanup. Git effects, deletion, database clearing and summary recording have separate failure points. Last-pass counts are real operator information, not immutable per-candidate integration receipts. Specific command failures can become empty status results; other checks still reject. Positive controls are preserved, not replaced with a blanket failure verdict.
+**Why parent G2 stays open:** Note16's Node snapshot recall and proximity are different producers/consumers, not the Rust scorer called through another label. Their joined algorithms remain a material source question. This is Q05d2, not merely stronger runtime validation. Q05d3 and original Q05b/c separately retain installed/config/source identity, current/trustworthy knowledge, privacy, concurrency/durability, actual context uptake and effectiveness. Automatic history projection, detailed TUI and parser variants re-enter when a stronger claim makes them material.
 
-Q04i1 contains this answer. Q04i2 retains installed Git/config/host correspondence, exact candidate/base/repository/actor binding, actual acceptance, concurrent mutation/cleanup, crash/retry/durability and useful-output recovery. Detailed TUI/priority/remote-delivery variants are materiality-based re-entry. Not every helper or test must be exhausted to answer the bounded chain, and no unrun test is silently credited.
+## U15-C2 / Q05d2 — next selected, NOT STARTED
 
-## U15-C / Q05d — next selected source inquiry, NOT STARTED
+**Question:** how does the Node snapshot become recalled knowledge and proximity/routing advice, and what real caller consumes each result? Which source population, identity, missingness and transformation boundaries differ from the now-explained Rust path?
 
-**Question:** How does local retained information become graph/knowledge records and actually influence recall, supplied context or recipient selection? Which scope, identity, validity and import-completion conditions survive that journey?
+**Entries at the fixed pin:** begin with [Note16](notes/16-NODE-OPERATOR-BRIDGE-AND-TARGET-BINDING.md) and its [exact ledger](evidence/U09-B-SOURCES.md), then `scripts/lib/control-pane/state.js`, the relevant `scripts/lib/agent-proximity/` implementations and their actual CLI/server/dispatch consumers. Recover concrete imports/functions through those sources, not guessed directory roles. Existing sender→Rust conflict-argument and target-binding findings remain; do not repeat that entire inquiry.
 
-**Why next:** G2 was already a genuine source gap in the system assembly. The Vault and several views have bounded explanations, but ECC2 connector/checkpoint/import and graph-based selection are not automatically the same memory system or accepted current knowledge. Complete their actual producer/consumer relationship rather than opening another adjacent Git helper.
+**Trace:** selected database/source→snapshot/population→knowledge or proximity representation→matching/scoring/projection→returned evidence/advice→actual consumer/effect boundary→missing/stale/changed retry. Compare with Rust only where the same object or command makes the difference material. An inventory declaration is not a capability test; proximity or relevance is not authority or accepted work.
 
-**Fixed-pin entries:**
+**Return condition:** source-grounded explanation of the distinct useful Node consumer and a material counterpart, with dependency/role coverage sufficient to reassess G2. If a further implemented responsibility is genuinely necessary, name and bound it instead of disguising it as an empirical caveat. Do not demand every renderer, entire external product, live server, user-data import or retrieval benchmark. Any safe optional execution needs original source and criteria first; none is already authorized as performed.
 
-- `ecc2/src/main.rs`: connector sync/import helpers, graph/recall command consumers. U15-B incidentally read3000–3370 and selected graph arms; that is entry context, not next-unit closure.
-- `ecc2/src/session/store.rs`: connector checkpoints, entity/observation/relation upsert and query, graph history/projection and relevant recall methods. Some were previously visible without joined analysis.
-- `ecc2/src/session/manager.rs`: graph_context_match_score/graph_context_matched_terms and actual delegate selection, so a record is followed to a consequential consumer.
-- Existing Note06 Vault and Note16 Node snapshot/recall are comparison boundaries; reopen actual source only where their relationship or materially different consumer matters. Do not presume automatic Vault ingestion or universal graph semantics.
+## Earlier answer and remaining sequence
 
-**Trace:** source/path/session defaults → bounded parsing/import and checkpoint → stored graph identity and evidence → query/ranking/projection → actual caller decision/context → missing/changed/partial retry. Separate import counters from accepted facts, source signatures from complete consumption, relevance from current truth, and routing hints from authenticated authority.
+[Note34](notes/34-WORKTREE-INTEGRATION-AND-RETENTION-BOUNDARIES.md) retains U15-B/Q04i's integration/retention answer; Q04i2 remains. [U15-A reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md) remains historical: G1 is answered, G2 is partly answered by C1 and continues at C2. Its prior next/unstarted labels are not current activation authority.
 
-**Return criterion:** one coherent useful source-to-record-to-use path, its normal protections and a material changed/missing/partial counterpart, with exact evidence and unresolved dependencies. Split a genuinely separate source responsibility where needed. No live service, user-data ingestion, external provider audit or retrieval benchmark is implied. Any optional safe discriminator needs exact recovered source and criteria before execution.
+After G2, reassess G3–G6: installation update/repair/removal; material host/procedure/generator variants; separate scorecard and optional external-interface/alternate-dashboard roles; reverse inventory and broad-document challenge, revised synthesis/CORE and eventual joint project-facing evaluation. These are revisable responsibility groups, not promised turn counts. Read only deeper source that changes an important explanation, but do not erase a genuine unread role.
 
-## Coverage and remaining sequence
+No automatic external-product audit or SOUL implementation follows. Explained source mechanisms are not reopened merely because all live compatibility/efficacy claims are untested. Repeated/generated files require role and consequential-variant reasoning, not blind exclusion or every copied skill's semantic validation.
 
-The U15-A map is historical; its G1 next/unstarted text is superseded operationally by this plan, STATE and Note34, not erased from the earlier evidence. G2 is now the selected next question. G3–G6 remain revisable responsibility groups, not fixed turn counts:
+## Obligations and publication
 
-1. Remaining install update/repair/removal and consequential host/procedure/generator variants.
-2. Separate configuration scorecard and optional external-interface/alternate-dashboard roles, bounded at actual ECC-to-provider responsibilities.
-3. Reverse inventory and broad-document challenge; revise provisional synthesis, prepare CORE and perform the authorized whole-study project-facing evaluation.
+QUESTIONS preserves Q01a2; Q02a2/b3/c2; Q03b/c; Q04b/c/e1b/e2b/e3b/e4b/f2/g1c/g2b/h2/i2; Q05b/c with Q05d1/d2/d3; Q06b/c2/d1b/d2b; Q07a2/b2/c2/d2/d4; Q08a2/b2/c2; Q09/Q10. Combining original findings is not independent corroboration.
 
-Do not turn every unrun compatibility/effectiveness test into mandatory new source work. Conversely, do not call a genuinely unread mechanism merely empirical uncertainty. Repeated/generated files require role and material-variant reasoning, not blind exclusion or semantic evaluation of every copied skill. Independent external-product campaigns and SOUL implementation remain outside authority.
+Writes remain ECC-local plus necessary ECC discovery, with fresh identities, actual diffs/readbacks and no force update. Preserve original notes/ledgers/experiments, historical inventory, METHOD/WHY, other studies/concepts/explorations/Foundation and agent-control. No named branch/PR or user upload/merge task. Findings/evidence precede entries/receipt/final STATE. Current STATE determines actual publication; API success alone is not semantic validation.
 
-## Preserved obligations and publication
-
-QUESTIONS preserves Q01a2; Q02a2/b3/c2; Q03b/c; Q04b/c/e1b/e2b/e3b/e4b/f2/g1c/g2b/h2/i2; Q05b/c and added Q05d; Q06b/c2/d1b/d2b; Q07a2/b2/c2/d2/d4; Q08a2/b2/c2; Q09/Q10. Earlier source findings are not strengthened by the assembly or this continuation.
-
-Writes stay ECC-local plus necessary ECC discovery. Use current blob/parent identities, inspect actual diffs/readbacks, preserve concurrent changes and never force main. Original notes/ledgers/experiments, historical inventory, METHOD/WHY, other studies/concepts/explorations/Foundation and agent-control remain unchanged. No named branch/PR or user upload/merge task is required. Findings/evidence precede entry/receipt/final STATE closure; API success is not semantic or independent scientific validation.
-
-[Complete preceding PLAN0.35](https://github.com/batuhanozgun/agentic-os-search/blob/6cb345a8692cf73ace2bec184f6bb70aa2e4a2ad/research/studies/ecc/PLAN.md) preserves U15-B's original criterion and U15-A disposition. Current STATE determines when publication is verified and U15-C becomes active.
+[Complete PLAN0.36](https://github.com/batuhanozgun/agentic-os-search/blob/13211aa1a8abc78c59ec180aab13682fb27d7513/research/studies/ecc/PLAN.md) preserves the original U15-C criterion and prior U15-B disposition. The comparison pause changed neither research evidence nor EXP-004's closed status; the user's explicit resumption opened MR36.
