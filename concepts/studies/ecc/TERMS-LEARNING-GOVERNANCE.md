@@ -1,6 +1,6 @@
 # ECC — Learning, evaluation and governance terms
 
-2026-09-20, **B6-T16-C3 / DURABLE-COMPLETE / C3-COMPLETE**. [TERMS.md](TERMS.md)'nin linked parçasıdır. Bu dosya U05–U06 source package kullanımını taşır.
+2026-09-23 · **C3 source-family aktarımı korunur; C6b E04/E05 ham-kanıt refinement'i eklendi.** [TERMS.md](TERMS.md)'nin linked parçasıdır. Bu dosya U05–U06 source package kullanımını taşır.
 
 ## 1. Observation and instinct lifecycle
 
@@ -91,7 +91,7 @@
 | ECC-L63 — profile gate | minimal/standard/strict etc. hook activation selection. | Authenticated operator policy değil. |
 | ECC-L64 — managed hook config | ECC config'den effective profile/hook settings fallback. | Enterprise-enforced host policy ile aynı değil. |
 | ECC-L65 — dry-run | Guard decision preview/no block path. | Authorized actual write değil. |
-| ECC-L66 — oversized-input refusal | Runner truncation flag ile security hook'un block path'i. | Every malformed/unavailable check fail-closed değil. |
+| ECC-L66 — oversized-input refusal | Runner truncation flag, admitted/enabled security hook'a incomplete payload standing'i taşıyıp config-protection'ın block path'ini tetikleyebilir. | Her oversized event veya inactive profile block değildir; conversation E05 minimal-profile karşılığı guard admission'ının ayrı olduğunu gösterir. |
 | ECC-L67 — malformed-input no-objection | Parse failure→empty object path. | Host authorized demek değil. |
 | ECC-L68 — exit 2 block | Config-protection runner'ın host contract-level blocking signal'i. | Every hook uses nonzero blocking değil. |
 
@@ -146,7 +146,24 @@
 | ECC-L103 — governance event correlation identity | Pre/post captures'ın random event IDs ile ayrı records üretebilmesi ve inspected object'te tool_use_id gibi exact operation correlation key bulunmaması. | Same command events'in kesin duplicate incident olduğu anlamına gelmez; higher-level reconciler olabilir. |
 | ECC-L104 — governance data minimization | Event payload'ın matched secret/full command yerine category, restricted command name, fingerprint ve bounded path gibi dar representation taşıması. | Original tool input/output'un başka yerde yok edildiği, anonymity veya complete privacy guarantee değildir. |
 
-## 9. C3 non-collapse
+## 9. C6b E04/E05 raw-evidence refinements
+
+Aşağıdaki kayıtlar C3'ün önceki kaynak-aile aktarımını iptal etmez; C6b'de driver + ham sonuçların tam okunmasıyla source-local kullanım ayrımlarını tamamlar.
+
+| ID / ifade | ECC araştırmasındaki kullanım | Sınır |
+|---|---|---|
+| ECC-L105 — mixed-purpose config exclusion | `pyproject.toml` linter-related içerik taşısa da fixed config-protection basename set'inin dışında bırakılan multipurpose path örneği. | Bütün multipurpose files veya bütün pyproject writes güvenli/authorized demek değil. |
+| ECC-L106 — non-ENOENT stat refusal | Protected basename için lstat hatası ENOENT değilse source guard bunu absence saymak yerine blocking path'te tutar; E05 Node ENOTDIR karşılığı bunu sınar. | Her filesystem/permission/race hatasında fail-closed guarantee veya canlı host sonucu değil. |
+| ECC-L107 — hook-ID exclusion | `ECC_DISABLED_HOOKS` gibi selector ile belirli hook ID'sinin profile uygun olsa bile runner admission'dan çıkarılması. | User authorization, enterprise policy veya effect acceptance değil. |
+| ECC-L108 — hook-setting precedence | Explicit ECC environment selection'ın plugin/managed hook settings ve default'ların önüne geçebildiği effective configuration ordering. | Bu precedence'i seçen actor authenticated/authorized demek değil; host policy authority'si de değil. |
+| ECC-L109 — invalid-profile fallback | Tanınmayan profile value'nun effective selection'da default/standard davranışına düşebilmesi; conversation E05 C15'te guard block'a gider. | Her malformed configuration aynı fallback'i kullanır veya güvenli kabul edilir demek değil. |
+| ECC-L110 — runner-error no-objection | Parsed input truthy fakat target helper'ın beklemediği type (ör. non-string file_path) exception üretirse wrapper diagnostic yazıp zero/passthrough dönebilen path. | Valid host event bypass'ı veya effect authorization kanıtı değil; malformed-JSON L67'den ayrı failure mode. |
+| ECC-L111 — truncation/admission interaction | Oversized input handling target classification'dan önce olabilir; admitted standard security hook truncated standing'i block ederken minimal profile'da aynı guard invoke edilmeden zero/empty-output path oluşabilir. | “Oversized = always block” veya “minimal = authorized write” sonucu çıkarılmaz. |
+| ECC-L112 — content-insensitive protected-path refusal | Existing protected basename seçildikten sonra guard proposed content'in identical, weaker veya stronger olmasını semantic olarak ayırmadan refusal üretebilir. | Guard'ın kendisi configuration correctness veya policy intent oracle'ı değil. |
+| ECC-L113 — case-folded basename selection | Config-protection protected-name matching'i basename lower-casing üzerinden yapar; source test family case-variant handling'i içerir. | Bu Concepts turunda case-insensitive filesystem behavior çalıştırılmadı. |
+| ECC-L114 — dangling protected symlink presence | Protected basename'deki dangling symlink lstat ile present object olarak block path'ine girebilir. | Canonical target identity, alias protection veya symlink write semantics certificate'i değil. |
+
+## 10. C3 non-collapse
 
 - observation ≠ learning;
 - learning ≠ promotion;
