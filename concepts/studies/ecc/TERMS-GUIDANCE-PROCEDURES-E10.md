@@ -8,6 +8,17 @@ Source package:
 Fixed target: `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 E10 is one historical seven-case local campaign; recovery is not a rerun.
 
+## 0. Source locator and role map
+
+| Usage range | Exact research sources | Source role / evidence class |
+|---|---|---|
+| ECC-GH01–GH34 | [Note39](../../../research/studies/ecc/notes/39-GUIDANCE-ADAPTATION-AND-PROCEDURAL-HANDOFFS.md) §§1–7/9 → [U17-A ledger](../../../research/studies/ecc/evidence/U17-A-SOURCES.md) → [MR40](../../../research/studies/ecc/ROUND-U17-A.md) | Fixed-pin SOURCE OBSERVATION, TARGET INSTRUCTION, TEST SOURCE INSPECTED and conditional interpretation; procedure text is not observed obedience. |
+| ECC-GH35–GH41 | [E10 PRECHECK](../../../research/studies/ecc/evidence/u17-a-guidance-adapter-probe/PRECHECK.md) → [recovery README](../../../research/studies/ecc/evidence/u17-a-guidance-adapter-probe/README.md) plus Note39 §3 | One historical seven-case LOCAL EXECUTION with source-informed predeclared discriminators; not Gemini/model benchmark or independent replication. |
+| ECC-GH42–GH50 | [E10 recovery README](../../../research/studies/ecc/evidence/u17-a-guidance-adapter-probe/README.md) §Canonical recovery → [restore helper](../../../research/studies/ecc/evidence/u17-a-guidance-adapter-probe/restore_e10.py) → [recovery check](../../../research/studies/ecc/evidence/u17-a-guidance-adapter-probe/recovery-check.json), summarized in Note39 §8 | ARCHIVE RECOVERY / integrity correspondence only; no target rerun. |
+| ECC-GH51–GH55 | [MR40](../../../research/studies/ecc/ROUND-U17-A.md) → [original receipt](../../../research/studies/ecc/PUBLICATION-U17-A.md) → [alignment receipt](../../../research/studies/ecc/PUBLICATION-U17-A-ALIGNMENT.md) | Work/publication standing and recovery history; not product evidence. |
+
+The corrupt carrier, restored archive and target campaign are three different evidence objects; their identities are not pooled.
+
 ## 1. Guidance and host adaptation
 
 | ID / ifade | ECC araştırmasındaki kullanım | Sınır |
