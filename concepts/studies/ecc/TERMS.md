@@ -1,6 +1,6 @@
 # ECC — Bağlamlı kullanım kayıtları
 
-2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6a COMPLETE / C6 RAW-EVIDENCE + HISTORY/INVENTORY RECONCILED / C6 ve PACKAGE PARTIAL.**
+2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6 VERSION-QUALIFIED COMPLETE / ECC PACKAGE COMPLETE @ source tree 172a99a3d90e2db4c81cae16d79b79b3b83fab0a.**
 
 Bu dosya Concepts kullanım girişidir. [READING](READING.md) actual dosya/sürüm/okuma ve C6b kapanış hesabını, [global STATE](../../STATE.md) program yetkisini taşır. [C6-RECONCILIATION](C6-RECONCILIATION.md) ve [167 yapraklı manifest](C6-SOURCE-MANIFEST.tsv) C6a tarihsel snapshot'ıdır; E01–E03 okuma durumunun yeni karşılığı current READING'dedir. Kaynak ECC araştırması ayrıdır: bu turun 7ce22d4 snapshot'ında U18-F IN PROGRESS, son completed U18-E. Bu kaynak next'i Concepts yetkisine dönüştürülmez.
 
@@ -74,7 +74,7 @@ Bu router'ın U12 ve C6a dahil önceki tam metni [3acfa615 TERMS](https://github
 
 ## 5. Exact next ve açık kapsam
 
-**C6 raw/history/inventory reconciliation, published U01–U18-G coverage ve existing U18-H active-snapshot transfer tamamlandı.** Exact next linked TERMS/router audit + version-qualified fresh census/closure decision'dır. U18-H'nin future publication/I material'i önceden complete sayılmaz. İki E05 kimliği ayrı, E06 excluded kalır.
+**C6 complete for source tree 172a99a3d90e2db4c81cae16d79b79b3b83fab0a.** Linked TERMS/router audit and final source census are closed; future source-study material after this tree is later delta, not silently included. İki E05 kimliği ayrı, E06 excluded kalır.
 
 C6a'nın U5 driver listesi ve üç usable R carrier E01–E05 için scoped olarak kapandı. Değiştirilmemiş 41f6603 TSV'si C6a anını gösterir; bugünkü kapanış onun üzerine sürümlü eklemedir. Kalan root/master-history/inventory, U13 ve census sonrası source delta, linked TERMS + router semantik kontrolü ve final current census açık. Metadata'da yeni kaynakların özetlerini okumak gövde aktarımı değildir.
 
@@ -83,3 +83,11 @@ ECC paketi kapanmadan work-management-project-control'e geçilmez; B7 geçmeden 
 ## 6. İki risk
 
 Batu okuma anındaki anlam seçimlerini denetleyemediğinden dayanak/yorum/belirsizlik/değişim görünür kalmalıdır. Ortak sözcükler ortak anlamı garanti etmez; kaynak kullanımı, araştırmacı/extractor yorumu ve kullanıcı onayı teknik doğrulama bakımından ayrı tutulur. Bu tur plan, prediction ve criterion etiketlerinin fiilen neyi ölçtüğü somut ayrımlardır. Aynı-assistant karşılaştırma ve readback bağımsız doğrulama değildir.
+
+## 7. C6 closure route
+
+- [Final reconciliation](C6-FINAL-RECONCILIATION.md)
+- [Final source manifest](C6-FINAL-SOURCE-MANIFEST.tsv): 246 leaves, exact path/blob coverage basis
+- [TERMS audit](C6-TERMS-AUDIT.md): 26 linked files, 1,973 usage IDs, P01–P10, source-role/link and relation checks
+
+This router is package-complete only for the named source tree. Source-study ACTIVE/PARTIAL and future U18-H publication/U18-I files are not preclaimed.
