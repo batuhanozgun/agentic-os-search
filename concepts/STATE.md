@@ -1,6 +1,6 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-23 · **ECC current published source families U01–U18-G transferred; C6 raw/history/inventory reconciled. Exact next: linked-TERMS audit + fresh final source census. ECC paketi hâlâ PARTIAL until those checks close.**
+2026-09-23 · **ECC published U01–U18-G + existing U18-H active-snapshot material transferred; C6 raw/history/inventory reconciled. Exact next: final linked-TERMS audit + version-qualified source census/closure decision. ECC package PARTIAL until those checks close.**
 
 Bu dosya amaç, yetki ve current/next işi taşır. Ayrıntılı okuma/sürüm/kapsam hesabı [ECC READING](studies/ecc/READING.md), bağlamlı kullanımlar [TERMS](studies/ecc/TERMS.md) içindedir. Kaynak ECC araştırmasının current işi Concepts'in çalışma rotası değildir.
 
@@ -27,7 +27,7 @@ Giriş: AGENT ve gerekli protokoller → concepts/INDEX'in STATE/CHARTER/ORIGIN/
 | ECC C6 history/inventory | Bu tur FULL reconciliation complete; PC01–PC45 |
 | ECC C6 source delta | Baseline+delta reconciled; U13 dedicated transfer now complete; fresh final census remains |
 | ECC C6 bütünü | Root/history/inventory, yeni kaynak delta'sı, bütün kullanım kayıtları ve final census açık |
-| ECC source-study | Ayrı ACTIVE/PARTIAL; fresh STATE'te U18-G COMPLETE/PUBLISHED, U18-H/Q08d2 NOT STARTED |
+| ECC source-study | Ayrı ACTIVE/PARTIAL; fresh STATE'te U18-H/Q08d2 IN PROGRESS, last completed/published U18-G |
 | Post-S1 eklemeler | agentmemory, claude-swap, cli-continues, ponytail B7 öncesi kapsam hesabında |
 | B7/B8 | Başlamadı |
 
@@ -122,3 +122,11 @@ U13-A release qualification/artifact binding and U13-B scanner/advisory/consumer
 Current published source families through U18-G now have dedicated/historical transfer coverage. Source-study U18-H is NOT STARTED and is therefore not a current-corpus extraction omission.
 
 **Exact next:** all linked TERMS definitions/linkage/source-role audit, then fresh source leaf census and C6/package closure decision.
+
+## 15. C6 current-snapshot progress — U18-H existing material transferred
+
+Fresh source census showed U18-H had started concurrently. Current source STATE is **IN PROGRESS**, while Note47/MR48 already carry a bounded source answer; no U18-H publication receipt/final source STATE closure exists in the extraction snapshot. Existing Note47/ledger/MR48/current entry files were therefore extracted without upgrading their publication standing.
+
+New usage file: `TERMS-BROWSER-DASHBOARD.md`, BD01–BD52. No target execution. Future source publication/U18-I is a later delta.
+
+**Exact next:** complete router/ID/source-role audit including BD, then create final version-qualified source census and decide ECC Concepts package closure for that explicit snapshot.
