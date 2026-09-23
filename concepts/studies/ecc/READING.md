@@ -160,3 +160,13 @@ Material boundaries: provisional assembly ≠ CORE; mergeable ≠ accepted; prev
 No U15 target execution, merge/rebase/deletion, connector import, SQLite run, proximity run or test execution by Concepts. Conditional counterpaths remain source-derived.
 
 **Exact next:** U16-A1/A2 existing-source transfer — managed maintenance/update/repair/uninstall, shared configuration ownership and legacy recovery. Then U17 guidance/E10 and U18 optional-interface/remaining G5 families.
+
+## 12. C6 post-U12 transfer — U16-A1/A2
+
+Source snapshot **697883a568e78989b97a2f2fe87d71298fe4d36f**. U16-A1 common managed maintenance/public-command ve U16-A2 shared settings/JSON-MCP/legacy recovery note+ledger+round+receipt source packages okundu. Tests their research standing'de inspected/not run.
+
+New [TERMS-MAINTENANCE-RECOVERY.md](TERMS-MAINTENANCE-RECOVERY.md), **ECC-ML01–ML63**. Doctor/current-source/update; desired-plan/historical ownership; repair bridge/file effect; root/local preview; retained hook/dependency; filtered write/recorded payload; subset subtraction/before-image restore; pre-ECC baseline/per-attempt rollback; partial uninstall/progress-state ayrımları taşınır.
+
+U16-A1/A2 together answer G3 at bounded source scope; installed identity/authority/concurrency/crash/useful-outcome residuals source-study'de kalır. Concepts hiçbir maintenance command çalıştırmadı veya user files'a dokunmadı.
+
+**Exact next:** U17-A guidance/host/generated-source and E10 recovery package, then U18 existing optional-interface families.
