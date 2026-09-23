@@ -26,7 +26,7 @@ Giriş: AGENT ve gerekli protokoller → concepts/INDEX'in STATE/CHARTER/ORIGIN/
 | ECC C6b E04/E05 | Bu tur iki driver + üç compressed carrier read-only recovered/FULL; L refinements ve PE evidence uses yayımlandı |
 | ECC C6 history/inventory | Bu tur FULL reconciliation complete; PC01–PC45 |
 | ECC C6 source delta | COMPLETE at tree e33ea299…; final manifest247 leaves, zero unmapped; U18-H publication delta applied |
-| ECC C6 bütünü | VERSION-QUALIFIED COMPLETE; final reconciliation + TERMS audit + 246-leaf manifest published |
+| ECC C6 bütünü | VERSION-QUALIFIED COMPLETE; final reconciliation + TERMS audit + 247-leaf manifest published |
 | ECC source-study | Ayrı ACTIVE/PARTIAL; final freeze STATE'te U18-H COMPLETE/PUBLISHED, next U18-I NOT STARTED; future source delta Concepts closure'a dahil değil |
 | Post-S1 eklemeler | agentmemory, claude-swap, cli-continues, ponytail B7 öncesi kapsam hesabında |
 | B7/B8 | Başlamadı |
