@@ -1,6 +1,6 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-23 · **ECC Concepts PACKAGE COMPLETE at source tree 172a99a3d90e2db4c81cae16d79b79b3b83fab0a. B6 exact next: work-management-project-control. Source ECC research remains separately ACTIVE/PARTIAL; B7/B8 NOT STARTED.**
+2026-09-23 · **ECC Concepts PACKAGE COMPLETE at source tree e33ea2998ecd3c0e05a3f2c3dcf095b697b81544. B6 exact next: work-management-project-control. Source ECC research remains separately ACTIVE/PARTIAL; B7/B8 NOT STARTED.**
 
 Bu dosya amaç, yetki ve current/next işi taşır. Ayrıntılı okuma/sürüm/kapsam hesabı [ECC READING](studies/ecc/READING.md), bağlamlı kullanımlar [TERMS](studies/ecc/TERMS.md) içindedir. Kaynak ECC araştırmasının current işi Concepts'in çalışma rotası değildir.
 
@@ -25,9 +25,9 @@ Giriş: AGENT ve gerekli protokoller → concepts/INDEX'in STATE/CHARTER/ORIGIN/
 | ECC C6b E01–E03 | Üç betik + dokuz plan/sonuç/README FULL okundu; S/W ile karşılaştırıldı |
 | ECC C6b E04/E05 | Bu tur iki driver + üç compressed carrier read-only recovered/FULL; L refinements ve PE evidence uses yayımlandı |
 | ECC C6 history/inventory | Bu tur FULL reconciliation complete; PC01–PC45 |
-| ECC C6 source delta | COMPLETE at tree 172a99a…; final manifest246 leaves, zero unmapped, post-freeze drift zero |
+| ECC C6 source delta | COMPLETE at tree e33ea299…; final manifest247 leaves, zero unmapped; U18-H publication delta applied |
 | ECC C6 bütünü | VERSION-QUALIFIED COMPLETE; final reconciliation + TERMS audit + 246-leaf manifest published |
-| ECC source-study | Ayrı ACTIVE/PARTIAL; freeze STATE'te U18-H IN PROGRESS, last completed/published U18-G; future source delta Concepts closure'a dahil değil |
+| ECC source-study | Ayrı ACTIVE/PARTIAL; final freeze STATE'te U18-H COMPLETE/PUBLISHED, next U18-I NOT STARTED; future source delta Concepts closure'a dahil değil |
 | Post-S1 eklemeler | agentmemory, claude-swap, cli-continues, ponytail B7 öncesi kapsam hesabında |
 | B7/B8 | Başlamadı |
 
@@ -133,8 +133,8 @@ New usage file: `TERMS-BROWSER-DASHBOARD.md`, BD01–BD52. No target execution. 
 
 ## 16. ECC package closure and exact next
 
-ECC C6 is closed for exact source tree **172a99a3d90e2db4c81cae16d79b79b3b83fab0a**. [Final reconciliation](studies/ecc/C6-FINAL-RECONCILIATION.md), [final manifest](studies/ecc/C6-FINAL-SOURCE-MANIFEST.tsv) and [TERMS audit](studies/ecc/C6-TERMS-AUDIT.md) are the closure records.
+ECC C6 is closed for exact source tree **e33ea2998ecd3c0e05a3f2c3dcf095b697b81544**. [Final reconciliation](studies/ecc/C6-FINAL-RECONCILIATION.md), [final manifest](studies/ecc/C6-FINAL-SOURCE-MANIFEST.tsv) and [TERMS audit](studies/ecc/C6-TERMS-AUDIT.md) are the closure records.
 
-This does not close the ECC research package itself: its frozen STATE is ACTIVE/PARTIAL and U18-H publication remains unfinished. Concepts accounted for all 246 files existing in the freeze; later source files are future delta.
+This does not close the ECC research package itself: its final frozen STATE is ACTIVE/PARTIAL, U18-H is COMPLETE/PUBLISHED and U18-I is NOT STARTED. Concepts accounted for all 247 files existing in the freeze; later source files are future delta.
 
 **B6 exact next source package: work-management-project-control.** Recover its META/STATE/INDEX and full local file inventory before extraction. Do not start B7 or B8.
