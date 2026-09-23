@@ -138,3 +138,13 @@ Yeni [TERMS-PACKAGE-COVERAGE.md](TERMS-PACKAGE-COVERAGE.md) **PC01–PC45** curr
 C6a'nın 41f6603 snapshot'ından fresh main'e **research/studies/ecc/** leaf delta çıkarılır. U13 ve sonradan published/created source materyali, kendi current source standing'i ve exact evidence role'üyle Concepts'e aktarılır. Kaynak study'nin aktif next technical inquiry'si yürütülmez.
 
 Delta transferinden sonra bütün linked TERMS/router source locator/role/ID/relation ve maddi refinement etkisi; ardından fresh final census gerekir.
+
+## 10. C6 post-U12 transfer — U14-A/B/C
+
+Snapshot source: **697883a568e78989b97a2f2fe87d71298fe4d36f**. U14-A/B/C note, source ledger, round and publication receipt sets were read in full at their recorded blobs. U14-B source ledger was re-fetched in bounded chunks through EOF to avoid relying on a truncated combined view. Concepts did not execute any U14 target/test, live GitHub/host/model, Rust build/import or billing query.
+
+New [TERMS-OBSERVABILITY-RESOURCES.md](TERMS-OBSERVABILITY-RESOURCES.md), **ECC-OR01–OR82**, transfers readiness/projection, tool-activity import/risk/visibility and cost/context/resource-control uses. Key non-collapse: readiness label/process exit/CI consumer; platform error/skip/zero; dashboardReady/objective-ready/publicationReady; native event/local row; current-file aggregate/history; attempted/successful import; risk suggestion/conflict stop; cumulative snapshot/delta; JS last-row/Rust SUM; context sample/shared activity age; atomic replacement/logical update; advisory warning/hard stop/accepted outcome.
+
+No pre-U14 TERMS meaning was silently overwritten. U14 terms are source-local records, not universal observability taxonomy. Q08a2/b2/c2 remain stronger source-study residuals, not Concepts experiment debt.
+
+**Exact next:** U15-A provisional native-system assembly and U15-B/U15-C integration/information source families from the existing published research. Then U16 maintenance, U17 guidance/E10, U18 optional-interface families and remaining delta.
