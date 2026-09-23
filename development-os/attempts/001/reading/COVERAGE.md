@@ -1,43 +1,60 @@
 # DEVOS-001 — kaynak kapsamı ve okuma girişleri
 
 **Kaynak tabanı:** `batuhanozgun/agentic-os-search@dc76496e2ea87a08b60f88ea8ec2731c6a4b5cbb`.
-**Rol:** bütün kapsamı görünür tutan okuma haritası; içerik özeti veya tam-okuma kanıtı değil. İş otoritesi [WORK](../WORK.md), kayıt yöntemi [METHOD](../METHOD.md).
+**Rol:** kapsam ve soru→kayıt yönlendirmesi; içerik özeti veya tek başına tam-okuma kanıtı değil. İş otoritesi [WORK](../WORK.md), yöntem [METHOD](../METHOD.md).
 
-## Kapsam hesabı
+## Gerçek ilerleme
 
-Bu başlangıçta kök, research, Foundation ve studies doğrudan Git ağaçları alındı. Kök bütün alanları kapsıyor. Aşağıdaki alt-ağaç kayıtları henüz tüm yaprak dosyaların açıldığı veya okunduğu anlamına gelmez. Claude'a bütün path/blob manifestini üretme görevi R-004 ile verildi; alındısı yok. Bu manifest gelene veya eşdeğer ağaç dolaşımı bitene kadar tam dosya sayısı/okuma yüzdesi ilan edilmez.
+İlk Research kümesi: [F08-FOUNDATION-FRAME](F08-FOUNDATION-FRAME.md). Foundation kök STATE/INDEX ve 08 paketinin 13/13 dosyası doğrudan tam okundu; kaynak-bağlı 20 katkı kaydı ve bütünsel model çıkarıldı. Bu yalnız tanımlı kümenin kapsamıdır; bütün Foundation veya bütün repo tamamlanmadı. Karşı aktör okuması bekleniyor.
 
-Dosya durumları ayrı: ENVANTERDE, TAM_OKUNDU, KISMİ (aralık), KAYITLANDI, KARŞI_OKUNDU, ENGEL, EŞDEĞER_KOPYA (özgün bağlantısıyla), KONTROL. Tarihsel olmak okumama gerekçesi değil; tarihsel karar etkin yetki değildir.
+Kök, research, Foundation ve studies doğrudan Git ağaçları alındı. Aşağıdaki alt-ağaç kayıtları tüm yaprak dosyaların açıldığı anlamına gelmez. Claude'a bütün path/blob manifestini üretme görevi R-004 ile verildi; alındısı yok. Manifest veya eşdeğer ağaç dolaşımı tamamlanana kadar bütün-repo dosya sayısı/okuma yüzdesi ilan edilmez.
+
+Durumlar: ENVANTERDE; TAM_OKUNDU; KISMİ (aralık); KAYITLANDI; KARŞI_OKUNDU; ENGEL; EŞDEĞER_KOPYA (özgün bağlantısıyla); KONTROL. Tarihsel olmak okumama gerekçesi değildir; tarihsel karar etkin yetki de değildir.
 
 ## Kökün tamamı
 
 | Kaynak | Git nesnesi | Birincil sorumlu / durum |
 |---|---|---|
-| README.md | blob 3f9a9e4ef7418968ab15ce80bb2190016f6cba27 | Research; yönlendirme okundu |
+| README.md | blob 3f9a9e4ef7418968ab15ce80bb2190016f6cba27 | Research; kaynak tabanındaki yönlendirme okundu |
 | AGENT.md | blob aea3dd845e0f0bbcfb34465edb23782e99f95c80 | Kontrol; araştırma sonucu değil |
 | agent/ | tree bd184e1b2a9598dbdd65aca8adb9767b81dea965 | Kontrol; araştırma sonucu değil |
 | research/ | tree 5edfd1746d2e2c5a53590909550bf713e4754ced | Aşağıda açılır; gövdeler tamamlanmadı |
 | concepts/ | tree b9579b6dc8282ee7d9f88f3c726f59e607fbf1a4 | Claude; okuma/çıkarım açık |
 | explorations/ | tree 039979d678adca886e24034b81848f18ed13d6d3 | Research; yeni bütünsel çıkarım açık |
 | publications/ | tree 643adf03268a1dba84296ae46a17dd6450246cf0 | Research; açık |
-| development-os/ | tree 523e23c368913cd8847a1565dba986a94f346219 | Research; bu başlangıca kadarki drift/çalışma kaydı. Yeni çıktılar öz-okuma kuyruğu değil |
+| development-os/ | tree 523e23c368913cd8847a1565dba986a94f346219 | Research; başlangıca kadarki drift/çalışma kaydı. Yeni çıktılar öz-okuma kuyruğu değil |
 
 ## Research kapsamı
 
 | Kaynak | Git nesnesi | Durum |
 |---|---|---|
-| research/INDEX.md | blob 167d8df1f3d29544065388ff915a6c24518772e6 | Genel yönlendirme; yeni geçişte açık |
+| research/INDEX.md | blob 167d8df1f3d29544065388ff915a6c24518772e6 | Yeni geçişte açık |
 | research/soul-context/ | tree 70aee5302300c2ca2c3fe003b3ecaf9909b23c46 | Research; tarihsel denemeler ve amaç bağlamı, açık |
-| research/soul-foundations/ | tree 0f9513f91bba76f1e52c955ddcb6270908c11939 | Research; ilk okuma ailesi |
+| research/soul-foundations/ | tree 0f9513f91bba76f1e52c955ddcb6270908c11939 | Research; F08 ilk kümesi kayıtlandı, kalanlar açık |
 | research/studies/ | tree 7710f53876711e168e463843aa039296b64404f7 | Claude birincil; Research karşı okuma/kayıt tüketimi |
 
-Foundation'ın bütün doğrudan üyeleri: `00_context/`, `01_verticals/`, `02_adequacy/`, `03_ground-deepening/`, `04_top-level-adequacy-rerun/`, `05_relation-control-composition/`, `06_integration-frontier-review/`, `07_selection-dynamics-integration-review/`, `08_foundation-sufficiency-reuse-review/`, `history/`; `INDEX.md`, `README.md`, `REPAIR-AUDIT.md`, `REPAIR-PUBLICATION.md`, `RESEARCH-USE-ALIGNMENT.md`, `STATE.md`. Hiçbiri sadece adı görüldü diye tamamlanmış sayılmaz.
+Foundation'ın bütün doğrudan üyeleri ve durumları:
 
-Başlangıç sırası: Foundation current STATE/INDEX → 08 genel sonuç/yeniden kullanım ve kapsam → 00_context → 01_verticals ve 02_adequacy → 03_ground-deepening → 04–07/composition → history/repair/alignment uzlaştırması. 08'i önce okumak alt kaynakların yerine geçmez. Alt ağaçlar kendi dosya manifestleriyle açılır; bölünürse kalanlar açık tutulur.
+| Küme | Durum |
+|---|---|
+| Kök STATE.md, INDEX.md | F08 kaynak defterinde tam okundu |
+| 08_foundation-sufficiency-reuse-review/ | 13/13 dosya tam okundu ve F08'e çıkarıldı; karşı okuma bekliyor |
+| README.md, RESEARCH-USE-ALIGNMENT.md | Sıradaki girişler |
+| 00_context/ | Sıradaki tam paket; alt dosya envanteri ve okuma açık |
+| 01_verticals/ | Bütün dikeyler açık |
+| 02_adequacy/ | Açık |
+| 03_ground-deepening/ | Bütün zemin/alt araştırmalar açık |
+| 04_top-level-adequacy-rerun/ | Açık |
+| 05_relation-control-composition/ | Bütün bileşim/alt araştırmalar açık |
+| 06_integration-frontier-review/ | Açık |
+| 07_selection-dynamics-integration-review/ | Açık |
+| history/, REPAIR-AUDIT.md, REPAIR-PUBLICATION.md | Tarihçe/onarım kapsamı açık |
+
+Sonraki sıra: kalan Foundation kök amaç/uyum girişleri → 00_context → 01_verticals/02 → 03 → 04–07/composition → history/repair uzlaştırması. 08'in üst sonucu alt kaynakların yerine geçmez. Büyük kümeler dosya manifestleriyle alt birimlere ayrılır; hiçbir kalan dosya görünmez olmaz.
 
 ## Studies'in bütün doğrudan paketleri
 
-Her satırın başlangıç durumu **OKUMA/ÇIKARIM AÇIK**. Bunlar yalnız mevcut ağaç üyeleridir; bekleyen paket ile tamamlanmış araştırma ayrımı paket içinden öğrenilir. İlk öncelikli örnek gstack; liste yalnız ona/Hermes/ECC'ye indirgenmez.
+Başlangıç durumları **OKUMA/ÇIKARIM AÇIK**. Mevcut ağaç üyeleridir; bekleyen paket ile tamamlanmış araştırma ayrımı paket içinden öğrenilir. İlk örnek gstack; liste yalnız gstack/Hermes/ECC değildir.
 
 | Paket | Paket | Paket |
 |---|---|---|
@@ -54,14 +71,22 @@ Her satırın başlangıç durumu **OKUMA/ÇIKARIM AÇIK**. Bunlar yalnız mevcu
 | recursive-prerequisite-discovery | spec-kit | superpowers |
 | the-carbon-layer | work-management-project-control | — |
 
-Studies kök dosyaları `CATALOG.md`, `INDEX.md`, `PACKAGE-CONTRACT.md` da kapsamdadır. RPD ve iş yönetimi kayıtları ortak planlama bağlamına ayrıca okunur. Claude'un eski 2.204/~%81 beyanı bu yeni çıkarımın tamamlanma sayısı değildir.
+Kök CATALOG.md, INDEX.md ve PACKAGE-CONTRACT.md kapsamda. RPD ve iş yönetimi ortak planlama bağlamına ayrıca okunur. Claude'un eski 2.204/~%81 beyanı bu yeni çıkarımın tamamlanma sayısı değildir.
 
-## Kayıt ve soru→kaynak rotaları
+## Soru→katkı kaydı rotaları
 
-Henüz bu yeniden yönlendirmeye ait substantive katkı kaydı yayımlanmadı. İlk Research kaydı Foundation genel çerçevesi/08 kümesinden üretilecek. Sonra bu bölüm kayıt kimliği, kapsanan exact dosyalar, dört zemin/ilişki bakımından katkı, karşı okuma ve kalan kapsamla güncellenir. Her kaydın ayrıntılı source/read defteri kendi gövdesindedir.
+| Toplu değerlendirmede geri aranacak ihtiyaç | İlk kayıt / derinleşme sınırı |
+|---|---|
+| İşi üreten sistem, planlama, atama ve koordinasyon | F08-01/02/03; 00_context/Work/Actors özgün ayrıntıları açık |
+| Gerçek ortam ve bileşik iş hazırlığı | F08-04/06/07; Environment/RPD ayrıntıları açık |
+| Bilgi, anlam, yeterlik, erişim ve kanıt | F08-05/08/09; Information alt araştırmaları açık |
+| Amaç, yetki ve birden fazla katılımcı | F08-03/10/16; Actors/composition ayrıntıları açık |
+| Oturum devamı, gerekçe, geri bildirim ve öğrenme | F08-11/12/20; Records/Revision/Feedback ayrıntıları açık |
+| Açık uçlu iş, alternatif giriş/temsil biçimleri | F08-13/14/15; Work ve studies uygulamaları açık |
+| Araştırmadan gerekçeli yapı kararına geçiş | F08-17/18/19; bütün P1/P2 işi tamamlanmadı |
 
-Claude kayıtları beklenen adres: hedef `coordination/devos-001/reading/`; yayın/alım teyitsiz. Diğer aktör kaydına bağlantı verilmesi onun kaynağının bu aktör tarafından tam okunduğu anlamına gelmez.
+Bu kimliklerin hepsi [F08](F08-FOUNDATION-FRAME.md)'dedir; yalnız üst-küme kaynak çıkarımıdır. Claude kayıtları beklenen adres: hedef `coordination/devos-001/reading/`; alım teyitsiz. Başkasının kaydını okumak onun kaynaklarını tam okuma sayılmaz.
 
 ## Kapsam kapanışı
 
-Bütün başlangıç dosyaları manifestle uzlaştırılmadan; tam okumalar/kayıtlar tamamlanmadan ve maddi atlamalar değerlendirilmeden P2/P3 başlamaz. Kaynak main ilerlerse yeni/farklı blob'lar delta kuyruğuna girer; sabit snapshot ile güncel owner yetkisi ayrı tutulur. Bu alanın yeni çıktıları tamlık paydasını kendi kendine büyütmez.
+Bütün başlangıç dosyaları manifestle uzlaştırılmadan; tam okumalar/kayıtlar tamamlanmadan ve maddi atlamalar değerlendirilmeden P2/P3 başlamaz. Kaynak main ilerlerse yeni/farklı blob'lar ayrı delta kuyruğuna girer; sabit kaynak snapshot'ı ile güncel owner yetkisi ayrı tutulur. Denemenin yeni çıktı dosyaları paydasını kendi kendine büyütmez.

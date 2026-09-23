@@ -1,48 +1,54 @@
 # DEVOS-001 — yönetilen iş ve devam kaydı
 
-**Durum:** YENİDEN YÖNLENDİRİLDİ / bütün-korpus okuma ve çıkarım hazırlığı aktif.
-**Güncel amaç:** Development OS'u kuracak çalışma düzenini, Research korpusunun tamamından çıkarılan fikir ve örneklerin birlikte değerlendirilmesiyle belirlemek.
-**Yetki:** kullanıcının son açık yönü [BRIEF](BRIEF.md). **Yöntem:** [METHOD](METHOD.md). **Kapsam ve kayıt rotaları:** [COVERAGE](reading/COVERAGE.md). **Kanal:** [EXCHANGE](EXCHANGE.md).
+**Durum:** YENİDEN YÖNLENDİRİLDİ / bütün-korpus okuma ve çıkarım AKTİF; ilk Research kaynak kümesi kayda geçirildi.
+**Amaç:** Development OS'u kuracak çalışma düzenini, bütün Research korpusundan çıkarılan fikir ve örnekler birlikte değerlendirildikten sonra belirlemek.
+[BRIEF](BRIEF.md) → [METHOD](METHOD.md) → [COVERAGE](reading/COVERAGE.md). Kanal [EXCHANGE](EXCHANGE.md); yön hatasının kaydı [REVIEW](REVIEW.md).
 
-## Yön değişikliği — 23 Eylül 2026
+## Güncel yön ve eski işin durumu
 
-Kullanıcı, ilk hedeften kopulduğunu belirtti ve önce bütün repo incelemesi, her tur kaynak-bağlı kayıt, bütün kayıtlar tamamlandıktan sonra çalışma yapısına karar verilmesini istedi. Bu kayıt, önceki W03b/C-003 revizyonu→M1–M3 sırasını güncel iş olmaktan çıkarır. Deneme numarası 001 kalır; yeni repo veya Deneme-002 açılmaz.
+23 Eylül 2026 son kullanıcı mesajı, önce bütün repo incelemesi, her tur kaynak-bağlı kayıt, bütün kayıtlar tamamlandıktan sonra yapı kararı istedi. Önceki W03b/C-003 revizyonu→M1–M3 sırası **GEÇERSİZ KILINDI**. Deneme 001 devam eder; yeni repo veya Deneme-002 açılmaz.
 
-Research'ün hatası: tekil denetim sorunları ve test tasarımı, bütün çalışma yapısını hazırlama işinin önüne geçirildi. Bunu yalnız iletişim eksikliği diye adlandırmıyoruz. Önceki bulgular korunur; onların varlığı yön sapmasını haklı çıkarmaz.
+E19, D01'in devam denetimi, M1–M3 ve test deposu **ERTELENDİ / aktif ana iş değil**. Kaynak ve önceki bulgular silinmedi, başarıya veya genel yanlış hükmüne dönüştürülmedi. Bu adaylar ancak bütün kayıtların daha sonraki değerlendirmesinde yeniden seçilebilir. Research'ün yön sapması yalnız iletişim eksikliği değil; yerel denetimi bütün hazırlığın önüne koymasıydı.
 
-E19, D01, M1–M3, yeni test deposu ve R-003'teki dar revizyonlar **ERTELENDİ / aktif ana iş değil**. Başarılı veya yanlış ilan edilmedi. İleride bütün kayıtlar değerlendirildiğinde gerçekten gereken adaylar olarak yeniden ele alınabilirler; okuma aşamasının kapısı değiller.
+## Aşamalar ve ilerleme
 
-## Aşamalar, sorumlular ve geçiş koşulları
-
-| Kimlik | İş | Sorumlu | Güncel durum / kapanış koşulu |
+| Kimlik | İş | Sorumlu | Durum / geçiş |
 |---|---|---|---|
-| P0 | Bütün kaynak kapsamı, yöntem, kaynak kimliği ve iş bölümü | Research; dosya manifesti Claude katkısı | BAŞLADI. Kök/research/Foundation/studies doğrudan ağaçları görüldü; bütün leaf-file manifesti henüz yok |
-| P1 | Korpusun tam okuması ve her tur katkı kayıtları | Research + Claude, METHOD'teki birincil dağılımla | AKTİF. Okunmayan her paket açık; ilk Research kümesi Foundation genel girişleri ve 08 paketi |
-| P2 | Bütün kayıtların iki aktörce tam okunması ve ortak karşılaştırma | Research + Claude | BAŞLAMADI. P1'in bütün kapsamı ve maddi boşlukları kapanmadan başlamaz |
-| P3 | Çalışma yapısı seçenekleri, gerekçeli seçim ve bütünsel işleyiş | Research + Claude; owner tercihleri Batu | BAŞLAMADI. P2'ye dayanır; mevcut Claude yapısı veya M1–M3 varsayılan sonuç değil |
-| P4 | Seçilen düzenin kurulumu ve gerçek işte değerlendirme | Sonradan belirlenecek uygulama sorumluları | BAŞLAMADI. Seçilmiş yapı, gerçek ortam ve uygulama yetkisi gerekir |
+| P0 | Bütün kaynak kapsamı, yöntem, kimlik ve iş bölümü | Research; Claude manifest katkısı | Yöntem/üst kapsam yayımlandı. Bütün leaf-file manifesti AÇIK; metadata tam okuma değil |
+| P1 | Korpusun tam okuması ve her tur katkı kayıtları | Research + Claude | AKTİF. İlk Research kümesi F08 kayıtlandı; kalan bütün kapsam COVERAGE'de |
+| P2 | Bütün kayıtların iki aktörce tam okunması ve ortak değerlendirme | Research + Claude | BAŞLAMADI; P1'in bütün kapsamı ve maddi boşlukları kapanmalı |
+| P3 | Çalışma yapısı seçenekleri ve gerekçeli bütünsel seçim | Research + Claude; gerçek owner tercihleri Batu | BAŞLAMADI; kayıtların tamamına dayalı olmalı |
+| P4 | Seçilen düzenin kurulumu ve gerçek işte değerlendirme | Sonraki uygulama planı | BAŞLAMADI; seçilmiş yapı, ortam ve uygulama yetkisi gerekir |
 
-Bu plan, son kullanıcı talebinin sırasıdır; sıfırdan Development OS mimarisi seçimi değildir. Her tur yeni plan üretmek yerine P1 kuyruğu ilerler. Alt kaynakta hata bulunması otomatik yeni debug işi açmaz; kayıt ve üst amaca katkı korunur.
+Mevcut Claude yapısı ve M1–M3 varsayılan mimari değildir. Dört zemin/ilişki bütün bakışıdır, zorunlu dört bileşen değil. Her tur yeni plan veya test açmak yerine P1 kaynak kuyruğu ilerler.
 
-## Bu turun kaynak ve yayın durumu
+## Bu turun gerçek çıktısı
 
-Başlangıç Research main `dc76496e2ea87a08b60f88ea8ec2731c6a4b5cbb`, tree `b17da2eb4cdb3a4e8ff26ade2621825047ae9632`. Kaynak okuma tabanı bu commit'tir; bu denemenin yeni kayıtları source corpus'a geri beslenmez.
-Son kontrol edilen hedef main `21ff74268f22c23553fa5b1cc9a55c68904f1f0b`, önceki C-002 değerlendirmesiyle aynı. Bu tur C-003 üzerinde yeni denetim başlatılmadı.
+1. Son kullanıcı yönü BRIEF'e tam geçirildi; root README ve development-os INDEX yeni sıraya yönlendirildi.
+2. METHOD, kapsam/iş bölümü/tam okuma/kayıt/bağlam devri/toplu karar sırasını kurdu. COVERAGE kökün tamamını, Foundation'ın bütün doğrudan kümelerini ve studies'in bütün paketlerini gösteriyor; bütün yaprak dosyalar henüz envanterlenmedi.
+3. [R-004](messages/research/R-004.md), eski dar iş yerine bütün-korpus okuma görevini Claude'a yayımlanmış mesaj olarak taşıyor. Alım henüz teyitsiz.
+4. [F08-FOUNDATION-FRAME](reading/F08-FOUNDATION-FRAME.md): Foundation kök STATE/INDEX + 08 paketinin 13/13 dosyası tam okundu. Kaynak modelini, üretim perspektifini, dört zemin/ilişkiyi, altı bütünsel örneği, alternatif çerçeveleri ve sınırları taşıyan 20 katkı kaydı çıkarıldı. Bunlar yapı seçimi veya bütün Foundation tamamlanması değil. Karşı aktör okuması bekliyor.
 
-Yöntem/kapsam/yön düzeltmesi ve [R-004](messages/research/R-004.md) hazırlanıyor. Yayın/alım henüz tamamlandı sayılmaz; actual kontrollerden sonra bu paragraf güncellenecek. İlk kaynak çıkarımı bu açılış yayınından sonra kaydedilecek; henüz bütün repo veya Foundation okunmuş sayılmaz.
+## Sonraki sorumluluklar
 
-## Sonraki gerçek işler
+**Research:** Foundation kalan kök README/RESEARCH-USE-ALIGNMENT'ı ve 00_context ağacını aç → 00_context tam okuma ve kaynak-bağlı kayıt → 01_verticals. F08 kaynak kümesini sırf ek eleştiri üretilebiliyor diye yeniden araştırma. Gelen Claude okuma kayıtlarını al/karşı oku; kendi P1 okumalarını onun cevabına bağlayıp bekleme.
 
-**Research:** Foundation STATE/INDEX ve 08 paketinin dosya envanteri üzerinden ilk tam kaynak kümesini oku, `reading/` altında kaynak-bağlı kayıt çıkar; kapsamı ve sıradaki dosyayı güncelle. Yalnız Claude'dan yanıt bekleme.
-**Claude:** R-004 alındısından sonra kendi PLAN/STATE yönünü uzlaştır; bütün kaynak dosya manifestini çıkar; studies girişleri ve gstack'ten başlayarak bütün paketleri METHOD uyarınca oku/kaydet. Kendi kalıcı kayıtları `coordination/devos-001/reading/`; C mesajı kayıtlara bağlantı ve gerçek kapsam taşır. Atama alım veya tamamlanma değildir.
-**Batu:** teknik yöntem seçimi, dosya adı bulma veya mesaj içeriği taşıma işi yok. Repo kanalı oturumları kendiliğinden uyandırmadığı için gerektiğinde yalnız 'R-004'ü oku' tetiklemesi gerekebilir.
+**Claude:** R-004'ü devral → PLAN/STATE'te yönü uzlaştır → kaynak snapshot'ının bütün path/blob manifesti → studies kök girişleri ve gstack'ten başlayarak bütün paketlerin okuma/çıkarımı → concepts ve gerçek ortam kaynakları. İlk kalıcı çıktı ve alındı, sıradaki boş C kimliğiyle R-004'e yanıt verir; yalnız 'anladım' değil kaynak/kayıt ve biten/kalan kapsam. Beklenen özgün kayıt adresi `coordination/devos-001/reading/`. R-003 için hazırlanmış bir yanıt varsa tarihsel saklanır, eski sıra yeniden açılmaz.
 
-Sonraki oturum BRIEF/WORK/METHOD/COVERAGE'den başlar; eski 'C-003 bekleniyor, ardından ilk dilim kurulur' zincirini devam ettirmez. Her okuma dilimi remote'da yayımlanıp geri okunur; yeni bulgu yığıp güncel bağlamı yalnız sohbette bırakma.
+**Batu:** teknik yöntem, kaynak yolu veya karşılıklı mesaj içeriği taşımakla yükümlü değil. Repo kanalı oturumları kendiliğinden uyandırmaz; gerektiğinde yalnız oturum tetiklemesi gerekir. Otomatik izleme/ajan döngüsü kurulmadı.
 
-## Tarihsel işler ve mesajlar
+## Kaynak ve alım kimlikleri
 
-W00/W01 kanal açılışı ve R-001/C-001 aktarımı, W02 sınırlı inceleme ve D01 gerçekleşti. W03a ilk dar dilim seçimi ve W03b revizyonu eski yöndür; P0–P3 tarafından sıra bakımından geçersiz kılındı. W04 kurulumu başlamadı; W05 kapanışı yapılmadı.
+Kaynak tabanı Research `dc76496e2ea87a08b60f88ea8ec2731c6a4b5cbb`; base tree `b17da2eb4cdb3a4e8ff26ade2621825047ae9632`. Denemenin yeni kayıtları bu kaynak paydasına geri girmez.
 
-Özgün R-001, R-002, R-003 ve C-001/C-002 bağlantıları ile yayın makbuzları [önceki WORK](https://github.com/batuhanozgun/agentic-os-search/blob/dc76496e2ea87a08b60f88ea8ec2731c6a4b5cbb/development-os/attempts/001/WORK.md)'te korunur. Aynı yanıt ilişkileri yeni yöne onay diye taşınmaz.
+Hedefte son kontrol edilen main `21ff74268f22c23553fa5b1cc9a55c68904f1f0b`; eski C-002 checkpoint'iyle aynı. Bu tur C-003 veya hedef testleri üzerine inceleme yapılmadı; hedefe yazılmadı.
 
-R-004 yeni kullanıcı yönünü taşır. Claude'un R-004'ü okuması henüz teyitsizdir; henüz oluşmamış C yanıtı üretilmez. R-003'e sonradan gelen cevap varsa kaybolmaz, fakat eski kapsamı otomatik yeniden açmaz.
+R-004 yayını `875def74b2728aed971cfcea069cecc298f6600b`; blob `8ad723104b8b9fb7ea380dc0479828fe0f2e7247`. R-004 main'den tam geri okundu. **Claude'un alımı TEYİTSİZ.** Görev ataması tamamlanma değildir.
+
+## Tarihçe ve yayın sınırı
+
+Önceki W00/W01 kanal açılışı, W02/D01, R-001–R-003, C-001/C-002 ve makbuzlar [dc76496 WORK](https://github.com/batuhanozgun/agentic-os-search/blob/dc76496e2ea87a08b60f88ea8ec2731c6a4b5cbb/development-os/attempts/001/WORK.md)'te exact ilişkileriyle korunur. W03a/W03b'nin eski yönü P0–P3 tarafından yerini almış durumdadır; W04 kurulumu yapılmadı.
+
+Yeni yön açılışı: `875def74b2728aed971cfcea069cecc298f6600b`, tree `8f6cb2d19cea67a6237ed5d2b3a366c781ca6ba5`. Compare yalnız sekiz dosya gösterdi (root README ve yedi development-os yüzeyi); nonforce main yayını başarılı, ayrı ref geri okuması aynı commit'i verdi. Kontrol alanı ve özgün araştırmalar değişmedi. Yeni branch/PR açılmadı.
+
+Bu takip dilimi F08 çıkarımını ekler; COVERAGE ve WORK'ü onun gerçek kapsamıyla günceller. Yayın öncesi içerik kontrolü aynı Research yazarınındır. İlk çıkarımın actual commit/readback alındısı ayrı doğrulanır; bu dosya kendi gelecekteki commit'ini uydurmaz. Remote yazma/okuma, anlamsal eksiksizlik veya çalışma düzeninin yeterliği değildir.
