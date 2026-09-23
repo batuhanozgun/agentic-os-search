@@ -1,12 +1,12 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-23 · **ECC C6b E01–E05 driver/ham-kanıt aktarımı tamamlandı. Exact next: master-history/current-plan/inventory reconciliation. C6 ve ECC paketi PARTIAL.**
+2026-09-23 · **ECC C6 raw-evidence + history/current-plan/inventory reconciliation tamamlandı. Exact next: fresh source delta ve post-U12 aktarımı. C6 ve ECC paketi PARTIAL.**
 
 Bu dosya amaç, yetki ve current/next işi taşır. Ayrıntılı okuma/sürüm/kapsam hesabı [ECC READING](studies/ecc/READING.md), bağlamlı kullanımlar [TERMS](studies/ecc/TERMS.md) içindedir. Kaynak ECC araştırmasının current işi Concepts'in çalışma rotası değildir.
 
 ## 1. Amaç ve aşama
 
-**B6-SERIAL-EXTRACTION-ACTIVE / ECC-C1–C5-SOURCE-FAMILY-TRANSFER-COMPLETE / C6a-COMPLETE / C6b-E01–E05-RAW-EVIDENCE-COMPLETE / C6-ACTIVE-PARTIAL / ECC-PACKAGE-PARTIAL / METHOD-v0.3-WORKING / B7-B8-NOT-STARTED.**
+**B6-SERIAL-EXTRACTION-ACTIVE / ECC-C1–C5-SOURCE-FAMILY-TRANSFER-COMPLETE / C6a-COMPLETE / C6-RAW-HISTORY-INVENTORY-RECONCILED / C6-SOURCE-DELTA-NEXT / ECC-PACKAGE-PARTIAL / METHOD-v0.3-WORKING / B7-B8-NOT-STARTED.**
 
 Amaç research/studies araştırmalarındaki kullanımları, kendi bağlamları ve ilişkileriyle tam okumadan çıkarmak; bütün kapsam ve delta kontrolü sonrasında ayrı ortak değerlendirmeyle Development OS/SOUL konuşmalarında ne kastedildiğini belirginleştirmektir. Şimdiki iş genel sözlük, yeni ürün testi veya mimari kabul değildir. Dosya/kullanım adedi başarı yüzdesi sayılmaz.
 
@@ -24,7 +24,8 @@ Giriş: AGENT ve gerekli protokoller → concepts/INDEX'in STATE/CHARTER/ORIGIN/
 | ECC C6a | 41f6603 snapshot envanteri ve geçmiş okuma-dayanağı hesabı tamamlanmış olarak korunur |
 | ECC C6b E01–E03 | Üç betik + dokuz plan/sonuç/README FULL okundu; S/W ile karşılaştırıldı |
 | ECC C6b E04/E05 | Bu tur iki driver + üç compressed carrier read-only recovered/FULL; L refinements ve PE evidence uses yayımlandı |
-| ECC C6 history/inventory | Exact next; dört master-history + current PLAN/QUESTIONS + inventory |
+| ECC C6 history/inventory | Bu tur FULL reconciliation complete; PC01–PC45 |
+| ECC C6 source delta | Exact next; 41f6603 census → fresh main leaves, U13+ existing research transfer |
 | ECC C6 bütünü | Root/history/inventory, yeni kaynak delta'sı, bütün kullanım kayıtları ve final census açık |
 | ECC source-study | Ayrı ACTIVE/PARTIAL; bu turun 7ce22d4 snapshot'ında U18-F IN PROGRESS, son completed U18-E |
 | Post-S1 eklemeler | agentmemory, claude-swap, cli-continues, ponytail B7 öncesi kapsam hesabında |
@@ -60,7 +61,7 @@ Sonra mevcut **results.json.gz**, **results.json.xz** ve **u06-a-conversation-re
 
 C6'nın kalan işleri: dört selected master-history, current PLAN/QUESTIONS, inventory; U13 ve sonraki bütün source delta; şimdi **16 bağlı TERMS + router** için kaynak/atıf/rol/ID/ilişki/düzeltme etkisi; final current corpus hesabı. Version-qualified package closure ancak bu somut koşullar karşılanınca verilir. ECC sonrası sıra work-management-project-control; B7 bitmeden B8 başlamaz.
 
-## 7. Exact next — history/current plan/inventory
+## 7. Completed — history/current plan/inventory
 
 Dört selected master-history dosyası FULL kapatılır: `METHOD-REVIEW.md`, `PUBLICATION.md`, `RESEARCH-LOG.md`, `SOURCE-LEDGER.md`. Ardından current `PLAN.md`, `QUESTIONS.md` ve inventory family tam okunur/uzlaştırılır. Bu iş kaynak research'ün yeni technical inquiry'sini yürütmez.
 
@@ -75,3 +76,9 @@ Actual publication checkpoints: PE dosyası **5c6b303d8669ed050ddcf1f0ac4e40d643
 Yazma yalnız bu Concepts kullanım ve entry dosyalarındadır. Source studies, catalogue, diğer Concepts paketleri, agent-control, Foundation, explorations, publications ve bağımsız context işleri korunur. Named branch/PR, force update, branch deletion, target execution, installation, provider/model/credential veya release yapılmadı. Source-to-record ve readback aynı assistant kontrolüdür; bağımsız deney doğrulaması değildir.
 
 Batu okuma anındaki anlam seçimlerini denetleyemediği için önemli dayanak/yorum/sınır görünür kalır. Ortak sözcükler ortak anlamı garanti etmez; kaynak kullanımı, araştırmacı/extractor açıklaması ve kullanıcı onayı teknik doğruluk bakımından ayrı tutulur. Bu tur prediction, criterion ve plan etiketlerinin hangi gerçek kontrolü temsil ettiği somut karşılıktır.
+
+## 8. Exact next — fresh ECC source delta
+
+C6a census ref **41f6603677ccbe81bb6a467d1bc39f0965794e06** ile fresh main'deki `research/studies/ecc/**` leaf seti exact path/blob düzeyinde karşılaştırılır. Added/changed/deleted/moved material belirlenir. U13+ mevcut source-study outputs kendi note/ledger/round/receipt scope'larıyla Concepts'e aktarılır; source-study'nin aktif technical next'i yürütülmez.
+
+Sonrasında linked TERMS/router source-role-ID-relation audit'i ve final fresh corpus census'i package closure öncesi zorunludur.
