@@ -1,6 +1,6 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-23 · **ECC C6 raw/history/inventory reconciliation + U14-A/B/C transfer complete. Exact next: U15-A/B/C existing-source transfer. C6 ve ECC paketi PARTIAL.**
+2026-09-23 · **ECC C6 raw/history/inventory reconciliation + U14–U15 transfer complete. Exact next: U16-A1/A2 existing-source transfer. C6 ve ECC paketi PARTIAL.**
 
 Bu dosya amaç, yetki ve current/next işi taşır. Ayrıntılı okuma/sürüm/kapsam hesabı [ECC READING](studies/ecc/READING.md), bağlamlı kullanımlar [TERMS](studies/ecc/TERMS.md) içindedir. Kaynak ECC araştırmasının current işi Concepts'in çalışma rotası değildir.
 
@@ -88,3 +88,9 @@ Sonrasında linked TERMS/router source-role-ID-relation audit'i ve final fresh c
 U14-A readiness/operator projection, U14-B tool-activity ingestion/risk/use ve U14-C usage/cost/context/resource-control published source packages Concepts'e aktarıldı. Yeni usage file: `TERMS-OBSERVABILITY-RESOURCES.md`, OR01–OR82. Target execution yok; tests inspected/not run standing'i korunur. Stronger installed/live residuals source-study'de kalır.
 
 **Exact next:** U15-A/B/C published source outputs. Source-study current technical work devralınmaz.
+
+## 10. C6 post-U12 progress — U15 transferred
+
+U15-A provisional native-system assembly, U15-B worktree integration/retention, U15-C1 Rust connector/graph recipient use and U15-C2 Node recall/proximity published source packages Concepts'e aktarıldı. New usage file `TERMS-ASSEMBLY-INTEGRATION-INFORMATION.md`, AI01–AI92. U15 assembly remains provisional, not final CORE or architecture.
+
+**Exact next:** U16-A1/A2 maintenance/configuration lifecycle source packages. Source-study active technical work is not inherited.
