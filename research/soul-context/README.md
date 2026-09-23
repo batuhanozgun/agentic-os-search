@@ -1,62 +1,22 @@
 # SOUL Context Research
 
-## Amaç
+Bu alan SOUL Research'ün neden açıldığını açıklayan kaynak-bağlı predecessor bağlamını ve araştırma–geliştirme arasındaki sınırlı güncel geçişleri korur. Proje-geneli araştırma metodolojisi, agent-control veya SOUL mimarisi değildir.
 
-Bu alanın amacı `os-architect`, `keel`, `soul` ve yalnız gerekli olduğunda sınırlı predecessor kanıtı olarak `keel-research` kaynaklarını okuyarak iki şeyi kalıcı biçimde taşımaktır:
+## Giriş
 
-1. SOUL Research projesinin neden açıldığına dair kaynak-temelli bağlam,
-2. araştırmanın hangi tür sistemi beslemesinin amaçlandığına dair bounded çalışma anlayışı.
+Önce [INDEX](INDEX.md), güncel yön/yetki için [STATE](STATE.md) okunur. Güncel Claude Code hazırlığı STATE'in gösterdiği çalışma paketindedir. Tarihsel context araştırmasının kapanmış olması, daha sonraki ayrıca yetkilendirilmiş hazırlık işinin de kapanmış olduğu anlamına gelmez.
 
-Bu klasör proje-geneli araştırma metodolojisi, agent-control katmanı veya SOUL mimarisi değildir.
+## Kaynak ve kayıt rolleri
 
-## Epistemik ayrım
+- `repos/`: OS Architect, KEEL, SOUL ve gerektiğinde keel-research için source ledgers; tam/seçici okuma ve exact ref ayrımı.
+- `evidence/`: bu kaynaklardan türetilmiş bounded context sentezleri; kaynakların veya güncel kullanıcı yönünün yerine geçmez.
+- `current/`: tarihli brief/review'lar ile sınırlı cross-project hazırlık/devir kayıtları. Hedef repository'nin canlı operasyon otoritesi değildir; "current" dizin adı her belgeyi etkin görev yapmaz.
+- `exploratory/`: LOCAL / PROVISIONAL fikirler; varsayılan yöntem, kabul edilmiş mimari veya kontrol talimatı değildir.
 
-Bu klasörde üç farklı içerik türü fiziksel olarak ayrılır:
+## Kullanım ve kanıt sınırı
 
-- `repos/` — kaynak okuma defterleri; hangi repo/dosyanın okunduğu, SHA/ref, okuma türü ve maddi bulgu.
-- `evidence/` — repo okumalarından türetilen, kaynaklara geri bağlanabilen context sentezi.
-- `exploratory/` — bu context çalışması sırasında erken üretilmiş taxonomy, holdout, stopping ve research-design fikirleri. Bunlar bilgi kaynağı veya proje-geneli yöntem değildir.
+Tarihsel "önceki repolar" sorusunda INDEX → ilgili evidence → ledger → gerektiğinde exact birincil kaynak izlenir. Güncel hazırlık sorusunda STATE'in gösterdiği güncel işten başlanır; eski SOUL veya Codex sürümü current çalışma hedefi sayılmaz.
 
-`exploratory/` içeriği sırf mevcut olduğu için sonraki araştırmaya başlangıç çerçevesi olarak yüklenmez.
+Gözlem, kullanıcı/üretici beyanı, çıkarım, hipotez, kabul edilmiş karar ve gerçek implementation ayrı tutulur. Retrieval özeti ve hash, kaynağın anlamca doğruluğunu veya aktörün onu kullandığını kanıtlamaz. Yeni görev geçmişi silmez; eski devir de yeni aktöre kendiliğinden geçmez.
 
-## Navigasyon
-
-Önce `INDEX.md` kullanılır. `INDEX.md` hangi konu için hangi dosyanın açılması gerektiğini gösterir; kendisi source-of-truth değildir.
-
-- `INDEX.md` — topic/claim routing index.
-- `STATE.md` — bu context hattının güncel statüsü.
-- `evidence/CONTEXT-SYNTHESIS.md` — mevcut bounded context sonucu.
-- `repos/` — ayrıntılı source ledgers.
-- `exploratory/README.md` — erken/ekstra çalışmanın sınırı ve kullanım kuralı.
-
-## Kullanım kuralı
-
-Kullanıcı "eski repo araştırmalarına bak", "önceki repolardan ne biliyoruz?" veya benzeri bir talep verdiğinde varsayılan retrieval alanı:
-
-1. `INDEX.md`,
-2. ilgili `evidence/` dosyası,
-3. gerekiyorsa ilgili `repos/` ledger bölümü,
-4. exact veya tartışmalı claim gerekiyorsa birincil repo kaynağıdır.
-
-`exploratory/` bu varsayılan zincire dahil değildir.
-
-## Kaynak rolleri
-
-- `soul` — current explicit intent, Development OS, foundation/work/verification/review evidence için birincil kaynak.
-- `os-architect` — tarihsel failure, yöntem, araştırma, owner-correction ve KEEL geliştirme bağlamı.
-- `keel` — somut ürün/mekanizma yüzeyi; tarihsel iddiaların seçici mekanik karşı-okuması.
-- `keel-research` — yalnız doğrudan source-chain gerektiğinde bounded predecessor prior-art; SOUL authority değildir.
-
-## Kanıt dili
-
-- **Gözlem:** kaynakta doğrudan görülen olgu.
-- **Çıkarım:** bir veya daha fazla gözlemden türetilen yorum.
-- **Hipotez:** henüz yeterli karşı-okuma yapılmamış açıklama.
-
-Derived view, summary, ledger veya index birincil kaynağın yerini almaz. Load-bearing exact claim gerekiyorsa kaynak recover edilir.
-
-## Context hattının statüsü
-
-Bu hazırlık/context hattı mevcut amaç için yeterli seviyede tamamlanmış ve durdurulmuştur. Ayrıntı `STATE.md` içindedir.
-
-Proje-geneli "araştırmayı nasıl yapacağız?" kararı bu klasördeki exploratory fikirlerden otomatik türetilmez; ayrıca ve kullanıcı tarafından yetkilendirilmiş ayrı bir çalışma olarak ele alınır.
+Önceki README'nin exact tarihsel sürümü Git'te `cee38caa970399fa4bf267cb484331e0c50164c9` ref'inde korunur. Foundation, studies ve explorations kendi kabul/yetki yüzeylerini korur.
