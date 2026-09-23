@@ -1,8 +1,8 @@
 # ECC — Okuma ve kalıcı çıkarım durumu
 
-2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6a COMPLETE / C6b E01–E03 COMPLETE / C6b PARTIAL / ECC PACKAGE PARTIAL.**
+2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6a COMPLETE / C6b E01–E05 RAW-EVIDENCE COMPLETE / C6 ACTIVE-PARTIAL / ECC PACKAGE PARTIAL.**
 
-[TERMS](TERMS.md) bağlamlı kullanımları, [global STATE](../../STATE.md) amaç ve current/next işi taşır. C6a'nın envanter ve geçmiş okuma hesabı [C6-RECONCILIATION](C6-RECONCILIATION.md) ve [snapshot manifestinde](C6-SOURCE-MANIFEST.tsv) korunur. Bu current dosyanın §2–§4'ü C6b'nin yeni okuma ve aktarım katmanıdır; C6a'daki E01–E03 için U/NOT STARTED ifadelerinin bugünkü karşılığı aşağıdadır.
+[TERMS](TERMS.md) bağlamlı kullanımları, [global STATE](../../STATE.md) amaç ve current/next işi taşır. C6a'nın envanter ve geçmiş okuma hesabı [C6-RECONCILIATION](C6-RECONCILIATION.md) ve [snapshot manifestinde](C6-SOURCE-MANIFEST.tsv) korunur. Bu current dosyanın §2–§4'ü E01–E03, §7 ise E04/E05 driver ve raw-recovery katmanıdır; C6a'nın tarihsel U/R kodlarının güncel karşılığı burada tutulur.
 
 ## 1. Amaç, kaynak ve korunmuş geçmiş
 
@@ -53,7 +53,7 @@ Plan/kriter ayrımı özellikle kontrol edildi: E01 driver plan cases/expected e
 
 **S/W etkisi:** S12–S14, W01–W11 ve W42–W52 için açıklamaları değiştirmeyi gerektiren maddi çelişki saptanmadı. W11 zaten deney metadata'sını doğru ayırıyordu. Eski kullanım metinleri değiştirilmedi. W37/W39 veya W53–W55 gibi setup/rollback/live observation alanları bu deneylerden doğrulanmış sayılmadı. Yeni PE kayıtları ve bağlam sınırları eklenmiştir; sorun varmış gibi eski düzeltme hikâyesi üretilmedi.
 
-**Durum değişimi:** C6a'nın beş U kaydından E01/E02/E03 olan üçü, yalnız belirtilmiş içerik ve karşılaştırma kapsamıyla kapandı. E04/E05 U2, üç compressed R ve C6'nın kalan kaynak/semantik işleri açık. E06 quarantine davranış kanıtı değildir; iki E05 birleştirilmez.
+**Durum değişimi:** C6a'nın ilk üç U kaydı E01/E02/E03 için burada kapanmıştır. E04/E05 driver ve compressed-recovery kapanışı §7'de kayıtlıdır. E06 quarantine davranış kanıtı değildir; iki E05 birleştirilmez.
 
 ## 4. Güncel kaynak delta'sı
 
@@ -63,7 +63,46 @@ Giriş snapshot'ında source STATE FULL: **31eadc2b3d3e128458bbb42f9d0b3eb663783
 
 C6a'nın 41f6603 snapshot'ından fresh main'e bütün kaynak delta'sının yaprak hesabı ve aktarımı hâlâ gereklidir. Şimdilik diff ve source-entry okuması kuyruk görünürlüğü sağlar; U13–U18 veya E10 burada tamamlanmış sayılmaz. E10'un recovery yönü öğrenildi fakat ham taşıyıcı/restore betiği çalıştırılmadı. Her tur yeniden sayım yapıp erken ham içerik açıklarını ertelemek yerine bu tur üç somut betik açığı kapatıldı.
 
-## 5. Exact next
+## 7. C6b E04/E05 — driver + raw evidence recovery
+
+Sabit evidence snapshot'i driver/raw karşılaştırması için **7ce22d478071be0863e7677bae280e2d648736d6**. Source-study daha sonra ilerlemiştir; bu historical evidence dosyalarının blobları current main'de değişmemiştir.
+
+Tam okunan driver/control surfaces:
+- `evidence/u05-b-evaluation-probe/probe.cjs` — **16333fcf9d2bbe208fee061044a997d7aa06e2d3**
+- E04 PLAN/README — **ac291d5... / 0e56aec...**
+- `evidence/u06-a-config-probe/probe.cjs` — **7d855c5960636925e97da6b2cbffa9c20b673bea**
+- main-path E05 PLAN/README — **66a89a78... / 9c0333...**
+- conversation-E05 reconciliation README — **fd078797...**
+- Note08/U05-B ledger/round/receipt and Note09/U06-A ledger/round/receipt, mevcut source-local interpretation ve publication identity kontrolü için tam/ilgili gövde düzeyinde devralındı.
+- `TERMS-LEARNING-GOVERNANCE.md` tam karşılaştırıldı.
+
+Read-only exact-byte recovery:
+- E04 `results.json.gz`: Git blob **8a3796d5523276ea9366a1cc1535d9e127985dfe**; compressed 2,407 bytes / SHA-256 **146bf000882a9433d1c95ad720619bd453153d7ef879506381d7549c92450a1a**; decompressed JSON 29,810 bytes / SHA-256 **38c73adf0f4b57df3f98876bc58180cf5feb677fe9e8a8522d1c6716e57a6ad4**.
+- Node E05 `results.json.xz`: Git blob **e2838d28f0a3a6bf6e36561569f8bc03215792d9**; compressed 2,276 bytes / SHA-256 **0c8d7947ff27614ceaebcd432852571a8d8c42ede4d33b0fa22e493ee37783f9**; decompressed JSON 1,065,861 bytes / SHA-256 **a63c2e5b624463c1c16af2cb6931c68b78f9232edcfb3339795bd58dacd3f6d0**.
+- Conversation E05 `original-evidence.tar.xz`: Git blob **3257a0c22d9a4809b0291e3678389182c29675d0**; archive 7,116 bytes / SHA-256 **c12d0603d952bfe33c027c6a3bf5f804ebc0063a27d454516fce2627519f5275**. Beş member tam açıldı: PLAN, README, probe.py, results.json, stderr.txt; member hashes reconciliation README ile eşleşti.
+
+Raw sonuç standing'i:
+- E04: tek recorded run, 9 case / 9 driver-local expectation match. Duplicate-ID, unmatched-task, mixed-amendment ve single-failure proposal sınırları raw JSON'da görüldü; **9/9 quality score değildir**.
+- main-path E05: Node driver, 15 case / 15 driver-local match. Alias realpath/inode, profile/disable/dry-run, malformed/non-string/truncated input ve fixture invariants raw kayıtta korundu; **15/15 security score değildir**.
+- conversation E05: Python driver, 16 case / 16 recorded match. Aynı dört upstream source blob'una bağlıdır fakat driver, case seti, timestamp, plan ve result identity'si ayrıdır; **main-path E05 ile pool edilmez veya independent replication sayılmaz**. Case IDs campaign-local'dır.
+- Campaign-level empty stderr ile per-case child stderr aynı alan değildir.
+- Hiçbir driver/target yeniden çalıştırılmadı; decode/decompression historical evidence readback'tir.
+
+Concepts etkisi:
+- `TERMS-EARLY-PROBE-EVIDENCE.md` artık **PE01–PE34** ile driver/raw-evidence kullanımlarını taşır.
+- `TERMS-LEARNING-GOVERNANCE.md` C6b refinement'iyle **L01–L114**; L105–L114 config guard source-local ayrımlarını ekler, L66'nın oversized/admission sınırını keskinleştirir.
+- E04 raw evidence L45–L55'in temel anlamını değiştirmedi.
+- E05 raw/source comparison L58–L68 çekirdeğini bozmadı; yeni refinements mixed-purpose exclusion, non-ENOENT refusal, hook-ID exclusion, config precedence, invalid-profile fallback, runner exception/no-objection, truncation/admission, content-insensitive refusal, case-folded selection ve dangling protected symlink ayrımlarını adresler.
+
+Bu closure **C6b raw-evidence slice complete** demektir; whole C6/package closure değildir. E06 NOT VERIFIED/EXCLUDED kalır; E07/E08/E09/E10 kendi evidence kapsamlarında kalır.
+
+## 8. Exact next — master history / current planning / inventory reconciliation
+
+Dört master-history dosyasını **FULL** kapat: METHOD-REVIEW.md, PUBLICATION.md, RESEARCH-LOG.md, SOURCE-LEDGER.md. Ardından current PLAN.md ve QUESTIONS.md ile inventory/STRUCTURE.md, TREE-FRONTIER.tsv, U01-B-DISCOVERY.md, U07-A-FAMILY-MAP.md ve güncel source delta'daki yeni inventory materyalini kendi version scope'uyla ele al.
+
+Bundan sonra fresh source delta manifesti ve U13+ published source-family transferi; bütün linked TERMS için source/role/ID/relation kontrolü; final fresh census gerekir. Yeni source-study technical inquiry yürütülmez.
+
+## 5. Historical next — superseded by §8
 
 **C6b / E04–E05:** ilk dosya **research/studies/ecc/evidence/u05-b-evaluation-probe/probe.cjs**, beklenen mevcut blob **16333fcf9d2bbe208fee061044a997d7aa06e2d3**; ardından **evidence/u06-a-config-probe/probe.cjs**, blob **7d855c5960636925e97da6b2cbffa9c20b673bea**. Bunların plan/README ve L kullanım kayıtlarıyla karşılaştırması yapılacak.
 
