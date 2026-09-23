@@ -92,7 +92,7 @@ U13–U18 additions were recorded as new source-local usage families rather than
 
 This is a same-assistant source-to-record/readback and mechanical correspondence audit. It is **not**:
 - independent semantic review;
-- evidence that 1,973 usage rows are 1,973 distinct concepts;
+- evidence that 1,974 usage rows are 1,974 distinct concepts;
 - proof that every source claim is true;
 - product/runtime/security/effectiveness validation;
 - B8 common-definition work.
