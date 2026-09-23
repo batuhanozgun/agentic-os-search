@@ -1,6 +1,6 @@
 # ECC — Okuma ve kalıcı çıkarım durumu
 
-2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6a COMPLETE / C6b E01–E05 RAW-EVIDENCE COMPLETE / C6 ACTIVE-PARTIAL / ECC PACKAGE PARTIAL.**
+2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6a COMPLETE / C6b E01–E05 RAW + HISTORY/INVENTORY RECONCILIATION COMPLETE / C6 ACTIVE-PARTIAL / ECC PACKAGE PARTIAL.**
 
 [TERMS](TERMS.md) bağlamlı kullanımları, [global STATE](../../STATE.md) amaç ve current/next işi taşır. C6a'nın envanter ve geçmiş okuma hesabı [C6-RECONCILIATION](C6-RECONCILIATION.md) ve [snapshot manifestinde](C6-SOURCE-MANIFEST.tsv) korunur. Bu current dosyanın §2–§4'ü E01–E03, §7 ise E04/E05 driver ve raw-recovery katmanıdır; C6a'nın tarihsel U/R kodlarının güncel karşılığı burada tutulur.
 
@@ -96,7 +96,7 @@ Concepts etkisi:
 
 Bu closure **C6b raw-evidence slice complete** demektir; whole C6/package closure değildir. E06 NOT VERIFIED/EXCLUDED kalır; E07/E08/E09/E10 kendi evidence kapsamlarında kalır.
 
-## 8. Exact next — master history / current planning / inventory reconciliation
+## 8. Completed — master history / current planning / inventory reconciliation
 
 Dört master-history dosyasını **FULL** kapat: METHOD-REVIEW.md, PUBLICATION.md, RESEARCH-LOG.md, SOURCE-LEDGER.md. Ardından current PLAN.md ve QUESTIONS.md ile inventory/STRUCTURE.md, TREE-FRONTIER.tsv, U01-B-DISCOVERY.md, U07-A-FAMILY-MAP.md ve güncel source delta'daki yeni inventory materyalini kendi version scope'uyla ele al.
 
@@ -117,3 +117,24 @@ Yeni PE dosyası commit **5c6b303d8669ed050ddcf1f0ac4e40d643516674**, blob **685
 Bu READING, TERMS router ve global STATE yayını sonrası actual diff ve current readback ayrıca yapılır; gelecekteki kendi hash'i veya yapılmamış kontrol önceden yazılmaz. Kaynak research, C6a manifest/raporu, eski TERMS, Foundation, agent-control ve bağımsız proje çalışmaları korunur. New branch/PR, force update, target execution, model/provider/credential, installation veya release yoktur.
 
 Batu okuma anındaki anlam seçimlerini denetleyemediğinden kaynak ve önemli yorum sınırları izlenebilir kalır. Ortak sözcükler ortak anlamı garanti etmez; kullanıcı onayı, kaynak kullanımı ve extractor yorumu teknik doğrulama bakımından ayrı tutulur. Bu turun kontrolü kaynak-kayıt karşılaştırması ve yayın tutarlılığıdır, bağımsız deney doğrulaması değildir.
+
+## 9. C6 history/current-plan/inventory closure
+
+FULL current reads completed:
+- `METHOD-REVIEW.md` **f1647a9ac7e19cce6dfa783ab396352d839fb094**;
+- `PUBLICATION.md` **a9e2ddbf1823a4a6b8f8aef00610920693182875**;
+- `RESEARCH-LOG.md` **9f1cd2531d5ed5338bd1862bf3ac1b8786bba109**;
+- `SOURCE-LEDGER.md` **583eed1136e78a3daa1bedb53cc63f7ec9811e4b**;
+- current `PLAN.md` **3822f9d5da3006e3e78b7765571eca498befa360**;
+- current `QUESTIONS.md` **972fdd16ace4c6f390692599df3e1b2f27ad1f4b**;
+- inventory STRUCTURE **4821c44ad2496eafafd43a6f4bdef224c1d34303**, TREE-FRONTIER **3e4f52aea369048acdb39628440dcf0fd4c3fe4d**, U01-B-DISCOVERY **3ff4ddc62d29bfe8460f7c452374a7d29147612e**, U07-A-FAMILY-MAP **d43b08b69740f800803a9465954269b2c97d0606**, U15-A-COVERAGE-RECONCILIATION **7ff883382314b6c7838cadec44ed432a5e6db4b9**.
+
+Önceki C6a'daki S/D/I statüleri bu current FULL reading ile package-closure açısından kapanır. Bunun anlamı tarihsel dosyaların bugünkü authority olması değildir. METHOD-REVIEW/PUBLICATION/RESEARCH-LOG/SOURCE-LEDGER early/master history surfaces'tir; later unit method/publication/source history round/receipt/unit-ledger dosyalarında devam eder.
+
+Yeni [TERMS-PACKAGE-COVERAGE.md](TERMS-PACKAGE-COVERAGE.md) **PC01–PC45** current-authority/history/publication/read-status/frontier/family/reconciliation/closure kullanımlarını taşır. Family ≠ architecture, metadata discovery ≠ body read, source gap ≠ stronger empirical residual, provisional assembly ≠ final CORE ve publication closure ≠ scientific/source closure ayrımları görünürdür.
+
+### Exact next — fresh source delta and post-U12 transfer
+
+C6a'nın 41f6603 snapshot'ından fresh main'e **research/studies/ecc/** leaf delta çıkarılır. U13 ve sonradan published/created source materyali, kendi current source standing'i ve exact evidence role'üyle Concepts'e aktarılır. Kaynak study'nin aktif next technical inquiry'si yürütülmez.
+
+Delta transferinden sonra bütün linked TERMS/router source locator/role/ID/relation ve maddi refinement etkisi; ardından fresh final census gerekir.
