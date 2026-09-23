@@ -1,6 +1,6 @@
 # ECC — Bağlamlı kullanım kayıtları
 
-2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6 VERSION-QUALIFIED COMPLETE / ECC PACKAGE COMPLETE @ source tree 172a99a3d90e2db4c81cae16d79b79b3b83fab0a.**
+2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6 VERSION-QUALIFIED COMPLETE / ECC PACKAGE COMPLETE @ source tree e33ea2998ecd3c0e05a3f2c3dcf095b697b81544.**
 
 Bu dosya Concepts kullanım girişidir. [READING](READING.md) actual dosya/sürüm/okuma ve C6b kapanış hesabını, [global STATE](../../STATE.md) program yetkisini taşır. [C6-RECONCILIATION](C6-RECONCILIATION.md) ve [167 yapraklı manifest](C6-SOURCE-MANIFEST.tsv) C6a tarihsel snapshot'ıdır; E01–E03 okuma durumunun yeni karşılığı current READING'dedir. Kaynak ECC araştırması ayrıdır: bu turun 7ce22d4 snapshot'ında U18-F IN PROGRESS, son completed U18-E. Bu kaynak next'i Concepts yetkisine dönüştürülmez.
 
@@ -33,7 +33,7 @@ Bu dosya Concepts kullanım girişidir. [READING](READING.md) actual dosya/sür�
 | U18-A–C scorecard / reputation gate / consult | [TERMS-SCORECARD-REPUTATION-CONSULT.md](TERMS-SCORECARD-REPUTATION-CONSULT.md), IX01–IX66 | C6 existing-source transfer complete |
 | U18-D–F Itô / Nasiko / NanoClaw | [TERMS-EXTERNAL-CLIENTS-CONTEXT.md](TERMS-EXTERNAL-CLIENTS-CONTEXT.md), EC01–EC83 | C6 existing-source transfer complete |
 | U18-G desktop explorer | [TERMS-DESKTOP-DISCOVERY.md](TERMS-DESKTOP-DISCOVERY.md), DD01–DD40 | C6 desktop source transfer complete |
-| U18-H browser dashboard active snapshot | [TERMS-BROWSER-DASHBOARD.md](TERMS-BROWSER-DASHBOARD.md), BD01–BD52 | Existing source-answer material transferred; canonical source STATE still IN PROGRESS at snapshot |
+| U18-H browser dashboard | [TERMS-BROWSER-DASHBOARD.md](TERMS-BROWSER-DASHBOARD.md), BD01–BD53 | Source answer plus later publication closure transferred; U18-I remains NOT STARTED |
 
 Bütün kullanım kimlikleri ECC- öneki taşır. Bunlar bağımsız kavram, kanıt veya ilerleme yüzdesi değildir. PE satırları ürün mimarisinin yeni parçaları değil, mevcut araştırmanın deney/kayıt kullanımlarıdır. C6b'de C3 dosyası raw E05 refinement'i aldı ve PE dosyası E04/E05 ile genişledi. Bağlı kullanım dosyalarının paket-geneli source/rol/ilişki kontrolü henüz kapanmadı.
 
@@ -74,7 +74,7 @@ Bu router'ın U12 ve C6a dahil önceki tam metni [3acfa615 TERMS](https://github
 
 ## 5. Exact next ve açık kapsam
 
-**C6 complete for source tree 172a99a3d90e2db4c81cae16d79b79b3b83fab0a.** Linked TERMS/router audit and final source census are closed; future source-study material after this tree is later delta, not silently included. İki E05 kimliği ayrı, E06 excluded kalır.
+**C6 complete for source tree e33ea2998ecd3c0e05a3f2c3dcf095b697b81544.** Linked TERMS/router audit and final source census are closed; future source-study material after this tree is later delta, not silently included. İki E05 kimliği ayrı, E06 excluded kalır.
 
 C6a'nın U5 driver listesi ve üç usable R carrier E01–E05 için scoped olarak kapandı. Değiştirilmemiş 41f6603 TSV'si C6a anını gösterir; bugünkü kapanış onun üzerine sürümlü eklemedir. Kalan root/master-history/inventory, U13 ve census sonrası source delta, linked TERMS + router semantik kontrolü ve final current census açık. Metadata'da yeni kaynakların özetlerini okumak gövde aktarımı değildir.
 
@@ -87,7 +87,7 @@ Batu okuma anındaki anlam seçimlerini denetleyemediğinden dayanak/yorum/belir
 ## 7. C6 closure route
 
 - [Final reconciliation](C6-FINAL-RECONCILIATION.md)
-- [Final source manifest](C6-FINAL-SOURCE-MANIFEST.tsv): 246 leaves, exact path/blob coverage basis
-- [TERMS audit](C6-TERMS-AUDIT.md): 26 linked files, 1,973 usage IDs, P01–P10, source-role/link and relation checks
+- [Final source manifest](C6-FINAL-SOURCE-MANIFEST.tsv): 247 leaves, exact path/blob coverage basis
+- [TERMS audit](C6-TERMS-AUDIT.md): 26 linked files, 1,974 usage IDs, P01–P10, source-role/link and relation checks
 
-This router is package-complete only for the named source tree. Source-study ACTIVE/PARTIAL and future U18-H publication/U18-I files are not preclaimed.
+This router is package-complete only for the named source tree. Source-study remains ACTIVE/PARTIAL; U18-H publication is included, while future U18-I files are not preclaimed.
