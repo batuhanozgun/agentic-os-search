@@ -8,6 +8,15 @@ Source packages:
 Fixed target: `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 Tests inspected, not run; no installation/update/repair/uninstall execution by Concepts.
 
+## 0. Source locator and role map
+
+| Usage range | Exact research sources | Source role / evidence class |
+|---|---|---|
+| ECC-ML01–ML28 | [Note37](../../../research/studies/ecc/notes/37-MANAGED-MAINTENANCE-OWNERSHIP-AND-PREVIEW.md) §§1–8 → [U16-A1 ledger](../../../research/studies/ecc/evidence/U16-A1-SOURCES.md) → [MR38](../../../research/studies/ecc/ROUND-U16-A.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U16-A1.md) | SOURCE OBSERVATION + TEST SOURCE INSPECTED + explicitly conditional lifecycle inference; no maintenance command run. |
+| ECC-ML29–ML63 | [Note38](../../../research/studies/ecc/notes/38-SHARED-CONFIGURATION-OWNERSHIP-AND-LEGACY-RECOVERY.md) §§1–9 → [U16-A2 ledger](../../../research/studies/ecc/evidence/U16-A2-SOURCES.md) → [MR39](../../../research/studies/ecc/ROUND-U16-A2.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U16-A2.md) | SOURCE OBSERVATION + inspected tests + conditional shared-file/legacy recovery inference; no user files changed. |
+
+A correctly implemented local control in one writer is not imported as evidence for another writer unless the cited source chain connects them.
+
 ## 1. Common managed maintenance
 
 | ID / ifade | ECC araştırmasındaki kullanım | Sınır |
