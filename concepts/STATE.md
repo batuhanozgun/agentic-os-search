@@ -1,6 +1,6 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-23 · **ECC C6 raw-evidence + history/current-plan/inventory reconciliation tamamlandı. Exact next: fresh source delta ve post-U12 aktarımı. C6 ve ECC paketi PARTIAL.**
+2026-09-23 · **ECC C6 raw/history/inventory reconciliation + U14-A/B/C transfer complete. Exact next: U15-A/B/C existing-source transfer. C6 ve ECC paketi PARTIAL.**
 
 Bu dosya amaç, yetki ve current/next işi taşır. Ayrıntılı okuma/sürüm/kapsam hesabı [ECC READING](studies/ecc/READING.md), bağlamlı kullanımlar [TERMS](studies/ecc/TERMS.md) içindedir. Kaynak ECC araştırmasının current işi Concepts'in çalışma rotası değildir.
 
@@ -82,3 +82,9 @@ Batu okuma anındaki anlam seçimlerini denetleyemediği için önemli dayanak/y
 C6a census ref **41f6603677ccbe81bb6a467d1bc39f0965794e06** ile fresh main'deki `research/studies/ecc/**` leaf seti exact path/blob düzeyinde karşılaştırılır. Added/changed/deleted/moved material belirlenir. U13+ mevcut source-study outputs kendi note/ledger/round/receipt scope'larıyla Concepts'e aktarılır; source-study'nin aktif technical next'i yürütülmez.
 
 Sonrasında linked TERMS/router source-role-ID-relation audit'i ve final fresh corpus census'i package closure öncesi zorunludur.
+
+## 9. C6 post-U12 progress — U14 transferred
+
+U14-A readiness/operator projection, U14-B tool-activity ingestion/risk/use ve U14-C usage/cost/context/resource-control published source packages Concepts'e aktarıldı. Yeni usage file: `TERMS-OBSERVABILITY-RESOURCES.md`, OR01–OR82. Target execution yok; tests inspected/not run standing'i korunur. Stronger installed/live residuals source-study'de kalır.
+
+**Exact next:** U15-A/B/C published source outputs. Source-study current technical work devralınmaz.
