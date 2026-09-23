@@ -1,6 +1,6 @@
 # ECC — Bağlamlı kullanım kayıtları
 
-2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6a COMPLETE / C6b E01–E03 COMPLETE / C6b ve PACKAGE PARTIAL.**
+2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6a COMPLETE / C6b E01–E05 RAW-EVIDENCE COMPLETE / C6 ve PACKAGE PARTIAL.**
 
 Bu dosya Concepts kullanım girişidir. [READING](READING.md) actual dosya/sürüm/okuma ve C6b kapanış hesabını, [global STATE](../../STATE.md) program yetkisini taşır. [C6-RECONCILIATION](C6-RECONCILIATION.md) ve [167 yapraklı manifest](C6-SOURCE-MANIFEST.tsv) C6a tarihsel snapshot'ıdır; E01–E03 okuma durumunun yeni karşılığı current READING'dedir. Kaynak ECC araştırması ayrıdır: bu turun 7ce22d4 snapshot'ında U18-F IN PROGRESS, son completed U18-E. Bu kaynak next'i Concepts yetkisine dönüştürülmez.
 
@@ -10,7 +10,7 @@ Bu dosya Concepts kullanım girişidir. [READING](READING.md) actual dosya/sür�
 |---|---|---|
 | U01–U02 / C1 | [TERMS-SURFACES-INSTALLATION.md](TERMS-SURFACES-INSTALLATION.md), S01–S56 | Önceki source-family aktarımı korunur |
 | U03–U04 / C2 | [TERMS-WORK-EXECUTION-MEMORY.md](TERMS-WORK-EXECUTION-MEMORY.md), W01–W89 | Önceki source-family aktarımı korunur |
-| U05–U06 / C3 | [TERMS-LEARNING-GOVERNANCE.md](TERMS-LEARNING-GOVERNANCE.md), L01–L104 | Önceki aktarım korunur; E04/E05 ham kapsamı açık |
+| U05–U06 / C3 | [TERMS-LEARNING-GOVERNANCE.md](TERMS-LEARNING-GOVERNANCE.md), L01–L114 | C6b raw-evidence refinement dahil; source-family aktarımı korunur |
 | U07–U09 / C4 | [TERMS-REVIEW-RUNTIME-OPERATOR.md](TERMS-REVIEW-RUNTIME-OPERATOR.md), R01–R176 | Önceki aktarım korunur |
 | U10-A / C5a | [TERMS-EVALUATION-REGISTRY.md](TERMS-EVALUATION-REGISTRY.md), E01–E50 | Complete |
 | U10-B / C5a | [TERMS-OFFLINE-CAPSULES.md](TERMS-OFFLINE-CAPSULES.md), O01–O69 | Complete |
@@ -23,9 +23,9 @@ Bu dosya Concepts kullanım girişidir. [READING](READING.md) actual dosya/sür�
 | U12-B1 / C5c | [TERMS-OPENCODE-CALLBACKS.md](TERMS-OPENCODE-CALLBACKS.md), OC01–OC92 | Complete |
 | U12-B2 / C5c | [TERMS-OPENCODE-INSTALLATION.md](TERMS-OPENCODE-INSTALLATION.md), OD01–OD91 | Complete |
 | U12-C / C5c | [TERMS-PYTHON-PROVIDERS-AND-TOOLS.md](TERMS-PYTHON-PROVIDERS-AND-TOOLS.md), PY01–PY108 | Complete |
-| E01–E03 araştırma düzeneği / C6b | [TERMS-EARLY-PROBE-EVIDENCE.md](TERMS-EARLY-PROBE-EVIDENCE.md), PE01–PE17 | Bu tur bağlamlı aktarım complete; C6b bütünü değil |
+| E01–E05 araştırma düzeneği / C6b | [TERMS-EARLY-PROBE-EVIDENCE.md](TERMS-EARLY-PROBE-EVIDENCE.md), PE01–PE34 | Driver/raw-evidence aktarımı complete; C6 bütünü değil |
 
-Bütün kullanım kimlikleri ECC- öneki taşır. Bunlar bağımsız kavram, kanıt veya ilerleme yüzdesi değildir. PE satırları ürün mimarisinin yeni parçaları değil, mevcut araştırmanın deney/kayıt kullanımlarıdır. Önceki 15 dosya değişmedi; 16 bağlı dosyanın tamamı için paket-geneli kaynak/rol/ilişki kontrolü henüz kapanmadı.
+Bütün kullanım kimlikleri ECC- öneki taşır. Bunlar bağımsız kavram, kanıt veya ilerleme yüzdesi değildir. PE satırları ürün mimarisinin yeni parçaları değil, mevcut araştırmanın deney/kayıt kullanımlarıdır. C6b'de C3 dosyası raw E05 refinement'i aldı ve PE dosyası E04/E05 ile genişledi. Bağlı kullanım dosyalarının paket-geneli source/rol/ilişki kontrolü henüz kapanmadı.
 
 ## 2. Package-level expressions — korunur
 
@@ -64,9 +64,9 @@ Bu router'ın U12 ve C6a dahil önceki tam metni [3acfa615 TERMS](https://github
 
 ## 5. Exact next ve açık kapsam
 
-**C6b exact next: E04 ve E05 driver/ham kanıt okuması.** İlk dosya research/studies/ecc/evidence/u05-b-evaluation-probe/probe.cjs; ardından u06-a-config-probe/probe.cjs ve üç compressed R taşıyıcısı. Tam yollar/kimlikler ve okuma sırası READING §5'tedir. Bu içerikler bu tur okunmadı/decoded olmadı; iki E05 ve excluded E06 ayrımı korunur.
+**C6b E04/E05 driver/ham kanıt okuması tamamlandı.** Exact next master-history/current-plan/inventory reconciliation'dır; ayrıntı READING §7–§8'dedir. İki E05 kimliği ayrı, E06 excluded kalır.
 
-C6a'nın U5 listesindeki ilk üç açık, READING §2–§3'te kapatıldı. Değiştirilmemiş 41f6603 TSV'si C6a anını gösterir; bugünkü kapanış onun üzerine sürümlü eklemedir. Kalan root/master-history/inventory, U13 ve census sonrası U14–U18/diğer delta, bütün 16 TERMS + router semantik kontrolü ve final current census açık. Metadata'da yeni kaynakların özetlerini okumak gövde aktarımı değildir.
+C6a'nın U5 driver listesi ve üç usable R carrier E01–E05 için scoped olarak kapandı. Değiştirilmemiş 41f6603 TSV'si C6a anını gösterir; bugünkü kapanış onun üzerine sürümlü eklemedir. Kalan root/master-history/inventory, U13 ve census sonrası source delta, linked TERMS + router semantik kontrolü ve final current census açık. Metadata'da yeni kaynakların özetlerini okumak gövde aktarımı değildir.
 
 ECC paketi kapanmadan work-management-project-control'e geçilmez; B7 geçmeden B8 ortak referans başlamaz. Amaç kaynak bağlamını taşımaktır, kaynak-study'nin sonraki teknik sorusunu çözmek veya mimari karar vermek değildir.
 
