@@ -1,12 +1,12 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-23 · **ECC C6b'nin E01–E03 betik/kanıt aktarımı tamamlandı. Exact next: E04/E05 betikleri ve sıkıştırılmış ham kayıtlar. C6 ve ECC paketi PARTIAL.**
+2026-09-23 · **ECC C6b E01–E05 driver/ham-kanıt aktarımı tamamlandı. Exact next: master-history/current-plan/inventory reconciliation. C6 ve ECC paketi PARTIAL.**
 
 Bu dosya amaç, yetki ve current/next işi taşır. Ayrıntılı okuma/sürüm/kapsam hesabı [ECC READING](studies/ecc/READING.md), bağlamlı kullanımlar [TERMS](studies/ecc/TERMS.md) içindedir. Kaynak ECC araştırmasının current işi Concepts'in çalışma rotası değildir.
 
 ## 1. Amaç ve aşama
 
-**B6-SERIAL-EXTRACTION-ACTIVE / ECC-C1–C5-SOURCE-FAMILY-TRANSFER-COMPLETE / C6a-COMPLETE / C6b-E01–E03-COMPLETE / C6b-PARTIAL / ECC-PACKAGE-PARTIAL / METHOD-v0.3-WORKING / B7-B8-NOT-STARTED.**
+**B6-SERIAL-EXTRACTION-ACTIVE / ECC-C1–C5-SOURCE-FAMILY-TRANSFER-COMPLETE / C6a-COMPLETE / C6b-E01–E05-RAW-EVIDENCE-COMPLETE / C6-ACTIVE-PARTIAL / ECC-PACKAGE-PARTIAL / METHOD-v0.3-WORKING / B7-B8-NOT-STARTED.**
 
 Amaç research/studies araştırmalarındaki kullanımları, kendi bağlamları ve ilişkileriyle tam okumadan çıkarmak; bütün kapsam ve delta kontrolü sonrasında ayrı ortak değerlendirmeyle Development OS/SOUL konuşmalarında ne kastedildiğini belirginleştirmektir. Şimdiki iş genel sözlük, yeni ürün testi veya mimari kabul değildir. Dosya/kullanım adedi başarı yüzdesi sayılmaz.
 
@@ -22,8 +22,9 @@ Giriş: AGENT ve gerekli protokoller → concepts/INDEX'in STATE/CHARTER/ORIGIN/
 | Hermes Concepts | H1–H5/package-complete korunur; kaynak araştırmasının önceki ACTIVE/PARTIAL/Q60 kaydı bu tur yeniden incelenmedi |
 | ECC C1–C5 / U01–U12 | Kaynak-aile aktarımı korunur; bu durum her ham dosyanın FULL veya paket complete olması değildir |
 | ECC C6a | 41f6603 snapshot envanteri ve geçmiş okuma-dayanağı hesabı tamamlanmış olarak korunur |
-| ECC C6b E01–E03 | Bu tur üç betik + dokuz plan/sonuç/README FULL okundu; S/W ile karşılaştırıldı |
-| ECC C6b E04/E05 | Exact next; iki driver ve üç compressed taşıyıcının okuması/recovery açık |
+| ECC C6b E01–E03 | Üç betik + dokuz plan/sonuç/README FULL okundu; S/W ile karşılaştırıldı |
+| ECC C6b E04/E05 | Bu tur iki driver + üç compressed carrier read-only recovered/FULL; L refinements ve PE evidence uses yayımlandı |
+| ECC C6 history/inventory | Exact next; dört master-history + current PLAN/QUESTIONS + inventory |
 | ECC C6 bütünü | Root/history/inventory, yeni kaynak delta'sı, bütün kullanım kayıtları ve final census açık |
 | ECC source-study | Ayrı ACTIVE/PARTIAL; bu turun 7ce22d4 snapshot'ında U18-F IN PROGRESS, son completed U18-E |
 | Post-S1 eklemeler | agentmemory, claude-swap, cli-continues, ponytail B7 öncesi kapsam hesabında |
@@ -41,7 +42,7 @@ Somut anlam katkıları: E01'de kaynak tahmini ile istenen bütünlük ayrı; E0
 
 **S/W anlamlarını değiştirmeyi gerektiren maddi çelişki saptanmadı.** W11'in blockedBy sınırı zaten doğruydu; eski hata düzeltilmiş gibi sunulmadı. S12–S14, W01–W11 ve W42–W52 karşılaştırıldı; diğer setup/rollback/pane/memory/SQL iddiaları bu kapsamla doğrulanmış sayılmadı. Eski 15 TERMS dosyası korunur; 17 yeni PE adresi ayrı dosyadadır.
 
-C6a'da U koduyla açık bırakılmış beş driver'dan ilk üçü bu scoped okumayla kapandı. E04/E05 U2, üç R ve bütün diğer C6 yükümlülükleri açık. E06 excluded ve iki E05 geçmişi ayrı; E07/E08/E09'un önceki kapsamları değiştirilmedi.
+C6a'da açık bırakılmış E01–E05 driver'ları ve üç usable compressed E04/E05 carrier scoped olarak kapandı. E06 excluded ve iki E05 geçmişi ayrı; E07/E08/E09/E10 önceki kapsamlarında kalır. E04 9/9, Node E05 15/15 ve conversation-E05 16/16 driver-local match sayıları ürün kalite/güvenlik skoru değildir.
 
 ## 4. Kaynak delta'sı ve tarihsel manifest
 
@@ -51,13 +52,19 @@ Kaynak STATE/META/INDEX 7ce22d4'te FULL okundu. Source STATE U18-F activation'ı
 
 Bu tur bütün yeni kaynakların census veya aktarımı yapıldı denmez. Uzun diff'in bazı sıfır istatistiklerinden dosya boş/yok sonucu çıkarılmadı. C6 devamında 41f6603→fresh main gerçek yaprak delta'sı ve her dosyanın içerik rolü hesaba katılacak; eski C1–C5 planında adı olmayan dosyalar dışlanmayacak. Fakat her tur yalnız census yapıp somut ham içerik okuması ertelenmeyecek.
 
-## 5. Exact next — C6b E04/E05
+## 5. Historical next — E04/E05 completed
 
 İlk kaynak **research/studies/ecc/evidence/u05-b-evaluation-probe/probe.cjs**, beklenen blob **16333fcf9d2bbe208fee061044a997d7aa06e2d3**; ardından **evidence/u06-a-config-probe/probe.cjs**, blob **7d855c5960636925e97da6b2cbffa9c20b673bea**. Plan/README ve L kullanımlarıyla karşılaştırılacak. Bu iki betik bu tur okunmadı.
 
 Sonra mevcut **results.json.gz**, **results.json.xz** ve **u06-a-conversation-record/original-evidence.tar.xz** exact-byte read-only recovery ve tam içerik incelemesinden geçecek. Kimlik/erişim kontrolü başarısızsa açıklanacak; özetle ham içerik tamamlanmış sayılmayacak. Node/Python E05 vakaları birleştirilmeyecek. Hiçbir deney yeniden başlatılmayacak.
 
 C6'nın kalan işleri: dört selected master-history, current PLAN/QUESTIONS, inventory; U13 ve sonraki bütün source delta; şimdi **16 bağlı TERMS + router** için kaynak/atıf/rol/ID/ilişki/düzeltme etkisi; final current corpus hesabı. Version-qualified package closure ancak bu somut koşullar karşılanınca verilir. ECC sonrası sıra work-management-project-control; B7 bitmeden B8 başlamaz.
+
+## 7. Exact next — history/current plan/inventory
+
+Dört selected master-history dosyası FULL kapatılır: `METHOD-REVIEW.md`, `PUBLICATION.md`, `RESEARCH-LOG.md`, `SOURCE-LEDGER.md`. Ardından current `PLAN.md`, `QUESTIONS.md` ve inventory family tam okunur/uzlaştırılır. Bu iş kaynak research'ün yeni technical inquiry'sini yürütmez.
+
+Sonraki C6 yükümlülükleri: 41f6603 census'tan fresh main'e exact leaf delta; U13 ve sonrasındaki published source materyalinin Concepts aktarımı; linked TERMS/router source-role-ID-relation kontrolü; final fresh census/version-qualified package closure.
 
 ## 6. Yayın ve koruma
 
