@@ -170,3 +170,13 @@ New [TERMS-MAINTENANCE-RECOVERY.md](TERMS-MAINTENANCE-RECOVERY.md), **ECC-ML01�
 U16-A1/A2 together answer G3 at bounded source scope; installed identity/authority/concurrency/crash/useful-outcome residuals source-study'de kalır. Concepts hiçbir maintenance command çalıştırmadı veya user files'a dokunmadı.
 
 **Exact next:** U17-A guidance/host/generated-source and E10 recovery package, then U18 existing optional-interface families.
+
+## 13. C6 post-U12 transfer — U17-A / E10
+
+Source snapshot **697883a568e78989b97a2f2fe87d71298fe4d36f**. Note39, U17-A ledger, MR40, original publication receipt and alignment receipt, plus E10 PRECHECK/README/restore helper/recovery-check were read. The U17 ledger was re-fetched through EOF after a truncated combined view.
+
+New [TERMS-GUIDANCE-PROCEDURES-E10.md](TERMS-GUIDANCE-PROCEDURES-E10.md), **ECC-GH01–GH55**. Host guidance/materialization vs standalone converter; converter changed/unchanged vs host conformance; PRD/plan/TDD/PR actor-interpreted handoffs; milestone status vs approval/completion; dev-team roles vs independent evidence; E10 historical campaign vs archive recovery/publication integrity uses are separate.
+
+E10 remains one seven-case historical source-informed local campaign. Repository bad base64 is explicitly not directly admissible ZIP evidence; guarded recovery reproduces the original archive identity without rerunning target code. The recovery/result standing is inherited from the source study; Concepts did not run E10 or Gemini/model/provider.
+
+**Exact next:** U18 published G5 slices. Fresh source STATE must decide which U18 units are completed before Concepts transfer; in-progress source units are not promoted to complete.
