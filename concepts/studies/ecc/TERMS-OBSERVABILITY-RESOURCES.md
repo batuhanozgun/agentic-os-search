@@ -9,6 +9,16 @@ Kaynak:
 - Fixed upstream target: `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 - U14 tests inspected, not run; no new Concepts execution.
 
+## 0. Source locator and role map
+
+| Usage range | Exact research sources | Source role / evidence class |
+|---|---|---|
+| ECC-OR01–OR24 | [Note30](../../../research/studies/ecc/notes/30-READINESS-PREDICATES-AND-OPERATOR-PROJECTIONS.md) §§1–8 → [U14-A ledger](../../../research/studies/ecc/evidence/U14-A-SOURCES.md) → [MR31](../../../research/studies/ecc/ROUND-U14-A.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U14-A.md) | Research-author synthesis over fixed-pin SOURCE OBSERVATION, TEST-SOURCE-INSPECTED and dated interface contracts; tests not run. |
+| ECC-OR25–OR54 | [Note31](../../../research/studies/ecc/notes/31-TOOL-ACTIVITY-INGESTION-AND-RISK-USE.md) §§1–9 → [U14-B ledger](../../../research/studies/ecc/evidence/U14-B-SOURCES.md) → [MR32](../../../research/studies/ecc/ROUND-U14-B.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U14-B.md) | Research-author synthesis and conditional inference over source/test definitions; no telemetry execution. |
+| ECC-OR55–OR82 | [Note32](../../../research/studies/ecc/notes/32-USAGE-COST-CONTEXT-AND-RESOURCE-CONTROL.md) §§1–9 → [U14-C ledger](../../../research/studies/ecc/evidence/U14-C-SOURCES.md) → [MR33](../../../research/studies/ecc/ROUND-U14-C.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U14-C.md) | Research-author synthesis and source-derived arithmetic/conditional paths; no billing/provider/resource-control run. |
+
+The Note carries the researcher's explanation; the ledger carries original path/blob/read/evidence class. MR/receipt are method/publication context, not independent corroboration.
+
 ## 1. Readiness and projection
 
 | ID / ifade | ECC araştırmasındaki kullanım | Sınır |
