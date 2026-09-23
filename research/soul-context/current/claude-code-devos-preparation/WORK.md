@@ -55,7 +55,7 @@ R01–R09'un tümünü kopyalama, RPD'yi hook'a indirgeme, çoklu ajanı zorunlu
 
 | İş | Sorumluluk / durum | Çıktı ve bir sonraki bağ |
 |---|---|---|
-| W00 — Konuşma yönünü, kaynakları ve ilk açık ihtiyaçları kalıcılaştır | Research; bu kayıt + kaynak paketi hazırlanıyor/yayın tesliminde doğrulanacak | OWNER-CONTEXT, WORK, SOURCE-REGISTER, CLAUDE-TASK-01; yeni oturum doğru hedefe döner |
+| W00 — Konuşma yönünü, kaynakları ve ilk açık ihtiyaçları kalıcılaştır | Research; TAMAMLANDI — main yayını, kaynak/bağlantı ve aktarım paketi bütünlük kontrolleri yapıldı | OWNER-CONTEXT, WORK, SOURCE-REGISTER, CLAUDE-TASK-01; yeni oturum doğru hedefe döner |
 | W01 — Claude'un kaynak-bağlı hedef devralması ve mevcut koşulları gözlemesi | Claude; görev HAZIR, gönderim/koşu teyidi YOK | Actual-state raporu + ilk gereksinim/bağımlılık değerlendirmesi; N01–N04/N06/N08'i günceller |
 | W02 — W01'i kaynaklar ve gerçek hedef karşısında değerlendirme | Research ve Claude; W01 sonucu gerekli | Anlaşma boşlukları, kritik eksikler, alternatifler, test edilebilir hazırlık gerekleri; N00'a döner |
 | W03 — Seçilen hazırlık gereklerini karşılayan mekanizmaları tasarlama/uyarlama | Sonuçlara bağlı; henüz başlatılmadı | Gerekçeli kontrol, uzmanlık, bilgi/iş/ortam düzeni; önceden kabul edilmiş teknoloji/topoloji yok |
@@ -76,6 +76,14 @@ Bütçe/bağlam bitmesi, okunmuş dosya sayısı, dolu tablo veya "kontrol uygul
 
 **Sıradaki somut adım:** Batu, tek aktarım paketiyle [CLAUDE-TASK-01](CLAUDE-TASK-01.md)'i mevcut Claude cloud oturumuna iletir. Mesajın taşınması teknik yöntemi Batu'ya seçtirmez. Research burada doğrudan Claude oturumu başlatmadı veya onunla otomatik kanal kurmadı.
 
-**Next authorised Research work:** devir paketinin yayın/teslim doğrulaması; ardından gelen Claude yanıtını bu hazırlık kapsamı içinde değerlendirmek. Gönderim teyidi veya gerçek sonuç geldiğinde bu kayıt güncellenir. Arka planda izleme başlatılmadı. **Next logical implementation work** ile **bugün gönderilmiş iş** ayrı kalır.
+**Next authorised Research work:** Claude gönderim teyidi veya yanıtı geldiğinde bu hazırlık kapsamında değerlendirmek; W00'ı yeniden hazırlama görevi olarak açmamak. Gönderim teyidi veya gerçek sonuç geldiğinde bu kayıt güncellenir. Arka planda izleme başlatılmadı. **Next logical implementation work** ile **bugün gönderilmiş iş** ayrı kalır.
 
-**Yayın notu:** Bu dosya own-future commit/readback başarısı iddia etmez. Kesin yayın kimliği Git commit/ref ve konuşmadaki gerçek teslim makbuzuyla belirlenir. Önceki kaynaklar ve aktif agent-control bu kayıt için yeniden yazılmaz.
+## 8. Gerçek yayın ve kontrol makbuzu
+
+İlk aday `238cb5893f67c44e283d9d217bc9976feb619d16` main'e fast-forward edilemedi; GitHub 422 verdi. Force kullanılmadı. Başlangıçtan yeni main `76da2197e669b7c278e0b82a831e61f74e9adf95`e yedi commit farkı yalnız altı ECC dosyasındaydı. Aynı yedi hazırlık dosyası bu yeni ağacın üzerine taşındı; ECC ve diğer alanlar korundu.
+
+**Gerçek ana yayın:** `74abce21bf17e278eec331b2b7beadd482b32f62`. GitHub main ref güncellemesi başarılı döndü; ardından main STATE ve bu WORK doğrudan geri okundu. Paket dört kaynak/iş/görev dosyası ile soul-context STATE/INDEX/README yönlendirmelerinden oluşur. Agent-control, Foundation, studies içerikleri, explorations ve hedef Claude repository'sine yazılmadı. Çalışma branch'i veya PR açılmadı.
+
+Dört paket dosyasının remote Git blob'ları yerel byte'lardan hesaplanan kimliklerle eşleşti; 14 yerel yönlendirme bağlantısı kontrol edildi. İlk aktarım ZIP'inin sekiz üyesi, CRC'si, manifest SHA-256 değerleri ve güvenli dosya yolları kontrol edildi. RPD'nin iki özgün metni eski değerlendirmedeki hash'lerle eşleşiyor. Makbuz güncellemesi sonrasında teslim ZIP'i aynı görev ve kaynaklarla, yeni WORK sürümü ve exact ref'iyle yeniden paketlenir; kendi manifesti ve nihai teslim bu sürümü bağlar.
+
+Bu makbuz yalnız WORK'ün W00/yayın/next-work durumunu kapatır. Claude görev blob'u `f61daabf85606a35a7c031387cf85f51b37cf7a9` ve kaynak dayanakları değişmez. Dosya/bağlantı/ZIP kontrolü ile içerik self-review'ü yapılmıştır; bağımsız actor, Claude runtime veya fresh-session yeterlik deneyi yapılmış sayılmaz. W01 hâlâ gönderim/yanıt bekler; DevOS hazırlığının bütünü tamamlandı denmez.
