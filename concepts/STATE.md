@@ -1,6 +1,6 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-23 · **ECC C6 raw/history/inventory reconciliation + U14–U17 transfer complete. Exact next: completed/published U18 G5 source slices. C6 ve ECC paketi PARTIAL.**
+2026-09-23 · **ECC C6 raw/history/inventory reconciliation + U14–U18-G transfer complete. Closure gap: U13-A/B dedicated Concepts transfer eksik. Exact next: U13 release/scanner transfer. C6 ve ECC paketi PARTIAL.**
 
 Bu dosya amaç, yetki ve current/next işi taşır. Ayrıntılı okuma/sürüm/kapsam hesabı [ECC READING](studies/ecc/READING.md), bağlamlı kullanımlar [TERMS](studies/ecc/TERMS.md) içindedir. Kaynak ECC araştırmasının current işi Concepts'in çalışma rotası değildir.
 
@@ -25,9 +25,9 @@ Giriş: AGENT ve gerekli protokoller → concepts/INDEX'in STATE/CHARTER/ORIGIN/
 | ECC C6b E01–E03 | Üç betik + dokuz plan/sonuç/README FULL okundu; S/W ile karşılaştırıldı |
 | ECC C6b E04/E05 | Bu tur iki driver + üç compressed carrier read-only recovered/FULL; L refinements ve PE evidence uses yayımlandı |
 | ECC C6 history/inventory | Bu tur FULL reconciliation complete; PC01–PC45 |
-| ECC C6 source delta | Exact next; 41f6603 census → fresh main leaves, U13+ existing research transfer |
+| ECC C6 source delta | Fresh delta kaydı var; U14–U18-G transferred. U13-A/B dedicated transfer hâlâ açık |
 | ECC C6 bütünü | Root/history/inventory, yeni kaynak delta'sı, bütün kullanım kayıtları ve final census açık |
-| ECC source-study | Ayrı ACTIVE/PARTIAL; bu turun 7ce22d4 snapshot'ında U18-F IN PROGRESS, son completed U18-E |
+| ECC source-study | Ayrı ACTIVE/PARTIAL; fresh STATE'te U18-G COMPLETE/PUBLISHED, U18-H/Q08d2 NOT STARTED |
 | Post-S1 eklemeler | agentmemory, claude-swap, cli-continues, ponytail B7 öncesi kapsam hesabında |
 | B7/B8 | Başlamadı |
 
@@ -106,3 +106,11 @@ U16-A1 managed maintenance/public commands ile U16-A2 shared hook/settings, JSON
 U17-A representative host guidance/procedural handoff and E10 recovery package Concepts'e aktarıldı. New usage file `TERMS-GUIDANCE-PROCEDURES-E10.md`, GH01–GH55. E10 archive recovery historical evidence correspondence'tur; target rerun/independent replication değildir.
 
 **Exact next:** fresh ECC source STATE'ten completed/published U18 units'i belirleyip yalnız mevcut research outputs'ı aktar.
+
+## 13. C6 post-U12 progress — U18-A–G transferred
+
+U18-A–G published source outputs Concepts'e aktarıldı. Usage files: `TERMS-SCORECARD-REPUTATION-CONSULT.md` IX01–IX66; `TERMS-EXTERNAL-CLIENTS-CONTEXT.md` EC01–EC83; `TERMS-DESKTOP-DISCOVERY.md` DD01–DD40. U18-H browser inquiry kaynak study'de NOT STARTED ve Concepts tarafından başlatılmadı.
+
+C6 closure kontrolü bir kapsam boşluğunu görünür kıldı: **U13-A release qualification ve U13-B supply-chain scanner Notes28–29 dedicated Concepts kullanım dosyasına henüz aktarılmamış.** Later synthesis'in bu notlara referans vermesi dedicated usage extraction yerine geçmez.
+
+**Exact next:** U13-A/B mevcut note/source-ledger/round/publication dosyalarını FULL devralıp release/scanner bağlamlı kullanımlarını çıkar. Ardından linked TERMS/router audit + fresh final census.
