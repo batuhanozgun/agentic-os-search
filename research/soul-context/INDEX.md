@@ -1,34 +1,31 @@
 # SOUL Context — INDEX
 
-Bu dosya retrieval router'dır; agent-control, araştırma sonucu veya hedef repository'nin canlı durum otoritesi değildir. Güncel cross-project yön [STATE](STATE.md)'ten alınır.
+Bu dosya retrieval router'dır; agent-control veya hedefin canlı iş otoritesi değildir. Güncel cross-project yön [STATE](STATE.md)'tedir.
 
-## Güncel Claude Code hazırlığı
+## Development OS denemeleri — yeni ana alan
 
-`STATE.md` → [CC-DEVOS-PREP / WORK](current/claude-code-devos-preparation/WORK.md) → [OWNER-CONTEXT](current/claude-code-devos-preparation/OWNER-CONTEXT.md) → [SOURCE-REGISTER](current/claude-code-devos-preparation/SOURCE-REGISTER.md) → [CLAUDE-TASK-01](current/claude-code-devos-preparation/CLAUDE-TASK-01.md).
+[development-os/INDEX](../../development-os/INDEX.md) → [DEVOS-001 WORK](../../development-os/attempts/001/WORK.md) → BRIEF / EXCHANGE / REVIEW / ilgili mesaj.
 
-WORK ayrıntılı hazırlık ve gönderim durumunu taşır. Yeni görevin hazırlanması, iletilmesi, Claude'un devralması, runtime koşuları ve Development OS inşasına hazır olması farklı olaylardır. `_02` yetkisi/mimarisi/kanıtı bu hedefe miras değildir. Source-REGISTER'daki okuma derinliği korunur; özet veya dosya adı tam kaynak sayılmaz.
+Ayrıntılı koordinasyon, karşılıklı mesajlar, engeller, sıra ve dersler bu yeni alanda yönetilir. Eski `current/claude-code-devos-preparation/` artık tarihsel hazırlık girdisidir; onun görev metni yeniden gönderilecek current assignment değildir.
 
 ## Konuya göre geri çağırma
 
 | Soru | İlk yol | Derinlik ve sınır |
 |---|---|---|
-| Claude'a şimdi ne gönderilecek; ne gerçekleşti? | Güncel STATE → WORK | Exact görev ve varsa gerçek target response/ref; otomatik gönderim varsayılmaz |
-| Kullanıcının hazırlık ve kapsam beklentisi | OWNER-CONTEXT | Özgün kullanıcı ifadeleri; Research yorumu ayrı |
-| RPD'nin tamamı ve kaynaklarına erişim | SOURCE-REGISTER → `../studies/recursive-prerequisite-discovery/` | Özgün iki kaynak ve araştırma kaydı ayrı; eksik byte özetle tamamlanmaz |
-| Mesleki standart, entelektüel taban ve süreç dersleri | `../../explorations/CATALOG.md` | Seçilen EXP'nin STATE/INDEX → özgün diyalog/eser; birikim mimari kabulü değil |
-| Araştırmadan ne yararlanılacak? | `../soul-foundations/STATE.md` ve current reuse yolu; `../studies/CATALOG.md` | İhtiyaç → ilgili kaynak → seçenek/karar/kanıta katkı; corpus hazır reçete değil |
-| SOUL Research neden var; ürün ve geliştirme ayrımı | `evidence/CONTEXT-SYNTHESIS.md` | `evidence/transition-to-soul.md`, `repos/soul/README.md`; güncel niyet yeni kullanıcı yönüyle birlikte |
-| Research / Development / Production sınırı | STATE → `evidence/research-architecture-boundary.md` | İlgili hedefin kendi gerçek durumu ayrıca okunur |
-| 8 Eylül `_02` görev/devir ayrıntısı | STATE'in tarihsel exact sürüm bağlantısı | O görevde gönderilmiş exact REVIEW ve ek kimlikleri; yeni Claude grant'ı değil |
-| 22 Eylül iptal edilen girişim | EXP-005 STATE → lessons → source conversation | Eski görev belgesi tarihsel eser; tekrar yürütülmez |
-| Eski bootstrap / coordinator / S1–G1 tarihi | Aşağıdaki korunmuş index ve Git STATE tarihçesi | `current/briefs/`, `current/reviews/`, `current/DEVELOPMENT-OS-BOOTSTRAP.md`; current yetki yerine geçmez |
-| KEEL / OS Architect / predecessor kanıtı | `repos/os-architect/README.md`, `repos/keel/README.md`, `repos/keel-research/README.md` | Claim için exact kaynak; tarihsel test gerçek yeniden koşu değildir |
-| Erken yerel model fikirleri | `exploratory/README.md` | LOCAL / PROVISIONAL, varsayılan çalışma metodu değil |
+| Claude ile güncel deneme, mesaj veya review | Yukarıdaki DEVOS-001 WORK | Exact mesaj/ref; hazırlanma, yayın, alım, değerlendirme ve uygulama ayrı |
+| Güncel denemenin kullanıcı yönü | DEVOS-001 BRIEF | Görünür kullanıcı mesajı; Research yorumu ayrı |
+| Önceki Claude hazırlığı ve RPD kaynak aktarımı | [eski WORK](current/claude-code-devos-preparation/WORK.md), [OWNER-CONTEXT](current/claude-code-devos-preparation/OWNER-CONTEXT.md), [SOURCE-REGISTER](current/claude-code-devos-preparation/SOURCE-REGISTER.md) | Exact eski kayıt; okuma kapsamı ve byte erişimi tahmin edilmez |
+| Mesleki standart ve süreç dersleri | [explorations CATALOG](../../explorations/CATALOG.md) | Seçilen EXP STATE/INDEX → özgün diyalog/eser; mimari kabulü değil |
+| Araştırma birikiminden yararlanma | [Foundation STATE](../soul-foundations/STATE.md), [studies CATALOG](../studies/CATALOG.md) | İhtiyaç → ilgili kaynak → karar/kanıta katkı; hazır reçete değil |
+| SOUL Research neden var? | `evidence/CONTEXT-SYNTHESIS.md` | `evidence/transition-to-soul.md`, `repos/soul/README.md`; yeni yönle birlikte |
+| Research / Development / Production sınırı | STATE → `evidence/research-architecture-boundary.md` | Hedefin kendi gerçek durumu ayrıca okunur |
+| 8 Eylül `_02` devri | STATE'in exact tarihsel bağlantısı | Eski REVIEW ve grant; yeni Claude yetkisi değil |
+| 22 Eylül iptal edilen girişim | EXP-005 STATE → lessons → source conversation | İptal edilen görev tekrar yürütülmez |
+| KEEL / OS Architect / predecessor | `repos/os-architect/README.md`, `repos/keel/README.md`, `repos/keel-research/README.md` | Exact kaynak; tarihsel test yeniden koşulmuş sayılmaz |
+| Erken yerel model fikirleri | `exploratory/README.md` | LOCAL / PROVISIONAL |
 
-## Tarihsel navigasyonun korunması
+## Korunan eski navigasyon
 
-Önceki ayrıntılı Codex rota tablosu [cee38caa exact INDEX](https://github.com/batuhanozgun/agentic-os-search/blob/cee38caa970399fa4bf267cb484331e0c50164c9/research/soul-context/INDEX.md)'te korunur; blob `4568f0a28dfd3e80c5f69e82d5f15f89a2864f92`. Eski brief/review/evidence dosyaları değiştirilmedi. Tarihsel "güncel" sözcüğü ve hazırlanmış görev, yeni hedefe yetki aktarmaz.
+Önceki Claude hazırlık index'i [1be22a3 exact INDEX](https://github.com/batuhanozgun/agentic-os-search/blob/1be22a362df2aa527da09b50a19389d167fcf98e/research/soul-context/INDEX.md)'tedir. Daha eski ayrıntılı Codex rotası [cee38caa exact INDEX](https://github.com/batuhanozgun/agentic-os-search/blob/cee38caa970399fa4bf267cb484331e0c50164c9/research/soul-context/INDEX.md)'tedir; blob `4568f0a28dfd3e80c5f69e82d5f15f89a2864f92`.
 
-## Yüzeylerin rolleri
-
-`repos/` source ledgers; `evidence/` kaynak-bağlı context sentezleri; `current/` sınırlı cross-project hazırlık/devir ve tarihli görevler; `exploratory/` yerel geçici fikirlerdir. Hangi görev gerçekten current, hangisi yalnız hazırlanmış veya tarihsel, STATE ve onun yönlendirdiği iş kaydından belirlenir. Belge varlığı, hash eşleşmesi, aktarım ve davranış yeterliği tek hükme birleştirilmez.
+`repos/` source ledgers; `evidence/` kaynak-bağlı sentezler; `current/` tarihli bağlam/devir kayıtları; `exploratory/` geçici fikirlerdir. Dizin adı, hash veya belge varlığı current yetki ve gerçek yeterlik sağlamaz.
