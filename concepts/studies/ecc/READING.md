@@ -148,3 +148,15 @@ New [TERMS-OBSERVABILITY-RESOURCES.md](TERMS-OBSERVABILITY-RESOURCES.md), **ECC-
 No pre-U14 TERMS meaning was silently overwritten. U14 terms are source-local records, not universal observability taxonomy. Q08a2/b2/c2 remain stronger source-study residuals, not Concepts experiment debt.
 
 **Exact next:** U15-A provisional native-system assembly and U15-B/U15-C integration/information source families from the existing published research. Then U16 maintenance, U17 guidance/E10, U18 optional-interface families and remaining delta.
+
+## 11. C6 post-U12 transfer — U15-A/B/C1/C2
+
+Source snapshot: **697883a568e78989b97a2f2fe87d71298fe4d36f**. U15-A provisional assembly/coverage, U15-B integration/retention, U15-C1 Rust connector/graph/recipient-use ve U15-C2 Node recall/proximity source packages note+ledger+round+receipt scope'larında okundu. U15-B/C1/C2 ledgers ayrıca bounded chunks ile EOF'a kadar geri alındı; truncated combined display tek başına FULL sayılmadı.
+
+New [TERMS-ASSEMBLY-INTEGRATION-INFORMATION.md](TERMS-ASSEMBLY-INTEGRATION-INFORMATION.md), **ECC-AI01–AI92**. Assembly source-local synthesis language, merge/rebase/prune contracts, connector/checkpoint/graph recall and Node knowledge/proximity/advice uses separated.
+
+Material boundaries: provisional assembly ≠ CORE; mergeable ≠ accepted; preview branch names ≠ immutable approved revisions; merge retention ≠ daemon retention; import checkpoint ≠ cursor/validity receipt; stored knowledge ≠ recalled knowledge ≠ recipient uptake; Rust graph recall ≠ Node knowledge recall ≠ code-proximity graph; risk/advice/display ≠ authority/effect.
+
+No U15 target execution, merge/rebase/deletion, connector import, SQLite run, proximity run or test execution by Concepts. Conditional counterpaths remain source-derived.
+
+**Exact next:** U16-A1/A2 existing-source transfer — managed maintenance/update/repair/uninstall, shared configuration ownership and legacy recovery. Then U17 guidance/E10 and U18 optional-interface/remaining G5 families.
