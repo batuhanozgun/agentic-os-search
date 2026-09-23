@@ -1,11 +1,11 @@
 # ECC — Browser dashboard exposure and consumer uses
 
-2026-09-23 · **C6 current-snapshot transfer / U18-H active-unpublished source material.** Bu dosya browser dashboard’ın source projection, HTTP admission, rendering ve local action kullanımlarını taşır. BD kimlikleri desktop dashboard veya generic web-security tanımı değildir.
+2026-09-23 · **C6 post-freeze publication delta applied / U18-H COMPLETE-PUBLISHED source material.** Bu dosya browser dashboard’ın source projection, HTTP admission, rendering ve local action kullanımlarını taşır. BD kimlikleri desktop dashboard veya generic web-security tanımı değildir.
 
 Source standing at extraction:
-- canonical source `STATE.md`: **U18-H IN PROGRESS**, last completed/published U18-G;
-- Note47 and MR48 describe a bounded source answer, but no U18-H publication receipt/final source STATE closure exists in this extraction snapshot;
-- exact ledger: `evidence/U18-H-SOURCES.md`.
+- initial extraction snapshot had canonical source STATE **U18-H IN PROGRESS** after Note47/ledger/MR48;
+- post-freeze delta added [PUBLICATION-U18-H](../../../research/studies/ecc/PUBLICATION-U18-H.md) and final [source STATE](../../../research/studies/ecc/STATE.md), which mark **U18-H COMPLETE/PUBLISHED** and U18-I NOT STARTED;
+- exact source ledger remains `evidence/U18-H-SOURCES.md`.
 Fixed target: `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 Tests inspected, not run; no server/browser/model/clipboard/MCP/configuration execution.
 
@@ -13,7 +13,8 @@ Tests inspected, not run; no server/browser/model/clipboard/MCP/configuration ex
 
 | Usage range | Exact research sources | Source role / evidence class |
 |---|---|---|
-| ECC-BD01–BD52 | [Note47](../../../research/studies/ecc/notes/47-BROWSER-DASHBOARD-EXPOSURE-AND-CONSUMER-BOUNDARIES.md) §§1–8 → [U18-H ledger](../../../research/studies/ecc/evidence/U18-H-SOURCES.md) → [MR48](../../../research/studies/ecc/ROUND-U18-H.md) plus current [source STATE](../../../research/studies/ecc/STATE.md) | Note/ledger/MR carry a bounded SOURCE OBSERVATION + TEST SOURCE INSPECTED answer; at this Concepts snapshot canonical source STATE still marks U18-H IN PROGRESS and no publication receipt is present. No server/browser/DOM/clipboard execution. |
+| ECC-BD01–BD52 | [Note47](../../../research/studies/ecc/notes/47-BROWSER-DASHBOARD-EXPOSURE-AND-CONSUMER-BOUNDARIES.md) §§1–8 → [U18-H ledger](../../../research/studies/ecc/evidence/U18-H-SOURCES.md) → [MR48](../../../research/studies/ecc/ROUND-U18-H.md) | SOURCE OBSERVATION + TEST SOURCE INSPECTED and conditional browser/HTTP/DOM deductions; no server/browser/DOM/clipboard execution. |
+| ECC-BD53 | [PUBLICATION-U18-H](../../../research/studies/ecc/PUBLICATION-U18-H.md) → final [source STATE](../../../research/studies/ecc/STATE.md) | Publication/correspondence standing only: source unit closes COMPLETE/PUBLISHED without strengthening Note47's evidence class; U18-I remains NOT STARTED. |
 
 This map intentionally preserves the mismatch between bounded source-answer content and unfinished source publication standing; it does not silently promote U18-H.
 
@@ -98,6 +99,7 @@ This map intentionally preserves the mismatch between bounded source-answer cont
 | ECC-BD50 — source answer / publication standing split | Note47/MR48 call the bounded inquiry source-complete while canonical source STATE remains IN PROGRESS pending entry/publication closure. | Concepts may call it published/closed source unit değil. |
 | ECC-BD51 — active source snapshot | Existing Note47/ledger/round are legitimate current corpus material despite source publication not closed. | Future U18-H publication/result files are already known or implicitly complete değil. |
 | ECC-BD52 — desktop/browser non-equivalence | Desktop Q08d1 and browser Q08d2 have different implementations/consumers. | Shared dashboard name means same controls or risks değil. |
+| ECC-BD53 — U18-H publication closure | Note47/ledger/MR48 source answer daha önce mevcutken later receipt + final STATE unit'i COMPLETE/PUBLISHED yapar ve U18-I'yi NOT STARTED seçer. | Publication closure yeni target evidence, browser execution veya stronger runtime claim değildir. |
 
 ## 7. U18-H non-collapse
 
@@ -114,4 +116,4 @@ This map intentionally preserves the mismatch between bounded source-answer cont
 - clipboard completion ≠ command execution;
 - bounded source answer ≠ checked source publication.
 
-This Concepts transfer is explicitly snapshot-scoped to the existing U18-H files. Future source-study publication or U18-I material is a later delta, not silently pre-extracted.
+This Concepts transfer includes the later U18-H publication closure. Future U18-I material remains a later delta, not silently pre-extracted.
