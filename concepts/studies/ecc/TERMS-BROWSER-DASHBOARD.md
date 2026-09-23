@@ -9,6 +9,14 @@ Source standing at extraction:
 Fixed target: `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 Tests inspected, not run; no server/browser/model/clipboard/MCP/configuration execution.
 
+## 0. Source locator and role map
+
+| Usage range | Exact research sources | Source role / evidence class |
+|---|---|---|
+| ECC-BD01–BD52 | [Note47](../../../research/studies/ecc/notes/47-BROWSER-DASHBOARD-EXPOSURE-AND-CONSUMER-BOUNDARIES.md) §§1–8 → [U18-H ledger](../../../research/studies/ecc/evidence/U18-H-SOURCES.md) → [MR48](../../../research/studies/ecc/ROUND-U18-H.md) plus current [source STATE](../../../research/studies/ecc/STATE.md) | Note/ledger/MR carry a bounded SOURCE OBSERVATION + TEST SOURCE INSPECTED answer; at this Concepts snapshot canonical source STATE still marks U18-H IN PROGRESS and no publication receipt is present. No server/browser/DOM/clipboard execution. |
+
+This map intentionally preserves the mismatch between bounded source-answer content and unfinished source publication standing; it does not silently promote U18-H.
+
 ## 1. Browser role and source projection
 
 | ID / ifade | ECC araştırmasındaki kullanım | Sınır |
