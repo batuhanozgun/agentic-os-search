@@ -214,3 +214,13 @@ New [TERMS-RELEASE-SUPPLY-CHAIN.md](TERMS-RELEASE-SUPPLY-CHAIN.md), **ECC-RS01�
 With this addition, currently published source families U01–U18-G now have dedicated or explicitly historical Concepts transfer coverage. U18-H remains NOT STARTED in the source study and is not a missing Concepts extraction from the current corpus.
 
 **Exact next:** linked TERMS/router definition-ID/link/source-role audit; then fresh current `research/studies/ecc/**` leaf census and version-qualified C6/package closure decision.
+
+## 15. C6 current-snapshot transfer — U18-H active material
+
+Fresh source census exposed four post-U18-G additions: `PUBLICATION-U18-G.md`, `ROUND-U18-H.md`, `evidence/U18-H-SOURCES.md`, and `notes/47-BROWSER-DASHBOARD-EXPOSURE-AND-CONSUMER-BOUNDARIES.md`; root INDEX/META/PLAN/STATE also changed. Canonical source STATE at extraction marks **U18-H IN PROGRESS**, last completed/published U18-G. Note47/MR48 describe a bounded source answer, but source publication closure is not yet represented by a U18-H receipt/final STATE in this snapshot.
+
+Existing U18-H materials were nevertheless current corpus and therefore read: source STATE, Note47, ledger, MR48, current INDEX/META/PLAN. They were not promoted to published standing. New [TERMS-BROWSER-DASHBOARD.md](TERMS-BROWSER-DASHBOARD.md), **ECC-BD01–BD52**, transfers browser source projection, MCP/hook representation, Host/Origin admission, successful-empty failure projection, two-stage encoding/DOM, clipboard-result and source-answer/publication-standing distinctions.
+
+No server/browser/clipboard/model/MCP/config operation was executed. Future U18-H publication files or U18-I research are later delta, not silently anticipated.
+
+**Exact next:** rerun linked-TERMS/router mechanical/source-role audit including BD; create a fresh version-qualified source manifest for an explicit closure snapshot; decide C6/package standing without treating source-study ACTIVE/PARTIAL as nonexistent or complete.
