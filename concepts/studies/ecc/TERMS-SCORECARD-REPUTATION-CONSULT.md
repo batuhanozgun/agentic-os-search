@@ -9,6 +9,16 @@ Source packages:
 Fixed target: `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 Tests inspected, not run; no target execution/E11/live service/installation/model trial.
 
+## 0. Source locator and role map
+
+| Usage range | Exact research sources | Source role / evidence class |
+|---|---|---|
+| ECC-IX01–IX23 | [Note40](../../../research/studies/ecc/notes/40-HARNESS-SCORECARD-AND-OPTIMIZATION-CONSUMERS.md) §§1–8 → [U18-A ledger](../../../research/studies/ecc/evidence/U18-A-SOURCES.md) → [MR41](../../../research/studies/ecc/ROUND-U18-A.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U18-A.md) | SOURCE OBSERVATION + TARGET INSTRUCTION + TEST SOURCE INSPECTED + conditional inference; no optimizer/model run. |
+| ECC-IX24–IX43 | [Note41](../../../research/studies/ecc/notes/41-AURA-REPUTATION-GATE-AND-CALLER-BOUNDARIES.md) §§1–8 → [U18-B ledger](../../../research/studies/ecc/evidence/U18-B-SOURCES.md) → [MR42](../../../research/studies/ecc/ROUND-U18-B.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U18-B.md) | AURA adapter/source observation, caller documentation, injected test definitions and stipulated counter-responses; no live service query. |
+| ECC-IX44–IX66 | [Note42](../../../research/studies/ecc/notes/42-CONSULT-RECOMMENDATIONS-AND-INSTALLATION-BINDING.md) §§1–8 → [U18-C ledger](../../../research/studies/ecc/evidence/U18-C-SOURCES.md) → [MR43](../../../research/studies/ecc/ROUND-U18-C.md) → [original receipt](../../../research/studies/ecc/PUBLICATION-U18-C.md) → [alignment](../../../research/studies/ecc/PUBLICATION-U18-C-ALIGNMENT.md) | Source observation/test inspection and conditional installer composition; catalogue alignment is publication correspondence, not stronger evidence. |
+
+A score, gate and recommendation are kept separate because their producer, consumer and authority objects differ.
+
 ## 1. Harness scorecard and interpreted optimization
 
 | ID / ifade | ECC araştırmasındaki kullanım | Sınır |
