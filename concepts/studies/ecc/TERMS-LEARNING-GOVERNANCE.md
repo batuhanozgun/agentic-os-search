@@ -146,6 +146,10 @@
 | ECC-L103 — governance event correlation identity | Pre/post captures'ın random event IDs ile ayrı records üretebilmesi ve inspected object'te tool_use_id gibi exact operation correlation key bulunmaması. | Same command events'in kesin duplicate incident olduğu anlamına gelmez; higher-level reconciler olabilir. |
 | ECC-L104 — governance data minimization | Event payload'ın matched secret/full command yerine category, restricted command name, fingerprint ve bounded path gibi dar representation taşıması. | Original tool input/output'un başka yerde yok edildiği, anonymity veya complete privacy guarantee değildir. |
 
+## 9. C6b E04/E05 refinement source map
+
+The new L105–L114 refinements are grounded in [Note09](../../../research/studies/ecc/notes/09-CONFIGURATION-PROTECTION-AND-ENFORCEMENT.md), [U06-A source ledger](../../../research/studies/ecc/evidence/U06-A-SOURCES.md), exact Node driver [probe.cjs](../../../research/studies/ecc/evidence/u06-a-config-probe/probe.cjs) with recovered [results.json.xz](../../../research/studies/ecc/evidence/u06-a-config-probe/results.json.xz), and the separate conversation-E05 [reconciliation README](../../../research/studies/ecc/evidence/u06-a-conversation-record/README.md) plus [original-evidence.tar.xz](../../../research/studies/ecc/evidence/u06-a-conversation-record/original-evidence.tar.xz). These are SOURCE/recorded local-evidence readings and C6 read-only recovery; they are not a new E05 campaign. L66's refinement uses the same joined source/evidence boundary.
+
 ## 9. C6b E04/E05 raw-evidence refinements
 
 Aşağıdaki kayıtlar C3'ün önceki kaynak-aile aktarımını iptal etmez; C6b'de driver + ham sonuçların tam okunmasıyla source-local kullanım ayrımlarını tamamlar.
