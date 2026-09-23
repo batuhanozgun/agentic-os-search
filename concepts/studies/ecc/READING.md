@@ -1,6 +1,6 @@
 # ECC — Okuma ve kalıcı çıkarım durumu
 
-2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6 VERSION-QUALIFIED COMPLETE / ECC PACKAGE COMPLETE @ source tree 172a99a3d90e2db4c81cae16d79b79b3b83fab0a.**
+2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6 VERSION-QUALIFIED COMPLETE / ECC PACKAGE COMPLETE @ source tree e33ea2998ecd3c0e05a3f2c3dcf095b697b81544.**
 
 [TERMS](TERMS.md) bağlamlı kullanımları, [global STATE](../../STATE.md) amaç ve current/next işi taşır. C6a'nın envanter ve geçmiş okuma hesabı [C6-RECONCILIATION](C6-RECONCILIATION.md) ve [snapshot manifestinde](C6-SOURCE-MANIFEST.tsv) korunur. Bu current dosyanın §2–§4'ü E01–E03, §7 ise E04/E05 driver ve raw-recovery katmanıdır; C6a'nın tarihsel U/R kodlarının güncel karşılığı burada tutulur.
 
@@ -227,17 +227,17 @@ No server/browser/clipboard/model/MCP/config operation was executed. Future U18-
 
 ## 16. C6 final closure
 
-[C6 final reconciliation](C6-FINAL-RECONCILIATION.md), [246-leaf final source manifest](C6-FINAL-SOURCE-MANIFEST.tsv) and [TERMS audit](C6-TERMS-AUDIT.md) close the version-qualified extraction for source tree **172a99a3d90e2db4c81cae16d79b79b3b83fab0a**.
+[C6 final reconciliation](C6-FINAL-RECONCILIATION.md), [246-leaf final source manifest](C6-FINAL-SOURCE-MANIFEST.tsv) and [TERMS audit](C6-TERMS-AUDIT.md) close the version-qualified extraction for source tree **e33ea2998ecd3c0e05a3f2c3dcf095b697b81544**.
 
 Closure facts:
-- 246 source leaves mapped, zero unmapped;
-- baseline167 → freeze246 = 79 added / 5 changed / 162 unchanged / 0 deleted;
+- 247 source leaves mapped, zero unmapped;
+- baseline167 → final247 = 80 added / 5 changed / 162 unchanged / 0 deleted;
 - post-freeze drift check = 0 added / 0 changed / 0 deleted;
-- 26 linked usage files; 1,973 usage IDs; P01–P10 package IDs separately contiguous;
+- 26 linked usage files; 1,974 usage IDs; P01–P10 package IDs separately contiguous;
 - no missing/extra/duplicate router links; no ID gaps/duplicates;
 - new C6 source-role locator links checked with zero broken targets;
 - known raw/history/inventory/delta gaps resolved at their recorded scopes; E06 remains explicitly excluded evidence, not silently completed.
 
-Source-study standing is deliberately separate. The frozen source STATE has U18-H IN PROGRESS, last completed/published U18-G. Existing U18-H Note47/ledger/MR48 were transferred without inventing a publication receipt. Future source changes after the frozen tree are later delta and can reopen ECC currentness at B7 or an explicit re-entry.
+Source-study standing is deliberately separate. The first freeze captured U18-H IN PROGRESS; a real post-freeze delta then supplied PUBLICATION-U18-H and final source STATE/QUESTIONS. Those were read and the final freeze advanced to U18-H COMPLETE/PUBLISHED, U18-I NOT STARTED. Future source changes after tree e33ea299… are later delta and can reopen ECC currentness at B7 or explicit re-entry.
 
 **ECC Concepts exact next: none inside this package. Global B6 next is work-management-project-control.** B7/B8 remain not started.
