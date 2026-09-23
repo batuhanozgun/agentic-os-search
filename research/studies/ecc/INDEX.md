@@ -7,7 +7,8 @@
 | Need | Entry |
 |---|---|
 | What working system does the research support? | [Note33 — provisional assembly](notes/33-NATIVE-SYSTEM-ASSEMBLY-AND-RESEARCH-FRONTIER.md) → [sources](evidence/U15-A-SOURCES.md), [MR34](ROUND-U15-A.md) |
-| Latest reverse-inventory and host-context frontier | [Note49](notes/49-REVERSE-INVENTORY-AND-HOST-CONTEXT-FRONTIER.md) → [U19-A sources](evidence/U19-A-SOURCES.md), [root/omission disposition](inventory/U19-A-OMISSION-REVIEW.md), [MR50](ROUND-U19-A.md). First pass complete; Pi and material host/data/document joins remain, G6 open |
+| Latest Pi hook/context and actual host consumption | [Note50](notes/50-PI-HOOK-CONTEXT-AND-HOST-CONSUMPTION.md) → [U19-B sources](evidence/U19-B-SOURCES.md), [MR51](ROUND-U19-B.md). Version-bound consumer, module/factory/run lifetimes, inner error versus outer absence and mixed test oracles; no target execution |
+| Reverse-inventory and host-context frontier | [Note49](notes/49-REVERSE-INVENTORY-AND-HOST-CONTEXT-FRONTIER.md) → [U19-A sources](evidence/U19-A-SOURCES.md), [root/omission disposition](inventory/U19-A-OMISSION-REVIEW.md), [MR50](ROUND-U19-A.md). First pass complete; O1 now source-answered by50, O2/O3 and G6 remain open |
 | MCP responsibility reconciliation and legacy Codex consumers | [Note48](notes/48-MCP-RESPONSIBILITY-RECONCILIATION-AND-CODEX-SYNC.md) → [U18-I sources](evidence/U18-I-SOURCES.md), [MR49](ROUND-U18-I.md). Original-evidence reuse, distinct delivery paths, exclusion/verifier/rollback and semantic/textual mutation; no target execution |
 | Browser source/exposure and actual consumers | [Note47](notes/47-BROWSER-DASHBOARD-EXPOSURE-AND-CONSUMER-BOUNDARIES.md) → [U18-H sources](evidence/U18-H-SOURCES.md), [MR48](ROUND-U18-H.md). Admission, missingness, masking, first-stage/final rendering, registry and clipboard standing; no target execution |
 | Desktop discovery and actual action boundary | [Note46](notes/46-DESKTOP-DASHBOARD-DISCOVERY-AND-ACTION-BOUNDARIES.md) → [U18-G sources](evidence/U18-G-SOURCES.md), [MR47](ROUND-U18-G.md). Catalogue/fallback, metadata and root/view/action identity; path controls versus launch completion; desktop answer only |
@@ -22,9 +23,9 @@
 | Shared configuration and common maintenance | [Note38](notes/38-SHARED-CONFIGURATION-OWNERSHIP-AND-LEGACY-RECOVERY.md) / [Note37](notes/37-MANAGED-MAINTENANCE-OWNERSHIP-AND-PREVIEW.md) → respective U16-A2/A1 ledgers. Bounded G3 answer |
 | Information use and advisory consumers | [Note36](notes/36-NODE-RECALL-PROXIMITY-AND-ADVISORY-CONSUMERS.md) / [Note35](notes/35-CONNECTOR-GRAPH-RECALL-AND-RECIPIENT-USE.md) → respective U15-C2/C1 ledgers. Distinct Node/Rust and code/knowledge paths |
 | Integration and retention | [Note34](notes/34-WORKTREE-INTEGRATION-AND-RETENTION-BOUNDARIES.md) → [sources](evidence/U15-B-SOURCES.md), [MR35](ROUND-U15-B.md) |
-| Explained versus unread versus stronger empirical claims | [U19-A disposition](inventory/U19-A-OMISSION-REVIEW.md) extends the historical [U15-A reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md) and [U07 map](inventory/U07-A-FAMILY-MAP.md). Original43 roots accounted by scope; G1–G5 bounded answers retained; G6 O1–O3 remain source work |
-| Next selected responsibility | [PLAN0.51](PLAN.md) U19-B/G6/O1/Q01a2b → Pi resource/lifecycle, actual hook producer/runner and host context consumption/continuation. NOT STARTED; CORE preparation not selected |
-| Remaining variants and stronger obligations | [QUESTIONS](QUESTIONS.md); Q01a2/O1–O3 and Q02j2, Q08d4, Q08d3, Q02i2, Q02h2, Q02g2, Q02f2, Q02e2, Q06e2, Q02d2 and prior residuals. A source gap is not merely an unrun test |
+| Explained versus unread versus stronger empirical claims | [U19-A disposition](inventory/U19-A-OMISSION-REVIEW.md) extends the historical [U15-A reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md) and [U07 map](inventory/U07-A-FAMILY-MAP.md). Original43 roots accounted by scope; G1–G5 retained; O1 source answer50, O2/O3 remain |
+| Next selected responsibility | [PLAN0.52](PLAN.md) U19-C/G6/O2/Q01a2c → Cursor scaffold/installation/dependency, host env and later data-root readers/writers. NOT STARTED; CORE preparation not selected |
+| Remaining variants and stronger obligations | [QUESTIONS](QUESTIONS.md); Q01a2/O2–O3, Q01a2b2 and Q02j2, Q08d4, Q08d3, Q02i2, Q02h2, Q02g2, Q02f2, Q02e2, Q06e2, Q02d2 and prior residuals. A source gap is not merely an unrun test |
 
 ## Original mechanism notes
 
@@ -81,6 +82,7 @@ Every note links its original sources and round. Use those for exact pin/blob/co
 | Browser exposure and consumer boundaries | [Note47](notes/47-BROWSER-DASHBOARD-EXPOSURE-AND-CONSUMER-BOUNDARIES.md) |
 | MCP responsibility reconciliation and Codex sync | [Note48](notes/48-MCP-RESPONSIBILITY-RECONCILIATION-AND-CODEX-SYNC.md) |
 | Reverse inventory and host-context frontier | [Note49](notes/49-REVERSE-INVENTORY-AND-HOST-CONTEXT-FRONTIER.md) |
+| Pi hook context and host consumption | [Note50](notes/50-PI-HOOK-CONTEXT-AND-HOST-CONSUMPTION.md) |
 
 ## Experiment identities and recovery
 
@@ -97,7 +99,7 @@ Every note links its original sources and round. Use those for exact pin/blob/co
 | E09 Python flow | [Bundle](evidence/u12-c-python-flow-probe/README.md) → [PRECHECK](evidence/u12-c-python-flow-probe/PRECHECK.md), [corrected encoded archive](evidence/u12-c-python-flow-probe/E09.zip.b64); original modules/scripted provider, not SDK/API |
 | E10 Gemini metadata | [Recovery README](evidence/u17-a-guidance-adapter-probe/README.md) → [PRECHECK](evidence/u17-a-guidance-adapter-probe/PRECHECK.md), [restore helper](evidence/u17-a-guidance-adapter-probe/restore_e10.py), [recovery check](evidence/u17-a-guidance-adapter-probe/recovery-check.json). One recovered seven-case campaign; no target rerun in recovery, no live Gemini |
 
-U18-A/B/C/D/E/F/G/H/I and U19-A add no E11 or target rerun. U19-A root-set bookkeeping is not semantic coverage or target execution. U18-A arithmetic is not a behavioral experiment; failed source acquisitions are not target execution. Original U15/U16 no-new-execution statements retain historical scopes. The preserved bad E10.zip.b64 requires its hash-guarded restoration helper. Every original result/criterion remains. Historical U09-A3 local ZIP is not an upload obligation; see Note15 and its original receipt.
+U18-A/B/C/D/E/F/G/H/I and U19-A/B add no E11 or target rerun. U19-B completes the Pi test-source reading, not test execution. U19-A root-set bookkeeping is not semantic coverage or target execution. U18-A arithmetic is not a behavioral experiment; failed source acquisitions are not target execution. Original U15/U16 no-new-execution statements retain historical scopes. The preserved bad E10.zip.b64 requires its hash-guarded restoration helper. Every original result/criterion remains. Historical U09-A3 local ZIP is not an upload obligation; see Note15 and its original receipt.
 
 ## Purpose, method, inventory and publication
 
@@ -105,14 +107,14 @@ U18-A/B/C/D/E/F/G/H/I and U19-A add no E11 or target rerun. U19-A root-set bookk
 |---|---|
 | Purpose and reuse | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
 | Method/sequence/questions | [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md) |
-| Current method history | [MR50](ROUND-U19-A.md); previous [MR49](ROUND-U18-I.md), [MR48](ROUND-U18-H.md), [MR47](ROUND-U18-G.md), [MR46](ROUND-U18-F.md), [MR45](ROUND-U18-E.md), [MR44](ROUND-U18-D.md), [MR43](ROUND-U18-C.md), [MR42](ROUND-U18-B.md), [MR41](ROUND-U18-A.md), [MR40](ROUND-U17-A.md), [MR39](ROUND-U16-A2.md), [MR38](ROUND-U16-A.md), [MR37](ROUND-U15-C2.md), [MR36](ROUND-U15-C.md), [MR35](ROUND-U15-B.md), [MR34](ROUND-U15-A.md) |
-| Current omission disposition | [U19-A review](inventory/U19-A-OMISSION-REVIEW.md): original roots, selected body coverage and O1–O4. First pass, not whole G6 closure |
+| Current method history | [MR51](ROUND-U19-B.md); previous [MR50](ROUND-U19-A.md), [MR49](ROUND-U18-I.md), [MR48](ROUND-U18-H.md), [MR47](ROUND-U18-G.md), [MR46](ROUND-U18-F.md), [MR45](ROUND-U18-E.md), [MR44](ROUND-U18-D.md), [MR43](ROUND-U18-C.md), [MR42](ROUND-U18-B.md), [MR41](ROUND-U18-A.md), [MR40](ROUND-U17-A.md), [MR39](ROUND-U16-A2.md), [MR38](ROUND-U16-A.md), [MR37](ROUND-U15-C2.md), [MR36](ROUND-U15-C.md), [MR35](ROUND-U15-B.md), [MR34](ROUND-U15-A.md) |
+| Current omission disposition | [U19-A review](inventory/U19-A-OMISSION-REVIEW.md): original roots, selected body coverage and O1–O4. O1 now answered by50; O2/O3 remain, not whole G6 closure |
 | Original discovery | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B](inventory/U01-B-DISCOVERY.md), [U07-A](inventory/U07-A-FAMILY-MAP.md) |
 | Original master histories | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later unit records continue them |
 | Current checked publication | STATE links the current receipt after actual checks; source completion and publication are distinct |
 | Closed U18-C catalogue gap | [Alignment receipt](PUBLICATION-U18-C-ALIGNMENT.md) supersedes the current blocker in [original U18-C receipt](PUBLICATION-U18-C.md); original source answer unchanged |
 | Closed U17 catalogue gap | [Alignment receipt](PUBLICATION-U17-A-ALIGNMENT.md) supersedes the historical blocked step in [original U17 receipt](PUBLICATION-U17-A.md); no experiment rerun |
-| Previous publication | [U18-I](PUBLICATION-U18-I.md); [U18-H](PUBLICATION-U18-H.md); [U18-G](PUBLICATION-U18-G.md); [U18-F](PUBLICATION-U18-F.md); [U18-E](PUBLICATION-U18-E.md); [U18-D](PUBLICATION-U18-D.md); [U18-C](PUBLICATION-U18-C.md) with its alignment above; [U18-B](PUBLICATION-U18-B.md), [U18-A](PUBLICATION-U18-A.md), [U16-A2](PUBLICATION-U16-A2.md), [U16-A1](PUBLICATION-U16-A1.md), [U15-C2](PUBLICATION-U15-C2.md), [U15-C1](PUBLICATION-U15-C1.md), [U15-B](PUBLICATION-U15-B.md), [U15-A](PUBLICATION-U15-A.md) |
+| Previous publication | [U19-A](PUBLICATION-U19-A.md); [U18-I](PUBLICATION-U18-I.md); [U18-H](PUBLICATION-U18-H.md); [U18-G](PUBLICATION-U18-G.md); [U18-F](PUBLICATION-U18-F.md); [U18-E](PUBLICATION-U18-E.md); [U18-D](PUBLICATION-U18-D.md); [U18-C](PUBLICATION-U18-C.md) with its alignment above; [U18-B](PUBLICATION-U18-B.md), [U18-A](PUBLICATION-U18-A.md), [U16-A2](PUBLICATION-U16-A2.md), [U16-A1](PUBLICATION-U16-A1.md), [U15-C2](PUBLICATION-U15-C2.md), [U15-C1](PUBLICATION-U15-C1.md), [U15-B](PUBLICATION-U15-B.md), [U15-A](PUBLICATION-U15-A.md) |
 | Complete earlier routing and publication list | [Pre-U18 INDEX](https://github.com/batuhanozgun/agentic-os-search/blob/9b035f2c0376a3c162359edcfaef8274719aa4ba/research/studies/ecc/INDEX.md); original files unchanged |
 
-Note33 remains provisional. G4's representative question is answered by39; G5's named frontier has bounded answers through40–48. Note49 completes the first G6 reverse-inventory pass, not every host/data/generator or broad-document join. Next U19-B/G6/O1/Q01a2b is NOT STARTED. O2/O3 and stronger original obligations remain; CORE preparation and joint evaluation are not yet selected. These are project-work routing files, not agent-control.
+Note33 remains provisional. G4's representative question is answered by39; G5's named frontier has bounded answers through40–48. Note49 completes the first G6 reverse-inventory pass and Note50 answers its selected Pi source join. Next U19-C/G6/O2/Q01a2c is NOT STARTED. O2/O3, Q01a2b2 and stronger original obligations remain; CORE preparation and joint evaluation are not yet selected. These are project-work routing files, not agent-control.
