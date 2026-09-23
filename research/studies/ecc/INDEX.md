@@ -63,7 +63,7 @@ Every note links its original sources and round. Use those for exact pin/blob/co
 | Integration and downstream retention | [Note34](notes/34-WORKTREE-INTEGRATION-AND-RETENTION-BOUNDARIES.md) |
 | Connector/graph/recall and recipient choice | [Note35](notes/35-CONNECTOR-GRAPH-RECALL-AND-RECIPIENT-USE.md) |
 | Node recall, proximity and advisory consumers | [Note36](notes/36-NODE-RECALL-PROXIMITY-AND-ADVISORY-CONSUMERS.md) |
-| Common maintenance, ownership and preview | [Note37](notes/37-MANAGED-MAINTENANCE-OWNERSHIP-AND-LEGACY-RECOVERY.md) |
+| Common maintenance, ownership and preview | [Note37](notes/37-MANAGED-MAINTENANCE-OWNERSHIP-AND-PREVIEW.md) |
 | Shared configuration and legacy recovery | [Note38](notes/38-SHARED-CONFIGURATION-OWNERSHIP-AND-LEGACY-RECOVERY.md) |
 | Authored guidance, host adaptation and handoffs | [Note39](notes/39-GUIDANCE-ADAPTATION-AND-PROCEDURAL-HANDOFFS.md) |
 | Harness scorecard and optimization consumers | [Note40](notes/40-HARNESS-SCORECARD-AND-OPTIMIZATION-CONSUMERS.md) |
