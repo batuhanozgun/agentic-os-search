@@ -1,29 +1,19 @@
 # Development OS — çalışma sistemi kurma denemeleri
 
-**Rol:** Kullanıcının 23 Eylül 2026'da ayrıca yetkilendirdiği çalışma alanı. Araştırma arşivi, agent-control veya kabul edilmiş SOUL mimarisi değildir.
+Bu alan Development OS'u kuracak çalışma düzenine ilişkin gerçek denemeleri yönetir. Araştırma arşivi, agent-control veya kabul edilmiş SOUL mimarisi değildir.
 
-Amaç, Development OS'u kuracak aktörün bilgi, iş, ortam, araştırma kullanımı ve değerlendirme düzenini gerçek iş üzerinde geliştirmek; denemeleri kaynak, sorumluluk, sonuç ve öğrenme bakımından yönetmektir. Dosya üretmek, karşılıklı anlaşmak veya test sayısı artırmak başarı ölçütü değildir.
-
-## Deneme kaydı ve giriş
-
-| Deneme | Konu / hedef | Güncel iş otoritesi |
+| Deneme | Amaç / hedef | Güncel iş |
 |---|---|---|
-| DEVOS-001 | Claude Code'un mevcut çalışma ve bilgi düzeninin değerlendirilmesi ve gerekçeli geliştirilmesi; `batuhanozgun/soul-development-os3_claudecode` | [001 WORK](attempts/001/WORK.md) |
+| DEVOS-001 | Research korpusunun tamamını okuyup fikir ve örnekleri kaydetmek; bütün kayıtlar tamamlandıktan sonra Development OS'u kuracak çalışma yapısını belirlemek. Hedef aktör: Claude Code / soul-development-os3_claudecode | [001 WORK](attempts/001/WORK.md) |
 
-001 bu çalışma alanının ilk denemesidir; hedef repo adındaki `os3` önceki iki denemenin burada açıldığı anlamına gelmez. EXP numaralarıyla aynı seri değildir. 002/003 henüz açılmadı; boş paket veya hayalî ilerleme oluşturulmadı.
+## Giriş
 
-Yeni oturum: AGENT ve tetiklenen kontroller → bu INDEX → seçilen denemenin BRIEF ve WORK'ü → mesajlaşma varsa EXCHANGE → REVIEW ve sıradaki exact mesaj. Güncel küçük girişler tam okunur; sonraki okumalar mevcut işe göre seçilir. Her seferinde bütün araştırma veya mesaj arşivi yüklenmez.
+AGENT/tetiklenen kontrol → bu INDEX → [BRIEF](attempts/001/BRIEF.md) → [WORK](attempts/001/WORK.md) → [METHOD](attempts/001/METHOD.md) → [COVERAGE](attempts/001/reading/COVERAGE.md) → etkin kayıt ve özgün kaynak.
 
-## Yönetim ve ayrılık
+**23 Eylül yön düzeltmesi:** R-003'teki dar revizyon ve M1–M3/E19 hattı artık aktif sıra değil. Bütün-korpus okuma ve her tur kalıcı çıkarım işi başladı; kaynak kapsamı tamamlanmadan çalışma yapısı seçilmez. Bütün repo tek oturumda yüklenecek diye yorumlanmaz; turlar boyunca tam kapsam ve kayıt sürekliliği korunur.
 
-Her deneme kendi amaç/yetkisini, hedef repo ve başlangıç sürümünü, gerçek/sıradaki işi, aktörleri, mesajları, değerlendirme ölçütlerini, açıkları ve kapanış derslerini taşır. Ayrıntılı durum yalnız denemenin WORK'ündedir; bu tablo onu kopyalamaz. Teknik implementasyonun canlı otoritesi hedef repoda kalır.
+Her deneme kendi amaç/yetki, kaynak/kanıt, aktör, çalışma ve sonuçlarını taşır. Teknik hedefin canlı planı onun reposunda; burada koordinasyon ve araştırma katkısı yönetilir. Mesajlaşma gerekiyorsa [EXCHANGE](attempts/001/EXCHANGE.md); mevcut sorumluluk ve yayın yalnız WORK'tedir.
 
-Yeni bir denemeye geçiş ayrı kullanıcı kararıyla olur. Öncekinin durumu açıkça kapatılır veya duraklatılır; başarılı, başarısız, iptal, duraklatılmış ve kanıtı yetersiz sonuçlar ayrılır. Aktif plan, izin, READY/PASS ve bekleyen mesajlar yeni denemeye otomatik taşınmaz. Yeniden kullanılan ders/kaynak exact referansı ve yeniden doğrulama gereğiyle seçilir. Deneme 001 yeniden adlandırılıp 002 yapılmaz.
+001 bu alanın ilk denemesidir; target adındaki os3 ile EXP serileri ayrı. Yeni deneme ayrı kullanıcı kararıyla açılır; eski izin/plan/PASS ve bekleyen mesaj otomatik taşınmaz. Önceki sonuçlar başarı, başarısızlık, iptal, duraklatma veya kanıt yetersizliğiyle ayrılır; öğrenme exact kaynak ve sınırla devralınır. 002/003 açılmadı.
 
-Kapanışta WORK sonucu ve gerekçeyi, REVIEW gözlem–açıklama–müdahale–sonuç–sınır zincirini taşır. Başarısız deneme yalnız arşivlenmez: ne tekrar edilmemeli, ne hâlâ bilinmiyor ve hangi kanıt sonraki seçimi değiştirebilir belirtilir. Olumsuz sonuç daha oluşmadan uydurulmaz.
-
-## Kaynaklar ve yetki
-
-[Foundation](../research/soul-foundations/STATE.md), [studies](../research/studies/CATALOG.md) ve [explorations](../explorations/INDEX.md) kaynak olarak geri çağrılır; buraya topluca kopyalanmaz. Deneme bulgusu kendiliğinden Foundation sonucu veya genel protokol olmaz. `AGENT.md` / `agent/**` bu alan açılırken değiştirilmedi.
-
-Önceki Claude hazırlığının [context rotası](../research/soul-context/STATE.md) bu alana yönlenir. Eski hazırlık belgeleri tarihsel girdidir; yeni denemenin iş listesi veya Claude'a otomatik gönderilmiş görev değildir.
+Foundation, studies, concepts, explorations ve publications özgün kaynakları korunur. Kontrol alanı `AGENT.md`/`agent/**` değiştirilmez ve araştırma bulgusu sanılmaz. Eski Claude hazırlığının context girişleri bu alana yönlenir; tarihsel current/next ifadeleri yeni yetki değildir.

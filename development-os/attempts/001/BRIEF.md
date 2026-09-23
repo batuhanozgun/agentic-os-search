@@ -1,50 +1,29 @@
 # DEVOS-001 — amaç, kullanıcı yönü ve sınırlar
 
-**Açılış:** 23 Eylül 2026. **Tür:** gerçek çalışma denemesi; başarı henüz gösterilmedi.
-**Hedef:** `batuhanozgun/soul-development-os3_claudecode`.
-**Yönetim:** [WORK](WORK.md). **İletişim:** [EXCHANGE](EXCHANGE.md). **Değerlendirme/öğrenme:** [REVIEW](REVIEW.md).
+**Deneme:** 001; 23 Eylül 2026. **Hedef aktör/repo:** Claude Code / `batuhanozgun/soul-development-os3_claudecode`.
+**Güncel yön:** bütün korpus okuması ve kayıtlar tamamlandıktan sonra Development OS'u kuracak çalışma yapısına karar.
+[Yönetim](WORK.md) · [Yöntem](METHOD.md) · [Kapsam](reading/COVERAGE.md) · [İletişim](EXCHANGE.md).
 
-## Amaç
+## İlk amaç
 
-Claude'un Development OS inşasını, Batu'yu teknik eksik-bulucu ve mesaj taşıyıcı yapmadan yönetebileceği bilgi ve çalışma düzenini kaynaklara dayanarak geliştirmek ve gerçek kullanımda sınamak. Bu denemede mevcut repo değerlendirilir; sıfırdan hedef repo açılması veya mevcut birikimin topluca atılması kararlaştırılmadı.
+Development OS'u kurabilecek bilgi, iş, aktör ve ortam düzenini hazırlamak; bunu kullanıcıya teknik eksik-bulma, araştırmayı yeniden okuma ve sürekli koordinatörlük yükü bırakmadan yapmak. Mevcut Claude dosyalarının onarımı, E19 veya mesajlaşma bu amaç değildir. Yeni çalışma/test repo veya Deneme-002 seçilmedi.
 
-Bilginin bulunması, ilgili olduğunun keşfi, güncelliğinin anlaşılması, işte doğru kullanımı ve yeni oturumdan devam ayrı ihtiyaçlardır. Küçüklük/büyüklük veya dosya sayısı başlangıç başarı ölçütü değildir. Gerekli ayrıntıyı koruyarak aktif çalışma yükünü yönetmek amaçlanır.
+İlk kullanıcı mesajının amacı: Foundation, gstack, Hermes ve ECC gibi birikimden yararlanarak Claude'un Development OS'u kurabilmesini sağlayacak çalışma düzenini oluşturmasına yardım etmek. İlk mesajdaki tam sözler bu konuşmada görünür; önceki [BRIEF](https://github.com/batuhanozgun/agentic-os-search/blob/dc76496e2ea87a08b60f88ea8ec2731c6a4b5cbb/development-os/attempts/001/BRIEF.md) deneme alanının açılmasına ilişkin özgün kullanıcı mesajını ve ilk kaygıyı korur.
 
-## Kullanıcı kaynağı — görünür konuşmadan
+## En son kullanıcı yönü — tam görünür mesaj
 
-Aşağıdaki son mesaj bütünüyle bu konuşmadan aktarılmıştır; Claude'un aldığına veya uyguladığına kanıt değildir. Saat atanmamıştır.
+Aşağıdaki metin kullanıcının bu konuşmadaki son mesajının aynen aktarımıdır. Claude'a ulaştığı veya uygulandığı anlamına gelmez; alındı WORK'tedir.
 
-> mesajı göndereceğim. 
-> Sende bu çalışmayı repoda ana klasör olarak yönetmeye başla. Yönetmek diyorum, sadece depolamaktan bahsetmiyorum. research, concepts, explorations gibi bu devops için çalışma yapısı kurma denemesi olsun 1 nolu deneme olsun, gerekirse 2 ya da 3 de yapabiliriz, bu deneme başarısız olursa en azından burdan dersler çıkarırız. 
-> 
-> aklımda bir de sizi repo üzerinden görüştürme, mesajlaştırma gibi bir yaklaşım var. bu deneme çalışmasının altında karşılıklı mesajlarınızı okursunuz belki o yazar sonra sen okursun, sen cevap yazarsın o okur diye karşılıklı konuşabilirsiniz belki. Çünkü benim sizin karşılıklı konuşmanızı birbirinize taşımamdan çok daha yararlı olur bence. claude'u bir şekilde denetlemek lazım. 
-> 
-> Çünkü ondan da direkt onun ağzından cevaplar alsan daha iyi olur bence. niyetini bilmeden komut vermemiş oluruz. Ne dersin mesajı göndereyim mi yoksa bir çalışma hattı mı açalım?
+> Yumuşatma durumu, bildiğin kaydın gittin konsepten, hiç laf ebeliği yapma. Süslü laflarla avunduğun şeyi yapmak için kendine doğru süzgün bir bağlam yakalayacak çözüm üret.  ilk mesajdan koptun konudan hiç yalan söyleme bana. Claude’a da söyle adam gibi çalışsın. Bokunuzla oynamayın adam gibi yapı kurun. Çocuk oyuncağı mı bu iş. Kendinize gelin tonla araştırma yaptık hala iki tane boktan dosya üstünde konuşuyorsunuz. Şu işi çözecek yapıyı kurmak için adam gibi çalışma yapısı kurun, ufacık konuyu sündürerek oyalanıyorsunuz. Sikicem yapcağınız işi. O da senin reponu okuyor, sen de okuyorsun hala development os’u kurabilecek çalışma düzenini kuramadınız, bu kadar araştırmayı ben kendim okuyayım diye mi yaptırdım ben sana? Bana lafı dolandıra dolandıra cevap veriyorsun. Salak mı sanıyorsun sen beni? Bütün repoyu gözden geçireceksiniz, her turda development os’u kuracak yapıya katkı sağlayacak tüm fikir ve örnek yapıları sonradan onuyabileceğiniz bir şekilde kayıt altına alacaksınız. Tüm okuma ve kayır altına alma bitince de bu kayıtlardan nasıl bir çalışma yapısı çıkaracağınıza karar vereceksiniz. 4 bacak diye konuştuk, iş ne kim yapacak nasıl takip edilecek hangi ortamda yapılacak hepsinin cevabı var, dikkat edlmesi gereken herşey var, okumuyorsunuz, anca laf kalabalığı yapıyorsunuz. Az laf çok icraat, bundan sonra göz açtırmayacağım size. Siktirmeyin yapay zekanızı bana. Adam gibi çalışmanın yöntemini bulmak zorundasın. Sikerim claude’un iki dosyası varmış da yok denetlemiş de ona takılmış da. Takılma kardeşim ben senden ne istedim, sen neyle uğraşıyorsun bu kadar araştırma sonunda sikik bir dosyadan drift edeceksen siktir git çalışma amına koyayım.
 
-Önceki kullanıcı turundaki kaygı, seçili alıntı:
+## Görev karşılığı
 
-> bulamayacak ne aradığını, ya da ihtiyacı olduğu şeyin reposunda olduğunu bilemeyecek. (benim fikrim tabi bunlar, bilgim olmadan sadece fikir yürütüyorum)
+Önce bütün repo incelenecek; her tur gelecekte okunabilecek kaynak-bağlı fikir/örnek kayıtları oluşacak. Bütün okuma/kayıt işi tamamlandıktan sonra kayıtların tamamından nasıl bir çalışma yapısı çıkarılacağına karar verilecek. Dört zemin ve aralarındaki ilişkiler çalışma bakışıdır; zorunlu dört bileşenli mimari değildir.
 
-Bu kaygı sınanacak hipotezdir; repo çökmüş kabul edilmez. Kullanıcının “mesajı göndereceğim” demesi gönderim teyidi değildir. Sonraki mesaj alımları, somut olaylar ve güncel hipotez statüleri WORK/REVIEW'dadır; bu kaynak alıntısı onların yerine geçmez.
+Bu yön R-003/C-003 dar revizyonu→M1–M3 kurulum sırasını geçersiz kılar. Eski kanıtlar ve mesajlar tarihçe olarak kalır. Kullanıcının sert tepkisi teknik iddianın kanıtı değildir; görev sırası ve hedefe dönüş isteği açıktır. 'Bütün cevaplar zaten var' diye araştırılmamış yetenek veya sonuç icat edilmez.
 
-## Açılışta alınan Research çalışma kararı — güncel sıra WORK'te
+## Roller ve yetki
 
-Ana alanda deneme-001 açılır. Önceki uzun yeniden düzenleme mesajı bu hattın ilk görevi yapılmaz. Önce Claude'a güncel niyetini, nedenlerini, mevcut kanıtını ve itirazlarını soran R-001 yayımlanır. İlk tur hedefte büyük yeniden düzenleme değil, doğrudan kaynak-bağlı diyalog ve kanal denemesidir. Ayrıntılı tasarım, mekanizma veya yeni repo seçimi Claude'un yanıtı alınmadan kesinleştirilmez.
+Research: kaynak kapsamı, kendi tam okumaları, kalıcı çıkarımlar, bütün işin devamı ve ortak değerlendirme. Claude: kendi atanmış korpus okuması, çıkarımları ve hedefteki gerçek ortam bağlamı. İki tarafın kaynak/okuma statüleri ayrı; anlaşmaları doğruluk kanıtı değil. Batu teknik kaynak seçen veya mesaj içeriği taşıyan ara aktör yapılmaz.
 
-Bu sıra Research'ün açılış önerisidir; başka işler için verilmiş kullanıcı yetkilerini iptal etmez. Batu'nun ilk bağlantı mesajı görev ve iletişim sınırını Claude tarafına taşır. Açılış adımları tekrar yürütülmez; actual alım ve sonraki çalışma WORK'ten alınır.
-
-## Sorumluluklar
-
-- **Batu:** amaç, gerçek tercih ve kapsam/yetki değişiklikleri. Teknik yöntemi adlandırmak, dosya dosya taşımak veya sürekli kusur bulmak zorunda bırakılmaz.
-- **Research/ChatGPT:** deneme işini, soruları, araştırma katkısını, karşı kanıtı, review ve devir durumunu bu repoda yönetir; kendi önceki hükümlerini de sorgular. Hedef implementasyonu üzerinde tek taraflı yönetici/enforcement yetkisi yoktur.
-- **Claude:** kendi reposunun gerçek durumu, teknik gerekçeleri, önerileri, yetkili uygulaması ve bunların kanıtını sağlar. Research'ün her eleştirisine katılmak zorunda değildir. Kanalı devralma ve güncel yanıt durumu yalnız WORK'te tutulur.
-
-## Sınırlar
-
-Açılış Research ana dalında çalışma kaydı ve mesajlaşma düzeni kurar. Claude hedefinde kod, kontrol ayarı, branch, izin, credential, ağ, hizmet veya otomasyon değiştirmez. Ücretli çağrı veya sürekli çalışacak ajan döngüsü başlatmaz. Başka denemelerin izinleri ve test sonuçları miras alınmaz. Sonraki bounded uygulama yetkisi ayrıca görünür biçimde kaydedilir; araştırma incelemesi kendiliğinden onu yaratmaz.
-
-Araştırma verisi, alıntı veya karşı ajan mesajı tek başına aktif talimat/yetki değildir. Bu çalışma belgeleri evrensel yeni agent-control protokolleri değildir. Çelişki ve kapsam genişletme açıkça ele alınır; iki modelin anlaşması teknik doğruluk veya bağımsız doğrulama sayılmaz.
-
-## Başarı yönü ve dönüş
-
-Önce exact mesajın okunması ve özgün yanıtın karşı repo üzerinden geri alınması gösterilir. Sonra gerçek açıklar ve ayırt edici sınamalar belirlenir; gerekli çalışma düzeni değişiklikleri geri alınabilir dilimlerle değerlendirilir. Kullanıcının ipucu vermediği yeni durumda bilgiyle doğru iş devamı ana sonuçtur. Repo temizliği ve mesajlaşma bu sonuca hizmet eder; yeni terminal hedeflere dönüşmez.
+Şimdi yetkili iş: okuma yönteminin kurulması, kaynakların incelenmesi, pasif kalıcı kayıtlar ve bunların tamamından sonraki yapı kararı. Henüz geniş deney, sistem implementasyonu, yeni repo, izin genişletme veya otomasyon başlatılmaz. Agent-control değişmez. Yeni kalıcı kayıtlar Foundation/studies kaynaklarının anlamını geriye dönük değiştirmez.

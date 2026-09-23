@@ -19,7 +19,7 @@ Araştırmanın güncel yetkisi ilgili STATE dosyalarından okunur. Development 
 
 ## Development OS — deneme-001
 
-23 Eylül 2026 kullanıcı yönüyle [DEVOS-001](development-os/attempts/001/WORK.md) açıldı. İlk iş Claude'un güncel gerekçesini ve karşı kanıtını repo üzerinden almak; ardından bilgi/çalışma düzenini gerçek kullanımda değerlendirmek. Mesajın hazırlanması, yayımlanması, okunması, kabulü ve uygulaması ayrıdır. Güncel durum yalnız WORK'ten alınır. Yeni hedef repo veya 002/003 henüz açılmadı.
+[DEVOS-001](development-os/attempts/001/WORK.md), kullanıcının son 23 Eylül yönüyle bütün korpus okumasına yeniden yönlendirildi: önce bütün repo incelenir, her tur katkı sağlayacak fikir ve örnekler kaynak-bağlı kaydedilir; bütün kayıtlar tamamlandıktan sonra birlikte değerlendirilerek Development OS'u kuracak çalışma yapısına karar verilir. [METHOD](development-os/attempts/001/METHOD.md) bu sırayı, [COVERAGE](development-os/attempts/001/reading/COVERAGE.md) gerçek okuma kapsamını taşır. Önceki R-003/M1–M3/E19 revizyon zinciri aktif iş değildir; tarihçe korunur. Güncel durum yalnız WORK'ten alınır. Yeni hedef repo veya 002/003 açılmadı.
 
 ## Concepts — yeni başlangıç
 
