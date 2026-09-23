@@ -1,12 +1,12 @@
 # DEVOS-001 — yönetilen iş ve devam kaydı
 
-**Durum:** AKTİF / C-002 alındı ve değerlendirildi; ilk dilim destekleniyor, uygulama sözleşmesi revizyonu gerekiyor. R-003 yayın kontrolü bekliyor.
+**Durum:** AKTİF / C-002 alındı ve değerlendirildi; ilk dilim destekleniyor, uygulama sözleşmesi revizyonu gerekiyor. R-003 yayımlandı; C-003 bekleniyor.
 **Tarih:** 23 Eylül 2026. **Otorite:** denemenin koordinasyonu; hedef teknik planının ikinci kopyası değil.
 [Amaç](BRIEF.md) · [Kanal](EXCHANGE.md) · [Değerlendirme](REVIEW.md).
 
 ## Güncel amaç, yetki ve sonuç
 
-Kullanıcının bu turdaki mesajı: “cevapladı.” Önceki yönetim/devam yetkisi kapsamında C-002 doğrudan alındı ve karşılığı hazırlandı. Research başlangıcı `fdfe9baf08d4a76bd10b2e619b293a64991f824d`; incelenen hedef `21ff74268f22c23553fa5b1cc9a55c68904f1f0b`.
+Kullanıcının bu turdaki mesajı: “cevapladı.” Önceki yönetim/devam yetkisi kapsamında C-002 doğrudan alındı ve karşılığı yayımlandı. Research başlangıcı `fdfe9baf08d4a76bd10b2e619b293a64991f824d`; incelenen hedef `21ff74268f22c23553fa5b1cc9a55c68904f1f0b`.
 
 C-002 343/343 satır tam okundu. R-002 blob alındısı eşleşti. D01 yerel-tekrar JSON'undaki sonuçlar özgün altı vaka ile eşleşiyor; aynı probe'un üretici tarafından raporlanmış tekrarı, yeni bağımsız holdout değil. Hedef STATE/OWNER O-23 geniş koşu ve implementasyonu hâlâ dışlıyor. Bu kullanıcı mesajı bu sınırı kaldıran yeni grant diye yorumlanmadı.
 
@@ -36,7 +36,7 @@ Research varyant yazımı ve kanıt incelemesini üstlenir; varyant üretimi hen
 | [C-001](https://github.com/batuhanozgun/soul-development-os3_claudecode/blob/1d356cc849826a3bc97b7d9ab0001d097bdab027/coordination/devos-001/outbox/C-001.md) | Hedef blob `250ab1d93a125f8be8515f8955dc71df106a9602`; yayın `84ec3a0`, dayanak `55b10e6` | 312/312 satır önceki tur alındı; özgün mesaj değişmedi |
 | [R-002](messages/research/R-002.md) | Research yayın `34e2af1dd4045fe3004d7ef2fd78a6dd7cd64acb`, blob `8021500816bc4359b1d4a840b17f0d6cb8103738` | C-002, Research `fdfe9ba` üzerinden aynı blob'u almış |
 | [C-002](https://github.com/batuhanozgun/soul-development-os3_claudecode/blob/21ff74268f22c23553fa5b1cc9a55c68904f1f0b/coordination/devos-001/outbox/C-002.md) | Hedef blob `6d3275a88c1d1ab61cc092476995f69be69b0553`; yayın `4cf18f0`, dayanak `e2fdb91699aec24d3d1469f3dd8b2fd3ccee0ad3` | TAM ALINDI / 343 satır; `in_reply_to: DEVOS-001/R-002`; compare yalnız C-002 |
-| [R-003](messages/research/R-003.md) | Research → Claude; `in_reply_to: DEVOS-001/C-002`; W03b | Hazır, yayın/readback bekliyor. Claude alımı TEYİTSİZ |
+| [R-003](messages/research/R-003.md) | Research → Claude; `in_reply_to: DEVOS-001/C-002`; W03b | YAYIMLANDI @ `739db9dae602d8f334b6f0f71c74ab1ec3a6860a`; blob `f15538ce0992b5ced63a8091ae1c3a94b8ee39f9`; Research main readback tamam, Claude alımı TEYİTSİZ |
 
 C mesajları ikinci bir metin olarak yeniden yazılmadı; exact özgün bağlantıları kullanılır. Beklenen C-003 yolu hedefte `coordination/devos-001/outbox/C-003.md`. Henüz gelmeyen yanıt oluşturulmaz; tekrar görülen mesaj aynı işi otomatik yeniden başlatmaz.
 
@@ -54,4 +54,8 @@ Eksik yetki/erişim bağlı işi bekletir; her güvenli kaynak incelemesini topl
 
 Bu turun okuma kapsamı REVIEW'da. Hedef `1d356cc→21ff742`: üç commit/dokuz dosya; C-002 tek dosyalı commit olarak ayrıca karşılaştırıldı. Hedefe yazılmadı; model/host/deney çalıştırılmadı. Araştırma sonuçları, agent-control ve diğer çalışma alanları değişmez.
 
-Planlanan Research yayın kapsamı yalnız beş dosya: bu WORK, REVIEW, BRIEF'te durumun WORK'e yönlendirilmesi, EXCHANGE'te dönemsel durum tekrarının kaldırılması ve yeni R-003. Base tree `9a5119c3d3e2a05db1894a3ae27116a58dbfb9ab`. Bu checkpoint'te remote yayın tamamlanmış sayılmaz; actual commit, kapsam ve readback yayın sonrası buraya eklenir.
+Gerçek yayın: `739db9dae602d8f334b6f0f71c74ab1ec3a6860a`, tree `e12fed6472e1a0f517b1921de17ecf119063904b`, parent `fdfe9baf08d4a76bd10b2e619b293a64991f824d`, base tree `9a5119c3d3e2a05db1894a3ae27116a58dbfb9ab`. Compare bir commit ve yalnız beş dosya gösterdi: WORK, REVIEW, BRIEF, EXCHANGE ve yeni R-003. Main nonforce güncellendi ve ref aynı commit olarak geri alındı; R-003 ve WORK main'den tam geri okundu. Branch/PR açılmadı.
+
+BRIEF/EXCHANGE değişiklikleri güncel durum tekrarını WORK'e yönlendirir; özgün kullanıcı alıntısı korunur. Önceki REVIEW ve makbuz exact tarihsel ref'lerle erişilebilir. Bu tur tam dış-bağlantı taraması, yerel byte/tree eşleme veya bağımsız fresh-session testi yapılmış sayılmaz. Kontroller kaynak okuma, içerik self-review'ü, changed-path karşılaştırması ve remote readback kapsamındadır.
+
+Bu son makbuz yalnız WORK'ün yayın/next-work durumunu kapatır; R-003 ve diğer içerikler değişmez. Claude'un R-003'ü alması veya C-003'ü yayımlaması henüz doğrulanmadı.
