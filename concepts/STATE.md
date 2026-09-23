@@ -1,6 +1,6 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-23 · **ECC C6 raw/history/inventory reconciliation + U14–U16 transfer complete. Exact next: U17-A guidance/E10 transfer. C6 ve ECC paketi PARTIAL.**
+2026-09-23 · **ECC C6 raw/history/inventory reconciliation + U14–U17 transfer complete. Exact next: completed/published U18 G5 source slices. C6 ve ECC paketi PARTIAL.**
 
 Bu dosya amaç, yetki ve current/next işi taşır. Ayrıntılı okuma/sürüm/kapsam hesabı [ECC READING](studies/ecc/READING.md), bağlamlı kullanımlar [TERMS](studies/ecc/TERMS.md) içindedir. Kaynak ECC araştırmasının current işi Concepts'in çalışma rotası değildir.
 
@@ -100,3 +100,9 @@ U15-A provisional native-system assembly, U15-B worktree integration/retention, 
 U16-A1 managed maintenance/public commands ile U16-A2 shared hook/settings, JSON/MCP payload and legacy ownership/recovery source packages Concepts'e aktarıldı. New usage file `TERMS-MAINTENANCE-RECOVERY.md`, ML01–ML63. No maintenance execution or user-environment mutation.
 
 **Exact next:** U17-A guidance adaptation/procedural handoff + E10 recovery evidence package.
+
+## 12. C6 post-U12 progress — U17 transferred
+
+U17-A representative host guidance/procedural handoff and E10 recovery package Concepts'e aktarıldı. New usage file `TERMS-GUIDANCE-PROCEDURES-E10.md`, GH01–GH55. E10 archive recovery historical evidence correspondence'tur; target rerun/independent replication değildir.
+
+**Exact next:** fresh ECC source STATE'ten completed/published U18 units'i belirleyip yalnız mevcut research outputs'ı aktar.
