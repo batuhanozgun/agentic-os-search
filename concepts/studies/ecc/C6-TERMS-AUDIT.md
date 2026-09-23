@@ -33,9 +33,9 @@ Current TERMS router links **26 usage files** exactly once. No expected linked f
 | IX | TERMS-SCORECARD-REPUTATION-CONSULT.md | 66 |
 | EC | TERMS-EXTERNAL-CLIENTS-CONTEXT.md | 83 |
 | DD | TERMS-DESKTOP-DISCOVERY.md | 40 |
-| BD | TERMS-BROWSER-DASHBOARD.md | 52 |
+| BD | TERMS-BROWSER-DASHBOARD.md | 53 |
 
-Linked files contain **1,973 usage IDs**. Router-level package expressions **ECC-P01–P10** are a separate 10-address package vocabulary, for **1,983 addressed records total**. Counts are indexing facts, not “number of concepts”, maturity scores or evidence strength.
+Linked files contain **1,974 usage IDs**. Router-level package expressions **ECC-P01–P10** are a separate 10-address package vocabulary, for **1,984 addressed records total**. Counts are indexing facts, not “number of concepts”, maturity scores or evidence strength.
 
 Every linked prefix was checked as a single contiguous sequence from 01 to its stated maximum. No within-prefix gap or duplicate number was found. Prefixes are distinct across linked files, so no full ECC usage ID collides across files. P01–P10 is also contiguous.
 
@@ -70,10 +70,10 @@ C6 source-role maps were added or strengthened for:
 - IX01–IX66 → Note40–42 / U18-A–C ledgers / MR / receipts/alignment;
 - EC01–EC83 → Note43–45 / U18-D–F ledgers / MR / receipts;
 - DD01–DD40 → Note46 / U18-G ledger / MR / receipt;
-- BD01–BD52 → Note47 / U18-H ledger / MR plus canonical active source STATE;
+- BD01–BD53 → Note47 / U18-H ledger / MR / publication receipt plus final source STATE;
 - L105–L114 and refined L66 → Note09/U06-A plus exact E05 driver/raw/reconciliation evidence.
 
-For the nine newly linked C6 source-map files, **89 local source links** were mechanically resolved against the repository tree with **zero broken targets**. The L refinement map adds **6** checked source links, also **zero broken**. These link checks establish path correspondence only; they do not independently validate what the linked sources say.
+For the nine newly linked C6 source-map files, **90 local source links** were mechanically resolved against the repository tree with **zero broken targets**. The L refinement map adds **6** checked source links, also **zero broken**. These link checks establish path correspondence only; they do not independently validate what the linked sources say.
 
 Evidence roles remain explicit where material: SOURCE OBSERVATION, TARGET INSTRUCTION/CLAIM, TEST SOURCE INSPECTED, historical LOCAL EXECUTION, ARCHIVE RECOVERY, conditional/source-derived inference and publication/work standing are not merged into one confidence label.
 
