@@ -204,3 +204,13 @@ New usage files:
 Key non-collapse: score/config presence ≠ capability outcome; reputation class ≠ caller policy ≠ live identity ≠ action authority; consult match ≠ dependency closure ≠ consent ≠ install effect; explicit executable path ≠ provenance; process status ≠ remote-effect receipt; pinned artifact digest ≠ signed provenance; transcript ≠ restored execution context; raw history ≠ parsed history; desktop source explorer ≠ live operator ≠ browser dashboard.
 
 **Important C6 gap found before closure:** U13-A/U13-B release-qualification and supply-chain-scanner source families are present in the source package and referenced by later synthesis, but they do not yet have a dedicated Concepts transfer file. Exact next is therefore **U13-A/B existing-source transfer**, not U18-H.
+
+## 14. C6 dedicated transfer closure — U13-A/B
+
+The previously identified dedicated-transfer gap is closed from existing published source research. U13-A Note28/source-ledger/MR29/publication and U13-B Note29/source-ledger/MR30/publication were read at their recorded scopes; both ledgers were re-fetched in bounded ranges through EOF rather than relying on truncated combined displays. No release/scanner/test/workflow/registry action was executed.
+
+New [TERMS-RELEASE-SUPPLY-CHAIN.md](TERMS-RELEASE-SUPPLY-CHAIN.md), **ECC-RS01–RS80**, transfers document approval versus artifact binding, same-archive lifecycle/publish, registry/tag/provenance subjects, finite IOC selection/readability, advisory metadata/refresh and actual CI/watch/release consumer distinctions.
+
+With this addition, currently published source families U01–U18-G now have dedicated or explicitly historical Concepts transfer coverage. U18-H remains NOT STARTED in the source study and is not a missing Concepts extraction from the current corpus.
+
+**Exact next:** linked TERMS/router definition-ID/link/source-role audit; then fresh current `research/studies/ecc/**` leaf census and version-qualified C6/package closure decision.
