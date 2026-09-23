@@ -7,6 +7,14 @@ Source package:
 Fixed target: `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 Tests inspected, not run; no GUI/browser/server/terminal/model launch or user-config mutation.
 
+## 0. Source locator and role map
+
+| Usage range | Exact research sources | Source role / evidence class |
+|---|---|---|
+| ECC-DD01–DD40 | [Note46](../../../research/studies/ecc/notes/46-DESKTOP-DASHBOARD-DISCOVERY-AND-ACTION-BOUNDARIES.md) §§1–8 → [U18-G ledger](../../../research/studies/ecc/evidence/U18-G-SOURCES.md) → [MR47](../../../research/studies/ecc/ROUND-U18-G.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U18-G.md) | SOURCE OBSERVATION + TEST SOURCE INSPECTED + bounded Python interface contracts/conditional deductions; no GUI/terminal/browser execution. |
+
+Desktop source discovery, displayed standing and OS dispatch are separate evidence objects; source-study claims are not runtime observations.
+
 ## 1. Desktop explorer and displayed standing
 
 | ID / ifade | ECC araştırmasındaki kullanım | Sınır |
