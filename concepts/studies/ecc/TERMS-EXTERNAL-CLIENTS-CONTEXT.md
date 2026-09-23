@@ -9,6 +9,16 @@ Source packages:
 Fixed target: `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 Tests inspected, not run; no target execution/E11/credential/service/model/installation action.
 
+## 0. Source locator and role map
+
+| Usage range | Exact research sources | Source role / evidence class |
+|---|---|---|
+| ECC-EC01–EC26 | [Note43](../../../research/studies/ecc/notes/43-ITO-CLI-BRIDGE-AUTHORITY-AND-EFFECT-BOUNDARIES.md) §§1–8 → [U18-D ledger](../../../research/studies/ecc/evidence/U18-D-SOURCES.md) → [MR44](../../../research/studies/ecc/ROUND-U18-D.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U18-D.md) | Fixed-pin source/test observation and conditional external-process boundaries; no credentials/client/service execution. |
+| ECC-EC27–EC55 | [Note44](../../../research/studies/ecc/notes/44-NASIKO-ARTIFACT-IDENTITY-AND-LIFECYCLE-RECOVERY.md) §§1–8 → [U18-E ledger](../../../research/studies/ecc/evidence/U18-E-SOURCES.md) → [MR45](../../../research/studies/ecc/ROUND-U18-E.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U18-E.md) | Source/test inspection and conditional artifact-lifecycle failure/recovery paths; no install/download execution. |
+| ECC-EC56–EC83 | [Note45](../../../research/studies/ecc/notes/45-NANOCLAW-CONTEXT-REPLAY-AND-SESSION-CONTINUITY.md) §§1–8 → [U18-F ledger](../../../research/studies/ecc/evidence/U18-F-SOURCES.md) → [MR46](../../../research/studies/ecc/ROUND-U18-F.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U18-F.md) | Source/test observation and transcript/context conditional deductions; no Claude/model invocation by Concepts. |
+
+External client/service claims remain outside ECC-side source evidence unless the cited path actually consumes them.
+
 ## 1. Itô CLI bridge and caller authority
 
 | ID / ifade | ECC araştırmasındaki kullanım | Sınır |
