@@ -1,60 +1,54 @@
 # DEVOS-001 — yönetilen iş ve devam kaydı
 
-**Durum:** AKTİF / açılış yayımlandı; ilk Claude yanıtı bekleniyor.
-**Tarih:** 23 Eylül 2026. **Tek otorite:** bu denemenin koordinasyon durumu; hedefteki teknik işin ikinci kopyası değil.
-**Amaç/yetki:** [BRIEF](BRIEF.md). **Kanal:** [EXCHANGE](EXCHANGE.md). **Bulgular:** [REVIEW](REVIEW.md).
+**Güncel durum:** AKTİF / C-001 alındı, W02 sınırlı inceleme tamamlandı; R-002 yayın kontrolü ve C-002 bekleniyor.
+**Tarih:** 23 Eylül 2026. **Otorite:** denemenin koordinasyon durumu; hedef teknik planının ikinci kopyası değil.
+[Amaç](BRIEF.md) · [Kanal](EXCHANGE.md) · [Kanıt ve yorum](REVIEW.md).
 
-## Şu anki gerçek durum
+## Gerçek durum
 
-Research ana alanı ve R-001, `fa10ef644869de0a7e88a87d5d128790b2a0e2a5` ile main'e yayımlandı. Ref, kapsam ve INDEX/WORK/R-001 doğrudan geri okundu. W00 tamamlandı; bu, Claude'un mesajı aldığı veya çalışma düzeninin doğrulandığı anlamına gelmez.
+Kullanıcının bu turdaki yönü: “Deneme-001’i kontrol et”. Research başlangıcı `85076c2634be5ecfa7b16bbe8b8b23821baaac1c`. Hedef snapshot `1d356cc849826a3bc97b7d9ab0001d097bdab027`.
 
-Sıradaki sorumluluk: Batu'nun tek bağlantı mesajını Claude'a iletmesi; ardından Claude'un C-001 yanıtını kendi reposunda yayımlaması. Bağlantı mesajının gönderildiği, R-001'in Claude tarafından okunduğu ve C-001'in oluştuğu henüz doğrulanmadı. Otomatik izleme/uyandırma kurulmadı.
+Özgün C-001, beklenen hedef yolundan 312/312 satır tam alındı. `in_reply_to` ve okuduğunu bildirdiği R-001 blob'u eşleşti. İlk iki-repo mesaj aktarımı tamamdır; anlama, kabul, sürekli otomasyon, model kimliğinin kriptografik ispatı veya DevOS yeterliği değildir.
 
-Hedefteki son bu tur gözlenen snapshot: `411a5ee38a997ba0ba93b81fea0411a134a50adc`. STATE tam, PLAN'ın ilgili E12–E20 ve aşama kesimleri doğrudan okundu. STATE, E20'yi tamamlanmış ve E17'yi başlangıç kapısında gösteriyor; bu Claude'un kaydıdır, burada yeniden çalıştırılmış davranış kanıtı değildir. Sonraki review'da HEAD ve değişen dosyalar yeniden alınır.
+Güncel STATE/PLAN'da KR1 ve sıra düzeltmeleri görüldü. Claude'un kendi kaydında E17 tasarım öncesi, E19 temel koşusu başlamamış; kullanıcı molası sonrası O-22 yalnız C-001'i istemiş. Bu review o molayı kaldırmaz veya canlı işin başka yerde çalışmadığını kanıtlamaz.
 
-## İşler, bağımlılıklar ve dönüş
+W02-D01: exact denetçi kaynak blob'u ile yerel sentetik altı vaka çalıştırıldı; üç karşı örnekte eksik/bozuk kayıt veya göreli dış erişim 0 ihlal üretti. E19 bankası/cevabı/gerçek logu ve canlı Claude runtime çalıştırılmadı. Bulgular [REVIEW](REVIEW.md), tekrar üretim [probe](evidence/W02-D01/probe.py), ham sonuç [result](evidence/W02-D01/result.json).
 
-| İş | Sorumlu | Durum / giriş koşulu | Sonuç ve üst amaca dönüş |
+## İşler ve dönüş
+
+| İş | Sorumlu | Güncel durum | Dönüş |
 |---|---|---|---|
-| W00 — deneme alanı, kaynak sınırı, kanal ve ilk mesaj | Research | TAMAM — main yayını ve sınırlı kontroller aşağıda | Yeni oturum denemeyi bulur; W01'in exact mesajı mevcut olur |
-| W01 — kanalı devralma ve güncel gerekçeli cevap | Claude; ilk bağlantı Batu | R-001 YAYIMLANDI; bağlantı mesajı ve Claude okuması TEYİTSİZ | C-001 + exact kaynak/ref; dosya/iş düzeni teşhisine dayanak |
-| W02 — cevabı iddia ve kaynak karşısında değerlendirme | Research | C-001 bekleniyor | İtirazlar uzlaştırılır veya açık tutulur; W03 için karar sorusu netleşir |
-| W03 — gerekçeli düzenleme ve çalışma sistemi planını seçme | Claude önerir, Research değerlendirir; maddi owner tercihleri Batu | W02'ye bağlı; BAŞLATILMADI | Yerinde düzenleme / seçici yeni-repo aktarımı / başka seçenek; kayıp ve deney planı |
-| W04 — seçilen değişikliği uygulama ve gerçek kullanımı sınama | Claude; Research kanıt incelemesi | Plan, yetki ve giriş koşulları gerekli; BAŞLATILMADI | Retrieval, güncellik, kullanım, devam ve geri dönüş davranışı; başarısızlık W02/W03'e döner |
-| W05 — sonuç, ders ve sonraki deneme/DevOS işine geçiş | Research + Claude; yön kararı Batu | W04 kanıtı veya durdurma kararı; BAŞLATILMADI | Başarı kapsamı, başarısızlık/iptal/belirsizlik ve aktarılabilir dersler |
+| W00 Alan, kaynak sınırı, kanal, ilk mesaj | Research | TAMAM; açılış makbuzu aşağıdaki exact kayıtta | W01 |
+| W01 Kanalı devralma ve ilk gerekçeli yanıt | Claude → Research | TAMAM / ilk aktarım. C-001 alındı; içerik ayrıca W02'de | W02 |
+| W02 C-001'i iddia/kaynakla değerlendirme | Research | TAMAM / sınırlı kaynak incelemesi ve D01; bütün runtime veya tüm notların denetimi değil | R-002 → W03 |
+| W03 Gerekçeli müdahale/plan seçimi | Claude önerir, Research değerlendirir; gerçek owner tercihi Batu | C-002 BEKLENİYOR; R-002'ye yanıt henüz yok | Denetçi düzeltme yolu + ilk gerçek iş dilimi + önceden tanımlı koşullar |
+| W04 Seçilen değişikliği uygulama ve gerçek kullanım sınaması | Claude; Research kanıt incelemesi | BAŞLATILMADI; plan/kanıt/yetki koşulları gerekli | Gerekirse W02/W03'e dönüş |
+| W05 Sonuç, ders, sonraki deneme/DevOS geçişi | Research + Claude; yön Batu | BAŞLATILMADI | Başarı/başarısızlık/iptal/kanıt yetersizliği ayrımı |
 
-Bu tablo hedefteki E numaralarını yeniden yönetmez. Bir mesaj gelmesi işi otomatik tamamlamaz; bir review sonucu yeni uygulama yetkisi yaratmaz. Bekleyen işin yeniden denenmesi önceki mesajı veya etkili eylemi körlemesine tekrar çalıştırmaz.
+Hedefteki E işleri burada tekrar yönetilmez. E19 denetçisinin açıkları onun güven iddiasını sınırlar; E17'nin bütün kaynağa dönüş işini E19'a bağlayan yeni bir zorunlu sıra oluşturulmaz. Genel kapsam küçülmedi; ilk sınanacak mekanizma dilimi henüz seçiliyor.
 
-## Mesaj / alındı kaydı
+## Mesaj ve alındı defteri
 
-| Kimlik | İlişki / rol | Yayın ve tüketici durumu |
+| Mesaj | Kaynak ve ilişki | Durum |
 |---|---|---|
-| [R-001](messages/research/R-001.md) | W01; Research → Claude, ilk soru | Yayımlandı @ `fa10ef6`; blob `c75f5f5c707462770c277060e557d6366efea36c`; Research readback tamam, Claude okuma teyidi YOK |
+| [R-001](messages/research/R-001.md) | Research→Claude, W01; açılış `fa10ef6`, blob `c75f5f5c707462770c277060e557d6366efea36c` | C-001 exact alındısı eşleşti |
+| [C-001 özgün](https://github.com/batuhanozgun/soul-development-os3_claudecode/blob/1d356cc849826a3bc97b7d9ab0001d097bdab027/coordination/devos-001/outbox/C-001.md) | Claude→Research; `in_reply_to: DEVOS-001/R-001`; blob `250ab1d93a125f8be8515f8955dc71df106a9602`; 26.740 byte | TAM ALINDI. Dayanak `55b10e61f7d21df02ffb491de42b594417309273`; yayın `84ec3a0` (compare: yalnız C-001), alım snapshot'ı yukarıda |
+| [R-002](messages/research/R-002.md) | Research→Claude; `in_reply_to: DEVOS-001/C-001`; W02→W03 | Bu checkpoint'te yayın/readback bekliyor; Claude alımı TEYİTSİZ |
 
-Beklenen özgün yanıt yeri: hedef `coordination/devos-001/outbox/C-001.md`, normal görünür `main` yayını. Başka branch/path gerekirse önce kanal engeli bildirilir; bulunmayan yanıt uydurulmaz. Başarılı alımda bu kayda exact commit + path + blob ve `in_reply_to` işlenir; gerekirse EXCHANGE'e göre byte-eş kopya tutulur. C-001 dosyası bu açılışta oluşturulmadı.
+C-001 için ikinci byte kopyası oluşturulmadı; özgün exact Git kaynağı ve kimlik yukarıda erişilebilir. Ham dosyanın runtime indirmesi başarısız oldu; bu GitHub connector üzerinden tamamlanmış okumayı engellemedi. Özet veya elle yeniden yazılmış metin Claude'un özgün yanıtı diye saklanmadı.
 
-## Açık kararlar ve durma sınırı
+Beklenen yeni yanıt: hedef `coordination/devos-001/outbox/C-002.md`. C-002 bu tur henüz gözlenmedi; dosya yaratılmadı. Yeni kimlik ve gerçek yanıt ilişkisi olmadan aynı iş yeniden başlatılmaz.
 
-- Claude bu kanalı okuyup yanıtını kalıcı yayımlayabiliyor mu? Henüz sınanmadı.
-- Mevcut bilgi düzeninin hangi açığı gerçekten iş sonucunu bozuyor? REVIEW başlangıç hipotezleri; toplu başarısızlık hükmü yok.
-- E15/E16/E17 sırası ve KR1 temsili güncel kaynakla nasıl uzlaştırılıyor? Claude yanıtı gerekli.
-- İlk ayırt edici çalışma deneyi ne? C-001 sonrası seçilecek; soru-bankası doğruluğu tek başına yeterli değil.
-- Yeni hedef repo açılması kararlaştırılmadı. Bu açılış yalnız yönetim ve diyalogdur.
+## Sonraki sorumluluk ve yetki
 
-Eksik zorunlu kaynak, belirsiz yetki veya çözülemeyen güncel kayıt çelişkisi varsa ona bağlı karar bekler. Diğer güvenli ve yetkili işleri bütünüyle durdurma emri çıkarılmaz. Diyalog iki modelin birbirini onayladığı tekrar döngüsüne dönerse yeni mesaj yerine ayırt edici kanıt/deney veya gerçek owner kararı istenir.
+Claude oturumu çağrıldığında R-002'yi alıp C-002'yi yayımlar. Önceki kullanıcı molası ve O-22 kapsamı hedefte açık olduğu için Research mesajı kendi başına E19 geniş koşusunu, E17 implementasyonunu veya otomasyonu başlatmaz. Kullanıcıdan teknik cevap veya mesaj içeriği taşıması istenmez; gerekirse yalnız oturumu tetiklemesi gerekir.
 
-## Sonraki Research oturumu
+Sonraki Research turu: BRIEF/WORK/EXCHANGE → iki main ref'i → C-002 exact fetch → alındı/iddia/kanıt incelemesi → gerekli W03 seçimi veya kaynak/izin engeli → yeni mesaj ve WORK güncellemesi. D01'i tekrar etmek yeni bağımsız kanıt değildir; düzeltme yeni blob ve yeni negatif vakalarla değerlendirilir. C-002 yoksa yalnız kontrol edilen ref/path için yokluk kaydedilir.
 
-BRIEF/WORK/EXCHANGE'i devral → Research main ve hedef main'i doğrula → beklenen C-001 yolunu doğrudan kontrol et → varsa exact sürümden oku, kaynak ve yanıt ilişkisini kaydet, REVIEW'daki ilgili soruları değerlendir → gereken R-002'yi yaz → bu WORK'ü gerçek next-owner ve engelle güncelle.
+Açıklar: yanlış durumda kırmızı veren denetçi; ipucusuz gerçek işte araştırma kullanımı; dayanak değişikliğinin etkisini yöneten mekanizma; actual host/bağlam/körlük; gerekçeli repo tercihi. Otomatik izleme/uyandırma kurulmadı.
 
-Yanıt yoksa yokluğu yalnız kontrol edilen ref/path için kaydet; Claude'un hiçbir yerde çalışmadığını söyleme. Geçmiş uzun görev mesajını tekrar hazırlama. Oturum burada çağrılmadıkça okuma veya otomatik cevap gerçekleşmiş sayılmaz.
+## Yayın geçmişi ve bu turun kontrolleri
 
-## Açılış / yayın makbuzu
+Açılış `fa10ef644869de0a7e88a87d5d128790b2a0e2a5`, makbuz `85076c2634be5ecfa7b16bbe8b8b23821baaac1c`. [Tam eski WORK/makbuz](https://github.com/batuhanozgun/agentic-os-search/blob/85076c2634be5ecfa7b16bbe8b8b23821baaac1c/development-os/attempts/001/WORK.md) blob `fc8ec9013368a89219b702e6b8c266fbb0fc4541`. Tarihsel CC-DEVOS-PREP kaynakları ve açılış kimlikleri korunur; gönderim-bekliyor durumu C-001 alımıyla geride kaldı.
 
-Başlangıç Research main: `1be22a362df2aa527da09b50a19389d167fcf98e`; base tree `ccc9621cbd1c4b3e1c0db5b6a968ee5316822e2c`.
-Gerçek kapsam: altı yeni development-os dosyası; kök README, soul-context girişleri ve iki tarihsel hazırlık girişinin yönlendirilmesi. Agent-control, Foundation, studies, concepts, explorations ve hedef repo değişmez.
-Açılış commit'i: `fa10ef644869de0a7e88a87d5d128790b2a0e2a5`; tree `ac8a54fd5440af1c32ea5b9639c09bdde4434880`. Nonforce main güncellemesi başarılı; main ref aynı commit'i verdi. Başlangıçla compare: bir commit, tam 12 dosya, altı yeni ve altı değiştirilmiş; kapsam dışı değişiklik yok. Branch veya PR açılmadı.
-
-Altı yeni dosya ile kök README'nin remote Git blob'ları yerel UTF-8 içerikten hesaplanan kimliklerle eşleşti. Yeni paket içi göreli bağlantılar yerelde çözümlendi; bütün dış kaynaklara yeniden tam-link taraması yapılmış sayılmaz. INDEX, WORK ve R-001 main üzerinden tam geri okundu. Eski WORK ve TASK-01'in exact başlangıç ref'indeki erişimi yeniden kontrol edildi; TASK blob'u `f61daabf85606a35a7c031387cf85f51b37cf7a9`, WORK blob'u `e4534fb02f780a507da4adc171daca6ce7f50c9f` olarak korunuyor. Bu son iki kontrol kaynak gövdelerinin yeniden tam okuması değildir.
-
-Bu makbuz güncellemesi yalnız WORK'ün yayın ve next-work durumunu değiştirir; R-001 ve diğer açılış içerikleri değişmez. İçerik değerlendirmesi aynı Research assistant'ının self-review'üdür. Claude alımı/yanıtı, çift yönlü kanal, bağımsız fresh-session deneyi veya çalışma sistemi yeterliği henüz doğrulanmadı.
+W02 planlanan yayın kapsamı yalnız bu denemenin WORK/REVIEW/EXCHANGE, R-002 ve iki D01 kanıt dosyasıdır. Base tree `c424378691f684a975502b51876164cb979d26cf`. Agent-control, Foundation, studies, concepts, explorations ve hedef repo değişmez. Actual commit/diff/main/readback sonucu sonraki makbuz satırına yazılır; yayın ile Claude alımı aynı olay değildir.
