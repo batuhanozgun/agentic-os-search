@@ -1,6 +1,6 @@
 # DEVOS-001 — yönetilen iş ve devam kaydı
 
-**Güncel durum:** AKTİF / C-001 alındı, W02 sınırlı inceleme tamamlandı; R-002 yayın kontrolü ve C-002 bekleniyor.
+**Güncel durum:** AKTİF / C-001 alındı, W02 sınırlı inceleme tamamlandı; R-002 yayımlandı, C-002 bekleniyor.
 **Tarih:** 23 Eylül 2026. **Otorite:** denemenin koordinasyon durumu; hedef teknik planının ikinci kopyası değil.
 [Amaç](BRIEF.md) · [Kanal](EXCHANGE.md) · [Kanıt ve yorum](REVIEW.md).
 
@@ -33,7 +33,7 @@ Hedefteki E işleri burada tekrar yönetilmez. E19 denetçisinin açıkları onu
 |---|---|---|
 | [R-001](messages/research/R-001.md) | Research→Claude, W01; açılış `fa10ef6`, blob `c75f5f5c707462770c277060e557d6366efea36c` | C-001 exact alındısı eşleşti |
 | [C-001 özgün](https://github.com/batuhanozgun/soul-development-os3_claudecode/blob/1d356cc849826a3bc97b7d9ab0001d097bdab027/coordination/devos-001/outbox/C-001.md) | Claude→Research; `in_reply_to: DEVOS-001/R-001`; blob `250ab1d93a125f8be8515f8955dc71df106a9602`; 26.740 byte | TAM ALINDI. Dayanak `55b10e61f7d21df02ffb491de42b594417309273`; yayın `84ec3a0` (compare: yalnız C-001), alım snapshot'ı yukarıda |
-| [R-002](messages/research/R-002.md) | Research→Claude; `in_reply_to: DEVOS-001/C-001`; W02→W03 | Bu checkpoint'te yayın/readback bekliyor; Claude alımı TEYİTSİZ |
+| [R-002](messages/research/R-002.md) | Research→Claude; `in_reply_to: DEVOS-001/C-001`; W02→W03 | YAYIMLANDI @ `34e2af1dd4045fe3004d7ef2fd78a6dd7cd64acb`; blob `8021500816bc4359b1d4a840b17f0d6cb8103738`; Research main readback tamam; Claude alımı TEYİTSİZ |
 
 C-001 için ikinci byte kopyası oluşturulmadı; özgün exact Git kaynağı ve kimlik yukarıda erişilebilir. Ham dosyanın runtime indirmesi başarısız oldu; bu GitHub connector üzerinden tamamlanmış okumayı engellemedi. Özet veya elle yeniden yazılmış metin Claude'un özgün yanıtı diye saklanmadı.
 
@@ -51,4 +51,8 @@ Açıklar: yanlış durumda kırmızı veren denetçi; ipucusuz gerçek işte ar
 
 Açılış `fa10ef644869de0a7e88a87d5d128790b2a0e2a5`, makbuz `85076c2634be5ecfa7b16bbe8b8b23821baaac1c`. [Tam eski WORK/makbuz](https://github.com/batuhanozgun/agentic-os-search/blob/85076c2634be5ecfa7b16bbe8b8b23821baaac1c/development-os/attempts/001/WORK.md) blob `fc8ec9013368a89219b702e6b8c266fbb0fc4541`. Tarihsel CC-DEVOS-PREP kaynakları ve açılış kimlikleri korunur; gönderim-bekliyor durumu C-001 alımıyla geride kaldı.
 
-W02 planlanan yayın kapsamı yalnız bu denemenin WORK/REVIEW/EXCHANGE, R-002 ve iki D01 kanıt dosyasıdır. Base tree `c424378691f684a975502b51876164cb979d26cf`. Agent-control, Foundation, studies, concepts, explorations ve hedef repo değişmez. Actual commit/diff/main/readback sonucu sonraki makbuz satırına yazılır; yayın ile Claude alımı aynı olay değildir.
+W02 yayını `34e2af1dd4045fe3004d7ef2fd78a6dd7cd64acb`, tree `67d0d6492ba22530641b0757dd4d05f2bb9893ba`; parent `85076c2`, base tree `c424378691f684a975502b51876164cb979d26cf`. Compare: yalnız bu denemede altı dosya, üç yeni/üç değiştirilmiş. Nonforce main güncellemesi başarılı; main ref aynı commit'i verdi. Branch/PR açılmadı; agent-control, Foundation, studies, concepts, explorations ve hedef repo değişmedi.
+
+Altı hazırlanmış dosyanın yerel byte'larından ve korunmuş INDEX/BRIEF/R-001 blob'larından hesaplanan development-os tree `89ef145a835f5b30e7fc403979661278bb93d9bb`, remote tree ile eşleşti. Paket içindeki 17 göreli bağlantı yerelde çözümlendi; bütün dış kaynakların yeniden erişim denetimi yapılmış sayılmaz. R-002 ve WORK main üzerinden tam geri okundu. D01 kaynak kimliği ve ham sonucu korunur; dosya/bağlantı kontrolü veya Research self-review'ü Claude runtime doğrulaması değildir.
+
+Bu makbuz güncellemesi yalnız WORK'ün publication/next-state bilgisini kapatır; R-002, REVIEW, EXCHANGE ve D01 kanıtı değişmez. R-002'nin Claude tarafından okunması ve C-002'nin yayımlanması henüz doğrulanmadı.
