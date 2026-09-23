@@ -1,21 +1,41 @@
 # U18-E — Nasiko acquisition and managed lifecycle / MR45
 
-**2026-09-23 · OPENING / IN PROGRESS.** METHOD0.1 / selection PLAN0.45. Fixed ECC `8321021c54d670126ce3b2969d5deb880b4b0c2a`. Research recovery main `02a48e6ef5bd894188152775d46bccc7f70e9147`. STATE owns activation and publication.
+**2026-09-23 · BOUNDED SOURCE COMPLETE; publication via STATE.** METHOD0.1 retained; PLAN0.45→0.46. Fixed ECC `8321021c54d670126ce3b2969d5deb880b4b0c2a`. [Note44](notes/44-NASIKO-ARTIFACT-IDENTITY-AND-LIFECYCLE-RECOVERY.md), [exact ledger](evidence/U18-E-SOURCES.md).
 
-## Authorization and recovery
+## Original criterion and recovery
 
-Batu requested continuation after U18-D. Fresh main-ref recovery confirms the preceding final handoff is unchanged. U18-D and the earlier U18-C catalogue prerequisite are closed, not current repair work. Current AGENT was fetched fully; R04–R09 were recovered fully, including clipped tails. Fully read same-conversation R01–R03 remain applicable at the unchanged research head. Research/studies root routers, METHOD and WHY were read fully; the same-conversation final STATE, PLAN0.45, META, INDEX/QUESTIONS plus their checked diffs, Note43, ledger, MR44 and receipt provide the current continuation context. This is not a claim to have freshly reread every historical source.
+Batu requested continuation after U18-D. The [opening atd7e73461](https://github.com/batuhanozgun/agentic-os-search/blob/d7e73461e975d3f3565dc275236c154930433697/research/studies/ecc/ROUND-U18-E.md) required version/platform/consent→release/artifact→acquisition/digest/extraction→destination/ownership/record→status→removal/failure/retry. Return a coherent ECC-side source explanation, useful controls, a consequential counterpart and exact limits. No live installation, full product study or architecture adoption was required.
 
-## Question and pre-inquiry return criterion
+Fresh main02a48e6e matched the previous closure. AGENT and R04–R09 were fully recovered with clipped tails; full same-conversation R01–R03 remained active. Research/studies routers, METHOD and WHY were fully read; current package state/question/source/receipt context was reused at checked identities rather than claimed as fresh historical rereading. No old publication blocker was reopened.
 
-**U18-E / G5 / Q02h:** how does ECC's optional Nasiko lifecycle bridge bind a qualified release to acquisition, extraction, installation, status and removal, and what remains external or caller-owned?
+MR45 openingd7e73461 preceded activationfd99cde1. Activation STATE was fully read back as79fa387bbde5f7c68ddedb59209049e454c2cbe7 before source inquiry. The opening was fully reread as841a889e2023d50c956d9253a6595c37ba0d0dde before this replacement.
 
-Follow user/version/platform/consent input → qualified release/artifact source → download/digest/extraction → destination/ownership/install record → status/executable inspection → removal, failure and retry. Begin with complete fixed-pin `scripts/nasiko.js` and its referenced `scripts/lib/nasiko-release.js`; recover release metadata, load-bearing helpers, public consumers, relevant authored guidance and actual tests. Only nasiko.js1–80 was previously read for selection. Pinned/digest language is not yet an established lifecycle guarantee.
+## Result and native-system contribution
 
-Return one coherent ECC-side source explanation, useful controls, a consequential partial/failed/changed-input counterpart and exact evidence limits. Distinguish trusted release selection, byte identity, safe materialization, maintained ownership and functional capability. Do not infer all from a hash, but do not dismiss a real integrity control for not solving all trust problems. Examine actual test fixtures/assertions and what would make them fail. If a necessary source chain cannot be completed, publish a bounded checkpoint and name the unread dependency rather than reclassifying it as only an unrun stronger test.
+ECC manages an actual pinned-binary lifecycle rather than merely delegating to a preinstalled client. The production chain verifies a table-pinned manifest, its one-layer archive and the extracted binary; origin, size, decompression and archive-shape checks precede publication. Explicit local consent, offline preview, private-directory checks, exclusive files, cooperative lifecycle locking, non-executing status and qualified staged removal are useful controls. SKILL explicitly does not equate installation with a functioning control plane or telemetry consent.
 
-## Scope and publication
+Four counterpart chains qualify the result. First, leading global ECC --dry-run is converted to ECC_DRY_RUN, which Nasiko never consumes; with a valid version and --yes this enters mutation, unlike the working documented local flag. Second, status qualifies bytes against the receipt's platform release while install reuse checks only qualified plus version; genuine same-version foreign-platform bytes can be reused while the returned plan describes the requested platform. Third, binary and receipt are separately published: a stipulated receipt-created-then-write-failed state can leave an orphan that later exclusive receipt writes cannot replace. Fourth, incomplete removal reports retained tombstones, but subsequent absent-path status/uninstall and reinstall do not track or enforce their cleanup.
 
-No actual release-artifact download, external registry/service query, installation, executable launch, user-home/config mutation, credentials, upstream issue/patch, Foundation/control change or SOUL adoption. Source acquisition and reading are distinct from downloading/installing a product. No E11 or behavioral probe is opened; optional execution would require a separately recorded, safe pre-run criterion consistent with the authorized boundary.
+These are conditional source deductions, not observed installations, outages, attacks or data loss. They do not negate checksum protection, local preview, consent, non-overwrite behavior or the honest first cleanup error. They separate a control's immediate object from its later consumer and recovery responsibilities.
 
-Publish Note44, exact U18-E source ledger and MR45 assessment, then align affected PLAN/QUESTIONS/META/INDEX and only the ECC catalogue row. Inspect actual changes and readbacks, record publication, close STATE with an exact next responsibility. Preserve previous notes/evidence, E06 exclusion, E05 histories and E10 recovery. Preserve concurrent work and never force main. Final CORE, G6 reverse inventory and joint evaluation remain separate.
+The exact implementation also separates status-only executable overrides from mutation destinations, report exit0 from qualification, recognized byte identity from executable permissions/startup, and request inactivity timeout from a complete-operation deadline. The release table is the trust anchor; its provenance/review quality is not independently validated by this study.
+
+## Evidence and test assessment
+
+Four new bodies were fully read: Nasiko entry, complete lifecycle helper including embedded release metadata, skill and lifecycle test file. The full public dispatcher previously read in this conversation was reused, with a fresh selected reread of its complete resolution/spawn/main functions. Only claw.js1–95 qualified the next lead. Search on a newer default branch located paths; all substantive bodies were fetched at the unchanged pin.
+
+Tests contain valuable local negative cases: bad digests/framing, competing publication, lock initialization/dead owner/replacement, unqualified status without execution, receipt failure and staged-removal failure. But the successful install substitutes release digests, fetch and extraction; the receipt failure creates no partial receipt; the cleanup test does not perform a later lifecycle recovery; the preview test directly supplies dryRun:true. Test names and final file existence do not prove end-to-end or crash-atomic guarantees. None was executed.
+
+Official Node filesystem and HTTP documentation supports narrow exclusive-create and socket-timeout interpretation, not installed runtime/OS behavior. No target functions, tests, E11, artifact download, registry query, Nasiko launch, user files, credentials or external service operations occurred. No auxiliary source download was attempted. Prior experiments and acquisition failures retain their historical scopes.
+
+Note44 was created9324093d and fully read back in1–65/66–180 through EOF as8ffab121b4e4b132733f6781521062aae15d3266. The ledger was created9445b902 and fully read back as957b0478be6c47653f11db3f690b265c1475ae76. Subsequent entry/catalogue/receipt/STATE checks own publication closure.
+
+## Method assessment and next responsibility
+
+Following the lifecycle beyond the first exception changes the interpretation of recovery: reporting leftover files is not tracking their later cleanup. Comparing caller normalization with the local helper exposes an entry-specific preview gap that the helper test cannot detect. Comparing receipt identity with requested identity exposes a different problem from corrupt bytes. These are explanatory gains from consumer and continuation tracing, not independent proof that the research method is optimal.
+
+The bounded source criterion is met through Q02h1. Q02h2 retains stronger provenance/build/registry/runtime, platform/permission/approval, native transport/archive, concurrency/crash/orphan/tombstone recovery and useful-outcome claims. Necessary new implementation sources and stronger empirical claims remain distinct.
+
+Next selected U18-F/Q02i follows NanoClaw's session/history/optional skill context into prompt, actual Claude invocation, reply persistence, compaction and continuation. The prefix identifies an internal REPL; G5 is a responsibility frontier, not an external-product taxonomy. Full invocation/REPL/tests are NOT STARTED. No model run or user-history mutation is authorized. Other MCP/alternate-dashboard roles, G6 reverse inventory, final CORE and joint evaluation remain open.
+
+Original Notes01–43/evidence, METHOD/WHY, historical inventory and unrelated project/control surfaces remain unchanged. Complete aligned entries, one-row ECC discovery, actual diff/readbacks, receipt and final STATE; preserve concurrent work and never force main.
