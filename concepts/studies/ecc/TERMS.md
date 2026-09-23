@@ -29,6 +29,9 @@ Bu dosya Concepts kullanım girişidir. [READING](READING.md) actual dosya/sür�
 | U15 assembly / integration / information-use | [TERMS-ASSEMBLY-INTEGRATION-INFORMATION.md](TERMS-ASSEMBLY-INTEGRATION-INFORMATION.md), AI01–AI92 | C6 post-U12 transfer complete |
 | U16 maintenance / shared configuration / recovery | [TERMS-MAINTENANCE-RECOVERY.md](TERMS-MAINTENANCE-RECOVERY.md), ML01–ML63 | C6 post-U12 transfer complete |
 | U17 guidance / procedure / E10 recovery | [TERMS-GUIDANCE-PROCEDURES-E10.md](TERMS-GUIDANCE-PROCEDURES-E10.md), GH01–GH55 | C6 post-U12 transfer complete |
+| U18-A–C scorecard / reputation gate / consult | [TERMS-SCORECARD-REPUTATION-CONSULT.md](TERMS-SCORECARD-REPUTATION-CONSULT.md), IX01–IX66 | C6 existing-source transfer complete |
+| U18-D–F Itô / Nasiko / NanoClaw | [TERMS-EXTERNAL-CLIENTS-CONTEXT.md](TERMS-EXTERNAL-CLIENTS-CONTEXT.md), EC01–EC83 | C6 existing-source transfer complete |
+| U18-G desktop explorer | [TERMS-DESKTOP-DISCOVERY.md](TERMS-DESKTOP-DISCOVERY.md), DD01–DD40 | C6 desktop source transfer complete; browser U18-H not started |
 
 Bütün kullanım kimlikleri ECC- öneki taşır. Bunlar bağımsız kavram, kanıt veya ilerleme yüzdesi değildir. PE satırları ürün mimarisinin yeni parçaları değil, mevcut araştırmanın deney/kayıt kullanımlarıdır. C6b'de C3 dosyası raw E05 refinement'i aldı ve PE dosyası E04/E05 ile genişledi. Bağlı kullanım dosyalarının paket-geneli source/rol/ilişki kontrolü henüz kapanmadı.
 
@@ -69,7 +72,7 @@ Bu router'ın U12 ve C6a dahil önceki tam metni [3acfa615 TERMS](https://github
 
 ## 5. Exact next ve açık kapsam
 
-**C6 raw/history/inventory reconciliation ile U14–U17 transferleri tamamlandı.** Exact next published U18 G5 slices'dır; fresh source STATE authority ile seçilir. İki E05 kimliği ayrı, E06 excluded kalır.
+**C6 raw/history/inventory reconciliation ile U14–U18-G existing-source transferleri tamamlandı.** Closure audit U13-A/B'nin dedicated Concepts transferinin eksik olduğunu gösterdi; exact next release/scanner U13-A/B'dir. U18-H source-study work'ü Concepts next'i değildir. İki E05 kimliği ayrı, E06 excluded kalır.
 
 C6a'nın U5 driver listesi ve üç usable R carrier E01–E05 için scoped olarak kapandı. Değiştirilmemiş 41f6603 TSV'si C6a anını gösterir; bugünkü kapanış onun üzerine sürümlü eklemedir. Kalan root/master-history/inventory, U13 ve census sonrası source delta, linked TERMS + router semantik kontrolü ve final current census açık. Metadata'da yeni kaynakların özetlerini okumak gövde aktarımı değildir.
 
