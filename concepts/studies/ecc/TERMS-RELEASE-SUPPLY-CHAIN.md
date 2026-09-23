@@ -8,6 +8,15 @@ Source packages:
 Fixed target: `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 Tests inspected, not run; no build/pack/install/scan/registry/workflow/release/malware execution.
 
+## 0. Source locator and role map
+
+| Usage range | Exact research sources | Source role / evidence class |
+|---|---|---|
+| ECC-RS01–RS37 | [Note28](../../../research/studies/ecc/notes/28-RELEASE-QUALIFICATION-AND-ARTIFACT-BINDING.md) §§1–9 → [U13-A ledger](../../../research/studies/ecc/evidence/U13-A-SOURCES.md) → [MR29](../../../research/studies/ecc/ROUND-U13-A.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U13-A.md) | SOURCE / TEST-SOURCE-INSPECTED plus dated primary contracts and conditional release ordering; no release/build/pack execution. |
+| ECC-RS38–RS80 | [Note29](../../../research/studies/ecc/notes/29-SUPPLY-CHAIN-SCAN-COVERAGE-AND-ADVISORY-FRESHNESS.md) §§1–9 → [U13-B ledger](../../../research/studies/ecc/evidence/U13-B-SOURCES.md) → [MR30](../../../research/studies/ecc/ROUND-U13-B.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U13-B.md) | SOURCE / TEST-SOURCE-INSPECTED, narrow primary contracts and conditional scanner/advisory cases; no scan/refresh/malware/workflow execution. |
+
+Release-document claims, executable workflow predicates and hosted/live outcomes retain separate evidence roles throughout RS.
+
 ## 1. Release qualification surfaces and artifact binding
 
 | ID / ifade | ECC araştırmasındaki kullanım | Sınır |
