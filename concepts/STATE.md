@@ -1,12 +1,12 @@
 # Concepts — Güncel çalışma durumu
 
-2026-09-23 · **ECC published U01–U18-G + existing U18-H active-snapshot material transferred; C6 raw/history/inventory reconciled. Exact next: final linked-TERMS audit + version-qualified source census/closure decision. ECC package PARTIAL until those checks close.**
+2026-09-23 · **ECC Concepts PACKAGE COMPLETE at source tree 172a99a3d90e2db4c81cae16d79b79b3b83fab0a. B6 exact next: work-management-project-control. Source ECC research remains separately ACTIVE/PARTIAL; B7/B8 NOT STARTED.**
 
 Bu dosya amaç, yetki ve current/next işi taşır. Ayrıntılı okuma/sürüm/kapsam hesabı [ECC READING](studies/ecc/READING.md), bağlamlı kullanımlar [TERMS](studies/ecc/TERMS.md) içindedir. Kaynak ECC araştırmasının current işi Concepts'in çalışma rotası değildir.
 
 ## 1. Amaç ve aşama
 
-**B6-SERIAL-EXTRACTION-ACTIVE / ECC-C1–C5-SOURCE-FAMILY-TRANSFER-COMPLETE / C6a-COMPLETE / C6-RAW-HISTORY-INVENTORY-RECONCILED / C6-SOURCE-DELTA-NEXT / ECC-PACKAGE-PARTIAL / METHOD-v0.3-WORKING / B7-B8-NOT-STARTED.**
+**B6-SERIAL-EXTRACTION-ACTIVE / ECC-PACKAGE-VERSION-QUALIFIED-COMPLETE / NEXT-WORK-MANAGEMENT-PROJECT-CONTROL / METHOD-v0.3-WORKING / B7-B8-NOT-STARTED.**
 
 Amaç research/studies araştırmalarındaki kullanımları, kendi bağlamları ve ilişkileriyle tam okumadan çıkarmak; bütün kapsam ve delta kontrolü sonrasında ayrı ortak değerlendirmeyle Development OS/SOUL konuşmalarında ne kastedildiğini belirginleştirmektir. Şimdiki iş genel sözlük, yeni ürün testi veya mimari kabul değildir. Dosya/kullanım adedi başarı yüzdesi sayılmaz.
 
@@ -25,9 +25,9 @@ Giriş: AGENT ve gerekli protokoller → concepts/INDEX'in STATE/CHARTER/ORIGIN/
 | ECC C6b E01–E03 | Üç betik + dokuz plan/sonuç/README FULL okundu; S/W ile karşılaştırıldı |
 | ECC C6b E04/E05 | Bu tur iki driver + üç compressed carrier read-only recovered/FULL; L refinements ve PE evidence uses yayımlandı |
 | ECC C6 history/inventory | Bu tur FULL reconciliation complete; PC01–PC45 |
-| ECC C6 source delta | Baseline+delta reconciled; U13 dedicated transfer now complete; fresh final census remains |
-| ECC C6 bütünü | Root/history/inventory, yeni kaynak delta'sı, bütün kullanım kayıtları ve final census açık |
-| ECC source-study | Ayrı ACTIVE/PARTIAL; fresh STATE'te U18-H/Q08d2 IN PROGRESS, last completed/published U18-G |
+| ECC C6 source delta | COMPLETE at tree 172a99a…; final manifest246 leaves, zero unmapped, post-freeze drift zero |
+| ECC C6 bütünü | VERSION-QUALIFIED COMPLETE; final reconciliation + TERMS audit + 246-leaf manifest published |
+| ECC source-study | Ayrı ACTIVE/PARTIAL; freeze STATE'te U18-H IN PROGRESS, last completed/published U18-G; future source delta Concepts closure'a dahil değil |
 | Post-S1 eklemeler | agentmemory, claude-swap, cli-continues, ponytail B7 öncesi kapsam hesabında |
 | B7/B8 | Başlamadı |
 
@@ -130,3 +130,11 @@ Fresh source census showed U18-H had started concurrently. Current source STATE 
 New usage file: `TERMS-BROWSER-DASHBOARD.md`, BD01–BD52. No target execution. Future source publication/U18-I is a later delta.
 
 **Exact next:** complete router/ID/source-role audit including BD, then create final version-qualified source census and decide ECC Concepts package closure for that explicit snapshot.
+
+## 16. ECC package closure and exact next
+
+ECC C6 is closed for exact source tree **172a99a3d90e2db4c81cae16d79b79b3b83fab0a**. [Final reconciliation](studies/ecc/C6-FINAL-RECONCILIATION.md), [final manifest](studies/ecc/C6-FINAL-SOURCE-MANIFEST.tsv) and [TERMS audit](studies/ecc/C6-TERMS-AUDIT.md) are the closure records.
+
+This does not close the ECC research package itself: its frozen STATE is ACTIVE/PARTIAL and U18-H publication remains unfinished. Concepts accounted for all 246 files existing in the freeze; later source files are future delta.
+
+**B6 exact next source package: work-management-project-control.** Recover its META/STATE/INDEX and full local file inventory before extraction. Do not start B7 or B8.
