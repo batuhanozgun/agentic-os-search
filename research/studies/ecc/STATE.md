@@ -1,54 +1,34 @@
 # ECC — STATE
 
-**Updated:** 2026-09-23 — U18-G final publication/handoff.
-**Last completed:** U18-G / G5 / Q08d1, desktop dashboard discovery and action boundaries, **COMPLETE / PUBLISHED at bounded desktop source scope**. [Note46](notes/46-DESKTOP-DASHBOARD-DISCOVERY-AND-ACTION-BOUNDARIES.md), [sources](evidence/U18-G-SOURCES.md), [MR47](ROUND-U18-G.md), [publication receipt](PUBLICATION-U18-G.md).
-**Current work:** no substantive unit in progress after this closure. **Next selected:** U18-H / G5 / Q08d2, browser-dashboard source/configuration → HTTP admission/content exposure → client/action/consumer boundary, **NOT STARTED**. Only scripts/dashboard-web.js1–140 qualified the lead.
-**Publication:** checks through `b9272474aa93032a996338bf7c920cd428ec7e29`; receipt committed `a1b17f17476e3666c67f3fcee30506d2248f4232`. This STATE closes the historical U18-G activation after those checks. Prior publication closures remain closed; no known publication blocker remains.
-**Study:** ACTIVE / PARTIAL. Q08d overall remains PARTIAL: desktop d1 answered, distinct browser source d2 remains, stronger desktop d3 stays open. Note33 is provisional, extended by Notes34–46. Remaining G5/MCP, Q01a2/G6 reverse inventory, final CORE and joint evaluation remain unfinished.
-**METHOD / PLAN:**0.1 / 0.48. **Fixed target:** affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a.
+**Updated:** 2026-09-23 — U18-H activation.
+**Current work:** U18-H / G5 / Q08d2, browser-dashboard source/configuration → HTTP admission/content exposure → client/action/consumer boundary, **IN PROGRESS**. [MR48 opening](ROUND-U18-H.md), commit `1bd135062602d0546b1c26ad47bf8dd9566cf8e0`, precedes substantive inquiry.
+**Last completed:** U18-G / Q08d1, desktop discovery/action, **COMPLETE / PUBLISHED at bounded source scope**. [Note46](notes/46-DESKTOP-DASHBOARD-DISCOVERY-AND-ACTION-BOUNDARIES.md), [ledger](evidence/U18-G-SOURCES.md), [MR47](ROUND-U18-G.md), [receipt](PUBLICATION-U18-G.md).
+**Publication:** no inherited blocker; prior closures remain closed. PLAN0.48's NOT STARTED selection is superseded by this activation, not by a completed browser result.
+**Study:** ACTIVE / PARTIAL. Note33 remains provisional, extended by Notes34–46. Q08d1 is answered; browser Q08d2 is active; stronger desktop Q08d3 remains open. Remaining G5/MCP, Q01a2/G6, final CORE and joint evaluation remain unfinished.
+**METHOD / selection PLAN:**0.1 / 0.48. **Fixed target:** affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a.
 
-## Purpose, authority and recovery
+## Purpose, recovery and authority
 
-Explain ECC's native mechanisms, connections, dependencies, differences and limits; retain a revisable research-method case. WHY/METHOD remain unchanged. This is not SOUL/Development OS architecture, adoption or implementation. EXP-004 remains closed and is not an ECC oracle.
+Explain ECC's native mechanisms, connections, dependencies, differences and limits, while preserving a revisable research-method case. WHY/METHOD are unchanged. This is not architecture, adoption, upstream repair or SOUL/Development OS implementation. EXP-004 remains closed and is not ECC's oracle.
 
-Batu requested continuation. Fresh AGENT/main-ref recovery matched the unchanged router and preceding handoffd50f247d38b5c329b74e524dc460ab3102291a3c. R01–R03 were fully reread, including clipped/overlapping ranges; full same-conversation R04–R09 and checked project context remained active. No fresh reread of all historical bodies is claimed. MR47 opening63666a6d472b0ead15878997a80c528aa955735f preceded activation207061842682b963793c8d0f8eff9fe91a11f816, fully read back asd21bee6e96298762f004889a352b5287dd7f761c before inquiry. Its IN PROGRESS label is now historical.
+Recovery main4504044886afe50e43573313f99a4648cb78d594 was compared with the preceding closure1b25af6845fb70717ed93b4e4e9f54338eab8329: eight commits changed only five concepts paths. Those changes are preserved, not this unit's work. Fresh AGENT and full R04–R09, including clipped tails, were loaded; full same-conversation R01–R03 remain active. Research/studies routers, WHY and METHOD were freshly fully read. The preceding full package/entry/source context remains available at unchanged identities; no fresh reading of all historical bodies is claimed.
 
-The [complete preceding STATE](https://github.com/batuhanozgun/agentic-os-search/blob/d50f247d38b5c329b74e524dc460ab3102291a3c/research/studies/ecc/STATE.md) preserves earlier findings, publication chronology and residuals. Historical blocked receipts and rejected candidates are not new work bases or reasons to repeat completed research.
+[Complete preceding handoff](https://github.com/batuhanozgun/agentic-os-search/blob/1b25af6845fb70717ed93b4e4e9f54338eab8329/research/studies/ecc/STATE.md) preserves the desktop result, original evidence, stronger residuals and publication history. Old rejected/stale candidates are not current work bases. No completed unit or experiment is reopened.
 
-## What U18-G establishes
+## Active inquiry and return boundary
 
-The complete Tkinter GUI is a manually refreshed repository-component explorer, not live Rust/Node operator control. It lists source agents/skills/commands/rules, supplies details/filtering and local terminal/document conveniences; it does not launch the listed agents or qualify their installed activation. Useful directory validation, canonical document containment and separated terminal path arguments remain real controls.
+What does the browser dashboard expose, to whom, and how do its components and controls reach real consumers? Begin with complete scripts/dashboard-web.js at the fixed pin, blob5524853bd73fb1881ab47e0cdb217d6a027ed09b. Previously only1–140 was read. Recover actual loopback-guard, agent-tools, hooks-config, other consequential dependencies, HTTP handlers, embedded client and test bodies.
 
-Fallback examples and discovered records reach the same counts/Ready presentation. With an empty chosen source tree, a fallback skill lacks the path key its detail callback expects. A normal frontmatter opener can become the short skill description. Editing the selected root changes terminal/document targets before previously loaded lists refresh; refresh does not rebuild every filter/qualifier. Dispatching an OS application also does not establish its successful launch/completion: terminal process results are not tracked and the browser's boolean result is ignored. These are source deductions, not executed GUI incidents, attacks or measured failure rates.
+Trace files/configuration → loading/normalization/redaction → request admission → response/rendering → action/copied configuration → consumer/result/failure. Separate source declarations from active capability, loopback binding from authorization, partial masking from complete protection and copied instructions from execution. Return a coherent source account, useful mechanisms, a material counterpart and exact limits; reconcile with desktop and reassess G5. Do not conceal a necessary unread source as merely an unrun empirical test.
 
-Authored troubleshooting explicitly requires a full clone rather than a plugin directory. An absent desktop entry in a package list is therefore not alone a demonstrated packaging bug. The answer preserves useful source browsing without requiring a catalogue GUI to become an orchestrator.
+No GUI/browser/HTTP-server/terminal/model launch, target import/test, user-history/home/configuration mutation, installation, credentials or live service operation. No E11. Narrow external documentation is interface evidence, not installed-host validation.
 
-Q08d1 carries this bounded desktop result. Q08d3 preserves installed Python/Tk/OS/terminal/browser correspondence, full parser/locale/platform/permission/symlink/concurrency variants, complete view/target/result fidelity and accepted user outcomes. Four new complete bodies were read, with two reused full bodies and two selected sources. The helper tests were inspected, not run; they do not instantiate the GUI or test fallback/root-refresh/launch completion. No target function/import, E11, GUI/browser/server/terminal/model launch, installation, user-configuration or credential operation occurred. No auxiliary container acquisition was attempted. Official Python documentation qualifies narrow contracts only.
+## Preserved scope and publication
 
-## Exact next responsibility — U18-H / Q08d2
+Notes01–46 and original ledgers retain their evidence classes; Note33 is provisional. Q06e2/Q02e2/Q02f2/Q02g2/Q02h2/Q02i2/Q08d3 remain open. E06 stays excluded; E05 histories and E04/E07/E08/E09/E10 limits remain. E10 uses its original guarded recovery; no archive restoration/upload/rerun is needed. Note40's39 is arithmetic, not execution. Prior source countercases are not observed incidents.
 
-**Question:** what source/configuration does the browser capabilities dashboard expose, to which requests/clients, and how do represented components or controls connect to actual content, configuration and execution consumers?
+Remaining MCP/interface roles remain G5; Q01a2/G6 retains material source variants, reverse inventory and broad-document omission challenge, CORE and joint evaluation. No automatic next product study or architecture follows.
 
-First source: complete scripts/dashboard-web.js at the unchanged pin, blob5524853bd73fb1881ab47e0cdb217d6a027ed09b. Only1–140 was read. Its imports identify scripts/lib/loopback-guard.js, scripts/lib/agent-tools.js and scripts/lib/hooks-config.js. Recover consequential helper bodies, HTTP routes/guard consumers, embedded rendering/actions and actual tests. Reuse prior host/MCP findings only where the real source relationship is shared.
+MR48/result/ledger precede affected entries/catalogue, actual differences/readbacks, receipt and final STATE. Writes stay ECC-local plus necessary ECC discovery; preserve unrelated and concurrent work, never force main. No branch/PR action is required. One auxiliary exact-catalogue download failed container DNS and created no source file; connected GitHub is available. This is acquisition, not execution.
 
-Trace root/config/files → load/normalize/redact/project → HTTP host/origin/request admission → response/client rendering → user action/copied configuration → actual consumer/result/failure. Distinguish local hosting from effective request admission, declarations from running capability, masking from complete secret protection and copied guidance from execution. The desktop controls cannot be transferred to a different HTTP implementation by name.
-
-**Return criterion:** a coherent browser source/consumer explanation with useful mechanisms, a consequential counterpart and exact evidence limits; reconcile with desktop and reassess G5. Publish an opening/activation before inquiry. No GUI/browser/server/terminal/model launch, user-configuration mutation, installation, credential or live-service action. U18-H is selected, not running. Unread necessary implementation must stay explicit source work, not be relabeled merely stronger unrun validation.
-
-## Preserved results and unfinished scope
-
-Note34 retains G1 integration;35–36 G2 information;37–38 G3 maintenance;39 representative G4 guidance;40 scorecard;41 AURA;42 consult;43 Itô;44 Nasiko;45 NanoClaw;46 desktop. Original notes/ledgers own their evidence conditions. Q06e2/Q02e2/Q02f2/Q02g2/Q02h2/Q02i2 and new Q08d3 remain stronger obligations. Note40's39 is arithmetic, not execution.
-
-Remaining MCP/interfaces and browser stay G5. Q01a2/G6 retains consequential generator/host/domain/rule/context/translation variants, reverse inventory, broad-document omission challenge, revised CORE and joint evaluation. E06 remains excluded; E05 histories and E04/E07/E08/E09/E10 scopes remain. E10's README and guarded restore helper recover its original campaign; its raw transfer is known bad. No archive recovery, upload or rerun is required. U18-A/B/C/D/E/F/G introduced no E11.
-
-## Checked publication and concurrency
-
-The receipt records full Note46/ledger/MR47/PLAN/META readbacks, full INDEX/QUESTIONS inputs plus complete primary diffs, and current catalogue source/diff/non-force/main-row checks. INDEX/QUESTIONS required no correction. Catalogue candidate0ecfc330 was rejected for accidental Leantime-qualifier and final-newline loss; it must not be advanced. Correctedbf7c80ee had only the ECC-row change. Its verified blob4782f0c8 was reused on newer bases as concurrent concepts work arrived; valid but stale candidatesbf7c80ee and1d32ea3b were not advanced. Final candidateb9272474 on based9f00a4a had a checked single-row diff, succeeded with force=false and was read back on main.
-
-Whole-file transfer remains a documented production weakness, not an error-free or independently validated method. Reusing the verified blob during base updates avoided further retranscription. The final publication used the non-force check; no final identical-parent comparison after the last diff is claimed.
-
-Compared50f247d→b9272474 included nine ECC-owned paths and eight concurrent concepts paths, which were preserved rather than authored/evaluated here. The receipt adds one ECC-local path; this closure changes only STATE. Do not call the full repository interval exclusively ECC changes. Original Notes01–45/evidence, METHOD/WHY, historical inventories and agent-control were not changed by this unit. No branch/PR was created, merged or deleted; no force update occurred.
-
-Fresh session: AGENT/protocols → research/studies route → this STATE/INDEX/META → WHY/METHOD/PLAN/QUESTIONS → Note46/ledger/MR47/receipt at required depth. The [original opening](https://github.com/batuhanozgun/agentic-os-search/blob/63666a6d472b0ead15878997a80c528aa955735f/research/studies/ecc/ROUND-U18-G.md) preserves the criterion; prior labels are historical. Final receipt/STATE readbacks and closing scope/main checks follow this write.
-
-Writes stay ECC-local plus necessary ECC discovery. No unrelated studies/concepts/explorations/Foundation/agent-control mutation by this unit, user files/credentials, paid provider, live workflow/registry/release, upstream patch/issue or SOUL implementation. Preserve concurrent work; never force main. Bounded source completion does not certify deployed efficacy or whole-study completion.
+Fresh session: AGENT/protocols → research/studies route → STATE/INDEX/META → WHY/METHOD/PLAN/QUESTIONS → active MR48 and resulting note/ledger/receipt at required depth. This IN PROGRESS state must be replaced by an honest completed or partial handoff before outward closure.
