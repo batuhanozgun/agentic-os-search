@@ -1,6 +1,6 @@
 # ECC — Bağlamlı kullanım kayıtları
 
-2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6a COMPLETE / C6b E01–E05 RAW-EVIDENCE COMPLETE / C6 ve PACKAGE PARTIAL.**
+2026-09-23 · **C1–C5 SOURCE-FAMILY TRANSFER COMPLETE / C6a COMPLETE / C6 RAW-EVIDENCE + HISTORY/INVENTORY RECONCILED / C6 ve PACKAGE PARTIAL.**
 
 Bu dosya Concepts kullanım girişidir. [READING](READING.md) actual dosya/sürüm/okuma ve C6b kapanış hesabını, [global STATE](../../STATE.md) program yetkisini taşır. [C6-RECONCILIATION](C6-RECONCILIATION.md) ve [167 yapraklı manifest](C6-SOURCE-MANIFEST.tsv) C6a tarihsel snapshot'ıdır; E01–E03 okuma durumunun yeni karşılığı current READING'dedir. Kaynak ECC araştırması ayrıdır: bu turun 7ce22d4 snapshot'ında U18-F IN PROGRESS, son completed U18-E. Bu kaynak next'i Concepts yetkisine dönüştürülmez.
 
@@ -24,6 +24,7 @@ Bu dosya Concepts kullanım girişidir. [READING](READING.md) actual dosya/sür�
 | U12-B2 / C5c | [TERMS-OPENCODE-INSTALLATION.md](TERMS-OPENCODE-INSTALLATION.md), OD01–OD91 | Complete |
 | U12-C / C5c | [TERMS-PYTHON-PROVIDERS-AND-TOOLS.md](TERMS-PYTHON-PROVIDERS-AND-TOOLS.md), PY01–PY108 | Complete |
 | E01–E05 araştırma düzeneği / C6b | [TERMS-EARLY-PROBE-EVIDENCE.md](TERMS-EARLY-PROBE-EVIDENCE.md), PE01–PE34 | Driver/raw-evidence aktarımı complete; C6 bütünü değil |
+| Package history / coverage / closure / C6 | [TERMS-PACKAGE-COVERAGE.md](TERMS-PACKAGE-COVERAGE.md), PC01–PC45 | History/current-plan/inventory reconciliation complete |
 
 Bütün kullanım kimlikleri ECC- öneki taşır. Bunlar bağımsız kavram, kanıt veya ilerleme yüzdesi değildir. PE satırları ürün mimarisinin yeni parçaları değil, mevcut araştırmanın deney/kayıt kullanımlarıdır. C6b'de C3 dosyası raw E05 refinement'i aldı ve PE dosyası E04/E05 ile genişledi. Bağlı kullanım dosyalarının paket-geneli source/rol/ilişki kontrolü henüz kapanmadı.
 
@@ -64,7 +65,7 @@ Bu router'ın U12 ve C6a dahil önceki tam metni [3acfa615 TERMS](https://github
 
 ## 5. Exact next ve açık kapsam
 
-**C6b E04/E05 driver/ham kanıt okuması tamamlandı.** Exact next master-history/current-plan/inventory reconciliation'dır; ayrıntı READING §7–§8'dedir. İki E05 kimliği ayrı, E06 excluded kalır.
+**C6 raw-evidence ve master-history/current-plan/inventory reconciliation tamamlandı.** Exact next fresh source delta + post-U12 source-family transferidir; ayrıntı READING §9'dadır. İki E05 kimliği ayrı, E06 excluded kalır.
 
 C6a'nın U5 driver listesi ve üç usable R carrier E01–E05 için scoped olarak kapandı. Değiştirilmemiş 41f6603 TSV'si C6a anını gösterir; bugünkü kapanış onun üzerine sürümlü eklemedir. Kalan root/master-history/inventory, U13 ve census sonrası source delta, linked TERMS + router semantik kontrolü ve final current census açık. Metadata'da yeni kaynakların özetlerini okumak gövde aktarımı değildir.
 
