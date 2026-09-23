@@ -180,3 +180,27 @@ New [TERMS-GUIDANCE-PROCEDURES-E10.md](TERMS-GUIDANCE-PROCEDURES-E10.md), **ECC-
 E10 remains one seven-case historical source-informed local campaign. Repository bad base64 is explicitly not directly admissible ZIP evidence; guarded recovery reproduces the original archive identity without rerunning target code. The recovery/result standing is inherited from the source study; Concepts did not run E10 or Gemini/model/provider.
 
 **Exact next:** U18 published G5 slices. Fresh source STATE must decide which U18 units are completed before Concepts transfer; in-progress source units are not promoted to complete.
+
+## 13. C6 post-U12 transfer — U18-A through U18-G
+
+Fresh source authority at this transfer: source-study STATE marks **U18-G COMPLETE/PUBLISHED**, with **U18-H/Q08d2 NOT STARTED**. Concepts therefore transfers only A–G; browser-dashboard technical inquiry is not started here.
+
+Published source packages read at their note/ledger/round/receipt scopes:
+- U18-A scorecard/optimizer;
+- U18-B AURA reputation gate;
+- U18-C consult recommendation→installer, including its later catalogue-alignment closure;
+- U18-D Itô CLI bridge;
+- U18-E Nasiko artifact lifecycle;
+- U18-F NanoClaw transcript replay;
+- U18-G desktop dashboard.
+
+Combined/truncated displays were not treated as FULL by themselves. U18-B/C/D/E ledgers or notes were re-fetched in bounded ranges through EOF where needed; U18-F/G complete bodies were visible directly. No target code/test/service/model/GUI/browser/server/installation/credential action was executed by Concepts.
+
+New usage files:
+- [TERMS-SCORECARD-REPUTATION-CONSULT.md](TERMS-SCORECARD-REPUTATION-CONSULT.md), **ECC-IX01–IX66**;
+- [TERMS-EXTERNAL-CLIENTS-CONTEXT.md](TERMS-EXTERNAL-CLIENTS-CONTEXT.md), **ECC-EC01–EC83**;
+- [TERMS-DESKTOP-DISCOVERY.md](TERMS-DESKTOP-DISCOVERY.md), **ECC-DD01–DD40**.
+
+Key non-collapse: score/config presence ≠ capability outcome; reputation class ≠ caller policy ≠ live identity ≠ action authority; consult match ≠ dependency closure ≠ consent ≠ install effect; explicit executable path ≠ provenance; process status ≠ remote-effect receipt; pinned artifact digest ≠ signed provenance; transcript ≠ restored execution context; raw history ≠ parsed history; desktop source explorer ≠ live operator ≠ browser dashboard.
+
+**Important C6 gap found before closure:** U13-A/U13-B release-qualification and supply-chain-scanner source families are present in the source package and referenced by later synthesis, but they do not yet have a dedicated Concepts transfer file. Exact next is therefore **U13-A/B existing-source transfer**, not U18-H.
