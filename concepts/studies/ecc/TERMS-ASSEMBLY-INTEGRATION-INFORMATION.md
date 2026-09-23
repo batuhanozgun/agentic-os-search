@@ -10,6 +10,17 @@ Source packages:
 Fixed upstream target: `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 Tests inspected, not run; conditional counterparts are not incidents.
 
+## 0. Source locator and role map
+
+| Usage range | Exact research sources | Source role / evidence class |
+|---|---|---|
+| ECC-AI01–AI18 | [Note33](../../../research/studies/ecc/notes/33-NATIVE-SYSTEM-ASSEMBLY-AND-RESEARCH-FRONTIER.md) §§1–9 → [U15-A ledger](../../../research/studies/ecc/evidence/U15-A-SOURCES.md) → [coverage reconciliation](../../../research/studies/ecc/inventory/U15-A-COVERAGE-RECONCILIATION.md) → [MR34](../../../research/studies/ecc/ROUND-U15-A.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U15-A.md) | PROVISIONAL research synthesis over prior note evidence plus selected new source; not fresh execution or CORE. |
+| ECC-AI19–AI49 | [Note34](../../../research/studies/ecc/notes/34-WORKTREE-INTEGRATION-AND-RETENTION-BOUNDARIES.md) §§1–9 → [U15-B ledger](../../../research/studies/ecc/evidence/U15-B-SOURCES.md) → [MR35](../../../research/studies/ecc/ROUND-U15-B.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U15-B.md) | Fixed-pin source observation, inspected tests and conditional Git/lifecycle inference; no merge/rebase/delete run. |
+| ECC-AI50–AI71 | [Note35](../../../research/studies/ecc/notes/35-CONNECTOR-GRAPH-RECALL-AND-RECIPIENT-USE.md) §§1–8 → [U15-C1 ledger](../../../research/studies/ecc/evidence/U15-C1-SOURCES.md) → [MR36](../../../research/studies/ecc/ROUND-U15-C.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U15-C1.md) | Fixed-pin Rust source/test observation plus conditional inference; no SQLite/import/retrieval run. |
+| ECC-AI72–AI92 | [Note36](../../../research/studies/ecc/notes/36-NODE-RECALL-PROXIMITY-AND-ADVISORY-CONSUMERS.md) §§1–9 → [U15-C2 ledger](../../../research/studies/ecc/evidence/U15-C2-SOURCES.md) → [MR37](../../../research/studies/ecc/ROUND-U15-C2.md) → [receipt](../../../research/studies/ecc/PUBLICATION-U15-C2.md) | Node/Git source observation, inspected tests and explicitly derived examples; no proximity/runtime run. |
+
+Note33's assembly does not upgrade the evidence classes of the original notes it cites. Later Note34–36 usage ranges retain their own source/conditional standing.
+
 ## 1. Assembly and relationship language
 
 | ID / ifade | ECC araştırmasındaki kullanım | Sınır |
