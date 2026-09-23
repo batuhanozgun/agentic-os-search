@@ -7,15 +7,16 @@
 | Need | Entry |
 |---|---|
 | What working system does the research support? | [Note33 — provisional assembly](notes/33-NATIVE-SYSTEM-ASSEMBLY-AND-RESEARCH-FRONTIER.md) → [sources](evidence/U15-A-SOURCES.md), [MR34](ROUND-U15-A.md) |
-| Latest scorecard and optimization-consumer relationship | [Note40](notes/40-HARNESS-SCORECARD-AND-OPTIMIZATION-CONSUMERS.md) → [U18 sources](evidence/U18-A-SOURCES.md), [MR41](ROUND-U18-A.md). Configuration predicates, scope/input identity, exit/report and interpreted improvement; no new target execution |
+| Latest optional reputation gate and caller/service boundary | [Note41](notes/41-AURA-REPUTATION-GATE-AND-CALLER-BOUNDARIES.md) → [U18-B sources](evidence/U18-B-SOURCES.md), [MR42](ROUND-U18-B.md). Executable local refusal, response/live-actor identity, class/policy/action and freshness; no target execution or live service |
+| Scorecard and optimization-consumer relationship | [Note40](notes/40-HARNESS-SCORECARD-AND-OPTIMIZATION-CONSUMERS.md) → [U18-A sources](evidence/U18-A-SOURCES.md), [MR41](ROUND-U18-A.md). Configuration predicates, scope/input identity, exit/report and interpreted improvement; no target execution |
 | Guidance/host/actor relationship | [Note39](notes/39-GUIDANCE-ADAPTATION-AND-PROCEDURAL-HANDOFFS.md) → [U17 sources](evidence/U17-A-SOURCES.md), [MR40](ROUND-U17-A.md). Gemini transformation, interpreted staged work and parallel-persona variant; not host obedience |
 | Interrupted E10 and recovery | [E10 README](evidence/u17-a-guidance-adapter-probe/README.md) → PRECHECK, guarded restore helper and recovery-check.json. Raw E10.zip.b64 is a preserved bad transfer; do not decode it directly |
 | Shared configuration and common maintenance | [Note38](notes/38-SHARED-CONFIGURATION-OWNERSHIP-AND-LEGACY-RECOVERY.md) / [Note37](notes/37-MANAGED-MAINTENANCE-OWNERSHIP-AND-PREVIEW.md) → respective U16-A2/A1 ledgers. Bounded G3 answer |
 | Information use and advisory consumers | [Note36](notes/36-NODE-RECALL-PROXIMITY-AND-ADVISORY-CONSUMERS.md) / [Note35](notes/35-CONNECTOR-GRAPH-RECALL-AND-RECIPIENT-USE.md) → respective U15-C2/C1 ledgers. Distinct Node/Rust and code/knowledge paths |
 | Integration and retention | [Note34](notes/34-WORKTREE-INTEGRATION-AND-RETENTION-BOUNDARIES.md) → [sources](evidence/U15-B-SOURCES.md), [MR35](ROUND-U15-B.md) |
-| Explained versus unread versus stronger empirical claims | [U15-A reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md) and [U07 map](inventory/U07-A-FAMILY-MAP.md). G1–G3 bounded answers; G4 representative39 and G5 scorecard40; Q01a2/G6 remains open |
-| Next selected responsibility | [PLAN0.42](PLAN.md) U18-B/G5/Q02e → optional AURA interface, actual adapter/caller/threat-boundary/tests. NOT STARTED |
-| Remaining variants and stronger obligations | [QUESTIONS](QUESTIONS.md); Q06e2, Q02d2 and prior residuals, G5 interfaces and G6 omission/CORE/evaluation. A source gap is not merely an unrun test |
+| Explained versus unread versus stronger empirical claims | [U15-A reconciliation](inventory/U15-A-COVERAGE-RECONCILIATION.md) and [U07 map](inventory/U07-A-FAMILY-MAP.md). G1–G3 bounded answers; G4 representative39 and G5 scorecard40/AURA41; Q01a2/G6 remains open |
+| Next selected responsibility | [PLAN0.43](PLAN.md) U18-C/G5/Q02f → consult query-to-component/profile recommendation and actual installation/usable-capability boundary. Full inquiry NOT STARTED; only exact-pin script prefix qualified |
+| Remaining variants and stronger obligations | [QUESTIONS](QUESTIONS.md); Q02e2, Q06e2, Q02d2 and prior residuals, remaining G5 and G6 omission/CORE/evaluation. A source gap is not merely an unrun test |
 
 ## Original mechanism notes
 
@@ -63,6 +64,7 @@ Every note links its original sources and round. Use those for exact pin/blob/co
 | Shared configuration and legacy recovery | [Note38](notes/38-SHARED-CONFIGURATION-OWNERSHIP-AND-LEGACY-RECOVERY.md) |
 | Authored guidance, host adaptation and handoffs | [Note39](notes/39-GUIDANCE-ADAPTATION-AND-PROCEDURAL-HANDOFFS.md) |
 | Harness scorecard and optimization consumers | [Note40](notes/40-HARNESS-SCORECARD-AND-OPTIMIZATION-CONSUMERS.md) |
+| AURA reputation gate and caller boundaries | [Note41](notes/41-AURA-REPUTATION-GATE-AND-CALLER-BOUNDARIES.md) |
 
 ## Experiment identities and recovery
 
@@ -79,7 +81,7 @@ Every note links its original sources and round. Use those for exact pin/blob/co
 | E09 Python flow | [Bundle](evidence/u12-c-python-flow-probe/README.md) → [PRECHECK](evidence/u12-c-python-flow-probe/PRECHECK.md), [corrected encoded archive](evidence/u12-c-python-flow-probe/E09.zip.b64); original modules/scripted provider, not SDK/API |
 | E10 Gemini metadata | [Recovery README](evidence/u17-a-guidance-adapter-probe/README.md) → [PRECHECK](evidence/u17-a-guidance-adapter-probe/PRECHECK.md), [restore helper](evidence/u17-a-guidance-adapter-probe/restore_e10.py), [recovery check](evidence/u17-a-guidance-adapter-probe/recovery-check.json). One recovered seven-case campaign; no target rerun in recovery, no live Gemini |
 
-U18-A adds no E11 or target rerun. Its arithmetic cross-check is not a behavioral experiment. Original U15/U16 no-new-execution statements retain their historical scopes. The intentionally preserved bad E10.zip.b64 requires the hash-guarded restoration helper; the raw file itself is not a valid directly decoded archive. Every original result/criterion remains. Historical U09-A3 local ZIP is not an upload obligation; see Note15 and its original receipt.
+Neither U18-A nor U18-B adds an E11 or target rerun. U18-A arithmetic is not a behavioral experiment; U18-B's failed raw-source acquisition is not adapter execution. Original U15/U16 no-new-execution statements retain historical scopes. The preserved bad E10.zip.b64 requires its hash-guarded restoration helper. Every original result/criterion remains. Historical U09-A3 local ZIP is not an upload obligation; see Note15 and its original receipt.
 
 ## Purpose, method, inventory and publication
 
@@ -87,12 +89,12 @@ U18-A adds no E11 or target rerun. Its arithmetic cross-check is not a behaviora
 |---|---|
 | Purpose and reuse | [WHY](00-WHY-THIS-RESEARCH.md), [META](META.md) |
 | Method/sequence/questions | [METHOD](METHOD.md), [PLAN](PLAN.md), [QUESTIONS](QUESTIONS.md) |
-| Current method history | [MR41](ROUND-U18-A.md); previous [MR40](ROUND-U17-A.md), [MR39](ROUND-U16-A2.md), [MR38](ROUND-U16-A.md), [MR37](ROUND-U15-C2.md), [MR36](ROUND-U15-C.md), [MR35](ROUND-U15-B.md), [MR34](ROUND-U15-A.md) |
+| Current method history | [MR42](ROUND-U18-B.md); previous [MR41](ROUND-U18-A.md), [MR40](ROUND-U17-A.md), [MR39](ROUND-U16-A2.md), [MR38](ROUND-U16-A.md), [MR37](ROUND-U15-C2.md), [MR36](ROUND-U15-C.md), [MR35](ROUND-U15-B.md), [MR34](ROUND-U15-A.md) |
 | Original discovery | [STRUCTURE](inventory/STRUCTURE.md), [TREE-FRONTIER](inventory/TREE-FRONTIER.tsv), [U01-B](inventory/U01-B-DISCOVERY.md), [U07-A](inventory/U07-A-FAMILY-MAP.md) |
 | Original master histories | [SOURCE-LEDGER](SOURCE-LEDGER.md), [RESEARCH-LOG](RESEARCH-LOG.md), [METHOD-REVIEW](METHOD-REVIEW.md); later unit records continue them |
 | Current checked publication | STATE links the current receipt after actual checks; source completion and publication are distinct |
 | Closed U17 catalogue gap | [Alignment receipt](PUBLICATION-U17-A-ALIGNMENT.md) supersedes the historical blocked step in [original U17 receipt](PUBLICATION-U17-A.md); no experiment rerun |
-| Previous publication | [U16-A2](PUBLICATION-U16-A2.md), [U16-A1](PUBLICATION-U16-A1.md), [U15-C2](PUBLICATION-U15-C2.md), [U15-C1](PUBLICATION-U15-C1.md), [U15-B](PUBLICATION-U15-B.md), [U15-A](PUBLICATION-U15-A.md) |
+| Previous publication | [U18-A](PUBLICATION-U18-A.md), [U16-A2](PUBLICATION-U16-A2.md), [U16-A1](PUBLICATION-U16-A1.md), [U15-C2](PUBLICATION-U15-C2.md), [U15-C1](PUBLICATION-U15-C1.md), [U15-B](PUBLICATION-U15-B.md), [U15-A](PUBLICATION-U15-A.md) |
 | Complete earlier routing and publication list | [Pre-U18 INDEX](https://github.com/batuhanozgun/agentic-os-search/blob/9b035f2c0376a3c162359edcfaef8274719aa4ba/research/studies/ecc/INDEX.md); original files unchanged |
 
-Note33 remains provisional. G4's representative question is answered by39; G5 scorecard by40. Q01a2 retains material-variant/omission work. Next U18-B optional interface work, other G5 roles, G6/CORE and joint evaluation remain. These are project-work routing files, not agent-control.
+Note33 remains provisional. G4's representative question is answered by39; G5 scorecard by40 and AURA boundary by41. Q01a2 retains material-variant/omission work. Next U18-C consult recommendation/installation relationship, other G5 roles, G6/CORE and joint evaluation remain. These are project-work routing files, not agent-control.
