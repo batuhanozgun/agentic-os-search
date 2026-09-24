@@ -1,50 +1,33 @@
 # ECC — STATE
 
-**Updated:** 2026-09-24 — U19-D source closure and publication.
-**Last completed:** U19-D / G6 / O2 / Q01a2d1, legacy Codex non-MCP baseline/generation and Git validation, **COMPLETE / PUBLISHED at bounded source scope**. [Note52](notes/52-CODEX-BASELINE-GENERATION-AND-GIT-VALIDATION.md), [sources](evidence/U19-D-SOURCES.md), [MR53](ROUND-U19-D.md), [publication receipt](PUBLICATION-U19-D.md).
-**Current work:** no substantive unit in progress after closure. **Next selected:** U19-E / G6 / O2 / Q01a2e, Kiro optimizer representation/generator/host selection, **NOT STARTED**.
-**Publication:** checked entry alignment, exact question baseline, ECC catalogue row and this handoff are co-published. The receipt records actual checks, rejected drafts and final non-force gate. No inherited publication blocker.
-**Study:** ACTIVE / PARTIAL. Selected Pi/Cursor/Codex joins are source-answered; remaining material O2 variants and O3 broad-document challenge, final CORE and joint evaluation remain unfinished. Note33 remains provisional, extended by Notes34–52.
-**METHOD / PLAN:**0.1 / 0.54. **Fixed ECC:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
+**Updated:** 2026-09-24 — U19-E activation.
+**Current work:** U19-E / G6 / O2 / Q01a2e, Kiro optimizer representation/generator/host selection, **IN PROGRESS**. [MR54 opening](ROUND-U19-E.md), commit `daedfb76c30e6e09297bcb205e83b599b5395586`, precedes substantive target inquiry.
+**Last completed:** U19-D, **COMPLETE / PUBLISHED at bounded source scope**. [Note52](notes/52-CODEX-BASELINE-GENERATION-AND-GIT-VALIDATION.md), [sources](evidence/U19-D-SOURCES.md), [MR53](ROUND-U19-D.md), [receipt](PUBLICATION-U19-D.md). No inherited publication blocker.
+**Study:** ACTIVE / PARTIAL. G6 remains open; selected Pi/Cursor/Codex joins retain their source answers. O3 broad documents, other consequential variants, revised CORE and joint evaluation remain unfinished.
+**METHOD / selection PLAN:**0.1 / 0.54. **Fixed ECC:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 
-## Purpose, recovery and evidence
+## Recovery, purpose and authority
 
-Explain ECC-native mechanisms, connections, dependencies, differences and limits while retaining a revisable research-method case. This is not an independent Codex/Kiro product study, adoption, upstream repair or SOUL/Development OS architecture. EXP-004 remains closed and is not ECC's oracle. WHY/METHOD are unchanged.
+Fresh main matched checked U19-D closure `8f57fd030807f112d214ba0eb0017967d95f51da`. Fresh complete STATE, research routers, WHY/METHOD and Note40 were recovered; AGENT was fetched unchanged, and complete same-conversation controls/current project records were reused at their published identities. [The complete prior handoff](https://github.com/batuhanozgun/agentic-os-search/blob/8f57fd030807f112d214ba0eb0017967d95f51da/research/studies/ecc/STATE.md) preserves findings, exact limits, experiment identities and publication history.
 
-Recovery main e8579cd8 followed U19-C closure by five unrelated README/Development OS commits. Fresh canonical controls and STATE were recovered; complete unchanged same-conversation project context and original ownership/MCP evidence were reused at their stated scopes. The [preceding U19-C handoff](https://github.com/batuhanozgun/agentic-os-search/blob/274cc7a28fbb565e69877b113d737e85b802bc4c/research/studies/ecc/STATE.md) preserves prior findings and limitations. The [MR53 opening](https://github.com/batuhanozgun/agentic-os-search/blob/05a6eb1f39e227942e2c01d13cff1b56c144f216/research/studies/ecc/ROUND-U19-D.md) preceded activation79d8daf3 and its full readback. No completed inquiry or experiment was restarted.
+Explain ECC-native mechanisms, connections, dependencies, differences and limits and retain a revisable research-method case. This is not an independent Kiro product study, adoption, upstream repair or SOUL/Development OS architecture. EXP-004 stays closed and is not an ECC oracle.
 
-## Bounded U19-D answer
+## Active question and return boundary
 
-The actual legacy sync joins selected configuration mutation, generated actor guidance and executable global Git controls. These are different responsibilities, not native-plugin/hook equivalence. Note52 follows their real producers and consumers rather than treating all generated commands as automatic enforcement.
+How do the primary optimizer, shorter Kiro Markdown and embedded JSON relate to actual generation, deployment and host selection? Which instructions/resources/tool boundaries reach the selected representation?
 
-The baseline merger has useful initial parsing, add-only value preservation and checked implicit-table fallback. Its raw header-based placement can nevertheless insert settings into an existing multiline literal string, changing that instruction value without creating the intended root keys. A syntax-valid result is not sufficient evidence of intended mutation. Preserving a false multi-agent value can also conflict with the mandatory final checker.
+Begin with original Note40/U18-A-SOURCES and their exact primary/Kiro sources. Follow the real generator/caller and installation/discovery route. Do not infer lossy generation from differing output alone or effective permissions from a field name. Qualify official host contracts at the necessary depth; source declarations and current documentation are not observed installed behavior.
 
-AGENTS backups and ownership records exist, but malformed marker repair can omit a suffix; heading checks do not establish preserved user content. Generated AGENTS may not be the host-selected override input. Command metadata, preserved body approval conditions, live source-checkout rule references and missing-only role copies have different deployment meanings. Faithful copying can also retain stale authored guidance.
+MR54 requires a joined source account, useful controls, a discriminating alternative or justified no-new-gap result, and exact source/test/runtime limits. A necessary missing implementation remains a named source obligation. No predetermined defect, automatic research per host or file-count completion criterion.
 
-Git hooks are genuine executable controls: matching secrets or failed selected checks can deny operations. However, scanner dependency errors can resemble no match, and pre-push tests current working-tree content rather than qualifying every incoming pushed object ID. Installed/executable, selected/running and correct-target/effective checks are distinct. These are conditional source relationships, not observed data loss, leaks or real pushes.
+No target imports/functions/tests, generation, installation, live host/model/MCP/service, user configuration/credentials, upstream patch or E11. Source tests are inspected, not counted as passing. Text acquisition and publication checks are not target execution.
 
-Fourteen target bodies, including one full test file, were inspected. No test/import/function, installer, host/model/MCP/service, user configuration/credentials or global Git operation ran; no E11. Current primary TOML/Bash/Git/OpenAI documentation qualifies named contracts, not exact installed conformance or efficacy. Original notes/ledgers retain detailed conditions and positive alternatives. Q01a2d2 preserves stronger installed identity, legal representations/upgrades, effective configuration/discovery, authority, dependencies, revisions, concurrency/crash/recovery and outcomes.
+## Question inheritance, remaining work and publication
 
-## Current question retrieval — unchanged obligations remain
+Current [QUESTIONS](QUESTIONS.md) supplies explicit changes over [QUESTIONS-THROUGH-U19-C](QUESTIONS-THROUGH-U19-C.md), unchanged blob `da764c971cf69185adad323e1c86c1c02711e9d4`. Every unchanged ID, residual and interpretation remains inherited; baseline dates/current-next prose are historical. This activation overrides PLAN0.54's NOT STARTED label only for U19-E. No new result is implied by activation.
 
-Read [QUESTIONS](QUESTIONS.md) for current changes, then [QUESTIONS-THROUGH-U19-C](QUESTIONS-THROUGH-U19-C.md) for every unchanged prior row and interpretation. The latter reuses the exact old blob `da764c971cf69185adad323e1c86c1c02711e9d4`, not a rewritten summary. Current QUESTIONS expressly inherits all unchanged IDs and obligations; absence from its change table is not completion or removal. Baseline dates/current-next labels are historical, overridden by this STATE and the current question table.
+Preserve original Notes01–52/evidence, WHY/METHOD, inventories, exact question baseline, E06 exclusion, separate E05 histories and completed E10 recovery. No old experiment restoration/upload/rerun is needed. O3 broad-document/mirror/example/asset challenge, materially consequential remaining variants, revised CORE and joint evaluation remain open.
 
-This one-level preservation technique addresses repeated historical transcription errors and keeps relative evidence links in place. MR53 records its rationale and limitations. It does not establish future-agent retrieval efficacy or change agent-control. Original Q02–Q08, Q01a2b2/c2 and deferred Q09 remain at their exact scopes.
+Findings/ledger must survive before checked entry/catalogue/receipt/final STATE closure. Writes remain ECC-local plus the necessary ECC catalogue row. Preserve concurrent main by current-base checks and non-force publication; reuse exact existing objects where possible and inspect real differences. No branch/PR, other study, Foundation/concepts/control or Development OS mutation.
 
-## Exact next responsibility — U19-E / G6 / O2 / Q01a2e
-
-**Question:** how do ECC's shorter Kiro optimizer Markdown and embedded JSON relate to actual generation, deployment and host selection, and which instruction/tool boundaries reach the selected representation?
-
-Begin with [PLAN0.54](PLAN.md), Note40 and evidence/U18-A-SOURCES.md. That ledger was freshly recovered in U19-D and supplies exact identities for `agents/harness-optimizer.md`, `.kiro/agents/harness-optimizer.md` and `.kiro/agents/harness-optimizer.json`. Recover the actual generator/caller and consuming route; do not assume which file generated which or equate a declared tool list with effective authority. Existing audit/optimizer findings are inputs, not new discoveries or a reason to repeat the earlier study.
-
-Trace authored/maintained variant → actual generation/selection → output/deployment → host-selected instructions/tools → review/failure/continuation. Return a source-traceable explanation, useful controls, a consequential alternative and exact limits, or name the remaining necessary source obligation. A justified no-additional-gap outcome is allowed. Publish opening/activation before inquiry. This handoff does not start U19-E or authorize a live host/benchmark campaign.
-
-## Preserved frontier and publication discipline
-
-O3 retains broad documents/mirrors/examples/load-bearing assets; the previous longform read did not complete every README/security/shortform/troubleshooting/change-history/image path. Remaining consequential O2 variants can reopen original questions; no automatic new unit per host. Revised CORE and joint project-facing evaluation remain later work under then-current project context.
-
-Original Notes01–51/evidence, WHY/METHOD, historical inventories and all unrelated/concurrent work are preserved. E06 remains excluded, E05 histories separate and E10's guarded recovery complete; no old archive restoration/upload/rerun is needed. No upstream patch, branch/PR or Foundation/concepts/control change occurred.
-
-The receipt identifies accepted entry objects, exact baseline equality and the checked one-row catalogue diff. Rejected catalogue blobs6aaa9d28 and1a68ea45 must not be reused. Final assembly inherits the current main base and uses non-force advancement plus actual readbacks. Same-assistant correspondence checks are not independent scientific verification.
-
-Fresh session: AGENT/protocols → research/studies route → this STATE/INDEX/META → WHY/METHOD/PLAN → current QUESTIONS and relevant preserved baseline rows → Note52/ledger/MR53/receipt at required depth. Read actual current main before resuming and preserve concurrent work. This closure finishes U19-D, not G6 or the whole ECC research.
+Fresh session: AGENT/protocols → research/studies route → this STATE/INDEX/META → WHY/METHOD/PLAN → current QUESTIONS plus relevant exact baseline rows → active MR54 and any U19-E result/ledger. Recover current inquiry before choosing another unit.
