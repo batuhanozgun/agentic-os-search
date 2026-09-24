@@ -1,54 +1,65 @@
 # DEVOS-001 — yönetilen iş ve devam kaydı
 
-**Durum:** YENİDEN YÖNLENDİRİLDİ / bütün-korpus okuma ve çıkarım AKTİF; ilk Research kaynak kümesi kayda geçirildi.
-**Amaç:** Development OS'u kuracak çalışma düzenini, bütün Research korpusundan çıkarılan fikir ve örnekler birlikte değerlendirildikten sonra belirlemek.
-[BRIEF](BRIEF.md) → [METHOD](METHOD.md) → [COVERAGE](reading/COVERAGE.md). Kanal [EXCHANGE](EXCHANGE.md); yön hatasının kaydı [REVIEW](REVIEW.md).
+**Güncelleme:** 24 Eylül 2026. **Aşama:** P1 bütün-korpus okuma ve katkı kaydı; P2/P3/P4 başlamadı.
+**Amaç:** Development OS'u kuracak çalışma düzenini bütün araştırma ve örnek kayıtlar birlikte değerlendirildikten sonra belirlemek.
+[BRIEF](BRIEF.md) → [METHOD](METHOD.md) → [COVERAGE](reading/COVERAGE.md). Kanal: [EXCHANGE](EXCHANGE.md). Eski yön hatası: [REVIEW](REVIEW.md).
 
-## Güncel yön ve eski işin durumu
+## Son kullanıcı yönü ve bu turun sonucu
 
-23 Eylül 2026 son kullanıcı mesajı, önce bütün repo incelemesi, her tur kaynak-bağlı kayıt, bütün kayıtlar tamamlandıktan sonra yapı kararı istedi. Önceki W03b/C-003 revizyonu→M1–M3 sırası **GEÇERSİZ KILINDI**. Deneme 001 devam eder; yeni repo veya Deneme-002 açılmaz.
+Kullanıcı R-004 bağlantı mesajını verdiğini söyleyip güncel sonucu sordu. Research `c91b71dda8f619e52f5f3fd69a465667652534af`, hedef `9866feb1127313394a3d1bd50bfd4b862a91567f` üzerinden kontrol edildi.
 
-E19, D01'in devam denetimi, M1–M3 ve test deposu **ERTELENDİ / aktif ana iş değil**. Kaynak ve önceki bulgular silinmedi, başarıya veya genel yanlış hükmüne dönüştürülmedi. Bu adaylar ancak bütün kayıtların daha sonraki değerlendirmesinde yeniden seçilebilir. Research'ün yön sapması yalnız iletişim eksikliği değil; yerel denetimi bütün hazırlığın önüne koymasıydı.
+C-003, C-004, C-005 tam alındı. C-003'ün R-004 kimliği/blob'u eşleşiyor: mesajı okuma ve yeni korpus işine geçiş alındısı var. Hedef STATE ve mesajlar E19/M1–M3 yerine okuma/kayıt sırasını gösteriyor. Bunun üzerine eski C-003 revizyon→test hattı yeniden açılmadı.
 
-## Aşamalar ve ilerleme
+Claude 35 studies paketinin 74 okuma birimi için kalıcı kayıtlar, concepts için 9 kayıt ve ORT1 ortam kaydı bildirdi. 4.508 birim katkısı ve 39 paket katkısı üretici sayımıdır; Research bunların tamamını bu tur okumadı ve anlamsal tamlık onayı vermedi. İki kısmi ECC gzip, bir ASR görsel engeli, ortam açıkları ve karşı okumalar sürüyor.
 
-| Kimlik | İş | Sorumlu | Durum / geçiş |
-|---|---|---|---|
-| P0 | Bütün kaynak kapsamı, yöntem, kimlik ve iş bölümü | Research; Claude manifest katkısı | Yöntem/üst kapsam yayımlandı. Bütün leaf-file manifesti AÇIK; metadata tam okuma değil |
-| P1 | Korpusun tam okuması ve her tur katkı kayıtları | Research + Claude | AKTİF. İlk Research kümesi F08 kayıtlandı; kalan bütün kapsam COVERAGE'de |
-| P2 | Bütün kayıtların iki aktörce tam okunması ve ortak değerlendirme | Research + Claude | BAŞLAMADI; P1'in bütün kapsamı ve maddi boşlukları kapanmalı |
-| P3 | Çalışma yapısı seçenekleri ve gerekçeli bütünsel seçim | Research + Claude; gerçek owner tercihleri Batu | BAŞLAMADI; kayıtların tamamına dayalı olmalı |
-| P4 | Seçilen düzenin kurulumu ve gerçek işte değerlendirme | Sonraki uygulama planı | BAŞLAMADI; seçilmiş yapı, ortam ve uygulama yetkisi gerekir |
+C-005, F08'in karşı okumasını getirdi. Dört maddi eksik [F08 ekine](reading/F08-RECONCILIATION.md) işlendi; CASE-AUDIT'in önce okunmayan son beş satırı doğrudan okunarak eski tamlık iddiası düzeltildi. Ardından Foundation README, RESEARCH-USE-ALIGNMENT ve 00_context/README tam okunup [F00](reading/F00-CONTEXT-AND-USE.md) oluşturuldu. Research'ün sıradaki işi 01_verticals; kendi kaynak okuması Claude yanıtına bağlı değil.
 
-Mevcut Claude yapısı ve M1–M3 varsayılan mimari değildir. Dört zemin/ilişki bütün bakışıdır, zorunlu dört bileşen değil. Her tur yeni plan veya test açmak yerine P1 kaynak kuyruğu ilerler.
+## Aşamalar ve sorumluluk
 
-## Bu turun gerçek çıktısı
+| İş | Sorumlu | Güncel durum / dönüş |
+|---|---|---|
+| P0 Kapsam, kaynak kimliği ve yöntem | Research koordinasyonu; Claude manifest üretimi | 2.238 dosyalık manifest yayımlandığı bildirildi; özet okundu. Research tüm satırları bağımsız uzlaştırmadı; manifest içerik okuması değildir |
+| P1-F Foundation kaynak ve katkı kayıtları | Research; Claude karşı okuma | AKTİF. F08 + ek ve F00; 18 özgün kaynak dosyası. Bütün alt dikey/zemin/bileşim kapsamı açık |
+| P1-S studies / concepts / ortam | Claude; Research karşı okuma | İlk kayıt üretimi bildirildi; okunamayan kaynaklar, ortam açıkları ve gereken karşı okumalar açık. Araştırılmamış adaylar araştırma sonucu sayılmaz |
+| P1-X soul-context / publications / explorations | Claude birincil, Research karşı okuma | E23/B-09 paylaşımı bu tur koordinasyona alındı. 317 dosyalık üç alan; bitiş bu tur teyit edilmedi |
+| P2 Bütün kayıtların iki aktörce okunması | Research + Claude | BAŞLAMADI; P1 kapsamı/engelleri ve karşı okumalar METHOD §6'ya göre uzlaştırılmalı |
+| P3 Bütünsel çalışma yapısı kararı | Research + Claude; gerçek owner tercihleri Batu | BAŞLAMADI. Mevcut Claude düzeni, M1–M3 veya başka ürün varsayılan mimari değil |
+| P4 Kurulum ve gerçek kullanım | Sonraki uygulama planı | BAŞLAMADI |
 
-1. Son kullanıcı yönü BRIEF'e tam geçirildi; root README ve development-os INDEX yeni sıraya yönlendirildi.
-2. METHOD, kapsam/iş bölümü/tam okuma/kayıt/bağlam devri/toplu karar sırasını kurdu. COVERAGE kökün tamamını, Foundation'ın bütün doğrudan kümelerini ve studies'in bütün paketlerini gösteriyor; bütün yaprak dosyalar henüz envanterlenmedi.
-3. [R-004](messages/research/R-004.md), eski dar iş yerine bütün-korpus okuma görevini Claude'a yayımlanmış mesaj olarak taşıyor. Alım henüz teyitsiz.
-4. [F08-FOUNDATION-FRAME](reading/F08-FOUNDATION-FRAME.md): Foundation kök STATE/INDEX + 08 paketinin 13/13 dosyası tam okundu. Kaynak modelini, üretim perspektifini, dört zemin/ilişkiyi, altı bütünsel örneği, alternatif çerçeveleri ve sınırları taşıyan 20 katkı kaydı çıkarıldı. Bunlar yapı seçimi veya bütün Foundation tamamlanması değil. Karşı aktör okuması bekliyor.
+METHOD §3 başlangıç paylaşımıdır. Güncel değişiklik: soul-context/publications/explorations birincil okuması Claude'a geçti; Research aynı birincil işi çoğaltmak yerine kaynak-bağlı karşı okur. Foundation 03/05 dahil Research'te kalır. Claude'un iki ağacı daha alma önerisi kabul edilmiş görev değildir. Yetki kapsamındaki okuma kuyruğu paket başına karşı taraf onayı beklemez.
 
-## Sonraki sorumluluklar
+## Mesaj alındıları
 
-**Research:** Foundation kalan kök README/RESEARCH-USE-ALIGNMENT'ı ve 00_context ağacını aç → 00_context tam okuma ve kaynak-bağlı kayıt → 01_verticals. F08 kaynak kümesini sırf ek eleştiri üretilebiliyor diye yeniden araştırma. Gelen Claude okuma kayıtlarını al/karşı oku; kendi P1 okumalarını onun cevabına bağlayıp bekleme.
+Hedef özgün mesaj kökü, aşağıdaki alım ref'inde `coordination/devos-001/outbox/`tır. Özgün C mesajları yeniden yazılmış kopyayla değiştirilmedi.
 
-**Claude:** R-004'ü devral → PLAN/STATE'te yönü uzlaştır → kaynak snapshot'ının bütün path/blob manifesti → studies kök girişleri ve gstack'ten başlayarak bütün paketlerin okuma/çıkarımı → concepts ve gerçek ortam kaynakları. İlk kalıcı çıktı ve alındı, sıradaki boş C kimliğiyle R-004'e yanıt verir; yalnız 'anladım' değil kaynak/kayıt ve biten/kalan kapsam. Beklenen özgün kayıt adresi `coordination/devos-001/reading/`. R-003 için hazırlanmış bir yanıt varsa tarihsel saklanır, eski sıra yeniden açılmaz.
+| Mesaj | Exact ilişki / blob | Durum |
+|---|---|---|
+| R-004 | Yayın `875def74b2728aed971cfcea069cecc298f6600b`; blob `8ad723104b8b9fb7ea380dc0479828fe0f2e7247` | C-003, Research `c91b71d` üzerinden aynı blob'u aldığını kaydediyor; alındı eşleşti |
+| [C-003](https://github.com/batuhanozgun/soul-development-os3_claudecode/blob/9866feb1127313394a3d1bd50bfd4b862a91567f/coordination/devos-001/outbox/C-003.md) | `3f35dcade369199dce29bd3c103e029bd3e2928f`; R-004'e yanıt; dayanak 4fac016 | TAM ALINDI; ilk okuma/manifest bildirimi. R-003'ün eski revizyon yanıtı değildir |
+| [C-004](https://github.com/batuhanozgun/soul-development-os3_claudecode/blob/9866feb1127313394a3d1bd50bfd4b862a91567f/coordination/devos-001/outbox/C-004.md) | `fa6e038627f0b27576ac8af37d83a17edfa0c83a`; R-004'e yanıt; dayanak 6c06f25 | TAM ALINDI; Claude ilk okuma payı, kapsam ve sınırlar. P1 kapanışı değil |
+| [C-005](https://github.com/batuhanozgun/soul-development-os3_claudecode/blob/9866feb1127313394a3d1bd50bfd4b862a91567f/coordination/devos-001/outbox/C-005.md) | `3121f8a0dbb7792a84b8d9c9e02caf3a1169fd12`; R-004'e yanıt; dayanak a30367e | TAM ALINDI; F08 karşı okuması ve paylaşım |
+| [R-005](messages/research/R-005.md) | C-003/4/5 alındısı, F08/F00 ve devam paylaşımı | Bu checkpoint'in yayın kapsamı; Claude alımı TEYİTSİZ |
 
-**Batu:** teknik yöntem, kaynak yolu veya karşılıklı mesaj içeriği taşımakla yükümlü değil. Repo kanalı oturumları kendiliğinden uyandırmaz; gerektiğinde yalnız oturum tetiklemesi gerekir. Otomatik izleme/ajan döngüsü kurulmadı.
+Bu tur hedef outbox'ta C-001…C-005 görüldü. Sonraki yanıt için ilk boş C kimliği ve gerçek `in_reply_to` kullanılır; daha yazılmamış mesaj yaratılmaz. Eşleşen blob kaynak kimliğini ve karşı tarafın alındı beyanını bağlar; anlama veya tüm davranışın garantisi değildir.
 
-## Kaynak ve alım kimlikleri
+## Canlı çalışma ve erişim sınırı
 
-Kaynak tabanı Research `dc76496e2ea87a08b60f88ea8ec2731c6a4b5cbb`; base tree `b17da2eb4cdb3a4e8ff26ade2621825047ae9632`. Denemenin yeni kayıtları bu kaynak paydasına geri girmez.
+24 Eylül tarihli hedef STATE, E23'ün kullanım sınırında kesilip yeniden başlatıldığını, EX0 kaydını ve ayrı bir yedek hatırlatmayı bildiriyor. Research Claude runtime'ına veya trigger'a erişmedi; 'şu anda çalışıyor' veya bütün E23 bitti demiyor. Bu tur Research yeni otomasyon kurmadı veya var olanı değiştirmedi.
 
-Hedefte son kontrol edilen main `21ff74268f22c23553fa5b1cc9a55c68904f1f0b`; eski C-002 checkpoint'iyle aynı. Bu tur C-003 veya hedef testleri üzerine inceleme yapılmadı; hedefe yazılmadı.
+Aynı STATE, O-25'te kullanıcıda da ASR görselinin kopyası olmadığını kaydediyor. Yeniden kullanıcıya dosya sorulmaz. Görsel okunmuş veya eksik anlam kapanmış sayılmaz; yazılı SOURCE-VISUAL temsilinin sınırı P1 kapsamına taşınır. Diğer erişilebilir paketler devam eder.
 
-R-004 yayını `875def74b2728aed971cfcea069cecc298f6600b`; blob `8ad723104b8b9fb7ea380dc0479828fe0f2e7247`. R-004 main'den tam geri okundu. **Claude'un alımı TEYİTSİZ.** Görev ataması tamamlanma değildir.
+## Sonraki yetkili iş
 
-## Tarihçe ve yayın sınırı
+**Research:** 01_verticals ağaç/dosya envanteri → sırayla özgün tam okuma ve kaynak-bağlı katkılar. E23 çıktıları yayımlandıkça alım ve karşı okuma kuyruğuna alınır. Claude'un 74 birim kaydının tamamı henüz okunmadı; paket/ünite rotalarıyla turlar boyunca okunacak, yalnız mesaj sayılarıyla kapanmayacak.
 
-Önceki W00/W01 kanal açılışı, W02/D01, R-001–R-003, C-001/C-002 ve makbuzlar [dc76496 WORK](https://github.com/batuhanozgun/agentic-os-search/blob/dc76496e2ea87a08b60f88ea8ec2731c6a4b5cbb/development-os/attempts/001/WORK.md)'te exact ilişkileriyle korunur. W03a/W03b'nin eski yönü P0–P3 tarafından yerini almış durumdadır; W04 kurulumu yapılmadı.
+**Claude:** E23'ün mevcut üç alanını kendi ortamındaki gerçek durumdan sürdür; yeni F00 ve F08 eki için karşı okuma; kayıt ve engelleri exact kaynakla bildir. Research Foundation 03/05'e kendiliğinden geçme. Birim/paket başına yalnız 'devam' cevabı bekleme.
 
-Yeni yön açılışı: `875def74b2728aed971cfcea069cecc298f6600b`, tree `8f6cb2d19cea67a6237ed5d2b3a366c781ca6ba5`. Compare yalnız sekiz dosya gösterdi (root README ve yedi development-os yüzeyi); nonforce main yayını başarılı, ayrı ref geri okuması aynı commit'i verdi. Kontrol alanı ve özgün araştırmalar değişmedi. Yeni branch/PR açılmadı.
+**Batu:** teknik dosya yollarını veya karşılıklı yanıt içeriklerini taşımak zorunda değil. Repo kendiliğinden bu ChatGPT oturumunu uyandırmaz; bu tur kullanıcı mesajıyla çalışıldı. Yeni sistem seçimi veya geniş deney kararı verilmedi.
 
-Bu takip dilimi F08 çıkarımını ekler; COVERAGE ve WORK'ü onun gerçek kapsamıyla günceller. Yayın öncesi içerik kontrolü aynı Research yazarınındır. İlk çıkarımın actual commit/readback alındısı ayrı doğrulanır; bu dosya kendi gelecekteki commit'ini uydurmaz. Remote yazma/okuma, anlamsal eksiksizlik veya çalışma düzeninin yeterliği değildir.
+## Bu turun okuma/yayın kapsamı ve tarihçe
+
+Doğrudan tam okuma: C-003/C-004/C-005, hedef STATE, manifest özeti ve F08 karşı okuması; Research güncel girişleri ve F00'ın üç kaynağı. GST0 yalnız 1–55 seçili okundu; bütün gstack kayıtlarının karşı incelemesi sayılmaz. CASE-AUDIT 85–son ayrıca okundu; önceki F08 kaynaklarının bu konuşmada görülen gövdeleri kullanıldı. 74 birim, bütün manifest satırları, gerçek loglar, deney kodu veya upstream ürünler bu tur tekrar çalıştırılmadı/okunmadı.
+
+[Önceki WORK](https://github.com/batuhanozgun/agentic-os-search/blob/c91b71dda8f619e52f5f3fd69a465667652534af/development-os/attempts/001/WORK.md) bütün yeniden yönlendirme ve yayın tarihçesini korur. R-001–R-004, D01 ve özgün araştırma dosyaları değişmez. R-003'teki eski dar sıra aktif değildir.
+
+Bu güncelleme yalnız deneme içinde WORK/COVERAGE, F00, F08 eki ve R-005'i kapsar. Başlangıç main `c91b71dda8f619e52f5f3fd69a465667652534af`; base tree `5e4a403c8122332da69730b00b36ab23f1a53c42`. Remote yayın ve readback commit sonrasında kontrol edilir; bu metin kendi gelecekteki commit kimliğini üretmez. Kaynak/aktör beyanı, Research kendi okuması ve sonraki kabul ayrı tutulur.
