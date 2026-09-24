@@ -181,3 +181,47 @@ Current Claude Code plugin reference clarifies the distinction:
 **Audit rule:** A decision-critical assumption is resolved only by direct user requirement, current authoritative product/source evidence, observed environment behavior, or an explicit bounded engineering experiment. Contradictory prior assistant claims do not resolve an assumption.
 
 **Immediate audit target:** Decide first whether `Claude Code Cloud + ECC` is actually a viable and appropriate Development OS substrate. Do not implement it yet.
+
+
+## 24 Eylül 2026 — assumption audit / first resolutions
+
+**Status:** evidence-backed narrowing; not yet final deployment/provider choice.
+
+### Resolved A — ECC role
+ECC 2.2.2 is a credible **harness/workflow substrate** for Development OS, not a sufficient replacement for Development OS itself.
+
+Basis:
+- DevOS/SOUL research requires stronger semantics around canonical external state, fresh-session continuation, exact-target/fresh verification, research-vs-decision, explicit authority, recovery/observability, no-hidden-human orchestration and non-fixed workflow.
+- Current ECC provides substantial skills/agents/hooks/memory/operator/worktree/session-adapter mechanisms.
+- However upstream still labels `ecc2/` Rust session/TUI/daemon control plane as alpha/incomplete even though the stable 2.x release contains a broader control-pane substrate. Therefore critical DevOS correctness must not depend on ECC2 alpha semantics without targeted validation.
+
+**Decision consequence:** Evaluate/use ECC below a project-specific DevOS control layer. Do not equate `Development OS = ECC`.
+
+### Resolved B — Anthropic-hosted Cloud/Remote task VM role
+Anthropic-hosted Claude Code Cloud/Web tasks should **not be the canonical primary Development OS environment** for the present SOUL-building workflow.
+
+Basis:
+- official Anthropic guidance positions web/cloud for well-defined asynchronous tasks requiring little steering;
+- tasks run in isolated per-task VMs;
+- current SOUL/DevOS work is exploratory, iterative, frequently reframed and review-heavy.
+
+**Decision consequence:** Keep Anthropic Cloud as an optional bounded/background execution surface, not the authoritative DevOS home.
+
+### Resolved C — local-compute constraint does not imply Anthropic Cloud
+The user requirement is that heavy execution should not burden the local Mac. That does not select Anthropic-hosted Cloud. A normal Claude Code process on persistent remote compute accessed by SSH satisfies the same local-compute constraint while preserving an interactive terminal-style working model.
+
+**Decision consequence:** The leading environment class becomes **persistent remote interactive compute + Claude Code + ECC substrate**, accessed from the user's device. This does not yet select VM/provider/Codespaces or cost model.
+
+### Resolved D — repository boundary
+`agentic-os-search` remains the research/evidence/control repository. DEVOS-002 already records the user's intended separate Claude/new working repository and no name/address yet. The temporary Cloud preflight in `agentic-os-search` does not convert it into the SOUL/Development OS implementation repository.
+
+**Decision consequence:** When implementation begins, use a separate development repository unless the user explicitly changes that earlier direction.
+
+### Deferred/moot until environment class is chosen
+- exact Desktop account-plugin behavior inside Anthropic Cloud tasks;
+- project-local/manual ECC bootstrap for ephemeral Cloud;
+- whether `chrome-devtools` local MCP would execute on Mac or a remote task.
+These no longer carry the primary environment decision and should not consume work now.
+
+### Remaining highest-value user constraint
+Whether **zero additional remote-compute cost is a hard requirement**. If yes, the design must accept/rework around Anthropic Cloud's ephemeral/async limitations or find an already-included persistent environment. If no, persistent remote compute can be evaluated as the primary DevOS environment. Provider selection remains later.
