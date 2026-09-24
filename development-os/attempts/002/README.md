@@ -1,83 +1,96 @@
 # DEVOS-002 — güncel konuşma ve varsayım denetimi
 
 **Açılış / güncelleme:** 24 Eylül 2026.
-**Durum:** VARSAYIM DENETİMİ VE ORTAM UYGUNLUĞU DEĞERLENDİRMESİ. Kurulum yönlendirmesi duruyor; çalışan Development OS veya kabul edilmiş SOUL mimarisi yok.
-**Taraflar:** Batu ve ChatGPT / Research; Claude Code Cloud'da kullanıcı aracılığıyla sınırlı ortam kontrolü yapıldı.
-**Güncel devam otoritesi:** Bu dosya. Aşağıda bağlantısı verilen önceki birikimli kayıttaki değişen öneriler, `Resolved` başlıkları ve next-step cümleleri tarihsel kayıttır; burada belirtilen statüyü geçersiz kılamaz.
+**Durum:** VARSAYIM DENETİMİ. Kurulum yönlendirmesi duruyor; çalışan Development OS veya kabul edilmiş SOUL mimarisi yok.
+**Taraflar:** Batu ve ChatGPT / Research. Kullanıcı aracılığıyla Claude Code Cloud'da sınırlı ortam kontrolü yapıldı.
+**Güncel devam otoritesi:** Bu dosya. Önceki `Resolved`, kurulum ve next-step hükümleri aşağıdaki immutable kayıtlarda tarihseldir; burada ayrılan açık/kapalı statüler yerine geçirilmez.
 
-## 1. Amaç ve korunacak ana soru
+## 1. Amaç, kapsam ve yetki
 
-Üst amaç SOUL'u yaratmak. Konuşmada kullanılan çalışma adı **genel amaçlı Çalışma Sistemi Kurucusu**; nihai ürün tanımı veya mimari kararı değil.
-
-Kaybedilmemesi istenen soru:
+Üst amaç SOUL'u yaratmak. Çalışma adı **genel amaçlı Çalışma Sistemi Kurucusu**; nihai mimari değil. Korunan ana soru:
 
 > Bir şey gerçekten çalışma sistemi kurucusu olacaksa ne yapabilmesi gerekir?
 
-Environment tartışması bu sorunun alt dalıydı. Kullanıcı daha sonra ECC'yi SOUL'un üzerinde çalışacağı ürün tabanı olarak değil, SOUL'u geliştirecek **Development OS için kullanmayı** önerdi. ECC'nin hangi parçalarının bu işi karşılayacağı ve kalan gereksinimler henüz bütünleşik bir uygulamada doğrulanmadı. Şimdiki görev, kurulum tıklamalarına dönmeden karar-kritik varsayımları çözmek.
+Şimdiki alt iş, ECC'yi SOUL'un ürün tabanı olarak değil, SOUL'u geliştirecek Development OS için kullanma önerisinin karar-kritik varsayımlarını çözmek. Kullanıcı bu denetimin devamını istedi; gerçek tercih gerektiğinde sorulabilir. Bu yetki kurulum, izin genişletme, ürün implementasyonu veya ayrı Mac arıza araştırması değildir.
 
-## 2. Son kullanıcı yönü — doğrudan kaynak
+## 2. Kullanıcının kesin girdileri ve son düzeltmesi
 
-> SSH olmasın o zaman benim makinem ve Claude'un cloud ortamı olsa? Yani sorun şu, claude code bilgisayarımda çalışırken sebebini bilmediğimiz bir şekilde kitlenip yeniden başlıyor. mümkün olduğunca az işi benim bilgisayarıma yaptıracak şekilde bir yapı olabilir belki.
+- SSH ile ayrı makine yolu istenmiyor. Mevcut Mac ve Anthropic Claude Cloud kullanılabilecek ortamlar.
+- Yerel kullanım yasak değil; Mac'te bulunması gerekmeyen yürütme cloud'a taşınmalı.
+- Kullanıcı bilgisayarını kendi isteğiyle de kapatabilir. İşin Mac'in sürekli açık kalmasına bağlanmaması normal kullanım koşuludur; arıza teşhisine bağlı bir karar değildir.
+- ECC, Development OS için önerildi. SOUL'un ECC üzerinde çalışması istenmiş değil.
+- Claude için ayrı yeni repo niyeti var; adı/adresi henüz verilmedi. Research reposundaki ortam kontrolü onu ürün geliştirme reposuna dönüştürmedi.
+- Sıfır ek maliyet veya tüm ECC bileşenlerinin zorunlu kullanılması şartı verilmedi.
+
+**Son kullanıcı düzeltmesi, aynen:**
+
+> konudan saptın yine. mac durmadan kapanıyor diye bir şey yok ama ayrıca benim mac'i kapatmam da gerekecek zaten, kendi kendine kapanmasa da ben kapatabilirim. Konuyla ilgili ne bunun.
 >
-> Bu cümlemle senin çalışma ve düşünme sürecini nasıl etkileyeceğim hiç bilmiyorum ama her seferinde sana uyarı vermemek için protokolleri turda şart koştum, yine de şu an bu aşamadayız.
+> ben şu sayfayı biraz okumaya çalıştım. https://code.claude.com/docs/en/cloud-environments#configure-your-environment
 >
-> Benim makineyi kullanalım yapacak bir şey yok ama benim makindemde olmasına gerek olmayan her şeyi claude cloud'da yapacak bir yapı olsun.
+> Noldu varsayımları konuşuyorduk? ortada bıraktın konuyu yine.
 
-**Bu mesajdan kesinleşen kısıtlar:** SSH ile ayrı makine kullanma yolu istenmiyor. Mevcut Mac ve Anthropic'in Claude Cloud ortamı değerlendirilecek. Yerel kullanım yasak değil; yerelde bulunması gerekmeyen çalışma cloud'a verilerek Mac yükü en aza indirilmeli.
+**Düzeltmenin sonucu:** Mac teşhisi ve kesintisiz makine güvenilirliği tartışması aktif iş değildir. Kullanıcı daha önce bütün Mac'in bazı yoğun çalışmalarda yeniden başladığını bildirdi; sıklık veya neden ölçülmedi. `Mac sürekli kapanıyor` genellemesi yapılmaz. Isı, disk veya Claude kaynaklı teşhis konmadı. Bu arızanın nedenini bulmak ECC/cloud uygunluğunu değerlendirme önkoşulu değildir.
 
-**Mesajın belirlemediği şeyler:** Mac'in ana koordinatör veya sürekli çalışan sunucu olması; ECC'nin bütününün yerelde kurulması; cloud/local arasında otomatik ve kayıpsız devir; sıfır ek maliyet koşulu; belirli teknoloji veya SOUL ürün mimarisi. Yerel kullanıma izin, kararlılık kanıtı değildir.
+## 3. Gerçekleşmiş işlemler ve kanıt sınırı
 
-**Arıza açıklaması — sonraki kullanıcı cevabı, aynen:**
+Kullanıcının ilettiği preflight çıktısı: `/home/user/agentic-os-search`, temiz görünen `claude/intelligent-bardeen-pknix8` dalı, Node `v22.22.2`, npm/npx `10.9.7`, Git `2.43.0`, Claude Code `2.1.281`, HOME `/root`. Bunlar bir koşunun çıktılarıdır. HOME tek başına etkin kullanıcı kimliğini, sürümler ECC uyumluluğunu kanıtlamaz.
 
-> Tamamı kapanıyor, yani restart oluyor bilgisayar. Sebebi belli değil ama yoğun alt ajanlı işlerde sanırım bilgisayarda çok fazla okuma ve yazma yapıldığında oluyor gibi geliyor bana. Belki de çok ısınıyor bilmiyorum.
+Ekranlarda Cloud → Default seçimi; `/plugin list` için `Plugins aren't available in this environment`; hesap Customize alanında ECC marketplace eklenmesi, ECC `v2.2.2` görünümü ve Add sonrası `chrome-devtools` local MCP izin penceresi görüldü. Kullanıcının Continue veya Disable plugin'e sonradan bastığı teyit edilmedi. ECC cloud'a yüklenmiş, hook'ları çalışmış veya Mac'te MCP server başlamış sayılmaz.
 
-**Çözülen ayrım:** Kullanıcı yalnız Claude uygulamasının değil, Mac'in tamamının yeniden başladığını teyit etti. Bu kullanıcı bildirimi; bu tur arıza kaydı, donanım veya kaynak ölçümü incelenmedi. Yoğun alt ajanlı işle ilişki, disk okuma/yazması ve ısınma kullanıcının ihtiyatlı olasılıklarıdır; doğrulanmış tetikleyici veya kök neden değildir. Kernel panic, bellek/disk sorunu, ısı, Claude hatası veya donanım arızası teşhisi konmadı.
+ECC araştırması `8321021c54d670126ce3b2969d5deb880b4b0c2a` kaynağına sabit. Önceki META okumasında ACTIVE/PARTIAL, U19-C/Note51 ve final CORE yoktu; canlı güncel durum yine kendi STATE'indedir. Bu deneme ECC araştırma kuyruğunu devralmaz.
 
-**Ortam değerlendirmesine etkisi — sınırlı mühendislik sonucu:** Mac'i güvenilir ve kesintisiz ana koordinatör saymak için dayanak yok. Cloud'da yapılabilen işin ilerlemesi ve geri kazanımı, Mac'te sürekli açık tek bir sürece veya yalnız yerel geçici kayda zorunlu bağımlı kurgulanmamalı. Yerel çoklu ajan/daemon/derleme/test yükü eklemek varsayılan yol değil. Bu, bütün yerel işlemlerin imkânsızlığı veya cloud'un ECC için yeterliği hükmü değildir. Cloud'a iş taşımak yerel yürütme bağımlılığını azaltabilir; yeniden başlama nedenini giderdiği veya arayüz kullanımının sorunsuz kalacağı gösterilmedi.
+## 4. Varsayım denetimi — güncel ayrımlar
 
-**Dar kaynak kontrolü — bu açıklama sonrasında:** [Apple'ın beklenmedik yeniden başlama rehberi](https://support.apple.com/en-us/102382) yazılım, donanım ve bağlı cihaz ihtimallerini ayırır; kullanıcının olayı için teşhis değildir. [Claude Desktop reference, cloud bölümü](https://code.claude.com/docs/en/desktop#run-long-running-tasks-in-the-cloud) cloud oturumlarının uygulama/bilgisayar kapalıyken devam edebildiğini belirtir. Bu belge, gerçek ECC işinin bütün bağımlılıklarının cloud'a taşındığı veya sonucun kalıcı kaydedildiği deneyi yerine geçmez. Ağır yerel tekrar deneyi veya tam Mac teşhis kampanyası başlatılmadı.
+`Belgeyle çözüldü`, ürünün belgelenmiş sözleşmesi demektir; Batu'nun hesabında bütün ECC işleyişinin test edildiği anlamına gelmez.
 
-## 3. Güncel birinci taraf belge kontrolü — 24 Eylül 2026
+| Önceki varsayım / karar | Güncel hüküm ve etkisi |
+|---|---|
+| SOUL zorunlu olarak kendi bağımsız process/service çekirdeğine sahip olmalı. | ASKIDA. Bir mimari adayı; bu kurulum denetimi onu ispatlamaz ve SOUL mimarisine geçmez. |
+| ECC kurmak tek başına Development OS'u kurmaktır. | KABUL EDİLMEDİ. Kurulu bileşen ile araştırmayı kullanabilen, işi devreden ve doğru sonucu doğrulayan geliştirme düzeni ayrı. Gerekli işlev karşılaştırması açık. |
+| Araştırılan ECC ile ekranda görünen sürüm aynıdır. | SÜRÜM FARKI DOĞRULANDI. Araştırma pininin plugin manifesti 2.2.1; bu tur gözlenen main'in manifesti 2.2.2. Manifestte sürüm dışında fark görülmedi; bütün kaynak/kurulu paket eşitliği çıkarılmaz. |
+| ECC'nin Rust operator/TUI/daemon parçaları plugin kurulunca otomatik etkinleşir ve bize zorunludur. | DESTEKLENMİYOR. Güncel `ecc2/README.md` ayrı cargo çalıştırma yolunu ve alpha statüsünü koruyor. Bu parçaların Development OS için zorunluluğu gösterilmedi; ECC bütününün alpha olduğu da söylenmez. |
+| Claude Cloud keşif/etkileşim/alt ajan için uygun değildir; ana ajan yerelde olmalıdır. | GENEL DIŞLAMA GERİ ÇEKİLDİ. D3 etkileşim, follow-up ve alt ajan desteğini belgeliyor. Bu, ECC'li bütünün yeterli olduğunu değil, yerel ana ajan zorunluluğunun bu gerekçeden çıkmadığını gösterir. |
+| Cloud'da plugin yok; manuel ECC kopyalama zorunlu. | YANLIŞ GENELLEME. D1/D2 hesapta etkin pluginlerin cloud oturumunun kendi ortamına synced plugin olarak yüklendiğini açıklıyor. `/plugin` arayüzü hatası yükleme desteğinin yokluğuna kanıt değil. |
+| Mac'e kurulu ECC ve kullanıcı ayarları cloud'a otomatik geçer. | YANLIŞ. D1 yerel kullanıcı ayarlarını, repo yüzeylerini ve hesap eklentilerini ayırıyor. Repo `enabledPlugins` bildirimi de cloud'da otomatik marketplace kurulumu yapmıyor. |
+| Setup script her yeni oturumda baştan tam kurulumu çalıştırır. | EKSİK/YANLIŞ GENELLEME. D1 ilk setup sonrası dosya sistemi snapshot'ını yeni oturumların başlangıcı için kullanıyor; cache varken script atlanıyor. Script/ağ ayarı değişimi veya yaklaşık yedi günlük expiry cache'i yenileyebiliyor. Resume setup'ı yeniden çalıştırmıyor. |
+| Setup script / cache bütün çalışma sürekliliğini sağlar. | YANLIŞ. Cache kurulum-sonrası dosya görüntüsüdür, çalışan süreçler veya sonraki çalışma ilerlemesinin ortak canlı deposu değildir. SessionStart startup/resume işi ayrı; proje kayıtlarının saklama/geri kazanım yolu ayrıca gerekli. |
+| Cloud repo hooks/skills/agents çalıştıramaz. | YANLIŞ GENELLEME. D1 repo skills/agents/commands/rules yüzeylerini, tek-repo oturumunda settings hooks/permissions ve MCP'yi destekliyor. Çok-repo oturumlarında repo settings/hooks yüklenmesi aynı değil. |
+| Local MCP uyarısı ECC'nin mutlaka Mac'te çalışacağını veya cloud yolunun olanaksızlığını gösterir. | AÇIK, AŞIRI ÇIKARIM GERİ ÇEKİLDİ. D2 cloud kopyasının kendi ortamında yüklenmesini belgeliyor. Ekrandaki Desktop izninin yan etkisi ve ECC'nin gerçek MCP yüklemesi henüz izlenmedi; genel güvenlik onayı verilmedi. |
+| Git bütün state'i otomatik korur; bir çalışma dalı tüm kalıcılığı çözer. | DESTEKLENMİYOR. D1 push'u oturumun mevcut çalışma dalıyla sınırlar; bu, hangi dosyanın gerçekten kalıcı yayımlandığını göstermez. D3'te VM expiry sonrası conversation restore ile arka plan süreçlerinin restore edilmemesi ayrıdır. Göreve özgü geri kazanım açık. |
+| VM/SSH zorunlu veya ücretsiz olmak zorunlu. | SSH kullanıcı tarafından dışlandı; ek VM zorunluluğu kanıtlanmadı. Sıfır maliyet tercihi çıkarılmadı. Yeni sağlayıcı/maliyet taraması bu turun işi değil. |
+| Research reposu ECC/SOUL kurulum hedefi olmalı. | KABUL EDİLMEDİ. `agentic-os-search` araştırma/kontrol ve 002 continuity alanı. Ayrı geliştirme deposunun kimliği hâlâ verilmedi. |
 
-Önceki ortam değerlendirmesi turunda aşağıdaki resmi sayfaların ilgili bölümleri doğrudan okundu. Bunlar ürün dokümanı kanıtıdır; kullanıcının hesabında bütün özelliklerin etkin olduğu veya ECC'nin başarıyla çalıştığına dair canlı deney değildir.
+## 5. Bu tur doğrudan kontrol edilen kaynaklar
 
-- [Desktop reference](https://code.claude.com/docs/en/desktop), `Run long-running tasks in the cloud`, `Continue in another surface`, `Install plugins`: cloud oturumları uygulama/bilgisayar kapalıyken çalışabilir, kullanıcı sonradan yönlendirebilir. Desktop'ın yerel oturumu cloud'a gönderme yolu vardır. Plugin tarayıcısının cloud'da olmaması ile hesap üzerinden synced plugin yüklemesi farklıdır.
-- [Cloud sessions](https://code.claude.com/docs/en/claude-code-on-the-web), `From terminal to cloud`, `Send follow-ups from the CLI`, `Manage context`: `claude --cloud` yeni cloud oturumu oluşturur; uygun hesaptan mevcut oturuma CLI ile mesaj iletilebilir. Mesaj gönderme çağrısı yanıtı beklemez. Cloud ile konuşup yön düzeltmek mümkündür. Repo'daki subagent tanımları yüklenebilir. Bu, ECC'nin otomatik görev devrinin kurulmuş olduğunu göstermez.
-- [Cloud environment configuration](https://code.claude.com/docs/en/cloud-environments), `What carries over from your setup`: yalnız Mac'te kurulu araçlar ve kullanıcı ayarları cloud'a kendiliğinden taşınmaz. Repo yüzeylerinin ve hesap eklentilerinin kendi yükleme kuralları vardır. Birden fazla repo kullanılan oturumların repo settings/hooks davranışı tek repo oturumuyla eşit değildir.
-- [Plugins reference](https://code.claude.com/docs/en/plugins-reference#plugins-synced-from-claudeai): hesapta etkin pluginler cloud oturumunun kendi ortamına başlangıçta indirilir. Bu nedenle önceki `cloud'da plugin kesinlikle yok` hükmü geçerli değil. ECC'nin Desktop'ta çıkardığı local MCP izin uyarısı ve gerçek yükleme/etki konumu yine ayrıca doğrulanmalı; kullanıcıya yeniden Continue önerilmedi.
-- [Remote Control](https://code.claude.com/docs/en/remote-control): yerel oturuma uzaktan arayüz sağlamak, işi cloud'a taşımak değildir. Bu seçenek yerel hesaplama yükünü dışarı verme çözümü gibi sunulmaz.
-- [Projects](https://code.claude.com/docs/en/claude-projects), kullanım/erişim ve limitations bölümleri: bir proje konuşmasının cloud görevlerini başlatıp takip ettiği ürün yolu da belgelenmiş; kademeli beta erişimi var. Kullanıcının eski project/grup adları bu yeni özelliğin hesabında bulunduğunu kanıtlamaz. Bu tur Projects seçilmedi veya kurulmadı.
+**D1 — [Configure cloud environments](https://code.claude.com/docs/en/cloud-environments#configure-your-environment).** Configure your environment, network/GitHub proxy, What carries over, tools/services/resource limits, setup/caching ve SessionStart bölümleri okundu. Environment burada saklanan konfigürasyon; her session'ın VM'siyle aynı nesne değil. Belgelenmiş yaklaşık kaynak sınırları 4 vCPU, 16 GB RAM, 30 GB disk; bu sayılar hedef işin yeterlik veya performans testi değil. Setup süresi yaklaşık beş dakika ve ağ gereksinimleri kurulum uygulanabilirliğinde kontrol edilecek.
 
-[Help Center'ın kullanım tavsiyesi](https://support.claude.com/en/articles/12618689-claude-code-on-the-web) iyi tanımlanmış işleri cloud, sık yön değişimini terminal için öneriyor. **Bu tavsiyeden cloud'un keşif veya etkileşim için teknik olarak kullanılamadığı ve Development OS'un zorunlu olarak kalıcı ayrı makine istediği sonucu çıkmaz.** Önceki `Resolved B` bu ayrımı aştığı için geri çekildi. Tersine, mevcut dokümanlar da cloud'un bütün Development OS gereksinimlerini karşıladığını kanıtlamaz.
+**D2 — [Plugins reference](https://code.claude.com/docs/en/plugins-reference#plugins-synced-from-claudeai).** Synced plugin başlangıç/yükleme/güncelleme ve list kapsamı doğrudan okundu. Skills, agents, hooks, MCP/LSP yüklemesi belgelidir; sonraki sync güncellemeleri nedeniyle hesapta kurulu sürümün sabit kaldığı varsayılmaz. `synced` yüklenmesi bir runtime kalite sertifikası değildir.
 
-## 4. Mevcut kanıt ile açık kalanların sınırı
+**D3 — [Cloud sessions](https://code.claude.com/docs/en/claude-code-on-the-web).** Follow-up, subagents, context, handoff ve Environment expired bölümleri: konuşmaya devam ve alt ajan mümkün; laptopun kapanması cloud işini yerel bir sürece bağımlı yapmaz. İdle expiry sonrası VM yenilenebilir ve konuşma geri gelir; o anda çalışan alt ajan/shell işleri geri yüklenmez.
 
-**Kullanıcının ilettiği ortam çıktısı:** `/home/user/agentic-os-search`, temiz görünen `claude/intelligent-bardeen-pknix8` çalışma dalı, Node `v22.22.2`, npm/npx `10.9.7`, Git `2.43.0`, Claude Code `2.1.281`, HOME `/root`. Bunlar o koşunun çıktılarıdır. HOME tek başına etkin kullanıcı kimliğini ispatlamaz. Sürüm önkoşullarının bulunması ECC entegrasyonunun çalıştığını göstermez.
+**E1/E2 — exact ECC plugin manifestleri:** [araştırma pini / 2.2.1](https://github.com/affaan-m/ECC/blob/8321021c54d670126ce3b2969d5deb880b4b0c2a/.claude-plugin/plugin.json), blob `5f1e9a391ae0e0f096f9f65d7b1f119b549bc6b5`; [gözlenen main / 2.2.2](https://github.com/affaan-m/ECC/blob/bf70150eb2df8070024e5bdf08e4aa08959e2735/.claude-plugin/plugin.json), blob `072edddfec1d63ab8db70339778a4782481549d7`. İki dosya tam okundu; main ref ayrı sorgulandı. Bu, kullanıcının indirdiği plugin byte'larının doğrulaması değil.
 
-**Ekranda gözlenen:** Cloud → Default seçimi; `/plugin list` için `Plugins aren't available in this environment`; hesap Customize alanında ECC marketplace eklenmesi, ECC `v2.2.2` görünümü ve Add sonrası `chrome-devtools` local MCP izin penceresi. Kullanıcının Disable plugin'e gerçekten bastığı teyit edilmedi; izin penceresi sonuçlanmış veya yerel sunucu çalışmış sayılmıyor.
+**E3 — [ECC2 README](https://github.com/affaan-m/ECC/blob/bf70150eb2df8070024e5bdf08e4aa08959e2735/ecc2/README.md)** tam okundu; blob `2ea06c961d5f5d91e4034e205b7e4c9ec2723545`. Ayrı operator çalıştırma ve alpha sınırı; tüm ECC için genel olgunluk hükmü değil.
 
-**ECC araştırması:** `research/studies/ecc/META.md` önceki ortam değerlendirmesi turunda geri açıldı. Araştırma `8321021c54d670126ce3b2969d5deb880b4b0c2a` sabit kaynağında, o okumada U19-C/Note51 sonrasında ACTIVE/PARTIAL; final CORE yok. Repo'da mekanizma bulunması, belirli kurulum yolunda etkin olması ve faydalı sonuç üretmesi ayrı. 2.2.2 kurulumunun bütün eski araştırma bulgularını aynen taşıdığı varsayılmıyor. ECC araştırması bu deneme içinde devralınmadı.
+**E4 — [ECC root MCP](https://github.com/affaan-m/ECC/blob/bf70150eb2df8070024e5bdf08e4aa08959e2735/.mcp.json)** tam okundu; blob `045baea1808f675e7314d3bc0d3f98e5730001ad`. Root dosyada chrome-devtools/npx/latest var; E2 manifestinde mcpServers boş nesne. Account paketlemesi ve cloud tüketicisi görülmeden etkin MCP hakkında kesin sonuca gidilmez.
 
-**Henüz belirlenmedi:** gerekli ECC bileşenleri ve host yükleme yolu; yerel/cloud iş devrinin kabul/sonuç/geri kazanım düzeni; oturumlar arası hangi durumun nerede tutulacağı; gerçek yerel yük ve arıza nedeni; cloud'un ağ/araç/kaynak sınırlarında somut Development OS işi.
+## 6. Denetimin kalan işi ve dönüş koşulu
 
-## 5. Sonraki sorumluluk ve durma sınırı
+Altyapı desteği, kurulmuş ECC ve Development OS yeterliği üç ayrı iddiadır. D1–D3 ilkini önemli ölçüde açıklıyor; diğer ikisi açık. Kullanıcıya yeni teknik tercih sorusu şu anda gerekmiyor.
 
-Assistant mevcut Mac + Claude Cloud kısıtı altında karar-kritik belirsizlikleri çözmekten sorumlu. Mac'te sürekli ana ajan/daemon bulunduğu veya ECC'nin her şeyi cloud'a kendiliğinden gönderebildiği kabul edilmez. Kullanıcının belirttiği local kullanım bir geri çekilme olarak yorumlanıp gereksiz yük yerelleştirilmez.
+Kalan yük taşıyan işler:
 
-**Mac'in tamamı mı, uygulama mı?** sorusu kullanıcı cevabıyla kapandı; yeniden sorulmaz. Arıza nedeni açık kalır. Nedeni bilinmeden de yerel kesintiye bağımlılığı azaltma değerlendirmesi sürdürülebilir; bu, arızayı onarmış olmak değildir. Kullanıcıya ağır yerel iş tekrar ettirilmez veya kendiliğinden Mac tamir kampanyası açılmaz.
+1. SOUL geliştirme için gereken araştırma kullanımı, iş/karar devri, inceleme-doğrulama ve devam sorumluluklarını ECC'nin gerçekten seçilen bileşenleriyle karşılaştırmak; plugin görünürlüğünü bütün operator sisteminin varlığı saymamak.
+2. Seçilecek ECC sürümü/paketinin cloud'da gerçek dosya, dependency, hook ve izin yolunu belirlemek; Desktop local-MCP uyarısını çözmeden güvenlik onayı veya başka kurulum yolu dayatmamak. Cloud kaynak/ağ ve tek/çok repo farklarını somut yükleme yolunda hesaba katmak.
+3. Kurulum cache'inden ayrı olarak değişen görev/karar/çıktıların nerede saklanacağını ve yeni/expired oturumun bunları nasıl geri kazanacağını doğrulamak. Kalıcı bir ECC daemon'a ihtiyaç gösterilmedikçe onu Mac'e veya VM'ye zorunlu yerleştirmemek.
 
-**Sıradaki teknik sorumluluk:** varsayım denetiminde ECC'nin gerekli çalışma yöntemleri/kontrollerinin seçilecek Claude Cloud oturumuna gerçekte nasıl yükleneceğini ve hangi parçaların Mac'te çalışan bir programa ihtiyaç duyduğunu ayırmak; ardından gerekli iş durumu ve sonuçların oturum kaybından nasıl geri kazanılacağını değerlendirmek. Yalnız plugin adının görünmesi veya bir komutun başarılı dönmesi bütün ECC/Development OS yeterliğinin kanıtı sayılmaz. Önceki kurulum yönleri otomatik yeniden başlatılmaz.
+Dönüş koşulu: hangi Development OS sorumluluğunun hangi gerçek mekanizmayla karşılandığı, hangisinin açık/uygunsuz olduğu ve kuruluma geçmeden gereken en dar doğrulama netleşmeli. Sırf bir ekranda sonraki düğme var diye yeni tıklama zinciri başlatılmaz. Bu tur kurulum, plugin onayı, SSH/VM, cloud script, model/host testi veya SOUL implementasyonu yapılmadı.
 
-Kurulum komutu, izin genişletme, SSH, VM kiralama, cloud setup script, yeni DevOS/SOUL uygulaması veya otomasyon bu tur başlatılmadı. SOUL'un bağımsız/hibrid runtime önerileri hâlâ aday; kullanıcının kabul ettiği mimari değildir. Cloud'un bütün sistemi karşılaması da yalnız yerel eklemeyle karşılaması da henüz ispatlanmadı.
+## 7. Repository ve tarihsel kayıt
 
-## 6. Repository ve deneme sınırı
+`agentic-os-search` araştırma deposudur. Bu tur yalnız bu 002 devam kaydı güncellendi; agent-control, Foundation, studies, concepts ve diğer denemeler değiştirilmedi. [Development OS INDEX](../../INDEX.md) ve kök README hâlâ bu varsayım denetimine yönlendiriyor.
 
-`agentic-os-search` araştırma deposudur. Burada yalnız 002 konuşma/kanıt ve devam bağlamı tutulur; preflight onu SOUL implementasyon deposuna dönüştürmedi. Kullanıcı Claude için yeni repo açacağını söyledi; adı/adresi henüz verilmedi.
+[001 WORK](../001/WORK.md) önceki duraklatılmış denemedir; planları, okumaları, mesajları ve izinleri 002'ye aktarılmaz. Dış Claude oturumunun canlı durumu bilinmiyor.
 
-[001 WORK](../001/WORK.md) Research devamı duraklatılmış önceki denemedir. Planları, okumaları, mesajları ve izinleri 002'ye devrolmaz. 001'deki dış Claude oturumunun canlı durumu burada bilinmiyor.
-
-## 7. Tarihsel kayıt — korunmuş tam sürüm
-
-Önceki birikimli konuşma kaydı, bütün değişen yönleri ve varsayım listesini [606506edd3c6f80aae9d0566ffc59513c84151b8 sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/606506edd3c6f80aae9d0566ffc59513c84151b8/development-os/attempts/002/README.md) tam korur. Önceki ortam değerlendirmesi turunda eski gövde iki aralıkta tam okundu; aynı blob (`6e33703b63e6c52c241dd50f1dbdab7500581bc8`) bu immutable ref'te ayrıca doğrulandı. Tarihsel metin değişmedi; buradaki güncel kayıt onun çelişen önerilerini kabul edilmiş karar gibi devretmez.
-
-Özgün açılış yönü: önce Batu ile ChatGPT ne yapılacağını konuşacak; hazır mimari, büyük okuma kampanyası veya 001 planıyla başlanmayacak. Mevcut durma noktası bu yönün yerine yeni uygulama yetkisi üretmez.
+Önceki birikimli yönler [606506e sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/606506edd3c6f80aae9d0566ffc59513c84151b8/development-os/attempts/002/README.md), bu düzeltme öncesi kayıt [94dc93e sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/94dc93ea4e33852f88080bc910fdd4ada182c803/development-os/attempts/002/README.md) korunur. Sonuncunun gövdesi bu tur örtüşen okumalarla tamamlandı (`f794b59a1ad847063e24d6aa6d1d93d83c35c9ce`). Yeni kayıt tarihsel metni değiştirmez veya önceki yanlış hükümleri mimari kabulüne dönüştürmez.
