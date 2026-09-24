@@ -148,3 +148,18 @@ Current Claude Code plugin reference clarifies the distinction:
 - if a plugin is enabled while a cloud session is already running, it is picked up on the next session start.
 
 **Correction:** Do not install/manage ECC from inside the cloud session. Use the claude.ai/Desktop account-level Customize → Plugins path, then start a fresh cloud session and verify that ECC appears as a synced plugin. No setup-script/manual ECC installation should be added before this native account-sync path is tested.
+
+
+## 24 Eylül 2026 — remote plugin incompatibility and sustainable ECC direction
+
+**Correction from official Claude Code Desktop documentation:** Plugins are not available in Remote sessions. The prior account-level ECC plugin path is therefore not a valid foundation for Anthropic-hosted Claude Code Remote/Cloud Development OS. Do not rely on account plugin sync for this mode.
+
+**Sustainable cloud model (provisional engineering direction):**
+- Treat every Anthropic Remote session as disposable compute.
+- Keep canonical Development OS state/configuration in Git/repository, not in ephemeral `$HOME`, plugin cache, or long-lived session processes.
+- Use committed Claude project surfaces (e.g. project instructions/skills/agents/settings/hooks where supported) plus a deterministic cloud environment setup script for non-repository dependencies.
+- Pin ECC to an explicit reviewed release/commit; never install `latest` silently.
+- Make bootstrap idempotent and verifiable; a new remote session should reconstruct the same ECC working surface before Claude starts.
+- Any ECC feature whose correctness depends on a daemon/process/local database surviving across sessions is **not** assumed available in this deployment. If such persistence becomes required, Remote Cloud is the wrong canonical host and a persistent SSH/remote machine becomes a separate engineering decision.
+
+**Immediate action:** disable the account-level ECC plugin installation prompt. Next work is not more UI clicking; first specify and verify the exact project-native/bootstrap ECC surface for Remote Cloud.
