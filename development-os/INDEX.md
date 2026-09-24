@@ -2,11 +2,11 @@
 
 Bu alan Development OS'u kuracak çalışma düzenine ilişkin denemeleri birbirinden ayrı tutar. Araştırma arşivi, agent-control veya kabul edilmiş SOUL mimarisi değildir.
 
-**Güncel başlangıç: DEVOS-002. Yalnız yeni konuşma bekleniyor; tasarım veya uygulama başlamadı.**
+**Güncel çalışma: DEVOS-002. Yeni konuşma başladı; mikro-adımlı kavramsal çerçeveleme sürüyor. Tasarım veya uygulama başlamadı.**
 
 | Deneme | Durum | Güncel giriş |
 |---|---|---|
-| DEVOS-002 | Kullanıcı ile ChatGPT yeni oturumda ne yapılacağını konuşacak. Henüz yöntem, plan veya yapı kararı yok; hedef yeni repo henüz bildirilmedi. | [002 başlangıç/devir kaydı](attempts/002/README.md) |
+| DEVOS-002 | Kullanıcı ile ChatGPT mikro-adımlarla SOUL'un ne olacağını ve buradan Development OS çalışma biçimini tartışıyor. Working label: SOUL = genel amaçlı Çalışma Sistemi Kurucusu; mimari/yöntem/uygulama kararı yok. İlk korunmuş açık soru ve Host Environment ayrımı 002 kaydında. | [002 güncel konuşma kaydı](attempts/002/README.md) |
 | DEVOS-001 | Research tarafındaki devam duraklatıldı. Eski okumalar, mesajlar ve bulgular korunuyor. Claude'un canlı çalışması bu kayıtla durdurulmuş sayılmaz. | [001 WORK](attempts/001/WORK.md) |
 
 ## Yeni oturumun girişi
