@@ -135,3 +135,16 @@ Observed in a Claude Desktop → Claude Code Cloud session for `agentic-os-searc
 **Engineering consequence:** The cloud session satisfies current ECC documented prerequisites (Node 18+, Git, Claude Code 2.1+). Claude Cloud creates/uses a session-specific branch rather than working directly on main; persistent project changes therefore require explicit Git integration. Environment-local installs/config under `/root` should be assumed ephemeral unless recreated by cloud environment setup.
 
 **Next verification:** inspect existing Claude plugin state before installing ECC, because ECC warns against stacking multiple install methods or duplicate plugin installs.
+
+
+## 24 Eylül 2026 — cloud plugin path correction
+
+Observed UI in Claude Desktop remote/cloud session: invoking `/plugin list` produced **“Plugins aren't available in this environment.”**
+
+Current Claude Code plugin reference clarifies the distinction:
+- cloud sessions do not expose the in-session plugin browser/management path in the same way;
+- plugins enabled for the user's claude.ai account are downloaded into the cloud session environment at session start as synced plugins;
+- synced plugins load their skills, agents, hooks, MCP servers and LSP servers;
+- if a plugin is enabled while a cloud session is already running, it is picked up on the next session start.
+
+**Correction:** Do not install/manage ECC from inside the cloud session. Use the claude.ai/Desktop account-level Customize → Plugins path, then start a fresh cloud session and verify that ECC appears as a synced plugin. No setup-script/manual ECC installation should be added before this native account-sync path is tested.
