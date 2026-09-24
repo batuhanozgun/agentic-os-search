@@ -27,11 +27,19 @@ Environment tartışması bu sorunun alt dalıydı. Kullanıcı daha sonra ECC'y
 
 **Mesajın belirlemediği şeyler:** Mac'in ana koordinatör veya sürekli çalışan sunucu olması; ECC'nin bütününün yerelde kurulması; cloud/local arasında otomatik ve kayıpsız devir; sıfır ek maliyet koşulu; belirli teknoloji veya SOUL ürün mimarisi. Yerel kullanıma izin, kararlılık kanıtı değildir.
 
-**Arıza belirsizliği:** Kullanıcı donma/yeniden başlama bildiriyor. Yeniden başlayan şeyin Mac'in tamamı mı yoksa Claude uygulaması/süreci mi olduğu henüz net değil. Sebep, kaynak kullanımı, log veya karşılaştırmalı koşu ile belirlenmedi. Cloud'a iş taşımak yerel yürütme yükünü azaltma yolu olabilir; yeniden başlama sorununu çözdüğü iddia edilmiyor.
+**Arıza açıklaması — sonraki kullanıcı cevabı, aynen:**
+
+> Tamamı kapanıyor, yani restart oluyor bilgisayar. Sebebi belli değil ama yoğun alt ajanlı işlerde sanırım bilgisayarda çok fazla okuma ve yazma yapıldığında oluyor gibi geliyor bana. Belki de çok ısınıyor bilmiyorum.
+
+**Çözülen ayrım:** Kullanıcı yalnız Claude uygulamasının değil, Mac'in tamamının yeniden başladığını teyit etti. Bu kullanıcı bildirimi; bu tur arıza kaydı, donanım veya kaynak ölçümü incelenmedi. Yoğun alt ajanlı işle ilişki, disk okuma/yazması ve ısınma kullanıcının ihtiyatlı olasılıklarıdır; doğrulanmış tetikleyici veya kök neden değildir. Kernel panic, bellek/disk sorunu, ısı, Claude hatası veya donanım arızası teşhisi konmadı.
+
+**Ortam değerlendirmesine etkisi — sınırlı mühendislik sonucu:** Mac'i güvenilir ve kesintisiz ana koordinatör saymak için dayanak yok. Cloud'da yapılabilen işin ilerlemesi ve geri kazanımı, Mac'te sürekli açık tek bir sürece veya yalnız yerel geçici kayda zorunlu bağımlı kurgulanmamalı. Yerel çoklu ajan/daemon/derleme/test yükü eklemek varsayılan yol değil. Bu, bütün yerel işlemlerin imkânsızlığı veya cloud'un ECC için yeterliği hükmü değildir. Cloud'a iş taşımak yerel yürütme bağımlılığını azaltabilir; yeniden başlama nedenini giderdiği veya arayüz kullanımının sorunsuz kalacağı gösterilmedi.
+
+**Dar kaynak kontrolü — bu açıklama sonrasında:** [Apple'ın beklenmedik yeniden başlama rehberi](https://support.apple.com/en-us/102382) yazılım, donanım ve bağlı cihaz ihtimallerini ayırır; kullanıcının olayı için teşhis değildir. [Claude Desktop reference, cloud bölümü](https://code.claude.com/docs/en/desktop#run-long-running-tasks-in-the-cloud) cloud oturumlarının uygulama/bilgisayar kapalıyken devam edebildiğini belirtir. Bu belge, gerçek ECC işinin bütün bağımlılıklarının cloud'a taşındığı veya sonucun kalıcı kaydedildiği deneyi yerine geçmez. Ağır yerel tekrar deneyi veya tam Mac teşhis kampanyası başlatılmadı.
 
 ## 3. Güncel birinci taraf belge kontrolü — 24 Eylül 2026
 
-Bu tur aşağıdaki resmi sayfaların ilgili bölümleri doğrudan okundu. Bunlar ürün dokümanı kanıtıdır; kullanıcının hesabında bütün özelliklerin etkin olduğu veya ECC'nin başarıyla çalıştığına dair canlı deney değildir.
+Önceki ortam değerlendirmesi turunda aşağıdaki resmi sayfaların ilgili bölümleri doğrudan okundu. Bunlar ürün dokümanı kanıtıdır; kullanıcının hesabında bütün özelliklerin etkin olduğu veya ECC'nin başarıyla çalıştığına dair canlı deney değildir.
 
 - [Desktop reference](https://code.claude.com/docs/en/desktop), `Run long-running tasks in the cloud`, `Continue in another surface`, `Install plugins`: cloud oturumları uygulama/bilgisayar kapalıyken çalışabilir, kullanıcı sonradan yönlendirebilir. Desktop'ın yerel oturumu cloud'a gönderme yolu vardır. Plugin tarayıcısının cloud'da olmaması ile hesap üzerinden synced plugin yüklemesi farklıdır.
 - [Cloud sessions](https://code.claude.com/docs/en/claude-code-on-the-web), `From terminal to cloud`, `Send follow-ups from the CLI`, `Manage context`: `claude --cloud` yeni cloud oturumu oluşturur; uygun hesaptan mevcut oturuma CLI ile mesaj iletilebilir. Mesaj gönderme çağrısı yanıtı beklemez. Cloud ile konuşup yön düzeltmek mümkündür. Repo'daki subagent tanımları yüklenebilir. Bu, ECC'nin otomatik görev devrinin kurulmuş olduğunu göstermez.
@@ -48,7 +56,7 @@ Bu tur aşağıdaki resmi sayfaların ilgili bölümleri doğrudan okundu. Bunla
 
 **Ekranda gözlenen:** Cloud → Default seçimi; `/plugin list` için `Plugins aren't available in this environment`; hesap Customize alanında ECC marketplace eklenmesi, ECC `v2.2.2` görünümü ve Add sonrası `chrome-devtools` local MCP izin penceresi. Kullanıcının Disable plugin'e gerçekten bastığı teyit edilmedi; izin penceresi sonuçlanmış veya yerel sunucu çalışmış sayılmıyor.
 
-**ECC araştırması:** `research/studies/ecc/META.md` bu tur geri açıldı. Araştırma `8321021c54d670126ce3b2969d5deb880b4b0c2a` sabit kaynağında, U19-C/Note51 sonrasında ACTIVE/PARTIAL; final CORE yok. Repo'da mekanizma bulunması, belirli kurulum yolunda etkin olması ve faydalı sonuç üretmesi ayrı. 2.2.2 kurulumunun bütün eski araştırma bulgularını aynen taşıdığı varsayılmıyor. ECC araştırması bu deneme içinde devralınmadı.
+**ECC araştırması:** `research/studies/ecc/META.md` önceki ortam değerlendirmesi turunda geri açıldı. Araştırma `8321021c54d670126ce3b2969d5deb880b4b0c2a` sabit kaynağında, o okumada U19-C/Note51 sonrasında ACTIVE/PARTIAL; final CORE yok. Repo'da mekanizma bulunması, belirli kurulum yolunda etkin olması ve faydalı sonuç üretmesi ayrı. 2.2.2 kurulumunun bütün eski araştırma bulgularını aynen taşıdığı varsayılmıyor. ECC araştırması bu deneme içinde devralınmadı.
 
 **Henüz belirlenmedi:** gerekli ECC bileşenleri ve host yükleme yolu; yerel/cloud iş devrinin kabul/sonuç/geri kazanım düzeni; oturumlar arası hangi durumun nerede tutulacağı; gerçek yerel yük ve arıza nedeni; cloud'un ağ/araç/kaynak sınırlarında somut Development OS işi.
 
@@ -56,7 +64,9 @@ Bu tur aşağıdaki resmi sayfaların ilgili bölümleri doğrudan okundu. Bunla
 
 Assistant mevcut Mac + Claude Cloud kısıtı altında karar-kritik belirsizlikleri çözmekten sorumlu. Mac'te sürekli ana ajan/daemon bulunduğu veya ECC'nin her şeyi cloud'a kendiliğinden gönderebildiği kabul edilmez. Kullanıcının belirttiği local kullanım bir geri çekilme olarak yorumlanıp gereksiz yük yerelleştirilmez.
 
-Bir sonraki kullanıcıdan gerekli ayrım: **Mac'in tamamı mı yeniden başlıyor, yalnız Claude uygulaması mı?** Bu ayrım yerel bir koordinasyon bağımlılığı önermenin riskini değiştirir. Tam arıza teşhis kampanyası şu anda başlatılmadı.
+**Mac'in tamamı mı, uygulama mı?** sorusu kullanıcı cevabıyla kapandı; yeniden sorulmaz. Arıza nedeni açık kalır. Nedeni bilinmeden de yerel kesintiye bağımlılığı azaltma değerlendirmesi sürdürülebilir; bu, arızayı onarmış olmak değildir. Kullanıcıya ağır yerel iş tekrar ettirilmez veya kendiliğinden Mac tamir kampanyası açılmaz.
+
+**Sıradaki teknik sorumluluk:** varsayım denetiminde ECC'nin gerekli çalışma yöntemleri/kontrollerinin seçilecek Claude Cloud oturumuna gerçekte nasıl yükleneceğini ve hangi parçaların Mac'te çalışan bir programa ihtiyaç duyduğunu ayırmak; ardından gerekli iş durumu ve sonuçların oturum kaybından nasıl geri kazanılacağını değerlendirmek. Yalnız plugin adının görünmesi veya bir komutun başarılı dönmesi bütün ECC/Development OS yeterliğinin kanıtı sayılmaz. Önceki kurulum yönleri otomatik yeniden başlatılmaz.
 
 Kurulum komutu, izin genişletme, SSH, VM kiralama, cloud setup script, yeni DevOS/SOUL uygulaması veya otomasyon bu tur başlatılmadı. SOUL'un bağımsız/hibrid runtime önerileri hâlâ aday; kullanıcının kabul ettiği mimari değildir. Cloud'un bütün sistemi karşılaması da yalnız yerel eklemeyle karşılaması da henüz ispatlanmadı.
 
@@ -68,6 +78,6 @@ Kurulum komutu, izin genişletme, SSH, VM kiralama, cloud setup script, yeni Dev
 
 ## 7. Tarihsel kayıt — korunmuş tam sürüm
 
-Önceki birikimli konuşma kaydı, bütün değişen yönleri ve varsayım listesini [606506edd3c6f80aae9d0566ffc59513c84151b8 sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/606506edd3c6f80aae9d0566ffc59513c84151b8/development-os/attempts/002/README.md) tam korur. Bu tur eski gövde iki aralıkta tam okundu; aynı blob (`6e33703b63e6c52c241dd50f1dbdab7500581bc8`) bu immutable ref'te ayrıca doğrulandı. Tarihsel metin değişmedi; buradaki güncel kayıt onun çelişen önerilerini kabul edilmiş karar gibi devretmez.
+Önceki birikimli konuşma kaydı, bütün değişen yönleri ve varsayım listesini [606506edd3c6f80aae9d0566ffc59513c84151b8 sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/606506edd3c6f80aae9d0566ffc59513c84151b8/development-os/attempts/002/README.md) tam korur. Önceki ortam değerlendirmesi turunda eski gövde iki aralıkta tam okundu; aynı blob (`6e33703b63e6c52c241dd50f1dbdab7500581bc8`) bu immutable ref'te ayrıca doğrulandı. Tarihsel metin değişmedi; buradaki güncel kayıt onun çelişen önerilerini kabul edilmiş karar gibi devretmez.
 
 Özgün açılış yönü: önce Batu ile ChatGPT ne yapılacağını konuşacak; hazır mimari, büyük okuma kampanyası veya 001 planıyla başlanmayacak. Mevcut durma noktası bu yönün yerine yeni uygulama yetkisi üretmez.
