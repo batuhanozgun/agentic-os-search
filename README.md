@@ -15,11 +15,11 @@ Bu repository altı farklı rolü birbirine karıştırmadan taşır.
 
 `AGENT.md` ve `agent/**` kontrol alanıdır. `research/**`, `concepts/**`, `explorations/**` ve `development-os/**` proje çalışma malzemesidir. `publications/**` yayımlanmış metinlerin kaynak arşividir; içerikleri kendiliğinden agent talimatı veya kabul edilmiş araştırma sonucu olmaz. Bir denemedeki öneri, rol canlandırması veya örnek yönerge kendiliğinden etkin sistem kuralı değildir.
 
-Araştırmanın güncel yetkisi ilgili STATE dosyalarından okunur. Development OS denemelerinin koordinasyonu kendi WORK kaydında, hedefteki gerçek teknik iş kendi reposunda kalır. Bir denemenin arşivlenmesi Foundation'ın kabul durumunu, Development OS'nin görevini veya SOUL'un mimarisini değiştirmez.
+Araştırmanın güncel yetkisi ilgili STATE dosyalarından okunur. Development OS denemelerinin koordinasyonu kendi güncel giriş kaydında, hedefteki gerçek teknik iş kendi reposunda kalır. Bir denemenin arşivlenmesi Foundation'ın kabul durumunu, Development OS'nin görevini veya SOUL'un mimarisini değiştirmez.
 
-## Development OS — deneme-001
+## Development OS — deneme-002 / yeni konuşma bekleniyor
 
-[DEVOS-001](development-os/attempts/001/WORK.md): kullanıcının 24 Eylül yönüyle bütünsel çalışma düzeni tasarımı açıldı. Foundation'ın tamamının yeniden okunması tasarıma giriş şartı değildir; güncel çerçeveden başlanır, kararın gerektirdiği özgün kaynağa gerektiği derinlikte inilir. Oluşmuş studies/concepts/explorations kayıtları korunur ve tasarımda değerlendirilir; okunmamış kayıtlar okunmuş sayılmaz. [METHOD](development-os/attempts/001/METHOD.md) güncel yöntemi, [COVERAGE](development-os/attempts/001/reading/COVERAGE.md) gerçek okuma kapsamını taşır. Eski R-003/M1–M3/E19 hattı aktif değildir. Tasarımın açılması yapı seçiminin tamamlanması veya kurulum yetkisi değildir. Güncel durum WORK'tedir; yeni hedef repo veya 002/003 açılmadı.
+Kullanıcının 24 Eylül 2026 tarihli son yönüyle [DEVOS-002](development-os/attempts/002/README.md) yalnız yeni konuşmaya başlangıç/devir kaydı olarak açıldı. Önce Batu ile ChatGPT ne yapılacağını konuşarak birlikte belirleyecek. Henüz yöntem, iş planı, tasarım veya kurulum kararı yok. Kullanıcı Claude için yeni repo açacağını söyledi; adı/adresi ve açıldığı bilgisi henüz yok. [001'in Research çalışması duraklatıldı](development-os/attempts/001/WORK.md); mevcut kayıtlar korunur, eski plan ve mesaj görevleri 002'ye taşınmaz. Claude'un çalışan oturumuna müdahale edilmedi ve yeni mesaj gönderilmedi.
 
 ## Concepts — yeni başlangıç
 

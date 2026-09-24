@@ -1,19 +1,22 @@
 # Development OS — çalışma sistemi kurma denemeleri
 
-Bu alan Development OS'u kuracak çalışma düzenine ilişkin gerçek denemeleri yönetir. Araştırma arşivi, agent-control veya kabul edilmiş SOUL mimarisi değildir.
+Bu alan Development OS'u kuracak çalışma düzenine ilişkin denemeleri birbirinden ayrı tutar. Araştırma arşivi, agent-control veya kabul edilmiş SOUL mimarisi değildir.
 
-| Deneme | Amaç / hedef | Güncel iş |
+**Güncel başlangıç: DEVOS-002. Yalnız yeni konuşma bekleniyor; tasarım veya uygulama başlamadı.**
+
+| Deneme | Durum | Güncel giriş |
 |---|---|---|
-| DEVOS-001 | Araştırma ve örneklerden yararlanarak Development OS'u kurabilecek bütünsel çalışma düzenini tasarlamak. Hedef aktör: Claude Code / soul-development-os3_claudecode | [001 WORK](attempts/001/WORK.md) |
+| DEVOS-002 | Kullanıcı ile ChatGPT yeni oturumda ne yapılacağını konuşacak. Henüz yöntem, plan veya yapı kararı yok; hedef yeni repo henüz bildirilmedi. | [002 başlangıç/devir kaydı](attempts/002/README.md) |
+| DEVOS-001 | Research tarafındaki devam duraklatıldı. Eski okumalar, mesajlar ve bulgular korunuyor. Claude'un canlı çalışması bu kayıtla durdurulmuş sayılmaz. | [001 WORK](attempts/001/WORK.md) |
 
-## Giriş
+## Yeni oturumun girişi
 
-AGENT/tetiklenen kontrol → bu INDEX → [BRIEF](attempts/001/BRIEF.md) → [WORK](attempts/001/WORK.md) → [METHOD](attempts/001/METHOD.md) → [COVERAGE](attempts/001/reading/COVERAGE.md) → aktif tasarım sorusunun kayıtları ve özgün kaynakları.
+AGENT/tetiklenen kontrol → bu INDEX → 002 README'nin tamamı → kullanıcının yeni mesajı üzerinden konuşma.
 
-**24 Eylül yöntem değişikliği:** Foundation'ın bütün dosyalarını yeniden okumak artık tasarıma başlama şartı değil. Research bütünsel yapı tasarımına geçer; kararların gerektirdiği yerde Foundation'a drill-down yapar. Önceki okuma kayıtları korunur; Claude'un kaynak/çıkarım ve karşı okuma işleri tasarıma girdi sağlar. Hiç okunmamış kaynak veya kayıt okunmuş sayılmaz. R-004'teki bütün-korpus-tamamlanmadan-tasarıma-geçmeme kapısı bu kapsamda değişti; eski R-003/M1–M3/E19 hattı geri açılmadı.
+002 için 001'in BRIEF/METHOD/COVERAGE zinciri zorunlu başlangıç değildir. Eski D1/D2 tasarımı, toplu okuma kuyruğu veya R-006 yazışması otomatik sürdürülmez. İlk iş hazır bir çözüm ya da görev listesi üretmek değil, Batu ile ne yapılacağını konuşarak belirlemektir. Bu tur yalnız bu devam bağlamı kaydedildi.
 
-Her deneme kendi amaç/yetki, kaynak/kanıt, aktör, çalışma ve sonuçlarını taşır. Teknik hedefin canlı planı onun reposunda; burada koordinasyon ve araştırma katkısı yönetilir. Kanal [EXCHANGE](attempts/001/EXCHANGE.md); mevcut sorumluluk ve yayın yalnız WORK'tedir.
+## Ayrılık ve kaynaklar
 
-001 bu alanın ilk denemesidir; target adındaki os3 ile EXP serileri ayrı. Yeni deneme ayrı kullanıcı kararıyla açılır; eski izin/plan/PASS ve bekleyen mesaj otomatik taşınmaz. Önceki sonuçlar başarı, başarısızlık, iptal, duraklatma veya kanıt yetersizliğiyle ayrılır; öğrenme exact kaynak ve sınırla devralınır. 002/003 açılmadı.
+001'in planı, izinleri, bekleyen mesajları, hedef repo adresi ve seçilmemiş mekanizma adayları 002'ye miras değildir. Gerekli olursa geçmiş malzeme daha sonraki konuşmada kaynak olarak ele alınabilir; bugün aktarım veya benimseme kararı verilmedi. 003 açılmadı.
 
-Foundation, studies, concepts, explorations ve publications özgün kaynakları korunur. Kontrol alanı değiştirilmez ve araştırma bulgusu sanılmaz. Tasarım çalışması kurulum, yeni repo, geniş deney veya otomasyon izni değildir.
+Foundation, studies, concepts, explorations ve publications korunur; yeni baştan okunmaları veya belirli bir yöntemle kullanılmaları 002 için kararlaştırılmış değildir. Kontrol alanı değişmez. Kullanıcı Claude için yeni repo açacağını bildirdi; burada yeni GitHub reposu açılmadı, Claude'a mesaj/görev gönderilmedi ve çalışan oturumuna müdahale edilmedi.
