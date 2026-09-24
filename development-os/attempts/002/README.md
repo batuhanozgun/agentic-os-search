@@ -56,3 +56,20 @@ Kullanıcı bu soruyu cevaplamadan önce SOUL'un nerede çalışacağını, yani
 Foundation Environment araştırması nedeniyle host, yalnız bilgisayar/cloud/runtime/tool listesi olarak tanımlanmaz. Fiziksel olarak tek yerde bulunması da gerekmeyebilir. Bu turda ürün, provider, deployment modeli, model, database, container, sandbox veya başka teknoloji seçilmedi.
 
 Host için minimum affordance/primitives listesi bu konuşmanın şu anki alt sorusudur; assistant'ın çıkaracağı aday liste kullanıcı değerlendirmesi öncesinde kabul edilmiş gereksinim sayılmaz. Önceki açık soru bunun ardından geri alınacaktır.
+
+
+## 24 Eylül 2026 — yön düzeltmesi
+
+**Kullanıcı düzeltmesi:** Bu konuşmanın amacı teknik ürünleri tek tek öğrenmek değildir. Batu teknik ayrıntıları bilmediği için assistant, seçenek alanını ve gerekli ayrımları görünür kılmalı; fakat her yeni terimi ayrı bir araştırma dalına dönüştürmeden ana amacı korumalıdır.
+
+**Ana amaç:** SOUL'u yaratmak için önce SOUL'un ne olduğuna ve bundan hangi zorunlu özelliklerin çıktığına adım adım karar vermek.
+
+**Korunan çalışma adı:** SOUL = genel amaçlı bir Çalışma Sistemi Kurucusu.
+
+**Korunan ana açık soru:** “Bir şey gerçekten çalışma sistemi kurucusu olacaksa ne yapabilmesi gerekir?”
+
+**Environment dalının amacı:** Bu ana soruya geçmeden önce SOUL'un fiilen hangi tür çalışma zemini üzerinde yaşayabileceğini anlamak. Tartışma üç kavramsal seçenek ortaya çıkardı: mevcut agent hostunu genişleten yapı (gstack/ECC tarafı), kendi agent runtime'ı olan bağımsız yapı (Hermes/OpenHands türü), veya hibrit düzen. Bunlardan hiçbiri seçilmedi.
+
+**Drift kaydı:** ECC'nin hook/session/operator ayrıntılarına ilerlemek, Environment dalının karar ihtiyacını aştı. ECC burada yalnız seçenek alanını somutlaştıran örnek olmalı; ayrı ECC araştırmasına dönülmemeli.
+
+**Sonraki doğru mikro-adım:** Batu'dan teknik tercih istemek yerine, üç runtime/host modelini SOUL'un “genel amaçlı Çalışma Sistemi Kurucusu” hedefi açısından karşılaştırıp hangi kararın şimdi verilmesi gerektiğini ve hangisinin ertelenebileceğini belirlemek. Ardından korunmuş ana soruya geri dönmek.
