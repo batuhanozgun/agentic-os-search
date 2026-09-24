@@ -93,7 +93,7 @@ Every note links its original sources and round. Use those for exact pin/blob/co
 | E01 cache predicate | [Bundle](evidence/u01-a-cache-probe/README.md); not installed host |
 | E02 work item | [Bundle](evidence/u03-a-work-item-probe/README.md); store double, not SQL/auth/concurrency |
 | E03 worker/collector | [Bundle](evidence/u03-b-worker-probe/README.md); fake provider, not model/full tmux |
-| E04 outcome helper | [Bundle](evidence/u05-b-evaluation-probe/README.md); stipulated evidence, not causal effectiveness |
+| E04 outcome helper | [Bundle](evidence/u05-b-evaluation-probe/README.md); stipulated evidence, not causal improvement |
 | E05 distinct histories | [Main-path](evidence/u06-a-config-probe/README.md) and [reconciliation](evidence/u06-a-conversation-record/README.md); do not pool |
 | Excluded E06 | [Recovery](RECOVERY-U08-A-20260918.md) → [quarantine](evidence/u08-a-recovery/README.md), [receipt](PUBLICATION-U08-A-RECOVERY.md) |
 | E07 SQL/Git | [Bundle](evidence/u09-a2-sql-git-probe/README.md); not Rust integration |
