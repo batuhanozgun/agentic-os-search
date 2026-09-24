@@ -163,3 +163,21 @@ Current Claude Code plugin reference clarifies the distinction:
 - Any ECC feature whose correctness depends on a daemon/process/local database surviving across sessions is **not** assumed available in this deployment. If such persistence becomes required, Remote Cloud is the wrong canonical host and a persistent SSH/remote machine becomes a separate engineering decision.
 
 **Immediate action:** disable the account-level ECC plugin installation prompt. Next work is not more UI clicking; first specify and verify the exact project-native/bootstrap ECC surface for Remote Cloud.
+
+
+## 24 Eylül 2026 — decision freeze / assumption audit
+
+**User correction:** Development OS / ECC / Claude Cloud direction has accumulated hidden assumptions. No new architecture, deployment, install or bootstrap decision should be made until decision-critical assumptions are surfaced and resolved.
+
+**Status change:** All earlier assistant engineering conclusions in DEVOS-002 remain historical/provisional evidence only. In particular, the following are **suspended, not adopted**:
+- SOUL must have its own independent persistent process/service core;
+- ECC should be the Development OS substrate;
+- Anthropic-hosted Claude Cloud should be the canonical DevOS execution environment;
+- account-level ECC plugin sync is or is not usable in Claude Remote/Cloud;
+- project-local/manual ECC bootstrap is a sustainable replacement;
+- Git alone is sufficient persistent DevOS state;
+- a persistent VM is required or unnecessary.
+
+**Audit rule:** A decision-critical assumption is resolved only by direct user requirement, current authoritative product/source evidence, observed environment behavior, or an explicit bounded engineering experiment. Contradictory prior assistant claims do not resolve an assumption.
+
+**Immediate audit target:** Decide first whether `Claude Code Cloud + ECC` is actually a viable and appropriate Development OS substrate. Do not implement it yet.
