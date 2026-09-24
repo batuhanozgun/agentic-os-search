@@ -116,3 +116,22 @@ The preceding “persistent cloud VM as leading practical baseline” was premat
 3. Only if those persistence requirements are material and cannot be externalized/reconstructed safely should persistent remote compute (VM or managed equivalent) become necessary.
 
 Cloud Sessions remain task-isolated and ephemeral; therefore per-session ECC installation does not by itself provide cross-session persistent ECC processes/operator runtime. This is now an empirical/engineering boundary to test, not a reason to preselect a VM.
+
+
+## 24 Eylül 2026 — Claude Code Cloud preflight
+
+Observed in a Claude Desktop → Claude Code Cloud session for `agentic-os-search`:
+
+- workspace: `/home/user/agentic-os-search`
+- actual session branch: `claude/intelligent-bardeen-pknix8` (clean working tree)
+- Node: `v22.22.2`
+- npm/npx: `10.9.7`
+- Git: `2.43.0`
+- Claude Code: `2.1.281`
+- Node/Claude binaries: `/opt/node22/bin/*`
+- HOME: `/root`
+- session environment is ephemeral
+
+**Engineering consequence:** The cloud session satisfies current ECC documented prerequisites (Node 18+, Git, Claude Code 2.1+). Claude Cloud creates/uses a session-specific branch rather than working directly on main; persistent project changes therefore require explicit Git integration. Environment-local installs/config under `/root` should be assumed ephemeral unless recreated by cloud environment setup.
+
+**Next verification:** inspect existing Claude plugin state before installing ECC, because ECC warns against stacking multiple install methods or duplicate plugin installs.
