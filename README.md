@@ -17,9 +17,9 @@ Bu repository altı farklı rolü birbirine karıştırmadan taşır.
 
 Araştırmanın güncel yetkisi ilgili STATE dosyalarından okunur. Development OS denemelerinin koordinasyonu kendi güncel giriş kaydında, hedefteki gerçek teknik iş kendi reposunda kalır. Bir denemenin arşivlenmesi Foundation'ın kabul durumunu, Development OS'nin görevini veya SOUL'un mimarisini değiştirmez.
 
-## Development OS — deneme-002 / yeni konuşma bekleniyor
+## Development OS — deneme-002 / varsayım denetimi
 
-Kullanıcının 24 Eylül 2026 tarihli son yönüyle [DEVOS-002](development-os/attempts/002/README.md) yalnız yeni konuşmaya başlangıç/devir kaydı olarak açıldı. Önce Batu ile ChatGPT ne yapılacağını konuşarak birlikte belirleyecek. Henüz yöntem, iş planı, tasarım veya kurulum kararı yok. Kullanıcı Claude için yeni repo açacağını söyledi; adı/adresi ve açıldığı bilgisi henüz yok. [001'in Research çalışması duraklatıldı](development-os/attempts/001/WORK.md); mevcut kayıtlar korunur, eski plan ve mesaj görevleri 002'ye taşınmaz. Claude'un çalışan oturumuna müdahale edilmedi ve yeni mesaj gönderilmedi.
+[Development OS INDEX](development-os/INDEX.md) → [DEVOS-002 güncel kayıt](development-os/attempts/002/README.md). Konuşma ve sınırlı Claude Cloud ortam kontrolü yapıldı; şimdi varsayım denetimi sürüyor, kurulum yönlendirmesi duruyor. Güncel kullanıcı kısıtları, önceki önerilerin statüsü ve sonraki sorumluluk 002 kaydından okunur. SOUL mimarisi veya çalışan Development OS kabul edilmiş değildir. Ayrı geliştirme reposunun adı/adresi henüz verilmedi; araştırma deposu uygulama deposuna dönüşmedi. [001'in Research çalışması duraklatılmıştır](development-os/attempts/001/WORK.md); eski plan ve mesaj görevleri 002'ye taşınmaz.
 
 ## Concepts — yeni başlangıç
 
