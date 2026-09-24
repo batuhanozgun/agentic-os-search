@@ -19,7 +19,7 @@ Araştırmanın güncel yetkisi ilgili STATE dosyalarından okunur. Development 
 
 ## Development OS — deneme-001
 
-[DEVOS-001](development-os/attempts/001/WORK.md), kullanıcının son 23 Eylül yönüyle bütün korpus okumasına yeniden yönlendirildi: önce bütün repo incelenir, her tur katkı sağlayacak fikir ve örnekler kaynak-bağlı kaydedilir; bütün kayıtlar tamamlandıktan sonra birlikte değerlendirilerek Development OS'u kuracak çalışma yapısına karar verilir. [METHOD](development-os/attempts/001/METHOD.md) bu sırayı, [COVERAGE](development-os/attempts/001/reading/COVERAGE.md) gerçek okuma kapsamını taşır. Önceki R-003/M1–M3/E19 revizyon zinciri aktif iş değildir; tarihçe korunur. Güncel durum yalnız WORK'ten alınır. Yeni hedef repo veya 002/003 açılmadı.
+[DEVOS-001](development-os/attempts/001/WORK.md): kullanıcının 24 Eylül yönüyle bütünsel çalışma düzeni tasarımı açıldı. Foundation'ın tamamının yeniden okunması tasarıma giriş şartı değildir; güncel çerçeveden başlanır, kararın gerektirdiği özgün kaynağa gerektiği derinlikte inilir. Oluşmuş studies/concepts/explorations kayıtları korunur ve tasarımda değerlendirilir; okunmamış kayıtlar okunmuş sayılmaz. [METHOD](development-os/attempts/001/METHOD.md) güncel yöntemi, [COVERAGE](development-os/attempts/001/reading/COVERAGE.md) gerçek okuma kapsamını taşır. Eski R-003/M1–M3/E19 hattı aktif değildir. Tasarımın açılması yapı seçiminin tamamlanması veya kurulum yetkisi değildir. Güncel durum WORK'tedir; yeni hedef repo veya 002/003 açılmadı.
 
 ## Concepts — yeni başlangıç
 
