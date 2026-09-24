@@ -104,3 +104,15 @@ Korunan ana soru değişmez: **“Bir şey gerçekten çalışma sistemi kurucus
 3. Anthropic-hosted Cloud Sessions: bounded/parallel tasks için kullanılabilir auxiliary execution surface, but not the canonical persistent DevOS home.
 
 This is a deployment direction for Development OS, not SOUL runtime architecture and not a provider/vendor commitment.
+
+
+## 24 Eylül 2026 — cloud direction correction
+
+The preceding “persistent cloud VM as leading practical baseline” was premature. Claude Code Cloud Sessions support repository-defined setup commands/scripts before new cloud sessions, so ECC or required dependencies may be materialized into each ephemeral session without first renting dedicated compute.
+
+**Revised order of work:**
+1. First evaluate/try Claude Code Cloud Session + reproducible ECC setup with no dedicated VM.
+2. Determine which desired Development OS capabilities actually require state/processes to survive across cloud sessions.
+3. Only if those persistence requirements are material and cannot be externalized/reconstructed safely should persistent remote compute (VM or managed equivalent) become necessary.
+
+Cloud Sessions remain task-isolated and ephemeral; therefore per-session ECC installation does not by itself provide cross-session persistent ECC processes/operator runtime. This is now an empirical/engineering boundary to test, not a reason to preselect a VM.
