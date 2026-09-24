@@ -73,3 +73,20 @@ Host için minimum affordance/primitives listesi bu konuşmanın şu anki alt so
 **Drift kaydı:** ECC'nin hook/session/operator ayrıntılarına ilerlemek, Environment dalının karar ihtiyacını aştı. ECC burada yalnız seçenek alanını somutlaştıran örnek olmalı; ayrı ECC araştırmasına dönülmemeli.
 
 **Sonraki doğru mikro-adım:** Batu'dan teknik tercih istemek yerine, üç runtime/host modelini SOUL'un “genel amaçlı Çalışma Sistemi Kurucusu” hedefi açısından karşılaştırıp hangi kararın şimdi verilmesi gerektiğini ve hangisinin ertelenebileceğini belirlemek. Ardından korunmuş ana soruya geri dönmek.
+
+
+## 24 Eylül 2026 — teknik yön checkpoint'i
+
+**Statü:** ASSISTANT ENGINEERING CONCLUSION / PROVISIONAL / OWNER-ACCEPTED DECISION DEĞİL.
+
+Mevcut Foundation, soul-context, EXP-004 ve seçili gstack/ECC/Hermes/Context-Memory-Harness araştırmalarından çıkan güncel mühendislik sonucu:
+
+1. **SOUL fikri temel mekanik düzeyde uygulanamaz görünmüyor.** Runtime, persistent state, tool/effect execution, delegation, scheduling, host adaptation, verification, recovery ve operator/control mekanizmalarının farklı alt kümeleri gerçek sistemlerde uygulanmış durumda.
+2. **Kanıtlanmamış esas sıçrama**, bunların varlığı değil; arbitrary/heterogeneous işlerde doğru ihtiyacı keşfedip minimum yeterli task-specific working system'i güvenilir biçimde kurma, seçme, doğrulama ve uyarlama yeteneğinin genellenebilirliğidir. EXP-004 G01–G07 bu açığı açıkça taşır.
+3. **Yalnız host-üstü SOUL** (gstack/ECC tarafı) hedef için zayıf kalır: host değiştikçe control strength, delegation, hooks, permissions ve davranış semantiği değişebilir; model/session dışı kalıcı state ve enforcement sorumluluklarının bir kısmı SOUL tarafından sahiplenilmelidir.
+4. **Tamamen self-contained yeni agent platformu** zorunlu görünmüyor: mevcut host/runtime'lar model çağrısı, tools, terminal/process, browser, coding ve specialist execution gibi önemli execution capabilities sağlar; bunları yeniden yazmak hedef değil.
+5. **Leading architecture class:** SOUL'un kendi persistent control/state runtime çekirdeği bulunur; Codex, Claude Code, Hermes veya başka execution ortamları adapter/worker/actor olarak bağlanabilir. Kullanıcı arayüzü bu çekirdeğe bağlanır. Bu, nihai teknoloji/deployment seçimi değildir.
+
+Bu sonuçla “SOUL nerede çalışır?” sorusunun teknik cevabı daralır: **SOUL'un canonical çekirdeği kendi çalışan process/service'i olarak yaşamalı; dış agent hostları SOUL'un kendisi değil, kullanabileceği execution backends/actors olmalıdır.** İlk deployment'ın local/server/cloud olması sonraki engineering seçimidir ve ürün kimliğini değiştirmez.
+
+Korunan ana soru değişmez: **“Bir şey gerçekten çalışma sistemi kurucusu olacaksa ne yapabilmesi gerekir?”** Bundan sonraki capability çıkarımı bu architecture sınıfı ve research evidence üzerinden assistant tarafından yapılmalıdır; teknik seçenekleri kullanıcıya geri devretmek varsayılan yöntem değildir.
