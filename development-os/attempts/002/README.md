@@ -90,3 +90,17 @@ Mevcut Foundation, soul-context, EXP-004 ve seçili gstack/ECC/Hermes/Context-Me
 Bu sonuçla “SOUL nerede çalışır?” sorusunun teknik cevabı daralır: **SOUL'un canonical çekirdeği kendi çalışan process/service'i olarak yaşamalı; dış agent hostları SOUL'un kendisi değil, kullanabileceği execution backends/actors olmalıdır.** İlk deployment'ın local/server/cloud olması sonraki engineering seçimidir ve ürün kimliğini değiştirmez.
 
 Korunan ana soru değişmez: **“Bir şey gerçekten çalışma sistemi kurucusu olacaksa ne yapabilmesi gerekir?”** Bundan sonraki capability çıkarımı bu architecture sınıfı ve research evidence üzerinden assistant tarafından yapılmalıdır; teknik seçenekleri kullanıcıya geri devretmek varsayılan yöntem değildir.
+
+
+## 24 Eylül 2026 — cloud execution constraint
+
+**User requirement:** Development OS local workstation üzerinde ana execution yükünü taşımamalı. Batu Claude Code'u cloud/remote compute üzerinde kullanmak istiyor; yerel çalıştırma bilgisayarı kilitlediği için local-heavy execution tercih edilmiyor.
+
+**Engineering implication:** ECC'nin persistent state/process/operator mekanizmalarını Development OS olarak gerçekten kullanmak için görev-başına ephemeral/isolated hosted cloud task modeli ana runtime olarak seçilmemeli. Leading deployment direction: Claude Code + ECC'nin persistent bir remote/cloud compute üzerinde yaşaması; kullanıcı cihazının thin client/control surface olması.
+
+**Current candidate order:**
+1. Persistent cloud VM / remote machine controlled by us: leading practical baseline.
+2. Anthropic self-hosted Claude Code environments: stronger integrated option if account eligibility exists (current public beta is Team/Enterprise).
+3. Anthropic-hosted Cloud Sessions: bounded/parallel tasks için kullanılabilir auxiliary execution surface, but not the canonical persistent DevOS home.
+
+This is a deployment direction for Development OS, not SOUL runtime architecture and not a provider/vendor commitment.
