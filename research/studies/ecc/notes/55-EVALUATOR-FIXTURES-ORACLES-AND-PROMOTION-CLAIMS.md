@@ -35,7 +35,7 @@ Positive conditional controls: changing a checked scenario ID, flipping a requir
 
 The test named as accepting salvage and rejecting blind imports calls `readJson('verifier-result.json')`, finds two predetermined IDs and compares their stored decisions. It never submits a bad proposal to a decision function. The rejected candidate is an illustrative negative example, not evidence that a running evaluator rejected new bad input. Likewise, finding the words for a forbidden action checks that the example lists a prohibition; it does not attempt that action and observe enforcement.
 
-The root report's score dimensions and `prototype_passed` result are not recomputed. Only its scenario ID and read-only flag are inspected. The accepted-versus-rejected score ordering check is specific to the root verifier file; it is not a comprehensive scoring rule for all seven families. No observed score calibration, sample independence or improvement follows.
+The root report's score dimensions and `prototype_passed` result are not recomputed. Its schema-version string, scenario ID and read-only flag are inspected, not its run ID or result-bearing fields. The accepted-versus-rejected score ordering check is specific to the root verifier file; it is not a comprehensive scoring rule for all seven families. No observed score calibration, sample independence or improvement follows.
 
 ## 4. A concrete same-scenario / different-run counterpart
 
