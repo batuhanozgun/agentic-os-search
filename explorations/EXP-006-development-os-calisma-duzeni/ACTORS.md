@@ -47,6 +47,9 @@ Bu, insanın bütün olası rollerinin tanımı değildir. Teknik keşif/koordin
 | **R18** | Composition Integrity Reviewer / Birleşim Bütünlüğü Doğrulayıcısı | B6, B7 | Ground-local gerçeklerden türeyen birleşik hükmün ve Working Configuration joint readiness/fit iddiasının desteklenmesini sınamak | candidate / reused for B7 qualification |
 | **R19** | Working System Formation Designer / Çalışma Sistemi Oluşum Tasarımcısı | B7 | Mission için gerekli capacity set'ini keşfedip reuse/configure/acquire/create/defer kararlarıyla yeterli Working Configuration tasarlamak | candidate |
 | **R20** | Working Configuration Assembly Steward / Çalışma Konfigürasyonu Kurulum Sorumlusu | B7 | Seçilmiş configuration'ın capability sahipleri üzerinden gerçekten assemble/activate/reconfigure/retire edilmesini koordine etmek | candidate |
+| **R21** | Continuity & Re-entry Steward / Süreklilik ve Devralma Sorumlusu | B8 | Work/authority/configuration/evidence continuity'sini actor-session değişiminde doğru successor'a devretmek | candidate |
+| **R22** | Change Impact & Recovery Steward / Değişiklik Etkisi ve Toparlanma Sorumlusu | B8 | Change/failure/unknown effect sonrası selective invalidation, recovery, reconciliation ve requalification üretmek | candidate |
+| **R23** | Learning & Adaptation Steward / Öğrenme ve Uyarlama Sorumlusu | B8 | Experience'i koşullu reusable lesson/system adaptation'a dönüştürmek ve acquisition-retention-expression ayrımını yönetmek | candidate |
 
 ## Mekanik sorumluluklar — aktör/rol değildir
 
@@ -58,13 +61,14 @@ Bu, insanın bütün olası rollerinin tanımı değildir. Teknik keşif/koordin
 | **M4** | Environment provisioning / runtime / workspace / isolation substrate | B5; ileride B6 | candidate requirement |
 | **M5** | Effect execution / readback / observability substrate | B5, B6 | candidate requirement |
 | **M6** | Cross-ground binding / standing checks / guarded-transition substrate | B6, B7 | candidate requirement |
-| **M7** | Working Configuration identity / binding / activation / lifecycle substrate | B7 | candidate requirement |
+| **M7** | Working Configuration identity / binding / activation / lifecycle substrate | B7, B8 | candidate requirement |
+| **M8** | Durable continuity / handoff / stale-writer protection / recovery correlation substrate | B8 | candidate requirement |
 
 ## Henüz kararlaştırılmayanlar
 
 - Development OS'ta kaç yapay zekâ aktör örneği olacağı.
-- R1–R20'nin kaç fiziksel agent/model/oturum tarafından taşınacağı.
-- R1/R2/R6/R8/R12/R15/R18 gibi verification sorumluluklarının, R4/R5/R6 Information rollerinin, R7/R9 Actor-governance rollerinin, R10/R11 Work rollerinin, R13/R14 Environment rollerinin, R16/R17 cross-ground rollerinin veya R19/R20 system-formation rollerinin ileride birleşip birleşmeyeceği.
+- R1–R23'ün kaç fiziksel agent/model/oturum tarafından taşınacağı.
+- R1/R2/R6/R8/R12/R15/R18 gibi verification sorumluluklarının, R4/R5/R6 Information rollerinin, R7/R9 Actor-governance rollerinin, R10/R11 Work rollerinin, R13/R14 Environment rollerinin, R16/R17 cross-ground rollerinin, R19/R20 system-formation rollerinin veya R21/R22/R23 continuity-adaptation rollerinin ileride birleşip birleşmeyeceği.
 - Bağımsız doğrulama için hangi teknik/organizasyonel izolasyonun gerektiği.
 - Host/runtime/topoloji.
 
