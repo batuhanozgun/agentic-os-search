@@ -3,8 +3,8 @@
 **Durum:** OPEN / LONG-RUNNING DIALOGUE WORK.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
 **Current phase:** Development OS Work alanlarından yapay zekâ rol/sorumluluklarını türetme.  
-**Current Work:** **B5 — SOUL'un Environment kapasitesini geliştirmek.**  
-**Next:** B5'i B1–B4 ile aynı yöntemle ayrıştırmak.
+**Current Work:** **B6 — Dört zemini birbirine doğru bağlayan düzeni geliştirmek.**  
+**Next:** B6'yı B1–B5 ile aynı yöntemle ayrıştırmak; cross-ground ilişkileri erken modül bağlama şemasına çevirmemek.
 
 ## Current çalışma modeli
 
@@ -23,10 +23,10 @@ SOUL hedefi
 - İnsan/müşteri çekirdeği: **yetki + kabul**.
 - Roller Work'ten türetilir; jenerik kadro önce kurulmaz.
 - SOUL hedefi bu aşama için yeterince somut kabul edildi; nihai mimari sayılmaz.
-- B1–B4 candidate decomposition seviyesinde açıldı.
-- R1–R12 aday rollerdir; nihai agent/organizasyon yapısı değildir.
-- M1–M3 mekanik sorumluluklardır; aktör/rol değildir.
-- B5 current; B6–B9 henüz açılmadı.
+- B1–B5 candidate decomposition seviyesinde açıldı.
+- R1–R15 aday rollerdir; nihai agent/organizasyon yapısı değildir.
+- M1–M5 mekanik sorumluluklardır; aktör/rol değildir.
+- B6 current; B7–B9 henüz açılmadı.
 
 ## Canonical yüzeyler
 
