@@ -12,13 +12,13 @@ Yeni oturumda normal devam için:
 1. [STATE](STATE.md) — current purpose, phase ve active Work.
 2. [HANDOFF](HANDOFF.md) — tam devralma noktası ve sıradaki işlem.
 3. [WORK](WORK.md) — B1–B9 haritası.
-4. [Aktif B3 Work](work/B3-actors-capacity.md).
+4. Aktif Work dosyası — exact yol için [STATE](STATE.md) ve [HANDOFF](HANDOFF.md) current kaynaktır.
 5. [ACTORS](ACTORS.md) — current rol/taşıyıcı registry'si.
 
 Gerektiğinde:
 - [DECISIONS](DECISIONS.md) — kullanıcıyla netleşmiş çalışma kararları.
 - [EXP-006_Context](EXP-006_Context) — yön/metodoloji ve drift koruması.
-- [B1](work/B1-common-intellectual-baseline.md), [B2](work/B2-information-capacity.md) — tamamlanmış candidate ayrıştırmalar.
+- [work/](work/) — B1–B9 dal dosyaları; yalnız active veya dependency-relevant dalı oku.
 - [sources/U001](sources/U001.md) — açılış kaynağı.
 - [history/](history/) — migration öncesi büyük current yüzeylerin tarihsel snapshot'ları; normal cold-start için okunmaz.
 
@@ -29,7 +29,7 @@ Gerektiğinde:
 | `STATE.md` | yalnız current state |
 | `HANDOFF.md` | yeni oturumun doğru işi devralması |
 | `WORK.md` | üst Work haritası ve sequencing |
-| `work/B*.md` | tek bir Work dalının ayrıntılı açılımı |
+| `work/B*.md` | tek bir Work dalının ayrıntılı açılımı; active dal STATE/HANDOFF'tan bulunur |
 | `ACTORS.md` | aktör/rol/mekanik taşıyıcı registry'si |
 | `DECISIONS.md` | kabul edilmiş çalışma kararlarını candidate fikirlerden ayırmak |
 | `EXP-006_Context` | neden/nasıl çalıştığımızı ve drift korumasını taşımak |
