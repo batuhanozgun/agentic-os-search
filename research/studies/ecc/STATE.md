@@ -1,33 +1,50 @@
 # ECC — STATE
 
-**Updated:** 2026-09-25 — U19-H activation.
-**Current work:** U19-H / G6 / O3 / Q01a2h, remaining document/media materiality disposition and synthesis-entry decision, **IN PROGRESS**. [MR57 opening](ROUND-U19-H.md), commit `aee5e5b636c5cc12713b5436b8dfdab3fe8fae1d`, precedes target inquiry.
-**Last completed:** U19-G prototype artifact/validator/consumer inquiry, **COMPLETE / PUBLISHED at bounded source scope**. [Note55](notes/55-EVALUATOR-FIXTURES-ORACLES-AND-PROMOTION-CLAIMS.md), [sources](evidence/U19-G-SOURCES.md), [MR56](ROUND-U19-G.md), [receipt](PUBLICATION-U19-G.md). No inherited publication blocker.
-**Study:** ACTIVE / PARTIAL. O3/G6 source disposition, revised CORE and joint evaluation remain open. Note33 is provisional, extended by Notes34–55.
-**METHOD / selection PLAN:**0.1 / 0.57. **Fixed ECC:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
+**Updated:** 2026-09-25 — U19-H source-disposition closure and publication.
+**Last completed:** U19-H / G6 / O3 / Q01a2h1, finite remaining-source disposition and synthesis-entry decision, **COMPLETE / PUBLISHED at bounded source scope**. [Note56](notes/56-REMAINING-SOURCE-DISPOSITION-AND-SYNTHESIS-ENTRY.md), [sources](evidence/U19-H-SOURCES.md), [MR57](ROUND-U19-H.md), [receipt](PUBLICATION-U19-H.md).
+**Current work:** no substantive unit in progress after closure. **Next selected:** U20-A / Q01–Q01a3, revised ECC-native synthesis, **ADMITTED / NOT STARTED**.
+**Publication:** checked current entries, ECC catalogue row, receipt and this handoff are co-published. No inherited publication blocker. Receipt separates performed correspondence checks from the final non-force/ref-readback gate.
+**Study:** ACTIVE / PARTIAL. **G6 selected omission/source-disposition review is BOUNDED-COMPLETE**, not exhaustive source/media/host coverage. Revised CORE, the research-method assessment and later project-facing/user evaluation remain unfinished. Note33 is historical/provisional, extended by Notes34–56.
+**METHOD / PLAN:**0.1 / 0.58. **Fixed ECC:** `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`.
 
-## Purpose and recovery
+## Purpose and continuity
 
-Explain ECC-native mechanisms, connections, dependencies, differences and limits; retain the revisable research-method case. No independent hosted-product study, upstream repair, adoption or SOUL/Development OS architecture.
+Explain ECC-native mechanisms, connections, dependencies, differences and limits; retain a revisable research-method case. No separate hosted-product study, upstream repair, adoption or SOUL/Development OS architecture. WHY/METHOD remain unchanged; EXP-004 is closed and not ECC's oracle.
 
-Fresh AGENT is unchanged; the complete same-conversation R01–R09 bodies remain active. Fresh full prior STATE and main comparison match [U19-G closure](https://github.com/batuhanozgun/agentic-os-search/blob/28068a7db8bf521b858ece16c175504b72deef31/research/studies/ecc/STATE.md). Current entries, WHY/METHOD, research routers and Notes54–55/ledgers/receipts retain their complete same-conversation readings. Original U19-A omission disposition and Note33 were freshly read fully. Same-assistant recovery is not independent verification; historical next-work labels do not restart completed units.
+Fresh AGENT/full STATE and exact main comparison recovered [U19-G closure](https://github.com/batuhanozgun/agentic-os-search/blob/28068a7db8bf521b858ece16c175504b72deef31/research/studies/ecc/STATE.md). Complete same-conversation controls/current entries/WHY/METHOD and Notes54–55 were retained; original U19-A disposition and Notes33/30 were freshly read fully. [MR57 opening](https://github.com/batuhanozgun/agentic-os-search/blob/aee5e5b636c5cc12713b5436b8dfdab3fe8fae1d/research/studies/ecc/ROUND-U19-H.md) preceded activation9832c444 and its full readback. That activation is historical. Same-assistant recovery/readback is not independent verification.
 
-## Active question and return condition
+## What closes, and what does not
 
-Which remaining document/media/variant obligations materially affect the native explanation, and does their justified disposition admit revised synthesis or leave necessary source work?
+The named Pi/Cursor/Codex/Kiro source joins were answered in Notes50–53. Notes54–55 qualified broad-document procedures and evaluator fixtures. Note56 completes the finite remaining-role disposition: host-conditioned troubleshooting, operator-mediated progress synchronization, product/date-qualified roadmap status, selected translation/history and explicit other-variant/media limits.
 
-First sources: `docs/TROUBLESHOOTING.md`; GA roadmap beyond the previously selected prefix/hosted-learning row; relevant history/translation/example remainders; consequential broad-guide images/assets. Recover exact identities and source roles. Read or explicitly justify depth; captions are not image evidence. Compare to existing original findings instead of inventing another mechanism for every name.
+The progress-sync contract assigns actors and a local file-backed route; the original reporting consumer does not thereby become live external reconciliation. The completed Turkish guide associates /plan with a planner agent where the primary command defaults to inline planning. Roadmap statements refer to local code, external products, historical results and future requirements rather than one universal completion state. These are source qualifications, not executed failures or current host/service verdicts.
 
-**Return:** finite source dispositions and a justified synthesis-entry decision, or a precise necessary local source gap and return condition. A legitimate narrower source answer may close without a live deployment campaign. Conversely, necessary unread implementation is not merely an unrun stronger test. Synthesis admission is not a completed CORE, whole-study acceptance or project-facing adoption.
+Three target documents were fully read and two prior partial text readings completed. The roadmap remains selected/clipped. Guide image paths and blob identities were obtained, but image acquisition failed: **NO VISUAL INSPECTION occurred.** The next synthesis cannot use image-derived mechanisms or claim complete multimedia coverage. Unseen content is not asserted to be cosmetic or empty. Recover any source whose unique content becomes necessary to a stronger claim.
 
-Opening/activation precede target inquiry. No target imports/functions/tests, installation, model/provider/MCP/service, user credentials/configuration, actual policy decision/promotion, upstream repair or E11. Read-only source/media acquisition and administrative text/hash checks are separate.
+No target import/function/test, installation, model/provider/MCP/service, real policy/promotion, user configuration or E11 ran. Existing positive code mechanisms and earlier local experiments retain their separate scopes. Reported external status, benchmarks, provider programmes and test totals are not independently verified outcomes.
 
-## Inherited scope and continuity
+The selected omission gate is complete because its material known source obligations received bounded answers or explicit claim-limiting dispositions, not because every file was read. No newly established necessary local implementation remained unexplained in this return. This is not a repository-wide absence proof; synthesis may expose a specific relationship requiring source re-entry.
 
-Q01a2g2 and all original stronger b2/c2/d2/e2/f2/Q02–Q08 limits remain; Q09 is deferred. Notes54–55 distinguish actionable guidance, curated fixture checks and separately attributed external claims. Their source results are not live efficacy evidence. O1 and the named O2 joins retain Notes50–53's bounded answers; other material variants receive justified scope, not assumed parity.
+## Exact next responsibility — U20-A revised native synthesis
 
-QUESTIONS inherits every unchanged row/interpretation from QUESTIONS-THROUGH-U19-C.md, blob `da764c971cf69185adad323e1c86c1c02711e9d4`. Historical baseline dates/next labels are not current authority. Current entries remain at the prior checked checkpoint until this source inquiry closes; this STATE supersedes only U19-H's NOT STARTED label.
+**Question:** what working system does the accumulated evidence support after the provisional assembly's named source gaps and the selected omission challenge have been addressed?
 
-Preserve Notes01–55/evidence, WHY/METHOD, inventories, exact baseline and unrelated work. E06 excluded, E05 histories separate, E10 recovery complete; no archive restoration/upload/rerun. Findings/ledger precede checked entry/catalogue/receipt/final STATE publication. Only ECC-local records and its catalogue row may change; fresh-parent non-force writes, no branch/PR, control or architecture mutation.
+Begin with PLAN0.58, Note56/ledger/MR57/receipt, Note33 and inventory/U15-A-COVERAGE-RECONCILIATION.md. Recover Notes34–56 and original Notes01–32/ledgers at the depth needed for each consequential claim. Current STATE/QUESTIONS govern continuation; historical next-work prose must not restart completed units.
 
-Fresh session: AGENT/protocols → research/studies route → this STATE/INDEX/META → WHY/METHOD/PLAN → current QUESTIONS and relevant baseline rows → active MR57 and any U19-H result/ledger. Recover current main and the active inquiry before selecting another unit.
+Build a joined native explanation of source assets, selected installation/discovery/context paths, work and execution arrangements, information/learning, approval/review/acceptance, observation/evaluation, and maintenance/integration/recovery. A user-task journey must name actual entrypoints, actors, stores, controls, conditions and effects. Do not invent an uninterrupted pipeline across separate implementations or replace the explanation with a defect catalogue.
+
+**Return:** source-traceable revised synthesis/CORE candidate with positive mechanisms, material countercases, exact source-versus-empirical limits and reopening links. Inspect any existing CORE before creating or replacing it; its presence or absence is not assumed here. Preserve Note33 and original notes as evidence. If a necessary local relationship is unsupported, name the source and reopen that question before asserting it.
+
+Publish opening/activation before substantive synthesis. U20-A is admitted, not started; no CORE is claimed written by U19-H. Method assessment and project-facing/user evaluation remain separate later responsibilities. This selection authorizes no live-provider campaign or research-to-architecture/implementation transition.
+
+## Inherited questions and preservation
+
+Q01a2h2 retains unviewed media, other unexamined host/domain/translation/fixture variants, selected roadmap coverage and stronger external/empirical claims. All original b2/c2/d2/e2/f2/g2 and Q02–Q08 obligations retain their qualifications. Q09 remains deferred and must use then-current project context.
+
+QUESTIONS retains one-level changes over exact QUESTIONS-THROUGH-U19-C.md, blob `da764c971cf69185adad323e1c86c1c02711e9d4`. All unchanged IDs and interpretation/reopening obligations are inherited. Historical dates/next labels are not current authority; absent IDs from the change table are not deletions or completion.
+
+Note56/ledger were persisted and fully read back before closure. Current entries were checked at stagedc8eda241; actual INDEX differences and the catalogue's corrected one-row change were inspected. The receipt identifies accepted objects and the discarded transcription candidate. Final assembly reuses checked blobs rather than regenerating their content.
+
+Original Notes01–55/evidence, WHY/METHOD, inventories, exact baseline and unrelated work remain unchanged. E06 excluded, E05 histories separate, E10 recovery complete; no old archive restoration/upload/rerun. Only ECC-local records and its catalogue row changed. No branch/PR, force update, upstream fix or agent-control mutation.
+
+Fresh session: AGENT/protocols → research/studies route → this STATE/INDEX/META → WHY/METHOD/PLAN → current QUESTIONS and relevant baseline rows → Note56/ledger/MR57/receipt. Recover actual main and preserve concurrent work. This closes U19-H's selected source disposition, not the whole ECC research.
