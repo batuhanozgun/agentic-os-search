@@ -44,12 +44,14 @@ Bu, insanın bütün olası rollerinin tanımı değildir. Teknik keşif/koordin
 | **R15** | Environment Reality & Effect Reviewer / Ortam Gerçekliği ve Etki Doğrulayıcısı | B5 | Tool/runtime kaydından bağımsız actual Environment state/effect iddiasını sınamak | candidate |
 | **R16** | Cross-Ground Composition Designer / Çapraz-Zemin İlişki Tasarımcısı | B6 | Exact cross-ground bindings ve composite readiness/actionability/qualification semantiğini tasarlamak | candidate |
 | **R17** | Cross-Ground Control & Transition Steward / Kontrol ve Geçiş Sorumlusu | B6 | Governing basis, authority, gate, enforcement coverage ve realized transition/propagation ilişkilerini yönetmek | candidate |
-| **R18** | Composition Integrity Reviewer / Birleşim Bütünlüğü Doğrulayıcısı | B6, B7 | Ground-local gerçeklerden türeyen birleşik hükmün ve Working Configuration joint readiness/fit iddiasının desteklenmesini sınamak | candidate / reused for B7 qualification |
+| **R18** | Composition Integrity Reviewer / Birleşim Bütünlüğü Doğrulayıcısı | B6, B7, B9 | Ground-local gerçeklerden türeyen birleşik hükmü, Working Configuration joint fit'ini ve integrated evaluation verdict'ini sınamak | candidate / reused across B7-B9 assurance |
 | **R19** | Working System Formation Designer / Çalışma Sistemi Oluşum Tasarımcısı | B7 | Mission için gerekli capacity set'ini keşfedip reuse/configure/acquire/create/defer kararlarıyla yeterli Working Configuration tasarlamak | candidate |
 | **R20** | Working Configuration Assembly Steward / Çalışma Konfigürasyonu Kurulum Sorumlusu | B7 | Seçilmiş configuration'ın capability sahipleri üzerinden gerçekten assemble/activate/reconfigure/retire edilmesini koordine etmek | candidate |
 | **R21** | Continuity & Re-entry Steward / Süreklilik ve Devralma Sorumlusu | B8 | Work/authority/configuration/evidence continuity'sini actor-session değişiminde doğru successor'a devretmek | candidate |
 | **R22** | Change Impact & Recovery Steward / Değişiklik Etkisi ve Toparlanma Sorumlusu | B8 | Change/failure/unknown effect sonrası selective invalidation, recovery, reconciliation ve requalification üretmek | candidate |
 | **R23** | Learning & Adaptation Steward / Öğrenme ve Uyarlama Sorumlusu | B8 | Experience'i koşullu reusable lesson/system adaptation'a dönüştürmek ve acquisition-retention-expression ayrımını yönetmek | candidate |
+| **R24** | SOUL Evaluation Architect / SOUL Değerlendirme Tasarımcısı | B9 | Capability claim'lerini falsifiable scenario/oracle/coverage/independence planına dönüştürmek | candidate |
+| **R25** | Evaluation Campaign Steward / Değerlendirme Kampanyası Sorumlusu | B9 | Evaluation planını exact target/version/environment üzerinde işletip evidence, failures ve verdict freshness'ını korumak | candidate |
 
 ## Mekanik sorumluluklar — aktör/rol değildir
 
@@ -63,12 +65,13 @@ Bu, insanın bütün olası rollerinin tanımı değildir. Teknik keşif/koordin
 | **M6** | Cross-ground binding / standing checks / guarded-transition substrate | B6, B7 | candidate requirement |
 | **M7** | Working Configuration identity / binding / activation / lifecycle substrate | B7, B8 | candidate requirement |
 | **M8** | Durable continuity / handoff / stale-writer protection / recovery correlation substrate | B8 | candidate requirement |
+| **M9** | Evaluation harness / test isolation / evidence capture / target-version binding substrate | B9 | candidate requirement |
 
 ## Henüz kararlaştırılmayanlar
 
 - Development OS'ta kaç yapay zekâ aktör örneği olacağı.
-- R1–R23'ün kaç fiziksel agent/model/oturum tarafından taşınacağı.
-- R1/R2/R6/R8/R12/R15/R18 gibi verification sorumluluklarının, R4/R5/R6 Information rollerinin, R7/R9 Actor-governance rollerinin, R10/R11 Work rollerinin, R13/R14 Environment rollerinin, R16/R17 cross-ground rollerinin, R19/R20 system-formation rollerinin veya R21/R22/R23 continuity-adaptation rollerinin ileride birleşip birleşmeyeceği.
+- R1–R25'in kaç fiziksel agent/model/oturum tarafından taşınacağı.
+- R1/R2/R6/R8/R12/R15/R18 gibi verification sorumluluklarının, R4/R5/R6 Information rollerinin, R7/R9 Actor-governance rollerinin, R10/R11 Work rollerinin, R13/R14 Environment rollerinin, R16/R17 cross-ground rollerinin, R19/R20 system-formation rollerinin, R21/R22/R23 continuity-adaptation rollerinin veya R24/R25 evaluation rollerinin ileride birleşip birleşmeyeceği.
 - Bağımsız doğrulama için hangi teknik/organizasyonel izolasyonun gerektiği.
 - Host/runtime/topoloji.
 
