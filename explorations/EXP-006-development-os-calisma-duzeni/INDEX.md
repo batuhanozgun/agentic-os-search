@@ -7,9 +7,9 @@
 
 ## Okuma yolu
 
-1. [STATE](STATE.md): güncel soru, yetki, assistant önerilerinin statüsü, konuşma planı ve sonraki sorumluluk.
-2. [U001](sources/U001.md): kullanıcının beş gerekçesi ve aktörlerden başlama talebinin görünür kaynak aktarımı.
-3. Aşağıdaki önceki birikim ve araştırma yolları: mevcut sorunun gerektirdiği derinlikte yeniden kullanım.
+1. [STATE](STATE.md): güncel soru, yetki, assistant önerilerinin statüsü, konuşma planı ve sonraki sorumluluk.\n2. [EXP-006_Context](EXP-006_Context): konuşmanın yönünü, birlikte çalışma metodolojisini ve drift önleyici bağlamı korur.\n3. [EXP-006 Work Map](EXP-006_Work_Map.md): aktif B1–B9 Work haritasını ve katman katman açılımını taşır.
+4. [U001](sources/U001.md): kullanıcının beş gerekçesi ve aktörlerden başlama talebinin görünür kaynak aktarımı.
+5. Aşağıdaki önceki birikim ve araştırma yolları: mevcut sorunun gerektirdiği derinlikte yeniden kullanım.
 
 Bu paket Development OS kurulum denemesi veya yeni candidate study değildir. Önceki birikimden yararlanmak, eski kadroları ve görevleri tekrar yürürlüğe koymak anlamına gelmez. Konuşmada düşünülen yapı ile kabul edilen karar ayrıdır.
 
