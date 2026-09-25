@@ -3,7 +3,7 @@
 **Rol:** EXP-006'nın üst iş haritası ve çalışma sırası.  
 **Statü:** Diyalog ve araştırma çalışma haritası; Development OS mimarisi değildir.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
-**Güncel iş:** **S1 — B1–B9 sonuçlarını araştırma örnekleriyle birlikte değerlendirmek.**
+**Güncel iş:** **S1 — B1–B9 sonuçlarını araştırma örnekleri ve aktör özellikleriyle birlikte değerlendirmek.**
 
 ## Katman mantığı
 
@@ -23,7 +23,7 @@ Development OS yapısı
 İhtiyaçtan türeyen mekanizma ve araç seçimleri
 ```
 
-Roller işten önce icat edilmez. Bir kabiliyet veya sorumluluk adı otomatik olarak ayrı rol, ajan, servis veya dosya anlamına gelmez.
+Roller işten önce icat edilmez. Bir kabiliyet veya sorumluluk adı otomatik olarak ayrı rol, ajan, servis veya dosya anlamına gelmez. Rol ailesi de aynı model çağrısında birleştirilmiş görev demek değildir.
 
 ## Birinci seviye iş haritası
 
@@ -41,9 +41,9 @@ Roller işten önce icat edilmez. Bir kabiliyet veya sorumluluk adı otomatik ol
 
 ## Statülerin anlamı
 
-İlk ayrıştırma yapılmış olması, alt sorumluluklar ve ilk taşıyıcı adaylarının çıkarıldığı anlamına gelir; nihai rol/mimari kabulü veya uygulanmış kapasite değildir. Önceki dal dosyalarındaki `EXPLORED / candidate decomposition` aynı statüyü taşır.
+İlk ayrıştırma, alt sorumluluklar ve ilk taşıyıcı adaylarının çıkarılmasıdır; nihai rol/mimari kabulü veya uygulanmış kapasite değildir. Eski dal dosyalarındaki EXPLORED / candidate decomposition aynı statüyü taşır.
 
-Kullanıcının devam izni, araştırma bulgusunun teknik doğrulaması değildir. Kabul, kaynak kanıtı ve gerçek uygulama ayrı tutulur. Eski B dosyalarındaki sıradaki B yönlendirmeleri kendi üretim anlarının kaydıdır; güncel sıra STATE/HANDOFF ve bu üst haritadan alınır.
+Kullanıcının devam izni teknik doğrulama değildir. Kabul, kaynak kanıtı ve gerçek uygulama ayrı tutulur. Eski B dosyalarındaki sıradaki B yönlendirmeleri tarihsel üretim anlarını taşır; güncel sıra STATE/HANDOFF'tan alınır.
 
 ## B1–B9 ilk ayrıştırmalarında kullanılan yöntem
 
@@ -51,40 +51,42 @@ Kullanıcının devam izni, araştırma bulgusunun teknik doğrulaması değildi
 2. Development OS'un bunu yapabilmesi için gerekli kabiliyet ve sorumlulukları çıkar.
 3. Her sorumluluğu kim/ne taşımalı diye ayır.
 4. Yapay zekâ rolü, mekanik sorumluluk ve insan sınırını ayır.
-5. Yeni adayı ACTORS içindeki mevcut adaylarla karşılaştır; gereksiz kopya rol üretme.
+5. Yeni adayı ACTORS içindeki adaylarla karşılaştır; gereksiz kopya üretme.
 6. Ayrıntıyı ilgili B dosyasında, güncel konumu üst çalışma kayıtlarında tut.
 
 ## S1 — Araştırmaya dayalı konsolidasyon
 
 **Yöntem ve kaynak rotaları:** [S1 çalışma dosyası](work/S1-role-responsibility-consolidation.md).
 
-S1 yalnız R1–R25'i daha az isme indirme işi değildir. Araştırmalardaki mekanizmalar; sorumluluk ayrımını, gereken bilgi/kabiliyeti, yetkiyi, hata sınırlarını ve fiilî geliştirme yükünü sınamak için kullanılır. Birleştirme, ayırma, koruma, eksik sorumluluk açma ve açık bırakma sonuçları gerekçeli kalır.
+S1 yalnız R1–R25'i daha az isme indirme işi değildir. Araştırmalar sorumluluk ayrımını, gereken bilgi/kabiliyeti, yetkiyi, hata sınırlarını ve fiilî geliştirme yükünü sınar. Kullanıcının son yönüyle aktörün özellikleri, etkin rolün tutarlı başarı yönü ve somut görevlendirme koşulları da değerlendirilir.
 
 ### Güncel ilerleme
 
 - Hazırlık ve kaynak seçimi tamamlandı.
-- [S1-01 — üretim, inceleme ve düzeltme](work/S1-01-production-review-correction.md) sınırlı incelemesi tamamlandı. A1–A4 ve G1 sonuçları **adaydır**; kullanıcı tarafından henüz kabul edilmiş sayılmaz.
-- Ortak inceleme ailesi önerisi R2/R6/R8/R12/R15/R18'in özel sorularını silmez. Üretim ile düzeltme birlikte düşünülebilir; teşhis, karar, değişiklik ve yeniden sınama ayrılır.
-- **G1:** M1–M9'un ve ilgili prosedürlerin fiilî geliştirme sorumluluğu, tasarım ve kurulum/işletimden yeterince açık ayrılmıyor. Üretim hiç düşünülmedi veya zorunlu yeni rol var denmedi.
-- R1–R25/M1–M9 ilk türetim kaydı [ACTORS](ACTORS.md) içinde korunur. Yeni R/M kimliği veya nihai birleştirme yapılmadı.
+- [S1-01](work/S1-01-production-review-correction.md): A1–A4/G1 adayları. Ortak inceleme ailesi, üretim–düzeltme, teşhis/karar ayrımı ve sürüme bağlı kanıt.
+- [S1-02](work/S1-02-actor-conditioned-role-purpose.md): Kullanıcının aktör türü/motivasyon/uyarlama itirazı ve Keel kaynak incelemesi. Ailede gruplamak ile aynı etkin görevlendirmede çalıştırmak ayrıldı; çoklu ölçüt ile çatışan başarı yönleri eşitlenmedi.
+- **G1:** Gerekli kod/prosedür/bağlantının geliştirilmesini, hazır mekanizmayı kurma/işletmeden ayıran sorumluluk eşlemesi açık kalıyor. S1-02 açıklama sağladı; geniş eşleme yapmadı.
+- R1–R25/M1–M9 ilk türetimleri ACTORS içinde korunur. Yeni R/M kimliği veya nihai birleştirme yapılmadı.
 
-**Önerilen sonraki dilim:** G1 üzerinden tasarım → üretim/uyarlama → bütünleştirme → sınama zincirini netleştirmek. B1/B2/B5/B6 aktarım noktaları, R14/R20 kapsamları ve ilgili araştırma örneklerine inilecek. Bu dilim henüz yapılmadı; yeni kullanıcı yönüyle devam edilecek.
+**Güncel dönüş:** S1-02 açıklaması kullanıcıya sunulur. Sonraki kullanıcı yönüyle G1'in tasarım → üretim/uyarlama → bütünleştirme → sınama zinciri yeni aktör/rol ölçütleriyle değerlendirilebilir. Bu sonraki geniş dilim henüz yapılmadı; model eğitimi, tüm aktör türlerinin envanteri veya mimari çalışması otomatik başlamaz.
 
 ### S1 boyunca açık kalan sorular
 
-- Hangi adaylar aynı üst rol ailesinin farklı uzmanlık veya görev kipleridir?
-- Hangi inceleme iddiaları aynı görevlendirmede taşınabilir; nerede farklı bilgi veya yeterince bağımsız kanıt gerekir?
-- Tasarım, üretim, kurulum ve işletim hangi noktalarda farklı sorumluluk doğurur?
+- Hangi adaylar aynı ailenin farklı uzmanlık veya görev kipleri?
+- Hangi sorumluluklar aynı etkin görevlendirmede tutarlı başarı yönü taşıyabilir?
+- Rolün amacı korunurken somut aktöre hangi bağlam, araç, yetki, tetik ve devir koşulları sağlanmalı?
+- Nerede farklı bilgi/yeterlik veya yeterince bağımsız kanıt gerekir?
+- Tasarım, üretim, kurulum ve işletim nerede farklı sorumluluk doğurur?
 - R3'ün alanlar arası teşhisinin bilgi/yeterlik sınırı nedir?
-- R19/R20'nin diğer sorumlularla ilişkisi, DevOS geliştirmesi ile SOUL işletimini karıştırmadan nasıl kurulmalı?
-- M1–M9 daha az sayıda teknik düzenle taşınabilir mi; bunları kim geliştirecek ve sınayacak?
-- Her B1–B9 işi için açık geliştirme sorumlusu, sınama yolu ve gerekli mekanik destek var mı?
+- R19/R20'nin ilişkisi DevOS geliştirmesi ile SOUL işletimini karıştırmadan nasıl kurulmalı?
+- M1–M9 daha az teknik düzenle taşınabilir mi; bunları kim geliştirecek ve sınayacak?
+- Her B1–B9 işi için geliştirme sorumlusu, sınama yolu ve mekanik destek var mı?
 - İnsan yetki/kabul çekirdeği hangi kararlarda gerçekten gerekir?
 
-S1 bitmeden mimariye geçilmez. Bu incelemenin kaynağa dayalı olması, bütün rol düzeninin bağımsız doğrulandığı anlamına gelmez.
+S1 bitmeden mimariye geçilmez. Kaynaklara dayalı değerlendirme, bütün rol düzeninin bağımsız doğrulandığı anlamına gelmez.
 
 ## Önemli sınır
 
-B1–B9, SOUL'un modül listesi değildir. Foundation'daki bilgi, aktör, iş ve ortam zeminleri de dört yazılım modülü olarak varsayılmamaktadır.
+B1–B9 SOUL modülleri değildir; Foundation'ın bilgi, aktör, iş ve ortam zeminleri dört yazılım modülü sayılmaz. Keel kendi bağlamında bir örnektir; sabit kuralları DevOS'a ithal edilmez.
 
-Örnek sistemin kendi işini işletmesi ile DevOS'un o kapasiteyi SOUL için geliştirmesi aynı sayılmaz. Mekanik sorumluluk tanımı onu geliştirecek aktörün yerine geçmez; kaynakların bulunması da bunlara erişme ve kullanma kabiliyetini kendiliğinden sağlamaz.
+Örnek sistemin işletimi ile DevOS'un o kapasiteyi SOUL için geliştirmesi aynı şey değildir. Mekanik sorumluluk onu geliştirecek aktörün yerine geçmez; kaynakların bulunması da erişme/kullanma kabiliyetini kendiliğinden sağlamaz.
