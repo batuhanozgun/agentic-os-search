@@ -2,38 +2,40 @@
 
 - **ID/type:** ecc / external-target.
 - **Object:** affaan-m/ECC procedural assets, distribution/installation, work/runtime, memory/learning, evaluation, governance and maintenance.
-- **Status:** ACTIVE / PARTIAL. U19-H/Note56 completes the finite remaining-source disposition. G6 selected omission review is bounded-complete; revised native synthesis U20-A is admitted but not started. Whole-study CORE, method assessment and project-facing/user evaluation remain open. STATE owns checked publication.
+- **Status:** ACTIVE / PARTIAL. U20-A revised native CORE candidate is source-complete; checked publication belongs to STATE. G6's selected omission review remains bounded-complete. Research-method assessment and later project-facing/user evaluation remain open.
 - **Primary question:** What working system does ECC create, through which mechanisms, connections, dependencies, differences and limits?
 - **Secondary output:** a revisable research-method case, not a proven best method.
 
-## Retrieval and evidence boundary
+## Entry and evidence boundary
 
-Fixed target `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`. Latest [Note56](notes/56-REMAINING-SOURCE-DISPOSITION-AND-SYNTHESIS-ENTRY.md) → [sources](evidence/U19-H-SOURCES.md), [MR57](ROUND-U19-H.md). Use STATE→INDEX→current QUESTIONS and relevant exact baseline row→original note/ledger. Higher summaries do not strengthen original evidence.
+Start with [STATE](STATE.md) for current work, then [CORE](CORE.md) for the revised system explanation, [INDEX](INDEX.md) for original mechanisms, and [U20-A evidence/claim map](evidence/U20-A-SOURCES.md) / [MR58](ROUND-U20-A.md) for synthesis provenance. Exact primary-source and experiment authority remains with each original note and its ledger. Note33 remains historical/provisional rather than being silently overwritten.
 
-U19-H freshly recovered original Note33, the U19-A omission disposition and Note30's reporting consumer. Three target documents were fully read, and the prior CHANGELOG/Turkish README readings completed. The roadmap was reviewed at explicit selected depth; clipped/unread text is not full-body coverage. Media paths/identities were discovered but no image was visually inspected. No target code/test, installer, model/provider/MCP/service, user configuration or E11 ran. Acquisition failures are not ECC defects.
+Fixed external target: `affaan-m/ECC@8321021c54d670126ce3b2969d5deb880b4b0c2a`. U20-A synthesizes full/selected original-note readings and explicitly retained same-conversation evidence. It is not a fresh full reading of every upstream dependency, target execution, independent replication or current deployment audit. Original local probes retain their own environments, doubles/adapters and scope; E06 remains excluded, E05 histories separate, E10 recovery complete. No new target code/test, installation, model/provider/MCP/service, user configuration or E11.
 
-The permitted next synthesis is source-qualified, not an exhaustive host/domain/translation/media audit. No current host incident, provider programme, security result, queue/billing status, reported test total or media-derived claim was independently validated here. E06 stays excluded, E05 histories separate and E10 recovery complete.
+Unviewed media, other unexamined host/domain/translation/fixture variants and selected/clipped roadmap coverage remain explicit limits. No current service/security/billing/queue fact, reported benchmark or provider programme is adopted from historical prose. Current adoption requires relevant source and environment revalidation.
 
-## Provisional system and present contribution
+## Current native result
 
-ECC combines reusable procedures and deployable host adaptations with implemented work, execution, information, review and control mechanisms. Particular joins exist without one uniform contract demonstrated across the inspected arrangements. Note33 remains historical/provisional, extended by Notes34–56. The revised native explanation still has to assemble those relationships.
+ECC combines reusable guidance and host-specific deployment with implemented work, execution, information, review and control arrangements. Specific arrangements are connected; one uniform task/session/authority/measurement/acceptance controller is not established across them. Calling it only prompts loses real mechanisms; calling the repository one automatically integrated autonomous system invents relationships.
 
-Note56 qualifies the remaining sources by role rather than treating every name as a new system. Host troubleshooting is actor-interpreted, version-conditioned advice. Progress synchronization assigns operator responsibilities and a local file-backed route; the actual reporting consumer is narrower than live external reconciliation. Roadmap statuses refer to different dates/products, and proposed contracts are not executed local controls. The completed Turkish guide associates /plan with a specialist where the source command's default is inline, reinforcing the handle-versus-dispatch distinction.
+CORE explains source selection and materialization, host-dependent loading and context, distinct cards/schedules/remote requests/messages/sessions, process ownership, recall and behavioral context, review and human decisions, metrics and action, evaluation objects, Git integration, maintenance and failure recovery. Its user-task journey is an explicit composition of available routes, not a default pipeline.
 
-Finite scope exclusions are explicit: other host/domain variants, five unevaluated fixture bodies, non-load-bearing historical prose, and unviewed media do not support stronger claims. This does not prove they contain nothing new. A conclusion requiring their content must reopen source recovery. The G6 disposition can therefore finish while whole-product empirical or multimedia completeness remains unclaimed.
+Positive mechanisms remain central: ownership/path checks, shared-settings locking, actual context consumption, persistent feedback, process supervision, conservative review cases, transactional candidate registry operations, capsule checks and same-archive release qualification. Counterconditions are tied to their objects: record versus worker, session versus attempt, recall-assisted selection versus prompt delivery, advisory versus actuator, accepted pointer versus deployed behavior, and retained file versus usable dependency closure.
 
-Reuse signals include actor-mediated continuity, evidence/date/product-qualified status, selected entry versus descriptive label, and claim-relative source completion. Original positive mechanisms and concrete failure conditions remain the substantive implementation references; this scope decision is not itself a new ECC mechanism.
+These are source-grounded implementation references and pressure cases, not evidence of universal failure or success. Multiple stores and actor-mediated work are not defects merely because they exist. The original notes supply the detailed conditions and empirical limits; CORE does not replace them.
 
-## Current questions and next work
+## Reuse and relevance
 
-Q01a2h1 answers the finite remaining-source disposition; h2 retains visual/variant/external/empirical limitations. Named O1/O2 joins and O3 document/fixture questions have their bounded answers. G6's selected source-disposition gate is complete, not all-source coverage. Existing Q02–Q08 and prior stronger residuals remain inherited.
+Likely reuse stages: later Foundation pressure-testing, research comparison, design review, build-versus-integrate assessment, implementation reference and test-case construction. Retrieve by underlying need as well as product name: work admission and acknowledgment; context lifecycle; target/version binding; approval and acceptance; measurement-to-control; recovery and artifact provenance.
 
-**Next U20-A / Q01-Q01a3, ADMITTED / NOT STARTED:** revised ECC-native synthesis. Recover Note33, original coverage, Notes34–56 and original notes/ledgers as needed for every relationship. Explain actual entrypoints, actors, stores, controls and effects; distinguish installed/discovered/selected/followed/effective and recorded/accepted. Do not turn a source collection into one automatic controller or a defect list. Reopen necessary local source gaps before writing stronger claims.
+Information: records, recall, evidence and context transformations. Work: admission, continuation, task acceptance and delivery. Actors: host agent, user/maintainer, controller, verifier and external consumer. Environment: installation, runtime, permissions, processes and provider boundaries. These are provisional many-to-many retrieval hints, not Foundation taxonomy or adopted architecture.
 
-The exact question baseline remains `da764c971cf69185adad323e1c86c1c02711e9d4`; all unchanged obligations are inherited. No new snapshot chain. Q09 project-facing evaluation remains deferred; source synthesis admission is not user acceptance or architecture authorization.
+Revisit when a source, adapter, host contract, store schema, control consumer or deployment claim materially changes. A stronger synthesis claim requiring an unexamined source must reopen that source question; generic source completeness does not grant live guarantees.
 
-## Relevance and authorization
+## Current work and authority
 
-Information: source/representation fidelity and status provenance. Work: continuity, evidence-based completion and recovery. Actors: operator, host, maintainer and actual runtime consumer. Environment: exact selected install/host path and external-service boundary. These remain provisional many-to-many retrieval hints, not Foundation taxonomy.
+**Next U20-B/Q10: research-method case assessment, NOT STARTED.** Recover WHY/METHOD, method/research histories and selected actual rounds, corrections and later-unit consequences. Report useful practices, errors, overhead and transfer conditions at their evidential strength. Do not claim method superiority or independent cold-start efficacy from self-review alone.
 
-SOUL/Development OS use remains later comparison, falsification, design pressure and implementation/testing reference. Revalidate current external facts for adoption. EXP-004 is closed and not ECC's oracle. No Foundation/concepts/agent-control change, upstream fix or architecture follows. METHOD0.1 / PLAN0.58. [Previous metadata](https://github.com/batuhanozgun/agentic-os-search/blob/7e6d47cd956272eafb2df1b2b58c797315eeb15e/research/studies/ecc/META.md) preserves the preceding checkpoint.
+Q09 project-facing/joint evaluation remains later. CORE is a source-synthesis candidate, not whole-study/user acceptance. The exact question baseline remains `da764c971cf69185adad323e1c86c1c02711e9d4`; every unchanged obligation is inherited through current QUESTIONS. No new snapshot chain.
+
+No Foundation/concepts/agent-control change, upstream repair, external-product campaign or architecture/implementation adoption follows. EXP-004 is closed and not ECC's oracle. METHOD0.1 / PLAN0.59. [Previous metadata](https://github.com/batuhanozgun/agentic-os-search/blob/59c11785c109456099b9ebae293a534690c46fc0/research/studies/ecc/META.md) preserves the prior checkpoint.

@@ -1,27 +1,37 @@
 # U20-A — Revised native system synthesis / MR58
 
-**2026-09-25 · OPENING.** METHOD0.1 / selection PLAN0.58. Fixed ECC `8321021c54d670126ce3b2969d5deb880b4b0c2a`. Research input `42e4fd3f2bc100fe1ff99da44019d5ffd2303b6b`. STATE owns activation and checked publication.
+**2026-09-25 · BOUNDED SOURCE-SYNTHESIS COMPLETE; checked publication via STATE.** METHOD0.1 retained; PLAN0.58→0.59. Fixed ECC `8321021c54d670126ce3b2969d5deb880b4b0c2a`. [CORE candidate](CORE.md), [evidence/claim map](evidence/U20-A-SOURCES.md), [STATE](STATE.md).
 
-## Authorization and recovery
+## Original criterion and recovery
 
-The owner requests continuation of ECC research after U19-H admitted revised native synthesis. Fresh connected AGENT is unchanged (`aea3dd845e0f0bbcfb34465edb23782e99f95c80`). All nine routes apply; R01/R02 were freshly recovered fully, and the complete same-conversation R03–R09 bodies remain available. Fresh main and full STATE match U19-H's published closure. Current PLAN0.58, META, QUESTIONS, Note56/ledger/MR57/receipt, research routers and WHY/METHOD retain their complete same-conversation readings at the verified input. This is continuity recovery, not independent cold-start verification.
+The [immutable opening](https://github.com/batuhanozgun/agentic-os-search/blob/918ad645c84e7fedd2e053de23a9ebdf49827c65/research/studies/ecc/ROUND-U20-A.md) required a joined native explanation, original-evidence map, positive mechanisms, counterconditions and actor/host boundaries. It was fully reread as blob `19acbe11cc04a9444f79814194575d40531e82b8` before this result replacement. The criterion did not require universal host/media coverage, new live experiments or adoption.
 
-The root ECC package listing was inspected for an existing CORE; its complete response search found no exact CORE.md entry. Confirm the intended artifact path before creation. Preserve Note33 and all original notes as evidence, not material to silently rewrite.
+Fresh connected AGENT and full STATE/main confirmed input `42e4fd3f2bc100fe1ff99da44019d5ffd2303b6b`. Full R01/R02 were freshly read; complete same-conversation R03–R09 and current entries/WHY/METHOD/Note56 records remained available. Opening918ad645 preceded activationec456286, read back as STATE9ead72b3 before synthesis. This is same-assistant recovery, not independent cold-start verification.
 
-## Question and pre-synthesis return criterion
+## What the synthesis changes
 
-What working system does the accumulated evidence support after Note33's named source gaps and the selected omission challenge were addressed?
+Note33's central rival distinction survived, but its relationships are more concrete. Notes34–56 resolve its delivery, knowledge-consumption, maintenance, host/guidance and interface frontiers. Original runtime/review/observation notes were recovered to avoid connecting those later results only through a compressed system summary. Full versus selected note readings and retained evidence are explicit in the ledger; no blanket full-primary-corpus claim.
 
-Recover the original U15-A coverage account, Notes34–56 and original Notes01–32/ledgers to the depth necessary for each consequential relationship. State explicitly whether a claim rests on an original source observation, an earlier bounded local probe, target prose, or a new synthesis inference. Historical next-work labels never restart completed units.
+CORE explains how selected assets become capabilities, why cards/requests/messages/sessions/attempts differ, where information affects recipient selection or model context, what each evaluator measures and which actor owns acceptance. A user-task journey shows actual options and actor-mediated transitions rather than inventing one default pipeline. Strong mechanisms such as registry transactions and release-byte binding are retained; a narrower legitimate purpose is not described as a missing promised capability.
 
-Build a joined ECC-native explanation, not a feature inventory or a defect catalogue. Explain how source assets become selected capabilities, how different work/execution/information arrangements cooperate, who owns review/approval/acceptance, which measurements control which actions, and how delivery/maintenance/recovery affect continued use. A user-task journey must distinguish automatic code edges from an actor's explicit composition and external-service responsibilities.
+The counter-reading compared prompt-only and uniform-controller interpretations against real code-level relationships. It also distinguished absent/unestablished joins from present-but-transformed inputs and deliberately actor-mediated work. This makes the system explanation more discriminating, not an independently validated ontology or a demonstration of better task outcomes.
 
-Consider both inadequate extremes—only a prompt library, or one uniformly integrated autonomous controller—without assuming the inherited provisional framing is necessarily final. Retain working positive mechanisms and material counterconditions. Do not interpret several stores as inherently defective, a recorded decision as deployed change, or one successful local control as whole-system safety.
+## Evidence and verification standing
 
-**Return:** a source-traceable revised synthesis/CORE candidate with a finite claim-to-original-note map, evidence limits, meaningful countercases and precise reopening conditions. If a necessary local relationship remains unsupported, identify and reopen that relationship instead of inventing an edge. Source synthesis can finish without a live-product campaign; whole-study acceptance, method assessment and later project-facing/user evaluation remain distinct.
+Recovery checkpoint5f2e425b preceded CORE creationc761e6c0. CORE was fully read back in1–65/66–130/131–240 through EOF as blob `91c61b04e7182f119b9d1fdeca598050afd2f806`. The completed ledger at59c11785 was fully read in1–65/66–150 through EOF as `c64d3a471e8dc3345bb959424de5740808203e7d`. Candidate status, original-note links, positive counterparts, no-default-pipeline wording and scope limits were checked. No substantive correction was required by that readback.
 
-## Scope and preservation
+These are same-assistant source/synthesis correspondence checks, not independent scientific verification. No target code/test, model/provider/host/MCP, installation, credentials, policy/promotion or E11 ran. Earlier local experiments retain their exact classes; conditional source schedules are not observed incidents. Media remains unviewed. A failed administrative INDEX download yielded no bytes and is recorded only as an acquisition limit.
 
-No new target import/function/test, installation, model/provider/MCP/service call, live policy/promotion, credentials, user configuration, upstream fix or E11. Source/text/hash and publication checks are not target execution. U19-H's unviewed-media and unexamined-variant limits remain; no image-derived claims or all-host/all-domain equivalence. Fixed historical target findings are not current adoption advice.
+U20-A meets the bounded source-synthesis return condition. The candidate does not close whole-study acceptance or the second deliverable. No newly necessary local source was needed for its admitted wording; a stronger claim or new consumer must reopen its original question.
 
-Publish this opening and STATE activation before substantive synthesis. Persist the candidate and evidence record before final entry/catalogue/receipt/STATE closure. Changes are limited to ECC-local files and its catalogue row. Preserve prior notes/ledgers, WHY/METHOD, historical inventories, exact QUESTIONS-THROUGH-U19-C blob `da764c971cf69185adad323e1c86c1c02711e9d4`, E06 exclusion, separate E05 histories and completed E10 recovery. Do not create another question-baseline chain or restore old archives. Use fresh-parent non-force publication and exact deltas; no branch/PR, agent-control, Foundation, concepts or Development OS changes.
+## Method consequence and next responsibility
+
+METHOD remains0.1. This is the planned synthesis operation, not a new methodology declared successful merely because a CORE file exists. The next selected U20-B/Q10 examines the method case itself: recover consequential changes/corrections and subsequent effects, including useful source tracing and avoidable publication burdens, and separate observed value from proposed improvements. It is NOT STARTED.
+
+The second deliverable was already in WHY/METHOD. Whole-study/project-facing/user evaluation remains a distinct later responsibility using then-current project context. No architecture, Foundation or agent-control mutation follows. No source counts or pooled passing-test rates establish completeness or method superiority.
+
+## Publication and preservation
+
+Only ECC-local work records and the ECC catalogue row may change. Current questions extend the existing one-level register; exact QUESTIONS-THROUGH-U19-C is untouched. Preserve Notes01–56, their evidence, WHY/METHOD, inventories, E06 exclusion, separate E05 histories, completed E10 recovery and concurrent work. No branch/PR, force update, old archive restoration or upstream fix.
+
+Stage current entries on the inherited source-result tree, inspect actual differences and readbacks, then assemble receipt and final STATE. Publication checks must distinguish performed source/object checks from the final ref and post-publication gate. The receipt records those facts rather than treating an API success as whole-study validation.
