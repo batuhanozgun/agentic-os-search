@@ -64,3 +64,16 @@ Yöntem olarak Özyinelemeli Önkoşul Keşfi (RPD) kullanılacak. Kullanıcın�
 **Çalışma kuralı:** Development OS tek turda tamamlanmaya çalışılmayacak. Önce kök hedefin hemen altındaki gereklilikler çıkarılacak; kullanıcıyla değerlendirildikten sonra seçilen gerekliliklere katman katman inilecek. Erken rol, araç, dosya yapısı, çoklu-agent veya runtime seçimi yapılmayacak.
 
 **Sonraki yetkili hareket:** kök hedef için ilk önkoşul katmanını kullanıcıyla tartışmak. `EXP-006_Context` hâlâ boş tutulacaktır.
+
+
+## EXP-001–004 kaynak görünürlük turu — SOUL hedefini somutlaştırma
+
+Development OS Work keşfinin ilk dalı olan “neyin yapılması gerektiğini belirlemek” için EXP-001–004 paketlerinin dosya ağaçları ve yönlendirici yüzeyleri incelendi. Bu tur kaynak seçimi içindir; dört konuşmanın tamamı veya bütün artefaktlar tam okunmuş sayılmaz.
+
+İlk harita:
+- **EXP-001:** A–B–C, C↔Work, planı üreten sistem, aktör hazırlığı/uzmanlık sürekliliği, harness ve yaşayan plan. Büyük konsolidasyon ve Mekanizma Atlası var; yaşayan plan tartışması konsolidasyondan sonra U016–U017/S016–S017'de devam ediyor.
+- **EXP-002:** SOUL'un yalnız sonuç üretmeyip gerekli çalışma sistemini kurması/işletmesi/değerlendirmesi/uyarlaması; baz SOUL ile işe göre oluşturulan düzen; ortak entelektüel taban; Development OS'a geçiş fikri.
+- **EXP-003:** ek hafıza, bilgi varlığı/bulunabilirliği/kullanımı, seçici erişim, değişiklik etkisi ve araştırmayla daha sağlam bilgi düzeni. SOUL'un genel hedef tanımına destekleyici, Information ağırlıklı paket.
+- **EXP-004:** büyük ve uzun iş stress testi; Work discovery, rol→Actor, context, gerçek etki, qualification/kabul, recovery ve controlled adaptation; MS01 adıyla somut çalışma sistemi taslağı, iki senaryo yürüyüşü, araştırma→mekanizma eşlemesi ve G01–G07 açık kapasite yükleri. Güncel paket kapanmış kavramsal teslimattır; nihai mimari değildir.
+
+**Henüz karar verilmedi:** hangi dosyaların tam okunacağı. Sonraki hareket kullanıcıyla ilk tam-okuma setini seçmektir. Kaynak sadakati için türetilmiş konsolidasyonlardan çıkarılan yük taşıyan tanımlar daha sonra ilgili U/S özgün mesajlarına geri bağlanacaktır. `EXP-006_Context` boş tutulmaya devam eder.
