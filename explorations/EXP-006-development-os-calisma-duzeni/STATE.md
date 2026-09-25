@@ -2,9 +2,9 @@
 
 **Durum:** OPEN / LONG-RUNNING DIALOGUE WORK.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
-**Current phase:** Development OS Work alanlarından yapay zekâ rol/sorumluluklarını türetme.  
-**Current Work:** **B9 — Ortaya çıkan SOUL'u bütün olarak birleştirmek ve gerçek görevlerle sınamak.**  
-**Next:** B9'u B1–B8 ile aynı yöntemle ayrıştırmak; test tasarımını “tek demo geçti” veya “mimari mantıklı” seviyesine düşürmemek.
+**Current phase:** B1–B9 Work ayrıştırması tamamlandı; architecture öncesi rol/sorumluluk konsolidasyonu.  
+**Current Work:** **S1 — B1–B9 sonuçlarını çapraz konsolide etmek.**  
+**Next:** R1–R25 ve M1–M9'u role family / responsibility / assurance / mechanical substrate açısından normalize etmek; coverage boşluklarını bulmak; sonra Development OS yapısına geçiş kriterini değerlendirmek.
 
 ## Current çalışma modeli
 
@@ -12,35 +12,40 @@
 SOUL hedefi
   → DevOS B1–B9 Work
   → her Work için DevOS kabiliyet/sorumlulukları
-  → AI rolleri / mekanik sorumluluklar / insan sınırı
+  → aday AI rolleri / mekanik sorumluluklar / insan sınırı
+  → S1 cross-B consolidation
   → DevOS yapısı
   → sonra mekanizma ve araç seçimleri
 ```
 
-## Güncel kabul edilmiş çalışma sınırları
+## Güncel durum
 
-- Aktör sınıfları şimdilik **insan + yapay zekâ**.
-- İnsan/müşteri çekirdeği: **yetki + kabul**.
-- Roller Work'ten türetilir; jenerik kadro önce kurulmaz.
-- SOUL hedefi bu aşama için yeterince somut kabul edildi; nihai mimari sayılmaz.
-- B1–B8 candidate decomposition seviyesinde açıldı.
-- R1–R23 aday rollerdir; nihai agent/organizasyon yapısı değildir.
-- M1–M8 mekanik sorumluluklardır; aktör/rol değildir.
-- B9 current.
+- B1–B9'un tamamı **EXPLORED / candidate decomposition**.
+- R1–R25 aday AI rolleridir; 25 fiziksel agent anlamına gelmez.
+- M1–M9 aday mekanik sorumluluk kümeleridir; 9 ayrı servis/modül anlamına gelmez.
+- İnsan/müşteri çekirdeği **yetki + kabul** olarak korunur.
+- R18 B6/B7/B9 integrated assurance için yeniden kullanılmıştır; yeni verifier her B dalında otomatik üretilmemiştir.
+- B9 testing sonucu canlı SOUL doğrulaması değildir; Development OS testing capacity requirement'ıdır.
+- Nihai Development OS mimarisi hâlâ seçilmedi.
 
 ## Canonical yüzeyler
 
 - [HANDOFF](HANDOFF.md) — fresh-session devir kaydı.
-- [WORK](WORK.md) — B1–B9 current Work haritası.
-- [ACTORS](ACTORS.md) — aktör/rol registry'si.
+- [WORK](WORK.md) — B1–B9 ve S1 current sequencing.
+- [ACTORS](ACTORS.md) — R1–R25 ve M1–M9 registry'si.
 - [DECISIONS](DECISIONS.md) — kullanıcıyla netleşen kararlar.
 - [EXP-006_Context](EXP-006_Context) — yön ve çalışma metodolojisi.
-- [sources/U001](sources/U001.md) — açılış kullanıcı kaynağı.
+
+## S1 stop condition
+
+S1 tamamlanmış sayılabilmesi için en azından:
+1. rol adayları anlamlı üst ailelerde konsolide edilmiş;
+2. merge/separation gerekçeleri görünür;
+3. her B1–B9 Work alanının owner/assurance/mechanical coverage'ı kontrol edilmiş;
+4. insan authority/acceptance sınırları korunmuş;
+5. aynı sorumluluğun duplicate owner'ları veya sahipsiz sorumluluklar belirlenmiş;
+6. architecture'a geçiş için yeterli normalleştirilmiş rol/control resmi oluşmuş olmalıdır.
 
 ## Non-decisions
 
-Henüz nihai Development OS mimarisi, agent sayısı, host/runtime, memory ürünü, database, RAG/KG, iş takip aracı veya teknik topoloji seçilmedi.
-
-## Tarih ve geçmiş
-
-Bu dosya yalnız current state'i taşır. Migration öncesi ayrıntılı state [history snapshot](history/2026-09-25-pre-work-system-STATE.md) içinde korunur.
+Henüz nihai Development OS agent sayısı, host/runtime, topology, DB/memory ürünü, toolchain veya fiziksel deployment yapısı seçilmedi.
