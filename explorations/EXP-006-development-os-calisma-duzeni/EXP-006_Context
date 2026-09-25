@@ -309,7 +309,7 @@ Development OS'un SOUL'u yaratırken yapacağı birinci seviye işler dokuz aday
 
 Bu nedenle sıradaki iş doğrudan Development OS mimarisi çizmek değildir. B1'den başlayarak her ana Work alanının Development OS tarafında gerektirdiği kabiliyet ve sorumlulukları açmaktır.
 
-Aktif Work ayrıntıları ayrı `EXP-006_Work_Map.md` dosyasında tutulur. Bu Context dosyası çalışma haritasının bütün ayrıntılarını kopyalamaz; yönü, yöntemi ve neden bu sırayla ilerlediğimizi korur.
+Aktif Work özeti `WORK.md`, dal ayrıntıları ise `work/B*.md` yüzeylerinde tutulur. Bu Context dosyası çalışma haritasının bütün ayrıntılarını kopyalamaz; yönü, yöntemi ve neden bu sırayla ilerlediğimizi korur.
 
 
 ---
