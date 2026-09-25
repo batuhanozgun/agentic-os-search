@@ -310,3 +310,18 @@ Development OS'un SOUL'u yaratırken yapacağı birinci seviye işler dokuz aday
 Bu nedenle sıradaki iş doğrudan Development OS mimarisi çizmek değildir. B1'den başlayarak her ana Work alanının Development OS tarafında gerektirdiği kabiliyet ve sorumlulukları açmaktır.
 
 Aktif Work ayrıntıları ayrı `EXP-006_Work_Map.md` dosyasında tutulur. Bu Context dosyası çalışma haritasının bütün ayrıntılarını kopyalamaz; yönü, yöntemi ve neden bu sırayla ilerlediğimizi korur.
+
+
+---
+
+## Yaşayan çalışma sistemine geçiş
+
+EXP-006 büyüdükçe yalnız bir exploration konuşma arşiviyle devam etmenin yetersiz kalacağı görüldü. Yeni oturumdaki yapay zekânın yalnız geçmiş konuşmayı hatırlaması değil, **current Work'ü doğru statü, aktör/rol ilişkileri ve sıradaki hareketle devralması** gerekiyor.
+
+Bu nedenle paket; kısa current STATE, fresh-session HANDOFF, üst WORK haritası, dal-bazlı `work/B*.md`, ACTORS ve DECISIONS yüzeyleriyle yaşayan çalışma düzenine ayrıldı. Bu, Development OS implementasyonu değildir; Development OS'u tasarlama Work'ünün sürekliliğini koruyan çalışma sistemidir.
+
+Temel continuity ilkesi:
+
+> **Aktör/oturum değişebilir; Work'ün amacı, durumu, kararları ve devralma noktası konuşmanın belleğine bağlı kalmamalıdır.**
+
+Normal yeni-oturum yolu `INDEX → STATE → HANDOFF → WORK → active B file` şeklindedir. Context yalnız yön/metodoloji gerçekten değiştiğinde güncellenir.
