@@ -206,3 +206,124 @@ B1 tek başına:
 B1, diğer dallarda geliştirilecek kapasiteleri kullanacak aktörlerin **nasıl bir ortak çalışma zekâsı ve davranış standardı taşıması gerektiğini ve Development OS'un bunu nasıl oluşturup sınayacağını** ele alır.
 
 Bu açılım henüz rol listesi değildir.
+
+
+### B1'den türeyen ilk Development OS taşıyıcıları
+
+Bu bölüm ilk rol türetimidir. Statüsü **adaydır**; B2–B9 ilerledikçe bazı roller birleşebilir, ayrılabilir veya yeniden adlandırılabilir.
+
+#### R1 — Ortak Çalışma Tabanı Tasarımcısı
+
+**Taşıdığı B1 sorumlulukları:** C1, C2, C3, C4'ün tasarım tarafı ve C7'nin değişiklik tasarımı.
+
+Temel amacı:
+
+> SOUL aktörlerinde ortak bulunması gereken çalışma davranışını araştırmak, tanımlamak ve başka Development OS işlerinin uygulayabileceği açık bir davranış/aktarım sözleşmesine dönüştürmek.
+
+Bu rol:
+
+- ortak taban ile role özgü uzmanlığı ayırır;
+- hangi davranışların bütün akıl yürüten SOUL aktörlerinde korunacağını gerekçelendirir;
+- araştırma ve deneylerden yararlanır;
+- aktörün ne zaman daha derin bilgiye/uzmanlığa dönmesi gerektiğini tanımlar;
+- davranış beklentisini gözlenebilir hâle getirir;
+- hangi beklentinin instruction/reasoning, hangisinin evaluation, hangisinin mekanik enforcement gerektirdiğine ilişkin requirement üretir;
+- başarısızlık ve yeni kanıt sonrasında taban değişikliği önerir.
+
+**Sınır:** Aktörü fiilen yaratmak B3'e; memory/context plumbing B2'ye; host/enforcement implementasyonu B5/B6'ya aittir. R1 bunlar için gereksinim/sözleşme üretir, hepsini kendi başına uygulamaz.
+
+#### R2 — Davranış Doğrulayıcısı
+
+**Taşıdığı B1 sorumluluğu:** C5.
+
+Temel amacı:
+
+> Oluşturulan SOUL aktörünün iddia edilen ortak çalışma tabanıyla gerçekten çalışıp çalışmadığını kanıt arayarak sınamak.
+
+Bu rol:
+
+- “talimatı okudu” ile “davranışı gösterdi”yi ayırır;
+- söylenmemiş ihtiyaç, varsayım/kanıt, araştırmaya dönme, yetki sınırı, yeni kanıtla hüküm güncelleme gibi davranışları uygun senaryolarda sınar;
+- yalnız olumlu örnek aramaz; yanlış davranışı ortaya çıkarabilecek karşı durumları da dener;
+- kullanılan testin hangi iddiayı gerçekten sınayabildiğini açık tutar;
+- sonuç üreticisinin “çalışıyor” beyanını kabul kanıtı saymaz.
+
+**Neden ayrı rol adayı:** R1'in başarı yönü ortak tabanı oluşturmak ve iyileştirmektir. R2'nin başarı yönü, bu tabanın çalışmadığı yerleri bulabilmektir. Aynı temel model kullanılabilir; fakat aynı rol-instantiation olarak düşünülmesi doğrulama baskısını zayıflatabilir.
+
+#### R3 — Davranış Teşhisçisi / Değişiklik Analisti
+
+**Taşıdığı B1 sorumlulukları:** C6 ve C7'nin teşhis/etki tarafı.
+
+Temel amacı:
+
+> Gözlenen davranış başarısızlığının nedenini doğru katmanda teşhis etmek ve hangi Development OS işinin yeniden açılması gerektiğini belirlemek.
+
+Bu rol şu olasılıkları birbirinden ayırmaya çalışır:
+
+- model kapasitesi;
+- ortak tabanın yanlış/eksik tanımı;
+- aktarım/konfigürasyon sorunu;
+- eksik veya yanlış context/information;
+- role özgü amaç/yeterlilik sorunu;
+- araç/environment eksikliği;
+- authority/control sorunu;
+- test/oracle sorunu.
+
+Çıktısı doğrudan “promptu düzelt” değildir. Etkilenen B dalını, dayanağı ve yeniden sınama gereğini gösteren değişiklik önerisidir.
+
+**Neden R1'e tamamen birleştirilmedi:** R1 kendi tasarımını savunma veya her hatayı taban tanımına bağlama eğilimine girebilir. Teşhis rolünün başlangıç amacı “tasarımı kurtarmak” değil, failure'ın doğru nedenini bulmaktır. Bunun ayrı fiziksel actor gerektirip gerektirmediği daha sonra belirlenir.
+
+#### M1 — Mekanik davranış sınırı / enforcement sorumluluğu
+
+Bu bir yapay zekâ rolü değildir.
+
+C4'te R1 bazı davranışların yalnız instruction/evaluation ile yeterince güvenilir olmadığını gösterebilir. Bu durumda Development OS'ta gerçek teknik kontrol sorumluluğu doğar:
+
+- izin dışı eylemi engellemek;
+- belirli effect yolunu gate etmek;
+- kimlik/yetki bağını korumak;
+- gerekli kayıt/readback olmadan ilerlemeyi engellemek;
+- başka gerçek host kontrolleri.
+
+B1 burada yalnız **hangi davranış için hangi kontrolün gerektiğini** tarif eder. M1'in gerçek tasarım ve implementasyonu B5/B6 ile açılacaktır.
+
+#### İnsan müşterinin B1'deki yeri
+
+B1 yeni bir teknik insan rolü üretmedi.
+
+Müşterinin daha önce belirlenen **yetki + kabul** çekirdeği korunur. Ortak çalışma tabanındaki bir değişiklik müşteri mandatını, değer tercihini veya verilmiş yetki sınırını değiştiriyorsa insanın yetkisi gerekir. Teknik çalışma standardını keşfetme ve uygulama yükü ise varsayılan olarak müşteriye geri bırakılmaz.
+
+### B1 rol akışı — ilk aday
+
+```text
+R1 Ortak Çalışma Tabanı Tasarımcısı
+        │
+        │ davranış / aktarım / kontrol gereksinimi
+        ▼
+B2/B3/B5/B6'daki uygulama mekanizmaları
+        │
+        │ oluşturulmuş SOUL aktörü
+        ▼
+R2 Davranış Doğrulayıcısı
+        │
+        │ failure / evidence
+        ▼
+R3 Davranış Teşhisçisi
+        │
+        │ hangi neden? hangi B dalı yeniden açılmalı?
+        └──────────────► R1 veya ilgili B2–B8 işi
+```
+
+Bu akış sabit workflow değildir. B1'in sorumluluk ayrımını görünür kılan ilk modeldir.
+
+### B1'den çıkan artefakt/sözleşme adayları
+
+Rollerin somut çıktıları da şimdilik şu ailelerde görünüyor:
+
+- **Ortak Çalışma Tabanı Tanımı:** ortak davranışların ve sınırlarının gerekçeli tanımı.
+- **Aktarım Sözleşmesi:** yeni SOUL aktöründe bu tabanın hangi gözlenebilir davranışlara dönüşmesi gerektiği.
+- **Kontrol Gereksinimleri:** instruction/evaluation/enforcement ayrımı ve mekanik sınır ihtiyacı.
+- **Davranış Kanıtı:** gerçek test/senaryo sonucu; yalnız role beyanı değil.
+- **Teşhis ve Değişiklik Önerisi:** failure nedeni, etkilenen Development OS dalı ve yeniden sınama gereği.
+
+Bunlar kesin dosya adları veya şemalar değildir.
