@@ -4,7 +4,7 @@
 **Durum:** OPEN / DIALOGUE IN PROGRESS.  
 **Kaynak yetki:** [U001](sources/U001.md).  
 **Üst amaç:** SOUL'u geliştirecek Development OS'un nasıl bir çalışma düzeni olması gerektiğini karşılıklı konuşarak ortaya çıkarmak.  
-**Şimdiki soru:** Development OS'ta hangi aktörler bulunmalı; kaç aktör gerektiğini hangi ihtiyaçlar belirler?
+**Şimdiki soru:** Development OS'un SOUL'u yaratmak için yaptığı Work nedir; bu Work'ten hangi yapay zekâ rolleri türemelidir?
 
 ## Kullanıcı tarafından verilmiş yön
 
@@ -23,7 +23,7 @@ Yetkilendirilen aşama: repodan seçici yararlanarak diyalog ve düşünce geli�
 5. İnsan amaç/tercih ve anlam değerlendirmesine katılır; kod bilmediğini söylediği kullanıcıyı sistemin teknik doğruluğunu garanti eden son kontrol noktası saymak uygun başlangıç değildir. Yetki ve teknik yeterlik birbirine geçirilmez.
 6. ChatGPT/Claude Code adlarından sabit “biri düşünür, öteki uygular” dağılımı veya bağımsız doğrulama sonucu çıkarılmaz. Aynı modelin farklı rollerdeki çalışmaları ile ayrı ürün adları, aktör/rol/bağımsızlık bakımından ayrıca ayrıştırılacaktır.
 
-**Aktör sayısı: KARAR VERİLMEDİ.** Üçüncü aktör, alt ajanlar, sürekli/geçici roller ve görev paylaşımı açık. Bu bölüm assistant'ın konuşmaya sunduğu başlangıç çerçevesidir, kabul edilmiş mimari veya kullanıcıya atfedilen karar değildir.
+**Güncel aktör çerçevesi:** Kullanıcı iki aktörle ilerlemeyi seçti: **insan** ve **yapay zekâ**. Alt ajanlar veya farklı model/oturum örnekleri şimdilik yeni aktör sınıfları sayılmıyor; ihtiyaç olursa bu ayrım yeniden açılabilir. Roller aktörlerden ayrı ve Work'e göre türetilecek.
 
 ## Çalışma planı ve sonraki yetkili hareket
 
@@ -51,3 +51,16 @@ Kullanıcı ile yapılan tartışmada, insan aktörünün **müşteri** rolünde
 Önceki “amaç, tercih, yön, kapsam, trade-off” gibi başlıklar müşteri rolünün ayrı ayrı devredilemez sorumlulukları olarak tutulmuyor. Bunların büyük bölümü Development OS tarafından hazırlanabilir, çözümlenebilir veya kararlaştırılabilir; kritik sınır yetkinin kaynağı ve nihai kabul makamıdır.
 
 Bu, insan aktörünün bütün olası rollerinin tanımı değildir. Partner, yönetici, uzman, sahip/principal benzeri başka insan rolleri ayrıca tartışılabilir. `EXP-006_Context` kullanıcıyla içeriği birlikte kararlaştırılana kadar boş tutulacaktır.
+
+
+## RPD ile Work keşfine geçiş — 25 Eylül 2026
+
+Kullanıcı, yapay zekâ rollerini jenerik adlarla çıkarmak yerine önce Development OS'un yaptığı işi tanımlamayı istedi. Bu nedenle konuşma Actors'tan Work keşfine geçti; roller daha sonra Work–Actors ilişkilerinden türetilecek.
+
+Yöntem olarak Özyinelemeli Önkoşul Keşfi (RPD) kullanılacak. Kullanıcının bu turda yeniden sağladığı `ozyinelemeli_onkosul_kesfi_kavramsal_temel.md` ve `RPD_Sureklilik_Tasarimi_v0_1.md` tam kaynak olarak okundu; Research'teki `research/studies/recursive-prerequisite-discovery/META.md`, `ASSESSMENT.md` ve ilgili 2026-09-08 RPD entegrasyon sözleşmesi de geri çağrıldı. RPD burada doğrulanmış standart değil; hedeften gerekli koşullara ve başlanabilir işe doğru ilerleyen çalışma yöntemi olarak kullanılacak. Süreklilik tasarımı hazır Development OS mimarisi olarak ithal edilmeyecek.
+
+**Kök hedef:** Development OS, müşterinin yetki sınırları içinde çalışarak SOUL'u ortaya çıkarabilecek bir çalışma düzeni olmalıdır.
+
+**Çalışma kuralı:** Development OS tek turda tamamlanmaya çalışılmayacak. Önce kök hedefin hemen altındaki gereklilikler çıkarılacak; kullanıcıyla değerlendirildikten sonra seçilen gerekliliklere katman katman inilecek. Erken rol, araç, dosya yapısı, çoklu-agent veya runtime seçimi yapılmayacak.
+
+**Sonraki yetkili hareket:** kök hedef için ilk önkoşul katmanını kullanıcıyla tartışmak. `EXP-006_Context` hâlâ boş tutulacaktır.
