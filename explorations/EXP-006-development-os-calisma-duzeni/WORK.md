@@ -3,7 +3,7 @@
 **Rol:** EXP-006 içindeki current Work haritası ve sequencing yüzeyi.  
 **Statü:** DIALOGUE WORK SYSTEM / çalışma haritası; Development OS mimarisi değildir.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
-**Current Work:** **B4 — SOUL'un Work kapasitesini geliştirmek.**
+**Current Work:** **B5 — SOUL'un Environment kapasitesini geliştirmek.**
 
 ## Katman mantığı
 
@@ -30,8 +30,8 @@ Roller Work'ten önce icat edilmez. Bir kabiliyet veya sorumluluk adı otomatik 
 | **B1** | SOUL'un ortak entelektüel çalışma tabanını geliştirmek | **EXPLORED / candidate decomposition** | [B1](work/B1-common-intellectual-baseline.md) |
 | **B2** | SOUL'un Information kapasitesini geliştirmek | **EXPLORED / candidate decomposition** | [B2](work/B2-information-capacity.md) |
 | **B3** | SOUL'un Actors kapasitesini geliştirmek | **EXPLORED / candidate decomposition** | [B3](work/B3-actors-capacity.md) |
-| **B4** | SOUL'un Work kapasitesini geliştirmek | **CURRENT / not yet decomposed** | [B4](work/B4-work-capacity.md) |
-| **B5** | SOUL'un Environment kapasitesini geliştirmek | NOT OPENED | [B5](work/B5-environment-capacity.md) |
+| **B4** | SOUL'un Work kapasitesini geliştirmek | **EXPLORED / candidate decomposition** | [B4](work/B4-work-capacity.md) |
+| **B5** | SOUL'un Environment kapasitesini geliştirmek | **CURRENT / not yet decomposed** | [B5](work/B5-environment-capacity.md) |
 | **B6** | Dört zemini birbirine doğru bağlayan düzeni geliştirmek | NOT OPENED | [B6](work/B6-cross-ground-integration.md) |
 | **B7** | SOUL'un işe göre çalışma sistemi kurma ve genişletme kapasitesini geliştirmek | NOT OPENED | [B7](work/B7-system-formation.md) |
 | **B8** | Süreklilik, değişim, toparlanma ve öğrenme kapasitesini geliştirmek | NOT OPENED | [B8](work/B8-continuity-change-recovery.md) |
@@ -55,7 +55,7 @@ B1 ve B2 aynı yöntemle açıldı:
 5. Yeni rolleri [ACTORS](ACTORS.md) içindeki mevcut adaylarla karşılaştır; gereksiz kopya rol üretme.
 6. Work ayrıntısını kendi B dosyasında, current konumu burada tut.
 
-**Sıradaki işlem:** B4'ü bu yöntemle açmak. B1–B3 ancak sonraki dallar maddi bir bağımlılık/revizyon doğurursa yeniden açılır.
+**Sıradaki işlem:** B5'i bu yöntemle açmak. B1–B4 ancak sonraki dallar maddi bir bağımlılık/revizyon doğurursa yeniden açılır.
 
 ## Önemli sınır
 
