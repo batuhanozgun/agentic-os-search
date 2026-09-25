@@ -39,3 +39,15 @@ EXP-001–005 düşünce ve ders girdileridir; eski görevler otomatik yeniden b
 ## Arşiv kapsamı ve sınırlamalar
 
 Başlangıç kaynak kapsamı yalnız U001'dir. Assistant önerileri yukarıda türetilmiş çalışma notudur; nihai yanıtın birebir transkripti, tüm ara bildirimler veya araç günlükleri arşivlenmiş değildir. Bu paket henüz kapanmış/tam konuşma arşivi değildir. Önceki explorations topluca tam okunmadı; gerçek seçici okuma kapsamı [INDEX](INDEX.md)'tedir. Canlı çok-aktör yürütmesi, ortam yeterliği veya bağımsız değerlendirme testi yapılmadı.
+
+
+## İlk netleşen rol ayrımı — insan / müşteri
+
+Kullanıcı ile yapılan tartışmada, insan aktörünün **müşteri** rolündeki çekirdeği iki başlıkta netleşti:
+
+- **Yetki:** Yapay zekânın hangi amaç ve sınırlar içinde hareket edebileceğinin meşru kaynağı insandır. Bu, insanın bütün önemli kararları tek tek vermesi gerektiği anlamına gelmez; Development OS mümkün olduğunca bu karar yükünü üstlenebilir, fakat kendi yetkisini kendisi üretemez.
+- **Kabul:** Ortaya çıkan sonucun teknik olarak doğrulanması ayrı bir konudur; “bu benim ihtiyacımı karşılıyor ve teslimi kabul ediyorum” hükmü müşteride kalır.
+
+Önceki “amaç, tercih, yön, kapsam, trade-off” gibi başlıklar müşteri rolünün ayrı ayrı devredilemez sorumlulukları olarak tutulmuyor. Bunların büyük bölümü Development OS tarafından hazırlanabilir, çözümlenebilir veya kararlaştırılabilir; kritik sınır yetkinin kaynağı ve nihai kabul makamıdır.
+
+Bu, insan aktörünün bütün olası rollerinin tanımı değildir. Partner, yönetici, uzman, sahip/principal benzeri başka insan rolleri ayrıca tartışılabilir. `EXP-006_Context` kullanıcıyla içeriği birlikte kararlaştırılana kadar boş tutulacaktır.
