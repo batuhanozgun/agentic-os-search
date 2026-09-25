@@ -115,3 +115,20 @@ Kullanıcı, kapsamlı SOUL hedef tanımını bu aşama için yeterince somut ka
 Bu liste **aday birinci seviye Work haritasıdır**, kabul edilmiş Development OS planı veya SOUL modül mimarisi değildir. Foundation'ın dört ground'u yazılım modülü olarak varsayılmıyor; 2–5 numaralı iş aileleri bu problem zeminlerinde gerekli SOUL kapasitesini geliştirme işlerini temsil ediyor. 6–8 özellikle ground'lar arası ilişki ve zamansal davranışın tek ground'a indirgenemediği için ayrı aday işler olarak tutuluyor.
 
 Sonraki hareket: kullanıcıyla bu ilk Work haritasının doğru soyutlama seviyesinde olup olmadığını, eksik/fazla/örtüşen dalları tartışmak; kabul edilen haritadan sonra tek tek dallara RPD ile inmek. Yapay zekâ rollerine henüz dönülmeyecek; roller yeterli Work resmi oluştuktan sonra türetilecek.
+
+
+## B2 — Information kapasitesi açılımı ve ilk rol türetimi
+
+B2 için EXP-003 konsolidasyonu, Context/Memory/Harness sentezi ve Foundation Information yüzeyleri yeniden kullanıldı. Temel ayrım: storage, discovery/retrieval, selection, exposure/context ve demonstrated use aynı başarı değildir; canonical state ile derived/learned memory aynı authority class'ında tutulmamalıdır.
+
+B2 altında dokuz sorumluluk alanı çıkarıldı: bilgi sınıfları/otorite; provenance ile formation/acquisition; revision/currentness; discoverability; Work/Actor/use-conditioned selection; gerçek context formation; exposure ile use ayrımı; erişim/görünürlük sınırı; information failure diagnosis.
+
+İlk aday taşıyıcılar:
+- **R4 Information Steward / Bilgi Yaşam Döngüsü Tasarımcısı**
+- **R5 Context & Retrieval Curator / Bağlam Kurucusu**
+- **R6 Information Integrity Reviewer / Bilgi Yeterliği Doğrulayıcısı**
+- **M2 Information persistence/retrieval/exposure mekanik sorumluluğu**
+
+B1'deki **R3 Davranış Teşhisçisi / Değişiklik Analisti** B2 failure'larını da cross-domain teşhis edecek şekilde genişlemeye adaydır; yeni kopya teşhis rolü yaratılmadı.
+
+Bu rol adları henüz nihai Development OS organizasyonu değildir. B3–B9 ilerledikçe birleşme/ayrılma yeniden değerlendirilecek. Ayrıntı authoritative working surface olarak `EXP-006_Work_Map.md` içinde tutulur.
