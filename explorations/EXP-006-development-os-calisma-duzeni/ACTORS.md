@@ -39,6 +39,9 @@ Bu, insanın bütün olası rollerinin tanımı değildir. Teknik keşif/koordin
 | **R10** | Work Formation & Planning Designer / İş Oluşum ve Yaşayan Plan Tasarımcısı | B4 | Amaç ve gelişen anlayıştan gerekli Work adaylarını keşfedip yaşayan Work/plan yapısına dönüştürmek | candidate |
 | **R11** | Work Admission & Coordination Steward / İş Kabul ve Koordinasyon Sorumlusu | B4 | Candidate→admission/frontier, dependency, concurrency, coordination ve flow'u yönetmek | candidate |
 | **R12** | Work Progress & Closure Reviewer / İş İlerleme ve Kapanış Doğrulayıcısı | B4 | Gerçek progress'i ve execution/verification/fitness/acceptance/parent closure ayrımlarını sınamak | candidate |
+| **R13** | Environment & Capability Formation Designer / Ortam ve Kabiliyet Oluşum Tasarımcısı | B5 | Work/Actor ihtiyacını gerekli Environment capability/configuration/provisioning planına dönüştürmek | candidate |
+| **R14** | Environment Operations & Readiness Steward / Ortam İşletim ve Hazırlık Sorumlusu | B5 | Environment'ın provision edilmiş, erişilebilir, healthy, yeterli ve current kalmasını yönetmek | candidate |
+| **R15** | Environment Reality & Effect Reviewer / Ortam Gerçekliği ve Etki Doğrulayıcısı | B5 | Tool/runtime kaydından bağımsız actual Environment state/effect iddiasını sınamak | candidate |
 
 ## Mekanik sorumluluklar — aktör/rol değildir
 
@@ -46,13 +49,15 @@ Bu, insanın bütün olası rollerinin tanımı değildir. Teknik keşif/koordin
 |---|---|---|---|
 | **M1** | Mekanik davranış sınırı / identity-role-grant enforcement | B1, B3; ileride B5/B6 | candidate requirement |
 | **M2** | Information persistence / retrieval / exposure mekanikleri | B2; ileride B5/B6 | candidate requirement |
-| **M3** | Work identity / admission / claim / transition mechanics | B4; ileride B5/B6 | candidate requirement |
+| **M3** | Work identity / admission / claim / transition mechanics | B4; ileride B6 | candidate requirement |
+| **M4** | Environment provisioning / runtime / workspace / isolation substrate | B5; ileride B6 | candidate requirement |
+| **M5** | Effect execution / readback / observability substrate | B5; ileride B6 | candidate requirement |
 
 ## Henüz kararlaştırılmayanlar
 
 - Development OS'ta kaç yapay zekâ aktör örneği olacağı.
-- R1–R12'nin kaç fiziksel agent/model/oturum tarafından taşınacağı.
-- R1/R2/R6/R8/R12 gibi verification sorumluluklarının, R4/R5/R6 Information rollerinin, R7/R9 Actor-governance rollerinin veya R10/R11 Work rollerinin ileride birleşip birleşmeyeceği.
+- R1–R15'in kaç fiziksel agent/model/oturum tarafından taşınacağı.
+- R1/R2/R6/R8/R12/R15 gibi verification sorumluluklarının, R4/R5/R6 Information rollerinin, R7/R9 Actor-governance rollerinin, R10/R11 Work rollerinin veya R13/R14 Environment rollerinin ileride birleşip birleşmeyeceği.
 - Bağımsız doğrulama için hangi teknik/organizasyonel izolasyonun gerektiği.
 - Host/runtime/topoloji.
 
