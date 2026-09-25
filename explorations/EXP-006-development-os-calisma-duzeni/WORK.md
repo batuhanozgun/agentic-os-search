@@ -46,7 +46,7 @@ Roller Work'ten önce icat edilmez. Bir kabiliyet veya sorumluluk adı otomatik 
 
 ## Current sequencing
 
-B1 ve B2 aynı yöntemle açıldı:
+B1–B9 ilk ayrıştırmalarında kullanılan sıra:
 
 1. Work'ün hedef çıktısını tanımla.
 2. Development OS'un bu Work'ü yapabilmesi için gerekli kabiliyet/sorumlulukları çıkar.
@@ -55,7 +55,7 @@ B1 ve B2 aynı yöntemle açıldı:
 5. Yeni rolleri [ACTORS](ACTORS.md) içindeki mevcut adaylarla karşılaştır; gereksiz kopya rol üretme.
 6. Work ayrıntısını kendi B dosyasında, current konumu burada tut.
 
-**Sıradaki işlem:** B1–B9 boyunca oluşan R1–R25 ve M1–M9 adaylarını çapraz olarak konsolide etmek; aynı başarı yönünü taşıyan rolleri birleştirmek, gerçekten ayrı kalması gerekenleri gerekçelendirmek, coverage boşluklarını ve dependency ilişkilerini çıkarmak. Bu yapılmadan Development OS mimarisine geçilmez.
+**Sıradaki işlem:** [S1 çalışma dosyasındaki](work/S1-role-responsibility-consolidation.md) araştırma rotalarıyla önce üretim–inceleme–düzeltme sorumluluklarını karşılaştırmak. B1–B9 boyunca oluşan R1–R25 ve M1–M9 adayları, yalnız ad benzerliğine göre değil araştırmalardaki mekanizmalar, gerekli bilgi/kabiliyet, yetki ve hata sınırlarıyla konsolide edilecek. Birleştirme, ayırma, koruma veya eksik sorumluluk açma sonuçları gerekçeli ve aday kalır. Bu yapılmadan Development OS mimarisine geçilmez.
 
 ## Önemli sınır
 
@@ -78,4 +78,10 @@ Bu sonuç doğrudan “Development OS 25 AI rolü ve 9 mekanik modülden oluşur
 - İnsan yetki+kabul çekirdeği hangi transition/gate'lerde gerçekten gerekir?
 - Bu konsolidasyondan sonra Development OS yapısı hangi minimum rol/control topolojisiyle kurulabilir?
 
-S1 ayrı Work haritası değildir; B1–B9'un türettiği adayları architecture öncesi normalize eden geçiş fazıdır.
+S1 ayrı Work haritası değildir; B1–B9'un türettiği adayları architecture öncesi normalize eden geçiş fazıdır. Ayrıntılı yöntemi ve okuma rotaları [S1 dosyasında](work/S1-role-responsibility-consolidation.md) tutulur; bu üst haritada araştırmaların tam içerikleri kopyalanmaz.
+
+### Araştırma kullanımının güncel kapsamı
+
+Kullanıcı studies örneklerinin S1'de kullanılmasını istedi. İlk kaynak seçimi ve iki sınırlı karşılaştırma girdisi kaydedildi; henüz rol birleştirme/ayırma sonucu yok. Araştırmalar mevcut adayları onaylamak için değil, eksik ve yanlış ayrımları da bulmak için kullanılacak.
+
+Örnek sistemdeki işletim rolü ile DevOS'un o kapasiteyi SOUL için geliştirme sorumluluğu aynı sayılmaz. Mekanik sorumlulukların tasarımını, uygulamasını ve sınamasını kimin üstleneceği de açık kalmamalıdır. Kaynakların mevcut olması, bu bilgiye erişme ve onu kullanma kabiliyetinin oluştuğunu kanıtlamaz.
