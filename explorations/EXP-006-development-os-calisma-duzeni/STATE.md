@@ -77,3 +77,20 @@ Development OS Work keşfinin ilk dalı olan “neyin yapılması gerektiğini b
 - **EXP-004:** büyük ve uzun iş stress testi; Work discovery, rol→Actor, context, gerçek etki, qualification/kabul, recovery ve controlled adaptation; MS01 adıyla somut çalışma sistemi taslağı, iki senaryo yürüyüşü, araştırma→mekanizma eşlemesi ve G01–G07 açık kapasite yükleri. Güncel paket kapanmış kavramsal teslimattır; nihai mimari değildir.
 
 **Henüz karar verilmedi:** hangi dosyaların tam okunacağı. Sonraki hareket kullanıcıyla ilk tam-okuma setini seçmektir. Kaynak sadakati için türetilmiş konsolidasyonlardan çıkarılan yük taşıyan tanımlar daha sonra ilgili U/S özgün mesajlarına geri bağlanacaktır. `EXP-006_Context` boş tutulmaya devam eder.
+
+
+## SOUL hedefi için tam okuma — 25 Eylül 2026
+
+Kullanıcıyla seçilen tam okuma seti canonical main'den eksiksiz okundu:
+
+1. EXP-001 `artifacts/consolidation-v0.1/SOUL_Calisma_Anlayisi_Konsolidasyon_v0_1.md` — blob `d7a6a6dbcffc3700e04e7afa91163c24536343fb`, 778 satır.
+2. EXP-002 `artifacts/CONSOLIDATION.md` — blob `b94a81ffff09f60146139adf59475f1ff4fcda76`, 116 satır.
+3. EXP-004 `artifacts/MS01-SOUL-WORKING-SYSTEM-DRAFT.md` — blob `782ee291c0c4da0ab79b2689854ceffbda07c168`, 166 satır.
+4. EXP-004 `artifacts/MS01-COVERAGE-AND-OPEN-MECHANISMS.md` — blob `64870a8b7032e0efed165ded8dfa0d3947e997ae`, 122 satır.
+5. EXP-004 `artifacts/MS01-RESEARCH-TO-MECHANISM-MAP.md` — blob `fbae5dc1aa542170aa9cf13b235f0377d6b66ca1`, 175 satır.
+
+Yük taşıyan SOUL tanımı/baz yapı noktaları için EXP-002'nin özgün kullanıcı mesajları ile S006/S011/S012/S014/S018 ve EXP-004 kullanıcı U007/U010 gibi doğrudan kaynak yüzeylerine geri dönüldü. Böylece konsolidasyon yorumları tek başına kaynak kabul edilmedi.
+
+**Okumanın amacı:** Development OS'un yaratması gereken SOUL'u kısa slogan değil, Work keşfinde kullanılabilecek kadar somut ve kapsamlı bir hedef olarak tanımlamak.
+
+**Güncel çalışma sonucu:** kapsamlı bir aday SOUL hedef tanımı bu okumalardan sentezlenmektedir; henüz kullanıcı tarafından kabul edilmiş tanım veya mimari değildir. Sonraki yetkili hareket bu tanımı kullanıcıya sunup birlikte irdelemektir. `EXP-006_Context` yalnız kullanıcıyla önceden onaylanan bağlam metnini taşır; bu yeni sentez oraya otomatik yazılmamıştır.
