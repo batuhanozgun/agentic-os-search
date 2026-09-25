@@ -1,81 +1,65 @@
 # EXP-006 — HANDOFF
 
-**Amaç:** Fresh session'da önceki konuşmayı görmeden doğru çalışma noktasını devralmak.  
-**Güncel tarih:** 25 Eylül 2026.  
-**Current Work:** **S1 — B1–B9 rol/sorumluluk konsolidasyonu.**
+**Amaç:** Önceki konuşmayı görmeyen bir oturumun doğru işi, kaynakları ve karar statüsünü devralması.  
+**Tarih:** 25 Eylül 2026.  
+**Güncel iş:** **S1 — araştırmaya dayalı rol ve sorumluluk konsolidasyonu.**
 
-## Cold-start
-
-Normal devam için sırayla oku:
+## Yeni oturumda okuma
 
 1. [STATE](STATE.md)
-2. bu dosya
+2. Bu dosya
 3. [WORK](WORK.md)
 4. [ACTORS](ACTORS.md)
-5. [S1 çalışma dosyası](work/S1-role-responsibility-consolidation.md)
-6. S1 sırasında yalnız gerekli B dosyalarına [work/](work/) üzerinden in
-7. gerekiyorsa [DECISIONS](DECISIONS.md)
-8. yön/metodoloji drift'i şüphesinde [EXP-006_Context](EXP-006_Context)
+5. [S1 yöntem ve dilim dizini](work/S1-role-responsibility-consolidation.md)
+6. [S1-01](work/S1-01-production-review-correction.md): G1'e veya bu turun bulgularına devam edilecekse tam oku.
+7. İhtiyaç doğan B dosyalarına ve ilgili studies kaynaklarına seçici in.
 
-## Tamamlanan ana Work
+[DECISIONS](DECISIONS.md) kullanıcı kararlarını, [EXP-006_Context](EXP-006_Context) konuşmanın nedenini ve birlikte çalışma biçimini taşır. Bütün eski B ayrıntılarını her girişte yeniden yüklemek gerekmez.
 
-B1–B9'un tamamı candidate decomposition seviyesinde açıldı. Sonuçlar:
+## Üst zincir ve eldeki malzeme
 
-- **B1 Intellectual baseline:** R1–R3; M1.
-- **B2 Information:** R4–R6; M2.
-- **B3 Actors:** R7–R9; M1 genişledi.
-- **B4 Work:** R10–R12; M3.
-- **B5 Environment:** R13–R15; M4–M5.
-- **B6 Cross-ground integration:** R16–R18; M6.
-- **B7 System formation:** R19–R20; M7; R18 joint-fit assurance için reused.
-- **B8 Continuity/recovery/learning:** R21–R23; M8; existing verifiers reused.
-- **B9 Integration/testing:** R24–R25; M9; R18 integrated verdict assurance için reused.
+Başlangıç sorusu Development OS'taki yapay zekâ rolleriydi. Jenerik rol listesi üretmemek için önce SOUL hedefi somutlaştırıldı; sonra DevOS'un bu hedef için yapacağı B1–B9 işleri ve gerekli sorumluluklar açıldı.
 
-## B9'un kritik sonucu
+B1–B9'un ilk ayrıştırmaları tamamlandı; bunlar adaydır. [ACTORS](ACTORS.md), R1–R25 rol adaylarını ve M1–M9 mekanik sorumluluk kümelerini taşır. Bu sayılar ajan/servis sayısı değildir. Eski kimlikler S1'de izlenebilirlik için korunuyor.
 
-SOUL testing component presence veya tek başarılı demo değildir. Capability claims exact/falsifiable olmalı; scenario portfolio failure-surface coverage taşımalı; hidden-requirement leakage önlenmeli; negative/mutation/change/recovery/adaptation tests bulunmalı; oracle/independence/error-sensitivity sınanmalı; exact target/version/environment bağlanmalı; generality claim'i tested scope ile sınırlanmalı; failed evaluation R3 ile ilgili B dalını reopen etmelidir.
+İnsan müşterinin çekirdeği **yetki + kabul** olarak kalır. SOUL tanımı bu aşama için yeterince somut çalışma hedefi kabul edildi; nihai mimari veya teknik doğrulama değildir.
 
-## Current Work — S1
+## Kullanıcı yönlendirmesi
 
-Şimdi yeni Work dalı açmak yerine B1–B9 boyunca türetilmiş adayları **normalize et**.
+Kullanıcı studies araştırmalarının S1'de kullanılmasını istedi. Ardından “Güzel. Devam et lütfen.” diyerek önerilen ilk üretim–inceleme–düzeltme diliminin yürütülmesine yön verdi.
 
-Temel soru:
+Bu, hazır sistemlerin rol adlarını kopyalama veya bütün araştırmaları baştan okuma talebi değildir. Her karşılaştırmada DevOS sorusu, kaynağın kendi mekanizması, aktarım koşulu, sınır ve aday sonuç ayrı tutulur.
 
-> **Development OS'un gerçekten kaç farklı sorumluluk/rol ailesine ihtiyacı var; R1–R25'in hangileri aynı üst rolün farklı kipleri, hangileri epistemik veya yönetişim gerekçesiyle ayrı kalmalı; M1–M9 hangi gerçek substrate ailelerine sıkışıyor?**
+## S1-01'de yapılan ve yapılmayan
 
-### Son yönlendirme — araştırmaları S1'e kat
+**Yapıldı:** Superpowers S03/S04 ve U03/kaynak kaydı tam; asıl üretici ve görev inceleyicisi tam; asıl SDD ilgili bölümleri seçici okundu. gstack CORE/INDEX ve teslim yeterliği araştırmasından ilgili kısımlar, asıl QA şablonunun ilgili bölümleri okundu. Eski ürün deneyleri yeniden çalıştırılmadı. Doğrudan dış okumalar sabit araştırma sürümlerindendir; güncel ürün veya etkin kurulum sertifikası değildir.
 
-Kullanıcı, studies araştırmalarının bu rollerin uğraşacağı yapılar hakkında bilgi sağlayacağını ve S1'de kullanılmasını istedi. Bu, örneklerin rol adlarını kopyalamak veya hepsini bir sisteme toplamak değildir.
+**Aday sonuçlar:**
 
-[S1 dosyası](work/S1-role-responsibility-consolidation.md) ilk kaynak rotalarını, gerçek okuma kapsamını ve kaynak–çıkarım sınırlarını taşır. Bu hazırlık turunda rol adayları değiştirilmedi; S1 sonucu veya canlı doğrulama elde edilmedi.
+- **A1:** R2/R6/R8/R12/R15/R18 ortak inceleme/doğrulama ailesinde düşünülebilir. Farklı iddialar, gerekli uzmanlık ve bağımsızlık korunur; tek genel inceleyici yeterli ilan edilmez.
+- **A2:** Üretim ve düzeltme aynı sorumluluk ailesinde taşınabilir. İnceleyici düzeltirse o değişiklik bakımından üretici de olur; değişmiş nesne eski hükmü otomatik devralmaz.
+- **A3:** R3 teşhisi, düzeltmeyi uygulama ve teknik karar verme ayrı sorumluluklardır. Aynı aktörün bunları taşıma koşulları ayrıca değerlendirilir.
+- **A4:** Yerel inceleme ve düzeltme, bütünleştirilmiş sonucun yeterliğini veya müşteri kabulünü tek başına göstermez.
+- **G1:** Tasarım ve kurulum/işletim ile mekanizmaların kodunu, prosedürünü ve bağlantılarını fiilen geliştirme sorumluluğu yeterince açık ayrılmıyor. B1/R1 → B5/B6; B5/R13/R14/M4/M5 ve B7/R20 üzerinden açıklık görüldü. Üretim hiç yok denmedi; bütün B1–B9 yeniden incelenmiş sayılmadı.
 
-İlk önerilen inceleme dilimi **üretim–inceleme–düzeltme sorumluluklarıdır**. Superpowers'ın ilgili kaynaklarına, ardından gerekliyse gstack karşılaştırmasına in; ilgili B tanımlarıyla aynı analiz düzeyinde karşılaştır. Her kümede yalnız birleşme/ayrılma değil, rolün ihtiyaç duyduğu bilgi, yöntem, erişim ve mekanik destek de görünür olsun.
+**Yapılmadı:** Nihai rol birleştirme, yeni R26 veya mekanik kimlik, canlı DevOS/SOUL testi, mimari, ürün/araç seçimi, kurulum. Kullanıcı S1-01 sonuçlarını henüz kabul etmiş sayılmaz.
 
-Örnek sistemin işi yürütmesi ile Development OS'un o kapasiteyi SOUL için geliştirmesini ayır. M1–M9'un varlığı bunları üretecek ve sınayacak teknik sorumlulukları kendiliğinden karşılamaz; bu sınırı da S1'de kontrol et.
+## Sonraki inceleme ve dönüş sınırı
 
-### S1 görevleri
+**Önerilen sonraki S1 dilimi:** G1'i aç; tasarım → üretim/uyarlama → bütünleştirme → sınama zincirinin DevOS tarafındaki sorumlularını belirle. B1/B2/B5/B6'daki aktarım noktalarını ve R14/R20'nin kurma/işletme sınırlarını, karar için gereken kaynak derinliğinde incele.
 
-1. İlgili araştırmayı önce kendi bağlamı ve kanıt sınırıyla oku; sorgulanan DevOS sorumluluğuna katkısını belirt.
-2. R1–R25'i başarı yönüne göre cluster et; isim benzerliğine göre değil.
-3. Designer / Steward / Reviewer / Diagnosis / Formation ayrımlarının hangileri substantive separation gerektiriyor test et.
-4. Verification rollerini claim family ve independence ihtiyacına göre konsolide et.
-5. R3'ün cross-domain diagnosis scope'unu netleştir.
-6. R19/R20 system-formation'ın capability-owner rollerle ilişkisini normalize et.
-7. M1–M9'u enforcement/state/runtime/effect/evaluation gibi substrate ailelerinde birleştirme olasılığını ve geliştirme sorumlularını test et.
-8. B1–B9 coverage matrix çıkar; orphan ve duplicate responsibility ara.
-9. Sonuç yeterliyse ancak ondan sonra DevOS structure/topology tartışmasına geç.
+Yeni kullanıcı yönüyle devam ederken önce onun bu bulgulara yaptığı düzeltmeyi dikkate al. İlerlemenin sonucu mevcut rolü genişletmek, ortak geliştirme ailesi oluşturmak, farklı uzmanlıklara ayırmak veya belirsizliği açık bırakmak olabilir. Sırf açıklık bulundu diye otomatik yeni rol ekleme.
 
-## Drift korumaları
+Bir sınırlı sorumluluk kümesini gerekçeleriyle sunup kullanıcıya dön; bütün S1'i veya mimariyi tek turda bitirmeye çalışma.
 
-- 25 rol = 25 agent deme.
-- aynı isimli işler = aynı rol deme; başarı yönünü karşılaştır.
-- farklı isim = farklı actor gerek demek değil.
-- verifier'ları sırf sayıyı azaltmak için birleştirip independence'i yok etme.
-- Araştırmaları mevcut 25 adayı yalnız doğrulamak için kullanma; karşı örnek ve eksikleri de koru.
-- Tamamlanmış bulgu, kısmi araştırma ve yalnız araştırma sırasına alınmış aday birbirinden farklıdır.
-- architecture/topology/tool seçimine S1 tamamlanmadan atlama.
-- kullanıcıyı eksik role-merge kararlarının teknik oracle'ı yapma.
+## Korunacak sınırlar
 
-## Yetki sınırı
+- DevOS'un SOUL'u geliştirmesi, SOUL'un müşteri işini işletmesi ve EXP-006'nın kendi kayıt düzeni ayrı düzeylerdir.
+- Aynı aile, aynı uzmanlık, aynı rol görevlendirmesi ve aynı fiziksel aktör demek değildir.
+- Farklı ajan etiketi bağımsız kanıt yaratmaz; aynı eksik bağlam birden fazla inceleyicide korunabilir.
+- Bulguyu ertelemek veya yetkili karar vermek teknik doğruluk kanıtı değildir.
+- Superpowers'ın kendi yetki ifadeleri arasındaki açık sorular burada çözülmüş sayılmaz; kaynak insana teknik yük bırakıyor diye bunu Batu'ya taşıma.
+- M1–M9'un işlevini yazmak, onları geliştirecek tarafı sağlamaz.
+- Araştırmalar mevcut adayları haklı çıkarmak kadar değiştirmek veya elemek için de kullanılır.
 
-S1 architecture öncesi consolidation'dır; implementasyon veya host/tool seçimi değildir. Yeni dış ürün araştırması, kurulum veya bütün studies'i baştan okuma bu hazırlıkla otomatik başlamaz.
+STATE/HANDOFF/S1 güncel ilerlemeyi taşır. ACTORS ilk R/M türetim kaydı olarak korunmuştur; S1-01 önerilerini kabul edilmiş nihai liste gibi okumama.
