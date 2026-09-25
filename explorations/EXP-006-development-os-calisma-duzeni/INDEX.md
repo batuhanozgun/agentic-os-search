@@ -12,8 +12,7 @@ Yeni oturumda normal devam için:
 1. [STATE](STATE.md) — current purpose, phase ve active Work.
 2. [HANDOFF](HANDOFF.md) — tam devralma noktası ve sıradaki işlem.
 3. [WORK](WORK.md) — B1–B9 haritası.
-4. Aktif Work dosyası — exact yol için [STATE](STATE.md) ve [HANDOFF](HANDOFF.md) current kaynaktır.
-5. [ACTORS](ACTORS.md) — current rol/taşıyıcı registry'si.
+4. [ACTORS](ACTORS.md) — current rol/taşıyıcı registry'si.\n5. Aktif faz ve gerekiyorsa ilgili `work/B*.md` yolu — exact yön için [STATE](STATE.md) ve [HANDOFF](HANDOFF.md) current kaynaktır.
 
 Gerektiğinde:
 - [DECISIONS](DECISIONS.md) — kullanıcıyla netleşmiş çalışma kararları.
@@ -29,7 +28,7 @@ Gerektiğinde:
 | `STATE.md` | yalnız current state |
 | `HANDOFF.md` | yeni oturumun doğru işi devralması |
 | `WORK.md` | üst Work haritası ve sequencing |
-| `work/B*.md` | tek bir Work dalının ayrıntılı açılımı; active dal STATE/HANDOFF'tan bulunur |
+| `work/B*.md` | B1–B9 ayrıntılı Work decomposition; S1'de yalnız dependency-relevant dallar okunur |
 | `ACTORS.md` | aktör/rol/mekanik taşıyıcı registry'si |
 | `DECISIONS.md` | kabul edilmiş çalışma kararlarını candidate fikirlerden ayırmak |
 | `EXP-006_Context` | neden/nasıl çalıştığımızı ve drift korumasını taşımak |
