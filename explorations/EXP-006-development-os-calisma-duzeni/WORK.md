@@ -3,7 +3,7 @@
 **Rol:** EXP-006 içindeki current Work haritası ve sequencing yüzeyi.  
 **Statü:** DIALOGUE WORK SYSTEM / çalışma haritası; Development OS mimarisi değildir.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
-**Current Work:** **B9 — Ortaya çıkan SOUL'u bütün olarak birleştirmek ve gerçek görevlerle sınamak.**
+**Current Work:** **S1 — B1–B9 sonuçlarını konsolide edip rol/sorumluluk mimarisine geçişi hazırlamak.**
 
 ## Katman mantığı
 
@@ -35,7 +35,7 @@ Roller Work'ten önce icat edilmez. Bir kabiliyet veya sorumluluk adı otomatik 
 | **B6** | Dört zemini birbirine doğru bağlayan düzeni geliştirmek | **EXPLORED / candidate decomposition** | [B6](work/B6-cross-ground-integration.md) |
 | **B7** | SOUL'un işe göre çalışma sistemi kurma ve genişletme kapasitesini geliştirmek | **EXPLORED / candidate decomposition** | [B7](work/B7-system-formation.md) |
 | **B8** | Süreklilik, değişim, toparlanma ve öğrenme kapasitesini geliştirmek | **EXPLORED / candidate decomposition** | [B8](work/B8-continuity-change-recovery.md) |
-| **B9** | Ortaya çıkan SOUL'u bütün olarak birleştirmek ve gerçek görevlerle sınamak | **CURRENT / not yet decomposed** | [B9](work/B9-integration-and-testing.md) |
+| **B9** | Ortaya çıkan SOUL'u bütün olarak birleştirmek ve gerçek görevlerle sınamak | **EXPLORED / candidate decomposition** | [B9](work/B9-integration-and-testing.md) |
 
 ## Statülerin anlamı
 
@@ -55,8 +55,27 @@ B1 ve B2 aynı yöntemle açıldı:
 5. Yeni rolleri [ACTORS](ACTORS.md) içindeki mevcut adaylarla karşılaştır; gereksiz kopya rol üretme.
 6. Work ayrıntısını kendi B dosyasında, current konumu burada tut.
 
-**Sıradaki işlem:** B9'u bu yöntemle açmak. B1–B8 ancak B9 gerçek entegrasyon/test gereksinimi maddi bir revizyon doğurursa yeniden açılır.
+**Sıradaki işlem:** B1–B9 boyunca oluşan R1–R25 ve M1–M9 adaylarını çapraz olarak konsolide etmek; aynı başarı yönünü taşıyan rolleri birleştirmek, gerçekten ayrı kalması gerekenleri gerekçelendirmek, coverage boşluklarını ve dependency ilişkilerini çıkarmak. Bu yapılmadan Development OS mimarisine geçilmez.
 
 ## Önemli sınır
 
 B1–B9, SOUL'un modül listesi değildir. Foundation'daki Information / Actors / Work / Environment zeminleri de dört yazılım modülü olarak varsayılmamaktadır. Bunlar Development OS'un SOUL'da geliştirmesi gereken problem/kabiliyet alanlarını takip etmek için kullanılan Work ayrımlarıdır.
+
+
+## Sonraki faz — S1 rol/sorumluluk konsolidasyonu
+
+B1–B9 birinci-seviye Work ayrıştırması tamamlandı.
+
+Bu sonuç doğrudan “Development OS 25 AI rolü ve 9 mekanik modülden oluşur” anlamına gelmez. Tam tersine şimdi şu sorular açılmalıdır:
+
+- Hangi R rolleri aslında aynı üst rol ailesinin farklı görev kipleri?
+- Hangi verifier'lar tek verification fonksiyonunda birleşebilir, hangileri independence nedeniyle ayrı instantiation ister?
+- Hangi steward/designer ayrımları kalıcı rol ayrımı, hangileri yalnız Work mode farkı?
+- R3 gibi cross-domain rollerin gerçek scope'u nedir?
+- R19/R20 gibi system-formation rolleri diğer capability owner'larını nasıl kullanır?
+- M1–M9 ayrı mekanizmalar mı, yoksa daha az sayıda substrate'ın sorumluluk kümeleri mi?
+- Her B Work ailesinin en az bir açık owner/assurance/mechanical path'i var mı?
+- İnsan yetki+kabul çekirdeği hangi transition/gate'lerde gerçekten gerekir?
+- Bu konsolidasyondan sonra Development OS yapısı hangi minimum rol/control topolojisiyle kurulabilir?
+
+S1 ayrı Work haritası değildir; B1–B9'un türettiği adayları architecture öncesi normalize eden geçiş fazıdır.
