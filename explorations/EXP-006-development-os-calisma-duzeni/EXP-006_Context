@@ -288,3 +288,25 @@ Temel çalışma ilkesi:
 **Önce ihtiyaç ve iş; sonra sorumluluk ve rol; en son mekanizma ve araç.**
 
 Development OS, SOUL'u yaratmak için kuruluyor. Bu nedenle Development OS'un kendisi, SOUL'u yaratma işinin önüne geçen ayrı bir amaç hâline gelmemelidir.
+
+
+---
+
+## Güncel yön — SOUL hedefinden Development OS kabiliyetlerine
+
+EXP-001, EXP-002 ve EXP-004'teki seçilmiş tam okumalar sonrasında SOUL için kapsamlı bir hedef tanımı çıkarıldı. Kullanıcı bu tanımı bu aşama için yeterince somut kabul etti. Amaç artık SOUL tanımını sonsuza kadar iyileştirmek değil; bu hedefi gerçekleştirecek Development OS işini keşfetmek.
+
+Development OS'un SOUL'u yaratırken yapacağı birinci seviye işler dokuz aday Work alanında toplandı. Bunlar SOUL'un parçaları değildir; Development OS'un SOUL üzerinde yapması gereken geliştirme işleridir.
+
+Çalışmanın güncel katman sırası:
+
+1. SOUL hedefi — bu aşama için yeterince somut kabul edildi.
+2. Development OS'un SOUL üzerinde yapacağı ana Work alanları — B1–B9 çalışma haritası.
+3. Her Work alanı için: **Development OS bunu yapabilmek için hangi kabiliyet ve sorumluluklara sahip olmalı?**
+4. Bu kabiliyet ve sorumlulukların hangisini yapay zekâ rolü, hangisini mekanik sistem, hangisini insan taşır?
+5. Buradan Development OS'un rol düzeni ve sistem yapısı türetilir.
+6. Mekanizma, araç, host, dosya yapısı ve benzeri seçimler ancak bu ihtiyaçlardan sonra yapılır.
+
+Bu nedenle sıradaki iş doğrudan Development OS mimarisi çizmek değildir. B1'den başlayarak her ana Work alanının Development OS tarafında gerektirdiği kabiliyet ve sorumlulukları açmaktır.
+
+Aktif Work ayrıntıları ayrı `EXP-006_Work_Map.md` dosyasında tutulur. Bu Context dosyası çalışma haritasının bütün ayrıntılarını kopyalamaz; yönü, yöntemi ve neden bu sırayla ilerlediğimizi korur.
