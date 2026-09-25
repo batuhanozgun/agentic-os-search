@@ -33,19 +33,22 @@ Bu, insanın bütün olası rollerinin tanımı değildir. Teknik keşif/koordin
 | **R4** | Information Steward / Bilgi Yaşam Döngüsü Tasarımcısı | B2 | Bilginin tür/statü/otorite/provenance/lifecycle düzenini tasarlamak ve denetlemek | candidate |
 | **R5** | Context & Retrieval Curator / Bağlam Kurucusu | B2 | Belirli Work + Actor + use için doğru/yeterli/güncel bilgi görünümünü kurmak | candidate |
 | **R6** | Information Integrity Reviewer / Bilgi Yeterliği Doğrulayıcısı | B2 | Kaynak→statü→sürüm→seçim→exposure→use zincirinin iddiayı taşıyıp taşımadığını sınamak | candidate |
+| **R7** | Role & Actor Formation Designer / Rol ve Aktör Oluşum Tasarımcısı | B3 | Work ihtiyacını role contract'a ve uygun actor oluşum/bağlama gereksinimine çevirmek | candidate |
+| **R8** | Actor Qualification Reviewer / Aktör Yeterlilik Doğrulayıcısı | B3 | Belirli actor'un belirli role/scope için competence ve fit'ini sınamak | candidate |
+| **R9** | Actor Governance Steward / Aktör Yetki ve Yönetişim Sorumlusu | B3 | Authority, delegation, obligation, participation ve attribution ilişkilerini meşru source/scope'a bağlı tutmak | candidate |
 
 ## Mekanik sorumluluklar — aktör/rol değildir
 
 | ID | Sorumluluk | Kaynak Work | Statü |
 |---|---|---|---|
-| **M1** | Mekanik davranış sınırı / enforcement | B1; ileride B5/B6 | candidate requirement |
+| **M1** | Mekanik davranış sınırı / identity-role-grant enforcement | B1, B3; ileride B5/B6 | candidate requirement |
 | **M2** | Information persistence / retrieval / exposure mekanikleri | B2; ileride B5/B6 | candidate requirement |
 
 ## Henüz kararlaştırılmayanlar
 
 - Development OS'ta kaç yapay zekâ aktör örneği olacağı.
-- R1–R6'nın kaç fiziksel agent/model/oturum tarafından taşınacağı.
-- R1/R2/R3 veya R4/R5/R6'nın birleşip birleşmeyeceği.
+- R1–R9'un kaç fiziksel agent/model/oturum tarafından taşınacağı.
+- R1/R2/R8 gibi verification sorumluluklarının, R4/R5/R6 Information rollerinin veya R7/R9 Actor-governance rollerinin ileride birleşip birleşmeyeceği.
 - Bağımsız doğrulama için hangi teknik/organizasyonel izolasyonun gerektiği.
 - Host/runtime/topoloji.
 
