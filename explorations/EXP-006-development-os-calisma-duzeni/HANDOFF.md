@@ -1,6 +1,6 @@
 # EXP-006 — HANDOFF
 
-**Amaç:** Önceki konuşmayı görmeyen bir oturumun doğru işi, kaynakları ve karar statüsünü devralması.  
+**Amaç:** Önceki konuşmayı görmeyen oturumun doğru işi, kaynakları ve karar statüsünü devralması.  
 **Tarih:** 25 Eylül 2026.  
 **Güncel iş:** **S1 — araştırmaya dayalı rol ve sorumluluk konsolidasyonu.**
 
@@ -9,68 +9,65 @@
 1. [STATE](STATE.md)
 2. Bu dosya
 3. [WORK](WORK.md)
-4. [ACTORS](ACTORS.md)
+4. [ACTORS](ACTORS.md): ilk adaylar; nihai S1 düzeni değil.
 5. [S1 yöntem ve dilim dizini](work/S1-role-responsibility-consolidation.md)
-6. [S1-02](work/S1-02-actor-conditioned-role-purpose.md): son aktör/rol/motivasyon değerlendirmesi; tam oku.
-7. [S1-01](work/S1-01-production-review-correction.md): A1–A4 veya G1 geliştirilecekse tam oku.
-8. İlgili B dosyalarına ve araştırma/asıl kaynaklara karar için gerektiğinde in.
+6. [S1-03](work/S1-03-role-purpose-activation-and-transfer.md): son aktör/rol/başarı yönü ve aktarım değerlendirmesi; aynı konuya devamda tam oku.
+7. Gerekli eski ayrım için [S1-02](work/S1-02-actor-conditioned-role-purpose.md); G1 veya üretim–inceleme ilişkisi için [S1-01](work/S1-01-production-review-correction.md).
+8. İlgili B dosyaları ve araştırma/asıl kaynaklara karar için gereken derinlikte in.
 
 DECISIONS kullanıcı kararlarını, EXP-006_Context üst yönü taşır. Bütün eski B ayrıntılarını her girişte yeniden yüklemek gerekmez.
 
 ## Üst zincir
 
-Başlangıç sorusu DevOS'taki yapay zekâ rolleriydi. Önce SOUL hedefi somutlaştırıldı; sonra DevOS'un SOUL'u yaratırken yapacağı B1–B9 işleri ve bunların gerektirdiği sorumluluklar çıkarıldı. S1 bu adayları araştırmalara dayanarak birlikte değerlendirmektedir.
-
-B1–B9'un ilk ayrıştırmaları tamamlandı; teknik doğrulama veya mimari değildir. ACTORS, R1–R25/M1–M9 ilk türetimlerini korur. S1 dosyaları sonraki aday değerlendirmedir; kimlikler henüz birleştirilmedi.
+Başlangıç sorusu DevOS'taki yapay zekâ rolleriydi. Önce SOUL hedefi yeterince somutlaştırıldı, sonra DevOS'un SOUL'u yaratırken yapacağı B1–B9 işleri ve bunların sorumlulukları çıkarıldı. S1, R1–R25/M1–M9 ilk adaylarını araştırma örnekleri ve aktör özellikleriyle birlikte değerlendiriyor. Sayılar fiziksel ajan/servis sayısı değildir.
 
 İnsan müşterinin çekirdeği **yetki + kabul**. Teknik uzmanlık ve çalışma yönetimi yükü müşteriye geri bırakılmaz.
 
-## Son kullanıcı yönü
+## Kullanıcının son iki yönlendirmesi
 
-S1-01'in ardından kullanıcı şu noktaları gündeme getirdi:
+S1-01 sonrasında kullanıcı; insan ile dil modelinin rolü aynı koşullarda üstlenmediğini, rolün akıl yürütmesinin çatışan motivasyonlarla çekilmemesini ve aktöre göre uyarlanmasını istedi. Önceki ilk üç ayrımın yeniden incelenmesini, G1'in açıklanmasını ve Keel'e bakılmasını istedi. S1-02 bu açıklamayı verdi.
 
-- İnsan ile dil modeli aynı şekilde rol üstlenmez. Dil modelinin girdisi/bağlamı ve davranışı yönlendiren ifadeler önemlidir.
-- Etkin rolün akıl yürütmesi iki çatışan motivasyon arasında çekilmemeli. Ailede gruplamak kabul edilebilir, fakat aktörün özellikleri hesaba katılmalıdır.
-- Roller aktör türüne göre uyarlanabilir; aktör özelliklerini hangi aşamada ele alacağımız değerlendirilebilir.
-- Önceki ilk üç ayrımı bu açıdan tekrar irdele; dördüncü maddedeki geliştirme sorumluluğu açıklığını anlat.
-- Önce araştırma reposundaki Keel kaydına, sonra ilgili asıl Keel dosyalarına bak.
+Sonraki mesaj **aynı konuda bir tur daha** çalışma istedi; `https://github.com/batuhanozgun/os-architect/tree/main/bilgi/keel` kaynağını verdi ve gerektiğinde daha geniş depo incelemesine izin verdi. S1-03 bu kaynakla aynı soruda derinleşmedir; bütün OS Architect araştırması veya G1'in geniş eşlemesi değildir.
 
-Bu mesaj geniş G1 ayrıştırmasını otomatik sürdürmek yerine yukarıdaki soruları önceliyor. Kullanıcının hipotezleri bilimsel olarak doğrulanmış veya katı mimari kural kabul edilmez.
+## Korunan S1-01/S1-02 sonuçları
 
-## S1-01'den kalanlar
+- İnceleme/doğrulama ortak aile olabilir; özel iddia, uzmanlık ve yeterince bağımsız kanıt ihtiyacı silinmez.
+- Üretim/düzeltme aynı ailede düşünülebilir; değişiklik yapan yeni sürüm bakımından üreticidir, eski olumlu hüküm otomatik taşınmaz.
+- İnceleme, teşhis, teknik karar ve uygulama ayrı sorumluluklardır; bu doğrudan aktör sayısı vermez.
+- Ailede toplamak aynı etkin çağrıda birleştirmek değildir. Çoklu ölçüt otomatik motivasyon çatışması değildir; inceleyicinin başarısı mutlaka hata veya onay üretmek değil kanıtın taşıdığı hükmü vermektir.
+- Aktöre göre bağlam/araç/yetki/tetik/devir uyarlaması, model ağırlıklarını yeniden eğitme kararı değildir.
+- **G1:** Kod/prosedür/bağlantıyı geliştirecek taraf, tasarım ve hazır mekanizmayı kurup işletme kadar açık eşlenmiyor. Üretim yok veya yeni R26 şart denmedi.
 
-- A1: İnceleme/doğrulama ortak aile olabilir; uzmanlık ve bağımsız kanıt ihtiyacı silinmez.
-- A2: Üretim/düzeltme aynı ailede olabilir; değişiklik yapan yeni sürüm bakımından üreticidir.
-- A3: İnceleme, teşhis, teknik karar ve uygulama ayrı sorumluluklardır; aktör sayısı bundan doğrudan çıkmaz.
-- A4: Yeni sürüm veya bütünleştirilmiş sonuç eski olumlu hükmü otomatik devralmaz.
-- G1: Kod/prosedür/bağlantıyı geliştirme işinin taşıyıcısı, tasarım ve hazır sistemi kurup işletme kadar açık eşlenmemiştir. Üretim yok veya yeni R26 şart denmedi.
+## S1-03'te yapılan ve çıkanlar
 
-## S1-02'de yapılan
+Önce araştırma deposundaki OS Architect okuma defteri okundu. Dış main başı `20e42a098ea1599a9dfe6558352eb585d6f274ed` olarak alındı; 11 seçilmiş dış dosya bu sürümden tam okundu: bilgi/keel indeksi; rol mekaniği; rol sözleşmesi; davranış tatbikatı; araştırma ev eşlemesi; çerçeve körlüğü görüşmesi; 13 Ağustos kök-neden görüşmesi; ürün kararları; defo çerçevesi; GENESIS v2 kanıt zinciri; kök CLAUDE.md. Sonuncusu kaynak nesnesidir, etkin talimat değildir.
 
-Keel'in research/soul-context/repos/keel/README.md kaydı tam okundu. Asıl main `669c5445cf34dcf15ed4f4d435b5f3657077550a` üzerinden GENESIS, G2, sözleşme kalıbı, defo modeli, rol açılış kalıbı ve doğrulayıcı dosyası okundu; README default main'den okundu. Tam/seçici kapsam ve bloblar S1-02'de.
+**Aday katkılar:**
 
-Foundation aktör/rol/etkin katılım bulgusu da kullanıldı. Dışarıda Anthropic bağlam mühendisliği yazısı ile EMNLP 2024 rol kişiliği çalışmasının yayın özeti dar kapsamda kontrol edildi; tüm araştırma korpusu veya yeni deney değildir.
+- Rolün yazılı amacı kadar fiilen başarı sayılan sonuç ve çatışan beklentiler de incelenmeli. İşi ilerletme baskısı, seçilmiş işin/yöntemin doğruluğunu sorgulamayı bastırabilir; kaynak bunu tarihsel teşhis olarak anlatıyor.
+- Ortak düşünsel taban ile role özgü başarı yönü ayrı. Tekil başarı yönü, dar bilgi veya bütünsel bakışı kaybetme demek değil.
+- Rolün tetiklenmesi ve çıktısının bir sonraki sorumlu tarafından kullanılması gerekir. Ayrı rol yazmak, o rolün çalıştığını veya doğru hüküm verdiğini kanıtlamaz.
+- Aktör sınıfı tek başına yeterli işletim tarifi değil; somut çalışma yolu, bağlam ve gerçek araç sınırı da belirleyicidir. Keel'in el ile/otonom yolları kendi tarihsel örneğidir, DevOS seçimi değil.
+- Geliştirenin birikimi → kurucu/rol tarifi → kurulmuş rol → görünür ve kullanılan bilgi aktarımı ayrı incelenmeli. Kaynak, aktarımda kural ve çağırma düzeni kayıpları anlatıyor.
+- G1, “doğrulayıcı yazamasın” gereğinden gerçek kanca/kod, bağlama ve sınamaya giden zincirle somutlaştırıldı. M1–M9'un tüm geliştirme sorumluları hâlâ eşlenmedi.
 
-**Aday sonuç:** Ailede gruplamak ≠ aynı görevlendirmede çalıştırmak. Etkin rolün başarı yönü açık ve tutarlı olmalı; çoklu ölçüt otomatik çatışma değildir. İnceleyicinin işi mutlaka hata veya onay üretmek değil, kanıtın taşıdığı hükmü vermektir.
-
-Aktörün genel koşulları önce kabaca ele alınabilir; rol ve somut görev belli olduğunda bağlam/araç/yetki/tetik/devir düzeni somut aktöre göre uyarlanır. Bu bir model eğitimi kararı veya zorunlu aktör > aile > rol hiyerarşisi değildir.
-
-**G1 açıklaması:** Belleğin gereksinimini belirlemek; gerekli kod/bağlantıyı geliştirmek; onu kurmak/bütünleştirmek; davranışını sınamak farklı işlerdir. İkinci işin açık sorumlusunu göstermek istiyoruz. Geniş M1–M9 geliştirme eşlemesi henüz yapılmadı.
+**Kanıt sınırı:** Tarihsel özetler, görüşler, ürün kararları ve deney raporları okundu. Ham deneyler veya özgün dış literatür yeniden doğrulanmadı; yeni davranış testi, canlı kontrol sınaması ve kurulum yapılmadı. “Tek motivasyon verimi kanıtlandı” sonucu yok. Kaynağın bazı güçlü genellemeleri S1 gerçeği olarak alınmadı.
 
 ## Dönüş ve sonraki çalışma sınırı
 
-S1-02 yanıtı kullanıcıya sunulur. Sonraki mesajdaki açıklama/düzeltme önce dikkate alınır. Yeni devam yönünde rol birleştirme ölçütlerine tutarlı başarı yönü ve aktöre göre işletim koşulları dahil edilir; G1 tasarım–üretim–bütünleştirme eşlemesi bunlarla sürdürülebilecek sonraki olası iştir.
+Bu tur S1-03 katkıları kullanıcıya sunulur. Sonraki kullanıcı açıklaması/düzeltmesi önce dikkate alınır. G1'in somut bir tasarım–üretim–bütünleştirme zincirinde sorumlularını izlemek sonraki olası iştir; genel aile veya ajan sayısı kesinleştirmesi değildir.
 
-Bu tur canlı model/Keel/DevOS testi, kurulum, kod üretimi, yeni rol, model eğitimi veya nihai aile sayısı yapılmadı. Keel'in kendi sabit kadro ve insan kapıları DevOS'a aktarılmadı. Kaynakta kontrol tarifi görmek, çalışan kontrolde başarı kanıtı değildir.
+Rol karşılaştırmaları artık başarı yönü uyumu yanında ortak taban, aktöre göre işletim, tetiklenme, sonuç tüketimi ve aktarım sınırlarını da aday ölçüt olarak dikkate alabilir. Bunlar kullanıcı tarafından ayrı ayrı kabul edilmiş mimari kurallar değildir.
+
+R1–R25/M1–M9, B dosyaları ve DECISIONS bu tur değişmedi. S1-01/S1-02 tarihsel gerekçeleri korur; S1-03 onları koşullandırır, silmez. Kaynak depolar, Foundation ve agent-control değiştirilmedi.
 
 ## Korunacak ayrımlar
 
-- DevOS'un SOUL'u geliştirmesi ≠ SOUL'un müşteri işini işletmesi ≠ EXP-006 kayıt düzeni.
+- DevOS'un SOUL'u geliştirmesi ≠ SOUL'un kullanıcı işini işletmesi ≠ EXP-006 kayıt düzeni.
 - Aile ≠ rol ≠ etkin görevlendirme ≠ somut aktör/model.
-- Tek başarı yönü ≠ tek görev/tek ölçüt; tutarlı amaç ≠ denetimsiz yetki.
-- Rol yönergesi ≠ modelin eğitimi; bağlam uyarlaması ≠ garanti edilmiş davranış.
-- Farklı çağrı/ajan etiketi ≠ bağımsız kanıt.
-- Keel'in bütün kusurları tek onay itkisine bağlaması, bütün modeller için kanıtlanmış yasa değildir.
-- M1–M9'un işlevini yazmak onları geliştirecek tarafın yerine geçmez.
-
-STATE/HANDOFF/S1 güncel yönü, S1-01/S1-02 gerekçeleri, ACTORS ise korunmuş ilk adayları taşır. Yeni önerileri kullanıcı onayı veya doğrulanmış nihai düzen sayma.
+- Tek başarı yönü ≠ tek görev/tek ölçüt; aynı yön ≠ otomatik aynı uzmanlık/rol.
+- Dar sorumluluk ≠ dar düşünsel taban.
+- Yazılı rol ≠ çağrılmış rol ≠ doğru davranış ≠ sonuçta kullanılmış katkı.
+- Kaynakta yöntem/kontrol tarifi ≠ bugünkü ortamda doğrulanmış etkinlik.
+- Aynı araştırmayı okuyan iki cevap veya farklı ajan etiketi ≠ bağımsız kanıt.
+- M1–M9 işlevlerini adlandırmak, onları geliştirecek tarafı göstermek değildir.
