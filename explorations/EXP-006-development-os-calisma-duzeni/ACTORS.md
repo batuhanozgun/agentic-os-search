@@ -36,6 +36,9 @@ Bu, insanın bütün olası rollerinin tanımı değildir. Teknik keşif/koordin
 | **R7** | Role & Actor Formation Designer / Rol ve Aktör Oluşum Tasarımcısı | B3 | Work ihtiyacını role contract'a ve uygun actor oluşum/bağlama gereksinimine çevirmek | candidate |
 | **R8** | Actor Qualification Reviewer / Aktör Yeterlilik Doğrulayıcısı | B3 | Belirli actor'un belirli role/scope için competence ve fit'ini sınamak | candidate |
 | **R9** | Actor Governance Steward / Aktör Yetki ve Yönetişim Sorumlusu | B3 | Authority, delegation, obligation, participation ve attribution ilişkilerini meşru source/scope'a bağlı tutmak | candidate |
+| **R10** | Work Formation & Planning Designer / İş Oluşum ve Yaşayan Plan Tasarımcısı | B4 | Amaç ve gelişen anlayıştan gerekli Work adaylarını keşfedip yaşayan Work/plan yapısına dönüştürmek | candidate |
+| **R11** | Work Admission & Coordination Steward / İş Kabul ve Koordinasyon Sorumlusu | B4 | Candidate→admission/frontier, dependency, concurrency, coordination ve flow'u yönetmek | candidate |
+| **R12** | Work Progress & Closure Reviewer / İş İlerleme ve Kapanış Doğrulayıcısı | B4 | Gerçek progress'i ve execution/verification/fitness/acceptance/parent closure ayrımlarını sınamak | candidate |
 
 ## Mekanik sorumluluklar — aktör/rol değildir
 
@@ -43,12 +46,13 @@ Bu, insanın bütün olası rollerinin tanımı değildir. Teknik keşif/koordin
 |---|---|---|---|
 | **M1** | Mekanik davranış sınırı / identity-role-grant enforcement | B1, B3; ileride B5/B6 | candidate requirement |
 | **M2** | Information persistence / retrieval / exposure mekanikleri | B2; ileride B5/B6 | candidate requirement |
+| **M3** | Work identity / admission / claim / transition mechanics | B4; ileride B5/B6 | candidate requirement |
 
 ## Henüz kararlaştırılmayanlar
 
 - Development OS'ta kaç yapay zekâ aktör örneği olacağı.
-- R1–R9'un kaç fiziksel agent/model/oturum tarafından taşınacağı.
-- R1/R2/R8 gibi verification sorumluluklarının, R4/R5/R6 Information rollerinin veya R7/R9 Actor-governance rollerinin ileride birleşip birleşmeyeceği.
+- R1–R12'nin kaç fiziksel agent/model/oturum tarafından taşınacağı.
+- R1/R2/R6/R8/R12 gibi verification sorumluluklarının, R4/R5/R6 Information rollerinin, R7/R9 Actor-governance rollerinin veya R10/R11 Work rollerinin ileride birleşip birleşmeyeceği.
 - Bağımsız doğrulama için hangi teknik/organizasyonel izolasyonun gerektiği.
 - Host/runtime/topoloji.
 
