@@ -12,9 +12,10 @@ Normal devam için sırayla oku:
 2. bu dosya
 3. [WORK](WORK.md)
 4. [ACTORS](ACTORS.md)
-5. S1 sırasında yalnız gerekli B dosyalarına [work/](work/) üzerinden in
-6. gerekiyorsa [DECISIONS](DECISIONS.md)
-7. yön/metodoloji drift'i şüphesinde [EXP-006_Context](EXP-006_Context)
+5. [S1 çalışma dosyası](work/S1-role-responsibility-consolidation.md)
+6. S1 sırasında yalnız gerekli B dosyalarına [work/](work/) üzerinden in
+7. gerekiyorsa [DECISIONS](DECISIONS.md)
+8. yön/metodoloji drift'i şüphesinde [EXP-006_Context](EXP-006_Context)
 
 ## Tamamlanan ana Work
 
@@ -42,16 +43,27 @@ Temel soru:
 
 > **Development OS'un gerçekten kaç farklı sorumluluk/rol ailesine ihtiyacı var; R1–R25'in hangileri aynı üst rolün farklı kipleri, hangileri epistemik veya yönetişim gerekçesiyle ayrı kalmalı; M1–M9 hangi gerçek substrate ailelerine sıkışıyor?**
 
-### S1 ilk görevleri
+### Son yönlendirme — araştırmaları S1'e kat
 
-1. R1–R25'i başarı yönüne göre cluster et; isim benzerliğine göre değil.
-2. Designer / Steward / Reviewer / Diagnosis / Formation ayrımlarının hangileri substantive separation gerektiriyor test et.
-3. Verification rollerini claim family ve independence ihtiyacına göre konsolide et.
-4. R3'ün cross-domain diagnosis scope'unu netleştir.
-5. R19/R20 system-formation'ın capability-owner rollerle ilişkisini normalize et.
-6. M1–M9'u enforcement/state/runtime/effect/evaluation gibi substrate ailelerinde birleştirme olasılığını test et.
-7. B1–B9 coverage matrix çıkar; orphan ve duplicate responsibility ara.
-8. Sonuç yeterliyse ancak ondan sonra DevOS structure/topology tartışmasına geç.
+Kullanıcı, studies araştırmalarının bu rollerin uğraşacağı yapılar hakkında bilgi sağlayacağını ve S1'de kullanılmasını istedi. Bu, örneklerin rol adlarını kopyalamak veya hepsini bir sisteme toplamak değildir.
+
+[S1 dosyası](work/S1-role-responsibility-consolidation.md) ilk kaynak rotalarını, gerçek okuma kapsamını ve kaynak–çıkarım sınırlarını taşır. Bu hazırlık turunda rol adayları değiştirilmedi; S1 sonucu veya canlı doğrulama elde edilmedi.
+
+İlk önerilen inceleme dilimi **üretim–inceleme–düzeltme sorumluluklarıdır**. Superpowers'ın ilgili kaynaklarına, ardından gerekliyse gstack karşılaştırmasına in; ilgili B tanımlarıyla aynı analiz düzeyinde karşılaştır. Her kümede yalnız birleşme/ayrılma değil, rolün ihtiyaç duyduğu bilgi, yöntem, erişim ve mekanik destek de görünür olsun.
+
+Örnek sistemin işi yürütmesi ile Development OS'un o kapasiteyi SOUL için geliştirmesini ayır. M1–M9'un varlığı bunları üretecek ve sınayacak teknik sorumlulukları kendiliğinden karşılamaz; bu sınırı da S1'de kontrol et.
+
+### S1 görevleri
+
+1. İlgili araştırmayı önce kendi bağlamı ve kanıt sınırıyla oku; sorgulanan DevOS sorumluluğuna katkısını belirt.
+2. R1–R25'i başarı yönüne göre cluster et; isim benzerliğine göre değil.
+3. Designer / Steward / Reviewer / Diagnosis / Formation ayrımlarının hangileri substantive separation gerektiriyor test et.
+4. Verification rollerini claim family ve independence ihtiyacına göre konsolide et.
+5. R3'ün cross-domain diagnosis scope'unu netleştir.
+6. R19/R20 system-formation'ın capability-owner rollerle ilişkisini normalize et.
+7. M1–M9'u enforcement/state/runtime/effect/evaluation gibi substrate ailelerinde birleştirme olasılığını ve geliştirme sorumlularını test et.
+8. B1–B9 coverage matrix çıkar; orphan ve duplicate responsibility ara.
+9. Sonuç yeterliyse ancak ondan sonra DevOS structure/topology tartışmasına geç.
 
 ## Drift korumaları
 
@@ -59,9 +71,11 @@ Temel soru:
 - aynı isimli işler = aynı rol deme; başarı yönünü karşılaştır.
 - farklı isim = farklı actor gerek demek değil.
 - verifier'ları sırf sayıyı azaltmak için birleştirip independence'i yok etme.
+- Araştırmaları mevcut 25 adayı yalnız doğrulamak için kullanma; karşı örnek ve eksikleri de koru.
+- Tamamlanmış bulgu, kısmi araştırma ve yalnız araştırma sırasına alınmış aday birbirinden farklıdır.
 - architecture/topology/tool seçimine S1 tamamlanmadan atlama.
 - kullanıcıyı eksik role-merge kararlarının teknik oracle'ı yapma.
 
 ## Yetki sınırı
 
-S1 architecture öncesi consolidation'dır; implementasyon veya host/tool seçimi değildir.
+S1 architecture öncesi consolidation'dır; implementasyon veya host/tool seçimi değildir. Yeni dış ürün araştırması, kurulum veya bütün studies'i baştan okuma bu hazırlıkla otomatik başlamaz.
