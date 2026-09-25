@@ -94,3 +94,24 @@ Yük taşıyan SOUL tanımı/baz yapı noktaları için EXP-002'nin özgün kull
 **Okumanın amacı:** Development OS'un yaratması gereken SOUL'u kısa slogan değil, Work keşfinde kullanılabilecek kadar somut ve kapsamlı bir hedef olarak tanımlamak.
 
 **Güncel çalışma sonucu:** kapsamlı bir aday SOUL hedef tanımı bu okumalardan sentezlenmektedir; henüz kullanıcı tarafından kabul edilmiş tanım veya mimari değildir. Sonraki yetkili hareket bu tanımı kullanıcıya sunup birlikte irdelemektir. `EXP-006_Context` yalnız kullanıcıyla önceden onaylanan bağlam metnini taşır; bu yeni sentez oraya otomatik yazılmamıştır.
+
+
+## Development OS → SOUL ilk Work haritası adayı — 25 Eylül 2026
+
+Kullanıcı, kapsamlı SOUL hedef tanımını bu aşama için yeterince somut kabul etti ve RPD'nin ikinci kök işine geçmeyi onayladı: **bu hedef için gereken işleri keşfetmek**. Bu turda rol, agent sayısı, dosya yapısı veya araç seçimi yapılmayacak; yalnız birinci seviye Development OS Work aileleri çıkarılacak.
+
+İlk aday harita:
+
+1. **SOUL-native entelektüel/çalışma tabanını geliştirmek:** ihtiyaç keşfi, sistem görüşü, araştırmayı kullanma, kanıt/varsayım ayrımı, belirsizlik, profesyonel çalışma standardı ve gerektiğinde derin bilgiye dönme davranışlarını oluşturmak ve sınamak.
+2. **Information kapasitesini geliştirmek:** kalıcı bilgi/records, memory, context formation, retrieval, kaynak/provenance, sürüm/güncellik, değişiklik etkisi ve bilginin ilgili aktöre gerçekten kullanılabilir biçimde taşınması.
+3. **Actors kapasitesini geliştirmek:** rol ve aktör oluşturma/bağlama; competence/capability, authority/permission/obligation, delegation/representation, insan müşterinin yetki+kabul ilişkisi, aktör yaşam döngüsü ve yeterlik değerlendirmesi.
+4. **Work kapasitesini geliştirmek:** amaçtan ihtiyaç/Work keşfi, yöntem ve karar ihtiyaçları, yaşayan plan/frontier, bağımlılık/koordinasyon, yürütme durumu, tamamlanma/verification/acceptance ayrımı, değişiklik ve rework.
+5. **Environment kapasitesini geliştirmek:** runtime, araçlar, çalışma alanı/sandbox, veri ve kaynak erişimi, credentials/network/tool availability, gerçek effect yolları, gözlenebilirlik ve fiilî actionability.
+6. **Dört zeminin birleşim ve kontrol mekanizmalarını geliştirmek:** Information–Actors–Work–Environment ilişkilerini; readiness, context, authority, assignment, effect, verification, acceptance, change impact ve transition sınırlarını birlikte doğru işletmek.
+7. **System-formation / işe göre genişleme kapasitesini geliştirmek:** verilen amaç için hangi çalışma düzeninin gerektiğini keşfetmek; gerekli aktör, rol, bilgi düzeni, yöntem, araç, environment ve kontrolleri seçip kurmak/değiştirmek; sabit tek yapı uygulamamak.
+8. **Süreklilik, değişim, recovery ve öğrenme kapasitesini geliştirmek:** oturum/aktör kaybında Work'ü kaybetmemek; stale/partial/unknown effect durumlarını uzlaştırmak; yeni bilgi ve sonuçlarla yalnız etkilenen parçaları yeniden açmak; yöntem ve birikimi koşullu biçimde güncellemek.
+9. **Bütün SOUL'u entegre etmek ve gerçek görevlerde yeterliğini sınamak:** parçaların birlikte çalışmasını göstermek; farklı alan/ölçeklerde hedef→çalışma sistemi→gerçek etki→kanıt→kabul zincirini sınamak; yalnız mekanizma açıklaması veya aynı-model self-review ile SOUL tamamlandı dememek.
+
+Bu liste **aday birinci seviye Work haritasıdır**, kabul edilmiş Development OS planı veya SOUL modül mimarisi değildir. Foundation'ın dört ground'u yazılım modülü olarak varsayılmıyor; 2–5 numaralı iş aileleri bu problem zeminlerinde gerekli SOUL kapasitesini geliştirme işlerini temsil ediyor. 6–8 özellikle ground'lar arası ilişki ve zamansal davranışın tek ground'a indirgenemediği için ayrı aday işler olarak tutuluyor.
+
+Sonraki hareket: kullanıcıyla bu ilk Work haritasının doğru soyutlama seviyesinde olup olmadığını, eksik/fazla/örtüşen dalları tartışmak; kabul edilen haritadan sonra tek tek dallara RPD ile inmek. Yapay zekâ rollerine henüz dönülmeyecek; roller yeterli Work resmi oluştuktan sonra türetilecek.
