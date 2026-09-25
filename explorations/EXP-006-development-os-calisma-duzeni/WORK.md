@@ -1,9 +1,9 @@
 # EXP-006 — WORK
 
-**Rol:** EXP-006 içindeki current Work haritası ve sequencing yüzeyi.  
-**Statü:** DIALOGUE WORK SYSTEM / çalışma haritası; Development OS mimarisi değildir.  
+**Rol:** EXP-006'nın üst iş haritası ve çalışma sırası.  
+**Statü:** Diyalog ve araştırma çalışma haritası; Development OS mimarisi değildir.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
-**Current Work:** **S1 — B1–B9 sonuçlarını konsolide edip rol/sorumluluk mimarisine geçişi hazırlamak.**
+**Güncel iş:** **S1 — B1–B9 sonuçlarını araştırma örnekleriyle birlikte değerlendirmek.**
 
 ## Katman mantığı
 
@@ -14,74 +14,77 @@ Development OS'un SOUL üzerinde yapacağı ana işler (B1–B9)
   ↓
 Her iş için gerekli Development OS kabiliyet ve sorumlulukları
   ↓
-Bu sorumlulukları taşıyacak yapay zekâ rolleri / mekanik sistemler / insan
+Bunları taşıyabilecek yapay zekâ rolleri / mekanik sistemler / insan
+  ↓
+S1 — gerekçeli rol ve sorumluluk konsolidasyonu
   ↓
 Development OS yapısı
   ↓
 İhtiyaçtan türeyen mekanizma ve araç seçimleri
 ```
 
-Roller Work'ten önce icat edilmez. Bir kabiliyet veya sorumluluk adı otomatik olarak ayrı rol, agent, servis veya dosya anlamına gelmez.
+Roller işten önce icat edilmez. Bir kabiliyet veya sorumluluk adı otomatik olarak ayrı rol, ajan, servis veya dosya anlamına gelmez.
 
-## Birinci seviye Work haritası
+## Birinci seviye iş haritası
 
 | ID | Development OS'un SOUL üzerinde yaptığı iş | Güncel statü | Ayrıntı |
 |---|---|---|---|
-| **B1** | SOUL'un ortak entelektüel çalışma tabanını geliştirmek | **EXPLORED / candidate decomposition** | [B1](work/B1-common-intellectual-baseline.md) |
-| **B2** | SOUL'un Information kapasitesini geliştirmek | **EXPLORED / candidate decomposition** | [B2](work/B2-information-capacity.md) |
-| **B3** | SOUL'un Actors kapasitesini geliştirmek | **EXPLORED / candidate decomposition** | [B3](work/B3-actors-capacity.md) |
-| **B4** | SOUL'un Work kapasitesini geliştirmek | **EXPLORED / candidate decomposition** | [B4](work/B4-work-capacity.md) |
-| **B5** | SOUL'un Environment kapasitesini geliştirmek | **EXPLORED / candidate decomposition** | [B5](work/B5-environment-capacity.md) |
-| **B6** | Dört zemini birbirine doğru bağlayan düzeni geliştirmek | **EXPLORED / candidate decomposition** | [B6](work/B6-cross-ground-integration.md) |
-| **B7** | SOUL'un işe göre çalışma sistemi kurma ve genişletme kapasitesini geliştirmek | **EXPLORED / candidate decomposition** | [B7](work/B7-system-formation.md) |
-| **B8** | Süreklilik, değişim, toparlanma ve öğrenme kapasitesini geliştirmek | **EXPLORED / candidate decomposition** | [B8](work/B8-continuity-change-recovery.md) |
-| **B9** | Ortaya çıkan SOUL'u bütün olarak birleştirmek ve gerçek görevlerle sınamak | **EXPLORED / candidate decomposition** | [B9](work/B9-integration-and-testing.md) |
+| **B1** | SOUL'un ortak entelektüel çalışma tabanını geliştirmek | İlk ayrıştırma yapıldı / aday | [B1](work/B1-common-intellectual-baseline.md) |
+| **B2** | SOUL'un bilgi kapasitesini geliştirmek | İlk ayrıştırma yapıldı / aday | [B2](work/B2-information-capacity.md) |
+| **B3** | SOUL'un aktör kapasitesini geliştirmek | İlk ayrıştırma yapıldı / aday | [B3](work/B3-actors-capacity.md) |
+| **B4** | SOUL'un iş kapasitesini geliştirmek | İlk ayrıştırma yapıldı / aday | [B4](work/B4-work-capacity.md) |
+| **B5** | SOUL'un ortam kapasitesini geliştirmek | İlk ayrıştırma yapıldı / aday | [B5](work/B5-environment-capacity.md) |
+| **B6** | Dört zemini birbirine doğru bağlayan düzeni geliştirmek | İlk ayrıştırma yapıldı / aday | [B6](work/B6-cross-ground-integration.md) |
+| **B7** | SOUL'un işe göre çalışma sistemi kurma ve genişletme kapasitesini geliştirmek | İlk ayrıştırma yapıldı / aday | [B7](work/B7-system-formation.md) |
+| **B8** | Süreklilik, değişim, toparlanma ve öğrenme kapasitesini geliştirmek | İlk ayrıştırma yapıldı / aday | [B8](work/B8-continuity-change-recovery.md) |
+| **B9** | Ortaya çıkan SOUL'u bütün olarak birleştirmek ve gerçek görevlerle sınamak | İlk ayrıştırma yapıldı / aday | [B9](work/B9-integration-and-testing.md) |
 
 ## Statülerin anlamı
 
-- **NOT OPENED:** yalnız birinci seviye Work olarak tanımlı; alt gereksinimleri henüz çıkarılmadı.
-- **CURRENT:** şu anda ayrıştırılan Work.
-- **EXPLORED / candidate decomposition:** alt sorumluluklar ve ilk taşıyıcı adayları çıkarıldı; nihai rol/mimari kabulü değildir.
-- Daha güçlü bir “accepted/validated” statüsü, yalnız kullanıcı kararı veya uygun doğrulama sonrasında kullanılabilir.
+İlk ayrıştırma yapılmış olması, alt sorumluluklar ve ilk taşıyıcı adaylarının çıkarıldığı anlamına gelir; nihai rol/mimari kabulü veya uygulanmış kapasite değildir. Önceki dal dosyalarındaki `EXPLORED / candidate decomposition` aynı statüyü taşır.
 
-## Current sequencing
+Kullanıcının devam izni, araştırma bulgusunun teknik doğrulaması değildir. Kabul, kaynak kanıtı ve gerçek uygulama ayrı tutulur. Eski B dosyalarındaki sıradaki B yönlendirmeleri kendi üretim anlarının kaydıdır; güncel sıra STATE/HANDOFF ve bu üst haritadan alınır.
 
-B1–B9 ilk ayrıştırmalarında kullanılan sıra:
+## B1–B9 ilk ayrıştırmalarında kullanılan yöntem
 
-1. Work'ün hedef çıktısını tanımla.
-2. Development OS'un bu Work'ü yapabilmesi için gerekli kabiliyet/sorumlulukları çıkar.
-3. Her sorumluluğu “kim/ne taşımalı?” diye ayır.
+1. İşin hedef çıktısını tanımla.
+2. Development OS'un bunu yapabilmesi için gerekli kabiliyet ve sorumlulukları çıkar.
+3. Her sorumluluğu kim/ne taşımalı diye ayır.
 4. Yapay zekâ rolü, mekanik sorumluluk ve insan sınırını ayır.
-5. Yeni rolleri [ACTORS](ACTORS.md) içindeki mevcut adaylarla karşılaştır; gereksiz kopya rol üretme.
-6. Work ayrıntısını kendi B dosyasında, current konumu burada tut.
+5. Yeni adayı ACTORS içindeki mevcut adaylarla karşılaştır; gereksiz kopya rol üretme.
+6. Ayrıntıyı ilgili B dosyasında, güncel konumu üst çalışma kayıtlarında tut.
 
-**Sıradaki işlem:** [S1 çalışma dosyasındaki](work/S1-role-responsibility-consolidation.md) araştırma rotalarıyla önce üretim–inceleme–düzeltme sorumluluklarını karşılaştırmak. B1–B9 boyunca oluşan R1–R25 ve M1–M9 adayları, yalnız ad benzerliğine göre değil araştırmalardaki mekanizmalar, gerekli bilgi/kabiliyet, yetki ve hata sınırlarıyla konsolide edilecek. Birleştirme, ayırma, koruma veya eksik sorumluluk açma sonuçları gerekçeli ve aday kalır. Bu yapılmadan Development OS mimarisine geçilmez.
+## S1 — Araştırmaya dayalı konsolidasyon
+
+**Yöntem ve kaynak rotaları:** [S1 çalışma dosyası](work/S1-role-responsibility-consolidation.md).
+
+S1 yalnız R1–R25'i daha az isme indirme işi değildir. Araştırmalardaki mekanizmalar; sorumluluk ayrımını, gereken bilgi/kabiliyeti, yetkiyi, hata sınırlarını ve fiilî geliştirme yükünü sınamak için kullanılır. Birleştirme, ayırma, koruma, eksik sorumluluk açma ve açık bırakma sonuçları gerekçeli kalır.
+
+### Güncel ilerleme
+
+- Hazırlık ve kaynak seçimi tamamlandı.
+- [S1-01 — üretim, inceleme ve düzeltme](work/S1-01-production-review-correction.md) sınırlı incelemesi tamamlandı. A1–A4 ve G1 sonuçları **adaydır**; kullanıcı tarafından henüz kabul edilmiş sayılmaz.
+- Ortak inceleme ailesi önerisi R2/R6/R8/R12/R15/R18'in özel sorularını silmez. Üretim ile düzeltme birlikte düşünülebilir; teşhis, karar, değişiklik ve yeniden sınama ayrılır.
+- **G1:** M1–M9'un ve ilgili prosedürlerin fiilî geliştirme sorumluluğu, tasarım ve kurulum/işletimden yeterince açık ayrılmıyor. Üretim hiç düşünülmedi veya zorunlu yeni rol var denmedi.
+- R1–R25/M1–M9 ilk türetim kaydı [ACTORS](ACTORS.md) içinde korunur. Yeni R/M kimliği veya nihai birleştirme yapılmadı.
+
+**Önerilen sonraki dilim:** G1 üzerinden tasarım → üretim/uyarlama → bütünleştirme → sınama zincirini netleştirmek. B1/B2/B5/B6 aktarım noktaları, R14/R20 kapsamları ve ilgili araştırma örneklerine inilecek. Bu dilim henüz yapılmadı; yeni kullanıcı yönüyle devam edilecek.
+
+### S1 boyunca açık kalan sorular
+
+- Hangi adaylar aynı üst rol ailesinin farklı uzmanlık veya görev kipleridir?
+- Hangi inceleme iddiaları aynı görevlendirmede taşınabilir; nerede farklı bilgi veya yeterince bağımsız kanıt gerekir?
+- Tasarım, üretim, kurulum ve işletim hangi noktalarda farklı sorumluluk doğurur?
+- R3'ün alanlar arası teşhisinin bilgi/yeterlik sınırı nedir?
+- R19/R20'nin diğer sorumlularla ilişkisi, DevOS geliştirmesi ile SOUL işletimini karıştırmadan nasıl kurulmalı?
+- M1–M9 daha az sayıda teknik düzenle taşınabilir mi; bunları kim geliştirecek ve sınayacak?
+- Her B1–B9 işi için açık geliştirme sorumlusu, sınama yolu ve gerekli mekanik destek var mı?
+- İnsan yetki/kabul çekirdeği hangi kararlarda gerçekten gerekir?
+
+S1 bitmeden mimariye geçilmez. Bu incelemenin kaynağa dayalı olması, bütün rol düzeninin bağımsız doğrulandığı anlamına gelmez.
 
 ## Önemli sınır
 
-B1–B9, SOUL'un modül listesi değildir. Foundation'daki Information / Actors / Work / Environment zeminleri de dört yazılım modülü olarak varsayılmamaktadır. Bunlar Development OS'un SOUL'da geliştirmesi gereken problem/kabiliyet alanlarını takip etmek için kullanılan Work ayrımlarıdır.
+B1–B9, SOUL'un modül listesi değildir. Foundation'daki bilgi, aktör, iş ve ortam zeminleri de dört yazılım modülü olarak varsayılmamaktadır.
 
-
-## Sonraki faz — S1 rol/sorumluluk konsolidasyonu
-
-B1–B9 birinci-seviye Work ayrıştırması tamamlandı.
-
-Bu sonuç doğrudan “Development OS 25 AI rolü ve 9 mekanik modülden oluşur” anlamına gelmez. Tam tersine şimdi şu sorular açılmalıdır:
-
-- Hangi R rolleri aslında aynı üst rol ailesinin farklı görev kipleri?
-- Hangi verifier'lar tek verification fonksiyonunda birleşebilir, hangileri independence nedeniyle ayrı instantiation ister?
-- Hangi steward/designer ayrımları kalıcı rol ayrımı, hangileri yalnız Work mode farkı?
-- R3 gibi cross-domain rollerin gerçek scope'u nedir?
-- R19/R20 gibi system-formation rolleri diğer capability owner'larını nasıl kullanır?
-- M1–M9 ayrı mekanizmalar mı, yoksa daha az sayıda substrate'ın sorumluluk kümeleri mi?
-- Her B Work ailesinin en az bir açık owner/assurance/mechanical path'i var mı?
-- İnsan yetki+kabul çekirdeği hangi transition/gate'lerde gerçekten gerekir?
-- Bu konsolidasyondan sonra Development OS yapısı hangi minimum rol/control topolojisiyle kurulabilir?
-
-S1 ayrı Work haritası değildir; B1–B9'un türettiği adayları architecture öncesi normalize eden geçiş fazıdır. Ayrıntılı yöntemi ve okuma rotaları [S1 dosyasında](work/S1-role-responsibility-consolidation.md) tutulur; bu üst haritada araştırmaların tam içerikleri kopyalanmaz.
-
-### Araştırma kullanımının güncel kapsamı
-
-Kullanıcı studies örneklerinin S1'de kullanılmasını istedi. İlk kaynak seçimi ve iki sınırlı karşılaştırma girdisi kaydedildi; henüz rol birleştirme/ayırma sonucu yok. Araştırmalar mevcut adayları onaylamak için değil, eksik ve yanlış ayrımları da bulmak için kullanılacak.
-
-Örnek sistemdeki işletim rolü ile DevOS'un o kapasiteyi SOUL için geliştirme sorumluluğu aynı sayılmaz. Mekanik sorumlulukların tasarımını, uygulamasını ve sınamasını kimin üstleneceği de açık kalmamalıdır. Kaynakların mevcut olması, bu bilgiye erişme ve onu kullanma kabiliyetinin oluştuğunu kanıtlamaz.
+Örnek sistemin kendi işini işletmesi ile DevOS'un o kapasiteyi SOUL için geliştirmesi aynı sayılmaz. Mekanik sorumluluk tanımı onu geliştirecek aktörün yerine geçmez; kaynakların bulunması da bunlara erişme ve kullanma kabiliyetini kendiliğinden sağlamaz.
