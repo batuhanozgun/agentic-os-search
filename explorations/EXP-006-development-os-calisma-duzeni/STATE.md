@@ -4,7 +4,7 @@
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
 **Current phase:** B1–B9 Work ayrıştırması tamamlandı; architecture öncesi rol/sorumluluk konsolidasyonu.  
 **Current Work:** **S1 — B1–B9 sonuçlarını çapraz konsolide etmek.**  
-**Next:** R1–R25 ve M1–M9'u role family / responsibility / assurance / mechanical substrate açısından normalize etmek; coverage boşluklarını bulmak; sonra Development OS yapısına geçiş kriterini değerlendirmek.
+**Next:** [S1 çalışma dosyasındaki](work/S1-role-responsibility-consolidation.md) araştırma rotalarıyla önce üretim–inceleme–düzeltme sorumluluklarını karşılaştırmak; ardından R1–R25 ve M1–M9 için gerekçeli konsolidasyonu sürdürmek. Yalnız rol adlarını gruplamak veya sayıyı azaltmak yeterli değildir.
 
 ## Current çalışma modeli
 
@@ -26,12 +26,14 @@ SOUL hedefi
 - İnsan/müşteri çekirdeği **yetki + kabul** olarak korunur.
 - R18 B6/B7/B9 integrated assurance için yeniden kullanılmıştır; yeni verifier her B dalında otomatik üretilmemiştir.
 - B9 testing sonucu canlı SOUL doğrulaması değildir; Development OS testing capacity requirement'ıdır.
+- S1 için studies kullanım yöntemi, ilk kaynak rotaları ve iki sınırlı karşılaştırma girdisi kaydedildi. Henüz rol birleştirme/ayırma sonucu yok; S1 tamamlanmadı.
 - Nihai Development OS mimarisi hâlâ seçilmedi.
 
 ## Canonical yüzeyler
 
 - [HANDOFF](HANDOFF.md) — fresh-session devir kaydı.
 - [WORK](WORK.md) — B1–B9 ve S1 current sequencing.
+- [S1 çalışma dosyası](work/S1-role-responsibility-consolidation.md) — araştırma kullanımı, karşılaştırma yöntemi, okuma kapsamı ve ilk inceleme dilimi.
 - [ACTORS](ACTORS.md) — R1–R25 ve M1–M9 registry'si.
 - [DECISIONS](DECISIONS.md) — kullanıcıyla netleşen kararlar.
 - [EXP-006_Context](EXP-006_Context) — yön ve çalışma metodolojisi.
@@ -44,7 +46,8 @@ S1 tamamlanmış sayılabilmesi için en azından:
 3. her B1–B9 Work alanının owner/assurance/mechanical coverage'ı kontrol edilmiş;
 4. insan authority/acceptance sınırları korunmuş;
 5. aynı sorumluluğun duplicate owner'ları veya sahipsiz sorumluluklar belirlenmiş;
-6. architecture'a geçiş için yeterli normalleştirilmiş rol/control resmi oluşmuş olmalıdır.
+6. architecture'a geçiş için yeterli normalleştirilmiş rol/control resmi oluşmuş;
+7. önemli ayrımlar ilgili araştırma örnekleriyle sınanmış; kaynak bulgusu, S1 çıkarımı, gereken bilgi/kabiliyet ve henüz karşılanmamış kanıt ihtiyacı ayrılmış olmalıdır.
 
 ## Non-decisions
 
