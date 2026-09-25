@@ -23,7 +23,7 @@ Development OS yapısı
 İhtiyaçtan türeyen mekanizma ve araç seçimleri
 ```
 
-Roller işten önce icat edilmez. Bir kabiliyet veya sorumluluk adı otomatik olarak ayrı rol, ajan, servis veya dosya anlamına gelmez. Rol ailesi de aynı model çağrısında birleştirilmiş görev demek değildir.
+Roller işten önce icat edilmez. Bir kabiliyet veya sorumluluk adı otomatik ayrı rol, ajan, servis veya dosya anlamına gelmez. Rol ailesi de aynı model çağrısında birleştirilmiş görev demek değildir.
 
 ## Birinci seviye iş haritası
 
@@ -58,23 +58,26 @@ Kullanıcının devam izni teknik doğrulama değildir. Kabul, kaynak kanıtı v
 
 **Yöntem ve kaynak rotaları:** [S1 çalışma dosyası](work/S1-role-responsibility-consolidation.md).
 
-S1 yalnız R1–R25'i daha az isme indirme işi değildir. Araştırmalar sorumluluk ayrımını, gereken bilgi/kabiliyeti, yetkiyi, hata sınırlarını ve fiilî geliştirme yükünü sınar. Kullanıcının son yönüyle aktörün özellikleri, etkin rolün tutarlı başarı yönü ve somut görevlendirme koşulları da değerlendirilir.
+S1 yalnız R1–R25'i daha az isme indirme işi değildir. Araştırmalar sorumluluk ayrımını, gereken bilgi/kabiliyeti, yetkiyi, hata sınırlarını ve fiilî geliştirme yükünü sınar. Aktörün özellikleri, etkin rolün başarı yönü, bağlam/araç koşulları ve gerektiğinde çağrılması da değerlendirilir.
 
 ### Güncel ilerleme
 
 - Hazırlık ve kaynak seçimi tamamlandı.
-- [S1-01](work/S1-01-production-review-correction.md): A1–A4/G1 adayları. Ortak inceleme ailesi, üretim–düzeltme, teşhis/karar ayrımı ve sürüme bağlı kanıt.
-- [S1-02](work/S1-02-actor-conditioned-role-purpose.md): Kullanıcının aktör türü/motivasyon/uyarlama itirazı ve Keel kaynak incelemesi. Ailede gruplamak ile aynı etkin görevlendirmede çalıştırmak ayrıldı; çoklu ölçüt ile çatışan başarı yönleri eşitlenmedi.
-- **G1:** Gerekli kod/prosedür/bağlantının geliştirilmesini, hazır mekanizmayı kurma/işletmeden ayıran sorumluluk eşlemesi açık kalıyor. S1-02 açıklama sağladı; geniş eşleme yapmadı.
-- R1–R25/M1–M9 ilk türetimleri ACTORS içinde korunur. Yeni R/M kimliği veya nihai birleştirme yapılmadı.
+- [S1-01](work/S1-01-production-review-correction.md): A1–A4/G1 adayları. Ortak inceleme ailesi, üretim–düzeltme, teşhis/karar ayrımı, sürüme bağlı kanıt.
+- [S1-02](work/S1-02-actor-conditioned-role-purpose.md): kullanıcının aktör türü/motivasyon/uyarlama yönü ve Keel kaynakları. Ailede gruplamak ile aynı etkin görevlendirmede çalıştırmak ayrıldı; çoklu ölçüt ile çatışan başarı yönü eşitlenmedi.
+- [S1-03](work/S1-03-role-purpose-activation-and-transfer.md): kullanıcının aynı konuda bir tur daha isteği üzerine OS Architect'in Keel geliştirme kayıtları okundu. Rolün fiilî başarı yönü, ortak düşünsel taban, tetiklenme/sonuç tüketimi ve geliştiren→kurucu→kurulmuş role aktarım yükleri görünür kılındı. Sonuçlar aday; ham deney ve güncel araç davranışı doğrulanmadı.
+- **G1:** Kod/prosedür/bağlantının geliştirilmesini, hazır mekanizmayı kurma/işletmeden ayıran sorumluluk eşlemesi açık. S1-02 bellek, S1-03 rolün yazma sınırı örneğiyle açıklama sağladı; bütün M1–M9 için eşleme yapılmadı.
+- R1–R25/M1–M9 ilk türetimleri ACTORS içinde korunur. Yeni R/M kimliği veya nihai birleştirme yok.
 
-**Güncel dönüş:** S1-02 açıklaması kullanıcıya sunulur. Sonraki kullanıcı yönüyle G1'in tasarım → üretim/uyarlama → bütünleştirme → sınama zinciri yeni aktör/rol ölçütleriyle değerlendirilebilir. Bu sonraki geniş dilim henüz yapılmadı; model eğitimi, tüm aktör türlerinin envanteri veya mimari çalışması otomatik başlamaz.
+**Güncel dönüş:** S1-03 katkıları kullanıcıya sunulur. Sonraki kullanıcı yönüyle G1'in tasarım → üretim/uyarlama → bütünleştirme → sınama zinciri bu aktör/rol ölçütleriyle değerlendirilebilir. Model eğitimi, tüm aktör türlerinin envanteri veya mimari çalışması otomatik başlamaz.
 
 ### S1 boyunca açık kalan sorular
 
 - Hangi adaylar aynı ailenin farklı uzmanlık veya görev kipleri?
-- Hangi sorumluluklar aynı etkin görevlendirmede tutarlı başarı yönü taşıyabilir?
-- Rolün amacı korunurken somut aktöre hangi bağlam, araç, yetki, tetik ve devir koşulları sağlanmalı?
+- Hangi sorumluluklar aynı etkin görevlendirmede tutarlı başarı yönü taşıyabilir; hangi yerel başarı üst amacı bozabilir?
+- Ortak düşünsel taban korunurken role hangi bağlam, araç, yetki, tetik ve devir koşulları sağlanmalı?
+- Rolün gerçekten çağrılması ve sonucunun sonraki işte kullanılması nasıl görülecek?
+- Geliştirenin birikimi kurucuya ve kurulmuş role aktarılırken ne kaybolabilir?
 - Nerede farklı bilgi/yeterlik veya yeterince bağımsız kanıt gerekir?
 - Tasarım, üretim, kurulum ve işletim nerede farklı sorumluluk doğurur?
 - R3'ün alanlar arası teşhisinin bilgi/yeterlik sınırı nedir?
@@ -87,6 +90,6 @@ S1 bitmeden mimariye geçilmez. Kaynaklara dayalı değerlendirme, bütün rol d
 
 ## Önemli sınır
 
-B1–B9 SOUL modülleri değildir; Foundation'ın bilgi, aktör, iş ve ortam zeminleri dört yazılım modülü sayılmaz. Keel kendi bağlamında bir örnektir; sabit kuralları DevOS'a ithal edilmez.
+B1–B9 SOUL modülleri değildir; Foundation'ın bilgi, aktör, iş ve ortam zeminleri dört yazılım modülü sayılmaz. Keel ve OS Architect kendi bağlamlarında kaynak örnekleridir; eski kuralları, kuyrukları ve kullanıcı kapıları DevOS'a veya EXP-006'ya ithal edilmez.
 
-Örnek sistemin işletimi ile DevOS'un o kapasiteyi SOUL için geliştirmesi aynı şey değildir. Mekanik sorumluluk onu geliştirecek aktörün yerine geçmez; kaynakların bulunması da erişme/kullanma kabiliyetini kendiliğinden sağlamaz.
+Örnek sistemin işletimi ile DevOS'un o kapasiteyi SOUL için geliştirmesi aynı şey değildir. Mekanik sorumluluk onu geliştirecek aktörün yerine geçmez; kaynakların bulunması erişme/kullanma kabiliyetini kendiliğinden sağlamaz. S1-03 yalnız bu ayrımları değerlendiren kayıt/devir yüzeylerini değiştirdi; kaynak depolar ve ilk rol kayıtları korunur.
