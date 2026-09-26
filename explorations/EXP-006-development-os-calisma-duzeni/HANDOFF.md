@@ -3,7 +3,7 @@
 **Amaç:** Yeni oturumun son alt konu kadar onun üst işteki nedenini ve dönüş noktasını devralması.  
 **Güncelleme:** 26 Eylül 2026.  
 **Güncel iş:** S1 — araştırmaya dayalı Development OS rol/sorumluluk konsolidasyonu.  
-**Son teslimat:** [S1-08](work/S1-08-design-formation-family.md), F1 Tasarlama/Oluşturma family consolidation; aday sonuç.
+**Son teslimat:** [S1-09](work/S1-09-realization-implementation-family.md), F2 Gerçekleştirme/Uygulama family consolidation; aday sonuç.
 
 ## 1. Yeni oturumda okuma
 
@@ -60,7 +60,7 @@ S1-04 meşru okuma/raporlama, yasak değişiklik, eksik kontrol, yeni rol oluşu
 
 EXP-006 cevapları kısa ve doğrudan olmalı: önce ne yaptığımız, sonra bu turda ne çıktığı, sonra sıradaki adım. Örnekler ana sonucu gömmemeli. Bu kural EXP-006_Context ve DECISIONS içinde kalıcılaştırıldı.
 
-S1-08 sonucunu kullanıcıya sun. F1 ve F5 ilk iki family consolidation olarak aday biçimde ayakta. R4'ün F3 ataması geri açıldı. Sıradaki aile F2 Teknik Gerçekleştirme/Üretim'dir.
+S1-09 sonucunu kullanıcıya sun. F1, F2 ve F5 aday familyalar olarak ayakta. F2'nin R1–R25 içinde birincil owner'ı yok. Sıradaki aile F3 İşletim/Stewardship/Koordinasyon'dur; Information lifecycle operation coverage ayrıca kontrol edilir.
 
 Devamda bu görevlendirmenin başka bir geliştirme alanında aynı başarı yönüyle çalışıp çalışamayacağını karşılaştırmak mümkündür. Örneğin bilgiye erişim/bağlam üretimi başka uzmanlık isteyebilir; tek güvenlik örneğinden evrensel geliştirici rolü çıkarılmaz. Böyle bir ikinci örnek bu tur yapılmadı. Genel aile sayısı, fiziksel aktör, araç/ortam, model eğitimi ve mimari kararları açık kalır.
 
