@@ -31,29 +31,32 @@ Roller işten türetilir. Rol ailesi aynı etkin görevlendirme veya tek model �
 
 ## S1 — Güncel çalışma
 
-[Yöntem, kaynak rotaları ve dilim dizini](work/S1-role-responsibility-consolidation.md).
+[S1 master](work/S1-role-responsibility-consolidation.md) current konsolidasyon yöntemini ve dilim dizinini taşır.
 
-| Dilim | Katkı / statü |
+### Tamamlanan aday family review'ları
+
+| Family | Sonuç |
 |---|---|
-| [S1-01](work/S1-01-production-review-correction.md) | İnceleme ailesi, üretim–düzeltme, teşhis/karar ve sürüme bağlı kanıt; G1 fiilî geliştirme sorumluluğu açıklığı. Aday. |
-| [S1-02](work/S1-02-actor-conditioned-role-purpose.md) | Aktör türü, tutarlı başarı yönü ve aktöre göre uyarlama; aile/etkin görevlendirme ayrımı. Aday. |
-| [S1-03](work/S1-03-role-purpose-activation-and-transfer.md) | Ortak taban, tetiklenme, sonuç tüketimi ve birikimin geliştiren→SOUL→kurulmuş role aktarımı. Aday. |
-| [S1-04](work/S1-04-read-only-reviewer-development-chain.md) | Salt-okur inceleme kapasitesinde gereksinim→tasarım→üretim/uyarlama→kurulum→sınama zinciri ve teknik gerçekleştirme görev kartı. Bir örnek eşlendi; aday. |
-| [S1-05](work/S1-05-initial-role-family-draft.md) | R1–R25 için ilk rol ailesi taslağı: F1 Tasarlama, F2 Teknik Gerçekleştirme, F3 İşletim, F4 Yönetişim/Kontrol, F5 Güvence, F6 Teşhis/Toparlanma, F7 Öğrenme/Uyarlama. Aday. |
-| [S1-06](work/S1-06-full-role-family-mapping.md) | R1–R25 tam eşleme; F2 birincil owner açığı; R4 dual-family; R22 sınır vakası; research/decision için ayrı aile henüz yok. Aday. |
-| [S1-07](work/S1-07-verification-assurance-family.md) | F5 sınandı: R2/R6/R8/R12/R15/R18 ortak assurance familyası; specialization'lar korunur; R18 composite assurance. Aday. |
-| [S1-08](work/S1-08-design-formation-family.md) | F1 sınandı: domain/system/evaluation design specialization'ları ortak familyada; R4'ün F3 ataması geri açıldı. Aday. |
-| [S1-09](work/S1-09-realization-implementation-family.md) | F2 sınandı: ayrı realization/implementation başarı yönü; R1–R25'te primary owner yok; M1–M9 realization specialization yüzeyi. Aday. |
-| [S1-10](work/S1-10-operations-stewardship-coordination-family.md) | F3 sınandı: R5/R11/R14/R20/R21/R25 operational specialization'lar; coordination aynı familyada; Information Lifecycle Operations specialization açığı. Aday. |
-| [S1-11](work/S1-11-governance-authority-control-family.md) | F4 sınandı: R9 authority governance + R17 exact-effect control aynı familyada; human mandate source ayrı; enforcement ayrı mekanik katman. Aday. |
-| [S1-12](work/S1-12-diagnosis-impact-recovery-routing-family.md) | F6 sınandı: R3 causal diagnosis + R22 impact/invalidation/recovery routing aynı familyada; recovery execution ilgili familyalara devredilir. Aday. |
-| [S1-13](work/S1-13-learning-adaptation-direction-family.md) | F7 sınandı: ayrı learning/adaptation-direction başarı yönü; R23 ana aday; actual change F1/F2/F3'e gider; acquisition/retention/expression claim facet'leri korunur. Aday. |
+| F1 — Tasarlama/Oluşturma | aday olarak ayakta; R4'ün design tarafı buraya çekildi |
+| F2 — Gerçekleştirme/Uygulama | ayrı başarı yönü; initial R1–R25 içinde primary owner yok |
+| F3 — İşletim/Stewardship/Koordinasyon | aday olarak ayakta; Information Lifecycle Operations specialization açığı bulundu |
+| F4 — Yönetişim/Yetki/Kontrol | aday olarak ayakta; human mandate source ayrı tutuldu |
+| F5 — Doğrulama/Güvence | aday olarak ayakta; R18 composite assurance specialization'ı |
+| F6 — Teşhis/Etki Analizi/Recovery Yönlendirme | aday olarak ayakta; R3 causal diagnosis, R22 impact/recovery routing |
+| F7 — Öğrenme/Adaptasyon Yönlendirme | aday olarak ayakta; actual adaptation change F1/F2/F3'e gider |
 
-**Son kullanıcı yönü:** Yönü koruyarak somut, doğru kabul edilmeden tartışılabilecek sonuçlarla devam et.
+S1-01–S1-13 ayrıntılı analiz slice'ları work/ altında tutulur. Bunlar current sequencing authority değildir; içlerindeki "next step" cümleleri üretildikleri turun tarihsel dönüş noktalarıdır.
 
-**Bu turdaki ilerleme:** G1 yalnız yeniden tarif edilmedi; bir örnekte çıktı, bilgi/yeterlik, mevcut R karşılığı, sonraki tüketici ve kanıt bağı gösterildi. R13 tasarım, R14 kurulum/işletim, R20 koordinasyon tanımlarının yeni kod üretimini kendiliğinden sahiplenmediği korunarak teknik gerçekleştirme görevlendirmesi önerildi. Mevcut rolün koşullu genişlemesi veya aynı yeterli aktörün farklı görevlerde kullanılması açık seçeneklerdir. Yeni R26 yok.
+### Current S1 açıkları
 
-**Dönüş:** S1-13 F7 konsolidasyonunu kullanıcıya kısa ve doğrudan sun. Sonraki çalışma F1–F7'yi tek konsolide modelde coverage/overlap açısından yeniden denetlemektir.
+- F2'nin initial rol listesinde açık primary taşıyıcısı yok.
+- F3 Information Lifecycle Operations yeni specialization adayıdır.
+- B1–B9 → F1–F7 full coverage henüz yeniden denetlenmedi.
+- duplicate/orphan responsibility audit yapılmadı.
+- research / decision / coordination'ın ayrıca familya gerektirip gerektirmediği final cross-check bekliyor.
+- family → specialization → effective assignment yapısı henüz nihai değil.
+
+**Current dönüş:** F1–F7'yi tek modelde coverage/overlap açısından denetle. Bu denetim bitmeden mimariye, agent sayısına veya topology'ye geçme.
 
 ## Sonraki değerlendirmelerde korunacaklar
 
