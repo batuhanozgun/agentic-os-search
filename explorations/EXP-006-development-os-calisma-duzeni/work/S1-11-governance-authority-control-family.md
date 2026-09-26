@@ -1,5 +1,7 @@
 # S1-11 — F4 Yönetişim / Yetki / Kontrol ailesi
 
+> **Authority notu:** Bu dosya retained S1 analytical slice'ıdır; current sequencing authority değildir. Aşağıdaki "sonraki adım", "dönüş" veya benzeri ifadeler üretildiği turun tarihsel dönüş noktasını kaydeder. Current yön için `../STATE.md → ../HANDOFF.md → ../WORK.md → S1-role-responsibility-consolidation.md` yolunu kullan.
+
 **Tarih:** 26 Eylül 2026.  
 **Statü:** Aday family consolidation; nihai DevOS rol düzeni değildir.
 
