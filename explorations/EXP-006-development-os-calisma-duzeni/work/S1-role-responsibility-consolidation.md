@@ -69,11 +69,12 @@ Asıl kaynak, önceki araştırma yorumu ve yeni S1 önerisi ayrılır. Kaynağ�
 | [S1-02](S1-02-actor-conditioned-role-purpose.md) | Aday | Aile/etkin rol; tutarlı başarı yönü; aktöre göre uyarlama; Keel; G1 açıklaması. |
 | [S1-03](S1-03-role-purpose-activation-and-transfer.md) | A1–A5 aday | İş ilerletme/çerçeve sorgulama; ortak taban; tetik; geliştiren→kurucu→rol aktarımı. |
 | [S1-04 — salt-okur inceleme geliştirme zinciri](S1-04-read-only-reviewer-development-chain.md) | Bir örnek eşlendi; aday | Gereksinim, tasarım, teknik gerçekleştirme, kurulum ve sınama teslimleri; gerçekleştirme görev kartı; R13/R14/R20 ile koşullu birlikte taşıma; henüz koşulmamış karşı sınamalar. |
+| [S1-05 — ilk rol ailesi taslağı](S1-05-initial-role-family-draft.md) | İlk toplu konsolidasyon; aday | Yedi başarı-yönü ailesi; F2 teknik gerçekleştirme açığı; rol = aile × uzmanlık/scope × aktör-operating-profile yaklaşımı. |
 | G1'in diğer alanlara yayılması | Açık | Tek örnek bütün M1–M9'u veya ortak geliştirme ailesinin yeterliğini kanıtlamaz. |
 
 ## 7. Güncel dönüş ve açık sorular
 
-S1-04 somut adayını kullanıcıya sun. Teknik gerçekleştirme yükü bu örnekte ayrı görünür tutulur; ayrı kalıcı rol/ajan sonucu çıkarılmaz. Geliştirenin yazma yetkisi ile SOUL'da oluşturulan inceleyicinin işletim yetkisi karıştırılmaz. Tasarım ve üretim aynı yeterli görevlendirmede birleşebilir; bağımsız hüküm buna katılmaz. Bu öneriler henüz kabul edilmiş düzen değildir.
+S1-05 ilk aile taslağını kullanıcıya sun. Taslak henüz kabul edilmiş düzen değildir. Sıradaki kontrol, R1–R25'in tamamını bu ailelere yerleştirip başarı yönü uyumunu, dual-family adaylarını ve sahipsiz sorumlulukları göstermektir. Özellikle F2 teknik gerçekleştirme familyası B1–B9 boyunca test edilmelidir.
 
 Sonraki devam, kullanıcı düzeltmesini aldıktan sonra bu görevlendirmenin başka bir geliştirme alanındaki geçerliliğini karşılaştırabilir. Genel aile, ajan sayısı, mekanizma veya mimari seçimi bu örnekten otomatik çıkmaz.
 
