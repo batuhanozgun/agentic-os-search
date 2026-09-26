@@ -1,5 +1,7 @@
 # S1-03 — Rolün başarı yönü, çalıştırılması ve geliştirme zincirinde aktarımı
 
+> **Authority notu:** Bu dosya retained S1 analytical slice'ıdır; current sequencing authority değildir. Aşağıdaki "sonraki adım", "dönüş" veya benzeri ifadeler üretildiği turun tarihsel dönüş noktasını kaydeder. Current yön için `../STATE.md → ../HANDOFF.md → ../WORK.md → S1-role-responsibility-consolidation.md` yolunu kullan.
+
 **Üst çalışma:** [S1](S1-role-responsibility-consolidation.md) · [S1-02](S1-02-actor-conditioned-role-purpose.md)
 **Tarih:** 25 Eylül 2026.
 **Durum:** Sınırlı kaynak incelemesi tamamlandı; S1'e katkılar adaydır. Rol/mimari kabulü veya davranış deneyi değildir.
