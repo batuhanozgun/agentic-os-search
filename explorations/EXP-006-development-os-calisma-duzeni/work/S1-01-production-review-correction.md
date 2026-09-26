@@ -1,5 +1,7 @@
 # S1-01 — Üretim, inceleme ve düzeltme sorumlulukları
 
+> **Authority notu:** Bu dosya retained S1 analytical slice'ıdır; current sequencing authority değildir. Aşağıdaki "sonraki adım", "dönüş" veya benzeri ifadeler üretildiği turun tarihsel dönüş noktasını kaydeder. Current yön için `../STATE.md → ../HANDOFF.md → ../WORK.md → S1-role-responsibility-consolidation.md` yolunu kullan.
+
 **Üst çalışma:** [S1](S1-role-responsibility-consolidation.md) · [WORK](../WORK.md)  
 **Tarih:** 25 Eylül 2026.  
 **Durum:** İlk sınırlı inceleme tamamlandı; aşağıdaki sonuçlar adaydır. S1'in bütünü, rol birleştirmeleri ve mimari kabul edilmiş değildir.  
