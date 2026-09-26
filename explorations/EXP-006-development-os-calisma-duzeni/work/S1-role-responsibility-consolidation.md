@@ -75,11 +75,12 @@ Asıl kaynak, önceki araştırma yorumu ve yeni S1 önerisi ayrılır. Kaynağ�
 | [S1-08 — F1 Tasarlama/Oluşturma](S1-08-design-formation-family.md) | Family consolidation; aday | Yedi ana specialization + R4 design; R19 system formation; R24 evaluation design; R4 F3 ataması yeniden açıldı. |
 | [S1-09 — F2 Gerçekleştirme/Uygulama](S1-09-realization-implementation-family.md) | Family/coverage consolidation; aday | F2 ayrı başarı yönü; R1–R25 primary owner açığı; M1–M9 realization specialization yüzeyi; F1/F3 ile assignment-level birleşme mümkün. |
 | [S1-10 — F3 İşletim/Stewardship/Koordinasyon](S1-10-operations-stewardship-coordination-family.md) | Family/coverage consolidation; aday | Operational specialization'lar ortak familyada; coordination ayrı familya değil; Information Lifecycle Operations specialization açığı. |
+| [S1-11 — F4 Yönetişim/Yetki/Kontrol](S1-11-governance-authority-control-family.md) | Family consolidation; aday | R9 authority governance + R17 effect/control; human mandate source ayrı; mechanical enforcement F2/F3/F5 ile bağlanır. |
 | G1'in diğer alanlara yayılması | Açık | Tek örnek bütün M1–M9'u veya ortak geliştirme ailesinin yeterliğini kanıtlamaz. |
 
 ## 7. Güncel dönüş ve açık sorular
 
-S1-10 sonucunu kullanıcıya sun. F1/F2/F3/F5 familyaları aday olarak ayakta. Sıradaki kontrol F4 Yönetişim/Kontrol familyasının tek family olup olmadığını ve human authority sınırını sınamaktır.
+S1-11 sonucunu kullanıcıya sun. F1/F2/F3/F4/F5 familyaları aday olarak ayakta. Sıradaki kontrol F6 Teşhis/Toparlanma familyasının tek family olup olmadığını sınamaktır.
 
 Sonraki devam, kullanıcı düzeltmesini aldıktan sonra bu görevlendirmenin başka bir geliştirme alanındaki geçerliliğini karşılaştırabilir. Genel aile, ajan sayısı, mekanizma veya mimari seçimi bu örnekten otomatik çıkmaz.
 
