@@ -2,7 +2,7 @@
 
 **Parent:** [WORK](../WORK.md)  
 **Statü:** EXPLORED / candidate decomposition.  
-**Sonraki varsayılan hareket:** B1'i genişletmek değil; B3'e devam etmek. B1 ancak yeni bağımlılık veya kanıtla yeniden açılır.
+**Authority notu:** Bu dosya B-dalı reference decomposition'ıdır; current sequencing authority değildir. Current yön `../STATE.md → ../HANDOFF.md → ../WORK.md` yolundan alınır. Bu dosyadaki tarihsel next/return ifadeleri current talimat sayılmaz.
 
 
 ### B1'in hedef çıktısı
