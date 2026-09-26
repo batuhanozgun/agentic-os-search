@@ -1,5 +1,7 @@
 # S1-02 — Aktör özellikleri, rolün başarı yönü ve aktöre göre uyarlama
 
+> **Authority notu:** Bu dosya retained S1 analytical slice'ıdır; current sequencing authority değildir. Aşağıdaki "sonraki adım", "dönüş" veya benzeri ifadeler üretildiği turun tarihsel dönüş noktasını kaydeder. Current yön için `../STATE.md → ../HANDOFF.md → ../WORK.md → S1-role-responsibility-consolidation.md` yolunu kullan.
+
 **Üst çalışma:** [S1](S1-role-responsibility-consolidation.md) · [S1-01](S1-01-production-review-correction.md)
 **Tarih:** 25 Eylül 2026.
 **Statü:** Kullanıcı itirazını değerlendiren sınırlı kaynak incelemesi ve aday açıklama. Nihai rol düzeni, kullanıcı kabulü veya davranış deneyi değildir.
