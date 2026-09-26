@@ -45,12 +45,13 @@ Roller işten türetilir. Rol ailesi aynı etkin görevlendirme veya tek model �
 | [S1-08](work/S1-08-design-formation-family.md) | F1 sınandı: domain/system/evaluation design specialization'ları ortak familyada; R4'ün F3 ataması geri açıldı. Aday. |
 | [S1-09](work/S1-09-realization-implementation-family.md) | F2 sınandı: ayrı realization/implementation başarı yönü; R1–R25'te primary owner yok; M1–M9 realization specialization yüzeyi. Aday. |
 | [S1-10](work/S1-10-operations-stewardship-coordination-family.md) | F3 sınandı: R5/R11/R14/R20/R21/R25 operational specialization'lar; coordination aynı familyada; Information Lifecycle Operations specialization açığı. Aday. |
+| [S1-11](work/S1-11-governance-authority-control-family.md) | F4 sınandı: R9 authority governance + R17 exact-effect control aynı familyada; human mandate source ayrı; enforcement ayrı mekanik katman. Aday. |
 
 **Son kullanıcı yönü:** Yönü koruyarak somut, doğru kabul edilmeden tartışılabilecek sonuçlarla devam et.
 
 **Bu turdaki ilerleme:** G1 yalnız yeniden tarif edilmedi; bir örnekte çıktı, bilgi/yeterlik, mevcut R karşılığı, sonraki tüketici ve kanıt bağı gösterildi. R13 tasarım, R14 kurulum/işletim, R20 koordinasyon tanımlarının yeni kod üretimini kendiliğinden sahiplenmediği korunarak teknik gerçekleştirme görevlendirmesi önerildi. Mevcut rolün koşullu genişlemesi veya aynı yeterli aktörün farklı görevlerde kullanılması açık seçeneklerdir. Yeni R26 yok.
 
-**Dönüş:** S1-10 F3 konsolidasyonunu kullanıcıya kısa ve doğrudan sun. Sonraki çalışma F4 Yönetişim/Kontrol familyasını ve insan yetki çekirdeği sınırını sınamaktır.
+**Dönüş:** S1-11 F4 konsolidasyonunu kullanıcıya kısa ve doğrudan sun. Sonraki çalışma F6 Teşhis/Toparlanma familyasını sınamaktır.
 
 ## Sonraki değerlendirmelerde korunacaklar
 
