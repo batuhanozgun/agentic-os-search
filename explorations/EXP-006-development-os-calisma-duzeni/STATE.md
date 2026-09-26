@@ -1,43 +1,34 @@
 # EXP-006 — STATE
 
-**Durum:** AÇIK / uzun soluklu diyalog ve araştırmaya dayalı çalışma.  
+**Durum:** AÇIK / uzun soluklu diyalog ve araştırma çalışması.  
+**Güncelleme:** 26 Eylül 2026.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
-**Aşama:** B1–B9 ilk ayrıştırması tamamlandı; mimari öncesi S1 rol/sorumluluk konsolidasyonu sürüyor.  
-**Güncel iş:** **S1 — araştırma örnekleri ve aktör özellikleriyle sorumlulukları birlikte değerlendirmek.**  
-**Bu turdaki teslimat:** [S1-03](work/S1-03-role-purpose-activation-and-transfer.md): aynı aktör/rol/motivasyon sorusunu OS Architect'in Keel geliştirme kayıtlarıyla derinleştirmek.  
-**Dönüş:** Aday katkıları kullanıcıya sun; sonraki yönü bekle. G1'in geniş geliştirme sorumluluğu eşlemesi hâlâ sonraki olası iştir.
+**Başlangıçtan beri aranan:** Development OS içindeki yapay zekâ aktörünün hangi sorumluluk ve rolleri taşıması gerektiği.  
+**Güncel aşama:** B1–B9 ilk ayrıştırmasından sonra S1 rol/sorumluluk konsolidasyonu.  
+**Son kullanıcı yönü:** Konuşmanın zincirini yeniden kur, konuyu toparla ve bu yönde devam et. Bu tur ana zincir ve dönüş noktası yenilendi; yeni araştırma dalı veya mimari açılmadı.
 
-## Çalışma yönü
+## Ana zincir
 
-SOUL hedefi → DevOS'un B1–B9 işleri → gereken kabiliyet/sorumluluklar → aday yapay zekâ rolleri ve mekanik sorumluluklar → S1 çapraz değerlendirmesi → daha sonra DevOS yapısı ve mekanizma seçimi.
+SOUL'u yaratma amacı → bunu taşıyacak Development OS çalışma düzeni → insan ve yapay zekâ aktörleri → insan/müşteri için yetki + kabul → yapay zekânın rollerini bulma sorusu → roller için önce işi bilme gereği → işi anlamak için SOUL hedefini somutlaştırma → DevOS'un B1–B9 geliştirme işleri → işlerin gerektirdiği kabiliyet/sorumluluklar → R1–R25 ve M1–M9 adayları → S1'de bunları birlikte değerlendirme → daha sonra DevOS yapısı.
 
-## Güncel sonuçların statüsü
+İlk altı kök iş kaybolmadı: hedefi belirlemek; gereken işleri keşfetmek; yapılabilir hâle getirmek; gerçekleştirmek; sınamak/yeniden çalışmak; zaman içinde sürdürmek. **B1–B9 bu altılı listenin yerine geçmez.** İş keşfi sırasında çıkarılmış geliştirme alanlarıdır. Bir işin gereksinimini yazmak o işi gerçekleştirmek değildir; bu başlıklar katı ve yalnız bir kez geçilen takvim aşamaları sayılmaz.
 
-- B1–B9 ilk ayrıştırmaları adaydır; uygulanmış veya doğrulanmış SOUL kapasitesi değildir.
-- R1–R25/M1–M9 ilk kayıtları korunur; ajan veya servis sayıları değildir. Yeni kimlik, nihai aile veya birleştirme kararı yok.
-- İnsan/müşteri çekirdeği **yetki + kabul**. Teknik uzmanlık yükü müşteriye geri bırakılmaz.
-- S1-01/A1–A4: ortak inceleme ailesi, üretim–düzeltme, teşhis/karar ve sürüme bağlı yeniden sınama adayları.
-- S1-01/G1: kod/prosedür/bağlantı geliştirme sorumlusu, tasarım ve hazır mekanizmayı kurma/işletme kadar açık eşlenmiyor. Üretim unutuldu veya yeni rol şart sonucu çıkarılmadı.
-- S1-02: ailede gruplamak aynı çağrıda etkinleştirmek değildir; çoklu ölçüt ile çatışan başarı yönü ayrılır. Rolün bağlam/yeterlik/araç/yetki/devir koşulları aktöre göre değerlendirilir. Model eğitimi kararı yok.
-- **Son kullanıcı yönü:** aynı konuda bir tur daha çalışma; Keel'i geliştiren `os-architect/bilgi/keel` kaynağına ve gerektiğinde deponun diğer yerlerine bakma.
-- **S1-03 aday katkısı:** rolün amacı yanında fiilen başarı sayılan sonuç ve çatışan beklentiler de incelenmeli. Ortak düşünsel taban ile role özgü başarı yönü ayrılmalı; rolün tetiklenmesi, çıktısının tüketilmesi ve birikimin geliştiren→kurucu→kurulmuş role aktarımı açık yüklerdir.
-- OS Architect araştırma defteri ve dış depodan 11 seçilmiş dosya tam okundu; dış ref `20e42a098ea1599a9dfe6558352eb585d6f274ed`. Tarihsel yorumlar, ürün kararları ve deney özetleri kendi statüleriyle tutuldu. Ham koşular, dış literatür veya güncel araç davranışı yeniden doğrulanmadı.
-- S1-03 rolün yazma sınırının nasıl geliştirildiği örneğiyle G1'i somutlaştırdı; bütün M1–M9 için geliştirme sorumlusu eşlemesi yapılmadı.
-- S1 tamamlanmadı; S1-03 önerileri kullanıcı tarafından kabul edilmiş veya davranışta doğrulanmış sayılmaz.
+## Ne netleşti, ne aday?
 
-## Devralma kaynakları
+- Çalışma anlaşmaları: insan + yapay zekâ ayrımı; insan müşterinin yetki/kabul çekirdeği; rollerin işten türetilmesi; SOUL hedefinin bu aşama için yeterince somut kabul edilmesi. Dayanak: [DECISIONS](DECISIONS.md).
+- B1–B9 ilk ayrıştırmaları adaydır. R1–R25 rol ve M1–M9 mekanik sorumluluk kayıtları korunur; bunlar 25 ajan veya 9 servis değildir.
+- S1-01: inceleme ailesi, üretim/düzeltme ilişkisi, teşhis/karar ayrımı ve **G1 geliştirme sorumluluğu açıklığı**.
+- S1-02/S1-03: aile ile etkin görevlendirme; tutarlı başarı yönü; ortak düşünsel taban; aktöre göre bağlam/araç/yetki uyarlaması; gerektiğinde tetiklenme ve sonucun kullanımı; birikimin geliştiren→SOUL→kurulmuş rol boyunca aktarımı. Bunlar aday değerlendirme sonuçlarıdır, evrensel model yasası veya tamamlanmış rol tasarımı değildir.
+- Keel ve OS Architect, bu S1 sorularını anlamak için kullanılmış örneklerdir. Artık onların eski geliştirme programını sürdürmüyoruz.
 
-- [HANDOFF](HANDOFF.md): son kullanıcı yönü, dönüş ve sonraki inceleme sınırı.
-- [WORK](WORK.md): B1–B9 haritası ve S1 sırası.
-- [S1](work/S1-role-responsibility-consolidation.md): yöntem, kaynak rotaları ve dilim dizini.
-- [S1-01](work/S1-01-production-review-correction.md) / [S1-02](work/S1-02-actor-conditioned-role-purpose.md): önceki gerekçeler ve adaylar.
-- [S1-03](work/S1-03-role-purpose-activation-and-transfer.md): yeni kaynak gözlemleri, katkılar, sınırlar ve tam okuma izi.
-- [ACTORS](ACTORS.md): korunmuş ilk R/M türetimleri.
-- [DECISIONS](DECISIONS.md): gerçekten netleşen çalışma kararları.
-- [EXP-006_Context](EXP-006_Context): üst yön ve birlikte çalışma yöntemi.
+## Devamın sınırı
 
-## S1'in tamamlanma koşulu
+S1'de sıradaki sınırlı inceleme **G1: tasarım → üretim/uyarlama → kurulum/bütünleştirme → sınama zincirinde DevOS sorumluluğunun açıklaştırılmasıdır**. İlk örnek, salt-okur inceleme gereken bir durumda rolün yazma sınırını gerçekten sağlayacak düzenin geliştirilmesi olabilir. Bu, bütün inceleyicilerin her durumda yazamaz olması kararı değildir.
 
-Sorumluluk aileleri, birleştirme/ayırma gerekçeleri, etkin rolün tutarlı başarı yönü ve işletim koşulları, B1–B9'un geliştirme/sınama sorumluları, mekanik destek ve insan yetki/kabul sınırları görünür olmalı. Kaynağın katkısı ile kanıt sınırı korunmalı; sahipsiz veya çakışan sorumluluklar değerlendirilmiş olmalı. Bu koşullar henüz karşılandı sayılmıyor.
+Bu incelemede her halka için somut çıktı, gerekli bilgi/yeterlik, mevcut rol adayının kapsamı, yetki, sonraki tüketici ve sınama yolu aranır. Gerekli kod/prosedürü geliştiren taraf, hazır mekanizma veya onu işleten tarafla karıştırılmaz. Mevcut rolün genişletilmesi, ortak geliştirme ailesi veya uzmanlaşma seçenekleri açık; otomatik yeni R26 yok. G1'in tam eşlemesi henüz yapılmadı.
 
-Mimari, ajan sayısı, model eğitimi, çalıştırma ortamı, araç, veri tabanı veya kurulum seçilmedi. Bu tur yalnız EXP-006 içindeki S1 sonucu ve ilgili devir/yön kayıtları güncellenir; kaynak depolar, araştırmalar, Foundation, ACTORS, DECISIONS ve agent-control değiştirilmez.
+## Devralma
+
+[HANDOFF](HANDOFF.md) ana zinciri, alt dallardan dönüşü, okuma sınırını ve sonraki sınırlı soruyu taşır. [WORK](WORK.md) B1–B9 haritası; [S1](work/S1-role-responsibility-consolidation.md) araştırma yöntemi/dilim dizini; [S1-01](work/S1-01-production-review-correction.md), [S1-02](work/S1-02-actor-conditioned-role-purpose.md), [S1-03](work/S1-03-role-purpose-activation-and-transfer.md) gerekçeler; [ACTORS](ACTORS.md) ilk adaylar; [EXP-006_Context](EXP-006_Context) başlangıç yönü ve çalışma biçimidir. Eski dosyalardaki zamana bağlı sonraki-adım cümleleri güncel STATE/HANDOFF'un yerine geçmez.
+
+S1'in bütün kapsamı henüz bitmedi. Mimari, ajan sayısı, araç/ortam, model eğitimi ve uygulama seçilmedi; canlı DevOS/SOUL sınaması yapılmadı. Bu toparlama yeni karar kabulü değildir. Okuma kapsamının ve tam oturum dökümüne erişimin sınırı HANDOFF'ta açıklıdır.
