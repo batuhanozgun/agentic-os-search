@@ -64,4 +64,4 @@ Her sorumluluk için: neden var; ne üretir; hangi bilgi/yeterlikle; hangi tutar
 
 Tasarım, üretim, kurulum, işletim ve bağımsız hüküm aynı şey değildir. Aynı görevlendirmede birleşmeleri, uzmanlık ve başarı yönü uyumuna bağlı aday tercihtir. Genel tasarımda görünmeyen teknik üretim yükü, mekanik sistem adına yazılarak kapanmaz.
 
-S1 bitmeden mimariye geçilmez. DevOS geliştirmesi, SOUL'un gelecekteki işi ve EXP-006 kayıt düzeni ayrı kalır. Keel ve OS Architect örnektir; eski emirleri, kuyrukları ve insan kapıları alınmaz. ACTORS ilk R1–R25/M1–M9 türetimlerini korur; S1 dosyaları sonraki aday değerlendirmeyi taşır. Kabul edilmiş çalışma anlaşmaları DECISIONS'tadır.
+S1 bitmeden mimariye geçilmez. DevOS geliştirmesi, SOUL'un gelecekteki işi ve EXP-006 kayıt düzeni ayrı kalır. Keel ve OS Architect örnektir; eski emirleri, kuyrukları ve insan kapıları alınmaz. ACTORS current candidate family registry'sini ve R1–R25 lineage eşlemesini taşır; S1 slice'ları analiz izini korur. Kabul edilmiş çalışma anlaşmaları DECISIONS'tadır.
