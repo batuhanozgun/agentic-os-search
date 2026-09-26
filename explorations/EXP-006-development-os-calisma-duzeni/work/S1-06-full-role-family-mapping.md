@@ -1,5 +1,7 @@
 # S1-06 — R1–R25 tam aile eşlemesi
 
+> **Authority notu:** Bu dosya retained S1 analytical slice'ıdır; current sequencing authority değildir. Aşağıdaki "sonraki adım", "dönüş" veya benzeri ifadeler üretildiği turun tarihsel dönüş noktasını kaydeder. Current yön için `../STATE.md → ../HANDOFF.md → ../WORK.md → S1-role-responsibility-consolidation.md` yolunu kullan.
+
 **Üst iş:** [S1](S1-role-responsibility-consolidation.md)  
 **Tarih:** 26 Eylül 2026.  
 **Durum:** Aday tam eşleme. Nihai DevOS rol düzeni değildir.
