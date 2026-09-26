@@ -3,7 +3,7 @@
 **Rol:** Üst iş haritası ve çalışma sırası.  
 **Statü:** Diyalog ve araştırma çalışma haritası; Development OS mimarisi değildir.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
-**Güncel iş:** S1 — araştırma örnekleri ve aktör özellikleriyle rol/sorumluluk adaylarını değerlendirmek.
+**Güncel iş:** S1 — rol/sorumluluk family modelini coverage/overlap açısından konsolide etmek; S1-14 tamamlandı, research/discovery success-direction testi sırada.
 
 ## Ana zincir ve katmanlar
 
@@ -49,14 +49,21 @@ S1-01–S1-13 ayrıntılı analiz slice'ları work/ altında tutulur. Bunlar cur
 
 ### Current S1 açıkları
 
-- F2'nin initial rol listesinde açık primary taşıyıcısı yok.
-- F3 Information Lifecycle Operations yeni specialization adayıdır.
-- B1–B9 → F1–F7 full coverage henüz yeniden denetlenmedi.
-- duplicate/orphan responsibility audit yapılmadı.
-- research / decision / coordination'ın ayrıca familya gerektirip gerektirmediği final cross-check bekliyor.
-- family → specialization → effective assignment yapısı henüz nihai değil.
+S1-14 full-model audit tamamlandı.
 
-**Current dönüş:** F1–F7'yi tek modelde coverage/overlap açısından denetle. Bu denetim bitmeden mimariye, agent sayısına veya topology'ye geçme.
+Korunan:
+- F1–F7 hard duplicate olmadan B1–B9'un ana responsibility gövdesini karşılıyor.
+- Decision ayrı familya gerektirmiyor.
+- Coordination current evidence altında F3 operational familyası içinde kalabiliyor.
+
+Açık:
+- F2'nin initial rol listesinde primary taşıyıcısı yok.
+- F3 Information Lifecycle Operations specialization açığı sürüyor.
+- F3 Actor / Role Lifecycle Operations specialization açığı yeni bulundu.
+- Research / Discovery / Synthesis bazı Work'lerde primary deliverable olabilir; method vs F1 specialization vs ayrı candidate family henüz çözülmedi.
+- family → specialization → exact assignment object → actor operating profile modeli henüz nihai değil.
+
+**Current dönüş:** research / discovery / synthesis success direction'ını bounded S1 testiyle sınamak. Bu çözülmeden effective-assignment düzenine, mimariye, agent sayısına veya topology'ye geçme.
 
 ## Sonraki değerlendirmelerde korunacaklar
 
@@ -64,4 +71,4 @@ Her sorumluluk için: neden var; ne üretir; hangi bilgi/yeterlikle; hangi tutar
 
 Tasarım, üretim, kurulum, işletim ve bağımsız hüküm aynı şey değildir. Aynı görevlendirmede birleşmeleri, uzmanlık ve başarı yönü uyumuna bağlı aday tercihtir. Genel tasarımda görünmeyen teknik üretim yükü, mekanik sistem adına yazılarak kapanmaz.
 
-S1 bitmeden mimariye geçilmez. DevOS geliştirmesi, SOUL'un gelecekteki işi ve EXP-006 kayıt düzeni ayrı kalır. Keel ve OS Architect örnektir; eski emirleri, kuyrukları ve insan kapıları alınmaz. ACTORS current candidate family registry'sini ve R1–R25 lineage eşlemesini taşır; S1 slice'ları analiz izini korur. Kabul edilmiş çalışma anlaşmaları DECISIONS'tadır.
+S1 bitmeden mimariye geçilmez. DevOS geliştirmesi, SOUL'un gelecekteki işi ve EXP-006 kayıt düzeni ayrı kalır. Keel ve OS Architect örnektir; eski emirleri, kuyrukları ve insan kapıları alınmaz. ACTORS current candidate family registry'sini ve R1–R25 lineage eşlemesini taşır; S1-14 full-model audit current open family/specialization sınırlarını ekler; diğer S1 slice'ları analiz izini korur. Kabul edilmiş çalışma anlaşmaları DECISIONS'tadır.
