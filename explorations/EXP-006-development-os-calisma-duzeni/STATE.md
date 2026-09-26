@@ -5,7 +5,7 @@
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
 **Başlangıçtan beri aranan:** DevOS yapay zekâ aktörünün gereken sorumlulukları ve rolleri.  
 **Güncel aşama:** S1 rol/sorumluluk konsolidasyonu — F1–F7 ayrı ayrı sınandı; şimdi bütün model coverage/overlap denetimine hazır.  
-**Son kullanıcı yönü:** EXP-006 yapısını drift açısından denetle; fazla/eski/çelişkili yüzeyleri temizle; sonra current role-model çalışmasına güvenli biçimde devam edilebilsin.
+**Son kullanıcı yönü:** EXP-006 yapısını drift açısından denetle ve temizle. Yapısal audit tamamlandı; current authority ve historical sınırlar yeniden düzenlendi.
 
 ## Ana zincir
 
@@ -48,7 +48,7 @@ Bunlar nihai DevOS rolleri veya fiziksel agent sayısı değildir.
 
 ## Current next responsibility
 
-Repository drift cleanup tamamlandıktan sonra:
+Repository drift cleanup tamamlandı.
 
 > **F1–F7'yi tek konsolide modelde coverage/overlap açısından denetle.**
 
