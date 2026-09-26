@@ -328,7 +328,7 @@ Temel continuity ilkesi:
 
 > **Aktör/oturum değişebilir; Work'ün amacı, durumu, kararları ve devralma noktası konuşmanın belleğine bağlı kalmamalıdır.**
 
-Normal yeni-oturum yolu `INDEX → STATE → HANDOFF → WORK → active B file` şeklindedir. Context yalnız yön/metodoloji gerçekten değiştiğinde güncellenir.
+Normal yeni-oturum yolu `INDEX → STATE → HANDOFF → WORK → ACTORS → active phase master/slice` şeklindedir. Context yalnız yön/metodoloji gerçekten değiştiğinde güncellenir.
 
 
 ---
