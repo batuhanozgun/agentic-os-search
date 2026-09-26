@@ -6,7 +6,7 @@
 **Başlangıçtan beri aranan:** DevOS yapay zekâ aktörünün gereken sorumlulukları ve rolleri.  
 **Güncel aşama:** B1–B9 ilk ayrıştırmasından sonra S1 konsolidasyonu.  
 **Son kullanıcı yönü:** EXP-006 cevaplarını kısa ve doğrudan tut; ana hattı örneklerin içine gömme. Bu davranışı çalışma için kalıcılaştır ve rol konsolidasyonuna devam et.  
-**Güncel teslimat:** [S1-12](work/S1-12-diagnosis-impact-recovery-routing-family.md) — F6 Teşhis/Etki Analizi/Recovery Yönlendirme ailesi; R3/R22 konsolidasyonu; aday.
+**Güncel teslimat:** [S1-13](work/S1-13-learning-adaptation-direction-family.md) — F7 Öğrenme/Adaptasyon Yönlendirme ailesi; ayrı başarı yönü ve cross-family adaptation loop; aday.
 
 ## Ana zincir
 
@@ -28,14 +28,15 @@ SOUL'u yaratma amacı → bunu taşıyacak DevOS → insan ve yapay zekâ → in
 - **S1-10:** F3 tek familya olarak ayakta. R5/R11/R14/R20/R21/R25 operational specialization'lar. Coordination ayrı familya açılmadı. R4 F1'e taşındığı için Information lifecycle'ın fiilî işletiminde yeni F3 specialization açığı bulundu.
 - **S1-11:** F4 tek familya olarak ayakta. R9 authority/delegation governance, R17 exact-effect/control specialization'ı. İnsan müşteri üst mandate/yetkinin kaynağı olarak AI governance rolüne erimez.
 - **S1-12:** F6 tek familya olarak ayakta. R3 causal diagnosis/root-cause routing, R22 impact/invalidation/recovery-path specialization'ı. R22 recovery'yi fiilen işletmediği için birincil F3 değil; recovery Work'ünü ilgili familyaya yönlendiriyor.
+- **S1-13:** F7 ayrı familya olarak ayakta. R23 experience'i reusable change'e yükseltme/no-change kararını, scope/provenance'i ve adaptation loop yönlendirmesini taşıyor; actual redesign/implementation/operation F1/F2/F3'e gider.
 - **Aday birlikte taşıma:** Tasarım/üretim/düzeltme yeterli aktörde aynı sonuca hizmet edebilir. R14'ün kurulum veya R20'nin koordinasyon tanımı, yeni kod üretimini örtük biçimde üstlenmiş sayılmaz. Bağımsız yeterlik hükmü üretim başarı beklentisine katılmaz.
 - Geliştiren DevOS aktörünün yazma yetkisi ile SOUL'da oluşturulan inceleyicinin işletim yetkisi ayrıdır. Sınama yalnız elle kurulmuş denemeyi değil, sonraki rolün oluşturulup bağlanmasını da kapsamalıdır.
 - Kaynak okuması ve masa başı aday eşleme yapıldı; yeni canlı model/Keel/DevOS testi veya mekanizma uygulaması yapılmadı. Bütün G1 ve S1 kapanmadı.
 
 ## Dönüş ve devam
 
-S1-12 sonucunu kullanıcıya kısa ve doğrudan sun. Sıradaki sınırlı iş F7 Öğrenme/Uyarlama ailesinin gerçekten ayrı başarı yönü olup olmadığını sınamaktır. Henüz aileler, ajan sayısı veya mimari kabul edilmiş değildir.
+S1-13 sonucunu kullanıcıya kısa ve doğrudan sun. F1–F7'nin tamamı tek tek sınandı. Sıradaki sınırlı iş bütün family modelinin coverage/overlap konsolidasyonudur. Henüz aileler, ajan sayısı veya mimari kabul edilmiş değildir.
 
-[HANDOFF](HANDOFF.md) ayrıntılı devir; [WORK](WORK.md) harita/sıra; [S1](work/S1-role-responsibility-consolidation.md) yöntem ve kaynak rotaları; [S1-12](work/S1-12-diagnosis-impact-recovery-routing-family.md) güncel F6 konsolidasyonu; [S1-11](work/S1-11-governance-authority-control-family.md) F4 konsolidasyonu; [S1-10](work/S1-10-operations-stewardship-coordination-family.md) F3 konsolidasyonu; [S1-09](work/S1-09-realization-implementation-family.md) F2 konsolidasyonu; [S1-08](work/S1-08-design-formation-family.md) F1 konsolidasyonu; [S1-07](work/S1-07-verification-assurance-family.md) F5 konsolidasyonu; [S1-06](work/S1-06-full-role-family-mapping.md) tam aile eşlemesi; [S1-05](work/S1-05-initial-role-family-draft.md) ilk aile taslağı; [S1-04](work/S1-04-read-only-reviewer-development-chain.md) G1 örneğini taşır. ACTORS ilk adayları, EXP-006_Context başlangıç gerekçesini taşır. Eski dal dosyalarının sonraki-adım cümleleri güncel STATE/HANDOFF'un yerine geçmez.
+[HANDOFF](HANDOFF.md) ayrıntılı devir; [WORK](WORK.md) harita/sıra; [S1](work/S1-role-responsibility-consolidation.md) yöntem ve kaynak rotaları; [S1-13](work/S1-13-learning-adaptation-direction-family.md) güncel F7 konsolidasyonu; [S1-12](work/S1-12-diagnosis-impact-recovery-routing-family.md) F6 konsolidasyonu; [S1-11](work/S1-11-governance-authority-control-family.md) F4 konsolidasyonu; [S1-10](work/S1-10-operations-stewardship-coordination-family.md) F3 konsolidasyonu; [S1-09](work/S1-09-realization-implementation-family.md) F2 konsolidasyonu; [S1-08](work/S1-08-design-formation-family.md) F1 konsolidasyonu; [S1-07](work/S1-07-verification-assurance-family.md) F5 konsolidasyonu; [S1-06](work/S1-06-full-role-family-mapping.md) tam aile eşlemesi; [S1-05](work/S1-05-initial-role-family-draft.md) ilk aile taslağı; [S1-04](work/S1-04-read-only-reviewer-development-chain.md) G1 örneğini taşır. ACTORS ilk adayları, EXP-006_Context başlangıç gerekçesini taşır. Eski dal dosyalarının sonraki-adım cümleleri güncel STATE/HANDOFF'un yerine geçmez.
 
 Bu tur S1-05 ve ilgili yön/devir/iletişim yüzeyleri güncellendi. ACTORS, B dosyaları, Foundation, kaynak depolar ve agent-control değiştirilmedi. Önceki toparlamanın tam oturum dökümüne erişim sınırı Git geçmişindeki HANDOFF'ta korunur; bu tur eksiksiz konuşma tam okuması iddia edilmez.
