@@ -1,7 +1,7 @@
 # S1 — Araştırmaya dayalı rol ve sorumluluk konsolidasyonu
 
 **Üst iş:** [WORK](../WORK.md)  
-**Durum:** DEVAM EDİYOR. S1-01–S1-13 tamamlandı; F1–F7 ayrı ayrı sınandı. Sıradaki iş bütün family modelinin coverage/overlap denetimidir. Sonuçlar adaydır; nihai rol düzeni veya mimari kabul edilmiş değildir.  
+**Durum:** DEVAM EDİYOR. S1-01–S1-14 tamamlandı; F1–F7 ayrı ayrı sınandı ve bütün-model coverage/overlap denetimi yapıldı. F1–F7 reddedilmedi; fakat research/discovery ayrı success direction olabilir ve bu soru kapanmadan family consolidation tamamlanmış sayılmayacak. Sonuçlar adaydır; nihai rol düzeni veya mimari kabul edilmiş değildir.  
 **Amaç:** B1–B9'dan türeyen Development OS sorumluluklarını, R1–R25 rol adaylarını ve M1–M9 mekanik sorumluluklarını araştırma örnekleriyle sınayarak gerekçeli bir bütün oluşturmak.  
 **Sınır:** SOUL veya Development OS kurulumu, ürün seçimi ve ajan sayısı kararı değildir.
 
@@ -22,7 +22,7 @@ Current aday sonuç:
 - F6 Teşhis/Etki Analizi/Recovery Yönlendirme
 - F7 Öğrenme/Adaptasyon Yönlendirme
 
-F2 initial R1–R25 içinde primary owner bulamadı. F3 Information Lifecycle Operations yeni açık specialization olarak göründü. Bunlar nihai DevOS rolleri değildir.
+F2 initial R1–R25 içinde primary owner bulamadı. F3 Information Lifecycle Operations ve Actor / Role Lifecycle Operations açık specialization'lar olarak göründü. S1-14 ayrıca research'ün yalnız cross-family yöntem olmayıp bazı Work'lerde primary deliverable/success direction olabileceğini yeniden açtı. Bunlar nihai DevOS rolleri değildir.
 
 Üst zincir değişmedi: SOUL hedefi → DevOS'un SOUL'u geliştirme işleri → gereken kabiliyet/sorumluluklar → bunları taşıyabilecek roller ve mekanik düzen → daha sonra DevOS yapısı. Current rol görünümü ACTORS.md'dedir; R1–R25/M1–M9 lineage ve ilk türetim kaydı olarak korunur.
 
@@ -89,12 +89,25 @@ Asıl kaynak, önceki araştırma yorumu ve yeni S1 önerisi ayrılır. Kaynağ�
 | [S1-11 — F4 Yönetişim/Yetki/Kontrol](S1-11-governance-authority-control-family.md) | Family consolidation; aday | R9 authority governance + R17 effect/control; human mandate source ayrı; mechanical enforcement F2/F3/F5 ile bağlanır. |
 | [S1-12 — F6 Teşhis/Etki Analizi/Recovery Yönlendirme](S1-12-diagnosis-impact-recovery-routing-family.md) | Family consolidation; aday | R3 causal diagnosis + R22 impact/invalidation/recovery routing; actual recovery execution ilgili familyalara gider. |
 | [S1-13 — F7 Öğrenme/Adaptasyon Yönlendirme](S1-13-learning-adaptation-direction-family.md) | Family consolidation; aday | R23 experience→reusable-change/no-change ve adaptation-loop yönlendirmesi; actual change F1/F2/F3; acquisition/retention/expression claim facet'leri korunur. |
+| [S1-14 — bütün model coverage/overlap](S1-14-full-model-coverage-overlap-audit.md) | B1–B9 cross-audit; aday | F1–F7 hard duplicate olmadan ayakta; F3 Actor/Role Lifecycle Operations açığı; research/discovery ayrı success-direction adayı yeniden açıldı; effective assignment exact object bağıyla rafine edilmeli. |
 | G1'in diğer alanlara yayılması | Açık | Tek örnek bütün M1–M9'u veya ortak geliştirme ailesinin yeterliğini kanıtlamaz. |
 
 ## 7. Güncel dönüş ve açık sorular
 
-F1–F7 familyalarının tamamı ayrı ayrı sınandı. **Current next:** bütün family modelini B1–B9'a karşı coverage/overlap açısından yeniden konsolide etmek.
+F1–F7 familyalarının tamamı ayrı ayrı sınandı ve S1-14'te B1–B9'a karşı bütün-model coverage/overlap denetimi yapıldı.
 
-Sonraki devam, kullanıcı düzeltmesini aldıktan sonra bu görevlendirmenin başka bir geliştirme alanındaki geçerliliğini karşılaştırabilir. Genel aile, ajan sayısı, mekanizma veya mimari seçimi bu örnekten otomatik çıkmaz.
+**S1-14 sonucu:**
+- F1–F7 hard duplicate familya üretmeden B1–B9'un büyük gövdesini karşılıyor;
+- F2 initial R-lineage primary-owner açığı korunuyor;
+- F3 Information Lifecycle Operations açığı doğrulandı;
+- F3 içinde **Actor / Role Lifecycle Operations** yeni specialization açığı bulundu;
+- decision ayrı familya gerektirmiyor;
+- coordination F3 operational success direction içinde kalabiliyor;
+- research'ün yalnız yöntem mi, F1 specialization'ı mı yoksa ayrı success direction mı olduğu unresolved;
+- effective assignment, family + specialization yanında exact Work/claim/target/artifact/transition object'ine de bağlanmalı.
 
-S1 boyunca açık kalanlar: bütün B işlerinin geliştirme/sınama kapsamı; üretim ve işletim düzeylerinin ayrımı; ailelerin uzmanlık ve başarı yönü uyumu; teşhis/teknik karar yetkisi; gerekli bilgiye fiilî erişim; rolün tetiklenmesi ve devir; M kümelerinin teknik karşılığı; insan yetki/kabul sınırları. R1–R25/M1–M9 yeniden numaralanmadı. ACTORS current candidate family registry'sini ve lineage eşlemesini taşır; S1 dilimleri analiz izidir. Güncel sıra STATE/HANDOFF'tan alınır.
+**Current next:** research / discovery / synthesis success direction'ını ayrı bounded testte sınamak. Rival seçenekler: cross-family method/capability; F1 specialization; ayrı candidate family (`F8?`).
+
+Bu test kapanmadan effective-assignment düzenine, ajan sayısına, mekanizma/topology veya mimari seçimine geçilmez.
+
+S1 boyunca açık kalanlar: research family boundary; F2 specialization kapsamı; Information ve Actor/Role lifecycle operational specialization'ları; ailelerin uzmanlık ve başarı yönü uyumu; gerekli bilgiye fiilî erişim; rolün tetiklenmesi ve devir; M kümelerinin teknik karşılığı; insan yetki/kabul sınırları. R1–R25/M1–M9 yeniden numaralanmadı. ACTORS current candidate family registry'sini ve lineage eşlemesini taşır; S1 dilimleri analiz izidir. Güncel sıra STATE/HANDOFF'tan alınır.
