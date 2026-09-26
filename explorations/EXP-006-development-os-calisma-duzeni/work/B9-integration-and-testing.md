@@ -2,7 +2,7 @@
 
 **Parent:** [WORK](../WORK.md)  
 **Statü:** EXPLORED / candidate decomposition.  
-**Sonraki varsayılan hareket:** B1–B9'u topluca konsolide etmek; rol/sorumluluk tekrarlarını, boşlukları ve bağımlılıkları çözmeden Development OS mimarisine geçmemek.
+**Authority notu:** Bu dosya B-dalı reference decomposition'ıdır; current sequencing authority değildir. Current yön `../STATE.md → ../HANDOFF.md → ../WORK.md` yolundan alınır. Bu dosyadaki tarihsel next/return ifadeleri current talimat sayılmaz.
 
 ## B9'un hedef çıktısı
 
