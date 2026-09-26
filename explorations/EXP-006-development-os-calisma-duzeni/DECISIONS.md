@@ -22,5 +22,6 @@
 - Nihai rol listesi veya agent sayısı.
 - Belirli host/runtime/provider.
 - Memory/RAG/KG/veritabanı/iş takip ürünü seçimi.
-- R1–R6 aday rollerinin kalıcı organizasyon yapısı olduğu.
+- R1–R25 ilk aday rollerinin veya F1–F7 family modelinin nihai organizasyon yapısı olduğu.
 - Foundation'daki dört ground'un dört yazılım modülü olduğu.
+- F2 primary-owner açığının veya F3 Information Lifecycle Operations açığının ayrı fiziksel agent gerektirdiği.
