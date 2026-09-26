@@ -39,12 +39,13 @@ Roller işten türetilir. Rol ailesi aynı etkin görevlendirme veya tek model �
 | [S1-02](work/S1-02-actor-conditioned-role-purpose.md) | Aktör türü, tutarlı başarı yönü ve aktöre göre uyarlama; aile/etkin görevlendirme ayrımı. Aday. |
 | [S1-03](work/S1-03-role-purpose-activation-and-transfer.md) | Ortak taban, tetiklenme, sonuç tüketimi ve birikimin geliştiren→SOUL→kurulmuş role aktarımı. Aday. |
 | [S1-04](work/S1-04-read-only-reviewer-development-chain.md) | Salt-okur inceleme kapasitesinde gereksinim→tasarım→üretim/uyarlama→kurulum→sınama zinciri ve teknik gerçekleştirme görev kartı. Bir örnek eşlendi; aday. |
+| [S1-05](work/S1-05-initial-role-family-draft.md) | R1–R25 için ilk rol ailesi taslağı: F1 Tasarlama, F2 Teknik Gerçekleştirme, F3 İşletim, F4 Yönetişim/Kontrol, F5 Güvence, F6 Teşhis/Toparlanma, F7 Öğrenme/Uyarlama. Aday. |
 
 **Son kullanıcı yönü:** Yönü koruyarak somut, doğru kabul edilmeden tartışılabilecek sonuçlarla devam et.
 
 **Bu turdaki ilerleme:** G1 yalnız yeniden tarif edilmedi; bir örnekte çıktı, bilgi/yeterlik, mevcut R karşılığı, sonraki tüketici ve kanıt bağı gösterildi. R13 tasarım, R14 kurulum/işletim, R20 koordinasyon tanımlarının yeni kod üretimini kendiliğinden sahiplenmediği korunarak teknik gerçekleştirme görevlendirmesi önerildi. Mevcut rolün koşullu genişlemesi veya aynı yeterli aktörün farklı görevlerde kullanılması açık seçeneklerdir. Yeni R26 yok.
 
-**Dönüş:** S1-04'ün somut zincirini ve görev kartını kullanıcıya sun. Sonraki düzeltmeyi al; devamda başka bir geliştirme alanıyla karşılaştırarak ortaklaştırmanın sınırını araştırmak mümkün. G1'in bütün M1–M9 kapsamı, nihai aileler veya mimari bu tek örnekle kapanmaz. Canlı mekanizma/model sınaması yapılmadı.
+**Dönüş:** S1-05'in ilk aile taslağını kullanıcıya kısa ve doğrudan sun. Sonraki çalışma R1–R25'i bu ailelere tek tek yerleştirmek, iki aileye taşan adayları ve orphan responsibility'leri bulmak, özellikle F2'nin B1–B9 coverage'ını kontrol etmektir. Nihai aileler veya mimari henüz yok.
 
 ## Sonraki değerlendirmelerde korunacaklar
 
