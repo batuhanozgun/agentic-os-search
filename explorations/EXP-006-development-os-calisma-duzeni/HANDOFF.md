@@ -3,7 +3,7 @@
 **Amaç:** Yeni oturumun son alt konu kadar onun üst işteki nedenini ve dönüş noktasını devralması.  
 **Güncelleme:** 26 Eylül 2026.  
 **Güncel iş:** S1 — araştırmaya dayalı Development OS rol/sorumluluk konsolidasyonu.  
-**Son teslimat:** [S1-04](work/S1-04-read-only-reviewer-development-chain.md), bir somut G1 geliştirme zinciri; aday sonuç.
+**Son teslimat:** [S1-05](work/S1-05-initial-role-family-draft.md), ilk yedi rol ailesi taslağı; aday sonuç.
 
 ## 1. Yeni oturumda okuma
 
@@ -56,9 +56,11 @@ Keel rol-ac.sh bu sürümde otomatik temizlik yolunun kaldırıldığını belir
 
 S1-04 meşru okuma/raporlama, yasak değişiklik, eksik kontrol, yeni rol oluşumu, düzeltme sonrası yeni sürüm ve kasıtlı bozma senaryolarını **önerdi**; koşmadı. Mekanik engel başarısı iyi muhakeme kanıtı; yazma denemesi olmaması da engelin çalıştığının kanıtı değildir. Canlı DevOS/SOUL/Keel testi ve mekanizma uygulaması yok.
 
-## 6. Dönüş ve sonraki sınırlı iş
+## 6. Kalıcı iletişim kuralı ve sonraki sınırlı iş
 
-S1-04 örneğini ve teknik gerçekleştirme görev kartını kullanıcıya sun; yorumunu/düzeltmesini önce değerlendir. G1 artık yalnız açıklama değil, bir örnekte teslim ve sorumluluk eşlemesi seviyesinde; bütün M1–M9 için kapanmış değildir.
+EXP-006 cevapları kısa ve doğrudan olmalı: önce ne yaptığımız, sonra bu turda ne çıktığı, sonra sıradaki adım. Örnekler ana sonucu gömmemeli. Bu kural EXP-006_Context ve DECISIONS içinde kalıcılaştırıldı.
+
+S1-05 aile taslağını kullanıcıya sun. Ardından R1–R25'in tamamını F1–F7'ye tek tek yerleştir; iki aileye düşen adayları ve sahipsiz sorumlulukları göster. F2 teknik gerçekleştirme ailesinin B1–B9 coverage'ı ayrıca kontrol edilmelidir.
 
 Devamda bu görevlendirmenin başka bir geliştirme alanında aynı başarı yönüyle çalışıp çalışamayacağını karşılaştırmak mümkündür. Örneğin bilgiye erişim/bağlam üretimi başka uzmanlık isteyebilir; tek güvenlik örneğinden evrensel geliştirici rolü çıkarılmaz. Böyle bir ikinci örnek bu tur yapılmadı. Genel aile sayısı, fiziksel aktör, araç/ortam, model eğitimi ve mimari kararları açık kalır.
 
