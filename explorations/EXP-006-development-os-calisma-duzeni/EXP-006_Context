@@ -325,3 +325,21 @@ Temel continuity ilkesi:
 > **Aktör/oturum değişebilir; Work'ün amacı, durumu, kararları ve devralma noktası konuşmanın belleğine bağlı kalmamalıdır.**
 
 Normal yeni-oturum yolu `INDEX → STATE → HANDOFF → WORK → active B file` şeklindedir. Context yalnız yön/metodoloji gerçekten değiştiğinde güncellenir.
+
+
+---
+
+## EXP-006 iletişim disiplini
+
+Bu çalışma uzun ve çok katmanlı olduğu için kullanıcıya verilen cevap ana hattı örneklerin içine gömmemelidir.
+
+Varsayılan cevap düzeni:
+
+1. **Ne yapıyoruz?** — mevcut üst amaç ve bu turun yeri bir-iki kısa cümleyle.
+2. **Bu turda ne çıktı?** — doğrudan sonuç; kısa cümleler.
+3. **Bu ne anlama geliyor?** — gerekiyorsa yalnız karar için gerekli açıklama.
+4. **Sıradaki adım ne?** — tek ve açık devam yönü.
+
+Örnek, araştırma ayrıntısı ve terminoloji ana sonucu açıklamak için kullanılır; ana sonucu ikame etmez. Kullanıcı özellikle ayrıntı istemedikçe, bütünsel görünme uğruna tek cevapta çok fazla katman birleştirilmez.
+
+Bu iletişim kuralı yalnız EXP-006 çalışmasının kullanıcıya anlatım biçimidir; agent-control katmanı değildir.
