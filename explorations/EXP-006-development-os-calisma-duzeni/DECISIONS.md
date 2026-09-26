@@ -14,6 +14,7 @@
 | **D007** | B1–B9, SOUL modül listesi değil Development OS'un SOUL üzerinde yapacağı birinci seviye Work alanları olarak kullanılır. | working map accepted for continuation; taxonomy not final |
 | **D008** | Her B dalı şu sırayla açılır: Work → gerekli DevOS kabiliyet/sorumlulukları → bunları taşıyan AI rolü / mekanik sorumluluk / insan sınırı → daha sonra sistem yapısı. | accepted method |
 | **D009** | EXP-006, yalnız konuşma arşivi olarak büyütülmeyecek; fresh-session devrini sağlayacak WORK/ACTORS/DECISIONS/HANDOFF ve aktif Work dosyalarıyla yaşayan çalışma yüzeyine dönüştürülecek. | explicitly accepted |
+| **D010** | EXP-006 cevapları ana hattı örneklerin içine gömmeyecek; önce ne yaptığımızı, sonra bu turda ne çıktığını, en son sıradaki adımı kısa ve doğrudan söyleyecek. Ayrıntı ana sonucu destekleyecek. | explicitly accepted communication rule |
 
 ## Özellikle karar verilmemiş olanlar
 
