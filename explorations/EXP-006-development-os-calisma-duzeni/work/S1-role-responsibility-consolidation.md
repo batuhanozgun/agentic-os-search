@@ -1,7 +1,7 @@
 # S1 — Araştırmaya dayalı rol ve sorumluluk konsolidasyonu
 
 **Üst iş:** [WORK](../WORK.md)  
-**Durum:** DEVAM EDİYOR. S1-01–S1-15 tamamlandı. F1–F7 ayrı ayrı ve S1-14'te bütün model olarak incelendi; S1-15 araştırma sınırını çözerek F8'i ayrı aday olarak ekledi. Sıradaki mantıksal dilim F2 realization ve F3 lifecycle specialization kapsamlarıdır. Nihai rol düzeni veya mimari kabul edilmiş değildir.  
+**Durum:** DEVAM EDİYOR. S1-01–S1-16 tamamlandı. F1–F8 current candidate family modeli var; F2 realization kapsamı ile F3 Information/Actor-Role participation lifecycle specialization'ları S1-16'da netleştirildi. Sıradaki iş final S1 consolidation/closure audit'tir. Nihai rol düzeni veya mimari kabul edilmiş değildir.
 **Amaç:** B1–B9'dan türeyen Development OS sorumluluklarını, R1–R25 rol adaylarını ve M1–M9 mekanik sorumluluklarını araştırma örnekleriyle sınayarak gerekçeli bir bütün oluşturmak.  
 **Sınır:** SOUL veya Development OS kurulumu, ürün seçimi ve ajan sayısı kararı değildir.
 
@@ -23,7 +23,7 @@ Current aday sonuç:
 - F7 Öğrenme/Adaptasyon Yönlendirme
 - F8 Araştırma/Keşif/Sentez — S1-15 ile eklenen aday
 
-F2 initial R1–R25 içinde primary owner bulamadı. F3 Information Lifecycle Operations ve Actor / Role Lifecycle Operations açık specialization'lar olarak göründü. S1-15, araştırmanın hem ortak yöntem hem ayrı bilgi teslimatı olabileceğini belirledi. Mevcut modelde ayrı F8 tercih edildi; F1'i genişletme veya F5 altında epistemik üst aile kurma alternatifleri mantıken imkânsız sayılmadı. Bunlar nihai DevOS rolleri veya sekiz ayrı agent değildir.
+F2 initial R1–R25 içinde primary owner bulamadı; S1-16 realization specialization'ını fixed M-list yerine exact realization object + domain competence ile netleştirdi. F3 Information Lifecycle Operations ayrı specialization olarak korundu; Actor / Role Lifecycle Operations adı **Actor / Role Participation Lifecycle Operations** diye daraltıldı. S1-15, araştırmanın hem ortak yöntem hem ayrı bilgi teslimatı olabileceğini belirleyerek ayrı F8 adayını ekledi. Bunlar nihai DevOS rolleri veya sekiz ayrı agent değildir.
 
 Üst zincir değişmedi: SOUL hedefi → DevOS'un SOUL'u geliştirme işleri → gereken kabiliyet/sorumluluklar → bunları taşıyabilecek roller ve mekanik düzen → daha sonra DevOS yapısı. Current rol görünümü ACTORS.md'dedir; R1–R25/M1–M9 lineage ve ilk türetim kaydı olarak korunur.
 
@@ -97,20 +97,23 @@ Asıl kaynak, önceki araştırma yorumu ve yeni S1 önerisi ayrılır. Kaynağ�
 | [S1-13 — F7 Öğrenme/Adaptasyon Yönlendirme](S1-13-learning-adaptation-direction-family.md) | Family consolidation; aday | R23 experience→reusable-change/no-change ve adaptation-loop yönlendirmesi; actual change F1/F2/F3; acquisition/retention/expression claim facet'leri korunur. |
 | [S1-14 — bütün model coverage/overlap](S1-14-full-model-coverage-overlap-audit.md) | B1–B9 cross-audit; aday | F1–F7 hard duplicate olmadan ayakta; F3 Actor/Role Lifecycle Operations açığı; research/discovery ayrı success-direction adayı yeniden açıldı; effective assignment exact object bağıyla rafine edilmeli. |
 | [S1-15 — Araştırma/Keşif/Sentez](S1-15-research-discovery-synthesis-family.md) | Bounded family testi; aday | Araştırma hem ortak yöntem hem esas bilgi teslimatı; ayrı F8 tercihi; F1/F5/F6/F3 sınırları, negatif/sonuçsuz bilgi, source→finding→assurance→tasarım/adaptation ayrımı. |
+| [S1-16 — realization ve lifecycle specialization](S1-16-realization-and-lifecycle-specializations.md) | Specialization consolidation; aday | F2 exact realization object + competence; F3 Information Lifecycle Operations; F3 Actor / Role Participation Lifecycle Operations; design/realization/operation sınırı; yeni familya/R/agent yok. |
 | G1'in diğer alanlara yayılması | Açık | Tek örnek bütün M1–M9'u veya ortak geliştirme ailesinin yeterliğini kanıtlamaz. |
 
 ## 7. Güncel dönüş ve açık sorular
 
-S1-15'in bounded research-family sorusu cevaplandı. Current model F1–F8 adaylarından oluşur. F8 her arama, Work keşfi veya incelemenin sahibi değildir; araştırmanın esas teslimat olduğu işte bilgi sonucunu taşır. Araştırmacının kendi kontrolü bağımsız assurance değildir; yeni bilgi otomatik tasarım veya kalıcı adaptation kararı yaratmaz.
+S1-14 bütün-model audit, S1-15 research-family testi ve S1-16 realization/lifecycle specialization sınaması tamamlandı. F1–F8 current candidate family modeli ile current specialization sınırları var.
 
-**Kalan specialization işi:**
-- F2'nin mekanik ve non-M gerçek üretim/uyarlama kapsamını netleştirmek;
-- F3 Information Lifecycle Operations'ın context/retrieval ve kayıt bakım sorumluluklarıyla birleşme/ayrılma sınırını incelemek;
-- F3 Actor / Role Lifecycle Operations'ın formation design, governance, assembly ve continuity ile devir sınırını incelemek;
-- sahipsiz teslimat veya belirsiz ortak sahiplik kalıp kalmadığını normal işletim/değişiklik/devir örnekleriyle kontrol etmek.
+**S1-16 sonucu:**
+- F2 specialization fixed M1–M9 listesi değil, exact realization object + domain competence üzerinden oluşur;
+- F3 Information Lifecycle Operations ayrı specialization olarak korunur;
+- F3 Actor / Role Lifecycle Operations adı **Actor / Role Participation Lifecycle Operations** diye daraltılır ve ayrı specialization olarak korunur;
+- R5/R7/R9/R20/R21 ile assignment-level birleşme mümkün olsa da semantic responsibility ayrımı korunur;
+- yeni familya, R numarası veya physical actor açılmaz.
 
-Bu sonraki dilim S1-15 turunda yürütülmedi. Sonuç önce kullanıcıya döndürülür; devam yönüyle bu bounded S1 işine girilir. Yeni kanıt veya kullanıcı yönü olmadan araştırma-family sınıflaması baştan tekrarlanmaz.
+**Current next:** final S1 consolidation/closure audit.
 
-Daha sonraki açıklar: gerekli bilgiye fiilî erişim; rolün gerçekten tetiklenmesi ve devir; yeterlilik ve independence; M kümelerinin teknik karşılığı; insan yetki/kabul sınırları; tam effective-assignment düzeni. Bu açıklardan otomatik ajan sayısı, topology veya mimari seçimi çıkmaz.
+Audit current modeli B1–B9'a son kez projekte etmeli; yalnız gerçek orphan/duplicate/handoff çakışması varsa family/specialization işini yeniden açmalı. Kalan competence/context/tool/authority/tetik/devir/independence/topology sorularının hangisinin S1'i gerçekten kapatmayı engellediğini, hangisinin sonraki effective-assignment aşamasına ait olduğunu ayırmalı.
 
-R1–R25/M1–M9 yeniden numaralanmadı. ACTORS current candidate family registry'sini ve lineage eşlemesini taşır; S1 dilimleri analiz izidir. Kabul edilmiş çalışma anlaşmaları DECISIONS'tadır. Güncel sıra STATE/HANDOFF'tan alınır.
+Final audit yapılmadan S1 kapanmaz. Closure-ready olsa bile adjoining effective-assignment aşaması otomatik başlamaz. R1–R25/M1–M9 yeniden numaralanmadı. ACTORS current candidate registry'sini taşır; S1 dilimleri analiz izidir. Güncel sıra STATE/HANDOFF'tan alınır.
+

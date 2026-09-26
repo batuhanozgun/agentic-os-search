@@ -33,8 +33,8 @@ Teknik keşif, koordinasyon, doğrulama veya implementasyon yükü varsayılan o
 | Family | Başarı yönü | Current specialization örnekleri / lineage |
 |---|---|---|
 | **F1 — Tasarlama / Oluşturma** | İhtiyaç, amaç, kısıt ve mevcut gerçeklerden downstream work'ün kullanabileceği uygulanabilir ve sınanabilir tasarım üretmek | common baseline (R1), information lifecycle design (R4), role/actor formation (R7), Work formation/planning (R10), Environment design (R13), cross-ground composition design (R16), working-system formation (R19), evaluation design (R24) |
-| **F2 — Gerçekleştirme / Uygulama** | Tasarım/gereksinimi gerçek, kullanılabilir ve sınanabilir artefakt veya mekanizmaya dönüştürmek | **initial R1–R25 içinde primary owner yok**; M1–M9 mechanical realization yüzeyleri önemli specialization kaynağıdır, fakat instruction/role/configuration/procedure/adapter/test-harness gibi non-M artefakt realization'ı da F2 kapsamına girebilir |
-| **F3 — İşletim / Stewardship / Koordinasyon** | Aktif Work/system/capability'yi current koşullarda doğru durumda yürütmek ve gerekli operational geçişleri yönetmek | context/retrieval ops (R5), Work admission/flow (R11), Environment ops (R14), configuration assembly/activation (R20), continuity/re-entry (R21), evaluation campaign ops (R25), **Information Lifecycle Operations — açık specialization**, **Actor / Role Lifecycle Operations — açık specialization** |
+| **F2 — Gerçekleştirme / Uygulama** | Tasarım/gereksinimi gerçek, kullanılabilir ve sınanabilir artefakt veya mekanizmaya dönüştürmek | **initial R1–R25 içinde primary owner yok**; specialization fixed M-list değil **exact realization object + domain competence** üzerinden oluşur. M1–M9 önemli mechanical coverage; instruction/role/config/schema/procedure/adapter/integration/test-harness gibi non-M artefaktlar da F2 olabilir |
+| **F3 — İşletim / Stewardship / Koordinasyon** | Aktif Work/system/capability'yi current koşullarda doğru durumda yürütmek ve gerekli operational geçişleri yönetmek | context/retrieval ops (R5), **Information Lifecycle Operations**, **Actor / Role Participation Lifecycle Operations**, Work admission/flow (R11), Environment ops (R14), configuration assembly/activation (R20), continuity/re-entry (R21), evaluation campaign ops (R25) |
 | **F4 — Yönetişim / Yetki / Kontrol** | Mandate, delegation ve governed-effect sınırlarını korumak; technical capability ile legitimate authority'yi karıştırmamak | authority/delegation governance (R9), exact-effect/control/transition governance (R17) |
 | **F5 — Doğrulama / Güvence** | Bir claim için kanıtın neyi gerçekten desteklediğine doğru hükmetmek | behavior (R2), information (R6), actor qualification (R8), Work/closure (R12), Environment/effect (R15), composite assurance (R18) |
 | **F6 — Teşhis / Etki Analizi / Recovery Yönlendirme** | Failure/change sonrası doğru neden, etki, invalidation ve güvenilir geri dönüş yolunu belirlemek | causal diagnosis/root-cause routing (R3), change-impact/invalidation/recovery-path selection (R22) |
@@ -42,6 +42,46 @@ Teknik keşif, koordinasyon, doğrulama veya implementasyon yükü varsayılan o
 | **F8 — Araştırma / Keşif / Sentez** | Yetkili bilgi sorusunu kaynak, gözlem ve uygun incelemeyle aydınlatmak; desteklenen bulgu, sınır ve açık soruları kullanılabilir bilgi olarak teslim etmek | S1-15 ile ayrı aday; kavramsal/karşılaştırmalı inceleme, mekanizma/yapılabilirlik, ampirik inceleme olası specialization yüzeyleridir. Initial R1–R25 içinde bağımsız araştırma teslimatı birincil rol olarak adlandırılmamıştı; yeni R26 atanmadı. |
 
 Bu model kullanıcı tarafından nihai DevOS kadrosu olarak kabul edilmiş değildir. S1-14 F1–F7'nin B1–B9 coverage/overlap denetimiydi; [S1-15](work/S1-15-research-discovery-synthesis-family.md) araştırma sınırını derinleştirerek ayrı F8 adayını ekledi. Bu nitel model tercihi, sekiz familyanın zorunlu/optimal olduğunun veya gerçek sistemde çalıştığının kanıtı değildir.
+
+## F2/F3 specialization sınırları — S1-16
+
+### F2 realization
+
+F2 specialization sabit rol kataloğundan veya M1–M9 kimliklerinden türetilmez.
+
+**Current aday kural:** exact realization object + domain competence.
+
+Realization nesnesi code/hook/service gibi mekanik artefakt olabileceği gibi instruction, role/config/schema, procedure, adapter/integration veya evaluation harness da olabilir.
+
+- F1 tasarlar.
+- F2 reusable/usable artefaktı veya mekanizmayı gerçekleştirir/değiştirir.
+- F3 mevcut mekanizmayla current state/operation'ı yürütür.
+- F4 governing sınırı korur.
+- F5 claim'i sınar.
+
+Aynı actor bu assignment'ları taşıyabilir; local producer test'i bağımsız assurance değildir.
+
+### F3 Information Lifecycle Operations
+
+R5 context/retrieval ile aynı familyada fakat ayrı specialization'dır.
+
+Owned operational object: canonical/qualified Information lifecycle state.
+
+Örnek işler: write/update/revise; supersede; archive/restore; retention/expiry/deprecation/forgetting; conflict/pending update'i doğru lifecycle state'e taşıma; currentness/index bakımının operasyonu.
+
+Lifecycle semantics F1/R4; mechanism F2/M2; access/governance F4; integrity assurance F5/R6; diagnosis F6 tarafından taşınır.
+
+### F3 Actor / Role Participation Lifecycle Operations
+
+S1-14'teki “Actor / Role Lifecycle Operations” adı daraltıldı.
+
+Owned operational object: actor–role participation/binding standing.
+
+Örnek işler: actor-role bind; assigned ↔ active participation; scope/episode activation; deactivate; reassign/replace; retire; standing responsibility'yi yeni episode'a yeniden bağlama.
+
+R7 formation/design, R9 authority/delegation governance, R20 Working Configuration assembly ve R21 continuity/re-entry bu specialization'la kesişir fakat onu tek başına ikame etmez.
+
+Bu specialization'ların görünürleşmesi yeni R numarası, physical agent veya service kararı değildir.
 
 ## F8 sınırı — yöntem ile esas teslimat
 
@@ -129,20 +169,18 @@ M1–M9 fiziksel modül veya servis sayısı değildir. F2 bu mekanik sorumluluk
 
 ## Current açık sorular
 
-S1-15 sonrası:
-- research hem ortak yöntem hem ayrı bilgi teslimatı olabilir; current candidate model F8'i içeriyor;
-- decision ayrı familya gerektirmiyor;
-- coordination current modelde F3 içinde kalıyor;
-- F2 initial R-lineage primary-owner açığı sürüyor;
-- F3 Information Lifecycle Operations ve Actor / Role Lifecycle Operations specialization'ları hâlâ netleştirilmeli.
+S1-16 sonucu:
+- F1–F8 candidate family modeli korunuyor;
+- F2 realization specialization sınırı exact realization object + domain competence ile netleştirildi;
+- F3 Information Lifecycle Operations ayrı specialization olarak korundu;
+- F3 Actor / Role Participation Lifecycle Operations ayrı specialization olarak korundu;
+- yeni familya/R numarası/physical actor açılmadı.
 
-Sıradaki bounded S1 işi:
-- F2 realization specialization sınırları nasıl çizilmeli?
-- iki F3 operational specialization mevcut sorumluluklarla ne ölçüde birleşebilir, nerede ayrı teslimat/devir gerekir?
-
-Daha sonraki açıklar:
-- exact assignment object + actor operating profile nasıl somutlaştırılmalı?
-- gerekli competence, context/tools, activation, authority, handoff ve independence nasıl gerçekten sağlanıp sınanmalı?
+Current açıklar:
+- final S1 consolidation/closure audit current modelde orphan/duplicate/handoff açığı buluyor mu?
+- exact assignment object + actor operating profile modeli S1 closure için yeterli mi, yoksa eksik kısmı sonraki effective-assignment aşamasına mı ait?
+- F8 dahil familyaların gerçek competence/tetik/devir/independence düzeni sonraki aşamada nasıl kurulmalı?
 - kaç fiziksel actor/model/session gerekir?
 
-Bu sorular çözülmeden familyaları nihai Development OS organizasyonu sayma. S1-15 turunda sonraki specialization veya mimari çalışması yürütülmedi.
+Bu soruların son ikisi otomatik olarak S1 family/specialization problemi değildir. Final audit bu sınırı belirlemeden familyaları nihai Development OS organizasyonu sayma.
+

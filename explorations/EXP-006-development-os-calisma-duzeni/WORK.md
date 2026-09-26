@@ -3,7 +3,7 @@
 **Rol:** Üst iş haritası ve çalışma sırası.  
 **Statü:** Diyalog ve araştırma çalışma haritası; Development OS mimarisi değildir.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
-**Güncel iş:** S1 — rol/sorumluluk konsolidasyonu. S1-15 araştırma-family testi tamamlandı; sıradaki mantıksal dilim F2 realization ve F3 lifecycle specialization kapsamlarını netleştirmek.
+**Güncel iş:** S1 — rol/sorumluluk family modelini konsolide etmek. S1-16 realization/lifecycle specialization sınaması tamamlandı; final S1 consolidation/closure audit sırada.
 
 ## Ana zincir ve katmanlar
 
@@ -38,8 +38,8 @@ Roller işten türetilir. Rol ailesi aynı etkin görevlendirme veya tek model �
 | Family | Sonuç |
 |---|---|
 | F1 — Tasarlama/Oluşturma | aday olarak ayakta; R4'ün design tarafı burada |
-| F2 — Gerçekleştirme/Uygulama | ayrı başarı yönü; initial R1–R25 içinde primary owner yok |
-| F3 — İşletim/Stewardship/Koordinasyon | aday olarak ayakta; Information ve Actor/Role Lifecycle Operations açık specialization'lar |
+| F2 — Gerçekleştirme/Uygulama | ayrı başarı yönü; specialization exact realization object + domain competence üzerinden; initial R1–R25 içinde primary owner yok |
+| F3 — İşletim/Stewardship/Koordinasyon | aday olarak ayakta; Information Lifecycle Operations ve Actor / Role Participation Lifecycle Operations ayrı specialization olarak netleşti |
 | F4 — Yönetişim/Yetki/Kontrol | aday olarak ayakta; human mandate source ayrı tutuldu |
 | F5 — Doğrulama/Güvence | aday olarak ayakta; R18 composite assurance specialization'ı |
 | F6 — Teşhis/Etki Analizi/Recovery Yönlendirme | aday olarak ayakta; R3 causal diagnosis, R22 impact/recovery routing |
@@ -48,24 +48,24 @@ Roller işten türetilir. Rol ailesi aynı etkin görevlendirme veya tek model �
 
 S1-01–S1-15 ayrıntılı analiz slice'ları work/ altında tutulur. Bunlar current sequencing authority değildir; içlerindeki “next step” cümleleri üretildikleri turun tarihsel dönüş noktalarıdır.
 
-### S1-15 sonucu ve kalan açıklar
+### Current S1 durumu
 
-S1-14 full-model audit'ten sonra S1-15 araştırma sınırını kaynak karşılaştırmasıyla sınadı. Araştırma hem cross-family yöntem hem ayrı bilgi teslimatı olabilir. Current model ayrı F8'i tercih ediyor; F1'e yerleştirme veya genişletilmiş F5 alternatifi evrensel olarak imkânsız ilan edilmedi. Sekiz familya, ayrı sekiz ajan veya deneysel olarak doğrulanmış organizasyon değildir.
+S1-14 full-model audit, S1-15 research-family testi ve S1-16 specialization sınaması tamamlandı.
 
-Korunan:
+Korunan/netleşen:
+- F1–F8 current candidate success-direction modeli.
+- F2 realization specialization'ı fixed M-list değil, exact realization object + domain competence ile oluşur.
+- F3 Information Lifecycle Operations ayrı specialization.
+- F3 Actor / Role Participation Lifecycle Operations ayrı specialization.
 - Decision ayrı familya gerektirmiyor.
-- Coordination current aday modelde F3 operational familyası içinde kalıyor.
-- Her arama, context hazırlığı, Work keşfi veya assurance F8 değildir; esas teslimat ve bitiş koşulu önemlidir.
+- Coordination F3 operational familyası içinde kalabiliyor.
+- Aynı actor birden fazla family/specialization assignment taşıyabilir; bu semantik ayrımları silmez.
 
-Kalan:
-- F2'nin initial rol listesinde primary taşıyıcısı yok; specialization kapsamı mekanik/non-M çıktılarla netleşmeli.
-- F3 Information Lifecycle Operations specialization açığı sürüyor.
-- F3 Actor / Role Lifecycle Operations specialization açığı sürüyor.
-- Family × specialization × exact assignment object × actor operating profile yapısı henüz nihai değil. Araştırma için exact object, bilgi sorusu ve beklenen bilgi teslimatıdır.
+Açık:
+- family → specialization → exact assignment object → actor operating profile working candidate'tır; ayrıntılı effective-assignment düzeni henüz tasarlanmadı.
+- S1'in kapanışa hazır olup olmadığı final consolidation/closure audit ile sınanmadı.
 
-**Current dönüş:** F2 realization ve F3'ün iki lifecycle specialization'ının mevcut sorumluluklarla birleşme/ayrılma ve devir sınırlarını netleştirmek. Bu sonraki dilim S1-15 turunda yürütülmedi; kullanıcının devam yönüyle açılır. Research-family sorusu yeni karşı kanıt/yön yoksa baştan tekrarlanmaz.
-
-S1 kapanmadan mimariye, agent sayısına veya topology'ye geçilmez. Tam effective-assignment düzeni de bu tur başlatılmadı.
+**Current dönüş:** final S1 consolidation/closure audit. Bu bitmeden S1'i kapatma; closure-ready olsa bile effective-assignment aşamasını otomatik başlatma.
 
 ## Sonraki değerlendirmelerde korunacaklar
 
