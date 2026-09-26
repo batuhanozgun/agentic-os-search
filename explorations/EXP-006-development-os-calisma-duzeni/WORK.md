@@ -3,7 +3,7 @@
 **Rol:** Üst iş haritası ve çalışma sırası.  
 **Statü:** Diyalog ve araştırma çalışma haritası; Development OS mimarisi değildir.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
-**Güncel iş:** S1 — rol/sorumluluk family modelini coverage/overlap açısından konsolide etmek; S1-14 tamamlandı, research/discovery success-direction testi sırada.
+**Güncel iş:** S1 — rol/sorumluluk konsolidasyonu. S1-15 araştırma-family testi tamamlandı; sıradaki mantıksal dilim F2 realization ve F3 lifecycle specialization kapsamlarını netleştirmek.
 
 ## Ana zincir ve katmanlar
 
@@ -33,37 +33,39 @@ Roller işten türetilir. Rol ailesi aynı etkin görevlendirme veya tek model �
 
 [S1 master](work/S1-role-responsibility-consolidation.md) current konsolidasyon yöntemini ve dilim dizinini taşır.
 
-### Tamamlanan aday family review'ları
+### Aday family review sonuçları
 
 | Family | Sonuç |
 |---|---|
-| F1 — Tasarlama/Oluşturma | aday olarak ayakta; R4'ün design tarafı buraya çekildi |
+| F1 — Tasarlama/Oluşturma | aday olarak ayakta; R4'ün design tarafı burada |
 | F2 — Gerçekleştirme/Uygulama | ayrı başarı yönü; initial R1–R25 içinde primary owner yok |
-| F3 — İşletim/Stewardship/Koordinasyon | aday olarak ayakta; Information Lifecycle Operations specialization açığı bulundu |
+| F3 — İşletim/Stewardship/Koordinasyon | aday olarak ayakta; Information ve Actor/Role Lifecycle Operations açık specialization'lar |
 | F4 — Yönetişim/Yetki/Kontrol | aday olarak ayakta; human mandate source ayrı tutuldu |
 | F5 — Doğrulama/Güvence | aday olarak ayakta; R18 composite assurance specialization'ı |
 | F6 — Teşhis/Etki Analizi/Recovery Yönlendirme | aday olarak ayakta; R3 causal diagnosis, R22 impact/recovery routing |
 | F7 — Öğrenme/Adaptasyon Yönlendirme | aday olarak ayakta; actual adaptation change F1/F2/F3'e gider |
+| F8 — Araştırma/Keşif/Sentez | S1-15 ile ayrı aday; esas teslimatı kaynaklı bilgi olan Work'ü taşır, ortak araştırma kabiliyetini diğer ailelerden almaz |
 
-S1-01–S1-13 ayrıntılı analiz slice'ları work/ altında tutulur. Bunlar current sequencing authority değildir; içlerindeki "next step" cümleleri üretildikleri turun tarihsel dönüş noktalarıdır.
+S1-01–S1-15 ayrıntılı analiz slice'ları work/ altında tutulur. Bunlar current sequencing authority değildir; içlerindeki “next step” cümleleri üretildikleri turun tarihsel dönüş noktalarıdır.
 
-### Current S1 açıkları
+### S1-15 sonucu ve kalan açıklar
 
-S1-14 full-model audit tamamlandı.
+S1-14 full-model audit'ten sonra S1-15 araştırma sınırını kaynak karşılaştırmasıyla sınadı. Araştırma hem cross-family yöntem hem ayrı bilgi teslimatı olabilir. Current model ayrı F8'i tercih ediyor; F1'e yerleştirme veya genişletilmiş F5 alternatifi evrensel olarak imkânsız ilan edilmedi. Sekiz familya, ayrı sekiz ajan veya deneysel olarak doğrulanmış organizasyon değildir.
 
 Korunan:
-- F1–F7 hard duplicate olmadan B1–B9'un ana responsibility gövdesini karşılıyor.
 - Decision ayrı familya gerektirmiyor.
-- Coordination current evidence altında F3 operational familyası içinde kalabiliyor.
+- Coordination current aday modelde F3 operational familyası içinde kalıyor.
+- Her arama, context hazırlığı, Work keşfi veya assurance F8 değildir; esas teslimat ve bitiş koşulu önemlidir.
 
-Açık:
-- F2'nin initial rol listesinde primary taşıyıcısı yok.
+Kalan:
+- F2'nin initial rol listesinde primary taşıyıcısı yok; specialization kapsamı mekanik/non-M çıktılarla netleşmeli.
 - F3 Information Lifecycle Operations specialization açığı sürüyor.
-- F3 Actor / Role Lifecycle Operations specialization açığı yeni bulundu.
-- Research / Discovery / Synthesis bazı Work'lerde primary deliverable olabilir; method vs F1 specialization vs ayrı candidate family henüz çözülmedi.
-- family → specialization → exact assignment object → actor operating profile modeli henüz nihai değil.
+- F3 Actor / Role Lifecycle Operations specialization açığı sürüyor.
+- Family × specialization × exact assignment object × actor operating profile yapısı henüz nihai değil. Araştırma için exact object, bilgi sorusu ve beklenen bilgi teslimatıdır.
 
-**Current dönüş:** research / discovery / synthesis success direction'ını bounded S1 testiyle sınamak. Bu çözülmeden effective-assignment düzenine, mimariye, agent sayısına veya topology'ye geçme.
+**Current dönüş:** F2 realization ve F3'ün iki lifecycle specialization'ının mevcut sorumluluklarla birleşme/ayrılma ve devir sınırlarını netleştirmek. Bu sonraki dilim S1-15 turunda yürütülmedi; kullanıcının devam yönüyle açılır. Research-family sorusu yeni karşı kanıt/yön yoksa baştan tekrarlanmaz.
+
+S1 kapanmadan mimariye, agent sayısına veya topology'ye geçilmez. Tam effective-assignment düzeni de bu tur başlatılmadı.
 
 ## Sonraki değerlendirmelerde korunacaklar
 
@@ -71,4 +73,4 @@ Her sorumluluk için: neden var; ne üretir; hangi bilgi/yeterlikle; hangi tutar
 
 Tasarım, üretim, kurulum, işletim ve bağımsız hüküm aynı şey değildir. Aynı görevlendirmede birleşmeleri, uzmanlık ve başarı yönü uyumuna bağlı aday tercihtir. Genel tasarımda görünmeyen teknik üretim yükü, mekanik sistem adına yazılarak kapanmaz.
 
-S1 bitmeden mimariye geçilmez. DevOS geliştirmesi, SOUL'un gelecekteki işi ve EXP-006 kayıt düzeni ayrı kalır. Keel ve OS Architect örnektir; eski emirleri, kuyrukları ve insan kapıları alınmaz. ACTORS current candidate family registry'sini ve R1–R25 lineage eşlemesini taşır; S1-14 full-model audit current open family/specialization sınırlarını ekler; diğer S1 slice'ları analiz izini korur. Kabul edilmiş çalışma anlaşmaları DECISIONS'tadır.
+S1 bitmeden mimariye geçilmez. DevOS geliştirmesi, SOUL'un gelecekteki işi ve EXP-006 kayıt düzeni ayrı kalır. Keel ve OS Architect örnektir; eski emirleri, kuyrukları ve insan kapıları alınmaz. ACTORS current candidate family registry'sini ve R1–R25 lineage eşlemesini taşır; S1-14/S1-15 analiz izini korur. Kabul edilmiş çalışma anlaşmaları DECISIONS'tadır.

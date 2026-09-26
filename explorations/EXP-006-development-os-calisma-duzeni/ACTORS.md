@@ -34,29 +34,29 @@ Teknik keşif, koordinasyon, doğrulama veya implementasyon yükü varsayılan o
 |---|---|---|
 | **F1 — Tasarlama / Oluşturma** | İhtiyaç, amaç, kısıt ve mevcut gerçeklerden downstream work'ün kullanabileceği uygulanabilir ve sınanabilir tasarım üretmek | common baseline (R1), information lifecycle design (R4), role/actor formation (R7), Work formation/planning (R10), Environment design (R13), cross-ground composition design (R16), working-system formation (R19), evaluation design (R24) |
 | **F2 — Gerçekleştirme / Uygulama** | Tasarım/gereksinimi gerçek, kullanılabilir ve sınanabilir artefakt veya mekanizmaya dönüştürmek | **initial R1–R25 içinde primary owner yok**; M1–M9 mechanical realization yüzeyleri önemli specialization kaynağıdır, fakat instruction/role/configuration/procedure/adapter/test-harness gibi non-M artefakt realization'ı da F2 kapsamına girebilir |
-| **F3 — İşletim / Stewardship / Koordinasyon** | Aktif Work/system/capability'yi current koşullarda doğru durumda yürütmek ve gerekli operational geçişleri yönetmek | context/retrieval ops (R5), Work admission/flow (R11), Environment ops (R14), configuration assembly/activation (R20), continuity/re-entry (R21), evaluation campaign ops (R25), **Information Lifecycle Operations — açık specialization**, **Actor / Role Lifecycle Operations — yeni açık specialization** |
+| **F3 — İşletim / Stewardship / Koordinasyon** | Aktif Work/system/capability'yi current koşullarda doğru durumda yürütmek ve gerekli operational geçişleri yönetmek | context/retrieval ops (R5), Work admission/flow (R11), Environment ops (R14), configuration assembly/activation (R20), continuity/re-entry (R21), evaluation campaign ops (R25), **Information Lifecycle Operations — açık specialization**, **Actor / Role Lifecycle Operations — açık specialization** |
 | **F4 — Yönetişim / Yetki / Kontrol** | Mandate, delegation ve governed-effect sınırlarını korumak; technical capability ile legitimate authority'yi karıştırmamak | authority/delegation governance (R9), exact-effect/control/transition governance (R17) |
 | **F5 — Doğrulama / Güvence** | Bir claim için kanıtın neyi gerçekten desteklediğine doğru hükmetmek | behavior (R2), information (R6), actor qualification (R8), Work/closure (R12), Environment/effect (R15), composite assurance (R18) |
 | **F6 — Teşhis / Etki Analizi / Recovery Yönlendirme** | Failure/change sonrası doğru neden, etki, invalidation ve güvenilir geri dönüş yolunu belirlemek | causal diagnosis/root-cause routing (R3), change-impact/invalidation/recovery-path selection (R22) |
 | **F7 — Öğrenme / Adaptasyon Yönlendirme** | Experience/outcome/feedback'in reusable change'e yükseltilip yükseltilmeyeceğini ve hangi scope'ta değişiklik gerektirdiğini yönetmek | learning/adaptation direction (R23) |
+| **F8 — Araştırma / Keşif / Sentez** | Yetkili bilgi sorusunu kaynak, gözlem ve uygun incelemeyle aydınlatmak; desteklenen bulgu, sınır ve açık soruları kullanılabilir bilgi olarak teslim etmek | S1-15 ile ayrı aday; kavramsal/karşılaştırmalı inceleme, mekanizma/yapılabilirlik, ampirik inceleme olası specialization yüzeyleridir. Initial R1–R25 içinde bağımsız araştırma teslimatı birincil rol olarak adlandırılmamıştı; yeni R26 atanmadı. |
 
-Bu model kullanıcı tarafından nihai DevOS kadrosu olarak kabul edilmiş değildir. S1-14 bütün familyaların B1–B9 coverage/overlap denetimini yaptı; F1–F7 reddedilmedi fakat research/discovery ayrı success direction olabilir ve bu soru ayrıca sınanacaktır.
+Bu model kullanıcı tarafından nihai DevOS kadrosu olarak kabul edilmiş değildir. S1-14 F1–F7'nin B1–B9 coverage/overlap denetimiydi; [S1-15](work/S1-15-research-discovery-synthesis-family.md) araştırma sınırını derinleştirerek ayrı F8 adayını ekledi. Bu nitel model tercihi, sekiz familyanın zorunlu/optimal olduğunun veya gerçek sistemde çalıştığının kanıtı değildir.
 
-## Açık family candidate — research / discovery / synthesis
+## F8 sınırı — yöntem ile esas teslimat
 
-S1-14, research'ü yalnız cross-family yöntem/kabiliyet saymanın artık yeterince güvenli olmadığını buldu.
+Araştırma F1–F7 içinde yöntem/kabiliyet olarak kullanılmaya devam eder. F8, esas teslimatı tasarım, uygulama, güvence, recovery veya adaptation kararı değil **kaynaklı bilgi sonucu** olan Work'ü açıkça taşıma adayıdır.
 
-Research:
-- F1/F5/F6/F7 içinde yöntem olarak kullanılabilir;
-- fakat bazı Work'lerde primary deliverable source-grounded bulgu, karşıörnek veya sentez olabilir;
-- bu durumda tasarım, assurance verdict'i, recovery veya adaptation kararı üretmeden bounded biçimde kapanabilir.
+- F1 araştırma bulgusunu kullanıp çözüm tasarlayabilir; aynı actor ikisini ayrı veya küçük işte birleşik görevlendirmeyle taşıyabilir.
+- F5 de yeni soru/karşı kaynak arar; yalnız checklist rolü değildir. Araştırmacının kendi sonucuna yaptığı kontrol bağımsız F5 assurance yerine geçmez.
+- F6'nın investigation'ı failure/change/geri dönüş sorusunu taşıdığı sürece F6 kalır.
+- F3'ün bilinen kaydı bulup context'e sunması otomatik F8 değildir; Information kayıt bakımı da F3'tür.
+- Work/önkoşul keşfi yalnız “keşif” adı nedeniyle F8'e taşınmaz.
+- F7, bulgunun reusable davranış/yöntem değişikliğine yükseltilmesini ayrıca değerlendirir.
 
-Henüz `F8` kabul edilmedi.
+F1'in genişletilmesi veya araştırma/güvencenin geniş bir F5 epistemik üst aile altında toplanması mantıken mümkün alternatiflerdir. Current tercih, farklı teslimat ve epistemik konumu ayrı F8 ile görünür tutmaktır; tek doğru ontoloji iddiası değildir.
 
-Açık bounded test üç rivalı karşılaştıracaktır:
-1. research yalnız cross-family method/capability;
-2. research F1 içinde specialization;
-3. research ayrı candidate success-direction familyası.
+F8'in başarısı kaynak/sayfa veya kesinlik miktarı değildir. Sonuç yeni bir belirsizliği görünür kılabilir, mevcut varsayımı çürütebilir veya gerekçeli biçimde sonuçsuz kalabilir. Sınırlandırılmış/engellenmiş araştırma, çözülmüş soru diye sunulmaz. Her küçük arama için ayrı rol/ajan zorunlu değildir.
 
 ## Effective assignment için current aday formül
 
@@ -66,7 +66,7 @@ Aday yapı:
 
 **family / success direction × specialization × exact assignment object × actor operating profile → effective assignment**
 
-Exact assignment object; göreve göre Work / claim / target / artifact / transition / experience ve ilgili scope'u açıkça bağlamalıdır. Family + specialization tek başına somut rol değildir.
+Exact assignment object; göreve göre Work / claim / target / artifact / transition / experience / araştırma sorusu ve ilgili scope'u açıkça bağlamalıdır. F8'de beklenen bilgi teslimatı, araştırma alanı/hedefi ve gerektiğinde zaman/sürüm de görünür olur. Family + specialization tek başına somut rol değildir.
 
 Actor operating profile en az şu tür koşulları taşıyabilir:
 - gerekli bilgi ve context;
@@ -77,11 +77,11 @@ Actor operating profile en az şu tür koşulları taşıyabilir:
 - handoff/consumer;
 - verification/independence koşulları.
 
-Bu şema da henüz nihai değildir.
+Bu şema da henüz nihai değildir. S1-15 sözleşmesi aday gereksinimdir; çalışan görevlendirme mekanizması kurulmadı.
 
 ## Initial R1–R25 lineage eşlemesi
 
-Aşağıdaki kayıt ilk Work decomposition'ından gelen lineage'ı korur. **Current organizasyon listesi değildir.**
+Aşağıdaki kayıt ilk Work decomposition'ından gelen lineage'ı korur. **Current organizasyon listesi değildir.** Araştırma kullanmaları nedeniyle eski roller otomatik F8'e taşınmaz.
 
 | ID | İlk aday rol | Current family yorumu |
 |---|---|---|
@@ -125,25 +125,24 @@ Aşağıdaki kayıt ilk Work decomposition'ından gelen lineage'ı korur. **Curr
 | **M8** | Durable continuity / handoff / stale-writer protection / recovery correlation substrate | B8 | candidate requirement |
 | **M9** | Evaluation harness / test isolation / evidence capture / target-version binding substrate | B9 | candidate requirement |
 
-M1–M9 fiziksel modül veya servis sayısı değildir. F2 bu mekanik sorumlulukların realization işini taşıyabilir; F3 operating lifecycle'ını taşıyabilir; F5 ilgili claim'leri sınayabilir.
+M1–M9 fiziksel modül veya servis sayısı değildir. F2 bu mekanik sorumlulukların realization işini taşıyabilir; F3 operating lifecycle'ını taşıyabilir; F5 ilgili claim'leri sınayabilir. F8'in araç/deney gereksinimleri yeni M10 veya B10 yaratmaz; mevcut capability'ler yeterliyse kullanılır.
 
 ## Current açık sorular
 
-S1-14 full-model audit sonucu:
-- F1–F7 hard duplicate olmadan B1–B9'un ana responsibility gövdesini karşılıyor;
-- F2 initial R-lineage primary-owner açığı sürüyor;
-- F3 Information Lifecycle Operations specialization açığı doğrulandı;
-- F3 **Actor / Role Lifecycle Operations** specialization açığı yeni bulundu;
+S1-15 sonrası:
+- research hem ortak yöntem hem ayrı bilgi teslimatı olabilir; current candidate model F8'i içeriyor;
 - decision ayrı familya gerektirmiyor;
-- coordination current evidence altında F3 içinde kalabiliyor;
-- research / discovery / synthesis ayrı success direction olabilir ve henüz çözülmedi.
+- coordination current modelde F3 içinde kalıyor;
+- F2 initial R-lineage primary-owner açığı sürüyor;
+- F3 Information Lifecycle Operations ve Actor / Role Lifecycle Operations specialization'ları hâlâ netleştirilmeli.
 
-Current açıklar:
-- research yalnız method/capability mi, F1 specialization mı, ayrı candidate familya mı?
+Sıradaki bounded S1 işi:
 - F2 realization specialization sınırları nasıl çizilmeli?
-- iki yeni F3 operational specialization mevcut görevlendirmelerle ne ölçüde birleşebilir?
-- exact assignment object + actor operating profile modeli yeterli mi?
-- independence gerektiğinde actor/session/context ayrımı nasıl kurulmalı?
+- iki F3 operational specialization mevcut sorumluluklarla ne ölçüde birleşebilir, nerede ayrı teslimat/devir gerekir?
+
+Daha sonraki açıklar:
+- exact assignment object + actor operating profile nasıl somutlaştırılmalı?
+- gerekli competence, context/tools, activation, authority, handoff ve independence nasıl gerçekten sağlanıp sınanmalı?
 - kaç fiziksel actor/model/session gerekir?
 
-Bu sorular çözülmeden familyaları nihai Development OS organizasyonu sayma.
+Bu sorular çözülmeden familyaları nihai Development OS organizasyonu sayma. S1-15 turunda sonraki specialization veya mimari çalışması yürütülmedi.
