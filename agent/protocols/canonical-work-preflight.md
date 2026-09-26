@@ -111,6 +111,20 @@ Bu orientation checkpoint kullanıcıdan projeyi tekrar anlatmasını istemek i�
 
 Aynı conversation içinde current state değişmediyse bu checkpoint'i her mesajda tekrar etme.
 
+#### EXP-006 — kalıcı kısa iletişim sınırı
+
+Kullanıcının EXP-006 için açık kalıcılık talebiyle 27 Eylül 2026'da eklendi. Yetki izi: `explorations/EXP-006-development-os-calisma-duzeni/sources/U002-cloud-plan-and-autonomy.md`, U002-A. Bu atıf kaynak kaydıdır; bütün project-work dosyalarını agent-control'a dönüştürmez.
+
+EXP-006'yı devraldıktan sonra bu çalışmanın kullanıcıya dönük cevaplarında:
+
+- Önce sonucu veya yapılan değişikliği doğrudan ver; sonra yalnız kararı etkileyen belirsizliği ve mevcut plandaki tek devam noktasını ekle.
+- Varsayılan olarak birkaç kısa paragraf veya küçük bir tablo yeterlidir. Olağan ilerleme cevabını yaklaşık 150–250 kelimenin altında tut; bu bir doldurulacak uzunluk hedefi değildir. Kullanıcı daha kısa istiyorsa daha kısa yaz.
+- İç değerlendirmeyi, bütün alternatiflerin tartışmasını, protokol açıklamalarını veya geçmiş çalışmanın tamamını uzun anlatı olarak kullanıcıya yükleme. Kullanıcı açıkça ayrıntılı açıklama/denetim isterse gerekli kapsamı aç.
+- Maddi belirsizlik ve kanıt sınırını sırf kısaltmak için silme; gerekli okuma ve analiz derinliğini azaltma. Ayrıntılı bulgu ve kaynak izini uygun repository yüzeyinde koru; kullanıcıya her seferinde tekrar okutma.
+- AGENT'in zorunlu routing disclosure'ını koru; bunu uzun gerekçe veya tekrar eden yön anlatısıyla genişletme.
+
+Bu dar kapsamlı iletişim değişikliği EXP-006 dışında yeni bir çıktı politikası, epistemik kural değişikliği veya araştırma/mimari yetkisi getirmez.
+
 ### 8. Fail-Closed Kuralı
 
 Şunlardan biri varsa affected substantive Work'e başlama:

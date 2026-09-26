@@ -1,66 +1,46 @@
 # EXP-006 — Development OS çalışma düzeni
 
-**Tür:** Uzun soluklu kavramsal Development OS tasarım Work'ü; exploration kökenli yaşayan çalışma paketi.  
+**Tür:** Exploration kökenli, yaşayan DevOS tasarım Work'ü.  
 **Açılış:** 25 Eylül 2026.  
-**Amaç:** SOUL'u yaratmak için Development OS'un yapacağı Work'ü, gereken kabiliyet/sorumlulukları ve bunlardan türeyen aktör/rol düzenini konuşarak ortaya çıkarmak.  
-**Mimari statü:** Development OS kurulmuş veya nihai mimarisi kabul edilmiş değildir.
+**Üst amaç:** Claude Code cloud ortamında SOUL'u geliştirecek ekibin rol ve çalışma düzenini ortaya koymak.  
+**Current:** Master plan v1.0 mevcut [WORK](WORK.md)'te; **P1 sırada / NOT STARTED**. Claude araştırması ve kurulum henüz başlamadı. S1 aday konsolidasyonu korunuyor; nihai mimari/ekip kabulü yok.
 
-## Current authority sırası
+## Current authority ve tam okuma yolu
 
-Bir dosyada eski bir "sonraki adım", "dönüş" veya "current" ifadesi görülürse aşağıdaki sıra geçerlidir:
+AGENT bootstrap ve gerekli kontrollerden sonra yeni oturumda:
 
-1. [STATE](STATE.md) — current phase, current result ve next responsibility.
-2. [HANDOFF](HANDOFF.md) — fresh-session devir ve doğru devam noktası.
-3. [WORK](WORK.md) — üst Work haritası ve active S1 durumu.
-4. [ACTORS](ACTORS.md) — current **candidate** aktör/rol-family registry'si.
-5. [S1 master](work/S1-role-responsibility-consolidation.md) — current rol-konsolidasyon yöntemi, dilimleri ve açık sorular.
+1. [STATE](STATE.md) — güncel aşama, sonuç, yetki ve durma noktası.
+2. [HANDOFF](HANDOFF.md) — son konuşmayı bilmeden doğru devam.
+3. [WORK](WORK.md) — B1–B9/S1 bağları ve P1–P6 **master planının tek ana yüzeyi**.
+4. [DECISIONS](DECISIONS.md) — kullanıcıyla netleşen kısıt/kararlar; aday tercihlerden ayrı.
+5. [ACTORS](ACTORS.md) — aday aile/sorumluluk/uzmanlık ve R/M lineage.
+6. [U002](sources/U002-cloud-plan-and-autonomy.md) — cloud, iletişim, özerklik, plan ve kısa cevap hakkındaki üç görünür kullanıcı mesajı.
 
-Alt dal/slice dosyalarındaki eski sequencing cümleleri bu yüzeylerin önüne geçmez.
+Bu altı dosya tam okunur. Aynı konuşmada tam ve unchanged içerik varsa tekrar yüklenmez. Sonra yalnız aktif P aşamasının gerektirdiği kaynak derinliğine inilir.
 
-## Cold-start okuma yolu
-
-Normal devam için:
-
-1. STATE.md
-2. HANDOFF.md
-3. WORK.md
-4. ACTORS.md
-5. Active phase S1 ise work/S1-role-responsibility-consolidation.md
-6. Yalnız current sorunun gerektirdiği work/B*.md veya work/S1-*.md ayrıntısı
-
-Gerektiğinde:
-- [DECISIONS](DECISIONS.md) — kullanıcıyla netleşmiş çalışma anlaşmaları.
-- [EXP-006_Context](EXP-006_Context) — neden/nasıl çalıştığımızı ve tarihsel yön değişimlerini korur; current sequencing authority değildir.
-- [sources/](sources/) — görünür kaynak aktarımları.
-- [history/](history/) — superseded snapshot'lar; normal cold-start için okunmaz.
+S1 kararının gerekçesi için [S1 master](work/S1-role-responsibility-consolidation.md) ve ilgili slice; sorumluluk ayrıntısı için work/B*.md kullanılır. S1/B dosyalarındaki eski “next/current” ifadeleri yukarıdaki yolu geçersiz kılamaz.
 
 ## Dosya sorumlulukları
 
 | Yüzey | Tek işi |
 |---|---|
-| STATE.md | current state ve next responsibility |
-| HANDOFF.md | yeni oturumun doğru current işi devralması |
-| WORK.md | B1–B9 üst haritası + active S1 çalışma durumu |
-| ACTORS.md | current candidate actor / role-family / mechanic registry |
-| DECISIONS.md | kabul edilmiş çalışma anlaşmalarını candidate fikirlerden ayırmak |
-| EXP-006_Context | kronolojik yön/metodoloji ve drift koruması |
-| work/B*.md | B1–B9 reference decomposition; sequencing authority değildir |
-| work/S1-role-responsibility-consolidation.md | active S1 master |
-| work/S1-*.md | retained analytical slices; içlerindeki "next" cümleleri tarihsel olabilir |
-| sources/ | kullanıcı/source aktarım kayıtları |
-| history/ | current olmayan snapshot'lar; current karar/yön kaynağı değildir |
+| STATE.md | current/next, yetki, sonuç ve durma sınırı |
+| HANDOFF.md | yeni oturumun doğru işi devralması |
+| WORK.md | eski B1–B9/S1 bağları + bütün P1–P6 haritası, teslimatlar ve geri dönüşler |
+| ACTORS.md | aday aktör/aile/uzmanlık/mekanik sorumluluk registry'si; hazır ajan ekibi değil |
+| DECISIONS.md | kabul edilmiş kullanıcı yönleri/kısıtları ile açık tercihleri ayırmak |
+| sources/U001.md | başlangıç kullanıcı kaynağı |
+| sources/U002-cloud-plan-and-autonomy.md | son master plan ve özerklik açıklamalarının kaynak aktarımı |
+| EXP-006_Context | tarihsel yön/metodoloji bağlamı; current sıra değil |
+| work/B*.md | korunmuş B alanı ayrıştırmaları; sıralı SOUL backlog'u değil |
+| work/S1-role-responsibility-consolidation.md | S1 yöntem/dilim dizini ve sonraki plana bağlantı |
+| work/S1-*.md | korunmuş nitel analizler ve eski tur dönüşleri |
+| history/ | superseded snapshot'lar; normal cold-start'ta okunmaz |
 
-## Güncelleme disiplini
+P aşamaları açıldıkça gereken ayrıntı mevcut work/ altında plana bağlı tutulur; şimdi boş dosya veya yeni çalışma paketi oluşturulmadı. Foundation/studies kaynak rotaları WORK §5'tedir.
 
-- current phase/next değiştiyse STATE.md + HANDOFF.md;
-- üst Work/S1 durumu değiştiyse WORK.md;
-- rol-family/sorumluluk modeli değiştiyse ACTORS.md;
-- kullanıcıyla gerçekten netleşmiş karar oluştuysa DECISIONS.md;
-- yön/metodoloji değiştiyse EXP-006_Context;
-- ayrıntılı analiz kendi work/ slice'ında korunur.
+## Güncelleme ve kapsam
 
-Her mesaj repository mutation gerektirmez. Historical slice'lar current authority gibi güncellenmez.
+Current/next değişirse STATE + HANDOFF; plan/bağımlılık değişirse WORK; rol modeli değişirse ACTORS; gerçek kullanıcı kararı değişirse DECISIONS güncellenir. Kaynak aktarımı yorum yerine geçmez; tarihsel analizler yeni görüşe uydurularak yeniden yazılmaz.
 
-## Sınır
-
-Bu paket Development OS'un kendisi değildir. **Development OS'u tasarlama Work'ünün kalıcı çalışma sistemidir.** Rol familyası sayısı agent sayısı değildir; M1–M9 fiziksel servis/modül sayısı değildir.
+Bu paket DevOS'un kendisi değil, DevOS'u ortaya koyma çalışmasının kalıcı sistemidir. Gerçek SOUL işlerini kurulacak DevOS ekibi keşfeder/yürütür. Claude cloud kullanıcı kısıtıdır; alt ajan/takım, iletişim, rol dosyaları ve ajan sayısı henüz seçilmedi. Rutin rol geçişlerinde kullanıcı tetiklemesi gerekmemesi istenir; sınırsız insan-bağımsızlık istenmez.

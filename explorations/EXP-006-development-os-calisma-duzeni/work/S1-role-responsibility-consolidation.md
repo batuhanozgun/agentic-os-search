@@ -1,7 +1,7 @@
 # S1 — Araştırmaya dayalı rol ve sorumluluk konsolidasyonu
 
-**Üst iş:** [WORK](../WORK.md)  
-**Durum:** **CLOSURE-READY / CANDIDATE / USER-EVALUATION-PENDING.** S1-01–S1-17 tamamlandı; S1-17 family/specialization konsolidasyonunu mevcut kapsamta kapanışa hazır buldu. Kullanıcı kapanışı, nihai organizasyon veya çalışan sistem kabulü yoktur. S1 sonrası geçiş önerisi daha sonraki kullanıcı itirazıyla §7'de koşullandırıldı.  
+**Üst iş:** [WORK ve master plan](../WORK.md)  
+**Durum:** **CLOSURE-READY / CANDIDATE / USER-EVALUATION-PENDING.** S1-01–S1-17 tamamlandı; S1-17 family/specialization konsolidasyonunu mevcut kapsamta kapanışa hazır buldu. Kullanıcı kapanışı, nihai organizasyon veya çalışan sistem kabulü yoktur. S1 sonrası çalışma artık WORK'teki P1–P6 planına bağlıdır; eski sonraki-adım önerileri §7 ile koşullandırılır.  
 **Amaç:** B1–B9'dan türeyen Development OS sorumluluklarını, R1–R25 rol adaylarını ve M1–M9 mekanik sorumluluklarını araştırma örnekleriyle sınayarak gerekçeli bir bütün oluşturmak.  
 **Sınır:** SOUL/DevOS kurulumu, ürün seçimi, ajan sayısı veya ayrıntılı effective-assignment tasarımı değildir.
 
@@ -104,14 +104,14 @@ Asıl kaynak, eski araştırma yorumu ve yeni S1 adayı aynı kanıt değildir. 
 
 Slice'lar tarihsel analizi korur; current next authority değildir. R/M kimlikleri yeniden numaralanmadı.
 
-## 7. Güncel dönüş — S1 sonrası kullanıcı itirazıyla koşullandırıldı
+## 7. S1'den master plana devir — 27 Eylül 2026
 
-S1-17 mevcut family/specialization konsolidasyonunu kapanışa hazır buldu; kullanıcı kapanışı veya nihai kadro kabulü kaydedilmedi. EXP-006 açık.
+S1-17'nin kapanışa hazır aday modeli korunur; S1 kullanıcı kapanışı veya nihai kadro kabulü üretilmedi. Kullanıcı, bu birikimden kopmadan Claude Code cloud gerçekliğinin öğrenilmesini, adlandırılmış rollerin ve WORK–INFORMATION işleyişinin tasarlanmasını, bütün yolun önceden görünür bir plana bağlanmasını istedi. Kaynak: [U002](../sources/U002-cloud-plan-and-autonomy.md).
 
-Sonraki diyalogda kullanıcı, ilk gerçek SOUL geliştirme işini assistant'ın veya kendisinin seçmesine değil, bunu tasarlanacak DevOS ekibinin keşfetmesine dayanan çalışma düzenini istedi; önerinin doğruluk/zamanlamasının değerlendirilmesini de açık tuttu. Ayrıntı ve current yetki STATE/HANDOFF'tadır.
+**Sonraki işlerin haritası [WORK §3–7](../WORK.md)'tedir:** P1 Environment → P2 roller ↔ P3 iş/bilgi döngüsü → P4 bütünleşik tasarım → P5 gerçekleştirme → P6 sınama/devir. Plan/kayıt hazırlığı tamamlandı; **P1 NEXT / NOT STARTED**. Current yetki ve durma noktası STATE/HANDOFF'tan alınır; burada ikinci plan oluşturulmaz.
 
-Bu nedenle önceki “somut bir iş üzerinde etkin görevlendirme” önerisi **gerçek ilk SOUL işini seçmek** şeklinde devralınamaz. Düzeltilmiş yön adayı, sorumluluk ailelerini **adlandırılmış rol sözleşmeleri ve WORK–INFORMATION–ACTORS–ENVIRONMENT işletim ilişkileriyle** somutlaştırmaktır. İş keşfi/planlama da bu düzenin içindedir; hazır backlog'a veya görünmez dış planlayıcıya bırakılmaz.
+Eski “somut bir DevOS geliştirme işi üzerinde görevlendirme” önerisi, assistant'ın ilk SOUL teknik işini seçmesi şeklinde devralınamaz. O işi ve sonraki işleri DevOS ekibi keşfeder/yürütür. Başlangıç çalışma yolunu ve rol sözleşmelerini tasarlamak, ilk teknik cevabı önceden vermek değildir.
 
-Familya modelinin bulunması nihai rollerin veya çalışan ekibin hazır olduğunu göstermez. Standing/koşullu roller, competence, kaynak/context, araç/Environment, yetki, başlangıç tetiği, devir/consumer ve assurance hâlâ tasarım işidir. Başlangıç çalışma yolunu tasarlamak ile SOUL'un ilk teknik görevine karar vermek ayrı tutulur. Varsayımsal senaryo, tasarım sınaması olabilir; canonical görev veya bağımsız keşif kanıtı olamaz.
+K1, talep→etkin çalışma→geri dönen/kullanılan sonuç iletişimidir. K2, rutin rol geçişlerinde Batu'nun tetikleyici olmamasıdır; sonsuz insan-bağımsız çalışma değildir. `loopinance_v2` yalnız ikinci niteliğe örnektir; bütün düzeni/ECC benimsenmez. Cloud hedefi kullanıcı kısıtı olarak belirlenmiştir; gerçek özellik/yeterlik araştırması P1'de henüz yapılmadı.
 
-Bu tur yeni S1 slice'ı, rol kadrosu, model/ajan sayısı/topology/host/runtime seçimi veya uygulama açılmadı. Önceki araştırmalar korunur; sadece devam yönündeki yetki ve analiz düzeyi açıklığı giderilir. Yeni somut familya boşluğu çıkmadıkça bütün S1 sınıflaması tekrarlanmaz.
+Aktör–aile–rol–motivasyon hiyerarşisi, somut rol isimleri, gerçek ajan eşlemesi ve dosya/iletişim mekanizmaları açık. S1'in sonraki tasarıma katkısı ACTORS'taki sorumluluk ve uzmanlık ayrımlarıdır. Bu tur yeni S1 analizi, SOUL backlog'u, ajan dosyası veya kurulum üretilmedi; önceki slice'lar ve B belgeleri değiştirilmedi.

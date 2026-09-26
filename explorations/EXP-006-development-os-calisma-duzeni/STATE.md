@@ -1,69 +1,52 @@
 # EXP-006 — STATE
 
-**Durum:** AÇIK / uzun soluklu diyalog ve araştırma.  
-**Güncelleme:** 26 Eylül 2026.  
-**Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
-**Başlangıçtan beri aranan:** DevOS yapay zekâ aktörünün gereken sorumlulukları ve rolleri.  
-**Güncel aşama:** S1-CLOSURE-READY / CANDIDATE; S1 sonrası yön değerlendirmesi. S1-17'nin kavramsal konsolidasyon sonucu korunuyor; kullanıcıca nihai kadro veya çalışan sistem kabulü yoktur.  
-**Son kullanıcı yönü:** Tam-okuma değerlendirmesinden sonra kullanıcı, “ilk somut SOUL geliştirme işini assistant seçsin” yönüne itiraz etti. İlk ve sonraki işleri, tasarlanan DevOS ekibinin keşfetmesi ve yürütmesi gerektiğini; artık adlandırılmış roller ile WORK–INFORMATION–ACTORS etkileşiminin kurgulanmasını önerdi. Önerinin doğruluğu ve zamanlamasının sorgulanmasını istedi; nihai tasarım veya uygulama onayı varsayılmadı.
+**Durum:** AÇIK / uzun soluklu DevOS tasarım çalışması.  
+**Güncelleme:** 27 Eylül 2026.  
+**Üst amaç:** Claude Code cloud ortamında SOUL'u geliştirecek ekibin çalışma düzenini ortaya koymak.  
+**Current:** Kalıcı master plan ve repository devri hazırlandı; **P1 NEXT / NOT STARTED**. P2–P6 PLANNED / NOT STARTED.  
+**Planın tek ana yüzeyi:** [WORK — master plan v1.0](WORK.md).  
+**Son kullanıcı yönü:** Claude imkânlarını araştırmadan önce mevcut EXP-006 ile bütünleşik çalışma planını kalıcılaştır. Özerklik, her rol geçişini Batu'nun tetiklememesi demektir; sonsuza kadar müdahalesiz çalışma değildir. Kaynak: [U002-A/B/C](sources/U002-cloud-plan-and-autonomy.md).
 
-## Ana zincir
+## Sabit kapsam ve sınırlar
 
-SOUL'u yaratma amacı → DevOS → insan + yapay zekâ → müşteride yetki + kabul → AI rollerini bulmak için Work'ü keşfetmek → SOUL hedefini yeterince somutlaştırmak → B1–B9 geliştirme işleri → R1–R25/M1–M9 ilk adayları → S1 konsolidasyonu → daha sonra DevOS yapısı.
+- **Environment:** Kullanıcının seçimi Claude Code cloud. Gerçek özellik/sınırların yeterliliği henüz P1'de araştırılmadı.
+- **SOUL'u geliştiren:** Kurulacak DevOS ekibi. İlk ve sonraki SOUL işlerini ekip keşfeder, değerlendirir, planlar ve yürütür. Assistant burada o ekibin çalışma düzenini tasarlar; onun yerine gerçek SOUL backlog'u seçmez.
+- **K1 iletişim:** Rol başka rolden bilgi/araştırma/değerlendirme/kontrol ister; talep etkin işe ve geri dönen, kullanılan sonuca bağlanır. İletişim yöntemi açık.
+- **K2 normal ilerleme:** Her adımda Batu'nun “şimdi sıra sende” demesi gerekmez. Başlatma/yeniden başlatma, gerekli müdahale, meşru yetki ve kabul mümkündür. Sınırsız kesintisiz özerklik şartı yok.
+- **Loopinance örnekleri:** Kanon manuel tetikleme karşı örneği; v2 yalnız rutin kullanıcı tetiklemesi gerekmemesinin örneği. V2'nin bütün düzeni veya ECC seçimi benimsenmedi.
+- **Bilgi:** SOUL ürün çıktıları ile DevOS'un kendi plan/bilgi/karar/kanıt/devam kayıtları ayrı amaçlarla, ilişkileri korunarak yönetilir. Fiziksel depolama şeması seçilmedi.
+- **Çalışma standardı:** Foundation düşünme kapsamını genişletir; studies uygulama ve karşı örnekleri sağlar. Yalnız kaynak isimlerini saymak yeterli kullanım değildir.
 
-İlk altı kök iş korunur: hedefi belirleme; gerekli işi keşfetme; yapılabilir kılma; gerçekleştirme; sınama/yeniden çalışma; zaman içinde sürdürme. B1–B9 bunların yerine geçen sıra veya SOUL modül listesi değildir.
+Kabul edilmiş çalışma anlaşmaları ve yeni kullanıcı kısıtları [DECISIONS](DECISIONS.md)'ta; kaynak mesajlar U002'de. Buradaki gereksinimler gösterilmiş platform kabiliyeti değildir.
 
-## Kabul edilmiş çalışma anlaşmaları
+## S1'den devralınan
 
-- İki geniş aktör sınıfı: insan + yapay zekâ.
-- İnsan/müşteri çekirdeği: **yetki + kabul**.
-- Teknik keşif/koordinasyon varsayılan olarak müşteriye bırakılmaz.
-- Roller Work ve sorumluluklardan türetilir.
-- SOUL hedefi bu aşama için yeterince somut kabul edildi.
-- B1–B9 current çalışma haritasıdır; nihai taxonomy değildir.
-- EXP-006 cevapları kısa ve doğrudan ana hattı göstermelidir.
+SOUL hedefi → B1–B9 geliştirme kapsamı → R1–R25/M1–M9 ilk türetim → S1-01–S1-17 → F1–F8 aday aile/specialization modeli → mevcut P1–P6 planı.
 
-Ayrıntı: [DECISIONS](DECISIONS.md). S1-15–S1-17 aday sonuçları ve aşağıdaki yön değerlendirmesi bu kabul listesine otomatik eklenmedi.
+S1-17 **CLOSURE-READY / CANDIDATE** sonucu korunur; nihai rol kadrosu, sekiz ajan, bütün SOUL işlerinin keşfi veya çalışan sistem kabulü değildir. S1 kullanıcı kapanışı kaydedilmedi; buna rağmen sonraki tasarımın planlanması artık kullanıcıca istenmiştir. Her devamda kapanış sorusu veya aile incelemesi yeniden başlatılmaz.
 
-## Current candidate model
+Current aileler ve lineage [ACTORS](ACTORS.md)'ta. F2 gerçek uygulama yükünü görünür tutar; her dosya yazımı F2 değildir, reusable olması şart değildir. F3 Information Lifecycle ve Actor/Role Participation Lifecycle uzmanlıkları korunur; kayıt doğruluk/yetki/etki yerine geçmez. S1-16'nın kesilmiş kaynaklara ilişkin tam-okuma etiketleri [S1-17 §7](work/S1-17-consolidation-closure-audit.md#7-okuma-izi-kaynak-katkısı-ve-önceki-kayıt-düzeltmesi) ile nitelendirilmiştir.
 
-1. F1 — Tasarlama / Oluşturma
-2. F2 — Gerçekleştirme / Uygulama
-3. F3 — İşletim / Stewardship / Koordinasyon
-4. F4 — Yönetişim / Yetki / Kontrol
-5. F5 — Doğrulama / Güvence
-6. F6 — Teşhis / Etki Analizi / Recovery Yönlendirme
-7. F7 — Öğrenme / Adaptasyon Yönlendirme
-8. F8 — Araştırma / Keşif / Sentez
+B1–B9 referans kapsamdır; gerçek SOUL öncelik sırası değildir. Eski altı kök iş ve S1 sonuçları WORK içinde yeni planla bağlıdır.
 
-Current specialization ve R/M lineage [ACTORS](ACTORS.md) içindedir. Familya sayısı ajan sayısı değildir. F8 ortak araştırma kabiliyetini diğer rollerden almaz; araştırmanın esas teslimat olduğu işi açıklar. Daha geniş epistemik aile alternatifi mantıken mümkün kalır.
+## Açık tasarım kararları
 
-## S1-17 sonucu
+Aktör → aile → rol → motivasyon hiyerarşisi; motivasyon başına ajan; nihai rol isimleri/sözleşmeleri; alt ajan/takım ve iletişim yöntemi; gerçek agent sayısı; dosya yükleme/kalıcılık/işletim mekanizmaları açık. Bunlar P1–P4'ün konusudur; cloud hedefinin belirlenmesiyle kendiliğinden çözülmez.
 
-- B1–B9'un mevcut 100 adlandırılmış C sorumluluğu ve ilk altı kök iş, family/specialization düzeyinde karşılaştırıldı. Bu sayım bütün olası ihtiyaçların keşfi veya başarı oranı değildir.
-- F1–F8 korunuyor; yeni familya/R numarası/fiziksel aktör açılmadı.
-- F2 kapsamı yalnız M1–M9 değildir. **Dosya üretimi tek başına F2 sınıflandırıcısı değildir; yeniden kullanılabilirlik de zorunlu değildir.** Esas teslimat/dönüşüm belirleyicidir.
-- F3 Information Lifecycle Operations ile Actor / Role Participation Lifecycle Operations korunuyor. Kayıt/katılım işletimi, domain truth/mandate/actual effect'in yerine geçmez.
-- Initial R1–R25/M1–M9 lineage olarak korunuyor. Gerçekleştirme sorumluluğu family seviyesinde görünürdür; belirli aktörün atanması veya yeterliliği kanıtlanmış değildir.
-- Kaynak, bilgi/araç/yetki, tetik, devir ve bağımsızlık yükleri sonraki işe açık yükümlülük olarak taşınır; çözülmüş sayılmaz.
-- S1-16 §8'de kesilmiş toplu tool çıktılarından üretilmiş full-read iddiaları [S1-17 §7](work/S1-17-consolidation-closure-audit.md#7-okuma-izi-kaynak-katkısı-ve-önceki-kayıt-düzeltmesi) ile nitelendirildi. Eski `Tam` etiketleri otomatik kanıt değildir.
+Önceki sohbetlerdeki Claude alt ajan/takım özellikleri bu paket için doğrulanmış platform bulgusu değildir. P1 birincil Anthropic kaynaklarından, cloud kapsamını ayrıca kontrol ederek ilerler.
 
-**Kanıt sınırı:** Aynı assistant'ın nitel kaynak karşılaştırması ve kayıt kontrolleri; bağımsız davranış doğrulaması veya optimal sekizli model kanıtı değil.
+## Current next responsibility ve durma noktası
 
-## Current next responsibility
+**Bu tur tamamlanan:** U002 yönünü kaydetmek; WORK içinde bütün master planı kurmak; giriş, karar ve devir dosyalarını uyumlamak. Claude araştırması, ajan dosyaları veya kurulum yapılmadı.
 
-**Current konu:** Kullanıcının S1 sonrası geçiş itirazını değerlendirmek; SOUL'un gerçek ilk işini seçmeden DevOS'un rol ve çalışma düzeninin tasarım sınırını netleştirmek.
+**Sonraki kullanıcı devamında:** WORK/P1 kapsamında Claude cloud'u K1/K2'ye karşı araştır. Önce güncel birincil belgeler; Loopinance kanon/v2 yalnız ilgili çalışma yolları için karşılaştırma. Çıktı destek/sınır/açık soru haritası; henüz nihai topoloji seçimi değil.
 
-**Önceki devam önerisindeki düzeltme:** “Somut bir DevOS geliştirme işi alıp görevlendirmeye geçmek” artık assistant'ın ilk gerçek SOUL işini seçmesi veya hazır backlog vermesi şeklinde devralınamaz. İş keşfi, gerekçeli seçim ve yeniden planlama tasarlanan DevOS düzeninin kendi sorumlulukları olmalıdır. B1–B9 referans kapsamdır; yürütmeye alınmış sıralı iş listesi değildir.
+**Şimdiki duruş:** Plan hazırlığında dur. P1'i aynı tur içinde otomatik başlatma. P1 yeterli kaynaklı Environment resmi sağladığında kısa sonucu ve P2/P3 etkilerini kullanıcıya döndür.
 
-**Assistant değerlendirmesi / sonraki yön adayı:** F1–F8 sorumluluk ailelerinden adlandırılmış rol sözleşmelerine ve WORK–INFORMATION–ACTORS–ENVIRONMENT işletim ilişkilerine geçmek. Amaç; hedefin/birikimin devralınması, iş keşfi ve sorgulanması, plan/admission, aktör/bağlam/araç/yetki hazırlığı, üretim, doğrulama, kapanış/yeniden açma ve sürekliliğin sorumlularını ve devirlerini kurmak. Başlangıçta hangi sorumluluğun hangi olayla devreye girdiği tasarlanır; ilk SOUL teknik görevinin cevabı dışarıdan verilmez.
+**Daha sonraki harita:** P1 Environment → P2 roller ↔ P3 WORK–INFORMATION → P4 bütünleşik tasarım → P5 gerçekleştirme → P6 sınama/devir. Teslimatlar, geçiş ve geri dönüş ölçütleri WORK'tedir; buraya ikinci ayrıntılı plan kopyası yazılmaz. P5/P6'nın varlığı kurulum/erişim/üretim yürütmesi için sınırsız yetki değildir.
 
-**Hazırlık sınırı:** Work kavramı ve sorumluluk aileleri, nihai somut roller veya çalışan ekip demek değildir. Rol isimleri, standing/koşullu görevler, birleşme/ayrılma, gerçek yeterlik ve araç/ortam bağları henüz sonuca bağlanmadı. Functional çalışma düzenini tasarlamak için zemin var; bunu zaten kurulmuş saymak yanlış olur.
+## Fresh-session yolu
 
-**Örnek sınırı:** Sonraki tasarımda varsayımsal senaryolar kullanılabilir; bunlar açıkça tasarım sınaması olarak etiketlenir. Gerçek ilk SOUL işi, canonical plan veya iş keşfi başarısının kanıtı yapılmaz.
+AGENT ve gereken kontrollerden sonra [INDEX](INDEX.md) → STATE → [HANDOFF](HANDOFF.md) → [WORK](WORK.md) → [DECISIONS](DECISIONS.md) → [ACTORS](ACTORS.md) → [U002](sources/U002-cloud-plan-and-autonomy.md) tam okunur. Aynı konuşmada unchanged tam içerikler korunabilir. Ardından yalnız aktif aşamanın gerektirdiği kaynaklara inilir.
 
-**Bu tur yapılmayanlar:** SOUL ilk işi/backlog seçilmedi; yeni rol kadrosu, model/ajan sayısı, topology, host/runtime veya teknik uygulama kabul edilmedi. Yeni S1 dilimi açılmadı. Bu kayıt kullanıcı itirazını ve assistant'ın gerekçeli yön önerisini korur; bütün kullanıcı öncüllerini doğrulanmış saymaz.
-
-## Authority / retrieval
-
-Current yön: STATE → HANDOFF → WORK → ACTORS → S1 master → gerekli S1-17/B/slice ayrıntısı. B/S1 slice dosyalarındaki eski “next” cümleleri tarihsel kayıt; history/ current authority değildir. S1-17'nin tarihsel sonraki-adım cümlesi yukarıdaki yeni yön değerlendirmesiyle koşullandırılmıştır.
+S1 master ve B/slice ayrıntıları bu yolun dayanağıdır; tarihsel “next” ifadeleri yeni planı yönetmez. `history/` ve Context içindeki eski “host seçilmedi”/sıra kayıtları kendi zamanlarına aittir. Yeni plan ayrı EXP, deneme veya kopuk araştırma programı değildir.
