@@ -35,10 +35,10 @@ Yeni kararların kaynak aktarımı: [U002](sources/U002-cloud-plan-and-autonomy.
 - Memory/RAG/KG/veritabanı/iş takip ürünü seçimi; örnek projelerin bütün mimarisinin benimsenmesi.
 - R1–R25 veya F1–F8'in nihai organizasyon olması; aile sayısının agent sayısı olması.
 - Foundation ground'larının modül olması; mekanik M kimliklerinin servis veya ayrı ekip olması.
-- Claude cloud hedefi artık açıktır; ancak gerçek cloud özelliklerinin bu gereksinimlere yeterliliği henüz gösterilmedi.
+- Claude cloud hedefi açıktır. P1 belge incelemesi imkân/sınırları ortaya koydu; hedef cloud oturumunun gerçek yeterliği henüz gösterilmedi.
 
-## Planın statüsü
+## Plan ve araştırma statüsü
 
-[WORK](WORK.md)'teki P1–P6, kullanıcının istediği bütünsel planın **v1.0 çalışma düzenlemesidir**; bütün aşama ayrıntıları veya nihai mimari için verilmiş peşin onay değildir. Bu tur plan/kayıt hazırlığıyla sınırlıdır. P1 NOT STARTED; P5 teknik gerçekleştirme ve P6 fiilî sınama henüz yürütülmedi. S1 kavramsal sonucu korunur; kullanıcı kapanışı uydurulmaz.
+[WORK](WORK.md)'teki P1–P6, kullanıcının istediği bütünsel çalışma planıdır; bütün aşama ayrıntıları veya nihai mimari için peşin onay değildir. v1.0 yalnız plan hazırlığıydı. Sonraki “tamam şimdi devam edebilirsin” yönüyle P1 kaynak incelemesi yürütüldü; [P1-01](work/P1-01-claude-cloud-environment-map.md) sonucu ve Q açıkları kaydedildi. **P1 kaynak incelemesi tamam / runtime sınanmadı; P2–P6 başlamadı.** P1 bulguları yeni kullanıcı kararı olarak bu tabloya eklenmedi. S1 kavramsal sonucu korunur; kullanıcı kapanışı uydurulmaz.
 
 D010'un agent-control karşılığı, kullanıcının açık kalıcılık talebi kapsamında `agent/protocols/canonical-work-preflight.md` dosyasındaki EXP-006 kısa iletişim bölümüdür. Diğer proje-work dosyaları genel kontrol kuralına yükseltilmez.

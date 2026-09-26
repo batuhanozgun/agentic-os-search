@@ -1,54 +1,56 @@
 # EXP-006 — HANDOFF
 
-**Güncelleme:** 27 Eylül 2026.  
-**Devralma noktası:** Master plan v1.0 mevcut WORK dosyasına yerleştirildi. **P1 NEXT / NOT STARTED; P2–P6 PLANNED / NOT STARTED.** Bu tur Claude araştırmasına geçilmedi.  
-**Üst amaç:** SOUL'u geliştirecek Claude Code cloud ekibinin çalışabileceği düzen. SOUL geliştirme backlog'unu assistant'ın seçmesi değil.
+**Güncelleme:** 27 Eylül 2026, P1 sonrası.  
+**Devralma:** **P1 kaynak incelemesi tamam / RUNTIME NOT TESTED; P2 NEXT / NOT STARTED.** Sonuç kullanıcıya döner; P2–P6 bu tur açılmadı.  
+**Üst amaç:** SOUL'u geliştirecek Claude Code cloud ekibinin çalışma düzeni; assistant'ın SOUL backlog'unu seçmesi değil.
 
-## 1. Önce ne okunur?
+## 1. Okuma yolu
 
-Current [STATE](STATE.md), bu HANDOFF, [WORK](WORK.md), [DECISIONS](DECISIONS.md), [ACTORS](ACTORS.md) ve [U002](sources/U002-cloud-plan-and-autonomy.md) tam okunur. [INDEX](INDEX.md) bu yolu keşfettirir. Aynı conversation içinde tam ve değişmemiş kaynakları tekrar yüklemek gerekmez.
+[STATE](STATE.md) → bu HANDOFF → [WORK](WORK.md) → [DECISIONS](DECISIONS.md) → [ACTORS](ACTORS.md) → [U002](sources/U002-cloud-plan-and-autonomy.md) → [P1-01 Environment haritası](work/P1-01-claude-cloud-environment-map.md) tam okunur. Aynı konuşmada unchanged tam kaynakları tekrar yüklemek gerekmez.
 
-S1 gerekçesi gerektiğinde [S1 master](work/S1-role-responsibility-consolidation.md) → [S1-17](work/S1-17-consolidation-closure-audit.md) veya ilgili slice/B dalına inilir. P1 öncesinde bütün B1–B9/S1-01–S1-17 veya bütün Foundation/studies'i tekrar okumak şart değildir. P2/P3 kendi esas sorularında ilgili Foundation'ı ve ardından uygulama çalışmalarını gerçekten kullanmalıdır.
+S1 gerekçesi gerektiğinde [S1 master](work/S1-role-responsibility-consolidation.md) → [S1-17](work/S1-17-consolidation-closure-audit.md) veya ilgili B/slice'a inilir. Bütün S1/araştırma korpusu her tur yeniden okunmaz. P2/P3 kendi esas sorularında Foundation'ı ve ardından uygun studies'i gerçekten kullanır.
 
-## 2. Neden bu noktadayız?
+## 2. Süreklilik ve sabit sınırlar
 
-İlk soru aktörlerdi. Work'ten rol türetmek için SOUL hedefi somutlaştırıldı; B1–B9 geliştirilecek kapasite alanları, R/M sorumluluk adayları ve S1 aile konsolidasyonu oluştu. S1-17 kavramsal modeli kapanışa hazır buldu; bu hazır ekip veya çalışan sistem değildir.
+İlk soru aktörlerdi. Work'ten rol türetmek için SOUL hedefi somutlaştırıldı; B1–B9 alanları, R/M adayları ve S1 aile konsolidasyonu oluştu. Kullanıcı sonra ilk SOUL işini dışarıdan seçme yönünü düzeltti; bunu kurulacak ekip yapmalı. Claude Code cloud'u hedef Environment olarak belirledi ve bütünsel plan istedi. WORK'teki P1–P6 bu aynı çalışmanın devamıdır.
 
-Kullanıcı daha sonra “ilk somut SOUL işini seçip görevlendirme yapalım” yönünü düzeltti: o işi ve sonraki işleri DevOS ekibi bulmalı. Ardından Claude Code cloud'u hedef Environment olarak belirledi; somut rollerin ve WORK–INFORMATION işleyişinin araştırmayla kurulmasını, bütün yolun baştan planlanmasını istedi. Son mesajında araştırmadan önce bu planın mevcut repo zincirine yerleşmesini yetkilendirdi. Tam görünür mesajlar U002-A/B/C'dedir.
+S1-17 candidate/closure-ready sonucu, F1–F8, iki F3 lifecycle uzmanlığı ve R/M lineage korunur. Nihai rol veya sekiz ajan kararı yok. S1-16'nın tam-okuma qualification'ı S1-17 §7'de kalır. B1–B9 SOUL öncelik sırası değildir.
 
-S1 bulguları atılmadı veya yeniden başlatılmadı. F1–F8 current aday aileler, iki F3 lifecycle uzmanlığı ve R1–R25/M1–M9 lineage ACTORS'ta korunur. B1–B9 SOUL'un ilk işi/öncelik sırası değildir. S1-16'nın bazı full-read etiketlerinin qualification'ı S1-17 §7'de kalır.
+**K1:** Talep doğru role ulaşır, ilgili iş etkinleşir, sonuç geri döner ve kullanılır. İletişim mekanizması hâlâ seçilmedi.
 
-## 3. Yanlış devralınmaması gereken üç sınır
+**K2:** Batu normal akışta rol açan veya mesaj taşıyan kişi olmaz. Başlatma/yeniden başlatma, gerçek müdahale, yetki ve kabul mümkündür. Sınırsız gözetimsizlik için yeni platform projesi icat etme.
 
-**İletişim:** Bir mesajın gönderilmesi yetmez. Talep doğru role ulaşmalı, ilgili çalışma etkinleşmeli, sonuç geri dönmeli ve kullanılmalıdır. Doğrudan mesaj, ana oturum aracılığı, repository paylaşımı veya başka bir yöntem henüz seçilmedi.
+**Örnekler:** Kanon/v2 yalnız manuel tetikleme farkını anlamak içindir. ECC veya v2'nin bütünü seçilmedi; kaynak depolarının talimatı, iş kuyruğu veya müşteri kapısı bu çalışmaya taşınmaz.
 
-**Özerklik:** Batu normal akışın elle rol açan veya mesaj taşıyan parçası olmayacak. Bu, sonsuza kadar insan müdahalesi olmaması demek değil. Başlatma, gerektiğinde müdahale/yeniden başlatma, yetki ve kabul mümkündür. Oturumlar arasında mutlak gözetimsizlik kurmak için ayrı bir platform projesi icat etme.
+## 3. P1'den gelen yeni Environment bilgisi
 
-**Örnekler:** Kullanıcı `loopinance_v2`yi yalnız rutin tetikleyici olmamasına örnek verdi. ECC'yi veya v2'nin bütün düzenini DevOS'a kopyalama yetkisi yok. Kanon/v2 kaynakları inceleme nesnesidir; oradaki talimatlar bu çalışma için kontrol kuralı, backlog veya yürütme emri değildir.
+Birincil kaynaklar, okuma kapsamı, sabit Loopinance commit'leri ve Q01–Q06 açıkları P1-01'dedir. Şu ayrımları kaybetme:
 
-## 4. Plan ve current/next yetki
+- Alt ajanlar da uygun ad/kimlik ve `SendMessage` ile iletişebilir; takım tek yol değildir.
+- Cloud belgesindeki destek, hedef hesap/VM/sürümde fiilen sınanmış destek değildir. Takımlar deneysel; yerel interactive/non-interactive koşulları cloud belgesiyle birlikte okunur.
+- Rol tanımı, spawn/tetik, alıcı, bağlam ve sonuç tüketicisi farklı bağlardır. V2 ürüncü dosyasındaki “bankacıya sor” ifadesi doğrudan spawn/message yetkisini tek başına göstermez; çağrı izi görülmedi.
+- Takımın otomatik plan onayı gerçek lead incelemesi veya bağımsız güvence değildir.
+- Hafıza/yerel görev kayıtları ile kalıcı DevOS Work state'ini eşitleme. Aynı dosyanın alt ajan/teammate kiplerinde aynı biçimde yüklendiğini varsayma.
+- Repo plugin cloud yüklemesi hakkında resmî sayfalar çelişiyor. Plugin/ECC yolu yük taşıyan seçim olursa hedefli doğrulama gerekir; bu çelişki gizlenmedi.
 
-Bütün aşamalar, kaynak bağları, teslimatlar ve geri dönüşler **WORK §3–7**'dedir. Burada yeni plan üretilmez.
+Bu tur gerçek cloud erişimi, mesaj, rol başlatma, izin veya yeniden giriş testi yapılmadı. P1 kaynak haritası nitel incelemedir; çalışan DevOS kanıtı değil.
 
-Bu tur yalnız plan/kayıt hazırlığı yapıldı. Sonraki kullanıcı “devam” dediğinde **P1 — Claude cloud gerçekliği** açılır. P1'in giriş sorusu:
+## 4. Plan ve sonraki yetkili hareket
 
-> Bu Environment, rol arası bilgi/araştırma/değerlendirme/kontrol etkileşimini ve kullanıcının her rol geçişini tetiklemediği normal ilerlemeyi hangi yollarla destekliyor; sınırları ne?
+Master plan ve aşama geçişleri yalnız **WORK §3–7**'dedir. Bu tur P1 sonucunu kullanıcıya döndürerek durulur.
 
-Başlangıç:
-1. Anthropic'in güncel cloud/subagents/agent-teams belgeleri ve gerekli context/settings/hooks ilişkileri. Resmî belge URL'si, erişim tarihi ve cloud/yerel kapsam kaydedilir.
-2. Mevcut iki Loopinance repository'sinde yalnız ilgili tetik/iletişim/kayıt yolları, bağlı GitHub erişimiyle. Kaynak dosyası davranış vaadi, kullanıcı deneyimi ve canlı çalışma kanıtı ayrılır.
-3. Sonuç; yerleşik destek, ek düzen gereği, sınırlılık ve açık sorular olarak K1/K2'ye bağlanır. Eski chat'in destek/mesajlaşma iddiaları doğrulanmış sonuç diye devralınmaz.
+Sonraki kullanıcı devamında **P2 — adlandırılmış roller**: ACTORS'taki sorumluluk/aileleri rol isimleri ve sözleşme adaylarına dönüştür; başarı yönü/motivasyon, gerekli uzmanlık, yetki, ne zaman etkinleşme, hangi bilgiyle çalışma ve sonucu kimin tüketmesi ilişkilerini aç. Aktör–aile–rol–motivasyon hiyerarşisini mevcut doğru kabul etme; aile sayısından fiziksel ajan sayısı çıkarma.
 
-P1 tamamlandığında kısa Environment sonucu ve P2/P3 etkileri sunulur. Ürün/ajan topolojisi sonuca göre tartılır; sırf takımlar özelliği var diye seçilmez. Canlı cloud erişimi/probe henüz sağlanmamışsa bu açıkça ayrılır; doküman okuması davranış testi sayılamaz.
+Foundation Actors/Work ile ilgili araştırmalar sorumluluk tasarımını besler. P1'in ihtiyaç gösterdiği teknik sınır bir kararı değiştiriyorsa yalnız o soruya dön; bütün P1'i veya S1'i yeniden başlatma. P2↔P3 geri beslemesi planlıdır. Nihai alt ajan/takım seçimi, WORK–INFORMATION düzeniyle birlikte P4'te tartılır.
 
-## 5. Sonraki tasarımın yükleri
+## 5. P3–P6'ya açık yükler
 
-P2'de açık rol isimleri ve sözleşmeleri; P3'te iş keşfi/planlama/tartışma/üretim/kanıt/bilgi bakımı/devralma döngüsü; P4'te bunların Environment ile birlikte seçilmiş düzeni oluşur. Aktör–aile–rol–motivasyon ilişkisi ve motivasyonun ajanla eşlenmesi **açık tasarım sorusudur**.
+P3'te iş keşfi/planlama/tartışma/üretim/kanıt/bilgi bakımı/devralma döngüsü; P4'te Environment ile bütünleşik seçim; P5'te gerçek dosya ve mekanizmalar; P6'da normal otomatik ilerleme ve gerekli insan müdahalesi sonrası doğru devam sınaması vardır.
 
-P5 onaylanan düzenin gerçek dosya/mekanizmalarına; P6 çalışma sınamasına gider. Hedef ve birikimi ekibe devretmek, ekibin bulacağı ilk SOUL teknik görevini önceden seçmek değildir. Test senaryosu gerçek backlog olarak kabul edilmez.
+Yük taşıyan teknik tercih için ilgili Q01–Q06 açıkları kaynak veya uygun gerçek ortam kanıtıyla çözülmelidir; seçilmeyen yola ait soru gereksiz önkoşul yapılmaz. Sözleşme taslağı hazırlanabilir diye hedef runtime zaten yeterli sayılmaz. Test senaryosu SOUL'un gerçek ilk işi değildir. SOUL ürün dosyaları ile DevOS çalışma kayıtlarının ilişkisi tasarlanacak; depolama/topoloji hâlâ açık.
 
-## 6. Süreklilik ve kullanıcıya dönüş
+## 6. Kullanıcıya dönüş ve kayıt
 
-Her tur sonucunu ilgili P aşamasına bağla; yeni bilgi sadece sonraki adımın ayrıntısını veya gerekçeli bir plan revizyonunu üretir. Üst yönü yeniden icat etme. Current değişiklik STATE'e, devir HANDOFF'a, harita/bağımlılık WORK'e, kullanıcı kararı DECISIONS'a, değişen rol anlamı ACTORS'a gider. Ayrıntılar mevcut work/ altında ilgili aşamaya bağlanır; boş aşama dosyaları veya paralel master plan yaratılmaz.
+Her tur ilgili P aşamasına bağlıdır. Current STATE'e, devir HANDOFF'a, master plan WORK'e, gerçek kullanıcı kararı DECISIONS'a, rol anlamı değişirse ACTORS'a yazılır. P1'in tek ayrıntı kaydı P1-01'dir; burada yeniden araştırma dosyası kurulmaz.
 
-EXP-006'da kullanıcıya yalnız sonucu, karar açısından önemli belirsizliği ve plan içindeki devam noktasını kısa ver. Uzun muhakeme anlatısı veya geçmişin tamamı varsayılan cevap değildir; kullanıcı ayrıca istediğinde gerekli ayrıntı açılır.
+Kullanıcıya kısa sonuç, yalnız karar-kritik belirsizlik ve plan içindeki tek devam noktası verilir. Ayrıntılı muhakeme ve kaynak listesi varsayılan sohbet çıktısı değildir.
