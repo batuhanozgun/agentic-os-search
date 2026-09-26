@@ -77,11 +77,12 @@ Asıl kaynak, önceki araştırma yorumu ve yeni S1 önerisi ayrılır. Kaynağ�
 | [S1-10 — F3 İşletim/Stewardship/Koordinasyon](S1-10-operations-stewardship-coordination-family.md) | Family/coverage consolidation; aday | Operational specialization'lar ortak familyada; coordination ayrı familya değil; Information Lifecycle Operations specialization açığı. |
 | [S1-11 — F4 Yönetişim/Yetki/Kontrol](S1-11-governance-authority-control-family.md) | Family consolidation; aday | R9 authority governance + R17 effect/control; human mandate source ayrı; mechanical enforcement F2/F3/F5 ile bağlanır. |
 | [S1-12 — F6 Teşhis/Etki Analizi/Recovery Yönlendirme](S1-12-diagnosis-impact-recovery-routing-family.md) | Family consolidation; aday | R3 causal diagnosis + R22 impact/invalidation/recovery routing; actual recovery execution ilgili familyalara gider. |
+| [S1-13 — F7 Öğrenme/Adaptasyon Yönlendirme](S1-13-learning-adaptation-direction-family.md) | Family consolidation; aday | R23 experience→reusable-change/no-change ve adaptation-loop yönlendirmesi; actual change F1/F2/F3; acquisition/retention/expression claim facet'leri korunur. |
 | G1'in diğer alanlara yayılması | Açık | Tek örnek bütün M1–M9'u veya ortak geliştirme ailesinin yeterliğini kanıtlamaz. |
 
 ## 7. Güncel dönüş ve açık sorular
 
-S1-12 sonucunu kullanıcıya sun. F1/F2/F3/F4/F5/F6 familyaları aday olarak ayakta. Sıradaki kontrol F7 Öğrenme/Uyarlama familyasının bağımsız başarı yönü olup olmadığını sınamaktır.
+S1-13 sonucunu kullanıcıya sun. F1–F7 familyalarının tamamı ayrı ayrı sınandı. Sıradaki kontrol bütün family modelini coverage/overlap açısından yeniden konsolide etmektir.
 
 Sonraki devam, kullanıcı düzeltmesini aldıktan sonra bu görevlendirmenin başka bir geliştirme alanındaki geçerliliğini karşılaştırabilir. Genel aile, ajan sayısı, mekanizma veya mimari seçimi bu örnekten otomatik çıkmaz.
 
