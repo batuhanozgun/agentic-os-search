@@ -3,7 +3,7 @@
 **Rol:** Üst iş haritası ve çalışma sırası.  
 **Statü:** Diyalog ve araştırma çalışma haritası; Development OS mimarisi değildir.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
-**Güncel iş:** S1-17 kapanış denetimi tamamlandı. S1 family/specialization konsolidasyonu CLOSURE-READY / CANDIDATE; kullanıcı değerlendirmesi bekleniyor. Sonraki aşama başlatılmadı.
+**Güncel iş:** S1-17 kapanış denetimi tamamlandı; family/specialization modeli CLOSURE-READY / CANDIDATE. Kullanıcının sonraki itirazıyla geçiş yönü değerlendiriliyor: ilk gerçek SOUL işini seçmek yerine DevOS'un iş-keşfi dahil rol/işletim düzenini tasarlamak. Nihai kadro veya uygulama kabulü yoktur.
 
 ## Ana zincir ve katmanlar
 
@@ -54,11 +54,15 @@ F2 dosya üretimiyle eşitlenmez; tasarım/araştırma/verdict kendi ailesinde k
 
 **S1 sonucu:** family/specialization konsolidasyonu kapanışa hazır; kullanıcı kabulü ve nihai kadro değil. **EXP-006 açık kalır.**
 
-### Sonraki mantıksal çalışma — henüz başlamadı
+### S1 sonrası yön — kullanıcı itirazıyla düzeltilmiş aday
 
-Bu modeli somut DevOS geliştirme işinde etkin görevlendirme ve devir düzenine dönüştürmek: exact iş/teslimat; gereken competence/source/context; actual actor ve Environment; tools/permission/authority; trigger; handoff/consumer; assurance ve independence.
+Sıradaki problem hazır bir gerçek SOUL geliştirme işine ekip atamak değildir. **O ilk işi ve sonraki işleri keşfedecek, sorgulayacak, planlayacak ve yürütecek DevOS'un adlandırılmış rol ve işletim ilişkilerini tasarlamaktır.** Kullanıcı bu yönün doğruluk/zamanlamasının değerlendirilmesini istedi; nihai rol veya mimari kararı alınmadı.
 
-Bu gerçek yükler S1'den sonraki işe devredilir, çözülmüş sayılmaz. Kullanıcı yönü olmadan yeni aşama, ajan sayısı, topology, host/runtime veya mimari seçimi başlatılmaz.
+Work kavramı ve B1–B9 kapsamı, gerçek SOUL backlog'u veya öncelik sırası değildir. F1–F8 aileleri de hazır ekip değildir. Rol sözleşmeleri, standing/koşullu görevler, Information/context akışı, iş-keşfi/plan/admission, actor yeterliği ve yetkisi, gerçek Environment, tetik/devir, assurance ve yeniden planlama birlikte ele alınmalıdır.
+
+Başlangıçta hedef/birikim/yetkiyi devralacak çalışma yolu tasarlanır; assistant veya müşteri ekibin yerine ilk SOUL teknik görevini seçmiş sayılmaz. Varsayımsal senaryo gerekiyorsa tasarım sınaması olarak etiketlenir; canonical ilk görev veya keşif başarısı olmaz.
+
+Bu yön değerlendirmesi, bütün gelecek uzmanlıkları/işleri şimdi dondurma veya sekiz familyayı sekiz ajana çevirme kararı değildir. Teknik kurulum, ürün/host/runtime ve actual SOUL geliştirme yürütmesi başlamadı. Current yetki ve dönüş STATE/HANDOFF'tadır.
 
 ## Sonraki değerlendirmelerde korunacaklar
 

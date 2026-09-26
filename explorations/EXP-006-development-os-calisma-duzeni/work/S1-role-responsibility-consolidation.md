@@ -1,7 +1,7 @@
 # S1 — Araştırmaya dayalı rol ve sorumluluk konsolidasyonu
 
 **Üst iş:** [WORK](../WORK.md)  
-**Durum:** **CLOSURE-READY / CANDIDATE / USER-EVALUATION-PENDING.** S1-01–S1-17 tamamlandı; S1-17 family/specialization konsolidasyonunu mevcut kapsamta kapanışa hazır buldu. Kullanıcı kapanışı, nihai organizasyon veya çalışan sistem kabulü yoktur.  
+**Durum:** **CLOSURE-READY / CANDIDATE / USER-EVALUATION-PENDING.** S1-01–S1-17 tamamlandı; S1-17 family/specialization konsolidasyonunu mevcut kapsamta kapanışa hazır buldu. Kullanıcı kapanışı, nihai organizasyon veya çalışan sistem kabulü yoktur. S1 sonrası geçiş önerisi daha sonraki kullanıcı itirazıyla §7'de koşullandırıldı.  
 **Amaç:** B1–B9'dan türeyen Development OS sorumluluklarını, R1–R25 rol adaylarını ve M1–M9 mekanik sorumluluklarını araştırma örnekleriyle sınayarak gerekçeli bir bütün oluşturmak.  
 **Sınır:** SOUL/DevOS kurulumu, ürün seçimi, ajan sayısı veya ayrıntılı effective-assignment tasarımı değildir.
 
@@ -104,10 +104,14 @@ Asıl kaynak, eski araştırma yorumu ve yeni S1 adayı aynı kanıt değildir. 
 
 Slice'lar tarihsel analizi korur; current next authority değildir. R/M kimlikleri yeniden numaralanmadı.
 
-## 7. Güncel dönüş
+## 7. Güncel dönüş — S1 sonrası kullanıcı itirazıyla koşullandırıldı
 
 S1-17 mevcut family/specialization konsolidasyonunu kapanışa hazır buldu; kullanıcı kapanışı veya nihai kadro kabulü kaydedilmedi. EXP-006 açık.
 
-Sonraki mantıksal çalışma, modeli **somut bir DevOS geliştirme işi üzerinde etkin görevlendirme ve devir düzenine** dönüştürmektir. Actual competence, context/source, araç/Environment, yetki, tetik, consumer ve assurance hâlâ gerekli işlerdir; model bunları olmuş gibi saymaz.
+Sonraki diyalogda kullanıcı, ilk gerçek SOUL geliştirme işini assistant'ın veya kendisinin seçmesine değil, bunu tasarlanacak DevOS ekibinin keşfetmesine dayanan çalışma düzenini istedi; önerinin doğruluk/zamanlamasının değerlendirilmesini de açık tuttu. Ayrıntı ve current yetki STATE/HANDOFF'tadır.
 
-Bu tur o aşama başlatılmadı. Kullanıcı yönü olmadan agent sayısı, topology, host/runtime veya mimari seçilmez. Yeni somut karşı örnek yoksa familya adlarını baştan incelemek gerekmez; karşı örnek varsa kapanış etiketi onu engellemez.
+Bu nedenle önceki “somut bir iş üzerinde etkin görevlendirme” önerisi **gerçek ilk SOUL işini seçmek** şeklinde devralınamaz. Düzeltilmiş yön adayı, sorumluluk ailelerini **adlandırılmış rol sözleşmeleri ve WORK–INFORMATION–ACTORS–ENVIRONMENT işletim ilişkileriyle** somutlaştırmaktır. İş keşfi/planlama da bu düzenin içindedir; hazır backlog'a veya görünmez dış planlayıcıya bırakılmaz.
+
+Familya modelinin bulunması nihai rollerin veya çalışan ekibin hazır olduğunu göstermez. Standing/koşullu roller, competence, kaynak/context, araç/Environment, yetki, başlangıç tetiği, devir/consumer ve assurance hâlâ tasarım işidir. Başlangıç çalışma yolunu tasarlamak ile SOUL'un ilk teknik görevine karar vermek ayrı tutulur. Varsayımsal senaryo, tasarım sınaması olabilir; canonical görev veya bağımsız keşif kanıtı olamaz.
+
+Bu tur yeni S1 slice'ı, rol kadrosu, model/ajan sayısı/topology/host/runtime seçimi veya uygulama açılmadı. Önceki araştırmalar korunur; sadece devam yönündeki yetki ve analiz düzeyi açıklığı giderilir. Yeni somut familya boşluğu çıkmadıkça bütün S1 sınıflaması tekrarlanmaz.

@@ -4,8 +4,8 @@
 **Güncelleme:** 26 Eylül 2026.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
 **Başlangıçtan beri aranan:** DevOS yapay zekâ aktörünün gereken sorumlulukları ve rolleri.  
-**Güncel aşama:** S1-CLOSURE-READY / CANDIDATE / USER-EVALUATION-PENDING. S1-17 kapanış denetimi tamamlandı; rol-familyası/sorumluluk/specialization konsolidasyonu bu kapsamda kapanışa hazır. S1 kullanıcıca kapatılmış, DevOS kurulmuş veya nihai organizasyon kabul edilmiş değildir.  
-**Son kullanıcı yönü:** S1-16 sonrasında “Devam et.” — current handoff'taki final S1 konsolidasyon/kapanış denetimi. Sonuç kullanıcıya döndürülür; sonraki aşama bu tur başlatılmaz.
+**Güncel aşama:** S1-CLOSURE-READY / CANDIDATE; S1 sonrası yön değerlendirmesi. S1-17'nin kavramsal konsolidasyon sonucu korunuyor; kullanıcıca nihai kadro veya çalışan sistem kabulü yoktur.  
+**Son kullanıcı yönü:** Tam-okuma değerlendirmesinden sonra kullanıcı, “ilk somut SOUL geliştirme işini assistant seçsin” yönüne itiraz etti. İlk ve sonraki işleri, tasarlanan DevOS ekibinin keşfetmesi ve yürütmesi gerektiğini; artık adlandırılmış roller ile WORK–INFORMATION–ACTORS etkileşiminin kurgulanmasını önerdi. Önerinin doğruluğu ve zamanlamasının sorgulanmasını istedi; nihai tasarım veya uygulama onayı varsayılmadı.
 
 ## Ana zincir
 
@@ -23,7 +23,7 @@ SOUL'u yaratma amacı → DevOS → insan + yapay zekâ → müşteride yetki + 
 - B1–B9 current çalışma haritasıdır; nihai taxonomy değildir.
 - EXP-006 cevapları kısa ve doğrudan ana hattı göstermelidir.
 
-Ayrıntı: [DECISIONS](DECISIONS.md). S1-15–S1-17 aday sonuçları bu kabul listesine otomatik eklenmedi.
+Ayrıntı: [DECISIONS](DECISIONS.md). S1-15–S1-17 aday sonuçları ve aşağıdaki yön değerlendirmesi bu kabul listesine otomatik eklenmedi.
 
 ## Current candidate model
 
@@ -52,12 +52,18 @@ Current specialization ve R/M lineage [ACTORS](ACTORS.md) içindedir. Familya sa
 
 ## Current next responsibility
 
-**Şimdi:** [S1-17 kapanış sonucunu](work/S1-17-consolidation-closure-audit.md) kullanıcıya sunmak ve yönünü almak. EXP-006 açık; S1 kapanış kabulü bekliyor.
+**Current konu:** Kullanıcının S1 sonrası geçiş itirazını değerlendirmek; SOUL'un gerçek ilk işini seçmeden DevOS'un rol ve çalışma düzeninin tasarım sınırını netleştirmek.
 
-**Sonraki mantıksal iş:** Modeli somut bir DevOS geliştirme işi üzerinde etkin görevlendirme ve devir düzenine dönüştürmek. Family/specialization → exact iş/teslimat → bearer/competence/context/tool/authority → trigger/handoff/assurance bağı kurulmalı. Bu henüz yapılmadı.
+**Önceki devam önerisindeki düzeltme:** “Somut bir DevOS geliştirme işi alıp görevlendirmeye geçmek” artık assistant'ın ilk gerçek SOUL işini seçmesi veya hazır backlog vermesi şeklinde devralınamaz. İş keşfi, gerekçeli seçim ve yeniden planlama tasarlanan DevOS düzeninin kendi sorumlulukları olmalıdır. B1–B9 referans kapsamdır; yürütmeye alınmış sıralı iş listesi değildir.
 
-**Yetki sınırı:** Bu tur yalnız S1-17 idi. Sonraki aşama kullanıcı yönü olmadan otomatik başlamaz. Model/ajan sayısı, topology, host/runtime ve mimari seçimi kendiliğinden açılmaz. Yeni somut karşı örnek yoksa S1'in bütün isim sınıflamasını tekrar tekrar çalıştırma.
+**Assistant değerlendirmesi / sonraki yön adayı:** F1–F8 sorumluluk ailelerinden adlandırılmış rol sözleşmelerine ve WORK–INFORMATION–ACTORS–ENVIRONMENT işletim ilişkilerine geçmek. Amaç; hedefin/birikimin devralınması, iş keşfi ve sorgulanması, plan/admission, aktör/bağlam/araç/yetki hazırlığı, üretim, doğrulama, kapanış/yeniden açma ve sürekliliğin sorumlularını ve devirlerini kurmak. Başlangıçta hangi sorumluluğun hangi olayla devreye girdiği tasarlanır; ilk SOUL teknik görevinin cevabı dışarıdan verilmez.
+
+**Hazırlık sınırı:** Work kavramı ve sorumluluk aileleri, nihai somut roller veya çalışan ekip demek değildir. Rol isimleri, standing/koşullu görevler, birleşme/ayrılma, gerçek yeterlik ve araç/ortam bağları henüz sonuca bağlanmadı. Functional çalışma düzenini tasarlamak için zemin var; bunu zaten kurulmuş saymak yanlış olur.
+
+**Örnek sınırı:** Sonraki tasarımda varsayımsal senaryolar kullanılabilir; bunlar açıkça tasarım sınaması olarak etiketlenir. Gerçek ilk SOUL işi, canonical plan veya iş keşfi başarısının kanıtı yapılmaz.
+
+**Bu tur yapılmayanlar:** SOUL ilk işi/backlog seçilmedi; yeni rol kadrosu, model/ajan sayısı, topology, host/runtime veya teknik uygulama kabul edilmedi. Yeni S1 dilimi açılmadı. Bu kayıt kullanıcı itirazını ve assistant'ın gerekçeli yön önerisini korur; bütün kullanıcı öncüllerini doğrulanmış saymaz.
 
 ## Authority / retrieval
 
-Current yön: STATE → HANDOFF → WORK → ACTORS → S1 master → gerekli S1-17/B/slice ayrıntısı. B/S1 slice dosyalarındaki eski “next” cümleleri tarihsel kayıt; history/ current authority değildir.
+Current yön: STATE → HANDOFF → WORK → ACTORS → S1 master → gerekli S1-17/B/slice ayrıntısı. B/S1 slice dosyalarındaki eski “next” cümleleri tarihsel kayıt; history/ current authority değildir. S1-17'nin tarihsel sonraki-adım cümlesi yukarıdaki yeni yön değerlendirmesiyle koşullandırılmıştır.
