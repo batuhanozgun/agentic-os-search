@@ -1,19 +1,19 @@
 # S1 — Araştırmaya dayalı rol ve sorumluluk konsolidasyonu
 
 **Üst iş:** [WORK](../WORK.md)  
-**Durum:** DEVAM EDİYOR. S1-01–S1-16 tamamlandı. F1–F8 current candidate family modeli var; F2 realization kapsamı ile F3 Information/Actor-Role participation lifecycle specialization'ları S1-16'da netleştirildi. Sıradaki iş final S1 consolidation/closure audit'tir. Nihai rol düzeni veya mimari kabul edilmiş değildir.
+**Durum:** **CLOSURE-READY / CANDIDATE / USER-EVALUATION-PENDING.** S1-01–S1-17 tamamlandı; S1-17 family/specialization konsolidasyonunu mevcut kapsamta kapanışa hazır buldu. Kullanıcı kapanışı, nihai organizasyon veya çalışan sistem kabulü yoktur.  
 **Amaç:** B1–B9'dan türeyen Development OS sorumluluklarını, R1–R25 rol adaylarını ve M1–M9 mekanik sorumluluklarını araştırma örnekleriyle sınayarak gerekçeli bir bütün oluşturmak.  
-**Sınır:** SOUL veya Development OS kurulumu, ürün seçimi ve ajan sayısı kararı değildir.
+**Sınır:** SOUL/DevOS kurulumu, ürün seçimi, ajan sayısı veya ayrıntılı effective-assignment tasarımı değildir.
 
 ## 1. Kullanıcı yönlendirmesi ve mevcut konum
 
 Kullanıcı, S1'in yalnız rol adlarını gruplamakla kalmamasını, araştırma deposundaki örneklerden yararlanılmasını istedi. S1-01 üretim–inceleme–düzeltme ilişkisini ve G1 geliştirme sorumluluğu açıklığını çıkardı.
 
-Ardından kullanıcı, insan ile dil modelinin rolü farklı koşullarda üstlenmesine, çatışan motivasyona ve aktöre göre uyarlamaya dikkat çekti; Keel'in ve onu geliştiren OS Architect ortamının incelenmesini istedi. S1-02/S1-03 bu sınırlı soruya döndü. Kullanıcının hipotezleri ve tarihsel kaynak görüşleri kanıtlanmış model yasası sayılmadı.
+Ardından insan ile dil modelinin rolü farklı koşullarda üstlenmesine, çatışan motivasyona ve aktöre göre uyarlamaya dikkat çekti; Keel'in ve onu geliştiren OS Architect ortamının incelenmesini istedi. S1-02/S1-03 bu sınırlı soruya döndü. Kullanıcı hipotezleri ve tarihsel kaynak görüşleri kanıtlanmış model yasası sayılmadı.
 
-26 Eylül toparlamasında ana zincir STATE/HANDOFF'a geri bağlandı. S1-04 ile G1 somutlaştırıldı; S1-05–S1-13 arasında ilk rol-family modeli çıkarıldı ve F1–F7 ayrı ayrı sınandı. S1-14 bütün-model denetimi araştırma-family sorusunu yeniden açtı; kullanıcının devam yönünde S1-15 bu bounded soruyu değerlendirdi.
+S1-04 G1'i somutlaştırdı; S1-05–S1-13 ilk yedi familyayı ayrı ayrı sınadı. S1-14 bütün-model denetimi araştırma sorusunu yeniden açtı; S1-15 ayrı F8 adayını ekledi. S1-16 realization/lifecycle sınırlarını; S1-17 bütün konsolidasyonun kapanış kapsamını değerlendirdi.
 
-Current aday sonuç:
+Current aday model:
 - F1 Tasarlama/Oluşturma
 - F2 Gerçekleştirme/Uygulama
 - F3 İşletim/Stewardship/Koordinasyon
@@ -21,99 +21,93 @@ Current aday sonuç:
 - F5 Doğrulama/Güvence
 - F6 Teşhis/Etki Analizi/Recovery Yönlendirme
 - F7 Öğrenme/Adaptasyon Yönlendirme
-- F8 Araştırma/Keşif/Sentez — S1-15 ile eklenen aday
+- F8 Araştırma/Keşif/Sentez
 
-F2 initial R1–R25 içinde primary owner bulamadı; S1-16 realization specialization'ını fixed M-list yerine exact realization object + domain competence ile netleştirdi. F3 Information Lifecycle Operations ayrı specialization olarak korundu; Actor / Role Lifecycle Operations adı **Actor / Role Participation Lifecycle Operations** diye daraltıldı. S1-15, araştırmanın hem ortak yöntem hem ayrı bilgi teslimatı olabileceğini belirleyerek ayrı F8 adayını ekledi. Bunlar nihai DevOS rolleri veya sekiz ayrı agent değildir.
+F2 initial R1–R25 içinde primary owner bulamadı; current modelde exact realization object + domain competence ile açık sorumluluktur. F3 Information Lifecycle Operations ve Actor / Role Participation Lifecycle Operations ayrı specialization'lardır. F8 araştırmanın esas bilgi teslimatı olduğu işi taşır; ortak araştırma yöntemi diğer familyalarda kalır. Sekiz ayrı agent veya tek doğru familya taxonomy'si değildir.
 
-Üst zincir değişmedi: SOUL hedefi → DevOS'un SOUL'u geliştirme işleri → gereken kabiliyet/sorumluluklar → bunları taşıyabilecek roller ve mekanik düzen → daha sonra DevOS yapısı. Current rol görünümü ACTORS.md'dedir; R1–R25/M1–M9 lineage ve ilk türetim kaydı olarak korunur.
+S1-17 iki sınırı düzeltti: dosya üretimi F2 için yeterli kriter değildir, reusable olma zorunlu değildir; F3 kayıt/katılım işletimi truth/authority/actual effect'i ikame etmez. Ayrıntı [S1-17](S1-17-consolidation-closure-audit.md).
+
+Üst zincir değişmedi: SOUL hedefi → DevOS'un geliştirme işleri → kabiliyet/sorumluluklar → roller ve mekanik destek → daha sonra DevOS yapısı. Current registry ACTORS'tadır; R1–R25/M1–M9 ilk türetim/lineage olarak korunur.
 
 ## 2. S1'in sorusu yalnız rol sayısı değildir
 
 - **Sorumluluk ayrımı:** Hangi işler birlikte taşınabilir; hangileri farklı bilgi, yetki, başarı yönü veya denetim gerektirir?
-- **Gerçekleştirilebilirlik:** Aktörün gerekli bilgi, yöntem, araç, erişim ve sınama kabiliyeti nasıl sağlanır? Kaynağın varlığı kullanım veya yeterlik kanıtı değildir.
-- **Başarı yönü ve aktöre göre işletim:** Aynı aile, aynı etkin görevlendirme demek değildir. Çoklu ölçüt ile çatışan başarı beklentileri ayrılır.
+- **Gerçekleştirilebilirlik:** Gereken bilgi/yöntem/araç/erişim/sınama kabiliyeti nasıl sağlanır? Kaynağın varlığı kullanım veya competence kanıtı değildir.
+- **Başarı yönü ve aktöre göre işletim:** Aynı familya aynı effective assignment değildir; çoklu ölçüt ile çatışan beklentiler ayrılır.
 - **Çağırma ve aktarım:** Rol gerektiğinde çalışıyor mu, sonucu tüketiliyor mu, geliştirenin birikimi SOUL'a ve onun kurduğu role ulaşıyor mu?
-- **Fiilî geliştirme yükü:** Gereksinimi yazmak, kod/prosedür üretmek, hazır mekanizmayı kurmak ve onu işletmek ayrı katkılar olarak izlenebilir mi?
+- **Fiilî geliştirme yükü:** Gereksinimi yazmak, üretmek/uyarlamak, kurmak, işletmek ve bağımsız hüküm vermek ayrı katkılar olarak izlenebilir mi?
 
-Sonuç birleştirme, ayırma, koruma, eksik sorumluluğu görünür kılma veya kararı açık tutma olabilir. Amaç en az rol adı değildir.
+S1 bu yükleri modelde görünür kıldı; actual actor/runtime ile gerçekleştiğini kanıtlamadı. Sonraki işin bunları devralması gerekir. Amaç en az rol adı değil, gerekçeli ayrım ve uygun birlikte taşımadır.
 
 ## 3. Analiz düzeyini koru
 
-DevOS'un SOUL'u geliştirmesi, gelecekteki SOUL'un kullanıcı işini yürütmesi ve EXP-006'nın kayıt düzeni ayrı düzeylerdir. Örnek sistemin rolü otomatik DevOS rolü değildir. Her aktarımda sor:
+DevOS'un SOUL'u geliştirmesi, gelecekteki SOUL'un kullanıcı işi ve EXP-006'nın kayıt düzeni ayrı düzeylerdir. Her aktarımda sor:
 
 > Bu davranış veya mekanizmayı SOUL'a kazandırmak için DevOS'un neyi araştırması, tasarlaması, üretmesi/uyarlaması, kurması ve sınaması gerekir?
 
-M1–M9'un adlandırılması, onları üretecek tarafın yerine geçmez. S1-04'te bir örneğin geliştirme teslimleri eşlendi; bütün mekanizmaların geliştirme sorumlusu belirlenmiş sayılmaz. Hazır kabiliyet yeterliyse yeni kod şart değildir; gerçek uyarlama/bağlantı işi de sahipsiz bırakılmaz.
+M1–M9'un adlandırılması üretim sahibinin yerine geçmez. S1-04'ün tek örneği bütün mekanizmaları gerçekleştirme yeterliği kanıtı değildir. G1'in responsibility görünürlüğü F2 ile karşılanır; gerçek competence ve Environment eşlemesi açık kalır.
 
-F8 de aynı düzey ayrımına tabidir: mevcut Research paketlerini örnek almak, bu deponun organizasyonunu DevOS'a kopyalamak veya SOUL'un gelecekteki araştırma kadrosunu seçmek değildir. F8 B10 veya yeni SOUL modülü değildir.
+F3 örnekleri DevOS'un yetkili geliştirme/deneme/kurulum nesnesine bağlanmalıdır. SOUL'un gelecekteki operation'ı otomatik DevOS kadrosu değildir. F8 de Research reposunu DevOS'a kopyalama veya SOUL müşterisinin araştırma ekibini belirleme değildir.
 
-## 4. Kaynak rotaları
+## 4. Kaynak rotaları ve kanıt sınırı
 
-Kaynaklar kendi bağlamlarında ve kanıt sınırlarıyla okunur. Aşağıdakiler kullanım rotalarıdır, benimsenmiş sistemler değildir. Ayrıntılı okuma ve sürüm kayıtları dilim dosyalarındadır.
+Kaynaklar kendi bağlamlarında okunur; kullanım rotası benimseme değildir. Ayrıntılı okuma/sürüm kayıtları ilgili slice'lardadır.
 
-| Rota | S1'de katkısı ve mevcut kapsam |
+| Rota | Katkı ve gerçek kapsam |
 |---|---|
-| [Superpowers](../../../research/studies/superpowers/META.md) → STATE / CORE / CLOSURE-AUDIT → S03/S04/U03 ve asıl şablonlar | Üretim, inceleme ve karar ayrımı. S1-01'de seçilmiş asıl kaynaklar; S1-04'te aynı sabit sürümün üretici şablonu tam yeniden okundu. S1-15'te S03 tam ve asıl brainstorming 1–170: spike cevabı ile kalıcı tasarım/uygulama ayrımı. |
-| [gstack](../../../research/studies/gstack/META.md) → CORE / INDEX → teslim yeterliği / asıl QA | İnceleme, düzeltme, yeniden sınama. S1-01 sınırlı kaynak okuması; S1-04 ve S1-15'te yeni tam okuma yapılmadı. |
-| [İş yönetimi karşılaştırması](../../../research/studies/work-management-project-control/META.md) → STATE / METHOD / 10-CLOSURE-EVALUATION | Yetki, atama, üstlenme, yürütme ve bütünleştirme ayrımları. S1-15'te STATE/METHOD/U10 tam: tasarım kararı vermeden kapanabilen araştırma teslimatı. Sekiz hedef yeniden taranmadı. |
-| [Bağlam/bellek/çalıştırma düzeni](../../../research/studies/context-memory-harness-engineering/META.md) → STATE / INDEX → ilgili sentez | Bilgi yaşamı, bağlama sunum ve uygulama ayrımları. Hazırlıkta META; ayrıntılı kullanım seçilen soruda. |
-| [Hermes](../../../research/studies/hermes-agent/META.md) → STATE / INDEX | Bilgi/yöntem bakımı ve gerçek kullanım. Araştırmanın kısmi statüsü korunur. |
-| [ECC](../../../research/studies/ecc/META.md) → STATE / CORE / INDEX | Yönerge, tüketici, iş kaydı ve gerçek süreç ilişkileri. Ayrı ECC programı burada sürdürülmez. |
-| [RPD](../../../research/studies/recursive-prerequisite-discovery/META.md) → ASSESSMENT | S1-15'te kaynak kimliği/yöntem açıklaması seçici: önkoşul keşfi her zaman ayrı araştırma teslimatı değildir. Özgün ekler yeniden okunmuş veya yöntem doğrulanmış sayılmaz. |
-| [Keel okuma defteri](../../../research/soul-context/repos/keel/README.md) → asıl rol ve kontrol dosyaları | S1-02 rol kaynakları; S1-04 sabit sürümde rol-ac.sh tam, file-guard.sh başlangıç sözleşmesi seçici. Etkinlik deneyi değil. |
-| [OS Architect okuma defteri](../../../research/soul-context/repos/os-architect/README.md) → bilgi/keel | S1-03: defter ve 11 seçilmiş dış dosya tam; rolün başarı yönü, tetiklenme ve aktarım. Tarihsel raporlar bugünkü araç davranışı sayılmaz. |
+| [Superpowers](../../../research/studies/superpowers/META.md) → STATE / CORE / CLOSURE-AUDIT → S03/S04/U03 | Production/review/disposition, scoped handoff. S1-01 seçilmiş asıl kaynaklar; S1-04 üretici şablonu tam; S1-15 S03 tam ve asıl brainstorming 1–170: spike cevap teslimatı. |
+| [gstack](../../../research/studies/gstack/META.md) → CORE / INDEX → teslim yeterliği / QA | Review/repair/retest. S1-01 sınırlı kaynak okuması; sonraki her slice yeni tam okuma değildir. |
+| [İş yönetimi](../../../research/studies/work-management-project-control/META.md) → STATE / METHOD / U10 | Assignment, claim, liveness, authority, integration ve outcome ayrımları. S1-15 STATE/METHOD/U10 tam; sekiz dış ürün tekrar test edilmedi. |
+| [Context/Memory/Harness](../../../research/studies/context-memory-harness-engineering/META.md) → STATE / INDEX → ilgili sentez | Lifecycle, context ve operating mechanism ayrımı. S1-17 memory belgesi 1–165 seçici; S1-16'nın toplu tamlık iddiası aşağıdaki düzeltmeye tabidir. |
+| [Actors identity/role/participation](../../../research/soul-foundations/01_verticals/actors/findings/IDENTITY-ROLE-PARTICIPATION.md) | Bearer/role/active participation ayrımı; S1-17 tam canonical okuma. DevOS rol taxonomy'si veya runtime ispatı değildir. |
+| [Hermes](../../../research/studies/hermes-agent/META.md) → STATE / INDEX | Bilgi/yöntem bakımı ve actual use; araştırmanın kısmi statüsü korunur. |
+| [ECC](../../../research/studies/ecc/META.md) → STATE / CORE / INDEX | Yönerge/consumer/work/process ilişkileri; ECC programı burada devam ettirilmez. |
+| [RPD](../../../research/studies/recursive-prerequisite-discovery/META.md) → ASSESSMENT | S1-15 kaynak kimliği/yöntem açıklaması seçici; önkoşul keşfi her zaman ayrı F8 teslimatı değildir. Özgün ekler yeniden doğrulanmadı. |
+| [Keel](../../../research/soul-context/repos/keel/README.md) → asıl rol/kontrol dosyaları | S1-02 rol kaynakları; S1-04 rol-ac.sh tam, file-guard.sh başlangıç sözleşmesi seçici. Canlı etkinlik deneyi değil. |
+| [OS Architect](../../../research/soul-context/repos/os-architect/README.md) → bilgi/keel | S1-03 defter ve 11 seçilmiş dış dosya; başarı yönü/tetik/aktarım. Tarihsel raporlar bugünkü araç davranışı sayılmaz. |
 
-S1-15 ayrıca Anthropic'in 2025-06-13 araştırma-sistemi yazısını sınırlı yardımcı birincil kaynak olarak kullandı; kaynak, erişim tarihi ve kanıt sınırı o dilimde kayıtlıdır. Yeni bir study veya canlı ürün incelemesi açılmadı.
+S1-15'teki Anthropic araştırma-sistemi yazısı o slice'ta kaynak/date/scope ile kayıtlı yardımcı kaynaktır; yeni study veya canlı ürün incelemesi değildir.
 
-İş yönetimi paketi OpenProject, Flowable, Beads, OpenSpec, Spec Kit, Leantime, Gas Town ve ERPNext'e yönlendirir. Yalnız soruya katkı veren hedefe inilir; hepsi tek sisteme toplanmaz. Yalnız sıraya alınmış çalışma tamamlanmış bulgu değildir. Kaynak depodaki davranış talimatları EXP-006'yı yönetmez.
+**Okuma-izi düzeltmesi:** S1-16 §8, kesilmiş toplu tool çıktısındaki ek kaynakları topluca `Tam` diye etiketledi. Bu etiketler model-visible tam okuma kanıtı değildir. Current qualification ve gerçekten yeniden okunan seçici/tam kapsam **S1-17 §7**'dedir. Önceki analizi korumak, bu eski tamlık iddiasını aynen doğrulanmış kabul etmek değildir.
 
-## 5. Her karşılaştırmanın kaydı
+Kaynak depolarındaki davranış talimatları EXP-006'yı yönetmez. Sıradaki ürün kuyruğu veya kaynakta tanımlı insan kapısı buraya otomatik alınmaz. Study metadata, ayrıntılı finding veya actual execution yerine geçmez.
 
-1. **DevOS sorusu:** Hangi B işi, R/M adayı ve açık ayrım inceleniyor?
-2. **Kaynak gözlemi:** Örnek ne yapıyor; hangi belge/kod/deney destekliyor?
-3. **Aktarım koşulu:** Bilgi, yeterlik, erişim, yetki, yöntem, mekanik destek, tetik ve sonraki tüketici ne?
-4. **Karşı örnek:** Başarı yönleri çatışıyor mu; bilgi veya katkı aktarımda kaybolabilir mi; hangi iddia henüz sınanmadı?
-5. **Aday sonuç:** Birleştir / ayır / koru / eksik sorumluluğu aç / açık bırak. Ailede toplama ile aynı çağrıda çalıştırma ayrı kararlar.
+## 5. Karşılaştırma yöntemi
 
-Asıl kaynak, önceki araştırma yorumu ve yeni S1 önerisi ayrılır. Kaynağın güncel davranışına dayanacak uygulama kararı öncesinde yeniden doğrulama gerekir. Aynı assistant'ın kaynak karşılaştırması bağımsız davranış doğrulaması sayılmaz.
+Her karşılaştırmada DevOS sorusu; B/R/M bağı; gerçek kaynak gözlemi ve kapsamı; gerekli bilgi/competence/erişim/yetki/mekanik destek/tetik/consumer; karşı örnek; gerekçeli birleştir/ayır/koru/açık bırak sonucu ayrılır.
+
+Asıl kaynak, eski araştırma yorumu ve yeni S1 adayı aynı kanıt değildir. Current ürün davranışına dayanacak ileriki karar source revalidation gerektirir. Aynı assistant'ın kaynak karşılaştırması bağımsız davranış doğrulaması değildir.
 
 ## 6. İnceleme dilimleri
 
-| Dilim | Durum | Sonuç |
-|---|---|---|
-| Hazırlık | Tamamlandı | Kaynak rotaları; tek inceleyicinin birden fazla hükmü ile bağımsız kanıtın farkı; iş/yetki/yürütme ayrımları. |
-| [S1-01](S1-01-production-review-correction.md) | A1–A4/G1 aday | İnceleme ailesi, üretim–düzeltme, teşhis/karar, sürüme bağlı kanıt; fiilî geliştirme sorumluluğunun açıklığı. |
-| [S1-02](S1-02-actor-conditioned-role-purpose.md) | Aday | Aile/etkin rol; tutarlı başarı yönü; aktöre göre uyarlama; Keel; G1 açıklaması. |
-| [S1-03](S1-03-role-purpose-activation-and-transfer.md) | A1–A5 aday | İş ilerletme/çerçeve sorgulama; ortak taban; tetik; geliştiren→kurucu→rol aktarımı. |
-| [S1-04 — salt-okur inceleme geliştirme zinciri](S1-04-read-only-reviewer-development-chain.md) | Bir örnek eşlendi; aday | Gereksinim, tasarım, teknik gerçekleştirme, kurulum ve sınama teslimleri; gerçekleştirme görev kartı; R13/R14/R20 ile koşullu birlikte taşıma; henüz koşulmamış karşı sınamalar. |
-| [S1-05 — ilk rol ailesi taslağı](S1-05-initial-role-family-draft.md) | İlk toplu konsolidasyon; aday | Yedi başarı-yönü ailesi; F2 teknik gerçekleştirme açığı; rol = aile × uzmanlık/scope × aktör-operating-profile yaklaşımı. |
-| [S1-06 — R1–R25 tam aile eşlemesi](S1-06-full-role-family-mapping.md) | Tam eşleme; aday | F1/F3/F4/F5/F6/F7 owner'ları; F2 primary-owner açığı; R4 dual-family; R22 sınır vakası; research/decision ayrı familya değil şeklindeki tarihsel aday. |
-| [S1-07 — F5 Doğrulama/Güvence](S1-07-verification-assurance-family.md) | İlk gerçek family consolidation; aday | Altı verifier ortak evidence-bounded judgment familyasında; specialization'lar korunur; R18 composite assurance. |
-| [S1-08 — F1 Tasarlama/Oluşturma](S1-08-design-formation-family.md) | Family consolidation; aday | Yedi ana specialization + R4 design; R19 system formation; R24 evaluation design; R4 F3 ataması yeniden açıldı. |
-| [S1-09 — F2 Gerçekleştirme/Uygulama](S1-09-realization-implementation-family.md) | Family/coverage consolidation; aday | F2 ayrı başarı yönü; R1–R25 primary owner açığı; M1–M9 realization specialization yüzeyi; F1/F3 ile assignment-level birleşme mümkün. |
-| [S1-10 — F3 İşletim/Stewardship/Koordinasyon](S1-10-operations-stewardship-coordination-family.md) | Family/coverage consolidation; aday | Operational specialization'lar ortak familyada; coordination ayrı familya değil; Information Lifecycle Operations specialization açığı. |
-| [S1-11 — F4 Yönetişim/Yetki/Kontrol](S1-11-governance-authority-control-family.md) | Family consolidation; aday | R9 authority governance + R17 effect/control; human mandate source ayrı; mechanical enforcement F2/F3/F5 ile bağlanır. |
-| [S1-12 — F6 Teşhis/Etki Analizi/Recovery Yönlendirme](S1-12-diagnosis-impact-recovery-routing-family.md) | Family consolidation; aday | R3 causal diagnosis + R22 impact/invalidation/recovery routing; actual recovery execution ilgili familyalara gider. |
-| [S1-13 — F7 Öğrenme/Adaptasyon Yönlendirme](S1-13-learning-adaptation-direction-family.md) | Family consolidation; aday | R23 experience→reusable-change/no-change ve adaptation-loop yönlendirmesi; actual change F1/F2/F3; acquisition/retention/expression claim facet'leri korunur. |
-| [S1-14 — bütün model coverage/overlap](S1-14-full-model-coverage-overlap-audit.md) | B1–B9 cross-audit; aday | F1–F7 hard duplicate olmadan ayakta; F3 Actor/Role Lifecycle Operations açığı; research/discovery ayrı success-direction adayı yeniden açıldı; effective assignment exact object bağıyla rafine edilmeli. |
-| [S1-15 — Araştırma/Keşif/Sentez](S1-15-research-discovery-synthesis-family.md) | Bounded family testi; aday | Araştırma hem ortak yöntem hem esas bilgi teslimatı; ayrı F8 tercihi; F1/F5/F6/F3 sınırları, negatif/sonuçsuz bilgi, source→finding→assurance→tasarım/adaptation ayrımı. |
-| [S1-16 — realization ve lifecycle specialization](S1-16-realization-and-lifecycle-specializations.md) | Specialization consolidation; aday | F2 exact realization object + competence; F3 Information Lifecycle Operations; F3 Actor / Role Participation Lifecycle Operations; design/realization/operation sınırı; yeni familya/R/agent yok. |
-| G1'in diğer alanlara yayılması | Açık | Tek örnek bütün M1–M9'u veya ortak geliştirme ailesinin yeterliğini kanıtlamaz. |
+| Dilim | Durum / korunmuş katkı |
+|---|---|
+| Hazırlık | Kaynak rotaları; çoklu verdict ile bağımsız kanıt; iş/yetki/yürütme ayrımı |
+| [S1-01](S1-01-production-review-correction.md) | Üretim/inceleme/düzeltme; A1–A4 adayları; G1 gerçekleştirme açıklığı |
+| [S1-02](S1-02-actor-conditioned-role-purpose.md) | Aktöre göre uyarlama; aile/etkin rol; tutarlı başarı yönü; Keel |
+| [S1-03](S1-03-role-purpose-activation-and-transfer.md) | Çerçeve sorgulama; ortak taban; tetik; geliştiren→kurucu→rol aktarımı |
+| [S1-04](S1-04-read-only-reviewer-development-chain.md) | Bir salt-okur kapasitesinde gereksinim/tasarım/üretim/kurulum/sınama teslimleri; koşulmamış karşı sınamalar |
+| [S1-05](S1-05-initial-role-family-draft.md) | İlk yedi familya ve F2 açıklığı; operating-profile yaklaşımı |
+| [S1-06](S1-06-full-role-family-mapping.md) | R1–R25 ilk tam eşleme; R4 dual/R22 sınırı; research ayrı değil tarihsel adayı |
+| [S1-07](S1-07-verification-assurance-family.md) | F5 ve altı claim specialization'ı; R18 composite assurance |
+| [S1-08](S1-08-design-formation-family.md) | F1; R4 design'e çekildi; R19 system formation/R24 evaluation design |
+| [S1-09](S1-09-realization-implementation-family.md) | F2 ayrı başarı yönü; R-lineage primary-owner açığı; M realization yüzeyleri |
+| [S1-10](S1-10-operations-stewardship-coordination-family.md) | F3; coordination; Information Lifecycle Operations açığı |
+| [S1-11](S1-11-governance-authority-control-family.md) | F4; R9/R17; human mandate source ve mechanical enforcement ayrımı |
+| [S1-12](S1-12-diagnosis-impact-recovery-routing-family.md) | F6; R3/R22; actual recovery'nin ilgili işlere dönüşü |
+| [S1-13](S1-13-learning-adaptation-direction-family.md) | F7; experience→reusable-change/no-change; acquisition/retention/expression claim'leri |
+| [S1-14](S1-14-full-model-coverage-overlap-audit.md) | F1–F7 bütün-model audit; Actor/Role Lifecycle açığı; research sorusu; exact object |
+| [S1-15](S1-15-research-discovery-synthesis-family.md) | F8 adayı; yöntem/teslimat ayrımı; F1/F5 alternatifleri; negatif/sonuçsuz bulgu |
+| [S1-16](S1-16-realization-and-lifecycle-specializations.md) | F2 realization ve iki F3 lifecycle specialization; §8 okuma-izi qualification'ı S1-17'dedir |
+| [S1-17](S1-17-consolidation-closure-audit.md) | CLOSURE-READY aday; 100 named C karşılaştırması; kök amaç/lineage/handoff; F2 dosya/reuse ve F3 truth/authority sınırı; source-fullness düzeltmesi |
+| G1 sonraki yükü | Responsibility görünürlüğü F2 ile karşılandı; bütün M1–M9 için actual actor/competence/environment ve davranış kanıtı açık |
 
-## 7. Güncel dönüş ve açık sorular
+Slice'lar tarihsel analizi korur; current next authority değildir. R/M kimlikleri yeniden numaralanmadı.
 
-S1-14 bütün-model audit, S1-15 research-family testi ve S1-16 realization/lifecycle specialization sınaması tamamlandı. F1–F8 current candidate family modeli ile current specialization sınırları var.
+## 7. Güncel dönüş
 
-**S1-16 sonucu:**
-- F2 specialization fixed M1–M9 listesi değil, exact realization object + domain competence üzerinden oluşur;
-- F3 Information Lifecycle Operations ayrı specialization olarak korunur;
-- F3 Actor / Role Lifecycle Operations adı **Actor / Role Participation Lifecycle Operations** diye daraltılır ve ayrı specialization olarak korunur;
-- R5/R7/R9/R20/R21 ile assignment-level birleşme mümkün olsa da semantic responsibility ayrımı korunur;
-- yeni familya, R numarası veya physical actor açılmaz.
+S1-17 mevcut family/specialization konsolidasyonunu kapanışa hazır buldu; kullanıcı kapanışı veya nihai kadro kabulü kaydedilmedi. EXP-006 açık.
 
-**Current next:** final S1 consolidation/closure audit.
+Sonraki mantıksal çalışma, modeli **somut bir DevOS geliştirme işi üzerinde etkin görevlendirme ve devir düzenine** dönüştürmektir. Actual competence, context/source, araç/Environment, yetki, tetik, consumer ve assurance hâlâ gerekli işlerdir; model bunları olmuş gibi saymaz.
 
-Audit current modeli B1–B9'a son kez projekte etmeli; yalnız gerçek orphan/duplicate/handoff çakışması varsa family/specialization işini yeniden açmalı. Kalan competence/context/tool/authority/tetik/devir/independence/topology sorularının hangisinin S1'i gerçekten kapatmayı engellediğini, hangisinin sonraki effective-assignment aşamasına ait olduğunu ayırmalı.
-
-Final audit yapılmadan S1 kapanmaz. Closure-ready olsa bile adjoining effective-assignment aşaması otomatik başlamaz. R1–R25/M1–M9 yeniden numaralanmadı. ACTORS current candidate registry'sini taşır; S1 dilimleri analiz izidir. Güncel sıra STATE/HANDOFF'tan alınır.
-
+Bu tur o aşama başlatılmadı. Kullanıcı yönü olmadan agent sayısı, topology, host/runtime veya mimari seçilmez. Yeni somut karşı örnek yoksa familya adlarını baştan incelemek gerekmez; karşı örnek varsa kapanış etiketi onu engellemez.

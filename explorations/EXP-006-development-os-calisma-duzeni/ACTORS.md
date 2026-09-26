@@ -1,134 +1,114 @@
 # EXP-006 — ACTORS
 
-**Rol:** EXP-006 sırasında Work'ten türeyen actor / role-family / specialization / mechanic registry'si.  
-**Statü:** Current **candidate** çalışma yüzeyi; nihai Development OS organizasyonu değildir.
+**Rol:** Work'ten türeyen actor / role-family / specialization / mechanic registry'si.  
+**Statü:** S1-17 sonrasında **CLOSURE-READY / CANDIDATE** konsolidasyon. Kullanıcıca kabul edilmiş nihai Development OS organizasyonu, actual assignment veya çalışan sistem değildir.
 
 ## Temel ayrımlar
 
-- **Aktör ≠ rol.**
-- **Rol familyası ≠ specialization.**
-- **Specialization ≠ effective assignment.**
-- Rol/familya sayısından fiziksel agent/model/oturum sayısı çıkarılmaz.
+- Aktör ≠ rol; rol familyası ≠ specialization; specialization ≠ effective assignment.
+- Familya sayısından fiziksel agent/model/oturum sayısı çıkarılmaz.
 - Aynı actor farklı zamanlarda farklı effective assignment'lar taşıyabilir.
-- Aynı familya aynı prompt içinde bütün specialization'ların birleştirilmesi anlamına gelmez.
+- Aynı familya bütün specialization'ları aynı prompt'ta birleştirme emri değildir.
+- Esas teslimat/success direction belirleyicidir; bir dosyanın yazılmış olması familyayı belirlemez.
 
 ## Aktör sınıfları
 
 ### İnsan
 
-Bu çalışmada insanın açılmış rolü **müşteri / principal** olarak ele alınır.
+Bu çalışmada açılmış rolü **müşteri / principal**dır.
 
-Kabul edilmiş çekirdek:
 - **Yetki:** AI'ın hangi amaç ve sınırlar içinde müşteri adına hareket edebileceğinin meşru kaynağı.
 - **Kabul:** Sonucun müşterinin ihtiyacını karşılayıp karşılamadığına ilişkin son hüküm.
 
-Teknik keşif, koordinasyon, doğrulama veya implementasyon yükü varsayılan olarak müşteriye geri bırakılmaz.
+Teknik keşif, koordinasyon, doğrulama veya implementasyon yükü varsayılan olarak müşteriye geri bırakılmaz. Müşteri kabulü teknik kanıt; teknik verdict müşteri kabulü değildir.
 
 ### Yapay zekâ
 
-“Yapay zekâ” şimdilik geniş actor sınıfıdır. LLM/agent/subagent/model-instance ayrımı Work gerektirmedikçe actor sınıfı olarak sabitlenmez.
+Şimdilik geniş actor sınıfıdır. LLM/agent/subagent/model-instance ayrımı Work gerektirmedikçe actor sınıfı olarak sabitlenmez.
 
 ## Current candidate role-family modeli
 
-| Family | Başarı yönü | Current specialization örnekleri / lineage |
+| Family | Başarı yönü | Current specialization / lineage |
 |---|---|---|
-| **F1 — Tasarlama / Oluşturma** | İhtiyaç, amaç, kısıt ve mevcut gerçeklerden downstream work'ün kullanabileceği uygulanabilir ve sınanabilir tasarım üretmek | common baseline (R1), information lifecycle design (R4), role/actor formation (R7), Work formation/planning (R10), Environment design (R13), cross-ground composition design (R16), working-system formation (R19), evaluation design (R24) |
-| **F2 — Gerçekleştirme / Uygulama** | Tasarım/gereksinimi gerçek, kullanılabilir ve sınanabilir artefakt veya mekanizmaya dönüştürmek | **initial R1–R25 içinde primary owner yok**; specialization fixed M-list değil **exact realization object + domain competence** üzerinden oluşur. M1–M9 önemli mechanical coverage; instruction/role/config/schema/procedure/adapter/integration/test-harness gibi non-M artefaktlar da F2 olabilir |
-| **F3 — İşletim / Stewardship / Koordinasyon** | Aktif Work/system/capability'yi current koşullarda doğru durumda yürütmek ve gerekli operational geçişleri yönetmek | context/retrieval ops (R5), **Information Lifecycle Operations**, **Actor / Role Participation Lifecycle Operations**, Work admission/flow (R11), Environment ops (R14), configuration assembly/activation (R20), continuity/re-entry (R21), evaluation campaign ops (R25) |
-| **F4 — Yönetişim / Yetki / Kontrol** | Mandate, delegation ve governed-effect sınırlarını korumak; technical capability ile legitimate authority'yi karıştırmamak | authority/delegation governance (R9), exact-effect/control/transition governance (R17) |
-| **F5 — Doğrulama / Güvence** | Bir claim için kanıtın neyi gerçekten desteklediğine doğru hükmetmek | behavior (R2), information (R6), actor qualification (R8), Work/closure (R12), Environment/effect (R15), composite assurance (R18) |
-| **F6 — Teşhis / Etki Analizi / Recovery Yönlendirme** | Failure/change sonrası doğru neden, etki, invalidation ve güvenilir geri dönüş yolunu belirlemek | causal diagnosis/root-cause routing (R3), change-impact/invalidation/recovery-path selection (R22) |
-| **F7 — Öğrenme / Adaptasyon Yönlendirme** | Experience/outcome/feedback'in reusable change'e yükseltilip yükseltilmeyeceğini ve hangi scope'ta değişiklik gerektirdiğini yönetmek | learning/adaptation direction (R23) |
-| **F8 — Araştırma / Keşif / Sentez** | Yetkili bilgi sorusunu kaynak, gözlem ve uygun incelemeyle aydınlatmak; desteklenen bulgu, sınır ve açık soruları kullanılabilir bilgi olarak teslim etmek | S1-15 ile ayrı aday; kavramsal/karşılaştırmalı inceleme, mekanizma/yapılabilirlik, ampirik inceleme olası specialization yüzeyleridir. Initial R1–R25 içinde bağımsız araştırma teslimatı birincil rol olarak adlandırılmamıştı; yeni R26 atanmadı. |
+| **F1 — Tasarlama / Oluşturma** | İhtiyaç, amaç, kısıt ve mevcut gerçeklerden kullanılabilir, gerekçeli ve sınanabilir tasarım üretmek | common baseline (R1), information lifecycle design (R4), role/actor formation (R7), Work formation/planning (R10), Environment design (R13), cross-ground composition design (R16), working-system formation (R19), evaluation design (R24) |
+| **F2 — Gerçekleştirme / Uygulama** | Gereksinim/tasarımı gerçek kullanılabilir uygulama, artefakt, mekanizma veya uyarlamaya dönüştürmek | initial R1–R25 içinde primary owner yok; exact realization object + domain competence. M1–M9 mekanikleri ve gerektiğinde instruction/config/schema/procedure/adapter/integration/test-harness çıktıları; dosya türü tek başına yeterli değil, reusable olmak zorunlu değil |
+| **F3 — İşletim / Stewardship / Koordinasyon** | Aktif Work/system/capability'nin current operasyon ve geçişlerini doğru yürütmek | context/retrieval (R5), Information Lifecycle Operations, Actor / Role Participation Lifecycle Operations, Work admission/flow (R11), Environment ops (R14), configuration assembly/activation (R20), continuity/re-entry (R21), evaluation campaign (R25) |
+| **F4 — Yönetişim / Yetki / Kontrol** | Mandate, delegation ve governed-effect sınırlarını korumak | authority/delegation governance (R9), exact-effect/control/transition governance (R17) |
+| **F5 — Doğrulama / Güvence** | Belirli iddia/target için kanıtın gerçekten neyi desteklediğine hükmetmek | behavior (R2), information (R6), actor qualification (R8), Work/closure (R12), Environment/effect (R15), composite assurance (R18) |
+| **F6 — Teşhis / Etki Analizi / Recovery Yönlendirme** | Failure/change sonrası doğru neden, etki, invalidation ve geri dönüş yolunu belirlemek | causal diagnosis/root-cause routing (R3), impact/invalidation/recovery-path selection (R22) |
+| **F7 — Öğrenme / Adaptasyon Yönlendirme** | Experience/feedback'in reusable change gerektirip gerektirmediğini ve hangi scope'ta gerektiğini yönetmek | learning/adaptation direction (R23); no-change/deprecation/simplification da gerekçeli sonuç olabilir |
+| **F8 — Araştırma / Keşif / Sentez** | Yetkili bilgi sorusunu kaynak/gözlemle aydınlatmak; desteklenen bulgu, sınır ve açık soruları teslim etmek | kavramsal/karşılaştırmalı, mekanizma/yapılabilirlik ve ampirik inceleme olası yüzeyler; kesin ayrık alt taxonomy değil. Initial R listesinde bağımsız bilgi teslimatı ayrıca adlandırılmamıştı |
 
-Bu model kullanıcı tarafından nihai DevOS kadrosu olarak kabul edilmiş değildir. S1-14 F1–F7'nin B1–B9 coverage/overlap denetimiydi; [S1-15](work/S1-15-research-discovery-synthesis-family.md) araştırma sınırını derinleştirerek ayrı F8 adayını ekledi. Bu nitel model tercihi, sekiz familyanın zorunlu/optimal olduğunun veya gerçek sistemde çalıştığının kanıtı değildir.
+S1-14 F1–F7 coverage audit'i; S1-15 F8 adayı; S1-16 realization/lifecycle ayrımları; [S1-17](work/S1-17-consolidation-closure-audit.md) kapanış kapsamı ve sınır düzeltmeleridir. Sekiz familyanın zorunlu/optimal olduğu veya gerçek sistemde çalıştığı kanıtlanmadı.
 
-## F2/F3 specialization sınırları — S1-16
+## S1-17 sınırları
 
-### F2 realization
+### F2: dosya değil esas dönüşüm
 
-F2 specialization sabit rol kataloğundan veya M1–M9 kimliklerinden türetilmez.
+Tasarım belgesi yazmak F1, araştırma raporu F8, verdict raporu F5, current kaydı mevcut kurala göre güncellemek F3 olabilir. Bir role ait davranış gereğini gerçekten tüketilebilir yönerge/uygulama/mekanizmaya dönüştürmek F2 olabilir. Aynı belge birkaç katkı taşıyabilir; ayrı dosya/ajan zorunlu değildir.
 
-**Current aday kural:** exact realization object + domain competence.
+F2 specialization, exact realization object ve gereken domain competence'ten türetilir; M1–M9'a bire bir sabit geliştirici listesi değildir. Tek işe özgü adapter veya uygulama da F2'dir. Mevcut mekanizmayla normal activation/configuration işletmek F3 olabilir. S1-09/S1-10/S1-16'nın reusable örnekleri sınırın tamamı değildir.
 
-Realization nesnesi code/hook/service gibi mekanik artefakt olabileceği gibi instruction, role/config/schema, procedure, adapter/integration veya evaluation harness da olabilir.
+F2'nin yerel testi producer evidence'dır; bağımsız F5 assurance yerine otomatik geçmez. Uygulanamaz tasarım F1'e açılır; requirement, criterion veya authority sessizce gevşetilmez.
 
-- F1 tasarlar.
-- F2 reusable/usable artefaktı veya mekanizmayı gerçekleştirir/değiştirir.
-- F3 mevcut mekanizmayla current state/operation'ı yürütür.
-- F4 governing sınırı korur.
-- F5 claim'i sınar.
+### F3: Information Lifecycle Operations
 
-Aynı actor bu assignment'ları taşıyabilir; local producer test'i bağımsız assurance değildir.
+R5 context/retrieval ile aynı familyada fakat ayrı specialization'dır. Operational nesnesi canonical/qualified Information lifecycle state'idir.
 
-### F3 Information Lifecycle Operations
+Write/update/revise; supersede; archive/restore; retention/expiry/deprecation/forgetting; conflict/pending-update statüsünü koruma; currentness/index bakımını kapsar.
 
-R5 context/retrieval ile aynı familyada fakat ayrı specialization'dır.
+- Lifecycle semantiği F1/R4, mekanizması F2/M2'dedir.
+- Meşru erişim ve governed mutation sınırı F4; integrity assurance F5/R6'dadır.
+- Domain hükmünün kaydı F3'e gelmesiyle hüküm otomatik doğru veya accepted olmaz.
+- Çelişkide keyfî tek doğru üretmek yerine gerekli domain kararı aranır, unresolved statü korunur.
+- Yeni bilgi sorusu F8; adaptation promotion kararı F7; failure teşhisi F6 olabilir.
 
-Owned operational object: canonical/qualified Information lifecycle state.
+R5'in sorusu aktörün şimdi doğru görünümü alması; bu specialization'ın sorusu kalıcı/current bilgi nesnesinin doğru lifecycle durumunda tutulmasıdır. Aynı actor uygun scope/authority ile ikisini taşıyabilir.
 
-Örnek işler: write/update/revise; supersede; archive/restore; retention/expiry/deprecation/forgetting; conflict/pending update'i doğru lifecycle state'e taşıma; currentness/index bakımının operasyonu.
+### F3: Actor / Role Participation Lifecycle Operations
 
-Lifecycle semantics F1/R4; mechanism F2/M2; access/governance F4; integrity assurance F5/R6; diagnosis F6 tarafından taşınır.
+S1-14'teki geniş Actor / Role Lifecycle Operations adının S1-16'da daraltılmış hâlidir. Operational nesnesi actor–role participation/binding standing'idir.
 
-### F3 Actor / Role Participation Lifecycle Operations
+Actor-role bind; assigned/active katılım ayrımı; scope/episode activation; deactivate; reassign/replace; participation retire; standing responsibility'nin yeni episode'a bağlanması.
 
-S1-14'teki “Actor / Role Lifecycle Operations” adı daraltıldı.
+R7 formation/design, R9 authority/delegation, R20 Working Configuration assembly ve R21 continuity/re-entry ile kesişir ama tek başına bunlara eritilmez. Normal runtime/process oluşturma ve health F3 Environment/R14'te; yeni bağlama/enforcement mekanizması F2'dedir. Participation state'i authority, runtime liveness veya joint readiness ile eşitlenmez.
 
-Owned operational object: actor–role participation/binding standing.
+R20 whole-configuration teslimatını; participation uzmanlığı exact katılım geçişini taşıyabilir. Somut atamada aynı exact geçişe belirsiz iki primary owner verilmez; birleştirme/ayırma actual competence ve authority ile değerlendirilir.
 
-Örnek işler: actor-role bind; assigned ↔ active participation; scope/episode activation; deactivate; reassign/replace; retire; standing responsibility'yi yeni episode'a yeniden bağlama.
+### Geliştiren ile geliştirilen ayrımı
 
-R7 formation/design, R9 authority/delegation governance, R20 Working Configuration assembly ve R21 continuity/re-entry bu specialization'la kesişir fakat onu tek başına ikame etmez.
-
-Bu specialization'ların görünürleşmesi yeni R numarası, physical agent veya service kararı değildir.
+Bu registry DevOS geliştirme sorumluluklarının adayıdır. B metinlerindeki gelecekteki SOUL davranışları otomatik DevOS production-operation görevi değildir. F3 örnekleri DevOS'un yetkili geliştirme/deneme/kurulum nesnesine bağlanır. SOUL'un daha sonra kurduğu rol, kendi Work/scope/authority koşullarında ayrıca değerlendirilir. EXP-006 dosyalarının düzgün olması bu zincirin fiilen çalıştığının kanıtı değildir.
 
 ## F8 sınırı — yöntem ile esas teslimat
 
-Araştırma F1–F7 içinde yöntem/kabiliyet olarak kullanılmaya devam eder. F8, esas teslimatı tasarım, uygulama, güvence, recovery veya adaptation kararı değil **kaynaklı bilgi sonucu** olan Work'ü açıkça taşıma adayıdır.
+Araştırma F1–F7 içinde yöntem/kabiliyet olarak kullanılmaya devam eder. F8, esas teslimatı tasarım, uygulama, assurance, recovery veya adaptation kararı değil **kaynaklı bilgi sonucu** olan Work'ü taşır.
 
-- F1 araştırma bulgusunu kullanıp çözüm tasarlayabilir; aynı actor ikisini ayrı veya küçük işte birleşik görevlendirmeyle taşıyabilir.
-- F5 de yeni soru/karşı kaynak arar; yalnız checklist rolü değildir. Araştırmacının kendi sonucuna yaptığı kontrol bağımsız F5 assurance yerine geçmez.
-- F6'nın investigation'ı failure/change/geri dönüş sorusunu taşıdığı sürece F6 kalır.
-- F3'ün bilinen kaydı bulup context'e sunması otomatik F8 değildir; Information kayıt bakımı da F3'tür.
-- Work/önkoşul keşfi yalnız “keşif” adı nedeniyle F8'e taşınmaz.
-- F7, bulgunun reusable davranış/yöntem değişikliğine yükseltilmesini ayrıca değerlendirir.
+F1 araştırma kullanabilir; F5 karşı kaynak arayabilir ve kriteri eleştirebilir; F6 investigation yapabilir. Bunlar kendiliğinden F8 olmaz. Bilinen kaydı context'e getirmek F3, mevcut bilgiyle Work/önkoşul keşfi F1 olabilir. F7 bulgunun reusable davranış/yöntem değişikliğine aktarımını ayrıca değerlendirir.
 
-F1'in genişletilmesi veya araştırma/güvencenin geniş bir F5 epistemik üst aile altında toplanması mantıken mümkün alternatiflerdir. Current tercih, farklı teslimat ve epistemik konumu ayrı F8 ile görünür tutmaktır; tek doğru ontoloji iddiası değildir.
+F1'i genişletmek veya F5 altında epistemik üst aile kurmak mantıken mümkündür; current tercih farklı teslimat ve epistemik konumu F8 ile görünür tutmaktır. Tek doğru ontoloji değildir. Araştırmacının kendi kontrolü bağımsız assurance değildir.
 
-F8'in başarısı kaynak/sayfa veya kesinlik miktarı değildir. Sonuç yeni bir belirsizliği görünür kılabilir, mevcut varsayımı çürütebilir veya gerekçeli biçimde sonuçsuz kalabilir. Sınırlandırılmış/engellenmiş araştırma, çözülmüş soru diye sunulmaz. Her küçük arama için ayrı rol/ajan zorunlu değildir.
+F8'in başarısı kaynak/sayfa veya kesinlik miktarı değildir. Gerekçeli yeni belirsizlik, çürütme veya sonuçsuz bulgu geçerli olabilir; erişim/bütçe nedeniyle kesilen araştırma çözülmüş soru diye sunulmaz. Her küçük arama için ayrı rol/ajan gerekmez.
 
 ## Effective assignment için current aday formül
 
-Bir somut rol görevlendirmesi yalnız familya adıyla tanımlanmaz.
-
-Aday yapı:
-
 **family / success direction × specialization × exact assignment object × actor operating profile → effective assignment**
 
-Exact assignment object; göreve göre Work / claim / target / artifact / transition / experience / araştırma sorusu ve ilgili scope'u açıkça bağlamalıdır. F8'de beklenen bilgi teslimatı, araştırma alanı/hedefi ve gerektiğinde zaman/sürüm de görünür olur. Family + specialization tek başına somut rol değildir.
+Exact nesne; Work/claim/target/artifact/transition/experience/araştırma sorusunu ve scope'u bağlar. Esas teslimat, kriter ve consumer görünür olmalıdır. F8 için bilgi sorusu, beklenen bilgi teslimatı ve gerektiğinde zaman/sürüm de gerekir.
 
-Actor operating profile en az şu tür koşulları taşıyabilir:
-- gerekli bilgi ve context;
-- competence;
-- tools/environment;
-- permission/authority;
-- trigger;
-- handoff/consumer;
-- verification/independence koşulları.
+Actor operating profile: competence; gerekli kaynak/context; araç/Environment; permission/authority; trigger; handoff/consumer; verification/independence koşulları.
 
-Bu şema da henüz nihai değildir. S1-15 sözleşmesi aday gereksinimdir; çalışan görevlendirme mekanizması kurulmadı.
+Bu semantic requirement adayıdır; çalışan dispatcher, manifest şeması veya actual assignment değildir. S1-17 bu düzeyde yeterli buldu; gerçek bağlama ve davranış yeterliği sonraki işte açıktır.
 
 ## Initial R1–R25 lineage eşlemesi
 
-Aşağıdaki kayıt ilk Work decomposition'ından gelen lineage'ı korur. **Current organizasyon listesi değildir.** Araştırma kullanmaları nedeniyle eski roller otomatik F8'e taşınmaz.
+İlk türetim kaydıdır; current organizasyon listesi değildir. Araştırma kullanmaları nedeniyle eski roller otomatik F8'e taşınmaz; primary eşleme karma katkıların tamamını tüketmez.
 
 | ID | İlk aday rol | Current family yorumu |
 |---|---|---|
 | R1 | Ortak Çalışma Tabanı Tasarımcısı | F1 — common-baseline design |
 | R2 | Davranış Doğrulayıcısı | F5 — behavior assurance |
 | R3 | Davranış Teşhisçisi / Değişiklik Analisti | F6 — causal diagnosis / routing |
-| R4 | Information Steward / Bilgi Yaşam Döngüsü Tasarımcısı | F1 — information lifecycle design; F3 operation kısmı initial tanımda yeterince açık değildi |
+| R4 | Information Steward / Bilgi Yaşam Döngüsü Tasarımcısı | F1 — information lifecycle design; initial operation kısmı açık değildi |
 | R5 | Context & Retrieval Curator / Bağlam Kurucusu | F3 — context/retrieval operations |
 | R6 | Information Integrity Reviewer | F5 — information assurance |
 | R7 | Role & Actor Formation Designer | F1 — role/actor formation |
@@ -155,32 +135,22 @@ Aşağıdaki kayıt ilk Work decomposition'ından gelen lineage'ı korur. **Curr
 
 | ID | Sorumluluk | Kaynak Work | Statü |
 |---|---|---|---|
-| **M1** | Mekanik davranış sınırı / identity-role-grant enforcement | B1, B3; B5/B6 ile kesişir | candidate requirement |
-| **M2** | Information persistence / retrieval / exposure mechanics | B2; B5/B6 ile kesişir | candidate requirement |
-| **M3** | Work identity / admission / claim / transition mechanics | B4; B6 ile kesişir | candidate requirement |
-| **M4** | Environment provisioning / runtime / workspace / isolation substrate | B5 | candidate requirement |
-| **M5** | Effect execution / readback / observability substrate | B5, B6 | candidate requirement |
-| **M6** | Cross-ground binding / standing checks / guarded-transition substrate | B6, B7 | candidate requirement |
-| **M7** | Working Configuration identity / binding / activation / lifecycle substrate | B7, B8 | candidate requirement |
-| **M8** | Durable continuity / handoff / stale-writer protection / recovery correlation substrate | B8 | candidate requirement |
-| **M9** | Evaluation harness / test isolation / evidence capture / target-version binding substrate | B9 | candidate requirement |
+| M1 | Mekanik davranış sınırı / identity-role-grant enforcement | B1, B3; B5/B6 ile kesişir | candidate requirement |
+| M2 | Information persistence / retrieval / exposure mechanics | B2; B5/B6 ile kesişir | candidate requirement |
+| M3 | Work identity / admission / claim / transition mechanics | B4; B6 ile kesişir | candidate requirement |
+| M4 | Environment provisioning / runtime / workspace / isolation substrate | B5 | candidate requirement |
+| M5 | Effect execution / readback / observability substrate | B5, B6 | candidate requirement |
+| M6 | Cross-ground binding / standing checks / guarded-transition substrate | B6, B7 | candidate requirement |
+| M7 | Working Configuration identity / binding / activation / lifecycle substrate | B7, B8 | candidate requirement |
+| M8 | Durable continuity / handoff / stale-writer protection / recovery correlation substrate | B8 | candidate requirement |
+| M9 | Evaluation harness / test isolation / evidence capture / target-version binding substrate | B9 | candidate requirement |
 
-M1–M9 fiziksel modül veya servis sayısı değildir. F2 bu mekanik sorumlulukların realization işini taşıyabilir; F3 operating lifecycle'ını taşıyabilir; F5 ilgili claim'leri sınayabilir. F8'in araç/deney gereksinimleri yeni M10 veya B10 yaratmaz; mevcut capability'ler yeterliyse kullanılır.
+M1–M9 fiziksel modül/servis sayısı değildir. Gereksinim/tasarım, gerçekleştirme, işletim ve assurance ayrı katkılardır. F8 gereksinimi otomatik M10/B10 yaratmaz.
 
-## Current açık sorular
+## Current açıklar
 
-S1-16 sonucu:
-- F1–F8 candidate family modeli korunuyor;
-- F2 realization specialization sınırı exact realization object + domain competence ile netleştirildi;
-- F3 Information Lifecycle Operations ayrı specialization olarak korundu;
-- F3 Actor / Role Participation Lifecycle Operations ayrı specialization olarak korundu;
-- yeni familya/R numarası/physical actor açılmadı.
+S1-17 family/specialization modelini mevcut kapsam için kapanışa hazır buldu; kullanıcı değerlendirmesi bekleniyor. Yeni familya/R/physical actor açılmadı.
 
-Current açıklar:
-- final S1 consolidation/closure audit current modelde orphan/duplicate/handoff açığı buluyor mu?
-- exact assignment object + actor operating profile modeli S1 closure için yeterli mi, yoksa eksik kısmı sonraki effective-assignment aşamasına mı ait?
-- F8 dahil familyaların gerçek competence/tetik/devir/independence düzeni sonraki aşamada nasıl kurulmalı?
-- kaç fiziksel actor/model/session gerekir?
+Açık kalan gerçek işler: exact geliştirme teslimatı için actor/competence seçimi; bilgi ve araç/ortamın fiilî erişimi; yetki ve tetik; devir/tüketim; independence; aktarımın gerçek davranışta sınanması. Bunlar tamamlanmış sayılmadı. Yeni familya boşluğu göstermedikçe isim konsolidasyonunu baştan tekrarlatmaları gerekmez.
 
-Bu soruların son ikisi otomatik olarak S1 family/specialization problemi değildir. Final audit bu sınırı belirlemeden familyaları nihai Development OS organizasyonu sayma.
-
+Current sıra STATE/HANDOFF'tadır. S1-16'nın bazı tam-okuma iddiaları için S1-17 §7'deki qualification geçerlidir.
