@@ -4,7 +4,7 @@
 **Güncelleme:** 26 Eylül 2026.  
 **Üst amaç:** SOUL'u yaratabilecek Development OS çalışma düzenini ortaya çıkarmak.  
 **Başlangıçtan beri aranan:** DevOS yapay zekâ aktörünün gereken sorumlulukları ve rolleri.  
-**Güncel aşama:** S1 rol/sorumluluk konsolidasyonu — F1–F7 ayrı ayrı sınandı; şimdi bütün model coverage/overlap denetimine hazır.  
+**Güncel aşama:** S1 rol/sorumluluk konsolidasyonu — F1–F7 ayrı ayrı sınandı; S1-14 bütün-model coverage/overlap denetimi tamamlandı. F1–F7 reddedilmedi, fakat research/discovery success-direction sınırı açık.  
 **Son kullanıcı yönü:** EXP-006 yapısını drift açısından denetle ve temizle. Yapısal audit tamamlandı; current authority ve historical sınırlar yeniden düzenlendi.
 
 ## Ana zincir
@@ -41,26 +41,29 @@ Bunlar nihai DevOS rolleri veya fiziksel agent sayısı değildir.
 
 ### Açık coverage noktaları
 
-- **F2:** İlk R1–R25 listesinde birincil gerçekleştirme/uygulama sahibi yoktu.
-- **F3:** R4 tasarım tarafına çekilince **Information Lifecycle Operations** açık specialization olarak göründü.
+S1-14 sonucu:
+- **F2:** İlk R1–R25 listesinde birincil gerçekleştirme/uygulama sahibi yok.
+- **F3:** **Information Lifecycle Operations** açık specialization.
+- **F3:** **Actor / Role Lifecycle Operations** yeni açık specialization.
+- **Research / Discovery / Synthesis:** bazı Work'lerde primary deliverable olabildiği için yalnız cross-family yöntem sayılması artık yeterince güvenli değil; ayrı familya gereksinimi henüz sınanmadı.
+- Decision ayrı familya gerektirmiyor; coordination current evidence altında F3 içinde kalabiliyor.
 - İlk R1–R25 ve M1–M9 kayıtları lineage/evidence'tır; current organization değildir.
-- Family specialization, actor binding, independence, competence, tool/context/authority ve assignment topology henüz nihai değildir.
+- Effective assignment modeli exact Work/claim/target/artifact/transition object'ine bağlanmalıdır; actor binding, independence, competence, tool/context/authority ve assignment topology henüz nihai değildir.
 
 ## Current next responsibility
 
-Repository drift cleanup tamamlandı.
+Repository drift cleanup ve S1-14 full-model audit tamamlandı.
 
-> **F1–F7'yi tek konsolide modelde coverage/overlap açısından denetle.**
+> **Research / Discovery / Synthesis success direction'ını bounded testte sınamak.**
 
-Kontroller:
-- B1–B9 sorumluluklarının tamamı karşılanıyor mu?
-- aynı sorumluluk iki familyada yanlışlıkla duplicate mi?
-- sahipsiz sorumluluk var mı?
-- research / decision / coordination ayrı familya gerektiriyor mu?
-- initial R1–R25'in current eşlemesi tam mı?
-- family → specialization → effective assignment modeli yeterli mi?
+Rival seçenekler:
+1. yalnız cross-family method/capability;
+2. F1 içinde specialization;
+3. ayrı candidate family (`F8?`).
 
-S1 bitmeden agent sayısı, topology, host/runtime veya mimari seçimine geçilmez.
+Test ayrıca research deliverable ile F1 design, F5 assurance ve F6 investigation arasındaki sınırı açmalıdır.
+
+Bu soru çözülmeden effective-assignment düzenine geçilmez. S1 bitmeden agent sayısı, topology, host/runtime veya mimari seçimine geçilmez.
 
 ## Authority / retrieval
 
