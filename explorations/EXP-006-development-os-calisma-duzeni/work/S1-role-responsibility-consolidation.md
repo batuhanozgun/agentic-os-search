@@ -1,7 +1,7 @@
 # S1 — Araştırmaya dayalı rol ve sorumluluk konsolidasyonu
 
 **Üst iş:** [WORK](../WORK.md)  
-**Durum:** DEVAM EDİYOR. S1-01–S1-03 sonrasında G1'in ilk somut geliştirme zinciri S1-04'te eşlendi. Sonuçlar adaydır; S1'in bütünü, rol düzeni veya mimari kabul edilmiş değildir.  
+**Durum:** DEVAM EDİYOR. S1-01–S1-13 tamamlandı; F1–F7 ayrı ayrı sınandı. Sıradaki iş bütün family modelinin coverage/overlap denetimidir. Sonuçlar adaydır; nihai rol düzeni veya mimari kabul edilmiş değildir.  
 **Amaç:** B1–B9'dan türeyen Development OS sorumluluklarını, R1–R25 rol adaylarını ve M1–M9 mekanik sorumluluklarını araştırma örnekleriyle sınayarak gerekçeli bir bütün oluşturmak.  
 **Sınır:** SOUL veya Development OS kurulumu, ürün seçimi ve ajan sayısı kararı değildir.
 
@@ -11,9 +11,20 @@ Kullanıcı, S1'in yalnız rol adlarını gruplamakla kalmamasını, araştırma
 
 Ardından kullanıcı, insan ile dil modelinin rolü farklı koşullarda üstlenmesine, çatışan motivasyona ve aktöre göre uyarlamaya dikkat çekti; Keel'in ve onu geliştiren OS Architect ortamının incelenmesini istedi. S1-02/S1-03 bu sınırlı soruya döndü. Kullanıcının hipotezleri ve tarihsel kaynak görüşleri kanıtlanmış model yasası sayılmadı.
 
-26 Eylül toparlamasında ana zincir STATE/HANDOFF'a geri bağlandı. Kullanıcı sonrasında yönün net olduğunu, somut sonuçları doğru kabul etmeden tartışabileceğimizi belirterek devam istedi. **S1-04 bu devamın ilk somut G1 örneğidir:** salt-okur inceleme kapasitesinin gereksinimden gerçek geliştirme çıktısına ve sınamaya kadar sorumluluklarını eşler.
+26 Eylül toparlamasında ana zincir STATE/HANDOFF'a geri bağlandı. S1-04 ile G1 somutlaştırıldı; S1-05–S1-13 arasında ilk rol-family modeli çıkarıldı ve F1–F7 ayrı ayrı sınandı.
 
-Üst zincir değişmedi: SOUL hedefi → DevOS'un SOUL'u geliştirme işleri → gereken kabiliyet/sorumluluklar → bunları taşıyabilecek roller ve mekanik düzen → daha sonra DevOS yapısı. R1–R25/M1–M9 başlangıç adayları korunuyor; yeni kimlik veya nihai birleştirme yapılmadı.
+Current aday sonuç:
+- F1 Tasarlama/Oluşturma
+- F2 Gerçekleştirme/Uygulama
+- F3 İşletim/Stewardship/Koordinasyon
+- F4 Yönetişim/Yetki/Kontrol
+- F5 Doğrulama/Güvence
+- F6 Teşhis/Etki Analizi/Recovery Yönlendirme
+- F7 Öğrenme/Adaptasyon Yönlendirme
+
+F2 initial R1–R25 içinde primary owner bulamadı. F3 Information Lifecycle Operations yeni açık specialization olarak göründü. Bunlar nihai DevOS rolleri değildir.
+
+Üst zincir değişmedi: SOUL hedefi → DevOS'un SOUL'u geliştirme işleri → gereken kabiliyet/sorumluluklar → bunları taşıyabilecek roller ve mekanik düzen → daha sonra DevOS yapısı. Current rol görünümü ACTORS.md'dedir; R1–R25/M1–M9 lineage ve ilk türetim kaydı olarak korunur.
 
 ## 2. S1'in sorusu yalnız rol sayısı değildir
 
@@ -82,7 +93,7 @@ Asıl kaynak, önceki araştırma yorumu ve yeni S1 önerisi ayrılır. Kaynağ�
 
 ## 7. Güncel dönüş ve açık sorular
 
-S1-13 sonucunu kullanıcıya sun. F1–F7 familyalarının tamamı ayrı ayrı sınandı. Sıradaki kontrol bütün family modelini coverage/overlap açısından yeniden konsolide etmektir.
+F1–F7 familyalarının tamamı ayrı ayrı sınandı. **Current next:** bütün family modelini B1–B9'a karşı coverage/overlap açısından yeniden konsolide etmek.
 
 Sonraki devam, kullanıcı düzeltmesini aldıktan sonra bu görevlendirmenin başka bir geliştirme alanındaki geçerliliğini karşılaştırabilir. Genel aile, ajan sayısı, mekanizma veya mimari seçimi bu örnekten otomatik çıkmaz.
 
