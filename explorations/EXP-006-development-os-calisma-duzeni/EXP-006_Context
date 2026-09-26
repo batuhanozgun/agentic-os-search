@@ -8,6 +8,10 @@ Amaç alınan bütün kararları veya üretilen bütün fikirleri toplamak deği
 
 Bu dosyadaki içerik konuşma ilerledikçe birlikte değerlendirilerek güncellenecektir. Yeni bir düşünce ortaya çıktığı için otomatik olarak buraya eklenmeyecektir.
 
+## Authority notu
+
+Bu dosya **kronolojik yön ve metodoloji bağlamıdır**; current phase veya next responsibility kaynağı değildir. Metin içinde tarihsel olarak "şu an", "güncel yön" veya "sıradaki iş" diye yazılmış ifadeler kendi üretildikleri döneme aittir. Current yön her zaman `STATE.md → HANDOFF.md → WORK.md` yolundan alınır.
+
 ---
 
 ## EXP-006 neden başladı?
@@ -163,7 +167,7 @@ Bu liste henüz Development OS'un nihai iş sınıflandırması değildir. RPD i
 
 ---
 
-## Şu anki soru: SOUL somut olarak nedir?
+## Tarihsel aşama — SOUL hedefini somutlaştırma
 
 Development OS'un işini anlayabilmek için önce onun üretmesi gereken şeyin yeterince somut olması gerektiği fark edildi.
 
@@ -238,7 +242,7 @@ Fakat EXP-004 hâlâ kavramsal exploration'dır; nihai SOUL mimarisi değildir.
 
 ---
 
-## Seçilen sonraki okuma
+## O aşamada seçilen okuma
 
 Dosyaları körlemesine topluca okumak yerine önce görünürlük turu yapıldı. Bundan sonra SOUL'un somut hedefini çıkarmak için aşağıdaki dosyaların tam okunması üzerinde anlaşıldı:
 
@@ -254,7 +258,7 @@ Konsolidasyonlar veya türetilmiş taslaklar tek başına kaynak kabul edilmeyec
 
 ---
 
-## Ulaşılmak istenen yer
+## Tarihsel rota — ulaşılmak istenen yer
 
 Bu konuşmanın yakın hedefi Development OS mimarisini doğrudan çizmek değildir.
 
@@ -292,7 +296,7 @@ Development OS, SOUL'u yaratmak için kuruluyor. Bu nedenle Development OS'un ke
 
 ---
 
-## Güncel yön — SOUL hedefinden Development OS kabiliyetlerine
+## Tarihsel aşama — SOUL hedefinden Development OS kabiliyetlerine
 
 EXP-001, EXP-002 ve EXP-004'teki seçilmiş tam okumalar sonrasında SOUL için kapsamlı bir hedef tanımı çıkarıldı. Kullanıcı bu tanımı bu aşama için yeterince somut kabul etti. Amaç artık SOUL tanımını sonsuza kadar iyileştirmek değil; bu hedefi gerçekleştirecek Development OS işini keşfetmek.
 
@@ -307,7 +311,7 @@ Development OS'un SOUL'u yaratırken yapacağı birinci seviye işler dokuz aday
 5. Buradan Development OS'un rol düzeni ve sistem yapısı türetilir.
 6. Mekanizma, araç, host, dosya yapısı ve benzeri seçimler ancak bu ihtiyaçlardan sonra yapılır.
 
-Bu nedenle sıradaki iş doğrudan Development OS mimarisi çizmek değildir. B1'den başlayarak her ana Work alanının Development OS tarafında gerektirdiği kabiliyet ve sorumlulukları açmaktır.
+Bu aşamadaki sıradaki iş doğrudan Development OS mimarisi çizmek değil; B1'den başlayarak her ana Work alanının Development OS tarafında gerektirdiği kabiliyet ve sorumlulukları açmaktı. Bu yön daha sonra tamamlandı ve S1 konsolidasyonuna geçildi.
 
 Aktif Work özeti `WORK.md`, dal ayrıntıları ise `work/B*.md` yüzeylerinde tutulur. Bu Context dosyası çalışma haritasının bütün ayrıntılarını kopyalamaz; yönü, yöntemi ve neden bu sırayla ilerlediğimizi korur.
 
