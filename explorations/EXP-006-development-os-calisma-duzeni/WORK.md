@@ -41,12 +41,13 @@ Roller işten türetilir. Rol ailesi aynı etkin görevlendirme veya tek model �
 | [S1-04](work/S1-04-read-only-reviewer-development-chain.md) | Salt-okur inceleme kapasitesinde gereksinim→tasarım→üretim/uyarlama→kurulum→sınama zinciri ve teknik gerçekleştirme görev kartı. Bir örnek eşlendi; aday. |
 | [S1-05](work/S1-05-initial-role-family-draft.md) | R1–R25 için ilk rol ailesi taslağı: F1 Tasarlama, F2 Teknik Gerçekleştirme, F3 İşletim, F4 Yönetişim/Kontrol, F5 Güvence, F6 Teşhis/Toparlanma, F7 Öğrenme/Uyarlama. Aday. |
 | [S1-06](work/S1-06-full-role-family-mapping.md) | R1–R25 tam eşleme; F2 birincil owner açığı; R4 dual-family; R22 sınır vakası; research/decision için ayrı aile henüz yok. Aday. |
+| [S1-07](work/S1-07-verification-assurance-family.md) | F5 sınandı: R2/R6/R8/R12/R15/R18 ortak assurance familyası; specialization'lar korunur; R18 composite assurance. Aday. |
 
 **Son kullanıcı yönü:** Yönü koruyarak somut, doğru kabul edilmeden tartışılabilecek sonuçlarla devam et.
 
 **Bu turdaki ilerleme:** G1 yalnız yeniden tarif edilmedi; bir örnekte çıktı, bilgi/yeterlik, mevcut R karşılığı, sonraki tüketici ve kanıt bağı gösterildi. R13 tasarım, R14 kurulum/işletim, R20 koordinasyon tanımlarının yeni kod üretimini kendiliğinden sahiplenmediği korunarak teknik gerçekleştirme görevlendirmesi önerildi. Mevcut rolün koşullu genişlemesi veya aynı yeterli aktörün farklı görevlerde kullanılması açık seçeneklerdir. Yeni R26 yok.
 
-**Dönüş:** S1-06 tam eşlemeyi kullanıcıya kısa ve doğrudan sun. Sonraki çalışma F5 Doğrulama/Güvence ailesini gerçek konsolidasyon adayı olarak sınamak: R2/R6/R8/R12/R15/R18 ortak familya mı, hangi uzmanlık/independence nedeniyle ayrı effective role gerekir? Nihai aileler veya mimari henüz yok.
+**Dönüş:** S1-07 F5 konsolidasyonunu kullanıcıya kısa ve doğrudan sun. Sonraki çalışma F1 Tasarlama/Oluşturma ailesini sınamaktır. Nihai aileler veya mimari henüz yok.
 
 ## Sonraki değerlendirmelerde korunacaklar
 
