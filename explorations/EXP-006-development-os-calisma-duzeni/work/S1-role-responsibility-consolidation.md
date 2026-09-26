@@ -72,11 +72,12 @@ Asıl kaynak, önceki araştırma yorumu ve yeni S1 önerisi ayrılır. Kaynağ�
 | [S1-05 — ilk rol ailesi taslağı](S1-05-initial-role-family-draft.md) | İlk toplu konsolidasyon; aday | Yedi başarı-yönü ailesi; F2 teknik gerçekleştirme açığı; rol = aile × uzmanlık/scope × aktör-operating-profile yaklaşımı. |
 | [S1-06 — R1–R25 tam aile eşlemesi](S1-06-full-role-family-mapping.md) | Tam eşleme; aday | F1/F3/F4/F5/F6/F7 owner'ları; F2 primary-owner açığı; R4 dual-family; R22 sınır vakası; research/decision ayrı familya değil. |
 | [S1-07 — F5 Doğrulama/Güvence](S1-07-verification-assurance-family.md) | İlk gerçek family consolidation; aday | Altı verifier ortak evidence-bounded judgment familyasında; specialization'lar korunur; R18 composite assurance. |
+| [S1-08 — F1 Tasarlama/Oluşturma](S1-08-design-formation-family.md) | Family consolidation; aday | Yedi ana specialization + R4 design; R19 system formation; R24 evaluation design; R4 F3 ataması yeniden açıldı. |
 | G1'in diğer alanlara yayılması | Açık | Tek örnek bütün M1–M9'u veya ortak geliştirme ailesinin yeterliğini kanıtlamaz. |
 
 ## 7. Güncel dönüş ve açık sorular
 
-S1-07 sonucunu kullanıcıya sun. F5 familyası aday olarak ayakta kalmıştır. Sıradaki kontrol F1 Tasarlama/Oluşturma ailesinin gerçekten tek family olup olmadığını sınamaktır.
+S1-08 sonucunu kullanıcıya sun. F1 ve F5 familyaları aday olarak ayakta. Sıradaki kontrol F2 Teknik Gerçekleştirme/Üretim'in bağımsız family olup olmadığını sınamaktır.
 
 Sonraki devam, kullanıcı düzeltmesini aldıktan sonra bu görevlendirmenin başka bir geliştirme alanındaki geçerliliğini karşılaştırabilir. Genel aile, ajan sayısı, mekanizma veya mimari seçimi bu örnekten otomatik çıkmaz.
 
