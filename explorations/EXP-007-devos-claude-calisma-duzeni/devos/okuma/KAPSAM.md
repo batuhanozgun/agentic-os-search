@@ -19,6 +19,11 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Harness ve döngü studies | O8 | BOŞLUK VAR | 3 upstream → G4 |
 | Orkestrasyon ve iş grafı studies | O9 | BOŞLUK VAR | beads upstream, ERPNext, public-apis → G4 |
 | Foundation ve explorations | O10 | BOŞLUK VAR | Foundation → F1–F4; explorations → G5 |
+| Foundation 03: bilgi ve iş | F1 | SÜRÜYOR | — |
+| Foundation 03: aktörler ve ortam | F2 | SÜRÜYOR | — |
+| Foundation 05, 08, 04, 06, 07 | F3 | SÜRÜYOR | — |
+| Foundation 01, 02, history | F4 | **SIRADA** | Aynı anda en çok 20 alt ajan çalışabiliyor (ortam sınırı). İlk biten ajandan sonra ana oturum F4'ü başlatır. |
+| Kapatıcılar G1–G7 | G1–G7 | SÜRÜYOR | — |
 | Claude Code platformu | O11 | SÜRÜYOR | — |
 | os-architect | O12 | SÜRÜYOR | — |
 | GitHub çerçeveleri | O13 | SÜRÜYOR | — |
