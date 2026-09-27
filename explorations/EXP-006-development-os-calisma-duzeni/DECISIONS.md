@@ -1,7 +1,7 @@
 # EXP-006 — DECISIONS
 
 **Rol:** Kullanıcıyla netleşmiş çalışma kararlarını/kısıtları candidate fikirlerden ayırmak.  
-**Güncelleme:** 27 Eylül 2026, P2 ilk taslak sonrası.  
+**Güncelleme:** 27 Eylül 2026, P3 tartışma başlangıcı.  
 **Sınır:** Buraya yazılması bir araştırma bulgusunu mimari gerçeğe veya bir gereksinimi gösterilmiş platform kabiliyetine dönüştürmez.
 
 | ID | Karar / çalışma anlaşması | Statü |
@@ -25,22 +25,24 @@
 | **D017** | Claude incelemesinden önce mevcut EXP-006'ya bağlı, yeni oturum/turlarda devralınabilir bütünsel plan kalıcılaştırılacak. Üst harita baştan görünür olacak; turlar ayrıntıyı açacak veya gerekçeli revizyon yapacak. | explicit planning/persistence authorization; U002-A/C |
 | **D018** | Kanon/v2 karşılaştırmasının amacı manuel tetikleme farkıdır. `loopinance_v2`nin bütün düzeni veya ECC'nin DevOS'a aynen alınması istenmedi. | explicit example/adoption boundary; U002-C |
 | **D019** | Alt ajan/takım ve bütünleşik teknik seçim P4'te değerlendirilecek; kullanıcı bu ayrımı anladığını belirterek P2'ye devam edilmesini istedi. | explicit sequencing confirmation; 27 Eylül 2026; belirli topoloji veya henüz üretilmemiş rol taslağı onayı değil |
+| **D020** | P3'te araştırma örnekleri/metodolojileriyle derinleşilecek; assistant hemen karar vermek yerine bir başlangıç yapısı sunacak ve kullanıcıyla bu baz üzerinde değerlendirecek. | explicit discussion/return boundary; 27 Eylül 2026; P3-01 önerisinin kabulü değil |
 
-D011–D018 kaynak aktarımı [U002](sources/U002-cloud-plan-and-autonomy.md)'dedir. D019, P1 kararı hakkındaki açıklamadan sonra gelen kullanıcı devamının anlam kaydıdır, birebir transkript değildir. Örneklerdeki gerçek çalışma davranışı bu karar kaydıyla bağımsız doğrulanmış sayılmaz.
+D011–D018 kaynak aktarımı [U002](sources/U002-cloud-plan-and-autonomy.md)'dedir. D019 P1 açıklamasından sonraki devam yönünün anlam kaydıdır. D020'nin görünür tek mesajı [P3-01 girişinde](work/P3-01-work-information-discussion.md) korunur. Örneklerdeki gerçek davranış bu karar kaydıyla bağımsız doğrulanmaz.
 
 ## Açık kalanlar — karar veya uygulanmış özellik sayılmaz
 
 - Nihai DevOS mimarisi, agent sayısı ve alt ajan/takım seçimi.
 - P2-01/ACTORS'taki DR01–DR16 **ilk aday rol sözleşmeleri**; kullanıcıca kabul edilmiş kadro değildir.
 - Kullanıcının aktör → aile → rol → motivasyon önerisi. P2'nin motivasyonu rolün başarı yönü olarak içeride tutma yorumu adaydır; motivasyon başına agent kararı verilmedi.
+- P3-01'deki yaşayan iş ağı/çalışma halkası/role özgü bağlam önerisi; akış ve karar sahipliği, küçük danışma/ayrı Work, karar/veto ve sürüm yayılımı ayrıntıları tartışmaya açık.
 - Alan profillerinin somut görevlendirmeleri, iletişim, context/kalıcılık/tetik, role özgü dosya formatı ve fiilî izin sınırları.
 - Memory/RAG/KG/veritabanı/iş takip ürünü seçimi; örnek projelerin bütün mimarisinin benimsenmesi.
 - R1–R25 veya F1–F8'in nihai organizasyon olması; aile/rol sayısının agent sayısı olması.
 - Foundation ground'larının modül olması; mekanik M kimliklerinin servis veya ayrı ekip olması.
-- Cloud hedefi açıktır; P1 belge resmi ve P2 sözleşme taslağı hedef oturumun actual yeterliği değildir.
+- Cloud hedefi açıktır; P1 belge resmi ve P2/P3 taslakları hedef oturumun actual yeterliği değildir.
 
 ## Plan ve araştırma statüsü
 
-[WORK](WORK.md) P1–P6 bütünsel plandır. v1.0 plan hazırlığı, v1.1 P1 kaynak sonucu, v1.2 P2 ilk sözleşme taslağıdır. **P2 FIRST DRAFT / CANDIDATE / USER RETURN; P3 NEXT / NOT STARTED.** P4–P6 başlamadı. P2 taslağı ve kaynak çıkarımları accepted karar tablosuna eklenmedi. S1 kavramsal sonucu korunur; kullanıcı kapanışı uydurulmaz.
+[WORK](WORK.md) P1–P6 bütünsel plandır. v1.0 plan hazırlığı, v1.1 P1 kaynak sonucu, v1.2 P2 ilk sözleşme taslağı, v1.3 P3 tartışma başlangıcıdır. **P3 DISCUSSION BASELINE / CANDIDATE / TAMAMLANMADI.** P4–P6 başlamadı. P2/P3 taslakları ve kaynak çıkarımları accepted karar tablosuna eklenmedi. S1 kavramsal sonucu korunur; kullanıcı kapanışı uydurulmaz.
 
 D010'un agent-control karşılığı kullanıcının açık kalıcılık talebi kapsamında `agent/protocols/canonical-work-preflight.md` dosyasındaki EXP-006 kısa iletişim bölümüdür. Bu tur agent-control değiştirilmedi; project-work belgeleri genel kontrol kuralı değildir.
