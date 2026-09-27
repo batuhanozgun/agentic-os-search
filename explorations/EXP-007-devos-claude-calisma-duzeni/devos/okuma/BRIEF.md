@@ -155,3 +155,11 @@ Ana oturum repo kökünü taradı ve hiçbir ajana atanmamış alanları buldu: 
 | C1b | `concepts/` ikinci yarısı (liste `PARCALAR.md`'de) | aynı | `C1b-concepts.md` |
 | P1 | `publications/` (hepsi); `AGENT.md` ve `agent/` (hepsi); kök `README.md`; `research/INDEX.md`, `research/studies/CATALOG.md`, `INDEX.md`, `PACKAGE-CONTRACT.md` | Batu'nun yayınlarındaki SOUL ve DevOS vizyonu; AGENT.md protokollerinin DevOS'ta nasıl yeniden yazılacağı (K-011); katalogdaki bütün paketlerin DevOS ile ilgisi | `P1-publications-agent-katalog.md` |
 | S1 | `research/studies/hands-on-large-language-models`; `the-carbon-layer`'ın kök dosyaları ve `videos/-01_NB4SbBY-agent-sandboxing` | Sandbox ve ajan güvenliği; model ve ortam yeniden üretilebilirliği | `S1-sandbox-llm.md` |
+
+### O1'in erişemediği depolar (ana oturum `add_repo` ile bağlayıp klonladı)
+
+| Kimlik | Kaynak (yalnız okunur klonlar) | Odak | Not dosyası |
+|---|---|---|---|
+| R1 | `/home/user/soul-development-os` (main yalnız `.gitkeep`; içerik `bootstrap/coordination-entry` dalında) ve `/home/user/soul-development-os_02` (main, 114 dosya; ayrıca `codex/baslat-arastrma-ve-ihtiyac-kesfi-sureci` dalı). Dalları okumak için `git -C <klon> fetch --depth 50 origin <dal>` ve `git show`. Yerel fetch serbesttir; push yok. | Codex DevOS denemelerinde gerçekte ne kuruldu (AGENTS.md, 12 protokol, devos-agent, tools, tests, work)? `_02` nasıl sonuçlandı? | `R1-codex-devos-depolari.md` |
+| R2 | `/home/user/batuhanozgun/soul` (öncül SOUL; main yalnız README; `phase0/development-os`, `codex/wp011…wp022`, `repair/…`, `review/…` dalları). Önce dalları haritala, sonra `phase0/development-os`'u ve iş paketi dallarının sonuç kayıtlarını oku. | Öncül SOUL'un Development OS'u ve iş paketi hattı: hangi mekanizmalar (builder, verifier, adversarial reviewer, pending result control, cold start) kuruldu, nasıl işledi, nerede kırıldı? | `R2-soul-oncul.md` |
+| R3 | `/home/user/keel-research` (69 dosya, hepsi) | keel'in araştırma tabanı: keel tasarımının dayandığı bulgular ve bunlardan DevOS'a ne çıkar? | `R3-keel-research.md` |

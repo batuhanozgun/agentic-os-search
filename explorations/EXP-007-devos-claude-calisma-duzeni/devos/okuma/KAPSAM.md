@@ -5,7 +5,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Kaynak kümesi | Not | Durum | Boşluk ve kapatıcı |
 |---|---|---|---|
 | Ana oturumun kendi okumaları | O0 | TAMAM | — |
-| development-os, soul-context | O1 | SÜRÜYOR | — |
+| development-os, soul-context | O1 | TAMAM | 78 dosyanın hepsi ve 19 eski sürüm okundu. O1'in erişemediği depolar R1–R3'e verildi; G0, D1 ve G1 ZIP'leri repoda yok. |
 | Önceki Claude DevOS reposu | O2 | BOŞLUK VAR | PLAN ve JOURNAL'ın tamamı, knowledge sentezleri, RPD, C-002 → G6 |
 | keel, oyun2 | O3 | BOŞLUK VAR | file-guard.sh, sevk.sh, yardımcı dosyalar, ROL.md'ler, testler → G1 |
 | loopinance-claude-code | O4 | BOŞLUK VAR | 11 workflow betiği, bekci.sh testleri, 73 setup handoff'u, Audit raporları, tutanaklar; ürün kanonunun yapısı ve harness'in onu nasıl yönettiği → G7 |
@@ -50,7 +50,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Kaynak kümesi | Not | Durum | Boşluk ve kapatıcı |
 |---|---|---|---|
 | EXP-001 | X1 | SÜRÜYOR | — |
-| EXP-002, EXP-003 | X2 | **SIRADA** | 20 ajan sınırı |
+| EXP-002, EXP-003 | X2 | SÜRÜYOR | — |
 | EXP-004 | X3 | **SIRADA** | 20 ajan sınırı |
 | EXP-005, EXP-006 (main) | X4 | **SIRADA** | 20 ajan sınırı |
 | concepts, birinci yarı | C1a | **SIRADA** | 20 ajan sınırı |
@@ -58,3 +58,6 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | publications, AGENT.md, agent/, kataloglar | P1 | **SIRADA** | 20 ajan sınırı |
 | hands-on-LLM, the-carbon-layer sandbox ve kök dosyaları | S1 | **SIRADA** | 20 ajan sınırı |
 | EXP-007 (bu çalışma) | — | TAMAM | Ana oturumun kendi alanı; P0'ın dondurulmuş ürünleri kaynak olarak kullanılır |
+| Codex DevOS depoları (soul-development-os, _02) | R1 | **SIRADA** | 20 ajan sınırı |
+| Öncül SOUL deposu (dallarıyla) | R2 | **SIRADA** | 20 ajan sınırı |
+| keel-research | R3 | **SIRADA** | 20 ajan sınırı |
