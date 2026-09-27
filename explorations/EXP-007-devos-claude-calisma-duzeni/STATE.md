@@ -76,6 +76,7 @@ Klon komutu: `GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/<sahi
   - Bu ortamda alt ajan kendi alt ajanını açamaz (`CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH=1`).
   - Bağlam %80'de otomatik sıkıştırılır.
   - Ayrıntı: [R01](phases/P0-calisma-duzeni/research/R01-ortam-ve-ozerklik-degerlendirmesi.md).
+- **Oturumlar arası mesaj (27 Eylül, gözlem):** Batu, "Architect - 3" oturumuna soru sorulabileceğini söyledi (`session_013vHin9PifmGr9SmNye8c1p`). Oturum 10 Ağustos'ta açılmış, arşivlenmiş ve Batu'nun Mac'inde çalışan bir yerel CLI oturumu (`environment_kind: bridge`, Remote Control). `SendMessage` "No agent named … is reachable" döndü; `ListAgents` bu oturumu listelemiyor. Bu bulut oturumundan ona doğrudan mesaj gitmiyor. Soru metni Batu'ya verildi; os-architect'in kendisi O12'de okunuyor.
 - **Erişim:**
   - code.claude.com ve anthropic.com açık.
   - Bu oturuma bağlı olmayan github.com repoları ve bazı dış siteler (ör. docs.cline.bot) kabuktan kapalı.
