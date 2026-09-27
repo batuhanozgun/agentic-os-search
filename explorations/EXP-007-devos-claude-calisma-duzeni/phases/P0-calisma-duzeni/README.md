@@ -25,8 +25,8 @@ Hedef standart seviyedir, "yeterli seviye" değil. Alt sistemler arası etkileş
 | P0.2 | Süreklilik kaydı | TAMAM | README, STATE, DECISIONS, `sources/` |
 | P0.3 | Standart seviye araştırması: her alt sistem için dünyada ve repoda "standart" ne? | TAMAM | R07–R11 |
 | P0.4 | METHOD v1 taslağı (ayrıntısı aşağıda): önce beş küme taslağı (T1–T5), sonra birleştirme | TAMAM | `drafts/T1–T5` → [METHOD-v1-TASLAK](METHOD-v1-TASLAK.md) (1.514 satır; 157 kart dizini) |
-| P0.5 | Eleştiri turu, üç ayrı eleştiri (ayrıntısı aşağıda) | SÜRÜYOR | `reviews/` |
-| P0.6 | Revizyon ve Batu'ya kısa sunum | BEKLİYOR | METHOD v1 (tartışma için) |
+| P0.5 | Eleştiri turu, üç ayrı eleştiri (ayrıntısı aşağıda) | TAMAM: 5 kritik, 26 önemli, 14 küçük bulgu | [reviews/E1](reviews/E1-soz-cikti-ve-standart.md) · [E2](reviews/E2-butunsel-etkilesim.md) · [E3](reviews/E3-batu-ilkeleri-ve-uygulanabilirlik.md) |
+| P0.6 | Revizyon ve Batu'ya kısa sunum | SÜRÜYOR: revizyon ajanı çalışıyor | `METHOD-v1.md`, `reviews/DEGISIKLIK-KAYDI.md` |
 | P0.7 | Batu'nun düzeltmeleri; A-02'ye göre konuşma içi pilotlar; yeniden revizyon | BEKLİYOR | — |
 | P0.8 | Anlaşma ve "başla": onaylanan yapılandırmaların kurulması, yön tabelalarının düzeltilmesi (A-05), P1'e geçiş | BEKLİYOR | — |
 

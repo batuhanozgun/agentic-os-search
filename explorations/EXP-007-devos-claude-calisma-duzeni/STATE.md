@@ -2,7 +2,7 @@
 
 **Güncelleme:** 27 Eylül 2026.  
 **Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
-**Şu anki adım:** P0.5, eleştiri turu. [METHOD v1 taslağı](phases/P0-calisma-duzeni/METHOD-v1-TASLAK.md) yazıldı (P0.4 tamam). Üç eleştiri ajanı (E1, E2, E3) çalışıyor → `phases/P0-calisma-duzeni/reviews/`.
+**Şu anki adım:** P0.6, revizyon. Üç eleştiri tamam (5 kritik, 26 önemli, 14 küçük bulgu). Revizyon ajanı çalışıyor: [briefs/REVIZYON](phases/P0-calisma-duzeni/briefs/REVIZYON.md) → `METHOD-v1.md` ve `reviews/DEGISIKLIK-KAYDI.md`. Sonra ana oturum kilit bölümleri kendisi okur ve Batu'ya kısa sunum yapar.
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
 **Batu'dan beklenen:** Şu an yok. Taslak sunulunca: taslağa itirazları, A-01, A-02, A-04 ve A-07. Ayrıntı: [DECISIONS](DECISIONS.md).
 
@@ -26,9 +26,9 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
 
 | İş | Çıktı dosyası | Görev tanımı |
 |---|---|---|
-| E1 söz–çıktı ve standart seviye — **TAMAM** (13 bulgu: 0 kritik, 7 önemli, 6 küçük) | [reviews/E1](phases/P0-calisma-duzeni/reviews/E1-soz-cikti-ve-standart.md) | [briefs/E1](phases/P0-calisma-duzeni/briefs/E1.md) |
-| E2 bütünsel etkileşim — **TAMAM** (16 bulgu: 2 kritik, 10 önemli, 4 küçük) | [reviews/E2](phases/P0-calisma-duzeni/reviews/E2-butunsel-etkilesim.md) | [briefs/E2](phases/P0-calisma-duzeni/briefs/E2.md) |
-| E3 Batu'nun ilkeleri ve uygulanabilirlik | `phases/P0-calisma-duzeni/reviews/E3-batu-ilkeleri-ve-uygulanabilirlik.md` | [briefs/E3](phases/P0-calisma-duzeni/briefs/E3.md) |
+| Revizyon (P0.6) | `phases/P0-calisma-duzeni/METHOD-v1.md` ve `phases/P0-calisma-duzeni/reviews/DEGISIKLIK-KAYDI.md` | [briefs/REVIZYON](phases/P0-calisma-duzeni/briefs/REVIZYON.md) |
+
+**Tamamlanan eleştiriler:** [E1](phases/P0-calisma-duzeni/reviews/E1-soz-cikti-ve-standart.md) (0 kritik · 7 önemli · 6 küçük) · [E2](phases/P0-calisma-duzeni/reviews/E2-butunsel-etkilesim.md) (2 · 10 · 4) · [E3](phases/P0-calisma-duzeni/reviews/E3-batu-ilkeleri-ve-uygulanabilirlik.md) (3 · 9 · 4).
 
 **Tamamlanan küme taslakları (dondurulmuş):** [T1](phases/P0-calisma-duzeni/drafts/T1-bilgi-tasima.md) · [T2](phases/P0-calisma-duzeni/drafts/T2-aktorler-ve-guvenlik.md) · [T3](phases/P0-calisma-duzeni/drafts/T3-isin-akisi-ve-harita.md) · [T4](phases/P0-calisma-duzeni/drafts/T4-yon-yetki-ve-denetimler.md) · [T5](phases/P0-calisma-duzeni/drafts/T5-dayaniklilik-ve-evrim.md).
 
@@ -68,6 +68,9 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
     - Bunun yaklaşık 392 M'si önbellekten yeniden okuma, 20 M'si önbelleğe yazma, 0,9 M'si çıktı. Çıktı eksik sayılıyor olabilir.
     - Fiyat ağırlıklı girdi eşdeğeri yaklaşık 69–84 M. Ağırlıklar: önbellekten okuma 0,1×, önbelleğe yazma 1,25×–2×, çıktı 5×. Abonelik limitlerinin bunları nasıl saydığı bilinmiyor.
   - **Dağılım (işlenen):** ana oturum ≈ 53 M · R01 workflow (27 ajan) ≈ 27 M · R02–R06 ≈ 30 M · R07–R11 ≈ 168 M · T1–T5 ≈ 130 M (sürerken).
+  - **Eleştiriler (E1–E3):** 70 çağrı, 19,6 M işlenen token; ajan başına 4,7–10 M, tepe bağlam 454–487 K. Okuma disiplini burada işe yaradı.
+  - **Oturum toplamı (12:15):** ≈ 476 M işlenen token; girdi eşdeğeri ≈ 83–102 M.
+  - **Bütün harita için kaba tahmin (E3-12, doğrulanmadı):** aşama başına 135–500 M işlenen token; P1–P6 için 1,2–2,3 milyar. Revizyon bunu sınayacak.
   - **Birleştirme:** 67 çağrı, 14,9 M işlenen token; tepe bağlam 776 K (sıkıştırma eşiğine yakın; ana oturum not gönderdi, son bölümler yeniden okumasız yazıldı).
   - **T1–T5 turu tamamlandı:** 408 çağrı, 154,6 M işlenen token (145,9 M önbellekten okuma), girdi eşdeğeri 26–33 M. Ajan başına 21–39 M işlenen; tepe bağlam 620–734 K, yani %80 sıkıştırma eşiğine (≈ 800 K) yakın. Beş taslak toplam ≈ 947 KB.
   - **Ana maliyet sürücüsü: büyük bağlam × çok adım.** Ajanlar araştırma notlarını baştan okuyup bağlamı 600–780 bin token'a çıkarıyor, sonra 70–120 adım atıyor. Her adımda bütün bağlam yeniden okunuyor.
