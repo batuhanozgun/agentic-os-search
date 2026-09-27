@@ -15,6 +15,8 @@
 - Şimdi yapılan: A003'te söylenen her şeyin "nasıl"ını, en iyi uygulamalara dayanarak ve standart seviyede kuran metodolojiyi (METHOD v1) hazırlamak.
 - Batu'nun gerekçesi [U004](sources/conversation/U004.md)'teki araba benzetmesinde: söz geniş, çıktı dar olmamalı; bir alanda "yeterli" görünen seçim diğer alanları yetersizleştirebilir.
 
+- **Batu ile iletişim dersi (U010–U011):** Uzun süren P0 çalışmasında Batu bir an DevOS'un yapıldığını sandı. Bundan sonra her durum mesajı haritadaki yeri söyler: "P0: tasarım ekibinin çalışma düzeni; DevOS tasarımı P1'de başlar." Batu yön değişikliği istemedi (U011).
+
 ## Bu aşamanın ölçütü (K-007'den)
 METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
 - Bağlam yönetimi, bellek yönetimi, kalıcı alt ajan rolleri ve en iyi uygulamalara dayalı bir yöntem.

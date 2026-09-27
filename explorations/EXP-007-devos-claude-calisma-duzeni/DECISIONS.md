@@ -23,7 +23,7 @@
 
 | ID | Soru | Nereden | Claude'un şimdiki varsayımı |
 |---|---|---|---|
-| A-01 | AGENT.md ve `agent/protocols/` kontrol katmanı olarak kalıyor mu? | [A003](sources/conversation/A003.md) §7 soru 2; cevaplanmadı | Kalıyor. K-004'teki "ChatGPT dosyaları" EXP-006'nın içini kastediyor. ChatGPT'ye özgü kısımların Claude'a uyarlanması ayrı bir öneri olarak getirilecek. |
+| A-01 | AGENT.md ve `agent/protocols/` kontrol katmanı olarak kalıyor mu? | [A003](sources/conversation/A003.md) §7 soru 2; cevaplanmadı | **27 Eylül'de güncellendi ([A004](sources/conversation/A004.md)):** AGENT.md, ChatGPT'nin giriş dosyası olarak dokunulmadan kalır; ChatGPT main'de onunla çalışmayı sürdürüyor (K-010). Claude'un kuralları bu dalda CLAUDE.md ve METHOD'dadır; AGENT.md ve protokolleri Claude için kaynaktır, bağlayıcı değildir. Önceki varsayım ("AGENT.md Claude için de kontrol katmanı olarak kalır ve uyarlanır") E3-01'deki öncelik çelişkisini doğurdu. |
 | A-02 | P0'da, metodoloji yazılmadan önce konuşma içinde iki pilot yapılması (Batu'nun concepts'teki yöntemi) uygun mu? | A003 §5 ve §7 soru 3; cevaplanmadı | Metodoloji taslağı Batu'ya sunulurken yeniden sorulacak. |
 | A-03 | ~~ChatGPT'nin rolü: tamamen bırakılıyor mu, aşama sonlarında eleştirmen olarak kalıyor mu?~~ | [A001](sources/conversation/A001.md) soru 2 | **Kapandı (K-010):** iki hat arasında bağlantı yok. |
 | A-04 | Kontrol ve yapılandırma değişiklikleri: kök CLAUDE.md, `.claude/agents/` (kalıcı roller), `.claude/skills/`, `.claude/settings.json` hook'ları, AGENT.md'nin Claude'a uyarlanması. | A001, A002, A003; K-007 kalıcı rol gereksinimi | Metodoloji taslağıyla tek paket halinde önerilecek; Batu onaylamadan kurulmaz. |
