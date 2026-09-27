@@ -2,7 +2,7 @@
 
 **Güncelleme:** 27 Eylül 2026.  
 **Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
-**Şu anki adım:** P0.4, METHOD v1 taslağı. P0.3 tamamlandı (R07–R11). Beş küme taslağından T2, T3, T4 ve T5 geldi; T1 sürüyor. Hepsi dönünce birleştirme yapılacak.  
+**Şu anki adım:** P0.4, METHOD v1 taslağı. Beş küme taslağı (T1–T5) tamam. Birleştirme ajanı çalışıyor: [briefs/ENTEGRASYON](phases/P0-calisma-duzeni/briefs/ENTEGRASYON.md) → `phases/P0-calisma-duzeni/METHOD-v1-TASLAK.md`.  
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
 **Batu'dan beklenen:** Şu an yok. Taslak sunulunca: taslağa itirazları, A-01, A-02, A-04 ve A-07. Ayrıntı: [DECISIONS](DECISIONS.md).
 
@@ -68,6 +68,7 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
     - Bunun yaklaşık 392 M'si önbellekten yeniden okuma, 20 M'si önbelleğe yazma, 0,9 M'si çıktı. Çıktı eksik sayılıyor olabilir.
     - Fiyat ağırlıklı girdi eşdeğeri yaklaşık 69–84 M. Ağırlıklar: önbellekten okuma 0,1×, önbelleğe yazma 1,25×–2×, çıktı 5×. Abonelik limitlerinin bunları nasıl saydığı bilinmiyor.
   - **Dağılım (işlenen):** ana oturum ≈ 53 M · R01 workflow (27 ajan) ≈ 27 M · R02–R06 ≈ 30 M · R07–R11 ≈ 168 M · T1–T5 ≈ 130 M (sürerken).
+  - **T1–T5 turu tamamlandı:** 408 çağrı, 154,6 M işlenen token (145,9 M önbellekten okuma), girdi eşdeğeri 26–33 M. Ajan başına 21–39 M işlenen; tepe bağlam 620–734 K, yani %80 sıkıştırma eşiğine (≈ 800 K) yakın. Beş taslak toplam ≈ 947 KB.
   - **Ana maliyet sürücüsü: büyük bağlam × çok adım.** Ajanlar araştırma notlarını baştan okuyup bağlamı 600–780 bin token'a çıkarıyor, sonra 70–120 adım atıyor. Her adımda bütün bağlam yeniden okunuyor.
   - **Sonuç:** Bu, S7 (bağlam) ve S20 (maliyet) için ölçülmüş bir olaydır. Kalan görev tanımlarına bağlam disiplini eklendi. Bağlam penceresi yaklaşık 1 M; ana oturum 792 K'da sıkıştırıldı (%80).
 

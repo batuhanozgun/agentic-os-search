@@ -24,7 +24,7 @@ Hedef standart seviyedir, "yeterli seviye" değil. Alt sistemler arası etkileş
 | P0.1 | EXP-006'yı anlamak ve ilk öneri (v0) | TAMAM. Anlayış kabul edildi, yapı küçük bulundu (K-006, K-007) | [A003](../../sources/conversation/A003.md); R02–R06 |
 | P0.2 | Süreklilik kaydı | TAMAM | README, STATE, DECISIONS, `sources/` |
 | P0.3 | Standart seviye araştırması: her alt sistem için dünyada ve repoda "standart" ne? | TAMAM | R07–R11 |
-| P0.4 | METHOD v1 taslağı (ayrıntısı aşağıda): önce beş küme taslağı (T1–T5), sonra birleştirme | SÜRÜYOR | `drafts/T1–T5` → `METHOD-v1-TASLAK.md` |
+| P0.4 | METHOD v1 taslağı (ayrıntısı aşağıda): önce beş küme taslağı (T1–T5), sonra birleştirme | SÜRÜYOR: T1–T5 TAMAM; birleştirme çalışıyor | `drafts/T1–T5` → `METHOD-v1-TASLAK.md` |
 | P0.5 | Eleştiri turu, üç ayrı eleştiri (ayrıntısı aşağıda) | BEKLİYOR | `reviews/` |
 | P0.6 | Revizyon ve Batu'ya kısa sunum | BEKLİYOR | METHOD v1 (tartışma için) |
 | P0.7 | Batu'nun düzeltmeleri; A-02'ye göre konuşma içi pilotlar; yeniden revizyon | BEKLİYOR | — |
@@ -83,7 +83,7 @@ Görev tanımları:
 
 | Küme | Alt sistemler | Çıktı | Durum |
 |---|---|---|---|
-| T1 | S7 bağlam · S8 bellek · S9 kayıt mimarisi · S10 anlam bütünlüğü | `drafts/T1-bilgi-tasima.md` | SÜRÜYOR |
+| T1 | S7 bağlam · S8 bellek · S9 kayıt mimarisi · S10 anlam bütünlüğü | [drafts/T1](drafts/T1-bilgi-tasima.md) | TAMAM (219 KB, 33 kart) |
 | T2 | S11 kalıcı roller · S12 orkestrasyon · S13 arayüzler · S16 güvenlik | [drafts/T2](drafts/T2-aktorler-ve-guvenlik.md) | TAMAM (179 KB) |
 | T3 | S3 yaşam döngüsü · S4 keşif · S5 plan · S6 araştırma kullanımı · P0–P6 haritası | [drafts/T3](drafts/T3-isin-akisi-ve-harita.md) | TAMAM (170 KB, 33 kart) |
 | T4 | S1 yönetişim · S2 Batu ile iş birliği · S14 kalite · S15 muhakeme disiplini · S17 gözlemlenebilirlik | [drafts/T4](drafts/T4-yon-yetki-ve-denetimler.md) | TAMAM (187 KB) |

@@ -109,7 +109,13 @@ Kümelerin yazdıklarını yan yana koymak yetmez. Asıl iş şunlardır: çeli�
 - **T2, en büyük risk:** `.claude/agents` yalnız oturum başında var olan bir dizinden izleniyor ve main'de `.claude/` yok. K-009 altında (EXP-007 yalnız dalda) roller yüklenmeyebilir. T5'in konum kuralıyla birlikte düşün ve pilot sorusu yap.
 - **T2, güvenlik:** Ortamda sır taşıyan değişken adları var (ör. `GH_TOKEN`, `AWS_*`). Bash yetkisi olan alt ajanlar bunlara ulaşabilir. S16 kartlarında karşılığı olmalı.
 - **T2, ara sürümlerin kök nedeni:** Ana oturumun Stop hook'u, commit edilmemiş dosya varken turu kapattırmıyor; alt ajan dosyayı parça parça yazarsa ara sürümler commit'e giriyor. T2, T3 ve T5 bu turda dosyayı repo dışında hazırlayıp tek seferde yazdı. Bu, tek yazım kuralının pratikte işlediğini gösteriyor; zorlama olarak hook adayı T2 ve T5'te var.
-- Diğer kümelerin notları döndükçe eklenecek.
+- **T1, bağlam katmanları:** Dört katman ve ölçülü bütçeler: her zaman yüklenen çekirdek ≤ 10 KB, açılış seti ≤ 50 KB. Kök CLAUDE.md ≤ 100 satır ve bir "Compact Instructions" bölümü taşır. STATE, CLAUDE.md'ye eklenmez; alt ajanlar bayat kopya görebilir.
+- **T1, rol belleği:** Rol belleği EXP-007 içindeki bir dosyada durur; koordinatör seçerek verir. `memory: project` yalnız pilot seçeneğidir. Bu, T2 ile uyumlu; T5'in `agent-memory` istisnasıyla birlikte tek hale getir.
+- **T1 ile T2/T5, ara dosyalar:** T1, çalışan ajanların git'in yok saydığı bir hazırlık klasörüne yazmasını ve çıktıyı bir bitiş işaretiyle kapatmasını öneriyor. T2, T3 ve T5 bu turda fiilen başka bir yol kullandı: repo dışında (oturumun geçici alanında) hazırlayıp repoya tek seferde yazdılar. Birini seç. Ödünleşim: repo içi klasör `.gitignore` değişikliği ister ama aynı makinede görünür kalır; repo dışı alan repoyu temiz tutar ama makine geri alınınca kaybolur.
+- **T1, en büyük risk:** Yalnız bu dalda yaşayan yapılandırma, başka yerden başlatılan oturumda yüklenmez; oturumlar bu dalda başlamalı. T2'nin `.claude/agents` riskiyle ve T5'in konum kuralıyla birlikte tek pilot sorusu yap: "yapılandırma nerede yaşar ve nasıl yüklenir?"
+- **T1, okuma yolu:** T1 kendi tam okuma bütçesini (120 KB) aşıyor; başında bir okuma yolu var. Onu kullan.
+
+**4. Senin okuma bütçen.** Beş taslak toplam ≈ 947 KB (≈ 300 K token). Bu turda her küme ajanının tepe bağlamı 620–734 K token'a çıktı; sıkıştırma eşiği ≈ 800 K. Sen taslakların hepsini baştan sona okursan, yazmaya başlamadan sıkıştırılma riskin yüksek. Toplam okumayı yaklaşık 1 MB metinle sınırla. Önce her taslağın okuma yolunu, özetini, arayüzlerini, W katkılarını, onay listesini ve açık sorularını oku. Kartlara yalnız çelişki çözerken ve tabloları doldururken in. Okumadığın bölümleri METHOD'un kaynak bölümünde yaz.
 
 ## Önerilen bölüm yapısı
 0. Batu için özet
