@@ -24,8 +24,8 @@ Hedef standart seviyedir, "yeterli seviye" değil. Alt sistemler arası etkileş
 | P0.1 | EXP-006'yı anlamak ve ilk öneri (v0) | TAMAM. Anlayış kabul edildi, yapı küçük bulundu (K-006, K-007) | [A003](../../sources/conversation/A003.md); R02–R06 |
 | P0.2 | Süreklilik kaydı | TAMAM | README, STATE, DECISIONS, `sources/` |
 | P0.3 | Standart seviye araştırması: her alt sistem için dünyada ve repoda "standart" ne? | TAMAM | R07–R11 |
-| P0.4 | METHOD v1 taslağı (ayrıntısı aşağıda): önce beş küme taslağı (T1–T5), sonra birleştirme | SÜRÜYOR: T1–T5 TAMAM; birleştirme çalışıyor | `drafts/T1–T5` → `METHOD-v1-TASLAK.md` |
-| P0.5 | Eleştiri turu, üç ayrı eleştiri (ayrıntısı aşağıda) | BEKLİYOR | `reviews/` |
+| P0.4 | METHOD v1 taslağı (ayrıntısı aşağıda): önce beş küme taslağı (T1–T5), sonra birleştirme | TAMAM | `drafts/T1–T5` → [METHOD-v1-TASLAK](METHOD-v1-TASLAK.md) (1.514 satır; 157 kart dizini) |
+| P0.5 | Eleştiri turu, üç ayrı eleştiri (ayrıntısı aşağıda) | SÜRÜYOR | `reviews/` |
 | P0.6 | Revizyon ve Batu'ya kısa sunum | BEKLİYOR | METHOD v1 (tartışma için) |
 | P0.7 | Batu'nun düzeltmeleri; A-02'ye göre konuşma içi pilotlar; yeniden revizyon | BEKLİYOR | — |
 | P0.8 | Anlaşma ve "başla": onaylanan yapılandırmaların kurulması, yön tabelalarının düzeltilmesi (A-05), P1'e geçiş | BEKLİYOR | — |

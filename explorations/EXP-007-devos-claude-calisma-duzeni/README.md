@@ -43,4 +43,4 @@ Bu yapı geçicidir. P0'ın çıktısı olan metodoloji kabul edilince paketin y
 ## Sınırlar
 - Bu pakette şunlar değiştirilmez, yalnız okunur: EXP-006, EXP-001–005, Foundation, studies, concepts, kontrol katmanı (AGENT.md, `agent/`).
 - Kontrol ve yapılandırma değişiklikleri (CLAUDE.md, `.claude/agents`, skills, hook'lar) Batu onaylamadan kurulmaz ([A-04](DECISIONS.md)).
-- Git: EXP-007 ayrı dalda (`claude/hopeful-pascal-7bekcd`) yaşar ve main'e birleştirilmez (K-009). Dal yalnız bu klasöre dokunur.
+- Git: EXP-007 ayrı dalda (`claude/hopeful-pascal-7bekcd`) yaşar ve şimdilik main'e birleştirilmez (K-009). Dal şimdilik yalnız bu klasöre dokunur; bu Claude'un kuralıdır, Batu'nun sözü değildir (K-009).
