@@ -1,203 +1,175 @@
-# P3-01 — İş, yapı ve bilgi akışı: bütünleşik tartışma taslağı
+# P3-01 — İş, çalışma alanı ve bilgi sürekliliği
 
-**Üst iş:** [WORK/P3](../WORK.md). **Güncelleme:** 27 Eylül 2026.  
-**Sürüm:** v0.3; bu revizyonun başlangıcı `agentic-os-search@89ec8892697f7280caa54956066c7919fc2988b9`.  
-**Statü:** DISCUSSION BASELINE / CANDIDATE / CONCRETE WALKTHROUGH. P3 tamamlanmadı; P4–P6 başlamadı. Kullanıcı yönü mantıklı buldu ve somutlaştırma istedi; bütün sözleşmelerin kabulü, seçilmiş mimari veya çalışan mekanizma sonucu çıkarılmaz.  
-**Değişim:** v0.2'nin G/Y ayrımı ve rol yerleşimi korunur. §5, bağlam, görüş ayrılığı, karar, kayıt, yeni bilgi ve kesintiyi aynı örnekte birleştirir. [Önceki v0.2](https://github.com/batuhanozgun/agentic-os-search/blob/89ec8892697f7280caa54956066c7919fc2988b9/explorations/EXP-006-development-os-calisma-duzeni/work/P3-01-work-information-discussion.md) ve [ilk v0.1](https://github.com/batuhanozgun/agentic-os-search/blob/ed2bf6e2232b38c42b5d58d82f5b700fdd434e77/explorations/EXP-006-development-os-calisma-duzeni/work/P3-01-work-information-discussion.md) kendi kaynak izleriyle korunur.
+**Üst iş:** [WORK/P3](../WORK.md). **Tarih:** 27 Eylül 2026.  
+**Sürüm:** v0.4 — konsolide çalışma taslağı; başlangıç `a2ee26c615361f2c88f58ed2d695c03e9386c206`.  
+**Statü:** CONSOLIDATED WORKING DRAFT / DISCUSSION. Kullanıcı içerik sorumluluğu ile çalışma alanının düzen/bakım sorumluluğu ayrımına katıldı; aşağıdaki ayrıntılı işletim sözleşmelerinin tamamını kabul etmiş sayılmaz. P3 kapanmadı; P4–P6 başlamadı.  
+**Rolü:** P3'ün güncel tek ayrıntı yüzeyi. Önceki anlatımı tekrar tekrar büyütmek yerine iş, yapı, kayıt ve devam kuralları birlikte düzenlendi. [v0.3](https://github.com/batuhanozgun/agentic-os-search/blob/a2ee26c615361f2c88f58ed2d695c03e9386c206/explorations/EXP-006-development-os-calisma-duzeni/work/P3-01-work-information-discussion.md), rol konuşmaları ve o turların kaynak iziyle korunur.
 
 ## 1. Kullanıcı yönü ve önerinin sınırı
 
-P3'ü açan görünür mesaj: “en önemli kısım burası. burada araştırma reposu sana bir çok örnek ve bir çok metodoloji verebilir. burayı biraz derin konuşalım. hemen karar verme, bana bir yapı sun, birlikte değerlendirelim. senin sunduğunu baz alalım.”
+P3 başlangıcındaki istek araştırmadan beslenen bir yapı sunmak ve hemen karar vermeden birlikte değerlendirmekti. Kullanıcı ardından işin koordinasyonu ile yapının koordinasyonunun, ürün denetimi ile çalışma düzeni denetiminin ayrılmasını önerdi. v0.2 bu ayrımı, v0.3 kurgusal rol etkileşimini açtı.
 
-Sonraki iki görünür öneri:
+Son netleştirme, görünür kullanıcı mesajıdır:
 
-> “burada şu ayrımı ortaya koy önce, ona göre konuşalım bence. işi yapanlar ile ortamı yönetenler ayrı olmalı. işi yapanların işle ilgili denetleyicileri ile ortamdan kaynaklı denetliyiciler farklı motivasyonlara sahip olacaklardır. bunu düşün benimki sadece öneri”
+> “Ben belki detay bir noktaya takılacağım ama ben daha çok çalışma düzeninden bahsediyorum, yani etrafın derli toplu olmasından bahsediyorum, işin içeriği değil de işin yapılması aşamasında kullanılan yapının, dosyaların, klasörlerin, düzeninden falan ya da yeniden kullanılabilir olmasından falan. Ama doğru mu düşünüyorum emin değilim. Sen de buna benzer bir şeyden mi bahsediyorsun?”
 
-> “işi yapmanın koordinasyonu ile yapının koordinasyonu bence farklı. senin buradaki bu soruyu sorma sebebin nedir tam olarak? varsayımlarımızı çapıştıralım.”
+Assistant içerik sahibinin ne söylendiği/nedeninden; düzen tarafının nerede, hangi statü ve ilişkilerle korunup yeniden kullanılacağından sorumlu olmasını önerdi. Kullanıcının sonraki görünür mesajı:
 
-Kullanıcı ardından gereksiz küçük turları eleştirdi ve bütünlüklü taslağa devam istedi. v0.2 sunulduktan sonraki mevcut mesaj:
+> “tamam evet aynı fikirdeyim.  
+> şimdi bir toplarla P3'ü.  
+> devam edelim.”
 
-> “Bu yön bana mantıklı geldi ama biraz daha somutlaştır bunu.”
+**Kabulün kapsamı:** Çalışma alanının düzeni, bulunabilirliği, güncelliği, bakımı, devri ve yeniden kullanımı asli sorumluluktur; içerik kararıyla aynı değildir. Bu D021 olarak kaydedilir. Fiziksel klasör ağacı, rol/ajan sayısı, bütün P3 hükümleri veya teknik topoloji kabul edilmiş değildir. Kaynak aktarımı bu görünür mesajlarla sınırlıdır; platform export'u değildir.
 
-Bunlar model-visible mesaj aktarımıdır; platform export'u değildir. Son ifade yön desteği ve somutlaştırma yetkisidir; bütün tasarım ayrıntıları için kabul değildir. Kısa sunum, küçük miktarda iş yapma veya her ayrımda yeni onay isteme şartı değildir.
+**Üst sınır:** Bu dosya SOUL geliştirme backlog'u değil, DevOS'un çalışma düzeni taslağıdır. İlk ve sonraki SOUL işlerini kurulacak ekip keşfeder. Cloud kullanıcı kısıtıdır; teknik seçim P4'te kalır. Kısa sunum, küçük miktarda iş yapmak veya her ayrımda kullanıcı komutu beklemek anlamına gelmez.
 
-**Aday ayrım:** İki hedef alanı vardır; her ikisi de DevOS'un içindedir.
+## 2. P3'ün birleşik modeli
 
-- **G — SOUL geliştirme:** SOUL için gerekli işi keşfetmek, araştırmak, planlamak, tasarlamak, gerçekleştirmek ve sonucun yeterliğini değerlendirmek.
-- **Y — DevOS işleyişi:** Bu ekibin çalışmasını mümkün kılan görevlendirme, bilgi/bağlam, iletişim, araç, erişim, süreklilik ve gerekli yapı bakımını işletmek ve sınamak.
+**Ortak hedef ve iş ağı üzerinde, ihtiyaç etrafında işbirliği; bu işbirliğini sürdüren düzenli ve yeniden kullanılabilir çalışma alanı.**
 
-Y de Work yapar ve reasoning gerektirebilir; yalnız shell komutu çalıştıran teknik hizmet değildir. Her iki alanda da WORK, INFORMATION, ACTORS ve ENVIRONMENT ilişkileri vardır. Y alanını Foundation'ın ENVIRONMENT ground'uyla eşitleme. SOUL'da bir ortam veya hafıza kapasitesi geliştirmek G işidir; DevOS'un kendi ortamını/hafızasını işletmek Y işidir. Sınıflandırmada dosya/konu adı değil, değiştirilen veya doğrulanan hedef belirleyicidir.
-
-İki hedef alanı; iki kalıcı takım, iki repository, iki lead veya iki ayrı ürün kararı değildir. Claude topolojisi P4'te kalır. Gerçek ilk ve sonraki SOUL işlerini burada seçmiyoruz; bunları kurulacak ekip keşfeder.
-
-## 2. Mevcut rollerin tamamına uygulama
-
-[ACTORS](../ACTORS.md) ve [P2-01](P2-01-named-role-contracts.md), DR01–DR16'nın ilk sözleşme tabanıdır. Aşağıdaki G/Y profilleri bu tabana önerilen P3 düzeltmesidir; yeni kalıcı rol sayımı veya kabul edilmiş kadro değildir. DR06 ve DR13'ün iki hedefi ayrı isimle görünür kılınır. Diğer roller sırf iki alan var diye iki kez kurulmaz.
-
-| Taban | G — SOUL geliştirme katkısı | Y — DevOS işleyişi katkısı / sınır |
+| Sorumluluk alanı | Ne için var? | Başarı sorusu |
 |---|---|---|
-| DR01 İş Keşfi ve Planlama | Hedef/birikimden iş ve önkoşul adaylarını bütünleştirir; yaşayan geliştirme planı | Yapıya yönelik ayrı ve yetkili değişiklikte aynı planlama yetkinliği kullanılabilir; ürün önceliğini Y'ye devretmez |
-| DR02 Kapasite Tasarımcısı | SOUL kapasitesini gerekli alan uzmanlığıyla tasarlar | Eksik DevOS kapasitesi gerçek bir tasarım işi gerektiriyorsa hedefi açık ayrı görevlendirme |
-| DR03 Sistem Bütünlüğü Tasarımcısı | SOUL tasarımlarının birlikte yeterli olmasını ele alır | DevOS yapısı değişecekse onun bütünlüğünü ayrı kapsamla ele alır; ürün ve üretim sistemi birbirine karışmaz |
-| DR04 Sınama Tasarımcısı | G iddiaları için kriter, oracle ve sınama tasarımı | Y iddiaları için ayrı hedef/koşul/sınama tasarımı; tek test iki hedefin tamamını kanıtlamaz |
-| DR05 Uygulama Geliştiricisi | SOUL uygulama ve mekanizmalarını gerçekleştirir | Yetkili DevOS mekanizma değişikliğini gerçekleştirebilir; bakım bahanesiyle sınırsız öz-değişiklik yapmaz |
-| **DR06-G SOUL Geliştirme Koordinatörü** | Katkıların hangi sırada, hangi bağımlılıklarla üst sonuca birleşeceğini işletir | Kapasite ve engel bilgisi alır; oturum/erişim bakımını kendisi yapmak zorunda değildir |
-| **DR06-Y DevOS İşletim Koordinatörü** | G'nin kapsamlı yürütme isteğini alır; ürün önceliği seçmez | Etkinleştirme, teknik bekleme, kapasite, devir ve kurtarmayı koordine eder; DR07–10/12'yi gerektiğinde kullanır |
-| DR07 Bilgi Sorumlusu | Ürün bilgisinin domain doğruluğu üretici/karar sahibinde kalır | Ürün ve çalışma kayıtlarının kaynak, sürüm, statü ve lifecycle bütünlüğünü işletir; tüm dosyaların tek yazıcısı değildir |
-| DR08 Bağlam Kurucusu | İş sahibi ve tüketici hangi soruya hangi bilginin gerektiğini belirlemeye katılır | Uygun kaynak/görünümü hazırlar, erişim ve eksikliği görünür kılar; anlam yeterliğini tek başına ilan etmez |
-| DR09 Rol ve Katılım Sorumlusu | İşin ihtiyaç duyduğu katkı/yeterlik tarifini alır | Uygun aktörün role bağlanması, değişmesi ve katılım kaydı; yeterlik veya grant yaratmaz |
-| DR10 Ortam İşleticisi | G'nin araç/koşul gereğini alır | Yetkili mevcut mekanizmalarla ortam/erişim/operasyon; yeni mekanizma gerekirse sınırlı değişiklik işi |
-| DR11 Sınama Yürütücüsü | G hedefinde koşu ve gözlem üretir | Y hedefinde ayrı koşu/gözlem üretir; koşu tamamlanması güvence veya kabul değildir |
-| DR12 Yetki ve Kontrol Sorumlusu | Ürün/kapsam yetkisinin sınırını gözetir; ürün gerçeğini belirlemez | Delegasyon ve etki sınırını işletir; her rutin eylemi insan onayına taşımaz |
-| **DR13-G SOUL Geliştirme İnceleyicisi** | Gerekli işin, tasarımın, uygulamanın ve kapanış iddiasının SOUL hedefiyle uygunluğunu kanıtla değerlendirir | Operasyonel yeşili ürün doğruluğu saymaz; alan uzmanlığı gerekir |
-| **DR13-Y DevOS İşleyiş İnceleyicisi** | G'nin gerçekten ihtiyaç duyduğu çalışma koşullarını sınama girdisi alır | Görevlendirme, bağlam, iletişim, yetki, kayıt ve devam koşullarının fiilen sağlanmasını sınar; yalnız process liveness ölçmez |
-| DR14 Teşhis ve Etki Analisti | Ürün/plan/tasarım hatası ve etkilenen sonuçlar | İşleyiş arızası ve etkilenen çalışmalar; her olayda hedef ve kanıt kapsamı ayrı |
-| DR15 Öğrenme ve Yöntem Sorumlusu | SOUL geliştirme yöntemine ilişkin deneyimi değerlendirir | DevOS işletim deneyimini değerlendirir; yeni kural veya kontrolü kendi başına yürürlüğe koymaz |
-| DR16 Araştırmacı | SOUL'a ilişkin bilgi sorusu için kaynaklı bulgu | DevOS işleyiş sorusu için kaynaklı bulgu; soru/uzmanlık/tüketiciye göre ayrı görevlendirme |
+| **G — SOUL geliştirme** | Gereken işi keşfetmek, araştırmak, planlamak, tasarlamak, gerçekleştirmek ve değerlendirmek | Doğru işe yöneliyor ve SOUL hedefi için yeterli sonuç üretiyor muyuz? |
+| **Y — DevOS işleyişi ve çalışma alanı** | Katılım, iletişim, erişim, bağlam, dosya/kayıt düzeni, bakım, yeniden kullanım ve devri sağlamak | Ekip, doğru çalışma koşullarını ve tekrar kullanılabilir bilgi düzenini gerçekten bulabiliyor mu? |
 
-G ve Y inceleyicileri aynı kanıta sadakat ilkesini paylaşır; başarı nesneleri, uzmanlıkları ve muhtemel teşvik çatışmaları farklıdır. G inceleyicisi mutlaka kusur bulmakla, Y inceleyicisi de sistemi sürekli yeşil göstermekle başarılı sayılmaz. Kendi ürettiği şeyi farklı rol adıyla değerlendirmek bağımsızlık kanıtı değildir; actor/context ayrımı P4/P6'da gerekçelendirilir.
+İkisi de DevOS içinde Work ve reasoning taşır. Y yalnız Claude teknik altyapısı veya Foundation ENVIRONMENT ground'u değildir. Her iki tarafta da WORK, INFORMATION, ACTORS ve ENVIRONMENT ilişkileri bulunur. SOUL'un hafızasını geliştirmek G; geliştiren ekibin kendi kayıtlarını işletmek Y'dir. Konunun adı değil hedef nesne belirleyicidir.
 
-## 3. İki koordinasyon arasındaki karar sözleşmesi
+İki alan iki kapalı takım, iki repository veya zorunlu iki lead değildir. F1–F8 başarı yönleriyle G/Y hedefleri farklı eksenlerdir. Genel rol yetkinliği gerektiğinde iki hedefte ayrı görevlendirmelerle kullanılabilir; ortak isim, aynı uzmanlık veya bağımsızlık garantisi değildir.
 
-**G koordinasyonu:** DR01 ve alan sorumlularının gerekçeli iş/plan kararlarını yürütmeye taşır. Hangi katkının hangi kararı beklettiğini, iş önceliğini, sonuç birleştirmeyi ve geliştirme engelinin disposition'ını takip eder. Bütün teknik kararların sahibi değildir.
+## 3. Roller, sahiplik ve iki koordinasyon
 
-**Y koordinasyonu:** Verilmiş iş isteğini uygun koşullarda yürütülebilir hâle getirir; çağırma, çalışma denemesi, erişim, kapasite ve geri dönüşü izler. İzinli eşdeğer çalışma seçenekleri arasında seçim yapabilir; istenen sonucu veya kalite ölçütünü değiştiremez.
+[ACTORS](../ACTORS.md) ve [P2-01](P2-01-named-role-contracts.md) DR01–DR16 ilk sözleşme tabanını korur. Aşağıdaki profiller P3 taslak düzeltmesidir; yeni bir kabul edilmiş ajan sayımı değildir.
 
-Aradaki ilişki “emir veren üst akıl → düşünmeyen altyapı” değildir. Y gerçek kısıt, eksik yetkinlik ve alternatif yol bildirir; G bunun ürün/öncelik sonucunu değerlendirir. G yapı kapasitesini var sayamaz, Y ürün gereksinimini sessizce daraltamaz.
+| Rol/taban | P3'te taşıdığı sorumluluk |
+|---|---|
+| DR01 İş Keşfi ve Planlama | Diğer rollerin de keşfettiği ihtiyaçları amaç, gerekçe, alternatif, önkoşul ve yaşayan planda bütünleştirir. İlk işi assistant dışarıdan vermez. |
+| DR02 Kapasite / DR03 Sistem Bütünlüğü Tasarımcıları | Konuya uygun uzmanlıkla yerel tasarımı ve alanlar arası uyumu taşır. DevOS yapısına değişiklik gerekirse ayrı ve yetkili hedefle çalışırlar. |
+| DR04 Sınama Tasarımcısı / DR05 Uygulama Geliştiricisi / DR11 Sınama Yürütücüsü | Sınama yolu, gerçek üretim ve koşu kanıtı ayrı katkılardır. Her birinin G veya Y hedefi, sürümü ve yetkisi açık olur. |
+| **DR06-G SOUL Geliştirme Koordinatörü** | Hangi katkı neyi bekliyor, öncelik nedir, sonuçlar üst işe nasıl birleşecek? Ürün/plan sahipleriyle iş sırasını işletir; bütün teknik kararları üstlenmez. |
+| **DR06-Y DevOS İşletim Koordinatörü** | Katkıyı uygun koşullarda etkinleştirme, çalışma denemesi, kapasite, bakım ve devamı koordine eder. Ürün önceliğini veya kalite ölçütünü sessizce değiştirmez. |
+| **DR07 Bilgi Sorumlusu — çalışma alanı bakım kapsamıyla** | Dosya/kayıtların mantıksal yeri, tek yetkili kaynağı, statüsü, kaynak/sürüm bağı, indeksleri, arşiv ve tekrar kullanım bulunabilirliğini korur. İçeriğin doğruluk hakemi veya bütün dosyaların tek yazıcısı değildir. |
+| DR08 Bağlam Kurucusu | İş sahibi/uzmanla gerekli görünümü oluşturur; kaynaklara dönüş, sürüm ve eksikleri korur. Herkese bütün geçmişi göndermek veya özeti yeterli saymak yoktur. |
+| DR09 Rol ve Katılım / DR10 Ortam İşleticisi | Katılım bağını ve gerçek araç/erişim/ortam işlemlerini ayrı taşır. Assigned/active etiketi gerçek yeterlik, grant veya çalıştırma değildir. |
+| DR12 Yetki ve Kontrol | Meşru kapsam/delegasyon/etki sınırları; her rutin işte müşteri onayı istemek değil. Teknik erişimden veya rol isminden yeni yetki çıkmaz. |
+| **DR13-G SOUL Geliştirme İnceleyicisi** | İş seçiminin, tasarımın, uygulamanın ve sonuç iddiasının yeterliğini alan uzmanlığı ve uygun kanıtla sınar. |
+| **DR13-Y DevOS İşleyiş İnceleyicisi** | Çalışma alanının gerçekten kullanılabilir, güncel, bulunabilir ve devralınabilir oluşunu; gereken iletişim/katılım/izin bağlarını sınar. Temiz görünen klasör yeterli değildir. |
+| DR14 Teşhis / DR15 Öğrenme ve Yöntem / DR16 Araştırmacı | Olayın neden/etkisi, deneyimden yöntem değişikliği ve kaynaklı bilgi sonucu ayrı teslimatlardır. G/Y hedefi açık tutulur; öz-değişiklik veya ürün benimseme yetkisi kendiliğinden oluşmaz. |
 
-**Yürütme isteğinin gerekli anlamı:** Hangi iş/soru, neden gerekli, beklenen teslimat ve tüketici, bağlı karar/üst iş, ilgili kaynak ve hedef sürümleri, gerekli uzmanlık/yetki, gerçek bağımlılık ve geri dönüş noktası. Bunlar zorunlu ayrı dosya alanları değildir; mevcut kayıtlar yeterliyse yeniden kopyalanmaz.
+**İçerik sahibi:** Araştırmacı bulgusunu, tasarımcı kararını, geliştirici uygulamasını, inceleyici hükmünü ve gerekçesini üretir. Y tarafı anlamı yeterince anlayarak düzenler; yerleştirme veya isim düzeltmesi bahanesiyle içerik hükmünü değiştirmez. Üreticiler de bakım işini bütünüyle başka role atıp sahipsiz çıktı bırakamaz.
 
-**Geri dönüş:** Sonuç veya açık engel; çalışma denemesi kimliği/koşulu; değişen nesne ve dayanaklar; neyin eksik kaldığı; hangi karar veya çalışma tarafından tüketileceği. “Başlatıldı”, “yanıt geldi”, “sonuç yeterli bulundu”, “ürüne uygulandı” ve “üst iş kapandı” farklı standing'lerdir.
+**Karar sahibi işte belirtilir:** İş/önkoşul planını DR01, alan tasarımını ilgili DR02, alanlar arası tasarım uyuşmazlığını DR03 kendi yetki kapsamında ele alır. DR06-G öncelik ve iş ilişkilerini; DR06-Y verilmiş politika içindeki çalıştırma/bakım seçeneklerini işletir. DR13 kanıt hükmünü idari tercih uğruna olumluya çeviremez. Kapsamı aşan gerçek principal kararı DR12 üzerinden Batu'ya döner; her teknik anlaşmazlık müşteriye aktarılmaz.
 
-## 4. Uçtan uca çalışma önerisi
+## 4. Çalışma alanında ne nerede yaşar?
 
-1. **Hedefi devralma ve iş keşfi:** Ekip hedef, sınırlar, araştırma birikimi ve mevcut sonuçları devralır. DR01 gerekli işleri diğer rollerin katkılarıyla keşfeder. DR06-G bağımlılıkları/önceliği koordine eder. B1–B9 sırası hazır backlog yapılmaz. Başlangıç grant/aktör/okuma yolunun kurulması P4/P5 yüküdür.
-2. **Çalıştırma:** DR06-G gereken katkıyı ve teslim ilişkisini belirtir. DR06-Y mevcut yeterli koşulları kullanır veya gerekli katılım/ortam/bağlam işini koordine eder. Her çağrıda bütün işletim rollerinin ayrı ayrı çalışması zorunlu değildir.
-3. **İş içi işbirliği:** Çalışan uzman eksik bilgi, karşı görüş veya kontrol isteyebilir. Yetki ve mevcut kapsam içindeki küçük danışmalar her mesajda iki koordinatörün onayını beklemez. Yeni bağımlılık, ayrı sorumlu, önemli maliyet, scope veya oturum devri oluşursa katkı izlenebilir ayrı Work hâline gelir. Bu eşik nitel adaydır; kesin sayısal tavan konmadı.
-4. **Sonucu kullanma:** Araştırmacı bulgusunu kaynak/sınırla döndürür. Talep sahibi ilgili kararda nasıl kullandığını veya gerekçeli olarak neden kullanmadığını korur. Kritik bir çürütme yalnız istenmediği için yok sayılamaz. Koordinasyon, cevabın tüketicisine dönmesini izler; teknik hükmü onun yerine vermez.
-5. **Üretim ve güvence:** G tarafı tasarım/uygulama/üretici kanıtını oluşturur; DR13-G ilgili doğruluk iddiasını sınar. DR13-Y yalnız ilgili ve risk taşıyan işleyiş koşullarını sınar. Her basit iş için zorunlu iki komite veya her seferinde bütün kontrolleri yeniden çalıştırma önerilmez; geçerli kanıtın kapsamı korunur.
-6. **Kayıt, etki ve devam:** Alan sahibi içerik/karar/ürün katkısını; DR07 lifecycle ve kaynak/sürüm ilişkisini; DR08 sonraki tüketicinin görünümünü taşır. DR06-G sonuçtan doğan geliştirme durumunu/önceliği; DR06-Y çalışma denemesi/katılım/devri günceller. İşlevsel zincir normal durumda Batu'nun “şimdi sıra sende” komutunu gerektirmez; bu tasarım gereği henüz runtime başarısı değildir.
+Bu tablo **mantıksal yerleşim önerisidir**, şu anda açılacak klasör ağacı veya depolama ürünü değildir. P4 gerçek erişim/yazma koşullarıyla fiziksel karşılığını seçecektir.
 
-Akış sabit bir altı aşamalı bant değildir. Karar, araştırma, destek ve kalıcı bakım da Work'tür; bazı adımlar birlikte, tekrar veya paralel gerçekleşebilir. Kayıt ve başarının sahipliği, workflow çizgisinden türetilmez.
-
-## 5. Somut çalışma örneği — soru, karşı görüş, kayıt ve devam
-
-**Tamamı kurgusal tasarım yürüyüşüdür.** Aşağıdaki rol sözleri, iş kimlikleri, durumlar ve karar adayları gerçek ajan çıktısı, deney veya SOUL backlog'u değildir. Gerçek DevOS ekibinin kendi keşfiyle bu soruya geldiğini varsayıyoruz: **“SOUL, kullandığı bilgi değiştiğinde önceki kararlarını nasıl ele almalı?”** Burada bu kapasitenin çözümünü seçmek değil, G/Y işleyişini görünür kılmak amaçlanır.
-
-### 5A. Tek işte rol konuşmaları ve ayrı sorumluluklar
-
-| Olay | G — işi yapan/koordine eden taraf | Y — çalışmayı mümkün kılan taraf | Kalıcı anlamı |
-|---|---|---|---|
-| Soru açılıyor | Bilgi alanındaki Kapasite Tasarımcısı: “İlk önerim, kaynak değişince ona bağlı kararları yeniden açmak.” Hedef ve seçenek henüz taslak. | İşletim Koordinatörü gerekli rolün atanmasını ve erişimini sağlar; Bağlam Kurucusu ilgili gereksinim, kaynak, eski karar/gerekçe ve sürümü getirir. | `ÖR-İ01`: karar gözden geçirme tasarımı; sahibi belli; uygulamaya alınmış politika değil. |
-| Karşı görüş geliyor | Geliştirme İnceleyicisi: “Kaynağın değişmesi, kararın dayanağının geçersizleşmesiyle aynı mı? Aynı kararı destekleyen başka kanıt varsa?” Tasarımcı bu soruyu araştırma ihtiyacı olarak açar. | Y, itirazı yazarak çözülmüş saymaz; doğru işe ve tüketiciye bağlı tutar. İnceleyicinin sadece tasarımcının özetine kapatılmaması gerekir. | `ÖR-A01`: bu iki ayrımı araştır; tüketici tasarımcı, dönüş `ÖR-K01`. Yalnız bu cevaba bağımlı karar bekler. |
-| Araştırma çalışıyor | Geliştirme Koordinatörü kapsam/öncelik ve bekleyen kararı izler. Araştırmacı soruyu kaynaklardan değerlendirir; bilgi açığı varsa ek talep üretebilir. | Y çalışma denemesini, katılımı, gerçek erişimi ve yanıt dönüşünü izler. Kaynak bulunmuş olması içeriğin okunması/kullanılması değildir. | `ÖR-Ç01 → ÖR-A01`: çalıştırma denemesi; araştırmanın kendisiyle aynı kimlik/durum değil. |
-| Bilgi sonuca dönüyor | Örnek yanıt: “Kaynak güncellemesi, destek gerekçesinin geri çekilmesi ve kararın tersinin kanıtlanması farklıdır.” Tasarımcı: “O hâlde etkilenen gerekçeleri değerlendiren bir seçenek hazırlayayım.” | DR07 dayanak ve statüyü korur; DR08 yanıtı gerekli kaynak bağlarıyla tasarımcının bağlamına taşır. Sonucun gerçekten kullanılmasını isteyen rol gösterir. | Örnekte `ÖR-A01` kapsamı tamamlanabilir; `ÖR-K01` hâlâ öneri. Araştırma bir tasarım kararını otomatik onaylamaz. |
-| Yeni açık bulunuyor | İnceleyici: “Bağımlılık kaydı eksikse hangi kararın etkilendiğini nasıl göreceğiz?” Tasarımcı eksikliği kabul eder; Sınama Tasarımcısı karşı vakayı kurar. G koordinasyonu bu katkıyı plana bağlar. | Y, bu yeni inceleme/sınama katkısını mevcut yetki ve kapasite içinde başlatılabilir hâle getirir. Her geçişte Batu'nun komutunu bekleme şartı konmaz. | `ÖR-T01`: eksik bağımlılık ve alternatif destek vakası. Sınama tasarımı/koşu/kanıt ayrı; burada hiçbiri çalıştırılmadı. |
-| Karar ve uygulama eşiği | Yetkili alan sorumlusu, itirazı ve yeterli kanıtı ele aldıktan sonra kararını gerekçelendirir. Karşı vaka çözümsüzse “uygulamaya hazır” demez. Sonraki gerçek üretim işlerini DevOS ekibi türetir. | Y doğru sürüm ve izinlerle devir sağlar; olumlu dispatch veya teslim kaydından ürün yeterliği çıkarmaz. | Karar seçimi, güvence hükmü, yürütmeye alma ve uygulanmış ürün ayrı statülerde tutulur. Bu örnekte karar açık bırakıldı. |
-
-Kaynaklardan alınan ayrımlar gerçek research girdileridir; bunları konuşan kurgusal rollerin araştırma yaptığı veya karşı vakayı başarıyla sınadığı iddia edilmez. Tasarımcının ikinci seçeneği burada SOUL için benimsenmiş politika değildir.
-
-### 5B. Rolün gerçekten alacağı girdi
-
-Araştırmacıya yalnız “karar güncellemelerini araştır” denmez. Örnek bağlam paketi şunları taşır:
-
-> **Bağlı iş:** ÖR-İ01. **Soru:** Kaynak değişikliği hangi durumda karar dayanağını etkiler? Alternatif destek varsa ne değişir? **Kullanım:** ÖR-K01 tasarım seçeneklerini karşılaştırmak. **Başlangıç kaynakları:** ilgili Foundation Revision/Selection bulguları ve uygun study örnekleri; sürüm ve özgün kaynağa dönüş yolu. **Sınır:** Bulguyu tasarım kabulüne çevirmeden teslim et. **Beklenen çıktı:** desteklenen ayrımlar, karşı örnekler ve eksik kalan kanıt. **Geri dönüş:** tasarımcı ve açık karar ÖR-K01.
-
-Tasarımcı ayrıca mevcut seçenekleri ve ürün bağlarını; inceleyici bağımsız bakış kurabilmek için gereksinimi, hedef sürümü ve doğrudan kanıt yolunu alır. Her role aynı paket gönderilmez. DR08 ile uzman hangi bilginin gerekli olduğunu birlikte belirler; tüketici gerekli kaynağa daha derin dönebilir. Özet doğru olsa bile bu kullanım için yetersiz olabilir.
-
-### 5C. Üç ayrı kayıt görünümü; üç dosya zorunluluğu değil
-
-| Görünüm | Sahipliği taşıyan | Örnekteki içerik |
+| Mantıksal alan | Korunan içerik | Karışmaması gereken |
 |---|---|---|
-| **İş ve katkı kaydı** | İş sahibi + DR06-G | ÖR-İ01'in amacı, ÖR-A01'in sorusu/teslimatı, hangi kararın neyi beklediği, ÖR-T01'in neden açıldığı. |
-| **Çalıştırma/katılım kaydı** | DR06-Y + ilgili işletim sorumluları | ÖR-A01'i yürütme denemesi ÖR-Ç01; kullanılan aktör/rol, girdi sürümü, başlatma/erişim/yanıt/engel ve yeniden giriş durumu. |
-| **Karar, dayanak ve kanıt kaydı** | Alan karar sahibi ve inceleyici; DR07 bakım desteği | ÖR-K01'in seçenekleri, dayanakları, itirazın karşılığı, açık kalan koşul ve ayrı güvence hükmü; varsa hangi ürün sürümüne uygulandığı. |
+| **SOUL ürün alanı** | Ürünün tasarım, tanım, kod ve diğer teslimatları; geçerli sürüm ve aday değişiklik bağı | DevOS'un kendi rol talimatı/işletim kuralı ürüne sessizce eklenmez. |
+| **DevOS iş ve devam alanı** | Hedef/plan, aday ve etkin işler, talepler, beklemeler, itirazlar, çalışma denemeleri, devir | İşin durumu ile onu çalıştıran oturumun durumu aynı değildir. |
+| **Kaynak, karar ve kanıt birikimi** | Araştırma rotaları, bulgular, karar gerekçeleri, inceleme ve test kanıtları | Erişilebilir yetkili kaynak gereksiz yere kopyalanmaz; üretilmiş yorum kaynakla eşitlenmez. |
+| **DevOS çalışma tarifleri ve tekrar kullanım kütüphanesi** | Rol sözleşmeleri, yöntemler, şablonlar ve araç tarifleri; hangi koşulda kullanılacakları | Bir işte işe yarayan taslak otomatik genel kurala veya etkin agent talimatına yükselmez. |
 
-Bunlar somutlaştırma için gösterilen anlam görünümleridir; seçilmiş şema, dosya adı veya üç canonical kopya değildir. İçerik sahibi kendi sonucu ve gerekçesini üretir; Bilgi Sorumlusu bütün rollerin yerine yazıp karar veren makam olmaz. Gerekli güncelleme kalıcılaşmadan veya tüketiciye ulaşmadan ilgili devir tamam sayılmaz. Atomik yazma/çakışma/yeniden deneme mekanizması P4/P5'te seçilecektir.
+Taslak, geçerli, yerini yenisi almış ve arşivlenmiş olma **yaşam döngüsü statüleridir**; her alanın ayrı kopyasını açma emri değildir. Aynı bilgi için bir yetkili kaynak, gerektiğinde ona bağlı açıkça türetilmiş görünümler olmalıdır. Arşiv geçmiş gerekçe için bulunabilir kalabilir; current okuma yoluna yanlışlıkla karışmamalıdır.
 
-### 5D. Oturum burada kesilirse
+Her kalıcı nesne için gerektiği ölçüde şu sorular cevaplanır: Neye ait? Sahibi kim? Taslak mı, geçerli mi? Hangi kaynak/karar/sürümle bağlı? Nereden bulunur? Kim kullanacak? Açık işse neyi bekliyor ve nereye dönülecek? Her dosyaya büyük bir zorunlu form doldurma kararı verilmez.
 
-Örnekte korunması gereken kısa devir şudur:
+## 5. İş, talep ve karar nasıl ilerler?
 
-```text
-İş: ÖR-İ01 — karar güncelleme davranışının tasarımı.
-Araştırma: ÖR-A01 teslim edildi; kaynak ve bulgu referansları mevcut.
-Karar: ÖR-K01 açık; ikinci seçenek henüz kabul edilmedi.
-Açık itiraz: bağımlılık kaydı eksikken etkilenen karar nasıl bulunacak?
-Beklenen katkı: ÖR-T01 karşı vaka; sahibi/sınırları iş kaydında.
-Dönüş: sınama/inceleme sonucuyla tasarımcı ÖR-K01'i değerlendirecek.
-Çalıştırma: ÖR-Ç01 ve varsa ÖR-T01 denemesinin gerçek son durumu ayrıca kontrol edilecek.
-```
+### 5A. Hedeften işe; hazır backlog olmadan
 
-Y yeniden girişte hangi denemenin gerçekten bittiğini, girdilerin güncelliğini ve olası yan etkileri uzlaştırır. G korunmuş soruyu ve bağımlılığı devralır. Geçerli araştırma tekrar yapılmak zorunda değildir; fakat eski kaydın mevcut olması onun hâlâ uygulanabilir olduğunu tek başına göstermez. Kullanıcı gerekirse oturumu yeniden başlatabilir; hangi rolün sırada olduğunu elle tarif etmesi normal mekanizma yapılmaz. Kaybolmuş etki bilinmeden kör retry yoktur.
+Ekip yetkili hedefi, mevcut araştırmayı ve sonuçları devralır. Her rol ihtiyaç veya bilgi açığı gösterebilir; DR01 bunları gerekçeli iş ağına dönüştürür. Bir işten doğmak, onu engelleyen önkoşul olmak ve aynı hedefe katkı vermek farklı ilişkilerdir. Bütün gelecek plan bitmeden, önkoşulları sağlanmış sınırlı araştırma başlayabilir. Başlangıç rol/grant/okuma yolu P4/P5'te kurulur; roller birbirini sonsuz biçimde yetkilendirmez.
 
-### 5E. Yeni bilgi veya gecikmiş yanıt gelirse
+### 5B. Danışma ile ayrı katkı
 
-Yeni kaynak ile mevcut kararı birbirine karıştırmamak için aday yol:
+Mevcut işin kapsamı ve yetkisi içinde sonuçlanacak kısa danışma aynı iş altında izlenebilir. Ayrı sorumlu, bekleme/devir, anlamlı kaynak yükü, başka işe bağımlılık veya ayrı kabul koşulu doğuyorsa katkı ayrı kimlikle izlenir. Her mesaj için dosya veya iki koordinatörden onay gerekmez.
 
-1. DR07 değişikliği ve hangi kayıtların onunla ilişkili olduğunu görünür kılar; bu, bütün sonuçları otomatik yanlış ilan etmek değildir.
-2. G tarafındaki ilgili uzman yeni girdinin dayanağı ve kararın geçerliliği üzerindeki anlamını değerlendirir: koruma, yeniden araştırma, düzeltme veya kapsamlı inceleme farklı olası sonuçlardır. Bağımlılık kaydı eksikse etki alanı “yok” değil, “henüz bilinmiyor” olabilir.
-3. Y etkilenen tüketiciye güncel bağlamı/uyarıyı ulaştırır. G gerekli karar ve işleri yeniden açar; yalnız ilgili işler bekletilir. Eski girdilerle üretilmiş geç yanıt izden silinmez, fakat güncel kararın yerine otomatik yazılmaz.
+Talep; soruyu, neden gerektiğini, bağlı işi/kararı, beklenen teslimatı, gerekli uzmanlığı, kaynak/target sürümünü, tüketiciyi ve dönüş noktasını taşır. Var olan kayda bağlantı yeterliyse yeniden kopyalanmaz. Yanıt farklı soruyu cevaplıyorsa veya kaynağa ulaşamadıysa talep sessizce karşılanmış sayılmaz.
 
-**İki denetimin somut farkı:** Örnekte Y inceleyicisi yanlış kaynak sürümünün gösterilmesini veya yanıtın yanlış işe bağlanmasını bulur; G inceleyicisi doğru gelen bilginin yanlış yorumlanmasını ya da yetersiz tasarım seçeneğini sorgular. Aynı olay iki kusur da taşıyabilir. İddialar doğru iş/sürüm/consumer ile bağlı olmalı; “iki taraf da yeşil” bağımsız ve bütünleşik yeterliğin kanıtı değildir.
+### 5C. Tek bir DONE yerine ayrı anlamlar
 
-## 6. Karar, itiraz ve durdurma sınırları
-
-| Durum | G tarafının sorumluluğu | Y tarafının sorumluluğu / dönüş |
+| Değişen durum | Kim karşılığını taşır? | Hangi sonuç çıkarılamaz? |
 |---|---|---|
-| Aynı anda iki iş için kapasite yok | Hedef ve bağımlılığa göre öncelik/yeniden planlama | Gerçek kapasiteyi ve uygulanabilir seçenekleri bildir; ilan edilmiş politika içinde sıraya al, ürün önceliğini gizlice değiştirme |
-| Tasarım veya bulgu kanıtla desteklenmiyor | İlgili karar sahibi düzeltme/araştırma/alternatif değerlendirme yapar; zorunlu kalite itirazı çözümsüzken olumlu kapanış üretmez | Teknik olarak çağrı başarılı diye işin sonucunu yeterli ilan etmez |
-| İzin, kayıp kayıt veya yanlış bağlam sorunu | Etkilenen karar/işin geçerliliğini yeniden değerlendir | Verilmiş kontrol yetkisi içinde ilgili çalışmayı tutar; düzeltme/recovery yolu açar. Acil güvenlik sınırı ilgisiz ürün kararı verme yetkisi değildir |
-| Kaynak veya ürün sürümü değişti | Hangi tasarım/karar/kanıtın yeniden açılacağını ilgili uzman belirler | Bağları ve tüketicileri bulur, doğru yeni görünümü/uyarıyı iletir; bütün ekibi sebepsiz baştan çalıştırmaz |
-| DevOS'ta yeni mekanizma gerekiyor | Ürüne etkisi ve geliştirme önceliğiyle uzlaştırılır | Mevcut politika içi onarım veya ayrı scope'lu meta-iş ayrılır; tasarım/uygulama/güvence ilgili rollerce yürütülür. Kendi denetimini gevşeterek kapanış yapılmaz |
+| Katkı istendi / üst işle bağlandı | Talep sahibi ve DR06-G | Araştırma başladı denemez. |
+| Atandı / çalıştırma denemesi başladı | DR06-Y ve katılım/ortam sorumluları | Gerekli bilgi gerçekten kullanıldı denemez. |
+| Yanıt veya ürün teslim edildi | Katkı sahibi | Üst karar, ürün veya kullanım tamamlandı denemez. |
+| Kullandım / gerekçeli reddettim / ek katkı gerekiyor | Talep sahibi; gereken iddiada inceleyici | Mesaj alındı onayı teknik yeterlik değildir. |
+| Karar veya iş kapanışı gerekçelendirildi | Yetkili karar/iş sahibi ve gereken güvence | Müşteri kabulü veya bütün SOUL hedefinin tamamlanması değildir. |
 
-Olgusal anlaşmazlık kaynak/deney gerektirebilir; tasarım trade-off'u yetkili alan kararını, üst mandate/tercih açığı müşteriyi gerektirebilir. Ne her itiraz otomatik veto ne de çoğunluk oyu doğruluk ölçütüdür. Koordinatör açık itirazın disposition'ını izler; kanıtı idari kararla olumluya çeviremez. Kesin durdurma/grant şeması P4/P5'te bağlanacak; burada sınırsız yeni yetki yaratılmadı.
+Bunlar tek doğrusal zorunlu state machine değil, birbirine karıştırılmaması gereken durum iddialarıdır. Gerekçeli iptal/erteleme de mümkündür; erişim engeli veya zaman bitmesi başarılı tamamlanma yapılmaz. Üst işin kapanış koşulu ayrıca değerlendirilir.
 
-## 7. INFORMATION sahipliği: içerik, bakım ve kullanım
+### 5D. Görüş ayrılığı, durdurma ve devam
 
-**İçeriğin sorumlusu:** Araştırmacı bulgusunu, tasarımcı karar/gerekçesini, geliştirici uygulama değişikliğini ve inceleyici hükmünü taşır. Bilgi Sorumlusu bu içeriklerin tümünü doğru ilan eden makam değildir.
+İtirazda hedef iddia, gerekçe/dayanak, beklenen cevap ve sahibi görünürdür. Eksik/çelişkili olgu kaynak veya uygun sınamayla araştırılır. Yalnız tasarım tercihleri çatışıyorsa yetkili alan sahibi alternatifleri ve trade-off'u kaydederek seçim yapabilir. Olgusal karşı kanıtı çoğunluk oyu veya teslim baskısıyla bertaraf edemez.
 
-**Kaydın işletimi:** Kaynak/gözlem, öneri, kabul edilmiş karar, uygulama ve kanıt ayrı statülerle birbirine bağlanır. İşin kalıcı kimliği, bir çalışma denemesinin kimliğiyle eşitlenmez. SOUL ürün bilgisinin ve DevOS çalışma bilgisinin farklı kullanım amaçları korunur; aynı bilginin iki canonical kopyası açılmaz.
+İtiraz; karşılandığında, gerekçeli reddi kaydedildiğinde, öncül geri çekildiğinde veya açık kapsamıyla ertelendiğinde bir karşılık bulur. Kararı taşıyan çözülmemiş ihlal/kanıt açığı olumlu kalite hükmüyle örtülemez. Her itiraz sınırsız veto değildir; durdurma yetkisi kapsamla tanımlanır.
 
-**Bağlamın kuruluşu:** Hangi bilgi gerektiğinin keşfi iş sahibinin/uzmanın ve Bağlam Kurucusunun karşılıklı işidir. DR08 kaynakları anlamaya yetecek uzmanlık veya uzman yardımı olmadan salt anahtar kelimeyle yeterlik ilan etmez. Tüketici erişimi, sürümü ve önemli eksikleri kontrol edebilir; yalnız merkezi özetle sınırlanmaz.
+G tarafı içerik/bağımlılık nedeniyle ilgili işi bekletir. Y tarafı yanlış girdi, kayıp kayıt, yetki veya gerçek ortam engelinde ilgili çalıştırmayı verilen yetki içinde tutar. İlgisiz işler otomatik durmaz. Y kapasite yetersizliğini ve seçenekleri bildirir; ürün önceliği G'de kalır. Gerçek kullanıcı durdurması normal ilerleme kuralıyla aşılmaz.
 
-**Kalıcılık:** Maddi soru, kapsam, karar gerekçesi, dayanak sürümü, beklenen katkı ve geri dönüş korunur. Her token/mesaj ayrı kalıcı Work değildir. Kesinti, farklı sahip, kritik sonuç veya pahalı yeniden üretim varsa daha ayrıntılı kayıt gerekebilir. Bu kayıt özel iç düşünce dökümü değil, tekrar kullanılabilir çalışma sonucudur.
+## 6. Çalışma alanı bakımı işin içine nasıl girer?
 
-**Denetim ayrımı:** Araştırma mantıken yeterli mi sorusu G güvencesine; gereken kaynağın doğru sürümü doğru tüketiciye ulaştı mı sorusu Y güvencesine gider. Sınırın semantik yükü ortak olduğunda iddia parçaları ve tüketici açıkça bağlanır; sadece iki bağımsız yeşil etiket toplanmaz.
+**Yeni somut çalışma sözleşmesi adayı:** Maddi bir çıktı yalnız üretilmiş olduğu için devredilmiş sayılmaz; doğru yeri, sahibi, statüsü, kaynak bağı ve tüketici yolu da korunmalıdır. Bu, her adımda ayrı bakım ajanı çağırma şartı değildir.
 
-## 8. Alternatif ve kapsam kontrolü
-
-En güçlü alternatif, tek koordinatörün G/Y görevlerini açık şapkalarla taşımasıdır. Bu, çağrı maliyetini azaltabilir; fakat bağlam/teşvik/yetki ayrımının korunması gerekir. İki ayrı actor kullanmak da fazladan devir ve çelişki riski yaratabilir. **Şimdiki öneri sorumluluk sözleşmelerini ayırır; fiziksel ayrı actor kararı vermez.**
-
-Aynı şekilde yalnız üretim tarafı düşünür/yapı tarafı mekaniktir veya bütün uzmanlar her iki alanı otomatik bilir varsayımları alınmadı. Yapının değişmesi ayrı Work olabilir; ama her düzenleme için sonsuz bir meta-ekip kurulmaz. İlk yetki ve kontrol yolu dış başlangıç kurulumu olarak P4/P5'te belirlenir; roller birbirlerini sonsuz biçimde yetkilendirmez.
-
-F1–F8 başarı yönleri ile G/Y hedef ayrımı aynı eksen değildir. Yeni F9/F10, ground, zorunlu 18/32 agent veya yeni platform seçilmedi. DR06-G/Y ve DR13-G/Y aday profillerdir; ilk 16 P2 sözleşmesinin yerine kabul edilmiş yeni registry henüz geçirilmedi.
-
-## 9. Araştırma katkısı ve gerçek okuma kapsamı
-
-Aşağıdakiler tasarım gerekçesidir; ürün benimseme veya davranış ispatı değildir. v0.2 okuma başlangıcı `ed2bf6e2232b38c42b5d58d82f5b700fdd434e77`, v0.3 başlangıcı `89ec8892697f7280caa54956066c7919fc2988b9`'dur.
-
-| Dayanak | Bu taslağa somut etkisi | Gerçek kapsam / sınır |
+| Olay | İçerik/iş tarafının katkısı | Düzen tarafının katkısı ve devam koşulu |
 |---|---|---|
-| Work Foundation — [ground synthesis](../../../research/soul-foundations/03_ground-deepening/grounds/work/synthesis/WORK-GROUND-AUDIT-SYNTHESIS.md), özellikle §§2,5–7 | Yapı bakımı ve meta-iş de Work; plan/actual/sonuç ayrı. Örnekte araştırma bittiği hâlde karar açık kalır. | Aynı konuşmadaki tam içerik; özgün dış corpus yeniden okunmadı. |
-| Actors Foundation — [ground synthesis](../../../research/soul-foundations/03_ground-deepening/grounds/actors/synthesis/ACTORS-GROUND-AUDIT-SYNTHESIS.md), §§2,5,7–8 | Kalıcı sorumluluk, aktör, katılım, competence ve authority ayrı; koordinatör teknik erişimden ürün karar yetkisi çıkaramaz. | Aynı konuşmadaki tam içerik; bağımsız ajan deneyi değil. |
-| Information — [integration I1–I5](../../../research/soul-foundations/07_selection-dynamics-integration-review/SYNTHESIS.md) | İçerik yeterliği, consumer erişimi ve actual kullanım ayrılır; bağlam paketleri aynı geçmişin kopyası değildir. | Aynı konuşmadaki tam içerik; doğal dil bağlam yeterliğinin otomatik oracle'ı yok. |
-| Information — [Revision M5](../../../research/soul-foundations/03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/M5-SYNTHESIS-DECISION-AND-PARENT-DELTA.md), §§2–5 | Yeni kayıt≠kabul edilmiş girdi; bir gerekçenin çekilmesi≠sonucun otomatik iptali; şimdiki özeti korumak≠gelecekteki revizyon için yeterli durumu korumak. §5'in itiraz, alternatif destek ve devir örneğini keskinleştirdi. | v0.3'te tam, 1–95 ile EOF; blob `13d23ff0f67e852f061d66000830b587059117c6`. Sentezin tarihsel proposed etiketi Information STATE'in accepted kapsamıyla birlikte okunur. Araştırmanın dış makaleleri ve deneyleri yeniden açılmadı. |
-| [Gas Town META](../../../research/studies/gastown/META.md) → [FINDINGS](../../../research/studies/gastown/FINDINGS.md), §§1–16 | İş, çalıştırma denemesi, kapasite/liveness ve entegrasyon ayrımı; §5C'de farklı kayıt görünümleri. | v0.2'de META tam, FINDINGS 1–280 seçici; v0.3'te aynı görünür içerik kullanıldı. Source pin `649b832`, güncel ürün veya Claude doğrulaması değil. |
-| [Superpowers S03](../../../research/studies/superpowers/syntheses/S03-intent-planning-and-context-handoff.md) | Göreve göre brief, global kısıt, kaynak erişimi ve anlamsal devir; inceleyiciyi üreticinin özetine kapatmama. | Aynı konuşmada tam okunmuş study sentezi; insan kapıları ve SDLC aynen alınmadı. |
-| [RPD assessment](../../../research/studies/recursive-prerequisite-discovery/ASSESSMENT.md) | Önkoşul keşfi ve kesilmiş sorgunun dönüş noktası; §5D yalnız “devam et” yerine açık soruyu ve beklenen sonucu korur. | Aynı konuşmadaki tam assessment; özgün ekler/prototip yeniden okunmuş veya çalıştırılmış değildir. |
-| [Work-management U08](../../../research/studies/work-management-project-control/08-CROSS-UNIT-SYNTHESIS.md) | Farklı bağımlılık, ready/claim/running/done ve geri dönüş anlamları. | Önceki 1–320 seçici kapsam; son enterprise/kapanış bölümü tam okuma sayılmaz. |
+| **İş açılması / görevlendirme** | Amaç, kapsam, katkı ve teslimat sahibi; gerekli bilgi ihtiyacı | Mevcut kayıt/kütüphane önce aranır; gerekirse yeni nesneye tek ev/kimlik verilir. Geçerli rol ve yeterli kaynak görünümü sağlanır. |
+| **Taslak/yanıt üretimi** | İçerik, gerekçe, dayanak ve belirsizlik; hedef sürüm | İşle bağlantısı ve taslak statüsü korunur. Kalıcılaştırılmış olması kabul edilmiş anlamına gelmez. |
+| **Geçerli kullanım / devir** | Gerekli içerik kararı ve uygun inceleme; sonucun kullanım karşılığı | Doğru sürüm, current giriş ve tüketici bağı birlikte güncellenir. Tamamlanmamış yayın ayrı açık durumdur; eski okuyucular yanıltılmaz. |
+| **Yeni sürüm / eşzamanlı yazma** | Değişen anlam ve etkiyi ilgili alan sahibi çözer | Eski temele dayanan çıktı current kaydı körlemesine ezmez. Çatışma ayrılır; seçilen sürüm ve ona bağlı indeksler uzlaştırılır. Mekanik kilit/atomiklik P4/P5 seçimi olacaktır. |
+| **İş kapanışı / kesinti** | Üst işin durumu, açık itiraz/katkı, sonraki ihtiyaç ve geri dönüş | Geçici çıktı, kalıcı dayanak, current kayıt ve arşiv ayrılır; bekleyen talep/deneme ve okuyucunun giriş yolu korunur. Kozmetik temizlik bütün ilerlemeyi bloke etmez. |
+| **Yeniden kullanım** | DR15 ve ilgili uzman, hangi kullanımın gerekçeli olduğunu ve sınırını değerlendirir | DR07/08 bulunan tarifi, kaynak sürümünü ve uygun bağlamı sağlar. Sahibi, kapsamı ve yeniden kontrol koşulu olmayan çıktı genel kütüphane kuralı yapılmaz. |
+| **Taşıma / sadeleştirme / arşiv** | Kaybolmaması gereken anlam, karar ve kanıt bağı belirlenir | Bağlantı/indeks/current okuma yolu onarılır; eski kopya yanlışlıkla yüklenmez. Geri alınabilirlik ve gerekli geçmiş korunur; yetkisiz silme yoktur. |
 
-v0.2 Gas Town META blob'u `dfe8dd29a38ef7e4f686b358dac77ec8fdfe6fe6`, FINDINGS blob'u `4e376aaf3f45936637125496451d1258325fe310`. CATALOG'un ilgili satırları aday seçiminde kullanıldı; kesilmiş tüm katalog tam okunmuş sayılmadı. v0.3 yeni candidate study veya güncel dış ürün iddiası üretmedi.
+**Bakımın tetikleri:** Yeni kalıcı çıktı, ilgili statü/karar değişimi, taşınan kaynak, bulunan çelişki, iş kapanışı, oturum devri ve tekrar kullanım isteği. Bunlar semantik tetiklerdir; hook/daemon seçilmedi. Aynı konu için her tur tüm depoyu taramak veya dosya sayısını azaltmayı başarı ölçütü yapmak önerilmez.
 
-**v0.3 preflight:** AGENT ve canonical-work-preflight güncel canonical tam okundu; diğer gerekli protokollerin aynı konuşmadaki görünür tam içerikleri kullanıldı. STATE/HANDOFF yeniden tam; WORK ilk 1–75 görünümünün kesilen sonu 65–170 ile tamamlandı. P3-01 v0.2'nin önceki görünür §§1–8 metni, bu tur 115–EOF ile kalan kısmı tamamlanarak kullanıldı. INDEX/DECISIONS/ACTORS/U002/P1-01/P2-01'in aynı konuşmadaki tam ve değişmemiş içerikleri korundu. Kontrol dosyaları araştırma kanıtı değildir.
+**İki bakım yoğunluğu:** Yanlış current kaynak/izin, açık işi kaybettiren devir veya zorunlu kanıt bağı sorunu ilgili tüketimi durdurabilir. Adlandırma estetiği veya zararsız fazlalık sınırlı bakım kuyruğuna alınabilir. Düzen ürünü geliştirme işinin yerine geçmez; fakat işleyişi bozduğu yerde isteğe bağlı dekorasyon da değildir.
 
-**Kanıt sınırı:** Aynı-assistant kaynak yeniden kullanımı ve kurgusal yürüyüş. Yeni runtime, ürün veya çoklu ajan deneyi yoktur. ÖR kimlikleri gerçek iş/koşu/karar kaydı değildir. Mesaj teslimi, kaynak okuması, araç izni, kesinti kurtarma veya bağımsız değerlendirme fiilen doğrulanmadı. Teknik seçim için P1/P4/P6 yükleri sürer.
+**Yeniden kullanılabilir kayıt:** Ne işe yarar; hangi koşulda işe yaramaz; kaynak/sürüm/kanıt; kim bakar; nasıl çağrılır; hangi değişiklikte yeniden değerlendirilir? Aranabilirlik ve başarılı yükleme, yararlı yöntem olduğunun kanıtı değildir. Mevcut iyi şablonu kullanmak, her işte yeni şablon üretmekten önce değerlendirilir.
 
-## 10. Dönüş ve devam
+## 7. Girdi, güncelleme ve oturum devri
 
-v0.3, mevcut G/Y ayrımını tek bir soru etrafında bağlam paketi, karşı görüş, araştırma katkısı, açık karar, üç kayıt görünümü, kesinti devri ve yeni bilgiyle yeniden değerlendirme boyunca somutlaştırır. Örneğin sonunda araştırma tamamlanabilirken tasarımın açık kalması özellikle korunur. Bu eksiklik kapatılmış deney veya seçilmiş SOUL davranışı değildir.
+Bir rolün girdisi, bütün konuşmanın kopyası değil; rol sözleşmesi + yetkili hedef/kısıt + mevcut iş/soru + gerekli karar/kaynak/ürün sürümleri + açık eksikler + çıktı/tüketici/dönüş bağıdır. DR08 ile uzman birlikte yeterliği kurar. İnceleyici üreticinin özetine hapsedilmez; gereken asıl kaynağa erişebilmelidir. Kaydın varlığı, exposure ve actual kullanım ayrı kalır.
 
-Kullanıcının yönü olumlu değerlendirmesi kaydedildi; tüm profiller/sözleşmeler accepted yapılmadı. P2/ACTORS ilk taban olarak korunur. P3 kapsamı devam eder, P4'e geçiş yoktur.
+Yeni bilgi geldiğinde DR07 ilişkili kayıt ve tüketicileri belirler; uzman hangi gerekçenin veya kararın değiştiğini değerlendirir. Bir dayanak çekildi diye alternatif destekle geçerli kalan karar otomatik iptal olmaz. Eksik bağımlılık kaydı, etki yok demek değildir. DR08 yeni görünümü ulaştırır; ilgili G/Y işleri yeniden açılır. Eski veriye dayanan geç yanıt korunabilir ama current sonucu sessizce ezemez.
 
-**Sonraki bütünlüklü P3 değerlendirmesi:** Bu örnekteki talep, inceleme itirazı ve kararın ne zaman açık/karşılanmış sayılacağı; küçük danışma ile ayrı izlenen katkının sınırı; G/Y arasında hangi gerekçeyle durdurma veya devam hükmü kurulacağı birlikte netleştirilir. §5'teki kayıt görünümleri üzerinden konuşulur; aynı iki koordinasyon ayrımı yeniden anlatılmaz ve örnek gerçek SOUL görevine çevrilmez. Kullanıcının örneğe dair değerlendirmesi öncelikli girdidir.
+**Kesinti için yeterli devam kaydı:** Mevcut amaç ve iş; kaynak/sürüm; yapılan/henüz yapılmayan; açık itiraz ve beklenen katkı; sahip; dönüş noktası; çalışma denemesi ve belirsiz yan etki; devam/durma sınırı. Sadece “sıradaki adım” cümlesi veya bütün sohbet dökümü bunun yerine geçmez.
+
+Y yeniden girişte gerçek deneme, erişim, girdi ve etki durumunu uzlaştırır; G amaç, plan ve açık hükmü devralır. Kayıt geri getirmek dış etkiyi geri almış olmak değildir; belirsiz etkiyle kör retry yapılmaz. Batu gerekirse yeniden başlatır, her rolün sırasını yeniden tarif etmez.
+
+## 8. Bir bütünlük kontrolü — canlı test değil
+
+[v0.3 §5](https://github.com/batuhanozgun/agentic-os-search/blob/a2ee26c615361f2c88f58ed2d695c03e9386c206/explorations/EXP-006-development-os-calisma-duzeni/work/P3-01-work-information-discussion.md#5-somut-çalışma-örneği--soru-karşı-görüş-kayıt-ve-devam) kurgusal araştırma→itiraz→karar→devri ayrıntılı gösterir. ÖR kimlikleri hâlâ gerçek backlog değildir. Bu revizyon çalışma alanı bakımını şu karşı vakalarla nitel olarak karşılaştırdı:
+
+| Karşı vaka | Taslağın vermesi gereken karşılık |
+|---|---|
+| İçerik doğru, current giriş hâlâ eski sürüme gidiyor | İçerik güvencesi Y kusurunu kapatmaz. Giriş/bağ onarılır; ilgili tüketim hazır sayılmaz. |
+| Dosyalar düzenli, kanıtsız tasarım onaylanmış | Y düzeni G doğruluğu değildir; kanıt ve yetkili içerik kararı tekrar açılır. |
+| İki rol aynı eski sürümden farklı güncelleme getiriyor | İki aday korunur; anlamsal çatışmayı alan sahibi çözer, Y seçilmiş yayını/indeksi uzlaştırır. Son gelen kazanır yoktur. |
+| Arşiv/yedek kopya aktif aramada tekrar seçiliyor | Fiziksel taşıma yeterli değildir; current keşif/yükleme ve eski referanslar kontrol edilir. |
+| Bir kere işe yarayan yöntem bütün işlere zorlanıyor | Kullanım kapsamı ve karşı örnek/kanıt değerlendirilir; kullanılma sayısı genel etkinlik değildir. |
+| Araştırma teslim edilmiş, onu isteyen rol kesilmiş | Açık tüketim/dönüş bağı yeni görevlendirmeye taşınır; geçerli araştırma gereksiz tekrarlanmaz. |
+| Kozmetik düzenleme beklediği için bütün SOUL geliştirme durmuş | Y kusuru risk ve etkiyle sınırlanır; ilgili olmayan işler ilerler. |
+
+Bu tablo beklenen davranış sözleşmesidir; koşulmuş test veya bağımsız doğrulama değildir. Doğru klasör isimleri, ayrı ajan etiketleri veya iki yeşil inceleme bütünleşik başarıyı kanıtlamaz.
+
+## 9. Araştırma katkısı ve okuma sınırı
+
+**Yeni hedefli reuse:** [Hermes META](../../../research/studies/hermes-agent/META.md) ve [Note30](../../../research/studies/hermes-agent/notes/30-SKILL-LIBRARY-LIFECYCLE.md) bu tur tam okundu; blob'lar `03c10aeac8e16ac738b29e9c53bafcc145a88baa`, `26b9773cce8e3bb40cbc845df1b538f735fc698d`. CATALOG'un daha önce görülen ilgili Hermes satırıyla seçildi. Note30, eski `c4a5dee` incelemesinin türetilmiş kaydıdır; bugün Hermes/Claude ürünü yeniden doğrulanmadı, bağlı alt kaynakların hepsi yeniden okunmadı.
+
+**Somut katkı:** Arşiv/yedek dosyasının fiziksel yer değiştirmesi ile aktif list/index/load'dan çıkması ayrı; bakım yetkisi yazarlıkla aynı değil; geri alma yalnız geri yüklenen kapsamı kapsar; bir becerinin yüklenmesi yararlı kullanım kanıtı değildir. Bu nedenle §6'ya aktif keşif kontrolü, sahip/kapsam ve yeniden kullanım yeterliği eklendi. Hermes kurulmadı veya seçilmedi.
+
+Önceki P3'ün görünür kaynak okumaları yeniden kullanıldı: [Work synthesis](../../../research/soul-foundations/03_ground-deepening/grounds/work/synthesis/WORK-GROUND-AUDIT-SYNTHESIS.md), [Actors synthesis](../../../research/soul-foundations/03_ground-deepening/grounds/actors/synthesis/ACTORS-GROUND-AUDIT-SYNTHESIS.md), [Information I1–I5](../../../research/soul-foundations/07_selection-dynamics-integration-review/SYNTHESIS.md), [Revision M5](../../../research/soul-foundations/03_ground-deepening/grounds/information/informational-dynamics/derivation-transformation/maintained-information-revision/M5-SYNTHESIS-DECISION-AND-PARENT-DELTA.md), [RPD assessment](../../../research/studies/recursive-prerequisite-discovery/ASSESSMENT.md), [Superpowers S03](../../../research/studies/superpowers/syntheses/S03-intent-planning-and-context-handoff.md), Work-management U08 ve Gas Town'un önceki seçici kapsamı. Tamlık, tarih ve özgün kaynak sınırları [v0.3 §9](https://github.com/batuhanozgun/agentic-os-search/blob/a2ee26c615361f2c88f58ed2d695c03e9386c206/explorations/EXP-006-development-os-calisma-duzeni/work/P3-01-work-information-discussion.md#9-araştırma-katkısı-ve-gerçek-okuma-kapsamı)'da korunur; yeni tam corpus okuması iddiası yoktur.
+
+Work: bakım da iş; kayıt işin gerçekliği değil. Actors: sorumluluk/katılım/yetki ayrı. Information: source→view→use, sürüm ve gelecekteki revizyon durumu ayrı. RPD: bitmemiş sorgu/dönüş. Superpowers: anlamlı brief ve devir. Gas Town: iş ile çalıştırma denemesi farklı. Bu girdiler öneri üretir; kurulum seçimi veya yöntem üstünlüğü kanıtı değildir.
+
+**Canonical kapsam:** Başlangıç main `a2ee26c`. AGENT güncel tam okundu; gerekli protokollerin aynı konuşmadaki tam içerikleri korundu. STATE/HANDOFF/WORK, U002 ve P1-01 yeniden tamamlandı; P1'in kesilen geçişi 78–89 ile kapatıldı. P3'ün yeni baş/son bölümleri ile aynı sürümün önceki görünür gövdesi birlikte kullanıldı. INDEX/DECISIONS/ACTORS/P2'nin değişmemiş görünür içerikleri korundu. Kontrol dosyaları araştırma kanıtı değildir. Canlı runtime, mesaj, izin, dosya yarışı veya restore deneyi yapılmadı.
+
+## 10. P3'ün durumu ve bir sonraki bütünlüklü iş
+
+**Toparlanan:** G/Y sorumlulukları; iki koordinasyon ve güvence; içerik sahibi–düzen sahibi ayrımı; mantıksal bilgi alanları; talep/itiraz/karar durumları; çalışma alanı bakım tetikleri; yeniden kullanım ve kesinti devri. Bunlar tek taslakta bulunur, yeni yan çalışma paketi açılmadı.
+
+**Bu tur ilerletilen:** Kullanıcının dosya/klasör/düzen vurgusu, olay→sorumlu→kalıcı karşılık→devam koşulu sözleşmesine dönüştürüldü. Talep teslimi ile kullanımı; önemli engel ile kozmetik bakım; arşiv ile aktif keşiften çıkma; içerik çatışması ile yayın çatışması ayrıldı. D021 dışındaki yeni ayrıntılar adaydır.
+
+**P3'te kalan tek bütünlüklü sınama:** İki eşzamanlı işin ortak kaydı değiştirdiği, bir inceleme itirazı açıkken oturumun kesildiği durumu bu sözleşmelerle baştan sona izlemek. Amaç yeni rol/şema üretmek değil; her geçişte yetkili sahip, tüketici, kalıcı durum ve sonraki tetik var mı; gerekli bilgi ve karar yolda kayboluyor mu sorusunu kapatmaktır. Bu sınırlı karşılaştırmada maddi semantik açık kalmazsa P3 tasarım kapanışına hazırlanır ve P4 seçim gereksinimleri sabitlenir. Yeni karşı kanıt yokken art arda genel audit turları açılmaz.
+
+**P4'e devredilecek teknik yükler:** Gerçek actor allocation ve alt ajan/takım; fiziksel dosya/klasör yerleşimi; çağrı/mesaj/yayın mekanizması; çakışma/izin/kalıcılık; ilk başlatma. P5 bunları gerçekleştirir, P6 davranış ve başarısızlık yollarını sınar. P3 metnindeki requirement'lar kendiliğinden çalışan kontroller değildir. P4 bu tur açılmadı; kullanıcı tarafından seçilmiş SOUL görevi veya mimari uydurulmadı.
