@@ -1,12 +1,13 @@
 # EXP-006 — ACTORS
 
 **Rol:** Work'ten türeyen actor / role-family / specialization / mechanic registry'si.  
-**Statü:** S1-17 sonrasında **CLOSURE-READY / CANDIDATE** konsolidasyon. Kullanıcıca kabul edilmiş nihai Development OS organizasyonu, actual assignment veya çalışan sistem değildir.
+**Statü:** S1-17 CLOSURE-READY / CANDIDATE zemininden P2'nin ilk adlandırılmış rol/sözleşme taslağına geçildi. **P2 FIRST DRAFT / CANDIDATE**; kullanıcıca kabul edilmiş nihai organizasyon, actual assignment veya çalışan sistem değildir.  
+**Current tasarım:** Aşağıdaki DR01–DR16 isim/lineage registry'si ve [P2-01 sözleşmeleri](work/P2-01-named-role-contracts.md). Üst plan WORK, current sıra STATE/HANDOFF'tadır.
 
 ## Temel ayrımlar
 
 - Aktör ≠ rol; rol familyası ≠ specialization; specialization ≠ effective assignment.
-- Familya sayısından fiziksel agent/model/oturum sayısı çıkarılmaz.
+- Familya veya rol sayısından fiziksel agent/model/oturum sayısı çıkarılmaz.
 - Aynı actor farklı zamanlarda farklı effective assignment'lar taşıyabilir.
 - Aynı familya bütün specialization'ları aynı prompt'ta birleştirme emri değildir.
 - Esas teslimat/success direction belirleyicidir; bir dosyanın yazılmış olması familyayı belirlemez.
@@ -24,7 +25,7 @@ Teknik keşif, koordinasyon, doğrulama veya implementasyon yükü varsayılan o
 
 ### Yapay zekâ
 
-Şimdilik geniş actor sınıfıdır. LLM/agent/subagent/model-instance ayrımı Work gerektirmedikçe actor sınıfı olarak sabitlenmez.
+Geniş actor sınıfıdır. Claude Code cloud hedef Environment'dır; alt ajan/takım ve gerçek actor allocation P4'te seçilecektir. P2 rol sözleşmelerinin olması bu seçimin yapılmış olduğu anlamına gelmez.
 
 ## Current candidate role-family modeli
 
@@ -40,6 +41,35 @@ Teknik keşif, koordinasyon, doğrulama veya implementasyon yükü varsayılan o
 | **F8 — Araştırma / Keşif / Sentez** | Yetkili bilgi sorusunu kaynak/gözlemle aydınlatmak; desteklenen bulgu, sınır ve açık soruları teslim etmek | kavramsal/karşılaştırmalı, mekanizma/yapılabilirlik ve ampirik inceleme olası yüzeyler; kesin ayrık alt taxonomy değil. Initial R listesinde bağımsız bilgi teslimatı ayrıca adlandırılmamıştı |
 
 S1-14 F1–F7 coverage audit'i; S1-15 F8 adayı; S1-16 realization/lifecycle ayrımları; [S1-17](work/S1-17-consolidation-closure-audit.md) kapanış kapsamı ve sınır düzeltmeleridir. Sekiz familyanın zorunlu/optimal olduğu veya gerçek sistemde çalıştığı kanıtlanmadı.
+
+## P2 adlandırılmış rol taslağı
+
+Bu tablo current aday isim ve lineage registry'sidir; ayrıntılı motivasyon, girdi/yeterlik, tetik, teslimat/tüketici ve yetki sınırı [P2-01 §4](work/P2-01-named-role-contracts.md#4-rol-sözleşmeleri-v01)'tedir. DR kimlikleri taslak rol referansıdır; R1–R25 yeniden numaralanmadı. **16 sözleşme, 16 ajan veya 16 kalıcı süreç kararı değildir.**
+
+| Kimlik | Rol adı | Aile | Devralınan sorumluluk / lineage |
+|---|---|---|---|
+| DR01 | İş Keşfi ve Planlama Sorumlusu | F1 | R10; hedef/önkoşul/iş adayları ve yaşayan plan |
+| DR02 | Kapasite Tasarımcısı | F1 | R1/R4/R7/R13; ortak taban, bilgi düzeni, rol/aktör ve ortam/kabiliyet için **ayrı uzmanlık profilleri** |
+| DR03 | Sistem Bütünlüğü Tasarımcısı | F1 | R16/R19; cross-ground bağlar ve working-system formation |
+| DR04 | Sınama Tasarımcısı | F1 | R24; claim, oracle, senaryo ve evidence gereği |
+| DR05 | Uygulama Geliştiricisi | F2 | Gerçekleştirme/uyarlama; initial R primary sahibi yok; exact nesneye göre uzmanlık |
+| DR06 | Çalışma Koordinatörü | F3 | R11/R20/R21; admission/flow, whole-configuration assembly ve continuity/re-entry koordinasyonu |
+| DR07 | Bilgi Sorumlusu | F3 | Information Lifecycle Operations; R4'ün tasarım işi değil |
+| DR08 | Bağlam Kurucusu | F3 | R5; Work/rol/use-conditioned bilgi seçimi ve exposure hazırlığı |
+| DR09 | Rol ve Katılım Sorumlusu | F3 | Actor / Role Participation Lifecycle Operations; qualification ve grant üretmez |
+| DR10 | Ortam İşleticisi | F3 | R14; mevcut ortam/araç/erişim/readiness ve operasyon |
+| DR11 | Sınama Yürütücüsü | F3 | R25; kampanya, koşu/rerun ve kanıt yakalama |
+| DR12 | Yetki ve Kontrol Sorumlusu | F4 | R9/R17; mandate/delegation ve exact effect/control sınırı |
+| DR13 | Güvence İnceleyicisi | F5 | R2/R6/R8/R12/R15/R18; exact claim'e göre **alan uzmanlığı** gereken assurance |
+| DR14 | Teşhis ve Etki Analisti | F6 | R3/R22; nedensel teşhis, impact/invalidation/recovery yönü |
+| DR15 | Öğrenme ve Yöntem Sorumlusu | F7 | R23; deneyimden gerekçeli değişiklik/koruma/deprecation yönü |
+| DR16 | Araştırmacı | F8 | Ayrı kaynaklı bilgi teslimatı; initial R'de bağımsız adlandırılmamıştı |
+
+**Motivasyon için aday yorum:** Rolün başarı yönü sözleşmenin içindedir; otomatik ayrı agent değildir. Kullanıcının aile→rol→motivasyon görünümü bir düzenleme yolu olabilir; çalıştırma ağacı henüz seçilmedi. Çatışan başarı yönünün ayrı görev/agent gerektirip gerektirmediği somut bilgi/yetki/independence koşuluyla değerlendirilir. Tek-motivasyon üstünlüğü deneysel yasa olarak kabul edilmedi.
+
+**Uzmanlık ve birleşme sınırı:** DR02/DR13 ortak sözleşme kalıbıdır; bir genel prompt'un bütün uzmanlıkları taşıyacağı varsayılmaz. DR06 bütün iş devrini koordine ederken DR09 katılımı, DR10 gerçek ortam işlemini taşır. Aynı actor birden çok rolü taşıyabilir; bu görevlerdeki sahiplik ve kanıt ayrımları korunur. P3 işleyişi farklı bilgi/yetki veya çakışma gösterirse rol taslağı gerekçeli güncellenir.
+
+**Süregelen sorumluluk ≠ daima çalışan agent:** Bilgi/koordinasyon/katılım/ortam/yetki yüklerinin sahibi belirli olmalı; ilgili roller gerekince etkinleşebilir. Takvim, olay, doğrudan mesaj veya lead aracılığı seçimi P4/P5'te bağlanır. Her yeni ihtiyacı yalnız DR01'in bulması beklenmez; bütün roller gerekçeli aday/itiraz üretebilir. Karar yetkisi ve tüketici yolu P3'te tamamlanır.
 
 ## S1-17 sınırları
 
@@ -97,11 +127,11 @@ Exact nesne; Work/claim/target/artifact/transition/experience/araştırma sorusu
 
 Actor operating profile: competence; gerekli kaynak/context; araç/Environment; permission/authority; trigger; handoff/consumer; verification/independence koşulları.
 
-Bu semantic requirement adayıdır; çalışan dispatcher, manifest şeması veya actual assignment değildir. S1-17 bu düzeyde yeterli buldu; gerçek bağlama ve davranış yeterliği sonraki işte açıktır.
+Bu semantic requirement adayıdır; çalışan dispatcher, manifest şeması veya actual assignment değildir. P2 adlandırılmış sözleşmeler ekledi; gerçek bağlama ve davranış yeterliği hâlâ açıktır.
 
 ## Initial R1–R25 lineage eşlemesi
 
-İlk türetim kaydıdır; current organizasyon listesi değildir. Araştırma kullanmaları nedeniyle eski roller otomatik F8'e taşınmaz; primary eşleme karma katkıların tamamını tüketmez.
+İlk türetim kaydıdır; current organizasyon listesi değildir. Araştırma kullanmaları nedeniyle eski roller otomatik F8'e taşınmaz; primary eşleme karma katkıların tamamını tüketmez. P2'deki DR kimlikleri yukarıdaki tabloyla buna bağlıdır.
 
 | ID | İlk aday rol | Current family yorumu |
 |---|---|---|
@@ -149,8 +179,8 @@ M1–M9 fiziksel modül/servis sayısı değildir. Gereksinim/tasarım, gerçekl
 
 ## Current açıklar
 
-S1-17 family/specialization modelini mevcut kapsam için kapanışa hazır buldu; kullanıcı değerlendirmesi bekleniyor. Yeni familya/R/physical actor açılmadı.
+P2-01 ilk rol/sözleşme taslağı hazırdır; kullanıcı değerlendirmesine döner. S1 sonucu korunur. Sonraki plan işi P3 WORK–INFORMATION döngüsüdür; o işleyişin gösterdiği rol uyumsuzluğu P2'ye geri döner.
 
-Açık kalan gerçek işler: exact geliştirme teslimatı için actor/competence seçimi; bilgi ve araç/ortamın fiilî erişimi; yetki ve tetik; devir/tüketim; independence; aktarımın gerçek davranışta sınanması. Bunlar tamamlanmış sayılmadı. Yeni familya boşluğu göstermedikçe isim konsolidasyonunu baştan tekrarlatmaları gerekmez.
+Açık yükler: konuya göre karar ve talep sahipliği; gerçek tetik/yanıt/tüketim; kaynak/sürüm ve yazıcı düzeni; gerekli uzmanlığın ayrı role/agent'a dağılımı; actual competence/authority/Environment; independence ve davranışta kullanım. P4 seçimi P2 taslağı tarafından peşinen yapılmadı; P5 ajan dosyaları yazılmadı.
 
 Current sıra STATE/HANDOFF'tadır. S1-16'nın bazı tam-okuma iddiaları için S1-17 §7'deki qualification geçerlidir.

@@ -1,7 +1,7 @@
 # EXP-006 — DECISIONS
 
 **Rol:** Kullanıcıyla netleşmiş çalışma kararlarını/kısıtları candidate fikirlerden ayırmak.  
-**Güncelleme:** 27 Eylül 2026.  
+**Güncelleme:** 27 Eylül 2026, P2 ilk taslak sonrası.  
 **Sınır:** Buraya yazılması bir araştırma bulgusunu mimari gerçeğe veya bir gereksinimi gösterilmiş platform kabiliyetine dönüştürmez.
 
 | ID | Karar / çalışma anlaşması | Statü |
@@ -24,21 +24,23 @@
 | **D016** | Foundation, özellikle WORK ve INFORMATION, bakış açısını ve gereklilik keşfini besleyecek; studies bu çerçeveyle okunarak uygulama örnekleri/sınırları sağlayacak. | explicit research-use direction; U002-A |
 | **D017** | Claude incelemesinden önce mevcut EXP-006'ya bağlı, yeni oturum/turlarda devralınabilir bütünsel plan kalıcılaştırılacak. Üst harita baştan görünür olacak; turlar ayrıntıyı açacak veya gerekçeli revizyon yapacak. | explicit planning/persistence authorization; U002-A/C |
 | **D018** | Kanon/v2 karşılaştırmasının amacı manuel tetikleme farkıdır. `loopinance_v2`nin bütün düzeni veya ECC'nin DevOS'a aynen alınması istenmedi. | explicit example/adoption boundary; U002-C |
+| **D019** | Alt ajan/takım ve bütünleşik teknik seçim P4'te değerlendirilecek; kullanıcı bu ayrımı anladığını belirterek P2'ye devam edilmesini istedi. | explicit sequencing confirmation; 27 Eylül 2026; belirli topoloji veya henüz üretilmemiş rol taslağı onayı değil |
 
-Yeni kararların kaynak aktarımı: [U002](sources/U002-cloud-plan-and-autonomy.md). Bu kayıt kullanıcı açıklamalarını korur; örneklerdeki gerçek çalışma davranışını bağımsız doğrulamaz.
+D011–D018 kaynak aktarımı [U002](sources/U002-cloud-plan-and-autonomy.md)'dedir. D019, P1 kararı hakkındaki açıklamadan sonra gelen kullanıcı devamının anlam kaydıdır, birebir transkript değildir. Örneklerdeki gerçek çalışma davranışı bu karar kaydıyla bağımsız doğrulanmış sayılmaz.
 
 ## Açık kalanlar — karar veya uygulanmış özellik sayılmaz
 
-- Nihai DevOS mimarisi, somut rol listesi, agent sayısı ve alt ajan/takım seçimi.
-- Kullanıcının önerdiği aktör → aile → rol → motivasyon hiyerarşisi; motivasyonun ayrı ajan mı yoksa rolün başarı yönü mü olduğu.
-- İletişim yöntemleri, bağlam/kalıcılık/tetik düzeni, role özgü dosya formatı ve fiilî yetki sınırları.
+- Nihai DevOS mimarisi, agent sayısı ve alt ajan/takım seçimi.
+- P2-01/ACTORS'taki DR01–DR16 **ilk aday rol sözleşmeleri**; kullanıcıca kabul edilmiş kadro değildir.
+- Kullanıcının aktör → aile → rol → motivasyon önerisi. P2'nin motivasyonu rolün başarı yönü olarak içeride tutma yorumu adaydır; motivasyon başına agent kararı verilmedi.
+- Alan profillerinin somut görevlendirmeleri, iletişim, context/kalıcılık/tetik, role özgü dosya formatı ve fiilî izin sınırları.
 - Memory/RAG/KG/veritabanı/iş takip ürünü seçimi; örnek projelerin bütün mimarisinin benimsenmesi.
-- R1–R25 veya F1–F8'in nihai organizasyon olması; aile sayısının agent sayısı olması.
+- R1–R25 veya F1–F8'in nihai organizasyon olması; aile/rol sayısının agent sayısı olması.
 - Foundation ground'larının modül olması; mekanik M kimliklerinin servis veya ayrı ekip olması.
-- Claude cloud hedefi açıktır. P1 belge incelemesi imkân/sınırları ortaya koydu; hedef cloud oturumunun gerçek yeterliği henüz gösterilmedi.
+- Cloud hedefi açıktır; P1 belge resmi ve P2 sözleşme taslağı hedef oturumun actual yeterliği değildir.
 
 ## Plan ve araştırma statüsü
 
-[WORK](WORK.md)'teki P1–P6, kullanıcının istediği bütünsel çalışma planıdır; bütün aşama ayrıntıları veya nihai mimari için peşin onay değildir. v1.0 yalnız plan hazırlığıydı. Sonraki “tamam şimdi devam edebilirsin” yönüyle P1 kaynak incelemesi yürütüldü; [P1-01](work/P1-01-claude-cloud-environment-map.md) sonucu ve Q açıkları kaydedildi. **P1 kaynak incelemesi tamam / runtime sınanmadı; P2–P6 başlamadı.** P1 bulguları yeni kullanıcı kararı olarak bu tabloya eklenmedi. S1 kavramsal sonucu korunur; kullanıcı kapanışı uydurulmaz.
+[WORK](WORK.md) P1–P6 bütünsel plandır. v1.0 plan hazırlığı, v1.1 P1 kaynak sonucu, v1.2 P2 ilk sözleşme taslağıdır. **P2 FIRST DRAFT / CANDIDATE / USER RETURN; P3 NEXT / NOT STARTED.** P4–P6 başlamadı. P2 taslağı ve kaynak çıkarımları accepted karar tablosuna eklenmedi. S1 kavramsal sonucu korunur; kullanıcı kapanışı uydurulmaz.
 
-D010'un agent-control karşılığı, kullanıcının açık kalıcılık talebi kapsamında `agent/protocols/canonical-work-preflight.md` dosyasındaki EXP-006 kısa iletişim bölümüdür. Diğer proje-work dosyaları genel kontrol kuralına yükseltilmez.
+D010'un agent-control karşılığı kullanıcının açık kalıcılık talebi kapsamında `agent/protocols/canonical-work-preflight.md` dosyasındaki EXP-006 kısa iletişim bölümüdür. Bu tur agent-control değiştirilmedi; project-work belgeleri genel kontrol kuralı değildir.

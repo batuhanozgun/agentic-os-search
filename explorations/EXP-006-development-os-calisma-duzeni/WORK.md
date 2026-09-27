@@ -1,10 +1,10 @@
 # EXP-006 — WORK ve master plan
 
 **Rol:** DevOS tasarımının üst iş haritası, bağımlılıkları ve aşama teslimatları.  
-**Plan:** v1.1 — 27 Eylül 2026, P1 kaynak sonucu eklendi; P1–P6 hedef ve sırası korunuyor.  
+**Plan:** v1.2 — 27 Eylül 2026, P2 ilk rol/sözleşme taslağı eklendi; P1–P6 hedef ve sırası korunuyor.  
 **Üst amaç:** Claude Code cloud ortamında SOUL'u geliştirecek ekibin çalışabileceği düzeni ortaya koymak ve yetkilendirilen aşamalarda gerçekleştirmek/sınamak.  
-**Current:** **P1 BOUNDED SOURCE REVIEW COMPLETE / RUNTIME NOT TESTED; P2 NEXT / NOT STARTED.** P3–P6 başlamadı. Sonuç kullanıcıya döndürülür; teknik kurulum veya P2 aynı turda başlamaz.  
-**Kaynak:** [U002-A/B/C](sources/U002-cloud-plan-and-autonomy.md); kısıtlar [DECISIONS](DECISIONS.md). Current yetki [STATE](STATE.md), devir [HANDOFF](HANDOFF.md).
+**Current:** **P2 FIRST ROLE-CONTRACT DRAFT / CANDIDATE / USER RETURN; P3 NEXT / NOT STARTED.** P1 kaynak incelemesi tamam, runtime sınanmadı. P4–P6 başlamadı; alt ajan/takım seçimi P4'tedir.  
+**Kaynak:** [U002-A/B/C](sources/U002-cloud-plan-and-autonomy.md); kısıtlar ve son sıra teyidi [DECISIONS](DECISIONS.md). Current yetki [STATE](STATE.md), devir [HANDOFF](HANDOFF.md).
 
 ## 1. Önceki çalışmadan devralınan zemin
 
@@ -47,9 +47,9 @@ SOUL ürün dosyaları ile DevOS'un kendi planı, bilgisi, kararları, kanıtlar
 | Aşama | Esas soru ve teslimat | Dayanak / önceki bağ | Geçiş ölçütü | Durum |
 |---|---|---|---|---|
 | **P1 — Claude cloud gerçekliği** | K1/K2 bakımından alt ajan, ana oturum ve ajan takımı imkân/sınırlarını kaynaklı Environment haritasına dönüştürmek | Güncel birincil Claude belgeleri; B5/B6/B8; Loopinance örneklerinin ilgili yolları | Belge, gözlenen davranış ve açık belirsizlik ayrılmış; iletişim/tetik/bağlam/yetki/süreklilik sınırları gösterilmiş | **KAYNAK İNCELEMESİ TAMAM / RUNTIME SINANMADI**; [P1-01](work/P1-01-claude-cloud-environment-map.md) |
-| **P2 — Adlandırılmış roller** | ACTORS'taki aile/sorumluluklardan açık rol isimleri ve sözleşme adayları üretmek; aile–rol–motivasyon–ajan bağını gerekçelendirmek | P1; ACTORS; S1-02/03/17; ilgili Actors ve Work Foundation'ı, seçilmiş çalışmalar | Kim ne için var, ne üretir, hangi başarı yönünü taşır, hangi yetki/uzmanlığı ister, kimle etkileşir anlaşılır; ajan sayısı etiketlerden türetilmez | **NEXT / NOT STARTED**; P1 sonucu kullanıcıya döner |
-| **P3 — WORK–INFORMATION işleyişi** | İş keşfi, tartışma, planlama, araştırma, üretim, bilgi bakımı ve yeniden planlama döngüsü; doğru bilgi→doğru rol→sonraki kullanım | P2 taslağı; Work/Information Foundation; B2/B4/B6/B8; ilgili studies | İşin doğuşu/gerekçesi, plan/gerçek ayrımı, karar kaydı, bilgi seçimi/görünürlüğü/tüketimi, durma/devralma görünür | PLANNED / NOT STARTED |
-| **P4 — Bütünleşik DevOS tasarımı** | P1–P3 ile alt ajan/takım veya gerekçeli birleşimi seçmek; roller, iletişim, sahiplik, çalışma/ürün kayıtlarını bütünleştirmek | P1 kanıtı + P2 roller + P3 döngüsü; B6/B7/B9 | K1/K2 için uçtan uca yol ve sınırlar var; yük taşıyan Environment açıkları seçilen yol için doğrulanmış; tasarım gözden geçirilmiş | PLANNED / NOT STARTED |
+| **P2 — Adlandırılmış roller** | Aile/sorumluluklardan açık rol isimleri ve sözleşme adayları; aile–rol–motivasyon–ajan bağının gerekçesi | P1; ACTORS; S1-02/03/17; Actors/Work Foundation ve seçilmiş çalışmalar | Kim ne için var, ne üretir, hangi başarı yönü/yetki/uzmanlıkla ve kimle etkileşir anlaşılır; sayıdan agent çıkarılmaz | **İLK TASLAK HAZIR / CANDIDATE / USER RETURN**; [P2-01](work/P2-01-named-role-contracts.md), isimler ACTORS'ta; P3 ile rafine edilecek |
+| **P3 — WORK–INFORMATION işleyişi** | İş keşfi, tartışma, planlama, araştırma, üretim, bilgi bakımı ve yeniden planlama döngüsü; doğru bilgi→doğru rol→sonraki kullanım | P2 taslağı; Work/Information Foundation; B2/B4/B6/B8; ilgili studies | İşin doğuşu/gerekçesi, plan/gerçek ayrımı, karar kaydı, bilgi seçimi/görünürlüğü/tüketimi, durma/devralma görünür | **NEXT / NOT STARTED**; P2 sonucu önce kullanıcıya döner |
+| **P4 — Bütünleşik DevOS tasarımı** | P1–P3 ile alt ajan/takım veya gerekçeli birleşimi seçmek; roller, iletişim, sahiplik, çalışma/ürün kayıtlarını bütünleştirmek | P1 kanıtı + P2 roller + P3 döngüsü; B6/B7/B9 | K1/K2 için uçtan uca yol ve sınırlar var; yük taşıyan Environment açıkları seçilen yol için doğrulanmış; tasarım gözden geçirilmiş | PLANNED / NOT STARTED; seçimin burada olması kullanıcıyla teyit edildi |
 | **P5 — Dosyalar ve mekanizmalar** | Gözden geçirilmiş tasarımı Claude'un gerçekten tükettiği ajan tanımları, ortak talimatlar, bağlam/iş kayıtları ve kontrollerle gerçekleştirmek | P4; P1'de kaynaklanan ve gerektiğinde fiilen doğrulanan sözleşmeler | Dosya varlığı değil yükleme, rol etkinleşmesi, izin ve çıktı/tüketici bağlantısı gösterilir; gereksiz özel sistem kurulmaz | PLANNED / NOT STARTED |
 | **P6 — Sınama ve devretme** | Ekibin hedef/birikimi devralması, iş keşfi, talep/cevap, normal otomatik ilerleme ve müdahale sonrası doğru devamı | P5; B9; S1 güvence/aktarım ayrımları; gerçek ortam | Rutin rol geçişlerinde kullanıcı tetiklemesi gerekmiyor; bilgi/karar/sürüm bağları korunuyor; başarısız/açık durumlar ve devir sınırı görünür | PLANNED / NOT STARTED |
 
@@ -72,7 +72,17 @@ P1'in P2/P3'e katkısı:
 
 **Q01–Q06:** Etkin cloud kip/araçları; talep→kullanım zinciri; plugin çelişkisi; kalıcı state; kaynak/yazma erişimi; durma/güvence. Ayrıntı ve sonraki probe taslakları P1-01 §5'tedir. Yalnız yük taşıdığı tercih için ilgili açık doğrulanır; plugin kullanımı seçilmeden plugin'i çözmek için ayrı kampanya açılmaz.
 
-**Dönüş:** P1 sonucu kullanıcıya sunulur. Sonraki kullanıcı devamında P2 adlandırılmış rol/sözleşme tasarımına geçilir. Bu tur P2, nihai topoloji, SOUL backlog'u veya teknik kurulum başlatılmaz. P1'e dönüş yeni somut soru/teknik bağımlılığa bağlıdır; belgesel tamamlanma fiilî yeterlik gibi sunulmaz.
+P1 kaynak sonucu kullanıcıya sunuldu. P2, kullanıcının P4 seçim sırasını anlayıp devam istemesiyle açıldı. P1'e dönüş yeni somut soru/teknik bağımlılığa bağlıdır; belgesel tamamlanma fiilî yeterlik gibi sunulmaz.
+
+### 4A. P2 ilk rol taslağı ve P3'e devir
+
+[ACTORS](ACTORS.md) DR01–DR16 aday isim/lineage registry'sini; [P2-01](work/P2-01-named-role-contracts.md) ilk sözleşmeleri taşır. Her rol için motivasyon/başarı yönü, girdi/yeterlik, tetik, teslimat/tüketici ve yetki sınırı yazıldı. Bu 16 ayrı agent veya nihai kadro değildir.
+
+Motivasyon rolün başarı yönü olarak sözleşmenin içinde tutulur; ayrı agent'a otomatik eşlenmez. Alan uzmanlıkları ve aynı actor'da birleşme koşulları korunur. R1–R25 primary lineage birer kez eşlenir; bu mekanik kontrol actual competence veya semantik doğruluk kanıtı değildir. Foundation Actors/Work, Superpowers S03, Work-management U10 ve tarihsel rol-sözleşmesi kayıtları bu ayrımları besledi; ayrıntılı kapsam P2-01 §7'dedir.
+
+**Sonraki P3'ün ilk bounded kapsamı:** Hedef/birikimin devri → gerekli iş/bilgi açıklarının keşfi ve sorgulanması → rol talebi/yanıtı → gerekçeli plan/admission. Konuya göre karar sahibi, talep sahibi, anlaşmazlık yolu, bilgi/sürüm/yazıcı, consumer ve rutin tetik ilişkisi kurulacak. Hazır SOUL teknik görevi seçilmeyecek.
+
+P3 tasarımı farklı expertise, yetki veya sahiplik gereği gösterirse P2 rol sözleşmeleri güncellenir. P2'yi sırf ilk taslak üretildi diye değişmez kadro yapma; sırf runtime yok diye bütün taxonomy'yi tekrar açma. P3 bu tur başlamadı; P2 sonucu kullanıcıya döner.
 
 ## 5. Foundation ve studies kullanım yolu
 
@@ -89,13 +99,16 @@ Başlangıç: [Foundation STATE](../../research/soul-foundations/STATE.md) → [
 
 ## 6. Açık tasarım kararları
 
-Aktör → aile → rol → motivasyon hiyerarşisi ve motivasyon başına ajan kullanımı kullanıcı önerisidir; P2'de sınanacak. Alt ajan/takım seçimi, gerçek agent sayısı, rol dosyalarının biçimi/konumu, mesajlaşma/ortak kayıt/olay düzeni ve depolama/iş takip mekanizmaları açık. Claude Code cloud hedef Environment'ı kullanıcı tarafından belirlenmiştir; belgesel imkânları öğrenmek hedef kurulumun yeterliğini kanıtlamaz.
+Aktör → aile → rol → motivasyon hiyerarşisi için P2-01'in aday yorumu, familyayı sınıflandırma, rolü sözleşme, motivasyonu onun başarı yönü ve gerçek agent binding'ini ayrı görevlendirme olarak tutmaktır. Kullanıcı bu yorumu henüz kabul etmiş değildir; motivasyon başına agent seçimi yapılmadı.
+
+DR01–DR16 ilk sözleşme taslağıdır; alan profillerinin gerektiğinde ayrı rollere ayrılması, gerçek agent sayısı, alt ajan/takım, dosya biçimi/konumu, mesajlaşma/ortak kayıt/olay düzeni ve depolama/iş takip mekanizmaları açık. Cloud hedefi kullanıcı tarafından belirlenmiştir; P1 belgesel imkânları ve P2 sözleşmeleri actual kurulumun yeterliğini kanıtlamaz.
 
 ## 7. Yaşayan plan ve değişim kaydı
 
 Her tur current işi P kimliğine/teslimata bağlar. Sonuç, kullanılan kaynak/sürüm, açık soru, sonraki bounded adım ve üst işe dönüş kaydedilir. Bütün yön her tur yeniden icat edilmez.
 
-Maddi değişiklikte neden, kaynak/kullanıcı yönü, etkilenen aşama ve geri dönüş bu WORK planına; current STATE'e; devir HANDOFF'a; gerçek karar DECISIONS'a; rol anlamı değiştiyse ACTORS'a yazılır. Ayrıntı mevcut work/ altında aşamayla bağlı kalır. Yeni dosya mevcut yüzey yetmediğinde açılır; boş aşama dosyaları oluşturulmaz.
+Maddi değişiklikte neden, kaynak/kullanıcı yönü, etkilenen aşama ve geri dönüş bu WORK planına; current STATE'e; devir HANDOFF'a; gerçek karar DECISIONS'a; rol anlamı değiştiyse ACTORS ve ilgili sözleşmeye yazılır. Ayrıntı mevcut work/ altında aşamayla bağlı kalır. Yeni dosya mevcut yüzey yetmediğinde açılır; boş aşama dosyaları oluşturulmaz.
 
 - **27 Eylül 2026 / v1.0:** S1 ve önceki analizler korundu; P1–P6 master harita kuruldu. Cloud, K1/K2 ve sınırsız gözetimsizlik dışı sınır kaydedildi. Yalnız plan hazırlığı tamamlandı.
-- **27 Eylül 2026 / v1.1:** Kullanıcı devamıyla P1 birincil kaynak ve Loopinance karşılaştırması yürütüldü. P1 kaynak haritası tamam; gerçek runtime sınaması yapılmadı. Q01–Q06 devredildi. P2 next/not-started; bütün planın yönü ve sorumluluk modeli değişmedi.
+- **27 Eylül 2026 / v1.1:** Kullanıcı devamıyla P1 birincil kaynak ve Loopinance karşılaştırması yürütüldü. P1 kaynak haritası tamam; gerçek runtime sınaması yapılmadı. Q01–Q06 devredildi; o tur P2 next/not-started idi.
+- **27 Eylül 2026 / v1.2:** Kullanıcı P4 seçim sırasını anladığını belirterek devam istedi. P2 ilk adlandırılmış rol/sözleşme taslağı hazırlandı ve ACTORS'a bağlandı. P3 next/not-started; P2/P3 geri beslemesi korunur. SOUL görevi, runtime/topoloji seçimi veya actual agent dosyası üretilmedi.
