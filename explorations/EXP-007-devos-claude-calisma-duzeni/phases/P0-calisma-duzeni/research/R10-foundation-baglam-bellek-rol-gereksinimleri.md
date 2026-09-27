@@ -271,3 +271,405 @@ Bileşenler Foundation'ın ayrımlarından türetildi. Mekanizma seçimi R07–R
 | **Yeniden ifade sözleşmesi:** özet, sıkıştırma ve dönüşte kip, köken, çelişki, engel, gerekçe, reddedilenler ve yeniden açma tetikleri; iki yönlü kontrol (R6, R2, M5.4) | §3.3'teki kayıpları önler ya da görünür kılar. | Türetilmiş sonuçlar bellekte dayanağa dönüşür (M1 §3; bellek). Karar gerekçesi kaybolur (plan). | Dönüş şablonu uzar; ana oturumun kontrolü zaman alır. | Özet yalnız yönlendirme için kullanılıyorsa ve kaynak aynı bağlamda erişilebiliyorsa (R2 §3). |
 | **Karar anına bağlama:** hangi karar anında hangi bilgi getirilecek (STATE; CA C3) | Bilginin var olduğu hâlde kullanılmamasını önler. | Soru bankası olayı tekrar eder. Batu hatırlatıcı olur (insan iş birliği). | Karar anları için kısa kontrol listeleri; her kapanışta "bu karara hangi araştırma bakıldı" satırı. | Kararın hiçbir araştırma bulgusuna duyarlı olmadığı mekanik adımlarda. |
 | **Taban değişikliği bildirimi:** çalışan tüketicilerin işaretlenmesi (TP §6; E5.4) | Eski görev tanımıyla üretilen sonucun yeni kararla çelişmesini fark ettirir. | Çelişki birleştirme sırasında görünmez kalır (§0.4). | Birleştirme anında iki soru: görev tanımı hangi commit'e göreydi, o zamandan beri ne değişti? | Alt ajanlar kısa sürüyorsa ve arada taban değişmiyorsa. §0.4 bunun bu oturumda bile olduğunu gösterdi. |
+
+## 4. Bellek yönetimi
+
+### 4.1 Kayıt türleri
+Foundation evrensel bir kayıt türü listesi vermiyor. "record = file", "one metadata bundle fits every resource" ve "one hierarchy is the natural organisation of all information" kısayollarını reddediyor (REC-KEY). Bunun yerine kayıtları türlere ayırmak için altı eksen veriyor. **[kaynak diyor]**
+
+| Eksen | Foundation diyor **[kaynak diyor]** |
+|---|---|
+| Kip ya da duruş | "observed result; external assertion; quotation; assumption; hypothesis; estimate; forecast; simulation result; model prediction; normative/policy representation; candidate alternative" (IS §8) |
+| Kabul eylemi | "Faithfully recording that a person reported P, accepting P as a factual premise, accepting a user's authoritative decision about project status, and installing a resulting maintained state are different acts. Authority may settle a designation without settling world truth." (M1 §1) |
+| Kayıttaki rol | "A summary/index/query output can be derived **and** become a record in its own right." Tek şart var: "A view/output must not silently stand for a different source/version/standing". Yetkili kaynağın kim olduğu Records'un dışında kalır: "Who assigns a designated-source/authority role remains outside Records." (REC §6) |
+| Eksikliğin türü | "An absent field, explicit null, an unknown response and a recorded numeric zero can convey different acquisition outcomes. ... Do not replace ambiguity with a confident value" (F2 §4) |
+| Sonucun anlamı | "false != unknown / indeterminate != not evaluated != not applicable != stale" (CS, Result semantics) |
+| Temsil ile gerçek | "representation says Work is X != actual Work is X" (WG §2.1). Aynı ayrım aktörün durumu için de geçerli (AG §2.1). |
+
+**Tipik başarısızlık:** "state, evidence, documents, indexes and derived knowledge are collapsed into one undifferentiated persistence/memory concept" (REC-FS §11). **[kaynak diyor]**
+
+EXP-007'deki yüzeylerin bu eksenlerdeki yeri **[çıkarım]**:
+
+| Yüzey | Kip ve kabul | Kayıttaki rol | Yanlış birleştirme riski |
+|---|---|---|---|
+| `sources/conversation/U*` | Batu'nun birebir sözü (dış iddia ve karar kaynağı) | Kanonik kaynak | Yorumun Batu'nun sözü yerine geçmesi. A003'teki A–B–C ayrımı bunu önlüyor. |
+| DECISIONS K-xxx | Batu'nun yetkili kararı; bir belirlemedir, dünya gerçeği değildir (M1 §1) | Belirlenmiş güncel karar | Kararın "doğrulanmış" sanılması: "human approved → therefore technically verified" (AD §8). |
+| STATE | Ana oturumun türettiği güncel görünüm | Türetilmiş görünüm | STATE'in kaynakların ve kararların yerine geçmesi (REC §6). "STATE X diyor" ile "iş X durumunda" aynı şey değildir (WG §2.1). |
+| `research/R*` | Alt ajan iddiaları; kipleri karışık | Türetilmiş görünüm ve aday | Alt ajan iddiasının bulgu diye okunması; aynı modelden gelen tekrarın doğrulama sayılması (W6). |
+| A003 | Aday öneri, statüsü "v0 — yetersiz bulunmuş" | Tarihsel kayıt | Kabul edilmiş bir yöntem gibi okunması. |
+| METHOD (gelecek) | Normatif kural | Batu kabul ederse yetkili belirleme | Kuralın var olmasının uygulandığı sanılması (FA §6). |
+| Okuma kaydı | Süreç kanıtı | Kanıt kaydı | Okunmuş olmanın anlaşılmış ya da kullanılmış sayılması (E5.5; RI). |
+| Dersler | Claude'un çıkarımı; aday normatif kural | Aday | Dersin davranış değişikliği sayılması (§4.8). |
+| Konuşma ve sıkıştırma özeti | Geçici, türetilmiş | Kayıt değil | Bellek sanılması. A003 "konuşma bellek değildir" diyor ve bu doğru. |
+
+"Sorulmadı", "soruldu ama cevap yok", "karar: hiçbiri" ve "değerlendirilmedi" ayrı durumlardır. Hepsi boş hücreye düşerse Batu'ya gereksiz soru gider ya da verilmemiş bir karar verilmiş sanılır (F2 §4; CS). **[çıkarım]**
+
+### 4.2 Revizyon türleri
+- **Değişiklik türleri ayrıdır; önemli olan anlamsal etkidir.** "creation/generation; capture/registration; revision/versioning; representation migration/re-instantiation; semantic derivation; supersession; correction; retraction/reliance withdrawal; access removal; transfer/custody change; destruction/disposition". Ardından: "The load-bearing issue is the **semantic effect**, not the label." (REC §4) **[kaynak diyor]**
+- **Geri çekmenin üç ayrı hedefi var.**
+  - Foundation: "A source-level removal asks whether one assertion occurrence or support route remains admitted. A proposition-level contraction asks for a successor in which a particular proposition is no longer derivable ... Revision by its negation asks for a different successor that accepts the contrary claim" (M1 §2). Örnek: "A direct-delete operation could therefore satisfy the source-removal request and fail the proposition-removal request." (C02) **[kaynak diyor]**
+  - EXP-007'de üç farklı sonuç doğar:
+    - Bir alt ajan notunun geri çekilmesi, o notun iddiası artık tutulmuyor demek değildir; iddia başka bir dosyada türetilmiş olarak yaşıyor olabilir.
+    - Bir iddianın artık tutulmaması, tersinin kabul edildiği anlamına gelmez.
+    - Tersinin kabulü ayrı bir dayanak ister. **[çıkarım]**
+- **Düzeltme ile dünyadaki değişiklik ayrıdır.**
+  - Foundation: "A retrospective correction must not manufacture a world transition at the date of correction. Conversely, maintaining an earlier constraint as eternally true can erase a real change." (M2 §1) **[kaynak diyor]**
+  - EXP-007 için iki durum ayrı kaydedilmeli:
+    - "Batu'yu yanlış anlamıştık": eski kaydın düzeltilmesidir, aynı zamana aittir.
+    - "Batu kararını değiştirdi": yeni bir karardır, bir tarihten itibaren geçerlidir. **[çıkarım]**
+  - DECISIONS'ta bunun iyi bir örneği zaten var: K-003'ün birleştirme kuralı silinmedi; K-009 onu "askıda" diye işaretledi. **[gözledim]**
+- **"En az değişiklik" tek bir onarım vermez.**
+  - Foundation: "Minimality is relative to what is counted, which states are admissible and which information has priority." (M2 §2); "State whether a condition must be entailed or merely remain compatible; name the preservation order and choice/skeptical treatment; retain unresolved alternatives." (M5.3); "'Latest wins' can be legitimate when the governing domain explicitly defines a current designation that way. It is not a general truth rule." (M2 §2) **[kaynak diyor]**
+- **Eski bir tabana göre hazırlanmış öneri, doğru olsa bile yanlış zamanda uygulanabilir.**
+  - Foundation: "Applying the old proposal unconditionally erases the correction; binding it to the observed base version rejects it with zero changed rows." (M2 §4, C08). Dosyanın kendisi değişmese bile dayanak değişmiş olabilir: C09'da odak nesnenin sürümü aynı kaldı ama ayrıca gereken politika değişti. **[kaynak diyor]**
+  - A003'teki "kalıcı dosyaları tek başıma yazarım" kuralı eşzamanlı yazmayı önler. Ama alt ajanların eski bir sürümü okuyarak hazırladığı öneriyi önlemez. Tek yazıcı, önerinin hangi tabana göre hazırlandığını kontrol ederse bu risk kapanır. §0.4 bunun somut hâlidir. **[çıkarım]**
+- **Eski bir kaydı geri getirmek yeni kanıt değildir.**
+  - Foundation: "Returning a rejected claim to current status requires a new adequate basis or an explicitly scoped restoration rule; mere re-import of an older copy cannot be counted as new independent evidence." (M2 §5) **[kaynak diyor]**
+  - EXP-007 için: EXP-006'dan ya da eski bir sürümden alınan bir fikir yeniden önerilirse, yeniden önerme nedeni ayrıca yazılmalıdır. **[çıkarım]**
+- **Değişmeyen metin, yeniden değerlendirme yapılmadı demek değildir.**
+  - Foundation: "No-op content does not prove that no reconsideration occurred, nor prove that it did." (M1 §1) **[kaynak diyor]**
+  - Bir iddiayı yeni kanıt karşısında koruma kararı da bir revizyon sonucudur ve kaydedilmelidir. **[çıkarım]**
+
+### 4.3 Tarihsel olan ve güncel olan
+- **İki zaman ayrıdır.** "**effective/applicable time** — when a standing/fact/relation applies in the governed/modelled domain; **system-known/recorded time** — when a managing system learns/records/asserts it." (REC §4) **[kaynak diyor]**
+- **Tarihsel kayıt ile güncel açıklama kendi kapsamlarında aynı anda doğru olabilir.**
+  - C06'da, zamanında "ready" diye kaydedilmiş bir durum sonradan geriye dönük olarak "blocked" diye düzeltiliyor. Eski satır tarihsel sorgu için hâlâ doğru cevaptır.
+  - C07'de en son alınan kayıt, ileri bir tarihte yürürlüğe giriyor; önceki sürüm hâlâ geçerli. Foundation'ın sonucu: "Reference time, receipt time and applicability are not interchangeable." (M2 §3) **[kaynak diyor]**
+- **"Güncel" kapsamlıdır.** "`current/latest` can be role-, branch-, context- or effective-interval scoped and is not universally `max(timestamp)`"; "future scheduled standing is a legitimate effective-time case." (REC-CTS) **[kaynak diyor]**
+- **Durum çok boyutludur.** "version/lineage; role/context-scoped currentness or designation; reliance/editorial standing; availability/presence; preservation/custody history" (REC §4) **[kaynak diyor]**
+- **Eski bir onay tarihsel kanıttır, güncel yetki değildir.**
+  - CA C4'ten: "For historical reconstruction, the earlier approval is the right evidence of why work proceeded then. For current execution it may be inapplicable." **[kaynak diyor]**
+  - E5'ten: "The old view can remain correct for a historical request and wrong for a current request." (E5 §5) **[kaynak diyor]**
+  - R04 (b4) buradaki ilkeyi aktarmıştı; aşağıdaki maddeler EXP-007'deki somut yerlerini ekler.
+
+**EXP-007 için [çıkarım]:**
+- **Dala göre güncellik burada gerçek bir durumdur.** Çalışma ağacındaki EXP-006 eski bir kopyadır; güncel hâli `origin/main`'dedir (ORTAK). K-010'dan sonra da main'deki EXP-006, EXP-007 için yalnız okunabilir bir kaynaktır, bağlayıcı bir güncel durum değildir. Bir bellek kaydı hangi dalın ve hangi commit'in güncel durumunu anlattığını yazmalıdır.
+- **Eski yüzeylerdeki "sıradaki" ifadeleri tarihsel kayıttır, işletimsel yetki taşımaz.** R02 §6'ya göre bu ifadeler EXP-006'da 27 dosyada kalmış. Foundation'ın çözümü şuydu: tarihsel dosyanın kendisini tarihsel diye işaretlemesi (REC-CR Senaryo 2).
+- **Bir kaydın hangi zamanı anlattığı ile ne zaman yazıldığı ayrı tutulur.** Örnek: "27 Eylül'de Batu şunu dedi" ile "28 Eylül'de böyle anladığımızı kaydettik" farklı zamanlardır.
+
+### 4.4 Köken
+- **Köken tek bir "kaynak" alanı değildir.** Ayrılması gereken roller: "originator/source; observer; asserter; derivation producer; current holder/store; transmitter; represented perspective; authorizer". Örnek: "The same proposition may be held by A, disputed by B, stored in a shared system and currently visible to neither." (IS §10) **[kaynak diyor]**
+- **Teslim kimliği köken kimliği değildir.** "C5 separates delivery identity from origin identity and payload equality. This does not prove that distinct origins are independent" (F3 §5). Üretilmiş ya da kopyalanmış şeyin kökeni korunur: "generated/copied artifacts retain their actual origin" (F6). **[kaynak diyor]**
+- **Tipik kayıplar:**
+  - "complex lineage is flattened to one ambiguous `source`";
+  - "a summary/transformation lacks exact source/version binding";
+  - "provenance claims themselves have no recoverable provenance where that matters".
+
+  (REC-FS §6) **[kaynak diyor]**
+- **Doğru kanıt yanlış hedefe bağlanabilir.** "correct evidence, wrong target/version"; "represented/asserted binding != actual binding" (BND). **[kaynak diyor]**
+
+**EXP-007 için [çıkarım]:**
+- Her bellek kaydı en az şu rolleri ayırır:
+  - kim söyledi: Batu, ana oturum ya da hangi alt ajan;
+  - kim türetti ya da özetledi;
+  - kim kaynağından kontrol etti;
+  - hangi kaynağa ve sürüme dayanıyor.
+- R01–R06 başlıklarındaki "Ana oturumun kontrolü" satırı gözlemci rolünü zaten ayırıyor. Bu iyi bir uygulama ve korunmalı. **[gözledim]**
+- Aynı iddia birkaç notta tekrarlanıyorsa, kökenlerin ortak olup olmadığı sorulur. Aynı modelin aynı kaynaklardan ürettiği notlar bağımsız destek sayılmaz (W6; R04 (b5)).
+- **Türetilmiş sonuç, dayanağından koparak kendi dayanağına dönüşmemelidir.**
+  - Foundation: "Reusing an old derived b as an unquestioned new premise regenerates a and preserves the obsolete pair." (M1 §3) **[kaynak diyor]**
+  - EXP-007'de bu zincir şöyle kurulabilir: R notu → STATE özeti → METHOD gerekçesi → yeni görev tanımı → yeni R notu. Bir halkadaki iddia geri çekilince, türetilmiş kopyalar geri çekilen iddiayı yeniden üretir. Bu yüzden türetilmiş her kayıt kökenine giden bağı taşımalıdır. **[çıkarım]**
+
+### 4.5 Tazelik
+- **Tazelik tek bir koşul değildir.** "Latest, currently applicable, mutually coherent and appropriate as-of are different conditions. Their required strength depends on the use; there is no universally mandatory freshest snapshot." (S5 §4) **[kaynak diyor]**
+- **Tek zaman damgası yetmez.** Ayrılabilecek zamanlar: "time the content is about; observation/effective/applicable time; time produced/asserted/received; time recorded/known; validity interval; current/superseded/retracted standing". Sonuç: "One generic timestamp is not a foundational solution." (IS §12). Ayrıca "receipt-latest can be reference-oldest" (F3 §5). **[kaynak diyor]**
+- **Bayat olmak yanlış olmak değildir.** "Stale/historical views are not inherently wrong. Failure occurs when a view's actual freshness/as-of/coverage semantics do not match the claim/use made from it." (REC §7) **[kaynak diyor]**
+- **Arama güncelliği kanıtlamaz.** "search/index visibility can lag canonical repository state; a search miss does not establish absence or currentness." (REC-CR Senaryo 5) **[kaynak diyor]**
+- **Güncellik bağı bakım ister.** Foundation'ın kendi uygulaması güncel dosyaları blob kimliklerine bağlamaktır. Ama "Revision binding is a maintained control, not an automatic invariant" (REC-CR R2). **[kaynak diyor]**
+
+**EXP-007 için [çıkarım]:**
+- Tazelik bir işarettir, silme kararı değildir. Bir dayanak değişince ilgili kayıt "yeniden değerlendir" diye işaretlenir. Bu, R04'ün aktardığı "dependency changed → standing may require re-evaluation != standing necessarily changed" (CS) ayrımının bellek tarafıdır.
+- Claude Code hakkındaki iddiaların tazeliği ayrı bir sorundur, çünkü belgeler değişiyor. A003 §3.5 bunu zaten istiyordu: "Studies'teki teknik bilgi eskimiş olabilir". Bu tür kayıtlar erişim tarihini ve bulut etiketini taşır.
+
+### 4.6 Unutma ve saklama
+- **"Her şeyi sakla" tarafsız bir seçim değildir.** "`Keep everything forever` is not neutral." Bunun altında birkaç ayrım var: "removal/hide ≠ irreversible destruction; primary deletion ≠ destruction if in-scope recoverable copies remain; trigger ≠ execution; due/eligible ≠ currently permitted under holds/constraints; supersession can affect current standing and independently start retention; disposition rules/schedules themselves are versioned/applicability-bound information." (REC §9) **[kaynak diyor]**
+- **İki tipik başarısızlık:** "over-retention becomes the accidental default"; "in-scope copies/indexes/caches defeat the intended destruction outcome" (REC-FS §10). **[kaynak diyor]**
+- **Geri çekmenin dört ayrı sonucu var.** "Revocation, reliance withdrawal, replacement of the displayed view and destruction of copies can protect different outcomes." (E5 §5, X04) **[kaynak diyor]**
+- **Unutma, gerileme ve yerine koyma ayrıdır.** Foundation: "A historical claim, a current retention claim and a current adequacy claim can therefore have different truth values. A once-useful behavior may remain strongly retained after the environment changes, while becoming harmful. That is not forgetting by identity." (D2 §4) **[kaynak diyor]**
+- **Şimdi seçilmemek atılabilir olmak demek değildir.** Bu varsayım bir aşırı genellemedir. Foundation'ın düzeltmesi: "Separate current selection, recoverable future basis, revalidation, actual availability and demonstrated use." (U5.6) Yalnız bugüne hizmet eden bir durum ise geçmişini bırakabilir: "A local current-only state can legitimately discard its history when no protected use requires it. A persistent research record generally has different obligations." (M2 §6) **[kaynak diyor]**
+
+**EXP-007 için [çıkarım]:**
+- **"Unutmak" silmek değil, dört ayrı işlemdir.** Git hiçbir şeyi yok etmediği için bu işlemler şunlardır:
+  1. güncel belirlemeden çıkarmak (yerine koyma);
+  2. dayanak olmaktan çıkarmak (güvenin geri çekilmesi);
+  3. bağlamdan çıkarmak: STATE'ten, CLAUDE.md'den, rol belleğinin yüklenen kısmından;
+  4. türetilmiş kopyaları temizlemek: STATE'teki, devir notlarındaki, rol belleğindeki ve çalışan oturumların sıkıştırma özetlerindeki kopyalar.
+
+  Dördüncüsü yapılmazsa geri çekilen bir iddia kopyalarda yaşamaya devam eder. R06, EXP-004 için aynı riski kaydetmişti ("withdrawn conclusions tend to survive inside summaries").
+- **Asıl risk fazla saklamaktır.** EXP-007'de risk fazla silmek değil, bağlamda fazla tutmaktır. Kanıtlar:
+  - MEMORY.md'nin yalnız ilk 200 satırı yükleniyor (§2.1). Eski girdiler yeni dersleri yükleme sınırının dışına iter.
+  - EXP-006'da aynı durum 5–7 dosyada tekrarlandı (R02 §6).
+
+  Bu yüzden saklama kuralı her yüzey için ayrı yazılmalıdır: ne zaman güncel belirlemeden çıkarılır, ne zaman yüklenen bağlamdan çıkarılır, tarihçe nerede kalır.
+- **Rol belleğindeki eski ders zararlı hâle gelebilir.** Ortam, model sürümü ya da yöntem değiştiğinde eski bir dersin gözden geçirilmesi gerekir (D2 §4; D3 §4). Yaşlanan derslerin taranması standart seviyede bir bakım işidir.
+- **Budama kuralının kendisi de sürümlenir.** Kural değişince hangi kayıtların hangi kurala göre budandığı bilinmelidir (REC §9).
+
+### 4.7 Çakışma
+- **Hizalamadan çelişki denmez.** "Two states should not be called contradictory until comparison conditions are aligned." Karşılaştırılacak koşullar: "referent/property; time/scope; unit/reference frame; mode/stance; granularity; uncertainty; provenance/independence". Çözüm kimde: "Conflict detection/merge/revision belongs to Dynamics; adjudication may additionally involve Work/Actors/authority." (IS §13) **[kaynak diyor]**
+- **Alternatifler birlikte iddia edilmeden yan yana durabilir.** "Preserving alternatives is not a defective attempt at consensus. An explicit adjudication may later select an alternative, but simply concatenating the records does not perform that adjudication." Ters yönde de bir uyarı var: "Separate contexts are not an excuse to ignore a genuine conflict within one required scope." (M1 §5) **[kaynak diyor]**
+- **Amaç ya da değer çatışması yetki ister.** "Neither the assistant's preferred allocation nor the operator's technical power settles legitimate priority. A feasible bounded fact-finding step may proceed even while the final value decision is unresolved." (CA C2) **[kaynak diyor]**
+- **Hangi yüzeyin yetkili olduğunu Records belirlemez.** "Who assigns a designated-source/authority role remains outside Records." (REC §6) **[kaynak diyor]**
+
+**EXP-007 için beş çakışma türü [çıkarım]:**
+1. **Zaman ya da kapsam farkından doğan görünür çakışma.** Örnek: main'deki EXP-006 ile daldaki kopyası. Önce hizalanır; çoğu zaman çakışma değildir.
+2. **İki alt ajan notu arasındaki çakışma.** Örnek: R07 ile R09. İkisi de korunur. Seçim yapılırsa hangi temele dayandığı yazılır.
+3. **Batu'nun farklı zamanlardaki sözleri arasındaki çakışma.** "Sonraki karar geçerlidir" kuralı ancak açıkça tanımlanırsa meşrudur (M2 §2). EXP-007 bu kuralı DECISIONS'ta açıkça yazmalı ve kapsamını belirtmelidir.
+4. **Batu'nun kararı ile kanıt arasındaki çakışma.** Karar Batu'nundur. Kanıt kayıtta kalır ve karardan ayrı tutulur (M1 §1).
+5. **Değer ya da öncelik çatışması.** Batu'ya gider. Bu arada sınırlı bir bilgi toplama adımı sürebilir (CA C2).
+
+Yetkili yüzeyi belirlemek bir yetki işidir. EXP-007 README bunu zaten yapıyor: "Güncel durum yalnız [STATE](STATE.md)'tedir." **[gözledim]** Kaynaklar ile STATE çatışırsa ne olacağı ise yazılı değil. Foundation'da benzer durumlarda kök STATE'in belirleyici sayıldığını R04 kaydediyor (R04, "Conflicting status files"). Bunu ben doğrulamadım.
+
+### 4.8 Bir dersin davranışa gerçekten dönüşmesi
+R04 (d7) temel listeyi verdi: kimin farklı davranacağı, dersin nerede saklandığı, nasıl yükleneceği, hangi durumlara uygulanacağı, ne kadar süre geçerli olacağı ve kanıtı. Bu bölüm o listeye eksik kalan beş ayrımı ekler.
+
+1. **Dersi taşıyan model değil, taşıyıcıdır.**
+   - Foundation: "Two systems can run exactly the same interpreter while one uses a retained history-derived record and the other does not." (D1 §2). Aynı sonuç B1'de: "The adaptation bearer must include the relevant carrier and access path; the model alone is not thereby shown to have changed." (B1 vaka 6) **[kaynak diyor]**
+   - Ters yön de geçerli: "parameters can change while the implemented function remains equivalent" (D1 §2). **[kaynak diyor]**
+   - EXP-007'de model öğrenmez; öğrenen, dosyalar ve onları yükleyen yollardır. METHOD'da yapılan bir değişiklik davranışı hiç etkilemeyebilir. **[çıkarım]**
+2. **Gerçekleşme zinciri EXP-007'de somut halkalara ayrılır.** D3 §2'deki zincir R04'te alıntılandı. Aşağıdaki tablo halkaları bu ortamın taşıyıcılarına bağlar. **[çıkarım; ortam bilgisi R01'den]**
+
+   | Halka (D3 §2) | EXP-007'de |
+   |---|---|
+   | "carrier written" | Ders METHOD'a, bir ders dosyasına ya da rol belleğine yazılıp commit edildi. |
+   | "candidate path installed" | Ders rol dosyasına, görev tanımı şablonuna ya da CLAUDE.md'ye işlendi. |
+   | "relevant path traverses carrier" | İlgili tüketici o anda o metni gerçekten yüklüyor. Alt ajan rol dosyasını ya da görev tanımını okuyor. Ana oturum sıkıştırmadan sonra CLAUDE.md'yi yeniden yüklüyor; R01 C12 bunu söylüyor ama etiketi `documented_generic_unclear_cloud`. Rol belleğinde ders MEMORY.md'nin ilk 200 satırına giriyor. |
+   | "response disposition changed at that locus" | O durumda davranış gerçekten farklı. |
+   | "all applicable paths changed" | Bütün ilgili rollerde, görev tanımlarında ve yeni oturumlarda farklı. |
+   | "retained after the claimed lifecycle transition" | Sıkıştırmadan, yeni oturumdan, makinenin geri alınmasından ve model sürümü değişiminden sonra da sürüyor. D3 §4: "A new operator, model version, tool interface or coordination pattern can change applicability even when the lesson text is unchanged." |
+
+3. **Görülmemek unutulmak değildir; görülmek de kullanılmış olmak değildir.**
+   - Foundation: "acquired in the past != retained now; no observed expression != erasure established; same current output != same retained disposition; retained disposition != currently appropriate disposition" (D2 §3). Ayrıca: "unchanged output != no feedback; unchanged output != proof of feedback use" (G6). **[kaynak diyor]**
+   - A003 §3.10'daki kural doğru ama eksik: "Değişim görülene kadar ders 'doğrulanmadı' sayılır." Dersin uygulanacağı durum hiç doğmadıysa bu bir başarısızlık değildir. Kanıt için dersin uygulandığı türden bir durum (fırsat sınıfı) tanımlanmalıdır. **[çıkarım]**
+4. **Hatanın tekrarını beklemek gerekmez, ama sınama hedefi değiştirebilir.**
+   - Foundation: "A controlled discriminating probe, or a sufficiently established mechanism and operative path, can support a bounded conditional claim before natural recurrence." (D1 §4). Ama: "Testing can be an intervention." (D2 §6) **[kaynak diyor]**
+   - A003'ün önerdiği soğuk başlangıç testi, soru ipucu verirse ya da dersin adını anarsa ölçtüğü şeyi öğretmiş olur. Soruların tarafsız yazılması ve ders metninin sınama isteminde geçmemesi gerekir. **[çıkarım]**
+5. **Başarı ölçüsü vekil olabilir ve çerçeve kör olabilir.**
+   - Foundation: "measured/local objective improved != intended/global target improved". Örnekleri arasında "fewer reports because reporting declines" var (FA §10). Ayrıca "all observed signals handled != all material outcomes observed" (FA §11). **[kaynak diyor]**
+   - A003 §3.2 "Bana yaptığın her hatırlatma bir kusur olarak kayda geçer; düzenin gerçek başarı ölçüsü bu sayıdır" diyor. Bu sayı iki yoldan yanıltabilir:
+     - Batu yorulup hatırlatmayı bırakırsa sayı düşer (vekil kusuru).
+     - Batu'nun fark etmediği kusurlar hiç sayılmaz (çerçeve körlüğü).
+
+     Ölçütün yanına, Batu'dan bağımsız en az bir ölçü konmalıdır. Örnekler: karşı okumanın bulduğu kusurlar ya da soğuk başlangıç testinin sonucu. **[çıkarım]**
+
+**Kim karar verir?** Öğrenmeyi kuralı değiştirmeye dönüştürmek bir yetki işidir: "Control owns governing semantics of any new rule/regime." (FA §13); "A system's ability to alter its learning rule does not authorize the alteration." (D3 §6). **[kaynak diyor]** Rol belleğine yazmak ile yöntemi değiştirmek bu yüzden ayrı kararlardır (§5.4). **[çıkarım]**
+
+### 4.9 Tipik başarısızlıklar: Foundation ve bu repodan örnekler
+- **Tartışma kaydedilmemişti.** "The intervening discussion and its correction had not been persisted. A cold reader could recover the original review, but not this later progression." (DH §1) **[kaynak diyor]**
+- **Soğuk başlangıç kontrolü bağımsız değildi.** CSC'ye göre önceki giriş verisi bayattı: "Earlier cold-entry metadata was stale". Onarım da aynı oturumda kontrol edildi: "The assistant still had conversation context; no independent fresh-session run ... was performed." **[kaynak diyor]** Yani Foundation hiçbir zaman bağımsız bir soğuk başlangıç testi çalıştırmadı. A003'ün önerdiği test bu repoda ilk olacak. **[çıkarım]**
+- **Derin okuma eski sonuçları güncel gösteriyordu.** Records'ta daha derin okuma, karşı kontrol öncesi eski sentezleri güncelmiş gibi gösteriyordu. Foundation bunu "prior central defect" olarak adlandırdı ve düzeltti (REC-CR, Verdict). **[kaynak diyor]**
+- **Düzeltme saklandı ama yol değişmedi.** "An incident lesson exists but is not selected or used." (B1 vaka 5) **[kaynak diyor]**
+- **Güncellemeler kayboldu, eski sonuçlar geri geldi.**
+  - C08'de araya giren düzeltme eski bir öneriyle silindi.
+  - C03'te türetilmiş bir çift yeniden üretildi.
+  - X03'te eski görünüm tüketicide kaldı.
+  - CA C4'te işe dönen işçi eski görünümle çalıştı.
+
+  (M2 §4; M1 §3; E5 §5; CA C4) **[kaynak diyor]**
+- **Bu repodan bir örnek.** EXP-006'da kısa cevap kuralı (D010) 26 Eylül'de yazılıydı. Batu yine de 27 Eylül'de cevapların uzunluğundan şikâyet etti (R02 §4, E3). Yazılı bir kural davranışa dönüşmemişti. **[kaynak diyor]** (R02)
+- **Yayılma açığı.** R04'e göre Foundation'da çelişen STATE dosyaları vardı ve kök STATE belirleyiciydi. R04 bunu TP'nin tarif ettiği yayılma başarısızlığının canlı örneği sayıyor (R04, "Conflicting status files"). Ben doğrulamadım.
+
+### 4.10 Bellek tasarımını sınamak için sorular
+1. Tasarım, geçmişte doğru olan ama bugün geçersiz bir kaydı güncel olandan ayırabiliyor mu? Bunu kaydı silmeden yapabiliyor mu? (REC §4; CA C4)
+2. Bir kayıtta şu ifadeler ayrı mı: "Batu dedi", "Batu karar verdi", "Claude çıkardı", "alt ajan iddia etti", "ana oturum kaynağından doğruladı"? (M1 §1; IS §10)
+3. Bir iddia geri çekildiğinde türetilmiş kopyaları (STATE, devir notu, rol belleği, METHOD gerekçesi) bulunup işaretleniyor mu? (M1 §3; REC-FS §10)
+4. "Düzeltme" ile "karar değişikliği" ayrı kaydediliyor mu? Hangisinin hangi tarihten itibaren geçerli olduğu okunabiliyor mu? (M2 §1)
+5. Alt ajanın önerdiği değişiklik, hangi tabana göre hazırlandığı bilgisiyle mi geliyor? Tek yazıcı bu tabanı kontrol ediyor mu? (M2 §4)
+6. Şu durumlar birbirinden ayrı gösterilebiliyor mu: "sorulmadı", "cevapsız", "karar: hiçbiri", "değerlendirilmedi", "uygulanamaz", "bayat"? (F2 §4; CS)
+7. "Çelişki" denmeden önce zaman, kapsam, kip ve köken hizalanıyor mu? Çözülemeyen çelişki görünür kalıyor mu? (IS §13; M1 §5)
+8. Sıkıştırmadan ya da oturum sonundan önce yazılan kayıt, sonraki revizyonun ihtiyaç duyacağı durumu taşıyor mu? Yani reddedilenler, dayanılan varsayımlar ve yeniden açma tetikleri kayıtta var mı? (M5.4)
+9. Her ders için taşıyıcı, yükleme yolu, fırsat sınıfı, ufuk, karşılaştırma ve kanıt yazılı mı? Kanıt, sınamanın kendisinin öğretmediği bir yoldan mı elde edildi? (D1–D3)
+10. Saklama kuralı her yüzey için ayrı mı? Yüklenen bağlamın (MEMORY.md'nin ilk 200 satırı, CLAUDE.md) neyi dışarıda bıraktığı biliniyor mu? (REC §9; S5 §4)
+11. Konuşmayı hiç görmemiş yeni bir oturum, yalnız repodan son tartışmayı ve düzeltmeleri kurabiliyor mu? Bu, gerçekten bağımsız bir oturumla sınandı mı? (DH §1; CSC)
+12. Başarı ölçütünün yanında, vekil ölçüt kusuruna karşı Batu'dan bağımsız ikinci bir ölçü var mı? (FA §10–11)
+
+### 4.11 Foundation'ın bilerek açık bıraktığı, EXP-007'nin karar vermesi gereken noktalar
+- **Yetkili yüzeyi kimin belirleyeceği:** "who declares current/designated/authoritative standing" (REC §12C) Records'un dışındadır. **[kaynak diyor]**
+- **Revizyon politikası:** "The selected preservation/priority rule is part of the revision basis" (M2 §2). Foundation'ın ayrımları "do not supply the appropriate empirical policy for SOUL" (M5 §4). **[kaynak diyor]**
+- **Yeni sürüm ile yeni türev arasındaki eşik ve güvence düzeyi:** "No universal rule decides same representation vs new version vs new derived resource." Güvence gücü de profile özgüdür (REC §12A). **[kaynak diyor]**
+- **Opak bir ajanın bağımlılık kümesi:** "We have not established how to discover a complete dependency set for an opaque agent." (M2 §4) **[kaynak diyor]**
+- **Saklama ufku:** "It supplies no normative retention threshold" (D2 §1). **[kaynak diyor]**
+- **Geri getirmenin uygunluğu:** "Whether reinstatement is appropriate remains target- and policy-dependent" (M2 §5). **[kaynak diyor]**
+- **Doğrulanmamış kalanlar:** "Actual retained state, needed history horizon, source custody, runtime use and causal benefit remain unverified." (CA C4) **[kaynak diyor]**
+- **Mekanizma uzman araştırmasına bırakılmış:** "Memory and Learning remain useful specialist inquiries across existing distinctions, not automatically additional Foundation peers or mandatory services." (CA C4) **[kaynak diyor]** Bellek mekanizmasının seçimi bu yüzden R07–R09'un konusudur. **[çıkarım]**
+
+### 4.12 Bellek için standart seviye bileşenleri **[çıkarım]**
+
+| Bileşen | Ne işe yarar | Yokluğunda ne bozulur (başka alt sistemler dahil) | Bedeli | Ne zaman gerçekten gereksiz |
+|---|---|---|---|---|
+| **Tür ve kip etiketi** (M1 §1; IS §8) | İddianın gerçekle, kararın doğrulamayla karışmasını önler. | Bağlamda kip kaybı olur (§3.3). Batu'nun onayı teknik doğrulama sayılır (kalite). | Etiketleme disiplini. | Yüzeyin tek türden kayıt tuttuğu yerde. Örneğin `sources/` yalnız birebir kayıt tutar; orada etiket yüzey düzeyinde verilebilir. |
+| **Köken bağı:** kim söyledi, kim türetti, kim doğruladı; kaynak ve sürüm (IS §10; REC-FS §6) | Geri çekmenin ve bağımsızlık sayımının doğru yapılmasını sağlar. | Türetilmiş sonuç dayanağa dönüşür. Aynı kökten gelen tekrar doğrulama sanılır (kalite). | Her kayıtta bir satır; alıntı ve yol. | Kalıcı karar taşımayan geçici çalışma notlarında. |
+| **Değişiklik türü ve iki zaman:** etkili zaman ve kayıt zamanı (REC §4; M2 §1, §3) | Düzeltme ile karar değişikliğini ve tarihsel ile güncel olanı ayırır. | Tarihsel kayıt ya silinir ya güncel sanılır. Eski onay yetki gibi kullanılır (yönetişim). | Değişiklik notu. | Geçmişinin korunması gereken hiçbir kullanımı olmayan, yalnız güncel durumu tutan yüzeylerde (M2 §6). Git geçmişi zaten tutar. |
+| **Durum boyutları:** güncel, yerine konmuş, geri çekilmiş, askıda; değerlendirilmedi, bayat (REC §4; CS) | "Askıda" gibi ara durumları okunabilir kılar. | K-003 türü askıdaki kararlar ya geçerli ya iptal sanılır (plan). | Durum sütunu ve bakımı. | Bu kullanım için boyutlar birbirinden bağımsız değişemiyorsa (REC-CTS). |
+| **Taban kontrolü:** öneri hangi sürüme göre hazırlandı (M2 §4) | Kayıp güncellemeyi önler. | Araya giren düzeltme silinir. Eski görev tanımıyla üretilmiş bir sonuç yeni kararı ezer (§0.4; bağlam). | Commit kimliği ve birleştirmede karşılaştırma. | Yazıcı tekse ve önerinin üretimiyle uygulanması arasında taban değişmiyorsa. |
+| **Geri çekmenin kopyalara yayılması:** türetme bağlarının listesi (M1 §3; REC-FS §10; TP §15) | Geri çekilen iddianın kopyalarda yaşamasını önler. | Eski iddia devir notunda ve bağlamda yeniden doğar (bağlam, süreklilik). | Türetme bağlarını tutmak; geri çekmede tarama. | Türetilmiş kopya hiç yoksa. A003'teki "Bir bilgi tek yerde durur" ilkesi bu bedeli düşürür ama sıkıştırma özetlerini kapsamaz. |
+| **Çakışma kaydı ve karar yolu** (IS §13; M1 §5) | Çelişkinin sessizce uzlaştırılmasını ya da her farkın çelişki sanılmasını önler. | Yetki gerektiren değer çatışmaları ana oturumca çözülür (yönetişim). | Ayrı bir bölüm ve karar gerekçesi. | Tek kaynaklı alanlarda. |
+| **Yüzey başına saklama ve budama kuralı:** bağlamdan çıkarmak silmek değildir (REC §9; D2 §4) | Fazla saklamanın varsayılan olmasını ve eski derslerin zararlı biçimde kalmasını önler. | Yüklenen bağlam eski girdilerle dolar ve yeni dersler yükleme sınırının dışında kalır (bağlam, öğrenme). | Kural yazımı ve düzenli tarama. | Yüzey hiç yüklenmiyorsa ve büyümüyorsa. |
+| **Ders kaydı ve davranış kanıtı** (§4.8; D1–D3; FA) | Yazılı kuralın davranışa dönüşüp dönüşmediğini görünür kılar. | EXP-006'daki D010 örneği tekrar eder. Başarı vekil ölçüte kayar (gözlemlenebilirlik). | Sınama ve izleme; sınamanın öğretme etkisini yönetmek. | Ders bir kerelik ve geri dönüşsüz bir olaya aitse ve yeniden kullanılmayacaksa. D1: "one-off response != adaptation"; o durumda uyum iddiası da gerekmez. |
+| **Bağımsız soğuk başlangıç sınaması** (DH §1; CSC) | Sürekliliği aynı bağlamın okumasıyla değil, taze bir okuyucuyla sınar. | Kaydedilmemiş tartışma fark edilmez (süreklilik). | Taze bir oturum ve karşılaştırma. | İş tek oturumda bitiyorsa. EXP-007 için bu koşul geçerli değil. |
+
+## 5. Kalıcı rol yapısı
+
+### 5.1 Rol tanımının dayanağı
+R04 (c1) iki ilkeyi aktarmıştı: rol ihtiyacı AI ajanı ihtiyacı demek değildir, ve sorumluluk ile meşru yetki mekanizma seçiminden önce gelir (RUA; REUSE). Bu bölüm, bir rol tanımının **neye dayanması gerektiğini** Foundation'dan çıkarır.
+
+- **Süregelen sorumluluk, Foundation'da neredeyse bir rol tanımı iskeletidir.**
+  - Foundation: "Standing responsibility can persist without current Work. It is expressible through: persistent bearer; role/office; obligation/duty; scope/context/time; accountability/forum; triggered Work when action becomes due." Anti-collapse kuralı: "standing Actor responsibility != current Work episode". (AG §7) **[kaynak diyor]**
+  - Bu altı öğe kalıcı bir rolün taşıması gerekenleri verir: taşıyıcı, konum, görev, kapsam, hesap verilen yer ve tetik. A003'teki "üç kez tekrarlanan görev kalıbı kalıcı ajan olur" kuralı ise rolü **sıklıktan** türetiyor. Foundation'a göre dayanak sıklık değil, **gereken sorumluluktur**. Batu'nun "her seferinde yeniden alt ajana rol biçmek doğru değil" sözü (U004) bu ayrımla örtüşüyor. **[çıkarım]**
+- **Yapabilmek, yetkin olmak, izinli olmak, yetkili olmak ve yükümlü olmak ayrı şeylerdir.**
+  - Foundation: "`Can`, `is skilled/competent`, `may`, `has power/authority`, and `must/ought` are not synonyms." (AV D2). Ayrıca: "Being permitted or empowered to act does not by itself create a duty to act. Likewise, being responsible for an area may create duties without giving unilateral authority to execute every related action." (AF-CAO §6) **[kaynak diyor]**
+  - Bir rol tanımı bunları ayrı yazar: yetkinlik iddiası ve kanıtı; araç izni; karar yetkisi; görevler. Örneğin karşı okuyucunun görevi çürütmeyi denemektir. Buna karşılık sonucu kabul etme yetkisi yoktur. **[çıkarım]**
+- **Rol adı yetki, yetkinlik ya da bağımsızlık kanıtlamaz.**
+  - Foundation: "role name does not establish epistemic independence or authority" (A3 §3.2); "role labels do not establish authority, competence, independence or accountability" (A3 §6); "role label != valid verifier/authority standing" (CS, Candidate studies) **[kaynak diyor]**
+  - Genel bir "eleştirmen" etiketi aslında ayrı işlevleri toplar: "review/critique; verification; adversarial challenge; integration/acceptance transition" (A3 §3.2). **[kaynak diyor]**
+  - Roller etiketle değil işlevle tanımlanır. Rolün yeterliği ayrıca kanıtlanır. **[çıkarım]**
+- **Hesap verebilirlik bir ilişkidir.**
+  - Foundation: "`is accountable` is incomplete without at least the relevant forum, subject matter/standard and process or consequence context." (AF-RA §4) **[kaynak diyor]**
+  - Her rolün kime, hangi ölçüte göre ve hangi süreçle hesap verdiği yazılır. EXP-007'de zincir alt ajandan ana oturuma, ana oturumdan Batu'ya gider. Alt ajan rollerinin ekibi ayrı bir hesap veren değildir: "Nor does a coordinated runtime team automatically become a persistent corporate/group agent." (AG §8) **[kaynak diyor + çıkarım]**
+- **Beklenen davranış yazılmazsa ihmal görünmez.**
+  - Foundation: "Agency and responsibility can concern deliberate non-action or failure to perform expected/available conduct. An event-only model can erase meaningful omission." (AV D6). İhmalin bir dayanağı vardır: "an available or possible action; an expectation, duty, plan, intention or opportunity" (AF-AOD §2) **[kaynak diyor]**
+  - Rol tanımı, rolün hangi durumlarda devreye girmesi gerektiğini yazar. Aksi hâlde eksik arayıcının hiç çağrılmaması kayıtlarda iz bırakmaz. **[çıkarım]**
+- **Destek ve koordinasyon da iştir.**
+  - Foundation: "Coordination is itself Work" (WV §7); "Some Work exists to sustain, coordinate, protect or enable the conditions under which other Work can proceed." (WF-CSC §9) **[kaynak diyor]**
+  - Kayıt bakımı, bayat dosya taraması ve dersleri yaşlandırma gibi bakım işleri de bir role verilmelidir. R04 (c5) bunun için "standing custody" demişti; burada bu işin bir rol tanımına girmesi gerektiği ekleniyor. **[çıkarım]**
+- **Çapraz atıf:** R06, EXP-004'ten bir rol formülü aktarıyor: "Yeni rol = talimat + gerçek model/insan/program taşıyıcısı + uygun context + araç/etki kapsamı + ilgili yeterlik dayanağı." Foundation ayrımları bu formülü destekliyor ve ona görev, hesap verme ve tetik öğelerini ekliyor. **[çıkarım]**
+
+### 5.2 Rolün oturumlar arası sürekliliği
+- **Foundation süreklilik sorusunu doğrudan cevaplıyor.** "An agent/process can be recreated in a new session while Work and persistent representations continue." Dört ayrım: "same model class != same bearer identity; same role != same process/session; fresh process can occupy a continuing role; continuing Work can survive bearer/session replacement." (A3 §4.3) **[kaynak diyor]**
+- **Rolün tanımlı, çağrılabilir ve etkin olması ayrıdır.**
+  - Foundation: "`has role`, `may activate role`, and `is acting in role now` are not interchangeable." (AF-IRP §2). Ayrıca dört soru sorulmalı: "who/what persists across time; which role/office/position is held; which role/position is active in a context; which episode is under discussion; how the bearer participates in that episode." (AF-IRP, Decision-critical implication) **[kaynak diyor]**
+  - EXP-007'de bu üç durumun karşılığı: `.claude/agents/` altında bir tanımın bulunması; ana oturumun o rolü o iş için çağırabilmesi; o anda o rolle çalışan bir alt ajan örneğinin bulunması. **[çıkarım]**
+- **Süreklilik taşıyıcılarda ve ilişkilerde yaşar.**
+  - Foundation: "Replacing an individual need not erase a system-level disposition if its operative carrier and relations survive; retaining every individual need not preserve it if coordination or access is lost." (D3 §3; B1 vaka 9) **[kaynak diyor]**
+  - Geçici alt ajan örneği değiştiğinde rolün sürekliliği bozulmaz, yeter ki taşıyıcılar gerçekten yüklensin: tanım, bellek, tetik ve girdi–çıktı sözleşmesi. Ters yön de doğru: tanım dosyası repoda dursa bile rol çağrılmıyor ya da belleği yüklenmiyorsa süreklilik yoktur. **[çıkarım]**
+- **Aynı rol ne demek? Foundation bu soruyu açık bırakıyor.**
+  - "What makes a person, organization, office, software system or other bearer `the same` across time for the specific semantic purpose at hand?" Bu soru "domain-sensitive" diye açık bırakılmış (AOQ OQ1). **[kaynak diyor]**
+  - EXP-007'nin tanımlaması gerekir: "aynı rol" aynı tanım sürümü mü, aynı bellek mi, aynı sorumluluk mu? Model sürümü değişince rol aynı mı kalır? D3 §4'e göre model değişimi dersin uygulanabilirliğini değiştirebilir. **[çıkarım]**
+- **Süren sorumluluk, tamamlanan bölümlerden oluşur.**
+  - Foundation: "Continuing Work may have completed episodes while the larger responsibility remains open." (WV §13) **[kaynak diyor]**
+  - Her alt ajan çağrısı bir bölümdür. Rolün sorumluluğu bölüm kapanınca kapanmaz. **[çıkarım]**
+- **Tetiklenmeyen sorumluluk kâğıt üzerinde kalır.**
+  - Süregelen sorumluluk "triggered Work when action becomes due" ile işe dönüşür (AG §7). **[kaynak diyor]**
+  - Bu ortamda alt ajan kendi alt ajanını açamıyor (ORTAK). Bu yüzden bütün rol çağrıları ana oturumdan gelir ve tetiklerin tümü koordinatörde toplanır. Bu, R06'nın "akıllı koordinatör halleder" uyarısının tam yeridir. Tetikler koordinatörün hafızasında değil, dosyada yazılı durmalıdır. **[çıkarım]**
+- **Tanım değişikliği çalışan örneklere kendiliğinden ulaşmaz.**
+  - Foundation: "an authority revocation is active centrally while old sessions remain usable" (TP §6). Ayrıca: "actual authority can end while apparent authority persists until third parties receive notice" (AF-RDA §5) **[kaynak diyor]**
+  - Rol tanımı değişirse, eski tanımla çalışan örneklerin sonuçları hangi sürüme göre üretildikleriyle birlikte değerlendirilir. **[çıkarım]**
+- **Katılım kayıtları örnek düzeyinde tutulur.**
+  - Foundation: "Actor A performs Work W at t1 / Actor A verifies Work W at t2 must not be reduced to an ambiguous bag containing both roles and both times." (BND). Ayrıca: "two role labels != two independent Actors" (CC, Authority and separation of duties) **[kaynak diyor]**
+  - Kayıt hangi örneğin, hangi rol sürümüyle, hangi işte, ne zaman ne yaptığını tutar. Böylece "aynı örnek hem üretip hem denetledi mi?" sorusu cevaplanabilir. **[çıkarım]**
+
+### 5.3 Rol belleği ile rol yetkisi ayrı tutulmalı
+- **Bir metin dört ayrı şeye karşılık gelir.** Model tarafından görülen talimat ile zorlanan kontrol ayrıdır. Foundation bir rol dosyasının karşılığını dörde ayırıyor: "instruction/policy text = Information representation; normative authority/obligation = Actor/control relation; mechanical enforcement = Environment/control condition; compliance/review activity = Work." (A3 §2.5) **[kaynak diyor]**
+- **Temsil gerçek durumu kanıtlamaz.** "representation says Actor standing is X != actual Actor standing is X" (AG §2.1). Foundation'ın ertelediği ilişkiler arasında şunlar da var: "identity/role/delegation records vs current standing"; "context-visible permissions/roles vs actual authority" (AD §1). **[kaynak diyor]**
+- **Doğru bir düzeltme bile her şeyi yeniden yazma yetkisi vermez.** "a well-supported factual correction does not grant its author every permission to rewrite a managed corpus." (M1 §1) **[kaynak diyor]**
+- **Değiştirebilmek yetkili olmak değildir.** "A system's ability to alter its learning rule does not authorize the alteration. Control/Actors remain responsible for governing basis and authority. Self-generated agreement does not create independent evidence; adaptation of the verifier does not automatically validate the verifier's new criteria." (D3 §6) **[kaynak diyor]**
+- **Uzmanlık da, konum da, erişim bilgisi de tek başına yetki değildir.** "expertise != authority; manager/owner != every decision authority; credential possession != legitimate authority" (CC, Authority / legitimacy). Ayrıca: "A submanager may coordinate/decompose while lacking authority to alter acceptance criteria or widen permissions." (A3 §3.1) **[kaynak diyor]**
+- R04 (c3) teknik erişim ile yetkinin ayrı olduğunu genel ilke olarak koymuştu. Bu bölüm o ilkeyi rol belleğine uyguluyor.
+
+**EXP-007 için: kalıcı bir rolün üç ayrı katmanı [çıkarım]**
+1. **Rol tanımı (normatif katman).** Sorumluluk, görevler, sınırlar, tetikler ve hesap verme ilişkisi. Dayanağı yetkili bir karardır; A-04'e göre bu karar Batu'nundur. Değiştirilmesi yetki ister (§5.4).
+2. **Rol belleği (bilgi katmanı).** Rolün birikimi: dersler, desenler, tuzaklar ve kaynak yolları. Kipi model çıkarımıdır ve yetki taşımaz.
+   - Tanımla çelişirse tanım geçerli olur.
+   - Bellekteki "bunu yapabilirim" cümlesi bir yetki devri değildir.
+   - Kural gibi yazılmış bir bellek girdisi ancak öneri olarak yukarı taşınabilir.
+3. **Yetki ve zorlama.**
+   - Araç izinleri (rol dosyasının `tools` alanı, izin modu) teknik bir etki gücüdür.
+   - Batu'nun devrettiği karar yetkisi normatif bir yetkidir.
+   - İkisi ayrı yazılır. Tavsiye niteliğindeki metin ile zorlanan kontrol ayrı kalır (R04 d4).
+
+**Ortamdaki gerilim:** R01 C8'e göre `memory: project` alanı role `.claude/agent-memory/<ad>/` altında kendi belleğini veriyor (`documented_generic_unclear_cloud`). Bulutta bu belleğin kalıcı olması ancak commit ve push ile mümkün; belgeler bulut durumunu ele almıyor (R01). **[kaynak diyor]** (R01)
+- Rol belleğini, tasarım gereği rolün kendisi yazar. A003 ise kalıcı dosyaları yalnız ana oturumun yazmasını öngörüyor. Bu iki öngörü çatışıyor.
+- Foundation'ın çözümü "kim yazar" sorusundan çok "yazılan ne tür bir kayıttır" sorusudur. Rolün yazdığı içerik bilgi olarak etiketlenir. Kural niteliği taşıyan her şey öneri olarak ana oturuma ve Batu'ya gider. Hangi taşıyıcının kullanılacağı R07'nin konusudur. **[çıkarım]**
+
+### 5.4 Rolü kim değiştirebilir?
+- **Foundation bu soruyu bilerek açık bırakıyor.**
+  - Work sentezi "does not establish ... who may select, commit, reprioritise, waive, accept, terminate or reactivate Work" (WV §16).
+  - İzin, yetki ve güç arasındaki sınır açık bir sorudur (AOQ OQ4).
+  - Kurumsal kontroller "may depend on the scoped authority to issue, approve, waive, delegate or revoke a rule/decision" (CC).
+
+  **[kaynak diyor]**
+- **Rolü değiştirmek sıradan bir iştir, yalnız başka düzeydedir.** "Meta-work—Work that changes workflow, agent configuration, verifier, tooling or the working system—is ordinary Work at another target level." (WG §6) **[kaynak diyor]** R04 (a6) bu yüzden yöntem değişikliklerinin de kabulden geçmesini önermişti. Burada ek bir tespit var: rol değişiklikleri **türlerine göre farklı yetki** ister. **[çıkarım]**
+- **Yetki devrinin geçmişi izlenebilir olmalı.** "the subject on whose behalf a request is made; the current actor; a party authorized to become an actor; delegation history through nested actor claims" (AF-RDA §4) **[kaynak diyor]**
+- **EXP-007'de zaten bir kural var.** "Kontrol ve yapılandırma değişiklikleri ... Batu onaylamadan kurulmaz" (DECISIONS A-04). Bu kural ilk kurulumu kapsıyor. Kurulumdan sonraki değişikliklerin kimde olduğu yazılı değil. **[gözledim]**
+
+Değişiklik türlerine göre bir ayrım önerisi **[çıkarım; karar Batu'nun]**:
+
+| Değişiklik türü | Örnek | Dayandığı Foundation ayrımı | Önerilen yetki |
+|---|---|---|---|
+| Rol belleğine ders eklemek | "Bu kaynakta tablo kesik geliyor, tam oku" | Kabul edilen girdinin türü (M1 §1); saklamak davranış değişikliği değildir (D1 §4) | Rol yazar ya da ana oturum yazar; köken ve kip etiketi taşır. |
+| Rolün yöntemini değiştirmek (sorumluluk ve yetki aynı kalır) | Dönüş biçimine bir alan eklemek | Yöntem değişikliği de iştir (WG §6); kendini yetkilendirme olmaz (D3 §6) | Ana oturum karar verir, aşama raporunda bildirir; davranış kanıtı istenir. |
+| Rolün kapsamını, yetkisini, araç iznini ya da kabul ölçütünü değiştirmek | Karşı okuyucuya yazma izni vermek | Alt yönetici kabul ölçütünü değiştiremez ve izinleri genişletemez (A3 §3.1); ulaşılabilir etki gücü yetki değildir (AD §4) | Batu. |
+| Rol açmak, kapatmak, birleştirmek | Eksik arayıcıyı karşı okuyucuyla birleştirmek | Süregelen sorumluluk (AG §7): kapanan rolün görevleri başka bir role verilmezse ihmal oluşur (AV D6) | Ana oturum önerir. Yapılandırma değişikliği olduğu için A-04 kapsamında Batu onaylar. |
+| Denetleyici rolün ölçütünü değiştirmek | Karşı okumanın geçme eşiği | "adaptation of the verifier does not automatically validate the verifier's new criteria" (D3 §6); üretenin kendi kontrolü bağımsız doğrulama değildir (CC) | Batu, ya da en azından denetlenen işten bağımsız bir onay. Denetleyici kendi ölçütünü değiştirip kendini onaylayamaz. |
+
+Her değişiklik için dört şey yazılır:
+- sürüm ve değişiklik notu;
+- çalışan örneklere nasıl bildirileceği (TP §6);
+- bağımlı sonuçların yeniden değerlendirilip değerlendirilmeyeceği: "dependency changed → standing may require re-evaluation" (CS);
+- eski tanımla üretilen sonuçların nasıl işaretleneceği.
+
+**[çıkarım]**
+
+### 5.5 Tipik başarısızlıklar
+- **Taşıyıcı ile rolün birleştirilmesi (v0).**
+  - A003'teki ifadeler: "Alt ajanlar: tek soruluk, geçici çalışanlar" (A003 §3.2) ve "Bir görev kalıbı üç kez aynı şekilde tekrarlanınca kalıcı bir ajan tanımına dönüşür, önce değil." (A003 §3.3)
+  - Örnek geçici olduğu için rol de geçici sayılmış. Foundation'ın karşı ifadesi: "fresh process can occupy a continuing role" (A3 §4.3). **[kaynak diyor + çıkarım]**
+- **Konumu yetki saymak.** "hierarchy position != authority != competence != responsibility != accountability" (A3 §3.1) **[kaynak diyor]**
+- **Çoğalmayı bağımsızlık saymak.** "multiple model instances != independent verifier role by identity alone; independence depends on source/method/tool/context separation" (A3 §3.3) **[kaynak diyor]**
+- **Ekibi bir grup aktörü saymak.** "Do not infer a corporate/group Actor merely from orchestration topology or shared task membership." (AD §7) **[kaynak diyor]**
+- **Dosyanın varlığını yüklenmiş ve uygulanmış olmak saymak.** Bunu R04 (d4) RUA'dan aktardı. A3 §2.5 aynı ayrımı rol dosyasına uyguluyor. **[kaynak diyor]**
+- **Dolaylı etki yolu.**
+  - Foundation: "an agent without one direct production-write route could contact/use another actor with stronger capability" (A3 §2.3) **[kaynak diyor]**
+  - EXP-007'de yazma yetkisi yalnız ana oturumda. Salt okuyan bir alt ajanın dönüşündeki talimat biçimli bir metin, ana oturum üzerinden bir etkiye dönüşebilir. A003'teki "Dönen sonuç veridir" kuralı bu yolu kapatan kuraldır. Bu yol, R04'ün "etki yolları listesi" önerisine eklenmelidir. **[çıkarım]**
+- **Eski bir dersi korumak.** "A once-useful behavior may remain strongly retained after the environment changes, while becoming harmful." (D2 §4) **[kaynak diyor]**
+- **Soru bankası tartışmasından örnek durumlar.** "a qualified worker lacks the needed information/access; a review is performed but fails to detect relevant errors; a new version is approved but the old version is published; and a procedure is rewritten without demonstrating retained behavioral improvement" (DH §2) **[kaynak diyor]**
+- **Bu repodan bir örnek.** EXP-006'da roller SOUL'un yeteneklerinden türetildi, ekibin kendi çalışma döngüsünden türetilmedi. Tasarımcı, bakımcı ve inceleyici kalıbı alanlara göre tekrarlandı (R02 §2, §4). Foundation'a göre rolün dayanağı gereken sorumluluktur ve ekibin kendi çalışma işi de bu sorumluluğun içindedir (WV §7). **[kaynak diyor (R02) + çıkarım]**
+
+### 5.6 Rol tasarımını sınamak için sorular
+1. Rol, bir alt ajan örneği bittikten sonra da var mı? Yeni bir örnek aynı sorumluluğu, sınırları ve belleği yükleyerek mi başlıyor? (A3 §4.3; D3 §3)
+2. Rol tanımında şunlar ayrı mı yazılı: sorumluluk, görev, yetkinlik iddiası, araç izni, karar yetkisi, hesap verme ilişkisi? (AG §7; AV D2; AF-RA §4)
+3. Rolün hangi durumda çağrılacağı yazılı mı? Çağrılmadığında bu ihmal olarak görünür mü? (AV D6; AG §7)
+4. Rol belleğindeki bir girdi rol tanımıyla çelişirse hangisi geçerli? Bu kural nerede yazılı? (§5.3)
+5. Rol kendi belleğine ya da tanımına yazabiliyorsa, yazma olanağı ile kural değiştirme yetkisi birbirinden ayrılmış mı? (D3 §6)
+6. Rol tanımı değişince, eski sürümle çalışan örneklerin sonuçları işaretleniyor mu? (TP §6; AF-RDA §5)
+7. Katılım kaydı hangi örneğin, hangi rol sürümüyle, hangi işte ne yaptığını tutuyor mu? "Aynı örnek hem üretip hem denetledi mi?" sorusu cevaplanabiliyor mu? (BND; CC)
+8. Bir rolün adı bağımsızlık ya da yetkinlik kanıtı gibi kullanılıyor mu? Bağımsızlık kaynak, yöntem ve bağlam ayrılığıyla mı gösteriliyor? (A3 §3.3)
+9. Rolün yetkisi teknik erişimden mi çıkarılıyor? Salt okuyan bir rol ana oturum üzerinden bir etki üretebiliyor mu? (A3 §2.3; AD §4)
+10. Model sürümü, araç arayüzü ya da ortam değişince rol belleğindeki dersler yeniden sınanıyor mu? (D3 §4; D2 §4)
+11. Bir rol kapatılır ya da başka bir rolle birleştirilirse, süregelen görevleri başka bir role devrediliyor mu? (AG §7)
+12. "Aynı rol" ölçütü tanımlı mı? Tanım sürümü mü, bellek mi, sorumluluk mu esas alınıyor? (AOQ OQ1)
+
+### 5.7 Foundation'ın bilerek açık bıraktığı, EXP-007'nin karar vermesi gereken noktalar
+- **Taşıyıcının sürekliliği:** "organization/system continuity rules are domain-sensitive" (AOQ OQ1). **[kaynak diyor]**
+- **Rol, makam ve konum ayrımı:** "the current evidence establishes non-collapse but not a universal vocabulary" (AOQ OQ2). **[kaynak diyor]**
+- **Yetkinliğin ayrıştırılması:** "How much structure is needed to distinguish skill, qualification, certification, experience, demonstrated performance and resource availability?" (AOQ OQ3) **[kaynak diyor]**
+- **İzin ile yetki arasındaki sınır** (AOQ OQ4). **[kaynak diyor]**
+- **İnsan dışı bir sistem ne zaman süregelen bir ajan sayılır:** "When, if ever, should a non-human system be treated as an enduring agent rather than only an operational participant, tool, provenance agent or component of a joint system?" (AOQ OQ7) **[kaynak diyor]**
+- **Hangi sorumluluk rejimlerinin gerektiği** (AOQ OQ8). **[kaynak diyor]**
+- **Ertelenmiş ilişkiler:**
+  - kim neye karar verir (WV §16);
+  - dolaylı yetki ve etki gücü: "the highest-priority deferred relation" (AD §4);
+  - çok ajanlı yapılarda ortak aktörlük (AD §7);
+  - insan yönetişimi (AD §8).
+
+  **[kaynak diyor]**
+
+**EXP-007'nin karar vermesi gerekenler [çıkarım]:**
+- rol envanteri ve her rolün hangi sorumluluğa dayandığı;
+- "aynı rol" ölçütü;
+- değişiklik türlerine göre yetki tablosu (§5.4);
+- tetiklerin sahibi ve nerede yazılı olduğu;
+- yetkinlik kanıtının biçimi;
+- rol belleğini kimin yazacağı.
+
+### 5.8 Kalıcı rol için standart seviye bileşenleri **[çıkarım]**
+
+| Bileşen | Ne işe yarar | Yokluğunda ne bozulur (başka alt sistemler dahil) | Bedeli | Ne zaman gerçekten gereksiz |
+|---|---|---|---|---|
+| **Sorumluluğa dayanan rol tanımı:** AG §7'deki altı öğe | Rolü sıklıktan ve etiketten değil, gereken sorumluluktan türetir. | Gerekli olduğu hâlde kimseye verilmemiş iş kalır (A003 §3.8'in kendi sorusu; plan). Roller yanlış kaynaktan türer (R02). | Rol başına tanım yazımı; kurulum için Batu'nun onayı (A-04). | İş tek seferlikse ve süregelen bir sorumluluk doğurmuyorsa; o zaman geçici bir görev tanımı yeter. |
+| **Yetkinlik, izin, yetki ve görevin ayrılması** (AV D2; AF-CAO) | Araç erişiminin yetki, rol adının yeterlik sanılmasını önler. | Denetleyici kabul eder. Koordinatör ölçütü değiştirir (yönetişim). | Tanımda ayrı alanlar; araç kısıtlarının ayrıca yapılandırılması. | Rol yalnız okuyor ve karar vermiyorsa. O durumda bile yetki alanına "yok" yazılır; alan boş bırakılmaz. |
+| **Tetikler ve beklenen davranış** (AG §7; AV D6) | Süregelen sorumluluğun gerçekten çağrılmasını ve ihmalin görünmesini sağlar. | Rol çağrılmaz ve bu fark edilmez. Batu hatırlatıcı olur (insan iş birliği, gözlemlenebilirlik). | Ana oturumun kontrol listesi ve tetiklerin bakımı. | Rol yalnız açık talep üzerine çalışıyorsa (örneğin araştırmacı). O durumda talep eden tarafın tetiği yazılır. |
+| **Rol belleği:** bilgi olarak etiketli, tanımdan ayrı (§5.3) | Birikimin taşınmasını sağlar; Batu'nun "her seferinde yeniden rol biçmek" itirazını karşılar. | Ya her örnek sıfırdan başlar ya da bellek yetki gibi davranır (yönetişim). | Bellek bakımı, budama ve çelişki kuralı. | Rol birikim üretmiyorsa ve her seferinde aynı kısa işi yapıyorsa. |
+| **Rol sürümü ve örnek düzeyinde katılım kaydı** (BND; TP §6) | Hangi sonucun hangi tanımla üretildiğini, görevler ayrılığını ve değişiklik sonrası ayıklamayı mümkün kılar. | Eski tanımla üretilmiş sonuçlar yeni sonuçlarla karışır (bellek, kalite). | Dönüşte rol ve sürüm satırı. Tanım geçmişini git zaten tutar. | Rol tanımı hiç değişmiyorsa. P0 ve P1 için bu koşul geçerli değil. |
+| **Değişiklik yetki tablosu** (§5.4) | Rolün kendi kapsamını genişletmesini de, her küçük değişikliğin Batu'ya gitmesini de önler. | Rol ya kendini genişletir ya da Batu gizli koordinatör olur (insan iş birliği). | Bir tablo ve her değişiklikte bir satır. | Yok: değişiklik olacağı kesin. |
+| **Bağımsızlığın açık beyanı** (A3 §3.3; CC) | Karşı okumanın gücünü doğru adlandırır. | Aynı modelin iki örneği bağımsız doğrulama sayılır; EXP-006'daki kendi kendini onaylama tekrarlanır (R02 §3; kalite). | Karşı okuyucunun hangi bilgiden yoksun bırakıldığını yazmak. | Denetim iddiası yoksa. |
+| **Model ve ortam değişince rol derslerinin yeniden sınanması** (D3 §4; D2 §4) | Zararlı hâle gelmiş eski dersleri yakalar. | Eski ders yeni koşulda yanlış davranış üretir (öğrenme). | Değişim anında tarama. | Model ve ortam sabitse. Claude Code'da ikisi de değişiyor (A003 §6). |
