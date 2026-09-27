@@ -1,7 +1,7 @@
 # EXP-006 — DECISIONS
 
 **Rol:** Kullanıcıyla netleşmiş çalışma kararlarını/kısıtları candidate fikirlerden ayırmak.  
-**Güncelleme:** 27 Eylül 2026, P3 tasarım devrine hazır aday sonrası.  
+**Güncelleme:** 27 Eylül 2026, P4 tasarımına devam yetkisi ve ilk koşullu teknik tercih.  
 **Sınır:** Buraya yazılması bir araştırma bulgusunu mimari gerçeğe veya bir gereksinimi gösterilmiş platform kabiliyetine dönüştürmez.
 
 | ID | Karar / çalışma anlaşması | Statü |
@@ -27,22 +27,31 @@
 | **D019** | Alt ajan/takım ve bütünleşik teknik seçim P4'te değerlendirilecek; kullanıcı bu ayrımı anladığını belirterek P2'ye devam edilmesini istedi. | explicit sequencing confirmation; 27 Eylül 2026; belirli topoloji veya henüz üretilmemiş rol taslağı onayı değil |
 | **D020** | P3'te araştırma örnekleri/metodolojileriyle derinleşilecek; assistant hemen karar vermek yerine bir başlangıç yapısı sunacak ve kullanıcıyla bu baz üzerinde değerlendirecek. | explicit discussion/return boundary; 27 Eylül 2026; P3-01 önerisinin kabulü değil |
 | **D021** | İçerik sahibi ne söylendiğini ve gerekçesini; çalışma düzeni tarafı dosya/kayıtların yerini, statüsünü, kaynak/sürüm ilişkilerini, bulunabilirliğini, bakımını, devrini ve yeniden kullanımını taşır. Düzen tarafı anlamı yeterince anlayabilmeli, fakat ürün kararını üstlenmemeli. Düzen yalnız görsel klasör temizliği değildir. | Kullanıcının “aynı fikirdeyim” yanıtıyla kabul edilmiş sorumluluk sınırı; 27 Eylül 2026. Ayrıntılı şema, tüm P3 kuralları veya fiziksel ayrı ekip onayı değil. |
+| **D022** | P3 tasarım devrine hazır sonucu ve P4 devam noktası sunulduktan sonra kullanıcının “devam et” yönü P4 bütünleşik teknik tasarımını açar. | 27 Eylül 2026, aşama yetkisi; P4-01 tercihinin kullanıcı kabulü, P3'ün bütün ayrıntılarına formal onay veya P5 kurulum izni değildir. |
 
-D011–D018 kaynak aktarımı [U002](sources/U002-cloud-plan-and-autonomy.md)'dedir. D019 P1 açıklamasından sonraki devam yönünün anlam kaydıdır. D020 ilk P3 kullanıcı isteğine dayanır. D021'in kullanıcı açıklaması ve kabul mesajı [P3-01 §1](work/P3-01-work-information-discussion.md#1-kullanıcı-yönü-ve-önerinin-sınırı)'de; assistant önerisi anlam özeti olarak ayrıdır. Örneklerdeki gerçek davranış bu kayıtla bağımsız doğrulanmaz.
+D011–D018 kaynak aktarımı [U002](sources/U002-cloud-plan-and-autonomy.md)'dedir. D019 P1 açıklamasından sonraki devam yönünün anlam kaydıdır. D020 ilk P3 kullanıcı isteğine dayanır. D021'in kullanıcı açıklaması/kabul mesajı [P3-01 §1](work/P3-01-work-information-discussion.md#1-kullanıcı-yönü-ve-önerinin-sınırı)'de; assistant önerisi anlam özeti olarak ayrıdır. D022 görünür tek devam mesajının önceki P3/P4 geçişi içindeki yorumudur; yeni mimari onayı uydurulmaz. Örneklerdeki gerçek davranış bu kayıtla bağımsız doğrulanmaz.
+
+## P4 teknik tercihleri — accepted kullanıcı kararı değildir
+
+[P4-01](work/P4-01-cloud-runtime-and-workspace-design.md) assistant'ın ilk koşullu tasarım tercihini taşır: **ana Y cloud oturumu + adlandırılmış özel alt ajanlar; G koordinasyonu ve G/Y güvence ayrı çağrı/bağlamlar; tek operasyon deposunda soul/devos ayrımı; paralel aday üretimi ve sıralı kontrollü yayın**.
+
+Resmî kaynak tazelemesi ve dar yerel Git probe'u bu seçimi besler. Gerçek hedef ortamda rol/araç/mesaj/kalıcılık veya shell/API/eski-yazıcı sınırı kanıtlanmadı. Takım seçeneği açık alternatif; hedef davranışı veya yeni kanıtla tercih değişebilir. Native worktree güvenlik duvarı veya Git commit'i içerik onayı sayılmaz.
+
+D013 ve D015'in ilk kayıttaki “henüz seçilmedi” ifadeleri kabul edilmiş kullanıcı kısıtının o zamanki statüsüdür; bugünkü aday teknik seçim bu bölüm/P4-01'de açıkça ayrıdır. İlk karar metinleri geriye dönük kullanıcı onayı varmış gibi değiştirilmedi.
 
 ## Açık kalanlar — karar veya uygulanmış özellik sayılmaz
 
-- Nihai DevOS mimarisi, agent sayısı ve alt ajan/takım seçimi.
-- P2-01/ACTORS'taki DR01–DR16 ilk sözleşmeler ve P3'ün DR06-G/Y, DR13-G/Y profilleri; kullanıcıca kabul edilmiş nihai kadro değildir.
-- Aktör → aile → rol → motivasyon önerisi ve motivasyonu rolün başarı yönü olarak içeride tutma aday yorumu; motivasyon başına agent kararı verilmedi.
-- P3 v0.5 mantıksal alanları, talep/itiraz/karar, bakım/yeniden kullanım, sürüme bağlı yayın ve kesinti sözleşmelerinin ayrıntıları. D021 bunların tümüne peşin kabul değildir.
-- Expertise/izin, actual agent allocation, iletişim, bağlam/kalıcılık/tetik, fiziksel dosya biçimi, fiilî yayın/çakışma/eski-yazıcı mekanizmaları.
-- Memory/RAG/KG/veritabanı/iş takip ürünü seçimi ve örneklerin bütün mimarisinin benimsenmesi.
-- R1–R25/F1–F8'in nihai organizasyon olması; family/rol sayısının agent sayısı olması; Foundation ground'larının modül, mekanik M kimliklerinin servis olması.
-- Cloud hedefi açıktır; P1 kaynak resmi ve P2/P3 taslakları hedef oturumun actual yeterliği değildir.
+- Nihai DevOS mimarisi, gerçek agent sayısı ve P4 koşullu tercihin hedefte yeterliği.
+- P2-01/ACTORS ilk sözleşmeleri, P3 DR06-G/Y ve DR13-G/Y profilleri, P4 runtime eşlemesi; kullanıcıca kabul edilmiş nihai kadro değildir.
+- Aktör→aile→rol→motivasyon önerisi; motivasyonu rolün başarı yönü olarak içeride tutma aday yorumu. Motivasyon başına agent kararı yoktur.
+- P3 v0.5 mantıksal alan, talep/itiraz/karar, bakım/yeniden kullanım, yayın ve kesinti ayrıntıları. D021 bunların tümüne peşin kabul değildir.
+- Hedef operasyon repository'si, Research erişimi, gerçek cloud sürüm/araçlar, ayrıntılı okuma/yazma/yayın izinleri ve doğrudan/dolaylı stale-writer koruması.
+- K1/K2'nin gerçek A→B→A çalışma ve kullanıcı tetiklemesiz rutin devam başarısı; checkpoint/re-entry ve bakımın fiilî karşılığı.
+- Memory/RAG/KG/veritabanı/iş takip ürünü seçimi ve örneklerin bütün mimarisinin benimsenmesi. P4 ilk tercih plugin veya dış orkestratöre dayanmaz.
+- R1–R25/F1–F8'in nihai organizasyon olması; aile/rol sayısının agent sayısı olması; Foundation ground'larının modül, M kimliklerinin servis olması.
 
 ## Plan ve araştırma statüsü
 
-[WORK](WORK.md) P1–P6 plan v1.3'ü taşır. Kullanıcının v0.4 sonrasındaki devamıyla birleşik eşzamanlılık/inceleme/kesinti senaryosu işlendi. Assistant P3'ü **DESIGN HANDOFF READY v0.5 / CANDIDATE / USER EVALUATION** düzeyinde değerlendirdi; bu değerlendirme accepted karar tablosuna eklenmedi. H1–H6 P4 için gereksinim devridir, çözüm seçimi değildir. P4–P6 başlamadı.
+[WORK](WORK.md) P1–P6 master plan v1.4'tür. P3 v0.5 kavramsal devir girdisi olarak korunur; formal kullanıcı kapanışı veya canlı başarı değildir. **P4 INITIAL TECHNICAL BASELINE / CONDITIONAL DESIGN / NOT DEPLOYED; P4 AÇIK.** Sıradaki bütünlüklü iş rol→araç→okuma/yazma/yayın matrisi ve hedef-cloud kabul denemesi paketidir. P5/P6 başlamadı.
 
-D021 kabulü ve yeni aday ayrıntılar ayrı kalır. Kullanıcı kapanışı, bütün P3 mimari onayı veya canlı çalışma başarısı uydurulmaz. Kısa sunum çalışma derinliğini küçültmez; her küçük ayrımda komut beklemek istenmez. D010'un önceki açık kalıcılık talebiyle eklenmiş agent-control karşılığı `agent/protocols/canonical-work-preflight.md` içindedir. Bu tur agent-control değiştirilmedi.
+D021/D022 ve assistant'ın yeni teknik tercihi ayrı kalır. Kısa sunum çalışma derinliğini küçültmez; her küçük ayrımda komut beklemek istenmez. D010'un önceki açık kalıcılık talebiyle eklenmiş agent-control karşılığı `agent/protocols/canonical-work-preflight.md` içindedir. Bu tur agent-control değiştirilmedi.

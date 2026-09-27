@@ -1,68 +1,69 @@
 # EXP-006 — HANDOFF
 
-**Güncelleme:** 27 Eylül 2026, P3 birleşik senaryo ve P4 gereksinim devri.  
-**Devralma:** **P3 DESIGN HANDOFF READY v0.5 / CANDIDATE / USER EVALUATION.** D021 sorumluluk sınırı accepted; bütün ayrıntılar ve runtime başarısı kabul edilmedi. **P4–P6 NOT STARTED.**  
-**Üst amaç:** SOUL'u geliştirecek Claude Code cloud ekibinin çalışma düzeni; assistant'ın SOUL backlog'unu seçmesi değil.
+**Güncelleme:** 27 Eylül 2026, P4 ilk teknik tasarım.  
+**Devralma:** **P4 INITIAL TECHNICAL BASELINE / CONDITIONAL DESIGN / NOT DEPLOYED. P4 AÇIK; P5/P6 NOT STARTED.**  
+**Üst amaç:** SOUL'u geliştirecek Claude Code cloud ekibinin düzeni. Assistant'ın SOUL backlog'unu seçmesi veya kullanıcının her rolü açması değil.
 
-## 1. Okuma ve kayıt yolu
+## 1. Okuma ve authority
 
-[STATE](STATE.md)→HANDOFF→[WORK](WORK.md)→[DECISIONS](DECISIONS.md)→[ACTORS](ACTORS.md)→[U002](sources/U002-cloud-plan-and-autonomy.md)→[P1-01](work/P1-01-claude-cloud-environment-map.md)→[P2-01](work/P2-01-named-role-contracts.md)→[P3-01](work/P3-01-work-information-discussion.md) tam okunur. Aynı konuşmada tam unchanged içerik tekrar yüklenmez.
+[STATE](STATE.md)→HANDOFF→[WORK](WORK.md)→[DECISIONS](DECISIONS.md)→[ACTORS](ACTORS.md)→[U002](sources/U002-cloud-plan-and-autonomy.md)→[P1-01](work/P1-01-claude-cloud-environment-map.md)→[P2-01](work/P2-01-named-role-contracts.md)→[P3-01](work/P3-01-work-information-discussion.md)→[P4-01](work/P4-01-cloud-runtime-and-workspace-design.md) tam okunur. Aynı konuşmada tam unchanged içerik tekrar yüklenmez.
 
-Üst plan WORK; current STATE; ayrıntılı P3 yalnız P3-01. P2/ACTORS ilk sözleşme tabanıdır; G/Y ve D021 farkları için P3'le birlikte okunur. 16 sözleşme 16 ajan değildir. Tarihsel S1/B current/next ifadeleri bu sırayı değiştirmez.
+WORK bütün harita; STATE current yetki; bu dosya devir; P4-01 güncel teknik tasarımın tek ayrıntı kaydıdır. P2/ACTORS ilk sözleşme tabanı, P3 G/Y ve H1–H6 devriyle birlikte kullanılır. P2 ilk 16 rolü otomatik 16 agent yapma. Eski P/S1/B dosyalarındaki next/not-started checkpoint'leri current yetkiyi değiştirmez.
 
-## 2. Kullanıcının yönü
+## 2. Kullanıcı yönü ve geçiş
 
-Kullanıcı P3'te acele karar yerine araştırmayla beslenen bütünlüklü yapı ve birlikte değerlendirme istedi. İşin koordinasyonuyla yapının koordinasyonunu ayırmayı önerdi. Sonrasında özellikle dosyaların, klasörlerin ve çalışma alanının düzeni/bulunabilirliği/yeniden kullanımı üzerinde durdu. İçerik sahibi–düzen sahibi ayrımını kabul etti; bu D021'dir.
+Kullanıcı P3'te işin koordinasyonu ile yapının koordinasyonunu, içerik denetimi ile alan düzeni denetimini ayırmayı önerdi. Özellikle dosyaların/klasörlerin yeri, güncelliği, bulunabilirliği, bakımı ve tekrar kullanılabilirliğini kastettiğini açıkladı. İçerik sahibi–düzen sahibi sınırı D021 ile dar biçimde kabul edildi.
 
-Kısa sunumun çok küçük miktarda iş yapmak veya her ayrımda kullanıcıdan yeni komut istemek anlamına gelmediği açıkça konuşuldu. Bu nedenle yeni oturum aynı ayrımı yeniden açıklayan turlara dönmemeli.
+P3 v0.5 iki iş/ortak dosya/açık itiraz/kesinti senaryosuyla kavramsal devre hazır bulundu. Kullanıcı bu sonuç ve P4 devam noktası sunulduktan sonra “devam et” dedi. Bu P4 teknik tasarım yetkisidir; bütün P3 detaylarının onayı, P4 önerisinin benimsenmesi veya P5 kurulum izni değildir.
 
-v0.4 toparlamasından sonra verilen “devam et.”, ilan edilmiş iki eşzamanlı iş/ortak kayıt/açık inceleme/kesinti senaryosunu açtı. v0.5 bu sınırlı incelemeyi ve P4 gereksinim devrini tamamlar. Kullanıcının bütün tasarımı kabul ettiği veya P4 teknik seçiminin yapıldığı sonucu çıkarılmaz.
+Kısa cevap istenmesi az iş yapmak veya her küçük adımda kullanıcı komutu beklemek değildir. Bu tur bir rol adı daha eklemek yerine topoloji, dosya düzeni, çağrı ve yayın yolunu birlikte kuran taslak hazırlandı.
 
-## 3. Korunan çalışma resmi
+## 3. İlk teknik tercih
 
-- **G — SOUL geliştirme:** Gerekli iş/önkoşul keşfi ve plan, araştırma/tasarım/üretim, içerik/sonuç güvencesi.
-- **Y — DevOS işleyişi ve çalışma alanı:** Katılım, iletişim, araç/erişim, bağlam, kalıcı alan düzeni, bakım/tekrar kullanım ve devir; bunların fiilî kullanılabilirliği.
+**Ana Claude cloud oturumu DR06-Y / DevOS İşletim Koordinatörü olsun; G koordinasyonu ve uzman katkılar adlandırılmış özel alt ajanlarla çalışsın.** Takımlar başlangıç zorunluluğu değil, açık alternatiftir.
 
-İkisi de DevOS içinde Work/reasoning'dir. Y yalnız Foundation ENVIRONMENT'ı veya kozmetik temizlik değildir. G/Y hedef ekseni F1–F8 başarı yönü ekseninden ayrıdır; iki kapalı ekip veya her rolün iki kopyası değildir.
+Neden: İletişim yalnız takımlara özgü değil. Özel rol/girdi/araç sözleşmelerini ve merkezi olmayan teknik kararları koruyarak K1/K2'yi native yoldan kurma adayı var. Karşılığında gerçek alıcı/resume/background davranışı hedefte gösterilmelidir. Daha iyi çalıştığı deneysel olarak kanıtlanmadı.
 
-DR06-G işin öncelik/bağımlılıklarını; DR06-Y çalıştırma/kapasite/bakım/devrini koordine eder. G olmayan kaynağı varsayamaz, Y ürün kriterini sessizce düşüremez. DR13-G içerik/sonuç; DR13-Y çalışma koşulları/current erişim güvencesidir. Ayrı isim veya iki olumlu sonuç epistemik bağımsızlık kanıtı değildir.
+Ana Y, çağırma/katılım/kapasite/kalıcı kayıt ve kontrollü yayını işletir. G koordinatörü ayrı bağlamda iş önceliği/bağımlılık/sonuç birleştirmeyi taşır. Planlama, araştırma, tasarım ve bilgi/bakım rollerinin gerekenleri etkinleşir. G/Y inceleyicileri ayrı, üreticinin geçmişini otomatik kopyalamayan ve doğrudan yazmayan çağrılardır. Uygulama/koşu gerekiyorsa ayrı üretim kanalı kullanılır.
 
-DR07 yer/statü/sürüm/indeks/yaşam döngüsü bütünlüğünü; DR08 uzmanla birlikte tüketici bağlamını; içerik sahibi kendi sonucunu/gerekçesini taşır. Yayın sorumlusu ilgili değişiklik kapsamında belirlenir: bütün dosyaların tek yazıcısı DR07 varsayılmaz. Anlamsal uyuşmazlığı düzen görevlisi keyfî çözüp current yapamaz.
+Bir işi yapan uzman başka aktif uzmana soru sorabilir; henüz yoksa Y gerekli rolü etkinleştirir. Her mesaj Y'nin tekrar yazacağı özet değildir. Talep sahibi ve tüketici, native çağıranla otomatik eşitlenmez; Work/request ve dönüş kaydı korunur. G yeterliği yerine Y'nin mesaj başarı sinyali kullanılamaz.
 
-## 4. v0.5 birleşik senaryodan devir
+**Tercih değişim koşulu:** Alt ajan yolu süregelen akran çalışmasını güvenilir taşıyamıyor, gereksiz kullanıcı tetiklemesi veya Y üzerinde anlam kaybettiren yeniden kurulum gerektiriyorsa takım yolu tekrar karşılaştırılır. Daha fazla agent veya takım etiketi tek başına üstünlük kanıtı değildir.
 
-**Örnek:** A ortak dosyanın iddiasını değiştiren aday üretirken B aynı dosyanın mevcut iddiasına bir sınama bağlantısı ekler. İkisi r0'dan başlar; A'ya yönelik İ-A inceleme itirazı açık kalır. B'nin dar kapsamı ayrıca yeterli bulunmuş olsun. Bu varsayımsal yürüyüştür; gerçek SOUL işi veya test sonucu değildir.
+## 4. Fiziksel alan ve kalıcılık
 
-P3-01 §8, B yayını sırasında kesin sonuç alınmadan oturumun kesilmesini de işler. Yeniden girişte dosya r1, ilgili giriş hâlâ r0 görünüyorsa yapılacak iş yeni üretimi tekrarlamak değil kısmi yayını/deviri uzlaştırmaktır. A yeni bağlamla devam eder; r0 temelli geç çıktı r1'i ezemez. A'nın yeni iddiası B'nin kanıt bağını etkiliyorsa salt metinsel birleşme yeterli olmaz.
+Bir operasyon deposu içinde `soul/` ürün ve `devos/` iş/bilgi/karar/deneme/kütüphane alanları önerildi; gerçek repo seçilmedi veya açılmadı. Araştırma ayrı, ref'i bilinen salt-okur kaynaktır. Research erişimi hedefte doğrulanacak; Research kontrol dosyaları otomatik DevOS talimatı yapılmayacak.
 
-**Korunacak sonuçlar:**
-- Paralel adaylar korunabilir; tek current nesnenin değişimi güncel temel, bağımlılık, inceleme ve yetkiyle bağlanmalıdır.
-- İnceleme itirazı yeni ad/sürümle kaybolmaz. Olumlu eski hükmün yeni sürüme taşınması da ayrıca gerekçelendirilir.
-- Kaynak, current designation ve tüketicinin gerçekten aldığı görünüm ayrı olabilir. Kısmi/unknown yayın ilgili tüketimi hazır yapmaz.
-- Uygulandı/uygulanmadı/kısmi/bilinmiyor ayrımı, yeniden denemeden önce gerçek kaynaktan uzlaştırılır. Aynı işlem gereksizce tekrarlanmaz.
-- İşin kimliği ile çalışma/yayın denemesinin kimliği ayrıdır. Görevlendirme değişince eski çalıştırmanın yazma yolu fiilen korunmalıdır; yalnız yeni bir kayıt yetmez.
-- Yeni bir adayın itirazı, eski current'ın mutlaka yanlış olduğunu göstermez. Ancak eski current da yanlışlanmışsa sırf yayımlanmış diye güvenilir tutulamaz.
-- Engelin etkisi kapsamlıdır: ilgili yayın/tüketim tutulur, bağımsız çalışmalar otomatik durmaz. Gerçek kullanıcı durdurması aşılmaz.
+Etkin rol tanımları `.claude/agents/`; ortak kısa giriş `CLAUDE.md`; aktif yöntemler `.claude/skills/`; izin/olay bağlantıları settings/hooks. Sırf aile–rol ayrımı var diye bütün tanımların ikinci `rol.md` kopyası yaratılmaz. Kütüphanedeki aday ve etkin skill aynı anda iki authoritative metin olmaz. Arşiv/yedek otomatik aktif keşfin dışında tutulur.
 
-Senaryo bir katkının tamamlanıp diğerinin itirazının açık kaldığı meşru ara durumda biter. Bu sahte başarı üretmeme tasarım sonucudur; runtime'ın böyle davrandığı kanıtı değildir.
+Geçici üretim kopyaları native worktree adayıdır; başlangıç SHA'sı açıkça kontrol edilir. Aday değişiklik ile geçerli içerik, iş kaydı ile çalışma denemesi ayrı kalır. Okuyucu uygun commit/snapshot'a bağlanır. Git commit varlığı içerik onayı değildir.
 
-## 5. P3 yeterlik hükmü ve kalan yük
+Dayanıklı checkpoint, cloud'un izinli session branch'ine doğrulanmış yayındır; her rol geçişinde main merge'i veya Batu onayı beklenmez. Yerel worktree/auto-memory tek otorite değildir. Son dayanıklı kayıttan sonraki kaydedilmemiş çalışma kaybolabilir; sınırsız kayıpsızlık garanti edilmedi.
 
-Kavramsal teslimat kapsamında sahip, kalıcı durum, tüketici ve sonraki tetik için açık aday karşılıklar bulundu. Yeni bir rol ailesi veya yeni genel audit kampanyası gerektiren somut açık bulunmadı. **P3 tasarım devrine hazır adaydır; kullanıcı kapanışı değildir.**
+## 5. Yayın ve gerçek açık
 
-P4'e giden altı yükün tek ayrıntı kaydı P3-01 §10:
-H1 rol/ilk etkinleşme; H2 fiziksel çalışma alanı ve current erişim; H3 değişiklik/yayın koruması; H4 talep/yanıt/tüketim; H5 kesinti/kısmi sonuç/eski-yazıcı; H6 güvence/bakım/yeniden kullanım.
+**Paralel aday üretimi, aynı branch'e sıralı kontrollü yayın** ilk tercihtir. Y yayın kanalını işletir; içerik kararı ilgili alan sahibi ve uygun inceleyicide kalır. Bu, DR07 bütün dosyaları yazsın anlamına gelmez.
 
-P4, bunları tek tek yeni özel servis icat ederek değil, gerçek Claude seçenekleri ve gerektiğinde en uygun mevcut mekanizmalarla karşılaştırarak cevaplamalı. P2 registry + P3 farkı birlikte etkin görevlendirmeye bağlanmalı. Alt ajan/takım veya gerekçeli birleşim henüz seçilmedi. P1 Q01/Q02/Q04/Q05/Q06 ilgili yolda doğrulanacak; Q03 ancak plugin seçimi yük taşıyorsa açılacak.
+Yayın hedefi/temeli, maddi bağımlılıkları, etkin görevlendirmeyi, değişen yol kapsamını ve inceleme/itiraz bağlarını karşılaştırmalıdır. Ürün ve ilişkili çalışma/index değişikliği aynı anlamlı commit'e bağlanabilir. Beklenen eski SHA, aradaki değişiklikleri yakalamak için mekanik adaydır.
 
-## 6. Kaynak ve doğrulama sınırı
+**Kapanmamış H3/H5:** Worktree, tool etiketi, prompt veya Git old-SHA kontrolü tek başına izin duvarı değildir. Genel Bash, paylaşılan Git alanı, API/MCP ve kontrol dosyası değişimi bunu atlayabilir. Hedef cloud'da sınırlı yazıcı/eski-görevli koruması gösterilmeden paralel mutasyon güvenli denmez. Güvenli alternatif gerekirse salt-okur uzmanlar + dar mutasyon kanalı veya farklı izolasyondur; gereksinim sessizce azaltılmaz.
 
-v0.5'te Beads META tam, FINDINGS 1–245 seçici okundu. Tarihsel kaynak study'sindeki claim/liveness/reopen ayrımları hedefli kullanıldı; claim dosya yazma yetkisi veya sonucun doğruluğu yapılmadı. Önceki Information I1–I5/Revision M5, Hermes Note30 ve Gas Town okumaları belirtilmiş kapsamla korundu. Gerçek iz P3-01 §9'dadır.
+Kesintide önce remote/local checkpoint, gerçek yayın ve yetkili görevlendirme uzlaştırılır; uygulanmış işlem sırf ACK kaybolduğu için tekrarlanmaz. Eski alıcı adı/actor ID yeni yetki sayılmaz. Açık iş, itiraz, kaynak sürümü ve tüketici bağlantısı korunur.
 
-Yeni dış ürün özelliği araştırılmadı; canlı Claude, dosya yarışı, yayın timeout'u veya recovery deneyi yapılmadı. Masa başı senaryo bağımsız doğrulama değildir. S1-16 full-read qualification'ı S1-17 §7'de kalır; bütün Foundation/studies yeniden okundu iddiası yoktur.
+## 6. Kanıt ve açık kabul kapıları
 
-## 7. Current dönüş
+Resmî Claude subagent/team/cloud/worktree/permission/hook/memory belgeleri ile Git update-ref/worktree belgeleri hedefli tazelendi. Tüm sayfalar veya tüm product davranışı doğrulandı denmez. Teknik tasarım çıkarımı kaynak olgusundan ayrıdır; ayrıntı P4-01 §8.
 
-Bu tur kullanıcıya birleşik senaryonun neyi değiştirdiğini ve P3 taslağının P4'e devre hazır olduğunu kısa sun. Sonraki kullanıcı devamıyla P4'te çalışma biçimi/actor allocation ve fiziksel alanı H1–H6'ya karşı birlikte tasarla. P4 bu tur başlamadı; yeni dosya/klasör mekanizmaları kurulmadı.
+Yerel Git 2.47.3 probe'u: beklenen r0 ile A yayını başarılı; aynı r0 ile B güncellemesi reddedildi ve A korundu. Beklenen eski değer kaldırılınca B yazılabildi. Bu, yalnız mekanik sürüm kontrolünü ve atlanabilirliğini gösterir. Hedef Claude, gerçek iki-agent yarış, ağ kesintisi veya sandbox/izin testi değildir.
 
-Kullanıcı düzeltmesi veya somut teknik engel varsa ilgili P3/P2 kısmını hedefli aç. Bunlar yoksa yeni genel P3 audit'i, aynı örnek tekrarı veya rol taxonomy'sine dönüş yoktur. EXP-006 açık kalır; kısa sunum için çalışma bütünlüğü küçültülmez.
+P1 Q01/Q02/Q04/Q05/Q06 hâlâ seçilen yolda hedef kanıtı ister. Plugin'e dayanmayan taslakta Q03 çözülmüş sayılmaz ama gereksiz plugin araştırması açılmaz. P4 H1–H6 matrisi tasarım karşılıklarını ve canlı kabul gereğini birlikte taşır; metnin yazılması geçiş ölçütünü tamamlamaz.
+
+S1-16 kaynak-tamlığı qualification'ı ve P3'ün nitel/same-assistant sınırı korunur. Research repo yayını DevOS'un kendi publication yolunun deneyi değildir.
+
+## 7. Sıradaki anlamlı P4 işi
+
+Rol→araç→okuma/yazma/yayın yetki matrisini ve hedef cloud için bir kabul denemesi paketini tamamla. Tanım/araç yüklenmesi, A→B→A ve sonucun kullanımı, checkpoint/yeniden giriş, doğrudan/dolaylı eski-yazıcı karşı vakaları birlikte bulunmalı.
+
+İlgili gerçek target repo, Research erişimi, araç/sürüm veya çalıştırma kanıtı gerektiğinde bunu görünür açık olarak tut. Kullanıcıya kendisinde olmayan teknik kararı çözdürme; fakat var olmayan hesabı/erişimi de varsayma. Hedef koşulu seçim yönünü değiştirirse P4 alternatifini gerekçeli değiştir.
+
+P4 açık kalır; bu tur P5 actual ajan/skill/hook dosyası veya hedef repo oluşturulmadı. Yeni genel P3 audit'i, aynı örnek tekrarı veya tüm familyaları yeniden sınıflandırma yapılmaz. Kullanıcıya başlangıç tercihi, fiziksel karşılığı ve kapanmamış kritik kanıtı kısa sun.

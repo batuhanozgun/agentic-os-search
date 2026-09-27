@@ -1,10 +1,10 @@
 # EXP-006 — WORK ve master plan
 
 **Rol:** DevOS tasarımının üst iş haritası, bağımlılıkları ve aşama teslimatları.  
-**Plan:** v1.3 — 27 Eylül 2026; P1–P6 hedef ve sırası korunuyor. P3 ayrıntısı v0.5 tasarım devrine hazır aday düzeyine ilerledi.  
+**Plan:** v1.4 — 27 Eylül 2026; P4 ilk teknik tasarım açıldı, P1–P6 hedef ve sırası korunuyor.  
 **Üst amaç:** Claude Code cloud ortamında SOUL'u geliştirecek ekibin çalışabileceği düzeni ortaya koymak ve yetkilendirilen aşamalarda gerçekleştirmek/sınamak.  
-**Current:** **P3 DESIGN HANDOFF READY v0.5 / CANDIDATE / USER EVALUATION.** D021 kabul; bütün tasarım veya runtime kabulü değil. P2 ilk sözleşme tabanı ve P1 kaynak sonucu/runtime açıkları korunur. **P4–P6 başlamadı.**  
-**Kaynak:** [U002](sources/U002-cloud-plan-and-autonomy.md); kısıtlar [DECISIONS](DECISIONS.md), son yön [P3-01 §1](work/P3-01-work-information-discussion.md#1-kullanıcı-yönü-ve-önerinin-sınırı). Current yetki STATE, devir HANDOFF'tadır.
+**Current:** **P4 INITIAL TECHNICAL BASELINE / CONDITIONAL DESIGN / NOT DEPLOYED.** Ana Y oturumu + özel alt ajanlar, fiziksel alan ve kontrollü yayın başlangıç tercihidir; hedef yeterliği veya kullanıcı mimari kabulü değildir. P3 v0.5 kavramsal devir, D021 kabulü ve P2 ilk sözleşmeler korunur. **P4 açık; P5/P6 başlamadı.**  
+**Kaynak:** [U002](sources/U002-cloud-plan-and-autonomy.md), [DECISIONS](DECISIONS.md), [P3-01](work/P3-01-work-information-discussion.md), [P4-01](work/P4-01-cloud-runtime-and-workspace-design.md). Current yetki STATE, devir HANDOFF'tadır.
 
 ## 1. Önceki çalışmadan devralınan zemin
 
@@ -34,28 +34,28 @@ F2 gerçekleştirme sorumluluğu örtük kalmaz; her dosya yazımı F2 değildir
 
 Bu, **DevOS'u ortaya koyma planıdır; DevOS'un SOUL'u üretme planı değildir.** İlk ve sonraki gerçek SOUL işlerini kurulacak ekip keşfeder, değerlendirir, planlar ve yürütür. Assistant bunları ekibin yerine seçmez. Tasarım senaryosu gerçek backlog veya bağımsız iş keşfi başarısı sayılmaz.
 
-**K1 — İşlevsel iletişim:** Bir rol başka rolden bilgi, araştırma, değerlendirme veya kontrol isteyebilmeli; talep uygun sorumluya ulaşmalı, çalışma etkinleşmeli, yanıt geri dönmeli ve sonraki kararda kullanılabilmelidir. Doğrudan mesaj, ana oturum, ortak kayıt, olay veya başka yöntemler adaydır. Talebi dosyaya yazmak tüketildiğini göstermez.
+**K1 — İşlevsel iletişim:** Bir rol başka rolden bilgi, araştırma, değerlendirme veya kontrol isteyebilmeli; talep uygun sorumluya ulaşmalı, çalışma etkinleşmeli, yanıt geri dönmeli ve sonraki kararda kullanılabilmelidir. Doğrudan mesaj, ana oturum, ortak kayıt, olay veya başka yöntemler karşılaştırıldı; ilk teknik seçim §4D'de, gerçek yeterlik açık. Talebi dosyaya yazmak tüketildiğini göstermez.
 
 **K2 — Rutin akışın elle tetiklenmemesi:** Yetkili çalışma başladıktan sonra her rol/sonraki iş için Batu'nun komutu veya mesaj taşıması gerekmez. Başlangıç/yeniden başlatma, gerekli müdahale, gerçek yetki ihtiyacı ve kabul mümkündür. Sonsuza kadar kesintisiz, bütçesiz veya bütünüyle insan-bağımsız çalışma gereksinimi yoktur.
 
 **D021 — Çalışma alanı düzeni:** Dosya/kayıtların yeri, güncelliği, tek yetkili kaynağı, bulunabilirliği, kaynak/sürüm ilişkileri, kontrollü bakımı, devri ve tekrar kullanımı asli sorumluluktur. İçerik sahibi ne söylendiği/gerekçesini taşır; düzen tarafı onu korunabilir/kullanılabilir tutar, ürün kararının yerine geçmez. Görsel klasör temizliği yeterli değildir.
 
-Kanon manuel tetikleme sınırının; loopinance_v2 kullanıcının rutin tetikleyici olmamasının örneğidir. V2 veya ECC'nin bütünü benimsenmedi. SOUL ürün dosyaları ile DevOS'un kendi plan/bilgi/karar/kanıt/devam kayıtları ayrı amaçlı ve ilişkili yönetilir; iki ayrı repository veya belirli klasör şeması seçilmedi.
+Kanon manuel tetikleme sınırının; loopinance_v2 kullanıcının rutin tetikleyici olmamasının örneğidir. V2 veya ECC'nin bütünü benimsenmedi. SOUL ürün dosyaları ile DevOS'un kendi plan/bilgi/karar/kanıt/devam kayıtları ayrı amaçlı ve ilişkili yönetilir. P4 aynı operasyon deposunda ayrı alanları önerir; gerçek hedef repository henüz seçilmedi/oluşturulmadı.
 
 ## 3. Master plan — baştan görünen bütün yol
 
 | Aşama | Esas soru ve teslimat | Dayanak / önceki bağ | Geçiş ölçütü | Durum |
 |---|---|---|---|---|
-| **P1 — Claude cloud gerçekliği** | K1/K2 bakımından alt ajan, ana oturum ve ajan takımı imkân/sınırlarının kaynaklı Environment haritası | Birincil Claude belgeleri; B5/B6/B8; ilgili Loopinance kaynakları | Belge, gözlem ve açık belirsizlik ayrı; iletişim/tetik/bağlam/yetki/süreklilik sınırları görünür | **KAYNAK İNCELEMESİ TAMAM / RUNTIME SINANMADI**; [P1-01](work/P1-01-claude-cloud-environment-map.md) |
-| **P2 — Adlandırılmış roller** | Açık rol isimleri ve amaç/başarı yönü, bilgi, teslimat, yetki sözleşmeleri | P1; ACTORS; S1-02/03/17; Actors/Work Foundation ve studies | Kim ne için var, ne üretir, kimle hangi koşulda etkileşir anlaşılır; sayıdan agent çıkarılmaz | **İLK TASLAK / CANDIDATE**; [P2-01](work/P2-01-named-role-contracts.md); P3 G/Y ve D021 farklarıyla birlikte okunur |
-| **P3 — WORK–INFORMATION işleyişi** | İş keşfi, tartışma, planlama, araştırma/üretim, alan bakımı, tekrar kullanım ve devam döngüsü | P2; Work/Information Foundation; B2/B4/B6/B8; studies | İş/plan/gerçek ayrımı, karar/kayıt sahipliği, bilgi kullanımı, alan düzeni ve devir görünür | **DESIGN HANDOFF READY v0.5 / CANDIDATE / USER EVALUATION**; [P3-01](work/P3-01-work-information-discussion.md); canlı başarı veya bütün ayrıntıların kabulü değil |
-| **P4 — Bütünleşik DevOS tasarımı** | P1–P3 ile alt ajan/takım veya gerekçeli birleşim; actor allocation, iletişim, fiziksel çalışma alanı ve sahiplik | P1 kanıtı + P2 tabanı + P3 G/Y, D021 ve H1–H6; B6/B7/B9 | K1/K2 ve alan düzeni için uçtan uca yol; seçimi taşıyan Environment açıkları doğrulanmış, tasarım gözden geçirilmiş | **NEXT LOGICAL PHASE / NOT STARTED**; kullanıcı değerlendirmesi/sonraki devamıyla |
+| **P1 — Claude cloud gerçekliği** | K1/K2 bakımından alt ajan, ana oturum ve ajan takımı imkân/sınırlarının kaynaklı Environment haritası | Birincil Claude belgeleri; B5/B6/B8; ilgili Loopinance kaynakları | Belge, gözlem ve açık belirsizlik ayrı; iletişim/tetik/bağlam/yetki/süreklilik sınırları görünür | **KAYNAK İNCELEMESİ TAMAM / RUNTIME SINANMADI**; [P1-01](work/P1-01-claude-cloud-environment-map.md); P4'te hedefli tazeleme |
+| **P2 — Adlandırılmış roller** | Açık rol isimleri ve amaç/başarı yönü, bilgi, teslimat, yetki sözleşmeleri | P1; ACTORS; S1-02/03/17; Actors/Work Foundation ve studies | Kim ne için var, ne üretir, kimle hangi koşulda etkileşir anlaşılır; sayıdan agent çıkarılmaz | **İLK TASLAK / CANDIDATE**; [P2-01](work/P2-01-named-role-contracts.md); P3/P4 farklarıyla birlikte |
+| **P3 — WORK–INFORMATION işleyişi** | İş keşfi, tartışma, planlama, araştırma/üretim, alan bakımı, tekrar kullanım ve devam döngüsü | P2; Work/Information Foundation; B2/B4/B6/B8; studies | İş/plan/gerçek ayrımı, karar/kayıt sahipliği, bilgi kullanımı, alan düzeni ve devir görünür | **DESIGN HANDOFF READY v0.5 / CANDIDATE**; [P3-01](work/P3-01-work-information-discussion.md); P4 girdisi, tüm ayrıntılara kullanıcı kabulü veya canlı başarı değil |
+| **P4 — Bütünleşik DevOS tasarımı** | P1–P3 ile alt ajan/takım veya gerekçeli birleşim; actor allocation, iletişim, fiziksel çalışma alanı ve sahiplik | P1 tazelemesi + P2 tabanı + P3 G/Y, D021 ve H1–H6 | K1/K2 ve alan düzeni için uçtan uca yol; seçimi taşıyan Environment açıkları doğrulanmış, tasarım gözden geçirilmiş | **ACTIVE / INITIAL CONDITIONAL DESIGN**; [P4-01](work/P4-01-cloud-runtime-and-workspace-design.md). İlk tercih var, hedef izin/iletişim/kalıcılık kanıtı açık |
 | **P5 — Dosyalar ve mekanizmalar** | Seçilen tasarımın gerçekten tüketilen ajan tanımları, ortak talimatlar, kayıt/bağlam ve kontrollerle gerçekleştirilmesi | P4; gereken yerde yeniden doğrulanan P1 | Dosya varlığı değil yükleme, etkinleşme, izin ve tüketici bağı gösterilir; gereksiz özel sistem yok | PLANNED / NOT STARTED |
 | **P6 — Sınama ve devretme** | Hedef devri, iş keşfi, talep/cevap, normal otomatik ilerleme ve müdahale sonrası devam | P5; B9; gerçek Environment ve güvence gereği | Rutin rol geçişinde kullanıcı tetiklemesi gerekmiyor; bilgi/karar/sürüm bağı ve başarısız/açık durumlar korunuyor | PLANNED / NOT STARTED |
 
 **Bağımlılık:** P1 → P2 ↔ P3 → P4 → P5 → P6. Yeni yük taşıyan ortam sorusu P1'e; gerçek rol/anlam açığı ilgili P2/P3'e; P6 kusuru sorumlu aşamaya hedefli döner. Geri dönüş bütün planı yeniden başlatmaz.
 
-Bu plan katı waterfall veya kabul edilmiş mimari değildir. Kaynaklı Environment bilgisi actual hedef yeterliği sayılmaz. Tasarımda kullanıcıya dönüş kapısı, kurulacak DevOS'un her rutin iç adımında Batu onayı isteyeceği anlamına gelmez.
+Bu plan katı waterfall veya kabul edilmiş mimari değildir. Kaynaklı Environment bilgisi actual hedef yeterliği sayılmaz. P4'te seçimi taşıyan dar probe'lar, P5'te bütün gerçekleştirme ve P6'da uçtan uca kabul farklı kapsamlardır. Tasarımda kullanıcıya dönüş kapısı, kurulacak DevOS'un her rutin iç adımında Batu onayı isteyeceği anlamına gelmez.
 
 ## 4. Sonuçlar ve aşamalar arası devir
 
@@ -73,17 +73,29 @@ Q01–Q06: etkin cloud kip/araçları; talep→kullanım; plugin çelişkisi; ka
 
 v0.4 bakım tetiklerini ve mantıksal yerleşimi birleştirdi. v0.5, iki katkının aynı dosyaya yazması, birine açık inceleme itirazı, yayın sırasında kesinti ve eski çalıştırmadan geç çıktı durumunu tek yürüyüşte ele aldı. Paralel aday ile current yayın; temel sürüm ile maddi bağımlılık; açık itiraz ile değişen dosya adı; içerik yayını ile doğru tüketici görünümü; iş ile çalıştırma/yayın denemesi ayrıldı.
 
-**Çalışma sonucu:** Kavramsal P3 teslimatı P4'e devre hazır bulundu. Bu, kullanıcı kapanışı veya canlı test sonucu değildir. Senaryonun sonunda bir katkının yayımlanıp diğerinin incelemesinin açık kalması doğru bir tasarım durumu olabilir. Yeni genel audit veya yeni rol ailesi gerektiren somut açıklık bulunmadı; teknik karşılıklar henüz gösterilmedi.
+**Çalışma sonucu:** Kavramsal P3 teslimatı P4'e devre hazır bulundu. Bu, kullanıcı kapanışı veya canlı test sonucu değildir. Senaryonun sonunda bir katkının yayımlanıp diğerinin incelemesinin açık kalması doğru bir tasarım durumu olabilir. Yeni genel audit veya yeni rol ailesi gerektiren somut açıklık bulunmadı; teknik karşılıklar P4'te ele alınır.
 
 Beads META/FINDINGS hedefli reuse'u claim/liveness/reopen ve etkinin belirsizliği sınırlarını besledi. Information I1–I5/Revision M5, Hermes Note30 ve Gas Town'un önceki kapsamları kullanıldı. Gerçek okuma ve nitel kanıt sınırı P3-01 §9'dadır.
 
-### 4C. P4'e giden gereksinimler
+### 4C. P4'e geçen gereksinimler
 
-Tek ayrıntı matrisi [P3-01 §10](work/P3-01-work-information-discussion.md#10-p3-değerlendirmesi-ve-p4e-gereksinim-devri)'dedir: H1 rol/ilk etkinleşme; H2 fiziksel alan/current erişim; H3 değişiklik/yayın; H4 talep/tüketim; H5 kesinti/kısmi sonuç/eski yazıcı; H6 güvence/bakım/yeniden kullanım.
+Tek kavramsal devir matrisi [P3-01 §10](work/P3-01-work-information-discussion.md#10-p3-değerlendirmesi-ve-p4e-gereksinim-devri)'dedir: H1 rol/ilk etkinleşme; H2 fiziksel alan/current erişim; H3 değişiklik/yayın; H4 talep/tüketim; H5 kesinti/kısmi sonuç/eski yazıcı; H6 güvence/bakım/yeniden kullanım.
 
-P4 bu yükleri gerçek Claude seçenekleri ve fiziksel çalışma alanı tasarımıyla birlikte karşılaştırır. P1 Q01/Q02/Q04/Q05/Q06 seçilen yolda doğrulanır; Q03 yalnız plugin'e dayanılırsa açılır. Karşılanamayan yük sessizce varsayılmaz: başka yol veya hedefli P2/P3 revizyonu gerekir. P5 uygular, P6 negatif yollarla fiilî davranışı sınar.
+P4 bu yükleri gerçek Claude seçenekleri ve fiziksel alan tasarımıyla birlikte karşılaştırır. P1 Q01/Q02/Q04/Q05/Q06 seçilen yolda doğrulanır; Q03 yalnız plugin'e dayanılırsa açılır. Karşılanamayan yük sessizce varsayılmaz: başka yol veya hedefli P2/P3 revizyonu gerekir. P5 uygular, P6 negatif yollarla fiilî davranışı sınar.
 
-**Current dönüş:** P3 sonucu kullanıcıya sunulur. Sonraki kullanıcı devamında P4 açılabilir; bu tur açılmadı. Yeni karşı kanıt veya kullanıcı düzeltmesi yoksa aynı soyut P3 karşılaştırmaları tekrarlanmaz.
+### 4D. P4 ilk teknik tercih ve sıradaki açık
+
+Kullanıcının P3 devir sonucundan sonraki devamıyla [P4-01](work/P4-01-cloud-runtime-and-workspace-design.md) açıldı. **İlk tercih:** ana Y cloud oturumu + adlandırılmış, mesajlaşan özel alt ajanlar. G koordinasyonu ve G/Y incelemeleri ayrı görevlendirme/bağlamlar. Takım alternatifi korunur; mevcut sözleşmeleri tek genel modelin şapkaları olarak yürütmek başlangıç tercihi değildir.
+
+**Fiziksel tasarım:** Tek operasyon deposunda `soul/` ve `devos/`; native `.claude/agents/` tanımları, ortak `CLAUDE.md`, aktif skill'ler ve kontrollü kayıt/yayın yordamları. Research ayrı salt-okur/ref'li kaynak. Hedef repo seçilmedi veya oluşturulmadı; burada gerçek ajan dosyaları yazılmadı.
+
+**İşleyiş:** Mevcut rol doğrudan mesaj alabilir; eksik rol Y üzerinden etkinleşir. Kalıcı request/consumer bağı native sohbetten ayrı korunur. Paralel üreticiler kendi çalışma kopyalarında aday verir; aynı branch'e yayın sıralı kontrollü yoldadır. Y yayını işletir ama içeriği keyfî onaylamaz. Geliştirme checkpoint'i izinli cloud çalışma branch'inde tutulur; her rol için main merge'i veya kullanıcı tetiklemesi gerekmez.
+
+Resmî Claude/Git kaynakları tazelendi. Yerel Git primitive probe'u beklenen eski SHA kontrolünün stale ref yazımını reddettiğini, koşul kaldırılırsa yazmanın yapılabildiğini gösterdi. Bu hedef Claude, güvenlik sınırı veya canlı çoklu ajan testi değildir.
+
+**Kritik açık:** Worktree/old-SHA/prompt tek başına shell/API/MCP/paylaşılan Git ve eski-yazıcı yollarını kapatmaz. Hedefte fiilî sınır gösterilmeden paralel mutasyon güvenli sayılmaz. Gerekiyorsa daha dar mutasyon kanalı veya izolasyon seçilir; H3/H5 gereği düşürülmez. Bu nedenle P4 tamamlanmadı.
+
+**Sıradaki bütünlüklü P4 işi:** Rol→araç→okuma/yazma/yayın yetki matrisi ve tek hedef-cloud kabul denemesi paketi. Tanım yüklenmesi, A→B→A, kaynaklı sonucun kullanımı, dayanıklı checkpoint/yeniden giriş ve doğrudan/dolaylı stale-writer karşı vakaları birlikte ele alınır. Hedef erişimi ve actual çalışma kanıtı gereken yerde açıkça ayrılır; P5'e sessiz geçilmez.
 
 ## 5. Foundation ve studies kullanım yolu
 
@@ -97,13 +109,13 @@ Foundation gereklilik keşfi/bakış açısı sağlar, hazır reçete değildir.
 
 ## 6. Açık tasarım kararları
 
-P2 motivasyonu rolün başarı yönü, gerçek agent binding'ini ayrı görevlendirme olarak tutan adaydır; motivasyon başına agent seçilmedi. P3 H1–H6 ve G/Y profilleri P4 için çalışma gereksinimi adayıdır; D021 bütün şema/yetki/ajan kararlarına peşin onay değildir.
+P2 motivasyonu rolün başarı yönü, gerçek agent binding'ini ayrı görevlendirme olarak tutan adaydır; motivasyon başına agent seçilmedi. P3 H1–H6 ve G/Y profilleri P4 girdisidir; D021 bütün şema/yetki/ajan kararlarına peşin onay değildir.
 
-Actor allocation, alt ajan/takım, fiziksel dosya/klasör, çağrı/mesaj, güncel-sürüm yayın koruması, izin/kalıcılık ve ilk bootstrap henüz seçilmedi. Bunların karşılığını P4 tasarlar, P5 gerçekleştirir, P6 sınar. P3 tasarım devrine hazır olması bunları çözülmüş saydırmaz.
+P4'te topoloji ve fiziksel alan için koşullu başlangıç tercihi yapıldı. Gerçek agent sayısı, alana özgü dağılım, ayrıntılı araç/izin matrisi, doğrudan/dolaylı yazma sınırı, hedef depo/Research erişimi ve ilk bootstrap'ın gerçek çalışması açık. Native iletişim imkânı doğru iş keşfi veya bağımsız güvenceyi kanıtlamaz. Bunlar gerçekleşmiş gibi P5/P6 kapanışı yapılmaz.
 
 ## 7. Yaşayan plan ve değişim kaydı
 
-Her tur current işi P kimliğine/teslimata bağlar; sonucu, kaynağı/sürümü, açık yükü ve üst işe dönüşü korur. Kısa sunum gerekli çalışma bütünlüğünü azaltmaz. Maddi değişiklikte current STATE, devir HANDOFF, üst plan WORK ve gerçek kullanıcı kararı DECISIONS güncellenir. Aday fark kabul edilmiş kadro yapılmaz; yeni dosya ancak gerekli olduğunda açılır.
+Her tur current işi P kimliğine/teslimata bağlar; sonucu, kaynağı/sürümü, açık yükü ve üst işe dönüşü korur. Kısa sunum gerekli çalışma bütünlüğünü azaltmaz. Maddi değişiklikte current STATE, devir HANDOFF, üst plan WORK ve gerçek kullanıcı kararı DECISIONS güncellenir. Aday fark kabul edilmiş kadro yapılmaz; yeni dosya yalnız gerektiğinde açılır.
 
 - **v1.0:** Önceki birikime bağlı P1–P6 master harita; yalnız plan hazırlığı.
 - **v1.1:** P1 kaynak/Loopinance incelemesi; runtime sınanmadı, Q01–Q06 devredildi.
@@ -112,4 +124,5 @@ Her tur current işi P kimliğine/teslimata bağlar; sonucu, kaynağı/sürümü
 - **P3 v0.2:** İş–yapı, koordinasyon/güvence, rol ve bilgi sahipliği.
 - **P3 v0.3:** Kurgusal rol etkileşimi, kaynak/karar/itiraz ve devir; Revision M5.
 - **P3 v0.4:** D021 dar kullanıcı kabulü; konsolide alan bakımı/yeniden kullanım; Hermes Note30.
-- **27 Eylül 2026 / P3 v0.5:** İki eşzamanlı iş/ortak kayıt/açık inceleme/kesinti senaryosu; sürüme bağlı yayın ve inceleme, kısmi sonuç uzlaştırması, eski-yazıcı sınırı. Beads hedefli reuse. P3 tasarım devrine hazır aday; H1–H6 P4'e bağlandı. P4–P6 başlamadı; kullanıcı kabulü veya canlı başarı uydurulmadı.
+- **27 Eylül 2026 / P3 v0.5:** İki eşzamanlı iş/ortak kayıt/açık inceleme/kesinti senaryosu; sürüme bağlı yayın/inceleme, kısmi sonuç ve eski-yazıcı. Beads hedefli reuse. H1–H6 ile P3 kavramsal devre hazır aday; o tur P4 başlamadı.
+- **27 Eylül 2026 / v1.4 / P4-01:** Sonraki kullanıcı devamıyla ilk teknik tercih ve fiziksel alan tasarımı açıldı. Resmî Claude/Git kaynakları tazelendi; dar yerel Git probe'u kontrolün sınırını gösterdi. Topoloji, roller, dosya alanları, çağrı, yayın ve re-entry birlikte taslaklaştırıldı. İzin/actual hedef kanıtı nedeniyle P4 açık; P5/P6 yok. Teknik tercih kullanıcı kabulü yapılmadı.
