@@ -10,7 +10,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | keel, oyun2 | O3 | BOŞLUK VAR | file-guard.sh, sevk.sh, yardımcı dosyalar, ROL.md'ler, testler → G1 |
 | loopinance-claude-code | O4 | BOŞLUK VAR | 11 workflow betiği, bekci.sh testleri, 73 setup handoff'u, Audit raporları, tutanaklar; ürün kanonunun yapısı ve harness'in onu nasıl yönettiği → G7 |
 | ECC (ilk, sığ okuma) | O5 | YERİNE GEÇİYOR | Yerine O5a–O5d geçer |
-| ECC study, birinci yarı | O5a | SÜRÜYOR | — |
+| ECC study, birinci yarı | O5a | TAMAM | Notlar 29–56 O5b'de. E08'in ham prompt gövdeleri tek tek okunmadı: gövdeler probe girdileri; mekanizma ve sonuçları notta. |
 | ECC study, ikinci yarı | O5b | SÜRÜYOR | — |
 | ECC repo: ajanlar, komutlar, kurulum | O5c | SÜRÜYOR | — |
 | ECC repo: skill'ler, hook'lar, öğrenme | O5d | SÜRÜYOR | — |
@@ -27,7 +27,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Claude Code platformu | O11 | SÜRÜYOR | — |
 | os-architect | O12 | SÜRÜYOR | — |
 | GitHub çerçeveleri | O13 | BOŞLUK VAR | Ajan "KAPSAM BÖLÜNMELİ" dedi: depoların yalnız mekanizmayı taşıyan dosyaları okundu. arxiv, letta.com, docs.langchain.com ve roocode belgeleri ağ politikası yüzünden kapalı. Kapatıcılar: O13a, O13b, O13c. |
-| Codex ve Letta belleği (kod ve belge) | O13a | **SIRADA** | 20 ajan sınırı; yer açılınca |
+| Codex ve Letta belleği (kod ve belge) | O13a | SÜRÜYOR | — |
 | Backlog.md ve Task Master (kod) | O13b | **SIRADA** | 20 ajan sınırı; yer açılınca |
 | OpenHands ve Goose (hakem, retry.checks, StuckDetector) | O13c | **SIRADA** | 20 ajan sınırı; yer açılınca |
 | Akademik kaynaklar | O14 | SÜRÜYOR | — |
@@ -35,3 +35,5 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Architect-3'ün os-architect deneyimi (Batu'nun yapıştırması, U022) | O16 | TAMAM | Ana oturum okudu; O12 ile karşılaştırılacak |
 
 **Kabul kuralı:** Her notun kapsam bölümü ana oturumca okunur. "Okunmadı" diye kalan her kalemin ya bir kapatıcısı ya da "içerik konu dışı" gerekçesi olur; ikinci durumda gerekçe dosya açıldıktan sonra yazılmış olmalıdır. Bitmeyen kalem, yapı kararını bekletir.
+
+**Ağ sınırı (27 Eylül, gözlem):** Bu ortamın ağ politikası şu adreslere izin vermiyor (kabukta `curl` 000; ajanlar da aynısını bildirdi): arxiv.org, export.arxiv.org, ar5iv.labs.arxiv.org, huggingface.co, api.semanticscholar.org, openreview.net, paperswithcode.com, letta.com, docs.langchain.com. Açık olanlar: github.com (git), raw.githubusercontent.com, anthropic.com, code.claude.com. Akademik kaynaklar GitHub üzerinden okunuyor; okunamayanlar notlarda "erişilemedi" diye yazılıyor. Batu'ya bilgi verildi: ortam ayarlarında bu adresler izin listesine eklenebilir.
