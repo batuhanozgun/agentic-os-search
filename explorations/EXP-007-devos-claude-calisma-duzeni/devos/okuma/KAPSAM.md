@@ -14,7 +14,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | ECC study, ikinci yarı | O5b | SÜRÜYOR | — |
 | ECC repo: ajanlar, komutlar, kurulum | O5c | SÜRÜYOR | — |
 | ECC repo: skill'ler, hook'lar, öğrenme | O5d | BOŞLUK VAR | 25 orkestrasyon ve bellek skill'i, memory-vault, oturum kütüphaneleri ve testler okunmadı → O5e |
-| ECC orkestrasyon ve bellek katmanı, testler | O5e | **SIRADA** | 20 ajan sınırı |
+| ECC orkestrasyon ve bellek katmanı, testler | O5e | SÜRÜYOR | — |
 | Hermes, superpowers, gstack, mattpocock | O6 | BOŞLUK VAR | okunmayan notlar ve upstream'ler → G2 |
 | Bellek ve bağlam studies | O7 | BOŞLUK VAR | 6 paketin upstream'i, R09, EXP-003 → G3 |
 | Harness ve döngü studies | O8 | BOŞLUK VAR | 3 upstream → G4 |
@@ -34,7 +34,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Codex ve Letta belleği (kod ve belge) | O13a | SÜRÜYOR | — |
 | Backlog.md ve Task Master (kod) | O13b | SÜRÜYOR | — |
 | OpenHands, Goose, Magentic-One | O13c | SÜRÜYOR | — |
-| Akademik kaynaklar | O14 | SÜRÜYOR | — |
+| Akademik kaynaklar | O14 | ORTAM ENGELİ | Ajan "KAPSAM BÖLÜNMELİ" dedi. Ağ politikası arxiv.org, openreview.net, aclanthology.org, proceedings.*, huggingface.co, semanticscholar.org ve metr.org'u kapatıyor. Tam metin yalnız Who&When ve LoCoMo'da okundu. Öbürlerinde resmi repo kodu okundu; sayılar arama özetinden geliyor ve notta [AÖ] diye işaretli. **Tetik:** Batu ağ iznini açarsa O14b, notun §0.4 listesini okur. Batu'ya bilgi verildi; yapı kararında [AÖ] sayılar yük taşımaz. |
 | Anthropic ve Claude Code çerçeveleri | O15 | BOŞLUK VAR | Ajan "KAPSAM BÖLÜNMELİ" dedi: claude-flow, claude-code-templates, BMAD ve SuperClaude'un çoğu; awesome-claude-code'da bağlanan çerçeveler okunmadı; claude.dev ağ politikası yüzünden kapalı → O15b, O15c |
 | BMAD ve SuperClaude | O15b | **SIRADA** | 20 ajan sınırı |
 | claude-flow, templates, awesome-claude-code | O15c | **SIRADA** | 20 ajan sınırı |
