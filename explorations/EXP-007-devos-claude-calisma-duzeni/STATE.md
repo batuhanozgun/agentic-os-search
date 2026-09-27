@@ -36,6 +36,11 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
 - **Yazma kuralı:** Alt ajanlar yalnız kendi çıktı dosyasını yazar ve dosyayı tek seferde oluşturur. Kayıt ana oturumdadır.
 - **Oturum kesilirse:** Yarım kalan ajan işi kaybolur. Yeni oturum, `drafts/` altında eksik kalan taslağı aynı görev tanımıyla yeniden başlatır.
 
+**Sonraki turların görev tanımları hazır** (`phases/P0-calisma-duzeni/briefs/`):
+- [ENTEGRASYON](phases/P0-calisma-duzeni/briefs/ENTEGRASYON.md): T1–T5 → `METHOD-v1-TASLAK.md` (P0.4, ikinci adım);
+- [E-ORTAK](phases/P0-calisma-duzeni/briefs/E-ORTAK.md) ile [E1](phases/P0-calisma-duzeni/briefs/E1.md), [E2](phases/P0-calisma-duzeni/briefs/E2.md), [E3](phases/P0-calisma-duzeni/briefs/E3.md): üç eleştiri → `reviews/` (P0.5);
+- [REVIZYON](phases/P0-calisma-duzeni/briefs/REVIZYON.md): eleştirilerin işlenmesi → `METHOD-v1.md` ve `reviews/DEGISIKLIK-KAYDI.md` (P0.6).
+
 ## EXP-006 ile ilişki (K-010)
 - **Bağlantı yok.** ChatGPT, EXP-006'da ayrı ve bağımsız çalışır. Claude, konuyu (DevOS çalışma düzeninin tasarımı) baştan sona devralmış gibi çalışır. EXP-007 ve dalı Claude'un ana çalışma ortamıdır.
 - **Sonuç:** EXP-007'nin haritası, P0'dan P6'ya kadar bütün tasarım hattını kendisi kapsar. EXP-006'nın P1–P6 planı ve ürünleri bağlayıcı değildir. Haritayı METHOD v1 taslağı birlikte getirir (P0.4).
@@ -66,6 +71,10 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
    - Oturum bu dalda çalışabiliyorsa onunla devam eder.
    - Ortam oturuma kendi dalını veriyorsa, o dalı bu dalın üzerine kurar (`git checkout -B <oturum-dalı> origin/claude/hopeful-pascal-7bekcd`) ve yeni dal adını bu STATE'e yazar. Dal birikmesin diye eski dal, Batu'ya haber verilerek silinir.
 1. [README](README.md)'deki okuma yolunu izler.
-2. T1–T5'ten eksik olanı aynı görev tanımıyla yeniden başlatır.
-3. Hepsi tamamsa birleştirmeye (P0.4'ün ikinci adımı) geçer.
-4. Batu'ya nerede olduğunu kısaca söyler; P0 içindeki adımlar için Batu'yu beklemez.
+2. Hangi çıktının eksik olduğuna bakar ve sıradaki adımı aynı görev tanımıyla başlatır:
+   - `drafts/` altında T1–T5'ten eksik olan varsa → onu yeniden başlatır;
+   - beşi tamam, `METHOD-v1-TASLAK.md` yoksa → ENTEGRASYON;
+   - taslak var, `reviews/E1–E3` eksikse → eksik eleştiri;
+   - üç eleştiri tamam, `METHOD-v1.md` yoksa → REVIZYON;
+   - `METHOD-v1.md` varsa → ana oturum kilit bölümleri kendisi okur ve Batu'ya kısa sunumu hazırlar.
+3. Batu'ya nerede olduğunu kısaca söyler; P0 içindeki adımlar için Batu'yu beklemez.

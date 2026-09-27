@@ -42,10 +42,14 @@ Hedef standart seviyedir, "yeterli seviye" değil. Alt sistemler arası etkileş
 8. önerilen yapılandırmalar;
 9. pilot planı.
 
-**P0.5 eleştirileri:**
-1. Söz–çıktı izlenebilirliği: A003'te ve U004'te söylenen her şeyin taslakta bir mekanizması var mı? Standart seviyede mi, yoksa yalnız "yeterli" seviyede mi?
-2. Bütünsel etkileşim: bir alt sistemde yapılan seçim bir başkasını zayıflatıyor mu?
-3. Batu'nun ilkeleri ve ortamda uygulanabilirlik.
+Birleştirmenin görev tanımı: [briefs/ENTEGRASYON](briefs/ENTEGRASYON.md).
+
+**P0.5 eleştirileri** (ortak bölüm: [briefs/E-ORTAK](briefs/E-ORTAK.md)):
+1. Söz–çıktı izlenebilirliği: A003'te ve U004'te söylenen her şeyin taslakta bir mekanizması var mı? Standart seviyede mi, yoksa yalnız "yeterli" seviyede mi? → [briefs/E1](briefs/E1.md)
+2. Bütünsel etkileşim: bir alt sistemde yapılan seçim bir başkasını zayıflatıyor mu? → [briefs/E2](briefs/E2.md)
+3. Batu'nun ilkeleri ve ortamda uygulanabilirlik. → [briefs/E3](briefs/E3.md)
+
+**P0.6 revizyonu:** [briefs/REVIZYON](briefs/REVIZYON.md). Her bulgu kabul, kısmen ya da ret kararıyla işlenir; çıktı `METHOD-v1.md` ve `reviews/DEGISIKLIK-KAYDI.md`.
 
 ## Araştırma notları (`research/`)
 
