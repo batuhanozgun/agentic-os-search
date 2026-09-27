@@ -29,3 +29,5 @@ Claude Code cloud oturumunda (26–27 Eylül 2026) modelin gördüğü konuşman
 | 23 | [U018](U018.md) | Batu: GitHub'da ve arXiv'de araştır; os-architect'i oku; basit, ucuz ya da dar değil, ne gerekiyorsa yapan, bilmediğini araştıran, kendini bilen, drift yaşamayan, bütünü gören üst düzey yapı |
 | 24 | [U019](U019.md) | Batu: "Architect - 3" oturumuna soru sorulabilir (oturum bu bulut oturumundan erişilemedi) |
 | 25 | [U020](U020.md) | Batu: ECC'yi hafife alıyorsun (O5–O5d derin okuması başladı) |
+| 26 | [U021](U021.md) | Batu: ajanlar yarım yamalak çalışıyor; "anladım" deyip uygulamamışsın; hata yapmanı yasaklıyorum |
+| 27 | [U022](U022.md) | Batu: tam yetki; her katmanda en üst kalite; okuduklarından ders çıkar, unutmadan, iş bırakmadan çalış ve çalıştır; işi bitir; ayrıca Architect-3'ün os-architect deneyimi cevabı (yapıştırma) |

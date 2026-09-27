@@ -2,7 +2,7 @@
 
 **Güncelleme:** 27 Eylül 2026.  
 **Aşama:** DevOS dokümanı (K-016). P0'daki METHOD çalışması donduruldu; METHOD-v1 son sürümdür ve v1.1 yazılmadı.
-**Şu anki adım:** DevOS okuma turu. Okuma ajanları (O1–O15 ve ECC derin okuması O5a–O5d) repoyu, dış repoları, GitHub'daki çerçeveleri, akademik kaynakları ve Anthropic kaynaklarını okuyor: [devos/okuma/BRIEF](devos/okuma/BRIEF.md). Sonra ana oturum notları tam okur, DevOS tasarım kararlarını verir ve somut DevOS dokümanını yazar. Batu'ya soru sorulmaz (K-016); bir sonraki mesaj bitmiş doküman olur.
+**Şu anki adım:** DevOS okuma turu ve boşluk kapatma. Batu tam yetki verdi ve işin bitirilmesini istedi (K-017). Okuma ajanları O1, O5a–O5d, O11–O15; boşluk kapatıcılar G1–G7; Foundation okuyucuları F1–F3 çalışıyor. F4 sırada (20 alt ajan sınırı). Kapsam listesi: [devos/okuma/KAPSAM](devos/okuma/KAPSAM.md). Standart: [devos/okuma/STANDART](devos/okuma/STANDART.md). Ana oturumun dersleri ve hook'ları: [DERSLER](DERSLER.md). KAPSAM kapanınca: yapı kararı → doküman → sert eleştiri → düzeltme → kurulum → canlı doğrulama. Batu'ya soru yok.
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
 **Batu'dan beklenen:** Hiçbir şey (K-014, K-015, K-016).
 - **Acelesi yok:** A-07 (main'e birleştirme zamanı).
@@ -27,13 +27,20 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
 - Her alt sistemde standart seviye. Ertelenen her şey, bütünsel etkisiyle birlikte gerekçelendirilmeli.
 - Alt sistemler arası etkileşim.
 
+## Ana oturumun disiplini (K-017)
+- `DERSLER.md`'deki kurallar geçerlidir. Üç hook `~/.claude/settings.json`'da kurulu ve canlı sınandı:
+  - her Agent çağrısı `STANDART.md` taşımak zorunda;
+  - KAPSAM kapanmadan `devos/MIMARI-KARARLAR.md`, `devos/DEVOS.md` ve `devos/dokuman/` yazılamaz;
+  - sıkıştırma ya da sürdürmeden sonra hatırlatma bağlama basılır.
+- Makine geri alınırsa: `bash tools/oturum-disiplini/kur.sh`.
+
 ## DevOS dokümanının üretim sırası (K-016, U018)
 
 1. **Okuma turu (şimdi):** O0 (ana oturum) ve O1–O15. Tek tur; yeni okuma turu açılmaz. Eksik kalan kapsam, dokümanda "okunmadı" diye yazılır.
 2. **Yapı kararı (ana oturum):** Bütün notların "DevOS için en önemli çıkarımlar" bölümleri ve karar taşıyan notların tamamı okunur. `devos/MIMARI-KARARLAR.md` yazılır. Her bileşen için: seçilen mekanizma, kaynak kanıtı, alternatifler ve gerekçe.
 3. **Doküman yazımı:** Parçalar paralel yazılır: genel yapı; aktörler ve roller; bilgi (bellek, bağlam, kayıt, araştırma kullanımı); iş (iş grafı ve döngü); ortam ve harness (yapılandırma dosyalarının tam içerikleriyle); kalite, drift önleme ve öğrenme; kurulum ve pilot planı. Yazarlar ilgili notları tam okur ve mimari kararlara uyar. Ana oturum parçaları `devos/DEVOS.md` altında birleştirir.
 4. **Sert eleştiri:** Tek tur. Ölçütler: somut mu; Batu'nun O-01 1–9 gereksinimlerini, K01–K12'yi ve köprü bitiş koşullarını karşılıyor mu; kaynaklardan ne eksik kaldı? Ardından düzeltme.
-5. **Teslim:** Batu'ya bitmiş doküman gider; soru yok. Ardından dokümana göre kurulum başlar.
+5. **Teslim ve kurulum (K-017):** Batu'ya bitmiş doküman gider; soru yok. Ardından dokümana göre DevOS kurulur ve canlı doğrulanır: taze oturum, bozma testleri, uçtan uca pilot iş. İş bitene kadar sürer.
 
 ## Çalışan alt ajanlar
 

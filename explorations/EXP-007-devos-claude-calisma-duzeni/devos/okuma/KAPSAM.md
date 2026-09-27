@@ -29,5 +29,6 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | GitHub çerçeveleri | O13 | SÜRÜYOR | — |
 | Akademik kaynaklar | O14 | SÜRÜYOR | — |
 | Anthropic ve Claude Code çerçeveleri | O15 | SÜRÜYOR | — |
+| Architect-3'ün os-architect deneyimi (Batu'nun yapıştırması, U022) | O16 | TAMAM | Ana oturum okudu; O12 ile karşılaştırılacak |
 
 **Kabul kuralı:** Her notun kapsam bölümü ana oturumca okunur. "Okunmadı" diye kalan her kalemin ya bir kapatıcısı ya da "içerik konu dışı" gerekçesi olur; ikinci durumda gerekçe dosya açıldıktan sonra yazılmış olmalıdır. Bitmeyen kalem, yapı kararını bekletir.
