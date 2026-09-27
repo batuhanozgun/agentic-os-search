@@ -104,6 +104,11 @@ Kümelerin yazdıklarını yan yana koymak yetmez. Asıl iş şunlardır: çeli�
 - **T5, uyandırma:** Katmanlı: oturum içinde tamamlanma bildirimleri; oturum dışında `send_later` nabzı (yalnız iş kalemi kapanışında yeniden kurulur); çok repolu oturumda yedek `/goal`. T3 ve T4'ün uyandırma ve alarm riskleriyle tek pilot sorusunda birleştir.
 - **T5, canlı doğrulama seti:** 16 maddelik set Batu'nun izniyle koşulmalı. Bunu onay paketine (madde 9) ve pilot planına (madde 10) bağla. Hangi maddelerin METHOD kesinleşmeden, erken koşulabileceğini de değerlendir.
 - **T5, maliyet:** Ölçüm sözleşmesi ("bilinmeyen sıfır değildir", bildirim sayaçları toplanmaz) ana oturumun ölçtüğü olayla uyumlu. Tür bütçelerini ve paralellik sınırını (5, tavan 8) STATE'teki gerçek ölçümle karşılaştır. Bu turda beş paralel ajanın her biri 20–40 M token işledi.
+- **T2, roller:** İşten türetilmiş yedi kalıcı rol ve bir koordinatör sözleşmesi: okuyucu, araştırmacı, tasarımcı, eleştirmen, doğrulayıcı, eksik-arayıcı, kayıt bakımcısı. "Batu vekili" rolü gerekçesiyle reddedildi. Rol kataloğunun temeli budur (madde 2).
+- **T2 ile T5 çakışması:** T5'in yazma hook'u ve `agent-memory` istisnası, T2'nin rol belleği tasarımıyla çakışıyor. T2 `memory: project` kullanmıyor; rol belleği `roles/bellek/<rol>.md` dosyasında duruyor, rol yalnız öneri veriyor, koordinatör yazıyor ve SubagentStart hook'u yüklüyor. Tek hale getir.
+- **T2, en büyük risk:** `.claude/agents` yalnız oturum başında var olan bir dizinden izleniyor ve main'de `.claude/` yok. K-009 altında (EXP-007 yalnız dalda) roller yüklenmeyebilir. T5'in konum kuralıyla birlikte düşün ve pilot sorusu yap.
+- **T2, güvenlik:** Ortamda sır taşıyan değişken adları var (ör. `GH_TOKEN`, `AWS_*`). Bash yetkisi olan alt ajanlar bunlara ulaşabilir. S16 kartlarında karşılığı olmalı.
+- **T2, ara sürümlerin kök nedeni:** Ana oturumun Stop hook'u, commit edilmemiş dosya varken turu kapattırmıyor; alt ajan dosyayı parça parça yazarsa ara sürümler commit'e giriyor. T2, T3 ve T5 bu turda dosyayı repo dışında hazırlayıp tek seferde yazdı. Bu, tek yazım kuralının pratikte işlediğini gösteriyor; zorlama olarak hook adayı T2 ve T5'te var.
 - Diğer kümelerin notları döndükçe eklenecek.
 
 ## Önerilen bölüm yapısı
