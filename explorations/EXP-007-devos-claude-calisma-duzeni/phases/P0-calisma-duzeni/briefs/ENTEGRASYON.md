@@ -100,6 +100,10 @@ Kümelerin yazdıklarını yan yana koymak yetmez. Asıl iş şunlardır: çeli�
 - **T3, harita:** K-002'nin bağlandığı P1–P4'ün numarası ve anlamı korundu. K-002'nin yeni haritaya nasıl uygulanacağı P0.8'de Batu'ya sorulacak; bunu onay paketine (madde 9) koy.
 - **T3, en büyük risk:** Oturumlar arası uyandırma denenmedi. Çalışmazsa kendiliğinden geçişler oturum sınırında durur. T4'ün alarm riskiyle aynı kökten geliyor (ana oturum dışında kanal yok); ikisini tek pilot sorusunda birleştir.
 - **T3, çıktı sınırı:** T3 metni önce repo dışında parça parça hazırladı, sonra tek dosyada birleştirdi. Senin çıktın da büyükse aynı yolu kullanabilirsin; repoya yine tek seferde yaz.
+- **T5, konum kuralı (senin için de geçerli):** EXP-007 içinde `CLAUDE.md` adıyla ya da `.claude/` altında duran bir dosya, o klasördeki bir dosya okununca Claude Code tarafından etkinleştirilebilir. Bu yüzden CLAUDE.md, skill, ajan ve hook taslakları METHOD içinde **kod bloğu** olarak durur; ayrı dosya olarak yazılmaz. Kurulum P0.8'de, Batu onayıyla, tek commit'le yapılır.
+- **T5, uyandırma:** Katmanlı: oturum içinde tamamlanma bildirimleri; oturum dışında `send_later` nabzı (yalnız iş kalemi kapanışında yeniden kurulur); çok repolu oturumda yedek `/goal`. T3 ve T4'ün uyandırma ve alarm riskleriyle tek pilot sorusunda birleştir.
+- **T5, canlı doğrulama seti:** 16 maddelik set Batu'nun izniyle koşulmalı. Bunu onay paketine (madde 9) ve pilot planına (madde 10) bağla. Hangi maddelerin METHOD kesinleşmeden, erken koşulabileceğini de değerlendir.
+- **T5, maliyet:** Ölçüm sözleşmesi ("bilinmeyen sıfır değildir", bildirim sayaçları toplanmaz) ana oturumun ölçtüğü olayla uyumlu. Tür bütçelerini ve paralellik sınırını (5, tavan 8) STATE'teki gerçek ölçümle karşılaştır. Bu turda beş paralel ajanın her biri 20–40 M token işledi.
 - Diğer kümelerin notları döndükçe eklenecek.
 
 ## Önerilen bölüm yapısı

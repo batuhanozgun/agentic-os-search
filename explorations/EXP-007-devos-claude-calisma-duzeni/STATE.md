@@ -2,7 +2,7 @@
 
 **Güncelleme:** 27 Eylül 2026.  
 **Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
-**Şu anki adım:** P0.4, METHOD v1 taslağı. P0.3 tamamlandı (R07–R11). Beş küme taslağından T3 ve T4 geldi; T1, T2 ve T5 sürüyor. Hepsi dönünce birleştirme yapılacak.  
+**Şu anki adım:** P0.4, METHOD v1 taslağı. P0.3 tamamlandı (R07–R11). Beş küme taslağından T3, T4 ve T5 geldi; T1 ve T2 sürüyor. Hepsi dönünce birleştirme yapılacak.  
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
 **Batu'dan beklenen:** Şu an yok. Taslak sunulunca: taslağa itirazları, A-01, A-02, A-04 ve A-07. Ayrıntı: [DECISIONS](DECISIONS.md).
 
