@@ -23,7 +23,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Foundation ve explorations | O10 | BOŞLUK VAR | Foundation → F1–F4; explorations → G5 |
 | Foundation 03: bilgi ve iş | F1 | SÜRÜYOR | — |
 | Foundation 03: aktörler ve ortam | F2 | TAMAM | 224 dosyanın hepsi okundu |
-| Foundation 05, 08, 04, 06, 07 | F3 | SÜRÜYOR | — |
+| Foundation 05, 08, 04, 06, 07 | F3 | TAMAM | Kapsamın tamamı okundu (05: 198 dosya). `agent/protocols` P1'e atandı. |
 | Foundation 01, 02, history | F4 | SÜRÜYOR | Yer açılınca başlatıldı (O13 bitti). |
 | Kapatıcılar G1–G7 | G1–G7 | SÜRÜYOR | — |
 | Claude Code platformu | O11 | BOŞLUK VAR | Ajan "KAPSAM BÖLÜNMELİ" dedi: env-vars, settings, tools, commands, cli, remote-control ve başka sayfalar tam okunmadı → O11b, O11c |
@@ -49,7 +49,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 
 | Kaynak kümesi | Not | Durum | Boşluk ve kapatıcı |
 |---|---|---|---|
-| EXP-001 | X1 | **SIRADA** | 20 ajan sınırı |
+| EXP-001 | X1 | SÜRÜYOR | — |
 | EXP-002, EXP-003 | X2 | **SIRADA** | 20 ajan sınırı |
 | EXP-004 | X3 | **SIRADA** | 20 ajan sınırı |
 | EXP-005, EXP-006 (main) | X4 | **SIRADA** | 20 ajan sınırı |
