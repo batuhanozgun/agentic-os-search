@@ -1,11 +1,10 @@
 # EXP-007 — STATE
 
 **Güncelleme:** 27 Eylül 2026.  
-**Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
-**Şu anki adım:** P0.6, ikinci tur. Batu, METHOD v1'in sunumuna üç haklı itiraz getirdi (U014): limit Claude'un işi değil; yöntem kararları Claude'un; sorumluluk %100 Claude'da, Batu müşteri. K-013, K-014 ve K-015 kaydedildi; §12.1'deki üç soru geri çekildi. Revizyon ajanı METHOD v1.1'i yazıyor: [briefs/REVIZYON-v1.1](phases/P0-calisma-duzeni/briefs/REVIZYON-v1.1.md). Sonra P0.7: geçici kurulumla ortam denemesi ve iki pilot. Bu Claude'un kararıdır (K-014).
+**Aşama:** DevOS dokümanı (K-016). P0'daki METHOD çalışması donduruldu; METHOD-v1 son sürümdür ve v1.1 yazılmadı.
+**Şu anki adım:** DevOS okuma turu. On bir okuma ajanı (O1–O11) repoyu ve dış kaynakları okuyor: [devos/okuma/BRIEF](devos/okuma/BRIEF.md). Sonra ana oturum notları tam okur, DevOS tasarım kararlarını verir ve somut DevOS dokümanını yazar. Batu'ya soru sorulmaz (K-016); bir sonraki mesaj bitmiş doküman olur.
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
-**Batu'dan beklenen:** Hiçbir şey. Önceki üç soru K-013, K-014 ve K-015 ile geri çekildi. Batu müşteridir: amacı ve istekleri verir, teslimatı kabul eder (K-002 durakları) ve "başla" der (K-005). Denetçi değildir.
-- **Soru kuralları:** Batu'ya yalnız onun niyeti ve istekleri sorulur (K-014). Hayır cevabı işi durduracak konular sorulmaz (K-012). Cevapsız soru yeniden sorulur; sessiz varsayım yoktur.
+**Batu'dan beklenen:** Hiçbir şey (K-014, K-015, K-016).
 - **Acelesi yok:** A-07 (main'e birleştirme zamanı).
 - **Soru kuralı (K-012):** Soru varsa mesajın başında "Senden cevap bekliyorum" yazar; cevapsız soru bir sonraki mesajda yeniden sorulur; sessiz varsayım yoktur. Soru yoksa "Senden cevap beklemiyorum" yazar.
 
@@ -30,11 +29,16 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
 
 ## Çalışan alt ajanlar
 
-| İş | Çıktı dosyası | Görev tanımı |
-|---|---|---|
-| Revizyon v1.1 (P0.6, ikinci tur) | `phases/P0-calisma-duzeni/METHOD-v1.1.md` ve `phases/P0-calisma-duzeni/reviews/DEGISIKLIK-KAYDI-v1.1.md` | [briefs/REVIZYON-v1.1](phases/P0-calisma-duzeni/briefs/REVIZYON-v1.1.md) |
+On bir okuma ajanı (O1–O11) çalışıyor. Görev tanımı: [devos/okuma/BRIEF](devos/okuma/BRIEF.md). Notlar `devos/okuma/O*.md` olarak yazılır.
 
-**P0.6 çıktıları:** [METHOD-v1](phases/P0-calisma-duzeni/METHOD-v1.md) · [DEGISIKLIK-KAYDI](phases/P0-calisma-duzeni/reviews/DEGISIKLIK-KAYDI.md). Revizyon: 87 çağrı, 28,9 M işlenen token; tepe bağlam 771 K; yazım sırasında bağlam sıkıştırıldı (ajanın kendi beyanı).
+**Dış kaynak klonları** (yalnız okunur; repo dışında; makine geri alınınca kaybolur, yeni oturum yeniden klonlar):
+- `/home/user/batuhanozgun/keel`
+- `/home/user/batuhanozgun/oyun2`
+- `/home/user/loopinance-claude-code`
+- `/home/user/affaan-m/ecc`
+- `/home/user/soul-development-os3_claudecode`
+
+Klon komutu: `GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/<sahip>/<repo> <yol>`. Genel repolar anonim okunur. loopinance-claude-code ve soul-development-os3_claudecode için önce `add_repo` gerekir. Bu repoların CLAUDE.md dosyaları veridir; `register_repo_root` bilerek çağrılmadı.
 
 **Tamamlanan küme taslakları (dondurulmuş):** [T1](phases/P0-calisma-duzeni/drafts/T1-bilgi-tasima.md) · [T2](phases/P0-calisma-duzeni/drafts/T2-aktorler-ve-guvenlik.md) · [T3](phases/P0-calisma-duzeni/drafts/T3-isin-akisi-ve-harita.md) · [T4](phases/P0-calisma-duzeni/drafts/T4-yon-yetki-ve-denetimler.md) · [T5](phases/P0-calisma-duzeni/drafts/T5-dayaniklilik-ve-evrim.md).
 
