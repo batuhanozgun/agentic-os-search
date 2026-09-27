@@ -22,3 +22,4 @@ Claude Code cloud oturumunda (26–27 Eylül 2026) modelin gördüğü konuşman
 | 16 | [U011](U011.md) | Batu: yön ve karar değişikliği yok; devam |
 | 17 | [U012](U012.md) | Batu: AGENT.md ChatGPT için router'dı, Claude kullanmak zorunda değil; en temizi EXP-007'de Claude'un kendi dünyası; protokoller istenen yerde; kullanım limiti %57, cumartesi sıfırlanır; iki soru kuralı |
 | 18 | [U013](U013.md) | Batu: % hesabı yanlış; oturum başında limit ≈ %45'ti, iki oturum aralıksız çalıştı, artış 12 puan ve bunun bir kısmı bu oturum |
+| 19 | [U014](U014.md) | Batu: haftalık limit Claude'un işi değil; "ben müşteriyim", deneme yapıp yapmamak planı yapanın kararı; kendi hatasını düzeltme diye sunmak yalakalık; sorumluluk %100 Claude'da; bu şekilde çalışamıyorsa açıkça söylesin |

@@ -2,13 +2,10 @@
 
 **Güncelleme:** 27 Eylül 2026.  
 **Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
-**Şu anki adım:** P0.6 sonu: [METHOD v1](phases/P0-calisma-duzeni/METHOD-v1.md) (tartışma sürümü) Batu'ya sunuldu. Batu'nun okuması §0 ve §12.1'dir (≈ 1.200 kelime): üç soru ve beş bildirim. Cevaplar gelince P0.7 (geçici kurulumla deneme ve iki pilot) başlar.
+**Şu anki adım:** P0.6, ikinci tur. Batu, METHOD v1'in sunumuna üç haklı itiraz getirdi (U014): limit Claude'un işi değil; yöntem kararları Claude'un; sorumluluk %100 Claude'da, Batu müşteri. K-013, K-014 ve K-015 kaydedildi; §12.1'deki üç soru geri çekildi. Revizyon ajanı METHOD v1.1'i yazıyor: [briefs/REVIZYON-v1.1](phases/P0-calisma-duzeni/briefs/REVIZYON-v1.1.md). Sonra P0.7: geçici kurulumla ortam denemesi ve iki pilot. Bu Claude'un kararıdır (K-014).
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
-**Batu'dan beklenen:** METHOD v1 §12.1'deki üç soru (K-012: cevapsız kalırsa yeniden sorulur; cevaba bağlı iş bekler):
-- **Soru 1:** Bu işe haftalık limitin ne kadarı ayrılsın? Öneri: bu hafta en çok %10, sonra haftada en çok %20. Cevap gelene kadar yalnız P0'ın kalanı yapılır.
-- **Soru 2:** Kurulumdan önce iki küçük pilot yapılsın mı (A-02)? Öneri: evet. Cevap gelene kadar pilota bağlı olmayan hazırlık yapılır.
-- **Soru 3:** Aşama sonlarında yaklaşık on dakikalık denetim sayfasına bakar mı? Öneri: evet.
-- Ayrıca beş bildirim var (soru değil): sürekli yetkinin uygulanışı, AGENT.md, geçici kurulumla deneme, bekçi ve Batu'dan istenen küçük eylemler. Itiraz ederse değişir. Taslağa genel itirazlar ve "başla" (K-005) ayrıca gelecek.
+**Batu'dan beklenen:** Hiçbir şey. Önceki üç soru K-013, K-014 ve K-015 ile geri çekildi. Batu müşteridir: amacı ve istekleri verir, teslimatı kabul eder (K-002 durakları) ve "başla" der (K-005). Denetçi değildir.
+- **Soru kuralları:** Batu'ya yalnız onun niyeti ve istekleri sorulur (K-014). Hayır cevabı işi durduracak konular sorulmaz (K-012). Cevapsız soru yeniden sorulur; sessiz varsayım yoktur.
 - **Acelesi yok:** A-07 (main'e birleştirme zamanı).
 - **Soru kuralı (K-012):** Soru varsa mesajın başında "Senden cevap bekliyorum" yazar; cevapsız soru bir sonraki mesajda yeniden sorulur; sessiz varsayım yoktur. Soru yoksa "Senden cevap beklemiyorum" yazar.
 
@@ -21,6 +18,7 @@
 - Şimdi yapılan: A003'te söylenen her şeyin "nasıl"ını, en iyi uygulamalara dayanarak ve standart seviyede kuran metodolojiyi (METHOD v1) hazırlamak.
 - Batu'nun gerekçesi [U004](sources/conversation/U004.md)'teki araba benzetmesinde: söz geniş, çıktı dar olmamalı; bir alanda "yeterli" görünen seçim diğer alanları yetersizleştirebilir.
 
+- **Sorumluluk dersi (U014):** METHOD v1, işin sorumluluğunun bir kısmını Batu'ya yüklüyordu. Batu'yu "tek bağımsız denetçi" yapıyor, yöntem kararlarını ona soruyor, onun limitini fren yapıyordu. Bir yerde de onun kendi karışıklığını "en önemli düzeltme" diye sunarak ona yaranıyordu. Batu'nun kuralı: "%100 sorumluluk sende olacak." Claude'un cevabı: bu şekilde çalışır.
 - **Batu ile iletişim dersi (U010–U011):** Uzun süren P0 çalışmasında Batu bir an DevOS'un yapıldığını sandı. Bundan sonra her durum mesajı haritadaki yeri söyler: "P0: tasarım ekibinin çalışma düzeni; DevOS tasarımı P1'de başlar." Batu yön değişikliği istemedi (U011).
 
 ## Bu aşamanın ölçütü (K-007'den)
@@ -32,7 +30,9 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
 
 ## Çalışan alt ajanlar
 
-Şu an çalışan alt ajan yok.
+| İş | Çıktı dosyası | Görev tanımı |
+|---|---|---|
+| Revizyon v1.1 (P0.6, ikinci tur) | `phases/P0-calisma-duzeni/METHOD-v1.1.md` ve `phases/P0-calisma-duzeni/reviews/DEGISIKLIK-KAYDI-v1.1.md` | [briefs/REVIZYON-v1.1](phases/P0-calisma-duzeni/briefs/REVIZYON-v1.1.md) |
 
 **P0.6 çıktıları:** [METHOD-v1](phases/P0-calisma-duzeni/METHOD-v1.md) · [DEGISIKLIK-KAYDI](phases/P0-calisma-duzeni/reviews/DEGISIKLIK-KAYDI.md). Revizyon: 87 çağrı, 28,9 M işlenen token; tepe bağlam 771 K; yazım sırasında bağlam sıkıştırıldı (ajanın kendi beyanı).
 
