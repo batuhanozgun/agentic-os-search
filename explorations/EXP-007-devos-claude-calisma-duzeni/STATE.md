@@ -27,7 +27,7 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
 | İş | Çıktı dosyası | Görev tanımı |
 |---|---|---|
 | E1 söz–çıktı ve standart seviye | `phases/P0-calisma-duzeni/reviews/E1-soz-cikti-ve-standart.md` | [briefs/E1](phases/P0-calisma-duzeni/briefs/E1.md) |
-| E2 bütünsel etkileşim | `phases/P0-calisma-duzeni/reviews/E2-butunsel-etkilesim.md` | [briefs/E2](phases/P0-calisma-duzeni/briefs/E2.md) |
+| E2 bütünsel etkileşim — **TAMAM** (16 bulgu: 2 kritik, 10 önemli, 4 küçük) | [reviews/E2](phases/P0-calisma-duzeni/reviews/E2-butunsel-etkilesim.md) | [briefs/E2](phases/P0-calisma-duzeni/briefs/E2.md) |
 | E3 Batu'nun ilkeleri ve uygulanabilirlik | `phases/P0-calisma-duzeni/reviews/E3-batu-ilkeleri-ve-uygulanabilirlik.md` | [briefs/E3](phases/P0-calisma-duzeni/briefs/E3.md) |
 
 **Tamamlanan küme taslakları (dondurulmuş):** [T1](phases/P0-calisma-duzeni/drafts/T1-bilgi-tasima.md) · [T2](phases/P0-calisma-duzeni/drafts/T2-aktorler-ve-guvenlik.md) · [T3](phases/P0-calisma-duzeni/drafts/T3-isin-akisi-ve-harita.md) · [T4](phases/P0-calisma-duzeni/drafts/T4-yon-yetki-ve-denetimler.md) · [T5](phases/P0-calisma-duzeni/drafts/T5-dayaniklilik-ve-evrim.md).
