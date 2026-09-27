@@ -113,3 +113,11 @@ Foundation okuyucuları için soru şu: DevOS'un tasarımında hangi Foundation 
 | O13c | OpenHands (`/goal` hakemi, StuckDetector), Goose (`retry.checks`), Magentic-One (ilerleme defteri, sapma tespiti) | Ayrı değerlendirici, takılma ve sapma tespiti, yeniden deneme kontrolleri | `O13c-openhands-goose-magentic.md` |
 
 Not: arxiv.org, letta.com, docs.langchain.com ve roocode belgeleri bu ortamın ağ politikasında kapalı görünüyor. Aynı içeriği GitHub'daki kaynak kodundan, README'den ya da ayna sayfalardan oku; okuyamadığını açıkça yaz.
+
+### O11 ve O12'nin boşlukları
+
+| Kimlik | Kaynak | Odak | Not dosyası |
+|---|---|---|---|
+| O11b | code.claude.com belgeleri: settings (bütün anahtarlar ve kapsam sırası), env-vars, permissions ve IAM, security, hooks reference ve hooks guide (bütün olaylar, girdi JSON'ları, çıkış kodları, matcher), tools reference, sandbox | Zorlama katmanı: DevOS kurallarını ortam düzeyinde hangi araçlar zorlayabilir, hangileri zorlayamaz? Tek ve çok repolu oturum farkı, SDK ya da stream-json kipinde neyin geçerli olduğu. | `O11b-platform-zorlama.md` |
+| O11c | code.claude.com belgeleri: sub-agents (bütün frontmatter alanları), skills, memory (CLAUDE.md, import, auto memory), slash commands, CLI reference, headless ve Agent SDK, scheduled tasks, routines, send_later ve web oturumları (claude-code-on-the-web, cloud-environments), remote-control, plugins (synced), MCP, output styles, statusline, costs ve monitoring | Taşıyıcı katman: rol, bilgi, süreklilik, uyanma ve gözlemlenebilirlik için kesin yetenekler | `O11c-platform-tasiyicilar.md` |
+| O12b | os-architect'in git geçmişi: sığ klonu `git -C /home/user/os-architect fetch --depth=1000 origin main` ile derinleştir. Geçmişte silinmiş `Araştırmalar/` klasörünü, eski `KARARLAR` sürümlerini ve "eski alanın çöküşü"nü, `git show <commit>:<yol>` ile oku. | Eski alanda ne vardı, neden çöktü? Silinmiş araştırmalarda DevOS için kullanılabilir bulgu var mı? | `O12b-os-architect-gecmis.md` |

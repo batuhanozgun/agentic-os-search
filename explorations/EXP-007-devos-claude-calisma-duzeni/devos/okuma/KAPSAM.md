@@ -24,12 +24,15 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Foundation 05, 08, 04, 06, 07 | F3 | SÜRÜYOR | — |
 | Foundation 01, 02, history | F4 | SÜRÜYOR | Yer açılınca başlatıldı (O13 bitti). |
 | Kapatıcılar G1–G7 | G1–G7 | SÜRÜYOR | — |
-| Claude Code platformu | O11 | SÜRÜYOR | — |
-| os-architect | O12 | SÜRÜYOR | — |
+| Claude Code platformu | O11 | BOŞLUK VAR | Ajan "KAPSAM BÖLÜNMELİ" dedi: env-vars, settings, tools, commands, cli, remote-control ve başka sayfalar tam okunmadı → O11b, O11c |
+| Platform: zorlama katmanı belgeleri | O11b | **SIRADA** | 20 ajan sınırı |
+| Platform: taşıyıcı katman belgeleri | O11c | **SIRADA** | 20 ajan sınırı |
+| os-architect | O12 | BOŞLUK VAR | 131 dosyanın hepsi okundu; git geçmişi (eski KARARLAR, 1,2 MB'lık silinmiş Araştırmalar/) okunmadı → O12b |
+| os-architect git geçmişi | O12b | **SIRADA** | 20 ajan sınırı |
 | GitHub çerçeveleri | O13 | BOŞLUK VAR | Ajan "KAPSAM BÖLÜNMELİ" dedi: depoların yalnız mekanizmayı taşıyan dosyaları okundu. arxiv, letta.com, docs.langchain.com ve roocode belgeleri ağ politikası yüzünden kapalı. Kapatıcılar: O13a, O13b, O13c. |
 | Codex ve Letta belleği (kod ve belge) | O13a | SÜRÜYOR | — |
-| Backlog.md ve Task Master (kod) | O13b | **SIRADA** | 20 ajan sınırı; yer açılınca |
-| OpenHands ve Goose (hakem, retry.checks, StuckDetector) | O13c | **SIRADA** | 20 ajan sınırı; yer açılınca |
+| Backlog.md ve Task Master (kod) | O13b | SÜRÜYOR | — |
+| OpenHands, Goose, Magentic-One | O13c | SÜRÜYOR | — |
 | Akademik kaynaklar | O14 | SÜRÜYOR | — |
 | Anthropic ve Claude Code çerçeveleri | O15 | SÜRÜYOR | — |
 | Architect-3'ün os-architect deneyimi (Batu'nun yapıştırması, U022) | O16 | TAMAM | Ana oturum okudu; O12 ile karşılaştırılacak |
