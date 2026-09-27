@@ -4,7 +4,12 @@
 **Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
 **Şu anki adım:** P0.6, revizyon. Üç eleştiri tamam (5 kritik, 26 önemli, 14 küçük bulgu). Revizyon ajanı çalışıyor: [briefs/REVIZYON](phases/P0-calisma-duzeni/briefs/REVIZYON.md) → `METHOD-v1.md` ve `reviews/DEGISIKLIK-KAYDI.md`. Sonra ana oturum kilit bölümleri kendisi okur ve Batu'ya kısa sunum yapar.
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
-**Batu'dan beklenen:** Şu an yok. Taslak sunulunca: taslağa itirazları, A-01, A-02, A-04 ve A-07. Ayrıntı: [DECISIONS](DECISIONS.md).
+**Batu'dan beklenen:** Bekleyen ya da işi durduran bir cevap yok.
+- **İsterse şimdi, istemezse özetle birlikte:** A-01. AGENT.md'ye dokunulmaması önerisi, [A004](sources/conversation/A004.md). Cevap gelmezse varsayılan budur; bu seçenek hiçbir şeyi değiştirmez.
+- **METHOD v1 sunulunca sorulacak:** taslağa itirazlar; A-02 (pilotlar); A-04 (yapılandırma paketi, kök dosyalar dahil); ortam denemesi izni; K-002'nin yeni haritaya uygulanması; Batu'nun denetçi işlevi (raporu okuduğunu nasıl işaretleyeceği, sessizlikte ne olacağı; E2-02, E3-02); bütçe ve kullanım limiti.
+- **Acelesi yok:** A-07 (main'e birleştirme zamanı).
+- **Rica:** Kullanım limiti dolmaya yaklaşırsa Batu haber verir; Claude limiti göremiyor.
+- **İletişim kuralı:** Soru varsa mesajın başında "Senden cevap bekliyorum" yazar; yoksa "Senden cevap beklemiyorum".
 
 **Dal:** EXP-007 yalnız `claude/hopeful-pascal-7bekcd` dalında yaşar ve main'e birleştirilmez (K-009).
 
