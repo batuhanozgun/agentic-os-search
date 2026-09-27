@@ -140,3 +140,18 @@ Not: arxiv.org, letta.com, docs.langchain.com ve roocode belgeleri bu ortamın a
 | Kimlik | Kaynak | Odak | Not dosyası |
 |---|---|---|---|
 | O5f | `/home/user/affaan-m/ecc`: orkestrasyon CLI'ları (harness-audit, gan-harness, loop-status, work-items, github-coordination ve benzerleri); kurulumla ilgisi olmayan `scripts/lib` modüllerinin O5e'nin okumadıkları; rehberli kurulum aracı (guided installer) | ECC'nin iş kalemi, döngü durumu, harness denetimi ve koordinasyon araçları: DevOS'un iş kaydı ve döngüsünde ne alınır? | `O5f-ecc-orkestrasyon-cli.md` |
+
+### Bütün repo kapsamı: atanmamış alanlar (O5b'nin fark ettiği `concepts/` üzerine yapılan tarama)
+
+Ana oturum repo kökünü taradı ve hiçbir ajana atanmamış alanları buldu: `concepts/` (75 dosya), `publications/` (26), `AGENT.md` ve `agent/` (9), explorations'ın tamamı (EXP-001…EXP-006; O10 ve G5 yalnız seçilmiş dosyaları okudu), `hands-on-large-language-models` ve the-carbon-layer'ın sandboxing videosu ile kök dosyaları. Batu önceki Claude'a da yazmıştı: "explorations altındaki konuşmaları tam okuma yap. ya da o klasörler altındaki tüm dosyaları." (O-21)
+
+| Kimlik | Kaynak | Odak | Not dosyası |
+|---|---|---|---|
+| X1 | `explorations/EXP-001-soul-calisma-modeli` (okuma yolu `PARCALAR.md`'de) | SOUL çalışma modeli, Mekanizma Atlası, konsolidasyon: DevOS'un kuracağı SOUL için ne diyor, DevOS'a hangi mekanizma dersi çıkıyor? | `X1-exp001.md` |
+| X2 | `explorations/EXP-002-…` ve `EXP-003-…` (bütün dosyalar) | SOUL baz yapı ve entelektüel taban; ek hafıza ve araştırma temelli güvenilirlik | `X2-exp002-003.md` |
+| X3 | `explorations/EXP-004-…` (bütün dosyalar) | Genişleyen SOUL ve büyük iş stres testi: MS01, T, DQ, SY01, RV01 ve mekanizmalar | `X3-exp004.md` |
+| X4 | `explorations/EXP-005-…` (bütün dosyalar) ve EXP-006'nın main'deki bütün dosyaları (`git ls-tree -r --name-only origin/main -- explorations/EXP-006-development-os-calisma-duzeni`, sonra `git show origin/main:<yol>`; fetch yapma) | İhtiyaç keşfi ve çalışma disiplini; ChatGPT'nin DevOS çalışma düzeni (P1-01, P2-01, P3-01, B1–B9, S1, kararlar) | `X4-exp005-006.md` |
+| C1a | `concepts/` ilk yarısı (liste `PARCALAR.md`'de) | concepts yöntemi ve çalışmaları: DevOS için ne çıkıyor? | `C1a-concepts.md` |
+| C1b | `concepts/` ikinci yarısı (liste `PARCALAR.md`'de) | aynı | `C1b-concepts.md` |
+| P1 | `publications/` (hepsi); `AGENT.md` ve `agent/` (hepsi); kök `README.md`; `research/INDEX.md`, `research/studies/CATALOG.md`, `INDEX.md`, `PACKAGE-CONTRACT.md` | Batu'nun yayınlarındaki SOUL ve DevOS vizyonu; AGENT.md protokollerinin DevOS'ta nasıl yeniden yazılacağı (K-011); katalogdaki bütün paketlerin DevOS ile ilgisi | `P1-publications-agent-katalog.md` |
+| S1 | `research/studies/hands-on-large-language-models`; `the-carbon-layer`'ın kök dosyaları ve `videos/-01_NB4SbBY-agent-sandboxing` | Sandbox ve ajan güvenliği; model ve ortam yeniden üretilebilirliği | `S1-sandbox-llm.md` |

@@ -11,9 +11,9 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | loopinance-claude-code | O4 | BOŞLUK VAR | 11 workflow betiği, bekci.sh testleri, 73 setup handoff'u, Audit raporları, tutanaklar; ürün kanonunun yapısı ve harness'in onu nasıl yönettiği → G7 |
 | ECC (ilk, sığ okuma) | O5 | YERİNE GEÇİYOR | Yerine O5a–O5d geçer |
 | ECC study, birinci yarı | O5a | TAMAM | Notlar 29–56 O5b'de. E08'in ham prompt gövdeleri tek tek okunmadı: gövdeler probe girdileri; mekanizma ve sonuçları notta. |
-| ECC study, ikinci yarı | O5b | SÜRÜYOR | — |
+| ECC study, ikinci yarı | O5b | TAMAM | Konu dışı: görseller ve ROADMAP'in 761–849. satırları, çünkü study'nin kendisi de okumamış. E08'in 17 istem metni O5a/O5b'de yalnız sonuçlarıyla var. `concepts/studies/ecc` C1a/C1b'ye atandı. |
 | ECC repo: ajanlar, komutlar, kurulum | O5c | BOŞLUK VAR | Orkestrasyon CLI'ları, `scripts/lib`'in kurulum dışı kısmı ve rehberli kurulum aracı → O5f. 111 dil kuralı konu dışı: dillere göre kodlama kuralları; kuralları yükleme mekanizması okundu. |
-| ECC orkestrasyon CLI'ları | O5f | **SIRADA** | 20 ajan sınırı |
+| ECC orkestrasyon CLI'ları | O5f | SÜRÜYOR | — |
 | ECC repo: skill'ler, hook'lar, öğrenme | O5d | BOŞLUK VAR | 25 orkestrasyon ve bellek skill'i, memory-vault, oturum kütüphaneleri ve testler okunmadı → O5e |
 | ECC orkestrasyon ve bellek katmanı, testler | O5e | SÜRÜYOR | — |
 | Hermes, superpowers, gstack, mattpocock | O6 | BOŞLUK VAR | okunmayan notlar ve upstream'ler → G2 |
@@ -44,3 +44,17 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 **Kabul kuralı:** Her notun kapsam bölümü ana oturumca okunur. "Okunmadı" diye kalan her kalemin ya bir kapatıcısı ya da "içerik konu dışı" gerekçesi olur; ikinci durumda gerekçe dosya açıldıktan sonra yazılmış olmalıdır. Bitmeyen kalem, yapı kararını bekletir.
 
 **Ağ sınırı (27 Eylül, gözlem):** Bu ortamın ağ politikası şu adreslere izin vermiyor (kabukta `curl` 000; ajanlar da aynısını bildirdi): arxiv.org, export.arxiv.org, ar5iv.labs.arxiv.org, huggingface.co, api.semanticscholar.org, openreview.net, paperswithcode.com, letta.com, docs.langchain.com. Açık olanlar: github.com (git), raw.githubusercontent.com, anthropic.com, code.claude.com. Akademik kaynaklar GitHub üzerinden okunuyor; okunamayanlar notlarda "erişilemedi" diye yazılıyor. Batu'ya bilgi verildi: ortam ayarlarında bu adresler izin listesine eklenebilir.
+
+## Bütün repo: sonradan bulunan atanmamış alanlar
+
+| Kaynak kümesi | Not | Durum | Boşluk ve kapatıcı |
+|---|---|---|---|
+| EXP-001 | X1 | **SIRADA** | 20 ajan sınırı |
+| EXP-002, EXP-003 | X2 | **SIRADA** | 20 ajan sınırı |
+| EXP-004 | X3 | **SIRADA** | 20 ajan sınırı |
+| EXP-005, EXP-006 (main) | X4 | **SIRADA** | 20 ajan sınırı |
+| concepts, birinci yarı | C1a | **SIRADA** | 20 ajan sınırı |
+| concepts, ikinci yarı | C1b | **SIRADA** | 20 ajan sınırı |
+| publications, AGENT.md, agent/, kataloglar | P1 | **SIRADA** | 20 ajan sınırı |
+| hands-on-LLM, the-carbon-layer sandbox ve kök dosyaları | S1 | **SIRADA** | 20 ajan sınırı |
+| EXP-007 (bu çalışma) | — | TAMAM | Ana oturumun kendi alanı; P0'ın dondurulmuş ürünleri kaynak olarak kullanılır |
