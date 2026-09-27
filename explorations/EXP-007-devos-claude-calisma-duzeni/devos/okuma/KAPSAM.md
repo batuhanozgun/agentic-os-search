@@ -21,7 +21,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Orkestrasyon ve iş grafı studies | O9 | BOŞLUK VAR | beads upstream, ERPNext, public-apis → G4 |
 | Foundation ve explorations | O10 | BOŞLUK VAR | Foundation → F1–F4; explorations → G5 |
 | Foundation 03: bilgi ve iş | F1 | SÜRÜYOR | — |
-| Foundation 03: aktörler ve ortam | F2 | SÜRÜYOR | — |
+| Foundation 03: aktörler ve ortam | F2 | TAMAM | 224 dosyanın hepsi okundu |
 | Foundation 05, 08, 04, 06, 07 | F3 | SÜRÜYOR | — |
 | Foundation 01, 02, history | F4 | SÜRÜYOR | Yer açılınca başlatıldı (O13 bitti). |
 | Kapatıcılar G1–G7 | G1–G7 | SÜRÜYOR | — |
@@ -29,7 +29,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Platform: zorlama katmanı belgeleri | O11b | SÜRÜYOR | — |
 | Platform: taşıyıcı katman belgeleri | O11c | SÜRÜYOR | — |
 | os-architect | O12 | BOŞLUK VAR | 131 dosyanın hepsi okundu; git geçmişi (eski KARARLAR, 1,2 MB'lık silinmiş Araştırmalar/) okunmadı → O12b |
-| os-architect git geçmişi | O12b | **SIRADA** | 20 ajan sınırı |
+| os-architect git geçmişi | O12b | SÜRÜYOR | — |
 | GitHub çerçeveleri | O13 | BOŞLUK VAR | Ajan "KAPSAM BÖLÜNMELİ" dedi: depoların yalnız mekanizmayı taşıyan dosyaları okundu. arxiv, letta.com, docs.langchain.com ve roocode belgeleri ağ politikası yüzünden kapalı. Kapatıcılar: O13a, O13b, O13c. |
 | Codex ve Letta belleği (kod ve belge) | O13a | SÜRÜYOR | — |
 | Backlog.md ve Task Master (kod) | O13b | SÜRÜYOR | — |
