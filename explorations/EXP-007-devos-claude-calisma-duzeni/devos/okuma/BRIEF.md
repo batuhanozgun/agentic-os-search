@@ -127,3 +127,10 @@ Not: arxiv.org, letta.com, docs.langchain.com ve roocode belgeleri bu ortamın a
 | Kimlik | Kaynak | Odak | Not dosyası |
 |---|---|---|---|
 | O5e | `/home/user/affaan-m/ecc`: O5d §1.3'te listelenen 25 orkestrasyon ve bellek skill'i; `memory-vault`; oturum kütüphaneleri (`scripts/lib` altındaki session ve state modülleri); hook ve skill testleri (yapı, neyi sınadıkları; mümkünse koş ve sonucu yaz) | ECC'nin orkestrasyon ve bellek katmanının tamamı; testlerin neyi kanıtladığı | `O5e-ecc-orkestrasyon-bellek-testler.md` |
+
+### O15'in boşlukları
+
+| Kimlik | Kaynak | Odak | Not dosyası |
+|---|---|---|---|
+| O15b | BMAD-METHOD (github.com/bmad-code-org/BMAD-METHOD) ve SuperClaude (github.com/SuperClaude-Org/SuperClaude_Framework): ajan personaları, iş akışları, intent contract, triage günlüğü, tur sınırları, komutlar ve kurallar; kod ve belge | Rol ve iş akışı çerçevelerinin somut dosyaları; DevOS'a ne alınır, nasıl aşılır? | `O15b-bmad-superclaude.md` |
+| O15c | claude-flow (github.com/ruvnet/claude-flow), claude-code-templates (github.com/davila7/claude-code-templates), awesome-claude-code (github.com/hesreallyhim/awesome-claude-code) ve orada bağlanan harness, orkestrasyon ve bellek çerçeveleri (en az 10 tanesi kaynağından) | Topluluk çerçevelerinin gerçek mekanizmaları; kanıtlı olanla iddia edilenin ayrımı | `O15c-claude-flow-templates-awesome.md` |

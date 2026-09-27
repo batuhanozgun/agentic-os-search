@@ -27,7 +27,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Kapatıcılar G1–G7 | G1–G7 | SÜRÜYOR | — |
 | Claude Code platformu | O11 | BOŞLUK VAR | Ajan "KAPSAM BÖLÜNMELİ" dedi: env-vars, settings, tools, commands, cli, remote-control ve başka sayfalar tam okunmadı → O11b, O11c |
 | Platform: zorlama katmanı belgeleri | O11b | SÜRÜYOR | — |
-| Platform: taşıyıcı katman belgeleri | O11c | **SIRADA** | 20 ajan sınırı |
+| Platform: taşıyıcı katman belgeleri | O11c | SÜRÜYOR | — |
 | os-architect | O12 | BOŞLUK VAR | 131 dosyanın hepsi okundu; git geçmişi (eski KARARLAR, 1,2 MB'lık silinmiş Araştırmalar/) okunmadı → O12b |
 | os-architect git geçmişi | O12b | **SIRADA** | 20 ajan sınırı |
 | GitHub çerçeveleri | O13 | BOŞLUK VAR | Ajan "KAPSAM BÖLÜNMELİ" dedi: depoların yalnız mekanizmayı taşıyan dosyaları okundu. arxiv, letta.com, docs.langchain.com ve roocode belgeleri ağ politikası yüzünden kapalı. Kapatıcılar: O13a, O13b, O13c. |
@@ -35,7 +35,9 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Backlog.md ve Task Master (kod) | O13b | SÜRÜYOR | — |
 | OpenHands, Goose, Magentic-One | O13c | SÜRÜYOR | — |
 | Akademik kaynaklar | O14 | SÜRÜYOR | — |
-| Anthropic ve Claude Code çerçeveleri | O15 | SÜRÜYOR | — |
+| Anthropic ve Claude Code çerçeveleri | O15 | BOŞLUK VAR | Ajan "KAPSAM BÖLÜNMELİ" dedi: claude-flow, claude-code-templates, BMAD ve SuperClaude'un çoğu; awesome-claude-code'da bağlanan çerçeveler okunmadı; claude.dev ağ politikası yüzünden kapalı → O15b, O15c |
+| BMAD ve SuperClaude | O15b | **SIRADA** | 20 ajan sınırı |
+| claude-flow, templates, awesome-claude-code | O15c | **SIRADA** | 20 ajan sınırı |
 | Architect-3'ün os-architect deneyimi (Batu'nun yapıştırması, U022) | O16 | TAMAM | Ana oturum okudu; O12 ile karşılaştırılacak |
 
 **Kabul kuralı:** Her notun kapsam bölümü ana oturumca okunur. "Okunmadı" diye kalan her kalemin ya bir kapatıcısı ya da "içerik konu dışı" gerekçesi olur; ikinci durumda gerekçe dosya açıldıktan sonra yazılmış olmalıdır. Bitmeyen kalem, yapı kararını bekletir.
