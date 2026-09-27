@@ -1,7 +1,7 @@
 # EXP-006 — DECISIONS
 
 **Rol:** Kullanıcıyla netleşmiş çalışma kararlarını/kısıtları candidate fikirlerden ayırmak.  
-**Güncelleme:** 27 Eylül 2026, çalışma alanı sorumluluğunun netleşmesi.  
+**Güncelleme:** 27 Eylül 2026, P3 tasarım devrine hazır aday sonrası.  
 **Sınır:** Buraya yazılması bir araştırma bulgusunu mimari gerçeğe veya bir gereksinimi gösterilmiş platform kabiliyetine dönüştürmez.
 
 | ID | Karar / çalışma anlaşması | Statü |
@@ -28,22 +28,21 @@
 | **D020** | P3'te araştırma örnekleri/metodolojileriyle derinleşilecek; assistant hemen karar vermek yerine bir başlangıç yapısı sunacak ve kullanıcıyla bu baz üzerinde değerlendirecek. | explicit discussion/return boundary; 27 Eylül 2026; P3-01 önerisinin kabulü değil |
 | **D021** | İçerik sahibi ne söylendiğini ve gerekçesini; çalışma düzeni tarafı dosya/kayıtların yerini, statüsünü, kaynak/sürüm ilişkilerini, bulunabilirliğini, bakımını, devrini ve yeniden kullanımını taşır. Düzen tarafı anlamı yeterince anlayabilmeli, fakat ürün kararını üstlenmemeli. Düzen yalnız görsel klasör temizliği değildir. | Kullanıcının “aynı fikirdeyim” yanıtıyla kabul edilmiş sorumluluk sınırı; 27 Eylül 2026. Ayrıntılı şema, tüm P3 kuralları veya fiziksel ayrı ekip onayı değil. |
 
-D011–D018 kaynak aktarımı [U002](sources/U002-cloud-plan-and-autonomy.md)'dedir. D019 P1 açıklamasından sonraki devam yönünün anlam kaydıdır. D020 ilk P3 kullanıcı isteğine dayanır. D021'in kullanıcı açıklaması ve kabul mesajı [P3-01 §1](work/P3-01-work-information-discussion.md#1-kullanıcı-yönü-ve-önerinin-sınırı)'de; assistant'ın önerdiği sınır ayrıca anlam özeti olarak ayrıdır. Örneklerdeki gerçek davranış bu karar kaydıyla bağımsız doğrulanmaz.
+D011–D018 kaynak aktarımı [U002](sources/U002-cloud-plan-and-autonomy.md)'dedir. D019 P1 açıklamasından sonraki devam yönünün anlam kaydıdır. D020 ilk P3 kullanıcı isteğine dayanır. D021'in kullanıcı açıklaması ve kabul mesajı [P3-01 §1](work/P3-01-work-information-discussion.md#1-kullanıcı-yönü-ve-önerinin-sınırı)'de; assistant önerisi anlam özeti olarak ayrıdır. Örneklerdeki gerçek davranış bu kayıtla bağımsız doğrulanmaz.
 
 ## Açık kalanlar — karar veya uygulanmış özellik sayılmaz
 
 - Nihai DevOS mimarisi, agent sayısı ve alt ajan/takım seçimi.
-- P2-01/ACTORS'taki DR01–DR16 ilk rol sözleşmeleri ve P3'ün DR06-G/Y, DR13-G/Y profilleri; kullanıcıca kabul edilmiş nihai kadro değildir.
-- Kullanıcının aktör → aile → rol → motivasyon önerisi. P2'nin motivasyonu rolün başarı yönü olarak içeride tutma yorumu adaydır; motivasyon başına agent kararı verilmedi.
-- P3 v0.4'teki mantıksal alanlar, talep/itiraz/karar durumları, bakım/yeniden kullanım ve durdurma–devam sözleşmelerinin ayrıntıları. D021 bunların tümüne peşin kabul değildir.
-- Alan profillerinin somut görevlendirmeleri, iletişim, bağlam/kalıcılık/tetik, role özgü dosya formatı, fiilî izin/yayın/çakışma mekanizmaları.
-- Memory/RAG/KG/veritabanı/iş takip ürünü seçimi; örnek projelerin bütün mimarisinin benimsenmesi.
-- R1–R25 veya F1–F8'in nihai organizasyon olması; aile/rol sayısının agent sayısı olması.
-- Foundation ground'larının modül olması; mekanik M kimliklerinin servis veya ayrı ekip olması.
-- Cloud hedefi açıktır; P1 belge resmi ve P2/P3 taslakları hedef oturumun actual yeterliği değildir.
+- P2-01/ACTORS'taki DR01–DR16 ilk sözleşmeler ve P3'ün DR06-G/Y, DR13-G/Y profilleri; kullanıcıca kabul edilmiş nihai kadro değildir.
+- Aktör → aile → rol → motivasyon önerisi ve motivasyonu rolün başarı yönü olarak içeride tutma aday yorumu; motivasyon başına agent kararı verilmedi.
+- P3 v0.5 mantıksal alanları, talep/itiraz/karar, bakım/yeniden kullanım, sürüme bağlı yayın ve kesinti sözleşmelerinin ayrıntıları. D021 bunların tümüne peşin kabul değildir.
+- Expertise/izin, actual agent allocation, iletişim, bağlam/kalıcılık/tetik, fiziksel dosya biçimi, fiilî yayın/çakışma/eski-yazıcı mekanizmaları.
+- Memory/RAG/KG/veritabanı/iş takip ürünü seçimi ve örneklerin bütün mimarisinin benimsenmesi.
+- R1–R25/F1–F8'in nihai organizasyon olması; family/rol sayısının agent sayısı olması; Foundation ground'larının modül, mekanik M kimliklerinin servis olması.
+- Cloud hedefi açıktır; P1 kaynak resmi ve P2/P3 taslakları hedef oturumun actual yeterliği değildir.
 
 ## Plan ve araştırma statüsü
 
-[WORK](WORK.md) P1–P6 bütünsel plan v1.3'ü taşır. P3 ayrıntısı v0.4 olarak konsolide edilmiştir; D021 kabulü dışındaki ayrıntılar adaydır. **P3 CONSOLIDATED WORKING DRAFT / DISCUSSION / KAPANMADI.** P4–P6 başlamadı. Kullanıcının toparla/devam yönü bu çalışmayı yetkilendirir; S1 kullanıcı kapanışı veya bütün P3 mimari kabulü uydurulmaz.
+[WORK](WORK.md) P1–P6 plan v1.3'ü taşır. Kullanıcının v0.4 sonrasındaki devamıyla birleşik eşzamanlılık/inceleme/kesinti senaryosu işlendi. Assistant P3'ü **DESIGN HANDOFF READY v0.5 / CANDIDATE / USER EVALUATION** düzeyinde değerlendirdi; bu değerlendirme accepted karar tablosuna eklenmedi. H1–H6 P4 için gereksinim devridir, çözüm seçimi değildir. P4–P6 başlamadı.
 
-Kısa sunum gerekli çalışma derinliğini küçültmez; küçük ayrımların her biri için yeni komut beklemek istenmez. D010'un agent-control karşılığı kullanıcının önceki açık kalıcılık talebi kapsamında `agent/protocols/canonical-work-preflight.md` dosyasındadır. Bu tur agent-control değiştirilmedi; project-work belgeleri genel kontrol kuralı değildir.
+D021 kabulü ve yeni aday ayrıntılar ayrı kalır. Kullanıcı kapanışı, bütün P3 mimari onayı veya canlı çalışma başarısı uydurulmaz. Kısa sunum çalışma derinliğini küçültmez; her küçük ayrımda komut beklemek istenmez. D010'un önceki açık kalıcılık talebiyle eklenmiş agent-control karşılığı `agent/protocols/canonical-work-preflight.md` içindedir. Bu tur agent-control değiştirilmedi.
