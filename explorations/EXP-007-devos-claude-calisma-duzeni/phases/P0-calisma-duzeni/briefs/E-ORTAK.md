@@ -24,6 +24,13 @@ Dosyanın başına iki şey yaz:
 - genel hüküm, en fazla 10 satır;
 - ciddiyete göre bulgu sayıları.
 
+## Okuma düzeni
+- METHOD taslağı bir omurgadır. Mekanizma kartlarının tam hali `drafts/T1–T5` altındadır; METHOD'un 5. bölümündeki kart dizini her kartın yerini gösterir. Bir iddiayı sınarken ilgili kartı taslakta aç.
+- Bağlam ve maliyet disiplini (ölçülmüş olay, `STATE.md`, "Maliyet"):
+  - önce ucuz gezin (başlık listesi, grep), sonra hedefli oku;
+  - büyük okumaları az sayıda turda, paralel yap; okuma bittikten sonra gereksiz araç çağrısı yapma;
+  - araştırma notlarını (R07–R11) bütünüyle okuma; görev tanımının istediği bölümleri oku.
+
 ## Kurallar
 - **Yalnız okuma.** Tek istisna kendi çıktı dosyan; onu tek seferde yaz.
 - Durum değiştiren git işlemi ve durum değiştiren araç yok.

@@ -2,7 +2,7 @@
 
 **Güncelleme:** 27 Eylül 2026.  
 **Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
-**Şu anki adım:** P0.4, METHOD v1 taslağı. P0.3 tamamlandı (R07–R11). Beş küme taslağı (T1–T5) için beş alt ajan başlatıldı; hepsi dönünce birleştirme yapılacak.  
+**Şu anki adım:** P0.4, METHOD v1 taslağı. P0.3 tamamlandı (R07–R11). Beş küme taslağından T3 ve T4 geldi; T1, T2 ve T5 sürüyor. Hepsi dönünce birleştirme yapılacak.  
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
 **Batu'dan beklenen:** Şu an yok. Taslak sunulunca: taslağa itirazları, A-01, A-02, A-04 ve A-07. Ayrıntı: [DECISIONS](DECISIONS.md).
 
@@ -61,10 +61,15 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
   - code.claude.com ve anthropic.com açık.
   - Bu oturuma bağlı olmayan github.com repoları ve bazı dış siteler (ör. docs.cline.bot) kabuktan kapalı.
   - İki Loopinance reposu bu oturuma salt okuma için bağlandı ve klonlanmadı. Yeni oturumda gerekirse yeniden bağlanmalı.
-- **Maliyet:** Alt ajanların bu oturumdaki harcaması yaklaşık 6,5 milyon token:
-  - R01: 2,63 M;
-  - R02–R06: 1,49 M;
-  - R07–R11: ~2,44 M (R07 0,61 · R08 0,53 · R09 0,13 · R10 0,51 · R11 0,66). R09'un sayacı düşük görünüyor; ölçüm güvenilirliği açık bir soru.
+- **Maliyet (27 Eylül 10:20'de düzeltildi):**
+  - **Eski rakam yanlıştı.** "Yaklaşık 6,5 milyon token" görev bildirimlerindeki `subagent_tokens` alanından toplanmıştı. Bu alan ajanın toplam harcamasını göstermiyor. Örnek: T4 için bildirim 77,9 K diyor; transcript'e göre T4 20,8 M token işledi.
+  - **Yeni ölçüm:** [tools/token-kullanimi.py](tools/token-kullanimi.py). Transcript'lerdeki `usage` alanlarını mesaj kimliğine göre tekilleştirip toplar. Sınırları betiğin başında yazılı.
+  - **Oturum toplamı (10:20, T1–T3 ve T5 sürerken):** yaklaşık 413 M işlenen token.
+    - Bunun yaklaşık 392 M'si önbellekten yeniden okuma, 20 M'si önbelleğe yazma, 0,9 M'si çıktı. Çıktı eksik sayılıyor olabilir.
+    - Fiyat ağırlıklı girdi eşdeğeri yaklaşık 69–84 M. Ağırlıklar: önbellekten okuma 0,1×, önbelleğe yazma 1,25×–2×, çıktı 5×. Abonelik limitlerinin bunları nasıl saydığı bilinmiyor.
+  - **Dağılım (işlenen):** ana oturum ≈ 53 M · R01 workflow (27 ajan) ≈ 27 M · R02–R06 ≈ 30 M · R07–R11 ≈ 168 M · T1–T5 ≈ 130 M (sürerken).
+  - **Ana maliyet sürücüsü: büyük bağlam × çok adım.** Ajanlar araştırma notlarını baştan okuyup bağlamı 600–780 bin token'a çıkarıyor, sonra 70–120 adım atıyor. Her adımda bütün bağlam yeniden okunuyor.
+  - **Sonuç:** Bu, S7 (bağlam) ve S20 (maliyet) için ölçülmüş bir olaydır. Kalan görev tanımlarına bağlam disiplini eklendi. Bağlam penceresi yaklaşık 1 M; ana oturum 792 K'da sıkıştırıldı (%80).
 
 ## Yeni oturum ne yapar
 0. EXP-007 main'de yoktur. Batu yeni oturuma dal adını verir: `claude/hopeful-pascal-7bekcd`. Oturum dalı alır: `git fetch origin claude/hopeful-pascal-7bekcd`.

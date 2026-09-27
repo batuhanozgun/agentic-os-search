@@ -9,6 +9,10 @@
 - `explorations/EXP-007-devos-claude-calisma-duzeni/phases/P0-calisma-duzeni/METHOD-v1.md`: tartışma sürümü;
 - `explorations/EXP-007-devos-claude-calisma-duzeni/phases/P0-calisma-duzeni/reviews/DEGISIKLIK-KAYDI.md`: her bulgunun nasıl işlendiği.
 
+## Okuma ve yazma düzeni
+- Küme taslakları (`drafts/`) dondurulmuştur. Kart düzeyindeki her değişiklik METHOD-v1'e yazılır ve kart dizininde "değişti" diye işaretlenir.
+- Bağlam ve maliyet disiplini: `briefs/ENTEGRASYON.md`, "Ana oturumdan notlar", madde 2.
+
 ## Görev
 1. **Her bulgu için bir karar ver:** kabul / kısmen / ret.
    - Gerekçe zorunlu.

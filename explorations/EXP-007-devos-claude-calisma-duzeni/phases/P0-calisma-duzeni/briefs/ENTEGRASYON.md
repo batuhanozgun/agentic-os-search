@@ -66,6 +66,42 @@ Kümelerin yazdıklarını yan yana koymak yetmez. Asıl iş şunlardır: çeli�
     Özet kısa, sade ve soyutlamasız olmalı.
 13. **Açık soruları, varsayımları, riskleri ve metnin neyi kanıtlamadığını yaz.**
 
+## Ana oturumdan notlar (kümeler dönerken eklendi)
+
+**1. Boyut ve yetki kuralı.**
+- Küme taslakları büyük: T4 tek başına 187 KB ve 1.552 satır. Beşi birlikte yaklaşık 1 MB olabilir. METHOD bunları kopyalamaz.
+- `METHOD-v1-TASLAK.md` bir **omurgadır**:
+  - 0–4 ve 6–14 numaralı bölümler tam metindir;
+  - 5. bölümde her alt sistem için bir **kart dizini** tablosu olur. Sütunlar: kart kimliği · ne yaptığı (bir satır) · tetik · sahip rol · zorlama düzeyi · kabul testi · taslaktaki yeri · birleştirme durumu (aynen / değişti / birleşti / çıkarıldı).
+- Değişen ya da birleşen her kartın yeni hali METHOD'da yazılır. O noktada METHOD, taslağın önüne geçer.
+- Küme taslakları METHOD'un ekleri olur ve **dondurulur**. Bundan sonraki değişiklikler yalnız METHOD'a yazılır.
+- Batu özeti bir sayfadır. Omurga okunabilir kalmalı; kaba tavan 1.500 satırdır. Bu bir tavan, kota değil.
+
+**2. Bağlam ve maliyet disiplini (ölçülmüş olay).**
+- Bu oturumda alt ajan maliyeti yanlış sayaçla ölçüldü. Ayrıntı: `STATE.md`, "Maliyet". Transcript'e göre:
+  - T4 tek başına yaklaşık 20,8 M token işledi; bunun 19 M'si önbellekten yeniden okumaydı;
+  - oturum toplamı yaklaşık 413 M işlenen token; fiyat ağırlıklı girdi eşdeğeri 69–84 M.
+- Sürücü: büyük bağlam × çok adım.
+- Bu olayı S7 ve S20 tasarımına girdi olarak işle. T5'in maliyet kartlarını bu ölçümle karşılaştır. Ağırlık bütçesi (madde 8) gerçek ölçüme dayansın; ölçüm aracı `tools/token-kullanimi.py`.
+- **Senin için kural:**
+  - Önce ucuz gezin: başlık listesi, grep.
+  - Sonra hedefli oku. Her taslakta önce özeti, arayüzleri, W katkılarını, onay listesini ve açık soruları oku; kartlara gerektiği kadar in.
+  - Büyük okumaları az sayıda turda, paralel yap. Okuma bittikten sonra gereksiz araç çağrısı yapma.
+  - Dosyayı tek seferde yaz.
+
+**3. Kümelerden gelen notlar.**
+- **T4, ad çakışması:** "Y" kodları hem yükseltme tetikleri hem R11 seçimleri için kullanılmış. "Z1" de hem yetki zarfı sürümü hem hook adayı için kullanılmış. Yeniden adlandır.
+- **T4, en büyük risk:** Frenlerin son halkası Batu'ya ulaşan alarmdır, ama bildirim kanalı bilinmiyor. Ana oturumun gözlemi:
+  - ana oturumda `PushNotification` aracı var. Araç açıklamasına göre terminale masaüstü bildirimi gönderir; Remote Control bağlıysa telefona da gider; kullanıcı zaten ekrandaysa göndermez;
+  - `SendUserFile` aracının "proactive" durumu var;
+  - alt ajanlarda bu araçlar yok (T4, EkA-18).
+
+  Bulutta Batu'nun telefonuna ulaşıp ulaşmadığı bilinmiyor; pilotta sınanır. Alarm yalnız ana oturumdan gönderilebilir; alarm tasarımı buna göre ana oturuma bağlanmalı.
+- **T3, harita:** K-002'nin bağlandığı P1–P4'ün numarası ve anlamı korundu. K-002'nin yeni haritaya nasıl uygulanacağı P0.8'de Batu'ya sorulacak; bunu onay paketine (madde 9) koy.
+- **T3, en büyük risk:** Oturumlar arası uyandırma denenmedi. Çalışmazsa kendiliğinden geçişler oturum sınırında durur. T4'ün alarm riskiyle aynı kökten geliyor (ana oturum dışında kanal yok); ikisini tek pilot sorusunda birleştir.
+- **T3, çıktı sınırı:** T3 metni önce repo dışında parça parça hazırladı, sonra tek dosyada birleştirdi. Senin çıktın da büyükse aynı yolu kullanabilirsin; repoya yine tek seferde yaz.
+- Diğer kümelerin notları döndükçe eklenecek.
+
 ## Önerilen bölüm yapısı
 0. Batu için özet
 1. Amaç, kapsam ve ilkeler: Batu'nun ilkeleri (R03) → tasarım ilkeleri

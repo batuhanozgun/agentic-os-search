@@ -85,6 +85,6 @@ Görev tanımları:
 |---|---|---|---|
 | T1 | S7 bağlam · S8 bellek · S9 kayıt mimarisi · S10 anlam bütünlüğü | `drafts/T1-bilgi-tasima.md` | SÜRÜYOR |
 | T2 | S11 kalıcı roller · S12 orkestrasyon · S13 arayüzler · S16 güvenlik | `drafts/T2-aktorler-ve-guvenlik.md` | SÜRÜYOR |
-| T3 | S3 yaşam döngüsü · S4 keşif · S5 plan · S6 araştırma kullanımı · P0–P6 haritası | `drafts/T3-isin-akisi-ve-harita.md` | SÜRÜYOR |
-| T4 | S1 yönetişim · S2 Batu ile iş birliği · S14 kalite · S15 muhakeme disiplini · S17 gözlemlenebilirlik | `drafts/T4-yon-yetki-ve-denetimler.md` | SÜRÜYOR |
+| T3 | S3 yaşam döngüsü · S4 keşif · S5 plan · S6 araştırma kullanımı · P0–P6 haritası | [drafts/T3](drafts/T3-isin-akisi-ve-harita.md) | TAMAM (170 KB, 33 kart) |
+| T4 | S1 yönetişim · S2 Batu ile iş birliği · S14 kalite · S15 muhakeme disiplini · S17 gözlemlenebilirlik | [drafts/T4](drafts/T4-yon-yetki-ve-denetimler.md) | TAMAM (187 KB) |
 | T5 | S18 süreklilik · S19 ortam ve yapılandırma · S20 maliyet · S21 öğrenme | `drafts/T5-dayaniklilik-ve-evrim.md` | SÜRÜYOR |

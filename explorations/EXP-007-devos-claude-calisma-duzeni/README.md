@@ -36,6 +36,7 @@ EXP-007, EXP-006'ya yazmaz. Oradaki "sıradaki" ifadeleri ve durma noktaları da
 | DECISIONS.md | Batu'nun kararları, gereksinimleri ve açık sorular |
 | sources/conversation/ | konuşma kaynakları, birebir |
 | phases/P0-calisma-duzeni/ | P0 planı, görev tanımları, araştırma notları, taslaklar, eleştiriler |
+| tools/ | ölçüm betikleri; şimdilik yalnız gerçek token kullanımı (`token-kullanimi.py`) |
 
 Bu yapı geçicidir. P0'ın çıktısı olan metodoloji kabul edilince paketin yapısı ona göre genişletilir.
 
