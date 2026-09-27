@@ -1,57 +1,49 @@
 # EXP-006 — STATE
 
-**Durum:** AÇIK / uzun soluklu DevOS tasarım çalışması.  
-**Güncelleme:** 27 Eylül 2026, P4 ilk teknik tercih ve fiziksel çalışma alanı taslağı.  
-**Üst amaç:** Claude Code cloud ortamında SOUL'u geliştirecek ekibin çalışma düzenini ortaya koymak.  
-**Current:** **P4 INITIAL TECHNICAL BASELINE / CONDITIONAL DESIGN / NOT DEPLOYED.** Kullanıcının P3 devir sonucundan sonraki “devam et” yönü P4'ü açtı. Teknik başlangıç tercihi yapıldı; hedef Claude'da doğrulanmış veya kullanıcıca benimsenmiş nihai mimari değildir. **P4 AÇIK; P5/P6 BAŞLAMADI.**  
-**Üst harita:** [WORK — master plan v1.4](WORK.md). P1→P2↔P3→P4→P5→P6 sırası korunur.
+**Durum:** AÇIK / DevOS tasarım çalışması. **Güncelleme:** 27 Eylül 2026.
+**Üst amaç:** SOUL'u geliştirecek ekibin çalışma düzenini, SOUL'un gerektirdiği gerçek kabiliyetlere göre ortaya koymak.
+**Current:** **P4 / SOUL ODAKLI RAPOR v2 HAZIR / MİMARİ ÖNERİ / KULLANICI DEĞERLENDİRMESİ.** Gerçek DevOS kurulmadı; P5/P6 tamamlanmış değildir.
+**Üst plan:** [WORK](WORK.md). **Yeni ayrıntı/artefakt kaydı:** [P4-02](work/P4-02-soul-derived-report-v2.md).
 
-## Sabit sınırlar
+## Son yetki ve teslimat
 
-- Gerçek SOUL işlerini kurulacak ekip keşfeder, planlar ve yürütür. Assistant ekibin düzenini tasarlar; hazır SOUL backlog'u seçmez.
-- Claude Code cloud hedef Environment'dır. Birincil belgeler P4'te hedefli tazelendi; hedef hesap/VM'nin araç, izin, erişim ve devam davranışı henüz görülmedi.
-- K1 talep→çalışma→yanıt→kullanım; K2 rutin rol geçişinde Batu'nun tetikleyici olmamasıdır. Başlatma/yeniden başlatma, gerçek müdahale, yetki ve kabul mümkündür; sınırsız gözetimsizlik hedef değildir.
-- D021: İçerik sahibi anlamı ve gerekçeyi; çalışma alanı tarafı yer, statü, kaynak/sürüm bağı, bulunabilirlik, bakım, devir ve yeniden kullanımı taşır. Düzen görevlisi ürün kararının yerine geçmez.
-- Kanon/v2/ECC/Hermes/Gas Town/Beads bütün olarak alınmaz. Research agent-control dosyaları DevOS'a otomatik talimat olarak aktarılmaz.
+Kullanıcı ilk 200 sayfalık raporu yüzeysel tarama veya küçük eklerle düzeltmek yerine baştan yeniden yazmayı istedi. Esas yön, SOUL'un ne olacağına göre DevOS gereksinimlerini türetmek; gerekli kaliteyi daha kolay uygulamaya sığdırmak için düşürmemektir. Bu, yeni teknoloji/mimari tercihlerinin kullanıcı kabulü değildir.
 
-## Devralınan zemin
+Yeni rapor **tam 200 sayfa** ve düzenlenebilir kaynak paketi olarak konuşmada teslim edilir. PDF, Markdown ve ZIP'nin adları/hash'leri P4-02 §2'de. **Dosyaların tamamı GitHub'a yüklenmedi; bu repository yalnız teslimat ve current mimari farkını kaydeder.** Ayrıntılı yeni çalışmada gerçek ekler okunmalıdır; bu özet raporun yerine geçmez.
 
-SOUL hedefi→B1–B9→R1–R25/M1–M9→S1-01–17→F1–F8→P1–P6 bağı korunur. B haritası gerçek SOUL iş sırası değildir. S1-17 CLOSURE-READY / CANDIDATE; kullanıcı kapanışı veya çalışan sistem kabulü değildir. S1-16 kaynak-tamlığı sınırı S1-17 §7'dedir.
+## Değişen mimari öneri
 
-[ACTORS](ACTORS.md) ve [P2-01](work/P2-01-named-role-contracts.md) ilk rol/sözleşme tabanı; [P3-01 v0.5](work/P3-01-work-information-discussion.md) G/Y koordinasyonu/güvencesi, D021 bakım karşılığı ve H1–H6 gereksinim devridir. P3 kavramsal tasarım devrine hazır olarak kullanılır; devam izni bütün ayrıntılara kullanıcı kabulü değildir. P2'yi tek başına son runtime kadrosu sayma.
+- Claude cloud bilişsel ekibi ile korunan deterministik kontrol hizmetleri ayrılır; takım ağırlıklı sürekli işbirliği ve gerektiğinde odaklı alt ajan profilleri önerilir. Hedefte yeterlik gösterilmedi.
+- PostgreSQL canlı iş/atama/inceleme/yetki/yayın ve typed relation kayıtlarını; Git ürün ve yayımlanmış rol/yöntem/politika içeriklerini taşır. Hash'li kaynak/kanıt gövdeleri korunur. Aynı nesnenin iki bağımsız yazma otoritesi olmaz.
+- Graph engineering birinci sınıf tasarımdır: tür/sürüm/scope, AND/OR destek, invariant, sorgu, concurrency ve etki değerlendirme yolu açık. Graph sonucu anlamsal doğruluğu otomatik ilan etmez.
+- Memory yaşam döngüsü ile exact/lexical/semantic/graph retrieval ve context compiler birlikte tasarlanır. Gerekli bilgiyi azaltmak token optimizasyonu diye meşrulaştırılmaz.
+- Korunan publisher, read-set/revision, claim generation, outbox/inbox ve DB–Git uzlaştırması vardır. Shared Claude runtime agent adları bağımsız güvenlik kimliği sayılmaz.
+- Mekanik doğruluğa ek iş keşfi, bağlam yeterliği, uzun/bileşik eser ve yöntem aktarımının gerçek değerlendirmesi gerekir.
 
-[P1-01](work/P1-01-claude-cloud-environment-map.md) tarihsel kaynak haritasını ve Q01–Q06'yı korur. P4'ün yük taşıyan güncel kaynak tazelemesi P4-01 §8'dedir; eski P1 cümlesi actual kurulum kanıtı değildir.
+Bu farklar yalnız graph eki değildir. Önceki [P4-01](work/P4-01-cloud-runtime-and-workspace-design.md) teknik baseline olarak korunur; **current seçim ve next-work authority değildir**. Eski salt Git çalışma kaydı/alt-ajan tercihi yeni rapora otomatik taşınmaz.
 
-## P4 ilk teknik tasarım
+## Korunan kararlar
 
-**Tek ayrıntı yüzeyi:** [P4-01 — cloud çalışma biçimi ve fiziksel alan](work/P4-01-cloud-runtime-and-workspace-design.md).
+Claude Code cloud hedefi; SOUL'un ilk ve sonraki gerçek işlerini ekibin keşfetmesi; K1 talep→çalışma→yanıt→kullanım; K2 rutin rol geçişlerinde Batu'nun tetikleyici olmaması; gerçek müdahale/yetki/kabulün korunması değişmedi.
 
-**Başlangıç tercihi:** Bir ana Y/DevOS İşletim Koordinatörü oturumu + adlandırılmış ve mesajlaşabilen özel alt ajanlar. G/SOUL Geliştirme Koordinatörü ayrı görevlendirme; G/Y incelemeleri ayrı bağlamlar. Takımlar başlangıçta zorunlu değil, ihtiyaç/gerçek davranış gerekçelendirirse yeniden karşılaştırılacak alternatif.
+D021 içerik–çalışma alanı sahipliği korunur. G SOUL içeriğini/sonucunu, Y DevOS işleyişini ve düzenini hedefler. İkisi de Work/reasoning taşır. Rol sayısı agent sayısı değildir. Research talimatları otomatik DevOS kontrolü yapılmaz.
 
-- Rol amacı/araç sınırı `.claude/agents/` tanımlarında; ortak kısa giriş `CLAUDE.md`; yürürlüğe alınmış yöntemler skill olarak. Aynı rol metninin iki authoritative kopyası kurulmaz.
-- Bir operasyon deposunda ayrı `soul/` ve `devos/` alanları tercih edildi. İş/karar/dayanak/deneme/kütüphane kayıtları ürünle ilişkilidir; Research ayrı salt-okur kaynak olarak bağlanacaktır. Operasyon reposu henüz seçilmedi veya açılmadı.
-- Üreticiler özel çalışma kopyalarında aday değişiklik üretir; aynı current branch'e yayın tek kontrollü yoldan sıralı yürür. Ana Y bu yolu işletir, içerik hükmünü üstlenmez. Bu tercih bütün yazarları DR07'ye toplamaz.
-- Native mesajlar iletişim taşıyıcısı; kalıcı Work/request/consumer bağı Git kayıtlarında. Var olan rol doğrudan mesaj alabilir; eksik rol Y tarafından etkinleştirilir. Her mesaj iki koordinatörden onay istemez.
-- Dayanıklı devam noktası izinli cloud çalışma branch'ine doğrulanmış checkpoint'tir; yalnız yerel worktree veya auto-memory değildir. Her ara rol geçişinde main merge'i/kullanıcı komutu gerekmez.
+B1–B9/S1/F1–F8/P2/P3 birikimi provenance'dır; gerçek SOUL backlog'u veya çalışan kapasite değildir. [DECISIONS](DECISIONS.md) kabul edilmiş sınırları taşır; yeni raporun teknik seçimleri öneri olarak ayrı kalır.
 
-**Yük taşıyan açık:** Worktree ve Git beklenen-temel kontrolü tek başına yetki duvarı değildir. Shell, paylaşılan Git alanı, API/MCP veya kontrol dosyası yoluyla koruma aşılabilir. Hedefte yazma/yayın sınırı ve eski görevliden gelen çıktı fiilen korunmadan güvenli paralel mutasyon iddiası kurulmaz. Gerekiyorsa salt-okur uzmanlar + daha dar mutasyon kanalı tercih edilir; H3/H5 düşürülmez.
+## Gerçek kanıt
 
-## Kanıt ve yapılmayanlar
+Yerel Python/SQLite modelinde 40 test geçti; dört hedefli kontrol kaldırma denemesinde ilgili testler hata yakaladı. Aynı yazarlı, sınırlı semantik deneydir. Gerçek PostgreSQL, Claude, kimlik doğrulama, Git/cloud yayını, sandbox, production restore veya SOUL bilişsel yeterliği kanıtı değildir. Ham kayıtlar kaynak ZIP içindedir.
 
-Resmî Claude/Git kaynaklarının ilgili bölümleri yeniden okundu. Dar yerel Git probe'unda beklenen eski SHA ile ikinci stale güncelleme reddedildi; eski SHA koşulu olmadan aynı ref değiştirilebildi. Bu, korunmuş yayın yolunun gereğini gösterir; hedef Claude veya güvenlik sınırının çalıştığını göstermez. Gözlem kapsamı P4-01 §8'de.
+PDF'nin 200 sayfa/bağlantı/kaynak/glyph/bbox kontrolü ve görsel düzen incelemesi yapıldı; bu belge kalitesi kontrolüdür.
 
-Canlı Claude oturumu, ajan iletişim denemesi, hedef izin/sandbox testi, VM restore veya yayın timeout'u yapılmadı. P4'ün koşullu tercihi P4'ün tamamlandığı değildir. P5 rol/skill/hook dosyaları üretilmedi; başka repo değiştirilmedi.
+## Current next ve sınır
 
-## Current next responsibility
+**Şimdi teslim:** Yeni PDF ve kaynak paketini kullanıcıya ver. Rapor üretimi tamam; yeni mimari kabulü veya hedef kurulumu değil.
 
-**Bu tur sonuç:** H1–H6'ya bağlı çalışma topolojisi, rol allocation yaklaşımı, fiziksel dosya/klasör yerleşimi, çağrı/devir ve kontrollü yayın için bütünlüklü ilk teknik tasarım. Kullanıcıya kısa sonuç ve gerçek açıkları ver; P3 örneklerini yeniden anlatma.
-
-**Sıradaki bütünlüklü P4 işi:** Bu seçime göre rol→araç→okuma/yazma/yayın yetki matrisini ve hedef cloud kabul denemesi paketini tamamlamak. Tek paket tanım yükleme, A→B→A iletişim/tüketim, checkpoint/yeniden giriş ve doğrudan/dolaylı eski-yazıcı karşı vakalarını kapsar. Gerçek hedef erişimi/çalıştırma kanıtı gereken yerde açıkça ayrılır; olmayan kabiliyeti varsayarak P5'e geçilmez.
-
-P4 devamı, teknik başlangıç tercihini kullanıcıca kabul edilmiş yapmaz. Kaynak veya hedef gözlemi tercihi değiştirirse gerekçeli alternatif/ilgili P2/P3 dönüşü açılır; yeni genel audit veya tüm rol taxonomy'sini tekrar kurma yoktur.
+**Sonraki mantıksal iş:** V2 değerlendirmesinden sonra rapordaki uygulama ve qualification programını gerçek cloud/operasyon deposu/kontrol hizmeti koşullarına bağlamak. Yeni kullanıcı yönü olmadan P5 kurulumu başlatılmaz. Eski P4-01'in izin matrisi next'ine veya genel P3 audit döngüsüne dönülmez.
 
 ## Fresh-session yolu
 
-AGENT ve gerekli kontroller→[INDEX](INDEX.md)→STATE→[HANDOFF](HANDOFF.md)→[WORK](WORK.md)→[DECISIONS](DECISIONS.md)→[ACTORS](ACTORS.md)→[U002](sources/U002-cloud-plan-and-autonomy.md)→[P1-01](work/P1-01-claude-cloud-environment-map.md)→[P2-01](work/P2-01-named-role-contracts.md)→[P3-01](work/P3-01-work-information-discussion.md)→[P4-01](work/P4-01-cloud-runtime-and-workspace-design.md) tam okunur. Aynı konuşmadaki tam unchanged içerik korunabilir; sonra yalnız aktif sorunun kaynağına inilir.
+AGENT ve gereken kontroller → [INDEX](INDEX.md) → STATE → [HANDOFF](HANDOFF.md) → [WORK](WORK.md) → [DECISIONS](DECISIONS.md) → [P4-02](work/P4-02-soul-derived-report-v2.md) → **gerçek v2 PDF/kaynak ZIP**. Ayrıntılı tasarım işi öncesi raporun gerekli tam bağlamı ve sözleşmeleri okunur; erişim yoksa ek dosya istenir, hafızadan yeniden kurulmaz.
 
-Eski P dosyalarının geçmiş next/not-started ifadeleri bu current sırayı yönetmez. P2 tabanı, P3 kavramsal devir, D021 kabulü ve P4 koşullu teknik tercihi ayrı tutulur. Kısa sunum küçük çalışma birimi değildir.
+ACTORS/P2/P3 ve eski P4 yalnız lineage/karşılaştırma gerektiğinde, kendi statüleriyle okunur. Önceki PDF ile v2 karıştırılmaz. Kısa kullanıcı cevabı çalışma derinliğini küçültmez.
