@@ -22,7 +22,9 @@ Her okuma ajanı bir kaynak kümesini okur ve tek bir not yazar. Notlar sonra an
 
    Soyut kavram özeti yazma; mekanizma uydurma.
 3. **DevOS'a uygunluğunu yaz.** Her mekanizma için: al / uyarlayarak al / alma, gerekçesiyle. Claude Code bulut ortamının gerçeklerini dikkate al. Bilinenler:
-   - bulutta `/plugin` kullanılamıyor ("Plugins aren't available in this environment"); bileşenler proje dosyası olarak kurulmalı;
+   - bulutta `/plugin` arayüzü "Plugins aren't available in this environment" diyor, ama hesapta etkin plugin'ler bulut oturumuna "synced plugin" olarak yükleniyor. Repodaki `enabledPlugins` bildirimi marketplace kurmuyor. İki yol var: hesap plugin'i ya da proje dosyası. Kaynak: `development-os/attempts/002/README.md` §4–§5. (Düzeltme: Bu satır önce "bileşenler proje dosyası olarak kurulmalı" diyordu. O5 ve O11'e çalışırken düzeltme gönderildi.);
+   - tek repolu oturumda repo skills, agents, commands, rules, settings hook'ları ve izinleri yükleniyor; çok repolu oturumda durum farklı;
+   - setup script ilk kurulumdan sonra önbelleğe alınıyor; VM süresi dolunca konuşma geri geliyor, çalışan alt ajan ve shell işleri geri gelmiyor;
    - alt ajan kendi alt ajanını açamıyor (derinlik 1);
    - oturum boşta kalınca makine geri alınıyor;
    - bağlam %80'de sıkıştırılıyor;
