@@ -83,3 +83,23 @@ Ortak soru: DevOS, ECC'nin üstüne kurulabilir mi? ECC'yi bütün olarak ve sab
 | O5d | `/home/user/affaan-m/ecc`: `skills/` (292 skill'in tam kataloğu: ad, açıklama, kategori; çekirdek skill'ler baştan sona: continuous-learning, strategic-compact, verification-loop, tdd-workflow, eval-harness, iterative-retrieval, search-first, security-review ve orkestrasyon ya da bellekle ilgili hepsi); `hooks/` (bütün betikler ve hooks.json); bellek, oturum ve öğrenme (instinct) betikleri | Skill ve hook katmanı. Sürekli öğrenme ve instinct sistemi, oturum kalıcılığı, bağlam yönetimi. `$HOME` depoları ve `observe.sh` entrypoint sorunu nasıl uyarlanır? | `O5d-ecc-skill-hook-ogrenme.md` |
 
 Ortak kurallar aynen geçerlidir. Tek fark boyut: not en fazla 60 KB olabilir.
+
+### Boşluk kapatma ve Foundation okuması (U021: "yarım yamalak, üstün körü")
+
+Biten notlarda okunmamış kapsam kaldı. Ana oturum bunu kapsam listesinden (`KAPSAM.md`) izler. Hiçbir not boşluklu haliyle kabul edilmez; her boşluk kapatma ajanına verilir. Bütün ajanlar önce `STANDART.md`'yi okur.
+
+| Kimlik | Kapatılan boşluk ve kaynak | Not dosyası |
+|---|---|---|
+| G7 | O4: loopinance-claude-code'da okunmayanlar: 11 workflow betiği; `bekci.sh` ve testleri; 73 setup handoff'u (devir kalıbı ve ortak yapı için hepsi); Audit raporları; tutanaklar; ürün kanonunun yapısı ve harness'in kanonu nasıl yönettiği | `O4b-loopinance-tamamlama.md` |
+| G1 | O3: keel ve oyun2'de tam okunmayan her şey: `sevk.sh`, `file-guard.sh` (yol çözümleyici dahil), bütün yardımcı dosyalar, kokpit arayüzü, oyun2'nin bütün ROL.md dosyaları; testlerin yapısı ve kırmızı 22 testin içeriği | `O3b-keel-oyun2-tamamlama.md` |
+| G2 | O6: Hermes'in okunmayan notları (cron, kurulum, UI, oturum kiraları ve kalan bütün notlar); gstack'in browser-runtime ve cross-* sentezleri ile kalan sentezleri; superpowers U06B1, U06B2, U07A, U07B ve SOURCE-LEDGER; mattpocock-skills ile Hermes'in upstream repoları (bellek, skill ve cron kodu) | `O6b-hermes-superpowers-gstack-tamamlama.md` |
+| G3 | O7: yalnız META'sı olan bellek paketlerinin upstream'leri (ai-memory, agentmemory, agent-memory-providers, context-mode, openviking, llm-wiki; META'larda adı geçen memorizz ve benzerleri); R09'un kalan bölümleri; EXP-003 S008 ve S010'un tamamı | `O7b-bellek-upstream.md` |
+| G4 | O8 ve O9: deepseek-harness, cli-continues, claude-swap upstream'leri; beads upstream (`ready`, kira ve reclaim kodu); ERPNext FINDINGS ve SOURCE-LEDGER; public-apis RESEARCH | `O8b-harness-isgrafi-upstream.md` |
+| G5 | O10'un explorations boşlukları: EXP-004 MS01, T, DQ, SY01 ve RV01'in tamamı; EXP-001 konsolidasyon ve Atlas; EVOLUTION, OPEN-QUESTIONS, TOPIC-MAP ve checks dosyaları; EXP-002 QUALIFICATIONS'ın tamamı; EXP-006'nın main'deki B1–B9 ve S1'i; D006'daki SOUL hedef tanımı metninin repo ve main genelinde aranması | `O10b-explorations-tamamlama.md` |
+| G6 | O2: önceki Claude reposunda `PLAN.md` ve `JOURNAL.md`'nin tamamı; `knowledge/` sentezleri T-A…T-F, C01–C06 ve research-map notları; RPD süreklilik tasarımı; C-002'deki M1–M3 ile T0–T5 | `O2b-onceki-claude-devos-tamamlama.md` |
+| F1 | Foundation `03_ground-deepening`: bilgi (information) ve iş (work) zeminleri. STATE, INDEX, router'lar, sentezler ve kararı taşıyan sonuç belgeleri. | `F1-foundation-bilgi-is.md` |
+| F2 | Foundation `03_ground-deepening`: aktörler (actors) ve ortam (environment) zeminleri; aynı kapsam | `F2-foundation-aktor-ortam.md` |
+| F3 | Foundation `05_relation-control-composition` (Binding, Composite Standing, Control, Transition/Propagation sentezleri); `08` REUSE; `04`, `06` ve `07` üst düzey sentezleri; kök README, INDEX ve STATE | `F3-foundation-iliski-kontrol-reuse.md` |
+| F4 | Foundation `01_verticals` ve `02_adequacy`; `history/` içindeki yön değiştiren kayıtlar | `F4-foundation-verticals-adequacy.md` |
+
+Foundation okuyucuları için soru şu: DevOS'un tasarımında hangi Foundation sonucu, hangi somut mekanizmaya dönüşmeli? Foundation reçete değildir; dört zemin dört klasör, servis ya da ajan yapılmaz. Kararı taşıyan her sonuç yol ve bölümüyle alıntılanır. Her not en fazla 90 KB olur.
