@@ -103,3 +103,13 @@ Biten notlarda okunmamış kapsam kaldı. Ana oturum bunu kapsam listesinden (`K
 | F4 | Foundation `01_verticals` ve `02_adequacy`; `history/` içindeki yön değiştiren kayıtlar | `F4-foundation-verticals-adequacy.md` |
 
 Foundation okuyucuları için soru şu: DevOS'un tasarımında hangi Foundation sonucu, hangi somut mekanizmaya dönüşmeli? Foundation reçete değildir; dört zemin dört klasör, servis ya da ajan yapılmaz. Kararı taşıyan her sonuç yol ve bölümüyle alıntılanır. Her not en fazla 90 KB olur.
+
+### O13'ün bölünmesi (ajanın kendi "KAPSAM BÖLÜNMELİ" önerisi)
+
+| Kimlik | Kaynak | Odak | Not dosyası |
+|---|---|---|---|
+| O13a | OpenAI Codex CLI (openai/codex) bellek kodu ve belgeleri; Letta (letta-ai/letta), bellek blokları, arşiv ve pre-commit bütçe kontrolü; mem0'ın yalnız eklemeye geçişi | Dosya ve git tabanlı bellek: şema, bütçe, yazma anında zorlama, kanıta bağlı unutma | `O13a-codex-letta-bellek.md` |
+| O13b | Backlog.md (MrLesk/Backlog.md) ve Task Master (eyaltoledano/claude-task-master); kod, şablonlar, CLI, MCP | Dosya tabanlı iş kaydı: şema, durumlar, bağımlılık, kapanış kuralı, dallar arası birleşim, iç onay | `O13b-backlog-taskmaster.md` |
+| O13c | OpenHands (`/goal` hakemi, StuckDetector), Goose (`retry.checks`), Magentic-One (ilerleme defteri, sapma tespiti) | Ayrı değerlendirici, takılma ve sapma tespiti, yeniden deneme kontrolleri | `O13c-openhands-goose-magentic.md` |
+
+Not: arxiv.org, letta.com, docs.langchain.com ve roocode belgeleri bu ortamın ağ politikasında kapalı görünüyor. Aynı içeriği GitHub'daki kaynak kodundan, README'den ya da ayna sayfalardan oku; okuyamadığını açıkça yaz.

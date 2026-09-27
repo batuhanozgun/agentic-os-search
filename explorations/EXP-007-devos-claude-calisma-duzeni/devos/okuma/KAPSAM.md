@@ -22,11 +22,14 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Foundation 03: bilgi ve iş | F1 | SÜRÜYOR | — |
 | Foundation 03: aktörler ve ortam | F2 | SÜRÜYOR | — |
 | Foundation 05, 08, 04, 06, 07 | F3 | SÜRÜYOR | — |
-| Foundation 01, 02, history | F4 | **SIRADA** | Aynı anda en çok 20 alt ajan çalışabiliyor (ortam sınırı). İlk biten ajandan sonra ana oturum F4'ü başlatır. |
+| Foundation 01, 02, history | F4 | SÜRÜYOR | Yer açılınca başlatıldı (O13 bitti). |
 | Kapatıcılar G1–G7 | G1–G7 | SÜRÜYOR | — |
 | Claude Code platformu | O11 | SÜRÜYOR | — |
 | os-architect | O12 | SÜRÜYOR | — |
-| GitHub çerçeveleri | O13 | SÜRÜYOR | — |
+| GitHub çerçeveleri | O13 | BOŞLUK VAR | Ajan "KAPSAM BÖLÜNMELİ" dedi: depoların yalnız mekanizmayı taşıyan dosyaları okundu. arxiv, letta.com, docs.langchain.com ve roocode belgeleri ağ politikası yüzünden kapalı. Kapatıcılar: O13a, O13b, O13c. |
+| Codex ve Letta belleği (kod ve belge) | O13a | **SIRADA** | 20 ajan sınırı; yer açılınca |
+| Backlog.md ve Task Master (kod) | O13b | **SIRADA** | 20 ajan sınırı; yer açılınca |
+| OpenHands ve Goose (hakem, retry.checks, StuckDetector) | O13c | **SIRADA** | 20 ajan sınırı; yer açılınca |
 | Akademik kaynaklar | O14 | SÜRÜYOR | — |
 | Anthropic ve Claude Code çerçeveleri | O15 | SÜRÜYOR | — |
 | Architect-3'ün os-architect deneyimi (Batu'nun yapıştırması, U022) | O16 | TAMAM | Ana oturum okudu; O12 ile karşılaştırılacak |
