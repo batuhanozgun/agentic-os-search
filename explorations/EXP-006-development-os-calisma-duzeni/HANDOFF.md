@@ -1,51 +1,60 @@
 # EXP-006 — HANDOFF
 
-**Güncelleme:** 27 Eylül 2026, P3 başlangıç tartışması.  
-**Devralma:** **P3 DISCUSSION BASELINE / CANDIDATE / USER DISCUSSION. P3 TAMAMLANMADI.** P2 ilk sözleşme taslağı korunuyor; P1 kaynaklı harita, runtime sınanmadı. P4–P6 başlamadı.  
+**Güncelleme:** 27 Eylül 2026, P3 iş–yapı koordinasyonu ve güvence taslağı.  
+**Devralma:** **P3 DISCUSSION BASELINE v0.2 / CANDIDATE / USER DISCUSSION. P3 TAMAMLANMADI.** P2 ilk sözleşme tabanı; P1 kaynak haritası/runtime açıkları korunur. P4–P6 başlamadı.  
 **Üst amaç:** SOUL'u geliştirecek Claude Code cloud ekibinin çalışma düzeni; assistant'ın SOUL backlog'unu seçmesi değil.
 
 ## 1. Okuma yolu
 
 [STATE](STATE.md) → HANDOFF → [WORK](WORK.md) → [DECISIONS](DECISIONS.md) → [ACTORS](ACTORS.md) → [U002](sources/U002-cloud-plan-and-autonomy.md) → [P1-01](work/P1-01-claude-cloud-environment-map.md) → [P2-01](work/P2-01-named-role-contracts.md) → [P3-01](work/P3-01-work-information-discussion.md) tam okunur. Aynı conversation içinde tam unchanged içerik tekrar yüklenmez.
 
-S1 gerekçesi için S1 master/ilgili slice; iş kapsamı için B dosyalarına inilir. P3 Work/Information Foundation'ını, ardından ilgili studies'i gerçekten kullanır. P3-01 §7 bu turun yeni okumalarıyla aynı konuşmadan yeniden kullanılan kaynakları ayırır; bütün korpus veya asıl dış kaynaklar yeniden okunmuş değildir.
+P2 ilk tabandır; P3-01 v0.2, DR06/DR13 için iki hedef profili önerir. Bunları kabul edilmiş yeni registry veya fiziksel ajan sayısı sanma. S1/B ayrıntıları gerekçe gerektiğinde açılır. Foundation/studies'in gerçek kullanım ve okuma kapsamı P3-01 §9'dadır; her tur tüm korpus okunmuş sayılmaz.
 
-## 2. Neden bu noktadayız?
+## 2. Son konuşmadan devralınması gereken
 
-SOUL hedefinden B1–B9, R/M ve S1 aile konsolidasyonu oluştu. Kullanıcı ilk SOUL işini dışarıdan seçme yönünü düzeltti; bunu kurulacak ekip yapmalı. Cloud hedefi, K1 iletişim ve K2 rutin kullanıcı tetiklemesi gerekmemesi belirlendi. P1–P6 bu aynı EXP-006'nın master planıdır.
+P3'te kullanıcı araştırma örneklerinden beslenen yapı önerisi ve birlikte değerlendirme istedi. İlk taslak iş ağı/çalışma halkası/kalıcı bilgi omurgasını sundu. Kullanıcı daha sonra işi yapanlarla yapıyı işletenlerin koordinasyon ve denetimlerini ayırmayı önerdi.
 
-P1 kaynak resmi rol tasarımını besledi; teknik seçim P4'e bırakıldı ve kullanıcı bunu anlayarak P2'ye devam istedi. P2'de DR01–DR16 ilk sözleşmeleri üretildi. Son kullanıcı mesajı P3'ün önemini vurguladı; araştırma örneklerinden yararlanıp **hemen karar vermeden bir yapı sunmamızı ve birlikte derin değerlendirmemizi** istedi. Bu nedenle current iş P3'ü bitirip P4'e geçmek değil, ilk öneri üzerinde diyalogdur.
+Assistant bu ayrımı birkaç turda tekrar ederek gereksiz küçük adımlarla ilerledi. Kullanıcı bunu eleştirdi; kısa çıktı ile küçük çalışma biriminin aynı olmadığı açıklaştı. Son devam yönü, bu ayrımı bir bütün taslağa taşımayı yetkilendirdi. Kaynak mesajlar ve kapsam P3-01 §1'de; tasarımın kabulü yoktur.
 
-## 3. Korunan P2 ve kapsam sınırları
+Bu nedenle sonraki oturum yeniden “iki koordinasyon farklıdır” açıklamasına veya dört isim için küçük onay turuna dönmemeli. Current malzeme artık roller, karar sınırları, bilgi akışı ve normal/bozuk çalışma zinciri birlikte verilmiş v0.2'dir.
 
-ACTORS isim/lineage registry'si, P2-01 sözleşme kaynağıdır. 16 rol 16 agent değildir. İş keşfi bütün rollerden beslenir; DR01 bütünleştirir. DR06 akışı işletir; bütün teknik hükümleri üstlenmez. DR07 kalıcı lifecycle, DR08 consumer görünümü; DR04/11/13 sınama tasarımı, yürütmesi ve güvenceyi ayırır. DR02/13 gerekli alan profiliyle çalışır. P3 somut uyumsuzluk gösterirse P2'ye hedefli dönüş mümkündür.
+## 3. Current bütünlüklü öneri
 
-Motivasyonun rolün başarı yönü olarak içeride yazılması aday yorumdur. Runtime allocation, dosya biçimi veya motivasyon başına agent seçilmedi. R1–R25/M1–M9 ve S1-17'nin candidate/closure-ready sonucu korunur. S1-16 full-read qualification'ı S1-17 §7'dedir.
+İki hedef alanı **aynı DevOS içinde** düşünülür:
 
-K1 talep→çalışma→yanıt→kullanımı; K2 her rolü Batu'nun açmamasını ister. Başlatma/yeniden başlatma, gerçek müdahale ve yetki/kabul mümkündür; sınırsız gözetimsizlik hedef değildir. SOUL ürünleri ile DevOS çalışma/bilgi/kanıt kayıtları ayrı amaçlıdır; fiziksel depolama seçilmedi. Kanon/v2/ECC hazır mimari olarak alınmadı.
+- G: SOUL ürününü geliştirme — gerekli işi keşif/plan, tasarım/araştırma/üretim, ürün/sonuç güvencesi.
+- Y: DevOS işleyişi — katılım, iletişim, bilgi/bağlam, araç/erişim, kapasite, süreklilik ve gerekçeli yapı bakımının işletimi/güvencesi.
 
-P1 Q01–Q06 cloud araç/sürüm/erişim, plugin doküman çelişkisi, kalıcılık ve güvence açıklarıdır. Bunlar belgeyle çözülmüş veya P3 önerisiyle doğrulanmış sayılmaz. Teknik seçim yük taşıdığında hedefli P1 kontrolü gerekir.
+Y de Work ve reasoning taşır; Foundation ENVIRONMENT'ına indirgenmez. G/Y hedef ekseni, F1–F8 başarı yönü ekseniyle aynı şey değildir. Bütün rolleri iki kez kurmak veya iki kapalı ekip yapmak önerilmiyor.
 
-## 4. Current tartışma önerisi
+**DR06-G/Y:** İş koordinasyonu hangi katkının neye bağlı olduğunu ve önceliği işletir; yapı koordinasyonu bu katkının mevcut koşullarda nasıl etkinleşip geri döneceğini yönetir. Yapı kısıtı ürüne geri besleme yapar, fakat ürün kriterini sessizce değiştiremez. İş tarafı da olmayan kaynağı/izni var sayamaz.
 
-[P3-01](work/P3-01-work-information-discussion.md) önerisi: **ortak iş-bilgi zemini üzerinde ihtiyaç etrafında çalışma halkaları**.
+**DR13-G/Y:** Geliştirme İnceleyicisi ürün/iş seçimi/sonuç iddiasını; İşleyiş İnceleyicisi gereken çalışma koşullarının gerçek karşılığını sınar. İki kapsamın kanıtı ayrı ve doğru hedef/sürümle bağlıdır. Ayrı isim epistemik bağımsızlık garantisi değildir.
 
-Üç mantıksal unsur: yaşayan iş ağı; gerekli rollerin belirli soru/teslimat etrafındaki işbirliği; kalıcı bilgi ve role özgü bağlam. Bu ne üç modül ne tüm rollerin her işte sırayla çağrıldığı bir süreçtir.
+Diğer roller hedefe göre yerleşir: DR01–05 ağırlıklı geliştirme; DR07–10/12 işleyiş ve destek; DR04/11/14/15/16 gibi yetkinlikler gerektiğinde iki hedefe ayrı görevlerle katkı verebilir. Bu özet, P3-01 §2'deki tam eşlemenin yerine geçmez.
 
-İlk somutlaştırma bir tasarım sırasında araştırma ihtiyacıdır: soruyu/karar bağını açma → uygun katkıyı etkinleştirme → kaynaklı yanıt → talep sahibinin sonucu kullanması veya gerekçeli reddi → etkilenen iş/kayıt/bağlamın güncellenmesi. SOUL'un gerçek ilk işi veya çalıştırılmış deney değildir.
+## 4. Etkileşim ve bilgi sahipliği
 
-Başlangıç önerisinde koordinatör akışın sahibidir, bütün kararların sahibi değil. Teknik karar ilgili yetkili uzmanlıkta; kanıt hükmü güvencede; yetki çatışması ilgili authority yolunda kalır. Karar/veto ve küçük danışma/ayrı Work sınırı henüz üzerinde anlaşılmış sözleşme değildir. Bu bölümü accepted tasarım diye devralma.
+İş sahibi soru, karar bağı, gereken katkı/uzmanlık, kaynak/target ve dönüş noktasını tanımlar. G koordinasyonu ihtiyaç ve bağımlılığı; Y koordinasyonu gerçek çalıştırma/erişim/katılımı işletir. Yetkili iş içindeki küçük danışmalar her mesajda iki koordinatörün onayını beklemez. Kapsam, maliyet, ayrı sahip/bekleme veya devir doğarsa izlenebilir Work'e dönüşür.
 
-## 5. Sonraki sorumluluk ve durma
+Katkı sahibi sonucunu ve sınırlarını; talep sahibi kullanımını veya gerekçeli reddini taşır. Araştırma tamamlanması üst kararın kapanması değildir. Ürün/plan koşullarını G, gerçekleşmiş çağrı/devir/bağlam koşullarını Y güvencesi ilgili riskte sınar; her küçük iş için iki zorunlu komite kurulmaz.
 
-**Önce kullanıcı bu öneriyi değerlendirecek.** İlk konuşma odağı: bir rolün katkı talebi nasıl işe dönüşür; açık talebi, akışı ve teknik kararı kim taşır? Kullanıcının tepkisiyle aynı öneri üzerinde derinleş; her tur yeni sistem veya tümden yeni plan kurma.
+Alan sahibi içerik ve kararın gerekçesini korur. DR07 kaynak/sürüm/statü/lifecycle bütünlüğünü işletir; bütün dosyaların tek yazıcısı veya domain doğruluk hakemi değildir. DR08, iş sahibi ve uzmanla birlikte yeterli görünümü hazırlar; tüketici eksikliği sorgulayıp asıl kaynağa dönebilir. Ortak zemin herkese bütün geçmişin verilmesi değildir.
 
-Devam açıklıkları: konuya göre karar/itiraz/veto; küçük danışmanın kayıt ağırlığı; bağlam yeterliği ve kaynaklara geri dönüş; yeni sürümün tüketiciye etkisi; bekleyen işin devir ve durma yolu; başlangıç grant/yeterlik/tetik önkoşulları. Bunlar sonraki P3 diyalog konularıdır; bu listeyi otomatik uygulama kuyruğuna çevirme.
+Arıza/kapasite/bayatlarsa: Y gerçek kısıt ve etkiyi bildirir, koşulları uzlaştırır; G etkilenen karar/öncelik/işi yeniden değerlendirir. Etki belirsizken kör retry yapılmaz. Meşru durdurma yalnız ilgili çalışma/kapsama uygulanır; otomatik her itiraz veto veya her anlaşmazlık Batu sorusu değildir.
 
-P3 tamamlandı deme ve P4'e geçme. P4 bütünleşik teknik seçim, P5 dosya/mekanizma, P6 gerçek sınamadır. Henüz keşfedilmemiş SOUL görevini assistant seçmez. Yeni bir design baseline'ı kaydetmek onu kabul ettirmek değildir.
+## 5. Sabit sınırlar ve kanıt
 
-## 6. Kayıt ve kullanıcıya dönüş
+K1 talep→çalışma→yanıt→kullanım; K2 rutin rol geçişinde Batu'ya ihtiyaç duymamaktır. Başlangıç/yeniden başlatma, gerçek müdahale ve yetki/kabul mümkündür. SOUL'un ilk teknik işi assistant tarafından seçilmez. Test örneği backlog değildir.
 
-P3 ayrıntısı P3-01; current STATE; devir HANDOFF; bütün harita WORK. Rol adı/sözleşmesi ancak tartışmada somut değişirse ACTORS/P2-01'e yansır. Bu tur onlar değişmedi. Kaynak atıfları ve aday gerekçeler accepted karar tablosuna taşınmaz.
+P1 Q01–Q06 gerçek cloud araç/sürüm/erişim, plugin çelişkisi, kalıcılık ve güvence açıklarıdır; P3 taslağı bunları kapatmaz. P4'te yük taşıyan seçim tazelenir/sınanır. Kanon/v2/ECC/Gas Town hazır mimari olarak alınmadı.
 
-Kullanıcıya başlangıç yapısını, anlaşılır bir etkileşim örneğini ve tek odaklı tartışma noktasını kısa ver. Derinlik birden çok odaklı konuşmayla açılır; uzun iç değerlendirme metni veya bütün araştırma geçmişi varsayılan cevap değildir.
+Bu tur Gas Town META tam, FINDINGS 1–280 seçici okundu. İş nesnesi, dispatch denemesi, kapasite, liveness ve entegrasyon ayrımları kullanıldı; güncel dış ürün veya canlı Claude deneyi yapılmadı. Diğer load-bearing Foundation/study içerikleri aynı konuşmanın görünür okumalarından yeniden kullanıldı. S1-16 full-read qualification'ı S1-17 §7'de korunur.
+
+## 6. Devam ve kayıt
+
+Current P3-01 v0.2'yi kısa ama değerlendirilebilir bütünlükte kullanıcıya sun. Karar bekleyen yerleri aday tutmak, her küçük ayrımda yeni komut istemek değildir. Sonraki anlamlı P3 parçası bağlam, uzman görüş ayrılığı, karar kaydı, yeni bilgiyle yeniden açma ve oturum devrinin birlikte somutlaştırılmasıdır. Kullanıcı değerlendirmesi aynı taslağa işlenir; üst plan yeniden icat edilmez.
+
+P3 tamamlandı deme; P4–P6'ya otomatik geçme. P2 registry/sözleşmeleri bu tur değiştirilmedi; önerilen DR06/13 hedef-profili farkının tek ayrıntı evi P3-01'dir. Yerleşen değişiklik ileride ACTORS/P2'ye açık statüyle yansıtılır.
+
+Bütün plan WORK, current STATE, devir HANDOFF, tartışma P3-01'dir. Bu güncelleme agent-control değişikliği değildir. Kullanıcıya uzun iç değerlendirme veya tüm kaynak geçmişi yerine anlamlı tasarım parçasının sonucu verilir.
