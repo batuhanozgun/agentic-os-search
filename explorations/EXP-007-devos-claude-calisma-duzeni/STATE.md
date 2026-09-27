@@ -4,7 +4,11 @@
 **Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
 **Şu anki adım:** P0.3, standart seviye araştırması. R07–R11 için beş alt ajan başlatıldı.  
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
-**Batu'dan beklenen:** Şu an yok. Taslak sunulunca taslağa itirazları ile A-01, A-02 ve A-04'e cevabı beklenecek ([DECISIONS](DECISIONS.md)).
+**Batu'dan beklenen:**
+- A-06: EXP-006'nın ChatGPT hattıyla EXP-007'nin ilişkisi. P0'ı durdurmaz.
+- Taslak sunulunca: taslağa itirazları, A-01, A-02, A-04 ve A-07. Ayrıntı: [DECISIONS](DECISIONS.md).
+
+**Dal:** EXP-007 yalnız `claude/hopeful-pascal-7bekcd` dalında yaşar ve main'e birleştirilmez (K-009).
 
 ## Nerede kaldık
 - Batu, EXP-006'daki işi Claude'a devretmek istiyor. Amacı, işin alt ajanlarla ve "devam" beklemeden uzun soluklu yürümesi (K-001).
@@ -34,8 +38,16 @@ Alt ajanlar yalnız kendi not dosyasını yazar. Kayıt ve main'e birleştirme a
 
 Oturum biterse yarım kalan ajan işi kaybolur. Yeni oturum, `research/` altında eksik kalan notu aynı görev tanımıyla yeniden başlatır. Ortak kurallar: [briefs/ORTAK](phases/P0-calisma-duzeni/briefs/ORTAK.md).
 
+## EXP-006 paralel ilerliyor
+- EXP-006, main'de ChatGPT hattıyla ilerliyor. Son görülen commit `ed2bf6e` (27 Eylül 2026): P1-01 Claude cloud ortam haritası, P2-01 DR01–DR16 rol sözleşmesi taslağı, P3-01 tartışma başlangıcı, D019 ve D020.
+- Bu dal `773cfcd`'den ayrıldığı için çalışma ağacındaki EXP-006 eski sürümdür. Güncel hali şöyle okunur: `git fetch origin main` ve `git show origin/main:<yol>`.
+- EXP-007, EXP-006'ya yazmaz. İki hattın ilişkisi açık soru: A-06.
+
 ## Oturum ve ortam notları
-- **Git:** çalışma dalı → PR → Claude main'e birleştirir → dal silinir (K-003).
+- **Git:**
+  - EXP-007 ayrı dalda çalışır ve main'e birleştirilmez (K-009).
+  - Dal yalnız EXP-007 klasörüne dokunur; böylece ileride birleştirme çakışmasız olur.
+  - PR #34 açık duruyor, birleştirilmedi (A-07).
 - **Ortam sınırları:**
   - Bu ortamda alt ajan kendi alt ajanını açamaz (`CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH=1`).
   - Bağlam %80'de otomatik sıkıştırılır.
@@ -47,6 +59,9 @@ Oturum biterse yarım kalan ajan işi kaybolur. Yeni oturum, `research/` altınd
 - **Maliyet:** Alt ajanlar bu oturumda P0.3'e kadar yaklaşık 4,1 milyon token harcadı (R01: 2,63 M; R02–R06: 1,49 M).
 
 ## Yeni oturum ne yapar
+0. EXP-007 main'de yoktur. Batu yeni oturuma dal adını verir: `claude/hopeful-pascal-7bekcd`. Oturum dalı alır: `git fetch origin claude/hopeful-pascal-7bekcd`.
+   - Oturum bu dalda çalışabiliyorsa onunla devam eder.
+   - Ortam oturuma kendi dalını veriyorsa, o dalı bu dalın üzerine kurar (`git checkout -B <oturum-dalı> origin/claude/hopeful-pascal-7bekcd`) ve yeni dal adını bu STATE'e yazar. Dal birikmesin diye eski dal, Batu'ya haber verilerek silinir.
 1. [README](README.md)'deki okuma yolunu izler.
 2. R07–R11'den eksik olanı aynı görev tanımıyla yeniden başlatır.
 3. Hepsi tamamsa P0.4'e geçer.

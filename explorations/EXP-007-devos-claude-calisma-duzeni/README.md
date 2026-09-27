@@ -21,7 +21,9 @@
 4. [A003](sources/conversation/A003.md): v0 önerisi. Anlayışı kabul edildi, yapısı yetersiz bulundu.
 5. [P0 README](phases/P0-calisma-duzeni/README.md): P0'ın adımları, görev tanımları, araştırma notları.
 
-EXP-006 salt okunur bir kaynaktır. Oradaki "sıradaki" ifadeleri ve durma noktaları EXP-007'yi yönetmez. EXP-006'dan neyin alınacağı P0'da, METHOD ile birlikte kararlaştırılır.
+EXP-007, EXP-006'ya yazmaz. Oradaki "sıradaki" ifadeleri ve durma noktaları da EXP-007'yi yönetmez. EXP-006'dan neyin alınacağı P0'da, METHOD ile birlikte kararlaştırılır.
+
+EXP-006 main'de ChatGPT hattıyla ilerliyor. Bu dalda EXP-006'nın eski sürümü durur. Güncel halini okumak için: `git fetch origin main` ve `git show origin/main:<yol>`. İki hattın ilişkisi açık bir soru: [A-06](DECISIONS.md).
 
 ## Dosya görevleri
 
@@ -37,4 +39,4 @@ Bu yapı geçicidir. P0'ın çıktısı olan metodoloji kabul edilince paketin y
 ## Sınırlar
 - Bu pakette şunlar değiştirilmez, yalnız okunur: EXP-006, EXP-001–005, Foundation, studies, concepts, kontrol katmanı (AGENT.md, `agent/`).
 - Kontrol ve yapılandırma değişiklikleri (CLAUDE.md, `.claude/agents`, skills, hook'lar) Batu onaylamadan kurulmaz ([A-04](DECISIONS.md)).
-- Git: çalışma dalında kayıt yapılır, Claude main'e birleştirir, birleşen dal silinir (K-003).
+- Git: EXP-007 ayrı dalda (`claude/hopeful-pascal-7bekcd`) yaşar ve main'e birleştirilmez (K-009). Dal yalnız bu klasöre dokunur.

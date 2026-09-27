@@ -11,3 +11,4 @@ Claude Code cloud oturumunda (26–27 Eylül 2026) modelin gördüğü konuşman
 | 5 | [U003](U003.md) | Batu: sürekli yetkiye onay; main'e birleştirmeyi Claude yapsın, dal silinsin; EXP-007 açılsın; bu mesaj "başla" değil; önce amaç, niyet, düşünme ve nasıl çalışılacağı |
 | 6 | [A003](A003.md) | Claude: EXP-006 anlayışı ve çalışma düzeni önerisi (v0). Dayanak: [R02–R06](../../phases/P0-calisma-duzeni/research/) |
 | 7 | [U004](U004.md) | Batu: anlayış doğru, yapı küçük; bağlam ve bellek yönetimi, kalıcı alt ajan rolleri, en iyi uygulamalara dayalı metodoloji; "nasıl"ı ortaya dök; "yeterli seviye" değil standart seviye; araba benzetmesi; EXP-007 altında kayıt tutma izni |
+| 8 | [U005](U005.md) | Batu, main'e birleştirme adımını durdurdu: "sen ayrı branch'ta çalış o zaman çakışma olmaz." |
