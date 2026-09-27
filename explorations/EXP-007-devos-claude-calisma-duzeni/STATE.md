@@ -1,0 +1,53 @@
+# EXP-007 — STATE
+
+**Güncelleme:** 27 Eylül 2026.  
+**Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
+**Şu anki adım:** P0.3, standart seviye araştırması. R07–R11 için beş alt ajan başlatıldı.  
+**Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
+**Batu'dan beklenen:** Şu an yok. Taslak sunulunca taslağa itirazları ile A-01, A-02 ve A-04'e cevabı beklenecek ([DECISIONS](DECISIONS.md)).
+
+## Nerede kaldık
+- Batu, EXP-006'daki işi Claude'a devretmek istiyor. Amacı, işin alt ajanlarla ve "devam" beklemeden uzun soluklu yürümesi (K-001).
+- Claude'un EXP-006 anlayışı kabul edildi (K-006).
+- Claude'un ilk çalışma düzeni önerisi ([A003](sources/conversation/A003.md)) yaklaşım olarak doğru, yapı olarak küçük bulundu (K-007).
+- Şimdi yapılan: A003'te söylenen her şeyin "nasıl"ını, en iyi uygulamalara dayanarak ve standart seviyede kuran metodolojiyi (METHOD v1) hazırlamak.
+- Batu'nun gerekçesi [U004](sources/conversation/U004.md)'teki araba benzetmesinde: söz geniş, çıktı dar olmamalı; bir alanda "yeterli" görünen seçim diğer alanları yetersizleştirebilir.
+
+## Bu aşamanın ölçütü (K-007'den)
+METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
+- Bağlam yönetimi, bellek yönetimi, kalıcı alt ajan rolleri ve en iyi uygulamalara dayalı bir yöntem.
+- A003'teki her vaat için somut bir mekanizma. Vaatler: düşünme sırası, görev tanımı, repodan yararlanma, Foundation ve studies kullanımı, plan yönetimi ve revizyonu, kalite, iletişim, süreklilik, öğrenme.
+- Her alt sistemde standart seviye. Ertelenen her şey, bütünsel etkisiyle birlikte gerekçelendirilmeli.
+- Alt sistemler arası etkileşim.
+
+## Çalışan alt ajanlar
+
+| Not | Çıktı dosyası | Görev tanımı |
+|---|---|---|
+| R07 | `phases/P0-calisma-duzeni/research/R07-anthropic-en-iyi-uygulamalar.md` | [briefs/R07](phases/P0-calisma-duzeni/briefs/R07.md) |
+| R08 | `phases/P0-calisma-duzeni/research/R08-dis-metodolojiler.md` | [briefs/R08](phases/P0-calisma-duzeni/briefs/R08.md) |
+| R09 | `phases/P0-calisma-duzeni/research/R09-studies-baglam-bellek-rol-standartlari.md` | [briefs/R09](phases/P0-calisma-duzeni/briefs/R09.md) |
+| R10 | `phases/P0-calisma-duzeni/research/R10-foundation-baglam-bellek-rol-gereksinimleri.md` | [briefs/R10](phases/P0-calisma-duzeni/briefs/R10.md) |
+| R11 | `phases/P0-calisma-duzeni/research/R11-sistem-envanteri-ve-etkilesimler.md` | [briefs/R11](phases/P0-calisma-duzeni/briefs/R11.md) |
+
+Alt ajanlar yalnız kendi not dosyasını yazar. Kayıt ve main'e birleştirme ana oturumdadır.
+
+Oturum biterse yarım kalan ajan işi kaybolur. Yeni oturum, `research/` altında eksik kalan notu aynı görev tanımıyla yeniden başlatır. Ortak kurallar: [briefs/ORTAK](phases/P0-calisma-duzeni/briefs/ORTAK.md).
+
+## Oturum ve ortam notları
+- **Git:** çalışma dalı → PR → Claude main'e birleştirir → dal silinir (K-003).
+- **Ortam sınırları:**
+  - Bu ortamda alt ajan kendi alt ajanını açamaz (`CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH=1`).
+  - Bağlam %80'de otomatik sıkıştırılır.
+  - Ayrıntı: [R01](phases/P0-calisma-duzeni/research/R01-ortam-ve-ozerklik-degerlendirmesi.md).
+- **Erişim:**
+  - code.claude.com ve anthropic.com açık.
+  - Bu oturuma bağlı olmayan github.com repoları ve bazı dış siteler (ör. docs.cline.bot) kabuktan kapalı.
+  - İki Loopinance reposu bu oturuma salt okuma için bağlandı ve klonlanmadı. Yeni oturumda gerekirse yeniden bağlanmalı.
+- **Maliyet:** Alt ajanlar bu oturumda P0.3'e kadar yaklaşık 4,1 milyon token harcadı (R01: 2,63 M; R02–R06: 1,49 M).
+
+## Yeni oturum ne yapar
+1. [README](README.md)'deki okuma yolunu izler.
+2. R07–R11'den eksik olanı aynı görev tanımıyla yeniden başlatır.
+3. Hepsi tamamsa P0.4'e geçer.
+4. Batu'ya nerede olduğunu kısaca söyler; P0 içindeki adımlar için Batu'yu beklemez.

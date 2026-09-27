@@ -1,0 +1,69 @@
+# P0 — Çalışma düzenini kurmak (metodoloji)
+
+**Amaç:** Claude'un (ana oturum ve alt ajanlar) EXP-007'yi uzun soluklu, oturumlar arası ve Batu'yu gizli koordinatör yapmadan yürüteceği çalışma düzenini standart seviyede ortaya koymak ve Batu ile anlaşmak.
+
+**Ölçüt:** [DECISIONS](../../DECISIONS.md) K-007. Metodoloji şunları kapsamalı:
+- bağlam yönetimi;
+- bellek yönetimi;
+- alt ajanlar için kalıcı roller;
+- en iyi uygulamalara dayalı bir yöntem;
+- A003'te söylenen her şeyin "nasıl" yapılacağı.
+
+Hedef standart seviyedir, "yeterli seviye" değil. Alt sistemler arası etkileşim de hesaba katılmalı.
+
+**Kapsam dışı:**
+- P1'in kendisi, yani Claude cloud araştırması. Metodolojinin ihtiyaç duyduğu ortam bilgisi R01 ve R07'den alınır.
+- DevOS rollerinin tasarımı (P2).
+- EXP-006 dosyalarını değiştirmek.
+- Kontrol ve yapılandırma değişikliklerini kurmak; bu aşamada yalnız öneri olarak hazırlanır.
+
+## Adımlar
+
+| Adım | İş | Durum | Çıktı |
+|---|---|---|---|
+| P0.1 | EXP-006'yı anlamak ve ilk öneri (v0) | TAMAM. Anlayış kabul edildi, yapı küçük bulundu (K-006, K-007) | [A003](../../sources/conversation/A003.md); R02–R06 |
+| P0.2 | Süreklilik kaydı | TAMAM | README, STATE, DECISIONS, `sources/` |
+| P0.3 | Standart seviye araştırması: her alt sistem için dünyada ve repoda "standart" ne? | SÜRÜYOR | R07–R11 |
+| P0.4 | METHOD v1 taslağı (ayrıntısı aşağıda) | BEKLİYOR | `METHOD-v1-TASLAK.md` |
+| P0.5 | Eleştiri turu, üç ayrı eleştiri (ayrıntısı aşağıda) | BEKLİYOR | `reviews/` |
+| P0.6 | Revizyon ve Batu'ya kısa sunum | BEKLİYOR | METHOD v1 (tartışma için) |
+| P0.7 | Batu'nun düzeltmeleri; A-02'ye göre konuşma içi pilotlar; yeniden revizyon | BEKLİYOR | — |
+| P0.8 | Anlaşma ve "başla": onaylanan yapılandırmaların kurulması, yön tabelalarının düzeltilmesi (A-05), P1'e geçiş | BEKLİYOR | — |
+
+**P0.4 taslağının içeriği:**
+1. sistem envanteri;
+2. her alt sistem için standart seviye, bizim seçimimiz ve bunun "nasıl" yapılacağı;
+3. alt sistemler arası etkileşim matrisi;
+4. kalıcı roller;
+5. bağlam ve bellek tasarımı;
+6. prosedürler;
+7. dosya mimarisi;
+8. önerilen yapılandırmalar;
+9. pilot planı.
+
+**P0.5 eleştirileri:**
+1. Söz–çıktı izlenebilirliği: A003'te ve U004'te söylenen her şeyin taslakta bir mekanizması var mı? Standart seviyede mi, yoksa yalnız "yeterli" seviyede mi?
+2. Bütünsel etkileşim: bir alt sistemde yapılan seçim bir başkasını zayıflatıyor mu?
+3. Batu'nun ilkeleri ve ortamda uygulanabilirlik.
+
+## Araştırma notları (`research/`)
+
+| Not | Soru | Durum | Görev tanımı |
+|---|---|---|---|
+| R01 | Claude Code cloud, özerkliği ve uzun soluklu çalışmayı taşır mı? | TAMAM (26 ajan) | [A002](../../sources/conversation/A002.md) bağlamında Workflow |
+| R02 | EXP-006 nasıl çalıştı, nerede kaydı? | TAMAM | A003 turunda sohbet içi |
+| R03 | Batu'nun AI ile çalışma ilkeleri | TAMAM | A003 turunda sohbet içi |
+| R04 | Foundation'ın işletime dair çıkarımları | TAMAM | A003 turunda sohbet içi |
+| R05 | Studies'teki çalışma mekanizmaları (görev tanımı, plan, doğrulama, devir) | TAMAM | A003 turunda sohbet içi |
+| R06 | EXP-004 mekanizmaları | TAMAM | A003 turunda sohbet içi |
+| R07 | Anthropic ve Claude Code en iyi uygulamaları | SÜRÜYOR | [briefs/R07](briefs/R07.md) |
+| R08 | Anthropic dışı metodolojiler | SÜRÜYOR | [briefs/R08](briefs/R08.md) |
+| R09 | Studies: bağlam, bellek, rol ve yaşam döngüsünde standart seviye | SÜRÜYOR | [briefs/R09](briefs/R09.md) |
+| R10 | Foundation: bağlam, bellek ve kalıcı rol için gereksinimler | SÜRÜYOR | [briefs/R10](briefs/R10.md) |
+| R11 | Sistem envanteri ve etkileşim matrisi | SÜRÜYOR | [briefs/R11](briefs/R11.md) |
+
+R07–R11 için ortak kurallar: [briefs/ORTAK.md](briefs/ORTAK.md).
+
+Notların hepsi alt ajan çıktısıdır. Kararı taşıyan iddialar kaynağından kontrol edilir. R01–R06'nın başlığında ana oturumun hangi iddiaları kontrol ettiği yazılıdır.
+
+R02–R06'nın görev tanımları sohbet içinde verildi ve repoya yazılmadı. R07'den itibaren görev tanımları `briefs/` altında kayıtlıdır; aynı tanımla yeniden çalıştırılabilir.
