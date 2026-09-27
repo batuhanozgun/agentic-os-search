@@ -68,3 +68,18 @@ Batu'nun isteği şu: GitHub'da ve arXiv gibi kaynaklarda bu tür yapıları ara
 | O15 | Anthropic mühendislik yazıları ve belgeleri (ör. Building effective agents, Effective context engineering for AI agents, How we built our multi-agent research system, Writing effective tools for agents, Claude Code best practices, uzun soluklu ajanlar için harness yazısı, Claude Agent SDK) ve Claude Code'a özgü çerçeveler (BMAD-METHOD, claude-flow, SuperClaude, agent-os, CCPM, claude-code-templates, awesome-claude-code, Claude Squad gibi) | Anthropic'in kendi önerdiği somut kalıplar neler? Claude Code topluluğu hangi yapıları kurmuş, hangileri işe yarıyor? DevOS'a ne alınır? | `O15-anthropic-ve-claude-code-cerceveleri.md` |
 
 Ek kümeler için de ortak kurallar geçerlidir. Web kaynaklarında her iddia URL, tarih ve sürüm taşır. Yalnız liste yapma; mekanizmayı somut çıkar. Kanıtlanmış olanı pazarlama iddiasından ayır.
+
+### ECC derin okuması (Batu: "ECC'yi hafife alıyorsun", U019)
+
+O5 notu, ECC study'sinin 56 notundan yalnız 2'sini okudu. Yaklaşık 292 skill'in, `docs/` ve `scripts/` içeriğinin çoğunu okumadı. Buna rağmen "ECC'den yalnız parçalar alınır" sonucuna vardı. Bu sonuç eksik okumaya dayanıyor. Bir de O-16 var: örnek yapının parçalarını seçip almak, örneğin altında kurmaktır. Bu yüzden ECC'yi dört ajan derinlemesine okur. Her ajan O5 notunun iddialarını doğrular ya da çürütür.
+
+Ortak soru: DevOS, ECC'nin üstüne kurulabilir mi? ECC'yi bütün olarak ve sabit bir sürümle alıp buluta ve repo-belleğe uyarlamak, üstüne DevOS'a özgü katmanları eklemek mümkün mü? Neyi hazır veriyor? Bulutta neyi bozuluyor ve nasıl düzeltilir? Hangi iddiası kanıtlı?
+
+| Kimlik | Kaynaklar | Odak | Not dosyası |
+|---|---|---|---|
+| O5a | `research/studies/ecc`: 00-WHY, META, CORE, INDEX, METHOD*, PLAN, QUESTIONS*, RESEARCH-LOG, STATE; `notes/` 01–28; U01–U10 ROUND ve PUBLICATION dosyaları; `evidence/` altında bu turlara ait probe'lar | Study'nin ilk yarısı: ECC'nin mimarisi, iş kaydı, oturum kayıtları, bellek kapsamı, yürütme ve devir, kurtarma, değerlendirme, yapılandırma. Probe sonuçları neler? | `O5a-ecc-study-1.md` |
+| O5b | `research/studies/ecc`: `notes/` 29–56; U11–U20 ROUND ve PUBLICATION dosyaları; ilgili `evidence/`; PUBLICATION.md | Study'nin ikinci yarısı. Study'nin son hükümleri nelerdir? Açık sorular neler? | `O5b-ecc-study-2.md` |
+| O5c | `/home/user/affaan-m/ecc`: AGENTS.md, SOUL.md, CLAUDE.md, README; `agents/` (hepsi); `commands/` (hepsi); `rules/`; `contexts/`; `docs/` içindeki rehberler (longform, shortform, token optimizasyonu, kurulum); `scripts/` kurulum ve lib; `.claude-plugin/`; `ecc2/` genel yapısı | Ajan ve komut kataloğu. Orkestrasyon (loop-operator, chief-of-staff, planner, architect, gan-*, harness-optimizer, agent-evaluator). ECC bulutta proje dosyası olarak bütün halinde nasıl kurulur? | `O5c-ecc-repo-ajan-komut-kurulum.md` |
+| O5d | `/home/user/affaan-m/ecc`: `skills/` (292 skill'in tam kataloğu: ad, açıklama, kategori; çekirdek skill'ler baştan sona: continuous-learning, strategic-compact, verification-loop, tdd-workflow, eval-harness, iterative-retrieval, search-first, security-review ve orkestrasyon ya da bellekle ilgili hepsi); `hooks/` (bütün betikler ve hooks.json); bellek, oturum ve öğrenme (instinct) betikleri | Skill ve hook katmanı. Sürekli öğrenme ve instinct sistemi, oturum kalıcılığı, bağlam yönetimi. `$HOME` depoları ve `observe.sh` entrypoint sorunu nasıl uyarlanır? | `O5d-ecc-skill-hook-ogrenme.md` |
+
+Ortak kurallar aynen geçerlidir. Tek fark boyut: not en fazla 60 KB olabilir.

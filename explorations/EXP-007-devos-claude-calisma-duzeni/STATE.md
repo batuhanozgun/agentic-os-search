@@ -2,7 +2,7 @@
 
 **Güncelleme:** 27 Eylül 2026.  
 **Aşama:** DevOS dokümanı (K-016). P0'daki METHOD çalışması donduruldu; METHOD-v1 son sürümdür ve v1.1 yazılmadı.
-**Şu anki adım:** DevOS okuma turu. On beş okuma ajanı (O1–O15) repoyu, dış repoları, GitHub'daki çerçeveleri, akademik kaynakları ve Anthropic kaynaklarını okuyor: [devos/okuma/BRIEF](devos/okuma/BRIEF.md). Sonra ana oturum notları tam okur, DevOS tasarım kararlarını verir ve somut DevOS dokümanını yazar. Batu'ya soru sorulmaz (K-016); bir sonraki mesaj bitmiş doküman olur.
+**Şu anki adım:** DevOS okuma turu. Okuma ajanları (O1–O15 ve ECC derin okuması O5a–O5d) repoyu, dış repoları, GitHub'daki çerçeveleri, akademik kaynakları ve Anthropic kaynaklarını okuyor: [devos/okuma/BRIEF](devos/okuma/BRIEF.md). Sonra ana oturum notları tam okur, DevOS tasarım kararlarını verir ve somut DevOS dokümanını yazar. Batu'ya soru sorulmaz (K-016); bir sonraki mesaj bitmiş doküman olur.
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
 **Batu'dan beklenen:** Hiçbir şey (K-014, K-015, K-016).
 - **Acelesi yok:** A-07 (main'e birleştirme zamanı).

@@ -27,3 +27,5 @@ Claude Code cloud oturumunda (26–27 Eylül 2026) modelin gördüğü konuşman
 | 21 | [U016](U016.md) | Batu: bir şey hazırlama; yapacak mısın, istiyor musun, yapabilecek misin? |
 | 22 | [U017](U017.md) | Batu: kendin sıfırdan yapı kurmuyorsun; okuyacaksın, okuduklarını kullanacaksın, adam gibi hazırlık yapıp işi yapacaksın; sormayacaksın |
 | 23 | [U018](U018.md) | Batu: GitHub'da ve arXiv'de araştır; os-architect'i oku; basit, ucuz ya da dar değil, ne gerekiyorsa yapan, bilmediğini araştıran, kendini bilen, drift yaşamayan, bütünü gören üst düzey yapı |
+| 24 | [U019](U019.md) | Batu: "Architect - 3" oturumuna soru sorulabilir (oturum bu bulut oturumundan erişilemedi) |
+| 25 | [U020](U020.md) | Batu: ECC'yi hafife alıyorsun (O5–O5d derin okuması başladı) |
