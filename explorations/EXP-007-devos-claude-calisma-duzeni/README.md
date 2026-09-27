@@ -23,7 +23,10 @@
 
 EXP-007, EXP-006'ya yazmaz. Oradaki "sıradaki" ifadeleri ve durma noktaları da EXP-007'yi yönetmez. EXP-006'dan neyin alınacağı P0'da, METHOD ile birlikte kararlaştırılır.
 
-EXP-006 main'de ChatGPT hattıyla ilerliyor. Bu dalda EXP-006'nın eski sürümü durur. Güncel halini okumak için: `git fetch origin main` ve `git show origin/main:<yol>`. İki hattın ilişkisi açık bir soru: [A-06](DECISIONS.md).
+**EXP-006 ile bağlantı yoktur ([K-010](DECISIONS.md)).**
+- ChatGPT, EXP-006'da ayrı ve bağımsız çalışır.
+- Claude, konuyu baştan sona devralmış gibi çalışır. EXP-007 ve dalı Claude'un ana çalışma ortamıdır.
+- EXP-006 yalnız faydalanmak için, isteğe bağlı okunur. Bu dalda EXP-006'nın eski sürümü durur. Güncel halini okumak için: `git fetch origin main` ve `git show origin/main:<yol>`.
 
 ## Dosya görevleri
 

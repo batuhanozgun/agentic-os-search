@@ -31,6 +31,7 @@ Hedef standart seviyedir, "yeterli seviye" değil. Alt sistemler arası etkileş
 | P0.8 | Anlaşma ve "başla": onaylanan yapılandırmaların kurulması, yön tabelalarının düzeltilmesi (A-05), P1'e geçiş | BEKLİYOR | — |
 
 **P0.4 taslağının içeriği:**
+0. EXP-007'nin baştan sona haritası, P0'dan P6'ya. K-010'a göre EXP-006'nın planı bağlayıcı değildir; yalnız girdi olarak okunur.
 1. sistem envanteri;
 2. her alt sistem için standart seviye, bizim seçimimiz ve bunun "nasıl" yapılacağı;
 3. alt sistemler arası etkileşim matrisi;

@@ -4,9 +4,7 @@
 **Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
 **Şu anki adım:** P0.3, standart seviye araştırması. R07–R11 için beş alt ajan başlatıldı.  
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
-**Batu'dan beklenen:**
-- A-06: EXP-006'nın ChatGPT hattıyla EXP-007'nin ilişkisi. P0'ı durdurmaz.
-- Taslak sunulunca: taslağa itirazları, A-01, A-02, A-04 ve A-07. Ayrıntı: [DECISIONS](DECISIONS.md).
+**Batu'dan beklenen:** Şu an yok. Taslak sunulunca: taslağa itirazları, A-01, A-02, A-04 ve A-07. Ayrıntı: [DECISIONS](DECISIONS.md).
 
 **Dal:** EXP-007 yalnız `claude/hopeful-pascal-7bekcd` dalında yaşar ve main'e birleştirilmez (K-009).
 
@@ -38,10 +36,12 @@ Alt ajanlar yalnız kendi not dosyasını yazar. Kayıt ve main'e birleştirme a
 
 Oturum biterse yarım kalan ajan işi kaybolur. Yeni oturum, `research/` altında eksik kalan notu aynı görev tanımıyla yeniden başlatır. Ortak kurallar: [briefs/ORTAK](phases/P0-calisma-duzeni/briefs/ORTAK.md).
 
-## EXP-006 paralel ilerliyor
-- EXP-006, main'de ChatGPT hattıyla ilerliyor. Son görülen commit `ed2bf6e` (27 Eylül 2026): P1-01 Claude cloud ortam haritası, P2-01 DR01–DR16 rol sözleşmesi taslağı, P3-01 tartışma başlangıcı, D019 ve D020.
-- Bu dal `773cfcd`'den ayrıldığı için çalışma ağacındaki EXP-006 eski sürümdür. Güncel hali şöyle okunur: `git fetch origin main` ve `git show origin/main:<yol>`.
-- EXP-007, EXP-006'ya yazmaz. İki hattın ilişkisi açık soru: A-06.
+## EXP-006 ile ilişki (K-010)
+- **Bağlantı yok.** ChatGPT, EXP-006'da ayrı ve bağımsız çalışır. Claude, konuyu (DevOS çalışma düzeninin tasarımı) baştan sona devralmış gibi çalışır. EXP-007 ve dalı Claude'un ana çalışma ortamıdır.
+- **Sonuç:** EXP-007'nin haritası, P0'dan P6'ya kadar bütün tasarım hattını kendisi kapsar. EXP-006'nın P1–P6 planı ve ürünleri bağlayıcı değildir. Haritayı METHOD v1 taslağı birlikte getirir (P0.4).
+- **Okuma:** EXP-006 yalnız faydalanmak için, isteğe bağlı okunur. Claude oradaki çalışmadan sorumlu değildir ve oraya yazmaz.
+  - Bu dal `773cfcd`'den ayrıldığı için çalışma ağacındaki EXP-006 eski sürümdür.
+  - Güncel hali: `git fetch origin main` ve `git show origin/main:<yol>`. Son görülen commit `ed2bf6e`; P1-01, P2-01, P3-01 dosyaları ve D019–D020 kararları orada.
 
 ## Oturum ve ortam notları
 - **Git:**
