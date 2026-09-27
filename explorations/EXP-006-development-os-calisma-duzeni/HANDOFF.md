@@ -1,60 +1,65 @@
 # EXP-006 — HANDOFF
 
-**Güncelleme:** 27 Eylül 2026, P3 iş–yapı koordinasyonu ve güvence taslağı.  
-**Devralma:** **P3 DISCUSSION BASELINE v0.2 / CANDIDATE / USER DISCUSSION. P3 TAMAMLANMADI.** P2 ilk sözleşme tabanı; P1 kaynak haritası/runtime açıkları korunur. P4–P6 başlamadı.  
+**Güncelleme:** 27 Eylül 2026, P3 somut çalışma örneği.  
+**Devralma:** **P3 DISCUSSION BASELINE v0.3 / CANDIDATE / USER DISCUSSION. P3 TAMAMLANMADI.** P2 ilk sözleşme tabanı ve P1 kaynak haritası/runtime açıkları korunur. P4–P6 başlamadı.  
 **Üst amaç:** SOUL'u geliştirecek Claude Code cloud ekibinin çalışma düzeni; assistant'ın SOUL backlog'unu seçmesi değil.
 
 ## 1. Okuma yolu
 
 [STATE](STATE.md) → HANDOFF → [WORK](WORK.md) → [DECISIONS](DECISIONS.md) → [ACTORS](ACTORS.md) → [U002](sources/U002-cloud-plan-and-autonomy.md) → [P1-01](work/P1-01-claude-cloud-environment-map.md) → [P2-01](work/P2-01-named-role-contracts.md) → [P3-01](work/P3-01-work-information-discussion.md) tam okunur. Aynı conversation içinde tam unchanged içerik tekrar yüklenmez.
 
-P2 ilk tabandır; P3-01 v0.2, DR06/DR13 için iki hedef profili önerir. Bunları kabul edilmiş yeni registry veya fiziksel ajan sayısı sanma. S1/B ayrıntıları gerekçe gerektiğinde açılır. Foundation/studies'in gerçek kullanım ve okuma kapsamı P3-01 §9'dadır; her tur tüm korpus okunmuş sayılmaz.
+P2 ilk tabandır; P3-01 v0.3, G/Y hedef profillerini somut etkileşim ve kayıt örneğiyle ayrıntılandırır. S1/B gerekçe gerektiğinde açılır. Foundation/studies kullanım kapsamı P3-01 §9'dadır; her tur bütün korpus okunmuş sayılmaz.
 
 ## 2. Son konuşmadan devralınması gereken
 
-P3'te kullanıcı araştırma örneklerinden beslenen yapı önerisi ve birlikte değerlendirme istedi. İlk taslak iş ağı/çalışma halkası/kalıcı bilgi omurgasını sundu. Kullanıcı daha sonra işi yapanlarla yapıyı işletenlerin koordinasyon ve denetimlerini ayırmayı önerdi.
+Kullanıcı P3'te araştırmadan beslenen yapı ve birlikte değerlendirme istedi; işin koordinasyonu ile yapının koordinasyonunu ve bunların denetimlerini ayırmayı önerdi. Assistant ayrımı küçük turlarda tekrar etti; kullanıcı ilerlemenin gereksiz küçültülmesini eleştirdi. Kısa sunum ile az iş yapmanın aynı olmadığı korunmalıdır.
 
-Assistant bu ayrımı birkaç turda tekrar ederek gereksiz küçük adımlarla ilerledi. Kullanıcı bunu eleştirdi; kısa çıktı ile küçük çalışma biriminin aynı olmadığı açıklaştı. Son devam yönü, bu ayrımı bir bütün taslağa taşımayı yetkilendirdi. Kaynak mesajlar ve kapsam P3-01 §1'de; tasarımın kabulü yoktur.
+v0.2 bütünlüklü rol/karar/bilgi taslağını sundu. Son kullanıcı mesajı: “Bu yön bana mantıklı geldi ama biraz daha somutlaştır bunu.” Bu yön desteğidir; bütün tasarım ayrıntılarının kabulü değildir. Mevcut v0.3 bu talebe tek işte konuşma, bağlam, araştırma, itiraz, kayıt ve devam örneğiyle cevap verir.
 
-Bu nedenle sonraki oturum yeniden “iki koordinasyon farklıdır” açıklamasına veya dört isim için küçük onay turuna dönmemeli. Current malzeme artık roller, karar sınırları, bilgi akışı ve normal/bozuk çalışma zinciri birlikte verilmiş v0.2'dir.
+Yeni oturum iki koordinasyonun farklı olduğunu yeniden açıklamakla veya dört isim için onay beklemekle yetinmemeli. Current tartışma malzemesi P3-01 §5'teki somut örnektir.
 
-## 3. Current bütünlüklü öneri
+## 3. Korunan bütünlüklü öneri
 
-İki hedef alanı **aynı DevOS içinde** düşünülür:
+İki hedef alanı aynı DevOS içindedir:
+- **G:** SOUL ürününü geliştirme — gerekli iş/plan, araştırma/tasarım/üretim, ürün ve sonuç güvencesi.
+- **Y:** DevOS işleyişi — katılım, iletişim, bilgi/bağlam, araç/erişim, kapasite, süreklilik ve yapı bakımı/güvencesi.
 
-- G: SOUL ürününü geliştirme — gerekli işi keşif/plan, tasarım/araştırma/üretim, ürün/sonuç güvencesi.
-- Y: DevOS işleyişi — katılım, iletişim, bilgi/bağlam, araç/erişim, kapasite, süreklilik ve gerekçeli yapı bakımının işletimi/güvencesi.
+Y de Work/reasoning taşır; Foundation ENVIRONMENT'ına indirgenmez. G/Y hedef ekseni F1–F8 başarı yönü ekseni değildir. Bütün rolleri iki kez kurmak veya iki kapalı ekip yapmak önerilmez.
 
-Y de Work ve reasoning taşır; Foundation ENVIRONMENT'ına indirgenmez. G/Y hedef ekseni, F1–F8 başarı yönü ekseniyle aynı şey değildir. Bütün rolleri iki kez kurmak veya iki kapalı ekip yapmak önerilmiyor.
+DR06-G ürün önceliği ve katkı bağımlılıklarını işletir; DR06-Y gerçek çalıştırma/kapasite/devri koordine eder. İş tarafı olmayan kapasiteyi varsayamaz, yapı tarafı ürün gereksinimini sessizce azaltamaz.
 
-**DR06-G/Y:** İş koordinasyonu hangi katkının neye bağlı olduğunu ve önceliği işletir; yapı koordinasyonu bu katkının mevcut koşullarda nasıl etkinleşip geri döneceğini yönetir. Yapı kısıtı ürüne geri besleme yapar, fakat ürün kriterini sessizce değiştiremez. İş tarafı da olmayan kaynağı/izni var sayamaz.
+DR13-G ürün/iş seçimi/sonuç; DR13-Y gereken çalışma koşullarının fiilî sağlanması için güvence üretir. Aynı isimdeki veya iki ayrı ajandaki kontroller otomatik bağımsızlık sağlamaz; iddia, hedef, sürüm ve kanıt bağları korunur.
 
-**DR13-G/Y:** Geliştirme İnceleyicisi ürün/iş seçimi/sonuç iddiasını; İşleyiş İnceleyicisi gereken çalışma koşullarının gerçek karşılığını sınar. İki kapsamın kanıtı ayrı ve doğru hedef/sürümle bağlıdır. Ayrı isim epistemik bağımsızlık garantisi değildir.
+Diğer roller P3-01 §2'de tam eşlenmiştir. DR01–05 ağırlıklı geliştirme, DR07–10/12 işletim/destek; araştırma/sınama/teşhis/öğrenme gerektiğinde iki hedefe ayrı görevlendirmelerle katkı verir. Bu özet tam sözleşme yerine geçmez.
 
-Diğer roller hedefe göre yerleşir: DR01–05 ağırlıklı geliştirme; DR07–10/12 işleyiş ve destek; DR04/11/14/15/16 gibi yetkinlikler gerektiğinde iki hedefe ayrı görevlerle katkı verebilir. Bu özet, P3-01 §2'deki tam eşlemenin yerine geçmez.
+## 4. v0.3 somut örneği ve tasarım kazancı
 
-## 4. Etkileşim ve bilgi sahipliği
+**Örnek soru:** Ekip kendi keşfiyle “SOUL, kullandığı bilgi değiştiğinde önceki kararlarını nasıl ele almalı?” sorusuna gelmiş olsun. Bu gerçek ilk iş seçimi, tamamlanmış araştırma veya SOUL tasarım kararı değildir.
 
-İş sahibi soru, karar bağı, gereken katkı/uzmanlık, kaynak/target ve dönüş noktasını tanımlar. G koordinasyonu ihtiyaç ve bağımlılığı; Y koordinasyonu gerçek çalıştırma/erişim/katılımı işletir. Yetkili iş içindeki küçük danışmalar her mesajda iki koordinatörün onayını beklemez. Kapsam, maliyet, ayrı sahip/bekleme veya devir doğarsa izlenebilir Work'e dönüşür.
+P3-01 §5'te:
+- Tasarımcı öneri yapar; G inceleyicisi kaynak değişikliği ile kararın dayanağının geçersizleşmesini ayıran karşı soru getirir.
+- G koordinasyonu araştırmanın hangi kararı beklettiğini tutar; Y araştırmacı/bağlam/erişim/yanıt yolunu sağlar.
+- Örnek araştırma teslimatı tasarım seçeneğini değiştirir; eksik bağımlılık kaydı karşı vakası kararı açık bırakır.
+- İş/katkı, çalıştırma/katılım ve karar/dayanak/kanıt kayıtları ayrı anlamlarla bağlı tutulur. Bunlar üç zorunlu dosya veya üç veri deposu değildir.
+- Devir: araştırma teslim edildi, karar açık, beklenen karşı vaka ve dönüş noktası belli. Yeni oturum geçerli araştırmayı sebepsiz tekrar etmez; gerçek deneme/yan etki/güncellik ayrıca uzlaştırılır.
+- Yeni bilgi geldiğinde bağımlı kayıtları bulmak ile kararın anlamını değiştirmek ayrı sorumluluklardır. Yeni mesaj eski kararı otomatik iptal etmez; gecikmiş yanıt güncel kaydı otomatik ezmez.
 
-Katkı sahibi sonucunu ve sınırlarını; talep sahibi kullanımını veya gerekçeli reddini taşır. Araştırma tamamlanması üst kararın kapanması değildir. Ürün/plan koşullarını G, gerçekleşmiş çağrı/devir/bağlam koşullarını Y güvencesi ilgili riskte sınar; her küçük iş için iki zorunlu komite kurulmaz.
+ÖR-İ01/A01/Ç01/K01/T01 kurgusal kimliklerdir; gerçek proje kuyruğuna alınmayacak. Örnekte sınama tasarlanabilir ama koşu yapılmış veya PASS elde edilmiş değildir. Yön desteği bütün G/Y hükümlerinin kullanıcı kabulü olarak genişletilmez.
 
-Alan sahibi içerik ve kararın gerekçesini korur. DR07 kaynak/sürüm/statü/lifecycle bütünlüğünü işletir; bütün dosyaların tek yazıcısı veya domain doğruluk hakemi değildir. DR08, iş sahibi ve uzmanla birlikte yeterli görünümü hazırlar; tüketici eksikliği sorgulayıp asıl kaynağa dönebilir. Ortak zemin herkese bütün geçmişin verilmesi değildir.
+## 5. Etkileşim, bilgi ve yetki sınırları
 
-Arıza/kapasite/bayatlarsa: Y gerçek kısıt ve etkiyi bildirir, koşulları uzlaştırır; G etkilenen karar/öncelik/işi yeniden değerlendirir. Etki belirsizken kör retry yapılmaz. Meşru durdurma yalnız ilgili çalışma/kapsama uygulanır; otomatik her itiraz veto veya her anlaşmazlık Batu sorusu değildir.
+Talep sahibi açık soruyu ve sonucu kullanmayı; katkı sahibi bilgi/ürün teslimatını taşır. G akış ve önceliği, Y gerçekleşmiş çağrı/katılım/devri izler. Küçük ve kapsam içi danışmalar her mesajda iki koordinatörün onayını beklemez; ayrı sahip, bekleme, maliyet veya devir doğarsa izlenebilir katkı gerekir.
 
-## 5. Sabit sınırlar ve kanıt
+Alan sahibi içeriği ve karar gerekçesini üretir. DR07 kaynak/sürüm/statü/lifecycle bütünlüğünü işletir; domain doğruluk hakemi veya tüm dosyaların tek yazıcısı değildir. DR08 uzmanla birlikte role uygun görünümü hazırlar; tüketici eksikliği sorgulayabilir ve kaynağa dönebilir. Her rolün bütün geçmişi alması gerekmez.
 
-K1 talep→çalışma→yanıt→kullanım; K2 rutin rol geçişinde Batu'ya ihtiyaç duymamaktır. Başlangıç/yeniden başlatma, gerçek müdahale ve yetki/kabul mümkündür. SOUL'un ilk teknik işi assistant tarafından seçilmez. Test örneği backlog değildir.
+K1 talep→çalışma→yanıt→kullanım; K2 rutin rol geçişinde Batu'ya ihtiyaç duymamaktır. Başlatma/yeniden başlatma ve gerçek yetki/kabul/müdahale mümkündür. Etki belirsizken kör retry, olguyu oylamayla doğru yapma veya her itirazı sınırsız veto yapma yoktur. Kesin işletim/permission mekanizması henüz kurulmadı.
 
-P1 Q01–Q06 gerçek cloud araç/sürüm/erişim, plugin çelişkisi, kalıcılık ve güvence açıklarıdır; P3 taslağı bunları kapatmaz. P4'te yük taşıyan seçim tazelenir/sınanır. Kanon/v2/ECC/Gas Town hazır mimari olarak alınmadı.
+## 6. Kaynak, devam ve kayıt
 
-Bu tur Gas Town META tam, FINDINGS 1–280 seçici okundu. İş nesnesi, dispatch denemesi, kapasite, liveness ve entegrasyon ayrımları kullanıldı; güncel dış ürün veya canlı Claude deneyi yapılmadı. Diğer load-bearing Foundation/study içerikleri aynı konuşmanın görünür okumalarından yeniden kullanıldı. S1-16 full-read qualification'ı S1-17 §7'de korunur.
+v0.3'te Information Revision M5 tam okundu; yeni girdi, alternatif destek, gelecekteki revizyon için durum koruma ve proposed/installed/observed/propagated ayrımları örneğe taşındı. Aynı konuşmadaki Work/Actors/Information, RPD, Superpowers ve seçici Gas Town/Work-management okumaları kullanıldı. Bütün dış kaynaklar veya bugünkü ürün sürümleri yeniden doğrulanmadı; P3-01 §9 kapsamı taşır.
 
-## 6. Devam ve kayıt
+P1 Q01–Q06 cloud/erişim/araç/plugin/kalıcılık/güvence açıkları korunur. Kanon/v2/ECC/Gas Town benimsenmedi. S1-16 full-read qualification'ı S1-17 §7'de kalır. Canlı Claude deneyi, mesaj teslimi veya recovery testi yoktur.
 
-Current P3-01 v0.2'yi kısa ama değerlendirilebilir bütünlükte kullanıcıya sun. Karar bekleyen yerleri aday tutmak, her küçük ayrımda yeni komut istemek değildir. Sonraki anlamlı P3 parçası bağlam, uzman görüş ayrılığı, karar kaydı, yeni bilgiyle yeniden açma ve oturum devrinin birlikte somutlaştırılmasıdır. Kullanıcı değerlendirmesi aynı taslağa işlenir; üst plan yeniden icat edilmez.
+**Sonraki bütünlüklü P3 değerlendirmesi:** Örnekte talep/itiraz/kararın açık ve karşılanmış sayılma koşulları, küçük danışmanın ayrı Work'e dönüşmesi ve G/Y durdurma–devam sorumluluklarını birlikte netleştir. Kullanıcının örneğe tepkisi öncelikli girdidir. Aynı ayrımı yeniden anlatma veya her küçük adımda komut bekleme; tartışılabilir bütünlüklü parça üret.
 
-P3 tamamlandı deme; P4–P6'ya otomatik geçme. P2 registry/sözleşmeleri bu tur değiştirilmedi; önerilen DR06/13 hedef-profili farkının tek ayrıntı evi P3-01'dir. Yerleşen değişiklik ileride ACTORS/P2'ye açık statüyle yansıtılır.
-
-Bütün plan WORK, current STATE, devir HANDOFF, tartışma P3-01'dir. Bu güncelleme agent-control değişikliği değildir. Kullanıcıya uzun iç değerlendirme veya tüm kaynak geçmişi yerine anlamlı tasarım parçasının sonucu verilir.
+P3 tamamlandı deme; P4–P6'ya geçme. P2 registry/sözleşmeleri ilk taban olarak korunur; G/Y farkı ve örneğin tek ayrıntı evi P3-01'dir. Bütün plan WORK, current STATE, devir HANDOFF'tadır. Bu tur agent-control değişmedi.
