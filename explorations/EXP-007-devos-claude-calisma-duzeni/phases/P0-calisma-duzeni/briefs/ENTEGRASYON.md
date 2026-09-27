@@ -35,7 +35,7 @@ Kümelerin yazdıklarını yan yana koymak yetmez. Asıl iş şunlardır: çeli�
 5. **Etkileşimleri kapat.**
    - R11 §5'teki 20 "yeterli görünüp yetersizleştiren" seçimin her biri için, dengeleyicinin METHOD'da nerede olduğunu göster.
    - R11 §4.5'teki birbirini besleyen dört döngü için de aynısını yap.
-5. **Çarpışma testlerini yürüt: W1–W10.**
+6. **Çarpışma testlerini yürüt: W1–W10.**
    - Kümelerin katkılarını birleştir ve her senaryoyu baştan sona yürüt.
    - Her adımda hangi mekanizmanın çalıştığını, hangi dosyanın okunup yazıldığını ve kimin işlediğini yaz.
    - Kırılma noktası bulursan yaz ve düzelt.
