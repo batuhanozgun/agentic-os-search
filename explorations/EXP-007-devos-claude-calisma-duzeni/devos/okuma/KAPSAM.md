@@ -12,7 +12,8 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | ECC (ilk, sığ okuma) | O5 | YERİNE GEÇİYOR | Yerine O5a–O5d geçer |
 | ECC study, birinci yarı | O5a | TAMAM | Notlar 29–56 O5b'de. E08'in ham prompt gövdeleri tek tek okunmadı: gövdeler probe girdileri; mekanizma ve sonuçları notta. |
 | ECC study, ikinci yarı | O5b | SÜRÜYOR | — |
-| ECC repo: ajanlar, komutlar, kurulum | O5c | SÜRÜYOR | — |
+| ECC repo: ajanlar, komutlar, kurulum | O5c | BOŞLUK VAR | Orkestrasyon CLI'ları, `scripts/lib`'in kurulum dışı kısmı ve rehberli kurulum aracı → O5f. 111 dil kuralı konu dışı: dillere göre kodlama kuralları; kuralları yükleme mekanizması okundu. |
+| ECC orkestrasyon CLI'ları | O5f | **SIRADA** | 20 ajan sınırı |
 | ECC repo: skill'ler, hook'lar, öğrenme | O5d | BOŞLUK VAR | 25 orkestrasyon ve bellek skill'i, memory-vault, oturum kütüphaneleri ve testler okunmadı → O5e |
 | ECC orkestrasyon ve bellek katmanı, testler | O5e | SÜRÜYOR | — |
 | Hermes, superpowers, gstack, mattpocock | O6 | BOŞLUK VAR | okunmayan notlar ve upstream'ler → G2 |
@@ -37,7 +38,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Akademik kaynaklar | O14 | ORTAM ENGELİ | Ajan "KAPSAM BÖLÜNMELİ" dedi. Ağ politikası arxiv.org, openreview.net, aclanthology.org, proceedings.*, huggingface.co, semanticscholar.org ve metr.org'u kapatıyor. Tam metin yalnız Who&When ve LoCoMo'da okundu. Öbürlerinde resmi repo kodu okundu; sayılar arama özetinden geliyor ve notta [AÖ] diye işaretli. **Tetik:** Batu ağ iznini açarsa O14b, notun §0.4 listesini okur. Batu'ya bilgi verildi; yapı kararında [AÖ] sayılar yük taşımaz. |
 | Anthropic ve Claude Code çerçeveleri | O15 | BOŞLUK VAR | Ajan "KAPSAM BÖLÜNMELİ" dedi: claude-flow, claude-code-templates, BMAD ve SuperClaude'un çoğu; awesome-claude-code'da bağlanan çerçeveler okunmadı; claude.dev ağ politikası yüzünden kapalı → O15b, O15c |
 | BMAD ve SuperClaude | O15b | SÜRÜYOR | — |
-| claude-flow, templates, awesome-claude-code | O15c | **SIRADA** | 20 ajan sınırı |
+| claude-flow, templates, awesome-claude-code | O15c | SÜRÜYOR | — |
 | Architect-3'ün os-architect deneyimi (Batu'nun yapıştırması, U022) | O16 | TAMAM | Ana oturum okudu; O12 ile karşılaştırılacak |
 
 **Kabul kuralı:** Her notun kapsam bölümü ana oturumca okunur. "Okunmadı" diye kalan her kalemin ya bir kapatıcısı ya da "içerik konu dışı" gerekçesi olur; ikinci durumda gerekçe dosya açıldıktan sonra yazılmış olmalıdır. Bitmeyen kalem, yapı kararını bekletir.

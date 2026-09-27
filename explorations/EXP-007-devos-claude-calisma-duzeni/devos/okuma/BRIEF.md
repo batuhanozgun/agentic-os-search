@@ -134,3 +134,9 @@ Not: arxiv.org, letta.com, docs.langchain.com ve roocode belgeleri bu ortamın a
 |---|---|---|---|
 | O15b | BMAD-METHOD (github.com/bmad-code-org/BMAD-METHOD) ve SuperClaude (github.com/SuperClaude-Org/SuperClaude_Framework): ajan personaları, iş akışları, intent contract, triage günlüğü, tur sınırları, komutlar ve kurallar; kod ve belge | Rol ve iş akışı çerçevelerinin somut dosyaları; DevOS'a ne alınır, nasıl aşılır? | `O15b-bmad-superclaude.md` |
 | O15c | claude-flow (github.com/ruvnet/claude-flow), claude-code-templates (github.com/davila7/claude-code-templates), awesome-claude-code (github.com/hesreallyhim/awesome-claude-code) ve orada bağlanan harness, orkestrasyon ve bellek çerçeveleri (en az 10 tanesi kaynağından) | Topluluk çerçevelerinin gerçek mekanizmaları; kanıtlı olanla iddia edilenin ayrımı | `O15c-claude-flow-templates-awesome.md` |
+
+### O5c'nin boşluğu
+
+| Kimlik | Kaynak | Odak | Not dosyası |
+|---|---|---|---|
+| O5f | `/home/user/affaan-m/ecc`: orkestrasyon CLI'ları (harness-audit, gan-harness, loop-status, work-items, github-coordination ve benzerleri); kurulumla ilgisi olmayan `scripts/lib` modüllerinin O5e'nin okumadıkları; rehberli kurulum aracı (guided installer) | ECC'nin iş kalemi, döngü durumu, harness denetimi ve koordinasyon araçları: DevOS'un iş kaydı ve döngüsünde ne alınır? | `O5f-ecc-orkestrasyon-cli.md` |
