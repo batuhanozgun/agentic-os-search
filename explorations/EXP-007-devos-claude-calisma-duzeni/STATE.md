@@ -24,17 +24,15 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
 
 ## Çalışan alt ajanlar
 
-| Küme | Çıktı dosyası | Görev tanımı |
+| İş | Çıktı dosyası | Görev tanımı |
 |---|---|---|
-| T1 | `phases/P0-calisma-duzeni/drafts/T1-bilgi-tasima.md` | [briefs/T1](phases/P0-calisma-duzeni/briefs/T1.md) |
-| T2 | `phases/P0-calisma-duzeni/drafts/T2-aktorler-ve-guvenlik.md` | [briefs/T2](phases/P0-calisma-duzeni/briefs/T2.md) |
-| T3 | `phases/P0-calisma-duzeni/drafts/T3-isin-akisi-ve-harita.md` | [briefs/T3](phases/P0-calisma-duzeni/briefs/T3.md) |
-| T4 | `phases/P0-calisma-duzeni/drafts/T4-yon-yetki-ve-denetimler.md` | [briefs/T4](phases/P0-calisma-duzeni/briefs/T4.md) |
-| T5 | `phases/P0-calisma-duzeni/drafts/T5-dayaniklilik-ve-evrim.md` | [briefs/T5](phases/P0-calisma-duzeni/briefs/T5.md) |
+| Birleştirme (P0.4, ikinci adım) | `phases/P0-calisma-duzeni/METHOD-v1-TASLAK.md` | [briefs/ENTEGRASYON](phases/P0-calisma-duzeni/briefs/ENTEGRASYON.md) |
+
+**Tamamlanan küme taslakları (dondurulmuş):** [T1](phases/P0-calisma-duzeni/drafts/T1-bilgi-tasima.md) · [T2](phases/P0-calisma-duzeni/drafts/T2-aktorler-ve-guvenlik.md) · [T3](phases/P0-calisma-duzeni/drafts/T3-isin-akisi-ve-harita.md) · [T4](phases/P0-calisma-duzeni/drafts/T4-yon-yetki-ve-denetimler.md) · [T5](phases/P0-calisma-duzeni/drafts/T5-dayaniklilik-ve-evrim.md).
 
 - **Ortak bölümler:** [ORTAK](phases/P0-calisma-duzeni/briefs/ORTAK.md), [ORTAK-SENTEZ](phases/P0-calisma-duzeni/briefs/ORTAK-SENTEZ.md) ve [T-ORTAK](phases/P0-calisma-duzeni/briefs/T-ORTAK.md).
 - **Yazma kuralı:** Alt ajanlar yalnız kendi çıktı dosyasını yazar ve dosyayı tek seferde oluşturur. Kayıt ana oturumdadır.
-- **Oturum kesilirse:** Yarım kalan ajan işi kaybolur. Yeni oturum, `drafts/` altında eksik kalan taslağı aynı görev tanımıyla yeniden başlatır.
+- **Oturum kesilirse:** Yarım kalan ajan işi kaybolur. Yeni oturum, eksik çıktıyı aynı görev tanımıyla yeniden başlatır (aşağıdaki "Yeni oturum ne yapar" tablosu).
 
 **Sonraki turların görev tanımları hazır** (`phases/P0-calisma-duzeni/briefs/`):
 - [ENTEGRASYON](phases/P0-calisma-duzeni/briefs/ENTEGRASYON.md): T1–T5 → `METHOD-v1-TASLAK.md` (P0.4, ikinci adım);
