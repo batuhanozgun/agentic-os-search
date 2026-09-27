@@ -23,8 +23,8 @@ Hedef standart seviyedir, "yeterli seviye" değil. Alt sistemler arası etkileş
 |---|---|---|---|
 | P0.1 | EXP-006'yı anlamak ve ilk öneri (v0) | TAMAM. Anlayış kabul edildi, yapı küçük bulundu (K-006, K-007) | [A003](../../sources/conversation/A003.md); R02–R06 |
 | P0.2 | Süreklilik kaydı | TAMAM | README, STATE, DECISIONS, `sources/` |
-| P0.3 | Standart seviye araştırması: her alt sistem için dünyada ve repoda "standart" ne? | SÜRÜYOR | R07–R11 |
-| P0.4 | METHOD v1 taslağı (ayrıntısı aşağıda) | BEKLİYOR | `METHOD-v1-TASLAK.md` |
+| P0.3 | Standart seviye araştırması: her alt sistem için dünyada ve repoda "standart" ne? | TAMAM | R07–R11 |
+| P0.4 | METHOD v1 taslağı (ayrıntısı aşağıda): önce beş küme taslağı (T1–T5), sonra birleştirme | SÜRÜYOR | `drafts/T1–T5` → `METHOD-v1-TASLAK.md` |
 | P0.5 | Eleştiri turu, üç ayrı eleştiri (ayrıntısı aşağıda) | BEKLİYOR | `reviews/` |
 | P0.6 | Revizyon ve Batu'ya kısa sunum | BEKLİYOR | METHOD v1 (tartışma için) |
 | P0.7 | Batu'nun düzeltmeleri; A-02'ye göre konuşma içi pilotlar; yeniden revizyon | BEKLİYOR | — |
@@ -57,14 +57,30 @@ Hedef standart seviyedir, "yeterli seviye" değil. Alt sistemler arası etkileş
 | R04 | Foundation'ın işletime dair çıkarımları | TAMAM | A003 turunda sohbet içi |
 | R05 | Studies'teki çalışma mekanizmaları (görev tanımı, plan, doğrulama, devir) | TAMAM | A003 turunda sohbet içi |
 | R06 | EXP-004 mekanizmaları | TAMAM | A003 turunda sohbet içi |
-| R07 | Anthropic ve Claude Code en iyi uygulamaları | SÜRÜYOR | [briefs/R07](briefs/R07.md) |
-| R08 | Anthropic dışı metodolojiler | SÜRÜYOR | [briefs/R08](briefs/R08.md) |
-| R09 | Studies: bağlam, bellek, rol ve yaşam döngüsünde standart seviye | SÜRÜYOR | [briefs/R09](briefs/R09.md) |
-| R10 | Foundation: bağlam, bellek ve kalıcı rol için gereksinimler | SÜRÜYOR | [briefs/R10](briefs/R10.md) |
-| R11 | Sistem envanteri ve etkileşim matrisi | SÜRÜYOR | [briefs/R11](briefs/R11.md) |
+| R07 | Anthropic ve Claude Code en iyi uygulamaları | TAMAM | [briefs/R07](briefs/R07.md) |
+| R08 | Anthropic dışı metodolojiler | TAMAM | [briefs/R08](briefs/R08.md) |
+| R09 | Studies: bağlam, bellek, rol ve yaşam döngüsünde standart seviye | TAMAM | [briefs/R09](briefs/R09.md) |
+| R10 | Foundation: bağlam, bellek ve kalıcı rol için gereksinimler | TAMAM | [briefs/R10](briefs/R10.md) |
+| R11 | Sistem envanteri ve etkileşim matrisi | TAMAM | [briefs/R11](briefs/R11.md) |
 
 R07–R11 için ortak kurallar: [briefs/ORTAK.md](briefs/ORTAK.md).
 
 Notların hepsi alt ajan çıktısıdır. Kararı taşıyan iddialar kaynağından kontrol edilir. R01–R06'nın başlığında ana oturumun hangi iddiaları kontrol ettiği yazılıdır.
 
 R02–R06'nın görev tanımları sohbet içinde verildi ve repoya yazılmadı. R07'den itibaren görev tanımları `briefs/` altında kayıtlıdır; aynı tanımla yeniden çalıştırılabilir.
+
+## Küme taslakları (`drafts/`)
+
+R11'in 21 alt sistemi beş kümeye bölündü. Her küme kendi alt sistemlerini mekanizma kartlarıyla tasarlar; sonra bir birleştirme ajanı hepsini tek METHOD taslağında birleştirir.
+
+Görev tanımları:
+- ortak bölümler: [briefs/ORTAK-SENTEZ](briefs/ORTAK-SENTEZ.md) ve [briefs/T-ORTAK](briefs/T-ORTAK.md);
+- her küme için: `briefs/T1.md` … `briefs/T5.md`.
+
+| Küme | Alt sistemler | Çıktı | Durum |
+|---|---|---|---|
+| T1 | S7 bağlam · S8 bellek · S9 kayıt mimarisi · S10 anlam bütünlüğü | `drafts/T1-bilgi-tasima.md` | SÜRÜYOR |
+| T2 | S11 kalıcı roller · S12 orkestrasyon · S13 arayüzler · S16 güvenlik | `drafts/T2-aktorler-ve-guvenlik.md` | SÜRÜYOR |
+| T3 | S3 yaşam döngüsü · S4 keşif · S5 plan · S6 araştırma kullanımı · P0–P6 haritası | `drafts/T3-isin-akisi-ve-harita.md` | SÜRÜYOR |
+| T4 | S1 yönetişim · S2 Batu ile iş birliği · S14 kalite · S15 muhakeme disiplini · S17 gözlemlenebilirlik | `drafts/T4-yon-yetki-ve-denetimler.md` | SÜRÜYOR |
+| T5 | S18 süreklilik · S19 ortam ve yapılandırma · S20 maliyet · S21 öğrenme | `drafts/T5-dayaniklilik-ve-evrim.md` | SÜRÜYOR |

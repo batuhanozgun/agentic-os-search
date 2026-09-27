@@ -2,7 +2,7 @@
 
 **Güncelleme:** 27 Eylül 2026.  
 **Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
-**Şu anki adım:** P0.3, standart seviye araştırması. R07–R11 için beş alt ajan başlatıldı.  
+**Şu anki adım:** P0.4, METHOD v1 taslağı. P0.3 tamamlandı (R07–R11). Beş küme taslağı (T1–T5) için beş alt ajan başlatıldı; hepsi dönünce birleştirme yapılacak.  
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
 **Batu'dan beklenen:** Şu an yok. Taslak sunulunca: taslağa itirazları, A-01, A-02, A-04 ve A-07. Ayrıntı: [DECISIONS](DECISIONS.md).
 
@@ -24,17 +24,17 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
 
 ## Çalışan alt ajanlar
 
-| Not | Çıktı dosyası | Görev tanımı |
+| Küme | Çıktı dosyası | Görev tanımı |
 |---|---|---|
-| R07 | `phases/P0-calisma-duzeni/research/R07-anthropic-en-iyi-uygulamalar.md` | [briefs/R07](phases/P0-calisma-duzeni/briefs/R07.md) |
-| R08 | `phases/P0-calisma-duzeni/research/R08-dis-metodolojiler.md` | [briefs/R08](phases/P0-calisma-duzeni/briefs/R08.md) |
-| R09 | `phases/P0-calisma-duzeni/research/R09-studies-baglam-bellek-rol-standartlari.md` | [briefs/R09](phases/P0-calisma-duzeni/briefs/R09.md) |
-| R10 | `phases/P0-calisma-duzeni/research/R10-foundation-baglam-bellek-rol-gereksinimleri.md` | [briefs/R10](phases/P0-calisma-duzeni/briefs/R10.md) |
-| R11 | `phases/P0-calisma-duzeni/research/R11-sistem-envanteri-ve-etkilesimler.md` | [briefs/R11](phases/P0-calisma-duzeni/briefs/R11.md) |
+| T1 | `phases/P0-calisma-duzeni/drafts/T1-bilgi-tasima.md` | [briefs/T1](phases/P0-calisma-duzeni/briefs/T1.md) |
+| T2 | `phases/P0-calisma-duzeni/drafts/T2-aktorler-ve-guvenlik.md` | [briefs/T2](phases/P0-calisma-duzeni/briefs/T2.md) |
+| T3 | `phases/P0-calisma-duzeni/drafts/T3-isin-akisi-ve-harita.md` | [briefs/T3](phases/P0-calisma-duzeni/briefs/T3.md) |
+| T4 | `phases/P0-calisma-duzeni/drafts/T4-yon-yetki-ve-denetimler.md` | [briefs/T4](phases/P0-calisma-duzeni/briefs/T4.md) |
+| T5 | `phases/P0-calisma-duzeni/drafts/T5-dayaniklilik-ve-evrim.md` | [briefs/T5](phases/P0-calisma-duzeni/briefs/T5.md) |
 
-Alt ajanlar yalnız kendi not dosyasını yazar. Kayıt ve main'e birleştirme ana oturumdadır.
-
-Oturum biterse yarım kalan ajan işi kaybolur. Yeni oturum, `research/` altında eksik kalan notu aynı görev tanımıyla yeniden başlatır. Ortak kurallar: [briefs/ORTAK](phases/P0-calisma-duzeni/briefs/ORTAK.md).
+- **Ortak bölümler:** [ORTAK](phases/P0-calisma-duzeni/briefs/ORTAK.md), [ORTAK-SENTEZ](phases/P0-calisma-duzeni/briefs/ORTAK-SENTEZ.md) ve [T-ORTAK](phases/P0-calisma-duzeni/briefs/T-ORTAK.md).
+- **Yazma kuralı:** Alt ajanlar yalnız kendi çıktı dosyasını yazar ve dosyayı tek seferde oluşturur. Kayıt ana oturumdadır.
+- **Oturum kesilirse:** Yarım kalan ajan işi kaybolur. Yeni oturum, `drafts/` altında eksik kalan taslağı aynı görev tanımıyla yeniden başlatır.
 
 ## EXP-006 ile ilişki (K-010)
 - **Bağlantı yok.** ChatGPT, EXP-006'da ayrı ve bağımsız çalışır. Claude, konuyu (DevOS çalışma düzeninin tasarımı) baştan sona devralmış gibi çalışır. EXP-007 ve dalı Claude'un ana çalışma ortamıdır.
@@ -56,13 +56,16 @@ Oturum biterse yarım kalan ajan işi kaybolur. Yeni oturum, `research/` altınd
   - code.claude.com ve anthropic.com açık.
   - Bu oturuma bağlı olmayan github.com repoları ve bazı dış siteler (ör. docs.cline.bot) kabuktan kapalı.
   - İki Loopinance reposu bu oturuma salt okuma için bağlandı ve klonlanmadı. Yeni oturumda gerekirse yeniden bağlanmalı.
-- **Maliyet:** Alt ajanlar bu oturumda P0.3'e kadar yaklaşık 4,1 milyon token harcadı (R01: 2,63 M; R02–R06: 1,49 M).
+- **Maliyet:** Alt ajanların bu oturumdaki harcaması yaklaşık 6,5 milyon token:
+  - R01: 2,63 M;
+  - R02–R06: 1,49 M;
+  - R07–R11: ~2,44 M (R07 0,61 · R08 0,53 · R09 0,13 · R10 0,51 · R11 0,66). R09'un sayacı düşük görünüyor; ölçüm güvenilirliği açık bir soru.
 
 ## Yeni oturum ne yapar
 0. EXP-007 main'de yoktur. Batu yeni oturuma dal adını verir: `claude/hopeful-pascal-7bekcd`. Oturum dalı alır: `git fetch origin claude/hopeful-pascal-7bekcd`.
    - Oturum bu dalda çalışabiliyorsa onunla devam eder.
    - Ortam oturuma kendi dalını veriyorsa, o dalı bu dalın üzerine kurar (`git checkout -B <oturum-dalı> origin/claude/hopeful-pascal-7bekcd`) ve yeni dal adını bu STATE'e yazar. Dal birikmesin diye eski dal, Batu'ya haber verilerek silinir.
 1. [README](README.md)'deki okuma yolunu izler.
-2. R07–R11'den eksik olanı aynı görev tanımıyla yeniden başlatır.
-3. Hepsi tamamsa P0.4'e geçer.
+2. T1–T5'ten eksik olanı aynı görev tanımıyla yeniden başlatır.
+3. Hepsi tamamsa birleştirmeye (P0.4'ün ikinci adımı) geçer.
 4. Batu'ya nerede olduğunu kısaca söyler; P0 içindeki adımlar için Batu'yu beklemez.
