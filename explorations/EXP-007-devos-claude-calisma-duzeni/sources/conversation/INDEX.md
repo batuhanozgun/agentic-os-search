@@ -20,3 +20,4 @@ Claude Code cloud oturumunda (26–27 Eylül 2026) modelin gördüğü konuşman
 | 14 | [U010](U010.md) | Batu: DevOS'u mu tasarlıyoruz, onu tasarlayacak ortamı mı kuruyoruz? |
 | 15 | [A005](A005.md) | Claude: şu an tasarım ekibinin çalışma düzeni (P0); DevOS tasarımı P1'de başlar; P0'ın büyüklüğüne kendi itirazı ve bir alternatif |
 | 16 | [U011](U011.md) | Batu: yön ve karar değişikliği yok; devam |
+| 17 | [U012](U012.md) | Batu: AGENT.md ChatGPT için router'dı, Claude kullanmak zorunda değil; en temizi EXP-007'de Claude'un kendi dünyası; protokoller istenen yerde; kullanım limiti %57, cumartesi sıfırlanır; iki soru kuralı |

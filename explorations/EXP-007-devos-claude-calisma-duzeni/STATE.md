@@ -4,12 +4,10 @@
 **Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
 **Şu anki adım:** P0.6, revizyon. Üç eleştiri tamam (5 kritik, 26 önemli, 14 küçük bulgu). Revizyon ajanı çalışıyor: [briefs/REVIZYON](phases/P0-calisma-duzeni/briefs/REVIZYON.md) → `METHOD-v1.md` ve `reviews/DEGISIKLIK-KAYDI.md`. Sonra ana oturum kilit bölümleri kendisi okur ve Batu'ya kısa sunum yapar.
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
-**Batu'dan beklenen:** Bekleyen ya da işi durduran bir cevap yok.
-- **İsterse şimdi, istemezse özetle birlikte:** A-01. AGENT.md'ye dokunulmaması önerisi, [A004](sources/conversation/A004.md). Cevap gelmezse varsayılan budur; bu seçenek hiçbir şeyi değiştirmez.
-- **METHOD v1 sunulunca sorulacak:** taslağa itirazlar; A-02 (pilotlar); A-04 (yapılandırma paketi, kök dosyalar dahil); ortam denemesi izni; K-002'nin yeni haritaya uygulanması; Batu'nun denetçi işlevi (raporu okuduğunu nasıl işaretleyeceği, sessizlikte ne olacağı; E2-02, E3-02); bütçe ve kullanım limiti.
+**Batu'dan beklenen:** Bekleyen ya da işi durduran bir cevap yok. A-01 kapandı (K-011).
+- **METHOD v1 sunulunca, özetle birlikte ve sade dille:** Batu önceki soru listesini anlamadı (U012). Sorular K-012'ye göre süzülür: hayır cevabı işi durduracak olanlar sorulmaz, yalnız bildirilir. Geriye kalan gerçek sorular: taslağa itirazlar ve "başla" (K-005); Batu'nun nerelerde durup bakmak istediği; raporları okuduğunu nasıl göstereceği.
 - **Acelesi yok:** A-07 (main'e birleştirme zamanı).
-- **Rica:** Kullanım limiti dolmaya yaklaşırsa Batu haber verir; Claude limiti göremiyor.
-- **İletişim kuralı:** Soru varsa mesajın başında "Senden cevap bekliyorum" yazar; yoksa "Senden cevap beklemiyorum".
+- **Soru kuralı (K-012):** Soru varsa mesajın başında "Senden cevap bekliyorum" yazar; cevapsız soru bir sonraki mesajda yeniden sorulur; sessiz varsayım yoktur. Soru yoksa "Senden cevap beklemiyorum" yazar.
 
 **Dal:** EXP-007 yalnız `claude/hopeful-pascal-7bekcd` dalında yaşar ve main'e birleştirilmez (K-009).
 
@@ -76,6 +74,7 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
     - Fiyat ağırlıklı girdi eşdeğeri yaklaşık 69–84 M. Ağırlıklar: önbellekten okuma 0,1×, önbelleğe yazma 1,25×–2×, çıktı 5×. Abonelik limitlerinin bunları nasıl saydığı bilinmiyor.
   - **Dağılım (işlenen):** ana oturum ≈ 53 M · R01 workflow (27 ajan) ≈ 27 M · R02–R06 ≈ 30 M · R07–R11 ≈ 168 M · T1–T5 ≈ 130 M (sürerken).
   - **Eleştiriler (E1–E3):** 70 çağrı, 19,6 M işlenen token; ajan başına 4,7–10 M, tepe bağlam 454–487 K. Okuma disiplini burada işe yaradı.
+  - **Kullanım limiti (Batu, U012):** 27 Eylül pazar ≈ 12:30 UTC'de haftalık limitin %57'si kullanılmıştı; limit 3 Ekim cumartesi sıfırlanır (saat bilinmiyor). Aynı anda oturum toplamı ≈ 482 M işlenen token idi (girdi eşdeğeri ≈ 84–105 M). **Varsayım:** Oturum 26 Eylül cumartesi 21:48 UTC'de başladı; %57'nin neredeyse tamamı bu oturumdur. Bu doğruysa %1 ≈ 8,5 M işlenen token ve kalan %43 ≈ 365 M işlenen token eder. İkinci bir okuma bu oranı doğrular.
   - **Oturum toplamı (12:15):** ≈ 476 M işlenen token; girdi eşdeğeri ≈ 83–102 M.
   - **Bütün harita için kaba tahmin (E3-12, doğrulanmadı):** aşama başına 135–500 M işlenen token; P1–P6 için 1,2–2,3 milyar. Revizyon bunu sınayacak.
   - **Birleştirme:** 67 çağrı, 14,9 M işlenen token; tepe bağlam 776 K (sıkıştırma eşiğine yakın; ana oturum not gönderdi, son bölümler yeniden okumasız yazıldı).
