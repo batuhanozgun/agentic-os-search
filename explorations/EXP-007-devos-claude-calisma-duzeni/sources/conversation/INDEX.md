@@ -26,3 +26,4 @@ Claude Code cloud oturumunda (26–27 Eylül 2026) modelin gördüğü konuşman
 | 20 | [U015](U015.md) | Batu: ECC, Hermes, keel, oyun2, loopinance ve studies'te çözülmüş örnekler var; doğru okumuyorsun, kendini kalibre etmiyorsun, bana yaslanıyorsun; somut Development OS dokümanı hazırla; yapamayacaksan söyle |
 | 21 | [U016](U016.md) | Batu: bir şey hazırlama; yapacak mısın, istiyor musun, yapabilecek misin? |
 | 22 | [U017](U017.md) | Batu: kendin sıfırdan yapı kurmuyorsun; okuyacaksın, okuduklarını kullanacaksın, adam gibi hazırlık yapıp işi yapacaksın; sormayacaksın |
+| 23 | [U018](U018.md) | Batu: GitHub'da ve arXiv'de araştır; os-architect'i oku; basit, ucuz ya da dar değil, ne gerekiyorsa yapan, bilmediğini araştıran, kendini bilen, drift yaşamayan, bütünü gören üst düzey yapı |

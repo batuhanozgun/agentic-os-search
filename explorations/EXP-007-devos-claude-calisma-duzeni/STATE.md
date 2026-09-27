@@ -2,7 +2,7 @@
 
 **Güncelleme:** 27 Eylül 2026.  
 **Aşama:** DevOS dokümanı (K-016). P0'daki METHOD çalışması donduruldu; METHOD-v1 son sürümdür ve v1.1 yazılmadı.
-**Şu anki adım:** DevOS okuma turu. On bir okuma ajanı (O1–O11) repoyu ve dış kaynakları okuyor: [devos/okuma/BRIEF](devos/okuma/BRIEF.md). Sonra ana oturum notları tam okur, DevOS tasarım kararlarını verir ve somut DevOS dokümanını yazar. Batu'ya soru sorulmaz (K-016); bir sonraki mesaj bitmiş doküman olur.
+**Şu anki adım:** DevOS okuma turu. On beş okuma ajanı (O1–O15) repoyu, dış repoları, GitHub'daki çerçeveleri, akademik kaynakları ve Anthropic kaynaklarını okuyor: [devos/okuma/BRIEF](devos/okuma/BRIEF.md). Sonra ana oturum notları tam okur, DevOS tasarım kararlarını verir ve somut DevOS dokümanını yazar. Batu'ya soru sorulmaz (K-016); bir sonraki mesaj bitmiş doküman olur.
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
 **Batu'dan beklenen:** Hiçbir şey (K-014, K-015, K-016).
 - **Acelesi yok:** A-07 (main'e birleştirme zamanı).
@@ -27,9 +27,17 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
 - Her alt sistemde standart seviye. Ertelenen her şey, bütünsel etkisiyle birlikte gerekçelendirilmeli.
 - Alt sistemler arası etkileşim.
 
+## DevOS dokümanının üretim sırası (K-016, U018)
+
+1. **Okuma turu (şimdi):** O0 (ana oturum) ve O1–O15. Tek tur; yeni okuma turu açılmaz. Eksik kalan kapsam, dokümanda "okunmadı" diye yazılır.
+2. **Yapı kararı (ana oturum):** Bütün notların "DevOS için en önemli çıkarımlar" bölümleri ve karar taşıyan notların tamamı okunur. `devos/MIMARI-KARARLAR.md` yazılır. Her bileşen için: seçilen mekanizma, kaynak kanıtı, alternatifler ve gerekçe.
+3. **Doküman yazımı:** Parçalar paralel yazılır: genel yapı; aktörler ve roller; bilgi (bellek, bağlam, kayıt, araştırma kullanımı); iş (iş grafı ve döngü); ortam ve harness (yapılandırma dosyalarının tam içerikleriyle); kalite, drift önleme ve öğrenme; kurulum ve pilot planı. Yazarlar ilgili notları tam okur ve mimari kararlara uyar. Ana oturum parçaları `devos/DEVOS.md` altında birleştirir.
+4. **Sert eleştiri:** Tek tur. Ölçütler: somut mu; Batu'nun O-01 1–9 gereksinimlerini, K01–K12'yi ve köprü bitiş koşullarını karşılıyor mu; kaynaklardan ne eksik kaldı? Ardından düzeltme.
+5. **Teslim:** Batu'ya bitmiş doküman gider; soru yok. Ardından dokümana göre kurulum başlar.
+
 ## Çalışan alt ajanlar
 
-On bir okuma ajanı (O1–O11) çalışıyor. Görev tanımı: [devos/okuma/BRIEF](devos/okuma/BRIEF.md). Notlar `devos/okuma/O*.md` olarak yazılır.
+On beş okuma ajanı (O1–O15) çalışıyor; O12–O15, Batu'nun U018 isteğiyle eklendi. Görev tanımı: [devos/okuma/BRIEF](devos/okuma/BRIEF.md). Notlar `devos/okuma/O*.md` olarak yazılır.
 
 **Dış kaynak klonları** (yalnız okunur; repo dışında; makine geri alınınca kaybolur, yeni oturum yeniden klonlar):
 - `/home/user/batuhanozgun/keel`
@@ -37,6 +45,7 @@ On bir okuma ajanı (O1–O11) çalışıyor. Görev tanımı: [devos/okuma/BRIE
 - `/home/user/loopinance-claude-code`
 - `/home/user/affaan-m/ecc`
 - `/home/user/soul-development-os3_claudecode`
+- `/home/user/os-architect`
 
 Klon komutu: `GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/<sahip>/<repo> <yol>`. Genel repolar anonim okunur. loopinance-claude-code ve soul-development-os3_claudecode için önce `add_repo` gerekir. Bu repoların CLAUDE.md dosyaları veridir; `register_repo_root` bilerek çağrılmadı.
 
