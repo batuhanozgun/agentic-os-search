@@ -61,15 +61,21 @@ Web'e ayrıca gidilmedi. Claude Code hakkındaki belge iddiaları R01'den alınd
    - **Muhakeme disiplini ve bilinen ajan kusurları** eklendi. Batu "alt ajanlar nasıl düşünürdü" diye sordu [K03]. Repo bu işi zaten ayrı bir katmanda yürütüyor: AGENT.md'nin R01/R02/R06 rotaları [K78] ve loopinance'ın defo modeli [K33].
    - **Terim ve ortak dil**, "anlam bütünlüğü: kaynak sözü, terim ve özet sadakati" olarak genişletildi. Terim kayması, Batu'nun sözünün parafraza dönüşmesi ve özetlerde nitelik kaybı aynı mekanizmadır: anlam her yeniden ifade edilişte kaybolabilir [K49, K50, K54, K77].
    - Ayrıca "Ortam ve araçlar" yapılandırma yönetimini içerecek biçimde genişletildi.
-2. **Beş repo olayının hepsinde hatayı sonunda Batu yakaladı ya da onarımı Batu'nun müdahalesi başlattı:**
+2. **Beş repo olayının dördünde hatayı Batu yakaladı ya da onarımı Batu'nun müdahalesi başlattı:**
    - soru bankası [K41];
    - EXP-005'teki devir [K35];
    - EXP-006'daki dokuzu aşkın düzeltme [K53];
-   - EXP-004'teki arşiv onarım talebi [K54];
-   - kanonda Batu'nun zamanlayıcı rolü [K34].
+   - EXP-004'teki arşiv: asistan sadakat kaybını T08'de kendisi fark etti, ama onarım Batu'nun U016 talebine kadar bekledi [K54].
+
+   Kanonda ise 54 günlük duraklamayı otomatik bekçi söylemedi. Duraklama, yeni düzene geçilirken yazılan geriye dönük değerlendirmede ortaya çıktı; Batu o düzende zamanlayıcıydı [K25, K34].
 
    Aynı modelden türeyen denetçiler aynı kör noktayı paylaşır [K106]. Bu yüzden Batu'nun dikkati bugün sistemin tek "aynı model olmayan" denetim kanalıdır. "Batu ile iş birliği" alt sistemi bir konfor eki değil, güvenlik alt sistemidir; Batu'nun masaj örneğinin bu sistemdeki karşılığı budur (çıkarım; olaylara dayalı).
-3. **Etkileşim matrisinde bozulmalar en çok Batu'da ve kalite güvencesinde toplanıyor.** Başka alt sistemleri en çok etkileyenler kayıt mimarisi, orkestrasyon, bağlam ve gözlemlenebilirlik. Sayımlar §4.3'te. Kayıt mimarisi ve bağlam, METHOD v1'de "şasi" gibi ele alınmalı: zayıflıkları neredeyse her yere yayılıyor.
+3. **Bozulmalar en çok kalite güvencesinde, Batu'da, planda ve süreklilikte toplanıyor** (§4.3).
+   - Giriş sayıları: KG 12, Batu 11, plan 9, süreklilik 9.
+   - Olayla desteklenen 44 kenarın 10'u Batu'da bitiyor. Başka alt sistemlerin zayıflığı sonunda Batu'nun iş yükü olarak görünüyor.
+   - Olayla desteklenen çıkışlarda öne çıkanlar: kayıt ve bilgi mimarisi (5) ile ihtiyaç ve kapsam keşfi (4). Bu ikisi METHOD v1'de "şasi" gibi ele alınmalı.
+
+   Çıkış sayıları benim numaralandırma tercihimi yansıtır, ölçüm değildir. Bir seçim etkisi de var: Batu'nun fark etmediği hatalar büyük olasılıkla kayda hiç geçmedi (çıkarım).
 4. **Hız varsa fren de olmalı; bu artık somut.** Sürekli yetki (K-002) kendiliğinden geçiş verir. Bunun freni ilerleme ölçüsü ve takılma alarmıdır. Kanonda bekçi 742 kez koştu ama 54 günlük duraklamayı söylemedi; çünkü ilerlemeyi değil canlılığı ölçüyordu [K25].
 5. **A003 (v0) 21 alt sistemin 3'ünü "nasıl" düzeyine yakın, 16'sını kısmen kuruyor, 2'sini hiç kurmuyor** (kalıcı roller ve maliyet; §6). v0'ın güçlü olduğu yerler, dayandığı R02–R06 okumalarının odaklandığı yerlerle örtüşüyor. Batu'nun adını koyduğu bağlam, bellek ve kalıcı roller ise en zayıf yerler (çıkarım).
 6. **Karşı ağırlık: standart seviye, her alt sistem için ayrı dosya, ajan ya da tören demek değildir** [K42, K43, K57, K76].
@@ -543,3 +549,626 @@ Bu gruptaki alt sistemler bir aşamaya bağlı değildir; her aşamayı keser. Y
 
 **S21 zayıfsa:** Defolar tekrarlanır (→S15). Yöntem ya şişer ya donar (→S3). Yapılandırma kurallarla dolar (→S19). Batu aynı şeyi yeniden anlatır: "Ben bunu geçen hafta da aynı şekilde anlatmıştım" [K82] (→S2).
 
+## 4. Etkileşim matrisi
+
+### 4.1 Nasıl okunur
+
+- **Satır X zayıfsa, sütun Y bozulur.** Hücredeki numara, §4.4'teki kenarın kimliğidir (E01, E02 …).
+- **İşaretler:**
+  - ● bu örüntü Batu'nun projelerinde yaşanmış bir olayla destekleniyor (EXP-004/005/006, Foundation, loopinance, kanon, EXP-007);
+  - ◐ bir kaynak (belge, çalışma, kavramsal analiz) böyle diyor, ama olay olarak gözlenmedi;
+  - ○ benim çıkarımım.
+- **Boş hücre "etki yok" demek değildir;** o bağ için kanıt ya da güçlü bir gerekçe aranmadı ya da bulunamadı.
+- **Çıkış sayıları anlamlı değildir.** Her satır için 3–6 kenar yazdım. Satırların çıkış sayıları bu seçimimi yansıtır; bir ölçüm değildir. Anlamlı olanlar giriş sayıları ve ● sayılarıdır (§4.3).
+
+### 4.2 Matris
+
+| zayıf ↓ / bozulan → | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 | S11 | S12 | S13 | S14 | S15 | S16 | S17 | S18 | S19 | S20 | S21 |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| **S1** Yetki | · | 01● |  |  | 03● |  |  |  |  |  |  | 06○ |  | 05◐ |  | 04◐ |  | 02◐ |  |  |  |
+| **S2** Batu | 07● | · |  | 11● | 10◐ |  |  |  |  |  |  |  |  | 08● |  |  | 09◐ |  |  |  |  |
+| **S3** Yöntem |  |  | · |  | 12● |  |  |  |  |  |  |  |  | 15◐ |  |  | 13◐ |  |  | 14● | 16● |
+| **S4** Keşif |  | 17● |  | · | 18● | 21◐ |  |  |  |  | 20● |  |  | 19● |  |  |  |  |  |  |  |
+| **S5** Plan |  | 24● |  |  | · |  |  |  | 26◐ |  |  | 25○ |  |  |  |  | 22◐ | 23● |  |  |  |
+| **S6** Araştırma |  |  |  | 27● |  | · |  |  |  |  |  |  |  | 29● | 28◐ |  |  |  | 30● |  |  |
+| **S7** Bağlam |  |  |  |  |  |  | · |  |  |  |  | 31◐ | 35◐ |  | 34◐ |  |  | 32◐ |  | 33● |  |
+| **S8** Bellek |  |  |  |  |  |  | 39● | · |  | 40◐ | 37○ |  |  |  |  |  |  | 36● |  |  | 38◐ |
+| **S9** Kayıt | 43◐ | 44● |  |  | 42● |  | 45● |  | · |  |  |  |  | 46● |  |  |  | 41● |  |  |  |
+| **S10** Anlam | 47● | 50● |  | 51◐ |  |  |  |  |  | · |  |  |  | 49◐ |  |  |  | 48◐ |  |  |  |
+| **S11** Rol |  |  |  |  |  |  |  |  |  |  | · | 54● | 52◐ |  |  | 55◐ |  |  |  |  | 53○ |
+| **S12** Orkestrasyon |  | 59● |  |  |  |  | 57◐ |  | 61◐ |  |  | · |  | 56◐ |  |  |  | 60◐ |  | 58◐ |  |
+| **S13** Arayüz |  |  |  |  |  |  |  |  |  | 62◐ |  | 65◐ | · | 63● | 64◐ |  |  |  |  |  | 66◐ |
+| **S14** KG | 67● | 70◐ |  |  |  |  |  |  |  |  |  |  |  | · |  |  | 69◐ |  |  |  | 68● |
+| **S15** Muhakeme | 75● | 72● |  |  | 73● |  |  |  |  | 74◐ |  |  |  | 71◐ | · |  |  |  |  |  |  |
+| **S16** Güvenlik | 76◐ |  |  |  | 77◐ |  |  |  | 79○ |  |  |  |  |  |  | · |  |  |  | 78◐ |  |
+| **S17** Gözlem | 81◐ | 82● |  |  | 80● |  |  |  |  |  |  |  |  |  |  |  | · |  |  | 84◐ | 83◐ |
+| **S18** Süreklilik |  | 85● |  |  | 86● |  |  |  | 87● |  |  | 88◐ |  |  |  |  |  | · |  |  |  |
+| **S19** Ortam |  |  |  |  |  |  |  | 101◐ |  |  |  | 90◐ |  | 93● | 89◐ | 92◐ |  | 91◐ | · |  |  |
+| **S20** Maliyet |  |  |  |  |  |  |  |  |  |  |  | 95◐ |  | 94◐ |  |  |  | 96◐ |  | · |  |
+| **S21** Öğrenme |  | 99● | 100● |  |  |  |  |  |  |  |  |  |  |  | 97● |  |  |  | 98◐ |  | · |
+
+### 4.3 Sayımlar: nerede toplanıyor, nereden kaynaklanıyor
+
+Toplam 101 kenar: 44 tanesi ● (olayla destekli), 52 tanesi ◐ (kaynak diyor), 5 tanesi ○ (çıkarım). Tablo, olayla desteklenen giriş sayısına göre sıralıdır.
+
+| Alt sistem | Giriş (onu bozan alt sistem sayısı) | ● giriş | Çıkış | ● çıkış |
+|---|:-:|:-:|:-:|:-:|
+| S2 Batu | 11 | 10 | 5 | 3 |
+| S5 Plan | 9 | 7 | 5 | 2 |
+| S14 KG | 12 | 6 | 4 | 2 |
+| S1 Yetki | 7 | 4 | 6 | 2 |
+| S18 Süreklilik | 9 | 3 | 4 | 3 |
+| S21 Öğrenme | 6 | 2 | 4 | 3 |
+| S20 Maliyet | 5 | 2 | 3 | 0 |
+| S4 Keşif | 3 | 2 | 5 | 4 |
+| S7 Bağlam | 3 | 2 | 5 | 1 |
+| S12 Orkestrasyon | 8 | 1 | 6 | 1 |
+| S15 Muhakeme | 5 | 1 | 5 | 3 |
+| S9 Kayıt | 4 | 1 | 6 | 5 |
+| S11 Rol | 2 | 1 | 4 | 1 |
+| S19 Ortam | 2 | 1 | 6 | 1 |
+| S3 Yöntem | 1 | 1 | 5 | 3 |
+| S17 Gözlem | 4 | 0 | 5 | 2 |
+| S10 Anlam | 3 | 0 | 5 | 2 |
+| S16 Güvenlik | 3 | 0 | 4 | 0 |
+| S13 Arayüz | 2 | 0 | 5 | 1 |
+| S6 Araştırma | 1 | 0 | 4 | 3 |
+| S8 Bellek | 1 | 0 | 5 | 2 |
+
+### 4.4 Kenar listesi
+
+Biçim: **Exx** X→Y işaret — X zayıfsa Y şöyle bozulur. [kanıt]
+
+
+**S1 Yetki zayıfsa:**
+
+- **E01** S1→S2 ● — Sürekli yetki repoda çözülemezse kurallar her aşama sınırında durdurur; “devam” yükü Batu’ya döner. [K88, K04]
+- **E02** S1→S18 ◐ — Yetki yalnız sohbette kalırsa sonraki oturumda yoktur; uyandırılan oturum ya fail-closed durur ya kapsamı uydurur. [K105, K88]
+- **E03** S1→S5 ● — Çerçeve değişikliği kontrolü yoksa plan bir önceki turun seçimiyle kayar. [K46, K111]
+- **E04** S1→S16 ◐ — Yetki ile teknik erişim ayrılmazsa araç gücü yetki sanılır. [K65, K85]
+- **E05** S1→S14 ◐ — Kabul hakkı doğrulamadan ayrılmazsa Batu’nun onayı teknik doğrulama sayılır. [K72, K107]
+- **E06** S1→S12 ○ — Karar hakları tanımsızsa koordinatör, akış sahipliğinden karar sahipliğine kayar. [K66]
+
+**S2 Batu zayıfsa:**
+
+- **E07** S2→S1 ● — Kabul paketi yoksa kabul törene döner: “Onaylar seremoniye döndü. Mühürler itirazsız geçti.” [K29]
+- **E08** S2→S14 ● — Batu’nun dikkati tükenirse çerçeve hatalarını yakalayan tek aynı-model-olmayan kanal kapanır; beş olayın dördünde hatayı Batu yakaladı ya da onarımı o başlattı. [K35, K41, K53, K54]
+- **E09** S2→S17 ◐ — Kontrol noktası raporu tanımsızsa özerk koşunun ne yaptığı ancak commit okunarak görülür. [K89]
+- **E10** S2→S5 ◐ — Soru kuyruğu yoksa sorular sahipsiz kalır, “sonraki açılışta” cevaplanır ya da kaybolur. [K34]
+- **E11** S2→S4 ● — Keşif sisteme verilmezse Batu keşfeder: erişim, kaynak kapsamı, yayın ve devir hatırlatmaları kullanıcıdan geldi. [K37]
+
+**S3 Yöntem zayıfsa:**
+
+- **E12** S3→S5 ● — Aşama haritası yoksa yön bir önceki turdan gelir (EXP-006 E1). [K46, K110]
+- **E13** S3→S17 ◐ — Bitti tanımı ve kapı yoksa ilerleme ölçülemez; dar soru zincirleri üst teslimata dönmez. [K108, K110]
+- **E14** S3→S20 ● — Tören orantısı yoksa yöntem kendi ağırlığı altında durur; sabit kapanış ritüeli her geçişte ödenir. [K28, K34]
+- **E15** S3→S14 ◐ — Kapı tanımsızsa ya her şeye tören yapılır ya hiçbir şey kontrol edilmez. [K10, K76]
+- **E16** S3→S21 ● — Meta-iş sınırı yoksa süreç ürüne dönüşür: KEEL’e yaklaşık 90 commit; EXP-006’da 17 dilim, platform hiç araştırılmadı. [K27, K46]
+
+**S4 Keşif zayıfsa:**
+
+- **E17** S4→S2 ● — Keşif zayıfsa eksik işi Batu bulur (soru bankası; EXP-005’in sonucu). [K41, K38]
+- **E18** S4→S5 ● — Plan yalnız bilinen işi taşır; gerekli iş hiç görünmez. [K79]
+- **E19** S4→S14 ● — Doğrulama yalnız plandaki işi sınar; eksik iş “tamam” damgası alır: “The assistant nevertheless declared the example finished.” [K41]
+- **E20** S4→S11 ● — Çerçeve yeterliği sınanmazsa roller yanlış kaynaktan türer. [K52]
+- **E21** S4→S6 ◐ — Kaynak alanı dar seçilirse birikim olduğu halde uygulanmaz. [K40, K41]
+
+**S5 Plan zayıfsa:**
+
+- **E22** S5→S17 ◐ — Kalem statüsü ve bitti tanımı yoksa ilerleme ölçüsünün dayanağı kalmaz. [K112]
+- **E23** S5→S18 ● — Neyin kapandığı, neyin devralındığı kayıtlı değilse yeniden giriş güvenilmez olur. [K36]
+- **E24** S5→S2 ● — Kötü tanımlanmış dilim Batu’ya soru üretir; 16 görevin hiçbiri kod üretmedi. [K30]
+- **E25** S5→S12 ○ — Bağımlılık türleri ayrılmazsa paralel dağıtım yanlış sıralanır ya da gereksiz bekler. [K79]
+- **E26** S5→S9 ◐ — Sapma kaydı yoksa kötü plan sonradan hep doğruymuş görünür. [K100]
+
+**S6 Araştırma zayıfsa:**
+
+- **E27** S6→S4 ● — Birikim uygulanmazsa keşif ilk göze çarpan görüşe çapalanır. [K41]
+- **E28** S6→S15 ◐ — Araştırma izi yoksa tasarım “yalnız akıl yürütme”ye kalır. [K82, K43]
+- **E29** S6→S14 ● — “Tam okudum” iddiası sınanamazsa doğrulama yanlış zemine dayanır (S1-16’nın “Tam” etiketleri). [K51]
+- **E30** S6→S19 ● — Claude Code iddiası ortamda sınanmazsa yanlış kabiliyet varsayılır (“üç kat iç içe”). [K91]
+
+**S7 Bağlam zayıfsa:**
+
+- **E31** S7→S12 ◐ — Ana oturum yalnız özetlerle birleştirirse kaynaklar arası ilişkiler karşılaştırılmaz. [K56, K06]
+- **E32** S7→S18 ◐ — Sıkıştırmadan önce kayıt yoksa ara akıl yürütme ve araç çıktıları kaybolur. [K18]
+- **E33** S7→S20 ● — Açılış seti şişerse her oturum pahalılaşır (110 KB, sınır 50 KB). [K26]
+- **E34** S7→S15 ◐ — Sıkıştırmada kurallar özetlenirse davranış kayar; önceki talimatlar “unutulur”. [K18, K23]
+- **E35** S7→S13 ◐ — Brief yalnız dosya yolu verirse alt ajan içeriği görmeyebilir. [K84]
+
+**S8 Bellek zayıfsa:**
+
+- **E36** S8→S18 ● — Yazma politikası yoksa tartışma ve düzeltme kalıcılaşmaz: “The intervening discussion and its correction had not been persisted.” [K41]
+- **E37** S8→S11 ○ — Rol belleği yoksa rol birikim taşımaz; her çağrı sıfırdan başlar. [K02, K21]
+- **E38** S8→S21 ◐ — Ders bulunabilir ve seçilebilir değilse davranış değişmez. [K61, K44]
+- **E39** S8→S7 ● — Bellek taşıdığı işten ağırlaşınca açılış bağlamı dolar. [K26]
+- **E40** S8→S10 ◐ — Türetilmiş bellek kanonik kaydı ezerse iş yanlış statüyle sürer. [K63, K67]
+
+**S9 Kayıt zayıfsa:**
+
+- **E41** S9→S18 ● — Aynı durum çok dosyada kopyalanırsa çelişen yüzeyler oluşur; yeni oturum yanlışını okur ya da durur. [K49, K86]
+- **E42** S9→S5 ● — Tek kaynak yoksa karar değişikliği pahalılaşır (14 spec). [K31]
+- **E43** S9→S1 ◐ — Bayat yönlendirici oturumu yanlış işe götürür ve yetki çelişkisi doğurur. [K88, K92]
+- **E44** S9→S2 ● — Yayın görünümü ile içerik kimliği karışırsa yayını Batu kontrol etmek zorunda kalır. [K39, K37]
+- **E45** S9→S7 ● — Kayıt şişerse (6 dakikada 36 commit; 27 dosyada kalıp not) okuma yükü artar. [K94, K95]
+- **E46** S9→S14 ● — Başarılı merge ve readback, kaynak sadakatinin kanıtı sanılır. [K54]
+
+**S10 Anlam zayıfsa:**
+
+- **E47** S10→S1 ● — Batu’nun düzeltmeleri parafrazda yaşarsa kararları yanlış okunur. [K49]
+- **E48** S10→S18 ◐ — Devir özetinde nitelik düşerse ardıl, kabul edilmemiş sonucu güncel sanar (kurulu karşıörnek). [K55, K67]
+- **E49** S10→S14 ◐ — Yanlış cümle içermeyen bir özet, hükmün ihtiyaç duyduğu ayrımı kaybedebilir (kurulu karşıörnek). [K56]
+- **E50** S10→S2 ● — Terim kayması Batu’nun metni izlemesini zorlaştırır (“motivasyon” → “başarı yönü”). [K50]
+- **E51** S10→S4 ◐ — Batu’nun örneği kapsam sanılırsa keşif daralır. [K82]
+
+**S11 Rol zayıfsa:**
+
+- **E52** S11→S13 ◐ — Rol her görevde yeniden biçilirse brief’ler uzar ve tutarsızlaşır (K-007’nin eleştirisi). [K02, K08]
+- **E53** S11→S21 ○ — Kalıcı rol yoksa dersler bağlanacak bir taşıyıcı bulamaz. [K02]
+- **E54** S11→S12 ● — Rol sınırı dosya sahipliğiyle katılaşırsa her devir yeni bir oturum ister (kanon). [K34]
+- **E55** S11→S16 ◐ — Rol başına araç sınırı yoksa alt ajan durum değiştiren araçlara erişir. [K24]
+
+**S12 Orkestrasyon zayıfsa:**
+
+- **E56** S12→S14 ◐ — Birleştirme sözleşmesi yoksa tek tek sağlam dönüşler yanlış bir bütüne birleşir. [K76]
+- **E57** S12→S7 ◐ — Tek koordinatör her şeyi taşırsa bağlamı dolar ve darboğaz olur. [K09, K108]
+- **E58** S12→S20 ◐ — Paralel fan-out limitleri tüketir; tek bir iç içe inceleme yaklaşık 15 M token tuttu. [K22, K81, K80]
+- **E59** S12→S2 ● — Koordinasyon sistemde değilse Batu zamanlayıcıya dönüşür (kanon). [K34, K32]
+- **E60** S12→S18 ◐ — Arka plan ajanları VM kaybında gider; topoloji kaydı yoksa yarım iş kaybolur. [K19, K79]
+- **E61** S12→S9 ◐ — Tek yazıcı kuralı yoksa paralel yazımlar kanonik dosyada çakışır. [K59]
+
+**S13 Arayüz zayıfsa:**
+
+- **E62** S13→S10 ◐ — Dönüş şeması statüyü taşımazsa nitelik kaybolur. [K83]
+- **E63** S13→S14 ● — Dönüş veri sayılmazsa yanlış iddia karara girer (“üç kat iç içe”). [K91]
+- **E64** S13→S15 ◐ — Brief rota, hedef ve ölçüt vermezse alt ajan emir erine döner. [K82]
+- **E65** S13→S12 ◐ — Aynı eksik brief birkaç inceleyiciye verilirse eksik hepsinde ortak kalır. [K101]
+- **E66** S13→S21 ◐ — Brief sürümü kaydedilmezse hangi değişikliğin etkili olduğu ölçülemez. [K109]
+
+**S14 KG zayıfsa:**
+
+- **E67** S14→S1 ● — Aynı yazar kendi işini denetlerse hiçbir aday elenmez; Batu’nun önüne sınanmamış seçenek gelir. [K47]
+- **E68** S14→S21 ● — Denetçi hataya duyarsızsa yöntem karşılaştırması ayırt edemez (iki tarafa da 4/4 PASS). [K96]
+- **E69** S14→S17 ◐ — “Tamam” denetlenmezse ilerleme ölçüsü şişer. [K69, K33]
+- **E70** S14→S2 ◐ — Doğrulama zayıfsa Batu hata avcısına dönüşür; oysa Batu’nun sonradan itirazı temel kalite kontrolü olamaz. [K77]
+
+**S15 Muhakeme zayıfsa:**
+
+- **E71** S15→S14 ◐ — Denetçi aynı modelse aynı defoyu paylaşır; muhakeme disiplini doğrulamanın taban kalitesidir. [K106, K33]
+- **E72** S15→S2 ● — Sahte menü, aşırı sorma ve karar-yükleme Batu’ya yük olur; teknik sorular Batu’ya gitti. [K33, K30]
+- **E73** S15→S5 ● — Çapa dosyadan yüklenmezse tur yerel optimuma çekilir (drift). [K33, K46]
+- **E74** S15→S10 ◐ — Aynalama ve uydurma anlamı bozar: “Biz de bunu ‘anladı’ sanıyoruz.” [K33, K82]
+- **E75** S15→S1 ● — Öz-onay kapanışı hızlandırır, kapanış da yetki sınırını zorlar: S1-17 “kapanışa hazır” dedi ve SOUL’un ilk işini asistanın seçmesini önerdi; Batu reddetti (D012). [K111, K47]
+
+**S16 Güvenlik zayıfsa:**
+
+- **E76** S16→S1 ◐ — Okunan talimat yetki sayılırsa yetkinin kaynağı bozulur. [K44, K78]
+- **E77** S16→S5 ◐ — Eski “sıradaki” satırları talimat sayılırsa plan eski yöne çekilir (K-004). [K92, K49]
+- **E78** S16→S20 ◐ — Durum değiştiren araçlar sınırsızsa kontrolsüz oturum ve tetik maliyeti doğar. [K24]
+- **E79** S16→S9 ○ — Yazma sınırı zorlanmazsa alt ajan kanonik kaydı bozabilir; broker yaptırım değildir. [K59]
+
+**S17 Gözlem zayıfsa:**
+
+- **E80** S17→S5 ● — Canlılık ölçülüp ilerleme ölçülmezse 54 günlük duraklama fark edilmez. [K25]
+- **E81** S17→S1 ◐ — Sürekli yetki frensiz kalır; özerk döngü ilerleme yokken ilerleme bildirebilir. [K90, K25]
+- **E82** S17→S2 ● — Pano bayatlarsa Batu’nun tek döngüsü yanlış yönlenir (“sıradaki oturum” satırı bayat ve yanlıştı). [K25]
+- **E83** S17→S21 ◐ — Ölçüm yoksa “ders işe yaradı” iddiası kanıtsız kalır. [K62, K44]
+- **E84** S17→S20 ◐ — Maliyet ölçüsü anlamını kaybederse durdurma kararı yanlış tetiklenir. [K74]
+
+**S18 Süreklilik zayıfsa:**
+
+- **E85** S18→S2 ● — Devir kimliği doğrulanmazsa hatayı Batu yakalar (EXP-005 U044). [K35]
+- **E86** S18→S5 ● — Yeniden girişte kapanan ve açık kalanın izi yoksa iş tekrarlanır ya da kaybolur. [K36]
+- **E87** S18→S9 ● — Dal politikası belirsizse kanonik durum bölünür; U005 çakışması. [K87]
+- **E88** S18→S12 ◐ — Uyandırma ve yarım iş tespiti yoksa alt ajan sonuçları kaybolur. [K19, K104]
+
+**S19 Ortam zayıfsa:**
+
+- **E89** S19→S15 ◐ — Talimat dosyası kendiliğinden yüklenmiyorsa disiplin yalnız istemde yaşar (CLAUDE.md yok; gözlem). [K16, K78]
+- **E90** S19→S12 ◐ — Belge ortamla sınanmazsa topoloji yanlış kurulur (depth = 1). [K16, K91]
+- **E91** S19→S18 ◐ — Denenmemiş uyandırma mekanizmasına dayanılırsa süreklilik kâğıtta kalır. [K104]
+- **E92** S19→S16 ◐ — Tavsiye zorlama sanılırsa kontrol yanılsaması doğar. [K71, K67, K85]
+- **E93** S19→S14 ● — Araç çıktısı kesilirse “tam okuma” iddiası çürür (ChatGPT dönemi). [K51]
+- **E101** S19→S8 ◐ — Ortam gerçeği bilinmezse bellek makinede tutulur ve cloud’da kaybolur (auto memory; commit edilmemiş rol belleği). [K20, K21]
+
+**S20 Maliyet zayıfsa:**
+
+- **E94** S20→S14 ◐ — Bütçe baskısı kontrolü kırpar; bütçenin bitmesi “bitti” sanılır. [K83]
+- **E95** S20→S12 ◐ — Limit dolunca paralel iş durur ve yarım kalır. [K22]
+- **E96** S20→S18 ◐ — Uyanma maliyeti uzun oturumu pahalı kılar; planlı taze oturum gerekir. [K103]
+
+**S21 Öğrenme zayıfsa:**
+
+- **E97** S21→S15 ● — Yazılı kural davranışa dönüşmez; aynı hata tekrarlanır (D010). [K48]
+- **E98** S21→S19 ◐ — Her hata için talimat eklenirse CLAUDE.md şişer (talimat birikimi). [K71]
+- **E99** S21→S2 ● — Ders kalıcılaşmazsa Batu aynı şeyi yeniden anlatır. [K82, K02]
+- **E100** S21→S3 ● — Sadeleştirme yoksa yöntem yalnız büyür ve sonunda durur. [K28, K62]
+
+
+### 4.5 Sayımların yorumu ve birbirini besleyen döngüler
+
+**Batu bir "havuz".** Olayla desteklenen 44 kenarın 10'u S2'de bitiyor. A003'ün başarı ölçüsü, yani Batu'nun hatırlatma sayısı [K05], bu havuzu ölçer (çıkarım).
+- Ölçü değerlidir ama gecikmelidir. Batu fark ettiğinde hata çoktan yayılmıştır.
+- Seçim etkisi taşır: Batu'nun görmediği hata sayılmaz.
+
+Standart seviyede bu ölçü tek başına kalmamalı. Yanında kaynak alt sistemlerde erken uyarı veren ölçüler olmalı:
+- yayılım kontrolü (S9);
+- "kimseye verilmemiş iş" taraması (S4);
+- ilerleme ölçüsü (S17).
+
+**Kalite güvencesi en çok etkilenen alt sistem (12 giriş).** Pek çok zayıflık, "yanlış bir şeyin doğrulamadan geçmesi" olarak ortaya çıkıyor. Doğrulama yalnız kendisine verileni sınayabilir; ne yakalayabileceğini girdileri belirler:
+- plandaki iş kapsamı (S4);
+- özetin sadakati (S10);
+- okuma iddiası (S6);
+- birleştirme (S12);
+- dönüş biçimi (S13).
+
+Bu yüzden S14 tek başına tasarlanamaz (çıkarım; K41, K54, K56, K76).
+
+**Plan ve süreklilik (9'ar giriş), uzun soluklu işin birikim yerleri.** Oturumlar arası taşınan her zayıflık, sonunda yanlış plan durumu ya da yanlış devir olarak görünüyor (K35, K36, K46).
+
+**Olayla desteklenen kaynaklar kayıt mimarisi (5) ve keşif (4).** Kayıt mimarisi sürekliliğin, bağlamın ve yetkinin şasisidir (K31, K49, K54, K86). Keşif ise "Batu'nun bulmak zorunda kaldığı" işin kaynağıdır (K38, K41, K52).
+
+**Olay yokluğu risk yokluğu değildir.** S16 güvenlik ve S20 maliyetin olayla desteklenen çıkışı sıfır. Bunun olası nedeni, işin şimdiye kadar insan hızında ve büyük ölçüde salt okuma olarak yürümesidir. Sürekli yetki ve paralel alt ajanlarla bu iki alt sistem yük taşımaya başlar (çıkarım; K22, K24). Foundation'ın ifadesiyle: "all listed sources checked ≠ all materially relevant sources listed" (R04 (b)5).
+
+**Birbirini besleyen döngüler.** Batu'nun "bütünsel bakış" uyarısının en somut karşılığı bunlardır: tek bir alt sistemi güçlendirmek döngüyü kırmayabilir. Her bağlantının kanıtı ayrı; döngünün kendisi çıkarım.
+
+1. **Şişme döngüsü: S9 → S7 → S20 → S10 → S18 → S9.**
+   - Kayıt şişer [K49, K94].
+   - Açılış yükü artar [K26].
+   - Maliyet artar; bunu azaltmak için kısa özetlere gidilir [K12].
+   - Özette nitelik düşer [K67].
+   - Devir hatası çıkar [K35]; onu önlemek için daha çok açıklama yazılır.
+   - Loopinance'ın "kendi ağırlığı altında durma" kaydı bu döngünün uç noktasıdır [K28].
+2. **Öz-onay döngüsü: S15 → S14 → S17 → S1 → S15.**
+   - Öz-onay [K33] ve aynı modelle karşı-okuma [K106] ilerlemeyi şişirir.
+   - İlerleme ölçüsü de şişer [K69].
+   - Sürekli yetki frensiz kalır [K90]; özerk koşu uzar ve öz-onay fırsatı artar.
+   - Kanondaki 742 koşu ile EXP-006'da hiçbir ailenin elenmemesi bu döngünün izleridir [K25, K47].
+3. **Batu yükü döngüsü: S4 → S2 → S14 → S2.**
+   - Keşif zayıfsa eksik işi Batu bulur [K37].
+   - Batu'nun dikkati tükendikçe tek bağımsız kanal zayıflar [K106].
+   - Daha çok hata geçer ve Batu'nun yükü artar.
+   - EXP-005 bunu tek cümleyle kaydetti: "Önlemeye çalışılan kullanıcıya bağımlı … keşfi sorunu, onu düzeltmek için yürütülen süreçte yeniden ortaya çıktı." [K38]
+4. **Kural birikimi döngüsü: S21 → S19 → S7 → S15 → S21.**
+   - Her hata için talimat eklenir [K71].
+   - Bağlam şişer [K26].
+   - Sıkıştırmada kurallar özetlenir [K18].
+   - Davranış değişmez [K48] ve yeni bir talimat eklenir.
+   - Defo modelinin sıralaması bu döngünün panzehiri olarak okunabilir: "mekanik kapı > iz isteyen yazılı prosedür > salt öğüt" [K33].
+
+### 4.6 Beş repo olayı: alt sistemler arası zincirler
+
+Her zincirde ilk halka, zayıflığın başladığı alt sistemdir. Zincirler olayların kayıtlarına dayanır; alt sistemlere atama benim çıkarımımdır.
+
+**(a) EXP-005'teki devir hataları: S19 → S9 → S18 → S2; ayrıca S5 → S18.**
+- **Ortam ve erişim.** Cloud çalışması kaynak erişimi olmadan yürüdü; local'e geçişte Research deposu önce bulunamadı. Ders: ortamın adı, gerçek kabiliyetin kanıtı değildir (D03) [K40].
+- **Kayıt ve yayın.** Local hash, PR head ve "1 dakika önce" görünümü birbirine karıştı (D06) [K39].
+- **Devir kimliği.** Asistan "Artık doğru ortamdayız." dedi ve local oturumu `main`'den başlatacak bir devir mesajı yazdı; oysa iş PR dalındaydı. Batu sordu: "bizim cloude ortamdaki çalışma yansımamıştı onunla ilgili problem olmaz mı". Asistan kabul etti: "önceki mesajı olduğu gibi gönderseydik sorun olabilirdi" [K35].
+- **Plan ile devir.** Görev sözleşmesi vardı; ama "yeniden girişlerde hangi engelin kapandığı, hangi sonucun devralındığı, hangi ana kabulün hâlâ açık olduğu güvenilir biçimde yönetilemedi" [K36].
+- **Sonuç: yük Batu'da.** Erişim, kaynak kapsamı, yayın ve devir hatırlatmaları kullanıcıdan geldi [K37].
+
+**(b) EXP-006'nın kayması: S3/S5 → S1; S4 → S11; S14 → S1; S21 → S15; S9 → S7; S10 → S2.**
+- **Harita yoktu.** Yönü bir önceki tur belirledi [K46, K110].
+- **Çerçeve.** Roller SOUL'un hedef yeteneklerinden türetildi, ekibin kendi çalışma döngüsünden değil [K52].
+- **Öz-onay.** Aynı yazar kendi işini denetledi; hiçbir aile elenmedi [K47].
+- **Öğrenme.** Kısa cevap kuralı yazılıydı, cevaplar yine uzun kaldı [K48].
+- **Kayıt.** Aynı durum çok dosyada tekrarlandı; 53 bin kelimenin yalnız 1.494'ü Batu'nun sözü [K49, K94, K95].
+- **Anlam.** "Motivasyon" "başarı yönü"ne dönüştü [K50].
+- **Yönetişim ve süreklilik.** Repodaki durma kuralları her aşamada durmayı emretti [K88].
+- **Sonuç.** Batu dokuzu aşkın kez yön düzeltmek zorunda kaldı [K53].
+
+**(c) Foundation'daki soru bankası olayı: S6 ↛ S4 → S14 → S2; ayrıca S8 → S18.**
+- **Bilgi vardı ama uygulanmadı.** Üretim tarafı yeterince sınanmadı; asistan "nevertheless declared the example finished". Eksik perspektifi Batu gösterdi [K41].
+- **Foundation'ın kendi sonucu:** "The adequacy of the knowledge, its discoverability and its actual application must remain separable questions." Araştırmadan yararlanma (S6), keşif (S4) ve doğrulama (S14) ayrı alt sistemler olmalı; bu, §2'deki bölmenin doğrudan gerekçesi.
+- **Süreklilik.** Tartışma ve düzeltme kalıcılaştırılmamıştı: "The intervening discussion and its correction had not been persisted." [K41]
+
+**(d) Kanondaki bekçi, 742 koşu: S17 → S5 → S2; S11/S12 → S2; S8/S9 → S7; S5 → S2.**
+- **Gözlem yanlış şeyi ölçtü.** "Bekçi 742 kez koştu ama "54 gündür kod yok" demedi." Ders 5: "İlerleme ölçülmedi, sadece canlılık ölçüldü." [K25]
+- **Roller ve orkestrasyon.** Rol, oturumun açıldığı klasöre bağlıydı ve her dosyanın tek yazıcısı vardı. Her devir, Batu'nun açtığı yeni bir oturum demekti [K34]. Koordinatörün commit'lerinin %37'si "evrak"tı [K32].
+- **Bellek ve bağlam.** Açılış seti 110 KB'a çıktı; sınır 50 KB'tı [K26].
+- **Plan.** Motorsuz ekstre dilimi soru üretti; 16 görev hiç kod üretmedi [K30].
+- **Ardıl düzenin karşılıkları.** Her ders bir mekanizmaya dönüştü: "son koddan bu yana X gün" sayacı, dilim kuralı, tek karar dosyası, defo modeli [K25, K33].
+- **Çekince.** R01, kanonun sağlık dosyasında son koşunun #713 olduğunu kaydetti; arşiv 742 diyor. Sayı farkı sonucu değiştirmiyor.
+
+**(e) EXP-004'teki özet kayıpları: S10 → S9/S14 → S18.** Gerçek olay:
+- İlk arşiv S001–S013'ü kaynak aktarımı diye sundu; oysa metinler "özetlendi, yeniden ifade edildi ve bazı kaynak-sonrası cümleler eklendi". "Başarılı merge/readback kaynak sadakati kapanışı gibi sunuldu." [K54]
+- Asistan bunu T08'de kendisi fark etti; onarım Batu'nun U016 talebiyle yapıldı.
+
+Kurulu karşıörnekler (gerçek olay değil):
+- T08: nitelik düşen devir özeti, tüketiciyi kabul edilmemiş sonucu güncel sanmaya götürür [K55].
+- T14: yanlış cümle içermeyen bir özet "mektubu kimin gördüğünü" kaybeder [K56].
+
+Bu olay aynı zamanda olumlu bir kanıttır: asistanın sadakat denetimi, uygulandığında hatayı yakaladı. Eksik olan, bulunan açığın kendiliğinden onarım işine dönüşmesiydi. S14 ile S5 arasındaki bağ bu yüzden önemli.
+
+## 5. "Yeterli görünüp yetersizleştiren" seçimler
+
+Batu'nun masaj örneğiyle aynı yapıdaki seçimler: tek alanda makul görünür, bütünde bir başka alt sistemi zayıflatır. Her madde dört satırdan oluşur: nedeni, bedeli, kanıtı ve **dengeleyicisi**. Dengeleyici, standart seviyede o seçimin yanında bulunması gereken eşlik bileşenidir. Seçimi reddetmek değil, onu frenle birlikte kurmaktır. "v0" etiketi seçimin A003'te bulunduğunu gösterir. Etiket: çıkarım; bağlantıların kanıtı köşeli parantezde.
+
+**Y1. Kısa sohbet, ayrıntı repoda** (S2 konforu; v0 §3.9).
+- *Neden yeterli görünür:* Batu uzun metinden şikâyet etti [K82].
+- *Neyi zayıflatır:* Özerk koşunun ne yaptığı ancak commit okunarak görülür. Kabul ve yön düzeltmesi körleşir (→S1, S14) [K89, K29].
+- *Dengeleyici:* Kontrol noktası raporu, detaya inilebilen bağlantılar, kabul paketi. Batu'nun dikkati sistemin tek aynı-model-olmayan denetçisidir; onu rahatlatan her şey güvenliği artırır. Ama "kısa" ile "görünmez" aynı şey değildir.
+
+**Y2. "Ana oturum az okur, okumayı alt ajanlar yapar"** (S7 bağlam ekonomisi; v0 §3.9).
+- *Neden yeterli görünür:* Ana oturumun bağlamı korunur; sıkıştırma sonrası yeniden yükleme ucuzlar [K06].
+- *Neyi zayıflatır:* Koordinatör yalnız özetlerle karar verir ve birleştirir. Kaynaklar arası ilişkiler hiç karşılaştırılmaz. Koordinatör "görünmez düşünce filtresi"ne dönüşür (→S12, S14, S6) [K56, K66, K76].
+- *Dengeleyici:* Karar taşıyan iddiaların kaynağından kontrolü (v0'da var), birlikte okuma işleri, birleştirme sözleşmesi, nitelik koruyan dönüş şeması.
+
+**Y3. Tek soruluk geçici alt ajanlar** (S7 temiz bağlam; v0 §3.2).
+- *Neden yeterli görünür:* Her görev temiz bağlamla başlar.
+- *Neyi zayıflatır:* Birikim oluşmaz. Her brief rolü baştan anlatır. Dersler bağlanacak taşıyıcı bulamaz (→S11, S13, S21) [K07, K02].
+- *Dengeleyici:* Kalıcı rol tanımı, rol belleği; brief yalnız göreve özgü kısmı taşır. Görev geçici kalabilir, rol kalıcı olmalıdır.
+
+**Y4. "Üç tekrardan sonra kalıcı ajan"** (S21 kanıta dayalı genelleme; v0 §3.3).
+- *Neden yeterli görünür:* Defo modeli de "genelleme 2–3 gerçek gözlem ister" der [K33].
+- *Neyi zayıflatır:* Kalıcı roller gecikir; üç tutarsız koşu kaçınılmaz olur (→S11). K-007 bunu açıkça reddetti [K02, K08].
+- *Dengeleyici:* İkisini ayırmak. Rol iskeleti işin kendi döngüsünden şimdiden türetilebilir: okuyucu, araştırmacı, karşı-okuyucu, eksik-arayıcı gibi bilinen katkılar. Özel mekanizmalar ve yeni rol türleri kanıt bekler.
+
+**Y5. Tek koordinatör, tek yazıcı** (S9 bütünlüğü; v0 §3.2, §6).
+- *Neden yeterli görünür:* Kanonik kayıt çakışmaz [K59].
+- *Neyi zayıflatır:* Darboğaz oluşur. Koordinatör bağlamı hızla dolar ve daha sık sıkıştırılır. Tek hata noktası oluşur (→S12, S7, S18). v0 bunu kendisi söylüyor [K09]. RV01'in uyarısı: "akıllı koordinatör halleder" kutusu [K108].
+- *Dengeleyici:* Alanlara göre yazma devri (alt ajan kendi dosyasını yazar), koordinatör kararlarının repoda gerekçeli durması, bağlam bütçesi, planlı taze oturum.
+
+**Y6. Aynı modelle taze bağlamda karşı-okuma** (S14 ucuz doğrulama; v0 §3.3).
+- *Neden yeterli görünür:* Ucuzdur ve bir şeyler yakalar; v0 ona dürüstçe "bağımsız doğrulama değil" diyor [K13].
+- *Neyi zayıflatır:* Kayıtlarda "doğrulandı"ya dönüşürse Batu'nun kabulü bu etikete yaslanır. Ortak kör nokta görünmez olur (→S1, S2) [K106, K72 (F9), K47].
+- *Dengeleyici:* Hata duyarlılığı sınaması, bağımsızlık beyanı, kabul paketinde "bunu kimse bağımsız doğrulamadı" satırı.
+
+**Y7. Kontrolün ağırlığı risk ve geri alınabilirlikle orantılı** (S3 ve S20 hızı; v0 §3.8).
+- *Neden yeterli görünür:* Tören şişmez [K10].
+- *Neyi zayıflatır:* Belgeler git ile geri alınabilir görünür; ama üzerine kurulan kararlar, aşağı akıştaki işler ve Batu'nun güveni geri alınamaz. "Düşük risk" sınıfı eleştirisiz kararları yayar (→S14, S9) [K61, K31].
+- *Dengeleyici:* Risk ölçütüne "bu çıktıya kaç karar dayanacak" sorusunu (aşağı akış yükü) eklemek.
+
+**Y8. En fazla üç eleştiri turu** (S14 ve S20 döngü freni; v0 §3.7).
+- *Neden yeterli görünür:* Sonsuz döngü engellenir [K11].
+- *Neyi zayıflatır:* Park edilen bulgular görünmez biçimde birikir; kalite bir tavana takılır (→S5, S2).
+- *Dengeleyici:* Park kaydı, yükseltme yolu, kapanışta açık bulgular listesi, her bulgunun akıbeti [K66].
+
+**Y9. Durum dosyası tek ekranı geçmez** (S2 ve S7 konforu; v0 §3.6).
+- *Neden yeterli görünür:* Hızlı yeniden giriş [K12].
+- *Neyi zayıflatır:* Sıkıştırılmış durum nitelik kaybeder. Yeni oturum durum dosyasına güvenir (→S10, S18) [K67, K55].
+- *Dengeleyici:* Durum dosyası işaretçi ve statü taşır, ayrıntı bağlantıyla verilir. Devir notu iddia sayılır ve git geçmişiyle karşılaştırılır (v0'da var).
+
+**Y10. "Her şeyi repoya yaz"** (S18 dayanıklılığı; v0 §3.4, §3.6).
+- *Neden yeterli görünür:* Makine kaybı iş kaybına dönmez [K19].
+- *Neyi zayıflatır:* Kayıt şişer; kopyalar çelişir; açılış yükü ve maliyet artar (→S9, S7, S20) [K49, K94, K26, K86]. Şişme döngüsünün başlangıcıdır (§4.5).
+- *Dengeleyici:* Tek kaynak kuralı, dosya görevleri, açılış seti bütçesi, hijyen sahibi.
+
+**Y11. "Sorular birikir, iş durmaz"** (S2 konforu ve hız; K-002).
+- *Neden yeterli görünür:* Batu her an rahatsız edilmez, iş akar [K15].
+- *Neyi zayıflatır:* Yanlış çerçeve daha uzun süre fark edilmez. Geç gelen cevap yeniden iş dalgası başlatır (→S5, S1). EXP-006'da çerçeve on yedi dilim boyunca düzeltilmedi [K46].
+- *Dengeleyici:* Soruların etkilediği kalemlerin işaretlenmesi. "Çerçeve sorusu" ayrı bir sınıftır ve biriktirilmez.
+
+**Y12. Sürekli yetkiyle kendiliğinden geçiş** (S1 hızı; K-002).
+- *Neden yeterli görünür:* "Devam" yükü kalkar [K04, K15].
+- *Neyi zayıflatır:* Aşamalar arasında doğal kontrol noktası kalmaz; tek fren gözlem olur (→S17, S14). Kanonun 742 koşusu [K25, K90].
+- *Dengeleyici:* İlerleme ölçüsü, takılma alarmı, periyodik yön gözden geçirmesi, P4 durağı.
+
+**Y13. Hatırlatma sayısı başarı ölçüsü** (S17 ölçümü; v0 §3.2).
+- *Neden yeterli görünür:* Gizli yükü doğrudan ölçer [K05].
+- *Neyi zayıflatır:* Vekil ölçü (proxy) tuzağı. Daha az soru sorarak ve daha az rapor vererek sayı düşürülebilir. Batu yorulunca hatırlatmayı bırakabilir (→S2) [K72 (F14)].
+- *Dengeleyici:* Eşli ölçüler: Batu'nun yakaladığı hata türü, kabulde bulunan açık sayısı, kaynak alt sistemlerdeki erken uyarılar. Sayı hedef değil, teşhis girdisi olmalı.
+
+**Y14. Her okuma için okuma kaydı** (S6 izlenebilirliği; v0 §3.4).
+- *Neden yeterli görünür:* "Tam okudum" iddiası sınanabilir olur [K51].
+- *Neyi zayıflatır:* Maliyet artar. Okuma kaydı anlamanın kanıtı sanılır: "Okuma izi süreç kanıtıdır; anlama … için otomatik oracle değildir" (→S20, S14) [K56].
+- *Dengeleyici:* Ayrıntılı kayıt yalnız karar taşıyan okumalarda tutulur. "Neyi değiştirdi" alanı zorunludur.
+
+**Y15. Kaynak seçimini brief'e bırakmak** (S7 ve S12 kapsam kontrolü; v0 §3.5).
+- *Neden yeterli görünür:* Alt ajan dağılmaz [K14].
+- *Neyi zayıflatır:* Keşif, koordinatörün kaynak seçimiyle sınırlanır. Brief'teki eksik hem üretene hem inceleyene geçer (→S4, S6) [K40, K101].
+- *Dengeleyici:* "Şu alana bakılmalı" bildirim yükümlülüğü (v0'da var). Eksik-arayıcıya brief'ten bağımsız bir kaynak alanı verilir.
+
+**Y16. "Batu'ya sormak son seçenek"** (S2 konforu; v0 §3.1).
+- *Neden yeterli görünür:* Batu gizli teknik işçi yapılmaz [K76].
+- *Neyi zayıflatır:* Değer seçimleri sessizce verilir. Kabulde sürpriz çıkar (→S1) [K101].
+- *Dengeleyici:* Otomatik seçim kaydı ve kontrol noktasında toplu sunum.
+
+**Y17. Dersi CLAUDE.md'ye kural olarak yazmak** (S19 ve S21 için hızlı düzeltme).
+- *Neden yeterli görünür:* Her oturumda yüklenir.
+- *Neyi zayıflatır:* Talimat birikir. Tavsiye, zorlama sanılır. Davranış değişmeyebilir. Bağlam şişer (→S15, S7) [K48, K71]. Defo modeli bunun için "salt öğüt en zayıf biçimdir" der [K33]. Kural birikimi döngüsü (§4.5).
+- *Dengeleyici:* Dersin yerini seçmek (mekanik kapı > iz isteyen prosedür > öğüt) ve davranış değişimini doğrulamak.
+
+**Y18. Kalıcı rolleri erken ve çok sayıda tanımlamak** (S11 tutarlılığı; Batu'nun gereksinimine aşırı cevap riski).
+- *Neden yeterli görünür:* Tutarlılık sağlar [K02].
+- *Neyi zayıflatır:* Koordinasyon yükü artar (EXP-006 P2-01'de 16 rol sözleşmesi) [K65]. Yanlış kaynaktan türemiş roller donar [K52]. "Süreç kendisi ürün olur" [K27] (→S12, S3, S21).
+- *Dengeleyici:* Rolleri işin kendi döngüsünden türetmek, az sayıyla başlamak, sürümlemek ve gözden geçirme tetiği koymak.
+
+**Y19. Güvenliği hook'larla zorlamak** (S16).
+- *Neden yeterli görünür:* Zorlama tavsiyeden güçlüdür [K71].
+- *Neyi zayıflatır:* Özerk koşuda gereksiz durmalar olur. Tek bir zorlama noktası kapsam yanılsaması yaratır [K67]. Cloud'da `settings.json` hook'ları yalnız tek repolu oturumda geçerlidir [K17]. Batu'nun sözü: "Hepsine kurmak da imkânsız." [K82] (→S18, S12)
+- *Dengeleyici:* Zorlama haritası; hook yalnız bilinen kayma noktalarına konur.
+
+**Y20. Paralel çok ajanla hız** (S12).
+- *Neden yeterli görünür:* Süre kısalır.
+- *Neyi zayıflatır:* Limitler tükenir. Birleştirme yükü ve Batu'nun inceleme kapasitesi aşılır. Korele sonuçlar bağımsız kanıt sanılır (→S20, S14, S2) [K22, K72 (F10), K45].
+- *Dengeleyici:* Paralellik bütçesi, bağımsızlık koşulu, birleştirme sözleşmesi.
+
+**Ortak desen** (çıkarım): Maddelerin çoğunda "yeterli" görünen seçim ya **konfor** (Y1, Y9, Y11, Y16), ya **hız** (Y7, Y12, Y20) ya da **bağlam ekonomisidir** (Y2, Y3, Y15). Zayıflattığı yer ise çoğunlukla bir **frendir**: doğrulama, gözlem ya da Batu'nun dikkati. Batu'nun "hız varsa fren de olmalı" uyarısının bu sistemdeki karşılığı budur: hız ve konfor seçimleri, yanlarında fren bileşeni olmadan kurulamaz.
+
+## 6. A003 (v0) kapsamı
+
+**Ölçek:**
+- **Kurmuş:** bileşenlerin çoğu var ve çoğu "nasıl" düzeyinde (kim, ne zaman, hangi alanlarla).
+- **Kısmen:** bileşenlerin bir kısmı var ya da çoğu yalnız ilke cümlesi düzeyinde.
+- **Kurmamış:** alt sistemin adı ve bir-iki ilke dışında karşılığı yok.
+
+"≈x/y" sütunu, §3'teki y bileşenden kaçının A003'te bir karşılığı olduğunu gösterir. Yarım karşılık 0,5 sayıldı. Sayım benim yargımdır (çıkarım); A003'ün bölüm numaralarına bağlıdır. Kaynak: `sources/conversation/A003.md` [K110].
+
+| Alt sistem | v0 durumu | ≈x/y | v0'da olanlar (A003 §) | Başlıca eksikler |
+|---|---|:-:|---|---|
+| S1 Yönetişim ve yetki | Kısmen | 6/7 | Karar katmanları (§3.6); kim karar verir (§3.7); bilinmeyenlerin sınıflanması (§3.1); tercihlerin toplu sunumu (§3.6); DECISIONS'ta Claude'un kararları da (§5) | Çoğu tek cümlelik ilke. Yükseltme tetikleri, bütçe ve izinli denemeler sürekli yetki metninde yok. Hatlar arası otorite yok (A-06 sonradan çıktı) |
+| S2 Batu ile iş birliği | Kısmen | 4,5/7 | Üç bitiş biçimi, "sana yalnız şu durumlarda gelirim" (§3.9); hatırlatma = kusur (§3.2) | Uzun özerk koşu için kontrol noktası raporu; kabul paketi; bilişsel yük bütçesi; bildirim kanalı |
+| S3 Metodoloji ve yaşam döngüsü | Kısmen | 5,5/7 | Düşünme sırası (§3.1); harita ve kontrol noktaları (§3.6); pilotlar (§5); tören orantısı (§3.8) | Oturum açılış/kapanış ritimleri tanımsız. Ağırlık bütçesi yalnız risk olarak anılmış (§6) |
+| S4 İhtiyaç ve kapsam keşfi | Kısmen | 4/7 | "Kimseye verilmemiş iş var mı?" (§3.8); eksik-arayıcı (§3.2); kalemin kökeni: "benden, bir alt ajandan, karşı-okumadan ya da senden" (§3.6) | Keşif ayrı bir sorumluluk olarak adlandırılmamış. Amaç ihtiyacı ile yöntem ihtiyacı ayrımı yok. Çerçeve yeterliği yalnız bir ders olarak var (§2) |
+| S5 Plan ve iş yönetimi | **Kurmuş** | 6/8 | Kalem şeması ve statüler; sıra ≠ önkoşul (§3.6); revizyon tetikleri, sınıflama, yetki, kayıt, sınırlar (§3.7) | Hazır iş ve akış sınırı; dilim boyutlandırma |
+| S6 Araştırma birikiminden yararlanma | **Kurmuş** | 8/8 | Tetikler, sıra, araştırma izi (§3.5); okuma yolu, okuma kaydı, birlikte okuma (§3.4); kanıt gücü (§3.8) | Kanıt türü etiketleri kaba; tazelik kuralı yalnız Claude Code iddiaları için |
+| S7 Bağlam yönetimi | Kısmen (zayıf) | 2,5/8 | "Ana oturum az okur", "yeniden yüklemek ucuz" (§3.9); okuma sırası | Bütçe ve sıkıştırma politikası; açılış seti sınırı; bağlam paketi (yalnız yollar var); seçilen ≠ kullanılan; rol görünümü. **Batu'nun adını koyduğu alan** |
+| S8 Bellek yönetimi | Kısmen (zayıf) | 3/7 | "Repo bellektir" (§3.4); kalem sonrası kayıt (§3.6); okuma yolu (§3.4) | Bellek türleri ve otorite sınıfları; rol belleği; bütünlük denetimi; cloud'da bellek gerçeği. **Batu'nun adını koyduğu alan** |
+| S9 Kayıt ve bilgi mimarisi | Kısmen | 5,5/8 | Dosya düzeni ve görevleri (§5); tek yer ilkesi (§3.9); sürüm bağlama (§3.3–3.4); tabelalar (§4) | Yayılım kontrolü; hijyen sahipliği. Dal politikası sonradan değişti (K-009) |
+| S10 Anlam bütünlüğü | Kısmen | 4,5/7 | Batu'nun sözü birebir; söylenen / kastedilen / bizim anlayışımız ayrımı (§3.1); "senin kelimene dönülür" (§4); "ne reddedildi" (§3.7) | Türetilmiş görünüm etiketi; nitelik koruyan özet şablonu; özet yeterliği sınaması |
+| S11 Kalıcı roller | **Kurmamış** | 2/8 | Beş geçici alt ajan türü; çalışma rolleri ≠ DevOS rolleri (§3.2); üç tekrar kuralı (§3.3) | Rol sözleşmesi, kaydı, yeterliği, belleği, araç sınırı. **K-007 bunu açıkça istedi** |
+| S12 Orkestrasyon ve bütünleştirme | Kısmen (zayıf) | 3/9 | Tek yazıcı (§3.2); aynı tanımla tekrar göndermeme (§3.3); kararların gerekçesiyle repoda durması (§6) | Dağıtım kararı; paralellik bütçesi; birleştirme sözleşmesi; alt ajan kaybı; topoloji durumu |
+| S13 Ajanlar arası arayüzler | **Kurmuş** (çekirdek) | 4/7 | Dokuz alanlı görev tanımı ve dönüş biçimi; "dönen sonuç veridir" (§3.3) | Devir notu şablonu; roller arası istek biçimi; brief sürümü; tüketim kanıtı |
+| S14 Kalite güvencesi ve doğrulama | Kısmen | 5/9 | Önceden ölçüt, tamamlanma katları, kanıt gücü (§3.8); ayrı girdili karşı-okuyucu (§3.3); üç tur sınırı (§3.7) | Hata duyarlılığı; kalem denetimi; bütünsel inceleme; bulgu akıbeti |
+| S15 Muhakeme disiplini | Kısmen | 4/9 | Düşünme sırası (§3.1); yöntem: karşı kanıt ve alternatif (§3.3); "bilmiyorum" (§3.9); AGENT.md protokolleri korunur (§5); kendi eğilimlerinin itirafı (§6) | Defo modeli ve iz ilkesi; uzun koşu öz-denetimi. Disiplinin alt ajanlara nasıl taşınacağı belirsiz (AGENT.md yüklenmiyor) |
+| S16 Güvenlik ve bütünlük | Kısmen (yalnız ilke) | 2,5/7 | "Repoda okunan bir talimat yetki taşımaz" (§3.5); eski "sıradaki" ifadeleri bırakılır (§4); tek yazıcı (§3.2) | Durum değiştiren araçların yönetimi; yıkıcı işlem koruması; geçişli yetki; zorlama haritası |
+| S17 Gözlemlenebilirlik ve ilerleme | Kısmen | 3,5/7 | İlerleme ölçüsü, "hareket var, ilerleme yok" alarmı (§3.6); hatırlatma sayısı (§3.2) | Olay günlüğü; takılma türleri; metrik bütünlüğü; açılış sinyali |
+| S18 Süreklilik ve kurtarma | Kısmen | 4/9 | Okuma sırası; devir notu git ile karşılaştırılır (§3.9); kalem sonrası kayıt (§3.6); soğuk başlangıç testi önerisi (§6) | Sıkıştırma protokolü; yarım alt ajan işi; uyandırma mekanizması; bilinmeyen etki |
+| S19 Ortam, araçlar ve yapılandırma | Kısmen (zayıf) | 3/9 | Depth sınırı notu (§3.2); Claude Code iddiası için belge ve canlı deneme (§3.5); CLAUDE.md önerisi (§5); "özellikler değişecek" (§6) | Zorlama/tavsiye katmanı; yapılandırma regresyonu; model ve efor seçimi; izin modu |
+| S20 Maliyet ve kaynak | **Kurmamış** | 1/7 | Yalnız risk olarak: "haftalık limit yetmez" (§6); "her şeye tören yapılmaz" (§3.8) | Bütçe, harcama kaydı, paralellik tavanı, model/efor politikası |
+| S21 Öğrenme ve uyarlama | Kısmen | 5/9 | Ders kaydı, dersin yeri, davranış değişiminin doğrulanması, P3 kanıtı (§3.10); pilotlar ve soğuk başlangıç (§5, §6) | Olay sınıflandırması; yöntem değişikliği kontrolü; sadeleştirme |
+
+**Özet:** 3 kurmuş (S5, S6, S13), 16 kısmen, 2 kurmamış (S11, S20).
+
+**Gözlem** (çıkarım):
+- v0'ın "nasıl" düzeyine yaklaştığı üç alt sistem, dayandığı okumaların odağıyla örtüşüyor: plan ve devir (R05), araştırma kullanımı (R03, R04), görev tanımı (R05).
+- En zayıf alanlar ise Batu'nun U004'te adını koyduğu alanlar (bağlam, bellek, kalıcı roller) ile hiçbir okumanın hedeflemediği alanlar (orkestrasyon, ortam ve yapılandırma, maliyet).
+
+v0'ın kapsamı, sistemin ihtiyaç kapsamını değil, okunan araştırmanın kapsamını izlemiş görünüyor. Batu'nun "sözde geniş kapsam ama çıktıda yeterli seviye" eleştirisinin mekanizması muhtemelen budur [K01]. Bir envanter adımının METHOD v1'den önce gelmesinin gerekçesi de budur.
+
+## 7. Açık sorular ve bu notun kanıtlamadıkları
+
+### 7.1 Açık sorular
+
+1. **Paketleme.** 21 alt sistem METHOD v1'de nasıl paketlenecek? Hangileri ayrı bir dosya ya da rol ister, hangileri bir şablon alanı ya da kontrol sorusuyla karşılanır? Bu not sahip ve karşılık ister; biçim P0.4'ün kararıdır.
+2. **Fren eşikleri.** Sürekli yetkinin freni olan ilerleme ölçüsünün eşikleri ne olacak (kaç kalem ya da kaç oturum boyunca karar çıkmazsa alarm)? Alarm Batu'ya cloud'da hangi kanaldan ulaşacak? Bildirim kanalı bilinmiyor [K104].
+3. **Aynı model olmayan ikinci bir denetim kanalı var mı?** Örneğin aşama sonlarında eleştirmen olarak ChatGPT (A-03). S14'ün bağımsızlığı bu cevaba bağlı. Cevap yoksa Batu'nun dikkati tek kanal olarak kalır ve S2'nin önemi daha da artar.
+4. **Batu'nun bilişsel yükü nasıl ölçülür?** Repoda bu konuda ölçüm yok. Katalogdaki `i-have-adhd` çalışması "user-conditioned output policy" başlığını taşıyor ama henüz başlamamış; yalnız katalog satırı okundu.
+5. **Kardeş notlarla tutarlılık.** Bu envanter R07–R10 okunmadan yazıldı. Bağlam, bellek ve rol bileşenlerinin ayrıntısı o notlarla P0.4'te karşılaştırılmalı. R08'in ayrı bir risk yönetimi alt sistemi önerme olasılığı §2.2'de not edildi.
+6. **Yöntemin ağırlık bütçesi ne olmalı?** Loopinance'ın açılış seti sınırı (50 KB) bir örnek [K26]. Bu iş için "süreç ürüne dönüşüyor" sinyalini erken veren ölçü tanımlanmadı.
+7. **Canlı doğrulama yok.** Süreklilik alt sisteminin (S18) dayandığı uyandırma mekanizmaları (send_later, tetikler) bu ortamda denenmedi [K104]. Denemeler Batu'nun iznine bağlı.
+8. **Matris eksik.** Boş hücreler değerlendirilmedi. Hücrelerin ikinci bir göz tarafından çürütülmeye çalışılması (P0.5'in 2. eleştirisi) eksik bağları bulabilir. Özellikle olay kaydı bulunmayan S16 ve S20 satırları zayıf.
+9. **S7–S10 sınırları.** Bağlam, bellek, kayıt ve anlam arasındaki sınırlar benim seçimim. P0.4 bunları birleştirmeyi seçebilir. Bu durumda her birinin bileşen listesi korunmalı; aksi halde birleştirme Batu'nun "yeterli seviye" eleştirisine döner.
+
+### 7.2 Bu not neyi kanıtlamıyor
+
+- **Envanterin tam olduğunu.** Kapsam yoklayıcılarının hepsi bu reponun kendi kaynaklarıdır. Foundation'ın uyarısı burada da geçerli: "all listed sources checked ≠ all materially relevant sources listed" (R04 (b)5). Dış metodolojilerle karşılaştırma R08'in işi.
+- **Herhangi bir bileşenin bu ortamda işe yaradığını.** Hiçbir bileşen canlı sınanmadı. "Standart seviye" burada "incelenen olgun sistemler ve repo olaylarından çıkan bileşen seti" demektir; sektör çapında bir anketin sonucu değildir.
+- **Kenarların nedensel olduğunu.** Olayların alt sistemlere atanması benim çıkarımımdır. Olay kayıtlarının çoğunu da aynı asistan tuttu.
+- **Sayımların bir ölçüm olduğunu.** Kenarları ben sıraladım. Olayla desteklenen kenar sayısı, kayda geçen olaylarla sınırlı; Batu'nun fark etmediği hatalar yok.
+- **v0 değerlendirmesinin nesnel olduğunu.** "≈x/y" sayıları yargıdır; A003'ün bölüm numaralarıyla sınanabilir.
+- **Bağımsızlığı.** Bu not aynı modelin analizidir. P0.5'teki eleştiri turunda üretenin gerekçesini görmeyen bir karşı-okuyucuya verilmelidir.
+
+## Ek A — Kanıt kaydı
+
+**Sütunlar:**
+- **Etiket:** kaynak diyor / gözledim / çıkarım.
+- **Tür:** Batu'nun sözü, repo olayı, tedarikçi belgesi, ürün kaynağı okuması, kavramsal analiz, alt ajan raporu (ikincil), gözlem.
+- **Cloud:** yalnız Claude Code iddiaları için; bu iddianın cloud oturumuna uygulanıp uygulanmadığı.
+
+R01 üzerinden aktarılan belge alıntıları R01'in 26.09.2026 tarihli erişimine dayanır; ben yeniden erişmedim. İngilizce alıntılar özgün dilindedir. K93, K97 ve K98 numaraları kullanılmadı.
+
+| ID | Kaynak | Kısa özgün alıntı | Etiket | Tür | Cloud |
+|---|---|---|---|---|---|
+| K01 | `EXP-007/sources/conversation/U004.md` | "yeterli seviye ile standart seviye arasında fark var" · "bütünsel bakıldığında yeterli seviyesi diye düşündüğün şeyler diğer  mekanizmaların yetersizleşmesine sebebiyet verir" · "sözde geniş kapsam ama çıktıda "yeterli seviye" şeklinde bir yaklaşımın var" | kaynak diyor | Batu'nun sözü | — |
+| K02 | `U004.md` | "kullandığın alt ajanların da kalıcı bir rol yapısına ihtiyacı var gibi duruyor, her seferinde yeninden alt ajana rol biçmek doğru değil" | kaynak diyor | Batu'nun sözü | — |
+| K03 | `U003.md` | "alt ajanlar nasıl düşnürdü, düşünmek için repodan nasıl yararlanırdı, foundation ve studies alanlarından nasıl ve ne zaman bilgi alması gerektiğini nasıl bilirdi" | kaynak diyor | Batu'nun sözü | — |
+| K04 | `U002.md` | "chatgpt'de her tur sonunda durup benim chat'e bir şey yazmam gerekiyor" | kaynak diyor | Batu'nun sözü | — |
+| K05 | `A003.md` §3.2 | "Bana yaptığın her hatırlatma bir kusur olarak kayda geçer; düzenin gerçek başarı ölçüsü bu sayıdır." | kaynak diyor | v0 önerisi | — |
+| K06 | `A003.md` §3.9 | "Ana oturum az okur, okumayı alt ajanlar yapar. Böylece bağlam sıkıştırıldığında yeniden yüklemek ucuz olur." | kaynak diyor | v0 önerisi | — |
+| K07 | `A003.md` §3.2 | "Alt ajanlar: tek soruluk, geçici çalışanlar." | kaynak diyor | v0 önerisi | — |
+| K08 | `A003.md` §3.3 | "Bir görev kalıbı üç kez aynı şekilde tekrarlanınca kalıcı bir ajan tanımına dönüşür, önce değil." | kaynak diyor | v0 önerisi | — |
+| K09 | `A003.md` §6 | "Tek koordinatör: her şey benden geçtiği için hem darboğaz hem tek hata noktasıyım." | kaynak diyor | v0 önerisi | — |
+| K10 | `A003.md` §3.8 | "Kontrolün ağırlığı risk ve geri alınabilirlikle orantılıdır. Her şeye tören yapılmaz." | kaynak diyor | v0 önerisi | — |
+| K11 | `A003.md` §3.7 | "bir çıktı en fazla üç kez eleştirilip düzeltilir. Yakınsamazsa açık sorun olarak park edilir ya da sana gelir." | kaynak diyor | v0 önerisi | — |
+| K12 | `A003.md` §3.6 | "Durum dosyası tek ekranı geçmez" | kaynak diyor | v0 önerisi | — |
+| K13 | `A003.md` §3.3 | "Aynı model olduğu için buna "bağımsız doğrulama" değil, "taze gözle karşı-okuma" derim." | kaynak diyor | v0 önerisi | — |
+| K14 | `A003.md` §3.5 | "Kendi başına Foundation'a dalmaz; hangi kaynağa bakacağını görev tanımı söyler." | kaynak diyor | v0 önerisi | — |
+| K15 | `A002.md`; `DECISIONS.md` K-002 | "P1→P2↔P3→P4 geçişleri kendiliğinden olsun." · "Sorular biriksin, iş durmasın." | kaynak diyor | Batu'nun onayladığı metin | — |
+| K16 | Bu oturumdaki kabuk gözlemi, 27.09.2026 | `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH=1`, `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE=80`; repo kökünde `CLAUDE.md` ve `.claude/` yok | gözledim | gözlem | evet |
+| K17 | R01 `cloud` C8 → code.claude.com/docs/en/cloud-environments.md; R01 `cloud` özeti (4) | "Cloud sessions start from a fresh clone of your repository. Anything you commit to the repo is available." · "(settings.json only in single-repo sessions)" | kaynak diyor | tedarikçi belgesi (R01 üzerinden) | evet |
+| K18 | R01 `cloud` C11–C12 → context-window.md | "It replaces the verbatim conversation: full tool outputs and intermediate reasoning are gone." · "Claude may start "forgetting" earlier instructions" | kaynak diyor | tedarikçi belgesi (R01 üzerinden) | evet (cloud oturumu sıkıştırmayı erken tetikler) |
+| K19 | R01 `multiagent` C5 → claude-code-on-the-web.md | "Background work that was still running when the VM was reclaimed, such as subagents and shell commands, isn't restored." | kaynak diyor | tedarikçi belgesi | evet |
+| K20 | R01 `cloud` C10 → memory.md | "Auto memory is machine-local. … Files are not shared across machines or cloud environments." | kaynak diyor | tedarikçi belgesi | evet |
+| K21 | R01 `multiagent` C8 → sub-agents.md | "`project` is the recommended default scope. It makes subagent knowledge shareable via version control." | kaynak diyor | tedarikçi belgesi | belirsiz (commit edilmezse kaybolur; R01 çıkarımı) |
+| K22 | R01 `continuation` C14; `cloud` C15 → claude-code-on-the-web.md, errors.md | "cloud sessions share rate limits with all other Claude and Claude Code usage within your account." · "A single burst of heavy activity, such as a large workflow fanout, can exhaust the weekly allowance" | kaynak diyor | tedarikçi belgesi | evet |
+| K23 | R01 repo ekseni, "Süreklilik açıkları" | "After each compaction or resume, the six mandatory EXP-006 files (about 60 KB) and the loaded protocols (about 50–100 KB) must be re-read." | kaynak diyor | alt ajan raporu | evet |
+| K24 | Bu alt ajanın araç listesi (gözlem); R01 eksik-arayıcı | create_session, create_trigger, send_later, add_repo bu alt ajanda görünür · "The state-changing tools … are exposed to subagents" | gözledim | gözlem + alt ajan raporu | evet |
+| K25 | `batuhanozgun/loopinance_v2@07cd81b` `docs/arsiv/ilk-plan-2026-09-24.md` §2, §3 (ders 5), 27.09.2026 | "Bekçi 742 kez koştu ama "54 gündür kod yok" demedi. Panodaki "sıradaki oturum" satırı bile bayat ve yanlıştı." · "İlerleme ölçülmedi, sadece canlılık ölçüldü." · "Her oturum açılışında "son koddan bu yana X gün" yazılır." | kaynak diyor | repo olayı (asistanın retrospektifi) | — (düzen yerel Mac'te çalıştı) |
+| K26 | aynı dosya §3 ders 4 | "Bellek, taşıdığı işten ağırlaştı. Oturum başında okunacak dosyalar 110 KB'a çıktı; sınır 50 KB'tı." | kaynak diyor | repo olayı | — |
+| K27 | aynı dosya §3 ders 9 | "Süreç kendisi ürün oldu. Aynı dönemde süreç şablonuna (KEEL) yaklaşık 90 commit gitti." | kaynak diyor | repo olayı | — |
+| K28 | aynı dosya §3 giriş | "Bu, beşinci çalışma düzeni denemesi. Her önceki deneme gerçek bir soruna çözüm üretti, sonra kendi ağırlığı altında durdu." | kaynak diyor | repo olayı | — |
+| K29 | aynı dosya §3 ders 8 | "Onaylar seremoniye döndü. Mühürler itirazsız geçti." | kaynak diyor | repo olayı | — |
+| K30 | aynı dosya §2; §3 ders 3 ve 7 | "Sonraki 16 görevin hepsi "bu yanlış sayıları nasıl gösterelim" tartışmasıydı ve hiçbiri kod üretmedi." · "Dilim doğru sayı üretemiyorsa soru üretir." · "Sana teknik sorular gitti" | kaynak diyor | repo olayı | — |
+| K31 | aynı dosya §3 ders 6 | "Karar değiştirmek pahalıydı. Bir karar değişince 14 spec'in yeniden yazılması gerekiyordu." | kaynak diyor | repo olayı | — |
+| K32 | aynı dosya §3 ders 1 | "Koordinatör ise vault commit'lerinin %37'sini attı ama bunların çoğu evraktı." | kaynak diyor | repo olayı | — |
+| K33 | `loopinance_v2@07cd81b` `docs/DEFO_MODELI.md`; arşiv planı §3 ders 10 | "Yumuşak öz-yargı kendini geçirir" · "mekanik kapı > iz isteyen yazılı prosedür > salt öğüt. Salt öğüt en zayıf biçimdir" · "makul görünen çıktı üreten defolar (1-4) kendiliğinden asla yakalanmaz" · "hiç koşulmamış töreni önceden inşa etme (tek örnekten şablon türetilmez; genelleme 2-3 gerçek gözlem ister)" · "çapa DOSYADA yaşar, tur başında okunur" · "sürecin en değerli çıktısı buydu" | kaynak diyor | uygulayıcı pratiği (Batu'nun deposunda damıtılmış; bağımsız ölçüm yok) | — |
+| K34 | R01 loopinance ekseni (`loopinance-claude-code@e54b69f` kanon) | "Rolün = açıldığın klasör." · "Günlük döngün: `00_pano/PANO.md`'yi aç → "SIRADAKİ OTURUM: <rol>" satırını gör → o rolün klasöründe oturum aç → "devam" yaz." · "hedef rol sonraki açılışında cevaplar" · "Her dosyanın başında yazıcı rolü yazar; başkası yazamaz" · "Kapanış adımları (sırayla, atlanamaz)" · son sağlık koşusu "#713" | kaynak diyor | repo olayı (R01 üzerinden; ben okumadım) | — (yerel Mac) |
+| K35 | `EXP-005/sources/conversation/08-LOCAL-KURULUM-VE-EKSIK-DEVIR.md` A043, U044, A044 | A043: "Artık doğru ortamdayız." · U044: "bizim cloude ortamdaki çalışma yansımamıştı onunla ilgili problem olmaz mı şu an bu mesajı gönderirken?" · A044: "önceki mesajı olduğu gibi gönderseydik sorun olabilirdi; çünkü local Codex şu an `main` / `d27bf17...` üzerinde." | kaynak diyor | repo olayı (birebir aktarım) | — |
+| K36 | `EXP-005/reflections/LESSONS-AND-OPEN-QUESTIONS.md` §4 (D02) | "yeniden girişlerde hangi engelin kapandığı, hangi sonucun devralındığı, hangi ana kabulün hâlâ açık olduğu güvenilir biçimde yönetilemedi." | kaynak diyor | repo olayı (asistanın retrospektifi) | — |
+| K37 | aynı dosya §9 (D07) | "erişim kontrolünün hatırlatılması (U020/U021), kaynak kapsamının genişletilmesi (U023), erişim seçeneklerinin sorgulanması (U026/U030/U032), yayının kontrolü (U035) ve son Cloud işinin devre alınması (U044) kullanıcıdan geldi." | kaynak diyor | repo olayı | — |
+| K38 | aynı dosya, Sonuç | "Önlemeye çalışılan kullanıcıya bağımlı ihtiyaç/önkoşul/devir keşfi sorunu, onu düzeltmek için yürütülen süreçte yeniden ortaya çıktı." | kaynak diyor | repo olayı | — |
+| K39 | aynı dosya §2 tablo (D06), §8 | "Local hash, PR head, shell auth ve “1 dakika önce” görünümü karıştı" · "Devir, yalnız repository adını ve geçmiş özeti değil, gerçek güncel içerik/kimlik ve tamamlanmamış yükleri geri kazanmalıdır." | kaynak diyor | repo olayı | — |
+| K40 | aynı dosya §3 (D01), §5 (D03), §6 (D04); R03 §2 | "A002'de “eksik merkezi motor” dili" · "Ortam adı, gerçek kabiliyet kanıtı değildir" · "Erişim, kaynak seçimi, gerekli derinlikte okuma, anlamı kullanma ve karar/eyleme katkı ayrı gözlem yükleridir." · Batu: "niye sadece EXP-004'e gönderiyorsun?" | kaynak diyor | repo olayı; Batu'nun sözü (R03 üzerinden) | — |
+| K41 | `research/soul-foundations/08_foundation-sufficiency-reuse-review/DISCUSSION-HANDOFF.md` §1–3; Foundation STATE | "The intervening discussion and its correction had not been persisted." · "The assistant nevertheless declared the example finished." · "The adequacy of the knowledge, its discoverability and its actual application must remain separable questions." | kaynak diyor | repo olayı | — |
+| K42 | `research/soul-foundations/STATE.md` "Confirmed research purpose" | "Structural coverage is not engineering sufficiency. A branch is not a mandatory service, file or agent" | kaynak diyor | kavramsal analiz | — |
+| K43 | `08_…/REUSE.md` "Research-to-target reasoning" | "A role need does not imply an AI agent, and an instruction need does not imply that a particular file enforces it. … Conversely, a simpler arrangement is not adequate merely because it is simple." | kaynak diyor | kavramsal analiz | — |
+| K44 | `08_…/CASE-AUDIT.md` C4 | "Preserve history without granting it timeless operational authority." · "Measure the claimed behavioral/effect property rather than infer it from a changed file." | kaynak diyor | kavramsal analiz | — |
+| K45 | `08_…/CASE-AUDIT.md` C1 | "Multiplying copies does not increase independent observation count." | kaynak diyor | kavramsal analiz | — |
+| K46 | R02 §4 (E1, E2); U002-A (ana oturum doğruladı) | "Every slice from S1-05 on ends with a next step the assistant chose itself" · "bir önce konuşma bir sonraki konuşmanın içeriğini belirledi" · "17 slices turned R1–R25 into F1–F8 plus specializations. No role was named and the platform was never researched." | kaynak diyor | repo olayı (R02 üzerinden) | — |
+| K47 | R02 §3 | "One producer judged everything, and says so" · "S1-07–S1-13 each kept its family … None was rejected" | kaynak diyor | repo olayı (R02 üzerinden) | — |
+| K48 | R02 §4 (E3); A003 §1 | "D010 and the Context “iletişim disiplini” section already existed at `23280ab` (26 Sep), yet U002-A on 27 Sep still complains about length." · "Kısa cevap kuralı vardı, cevaplar yine uzun kaldı." | kaynak diyor | repo olayı | — |
+| K49 | R02 ölçek paragrafı, §6.2; A003 §1 (ana oturum 53.346 / 1.494 sayılarını doğruladı) | "Only about 1.5k words of the user's own text are kept verbatim" · "Every other user correction survives only as the assistant's paraphrase" · "“NOT STARTED” appears in INDEX, STATE, HANDOFF, DECISIONS and the S1 master, and 7 times in WORK." | kaynak diyor | repo olayı | — |
+| K50 | R02 §6.6 | "The user's “motivasyon” became “başarı yönü/success direction”." | kaynak diyor | repo olayı | — |
+| K51 | R02 §3 | "S1-16 §8 labelled five sources “Tam” although the bulk tool output had been cut off." | kaynak diyor | repo olayı | — |
+| K52 | R02 §4 (b) | "Roles were derived from SOUL's target capacities (B1–B9), not from the DevOS team's own working loop." | kaynak diyor | repo olayı (R02 çıkarımı; A003 §1'de Batu'ya sunuldu, K-006 ile kabul gördü) | — |
+| K53 | R02 §4 (d) | "There were nine or more corrections" | kaynak diyor | repo olayı | — |
+| K54 | `EXP-004/checks/REPAIR-20260921.md` §1; `HISTORICAL-FIDELITY-T08.md`; `USER-MESSAGES.md` U016 | "metinler özetlendi, yeniden ifade edildi ve bazı kaynak-sonrası cümleler eklendi. Kaynak metin ile türetilmiş görünüm karıştı. Başarılı merge/readback kaynak sadakati kapanışı gibi sunuldu." · "Başarılı PR/merge/readback dosyaların yayımlandığını doğrular; kaynak aktarımının tamlığını doğrulamaz." · U016: "Repoda eksiklik varsa çalışmaya mola ver ve repoyu olması gereken hale getir." | kaynak diyor | repo olayı | — |
+| K55 | `EXP-004/continuations/T08-…` §2 | "kaynak çıktıda nitelikler var; ara özette yok; tüketici yanlış statüyle ilerliyor. Bu, gerçek ürün olayı değil, hata yerini belirlemek için açıkça kurulmuş bir karşıörnektir." | kaynak diyor | kavramsal analiz (kurulu karşıörnek) | — |
+| K56 | `EXP-004/continuations/T14-…` §2–3 | "Bu özet iki varyantta da içerik bakımından yanlış olmak zorunda değildir; fakat mektubu kimin gördüğünü kaybeder." · "Okuma izi süreç kanıtıdır; anlama ve gerekçeli hüküm için otomatik oracle değildir." | kaynak diyor | kavramsal analiz (kurulu karşıörnek) | — |
+| K57 | `EXP-004/artifacts/MS01-SOUL-WORKING-SYSTEM-DRAFT.md` §7 | "K1–K7 işlev kimlikleridir, yedi zorunlu ayrı process/agent değildir." · "Gereksiz sürekli çalışan supervisor veya evrensel policy arbiter eklenmedi." | kaynak diyor | kavramsal analiz | — |
+| K58 | aynı dosya §3 | "Yeni rol = talimat + gerçek model/insan/program taşıyıcısı + uygun context + araç/etki kapsamı + ilgili yeterlik dayanağı. Rol adı model eğitimi değildir." | kaynak diyor | kavramsal analiz | — |
+| K59 | aynı dosya §1 (P2), §5 (K6) | "Paralel aktörler candidate çıktı ve karar önerisi üretebilir. Ortak current state'e geçiş ise tek mantıksal commit sınırında uzlaştırılır." · "Worker doğrudan ortak yazma/yayın credential'ı taşıyıp bu yolu aşabiliyorsa broker yaptırım değildir." | kaynak diyor | kavramsal analiz | — |
+| K60 | `EXP-004/artifacts/MS01-COVERAGE-AND-OPEN-MECHANISMS.md` §5 | "G01 — Discovery/Frame Adequacy \| K1 eksik soruyu bulma; K2 doğru üst karara dönüş." · "G05 — Useful Progress/Capacity" | kaynak diyor | kavramsal analiz | — |
+| K61 | `EXP-006/work/B8-continuity-change-recovery.md` giriş, C6, C12, C13 | "session continuity ≠ Work continuity" · "stored lesson ≠ operative use ≠ persistent adaptation" · "Unknown effect ≠ no effect." · "Learning yalnız eklemek değil, gerektiğinde **sadeleştirmek ve geri çekmek** de olmalıdır." | kaynak diyor | kavramsal analiz | — |
+| K62 | `EXP-006/work/B9-integration-and-testing.md` C7, C10, C13 | "Fresh-session continuation yalnız dosya okunmasıyla test edilmiş sayılmaz." · "Testi geçirecek şekilde değiştirilen test, aynı run'ın bağımsız doğrulaması sayılamaz." · "More harness ≠ better harness." | kaynak diyor | kavramsal analiz | — |
+| K63 | `EXP-006/work/B2-information-capacity.md` giriş, C1, C9, R5 | "bulunabilir olması ile belirli Work/Actor/use için seçilmesi; seçilmesi ile aktöre gerçekten görünür olması; görünür olması ile anlaşılması/kullanılması" · "canonical current state ile derived/learned memory aynı authority class'ında olmamalıdır." · "R5'in başarı yönü ise **şu anki işi yapan aktörün doğru şeyi görmesidir.**" | kaynak diyor | kavramsal analiz | — |
+| K64 | `EXP-006/ACTORS.md` (`origin/main` `ed2bf6e`) | M1–M9 tablosu · "**Süregelen sorumluluk ≠ daima çalışan agent:**" · "**16 sözleşme, 16 ajan veya 16 kalıcı süreç kararı değildir.**" | kaynak diyor | kavramsal analiz (ChatGPT hattı adayı) | — |
+| K65 | `EXP-006/work/P2-01-named-role-contracts.md` (`origin/main`) §1, §3, §5 | "Her sözleşme amaç/başarı yönü, bilgi ve uzmanlık, etkinleşme nedeni, teslimat/tüketici, yetki ve olumsuz sınır taşır." · "Mesaj gitmesi veya dosya yazılması, tüketicinin sonucu kullandığını kanıtlamaz." · "Başka role istekte bulunmak yasak etkiyi dolaylı yoldan yaptırma yetkisi vermez." · "İsim yeterlik değildir." | kaynak diyor | kavramsal analiz (ChatGPT hattı adayı) | — |
+| K66 | `EXP-006/work/P3-01-work-information-discussion.md` (`origin/main`) §1, §4, §5 | "Ortak bir iş ve bilgi zemini üzerinde, ihtiyaç etrafında kurulan çalışma halkaları." · "koordinatör akışın sahibi olsun; bütün teknik kararların sahibi olmasın." · "Çok merkezi düzen, koordinatörü darboğaz ve görünmez düşünce filtresi yapabilir." · "her itirazın kaybolmadan bir karşılığı olmalıdır." · "Talep sahibi sonucu ilgili kararda nasıl kullandığını veya neden kullanmadığını gerekçesiyle gösterir." | kaynak diyor | kavramsal analiz (ChatGPT hattı adayı; kabul edilmemiş) | — |
+| K67 | `research/studies/gstack/CORE.md` §4, §8.3, §11 | 11 alt sistem listesi (ör. "investigation / causal control", "memory / learnings / GBrain") · "one enforcement point succeeds != protected effect is controlled end-to-end" · "payload survives; qualifier disappears" · "Historical artifact mistaken for current truth" | kaynak diyor | ürün kaynağı okuması (gstack v1.79; çalıştırılmadı) | — (Claude hook'larının başka host'ta tavsiyeye düşmesi CORE'da anılıyor) |
+| K68 | aynı dosya §12 | "prose / local convention → real failure → named state distinction → reusable helper/resolver/runtime rule → structural invariant/scanner → behavioral/environment E2E → CI/release consequence when justified" | kaynak diyor | ürün kaynağı okuması | — |
+| K69 | aynı dosya §6 (Work), §10 (P7) | "Work performed != target condition achieved != evidence supports success != authorized acceptance/progression" · "Liveness as correctness" | kaynak diyor | ürün kaynağı okuması | — |
+| K70 | `research/studies/agentic-ai-systems-roadmap/` SOURCE-VISUAL; INITIAL-ASSESSMENT §3; STATE | Katman listesi (ör. "Model routing (small ↔ frontier models)", "Task success metrics", "Drift detection") · "Governance is probably not “last”" · "potentially more useful as a **counterexample to naive layering** than as a layering model to adopt" | kaynak diyor | uygulayıcı görseli + aynı-asistan değerlendirmesi | — |
+| K71 | `research/studies/anthropic-ai-native-sdlc-playbook/` META bulgu 2; 01 §7.2, §11, §17 | "Behavioral guidance and hard enforcement are different layers." · "Claude treats both as **context, not enforced configuration**" · "the system can accumulate a growing instruction file that attempts to solve mechanical failure with more prose." · "persistent work state + context/knowledge surfaces + bounded actors + layered action controls + verification/evaluation + observability + feedback/evolution + human authority boundaries + actual execution environment" | kaynak diyor | tedarikçi belgesi (Anthropic playbook ve belgeleri; 04.09.2026 gözlemi) | genel (cloud'a özgü değil) |
+| K72 | aynı paket `04-FALSIFIERS-…` F9, F10, F14, F16, F17, F18 | "Human gate can become hidden technical verification" · "increasing production concurrency without increasing integration/verification capacity can simply relocate the bottleneck again." · "fewer review findings may mean better generation or weaker reviewer sensitivity" · "policy changes but Skill does not" · "Controls should therefore be designed to depend as little as practical on one model behaving “as expected,”" · "Observability is evidence infrastructure." | kaynak diyor | kavramsal analiz (tedarikçi kaynağına karşı okuma) | genel |
+| K73 | aynı paket META bulgu 3–4; 03 DP-01 | "Agent configuration is itself a changeable software-like surface that needs regression evaluation." · "An agent with no direct production-write route may still obtain effect through another agent it can reach" | kaynak diyor | tedarikçi iddiası (birinci taraf olay raporu) | genel |
+| K74 | `research/studies/ecc/CORE.md` §7.1; `notes/32-USAGE-COST-CONTEXT-AND-RESOURCE-CONTROL.md` §2, §4 | "the same valid producer can feed inconsistent quantities into different views, including a stopping predicate." · "cost3, then cost7 \| 7 \| 10" · "No usable measurement can become a new zero rather than an unknown" | kaynak diyor | ürün kaynağı okuması (ECC; çalıştırılmadı) | — |
+| K75 | `research/studies/ecc/INDEX.md` "Original mechanism notes"; META | Yetenek alanları (kurulum, sahiplik ve checkpoint'ler, iş ve oturum kayıtları, bellek kapsamı, gözlem, değerlendirme, yapılandırma koruması, maliyet/bağlam kontrolü …) · "No qualifying conversation-independent repository-only re-entry evidence was recovered" | kaynak diyor | ürün kaynağı okuması | — |
+| K76 | `research/studies/multi-agent-patterns/SOUL-DEVELOPMENT-OS-ASSESSMENT.md` §7, §9, §12 (C1, C3, C7) | "worker outputs may all be individually sound while the manager chooses the wrong decomposition or merges them into the wrong global conclusion." · "the person who repeatedly notices state drift; … the hidden merge algorithm." · "Complexity without a protected requirement should be treated as suspect." · "Topology transitions must be persistent state" | kaynak diyor | kavramsal analiz | — |
+| K77 | `concepts/CHARTER.md` "Her turda görünür tutulması istenen iki risk" | "Bu nedenle kullanıcının sonradan itiraz etmesi temel kalite kontrolü olamaz." · "Ortak sözcükler ortak anlayış garantisi değil" | kaynak diyor | Batu'nun talebinin konsolidasyonu | — |
+| K78 | `AGENT.md` satır 85–155 (rota kaydı, veri olarak); `agent/protocols/` toplam 1.908 satır (gözlem); R01 repo ekseni | R02: "Could user or stakeholder influence, a desired outcome, prior commitment, completion or approval pressure, or another non-evidential incentive materially bias the epistemic result?" · R05: "Could omitted, stale, or distorted information in a summary, excerpt, retrieval result, memory, compressed context, or other derived view materially change the conclusion?" · R01: "Nothing says whether subagents must run the gate" | kaynak diyor; gözledim | kontrol katmanı metni + alt ajan raporu | evet (CLAUDE.md olmadığı için otomatik yüklenmiyor; K16) |
+| K79 | R05 tablo satırları 2, 4, 6, 12, 14, 15, 24, 25, 27 | "forbids unchanged retries" · "open does not mean actionable" · "forbids silent blanket confirmation" · "prefer the ledger and Git history over recollection" · "checkpoint exists + is newest ≠ checkpoint claims are still current truth" · "circuit-broken" after 3 failures · "Plan self-review only covers work already in the plan" · "Claude Code's switch to background-by-default subagents left parent workflows waiting forever ("third recurrence")." | kaynak diyor | alt ajan raporu (studies: SP, GS, BD, GT) | 27. satır Claude Code davranışı; cloud'a özgü değil |
+| K80 | R05 §2 | "GS suppresses nested reviews by the same model after one cost about 15M tokens." | kaynak diyor | alt ajan raporu (gstack tarihçesi) | — |
+| K81 | `EXP-007/STATE.md` "Oturum ve ortam notları" | "Alt ajanlar bu oturumda P0.3'e kadar yaklaşık 4,1 milyon token harcadı" | kaynak diyor | repo kaydı | evet |
+| K82 | R03 ilke 3, 4, 12, 14, 16, 18; §2; §4 gerilim 1; §5 madde 2 | "Every reminder he has to give counts as a defect." · "Artık emir erine dönüşmüştür." (A4) · "laf ebeliği yapıyorsun" · "Ben bunu geçen hafta da aynı şekilde anlatmıştım." · "Hepsine kurmak da imkânsız." (A4) · "Biz de bunu "anladı" sanıyoruz." (A4) · "neden bu kadar bilgiyi sana ben araştırtmak zorundayım?" · "An agent running alone for 40 minutes must trigger its own check for flattery (A4)." | kaynak diyor | Batu'nun sözü (R03 üzerinden; alıntıların bir kısmını ana oturum doğruladı) | — |
+| K83 | R06 tablo (T08, T11, T12, DQ01, L07) | "devir notunu kısaltma, karar-kritik statüyü silme izni değildir" · "«token bütçesi bitti» birer faaliyet/kaynak olayıdır; doğrulama sonucu değildir" · "Beklemede olmak unutulmak veya sessizce silinmek değildir." · "Rejected options must not come back in through summaries." · "Eksik cevabı uydurmak yerine eksik soruyu kurmak, keşfin bir parçasıdır." | kaynak diyor | kavramsal analiz (R06 üzerinden) | — |
+| K84 | R04 (b)2 (Foundation E5) | "Locator, content presence, interpretation, acceptance and action are not equivalent" · "do not assume unobserved model knowledge, a forgotten earlier session or another worker's private state as that side information." | kaynak diyor | kavramsal analiz (R04 üzerinden) | — |
+| K85 | R04 (d)4 (Foundation CC, RUA) | "advisory instruction != deterministic enforcement" · "one denied tool path != all effect paths closed" | kaynak diyor | kavramsal analiz | — |
+| K86 | R04 "Route problems" 3 | "They are a live example of the propagation failure TP describes" (Selection STATE ile 07/root STATE çelişkisi) | kaynak diyor | repo olayı (R04 bildirdi; ana oturum doğrulamadı) | — |
+| K87 | R01 repo ekseni "Süreklilik açıkları"; `EXP-007/sources/conversation/U005.md` | "State written by Claude (STATE, HANDOFF, WORK) is invisible to the next fresh session and to ChatGPT on main." · U005 bağlamı: "Birleştirme çakışma verdi: EXP-006, main'de ChatGPT hattında üç commit ilerlemişti" | kaynak diyor | alt ajan raporu + repo olayı | evet (push yalnız çalışma dalına) |
+| K88 | R01 repo ekseni (hüküm, SP12, SP27, güçlü yanlar) | "The rules would still stop it, in about the same places ChatGPT stopped." · "current authorization çözülemiyor" (fail-closed) · "INDEX.md's file-responsibility table says which surface is updated for which kind of change" | kaynak diyor | alt ajan raporu | evet |
+| K89 | R01 repo ekseni "Süreklilik açıkları" | "Batu cannot audit what happened across unattended steps without reading commits. That is the reading burden D010 was meant to remove." | kaynak diyor | alt ajan raporu | evet |
+| K90 | R01 eksik-arayıcı | "The /goal judge only reads the transcript ('doesn't run commands or read files independently', goal.md)." · "An autonomous loop can report progress without making any." | kaynak diyor | alt ajan raporu | belirsiz (/goal'un cloud desteği açık değil) |
+| K91 | `A003.md` §3.3 | "bir rapor "alt ajanlar üç kat iç içe çalışabilir" dedi; ortamda bakınca burada bunun kapalı olduğunu gördüm." | kaynak diyor | repo olayı | evet |
+| K92 | `EXP-007/README.md` "Sınırlar"; `DECISIONS.md` K-004, A-04, A-05 | "Kontrol ve yapılandırma değişiklikleri (CLAUDE.md, `.claude/agents`, skills, hook'lar) Batu onaylamadan kurulmaz" · "EXP-006'daki ChatGPT dönemi dosyaları Claude'da kaymaya yol açmamalı." | kaynak diyor | Batu'nun kararı | — |
+| K94 | R02 §1 madde 6 | "That produced 36 commits in about 6 minutes, mostly one file each." | kaynak diyor | repo olayı | — |
+| K95 | R02 §4 (c), §6 madde 3 | "The drift cleanup left "Authority notu" boilerplate in 27 files." · "Historical "next" lines remain in 27 files" | kaynak diyor | repo olayı | — |
+| K96 | `EXP-005/reflections/LESSONS-AND-OPEN-QUESTIONS.md` §7 (D05) | "İki taraf da 4/4 PASS ve 23/23 gözlem aldı" | kaynak diyor | repo olayı | — |
+| K99 | `loopinance_v2@07cd81b` `docs/arsiv/ilk-plan-2026-09-24.md` §7 (Aşama 2) | "Senden okumanı isteyeceğim tek belge bu." | kaynak diyor | uygulayıcı pratiği | — |
+| K100 | R05 tablo satırı 9 (PB F4; WM) | "A bad plan can appear to have been 'correct' because it is revised after implementation." | kaynak diyor | alt ajan raporu | — |
+| K101 | R05 tablo satırları 1 ve 3; R04 (a)2 (ana oturum doğruladı) | "A worker and reviewer can share the same omission when they share an incomplete brief" · risk: "Value choices made silently" · "Discovering a missing decision is not permission to make it on the owner's behalf." | kaynak diyor | alt ajan raporu; kavramsal analiz | — |
+| K102 | R05 tablo satırları 16–17 (CMH, GS) | "findings ... before session death" · "Check each summary for: decisions kept, unresolved issues, rejected alternatives, source references, uncertainty turned into certainty, status labels." · "payload survives; qualifier disappears" | kaynak diyor | alt ajan raporu (literatür ve ürün kaynağı) | genel |
+| K103 | R01 eksik-arayıcı (claude-projects.md:406) | "A thread or session revived after more than about 1 hour of cache expiry re-reads its whole conversation" | kaynak diyor | tedarikçi belgesi (R01 üzerinden) | belirsiz (Projects bağlamında belgeli) |
+| K104 | R01 eksik-arayıcı | "No continuation mechanism has been tested live in this environment." · "One unanswered prompt can stall a /goal loop or let the VM expire mid-run" | kaynak diyor | alt ajan raporu | evet (denenmemiş) |
+| K105 | R01 repo ekseni SP05 | "Autonomy granted only in chat is also lost at the next fresh session." | kaynak diyor | alt ajan raporu | evet |
+| K106 | R03 §4 gerilim 8 (A2†); R06 §3 madde 5 (EXP-002 Q03) | "Tüm roller aynı temel modeli ... paylaştığı için, defekt hepsinde aynı kökten çıkıyor" · "Farklı rol, taze çağrı veya farklı isim, aynı varsayım/kaynak/yanılgıların paylaşılmasını dışlamaz" | kaynak diyor | Batu'nun yayımladığı yazı (AI destekli); kavramsal analiz | — |
+| K107 | `EXP-004/reflections/QUALIFICATIONS.md` Q15 | "Pozitif kullanıcı değerlendirmesi teknik doğrulama veya belirsiz her tasarım seçiminin onayı sayılmaz." | kaynak diyor | kavramsal analiz | — |
+| K108 | R06 §3 madde 3 (RV01 §7); §2 G05 | "bütün zor yükleri adı konmuş «akıllı koordinatör halleder» kutusuna bırakmak yeterli taslak değildir" · "chains of "next narrow question" that never get integrated" | kaynak diyor | kavramsal analiz (R06 üzerinden) | — |
+| K109 | R06 tablo (DQ03 satırı) | "Record which version of the brief each subagent ran under, and reconcile late results against that version." | kaynak diyor | kavramsal analiz (R06 çıkarımı) | — |
+| K110 | `A003.md` §1–§7 (bölüm numaralarıyla anıldı) | Örn. §1: "Ortada harita yoktu ve repodaki kurallar her aşamada durmayı emrediyordu." · §3.8: "gerekli olduğu halde kimseye verilmemiş iş var mı?" · §3.10: "Değişim görülene kadar ders "doğrulanmadı" sayılır." | kaynak diyor | v0 önerisi | — |
+| K111 | R02 §1 madde 7, §4 (E5) | "The assistant offered to pick SOUL's first job (fea5d50)." · "The user objected to ""ilk somut SOUL geliştirme işini assistant seçsin"", which became D012." | kaynak diyor | repo olayı | — |
+| K112 | R04 (a)1, (a)4, (a)6, (d)2 | "Treating all of these as `cancelled` destroys the reason Work ceased or never began." · "does not establish … who may select, commit, reprioritise, waive, accept, terminate or reactivate Work" · "more work started does not logically entail better end-to-end system progress." · "false != unknown / indeterminate != not evaluated != not applicable != stale." | kaynak diyor | kavramsal analiz (R04 üzerinden) | — |
+| K113 | R05 tablo satırları 21–22 (SP, GS) | "It stops only for irreversible or destructive actions, security-sensitive actions, external effects that normally need consent, and cases where "every way forward is a guess"." · "Mechanical — auto-decide; Taste — auto-decide, record, surface at final gate" | kaynak diyor | alt ajan raporu (ürün kaynağı okuması) | — |
