@@ -11,7 +11,7 @@
 
 **Ne kuruluyor.** Bu işi başından sonuna, oturumlar kapanıp açılsa da, sen her seferinde "devam" yazmadan yürütmemizin düzeni. Ana oturum işi planlar, sekiz kalıcı role (okuyucu, araştırmacı, tasarımcı, eleştirmen, doğrulayıcı, eksik arayıcı, kayıt bakımcısı, taze okuyucu) dağıtır, dönen sonucu kaynağından kontrol eder ve her şeyi repoya yazar. Rol bir kez tanımlanır, her görevde yeniden anlatılmaz. Senin kararınla bu düzenin bütün dosyaları EXP-007'de durur; repo köküne yalnız Claude Code'un zorunlu kıldığı birkaç dosya konur. AGENT.md'ye dokunulmaz ve benim için bağlayıcı değildir.
 
-**Bu sürümde ne değişti.** Üç ayrı eleştiri taslakta 45 sorun buldu. En ağır ikisi şunlardı: frenlere yine yalnız ben basıyordum ve senin sessiz kalmanı hiçbir şey fark etmiyordu. Şimdi frenin bir kısmını bir kontrol betiği uyguluyor: bütçe dolunca ya da takılma alarmım cevapsız kalınca yeni iş dağıtılamıyor; sessizliğin sayılıyor ve uzarsa iş yavaşlıyor. Sorular senin iki kuralına göre süzüldü: hayır diyemeyeceğin konuları sormuyorum, bildiriyorum; cevapsız soruyu yeniden sorarım, sessizce varsayıp ilerlemem.
+**Bu sürümde ne değişti.** Üç ayrı eleştiri taslakta 45 sorun buldu. En ağır ikisi şunlardı: frenlere yine yalnız ben basıyordum ve senin sessiz kalmanı hiçbir şey fark etmiyordu. Şimdi frenin bir kısmı bir kontrol betiğine bağlandı (betik henüz yazılmadı, aşağıya bak): bütçe dolunca ya da takılma alarmım cevapsız kalınca yeni iş dağıtılamayacak; sessizliğin sayılacak ve uzarsa iş yavaşlayacak. Sorular senin iki kuralına göre süzüldü: hayır diyemeyeceğin konuları sormuyorum, bildiriyorum; cevapsız soruyu yeniden sorarım, sessizce varsayıp ilerlemem.
 
 **Ne yazılı, ne yazılmadı, ne denenmedi.**
 - Senin ve benim sözlerimden çıkarılan 95 maddenin 71'inin nasıl yapılacağı yazılı, 11'i kısmen yazılı, 8'i gerekçesiyle değiştirildi, 2'si main'e birleştirme hakkında ileride vereceğin kararı bekliyor, 3'ünü sen karara bağladın. Eleştirinin taslak üzerindeki sayımında 67 yazılı, 14 kısmen ve 4 karşılanmamış madde vardı; fark bu sürümdeki düzeltmelerden geliyor. Bu sayım da aynı modelin sayımıdır.
@@ -20,7 +20,7 @@
 
 **En büyük risk.** Uyanma ve bildirim çalışmazsa iş oturum sınırında durur ve takılmayı yine sen fark edersin. Bunu azaltmak için günde bir kez yalnız okuyan ve iş durmuşsa telefonuna bildirim gönderen bir "bekçi" öneriyorum; o da denenmedi.
 
-**Senden istenen.** Üç soru ve beş bildirim (§12.1). Sorular: bu işe haftalık limitinin ne kadarını ayırayım; kurulumdan önce iki küçük deneme işi yapayım mı; aşama sonlarında on dakikalık bir denetime bakar mısın. Her soruda tek önerim ve "hayır dersen ne olur" yazılı. Bu turda okuman gereken metin §0 ile §12.1'dir: toplam 1.170 kelime (sınır 1.500).
+**Senden istenen.** Üç soru ve beş bildirim (§12.1). Sorular: bu işe haftalık limitinin ne kadarını ayırayım; kurulumdan önce iki küçük deneme işi yapayım mı; aşama sonlarında on dakikalık bir denetime bakar mısın. Her soruda tek önerim ve "hayır dersen ne olur" yazılı. Bu turda okuman gereken metin §0 ile §12.1'dir: toplam yaklaşık 1.200 kelime (sınır 1.500).
 
 ## Bu metin hakkında: soru, kaynaklar, okuma kapsamı, kanıt dili
 
@@ -1433,7 +1433,7 @@ Kural (S21.5, REVIZYON brief'i): eklenen her şeyin yanında çıkarılan yazıl
 - *Başka bir oran verirsen:* O orana göre çalışırım; iş durmaz, hızı değişir. Cevap gelene kadar yalnız P0'ın kalanını yaparım.
 
 **Soru 2 — Kurulumdan önce iki küçük deneme işi yapayım mı?**
-- *Bağlam:* concepts çalışmasında kullanılan yöntem bu: önce küçük gerçek işlerle dene, sonra kur. Bu soruyu daha önce sordum, cevap gelmedi; o yüzden yeniden soruyorum. Denemeler atılacak ayrı bir dalda (branch), gerçek rollerle yapılır; sonuçları METHOD'u kabul etmeden önce önüne gelir.
+- *Bağlam:* concepts çalışmasında kullanılan yöntem bu: önce küçük gerçek işlerle dene, sonra kur. Bu soruyu daha önce anlaşılır biçimde sormamıştım; o yüzden yeniden soruyorum. Denemeler gerçek rollerle, bildirim 3'teki geçici kurulumla yapılır; sonuçları METHOD'u kabul etmeden önce önüne gelir.
 - *Önerim:* Evet. İki küçük soru: "Bu ortamda roller birbirine nasıl ulaşır?" ve "DevOS'ta iş nasıl doğar?" İkisi de sonraki aşamaların küçük birer parçası.
 - *Hayır dersen:* DevOS tasarımının ilk iki gerçek işi deneme sayılır; ilk hatalar gerçek işte ödenir. İş durmaz. Cevap gelene kadar denemeye bağlı olmayan hazırlıkları (yapılandırma denemesi, kontrol betikleri) yaparım; denemeler cevabını bekler.
 
@@ -1455,9 +1455,9 @@ Kural (S21.5, REVIZYON brief'i): eklenen her şeyin yanında çıkarılan yazıl
    - (d) Onaylamadığın tercih kararlarım 10'u geçerse ya da iki denetim sayfası tepkisiz kalırsa aşama geçişi ve paralel iş yapmam.
    - (e) Gerekçelendiremediğim tercihleri sana sorarım; hiçbirini senin adına karara bağlamam.
 2. **AGENT.md.** Kararın uygulandı: AGENT.md'ye dokunulmaz ve benim için bağlayıcı değil. İçindeki işe yarar düşünme protokolleri (varsayımlar, doğrulama, kaynak sadakati, süreklilik gibi) METHOD'da karşılık bulan yerlere yazıldı; AGENT.md yalnız kaynak olarak okunur.
-3. **Deneme ve kurulum.** Bu hafta atılacak bir dalda yapılandırma denemesi yapacağım: kurallar ve roller gerçekten yükleniyor mu, oturum kapalıyken iş uyanıyor mu, bildirim sana ulaşıyor mu, bekçi çalışıyor mu. Deneme bitince dal ve kurduğum zamanlayıcılar silinir. Gerçek kurulum sen "başla" dedikten sonra olur. Repo köküne yalnız Claude Code'un zorunlu kıldığı dosyalar konur: giriş dosyası (CLAUDE.md) ve `.claude` klasöründeki ayar, rol ve prosedür dosyaları. Kurulumda değişecek dosyaların listesi "başla"dan önce önüne gelir.
+3. **Deneme ve kurulum.** Bu hafta ayar dosyalarını geçici olarak kendi dalımıza koyup deneyeceğim: kurallar ve roller gerçekten yükleniyor mu, oturum kapalıyken iş uyanıyor mu, bildirim sana ulaşıyor mu, bekçi çalışıyor mu. Yeni dal açmam; başka bir dala yazmak senin açık iznini gerektirir ve buna gerek yok. Deneme bitince bu dosyaları geri alırım ve kurduğum zamanlayıcıları ve deneme oturumlarını silerim. Gerçek kurulum sen "başla" dedikten sonra olur. Repo köküne yalnız Claude Code'un zorunlu kıldığı dosyalar konur: giriş dosyası (CLAUDE.md) ve `.claude` klasöründeki ayar, rol ve prosedür dosyaları. Kurulumda değişecek dosyaların listesi "başla"dan önce önüne gelir.
 4. **Bekçi.** Günde bir kez ayrı bir oturumda çalışan, yalnız okuyan küçük bir kontrol kuracağım. İş durmuşsa ya da alarmım bir gün cevapsız kaldıysa telefonuna bildirim gönderir; iş yürürken bir şey göndermez. İstemezsen söylemen yeterli.
-5. **Senden küçük eylemler.** Denemelerde bir kez, benim söyleyeceğim anda `/compact` yazman (sohbeti sıkıştırma komutu) ve önemsiz bir koşulla bir kez `/goal` yazman; gerekirse deneme oturumlarını kapatman; kurulum günü ortam ayarlarına tek bir değer girmen (aynı anda en çok 8 alt ajan; adımı o gün yazarım); ara sıra kullanım yüzdesini söylemeye devam etmen.
+5. **Senden küçük eylemler.** Denemelerde bir kez, benim söyleyeceğim anda `/compact` yazman (sohbeti sıkıştırma komutu) ve önemsiz bir koşulla bir kez `/goal` yazman; gerekirse deneme oturumlarını kapatman; kurulum günü ortam ayarlarına tek bir değer girmen (aynı anda en çok 8 alt ajan; adımı o gün yazarım). Kullanım yüzdesini söylemen gerekmiyor: limit öteki işlerinle ortak olduğu için harcamayı kendi ölçümümle izliyorum.
 
 ### 12.2 Sonraki kararlar ve taslaktaki 18 maddenin yeri
 

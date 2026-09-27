@@ -2,10 +2,13 @@
 
 **Güncelleme:** 27 Eylül 2026.  
 **Aşama:** P0 — çalışma düzeni (metodoloji). P1–P6 başlamadı.  
-**Şu anki adım:** P0.6, revizyon. Üç eleştiri tamam (5 kritik, 26 önemli, 14 küçük bulgu). Revizyon ajanı çalışıyor: [briefs/REVIZYON](phases/P0-calisma-duzeni/briefs/REVIZYON.md) → `METHOD-v1.md` ve `reviews/DEGISIKLIK-KAYDI.md`. Sonra ana oturum kilit bölümleri kendisi okur ve Batu'ya kısa sunum yapar.
+**Şu anki adım:** P0.6 sonu: [METHOD v1](phases/P0-calisma-duzeni/METHOD-v1.md) (tartışma sürümü) Batu'ya sunuldu. Batu'nun okuması §0 ve §12.1'dir (≈ 1.200 kelime): üç soru ve beş bildirim. Cevaplar gelince P0.7 (geçici kurulumla deneme ve iki pilot) başlar.
 **Sonraki adımlar:** P0.4 METHOD v1 taslağı → P0.5 eleştiri turu → P0.6 revizyon ve Batu'ya kısa sunum. Bu adımlar P0 içindedir, Batu'yu beklemeden yürür. Tanımları: [P0 README](phases/P0-calisma-duzeni/README.md).  
-**Batu'dan beklenen:** Bekleyen ya da işi durduran bir cevap yok. A-01 kapandı (K-011).
-- **METHOD v1 sunulunca, özetle birlikte ve sade dille:** Batu önceki soru listesini anlamadı (U012). Sorular K-012'ye göre süzülür: hayır cevabı işi durduracak olanlar sorulmaz, yalnız bildirilir. Geriye kalan gerçek sorular: taslağa itirazlar ve "başla" (K-005); Batu'nun nerelerde durup bakmak istediği; raporları okuduğunu nasıl göstereceği; EXP-007'nin haftalık limitten alacağı pay (U013).
+**Batu'dan beklenen:** METHOD v1 §12.1'deki üç soru (K-012: cevapsız kalırsa yeniden sorulur; cevaba bağlı iş bekler):
+- **Soru 1:** Bu işe haftalık limitin ne kadarı ayrılsın? Öneri: bu hafta en çok %10, sonra haftada en çok %20. Cevap gelene kadar yalnız P0'ın kalanı yapılır.
+- **Soru 2:** Kurulumdan önce iki küçük pilot yapılsın mı (A-02)? Öneri: evet. Cevap gelene kadar pilota bağlı olmayan hazırlık yapılır.
+- **Soru 3:** Aşama sonlarında yaklaşık on dakikalık denetim sayfasına bakar mı? Öneri: evet.
+- Ayrıca beş bildirim var (soru değil): sürekli yetkinin uygulanışı, AGENT.md, geçici kurulumla deneme, bekçi ve Batu'dan istenen küçük eylemler. Itiraz ederse değişir. Taslağa genel itirazlar ve "başla" (K-005) ayrıca gelecek.
 - **Acelesi yok:** A-07 (main'e birleştirme zamanı).
 - **Soru kuralı (K-012):** Soru varsa mesajın başında "Senden cevap bekliyorum" yazar; cevapsız soru bir sonraki mesajda yeniden sorulur; sessiz varsayım yoktur. Soru yoksa "Senden cevap beklemiyorum" yazar.
 
@@ -29,11 +32,9 @@ METHOD v1 şunları "nasıl" düzeyinde kapsamalı:
 
 ## Çalışan alt ajanlar
 
-| İş | Çıktı dosyası | Görev tanımı |
-|---|---|---|
-| Revizyon (P0.6) | `phases/P0-calisma-duzeni/METHOD-v1.md` ve `phases/P0-calisma-duzeni/reviews/DEGISIKLIK-KAYDI.md` | [briefs/REVIZYON](phases/P0-calisma-duzeni/briefs/REVIZYON.md) |
+Şu an çalışan alt ajan yok.
 
-**Tamamlanan eleştiriler:** [E1](phases/P0-calisma-duzeni/reviews/E1-soz-cikti-ve-standart.md) (0 kritik · 7 önemli · 6 küçük) · [E2](phases/P0-calisma-duzeni/reviews/E2-butunsel-etkilesim.md) (2 · 10 · 4) · [E3](phases/P0-calisma-duzeni/reviews/E3-batu-ilkeleri-ve-uygulanabilirlik.md) (3 · 9 · 4).
+**P0.6 çıktıları:** [METHOD-v1](phases/P0-calisma-duzeni/METHOD-v1.md) · [DEGISIKLIK-KAYDI](phases/P0-calisma-duzeni/reviews/DEGISIKLIK-KAYDI.md). Revizyon: 87 çağrı, 28,9 M işlenen token; tepe bağlam 771 K; yazım sırasında bağlam sıkıştırıldı (ajanın kendi beyanı).
 
 **Tamamlanan küme taslakları (dondurulmuş):** [T1](phases/P0-calisma-duzeni/drafts/T1-bilgi-tasima.md) · [T2](phases/P0-calisma-duzeni/drafts/T2-aktorler-ve-guvenlik.md) · [T3](phases/P0-calisma-duzeni/drafts/T3-isin-akisi-ve-harita.md) · [T4](phases/P0-calisma-duzeni/drafts/T4-yon-yetki-ve-denetimler.md) · [T5](phases/P0-calisma-duzeni/drafts/T5-dayaniklilik-ve-evrim.md).
 

@@ -125,3 +125,16 @@ Eleştiriler ana oturumun kendi hatalarını da buldu; üçü bu revizyonda kayd
 - R11'in 52 kenarı eşlenmedi (E2-12).
 - Kelime sayısı `wc -w` ile yapıldı; yerel ayara göre ±%1 oynayabilir (başka bir kabukta §0 + §12.1 için 1.160 sayıldı). Sınır (1.500) her iki sayımla da korunuyor.
 - Hook betikleri, `gosterge.sh` ve `hijyen.sh` yazılmadı; üç yeni skill metni henüz eleştiriden geçmedi (P0.7 adım 2).
+
+## Ana oturum kontrolü (P0.6 sonu, 27 Eylül 2026)
+
+Ana oturum, Batu'ya giden §0 ve §12.1'i, beş kritik bulgunun bu kayıttaki satırlarını ve alıntılanan kaynakları kendisi okudu. Doğrulananlar: bildirim 1'deki sürekli yetki metni A002'deki onaylı metinle birebir aynı; `/goal` R01'de belgeli; §0 ile §12.1 düzeltmelerden sonra toplam ≈ 1.190 kelime (`wc -w`); §0'daki sayı "yaklaşık 1.200" olarak güncellendi. Yapılan dört düzeltme:
+
+| Yer | Sorun | Düzeltme |
+|---|---|---|
+| §0 "Bu sürümde ne değişti" | Fren betiği yazılmadığı halde "uyguluyor" diye şimdiki zamanla anlatılıyordu. Bu, E3-03'ün adını koyduğu kalıbın küçük bir tekrarıydı. | Gelecek zamana çevrildi ve "betik henüz yazılmadı" eklendi. |
+| §12.1 Soru 2 | "Daha önce sordum, cevap gelmedi" deniyordu. Oysa Batu soruyu anlamadığını söylemişti (U012). | "Daha önce anlaşılır biçimde sormamıştım" oldu. |
+| §12.1 Soru 2 ve bildirim 3 | Deneme "atılacak ayrı bir dalda" yapılacaktı. Başka bir dala yazmak Batu'nun açık iznini gerektirir, Batu da dalların birikmesini istemiyor (U003). | Deneme, kendi dalımızda geçici kurulumla yapılır ve sonra geri alınır; yeni dal açılmaz. |
+| §12.1 bildirim 5 | Batu'dan "ara sıra kullanım yüzdesini söylemesi" isteniyordu. Ana oturum bu ricayı U013'ten sonra geri almıştı; yüzde, öteki işlerle ortak olduğu için yanıltıcıdır. | Rica kaldırıldı; harcama oturum içi ölçümle izlenir. |
+
+Bilinen ama bu turda düzeltilmeyen: METHOD-v1 2.000 satıra çıktı; birleştirmede konan kaba tavan 1.500 satırdı. Büyümenin büyük kısmı kurulum metinleridir (§12.3–§12.6). Batu'nun okuması bundan etkilenmez; ama oturum açılışının okuma bütçesi için P0.7'de yeniden bakılacak.
