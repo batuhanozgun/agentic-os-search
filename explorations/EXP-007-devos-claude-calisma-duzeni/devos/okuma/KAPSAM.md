@@ -13,7 +13,8 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | ECC study, birinci yarı | O5a | TAMAM | Notlar 29–56 O5b'de. E08'in ham prompt gövdeleri tek tek okunmadı: gövdeler probe girdileri; mekanizma ve sonuçları notta. |
 | ECC study, ikinci yarı | O5b | SÜRÜYOR | — |
 | ECC repo: ajanlar, komutlar, kurulum | O5c | SÜRÜYOR | — |
-| ECC repo: skill'ler, hook'lar, öğrenme | O5d | SÜRÜYOR | — |
+| ECC repo: skill'ler, hook'lar, öğrenme | O5d | BOŞLUK VAR | 25 orkestrasyon ve bellek skill'i, memory-vault, oturum kütüphaneleri ve testler okunmadı → O5e |
+| ECC orkestrasyon ve bellek katmanı, testler | O5e | **SIRADA** | 20 ajan sınırı |
 | Hermes, superpowers, gstack, mattpocock | O6 | BOŞLUK VAR | okunmayan notlar ve upstream'ler → G2 |
 | Bellek ve bağlam studies | O7 | BOŞLUK VAR | 6 paketin upstream'i, R09, EXP-003 → G3 |
 | Harness ve döngü studies | O8 | BOŞLUK VAR | 3 upstream → G4 |
@@ -25,7 +26,7 @@ Ana oturum bu listeyi tutar. Bir notun kapsamında boşluk kalırsa kapatma ajan
 | Foundation 01, 02, history | F4 | SÜRÜYOR | Yer açılınca başlatıldı (O13 bitti). |
 | Kapatıcılar G1–G7 | G1–G7 | SÜRÜYOR | — |
 | Claude Code platformu | O11 | BOŞLUK VAR | Ajan "KAPSAM BÖLÜNMELİ" dedi: env-vars, settings, tools, commands, cli, remote-control ve başka sayfalar tam okunmadı → O11b, O11c |
-| Platform: zorlama katmanı belgeleri | O11b | **SIRADA** | 20 ajan sınırı |
+| Platform: zorlama katmanı belgeleri | O11b | SÜRÜYOR | — |
 | Platform: taşıyıcı katman belgeleri | O11c | **SIRADA** | 20 ajan sınırı |
 | os-architect | O12 | BOŞLUK VAR | 131 dosyanın hepsi okundu; git geçmişi (eski KARARLAR, 1,2 MB'lık silinmiş Araştırmalar/) okunmadı → O12b |
 | os-architect git geçmişi | O12b | **SIRADA** | 20 ajan sınırı |

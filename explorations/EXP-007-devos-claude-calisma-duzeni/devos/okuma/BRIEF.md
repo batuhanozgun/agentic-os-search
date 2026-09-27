@@ -121,3 +121,9 @@ Not: arxiv.org, letta.com, docs.langchain.com ve roocode belgeleri bu ortamın a
 | O11b | code.claude.com belgeleri: settings (bütün anahtarlar ve kapsam sırası), env-vars, permissions ve IAM, security, hooks reference ve hooks guide (bütün olaylar, girdi JSON'ları, çıkış kodları, matcher), tools reference, sandbox | Zorlama katmanı: DevOS kurallarını ortam düzeyinde hangi araçlar zorlayabilir, hangileri zorlayamaz? Tek ve çok repolu oturum farkı, SDK ya da stream-json kipinde neyin geçerli olduğu. | `O11b-platform-zorlama.md` |
 | O11c | code.claude.com belgeleri: sub-agents (bütün frontmatter alanları), skills, memory (CLAUDE.md, import, auto memory), slash commands, CLI reference, headless ve Agent SDK, scheduled tasks, routines, send_later ve web oturumları (claude-code-on-the-web, cloud-environments), remote-control, plugins (synced), MCP, output styles, statusline, costs ve monitoring | Taşıyıcı katman: rol, bilgi, süreklilik, uyanma ve gözlemlenebilirlik için kesin yetenekler | `O11c-platform-tasiyicilar.md` |
 | O12b | os-architect'in git geçmişi: sığ klonu `git -C /home/user/os-architect fetch --depth=1000 origin main` ile derinleştir. Geçmişte silinmiş `Araştırmalar/` klasörünü, eski `KARARLAR` sürümlerini ve "eski alanın çöküşü"nü, `git show <commit>:<yol>` ile oku. | Eski alanda ne vardı, neden çöktü? Silinmiş araştırmalarda DevOS için kullanılabilir bulgu var mı? | `O12b-os-architect-gecmis.md` |
+
+### O5d'nin boşluğu
+
+| Kimlik | Kaynak | Odak | Not dosyası |
+|---|---|---|---|
+| O5e | `/home/user/affaan-m/ecc`: O5d §1.3'te listelenen 25 orkestrasyon ve bellek skill'i; `memory-vault`; oturum kütüphaneleri (`scripts/lib` altındaki session ve state modülleri); hook ve skill testleri (yapı, neyi sınadıkları; mümkünse koş ve sonucu yaz) | ECC'nin orkestrasyon ve bellek katmanının tamamı; testlerin neyi kanıtladığı | `O5e-ecc-orkestrasyon-bellek-testler.md` |
