@@ -1,9 +1,9 @@
 # EXP-006 — DECISIONS
 
 **Rol:** Kullanıcıyla netleşmiş çalışma kararlarını/kısıtları candidate fikirlerden ayırmak.
-**Güncelleme:** 28 Eylül 2026, sayfa sınırı kaldırılmış stres testi ve yeni oturum devri.
-**Current:** P4 v3 stres testi/yeniden yazımı yarım; yeni oturum için duraklatıldı. V2 son doğrulanabilir dosya tabanı; mimari kabulü değil. [STATE](STATE.md) ve [P4-03](work/P4-03-unbounded-stress-test-handoff.md) current durumu taşır.
-**Sınır:** Karar kaydı bir öneriyi teknik gerçeğe, gereksinimi gösterilmiş platform kabiliyetine veya dosya kimliğini yeterlik kanıtına dönüştürmez.
+**Güncelleme:** 28 Eylül 2026, yeni oturumdaki P4 devamı ve v3 rapor teslimi.
+**Current:** P4 v3 rapor/yerel kanıt teslimi hazır; kullanıcı değerlendirmesi bekleniyor. Mimari kabulü değil. [STATE](STATE.md) ve [P4-04](work/P4-04-unbounded-stress-test-report-v3.md) current durumu taşır.
+**Sınır:** Karar kaydı bir öneriyi teknik gerçeğe, gereksinimi gösterilmiş platform kabiliyetine veya dosya kimliğini yeterlik kanıtına dönüştürmez. Aşağıdaki tarihsel “bu tur/son yön” ifadeleri kendi kaynak turuna aittir; D026 sonraki devamı ayırır.
 
 | ID | Karar / çalışma anlaşması | Statü |
 |---|---|---|
@@ -32,21 +32,22 @@
 | **D023** | Rapor yüzeysel tarama/küçük eklerle değil, SOUL'un ne olacağına göre DevOS gereksinimleri yeniden türetilerek baştan yazılacak; gerekli kalite uygulama kolaylığı lehine düşürülmeyecek. | Açık kullanıcı yeniden yazım yönü; v2 teslimi P4-02'de. Yeni teknoloji/mimari kabulü veya karmaşıklığın üstünlüğü değil. |
 | **D024** | V2 yapı stres testine alınacak ve rapor **sayfa sınırı olmadan** yeniden hazırlanacak. Önceki 200 sayfa koşulu kaldırıldı. | Açık kullanıcı talebi; görünür kaynak P4-03 §1. Eksiklerin sayfa sınırından kaynaklandığının kanıtı veya v3 başarısı değil. |
 | **D025** | Yarım kalan stres testi/yeniden yazıma yeni oturumda devam edilecek; mevcut tur repository durumunu ve kaynak devrini hazırlayıp duracak. | Son açık kullanıcı yönü; P4-03 §1. Bu tur yeni stres testi/rapor çalışması veya P5 kurulumu yapılmaz. |
+| **D026** | Yeni oturumda eklenen gerçek devir paketi üzerinden aynı P4 sayfa sınırsız stres testi ve rapor çalışmasına devam edilecek. | 28 Eylül 2026 açık devam talebi; P4-04 §1. D025'in önceki turda durması tamamlandı. Yeni mimari kabulü, P5/P6 veya SOUL backlog seçimi yetkisi değil. |
 
-D011–D018 [U002](sources/U002-cloud-plan-and-autonomy.md)'ye; D019 P1 açıklamasından sonraki devam yönüne; D020 ilk P3 isteğine dayanır. D021 kaynak açıklama/kabulü [P3-01 §1](work/P3-01-work-information-discussion.md#1-kullanıcı-yönü-ve-önerinin-sınırı)'de, D022 P3→P4 devam bağlamındadır. D023 [P4-02 §1](work/P4-02-soul-derived-report-v2.md#1-yetki-ve-neden-yeniden-yazıldı), D024/D025 [P4-03 §1](work/P4-03-unbounded-stress-test-handoff.md#1-kullanıcı-yönü--görünür-konuşma-kaynağı) ile izlenir. Son üç kaydın eklenme tarihi 28 Eylül 2026'dır; daha önceki mesajlara kesin zaman damgası uydurulmaz.
+D011–D018 [U002](sources/U002-cloud-plan-and-autonomy.md)'ye; D019 P1 açıklamasından sonraki devam yönüne; D020 ilk P3 isteğine dayanır. D021 kaynak açıklama/kabulü [P3-01 §1](work/P3-01-work-information-discussion.md#1-kullanıcı-yönü-ve-önerinin-sınırı)'de, D022 P3→P4 devam bağlamındadır. D023 [P4-02 §1](work/P4-02-soul-derived-report-v2.md#1-yetki-ve-neden-yeniden-yazıldı), D024/D025 [P4-03 §1](work/P4-03-unbounded-stress-test-handoff.md#1-kullanıcı-yönü--görünür-konuşma-kaynağı) ile izlenir. D023–D025 kayıtlarının eklenme tarihi 28 Eylül 2026'dır; daha önceki mesajlara kesin zaman damgası uydurulmaz. D026'nın görünür kaynak ifadesi P4-04 §1'de korunur.
 
 ## Teknik öneriler — kabul edilmiş kullanıcı kararları değildir
 
-P4-01'in ana Y + özel alt ajanlar/Git ağırlıklı tercihi **eski baseline** olarak korunur. V2'nin takım ağırlıklı bilişsel ekip, dış korunan kontrol, PostgreSQL canlı durum/typed graph, Git ürün, memory/context compiler ve kontrollü publisher/recovery önerisi P4-02 ve gerçek v2 kaynaklarında bulunur.
+P4-01'in ana Y + özel alt ajanlar/Git ağırlıklı tercihi eski baseline'dır. V2'nin takım ağırlıklı bilişsel ekip, dış korunan kontrol, PostgreSQL canlı durum/typed graph, Git ürün, memory/context compiler ve kontrollü publisher/recovery önerisi P4-02 ve gerçek v2 kaynaklarında bulunur. V3 bu yönü koşullu değerlendirip sözleşme/model sınırlarını güçlendirdi; sonuç ve sekiz karşı örnek P4-04'tedir.
 
-**Current iş bu v2 önerisini kapsamlı stres testiyle değerlendirmek ve sayfa sınırsız raporu tamamlamaktır.** Kullanıcı güçlü tasarım istiyor diye PostgreSQL, graph store, takım veya yeni bileşen otomatik kabul edilmiş sayılmaz. Gereken kabiliyet ne kolaylık lehine atlanır ne sırf daha karmaşık gösterilerek sağlanmış sayılır.
+**Current: P4 v3 rapor/kanıt teslimi hazır, kullanıcı değerlendirmesi bekleniyor.** PostgreSQL, graph store, takım veya bileşenler otomatik kabul edilmiş sayılmaz. Gereken kabiliyet ne kolaylık lehine atlanır ne daha karmaşık gösterilerek sağlanmış sayılır.
 
-D013/D015 içindeki başlangıç “seçimi açık/henüz seçilmedi” ifadeleri kullanıcı kısıtının o zamanki durumudur; yeni assistant tercihleri bunlardan ayrı tutulur. Mevcut hedefte gerçekleşme/uygulanabilirlik ayrıca kanıtlanacaktır.
+D013/D015 içindeki başlangıç “seçimi açık/henüz seçilmedi” ifadeleri kullanıcı kısıtının o zamanki durumudur; assistant tercihleri bunlardan ayrı tutulur. Actual hedefte gerçekleşme/uygulanabilirlik ayrıca kanıtlanacaktır.
 
 ## Açık kalanlar ve kanıt sınırı
 
-Nihai mimari, gerçek actor allocation, actual cloud/servis yetkileri, bağımsız güvence, concurrency, DB–Git publication, restore ve SOUL bilişsel yeterliği açık. P2/P3/v2 önerileri nihai kadro veya çalışan sistem değildir. Motivasyon başına agent ve belirli graph/iş takip ürünü kabul edilmedi.
+Nihai mimari, gerçek actor allocation, actual cloud/servis yetkileri, bağımsız güvence, PostgreSQL concurrency, korunan DB–Git publication, dağıtık restore ve SOUL bilişsel yeterliği açık. P2/P3/v2/v3 nihai kadro veya çalışan DevOS değildir. Motivasyon başına agent ve belirli graph/iş takip ürünü kabul edilmedi.
 
-V2 dosya kimlikleri doğrulandı; mevcut tarihsel 40 test/dört guard kaydı v3 kanıtı değil. Dört yeni kusur iddiası ve “88 test geçti” önceki assistant'ın teyit edilemeyen beyanlarıdır; P4-03'te yeniden doğrulanacak durumdadır. Yeni rapor veya düzeltmeler tamamlanmış sayılmaz.
+V2 40 test/dört guard bu tur yeniden koşuldu. Önceki dört ipucu yeni v2 karşı örnekleriyle kapsamlandırıldı; toplam sekiz bulgu vardır. V3 53 yerel test geçti; yeni sekiz bozma yedi assertion/tek KeyError olarak ayrılır. Eski “88 test geçti” iddiası hâlâ teyitsiz tarihsel beyandır; yeni sonuçlar onun doğrulaması değildir.
 
-**Plan v1.6 / P4 v3 YARIM / YENİ OTURUM İÇİN DURAKLATILDI.** P5/P6 başlamadı. Kaynak rapor/kod tam gövdeleri ekte; repository current state'i ve devam yolunu taşır. D010'un agent-control karşılığı önceki yetkili değişiklikle canonical-work-preflight protokolündedir; bu tur agent-control değişmedi.
+**Plan v1.7 / P4 V3 RAPOR TESLİMİ HAZIR / DEĞERLENDİRME BEKLİYOR.** P5/P6 başlamadı. Tam rapor/kod kaynak paketindedir; repository current state ve devam yolunu taşır. D010'un agent-control karşılığı önceki yetkili değişiklikle canonical-work-preflight protokolündedir; bu tur agent-control değişmedi.

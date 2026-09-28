@@ -1,49 +1,41 @@
 # EXP-006 — HANDOFF
 
-**28 Eylül 2026 / P4 v3 stres testi ve sayfa sınırsız yeniden yazım / PAUSED / TESLİM DOĞRULANMADI.**
+**28 Eylül 2026 / P4 sayfa sınırsız v3 rapor ve yerel kanıt teslimi hazır / kullanıcı değerlendirmesi bekleniyor.**
 
 ## 1. Ne devralınıyor?
 
-Kullanıcı v2'nin 200 sayfa koşulu altında eksik veya az işlenmiş olabileceğini belirterek yapının stres testini ve raporun sayfa sınırı olmadan yeniden hazırlanmasını istedi. Son çalışma tamamlanmış yeni PDF/kaynak paketi olarak teslim edilmedi. Şimdi kullanıcı yeni oturumda devam etmek üzere duraklatıyor.
+Kullanıcı yeni oturumda P4 stres testi/raporuna devam edilmesini istedi; gerçek eski devir ZIP'si eklendi. V2 kaynakları doğrulandı, tam gövde/sözleşme/model bağlamı okundu, stres testleri ve bütünleşik v3 raporu üretildi. Current artık “v3 teslim edilmedi” değildir. O başarısız önceki teslim ve kaynak kurtarma olayı P4-03'te tarihsel kalır.
 
-**Bu bir v2 uygulama devri değildir.** Yeni oturumun işi, SOUL hedefi karşısında v2'nin kapsamlı değerlendirmesini ve sayfa sınırsız yeni yazımı tamamlamaktır. P5/P6 başlamaz. 200 sayfa şartı kaldırılmıştır; ne 200'e sığdırma ne daha çok sayfa üretme başarı ölçütüdür.
+Bu bir P5 uygulama devri değildir. V3 rapor hazırdır; mimari ve hedef sistem kabulü yoktur. Gerçek SOUL işi/backlog'u seçilmedi. Sayfa sınırı yoktur; rapor doğal akışta 50 sayfa ve 31 bölümdür, bu sayı kalite garantisi değildir.
 
-## 2. Okuma ve gerçek dosya yolu
+## 2. Zorunlu giriş ve gerçek kaynak
 
-AGENT ve tetiklenen kontroller → INDEX → STATE → WORK → DECISIONS → [P4-03](work/P4-03-unbounded-stress-test-handoff.md) → [P4-02](work/P4-02-soul-derived-report-v2.md) → **gerçek v2 kaynakları**.
+AGENT ve gerekli kontroller → INDEX → STATE → WORK → DECISIONS → **[P4-04](work/P4-04-unbounded-stress-test-report-v3.md)** → gerçek v3 kaynakları.
 
-Bu konuşmada hazırlanmış `EXP-006_Yeni_Oturum_Devir_Paketi.zip` içinde v2 PDF ve orijinal `EXP-006_DevOS_v2_Kaynak_Paketi.zip` vardır. Kaynak ZIP açıldığında `source/DevOS_v2.md`, `source/catalog.json`, `contracts/`, `reference_model/` ve `qa/` bulunur. Kimlikler ve doğrulama kapsamı P4-03 §3'tedir.
+`EXP-006_DevOS_v3_Kaynak_ve_Kanit_Paketi.zip`, 1776487 byte; SHA-256 `df9e1ef363b649e82dc88341aaeba2028852878d4e36131f30738a7d548ee100`.
 
-Tam gövdeler GitHub'a yüklenmedi. Yeni oturuma bu devir paketi eklenmeli veya aynı hash'li v2 kaynakları erişilebilir olmalıdır. Eski conversation dosyalarının otomatik geleceği, hash'in erişim sağlayacağı veya repository özetinin raporun yerine geçeceği varsayılmaz. Erişim yoksa gereken tek kaynak paketi açıkça istenir.
+ZIP içinde `source/DevOS_v3.md`, PDF, `contracts/`, `reference_model/`, `tools/`, ham `qa/`, manifest ve değişmemiş v2 baseline vardır. Tek rapor gövdesi Markdown'dır. Yeniden çalıştırma README ve `tools/run_checks.py` ile yapılabilir; bu komutlar yerel fixture kullanır, cloud kurmaz.
 
-Ayrıntılı yeniden değerlendirmede v2'nin tam Markdown gövdesi okunur; sözleşmeler ve model birlikte incelenir. Bu devir turu tam rapor incelemesi değildir: canonical kayıtlar, mevcut dosyalar, manifest ve tarihsel QA varlığı kontrol edildi. Rapor içeriği veya kod bu tur yeniden test edilmiş sayılmaz.
+Tam kaynaklar repository'ye yüklenmedi; devam konuşmasının ekleridir. Yeni oturumun eski container veya ekleri otomatik göreceği varsayılmaz. Bu ZIP veya hash-eşit gerçek kaynak yoksa ayrıntılı rapor/kod incelemesine özetten başlanmaz. P4-04 tam kaynak yerine geçmez. Eski yeni-oturum devir ZIP'si v2 içerir, v3 değildir.
 
-## 3. Kanıt statüsü — kritik
+## 3. Gerçek kanıt
 
-**Doğrudan kontrol edildi:** V2 PDF ve ZIP SHA-256 değerleri P4-02 ile eşleşti. ZIP CRC ve manifest'teki 22 dosyanın byte/hash değerleri eşleşti. Kaynak metin, sözleşme, model ve tarihsel QA dosyaları mevcut.
+Sekiz v2 karşı örneği: işlem niyeti alias'ı, eksik context, restore ile eski assignment, path çoğalması, context scope, state/event ayrılması, etki tarihçesinin silinmesi ve claim sonrası önkoşul değişimi. F04 v2 s.138 SQL şeklinin SQLite eşdeğerindedir; eski Python reachable zaten visited-set kullanır. Diğer bulguların da exact model/sözleşme sınırları P4-04'tedir.
 
-**Yalnız tarihsel kayıt:** V2 paketindeki 40 test ve dört guard-kaldırma sonucu. Bu tur yeniden çalıştırma yok; hedef PostgreSQL/Claude, gerçek kimlik/yayın/restore veya bilişsel yeterlik kanıtı değil.
+V2 40 test/dört guard yeniden geçti. V3 53 yerel test geçti; mantık/graph alt durumları, gerçek SQLite yarışları ve geçici bare Git CAS/crash-readback vardır. Sekiz yeni bozmanın yedisi assertion, biri KeyError verdi; ikinci sonuç aynı doğrulama kuvvetinde sayılmaz. Test sayıları toplanarak mimari kabul puanı üretilmez.
 
-**Yeniden doğrulanacak assistant iddiaları:** Aynı işlem anahtarının farklı hedeflerde kullanımı; zorunlu bilgisi eksik context'in kabulü; restore sonrası eski görevlendirme kimliğinin yeniden oluşması; graph sorgularında yol sayısının patlaması. Önceki son cevap bunları bulgu olarak anlattı, ancak bu tur ilgili v3 kod/log dosyaları recover edilemedi. Bunları doğrulanmış sonuç diye taşımak yasaktır; kapsamları önce yeniden üretilmeli veya çürütülmelidir.
+PDF gövdesinde 666/666 beklenen birim bulundu; 50 sayfa görsel inceleme ve son render eşitliği yapıldı. ZIP'nin 76 manifest üyesi kimliği eşleşti. Bunlar belge/kimlik kontrolleridir.
 
-**Teyit edilmedi:** “88 test geçti”, yeni PDF'nin hazır olduğu veya v3 düzeltmelerinin uygulanmış olduğu. Erişilen mounted dosyalarda v3 rapor/kod/ham log yoktu; yalnız v2 sayfa görüntüsü niteliğinde bir v3-work dizin kalıntısı vardı. Files araması da sonuç vermedi. Bu gözlem her olası depoda kalıcı kayıp kanıtı değildir.
+## 4. Tasarım ve açık yükler
 
-## 4. Korunacak amaç ve tasarım sınırı
+V3 bütün çalışma sistemini işler: SOUL gereklilikleri, iş keşfi, 18 rol profili, bilgi/araştırma kullanımı, K1/K2, memory/context, ilişkiler, yetki, yayın, toparlanma, uzun/bileşik ürün, yöntem aktarımı ve kapasite. On iki senaryo masa başıdır; gerçek bilişsel görev başarısı değildir.
 
-SOUL; gerekli işi keşfeden, işe özgü çalışma sistemi oluşturan, araştırmayı kullanan, uzun/bileşik eserleri sürdüren/değerlendiren ve yöntemleri gerekçeli uyarlayan hedef yapıdır. DevOS bu kabiliyetleri geliştirebilecek ve sınayabilecek düzene göre değerlendirilir; sadece kod görevi kuyruğu veya iyi dosya düzeni olarak daraltılmaz.
+Referans kod production sistem değildir. Principal/grant/context ihtiyacı ve observation güveni fixture girdileridir. Epoch otoritesi ayrı fakat bellekte ve dayanıklı olmayan fixture'dır. Gerçek Claude cloud, PostgreSQL, korunan publisher/identity, dağıtık restore ve G01/G02/G04/G05/G06/G07 yeterliği açık. Aynı assistant model ve testleri üretmiştir; bağımsız review yoktur.
 
-Cloud hedefi, K1/K2, kullanıcı yetki/kabulü, içerik sahibi–düzen sahibi ayrımı korunur. SOUL'un gerçek ilk işini assistant seçmez. Gereken kalite kolaylık lehine düşürülmez; daha fazla servis veya formalizm de kendi başına iyilik sayılmaz.
+Claude hedefi, D021, G/Y, insan yetki/kabulü ve SOUL işlerini ekibin keşfetmesi korunur. V2/v3 teknik tercihleri kullanıcıca benimsenmiş mimari değildir. Eski P4-01 alt-ajan/Git başlangıcına veya izin-matrisi next'ine otomatik dönülmez.
 
-V2'nin PostgreSQL/typed graph, Git, memory/context, korunmuş publisher ve takım ağırlıklı önerileri inceleme nesnesidir; kullanıcıca kabul edilmiş mimari değildir. Önceki P4-01'in alt-ajan/Git ağırlıklı tercihi veya permission-matrix next'i current rota olmaz.
+## 5. Sonraki sorumluluk
 
-## 5. Sonraki anlamlı çalışma
+Mevcut P4 sonucu kullanıcıya verilir; değerlendirme veya yön değişikliği beklenir. Ayrıntılı itiraz/revizyon gelirse P4-04 ve gerçek v3 ZIP'sinden exact bulgu/sözleşme/teste inilerek çalışılır. Eski teyitsiz “88 test” sonucu yeniden başarı yapılmaz.
 
-P4-03 §5 tek ayrıntılı devam haritasıdır. Önce v2'yi dosya kimliğiyle kur; varsa gerçek v3 kaynaklarını inceleyerek kurtar. Bulunamazsa bilinmeyen v3 dosyalarını uydurmak yerine doğrulanmış v2'den devam et.
-
-Tam tasarım okuması → SOUL hedefi/başarısızlık haritası → mevcut testlerin yeniden koşulması → ayrı falsifier/olumsuz senaryolar → bulgu ve kanıt kaydı → gerekçeli tasarım/sözleşme düzeltmeleri → yeniden sınama → bütünleşik sayfa sınırsız rapor/kaynak teslimi.
-
-Dört ipucu incelemenin sınırı değildir. İş keşfi, rol/uzmanlık/iletişim, graph, memory/context, yetki/izolasyon, publication, concurrency, recovery, uzun/bileşik iş ve değerlendirme kapsamı birlikte ele alınır. Unit test sonuçları bu alanların tamamını doğrulamaz. Gerçek runtime erişimi olmayan testler yapılmış gösterilmez.
-
-Yeni rapor normal akışla sayfalansın; eski renderer'ın 200 sayfa ve sayfa-başına metin zorlaması aktarılmasın. Son teslimde kaynaklar, ham test kayıtları, yapılmayanlar, dosya kimlikleri, link/görsel kontrolü ve repository readback'i birlikte korunur.
-
-**Bu tur durma:** Devir kayıtları ve taşınabilir kaynak paketi hazırlanır; yeni stres testi veya yeniden yazım başlatılmaz. Kullanıcı yeni oturumda devam edecek. Tamamlanmamış v3 başarı olarak kapatılmaz.
+Açık H kapılarını, özellikle actual cloud ve K1/K2'yi, gerçek hesap/erişim ve uygun yetkiyle somutlaştırmak sonraki mantıksal iştir. Raporun varlığı P5 kurulum veya P6 kabul izni değildir. DevOS'un ilk SOUL işini assistant'ın seçmesi de değildir. Bu tur rapor/kanıt teslimi ve current sürekliliğiyle durur.
