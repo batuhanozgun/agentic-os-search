@@ -1,41 +1,39 @@
 # EXP-006 — HANDOFF
 
-**28 Eylül 2026 / P4 sayfa sınırsız v3 rapor ve yerel kanıt teslimi hazır / kullanıcı değerlendirmesi bekleniyor.**
+**28 Eylül 2026 / P4 v4 Codex hedef ortamı raporu hazır / P5 Codex kurulum rehberi sıradaki ayrı aşama.**
 
 ## 1. Ne devralınıyor?
 
-Kullanıcı yeni oturumda P4 stres testi/raporuna devam edilmesini istedi; gerçek eski devir ZIP'si eklendi. V2 kaynakları doğrulandı, tam gövde/sözleşme/model bağlamı okundu, stres testleri ve bütünleşik v3 raporu üretildi. Current artık “v3 teslim edilmedi” değildir. O başarısız önceki teslim ve kaynak kurtarma olayı P4-03'te tarihsel kalır.
+V3 stres testi/kanıt tesliminden sonra kullanıcı DevOS'un hedef Environment kararını **Codex** olarak değiştirdi. Önce dokümanın buna göre yeniden hazırlanmasını, ardından P5 kurulum rehberinin Codex'e göre hazırlanmasını istedi. V4 bu Environment transition'ını işler; P5 kurulumu değildir.
 
-Bu bir P5 uygulama devri değildir. V3 rapor hazırdır; mimari ve hedef sistem kabulü yoktur. Gerçek SOUL işi/backlog'u seçilmedi. Sayfa sınırı yoktur; rapor doğal akışta 50 sayfa ve 31 bölümdür, bu sayı kalite garantisi değildir.
+Claude Code cloud kararı D011'de tarihsel kalır. D027 current platform kararını Codex'e geçirir; D028 P4 v4 doküman → P5 rehber sırasını taşır. SOUL'un ilk gerçek işi hâlâ DevOS ekibi tarafından keşfedilecektir; assistant hazır backlog seçmez.
 
-## 2. Zorunlu giriş ve gerçek kaynak
+## 2. Güncel kaynak ve giriş
 
-AGENT ve gerekli kontroller → INDEX → STATE → WORK → DECISIONS → **[P4-04](work/P4-04-unbounded-stress-test-report-v3.md)** → gerçek v3 kaynakları.
+AGENT ve gerekli kontroller → INDEX → STATE → WORK → DECISIONS → **[P4-05](work/P4-05-codex-environment-revision-v4.md)** → gerçek v4 kaynak paketi.
 
-`EXP-006_DevOS_v3_Kaynak_ve_Kanit_Paketi.zip`, 1776487 byte; SHA-256 `df9e1ef363b649e82dc88341aaeba2028852878d4e36131f30738a7d548ee100`.
+`EXP-006_DevOS_v4_Codex_Kaynak_ve_Kanit_Paketi.zip`, 3638865 byte; SHA-256 `df895557d77c4585627615010ac5061cde95ce768f73cfdea59259d1e5726aff`.
 
-ZIP içinde `source/DevOS_v3.md`, PDF, `contracts/`, `reference_model/`, `tools/`, ham `qa/`, manifest ve değişmemiş v2 baseline vardır. Tek rapor gövdesi Markdown'dır. Yeniden çalıştırma README ve `tools/run_checks.py` ile yapılabilir; bu komutlar yerel fixture kullanır, cloud kurmaz.
+PDF `EXP-006_DevOS_v4_Codex_Hedefli_Rapor.pdf` hash'i `cd60f7fde9e1ba4fe7f1ecc7f2abb0b008e57bc12868d51721d6442f17c2e425`; Markdown `EXP-006_DevOS_v4.md` hash'i `22f4660d16b487f5a35a3a9eecff1e65246efc53707f93ce50d99b3d3dc9f146`.
 
-Tam kaynaklar repository'ye yüklenmedi; devam konuşmasının ekleridir. Yeni oturumun eski container veya ekleri otomatik göreceği varsayılmaz. Bu ZIP veya hash-eşit gerçek kaynak yoksa ayrıntılı rapor/kod incelemesine özetten başlanmaz. P4-04 tam kaynak yerine geçmez. Eski yeni-oturum devir ZIP'si v2 içerir, v3 değildir.
+Tam gövdeler repository'ye yüklenmedi. V4 paket, exact v3 kaynak paketini `baseline-v3/` altında ve v2 baseline'ı ayrıca taşır. Yeni oturumda ayrıntılı rapor/kod işi için gerçek v4 paket veya hash-eşit kaynak gerekir.
 
-## 3. Gerçek kanıt
+## 3. V4 neyi değiştirdi?
 
-Sekiz v2 karşı örneği: işlem niyeti alias'ı, eksik context, restore ile eski assignment, path çoğalması, context scope, state/event ayrılması, etki tarihçesinin silinmesi ve claim sonrası önkoşul değişimi. F04 v2 s.138 SQL şeklinin SQLite eşdeğerindedir; eski Python reachable zaten visited-set kullanır. Diğer bulguların da exact model/sözleşme sınırları P4-04'tedir.
+Genel DevOS omurgası korunur: Work keşfi/RPD, rol–agent–principal ayrımı, K1/K2, bilgi/memory/context, typed relations, protected effect, publication/recovery, uzun ürün ve yöntem aktarımı.
 
-V2 40 test/dört guard yeniden geçti. V3 53 yerel test geçti; mantık/graph alt durumları, gerçek SQLite yarışları ve geçici bare Git CAS/crash-readback vardır. Sekiz yeni bozmanın yedisi assertion, biri KeyError verdi; ikinci sonuç aynı doğrulama kuvvetinde sayılmaz. Test sayıları toplanarak mimari kabul puanı üretilmez.
+Environment-bound yüzey değişti. Güncel OpenAI resmî kaynaklarına göre v4, **Agents API managed Codex harness**'ını P5 için birincil teknik blueprint adayı yapar; root/subagent orkestrasyonu ve başlangıç execution seçeneği olarak OpenAI-hosted sandbox'ı önerir. `self_hosted`, protected credential/tool boundary, PostgreSQL/publisher ve exact persistence/topology P5 qualification konusudur. Bu teknik öneri Codex kullanıcı kararıyla aynı statüde değildir.
 
-PDF gövdesinde 666/666 beklenen birim bulundu; 50 sayfa görsel inceleme ve son render eşitliği yapıldı. ZIP'nin 76 manifest üyesi kimliği eşleşti. Bunlar belge/kimlik kontrolleridir.
+Session, environment ve Work state eşitlenmez. Session environment'tan uzun yaşayabilir; replacement compute eski dosyaları otomatik geri getirmez; turn completion tool başarısını tek başına kanıtlamaz. Bu nedenle canonical Work/Request/Contribution/effect observation DevOS'un dayanıklı yüzeyinde kalır.
 
-## 4. Tasarım ve açık yükler
+## 4. Kanıt ve açık yükler
 
-V3 bütün çalışma sistemini işler: SOUL gereklilikleri, iş keşfi, 18 rol profili, bilgi/araştırma kullanımı, K1/K2, memory/context, ilişkiler, yetki, yayın, toparlanma, uzun/bileşik ürün, yöntem aktarımı ve kapasite. On iki senaryo masa başıdır; gerçek bilişsel görev başarısı değildir.
+V3 mekanik tabanı v4 çalışma kopyasında yeniden koşuldu: v2 baseline 40 test/dört guard; sekiz scoped karşı örnek; 53 candidate test; sekiz mutation içinde yedi assertion/tek downstream error ayrımı. Bunlar Codex-native test değildir.
 
-Referans kod production sistem değildir. Principal/grant/context ihtiyacı ve observation güveni fixture girdileridir. Epoch otoritesi ayrı fakat bellekte ve dayanıklı olmayan fixture'dır. Gerçek Claude cloud, PostgreSQL, korunan publisher/identity, dağıtık restore ve G01/G02/G04/G05/G06/G07 yeterliği açık. Aynı assistant model ve testleri üretmiştir; bağımsız review yoktur.
-
-Claude hedefi, D021, G/Y, insan yetki/kabulü ve SOUL işlerini ekibin keşfetmesi korunur. V2/v3 teknik tercihleri kullanıcıca benimsenmiş mimari değildir. Eski P4-01 alt-ajan/Git başlangıcına veya izin-matrisi next'ine otomatik dönülmez.
+V4 PDF 51 sayfa ve 675/675 metin birimi QA'sından geçti. Actual Agents API account/session, root/subagent K1/K2, OpenAI-hosted/self-hosted environment, credential brokering, PostgreSQL, protected publisher, restore ve G01/G02/G04/G05/G06/G07 gerçek yeterliği açıktır.
 
 ## 5. Sonraki sorumluluk
 
-Mevcut P4 sonucu kullanıcıya verilir; değerlendirme veya yön değişikliği beklenir. Ayrıntılı itiraz/revizyon gelirse P4-04 ve gerçek v3 ZIP'sinden exact bulgu/sözleşme/teste inilerek çalışılır. Eski teyitsiz “88 test” sonucu yeniden başarı yapılmaz.
+**Şimdi kullanıcıya v4 P4 dokümanı teslim edilir ve bu tur durur.** Sonraki ayrı çalışma **P5 Codex kurulum rehberi**dir. P5; actual Agents API/environment/tool/persistence seçimlerini adım adım kurulabilir runbook'a dönüştürmeli ve H-ENV/H-K1-K2/H-AUTH qualification'ını kurulumla birlikte planlamalıdır.
 
-Açık H kapılarını, özellikle actual cloud ve K1/K2'yi, gerçek hesap/erişim ve uygun yetkiyle somutlaştırmak sonraki mantıksal iştir. Raporun varlığı P5 kurulum veya P6 kabul izni değildir. DevOS'un ilk SOUL işini assistant'ın seçmesi de değildir. Bu tur rapor/kanıt teslimi ve current sürekliliğiyle durur.
+P5'in sıradaki çalışma olması, kurulmuş olduğu veya P6 kabulüne geçildiği anlamına gelmez. P6 ve ilk gerçek SOUL backlog'u başlamaz.
