@@ -1,49 +1,40 @@
 # EXP-006 — STATE
 
-**Durum:** AÇIK / DevOS tasarım çalışması. **Güncelleme:** 27 Eylül 2026.
+**Durum:** AÇIK / yeni oturum için duraklatıldı. **Güncelleme:** 28 Eylül 2026.
 **Üst amaç:** SOUL'u geliştirecek ekibin çalışma düzenini, SOUL'un gerektirdiği gerçek kabiliyetlere göre ortaya koymak.
-**Current:** **P4 / SOUL ODAKLI RAPOR v2 HAZIR / MİMARİ ÖNERİ / KULLANICI DEĞERLENDİRMESİ.** Gerçek DevOS kurulmadı; P5/P6 tamamlanmış değildir.
-**Üst plan:** [WORK](WORK.md). **Yeni ayrıntı/artefakt kaydı:** [P4-02](work/P4-02-soul-derived-report-v2.md).
+**Current:** **P4 / SAYFA SINIRSIZ STRES TESTİ VE RAPOR v3 / YARIM KALDI / TESLİM DOĞRULANMADI.** Yeni oturumda aynı iş devralınacak. V2 son dosya kimliği doğrulanmış rapor tabanıdır; mimari kabulü değildir. P5 kurulumu ve P6 hedef kabulü yapılmadı.
+**Üst plan:** [WORK](WORK.md) v1.6. **Aktif devir kaydı:** [P4-03](work/P4-03-unbounded-stress-test-handoff.md). **V2 provenance:** [P4-02](work/P4-02-soul-derived-report-v2.md).
 
-## Son yetki ve teslimat
+## Son kullanıcı yönü
 
-Kullanıcı ilk 200 sayfalık raporu yüzeysel tarama veya küçük eklerle düzeltmek yerine baştan yeniden yazmayı istedi. Esas yön, SOUL'un ne olacağına göre DevOS gereksinimlerini türetmek; gerekli kaliteyi daha kolay uygulamaya sığdırmak için düşürmemektir. Bu, yeni teknoloji/mimari tercihlerinin kullanıcı kabulü değildir.
+V2 yapısını stres testine sokmak ve raporu **sayfa sınırı olmadan** yeniden hazırlamak istendi. Önceki 200 sayfa koşulu artık geçerli değildir. İstenen iş yüzeysel metin taraması, yalnız graph eki veya sayfa sayısını artırmak değildir; SOUL hedefi karşısında bütün tasarımın yeterliğini sınamak ve gerekçeli biçimde yeniden yazmaktır.
 
-Yeni rapor **tam 200 sayfa** ve düzenlenebilir kaynak paketi olarak konuşmada teslim edilir. PDF, Markdown ve ZIP'nin adları/hash'leri P4-02 §2'de. **Dosyaların tamamı GitHub'a yüklenmedi; bu repository yalnız teslimat ve current mimari farkını kaydeder.** Ayrıntılı yeni çalışmada gerçek ekler okunmalıdır; bu özet raporun yerine geçmez.
+Bu çalışma yeni rapor olarak teslim edilemedi. Kullanıcı ardından repository'nin yeni oturumda devam etmeye uygun olmasını istedi. **Bu tur yalnız devir ve kaynak koruması yapıldı; stres testi/yeniden yazım ilerletilmedi.**
 
-## Değişen mimari öneri
+## Doğrulanabilen ve doğrulanamayan
 
-- Claude cloud bilişsel ekibi ile korunan deterministik kontrol hizmetleri ayrılır; takım ağırlıklı sürekli işbirliği ve gerektiğinde odaklı alt ajan profilleri önerilir. Hedefte yeterlik gösterilmedi.
-- PostgreSQL canlı iş/atama/inceleme/yetki/yayın ve typed relation kayıtlarını; Git ürün ve yayımlanmış rol/yöntem/politika içeriklerini taşır. Hash'li kaynak/kanıt gövdeleri korunur. Aynı nesnenin iki bağımsız yazma otoritesi olmaz.
-- Graph engineering birinci sınıf tasarımdır: tür/sürüm/scope, AND/OR destek, invariant, sorgu, concurrency ve etki değerlendirme yolu açık. Graph sonucu anlamsal doğruluğu otomatik ilan etmez.
-- Memory yaşam döngüsü ile exact/lexical/semantic/graph retrieval ve context compiler birlikte tasarlanır. Gerekli bilgiyi azaltmak token optimizasyonu diye meşrulaştırılmaz.
-- Korunan publisher, read-set/revision, claim generation, outbox/inbox ve DB–Git uzlaştırması vardır. Shared Claude runtime agent adları bağımsız güvenlik kimliği sayılmaz.
-- Mekanik doğruluğa ek iş keşfi, bağlam yeterliği, uzun/bileşik eser ve yöntem aktarımının gerçek değerlendirmesi gerekir.
+- V2 PDF ve kaynak ZIP'si mevcut; byte/SHA-256 kimlikleri P4-02 ile eşleşiyor. ZIP bütünlüğü ve manifest'teki 22 üyenin hash/boyutları kontrol edildi. Kaynak gövde, sözleşmeler, referans model ve tarihsel QA kayıtları korunuyor.
+- V3 raporu, kodu veya ham test sonuçları bu tur erişilen mounted dosyalarda bulunamadı. Files aramasında sonuç alınmadı; bütün olası saklama yerlerinde yokluk iddia edilmez.
+- Önceki assistant'ın dört kusur iddiası P4-03'te **yeniden doğrulanacak ipuçları** olarak tutulur. Yeniden üretilmiş bulgu, düzeltilmiş hata veya hedef Claude arızası sayılmaz.
+- “88 test geçti / v3 hazır” teyit edilmedi. V2'nin 40 test/dört guard-kaldırma kaydı yalnız v2'nin tarihsel sınırlı kanıtıdır; bu tur yeniden koşturulmadı.
+- Eksiklerin 200 sayfa sınırından kaynaklandığı kanıtlanmış değildir. Sayfa sınırını kaldırmak daha uzun metni otomatik daha sağlam mimari yapmaz.
 
-Bu farklar yalnız graph eki değildir. Önceki [P4-01](work/P4-01-cloud-runtime-and-workspace-design.md) teknik baseline olarak korunur; **current seçim ve next-work authority değildir**. Eski salt Git çalışma kaydı/alt-ajan tercihi yeni rapora otomatik taşınmaz.
+## Kaynak erişimi
 
-## Korunan kararlar
+**Repository tek başına tam rapor gövdesini içermiyor.** Yeni oturum için konuşmada `EXP-006_Yeni_Oturum_Devir_Paketi.zip` oluşturuldu: doğrulanmış v2 PDF + orijinal kaynak ZIP + erişim/kanıt sınırları. Ad/hash ve içerik P4-03 §3'te.
 
-Claude Code cloud hedefi; SOUL'un ilk ve sonraki gerçek işlerini ekibin keşfetmesi; K1 talep→çalışma→yanıt→kullanım; K2 rutin rol geçişlerinde Batu'nun tetikleyici olmaması; gerçek müdahale/yetki/kabulün korunması değişmedi.
+Devir kayıtları repository'dedir; gerçek rapor/sözleşme/kod çalışması için bu ek veya aynı hash'li v2 kaynakları da gerekir. Mevcut değilse özetten devam edilmez. Yeni oturumun bu container'ı ya da eski ekleri kendiliğinden görebileceği varsayılmaz.
 
-D021 içerik–çalışma alanı sahipliği korunur. G SOUL içeriğini/sonucunu, Y DevOS işleyişini ve düzenini hedefler. İkisi de Work/reasoning taşır. Rol sayısı agent sayısı değildir. Research talimatları otomatik DevOS kontrolü yapılmaz.
+## Korunan sınırlar ve mimari taban
 
-B1–B9/S1/F1–F8/P2/P3 birikimi provenance'dır; gerçek SOUL backlog'u veya çalışan kapasite değildir. [DECISIONS](DECISIONS.md) kabul edilmiş sınırları taşır; yeni raporun teknik seçimleri öneri olarak ayrı kalır.
+Claude Code cloud hedefi; SOUL'un ilk/sonraki gerçek işlerini ekibin keşfetmesi; K1 talep→çalışma→yanıt→kullanım; K2 rutin rol geçişlerinde Batu'nun tetikleyici olmaması; gerçek müdahale/yetki/kabul korunur. D021 içerik–çalışma alanı sahipliği ve G/Y hedef ayrımı sürer. Rol sayısı agent sayısı değildir.
 
-## Gerçek kanıt
+V2'nin takım ağırlıklı bilişsel ekip, korunan kontrol hizmetleri, PostgreSQL canlı durum/typed relations, Git ürün sürümü, kaynak/kanıt gövdeleri, memory/context compiler ve kontrollü yayın/recovery önerileri **stres testinin nesnesidir**. Kolay olduğu için korunmaz, karmaşık olduğu için üstün sayılmaz. P4-01 eski baseline'dır; current mimari veya next-work değildir.
 
-Yerel Python/SQLite modelinde 40 test geçti; dört hedefli kontrol kaldırma denemesinde ilgili testler hata yakaladı. Aynı yazarlı, sınırlı semantik deneydir. Gerçek PostgreSQL, Claude, kimlik doğrulama, Git/cloud yayını, sandbox, production restore veya SOUL bilişsel yeterliği kanıtı değildir. Ham kayıtlar kaynak ZIP içindedir.
+## Yeni oturumda devam
 
-PDF'nin 200 sayfa/bağlantı/kaynak/glyph/bbox kontrolü ve görsel düzen incelemesi yapıldı; bu belge kalitesi kontrolüdür.
+AGENT ve gereken kontroller → [INDEX](INDEX.md) → STATE → [HANDOFF](HANDOFF.md) → [WORK](WORK.md) → [DECISIONS](DECISIONS.md) → [P4-03](work/P4-03-unbounded-stress-test-handoff.md) → [P4-02](work/P4-02-soul-derived-report-v2.md) → gerçek v2 kaynak paketi.
 
-## Current next ve sınır
+Kullanıcının yeni oturumdaki devamıyla: kaynakları doğrula; tam rapor ve sözleşme bağlamını oku; varsa gerçek v3 dosyalarını kurtar, yoksa v2'den izlenebilir biçimde stres testini yeniden kur. Bulguları yeniden üret/çürüt; bütün mimariyi SOUL gerekliliklerine karşı değerlendir; kanıt ve düzeltmelerle sayfa sınırsız raporu tamamla. Ayrıntılı iş haritası P4-03 §5'tedir.
 
-**Şimdi teslim:** Yeni PDF ve kaynak paketini kullanıcıya ver. Rapor üretimi tamam; yeni mimari kabulü veya hedef kurulumu değil.
-
-**Sonraki mantıksal iş:** V2 değerlendirmesinden sonra rapordaki uygulama ve qualification programını gerçek cloud/operasyon deposu/kontrol hizmeti koşullarına bağlamak. Yeni kullanıcı yönü olmadan P5 kurulumu başlatılmaz. Eski P4-01'in izin matrisi next'ine veya genel P3 audit döngüsüne dönülmez.
-
-## Fresh-session yolu
-
-AGENT ve gereken kontroller → [INDEX](INDEX.md) → STATE → [HANDOFF](HANDOFF.md) → [WORK](WORK.md) → [DECISIONS](DECISIONS.md) → [P4-02](work/P4-02-soul-derived-report-v2.md) → **gerçek v2 PDF/kaynak ZIP**. Ayrıntılı tasarım işi öncesi raporun gerekli tam bağlamı ve sözleşmeleri okunur; erişim yoksa ek dosya istenir, hafızadan yeniden kurulmaz.
-
-ACTORS/P2/P3 ve eski P4 yalnız lineage/karşılaştırma gerektiğinde, kendi statüleriyle okunur. Önceki PDF ile v2 karıştırılmaz. Kısa kullanıcı cevabı çalışma derinliğini küçültmez.
+P5'e, hedef cloud kurulumuna veya eski P4-01 izin-matrisi next'ine geçilmez. Yeni genel rol taxonomy'si açılmaz. Yeni rapor ve test sayıları gerçek dosya/koşu/geri okuma ile doğrulanmadan tamamlandı denmez. Bu tur burada durur.
