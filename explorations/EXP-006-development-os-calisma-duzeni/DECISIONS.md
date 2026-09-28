@@ -1,9 +1,9 @@
 # EXP-006 — DECISIONS
 
 **Rol:** Kullanıcıyla netleşmiş çalışma kararlarını/kısıtları candidate fikirlerden ayırmak.
-**Güncelleme:** 28 Eylül 2026, Environment kararı Codex'e çevrildi ve P4 v4 dokümanı buna göre yeniden hazırlandı.
-**Current:** P4 v4 Codex hedef ortamı raporu hazır; sıradaki ayrı aşama P5 Codex kurulum rehberidir. [STATE](STATE.md) ve [P4-05](work/P4-05-codex-environment-revision-v4.md) current durumu taşır.
-**Sınır:** Karar kaydı bir öneriyi teknik gerçeğe, gereksinimi gösterilmiş platform kabiliyetine veya dosya kimliğini yeterlik kanıtına dönüştürmez. Aşağıdaki tarihsel “bu tur/son yön” ifadeleri kendi kaynak turuna aittir; D026 sonraki devamı ayırır.
+**Güncelleme:** 28 Eylül 2026, P5 devam yetkisi ve inşa/kurulum paketi teslimi.
+**Current:** P5 rehber/kaynak paketi hazır; actual inşa başlamadı. [STATE](STATE.md) ve [P5-01](work/P5-01-codex-build-installation-package.md) current durumu taşır.
+**Sınır:** Kaynak kararı teknik gerçeğe, dosya kimliği yeterlik kanıtına dönüşmez. D001–D028'in tarihsel “bu tur/son yön” ifadeleri kendi kaynak turuna aittir. D011'in Claude hedefi D027 ile superseded'dır; D029 latest continuation'dır.
 
 | ID | Karar / çalışma anlaşması | Statü |
 |---|---|---|
@@ -35,21 +35,18 @@
 | **D026** | Yeni oturumda eklenen gerçek devir paketi üzerinden aynı P4 sayfa sınırsız stres testi ve rapor çalışmasına devam edilecek. | 28 Eylül 2026 açık devam talebi; P4-04 §1. D025'in önceki turda durması tamamlandı. Yeni mimari kabulü, P5/P6 veya SOUL backlog seçimi yetkisi değil. |
 | **D027** | DevOS'u yaratacak hedef Environment artık **Codex** olacak; Claude Code cloud current hedef olmaktan çıkar. | 28 Eylül 2026 açık kullanıcı kararı. D011 tarihsel provenance olarak korunur fakat current Environment kararı açısından superseded'dır. Codex içindeki exact Agents API/CLI/hosted/self-hosted topolojisini tek başına kabul etmez. |
 | **D028** | Önce P4 dokümanı Codex kararına göre yeniden hazırlanacak; bunun ardından P5 kurulum rehberi Codex'e göre hazırlanacak. | 28 Eylül 2026 açık sequencing direction. V4 rapor teslimi P5 kurulumu değildir; P5 ayrı çalışma aşamasıdır. |
+| **D029** | P5 inşa/kurulum paketi hazırlığına geçilecek. Codex hem DevOS'u kuracak hem kurulan DevOS'un bilişsel çalışma ortamı olacak. SOUL'un Codex/Claude Code'a bağımlı olmaması korunacak ürün hedefi; gerekli kalite kolaylık lehine düşürülmeyecek. | 28 Eylül 2026 açık kullanıcı yönü; P5-01 §1. Gerçek çapraz-provider yeterlik kanıtı, belirli API/host/PG sağlayıcısı kabulü, açık uçlu maliyet/veri/yayın izni veya bu tur P6 kabulü değildir. |
 
-D011–D018 [U002](sources/U002-cloud-plan-and-autonomy.md)'ye; D019 P1 açıklamasından sonraki devam yönüne; D020 ilk P3 isteğine dayanır. D021 kaynak açıklama/kabulü [P3-01 §1](work/P3-01-work-information-discussion.md#1-kullanıcı-yönü-ve-önerinin-sınırı)'de, D022 P3→P4 devam bağlamındadır. D023 [P4-02 §1](work/P4-02-soul-derived-report-v2.md#1-yetki-ve-neden-yeniden-yazıldı), D024/D025 [P4-03 §1](work/P4-03-unbounded-stress-test-handoff.md#1-kullanıcı-yönü--görünür-konuşma-kaynağı) ile izlenir. D023–D025 kayıtlarının eklenme tarihi 28 Eylül 2026'dır; daha önceki mesajlara kesin zaman damgası uydurulmaz. D026'nın görünür kaynak ifadesi P4-04 §1'de korunur. D027–D028 bu konuşmadaki açık Environment değişikliği ve sıralama yönüdür; P4-05'te kaydedilir.
+D011–D018 [U002](sources/U002-cloud-plan-and-autonomy.md)'ye; D019 P1 açıklamasından sonraki devam yönüne; D020 ilk P3 isteğine dayanır. D021 kaynak açıklama/kabulü [P3-01 §1](work/P3-01-work-information-discussion.md#1-kullanıcı-yönü-ve-önerinin-sınırı)'de, D022 P3→P4 devam bağlamındadır. D023 [P4-02 §1](work/P4-02-soul-derived-report-v2.md#1-yetki-ve-neden-yeniden-yazıldı), D024/D025 [P4-03 §1](work/P4-03-unbounded-stress-test-handoff.md#1-kullanıcı-yönü--görünür-konuşma-kaynağı) ile izlenir. D023–D025 kayıtlarının eklenme tarihi 28 Eylül 2026'dır; daha önceki mesajlara kesin zaman damgası uydurulmaz. D026'nın görünür kaynak ifadesi P4-04 §1'de korunur. D027–D028 bu konuşmadaki açık Environment değişikliği ve sıralama yönüdür; P4-05'te kaydedilir. D029'un görünür talebi P5-01 §1'dedir.
 
-## Teknik öneriler — kabul edilmiş kullanıcı kararları değildir
+## Teknik öneriler — kullanıcı kararları değildir
 
-P4-01'in ana Y + özel alt ajanlar/Git ağırlıklı tercihi eski baseline'dır. V2'nin takım ağırlıklı bilişsel ekip, dış korunan kontrol, PostgreSQL canlı durum/typed graph, Git ürün, memory/context compiler ve kontrollü publisher/recovery önerisi P4-02 ve gerçek v2 kaynaklarında bulunur. V3 bu yönü koşullu değerlendirip sözleşme/model sınırlarını güçlendirdi; sonuç ve sekiz karşı örnek P4-04'tedir.
+P4-01 eski baseline; v2/v3 ortak mimari ve yerel testler P4-02/P4-04'te; P4 v4 Codex bağlaması P4-05'tedir. **Current P5-1.0.0 paketi** bu kaynağı inşa şartnamesine çevirir. Ayrı root/child yetki sınırı, 6 ortak protokol + 18 rol + 7 method birleşimi, typed application, PostgreSQL referansı, body store/publisher/fence ve release/test düzeni P5 teknik tercihleridir. Bunları kullanıcıya önceden kabul ettirilmiş P4 kararları gibi sunma.
 
-**Current: P4 v4 Codex hedef ortamı raporu hazır; sıradaki ayrı aşama P5 Codex kurulum rehberi.** PostgreSQL, graph store, takım veya bileşenler otomatik kabul edilmiş sayılmaz. Gereken kabiliyet ne kolaylık lehine atlanır ne daha karmaşık gösterilerek sağlanmış sayılır.
+Supabase, actual hosting/region, API hesabı/veri işleme/maliyet, publish target ve recovery toleransları C01–C08 ile çözülür. Codex seçimi yalnız masaüstü uygulamayı kurmanın bütün API runtime'ı hazır ettiği anlamına gelmez. D013/D015 içindeki eski “seçimi açık” ifadeleri tarihsel kullanıcı sınırını taşır; current teknik tasarım bundan ayrıdır.
 
-D013/D015 içindeki başlangıç “seçimi açık/henüz seçilmedi” ifadeleri kullanıcı kısıtının o zamanki durumudur; assistant tercihleri bunlardan ayrı tutulur. Actual hedefte gerçekleşme/uygulanabilirlik ayrıca kanıtlanacaktır.
+## Kanıt ve current devam
 
-## Açık kalanlar ve kanıt sınırı
+P4'ün 40/53 test ve mutation kayıtları kendi tarihsel koşularıdır; bu P5 turunda yeniden koşulmadı. P5'in 50 yerel paket-araç testi geçti. 67 hedef senaryosu tasarlandı, hiçbiri çalıştırılmadı. Şema, rol metni ve manifest gerçek platform/DB/güvenlik/bilişsel yeterlik kanıtı değildir. Teknik testlerin yazarı ve rehberin yazarı aynı assistant'tır.
 
-Nihai mimari, gerçek actor allocation, actual Codex session/environment/servis yetkileri, bağımsız güvence, PostgreSQL concurrency, korunan DB–Git publication, dağıtık restore ve SOUL bilişsel yeterliği açık. P2/P3/v2/v3 nihai kadro veya çalışan DevOS değildir. Motivasyon başına agent ve belirli graph/iş takip ürünü kabul edilmedi.
-
-V2 40 test/dört guard bu tur yeniden koşuldu. Önceki dört ipucu yeni v2 karşı örnekleriyle kapsamlandırıldı; toplam sekiz bulgu vardır. V3 53 yerel test geçti; yeni sekiz bozma yedi assertion/tek KeyError olarak ayrılır. Eski “88 test geçti” iddiası hâlâ teyitsiz tarihsel beyandır; yeni sonuçlar onun doğrulaması değildir.
-
-**Plan v1.8 / P4 V4 CODEX RAPOR TESLİMİ HAZIR / P5 REHBERİ SIRADAKİ AYRI AŞAMA.** P5 kurulumu ve P6 başlamadı. Tam v4 rapor/kod kaynak paketindedir; repository current state ve erişim yolunu taşır. D011 tarihsel, D027 current Environment kararıdır. Agent-control değişmedi.
+**Plan v1.9 / P5 PAKETİ HAZIR / ACTUAL İNŞA BAŞLAMADI.** Codex devri S00'dan kaynak/target/yetkiyi doğrulayacak. P6 veya ilk SOUL backlog'u başlamadı. Tam paket konuşma ekinde, current kayıt ve başlangıç metni repository'dedir. Research agent-control değişmedi.
