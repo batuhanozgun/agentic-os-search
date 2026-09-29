@@ -1,3 +1,13 @@
+# Tarihsel başlangıç metni — ÇALIŞTIRILMAZ
+
+**29 Eylül 2026 / D030:** Aşağıdaki Codex/S00 başlangıç mesajı yürürlükten kalkmıştır. Yeni bir Codex veya Claude oturumuna kurulum görevi olarak verilmez. DevOS'un kurucusu ve ortamı **Claude Code cloud**; tek geçerli plan [batuhanozgun/devos — plan/](https://github.com/batuhanozgun/devos/tree/main/plan), devirdeki sürüm **2.1**'dir.
+
+Yetki izi: [EXP-006 D030](../../DECISIONS.md#d030--claude-code-cloud-kurulum-devri). Bu depo Claude Code ve DevOS için salt okunur araştırma kütüphanesidir. Aşağıdaki komutlar, zorunlu okumalar ve API/servis tercihleri yalnız eski paketin değiştirilmemiş tarihsel içeriğidir; bugünkü uygulama veya yetki kaynağı değildir.
+
+---
+
+## 28 Eylül 2026 kaydı — aşağıdaki metin güncel kurulum talimatı değildir
+
 # Codex’e verilecek başlangıç metni
 
 Bu paketi **DevOS’u inşa etmek** için kullan. DevOS’un bilişsel runtime’ı da Codex olacak. SOUL’un provider bağımsızlığı bir ürün hedefidir; bu inşa sırasında SOUL’un ilk gerçek işini/backlog’unu seçme. Paket bir build specification/runbook’tur, kurulmuş sistem değildir.

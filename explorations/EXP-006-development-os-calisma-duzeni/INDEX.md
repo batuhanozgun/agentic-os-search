@@ -1,3 +1,15 @@
+# EXP-006 — güncel statü ve tarihsel okuma yolu
+
+**29 Eylül 2026 / D030:** Bu alanın eski DevOS kurulum ve devir yönü tarihseldir. DevOS, **Claude Code cloud** üzerinde kurulacak ve çalışacaktır. Kurulumun tek geçerli planı [batuhanozgun/devos — plan/](https://github.com/batuhanozgun/devos/tree/main/plan) altındadır; devirde belirtilen sürüm **2.1**. Bu depoya plan kopyası alınmaz.
+
+[DECISIONS / D030](DECISIONS.md#d030--claude-code-cloud-kurulum-devri) → [STATE](STATE.md) → [HANDOFF](HANDOFF.md) bu statü ayrımını taşır. Research bakımının sıradaki işi [REPOSITORY-TRANSITION](../../REPOSITORY-TRANSITION.md)'dadır; DevOS kurulum işi değildir. Claude Code ve DevOS bu depoyu yalnız okur. ChatGPT başka DevOS/SOUL depolarına yazmaz.
+
+Aşağıdaki eski okuma sırası yalnız tarihsel inceleme içindir. P5 ZIP, CODEX_START veya S00'a işaret etmesi bunları yeniden yürütme yetkisi vermez. B/S1/P2/P3 araştırma ve sorumluluk türetimleri kaynak olarak korunur; bulgu, öneri, kullanıcı kararı ve hedefte gösterilmiş davranış ayrımı değişmez.
+
+---
+
+## 28 Eylül 2026 kaydı — aşağıdaki metin güncel kurulum talimatı değildir
+
 # EXP-006 — Development OS çalışma düzeni
 
 **Üst amaç:** SOUL'u geliştirecek ekibin çalışma düzenini SOUL'un gerektirdiği kabiliyetlerden türetmek.

@@ -1,3 +1,15 @@
+# EXP-006 — çalışma kaydının güncel statüsü
+
+**29 Eylül 2026 / D030:** Aşağıdaki v1.9 master plan ve S00–S12 inşa haritası tarihsel kayıttır; bugünkü kurulum sırası veya ChatGPT'nin sonraki işi değildir. DevOS, **Claude Code cloud** üzerinde kurulacak ve çalışacaktır. Kurulumun tek geçerli planı [batuhanozgun/devos — plan/](https://github.com/batuhanozgun/devos/tree/main/plan), devirdeki sürümü **2.1**'dir.
+
+[D030](DECISIONS.md#d030--claude-code-cloud-kurulum-devri) yalnız yeni yetki ve statü geçişini kaydeder; eski B/S1/P1–P6 türetimlerinin anlamı yeniden yazılmaz. Tarihsel bir yerel test, yeni Claude kurulumunun kabul kanıtı olmaz. İlk gerçek SOUL işlerini bu bakım çalışması seçmez.
+
+Bu depodaki yetkili devam [REPOSITORY-TRANSITION](../../REPOSITORY-TRANSITION.md) kapsamındaki araştırma/kurulum ayrımı bakımıdır. DevOS'un canlı işlerini bu WORK'te izlemeyiz; dış plan kopyası üretmeyiz. Claude Code ve DevOS ekibi bu depoyu salt okunur kullanır. Arşiv erişimi ve depo genelindeki son tarama henüz tamamlanmış sayılmaz.
+
+---
+
+## 28 Eylül 2026 kaydı — aşağıdaki metin güncel kurulum talimatı değildir
+
 # EXP-006 — WORK ve master plan
 
 **Plan:** v1.9 — 28 Eylül 2026. **Current:** P5 Codex inşa ve kurulum paketi `P5-1.0.0` hazır; gerçek hedefte inşa başlamadı. [STATE](STATE.md), [HANDOFF](HANDOFF.md) ve [P5-01](work/P5-01-codex-build-installation-package.md) current yetki, sonuç, kaynak ve devri taşır.

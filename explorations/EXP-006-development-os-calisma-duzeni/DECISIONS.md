@@ -1,3 +1,23 @@
+# EXP-006 — karar sicilinin güncel statüsü
+
+**Güncelleme: 29 Eylül 2026.** Bugünkü kurulum yönü aşağıdaki D030'dur. Eski D001–D029 kayıtları, kaynak mesajları ve teknik önerilerin tarihçesi değiştirilmeden altta korunur. Tarihsel kayıt olmak, önceki bütün ilkelerin reddedildiği veya eski test beyanlarının yeniden doğrulandığı anlamına gelmez.
+
+<a id="d030--claude-code-cloud-kurulum-devri"></a>
+## D030 — Claude Code cloud kurulum devri
+
+**Statü:** Açık kullanıcı kararı, **29 Eylül 2026**. Kaynak: [Batu'nun depo güncelleme görevi, §2 ve §3.1](../../maintenance/2026-09-29-research-installation-separation/REQUEST.md).
+
+- DevOS, **Claude Code cloud**'da kurulacak ve çalışacaktır. **D027'deki ortam kararı ve D029'daki “Codex hem kurucu hem çalışma ortamı” kararı geçersizdir; tarihsel kayıt olarak kalır.** D029'daki yüksek kalite ve SOUL'un sağlayıcı bağımsızlığı hedefi bu ortam değişikliğiyle geri alınmış sayılmaz. Eski D011'in bütün döneme özgü kurulum adımları da otomatik yeniden etkinleşmez.
+- DevOS kurulumu **Claude Code'a devredilmiştir**. Geçerli planın tek evi [batuhanozgun/devos — plan/](https://github.com/batuhanozgun/devos/tree/main/plan), devirdeki sürümü **2.1**'dir. Bu deponun kayıtları DevOS kurulumuna yön vermez; plan kopyası burada tutulmaz.
+- `agentic-os-search`, DevOS için **gizli araştırma kütüphanesidir**. Claude Code kurucusu ve DevOS ekibi burayı **salt okunur** kullanır. Yazarı Batu'nun onayıyla ChatGPT'dir; ChatGPT `devos`, `soul`, `soul-system`, `devos-evals` ve `devos-backup` depolarına yazmaz.
+- Yeni SOUL ürün deposu [soul-system](https://github.com/batuhanozgun/soul-system)'dir. Eski [soul](https://github.com/batuhanozgun/soul) ve diğer önceki deneme depoları olduğu gibi kalan tarihsel kaynaklardır.
+
+**Kararın kanıt sınırı:** Bu kayıt kullanıcı yetki/statü değişimini yansıtır; yeni kurulumun başladığını, platform iddialarının bu tur yeniden doğrulandığını, hedef sınamalarının geçtiğini veya P6 kabulünün verildiğini söylemez. Research'ün bu devirdeki sonraki işi [depo bakım planındadır](../../REPOSITORY-TRANSITION.md); eski S00 ya da DEVOS-001/002 işi değildir. `AGENT.md` ve `agent/**` bu kararla değişmez ve Claude için talimat olmaz.
+
+---
+
+## 28 Eylül 2026 karar kaydı — aşağıdaki current/next ifadeleri o tarihe aittir
+
 # EXP-006 — DECISIONS
 
 **Rol:** Kullanıcıyla netleşmiş çalışma kararlarını/kısıtları candidate fikirlerden ayırmak.

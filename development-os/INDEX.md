@@ -1,3 +1,15 @@
+# Development OS — tarihsel denemelerin dizini
+
+**29 Eylül 2026:** DEVOS-001 ve DEVOS-002 bu depodaki tarihsel denemelerdir; güncel kurulum işi değildir. DevOS'un kurulacağı ve çalışacağı ortam **Claude Code cloud**, geçerli planın tek evi [batuhanozgun/devos — plan/](https://github.com/batuhanozgun/devos/tree/main/plan), devirdeki sürümü **2.1**'dir. Yetki kaydı: [EXP-006 D030](../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri).
+
+Bu alan denemelerin konuşma, okuma, yöntem, kanıt ve derslerini korur; çalışan DevOS'un canlı durumunu tutmaz. Claude Code ve DevOS ekibi yalnız okur. Aşağıdaki eski “yeni oturumun girişi”, mesaj görevleri, hedef depo ve next ifadeleri yeniden yürütme yetkisi değildir. Güncel Research bakım işi [REPOSITORY-TRANSITION](../REPOSITORY-TRANSITION.md)'dadır.
+
+Tarihsel kaynaklara giriş: [001 WORK](attempts/001/WORK.md), [002 README](attempts/002/README.md). Bir denemenin tarihsel olması onun deney sonuçlarını yeni test, önerilerini kabul veya açıklarını çözülmüş hale getirmez.
+
+---
+
+## 24 Eylül 2026 kaydı — aşağıdaki metin güncel kurulum talimatı değildir
+
 # Development OS — çalışma sistemi kurma denemeleri
 
 Bu alan Development OS'u kuracak çalışma düzenine ilişkin denemeleri birbirinden ayrı tutar. Araştırma arşivi, agent-control veya kabul edilmiş SOUL mimarisi değildir.

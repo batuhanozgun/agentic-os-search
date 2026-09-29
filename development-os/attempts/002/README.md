@@ -1,3 +1,15 @@
+# DEVOS-002 — tarihsel deneme ve varsayım denetimi
+
+**29 Eylül 2026 statü notu:** Aşağıdaki 24 Eylül konuşması, ortam okuması ve açık işler tarihsel kayıttır; bugünkü kurulumun devam otoritesi değildir. DevOS, **Claude Code cloud** üzerinde kurulacak ve çalışacaktır. Geçerli planın tek evi [batuhanozgun/devos — plan/](https://github.com/batuhanozgun/devos/tree/main/plan), devirdeki sürümü **2.1**. [EXP-006 D030](../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri).
+
+Yeni kurucu eski ECC/ortam denetimini sırf bu dosyada “kalan iş” yazdığı için sürdürmez; gerektiğinde sonuçları tarihli kaynak olarak kullanır. Hesapta gösterilmiş olanla belgede okunmuş olanın ayrımı değişmez. O döneme ait kullanıcı sözleri, kısıtlar ve “repo adı verilmedi” gibi ifadeler geriye dönük güncellenmez; yeni kararın yerine konulmaz.
+
+Claude Code ve DevOS bu araştırma deposunu yalnız okur. ChatGPT'nin yetkili devamı [depo bakım planındadır](../../../REPOSITORY-TRANSITION.md); DevOS kurulum işi veya dış oturuma müdahale değildir.
+
+---
+
+## 24 Eylül 2026 kaydı — aşağıdaki metin güncel kurulum talimatı değildir
+
 # DEVOS-002 — güncel konuşma ve varsayım denetimi
 
 **Açılış / güncelleme:** 24 Eylül 2026.

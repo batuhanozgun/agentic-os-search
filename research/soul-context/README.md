@@ -1,3 +1,15 @@
+# SOUL Context — araştırma bağlamı ve tarihsel devirler
+
+**29 Eylül 2026 statü notu:** Bu alan araştırma bağlamıdır; DevOS'un canlı iş veya kurulum otoritesi değildir. Geçerli kurulum planı [batuhanozgun/devos — plan/](https://github.com/batuhanozgun/devos/tree/main/plan) altında, devirdeki sürümü **2.1**; ortam **Claude Code cloud**'dur. Yeni ürün deposu [soul-system](https://github.com/batuhanozgun/soul-system), eski `soul` ise değiştirilmeden korunan tarihsel denemedir.
+
+[INDEX](INDEX.md) ve [STATE](STATE.md) bu güncel statüyle okunur. `current/`, eski DEVOS-001/002 hedefleri ve aşağıdaki eski devam cümleleri tarihsel bağlamdır; kurucuya görev vermez. [D030](../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri) ve [depo bakım planı](../../REPOSITORY-TRANSITION.md) yetki/geçiş izidir. Claude Code ve DevOS bu depoyu yalnız okur.
+
+Araştırma içeriği, kaynak okuma kayıtları ve bulgu/çıkarım/öneri ayrımı değişmez. Tarihsel bir kaynağın bilgi değeri ile bugünkü işlem yetkisi farklıdır.
+
+---
+
+## Önceki giriş metni — güncel kurulum talimatı değildir
+
 # SOUL Context Research
 
 Bu alan SOUL Research'ün neden açıldığını açıklayan kaynak-bağlı predecessor bağlamını ve araştırma–geliştirme arasındaki sınırlı geçişleri korur. Proje-geneli araştırma metodolojisi, agent-control veya SOUL mimarisi değildir.

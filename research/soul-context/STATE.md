@@ -1,3 +1,15 @@
+# SOUL Context — güncel yönlendirme statüsü
+
+**29 Eylül 2026 / D030:** DevOS'un kurulum ve çalışma ortamı **Claude Code cloud**; geçerli planın tek evi [batuhanozgun/devos — plan/](https://github.com/batuhanozgun/devos/tree/main/plan), devirdeki sürümü **2.1**'dir. Yeni SOUL ürün deposu [soul-system](https://github.com/batuhanozgun/soul-system). `soul`, `soul-development-os3_claudecode`, DEVOS-001/002 ve eski Codex hedefleri bu bağlamda tarihsel denemelerdir; güncel canlı durumları burada izlenmez.
+
+Bu STATE araştırma bağlamının statü ve kaynak yolunu taşır, yeni bir kurulum görevi vermez. Claude Code ve DevOS ekibi `agentic-os-search` deposunu yalnız okur. Güncel kararın izi [EXP-006 D030](../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır. ChatGPT'nin mevcut bakım işi [REPOSITORY-TRANSITION](../../REPOSITORY-TRANSITION.md)'dan devralınır.
+
+Aşağıdaki 23 Eylül kaydının hedef, mesaj, grant ve next ifadeleri o denemeye aittir. Kullanıcı mesajı, araştırma bulgusu, teknik öneri ve test kanıtının eski epistemik statüsü korunur; ortam değişimi bunları yeni mimari onaya veya yeni deney sonucuna dönüştürmez.
+
+---
+
+## 23 Eylül 2026 kaydı — aşağıdaki metin güncel kurulum talimatı değildir
+
 # SOUL Context — STATE
 
 **Güncelleme:** 23 Eylül 2026. **Rol:** cross-project bağlam ve güncel çalışma alanına yönlendirme; hedefin canlı teknik iş otoritesi değil.

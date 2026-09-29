@@ -1,3 +1,15 @@
+# EXP-006 — kurulum devrinin güncel sınırı
+
+**29 Eylül 2026 / D030:** DevOS kurulumu Claude Code'a devredildi; ortam **Claude Code cloud**. Kurucu için tek geçerli plan [batuhanozgun/devos — plan/](https://github.com/batuhanozgun/devos/tree/main/plan) altındadır; devirdeki sürüm **2.1**. Bu dosya, eski Codex paketini uygulama veya S00'ı başlatma talimatı değildir.
+
+[Karar D030](DECISIONS.md#d030--claude-code-cloud-kurulum-devri) → [STATE](STATE.md) → [depo bakım planı](../../REPOSITORY-TRANSITION.md). ChatGPT yalnız bu araştırma deposunun bakımına devam eder; Claude Code ve DevOS ekibi bu depoyu salt okunur kullanır. Başka depolardaki kurulum ilerlemesi burada ikinci bir canlı kayıt olarak tutulmaz.
+
+Eski paketler gerekçe, karşı örnek ve aktarım denetimi için tarihsel kaynak olabilir. Kaynakta yazan test başarısı yeniden yapılmış test değildir; dosya hash'i erişim yolu değildir. S00–S12 paketi bu bakım turunda geri kazanılmış sayılmaz; arşivleme ve erişim açıkları A3'te kayıtlanır. Aşağıdaki eski zorunlu okuma ve sonraki iş sırası yalnız o tarihsel teslimi açıklar.
+
+---
+
+## 28 Eylül 2026 kaydı — aşağıdaki metin güncel kurulum talimatı değildir
+
 # EXP-006 — HANDOFF
 
 **28 Eylül 2026 / P5-1.0.0 inşa ve kurulum paketi hazır / actual inşa NOT_STARTED / P6 kabulü yok.**

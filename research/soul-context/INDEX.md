@@ -1,3 +1,15 @@
+# SOUL Context — güncel kaynak yönlendirmesi
+
+**29 Eylül 2026:** Bu alan kaynak-bağlı araştırma bağlamıdır. Güncel DevOS kurulumunu [batuhanozgun/devos — plan/](https://github.com/batuhanozgun/devos/tree/main/plan) taşır; devirdeki sürüm **2.1**, ortam **Claude Code cloud**. Yeni ürün deposu [soul-system](https://github.com/batuhanozgun/soul-system); `repos/soul/` eski `soul` denemesinin okuma defteridir, yeni ürünün yetkili durumu değildir.
+
+[STATE](STATE.md) → [EXP-006 D030](../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri) statü/yetki izini; [REPOSITORY-TRANSITION](../../REPOSITORY-TRANSITION.md) bu deponun bakım ilerlemesini taşır. Claude Code ve DevOS bu depoyu yalnız okur.
+
+Aşağıdaki konu tablosunun araştırma ve tarihsel kaynak bağlantıları korunur. DEVOS-001/002, eski Claude hazırlığı ve `_02` devirleri bugünkü kurulum rotası değildir; tablodaki “güncel” ve “yeni alan” ifadeleri kaydın yazıldığı döneme aittir. Foundation ve studies'in kendi araştırma durumları ise DevOS'un canlı iş durumundan ayrı kalır.
+
+---
+
+## Önceki dizin metni — güncel kurulum talimatı değildir
+
 # SOUL Context — INDEX
 
 Bu dosya retrieval router'dır; agent-control veya hedefin canlı iş otoritesi değildir. Güncel cross-project yön [STATE](STATE.md)'tedir.

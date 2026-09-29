@@ -1,3 +1,15 @@
+# `soul` — tarihsel denemenin okuma defteri
+
+**29 Eylül 2026 statü notu:** `batuhanozgun/soul`, 25–29 Ağustos dönemindeki eski DevOS/SOUL denemesinin tarihsel kaynağıdır; bugünkü SOUL ürün deposu veya güncel proje otoritesi değildir. Yeni ürün deposu [batuhanozgun/soul-system](https://github.com/batuhanozgun/soul-system); geçerli DevOS kurulum planı [batuhanozgun/devos — plan/](https://github.com/batuhanozgun/devos/tree/main/plan), devir sürümü **2.1**, ortam **Claude Code cloud**'dur.
+
+Eski repo olduğu gibi kalır; bu bakım ona yazmaz. Aşağıdaki kaynak kimlikleri, okuma kapsamı, tarihsel bulgular ve kanıt sınırları değişmez. “Current explicit intent”, “branch current”, “kuruluyor” veya “şu anda” ifadeleri eski okuma dönemine aittir; yeni ürüne uygulama görevi ya da yetki vermez. Tarihsel statü, gözlemi hipoteze veya öneriyi kabul edilmiş mimariye dönüştürmez.
+
+Yetki izi: [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri). Araştırma bağlamı [STATE](../../STATE.md)'ten; bu bakımın devamı [REPOSITORY-TRANSITION](../../../../REPOSITORY-TRANSITION.md)'dan okunur.
+
+---
+
+## Önceki kaynak defteri — araştırma içeriği; güncel kurulum talimatı değildir
+
 # soul — okuma defteri
 
 Repo: `batuhanozgun/soul`  
