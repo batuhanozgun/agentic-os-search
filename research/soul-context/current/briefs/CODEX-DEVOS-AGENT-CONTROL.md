@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel Codex kontrol-katmanı görevi; etkin agent-control değildir.** Aşağıdaki “explicitly authorised” kapsamı, AGENTS/protokol yazma izni, aday dal ve READY koşulları eski hedefe ait görev metnidir. Bugünkü Claude kurucusu bu metni yürütmez veya kontrol talimatı olarak ithal etmez; eski görevin bulunması yeni yetki değildir.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud ve tek geçerli [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Bu deponun `AGENT.md` ve `agent/**` dosyaları ChatGPT'nin kontrol alanıdır; aşağıdaki tarihsel örneğin korunması onları değiştirme veya başka ortama kopyalama izni vermez.
+
+---
+
 # Codex Development OS Agent-Control Implementation
 
 **Task ID:** DEVOS-AGENT-CONTROL-2026-09-07  

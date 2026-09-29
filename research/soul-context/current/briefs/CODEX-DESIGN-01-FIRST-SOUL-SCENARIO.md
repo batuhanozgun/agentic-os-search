@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel ilk SOUL senaryosu görev önerisi; bugünkü ilk iş değildir.** Aşağıdaki DESIGN-01, küçük örnek seçimi, eski aday dal ve yazma izni 7 Eylül'deki öneriye aittir. Yeni SOUL işi veya backlog'u bu metinden seçilmez; eski öneri yeniden uygulanmaz. Özgün kapsam, kaynak ve kanıt sınırları korunur.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); yeni ürün deposu `soul-system`. Claude Code ve DevOS bu depoyu yalnız okur. Bu tarihi tasarım görevinin bulunması ürün tercihi, kurulum yetkisi veya gerçekleşmiş test değildir.
+
+---
+
 # DESIGN-01 — İlk SOUL kullanım senaryosu ve gözlenebilir başarı koşulları
 
 **Görev ID:** DEVOS-DESIGN-01-2026-09-07  

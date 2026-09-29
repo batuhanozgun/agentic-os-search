@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel DevOS 02 / Codex planlama şartnamesi.** Aşağıdaki `_02` hedefi, üç dosyalık yazma kapsamı, K01–K12, pilot seçimi ve sonraki sürekli mandat önerisi eski denemeye aittir. Bu metin bugünkü kurulum planı değildir; eski iş ve yetki yeni kurucuya taşınmaz.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); ürün `soul-system`. Claude Code ve DevOS bu depoyu yalnız okur. Özgün şartname, kaynaklar ve ölçütler tarihsel olarak korunur; burada yeni plan, kurulum veya SOUL işi açılmaz.
+
+---
+
 # DevOS 02 — Araştırma temelli geliştirme çekirdeğinin planlanması
 
 **Görev:** `DEVOS02-BOOTSTRAP-PLAN-2026-09-08`  

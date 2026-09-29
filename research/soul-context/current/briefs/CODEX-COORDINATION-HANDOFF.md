@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel Codex koordinasyon mandatı ve devir görevi.** Aşağıdaki sürekli devam, aday dalda yazma ve yeni Codex sohbeti açma hükümleri eski `soul-development-os` denemesine aittir. Eski READY ölçütü bugünkü DevOS'u kabul etmez; mandat yeni kurucuya devredilmez.
+>
+> Güncel geçiş [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); yeni ürün `soul-system`. Claude Code ve DevOS bu depoyu yalnız okur. Özgün görev aşağıda korunur; yeniden gönderilmez veya uygulanmaz.
+
+---
+
 # Codex Development Coordination Handoff
 
 **Task ID:** DEVOS-COORD-HANDOFF-2026-09-07  

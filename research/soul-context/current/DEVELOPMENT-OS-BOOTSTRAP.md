@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel Codex bootstrap köprüsü; güncel operasyon bağlamı değildir.** Aşağıdaki CURRENT etiketi, depo topolojisi, Stage 0–4, model/ortam tercihleri ve ChatGPT↔Codex sorumlulukları 6 Eylül'deki girişimin kaydıdır. Eski `soul-development-os` ve `soul-production` hedefleri bugünkü çalışma veya ürün otoritesi değildir.
+>
+> Güncel geçiş [D030](../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri): DevOS Claude Code cloud'da kurulacak ve çalışacak; tek plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); yeni ürün `soul-system`. Claude Code ve DevOS bu depoyu yalnız okur. Özgün tarihçe, kaynak ve kanıt sınırları aşağıda aynen korunur; eski fresh-session rotası yeni görev açmaz. Bu bakımın devamı [REPOSITORY-TRANSITION](../../../REPOSITORY-TRANSITION.md)'dadır.
+
+---
+
 # Current SOUL Development OS Bootstrap Bridge
 
 **Status:** CURRENT OPERATIONAL CONTEXT / BOOTSTRAP BRIDGE  

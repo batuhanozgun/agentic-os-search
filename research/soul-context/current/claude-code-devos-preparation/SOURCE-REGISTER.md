@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel kaynak, okuma ve erişim kaydı.** Aşağıdaki tam/kısmi okuma, ZIP aktarımı, W01 ve platform gözlemleri 23 Eylül'deki hazırlığa aittir. Bunlar bugünkü okuma, dosya erişimi, kurucu yeterliği veya yeni görev kanıtı değildir; özgün kimlikler ve kanıt sınırları aynen korunur.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır. DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Eski kaynak kaydı kurulum veya eski W01'i yeniden başlatma talimatı değildir.
+
+---
+
 # Kaynak, okuma, erişim ve kanıt kaydı
 
 **Bağ:** CC-DEVOS-PREP-20260923. **Kayıt:** 23 Eylül 2026. Bu dosya retrieval/kanıt kaydıdır; kaynakları veya hedef repository'nin actual state'ini ikame etmez.
