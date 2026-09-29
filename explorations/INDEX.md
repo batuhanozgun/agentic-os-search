@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — kavramsal denemeler ile tarihsel DevOS kurulumunun ayrımı.** Bu alan kavramsal çalışma ve öğrenme kütüphanesi olarak korunur; bütün explorations tarihsel kurulum sayılmaz. Altıncı paket [EXP-006](EXP-006-development-os-calisma-duzeni/INDEX.md), SOUL'dan DevOS sorumluluklarının türetimini ve eski P4/P5 teslimlerini taşır; o paketin eski kurulum ve sonraki iş yönleri tarihseldir. Diğer denemelerin kendi kabul ve kanıt statüleri değişmez.
+>
+> [D030](EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri) sonrasında DevOS Claude Code cloud'da kurulacak ve çalışacak; tek geçerli kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1), yeni ürün [soul-system](https://github.com/batuhanozgun/soul-system)'dir. Claude Code ve DevOS bu depoyu yalnız okur. Aşağıdaki araştırma ve eser okuma yolları bilgiye erişim içindir; kurulum görevi vermez. Ayrım bakımının devamı [REPOSITORY-TRANSITION](../REPOSITORY-TRANSITION.md)'dadır.
+
+---
+
 # Düşünce ve Model Denemeleri
 
 **Alan:** `explorations/` — `agent/` ve `research/` ile aynı seviyede, araştırmadan ayrı çalışma kütüphanesi.

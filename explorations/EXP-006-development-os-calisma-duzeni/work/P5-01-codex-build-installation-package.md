@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel P5 S00–S12 teslim kaydı; kurulum için uygulanmaz.** Aşağıdaki S00 başlangıcı, Codex runtime ve açık sağlayıcı/hesap kapıları eski pakete aittir. [D030](../DECISIONS.md#d030--claude-code-cloud-kurulum-devri) sonrasında DevOS'un kurucusu ve çalışma ortamı Claude Code cloud'dur; tek geçerli plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) altındadır (devir sürümü 2.1).
+>
+> Bu kayıttaki **74 sayfalık S00–S12 paketi**, konuşmada erişilebilen **40 sayfalık K00–K15 paketinden farklıdır**. Aşağıdaki dosya/QA beyanları tarihsel teslim kaydıdır; bu statü notu S paketinin bulunduğu, hash'inin yeniden doğrulandığı veya arşive eklendiği anlamına gelmez. Gerçek erişim [A3 arşiv işinde](../../../REPOSITORY-TRANSITION.md) ayrı doğrulanır; kayıt veya hash'ten eksik paket üretilmez. Claude Code ve DevOS bu depoyu yalnız okur. Özgün kullanıcı sözleri ve metnin tamamı aşağıda korunur.
+
+---
+
 # P5-01 — Codex inşa ve kurulum paketi
 
 **28 Eylül 2026 / release P5-1.0.0 / REHBER VE KAYNAK PAKETİ HAZIR / ACTUAL İNŞA BAŞLAMADI.**

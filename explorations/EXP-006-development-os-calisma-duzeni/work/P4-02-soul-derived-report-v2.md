@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel rapor teslim kaydı; güncel kurulum talimatı değildir.** Aşağıdaki v2 önerileri, hedef seçimleri ve sonraki iş ifadeleri kendi dönemine aittir. DevOS'un bugünkü kurulum ve çalışma ortamı Claude Code cloud; tek geçerli kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) altındadır (devir sürümü 2.1). Eski Claude tasarımının aynı ortam adını taşıması onu yeniden etkinleştirmez.
+>
+> [D030](../DECISIONS.md#d030--claude-code-cloud-kurulum-devri) yetki/statü geçişini, [depo bakım planı](../../../REPOSITORY-TRANSITION.md) ChatGPT'nin bu depodaki devamını taşır. Claude Code ve DevOS bu depoyu yalnız okur. Özgün metin, kaynak kimlikleri ve kanıt sınırları aşağıda değiştirilmeden korunur; bu not yeni mimari kabulü, yeniden test veya arşiv erişimi doğrulaması değildir.
+
+---
+
 # P4-02 — SOUL'dan türetilmiş DevOS raporu, ikinci yazım
 
 **Tarih:** 27 Eylül 2026. **Statü:** RAPOR TESLİMATI HAZIR / YENİ MİMARİ ÖNERİ / HEDEFTE KURULMADI.

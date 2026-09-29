@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel P4 v4 teslim kaydı; Codex ortam kararı geçersizdir.** [D030](../DECISIONS.md#d030--claude-code-cloud-kurulum-devri), D027/D029'un Codex ortam ve kurucu kararını geçersiz kılar. Aşağıdaki Agents API adayı ve “P5 Codex rehberi sıradaki” ifadeleri bugünkü kurulum yönü değildir. DevOS Claude Code cloud'da kurulacak ve çalışacaktır; tek geçerli plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) altındadır (devir sürümü 2.1).
+>
+> Özgün rapor tesliminin kaynak, öneri ve kanıt ayrımları aşağıda korunur; platformdan bağımsız bulgular sırf ortam değişti diye silinmez. Claude Code ve DevOS bu araştırma deposunu yalnız okur. [Bakımın A3 arşiv işi](../../../REPOSITORY-TRANSITION.md) ayrı ve henüz açıktır; bu statü notu dosyaların yeniden test edildiği veya bütünüyle arşivlendiği anlamına gelmez.
+
+---
+
 # P4-05 — Codex hedef ortamı revizyonu ve v4 rapor teslimi
 
 **Tarih:** 28 Eylül 2026. **Üst iş:** [WORK/P4](../WORK.md).

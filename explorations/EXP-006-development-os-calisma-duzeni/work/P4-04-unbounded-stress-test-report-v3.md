@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel P4 v3 teslim ve kanıt kaydı; uygulama kaynağı değildir.** Aşağıdaki değerlendirme bekleme ve sonraki aşama yönleri, 28 Eylül'deki teslimin tarihçesidir. Bugünkü DevOS kurulum ve çalışma ortamı Claude Code cloud; tek geçerli plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) altındadır (devir sürümü 2.1).
+>
+> [D030](../DECISIONS.md#d030--claude-code-cloud-kurulum-devri) güncel yetki/statü ayrımını taşır. Claude Code ve DevOS bu araştırma deposunu yalnız okur. Raporun özgün bulguları ve kanıt sınırları korunur; tarihsel statü bunları yeniden yapılmış test veya yeni mimari kabulü yapmaz. Rapor gövdelerinin gerçek erişim/arşiv doğrulaması [bakım planının A3 işidir](../../../REPOSITORY-TRANSITION.md), bu notla tamamlanmış sayılmaz.
+
+---
+
 # P4-04 — Sayfa sınırsız stres testi ve v3 rapor teslimi
 
 **Tarih:** 28 Eylül 2026. **Üst iş:** [WORK/P4](../WORK.md).

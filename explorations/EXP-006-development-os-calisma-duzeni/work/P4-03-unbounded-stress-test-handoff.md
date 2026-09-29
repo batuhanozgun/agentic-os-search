@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel yarım çalışma devri; yeniden başlatma talimatı değildir.** Aşağıdaki v3 erişim sorunu ve devam reçetesi, P4-03'ün yazıldığı ana aittir. Daha sonraki v3 teslim kaydı [P4-04](P4-04-unbounded-stress-test-report-v3.md)'tedir; iki olay birbirinin yerine geçirilmez. Buradaki eski “current amaç” ve “yeni oturumda yapılacak” ifadeleri bugünkü işi açmaz.
+>
+> Güncel yetki [D030](../DECISIONS.md#d030--claude-code-cloud-kurulum-devri): DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Özgün devir, kaynak kimlikleri ve doğrulanmamış iddiaların statüsü korunur. Gerçek arşiv erişimi ve ChatGPT'nin devamı [depo bakım planındadır](../../../REPOSITORY-TRANSITION.md).
+
+---
+
 # P4-03 — Sayfa sınırsız stres testi ve yeni oturum devri
 
 **Tarih:** 28 Eylül 2026. **Üst iş:** [WORK/P4](../WORK.md).

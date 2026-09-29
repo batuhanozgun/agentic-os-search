@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — DEVOS-001'in tarihsel öz değerlendirmesi ve ders kaydı.** Aşağıdaki hata analizi, yeni yöntem ve beklenen kanıt o denemenin kapsamındadır. Ne eski tasarım işi yeniden açılır ne de eski dersler bu notla geçersiz veya bağımsız doğrulanmış sayılır. Özgün değerlendirme aşağıda değiştirilmeden korunur.
+>
+> Güncel kurulum devri [D030](../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: Claude Code cloud ve tek geçerli [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. ChatGPT'nin bu devirdeki devamı [depo bakımıdır](../../../REPOSITORY-TRANSITION.md); tarihsel REVIEW, güncel kurulum kabulü değildir.
+
+---
+
 # DEVOS-001 — değerlendirme ve öğrenme
 
 **23 Eylül 2026 / yön düzeltmesi.** Güncel iş [WORK](WORK.md), yeni okuma yöntemi [METHOD](METHOD.md).

@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — DEVOS-001'in tarihsel çalışma yöntemi; etkin kontrol veya güncel iş sırası değildir.** Aşağıdaki tasarım turları, Foundation okuma paylaşımı ve R-006 devri eski denemenin yöntemidir. Araştırma kullanımına ilişkin dersler kaynak olarak kalır; eski yöntemin varlığı onu yeni kurulumun yöntemi yapmaz.
+>
+> Güncel yetki/statü [D030](../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır. DevOS'un tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan), devir sürümü 2.1, ortamı Claude Code cloud'dur. Claude Code ve DevOS bu depoyu yalnız okur. ChatGPT'nin bakım devamı [REPOSITORY-TRANSITION](../../../REPOSITORY-TRANSITION.md)'dadır; aşağıdaki “Yeni oturum” rotası tarihsel inceleme içindir.
+
+---
+
 # DEVOS-001 — tasarım ve ihtiyaç odaklı kaynak kullanımı
 
 **Sürüm:** 2 / 24 Eylül 2026. Bu denemenin çalışma yöntemi; agent-control veya seçilmiş mimari değil.

@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel iki-repo görüşme sözleşmesi; etkin iletişim kanalı değildir.** Aşağıdaki R/C adresleri, beklenen yanıtlar ve oturum tetikleme rolleri DEVOS-001'e aittir. Eski mesajları yeniden göndermek, yeni C yanıtı beklemek veya eski hedefe iş vermek bu dosyadan yetki kazanmaz. Gönderim/alım/uygulama ayrımları ve özgün kanıt sınırları korunur.
+>
+> Bugünkü DevOS kurulum planının tek evi [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1), ortamı Claude Code cloud'dur. [D030](../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri) geçerli devir ve salt-okuma sınırını taşır. ChatGPT başka depolara yazmaz; bu depodaki devamı [bakım planıdır](../../../REPOSITORY-TRANSITION.md). Aşağıdaki metin yeni platformda denenmiş kanal olarak sunulmaz.
+
+---
+
 # DEVOS-001 — repo üzerinden görüşme ve devir
 
 **Rol:** kanal sözleşmesi. Actual mesaj yayını/alımı, beklenen yanıt ve sıra yalnız [WORK](WORK.md)'te. İlk iki-repo aktarımının kanıtı oradadır; sürekli otomasyon ve uygulama yaptırımı kurulmuş değildir.

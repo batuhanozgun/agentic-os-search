@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — EXP-006 kurulum yönünün güncellemesi.** Aşağıdaki özgün EXP-006 satırındaki ve onu açıklayan paragraftaki “OPEN / P5 BUILD PACKAGE READY”, “Codex builder/runtime”, “Supabase seçilmedi” ve S00 devam ifadeleri 28 Eylül tesliminin tarihsel kaydıdır; bugünkü kurulum veya hesap kararı değildir. Diğer denemelerin kavramsal içerikleri ve kendi kabul/kanıt statüleri bu notla değişmez.
+>
+> EXP-006'nın güncel devir statüsü [D030](EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri) ve [STATE](EXP-006-development-os-calisma-duzeni/STATE.md)'tedir: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek geçerli plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Eski paket/test beyanları yeni erişim veya yeni doğrulama değildir; [A3 arşiv işi](../REPOSITORY-TRANSITION.md) bunları ayrıca kimliklendirir. Aşağıdaki katalog gövdesi kaynak ve değişim izini korumak için aynen bırakılmıştır.
+
+---
+
 # Denemeler — Katalog
 
 Türetilmiş keşif dizinidir. Ayrıntılı kaynak veya güncel paket durumunun yerine geçmez.

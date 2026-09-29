@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — DEVOS-001'in tarihsel amaç ve yetki kaydı.** Aşağıdaki “güncel yön”, hedef depo ve “yetkili iş” ifadeleri 24 Eylül'deki denemeye aittir; bugünkü kurucuya görev vermez. Kullanıcının özgün mesajı ve o dönemdeki yorum/sınırlar değiştirilmeden korunur.
+>
+> Güncel geçiş [D030](../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Research'ün bu devirdeki devamı [depo bakım planıdır](../../../REPOSITORY-TRANSITION.md), eski D1/D2 tasarımı veya Claude yazışması değildir.
+
+---
+
 # DEVOS-001 — amaç, kullanıcı yönü ve sınırlar
 
 **Güncel yön:** 24 Eylül 2026; Foundation'ı ihtiyaç odaklı kullanarak bütünsel çalışma düzeni tasarımına geçiş.

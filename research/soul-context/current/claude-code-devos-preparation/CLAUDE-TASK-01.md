@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel TASK-01 ve tarihsel DEVOS-001 yönlendirmesi.** Aşağıdaki “yeni kanal” ve “ilk mesaj” 23 Eylül'deki geçişin kaydıdır; ne TASK-01 ne R-001 bugünkü kurucuya verilecek görevdir. Özgün metne erişim ve hazırlanmış/gönderilmiş/uygulanmış ayrımları aynen korunur.
+>
+> Güncel kurulum devri [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: Claude Code cloud ve tek geçerli [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu araştırma deposunu yalnız okur. Eski exact kaynaklara dönmek, o kaynakların görev ve izinlerini yeniden etkinleştirmez.
+
+---
+
 # CC-DEVOS-PREP-01 — tarihsel görev metni
 
 **Rol:** HISTORICAL_TASK / yeni görev değil. **23 Eylül 2026 yönlendirmesi:** [DEVOS-001 WORK](../../../../development-os/attempts/001/WORK.md).

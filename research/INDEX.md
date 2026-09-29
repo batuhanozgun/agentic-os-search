@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — araştırma yönlendirmesi ile kurulum yönünün ayrımı.** Bu dosya araştırma kütüphanesinin etkin yönlendiricisidir; Foundation, studies ve concepts'in kendi araştırma statüleri korunur. Aşağıdaki eski ChatGPT↔Codex devirleri, eski DevOS hedefleri ve `soul-production` atıfları tarihsel bağlamdır; bugünkü kurulum yetkisi değildir.
+>
+> DevOS'un kurulum ve çalışma ortamı Claude Code cloud; tek geçerli kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1), yeni ürün deposu [soul-system](https://github.com/batuhanozgun/soul-system)'dir. [D030](../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri) statü geçişini taşır. Claude Code ve DevOS bu depoyu yalnız okur. Araştırmanın kendi STATE kayıtları DevOS'un canlı durumu değildir; eski hedefe talimat gönderme veya kurulum başlatma rotası olarak kullanılmaz. [Depo bakımı](../REPOSITORY-TRANSITION.md) araştırma ve kurulumdan ayrı iştir.
+
+---
+
 # Research — Root Index
 
 ## Role

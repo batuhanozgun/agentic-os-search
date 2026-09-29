@@ -1,3 +1,9 @@
+> **29 Eylül 2026 — tarihsel ilk Claude taslağı; bugünkü kurulum planı değildir.** Aşağıdaki topoloji, fiziksel yerleşim, kabul paketi ve “sonraki P4 işi” eski öneridir. Yeni kararın da Claude Code cloud olması bu taslağı yeniden etkinleştirmez. DevOS'un tek geçerli kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) altındadır (devir sürümü 2.1); güncel yetki ayrımı [D030](../DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır.
+>
+> Özgün teknik öneriler, kullanıcı sınırları, kaynak okuma kapsamı ve dar yerel test kaydı aşağıda aynen korunur. Bunlar yeni hedefte doğrulanmış davranış veya yeni kurulum görevi değildir. Claude Code ve DevOS bu depoyu yalnız okur; ChatGPT'nin bu devirdeki işi [araştırma/kurulum ayrımı bakımıdır](../../../REPOSITORY-TRANSITION.md).
+
+---
+
 # P4-01 — Claude çalışma biçimi ve fiziksel çalışma alanı
 
 **Üst iş:** [WORK/P4](../WORK.md). **Tarih:** 27 Eylül 2026.  
