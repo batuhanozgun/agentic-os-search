@@ -1,25 +1,44 @@
 # SOUL Research
 
-Bu repository altı farklı rolü birbirine karıştırmadan taşır.
+**Bu depo bağımsız araştırma kütüphanesidir; DevOS kurulumunun güncel çalışma deposu değildir.** Araştırma ile tarihsel kurulum kayıtlarını ayıran bakım çalışması [REPOSITORY-TRANSITION.md](REPOSITORY-TRANSITION.md) üzerinden aşamalarla yürütülüyor. **Henüz tamamlanmadı:** alt dosyalardaki eski yönlerin taranması ve rapor arşivi açık; bu kök uyarısı bütün deponun düzeltilmiş olduğu anlamına gelmez.
 
-| Alan | Amaç | Giriş |
+## DevOS kurucusu için güncel adres
+
+Batu'nun 29 Eylül 2026 kararıyla DevOS **Claude Code cloud** üzerinde kurulacak ve çalışacaktır. Geçerli kurulum planının tek evi [batuhanozgun/devos — plan/](https://github.com/batuhanozgun/devos/tree/main/plan), bu devirdeki sürümü **2.1**'dir. Planın kopyası bu depoda tutulmaz. Yeni SOUL ürün deposu [soul-system](https://github.com/batuhanozgun/soul-system)'dir; eski [soul](https://github.com/batuhanozgun/soul) deposu değiştirilmeden korunan tarihsel denemedir.
+
+Bu depodaki eski Codex/P5/DEVOS-001/002 kayıtları güncel kurulum yönü değildir. Alt dosyalarda “güncel durum”, “current”, “sıradaki iş” veya “next” yazması Claude Code'a kurulum görevi ya da yetki vermez. Aktif araştırma paketlerinin kendi çalışma durumları da DevOS'un canlı durumuyla aynı değildir.
+
+## Depo sahipliği ve erişim sınırı
+
+Bu depo, Batu'nun onayıyla **ChatGPT'nin yazarı olduğu araştırma deposudur**. Claude Code kurucusu ve DevOS ekibi yalnız okur; buraya yazmaz. ChatGPT de `devos`, `soul`, `soul-system`, `devos-evals` veya `devos-backup` depolarına yazmaz.
+
+`AGENT.md` ve `agent/**` **ChatGPT'nin kontrol alanıdır**; Claude Code ve DevOS ajanları için talimat değildir. Bu dosyaların değiştirilmesi ayrı açık kullanıcı onayı gerektirir; mevcut depo bakım yetkisi bunu kapsamaz.
+
+`batuhanozgun-devos` makine hesabının geçici teknik yazma imkânı salt okuma kuralını değiştirmez. Bu hesaba bağlı bir commit görülürse düzeltmeden önce Batu'ya bildirilir. Kütüphane aktarımı sonrası erişimin kaldırılması görev belgesindeki karardır; bu bakım çalışması erişim ayarını değiştirmez.
+
+## Alanlar: araştırma ve tarihsel kurulum
+
+| Alan | Amaç ve statü | Giriş |
 |---|---|---|
-| Agent control | Assistant'ın muhakeme ve davranış kuralları | [AGENT.md](AGENT.md) |
-| Araştırma | Foundation, bağlam ve aday araştırma kütüphanesi | [research/INDEX.md](research/INDEX.md) |
-| Terim çıkarımı ve ortak referans | Önce studies araştırmalarındaki kullanımların kendi bağlamlarında tam okumayla çıkarılması; bütün çıkarımlar tamamlandıktan sonra ortak değerlendirme | [concepts/INDEX.md](concepts/INDEX.md) |
-| Düşünce ve Model Denemeleri | Diyalog, kavramsal prova, taslak model, görselleştirme ve öğrenme izleri | [explorations/INDEX.md](explorations/INDEX.md) |
-| Development OS denemeleri | Development OS'u kuracak çalışma düzeninin deneme bazında yönetimi, aktörler arası görüşme, kanıtlı değerlendirme ve öğrenme | [development-os/INDEX.md](development-os/INDEX.md) |
+| Araştırma | Foundation, bağlam ve aday araştırma kütüphanesi; araştırma içerikleri korunur | [research/INDEX.md](research/INDEX.md) |
+| Terim çıkarımı ve ortak referans | Studies kullanımlarının kendi bağlamında çıkarılması; ardından ortak değerlendirme; araştırma programı | [concepts/INDEX.md](concepts/INDEX.md) |
+| Düşünce ve Model Denemeleri | Diyalog, kavramsal prova, taslak model ve öğrenme; EXP-006'nın eski kurulum yönü tarihsel | [explorations/INDEX.md](explorations/INDEX.md) |
+| Tarihsel Development OS denemeleri | Eski kurulum/çalışma düzeni denemelerinin ders ve kanıt kayıtları; güncel kurulum görevi değil | [development-os/INDEX.md](development-os/INDEX.md) |
+| Agent control | Yalnız ChatGPT'nin muhakeme ve davranış kuralları | [AGENT.md](AGENT.md) |
 | Yayınlar | Batuhan Özgün’ün yayımlanmış AI yazılarının kaynak bağlantılı metin arşivi | [publications/linkedin/README.md](publications/linkedin/README.md) |
+| Depo bakımı | Araştırma/kurulum ayrımının güncellenmesi; DevOS mimarisi veya kurulum planı değil | [REPOSITORY-TRANSITION.md](REPOSITORY-TRANSITION.md) |
 
 ## Otorite ayrımı
 
-`AGENT.md` ve `agent/**` kontrol alanıdır. `research/**`, `concepts/**`, `explorations/**` ve `development-os/**` proje çalışma malzemesidir. `publications/**` yayımlanmış metinlerin kaynak arşividir; içerikleri kendiliğinden agent talimatı veya kabul edilmiş araştırma sonucu olmaz. Bir denemedeki öneri, rol canlandırması veya örnek yönerge kendiliğinden etkin sistem kuralı değildir.
+`research/**`, `concepts/**`, `explorations/**` ve `development-os/**` proje çalışma malzemesidir. `publications/**` yayımlanmış metinlerin kaynak arşividir. Bir kaynak, öneri, rol canlandırması veya örnek yönerge kendiliğinden etkin sistem kuralı değildir.
 
-Araştırmanın güncel yetkisi ilgili STATE dosyalarından okunur. Development OS denemelerinin koordinasyonu kendi güncel giriş kaydında, hedefteki gerçek teknik iş kendi reposunda kalır. Bir denemenin arşivlenmesi Foundation'ın kabul durumunu, Development OS'nin görevini veya SOUL'un mimarisini değiştirmez.
+Araştırmanın güncel yetkisi ilgili araştırma STATE dosyalarından okunur; bunlar Claude Code için kurulum talimatı değildir. Tarihsel belge statüsü, içerdiği gerçek gözlemi hipoteze veya bütün önerilerini kabul edilmiş karara dönüştürmez. Eski kullanıcı kararları kendi tarihçeleriyle korunur; bugünkü kurulum yönünü dışarıdaki geçerli plan taşır.
 
-## Development OS — deneme-002 / varsayım denetimi
+## Development OS — tarihsel deneme-002
 
-[Development OS INDEX](development-os/INDEX.md) → [DEVOS-002 güncel kayıt](development-os/attempts/002/README.md). Konuşma ve sınırlı Claude Cloud ortam kontrolü yapıldı; şimdi varsayım denetimi sürüyor, kurulum yönlendirmesi duruyor. Güncel kullanıcı kısıtları, önceki önerilerin statüsü ve sonraki sorumluluk 002 kaydından okunur. SOUL mimarisi veya çalışan Development OS kabul edilmiş değildir. Ayrı geliştirme reposunun adı/adresi henüz verilmedi; araştırma deposu uygulama deposuna dönüşmedi. [001'in Research çalışması duraklatılmıştır](development-os/attempts/001/WORK.md); eski plan ve mesaj görevleri 002'ye taşınmaz.
+[Development OS INDEX](development-os/INDEX.md) → [DEVOS-002 tarihsel kayıt](development-os/attempts/002/README.md). Bu eski denemede konuşma, sınırlı Claude Cloud ortam kontrolü ve varsayım denetimi yapılmıştı; kayıtlar bugünkü kurulumun sıradaki işi değildir. [001'in eski Research çalışma kaydı](development-os/attempts/001/WORK.md) da tarihsel olarak korunur. Denemelerin SOUL mimarisi veya çalışan DevOS kabulü olduğu ileri sürülmez.
+
+Kök girişin düzeltme öncesi metni [başlangıç README kopyasında](maintenance/2026-09-29-research-installation-separation/baseline/README.md) aynen korunur. Kopyadaki yönlendirmeler yalnız tarihsel inceleme içindir; kökten çalışan güncel bağlantılar yerine kullanılmaz.
 
 ## Concepts — yeni başlangıç
 
