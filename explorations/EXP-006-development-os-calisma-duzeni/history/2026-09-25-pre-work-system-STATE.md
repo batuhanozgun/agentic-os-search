@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel STATE ve eski sonraki iş; güncel kurulum talimatı değildir.** Aşağıdaki çalışma yönü 25 Eylül 2026 anlık görüntüsüne aittir. [D030](../DECISIONS.md#d030--claude-code-cloud-kurulum-devri) sonrasında DevOS kurulumunun tek geçerli planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) altındadır; buradaki eski yetki ve sonraki iş devralınmaz.
+>
+> Özgün gövde değiştirilmeden korunur; tarihsel bulgu ve kalite gereksinimleri topluca geçersiz sayılmaz. Göreli bağlantıları eski konumuyla okumak için [aynı gövdenin sabit tarihsel sürümünü](https://github.com/batuhanozgun/agentic-os-search/blob/8e2d34ce14ec93d12af58ff52046ec6c4cc15d6e/explorations/EXP-006-development-os-calisma-duzeni/STATE.md) kullanın. Bu da tarihsel kaynaktır, güncel talimat değildir. Kaynak eşliği ve bağlantı sınırı [history girişinde](README.md#historical-source-map) açıklanır.
+
+---
+
 # EXP-006 — Güncel durum ve konuşma planı
 
 **Açılış:** 25 Eylül 2026.  
