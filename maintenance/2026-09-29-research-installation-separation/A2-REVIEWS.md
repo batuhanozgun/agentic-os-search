@@ -1,3 +1,59 @@
+# A2 — inceleme kayıtları: ikinci küme ve güncel toplam
+
+**İş:** REPO-SEPARATION-20260929 / A2. **Tarih:** 30 Eylül 2026. **Sonuç:** `current/reviews/` grubunda **15/22** dosyanın içerik/statü incelemesi sonuçlandırıldı: önceki altı ve bu kümedeki dokuz. Başlangıç current envanterinde toplam **34/41**. Kalan yedi review dosyası ve A2'nin diğer girişleri açık; A3/A4/A5 tamamlanmadı. Tek güncel bakım devamı [REPOSITORY-TRANSITION](../../REPOSITORY-TRANSITION.md)'dedir.
+
+Bu dosyanın aşağıdaki **ilk altı kayda ait önceki bölümü tarihsel işlem kaydı olarak aynen korunmuştur**. Oradaki 6/22, 25/41 ve “kalan 16” ifadeleri önceki turun kapanışını anlatır; bugünkü devamı belirlemez. Önceki kümenin gerçek yayın commit'i `4e1eaee7f2e888cc8b51e67ace2edd2aebf9fef6` bu turun başlangıcında uzak main'den doğrulandı.
+
+## İkinci kümenin yetkisi ve başlangıcı
+
+Batu'nun [özgün görevi](REQUEST.md) §3.2, §4–§6 ve bu konuşmadaki devam talebi uygulanır. Özgün görev ile `REPOSITORY-TRANSITION.md` sabit başlangıçtan yeniden okundu; sıra ve kapsam değiştirilmedi. Bu, yeni Claude kurulum planını uygulama işi değildir. Yazma yalnız araştırma deposunda; kontrol katmanı ve diğer depolar kapsam dışındadır.
+
+Başlangıç main'i **`4e1eaee7f2e888cc8b51e67ace2edd2aebf9fef6`**, root tree **`b09b7d30eccbd8405c95ba2174164b3467e1a368`**. Önceki kaynaklar ve bakım planı bu ref'ten alındı. Genel karşılaştırma tabanı `8cd01e4afdcd0d37960b05930c91e1244678be6e` değişmedi. Başlangıç main'inde `author=batuhanozgun-devos` ve `committer=batuhanozgun-devos` sorguları boş döndü; bu, bütün dal ve kimliklerde yokluk kanıtı değildir.
+
+## Dokuz dosyanın tam listesi
+
+Ortak önek **`research/soul-context/current/reviews/`**. Numaralar [başlangıç envanterinin](A2-CURRENT-INVENTORY.md) 26–34 satırlarıdır. Her dosya tam okundu; her birine yalnız altı satırlık tarihli statü/yönlendirme notu eklendi.
+
+| # | Dosya | Başlangıç blob'u | Byte | Gerekçe |
+|---|---|---|---:|---|
+| 26 | `2026-09-06-stage-1a/CODEX-RESPONSE.md` | `7486c3c1034eec067186d1fdc3e5c2cadc61d52a` | 24164 | AGENTS/STATE/iş kaydı taslakları, CLI örneği ve G0 önerisi eski Codex görevine bağlandı; etkin kontrol ya da güncel kurulum talimatı sayılmıyor. Öneksiz özgün yanıta sürümlü bağlantı var. |
+| 27 | `2026-09-06-stage-1a/REVIEW.md` | `7091782069c320cdb079347ed3f1943d3772ff5d` | 13815 | G0'a geçiş önerisi tarihsel kaldı. Bırakma kaydı olmadan kesinti karşı örneği ve aday/deney/kabul ayrımları korunuyor; eski hash/satır kimliklerinin yeni notu kapsamadığı belirtildi. |
+| 28 | `2026-09-07-collaboration/REVIEW.md` | `5d4e06480a17aca2ae22d72ff67814c77a65db59` | 11437 | Eski Codex merkezli aday ve yerel Claude/CLI seçenekleri güncel ortam seçimi olmaktan ayrıldı. Rol/oturum, iletişim/kalıcılık ve kabiliyet/yetki ayrımları reddedilmedi. |
+| 29 | `2026-09-07-coord-01/CODEX-RESPONSE.md` | `7156154fa795ec2c19b920fe1ba6ec6b5a5b4059` | 8650 | Eski tamamlanma ve devir önerisi güncel iş sayılmıyor. Kullanıcı aktarımı, yerel RESULT dosyasının byte kopyası veya bağımsız olay gözlemi haline getirilmedi. |
+| 30 | `2026-09-07-coord-01/REVIEW.md` | `cc05adecf3aec58ff451b57a6f5a91d4d04e451a` | 8195 | COORD-02 hazırlığı ve yeni ana oturum önerisi eski sıraya bağlandı. Kaynakla kontrol edilen metinsel bulgu ile raporlanmış native yürütmenin farklı kanıt statüleri korundu. |
+| 31 | `2026-09-07-coord-02/FRESH-SESSION-REVIEW.md` | `486a8207dc92be73fa65625d518b4ebe9390aac2` | 10813 | Dar olumlu oturum gözlemi ve COORD-03 önerisi tarihsel. Sonradan bildirilen bellek-bağlamı sınırı için COORD-03 incelemesine doğrudan yol eklendi. |
+| 32 | `2026-09-07-coord-02/IDENTITY-RESOLUTION.md` | `550a5971e9746b3382d45a0dc67942cbd0a955bc` | 8828 | Çözümlenmiş iki-byte temsil farkı korunuyor. Eski NOT RUN ve hazır sohbet mesajının tekrar deney başlatmaması için sonraki fresh-session kaydına yol verildi. |
+| 33 | `2026-09-07-coord-02/REVIEW.md` | `73f4d62b7b1d094c37e210a9294e26736f0c8be2` | 6528 | Önceki dosya talebinin daha sonra karşılandığı, kimlik çözümü ve oturum değerlendirmesi bağlantılarıyla gösterildi. Eski uyuşmazlık gözlemi geriye dönük silinmedi. |
+| 34 | `2026-09-07-coord-03/REVIEW.md` | `6b39a486fee6f4b50ae78d75e5566aeca5745137` | 9299 | Eski özel aday dalının erişim/kapanış sonucu güncel ürün veya işletim kabulü sayılmıyor. Yeni ürün `soul-system`; eski hedefte normal iş başlatma önerisi uygulanmıyor. |
+
+Dokuz özgün kaynağın metadata boyut toplamı **101.729 byte**. Bu, aktarılmış GitHub boyutlarının toplamıdır; yeni bir deney, hedefte yeniden performans veya bağımsız doğruluk ölçüsü değildir.
+
+## Okuma ve korunma
+
+Stage-1A yanıtı 1–150, 151–300 ve 301–son aralıklarıyla; Stage-1A incelemesi 1–90 ve 91–son aralıklarıyla tamamlandı. Diğer yedi dosyanın içerik gövdeleri baştan sona okundu. Collaboration ve fresh-session yanıtlarında araç zarfının son metadata satırları kesilmiş olsa da içerik gövdesi kapanış paragrafına kadar görünüyordu; gövde kapsamı ayrıca esas alındı. Kaynakların atıf yaptığı eski arşivler, yerel günlükler, bütün araştırma külliyatı ve haricî ürün belgeleri bu tur yeniden incelenmedi.
+
+Eski talimatlar çalıştırılmadı; parser, alt ajan, model veya platform deneyi başlatılmadı. Tarihsel bir gözlem hipoteze; öneri kullanıcı kararına; dar olumlu sonuç bugünkü sistem kabulüne çevrilmedi. Statü notu eklenmesi, platformdan bağımsız muhakeme ve güvence ayrımlarını geçersiz saymaz. Kaynak gövdeleri, biçim kusurları ve dosya sonları dahil korunur.
+
+## Fark, bağlantı ve yayın denetimi
+
+Kaynak-only doğrulama adayı **`8e1f747fc64aed68710b0d867f53dcf86241b99b`**, tree **`0bf08586887d3da5fa23e111fc4aec087fc0a1f5`**, parent başlangıç main'idir. GitHub compare dokuz dosyada ayrı ayrı **6 ek satır, 0 çıkarılan satır** verdi; toplam **54 ek satır**. Patch'ler yalnız dosya başındaki `@@ -1,3 +1,9 @@` ekleridir; özgün gövde veya EOF değişikliği yoktur. Bu kümede kaynak düzeltmesi gerektiren ikinci bir aday oluşmadı.
+
+Yeni notlardaki **16 göreli bağlantının** yol çözümü yerelde denetlendi: dokuz D030, üç kök bakım planı, dört tarihsel sıra bağlantısı. Bu hesap tek başına hedef erişimi kanıtı değildir. D030'un açık HTML kimliği sabit ref'ten tekrar okundu; bakım planı ve bağlantı verilen inceleme gövdeleri bu tur doğrudan okundu. İki öneksiz özgün kaynak bağlantısı aynı sabit başlangıç ref'ine gider. Dış kurulum planının adresi görev belgesindeki adrestir; içeriği bu bakımda kopyalanmadı veya yeniden değerlendirildi denmedi. Eski gövde bağlantıları ve arama görünümünün notu atlaması A4/A5 kapsamındadır.
+
+Kaynak aday ağacında `AGENT.md` blob'u **`aea3dd845e0f0bbcfb34465edb23782e99f95c80`**, `agent/` tree'si **`24fb60959380ca072a2ade392be23931886e0dfe`**, `MOVES.md` blob'u **`23c0c3a020a7f53f5604a9455f5828f80bfaca52`** aynı kaldı. Kaynak değişiklikleri bu dokuz yolla sınırlıdır. Bakım kayıtları eklendikten sonra research alt ağacının kaynak adayıyla aynı kalması ve nihai farkın yalnız bu dokuz kaynak ile iki bakım kaydından oluşması kontrol edilir. Dosya silme/taşıma yoktur; başka depoya yazma yoktur.
+
+Doğrulama adayı, main'e yayın değildir. Bu kayıt ile kök plan aynı nihai ağaçta hazırlanır; yayın öncesi main/yazar kontrolü yenilenir, force uygulanmaz. Gerçek yayın ve dosya geri okuması ayrı gözlemdir; son commit kimliği kendisinin içine yazılmak için yeni bir commit döngüsü açılmaz. Denetim kaynak/diff ve sınırlı okuyucu incelemesidir; bağımsız Claude davranış deneyi değildir.
+
+## Kalan iş ve tek devam noktası
+
+Reviews grubunda **15/22**, current başlangıç envanterinde **34/41** sonuçlandırılmıştır. Kalan review dosyaları başlangıç envanterinin **35–41** satırlarıdır: `2026-09-07-d1/` altındaki iki kayıt; `2026-09-07-g1/` altındaki iki Markdown ve `PARSER-REGRESSION.py`; `2026-09-07-method/REVIEW.md`; `2026-09-08-devos02-plan/REVIEW.md`. Bu yedi dosyanın bu bakım kapsamında içerik/statü incelemesi henüz yapılmadı.
+
+**Sonraki giriş D1 kanıt/inceleme çiftidir.** Sonra plandaki diğer A2 girişleri; ardından A3 arşivleme, A4 genel tarama ve A5 son denetim gelir. Gerekçeli koruma da bir inceleme sonucudur; Python dosyasını bulmak onu çalıştırma yetkisi vermez. Tek güncel görev sırası kök [REPOSITORY-TRANSITION](../../REPOSITORY-TRANSITION.md)'dedir.
+
+---
+
+## Önceki kümenin korunmuş işlem kaydı — 4e1eaee yayını
+
 # A2 — tarihsel inceleme ve kanıt kayıtları
 
 **İş:** REPO-SEPARATION-20260929 / A2. **Kayıt tarihi:** 30 Eylül 2026. **Durum:** Kısmi; `current/reviews/` içindeki 22 dosyanın ilk 6'sının statü incelemesi tamamlandı. Bu, A2'nin veya depo genelindeki denetimin kapanışı değildir. Güncel bakım devamı yalnız [REPOSITORY-TRANSITION](../../REPOSITORY-TRANSITION.md)'dedir.

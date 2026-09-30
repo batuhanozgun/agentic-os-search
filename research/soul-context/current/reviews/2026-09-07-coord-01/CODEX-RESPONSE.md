@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel COORD-01 yanıt aktarımı ve devir kaydı.** Aşağıdaki tamamlanma, yerel RESULT yolu, yardımcı kullanımı ve sonraki hazırlık önerisi 7 Eylül'deki eski Codex görevine aittir. Güncel DevOS durumu veya yeni koordinasyon yetkisi değildir; kullanıcı aktarımı ile bağımsız gözlem arasındaki özgün sınır korunur.
+>
+> Güncel devir [D030](../../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. [Özgün kayıt](https://github.com/batuhanozgun/agentic-os-search/blob/4e1eaee7f2e888cc8b51e67ace2edd2aebf9fef6/research/soul-context/current/reviews/2026-09-07-coord-01/CODEX-RESPONSE.md) aşağıda aynen korunur; bu önek aktarımı ham çalışma günlüğüne dönüştürmez.
+
+---
+
 # COORD-01 — Kullanıcının aktardığı Codex yanıtı
 
 **Alınma:** 2026-09-07.  

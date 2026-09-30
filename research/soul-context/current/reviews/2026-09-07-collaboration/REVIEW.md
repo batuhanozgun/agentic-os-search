@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel iş devri ve ortam seçenekleri değerlendirmesi.** Aşağıdaki Codex merkezli aday, yerel CLI/Claude seçenekleri, G1-R1 durumu ve platform gözlemleri 7 Eylül'deki tartışmaya aittir. Bugünkü ortam kararı yeniden açılmaz; eski yardımcı çağrısı, sağlayıcı aktarımı veya pilot izni doğmaz. Rol/oturum, iletişim/kalıcılık ve kapasite/yetki ayrımları korunur.
+>
+> Güncel devir [D030](../../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Bakımın devamı [REPOSITORY-TRANSITION](../../../../../REPOSITORY-TRANSITION.md)'dedir; aşağıdaki eski yöntem seçimi değildir.
+
+---
+
 # Development OS — ajanlar arası iş devri seçenekleri
 
 **Review ID:** DEVOS-COLLABORATION-OPTIONS-2026-09-07  

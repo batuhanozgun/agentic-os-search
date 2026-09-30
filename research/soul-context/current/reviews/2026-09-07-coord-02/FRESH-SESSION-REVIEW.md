@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel yeni ana oturum değerlendirmesi.** Aşağıdaki dar olumlu sonuç ve COORD-03 önerisi 7 Eylül'deki Codex denemesine aittir; bugünkü yeterlik, işletim kabulü veya yeni yayın yetkisi değildir. Kullanıcı aktarımı ile doğrudan gözlem ayrımı korunur; sonraki erişim ve bellek-bağlamı sınırı [COORD-03 incelemesinde](../2026-09-07-coord-03/REVIEW.md) kayıtlıdır.
+>
+> Güncel devir [D030](../../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Aşağıdaki eski NOT RUN ve sonraki iş ifadeleri kendi kayıt zamanlarına aittir; deney veya COORD-03 yeniden başlatılmaz.
+
+---
+
 # COORD-02 sonrası yeni ana oturum — Sonuç değerlendirmesi
 
 **Review ID:** DEVOS-FRESH-SESSION-REVIEW-2026-09-07  

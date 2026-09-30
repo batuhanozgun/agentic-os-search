@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel COORD-03 uzak erişim ve sonuç incelemesi.** Aşağıdaki özel aday dalı, commit/dosya kontrolleri ve dar olumlu kapanış 7 Eylül'deki eski denemeye aittir; güncel ürün deposu veya DevOS işletim kabulü değildir. Bellek bağlamına ilişkin ek sınır ve raporlanan yerel olaylarla doğrudan uzak okumaların ayrımı korunur; eski paylaşım ya da normal iş önerisi yeniden başlatılmaz.
+>
+> Güncel devir [D030](../../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); yeni ürün deposu `soul-system`'dir. Claude Code ve DevOS bu depoyu yalnız okur. Bakımın devamı [REPOSITORY-TRANSITION](../../../../../REPOSITORY-TRANSITION.md)'dedir; aşağıdaki eski hedef depoya yazılmaz.
+
+---
+
 # COORD-03 — Uzak aday ve erişim sonucu değerlendirmesi
 
 **Review ID:** DEVOS-COORD-03-REVIEW-2026-09-07  

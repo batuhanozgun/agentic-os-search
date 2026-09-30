@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel COORD-02 kimlik çözümü ve gözlem önerisi.** Aşağıdaki iki-byte temsil farkı, dosya/tree eşliği ve sınırlandırılmış sonuç 7 Eylül'deki incelemeye aittir. Önerilen yeni ana oturumun daha sonra alınan raporu [FRESH-SESSION-REVIEW](FRESH-SESSION-REVIEW.md)'dedir; burada kalan NOT RUN ifadesi yeni bir deney başlatma gerekçesi değildir.
+>
+> Güncel devir [D030](../../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Aşağıdaki hazır sohbet mesajı ve eski yerel hedefler uygulanmaz; özgün kanıt ve yorum gövdesi korunur.
+
+---
+
 # COORD-02 — Özgün dosyalarla kimlik farkının çözülmesi
 
 **Review ID:** DEVOS-COORD-02-IDENTITY-2026-09-07  
