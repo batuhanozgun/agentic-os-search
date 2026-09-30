@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel G1 değerlendirmesi ve G1-R1 onarım önerisi.** Aşağıdaki native sonuçlar, sentetik parser testleri ve çalıştırılmamış gerçek ajan/pilot ayrımı 7 Eylül'deki denemeye aittir. R1 önerisinin sonradan askıya alındığı [yöntem değerlendirmesinde](../2026-09-07-method/REVIEW.md) kayıtlıdır; eski onarım veya deney yeniden başlatılmaz.
+>
+> Güncel devir [D030](../../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Aşağıdaki geçmiş test beyanları yeni hedefin yeterlik kanıtı değildir; özgün bulgular ve yetki sınırları değiştirilmeden korunur.
+
+---
+
 # G1 — Kanıt değerlendirmesi ve sınırlı devam önerisi
 
 **Review ID:** DEVOS-G1-REVIEW-2026-09-07  

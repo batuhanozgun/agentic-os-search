@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel DevOS 02 / RPD değerlendirmesi ve yetki önerisi.** Aşağıdaki “tek güncel sözleşme”, RPD01 kurulumu, AGENTS değişikliği, K/RP testleri ve normal devam önerisi 8 Eylül'deki `soul-development-os_02` denemesine aittir. Bugünkü kurucuya veya bu bakım çalışmasına yetki vermez. RPD'nin kavramsal içeriği, sentetik testlerin sınırı ve henüz benimsenmemiş öneri statüsü korunur; eski kontrol/kurulum görevi uygulanmaz.
+>
+> Güncel devir [D030](../../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. [Öneksiz tarihsel kaynak](https://github.com/batuhanozgun/agentic-os-search/blob/67fd24ec4574dbb3d5024cd9acd10d522ee11d00/research/soul-context/current/reviews/2026-09-08-devos02-plan/REVIEW.md) aşağıda değiştirilmeden korunur; eski hedef depoya yazılmaz, araştırma kontrol dosyaları değiştirilmez.
+
+---
+
 # DevOS 02 — RPD ışığında konsolide değerlendirme ve uygulama sözleşmesi
 
 **Kimlik:** `DEVOS02-RPD-INTEGRATION-2026-09-08-v2`  

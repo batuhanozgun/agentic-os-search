@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel bootstrap yöntem değerlendirmesi.** Aşağıdaki Foundation durumu, gstack karşılaştırması, G1-R1'in askıya alınması ve seçenek önerileri 7 Eylül'deki bağlama aittir; bugünkü araştırma aşamasını veya kurulum sırasını belirlemez. Araştırmayı okumak ile seçilen yöntemin yeterliğini göstermek arasındaki ayrım korunur; eski yöntem seçimi yeniden açılmaz.
+>
+> Güncel devir [D030](../../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Özgün araştırma ve değerlendirme gövdesi aşağıda korunur; bakımın tek devam kaydı [REPOSITORY-TRANSITION](../../../../../REPOSITORY-TRANSITION.md)'dir.
+
+---
+
 # Foundation, araştırma kullanımı ve bootstrap yönteminin yeniden değerlendirilmesi
 
 **Review ID:** DEVOS-METHOD-REASSESSMENT-2026-09-07  
