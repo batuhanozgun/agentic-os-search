@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel COORD-01 görev şartnamesi; güncel koordinasyon işi değildir.** Aşağıdaki yerel Codex pilotu, C1 hedefi, yardımcı çağırma ve çıktı yazma izinleri eski `soul-development-os` denemesine aittir. Eski görevin varlığı bugünkü gönderim veya yürütme yetkisi oluşturmaz; kaynak, gerekçe ve kanıt sınırları korunur.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Aşağıdaki pilot yeniden başlatılmaz; bakımın devamı [REPOSITORY-TRANSITION](../../../../REPOSITORY-TRANSITION.md)'dedir.
+
+---
+
 # COORD-01 — Yerleşik görev devriyle anlamlı kaynak incelemesi
 
 **Görev ID:** DEVOS-COORD-01-2026-09-07  

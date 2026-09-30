@@ -1,3 +1,15 @@
+# 30 Eylül 2026 — envanter ilerleme güncellemesi
+
+**Kalan dokuz brief'in statü incelemesi tamamlandı:** aşağıdaki başlangıç envanterinin 03–05 ve 10–15 satırları. Tam dosya listesi, gerekçeler, okuma ve fark denetimi [A2-BRIEFS](A2-BRIEFS.md)'dedir. Böylece `current/briefs/` altındaki 13 görevin tamamı ilgili turlarda işlenmiştir. 41 başlangıç dosyasının 19'u işlenmiş, 22 review/kanıt dosyasının incelemesi açık kalmıştır.
+
+Aşağıdaki tablo ve T/Ö/A işaretleri **29 Eylül'deki envanter ve o turun işlem anlık görüntüsüdür**; tarihsel metadata değiştirilmedi. O an A olan dokuz brief'in sonraki sonucu yukarıdaki yeni kayıttadır. Eski bölüm 5'teki “dokuz brief sonraki iş” ifadesi artık güncel değildir. Bu güncelleme bütün A2'nin veya depo denetiminin kapanışı değildir.
+
+Önceki sekiz not ve current README'nin gerçek yayın commit'i `cd35ef63d9a80dd6ff224726d2b083fa386a3c59` bu turun başında main'den doğrulandı; eski metindeki `ff395e0...` yalnız içerik doğrulama adayıdır. Bu güncelleme ve yeni dokuz notun nihai yayını ayrıca main/ref ve dosya geri okumasıyla doğrulanır.
+
+**Güncel tek devam noktası:** [REPOSITORY-TRANSITION](../../REPOSITORY-TRANSITION.md). Bu turdan sonraki alt küme `current/reviews/` içindeki 22 dosyadır (20–41). Eski denemeler yeniden başlatılmaz.
+
+---
+
 # A2 — eski current alanının envanteri ve ana devir girişleri
 
 **Tarih:** 29 Eylül 2026. **İş:** REPO-SEPARATION-20260929 / A2. **Statü:** KISMİ TAMAMLAMA; bu alanın envanteri tam, bütün içerik denetimi tamam değil.

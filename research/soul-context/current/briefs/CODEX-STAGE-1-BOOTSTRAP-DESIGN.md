@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel Stage-1 Codex başlangıç tasarımı görevi.** Aşağıdaki “minimum başlangıç”, eski depo topolojisi, model/ortam gözlemleri ve tasarım sırası 6 Eylül'deki denemeye aittir; bugünkü DevOS'un kapsamını veya kalite hedefini belirlemez. Kaynak ve öneri/kabul ayrımları özgün metinde korunur.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); yeni ürün `soul-system`. Claude Code ve DevOS bu depoyu yalnız okur. Eski tasarım görevi açılmaz; bakımın devamı [REPOSITORY-TRANSITION](../../../../REPOSITORY-TRANSITION.md)'dedir.
+
+---
+
 # Codex Stage 1 — Minimum Development OS Bootstrap Design
 
 **Brief ID:** DEVOS-BOOTSTRAP-S1-2026-09-06

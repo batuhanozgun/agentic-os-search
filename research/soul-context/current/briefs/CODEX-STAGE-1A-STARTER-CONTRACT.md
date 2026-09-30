@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel Stage-1A başlangıç sözleşmesi görevi.** Aşağıdaki üç belge adayı, başlangıç yetkisi, deney ve reviewer düzeni eski Codex tasarımına aittir. Bunlar güncel Claude kontrol dosyaları veya bugünkü uygulama sırası değildir; özgün tasarım, öneri ve yapılmamış test ayrımları korunur.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Eski sözleşme kurulum talimatı olarak alınmaz; bakımın devamı [REPOSITORY-TRANSITION](../../../../REPOSITORY-TRANSITION.md)'dedir.
+
+---
+
 # Codex Stage 1A — Somut başlangıç sözleşmesi adayı
 
 **Brief ID:** DEVOS-BOOTSTRAP-S1A-2026-09-06  

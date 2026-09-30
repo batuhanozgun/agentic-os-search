@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel COORD-02 yerel kalıcılaştırma görevi.** Aşağıdaki yeni dal, STATE ve iş kaydı yazma izinleri eski C1/COORD-01 zincirine aittir; bugünkü DevOS'u başlatmaz veya yeni kurucuya yazma yetkisi vermez. Yeni oturum kullanımının o tarihte sınanmadığı bilgisi dahil özgün kayıt korunur.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Eski yerel hazırlık yeniden uygulanmaz; bakımın devamı [REPOSITORY-TRANSITION](../../../../REPOSITORY-TRANSITION.md)'dedir.
+
+---
+
 # COORD-02 — Amaç ve güncel iş girişini kalıcı adaya bağla
 
 **Görev ID:** DEVOS-COORD-02-2026-09-07  

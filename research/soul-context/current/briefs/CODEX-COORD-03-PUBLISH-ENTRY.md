@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel COORD-03 uzak aday yayını görevi.** Aşağıdaki `bootstrap/coordination-entry` dalına push ve geri okuma kapsamı eski `soul-development-os` denemesine aittir. Bu izin bugünkü DevOS'a veya araştırma deposuna aktarılmaz; eski dar yayın/kabul ayrımı korunur.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); ürün deposu `soul-system`. Claude Code ve DevOS bu depoyu yalnız okur. Eski yayın görevi uygulanmaz; bakımın devamı [REPOSITORY-TRANSITION](../../../../REPOSITORY-TRANSITION.md)'dedir.
+
+---
+
 # COORD-03 — Gözlem sonucunu kaydet ve özel aday dalını erişilebilir kıl
 
 **Görev ID:** DEVOS-COORD-03-2026-09-07  

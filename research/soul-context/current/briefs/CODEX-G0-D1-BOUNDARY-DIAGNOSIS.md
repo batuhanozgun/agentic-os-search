@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel G0-D1 yerel sınır teşhisi görevi.** Aşağıdaki macOS/Codex profilleri, sentetik probe'lar, model koşusu ve bütçeler eski denemenin kapsamıdır; güncel Claude cloud yeterliği veya yeni test izni değildir. Tarihli hipotez, gözlem ve yapılmamış deney ayrımları korunur; eski teşhis yeniden yürütülmez.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Bakımın devamı [REPOSITORY-TRANSITION](../../../../REPOSITORY-TRANSITION.md)'dedir; aşağıdaki T1–T4 devamı değildir.
+
+---
+
 # G0-D1 — Yeni oturumda dar dosya sınırı teşhisi
 
 **Brief ID:** DEVOS-G0-D1-2026-09-06  

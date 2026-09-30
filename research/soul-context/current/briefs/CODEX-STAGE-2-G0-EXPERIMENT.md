@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel G0 aday kurma ve davranış deneyi şartnamesi.** Aşağıdaki yerel branch, AGENTS değişikliği, C0/C1, T1–T4 ve R(C1) düzeni eski Codex denemesine aittir. Eski kullanıcı benimsemesi bugünkü kurucuya yeni uygulama/deney yetkisi vermez; tarihsel kaynak kimlikleri ve kabul sınırları korunur.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. G0 yeniden başlatılmaz; bakımın devamı [REPOSITORY-TRANSITION](../../../../REPOSITORY-TRANSITION.md)'dedir.
+
+---
+
 # G0 — Yerel başlangıç adayı ve sınırlı davranış deneyi
 
 **Brief ID:** DEVOS-BOOTSTRAP-G0-2026-09-06  

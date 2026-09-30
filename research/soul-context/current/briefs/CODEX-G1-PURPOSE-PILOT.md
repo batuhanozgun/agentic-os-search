@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel G1 amaç ve devam pilotu; güncel kurulum görevi değildir.** Aşağıdaki C1/P0/P1, yerel aday dalı, korumalı kaynak yerleşimi ve T1–T4/R(P1) kapsamı eski Codex denemesine aittir. Eski koşullar yeni Claude ortamına verilmiş talimat veya yeterlik kanıtı olmaz; özgün sınırlar korunur.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. G1 yeniden yürütülmez; bakımın devamı [REPOSITORY-TRANSITION](../../../../REPOSITORY-TRANSITION.md)'dedir.
+
+---
+
 # G1 — Korumalı kaynak, SOUL amacı ve devam pilotu
 
 **Brief ID:** DEVOS-G1-PURPOSE-PILOT-2026-09-07  
