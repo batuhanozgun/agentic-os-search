@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel EXP-006 rol ve sorumluluk sicili.** Aşağıdaki “current tasarım”, ilk 16 DR sözleşmesi ve P3–P5'e geçiş ifadeleri eski hazırlığa aittir; bugünkü kurulumun kadrosu veya iş sırası değildir. Aktör/rol/uzmanlık/görevlendirme ayrımları, ailelerin aday statüsü ve platformdan bağımsız kalite/yetki sınırları korunur. Daha sonraki G/Y profilleri [P3-01](work/P3-01-work-information-discussion.md)'de tarihsel olarak bulunur.
+>
+> Güncel devir [D030](DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); Claude Code ve DevOS bu depoyu yalnız okur. Özgün sicil aşağıda aynen korunur; bu not adayları kabul edilmiş tasarıma yükseltmez. Bakımın tek devam noktası [REPOSITORY-TRANSITION](../../REPOSITORY-TRANSITION.md)'dir; eski P3 görevi yeniden başlatılmaz.
+
+---
+
 # EXP-006 — ACTORS
 
 **Rol:** Work'ten türeyen actor / role-family / specialization / mechanic registry'si.  
