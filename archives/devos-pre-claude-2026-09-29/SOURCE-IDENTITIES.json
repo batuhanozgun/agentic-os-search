@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "task": "REPO-SEPARATION-20260929/A3",
   "date": "2026-09-30",
   "source_baseline": "58eaaf5f1dfe2f22deecdc07420deb503e95f7d6",
@@ -10,7 +10,8 @@
       "title": "P4 v3",
       "historical_status": "Tarihsel; uygulama kaynağı değil",
       "source_access": "RECOVERED_RAW_BYTES",
-      "repository_content_status": "PENDING_PUBLICATION",
+      "repository_content_status": "VERIFIED_IN_REPOSITORY_ARCHIVE",
+      "standalone_files_published": false,
       "artifacts": [
         {
           "path": "p4-v3/EXP-006_DevOS_v3.md",
@@ -43,7 +44,8 @@
       "title": "P4 v4 (Codex)",
       "historical_status": "Tarihsel; mimari ilkelerinin yeni plana aktarılması görevde bildirilmiştir; ortam kararı geçersiz",
       "source_access": "RECOVERED_RAW_BYTES",
-      "repository_content_status": "PENDING_PUBLICATION",
+      "repository_content_status": "VERIFIED_IN_REPOSITORY_ARCHIVE",
+      "standalone_files_published": false,
       "artifacts": [
         {
           "path": "p4-v4/EXP-006_DevOS_v4.md",
@@ -76,7 +78,8 @@
       "title": "P5 K00–K15",
       "historical_status": "Tarihsel; rol sözleşmeleri ve veri modelinin aktarılması görevde bildirilmiştir",
       "source_access": "RECOVERED_RAW_BYTES",
-      "repository_content_status": "PENDING_PUBLICATION",
+      "repository_content_status": "VERIFIED_IN_REPOSITORY_ARCHIVE",
+      "standalone_files_published": false,
       "artifacts": [
         {
           "path": "p5-k00-k15/EXP-006_P5_Codex_Kurulum_Rehberi.md",
@@ -115,7 +118,8 @@
       "title": "P5 v2 Codex arayüzü",
       "historical_status": "Tarihsel; veri modeli tablosunun aktarılması görevde bildirilmiştir",
       "source_access": "RECOVERED_RAW_BYTES",
-      "repository_content_status": "PENDING_PUBLICATION",
+      "repository_content_status": "VERIFIED_IN_REPOSITORY_ARCHIVE",
+      "standalone_files_published": false,
       "artifacts": [
         {
           "path": "p5-v2-interface/EXP-006_P5_v2_Codex_Arayuzu_Rehberi.md",
@@ -154,7 +158,9 @@
       "title": "SOUL Academy",
       "historical_status": "Keşif notu, karar değil; özgün §27 karar yolu tamamlanmadan kurulum veya iş açma yetkisi üretmez",
       "source_access": "RECOVERED_RAW_BYTES",
-      "repository_content_status": "ORIGINAL_INCLUDED_IN_THIS_BATCH",
+      "repository_content_status": "VERIFIED_STANDALONE_AND_ARCHIVE",
+      "standalone_files_published": true,
+      "standalone_repository_path": "archives/devos-pre-claude-2026-09-29/academy/SOUL_ACADEMY_EXPLORATORY_CONCEPT_NOTE.md",
       "source_identity": {
         "file_id": "file_00000000215881f495d5e343f56fb757",
         "version_id": "1",
@@ -270,6 +276,31 @@
       "unlisted_files": 0
     }
   ],
-  "publication_limit": "Only the Academy original is prepared for repository publication in this batch. Other recovered originals are staged in the conversation archive; metadata does not substitute for repository source bodies.",
-  "search_limit": "Targeted searches and one known folder listing; not a complete Library or full-history absence proof."
+  "publication_limit": "Recovered P4 v3, P4 v4, P5 K00-K15 and P5 v2 originals are published as members of the verified repository ZIP, not as standalone repository files. Academy is also a standalone file. P5 S00-S12 and SOUL ve DevOS remain unavailable. Remote binary was not downloaded again: remote Git blob identity and size were matched to local bytes, then local members were validated. No target-reader ingestion or source-correctness claim.",
+  "search_limit": "Targeted searches and one known folder listing; not a complete Library or full-history absence proof.",
+  "publication_observed_at_commit": "93216f73ea565ed3ba22e4ba0e18e2144e1368c4",
+  "archive_container": {
+    "repository_path": "archives/devos-pre-claude-2026-09-29/A3_Dogrulanmis_Tarihsel_Kaynaklar_2026-09-30.zip",
+    "observed_commit": "93216f73ea565ed3ba22e4ba0e18e2144e1368c4",
+    "bytes": 20275988,
+    "sha256": "8b06cb2b3dca5875cab0ad72595701e3e0d4d756d0c80fa2f49041df48aa9b17",
+    "git_blob_sha1": "547522120893c25d5c709deb5c0e18f57ebe7806",
+    "member_prefix": "archives/devos-pre-claude-2026-09-29/",
+    "locator_rule": "For each recovered artifact, exact ZIP member = member_prefix + artifact.path. artifact.path alone is not a standalone repository path.",
+    "remote_verification": "GitHub path metadata size and Git blob SHA-1 matched the locally hashed original.",
+    "remote_binary_download_performed": false,
+    "local_verification": {
+      "members": 21,
+      "originals": 19,
+      "original_identities_matched": 19,
+      "crc": "PASS",
+      "safe_unique_member_paths": true
+    },
+    "embedded_inventory": {
+      "member": "archives/devos-pre-claude-2026-09-29/SOURCE-IDENTITIES.json",
+      "git_blob_sha1": "db2fb9829de6ce39888dde65aca045c081e10ba1",
+      "status": "HISTORICAL_SNAPSHOT_NOT_CURRENT_PUBLICATION_STATE"
+    }
+  },
+  "prior_package_checks_scope": "delivery_identity_checks and package_checks retain the A3-INTAKE results from commit 323e38d288b6760ab70e15744c86678fcbc9d125; historic tests were not rerun."
 }

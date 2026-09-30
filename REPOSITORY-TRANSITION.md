@@ -1,11 +1,11 @@
 # Araştırma / kurulum ayrımı — depo bakım çalışması
 
 **Kimlik:** REPO-SEPARATION-20260929  
-**Durum:** DEVAM EDİYOR — A1 ve A2'nin belge düzeyindeki doğrudan giriş denetimi tamam. A3'te beş ailenin özgün dosyaları geri kazanıldı; Academy gövdesi arşive alınıyor, dört ailenin repository yayını ve iki kaynağın erişimi açık. A4 depo geneli tarama ve A5 son denetim bekliyor.  
+**Durum:** DEVAM EDİYOR — A1 ve A2'nin belge düzeyindeki doğrudan giriş denetimi tamam. A3'te beş geri kazanılmış ailenin repository gövde erişimi doğrulandı: 19 özgün dosya yüklenen ZIP'te, Academy ayrıca bağımsız dosyada. S00–S12 ile SOUL ve DevOS kaynaklarının erişimi açık. A4 depo geneli tarama ve A5 son denetim bekliyor.  
 **Güncelleme:** 30 Eylül 2026. **Yazar:** ChatGPT, Batu'nun açık yetkisiyle.  
 **Kaynak:** [Görev belgesinin değiştirilmemiş kopyası](maintenance/2026-09-29-research-installation-separation/REQUEST.md). İş, kullanıcının isteğiyle turlara bölünmüştür.
 
-Bu dosya yalnız `agentic-os-search` deposunu güncelleme çalışmasının planı, ilerleme kaydı ve devir noktasıdır. Yeni DevOS kurulum planı, SOUL iş listesi, mimari veya agent-control dosyası değildir. Bu sürüm ilerleme ve devir kısmını günceller; önceki kayıt `58eaaf5f1dfe2f22deecdc07420deb503e95f7d6` commit'inde, blob `3065bd118d69d5f925b42c6b006734c456fd7a4a` olarak korunur.
+Bu dosya yalnız `agentic-os-search` deposunu güncelleme çalışmasının planı, ilerleme kaydı ve devir noktasıdır. Yeni DevOS kurulum planı, SOUL iş listesi, mimari veya agent-control dosyası değildir. Bu sürüm ilerleme ve devir kısmını günceller; önceki kayıt `93216f73ea565ed3ba22e4ba0e18e2144e1368c4` commit'inde, blob `dfde2901266b1587824fbd772a410e435761b957` olarak korunur.
 
 ## 1. Amaç ve yetki
 
@@ -26,7 +26,7 @@ Görev kaynağındaki tarihli platform karşılaştırmaları kullanıcıdan al�
 - Foundation, studies, concepts ve kavramsal explorations kendi yerinde kalır; araştırma anlamı değişmez.
 - Eski kurulum/planlama ve devir dosyalarının başına tarihli statü notu konur; eski gövde, kaynak kullanıcı sözleri ve test/öneri sınırları korunur. “Tarihsel” statü, bulguyu hipoteze veya öneriyi karara dönüştürmez. Yeni ortamın da Claude olması eski bir Claude taslağını etkinleştirmez.
 - Kök ve alan girişlerinde araştırma, tarihsel kurulum, kontrol ve yayın ayrılır. Doğrudan alt dosya açılışları da incelenir; kök uyarısı tek başına son kabul değildir. Araştırma dizinindeki güncel araştırma rotaları topluca tarihsel ilan edilmez.
-- Eski rapor/paket kopyaları için [archives/devos-pre-claude-2026-09-29/](archives/devos-pre-claude-2026-09-29/README.md) A3'te kısmen oluşturuldu. **Eksiksiz arşiv değildir:** özgün Academy gövdesi ve kimlik/statü yan kayıtları vardır; diğer dosyaların gerçek yayın durumu §5 ve arşiv envanterinde ayrıdır. Özgün gövdeler değişmez.
+- Eski rapor/paket kopyaları [archives/devos-pre-claude-2026-09-29/](archives/devos-pre-claude-2026-09-29/README.md) altındadır. Beş geri kazanılmış ailenin 19 özgün dosyası doğrulanmış repository ZIP'inde, Academy ayrıca bağımsız dosyadadır. **Eksiksiz arşiv değildir:** iki kaynağın erişimi açık. ZIP üyesi ile bağımsız repository yolu ayrı kaydedilir; özgün gövdeler değişmez.
 - [MOVES.md](MOVES.md) gerçekleşen taşımaları tutar. **Taşıma yok.** Kopya ve kaynak bağı ayrı kaydedilir. Çok dosyalı taşıma gerekirse uygulamadan önce Batu'ya kısa plan sunulur.
 
 ## 3. Beş iş paketi ve kapanış koşulları
@@ -37,7 +37,7 @@ Paket gerektiğinde birkaç tur sürer; numarası otomatik tur sayısı değildi
 |---|---|---|
 | **A1 — Başlangıç ve kalıcı plan** | Görev, başlangıç kimlikleri, yazar sınırı, dış plan adresi, kök yönlendirme; uzak yayın ve geri okuma | **TAMAM:** `ab8ef329aa4841fae2b836c91e74e68ad1c4c9e5` |
 | **A2 — Karar ve güncel yönler** | D030; EXP-006 ve deneme/bağlam girişleri; doğrudan eski devirler; eski kurulum bu yollardan güncel diye devralınamıyor | **BELGE DÜZEYİNDE TAMAM:** §4.10–4.11 ve A2-CLOSE. Depo geneli yokluk veya bağımsız kurucu davranışı iddiası değildir |
-| **A3 — Rapor ve paket arşivi** | Yedi kaynak ailesini gerçek gövde ve kimlikle arşivle; farklı P5 paketlerini karıştırma; erişilemeyeni yeniden üretme | **DEVAM:** §5 / A3-INTAKE. Beş aile geri kazanıldı, yalnız Academy gövdesi bu yayın grubunda. Dört ailede gövde yayını, iki ailede kaynak erişimi açık |
+| **A3 — Rapor ve paket arşivi** | Yedi kaynak ailesini gerçek gövde ve kimlikle arşivle; farklı P5 paketlerini karıştırma; erişilemeyeni yeniden üretme | **DEVAM:** §5. Beş ailenin gövdeleri repository ZIP'inde doğrulandı; yükleme engeli kapandı. İki kaynağın erişim açığı ve A3 kapanış/engel değerlendirmesi kaldı |
 | **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | BEKLİYOR. Araştırma anlamı değişmez; listeyle sınırlı tarama yetmez |
 | **A5 — Son karşılaştırma ve teslim** | Başlangıçtan son commit'e fark; silme/taşıma/gövde ve bağlantı denetimi; yeni okuyucu yürüyüşü; tam değişiklik/gerekçe listesi | BEKLİYOR. Kapsamı aşmayan tamamlanma hükmü ve erişim açıkları teslim edilir |
 
@@ -141,23 +141,27 @@ Bu kapanış mevcut doğrudan giriş ölçütüne ilişkindir; bağımsız Claud
 
 **Tek sonraki iş A3'tür:** §5'teki yedi kaynak ailesinin gerçek gövde/kimlik ve erişim envanteri; ardından özgün kopyaların statü yan kayıtlarıyla arşivlenmesi. A3, A4 ve A5 sırası korunur. Eski Python/deney kaydı bulmak çalıştırma talimatı değildir.
 
-## 5. A3 kaynak matrisi ve ilk yayın
+## 5. A3 kaynak matrisi ve doğrulanmış ZIP erişimi
 
-[A3-INTAKE](maintenance/2026-09-29-research-installation-separation/A3-INTAKE.md), kaynak erişimini, gerçek byte/manifest denetimini, aynı adlı farklı dosyaların ayrımını, erişim ve yayın sınırlarını taşır. [Arşiv README](archives/devos-pre-claude-2026-09-29/README.md) ile [SOURCE-IDENTITIES](archives/devos-pre-claude-2026-09-29/SOURCE-IDENTITIES.json) ayrı kaynak/kimlik/yayın durumlarını gösterir. Beş ailede 19 özgün dosya geri kazanıldı; **bu commit grubunda yalnız Academy gövdesi repository'dedir**. Kimlik listesi diğer gövdelerin yerine geçmez.
+[A3-INTAKE](maintenance/2026-09-29-research-installation-separation/A3-INTAKE.md), ilk kaynak erişiminin ve kimlik denetiminin tarihli kaydıdır. İlk yayın `323e38d288b6760ab70e15744c86678fcbc9d125` yalnız Academy gövdesini ve yan kayıtları getirdi. `0548bd4a55ef3b87fbb3674cf075c2f6d8e639ec` aktarım engelini ve tek ZIP yükleme yolunu kaydetti. **Bu iki kayıttaki yayın bekleme durumu, aşağıdaki doğrulanmış yüklemeyle aşılmıştır.**
+
+Batu'nun `93216f73ea565ed3ba22e4ba0e18e2144e1368c4` commit'i [A3_Dogrulanmis_Tarihsel_Kaynaklar_2026-09-30.zip](archives/devos-pre-claude-2026-09-29/A3_Dogrulanmis_Tarihsel_Kaynaklar_2026-09-30.zip) dosyasını özel arşive ekledi. Uzak yol, **20.275.988 byte** boyut ve **`547522120893c25d5c709deb5c0e18f57ebe7806`** Git blob kimliği, yerelde gerçek byte'ları açılan özgün ZIP ile eşleşti. Yerel SHA-256 **`8b06cb2b3dca5875cab0ad72595701e3e0d4d756d0c80fa2f49041df48aa9b17`**. 19 özgün dosyanın her birinin boyut/SHA-256/Git blob kimliği yeniden doğrulandı; toplam 21 üye benzersiz ve güvenli, CRC geçerli.
 
 | Kaynak | Statü | Gerçek erişim / kalan iş |
 |---|---|---|
-| P4 v3 | Tarihsel; uygulama kaynağı değil | MD/PDF/ZIP/teslim kimliği byte/hash ile eşleşti; repository gövde yayını bekliyor |
-| P4 v4 | Tarihsel; mimari kaynak; Codex ortam kararı geçersiz | MD/PDF/ZIP/teslim kimliği eşleşti; repository gövde yayını bekliyor |
-| P5 K00–K15 | Tarihsel; rol/veri modeli aktarımının kaynağı | MD/PDF/ZIP ve ZIP'ten çıkarılan özgün başlangıç metni teslimle eşleşti; repository gövde yayını bekliyor |
-| P5 S00–S12 | Tarihsel; senaryolar gelecekte sınav fikri olabilir | S tesliminin beklenen kimlikleri kayıtlı; özgün gövdeler bulunamadı. Aynı adlı K dosyaları bunun yerine geçmez |
-| P5 v2 Codex arayüzü | Tarihsel; veri modeli aktarımının kaynağı | MD/PDF/ZIP/başlangıç/teslim kimliği eşleşti; repository gövde yayını bekliyor |
-| SOUL ve DevOS | Tarihsel kaynak; SOUL tanımı yeni planda güncellendi | İstenen tam rapor doğru kimliğiyle bulunamadı; başka başlıklı metin yerine konulmadı |
-| SOUL Academy | Keşif notu; karar veya doğrudan iş açma yetkisi değil | Library v1 ham gövdesi ve Git blob kimliği doğrulandı; özgün metin arşive eklendi |
+| P4 v3 | Tarihsel; uygulama kaynağı değil | Dört özgün dosya repository ZIP'inde doğrulandı; bağımsız repository dosyaları oluşturulmadı |
+| P4 v4 | Tarihsel; mimari kaynak; Codex ortam kararı geçersiz | Dört özgün dosya repository ZIP'inde doğrulandı; bağımsız repository dosyaları oluşturulmadı |
+| P5 K00–K15 | Tarihsel; rol/veri modeli aktarımının kaynağı | Beş özgün dosya repository ZIP'inde doğrulandı; S ailesinin yerine geçmez |
+| P5 S00–S12 | Tarihsel; senaryolar gelecekte sınav fikri olabilir | Eski teslimin beklenen kimlikleri kayıtlı; özgün gövdeler hâlâ bulunamadı. Yüklenen ZIP bu paketi içermez |
+| P5 v2 Codex arayüzü | Tarihsel; veri modeli aktarımının kaynağı | Beş özgün dosya repository ZIP'inde doğrulandı; bağımsız repository dosyaları oluşturulmadı |
+| SOUL ve DevOS | Tarihsel kaynak; SOUL tanımı yeni planda güncellendi | İstenen tam rapor hâlâ doğru kimliğiyle bulunamadı; yüklenen ZIP'te yok; başka metinle ikame edilmez |
+| SOUL Academy | Keşif notu; karar veya doğrudan iş açma yetkisi değil | Özgün gövde hem repository ZIP'inde hem bağımsız Markdown dosyasında; iki kopya aynı kimlikte |
 
-Dört teslim kimliğinin 14 artefaktı eşleşti. Altı farklı ZIP'te toplam 349 manifest girdisi, CRC ve yol güvenliği denetlendi; bu sayı aynı kaynakların tekrarını yeni kanıt saymaz. Eski kod/testler çalıştırılmadı. Araçla kontrol edilen kimlik, PDF görünümü, source claim correctness veya hedef davranış değildir. Konuşmada beş geri kazanılmış aileyi içeren ayrı **A3_Dogrulanmis_Tarihsel_Kaynaklar_2026-09-30.zip** hazırlandı; kimliği A3-INTAKE'tedir. Bu aktarım kopyası yeni P5 veya repository yayını değildir.
+[Arşiv README](archives/devos-pre-claude-2026-09-29/README.md) yükleme kanıtını ve erişim biçimini; [SOURCE-IDENTITIES](archives/devos-pre-claude-2026-09-29/SOURCE-IDENTITIES.json) sürüm 2 ise bütün dosyaların özgün kimliklerini ve kesin ZIP üye yollarının kuralını taşır. Üye yolu `archive_container.member_prefix + artifact.path`'tir; 19 eşleşme gerçek ZIP'te denetlendi. Bağımsız repository yolu yalnız gerçekten oluşturulduğu yerde ayrıca belirtilir. ZIP içindeki eski kimlik listesi güncel envanterin üstüne yazılmaz.
 
-**A3 açık:** Dört ailenin desteklenen aktarım yoluyla gerçek gövde yayını, iki kaynağın geri kazanılması veya açık erişim engeli sonuçları kalır. Terminal GitHub ad çözümlemesi başarısızdı; bağlı araçlarda mounted dosyadan doğrudan büyük ikili yükleme eylemi bulunmadı. GitHub metin yazımı çalışır; bütün erişim kapalı denmez. **Tek sonraki alt iş P4 v3'ün doğrulanmış özgün dosyalarının repository yayınıdır.** Kalan aileler sonra aynı byte-koruma ölçütüyle alınır. Arama miss'leri evrensel yokluk, arşiv indeksi de gövde erişimi sayılmaz.
+**Doğrulama sınırı:** Uzak ikili dosya bu tur yeniden indirilmedi; uzak Git nesne kimliği ve boyut, yerelde açılan özgün byte'larla eşleştirildi. Önceki A3-INTAKE'in 14 teslim girdisi ve 349 iç manifest girdisi denetimleri kendi tarihli sonuçlarıdır; bu tur yeni hedef testi gibi sayılmaz. Tarihsel kod/testler çalıştırılmadı; PDF görünümü, kaynak iddiaları, tam aktarım sadakati veya Claude'un hedefte içe alma davranışı doğrulanmış değildir.
+
+**Yükleme engeli kapalı; A3 bütünü açık.** Beş geri kazanılmış aile için yeniden yükleme veya ayrı dosya üretimi beklenmez. Tek sonraki alt iş, S00–S12 ve SOUL ve DevOS erişim açıklarını yeni somut referans veya kapsam kazandıran aramayla sonuçlandırmaktır; sonuçsuz sorgular yinelenmez. Bulunamazsa arama kapsamı ve erişim engeli açıkça korunur, bu iki kaynak için tamamlanma iddiası kurulmaz. Sonrasında A3 kapanış/engel değerlendirmesi yapılır; A4/A5 bu tur yapılmadı.
 
 Aktarım sadakatinin tamamının doğrulandığı iddia edilmez. Dış değerlendirme yalnız [devos/plan/Inceleme_Degerlendirmesi_ChatGPT.md](https://github.com/batuhanozgun/devos/blob/main/plan/Inceleme_Degerlendirmesi_ChatGPT.md) üzerinden bulunur; burada kopyalanmaz ve yeni karara bağlanmaz. Tamamlanmış A2 dosyaları yeniden düzenlenmez; A3, A4 ve A5 sırası korunur.
 
@@ -165,7 +169,7 @@ Aktarım sadakatinin tamamının doğrulandığı iddia edilmez. Dış değerlen
 
 Başlangıç: **`8cd01e4afdcd0d37960b05930c91e1244678be6e`**. [BASELINE.json](maintenance/2026-09-29-research-installation-separation/BASELINE.json) başlangıç tree/blob ve istek hash'ini taşır. A1 kök README'nin eski gövdesini aynı blob ile denetim kopyasında korudu. A2 dosya taşımadı veya silmedi.
 
-Her tur ve yayın öncesi main ilerlediyse delta/yazarlar incelenir; başka çalışmanın değişikliği geri alınmaz. Yayın force push olmadan yapılır. Çakışan güncelleme sessizce ezilmez. Makine hesabı commit'i görülürse kullanıcıya bildirimden önce düzeltme yapılmaz. Bu turun başlangıç main'i `58eaaf5` üzerinde author/committer kapsamındaki makine hesabı sorguları boştu; bu bütün dal ve kimliklerde yokluk ispatı değildir.
+Her tur ve yayın öncesi main ilerlediyse delta/yazarlar incelenir; başka çalışmanın değişikliği geri alınmaz. Yayın force push olmadan yapılır. Çakışan güncelleme sessizce ezilmez. Makine hesabı commit'i görülürse kullanıcıya bildirimden önce düzeltme yapılmaz. Bu turun başlangıcı `93216f73ea565ed3ba22e4ba0e18e2144e1368c4`; önceki `0548bd4` üzerine yalnız ZIP ekleyen bir commit vardır. Bu yeni commit'in yazarı `batuhanozgun`, committer'ı GitHub'dır; bu kapsamda makine hesabı yazımı görülmedi. Bütün dal/kimliklerde yokluk iddiası değildir.
 
 A4 taraması en az `Codex`, `güncel`, `current`, `sıradaki`, `next`, `DEVOS-001`, `DEVOS-002`, P4/P5 ve eski hedef repo adlarını kapsar. Sonuçlar tam izlenen yol envanteriyle karşılaştırılır. Eşleşme hata veya aramada bulunmama yokluk kanıtı değildir: tarihsel alıntılar, gerçek eski kanıt ve aktif araştırmanın kendi sonraki işi gerekçeyle korunabilir. Pasif arşiv içeriği talimat diye uygulanmaz.
 
@@ -175,6 +179,8 @@ Tam tarama ve arşiv erişimi yapılmadığı için **“eski yönü güncel gö
 
 ## 7. Devralma
 
-**Tek sonraki iş: A3 §5 — ilk olarak P4 v3 özgün dosyalarının repository yayını.** Önce güncel main delta/yazar kontrolü; sonra bu plan, A3-INTAKE ve arşiv README/kimlik kaydı tam okunur. Doğrulanmış konuşma dosyaları veya A3 aktarım kopyası gerçek byte'larıyla yeniden bulunur; kayıtlı boyut/SHA-256/Git blob'uyla karşılaştırılır. Kaynaklar değişmeden yayımlanır ve uzak path/blob geri okumasıyla kapanır. Diğer üç geri kazanılmış P4/P5 ailesi sonra gelir. P5 S ve SOUL ve DevOS için yalnız yeni somut referans veya kapsam kazandıran arama yapılır; aynı başarısız sorgu döngüsü veya benzer belgeyle ikame yapılmaz. Desteklenmeyen büyük ikili aktarımı olmuş gibi sunma. A3 kapanmadan A4/A5'i tamamlanmış sayma.
+**Tek sonraki iş: A3 §5 — S00–S12 ve SOUL ve DevOS erişim açıklarının sonuçlandırılması.** Önce güncel main delta/yazar kontrolü; sonra bu plan ve arşiv README/kimlik kaydı okunur. Beş geri kazanılmış aile için repository yüklemesi tamamdır: uzak ZIP nesnesi ve kesin üye yolları doğrulanmıştır. Eski A3-INTAKE veya önceki arşiv README'sindeki bekleme durumunu devralıp Batu'dan aynı dosyayı tekrar isteme; P4 v3 veya diğer üç aile için yeniden yayın turu açma.
+
+İki eksik kaynak için yalnız yeni somut referans veya arama kapsamı kazandıran inceleme yapılır. İlk alımda genel Library/konuşma metadata listelerinin tamamı tüketilmemişti; gerekirse bu kalan kapsam veya kaynak raporu gerçekten işaret eden yeni bir referans kullanılır. Bulunamayan kaynak yeniden yazılmaz, başka başlıklı belgeyle ikame edilmez. Arama sınırı ve erişim engeli kaydedilip A3 kapanış/engel değerlendirmesine dönülür; A3'ün eksiksiz tamamlandığı veya A4/A5'in yapıldığı söylenmez.
 
 A2'nin tamamlanmış doğrudan girişleri yeni maddi bulgu olmadan yeniden açılmaz. Yeni oturum eski COORD/G0/G1 brief'inden, EXP-006 S00'ından, DEVOS-001/002 görevinden veya dış DevOS kurulumundan başlamaz. Bu bakımın tek güncel devam kaydı bu dosyadır; önceki tarihli denetimlerdeki “sonraki” ifadeleri onların kendi turuna aittir.
