@@ -1,6 +1,6 @@
 # Tarihsel DevOS kaynak arşivi — kısmi
 
-**30 Eylül 2026 / A3 devam ediyor.** Burası güncel DevOS kurulum planı değildir. Tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) altındadır; devir sürümü 2.1. [D030](../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri) ve [bakım planı](../../REPOSITORY-TRANSITION.md) yetki ve devam sınırını taşır.
+**30 Eylül 2026 / 5 aile arşivde, 2 kaynak erişim engeliyle açık.** Burası güncel DevOS kurulum planı değildir. Tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) altındadır; devir sürümü 2.1. [D030](../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri) ve [bakım planı](../../REPOSITORY-TRANSITION.md) yetki ve devam sınırını taşır.
 
 ## 1. Gerçek içerik ve kalanlar
 
@@ -23,6 +23,8 @@ Tablodaki aile adlarının önüne ZIP içinde **`archives/devos-pre-claude-2026
 **Kimlik kaydının sürümü 2'dir.** `VERIFIED_IN_REPOSITORY_ARCHIVE` ZIP içinde yayınlanmış özgün gövdeyi; `VERIFIED_STANDALONE_AND_ARCHIVE` ayrıca bağımsız repository dosyasını ifade eder. S ailesinin `expected_unverified` değerleri yeniden elde edilmiş dosyadan hesaplanmış değildir. ZIP içindeki eski `SOURCE-IDENTITIES.json` ve `CONVERSATION-COPY.md` tarihli aktarım kayıtlarıdır; içlerindeki eski yayın durumu, ZIP dışındaki güncel envanterin yerine geçmez.
 
 ## 2. Yükleme ve doğrulama kaydı
+
+**Aşağıdaki gözlemler `b0339e77713c2182988e635859ed6d6d79b19cb7` ile kaydedilen yükleme doğrulamasına aittir; yeni kaynak erişim incelemesi §4'tedir.**
 
 **Yükleme commit'i:** [`93216f73ea565ed3ba22e4ba0e18e2144e1368c4`](https://github.com/batuhanozgun/agentic-os-search/commit/93216f73ea565ed3ba22e4ba0e18e2144e1368c4), `Add files via upload`. Önceki main `0548bd4a55ef3b87fbb3674cf075c2f6d8e639ec` ile fark yalnız bu ZIP'in eklenmesidir. Commit yazarı `batuhanozgun`, committer GitHub'dır; incelenen yeni commit `batuhanozgun-devos` hesabından değildir. Başlangıç root tree `1e61aa9baddfe65844e85bfab938f7bc84320cfe`.
 
@@ -47,10 +49,14 @@ Tablodaki aile adlarının önüne ZIP içinde **`archives/devos-pre-claude-2026
 
 Görev, P4/P5'in bazı bölümlerinin yeni plana aktarıldığını bildirir; A3 bu aktarımın eksiksizliğini yeniden doğrulamıyor. Academy'nin kendi başlangıç statüsü ve §24/§27 sınırları korunur: notun karar yolundan geçmeden doğrudan iş veya kurulum açılmaz. Metindeki eski `soul` bağlamı tarihsel kaynaktır; yeni ürün deposu `soul-system`'dir.
 
-Bu çalışma yalnız özel araştırma deposuna yazar; kaynakları açık ürün depolarına taşımaz. Kullanıcının yüklediği ZIP, Academy gövdesi, araştırma ve kontrol dosyaları bu güncellemede değiştirilmez; dosya silinmez veya taşınmaz. Yalnız bu README, güncel kimlik envanteri ve kök bakım planının ilerleme/devri güncellenir.
+Bu çalışma yalnız özel araştırma deposuna yazar; kaynakları açık ürün depolarına taşımaz. Kullanıcının yüklediği ZIP, Academy gövdesi, araştırma ve kontrol dosyaları bu güncellemede değiştirilmez; dosya silinmez veya taşınmaz. Son erişim değerlendirmesinde yalnız bu README, kök bakım planının ilerleme/devri ve yeni A3-ACCESS-GAPS kaydı değişir; kimlik envanteri aynı kalır.
 
-## 4. Önceki engel ve tek devam noktası
+## 4. Erişim engelleri ve tek devam noktası
 
-Önceki aktarım engeli ve tek seferlik yükleme talebi [`0548bd4` sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/0548bd4a55ef3b87fbb3674cf075c2f6d8e639ec/archives/devos-pre-claude-2026-09-29/README.md) aynen bulunur. **Bu yükleme ihtiyacı artık karşılanmıştır; Batu'dan aynı ZIP'i yeniden yüklemesi istenmez.** Önceki [A3-INTAKE](../../maintenance/2026-09-29-research-installation-separation/A3-INTAKE.md) ilk alımın tarihli kaydıdır, bugünkü yayın durumu değildir.
+Önceki aktarım engeli ve tek seferlik yükleme talebi [`0548bd4` sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/0548bd4a55ef3b87fbb3674cf075c2f6d8e639ec/archives/devos-pre-claude-2026-09-29/README.md) aynen bulunur. **Bu yükleme ihtiyacı karşılanmıştır; Batu'dan aynı ZIP yeniden istenmez.** [A3-INTAKE](../../maintenance/2026-09-29-research-installation-separation/A3-INTAKE.md) ilk alımın tarihli kaydıdır.
 
-**Beş geri kazanılmış ailenin repository gövde erişimi tamam; A3 bütünü açık.** S00–S12 ve “SOUL ve DevOS” bu ZIP'te yoktur. Tek sonraki iş, [bakım planı §5/§7](../../REPOSITORY-TRANSITION.md)'ye göre bu iki erişim açığını yeni somut referans veya arama kapsamı kazandıran incelemeyle sonuçlandırmaktır; bulunamayanın yerine belge üretilmez. Ardından A3 kapanış/engel değerlendirmesi yapılır. A4 depo geneli tarama ve A5 son denetim bu tur yapılmadı.
+**Kalan iki kaynağın erişim incelemesi mevcut kapsamda sonuçlandırıldı; ikisi de geri kazanılamadı.** [A3-ACCESS-GAPS](../../maintenance/2026-09-29-research-installation-separation/A3-ACCESS-GAPS.md) konuşmanın tamamlanan 72 kayıtlık metadata envanterini, yerel/ZIP-içi kimlik taramasını, sınırlı Library kapsamını ve başka başlıklı metnin neden ikame edilmediğini taşır. Bu, kaynakların hiçbir yerde bulunmadığı iddiası değildir.
+
+**Arşiv 5/7 aileyle kısmi; A3 iki kaynak erişim engeliyle açık kalır.** S00–S12 ve SOUL ve DevOS için yeni özgün dosya, kesin kaynak referansı veya yeni erişim kapsamı geldiğinde çalışma bu kaynaklar özelinde yeniden ilerletilir. İki arşiv yükü kaldırılmadı; son teslimde ayrıca açıklanacaktır.
+
+**Tek sonraki yetkili iş A4'ün tam izlenen yol envanteri ve depo geneli taramasıdır.** Bu, [bakım planı §6–§7](../../REPOSITORY-TRANSITION.md)'deki bağımsız yönlendirme işidir; erişilemeyen iki kaynağın içeriği hakkında hüküm veya eksiksiz A3 kapanışı değildir. A4 ve A5 bu tur yapılmadı.
