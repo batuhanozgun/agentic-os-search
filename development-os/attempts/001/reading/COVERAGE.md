@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel DEVOS-001 okuma kapsamı ve yöntem değişikliği kaydı.** Aşağıdaki sayımlar, karşı okuma açıkları ve D1/D2 tasarım rotası 24 Eylül'deki denemeye aittir; bugünkü araştırma kapsamını veya Claude kurucusunun sıradaki işini belirlemez. Eski seri Foundation okuma şartının kaldırılması tarihsel sıra olarak korunur; okunmamış kaynaklar bu notla okunmuş sayılmaz.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); Claude Code ve DevOS bu depoyu yalnız okur. Araştırma katkıları ve özgün metin korunur. Bu bakımın devamı [REPOSITORY-TRANSITION](../../../../REPOSITORY-TRANSITION.md)'dedir; eski okuma veya tasarım görevi yeniden başlatılmaz.
+
+---
+
 # DEVOS-001 — kaynak kapsamı ve tasarımdan kaynağa giriş
 
 **Güncelleme:** 24 Eylül 2026. **Kaynak tabanı:** `batuhanozgun/agentic-os-search@dc76496e2ea87a08b60f88ea8ec2731c6a4b5cbb`.

@@ -1,11 +1,11 @@
 # Araştırma / kurulum ayrımı — depo bakım çalışması
 
 **Kimlik:** REPO-SEPARATION-20260929  
-**Durum:** DEVAM EDİYOR — A1 tamam. A2'de current/reviews grubunun 22/22 kaydı ve current başlangıç envanterinin 41/41 dosyası statü bakımından sonuçlandırıldı. A2'nin diğer doğrudan girişleri, A3 arşivi ve A4/A5 açık.  
+**Durum:** DEVAM EDİYOR — A1 tamam. A2'de current başlangıç envanteri 41/41, reviews grubu 22/22 ve DEVOS-001 reading grubu 4/4 statü bakımından sonuçlandırıldı. EXP-006 P1/P2/P3 ve kalan doğrudan girişler, A3 arşivi ve A4/A5 açık.  
 **Güncelleme:** 30 Eylül 2026. **Yazar:** ChatGPT, Batu'nun açık yetkisiyle.  
 **Kaynak:** [Görev belgesinin değiştirilmemiş kopyası](maintenance/2026-09-29-research-installation-separation/REQUEST.md). İş, kullanıcının isteğiyle turlara bölünmüştür.
 
-Bu dosya yalnız `agentic-os-search` deposunu güncelleme çalışmasının planı, ilerleme kaydı ve devir noktasıdır. Yeni DevOS kurulum planı, SOUL iş listesi, mimari veya agent-control dosyası değildir. Bu sürüm ilerleme ve devir kısmını günceller; önceki kayıt `67fd24ec4574dbb3d5024cd9acd10d522ee11d00` commit'inde, blob `7d8b3310a2517e910ca11260406c608908c0aca0` olarak korunur.
+Bu dosya yalnız `agentic-os-search` deposunu güncelleme çalışmasının planı, ilerleme kaydı ve devir noktasıdır. Yeni DevOS kurulum planı, SOUL iş listesi, mimari veya agent-control dosyası değildir. Bu sürüm ilerleme ve devir kısmını günceller; önceki kayıt `bc015e2f97beb9c281bd54a071916324459bc502` commit'inde, blob `22ed921ad327ae735674617f3db3845aef85e532` olarak korunur.
 
 ## 1. Amaç ve yetki
 
@@ -36,7 +36,7 @@ Paket gerektiğinde birkaç tur sürer; numarası otomatik tur sayısı değildi
 | Paket | İş ve kapanış koşulu | Durum |
 |---|---|---|
 | **A1 — Başlangıç ve kalıcı plan** | Görev, başlangıç kimlikleri, yazar sınırı, dış plan adresi, kök yönlendirme; uzak yayın ve geri okuma | **TAMAM:** `ab8ef329aa4841fae2b836c91e74e68ad1c4c9e5` |
-| **A2 — Karar ve güncel yönler** | D030; EXP-006 ve deneme/bağlam girişleri; doğrudan eski devirler; eski kurulum bu yollardan güncel diye devralınamıyor | **DEVAM:** current/reviews 22/22; current başlangıç envanteri 41/41 sonuçlandırıldı. Diğer doğrudan girişler §4.8'de açık |
+| **A2 — Karar ve güncel yönler** | D030; EXP-006 ve deneme/bağlam girişleri; doğrudan eski devirler; eski kurulum bu yollardan güncel diye devralınamıyor | **DEVAM:** current 41/41 (reviews 22/22 dahil); DEVOS-001 reading 4/4. EXP-006 P1/P2/P3 ve kalan doğrudan girişler §4.9'da açık |
 | **A3 — Rapor ve paket arşivi** | Yedi kaynak ailesini gerçek gövde ve kimlikle arşivle; farklı P5 paketlerini karıştırma; erişilemeyeni yeniden üretme | BEKLİYOR. Her kaynak için doğrulanmış gövde veya açık erişim engeli gerekir |
 | **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | BEKLİYOR. Araştırma anlamı değişmez; listeyle sınırlı tarama yetmez |
 | **A5 — Son karşılaştırma ve teslim** | Başlangıçtan son commit'e fark; silme/taşıma/gövde ve bağlantı denetimi; yeni okuyucu yürüyüşü; tam değişiklik/gerekçe listesi | BEKLİYOR. Kapsamı aşmayan tamamlanma hükmü ve erişim açıkları teslim edilir |
@@ -95,7 +95,7 @@ Bu kümenin sonunda reviews **15/22**, current başlangıç envanteri **34/41** 
 
 ### 4.7 D1, G1, yöntem ve DevOS-02 — son yedi kayıt
 
-[A2-REVIEWS-CLOSE](maintenance/2026-09-29-research-installation-separation/A2-REVIEWS-CLOSE.md), başlangıç envanterinin **35–41** satırlarının tam okumasını, dört not ve üç gerekçeli korumayı, kaynak kimliklerini ve kontrol sınırını taşır. D1 kanıt/inceleme çifti, G1'in iki Markdown kaydı ve Python örneği, yöntem incelemesi, DevOS-02/RPD incelemesi: **yedi dosya, 88.517 byte özgün kaynak metadata toplamı**.
+[A2-REVIEWS-CLOSE](maintenance/2026-09-29-research-installation-separation/A2-REVIEWS-CLOSE.md), başlangıç envanterinin **35–41** satırlarının tam okumasını, dört not ve üç gerekçeli korumayı, kaynak kimliklerini ve kontrol sınırını taşır. D1 kanıt/inceleme çifti, G1'in iki Markdown kaydı ve Python örneği, yöntem incelemesi, DevOS-02/RPD incelemesi: **yedi dosya, 88.517 byte özgün kaynak metadata toplamı**. **Gerçek yayın commit'i `bc015e2f97beb9c281bd54a071916324459bc502`**, bu turun başlangıcında uzak main'den doğrulandı.
 
 Bu küme sabit başlangıç **`67fd24ec4574dbb3d5024cd9acd10d522ee11d00`** üzerinden okundu. Doğrulanmış kaynak adayı **`62b69e4e91e6d99e468fac9a6e818f634f790b99`**, tree **`19841993cceb2eec63457d7170ef246af7cd5bc5`**, parent aynı başlangıçtır. Dört inceleme dosyasında yalnız başa toplam **24 ek satır, 0 çıkarılan satır** vardır. İlk adayda saptanan iki son-LF farkı yayın öncesinde giderildi. İki kanıt seçkisi ve sentetik Python dosyası mevcut statü açıklıkları yeterli olduğu için değiştirilmedi; Python çalıştırılmadı.
 
@@ -105,11 +105,21 @@ D1→G1 sonucu ve G1→yöntem askıya alma zinciri doğrudan girişte bulunur. 
 
 Kaynak doğrulama adayı tek başına main yayını değildir. Dört kaynak, bu yeni kapanış denetim kaydı ve kök bakım planı aynı nihai ağaçta yayımlanır; gerçek ref ve dosya geri okuması ayrıca doğrulanır. Nihai research alt ağacı kaynak adayındaki `be054da53003bfa4bf9baac4dfae19ee3c8c8acb` ile aynı kalmalı; kontrol dosyaları, silme/taşıma sınırı ve başka çalışma korunmalıdır.
 
-### 4.8 Kalan A2 kapsamı
+### 4.8 DEVOS-001 reading — dört kayıt
 
-**Tek sonraki iş: diğer A2 doğrudan girişlerini incelemek; önce DEVOS-001'in `reading/` kayıtları.** Ardından EXP-006 P1/P2/P3 gibi diğer doğrudan girişlerde tarihsel statü/yön gerekip gerekmediği kontrol edilir. Bu yollar henüz bu bakımda tamamlanmış veya kusurlu ilan edilmez. Kaynaklar tam okunur; düzeltme veya gerekçeli koruma dosya bazında kaydedilir. Araştırma ve özgün kaynak gövdeleri yeniden yazılmaz.
+[A2-READING](maintenance/2026-09-29-research-installation-separation/A2-READING.md), dört dosyanın tam listesini, başlangıç kimliklerini, statü gerekçelerini ve doğrulama sınırını taşır. COVERAGE, F00-CONTEXT-AND-USE, F08-FOUNDATION-FRAME ve F08-RECONCILIATION tam okundu; **4/4** sonuçlandırıldı. Bu grup current 41/41 sayısının dışındadır; sayılar birbiriyle toplanmaz.
 
-Current başlangıç envanterinin 41 dosyası ve reviews grubunun 22 dosyası yeni maddi bulgu olmadan tekrar düzenlenmez. Önceki tamamlanan alt kümeler sırf tur değişti diye yeniden açılmaz. Eski Python/deney kaydı bulmak çalıştırma talimatı değildir.
+Başlangıç **`bc015e2f97beb9c281bd54a071916324459bc502`**. Doğrulanmış kaynak adayı **`0d8e4c6ef22df5ebe03e4e124f27f88364dff798`**, tree **`35536add43596d4a004af71be54826b9ecae52d7`**, aynı parent: yalnız dört dosyanın başına **24 ek satır, 0 çıkarılan satır**. F08'in ilk adayda düşen son LF'si yayından önce geri kondu. Özgün gövdeler, kaynak yorumları ve epistemik sınırlar aynen korundu.
+
+F08'in eski tamlık beyanı mevcut düzeltme ekine; eski seri Foundation okuma yönleri de sonraki COVERAGE yöntem kaydına bağlandı. Bu tarihsel sıra güncel DevOS kurulumuna veya Foundation'ın kendi işlerine talimat vermez. Araştırma katkıları geçersiz sayılmadı. Yeni notların dokuz göreli bağlantısı çözüldü; hedefler ve D030 kimliği doğrudan okundu. Eski bütün gövde bağlantılarının denetimi A4/A5'tedir.
+
+Kaynak adayı yayın değildir. Nihai commit yalnız dört reading kaydı, A2-READING ve bu planın ilerleme/devrini kapsar; development-os alt ağacı kaynak adayındaki `e3a104adc534aa5f4caf10f4252b000aae94731b` ile aynı kalmalıdır. Yayın öncesi main/yazar kontrolü ve yayın sonrası ref/dosya geri okuması ayrı yapılır. Önceki kapanmış dosyalar yeniden düzenlenmedi.
+
+### 4.9 Kalan A2 kapsamı
+
+**Tek sonraki iş: EXP-006 P1/P2/P3 doğrudan girişlerinin tam içerik ve statü incelemesi.** `explorations/EXP-006-development-os-calisma-duzeni/work/` ağacından üç yol doğrulandı: `P1-01-claude-cloud-environment-map.md`, `P2-01-named-role-contracts.md`, `P3-01-work-information-discussion.md`. Blob/boyutları A2-READING'de; bu tur yalnız envanterlendiler, gövdeleri okunmuş veya kusurlu ilan edilmedi. Bunlardan sonra kalan doğrudan girişlerde statü/yön gerekip gerekmediği değerlendirilir. Araştırma ve özgün kaynak gövdeleri yeniden yazılmaz.
+
+Current başlangıç envanterinin 41 dosyası, reviews grubunun 22 dosyası ve DEVOS-001 reading grubunun dört dosyası yeni maddi bulgu olmadan tekrar düzenlenmez. Önceki tamamlanan alt kümeler sırf tur değişti diye yeniden açılmaz. Eski Python/deney kaydı bulmak çalıştırma talimatı değildir.
 
 A2 kapanışı, A4'ün bütün depo taramasını ve A5'in yeni okuyucu/bağlantı değerlendirmesini ikame etmez. Arama çıktısının tarihsel başlığı atladığı durumlar ve eski gövde bağlantıları son değerlendirmede ayrıca ele alınır. Current alanının statü incelemesinin bitmesi bütün kütüphanenin aktarım ve erişim doğrulaması değildir.
 
@@ -131,7 +141,7 @@ Aktarım sadakatinin tamamının doğrulandığı iddia edilmez. Dış değerlen
 
 Başlangıç: **`8cd01e4afdcd0d37960b05930c91e1244678be6e`**. [BASELINE.json](maintenance/2026-09-29-research-installation-separation/BASELINE.json) başlangıç tree/blob ve istek hash'ini taşır. A1 kök README'nin eski gövdesini aynı blob ile denetim kopyasında korudu. A2 dosya taşımadı veya silmedi.
 
-Her tur ve yayın öncesi main ilerlediyse delta/yazarlar incelenir; başka çalışmanın değişikliği geri alınmaz. Yayın force push olmadan yapılır. Çakışan güncelleme sessizce ezilmez. Makine hesabı commit'i görülürse kullanıcıya bildirimden önce düzeltme yapılmaz. Bu turun başlangıç main'i `67fd24e` üzerinde author/committer kapsamındaki makine hesabı sorguları boştu; bu bütün dal ve kimliklerde yokluk ispatı değildir.
+Her tur ve yayın öncesi main ilerlediyse delta/yazarlar incelenir; başka çalışmanın değişikliği geri alınmaz. Yayın force push olmadan yapılır. Çakışan güncelleme sessizce ezilmez. Makine hesabı commit'i görülürse kullanıcıya bildirimden önce düzeltme yapılmaz. Bu turun başlangıç main'i `bc015e2` üzerinde author/committer kapsamındaki makine hesabı sorguları boştu; bu bütün dal ve kimliklerde yokluk ispatı değildir.
 
 A4 taraması en az `Codex`, `güncel`, `current`, `sıradaki`, `next`, `DEVOS-001`, `DEVOS-002`, P4/P5 ve eski hedef repo adlarını kapsar. Sonuçlar tam izlenen yol envanteriyle karşılaştırılır. Eşleşme hata veya aramada bulunmama yokluk kanıtı değildir: tarihsel alıntılar, gerçek eski kanıt ve aktif araştırmanın kendi sonraki işi gerekçeyle korunabilir. Pasif arşiv içeriği talimat diye uygulanmaz.
 
@@ -141,6 +151,6 @@ Tam tarama ve arşiv erişimi yapılmadığı için **“eski yönü güncel gö
 
 ## 7. Devralma
 
-**Tek sonraki iş: A2 §4.8 — DEVOS-001'in `reading/` kayıtları, ardından EXP-006 P1/P2/P3 doğrudan girişleri.** Önce main delta/yazar kontrolü; sonra bu dosya ve A2-REVIEWS-CLOSE okunur. DEVOS-001'in mevcut dizininden `reading/` yolları tam envanterlenip okunur; eski görevler uygulanmadan statü/yön değerlendirmesi yapılır. İlgili EXP-006 girişleri bundan sonra ele alınır. Bu kalan kapsam kapanınca A3, A4 ve A5 sırası korunur.
+**Tek sonraki iş: A2 §4.9 — EXP-006 P1/P2/P3 doğrudan girişleri.** Önce main delta/yazar kontrolü; sonra bu dosya ve A2-READING okunur. İlk kaynak `work/P1-01-claude-cloud-environment-map.md`, ardından `work/P2-01-named-role-contracts.md` ve `work/P3-01-work-information-discussion.md`; üçü de EXP-006 dizinindedir. Kaynaklar tam okunur, eski görevler uygulanmadan statü/yön değerlendirmesi yapılır. Kalan doğrudan girişler sonuçlandırılınca A3, A4 ve A5 sırası korunur. DEVOS-001 reading grubu yeniden başlatılmaz.
 
 Yeni oturum eski COORD/G0/G1 brief'inden, EXP-006 S00'ından, DEVOS-001/002 görevinden veya dış DevOS kurulumundan başlamaz. Bu bakımın tek güncel devam kaydı bu dosyadır; önceki tarihli denetimlerdeki “sonraki” ifadeleri onların kendi turuna aittir.

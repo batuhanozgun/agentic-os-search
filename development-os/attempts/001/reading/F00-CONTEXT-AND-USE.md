@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel DEVOS-001 / F00 kaynak okuması ve katkı kaydı.** Aşağıdaki altı katkı araştırma girdisi olarak korunur; P1 yükümlülüğü, karşı okuma açığı ve sıradaki `01_verticals` okuması eski denemeye aittir. Seri tam okuma şartının daha sonra kaldırılması [COVERAGE](COVERAGE.md)'da kayıtlıdır; bu belge eski işi yeniden başlatmaz.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); Claude Code ve DevOS bu depoyu yalnız okur. Kaynak/yorum/yetki ayrımları ve özgün gövde değişmez. Bu not Foundation'ın kendi araştırma durumunu değiştirmez ve eski DEVOS-001 yetkisini etkinleştirmez.
+
+---
+
 # F00 — başlangıç bağlamı ve araştırmanın çalışma yapısında kullanımı
 
 **Tarih / okuyucu:** 24 Eylül 2026 / Research–ChatGPT.

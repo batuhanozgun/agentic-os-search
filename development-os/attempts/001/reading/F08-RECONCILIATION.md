@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel F08 karşı okuması ve tamlık düzeltmesi.** Aşağıdaki S07 eksik okuma düzeltmesi ve beş katkı korunur; özgün F08'in ilk tamlık beyanı bu ekle birlikte okunmalıdır. Son paragraftaki `01_verticals` görevi ve karşı okuma durumu eski denemeye aittir; sonraki yöntem değişikliği [COVERAGE](COVERAGE.md)'dadır. Bu ek bugünkü kurulum veya okuma kuyruğu değildir.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); Claude Code ve DevOS bu depoyu yalnız okur. Aşağıdaki kaynak kimlikleri özgün, öneksiz metinleri tanımlar. Geçmiş düzeltmeyi korumak yeni bir bağımsız doğrulama veya eski işi sürdürme yetkisi değildir.
+
+---
+
 # F08 — karşı okuma sonucu, eksik aralık ve katkı ekleri
 
 **Tarih / aktör:** 24 Eylül 2026 / Research–ChatGPT.

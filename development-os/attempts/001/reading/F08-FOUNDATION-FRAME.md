@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel DEVOS-001 / F08 ilk kaynak çıkarımı.** Aşağıdaki ilk tamlık beyanı ve S07 okuma satırı tek başına geçerli değildir: eksik son aralık ve katkılar [F08-RECONCILIATION](F08-RECONCILIATION.md)'da düzeltilmiştir. Eski P1 ve sonraki okuma yönü bugünkü görev değildir; daha sonraki yöntem değişikliği [COVERAGE](COVERAGE.md)'dadır. Araştırma katkıları korunur, eski hazırlık yeniden açılmaz.
+>
+> Güncel devir [D030](../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); Claude Code ve DevOS bu depoyu yalnız okur. [Öneksiz ilk kayıt](https://github.com/batuhanozgun/agentic-os-search/blob/bc015e2f97beb9c281bd54a071916324459bc502/development-os/attempts/001/reading/F08-FOUNDATION-FRAME.md) aşağıda aynen korunur; eski blob/satır kimlikleri bu notu kapsamaz.
+
+---
+
 # F08 — çalışma sisteminin bütünü için Foundation çerçevesi
 
 **Kayıt türü:** özgün Research dosyalarından kaynak-bağlı fikir/örnek çıkarımı; yapı seçimi değil.
