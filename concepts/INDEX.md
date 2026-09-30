@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — aktif araştırma programı; DevOS kurulum talimatı değildir.** Bu girişteki okuma sırası, “global current authority” ve “güncel/sonraki iş” ifadeleri yalnız ChatGPT'nin bu terim araştırmasını yürütmesine ilişkindir. Claude Code ve DevOS ekibi burayı bilgi kaynağı olarak salt okunur kullanır; buradaki `AGENT.md` / protokol yükleme yönünü kendi kontrol talimatı saymaz.
+>
+> Araştırmanın kendi yetki, yöntem ve tamamlanma durumları korunur; bu alan tarihsel veya tamamlanmış ilan edilmez. DevOS kurulum yönü [D030](../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri) ve [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) üzerinden; bu bakımın devamı [depo bakım planından](../REPOSITORY-TRANSITION.md) alınır. Aşağıdaki özgün metin değiştirilmeden korunmuştur.
+
+---
+
 # Concepts — Araştırma Bazında Terim Çıkarımı ve Ortak Referans
 
 Bu alan 2026-09-19 konuşmasıyla sıfırdan başlatıldı. Eski concepts listesinin, yönteminin veya tanımlarının devamı değildir. Studies araştırmaları kendi yerinde korunur; burada önce her araştırmanın terim/jargon kullanımları kendi bağlamında çıkarılır, bütün çıkarımlar tamamlanınca ayrı bir ortak değerlendirme yapılır.
