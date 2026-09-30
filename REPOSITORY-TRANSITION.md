@@ -1,11 +1,11 @@
 # Araştırma / kurulum ayrımı — depo bakım çalışması
 
 **Kimlik:** REPO-SEPARATION-20260929  
-**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4'te 207 dosya kimliği kayıtlı, sekiz alt ağacın yaprak envanteri açık. Concepts girişine araştırma/kurulum okuyucu sınırı eklendi. Tam içerik/bağlantı taraması ve A5 tamamlanmadı.  
+**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4'te EXP-001–005'in 229 dosyalık envanteri tamamlandı; önceki kayıt ve yayın farkıyla 438 açık dosya kimliği, research altında üç açılmamış alt ağaç var. Tam içerik/bağlantı taraması ve A5 tamamlanmadı.  
 **Güncelleme:** 30 Eylül 2026. **Yazar:** ChatGPT, Batu'nun açık yetkisiyle.  
 **Kaynak:** [Görev belgesinin değiştirilmemiş kopyası](maintenance/2026-09-29-research-installation-separation/REQUEST.md). İş, kullanıcının isteğiyle turlara bölünmüştür.
 
-Bu dosya yalnız `agentic-os-search` deposunu güncelleme çalışmasının planı, ilerleme kaydı ve devir noktasıdır. Yeni DevOS kurulum planı, SOUL iş listesi, mimari veya agent-control dosyası değildir. Bu sürüm ilerleme ve devir kısmını günceller; önceki kayıt `36255c146241f0d05ed8f4672f7cbf7c35752af5` commit'inde, blob `2c86dafa9e9cabce12ebc5e903a901609345347c` olarak korunur.
+Bu dosya yalnız `agentic-os-search` deposunu güncelleme çalışmasının planı, ilerleme kaydı ve devir noktasıdır. Yeni DevOS kurulum planı, SOUL iş listesi, mimari veya agent-control dosyası değildir. Bu sürüm ilerleme ve devir kısmını günceller; önceki kayıt `d5cbe13f8d38066f1d5d138022dff28b443a58bf` commit'inde, blob `ac173d7fcf7bd9af35d23c92e3711647e09a7d6a` olarak korunur.
 
 ## 1. Amaç ve yetki
 
@@ -38,7 +38,7 @@ Paket gerektiğinde birkaç tur sürer; numarası otomatik tur sayısı değildi
 | **A1 — Başlangıç ve kalıcı plan** | Görev, başlangıç kimlikleri, yazar sınırı, dış plan adresi, kök yönlendirme; uzak yayın ve geri okuma | **TAMAM:** `ab8ef329aa4841fae2b836c91e74e68ad1c4c9e5` |
 | **A2 — Karar ve güncel yönler** | D030; EXP-006 ve deneme/bağlam girişleri; doğrudan eski devirler; eski kurulum bu yollardan güncel diye devralınamıyor | **BELGE DÜZEYİNDE TAMAM:** §4.10–4.11 ve A2-CLOSE. Depo geneli yokluk veya bağımsız kurucu davranışı iddiası değildir |
 | **A3 — Rapor ve paket arşivi** | Yedi kaynak ailesini gerçek gövde ve kimlikle arşivle; farklı P5 paketlerini karıştırma; erişilemeyeni yeniden üretme | **KISMİ / İKİ ERİŞİM ENGELİ AÇIK:** §5.1 / A3-ACCESS-GAPS. Beş aile arşivde; iki aile için mevcut kapsamın erişim incelemesi sonuçlandı. Arşiv yükü kaldırılmadı |
-| **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **DEVAM:** §6.2 / A4-INVENTORY-EXPANSION. 207 dosya kimliği ve sekiz açılmamış alt ağaç kayıtlı; tam repository envanteri değildir. Bir aktif araştırma girişinin okuyucu sınırı düzeltildi; kalan içerik/bağlantı taraması ve A3 engelleri açık |
+| **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **DEVAM:** §6.3 / A4-EXPLORATIONS-INVENTORY. EXP-001–005'in 229 yaprağı açıldı; birleşik kayıt 438 dosya ve üç açık research alt ağacı taşır. Tam repository envanteri, kalan içerik/bağlantı taraması ve A3 engelleri açık |
 | **A5 — Son karşılaştırma ve teslim** | Başlangıçtan son commit'e fark; silme/taşıma/gövde ve bağlantı denetimi; yeni okuyucu yürüyüşü; tam değişiklik/gerekçe listesi | BEKLİYOR. Kapsamı aşmayan tamamlanma hükmü ve erişim açıkları teslim edilir |
 
 ## 4. A2 — tamamlanan alt kümeler ve kapanış
@@ -209,11 +209,23 @@ Kök README, concepts INDEX ve publications/linkedin README tam okundu. Yalnız 
 
 Düz yaprak listesi ve sekiz açık alt-ağaç kimliği birlikte başlangıç root tree'sini yeniden üretti; 207 ayrı yaprak çıkarma, sekiz alt-ağaç çıkarma ve üç yol/mode/blob bozma kontrolünde eşitlik bozuldu. Bu yalnız envanter/kayıt denetimidir; tarihsel deneyler veya Claude davranış testleri değildir. Kontrol ve arşiv gövdeleri korunur, silme/taşıma yapılmaz. A4-SCOPED-INVENTORY ve A4-INITIAL-SCAN önceki tarihli kayıtlar olarak değişmeden kalır. Yeni envanter yayın öncesi snapshot'tır; bu turun dört-yol yayın farkı ayrıca değerlendirilir.
 
+### 6.3 A4 — EXP-001–005 envanteri
+
+Başlangıç main **`d5cbe13f8d38066f1d5d138022dff28b443a58bf`**, root tree **`61fd18514effa53efe68092a4bfed91aedb85d95`**. Önceki yayınla fark gözlenmedi; aynı ref üzerinde makine hesabı author ve committer sorguları boştu. [A4-EXPLORATIONS-INVENTORY](maintenance/2026-09-29-research-installation-separation/A4-EXPLORATIONS-INVENTORY.md) tam kapsamı, yayın kümesini, doğrulama sınırını ve kalan işi; [A4-EXP001-005-INVENTORY](maintenance/2026-09-29-research-installation-separation/A4-EXP001-005-INVENTORY.json) kesin yaprak kimliklerini ve birleşim tarifini taşır.
+
+EXP-001 **66**, EXP-002 **38**, EXP-003 **29**, EXP-004 **75**, EXP-005 **21**: toplam **229 yeni açılan dosya**. Beş alt ağacın kökü yapraklardan yeniden hesaplandı ve uzak Git tree kimlikleriyle eşleşti. Her bir yeni yaprağın çıkarıldığı 229 olumsuz kontrolde eşitlik bozuldu. Bu, metadata doğrulamasıdır; **yeni araştırma gövdesi okuması 0**. PDF, ZIP, HTML, görsel ve tarihsel kod içerikleri incelenmiş veya çalıştırılmış sayılmaz.
+
+Önceki 207-yaprak envanteri değiştirilmeden sabit sürümüyle yeniden kullanılır. `d5cbe13` yayınının iki değişen ve iki eklenen dosyası yeni JSON'daki `snapshot_upserts` alanındadır. **207 + önceki yayının 2 ek dosyası + 229 = 438 açık dosya kimliği.** Explorations'ın tamamı 282 dosya yoluyla envanterlidir. Bu birleşim bütün repository'nin toplam sayısı değildir; research altında üç opak alt ağaç kalır. Önceki 207 dosyanın root denetimi önceki turun sonucudur; bu dilimde birleşik root yeniden hesaplanmış sayılmaz.
+
+Yeni JSON **28.701 byte**, Git blob **`2b72cac6c98844e55ec5275a4cfedf976eec213b`**; uzak oluşturma sonucu yerel dosya kimliğiyle eşleşti. Bu kimlik tek başına main yayını değildir. İki yeni bakım kaydı ve bu plan aynı nihai ağaçta yayımlanır; yayın öncesi main/delta ve yayın sonrası ref/dosya geri okuması ayrı yapılır. Araştırma, kontrol, önceki envanterler, arşiv ve MOVES değişmez; silme veya taşıma yapılmaz. Yeni kapsam yayın öncesi snapshot'tır; bu turun kendi bakım farkları sonraki envanter güncellemesine aittir.
+
+**A4 açık, A5 bekliyor, A3 iki erişim engeliyle kısmi.** Beş envanterin tamamlanması, bu paketlerin içerik/statü/bağlantı denetiminin tamamlandığı anlamına gelmez. §6.1–6.2 ve eski raporlardaki sekiz frontier ifadesi kendi tarihli snapshot'larına aittir; bugünkü kalan envanter yükü üç araştırma alanıdır.
+
 ## 7. Devralma
 
-**Tek sonraki iş: A4 — sekiz açık alt ağacın yaprak envanterini tamamlamak.** Önce güncel main delta/yazar kontrolü, bu plan, A4-INVENTORY-EXPANSION ve A4-PATH-INVENTORY okunur. Envanter `36255c1` başlangıcını taşır; yeni concepts INDEX ve bu turun bakım dosyaları yayın farkıdır. İlk açık alt ağaç **explorations/EXP-001-soul-calisma-modeli**; ardından EXP-002–005 ve research'ün üç ana alt ağacı gelir. Ağaç kimlikleri değişmemişse tamamlanmış yedi alanın yaprak listeleri yeniden çıkarılmaz. Bu, araştırmaları yürütme veya eski görevleri yeniden açma yetkisi değildir.
+**Tek sonraki iş: A4 — kalan üç araştırma alt ağacının yaprak envanteri; ilk giriş `research/soul-context`.** Önce güncel main delta/yazar kontrolü, bu plan, A4-EXPLORATIONS-INVENTORY ve A4-EXP001-005-INVENTORY okunur. Yeni JSON, A4-PATH-INVENTORY'nin `d5cbe13` commit'indeki sabit gövdesini ve o yayının dört farkını kullanır; sonraki yayın farkları ayrıca eklenir. Ardından `research/soul-foundations` ve `research/studies` gelir. Kimlikleri değişmediyse tamamlanmış alanların yaprak listeleri yeniden çıkarılmaz. Bu, araştırmaları yürütme veya eski görevleri yeniden açma yetkisi değildir.
 
-Önceki dört history düzeltmesi ve 69-dosya hazırlığı yeniden yayımlanmaz. Üç yeni giriş okuması yalnız kendi kapsamıyla geçerlidir; ilk sekiz tam okuma ve A2 sonuçları yeni sayılmaz. A3 5/7 aileyle kısmi kalır; S00–S12 ve SOUL ve DevOS için yeni somut erişim olmadan arama tekrarlanmaz, aynı ZIP tekrar istenmez.
+Önceki dört history düzeltmesi, concepts okuyucu notu ve ilk envanterler yeniden yayımlanmaz. Bu dilimde açılan 229 yaprak için içerik okuması yapılmış sayılmaz; önceki üç giriş okuması, ilk sekiz tam okuma ve A2 sonuçları yeni sayılmaz. A3 5/7 aileyle kısmi kalır; S00–S12 ve SOUL ve DevOS için yeni somut erişim olmadan arama tekrarlanmaz, aynı ZIP tekrar istenmez.
 
 A4'te sabit main'deki bütün izlenen yolları, kesilmemiş alt-ağaç envanterleriyle kapsa. Metinler ve gereken belge/ZIP içlerinde §6'daki riskli yön ifadelerini tara; her maddi eşleşmeyi düzeltme veya gerekçeli korumaya bağla. Yeni bir statü sorunu yoksa A2'nin sonuçlandırdığı kaynakları yeniden düzenleme. Arama eşleşmesi tek başına yanlışlık değildir; araştırmaların kendi güncel işleri korunur. Okunmayan içerik, kırık bağlantı ve kaynak erişim sınırları görünür kalır. A4 sonuçlarından sonra A5 başlangıç karşılaştırması ve teslim gelir; A3'ün iki erişim engeli son teslimde ayrıca taşınır.
 
