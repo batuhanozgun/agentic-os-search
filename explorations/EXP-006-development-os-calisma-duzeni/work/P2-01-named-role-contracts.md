@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel P2 ilk rol sözleşmeleri.** Aşağıdaki 16 DR sözleşmesi 27 Eylül'deki aday taslaktır; güncel kurulumun kesin kadrosu veya 16 çalışan ajan değildir. Daha sonraki G/Y koordinasyon ve inceleme profilleri [P3-01](P3-01-work-information-discussion.md)'dedir. Ortak muhakeme, uzmanlık, yetki ve bağımsızlık ayrımları korunur; eski P3–P6 çalışma sırası yeniden başlatılmaz.
+>
+> Güncel devir [D030](../DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); Claude Code ve DevOS bu depoyu yalnız okur. Özgün aday sözleşmeler aşağıda aynen korunur; bu not onları kabul edilmiş tasarıma yükseltmez. Bakımın devamı [REPOSITORY-TRANSITION](../../../REPOSITORY-TRANSITION.md)'dedir.
+
+---
+
 # P2-01 — Adlandırılmış rol ve sözleşme taslağı
 
 **Üst iş:** [WORK/P2](../WORK.md). **Tarih:** 27 Eylül 2026.  

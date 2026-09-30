@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel P1 kaynak incelemesi.** Aşağıdaki Claude cloud imkânları, açık Q01–Q06 yükleri ve P2–P6 sırası 27 Eylül'deki hazırlığa aittir; bugünkü kurulum planı değildir. Güncel ortamın da Claude olması eski seçenekleri veya görevleri yeniden etkinleştirmez. Kaynak beyanı, kullanıcı bildirimi, tasarım çıkarımı ve yapılmamış runtime sınaması ayrımları korunur; bu bakım platform bilgilerini yeniden doğrulamaz.
+>
+> Güncel devir [D030](../DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); Claude Code ve DevOS bu depoyu yalnız okur. Özgün gövde aşağıda korunur. Bakımın tek devam noktası [REPOSITORY-TRANSITION](../../../REPOSITORY-TRANSITION.md)'dir; eski P2 görevi başlatılmaz.
+
+---
+
 # P1-01 — Claude cloud Environment haritası
 
 **Üst iş:** [WORK/P1](../WORK.md). **Tarih:** 27 Eylül 2026.  

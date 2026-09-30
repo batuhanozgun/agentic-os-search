@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel P3 v0.5 tasarım devri.** Aşağıdaki “güncel tek ayrıntı yüzeyi” ve P4'e geçiş ifadeleri 27 Eylül'deki hazırlığa aittir; bugünkü kurulum sırası değildir. D021'deki kullanıcı kabulünün kapsamı, G/Y ayrımı, çalışma alanı bakımı ve platformdan bağımsız H1–H6 güvenceleri korunur. Masa başı senaryo canlı deney veya bütün taslağın kabulü sayılmaz; eski P4/P5 görevi başlatılmaz.
+>
+> Güncel devir [D030](../DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1); Claude Code ve DevOS bu depoyu yalnız okur. Özgün kullanıcı alıntıları ve aday tasarım gövdesi aşağıda aynen korunur; bu bakım aktarımın eksiksizliğini veya yeni hedefin yeterliğini onaylamaz. Devam noktası [REPOSITORY-TRANSITION](../../../REPOSITORY-TRANSITION.md)'dir.
+
+---
+
 # P3-01 — İş, çalışma alanı ve bilgi sürekliliği
 
 **Üst iş:** [WORK/P3](../WORK.md). **Tarih:** 27 Eylül 2026.  
