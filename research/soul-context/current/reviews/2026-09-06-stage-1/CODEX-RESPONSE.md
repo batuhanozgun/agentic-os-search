@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel Codex yanıtı; güncel öneri veya görev değildir.** Aşağıdaki metin, 6 Eylül Stage-1 görevi için kullanıcının aktardığı tasarım cevabıdır. Üç yüzeyli başlangıç, eski hedef depolar ve “sonraki iş” önerileri bugünkü kurucuya talimat olmaz. Okuma ve işlem beyanları kaynak yanıtın beyanları olarak korunur; bu bakımda yeniden doğrulanmış değildir.
+>
+> Güncel devir [D030](../../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. [Özgün byte-sadık yanıt](https://github.com/batuhanozgun/agentic-os-search/blob/9620dfdeda71f25580f6945c2bb3a11c19b78703/research/soul-context/current/reviews/2026-09-06-stage-1/CODEX-RESPONSE.md) ayırıcıdan sonra aynen korunur; [REVIEW](REVIEW.md)'daki eski satır/hash kimlikleri yeni not hariç bu gövdeye aittir.
+
+---
+
 **Önerim, üç belge yüzeyiyle başlayan, tek yazıcının yürüttüğü ve sonuçları iddiaya uygun kanıtla değerlendiren küçük bir Development OS.** İlk başarı ölçütü, yeni oturumun kuralları anlatabilmesi değil; önceki sohbeti bilmeden yetkili, anlamlı bir işi tamamlayıp kullanılabilir devir bırakması olmalı.
 
 `DEVOS-BOOTSTRAP-S1-2026-09-06` görev dosyasını belirtilen commit’ten **tam okudum**. İnceleme başlangıcında araştırma reposunun güncel `main` commit’i de `bfe58e7bde8ec9ef58e46fab5c04a7720e207407` idi. Altı zorunlu giriş kaynağı tam okundu; ardından ilgili Foundation ve çalışma paketlerinde seçici derinleşme yapıldı. Yerel Git ağacında yalnız `.gitkeep` bulunması kayıtlı başlangıç durumuyla tutarlı. [Görev dosyası](https://github.com/batuhanozgun/agentic-os-search/blob/bfe58e7bde8ec9ef58e46fab5c04a7720e207407/research/soul-context/current/briefs/CODEX-STAGE-1-BOOTSTRAP-DESIGN.md)

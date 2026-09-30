@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel G0 kanıt incelemesi ve teşhis önerisi.** Aşağıdaki C0/C1, yapılmamış T1–T4/R(C1), yerel politika hipotezi ve D1 devam önerisi 6 Eylül'deki denemeye aittir. Eski gözlem ve kanıt sınırları korunur; bunlar bugünkü Claude ortamının yeterliği veya yeni deney izni değildir.
+>
+> Güncel devir [D030](../../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Eski teşhis/onarım başlatılmaz; bakımın devamı [REPOSITORY-TRANSITION](../../../../../REPOSITORY-TRANSITION.md)'dedir.
+
+---
+
 # G0 — Kanıt paketi incelemesi ve sınır teşhisi
 
 **Review ID:** DEVOS-G0-EVIDENCE-REVIEW-2026-09-06  

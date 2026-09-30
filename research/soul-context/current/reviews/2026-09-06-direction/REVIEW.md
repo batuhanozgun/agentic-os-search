@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel yön değerlendirmesi; güncel çalışma veya kurulum kararı değildir.** Aşağıdaki C1/D1 durumu, önerilen yön düzeltmesi ve “sonraki” ifadeleri 6 Eylül'deki incelemeye aittir. Vizyonun daralmamasıyla ilgili ayrımlar korunur; eski bootstrap, test veya ürün işi yeniden açılmaz.
+>
+> Güncel devir [D030](../../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır: DevOS Claude Code cloud'da kurulacak ve çalışacak; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. Özgün inceleme ve kaynak kimlikleri aşağıda korunur; kaynak dosyasına eklenen yeni statü notu tarihli byte/hash iddialarının parçası değildir.
+
+---
+
 # SOUL yönü ile bootstrap çalışmasının hizası — sınırlı değerlendirme
 
 **Review ID:** SOUL-DIRECTION-CHECK-2026-09-06  

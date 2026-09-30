@@ -1,3 +1,9 @@
+> **30 Eylül 2026 — tarihsel kaynak aktarımı; etkin kontrol veya güncel SOUL mimarisi değildir.** Aşağıdaki metin, 6 Eylül'deki incelemede korunan önceki assistant cevabıdır. İçindeki Routing gate bugünkü okuyucunun kontrol sonucu değildir; mimari adları ve “bugün/sonraki” ifadeleri kendi bağlamına aittir. Kaynak gövdesi ayırıcıdan sonra değiştirilmeden korunur.
+>
+> Güncel yetki/statü [D030](../../../../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri)'dadır; tek kurulum planı [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) (devir sürümü 2.1). Claude Code ve DevOS bu depoyu yalnız okur. [Özgün byte-sadık kaynak](https://github.com/batuhanozgun/agentic-os-search/blob/9620dfdeda71f25580f6945c2bb3a11c19b78703/research/soul-context/current/reviews/2026-09-06-direction/OPENING-VISION-SOURCE.md) ve [tarihli incelemedeki kaynak kimlikleri](REVIEW.md) bu yeni notu değil, aşağıdaki gövdeyi tanımlar.
+
+---
+
 Routing gate
 R01 Varsayımlar: LOAD
 R02 Kanıt-dışı etki: LOAD
