@@ -1,11 +1,11 @@
 # Araştırma / kurulum ayrımı — depo bakım çalışması
 
 **Kimlik:** REPO-SEPARATION-20260929  
-**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4'te 08 foundation-sufficiency-reuse-review alanının 13 yolu da envanterli. Foundation 905 açık dosyayla kısmi; birleşik kapsam 1.423 açık dosya kimliğidir. Foundation'da yalnız history ve ayrıca studies, tam içerik/bağlantı taraması ve A5 açık.  
+**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4'te Foundation yol envanteri history dahil 931 dosyayla tamamlandı. Birleşik kapsam 1.451 açık dosya kimliğidir. Yalnız studies yol envanteri ile içerik/bağlantı taraması ve A5 açık.  
 **Güncelleme:** 1 Ekim 2026. **Yazar:** ChatGPT, Batu'nun açık yetkisiyle.  
 **Kaynak:** [Görev belgesinin değiştirilmemiş kopyası](maintenance/2026-09-29-research-installation-separation/REQUEST.md). İş, kullanıcının isteğiyle turlara bölünmüştür.
 
-Bu dosya yalnız `agentic-os-search` deposunu güncelleme çalışmasının planı, ilerleme kaydı ve devir noktasıdır. Yeni DevOS kurulum planı, SOUL iş listesi, mimari veya agent-control dosyası değildir. Bu sürüm ilerleme ve devir kısmını günceller; önceki kayıt `ffd3d7d59ca9e650c13c30c618c12d607e066617` commit'inde, blob `079ba45b75dcceb2f623c6567ac84a6f6a974cc0` olarak korunur.
+Bu dosya yalnız `agentic-os-search` deposunu güncelleme çalışmasının planı, ilerleme kaydı ve devir noktasıdır. Yeni DevOS kurulum planı, SOUL iş listesi, mimari veya agent-control dosyası değildir. Bu sürüm ilerleme ve devir kısmını günceller; önceki kayıt `a3bd10747face4de7a72427ef14591c7d595336e` commit'inde, blob `8997a20e87011da095fd2d090c5af25c11285862` olarak korunur.
 
 ## 1. Amaç ve yetki
 
@@ -38,7 +38,7 @@ Paket gerektiğinde birkaç tur sürer; numarası otomatik tur sayısı değildi
 | **A1 — Başlangıç ve kalıcı plan** | Görev, başlangıç kimlikleri, yazar sınırı, dış plan adresi, kök yönlendirme; uzak yayın ve geri okuma | **TAMAM:** `ab8ef329aa4841fae2b836c91e74e68ad1c4c9e5` |
 | **A2 — Karar ve güncel yönler** | D030; EXP-006 ve deneme/bağlam girişleri; doğrudan eski devirler; eski kurulum bu yollardan güncel diye devralınamıyor | **BELGE DÜZEYİNDE TAMAM:** §4.10–4.11 ve A2-CLOSE. Depo geneli yokluk veya bağımsız kurucu davranışı iddiası değildir |
 | **A3 — Rapor ve paket arşivi** | Yedi kaynak ailesini gerçek gövde ve kimlikle arşivle; farklı P5 paketlerini karıştırma; erişilemeyeni yeniden üretme | **KISMİ / İKİ ERİŞİM ENGELİ AÇIK:** §5.1 / A3-ACCESS-GAPS. Beş aile arşivde; iki aile için mevcut kapsamın erişim incelemesi sonuçlandı. Arşiv yükü kaldırılmadı |
-| **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **DEVAM:** §6.13 / A4-SUFFICIENCY-REUSE-INVENTORY. Foundation 905 yolla kısmi, birleşik kapsam 1.423 açık yoldur. Foundation'da history, ayrıca studies ve içerik/bağlantı taraması açıktır |
+| **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **DEVAM:** §6.14 / A4-FOUNDATION-HISTORY-INVENTORY. Foundation yol envanteri 931 dosyayla tamamlandı; birleşik kapsam 1.451 açık yoldur. Studies yol envanteri ve içerik/bağlantı taraması açıktır |
 | **A5 — Son karşılaştırma ve teslim** | Başlangıçtan son commit'e fark; silme/taşıma/gövde ve bağlantı denetimi; yeni okuyucu yürüyüşü; tam değişiklik/gerekçe listesi | BEKLİYOR. Kapsamı aşmayan tamamlanma hükmü ve erişim açıkları teslim edilir |
 
 ## 4. A2 — tamamlanan alt kümeler ve kapanış
@@ -307,11 +307,15 @@ Birleşik kapsam **1.392 + önceki yayının 2 yeni bakım dosyası + 14 = 1.408
 
 `08_foundation-sufficiency-reuse-review` **13/13 dosya** ile envanterlidir. Git kökü `dbdafeb7b08274073f103f61a90c2a0c9c318c3b` yeniden üretildi; eksiltme ve blob bozma kontrolleri hatayı yakaladı. Yeni araştırma gövdesi okuması ve betik çalıştırması **0**. Birleşik kapsam **1.423 repository yolu**, Foundation **905 yol**. Foundation'da yalnız history opak kalır; studies ayrıca açıktır.
 
+### 6.14 A4 — Foundation history envanteri
+
+`research/soul-foundations/history` **26/26 dosya** ile envanterlidir. Git kökü `151fb029cdc58085ee71f0f470efe89af712971f` yeniden üretildi; eksiltme kontrolü hatayı yakaladı. Birleşik kapsam **1.451 repository yolu**, Foundation **931 yol**. **Foundation yol envanteri tamamlandı.** Yeni araştırma gövdesi okuması **0**.
+
 ## 7. Devralma
 
-**Tek sonraki iş: A4 — `research/soul-foundations/history` yaprak envanteri.** Ardından `research/studies` gelir. Tamamlanan alanlar aynı kimlikteyse yeniden envantere alınmaz. Bu, araştırmaları yürütme veya eski görevleri yeniden açma yetkisi değildir.
+**Tek sonraki iş: A4 — `research/studies` yaprak envanteri.** Tamamlanan Foundation alanları aynı kimlikteyse yeniden envantere alınmaz. Studies son opak araştırma alt ağacıdır; ardından A4 içerik/statü/bağlantı ve gerekli arşiv içi taramaya geçer.
 
-Önceki dört history düzeltmesi, concepts okuyucu notu ve ilk envanterler yeniden yayımlanmaz. Son dilimde açılan 13 yaprak için içerik okuması yapılmış sayılmaz; önceki okumalar yeni sayılmaz. A3 5/7 aileyle kısmi kalır; S00–S12 ve SOUL ve DevOS için yeni somut erişim olmadan arama tekrarlanmaz, aynı ZIP tekrar istenmez.
+Önceki dört history düzeltmesi, concepts okuyucu notu ve ilk envanterler yeniden yayımlanmaz. Son dilimde açılan 26 yaprak için içerik okuması yapılmış sayılmaz; önceki okumalar yeni sayılmaz. A3 5/7 aileyle kısmi kalır; S00–S12 ve SOUL ve DevOS için yeni somut erişim olmadan arama tekrarlanmaz, aynı ZIP tekrar istenmez.
 
 A4'te sabit main'deki bütün izlenen yolları, kesilmemiş alt-ağaç envanterleriyle kapsa. Metinler ve gereken belge/ZIP içlerinde §6'daki riskli yön ifadelerini tara; her maddi eşleşmeyi düzeltme veya gerekçeli korumaya bağla. Yeni bir statü sorunu yoksa A2'nin sonuçlandırdığı kaynakları yeniden düzenleme. Arama eşleşmesi tek başına yanlışlık değildir; araştırmaların kendi güncel işleri korunur. Okunmayan içerik, kırık bağlantı ve kaynak erişim sınırları görünür kalır. A4 sonuçlarından sonra A5 başlangıç karşılaştırması ve teslim gelir; A3'ün iki erişim engeli son teslimde ayrıca taşınır.
 
