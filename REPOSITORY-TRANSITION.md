@@ -1,11 +1,11 @@
 # Araştırma / kurulum ayrımı — depo bakım çalışması
 
 **Kimlik:** REPO-SEPARATION-20260929  
-**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4 yol envanteri tamam; iki yön/statü tarama kümesinde yeni kaynak düzeltmesi gerekmedi. Yüksek-riskli 17 girişte 182/182 göreli link hedefi mevcut; A3 arşivinin içindeki tarihsel current/next/Codex/P5 ifadeleri yan statü kayıtlarıyla gerekçeli korunuyor. Kalan geniş içerik/link taraması ve A5 açık.  
+**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4 yol envanteri tamam; ilk iki yön/statü kümesi ve 299 giriş/durum yüzeyinin ilk-100-satır taraması yeni kaynak düzeltmesi gerektirmedi. Yüksek-riskli 17 girişte 182/182 göreli link hedefi mevcut; A3 arşiv statü kontrolü tamam. Daha geniş giriş-link ve giriş-dışı gövde taraması ile A5 açık.  
 **Güncelleme:** 1 Ekim 2026. **Yazar:** ChatGPT, Batu'nun açık yetkisiyle.  
 **Kaynak:** [Görev belgesinin değiştirilmemiş kopyası](maintenance/2026-09-29-research-installation-separation/REQUEST.md). İş, kullanıcının isteğiyle turlara bölünmüştür.
 
-Bu dosya yalnız `agentic-os-search` deposunu güncelleme çalışmasının planı, ilerleme kaydı ve devir noktasıdır. Yeni DevOS kurulum planı, SOUL iş listesi, mimari veya agent-control dosyası değildir. Bu sürüm ilerleme ve devir kısmını günceller; önceki kayıt `b085de996dfa7c1896ff6e5eaff6e0ba215fbb31` commit'inde, blob `f1ae152a1a76908f3cb3b136f4930ee37100acc1` olarak korunur.
+Bu dosya yalnız `agentic-os-search` deposunu güncelleme çalışmasının planı, ilerleme kaydı ve devir noktasıdır. Yeni DevOS kurulum planı, SOUL iş listesi, mimari veya agent-control dosyası değildir. Bu sürüm ilerleme ve devir kısmını günceller; önceki kayıt `9689e08985c85f3edbb2899b2da5dcdbf3acc0f7` commit'inde, blob `b0c733c887a76e96c35452fe52509efe645139cc` olarak korunur.
 
 ## 1. Amaç ve yetki
 
@@ -38,7 +38,7 @@ Paket gerektiğinde birkaç tur sürer; numarası otomatik tur sayısı değildi
 | **A1 — Başlangıç ve kalıcı plan** | Görev, başlangıç kimlikleri, yazar sınırı, dış plan adresi, kök yönlendirme; uzak yayın ve geri okuma | **TAMAM:** `ab8ef329aa4841fae2b836c91e74e68ad1c4c9e5` |
 | **A2 — Karar ve güncel yönler** | D030; EXP-006 ve deneme/bağlam girişleri; doğrudan eski devirler; eski kurulum bu yollardan güncel diye devralınamıyor | **BELGE DÜZEYİNDE TAMAM:** §4.10–4.11 ve A2-CLOSE. Depo geneli yokluk veya bağımsız kurucu davranışı iddiası değildir |
 | **A3 — Rapor ve paket arşivi** | Yedi kaynak ailesini gerçek gövde ve kimlikle arşivle; farklı P5 paketlerini karıştırma; erişilemeyeni yeniden üretme | **KISMİ / İKİ ERİŞİM ENGELİ AÇIK:** §5.1 / A3-ACCESS-GAPS. Beş aile arşivde; iki aile için mevcut kapsamın erişim incelemesi sonuçlandı. Arşiv yükü kaldırılmadı |
-| **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **DEVAM:** §6.17–6.18 / A4-DIRECTIONAL-SCAN-02 + A4-LINK-ARCHIVE-CHECK-01. İkinci risk kümesinde yeni kaynak düzeltmesi yok; 17 yüksek-riskli girişte 182/182 göreli link yolu mevcut; arşiv özgünleri yan statüyle korunuyor. Kalan geniş içerik/link taraması açık |
+| **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **DEVAM:** §6.19 / A4-ENTRY-SURFACE-SCAN-03. İlk iki yön taraması ve 299 giriş/durum yüzeyinin ilk-100-satır taraması tamam; yeni kaynak düzeltmesi yok. İlk link/arşiv kontrolü tamam. Daha geniş giriş-link ve giriş-dışı gövde taraması açık |
 | **A5 — Son karşılaştırma ve teslim** | Başlangıçtan son commit'e fark; silme/taşıma/gövde ve bağlantı denetimi; yeni okuyucu yürüyüşü; tam değişiklik/gerekçe listesi | BEKLİYOR. Kapsamı aşmayan tamamlanma hükmü ve erişim açıkları teslim edilir |
 
 ## 4. A2 — tamamlanan alt kümeler ve kapanış
@@ -331,9 +331,15 @@ Bu ilk arama turu repository-wide yokluk kanıtı değildir; sonuç limiti ve gi
 
 A3'teki doğrulanmış ZIP'in yerel byte kimliği yeniden eşleşti. 16 iç ZIP dahil 1.062 üye, 994 metin-benzeri dosya veri olarak tarandı; özgün tarihsel gövdelerde eski current/next/Codex/P5 dili beklendiği gibi vardır. Kaynaklar değiştirilmez; arşiv README ve SOURCE-IDENTITIES bu malzemenin uygulama kaynağı olmadığını ve eski başlangıç metinlerinin çalıştırılmamasını belirtir. A3'ün iki erişim açığı değişmez.
 
+### 6.19 A4 — Giriş/durum yüzeyleri taraması 03
+
+[A4-ENTRY-SURFACE-SCAN-03](maintenance/2026-09-29-research-installation-separation/A4-ENTRY-SURFACE-SCAN-03.md), A2/A4'te zaten sonuçlandırılan alanlar dışındaki **299 giriş/durum yüzeyinin ilk 100 satırını** eski-yön göstergeleri açısından doğrudan tarar. **37 dosyada** eşleşme çıktı; tamamı açık tarihsel ayrım, araştırma kapsam yasağı, araştırma-içi P1–P5/S00 kimlikleri veya kaynak/mekanizma adı olarak gerekçeli korundu. **Yeni kaynak düzeltmesi 0.**
+
+Bu kapsam tam gövde taraması değildir. Daha aşağı satırlardaki başlık-dışı ifadeler ve 299 giriş yüzeyinin daha geniş göreli-link kümesi açık kalır.
+
 ## 7. Devralma
 
-**Tek sonraki iş: A4 — kalan başlık-dışı/yüksek-riskli içerik eşleşmelerini ve daha geniş Markdown link kümesini taramak.** İlk iki içerik kümesi, 17 girişlik link kontrolü ve A3 archive/ZIP içi statü kontrolü tekrar edilmez. Yeni statü veya kırık/yanlış hedef bulunursa yalnız ilgili kaynak düzeltilir; aktif araştırma ve özgün tarihsel gövdeler korunur.
+**Tek sonraki iş: A4 — 299 giriş/durum yüzeyinin göreli Markdown linklerini güncel root tree'ye karşı genişletilmiş biçimde denetlemek; ardından ilk 100 satır dışında kalabilecek başlık-dışı eski-yön ifadelerini hedefli sorgularla daraltmak.** İlk iki içerik kümesi, 17 girişlik link kontrolü ve A3 archive/ZIP içi statü kontrolü tekrar edilmez.
 
 Önceki dört history düzeltmesi, concepts okuyucu notu ve ilk envanterler yeniden yayımlanmaz. Studies'teki 928 yaprak için içerik okuması yapılmış sayılmaz; önceki okumalar yeni sayılmaz. A3 5/7 aileyle kısmi kalır; S00–S12 ve SOUL ve DevOS için yeni somut erişim olmadan arama tekrarlanmaz, aynı ZIP tekrar istenmez.
 
