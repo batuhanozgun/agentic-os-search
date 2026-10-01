@@ -1,7 +1,7 @@
 # Araştırma / kurulum ayrımı — depo bakım çalışması
 
 **Kimlik:** REPO-SEPARATION-20260929  
-**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. **A4 tamamlandı:** bütün yol envanteri, yön/statü aramaları, archive/ZIP kontrolü, 299/299 giriş/durum yüzeyinin ilk-100-satır ve kalan gövde risk taraması ile 1.799 göreli link disposition'ı kapandı; actionable yeni kaynak/link düzeltmesi kalmadı. **A5 son karşılaştırma ve teslim sırada.**  
+**Durum:** TAMAMLANDI — A1, A2, A4 ve A5 tamam. A3 arşivi **5/7 aileyle kısmi**; P5 S00–S12 ve “SOUL ve DevOS” özgün kaynakları erişim engeli nedeniyle açık sınır olarak taşınıyor. Depo yönlendirme/ayrım bakımı tamamlandı; yeni özgün kaynak gelmedikçe bu bakım için sıradaki aktif iş yok.  
 **Güncelleme:** 1 Ekim 2026. **Yazar:** ChatGPT, Batu'nun açık yetkisiyle.  
 **Kaynak:** [Görev belgesinin değiştirilmemiş kopyası](maintenance/2026-09-29-research-installation-separation/REQUEST.md). İş, kullanıcının isteğiyle turlara bölünmüştür.
 
@@ -39,7 +39,7 @@ Paket gerektiğinde birkaç tur sürer; numarası otomatik tur sayısı değildi
 | **A2 — Karar ve güncel yönler** | D030; EXP-006 ve deneme/bağlam girişleri; doğrudan eski devirler; eski kurulum bu yollardan güncel diye devralınamıyor | **BELGE DÜZEYİNDE TAMAM:** §4.10–4.11 ve A2-CLOSE. Depo geneli yokluk veya bağımsız kurucu davranışı iddiası değildir |
 | **A3 — Rapor ve paket arşivi** | Yedi kaynak ailesini gerçek gövde ve kimlikle arşivle; farklı P5 paketlerini karıştırma; erişilemeyeni yeniden üretme | **KISMİ / İKİ ERİŞİM ENGELİ AÇIK:** §5.1 / A3-ACCESS-GAPS. Beş aile arşivde; iki aile için mevcut kapsamın erişim incelemesi sonuçlandı. Arşiv yükü kaldırılmadı |
 | **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **TAMAM:** §6.22–6.23 / A4-ENTRY-BODY-SCAN-04. 299/299 entry/state yüzeyinin giriş penceresi ve kalan gövde risk taraması, genişletilmiş link kontrolü ve archive/ZIP disposition'ı kapandı; actionable yeni kaynak/link düzeltmesi yok. Bu, bütün study yapraklarının semantik yeniden-okuması değildir |
-| **A5 — Son karşılaştırma ve teslim** | Başlangıçtan son commit'e fark; silme/taşıma/gövde ve bağlantı denetimi; yeni okuyucu yürüyüşü; tam değişiklik/gerekçe listesi | BEKLİYOR. Kapsamı aşmayan tamamlanma hükmü ve erişim açıkları teslim edilir |
+| **A5 — Son karşılaştırma ve teslim** | Başlangıçtan son commit'e fark; silme/taşıma/gövde ve bağlantı denetimi; yeni okuyucu yürüyüşü; tam değişiklik/gerekçe listesi | **TAMAM:** [A5-FINAL-DELIVERY](maintenance/2026-09-29-research-installation-separation/A5-FINAL-DELIVERY.md). A3'ün iki erişim açığı son teslimde açık sınır olarak taşındı |
 
 ## 4. A2 — tamamlanan alt kümeler ve kapanış
 
@@ -359,9 +359,15 @@ A4'ün amacı bütün araştırmayı yeniden okumak veya 928 study yaprağının
 
 Arama eşleşmesi yokluğu tek başına kanıt sayılmadı; package-local current/next dili ve kaynak/mekanizma adları araştırma anlamı olarak korundu. Okunmamış research leaf gövdeleri “yeniden doğrulanmış” sayılmaz. A3'ün iki erişim engeli kapanmamıştır ve A5 tesliminde açık sınır olarak taşınacaktır.
 
-## 7. Devralma
+## 6.24 A5 — son karşılaştırma ve teslim
 
-**Tek sonraki iş: A5 — başlangıç commit'i `8cd01e4` ile güncel son commit'i karşılaştırmak; silme/taşıma/gövde ve bağlantı sınırlarını, yeni okuyucu yürüyüşünü, tam değişiklik/gerekçe listesini ve görev §7 teslim maddelerini doğrulayıp son teslimi yayımlamak.** A4 kapanmıştır; 299 entry/state yüzeyi, link taraması ve body risk taraması yeni maddi bulgu olmadan yeniden açılmaz.
+[A5-FINAL-DELIVERY](maintenance/2026-09-29-research-installation-separation/A5-FINAL-DELIVERY.md), başlangıç `8cd01e4` ile A4 kapanışını ve A5 router düzeltmelerini karşılaştırır. Final compare öncesi 141 yol: 58 added, 83 modified, 0 deleted, 0 renamed; yalnız kök README'de 12 satır eski yönlendirme metni değiştirilmişti. A5 final kaydıyla toplam değişen/eklenen yol 142 olur. Gerçek taşıma ve silme yoktur; `AGENT.md` / `agent/**` değiştirilmemiştir.
+
+Yeni-okuyucu yürüyüşü, kök README'deki stale “tarama açık” ve arşiv README'deki stale “sıradaki iş A4” cümlelerini yakaladı; ikisi final statüye getirildi. A3 5/7 arşiv kapsamı ve iki erişim engeli son teslimde açık sınır olarak korunur.
+
+## 7. Kapanış ve koşullu yeniden açılma
+
+**Aktif bakım işi yok.** A5 son karşılaştırma ve teslim [A5-FINAL-DELIVERY](maintenance/2026-09-29-research-installation-separation/A5-FINAL-DELIVERY.md) ile tamamlandı. A4 yeniden açılmaz; A3 yalnız P5 S00–S12 veya “SOUL ve DevOS” için yeni özgün kaynak / kesin kaynak referansı / gerçekten yeni erişim kapsamı gelirse o kaynaklarla sınırlı yeniden açılır.
 
 Önceki dört history düzeltmesi, concepts okuyucu notu ve ilk envanterler yeniden yayımlanmaz. Studies'teki 928 yaprak için içerik okuması yapılmış sayılmaz; önceki okumalar yeni sayılmaz. A3 5/7 aileyle kısmi kalır; S00–S12 ve SOUL ve DevOS için yeni somut erişim olmadan arama tekrarlanmaz, aynı ZIP tekrar istenmez.
 

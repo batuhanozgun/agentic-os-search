@@ -51,7 +51,7 @@ Görev, P4/P5'in bazı bölümlerinin yeni plana aktarıldığını bildirir; A3
 
 Bu çalışma yalnız özel araştırma deposuna yazar; kaynakları açık ürün depolarına taşımaz. Kullanıcının yüklediği ZIP, Academy gövdesi, araştırma ve kontrol dosyaları bu güncellemede değiştirilmez; dosya silinmez veya taşınmaz. Son erişim değerlendirmesinde yalnız bu README, kök bakım planının ilerleme/devri ve yeni A3-ACCESS-GAPS kaydı değişir; kimlik envanteri aynı kalır.
 
-## 4. Erişim engelleri ve tek devam noktası
+## 4. Erişim engelleri ve bakım sonrası durum
 
 Önceki aktarım engeli ve tek seferlik yükleme talebi [`0548bd4` sürümünde](https://github.com/batuhanozgun/agentic-os-search/blob/0548bd4a55ef3b87fbb3674cf075c2f6d8e639ec/archives/devos-pre-claude-2026-09-29/README.md) aynen bulunur. **Bu yükleme ihtiyacı karşılanmıştır; Batu'dan aynı ZIP yeniden istenmez.** [A3-INTAKE](../../maintenance/2026-09-29-research-installation-separation/A3-INTAKE.md) ilk alımın tarihli kaydıdır.
 
@@ -59,4 +59,4 @@ Bu çalışma yalnız özel araştırma deposuna yazar; kaynakları açık ürü
 
 **Arşiv 5/7 aileyle kısmi; A3 iki kaynak erişim engeliyle açık kalır.** S00–S12 ve SOUL ve DevOS için yeni özgün dosya, kesin kaynak referansı veya yeni erişim kapsamı geldiğinde çalışma bu kaynaklar özelinde yeniden ilerletilir. İki arşiv yükü kaldırılmadı; son teslimde ayrıca açıklanacaktır.
 
-**Tek sonraki yetkili iş A4'ün tam izlenen yol envanteri ve depo geneli taramasıdır.** Bu, [bakım planı §6–§7](../../REPOSITORY-TRANSITION.md)'deki bağımsız yönlendirme işidir; erişilemeyen iki kaynağın içeriği hakkında hüküm veya eksiksiz A3 kapanışı değildir. A4 ve A5 bu tur yapılmadı.
+**A4 depo geneli tarama ve A5 son karşılaştırma/teslim tamamlandı.** Bu arşiv bakımının açık kalan tek koşullu yükü, yukarıdaki iki özgün kaynağın ileride gerçekten erişilebilir hale gelmesi durumunda A3'ün yalnız o kaynaklar için yeniden açılmasıdır. Yeni kaynak gelmedikçe aynı aramalar tekrarlanmaz ve 5/7 arşiv eksiksizmiş gibi sunulmaz.
