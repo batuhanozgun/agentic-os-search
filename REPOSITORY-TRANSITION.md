@@ -1,7 +1,7 @@
 # Araştırma / kurulum ayrımı — depo bakım çalışması
 
 **Kimlik:** REPO-SEPARATION-20260929  
-**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4 yol envanteri tamam; genişletilmiş giriş-link taramasında ilk 42/299 yüzeyde 513/513 göreli hedef çözüldü, kırık hedef bulunmadı. Kalan 257 yüzey, giriş-dışı gövde taraması ve A5 açık.  
+**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4 yol envanteri ve 299/299 giriş/durum yüzeyinin genişletilmiş link taraması tamam: 1.799 göreli Markdown linkinin 1.792'si mevcut snapshot yoluna doğrudan çözüldü; Hermes prepared-delivery payload'ındaki 7 hedef-konum göreli link gerekçeli korundu. Actionable kırık link bulunmadı. Giriş-dışı gövde taraması ve A5 açık.  
 **Güncelleme:** 1 Ekim 2026. **Yazar:** ChatGPT, Batu'nun açık yetkisiyle.  
 **Kaynak:** [Görev belgesinin değiştirilmemiş kopyası](maintenance/2026-09-29-research-installation-separation/REQUEST.md). İş, kullanıcının isteğiyle turlara bölünmüştür.
 
@@ -38,7 +38,7 @@ Paket gerektiğinde birkaç tur sürer; numarası otomatik tur sayısı değildi
 | **A1 — Başlangıç ve kalıcı plan** | Görev, başlangıç kimlikleri, yazar sınırı, dış plan adresi, kök yönlendirme; uzak yayın ve geri okuma | **TAMAM:** `ab8ef329aa4841fae2b836c91e74e68ad1c4c9e5` |
 | **A2 — Karar ve güncel yönler** | D030; EXP-006 ve deneme/bağlam girişleri; doğrudan eski devirler; eski kurulum bu yollardan güncel diye devralınamıyor | **BELGE DÜZEYİNDE TAMAM:** §4.10–4.11 ve A2-CLOSE. Depo geneli yokluk veya bağımsız kurucu davranışı iddiası değildir |
 | **A3 — Rapor ve paket arşivi** | Yedi kaynak ailesini gerçek gövde ve kimlikle arşivle; farklı P5 paketlerini karıştırma; erişilemeyeni yeniden üretme | **KISMİ / İKİ ERİŞİM ENGELİ AÇIK:** §5.1 / A3-ACCESS-GAPS. Beş aile arşivde; iki aile için mevcut kapsamın erişim incelemesi sonuçlandı. Arşiv yükü kaldırılmadı |
-| **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **DEVAM:** §6.19 / A4-ENTRY-SURFACE-SCAN-03. İlk iki yön taraması ve 299 giriş/durum yüzeyinin ilk-100-satır taraması tamam; yeni kaynak düzeltmesi yok. İlk link/arşiv kontrolü tamam. Daha geniş giriş-link ve giriş-dışı gövde taraması açık |
+| **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **DEVAM:** §6.21 / A4-ENTRY-LINK-SCAN-03. 299/299 giriş/durum yüzeyinin genişletilmiş göreli-link taraması tamam; actionable kırık link yok. İlk-100-satır dışındaki başlık-dışı eski-yön ifadelerinin hedefli gövde taraması açık |
 | **A5 — Son karşılaştırma ve teslim** | Başlangıçtan son commit'e fark; silme/taşıma/gövde ve bağlantı denetimi; yeni okuyucu yürüyüşü; tam değişiklik/gerekçe listesi | BEKLİYOR. Kapsamı aşmayan tamamlanma hükmü ve erişim açıkları teslim edilir |
 
 ## 4. A2 — tamamlanan alt kümeler ve kapanış
@@ -341,9 +341,15 @@ Bu kapsam tam gövde taraması değildir. Daha aşağı satırlardaki başlık-d
 
 [A4-ENTRY-LINK-SCAN-02](maintenance/2026-09-29-research-installation-separation/A4-ENTRY-LINK-SCAN-02.md), lexicographic ilk **42/299 giriş/durum yüzeyinde 513/513 göreli Markdown linkinin çözüldüğünü** kaydeder. Kırık hedef bulunmadı. Bu kısmi sonuçtur; 257 yüzey açık kalır ve link varlığı hedef anlamını doğrulamaz.
 
+### 6.21 A4 — Genişletilmiş giriş-yüzeyi link taraması 03
+
+[A4-ENTRY-LINK-SCAN-03](maintenance/2026-09-29-research-installation-separation/A4-ENTRY-LINK-SCAN-03.md), aynı sabit snapshot ve parser kuralıyla **299/299 yüzeyde 1.799 göreli Markdown linkini** disposition eder. İlk 42 dosyadaki 513/513 sonucu yeniden üretildi; kalan 257 dosyada 1.286 link bulundu. Toplam **1.792 link mevcut snapshot yoluna doğrudan çözüldü**.
+
+Tek istisna kümesi, Hermes'in `PREPARED_NOT_PUBLISHED` delivery payload'ındaki `repo-updates/STATE.md` dosyasındaki yedi hedef-konum göreli linktir. `publication_manifest.json`, bu staging dosyasının gelecekte package-root `STATE.md` konumuna kopyalanacağını açıkça eşler; bu nedenle linkler staging konumundan canlı navigation değildir. Payload hash'lerini ve tarihsel teslim kanıtını bozmamak için kaynak değiştirilmedi. **Actionable kırık link: 0.** Bu sonuç link hedefinin varlık/disposition denetimidir; hedef içeriğinin anlamca doğru veya güncel olduğunu tek başına kanıtlamaz.
+
 ## 7. Devralma
 
-**Tek sonraki iş: A4 — genişletilmiş 299-yüzey link taramasına lexicographic indeks 42'den (`research/soul-foundations/01_verticals/records-artifacts/synthesis/README.md`) devam etmek.** İlk 42 yüzey / 513 göreli link aynı sabit tree'de tekrar edilmez. Link taraması bittikten sonra ilk 100 satır dışında kalabilecek başlık-dışı eski-yön ifadeleri hedefli sorgularla daraltılır.
+**Tek sonraki iş: A4 — 299 giriş/durum yüzeyinin ilk 100 satırı dışında kalabilecek başlık-dışı eski-yön ifadelerini hedefli sorgu ve doğrudan dosya okumalarıyla daraltmak.** Genişletilmiş link taraması tamamlandı; 299 yüzey / 1.799 link yeniden taranmaz.
 
 Önceki dört history düzeltmesi, concepts okuyucu notu ve ilk envanterler yeniden yayımlanmaz. Studies'teki 928 yaprak için içerik okuması yapılmış sayılmaz; önceki okumalar yeni sayılmaz. A3 5/7 aileyle kısmi kalır; S00–S12 ve SOUL ve DevOS için yeni somut erişim olmadan arama tekrarlanmaz, aynı ZIP tekrar istenmez.
 
