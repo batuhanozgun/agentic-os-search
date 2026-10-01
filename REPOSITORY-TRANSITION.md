@@ -1,7 +1,7 @@
 # Araştırma / kurulum ayrımı — depo bakım çalışması
 
 **Kimlik:** REPO-SEPARATION-20260929  
-**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4 yol envanteri tamam; ilk iki yön/statü kümesi ve 299 giriş/durum yüzeyinin ilk-100-satır taraması yeni kaynak düzeltmesi gerektirmedi. Yüksek-riskli 17 girişte 182/182 göreli link hedefi mevcut; A3 arşiv statü kontrolü tamam. Daha geniş giriş-link ve giriş-dışı gövde taraması ile A5 açık.  
+**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4 yol envanteri tamam; genişletilmiş giriş-link taramasında ilk 42/299 yüzeyde 513/513 göreli hedef çözüldü, kırık hedef bulunmadı. Kalan 257 yüzey, giriş-dışı gövde taraması ve A5 açık.  
 **Güncelleme:** 1 Ekim 2026. **Yazar:** ChatGPT, Batu'nun açık yetkisiyle.  
 **Kaynak:** [Görev belgesinin değiştirilmemiş kopyası](maintenance/2026-09-29-research-installation-separation/REQUEST.md). İş, kullanıcının isteğiyle turlara bölünmüştür.
 
@@ -337,9 +337,13 @@ A3'teki doğrulanmış ZIP'in yerel byte kimliği yeniden eşleşti. 16 iç ZIP 
 
 Bu kapsam tam gövde taraması değildir. Daha aşağı satırlardaki başlık-dışı ifadeler ve 299 giriş yüzeyinin daha geniş göreli-link kümesi açık kalır.
 
+### 6.20 A4 — Genişletilmiş giriş-yüzeyi link taraması 02
+
+[A4-ENTRY-LINK-SCAN-02](maintenance/2026-09-29-research-installation-separation/A4-ENTRY-LINK-SCAN-02.md), lexicographic ilk **42/299 giriş/durum yüzeyinde 513/513 göreli Markdown linkinin çözüldüğünü** kaydeder. Kırık hedef bulunmadı. Bu kısmi sonuçtur; 257 yüzey açık kalır ve link varlığı hedef anlamını doğrulamaz.
+
 ## 7. Devralma
 
-**Tek sonraki iş: A4 — 299 giriş/durum yüzeyinin göreli Markdown linklerini güncel root tree'ye karşı genişletilmiş biçimde denetlemek; ardından ilk 100 satır dışında kalabilecek başlık-dışı eski-yön ifadelerini hedefli sorgularla daraltmak.** İlk iki içerik kümesi, 17 girişlik link kontrolü ve A3 archive/ZIP içi statü kontrolü tekrar edilmez.
+**Tek sonraki iş: A4 — genişletilmiş 299-yüzey link taramasına lexicographic indeks 42'den (`research/soul-foundations/01_verticals/records-artifacts/synthesis/README.md`) devam etmek.** İlk 42 yüzey / 513 göreli link aynı sabit tree'de tekrar edilmez. Link taraması bittikten sonra ilk 100 satır dışında kalabilecek başlık-dışı eski-yön ifadeleri hedefli sorgularla daraltılır.
 
 Önceki dört history düzeltmesi, concepts okuyucu notu ve ilk envanterler yeniden yayımlanmaz. Studies'teki 928 yaprak için içerik okuması yapılmış sayılmaz; önceki okumalar yeni sayılmaz. A3 5/7 aileyle kısmi kalır; S00–S12 ve SOUL ve DevOS için yeni somut erişim olmadan arama tekrarlanmaz, aynı ZIP tekrar istenmez.
 
