@@ -1,3 +1,5 @@
+> **Güncel statü — 1 Ekim 2026:** Aşağıdaki 30 Eylül erişim değerlendirmesi tarihsel olarak korunur. Kullanıcının sağladığı SOUL ve DevOS raporu arşivlendi; bu kaynağın engeli kapandı. Arşiv 6/7; yalnız P5 S00–S12 kalıcı açık erişim sınırıdır, K paketi onun yerine geçmez. Güncel sonuç ve kimlikler [A5-FINAL-DELIVERY](A5-FINAL-DELIVERY.md) ve [arşiv envanterindedir](../../archives/devos-pre-claude-2026-09-29/SOURCE-IDENTITIES.json).
+
 # A3 — iki kaynak için erişim değerlendirmesi
 
 **30 Eylül 2026 / REPO-SEPARATION-20260929.** A3'ün kalan kaynak erişim incelemesi mevcut erişim kapsamında sonuçlandırıldı; **arşiv eksiksiz değildir**. Yedi ailenin beşi arşivde, ikisi erişim engeliyle açık kalır. Bu kayıt eksik kaynak üretmez, arşiv yükünü kaldırmaz ve DevOS kurulumu için kabul kararı vermez. Tek güncel devam [kök bakım planındadır](../../REPOSITORY-TRANSITION.md).

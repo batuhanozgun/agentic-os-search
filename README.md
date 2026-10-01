@@ -1,6 +1,6 @@
 # SOUL Research
 
-**Bu depo bağımsız araştırma kütüphanesidir; DevOS kurulumunun güncel çalışma deposu değildir.** Araştırma ile tarihsel kurulum kayıtlarını ayıran bakım çalışması [REPOSITORY-TRANSITION.md](REPOSITORY-TRANSITION.md) üzerinden tamamlandı. **Bilinen açık sınır:** tarihsel arşiv 7 kaynak ailesinin 5'ini içeriyor; P5 S00–S12 paketi ile “SOUL ve DevOS” raporu erişim engeli nedeniyle arşivlenemedi. Bu iki eksik kaynak, eski kurulum yönünü güncel hale getirmez.
+**Bu depo bağımsız araştırma kütüphanesidir; DevOS kurulumunun güncel çalışma deposu değildir.** Araştırma ile tarihsel kurulum kayıtlarını ayıran bakım çalışması [REPOSITORY-TRANSITION.md](REPOSITORY-TRANSITION.md) üzerinden tamamlandı. **Bilinen açık sınır:** tarihsel arşiv 7 kaynak ailesinin 6'sını içeriyor; yalnız P5 S00–S12 özgün paketi erişim engeli nedeniyle arşivlenemedi. Bu eksik kaynak, eski kurulum yönünü güncel hale getirmez.
 
 ## DevOS kurucusu için güncel adres
 

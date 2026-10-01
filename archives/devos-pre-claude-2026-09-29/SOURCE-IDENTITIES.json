@@ -1,7 +1,7 @@
 {
-  "schema": 2,
+  "schema": 3,
   "task": "REPO-SEPARATION-20260929/A3",
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "source_baseline": "58eaaf5f1dfe2f22deecdc07420deb503e95f7d6",
   "scope": "Raw-byte and manifest identity. Source correctness, transfer completeness, historic test execution, PDF layout, and target behavior not validated. No archived code executed.",
   "families": [
@@ -204,16 +204,33 @@
           "sha256": "a4b9e42158780d98a3fdbfd4ab7000c68047ca9b15837612ce30f408df43ff00"
         }
       ],
-      "metadata_source": "explorations/EXP-006-development-os-calisma-duzeni/work/P5-01-codex-build-installation-package.md"
+      "metadata_source": "explorations/EXP-006-development-os-calisma-duzeni/work/P5-01-codex-build-installation-package.md",
+      "open_boundary": "PERMANENT_OPEN_SOURCE_ACCESS_BOUNDARY",
+      "non_substitution": "P5 K00-K15 does not substitute for P5 S00-S12. Reopen only on a new original source or concrete access evidence."
     },
     {
       "id": "soul-and-devos",
       "title": "SOUL ve DevOS",
       "historical_status": "Tarihsel kaynak; SOUL tanımının yeni planda güncellendiği görevde bildirilmiştir",
-      "source_access": "NOT_IDENTIFIED",
-      "repository_content_status": "NOT_PUBLISHED",
-      "artifacts": [],
-      "expected_unverified": []
+      "source_access": "RECOVERED_RAW_BYTES",
+      "repository_content_status": "VERIFIED_STANDALONE",
+      "artifacts": [
+        {
+          "path": "soul-and-devos/SOUL_ve_DevOS.md",
+          "repository_path": "archives/devos-pre-claude-2026-09-29/soul-and-devos/SOUL_ve_DevOS.md",
+          "archive_container_member": false,
+          "bytes": 147006,
+          "sha256": "0f8221445a59eccf1a52efa3d2fe3c7fac642d1370aff99acdc1894fbcfdc3c2",
+          "git_blob_sha1": "bcf79ccfcc21e1b8c294bd60cc17b065ce19e15a"
+        }
+      ],
+      "expected_unverified": [],
+      "standalone_files_published": true,
+      "standalone_repository_path": "archives/devos-pre-claude-2026-09-29/soul-and-devos/SOUL_ve_DevOS.md",
+      "source_identity": {
+        "supplied_filename": "SOUL_ve_DevOS.md",
+        "identity_basis": "Owner explicitly identified the attached file as the requested report in the five-item closure correction; supplied in this continuation on 2026-10-01."
+      }
     }
   ],
   "delivery_identity_checks": {
@@ -276,7 +293,7 @@
       "unlisted_files": 0
     }
   ],
-  "publication_limit": "Recovered P4 v3, P4 v4, P5 K00-K15 and P5 v2 originals are published as members of the verified repository ZIP, not as standalone repository files. Academy is also a standalone file. P5 S00-S12 and SOUL ve DevOS remain unavailable. Remote binary was not downloaded again: remote Git blob identity and size were matched to local bytes, then local members were validated. No target-reader ingestion or source-correctness claim.",
+  "publication_limit": "Recovered P4 v3, P4 v4, P5 K00-K15 and P5 v2 originals are published as members of the verified repository ZIP, not as standalone repository files. Academy is also a standalone file. SOUL ve DevOS is supplied by the owner and archived as a standalone file, outside the unchanged ZIP. Only P5 S00-S12 remains unavailable. Remote binary was not downloaded again: remote Git blob identity and size were matched to local bytes, then local members were validated. No target-reader ingestion or source-correctness claim.",
   "search_limit": "Targeted searches and one known folder listing; not a complete Library or full-history absence proof.",
   "publication_observed_at_commit": "93216f73ea565ed3ba22e4ba0e18e2144e1368c4",
   "archive_container": {
@@ -286,7 +303,7 @@
     "sha256": "8b06cb2b3dca5875cab0ad72595701e3e0d4d756d0c80fa2f49041df48aa9b17",
     "git_blob_sha1": "547522120893c25d5c709deb5c0e18f57ebe7806",
     "member_prefix": "archives/devos-pre-claude-2026-09-29/",
-    "locator_rule": "For each recovered artifact, exact ZIP member = member_prefix + artifact.path. artifact.path alone is not a standalone repository path.",
+    "locator_rule": "For the 19 recovered ZIP artifacts, exact ZIP member = member_prefix + artifact.path. SOUL ve DevOS has archive_container_member=false and an explicit standalone repository_path; it is not a ZIP member.",
     "remote_verification": "GitHub path metadata size and Git blob SHA-1 matched the locally hashed original.",
     "remote_binary_download_performed": false,
     "local_verification": {

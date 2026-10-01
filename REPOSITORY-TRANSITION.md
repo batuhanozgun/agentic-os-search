@@ -1,7 +1,7 @@
 # Araştırma / kurulum ayrımı — depo bakım çalışması
 
 **Kimlik:** REPO-SEPARATION-20260929  
-**Durum:** TAMAMLANDI — A1, A2, A4 ve A5 tamam. A3 arşivi **5/7 aileyle kısmi**; P5 S00–S12 ve “SOUL ve DevOS” özgün kaynakları erişim engeli nedeniyle açık sınır olarak taşınıyor. Depo yönlendirme/ayrım bakımı tamamlandı; yeni özgün kaynak gelmedikçe bu bakım için sıradaki aktif iş yok.  
+**Durum:** TAMAMLANDI — A1, A2, A4 ve A5 tamam. A3 arşivi **6/7 aileyle kısmi**; SOUL ve DevOS raporu arşivlendi. Yalnız P5 S00–S12 kalıcı açık kaynak erişim sınırı olarak taşınıyor. Depo yönlendirme/ayrım bakımı tamamlandı; yeni özgün kaynak gelmedikçe bu bakım için sıradaki aktif iş yok.
 **Güncelleme:** 1 Ekim 2026. **Yazar:** ChatGPT, Batu'nun açık yetkisiyle.  
 **Kaynak:** [Görev belgesinin değiştirilmemiş kopyası](maintenance/2026-09-29-research-installation-separation/REQUEST.md). İş, kullanıcının isteğiyle turlara bölünmüştür.
 
@@ -26,7 +26,7 @@ Görev kaynağındaki tarihli platform karşılaştırmaları kullanıcıdan al�
 - Foundation, studies, concepts ve kavramsal explorations kendi yerinde kalır; araştırma anlamı değişmez.
 - Eski kurulum/planlama ve devir dosyalarının başına tarihli statü notu konur; eski gövde, kaynak kullanıcı sözleri ve test/öneri sınırları korunur. “Tarihsel” statü, bulguyu hipoteze veya öneriyi karara dönüştürmez. Yeni ortamın da Claude olması eski bir Claude taslağını etkinleştirmez.
 - Kök ve alan girişlerinde araştırma, tarihsel kurulum, kontrol ve yayın ayrılır. Doğrudan alt dosya açılışları da incelenir; kök uyarısı tek başına son kabul değildir. Araştırma dizinindeki güncel araştırma rotaları topluca tarihsel ilan edilmez.
-- Eski rapor/paket kopyaları [archives/devos-pre-claude-2026-09-29/](archives/devos-pre-claude-2026-09-29/README.md) altındadır. Beş geri kazanılmış ailenin 19 özgün dosyası doğrulanmış repository ZIP'inde, Academy ayrıca bağımsız dosyadadır. **Eksiksiz arşiv değildir:** iki kaynağın erişimi açık. ZIP üyesi ile bağımsız repository yolu ayrı kaydedilir; özgün gövdeler değişmez.
+- Eski rapor/paket kopyaları [archives/devos-pre-claude-2026-09-29/](archives/devos-pre-claude-2026-09-29/README.md) altındadır. Beş geri kazanılmış ailenin 19 özgün dosyası doğrulanmış repository ZIP'inde, Academy ayrıca bağımsız dosyadadır. SOUL ve DevOS bağımsız özgün dosya olarak ayrıca eklendi. **Eksiksiz arşiv değildir:** yalnız P5 S00–S12 erişimi açık. ZIP üyesi ile bağımsız repository yolu ayrı kaydedilir; özgün gövdeler değişmez.
 - [MOVES.md](MOVES.md) gerçekleşen taşımaları tutar. **Taşıma yok.** Kopya ve kaynak bağı ayrı kaydedilir. Çok dosyalı taşıma gerekirse uygulamadan önce Batu'ya kısa plan sunulur.
 
 ## 3. Beş iş paketi ve kapanış koşulları
@@ -37,9 +37,9 @@ Paket gerektiğinde birkaç tur sürer; numarası otomatik tur sayısı değildi
 |---|---|---|
 | **A1 — Başlangıç ve kalıcı plan** | Görev, başlangıç kimlikleri, yazar sınırı, dış plan adresi, kök yönlendirme; uzak yayın ve geri okuma | **TAMAM:** `ab8ef329aa4841fae2b836c91e74e68ad1c4c9e5` |
 | **A2 — Karar ve güncel yönler** | D030; EXP-006 ve deneme/bağlam girişleri; doğrudan eski devirler; eski kurulum bu yollardan güncel diye devralınamıyor | **BELGE DÜZEYİNDE TAMAM:** §4.10–4.11 ve A2-CLOSE. Depo geneli yokluk veya bağımsız kurucu davranışı iddiası değildir |
-| **A3 — Rapor ve paket arşivi** | Yedi kaynak ailesini gerçek gövde ve kimlikle arşivle; farklı P5 paketlerini karıştırma; erişilemeyeni yeniden üretme | **KISMİ / İKİ ERİŞİM ENGELİ AÇIK:** §5.1 / A3-ACCESS-GAPS. Beş aile arşivde; iki aile için mevcut kapsamın erişim incelemesi sonuçlandı. Arşiv yükü kaldırılmadı |
+| **A3 — Rapor ve paket arşivi** | Yedi kaynak ailesini gerçek gövde ve kimlikle arşivle; farklı P5 paketlerini karıştırma; erişilemeyeni yeniden üretme | **KISMİ / TEK KALICI AÇIK SINIR:** §5.2. Altı aile arşivde; yalnız P5 S00–S12 bulunamadı. K paketi onun yerine geçmez |
 | **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **TAMAM:** §6.22–6.23 / A4-ENTRY-BODY-SCAN-04. 299/299 entry/state yüzeyinin giriş penceresi ve kalan gövde risk taraması, genişletilmiş link kontrolü ve archive/ZIP disposition'ı kapandı; actionable yeni kaynak/link düzeltmesi yok. Bu, bütün study yapraklarının semantik yeniden-okuması değildir |
-| **A5 — Son karşılaştırma ve teslim** | Başlangıçtan son commit'e fark; silme/taşıma/gövde ve bağlantı denetimi; yeni okuyucu yürüyüşü; tam değişiklik/gerekçe listesi | **TAMAM:** [A5-FINAL-DELIVERY](maintenance/2026-09-29-research-installation-separation/A5-FINAL-DELIVERY.md). A3'ün iki erişim açığı son teslimde açık sınır olarak taşındı |
+| **A5 — Son karşılaştırma ve teslim** | Başlangıçtan son commit'e fark; silme/taşıma/gövde ve bağlantı denetimi; yeni okuyucu yürüyüşü; tam değişiklik/gerekçe listesi | **TAMAM:** [A5-FINAL-DELIVERY](maintenance/2026-09-29-research-installation-separation/A5-FINAL-DELIVERY.md). 1 Ekim kapanış düzeltmeleri uygulandı; yalnız P5 S00–S12 açık sınır olarak taşınır |
 
 ## 4. A2 — tamamlanan alt kümeler ve kapanış
 
@@ -143,7 +143,9 @@ Bu kapanış mevcut doğrudan giriş ölçütüne ilişkindir; bağımsız Claud
 
 ## 5. A3 kaynak matrisi ve doğrulanmış ZIP erişimi
 
-[A3-INTAKE](maintenance/2026-09-29-research-installation-separation/A3-INTAKE.md), ilk kaynak erişiminin ve kimlik denetiminin tarihli kaydıdır. İlk yayın `323e38d288b6760ab70e15744c86678fcbc9d125` yalnız Academy gövdesini ve yan kayıtları getirdi. `0548bd4a55ef3b87fbb3674cf075c2f6d8e639ec` aktarım engelini ve tek ZIP yükleme yolunu kaydetti. **Bu iki kayıttaki yayın bekleme durumu, aşağıdaki doğrulanmış yüklemeyle aşılmıştır.** Yükleme doğrulaması `b0339e77713c2182988e635859ed6d6d79b19cb7` turuna aittir; son kaynak erişim değerlendirmesi §5.1'dedir.
+**Güncel düzeltme:** Matris 1 Ekim sonucunu taşır. §5.1 ve aşağıdaki önceki yükleme/arama sonuçları kendi tarihli kapsamlarıyla korunur; SOUL ve DevOS engelinin kapanışı §5.2’dedir. Önceki 5/7 ve iki-engel kayıtları güncel durum değildir.
+
+[A3-INTAKE](maintenance/2026-09-29-research-installation-separation/A3-INTAKE.md), ilk kaynak erişiminin ve kimlik denetiminin tarihli kaydıdır. İlk yayın `323e38d288b6760ab70e15744c86678fcbc9d125` yalnız Academy gövdesini ve yan kayıtları getirdi. `0548bd4a55ef3b87fbb3674cf075c2f6d8e639ec` aktarım engelini ve tek ZIP yükleme yolunu kaydetti. **Bu iki kayıttaki yayın bekleme durumu, aşağıdaki doğrulanmış yüklemeyle aşılmıştır.** Yükleme doğrulaması `b0339e77713c2182988e635859ed6d6d79b19cb7` turuna aittir; 30 Eylül erişim değerlendirmesi §5.1’de, 1 Ekim kapanışı §5.2’dedir.
 
 Batu'nun `93216f73ea565ed3ba22e4ba0e18e2144e1368c4` commit'i [A3_Dogrulanmis_Tarihsel_Kaynaklar_2026-09-30.zip](archives/devos-pre-claude-2026-09-29/A3_Dogrulanmis_Tarihsel_Kaynaklar_2026-09-30.zip) dosyasını özel arşive ekledi. Uzak yol, **20.275.988 byte** boyut ve **`547522120893c25d5c709deb5c0e18f57ebe7806`** Git blob kimliği, yerelde gerçek byte'ları açılan özgün ZIP ile eşleşti. Yerel SHA-256 **`8b06cb2b3dca5875cab0ad72595701e3e0d4d756d0c80fa2f49041df48aa9b17`**. 19 özgün dosyanın her birinin boyut/SHA-256/Git blob kimliği yeniden doğrulandı; toplam 21 üye benzersiz ve güvenli, CRC geçerli.
 
@@ -154,10 +156,10 @@ Batu'nun `93216f73ea565ed3ba22e4ba0e18e2144e1368c4` commit'i [A3_Dogrulanmis_Tar
 | P5 K00–K15 | Tarihsel; rol/veri modeli aktarımının kaynağı | Beş özgün dosya repository ZIP'inde doğrulandı; S ailesinin yerine geçmez |
 | P5 S00–S12 | Tarihsel; senaryolar gelecekte sınav fikri olabilir | Eski teslimin beklenen kimlikleri kayıtlı; özgün gövdeler hâlâ bulunamadı. Yüklenen ZIP bu paketi içermez |
 | P5 v2 Codex arayüzü | Tarihsel; veri modeli aktarımının kaynağı | Beş özgün dosya repository ZIP'inde doğrulandı; bağımsız repository dosyaları oluşturulmadı |
-| SOUL ve DevOS | Tarihsel kaynak; SOUL tanımı yeni planda güncellendi | İstenen tam rapor hâlâ doğru kimliğiyle bulunamadı; yüklenen ZIP'te yok; başka metinle ikame edilmez |
+| SOUL ve DevOS | Tarihsel kaynak; SOUL tanımı yeni planda güncellendi | [Kullanıcının sağladığı özgün rapor](archives/devos-pre-claude-2026-09-29/soul-and-devos/SOUL_ve_DevOS.md) bağımsız dosya olarak arşivde; kimlik §5.2’de |
 | SOUL Academy | Keşif notu; karar veya doğrudan iş açma yetkisi değil | Özgün gövde hem repository ZIP'inde hem bağımsız Markdown dosyasında; iki kopya aynı kimlikte |
 
-[Arşiv README](archives/devos-pre-claude-2026-09-29/README.md) yükleme kanıtını ve erişim biçimini; [SOURCE-IDENTITIES](archives/devos-pre-claude-2026-09-29/SOURCE-IDENTITIES.json) sürüm 2 ise bütün dosyaların özgün kimliklerini ve kesin ZIP üye yollarının kuralını taşır. Üye yolu `archive_container.member_prefix + artifact.path`'tir; 19 eşleşme gerçek ZIP'te denetlendi. Bağımsız repository yolu yalnız gerçekten oluşturulduğu yerde ayrıca belirtilir. ZIP içindeki eski kimlik listesi güncel envanterin üstüne yazılmaz.
+[Arşiv README](archives/devos-pre-claude-2026-09-29/README.md) yükleme kanıtını ve erişim biçimini; [SOURCE-IDENTITIES](archives/devos-pre-claude-2026-09-29/SOURCE-IDENTITIES.json) sürüm 3 ise bütün dosyaların özgün kimliklerini ve kesin ZIP üye yollarının kuralını taşır. ZIP’teki 19 dosya için üye yolu `archive_container.member_prefix + artifact.path`’tir; 19 eşleşme gerçek ZIP’te denetlendi. SOUL ve DevOS bu kuralın dışında bağımsız repository yoluyla kayıtlıdır. Bağımsız repository yolu yalnız gerçekten oluşturulduğu yerde ayrıca belirtilir. ZIP içindeki eski kimlik listesi güncel envanterin üstüne yazılmaz.
 
 **Doğrulama sınırı:** Uzak ikili dosya bu tur yeniden indirilmedi; uzak Git nesne kimliği ve boyut, yerelde açılan özgün byte'larla eşleştirildi. Önceki A3-INTAKE'in 14 teslim girdisi ve 349 iç manifest girdisi denetimleri kendi tarihli sonuçlarıdır; bu tur yeni hedef testi gibi sayılmaz. Tarihsel kod/testler çalıştırılmadı; PDF görünümü, kaynak iddiaları, tam aktarım sadakati veya Claude'un hedefte içe alma davranışı doğrulanmış değildir.
 
@@ -174,6 +176,12 @@ Aynı adlı P5 rehberinin erişilen gövdesi K00–K15'tir. `Pasted markdown(9).
 **A3 sonucu: 5/7 aile arşivde; 2/7 aile erişim engeliyle açık.** Mevcut somut ipuçlarıyla erişim incelemesi sonuçlandı; REQUEST §3.4'teki iki arşiv yükü kaldırılmadı. Yeni özgün dosya, kesin kaynak referansı veya yeni erişim kapsamı geldiğinde yalnız bu iki kaynak için A3 yeniden ilerletilir. Sonuçsuz sorgular döndürülmez ve Batu'dan aynı doğrulanmış ZIP yeniden istenmez.
 
 **Sıradaki yetkili iş A4'tür.** Bu, aşağıdaki §6'nın erişilemeyen arşiv ile bağımsız yönlendirme işini ayıran mevcut kuralına dayanır. A3'ün engel değerlendirmesi yapılmıştır; eksiksiz arşiv kabulü verilmemiştir. A4/A5 bu iki kaynağın içeriği hakkında hüküm üretmez ve son teslimde erişim açıkları görünür kalır. Bu tur A4 veya A5 yürütülmedi.
+
+### 5.2 1 Ekim — SOUL ve DevOS arşivlendi
+
+Batu’nun beş maddelik kapanış düzeltmesi ve bu devam konuşmasında verdiği `SOUL_ve_DevOS.md`, istenen raporun kaynak kimliği için açık kullanıcı teyididir. Özgün 147.006 byte aynen arşivlendi; SHA-256 `0f8221445a59eccf1a52efa3d2fe3c7fac642d1370aff99acdc1894fbcfdc3c2`, Git blob `bcf79ccfcc21e1b8c294bd60cc17b065ce19e15a`. Mevcut ZIP ve önceki özgün kaynaklar değiştirilmedi.
+
+**Güncel arşiv 6/7; tek kalıcı açık sınır P5 S00–S12.** K00–K15 ikame değildir. Bu sınır ancak yeni özgün kaynak veya somut erişim kanıtıyla yeniden ele alınır; arşiv eksiksiz ilan edilmez.
 
 ## 6. Denetim ve son teslim yükü
 
@@ -365,12 +373,16 @@ Arama eşleşmesi yokluğu tek başına kanıt sayılmadı; package-local curren
 
 Yeni-okuyucu yürüyüşü, kök README'deki stale “tarama açık” ve arşiv README'deki stale “sıradaki iş A4” cümlelerini yakaladı; ikisi final statüye getirildi. A3 5/7 arşiv kapsamı ve iki erişim engeli son teslimde açık sınır olarak korunur.
 
+## 6.25 1 Ekim — beş maddelik kapanış düzeltmesi
+
+Başlangıç `59b8b8edda8e993cbc0a01980dea998d4e94ac73`. SOUL ve DevOS arşivi ve kimlik kaydı tamamlandı; S00–S12 sınırı korundu. Foundation STATE ve 08 DISCUSSION-HANDOFF başına D030’a kısa tarihli not eklendi, özgün gövdeler korundu. Baseline README başına 13 göreli linkin `8cd01e4` depo köküne göre olduğunu açıklayan snapshot notu eklendi; gövde korunur.
+
+Kullanıcının aktardığı Claude salt-okuma denetimi ve tüm-repo otomatik `Codex / current / next / güncel / sıradaki` taraması [A5 §10](maintenance/2026-09-29-research-installation-separation/A5-FINAL-DELIVERY.md#10-1-ekim--beş-maddelik-kapanış-düzeltmesi) içinde kaynak statüsüyle kaydedildi. Bu tur bağımsız yeniden tarama veya 928 studies yaprağının yeniden okuması değildir. Bildirilen iki Foundation yönlendirmesi bu tur kapatıldı; baseline link bağlamı açıklandı.
+
 ## 7. Kapanış ve koşullu yeniden açılma
 
-**Aktif bakım işi yok.** A5 son karşılaştırma ve teslim [A5-FINAL-DELIVERY](maintenance/2026-09-29-research-installation-separation/A5-FINAL-DELIVERY.md) ile tamamlandı. A4 yeniden açılmaz; A3 yalnız P5 S00–S12 veya “SOUL ve DevOS” için yeni özgün kaynak / kesin kaynak referansı / gerçekten yeni erişim kapsamı gelirse o kaynaklarla sınırlı yeniden açılır.
+**Aktif bakım işi yok.** Kullanıcının beş kapanış düzeltmesi uygulanmıştır. A1/A2/A4/A5 ve kapanış düzeltmeleri tamamlandı; A3 6/7 aileyle kısmi kalır. Tek kalıcı açık sınır **P5 S00–S12 özgün paketinin erişilememesidir**; K00–K15 paketi bunun yerine geçmez.
 
-Önceki dört history düzeltmesi, concepts okuyucu notu ve ilk envanterler yeniden yayımlanmaz. Studies'teki 928 yaprak için içerik okuması yapılmış sayılmaz; önceki okumalar yeni sayılmaz. A3 5/7 aileyle kısmi kalır; S00–S12 ve SOUL ve DevOS için yeni somut erişim olmadan arama tekrarlanmaz, aynı ZIP tekrar istenmez.
+Yeni özgün S kaynağı, kesin kaynak referansı veya gerçekten yeni erişim kapsamı gelirse yalnız bu arşiv kalemi yeniden açılır. Yeni somut erişim olmadan sonuçsuz aramalar tekrarlanmaz. 928 studies yaprağı yeniden okunmadı; kullanıcı tarafından aktarılan tüm-repo otomatik tarama teslim kaydında atıf olarak korunur.
 
-A4'te sabit main'deki bütün izlenen yolları, kesilmemiş alt-ağaç envanterleriyle kapsa. Metinler ve gereken belge/ZIP içlerinde §6'daki riskli yön ifadelerini tara; her maddi eşleşmeyi düzeltme veya gerekçeli korumaya bağla. Yeni bir statü sorunu yoksa A2'nin sonuçlandırdığı kaynakları yeniden düzenleme. Arama eşleşmesi tek başına yanlışlık değildir; araştırmaların kendi güncel işleri korunur. Okunmayan içerik, kırık bağlantı ve kaynak erişim sınırları görünür kalır. A4 sonuçlarından sonra A5 başlangıç karşılaştırması ve teslim gelir; A3'ün iki erişim engeli son teslimde ayrıca taşınır.
-
-A2'nin tamamlanmış doğrudan girişleri yeni maddi bulgu olmadan yeniden açılmaz. Yeni oturum eski COORD/G0/G1 brief'inden, EXP-006 S00'ından, DEVOS-001/002 görevinden veya dış DevOS kurulumundan başlamaz. Bu bakımın tek güncel devam kaydı bu dosyadır; önceki tarihli denetimlerdeki “sonraki” ifadeleri onların kendi turuna aittir.
+Yeni oturum eski COORD/G0/G1 brief’inden, EXP-006 S00’ından, DEVOS-001/002 görevinden veya dış DevOS kurulumundan başlamaz. Bu bakımın güncel devam kaydı bu dosyadır; önceki tarihli denetimlerdeki “sonraki” ifadeleri kendi turlarına aittir. Kontrol katmanı değişmedi; başka depoya yazılmadı; dosya silinmedi veya taşınmadı.

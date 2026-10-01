@@ -1,3 +1,5 @@
+> **Statü notu — 1 Ekim 2026:** Gövdedeki eski Development OS hedef-depo yönlendirmeleri tarihsel bağlamdır. Güncel kurulum devri ve yetki sınırı [D030](../../explorations/EXP-006-development-os-calisma-duzeni/DECISIONS.md#d030--claude-code-cloud-kurulum-devri) ile belirlenir; geçerli plan [devos/plan/](https://github.com/batuhanozgun/devos/tree/main/plan) altındadır. Foundation araştırma durumu ve aşağıdaki özgün gövde korunur.
+
 # SOUL Foundations — STATE
 
 **Updated:** 2026-09-17

@@ -1,6 +1,8 @@
 # A5 — son karşılaştırma ve teslim
 
-**1 Ekim 2026 / REPO-SEPARATION-20260929. FINAL DELIVERY.**
+**1 Ekim 2026 / REPO-SEPARATION-20260929. FINAL DELIVERY — 1 Ekim kapanış düzeltmeleriyle güncellendi.**
+
+Önceki A5 karşılaştırma sayıları kendi snapshot kapsamıyla aşağıda korunur; güncel kapanış ve toplamlar §10’dadır.
 
 Bu kayıt, görev belgesindeki §7 teslimini ve `8cd01e4afdcd0d37960b05930c91e1244678be6e` başlangıcından A4 kapanış commit'i `7dba57d439a783039fe53b53039fd82eed3c6c36` üzerine yapılan A5 kapanış düzeltmelerine kadar son karşılaştırmayı taşır.
 
@@ -55,9 +57,9 @@ Yedi tarihsel kaynak ailesinin durumu:
 - P5 v2 Codex arayüzü — arşivde
 - SOUL Academy — arşivde
 - **P5 S00–S12 — erişim engeli; özgün paket bulunamadı**
-- **“SOUL ve DevOS” — erişim/kimlik engeli; özgün rapor kesin olarak bulunamadı**
+- **SOUL ve DevOS — kullanıcının sağladığı özgün rapor arşivde; boyut/SHA-256/Git blob §10’da**
 
-Dolayısıyla A3 **5/7 ve kısmi** kalır. Bu iki eksik kaynak için içerik uydurulmadı, başka kaynak ikame edilmedi ve “hiçbir yerde yok” iddiası üretilmedi.
+Dolayısıyla güncel A3 **6/7 ve kısmi** kalır. Yalnız P5 S00–S12 kalıcı açık erişim sınırıdır; K00–K15 onun yerine geçmez. Eksik içerik üretilmedi ve “hiçbir yerde yok” iddiası kurulmadı.
 
 ## 5. Yön/statü ve link teyidi
 
@@ -246,10 +248,46 @@ Bu dosyayı ve A5 kapanış router güncellemelerini taşıyan final commit, bu 
 
 Mevcut bakım kapsamında kullanıcı kararı gerektiren yeni bir yön sorusu kalmadı.
 
-Açık kalan iki unsur karar değil **kaynak erişim engelidir**: P5 S00–S12 ve “SOUL ve DevOS”. Bunlardan biri ileride gerçek kaynak olarak erişilebilir olursa A3 yalnız o kaynak için yeniden açılır; A4/A5 veya eski DevOS kurulumu otomatik olarak yeniden açılmaz.
+Açık kalan tek unsur **P5 S00–S12 kaynak erişim engelidir**. Yeni özgün kaynak veya somut erişim kanıtı gelirse A3 yalnız bu kalem için yeniden açılır; A4/A5 veya eski DevOS kurulumu otomatik yeniden açılmaz.
 
 ## 9. Son durum
 
 Araştırma ile tarihsel DevOS kurulum çalışmasının repository içi ayrımı tamamlandı. DevOS kurucusunun bu depodan eski Codex/P5/DEVOS-001/002 yönünü canlı kurulum görevi olarak devralmaması için current router/state yüzeyleri ve yüksek-riskli girişler statülendirildi.
 
-Bakım çalışması **tamamlandı; bilinen tek kalıcı sınır A3'ün 5/7 arşiv kapsamıdır.**
+Bakım çalışması **tamamlandı; bilinen tek kalıcı sınır P5 S00–S12 nedeniyle A3’ün 6/7 arşiv kapsamıdır.**
+
+## 10. 1 Ekim — beş maddelik kapanış düzeltmesi
+
+**Yetki ve kaynak:** Batu’nun [Devam Noktasını Doğrulama](chatgpt-conversation://6abe56e3-eb84-83eb-9d4b-bcb211813b70) konuşmasındaki beş maddelik kapanış talebi, bu devam konuşmasında aynen aktarılan talep ve 1 Ekim’de sağlanan dosya. Başlangıç main `59b8b8edda8e993cbc0a01980dea998d4e94ac73`.
+
+1. **SOUL ve DevOS:** Kullanıcı dosyanın istenen rapor olduğunu açıkça teyit etti. `archives/devos-pre-claude-2026-09-29/soul-and-devos/SOUL_ve_DevOS.md` özgün baytlarla arşivlendi. Boyut **147006 byte**; SHA-256 **`0f8221445a59eccf1a52efa3d2fe3c7fac642d1370aff99acdc1894fbcfdc3c2`**; Git blob **`bcf79ccfcc21e1b8c294bd60cc17b065ce19e15a`**. Kimlik envanteri şema 3’tür; dosya bağımsız repository yoludur, mevcut ZIP’e eklenmiş değildir. Kaynak iddiaları ve mimari yeterliği yeniden doğrulanmadı.
+2. **P5 S00–S12:** Tek kalıcı açık kaynak erişim sınırı. Beklenen kimlikler korunur; K00–K15 yerine geçmez. Yeni özgün kaynak/somut erişim kanıtı olmadan arama tekrarlanmaz.
+3. **Foundation:** `research/soul-foundations/STATE.md` ve `research/soul-foundations/08_foundation-sufficiency-reuse-review/DISCUSSION-HANDOFF.md` başına 1 Ekim tarihli kısa D030 notu eklendi. İki özgün gövde ve dosya sonları byte düzeyinde korundu; araştırma statüsü yeniden yazılmadı.
+4. **Baseline README:** Tarihsel snapshot gövdesi korundu; başına 13 göreli linkin `8cd01e4afdcd0d37960b05930c91e1244678be6e` köküne göre olduğunu ve kopyanın konumundan canlı link olmadığını açıklayan not eklendi. §5’teki önceki link taraması snapshot kopyasının bu 13 linkini kapsamlı doğrulamış sayılmaz.
+5. **Tam tarama kaynağı:** Kullanıcı, Claude’un `8cd01e4`..`59b8b8ed` aralığını salt okuma ile denetlediğini ve bütün depoda `Codex / current / next / güncel / sıradaki` otomatik taraması yapıldığını bildirdi. Kullanıcının aktardığı sonuç: eski yönü güncel gösteren ifadeler tarihli notların altında veya araştırma içeriğindedir; yukarıdaki iki Foundation yönlendirmesi dışında yön sorunu bulunmamıştır. Bu, **kullanıcı tarafından aktarılan dış denetim sonucudur**; ham tarama çıktısı bu tur görülmedi ve bağımsız yeniden tarama olarak sunulmaz. 928 studies yaprağı yeniden okunmadı. Bildirilen Foundation sorunları bu tur kapatıldı.
+
+### Bu kapanışın tam değişiklik listesi
+
+**Eklenen — 1:**
+
+- `archives/devos-pre-claude-2026-09-29/soul-and-devos/SOUL_ve_DevOS.md`
+
+**Değiştirilen — 9:**
+
+- `README.md` — güncel açık sınırı 6/7 ve yalnız S00–S12 olarak düzeltme.
+- `REPOSITORY-TRANSITION.md` — arşiv tablosu, durum ve kapanış/devam uyumu.
+- `archives/devos-pre-claude-2026-09-29/README.md` — arşiv erişimi, rapor kimlik tablosu, tek açık sınır.
+- `archives/devos-pre-claude-2026-09-29/SOURCE-IDENTITIES.json` — özgün rapor kimliği ve ayrı dosya/ZIP ayrımı.
+- `maintenance/2026-09-29-research-installation-separation/A3-ACCESS-GAPS.md` — eski gövde korunarak başta güncel engel durumu.
+- `maintenance/2026-09-29-research-installation-separation/A5-FINAL-DELIVERY.md` — bu teslim ve kaynak/denetim sınırları.
+- `maintenance/2026-09-29-research-installation-separation/baseline/README.md` — yalnız snapshot bağlantı bağlamı notu.
+- `research/soul-foundations/STATE.md` — yalnız D030 başlangıç notu.
+- `research/soul-foundations/08_foundation-sufficiency-reuse-review/DISCUSSION-HANDOFF.md` — yalnız D030 başlangıç notu.
+
+Kök README ve A3-ACCESS-GAPS ek güncellemeleri stale iki-engel durumunu yeni okuyucuya aktarmamak içindir. Diğer tarihli A2/A3/A4 kayıtları kendi snapshot kapsamıyla korunur.
+
+**Güncel başlangıç karşılaştırması:** `8cd01e4` → bu kapanışı yayımlayan commit: **39 commit, 145 yol; 60 added, 85 modified; 0 deleted, 0 renamed/moved.** Önceki §7’nin 59/83 listesi `59b8b8ed` teslimine aittir. Yeni arşiv dosyası added sayısına, iki Foundation yolu modified sayısına eklenir; bu turdaki diğer yollar önceki karşılaştırmada zaten bulunuyordu.
+
+**Doğrulama:** Ekli kaynak/arşiv byte eşliği, SHA-256 ve Git blob eşliği; üç snapshot/Foundation dosyası ile A3 erişim kaydında önek dışındaki eski byte’ların korunması; yeni göreli hedefler ve D030 anchor; kontrol katmanı, studies, eski ZIP/Academy ve MOVES değişmezliği; silme/taşıma yokluğu. Yayın öncesi main delta/yazar ve yayın sonrası uzak main ile on dosyanın blob kimliği kontrol edilir. Bu kaydı taşıyan commit kapanış commit’idir; kendi SHA’sı dosya içine öz-referans olarak yazılmaz, kullanıcıya doğrudan verilir.
+
+**Sonuç:** Beş kapanış düzeltmesi uygulandı; aktif bakım işi yok. Arşiv 6/7; tek kalıcı açık sınır P5 S00–S12.

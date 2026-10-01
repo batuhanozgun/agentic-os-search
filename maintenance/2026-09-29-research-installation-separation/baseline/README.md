@@ -1,3 +1,5 @@
+> **Snapshot notu — 1 Ekim 2026:** Bu dosya tarihsel anlık görüntüdür. Aşağıdaki 13 göreli bağlantı bu kopyanın konumuna değil, [`8cd01e4` commit’indeki depo köküne](https://github.com/batuhanozgun/agentic-os-search/tree/8cd01e4afdcd0d37960b05930c91e1244678be6e) göredir. Özgün snapshot gövdesi değiştirilmeden korunmuştur.
+
 # SOUL Research
 
 Bu repository altı farklı rolü birbirine karıştırmadan taşır.
