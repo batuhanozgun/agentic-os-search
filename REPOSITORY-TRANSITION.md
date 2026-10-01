@@ -1,7 +1,7 @@
 # Araştırma / kurulum ayrımı — depo bakım çalışması
 
 **Kimlik:** REPO-SEPARATION-20260929  
-**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4 yol envanteri ve 299/299 giriş/durum yüzeyinin genişletilmiş link taraması tamam: 1.799 göreli Markdown linkinin 1.792'si mevcut snapshot yoluna doğrudan çözüldü; Hermes prepared-delivery payload'ındaki 7 hedef-konum göreli link gerekçeli korundu. Actionable kırık link bulunmadı. Giriş-dışı gövde taraması ve A5 açık.  
+**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. **A4 tamamlandı:** bütün yol envanteri, yön/statü aramaları, archive/ZIP kontrolü, 299/299 giriş/durum yüzeyinin ilk-100-satır ve kalan gövde risk taraması ile 1.799 göreli link disposition'ı kapandı; actionable yeni kaynak/link düzeltmesi kalmadı. **A5 son karşılaştırma ve teslim sırada.**  
 **Güncelleme:** 1 Ekim 2026. **Yazar:** ChatGPT, Batu'nun açık yetkisiyle.  
 **Kaynak:** [Görev belgesinin değiştirilmemiş kopyası](maintenance/2026-09-29-research-installation-separation/REQUEST.md). İş, kullanıcının isteğiyle turlara bölünmüştür.
 
@@ -38,7 +38,7 @@ Paket gerektiğinde birkaç tur sürer; numarası otomatik tur sayısı değildi
 | **A1 — Başlangıç ve kalıcı plan** | Görev, başlangıç kimlikleri, yazar sınırı, dış plan adresi, kök yönlendirme; uzak yayın ve geri okuma | **TAMAM:** `ab8ef329aa4841fae2b836c91e74e68ad1c4c9e5` |
 | **A2 — Karar ve güncel yönler** | D030; EXP-006 ve deneme/bağlam girişleri; doğrudan eski devirler; eski kurulum bu yollardan güncel diye devralınamıyor | **BELGE DÜZEYİNDE TAMAM:** §4.10–4.11 ve A2-CLOSE. Depo geneli yokluk veya bağımsız kurucu davranışı iddiası değildir |
 | **A3 — Rapor ve paket arşivi** | Yedi kaynak ailesini gerçek gövde ve kimlikle arşivle; farklı P5 paketlerini karıştırma; erişilemeyeni yeniden üretme | **KISMİ / İKİ ERİŞİM ENGELİ AÇIK:** §5.1 / A3-ACCESS-GAPS. Beş aile arşivde; iki aile için mevcut kapsamın erişim incelemesi sonuçlandı. Arşiv yükü kaldırılmadı |
-| **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **DEVAM:** §6.21 / A4-ENTRY-LINK-SCAN-03. 299/299 giriş/durum yüzeyinin genişletilmiş göreli-link taraması tamam; actionable kırık link yok. İlk-100-satır dışındaki başlık-dışı eski-yön ifadelerinin hedefli gövde taraması açık |
+| **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **TAMAM:** §6.22–6.23 / A4-ENTRY-BODY-SCAN-04. 299/299 entry/state yüzeyinin giriş penceresi ve kalan gövde risk taraması, genişletilmiş link kontrolü ve archive/ZIP disposition'ı kapandı; actionable yeni kaynak/link düzeltmesi yok. Bu, bütün study yapraklarının semantik yeniden-okuması değildir |
 | **A5 — Son karşılaştırma ve teslim** | Başlangıçtan son commit'e fark; silme/taşıma/gövde ve bağlantı denetimi; yeni okuyucu yürüyüşü; tam değişiklik/gerekçe listesi | BEKLİYOR. Kapsamı aşmayan tamamlanma hükmü ve erişim açıkları teslim edilir |
 
 ## 4. A2 — tamamlanan alt kümeler ve kapanış
@@ -347,9 +347,21 @@ Bu kapsam tam gövde taraması değildir. Daha aşağı satırlardaki başlık-d
 
 Tek istisna kümesi, Hermes'in `PREPARED_NOT_PUBLISHED` delivery payload'ındaki `repo-updates/STATE.md` dosyasındaki yedi hedef-konum göreli linktir. `publication_manifest.json`, bu staging dosyasının gelecekte package-root `STATE.md` konumuna kopyalanacağını açıkça eşler; bu nedenle linkler staging konumundan canlı navigation değildir. Payload hash'lerini ve tarihsel teslim kanıtını bozmamak için kaynak değiştirilmedi. **Actionable kırık link: 0.** Bu sonuç link hedefinin varlık/disposition denetimidir; hedef içeriğinin anlamca doğru veya güncel olduğunu tek başına kanıtlamaz.
 
+### 6.22 A4 — Giriş penceresi dışı gövde taraması 04
+
+[A4-ENTRY-BODY-SCAN-04](maintenance/2026-09-29-research-installation-separation/A4-ENTRY-BODY-SCAN-04.md), aynı 299 entry/state yüzeyinin **101. satır ve sonrasını** A4-ENTRY-SURFACE-SCAN-03'teki eski-yön göstergeleriyle doğrudan tarar. Yalnız **iki satır** eşleşti: `research/INDEX.md` içindeki genel target-repository continuity ilkesi ve ECC `INDEX.md` içindeki U19-D Codex/Git-helper test kaydı. İkisi de DevOS kurulum yönü değildir; kaynak değişikliği yapılmadı.
+
+Supplemental GitHub code-search toplamları, ilk yön taramasındaki 50-sonuç sınırının gerçek olduğunu doğruladı; kapanış yokluk iddiasını bu aramaya dayandırmaz. Buna karşılık daha özgül tarihsel kimliklerin bütün dosya listeleri (DEVOS-001/002, soul-production, soul-development-os ailesi, P5-1.0.0, CODEX_START) tam döndü ve A2'de statülendirilen alanlar, maintenance/root açıklamaları, study/concepts araştırma kayıtları veya kapalı exploration kaynakları dışında yeni bir canlı kurulum otoritesi göstermedi.
+
+### 6.23 A4 kapanışı
+
+A4'ün amacı bütün araştırmayı yeniden okumak veya 928 study yaprağının bulgularını yeniden doğrulamak değildi. Kapanış; **yol kapsamı + yüksek-riskli doğrudan alanların A2 tam/daraltılmış okumaları + repository-wide risk aramaları + 299 entry/state yüzeyinin giriş penceresi ve kalan gövdesi + link disposition'ı + gerekli archive/ZIP taraması** birlikte değerlendirildiğinde, DevOS kurucusunu eski Codex/P5/DEVOS yönüne taşıyan yeni bir actionable kaynak sorunu kalmamasına dayanır.
+
+Arama eşleşmesi yokluğu tek başına kanıt sayılmadı; package-local current/next dili ve kaynak/mekanizma adları araştırma anlamı olarak korundu. Okunmamış research leaf gövdeleri “yeniden doğrulanmış” sayılmaz. A3'ün iki erişim engeli kapanmamıştır ve A5 tesliminde açık sınır olarak taşınacaktır.
+
 ## 7. Devralma
 
-**Tek sonraki iş: A4 — 299 giriş/durum yüzeyinin ilk 100 satırı dışında kalabilecek başlık-dışı eski-yön ifadelerini hedefli sorgu ve doğrudan dosya okumalarıyla daraltmak.** Genişletilmiş link taraması tamamlandı; 299 yüzey / 1.799 link yeniden taranmaz.
+**Tek sonraki iş: A5 — başlangıç commit'i `8cd01e4` ile güncel son commit'i karşılaştırmak; silme/taşıma/gövde ve bağlantı sınırlarını, yeni okuyucu yürüyüşünü, tam değişiklik/gerekçe listesini ve görev §7 teslim maddelerini doğrulayıp son teslimi yayımlamak.** A4 kapanmıştır; 299 entry/state yüzeyi, link taraması ve body risk taraması yeni maddi bulgu olmadan yeniden açılmaz.
 
 Önceki dört history düzeltmesi, concepts okuyucu notu ve ilk envanterler yeniden yayımlanmaz. Studies'teki 928 yaprak için içerik okuması yapılmış sayılmaz; önceki okumalar yeni sayılmaz. A3 5/7 aileyle kısmi kalır; S00–S12 ve SOUL ve DevOS için yeni somut erişim olmadan arama tekrarlanmaz, aynı ZIP tekrar istenmez.
 
