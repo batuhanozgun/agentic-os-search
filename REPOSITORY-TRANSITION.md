@@ -1,11 +1,11 @@
 # Araştırma / kurulum ayrımı — depo bakım çalışması
 
 **Kimlik:** REPO-SEPARATION-20260929  
-**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4 yol envanteri pinned snapshot için tamamlandı: birleşik kapsam 2.381 açık dosya kimliği; Foundation 931, studies 928 dosya. A4 içerik/statü/bağlantı ve gerekli arşiv içi taraması ile A5 açık.  
+**Durum:** DEVAM EDİYOR — A1 ve A2 tamam. A3 5/7 aileyle kısmi; iki kaynak erişim engeli açık. A4 yol envanteri tamam; içerik/statü taramasının ilk yüksek-riskli giriş kümesi gerekçeli korumayla sonuçlandı ve yeni kaynak düzeltmesi gerektirmedi. Kalan içerik eşleşmeleri, bağlantı/arşiv içi tarama ve A5 açık.  
 **Güncelleme:** 1 Ekim 2026. **Yazar:** ChatGPT, Batu'nun açık yetkisiyle.  
 **Kaynak:** [Görev belgesinin değiştirilmemiş kopyası](maintenance/2026-09-29-research-installation-separation/REQUEST.md). İş, kullanıcının isteğiyle turlara bölünmüştür.
 
-Bu dosya yalnız `agentic-os-search` deposunu güncelleme çalışmasının planı, ilerleme kaydı ve devir noktasıdır. Yeni DevOS kurulum planı, SOUL iş listesi, mimari veya agent-control dosyası değildir. Bu sürüm ilerleme ve devir kısmını günceller; önceki kayıt `cb47e2369502b825b9c648bafe814bcde31a4058` commit'inde, blob `1e657b0aa8e2f529bd74ec8fa1bd6944e7ece1c9` olarak korunur.
+Bu dosya yalnız `agentic-os-search` deposunu güncelleme çalışmasının planı, ilerleme kaydı ve devir noktasıdır. Yeni DevOS kurulum planı, SOUL iş listesi, mimari veya agent-control dosyası değildir. Bu sürüm ilerleme ve devir kısmını günceller; önceki kayıt `39c612dbe3a31ade2815ef2e6d41c5c91cceb088` commit'inde, blob `71387080ef94fb8f1f8f021a23cd7c827a78cc8c` olarak korunur.
 
 ## 1. Amaç ve yetki
 
@@ -38,7 +38,7 @@ Paket gerektiğinde birkaç tur sürer; numarası otomatik tur sayısı değildi
 | **A1 — Başlangıç ve kalıcı plan** | Görev, başlangıç kimlikleri, yazar sınırı, dış plan adresi, kök yönlendirme; uzak yayın ve geri okuma | **TAMAM:** `ab8ef329aa4841fae2b836c91e74e68ad1c4c9e5` |
 | **A2 — Karar ve güncel yönler** | D030; EXP-006 ve deneme/bağlam girişleri; doğrudan eski devirler; eski kurulum bu yollardan güncel diye devralınamıyor | **BELGE DÜZEYİNDE TAMAM:** §4.10–4.11 ve A2-CLOSE. Depo geneli yokluk veya bağımsız kurucu davranışı iddiası değildir |
 | **A3 — Rapor ve paket arşivi** | Yedi kaynak ailesini gerçek gövde ve kimlikle arşivle; farklı P5 paketlerini karıştırma; erişilemeyeni yeniden üretme | **KISMİ / İKİ ERİŞİM ENGELİ AÇIK:** §5.1 / A3-ACCESS-GAPS. Beş aile arşivde; iki aile için mevcut kapsamın erişim incelemesi sonuçlandı. Arşiv yükü kaldırılmadı |
-| **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **DEVAM:** §6.15 / A4-STUDIES-INVENTORY. Pinned snapshot yol envanteri 2.381 açık yolla tamam; Foundation 931 ve studies 928 dosya. İçerik/statü/bağlantı ve gerekli arşiv içi taraması açıktır |
+| **A4 — Depo geneli tarama** | Bütün izlenen yollar, metinler ve gerekli belge/ZIP içleri; riskli eşleşmeler için düzeltme veya gerekçeli koruma; okunmayan kapsam açık | **DEVAM:** §6.16 / A4-DIRECTIONAL-SCAN-01. Yol envanteri tamam; ilk yüksek-riskli giriş kümesi gerekçeli korundu. Kalan içerik eşleşmeleri, bağlantı ve gerekli arşiv içi tarama açık |
 | **A5 — Son karşılaştırma ve teslim** | Başlangıçtan son commit'e fark; silme/taşıma/gövde ve bağlantı denetimi; yeni okuyucu yürüyüşü; tam değişiklik/gerekçe listesi | BEKLİYOR. Kapsamı aşmayan tamamlanma hükmü ve erişim açıkları teslim edilir |
 
 ## 4. A2 — tamamlanan alt kümeler ve kapanış
@@ -315,9 +315,15 @@ Birleşik kapsam **1.392 + önceki yayının 2 yeni bakım dosyası + 14 = 1.408
 
 `research/studies` **928/928 dosya** ile envanterlidir. Pinned snapshot birleşik yol kapsamı **2.381 dosya**; Foundation **931**, studies **928**. Artık opak araştırma alt ağacı yoktur. Bu yalnız yol/kimlik envanteri kapanışıdır; içerik/statü/bağlantı ve arşiv içi denetim açık kalır. Yeni araştırma gövdesi okuması ve betik çalıştırması **0**.
 
+### 6.16 A4 — Yön/statü içerik taraması 01
+
+[A4-DIRECTIONAL-SCAN-01](maintenance/2026-09-29-research-installation-separation/A4-DIRECTIONAL-SCAN-01.md), `Codex`, `DEVOS-001/002`, `P5`, `güncel/current`, `sıradaki/next` sorgularının ilk yüksek-riskli giriş kümesini ve disposition'larını taşır. Kök, development-os, soul-context ve EXP-006 girişleri eski yönü bugünkü kurulumdan önce açıkça ayırdığı için yeni kaynak düzeltmesi gerekmedi. Foundation, ECC ve kapanmış explorations içindeki kendi current/next dili araştırma statüsü olarak gerekçeli korunur.
+
+Bu ilk arama turu repository-wide yokluk kanıtı değildir; sonuç limiti ve giriş-penceresi okuma sınırı görünür tutuldu. Kalan riskli eşleşmeler ile bağlantı ve archive/ZIP kontrolleri açıktır.
+
 ## 7. Devralma
 
-**Tek sonraki iş: A4 — tamamlanan 2.381-yolluk envanter üzerinden REQUEST §5 risk sınıflarının repository-wide içerik/statü/bağlantı taraması.** Önce riskli terim/yön eşleşmeleri daraltılır; her eşleşme kaynak bağlamında düzeltme veya gerekçeli korumaya bağlanır. Gerekli ZIP/belge içleri ayrıca incelenir. Yeni bir kurulum veya araştırma işi başlatılmaz.
+**Tek sonraki iş: A4 — ilk aramanın sonuç limitinin dışında kalan veya başlık/dosya adıyla yakalanmayan eski yön ifadelerini daraltmak; ardından bağlantı hedefi ve gerekli archive/ZIP içi kontrolleri yürütmek.** Yeni statü sorunu bulunursa yalnız ilgili dosya düzeltilir; aktif araştırmanın kendi current/next yönleri korunur.
 
 Önceki dört history düzeltmesi, concepts okuyucu notu ve ilk envanterler yeniden yayımlanmaz. Studies'teki 928 yaprak için içerik okuması yapılmış sayılmaz; önceki okumalar yeni sayılmaz. A3 5/7 aileyle kısmi kalır; S00–S12 ve SOUL ve DevOS için yeni somut erişim olmadan arama tekrarlanmaz, aynı ZIP tekrar istenmez.
 
