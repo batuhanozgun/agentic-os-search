@@ -4,43 +4,47 @@
 - Kaynak: [01-roman-analojisi-kullanici-talebinden-yasayan-is-tanimina.md](../01-roman-analojisi-kullanici-talebinden-yasayan-is-tanimina.md)
 - Genel üslup rehberi: [BATU-YAZIM-REHBERI.md](../../../BATU-YAZIM-REHBERI.md)
 - LinkedIn yayın rehberi: [LINKEDIN-YAYIN-REHBERI.md](../../LINKEDIN-YAYIN-REHBERI.md)
-- Post gövdesi karakter sayısı: 2133
+- Post gövdesi karakter sayısı: 2348
 - Üst sınır: 2800
 
 ---
 
-Agentic sistemler üzerine çalışırken şuna takıldım: Kullanıcının yazdığı prompt ile sistemin yapması gereken iş aynı şey mi?
+Agentic yapılar üzerine çalışırken roman örneği kafama takıldı.
 
-Mesela kullanıcı “bir roman yazmak istiyorum” dedi.
+Kullanıcı “bir roman yazmak istiyorum” diyor. Cümle açık gibi. Ama gerçekten yapılacak iş bu mu?
 
-Tek bir chat'te ilk refleks konu, karakterler, bölümler deyip romana girişmek olabilir. Çok-rollü bir agentic sistemde ise bu daha tehlikeli. Planner bunu task'lara böler, Researcher araştırır, Writer yazar, Verifier da verilen kriterlere göre kontrol eder.
+Roman yazıldıktan sonra ne olacak? Word dosyası olarak masaüstünde mi kalacak? Basılacak mı? Yayıncı mı bulunacak? Dağıtım, fiyatlama, reklam işin parçası mı? Belki hiçbirisi değil; kullanıcı gerçekten yalnızca kendisi için yazıyordur.
 
-Herkes görevini gayet düzgün yapar.
+Buradaki mesele AI gizli niyet okusun değil. Tam tersine, ilk prompt'u yapılacak işin tamamı sanmasın.
 
-Ama başta yanlış işi tanımladıysak sistem yanlış şeyi çok iyi yapmış olur.
+Tek chat'te bunun sonucu kötü bir cevap olabilir. Agentic bir yapıda daha tehlikeli. Planner prompt'u task'lara böler, Researcher araştırır, Writer yazar, Verifier da verilen kriterlere göre kontrol eder.
 
-Çünkü “roman yaz” gerçekten ne demek?
+Herkes kendi işini doğru yapar.
 
-Roman Word dosyası olarak masaüstünde mi kalacak? Basılacak mı? Yayıncı mı bulunacak? Dağıtım, fiyatlama, reklam işin parçası mı? Belki hiçbirisi değil; kullanıcı gerçekten yalnızca kendisi için yazıyordur.
+Sistem yine de yanlış işi son derece düzgün üretmiş olabilir.
 
-Buradaki mesele AI'ın kullanıcıdan daha akıllı olup gizli niyet okuması değil. Tam tersine, prompt'u doğrudan executable work kabul etmemesi.
+O yüzden prompt ile executable work arasında bir discovery katmanı gerekiyor gibi geliyor bana. Adına work discovery dersin, intent discovery dersin, çok önemli değil. Sistem bir yerde “Bu talebin sonunda gerçekte neyin doğru hale gelmesi gerekiyor?” sorusunu taşımalı.
 
-Agentic bir yapıda bir yerde “hangi iş gerçekten yapılmalı?” sorusunu taşıyan bir mekanizma lazım. Adına work discovery, planning, mission qualification ne derseniz deyin. Bu illa ayrı bir agent olmak zorunda da değil.
+Ama burada başka bir tuzak var.
 
-Ama bunun tersi de problem: Her şeyi tamamen anlamadan hiçbir şeye başlamamak.
+Buradan “Her şeyi tamamen anlamadan execution'a geçme” sonucu çıkarmak da bence yanlış.
 
-Romanın ilk bölümünü yazmak için dağıtım şirketinin kim olduğunu bilmeye gerek yok. İlk bölümü değiştirecek kritik belirsizlikler yeterince kapandıysa Writer başlayabilir.
+Romanın ilk bölümünü yazmak için dağıtım şirketinin kim olduğunu bilmeye gerek yok. İlk bölümü değiştirecek kritik şeyler yeterince netse Writer başlayabilir.
 
-Sonra execution'ın kendisi yeni bilgi üretir.
+Asıl ilginç taraf bundan sonra başlıyor.
 
-Başta “dağıtımcı bul” diye task açmışızdır. Yayıncı bulunur, yayıncının dağıtımı da yaptığı ortaya çıkar. Task kaybolur. Başka bir bulgu hedef kitleyi değiştirir, editoryal plan değişir. Yeni bir uzman role ihtiyaç doğabilir.
+Başta “dağıtımcı bul” diye task açmış olabiliriz. Bir süre sonra yayıncı bulunur ve dağıtımı zaten onun yaptığı ortaya çıkar. O task tamamen yok olur.
 
-Yani agentic sistemde plan sadece başlangıçta çizilen task graph değil. Çalışırken yaşayan bir state.
+Roman yazılırken hedef kitle değişir, editoryal plan değişir, belki daha önce düşünmediğimiz bir uzman agent'a ihtiyaç doğar.
 
-Bu yüzden raw user request ile current work definition'ın da aynı şey olmaması gerektiğini düşünüyorum. İlki kaynaktır, ikincisi çalıştıkça değişen mevcut anlayış.
+Yani execution yalnız işi ilerletmiyor, yeni bilgi de üretiyor. Yeni bilgi de dönüp yapılacak işi değiştiriyor.
 
-Bence agentic yapılardaki asıl risklerden biri yanlış cevap almak değil.
+Bu yüzden agentic sistemde planı başlangıçta çizilip kilitlenen bir task graph gibi düşünmek bana eksik geliyor. Daha çok çalışan sistemin yaşayan state'i gibi.
 
-Yanlış işin kusursuz şekilde orkestre edilmesi.
+Raw user request ayrı durmalı. Current work definition ayrı durmalı. İlki kaynaktır; ikincisi çalıştıkça değişebilir.
 
-Prompt başlangıç noktasıdır; task specification değil.
+Bence agentic yapılardaki büyük risklerden biri AI'ın yanlış cevap vermesi değil.
+
+Yanlış işi, doğru rollerle, doğru sırayla, başarıyla tamamlaması.
+
+Prompt başlangıç noktasıdır; iş tanımı değil. İş tanımı da execution başlamadan önce sonsuza kadar sabitlenen bir şey değil.
