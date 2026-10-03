@@ -10,9 +10,11 @@ Bu dosyalar LinkedIn postlarının kaynak metinleridir; kaynak metinler korunur,
 
 İlk 14 taslak, Batu'nun kaynak analojilerin derinliğini ve etkisini yeterince taşımadıkları yönündeki değerlendirmesi sonrasında yeniden yazım açısından gözden geçirilmektedir. Tamamlanmış yayın metinleri sayılmazlar.
 
-İlk yeni deneme [Roman analojisi — ikinci yazım](posts/01-roman-analojisi-v2.md) dosyasındadır; Batu'nun değerlendirmesi beklenmektedir. [Önceki roman taslağı](posts/01-roman-analojisi.md) karşılaştırma için korunmuştur. 02–14 numaralı postlar bu aşamada yeniden yazılmamıştır; kaynak metinlere dokunulmamıştır.
+Batu, çözüm adları eklenen roman v2 sürümünün de kendi üslubuna benzemediğini belirtti. [Roman analojisi — ikinci yazım](posts/01-roman-analojisi-v2.md) aynı dosyada, doğrudan Batu'nun yazdığı [LLM Düşünmez makalesine](../articles/2026-09-11-llm-dusunmez-zaxzf.md) ve özgün roman konuşmasına dönülerek yeniden yazıldı. Çözüm mekanizmalarının adları korundu. Bu yeni sürümün üslup eşleşmesi ve yayın onayı henüz yoktur; önceki olumlu anlatım geri bildirimi güncel üslup kabulü sayılmaz. Önceki v2 gövdesi Git geçmişinde, [ilk roman taslağı](posts/01-roman-analojisi.md) ayrı dosyada korunur. 02–14 numaralı postlar bu aşamada yeniden yazılmamıştır; kaynak metinlere dokunulmamıştır.
 
 Batu'nun son yönlendirmesi: Her yazının konusu kadar neden anlatılmak istendiği ve nasıl ortaya çıktığı da kendi bağlamında anlaşılmalıdır. Bilgi paylaşımı, merak, deneyim veya itiraz aynı anlatım kalıbına zorlanmaz. Üslubun her özelliği her yazıda bulunmak zorunda değildir. Kaynak konuşmalar yazma gerekçesini anlamak için kullanılır; Batu adına yaşanmamış olay, duygu veya motivasyon uydurulmaz. Bu yönlendirme, aşağıdaki rehberlerde yer alan örnek akışları zorunlu şablon olarak uygulamak anlamına gelmez.
+
+Üslup rehberindeki assistant üretimi “Batu'ya yakın” örnekler, Batu'nun özgün yazılarına eşdeğer kanıt değildir. Bu revizyonda doğrudan yazar metniyle karşılaştırma yapıldı; rehbere uygunluk tek başına üslubun yakalandığını göstermez. Diğer assistant üretimi LinkedIn yazıları üslup corpus'una alınmaz.
 
 ## LinkedIn'e dönüştürme çalışma kuralı
 
