@@ -1,7 +1,7 @@
-# Taslak 04 — “Hava bugün çok…” ve context aktivasyonu
+# Taslak 11 — “Hava bugün çok…” ve context aktivasyonu
 
 - Durum: LinkedIn post taslağı; yayımlanmış içerik değildir.
-- Kaynak: [kaynak analoji](../04-hava-bugun-cok-analojisi.md)
+- Kaynak: [kaynak analoji](../11-hava-bugun-cok-analojisi.md)
 - Genel üslup rehberi: [BATU-YAZIM-REHBERI.md](../../../BATU-YAZIM-REHBERI.md)
 - LinkedIn yayın rehberi: [LINKEDIN-YAYIN-REHBERI.md](../../LINKEDIN-YAYIN-REHBERI.md)
 - Post gövdesi karakter sayısı: 1820

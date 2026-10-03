@@ -1,7 +1,7 @@
-# Taslak 07 — Dosya mı hafıza, bilgi mi?
+# Taslak 09 — Dosya mı hafıza, bilgi mi?
 
 - Durum: LinkedIn post taslağı; yayımlanmış içerik değildir.
-- Kaynak: [kaynak analoji](../07-dosya-mi-hafiza-bilgi-mi.md)
+- Kaynak: [kaynak analoji](../09-dosya-mi-hafiza-bilgi-mi.md)
 - Genel üslup rehberi: [BATU-YAZIM-REHBERI.md](../../../BATU-YAZIM-REHBERI.md)
 - LinkedIn yayın rehberi: [LINKEDIN-YAYIN-REHBERI.md](../../LINKEDIN-YAYIN-REHBERI.md)
 - Post gövdesi karakter sayısı: 1708

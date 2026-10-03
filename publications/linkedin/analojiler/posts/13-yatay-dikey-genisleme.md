@@ -1,7 +1,7 @@
-# Taslak 12 — Yatay ve dikey genişleme
+# Taslak 13 — Yatay ve dikey genişleme
 
 - Durum: LinkedIn post taslağı; yayımlanmış içerik değildir.
-- Kaynak: [kaynak analoji](../12-yatay-ve-dikey-genisleyen-soul.md)
+- Kaynak: [kaynak analoji](../13-yatay-ve-dikey-genisleyen-soul.md)
 - Genel üslup rehberi: [BATU-YAZIM-REHBERI.md](../../../BATU-YAZIM-REHBERI.md)
 - LinkedIn yayın rehberi: [LINKEDIN-YAYIN-REHBERI.md](../../LINKEDIN-YAYIN-REHBERI.md)
 - Post gövdesi karakter sayısı: 1876

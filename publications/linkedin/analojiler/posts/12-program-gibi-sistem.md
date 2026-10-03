@@ -1,7 +1,7 @@
-# Taslak 09 — Agentic sistemi program gibi düşünmek
+# Taslak 12 — Agentic sistemi program gibi düşünmek
 
 - Durum: LinkedIn post taslağı; yayımlanmış içerik değildir.
-- Kaynak: [kaynak analoji](../09-soulu-bir-program-gibi-dusunmek.md)
+- Kaynak: [kaynak analoji](../12-soulu-bir-program-gibi-dusunmek.md)
 - Genel üslup rehberi: [BATU-YAZIM-REHBERI.md](../../../BATU-YAZIM-REHBERI.md)
 - LinkedIn yayın rehberi: [LINKEDIN-YAYIN-REHBERI.md](../../LINKEDIN-YAYIN-REHBERI.md)
 - Post gövdesi karakter sayısı: 1740

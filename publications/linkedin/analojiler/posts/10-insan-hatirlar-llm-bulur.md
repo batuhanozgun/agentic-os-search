@@ -1,7 +1,7 @@
-# Taslak 08 — İnsan hatırlar, LLM yeniden bulur
+# Taslak 10 — İnsan hatırlar, LLM yeniden bulur
 
 - Durum: LinkedIn post taslağı; yayımlanmış içerik değildir.
-- Kaynak: [kaynak analoji](../08-insan-hatirlar-llm-yeniden-bulmak-zorundadir.md)
+- Kaynak: [kaynak analoji](../10-insan-hatirlar-llm-yeniden-bulmak-zorundadir.md)
 - Genel üslup rehberi: [BATU-YAZIM-REHBERI.md](../../../BATU-YAZIM-REHBERI.md)
 - LinkedIn yayın rehberi: [LINKEDIN-YAYIN-REHBERI.md](../../LINKEDIN-YAYIN-REHBERI.md)
 - Post gövdesi karakter sayısı: 1770
