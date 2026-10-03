@@ -17,7 +17,11 @@ LinkedIn uyarlamalarında [Batu Yazım Rehberi](BATU-YAZIM-REHBERI.md) kullanıl
 - 2.800 karakter sınırı ve Batu'nun vereceği diğer post kriterleri uygulanır;
 - rehber mekanik bir şablon değildir; öncelik düşünce akışının ve doğal sesin korunmasıdır.
 
-Post çıktılarının kesin repository yolu ilk post hazırlanırken mevcut yayın düzenine göre belirlenir; kaynak analoji dosyaları overwrite edilmez.
+Post taslakları [posts/](posts/) altında tutulur; yayımlanmış LinkedIn arşiviyle karıştırılmaz ve kaynak analoji dosyaları overwrite edilmez.
+
+## Post taslakları
+
+1. [Roman analojisi](posts/01-roman-analojisi.md) — ilk LinkedIn taslağı.
 
 ## Metinler
 
