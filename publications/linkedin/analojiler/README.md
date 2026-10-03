@@ -6,6 +6,14 @@ Bu dosyalar LinkedIn postlarının kaynak metinleridir; kaynak metinler korunur,
 
 **Dosya numaraları aynı zamanda önerilen yayın/anlatım sırasıdır.** Sıra, okuyucuyu kullanıcı talebinden Work discovery'ye; oradan planlama, Actor tasarımı, memory/context ve son olarak harness/yaşayan sistem düşüncesine taşıyacak şekilde düzenlenmiştir.
 
+## Güncel çalışma durumu
+
+İlk 14 taslak, Batu'nun kaynak analojilerin derinliğini ve etkisini yeterince taşımadıkları yönündeki değerlendirmesi sonrasında yeniden yazım açısından gözden geçirilmektedir. Tamamlanmış yayın metinleri sayılmazlar.
+
+İlk yeni deneme [Roman analojisi — ikinci yazım](posts/01-roman-analojisi-v2.md) dosyasındadır; Batu'nun değerlendirmesi beklenmektedir. [Önceki roman taslağı](posts/01-roman-analojisi.md) karşılaştırma için korunmuştur. 02–14 numaralı postlar bu aşamada yeniden yazılmamıştır; kaynak metinlere dokunulmamıştır.
+
+Batu'nun son yönlendirmesi: Her yazının konusu kadar neden anlatılmak istendiği ve nasıl ortaya çıktığı da kendi bağlamında anlaşılmalıdır. Bilgi paylaşımı, merak, deneyim veya itiraz aynı anlatım kalıbına zorlanmaz. Üslubun her özelliği her yazıda bulunmak zorunda değildir. Kaynak konuşmalar yazma gerekçesini anlamak için kullanılır; Batu adına yaşanmamış olay, duygu veya motivasyon uydurulmaz. Bu yönlendirme, aşağıdaki rehberlerde yer alan örnek akışları zorunlu şablon olarak uygulamak anlamına gelmez.
+
 ## LinkedIn'e dönüştürme çalışma kuralı
 
 Her LinkedIn uyarlamasında iki rehber birlikte okunacaktır:
@@ -24,7 +32,7 @@ Her LinkedIn uyarlamasında iki rehber birlikte okunacaktır:
 
 ## Post taslakları — yayın sırası
 
-1. [Roman analojisi](posts/01-roman-analojisi.md)
+1. [Roman analojisi — ikinci yazım](posts/01-roman-analojisi-v2.md) · [Önceki taslak](posts/01-roman-analojisi.md)
 2. [İlk Work: işi keşfetmek](posts/02-ilk-work-isi-kesfetmek.md)
 3. [Evrensel küme / bilinmeyen bilinmeyenler](posts/03-evrensel-kume.md)
 4. [Yaşayan katmanlı plan](posts/04-yasayan-katmanli-plan.md)
