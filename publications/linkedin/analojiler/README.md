@@ -2,7 +2,22 @@
 
 Bu klasör, SOUL Research konuşmalarında Batu'nun kullandığı analojiler ve bunlardan hareketle bu konuşmada hazırlanmış uzun açıklama metinlerini taşır.
 
-Bu dosyalar henüz LinkedIn gönderisi değildir ve 2.800 karakter sınırına göre düzenlenmemiştir. Sonraki aşamada Batu bu metinlerden seçim yapacak; seçilenler ayrıca verilecek post kriterlerine göre hazırlanacaktır.
+Bu dosyalar henüz LinkedIn gönderisi değildir ve 2.800 karakter sınırına göre düzenlenmemiştir.
+
+## LinkedIn'e dönüştürme çalışma kuralı
+
+LinkedIn uyarlamalarında [Batu Yazım Rehberi](BATU-YAZIM-REHBERI.md) kullanılacaktır.
+
+Çalışma biçimi:
+
+- analojiler tek tek ele alınır;
+- her turda yalnız bir kaynak metin LinkedIn postuna dönüştürülür;
+- uzun kaynak metin korunur, post üretimi kaynak metnin yerine geçmez;
+- post bu sohbet penceresine tam metin olarak dökülmek yerine repository'ye yazılır;
+- 2.800 karakter sınırı ve Batu'nun vereceği diğer post kriterleri uygulanır;
+- rehber mekanik bir şablon değildir; öncelik düşünce akışının ve doğal sesin korunmasıdır.
+
+Post çıktılarının kesin repository yolu ilk post hazırlanırken mevcut yayın düzenine göre belirlenir; kaynak analoji dosyaları overwrite edilmez.
 
 ## Metinler
 
