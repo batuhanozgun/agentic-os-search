@@ -1,7 +1,7 @@
-# Taslak 02 — Builder–Verifier ayrımı
+# Taslak 06 — Builder–Verifier ayrımı
 
 - Durum: LinkedIn post taslağı; yayımlanmış içerik değildir.
-- Kaynak: [kaynak analoji](../02-builder-verifier-ayrimi.md)
+- Kaynak: [kaynak analoji](../06-builder-verifier-ayrimi.md)
 - Genel üslup rehberi: [BATU-YAZIM-REHBERI.md](../../../BATU-YAZIM-REHBERI.md)
 - LinkedIn yayın rehberi: [LINKEDIN-YAYIN-REHBERI.md](../../LINKEDIN-YAYIN-REHBERI.md)
 - Post gövdesi karakter sayısı: 1928

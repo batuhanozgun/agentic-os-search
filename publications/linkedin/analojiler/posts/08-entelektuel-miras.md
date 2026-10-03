@@ -1,7 +1,7 @@
-# Taslak 11 — Entelektüel miras
+# Taslak 08 — Entelektüel miras
 
 - Durum: LinkedIn post taslağı; yayımlanmış içerik değildir.
-- Kaynak: [kaynak analoji](../11-entelektuel-miras.md)
+- Kaynak: [kaynak analoji](../08-entelektuel-miras.md)
 - Genel üslup rehberi: [BATU-YAZIM-REHBERI.md](../../../BATU-YAZIM-REHBERI.md)
 - LinkedIn yayın rehberi: [LINKEDIN-YAYIN-REHBERI.md](../../LINKEDIN-YAYIN-REHBERI.md)
 - Post gövdesi karakter sayısı: 1890

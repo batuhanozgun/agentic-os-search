@@ -1,7 +1,7 @@
-# Taslak 06 — Futbolcu kartı ve ortak entelektüel taban
+# Taslak 07 — Futbolcu kartı ve ortak entelektüel taban
 
 - Durum: LinkedIn post taslağı; yayımlanmış içerik değildir.
-- Kaynak: [kaynak analoji](../06-futbolcu-karti-analojisi.md)
+- Kaynak: [kaynak analoji](../07-futbolcu-karti-analojisi.md)
 - Genel üslup rehberi: [BATU-YAZIM-REHBERI.md](../../../BATU-YAZIM-REHBERI.md)
 - LinkedIn yayın rehberi: [LINKEDIN-YAYIN-REHBERI.md](../../LINKEDIN-YAYIN-REHBERI.md)
 - Post gövdesi karakter sayısı: 1648

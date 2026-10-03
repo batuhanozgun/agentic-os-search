@@ -1,7 +1,7 @@
-# Taslak 13 — İlk Work: işi keşfetmek
+# Taslak 02 — İlk Work: işi keşfetmek
 
 - Durum: LinkedIn post taslağı; yayımlanmış içerik değildir.
-- Kaynak: [kaynak analoji](../13-ilk-work-yapilacak-isi-kesfetmektir.md)
+- Kaynak: [kaynak analoji](../02-ilk-work-yapilacak-isi-kesfetmektir.md)
 - Genel üslup rehberi: [BATU-YAZIM-REHBERI.md](../../../BATU-YAZIM-REHBERI.md)
 - LinkedIn yayın rehberi: [LINKEDIN-YAYIN-REHBERI.md](../../LINKEDIN-YAYIN-REHBERI.md)
 - Post gövdesi karakter sayısı: 2049

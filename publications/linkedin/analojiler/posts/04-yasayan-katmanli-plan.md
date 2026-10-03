@@ -1,7 +1,7 @@
-# Taslak 10 — Yaşayan katmanlı plan
+# Taslak 04 — Yaşayan katmanlı plan
 
 - Durum: LinkedIn post taslağı; yayımlanmış içerik değildir.
-- Kaynak: [kaynak analoji](../10-yasayan-katmanli-work-plani.md)
+- Kaynak: [kaynak analoji](../04-yasayan-katmanli-work-plani.md)
 - Genel üslup rehberi: [BATU-YAZIM-REHBERI.md](../../../BATU-YAZIM-REHBERI.md)
 - LinkedIn yayın rehberi: [LINKEDIN-YAYIN-REHBERI.md](../../LINKEDIN-YAYIN-REHBERI.md)
 - Post gövdesi karakter sayısı: 1905
