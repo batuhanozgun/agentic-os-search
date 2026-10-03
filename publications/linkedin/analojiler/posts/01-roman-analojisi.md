@@ -2,44 +2,45 @@
 
 - Durum: LinkedIn post taslağı; yayımlanmış içerik değildir.
 - Kaynak: [01-roman-analojisi-kullanici-talebinden-yasayan-is-tanimina.md](../01-roman-analojisi-kullanici-talebinden-yasayan-is-tanimina.md)
-- Stil rehberi: [BATU-YAZIM-REHBERI.md](../BATU-YAZIM-REHBERI.md)
-- Post gövdesi karakter sayısı: 1950
+- Genel üslup rehberi: [BATU-YAZIM-REHBERI.md](../../../BATU-YAZIM-REHBERI.md)
+- LinkedIn yayın rehberi: [LINKEDIN-YAYIN-REHBERI.md](../../LINKEDIN-YAYIN-REHBERI.md)
+- Post gövdesi karakter sayısı: 2133
 - Üst sınır: 2800
 
 ---
 
-Bir süredir agent sistemleri üzerine çalışırken şuna takıldım: Kullanıcının söylediği şey gerçekten yapılacak iş mi?
+Agentic sistemler üzerine çalışırken şuna takıldım: Kullanıcının yazdığı prompt ile sistemin yapması gereken iş aynı şey mi?
 
-Mesela biri gelip “bir roman yazmak istiyorum” dese ilk refleks romanı yazmaya başlamak olabilir. Konu, karakterler, bölümler falan.
+Mesela kullanıcı “bir roman yazmak istiyorum” dedi.
 
-Ama roman bittiğinde ne olacak?
+Tek bir chat'te ilk refleks konu, karakterler, bölümler deyip romana girişmek olabilir. Çok-rollü bir agentic sistemde ise bu daha tehlikeli. Planner bunu task'lara böler, Researcher araştırır, Writer yazar, Verifier da verilen kriterlere göre kontrol eder.
 
-Word dosyası olarak masaüstünde mi kalacak? Basılacak mı? Yayıncı mı bulunacak? Dağıtım, fiyatlama, reklam, sosyal medya işin parçası mı? Belki de hiçbirisi değil; kullanıcı gerçekten sadece kendisi için roman yazmak istiyor.
+Herkes görevini gayet düzgün yapar.
 
-Benim kafama takılan yer burası. Kullanıcının ilk söylediği cümleyi doğrudan “iş” kabul edersek, çok düzenli şekilde yanlış işi yapabiliriz.
+Ama başta yanlış işi tanımladıysak sistem yanlış şeyi çok iyi yapmış olur.
 
-Tabii bunun tersi de sorun. “Her şeyi anlamadan hiçbir şeye başlamayalım” dersek bu sefer iş hiç başlamaz.
+Çünkü “roman yaz” gerçekten ne demek?
 
-Romanı yazmaya başlamak için dağıtım şirketinin kim olacağını bilmeye gerek yok. Konu, yön ve ilk bölümü değiştirecek kritik şeyler yeterince netse yazmaya başlanabilir.
+Roman Word dosyası olarak masaüstünde mi kalacak? Basılacak mı? Yayıncı mı bulunacak? Dağıtım, fiyatlama, reklam işin parçası mı? Belki hiçbirisi değil; kullanıcı gerçekten yalnızca kendisi için yazıyordur.
 
-Sonra ilginç taraf başlıyor.
+Buradaki mesele AI'ın kullanıcıdan daha akıllı olup gizli niyet okuması değil. Tam tersine, prompt'u doğrudan executable work kabul etmemesi.
 
-Başta “dağıtımcı bulacağız” diye bir iş koymuş olabiliriz. Bir süre sonra yayıncı bulunur ve yayıncının dağıtımı zaten yaptığı ortaya çıkar. Bir anda yapılacak işler değişir. Hatta dağıtımcı bulma işi tamamen yok olur.
+Agentic bir yapıda bir yerde “hangi iş gerçekten yapılmalı?” sorusunu taşıyan bir mekanizma lazım. Adına work discovery, planning, mission qualification ne derseniz deyin. Bu illa ayrı bir agent olmak zorunda da değil.
 
-Yani iş ilerledikçe yalnız işi yapmıyoruz, işin ne olduğunu da öğreniyoruz.
+Ama bunun tersi de problem: Her şeyi tamamen anlamadan hiçbir şeye başlamamak.
 
-Yeni bilgi işi değiştiriyor; yapılan iş de yeni bilgi üretiyor. Plan da buna göre tekrar şekilleniyor.
+Romanın ilk bölümünü yazmak için dağıtım şirketinin kim olduğunu bilmeye gerek yok. İlk bölümü değiştirecek kritik belirsizlikler yeterince kapandıysa Writer başlayabilir.
 
-O yüzden “önce her şeyi anla, sonra execution’a geç” modeli bana artık fazla temiz geliyor. Gerçek işler o kadar temiz değil.
+Sonra execution'ın kendisi yeni bilgi üretir.
 
-Bence daha doğru eşik şu olabilir:
+Başta “dağıtımcı bul” diye task açmışızdır. Yayıncı bulunur, yayıncının dağıtımı da yaptığı ortaya çıkar. Task kaybolur. Başka bir bulgu hedef kitleyi değiştirir, editoryal plan değişir. Yeni bir uzman role ihtiyaç doğabilir.
 
-“Her şeyi biliyor muyum?” değil,
+Yani agentic sistemde plan sadece başlangıçta çizilen task graph değil. Çalışırken yaşayan bir state.
 
-“Şu anda başlayacağım işi değiştirecek kritik bir bilinmez hâlâ var mı?”
+Bu yüzden raw user request ile current work definition'ın da aynı şey olmaması gerektiğini düşünüyorum. İlki kaynaktır, ikincisi çalıştıkça değişen mevcut anlayış.
 
-Yoksa başla. Çalışırken öğren. Öğrendiğin şey yaptığın işi geçersiz kılıyorsa geri dön. Sonraki işi değiştiriyorsa planı değiştir.
+Bence agentic yapılardaki asıl risklerden biri yanlış cevap almak değil.
 
-Kullanıcının talebi işin başlangıcı olabilir ama işin kendisi olmayabilir.
+Yanlış işin kusursuz şekilde orkestre edilmesi.
 
-Asıl mesele verilen işi yapmak değil; yapılması gereken işi, çalışırken de kaybetmeden bulmaya devam etmek.
+Prompt başlangıç noktasıdır; task specification değil.

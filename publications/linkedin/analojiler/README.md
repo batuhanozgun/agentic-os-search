@@ -6,7 +6,10 @@ Bu dosyalar henüz LinkedIn gönderisi değildir ve 2.800 karakter sınırına g
 
 ## LinkedIn'e dönüştürme çalışma kuralı
 
-LinkedIn uyarlamalarında [Batu Yazım Rehberi](BATU-YAZIM-REHBERI.md) kullanılacaktır.
+Her LinkedIn uyarlamasında iki rehber birlikte okunacaktır:
+
+- genel üslup: [Batu Yazım Rehberi](../../BATU-YAZIM-REHBERI.md)
+- LinkedIn serisinin amaç/kapsam/agentic anlatı yönü: [LinkedIn AI Yayın Rehberi](../LINKEDIN-YAYIN-REHBERI.md)
 
 Çalışma biçimi:
 
@@ -15,13 +18,15 @@ LinkedIn uyarlamalarında [Batu Yazım Rehberi](BATU-YAZIM-REHBERI.md) kullanıl
 - uzun kaynak metin korunur, post üretimi kaynak metnin yerine geçmez;
 - post bu sohbet penceresine tam metin olarak dökülmek yerine repository'ye yazılır;
 - 2.800 karakter sınırı ve Batu'nun vereceği diğer post kriterleri uygulanır;
-- rehber mekanik bir şablon değildir; öncelik düşünce akışının ve doğal sesin korunmasıdır.
+- SOUL'a özgü fikir, LinkedIn okuyucusunun anlayacağı genel AI/agentic/harness problemine çevrilir;
+- analoji yalnız soyut fikir olarak kalmaz; agentic sistemde hangi mekanizmaya karşılık geldiği görünür hale getirilir;
+- rehberler mekanik bir şablon değildir; öncelik düşünce akışının, doğal sesin ve yayın amacının birlikte korunmasıdır.
 
 Post taslakları [posts/](posts/) altında tutulur; yayımlanmış LinkedIn arşiviyle karıştırılmaz ve kaynak analoji dosyaları overwrite edilmez.
 
 ## Post taslakları
 
-1. [Roman analojisi](posts/01-roman-analojisi.md) — ilk LinkedIn taslağı.
+1. [Roman analojisi](posts/01-roman-analojisi.md) — agentic bağ kurularak revize edilmiş ilk LinkedIn taslağı.
 
 ## Metinler
 

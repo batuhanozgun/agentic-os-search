@@ -21,7 +21,7 @@ Bu rehber aşağıdaki kaynak türlerinden çıkarıldı:
 
 Repository'deki diğer LinkedIn yazıları bu stil analizine dahil **edilmez**. Batu bu diğer yazıların ChatGPT tarafından yazıldığını açıkça belirtti; bu nedenle doğal Batu üslubuna kanıt olarak kullanılamazlar.
 
-Bu rehber yayımlanmış bir stil standardı veya değişmez kişilik tanımı değildir. LinkedIn postları hazırlanırken kullanılacak çalışma rehberidir; Batu'nun geri bildirimiyle değişebilir.
+Bu rehber yalnız LinkedIn için değildir. Batu adına hazırlanacak yazılı anlatılarda genel üslup referansıdır; mecra-özel amaç ve içerik kuralları ayrı rehberlerde tutulur. Batu'nun geri bildirimiyle değişebilir.
 
 ---
 

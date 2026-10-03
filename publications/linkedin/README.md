@@ -14,6 +14,12 @@ Metinler özetlenmedi veya düzeltilmedi. Paragraf, başlık, liste ve vurgu bi�
 
 Yazılardaki görüşler yayımlandıkları hâliyle saklanır. Bu alan agent talimatı veya kabul edilmiş araştırma sonucu oluşturmaz; `AGENT.md`, `agent/**` ve araştırma STATE kayıtlarının yetkisini değiştirmez.
 
+## Yayın çalışma rehberi
+
+Yayımlanmış arşiv ile yeni taslakların çalışma kuralları ayrıdır. Yeni AI/agentic içerik hazırlanırken [LinkedIn AI Yayın Rehberi](LINKEDIN-YAYIN-REHBERI.md) konu, amaç, okuyucu ve kavramsal yön için kullanılır. Genel Batu üslubu için [Batu Yazım Rehberi](../BATU-YAZIM-REHBERI.md) kullanılır.
+
+Bu rehberler arşivlenen eski metinlerin kaynağını veya gövdesini değiştirmez; yalnız yeni yayın hazırlama çalışmasına yön verir.
+
 ## Makaleler
 
 | Yayın tarihi | Makale |
