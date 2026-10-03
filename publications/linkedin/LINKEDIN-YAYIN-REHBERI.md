@@ -213,24 +213,24 @@ Agentic karşılığı şudur:
 
 Yani analoginin amacı “güzel fikir” değil, **agentic mekanizmayı görünür hale getirmek** olmalıdır.
 
-## 14 analojinin serideki doğal karşılıkları
+## 14 analojinin yayın sırası ve doğal karşılıkları
 
 1. **Roman / talep ≠ gerçek iş** → intent discovery, work discovery, adaptive planning.
-2. **Builder–Verifier** → maker-checker, epistemik bağımsızlık, role separation.
+2. **İlk Work işi yapmak değil işi keşfetmek** → work discovery, admission, readiness, actionable frontier.
 3. **Evrensel küme** → unknown unknowns, requirement discovery, coverage ve dış perspective.
-4. **“Hava bugün çok…”** → context activation, retrieval, doğru bilginin doğru anda görünür olması.
+4. **1–6 → 1.1–1.5 planı** → progressive decomposition, living work graph, rolling planning.
 5. **Ev–gökdelen–kulübe** → uzman routing'i, iş büyüklüğü ile epistemik kalite standardını ayırmak.
-6. **Futbolcu kartı** → specialist agents + ortak reasoning baseline.
-7. **Dosya mı bilgi mi?** → storage ile semantic memory lifecycle'ı ayırmak.
-8. **İnsan hatırlar / LLM yeniden bulur** → persistence, retrieval, continuity ve state recovery.
-9. **SOUL'u program gibi düşünmek** → harness, control flow, state transitions, mekanik guardrail'ler.
-10. **1–6 → 1.1–1.5 planı** → progressive decomposition, living work graph, rolling planning.
-11. **Entelektüel miras** → agent bootstrap, reusable reasoning knowledge, policy/knowledge inheritance.
-12. **Yatay–dikey genişleme** → capability addition + cross-cutting integration / governance.
-13. **İlk Work işi yapmak değil işi keşfetmek** → work discovery, admission, readiness, actionable frontier.
+6. **Builder–Verifier** → maker-checker, epistemik bağımsızlık, role separation.
+7. **Futbolcu kartı** → specialist agents + ortak reasoning baseline.
+8. **Entelektüel miras** → agent bootstrap, reusable reasoning knowledge, policy/knowledge inheritance.
+9. **Dosya mı bilgi mi?** → storage ile semantic memory lifecycle'ı ayırmak.
+10. **İnsan hatırlar / LLM yeniden bulur** → persistence, retrieval, continuity ve state recovery.
+11. **“Hava bugün çok…”** → context activation, retrieval, doğru bilginin doğru anda görünür olması.
+12. **SOUL'u program gibi düşünmek** → harness, control flow, state transitions, mekanik guardrail'ler.
+13. **Yatay–dikey genişleme** → capability addition + cross-cutting integration / governance.
 14. **Roket kademesi gibi ayrılmayan sistem** → base harness'in task-specific working system'e genişlemesi.
 
-Bu eşleme kesin mimari karar değildir; LinkedIn yazısının hangi agentic problemi görünür kılacağına dair yayın rotasıdır.
+Bu sıra aynı zamanda önerilen yayın sırasıdır. Eşleme kesin mimari karar değildir; LinkedIn yazısının hangi agentic problemi görünür kılacağına dair yayın rotasıdır.
 
 ---
 
